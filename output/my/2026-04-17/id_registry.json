@@ -1,0 +1,1309 @@
+{
+  "description": "马来西亚组织与人物ID注册表",
+  "id_rule": {
+    "format": "{ISO2}-{TYPE}-{SEQ}",
+    "ISO2": "组织所属国家的ISO 3166-1 alpha-2代码 (MY)",
+    "TYPE": "GOV/SOE/CORP/NGO/ACAD/MEDIA/FIN/INTL/PARTY/MIL",
+    "SEQ": "3位顺序号"
+  },
+  "registry": [
+    {
+      "org_id": "MY-GOV-001",
+      "name": "马来西亚最高元首 (Yang di-Pertuan Agong)",
+      "org_type": "GOV",
+      "org_subtype": "head_of_state",
+      "wikidata_qid": "Q174156",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-002",
+      "name": "马来西亚政府 (Government of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "cabinet",
+      "wikidata_qid": "Q5589240",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-003",
+      "name": "马来西亚内阁 (Cabinet of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "cabinet",
+      "wikidata_qid": "Q846488",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-004",
+      "name": "马来西亚首相署 (Prime Minister's Department)",
+      "org_type": "GOV",
+      "org_subtype": "gov_department",
+      "wikidata_qid": "Q3756431",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-005",
+      "name": "马来西亚财政部 (Ministry of Finance Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q7361911",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-006",
+      "name": "马来西亚外交部 (Ministry of Foreign Affairs Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q7462402",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-007",
+      "name": "马来西亚国防部 (Ministry of Defence Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q6868977",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-008",
+      "name": "马来西亚内政部 (Ministry of Home Affairs Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294304",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-009",
+      "name": "马来西亚教育部 (Ministry of Education Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q3816079",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-010",
+      "name": "马来西亚卫生部 (Ministry of Health Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294352",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-011",
+      "name": "马来西亚国际贸易与工业部 (Ministry of International Trade and Industry (MITI))",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q6868988",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-012",
+      "name": "马来西亚交通部 (Ministry of Transport Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q6867616",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-013",
+      "name": "马来西亚工程部 (Ministry of Works Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q6867660",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-014",
+      "name": "马来西亚经济部 (Ministry of Economy)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q61113253",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-015",
+      "name": "马来西亚数码部 (Ministry of Digital)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q124289531",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-016",
+      "name": "马来西亚人力资源部 (Ministry of Human Resources)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q6867162",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-017",
+      "name": "马来西亚农业及粮食安全部 (Ministry of Agriculture and Food Security)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q22222773",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-018",
+      "name": "马来西亚国会 (Parliament of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "legislature",
+      "wikidata_qid": "Q2986392",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-019",
+      "name": "马来西亚下议院 (Dewan Rakyat)",
+      "org_type": "GOV",
+      "org_subtype": "legislature",
+      "wikidata_qid": "Q1207092",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-020",
+      "name": "马来西亚上议院 (Dewan Negara)",
+      "org_type": "GOV",
+      "org_subtype": "legislature",
+      "wikidata_qid": "Q1207095",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-021",
+      "name": "马来西亚联邦法院 (Federal Court of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": "Q5440171",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-022",
+      "name": "马来西亚上诉庭 (Court of Appeal of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": "Q5178325",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-023",
+      "name": "马来西亚国家银行（央行） (Bank Negara Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "regulatory_agency",
+      "wikidata_qid": "Q806646",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-024",
+      "name": "马来西亚证券监督委员会 (Securities Commission Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "regulatory_agency",
+      "wikidata_qid": "Q7444145",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-025",
+      "name": "马来西亚反贪污委员会 (Malaysian Anti-Corruption Commission (MACC))",
+      "org_type": "GOV",
+      "org_subtype": "independent_organ",
+      "wikidata_qid": "Q6741935",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-026",
+      "name": "马来西亚选举委员会 (Election Commission of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "independent_organ",
+      "wikidata_qid": "Q5354512",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-027",
+      "name": "马来西亚审计署 (Auditor General of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "independent_organ",
+      "wikidata_qid": "Q7362924",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-028",
+      "name": "马来西亚通讯及多媒体委员会 (Malaysian Communications and Multimedia Commission (MCMC))",
+      "org_type": "GOV",
+      "org_subtype": "regulatory_agency",
+      "wikidata_qid": "Q4263019",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-029",
+      "name": "马来西亚内陆税收局 (Inland Revenue Board of Malaysia (LHDN))",
+      "org_type": "GOV",
+      "org_subtype": "statutory_board",
+      "wikidata_qid": "Q7377230",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-GOV-030",
+      "name": "马来西亚总检察署 (Attorney General's Chambers of Malaysia)",
+      "org_type": "GOV",
+      "org_subtype": "gov_department",
+      "wikidata_qid": "Q4818655",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-001",
+      "name": "马来西亚国家石油公司 (Petronas)",
+      "org_type": "SOE",
+      "org_subtype": "state_owned_enterprise",
+      "wikidata_qid": "Q221692",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-002",
+      "name": "马来西亚国库控股 (Khazanah Nasional)",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q4382207",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-003",
+      "name": "马来西亚国民投资机构 (Permodalan Nasional Berhad (PNB))",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q4206786",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-004",
+      "name": "雇员公积金局 (Employees Provident Fund (EPF))",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q5374309",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-005",
+      "name": "退休基金局 (Retirement Fund Incorporated (KWAP))",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q7314079",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-006",
+      "name": "武装部队基金局 (Armed Forces Fund Board (LTAT))",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q12695818",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-007",
+      "name": "马来西亚国家能源 (Tenaga Nasional Berhad (TNB))",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q1584297",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-008",
+      "name": "马来西亚电信 (Telekom Malaysia Berhad (TM))",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q1640639",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-009",
+      "name": "森那美集团 (Sime Darby Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q1146772",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-010",
+      "name": "马来西亚航空 (Malaysia Airlines Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q308952",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-011",
+      "name": "马来西亚机场控股 (Malaysia Airports Holdings Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4202182",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-012",
+      "name": "MRT企业 (MRT Corporation)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q56480062",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-013",
+      "name": "马来西亚基建公司 (Prasarana Malaysia)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4209298",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-014",
+      "name": "南北大道公司 (PLUS Malaysia Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4384792",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-015",
+      "name": "马来西亚朝圣基金局 (Lembaga Tabung Haji)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4022849",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-016",
+      "name": "UEM集团 (UEM Group Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q7873321",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-017",
+      "name": "马来西亚联邦土地发展局 (FELDA)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q112020",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-018",
+      "name": "宝德集团 (Boustead Holdings Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4950414",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-019",
+      "name": "马来西亚国际船务 (MISC Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q1886831",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-020",
+      "name": "DRB-HICOM集团 (DRB-HICOM Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q1155372",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-021",
+      "name": "MMC集团 (MMC Corporation Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q6716759",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-022",
+      "name": "马拉科夫公司 (Malakoff Corporation Berhad)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q6741177",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-SOE-023",
+      "name": "农业银行 (Agrobank)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4694216",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-001",
+      "name": "联昌银行集团 (CIMB Group Holdings)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q3045976",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-002",
+      "name": "大众银行 (Public Bank Berhad)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q3046561",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-003",
+      "name": "亚通集团 (Axiata Group)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q792500",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-004",
+      "name": "杨忠礼集团 (YTL Corporation)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q842437",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-005",
+      "name": "丰隆集团（马来西亚） (Hong Leong Group Malaysia)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q4206859",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-006",
+      "name": "天地通数码 (CelcomDigi Berhad)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q3268530",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-007",
+      "name": "IOI集团 (IOI Corporation)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q1654264",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-008",
+      "name": "吉隆坡甲洞集团 (Kuala Lumpur Kepong Berhad)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q24259",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-009",
+      "name": "云顶集团 (Genting Group)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q1190323",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-010",
+      "name": "Grab控股 (Grab Holdings)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q20873932",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-011",
+      "name": "玛利亚快餐 (Marrybrown)",
+      "org_type": "CORP",
+      "org_subtype": "private_company",
+      "wikidata_qid": "Q3380773",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-CORP-012",
+      "name": "国油石化集团 (Petronas Chemicals Group)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q7168409",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-FIN-001",
+      "name": "马来西亚交易所 (Bursa Malaysia)",
+      "org_type": "FIN",
+      "org_subtype": "asset_management",
+      "wikidata_qid": "Q43335",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-FIN-002",
+      "name": "马来西亚伊斯兰银行 (Bank Islam Malaysia)",
+      "org_type": "FIN",
+      "org_subtype": "commercial_bank",
+      "wikidata_qid": "Q4115279",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-FIN-003",
+      "name": "安联银行集团 (AmBank Group)",
+      "org_type": "FIN",
+      "org_subtype": "commercial_bank",
+      "wikidata_qid": "Q4132947",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-FIN-004",
+      "name": "RHB银行 (RHB Bank)",
+      "org_type": "FIN",
+      "org_subtype": "commercial_bank",
+      "wikidata_qid": "Q4207443",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-FIN-005",
+      "name": "Affin银行 (Affin Bank)",
+      "org_type": "FIN",
+      "org_subtype": "commercial_bank",
+      "wikidata_qid": "Q4688929",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-FIN-006",
+      "name": "马来西亚发展银行 (Bank Pembangunan Malaysia)",
+      "org_type": "FIN",
+      "org_subtype": "commercial_bank",
+      "wikidata_qid": "Q94934415",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-001",
+      "name": "马来亚大学 (Universiti Malaya)",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1142924",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-002",
+      "name": "马来西亚国民大学 (Universiti Kebangsaan Malaysia (UKM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1444125",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-003",
+      "name": "马来西亚理科大学 (Universiti Sains Malaysia (USM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1973130",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-004",
+      "name": "马来西亚博特拉大学 (Universiti Putra Malaysia (UPM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1458579",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-005",
+      "name": "马来西亚工艺大学 (Universiti Teknologi Malaysia (UTM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q24401",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-006",
+      "name": "马来西亚玛拉工艺大学 (Universiti Teknologi MARA (UiTM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1576899",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-007",
+      "name": "马来西亚国际伊斯兰大学 (International Islamic University Malaysia (IIUM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1524992",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-008",
+      "name": "马来西亚北方大学 (Universiti Utara Malaysia (UUM))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1723289",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-009",
+      "name": "马来西亚沙巴大学 (Universiti Malaysia Sabah (UMS))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1142275",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-010",
+      "name": "马来西亚砂拉越大学 (Universiti Malaysia Sarawak (UNIMAS))",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q1141386",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-011",
+      "name": "泰勒大学 (Taylor's University)",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q841775",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-012",
+      "name": "双威大学 (Sunway University)",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q4475815",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-ACAD-013",
+      "name": "马来西亚战略与国际问题研究所 (Institute of Strategic and International Studies Malaysia (ISIS))",
+      "org_type": "ACAD",
+      "org_subtype": "think_tank",
+      "wikidata_qid": "Q46487543",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-001",
+      "name": "马来西亚广播电视 (Radio Televisyen Malaysia (RTM))",
+      "org_type": "MEDIA",
+      "org_subtype": "broadcaster",
+      "wikidata_qid": "Q177747",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-002",
+      "name": "马来西亚Astro集团 (Astro Malaysia Holdings)",
+      "org_type": "MEDIA",
+      "org_subtype": "broadcaster",
+      "wikidata_qid": "Q3242264",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-003",
+      "name": "首要媒体集团 (Media Prima Berhad)",
+      "org_type": "MEDIA",
+      "org_subtype": "broadcaster",
+      "wikidata_qid": "Q6805531",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-004",
+      "name": "星报 (The Star (Malaysia))",
+      "org_type": "MEDIA",
+      "org_subtype": "newspaper",
+      "wikidata_qid": "Q3522843",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-005",
+      "name": "新海峡时报 (New Straits Times)",
+      "org_type": "MEDIA",
+      "org_subtype": "newspaper",
+      "wikidata_qid": "Q1953092",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-006",
+      "name": "马来西亚前锋报 (Utusan Malaysia)",
+      "org_type": "MEDIA",
+      "org_subtype": "newspaper",
+      "wikidata_qid": "Q863351",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-007",
+      "name": "当今大马 (Malaysiakini)",
+      "org_type": "MEDIA",
+      "org_subtype": "digital_media",
+      "wikidata_qid": "Q4918709",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-008",
+      "name": "今日自由大马 (Free Malaysia Today)",
+      "org_type": "MEDIA",
+      "org_subtype": "digital_media",
+      "wikidata_qid": "Q5499915",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MEDIA-009",
+      "name": "马来西亚国家新闻社 (Bernama)",
+      "org_type": "MEDIA",
+      "org_subtype": "news_agency",
+      "wikidata_qid": "Q822202",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-001",
+      "name": "马来民族统一机构 (United Malays National Organisation (UMNO))",
+      "org_type": "PARTY",
+      "org_subtype": "ruling_party",
+      "wikidata_qid": "Q1668154",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-002",
+      "name": "人民公正党 (People's Justice Party (PKR))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q1756601",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-003",
+      "name": "民主行动党 (Democratic Action Party (DAP))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q1185837",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-004",
+      "name": "马来西亚伊斯兰党 (Malaysian Islamic Party (PAS))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q1547025",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-005",
+      "name": "国民阵线 (Barisan Nasional (BN))",
+      "org_type": "PARTY",
+      "org_subtype": "coalition",
+      "wikidata_qid": "Q808210",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-006",
+      "name": "希望联盟 (Pakatan Harapan (PH))",
+      "org_type": "PARTY",
+      "org_subtype": "coalition",
+      "wikidata_qid": "Q21004257",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-007",
+      "name": "国民联盟 (Perikatan Nasional (PN))",
+      "org_type": "PARTY",
+      "org_subtype": "coalition",
+      "wikidata_qid": "Q86890510",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-008",
+      "name": "马来西亚华人公会 (Malaysian Chinese Association (MCA))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q1886920",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-009",
+      "name": "马来西亚印度国民大会党 (Malaysian Indian Congress (MIC))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q958983",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-010",
+      "name": "国家诚信党 (National Trust Party (Amanah))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q4919308",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-011",
+      "name": "土保党 (Parti Pesaka Bumiputera Bersatu (PBB))",
+      "org_type": "PARTY",
+      "org_subtype": "ruling_party",
+      "wikidata_qid": "Q4918646",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-012",
+      "name": "砂拉越政党联盟 (Gabungan Parti Sarawak (GPS))",
+      "org_type": "PARTY",
+      "org_subtype": "coalition",
+      "wikidata_qid": "Q54929147",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-013",
+      "name": "土著团结党 (Parti Pribumi Bersatu Malaysia (Bersatu))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q26871088",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-014",
+      "name": "马来西亚社会主义党 (Socialist Party of Malaysia (PSM))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q857555",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-015",
+      "name": "沙巴团结党 (United Sabah Party (PBS))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q1635641",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-PARTY-016",
+      "name": "砂拉越人民联合党 (Sarawak United Peoples' Party (SUPP))",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q1100205",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-NGO-001",
+      "name": "马来西亚红新月会 (Malaysian Red Crescent Society)",
+      "org_type": "NGO",
+      "org_subtype": "humanitarian_org",
+      "wikidata_qid": "Q6742015",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-NGO-002",
+      "name": "马来西亚慈悲援助 (MERCY Malaysia)",
+      "org_type": "NGO",
+      "org_subtype": "humanitarian_org",
+      "wikidata_qid": "Q6818776",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-NGO-003",
+      "name": "透明国际马来西亚分会 (Transparency International Malaysia)",
+      "org_type": "NGO",
+      "org_subtype": "advocacy_group",
+      "wikidata_qid": "Q20462768",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-NGO-004",
+      "name": "马来西亚自然学会 (Malaysian Nature Society)",
+      "org_type": "NGO",
+      "org_subtype": "advocacy_group",
+      "wikidata_qid": "Q6741998",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-INTL-001",
+      "name": "东盟秘书处 (ASEAN Secretariat)",
+      "org_type": "INTL",
+      "org_subtype": "multilateral_org",
+      "wikidata_qid": "Q7768",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-INTL-002",
+      "name": "伊斯兰开发银行 (Islamic Development Bank (IsDB))",
+      "org_type": "INTL",
+      "org_subtype": "multilateral_org",
+      "wikidata_qid": "Q41230",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MIL-001",
+      "name": "马来西亚武装部队 (Malaysian Armed Forces (ATM))",
+      "org_type": "MIL",
+      "org_subtype": "armed_forces",
+      "wikidata_qid": "Q1073939",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MIL-002",
+      "name": "马来西亚皇家海军 (Royal Malaysian Navy (TLDM))",
+      "org_type": "MIL",
+      "org_subtype": "armed_forces",
+      "wikidata_qid": "Q861530",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MIL-003",
+      "name": "马来西亚皇家空军 (Royal Malaysian Air Force (TUDM))",
+      "org_type": "MIL",
+      "org_subtype": "armed_forces",
+      "wikidata_qid": "Q224577",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MIL-004",
+      "name": "马来西亚陆军 (Malaysian Army (TDM))",
+      "org_type": "MIL",
+      "org_subtype": "armed_forces",
+      "wikidata_qid": "Q1533593",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "MY-MIL-005",
+      "name": "马来西亚政治部（特勤局） (Special Branch Malaysia)",
+      "org_type": "MIL",
+      "org_subtype": "intelligence_agency",
+      "wikidata_qid": "Q1886909",
+      "status": "profiled",
+      "notes": null
+    }
+  ],
+  "counters": {
+    "SG": {
+      "GOV": 30,
+      "SOE": 23,
+      "CORP": 12,
+      "FIN": 6,
+      "ACAD": 13,
+      "MEDIA": 9,
+      "PARTY": 16,
+      "NGO": 4,
+      "INTL": 2,
+      "MIL": 5
+    }
+  },
+  "person_registry": [
+    {
+      "person_id": "MY-PERSON-000001",
+      "name": "李深靜 (Lee Shin Cheng)",
+      "wikidata_qid": "Q1811989",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-CORP-007"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000002",
+      "name": "阿卜杜勒·瓦希德·奥马尔 (Abdul Wahid Omar)",
+      "wikidata_qid": "Q16733744",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-FIN-001"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000003",
+      "name": "苏丹阿都拉 (Abdullah of Pahang)",
+      "wikidata_qid": "Q15467111",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-001"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000004",
+      "name": "苏丹依布拉欣·依斯迈 (Ibrahim Iskandar of Johor)",
+      "wikidata_qid": "Q2657043",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-001"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000005",
+      "name": "安华·依布拉欣 (Anwar Ibrahim)",
+      "wikidata_qid": "Q299574",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-005",
+        "MY-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000006",
+      "name": "阿都拉萨·胡先 (Abdul Razak Hussein)",
+      "wikidata_qid": "Q264516",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-009"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000007",
+      "name": "莫哈末基尔·佐哈里 (Khir Johari)",
+      "wikidata_qid": "Q1591700",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-009"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000008",
+      "name": "凯里·嘉马鲁丁 (Khairy Jamaluddin)",
+      "wikidata_qid": "Q1449940",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-010"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000009",
+      "name": "亚历山大南塔林奇 (Alexander Nanta Linggi)",
+      "wikidata_qid": "Q4719738",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-013"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000010",
+      "name": "哥宾星 (Gobind Singh Deo)",
+      "wikidata_qid": "Q5575520",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-015"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000011",
+      "name": "诺珊茜雅 (Nor Shamsiah Mohd Yunus)",
+      "wikidata_qid": "Q56702497",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-023"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000012",
+      "name": "Shaik Abdul Rasheed Abdul Ghaffour",
+      "wikidata_qid": "Q127889656",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-GOV-023"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000013",
+      "name": "纳吉·阿都拉萨 (Najib Razak)",
+      "wikidata_qid": "Q57675",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000014",
+      "name": "陈国伟 (Tan Kok Wai)",
+      "wikidata_qid": "Q7682080",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000015",
+      "name": "卡巴星 (Karpal Singh)",
+      "wikidata_qid": "Q6373289",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000016",
+      "name": "哈迪阿旺 (Abdul Hadi Awang)",
+      "wikidata_qid": "Q2495157",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000017",
+      "name": "阿末扎希 (Ahmad Zahid Hamidi)",
+      "wikidata_qid": "Q4695503",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-005"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000018",
+      "name": "魏家祥 (Wee Ka Siong)",
+      "wikidata_qid": "Q7979293",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-008"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000019",
+      "name": "廖中莱 (Liow Tiong Lai)",
+      "wikidata_qid": "Q1049213",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-008"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000020",
+      "name": "慕尤丁 (Muhyiddin Yassin)",
+      "wikidata_qid": "Q1060949",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-013"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000021",
+      "name": "再也古玛 (Michael Jeyakumar Devaraj)",
+      "wikidata_qid": "Q3524062",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-014"
+      ]
+    },
+    {
+      "person_id": "MY-PERSON-000022",
+      "name": "百林吉丁岸 (Joseph Pairin Kitingan)",
+      "wikidata_qid": "Q551372",
+      "status": "profiled",
+      "source_orgs": [
+        "MY-PARTY-015"
+      ]
+    }
+  ],
+  "person_counters": {
+    "MY": 22
+  }
+}

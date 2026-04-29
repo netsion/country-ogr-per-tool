@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "country": "Singapore",
+    "country_iso": "SG",
+    "country_qid": "Q334",
+    "collection_date": "2026-04-15",
+    "phase": "phase1_broad_scan",
+    "categories_covered": ["GOV", "PARTY"],
+    "subcategories_covered": ["legislature", "ruling_party"],
+    "depth": "overview",
+    "total_organizations": 2
+  },
+  "organizations": [
+    {
+      "id": "SG-GOV-001",
+      "wikidata_qid": "Q854791",
+      "name": "新加坡国会",
+      "aliases": ["Parliament of Singapore", "Parlimen Singapura", "PARL"],
+      "category": "GOV",
+      "subcategory": "Legislature",
+      "description": "新加坡共和国的一院制立法机关，沿袭威斯敏斯特议会制度，与新加坡总统共同组成国家立法机构。由民选议员（97人）、非选区议员（2人）和官委议员（9人）组成。现为2025年大选后成立的第15届国会。",
+      "headquarters": "新加坡国会大厦（Parliament House），市中心区",
+      "country": "SG",
+      "founded": "1965-08-09",
+      "website": "https://www.parliament.gov.sg",
+      "parent_organization": null,
+      "key_people": [
+        {"title": "议长", "name": "谢健平 (Seah Kian Peng)", "since": "2023-08-02"},
+        {"title": "第一副议长", "name": "迪舒沙 (Christopher de Souza)", "since": "2020-08-31"},
+        {"title": "第二副议长", "name": "谢耀全 (Xie Yao Quan)", "since": "2025-09-22"},
+        {"title": "国会领袖", "name": "英兰妮 (Indranee Rajah)", "since": "2020-08-24"},
+        {"title": "总理", "name": "黄循财 (Lawrence Wong)", "since": "2024-05-15"},
+        {"title": "国会秘书", "name": "萧明汉 (Siow Peng Han)", "since": "2025-09-23"}
+      ],
+      "relationships": [
+        {"type": "parent_org", "target_name": "新加坡政府"}
+      ],
+      "sources": [
+        {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Parliament_of_Singapore"},
+        {"type": "wikipedia", "url": "https://zh.wikipedia.org/zh-sg/%E6%96%B0%E5%8A%A0%E5%9D%A1%E5%9C%8B%E6%9C%83"},
+        {"type": "official_website", "url": "https://www.parliament.gov.sg"},
+        {"type": "web_search", "url": "https://www.sgdi.gov.sg/organs-of-state/parl"}
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SG-PARTY-001",
+      "wikidata_qid": "Q371395",
+      "name": "人民行动党",
+      "aliases": ["People's Action Party", "PAP", "Parti Tindakan Rakyat", "PETIR"],
+      "category": "PARTY",
+      "subcategory": "Ruling Party",
+      "description": "新加坡执政党，成立于1954年11月21日，自1959年以来连续执政。中间偏右政党，结合社会保守主义与经济自由主义。现任秘书长为黄循财，2025年大选中赢得87/97个民选议席。",
+      "headquarters": "Block 57B New Upper Changi Road #01-1402, Singapore 463057",
+      "country": "SG",
+      "founded": "1954-11-21",
+      "website": "https://www.pap.org.sg",
+      "parent_organization": null,
+      "key_people": [
+        {"title": "秘书长", "name": "黄循财 (Lawrence Wong)", "since": "2024-12-04"},
+        {"title": "主席", "name": "李智陞 (Desmond Lee)", "since": "2025-05-29"},
+        {"title": "副主席", "name": "马善高 (Masagos Zulkifli)", "since": "2024-12-04"},
+        {"title": "助理秘书长", "name": "陈振声 (Chan Chun Sing)", "since": "2024-12-04"},
+        {"title": "财政", "name": "王乙康 (Ong Ye Kung)", "since": "2024-12-04"}
+      ],
+      "relationships": [
+        {"type": "successor", "target_name": "民主行动党 (DAP, 马来西亚)"},
+        {"type": "predecessor", "target_name": "Malayan Forum"},
+        {"type": "affiliated", "target_name": "全国职工总会 (NTUC)"}
+      ],
+      "sources": [
+        {"type": "wikipedia", "url": "https://en.wikipedia.org/wiki/People%27s_Action_Party"},
+        {"type": "wikidata", "url": "https://www.wikidata.org/wiki/Q371395"},
+        {"type": "official_website", "url": "https://www.pap.org.sg"},
+        {"type": "web_search", "url": "https://www.channelnewsasia.com/singapore/pap-cec-lawrence-wong-secretary-general-four-co-opted-4786521"}
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "summary": {
+    "by_category": {
+      "GOV": {
+        "count": 1,
+        "subcategories": {"legislature": 1},
+        "top_orgs": ["新加坡国会"]
+      },
+      "PARTY": {
+        "count": 1,
+        "subcategories": {"ruling_party": 1},
+        "top_orgs": ["人民行动党"]
+      }
+    },
+    "data_quality": {
+      "verified_count": 2,
+      "unverified_count": 0,
+      "completeness_pct": 100
+    }
+  }
+}
