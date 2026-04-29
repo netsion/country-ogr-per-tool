@@ -834,7 +834,7 @@ python .claude/skills/country-org-collector/scripts/update_person_list.py output
 4. political_stances — 政治立场（含 source URL）
 5. person_relationships — 人际关系网络（含 person_id 交叉引用）
 6. social_accounts — 社交媒体（LinkedIn/Twitter/Facebook/Instagram/Tiktok/Youtube）
-7. family_members — 家庭信息（relationship 必须使用 enum 值：spouse/son/daughter 等；name 不可为 null，搜不到姓名则不写入该条）
+7. family_members — 家庭信息（relationship 必须使用 enum 值：spouse/son/daughter 等；name 必须是真实姓名，搜不到则不写入该条）
 8. major_achievements — 主要成就
 
 ⚠️ 字段名严格约束（写入前逐条对照）：
@@ -880,7 +880,7 @@ contacts[]:             type | value | source
 
 必填字段禁止为空（无法填写则整条记录删除，不要写入空壳条目）：
 - `person_relationships[].person_name` — 不知道名字就不写这条关系
-- `family_members[].name` — 不知道姓名就不写这条
+- `family_members[].name` — 必须是真实全名（如"金惠京"、"张旭"）。以下均为无效占位符，出现任何一种则删除该条：`未公开`、`姓名未公开`、`不详`、`未知`、纯关系词（`配偶`/`长子`/`次子`/`长女`/`次女`/`父亲`/`母亲`/`儿子`/`女儿`/`三子`）、仅姓氏（`李氏`/`赵氏`/`韩氏`）、括号描述（`（一子）`/`（妻子）`/`（长女）`）、关系+出生信息（`长女（2006年出生）`/`长子（约1994年生）`）。不确定姓名就宁可不写这条。
 - `political_stances[].stance_content` — 没有内容就不写这条
 - `major_achievements[].achievement` — 没有描述就不写这条
 
