@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://apec-osint-tool.org/schemas/person_list.json",
+  "title": "APEC OSINT Person List (Phase 5)",
+  "description": "Phase 5 person list output: a list of persons discovered from org profiles and broad web/Wikidata searches",
+  "type": "object",
+  "required": ["metadata", "persons", "summary"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["country", "country_iso", "collection_date", "phase", "source_org_count", "total_persons"],
+      "additionalProperties": false,
+      "properties": {
+        "country": {
+          "type": "string",
+          "description": "Full English country name",
+          "examples": ["Singapore"]
+        },
+        "country_iso": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2 code"
+        },
+        "collection_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "phase": {
+          "type": "string",
+          "const": "phase4_person_list"
+        },
+        "source_org_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of org profiles scanned"
+        },
+        "total_persons": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "persons": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/person_entry" }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["by_importance_level", "by_discovery_source", "data_quality"],
+      "additionalProperties": false,
+      "properties": {
+        "by_importance_level": {
+          "type": "object",
+          "properties": {
+            "high": { "type": "integer" },
+            "medium": { "type": "integer" },
+            "low": { "type": "integer" }
+          }
+        },
+        "by_discovery_source": {
+          "type": "object",
+          "properties": {
+            "key_people": { "type": "integer" },
+            "web_search": { "type": "integer" },
+            "wikidata": { "type": "integer" },
+            "wikipedia": { "type": "integer" },
+            "other": { "type": "integer" }
+          }
+        },
+        "data_quality": {
+          "type": "object",
+          "properties": {
+            "with_person_id": { "type": "integer" },
+            "with_wikidata_qid": { "type": "integer" },
+            "without_person_id": { "type": "integer" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "importance_level_enum": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "discovery_source_enum": {
+      "type": "string",
+      "enum": ["key_people", "web_search", "wikidata", "wikipedia", "other"]
+    },
+    "person_entry": {
+      "type": "object",
+      "required": ["person_id", "name", "importance_level", "source_orgs"],
+      "additionalProperties": false,
+      "properties": {
+        "person_id": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}-PERSON-[0-9]{6}$",
+          "description": "Unique person identifier: {ISO2}-PERSON-{SEQ(6-digit)}",
+          "examples": ["SG-PERSON-000001"]
+        },
+        "wikidata_qid": {
+          "type": ["string", "null"],
+          "pattern": "^Q[0-9]+$",
+          "description": "Wikidata entity ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Primary display name (may include both Chinese and English)"
+        },
+        "name_zh": {
+          "type": ["string", "null"],
+          "description": "Chinese name"
+        },
+        "name_en": {
+          "type": ["string", "null"],
+          "description": "English name"
+        },
+        "importance_level": {
+          "$ref": "#/$defs/importance_level_enum"
+        },
+        "importance_reason": {
+          "type": ["string", "null"],
+          "description": "Why this importance level was assigned",
+          "examples": ["现任总理", "普通议员"]
+        },
+        "source_orgs": {
+          "type": "array",
+          "description": "Organizations where this person was discovered",
+          "items": {
+            "type": "object",
+            "required": ["org_id", "org_name", "position_title"],
+            "additionalProperties": false,
+            "properties": {
+              "org_id": { "type": "string" },
+              "org_name": { "type": "string" },
+              "position_title": { "type": "string" }
+            }
+          }
+        },
+        "discovery_source": {
+          "$ref": "#/$defs/discovery_source_enum",
+          "description": "How this person was first discovered"
+        },
+        "nationality": {
+          "type": ["string", "null"],
+          "description": "ISO 3166-1 alpha-2 nationality code"
+        },
+        "notes": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}

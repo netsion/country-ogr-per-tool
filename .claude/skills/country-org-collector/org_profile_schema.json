@@ -1,0 +1,506 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://apec-osint-tool.org/schemas/org_profile.json",
+  "title": "APEC OSINT Organization Profile",
+  "description": "Phase 3 org profile schema for a single organization",
+  "type": "object",
+  "required": ["org_id", "basic_info"],
+  "additionalProperties": false,
+  "properties": {
+    "org_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-[A-Z]+-[0-9]{3}$",
+      "description": "Unique org identifier: {ISO2}-{TYPE}-{SEQ}",
+      "examples": ["SG-GOV-001", "SG-SOE-001"]
+    },
+    "basic_info": {
+      "type": "object",
+      "required": ["name_original", "name_en", "org_type", "org_subtype", "country_iso3", "hq_country_iso3"],
+      "additionalProperties": false,
+      "properties": {
+        "name_original": {
+          "type": "string",
+          "description": "Name in the org's official/primary language",
+          "examples": ["Monetary Authority of Singapore"]
+        },
+        "name_zh": {
+          "type": ["string", "null"],
+          "description": "Chinese name if applicable",
+          "examples": ["新加坡金融管理局"]
+        },
+        "name_en": {
+          "type": "string",
+          "description": "Official English name",
+          "examples": ["Monetary Authority of Singapore"]
+        },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Abbreviations, former names, other names",
+          "examples": [["MAS"]]
+        },
+        "org_type": {
+          "$ref": "#/$defs/org_type_enum"
+        },
+        "org_subtype": {
+          "$ref": "#/$defs/org_subtype_enum"
+        },
+        "country_iso3": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 3166-1 alpha-3 of country the org belongs to",
+          "examples": ["SGP"]
+        },
+        "hq_country_iso3": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 3166-1 alpha-3 of HQ location country",
+          "examples": ["SGP"]
+        },
+        "founded_date": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+          "description": "Full date in YYYY-MM-DD format. Use -01 for unknown month/day.",
+          "examples": ["1971-01-01"]
+        },
+        "website": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "examples": ["https://www.mas.gov.sg"]
+        }
+      }
+    },
+    "social_accounts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/social_account" },
+      "default": []
+    },
+    "digital_assets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/digital_asset" },
+      "default": []
+    },
+    "key_people": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/key_person" },
+      "default": []
+    },
+    "departments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/department" },
+      "default": []
+    },
+    "recent_events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/recent_event" },
+      "default": []
+    },
+    "related_entities": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/related_entity" },
+      "default": []
+    },
+    "core_business": {
+      "type": ["string", "null"],
+      "description": "Description of the org's core functions, business, or mission"
+    },
+    "industries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/industry_enum" },
+      "default": [],
+      "description": "Relevant industries for this organization; applicable to all org_types"
+    },
+    "apec_stance": {
+      "type": ["string", "null"],
+      "description": "Org's relationship with / stance on APEC matters"
+    },
+    "profile": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "description": "Logo or photo image reference",
+      "properties": {
+        "source_url": { "type": ["string", "null"], "description": "Original image URL (e.g. Wikipedia/Wikidata logo)" },
+        "local_path": { "type": ["string", "null"], "description": "Local downloaded path relative to output dir, e.g. photos/SG-GOV-001.png" }
+      }
+    },
+    "collection_meta": {
+      "$ref": "#/$defs/collection_metadata"
+    }
+  },
+
+  "$defs": {
+
+    "org_type_enum": {
+      "type": "string",
+      "enum": ["GOV", "SOE", "CORP", "NGO", "ACAD", "MEDIA", "FIN", "INTL", "PARTY", "MIL"]
+    },
+
+    "org_subtype_enum": {
+      "type": "string",
+      "enum": [
+        "head_of_state",
+        "cabinet",
+        "ministry",
+        "statutory_board",
+        "regulatory_agency",
+        "legislature",
+        "judiciary",
+        "independent_organ",
+        "gov_department",
+        "local_government",
+        "state_owned_enterprise",
+        "sovereign_wealth_fund",
+        "gov_linked_company",
+        "gov_investment_vehicle",
+        "publicly_listed",
+        "private_company",
+        "startup",
+        "subsidiary",
+        "joint_venture",
+        "holding_company",
+        "conglomerate",
+        "charity",
+        "foundation",
+        "advocacy_group",
+        "professional_association",
+        "trade_union",
+        "humanitarian_org",
+        "religious_org",
+        "community_org",
+        "university",
+        "research_institute",
+        "think_tank",
+        "polytechnic",
+        "vocational_school",
+        "broadcaster",
+        "newspaper",
+        "news_agency",
+        "digital_media",
+        "publisher",
+        "commercial_bank",
+        "investment_bank",
+        "insurance_company",
+        "asset_management",
+        "fintech",
+        "payment_institution",
+        "multilateral_org",
+        "regional_org",
+        "standards_body",
+        "ruling_party",
+        "opposition_party",
+        "coalition",
+        "armed_forces",
+        "intelligence_agency",
+        "security_agency",
+        "defence_technology",
+        "military_academy"
+      ]
+    },
+
+    "industry_enum": {
+      "type": "string",
+      "enum": [
+        "aerospace_defense",
+        "agriculture_food",
+        "asset_management",
+        "automotive",
+        "aviation",
+        "banking",
+        "biotechnology",
+        "broadcasting",
+        "chemicals",
+        "civil_service",
+        "cloud_computing",
+        "construction",
+        "consulting",
+        "consumer_electronics",
+        "cryptocurrency_digital_assets",
+        "cybersecurity",
+        "defence_military",
+        "digital_media",
+        "ecommerce",
+        "education",
+        "electricity_gas",
+        "electronic_components",
+        "energy_oil_gas",
+        "energy_renewable",
+        "engineering",
+        "environmental_services",
+        "financial_services",
+        "fintech",
+        "fisheries_aquaculture",
+        "food_beverage",
+        "foreign_affairs",
+        "forestry_timber",
+        "gaming",
+        "healthcare",
+        "higher_education",
+        "hospitality_tourism",
+        "humanitarian_aid",
+        "industrial_manufacturing",
+        "information_technology",
+        "infrastructure",
+        "insurance",
+        "intelligence_security",
+        "internal_security",
+        "international_trade",
+        "internet_services",
+        "investment",
+        "judicial",
+        "legal_services",
+        "legislative",
+        "logistics_warehousing",
+        "maritime_shipping",
+        "media_publishing",
+        "metal_mining",
+        "microelectronics",
+        "mining",
+        "mobile_telecommunications",
+        "monetary_policy",
+        "nonprofit",
+        "nuclear_energy",
+        "payment_services",
+        "petrochemicals",
+        "pharmaceuticals",
+        "port_operations",
+        "professional_services",
+        "public_administration",
+        "public_health",
+        "public_transport",
+        "railway",
+        "real_estate",
+        "regulatory",
+        "research_development",
+        "retail",
+        "robotics",
+        "semiconductors",
+        "social_services",
+        "software",
+        "space",
+        "sports",
+        "steel",
+        "supply_chain",
+        "surveillance",
+        "sustainability",
+        "telecommunications",
+        "textiles_apparel",
+        "think_tank",
+        "tobacco",
+        "tourism",
+        "trade_finance",
+        "transportation",
+        "urban_planning",
+        "utilities",
+        "venture_capital",
+        "water",
+        "weapons_armaments"
+      ]
+    },
+
+    "relationship_type_enum": {
+      "type": "string",
+      "enum": [
+        "parent_org",
+        "subsidiary",
+        "controlling_shareholder",
+        "minority_shareholder",
+        "sibling",
+        "partner",
+        "regulator",
+        "regulated_by",
+        "member_of",
+        "predecessor",
+        "successor",
+        "affiliated",
+        "supplier",
+        "customer",
+        "strategic_alliance"
+      ]
+    },
+
+    "social_platform_enum": {
+      "type": "string",
+      "enum": [
+        "twitter_x",
+        "facebook",
+        "linkedin",
+        "youtube",
+        "instagram",
+        "telegram",
+        "tiktok",
+        "threads",
+        "mastodon",
+        "wechat",
+        "weibo",
+        "github",
+        "gitlab",
+        "medium",
+        "substack",
+        "other"
+      ]
+    },
+
+    "social_account": {
+      "type": "object",
+      "required": ["platform", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "platform": { "$ref": "#/$defs/social_platform_enum" },
+        "account_name": {
+          "type": ["string", "null"],
+          "description": "Display name or @handle on the platform"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source": {
+          "type": ["string", "null"],
+          "description": "Where this account was discovered (e.g. 'official website footer')"
+        }
+      }
+    },
+
+    "digital_asset": {
+      "type": "object",
+      "required": ["name", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "description": { "type": ["string", "null"] },
+        "source": { "type": ["string", "null"] }
+      }
+    },
+
+    "key_person": {
+      "type": "object",
+      "required": ["name", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "person_id": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{2}-PERSON-[0-9]{6}$"
+        },
+        "name": { "type": "string" },
+        "title": {
+          "type": "string",
+          "description": "Official title/position in the org"
+        },
+        "title_description": {
+          "type": ["string", "null"],
+          "description": "Scope of responsibility for this position"
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Additional info (tenure, background, etc.)"
+        }
+      }
+    },
+
+    "department": {
+      "type": "object",
+      "required": ["dept_id", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "dept_id": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}-[A-Z]+-[0-9]{3}-DEPT-[0-9]{3}$",
+          "examples": ["SG-GOV-001-DEPT-001"]
+        },
+        "name": { "type": "string" },
+        "head": {
+          "type": ["string", "null"],
+          "description": "Department head name"
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Department responsibilities"
+        },
+        "parent_dept_id": {
+          "type": ["string", "null"],
+          "description": "Parent department ID; null for top-level"
+        }
+      }
+    },
+
+    "recent_event": {
+      "type": "object",
+      "required": ["date", "title", "description"],
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "impact": {
+          "type": ["string", "null"],
+          "description": "Assessment of event impact"
+        },
+        "source": {
+          "type": ["string", "null"],
+          "format": "uri"
+        }
+      }
+    },
+
+    "related_entity": {
+      "type": "object",
+      "required": ["org_id", "org_name", "relationship_type"],
+      "additionalProperties": false,
+      "properties": {
+        "org_id": { "type": ["string", "null"] },
+        "org_name": { "type": "string" },
+        "org_type": { "$ref": "#/$defs/org_type_enum" },
+        "org_description": { "type": ["string", "null"] },
+        "relationship_type": { "$ref": "#/$defs/relationship_type_enum" }
+      }
+    },
+
+    "collection_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "collection_date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "phase": {
+          "type": "string",
+          "enum": ["phase2_skeleton", "phase3_enriched"]
+        },
+        "data_sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["official_website", "wikipedia", "wikidata", "news_search", "web_search", "opencorporates", "government_registry", "government_directory", "social_media", "annual_report", "other"]
+          }
+        },
+        "completeness_score": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "notes": {
+          "type": ["string", "null"]
+        },
+        "quotes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "url"],
+            "additionalProperties": false,
+            "properties": {
+              "title": { "type": "string", "description": "网页标题" },
+              "url": { "type": "string", "format": "uri", "description": "引用网页链接" }
+            }
+          },
+          "default": [],
+          "description": "收集过程中引用的网页来源列表"
+        }
+      }
+    }
+  }
+}

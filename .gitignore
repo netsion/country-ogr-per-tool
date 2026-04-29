@@ -1,0 +1,31 @@
+# Output data (country collection results)
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+*.tmp
+*.stackdump
+=0.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Large JSON queues
+enrichment_queue.json
+missing_persons_queue.json
+remaining_persons.json
+
+# MCP config (may contain API keys)
+.mcp.json
+
+# Claude settings (local)
+.claude/settings.local.json
