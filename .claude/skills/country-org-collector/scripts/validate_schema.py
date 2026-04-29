@@ -380,9 +380,23 @@ def validate_person_profile(data, filepath):
         if rt and rt not in PERSON_REL_TYPES:
             r.error(f"person_relationships[{i}].relationship_type '{rt}' not in valid enum")
 
+    import re
+    _PLACEHOLDER_PATTERNS = re.compile(
+        r'^(未公开|姓名未公开|不详|未知|'
+        r'配偶|长子|次子|三子|长女|次女|女儿|儿子|父亲|母亲|'
+        r'[^\s]{1,2}氏[^\s]*(之子)?$|'
+        r'[（(].*[)）]$|'
+        r'.*[（(](?:姓名未公开|未公开|妻子|配偶|长女|次女|长子|次子|一子|一女).*$|'
+        r'.*未公开.*$|'
+        r'.*不详.*$)',
+        re.IGNORECASE
+    )
+
     for i, fam in enumerate(data.get("family_members", [])):
         if not fam.get("name"):
             r.error(f"family_members[{i}].name is empty (discard the entry if name is unknown)")
+        elif _PLACEHOLDER_PATTERNS.match(fam.get("name", "").strip()):
+            r.error(f"family_members[{i}].name '{fam['name']}' is a placeholder, not a real name — discard this entry")
         fr = fam.get("relationship")
         if not fr:
             r.error(f"family_members[{i}].relationship is empty")
