@@ -1,0 +1,2334 @@
+{
+  "description": "组织与人物ID注册表——记录所有已分配的org_id和person_id，防止重复和冲突。所有新ID必须先在此注册。",
+  "id_rule": {
+    "format": "{ISO2}-{TYPE}-{SEQ}",
+    "ISO2": "组织所属国家的ISO 3166-1 alpha-2代码（见APEC对照表）",
+    "TYPE": "组织主分类代码：GOV/SOE/CORP/NGO/ACAD/MEDIA/FIN/INTL/PARTY/MIL",
+    "SEQ": "3位顺序号，按{ISO2}-{TYPE}组合内递增，从001开始",
+    "cross_country_note": "跨国组织按总部所在国或主要活动国分配ISO2前缀。被引用时不按引用国分配。",
+    "examples": [
+      "SG-GOV-001",
+      "SG-PARTY-001",
+      "MY-PARTY-001"
+    ]
+  },
+  "registry": [
+    {
+      "org_id": "SG-GOV-001",
+      "name": "新加坡国会 (Parliament of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "legislature",
+      "wikidata_qid": "Q854791",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-PARTY-001",
+      "name": "人民行动党 (People's Action Party)",
+      "org_type": "PARTY",
+      "org_subtype": "ruling_party",
+      "wikidata_qid": "Q371395",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-002",
+      "name": "新加坡政府 (Government of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "cabinet",
+      "wikidata_qid": "Q5589317",
+      "status": "registered",
+      "notes": "新加坡政府整体，对应head_of_state"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "cabinet",
+      "wikidata_qid": "Q5015558",
+      "status": "profiled",
+      "notes": "第二黄循财内阁（19th Cabinet），2025年5月23日就职"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "cabinet",
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-PARTY-001的related_entity引用"
+    },
+    {
+      "org_id": "SG-PARTY-002",
+      "name": "工人党 (Workers' Party)",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-PARTY-001的related_entity引用，新加坡主要反对党"
+    },
+    {
+      "org_id": "SG-NGO-001",
+      "name": "全国职工总会 (National Trades Union Congress, NTUC)",
+      "org_type": "NGO",
+      "org_subtype": "trade_union",
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-PARTY-001的related_entity引用，新加坡唯一全国性工会中心"
+    },
+    {
+      "org_id": "SG-PARTY-003",
+      "name": "Barisan Sosialis (社会主义阵线 / Socialist Front)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-PARTY-001的related_entity引用，1961年从PAP分裂，已解散"
+    },
+    {
+      "org_id": "SG-NGO-002",
+      "name": "Malayan Forum",
+      "org_type": "NGO",
+      "org_subtype": null,
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-PARTY-001的related_entity引用，1940-50年代伦敦马来亚学生组织，PAP前身"
+    },
+    {
+      "org_id": "MY-PARTY-001",
+      "name": "民主行动党 (Democratic Action Party, DAP)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-PARTY-001的related_entity引用，马来西亚政党，PAP后继组织。按所属国马来西亚分配MY前缀。"
+    },
+    {
+      "org_id": "SG-GOV-004",
+      "name": "新加坡最高法院 (Supreme Court of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": "Q3001103",
+      "status": "profiled",
+      "notes": "Phase 2 深度画像验证用"
+    },
+    {
+      "org_id": "SG-GOV-005",
+      "name": "State Courts of Singapore (新加坡国家法院)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-GOV-004的related_entity引用，下属法院"
+    },
+    {
+      "org_id": "SG-GOV-006",
+      "name": "Family Justice Courts of Singapore (新加坡家事司法法院)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": null,
+      "status": "registered",
+      "notes": "SG-GOV-004的related_entity引用，下属法院"
+    },
+    {
+      "org_id": "SG-GOV-007",
+      "name": "新加坡国家法院 (State Courts of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": "Q7631773",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-008",
+      "name": "新加坡家事司法法院 (Family Justice Courts)",
+      "org_type": "GOV",
+      "org_subtype": "judiciary",
+      "wikidata_qid": "Q60746826",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "name": "新加坡总理公署 (Prime Minister's Office)",
+      "org_type": "GOV",
+      "org_subtype": "gov_department",
+      "wikidata_qid": "Q7243282",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-010",
+      "name": "新加坡财政部 (Ministry of Finance)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294796",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-011",
+      "name": "新加坡国防部 (Ministry of Defence)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294509",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-012",
+      "name": "新加坡外交部 (Ministry of Foreign Affairs)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294400",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-013",
+      "name": "新加坡内政部 (Ministry of Home Affairs)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294312",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-014",
+      "name": "新加坡教育部 (Ministry of Education)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294530",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-015",
+      "name": "新加坡卫生部 (Ministry of Health)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4383964",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-016",
+      "name": "新加坡贸易和工业部 (Ministry of Trade and Industry)",
+      "org_type": "GOV",
+      "org_subtype": "ministry",
+      "wikidata_qid": "Q4294727",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-017",
+      "name": "新加坡金融管理局 (Monetary Authority of Singapore)",
+      "org_type": "GOV",
+      "org_subtype": "regulatory_agency",
+      "wikidata_qid": "Q2661296",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-018",
+      "name": "新加坡贪污调查局 (Corrupt Practices Investigation Bureau)",
+      "org_type": "GOV",
+      "org_subtype": "independent_organ",
+      "wikidata_qid": "Q1045329",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-GOV-019",
+      "name": "新加坡总检察署 (Attorney-General's Chambers)",
+      "org_type": "GOV",
+      "org_subtype": "gov_department",
+      "wikidata_qid": "Q4818608",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-001",
+      "name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q762479",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-002",
+      "name": "新加坡政府投资公司 (GIC Private Limited)",
+      "org_type": "SOE",
+      "org_subtype": "sovereign_wealth_fund",
+      "wikidata_qid": "Q539627",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-003",
+      "name": "新加坡航空 (Singapore Airlines)",
+      "org_type": "SOE",
+      "org_subtype": "state_owned_enterprise",
+      "wikidata_qid": "Q32245",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-004",
+      "name": "新加坡电信 (Singtel)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q864923",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-005",
+      "name": "PSA国际港务集团 (PSA International)",
+      "org_type": "SOE",
+      "org_subtype": "state_owned_enterprise",
+      "wikidata_qid": "Q1012832",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-006",
+      "name": "新加坡邮政 (Singapore Post)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q4049531",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-007",
+      "name": "SMRT企业 (SMRT Corporation)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q3267863",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-SOE-008",
+      "name": "凯德集团 (CapitaLand)",
+      "org_type": "SOE",
+      "org_subtype": "gov_linked_company",
+      "wikidata_qid": "Q3272868",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "name": "星展银行 (DBS Bank)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q705417",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-002",
+      "name": "华侨银行 (OCBC Bank)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q2042423",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-003",
+      "name": "大华银行 (United Overseas Bank)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q2064074",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-004",
+      "name": "Grab (Grab)",
+      "org_type": "CORP",
+      "org_subtype": "private_company",
+      "wikidata_qid": "Q20873932",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-005",
+      "name": "冬海集团 (Sea Limited)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q93520415",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-006",
+      "name": "丰益国际 (Wilmar International)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q1786712",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-CORP-007",
+      "name": "吉宝企业 (Keppel Corporation)",
+      "org_type": "CORP",
+      "org_subtype": "publicly_listed",
+      "wikidata_qid": "Q1585610",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-FIN-001",
+      "name": "新加坡交易所 (Singapore Exchange)",
+      "org_type": "FIN",
+      "org_subtype": "asset_management",
+      "wikidata_qid": "Q1515558",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-ACAD-001",
+      "name": "新加坡国立大学 (National University of Singapore)",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q738236",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-ACAD-002",
+      "name": "南洋理工大学 (Nanyang Technological University)",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q721064",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-ACAD-003",
+      "name": "新加坡管理大学 (Singapore Management University)",
+      "org_type": "ACAD",
+      "org_subtype": "university",
+      "wikidata_qid": "Q950609",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-ACAD-004",
+      "name": "新加坡科技研究局 (Agency for Science Technology and Research)",
+      "org_type": "ACAD",
+      "org_subtype": "research_institute",
+      "wikidata_qid": "Q1101188",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-MEDIA-001",
+      "name": "新传媒 (Mediacorp)",
+      "org_type": "MEDIA",
+      "org_subtype": "broadcaster",
+      "wikidata_qid": "Q1368796",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-MEDIA-002",
+      "name": "新加坡报业控股 (Singapore Press Holdings)",
+      "org_type": "MEDIA",
+      "org_subtype": "publisher",
+      "wikidata_qid": "Q263204",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-MEDIA-003",
+      "name": "亚洲新闻台 (Channel NewsAsia)",
+      "org_type": "MEDIA",
+      "org_subtype": "broadcaster",
+      "wikidata_qid": "Q40238",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-PARTY-004",
+      "name": "工人党 (Workers' Party)",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q2299911",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-PARTY-005",
+      "name": "新加坡前进党 (Progress Singapore Party)",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q66120569",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-PARTY-006",
+      "name": "新加坡民主党 (Singapore Democratic Party)",
+      "org_type": "PARTY",
+      "org_subtype": "opposition_party",
+      "wikidata_qid": "Q2289041",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-NGO-003",
+      "name": "新加坡红十字会 (Singapore Red Cross)",
+      "org_type": "NGO",
+      "org_subtype": "humanitarian_org",
+      "wikidata_qid": "Q7523102",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-NGO-004",
+      "name": "新加坡国际基金会 (Singapore International Foundation)",
+      "org_type": "NGO",
+      "org_subtype": "foundation",
+      "wikidata_qid": "Q7523026",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-INTL-001",
+      "name": "APEC秘书处 (APEC Secretariat)",
+      "org_type": "INTL",
+      "org_subtype": "multilateral_org",
+      "wikidata_qid": "Q170481",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "SG-MIL-001",
+      "name": "新加坡武装部队 (Singapore Armed Forces)",
+      "org_type": "MIL",
+      "org_subtype": "armed_forces",
+      "wikidata_qid": "Q1074568",
+      "status": "profiled",
+      "notes": null
+    }
+  ],
+  "counters": {
+    "SG": {
+      "GOV": 19,
+      "SOE": 8,
+      "CORP": 7,
+      "NGO": 4,
+      "ACAD": 4,
+      "MEDIA": 3,
+      "FIN": 1,
+      "INTL": 1,
+      "PARTY": 6,
+      "MIL": 1
+    },
+    "MY": {
+      "PARTY": 1
+    }
+  },
+  "person_id_rule": {
+    "format": "{ISO2}-PERSON-{SEQ}",
+    "ISO2": "人物所属国籍国家的ISO 3166-1 alpha-2代码",
+    "SEQ": "6位顺序号，按{ISO2}前缀内递增，从000001开始",
+    "cross_country_note": "跨国双重国籍人物按主要政治活动国家分配ISO2前缀",
+    "examples": [
+      "SG-PERSON-000001",
+      "CN-PERSON-000001",
+      "US-PERSON-000001"
+    ]
+  },
+  "person_registry": [
+    {
+      "person_id": "SG-PERSON-000001",
+      "name": "谢健平 (Seah Kian Peng)",
+      "wikidata_qid": "Q55752957",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000002",
+      "name": "迪舒沙 (Christopher de Souza)",
+      "wikidata_qid": "Q5113490",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000003",
+      "name": "谢耀全 (Xie Yao Quan)",
+      "wikidata_qid": "Q97291727",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000004",
+      "name": "萧明汉 (Siow Peng Han)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000005",
+      "name": "黄循财 (Lawrence Wong)",
+      "wikidata_qid": "Q6504758",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001",
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000006",
+      "name": "英兰妮 (Indranee Rajah)",
+      "wikidata_qid": "Q6026908",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000007",
+      "name": "毕丹星 (Pritam Singh)",
+      "wikidata_qid": "Q7245929",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000008",
+      "name": "谢志强 (Chia Pak Hong)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000010",
+      "name": "李智陞 (Desmond Lee)",
+      "wikidata_qid": "Q16215886",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000011",
+      "name": "马善高 (Masagos Zulkifli)",
+      "wikidata_qid": "Q17722375",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000012",
+      "name": "陈振声 (Chan Chun Sing)",
+      "wikidata_qid": "Q5070296",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000013",
+      "name": "王乙康 (Ong Ye Kung)",
+      "wikidata_qid": "Q7093820",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000014",
+      "name": "徐芳达 (Chee Hong Tat)",
+      "wikidata_qid": "Q20983254",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000015",
+      "name": "傅海燕 (Grace Fu)",
+      "wikidata_qid": "Q5591179",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000016",
+      "name": "唐振辉 (Edwin Tong)",
+      "wikidata_qid": "Q5346875",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000017",
+      "name": "朱倍庆 (Desmond Choo)",
+      "wikidata_qid": "Q5264684",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000018",
+      "name": "英兰妮 (Indranee Rajah)",
+      "wikidata_qid": "Q6026908",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000019",
+      "name": "尚穆根 (K Shanmugam)",
+      "wikidata_qid": "Q6324008",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000020",
+      "name": "林彬铭 (Lam Pin Min)",
+      "wikidata_qid": "Q6480680",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000021",
+      "name": "李显龙 (Lee Hsien Loong)",
+      "wikidata_qid": "Q57643",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000022",
+      "name": "费绍尔 (Muhammad Faishal Ibrahim)",
+      "wikidata_qid": "Q16926847",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000023",
+      "name": "黄志明 (Ng Chee Meng)",
+      "wikidata_qid": "Q15410291",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000024",
+      "name": "沈颖 (Sim Ann)",
+      "wikidata_qid": "Q7517250",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000025",
+      "name": "陈诗龙 (Tan See Leng)",
+      "wikidata_qid": "Q72409737",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000026",
+      "name": "维文 (Vivian Balakrishnan)",
+      "wikidata_qid": "Q7937671",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000027",
+      "name": "任梓铨 (Alex Yam)",
+      "wikidata_qid": "Q16221695",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000028",
+      "name": "陈国明 (Desmond Tan Kok Ming)",
+      "wikidata_qid": "Q97731258",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000029",
+      "name": "刘燕玲 (Low Yen Ling)",
+      "wikidata_qid": "Q16214961",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000030",
+      "name": "陈杰豪 (Tan Kiat How)",
+      "wikidata_qid": "Q97319868",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000031",
+      "name": "颜金勇 (Gan Kim Yong)",
+      "wikidata_qid": "Q5520446",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000032",
+      "name": "杨莉明 (Josephine Teo)",
+      "wikidata_qid": "Q16204683",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000033",
+      "name": "梁振伟 (David Neo)",
+      "wikidata_qid": "Q110886681",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000034",
+      "name": "萧振祥 (Jeffrey Siow)",
+      "wikidata_qid": "Q134312221",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000035",
+      "name": "Zaqy Mohamad",
+      "wikidata_qid": "Q16215002",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000036",
+      "name": "Janil Puthucheary",
+      "wikidata_qid": "Q6154464",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000037",
+      "name": "许宝琨 (Koh Poh Koon)",
+      "wikidata_qid": "Q6425864",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000038",
+      "name": "Murali Pillai",
+      "wikidata_qid": "Q24006711",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000039",
+      "name": "颜晓芳 (Gan Siow Huang)",
+      "wikidata_qid": "Q27733955",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000040",
+      "name": "Sun Xueling",
+      "wikidata_qid": "Q23772395",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000041",
+      "name": "Rahayu Mahzam",
+      "wikidata_qid": "Q20990654",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000042",
+      "name": "Jasmin Lau",
+      "wikidata_qid": "Q134312229",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000043",
+      "name": "Dinesh Vasu Dash",
+      "wikidata_qid": "Q134313079",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000044",
+      "name": "马炎庆 (Baey Yam Keng)",
+      "wikidata_qid": "Q4841314",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000045",
+      "name": "Goh Pei Ming",
+      "wikidata_qid": "Q134065059",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000046",
+      "name": "Alvin Tan",
+      "wikidata_qid": "Q97360272",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000047",
+      "name": "Eric Chua",
+      "wikidata_qid": "Q97355848",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000048",
+      "name": "Shawn Huang",
+      "wikidata_qid": "Q97286417",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000049",
+      "name": "Sundaresh Menon",
+      "wikidata_qid": "Q7639265",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000050",
+      "name": "Tay Yong Kwang",
+      "wikidata_qid": "Q7689734",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000051",
+      "name": "Steven Chong Horng Siong",
+      "wikidata_qid": "Q7614561",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000052",
+      "name": "Belinda Ang",
+      "wikidata_qid": "Q4882857",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000053",
+      "name": "Ang Cheng Hock",
+      "wikidata_qid": "Q85303180",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000054",
+      "name": "Hri Kumar Nair",
+      "wikidata_qid": "Q189122",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000055",
+      "name": "Woo Bih Li",
+      "wikidata_qid": "Q8032119",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000056",
+      "name": "Kannan Ramesh",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000057",
+      "name": "Debbie Ong Siew Ling",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000058",
+      "name": "See Kee Oon",
+      "wikidata_qid": "Q18085740",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000059",
+      "name": "Vinodh Coomaraswamy",
+      "wikidata_qid": "Q126919103",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000060",
+      "name": "Chua Lee Ming",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000061",
+      "name": "Hoo Sheau Peng",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000062",
+      "name": "Aidan Xu",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000063",
+      "name": "Pang Khang Chau",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000064",
+      "name": "Audrey Lim Yoon Cheng",
+      "wikidata_qid": "Q101136696",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000065",
+      "name": "Dedar Singh Gill",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000066",
+      "name": "Mavis Chionh",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000067",
+      "name": "S. Mohan",
+      "wikidata_qid": "Q109436035",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000068",
+      "name": "Andre Maniam",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000069",
+      "name": "Philip Jeyaretnam",
+      "wikidata_qid": "Q7183850",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000070",
+      "name": "Kwek Mean Luck",
+      "wikidata_qid": "Q97818176",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000071",
+      "name": "Teh Hwee Hwee",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000072",
+      "name": "Wong Li Kok Alex",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000073",
+      "name": "Tan Pheng Wee Christopher",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000074",
+      "name": "Kristy Tan",
+      "wikidata_qid": "Q61084939",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000075",
+      "name": "Mohamed Faizal",
+      "wikidata_qid": "Q112230692",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000076",
+      "name": "Sushil Nair",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000077",
+      "name": "Low Siew Ling",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000078",
+      "name": "柯宗盛 (Kwa Chong Seng)",
+      "wikidata_qid": "Q123939007",
+      "status": "listed",
+      "source_orgs": [
+        "SG-FIN-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000079",
+      "name": "尚達曼 (Tharman Shanmugaratnam)",
+      "wikidata_qid": "Q983752",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-017"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000080",
+      "name": "黄鲁胜 (Lucien Wong)",
+      "wikidata_qid": "Q33136404",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-019"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000081",
+      "name": "林瑞莲 (Sylvia Lim)",
+      "wikidata_qid": "Q713945",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000082",
+      "name": "徐順全 (Chee Soon Juan)",
+      "wikidata_qid": "Q468131",
+      "status": "listed",
+      "source_orgs": [
+        "SG-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000083",
+      "name": "何晶 (Ho Ching)",
+      "wikidata_qid": "Q455666",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-SOE-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000084",
+      "name": "Chia Song Hwee",
+      "wikidata_qid": "Q114972811",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-SOE-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000085",
+      "name": "林文兴 (Lim Boon Heng)",
+      "wikidata_qid": "Q6548659",
+      "status": "listed",
+      "source_orgs": [
+        "SG-SOE-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000086",
+      "name": "张志贤 (Teo Chee Hean)",
+      "wikidata_qid": "Q3518218",
+      "status": "listed",
+      "source_orgs": [
+        "SG-SOE-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000087",
+      "name": "吴俊鵬 (Goh Choon Phong)",
+      "wikidata_qid": "Q5577535",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-SOE-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000088",
+      "name": "佘林发 (Peter Seah Lim Huat)",
+      "wikidata_qid": "Q126519099",
+      "status": "listed",
+      "source_orgs": [
+        "SG-SOE-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000089",
+      "name": "蔡淑君 (Chua Sock Koong)",
+      "wikidata_qid": "Q5115191",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-SOE-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000090",
+      "name": "袁坤满 (Yuen Kuan Moon)",
+      "wikidata_qid": "Q115592380",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-SOE-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000091",
+      "name": "Ngien Hoon Ping",
+      "wikidata_qid": "Q136035384",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-SOE-007"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000092",
+      "name": "佘文民 (Seah Moon Ming)",
+      "wikidata_qid": "Q97819238",
+      "status": "listed",
+      "source_orgs": [
+        "SG-SOE-007"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000093",
+      "name": "谢福华 (Hsieh Fu Hua)",
+      "wikidata_qid": "Q115591459",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "SG-PERSON-000094",
+      "name": "馬格努斯·博可 (Magnus Böcker)",
+      "wikidata_qid": "Q27957360",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "SG-PERSON-000095",
+      "name": "英兰妮 (Indranee Rajah)",
+      "wikidata_qid": "Q6026908",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000096",
+      "name": "Janil Puthucheary",
+      "wikidata_qid": "Q6154464",
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000097",
+      "name": "萧明汉 (Siow Peng Han)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "SG-GOV-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000098",
+      "name": "尚穆根 (K. Shanmugam)",
+      "wikidata_qid": "Q6324008",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-GOV-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000099",
+      "name": "Frederick Chew",
+      "wikidata_qid": "Q98703784",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-ACAD-004"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000100",
+      "name": "陈淑珊 (Tan Su Shan)",
+      "wikidata_qid": "Q110897639",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000101",
+      "name": "高博德 (Piyush Gupta)",
+      "wikidata_qid": "Q17579992",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000102",
+      "name": "佘林發 (Peter Seah)",
+      "wikidata_qid": "Q126519099",
+      "status": "listed",
+      "source_orgs": [
+        "SG-CORP-001"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000104",
+      "name": "黄碧娟 (Helen Wong)",
+      "wikidata_qid": "Q113293532",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-002"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000105",
+      "name": "陈德隆 (Tan Teck Long)",
+      "wikidata_qid": "Q135992383",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-002"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000106",
+      "name": "李国庆 (Andrew Lee)",
+      "wikidata_qid": "Q115276093",
+      "status": "listed",
+      "source_orgs": [
+        "SG-CORP-002"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000107",
+      "name": "黄一宗 (Wee Ee Cheong)",
+      "wikidata_qid": "Q39050789",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000108",
+      "name": "黄根成 (Wong Kan Seng)",
+      "wikidata_qid": "Q461128",
+      "status": "listed",
+      "source_orgs": [
+        "SG-CORP-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000109",
+      "name": "黄祖耀 (Wee Cho Yaw)",
+      "wikidata_qid": "Q2484368",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-003"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000110",
+      "name": "李小冬 (Forrest Li)",
+      "wikidata_qid": "Q61974364",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-005"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000111",
+      "name": "郭孔丰 (Kuok Khoon Hong)",
+      "wikidata_qid": "Q16149275",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-006"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000112",
+      "name": "卢振华 (Loh Chin Hua)",
+      "wikidata_qid": "Q115591759",
+      "status": "profiled",
+      "source_orgs": [
+        "SG-CORP-007"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000113",
+      "name": "赵亮溪 (Danny Teoh Leong Kay)",
+      "wikidata_qid": "Q136066703",
+      "status": "listed",
+      "source_orgs": [
+        "SG-CORP-007"
+      ]
+    },
+    {
+      "person_id": "SG-PERSON-000116",
+      "name": "Chris Feng",
+      "name_zh": "",
+      "wikidata_qid": "Q115671222",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000118",
+      "name": "Desmond Choo",
+      "name_zh": "朱倍庆",
+      "wikidata_qid": "Q115558341",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000120",
+      "name": "Jeffrey Jaensubhakij",
+      "name_zh": "",
+      "wikidata_qid": "Q33136404",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000122",
+      "name": "Lee Chee Koon",
+      "name_zh": "Lee Chee Koon (李志勤)",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000124",
+      "name": "Lim Chow Kiat",
+      "name_zh": "Lim Chow Kiat (林昭杰)",
+      "wikidata_qid": "Q461128",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000125",
+      "name": "Lim Siong Huat",
+      "name_zh": "Lim Siong Huat (林祥源)",
+      "wikidata_qid": "Q16215002",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000126",
+      "name": "Lucien Wong SC",
+      "name_zh": "",
+      "wikidata_qid": "Q7692700",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000127",
+      "name": "Miguel Ko",
+      "name_zh": "",
+      "wikidata_qid": "Q126519099",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000131",
+      "name": "Ronald Tay",
+      "name_zh": "Ronald Tay (郑润明)",
+      "wikidata_qid": "Q3518218",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000133",
+      "name": "Subra Suresh",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000136",
+      "name": "Wong Kan Seng",
+      "name_zh": "Wong Kan Seng (黄根成)",
+      "wikidata_qid": "Q6548659",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000138",
+      "name": "Zaqy Mohamad",
+      "name_zh": "",
+      "wikidata_qid": "Q5113490",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000119",
+      "name": "Ho Teck Hua",
+      "name_zh": "何德华",
+      "wikidata_qid": "Q16115675",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000129",
+      "name": "Peter Seah Lim Huat",
+      "name_zh": "佘林发",
+      "wikidata_qid": "Q7245929",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000135",
+      "name": "Tharman Shanmugaratnam",
+      "name_zh": "尚达曼",
+      "wikidata_qid": "Q123939007",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000115",
+      "name": "Chng Kai Fong",
+      "name_zh": "庄凯峰",
+      "wikidata_qid": "Q5264684",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000134",
+      "name": "Teo Chee Hean",
+      "name_zh": "张志贤",
+      "wikidata_qid": "Q135992392",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000114",
+      "name": "Andrew Lee",
+      "name_zh": "李国庆",
+      "wikidata_qid": "Q115591148",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000123",
+      "name": "Lim Boon Heng",
+      "name_zh": "林文兴",
+      "wikidata_qid": "Q68711545",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000121",
+      "name": "Kwa Chong Seng",
+      "name_zh": "柯宗盛",
+      "wikidata_qid": "Q115591862",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000130",
+      "name": "Pritam Singh",
+      "name_zh": "毕丹星",
+      "wikidata_qid": "Q55752957",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000128",
+      "name": "Ong Kim Pong",
+      "name_zh": "王金榜",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000132",
+      "name": "Seah Kian Peng",
+      "name_zh": "谢健平",
+      "wikidata_qid": "Q983752",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000137",
+      "name": "Xie Yao Quan",
+      "name_zh": "谢耀全",
+      "wikidata_qid": "Q97291727",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000117",
+      "name": "Christopher de Souza",
+      "name_zh": "迪舒沙",
+      "wikidata_qid": "Q115591705",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000139",
+      "name": "Aaron Beng",
+      "name_zh": "",
+      "wikidata_qid": "Q105647501",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000140",
+      "name": "Aaron Thean",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000141",
+      "name": "Albert Chua",
+      "name_zh": "",
+      "wikidata_qid": "Q16198053",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000143",
+      "name": "Anthony Tan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000144",
+      "name": "Augustin Lee",
+      "name_zh": "",
+      "wikidata_qid": "Q115591023",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000146",
+      "name": "Beh Swan Gin",
+      "name_zh": "Beh Swan Gin (梅森源)",
+      "wikidata_qid": "Q115736049",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000147",
+      "name": "Benjamin William",
+      "name_zh": "",
+      "wikidata_qid": "Q135321816",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000148",
+      "name": "Bryan Yeo",
+      "name_zh": "",
+      "wikidata_qid": "Q97819749",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000149",
+      "name": "Cai Dexian",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000151",
+      "name": "Chan Yeng Kit",
+      "name_zh": "Chan Yeng Kit (陈英杰)",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000155",
+      "name": "Christopher Tan Pheng Wee",
+      "name_zh": "",
+      "wikidata_qid": "Q14946896",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000156",
+      "name": "Corinna Chan",
+      "name_zh": "",
+      "wikidata_qid": "Q6154464",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000159",
+      "name": "Edwin San Ong Kyar",
+      "name_zh": "",
+      "wikidata_qid": "Q17496652",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000160",
+      "name": "Emily Tan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000161",
+      "name": "Fong Wai Kit",
+      "name_zh": "",
+      "wikidata_qid": "Q97345090",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000163",
+      "name": "Goh Pei Ming",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000164",
+      "name": "Hazel Poa",
+      "name_zh": "Hazel Poa (潘群勤)",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000165",
+      "name": "Janil Puthucheary",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000166",
+      "name": "Kelvin Fan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000167",
+      "name": "Kenneth Mak",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000169",
+      "name": "Lai Chung Han",
+      "name_zh": "",
+      "wikidata_qid": "Q116012",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000170",
+      "name": "Lai Wei Lin",
+      "name_zh": "",
+      "wikidata_qid": "Q98094184",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000173",
+      "name": "Leong Mun Wai",
+      "name_zh": "Leong Mun Wai (梁文辉)",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000174",
+      "name": "Liew Wei Li",
+      "name_zh": "",
+      "wikidata_qid": "Q119704088",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000175",
+      "name": "Lim Wan Yong",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000176",
+      "name": "Lionel Yee",
+      "name_zh": "",
+      "wikidata_qid": "Q7682028",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000179",
+      "name": "Luke Goh",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000180",
+      "name": "Mark Chong",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000182",
+      "name": "Neo Su Yin",
+      "name_zh": "Neo Su Yin (黄素燕)",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000184",
+      "name": "Peter Oey",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000185",
+      "name": "Peter Voser",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000187",
+      "name": "Professor Alan K.L. Chan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000188",
+      "name": "Professor Lily Kong",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000189",
+      "name": "Pua Seck Guan",
+      "name_zh": "",
+      "wikidata_qid": "Q16221695",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000190",
+      "name": "Sam Tee Chong Fui",
+      "name_zh": "",
+      "wikidata_qid": "Q97819238",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000192",
+      "name": "Sean Wat",
+      "name_zh": "",
+      "wikidata_qid": "Q16214961",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000195",
+      "name": "Suresh Sachi",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000197",
+      "name": "Tan Cheng Bock",
+      "name_zh": "Tan Cheng Bock (陈清木)",
+      "wikidata_qid": "Q6480680",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000198",
+      "name": "Tan Chye Hee",
+      "name_zh": "",
+      "wikidata_qid": "Q713945",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000200",
+      "name": "Tan Kai Hoe",
+      "name_zh": "Tan Kai Hoe (陈开和)",
+      "wikidata_qid": "Q20745958",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000203",
+      "name": "Teo Lay Lim",
+      "name_zh": "Teo Lay Lim (张丽琳)",
+      "wikidata_qid": "Q136066703",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000204",
+      "name": "Teo Swee Lian",
+      "name_zh": "Teo Swee Lian (张秀丽)",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000205",
+      "name": "Tham Loke Kheng",
+      "name_zh": "",
+      "wikidata_qid": "Q97731258",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000206",
+      "name": "Thian Yee Sze",
+      "name_zh": "",
+      "wikidata_qid": "Q135906645",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000207",
+      "name": "Toh Han Li",
+      "name_zh": "",
+      "wikidata_qid": "Q97319868",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000208",
+      "name": "Ute Braasch",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000209",
+      "name": "Vincent Hoong Seng Lei",
+      "name_zh": "",
+      "wikidata_qid": "Q7682047",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000210",
+      "name": "Vincent Lim Yong Seng",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000211",
+      "name": "Vincent Phang",
+      "name_zh": "Vincent Phang (潘伟明)",
+      "wikidata_qid": "Q15410291",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000186",
+      "name": "Prof.",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000142",
+      "name": "Alex Yam",
+      "name_zh": "任梓铨",
+      "wikidata_qid": "Q97360180",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000191",
+      "name": "Seah Moon Ming",
+      "name_zh": "佘文民",
+      "wikidata_qid": "Q43176205",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000177",
+      "name": "Liu Bin",
+      "name_zh": "刘斌",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000178",
+      "name": "Low Yen Ling",
+      "name_zh": "刘燕玲",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000162",
+      "name": "Gang Ye",
+      "name_zh": "叶刚",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000172",
+      "name": "Leo Yip",
+      "name_zh": "叶成昌",
+      "wikidata_qid": "Q115647160",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000168",
+      "name": "Kenneth Yap",
+      "name_zh": "叶文杰",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000152",
+      "name": "Chee Soon Juan",
+      "name_zh": "徐順全",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000171",
+      "name": "Lam Pin Min",
+      "name_zh": "林彬铭",
+      "wikidata_qid": "Q57476744",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000196",
+      "name": "Sylvia Lim",
+      "name_zh": "林瑞莲",
+      "wikidata_qid": "Q468131",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000193",
+      "name": "Sim Ann",
+      "name_zh": "沈颖",
+      "wikidata_qid": "Q115735505",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000181",
+      "name": "Melvyn Ong",
+      "name_zh": "王铭杰",
+      "wikidata_qid": "Q115592269",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000194",
+      "name": "Siow Peng Han",
+      "name_zh": "萧明汉",
+      "wikidata_qid": "Q97818852",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000153",
+      "name": "Chia Wee Kiat",
+      "name_zh": "谢伟杰",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000157",
+      "name": "Danny Teoh Leong Kay",
+      "name_zh": "赵亮溪",
+      "wikidata_qid": "Q130304193",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000202",
+      "name": "Teh Hwee Hwee",
+      "name_zh": "郑慧慧",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000158",
+      "name": "Desmond Tan Kok Ming",
+      "name_zh": "陈国明",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000150",
+      "name": "Chan Heng Kee",
+      "name_zh": "陈庆粦",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000201",
+      "name": "Tan Kiat How",
+      "name_zh": "陈杰豪",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000154",
+      "name": "Christina Tan",
+      "name_zh": "陈琳娜",
+      "wikidata_qid": "Q134065059",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000199",
+      "name": "Tan Eng Chye",
+      "name_zh": "陈祝义",
+      "wikidata_qid": "Q7517250",
+      "status": "profiled"
+    },
+    {
+      "person_id": "SG-PERSON-000145",
+      "name": "Beh Kian Teik",
+      "name_zh": "马健德",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000183",
+      "name": "Ng Chee Meng",
+      "name_zh": "黄志明",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000213",
+      "name": "David Chong",
+      "name_zh": "",
+      "wikidata_qid": "Q6150624",
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000214",
+      "name": "Janadas Devan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000215",
+      "name": "Jaryll Chan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000216",
+      "name": "Jean Tan",
+      "name_zh": "",
+      "wikidata_qid": "Q97819389",
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000217",
+      "name": "Juthika Ramanathan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000218",
+      "name": "Kim Hyung-chul",
+      "name_zh": "Kim Hyung-chul (金亨哲)",
+      "wikidata_qid": "Q107176120",
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000219",
+      "name": "Lee Yi-Jin",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000220",
+      "name": "Lian Wee Cheow",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000222",
+      "name": "Ng Shin Ein",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000223",
+      "name": "Peter Tan",
+      "name_zh": "",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000224",
+      "name": "Reuben YP Wong",
+      "name_zh": "",
+      "wikidata_qid": "Q51885070",
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000225",
+      "name": "Walter Fernandez",
+      "name_zh": "",
+      "wikidata_qid": "Q1049643",
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000212",
+      "name": "Chen Xu",
+      "name_zh": "陈旭",
+      "wikidata_qid": null,
+      "status": "pending"
+    },
+    {
+      "person_id": "SG-PERSON-000221",
+      "name": "Ma Zhaoxu",
+      "name_zh": "马朝旭",
+      "wikidata_qid": null,
+      "status": "pending"
+    }
+  ],
+  "person_counters": {
+    "SG": 113
+  }
+}
