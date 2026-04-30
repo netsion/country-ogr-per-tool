@@ -70,7 +70,7 @@ LIMIT 5
 **调用方式**：本地 curl + 代理
 
 ```bash
-curl --proxy "http://10.11.204.68:8081" -s -L -H "User-Agent: Mozilla/5.0" \
+curl --proxy "http://127.0.0.1:7890" -s -L -H "User-Agent: Mozilla/5.0" \
   "https://www.wikidata.org/wiki/Special/EntityData/Q115727460.json" | python -m json.tool
 ```
 

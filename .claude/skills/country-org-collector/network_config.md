@@ -4,7 +4,7 @@
 
 本机网络环境需要通过代理访问 Wikipedia / Wikidata 等境外站点。
 
-- **主代理**：`http://10.11.204.68:8081`
+- **主代理**：`http://127.0.0.1:7890`
 - **备用代理**：`http://10.11.204.68:8081`
 
 所有批处理脚本（`atomic_write.py` 中的 `setup_proxy()`）自动执行主备切换：先尝试主代理，不通则回退到备用代理。
@@ -14,7 +14,7 @@
 ### curl 使用代理
 
 ```bash
-curl -L --proxy "http://10.11.204.68:8081" "https://query.wikidata.org/sparql?..."
+curl -L --proxy "http://127.0.0.1:7890" "https://query.wikidata.org/sparql?..."
 ```
 
 > **注意**：所有 curl 调用建议加 `-L` 参数（follow redirects）。Wikidata EntityData 等端点可能返回 HTTP redirect，缺少 `-L` 会保存 HTML 而非 JSON。
@@ -31,8 +31,8 @@ setup_proxy()  # 自动主备切换
 ```python
 import urllib.request
 proxy = urllib.request.ProxyHandler({
-    'https': 'http://10.11.204.68:8081',
-    'http': 'http://10.11.204.68:8081'
+    'https': 'http://127.0.0.1:7890',
+    'http': 'http://127.0.0.1:7890'
 })
 opener = urllib.request.build_opener(proxy)
 # 注意：需同时设置 User-Agent，否则 Wikipedia REST API 返回 403
@@ -44,8 +44,8 @@ with opener.open(req, timeout=30) as resp:
 ### 设置环境变量（推荐，一次生效全局）
 
 ```bash
-export http_proxy=http://10.11.204.68:8081
-export https_proxy=http://10.11.204.68:8081
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7890
 ```
 
 ## Windows 编码注意事项
