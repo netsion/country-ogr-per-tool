@@ -168,6 +168,9 @@ prompt 结构：
 - **人名**：中文优先，括号附英文。如 `"李显龙 (Lee Hsien Loong)"`
 - **组织名**：`name_zh` 为中文，`name_en` 为英文
 - **专业术语**：可用英文+中文注释，如 `"AI人工智能"`、`"GDP国内生产总值"`
+- **非拉丁字母本地语言**（韩文/日文/泰文等）：描述性字段一律中文在前，括号附本地语言原文。
+  如 `"共同民主党 (더불어민주당)"`、`"教授 (교수)"`、`"延世大学 (연세대학교)"`。
+  ❌ 禁止 `"더불어민주당 (共同民主党)"`、`"교수 (教授)"`（本地语言在前）
 
 > **⚠️ 非中文母语国家人名音译**：对马来语、印尼语、泰语等非中文人名，必须使用**该国本地华文媒体的标准译法**，不得使用大陆新华社音译。马来西亚华文媒体音译标准详见 `malay_name_zh_guide.md`。
 
@@ -860,13 +863,19 @@ contacts[]:             type | value | source
 - biography_summary → 中文（200字+）
 - work_experience[].position → 中文（如"经济政策局局长"）
 - work_experience[].organization → 中文（如"企划财政部"）
+- work_experience[].org_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
 - education[].institution → 中文（如"首尔大学"，可括号附英文）
 - education[].field → 中文（如"经济学"）
 - political_stances[].topic → 中文（如"半导体产业政策"）
 - political_stances[].stance_content → 中文
 - person_relationships[].description → 中文
+- person_relationships[].person_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
+- family_members[].person_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
 - major_achievements[].achievement → 中文
-- name 格式：中文优先，括号附英文，如"金正宽 (Kim Jung-kwan)"
+- major_achievements[].organization → 中文（如"大韩民国国会"、"共同民主党"）
+- name 格式：中文优先，括号附英文/本地语言，如"金正宽 (Kim Jung-kwan)"、"李在明 (이재명)"
+- 非英语国家描述性字段括号格式：中文 (本地语言)，如"共同民主党 (더불어민주당)"、"教授 (교수)"
+  ❌ 禁止本地语言在前："이재명 (李在明)"、"더불어민주당 (共同民主党)"
 - social_accounts[].platform 保留英文枚举值
 - 所有 URL 保留原样
 
@@ -893,9 +902,18 @@ contacts[]:             type | value | source
 
 ID 规则：
 1. 读取 {output_dir}/_name_index.json 获取已知实体 ID 映射
-2. 引用的组织/人物在 index 中存在 → 使用对应 ID
-3. 不在 index 中 → org_id / person_id 写 null
-4. 禁止自创 ID 格式（不要写 KR-ORG-xxx 或 KR-PERSON-NEW 等非标准格式）
+2. 逐条检查每个 organization / person_name 是否在 index 中
+3. 命中 → 使用对应 ID（如 `"KR-PARTY-001"`）
+4. 未命中 → org_id / person_id 写 `null`（JSON null，❌ 禁止 `""` 空字符串）
+5. 禁止自创 ID 格式（不要写 KR-ORG-xxx 或 KR-PERSON-NEW 等非标准格式）
+
+查表示例：
+  _name_index.json 中有 `{"共同民主党": "KR-PARTY-001", "더불어민주당": "KR-PARTY-001"}`
+  → work_experience 中 organization="共同民主党 (더불어민주당)" 的 org_id 应为 `"KR-PARTY-001"`
+  _name_index.json 中有 `{"이재명": "KR-PERSON-000098", "李在明": "KR-PERSON-000098"}`
+  → person_relationships 中 person_name="李在明 (이재명)" 的 person_id 应为 `"KR-PERSON-000098"`
+
+完成后报告：列出所有命中的 ID 映射（如"共同民主党 → KR-PARTY-001，李在明 → KR-PERSON-000098"），未命中的写明"未命中→null"。
 
 第三步：将完整画像写入文件路径 {filepath}
 
@@ -926,6 +944,9 @@ ID 规则：
 
 | 检查项 | 标准 | 不达标处理 |
 |--------|------|-----------|
+| org_id / person_id 含空字符串 `""` | 0 个 | 替换为 `null` |
+| 描述性字段本地语言在括号外 | 0 个 | 交换为中文在前，如 `"더불어민주당 (共同民主党)"` → `"共同民主党 (더불어민주당)"` |
+| major_achievements[].organization 非中文 | 0 个 | 翻译为中文 |
 | biography_summary 为英文 | 0 个 | 派子代理重新搜索补充中文 |
 | biography_summary 为空 | 0 个（high/medium） | 派子代理重新搜索补充 |
 | JSON 解析失败 | 0 个 | 修复弯引号 |
