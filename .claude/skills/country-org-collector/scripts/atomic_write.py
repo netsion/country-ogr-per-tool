@@ -13,8 +13,8 @@ import tempfile
 import ssl
 import urllib.request
 
-PROXY_PRIMARY = "http://10.11.204.68:8081"
-PROXY_FALLBACK = "http://127.0.0.1:1080"
+PROXY_PRIMARY = "http://127.0.0.1:7890"
+PROXY_FALLBACK = "http://10.11.204.68:8081"
 
 
 def setup_proxy(primary=None, fallback=None):

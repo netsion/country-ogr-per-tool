@@ -179,7 +179,7 @@ WHERE {
 **调用方式**：本地 curl + 代理（最稳定）
 
 ```bash
-curl --proxy "http://10.11.204.68:8081" -s -L -H "User-Agent: Mozilla/5.0" \
+curl --proxy "http://127.0.0.1:7890" -s -L -H "User-Agent: Mozilla/5.0" \
   "https://www.wikidata.org/wiki/Special/EntityData/Q371395.json" | python -m json.tool
 ```
 
@@ -233,7 +233,7 @@ curl --proxy "http://10.11.204.68:8081" -s -L -H "User-Agent: Mozilla/5.0" \
 **示例**：
 
 ```bash
-curl --proxy "http://10.11.204.68:8081" -s -L -H "User-Agent: Mozilla/5.0" \
+curl --proxy "http://127.0.0.1:7890" -s -L -H "User-Agent: Mozilla/5.0" \
   "https://en.wikipedia.org/api/rest_v1/page/summary/Parliament_of_Singapore"
 # 返回: {"title":"Parliament of Singapore","wikibase_item":"Q1517231","description":"Legislature of Singapore",...}
 ```
