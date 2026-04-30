@@ -639,7 +639,14 @@ digital_assets[]:    name | url | description | source
 
 写入前更新 collection_meta：
 - `collection_meta.phase` = `"phase3_enriched"`
-- `collection_meta.quotes` = 本次搜索使用的所有来源 URL 列表 `[{{title, url}}]`
+- `collection_meta.quotes` = 来源URL列表，**必须是对象数组**，每条含 title 和 url：
+  ```json
+  [{"title": "Supreme Court - English Wikipedia", "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_South_Korea"},
+   {"title": "대법원 - Korean Wikipedia", "url": "https://ko.wikipedia.org/wiki/대법원"},
+   {"title": "大法院官方网站", "url": "https://www.scourt.go.kr"}]
+  ```
+  ❌ 禁止写成纯字符串数组 `["url1", "url2"]`
+  ❌ 禁止留空 `[]`（至少包含Wikipedia和官网URL）
 - `collection_meta.data_sources` 补充本次实际使用的来源类型（如 `"news_search"`, `"official_website"`）
 
 写入后必须执行（不可跳过）：
@@ -893,7 +900,13 @@ ID 规则：
 第三步：将完整画像写入文件路径 {filepath}
 
 写入前更新 collection_meta：
-- `collection_meta.quotes` = 本次搜索使用的所有来源 URL 列表 `[{{title, url}}]`
+- `collection_meta.quotes` = 来源URL列表，**必须是对象数组**，每条含 title 和 url：
+  ```json
+  [{"title": "Lee Jae-myung - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lee_Jae-myung"},
+   {"title": "이재명 - Korean Wikipedia", "url": "https://ko.wikipedia.org/wiki/이재명"}]
+  ```
+  ❌ 禁止写成纯字符串数组 `["url1", "url2"]`
+  ❌ 禁止留空 `[]`
 - `collection_meta.data_sources` 补充本次实际使用的来源类型
 
 写入后必须执行（不可跳过）：

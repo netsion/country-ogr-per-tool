@@ -177,7 +177,7 @@ def calc_org_score(data):
             filled += weight if len(val) >= 100 else weight // 2
 
     total += 2
-    if data.get("profile", {}).get("source_url"):
+    if (data.get("profile") or {}).get("source_url"):
         filled += 2
 
     return min(round(filled / total * 100), 100) if total > 0 else 0
@@ -220,7 +220,7 @@ def calc_person_score(data):
     total += 2
     if data.get("wikidata_qid"):
         filled += 1
-    if data.get("profile", {}).get("source_url"):
+    if (data.get("profile") or {}).get("source_url"):
         filled += 1
 
     return min(round(filled / total * 100), 100) if total > 0 else 0
@@ -441,6 +441,21 @@ def process_file(fpath, is_org, fix=False, score=False):
     sq_findings = check_smart_quotes(data)
     for path, matches in sq_findings:
         result.warn(f"Unicode smart quote(s) at {path}: {matches}")
+
+    # Validate collection_meta.quotes format
+    quotes = data.get("collection_meta", {}).get("quotes")
+    if quotes is not None:
+        if not isinstance(quotes, list):
+            result.error("collection_meta.quotes must be an array")
+        else:
+            for i, q in enumerate(quotes):
+                if isinstance(q, str):
+                    result.error(f"quotes[{i}] is a plain string, must be {{title, url}} object: {q[:80]}")
+                elif isinstance(q, dict):
+                    if not q.get("url"):
+                        result.error(f"quotes[{i}].url is empty")
+    else:
+        result.warn("collection_meta.quotes is missing")
 
     if fix and sq_findings:
         if fix_smart_quotes(data):
