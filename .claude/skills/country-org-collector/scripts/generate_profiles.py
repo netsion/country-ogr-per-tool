@@ -296,7 +296,7 @@ def resolve_key_people(orgs_dir, registry_data, cache_dir, country_iso):
     existing_by_name = {}
     existing_by_qid = {}
     for p in person_registry:
-        existing_by_name[normalize_name(p["name"])] = p
+        existing_by_name[normalize_name(p.get("name") or p.get("name_en", ""))] = p
         if p.get("wikidata_qid"):
             existing_by_qid[p["wikidata_qid"]] = p
 
