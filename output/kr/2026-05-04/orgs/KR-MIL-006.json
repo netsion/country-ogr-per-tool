@@ -1,34 +1,131 @@
 {
   "org_id": "KR-MIL-006",
   "basic_info": {
-    "name_original": "Joint Chiefs of Staff",
-    "name_zh": null,
-    "name_en": "Joint Chiefs of Staff",
-    "aliases": [],
+    "name_original": "대한민국 합동참모본부",
+    "name_zh": "联合参谋本部",
+    "name_en": "Joint Chiefs of Staff of the Republic of Korea",
+    "aliases": ["합참", "JCS", "ROK JCS", "大韩民国 合同参谋本部"],
     "org_type": "MIL",
-    "org_subtype": null,
+    "org_subtype": "military_joint_command",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1954-05",
+    "website": "http://www.jcs.mil.kr/mbshome/mbs/jcs2_eng/"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "digital_assets": [
+    {
+      "name": "Joint Chiefs of Staff Official Website",
+      "url": "http://www.jcs.mil.kr/mbshome/mbs/jcs2_eng/",
+      "description": "韩国联合参谋本部官方网站，提供组织介绍、新闻发布及军事信息",
+      "source": "Wikipedia"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "陈荣成 (Jin Young-sung)",
+      "title": "议长 (Chairman of the Joint Chiefs of Staff)",
+      "title_description": "韩国军队最高军事长官，拥有对所有武装力量的作战指挥权",
+      "description": "现任联合参谋本部议长，四星上将，负责统辖韩国陆海空三军的作战指挥"
+    },
+    {
+      "person_id": null,
+      "name": "金圭夏 (Kim Kyu-ha)",
+      "title": "陆军参谋总长 (Chief of Staff of the Army)",
+      "title_description": "陆军最高指挥官，联合参谋本部成员",
+      "description": "现任陆军参谋总长，四星上将，负责陆军部队的行政管理"
+    },
+    {
+      "person_id": null,
+      "name": "姜东吉 (Kang Dong-gil)",
+      "title": "海军作战司令官 (Chief of Naval Operations)",
+      "title_description": "海军最高指挥官，联合参谋本部成员",
+      "description": "现任海军作战司令官，海军上将"
+    },
+    {
+      "person_id": null,
+      "name": "孙硕拉 (Son Sug Rag)",
+      "title": "空军参谋总长 (Chief of Staff of the Air Force)",
+      "title_description": "空军最高指挥官，联合参谋本部成员",
+      "description": "现任空军参谋总长，四星上将"
+    }
+  ],
+  "departments": [
+    {
+      "name": "作战指挥部 (Operations Command)",
+      "description": "负责对各军种作战部队的统一指挥与协调"
+    },
+    {
+      "name": "战略规划部 (Strategic Planning)",
+      "description": "负责军事战略制定与作战计划编制"
+    },
+    {
+      "name": "情报部 (Intelligence Directorate)",
+      "description": "负责军事情报的收集、分析与分发"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-11-03",
+      "title": "韩美联合参谋议长会谈",
+      "description": "美国参联会主席Dan Caine与韩国联合参谋本部议长陈荣成举行会谈，讨论联盟防御态势与区域安全合作",
+      "impact": "强化韩美军事同盟协调机制",
+      "source": "https://www.usfk.mil/Media/Press-Products/Press-Releases/"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "特朗普要求韩国加入霍尔木兹海峡护航任务",
+      "description": "美国总统特朗普公开表示韩国应加入美国在伊朗附近的船只保护任务，联合参谋本部面临战略决策压力",
+      "impact": "可能影响韩国军队海外部署政策与韩美军事合作方向",
+      "source": "https://www.reuters.com/world/asia-pacific/trump-says-south-korea-should-join-mission-protect-ships-near-iran-2026-05-04/"
+    },
+    {
+      "date": "2025-10-13",
+      "title": "韩美研讨建立多域联合特遣队",
+      "description": "大西洋理事会发布蓝图建议韩美建立联合多域特遣队，联合参谋本部正在评估相关方案以填补威慑与快速反应能力的空白",
+      "impact": "推动韩美军事一体化进程，提升联合作战能力",
+      "source": "https://www.atlanticcouncil.org/dispatches/a-blueprint-for-a-us-south-korea-combined-multi-domain-task-force/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-009",
+      "org_name": "Ministry of National Defense",
+      "org_type": "GOV",
+      "org_description": "韩国国防部，联合参谋本部的上级行政机构",
+      "relationship_type": "reporting_to"
+    },
+    {
+      "org_id": "KR-MIL-007",
+      "org_name": "National Intelligence Service",
+      "org_type": "MIL",
+      "org_description": "韩国国家情报院，与联合参谋本部共享情报资源",
+      "relationship_type": "intelligence_sharing"
+    },
+    {
+      "org_id": "KR-MIL-002",
+      "org_name": "Republic of Korea Army",
+      "org_type": "MIL",
+      "org_description": "韩国陆军，联合参谋本部下辖主要军种",
+      "relationship_type": "operational_command"
+    }
+  ],
+  "core_business": "联合参谋本部是韩国军队的最高军事指挥机构，由各军种参谋总长组成，议长拥有对全军武装力量的实际作战指挥权。国家指挥链从总统和国防部长传递至联合参谋本部议长，再下达至各军种作战司令部。联合参谋本部负责制定军事战略、指挥联合作战、协调韩美联合军演，以及管理平时与战时的军事行动。",
+  "industries": ["国防", "军事指挥", "国家安全"],
+  "apec_stance": "联合参谋本部作为军事指挥机构，不直接参与APEC事务，但其军事安全角色为韩国在APEC框架内的经济外交提供安全保障支撑。",
+  "profile": "韩国联合参谋本部成立于1954年5月（1963年6月改为现名），是韩国武装力量的最高军事指挥机构。与美国参联会不同，韩国联合参谋本部议长拥有对各军种的实际作战指挥权（OPCON），国家指挥权从总统和国防部长直接传递至议长，绕过各军种总部。目前陆军拥有5个作战司令部、海军拥有2个（含海军陆战队）、空军拥有1个。传统上议长由陆军担任，副议长由海军或空军出任。联合参谋本部总部位于首尔龙山区。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia EN - Joint Chiefs of Staff (South Korea)",
+      "Wikipedia KO - 합동참모본부",
+      "USFK Press Releases",
+      "Reuters",
+      "Atlantic Council"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 88,
+    "notes": "Enriched with Wikipedia data, recent news, and organizational structure. Current chairman identified from official sources."
   }
 }

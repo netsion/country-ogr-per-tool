@@ -1,34 +1,141 @@
 {
   "org_id": "KR-MEDIA-006",
   "basic_info": {
-    "name_original": "Dong-A Ilbo",
-    "name_zh": null,
+    "name_original": "동아일보",
+    "name_zh": "东亚日报",
     "name_en": "Dong-A Ilbo",
-    "aliases": [],
+    "aliases": ["Donga Ilbo", "East Asia Daily", "동아"],
     "org_type": "MEDIA",
-    "org_subtype": null,
+    "org_subtype": "daily_newspaper",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1920-04-01",
+    "website": "https://www.donga.com"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
+  "social_accounts": [
+    {
+      "platform": "X (Twitter)",
+      "account_name": "@donga_com",
+      "url": "https://twitter.com/donga_com",
+      "source": "https://www.donga.com"
+    },
+    {
+      "platform": "Facebook",
+      "account_name": "dongacom",
+      "url": "https://www.facebook.com/dongacom",
+      "source": "https://www.donga.com"
+    },
+    {
+      "platform": "YouTube",
+      "account_name": "동아일보",
+      "url": "https://www.youtube.com/@dongailbo",
+      "source": "https://www.youtube.com/@dongailbo"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "donga.com",
+      "url": "https://www.donga.com",
+      "description": "东亚日报韩文官方网站，提供综合新闻、政治、经济、社会、文化等领域报道",
+      "source": "https://www.donga.com"
+    },
+    {
+      "name": "english.donga.com",
+      "url": "http://english.donga.com",
+      "description": "东亚日报英文版网站，面向国际读者提供韩国新闻",
+      "source": "https://en.wikipedia.org/wiki/Dong-A_Ilbo"
+    },
+    {
+      "name": "DongA.com News App",
+      "url": "https://apps.apple.com/app/dong-a-ilbo/id397324887",
+      "description": "东亚日报移动新闻应用程序",
+      "source": "https://www.donga.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "金在浩 (Kim Jae-ho)",
+      "title": "社长兼发行人",
+      "title_description": "President & Publisher",
+      "description": "东亚日报社长兼Channel A电视台会长，曾任韩国报纸协会会长，领导东亚日报数字化转型与媒体集团扩张"
+    },
+    {
+      "person_id": null,
+      "name": "金性洙 (Kim Seong-su)",
+      "title": "创始人",
+      "title_description": "Founder",
+      "description": "东亚日报创始人之一，韩国大学创建者，后曾任韩国副总统，在日本殖民时期推动独立运动的代表性人物"
+    },
+    {
+      "person_id": null,
+      "name": "林在清 (Im Chae-cheong)",
+      "title": "联合首席执行官",
+      "title_description": "Co-CEO",
+      "description": "东亚日报联合代表，负责报社日常经营与管理"
+    }
+  ],
   "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
+  "recent_events": [
+    {
+      "date": "2026-04-15",
+      "title": "报道韩国AI全球竞争力排名上升",
+      "description": "东亚日报独家报道斯坦福大学'AI Index 2026'报告，显示韩国AI竞争力仅次于美国，位居全球前列",
+      "impact": "medium",
+      "source": "https://www.donga.com/en/article/all/20260415/6184570/1"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "韩国反假新闻法引发言论自由争议",
+      "description": "东亚日报参与报道韩国新反假新闻法，该法针对YouTuber和内容创作者实施惩罚性赔偿，引发UNESCO审查警告",
+      "impact": "high",
+      "source": "https://www.mimeta.org/mimeta-news-on-censorship-in-art/2026/2/4/south-korea-anti-fake-news-law-and-the-silent-arts-sector"
+    },
+    {
+      "date": "2025-12-26",
+      "title": "报道韩国电影业低迷与2026年大片展望",
+      "description": "东亚日报年终专题分析韩国电影业面临困境，展望2026年中大制作影片（制作费超30亿韩元）的复苏前景",
+      "impact": "medium",
+      "source": "https://www.donga.com/en/article/all/20251226/6028945/1"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-MEDIA-014",
+      "org_name": "Channel A",
+      "org_type": "MEDIA",
+      "org_description": "东亚日报旗下的综合有线电视台，2011年12月开播",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "KR-MEDIA-007",
+      "org_name": "Chosun Ilbo",
+      "org_type": "MEDIA",
+      "org_description": "朝鲜日报，与东亚日报同为韩国三大保守派报纸（'朝中东'之一）",
+      "relationship_type": "competitor"
+    },
+    {
+      "org_id": "KR-MEDIA-005",
+      "org_name": "JoongAng Ilbo",
+      "org_type": "MEDIA",
+      "org_description": "中央日报，与东亚日报并称韩国三大保守派报纸",
+      "relationship_type": "competitor"
+    }
+  ],
+  "core_business": "韩国历史最悠久的主流日报之一，创刊于1920年。以韩文日报为核心，运营donga.com新闻网站及英文版、体育东亚、东亚科学等杂志，旗下拥有综合有线电视台Channel A及东亚媒体集团共11家关联公司。业务覆盖纸质与数字新闻、广播电视、出版、文化教育等领域，与纽约时报、朝日新闻等国际媒体建立合作伙伴关系，在全球90个城市发行海外版。",
+  "industries": ["报纸出版", "数字媒体", "广播电视", "出版发行"],
   "apec_stance": null,
-  "profile": null,
+  "profile": "东亚日报是韩国最具影响力的保守派日报之一，1920年4月1日创刊，在日本殖民时期曾积极投身韩国独立运动，是韩国历史最悠久的报纸之一。报纸以'值得信赖的报纸'为办报宗旨，日均发行量位居韩国前列。旗下东亚媒体集团（DAMG）拥有11家子公司，包括综合有线电视台Channel A、体育东亚、东亚科学等。1987年独家报道了朴钟哲被拷打致死事件，成为六月民主抗争的催化剂。政治立场偏右翼保守，被视为韩国三大保守派报纸（朝中东）之一。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia (en)",
+      "Dong-A Ilbo official site",
+      "Korea Herald",
+      "Strait Times"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 88,
+    "notes": "Enriched with Wikipedia data, official site info, and recent news events"
   }
 }

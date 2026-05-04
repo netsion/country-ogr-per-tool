@@ -1,34 +1,143 @@
 {
   "org_id": "KR-SOE-018",
   "basic_info": {
-    "name_original": "Seoul Metro",
-    "name_zh": null,
+    "name_original": "서울교통공사",
+    "name_zh": "首尔地铁",
     "name_en": "Seoul Metro",
-    "aliases": [],
+    "aliases": ["Seoul Transportation Corporation", "서울메트로 (former)"],
     "org_type": "SOE",
-    "org_subtype": null,
+    "org_subtype": "municipal_corporation",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "2017-05-31",
+    "website": "https://www.seoulmetro.co.kr/en/index.do"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
+  "social_accounts": [
+    {
+      "platform": "Facebook",
+      "account_name": "seoulmetro",
+      "url": "https://www.facebook.com/seoulmetro",
+      "source": "https://www.seoulmetro.co.kr"
+    },
+    {
+      "platform": "YouTube",
+      "account_name": "서울교통공사",
+      "url": "https://www.youtube.com/@seoulmetro",
+      "source": "https://www.seoulmetro.co.kr"
+    },
+    {
+      "platform": "X (Twitter)",
+      "account_name": "@SeoulMetrokr",
+      "url": "https://twitter.com/SeoulMetrokr",
+      "source": "https://www.seoulmetro.co.kr"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "seoulmetro.co.kr",
+      "url": "https://www.seoulmetro.co.kr/en/index.do",
+      "description": "首尔地铁官方网站（英文版），提供线路信息、运营时间、票价查询等服务",
+      "source": "https://www.seoulmetro.co.kr"
+    },
+    {
+      "name": "首尔地铁App",
+      "url": "https://apps.apple.com/app/seoul-metro/id468052944",
+      "description": "首尔地铁官方移动应用，提供实时到站信息、路线查询等功能",
+      "source": "https://www.seoulmetro.co.kr"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "白虎 (Baek Ho)",
+      "title": "代表理事兼社长",
+      "title_description": "CEO & President",
+      "description": "首尔交通公社代表理事兼社长，负责首尔地铁1-9号线的运营管理与财务改革"
+    },
+    {
+      "person_id": null,
+      "name": "首尔市长（首尔特别市长）",
+      "title": "最高决策者",
+      "title_description": "Mayor of Seoul (ex officio overseer)",
+      "description": "首尔特别市长作为首尔地铁的最终所有者代表，对地铁运营政策与财政支持拥有最高决策权"
+    }
+  ],
   "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
+  "recent_events": [
+    {
+      "date": "2026-04-19",
+      "title": "公布地铁无障碍升级计划",
+      "description": "首尔地铁公布1、4、8号线共约220节新车厢的无障碍升级计划，将达到最高级别无障碍认证标准",
+      "impact": "high",
+      "source": "https://www.koreaherald.com/article/10720497"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "向政府申请补贴老年人免费乘车损失",
+      "description": "首尔地铁向政府申请数亿欧元补贴，以弥补65岁以上老年人免费乘车造成的巨额损失。2020年以来首尔地铁年均净亏损约1万亿韩元，累计净亏损达14万亿韩元",
+      "impact": "high",
+      "source": "https://www.railwaypro.com/wp/seoul-metro-is-asking-the-government-to-cover-losses-caused-by-free-rides/"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "李在明总统提议限制高峰时段老年人免费乘车",
+      "description": "韩国总统李在明提议在高峰时段限制65岁以上老年人免费乘地铁，数据显示老年人免费乘车占高峰时段乘客的8.3%。研究显示该措施可降低高峰拥挤度达9.5%",
+      "impact": "high",
+      "source": "https://www.chosun.com/english/national-en/2026/03/25/TPARSOK74VGMNGLN44ZX232XTA/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "报道2025年首尔地铁客运量达24.4亿人次",
+      "description": "首尔地铁1-8号线2025年共运送乘客24.4亿人次，蚕室站（2号线）连续三年成为最繁忙车站",
+      "impact": "medium",
+      "source": "https://www.koreaherald.com/article/10707003"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-SOE-004",
+      "org_name": "Korail",
+      "org_type": "SOE",
+      "org_description": "韩国铁道公社，与首尔地铁共同运营首尔地铁系统，负责1/3/4号线的部分路段",
+      "relationship_type": "operating_partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "Seoul Metropolitan Government",
+      "org_type": "GOV",
+      "org_description": "首尔特别市政府，首尔地铁的所有者",
+      "relationship_type": "owner"
+    },
+    {
+      "org_id": null,
+      "org_name": "Seoul Metro Corporation (서울메트로, defunct)",
+      "org_type": "SOE",
+      "org_description": "原首尔地铁公社（1970-2017），2017年与首尔城市地铁公社合并为现首尔交通公社",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "Seoul Metropolitan Rapid Transit Corporation (서울도시철도공사, defunct)",
+      "org_type": "SOE",
+      "org_description": "原首尔城市地铁公社，运营5/6/7/8号线，2017年与首尔地铁公社合并",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "首尔地铁（首尔交通公社）是首尔市政府全资拥有的市营企业，2017年5月31日由原首尔地铁公社和首尔城市地铁公社合并而成。负责运营首尔地铁1-9号线，其中部分路段（1/3/4号线）与Korail联合运营。覆盖线路总长约300公里，运营车站约300座。2023年营业收入1.8707万亿韩元，但受老年人免费乘车政策影响（1984年起65岁以上免费），自2020年以来年均净亏损约1万亿韩元，累计净亏损达14万亿韩元。",
+  "industries": ["城市轨道交通", "公共运输"],
   "apec_stance": null,
-  "profile": null,
+  "profile": "首尔地铁（首尔交通公社，Seoul Transportation Corporation）是运营首尔地铁1-9号线的市营企业，由首尔特别市政府全资拥有。2017年5月31日由原首尔地铁公社（运营1/2/3/4号线）和原首尔城市地铁公社（运营5/6/7/8号线）合并而成，以提高运营效率。合并后的首尔地铁控制着首尔市政府所拥有的铁路和车站资产。运营线路覆盖首尔及首都圈主要区域，2025年客运量达24.4亿人次。面临严峻的财务挑战——由于1984年起实施的65岁以上老年人免费乘车政策，加上少子老龄化趋势，首尔地铁自2020年以来年均净亏损约1万亿韩元（约14万亿韩元累计净亏损）。2026年成为韩国政策辩论的焦点，总统李在明提议限制高峰时段老年人免费乘车以缓解拥挤和财政压力。同时积极推进无障碍升级，计划将1/4/8号线约220节车厢升级至最高无障碍标准。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia (en)",
+      "Korea Herald",
+      "Chosun.com",
+      "Railway Pro",
+      "Korea Times"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 90,
+    "notes": "Enriched with Wikipedia, recent policy debate news, and financial data"
   }
 }
