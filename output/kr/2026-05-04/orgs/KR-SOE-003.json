@@ -1,0 +1,346 @@
+{
+  "org_id": "KR-SOE-003",
+  "basic_info": {
+    "name_original": "한국철도공사",
+    "name_zh": "韩国铁道公社",
+    "name_en": "Korea Railroad Corporation",
+    "aliases": [
+      "Korail",
+      "KORAIL",
+      "코레일",
+      "韩国铁道",
+      "Korea Railroad"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "KOR",
+    "hq_country_iso3": "KOR",
+    "founded_date": "2005-01-01",
+    "website": "https://info.korail.com/info/index.do"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "korail_official",
+      "url": "https://x.com/korail_official",
+      "source": "wikipedia_ko"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "KoreaRailroad",
+      "url": "https://facebook.com/KoreaRailroad",
+      "source": "wikipedia_ko"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "한국철도TV",
+      "url": "https://www.youtube.com/c/%ED%95%9C%EA%B5%AD%EC%B2%A0%EB%8F%84TV",
+      "source": "wikipedia_ko"
+    },
+    {
+      "platform": "other",
+      "account_name": "korailblog",
+      "url": "https://blog.naver.com/korailblog",
+      "source": "wikipedia_ko"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Let's Korail 在线预约系统 (레츠코레일)",
+      "url": "https://www.letskorail.com/",
+      "description": "Korail官方在线购票与预约平台，支持韩英日中四语",
+      "source": "wikipedia_ko"
+    },
+    {
+      "name": "Korail Talk 移动应用 (코레일톡)",
+      "url": "https://info.korail.com/info/contents.do?key=724",
+      "description": "Korail官方移动购票应用，提供列车查询、购票、乘务员呼叫等服务",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "金泰升 (김태승 / Kim Tae-seung)",
+      "title": "第12代社长 (제12대 사장)",
+      "title_description": "韩国铁道公社最高管理者，任期3年，主管全面经营战略与安全政策",
+      "description": "首尔大学经济学博士，曾任仁荷大学经营大学院亚太物流学部教授、京畿开发研究院副院长，交通开发研究院东北亚物流交通经济研究中心主任。2026年2月27日内定，3月3日正式就任第12代Korail社长，任期至2029年3月2日。主张安全文化改革与KTX-SRT高速铁路整合。"
+    },
+    {
+      "person_id": null,
+      "name": "洪承杓 (홍승표 / Hong Seung-pyo)",
+      "title": "安全技术总管本部长 (안전기술총괄본부장)",
+      "title_description": "统辖安全技术体系，负责安全、车辆、设施、电力四大本部",
+      "description": "曾任旅客事业本部长代理、顾客营销团长。2026年1月22日至3月3日期间曾代理社长职务。"
+    },
+    {
+      "person_id": null,
+      "name": "李敏哲 (이민철 / Lee Min-cheol)",
+      "title": "企划调整本部长 (기획조정본부장)",
+      "title_description": "负责战略规划、预算管理、经营评价与ESG经营",
+      "description": "英国伯明翰大学MBA，曾任釜山庆南本部长、海外南北铁道事业团长、财务经营室长。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "KR-SOE-003-DEPT-001",
+      "name": "安全技术总管本部 (안전기술총괄본부)",
+      "head": null,
+      "description": "统辖安全本部、车辆本部、设施本部、电力本部，负责全线运营安全与设备维护",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-002",
+      "name": "安全本部 (안전본부)",
+      "head": null,
+      "description": "负责安全计划、产业安全、市民安全、安全分析、环境经营、紧急计划及铁路交通管制中心",
+      "parent_dept_id": "KR-SOE-003-DEPT-001"
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-003",
+      "name": "车辆本部 (차량본부)",
+      "head": null,
+      "description": "负责车辆计划、高速车辆、一般车辆、电动车辆管理及铁路车辆维修",
+      "parent_dept_id": "KR-SOE-003-DEPT-001"
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-004",
+      "name": "设施本部 (시설본부)",
+      "head": null,
+      "description": "负责线路设施计划、轨道管理、建设设施及高速设施事业",
+      "parent_dept_id": "KR-SOE-003-DEPT-001"
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-005",
+      "name": "电力本部 (전기본부)",
+      "head": null,
+      "description": "负责电力计划、电气化供电、通信、信号控制及高速电力事业",
+      "parent_dept_id": "KR-SOE-003-DEPT-001"
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-006",
+      "name": "企划调整本部 (기획조정본부)",
+      "head": null,
+      "description": "负责ESG经营、战略企划、企划预算、经营评价及财务会计",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-007",
+      "name": "人才经营本部 (인재경영본부)",
+      "head": null,
+      "description": "负责总务、人事企划、人事运营、劳资相生、福利厚生及人才开发院",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-008",
+      "name": "数字融合本部 (디지털 융합본부)",
+      "head": null,
+      "description": "负责数字企划、数字经营(信息安全中心)、IT运营中心及铁路研究院",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-009",
+      "name": "旅客事业本部 (여객사업본부)",
+      "head": null,
+      "description": "负责旅客计划、站务运营、旅客服务、顾客营销及列车运营",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-010",
+      "name": "物流事业本部 (물류사업본부)",
+      "head": null,
+      "description": "负责物流计划、物流营销及物流运输",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-011",
+      "name": "广域铁道本部 (광역철도본부)",
+      "head": null,
+      "description": "负责首都圈广域铁道及釜山大邱都市铁道的计划、营销与运营",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-SOE-003-DEPT-012",
+      "name": "新成长事业本部 (신성장 사업본부)",
+      "head": null,
+      "description": "负责新成长企划、资产运营、新成长开发及海外南北铁道事业团(国际协力、海外事业)",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-04",
+      "title": "KTX-SRT中联运行试运行推进 (KTX-SRT 중련운행 시운전)",
+      "description": "韩国铁道公社与SR(埃斯阿尔)开始在实际营业线路进行KTX与SRT高速列车中联运行(连接运行)试运行。5月14日前共4次试运行，5月15日起普通乘客可乘坐示范中联运行列车。目标是9月正式实现整合运行。",
+      "impact": "标志着KTX与SRT十年竞争体制终结、迈向'一轨体制'的关键技术验证阶段",
+      "source": "https://www.etnews.com/20260430000162"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "金泰升就任第12代Korail社长 (김태승 제12대 사장 취임)",
+      "description": "金泰升在将于大田社屋大讲堂举行就任仪式，正式成为第12代韩国铁道公社社长，任期3年至2029年3月2日。就任演说强调安全文化定着、AI及机器人科学安全管理体系导入，以及KTX-SRT高速铁路整合尽早完成。",
+      "impact": "结束了此前约6个月的社长空缺(2025年8月-2026年3月)，新社长兼具学术背景与政策经验",
+      "source": "https://www.hankyung.com/article/202603035621h"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "KTX-SRT交叉运行开始 (KTX·SRT 교차운행 개시)",
+      "description": "韩国政府宣布自2026年2月25日起启动KTX与SRT交叉运行示范。水西站可乘KTX，首尔站/龙山站可乘SRT，打破过去两系统各自独立运行的格局。同时KTX票价下调约10%对齐SRT。",
+      "impact": "高速铁路整合路线图的首个实质性落地举措，为2026年底前完成Korail-SR完全合并奠定基础",
+      "source": "https://www.hani.co.kr/arti/economy/economy_general/1233404.html"
+    },
+    {
+      "date": "2025-12-22",
+      "title": "铁路工会总罢工暂缓、绩效工资正常化达成协议 (철도노조 총파업 유보·성과급 정상화 합의)",
+      "description": "全国铁路劳动组合总会原定12月23日总罢击，政府公共机关运营委员会决定将Korail绩效工资标准于2026年提高至基本工资90%、2027年达100%正常化。铁路工会接受此方案后撤回罢击。同时引入直付金制度。",
+      "impact": "15年绩效工资斗争取得阶段性成果，避免年末铁路瘫痪",
+      "source": "https://www.hani.co.kr/arti/economy/economy_general/1236191.html"
+    },
+    {
+      "date": "2025-12-08",
+      "title": "政府发布高速铁路整合路线图 (고속철도 통합 로드맵 발표)",
+      "description": "国土交通部发布KTX与SRT运营体系整合路线图，目标2026年底前完成Korail与SR合并。核心措施包括：交叉运行、预约系统统合(统一为Korail应用)、车辆连接运行(中联运行)、以及最终法人合并。此为2016年SRT分离以来十年竞争体制的终结。",
+      "impact": "韩国高速铁路政策重大转折，将提升运营效率、消除重复成本",
+      "source": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?key=20251208.99099002544"
+    },
+    {
+      "date": "2025-08-19",
+      "title": "庆北清道列车事故 (경북 청도 열차사고)",
+      "description": "上午10时50分左右，庆尚北道清道郡南贤-清道区间，在进行边坡安全检查作业时，7名作业人员被无穷花号列车撞击，造成2人死亡(含外包企业员工)、5人重伤。第11代社长韩文熙于8月21日为此事故引咎辞职。国土部下达作业停止令，此后数周内KTX及普通列车大面积延误。",
+      "impact": "引发铁路安全制度根本性反思，加速安全管理体系改革与新社长任命进程",
+      "source": "https://www.yna.co.kr/view/AKR20250819113400063"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "2025年铁路乘客达1.46亿人次创历史新高 (2025년 철도 이용객 1억 4600만 명 역대 최고)",
+      "description": "Korail宣布2025年全年铁路乘客达到1.46亿人次，创历史最高纪录。主要增长来自KTX-青龙新车型投入、新线开通(东海线、中央线等)以及疫后需求持续恢复。",
+      "impact": "显示铁路需求强劲增长，但票价冻结14年(自2011年起)叠加持续亏损，经营压力加大",
+      "source": "https://info.korail.com/info/selectBbsNttView.do?key=911&bbsNo=199&nttNo=26075"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-019",
+      "org_name": "Ministry of Land, Infrastructure and Transport",
+      "org_type": "GOV",
+      "org_description": "韩国国土交通部 (국토교통부)，Korail的100%控股股东与主管部委",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "KR-SOE-004",
+      "org_name": "SR Corporation",
+      "org_type": "SOE",
+      "org_description": "SR(에스알)，运营SRT水西出发高速列车的韩国国营铁路企业，2016年从Korail拆分设立，计划2026年底前与Korail合并",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "Korea National Railway (국가철도공단)",
+      "org_type": "GOV",
+      "org_description": "韩国国家铁道公团，2005年从铁道厅拆分，负责铁路建设与轨道设施维护",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "Korail Networks (코레일네트웍스)",
+      "org_type": "CORP",
+      "org_description": "Korail子公司，负责票务管理、会员运营及停车场业务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Korail Retail (코레일유통)",
+      "org_type": "CORP",
+      "org_description": "Korail子公司，负责广告管理与Storyway便利店运营",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Korail Tour Service (코레일관광개발)",
+      "org_type": "CORP",
+      "org_description": "Korail子公司，负责KTX/无穷花号列车乘务与旅游服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Korail Logis (코레일로지스)",
+      "org_type": "CORP",
+      "org_description": "Korail子公司，负责铁路物流运输",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Korail Tech (코레일테크)",
+      "org_type": "CORP",
+      "org_description": "Korail子公司，负责铁路车辆及设施维护保养",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "韩国铁道公社(Korail)是韩国国有铁路运营企业，由国土交通部100%控股。前身为1963年设立的铁道厅，2005年公司化改革后成立韩国铁道公社。总部位于大田广域市东区中央路240号。员工约32,380名(2024年第三季度)，营业里程4,131.2公里(100条线路，690个车站)。核心业务包括：(1)高速铁路服务(KTX、KTX-山川、KTX-青龙)，运营时速300公里以上的高速列车；(2)城际铁路服务(ITX-心意、ITX-新村、无穷花号等)；(3)首都圈及釜山大邱广域铁道(1号/3号/4号线、京义中央线、水仁分堂线等)；(4)货运物流服务；(5)观光列车(正선阿里郎列车、南海海洋列车等)；(6)海外铁路及南北铁路连接事业。2024年营业收入6.5281万亿韩元，但自2011年起票价冻结导致持续亏损，累计亏损约21万亿韩元。当前最大政策课题为与SR(水西高速铁道)的整合，计划2026年底前完成合并以实现高速铁路'一轨体制'。",
+  "industries": [
+    "railway",
+    "transportation",
+    "public_transport",
+    "logistics_warehousing",
+    "infrastructure"
+  ],
+  "apec_stance": "Korail作为韩国国营铁路运营商，积极参与APEC框架下的区域互联互通与物流合作。其海外南北铁道事业团(해외남북철도사업단)专责国际铁路协作，曾参与韩朝铁路连接项目(2018年京义线/东海线联合考察)。在APEC交通部长会议及东北亚物流合作中，Korail的技术输出与高铁技术(KTX)被视为韩国基础设施外交的重要工具。韩国政府推动的'新北方政策'与铁路连接愿景(Trans-Korean Main Line连接至俄罗斯西伯利亚铁路)具有APEC区域经济一体化意涵。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Korea_Railroad_Corporation.jpg/330px-Korea_Railroad_Corporation.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-04",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "news_search"
+    ],
+    "completeness_score": 91,
+    "notes": "Enriched profile from Korean/English Wikipedia, Korail official site, and Korean news sources (2025-2026)",
+    "quotes": [
+      {
+        "title": "Korail - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Korail"
+      },
+      {
+        "title": "韩国铁道公社 - 韩语维基百科",
+        "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%B2%A0%EB%8F%84%EA%B3%B5%EC%82%AC"
+      },
+      {
+        "title": "Korail高管现状 - 官方网站",
+        "url": "https://info.korail.com/info/contents.do?key=1901"
+      },
+      {
+        "title": "金泰升就任第12代Korail社长 - 韩国经济",
+        "url": "https://www.hankyung.com/article/202603035621h"
+      },
+      {
+        "title": "Korail任命新CEO - International Railway Journal",
+        "url": "https://www.railjournal.com/regions/asia/korail-appoints-new-ceo/"
+      },
+      {
+        "title": "KTX-SRT中联运行试运行 - 电子新闻",
+        "url": "https://www.etnews.com/20260430000162"
+      },
+      {
+        "title": "政府发布高速铁路整合路线图 - 国际新闻",
+        "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?key=20251208.99099002544"
+      },
+      {
+        "title": "清道列车事故 - 联合新闻",
+        "url": "https://www.yna.co.kr/view/AKR20250819113400063"
+      },
+      {
+        "title": "2025年铁路乘客达历史新高 - Korail官方",
+        "url": "https://info.korail.com/info/selectBbsNttView.do?key=911&bbsNo=199&nttNo=26075"
+      },
+      {
+        "title": "铁路工会绩效工资正常化协议 - 韩民族日报",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1236191.html"
+      }
+    ]
+  }
+}
