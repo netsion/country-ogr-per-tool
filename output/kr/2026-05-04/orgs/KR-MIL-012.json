@@ -1,34 +1,132 @@
 {
   "org_id": "KR-MIL-012",
   "basic_info": {
-    "name_original": "Presidential Security Service",
-    "name_zh": null,
-    "name_en": "Presidential Security Service",
-    "aliases": [],
+    "name_original": "대통령경호처",
+    "name_zh": "总统警护处",
+    "name_en": "Presidential Security Service (PSS)",
+    "aliases": ["경호처", "PSS", "大统领警护处", "청와대 경호실(旧)"],
     "org_type": "MIL",
-    "org_subtype": null,
+    "org_subtype": "presidential_protection",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1963",
+    "website": "https://www.pss.go.kr/"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "digital_assets": [
+    {
+      "name": "Presidential Security Service Official Website",
+      "url": "https://www.pss.go.kr/",
+      "description": "韩国总统警护处官方网站",
+      "source": "Wikipedia"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "黄仁权 (Hwang In-kwon)",
+      "title": "处长 (Chief of the PSS)",
+      "title_description": "总统警护处最高负责人",
+      "description": "现任总统警护处处长"
+    },
+    {
+      "person_id": null,
+      "name": "朴宽天 (Park Gwan-cheon)",
+      "title": "副处长 (Deputy Chief of the PSS)",
+      "title_description": "总统警护处副职负责人",
+      "description": "现任总统警护处副处长"
+    },
+    {
+      "person_id": null,
+      "name": "柳延尚 (Yoo Yeon-sang)",
+      "title": "处长 (Chief of the PSS)",
+      "title_description": "2025年初时期任处长，在尹锡悦逮捕事件中扮演关键角色",
+      "description": "副部长级警护处长，因在2025年1月阻止执行尹锡悦逮捕令而引发争议"
+    }
+  ],
+  "departments": [
+    {
+      "name": "创新企划本部 (Headquarters for Innovation & Planning)",
+      "description": "负责机构改革与战略规划"
+    },
+    {
+      "name": "行政本部 (Headquarters for Administration)",
+      "description": "负责后勤保障与行政管理"
+    },
+    {
+      "name": "警护本部 (Headquarters for Protection)",
+      "description": "负责总统及重要人物的贴身警卫工作"
+    },
+    {
+      "name": "情报安保本部 (Headquarters for Intelligence & Security)",
+      "description": "负责威胁情报收集与安保评估"
+    },
+    {
+      "name": "教育训练本部 (Headquarters for Education & Training)",
+      "description": "负责警护人员的专业训练与能力建设"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-03",
+      "title": "警护处阻止执行尹锡悦逮捕令",
+      "description": "公调处首次尝试执行对被弹劾总统尹锡悦的逮捕令时，总统警护处人员封锁总统官邸入口，与调查人员对峙数小时，最终阻止了逮捕行动",
+      "impact": "引发巨大争议，警护处被指责滥用权力阻碍司法",
+      "source": "https://www.lemonde.fr/en/asia-and-pacific/article/2025/01/03/south-korean-investigators-attempted-to-detain-impeached-president-yoon-suk-yeol_6736658_153.html"
+    },
+    {
+      "date": "2025-01-10",
+      "title": "警护处长辞职",
+      "description": "总统警护处处长以'避免流血'为由辞职，此前警护处阻止了对尹锡悦的逮捕行动引发广泛批评",
+      "impact": "警护处领导层更替",
+      "source": "https://www.aljazeera.com/news/2025/1/10/south-koreas-presidential-security-chief-resigns-after-bloodshed-warning"
+    },
+    {
+      "date": "2025-01-15",
+      "title": "第二次逮捕行动中警卫被突破",
+      "description": "调查人员使用梯子翻越围墙进入尹锡悦官邸，突破警护处防线后，尹锡悦最终主动投案避免'流血事件'",
+      "impact": "警护处执法权威受到挑战，尹锡悦成为韩国历史上首位被刑事拘留的在任总统",
+      "source": "https://www.bbc.com/news/live/c4g317rj49zt"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "尹锡悦因滥用警护处阻碍逮捕被判7年",
+      "description": "上诉法院以阻碍逮捕等罪名判处前总统尹锡悦7年有期徒刑，其中包括滥用总统警护处阻止公调处执行逮捕令的指控",
+      "impact": "确立了总统警护处不得用于阻碍司法的判例",
+      "source": "https://www.npr.org/2026/04/29/g-s1-119165/south-korean-court-sentences-ex-president-yoon"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-001",
+      "org_name": "Office of the President of the Republic of Korea",
+      "org_type": "GOV",
+      "org_description": "韩国总统室，警护处直属总统",
+      "relationship_type": "reporting_to"
+    },
+    {
+      "org_id": "KR-MIL-009",
+      "org_name": "Defense Counterintelligence Command",
+      "org_type": "MIL",
+      "org_description": "国军防谍司令部，与警护处在总统安全方面有协作关系",
+      "relationship_type": "security_coordination"
+    }
+  ],
+  "core_business": "总统警护处（PSS）是韩国的独立总统警卫机构，仿照美国特勤局设立。其主要职责是保护韩国总统、总理及其办公场所、官邸和家属，以及来访的外国元首。警护处还为卸任总统及其直系亲属提供最长10年的保护服务。警卫人员需经过多年严格训练，通过背景审查、身心健康检查和教育审核后才能正式成为警护处特工。2022年5月，警护处总部随总统办公室迁至国防部大楼。",
+  "industries": ["要人保护", "国家安全", "执法"],
+  "apec_stance": "作为总统警卫机构，在APEC峰会等国际活动中承担东道国元首及来访领导人的安保工作。曾在2005年釜山APEC会议期间设立专门安保机构。",
+  "profile": "韩国总统警护处（PSS）成立于1963年，前身可追溯至1949年成立的景武台总统警护警察。该机构仿照美国特勤局设立，是独立于军队和警察的总统保护机构。负责总统、总理、当选总统、卸任总统（10年内）及来访外国元首的安全保卫。2025年1月因阻止执行尹锡悦逮捕令而卷入政治风暴，处长辞职。文在寅时期曾将处长级别降至副部长级。组织下设创新企划本部、行政本部、警护本部、情报安保本部和教育训练本部五个本部。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia EN - Presidential Security Service (South Korea)",
+      "Al Jazeera",
+      "BBC",
+      "NPR",
+      "Le Monde"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 91,
+    "notes": "Enriched with comprehensive Wikipedia data and highly active 2025 news on Yoon Suk Yeol arrest incident."
   }
 }

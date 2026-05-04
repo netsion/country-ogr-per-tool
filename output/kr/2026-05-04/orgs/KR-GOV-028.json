@@ -1,34 +1,169 @@
 {
   "org_id": "KR-GOV-028",
   "basic_info": {
-    "name_original": "Board of Audit and Inspection",
-    "name_zh": null,
+    "name_original": "감사원",
+    "name_zh": "韩国监察院（审计检查院）",
     "name_en": "Board of Audit and Inspection",
-    "aliases": [],
+    "aliases": [
+      "BAI",
+      "Board of Audit and Inspection of Korea",
+      "韩国审计检查院",
+      "大韩民国监察院"
+    ],
     "org_type": "GOV",
-    "org_subtype": null,
+    "org_subtype": "constitutional_body",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1963-03-20",
+    "website": "https://www.bai.go.kr/bai_eng/"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "digital_assets": [
+    {
+      "name": "BAI Official Website (English)",
+      "url": "https://www.bai.go.kr/bai_eng/",
+      "description": "韩国监察院官方网站英文版，提供机构介绍、审计报告及职能说明",
+      "source": "official"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "金浩哲 (Kim Ho-cheol)",
+      "title": "院长",
+      "title_description": "Chairman of the Board of Audit and Inspection",
+      "description": "人权律师出身，曾任韩国警察委员会委员长和环境运动联合共同代表。2025年12月由李在明总统提名为监察院长，同年12月30日获国会批准，2026年1月2日正式就任第26任监察院长。在就职演说中强调恢复监察院的政治中立性和独立性，承诺抵制外部压力。"
+    },
+    {
+      "person_id": null,
+      "name": "林仙淑 (Lim Sun-suk)",
+      "title": "监察委员",
+      "title_description": "Audit Commissioner of the Board of Audit and Inspection",
+      "description": "人权律师，2026年2月由监察院长金浩哲提名为新任监察委员，加入监察院七人委员会。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "审计政策企划局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责制定年度审计计划和审计政策方向，统筹全院审计业务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国家财政审计局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责审查国家决算收支、公共基金管理及国债管理审计",
+      "parent_dept_id": null
+    },
+    {
+      "name": "行政监察局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责对政府机关及其公务员的职务行为进行检查，提升行政服务质量",
+      "parent_dept_id": null
+    },
+    {
+      "name": "IT审计局",
+      "dept_id": null,
+      "head": null,
+      "description": "2014年设立，专门负责对政府信息系统和数字化项目进行审计",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-30",
+      "title": "监察院重新审查尹锡悦时期的审计工作",
+      "description": "韩国监察院于4月29日启动调查，重新审查此前审计中是否存在错误，重点针对尹锡悦政府时期的审计工作进行全面复核。",
+      "impact": "标志着监察院在金浩哲领导下对前政府时期审计工作的纠正行动",
+      "source": "https://www.chosun.com/english/national-en/2026/04/30/JRKTWAH7YNFKRECACIEGDGLC6Q/"
+    },
+    {
+      "date": "2026-04-03",
+      "title": "监察院废除特别调查局并大规模人事调整",
+      "description": "监察院长金浩哲在就职工演说中承诺废除的特别调查局正式被废除，同时对文在寅时期的审计官员进行大规模人事调整。这是监察院内部组织改革的重要步骤。",
+      "impact": "监察院内部组织结构重大调整，消除被视为政治工具化的部门，恢复机构中立性",
+      "source": "https://www.chosun.com/english/national-en/2026/03/03/J3GWDA5MWRBF7HFMQ34GIPXL44/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "监察院长承诺对危机应对中的主动行政行为免责",
+      "description": "监察院长金浩哲向各政府机关发出信函，在中东战争引发的能源和金融危机背景下，承诺对公职人员在危机应对中的主动行政行为不追究个人责任，鼓励'主动行政'。",
+      "impact": "在经济危机时期为公职人员提供行为保障，鼓励大胆高效的行政应对",
+      "source": "https://www.chosun.com/english/national-en/2026/04/01/SL7Q3YQ4KJFBPE4P2KUSG2BCHQ/"
+    },
+    {
+      "date": "2026-01-02",
+      "title": "金浩哲就任监察院长并承诺恢复政治中立",
+      "description": "新任监察院长金浩哲在就职仪式上表示，将'坚决维护职务独立性和政治中立性，将监察院改造为人民信赖的机构'。他提到了此前围绕政治性和针对性审计的争议，将恢复独立性和中立性列为机构首要任务。",
+      "impact": "监察院领导层更替标志着韩国最高审计机构向独立性和中立性的回归",
+      "source": "https://en.sedaily.com/politics/2026/01/02/new-audit-chief-kim-ho-chul-vows-independence-signals-major"
+    },
+    {
+      "date": "2025-03-13",
+      "title": "宪法法院驳回国会对监察院长崔在海的弹劾案",
+      "description": "韩国宪法法院驳回了国会针对监察院长崔在海的弹劾动议。崔在海被指控在对尹锡悦总统办公室和官邸搬迁的审计中存在不当行为。弹劾案被驳回后崔在海复职。",
+      "impact": "反映了韩国监察院政治中立性争议，也是后来监察院领导层更迭的背景因素之一",
+      "source": "https://koreajoongangdaily.joins.com/news/2025-03-13/national/politics/Constitutional-Court-rejects-impeachment-motion-against-BAI-chief-Choe-Jaehae/2261170"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-022",
+      "org_name": "National Assembly of the Republic of Korea",
+      "org_type": "GOV",
+      "org_description": "韩国国会，监察院长任命需经国会同意，BAI每年向国会报告国家决算审查结果",
+      "relationship_type": "oversight_body"
+    },
+    {
+      "org_id": "KR-GOV-024",
+      "org_name": "Constitutional Court of Korea",
+      "org_type": "GOV",
+      "org_description": "韩国宪法法院，根据宪法第97-100条设立监察院的宪法依据",
+      "relationship_type": "constitutional_framework"
+    },
+    {
+      "org_id": "KR-GOV-001",
+      "org_name": "Office of the President of the Republic of Korea",
+      "org_type": "GOV",
+      "org_description": "韩国总统府，监察院在制度上隶属于总统但在职务上保持独立地位",
+      "relationship_type": "parent_agency"
+    },
+    {
+      "org_id": "KR-GOV-030",
+      "org_name": "Anti-Corruption and Civil Rights Commission",
+      "org_type": "GOV",
+      "org_description": "反腐败与国民权益委员会，与监察院在反腐败和公共部门廉洁建设方面有职能交叉",
+      "relationship_type": "coordinating_agency"
+    }
+  ],
+  "core_business": "韩国监察院(BAI)是根据韩国宪法第97-100条设立的宪法机关，是韩国最高审计机构，拥有1,300年以上的审计历史传统。监察院在制度上隶属于总统，但在职务执行上保持独立地位。核心职能包括：(1)审查国家年度决算收支并向总统和国会报告；(2)对国家及法定机构的账目进行定期审计；(3)对政府机关和公务员的职务行为进行检查以提升行政质量；(4)对审计检查结果进行处理，包括赔偿责任的判定、惩戒请求、纠正请求、改善建议及刑事告发；(5)审查申诉和188热线举报。监察院由7名监察委员（含院长）组成的监察委员会议做出决策，院长由总统任命经国会同意，任期4年不可连任。总部位于首尔钟路区。",
+  "industries": [
+    "国家审计",
+    "政府监察",
+    "公共财政审查",
+    "反腐败监督",
+    "行政效能评估"
+  ],
+  "apec_stance": "韩国监察院是国际最高审计机构组织(INTOSAI)和亚洲最高审计机构组织(ASOSAI)的活跃成员，曾于2001-2004年担任INTOSAI主席国。监察院在推动亚太地区公共部门审计标准、政府透明度和问责制建设方面有持续贡献。BAI的审计数据管理系统BARON和电子审计管理系统BEST等技术工具，为APEC发展中经济体提供了数字化审计的参考经验。",
+  "profile": "韩国监察院的历史可追溯至1948年建国时分别设立的审计院和监察委员会。1962年宪法修订后两机构合并，1963年3月20日正式成立监察院。监察院是宪法保障的独立机构，拥有对国家财政的最终审计权和对行政部门的检查权。近年来先后经历了崔在海弹劾风波(2025年3月宪法法院驳回)和领导层更替(2025年12月金浩哲获国会批准)等重大事件。2026年金浩哲就任后推动废除特别调查局、恢复政治中立性、重新审查前政府审计工作等一系列改革措施，旨在重建监察院的公信力。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia EN (Board of Audit and Inspection)",
+      "BAI Official Website (bai.go.kr)",
+      "Chosun Ilbo",
+      "Korea JoongAng Daily",
+      "Korea Times",
+      "Sedaily",
+      "Asia Business Daily",
+      "Maeil Business",
+      "UnGovr.org"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 90,
+    "notes": "Enriched with comprehensive data from Wikipedia, official website, and multiple news sources. Two key people, five recent events with detailed context on institutional reform and leadership changes."
   }
 }

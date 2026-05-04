@@ -1,34 +1,133 @@
 {
   "org_id": "KR-MEDIA-010",
   "basic_info": {
-    "name_original": "The Korea Herald",
-    "name_zh": null,
+    "name_original": "코리아헤럴드",
+    "name_zh": "韩国先驱报",
     "name_en": "The Korea Herald",
-    "aliases": [],
+    "aliases": ["Korea Herald", "The Korean Republic (former name)"],
     "org_type": "MEDIA",
-    "org_subtype": null,
+    "org_subtype": "daily_newspaper",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1953-08",
+    "website": "https://www.koreaherald.com"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
+  "social_accounts": [
+    {
+      "platform": "X (Twitter)",
+      "account_name": "@TheKoreaHerald",
+      "url": "https://twitter.com/TheKoreaHerald",
+      "source": "https://www.koreaherald.com"
+    },
+    {
+      "platform": "Facebook",
+      "account_name": "thekoreaherald",
+      "url": "https://www.facebook.com/thekoreaherald",
+      "source": "https://www.koreaherald.com"
+    },
+    {
+      "platform": "YouTube",
+      "account_name": "The Korea Herald",
+      "url": "https://www.youtube.com/@koreaherald",
+      "source": "https://www.koreaherald.com"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "koreaherald.com",
+      "url": "https://www.koreaherald.com",
+      "description": "韩国先驱报官方网站，韩国最大的英文日报数字平台",
+      "source": "https://www.koreaherald.com"
+    },
+    {
+      "name": "Herald Business (헤럴드경제)",
+      "url": "https://biz.heraldcorp.com",
+      "description": "韩国先驱报集团旗下韩文经济日报",
+      "source": "https://en.wikipedia.org/wiki/The_Korea_Herald"
+    },
+    {
+      "name": "The Junior Herald",
+      "url": "https://www.juniorherald.com",
+      "description": "韩国先驱报集团旗下面向青少年的英文周刊",
+      "source": "https://en.wikipedia.org/wiki/The_Korea_Herald"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "全昌协 (Jeon Chang-hyeop)",
+      "title": "发行人",
+      "title_description": "Publisher",
+      "description": "韩国先驱报发行人，负责Herald Media集团整体出版战略"
+    },
+    {
+      "person_id": null,
+      "name": "李珠熙 (Lee Joo-hee)",
+      "title": "总编辑",
+      "title_description": "Editor-in-Chief",
+      "description": "韩国先驱报总编辑，负责英文日报的编辑方针与新闻报道"
+    }
+  ],
   "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
+  "recent_events": [
+    {
+      "date": "2026-04-26",
+      "title": "报道OECD预测韩国2027年潜在增长率将降至1.5%",
+      "description": "韩国先驱报报道OECD经济展望，预测韩国2026年潜在增长率为1.71%，2027年将进一步下滑至接近1.5%",
+      "impact": "high",
+      "source": "https://www.koreaherald.com/article/10725710"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "报道首尔地铁无障碍升级计划",
+      "description": "韩国先驱报独家报道首尔地铁将升级1、4、8号线共220节车厢，以达到最高级别无障碍认证标准",
+      "impact": "medium",
+      "source": "https://www.koreaherald.com/article/10720497"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "报道2025年首尔地铁客运量达24.4亿人次",
+      "description": "韩国先驱报图形新闻报道首尔地铁1-8号线2025年运送乘客24.4亿人次，蚕室站连续三年为最繁忙车站",
+      "impact": "medium",
+      "source": "https://www.koreaherald.com/article/10707003"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "Herald Corporation",
+      "org_type": "CORP",
+      "org_description": "韩国先驱报母公司，同时运营Herald Business经济日报、Junior Herald青少年周刊、英语教育村等业务",
+      "relationship_type": "parent_company"
+    },
+    {
+      "org_id": "KR-MEDIA-011",
+      "org_name": "The Korea Times",
+      "org_type": "MEDIA",
+      "org_description": "韩国时报，与韩国先驱报同为韩国主要英文日报",
+      "relationship_type": "competitor"
+    },
+    {
+      "org_id": null,
+      "org_name": "Asia News Network",
+      "org_type": "MEDIA",
+      "org_description": "亚洲新闻网络联盟，韩国先驱报是韩国唯一的成员机构",
+      "relationship_type": "membership"
+    }
+  ],
+  "core_business": "韩国最大的英文日报，1953年8月创刊（原名The Korean Republic，1965年改为现名）。由Herald Corporation运营，编辑团队由韩国和国际写作者组成，新闻来源包括美联社等国际通讯社。同时出版韩文经济日报《Herald Business》、青少年英文周刊《The Junior Herald》、大学韩文周刊《The Campus Herald》。旗下还运营英语教育机构Herald Academy和首尔英语村。是亚洲新闻网络（ANN）韩国唯一成员。",
+  "industries": ["英文报纸出版", "数字媒体", "英语教育", "出版发行"],
   "apec_stance": null,
-  "profile": null,
+  "profile": "韩国先驱报是韩国发行量最大的英文日报，1953年创刊于首尔，也是韩国历史最悠久的英文日报之一。原名The Korean Republic，1965年更名为The Korea Herald。由Herald Corporation运营，编辑部由约50名韩籍和外籍编辑记者组成，同时采用美联社等国际通讯社内容。报纸以IT和商业新闻报道见长，2002年被The Guardian评价为在IT和商业新闻方面有专长。是亚洲新闻网络（ANN）的韩国唯一成员，在国际传播韩国信息方面发挥重要桥梁作用。除英文日报外，Herald Media还运营韩文经济日报、青少年周刊、英语培训机构和英语沉浸式学校等多元化业务。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia (en)",
+      "Korea Herald official site",
+      "Yonhap News"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 86,
+    "notes": "Enriched with Wikipedia and official site data, recent economic and social news"
   }
 }

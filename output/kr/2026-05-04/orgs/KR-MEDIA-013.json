@@ -2,33 +2,140 @@
   "org_id": "KR-MEDIA-013",
   "basic_info": {
     "name_original": "tvN",
-    "name_zh": null,
+    "name_zh": "tvN频道",
     "name_en": "tvN",
-    "aliases": [],
+    "aliases": ["Total Variety Network", "tvN South Korea"],
     "org_type": "MEDIA",
-    "org_subtype": null,
+    "org_subtype": "cable_tv_network",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "2006-10-09",
+    "website": "https://tvn.cjenm.com"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
+  "social_accounts": [
+    {
+      "platform": "YouTube",
+      "account_name": "tvN",
+      "url": "https://www.youtube.com/@tvN",
+      "source": "https://tvn.cjenm.com"
+    },
+    {
+      "platform": "Facebook",
+      "account_name": "tvNdrama",
+      "url": "https://www.facebook.com/tvNdrama",
+      "source": "https://tvn.cjenm.com"
+    },
+    {
+      "platform": "Instagram",
+      "account_name": "@tvn_joy",
+      "url": "https://www.instagram.com/tvn_joy/",
+      "source": "https://tvn.cjenm.com"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "tvn.cjenm.com",
+      "url": "https://tvn.cjenm.com",
+      "description": "tvN官方网站，提供节目信息、直播、回看等服务",
+      "source": "https://tvn.cjenm.com"
+    },
+    {
+      "name": "tvN Asia",
+      "url": "https://www.tvnasia.net",
+      "description": "tvN亚洲频道官方网站，覆盖东南亚地区",
+      "source": "https://en.wikipedia.org/wiki/TvN_(South_Korean_TV_channel)"
+    },
+    {
+      "name": "TVING (tvN live)",
+      "url": "http://m.tving.com/live/C00551",
+      "description": "TVING流媒体平台上的tvN直播频道",
+      "source": "https://en.wikipedia.org/wiki/TvN_(South_Korean_TV_channel)"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "姜浩成 (Kang Ho-sung)",
+      "title": "代表理事兼社长",
+      "title_description": "President & CEO",
+      "description": "tvN母公司CJ ENM娱乐部门代表理事兼社长，2014年起领导tvN，将频道打造为韩国收视率最高的有线电视网络"
+    },
+    {
+      "person_id": null,
+      "name": "徐孝珍 (Seo Hyun-joo)",
+      "title": "内容本部长",
+      "title_description": "Head of Content Division",
+      "description": "tvN内容部门负责人，主导韩剧和综艺节目的策划与制作"
+    }
+  ],
   "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
+  "recent_events": [
+    {
+      "date": "2026-04-28",
+      "title": "《泪之女王》创tvN史上最高收视率24.850%",
+      "description": "tvN电视剧《泪之女王》最终集创下24.850%的全国收视率，成为tvN史上收视率最高的韩剧，也是韩国有线电视史上第三高",
+      "impact": "high",
+      "source": "https://en.wikipedia.org/wiki/TvN_(South_Korean_TV_channel)"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "公布2026年韩剧阵容",
+      "description": "tvN发布2026年韩剧阵容预告视频，包含多部备受期待的新剧",
+      "impact": "high",
+      "source": "https://www.soompi.com/article/1819117wpp/watch-tvn-previews-2026-k-drama-lineup"
+    },
+    {
+      "date": "2026-03-08",
+      "title": "《洪小姐的伪装》收视率达13.121%",
+      "description": "tvN电视剧《洪小姐的伪装》创下13.121%的全国收视率，位列tvN历史收视率排行榜第16位",
+      "impact": "medium",
+      "source": "https://en.wikipedia.org/wiki/TvN_(South_Korean_TV_channel)"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-CORP-007",
+      "org_name": "CJ ENM (Naver Corporation关联但CJ ENM实际属于CJ Group)",
+      "org_type": "CORP",
+      "org_description": "tvN的母公司CJ ENM娱乐部门，隶属于CJ集团",
+      "relationship_type": "parent_company"
+    },
+    {
+      "org_id": null,
+      "org_name": "CJ Group",
+      "org_type": "CORP",
+      "org_description": "CJ集团，韩国大型财阀，控股CJ ENM及tvN",
+      "relationship_type": "ultimate_parent"
+    },
+    {
+      "org_id": null,
+      "org_name": "Mnet",
+      "org_type": "MEDIA",
+      "org_description": "CJ ENM旗下音乐专门频道，与tvN为姊妹频道",
+      "relationship_type": "sister_company"
+    },
+    {
+      "org_id": null,
+      "org_name": "OCN",
+      "org_type": "MEDIA",
+      "org_description": "CJ ENM旗下电影/悬疑剧专门频道，与tvN为姊妹频道",
+      "relationship_type": "sister_company"
+    }
+  ],
+  "core_business": "韩国收视率最高的有线电视频道，2006年10月9日开播，由CJ ENM娱乐部门（CJ集团旗下）运营。以韩剧和综艺节目为核心竞争力，tvN韩剧占据韩国有线电视收视率前50名中的28个席位。代表作品包括《泪之皇后》（24.850%）、《爱的迫降》（21.683%）、《请回答1988》（18.803%）、《孤单又灿烂的神-鬼怪》（18.680%）等。拥有tvN Drama、tvN Show、tvN Story、tvN Sports、tvN Asia等多个姊妹频道。节目通过有线电视、卫星和IPTV平台在韩国播出，并通过tvN Asia覆盖东南亚。",
+  "industries": ["有线电视", "节目制作", "数字流媒体", "娱乐产业"],
   "apec_stance": null,
-  "profile": null,
+  "profile": "tvN（原名Total Variety Network）是韩国最具影响力的有线电视频道，2006年10月9日由CJ ENM（CJ集团旗下）开播。tvN以高质量的韩剧和综艺节目闻名全球，其韩剧在韩国有线电视收视率历史排行榜中占据绝对优势——前50名中tvN占据28席。王牌剧集包括《泪之皇后》《爱的迫降》《请回答1988》《鬼怪》《阳光先生》《文森佐》等。综艺节目如《You Quiz on the Block》《喜剧大联盟》《DoReMi Market》等也拥有稳定的收视群体。自2014年起由姜浩成领导，总部位于首尔上岩洞CJ E&M Center。tvN通过姊妹频道tvN Asia将内容输出至东南亚，是K-文化全球化的重要推手。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia (en)",
+      "Soompi",
+      "tvN official site",
+      "Dramabeans"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 89,
+    "notes": "Enriched with Wikipedia, drama lineup data, and official site info"
   }
 }

@@ -1,34 +1,148 @@
 {
   "org_id": "KR-MEDIA-007",
   "basic_info": {
-    "name_original": "Chosun Ilbo",
-    "name_zh": null,
+    "name_original": "조선일보",
+    "name_zh": "朝鲜日报",
     "name_en": "Chosun Ilbo",
-    "aliases": [],
+    "aliases": ["The Chosun Daily", "Joseon Ilbo", "조선"],
     "org_type": "MEDIA",
-    "org_subtype": null,
+    "org_subtype": "daily_newspaper",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1920-03-05",
+    "website": "https://www.chosun.com"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
+  "social_accounts": [
+    {
+      "platform": "X (Twitter)",
+      "account_name": "@ChosunDaily",
+      "url": "https://twitter.com/ChosunDaily",
+      "source": "https://www.chosun.com"
+    },
+    {
+      "platform": "Facebook",
+      "account_name": "englishchosun",
+      "url": "https://www.facebook.com/englishchosun/",
+      "source": "https://www.facebook.com/englishchosun/"
+    },
+    {
+      "platform": "YouTube",
+      "account_name": "조선일보",
+      "url": "https://www.youtube.com/@chosunilbo",
+      "source": "https://www.chosun.com"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "chosun.com",
+      "url": "https://www.chosun.com",
+      "description": "朝鲜日报韩文官方网站，韩国访问量最大的新闻网站之一",
+      "source": "https://www.chosun.com"
+    },
+    {
+      "name": "english.chosun.com",
+      "url": "http://english.chosun.com",
+      "description": "朝鲜日报英文版网站",
+      "source": "https://en.wikipedia.org/wiki/Chosun_Ilbo"
+    },
+    {
+      "name": "Chosun Biz",
+      "url": "https://biz.chosun.com",
+      "description": "朝鲜日报旗下经济新闻专门网站",
+      "source": "https://www.chosun.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "方相勋 (Bang Sang-hoon)",
+      "title": "会长",
+      "title_description": "Chairman",
+      "description": "朝鲜日报会长，1970年入职朝鲜日报，历任华盛顿特派员、社长等职，1993年起领导朝鲜日报至今。2024年获延世大学名誉博士学位"
+    },
+    {
+      "person_id": null,
+      "name": "方准梧 (Bang Jun-oh)",
+      "title": "社长",
+      "title_description": "President & CEO",
+      "description": "朝鲜日报社长，会长方相勋长子，1974年生，2003年入职朝鲜日报，2017年起任副总裁，后升任社长，被视为朝鲜日报的接班人"
+    },
+    {
+      "person_id": null,
+      "name": "朴斗植 (Park Doo-sik)",
+      "title": "主编",
+      "title_description": "Editor-in-Chief",
+      "description": "朝鲜日报总编辑，负责编辑方针与新闻报道方向"
+    }
+  ],
   "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
+  "recent_events": [
+    {
+      "date": "2026-05-01",
+      "title": "朝鲜日报公布2026年四大倡议",
+      "description": "朝鲜日报在丙午新年发布四大倡议，诊断韩国面临的挑战并提出解决方案，庆祝创刊106周年",
+      "impact": "medium",
+      "source": "https://www.msn.com/en-xl/news/other/chosun-ilbo-unveils-four-major-initiatives-for-2026/ar-AA1TmhTC"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "举办2026住房福利大会",
+      "description": "朝鲜日报为纪念创刊106周年，举办'2026住房福利大会'，应对人口结构变化和高通胀下的住房问题",
+      "impact": "medium",
+      "source": "https://www.msn.com/en-xl/news/other/chosun-ilbo-hosts-2026-housing-welfare-conference/ar-AA20nM8g"
+    },
+    {
+      "date": "2025-05-01",
+      "title": "报道韩国教育部长将任代总统",
+      "description": "朝鲜日报率先报道韩国教育部长将从午夜起担任代总统的消息，准确预判了当时政局变化",
+      "impact": "high",
+      "source": "https://news.cgtn.com/news/2025-05-01/news-1D1KjqfxgOY/p.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "TV Chosun",
+      "org_type": "MEDIA",
+      "org_description": "朝鲜日报旗下综合有线电视台，2011年12月开播",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Digital Chosun",
+      "org_type": "MEDIA",
+      "org_description": "朝鲜日报数字媒体子公司，运营chosun.com网站",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "KR-MEDIA-006",
+      "org_name": "Dong-A Ilbo",
+      "org_type": "MEDIA",
+      "org_description": "东亚日报，与朝鲜日报并称韩国三大保守派报纸",
+      "relationship_type": "competitor"
+    },
+    {
+      "org_id": "KR-MEDIA-005",
+      "org_name": "JoongAng Ilbo",
+      "org_type": "MEDIA",
+      "org_description": "中央日报，与朝鲜日报同属'朝中东'三大报",
+      "relationship_type": "competitor"
+    }
+  ],
+  "core_business": "韩国发行量最大、历史最悠久的主流日报，1920年3月5日创刊。以韩文日报为核心业务，日发行量超过120万份，数字订阅用户超过400万。旗下运营Chosun.com（提供韩、英、中、日四语种服务）、ChosunBiz经济日报、周刊朝鲜、月刊朝鲜、Digital Chosun等子品牌。朝鲜日报媒体集团还拥有TV Chosun有线电视台、Edu-Chosun教育平台等关联企业。",
+  "industries": ["报纸出版", "数字媒体", "广播电视", "出版发行"],
   "apec_stance": null,
-  "profile": null,
+  "profile": "朝鲜日报是韩国发行量最大、影响力最广的保守派日报，1920年3月5日创刊，是韩国现存历史最悠久的报纸之一。报纸以右翼保守、反共立场著称，历史上曾支持韩国军事独裁政权，长期对朝鲜采取强硬态度，反对阳光政策。方氏家族三代经营该报，现任会长方相勋自1993年起掌舵。日均发行量逾120万份，数字订阅超400万，chosun.com网站同时提供英、中、日文版本。近年来积极拓展数字业务，ChosunBiz经济新闻平台影响力持续增长。与东亚日报、中央日报并称'朝中东'三大保守派报纸，在韩国舆论界具有举足轻重的地位。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia (en)",
+      "Chosun.com official site",
+      "MSN News",
+      "CGTN"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 90,
+    "notes": "Enriched with Wikipedia, official site data, and recent news"
   }
 }

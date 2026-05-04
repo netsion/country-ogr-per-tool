@@ -1,34 +1,214 @@
 {
   "org_id": "KR-GOV-032",
   "basic_info": {
-    "name_original": "National Police Agency",
-    "name_zh": null,
-    "name_en": "National Police Agency",
-    "aliases": [],
+    "name_original": "경찰청 / Korean National Police Agency",
+    "name_zh": "韩国警察厅",
+    "name_en": "Korean National Police Agency",
+    "aliases": ["KNPA", "KNP", "경찰청", "韩国国家警察厅", "Korean National Police"],
     "org_type": "GOV",
-    "org_subtype": null,
+    "org_subtype": "central_administrative_agency",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1991-08-01",
+    "website": "https://www.police.go.kr/eng/main.do"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "social_accounts": [
+    {
+      "platform": "YouTube",
+      "account_name": "경찰청 알리미",
+      "url": "https://www.youtube.com/channel/UC7-PyZbi_QIthI3WFtopzLw",
+      "source": "https://www.police.go.kr"
+    },
+    {
+      "platform": "Facebook",
+      "account_name": "대한민국 경찰청",
+      "url": "https://www.facebook.com/koreanpolice",
+      "source": "https://www.police.go.kr"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "韩国警察厅官方网站（英文）",
+      "url": "https://www.police.go.kr/eng/main.do",
+      "description": "韩国警察厅英文官方网站，提供组织介绍、治安服务及公共安全信息",
+      "source": "https://en.wikipedia.org/wiki/National_Police_Agency_(South_Korea)"
+    },
+    {
+      "name": "韩国警察厅官方网站（韩文）",
+      "url": "https://www.police.go.kr/",
+      "description": "韩国警察厅韩文官方网站，提供在线举报、便民服务及公告信息",
+      "source": "https://www.police.go.kr"
+    },
+    {
+      "name": "警察民怨24在线平台",
+      "url": "https://www.police.go.kr/",
+      "description": "韩国警察在线民怨处理系统，提供24小时在线举报与咨询服务",
+      "source": "https://www.police.go.kr"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "俞在成 (Yoo Jae-sung)",
+      "title": "警察厅长（代理）",
+      "title_description": "韩国警察厅代理厅长，负责全国警察事务的全面管理",
+      "description": "俞在成现任韩国警察厅代理厅长。前任厅长赵志浩（赵志镐）因涉及2024年12月3日戒严事件被弹劾。俞在成代理厅长主持全国警察领导层视频会议，维持警察厅正常运作。"
+    },
+    {
+      "person_id": null,
+      "name": "赵志镐 (Cho Ji-ho)",
+      "title": "警察厅长（停职/被弹劾）",
+      "title_description": "前任警察厅长，因涉及戒严事件被弹劾",
+      "description": "赵志镐于2025年3月经国会确认任命为警察厅长。此前曾任首尔警察厅厅长。因在2024年12月3日戒严事件中的角色于2025年9月被弹劾，目前停职中。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "治安局（Public Safety Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责公共安全政策和社区治安管理",
+      "parent_dept_id": null
+    },
+    {
+      "name": "刑事局（Criminal Investigation Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责刑事侦查、犯罪调查及重大案件侦破",
+      "parent_dept_id": null
+    },
+    {
+      "name": "网络局（Cyber Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责网络安全执法、网络犯罪调查及反网络恐怖主义",
+      "parent_dept_id": null
+    },
+    {
+      "name": "交通局（Traffic Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责交通管理、交通安全政策制定及执法",
+      "parent_dept_id": null
+    },
+    {
+      "name": "保安局（Public Security Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责公共秩序维护、集会管理等保安事务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "情报局（Intelligence Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责治安情报收集与分析",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国家安全局（National Security Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责国家安全相关警务工作，包括反间谍和反恐",
+      "parent_dept_id": null
+    },
+    {
+      "name": "外事局（Foreign Affairs Bureau）",
+      "dept_id": null,
+      "head": null,
+      "description": "负责涉外警务合作与国际执法交流",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-08",
+      "title": "韩国警察厅2026年预算定为14.26万亿韩元",
+      "description": "韩国警察厅2026年预算设定为14.2621万亿韩元，同比增长5.4%。预算增加主要用于反诈骗专门小组、数字犯罪调查以及AI驱动的智慧警务建设。",
+      "impact": "预算增长反映韩国政府对打击网络犯罪和推进智慧警务的重视",
+      "source": "https://en.sedaily.com/technology/2025/12/08/korea-national-police-agency-budget-set-at-1426-trillion"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "警察厅部署两万名警力保障2026年高考",
+      "description": "韩国警察厅在全国部署约两万名警力保障2026年大学修学能力考试（CSAT）顺利进行，应对可能的炸弹威胁等安全事件。交通管制方面部署了10,475名交警。",
+      "impact": "确保国家级考试安全进行，维护社会秩序",
+      "source": "https://biz.chosun.com/en/en-society/2025/11/10/MNQPA7CPPJBD5HTLQHRZDXHAEY/"
+    },
+    {
+      "date": "2025-12-29",
+      "title": "警察厅实施更严格的酒驾处罚及交通法规修订",
+      "description": "韩国警察厅宣布自2026年起实施修订后的交通法规，更新驾驶证发放、更新和培训体系，同时加强对酒驾行为的处罚力度。",
+      "impact": "提升道路交通安全水平，强化驾驶人员管理",
+      "source": "https://koreajoongangdaily.joins.com/news/2025-12-29/national/socialAffairs/Police-to-roll-out-harsher-drunk-driving-penalties-as-part-of-traffic-law-revisions/2488461"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "警察厅辟谣2026年交通法规变更虚假信息",
+      "description": "韩国警察厅针对网上广泛流传的所谓'2026年交通法规大变更'虚假信息发布声明，澄清包括学区限速统一降至20公里/小时在内的多条信息为虚假信息。",
+      "impact": "及时遏制虚假信息传播，维护公共信任",
+      "source": "https://biz.chosun.com/en/en-society/2025/12/16/X2MYTIZA6VHSPGTTPGSFCOXOMQ/"
+    },
+    {
+      "date": "2025-10-24",
+      "title": "警察厅大规模人事调整涉及51个高级职位",
+      "description": "韩国警察厅进行大规模高级别人事调整，共变动51个警正级（高级警司）职位，占全部83个警正级职位的一半以上。",
+      "impact": "大规模人事变动显示警察厅正在进行组织更新和管理层重组",
+      "source": "https://www.chosun.com/english/national-en/2025/10/24/ZQHJLSDM2NGF7DT2224I3YNO3U/"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "代理警察厅长俞在成主持全国警察领导层视频会议",
+      "description": "代理警察厅长俞在成在警察厅总部主持全国警察领导层视频会议，讨论当前治安形势和重点工作部署。",
+      "impact": "维持戒严事件后警察厅的正常运作和指挥体系稳定",
+      "source": "https://en.fnnews.com/news/202602121002408516"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-010",
+      "org_name": "行政安全部（Ministry of the Interior and Safety）",
+      "org_type": "GOV",
+      "org_description": "韩国警察厅的上级主管部门",
+      "relationship_type": "parent_agency"
+    },
+    {
+      "org_id": "KR-GOV-033",
+      "org_name": "韩国海洋警察厅（Korea Coast Guard）",
+      "org_type": "GOV",
+      "org_description": "韩国海岸警卫队，原隶属于警察厅，现为独立机构",
+      "relationship_type": "related_agency"
+    },
+    {
+      "org_id": "KR-GOV-008",
+      "org_name": "法务部（Ministry of Justice）",
+      "org_type": "GOV",
+      "org_description": "负责检察和矫正事务，与警察厅在刑事案件调查中密切合作",
+      "relationship_type": "coordinating_agency"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际刑警组织（INTERPOL）",
+      "org_type": "INTL",
+      "org_description": "国际警察合作组织，韩国警察厅积极推动2026年INTERPOL大会在首尔举办",
+      "relationship_type": "international_cooperation"
+    }
+  ],
+  "core_business": "韩国警察厅（KNPA）是韩国的国家警察机构，隶属于行政安全部，总部位于首尔特别市西大门区。警察厅负责韩国全境的公共安全维护、刑事侦查、交通管理、网络安全、情报收集、国家安全警务以及涉外执法合作等事务。警察厅下辖18个地方警察厅，包括首尔、釜山、大邱、仁川等大都市警察厅和各道警察厅，以及255个警察署、518个分局和1,433个派出所。拥有约12.6万名警察人员，2023年预算约12.37万亿韩元。警察厅还设有韩国警察大学、中央警察学院、警察侦查学院等附属教育机构，以及国家警察医院。",
+  "industries": ["执法", "公共安全", "刑事侦查", "交通管理", "网络安全"],
+  "apec_stance": "韩国警察厅在APEC框架下参与区域安全合作，特别是在反恐、网络安全和跨国犯罪打击等领域。2025年成功保障韩国APEC峰会期间的安全保卫工作。警察厅的K-Police Wave Center推动与APEC成员经济体的警务交流合作。",
+  "profile": "韩国警察厅的历史可追溯至1919年大韩民国临时政府的警务局。1945年光复后在美国军政厅下设立警务部，1948年成立国家安全局，1974年升格为治安本部。1991年8月1日，根据政府组织法修订，治安本部正式改组为警察厅。现行警察厅下设厅长（治安总监）和副厅长（治安正监），辖1个办公室、9个局和32个课。警察厅还设有特攻队（SOU）执行反恐等特殊任务，以及旅游警察和机动队等专门力量。2024年12月戒严事件后，厅长赵志镐被弹劾停职，由俞在成代理厅长职务。警察厅正在推进自治警察制度改革和侦查权调整改革，旨在重新分配检察官和警察之间的刑事案件调查权限。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "https://en.wikipedia.org/wiki/National_Police_Agency_(South_Korea)",
+      "https://www.police.go.kr/eng/main.do",
+      "https://en.sedaily.com/technology/2025/12/08/korea-national-police-agency-budget-set-at-1426-trillion",
+      "https://www.chosun.com/english/national-en/2025/10/24/ZQHJLSDM2NGF7DT2224I3YNO3U/",
+      "https://en.fnnews.com/news/202602121002408516"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 90,
+    "notes": "Enriched from Wikipedia, official website, and recent news. Current acting Commissioner Yoo Jae-sung identified. 6 recent events with verified URLs."
   }
 }

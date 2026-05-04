@@ -1,34 +1,127 @@
 {
   "org_id": "KR-MEDIA-011",
   "basic_info": {
-    "name_original": "The Korea Times",
-    "name_zh": null,
+    "name_original": "코리아타임스",
+    "name_zh": "韩国时报",
     "name_en": "The Korea Times",
-    "aliases": [],
+    "aliases": ["Korea Times"],
     "org_type": "MEDIA",
-    "org_subtype": null,
+    "org_subtype": "daily_newspaper",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1950-11-01",
+    "website": "https://www.koreatimes.co.kr"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
+  "social_accounts": [
+    {
+      "platform": "X (Twitter)",
+      "account_name": "@koreatimes_co_uk",
+      "url": "https://twitter.com/koreatimes_co_uk",
+      "source": "https://www.koreatimes.co.kr"
+    },
+    {
+      "platform": "Facebook",
+      "account_name": "thekoreatimes",
+      "url": "https://www.facebook.com/thekoreatimes",
+      "source": "https://www.koreatimes.co.kr"
+    },
+    {
+      "platform": "YouTube",
+      "account_name": "The Korea Times",
+      "url": "https://www.youtube.com/@koreatimes",
+      "source": "https://www.koreatimes.co.kr"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "koreatimes.co.kr",
+      "url": "https://www.koreatimes.co.kr",
+      "description": "韩国时报官方网站，韩国历史最悠久的英文日报数字平台",
+      "source": "https://www.koreatimes.co.kr"
+    },
+    {
+      "name": "koreatimesna.com",
+      "url": "https://koreatimesna.com",
+      "description": "韩国时报北美版网站，服务北美韩裔社群",
+      "source": "https://koreatimesna.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "吴英镇 (Oh Young-jin)",
+      "title": "社长兼发行人",
+      "title_description": "President & Publisher",
+      "description": "韩国时报社长兼发行人，历任常务主编、首席社论委员，是报纸从韩国日报/Hankook Ilbo转至Dongwha Enterprise后的关键领导人物"
+    },
+    {
+      "person_id": null,
+      "name": "金兰 (Kim Rahn)",
+      "title": "总编辑",
+      "title_description": "Editor-in-Chief",
+      "description": "韩国时报总编辑，负责编辑方针与新闻报道方向"
+    }
+  ],
   "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
+  "recent_events": [
+    {
+      "date": "2025-08-01",
+      "title": "改为五日刊发行制度",
+      "description": "韩国时报自2025年8月1日起从六日刊改为周一至周五五日刊发行，以强化在线新闻内容和服务，同时配合政府52小时最高工时规定，并为迎接创刊75周年做准备",
+      "impact": "high",
+      "source": "https://w3.koreatimes.co.kr/www/nation/2025/05/281_292072.html"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "报道OECD下调韩国2026年增长预期至1.7%",
+      "description": "韩国时报报道OECD将韩国2026年经济增长预测从2.1%下调至1.7%，警告能源风险",
+      "impact": "high",
+      "source": "https://www.koreatimes.co.kr/economy/others/20260326/koreas-growth-outlook-cut-to-17-from-21-as-oecd-warns-of-energy-risks"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "报道首尔地铁高峰时段免费乘客中1/12为老年人",
+      "description": "韩国时报引用首尔地铁数据报道，2025年高峰时段6500万以上65岁以上乘客免费乘车，占高峰时段总乘客的8.3%",
+      "impact": "medium",
+      "source": "https://www.koreatimes.co.kr/southkorea/society/20260326/1-in-12-seoul-rush-hour-subway-passengers-are-seniors-riding-free"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "Hankook Ilbo (한국일보)",
+      "org_type": "MEDIA",
+      "org_description": "韩国日报，韩国时报的姊妹报，韩文主流日报",
+      "relationship_type": "sister_company"
+    },
+    {
+      "org_id": null,
+      "org_name": "Dongwha Enterprise",
+      "org_type": "CORP",
+      "org_description": "东西企业，2015年收购韩国时报/韩国日报的母公司",
+      "relationship_type": "parent_company"
+    },
+    {
+      "org_id": "KR-MEDIA-010",
+      "org_name": "The Korea Herald",
+      "org_type": "MEDIA",
+      "org_description": "韩国先驱报，与韩国时报同为韩国主要英文日报",
+      "relationship_type": "competitor"
+    }
+  ],
+  "core_business": "韩国历史最悠久的英文日报，1950年11月1日由梨花女子大学校长Helen Kim在朝鲜战争期间创办。以英文日报为核心业务，同时运营北美版（洛杉矶、纽约、旧金山、华盛顿等城市）。1970年起设立'韩国现代文学翻译奖'，是韩国文学走向世界的重要推手。1988年出版奥运会官方报纸The Seoul Olympian。知名专栏'Thoughts of the Times'自1968年运行至今，为社区成员提供专栏空间。",
+  "industries": ["英文报纸出版", "数字媒体", "出版发行"],
   "apec_stance": null,
-  "profile": null,
+  "profile": "韩国时报是韩国最古老的英文日报，1950年朝鲜战争期间由梨花女子大学校长Helen Kim创办，初期为两页小报。历史上与韩国日报（Hankook Ilbo）同为一家媒体集团，2013-2014年因贪污丑闻被出售给东西企业（Dongwha Enterprise）。前总统金大中曾通过阅读韩国时报自学英语。1988年出版了奥运会官方报纸The Seoul Olympian。自1970年起设立韩国现代文学翻译奖，推动了韩国文学的国际传播。2025年8月起改为五日刊发行制度，聚焦数字化转型。政治立场中间偏中，以社区参与型新闻著称。著名专栏作家包括Donald Kirk、Michael Breen等。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia (en)",
+      "Korea Times official site",
+      "Yonhap News"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 88,
+    "notes": "Enriched with Wikipedia and official site data, recent economic and social news"
   }
 }

@@ -1,34 +1,175 @@
 {
   "org_id": "KR-GOV-026",
   "basic_info": {
-    "name_original": "Fair Trade Commission",
-    "name_zh": null,
+    "name_original": "공정거래위원회",
+    "name_zh": "韩国公平交易委员会",
     "name_en": "Fair Trade Commission",
-    "aliases": [],
+    "aliases": [
+      "KFTC",
+      "Korea Fair Trade Commission",
+      "공정위",
+      "公正交易委员会"
+    ],
     "org_type": "GOV",
-    "org_subtype": null,
+    "org_subtype": "regulatory_commission",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1981-01-01",
+    "website": "https://www.ftc.go.kr/eng/index.do"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "social_accounts": [
+    {
+      "platform": "YouTube",
+      "account_name": "주병기TV",
+      "url": "https://www.youtube.com/channel/UCFXnWz9HGc1ZfG9tJk1iNpg",
+      "source": "YouTube"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "KFTC Official Website (English)",
+      "url": "https://www.ftc.go.kr/eng/index.do",
+      "description": "韩国公平交易委员会官方网站英文版，提供政策法规、执法案例及机构介绍",
+      "source": "official"
+    },
+    {
+      "name": "KFTC Online Platform for Contract Review",
+      "url": "https://www.ftc.go.kr/eng/contents.do?key=530",
+      "description": "委员信息页面，包含现任委员履历及职责分工",
+      "source": "official"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "朱炳基 (Ju Biung-ghi)",
+      "title": "委员长",
+      "title_description": "Chairperson of the Korea Fair Trade Commission",
+      "description": "首尔国立大学经济学教授，曾任韩国应用经济学会会长和韩国社会科学研究会理事长。2025年8月由李在明总统提名为公平交易委员会委员长，同年9月15日正式就任，任期为三年。以进步派经济学者著称，主张推动在线平台公平化立法和财阀监管改革。"
+    },
+    {
+      "person_id": null,
+      "name": "赵洪善 (Cho Hong-sun)",
+      "title": "副委员长",
+      "title_description": "Deputy Chairperson of the Korea Fair Trade Commission",
+      "description": "现任韩国公平交易委员会副委员长，协助委员长管理委员会日常运作及政策执行。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "反垄断执法局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责执行《垄断规制和公平交易法》，调查市场支配地位滥用行为、企业并购审查及卡特尔打击",
+      "parent_dept_id": null
+    },
+    {
+      "name": "消费者保护局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责电子商务消费者保护、不公平合同条款监管及消费者权益维护",
+      "parent_dept_id": null
+    },
+    {
+      "name": "竞争政策局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责制定竞争政策、公平分包交易监管及加盟连锁交易法规执行",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-29",
+      "title": "KFTC将Coupang创始人金范洙指定为公司实质控制人",
+      "description": "韩国公平交易委员会将美国上市电商Coupang创始人金范洙(Bom Kim)指定为该公司的实质控制人，此举可能使Coupang受到与大企业集团相同的更严格监管要求。KFTC同时将2026年披露对象企业集团从92个扩大至102个。",
+      "impact": "标志着韩国对新经济巨头监管力度显著加强，Coupang将面临与三星、现代等传统财阀类似的披露义务和交易限制",
+      "source": "https://www.reuters.com/sustainability/boards-policy-regulation/south-koreas-watchdog-names-coupang-founder-controlling-entity-2026-04-29/"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "KFTC要求七大电商平台修改不公平用户协议",
+      "description": "韩国公平交易委员会命令七大主要电商平台修改不公平的用户协议条款，以更好地保护消费者权益。这是KFTC对在线市场运营商合同条款审查的结果。",
+      "impact": "推动韩国电商行业合同规范化，增强消费者在数字交易中的法律保护",
+      "source": "https://koreajoongangdaily.joins.com/news/2026-04-27/business/industry/FTC-orders-seven-major-ecommerce-platforms-to-revise-unfair-user-agreements/2578665"
+    },
+    {
+      "date": "2026-02-26",
+      "title": "KFTC对Coupang处以21.85亿韩元罚款",
+      "description": "韩国公平交易委员会认定Coupang违反《大规模零售业公平交易法》，对其处以21.85亿韩元的行政罚款并发出纠正令。案件涉及在线零售领域的直接采购交易，影响25,715家供应商的508,752笔交易。",
+      "impact": "强化对平台经济中供应商权益的保护，为韩国在线零售行业的公平交易树立执法标准",
+      "source": "https://digitalpolicyalert.org/event/38248-orea-fair-trade-commission-imposed-krw-2185-million-administrative-surcharge-on-coupang-for-violations-of-act-on-fair-transactions-in-large-retail-business"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "KFTC委员长朱炳基批评Coupang利用法律漏洞",
+      "description": "KFTC委员长朱炳基公开批评Coupang利用劳动法和公平交易法的漏洞经营，并考虑对Coupang实施暂停营业的严厉措施。此前Coupang因大规模个人信息泄露事件和多项不正当商业行为正在接受调查。",
+      "impact": "表明韩国反垄断监管机构对平台巨头采取更强硬立场，可能引发更严格的平台经济立法",
+      "source": "https://www.chosun.com/english/market-money-en/2026/01/12/LV6JEZ3ZMBAI5EEP4NSHG26AJM/"
+    },
+    {
+      "date": "2025-11-06",
+      "title": "韩国美国商会与KFTC委员长会面讨论公平贸易政策",
+      "description": "韩国美国商会(AMCHAM)与KFTC新任委员长朱炳基在首尔四季酒店会面，就新政府的公平贸易政策方向和在韩外企面临的核心议题交换意见。",
+      "impact": "显示韩国公平交易委员会重视与外国商界的对话沟通，在加强监管的同时寻求国际合作",
+      "source": "https://www.koreatimes.co.kr/business/companies/20251106/amcham-ftc-chair-discuss-koreas-fair-trade-policy-direction"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-003",
+      "org_name": "Ministry of Economy and Finance",
+      "org_type": "GOV",
+      "org_description": "韩国经济财政部，KFTC在总理管辖下运作，与经济财政部在竞争政策领域有协调关系",
+      "relationship_type": "coordinating_agency"
+    },
+    {
+      "org_id": "KR-GOV-022",
+      "org_name": "National Assembly of the Republic of Korea",
+      "org_type": "GOV",
+      "org_description": "韩国国会，KFTC委员长任命需经国会人事听证",
+      "relationship_type": "oversight_body"
+    },
+    {
+      "org_id": "KR-CORP-008",
+      "org_name": "Kakao Corp",
+      "org_type": "CORP",
+      "org_description": "Kakao集团，KFTC多次对其平台垄断行为进行调查和处罚",
+      "relationship_type": "regulated_entity"
+    },
+    {
+      "org_id": null,
+      "org_name": "Coupang Inc.",
+      "org_type": "CORP",
+      "org_description": "韩国最大电商平台，2025-2026年KFTC执法重点对象，涉及个人信息泄露、不正当商业行为等多项调查",
+      "relationship_type": "regulated_entity"
+    }
+  ],
+  "core_business": "韩国公平交易委员会(KFTC)是韩国负责经济竞争监管的最高行政机关，隶属国务总理管辖，具有准司法机构的独立地位。其核心职能包括：执行《垄断规制和公平交易法》(MRFTA)以防止市场垄断和不公平竞争行为；审查企业并购交易；打击卡特尔和价格操纵行为；保护消费者权益，监管不公平合同条款、分包交易和加盟连锁交易；执行电子商务消费者保护法规。KFTC拥有9名委员（含委员长1名、副委员长1名、常任委员3名、非常任委员4名），委员长为部长级政务职公务员。总部位于世宗特别自治市，员工约650人，2023年预算约1,596亿韩元。",
+  "industries": [
+    "竞争执法与反垄断",
+    "消费者保护",
+    "平台经济监管",
+    "企业并购审查"
+  ],
+  "apec_stance": "作为APEC经济体中重要的竞争监管机构，KFTC在亚太地区竞争政策协调中发挥积极作用。KFTC持续关注跨国数字平台的不正当竞争行为，推动在线平台公平化立法，与APEC框架下的竞争政策对话密切参与。近年来KFTC加大了对Coupang等电商平台的执法力度，其监管模式对APEC其他经济体具有参考价值。",
+  "profile": "韩国公平交易委员会成立于1981年，最初隶属于经济企划院。1994年从经济企划院独立，成为副部长级中央行政机构。1996年委员长级别提升至部长级。KFTC是韩国反垄断和公平竞争执法的核心机构，历史上曾对微软(2005年)、高通(2016年罚款1万亿韩元)和谷歌(2021年罚款2,074亿韩元)等国际科技巨头做出过重大反垄断裁决。2025年9月，进步派经济学者朱炳基就任新委员长，推动在线平台公平化法案(俗称'在线平台法')和合作共赢的公平经济政策，标志着韩国竞争执法进入以平台经济监管为重点的新阶段。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia EN (Fair Trade Commission South Korea)",
+      "Wikipedia KO (공정거래위원회)",
+      "KFTC Official Website (ftc.go.kr)",
+      "Reuters",
+      "Korea JoongAng Daily",
+      "Chosun Ilbo",
+      "Korea Times",
+      "MLex",
+      "Kim & Chang Insights",
+      "Digital Policy Alert"
     ],
-    "completeness_score": 7,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 90,
+    "notes": "Enriched from skeleton with comprehensive Wikipedia, official website, and news source data. Key people, recent events, departments, and relationships all populated."
   }
 }

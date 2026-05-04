@@ -1,34 +1,193 @@
 {
   "org_id": "KR-GOV-029",
   "basic_info": {
-    "name_original": "National Human Rights Commission of Korea",
-    "name_zh": null,
+    "name_original": "국가인권위원회",
+    "name_zh": "韩国国家人权委员会",
     "name_en": "National Human Rights Commission of Korea",
-    "aliases": [],
+    "aliases": [
+      "NHRCK",
+      "국인권위",
+      "Korea National Human Rights Commission"
+    ],
     "org_type": "GOV",
-    "org_subtype": null,
+    "org_subtype": "independent_commission",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "2001-11-25",
+    "website": "https://www.humanrights.go.kr/eng/main/view"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "digital_assets": [
+    {
+      "name": "NHRCK Official Website (English)",
+      "url": "https://www.humanrights.go.kr/eng/main/view",
+      "description": "韩国国家人权委员会官方网站英文版，提供人权政策、申诉渠道及出版物",
+      "source": "official"
+    },
+    {
+      "name": "NHRCK Human Rights Culture Portal",
+      "url": "http://culture.humanrights.go.kr",
+      "description": "人权文化门户网站，提供人权教育影片和资料",
+      "source": "official"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "安昌浩 (Ahn Chang-ho)",
+      "title": "委员长",
+      "title_description": "Chairperson of the National Human Rights Commission of Korea",
+      "description": "检察官出身，曾任首尔地方检察厅检察官和法务部人权课检察官。2024年9月6日就任第10任国家人权委员会委员长。在任期间因在尹锡悦戒严事件中的立场引发争议，包括在致联合国的信中质疑宪法法院的弹劾审判能力。"
+    },
+    {
+      "person_id": null,
+      "name": "吴永根 (Oh Young-geun)",
+      "title": "常任委员",
+      "title_description": "Standing Commissioner of the NHRCK",
+      "description": "2026年2月6日由总统提名就任常任委员，此前为资深法律界人士。"
+    },
+    {
+      "person_id": null,
+      "name": "李淑镇 (Lee Sookjin)",
+      "title": "常任委员",
+      "title_description": "Standing Commissioner of the NHRCK",
+      "description": "2025年5月由国会推荐就任常任委员。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "人权侵害调查局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责调查检警机关和军队系统的人权侵害案件",
+      "parent_dept_id": null
+    },
+    {
+      "name": "拘留设施人权局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责调查拘留所、矫正设施、集体看护中心和军事设施中的人权侵害行为",
+      "parent_dept_id": null
+    },
+    {
+      "name": "反歧视局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责调查歧视相关案件及反歧视政策制定",
+      "parent_dept_id": null
+    },
+    {
+      "name": "残疾人反歧视局",
+      "dept_id": null,
+      "head": null,
+      "description": "专门处理针对残疾人的歧视案件",
+      "parent_dept_id": null
+    },
+    {
+      "name": "人权教育中心",
+      "dept_id": null,
+      "head": null,
+      "description": "负责人权教育课程开发和公众人权意识提升",
+      "parent_dept_id": null
+    },
+    {
+      "name": "韩国人权图书馆",
+      "dept_id": null,
+      "head": null,
+      "description": "专门收藏人权相关文献的国家级图书馆",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-27",
+      "title": "人权委员会决定将戒严事件纳入2025年人权报告",
+      "description": "韩国国家人权委员会决定将2024年12月3日紧急戒严相关内容纳入《2025年人权报告》。委员长安昌浩提议'不仅详细记录总统弹劾事件，还要记录戒严后的人权状况'。",
+      "impact": "标志着人权委员会正式将戒严事件定性为人权议题，对韩国民主法治记录具有重要意义",
+      "source": "https://www.chosun.com/english/national-en/2026/04/27/IR42PVYAZ5FRPEA4S6QSOADFCQ/"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "人权委员会建议立法保障军人拒绝非法命令的权利",
+      "description": "韩国国家人权委员会建议立法允许军人拒绝非法命令，引用2024年12月戒严事件和军队文化中的结构性障碍作为立法依据。",
+      "impact": "直接回应戒严事件中军队执行非法命令的问题，推动韩国军事人权保障制度改革",
+      "source": "https://en.sedaily.com/society/2026/04/06/rights-commission-urges-legal-safeguards-for-soldiers-to"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "人权委员会任命吴永根、金鹤子和赵淑贤为新委员",
+      "description": "韩国国家人权委员会任命三名新委员，包括资深检察官出身的吴永根、前检察官兼律师金鹤子和名誉教授赵淑贤，填补委员空缺以恢复正常运作。",
+      "impact": "补全委员会人员配置，确保NHRCK在戒严后人权议题上的正常履职能力",
+      "source": "https://www.chosun.com/english/national-en/2026/02/06/XRXKVM63I5GTPN2YC6ZDRMIY3Q/"
+    },
+    {
+      "date": "2025-12-03",
+      "title": "人权委员会对紧急戒严声明表达严重关切",
+      "description": "韩国国家人权委员会就12月3日紧急戒严宣言发表声明，对当前局势表示'严重关切'。委员长安昌浩表示将密切关注戒严措施对基本人权的影响。",
+      "impact": "NHRCK在韩国政治危机中的首次正式表态，但被批评为回应迟缓且措辞不够强硬",
+      "source": "https://www.humanrights.go.kr/eng/board/read?boardManagementNo=7003&boardNo=7610760&menuLevel=2&menuNo=114"
+    },
+    {
+      "date": "2025-02-10",
+      "title": "人权委员会向宪法法院提交防止戒令侵害人权的意见书",
+      "description": "NHRCK向宪法法院提交意见书，作为防止因尹锡悦总统2024年12月3日戒严宣言导致人权侵害的措施，要求宪法法院首席大法官予以重视。",
+      "impact": "NHRCK积极介入宪政危机的法律程序，行使独立机构的维权职能",
+      "source": "https://kyujinshim.com/2025/02/10/the-national-human-rights-commission-of-korea-nhrck-as-a-measure-to-prevent-human-rights-violations-about-matters-concerning-president-yoon-suk-yeols-declaration-of-martial-law-on-december/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-024",
+      "org_name": "Constitutional Court of Korea",
+      "org_type": "GOV",
+      "org_description": "韩国宪法法院，NHRCK根据宪法第10-22条精神运作，并向宪法法院提交人权保护意见",
+      "relationship_type": "constitutional_framework"
+    },
+    {
+      "org_id": "KR-GOV-008",
+      "org_name": "Ministry of Justice",
+      "org_type": "GOV",
+      "org_description": "韩国法务部，NHRCK委员长安昌浩曾任法务部人权课检察官，两者在人权政策领域有协调关系",
+      "relationship_type": "coordinating_agency"
+    },
+    {
+      "org_id": "KR-NGO-004",
+      "org_name": "People's Solidarity for Participatory Democracy",
+      "org_type": "NGO",
+      "org_description": "参与连带，韩国主要公民社会组织，曾多次要求NHRCK对戒严事件展开正式调查",
+      "relationship_type": "civil_society_partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "Asia Pacific Forum of National Human Rights Institutions (APF)",
+      "org_type": "INTL",
+      "org_description": "亚太国家人权机构论坛，NHRCK自2002年起为正式成员，2004年和2007年担任主席",
+      "relationship_type": "international_membership"
+    }
+  ],
+  "core_business": "韩国国家人权委员会(NHRCK)是根据《国家人权委员会法》于2001年11月25日成立的独立政府机构，旨在保护、倡导和促进韩国人权。委员会依据联合国《巴黎原则》运作，2004年获得国际协调委员会ICC的'A级'认证。NHRCK由11名委员组成（含委员长1名、常任委员3名、非常任委员7名），委员以个人身份任期3年可连任一次，女性委员不少于4名。核心职能包括：制定人权政策并发出政策建议；从人权角度分析法律、政策和实践；调查歧视和人权侵害案件并提供救济；与政府机构、公民社会组织和联合国人权机构合作；促进人权教育和公众人权意识；监测国际人权条约的国内执行。秘书处由事务总长领导，编制164名专职人员，年预算约2,100万美元，下设三个局和11个业务科室。总部位于首尔中区，在釜山、光州和大邱设有地区办事处。",
+  "industries": [
+    "人权保护与倡导",
+    "反歧视政策",
+    "人权教育",
+    "国际人权合作"
+  ],
+  "apec_stance": "NHRCK是亚太地区最活跃的国家人权机构之一，担任过亚太国家人权机构论坛(APF)主席，在国际人权标准本地化方面具有示范作用。委员会关注跨境人权议题，包括难民保护、移民工人权利和数字时代隐私权，这些议题与APEC经济体的人权和治理议程密切相关。",
+  "profile": "韩国国家人权委员会的设立实现了金大中总统的竞选承诺，这位2000年诺贝尔和平奖得主将国家人权机构的建立视为民主巩固的重要标志。自成立以来，NHRCK处理了超过51,000件投诉，其中78%为人权侵害案件、18%为歧视案件。委员会推动了《残疾人反歧视法》的制定和《国家人权行动计划》的实施。NHRCK还制作了多部人权题材电影（如'如果我是你'系列），在韩国社会传播人权文化。然而，2024年12月戒严事件后，委员长安昌浩的应对被批评为迟缓和软弱，引发了关于NHRCK独立性和公信力的国际关注，包括国际机构认证组织GANHRI对其A级地位的重新审视。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "Wikipedia EN (National Human Rights Commission of Korea)",
+      "NHRCK Official Website (humanrights.go.kr)",
+      "Chosun Ilbo",
+      "Sedaily",
+      "Korea Herald",
+      "Forum-Asia",
+      "Hankyoreh",
+      "Human Rights Watch"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 88,
+    "notes": "Enriched with comprehensive data from Wikipedia, official website, and news sources. Three key people, five recent events focusing on martial law aftermath. Independent commission with complex political dynamics well-documented."
   }
 }

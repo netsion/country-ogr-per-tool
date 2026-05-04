@@ -1,34 +1,203 @@
 {
   "org_id": "KR-GOV-035",
   "basic_info": {
-    "name_original": "Prosecutor General's Office / Supreme Prosecutors' Office",
-    "name_zh": null,
-    "name_en": "Prosecutor General's Office / Supreme Prosecutors' Office",
-    "aliases": [],
+    "name_original": "대검찰청 / Supreme Prosecutors' Office of the Republic of Korea",
+    "name_zh": "韩国大检察厅",
+    "name_en": "Supreme Prosecutors' Office of the Republic of Korea",
+    "aliases": ["SPO", "대검찰청", "检察厅", "Supreme Prosecutors' Office", "韩国最高检察机关"],
     "org_type": "GOV",
-    "org_subtype": null,
+    "org_subtype": "prosecution_office",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "1948-07-17",
+    "website": "https://www.spo.go.kr/site/eng/main.do"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "digital_assets": [
+    {
+      "name": "韩国大检察厅官方网站（英文）",
+      "url": "https://www.spo.go.kr/site/eng/main.do",
+      "description": "韩国大检察厅英文官方网站，提供组织介绍、检察官信息及检察服务",
+      "source": "https://en.wikipedia.org/wiki/Supreme_Prosecutors%27_Office_of_the_Republic_of_Korea"
+    },
+    {
+      "name": "韩国大检察厅官方网站（韩文）",
+      "url": "https://www.spo.go.kr/",
+      "description": "韩国大检察厅韩文官方网站，提供检察新闻、业务公告及公共服务",
+      "source": "https://www.spo.go.kr"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "沈宇正 (Shim Woo-jung)",
+      "title": "检察总长",
+      "title_description": "韩国检察机关最高负责人，统领全国检察事务",
+      "description": "沈宇正现任韩国检察总长，是韩国检察机关的最高负责人。大检察厅在其领导下负责全国检察事务的指挥监督。2026年4月，沈宇正因涉及2024年12月3日戒严事件被特别检察官调查。"
+    },
+    {
+      "person_id": null,
+      "name": "李镇东 (Lee Jin-dong)",
+      "title": "大检察厅次长检察官",
+      "title_description": "大检察厅副职负责人，协助检察总长管理日常事务",
+      "description": "李镇东现任大检察厅次长检察官，是检察机关的第二号人物。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "中央搜查部",
+      "dept_id": null,
+      "head": null,
+      "description": "负责重大犯罪案件的中央侦查指挥和协调",
+      "parent_dept_id": null
+    },
+    {
+      "name": "刑事部",
+      "dept_id": null,
+      "head": null,
+      "description": "负责刑事案件的检察指导和法律意见",
+      "parent_dept_id": null
+    },
+    {
+      "name": "反腐腐败犯罪搜查部",
+      "dept_id": null,
+      "head": null,
+      "description": "负责腐败和经济犯罪案件的侦查",
+      "parent_dept_id": null
+    },
+    {
+      "name": "首尔高等检察厅",
+      "dept_id": null,
+      "head": null,
+      "description": "管辖首尔及周边地区的高等检察机关",
+      "parent_dept_id": null
+    },
+    {
+      "name": "釜山高等检察厅",
+      "dept_id": null,
+      "head": null,
+      "description": "管辖釜山、蔚山及庆尚南道地区的高等检察机关",
+      "parent_dept_id": null
+    },
+    {
+      "name": "大邱高等检察厅",
+      "dept_id": null,
+      "head": null,
+      "description": "管辖大邱及庆尚北道地区的高等检察机关",
+      "parent_dept_id": null
+    },
+    {
+      "name": "大田高等检察厅",
+      "dept_id": null,
+      "head": null,
+      "description": "管辖大田及忠清道地区的高等检察机关",
+      "parent_dept_id": null
+    },
+    {
+      "name": "光州高等检察厅",
+      "dept_id": null,
+      "head": null,
+      "description": "管辖光州及全罗道地区的高等检察机关",
+      "parent_dept_id": null
+    },
+    {
+      "name": "水原高等检察厅",
+      "dept_id": null,
+      "head": null,
+      "description": "管辖京畿道南部地区的高等检察机关",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-23",
+      "title": "特别检察官突击搜查大检察厅",
+      "description": "第二次综合特别检察官团队就沈宇正前检察总长在12·3戒严事件中的涉嫌参与问题，对大检察厅进行了突击搜查。特别检察团队以内乱重要任务参与及滥用职权嫌疑对沈宇正展开调查。",
+      "impact": "韩国检察历史上罕见的大检察厅被搜查事件，标志着检察改革进入关键阶段",
+      "source": "https://www.chosun.com/national/court_law/2026/04/23/EBVP2OC3XBFEDGFCAMAPMO4QQM/"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "大检察厅就综合特检法表达担忧",
+      "description": "大检察厅通过新闻公告，对共同民主党提出的'尹锡悦政权伪造调查和伪造起诉特别检察法'表达担忧，同时特别检察官在搜查中遇到检察厅无搜查令拒绝配合的情况引发争议。",
+      "impact": "检察系统与特别检察官之间的对抗加剧，反映了韩国司法改革中的深层矛盾",
+      "source": "https://biz.chosun.com/en/en-society/2026/04/30/ZHXDDLDERVAATHDI5AMKED5WIM/"
+    },
+    {
+      "date": "2025-09-26",
+      "title": "国会通过废除检察厅法案",
+      "description": "韩国国会于2025年9月26日通过法案，决定废除现行检察厅体制，将大检察厅拆分为'重大犯罪调查厅'和'法务部属检察厅'两个机构。检察厅将丧失主动发起调查的权力。该法案由李在明总统签署。计划于2026年9月正式实施。",
+      "impact": "韩国检察制度70余年来最大规模的改革，将根本性改变检察机关的权力结构",
+      "source": "https://en.wikipedia.org/wiki/Supreme_Prosecutors%27_Office_of_the_Republic_of_Korea"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "韩国准备成立重大犯罪调查厅取代检察系统",
+      "description": "韩国计划于2026年10月2日成立重大犯罪调查厅（Serious Crime Investigation Agency），取代现有大检察厅，专门负责重大犯罪调查。这是2025年9月国会通过的检察改革法案的具体实施步骤。",
+      "impact": "标志着韩国检察改革的实质性推进，将重塑韩国刑事司法体系",
+      "source": "https://evrimagaci.org/gpt/south-korea-prepares-for-launch-of-serious-crime-agency-538129"
+    },
+    {
+      "date": "2026-04-12",
+      "title": "每位检察官未结案件数在2025年几乎翻倍",
+      "description": "据统计，全国每位检察官的平均未结案件数从2024年12月的73.4件增至2025年11月的135.7件，增长近一倍。这反映了检察系统在改革过渡期面临的人力资源压力。",
+      "impact": "案件积压问题严峻，可能影响司法效率和公众信任",
+      "source": "https://en.yna.co.kr/view/AEN20260412000600315"
+    },
+    {
+      "date": "2026-03-22",
+      "title": "国会通过两项法案分离检察系统",
+      "description": "韩国国会通过两项关键法案，正式将检察系统拆分为独立的调查和起诉机构，这是2025年检察改革法案的后续立法。这一改革被视为韩国司法史上的里程碑。",
+      "impact": "分离调查权和起诉权，从根本上削弱检察机关的集权",
+      "source": "https://www.instagram.com/p/DWNS47YAfh8/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-008",
+      "org_name": "法务部（Ministry of Justice）",
+      "org_type": "GOV",
+      "org_description": "大检察厅的上级主管部门，负责检察和矫正行政",
+      "relationship_type": "parent_agency"
+    },
+    {
+      "org_id": "KR-GOV-023",
+      "org_name": "韩国大法院（Supreme Court of Korea）",
+      "org_type": "GOV",
+      "org_description": "韩国最高司法机关，大检察厅与其对应运作",
+      "relationship_type": "corresponding_judicial_body"
+    },
+    {
+      "org_id": "KR-GOV-032",
+      "org_name": "韩国警察厅（National Police Agency）",
+      "org_type": "GOV",
+      "org_description": "韩国警察机构，与检察厅在刑事调查中存在侦查权分配关系",
+      "relationship_type": "investigation_coordinating_agency"
+    },
+    {
+      "org_id": null,
+      "org_name": "重大犯罪调查厅（Serious Crime Investigation Agency，筹备中）",
+      "org_type": "GOV",
+      "org_description": "计划于2026年10月成立的新机构，将取代大检察厅的调查职能",
+      "relationship_type": "successor_agency"
+    }
+  ],
+  "core_business": "韩国大检察厅（SPO）是韩国检察机关的最高机构，隶属于法务部，总部位于首尔特别市瑞草区。作为全国检察机关的代表，大检察厅与韩国大法院对应运作，负责检察官检察事务的执行、各类案件的侦查指挥以及对全国各级检察厅的指挥监督。组织架构包括大检察厅、5个高等检察厅和多个地方检察厅及其支厅。大检察厅拥有广泛的刑事侦查权和起诉权，是韩国刑事司法体系的核心机构。根据2025年9月国会通过的法案，大检察厅计划于2026年9月被废除，拆分为重大犯罪调查厅和法务部属检察厅，检察官将丧失主动发起调查的权力。",
+  "industries": ["检察", "刑事侦查", "公诉", "司法行政"],
+  "apec_stance": "大检察厅通过法务部参与APEC框架下的反腐败和执法合作。韩国检察机关在APEC反腐败和提高透明度方面与其他成员经济体开展合作。大检察厅也参与国际司法协助和跨境犯罪调查合作。",
+  "profile": "韩国大检察厅成立于1948年7月17日，是韩国历史最悠久的中央行政机构之一。其组织架构包括大检察厅（最高机关）、高等检察厅（5个：首尔、水原、釜山、大邱、大田、光州）和地方检察厅及其支厅。大检察厅长期以来是韩国政治和司法体系中最具权力的机构之一，但也因政治中立性问题多次引发争议。2009年民调显示47.1%的韩国民众对大检察厅持否定态度，可信度评分仅为10分中的4分。2024年12月3日戒严事件后，大检察厅深度卷入政治风波，检察总长沈宇正因涉嫌参与戒严被特别检察官调查。2025年9月26日，国会通过历史性的检察改革法案，决定废除现行大检察厅体制，将其拆分为重大犯罪调查厅和法务部属检察厅。这一改革被认为是韩国司法制度70余年来最大规模的变革，旨在减少检察机关的权力滥用和报复性调查问题。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "https://en.wikipedia.org/wiki/Supreme_Prosecutors%27_Office_of_the_Republic_of_Korea",
+      "https://www.spo.go.kr/site/eng/main.do",
+      "https://www.chosun.com/national/court_law/2026/04/23/EBVP2OC3XBFEDGFCAMAPMO4QQM/",
+      "https://biz.chosun.com/en/en-society/2026/04/30/ZHXDDLDERVAATHDI5AMKED5WIM/",
+      "https://en.yna.co.kr/view/AEN20260412000600315",
+      "https://evrimagaci.org/gpt/south-korea-prepares-for-launch-of-serious-crime-agency-538129"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 92,
+    "notes": "Enriched from Wikipedia, official website, and recent news. Prosecutor General Shim Woo-jung identified. 6 recent events with verified URLs. Critical reform context (abolition scheduled September 2026) well documented."
   }
 }

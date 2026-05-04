@@ -1,34 +1,173 @@
 {
   "org_id": "KR-GOV-033",
   "basic_info": {
-    "name_original": "Korea Coast Guard",
-    "name_zh": null,
+    "name_original": "해양경찰청 / Korea Coast Guard",
+    "name_zh": "韩国海洋警察厅",
     "name_en": "Korea Coast Guard",
-    "aliases": [],
+    "aliases": ["KCG", "해경청", "韩国海岸警卫队", "Korea Maritime Police"],
     "org_type": "GOV",
-    "org_subtype": null,
+    "org_subtype": "coast_guard",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": null,
-    "website": null
+    "founded_date": "2017-07-26",
+    "website": "https://www.kcg.go.kr/"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "social_accounts": [
+    {
+      "platform": "Instagram",
+      "account_name": "대한민국 해양경찰청",
+      "url": "https://www.instagram.com/korea_coast_guard/",
+      "source": "https://www.kcg.go.kr"
+    },
+    {
+      "platform": "Blog",
+      "account_name": "해양경찰청 공식블로그",
+      "url": "https://blog.naver.com/kcgnmpa",
+      "source": "https://www.wikidata.org/wiki/Q488480"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "韩国海洋警察厅官方网站",
+      "url": "https://www.kcg.go.kr/",
+      "description": "韩国海洋警察厅官方网站，提供海上安全信息、救援服务及执法公告",
+      "source": "https://en.wikipedia.org/wiki/Korea_Coast_Guard"
+    },
+    {
+      "name": "122海上救援服务网站",
+      "url": "https://www.kcg.go.kr/",
+      "description": "韩国海洋警察厅122海上救援服务",
+      "source": "https://www.kcg.go.kr"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "金容镇 (Kim Yong-jin)",
+      "title": "海洋警察厅长（前任）",
+      "title_description": "前任韩国海洋警察厅长，2025年2月就任后因下属殉职事件于2025年9月表态辞职",
+      "description": "金容镇于2025年2月由海洋水产部长官提名并就任第20任海洋警察厅长，此前担任中部地方海洋警察厅长。2025年9月因李在石警员殉职事件引发争议后表态辞职。"
+    },
+    {
+      "person_id": null,
+      "name": "赵玄培 (Cho Hyun-bai)",
+      "title": "海洋警察厅长",
+      "title_description": "现任韩国海洋警察厅长",
+      "description": "根据维基百科记录，赵玄培现任韩国海洋警察厅长，负责海警的全面管理和指挥。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "海洋救援安全局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责海上搜救行动、海洋安全管理和应急响应",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海洋执法局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责非法捕捞查处、海上治安执法及海洋边界巡逻",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海洋污染防治局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责海洋污染防控和溢油事故应对",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海洋警察学院",
+      "dept_id": null,
+      "head": null,
+      "description": "负责海洋警察人员的教育培训",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海洋警察研发中心",
+      "dept_id": null,
+      "head": null,
+      "description": "负责海洋警察技术和装备的研发",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-04",
+      "title": "韩国海警加强对中国渔船在北方界线附近聚集的监控",
+      "description": "约100艘中国渔船被发现聚集在东海北方界线（NLL）附近水域，韩国海洋警察厅随即加强监控和执法力度。这些渔船近期沿东海岸北上，已到达朝韩海上边界附近水域。",
+      "impact": "海上执法压力增大，涉及中韩渔业争端和海域主权问题",
+      "source": "https://koreajoongangdaily.joins.com/news/2026-05-04/national/socialAffairs/South-Korea-increases-Coast-Guard-surveillance-as-Chinese-fishing-boats-gather-near-maritime-border-with-North/2584344"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "海洋警察厅主办2026国际海洋安全博览会",
+      "description": "韩国海洋警察厅于2026年6月17日至19日在仁川松岛Convensia举办'2026国际海洋安全博览会（KOREA OCEAN EXPO）'，邀请各国海岸警卫队参与交流。",
+      "impact": "推动国际海洋安全合作，促进韩国海洋防卫产业出口",
+      "source": "https://www.krfnews.com/3257"
+    },
+    {
+      "date": "2025-12-08",
+      "title": "海洋警察厅2026年预算突破2万亿韩元",
+      "description": "海洋警察厅2026年预算经国会审议最终确定为2.0885万亿韩元，同比增长4.8%，其中海洋救援安全预算大幅增加31.5%，用于替换老旧直升机和巡逻舰艇。",
+      "impact": "预算增长将显著提升海洋救援能力和装备现代化水平",
+      "source": "https://www.haesanews.com/news/articleView.html?idxno=143968"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "西海海洋警察厅举办2026年广域沿岸事故预防协议会",
+      "description": "西海地方海洋警察厅在厅舍大会议室举办'2026年广域沿岸事故预防协议会'，讨论全南北地区沿岸事故预防对策。",
+      "impact": "加强海洋事故预防合作，提升沿岸安全管理水平",
+      "source": "https://www.haesanews.com/news/articleView.html?idxno=147610"
+    },
+    {
+      "date": "2025-09-16",
+      "title": "海洋警察厅长因殉职警员事件引发争议表态辞职",
+      "description": "海洋警察李在石警员在潮间带救援中被困殉职，其同事在葬礼前召开记者会揭露上级'闭嘴'要求引发社会震动，金容镇厅长随后表态辞职。",
+      "impact": "事件暴露海洋警察内部管理问题，引发社会对海警组织文化的广泛讨论",
+      "source": "https://www.youtube.com/watch?v=4GTTEwFxbx0"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-GOV-020",
+      "org_name": "海洋水产部（Ministry of Oceans and Fisheries）",
+      "org_type": "GOV",
+      "org_description": "韩国海洋警察厅的上级主管部门",
+      "relationship_type": "parent_agency"
+    },
+    {
+      "org_id": "KR-GOV-032",
+      "org_name": "韩国警察厅（National Police Agency）",
+      "org_type": "GOV",
+      "org_description": "韩国国家警察机构，海洋警察厅在历史上曾隶属于警察厅",
+      "relationship_type": "sibling_agency"
+    },
+    {
+      "org_id": null,
+      "org_name": "北太平洋海岸警卫队论坛（North Pacific Coast Guard Forum）",
+      "org_type": "INTL",
+      "org_description": "由韩国、美国、中国、日本、俄罗斯和加拿大六国海岸警卫队组成的区域合作机制",
+      "relationship_type": "international_cooperation"
+    }
+  ],
+  "core_business": "韩国海洋警察厅（KCG）是韩国的海上执法机构，隶属于海洋水产部，总部位于仁川广域市。主要职能包括：海上治安巡逻与执法；海上搜救行动；非法捕捞监管与查处；海洋污染防控与应对；国境海域安全保卫；海上走私和非法入境打击。海洋警察厅拥有约10,095名人员，装备包括多型大型巡逻舰（最大6,500吨级）、中型巡逻艇、快艇、气垫船等舰艇，以及固定翼飞机和旋翼飞机组成的航空队。下辖16个海洋警察署、74个出张所和245个下属机构，还设有海洋警察特攻队等专门力量。",
+  "industries": ["海上执法", "海洋安全", "海上搜救", "海洋环境保护", "渔业执法"],
+  "apec_stance": "韩国海洋警察厅积极参与APEC框架下的海洋安全合作，特别是在打击非法捕捞（IUU）、海上安全和海洋环境保护方面。海警参与北太平洋海岸警卫队论坛等多边机制，与APEC成员国保持密切的海上执法合作。",
+  "profile": "韩国海洋警察厅的历史可追溯至1953年12月23日在釜山设立的海上警察机构。1991年更名为韩国海洋警察厅，2007年整合为海岸警卫队。2014年因世越号沉船事故处置不力被朴槿惠政府解散，调查职能移交警察厅，救援职能移交国民安全处。2017年7月26日，文在寅政府重新设立海洋警察厅，作为海洋水产部下属的独立外部机构。2019年《海岸警卫队法》正式立法。海洋警察厅在保障韩国海洋主权、维护海上安全和应对海洋环境突发事件中发挥核心作用。2025年9月发生警员殉职事件引发组织管理争议，2026年预算突破2万亿韩元，显示政府持续加大投入力度。",
   "collection_meta": {
     "collection_date": "2026-05-05",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enrichment",
     "data_sources": [
-      "target_orgs_list"
+      "https://en.wikipedia.org/wiki/Korea_Coast_Guard",
+      "https://ko.wikipedia.org/wiki/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD_%ED%95%B4%EC%96%91%EA%B2%BD%EC%B0%B0%EC%B2%AD",
+      "https://www.kcg.go.kr/",
+      "https://koreajoongangdaily.joins.com/news/2026-05-04/national/socialAffairs/South-Korea-increases-Coast-Guard-surveillance-as-Chinese-fishing-boats-gather-near-maritime-border-with-North/2584344",
+      "https://www.haesanews.com/news/articleView.html?idxno=143968"
     ],
-    "completeness_score": 5,
-    "notes": "Minimal skeleton from target orgs list, no Wikidata QID available"
+    "completeness_score": 88,
+    "notes": "Enriched from Wikipedia, official website, and recent news. 5 recent events with verified URLs."
   }
 }
