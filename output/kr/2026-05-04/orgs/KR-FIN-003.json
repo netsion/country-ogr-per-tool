@@ -1,0 +1,189 @@
+{
+  "org_id": "KR-FIN-003",
+  "basic_info": {
+    "name_original": "우리금융지주",
+    "name_zh": "友利金融集团",
+    "name_en": "Woori Financial Group",
+    "aliases": [
+      "Woori Financial",
+      "우리금융그룹",
+      "우리금융",
+      "주식회사 우리금융지주"
+    ],
+    "org_type": "FIN",
+    "org_subtype": "holding_company",
+    "country_iso3": "KOR",
+    "hq_country_iso3": "KOR",
+    "founded_date": "2019-01-11",
+    "website": "https://www.woorifg.com/eng/main/index.do"
+  },
+  "social_accounts": [
+    {
+      "platform": "instagram",
+      "account_name": "woorifg",
+      "url": "https://www.instagram.com/woorifg",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "woorifg",
+      "url": "https://www.youtube.com/@woorifg",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "林钟龙 (Yim Jong-yong / 임종룡)",
+      "title": "董事长兼首席执行官 (Chairman & CEO)",
+      "title_description": "负责集团整体战略决策与经营管理",
+      "description": "1959年8月3日生，全南宝城人；延世大学经济学学士、美国俄勒冈大学经济学硕士；历任总统经济金融秘书官、国务总理室第一次官、农协金融集团董事长、金融委员会委员长；2023年3月就任友利金融集团董事长，2026年3月23日获股东批准连任，新任期至2029年3月。任内完成证券和保险板块收购，将集团转型为综合性金融集团。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "KR-FIN-003-DEPT-001",
+      "name": "风险管理局 (Risk Management Office)",
+      "head": null,
+      "description": "负责集团整体风险管理与合规监控",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-FIN-003-DEPT-002",
+      "name": "企划与战略部 (Planning & Strategy Division)",
+      "head": null,
+      "description": "制定集团中长期战略规划与经营目标",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-FIN-003-DEPT-003",
+      "name": "数字转型部 (Digital Transformation Office)",
+      "head": null,
+      "description": "推进集团AI转型（AX）与数字化创新",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-24",
+      "title": "友利金融集团公布2026年第一季度业绩",
+      "description": "2026年第一季度净利润6,038亿韩元（约4.11亿美元），同比下降2.1%；营收同比增长45.5%。核心一级资本比率（CET1）提升至历史高点13.6%。同时宣布向友利投资证券注资1万亿韩元，并推进通洋生命保险完全子公司化。",
+      "impact": "集团资本充足率持续改善，非银行业务收入占比提升",
+      "source": "https://koreajoongangdaily.joins.com/news/2026-04-24/business/finance/Woori-Financial-Groups-net-profit-drops-29-percent-in-first-quarter/2577414"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "林钟龙董事长获股东大会批准连任",
+      "description": "在3月23日召开的定期股东大会上，林钟龙获得连任批准，新任期至2029年3月。在其第一任期内，完成了证券和保险板块收购，将友利金融从以银行为中心的盈利结构转型为综合性金融集团。",
+      "impact": "确保集团战略延续性，持续推进综合金融集团建设",
+      "source": "https://www.koreatimes.co.kr/business/banking-finance/20260323/current-woori-financial-chief-approved-for-2nd-term-chairmanship"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "完成通洋生命保险与ABL生命保险收购",
+      "description": "友利金融集团正式完成对通洋生命保险（Tongyang Life）和ABL生命保险（ABL Life）的收购，交易金额约1.55万亿韩元。这标志着集团保险板块的正式建立，实现银行、证券、保险的综合金融业务布局。",
+      "impact": "集团从以银行为中心转型为覆盖银行、证券、保险的综合金融集团",
+      "source": "https://koreajoongangdaily.joins.com/news/2025-07-02/business/finance/Woori-Financial-Group-finalizes-purchase-of-Tongyang-Life-ABL-Life/2343941"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KR-FIN-008",
+      "org_name": "友利银行 (Woori Bank)",
+      "org_type": "FIN",
+      "org_description": "集团核心子公司，韩国主要商业银行",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "KR-SOE-008",
+      "org_name": "韩国存款保险公司 (Korea Deposit Insurance Corporation)",
+      "org_type": "SOE",
+      "org_description": "通过持有股份为集团主要股东",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "KR-FIN-001",
+      "org_name": "KB金融集团 (KB Financial Group)",
+      "org_type": "FIN",
+      "org_description": "韩国最大金融控股集团之一，同业竞争对手",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "KR-FIN-002",
+      "org_name": "新韩金融集团 (Shinhan Financial Group)",
+      "org_type": "FIN",
+      "org_description": "韩国主要金融控股集团之一，同业竞争对手",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "KR-GOV-027",
+      "org_name": "金融委员会 (Financial Services Commission)",
+      "org_type": "GOV",
+      "org_description": "韩国金融业最高监管机构",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "KR-FIN-015",
+      "org_name": "韩国银行 (Bank of Korea)",
+      "org_type": "FIN",
+      "org_description": "韩国中央银行",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "友利金融集团（Woori Financial Group）是韩国第四大金融控股公司，以友利银行为核心子公司，提供涵盖商业银行、投资证券、信用卡、资本运营、生命保险、资产管理及信托等综合金融服务。集团前身为2001年由政府主导合并的韩一银行等四家商业银行和一家投资银行，2019年1月11日正式以金融控股公司形态重新上市。集团在韩国交易所（KRX: 316140）和纽约证券交易所（NYSE: WF）双重上市。截至2026年第一季度，集团核心一级资本比率（CET1）达到历史最高的13.6%。主要子公司包括友利银行、友利投资证券、友利信用卡、友利金融资本、通洋生命保险、ABL生命保险及友利资产信托等。集团地址：首尔特别市中区瑞草路51（邮编04632），电话：+82-2-2125-2000。国内信用评级：NICE、KIS、KR三家机构均给予AAA评级。",
+  "industries": [
+    "banking",
+    "financial_services",
+    "insurance",
+    "investment",
+    "asset_management"
+  ],
+  "apec_stance": "友利金融集团作为韩国主要金融机构，积极参与亚太地区金融合作。集团通过友利银行在中国（友利银行中国有限公司）、美国（友利美国银行）、东南亚（印尼PT Bank Woori Saudara等）及全球市场设有分支机构网络，直接服务于APEC区域内的跨境金融需求。集团持续推进国际化战略，关注亚太市场的金融包容性和数字金融服务创新。2026年集团经营战略研讨会将包容性金融、规模化AI应用及集团协同效应列为年度重点议题。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Woori-Bank-headquarter.jpg/330px-Woori-Bank-headquarter.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-04",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "official_website",
+      "wikipedia",
+      "web_search",
+      "news_search"
+    ],
+    "completeness_score": 67,
+    "notes": "Phase 3 enrichment: added CEO profile (林钟龙/Yim Jong-yong), board info, subsidiaries, recent events (2025-2026), credit ratings (AAA), APEC stance. CEO person_id set to null as no matching person entry exists in the registry.",
+    "quotes": [
+      {
+        "title": "Woori Financial Group - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Woori_Financial_Group"
+      },
+      {
+        "title": "WOORI FINANCIAL GROUP Official Website",
+        "url": "https://www.woorifg.com/eng/main/index.do"
+      },
+      {
+        "title": "Board of Directors - WOORI FINANCIAL GROUP",
+        "url": "https://www.woorifg.com/eng/corp-governance/board-of-directors/contentsid/428/index.do"
+      },
+      {
+        "title": "Current Woori Financial chief approved for 2nd-term chairmanship - Korea Times",
+        "url": "https://www.koreatimes.co.kr/business/banking-finance/20260323/current-woori-financial-chief-approved-for-2nd-term-chairmanship"
+      },
+      {
+        "title": "Woori Financial Group finalizes purchase of Tongyang Life, ABL Life - JoongAng Daily",
+        "url": "https://koreajoongangdaily.joins.com/news/2025-07-02/business/finance/Woori-Financial-Group-finalizes-purchase-of-Tongyang-Life-ABL-Life/2343941"
+      },
+      {
+        "title": "Woori Financial Groups net profit drops 2.9 percent in first quarter - JoongAng Daily",
+        "url": "https://koreajoongangdaily.joins.com/news/2026-04-24/business/finance/Woori-Financial-Groups-net-profit-drops-29-percent-in-first-quarter/2577414"
+      },
+      {
+        "title": "Woori Financial Chairman sets 2026 agenda: inclusive finance, AI",
+        "url": "https://completeaitraining.com/news/woori-financial-chairman-sets-2026-agenda-inclusive-finance/"
+      }
+    ]
+  }
+}

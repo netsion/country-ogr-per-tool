@@ -1,0 +1,322 @@
+{
+  "org_id": "KR-CORP-011",
+  "basic_info": {
+    "name_original": "SK텔레콤",
+    "name_zh": "SK电讯",
+    "name_en": "SK Telecom",
+    "aliases": [
+      "SKT",
+      "SK Telecom Co., Ltd.",
+      "Korea Mobile Telecommunications Corp.",
+      "에스케이텔레콤",
+      "SK telecom"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "conglomerate",
+    "country_iso3": "KOR",
+    "hq_country_iso3": "KOR",
+    "founded_date": "1984-03-29",
+    "dissolved_date": null,
+    "stock_ticker": "KRX: 017670, NYSE: SKM",
+    "website": "https://www.sktelecom.com/",
+    "description": "韩国最大的移动通信运营商，隶属于SK集团（韩国四大财阀之一），拥有约2300万移动用户，市场份额超过48%。公司正在从传统电信运营商转型为以AI为核心的技术公司，重点投入AI数据中心、AI个人助理（Aster）、自研大语言模型等前沿领域。历史上多次实现全球首创，包括首个商用CDMA网络、首个HSDPA商用、首个5G漫游服务、首个LTE-Advanced网络等。"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "SKtelecom",
+      "url": "https://twitter.com/SKtelecom",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "sktworld",
+      "url": "https://facebook.com/sktworld",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "SKtelecom",
+      "url": "https://www.youtube.com/user/sktelecom",
+      "source": "wikipedia"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "sk-telecom",
+      "url": "https://www.linkedin.com/company/sk-telecom/",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "asset_type": "app",
+      "name": "T world",
+      "url": "https://www.tworld.co.kr/",
+      "description": "SK Telecom核心客户服务平台，提供话费查询、套餐变更、会员权益等功能"
+    },
+    {
+      "asset_type": "app",
+      "name": "Aster (A*)",
+      "url": null,
+      "description": "AI个人助理应用，定位为全球市场的'Agentic AI'，可执行复杂任务规划和执行，与Perplexity AI合作开发，2025年在北美开放测试"
+    },
+    {
+      "asset_type": "app",
+      "name": "MelOn",
+      "url": "https://www.melon.com/",
+      "description": "韩国最大的在线音乐流媒体平台，原属SK Telecom旗下，后转至Kakao旗下运营"
+    },
+    {
+      "asset_type": "domain",
+      "name": "sktelecom.com",
+      "url": "https://www.sktelecom.com/",
+      "description": "SK Telecom官方网站"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "郑载勋 (Jung Jai-hun)",
+      "title": "President and CEO",
+      "title_description": "代表理事兼CEO（社长），负责公司整体经营战略和AI转型方向",
+      "description": "法律专业出身（前法官），2020年加入SK Telecom任法务集团负责人，后升任首席治理官（CGO）。2025年10月因USIM数据泄露事件后临危受命接替柳荣相出任CEO，提出'效率优先、AI转型'的经营方针"
+    },
+    {
+      "person_id": null,
+      "name": "柳荣相 (Ryu Young-sang)",
+      "title": "Former President and CEO",
+      "title_description": "前代表理事兼CEO（2021年11月-2025年10月），现任SK Supex Council AI委员会负责人",
+      "description": "2021年11月至2025年10月担任CEO，主导SK Telecom的AI转型战略，提出'AI Pyramid Strategy'。因2025年USIM大规模数据泄露事件引咎离任"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "KR-CORP-011-DEPT-001",
+      "name": "AI CIC (AI社内独立公司)",
+      "head": null,
+      "description": "2025年9月成立的AI独立运营部门，整合公司所有AI相关资产，计划5年内投资5万亿韩元（约35亿美元），目标2030年AI相关年营收超5万亿韩元。涵盖AI数据中心、自研LLM、AI代理服务等核心业务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-CORP-011-DEPT-002",
+      "name": "MNO CIC (移动通信社内独立公司)",
+      "head": null,
+      "description": "2026年组织重组后设立的移动通信运营部门，专注5G/6G网络运营、客户服务恢复和传统通信业务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "KR-CORP-011-DEPT-003",
+      "name": "网络安全中心",
+      "head": null,
+      "description": "2025年USIM数据泄露事件后大幅强化的安全部门，承诺未来5年投入7000亿韩元用于安全基础设施升级",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-19",
+      "title": "SK Telecom遭遇韩国电信史上最严重数据泄露事件",
+      "description": "SK Telecom检测到大规模网络攻击，黑客自2021年起潜伏于系统中，窃取近2700万用户的USIM认证密钥（KI）、IMSI、IMEI及手机号码等敏感数据",
+      "impact": "韩国电信史上最严重的数据泄露事件，波及SK Telecom几乎全部用户",
+      "source": "https://www.chosun.com/english/industry-en/2025/05/22/6OSKXZLRSRCYLF7WESVLZCEDAM/"
+    },
+    {
+      "date": "2025-04-28",
+      "title": "SK Telecom宣布全员免费更换USIM卡",
+      "description": "SK Telecom宣布为全部2300万用户免费更换USIM卡，但因库存不足（仅有100万张可用）引发大规模客户不满和恐慌性排队",
+      "impact": "客户信任严重受损，大量用户转网至KT和LG Uplus",
+      "source": "https://koreajoongangdaily.joins.com/news/2025-04-30/national/socialAffairs/SK-Telecom-CEO-apologizes-acknowledges-SIM-hacking-case-as-worst-in-telecom-history/2297251"
+    },
+    {
+      "date": "2025-07-07",
+      "title": "韩国政府发布最终调查报告认定SK Telecom管理过失",
+      "description": "韩国科学技术信息通信部发布最终调查报告，认定SK Telecom存在安全管理严重过失——未妥善管理敏感账户、未加密关键数据、未及时上报此前检测到的异常",
+      "impact": "政府正式定性为企业管理过失，为后续处罚提供依据",
+      "source": "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1139"
+    },
+    {
+      "date": "2025-08-28",
+      "title": "SK Telecom被处以韩国史上最高个人信息违规罚款",
+      "description": "韩国个人信息保护委员会对SK Telecom处以1348亿韩元（约9690万美元）罚款，为韩国史上最高个人信息违规罚款",
+      "impact": "创韩国个人信息保护罚款纪录",
+      "source": "https://www.yonhap.co.kr/"
+    },
+    {
+      "date": "2025-09-25",
+      "title": "SK Telecom成立AI CIC独立公司",
+      "description": "SK Telecom成立AI CIC社内独立公司，由CEO柳荣相主持成立仪式，计划5年投资5万亿韩元，目标2030年AI年营收超5万亿韩元",
+      "impact": "公司AI转型进入制度化运营阶段",
+      "source": "https://www.rcrwireless.com/20250926/ai-infrastructure/sk-telecom-ai-5"
+    },
+    {
+      "date": "2025-10-30",
+      "title": "SK Telecom更换CEO",
+      "description": "SK集团任命郑载勋（前首席治理官）接替柳荣相出任SK Telecom新任CEO，此举被解读为对USIM泄露事件的问责性人事调整",
+      "impact": "管理层全面更迭，新CEO法律背景强化合规治理",
+      "source": "https://www.koreatimes.co.kr/business/companies/20251030/sk-telecom-changes-president-following-hacking-fiasco"
+    },
+    {
+      "date": "2025-11-07",
+      "title": "新任CEO发布AI数据中心转型愿景",
+      "description": "新任CEO郑载勋在SK AI Summit 2025上发表主题演讲，提出将SK Telecom转型为综合性AI数据中心（AIDC）开发商",
+      "impact": "新管理层战略方向首次公开，AI基础设施成为核心增长引擎",
+      "source": "https://www.sktelecom.com/en/press/press_detail.do?idx=1650&currentPage=1"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "CEO在MWC 2026发布'AI Native'全面转型战略",
+      "description": "CEO郑载勋在MWC Barcelona 2026发布'AI Native'战略，宣布建设1GW级AI数据中心、1万亿参数自研大语言模型，实现全员'一人一AI代理'",
+      "impact": "SK Telecom最全面的AI转型路线图，从电信运营商向AI公司根本性转型",
+      "source": "https://www.prnewswire.com/news-releases/sk-telecom-ceo-unveils-ai-native-strategy-at-mwc26-driving-koreas-leap-in-ai-innovation-302700470.html"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "2025财年业绩大幅下滑",
+      "description": "SK Telecom公布2025财年合并营收17.0992万亿韩元（同比-4.7%），营业利润1.0732万亿韩元（同比-41.1%），受USIM泄露事件补偿成本和用户流失影响严重",
+      "impact": "利润大幅下滑，但AI数据中心营收增长34.9%成为亮点",
+      "source": "https://news.sktelecom.com/en/2706"
+    }
+  ],
+  "related_entities": [
+    {
+      "relationship_type": "controlling_shareholder",
+      "org_id": "KR-CORP-023",
+      "org_name": "SK Inc.",
+      "org_type": "CORP",
+      "org_description": "SK集团控股公司，SK Telecom最大股东（持股30.01%）"
+    },
+    {
+      "relationship_type": "subsidiary",
+      "org_id": null,
+      "org_name": "SK Broadband",
+      "org_type": "CORP",
+      "org_description": "SK Telecom全资子公司，韩国第二大固网宽带和有线电视运营商"
+    },
+    {
+      "relationship_type": "subsidiary",
+      "org_id": null,
+      "org_name": "SK Planet",
+      "org_type": "CORP",
+      "org_description": "SK Telecom旗下互联网平台开发公司，运营11st电商平台等"
+    },
+    {
+      "relationship_type": "subsidiary",
+      "org_id": null,
+      "org_name": "T1",
+      "org_type": "CORP",
+      "org_description": "全球顶级电竞战队（前SKT T1），SK Telecom与Comcast Spectacor合作运营"
+    },
+    {
+      "relationship_type": "subsidiary",
+      "org_id": null,
+      "org_name": "Sapeon Korea",
+      "org_type": "CORP",
+      "org_description": "SK Telecom旗下AI芯片公司，2024年与Rebellions合并"
+    },
+    {
+      "relationship_type": "partner",
+      "org_id": "KR-CORP-012",
+      "org_name": "KT Corporation",
+      "org_type": "CORP",
+      "org_description": "韩国第二大电信运营商，与SK Telecom在移动通信市场直接竞争，媒体称之为'通信社德比'"
+    },
+    {
+      "relationship_type": "partner",
+      "org_id": "KR-CORP-013",
+      "org_name": "LG Uplus",
+      "org_type": "CORP",
+      "org_description": "韩国第三大电信运营商，与SK Telecom和KT共同构成韩国移动通信三强格局"
+    },
+    {
+      "relationship_type": "sibling",
+      "org_id": "KR-CORP-024",
+      "org_name": "SK Energy",
+      "org_type": "CORP",
+      "org_description": "同属SK集团的能源公司，韩国最大的石油精炼企业之一"
+    },
+    {
+      "relationship_type": "sibling",
+      "org_id": "KR-CORP-027",
+      "org_name": "SK Innovation",
+      "org_type": "CORP",
+      "org_description": "同属SK集团的能源化工控股公司"
+    },
+    {
+      "relationship_type": "regulated_by",
+      "org_id": "KR-GOV-004",
+      "org_name": "Ministry of Science and ICT",
+      "org_type": "GOV",
+      "org_description": "韩国科学技术信息通信部，电信行业主管机关，主导了2025年USIM泄露事件调查"
+    },
+    {
+      "relationship_type": "regulated_by",
+      "org_id": "KR-GOV-026",
+      "org_name": "Fair Trade Commission",
+      "org_type": "GOV",
+      "org_description": "韩国公正交易委员会，负责电信市场竞争监管"
+    }
+  ],
+  "core_business": "SK Telecom是韩国最大的移动通信运营商和综合信息服务企业。核心业务包括：（1）移动通信——运营韩国最大的5G/4G/3G网络，拥有约2300万移动用户和1749万5G用户（2025年末），市场份额超48%；（2）固定宽带——通过子公司SK Broadband提供固网宽带和IPTV服务；（3）AI业务——重点发展AI数据中心（AIDC）基础设施、自研大语言模型、AI个人助理Aster及企业AI解决方案；（4）平台与内容——包括电商（11st/SK Planet）、电竞（T1）等。2025财年合并营收约17.1万亿韩元，营业利润约1.07万亿韩元，同比大幅下降（因USIM泄露事件导致的补偿成本和用户流失）。",
+  "industries": [
+    "telecommunications",
+    "information_technology",
+    "internet_services"
+  ],
+  "apec_stance": "SK Telecom作为韩国最大移动运营商，在APEC数字经济和通信领域具有重要影响力。公司积极推动亚太地区5G/6G标准制定，与全球运营商（如NTT DOCOMO、Swisscom）建立5G/AI合作联盟。通过AI数据中心和AI代理服务的国际化布局，深度参与APEC区域的数字基础设施建设。2024年与东南亚电信运营商合作推进5G部署（如菲律宾Now Telecom），在APEC框架下促进了韩国与东盟国家的数字技术转移。公司CEO在MWC 2026强调'AI Native'全球化战略，将韩国定位为AI基础设施输出国。",
+  "financials": {
+    "revenue_2025_krw": "17.0992万亿韩元",
+    "operating_income_2025_krw": "1.0732万亿韩元",
+    "revenue_change_yoy": "-4.7%",
+    "employees_2025": 22723,
+    "market_cap_note": "KRX: 017670, NYSE: SKM",
+    "fiscal_year": "2025"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SK_Telecom_Logo.svg/330px-SK_Telecom_Logo.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-04",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia_en",
+      "wikipedia_ko",
+      "official_website",
+      "wikidata",
+      "news_search",
+      "financial_reports"
+    ],
+    "completeness_score": 88,
+    "notes": "Enriched profile with comprehensive financials, USIM hack timeline (9 events), AI transformation strategy, key people changes (CEO Jung Jai-hun replacing Ryu Young-sang), 3 departments, 11 related entities with correct relationship types, and Aster AI agent details",
+    "quotes": [
+      {
+        "title": "SK Telecom - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/SK_Telecom"
+      },
+      {
+        "title": "SK Telecom FY 2025 Results",
+        "url": "https://news.sktelecom.com/en/2706"
+      },
+      {
+        "title": "SK Telecom CEO Unveils AI Native Strategy at MWC26",
+        "url": "https://www.prnewswire.com/news-releases/sk-telecom-ceo-unveils-ai-native-strategy-at-mwc26-driving-koreas-leap-in-ai-innovation-302700470.html"
+      },
+      {
+        "title": "SK Telecom forms AI CIC with $3.5B investment pledge",
+        "url": "https://www.rcrwireless.com/20250926/ai-infrastructure/sk-telecom-ai-5"
+      },
+      {
+        "title": "SK Telecom changes president following hacking fiasco",
+        "url": "https://www.koreatimes.co.kr/business/companies/20251030/sk-telecom-changes-president-following-hacking-fiasco"
+      },
+      {
+        "title": "South Korea fines SK Telecom $97M over data breach",
+        "url": "https://www.telecomstechnews.com/news/south-korea-fines-sk-telecom-us-97m-over-data-breach/"
+      },
+      {
+        "title": "MSIT Final Investigation Report on SK Telecom Data Breach",
+        "url": "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1139"
+      }
+    ]
+  }
+}
