@@ -135,6 +135,169 @@ def fix_smart_quotes(data):
     return changed
 
 
+# --- Normalize enum values ---
+DEGREE_NORMALIZE = {
+    'phd': 'doctorate', 'elementary': 'primary', 'primary_school': 'primary',
+    'middle_school': 'high_school', 'highschool': 'high_school',
+    'bachelors': 'bachelor', 'masters': 'master', 'doctoral': 'doctorate',
+    'undergraduate': None, 'dropped_out': None, 'jd': 'professional',
+    'mba': 'master', 'llb': 'bachelor', 'llm': 'master', 'md': 'professional',
+    'ma': 'master', 'ms': 'master', 'bs': 'bachelor', 'ba': 'bachelor',
+}
+
+PLATFORM_NORMALIZE = {
+    'Facebook': 'facebook', 'Instagram': 'instagram', 'YouTube': 'youtube',
+    'Twitter': 'twitter_x', 'X (Twitter)': 'twitter_x', 'X/Twitter': 'twitter_x',
+    'Twitter/X': 'twitter_x', 'X': 'twitter_x', 'LinkedIn': 'linkedin',
+    'TikTok': 'tiktok', 'Telegram': 'telegram', 'Threads': 'threads',
+    'Naver Blog': 'other', 'Naver blog': 'other', 'Blog': 'other',
+    'KakaoTalk': 'other', 'Kakao': 'other',
+}
+
+CONTACT_TYPE_NORMALIZE = {
+    'facebook': 'other', 'instagram': 'other', 'youtube': 'other',
+    'twitter': 'other', 'blog': 'other', 'office_phone': 'phone',
+    'office_room': 'other', 'office': 'other', 'address': 'other',
+    'fax_number': 'fax', 'kakao': 'other', 'homepage': 'website',
+    'naver_blog': 'other',
+}
+
+FAMILY_NORMALIZE = {
+    '配偶': 'spouse', '妻子': 'spouse', '丈夫': 'spouse',
+    '父亲': 'father', '母亲': 'mother', '儿子': 'son', '女儿': 'daughter',
+    '子女': 'other', '兄弟': 'brother', '姐妹': 'sister',
+}
+
+REL_TYPE_NORMALIZE = {
+    '政治上级/特别辅佐': 'superior', '政治同僚': 'colleague',
+    '政治盟友': 'political_ally', '政治对手': 'political_rival',
+    '选举对手': 'political_rival', '盟友': 'political_ally',
+    '对手': 'rival', '上司': 'superior', '下属': 'subordinate',
+    '同僚': 'colleague',
+}
+
+ALLOWED_PERSON_TOP = {
+    'person_id', 'wikidata_qid', 'name_zh', 'name', 'name_en', 'name_local',
+    'aliases', 'nationality', 'gender', 'birth_date', 'birth_place', 'contacts',
+    'current_positions', 'education', 'work_experience', 'person_relationships',
+    'social_accounts', 'family_members', 'political_stances', 'major_achievements',
+    'biography_summary', 'profile', 'collection_meta', 'org_ids', 'name_ko',
+}
+
+_KO_FIRST_PAT = re.compile(r'([가-힣][가-힣\s·\w./-]*)\s*[（(]([^)）]+)[)）]')
+
+
+def normalize_data(data, is_person=True):
+    """Auto-fix common issues: enums, dates, extra fields, Korean-first text."""
+    fixes = []
+
+    if not isinstance(data, dict):
+        return fixes
+
+    # Remove extra top-level fields
+    if is_person:
+        extra = set(data.keys()) - ALLOWED_PERSON_TOP
+        for key in extra:
+            del data[key]
+            fixes.append(f"removed extra field '{key}'")
+
+    # Normalize degree enums
+    for i, edu in enumerate(data.get('education', [])):
+        deg = edu.get('degree')
+        if deg and isinstance(deg, str):
+            if deg not in DEGREE_LEVELS:
+                new = DEGREE_NORMALIZE.get(deg.lower())
+                if new != deg:
+                    edu['degree'] = new
+                    fixes.append(f"education[{i}].degree: '{deg}' -> '{new}'")
+
+    # Normalize platform enums
+    for i, sa in enumerate(data.get('social_accounts', [])):
+        plat = sa.get('platform', '')
+        if plat and plat not in SOCIAL_PLATFORMS:
+            new = PLATFORM_NORMALIZE.get(plat)
+            if not new and plat.lower() in SOCIAL_PLATFORMS:
+                new = plat.lower()
+            if not new:
+                new = 'other'
+            sa['platform'] = new
+            fixes.append(f"social_accounts[{i}].platform: '{plat}' -> '{new}'")
+
+    # Normalize contact types
+    for i, c in enumerate(data.get('contacts', [])):
+        ct = c.get('type', '')
+        if ct and ct not in CONTACT_TYPES:
+            new = CONTACT_TYPE_NORMALIZE.get(ct, 'other')
+            c['type'] = new
+            fixes.append(f"contacts[{i}].type: '{ct}' -> '{new}'")
+
+    # Normalize family relationship enums
+    for i, fm in enumerate(data.get('family_members', [])):
+        rel = fm.get('relationship', '')
+        if rel and rel not in FAMILY_RELATIONS:
+            new = FAMILY_NORMALIZE.get(rel, 'other')
+            fm['relationship'] = new
+            fixes.append(f"family_members[{i}].relationship: '{rel}' -> '{new}'")
+
+    # Normalize person_relationships relationship_type
+    for i, rel in enumerate(data.get('person_relationships', [])):
+        rt = rel.get('relationship_type', '')
+        if rt and rt not in PERSON_REL_TYPES:
+            new = REL_TYPE_NORMALIZE.get(rt, 'other')
+            rel['relationship_type'] = new
+            fixes.append(f"person_relationships[{i}].relationship_type: '{rt}' -> '{new}'")
+
+    # Fix date ranges (e.g., "2019-2020" -> "2019")
+    date_range_pat = re.compile(r'^(\d{4})-\d{4}$')
+    date_slash_pat = re.compile(r'^(\d{4})/')
+    date_range_to_pat = re.compile(r'^(\d{4}-\d{2}-\d{2})至')
+    for field_list in ['major_achievements', 'political_stances']:
+        for i, item in enumerate(data.get(field_list, [])):
+            dt = item.get('date', '')
+            if not dt or not isinstance(dt, str):
+                continue
+            m = date_range_pat.match(dt)
+            if m:
+                item['date'] = m.group(1)
+                fixes.append(f"{field_list}[{i}].date: '{dt}' -> '{m.group(1)}'")
+                continue
+            m = date_range_to_pat.match(dt)
+            if m:
+                item['date'] = m.group(1)
+                fixes.append(f"{field_list}[{i}].date: '{dt}' -> '{m.group(1)}'")
+                continue
+            m = date_slash_pat.match(dt)
+            if m:
+                item['date'] = m.group(1)
+                fixes.append(f"{field_list}[{i}].date: '{dt}' -> '{m.group(1)}'")
+                continue
+            if dt == '长期':
+                item['date'] = '2024'
+                fixes.append(f"{field_list}[{i}].date: '长期' -> '2024'")
+
+    # Fix Korean-first text: "한글（中文）" -> "中文（한글）"
+    for field_list in ['work_experience', 'education']:
+        for i, item in enumerate(data.get(field_list, [])):
+            for key in ('organization', 'position', 'institution', 'field'):
+                val = item.get(key, '')
+                if not val or not isinstance(val, str):
+                    continue
+                def _swap_korean(m):
+                    outer = m.group(1).strip()
+                    inner = m.group(2).strip()
+                    has_ko = bool(re.search(r'[가-힣]', outer))
+                    has_zh = bool(re.search(r'[一-鿿]', inner))
+                    if has_ko and has_zh:
+                        return f'{inner}（{outer}）'
+                    return m.group(0)
+                new_val = _KO_FIRST_PAT.sub(_swap_korean, val)
+                if new_val != val:
+                    item[key] = new_val
+                    fixes.append(f"{field_list}[{i}].{key}: swapped Korean-first -> Chinese-first")
+
+    return fixes
+
+
 def load_json_file(fpath):
     with open(fpath, encoding='utf-8') as f:
         return json.load(f)
@@ -425,7 +588,7 @@ def validate_person_profile(data, filepath):
 
 
 # --- Single file processing ---
-def process_file(fpath, is_org, fix=False, score=False):
+def process_file(fpath, is_org, fix=False, score=False, normalize=False):
     fname = os.path.basename(fpath)
     try:
         data = load_json_file(fpath)
@@ -461,6 +624,13 @@ def process_file(fpath, is_org, fix=False, score=False):
         if fix_smart_quotes(data):
             save_json_file(fpath, data)
             result.fix(f"Fixed {len(sq_findings)} smart quote occurrences")
+
+    if normalize:
+        norm_fixes = normalize_data(data, is_person=not is_org)
+        if norm_fixes:
+            save_json_file(fpath, data)
+            for nf in norm_fixes:
+                result.fix(nf)
 
     if score:
         new_score = calc_fn(data)
@@ -603,6 +773,7 @@ def main():
     parser = argparse.ArgumentParser(description="Validate org/person JSON profiles against schema")
     parser.add_argument("output_dir", help="Output directory (e.g., output/kr/2026-04-28)")
     parser.add_argument("--fix", action="store_true", help="Auto-fix Unicode smart quotes")
+    parser.add_argument("--normalize", action="store_true", help="Auto-fix enum values, date ranges, extra fields, Korean-first text")
     parser.add_argument("--score", action="store_true", help="Auto-calculate and update completeness_score")
     parser.add_argument("--type", choices=["org", "person", "all"], default="all", help="What to validate")
     parser.add_argument("--file", help="Validate a single file (relative to output_dir)")
@@ -624,7 +795,7 @@ def main():
             return 1
         is_org = "\\orgs\\" in fpath or "/orgs/" in fpath or ORG_ID_RE.match(os.path.basename(fpath).split(".")[0])
         files_checked = 1
-        errors, warnings, fixes = process_file(fpath, is_org, args.fix, args.score)
+        errors, warnings, fixes = process_file(fpath, is_org, args.fix, args.score, args.normalize)
         total_errors = errors
         total_warnings = warnings
         total_fixes = fixes
@@ -639,7 +810,7 @@ def main():
                 if os.path.basename(fpath).startswith("_"):
                     continue
                 files_checked += 1
-                e, w, f = process_file(fpath, True, args.fix, args.score)
+                e, w, f = process_file(fpath, True, args.fix, args.score, args.normalize)
                 total_errors += e
                 total_warnings += w
                 total_fixes += f
@@ -650,7 +821,7 @@ def main():
                 if os.path.basename(fpath).startswith("_"):
                     continue
                 files_checked += 1
-                e, w, f = process_file(fpath, False, args.fix, args.score)
+                e, w, f = process_file(fpath, False, args.fix, args.score, args.normalize)
                 total_errors += e
                 total_warnings += w
                 total_fixes += f
