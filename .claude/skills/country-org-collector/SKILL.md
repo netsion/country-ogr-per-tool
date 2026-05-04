@@ -893,6 +893,33 @@ contacts[]:             type | value | source
 - social_accounts[].platform: twitter_x | facebook | instagram | youtube | linkedin | telegram | tiktok | threads | wechat | weibo | other
 - family_members[].relationship: spouse | father | mother | son | daughter | brother | sister | grandfather | grandmother | uncle | aunt | cousin | other
 - person_relationships[].relationship_type: spouse | parent | child | sibling | mentor | mentee | colleague | superior | subordinate | political_ally | political_rival | associate | other
+- education[].degree: primary | secondary | high_school | associate | bachelor | master | doctorate | professional | other | null
+- contacts[].type: email | phone | fax | website | other
+
+⚠️ 数据清洗高频反模式（本轮收集 380 文件审计发现的问题）：
+
+| 反模式 | ✅ 正确写法 | ❌ 错误写法 |
+|--------|-----------|-----------|
+| degree 用中文/非标准值 | `"bachelor"` / `null` | `"学士"`, `"학사"`, `"undergraduate"`, `"dropped_out"` |
+| degree 高中阶段 | `"high_school"` | `"middle_school"`, `"secondary"` |
+| contact type 非标准 | `"phone"` / `"email"` / `"other"` | `"office_phone"`, `"office_room"`, `"homepage"`, `"address"` |
+| contact type 网站 | `"website"` | `"homepage"`, `"url"` |
+| platform 大写/变体 | `"twitter_x"` / `"facebook"` | `"Twitter"`, `"X (Twitter)"`, `"Facebook"`, `"Naver Blog"` |
+| platform 博客/IM | `"other"` | `"Naver blog"`, `"Blog"`, `"KakaoTalk"`, `"Kakao"` |
+| relationship_type 中文 | `"colleague"` / `"superior"` | `"同僚"`, `"上司"`, `"政治盟友"`, `"政治对手"` |
+| relationship_type 复合词 | `"political_ally"` / `"political_rival"` | `"政治上级/特别辅佐"`, `"政治同僚"` |
+| work_experience 日期范围 | `start_date` + `end_date` 各自独立 | `"1998-2002"` 写在单个字段里 |
+| nationality 非标准 | `"KR"` / `"JP"` / `"US"` | `"韩国"`, `"日本"`, `"大韩民国"` |
+| top-level 多余字段 | 仅用 schema 定义的字段 | `photo_url`, `importance_level`, `party`, `role` 等自创字段 |
+| org_id / person_id | `"KR-PARTY-001"` / `null` | `""` (空字符串) |
+
+写入后自检清单（在写文件前逐条验证）：
+1. 所有 degree 值是否在枚举列表内？中文/韩文 degree → 改为英文 enum 或 null
+2. 所有 platform 值是否小写英文枚举？"Facebook" → "facebook"
+3. 所有 contacts[].type 是否在枚举列表内？"office_phone" → "phone"
+4. nationality 是否为 ISO 3166-1 alpha-2？"韩国" → "KR"
+5. 是否存在非 schema 定义的 top-level 字段？有则删除
+6. 所有日期字段是否独立（非范围格式）？"1998-2002" → start_date="1998", end_date="2002"
 
 必填字段禁止为空（无法填写则整条记录删除，不要写入空壳条目）：
 - `person_relationships[].person_name` — 不知道名字就不写这条关系
@@ -1001,6 +1028,9 @@ python .claude/skills/country-org-collector/scripts/validate_schema.py output/{i
 # 自动修复 Unicode 弯引号等问题
 python .claude/skills/country-org-collector/scripts/validate_schema.py output/{iso}/{date} --fix
 
+# 自动规范化枚举值、日期格式、多余字段、韩文前置文本
+python .claude/skills/country-org-collector/scripts/validate_schema.py output/{iso}/{date} --normalize
+
 # 跨文件交叉引用验证（P5 收尾时必做）
 python .claude/skills/country-org-collector/scripts/validate_schema.py output/{iso}/{date} --cross-ref
 ```
@@ -1011,6 +1041,7 @@ python .claude/skills/country-org-collector/scripts/validate_schema.py output/{i
 - 枚举值合规（org_type、relationship_type、industries、social_platform 等）
 - 日期格式（strict vs flexible）
 - Unicode 弯引号检测
+- `--normalize` 自动规范化：degree/platform/contact/family/relationship 枚举值、日期范围拆分、韩文前置文本交换、非标准 top-level 字段移除
 
 **`--cross-ref` 额外检查**：
 - org `key_people[].person_id` 是否在 persons/ 目录或 registry 中有对应记录
