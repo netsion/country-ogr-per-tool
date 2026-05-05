@@ -5,7 +5,7 @@
     "collection_date": "2026-05-05",
     "phase": "phase4_person_list",
     "source_org_count": 147,
-    "total_persons": 613
+    "total_persons": 608
   },
   "persons": [
     {
@@ -1206,25 +1206,6 @@
       "notes": null
     },
     {
-      "person_id": "KR-PERSON-000071",
-      "wikidata_qid": null,
-      "name": "严相必 (Eom Sang Phil)",
-      "name_zh": "严相必",
-      "name_en": "Eom Sang Phil",
-      "importance_level": "low",
-      "importance_reason": "大法官",
-      "source_orgs": [
-        {
-          "org_id": "KR-GOV-016",
-          "org_name": "Supreme Court of Korea",
-          "position_title": "大法官"
-        }
-      ],
-      "discovery_source": "key_people",
-      "nationality": "KR",
-      "notes": null
-    },
-    {
       "person_id": "KR-PERSON-000072",
       "wikidata_qid": null,
       "name": "慎淑熙 (Shin Sukheui)",
@@ -1424,19 +1405,6 @@
       "notes": null
     },
     {
-      "person_id": "KR-PERSON-000088",
-      "wikidata_qid": null,
-      "name": "金明洙 (Kim Myung-su)",
-      "name_zh": "金明洙",
-      "name_en": "Kim Myung-su",
-      "importance_level": "low",
-      "importance_reason": null,
-      "source_orgs": [],
-      "discovery_source": "key_people",
-      "nationality": "KR",
-      "notes": null
-    },
-    {
       "person_id": "KR-PERSON-000089",
       "wikidata_qid": null,
       "name": "李连信 (Lee Yeon-shin / 이연신)",
@@ -1495,8 +1463,14 @@
       "name_zh": "严相弼（Eom Sang-pil / 엄상필）",
       "name_en": "严相弼（Eom Sang-pil / 엄상필）",
       "importance_level": "low",
-      "importance_reason": null,
-      "source_orgs": [],
+      "importance_reason": "大法官",
+      "source_orgs": [
+        {
+          "org_id": "KR-GOV-016",
+          "org_name": "Supreme Court of Korea",
+          "position_title": "大法官"
+        }
+      ],
       "discovery_source": "key_people",
       "nationality": "KR",
       "notes": null
@@ -2714,25 +2688,6 @@
       "notes": null
     },
     {
-      "person_id": "KR-PERSON-000172",
-      "wikidata_qid": null,
-      "name": "李柱永(Lee Joo-young)",
-      "name_zh": "李柱永",
-      "name_en": "Lee Joo-young",
-      "importance_level": "low",
-      "importance_reason": "政策委员会议长(政策委员会主席)",
-      "source_orgs": [
-        {
-          "org_id": "KR-PARTY-005",
-          "org_name": "Reform Party (New Reform Party)",
-          "position_title": "政策委员会议长(政策委员会主席)"
-        }
-      ],
-      "discovery_source": "key_people",
-      "nationality": "KR",
-      "notes": null
-    },
-    {
       "person_id": "KR-PERSON-000173",
       "wikidata_qid": null,
       "name": "周以撒(Joo Isaac)",
@@ -3881,19 +3836,6 @@
       "notes": null
     },
     {
-      "person_id": "KR-PERSON-000244",
-      "wikidata_qid": null,
-      "name": "김윤덕",
-      "name_zh": null,
-      "name_en": "김윤덕",
-      "importance_level": "low",
-      "importance_reason": null,
-      "source_orgs": [],
-      "discovery_source": "key_people",
-      "nationality": "KR",
-      "notes": null
-    },
-    {
       "person_id": "KR-PERSON-000245",
       "wikidata_qid": null,
       "name": "김정호",
@@ -3912,19 +3854,6 @@
       "name": "김준혁",
       "name_zh": null,
       "name_en": "김준혁",
-      "importance_level": "low",
-      "importance_reason": null,
-      "source_orgs": [],
-      "discovery_source": "key_people",
-      "nationality": "KR",
-      "notes": null
-    },
-    {
-      "person_id": "KR-PERSON-000248",
-      "wikidata_qid": null,
-      "name": "김태년",
-      "name_zh": null,
-      "name_en": "김태년",
       "importance_level": "low",
       "importance_reason": null,
       "source_orgs": [],
@@ -6690,12 +6619,17 @@
       "name_zh": null,
       "name_en": "이주영",
       "importance_level": "high",
-      "importance_reason": "创始人 & 会长; 基础设施本部部长 (인프라본부장)",
+      "importance_reason": "创始人 & 会长; 政策委员会议长(政策委员会主席)",
       "source_orgs": [
         {
           "org_id": "KR-CORP-008",
           "org_name": "Kakao Corporation",
           "position_title": "创始人 & 会长"
+        },
+        {
+          "org_id": "KR-PARTY-005",
+          "org_name": "Reform Party (New Reform Party)",
+          "position_title": "政策委员会议长(政策委员会主席)"
         },
         {
           "org_id": "KR-SOE-002",
@@ -10344,17 +10278,17 @@
     "by_importance_level": {
       "high": 96,
       "medium": 10,
-      "low": 507
+      "low": 502
     },
     "by_discovery_source": {
-      "key_people": 613,
+      "key_people": 608,
       "web_search": 0,
       "wikidata": 0,
       "wikipedia": 0,
       "other": 0
     },
     "data_quality": {
-      "with_person_id": 613,
+      "with_person_id": 608,
       "with_wikidata_qid": 3,
       "without_person_id": 0
     }
