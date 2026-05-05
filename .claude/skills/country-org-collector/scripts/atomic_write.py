@@ -73,17 +73,68 @@ def _test_proxy(proxy_url, timeout=5):
     return None
 
 
+import re
+
+
+def decompose_name(raw_name):
+    """Extract individual name variants from a composite name string.
+
+    Handles formats like:
+      "柳弘林 (Ryu Hong-lim)" → ["柳弘林", "Ryu Hong-lim", "ryu hong-lim", "ryuhonglim"]
+      "李在明 (이재명 / Lee Jae-myung)" → ["李在明", "이재명", "Lee Jae-myung", ...]
+      "이재명" → ["이재명"]
+      "余仁亨 (Yeo In-hyung)" → ["余仁亨", "Yeo In-hyung", "yeo in-hyung", "yeoinhyung"]
+    """
+    if not raw_name:
+        return []
+
+    results = []
+    seen = set()
+
+    # Extract Chinese characters (CJK Unified Ideographs + Extensions)
+    chinese = re.findall(r'[一-鿿㐀-䶿]+', raw_name)
+    for c in chinese:
+        if c not in seen:
+            results.append(c)
+            seen.add(c)
+
+    # Extract Korean characters (Hangul Syllables + Jamo)
+    korean = re.findall(r'[가-힯ᄀ-ᇿ㄰-㆏]+', raw_name)
+    for k in korean:
+        if k not in seen:
+            results.append(k)
+            seen.add(k)
+
+    # Extract English name segments (letters, hyphens, spaces — must contain at least one letter)
+    english_segments = re.findall(r'[A-Za-z][A-Za-z\-\s]*[A-Za-z]|[A-Za-z]', raw_name)
+    for seg in english_segments:
+        seg = seg.strip()
+        if not seg or seg in seen:
+            continue
+        results.append(seg)
+        seen.add(seg)
+        # Add lowercased version
+        lower = seg.lower()
+        if lower not in seen:
+            results.append(lower)
+            seen.add(lower)
+        # Add no-hyphen-no-space version
+        compressed = lower.replace("-", "").replace(" ", "")
+        if len(compressed) >= 2 and compressed not in seen:
+            results.append(compressed)
+            seen.add(compressed)
+
+    return results
+
+
 def normalize_name(name):
     """Normalize a person/org name for comparison.
     Removes: extra whitespace, periods, commas.
     Lowercases for case-insensitive comparison.
-    Keeps parenthetical names (e.g. '黄循财 (Lawrence Wong)') for matching.
     """
     if not name:
         return ""
-    # Remove periods and commas
     clean = name.replace(".", "").replace(",", "")
-    # Normalize whitespace
     clean = " ".join(clean.split())
     return clean.lower().strip()
 
@@ -210,6 +261,23 @@ if __name__ == "__main__":
         result = normalize_name(inp)
         status = "OK" if result == expected else "FAIL"
         print(f"  {status}: normalize({inp!r}) = {result!r} (expected {expected!r})")
+
+    print("\nTesting decompose_name:")
+    decomp_tests = [
+        ("柳弘林 (Ryu Hong-lim)", ["柳弘林", "Ryu Hong-lim", "ryu hong-lim", "ryuhonglim"]),
+        ("이재명", ["이재명"]),
+        ("李在明 (이재명 / Lee Jae-myung)", ["李在明", "이재명", "Lee Jae-myung", "lee jae-myung", "leejaemyung"]),
+        ("余仁亨 (Yeo In-hyung)", ["余仁亨", "Yeo In-hyung", "yeo in-hyung", "yeoinhyung"]),
+    ]
+    for inp, expected in decomp_tests:
+        result = decompose_name(inp)
+        status = "OK" if result == expected else "FAIL"
+        if status == "FAIL":
+            print(f"  {status}: decompose({inp!r})")
+            print(f"    expected: {expected}")
+            print(f"    got:      {result}")
+        else:
+            print(f"  {status}: decompose({inp!r}) = {result}")
 
     print("\nTesting atomic_json_write:")
     test_path = os.path.join(os.path.dirname(__file__), "_test_atomic.json")
