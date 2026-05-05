@@ -4,18 +4,23 @@
     "name_original": "대통령경호처",
     "name_zh": "总统警护处",
     "name_en": "Presidential Security Service (PSS)",
-    "aliases": ["경호처", "PSS", "大统领警护处", "청와대 경호실(旧)"],
+    "aliases": [
+      "경호처",
+      "PSS",
+      "大统领警护处",
+      "청와대 경호실(旧)"
+    ],
     "org_type": "MIL",
-    "org_subtype": "presidential_protection",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": "1963",
+    "founded_date": "1963-01-01",
     "website": "https://www.pss.go.kr/"
   },
   "social_accounts": [],
   "digital_assets": [
     {
-      "name": "Presidential Security Service Official Website",
+      "name": "总统警护处官方网站",
       "url": "https://www.pss.go.kr/",
       "description": "韩国总统警护处官方网站",
       "source": "Wikipedia"
@@ -23,47 +28,52 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000475",
       "name": "黄仁权 (Hwang In-kwon)",
-      "title": "处长 (Chief of the PSS)",
+      "title": "处长",
       "title_description": "总统警护处最高负责人",
       "description": "现任总统警护处处长"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000376",
       "name": "朴宽天 (Park Gwan-cheon)",
-      "title": "副处长 (Deputy Chief of the PSS)",
+      "title": "副处长",
       "title_description": "总统警护处副职负责人",
       "description": "现任总统警护处副处长"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000477",
       "name": "柳延尚 (Yoo Yeon-sang)",
-      "title": "处长 (Chief of the PSS)",
+      "title": "处长",
       "title_description": "2025年初时期任处长，在尹锡悦逮捕事件中扮演关键角色",
       "description": "副部长级警护处长，因在2025年1月阻止执行尹锡悦逮捕令而引发争议"
     }
   ],
   "departments": [
     {
-      "name": "创新企划本部 (Headquarters for Innovation & Planning)",
-      "description": "负责机构改革与战略规划"
+      "name": "创新企划本部",
+      "description": "负责机构改革与战略规划",
+      "dept_id": "KR-MIL-012-DEPT-001"
     },
     {
-      "name": "行政本部 (Headquarters for Administration)",
-      "description": "负责后勤保障与行政管理"
+      "name": "行政本部",
+      "description": "负责后勤保障与行政管理",
+      "dept_id": "KR-MIL-012-DEPT-002"
     },
     {
-      "name": "警护本部 (Headquarters for Protection)",
-      "description": "负责总统及重要人物的贴身警卫工作"
+      "name": "警护本部",
+      "description": "负责总统及重要人物的贴身警卫工作",
+      "dept_id": "KR-MIL-012-DEPT-003"
     },
     {
-      "name": "情报安保本部 (Headquarters for Intelligence & Security)",
-      "description": "负责威胁情报收集与安保评估"
+      "name": "情报安保本部",
+      "description": "负责威胁情报收集与安保评估",
+      "dept_id": "KR-MIL-012-DEPT-004"
     },
     {
-      "name": "教育训练本部 (Headquarters for Education & Training)",
-      "description": "负责警护人员的专业训练与能力建设"
+      "name": "教育训练本部",
+      "description": "负责警护人员的专业训练与能力建设",
+      "dept_id": "KR-MIL-012-DEPT-005"
     }
   ],
   "recent_events": [
@@ -99,21 +109,21 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-001",
-      "org_name": "Office of the President of the Republic of Korea",
+      "org_name": "韩国总统室",
       "org_type": "GOV",
       "org_description": "韩国总统室，警护处直属总统",
-      "relationship_type": "reporting_to"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-MIL-009",
-      "org_name": "Defense Counterintelligence Command",
+      "org_name": "国军防谍司令部",
       "org_type": "MIL",
       "org_description": "国军防谍司令部，与警护处在总统安全方面有协作关系",
-      "relationship_type": "security_coordination"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "总统警护处（PSS）是韩国的独立总统警卫机构，仿照美国特勤局设立。其主要职责是保护韩国总统、总理及其办公场所、官邸和家属，以及来访的外国元首。警护处还为卸任总统及其直系亲属提供最长10年的保护服务。警卫人员需经过多年严格训练，通过背景审查、身心健康检查和教育审核后才能正式成为警护处特工。2022年5月，警护处总部随总统办公室迁至国防部大楼。",
-  "industries": ["要人保护", "国家安全", "执法"],
+  "industries": [],
   "apec_stance": "作为总统警卫机构，在APEC峰会等国际活动中承担东道国元首及来访领导人的安保工作。曾在2005年釜山APEC会议期间设立专门安保机构。",
   "profile": "韩国总统警护处（PSS）成立于1963年，前身可追溯至1949年成立的景武台总统警护警察。该机构仿照美国特勤局设立，是独立于军队和警察的总统保护机构。负责总统、总理、当选总统、卸任总统（10年内）及来访外国元首的安全保卫。2025年1月因阻止执行尹锡悦逮捕令而卷入政治风暴，处长辞职。文在寅时期曾将处长级别降至副部长级。组织下设创新企划本部、行政本部、警护本部、情报安保本部和教育训练本部五个本部。",
   "collection_meta": {

@@ -4,9 +4,14 @@
     "name_original": "정보사령부",
     "name_zh": "军情报司令部",
     "name_en": "Korea Defense Intelligence Command (KDIC)",
-    "aliases": ["정보사", "KDIC", "국군정보사령부(旧)", "Korea Defence Intelligence Command"],
+    "aliases": [
+      "정보사",
+      "KDIC",
+      "국군정보사령부(旧)",
+      "Korea Defence Intelligence Command"
+    ],
     "org_type": "MIL",
-    "org_subtype": "military_intelligence",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1946-01-15",
@@ -16,16 +21,16 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000473",
       "name": "朴敏英 (Park Min-young)",
-      "title": "司令官 (Commander)",
+      "title": "司令官",
       "title_description": "军情报司令部最高指挥官，少将军衔（学军团31期）",
       "description": "2026年起任军情报司令部司令官，负责海外及对北军事情报搜集工作"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000474",
       "name": "任钟方 (Im Jong-bang)",
-      "title": "参谋长/代司令官 (Chief of Staff/Acting Commander)",
+      "title": "参谋长兼代理司令官",
       "title_description": "2024-2026年期间担任参谋长并代理司令官职务，准将军衔",
       "description": "在司令官空缺期间代理军情报司令部日常事务"
     }
@@ -40,14 +45,14 @@
       "source": "https://defence-blog.com/south-koreas-secretive-spy-force-goes-public/"
     },
     {
-      "date": "2026-01",
+      "date": "2026-01-01",
       "title": "国防部宣布军事情报体系改革",
       "description": "作为戒严事件后续改革的一部分，国防部宣布将对国防情报本部及其下属的情报司令部进行全面改革",
       "impact": "情报司令部的职能和组织架构可能面临调整",
       "source": "https://koreapro.org/2025/08/south-koreas-military-reform-risks-weakening-counterintelligence-operations/"
     },
     {
-      "date": "2026",
+      "date": "2026-01-01",
       "title": "新司令官任命",
       "description": "朴敏英少将（学军团31期）被任命为新任情报司令部司令官，接替代理司令官任钟方准将",
       "impact": "为情报司令部带来新的领导力",
@@ -57,28 +62,28 @@
   "related_entities": [
     {
       "org_id": "KR-MIL-008",
-      "org_name": "Defense Intelligence Agency",
+      "org_name": "国防情报本部",
       "org_type": "MIL",
       "org_description": "国防情报本部，情报司令部的上级机构",
-      "relationship_type": "reporting_to"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-GOV-009",
-      "org_name": "Ministry of National Defense",
+      "org_name": "国防部",
       "org_type": "GOV",
       "org_description": "韩国国防部",
-      "relationship_type": "indirect_reporting"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-MIL-009",
-      "org_name": "Defense Counterintelligence Command",
+      "org_name": "国军防谍司令部",
       "org_type": "MIL",
       "org_description": "国军防谍司令部，负责国内军事反情报",
-      "relationship_type": "sister_agency"
+      "relationship_type": "sibling"
     }
   ],
   "core_business": "军情报司令部（KDIC）是韩国国防情报本部下属的功能司令部，是韩国军队的海外情报专门情报部队。主要负责海外及对北韩军事情报搜集与秘密谍报工作，尤其侧重人力情报（HUMINT）领域。该机构同时也是过去派北特工（北派工作员）的所属机构。其对应机构为朝鲜人民军总参谋部侦察总局。该机构在军内极度封闭，绝大部分相关信息为机密事项。",
-  "industries": ["军事情报", "谍报行动", "人力情报"],
+  "industries": [],
   "apec_stance": "作为军事情报机构，不直接参与APEC事务。",
   "profile": "军情报司令部（情报司令部）是韩国军队的海外情报专门谍报部队，隶属于国防情报本部。其历史可追溯至1946年1月15日成立的南朝鲜国防警备队总司令部情报课。1990年9月29日，三军情报部队合并成立国军情报司令部，1999年改编为现名情报司令部，编入国防情报本部。该机构以人力情报（HUMINT）为核心能力，负责对北韩及海外的军事情报搜集。2013年总部从首尔瑞草区迁至京畿道安阳市。对应朝鲜总参谋部侦察总局。2025年8月首次公开亮相并发布招募视频。",
   "collection_meta": {

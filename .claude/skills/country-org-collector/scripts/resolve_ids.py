@@ -142,7 +142,9 @@ def resolve_orgs(output_dir, index, registry, iso, dry_run=False):
         for kp in profile.get("key_people", []):
             if kp.get("person_id"):
                 continue
-            name = kp.get("name", "").strip()
+            name = kp.get("name") or ""
+            if isinstance(name, str):
+                name = name.strip()
             if not name:
                 continue
             if name in index:
@@ -182,7 +184,9 @@ def resolve_persons(output_dir, index, registry, iso, dry_run=False):
         for we in profile.get("work_experience", []):
             if we.get("org_id"):
                 continue
-            org_name = we.get("organization", "").strip()
+            org_name = we.get("organization") or ""
+            if isinstance(org_name, str):
+                org_name = org_name.strip()
             if not org_name:
                 continue
             if org_name in index:
@@ -198,7 +202,9 @@ def resolve_persons(output_dir, index, registry, iso, dry_run=False):
         for rel in profile.get("person_relationships", []):
             if rel.get("person_id"):
                 continue
-            name = rel.get("person_name", "").strip()
+            name = rel.get("person_name") or ""
+            if isinstance(name, str):
+                name = name.strip()
             if not name:
                 continue
             if name in index:

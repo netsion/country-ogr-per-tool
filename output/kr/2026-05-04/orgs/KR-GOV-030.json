@@ -11,7 +11,7 @@
       "韩国反腐败与国民权益委员会"
     ],
     "org_type": "GOV",
-    "org_subtype": "regulatory_commission",
+    "org_subtype": "independent_organ",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "2008-02-29",
@@ -19,7 +19,7 @@
   },
   "social_accounts": [
     {
-      "platform": "Instagram",
+      "platform": "instagram",
       "account_name": "ACRC Korea",
       "url": "https://www.instagram.com/p/DXeR90QDDcy/",
       "source": "Instagram"
@@ -27,7 +27,7 @@
   ],
   "digital_assets": [
     {
-      "name": "ACRC Official Website (English)",
+      "name": "ACRC官方网站（英文版）",
       "url": "https://www.acrc.go.kr/en/",
       "description": "韩国国民权益委员会官方网站英文版，提供反腐败政策、行政申诉及国民权益保护信息",
       "source": "official"
@@ -41,38 +41,38 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000659",
       "name": "郑一然 (Jeong Il-yeon)",
       "title": "委员长",
-      "title_description": "Chairperson of the Anti-Corruption and Civil Rights Commission",
+      "title_description": "韩国国民权益委员会委员长",
       "description": "2026年3月4日由李在明总统任命为第10任国民权益委员会委员长。自1991年起在公职领域服务，曾长期从事反腐败和行政改革工作。就任时表示'应将所有能力集中在国民生活上'。"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000660",
       "name": "柳七焕 (Ryu Chul Whan / Yoo Chul-hwan)",
       "title": "前任委员长",
-      "title_description": "Former Chairperson of the ACRC",
+      "title_description": "韩国国民权益委员会前任委员长",
       "description": "郑一然的前任委员长，在任期间推动ACRC对外国商界人士设立常设咨询窗口，加强公职社会廉洁建设。"
     }
   ],
   "departments": [
     {
       "name": "国民申诉局（ombudsman）",
-      "dept_id": null,
+      "dept_id": "KR-GOV-030-DEPT-001",
       "head": null,
       "description": "由一名副委员长领导，负责受理和处理国民对行政机关的不满申诉，改善不合理的行政制度",
       "parent_dept_id": null
     },
     {
       "name": "反腐败局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-030-DEPT-002",
       "head": null,
       "description": "由一名副委员长领导，负责预防和遏制公共部门腐败行为，推进廉洁文化建设",
       "parent_dept_id": null
     },
     {
       "name": "行政审判局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-030-DEPT-003",
       "head": null,
       "description": "由一名副委员长领导，负责通过行政审判制度保护国民免受违法和不正当行政行为的侵害",
       "parent_dept_id": null
@@ -118,41 +118,35 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-028",
-      "org_name": "Board of Audit and Inspection",
+      "org_name": "监查院 (Board of Audit and Inspection)",
       "org_type": "GOV",
       "org_description": "韩国监察院，与ACRC在公共部门反腐败监督方面有职能交叉和协调关系",
-      "relationship_type": "coordinating_agency"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-GOV-008",
-      "org_name": "Ministry of Justice",
+      "org_name": "法务部 (Ministry of Justice)",
       "org_type": "GOV",
       "org_description": "韩国法务部，与ACRC在腐败案件查处方面有衔接关系",
-      "relationship_type": "coordinating_agency"
+      "relationship_type": "affiliated"
     },
     {
-      "org_id": null,
-      "org_name": "Corruption Investigation Office for High-ranking Officials",
+      "org_id": "KR-GOV-069",
+      "org_name": "高级公职人员犯罪调查处 (Corruption Investigation Office for High-ranking Officials)",
       "org_type": "GOV",
       "org_description": "高层公职人员犯罪调查处，独立于ACRC设立的高级公职人员腐败调查专门机构",
-      "relationship_type": "related_agency"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-GOV-010",
-      "org_name": "Ministry of the Interior and Safety",
+      "org_name": "行政安全部 (Ministry of the Interior and Safety)",
       "org_type": "GOV",
       "org_description": "韩国行政安全部，与ACRC在行政改革和公共服务改善方面协调合作",
-      "relationship_type": "coordinating_agency"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "韩国国民权益委员会(ACRC)于2008年2月29日通过合并三个政府机构成立：韩国国民监察官(Ombudsman of Korea)、韩国独立反腐败委员会(Korea Independent Commission Against Corruption)和行政审判委员会(Administrative Appeals Commission)。ACRC由15名委员组成（含委员长1名部长级、副委员长3名副部级、常任委员3名、非常任委员8名），秘书处下设三个由副委员长领导的业务局。核心职能包括：(1)受理和处理国民申诉并改善不合理的行政制度；(2)通过预防和遏制公共部门腐败建设廉洁社会；(3)通过行政审判制度保护国民免受违法和不正当行政行为的侵害。法律依据为《腐败预防和国民权益委员会设立管理法》。总部位于世宗特别自治市。",
-  "industries": [
-    "反腐败",
-    "行政申诉处理",
-    "行政审判",
-    "公共部门廉洁建设",
-    "国民权益保护"
-  ],
+  "industries": [],
   "apec_stance": "ACRC是国际监察官组织(IOI)的活跃成员，定期发布透明度通讯分享反腐败经验。ACRC的综合廉洁评估体系被多国借鉴，其'e-People'在线申诉系统为APEC经济体提供了数字政府创新的参考案例。ACRC积极与国际社会合作推进反腐败标准建设，包括对外国企业在韩设立常设咨询窗口。",
   "profile": "韩国国民权益委员会的成立标志着韩国将三个分散的行政救济和反腐败职能整合为统一的综合性机构。ACRC运营的'e-People'国民新告系统是韩国最大的在线行政申诉平台。2016年，时任ACRC委员长金英兰推动制定了被称为'金英兰法'的《禁止不正当请托和收受财物法》，成为韩国反腐败立法的里程碑。2025年ACRC宣布三大核心任务：稳定民生并保护弱势群体、打击系统性腐败、改善行政效率。2026年3月，郑一然就任新委员长，推动跨部门申诉解决论坛和580个公共机构的综合廉洁评估，预算达1,117亿韩元。",
   "collection_meta": {

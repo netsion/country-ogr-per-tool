@@ -51,17 +51,17 @@
   ],
   "digital_assets": [
     {
-      "name": "KHNP official blog (Naver)",
+      "name": "KHNP官方博客 (Naver)",
       "url": "http://blog.naver.com/i_love_khnp/",
-      "description": "KHNP Naver Blog",
+      "description": "KHNP Naver官方博客",
       "source": "Korean Wikipedia external links"
     }
   ],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Kim Hui-cheon (김회천)",
-      "title": "President and CEO",
+      "person_id": "KR-PERSON-000536",
+      "name": "金会天 (Kim Hui-cheon)",
+      "title": "社长兼CEO",
       "title_description": "第10任社长，负责公司整体战略和运营管理",
       "description": "2026年3月18日就任韩国水电核电公司第10任社长(代表理事)，此前曾担任多种管理职务。提出以大型核电和小型模块化反应堆(SMR)双轨战略开拓海外核电市场。"
     }
@@ -69,70 +69,70 @@
   "departments": [
     {
       "dept_id": "KR-SOE-012-DEPT-001",
-      "name": "Safety Management Division (안전경영단)",
+      "name": "安全经营团 (Safety Management Division)",
       "head": null,
       "description": "负责公司安全管理体系和安全文化建设",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-002",
-      "name": "Power Generation Division (발전본부)",
+      "name": "发电本部 (Power Generation Division)",
       "head": null,
       "description": "负责韩国所有核电站和水力发电站的运营管理，包括发电处、燃料室、规制协力处和核电站事后管理处",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-003",
-      "name": "Engineering Division (엔지니어링본부)",
+      "name": "工程本部 (Engineering Division)",
       "head": null,
       "description": "负责工程技术支持、设备改善和结构技术，包括工程处、设备改善处和结构技术处",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-004",
-      "name": "Export Business Division (수출사업본부)",
+      "name": "出口事业本部 (Export Business Division)",
       "head": null,
       "description": "负责海外核电出口业务，包括捷克杜科瓦尼项目、埃及埃尔达巴项目等",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-005",
-      "name": "Construction Business Division (건설사업본부)",
+      "name": "建设事业本部 (Construction Business Division)",
       "head": null,
       "description": "负责国内新建核电站和海外核电建设项目管理",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-006",
-      "name": "Energy Mix Business Division (에너지믹스사업본부)",
+      "name": "能源混合事业本部 (Energy Mix Business Division)",
       "head": null,
       "description": "负责新能源和可再生能源业务开发，包括太阳能、风力和燃料电池项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-007",
-      "name": "Planning Division (기획본부)",
+      "name": "企划本部 (Planning Division)",
       "head": null,
       "description": "负责公司战略规划、财务管理和组织评估",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-008",
-      "name": "Quality & Technology Division (품질기술본부)",
+      "name": "品质技术本部 (Quality & Technology Division)",
       "head": null,
       "description": "负责质量管控和技术标准管理",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-009",
-      "name": "Central Research Institute (중앙연구원)",
+      "name": "中央研究院 (Central Research Institute)",
       "head": null,
       "description": "负责核电和新能源技术研发",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-012-DEPT-010",
-      "name": "Radiation Health Research Institute (방사선보건원)",
+      "name": "放射线保健院 (Radiation Health Research Institute)",
       "head": null,
       "description": "负责辐射健康研究和辐射防护管理",
       "parent_dept_id": null
@@ -192,35 +192,35 @@
   "related_entities": [
     {
       "org_id": "KR-SOE-001",
-      "org_name": "Korea Electric Power Corporation (한국전력공사)",
+      "org_name": "韩国电力公社 (Korea Electric Power Corporation)",
       "org_type": "SOE",
       "org_description": "母公司，持有KHNP 100%股份。KEPCO是韩国国营电力公司，KHNP于2001年从KEPCO分拆成立。",
       "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-GOV-014",
-      "org_name": "Ministry of Trade, Industry and Energy (산업통상자원부)",
+      "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
       "org_type": "GOV",
       "org_description": "行业主管部门，负责核电政策和KHNP社长人选的提名流程",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-CORP-026",
-      "org_name": "Hyundai Engineering and Construction (현대건설)",
+      "org_name": "现代工程建设 (Hyundai Engineering and Construction)",
       "org_type": "CORP",
       "org_description": "UAE巴拉卡核电站和捷克杜科瓦尼项目的主要建设合作伙伴",
       "relationship_type": "partner"
     },
     {
       "org_id": "KR-CORP-014",
-      "org_name": "Samsung C&T Corporation (삼성물산)",
+      "org_name": "三星物产 (Samsung C&T Corporation)",
       "org_type": "CORP",
       "org_description": "UAE巴拉卡核电站建设联合体成员",
       "relationship_type": "partner"
     },
     {
       "org_id": "KR-CORP-023",
-      "org_name": "Doosan Enerbility (두산에너빌리티)",
+      "org_name": "斗山能源 (Doosan Enerbility)",
       "org_type": "CORP",
       "org_description": "核电主要设备供应商，提供核电站核心设备和涡轮机等",
       "relationship_type": "supplier"

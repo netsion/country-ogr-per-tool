@@ -4,9 +4,15 @@
     "name_original": "관세청 / Korea Customs Service",
     "name_zh": "韩国关税厅",
     "name_en": "Korea Customs Service",
-    "aliases": ["KCS", "Gwansecheong", "관세청", "韩国海关", "韩国关税厅"],
+    "aliases": [
+      "KCS",
+      "Gwansecheong",
+      "관세청",
+      "韩国海关",
+      "韩国关税厅"
+    ],
     "org_type": "GOV",
-    "org_subtype": "central_administrative_agency",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1970-08-03",
@@ -14,19 +20,19 @@
   },
   "social_accounts": [
     {
-      "platform": "Facebook",
+      "platform": "facebook",
       "account_name": "ftacustoms",
       "url": "https://www.facebook.com/ftacustoms",
       "source": "https://www.customs.go.kr"
     },
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "관세청",
       "url": "https://www.youtube.com/@koreacustomsservice",
       "source": "https://www.customs.go.kr"
     },
     {
-      "platform": "X (Twitter)",
+      "platform": "twitter_x",
       "account_name": "AI관세청",
       "url": "https://x.com/k_customs",
       "source": "https://www.customs.go.kr"
@@ -54,14 +60,14 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000661",
       "name": "李明九 (Lee Myeong-ku)",
       "title": "关税厅长",
       "title_description": "韩国关税厅最高负责人，负责全国关税行政的总体规划与管理",
       "description": "李明九现任韩国关税厅长，提出'AI引领公平成长的关税厅'愿景，推动'4G关税行政'改革框架，即成长型关税厅、现场型关税厅、信赖型关税厅和国境守护型关税厅。2026年1月发表新年贺词，将2026年定位为AI关税行政的元年。"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000662",
       "name": "高光孝 (Ko Kwang-hyo)",
       "title": "关税厅长（前任）",
       "title_description": "前任关税厅长",
@@ -71,42 +77,42 @@
   "departments": [
     {
       "name": "关税调查局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-031-DEPT-001",
       "head": null,
       "description": "负责进出口货物的关税调查、价格核查及违规贸易行为的查处",
       "parent_dept_id": null
     },
     {
       "name": "通关物流局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-031-DEPT-002",
       "head": null,
       "description": "负责进出口货物的通关审查、物流监管及贸易便利化政策",
       "parent_dept_id": null
     },
     {
       "name": "国际关税合作局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-031-DEPT-003",
       "head": null,
       "description": "负责国际海关合作、自由贸易协定关税事务及WCO框架下的多边合作",
       "parent_dept_id": null
     },
     {
       "name": "边境安全局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-031-DEPT-004",
       "head": null,
       "description": "负责打击走私、毒品缉私、枪支管制及有害物品入境拦截",
       "parent_dept_id": null
     },
     {
       "name": "不公正贸易专案组",
-      "dept_id": null,
+      "dept_id": "KR-GOV-031-DEPT-005",
       "head": null,
       "description": "2026年新设的不公正贸易专门调查机构，应对全球贸易环境变化，加强反倾销审查",
       "parent_dept_id": null
     },
     {
       "name": "禁毒应对本部",
-      "dept_id": null,
+      "dept_id": "KR-GOV-031-DEPT-006",
       "head": null,
       "description": "2026年新设的禁毒专门机构，负责国境阶段毒品拦截与打击",
       "parent_dept_id": null
@@ -162,25 +168,25 @@
       "org_name": "经济财政部（Ministry of Economy and Finance）",
       "org_type": "GOV",
       "org_description": "韩国关税厅的上级主管部门，负责国家财政、经济政策制定",
-      "relationship_type": "parent_agency"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-INTL-001",
       "org_name": "APEC（亚太经合组织）",
       "org_type": "INTL",
       "org_description": "亚太地区重要经济合作论坛，韩国关税厅参与APEC海关相关合作",
-      "relationship_type": "international_cooperation"
+      "relationship_type": "partner"
     },
     {
-      "org_id": null,
+      "org_id": "KR-INTL-002",
       "org_name": "世界海关组织（WCO）",
       "org_type": "INTL",
       "org_description": "全球海关事务的政府间组织，韩国关税厅积极参与其活动",
-      "relationship_type": "international_cooperation"
+      "relationship_type": "partner"
     }
   ],
   "core_business": "韩国关税厅（KCS）是韩国中央行政机构，隶属于经济财政部，总部位于大田广域市。其主要职能包括：关税的征收与管理；进出口货物的通关审查与监管；走私及非法贸易的打击与查处；国境安全保障（包括毒品、枪支及有害物品拦截）；自由贸易协定（FTA）相关的关税政策执行；国际海关合作与交流。关税厅每年征收的关税约占国家财政收入的20%，是韩国核心税收机构之一。2026年，关税厅提出'AI引领公平成长的关税厅'愿景，以'4G关税行政'（成长、现场、信赖、国境守护）为框架，全面推进AI海关管理。",
-  "industries": ["海关与贸易", "边境安全", "税收征管", "反走私执法"],
+  "industries": [],
   "apec_stance": "韩国关税厅在APEC框架下积极参与海关程序简化和贸易便利化合作。2025年成功保障了在韩国举办的APEC峰会通关安全工作。关税厅通过FTA关税政策执行支持区域经济一体化，推动APEC区域内贸易便利化。",
   "profile": "韩国关税厅成立于1970年8月3日，前身可追溯至1948年7月17日设立的财政部下属海关部门。作为韩国中央行政机构之一，关税厅负责全国关税行政事务，包括关税征管、进出口通关监管、反走私执法、国境安全保障等核心职能。关税厅总部位于大田广域市西区政府综合办公楼，下辖全国各主要港口和机场的海关机构。在国际层面，关税厅是世界海关组织（WCO）的积极成员，与多个国家和地区的海关机构保持密切合作关系。2026年4月，关税厅与日本海关举行了第34次日韩海关合作会议，体现了其在区域海关合作中的重要角色。近年来，关税厅大力推进数字化转型和AI技术应用，将2026年定位为'AI关税行政元年'，旨在通过技术革新提升通关效率和边境安全水平。",
   "collection_meta": {

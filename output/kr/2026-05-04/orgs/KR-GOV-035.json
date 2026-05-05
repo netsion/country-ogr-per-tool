@@ -4,9 +4,15 @@
     "name_original": "대검찰청 / Supreme Prosecutors' Office of the Republic of Korea",
     "name_zh": "韩国大检察厅",
     "name_en": "Supreme Prosecutors' Office of the Republic of Korea",
-    "aliases": ["SPO", "대검찰청", "检察厅", "Supreme Prosecutors' Office", "韩国最高检察机关"],
+    "aliases": [
+      "SPO",
+      "대검찰청",
+      "检察厅",
+      "Supreme Prosecutors' Office",
+      "韩国最高检察机关"
+    ],
     "org_type": "GOV",
-    "org_subtype": "prosecution_office",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1948-07-17",
@@ -29,14 +35,14 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000669",
       "name": "沈宇正 (Shim Woo-jung)",
       "title": "检察总长",
       "title_description": "韩国检察机关最高负责人，统领全国检察事务",
       "description": "沈宇正现任韩国检察总长，是韩国检察机关的最高负责人。大检察厅在其领导下负责全国检察事务的指挥监督。2026年4月，沈宇正因涉及2024年12月3日戒严事件被特别检察官调查。"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000670",
       "name": "李镇东 (Lee Jin-dong)",
       "title": "大检察厅次长检察官",
       "title_description": "大检察厅副职负责人，协助检察总长管理日常事务",
@@ -46,63 +52,63 @@
   "departments": [
     {
       "name": "中央搜查部",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-001",
       "head": null,
       "description": "负责重大犯罪案件的中央侦查指挥和协调",
       "parent_dept_id": null
     },
     {
       "name": "刑事部",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-002",
       "head": null,
       "description": "负责刑事案件的检察指导和法律意见",
       "parent_dept_id": null
     },
     {
-      "name": "反腐腐败犯罪搜查部",
-      "dept_id": null,
+      "name": "反腐败犯罪搜查部",
+      "dept_id": "KR-GOV-035-DEPT-003",
       "head": null,
       "description": "负责腐败和经济犯罪案件的侦查",
       "parent_dept_id": null
     },
     {
       "name": "首尔高等检察厅",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-004",
       "head": null,
       "description": "管辖首尔及周边地区的高等检察机关",
       "parent_dept_id": null
     },
     {
       "name": "釜山高等检察厅",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-005",
       "head": null,
       "description": "管辖釜山、蔚山及庆尚南道地区的高等检察机关",
       "parent_dept_id": null
     },
     {
       "name": "大邱高等检察厅",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-006",
       "head": null,
       "description": "管辖大邱及庆尚北道地区的高等检察机关",
       "parent_dept_id": null
     },
     {
       "name": "大田高等检察厅",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-007",
       "head": null,
       "description": "管辖大田及忠清道地区的高等检察机关",
       "parent_dept_id": null
     },
     {
       "name": "光州高等检察厅",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-008",
       "head": null,
       "description": "管辖光州及全罗道地区的高等检察机关",
       "parent_dept_id": null
     },
     {
       "name": "水原高等检察厅",
-      "dept_id": null,
+      "dept_id": "KR-GOV-035-DEPT-009",
       "head": null,
       "description": "管辖京畿道南部地区的高等检察机关",
       "parent_dept_id": null
@@ -158,32 +164,32 @@
       "org_name": "法务部（Ministry of Justice）",
       "org_type": "GOV",
       "org_description": "大检察厅的上级主管部门，负责检察和矫正行政",
-      "relationship_type": "parent_agency"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-GOV-023",
       "org_name": "韩国大法院（Supreme Court of Korea）",
       "org_type": "GOV",
       "org_description": "韩国最高司法机关，大检察厅与其对应运作",
-      "relationship_type": "corresponding_judicial_body"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-GOV-032",
       "org_name": "韩国警察厅（National Police Agency）",
       "org_type": "GOV",
       "org_description": "韩国警察机构，与检察厅在刑事调查中存在侦查权分配关系",
-      "relationship_type": "investigation_coordinating_agency"
+      "relationship_type": "affiliated"
     },
     {
-      "org_id": null,
+      "org_id": "KR-GOV-071",
       "org_name": "重大犯罪调查厅（Serious Crime Investigation Agency，筹备中）",
       "org_type": "GOV",
       "org_description": "计划于2026年10月成立的新机构，将取代大检察厅的调查职能",
-      "relationship_type": "successor_agency"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "韩国大检察厅（SPO）是韩国检察机关的最高机构，隶属于法务部，总部位于首尔特别市瑞草区。作为全国检察机关的代表，大检察厅与韩国大法院对应运作，负责检察官检察事务的执行、各类案件的侦查指挥以及对全国各级检察厅的指挥监督。组织架构包括大检察厅、5个高等检察厅和多个地方检察厅及其支厅。大检察厅拥有广泛的刑事侦查权和起诉权，是韩国刑事司法体系的核心机构。根据2025年9月国会通过的法案，大检察厅计划于2026年9月被废除，拆分为重大犯罪调查厅和法务部属检察厅，检察官将丧失主动发起调查的权力。",
-  "industries": ["检察", "刑事侦查", "公诉", "司法行政"],
+  "industries": [],
   "apec_stance": "大检察厅通过法务部参与APEC框架下的反腐败和执法合作。韩国检察机关在APEC反腐败和提高透明度方面与其他成员经济体开展合作。大检察厅也参与国际司法协助和跨境犯罪调查合作。",
   "profile": "韩国大检察厅成立于1948年7月17日，是韩国历史最悠久的中央行政机构之一。其组织架构包括大检察厅（最高机关）、高等检察厅（5个：首尔、水原、釜山、大邱、大田、光州）和地方检察厅及其支厅。大检察厅长期以来是韩国政治和司法体系中最具权力的机构之一，但也因政治中立性问题多次引发争议。2009年民调显示47.1%的韩国民众对大检察厅持否定态度，可信度评分仅为10分中的4分。2024年12月3日戒严事件后，大检察厅深度卷入政治风波，检察总长沈宇正因涉嫌参与戒严被特别检察官调查。2025年9月26日，国会通过历史性的检察改革法案，决定废除现行大检察厅体制，将其拆分为重大犯罪调查厅和法务部属检察厅。这一改革被认为是韩国司法制度70余年来最大规模的变革，旨在减少检察机关的权力滥用和报复性调查问题。",
   "collection_meta": {

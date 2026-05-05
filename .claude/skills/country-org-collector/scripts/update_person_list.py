@@ -86,7 +86,7 @@ def main():
     persons = []
     for p in person_registry:
         pid = p["person_id"]
-        name = p["name"]
+        name = p.get("name") or p.get("name_en", "")
         sources = person_sources.get(pid, [])
 
         # Parse name

@@ -40,30 +40,30 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Kwak Noh-jung (郭鲁正)",
-      "title": "President and CEO",
+      "person_id": "KR-PERSON-000495",
+      "name": "郭鲁正 (Kwak Noh-jung)",
+      "title": "社长兼CEO",
       "title_description": "全面负责公司战略与运营，2022年3月首次任命，2025年3月连任，任期至2028年",
       "description": "郭鲁正于2022年出任SK海力士CEO，领导公司成为AI存储器时代的核心企业。2026年新年致辞中提出从'Full Stack AI Memory Provider'向'Full Stack AI Memory Creator'转型的愿景。"
     },
     {
-      "person_id": null,
-      "name": "Kim Woo-hyun (金佑贤)",
-      "title": "Chief Financial Officer (CFO)",
+      "person_id": "KR-PERSON-000496",
+      "name": "金佑贤 (Kim Woo-hyun)",
+      "title": "首席财务官 (CFO)",
       "title_description": "负责公司财务管理与投资者关系",
       "description": "在2025年Q3财报电话会议中担任首席财务官，负责向市场传达公司AI存储器领先战略。"
     },
     {
-      "person_id": null,
-      "name": "Song Hyun-jong (宋贤钟)",
-      "title": "President of Corporate Center",
+      "person_id": "KR-PERSON-000497",
+      "name": "宋贤钟 (Song Hyun-jong)",
+      "title": "企业中心总裁",
       "title_description": "统筹企业中心运营，包括财务、人力资源、法务等职能",
       "description": "在2025年Q4财报电话会议中代表企业中心出席。"
     },
     {
-      "person_id": null,
-      "name": "Ahn Hyun (安铉)",
-      "title": "Chief Development Officer (CDO)",
+      "person_id": "KR-PERSON-000498",
+      "name": "安铉 (Ahn Hyun)",
+      "title": "首席开发官 (CDO)",
       "title_description": "领导DRAM和NAND闪存的研发组织",
       "description": "毕业于首尔大学，负责公司核心技术方向，推动HBM4等前沿产品开发。"
     }
@@ -71,22 +71,22 @@
   "departments": [
     {
       "dept_id": "KR-CORP-002-DEPT-001",
-      "name": "DRAM Division",
+      "name": "DRAM事业部 (DRAM Division)",
       "head": null,
       "description": "负责DRAM存储芯片的研发、制造与销售，包括HBM高带宽存储器(HBM3E/HBM4)产品线",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-002-DEPT-002",
-      "name": "NAND Flash Division",
+      "name": "NAND闪存事业部 (NAND Flash Division)",
       "head": null,
       "description": "负责NAND闪存及固态硬盘(SSD)的研发、生产与销售，涵盖3D NAND和300+层产品",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-002-DEPT-003",
-      "name": "Corporate Center",
-      "head": "Song Hyun-jong",
+      "name": "企业中心 (Corporate Center)",
+      "head": "宋贤钟",
       "description": "统筹财务、人力资源、法务、合规等企业职能，由宋贤钟总裁领导",
       "parent_dept_id": null
     }
@@ -145,35 +145,35 @@
   "related_entities": [
     {
       "org_id": "KR-CORP-020",
-      "org_name": "SK Inc.",
+      "org_name": "SK控股 (SK Inc.)",
       "org_type": "CORP",
       "org_description": "SK集团控股公司，通过SK Square持有SK海力士20.07%股份",
       "relationship_type": "controlling_shareholder"
     },
     {
       "org_id": "KR-CORP-011",
-      "org_name": "SK Telecom",
+      "org_name": "SK电讯 (SK Telecom)",
       "org_type": "CORP",
       "org_description": "SK集团核心子公司，2012年以30亿美元收购Hynix控股权并将其纳入SK集团",
       "relationship_type": "sibling"
     },
     {
       "org_id": "KR-CORP-001",
-      "org_name": "Samsung Electronics",
+      "org_name": "三星电子 (Samsung Electronics)",
       "org_type": "CORP",
       "org_description": "全球最大存储芯片制造商，SK海力士的主要竞争对手；两者与美光并称存储芯片三大巨头",
       "relationship_type": "partner"
     },
     {
-      "org_id": null,
-      "org_name": "Solidigm",
+      "org_id": "KR-CORP-034",
+      "org_name": "Solidigm (Solidigm固态存储)",
       "org_type": "CORP",
       "org_description": "SK海力士旗下NAND SSD子公司，前身为英特尔NAND业务，2021年以约90亿美元收购成立",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "KR-GOV-004",
-      "org_name": "Ministry of Science and ICT",
+      "org_name": "科学技术信息通信部 (Ministry of Science and ICT)",
       "org_type": "GOV",
       "org_description": "韩国科学技术信息通信部(MSIT)，半导体行业主要政策监管部门",
       "relationship_type": "regulator"

@@ -31,66 +31,66 @@
   "digital_assets": [],
   "key_people": [
     {
-      "name": "정은보 (Jeong Eun-bo)",
-      "title": "Chairman & CEO",
+      "name": "郑恩保 (Jeong Eun-bo)",
+      "title": "会长 & CEO",
       "title_description": "韩国交易所最高负责人，前金融监督院院长，2024年2月就任",
       "description": "2024年2月就任韩国交易所理事长。此前曾任金融监督院院长。致力于推动KOSPI突破6000点，将韩国资本市场从'折价市场'转变为'溢价市场'",
-      "person_id": null
+      "person_id": "KR-PERSON-000595"
     }
   ],
   "departments": [
     {
       "dept_id": "KR-FIN-011-DEPT-001",
-      "name": "KOSPI Market Division",
+      "name": "有价证券市场部 (KOSPI Market Division)",
       "head": null,
       "description": "负责KOSPI主板市场的上市审查、市场运营、上市企业公告管理及退市等业务，涵盖大型企业股票、债券、ETF、ETN等",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-002",
-      "name": "KOSDAQ Market Division",
+      "name": "创业板市场部 (KOSDAQ Market Division)",
       "head": null,
       "description": "负责KOSDAQ创业板市场的运营，为IT、BT等成长型风险中小企业提供融资机会，同时运营KONEX市场",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-003",
-      "name": "Derivatives Market Division",
+      "name": "衍生品市场部 (Derivatives Market Division)",
       "head": null,
       "description": "运营股指、利率、货币、个股及商品期货和期权等衍生品市场，代表性产品包括KOSPI200期货和期权",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-004",
-      "name": "Clearing & Settlement Division",
+      "name": "清算结算部 (Clearing & Settlement Division)",
       "head": null,
       "description": "负责证券和衍生品交易的清算与结算，管理结算违约风险，2021年4月起独立为本部组织",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-005",
-      "name": "Market Oversight Commission",
+      "name": "市场监管委员会 (Market Oversight Commission)",
       "head": null,
       "description": "负责预防及查处证券和衍生品市场的不公平交易行为，调解会员和投资者之间的纠纷",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-006",
-      "name": "Management Strategy Division",
+      "name": "经营战略部 (Management Strategy Division)",
       "head": null,
       "description": "负责交易所的经营战略、长期愿景制定、人事、IT及信息事业等",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-007",
-      "name": "Future Strategy Division",
+      "name": "未来战略部 (Future Strategy Division)",
       "head": null,
       "description": "负责未来业务发展战略，包括碳排放权市场等新业务",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-FIN-011-DEPT-008",
-      "name": "Global Business Division",
+      "name": "全球业务部 (Global Business Division)",
       "head": null,
       "description": "负责与海外交易所、国际机构的合作，市场系统出口及新兴证券市场发展支援",
       "parent_dept_id": null
@@ -161,56 +161,56 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-027",
-      "org_name": "Financial Services Commission",
+      "org_name": "金融委员会 (Financial Services Commission)",
       "org_type": "GOV",
       "org_description": "金融委员会，韩国交易所的主管监管机构",
       "relationship_type": "regulated_by"
     },
     {
       "org_id": "KR-FIN-012",
-      "org_name": "Financial Supervisory Service",
+      "org_name": "金融监督院 (Financial Supervisory Service)",
       "org_type": "FIN",
       "org_description": "金融监督院，与韩国交易所在市场监管方面保持密切协作",
       "relationship_type": "partner"
     },
     {
       "org_id": "KR-FIN-014",
-      "org_name": "Bank of Korea",
+      "org_name": "韩国银行 (Bank of Korea)",
       "org_type": "FIN",
       "org_description": "韩国银行（央行），与韩国交易所在金融市场稳定方面保持协调关系",
       "relationship_type": "partner"
     },
     {
       "org_id": "KR-CORP-001",
-      "org_name": "Samsung Electronics",
+      "org_name": "三星电子 (Samsung Electronics)",
       "org_type": "CORP",
       "org_description": "三星电子，KOSPI市场市值最大的上市企业",
       "relationship_type": "customer"
     },
     {
       "org_id": "KR-FIN-001",
-      "org_name": "KB Financial Group",
+      "org_name": "KB金融集团 (KB Financial Group)",
       "org_type": "FIN",
       "org_description": "KB金融集团，KOSPI上市企业，部分关联证券公司持有KRX股份",
       "relationship_type": "customer"
     },
     {
       "org_id": "KR-FIN-002",
-      "org_name": "Shinhan Financial Group",
+      "org_name": "新韩金融集团 (Shinhan Financial Group)",
       "org_type": "FIN",
       "org_description": "新韩金融集团，KOSPI上市企业",
       "relationship_type": "customer"
     },
     {
       "org_id": "KR-FIN-002",
-      "org_name": "Hana Financial Group",
+      "org_name": "韩亚金融集团 (Hana Financial Group)",
       "org_type": "FIN",
       "org_description": "韩亚金融集团，KOSPI上市企业",
       "relationship_type": "customer"
     },
     {
       "org_id": "KR-FIN-003",
-      "org_name": "Woori Financial Group",
+      "org_name": "友利金融集团 (Woori Financial Group)",
       "org_type": "FIN",
       "org_description": "友利金融集团，KOSPI上市企业",
       "relationship_type": "customer"

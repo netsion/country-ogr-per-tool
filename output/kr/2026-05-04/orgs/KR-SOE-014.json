@@ -41,16 +41,16 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Park Sang-jin (박상진 / 朴相珍)",
-      "title": "Chairman and CEO",
+      "person_id": "KR-PERSON-000539",
+      "name": "朴相珍 (Park Sang-jin)",
+      "title": "会长兼CEO",
       "title_description": "韩国产业银行董事长兼首席执行官，2025年9月15日就任，系该行成立71年来首位内部出身的董事长",
       "description": "1962年3月24日出生，毕业于中央大学法学系。1990年进入韩国产业银行，先后担任企业结构调整和金融法务相关职务，包括法务室长和合规监察官(준법감시인)。曾参与起亚集团、大宇重工业和大宇汽车等重大企业重组项目。2025年9月由金融委员会主席提名，经总统任命就任韩国产业银行董事长。就任后提出'生产性金融转型'、培育中小风险企业生态系、传统产业结构重组等核心任务，并主导推进150万亿韩元规模的国民成长基金。"
     },
     {
-      "person_id": null,
-      "name": "Kang Seok-hoon (강석훈 / 姜錫勳)",
-      "title": "Former Chairman",
+      "person_id": "KR-PERSON-000540",
+      "name": "姜锡勋 (Kang Seok-hoon)",
+      "title": "前任会长",
       "title_description": "韩国产业银行前任董事长，任期2022年至2025年6月5日",
       "description": "在其3年任期内完成了大宇造船海洋民营化和国籍航空公司整合等重大结构重组，推动AI和半导体等尖端战略产业培育。但HMM和KDB生命的出售未能成功，以及本店迁往釜山的争议被视为其任期内的污点。2025年6月5日任期满后离任。"
     }
@@ -58,42 +58,42 @@
   "departments": [
     {
       "dept_id": "KR-SOE-014-DEPT-001",
-      "name": "Corporate Banking Division (기업금융본부)",
+      "name": "企业金融本部 (Corporate Banking Division)",
       "head": null,
       "description": "负责大型企业和中型企业的贷款、信用证和担保业务，是产业银行核心业务部门",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-014-DEPT-002",
-      "name": "Investment Banking Division (투자금융본부)",
+      "name": "投资金融本部 (Investment Banking Division)",
       "head": null,
       "description": "负责股权投资、债券承销、并购咨询和资本市场业务",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-014-DEPT-003",
-      "name": "Regional Growth Division (지역성장부문)",
+      "name": "地区成长部门 (Regional Growth Division)",
       "head": null,
       "description": "负责南部地区投资金融业务，管理地区成长支援基金和区域风险企业支持",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-014-DEPT-004",
-      "name": "International Banking Division (국제금융본부)",
+      "name": "国际金融本部 (International Banking Division)",
       "head": null,
       "description": "负责海外分行运营、国际融资和外汇业务，管理全球22个海外网点",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-014-DEPT-005",
-      "name": "Corporate Restructuring Division (기업구조조정본부)",
+      "name": "企业结构调整本部 (Corporate Restructuring Division)",
       "head": null,
       "description": "负责企业结构重组和不良贷款管理，在金融危机中发挥关键作用",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-SOE-014-DEPT-006",
-      "name": "KDB Future Strategy Research Institute (KDB미래전략연구소)",
+      "name": "KDB未来战略研究所 (KDB Future Strategy Research Institute)",
       "head": null,
       "description": "产业银行直属研究机构，负责经济分析、产业研究和政策建议，定期发布KDB报告和朝鲜产业分析",
       "parent_dept_id": null
@@ -167,49 +167,49 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-003",
-      "org_name": "Ministry of Economy and Finance (기획재정부)",
+      "org_name": "经济财政部 (Ministry of Economy and Finance)",
       "org_type": "GOV",
       "org_description": "产业银行的主要政府出资方和政策指导部门，负责预算和产业金融政策制定",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-GOV-027",
-      "org_name": "Financial Services Commission (금융위원회)",
+      "org_name": "金融委员会 (Financial Services Commission)",
       "org_type": "GOV",
       "org_description": "产业银行董事长的提名机构，负责政策性金融机构的监督管理",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-GOV-014",
-      "org_name": "Ministry of Trade, Industry and Energy (산업통상자원부)",
+      "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
       "org_type": "GOV",
       "org_description": "产业政策主管部门，与产业银行在产业培育和结构重组方面密切合作",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-FIN-014",
-      "org_name": "Bank of Korea (한국은행)",
+      "org_name": "韩国银行 (Bank of Korea)",
       "org_type": "FIN",
       "org_description": "韩国中央银行，与产业银行在金融市场稳定和货币政策执行方面协调合作",
       "relationship_type": "partner"
     },
     {
       "org_id": "KR-SOE-015",
-      "org_name": "Korea Investment Corporation (한국투자공사)",
+      "org_name": "韩国投资公社 (Korea Investment Corporation)",
       "org_type": "SOE",
       "org_description": "韩国主权财富基金，与产业银行在投资基金领域有合作关系",
       "relationship_type": "partner"
     },
     {
       "org_id": "KR-FIN-012",
-      "org_name": "Financial Supervisory Service (금융감독원)",
+      "org_name": "金融监督院 (Financial Supervisory Service)",
       "org_type": "FIN",
       "org_description": "负责对产业银行进行现场检查和日常监管",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-SOE-013",
-      "org_name": "Industrial Bank of Korea (중소기업은행)",
+      "org_name": "中小企业银行 (Industrial Bank of Korea)",
       "org_type": "SOE",
       "org_description": "同为政策性银行，互补服务于中小企业领域",
       "relationship_type": "sibling"

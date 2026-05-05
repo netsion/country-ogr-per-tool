@@ -4,9 +4,12 @@
     "name_original": "제이티비씨",
     "name_zh": "JTBC电视台",
     "name_en": "JTBC",
-    "aliases": ["Joongang Tongyang Broadcasting Company", "중앙동양방송"],
+    "aliases": [
+      "Joongang Tongyang Broadcasting Company",
+      "중앙동양방송"
+    ],
     "org_type": "MEDIA",
-    "org_subtype": "cable_tv_network",
+    "org_subtype": "broadcaster",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "2011-03-21",
@@ -14,25 +17,25 @@
   },
   "social_accounts": [
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "JTBC",
       "url": "https://www.youtube.com/@jtbc",
       "source": "https://jtbc.co.kr"
     },
     {
-      "platform": "Facebook",
+      "platform": "facebook",
       "account_name": "jtbcnow",
       "url": "https://www.facebook.com/jtbcnow",
       "source": "https://jtbc.co.kr"
     },
     {
-      "platform": "X (Twitter)",
+      "platform": "twitter_x",
       "account_name": "@jtbc_news",
       "url": "https://twitter.com/jtbc_news",
       "source": "https://jtbc.co.kr"
     },
     {
-      "platform": "Instagram",
+      "platform": "instagram",
       "account_name": "@jtbc_now",
       "url": "https://www.instagram.com/jtbc_now/",
       "source": "https://jtbc.co.kr"
@@ -46,13 +49,13 @@
       "source": "https://jtbc.co.kr"
     },
     {
-      "name": "JTBC On Air",
+      "name": "JTBC在线直播 (JTBC On Air)",
       "url": "https://onair.jtbc.co.kr",
       "description": "JTBC在线直播平台（仅限韩国境内）",
       "source": "https://jtbc.co.kr"
     },
     {
-      "name": "JTBC Newsroom",
+      "name": "JTBC新闻室 (JTBC Newsroom)",
       "url": "https://news.jtbc.co.kr",
       "description": "JTBC新闻官方网站",
       "source": "https://jtbc.co.kr"
@@ -60,24 +63,24 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000693",
       "name": "洪正道 (Hong Jeong-do)",
       "title": "副董事长兼首席数字体验官",
-      "title_description": "Vice Chairman & CDXO",
+      "title_description": "副董事长兼首席数字体验官，负责集团数字化转型与战略",
       "description": "JTBC副董事长兼首席数字体验官，负责集团数字化转型与战略发展"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000694",
       "name": "李秀英 (Lee Soo-young)",
       "title": "代表理事兼社长",
-      "title_description": "CEO & President",
+      "title_description": "代表理事兼社长，负责公司整体经营管理",
       "description": "JTBC代表理事兼社长，负责公司整体经营管理"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000695",
       "name": "全镇培 (Jeon Jin-bae)",
       "title": "代表理事兼新闻局长",
-      "title_description": "CEO & Head of News Division",
+      "title_description": "代表理事兼新闻局长，负责新闻报道的全面管理",
       "description": "JTBC代表理事兼新闻局长，负责新闻报道的全面管理"
     }
   ],
@@ -91,7 +94,7 @@
       "source": "https://www.soompi.com/article/1828671wpp/jtbc-previews-2026-k-drama-lineup"
     },
     {
-      "date": "2026-06",
+      "date": "2026-06-01",
       "title": "获得2026-2032年奥运会韩国转播权",
       "description": "JTBC于2019年6月获得2026年至2032年奥运会在韩国的独家转播权，标志其体育转播实力的重大提升",
       "impact": "high",
@@ -108,35 +111,35 @@
   "related_entities": [
     {
       "org_id": "KR-MEDIA-005",
-      "org_name": "JoongAng Ilbo",
+      "org_name": "中央日报 (JoongAng Ilbo)",
       "org_type": "MEDIA",
       "org_description": "中央日报，JTBC的最大股东（中央集团持股25%）",
-      "relationship_type": "parent_company"
+      "relationship_type": "parent_org"
     },
     {
-      "org_id": null,
-      "org_name": "SLL (JTBC Studios)",
+      "org_id": "KR-CORP-085",
+      "org_name": "SLL内容制作公司 (SLL, 前身JTBC Studios)",
       "org_type": "CORP",
       "org_description": "JTBC旗下内容制作子公司（前身为JTBC Content Hub），负责韩剧和电影制作",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "JTBC Plus",
+      "org_id": "KR-MEDIA-031",
+      "org_name": "JTBC Plus频道运营公司 (JTBC Plus)",
       "org_type": "MEDIA",
       "org_description": "JTBC旗下运营专门频道（JTBC2/JTBC4/JTBC Sports/JTBC Golf）及日刊体育的子公司",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "Warner Bros. Discovery",
+      "org_id": "KR-CORP-086",
+      "org_name": "华纳兄弟探索公司 (Warner Bros. Discovery)",
       "org_type": "CORP",
       "org_description": "华纳兄弟探索公司，持有JTBC 5.72%股份",
-      "relationship_type": "investor"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "韩国全国性综合有线电视频道，2011年12月1日开播。由中央日报旗下的中央集团（JoongAng Group）控股25%。节目涵盖电视剧、综艺节目和新闻报道，其中新闻节目（以JTBC Newsroom为代表）的公信力被认为可与三大地面电视台比肩。自制韩剧实力强劲，《夫妻的世界》《财阀家的小儿子》《天空之城》等均创下有线电视收视纪录。2019年获得2026-2032年奥运会韩国转播权。旗下拥有内容制作公司SLL、JTBC Plus等子公司。",
-  "industries": ["有线电视", "节目制作", "新闻广播", "数字媒体"],
+  "industries": [],
   "apec_stance": null,
   "profile": "JTBC是韩国四大全国性综合有线电视频道之一，2011年12月1日开播，由中央集团（JoongAng Group）控股。其历史可追溯至1964年中央日报创办的东洋广播公司（TBC），后于1980年被军政府强行并入KBS。JTBC被视为TBC的转世。JTBC以高质量的新闻报道和现象级韩剧闻名——新闻方面，前MBC新闻主播孙石熙2013年加入后大幅提升了JTBC新闻的影响力；电视剧方面，《夫妻的世界》（28.371%）创下有线电视最高收视纪录，《天空之城》《财阀家的小儿子》等也创造了收视神话。2019年获得奥运会转播权，2021年收购美国制作公司Wiip的多数股权。总部位于首尔上岩洞Digital Media City。",
   "collection_meta": {

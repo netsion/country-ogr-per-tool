@@ -50,7 +50,7 @@
   "digital_assets": [
     {
       "type": "knowledge_platform",
-      "name": "K-Developedia",
+      "name": "K-Developedia (韩国发展经验知识库)",
       "url": "https://kdevelopedia.kdischool.ac.kr/",
       "description": "韩国发展经验综合知识库,收录70余年韩国发展经验相关文献及ODA活动记录,包含超过35000篇全文及多媒体内容"
     },
@@ -63,75 +63,75 @@
   ],
   "key_people": [
     {
-      "name": "Kim, Joon-Kyung",
+      "name": "金俊经 (Kim Joon-Kyung)",
       "name_zh": "金俊经",
-      "title": "Dean (第10任研究生院院长)",
+      "title": "院长（第10任）",
       "role": "院长, 货币金融学教授",
-      "person_id": null,
+      "person_id": "KR-PERSON-000485",
       "description": "现任KDI School第10任院长(2024年11月就任,任期至2027年11月)。曾任KDI院长(2013-2017)、总统室经济首席室财政经济第二秘书官、总统政策企划委员会委员。加州大学圣地亚哥分校经济学博士,首尔大学计算机科学与统计学学士。曾在弗吉尼亚理工大学、哥伦比亚大学、夏威夷大学马诺阿分校等任教。"
     },
     {
-      "name": "Kim, Se-Jik",
+      "name": "金世直 (Kim Se-Jik)",
       "name_zh": "金世直",
-      "title": "President of KDI (ex-officio Chancellor of KDI School)",
+      "title": "韩国开发研究院院长（兼任KDI School校长）",
       "role": "KDI院长(兼任KDI School校长)",
-      "person_id": null,
+      "person_id": "KR-PERSON-000486",
       "description": "2026年2月就任第18任韩国开发研究院(KDI)院长,任期3年。首尔大学经济学学士及硕士、芝加哥大学经济学博士(导师为1995年诺贝尔经济学奖得主Robert Lucas)。曾任IMF高级经济学家,后任首尔大学经济学部教授逾20年。宏观经济学专家,早年预警韩国长期增长放缓。"
     }
   ],
   "departments": [
     {
       "dept_id": "KR-ACAD-012-DEPT-001",
-      "name": "Master of Public Policy (MPP)",
+      "name": "公共政策硕士项目 (MPP)",
       "head": null,
       "description": "公共政策硕士项目,设有金融与宏观经济政策、贸易与产业政策、公共财政与社会政策、区域发展与环保政策等方向",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-002",
-      "name": "Master of Development Policy (MDP)",
+      "name": "发展政策硕士项目 (MDP)",
       "head": null,
       "description": "发展政策硕士项目,2017年获NASPAA认证,聚焦可持续发展、国际发展合作,培养ODA领域专业人才",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-003",
-      "name": "Master of Public Management (MPM)",
+      "name": "公共管理硕士项目 (MPM)",
       "head": null,
       "description": "公共管理硕士项目,设有公共行政与领导力、战略管理、全球治理与政治经济等方向",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-004",
-      "name": "Master of Data Science for Public Policy and Management (MDS)",
+      "name": "公共政策与管理数据科学硕士项目 (MDS)",
       "head": null,
       "description": "面向公共政策与管理领域的数据科学硕士项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-005",
-      "name": "Master in Intellectual Property and Development Policy (MIPD)",
+      "name": "知识产权与发展政策硕士项目 (MIPD)",
       "head": null,
       "description": "知识产权与发展政策硕士项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-006",
-      "name": "Ph.D. Program",
+      "name": "公共政策博士项目 (Ph.D.)",
       "head": null,
       "description": "公共政策博士项目,设经济政策和发展政策两个专业方向,要求一年驻校学习",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-007",
-      "name": "Capacity Building Center (CBC)",
+      "name": "能力建设中心 (CBC)",
       "head": null,
       "description": "面向全球政府官员提供培训项目,包括全球领导力项目、GDLN韩国中心、国际知识合作项目等",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-ACAD-012-DEPT-008",
-      "name": "Research and Learning Resource Center (RLRC)",
+      "name": "研究与学习资源中心 (RLRC)",
       "head": null,
       "description": "运营K-Developedia知识库及e-Learning平台,致力于分享韩国发展经验",
       "parent_dept_id": null
@@ -182,21 +182,21 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-003",
-      "org_name": "Ministry of Economy and Finance",
+      "org_name": "经济财政部 (Ministry of Economy and Finance)",
       "org_type": "GOV",
       "org_description": "韩国企划财政部,KDI及其下属机构的主要预算来源和监管机构",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-GOV-005",
-      "org_name": "Ministry of Education",
+      "org_name": "教育部 (Ministry of Education)",
       "org_type": "GOV",
       "org_description": "韩国教育部,负责KDI School的教育认证和学术监管",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-NGO-002",
-      "org_name": "Korea International Cooperation Agency",
+      "org_name": "韩国国际协力团 (Korea International Cooperation Agency)",
       "org_type": "NGO",
       "org_description": "韩国国际协力团,自1999年起指定KDI School为合作伙伴机构,共同开展国际发展合作培训项目",
       "relationship_type": "partner"

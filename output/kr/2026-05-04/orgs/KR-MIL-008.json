@@ -4,12 +4,16 @@
     "name_original": "국방정보본부",
     "name_zh": "国防情报本部",
     "name_en": "Defense Intelligence Agency (DIA)",
-    "aliases": ["국방정보본부", "DIA", "국정본"],
+    "aliases": [
+      "국방정보본부",
+      "DIA",
+      "국정본"
+    ],
     "org_type": "MIL",
-    "org_subtype": "military_intelligence",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": "1981",
+    "founded_date": "1981-01-01",
     "website": null
   },
   "social_accounts": [],
@@ -18,26 +22,28 @@
     {
       "person_id": null,
       "name": null,
-      "title": "国防情报本部长 (Director of the Defense Intelligence Agency)",
+      "title": "国防情报本部长",
       "title_description": "国防情报本部最高负责人，通常由陆军或空军中将担任",
       "description": "现任本部长信息保密。负责统辖全军情报搜集、分析及反情报工作"
     },
     {
       "person_id": null,
       "name": null,
-      "title": "情报司令部司令官 (Commander of Intelligence Command/KDIC)",
+      "title": "情报司令部司令官",
       "title_description": "国防情报本部下属情报司令部最高指挥官，少将军衔",
       "description": "负责海外及对北韩人力情报搜集工作"
     }
   ],
   "departments": [
     {
-      "name": "情报司令部 (Intelligence Command/KDIC)",
-      "description": "负责海外及对北军事情报搜集，特别是人力情报（HUMINT）领域"
+      "name": "情报司令部",
+      "description": "负责海外及对北军事情报搜集，特别是人力情报（HUMINT）领域",
+      "dept_id": "KR-MIL-008-DEPT-001"
     },
     {
-      "name": "777司令部 (Defense Security Agency)",
-      "description": "负责信号情报（SIGINT）的搜集与分析"
+      "name": "777司令部",
+      "description": "负责信号情报（SIGINT）的搜集与分析",
+      "dept_id": "KR-MIL-008-DEPT-002"
     }
   ],
   "recent_events": [
@@ -66,28 +72,28 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-009",
-      "org_name": "Ministry of National Defense",
+      "org_name": "国防部",
       "org_type": "GOV",
       "org_description": "韩国国防部，国防情报本部的直属上级",
-      "relationship_type": "reporting_to"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-MIL-011",
-      "org_name": "Korea Defense Intelligence Command",
+      "org_name": "军情报司令部",
       "org_type": "MIL",
       "org_description": "韩国军情报司令部，国防情报本部下属核心单位",
-      "relationship_type": "subordinate_unit"
+      "relationship_type": "subsidiary"
     },
     {
       "org_id": "KR-MIL-009",
-      "org_name": "Defense Counterintelligence Command",
+      "org_name": "国军防谍司令部",
       "org_type": "MIL",
       "org_description": "国军防谍司令部，负责军事反情报",
-      "relationship_type": "sister_agency"
+      "relationship_type": "sibling"
     }
   ],
   "core_business": "国防情报本部是韩国国防部直属的军事情报与作战支援机构，负责统筹全军军事情报的搜集、分析与分发，管理情报搜集与反情报体系，构建军事情报网络。其职能涵盖隐秘与秘密行动、应对混合威胁、反恐、要人保护、外国军事威胁评估、信息战、军事网络安全与网络战等。该机构参照美国国防情报局（DIA）设立，下辖情报司令部（人力情报）和777司令部（信号情报）。",
-  "industries": ["军事情报", "国防安全", "情报分析"],
+  "industries": [],
   "apec_stance": "国防情报本部作为军事情报机构，不直接参与APEC事务。",
   "profile": "韩国国防情报本部（DIA）成立于1981年，参照美国国防情报局设立，是韩国国防部直属的军事情报统筹机构。该机构负责管理全军情报搜集与反情报工作，下辖情报司令部（负责海外/对北人力情报搜集）和777司令部（负责信号情报）。驻外武官均隶属于国防情报本部管理。机构内部高度保密，相关信息大多为机密事项。本部长通常由陆军或空军中将担任。",
   "collection_meta": {
