@@ -27,6 +27,10 @@ import json
 import os
 import glob
 
+# Add scripts dir to path for shared imports
+sys.path.insert(0, os.path.dirname(__file__))
+from atomic_write import decompose_name
+
 
 def extract_names_from_org(profile):
     """从组织画像提取所有名称变体。"""
@@ -43,13 +47,23 @@ def extract_names_from_org(profile):
 
 
 def extract_names_from_person(profile):
-    """从人物画像提取所有名称变体。"""
+    """从人物画像提取所有名称变体（含 top-level 字段 + basic_info）。"""
     names = []
+    # Top-level fields (person profiles store names here)
+    for field in ["name", "name_en", "name_zh", "name_original"]:
+        val = profile.get(field)
+        if val:
+            names.append(val)
+    # basic_info fields (fallback for org-style profiles)
     basic = profile.get("basic_info", {})
     for field in ["name_en", "name_zh", "name_original"]:
         val = basic.get(field)
         if val:
             names.append(val)
+    # aliases
+    for alias in profile.get("aliases", []):
+        if alias:
+            names.append(alias)
     return names
 
 
@@ -122,7 +136,17 @@ def build_index(output_dir):
                 if name and name not in index:
                     index[name] = person_id
 
-    # 4. 写入
+    # 4. Decomposition pass: break composite names into components
+    decomposed_added = 0
+    keys_snapshot = list(index.keys())
+    for key_name in keys_snapshot:
+        target_id = index[key_name]
+        for component in decompose_name(key_name):
+            if component not in index:
+                index[component] = target_id
+                decomposed_added += 1
+
+    # 5. 写入
     out_path = os.path.join(output_dir, "_name_index.json")
 
     # 原子写入
@@ -144,7 +168,7 @@ def build_index(output_dir):
                     or "-NGO-" in v or "-ACAD-" in v or "-MEDIA-" in v or "-FIN-" in v
                     or "-INTL-" in v or "-PARTY-" in v or "-MIL-" in v)
     person_count = sum(1 for v in index.values() if "-PERSON-" in v)
-    print(f"  Name index generated: {len(index)} entries ({org_count} org refs, {person_count} person refs)")
+    print(f"  Name index generated: {len(index)} entries ({org_count} org refs, {person_count} person refs, +{decomposed_added} decomposed)")
     print(f"  Output: {out_path}")
     return index
 

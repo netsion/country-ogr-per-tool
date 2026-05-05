@@ -23,12 +23,34 @@ import os
 import glob
 import tempfile
 
+# Add scripts dir to path for shared imports
+sys.path.insert(0, os.path.dirname(__file__))
+from atomic_write import decompose_name
+
 # org_type 映射：用于从组织名称推断 ID 前缀
 ORG_TYPE_MAP = {
     "GOV": "GOV", "SOE": "SOE", "CORP": "CORP", "NGO": "NGO",
     "ACAD": "ACAD", "MEDIA": "MEDIA", "FIN": "FIN", "INTL": "INTL",
     "PARTY": "PARTY", "MIL": "MIL",
 }
+
+# Stats counters for decomposed matches
+_decompose_hits = {"exact": 0, "decomposed": 0}
+
+
+def lookup_name(name, index):
+    """Look up a name in the index, trying exact match first then decomposed components.
+
+    Returns (id_or_None, method_str).
+    """
+    if name in index:
+        _decompose_hits["exact"] += 1
+        return index[name], "exact"
+    for component in decompose_name(name):
+        if component in index:
+            _decompose_hits["decomposed"] += 1
+            return index[component], "decomposed"
+    return None, None
 
 
 def load_json_safe(path):
@@ -128,8 +150,9 @@ def resolve_orgs(output_dir, index, registry, iso, dry_run=False):
             name = ent.get("org_name", "").strip()
             if not name:
                 continue
-            if name in index:
-                ent["org_id"] = index[name]
+            found_id, _ = lookup_name(name, index)
+            if found_id:
+                ent["org_id"] = found_id
                 filled_org += 1
                 modified = True
             elif not dry_run:
@@ -147,8 +170,9 @@ def resolve_orgs(output_dir, index, registry, iso, dry_run=False):
                 name = name.strip()
             if not name:
                 continue
-            if name in index:
-                kp["person_id"] = index[name]
+            found_id, _ = lookup_name(name, index)
+            if found_id:
+                kp["person_id"] = found_id
                 filled_person += 1
                 modified = True
             elif not dry_run:
@@ -189,8 +213,9 @@ def resolve_persons(output_dir, index, registry, iso, dry_run=False):
                 org_name = org_name.strip()
             if not org_name:
                 continue
-            if org_name in index:
-                we["org_id"] = index[org_name]
+            found_id, _ = lookup_name(org_name, index)
+            if found_id:
+                we["org_id"] = found_id
                 filled_org += 1
                 modified = True
             elif not dry_run:
@@ -207,8 +232,9 @@ def resolve_persons(output_dir, index, registry, iso, dry_run=False):
                 name = name.strip()
             if not name:
                 continue
-            if name in index:
-                rel["person_id"] = index[name]
+            found_id, _ = lookup_name(name, index)
+            if found_id:
+                rel["person_id"] = found_id
                 filled_person += 1
                 modified = True
             elif not dry_run:
@@ -270,6 +296,7 @@ def main():
 
     print(f"\n=== Results ===")
     print(f"  IDs filled from index: {total_filled}")
+    print(f"    (exact match: {_decompose_hits['exact']}, decomposed: {_decompose_hits['decomposed']})")
     print(f"  New IDs allocated:     {total_new}")
     print(f"  Name index size:       {len(index)}")
     if dry_run:
