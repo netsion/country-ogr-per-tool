@@ -4,9 +4,15 @@
     "name_original": "정의당",
     "name_zh": "正义党",
     "name_en": "Justice Party (Democratic Labor Party since 2025)",
-    "aliases": ["정의당", "JP", "녹색정의당(2024临时)", "민주노동당(2025更名)", "Democratic Labor Party"],
+    "aliases": [
+      "정의당",
+      "JP",
+      "녹색정의당(2024临时)",
+      "민주노동당(2025更名)",
+      "Democratic Labor Party"
+    ],
     "org_type": "PARTY",
-    "org_subtype": "progressive",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "2012-10-21",
@@ -15,7 +21,7 @@
   "social_accounts": [],
   "digital_assets": [
     {
-      "name": "Justice Party Official Website",
+      "name": "Justice Party官方网站",
       "url": "https://justice21.org",
       "description": "正义党（现民主劳动党）官方网站",
       "source": "Wikipedia"
@@ -23,21 +29,21 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000499",
       "name": "权永国 (Kwon Yeong-guk)",
       "title": "党首 (Leader)",
       "title_description": "正义党/民主劳动党现任党首",
       "description": "2024年5月就任党首，作为进步派红绿黄联盟联合候选人在2025年总统选举中参选"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000500",
       "name": "罗顺子 (Na Soon-ja)",
       "title": "秘书长 (Secretary-General)",
       "title_description": "负责党务运营",
       "description": "现任正义党/民主劳动党秘书长"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000501",
       "name": "金容信 (Kim Yong-shin)",
       "title": "政策企划委员长 (Chair of the Policy Planning Committee)",
       "title_description": "负责政策制定与规划",
@@ -54,14 +60,14 @@
       "source": "https://www.blueroofpolitics.com/post/the-justice-party-quietly-changes-its-name/"
     },
     {
-      "date": "2025",
+      "date": "2025-01-01",
       "title": "权永国以红绿黄联盟候选人身份参选总统",
       "description": "权永国作为劳动党、绿党、正义党（民主劳动党）三党联合候选人在2025年总统选举中参选，获得0.98%选票",
       "impact": "确立了韩国左翼政党联合竞选的先例",
       "source": "https://en.wikipedia.org/wiki/Justice_Party_(South_Korea)"
     },
     {
-      "date": "2024-04",
+      "date": "2024-04-01",
       "title": "正义党在国会选举中惨败",
       "description": "正义党在2024年国会选举中以'绿色正义党'之名参选，仅获2.15%比例代表票，失去所有国会议席，成为院外政党",
       "impact": "从国会第三大党跌落为院外政党，引发党内大规模出走",
@@ -78,35 +84,35 @@
   "related_entities": [
     {
       "org_id": "KR-PARTY-009",
-      "org_name": "Labor Party",
+      "org_name": "劳动党 (Labor Party)",
       "org_type": "PARTY",
       "org_description": "劳动党，与正义党组成红绿黄联盟",
-      "relationship_type": "electoral_alliance"
+      "relationship_type": "strategic_alliance"
     },
     {
-      "org_id": null,
-      "org_name": "Green Party Korea",
+      "org_id": "KR-PARTY-010",
+      "org_name": "韩国绿色党 (Green Party Korea)",
       "org_type": "PARTY",
       "org_description": "韩国绿党，红绿黄联盟成员之一",
-      "relationship_type": "electoral_alliance"
+      "relationship_type": "strategic_alliance"
     },
     {
       "org_id": "KR-PARTY-001",
-      "org_name": "Democratic Party of Korea",
+      "org_name": "共同民主党 (Democratic Party of Korea)",
       "org_type": "PARTY",
       "org_description": "共同民主党，韩国最大在野/执政党",
-      "relationship_type": "political_competitor"
+      "relationship_type": "partner"
     },
     {
-      "org_id": null,
-      "org_name": "Progressive Alliance",
+      "org_id": "KR-IGO-002",
+      "org_name": "进步联盟 (Progressive Alliance)",
       "org_type": "IGO",
       "org_description": "进步联盟（观察员身份）",
-      "relationship_type": "international_affiliation"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "正义党（2025年更名为民主劳动党）是韩国中左至左翼进步主义政党，成立于2012年10月21日，由前新进步派、前参与派及统合进步党内温和派从统合进步党分裂后组建。该党主张社会民主主义和自由主义，倡导经济民主化、财阀改革、福利国家建设、劳工权益保护、可再生能源转型、性别平等、LGBTQ+权利保障等。该党是韩国最支持社会进步的主流政党。在2024年国会选举中失去所有议席后，于2025年与劳动党和绿党组成'红绿黄联盟'，并更名为民主劳动党，联合推举权永国参选总统。在国际层面，该党是进步联盟的观察员。",
-  "industries": ["政治活动", "进步主义运动", "社会民主主义"],
+  "industries": [],
   "apec_stance": "正义党关注APEC框架下的经济民主化、劳工权益保护、气候变化应对等议题，反对不受限制的自由贸易。",
   "profile": "正义党（2025年5月更名为民主劳动党）是韩国中左至左翼进步主义政党，2012年10月21日由统合进步党分裂派系组建。该党倡导社会民主主义，主张财阀改革、经济民主化、福利国家建设、劳工权益、可再生能源、性别平等和LGBTQ+权利。著名前领导人包括沈相奵（两任党首、两次总统候选人）和卢会灿（已故国会议员）。2024年国会选举中以'绿色正义党'名义参选惨败，失去所有议席，引发大规模退党潮。此后党内'转换派'（民主社会主义）主导，2025年与劳动党和绿党组成红绿黄联盟，推举权永国参选总统（获0.98%选票），并更名为民主劳动党。现党首为权永国。",
   "collection_meta": {

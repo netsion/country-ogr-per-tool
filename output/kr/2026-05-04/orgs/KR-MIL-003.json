@@ -24,57 +24,63 @@
   "key_people": [
     {
       "name": "남영신 (Nam Young-sin)",
-      "title": "Commander",
+      "title": "司令官",
       "role": "1st Commander",
       "title_zh": "司令官",
       "period": "2018-09-01 ~ 2019-04-15",
       "rank": "Lieutenant General (中将)",
-      "note": "首任司令官, 前陆军特战司令"
+      "note": "首任司令官, 前陆军特战司令",
+      "person_id": "KR-PERSON-000708"
     },
     {
       "name": "전제용 (Jeon Je-yong)",
-      "title": "Acting Commander",
+      "title": "Acting 司令官",
       "role": "Acting Commander",
       "title_zh": "代理司令官",
       "period": "2019-04-15 ~ 2019-09-18",
       "rank": "Major General (少将)",
-      "note": "空军出身"
+      "note": "空军出身",
+      "person_id": "KR-PERSON-000709"
     },
     {
       "name": "공군 중장 (Air Force Lt. Gen.)",
-      "title": "Commander",
+      "title": "司令官",
       "role": "2nd Commander",
       "title_zh": "第2任司令官",
       "period": "2019-09-19 ~ 2021-09-19",
       "rank": "Lieutenant General (中将)",
-      "note": "空军中将"
+      "note": "空军中将",
+      "person_id": "KR-PERSON-000710"
     },
     {
       "name": "박재갑 (Park Jae-gap)",
-      "title": "Acting Commander",
+      "title": "Acting 司令官",
       "role": "Acting Commander",
       "title_zh": "代理司令官",
       "period": "2021-09-19 ~ 2021-10-13",
       "rank": "Rear Admiral (少将)",
-      "note": "海军出身"
+      "note": "海军出身",
+      "person_id": "KR-PERSON-000711"
     },
     {
       "name": "이상철 (Lee Sang-chul)",
-      "title": "Commander",
+      "title": "司令官",
       "role": "3rd Commander",
       "title_zh": "第3任司令官",
       "period": "2021-10-14 ~ 2022-05-25",
       "rank": "Lieutenant General (中将)",
-      "note": "陆军中将, 学军团28期"
+      "note": "陆军中将, 学军团28期",
+      "person_id": "KR-PERSON-000712"
     },
     {
       "name": "황유성 (Hwang Yoo-sung)",
-      "title": "Acting Commander",
+      "title": "Acting 司令官",
       "role": "Acting Commander",
       "title_zh": "代理司令官",
       "period": "2022-05-26 ~ 2022-06-03",
       "rank": "Major General (少将)",
-      "note": "陆军少将, 后升任中将并改任国军防谍司令官"
+      "note": "陆军少将, 后升任中将并改任国军防谍司令官",
+      "person_id": "KR-PERSON-000713"
     }
   ],
   "departments": [
@@ -168,26 +174,26 @@
   ],
   "related_entities": [
     {
-      "org_id": null,
-      "org_name": "Ministry of National Defense",
+      "org_id": "KR-GOV-038",
+      "org_name": "国防部 (Ministry of National Defense)",
       "relationship_type": "regulated_by",
       "description": "韩国国防部(MND) — DSSC为国防部直属功能司令部"
     },
     {
       "org_id": "KR-MIL-001",
-      "org_name": "National Intelligence Service",
+      "org_name": "国家情报院 (National Intelligence Service)",
       "relationship_type": "affiliated",
       "description": "国家情报院(NIS) — 韩国最高情报机关, 与DSSC在反间谍领域有职能交叉"
     },
     {
       "org_id": "KR-MIL-008",
-      "org_name": "Defense Intelligence Agency",
+      "org_name": "国防情报本部 (Defense Intelligence Agency)",
       "relationship_type": "affiliated",
       "description": "国防情报局(DIA) — 军事情报机构, 侧重外军情报而非反间谍"
     },
     {
       "org_id": "KR-MIL-009",
-      "org_name": "Defense Counterintelligence Command",
+      "org_name": "国军反间谍司令部 (Defense Counterintelligence Command)",
       "relationship_type": "successor",
       "description": "国军防谍司令部(DCC) — DSSC于2022年更名为DCC, 是同一组织的后身"
     },

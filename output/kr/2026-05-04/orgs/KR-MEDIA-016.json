@@ -4,29 +4,33 @@
     "name_original": "뉴스1코리아",
     "name_zh": "News1通讯社",
     "name_en": "News1 Korea",
-    "aliases": ["News1", "뉴스1", "News1korea"],
+    "aliases": [
+      "News1",
+      "뉴스1",
+      "News1korea"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "news_agency",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
-    "founded_date": "2011-04",
+    "founded_date": "2011-04-01",
     "website": "https://www.news1.kr"
   },
   "social_accounts": [
     {
-      "platform": "Facebook",
+      "platform": "facebook",
       "account_name": "news1kr",
       "url": "https://www.facebook.com/news1kr/",
       "source": "https://www.facebook.com/news1kr/"
     },
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "뉴스1TV",
       "url": "https://www.youtube.com/@news1korea/streams",
       "source": "https://www.youtube.com/@news1korea/streams"
     },
     {
-      "platform": "X (Twitter)",
+      "platform": "twitter_x",
       "account_name": "@news1_korea",
       "url": "https://twitter.com/news1_korea",
       "source": "https://www.news1.kr"
@@ -34,19 +38,19 @@
   ],
   "digital_assets": [
     {
-      "name": "news1.kr",
+      "name": "news1.kr (韩文官网)",
       "url": "https://www.news1.kr",
       "description": "News1通讯社韩文官方网站，日均发布1000余条实时新闻和1000余张新闻图片",
       "source": "https://www.news1.kr"
     },
     {
-      "name": "en.news1.kr",
+      "name": "en.news1.kr (英文版)",
       "url": "https://en.news1.kr",
       "description": "News1通讯社英文版网站",
       "source": "https://en.news1.kr"
     },
     {
-      "name": "news1global.com",
+      "name": "news1global.com (全球版)",
       "url": "https://news1global.com",
       "description": "News1全球版网站，提供国际新闻服务",
       "source": "https://news1global.com"
@@ -60,17 +64,17 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000700",
       "name": "朴大雄 (Park Dae-woong)",
       "title": "代表理事兼社长",
-      "title_description": "CEO & President",
+      "title_description": "首席执行官兼总裁，全面负责通讯社经营管理和新闻业务战略",
       "description": "News1通讯社代表理事兼社长，领导通讯社的新闻业务与战略发展"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000701",
       "name": "金勇浩 (Kim Yong-ho)",
       "title": "编辑部总局长",
-      "title_description": "Managing Editor",
+      "title_description": "总编辑，负责新闻采编与内容质量管控",
       "description": "News1通讯社编辑部总局长，负责新闻采编与内容质量管控"
     }
   ],
@@ -91,7 +95,7 @@
       "source": "https://en.news1.kr/"
     },
     {
-      "date": "2026",
+      "date": "2026-01-01",
       "title": "与纽约时报合作发行《Turning Point》年度杂志",
       "description": "News1通讯社与纽约时报独家合作，每年联合出版《Turning Point》杂志，同时拥有朝鲜劳动新闻（劳动新闻）的独家发行权",
       "impact": "medium",
@@ -100,29 +104,29 @@
   ],
   "related_entities": [
     {
-      "org_id": null,
-      "org_name": "MoneyToday Media Group (머니투데이미디어그룹)",
+      "org_id": "KR-MEDIA-035",
+      "org_name": "MoneyToday媒体集团 (MoneyToday Media Group)",
       "org_type": "MEDIA",
       "org_description": "MoneyToday媒体集团，News1通讯社的母公司，韩国主要经济媒体集团",
-      "relationship_type": "parent_company"
+      "relationship_type": "parent_org"
     },
     {
-      "org_id": null,
-      "org_name": "Newsis (뉴시스)",
+      "org_id": "KR-MEDIA-036",
+      "org_name": "Newsis通讯社 (Newsis)",
       "org_type": "MEDIA",
       "org_description": "Newsis通讯社，同属MoneyToday集团旗下，与News1并列为韩国三大民营通讯社",
-      "relationship_type": "sister_company"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-MEDIA-004",
-      "org_name": "Yonhap News Agency",
+      "org_name": "韩联社 (Yonhap News Agency)",
       "org_type": "MEDIA",
       "org_description": "韩联社（联合新闻），韩国国家通讯社，News1的主要竞争对手",
-      "relationship_type": "competitor"
+      "relationship_type": "partner"
     }
   ],
   "core_business": "韩国三大民营通讯社之一，2011年4月由MoneyToday媒体集团创办。以'事实面前谦逊'（사실 앞에 겸손한）为标语，向全国报纸、广播、政府部门、主要机构、企业和门户网站供应新闻内容。日均发布1000余条实时新闻和1000余张新闻图片，拥有约550名记者。与路透社、新华通讯社、法国AFP通讯社建立了新闻内容供应合作关系，并与纽约时报独家合作发行《Turning Point》年度杂志。独家拥有朝鲜劳动新闻在韩国的发行权。2011年5月在文化体育观光部完成新闻通讯社事业者注册。",
-  "industries": ["新闻通讯社", "数字媒体", "新闻图片供应"],
+  "industries": [],
   "apec_stance": null,
   "profile": "News1通讯社（News1 Korea）是韩国代表性民营综合新闻通讯社，2011年4月由MoneyToday媒体集团创办，口号为'事实面前谦逊'。作为韩国三大民营通讯社之一（与韩联社、Newsis并列），News1向全国报纸、广播、门户网站供应新闻内容，日均产出1000余条新闻和1000余张新闻图片，拥有约550名记者。先后与中国新华社、法国AFP、路透社等国际通讯社建立内容合作关系。2013年与纽约时报签署独家合同，并联合出版《Turning Point》年度杂志。独家拥有朝鲜劳动新闻在韩国的发行权。通过举办'News1未来论坛'等活动在公共舆论领域发挥影响力。2011年5月在文化体育观光部完成新闻通讯社事业者注册，标志着韩国新闻通讯市场进入竞争体制。",
   "collection_meta": {

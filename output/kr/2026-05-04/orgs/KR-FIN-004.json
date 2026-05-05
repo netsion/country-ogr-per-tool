@@ -39,15 +39,15 @@
   ],
   "digital_assets": [
     {
-      "name": "KB Star Banking (KB스타뱅킹)",
+      "name": "KB Star银行 (KB Star Banking)",
       "url": "https://omoney.kbstar.com/quics?page=C028156",
-      "description": "KB Kookmin Bank 的个人手机银行应用",
+      "description": "KB国民银行的个人手机银行应用",
       "source": "official_website"
     },
     {
-      "name": "KB Corporate Banking (KB기업뱅킹)",
+      "name": "KB企业银行 (KB Corporate Banking)",
       "url": "https://omoney.kbstar.com/quics?page=C030160",
-      "description": "KB Kookmin Bank 的企业手机银行应用",
+      "description": "KB国民银行的企业手机银行应用",
       "source": "official_website"
     },
     {
@@ -57,7 +57,7 @@
       "source": "official_website"
     },
     {
-      "name": "KB Real Estate (KB부동산)",
+      "name": "KB房地产 (KB Real Estate)",
       "url": "https://kbland.kr",
       "description": "KB房地产信息平台",
       "source": "official_website"
@@ -65,9 +65,9 @@
   ],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Lee Hwan-ju (이환주)",
-      "title": "President & CEO",
+      "person_id": "KR-PERSON-000583",
+      "name": "李焕周 (Lee Hwan-ju)",
+      "title": "总裁 & CEO",
       "title_description": "全面负责KB国民银行的经营管理和战略方向",
       "description": "1964年10月出生，毕业于成均馆大学工商管理专业，获赫尔辛基经济学院MBA。1991年加入韩国住宅银行，历任KB国民银行外汇事业部长、零售客户组长、管理企划集团执行副总裁、KB金融集团CFO、KB生命保险CEO。2025年1月就任KB国民银行CEO，成为首位来自子公司的银行行长。2026年提出'扩张与转型'战略，致力于AI数字化转型。"
     }
@@ -112,8 +112,8 @@
   "recent_events": [
     {
       "date": "2025-01-02",
-      "title": "Lee Hwan-ju就任KB国民银行CEO",
-      "description": "Lee Hwan-ju正式就任KB国民银行总裁兼CEO，强调客户信任是银行经营的核心，成为首位从集团子公司调任的银行行长。",
+      "title": "李焕周就任KB国民银行CEO",
+      "description": "李焕周正式就任KB国民银行总裁兼CEO，强调客户信任是银行经营的核心，成为首位从集团子公司调任的银行行长。",
       "impact": "标志KB国民银行进入新领导时代，开启数字化转型和扩张战略",
       "source": "https://www.koreatimes.co.kr/business/banking-finance/20250102/kb-hana-inaugurate-new-ceos"
     },
@@ -140,8 +140,8 @@
     },
     {
       "date": "2025-10-20",
-      "title": "CEO Lee Hwan-ju首次访问柬埔寨",
-      "description": "CEO Lee Hwan-ju首次访问柬埔寨，视察KB PRASAC银行运营情况，与柬埔寨国家银行行长会晤讨论金融稳定、数字创新和跨境支付系统合作。",
+      "title": "CEO李焕周首次访问柬埔寨",
+      "description": "CEO李焕周首次访问柬埔寨，视察KB PRASAC银行运营情况，与柬埔寨国家银行行长会晤讨论金融稳定、数字创新和跨境支付系统合作。",
       "impact": "强化东南亚海外业务布局和监管关系",
       "source": "https://www.kbprasacbank.com.kh/en/media/news/kb-kookmin-bank-ceo-makes-a-key-visit-to-cambodia/"
     },
@@ -155,7 +155,7 @@
     {
       "date": "2026-01-02",
       "title": "CEO发布2026年新年致辞，提出'扩张与转型'战略",
-      "description": "CEO Lee Hwan-ju在2026年新年仪式上提出两大关键词：'扩张'（巩固扩大金融版图）和'转型'（大胆革新思维方式），强调以客户信任和社会价值创造为核心。",
+      "description": "CEO李焕周在2026年新年仪式上提出两大关键词：'扩张'（巩固扩大金融版图）和'转型'（大胆革新思维方式），强调以客户信任和社会价值创造为核心。",
       "impact": "确立2026年银行战略方向，聚焦数字化转型和市场扩张",
       "source": "https://www.digitaltoday.co.kr/en/view/349/kb-kookmin-bank-ceo-lee-hwan-ju-says-bank-must-move-toward-a-better-future-through-expansion-and-transformation"
     },
@@ -184,84 +184,84 @@
   "related_entities": [
     {
       "org_id": "KR-FIN-001",
-      "org_name": "KB Financial Group",
+      "org_name": "KB金融集团 (KB Financial Group)",
       "org_type": "FIN",
       "org_description": "KB金融集团，韩国领先的金融控股公司，KB国民银行的母公司",
       "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-CORP-030",
-      "org_name": "KB PRASAC Bank",
+      "org_name": "KB PRASAC银行 (KB PRASAC Bank)",
       "org_type": "FIN",
       "org_description": "KB国民银行全资持有的柬埔寨商业银行，前身为Khmer Union Bank",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "KR-CORP-030",
-      "org_name": "KB Myanmar Bank",
+      "org_name": "KB缅甸银行 (KB Myanmar Bank)",
       "org_type": "FIN",
       "org_description": "KB国民银行在缅甸设立的微型金融机构",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "KB国民카드(KB Kookmin Card)",
+      "org_id": "KR-FIN-016",
+      "org_name": "KB国民卡 (KB Kookmin Card)",
       "org_type": "FIN",
       "org_description": "KB国民信用卡公司，2011年从KB国民银行信用卡部门拆分成立",
       "relationship_type": "sibling"
     },
     {
-      "org_id": null,
-      "org_name": "KB证券(KB Securities)",
+      "org_id": "KR-FIN-017",
+      "org_name": "KB证券 (KB Securities)",
       "org_type": "FIN",
       "org_description": "KB金融集团旗下证券公司",
       "relationship_type": "sibling"
     },
     {
-      "org_id": null,
-      "org_name": "KB生命保险(KB Life Insurance)",
+      "org_id": "KR-FIN-018",
+      "org_name": "KB生命保险 (KB Life Insurance)",
       "org_type": "FIN",
       "org_description": "KB金融集团旗下寿险公司，由原KB生命保险与保诚生命保险合并而成",
       "relationship_type": "sibling"
     },
     {
       "org_id": "KR-ACAD-012",
-      "org_name": "KB Asset Management",
+      "org_name": "KB资产管理 (KB Asset Management)",
       "org_type": "FIN",
       "org_description": "KB金融集团旗下资产管理公司",
       "relationship_type": "sibling"
     },
     {
-      "org_id": null,
-      "org_name": "Bithumb",
+      "org_id": "KR-FIN-019",
+      "org_name": "Bithumb (加密货币交易所)",
       "org_type": "FIN",
       "org_description": "韩国第二大加密货币交易所，KB国民银行为其提供韩元实名账户服务",
       "relationship_type": "strategic_alliance"
     },
     {
       "org_id": "KR-GOV-027",
-      "org_name": "Financial Services Commission",
+      "org_name": "金融委员会 (Financial Services Commission)",
       "org_type": "GOV",
       "org_description": "韩国金融服务委员会，银行业主要监管机构",
       "relationship_type": "regulated_by"
     },
     {
       "org_id": "KR-FIN-014",
-      "org_name": "Bank of Korea",
+      "org_name": "韩国银行 (Bank of Korea)",
       "org_type": "FIN",
       "org_description": "韩国央行，负责货币政策和金融体系稳定",
       "relationship_type": "regulator"
     },
     {
       "org_id": "KR-FIN-002",
-      "org_name": "Shinhan Financial Group",
+      "org_name": "新韩金融集团 (Shinhan Financial Group)",
       "org_type": "FIN",
       "org_description": "新韩金融集团，韩国主要金融控股公司之一",
       "relationship_type": "sibling"
     },
     {
       "org_id": "KR-FIN-002",
-      "org_name": "Hana Financial Group",
+      "org_name": "韩亚金融集团 (Hana Financial Group)",
       "org_type": "FIN",
       "org_description": "韩亚金融集团，韩国主要金融控股公司之一",
       "relationship_type": "sibling"

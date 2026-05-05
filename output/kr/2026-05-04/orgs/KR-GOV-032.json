@@ -4,9 +4,15 @@
     "name_original": "경찰청 / Korean National Police Agency",
     "name_zh": "韩国警察厅",
     "name_en": "Korean National Police Agency",
-    "aliases": ["KNPA", "KNP", "경찰청", "韩国国家警察厅", "Korean National Police"],
+    "aliases": [
+      "KNPA",
+      "KNP",
+      "경찰청",
+      "韩国国家警察厅",
+      "Korean National Police"
+    ],
     "org_type": "GOV",
-    "org_subtype": "central_administrative_agency",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1991-08-01",
@@ -14,13 +20,13 @@
   },
   "social_accounts": [
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "경찰청 알리미",
       "url": "https://www.youtube.com/channel/UC7-PyZbi_QIthI3WFtopzLw",
       "source": "https://www.police.go.kr"
     },
     {
-      "platform": "Facebook",
+      "platform": "facebook",
       "account_name": "대한민국 경찰청",
       "url": "https://www.facebook.com/koreanpolice",
       "source": "https://www.police.go.kr"
@@ -48,14 +54,14 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000663",
       "name": "俞在成 (Yoo Jae-sung)",
       "title": "警察厅长（代理）",
       "title_description": "韩国警察厅代理厅长，负责全国警察事务的全面管理",
       "description": "俞在成现任韩国警察厅代理厅长。前任厅长赵志浩（赵志镐）因涉及2024年12月3日戒严事件被弹劾。俞在成代理厅长主持全国警察领导层视频会议，维持警察厅正常运作。"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000664",
       "name": "赵志镐 (Cho Ji-ho)",
       "title": "警察厅长（停职/被弹劾）",
       "title_description": "前任警察厅长，因涉及戒严事件被弹劾",
@@ -64,57 +70,57 @@
   ],
   "departments": [
     {
-      "name": "治安局（Public Safety Bureau）",
-      "dept_id": null,
+      "name": "治安局",
+      "dept_id": "KR-GOV-032-DEPT-001",
       "head": null,
       "description": "负责公共安全政策和社区治安管理",
       "parent_dept_id": null
     },
     {
-      "name": "刑事局（Criminal Investigation Bureau）",
-      "dept_id": null,
+      "name": "刑事局",
+      "dept_id": "KR-GOV-032-DEPT-002",
       "head": null,
       "description": "负责刑事侦查、犯罪调查及重大案件侦破",
       "parent_dept_id": null
     },
     {
-      "name": "网络局（Cyber Bureau）",
-      "dept_id": null,
+      "name": "网络局",
+      "dept_id": "KR-GOV-032-DEPT-003",
       "head": null,
       "description": "负责网络安全执法、网络犯罪调查及反网络恐怖主义",
       "parent_dept_id": null
     },
     {
-      "name": "交通局（Traffic Bureau）",
-      "dept_id": null,
+      "name": "交通局",
+      "dept_id": "KR-GOV-032-DEPT-004",
       "head": null,
       "description": "负责交通管理、交通安全政策制定及执法",
       "parent_dept_id": null
     },
     {
-      "name": "保安局（Public Security Bureau）",
-      "dept_id": null,
+      "name": "保安局",
+      "dept_id": "KR-GOV-032-DEPT-005",
       "head": null,
       "description": "负责公共秩序维护、集会管理等保安事务",
       "parent_dept_id": null
     },
     {
-      "name": "情报局（Intelligence Bureau）",
-      "dept_id": null,
+      "name": "情报局",
+      "dept_id": "KR-GOV-032-DEPT-006",
       "head": null,
       "description": "负责治安情报收集与分析",
       "parent_dept_id": null
     },
     {
-      "name": "国家安全局（National Security Bureau）",
-      "dept_id": null,
+      "name": "国家安全局",
+      "dept_id": "KR-GOV-032-DEPT-007",
       "head": null,
       "description": "负责国家安全相关警务工作，包括反间谍和反恐",
       "parent_dept_id": null
     },
     {
-      "name": "外事局（Foreign Affairs Bureau）",
-      "dept_id": null,
+      "name": "外事局",
+      "dept_id": "KR-GOV-032-DEPT-008",
       "head": null,
       "description": "负责涉外警务合作与国际执法交流",
       "parent_dept_id": null
@@ -170,32 +176,32 @@
       "org_name": "行政安全部（Ministry of the Interior and Safety）",
       "org_type": "GOV",
       "org_description": "韩国警察厅的上级主管部门",
-      "relationship_type": "parent_agency"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-GOV-033",
       "org_name": "韩国海洋警察厅（Korea Coast Guard）",
       "org_type": "GOV",
       "org_description": "韩国海岸警卫队，原隶属于警察厅，现为独立机构",
-      "relationship_type": "related_agency"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-GOV-008",
       "org_name": "法务部（Ministry of Justice）",
       "org_type": "GOV",
       "org_description": "负责检察和矫正事务，与警察厅在刑事案件调查中密切合作",
-      "relationship_type": "coordinating_agency"
+      "relationship_type": "affiliated"
     },
     {
-      "org_id": null,
+      "org_id": "KR-INTL-003",
       "org_name": "国际刑警组织（INTERPOL）",
       "org_type": "INTL",
       "org_description": "国际警察合作组织，韩国警察厅积极推动2026年INTERPOL大会在首尔举办",
-      "relationship_type": "international_cooperation"
+      "relationship_type": "partner"
     }
   ],
   "core_business": "韩国警察厅（KNPA）是韩国的国家警察机构，隶属于行政安全部，总部位于首尔特别市西大门区。警察厅负责韩国全境的公共安全维护、刑事侦查、交通管理、网络安全、情报收集、国家安全警务以及涉外执法合作等事务。警察厅下辖18个地方警察厅，包括首尔、釜山、大邱、仁川等大都市警察厅和各道警察厅，以及255个警察署、518个分局和1,433个派出所。拥有约12.6万名警察人员，2023年预算约12.37万亿韩元。警察厅还设有韩国警察大学、中央警察学院、警察侦查学院等附属教育机构，以及国家警察医院。",
-  "industries": ["执法", "公共安全", "刑事侦查", "交通管理", "网络安全"],
+  "industries": [],
   "apec_stance": "韩国警察厅在APEC框架下参与区域安全合作，特别是在反恐、网络安全和跨国犯罪打击等领域。2025年成功保障韩国APEC峰会期间的安全保卫工作。警察厅的K-Police Wave Center推动与APEC成员经济体的警务交流合作。",
   "profile": "韩国警察厅的历史可追溯至1919年大韩民国临时政府的警务局。1945年光复后在美国军政厅下设立警务部，1948年成立国家安全局，1974年升格为治安本部。1991年8月1日，根据政府组织法修订，治安本部正式改组为警察厅。现行警察厅下设厅长（治安总监）和副厅长（治安正监），辖1个办公室、9个局和32个课。警察厅还设有特攻队（SOU）执行反恐等特殊任务，以及旅游警察和机动队等专门力量。2024年12月戒严事件后，厅长赵志镐被弹劾停职，由俞在成代理厅长职务。警察厅正在推进自治警察制度改革和侦查权调整改革，旨在重新分配检察官和警察之间的刑事案件调查权限。",
   "collection_meta": {

@@ -40,54 +40,54 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Kim Jong-chool (김종출)",
-      "title": "Representative Director and CEO",
-      "title_description": "Chief executive officer responsible for overall management and strategy",
-      "description": "Former Republic of Korea Air Force officer (Air Force Academy class 31). Served at the Defense Acquisition Program Administration (DAPA) in various roles including UAV business director and defense technology protection chief. Appointed as KAI's 9th CEO on March 18, 2026, ending an eight-month leadership vacuum."
+      "person_id": "KR-PERSON-000570",
+      "name": "金钟出 (Kim Jong-chool)",
+      "title": "代表理事兼首席执行官",
+      "title_description": "首席执行官，全面负责公司经营管理和战略",
+      "description": "前韩国空军军官（空军士官学校第31期）。曾任国防采办项目厅无人机事业团长及国防技术保护局长等职。2026年3月18日就任KAI第九任CEO，结束了长达八个月的领导真空。"
     },
     {
-      "person_id": null,
-      "name": "Kang Goo-young (강구영)",
-      "title": "Former CEO",
-      "title_description": "Former chief executive who led KAI during KF-21 development phase",
-      "description": "Former ROKAF fighter pilot appointed CEO in September 2022 under the Yoon Suk Yeol administration. Resigned on July 1, 2025, three months before his term ended, following the launch of the new Lee Jae Myung administration."
+      "person_id": "KR-PERSON-000571",
+      "name": "姜求英 (Kang Goo-young)",
+      "title": "前首席执行官",
+      "title_description": "前任首席执行官，领导KAI完成KF-21研发阶段",
+      "description": "前韩国空军战斗机飞行员，2022年9月在尹锡悦政府时期被任命为CEO。2025年7月1日在李在明政府上台首日主动辞职，比任期结束提前约三个月。"
     }
   ],
   "departments": [
     {
       "dept_id": "KR-CORP-028-DEPT-001",
-      "name": "Fixed Wing Business Division",
+      "name": "固定翼飞机事业部 (Fixed Wing Business Division)",
       "head": null,
-      "description": "Responsible for design, development and production of fixed-wing aircraft including KT-1, T-50, FA-50, KF-21, and KC-100",
+      "description": "负责KT-1、T-50、FA-50、KF-21、KC-100等固定翼飞机的设计、开发与生产",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-028-DEPT-002",
-      "name": "Rotary Wing Business Division",
+      "name": "旋翼飞机事业部 (Rotary Wing Business Division)",
       "head": null,
-      "description": "Responsible for helicopter programs including KUH-1 Surion, LAH-1 Miron armed helicopter, and LCH civil helicopter",
+      "description": "负责KUH-1 Surion通用直升机、LAH-1 Miron武装直升机、LCH民用直升机等直升机项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-028-DEPT-003",
-      "name": "Space Systems Division",
+      "name": "太空系统事业部 (Space Systems Division)",
       "head": null,
-      "description": "Responsible for satellite programs (KOMPSAT, GEO-KOMPSAT, CAS500) and Korea Space Launch Vehicle (Nuri)",
+      "description": "负责卫星项目（KOMPSAT、GEO-KOMPSAT、CAS500）及韩国运载火箭（努里号）的总装集成",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-028-DEPT-004",
-      "name": "After Market Division",
+      "name": "售后服务事业部 (After Market Division)",
       "head": null,
-      "description": "Provides MRO (Maintenance, Repair, Overhaul) services for both commercial and military aircraft, as well as upgrade and modification programs",
+      "description": "为民用和军用飞机提供MRO（维护、修理、大修）服务以及升级改装项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-028-DEPT-005",
-      "name": "Aerostructures Division",
+      "name": "航空结构件事业部 (Aerostructures Division)",
       "head": null,
-      "description": "Manufactures aircraft structural components for Boeing, Airbus, IAI (Gulfstream G280 wings) and other global aerospace companies",
+      "description": "为波音、空客、IAI（湾流G280机翼）等全球航空企业制造飞机结构件",
       "parent_dept_id": null
     }
   ],
@@ -138,70 +138,70 @@
   "related_entities": [
     {
       "org_id": "KR-CORP-017",
-      "org_name": "Hanwha Aerospace",
+      "org_name": "韩华航空航天 (Hanwha Aerospace)",
       "org_type": "CORP",
       "org_description": "持有KAI约4.99%股份的国防军工企业，双方在KF-21项目及机载武器领域开展合作",
       "relationship_type": "minority_shareholder"
     },
     {
       "org_id": "KR-FIN-007",
-      "org_name": "Export-Import Bank of Korea",
+      "org_name": "韩国进出口银行 (Export-Import Bank of Korea)",
       "org_type": "SOE",
       "org_description": "韩国进出口银行，持有KAI 26.41%股份，为最大股东，实质控制KAI的经营权",
       "relationship_type": "controlling_shareholder"
     },
     {
       "org_id": "KR-MIL-004",
-      "org_name": "Agency for Defense Development",
+      "org_name": "国防科学研究所 (Agency for Defense Development)",
       "org_type": "MIL",
       "org_description": "韩国国防科学研究所，与KAI在KT-1、T-50、KF-21等多个武器系统研发项目中紧密合作",
       "relationship_type": "partner"
     },
     {
-      "org_id": null,
-      "org_name": "Ministry of National Defense",
+      "org_id": "KR-GOV-038",
+      "org_name": "国防部 (Ministry of National Defense)",
       "org_type": "GOV",
       "org_description": "韩国国防部，是KAI军用航空产品的核心客户和政策制定者",
       "relationship_type": "customer"
     },
     {
-      "org_id": null,
-      "org_name": "Lockheed Martin",
+      "org_id": "KR-CORP-073",
+      "org_name": "洛克希德马丁 (Lockheed Martin)",
       "org_type": "CORP",
       "org_description": "美国洛克希德马丁公司，与KAI在T-50/FA-50项目中有长期合作关系",
       "relationship_type": "strategic_alliance"
     },
     {
-      "org_id": null,
-      "org_name": "National Pension Service of Korea",
+      "org_id": "KR-SOE-021",
+      "org_name": "韩国国民年金公团 (National Pension Service of Korea)",
       "org_type": "SOE",
       "org_description": "韩国国民年金公团，持有KAI 8.31%股份，为第二大股东",
       "relationship_type": "minority_shareholder"
     },
     {
-      "org_id": null,
-      "org_name": "KAEMS (Korea Aviation Engineering & Maintenance Service)",
+      "org_id": "KR-CORP-074",
+      "org_name": "KAEMS航空工程维修服务 (Korea Aviation Engineering & Maintenance Service)",
       "org_type": "CORP",
       "org_description": "KAI子公司，从事航空工程和维修服务",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "KR-CORP-017",
-      "org_name": "S&K Aerospace",
+      "org_name": "S&K航空航天 (S&K Aerospace)",
       "org_type": "CORP",
       "org_description": "KAI子公司",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "Aviosys Technologies",
+      "org_id": "KR-CORP-075",
+      "org_name": "Aviosys科技 (Aviosys Technologies)",
       "org_type": "CORP",
       "org_description": "KAI子公司",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "Fidelity Management & Research",
+      "org_id": "KR-CORP-076",
+      "org_name": "富达管理与研究公司 (Fidelity Management & Research)",
       "org_type": "CORP",
       "org_description": "美国富达管理研究公司，持有KAI 9.38%股份",
       "relationship_type": "minority_shareholder"

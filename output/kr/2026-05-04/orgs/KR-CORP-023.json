@@ -42,66 +42,66 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Park Ji-won (박지원)",
-      "title": "Chairman and CEO",
-      "title_description": "CEO, overall corporate strategy and management",
+      "person_id": "KR-PERSON-000558",
+      "name": "朴智源 (Park Ji-won)",
+      "title": "会长兼首席执行官",
+      "title_description": "首席执行官，全面负责公司战略与经营管理",
       "description": "2008年就任社长，后升任代表理事会长。领导公司从韩国重工业向斗山重工再向斗山能源的转型。2026年4月随韩国总统李在明访问越南，推动越南核电项目合作。同时担任斗山集团副会长。"
     },
     {
-      "person_id": null,
-      "name": "Jung Yeon-in (정연인)",
-      "title": "Vice Chairman and COO",
-      "title_description": "Chief Operating Officer, overseeing daily operations",
+      "person_id": "KR-PERSON-000559",
+      "name": "郑连仁 (Jung Yeon-in)",
+      "title": "副会长兼首席运营官",
+      "title_description": "首席运营官，负责日常运营管理",
       "description": "1987年入职的资深'斗山人'，工程师出身。2023年升任代表理事副会长，作为COO与会长朴智源、社长朴相贤组成三人代表理事体制。主导公司业务结构重组和新兴增长动力构建。"
     },
     {
-      "person_id": null,
-      "name": "Park Sang-hyun (박상현)",
-      "title": "President and CFO",
-      "title_description": "Chief Financial Officer, managing financial strategy",
+      "person_id": "KR-PERSON-000560",
+      "name": "朴相贤 (Park Sang-hyun)",
+      "title": "总裁兼首席财务官",
+      "title_description": "首席财务官，负责财务战略管理",
       "description": "2026年2月当选韩国机械工业振兴协会第24任会长。负责公司财务管理，与会长朴智源、副会长郑连仁组成三人代表理事体制。"
     }
   ],
   "departments": [
     {
       "dept_id": "KR-CORP-023-DEPT-001",
-      "name": "Nuclear Power Business Group",
+      "name": "核能事业部 (Nuclear Power Business Group)",
       "head": null,
       "description": "负责核电站核心设备（反应堆压力容器、蒸汽发生器、汽轮机、发电机）的设计、制造和供应，是韩国唯一的核电站核心设备专业制造商",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-023-DEPT-002",
-      "name": "Power Services Business Group",
+      "name": "电力服务事业部 (Power Services Business Group)",
       "head": null,
       "description": "负责燃气轮机及蒸汽轮机的售后服务和全球电力服务业务",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-023-DEPT-003",
-      "name": "Gas Turbine Business",
+      "name": "燃气轮机事业部 (Gas Turbine Business)",
       "head": null,
       "description": "负责大型燃气轮机的研发、制造和销售，韩国首个自主开发大型燃气轮机的单位",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-023-DEPT-004",
-      "name": "Renewable Energy Business",
+      "name": "可再生能源事业部 (Renewable Energy Business)",
       "head": null,
       "description": "负责海上风力发电（3MW/5.5MW/8MW级）、太阳能等可再生能源业务",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-023-DEPT-005",
-      "name": "Water/Desalination Business",
+      "name": "水务/海水淡化事业部 (Water/Desalination Business)",
       "head": null,
       "description": "负责海水淡化（MSF/RO/MED三大技术全覆盖）和水处理设备的EPC建设和设备供应",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-023-DEPT-006",
-      "name": "Casting & Forging Business",
+      "name": "铸锻事业部 (Casting & Forging Business)",
       "head": null,
       "description": "负责发电设备用铸锻件、船舶用材、炼钢用材、模具工具钢等基础材料制造，拥有世界最大级17000吨压力机",
       "parent_dept_id": null
@@ -175,7 +175,7 @@
   "related_entities": [
     {
       "org_id": "KR-CORP-014",
-      "org_name": "Doosan Corporation (斗山株式会社)",
+      "org_name": "斗山公司 (Doosan Corporation)",
       "org_type": "CORP",
       "org_description": "斗山集团母公司/控股公司，韩国历史最悠久的企业集团",
       "relationship_type": "parent_org"
@@ -203,42 +203,42 @@
     },
     {
       "org_id": "KR-CORP-014",
-      "org_name": "Doosan IMGB",
+      "org_name": "斗山IMGB (Doosan IMGB)",
       "org_type": "CORP",
       "org_description": "罗马尼亚最大的铸锻企业，2006年被收购为子公司",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "KR-SOE-013",
-      "org_name": "Korea Hydro and Nuclear Power (韩国水力原子力)",
+      "org_name": "韩国水力原子力 (Korea Hydro and Nuclear Power)",
       "org_type": "SOE",
       "org_description": "韩国国有电力公司，核电站运营商，是斗山能源核能设备的最大客户",
       "relationship_type": "customer"
     },
     {
       "org_id": "KR-SOE-001",
-      "org_name": "Korea Electric Power Corporation (韩国电力公社)",
+      "org_name": "韩国电力公社 (Korea Electric Power Corporation)",
       "org_type": "SOE",
       "org_description": "韩国国有电力公司，与斗山能源在核电和火电领域有长期合作关系",
       "relationship_type": "customer"
     },
     {
       "org_id": "KR-PARTY-002",
-      "org_name": "NuScale Power",
+      "org_name": "NuScale Power (NuScale Power)",
       "org_type": "CORP",
       "org_description": "美国SMR开发商，斗山能源持有股份并供应核心设备",
       "relationship_type": "strategic_alliance"
     },
     {
-      "org_id": null,
-      "org_name": "X-energy",
+      "org_id": "KR-CORP-069",
+      "org_name": "X-energy (X-energy)",
       "org_type": "CORP",
       "org_description": "美国高温气冷堆SMR开发商，与斗山能源签订16台SMR核心材料预约合同",
       "relationship_type": "strategic_alliance"
     },
     {
       "org_id": "KR-CORP-001",
-      "org_name": "Westinghouse Electric Company",
+      "org_name": "西屋电气公司 (Westinghouse Electric Company)",
       "org_type": "CORP",
       "org_description": "美国核电技术公司，与斗山能源在AP1000反应堆项目上有合作",
       "relationship_type": "partner"

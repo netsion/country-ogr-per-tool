@@ -1,19 +1,23 @@
 {
   "org_id": "KR-PARTY-007",
   "basic_info": {
-    "name": "社会民主党 (Social Democratic Party)",
+    "name_original": "사회민주당",
     "name_en": "Social Democratic Party",
     "name_zh": "社会民主党",
-    "name_local": "사회민주당",
-    "wikidata_qid": "Q126318506",
-    "country": "KR",
-    "country_name": "韩国",
+    "aliases": [
+      "사민당",
+      "Social Democratic Party of Korea",
+      "SDP",
+      "사회민주당(2024년)",
+      "The Social Democratic Party of Korea",
+      "새로운진보（新进步，前身派系）"
+    ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
+    "country_iso3": "KOR",
+    "hq_country_iso3": "KOR",
     "founded_date": "2024-02-15",
-    "headquarters": "首尔特别市永登浦区国会大路72街22号花园大厦301号 (서울특별시 영등포구 국회대로72길 22, 가든빌딩 301호)",
-    "website": "https://www.samindang.kr",
-    "description": "社会民主党是2024年由正义党脱党派为主成立的韩国进步政党。该党源于正义党内'新进步'派系（참여계），以社会民主主义、社会自由主义为核心意识形态，标榜'创新型福利国家'与'和平2国家体制'。2024年第22届国会选举中，通过比例代表联合政党'共同民主联合'获得1个席位，成为院内政党，目前是国会第7党（1/300席）。口号为'比民主党更像卢武铉，比正义党更像卢会灿'。政治口号为'政治更新、福利更强（정치를 새롭게 복지를 강하게）'。党色为橙色（#F58400）和绿色（#43A213），吉祥物为海豚'든든이'。2025年6月29日制定党规，首创韩国宪政史上比例代表国会议员中期评估制度。"
+    "website": "https://www.samindang.kr"
   },
   "key_people": [
     {
@@ -104,49 +108,49 @@
   "departments": [
     {
       "name": "中央党本部",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-001",
       "head": "韩昌旼(Han Chang-min)",
       "description": "位于首尔永登浦区国会大路72街22号花园大厦301号的党中央机构，统辖党务运营。政党登记号：第251号，登记日期2024年2月15日。2024年党费收入1.5亿韩元，财产总额约3900万韩元。2026年第一季度政党补助金约947万韩元。"
     },
     {
       "name": "首尔特别市党",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-002",
       "head": "郑惠莲(Jeong Hye-yeon)",
       "description": "首尔特别市地区党组织，2023年12月10日创党"
     },
     {
       "name": "仁川广域市党",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-003",
       "head": "金宝京(Kim Bo-kyung)",
       "description": "仁川广域市地区党组织，2026年4月5日创党"
     },
     {
       "name": "京畿道党",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-004",
       "head": "宋致龙(Song Chi-yong)",
       "description": "京畿道地区党组织，2023年12月23日创党"
     },
     {
       "name": "全北特别自治道党",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-005",
       "head": "朴亨圭(Park Hyeong-gyu)",
       "description": "全北特别自治道地区党组织"
     },
     {
       "name": "釜山广域市党",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-006",
       "head": "崔英圭(Choi Yeong-gyu)",
       "description": "釜山广域市地区党组织，2026年4月4日创党"
     },
     {
       "name": "大田广域市党",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-007",
       "head": "金镇浩(Kim Jin-ho)、崔惠仙(Choi Hye-seon)",
       "description": "大田广域市地区党组织，2023年11月18日创党，为首创的5个市道党之一"
     },
     {
       "name": "不平等研究所",
-      "dept_id": null,
+      "dept_id": "KR-PARTY-007-DEPT-008",
       "head": "千浩宣(Cheon Ho-seon)",
       "description": "社会民主党政策研究机构（智库），由千浩宣担任理事长兼研究所长，负责政策研发。"
     }
@@ -341,7 +345,7 @@
       "relationship_type": "strategic_alliance"
     },
     {
-      "org_id": null,
+      "org_id": "KR-party-001",
       "org_name": "共同民主联合(Democratic Alliance of Korea / 더불어민주연합)",
       "org_type": "party",
       "org_description": "2024年大选中共同民主党主导的比例代表卫星政党，社会民主党通过该联盟获得1个席位",
@@ -355,7 +359,7 @@
       "relationship_type": "strategic_alliance"
     },
     {
-      "org_id": null,
+      "org_id": "KR-foundation-001",
       "org_name": "人世间卢武铉财团(No Moo-hyun Foundation / 사람사는세상 노무현재단)",
       "org_type": "foundation",
       "org_description": "卢武铉总统遗产基金会，社会民主党多名核心成员（韩昌旼、千浩宣等）出身于该财团相关组织",
@@ -401,47 +405,22 @@
       "source": "韩国国会图书馆"
     }
   ],
-  "aliases": [
-    "사민당",
-    "Social Democratic Party of Korea",
-    "SDP",
-    "사회민주당(2024년)",
-    "The Social Democratic Party of Korea",
-    "새로운진보（新进步，前身派系）"
-  ],
   "industries": [
     "public_administration"
   ],
   "core_business": "社会民主党的核心政治主张包括：建设'创新型福利国家'，实现创新-增长-福利的良性循环；推行基本所得制度（参考芬兰模型）；推动教育、医疗、住房、就业的国家责任制（包括国公立大学整合及免费教育、个人医疗费100万韩元上限制、市场亲和性土地公开概念制引入）；2040年实现碳中和；制定适用于所有劳动类型的劳动基本法及德国式劳动董事制；引入准联邦制推进地方分权；推动完全联动型比例代表制等政治改革；倡导南北韩'和平2国家体制'，相互承认两个独立国家并推进国家联合。在选举策略上，与共同民主党等进步阵营合作，通过比例代表联合政党获得国会席位。2025年加入改革进步4党政治改革联席会议，共同推进6大政治改革议程。党规首创比例代表国会议员中期评估制度，开创韩国宪政史先例。",
   "apec_stance": "社会民主党作为韩国小型进步院内政党，尚无明确的APEC政策立场。但其外交安全立场偏向和平主义，反对军事介入国际冲突（如2026年反对派兵霍尔木兹海峡、谴责委内瑞拉入侵），强调国际法与和平解决争端。在经济政策上主张开放但注重分配正义，支持绿色转型与创新经济，推动2040年碳中和，倡导数据税和机器人税等面向未来的经济政策，这些立场与APEC关注区域经济一体化和可持续发展有一定交集。",
   "collection_meta": {
+    "collection_date": "2026-04-29",
     "phase": "phase3_enriched",
     "completeness_score": 93,
     "data_sources": [
-      "https://en.wikipedia.org/wiki/Social_Democratic_Party_(South_Korea)",
-      "https://ko.wikipedia.org/wiki/%EC%82%AC%ED%9A%8C%EB%AF%BC%EC%A3%BC%EB%8B%B9_(2024%EB%85%84_%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD)",
-      "https://namu.wiki/w/%EC%82%AC%ED%9A%8C%EB%AF%BC%EC%A3%BC%EB%8B%B9(2024%EB%85%84)",
-      "https://www.wikidata.org/wiki/Q126318506",
-      "https://samindang.kr/",
-      "https://www.nec.go.kr",
-      "https://ampos.nanet.go.kr/activityPartyDetail.do?party_no=0068",
-      "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002967035",
-      "https://www.yna.co.kr/view/AKR20250414097700001",
-      "https://www.iminju.net/news/articleView.html?idxno=104109",
-      "https://worknworld.kctu.org/news/articleView.html?idxno=505090",
-      "https://www.1gan.co.kr/news/articleView.html?idxno=331261",
-      "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%B0%BD%EB%AF%BC_(1973%EB%85%84)",
-      "https://www.newsis.com/view/NISI20260429_0021265641",
-      "https://www.yna.co.kr/view/PYH20260418001400013",
-      "https://www.mediatoday.co.kr/news/articleView.html?idxno=333200",
-      "https://www.samindang.kr/news/briefing/997",
-      "https://www.samindang.kr/news/briefing/1002",
-      "https://www.samindang.kr/news/briefing/1010",
-      "https://www.samindang.kr/news/briefing/1013",
-      "https://www.samindang.kr/news/notice/424",
-      "https://www.samindang.kr/news/notice/433",
-      "https://www.samindang.kr/news/notice/395",
-      "https://www.yna.co.kr/view/AKR20260106160500062"
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "web_search",
+      "news_search",
+      "government_directory"
     ],
     "quotes": [
       {
@@ -517,7 +496,6 @@
         "url": "https://www.samindang.kr/news/notice/395"
       }
     ],
-    "collected_at": "2026-04-29",
     "notes": "Replaced skeleton with 2026-04-28 enriched profile (original ID: KR-PARTY-008)"
   }
 }

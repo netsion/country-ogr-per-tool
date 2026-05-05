@@ -11,7 +11,7 @@
       "大韩民国监察院"
     ],
     "org_type": "GOV",
-    "org_subtype": "constitutional_body",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1963-03-20",
@@ -20,7 +20,7 @@
   "social_accounts": [],
   "digital_assets": [
     {
-      "name": "BAI Official Website (English)",
+      "name": "BAI官方网站（英文版）",
       "url": "https://www.bai.go.kr/bai_eng/",
       "description": "韩国监察院官方网站英文版，提供机构介绍、审计报告及职能说明",
       "source": "official"
@@ -28,45 +28,45 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000654",
       "name": "金浩哲 (Kim Ho-cheol)",
       "title": "院长",
-      "title_description": "Chairman of the Board of Audit and Inspection",
+      "title_description": "韩国监察院院长",
       "description": "人权律师出身，曾任韩国警察委员会委员长和环境运动联合共同代表。2025年12月由李在明总统提名为监察院长，同年12月30日获国会批准，2026年1月2日正式就任第26任监察院长。在就职演说中强调恢复监察院的政治中立性和独立性，承诺抵制外部压力。"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000655",
       "name": "林仙淑 (Lim Sun-suk)",
       "title": "监察委员",
-      "title_description": "Audit Commissioner of the Board of Audit and Inspection",
+      "title_description": "韩国监察院监察委员",
       "description": "人权律师，2026年2月由监察院长金浩哲提名为新任监察委员，加入监察院七人委员会。"
     }
   ],
   "departments": [
     {
       "name": "审计政策企划局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-028-DEPT-001",
       "head": null,
       "description": "负责制定年度审计计划和审计政策方向，统筹全院审计业务",
       "parent_dept_id": null
     },
     {
       "name": "国家财政审计局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-028-DEPT-002",
       "head": null,
       "description": "负责审查国家决算收支、公共基金管理及国债管理审计",
       "parent_dept_id": null
     },
     {
       "name": "行政监察局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-028-DEPT-003",
       "head": null,
       "description": "负责对政府机关及其公务员的职务行为进行检查，提升行政服务质量",
       "parent_dept_id": null
     },
     {
       "name": "IT审计局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-028-DEPT-004",
       "head": null,
       "description": "2014年设立，专门负责对政府信息系统和数字化项目进行审计",
       "parent_dept_id": null
@@ -112,41 +112,35 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-022",
-      "org_name": "National Assembly of the Republic of Korea",
+      "org_name": "韩国国会 (National Assembly of the Republic of Korea)",
       "org_type": "GOV",
       "org_description": "韩国国会，监察院长任命需经国会同意，BAI每年向国会报告国家决算审查结果",
-      "relationship_type": "oversight_body"
+      "relationship_type": "regulator"
     },
     {
       "org_id": "KR-GOV-024",
-      "org_name": "Constitutional Court of Korea",
+      "org_name": "宪法法院 (Constitutional Court of Korea)",
       "org_type": "GOV",
       "org_description": "韩国宪法法院，根据宪法第97-100条设立监察院的宪法依据",
-      "relationship_type": "constitutional_framework"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-GOV-001",
-      "org_name": "Office of the President of the Republic of Korea",
+      "org_name": "韩国总统室 (Office of the President of the Republic of Korea)",
       "org_type": "GOV",
       "org_description": "韩国总统府，监察院在制度上隶属于总统但在职务上保持独立地位",
-      "relationship_type": "parent_agency"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-GOV-030",
-      "org_name": "Anti-Corruption and Civil Rights Commission",
+      "org_name": "国民权益委员会 (Anti-Corruption and Civil Rights Commission)",
       "org_type": "GOV",
       "org_description": "反腐败与国民权益委员会，与监察院在反腐败和公共部门廉洁建设方面有职能交叉",
-      "relationship_type": "coordinating_agency"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "韩国监察院(BAI)是根据韩国宪法第97-100条设立的宪法机关，是韩国最高审计机构，拥有1,300年以上的审计历史传统。监察院在制度上隶属于总统，但在职务执行上保持独立地位。核心职能包括：(1)审查国家年度决算收支并向总统和国会报告；(2)对国家及法定机构的账目进行定期审计；(3)对政府机关和公务员的职务行为进行检查以提升行政质量；(4)对审计检查结果进行处理，包括赔偿责任的判定、惩戒请求、纠正请求、改善建议及刑事告发；(5)审查申诉和188热线举报。监察院由7名监察委员（含院长）组成的监察委员会议做出决策，院长由总统任命经国会同意，任期4年不可连任。总部位于首尔钟路区。",
-  "industries": [
-    "国家审计",
-    "政府监察",
-    "公共财政审查",
-    "反腐败监督",
-    "行政效能评估"
-  ],
+  "industries": [],
   "apec_stance": "韩国监察院是国际最高审计机构组织(INTOSAI)和亚洲最高审计机构组织(ASOSAI)的活跃成员，曾于2001-2004年担任INTOSAI主席国。监察院在推动亚太地区公共部门审计标准、政府透明度和问责制建设方面有持续贡献。BAI的审计数据管理系统BARON和电子审计管理系统BEST等技术工具，为APEC发展中经济体提供了数字化审计的参考经验。",
   "profile": "韩国监察院的历史可追溯至1948年建国时分别设立的审计院和监察委员会。1962年宪法修订后两机构合并，1963年3月20日正式成立监察院。监察院是宪法保障的独立机构，拥有对国家财政的最终审计权和对行政部门的检查权。近年来先后经历了崔在海弹劾风波(2025年3月宪法法院驳回)和领导层更替(2025年12月金浩哲获国会批准)等重大事件。2026年金浩哲就任后推动废除特别调查局、恢复政治中立性、重新审查前政府审计工作等一系列改革措施，旨在重建监察院的公信力。",
   "collection_meta": {

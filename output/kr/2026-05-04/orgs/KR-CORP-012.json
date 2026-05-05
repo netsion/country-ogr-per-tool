@@ -41,19 +41,19 @@
   ],
   "digital_assets": [
     {
-      "name": "KT Genie TV (IPTV)",
+      "name": "KT Genie TV (IPTV服务)",
       "url": "https://tv.kt.com/",
       "description": "KT的IPTV电视服务平台，为超过1300万家庭用户提供直播和点播内容",
       "source": "wikipedia"
     },
     {
-      "name": "KT Cloud",
+      "name": "KT Cloud (KT云服务)",
       "url": "https://cloud.kt.com/",
       "description": "KT旗下云计算服务平台，提供公有云、私有云及混合云解决方案",
       "source": "web_search"
     },
     {
-      "name": "Olleh WiFi",
+      "name": "Olleh WiFi (公共WiFi)",
       "url": "https://www.kt.com/",
       "description": "韩国最大的公共WiFi热点网络，拥有超过14万个接入点",
       "source": "wikipedia"
@@ -61,16 +61,16 @@
   ],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Kim Young-shub (김영섭)",
-      "title": "CEO and Representative Director",
+      "person_id": "KR-PERSON-000523",
+      "name": "金永燮 (Kim Young-shub)",
+      "title": "首席执行官兼代表理事",
       "title_description": "全面负责公司战略与经营管理",
       "description": "2023年底就任CEO，推动KT向AI转型。任期内2025年营业利润达2.4691万亿韩元，同比增长205%。2026年3月31日卸任。"
     },
     {
-      "person_id": null,
-      "name": "Park Yoon-young (박윤영)",
-      "title": "CEO and Representative Director (designate)",
+      "person_id": "KR-PERSON-000524",
+      "name": "朴润英 (Park Yoon-young)",
+      "title": "首席执行官兼代表理事（候任）",
       "title_description": "全面负责公司战略与经营管理",
       "description": "30年KT资深内部人士，曾任企业事业本部执行副总裁。2025年12月被提名为下一任CEO，2026年3月31日正式就任。计划推进高管大换血（约30%高管更换），重点稳定网络安全事件后的运营并延续AI驱动增长战略。"
     }
@@ -108,8 +108,8 @@
   "recent_events": [
     {
       "date": "2026-03-31",
-      "title": "Park Yoon-young正式就任KT新任CEO",
-      "description": "Park Yoon-young接替Kim Young-shub成为KT新任CEO及代表董事。预计将推进约30%高管更换，重点应对网络安全事件善后并延续AI驱动增长战略。",
+      "title": "朴润英正式就任KT新任CEO",
+      "description": "朴润英接替金永燮成为KT新任CEO及代表董事。预计将推进约30%高管更换，重点应对网络安全事件善后并延续AI驱动增长战略。",
       "impact": "新任CEO面临稳定运营和推进AI转型的双重挑战",
       "source": "https://en.yna.co.kr/view/AEN20260331004700320"
     },
@@ -130,7 +130,7 @@
     {
       "date": "2025-10-14",
       "title": "KT与Palantir CEO在首尔会晤深化AI合作",
-      "description": "KT CEO Kim Young-shub与Palantir CEO Alex Karp在首尔举行首次CEO级别会谈，讨论扩大Palantir平台在韩国各行业的AI转型应用。",
+      "description": "KT CEO金永燮与Palantir CEO亚历克斯·卡普在首尔举行首次CEO级别会谈，讨论扩大Palantir平台在韩国各行业的AI转型应用。",
       "impact": "深化AI战略布局，增强B2B市场竞争力",
       "source": "https://www.koreatimes.co.kr/business/tech-science/20251014/kt-palantir-ceos-discuss-further-data-platform-collaboration"
     },
@@ -180,98 +180,98 @@
   "related_entities": [
     {
       "org_id": "KR-CORP-011",
-      "org_name": "SK Telecom",
+      "org_name": "SK电讯 (SK Telecom)",
       "org_type": "CORP",
       "org_description": "韩国最大移动运营商，KT在电信市场的主要竞争对手",
       "relationship_type": "sibling"
     },
     {
       "org_id": "KR-CORP-013",
-      "org_name": "LG Uplus",
+      "org_name": "LG U+ (LG Uplus)",
       "org_type": "CORP",
       "org_description": "韩国第三大移动运营商，与KT、SK Telecom构成韩国电信三强格局",
       "relationship_type": "sibling"
     },
     {
       "org_id": "KR-CORP-001",
-      "org_name": "Samsung Electronics",
+      "org_name": "三星电子 (Samsung Electronics)",
       "org_type": "CORP",
       "org_description": "KT在网络设备和智能手机领域的核心合作伙伴",
       "relationship_type": "strategic_alliance"
     },
     {
       "org_id": "KR-GOV-004",
-      "org_name": "Ministry of Science and ICT",
+      "org_name": "科学技术信息通信部 (Ministry of Science and ICT)",
       "org_type": "GOV",
       "org_description": "韩国科学技术信息通信部，KT的主管监管机构",
       "relationship_type": "regulated_by"
     },
     {
       "org_id": "KR-CORP-003",
-      "org_name": "Hyundai Motor Company",
+      "org_name": "现代汽车 (Hyundai Motor Company)",
       "org_type": "CORP",
       "org_description": "KT最大股东，持有7.89%股份",
       "relationship_type": "controlling_shareholder"
     },
     {
-      "org_id": null,
-      "org_name": "KT Studio Genie",
+      "org_id": "KR-CORP-043",
+      "org_name": "KT Studio Genie (KT内容制作)",
       "org_type": "CORP",
-      "org_description": "KT旗下媒体与内容中间控股公司，制作Netflix热门韩剧《非常律师禹英禑》等作品",
+      "org_description": "KT旗下媒体与内容中间控股公司，制作Netflix热门韩剧等作品",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "KT Skylife",
+      "org_id": "KR-CORP-044",
+      "org_name": "KT Skylife (KT卫星广播)",
       "org_type": "CORP",
       "org_description": "KT旗下卫星广播服务提供商",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "KT Cloud",
+      "org_id": "KR-CORP-045",
+      "org_name": "KT Cloud (KT云计算)",
       "org_type": "CORP",
       "org_description": "KT旗下云计算服务公司",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "Genie Music",
+      "org_id": "KR-CORP-046",
+      "org_name": "Genie Music (Genie音乐)",
       "org_type": "CORP",
       "org_description": "KT旗下音乐流媒体平台",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "BC Card",
+      "org_id": "KR-CORP-047",
+      "org_name": "BC卡 (BC Card)",
       "org_type": "CORP",
       "org_description": "KT持有20.05%股份，为第二大股东",
       "relationship_type": "minority_shareholder"
     },
     {
-      "org_id": null,
-      "org_name": "KT Wiz",
+      "org_id": "KR-CORP-048",
+      "org_name": "KT Wiz (KT棒球)",
       "org_type": "CORP",
       "org_description": "KT旗下的韩国职业棒球队，主场位于水原",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "KR-CORP-011",
-      "org_name": "East Telecom LLC (Uzbekistan)",
+      "org_name": "East Telecom (乌兹别克斯坦) (East Telecom LLC)",
       "org_type": "CORP",
       "org_description": "KT持有54.5%股份的乌兹别克斯坦第二大固网运营商",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "Palantir Technologies",
+      "org_id": "KR-CORP-049",
+      "org_name": "Palantir Technologies (帕兰提尔)",
       "org_type": "CORP",
       "org_description": "美国AI平台公司，2025年3月与KT签署战略合作，推进韩国AI转型",
       "relationship_type": "strategic_alliance"
     },
     {
       "org_id": "KR-CORP-005",
-      "org_name": "Microsoft Corporation",
+      "org_name": "微软 (Microsoft Corporation)",
       "org_type": "CORP",
       "org_description": "2024年9月与KT签署数十亿美元级五年AI及云合作协议",
       "relationship_type": "strategic_alliance"

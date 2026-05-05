@@ -4,9 +4,15 @@
     "name_original": "국군방첩사령부",
     "name_zh": "国军防谍司令部",
     "name_en": "Defense Counterintelligence Command (DCC)",
-    "aliases": ["방첩사", "DCC", "국군보안사령부(旧)", "국군기무사령부(旧)", "군사안보지원사령부(旧)"],
+    "aliases": [
+      "방첩사",
+      "DCC",
+      "국군보안사령부(旧)",
+      "국군기무사령부(旧)",
+      "군사안보지원사령부(旧)"
+    ],
     "org_type": "MIL",
-    "org_subtype": "military_counterintelligence",
+    "org_subtype": null,
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1950-10-21",
@@ -15,13 +21,13 @@
   "social_accounts": [],
   "digital_assets": [
     {
-      "name": "DCC Official Website (English)",
+      "name": "国军防谍司令部官方网站（英文版）",
       "url": "https://www.dcc.mil.kr/sites/dsscen/index.do",
       "description": "国军防谍司令部官方网站（英文版）",
       "source": "Wikipedia"
     },
     {
-      "name": "DCC Official Website (Korean)",
+      "name": "国军防谍司令部官方网站（韩语版）",
       "url": "https://www.dcc.mil.kr/sites/dssckr/index.do",
       "description": "国军防谍司令部官方网站（韩语版）",
       "source": "Wikipedia"
@@ -29,16 +35,16 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000472",
       "name": "余仁亨 (Yeo In-hyung)",
-      "title": "司令官 (Commander)",
+      "title": "司令官",
       "title_description": "国军防谍司令部最高指挥官，中将军衔",
       "description": "现任防谍司令官，因在2024年12月紧急戒严事件中的角色而受到关注"
     },
     {
       "person_id": null,
       "name": null,
-      "title": "副司令官 (Deputy Commander)",
+      "title": "副司令官",
       "title_description": "国军防谍司令部副职指挥官",
       "description": "负责协助司令官管理防谍司令部日常事务"
     }
@@ -77,28 +83,28 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-009",
-      "org_name": "Ministry of National Defense",
+      "org_name": "国防部",
       "org_type": "GOV",
       "org_description": "韩国国防部，防谍司令部的直属上级",
-      "relationship_type": "reporting_to"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-MIL-008",
-      "org_name": "Defense Intelligence Agency",
+      "org_name": "国防情报本部",
       "org_type": "MIL",
       "org_description": "国防情报本部，与防谍司令部共同构成韩国军事情报体系",
-      "relationship_type": "sister_agency"
+      "relationship_type": "sibling"
     },
     {
       "org_id": "KR-MIL-011",
-      "org_name": "Korea Defense Intelligence Command",
+      "org_name": "军情报司令部",
       "org_type": "MIL",
       "org_description": "军情报司令部，负责海外情报搜集",
-      "relationship_type": "sister_agency"
+      "relationship_type": "sibling"
     }
   ],
   "core_business": "国军防谍司令部（DCC）是韩国国防部直属的功能司令部，负责军事反情报、军事安全、军事情报的搜集与处理。其主要职责涵盖：反情报系统分析与开发、隐秘与秘密行动、应对混合威胁、反恐、国防工业安全、要人保护、外国军事威胁评估、法医鉴定、信息战、军事反情报、军事网络安全、心理战等。该机构前身为1950年成立的特务部队（CIC），历经国军保安司令部、国军机务司令部、军事安保支援司令部等多次更名，2022年11月改组为现名。",
-  "industries": ["军事反情报", "国防安全", "军事调查"],
+  "industries": [],
   "apec_stance": "作为军事反情报机构，不直接参与APEC事务。",
   "profile": "国军防谍司令部是韩国国防部直属的军事反情报机构，成立于1950年10月（前身特务部队），总部位于京畿道果川市。该机构历史上多次更名：军事安保司令部（1977-1990）、国军机务司令部（1991-2018）、军事安保支援司令部（2018-2022）、国军防谍司令部（2022至今）。全斗焕曾任该机构前身司令官，并在1979年利用该机构发动双十二政变。2017年朴槿惠弹劾前，该机构曾策划自体政变与戒严计划。因深度参与尹锡悦2024年12月未遂戒严事件，该机构已被宣布将于2026年解散，职能拆分至其他机构。",
   "collection_meta": {

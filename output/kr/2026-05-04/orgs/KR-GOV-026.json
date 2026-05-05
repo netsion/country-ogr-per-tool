@@ -11,7 +11,7 @@
       "公正交易委员会"
     ],
     "org_type": "GOV",
-    "org_subtype": "regulatory_commission",
+    "org_subtype": "independent_organ",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1981-01-01",
@@ -19,7 +19,7 @@
   },
   "social_accounts": [
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "주병기TV",
       "url": "https://www.youtube.com/channel/UCFXnWz9HGc1ZfG9tJk1iNpg",
       "source": "YouTube"
@@ -27,13 +27,13 @@
   ],
   "digital_assets": [
     {
-      "name": "KFTC Official Website (English)",
+      "name": "KFTC官方网站（英文版）",
       "url": "https://www.ftc.go.kr/eng/index.do",
       "description": "韩国公平交易委员会官方网站英文版，提供政策法规、执法案例及机构介绍",
       "source": "official"
     },
     {
-      "name": "KFTC Online Platform for Contract Review",
+      "name": "委员信息与合同审查平台",
       "url": "https://www.ftc.go.kr/eng/contents.do?key=530",
       "description": "委员信息页面，包含现任委员履历及职责分工",
       "source": "official"
@@ -41,38 +41,38 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000649",
       "name": "朱炳基 (Ju Biung-ghi)",
       "title": "委员长",
-      "title_description": "Chairperson of the Korea Fair Trade Commission",
+      "title_description": "韩国公平交易委员会委员长",
       "description": "首尔国立大学经济学教授，曾任韩国应用经济学会会长和韩国社会科学研究会理事长。2025年8月由李在明总统提名为公平交易委员会委员长，同年9月15日正式就任，任期为三年。以进步派经济学者著称，主张推动在线平台公平化立法和财阀监管改革。"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000650",
       "name": "赵洪善 (Cho Hong-sun)",
       "title": "副委员长",
-      "title_description": "Deputy Chairperson of the Korea Fair Trade Commission",
+      "title_description": "韩国公平交易委员会副委员长",
       "description": "现任韩国公平交易委员会副委员长，协助委员长管理委员会日常运作及政策执行。"
     }
   ],
   "departments": [
     {
       "name": "反垄断执法局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-026-DEPT-001",
       "head": null,
       "description": "负责执行《垄断规制和公平交易法》，调查市场支配地位滥用行为、企业并购审查及卡特尔打击",
       "parent_dept_id": null
     },
     {
       "name": "消费者保护局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-026-DEPT-002",
       "head": null,
       "description": "负责电子商务消费者保护、不公平合同条款监管及消费者权益维护",
       "parent_dept_id": null
     },
     {
       "name": "竞争政策局",
-      "dept_id": null,
+      "dept_id": "KR-GOV-026-DEPT-003",
       "head": null,
       "description": "负责制定竞争政策、公平分包交易监管及加盟连锁交易法规执行",
       "parent_dept_id": null
@@ -118,40 +118,35 @@
   "related_entities": [
     {
       "org_id": "KR-GOV-003",
-      "org_name": "Ministry of Economy and Finance",
+      "org_name": "经济财政部 (Ministry of Economy and Finance)",
       "org_type": "GOV",
       "org_description": "韩国经济财政部，KFTC在总理管辖下运作，与经济财政部在竞争政策领域有协调关系",
-      "relationship_type": "coordinating_agency"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-GOV-022",
-      "org_name": "National Assembly of the Republic of Korea",
+      "org_name": "韩国国会 (National Assembly of the Republic of Korea)",
       "org_type": "GOV",
       "org_description": "韩国国会，KFTC委员长任命需经国会人事听证",
-      "relationship_type": "oversight_body"
+      "relationship_type": "regulator"
     },
     {
       "org_id": "KR-CORP-008",
-      "org_name": "Kakao Corp",
+      "org_name": "Kakao公司 (Kakao Corp)",
       "org_type": "CORP",
       "org_description": "Kakao集团，KFTC多次对其平台垄断行为进行调查和处罚",
-      "relationship_type": "regulated_entity"
+      "relationship_type": "regulated_by"
     },
     {
-      "org_id": null,
-      "org_name": "Coupang Inc.",
+      "org_id": "KR-CORP-082",
+      "org_name": "Coupang (Coupang Inc.)",
       "org_type": "CORP",
       "org_description": "韩国最大电商平台，2025-2026年KFTC执法重点对象，涉及个人信息泄露、不正当商业行为等多项调查",
-      "relationship_type": "regulated_entity"
+      "relationship_type": "regulated_by"
     }
   ],
   "core_business": "韩国公平交易委员会(KFTC)是韩国负责经济竞争监管的最高行政机关，隶属国务总理管辖，具有准司法机构的独立地位。其核心职能包括：执行《垄断规制和公平交易法》(MRFTA)以防止市场垄断和不公平竞争行为；审查企业并购交易；打击卡特尔和价格操纵行为；保护消费者权益，监管不公平合同条款、分包交易和加盟连锁交易；执行电子商务消费者保护法规。KFTC拥有9名委员（含委员长1名、副委员长1名、常任委员3名、非常任委员4名），委员长为部长级政务职公务员。总部位于世宗特别自治市，员工约650人，2023年预算约1,596亿韩元。",
-  "industries": [
-    "竞争执法与反垄断",
-    "消费者保护",
-    "平台经济监管",
-    "企业并购审查"
-  ],
+  "industries": [],
   "apec_stance": "作为APEC经济体中重要的竞争监管机构，KFTC在亚太地区竞争政策协调中发挥积极作用。KFTC持续关注跨国数字平台的不正当竞争行为，推动在线平台公平化立法，与APEC框架下的竞争政策对话密切参与。近年来KFTC加大了对Coupang等电商平台的执法力度，其监管模式对APEC其他经济体具有参考价值。",
   "profile": "韩国公平交易委员会成立于1981年，最初隶属于经济企划院。1994年从经济企划院独立，成为副部长级中央行政机构。1996年委员长级别提升至部长级。KFTC是韩国反垄断和公平竞争执法的核心机构，历史上曾对微软(2005年)、高通(2016年罚款1万亿韩元)和谷歌(2021年罚款2,074亿韩元)等国际科技巨头做出过重大反垄断裁决。2025年9月，进步派经济学者朱炳基就任新委员长，推动在线平台公平化法案(俗称'在线平台法')和合作共赢的公平经济政策，标志着韩国竞争执法进入以平台经济监管为重点的新阶段。",
   "collection_meta": {

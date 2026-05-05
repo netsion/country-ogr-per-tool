@@ -4,9 +4,13 @@
     "name_original": "한겨레",
     "name_zh": "韩民族日报",
     "name_en": "Hankyoreh",
-    "aliases": ["Hankyoreh Shinmun", "The Hankyoreh", "한겨레신문"],
+    "aliases": [
+      "Hankyoreh Shinmun",
+      "The Hankyoreh",
+      "한겨레신문"
+    ],
     "org_type": "MEDIA",
-    "org_subtype": "daily_newspaper",
+    "org_subtype": "newspaper",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1988-05-15",
@@ -14,19 +18,19 @@
   },
   "social_accounts": [
     {
-      "platform": "X (Twitter)",
+      "platform": "twitter_x",
       "account_name": "@Hankyoreh_eng",
       "url": "https://twitter.com/hankyoreh_eng",
       "source": "https://english.hani.co.kr"
     },
     {
-      "platform": "Facebook",
+      "platform": "facebook",
       "account_name": "hankyoreh",
       "url": "https://www.facebook.com/hankyoreh",
       "source": "https://www.hani.co.kr"
     },
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "한겨레",
       "url": "https://www.youtube.com/@hankyoreh",
       "source": "https://www.hani.co.kr"
@@ -60,17 +64,17 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000685",
       "name": "崔宇盛 (Choi Woo-seong)",
       "title": "发行人",
-      "title_description": "Publisher",
+      "title_description": "发行人",
       "description": "韩民族日报发行人，负责报纸整体出版与发行战略"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000686",
       "name": "金英姬 (Kim Young-hee)",
       "title": "总编辑",
-      "title_description": "Editor-in-Chief",
+      "title_description": "总编辑",
       "description": "韩民族日报总编辑，负责编辑方针与新闻报道方向"
     }
   ],
@@ -100,36 +104,36 @@
   ],
   "related_entities": [
     {
-      "org_id": null,
-      "org_name": "Cine 21",
+      "org_id": "KR-MEDIA-025",
+      "org_name": "Cine21电影周刊 (Cine 21)",
       "org_type": "MEDIA",
       "org_description": "韩民族媒体集团旗下的电影周刊杂志",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
+      "org_id": "KR-MEDIA-026",
       "org_name": "HuffPost Korea",
       "org_type": "MEDIA",
       "org_description": "韩民族日报与HuffPost（BuzzFeed旗下）合资运营的韩国版赫芬顿邮报",
-      "relationship_type": "joint_venture"
+      "relationship_type": "affiliated"
     },
     {
       "org_id": "KR-MEDIA-006",
-      "org_name": "Dong-A Ilbo",
+      "org_name": "东亚日报 (Dong-A Ilbo)",
       "org_type": "MEDIA",
       "org_description": "东亚日报，韩民族日报创始人此前曾任职的保守派报纸",
-      "relationship_type": "competitor"
+      "relationship_type": "partner"
     },
     {
       "org_id": "KR-PARTY-001",
-      "org_name": "Democratic Party of Korea",
+      "org_name": "共同民主党 (Democratic Party of Korea)",
       "org_type": "PARTY",
       "org_description": "韩国共同民主党，韩民族日报在政治报道上对其立场较为友好",
-      "relationship_type": "political_alignment"
+      "relationship_type": "affiliated"
     }
   ],
   "core_business": "韩国代表性进步派日报，1988年5月15日创刊。以韩文日报为核心业务，发行量约60万份，是韩国第四大日报。旗下拥有韩民族媒体集团，包括Cine21电影周刊、经济21周刊、韩民族21新闻周刊、HuffPost Korea合资项目等。网站提供韩、英、中、日四种语言版本。独特的公民股东制度——拥有超过6万名公民股东，无人持股超过1%，且有意不上市以避免被恶意收购。",
-  "industries": ["报纸出版", "数字媒体", "出版发行"],
+  "industries": [],
   "apec_stance": null,
   "profile": "韩民族日报是韩国最具影响力的中左翼进步派日报，1988年由被解职的东亚日报和朝鲜日报记者创办，自称'世界上第一家真正独立于政治权力和大资本的报纸'。政治立场中左至进步，支持自由主义、人权、朝韩对话与和平统一。是韩国第一家全部使用韩文（不用汉字）、第一家横排印刷的日报。发行量约60万份，仅为三大保守报纸的三分之一，但在知识分子和年轻读者中影响力突出。连续九年被韩国记者评为最信任的新闻机构。拥有超过6万名公民股东，拒绝大资本控制，运营上依赖销售收入和公民捐款而非大企业广告。2020年成为韩国第一家设立气候变化新闻专职团队的报纸。对女性权利、LGBT权益、少数族裔权利持支持态度。",
   "collection_meta": {

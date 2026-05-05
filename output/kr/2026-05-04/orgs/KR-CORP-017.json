@@ -36,16 +36,16 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": null,
-      "name": "Kim Dong-kwan",
-      "title": "Chairman",
+      "person_id": "KR-PERSON-000539",
+      "name": "金东官 (Kim Dong-kwan)",
+      "title": "会长",
       "title_description": "负责集团航空航天与防务业务整体战略方向",
       "description": "韩华集团会长金昇渊之子，推动韩华防务产业整合与扩张的核心人物"
     },
     {
-      "person_id": null,
-      "name": "Son Jae-il",
-      "title": "CEO",
+      "person_id": "KR-PERSON-000540",
+      "name": "孙在日 (Son Jae-il)",
+      "title": "首席执行官",
       "title_description": "首席执行官，负责公司日常运营与业务执行",
       "description": "孙在日自2024年起担任韩华航空航天代表理事兼CEO"
     }
@@ -53,35 +53,35 @@
   "departments": [
     {
       "dept_id": "KR-CORP-017-DEPT-001",
-      "name": "Aerospace Engine Division",
+      "name": "航空发动机事业部 (Aerospace Engine Division)",
       "head": null,
       "description": "航空发动机及零部件的开发、生产和维护，包括军用及民用燃气涡轮发动机",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-017-DEPT-002",
-      "name": "Ground Defense Systems Division",
+      "name": "地面防务系统事业部 (Ground Defense Systems Division)",
       "head": null,
       "description": "地面武器系统开发与生产，包括自行火炮、步兵战车、防空系统、无人系统等",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-017-DEPT-003",
-      "name": "Space Business Division",
+      "name": "太空事业部 (Space Business Division)",
       "head": null,
       "description": "太空发射器发动机与核心部件研发制造，负责'努里号'运载火箭系统集成",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-017-DEPT-004",
-      "name": "Electric Propulsion Systems Division",
+      "name": "电动推进系统事业部 (Electric Propulsion Systems Division)",
       "head": null,
       "description": "电动推进系统开发，包括UAM氢燃料电池、潜艇锂电池系统、船舶ESS等",
       "parent_dept_id": null
     },
     {
       "dept_id": "KR-CORP-017-DEPT-005",
-      "name": "Guided Weapons & Ammunition Division",
+      "name": "制导武器与弹药事业部 (Guided Weapons & Ammunition Division)",
       "head": null,
       "description": "制导武器系统、弹药体系、激光技术及导航系统的研发与生产",
       "parent_dept_id": null
@@ -155,34 +155,34 @@
   "related_entities": [
     {
       "org_id": "KR-CORP-016",
-      "org_name": "Hanwha Group",
+      "org_name": "韩华集团 (Hanwha Group)",
       "org_type": "CORP",
       "org_description": "韩国大型财阀之一，旗下涵盖化工、能源、建筑、金融、防务等多个领域",
       "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-CORP-028",
-      "org_name": "Korea Aerospace Industries (KAI)",
+      "org_name": "韩国航空宇宙产业 (Korea Aerospace Industries)",
       "org_type": "CORP",
       "org_description": "韩国唯一的军用飞机制造商，负责KF-21、T-50等飞机的开发与生产",
       "relationship_type": "minority_shareholder"
     },
     {
       "org_id": "KR-CORP-016",
-      "org_name": "Hanwha Systems",
+      "org_name": "韩华系统 (Hanwha Systems)",
       "org_type": "CORP",
       "org_description": "韩华集团旗下的防务电子企业，专注于航空电子、雷达和指挥控制系统",
       "relationship_type": "sibling"
     },
     {
       "org_id": "KR-CORP-016",
-      "org_name": "Hanwha Vision (formerly Hanwha Techwin Security)",
+      "org_name": "韩华视觉 (Hanwha Vision)",
       "org_type": "CORP",
       "org_description": "从韩华航空航天分离出的安防监控设备子公司，主营CCTV和视频监控解决方案",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
+      "org_id": "KR-CORP-058",
       "org_name": "Satrec Initiative (쎄트렉아이)",
       "org_type": "CORP",
       "org_description": "韩国卫星系统开发及出口企业，2021年被韩华航空航天收购",
@@ -190,14 +190,14 @@
     },
     {
       "org_id": "KR-CORP-017",
-      "org_name": "Hanwha Aerospace USA",
+      "org_name": "韩华航空航天美国公司 (Hanwha Aerospace USA)",
       "org_type": "CORP",
       "org_description": "2019年收购美国航空发动机零部件企业EDAC后成立的美国法人",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
-      "org_name": "Ministry of National Defense",
+      "org_id": "KR-GOV-038",
+      "org_name": "国防部 (Ministry of National Defense)",
       "org_type": "GOV",
       "org_description": "韩国国防部",
       "relationship_type": "customer"

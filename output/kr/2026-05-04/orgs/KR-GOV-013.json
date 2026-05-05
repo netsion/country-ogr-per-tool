@@ -65,7 +65,7 @@
       "description": "1967年生于釜山, 首尔大学法学学士, 行政高等考试第38期合格, 在海洋水产部历任港口物流企划科长、海洋政策科长、水产政策科长、发言人、海事安全局长、企划调整室长等核心职务, 2026年3月24日就任第25任海洋水产部长官, 是该部迁至釜山后首任长官"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000623",
       "name": "金成范 (김성범 / Kim Sung-bum)",
       "title": "第一次官 (제1차관)",
       "title_description": "韩国海洋水产部第一次官 (해양수산부 차관)",
@@ -74,32 +74,32 @@
   ],
   "departments": [
     {
-      "dept_id": null,
+      "dept_id": "KR-GOV-013-DEPT-001",
       "name": "海洋政策室 (해양정책실)",
       "description": "负责海洋综合政策、海洋科学技术政策、海洋开发、海洋休闲旅游、海洋水产生命资源等事务, 下设海洋政策官和海洋环境政策官"
     },
     {
-      "dept_id": null,
+      "dept_id": "KR-GOV-013-DEPT-002",
       "name": "水产政策室 (수산정책실)",
       "description": "负责水产综合政策、渔村与港口再生、水产品流通等事务, 统筹水产渔业发展及渔业组合指导监督"
     },
     {
-      "dept_id": null,
+      "dept_id": "KR-GOV-013-DEPT-003",
       "name": "海运物流局 (해운물류국)",
       "description": "负责海运政策、沿岸航运开发、船员政策、海运物流产业管理及培育事务"
     },
     {
-      "dept_id": null,
+      "dept_id": "KR-GOV-013-DEPT-004",
       "name": "海事安全局 (해사안전국)",
       "description": "负责海上交通安全管理、船舶检查、海事安全审判等事务"
     },
     {
-      "dept_id": null,
+      "dept_id": "KR-GOV-013-DEPT-005",
       "name": "港口局 (항만국)",
       "description": "负责港口政策、港口建设与管理、港口物流等事务"
     },
     {
-      "dept_id": null,
+      "dept_id": "KR-GOV-013-DEPT-006",
       "name": "企划调整室 (기획조정실)",
       "description": "负责部门整体政策规划与协调, 由第一次官领导"
     }
@@ -152,56 +152,64 @@
       "org_name": "韩国海洋警察厅",
       "name": "韩国海洋警察厅 (해양경찰청 / Korea Coast Guard)",
       "relationship": "下属机构",
-      "description": "负责海上警察与防污事务的中央行政机关, 隶属于海洋水产部长官"
+      "description": "负责海上警察与防污事务的中央行政机关, 隶属于海洋水产部长官",
+      "org_id": "KR-GOV-033"
     },
     {
       "entity_id": null,
       "org_name": "韩国海洋科学技术院",
       "name": "韩国海洋科学技术院 (한국해양과학기술원 / KIOST)",
       "relationship": "下属研究机构",
-      "description": "海洋水产部下属国家级海洋综合研究机构, 负责海洋科学与海洋水产资源的系统研究开发"
+      "description": "海洋水产部下属国家级海洋综合研究机构, 负责海洋科学与海洋水产资源的系统研究开发",
+      "org_id": "KR-GOV-059"
     },
     {
       "entity_id": null,
       "org_name": "韩国海洋振兴公社",
       "name": "韩国海洋振兴公社 (한국해양진흥공사 / Korea Ocean Business Corporation)",
       "relationship": "下属公共机构",
-      "description": "负责海运金融支援和海运产业振兴的公共机构"
+      "description": "负责海运金融支援和海运产业振兴的公共机构",
+      "org_id": "KR-GOV-060"
     },
     {
       "entity_id": null,
       "org_name": "国立海洋调查院",
       "name": "国立海洋调查院 (국립해양조사원 / Korea Hydrographic and Oceanographic Agency)",
       "relationship": "下属机构",
-      "description": "负责海图制作、海洋观测、潮流预报等海洋调查事务"
+      "description": "负责海图制作、海洋观测、潮流预报等海洋调查事务",
+      "org_id": "KR-GOV-061"
     },
     {
       "entity_id": null,
       "org_name": "韩国海洋交通安全公团",
       "name": "韩国海洋交通安全公团 (한국해양교통안전공단 / Korea Maritime Transportation Safety Authority)",
       "relationship": "下属机构",
-      "description": "负责海洋交通安全综合管理、船舶检查及相关技术研发"
+      "description": "负责海洋交通安全综合管理、船舶检查及相关技术研发",
+      "org_id": "KR-GOV-062"
     },
     {
       "entity_id": null,
       "org_name": "国立海洋博物馆",
       "name": "国立海洋博物馆 (국립해양박물관 / National Maritime Museum)",
       "relationship": "下属机构",
-      "description": "负责海洋文化与海洋产业遗产的发掘、保存、研究与展示"
+      "description": "负责海洋文化与海洋产业遗产的发掘、保存、研究与展示",
+      "org_id": "KR-GOV-063"
     },
     {
       "entity_id": "KR-GOV-001",
       "org_name": "大韩民国总统室",
       "name": "大韩民国总统室 (대한민국 대통령실)",
       "relationship": "上级机构",
-      "description": "海洋水产部隶属国务总理领导下的中央行政部门"
+      "description": "海洋水产部隶属国务总理领导下的中央行政部门",
+      "org_id": "KR-GOV-064"
     },
     {
       "entity_id": null,
       "org_name": "釜山港湾公社",
       "name": "釜山港湾公社 (부산항만공사 / Busan Port Authority)",
       "relationship": "相关机构",
-      "description": "负责釜山港运营管理的公共机构, 总部位于釜山"
+      "description": "负责釜山港运营管理的公共机构, 总部位于釜山",
+      "org_id": "KR-GOV-065"
     }
   ],
   "core_business": "韩国海洋水产部是大韩民国负责海洋政策、渔业、海运、港口、海洋环境、海洋安全、极地研究和海洋科学技术研发的中央行政部门。其核心职能涵盖: (1) 海洋安全与海事安全政策; (2) 海洋环境保护与海洋空间管理; (3) 港口和渔港开发管理; (4) 渔业资源可持续利用与水产养殖; (5) 海运物流产业培育与监管; (6) 北极航线等新航路开发; (7) 海洋休闲旅游推广; (8) 极地科学研究。2026年度预算约7.33万亿韩元 (约53亿美元), 同比增长8.1%, 创历史新高。2025年12月从世宗市整体迁至釜山, 成为韩国首个迁往首都圈外的中央政府部门, 以釜山为核心建设'海洋首都圈'。",

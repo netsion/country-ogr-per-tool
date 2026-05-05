@@ -4,9 +4,13 @@
     "name_original": "매일방송",
     "name_zh": "每日经济电视",
     "name_en": "MBN",
-    "aliases": ["Maeil Broadcasting Network", "MBN-CNBC (former name)", "매일경제방송"],
+    "aliases": [
+      "Maeil Broadcasting Network",
+      "MBN-CNBC (former name)",
+      "매일경제방송"
+    ],
     "org_type": "MEDIA",
-    "org_subtype": "cable_tv_network",
+    "org_subtype": "broadcaster",
     "country_iso3": "KOR",
     "hq_country_iso3": "KOR",
     "founded_date": "1993-09-23",
@@ -14,19 +18,19 @@
   },
   "social_accounts": [
     {
-      "platform": "YouTube",
+      "platform": "youtube",
       "account_name": "MBN",
       "url": "https://www.youtube.com/@mbn",
       "source": "https://www.mbn.co.kr"
     },
     {
-      "platform": "Facebook",
+      "platform": "facebook",
       "account_name": "mbnnow",
       "url": "https://www.facebook.com/mbnnow",
       "source": "https://www.mbn.co.kr"
     },
     {
-      "platform": "Instagram",
+      "platform": "instagram",
       "account_name": "@mbn_official",
       "url": "https://www.instagram.com/mbn_official/",
       "source": "https://www.mbn.co.kr"
@@ -40,7 +44,7 @@
       "source": "https://www.mbn.co.kr"
     },
     {
-      "name": "MBN On Air",
+      "name": "MBN在线直播 (MBN On Air)",
       "url": "https://www.mbn.co.kr/vod/onair",
       "description": "MBN实时在线直播平台",
       "source": "https://www.mbn.co.kr"
@@ -48,17 +52,17 @@
   ],
   "key_people": [
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000698",
       "name": "张承俊 (Chang Seung-joon)",
       "title": "代表理事兼社长",
-      "title_description": "CEO",
+      "title_description": "代表理事兼社长，领导频道整体运营与转型",
       "description": "MBN代表理事兼社长，领导频道从新闻专业频道向综合娱乐频道的转型"
     },
     {
-      "person_id": null,
+      "person_id": "KR-PERSON-000699",
       "name": "姜永浩 (Kang Young-ho)",
       "title": "新闻主播兼新闻中心记者",
-      "title_description": "News Anchor & Reporter",
+      "title_description": "新闻主播兼记者，负责新闻节目的主持与报道",
       "description": "MBN新闻中心新任主播，负责MBN新闻节目的主持与报道"
     }
   ],
@@ -88,29 +92,29 @@
   ],
   "related_entities": [
     {
-      "org_id": null,
-      "org_name": "Maeil Business Newspaper (매일경제신문)",
+      "org_id": "KR-MEDIA-034",
+      "org_name": "每日经济新闻 (Maeil Business Newspaper)",
       "org_type": "MEDIA",
       "org_description": "每日经济新闻，MBN的母公司，韩国主要经济类日报",
-      "relationship_type": "parent_company"
+      "relationship_type": "parent_org"
     },
     {
       "org_id": "KR-MEDIA-012",
-      "org_name": "JTBC",
+      "org_name": "JTBC电视台 (JTBC)",
       "org_type": "MEDIA",
       "org_description": "JTBC电视台，与MBN同为韩国四大综合有线频道之一",
-      "relationship_type": "competitor"
+      "relationship_type": "partner"
     },
     {
-      "org_id": null,
-      "org_name": "TV Chosun",
+      "org_id": "KR-MEDIA-023",
+      "org_name": "TV朝鲜 (TV Chosun)",
       "org_type": "MEDIA",
       "org_description": "朝鲜日报旗下有线电视台，与MBN同为四大综合有线频道之一",
-      "relationship_type": "competitor"
+      "relationship_type": "partner"
     }
   ],
   "core_business": "韩国四大全国性综合有线电视频道之一，由每日经济新闻（Maeil Business Newspaper）运营。1993年以财经新闻频道起家，2002-2005年与美国CNBC合作运营MBN-CNBC频道，2011年12月转型为综合娱乐频道。节目涵盖新闻报道、综艺节目、电视剧等。代表节目包括'韩日歌王战'系列（全球首个韩日歌手国际音乐竞赛）、'拇指帝王'、'Good Morning MBN'等新闻与综艺栏目。",
-  "industries": ["有线电视", "节目制作", "新闻广播"],
+  "industries": [],
   "apec_stance": null,
   "profile": "MBN（每日广播，Maeil Broadcasting Network）是韩国四大全国性综合有线频道之一，由每日经济新闻运营。1993年9月作为财经专业频道开播，是韩国有线电视行业首个成功进行卫星传输的频道。2002年与美国CNBC财经频道合作，更名为MBN-CNBC。2005年结束与CNBC的合作，恢复MBN名称。2011年12月转型为综合频道，与JTBC、Channel A、TV Chosun同期开播。总部位于首尔中区退溪路。近年来以综艺节目见长，尤其是'韩日歌王战'系列开创了国际音乐竞赛节目的先河，成为MBN的代表性IP。新闻方面，运营Good Morning MBN、MBN News 7等新闻栏目。",
   "collection_meta": {
