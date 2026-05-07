@@ -1,0 +1,185 @@
+{
+  "org_id": "VN-FIN-011",
+  "basic_info": {
+    "name_original": "Ngân hàng Phát triển Việt Nam",
+    "name_zh": "越南发展银行",
+    "name_en": "Vietnam Development Bank",
+    "aliases": [
+      "VDB",
+      "越南开发银行",
+      "Development Policy Bank"
+    ],
+    "org_type": "FIN",
+    "org_subtype": "commercial_bank",
+    "country_iso3": "VNM",
+    "hq_country_iso3": "VNM",
+    "founded_date": "2006-05-19",
+    "website": "https://vdb.gov.vn/"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "VDB官方网站（越南语）",
+      "url": "https://vdb.gov.vn/",
+      "description": "越南发展银行官方网站，提供业务介绍、法律法规和年报下载",
+      "source": "official_website"
+    },
+    {
+      "name": "VDB官方网站（英语）",
+      "url": "https://en.vdb.gov.vn/",
+      "description": "VDB英文官方网站，介绍银行历史、组织架构、产品服务和国际合作",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "VN-PERSON-000172",
+      "name": "黎文欢 (Lê Văn Hoan)",
+      "title": "董事会主席",
+      "title_description": "VDB董事会主席，负责银行战略方向和重大决策",
+      "description": "担任越南发展银行董事会主席，领导银行执行国家投资信贷和出口信贷政策。"
+    },
+    {
+      "person_id": "VN-PERSON-000156",
+      "name": "陶光长 (Đào Quang Trường)",
+      "title": "总经理",
+      "title_description": "VDB总经理，负责银行日常运营管理",
+      "description": "担任越南发展银行总经理，管理银行在全国的2个交易中心和42个分行，负责投资信贷和出口信贷项目的审批与执行。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "VN-FIN-011-DEPT-001",
+      "name": "投资信贷部",
+      "description": "负责国家投资信贷政策的执行，包括发展投资项目贷款、投资后利息补贴和投资信贷担保"
+    },
+    {
+      "dept_id": "VN-FIN-011-DEPT-002",
+      "name": "出口信贷部",
+      "description": "负责出口信贷、出口信贷担保、投标担保和出口合同履约担保"
+    },
+    {
+      "dept_id": "VN-FIN-011-DEPT-003",
+      "name": "ODA转贷管理部",
+      "description": "负责接收和管理政府委托转贷的ODA优惠贷款"
+    },
+    {
+      "dept_id": "VN-FIN-011-DEPT-004",
+      "name": "资金运营部",
+      "description": "负责银行资金筹集，包括发行政府担保债券和银行债券"
+    },
+    {
+      "dept_id": "VN-FIN-011-DEPT-005",
+      "name": "风险管理部",
+      "description": "负责信贷风险、市场风险和操作风险的识别与管理"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-29",
+      "title": "政府颁布新法令规范VDB组织和运营",
+      "description": "越南政府颁布第95/2025/NĐ-CP号法令，重新规定越南发展银行的组织和运营。新法令明确VDB是政策性银行，由国家100%持股，政府保证其偿付能力。",
+      "impact": "为VDB提供更新的法律框架和更清晰的政策定位",
+      "source": "https://en.vdb.gov.vn/VDB/about-vdb/history"
+    },
+    {
+      "date": "2023-11-01",
+      "title": "VDB与绿色气候基金签署认证主协议",
+      "description": "2023年11月，VDB与绿色气候基金（GCF）签署认证主协议（AMA），正式成为GCF在越南的国家实施机构（NIE），获权直接管理GCF资助的气候项目。",
+      "impact": "VDB获得绿色金融领域的国际资质，将推动越南绿色转型项目融资",
+      "source": "https://en.vdb.gov.vn/VDB/about-vdb/history"
+    },
+    {
+      "date": "2015-09-03",
+      "title": "总理签署VDB组织运营规程",
+      "description": "2015年9月3日，越南总理签署第1515/QD-TTg号决定，颁布VDB组织和运营规程，明确了银行的政策性定位和业务范围。",
+      "impact": "建立VDB现代化治理框架",
+      "source": "https://en.vdb.gov.vn/VDB/about-vdb/history"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "VN-FIN-001",
+      "org_name": "越南国家银行 (State Bank of Vietnam)",
+      "org_type": "FIN",
+      "org_description": "越南央行，负责对VDB进行审慎监管",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "VN-GOV-002",
+      "org_name": "越南社会主义共和国政府",
+      "org_type": "GOV",
+      "org_description": "VDB直属政府管理，政府是100%出资人",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "VN-FIN-010",
+      "org_name": "越南社会政策银行 (VBSP)",
+      "org_type": "FIN",
+      "org_description": "越南两大政策性银行之一，VBSP侧重减贫和社会福利信贷",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "VN-INTL-003",
+      "org_name": "绿色气候基金 (Green Climate Fund)",
+      "org_type": "INTL",
+      "org_description": "VDB于2023年成为GCF在越南的国家实施机构",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "VN-INTL-004",
+      "org_name": "亚洲开发金融机构协会 (ADFIAP)",
+      "org_type": "INTL",
+      "org_description": "VDB自2006年起成为ADFIAP正式成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "VN-INTL-005",
+      "org_name": "亚洲进出口银行论坛 (AEBF)",
+      "org_type": "INTL",
+      "org_description": "VDB自2013年10月起成为AEBF正式成员",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "越南发展银行（VDB）是越南政府直属的政策性银行，成立于2006年5月19日，前身为2000年1月成立的发展援助基金（DAF）。总部位于河内城珠街25A号。VDB是100%国家出资的国有独资有限责任公司，不以营利为目的，不接收居民存款，享受零存款准备金率、免存款保险、免税和政府偿付能力担保等政策优惠。银行注册资本从初始的5,000亿越南盾增至30,000亿越南盾。VDB在全国设有2个交易中心和42个分行。核心业务包括三大板块：一是投资信贷——为国家优先发展领域和困难地区的发展投资项目提供优惠贷款、投资后利息补贴和投资信贷担保；二是出口信贷——为出口企业提供出口贷款、出口信贷担保、投标担保和合同履约担保；三是ODA转贷管理——接收和管理政府委托转贷的国际优惠贷款。2011年被正式认定为发展政策银行。2023年成为绿色气候基金（GCF）在越南的国家实施机构。",
+  "industries": [
+    "financial_services",
+    "banking",
+    "investment"
+  ],
+  "apec_stance": "VDB作为越南的政策性开发金融机构，在APEC区域经济合作中扮演重要角色。银行是亚洲进出口银行论坛（AEBF）和亚洲开发金融机构协会（ADFIAP）的正式成员，与亚太地区开发金融机构保持密切合作。在越南2027年APEC主办年期间，VDB有望在基础设施建设融资、出口促进和可持续发展投资等议题上发挥积极作用。银行在绿色金融领域的资质（GCF国家实施机构）也为越南在APEC绿色转型讨论中增加话语权。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BIDV_RGB.png/330px-BIDV_RGB.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-06",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "web_search"
+    ],
+    "completeness_score": 68,
+    "notes": "Enriched from skeleton. Note: skeleton had wrong logo (BIDV). Key people, departments, recent events, related entities, core_business, apec_stance populated from Vietnamese Wikipedia, English official site, and web search.",
+    "quotes": [
+      {
+        "title": "VDB - Vietnamese Wikipedia",
+        "url": "https://vi.wikipedia.org/wiki/Ng%C3%A2n_h%C3%A0ng_Ph%C3%A1t_tri%E1%BB%83n_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "title": "VDB Official English History Page",
+        "url": "https://en.vdb.gov.vn/VDB/about-vdb/history"
+      },
+      {
+        "title": "VDB Professional Operations",
+        "url": "https://en.vdb.gov.vn/VDB/about-vdb/professional-operations"
+      },
+      {
+        "title": "ADFIAP Member - VDB",
+        "url": "https://asianeximbanks.org/content/member/member-institutions/Vietnam-Development-Bank"
+      }
+    ]
+  }
+}

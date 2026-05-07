@@ -614,15 +614,24 @@ def main():
             skipped += 1
             continue
 
-        cache_file = os.path.join(cache_dir, f"{qid}.json")
-        if not os.path.exists(cache_file):
+        # Try QID-based cache first, then name-based fallback
+        cache_file = None
+        if qid:
+            qid_path = os.path.join(cache_dir, f"{qid}.json")
+            if os.path.exists(qid_path):
+                cache_file = qid_path
+        if not cache_file and name_en:
+            safe_name = name_en.replace(" ", "_").replace("/", "_")
+            name_path = os.path.join(cache_dir, f"{safe_name}.json")
+            if os.path.exists(name_path):
+                cache_file = name_path
+
+        if not cache_file:
             print(f"  NOCACHE: {name_en} ({qid}), generating minimal stub")
             cache_data = {"wikidata": None, "wikipedia": None, "errors": ["no_cache_file"],
                           "source_unavailable": True, "org": org}
         else:
             cache_data = load_json(cache_file)
-
-        cache_data = load_json(cache_file)
         profile = generate_profile(org, cache_data, registry, target_qids_map, next_ids, country_iso, country_iso3)
         org_id = profile["org_id"]
         print(f"  GEN [{i+1}/{len(targets)}]: {name_en} -> {org_id} (score={profile['collection_meta']['completeness_score']})")

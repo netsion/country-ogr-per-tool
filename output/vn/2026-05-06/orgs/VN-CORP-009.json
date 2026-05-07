@@ -1,0 +1,166 @@
+{
+  "org_id": "VN-CORP-009",
+  "basic_info": {
+    "name_original": "Tập đoàn Tài chính-Bảo hiểm Bảo Việt",
+    "name_zh": "保越控股集团",
+    "name_en": "Bao Viet Holdings",
+    "aliases": [
+      "Bảo Việt",
+      "BVH",
+      "Tập đoàn Bảo Việt",
+      "Vietnam Insurance Company"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed",
+    "country_iso3": "VNM",
+    "hq_country_iso3": "VNM",
+    "founded_date": "1964-12-17",
+    "website": "https://www.baoviet.com.vn"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "Bao Viet Online",
+      "url": "https://baovietonline.com.vn",
+      "description": "保越保险在线服务平台，提供保险产品购买和理赔服务",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "VN-PERSON-000164",
+      "name": "黎光平 (Lê Quang Bình)",
+      "title": "董事会主席",
+      "title_description": "保越控股集团董事会主席",
+      "description": "黎光平现任保越控股集团董事会主席，领导越南最大保险公司的战略发展。"
+    },
+    {
+      "person_id": "VN-PERSON-000127",
+      "name": "阮氏福林 (Nguyễn Thị Phúc Lâm)",
+      "title": "总经理",
+      "title_description": "保越控股集团总经理，同时兼任保越证券董事长",
+      "description": "阮氏福林现任保越控股集团总经理（董事），同时兼任旗下保越证券（BVS）的董事长，负责集团保险、证券和银行业务的综合管理。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "VN-CORP-009-DEPT-001",
+      "name": "保越保险有限公司 (Bao Viet Insurance)",
+      "head": null,
+      "description": "非寿险业务部门，提供财产险、车辆险、航空险、工程险等保险产品，为集团1965年成立时的原始业务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "VN-CORP-009-DEPT-002",
+      "name": "保越寿险有限公司 (Bao Viet Life)",
+      "head": null,
+      "description": "寿险业务部门，2004年从保越保险中分立，是越南领先的寿险提供商，2012年市场份额23.9%",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "VN-CORP-009-DEPT-003",
+      "name": "保越基金管理公司 (Bao Viet Fund)",
+      "head": null,
+      "description": "资产管理与投资组合管理部门",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "VN-CORP-009-DEPT-004",
+      "name": "保越证券公司 (Bao Viet Securities/BVS)",
+      "head": null,
+      "description": "证券经纪服务部门，在河内证券交易所上市",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "VN-CORP-009-DEPT-005",
+      "name": "保越银行 (Bao Viet Bank)",
+      "head": null,
+      "description": "银行服务部门，2009年成立，提供基础银行、保险代销和财富管理服务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-01",
+      "title": "保越集团庆祝成立60周年",
+      "description": "保越控股集团于2025年庆祝成立60周年（1965-2025），回顾了从最初20人团队、1000万越南盾资本成长为越南最大保险集团的历程。",
+      "impact": "彰显保越在越南金融保险业的长期领导地位",
+      "source": "https://finance.vietstock.vn/BVH/profile.htm?languageid=2"
+    },
+    {
+      "date": "2009-01-01",
+      "title": "保越控股在胡志明市证券交易所上市",
+      "description": "保越控股集团股票在胡志明市证券交易所上市交易（代码：BVH），成为越南保险业首家上市公司。",
+      "impact": "为保越引入资本市场治理机制和公众投资者",
+      "source": "https://en.wikipedia.org/wiki/Bao_Viet_Holdings"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "VN-GOV-009",
+      "org_name": "越南财政部 (Ministry of Finance)",
+      "org_type": "GOV",
+      "org_description": "保越控股的最大股东，持有71%股份",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "VN-CORP-028",
+      "org_name": "Sumitomo Life (住友生命保险)",
+      "org_type": "CORP",
+      "org_description": "日本保险公司，从HSBC手中收购保越18%股份，成为战略投资者",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "VN-GOV-008",
+      "org_name": "汇丰银行 (HSBC)",
+      "org_type": "CORP",
+      "org_description": "曾持有保越18%股份的国际银行，后转让给住友生命",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "VN-CORP-003",
+      "org_name": "越南乳业 (Vinamilk)",
+      "org_type": "CORP",
+      "org_description": "参与保越银行设立的创始股东之一",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "保越控股集团（BVH）是越南最大的保险集团，也是越南市值第七大上市公司。集团前身为1964年根据政府决定成立的越南保险公司，1965年1月15日开始运营。保越以保险业务为核心，构建了覆盖非寿险（保越保险）、寿险（保越寿险）、基金管理（保越基金）、证券（保越证券）和银行（保越银行）的完整金融服务体系。保越寿险是越南最大的寿险提供商之一，市场份额约23.9%。集团由越南财政部控股71%，住友生命保险持有18%股份。股票在胡志明市证券交易所上市（代码：BVH）。",
+  "industries": [
+    "insurance",
+    "financial_services",
+    "banking",
+    "asset_management"
+  ],
+  "apec_stance": "保越控股作为越南最大的保险集团，在APEC区域金融合作中具有重要地位。集团的战略投资者包括英国的HSBC和日本的住友生命保险，体现了越南金融保险业对亚太资本市场的开放。保越也是越南政府推动金融部门国际化和保险市场改革的重要载体。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/7/76/Bao_Viet_Holdings_logo.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-06",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "web_search"
+    ],
+    "completeness_score": 63,
+    "notes": "Enriched from Wikipedia English, official website and search results. Ownership structure (Ministry of Finance 71%, Sumitomo Life 18%) documented. Five subsidiaries in insurance, life, fund, securities and banking detailed.",
+    "quotes": [
+      {
+        "title": "Bao Viet Holdings - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bao_Viet_Holdings"
+      },
+      {
+        "title": "About Baoviet | Bao Viet",
+        "url": "https://www.baoviet.com.vn/en/about-baoviet"
+      },
+      {
+        "title": "BVH: BaoViet Holdings - VietstockFinance",
+        "url": "https://finance.vietstock.vn/BVH/profile.htm?languageid=2"
+      }
+    ]
+  }
+}
