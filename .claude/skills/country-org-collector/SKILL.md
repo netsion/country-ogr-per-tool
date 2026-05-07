@@ -21,13 +21,13 @@ description: 系统化收集、整理和分析指定国家的重点组织机构�
 
 > 以下规则来自 MY/SG/KR 数据集的实际收集教训，适用于所有国家。
 
-1. **person_id 验证**（Phase 3 Agent 丰富后必做）：逐一检查 key_people 的 person_id 是否指向正确人物——比对 person JSON 中 name_en 与 org key_people 的 name
+1. **person_id 验证**（Phase 3 Agent 丰富后必做）：逐一检查 key_people 的 person_id 是否指向正确人物——比对 person JSON 中 name（本国官方语言）与 org key_people 的 name（中文(本国官方语言)中的括号部分）
 2. **人物去重**（Phase 4 创建前）：先 `grep -r "Q{QID}" persons/` 检查是否已有档案。发现重复时保留内容更丰富的档案并合并，更新所有引用
 3. **名称连锁更新**（修改人物名称时）：修正名称后必须 grep 旧名更新全部位置：person 文件（name/name_zh/biography_summary）、org 文件（key_people[]/departments[]/recent_events[]/core_business）、其他 person 文件（person_relationships[]）、_index.json
-4. **key_people 命名格式**：`中文名 (English name)`，如 `阿末扎希·哈米迪 (Ahmad Zahid Hamidi)`
+4. **key_people 命名格式**：`中文(本国官方语言)`，如 `阮氏芳草 (Nguyễn Thị Phương Thảo)`、`李在明 (이재명)`、`阿末扎希·哈米迪 (Ahmad Zahid Hamidi)`
 5. **JSON 编码**：中文引号用 `「」`；写入后立即 `json.load()` 验证；`end_date` 只允许 `YYYY-MM-DD`/`YYYY-MM`/`YYYY` 或 `null`
 6. **非中文母语人名**：不得使用 Wikidata 机器人批量中文标签（大陆新华社标准），必须使用目标国家本地华文媒体标准译名。详见 `malay_name_zh_guide.md`。验证：`"{name_en} site:sinchew.com.my"`
-7. **多语言名称匹配**（resolve_ids.py）：当 key_people 的名称格式（如 `"柳弘林 (Ryu Hong-lim)"`）与 person 档案的名称格式（如 `"류홍림"`）不同时，resolve_ids.py 会先尝试精确匹配，失败后通过 `decompose_name()` 将复合名称拆解为中/韩/英三个组分逐一匹配索引。generate_name_index.py 同样执行分解，将每个组分都写入 `_name_index.json`，确保跨语言查找成功。
+7. **多语言名称匹配**（resolve_ids.py）：当 key_people 的名称格式（如 `"柳弘林 (Ryu Hong-lim)"`）与 person 档案的名称格式（如 `"류홍림"`（name 本国官方语言））不同时，resolve_ids.py 会先尝试精确匹配，失败后通过 `decompose_name()` 将复合名称拆解为中/韩/英三个组分逐一匹配索引。generate_name_index.py 同样执行分解，将每个组分都写入 `_name_index.json`，确保跨语言查找成功。
 
 ---
 
@@ -128,50 +128,71 @@ prompt 结构：
 
 ## §7 数据输出语言规范
 
-**所有 JSON 输出文件中的描述性文本必须使用中文。**
+### 三种语言格式
 
-### 适用字段
+| 格式标记 | 含义 | 示例 |
+|---------|------|------|
+| **中文** | 纯中文 | `"副部长"`、`"外交政策"` |
+| **中文(本国官方语言)** | 中文在前，括号附本国官方语言原文 | `"副部长 (Thứ trưởng)"`、`"共同民主党 (더불어민주당)"`、`"阮氏芳草 (Nguyễn Thị Phương Thảo)"` |
+| **本国官方语言** | 目标国家官方语言原文 | `"Nguyễn Thị Phương Thảo"`、`"이재명"`、`"Bộ Ngoại giao"` |
 
-以下字段的值必须使用中文撰写（不可使用英文或混合语言）：
+> **括号方向规则**：❌ 禁止 `"더불어민주당 (共同民主党)"`、`"교수 (教授)"`（本地语言在前）。始终中文在前，括号附本地语言。
 
-| 阶段 | 字段 | 说明 |
+### 组织画像字段语言规范
+
+| 字段 | 格式 | 示例 |
 |------|------|------|
-| **组织画像** | `recent_events[].title` | 事件标题，如 "GIC发布2024/25年度报告，20年年化回报率5.7%" |
-| **组织画像** | `recent_events[].description` | 事件描述 |
-| **组织画像** | `recent_events[].impact` | 影响评估 |
-| **组织画像** | `key_people[].title_description` | 职位描述，如 "贸工部部长，兼任副总理和MAS主席" |
-| **组织画像** | `key_people[].description` | 人物描述 |
-| **组织画像** | `related_entities[].org_description` | 关联描述，如 "新加坡央行和金融监管机构" |
-| **组织画像** | `core_business` | 核心业务描述 |
-| **组织画像** | `apec_stance` | APEC立场描述 |
-| **组织画像** | `digital_assets[].name` | 资产名称，如 "MTI官方网站" |
-| **组织画像** | `digital_assets[].description` | 资产描述 |
-| **人物画像** | `biography_summary` | 人物生平概述 |
-| **人物画像** | `major_achievements[].achievement` | 成就描述 |
-| **人物画像** | `political_stances[].topic` | 政治议题，如 "住房政策" |
-| **人物画像** | `political_stances[].stance_content` | 立场内容 |
-| **人物画像** | `person_relationships[].description` | 关系描述 |
-| **人物画像** | `work_experience[].position` | 职位名称 |
+| `basic_info.name_original` | 本国官方语言 | `"Bộ Ngoại giao"` / `"외교부"` / `"Ministry of Foreign Affairs"` |
+| `basic_info.name_en` | 英文 | `"Ministry of Foreign Affairs"` |
+| `basic_info.name_zh` | 中文 | `"外交部"` |
+| `key_people[].name` | 中文(本国官方语言) | `"阮氏芳草 (Nguyễn Thị Phương Thảo)"` / `"李在明 (이재명)"` |
+| `key_people[].title` | 中文 or 中文(本国官方语言) | `"副部长"` or `"副部长 (Thứ trưởng)"` |
+| `key_people[].title_description` | 中文 | `"主管国际合作与条约事务"` |
+| `key_people[].description` | 中文 | `"1968年生，首尔大学经济学博士..."` |
+| `departments[].name` | 中文 or 中文(本国官方语言) | `"企划调整室"` or `"企划调整室 (기획조정실)"` |
+| `departments[].head` | 中文(本国官方语言) | `"金正宽 (Kim Jung-kwan)"` |
+| `departments[].description` | 中文 | `"负责组织内部审计与合规"` |
+| `recent_events[].title` | 中文 | `"GIC发布2024/25年度报告"` |
+| `recent_events[].description` | 中文 | 事件描述 |
+| `recent_events[].impact` | 中文 | 影响评估 |
+| `related_entities[].org_name` | 中文(本国官方语言) | `"共同民主党 (더불어민주당)"` |
+| `related_entities[].org_description` | 中文 | `"韩国最大在野党"` |
+| `core_business` | 中文 | 核心业务描述 |
+| `apec_stance` | 中文 | APEC立场描述 |
+| `digital_assets[].name` | 中文 | `"产业通商部官方网站"` |
+| `digital_assets[].description` | 中文 | 资产描述 |
+| `social_accounts[].url` | URL（保留原文） | |
+| `recent_events[].source` | URL（保留原文） | |
 
-### 保留英文的字段
+### 人物画像字段语言规范
 
-以下字段保持英文或原始语言：
-- `basic_info.name_en` — 英文名
-- `basic_info.name_zh` — 中文名（可空）
+| 字段 | 格式 | 示例 |
+|------|------|------|
+| `name` | 本国官方语言 | `"Nguyễn Thị Phương Thảo"` / `"이재명"` / `"Lawrence Wong"` |
+| `name_en` | 英文 | `"Nguyen Thi Phuong Thao"` / `"Lee Jae-myung"` |
+| `name_zh` | 中文 | `"阮氏芳草"` / `"李在明"` |
+| `current_positions[]` | 中文 | `"外交部副部长"` |
+| `education[].institution` | 中文(本国官方语言) | `"首尔大学 (서울대학교)"` / `"河内国家大学 (ĐHQG Hà Nội)"` |
+| `education[].field` | 中文 | `"经济学"` |
+| `work_experience[].organization` | 中文(本国官方语言) | `"外交部 (Bộ Ngoại giao)"` / `"三星电子 (삼성전자)"` |
+| `work_experience[].position` | 中文 | `"政策规划局局长"` |
+| `political_stances[].topic` | 中文 | `"半导体产业政策"` |
+| `political_stances[].stance_content` | 中文 | 立场内容 |
+| `person_relationships[].person_name` | 中文(本国官方语言) | `"黎明兴 (Lê Minh Hưng)"` |
+| `person_relationships[].description` | 中文 | 关系描述 |
+| `family_members[].name` | 中文(本国官方语言) | `"阮氏金 (Nguyễn Thị Kim)"` |
+| `family_members[].industry_or_organization` | 中文 | `"越南外交部"` |
+| `major_achievements[].organization` | 中文(本国官方语言) | `"大韩民国国会 (대한민국 국회)"` |
+| `major_achievements[].achievement` | 中文 | 成就描述 |
+| `biography_summary` | 中文（200字+） | 人物生平概述 |
+
+### 其他保留原文的字段
+
 - `basic_info.website` — URL
-- `social_accounts.url` — URL
-- `recent_events[].source` — 来源 URL
-- `political_stances[].source` — 来源 URL
+- `political_stances[].source` — URL
+- `social_accounts[].platform` — 英文枚举值
+- `contacts[].type` — 英文枚举值
 - `collection_meta` — 元数据
-
-### 混合情况处理
-
-- **人名**：中文优先，括号附英文。如 `"李显龙 (Lee Hsien Loong)"`
-- **组织名**：`name_zh` 为中文，`name_en` 为英文
-- **专业术语**：可用英文+中文注释，如 `"AI人工智能"`、`"GDP国内生产总值"`
-- **非拉丁字母本地语言**（韩文/日文/泰文等）：描述性字段一律中文在前，括号附本地语言原文。
-  如 `"共同民主党 (더불어민주당)"`、`"教授 (교수)"`、`"延世大学 (연세대학교)"`。
-  ❌ 禁止 `"더불어민주당 (共同民主党)"`、`"교수 (教授)"`（本地语言在前）
 
 > **⚠️ 非中文母语国家人名音译**：对马来语、印尼语、泰语等非中文人名，必须使用**该国本地华文媒体的标准译法**，不得使用大陆新华社音译。马来西亚华文媒体音译标准详见 `malay_name_zh_guide.md`。
 
@@ -614,14 +635,18 @@ recent_events[]:     date | title | description | impact | source
 related_entities[]:  org_id | org_name | org_type | org_description | relationship_type
 digital_assets[]:    name | url | description | source
 
-⚠️ 所有描述性字段必须用中文输出（即使来源是英文/韩文页面，也要翻译为中文）：
+⚠️ 字段语言规范（遵循 §7 三种格式：中文 / 中文(本国官方语言) / 本国官方语言）：
+- key_people[].name → 中文(本国官方语言)（如"阮氏芳草 (Nguyễn Thị Phương Thảo)"、"李在明 (이재명)"）
+- key_people[].title → 中文 or 中文(本国官方语言)（如"副部长" or "副部长 (Thứ trưởng)"）
 - key_people[].title_description → 中文（如"主管产业政策、通商交涉"）
 - key_people[].description → 中文（如"1968年生，首尔大学经济学博士..."）
 - recent_events[].title → 中文（如"主办APEC贸易部长会议"）
 - recent_events[].description → 中文
 - recent_events[].impact → 中文
-- departments[].name → 中文（可括号附原文，如"企划调整室（기획조정실）"）
+- departments[].name → 中文 or 中文(本国官方语言)（如"企划调整室" or "企划调整室 (기획조정실)"）
+- departments[].head → 中文(本国官方语言)（如"金正宽 (Kim Jung-kwan)"）
 - departments[].description → 中文
+- related_entities[].org_name → 中文(本国官方语言)（如"共同民主党 (더불어민주당)"）
 - related_entities[].org_description → 中文
 - digital_assets[].name → 中文（如"产业通商部官方网站"）
 - digital_assets[].description → 中文
@@ -648,7 +673,7 @@ digital_assets[]:    name | url | description | source
   [{"title": "Supreme Court - English Wikipedia", "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_South_Korea"},
    {"title": "대법원 - Korean Wikipedia", "url": "https://ko.wikipedia.org/wiki/대법원"},
    {"title": "大法院官方网站", "url": "https://www.scourt.go.kr"}]
-  ```
+```
   ❌ 禁止写成纯字符串数组 `["url1", "url2"]`
   ❌ 禁止留空 `[]`（至少包含Wikipedia和官网URL）
 - `collection_meta.data_sources` 补充本次实际使用的来源类型（如 `"news_search"`, `"official_website"`）
@@ -676,7 +701,7 @@ digital_assets[]:    name | url | description | source
 
 Phase 3 开始时，主会话创建 `_phase_progress.json` 并在整个阶段维护：
 
-```json
+​```json
 {
   "phase": "P3_org_enrichment",
   "started_at": "2026-04-29T10:00:00",
@@ -800,6 +825,8 @@ python .claude/skills/country-org-collector/scripts/update_person_list.py output
 "{name_en}" site:twitter.com OR site:x.com
 "{name_en}" site:linkedin.com
 "{name_en}" site:instagram.com
+"{name_en}" site:tiktok.com
+"{name_en}" site:youtube.com
 ```
 
 ### 高价值官方来源
@@ -860,23 +887,28 @@ social_accounts[]:      platform | account_name | url | source
 family_members[]:       person_id | name | relationship | industry_or_organization
 contacts[]:             type | value | source
 
-⚠️ 所有描述性字段必须用中文输出（即使来源是英文/其他语言页面，也要翻译为中文）：
+⚠️ 字段语言规范（遵循 §7 三种格式：中文 / 中文(本国官方语言) / 本国官方语言）：
+- name → 本国官方语言（如"Nguyễn Thị Phương Thảo"、"이재명"、"Lawrence Wong"）。不附加中文或英文名
+- name_zh → 中文译名（如"阮氏芳草"、"李在明"）。非中文母语人名须使用该国本地华文媒体标准译法
+- name_en → 英文名（如"Nguyen Thi Phuong Thao"、"Lee Jae-myung"）
 - biography_summary → 中文（200字+）
+- current_positions[] → 中文（如"外交部副部长"）
 - work_experience[].position → 中文（如"经济政策局局长"）
-- work_experience[].organization → 中文（如"企划财政部"）
+- work_experience[].organization → 中文(本国官方语言)（如"外交部 (Bộ Ngoại giao)"、"三星电子 (삼성전자)"）
 - work_experience[].org_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
-- education[].institution → 中文（如"首尔大学"，可括号附英文）
+- education[].institution → 中文(本国官方语言)（如"首尔大学 (서울대학교)"、"河内国家大学 (ĐHQG Hà Nội)"）
 - education[].field → 中文（如"经济学"）
 - political_stances[].topic → 中文（如"半导体产业政策"）
 - political_stances[].stance_content → 中文
+- person_relationships[].person_name → 中文(本国官方语言)（如"黎明兴 (Lê Minh Hưng)"、"李在明 (이재명)"）
 - person_relationships[].description → 中文
 - person_relationships[].person_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
+- family_members[].name → 中文(本国官方语言)（如"阮氏金 (Nguyễn Thị Kim)"）。必须是真实全名
 - family_members[].person_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
+- family_members[].industry_or_organization → 中文（如"越南外交部"）
 - major_achievements[].achievement → 中文
-- major_achievements[].organization → 中文（如"大韩民国国会"、"共同民主党"）
-- name 格式：中文优先，括号附英文/本地语言，如"金正宽 (Kim Jung-kwan)"、"李在明 (이재명)"
-- 非英语国家描述性字段括号格式：中文 (本地语言)，如"共同民主党 (더불어민주당)"、"教授 (교수)"
-  ❌ 禁止本地语言在前："이재명 (李在明)"、"더불어민주당 (共同民主党)"
+- major_achievements[].organization → 中文(本国官方语言)（如"大韩民国国会 (대한민국 국회)"）
+- 括号方向规则：中文在前，括号附本国官方语言。❌ 禁止本地语言在前："이재명 (李在明)"
 - social_accounts[].platform 保留英文枚举值
 - 所有 URL 保留原样
 
@@ -913,18 +945,24 @@ contacts[]:             type | value | source
 | nationality 非标准 | `"KR"` / `"JP"` / `"US"` | `"韩国"`, `"日本"`, `"大韩民国"` |
 | top-level 多余字段 | 仅用 schema 定义的字段 | `photo_url`, `importance_level`, `party`, `role` 等自创字段 |
 | org_id / person_id | `"KR-PARTY-001"` / `null` | `""` (空字符串) |
+| person name 格式 | `"Nguyễn Thị Phương Thảo"` / `"이재명"` (本国官方语言) | `"阮氏芳草 (Nguyễn Thị Phương Thảo)"` / `"李在明 (이재명)"` (中文开头) |
+| person_relationships person_name | `"黎明兴 (Lê Minh Hưng)"` (中文在前) | `"Lê Minh Hưng"` (纯本地语言) / `"黎明兴"` (纯中文) |
 
 写入后自检清单（在写文件前逐条验证）：
-1. 所有 degree 值是否在枚举列表内？中文/韩文 degree → 改为英文 enum 或 null
-2. 所有 platform 值是否小写英文枚举？"Facebook" → "facebook"
-3. 所有 contacts[].type 是否在枚举列表内？"office_phone" → "phone"
-4. nationality 是否为 ISO 3166-1 alpha-2？"韩国" → "KR"
-5. 是否存在非 schema 定义的 top-level 字段？有则删除
-6. 所有日期字段是否独立（非范围格式）？"1998-2002" → start_date="1998", end_date="2002"
+1. name 是否为本国官方语言？"阮氏芳草 (Nguyễn Thị Phương Thảo)" → "Nguyễn Thị Phương Thảo"
+2. name_zh 是否为纯中文？"Nguyễn Thị Phương Thảo" → "阮氏芳草"
+3. person_relationships[].person_name / family_members[].name 是否为"中文(本国官方语言)"格式？
+4. work_experience[].organization / education[].institution 是否为"中文(本国官方语言)"格式？
+5. 所有 degree 值是否在枚举列表内？中文/韩文 degree → 改为英文 enum 或 null
+6. 所有 platform 值是否小写英文枚举？"Facebook" → "facebook"
+7. 所有 contacts[].type 是否在枚举列表内？"office_phone" → "phone"
+8. nationality 是否为 ISO 3166-1 alpha-2？"韩国" → "KR"
+9. 是否存在非 schema 定义的 top-level 字段？有则删除
+10. 所有日期字段是否独立（非范围格式）？"1998-2002" → start_date="1998", end_date="2002"
 
 必填字段禁止为空（无法填写则整条记录删除，不要写入空壳条目）：
 - `person_relationships[].person_name` — 不知道名字就不写这条关系
-- `family_members[].name` — 必须是真实全名（如"金惠京"、"张旭"）。以下均为无效占位符，出现任何一种则删除该条：`未公开`、`姓名未公开`、`不详`、`未知`、纯关系词（`配偶`/`长子`/`次子`/`长女`/`次女`/`父亲`/`母亲`/`儿子`/`女儿`/`三子`）、仅姓氏（`李氏`/`赵氏`/`韩氏`）、括号描述（`（一子）`/`（妻子）`/`（长女）`）、关系+出生信息（`长女（2006年出生）`/`长子（约1994年生）`）。不确定姓名就宁可不写这条。
+- `family_members[].name` — 必须是真实全名，使用中文(本国官方语言)格式（如"金惠京 (Kim Hye-kyung)"、"阮氏金 (Nguyễn Thị Kim)"）。以下均为无效占位符，出现任何一种则删除该条：`未公开`、`姓名未公开`、`不详`、`未知`、纯关系词（`配偶`/`长子`/`次子`/`长女`/`次女`/`父亲`/`母亲`/`儿子`/`女儿`/`三子`）、仅姓氏（`李氏`/`赵氏`/`韩氏`）、括号描述（`（一子）`/`（妻子）`/`（长女）`）、关系+出生信息（`长女（2006年出生）`/`长子（约1994年生）`）。不确定姓名就宁可不写这条。
 - `political_stances[].stance_content` — 没有内容就不写这条
 - `major_achievements[].achievement` — 没有描述就不写这条
 
@@ -940,8 +978,9 @@ ID 规则：
   → work_experience 中 organization="共同民主党 (더불어민주당)" 的 org_id 应为 `"KR-PARTY-001"`
   _name_index.json 中有 `{"이재명": "KR-PERSON-000098", "李在明": "KR-PERSON-000098"}`
   → person_relationships 中 person_name="李在明 (이재명)" 的 person_id 应为 `"KR-PERSON-000098"`
+  → person 档案的 name 字段应为 `"이재명"`（本国官方语言），name_zh 应为 `"李在明"`（中文）
 
-完成后报告：列出所有命中的 ID 映射（如"共同民主党 → KR-PARTY-001，李在明 → KR-PERSON-000098"），未命中的写明"未命中→null"。
+完成后报告：列出所有命中的 ID 映射（如"共同民主党 → KR-PARTY-001，이재명 → KR-PERSON-000098"），未命中的写明"未命中→null"。
 
 第三步：将完整画像写入文件路径 {filepath}
 
@@ -950,7 +989,7 @@ ID 规则：
   ```json
   [{"title": "Lee Jae-myung - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lee_Jae-myung"},
    {"title": "이재명 - Korean Wikipedia", "url": "https://ko.wikipedia.org/wiki/이재명"}]
-  ```
+```
   ❌ 禁止写成纯字符串数组 `["url1", "url2"]`
   ❌ 禁止留空 `[]`
 - `collection_meta.data_sources` 补充本次实际使用的来源类型
@@ -974,7 +1013,7 @@ ID 规则：
 |--------|------|-----------|
 | org_id / person_id 含空字符串 `""` | 0 个 | 替换为 `null` |
 | 描述性字段本地语言在括号外 | 0 个 | 交换为中文在前，如 `"더불어민주당 (共同民主党)"` → `"共同民主党 (더불어민주당)"` |
-| major_achievements[].organization 非中文 | 0 个 | 翻译为中文 |
+| major_achievements[].organization 非中文(本国官方语言) | 0 个 | 改为中文(本国官方语言)格式，如 `"대한민국 국회"` → `"大韩民国国会 (대한민국 국회)"` |
 | biography_summary 为英文 | 0 个 | 派子代理重新搜索补充中文 |
 | biography_summary 为空 | 0 个（high/medium） | 派子代理重新搜索补充 |
 | JSON 解析失败 | 0 个 | 修复弯引号 |
@@ -985,7 +1024,7 @@ ID 规则：
 
 Phase 4 开始时，主会话创建或复用 `_phase_progress.json`：
 
-```json
+​```json
 {
   "phase": "P4_person_enrichment",
   "started_at": "2026-04-29T11:00:00",
