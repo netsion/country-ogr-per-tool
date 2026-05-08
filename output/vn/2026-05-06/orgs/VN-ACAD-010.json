@@ -1,16 +1,18 @@
 {
-  "org_id": "VN-GOV-020",
+  "org_id": "VN-ACAD-010",
   "basic_info": {
-    "name_original": "Ministry of Finance",
-    "name_zh": "尼日尔财政部长",
-    "name_en": "Ministry of Finance",
-    "aliases": [],
-    "org_type": "GOV",
-    "org_subtype": "ministry",
+    "name_original": "Vietnamese-German University",
+    "name_zh": "越德大學",
+    "name_en": "Vietnamese-German University",
+    "aliases": [
+      "VGU"
+    ],
+    "org_type": "ACAD",
+    "org_subtype": "university",
     "country_iso3": "VNM",
     "hq_country_iso3": "VNM",
-    "founded_date": null,
-    "website": null
+    "founded_date": "2008-01-01",
+    "website": "http://www.vgu.edu.vn"
   },
   "social_accounts": [],
   "digital_assets": [],
@@ -20,11 +22,11 @@
   "related_entities": [],
   "core_business": null,
   "industries": [
-    "public_administration"
+    "higher_education"
   ],
   "apec_stance": null,
   "profile": {
-    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ministere_de_Finance_Niamey_2.JPG/330px-Ministere_de_Finance_Niamey_2.JPG",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/VGU03.jpg/330px-VGU03.jpg",
     "local_path": null
   },
   "collection_meta": {
@@ -32,9 +34,10 @@
     "phase": "phase2_skeleton",
     "data_sources": [
       "wikidata",
-      "wikipedia"
+      "wikipedia",
+      "official_website"
     ],
-    "completeness_score": 12,
+    "completeness_score": 15,
     "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
   }
 }
