@@ -1,0 +1,252 @@
+{
+  "org_id": "CA-MIL-001",
+  "basic_info": {
+    "name_original": "Canadian Armed Forces",
+    "name_zh": "加拿大武装部队",
+    "name_en": "Canadian Armed Forces",
+    "aliases": [
+      "CAF",
+      "FAC",
+      "Forces armées canadiennes",
+      "Forces canadiennes",
+      "Canadian Forces"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "founded_date": "1968-02-01",
+    "website": "https://www.canada.ca/en/services/defence/caf.html"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "CanadianForces",
+      "url": "https://twitter.com/CanadianForces",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "canadianforces",
+      "url": "https://facebook.com/canadianforces",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UCzTbNrfcJbSVrZwh8--_COA",
+      "url": "https://youtube.com/channel/UCzTbNrfcJbSVrZwh8--_COA",
+      "source": "wikidata"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Canadian Armed Forces Official Recruitment",
+      "url": "https://forces.ca/",
+      "description": "Official recruitment portal for the Canadian Armed Forces, providing information on careers, eligibility, and enrollment",
+      "source": "official_website"
+    },
+    {
+      "name": "Combat Camera",
+      "url": "http://www.combatcamera.forces.gc.ca",
+      "description": "Official Canadian Armed Forces photo and multimedia repository",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000243",
+      "name": "珍妮·卡里尼安(Jennie Carignan)",
+      "title": "国防参谋长(Chief of the Defence Staff)",
+      "title_description": "加拿大武装部队最高军职长官,负责全军的战略指挥与军事行动管理",
+      "description": "2024年7月就任,成为加拿大历史上首位女性国防参谋长。毕业于皇家军事学院,曾参与阿富汗战争、波斯尼亚等多次海外军事行动"
+    },
+    {
+      "person_id": "CA-PERSON-000140",
+      "name": "大卫·麦坚迪(David McGuinty)",
+      "title": "国防部长(Minister of National Defence)",
+      "title_description": "加拿大联邦内阁成员,负责国防政策制定与国防部行政管理",
+      "description": "加拿大联邦国会议员,2025年由总理马克·卡尼任命为国防部长"
+    },
+    {
+      "person_id": "CA-PERSON-000244",
+      "name": "斯蒂芬·凯尔西(Stephen Kelsey)",
+      "title": "副总参谋长(Vice Chief of the Defence Staff)",
+      "title_description": "协助国防参谋长管理国防总部事务,确保政策与战略目标得以落实",
+      "description": "中将军衔,负责协调国防部政策执行及总部运作"
+    },
+    {
+      "person_id": "CA-PERSON-000245",
+      "name": "鲍勃·麦卡恩(Bob McCann)",
+      "title": "总军士长(Chief Warrant Officer)",
+      "title_description": "加拿大武装部队中最高级别的非委任军官,代表全体士兵向高级领导层提供咨询",
+      "description": "资深非委任军官,担任全军士兵与领导层之间的桥梁"
+    }
+  ],
+  "departments": [
+    {
+      "name": "皇家加拿大海军(Royal Canadian Navy)",
+      "dept_id": "CA-MIL-001-DEPT-001",
+      "head": "副海军上将 安格斯·托普希(Angus Topshee)",
+      "description": "加拿大武装部队的海上作战力量,负责海军舰队作战、海上巡逻与海洋主权维护",
+      "parent_dept_id": null
+    },
+    {
+      "name": "加拿大陆军(Canadian Army)",
+      "dept_id": "CA-MIL-001-DEPT-002",
+      "head": "中将 迈克尔·赖特(Michael Wright)",
+      "description": "加拿大武装部队的陆地作战力量,由四个地理师和训练中心组成,负责地面军事行动",
+      "parent_dept_id": null
+    },
+    {
+      "name": "加拿大皇家空军(Royal Canadian Air Force)",
+      "dept_id": "CA-MIL-001-DEPT-003",
+      "head": "中将 杰米·斯派瑟-布兰切特(Jamie Speiser-Blanchet)",
+      "description": "加拿大武装部队的航空与太空作战力量,负责领空防御、空运支援及搜救任务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "加拿大特种作战部队司令部(CANSOFCOM)",
+      "dept_id": "CA-MIL-001-DEPT-004",
+      "head": null,
+      "description": "统辖加拿大特种作战力量,包括联合特遣队2(JTF2)、加拿大特种作战团等精锐部队",
+      "parent_dept_id": null
+    },
+    {
+      "name": "加拿大联合作战司令部(CJOC)",
+      "dept_id": "CA-MIL-001-DEPT-005",
+      "head": null,
+      "description": "负责指挥加拿大境内、北美及全球范围内的大多数军事行动,包括国内应急响应和海外部署",
+      "parent_dept_id": null
+    },
+    {
+      "name": "加拿大部队情报司令部(CFINTCOM)",
+      "dept_id": "CA-MIL-001-DEPT-006",
+      "head": null,
+      "description": "为加拿大国家安全目标提供可信、及时的国防情报能力、产品和服务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "军事人事司令部(MILPERSCOM)",
+      "dept_id": "CA-MIL-001-DEPT-007",
+      "head": null,
+      "description": "负责加拿大武装部队所有军事人员管理事务,包括招募、训练、医疗与转业",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-03-26",
+      "title": "加拿大实现北约2%国防支出目标",
+      "description": "总理马克·卡尼宣布加拿大在2025-26财年正式达到北约2%GDP国防支出基准,总支出超过630亿加元,较此前大幅提升",
+      "impact": "标志着加拿大结束多年未达标状态,国防投入实现历史性增长,为部队现代化提供资金保障",
+      "source": "https://www.pm.gc.ca/en/news/news-releases/2026/03/26/prime-minister-carney-announces-canada-has-achieved-nato-2-defence"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "加拿大武装部队创下30年来最高招募纪录",
+      "description": "2025/26财年CAF招募7,310名常规部队成员,超过6,957人的目标,为30年来最高水平;申请人数达44,818人,是2023/24年的三倍多",
+      "impact": "扭转了长期招募不足的趋势,在特朗普威胁和全球安全形势变化的背景下大幅提升兵力补充能力",
+      "source": "https://www.canada.ca/en/department-national-defence/news/2026/04/canadian-armed-forces-reach-highest-recruitment-in-30-years.html"
+    },
+    {
+      "date": "2025-05-30",
+      "title": "国防参谋长签署预备役扩编至40万人的指令",
+      "description": "国防参谋长卡里尼安与国防部副部长签署指令,计划将预备役从28,000人扩大到400,000人,其中10万编入主力预备役,30万编入补充预备役",
+      "impact": "大幅扩充后备军事力量,提升国家应对大规模冲突的动员能力",
+      "source": "https://ca.news.yahoo.com/more-public-servants-needed-administer-080039390.html"
+    },
+    {
+      "date": "2024-07-18",
+      "title": "珍妮·卡里尼安就任国防参谋长",
+      "description": "珍妮·卡里尼安将军正式接任加拿大武装部队国防参谋长,成为加拿大历史上首位担任此职的女性",
+      "impact": "开创加拿大军事领导层的里程碑,标志着军队高层多元化取得突破",
+      "source": "https://vanguardcanada.com/general-jennie-carignan-takes-the-helm-as-chief-of-the-defence-staff/"
+    },
+    {
+      "date": "2026-02-17",
+      "title": "加拿大启动首个国防工业战略",
+      "description": "总理卡尼宣布启动加拿大首个国防工业战略,计划将国防投资增至GDP的5%(到2035年),并为全体部队成员加薪",
+      "impact": "推动加拿大国防工业自主化,强化军工供应链与战略自主能力",
+      "source": "https://www.pm.gc.ca/en/news/news-releases/2026/02/17/prime-minister-carney-launches-canadas-first-defence-industrial"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-GOV-001",
+      "org_name": "加拿大政府(Government of Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦政府,是加拿大武装部队的最高行政主管",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CA-GOV-008",
+      "org_name": "国防部(Department of National Defence)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦国防部,负责国防政策制定和武装部队的行政管理",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "CA-MIL-002",
+      "org_name": "皇家加拿大海军(Royal Canadian Navy)",
+      "org_type": "MIL",
+      "org_description": "加拿大武装部队的海上作战司令部,负责海军舰队与海上行动",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-MIL-003",
+      "org_name": "加拿大陆军(Canadian Army)",
+      "org_type": "MIL",
+      "org_description": "加拿大武装部队的陆地作战司令部,由四个地理师组成",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-MIL-004",
+      "org_name": "加拿大皇家空军(Royal Canadian Air Force)",
+      "org_type": "MIL",
+      "org_description": "加拿大武装部队的航空与太空作战司令部,负责空防与空运",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-MIL-005",
+      "org_name": "加拿大特种作战部队司令部(CANSOFCOM)",
+      "org_type": "MIL",
+      "org_description": "统辖加拿大特种作战力量的联合作战司令部",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "加拿大武装部队是加拿大的统一军事力量,由皇家加拿大海军、加拿大陆军和加拿大皇家空军三大军种以及加拿大特种作战部队司令部等组成。总兵力约67,825名现役人员和32,440名预备役人员,2026年国防预算约377.5亿美元(占GDP的1.6%,含更广义防务支出则达2%)。其核心使命包括:保卫加拿大本土领土与领海安全;与美军合作维护北美大陆防务(通过北美防空司令部NORAD);参与联合国和北约主导的国际安全行动。加拿大武装部队是一支专业志愿军队,在冷战结束后深度参与阿富汗战争、科索沃战争、利比亚干预以及反伊斯兰国联盟等军事行动,同时也是联合国维和行动的传统重要贡献者。近年来,面对全球安全格局剧变,加拿大正加速军事现代化,大幅提升国防支出,扩大招募规模,并推进F-35战斗机、新型护卫舰、新型潜艇等重大装备采购项目。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": "加拿大作为APEC成员国,其武装部队在亚太安全事务中发挥日益重要的角色。加拿大海军定期参与南海及西太平洋航行自由行动,空军部署CP-140极光巡逻机执行亚太海上监控任务。加拿大积极参与亚太地区的双边与多边军事合作,包括与日本、韩国、澳大利亚等国的联合演习。在印太战略框架下,加拿大强化了在该地区的军事存在,推动与APEC经济体的防务合作,同时关注南海航行自由、朝鲜半岛安全及台海稳定等议题。加拿大国防政策将印太地区视为战略优先,持续加大资源投入。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Badge_of_the_Canadian_Armed_Forces.png/330px-Badge_of_the_Canadian_Armed_Forces.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "wikidata",
+      "web_search"
+    ],
+    "completeness_score": 92,
+    "notes": "Enriched with detailed organizational structure, key people, recent events including NATO 2% milestone and recruitment surge",
+    "quotes": [
+      {
+        "title": "Canadian Armed Forces reach highest recruitment in 30 years",
+        "url": "https://www.canada.ca/en/department-national-defence/news/2026/04/canadian-armed-forces-reach-highest-recruitment-in-30-years.html"
+      },
+      {
+        "title": "Prime Minister Carney announces Canada has achieved the NATO 2% defence spending target",
+        "url": "https://www.pm.gc.ca/en/news/news-releases/2026/03/26/prime-minister-carney-announces-canada-has-achieved-nato-2-defence"
+      },
+      {
+        "title": "General Jennie Carignan Takes the Helm as Chief of the Defence Staff",
+        "url": "https://vanguardcanada.com/general-jennie-carignan-takes-the-helm-as-chief-of-the-defence-staff/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "org_id": "CA-SOE-008",
+  "org_type": "SOE",
+  "org_subtype": "state_owned_enterprise",
+  "basic_info": {
+    "name_original": "Canada Mortgage and Housing Corporation",
+    "name_en": "Canada Mortgage and Housing Corporation",
+    "name_zh": "加拿大抵押贷款和住房公司",
+    "aliases": [
+      "CMHC",
+      "SCHL",
+      "Societe canadienne d'hypotheques et de logement"
+    ],
+    "description": "Canada's national housing agency and crown corporation responsible for administering the National Housing Act, providing mortgage loan insurance, affordable housing programs, and housing research.",
+    "founded_date": "1946-01-01",
+    "headquarters": "Ottawa, Ontario",
+    "country": "CA",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "website": "https://www.cmhc-schl.gc.ca/"
+  },
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000328",
+      "name": "科尔琳·沃尔克 (Coleen Volk)",
+      "title": "总裁兼首席执行官 (President and CEO)",
+      "title_description": "负责CMHC整体战略方向和运营管理",
+      "description": "2024年6月就任CMHC总裁兼首席执行官，拥有丰富的联邦和省级政府高管经验，曾在阿尔伯塔省政府和加拿大联邦政府担任高级职务，也曾有私营部门工作经历。1996年至2005年期间曾在CMHC任职。"
+    },
+    {
+      "person_id": "CA-PERSON-000329",
+      "name": "唐·艾弗森 (Don Iveson)",
+      "title": "董事会主席 (Chair of the Board of Directors)",
+      "title_description": "领导董事会治理和战略监督",
+      "description": "2024年6月被任命为CMHC董事会主席。前埃德蒙顿市长（2013-2021），Civic Good创始人，在气候政策和城市发展领域具有丰富的战略顾问经验。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "住房融资部 (Housing Finance)",
+      "dept_id": "CA-SOE-008-DEPT-001",
+      "head": null,
+      "description": "负责管理抵押贷款保险、证券化项目和加拿大抵押债券发行，为贷款机构提供可靠的抵押贷款资金获取渠道。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "住房研究与数据分析部 (Housing Research and Data)",
+      "dept_id": "CA-SOE-008-DEPT-002",
+      "head": null,
+      "description": "提供住房市场分析、预测和研究成果，涵盖地方、省级和国家层面，支持政策制定和商业决策。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "可负担住房项目部 (Affordable Housing Programs)",
+      "dept_id": "CA-SOE-008-DEPT-003",
+      "head": null,
+      "description": "代表加拿大政府管理可负担住房项目，包括社会住房补贴、首次购房激励计划和原住民住房项目，年度投资约20亿加元。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "多单元住宅保险部 (Multi-Unit Insurance)",
+      "dept_id": "CA-SOE-008-DEPT-004",
+      "head": null,
+      "description": "负责管理多单元住宅抵押贷款保险业务，包括大型租赁公寓、学生住房和养老院，是加拿大唯一的多单元住宅抵押贷款保险提供者。",
+      "parent_dept_id": null
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-GOV-001",
+      "org_name": "加拿大政府 (Government of Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦政府",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CA-GOV-006",
+      "org_name": "加拿大财政部 (Department of Finance Canada)",
+      "org_type": "GOV",
+      "org_description": "负责联邦财政政策的政府部门",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "CA-SOE-001",
+      "org_name": "加拿大银行 (Bank of Canada)",
+      "org_type": "SOE",
+      "org_description": "加拿大央行，负责货币政策",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-FIN-001",
+      "org_name": "加拿大皇家银行 (Royal Bank of Canada)",
+      "org_type": "FIN",
+      "org_description": "加拿大最大银行",
+      "relationship_type": "customer"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-06",
+      "title": "CMHC发布2025年度报告",
+      "description": "CMHC发布2025年度报告，显示2025年为超过64,000名购房者提供了抵押贷款保险（较2024年的49,000人增长31%），保险总额达4,710亿加元，较上年增加310亿加元。通过商业融资和抵押保险产品支持了超过361,000套住房的融资。",
+      "impact": "抵押贷款保险业务显著增长，反映在贸易紧张和经济不确定性下CMHC对加拿大住房金融体系的关键支撑作用。",
+      "source": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/cmhc-releases-annual-report-2025"
+    },
+    {
+      "date": "2026-03-11",
+      "title": "CMHC发布2026年春季住房供应报告",
+      "description": "加拿大2025年住房开工量增长6%，受创纪录的租赁公寓建设和中型住宅增长推动。但报告预测2026至2028年开工量将下降，原因是高建筑成本、收紧的融资条件和延迟的需求。",
+      "impact": "虽然短期住房供应有所改善，但中长期供应前景仍面临挑战，与实现2035年前每年需建成43至48万套住房的目标相距甚远。",
+      "source": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/spring-2026-housing-supply-report"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "CMHC发布2026年住房市场展望",
+      "description": "CMHC预测2026年加拿大住房市场销售将有所回升但仍将保持低迷，经济不确定性和美国关税影响导致市场面临可能的衰退风险。",
+      "impact": "住房市场前景不确定性加大，贸易战对住房需求和建筑活动的负面影响可能持续。",
+      "source": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/housing-market-outlook"
+    },
+    {
+      "date": "2025-03-11",
+      "title": "CMHC发布住房供应短缺新框架报告",
+      "description": "CMHC更新住房供应估算，呼吁到2035年每年新建43万至48万套住房以满足需求，接近当前开工量的两倍。报告强调住房建设生产率持续下降的问题。",
+      "impact": "为加拿大住房政策制定提供了关键数据基准，凸显了大幅提升住房建设规模的紧迫性。",
+      "source": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/housing-research/research-reports/accelerate-supply/canadas-housing-supply-shortages-new-framework/2025-canadas-housing-supply-shortages-new-framework-en.pdf"
+    },
+    {
+      "date": "2024-06-14",
+      "title": "加拿大政府任命CMHC新总裁兼CEO及董事会主席",
+      "description": "联邦政府任命科尔琳·沃尔克（Coleen Volk）为CMHC新任总裁兼首席执行官，唐·艾弗森（Don Iveson）为董事会主席，同时任命多名新董事会成员。此次领导层更迭正值加拿大面临严峻住房危机之际。",
+      "impact": "新领导团队上任后需应对住房可负担性危机、抵押贷款拖欠率上升等多重挑战。",
+      "source": "https://www.canada.ca/en/housing-infrastructure-communities/news/2024/06/government-of-canada-appoints-canada-mortgage-and-housing-corporation-president-chair-of-the-board-of-directors-and-new-board-members.html"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@CMHC_ca",
+      "url": "https://x.com/CMHC_ca",
+      "source": "official website footer"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Canada Mortgage and Housing Corporation (CMHC)",
+      "url": "https://www.linkedin.com/company/cmhc-schl/",
+      "source": "official website footer"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "CMHC",
+      "url": "https://www.facebook.com/cmhc.schl",
+      "source": "official website footer"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "CMHC",
+      "url": "https://www.youtube.com/user/cmhc",
+      "source": "official website footer"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@cmhc_schl",
+      "url": "https://www.instagram.com/cmhc_schl/",
+      "source": "official website footer"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "CMHC Housing Supply Report (Spring 2026)",
+      "url": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/housing-supply-report",
+      "description": "CMHC春季住房供应报告，提供加拿大主要城市新住房供应的最新洞察",
+      "source": "official website"
+    },
+    {
+      "name": "CMHC Housing Market Outlook 2026",
+      "url": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/housing-market-outlook",
+      "description": "2026年住房市场展望，涵盖新建设、转售和租赁市场的主要趋势",
+      "source": "official website"
+    },
+    {
+      "name": "Housing Design Catalogue",
+      "url": "https://www.housingcatalogue.cmhc-schl.gc.ca/",
+      "description": "标准化住房设计目录，旨在使住房建设更简便、更快速",
+      "source": "official website"
+    }
+  ],
+  "industries": [
+    "real_estate",
+    "financial_services",
+    "insurance",
+    "urban_planning",
+    "construction",
+    "research_development",
+    "public_administration"
+  ],
+  "core_business": "加拿大抵押贷款和住房公司（CMHC）是加拿大联邦皇家公司，也是加拿大最大的皇冠公司（按资产计），截至2021年第二季度资产达2,950亿加元。CMHC的核心业务涵盖三大领域：一是住房金融服务，作为加拿大主要的抵押贷款保险提供者，为首付低于20%的购房者提供强制性的抵押违约保险，同时通过证券化项目（包括加拿大抵押债券和国家住房法抵押支持证券）为金融机构提供低成本抵押贷款资金，目前在保抵押证券总额接近5,000亿加元；二是可负担住房项目管理，代表联邦政府每年投资约20亿加元用于社会住房补贴、首次购房激励计划、原住民住房项目等，承诺已超过144亿加元用于支持新建超过56,900套住房和修复现有住房；三是住房研究与数据服务，定期发布住房市场分析、预测和供应报告，为政府政策制定和行业决策提供权威参考。CMHC于1946年成立，最初旨在为二战退伍军人提供住房，80年来已发展成为加拿大住房体系中不可或缺的核心机构。",
+  "apec_stance": "CMHC作为加拿大国家住房机构，在国际住房金融领域发挥重要作用。CMHC是国际住房融资联盟（International Union for Housing Finance）成员，并主办住房金融研讨会等国际学术活动。CMHC曾通过CMHC International（前身为Canadian Housing Export Centre）向国际市场分享加拿大的住房资源和专业知识。CMHC的研究框架和住房政策经验对APEC经济体中面临住房可负担性挑战的成员（如澳大利亚、新西兰、日本、韩国等）具有参考价值。其推动的可持续建筑技术、节能住房改造和住房金融创新等议题与APEC在可持续城市化和包容性增长方面的议程高度契合。",
+  "contacts": [],
+  "collection_meta": {
+    "phase": "phase3_enriched",
+    "collection_date": "2026-05-11",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "news_search",
+      "web_search",
+      "annual_report"
+    ],
+    "completeness_score": 85,
+    "quotes": [
+      {
+        "title": "Canada Mortgage and Housing Corporation - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Canada_Mortgage_and_Housing_Corporation"
+      },
+      {
+        "title": "CMHC official website",
+        "url": "https://www.cmhc-schl.gc.ca/"
+      },
+      {
+        "title": "CMHC releases Annual Report for 2025",
+        "url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/cmhc-releases-annual-report-2025"
+      },
+      {
+        "title": "Spring 2026 Housing Supply Report",
+        "url": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/housing-supply-report"
+      },
+      {
+        "title": "Coleen Volk, President and CEO - CMHC",
+        "url": "https://www.cmhc-schl.gc.ca/about-us/management-and-governance/board-of-directors-and-its-committees/coleen-volk-profile"
+      },
+      {
+        "title": "Government of Canada appoints CMHC President and Board Chair",
+        "url": "https://www.canada.ca/en/housing-infrastructure-communities/news/2024/06/government-of-canada-appoints-canada-mortgage-and-housing-corporation-president-chair-of-the-board-of-directors-and-new-board-members.html"
+      },
+      {
+        "title": "CMHC 2025 Annual Report",
+        "url": "https://www.cmhc-schl.gc.ca/about-us/corporate-reporting/cmhc-annual-report"
+      }
+    ],
+    "wikidata_qid": "Q3487710"
+  }
+}

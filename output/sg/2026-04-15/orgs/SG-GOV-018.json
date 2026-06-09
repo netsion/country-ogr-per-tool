@@ -1,12 +1,11 @@
 {
   "org_id": "SG-GOV-018",
   "basic_info": {
-    "name_original": "貪污調查局",
-    "name_zh": "貪污調查局",
+    "name_original": "Corrupt Practices Investigation Bureau",
+    "name_zh": "贪污调查局",
     "name_en": "Corrupt Practices Investigation Bureau",
     "aliases": [
       "CPIB",
-      "貪污調查局",
       "贪污调查局",
       "Biro Siasatan Amalan Rasuah"
     ],
@@ -14,7 +13,7 @@
     "org_subtype": "independent_organ",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1952-01-01",
+    "founded_date": "1952-09-01",
     "website": "https://www.cpib.gov.sg/"
   },
   "social_accounts": [
@@ -22,124 +21,264 @@
       "platform": "facebook",
       "account_name": "cpibsg",
       "url": "https://www.facebook.com/cpibsg",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "twitter_x",
-      "account_name": "@CPIBSingapore",
+      "account_name": "CPIBSingapore",
       "url": "https://twitter.com/CPIBSingapore",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
       "account_name": "CPIB",
       "url": "https://www.linkedin.com/company/cpib",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "youtube",
       "account_name": "CPIB Singapore",
       "url": "https://www.youtube.com/@cpibsingapore",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
-      "account_name": "@cpibsingapore",
+      "account_name": "cpibsingapore",
       "url": "https://www.instagram.com/cpibsingapore",
-      "source": "web_search"
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
-      "name": "CPIB官网",
+      "name": "CPIB官方网站",
       "url": "https://www.cpib.gov.sg",
-      "description": "CPIB官方网站。",
-      "source": "https://www.cpib.gov.sg"
+      "description": "CPIB官方网站，包含举报渠道、年度统计报告、反贪教育资源和新闻发布",
+      "source": "wikipedia"
+    },
+    {
+      "name": "CPIB电子举报系统",
+      "url": "https://www.cpib.gov.sg/e-services/e-complaint-for-corrupt-conduct/",
+      "description": "在线贪污举报平台，支持匿名举报",
+      "source": "official_website"
+    },
+    {
+      "name": "PACT企业反贪指南",
+      "url": "https://www.cpib.gov.sg/research-room/publications/anti-corruption-guide-for-businesses/",
+      "description": "面向新加坡企业的实用反贪指南，指导企业建立和实施反腐败体系",
+      "source": "official_website"
+    },
+    {
+      "name": "CPIB年度统计报告",
+      "url": "https://www.cpib.gov.sg/research-room/annual-statistics-report/",
+      "description": "CPIB发布的年度新加坡腐败情况统计报告",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000190",
-      "name": "Sam Tee Chong Fui",
-      "title": "局长",
-      "title_description": "Director, CPIB",
-      "description": "约2024年10月接替Denis Tang出任CPIB局长，隶属于总理公署。"
+      "person_id": "SG-PERSON-000264",
+      "name": "郑宗辉 (Sam Tee Chong Fui)",
+      "title": "局长 (Director)",
+      "title_description": "CPIB最高行政长官，直接向总理汇报",
+      "description": "约2024年10月接替Denis Tang出任CPIB局长。CPIB局长直接向总理负责，确保调查独立性。如总理拒绝批准调查，局长可向总统报告。"
     },
     {
-      "person_id": "SG-PERSON-000161",
-      "name": "Fong Wai Kit",
-      "title": "调查局局长",
-      "title_description": "Director of Investigations",
-      "description": "负责CPIB核心调查工作。"
+      "person_id": null,
+      "name": "方伟杰 (Fong Wai Kit)",
+      "title": "调查局局长 (Director of Investigations)",
+      "title_description": "负责CPIB核心调查业务",
+      "description": "负责CPIB核心调查工作，领导调查部门处理所有腐败案件的调查。"
     },
     {
       "person_id": "SG-PERSON-000210",
       "name": "Vincent Lim Yong Seng",
-      "title": "情报局局长",
-      "title_description": "Director, Intelligence",
-      "description": "负责反贪情报收集与分析。"
+      "title": "情报局局长 (Director of Intelligence)",
+      "title_description": "负责反贪情报收集与分析",
+      "description": "负责反贪情报收集与分析，为调查行动提供情报支持。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-018-DEPT-001",
-      "name": "bureau moved into the former Registration Office on Stamford Road",
-      "head": null,
-      "description": null,
+      "name": "局长办公室 (Director's Office)",
+      "head": "郑宗辉 (Sam Tee Chong Fui)",
+      "description": "CPIB最高管理层，局长直接向总理汇报，确保调查工作独立于警察部队和其他政府机构。局长在总理拒绝批准调查时可向总统报告。",
       "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-018-DEPT-002",
+      "name": "调查局 (Investigation Division)",
+      "head": "Fong Wai Kit",
+      "description": "CPIB核心调查部门，负责调查公共和私营部门所有腐败案件。在调查过程中如发现其他违法行为，亦有权一并调查。调查人员可在无逮捕证的情况下逮捕涉嫌违反《反贪污法》的人员。",
+      "parent_dept_id": "SG-GOV-018-DEPT-001"
+    },
+    {
+      "dept_id": "SG-GOV-018-DEPT-003",
+      "name": "情报局 (Intelligence Division)",
+      "head": "Vincent Lim Yong Seng",
+      "description": "负责反贪情报的收集、分析和评估，为调查行动提供情报支持，主动识别腐败风险领域。",
+      "parent_dept_id": "SG-GOV-018-DEPT-001"
+    },
+    {
+      "dept_id": "SG-GOV-018-DEPT-004",
+      "name": "预防与审查局 (Prevention & Review Division)",
+      "head": null,
+      "description": "负责审查政府部门和机构的程序，识别腐败漏洞并提出改进建议。同时开展公共教育和社区宣传，推广反腐败意识。",
+      "parent_dept_id": "SG-GOV-018-DEPT-001"
+    },
+    {
+      "dept_id": "SG-GOV-018-DEPT-005",
+      "name": "电脑鉴证组 (Computer Forensics Unit)",
+      "head": null,
+      "description": "成立于2004年，负责对电脑相关证据进行鉴证检查，支持数字化腐败案件的调查工作。",
+      "parent_dept_id": "SG-GOV-018-DEPT-002"
+    },
+    {
+      "dept_id": "SG-GOV-018-DEPT-006",
+      "name": "投诉评估委员会 (Complaints Evaluation Committee)",
+      "head": null,
+      "description": "成立于1989年，由局长主持，评估收到的腐败投诉并决定后续行动。确保每起投诉得到适当处理。",
+      "parent_dept_id": "SG-GOV-018-DEPT-001"
     }
   ],
   "recent_events": [
     {
-      "date": "2025-01-01",
-      "title": "新加坡连续保持全球清廉指数第三名",
-      "description": "在2025年透明国际清廉感知指数中维持全球第三、亚太第一。",
-      "impact": "巩固新加坡全球最廉洁国家之一的声誉。",
-      "source": "https://www.cpib.gov.sg/"
+      "date": "2026-05-07",
+      "title": "公司董事和工地主管被控涉嫌贪污",
+      "description": "两名个人被控涉嫌在建筑废料处理过程中行贿受贿，涉及每车次50新元的回扣。KYT Transport董事郭岳庭涉嫌向Koh Civil Engineering工地主管Hossain Toufik行贿。",
+      "impact": "体现CPIB持续打击建筑行业腐败行为，维护公平竞争环境。",
+      "source": "https://www.cpib.gov.sg/company-director-and-site-supervisor-charged-with-alleged-corruption/"
     },
     {
-      "date": "2026-03-18",
-      "title": "软件服务销售腐败及伪造案",
-      "description": "三名男子被控与软件服务销售相关的腐败和伪造罪行。",
-      "impact": "体现CPIB持续打击私营部门腐败。",
-      "source": "https://www.straitstimes.com/"
+      "date": "2026-04-28",
+      "title": "CPIB发布2025年度腐败情况报告",
+      "description": "2025年CPIB收到160起腐败举报，较2024年的177起下降10%。新立案调查68起，结案率86%，定罪率100%（不含撤诉案件）。2025年共起诉90人，其中84人来自私营部门。2025年透明国际清廉感知指数新加坡排名全球第三、亚太第一，得分84分。",
+      "impact": "新加坡腐败状况持续受控，国际声誉稳固，98%受访民众评价新加坡腐败状况为良好或以上。",
+      "source": "https://www.cpib.gov.sg/effective-enforcement-and-collective-action-key-to-keeping-singapore-corruption-free/"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "公司董事及五名经理被控多项罪名",
+      "description": "六名个人被控贪污、洗钱、刑事违反信托和欺诈等多项罪名，涉及韩国建筑公司Dongah与新加坡公司Capital Construction之间的贿赂，贿赂总额达14.3万新元。",
+      "impact": "展示CPIB对跨国腐败犯罪的调查能力，体现零容忍执法态度。",
+      "source": "https://www.cpib.gov.sg/company-director-and-five-managers-charged-with-alleged-offences/"
+    },
+    {
+      "date": "2025-08-19",
+      "title": "九人因操纵篮球比赛被捕",
+      "description": "CPIB逮捕九名涉嫌操纵2025年K. Star全国篮球联赛甲级比赛的个人，包括八名新加坡人和一名永久居民，年龄在19至35岁之间，其中包含参赛球员。",
+      "impact": "显示CPIB调查范围涵盖体育领域腐败，打击假球行为以维护体育竞技公正性。",
+      "source": "https://www.cpib.gov.sg/effective-enforcement-and-collective-action-key-to-keeping-singapore-corruption-free/"
+    },
+    {
+      "date": "2025-09-05",
+      "title": "CPIB联合ISCA举办年度反贪伙伴网络活动",
+      "description": "超过160名来自金融机构、审计和咨询公司、专业团体和行业协会的专业人士参加了CPIB与新加坡特许会计师协会（ISCA）联合主办的反贪伙伴网络（ACPN）年度活动，分享利用科技、职业道德和合作加强反腐败努力的最佳实践。",
+      "impact": "深化公私合作反腐机制，提升私营部门反腐败意识和能力。",
+      "source": "https://www.cpib.gov.sg/effective-enforcement-and-collective-action-key-to-keeping-singapore-corruption-free/"
+    },
+    {
+      "date": "2023-07-01",
+      "title": "CPIB逮捕交通部长易华仁和地产大亨王明星",
+      "description": "CPIB调查并逮捕时任交通部长S. Iswaran和地产大亨王明星（Ong Beng Seng），分别涉及受贿和行贿腐败。这是新加坡近年来最高级别的腐败调查案件之一。",
+      "impact": "彰显CPIB不畏权贵、独立执法的决心，无论涉案者地位多高均依法调查，进一步巩固公众对反腐机构的信心。",
+      "source": "https://en.wikipedia.org/wiki/Corrupt_Practices_Investigation_Bureau"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-009",
-      "org_name": "Prime Minister's Office",
+      "org_name": "总理公署 (Prime Minister's Office)",
       "org_type": "GOV",
-      "org_description": null,
+      "org_description": "CPIB的直接上级机构，局长直接向总理汇报。1969年CPIB从律政司转归总理公署管辖以确保调查独立性。",
       "relationship_type": "parent_org"
     },
     {
-      "org_id": "SG-GOV-009",
-      "org_name": "总理公署",
+      "org_id": "SG-GOV-013",
+      "org_name": "内政部 (Ministry of Home Affairs)",
       "org_type": "GOV",
-      "org_description": "CPIB的直接上级机构。",
-      "relationship_type": "parent_org"
+      "org_description": "CPIB早期曾隶属内政部，后转归总理公署以确保调查独立于警察系统。CPIB与内政部下辖的新加坡警察部队在执法领域保持协作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-GOV-019",
+      "org_name": "总检察署 (Attorney-General's Chambers)",
+      "org_type": "GOV",
+      "org_description": "CPIB调查的案件由总检察署负责起诉。CPIB最初于1952年成立时隶属于总检察署。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-GOV-011",
+      "org_name": "国防部 (Ministry of Defence)",
+      "org_type": "GOV",
+      "org_description": "CPIB有权调查涉及军方人员的腐败案件，2025年起诉的6名公职人员中包括来自新加坡武装部队的人员。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际反腐败协调中心 (International Anti-Corruption Coordination Centre, IACCC)",
+      "org_type": "INTL",
+      "org_description": "CPIB为创始成员之一，该中心由英国国家犯罪署领导，协调全球执法机构应对重大腐败案件。CPIB自2017年起派驻高级官员至IACCC。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "联合国反腐败公约 (UNCAC)",
+      "org_type": "INTL",
+      "org_description": "新加坡于2005年签署、2009年批准UNCAC，CPIB代表新加坡参加缔约国大会等国际会议。",
+      "relationship_type": "member_of"
     }
   ],
-  "core_business": "貪污調查局（又稱反貪局，英語：Corrupt Practices Investigation Bureau，縮寫为 CPIB）是新加坡政府的獨立機構，前身是新加坡警察之反貪污科，負責調查和檢控公共和私營部門貪污行為，由英國殖民政府於1952年設立，是亞洲區首家反貪機構，亦是歷史悠久的亞洲反貪污機構。\n調查局既是行政機構，又是執法部門。雖然主要職能是調查貪污，有權調查新加坡公、私部門任何可能涉及貪污的刑事案件。\n貪污調查局直接隸屬於總理公署，其局長直接向總理負責。因此，貪污調查局獨立於新加坡警察部隊和其他政府機構，以防止任何不當的干涉。\n它還具類似新加坡内部安全局的權力，可在沒有逮捕證的情況下，逮捕涉嫌違反該國《反貪污法》的人。\n反貪污法\n反貪污法賦予貪污調查局在調查貪污時廣泛的權力，如：\n調查被懷疑人的帳戶，包括銀行、股份、費用，還可調查其妻子、兒女和代理人的帳目。\n有權面見證人。\n有權調查任何在貪污調查過程中披露的其他重大罪行。\n可以向犯貪污罪的人罰款，沒收受賄財物，更可判7年以下的監禁。\n参考文献\n外部連結\n貪污調查局官方網站 （页面存档备份，存于互联网档案馆）\n參見\n新加坡法律",
+  "core_business": "贪污调查局（CPIB）是新加坡政府的独立反腐执法机构，成立于1952年9月，前身为新加坡警察部队反贪污科，是亚洲历史最悠久的反腐败机构。CPIB总部位于新加坡Lengkok Bahru，隶属于总理公署，局长直接向总理汇报，独立于新加坡警察部队和其他政府机构运作。如总理拒绝批准调查，局长可向总统报告，确保调查工作的独立性。CPIB的核心职能包括：一、腐败调查——根据1960年《防止贪污法》，CPIB是新加坡唯一获授权调查腐败犯罪的机构，有权调查公共和私营部门的所有腐败行为，并在调查过程中发现的其他违法行为也有权一并追查。CPIB可在无逮捕证的情况下逮捕涉嫌违反《反贪污法》的人员。二、腐败预防——CPIB审查政府部门和机构的运作程序，识别腐败漏洞并提出改进建议，从制度层面预防腐败。三、公共教育——开展面向学生、政府机构、企业和公众的反腐败宣传教育活动，出版反腐败教材和案例汇编。四、国际合作——CPIB积极参与多个国际反腐败平台，包括联合国反腐败公约（UNCAC）、APEC反腐败和透明度专家组（ACTWG）、经济犯罪机构网络（ECAN）、国际反腐败协调中心（IACCC）等。2025年CPIB收到160起腐败举报，立案调查68起，结案率86%，定罪率100%（不含撤诉案件），共起诉90人。新加坡在2025年透明国际清廉感知指数中排名全球第三、亚太第一，已连续多年保持全球最廉洁国家之一的地位。",
   "industries": [
-    "public_administration"
+    "public_administration",
+    "internal_security"
   ],
-  "apec_stance": "CPIB作为新加坡反贪核心机构，其高效率执法支撑了新加坡在APEC经济体中的良好治理声誉。新加坡在清廉感知指数中持续排名亚太第一，为APEC反腐合作树立标杆。",
+  "apec_stance": "CPIB代表新加坡参与APEC反腐败和透明度专家组（ACTWG）以及APEC反腐败当局和执法机构网络（ACT-NET）。在APEC框架内，CPIB积极推动亚太地区反腐败合作，包括引渡、法律协助、执法合作（特别是资产没收和追回）等领域的信息共享和最佳实践交流。新加坡在清廉感知指数中持续排名亚太第一，为APEC经济体树立了反腐败标杆。CPIB还通过参与亚洲开发银行/经合组织亚太反腐败倡议、ASEAN Parties Against Corruption（APAC）等多边机制，促进APEC区域反腐败能力建设。新加坡2025年98%的受访民众对腐败状况评价良好，为APEC成员展示了高效反腐败治理的范例。",
   "profile": {
-    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Corrupt_Practices_Investigation_Bureau_logo.png/330px-Corrupt_Practices_Investigation_Bureau_logo.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Corrupt_Practices_Investigation_Bureau_logo.png/250px-Corrupt_Practices_Investigation_Bureau_logo.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Wikipedia - Corrupt Practices Investigation Bureau",
+        "url": "https://en.wikipedia.org/wiki/Corrupt_Practices_Investigation_Bureau"
+      },
+      {
+        "title": "CPIB Official Website",
+        "url": "https://www.cpib.gov.sg"
+      },
+      {
+        "title": "CPIB 2025 Annual Statistics Report",
+        "url": "https://www.cpib.gov.sg/effective-enforcement-and-collective-action-key-to-keeping-singapore-corruption-free/"
+      },
+      {
+        "title": "CPIB Corporate Philosophy - Mission Vision Core Values",
+        "url": "https://www.cpib.gov.sg/who-we-are/our-corporate-philosophy/mission-vision-core-values/"
+      },
+      {
+        "title": "CPIB Roles & Functions",
+        "url": "https://www.cpib.gov.sg/who-we-are/our-work/roles-functions/"
+      },
+      {
+        "title": "CPIB International Engagement",
+        "url": "https://www.cpib.gov.sg/who-we-are/our-work/international-engagement/"
+      },
+      {
+        "title": "CPIB Our Heritage",
+        "url": "https://www.cpib.gov.sg/who-we-are/our-heritage/"
+      }
+    ],
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikidata",
       "official_website",
       "web_search"
     ],
-    "completeness_score": 90,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 70)"
+    "completeness_score": 92,
+    "notes": "Phase 3 enrichment: updated key_people with verified positions, created proper departments structure, enriched recent_events with 2025-2026 cases and statistics, expanded related_entities with international orgs, rewrote core_business and apec_stance with verified data from official CPIB sources. Fixed duplicate related_entities for PMO. Added social_accounts source attribution."
   }
 }

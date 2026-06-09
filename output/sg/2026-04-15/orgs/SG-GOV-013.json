@@ -1,17 +1,18 @@
 {
   "org_id": "SG-GOV-013",
   "basic_info": {
-    "name_original": "內政部",
-    "name_zh": "內政部",
-    "name_en": "Ministry of Home Affairs, Singapore",
+    "name_original": "Ministry of Home Affairs",
+    "name_zh": "新加坡内政部",
+    "name_en": "Ministry of Home Affairs",
     "aliases": [
       "MHA Singapore",
       "Ministry of Home Affairs",
       "MHA",
       "Ministry of Home Affairs Singapore",
       "Ministry of Home Affairs (Singapore)",
-      "內政部",
-      "Kementerian Dalam Negeri (Singapura)",
+      "内政部",
+      "Home Team",
+      "Kementerian Ehwal Dalam Negeri",
       "உள்துறை அமைச்சு"
     ],
     "org_type": "GOV",
@@ -19,7 +20,11 @@
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
     "founded_date": "1959-01-01",
-    "website": "http://www.mha.gov.sg"
+    "website": "https://www.mha.gov.sg",
+    "headquarters": "New Phoenix Park, 28 Irrawaddy Road, Singapore 329560",
+    "motto": "Guardians of Singapore",
+    "employees": "31,107 (2024)",
+    "annual_budget": "S$8.27 billion (2024)"
   },
   "social_accounts": [
     {
@@ -39,13 +44,25 @@
       "account_name": "@mhasingapore",
       "url": "https://www.instagram.com/mhasingapore/",
       "source": "web_search"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "MHA Singapore",
+      "url": "https://www.youtube.com/@MHASingapore",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
     {
       "name": "MHA官网",
       "url": "https://www.mha.gov.sg/",
-      "description": "新加坡内政部官网。",
+      "description": "新加坡内政部官方网站，发布新闻、政策及公共服务信息。",
+      "source": "https://www.mha.gov.sg/"
+    },
+    {
+      "name": "SGSecure官网",
+      "url": "https://www.sgsecure.sg/",
+      "description": "反恐全国运动SGSecure官方网站，由内政部主导。",
       "source": "https://www.mha.gov.sg/"
     }
   ],
@@ -53,141 +70,273 @@
     {
       "person_id": "SG-PERSON-000098",
       "name": "尚穆根 (K. Shanmugam)",
-      "title": "内政部长兼律政部长",
-      "title_description": "Minister for Home Affairs and Law",
-      "description": "自2008年起担任律政部长，2011年起兼任内政部长。"
+      "title": "国家安全统筹部长兼内政部长",
+      "title_description": "Coordinating Minister for National Security and Minister for Home Affairs",
+      "description": "自2010年起担任内政部长（2011-2015年间曾短暂交接），同时兼任国家安全统筹部长。目前为Nee Soon GRC国会议员，人民行动党成员。"
     },
     {
-      "person_id": "SG-PERSON-000198",
-      "name": "Tan Chye Hee",
-      "title": "常任秘书",
-      "title_description": "Permanent Secretary",
-      "description": "2025年6月接任。"
+      "person_id": "SG-PERSON-000032",
+      "name": "杨莉明 (Josephine Teo)",
+      "title": "内政部第二部长",
+      "title_description": "Second Minister for Home Affairs",
+      "description": "现任内政部第二部长，负责协助部长处理内政事务。"
     },
     {
-      "person_id": "SG-PERSON-000163",
-      "name": "Goh Pei Ming",
-      "title": "政务部长",
+      "person_id": "SG-PERSON-000022",
+      "name": "费绍尔 (Muhammad Faishal Ibrahim)",
+      "title": "内政部高级政务部长",
+      "title_description": "Senior Minister of State for Home Affairs",
+      "description": "内政部高级政务部长，2026年2月在国会发表反毒品宣传及加强社区康复的相关声明。"
+    },
+    {
+      "person_id": "SG-PERSON-000199",
+      "name": "沈颖 (Sim Ann)",
+      "title": "内政部高级政务部长",
+      "title_description": "Senior Minister of State for Home Affairs",
+      "description": "内政部高级政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000154",
+      "name": "吴伟明 (Goh Pei Ming)",
+      "title": "内政部政务部长",
       "title_description": "Minister of State for Home Affairs",
       "description": "内政部政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000253",
+      "name": "陈智禧 (Tan Chye Hee)",
+      "title": "常任秘书（内政发展）",
+      "title_description": "Permanent Secretary (Home Affairs Development)",
+      "description": "2025年接任常任秘书，同时兼任Home Team Science and Technology Agency (HTX)主席。"
+    },
+    {
+      "person_id": "SG-PERSON-000254",
+      "name": "彭建强 (Pang Kin Keong)",
+      "title": "常任秘书（内政）",
+      "title_description": "Permanent Secretary (Home Affairs)",
+      "description": "内政部常任秘书，负责内政事务。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-013-DEPT-001",
-      "name": "Committees/Councils",
-      "head": null,
-      "description": null,
+      "name": "新加坡警察部队 (Singapore Police Force, SPF)",
+      "head": "何光辉 (How Kwang Hwee)",
+      "description": "新加坡主要执法机构，成立于1820年5月24日，负责维护治安、预防犯罪及执法。由警察总监领导。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-002",
-      "name": "Presidential Council for Religious Harmony",
-      "head": null,
-      "description": null,
+      "name": "内部安全局 (Internal Security Department, ISD)",
+      "head": "机密 (Classified)",
+      "description": "新加坡国内安全与情报机构，成立于1948年，负责防范恐怖主义、间谍活动及颠覆行为，保障国家安全与主权。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-003",
-      "name": "National Crime Prevention Council",
-      "head": null,
-      "description": null,
+      "name": "新加坡民防部队 (Singapore Civil Defence Force, SCDF)",
+      "head": "叶伟德 (Eric Yap Wee Teck)",
+      "description": "成立于1982年11月6日，负责消防、救援及紧急医疗服务。新加坡消防死亡率全球最低之一。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-004",
-      "name": "National Council Against Drug Abuse",
-      "head": null,
-      "description": null,
+      "name": "移民与关卡局 (Immigration and Checkpoints Authority, ICA)",
+      "head": "连锦华 (Lian Ghim Hua)",
+      "description": "成立于2003年4月1日，负责出入境管理、边境安全及移民检查。2025年旅客量持续增长，通过综合目标识别中心提升边检能力。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-005",
-      "name": "National Fire and Civil Emergency Preparedness Council",
-      "head": null,
-      "description": null,
+      "name": "新加坡监狱署 (Singapore Prison Service, SPS)",
+      "head": "施永利 (Shie Yong Lee)",
+      "description": "成立于1946年，负责监狱管理及囚犯改造。2025年维持零越狱记录，重新犯罪率保持低位。推动社区合作以加强囚犯更生支持。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-006",
-      "name": "Ministers",
-      "head": null,
-      "description": null,
+      "name": "中央肃毒局 (Central Narcotics Bureau, CNB)",
+      "head": "郑伟杰 (Sebastian Tay)",
+      "description": "成立于1971年11月2日，负责毒品执法及预防教育。2025年持续打击贩毒集团，关注青年吸毒问题特别是30岁以下大麻吸食者。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-007",
-      "name": "Minister for Home Affairs (1959–1963)",
-      "head": null,
-      "description": null,
+      "name": "内政群英学院 (Home Team Academy, HTA)",
+      "head": "林伟强 (Wilson Lim)",
+      "description": "成立于2006年9月2日，为Home Team各部门提供统一培训和教育。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-008",
-      "name": "Minister for the Interior and Defence (1965–1970)",
-      "head": null,
-      "description": null,
+      "name": "内政科技局 (Home Team Science and Technology Agency, HTX)",
+      "head": "陈智禧 (Tan Chye Hee)",
+      "description": "成立于2019年12月1日，负责为Home Team开发和应用科技解决方案，提升执法和安全能力。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-009",
-      "name": "Minister for Home Affairs (from 1970)",
-      "head": null,
-      "description": null,
+      "name": "博彩管制局 (Gambling Regulatory Authority, GRA)",
+      "head": "郑志豪 (Tan Tee How)",
+      "description": "成立于2022年8月1日，负责博彩业监管，取代前赌场管制局。对新加坡博彩活动实施统一监管。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-013-DEPT-010",
-      "name": "References",
+      "name": "黄丝带新加坡 (Yellow Ribbon Singapore, YRSG)",
+      "head": "Matthew Wee Yik Keong",
+      "description": "成立于2020年5月1日，负责推动前囚犯的康复和重新融入社会，促进社区对更生人的接纳。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-013-DEPT-011",
+      "name": "总统宗教和谐理事会 (Presidential Council for Religious Harmony)",
       "head": null,
-      "description": null,
+      "description": "根据维持宗教和谐法设立的理事会，负责处理宗教和谐相关事务。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-013-DEPT-012",
+      "name": "全国防范犯罪理事会 (National Crime Prevention Council)",
+      "head": null,
+      "description": "负责推广犯罪预防意识，与社区合作减少犯罪发生率。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-013-DEPT-013",
+      "name": "全国反毒品滥用理事会 (National Council Against Drug Abuse)",
+      "head": null,
+      "description": "负责反毒品宣传和政策建议，倡导无毒新加坡。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-013-DEPT-014",
+      "name": "全国消防与民防准备理事会 (National Fire and Civil Emergency Preparedness Council)",
+      "head": null,
+      "description": "负责推广消防安全意识和民防应急准备。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-06-01",
-      "title": "内政部常任秘书交接",
-      "description": "潘钦根退休，陈智禧接任。",
-      "impact": "高层管理重大人事变动。",
-      "source": "https://www.mha.gov.sg/"
+      "date": "2026-05-08",
+      "title": "移民与关卡局2026年工作计划研讨会",
+      "description": "尚穆根部长在ICA年度工作计划研讨会上发表讲话，阐述边境管理策略方向。",
+      "impact": "明确2026年边境安全及出入境管理重点方向。",
+      "source": "https://www.mha.gov.sg/media-room/newsroom/ica-workplan-seminar-2026/"
+    },
+    {
+      "date": "2026-02-09",
+      "title": "2025年治安与安全形势回顾",
+      "description": "内政部发布2025年度安全形势报告：新加坡继续保持全球最安全国家之一，诈骗案件及损失总额下降但中位数损失上升，六人因涉恐行为被内部安全法令处分（其中四人为20岁及以下青年），毒品形势保持稳定但青年吸毒者增加。",
+      "impact": "全面展现新加坡2025年治安状况，凸显反恐和反诈骗工作重点。",
+      "source": "https://www.mha.gov.sg/media-room/newsroom/overview-of-safety-and-security-situation-in-2025/"
     },
     {
       "date": "2026-02-27",
       "title": "多管齐下打击诈骗策略",
-      "description": "政务部长阐述政府打击诈骗的多管齐下策略。",
-      "impact": "加强反诈骗力度。",
+      "description": "政务部长阐述政府打击诈骗的多管齐下策略，包括立法、执法、公众教育及国际合作。",
+      "impact": "加强反诈骗力度，2025年诈骗案件数和总损失额均有所下降。",
       "source": "https://www.mha.gov.sg/"
+    },
+    {
+      "date": "2025-06-01",
+      "title": "内政部常任秘书交接",
+      "description": "潘钦根退休，陈智禧接任常任秘书（内政发展）。",
+      "impact": "高层管理重大人事变动，陈智禧同时兼任HTX主席。",
+      "source": "https://www.mha.gov.sg/"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "保安业转型计划(ITM) 2025推进",
+      "description": "内政部推进保安业转型计划，推动行业从人力密集型向技术驱动型转变，引入自动化和智能化解决方案。",
+      "impact": "提升新加坡保安行业整体水平，减少对人力的依赖。",
+      "source": "https://www.mha.gov.sg/what-we-do/transforming-home-team-security-industry/transforming-the-security-industry/"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "跨境铁路（边境管制并列安排）法案",
+      "description": "法案支持新山-新加坡快速交通系统的运营，实现边境管制并列安排。",
+      "impact": "推进新马跨境轨道交通项目的边境管理安排。",
+      "source": "https://www.instagram.com/p/DX9J8VAkiso/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-018",
-      "org_name": "贪污调查局",
+      "org_name": "贪污调查局 (Corrupt Practices Investigation Bureau, CPIB)",
       "org_type": "GOV",
-      "org_description": "下属独立调查机构。",
+      "org_description": "新加坡反贪独立调查机构，直接向总理汇报。",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-011",
+      "org_name": "新加坡国防部 (Ministry of Defence, MINDEF)",
+      "org_type": "GOV",
+      "org_description": "1970年与内政部分拆而成，负责国防事务。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_description": "内政部长为内阁成员，内政部隶属内阁管辖。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "org_name": "新加坡总理公署 (Prime Minister's Office)",
+      "org_type": "GOV",
+      "org_description": "内政部长兼任国家安全统筹部长，与总理公署在安全事务上密切协作。",
+      "relationship_type": "partner"
     }
   ],
-  "core_business": "新加坡內政部（英語：Ministry of Home Affairs；馬來語：Kementerian Ehwal Dalam Negeri），缩写为MHA，是新加坡政府的一个下辖部門。它主要負責公共安全、民事防護及出入境事務。\n历史\n内政部成立于1959年，当时新加坡取得了自治权。该机构曾经位于皇后坊大厦，于2001年8月18日搬迁到新凤凰园。\n法定机构\n赌场管制局\n内政群英学院\n新加坡警察部隊\n移民与关卡局\n新加坡監獄署\n新加坡內部安全局\n新加坡民防部隊\n中央肅毒局 (新加坡)\n參考注釋\n外部連結\n內政部官方網站 （页面存档备份，存于互联网档案馆）",
+  "core_business": "新加坡内政部（Ministry of Home Affairs，简称MHA），又称Home Team，是新加坡政府负责国家安全、公共安全、民防、边境管制和移民事务的核心部门。内政部成立于1959年新加坡取得自治权之时，前身为1965-1970年间的内政与国防部，1970年8月分拆为内政部和国防部两个独立部门。总部位于纽凤凰园（New Phoenix Park）。\n\n内政部下辖十个Home Team部门：新加坡警察部队（SPF）、内部安全局（ISD）、新加坡民防部队（SCDF）、移民与关卡局（ICA）、新加坡监狱署（SPS）、中央肃毒局（CNB）、内政群英学院（HTA）、内政科技局（HTX）、博彩管制局（GRA）及黄丝带新加坡（YRSG）。此外还负责四个理事会：总统宗教和谐理事会、全国防范犯罪理事会、全国反毒品滥用理事会和全国消防与民防准备理事会。\n\n内政部2024年预算为82.7亿新元，拥有约31,107名员工（2024年）。核心职能包括：维护社会治安与公共秩序、反恐与内部安全、消防安全与紧急救援、出入境与边境管控、毒品执法与预防教育、监狱管理与囚犯更生、博彩业监管，以及安全科技创新。内政部通过SGSecure全国运动动员社区参与反恐，持续关注网络安全、诈骗防范及青年极端化等新兴威胁。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "内政部在APEC框架下参与跨境安全合作、反恐和网络安全议题。",
+  "apec_stance": "内政部在APEC框架下积极参与跨境安全合作、反恐信息共享和网络安全议题。新加坡作为APEC成员经济体，通过内政部在亚太地区安全对话中发挥重要作用，特别是在反恐融资、边境安全管理、打击跨国犯罪及网络安全等领域。内政部通过ICA与其他APEC经济体移民部门合作，推进旅客信息共享和边境安全标准协调。同时，新加坡在全球毒品管制政策上采取强硬立场，与APEC成员在毒品预防教育方面开展经验交流。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/8/85/Ministry_of_Home_Affairs_%28Singapore%29_logo.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikipedia_zh",
       "official_website",
-      "web_search"
+      "web_search",
+      "news_articles"
     ],
-    "completeness_score": 90,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 78)"
+    "quotes": [
+      {
+        "title": "Ministry of Home Affairs (Singapore) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(Singapore)"
+      },
+      {
+        "title": "新加坡内政部 - 维基百科",
+        "url": "https://zh.wikipedia.org/wiki/新加坡内政部"
+      },
+      {
+        "title": "MHA Official Website",
+        "url": "https://www.mha.gov.sg"
+      },
+      {
+        "title": "Overview of Safety and Security Situation in 2025",
+        "url": "https://www.mha.gov.sg/media-room/newsroom/overview-of-safety-and-security-situation-in-2025/"
+      },
+      {
+        "title": "ICA Workplan Seminar 2026",
+        "url": "https://www.mha.gov.sg/media-room/newsroom/ica-workplan-seminar-2026/"
+      },
+      {
+        "title": "Transforming the Security Industry - MHA",
+        "url": "https://www.mha.gov.sg/what-we-do/transforming-home-team-security-industry/transforming-the-security-industry/"
+      }
+    ],
+    "completeness_score": 99,
+    "notes": "Phase 3 enrichment: Updated key_people with current ministerial lineup from Wikipedia EN (May 2026), expanded departments from 4 wiki-extracted entries to all 10 HT departments + 4 councils with descriptions, added 4 new recent_events from MHA website, expanded related_entities, enriched core_business and apec_stance with cross-verified data."
   }
 }

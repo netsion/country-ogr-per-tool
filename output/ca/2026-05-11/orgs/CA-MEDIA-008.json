@@ -1,0 +1,255 @@
+{
+  "org_id": "CA-MEDIA-008",
+  "basic_info": {
+    "name_original": "National Post",
+    "name_zh": "全國郵報",
+    "name_en": "National Post",
+    "aliases": [
+      "The National Post",
+      "NP",
+      "nationalpost.com"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "newspaper",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "founded_date": "1998-10-27",
+    "website": "https://nationalpost.com/"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@nationalpost",
+      "url": "https://twitter.com/nationalpost",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "National Post",
+      "url": "https://www.facebook.com/nationalpost",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@nationalpost",
+      "url": "https://www.instagram.com/nationalpost",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "National Post",
+      "url": "https://www.youtube.com/@nationalpost",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "National Post",
+      "url": "https://www.linkedin.com/company/national-post",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "National Post Official Website (nationalpost.com)",
+      "url": "https://nationalpost.com/",
+      "description": "Main digital news platform offering breaking news, opinion, analysis and feature articles across national, international, business and lifestyle categories",
+      "source": "official_website"
+    },
+    {
+      "name": "Financial Post (financialpost.com)",
+      "url": "https://financialpost.com/",
+      "description": "Business and financial news division of National Post, providing coverage of Canadian and global markets, economy, investing and corporate news",
+      "source": "official_website"
+    },
+    {
+      "name": "National Post ePaper",
+      "url": "https://nationalpost.com/epaper/",
+      "description": "Digital replica of the printed newspaper edition, available by subscription; Monday edition is digital-only",
+      "source": "official_website"
+    },
+    {
+      "name": "NP Posted Newsletter",
+      "url": "https://nationalpost.com/newsletters/",
+      "description": "Daily newsletter providing trending news summaries and editorial perspective",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000211",
+      "name": "安德鲁·麦克劳德 (Andrew MacLeod)",
+      "title": "总裁兼首席执行官 (President & CEO)",
+      "title_description": "Postmedia Network 总裁兼首席执行官，负责整个 Postmedia 媒体集团的战略方向与运营管理",
+      "description": "2014年加入Postmedia担任执行副总裁兼首席商务官，2017年任总裁兼首席运营官，2019年起任CEO；此前曾任黑莓北美区高级副总裁"
+    },
+    {
+      "person_id": "CA-PERSON-000240",
+      "name": "罗伯·罗伯茨 (Rob Roberts)",
+      "title": "主编 (Editor-in-Chief)",
+      "title_description": "National Post 主编，负责编辑方针、新闻采编方向和社论立场",
+      "description": "自1998年National Post创刊起即在报社担任多个编辑职务，2015-2019年期间曾任加拿大通讯社大西洋分社社长，2019年7月重返National Post出任主编；现为加拿大全国新闻理事会理事"
+    },
+    {
+      "person_id": "CA-PERSON-000241",
+      "name": "乔·胡德 (Joe Hood)",
+      "title": "Financial Post 主编 (Editor-in-Chief, Financial Post)",
+      "title_description": "负责Financial Post商业与金融新闻采编方向，领导加拿大全国财经报道团队",
+      "description": "2008年加入National Post，历任头版编辑、国际新闻编辑、副主编，后升任Financial Post主编；2025年主导开设Financial Post西部新闻局，覆盖温哥华、卡尔加里、埃德蒙顿和萨斯卡通"
+    },
+    {
+      "person_id": "CA-PERSON-000242",
+      "name": "约翰·博德 (John B. Bode)",
+      "title": "执行副总裁、首席财务官兼转型总监 (EVP, CFO & Chief Transformation Officer)",
+      "title_description": "负责Postmedia财务管理和数字化转型战略",
+      "description": "担任Postmedia Network执行副总裁兼CFO，推动公司数字化订阅收入增长和成本优化"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑部 (Newsroom)",
+      "dept_id": "CA-MEDIA-008-DEPT-001",
+      "head": "Rob Roberts",
+      "description": "负责National Post日常新闻采编，涵盖国内新闻、国际新闻、政治、社会等报道领域",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Financial Post 财经部 (Financial Post Division)",
+      "dept_id": "CA-MEDIA-008-DEPT-002",
+      "head": "Joe Hood",
+      "description": "专注于加拿大及全球商业、金融市场、经济政策和企业管理报道；2025年设立西部新闻局扩展地区财经覆盖",
+      "parent_dept_id": "CA-MEDIA-008-DEPT-001"
+    },
+    {
+      "name": "评论与社论部 (Comment & Editorial)",
+      "dept_id": "CA-MEDIA-008-DEPT-003",
+      "head": null,
+      "description": "负责社论撰写、专栏作家管理和评论版面编辑，体现National Post保守派编辑方针",
+      "parent_dept_id": "CA-MEDIA-008-DEPT-001"
+    },
+    {
+      "name": "数字媒体部 (Digital Media)",
+      "dept_id": "CA-MEDIA-008-DEPT-004",
+      "head": null,
+      "description": "负责nationalpost.com网站运营、数字订阅服务、ePaper电子报和社交媒体平台管理",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-28",
+      "title": "2025年加拿大联邦大选全面报道",
+      "description": "National Post对2025年加拿大联邦大选进行全方位报道，提供实时选举结果、各选区地图和深度分析。马克·卡尼领导的自由党最终赢得执政权，报纸提供了详尽的平台政策对比和领导人辩论分析",
+      "impact": "作为加拿大全国性大报，National Post的选举报道影响公众舆论和政策讨论方向",
+      "source": "https://nationalpost.com/news/politics/federal_election/canada-election-2025-live-results-news-and-commentary"
+    },
+    {
+      "date": "2025-07-10",
+      "title": "特朗普威胁对加拿大加征35%关税",
+      "description": "National Post持续深度追踪美加贸易战动态，发布特朗普贸易战时间线长篇报道，涵盖从2024年11月至2025年7月关税升级全过程，包括钢铁铝材关税翻倍至50%、35%全面关税威胁等关键节点",
+      "impact": "报纸对美加贸易冲突的系统报道为加拿大企业和政策制定者提供了重要参考",
+      "source": "https://nationalpost.com/news/canada/trump-trade-war-canada"
+    },
+    {
+      "date": "2025-07-13",
+      "title": "报道加拿大印太经济外交政策转向",
+      "description": "National Post报道外交部长安妮塔·阿南德访问日本和马来西亚，阐述加拿大印太政策从价值观外交向经济利益优先转变的新方向，为马克·卡尼首相秋季出席APEC韩国峰会铺路",
+      "impact": "反映了加拿大在美加贸易摩擦背景下加速贸易多元化、加强亚太经济合作的战略趋势",
+      "source": "https://nationalpost.com/news/canada/canada-indo-pacific-economic-diplomacy-anand"
+    },
+    {
+      "date": "2025-11-01",
+      "title": "APEC庆州峰会相关报道",
+      "description": "National Post对2025年APEC韩国庆州峰会进行报道，涵盖马克·卡尼与习近平会晤、加拿大向APEC贡献200万加元支持包容性和可持续经济增长等关键议题",
+      "impact": "National Post的APEC报道塑造了加拿大国内对亚太经济合作和加拿大-中国关系重置的公共讨论",
+      "source": "https://nationalpost.com/tag/asia-pacific-economic-cooperation/"
+    },
+    {
+      "date": "2025-11-20",
+      "title": "Postmedia发布第四季度财报，数字化收入持续增长",
+      "description": "Postmedia Network公布2025财年第四季度业绩，广告、发行和包裹递送业务均实现增长，数字化收入连续第九个季度实现两位数增长",
+      "impact": "反映出National Post及其母公司在纸媒衰退大环境中向数字化转型的进展与挑战",
+      "source": "https://www.postmedia.com/2025/11/20/postmedia-reports-fourth-quarter-results-11/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-MEDIA-002",
+      "org_name": "Postmedia Network",
+      "org_type": "MEDIA",
+      "org_description": "加拿大最大报业集团，拥有National Post及全国15家以上的日报，由美国Chatham Asset Management控股",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CA-MEDIA-003",
+      "org_name": "The Globe and Mail",
+      "org_type": "MEDIA",
+      "org_description": "加拿大全国性英文日报，是National Post的主要竞争对手",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CA-MEDIA-004",
+      "org_name": "Toronto Star",
+      "org_type": "MEDIA",
+      "org_description": "加拿大发行量最大的付费日报，持自由派立场，与National Post形成政治光谱对照",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CA-MEDIA-006",
+      "org_name": "Canadian Press",
+      "org_type": "MEDIA",
+      "org_description": "加拿大国家通讯社，为National Post提供通稿新闻服务",
+      "relationship_type": "supplier"
+    }
+  ],
+  "core_business": "《全國郵報》是加拿大全國性英文對開大報，由康拉德·布萊克於1998年10月27日創刊，現為Postmedia Network旗下旗艦出版物。報紙總部位於多倫多布魯爾東街365號，每周一至周六出版（周一僅發行電子版），主要在安大略省、魁北克省、阿爾伯塔省和不列顛哥倫比亞省發行。其核心業務涵蓋全國及國際新聞報導、政治評論、財經分析（通過其Financial Post板塊）和專欄評論。作為加拿大主流保守派報紙代表，《全國郵報》的編輯立場傾向保守主義，在稅收、監管、自由市場等議題上持支持立場。報紙曾獲評「全球最佳設計報紙」，並在2015年被世界新聞設計協會評為全球五大報紙之一。近年來，《全國郵報》大力推進數字化轉型，發展數字訂閱服務和ePaper電子報，數字收入連續多個季度實現兩位數增長。Financial Post作為其財經板塊於2025年新設西部新聞局，擴展對加拿大西部商業與經濟的報道覆蓋。",
+  "industries": [
+    "broadcasting",
+    "digital_media",
+    "media_publishing"
+  ],
+  "apec_stance": "《全國郵報》作為加拿大全國性報紙，在APEC及亞太經濟合作議題上主要通過新聞報道和評論發揮輿論影響力。2025年，該報持續關注加拿大與亞太地區的貿易關係多元化戰略，報道了外交部長阿南德訪問日本和馬來西亞推動經濟外交轉向、馬克·卡尼首相在APEC韓國慶州峰會上與各經濟體領導人的會晤、以及加拿大與印尼達成貿易協議等議題。該報的編輯立場支持加拿大減少對美國市場的過度依賴、積極參與亞太經濟合作和自由貿易協定談判，同時對中國相關議題保持審慎和批判性態度。在美加貿易戰背景下，該報倡導加拿大應加速開拓亞太市場，將APEC視為加拿大實現貿易多元化的重要平台。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/0/0b/NatPost_Logo.svg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "web_search",
+      "linkedin",
+      "muckrack"
+    ],
+    "completeness_score": 96,
+    "notes": "Phase 3 enriched profile with comprehensive research from Wikipedia, official website, and web search sources",
+    "quotes": [
+      {
+        "title": "National Post - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/National_Post"
+      },
+      {
+        "title": "Trump versus Canada: A timeline of U.S. President's trade war",
+        "url": "https://nationalpost.com/news/canada/trump-trade-war-canada"
+      },
+      {
+        "title": "Trade, not just values, to drive Canada's Indo-Pacific pivot: Anand",
+        "url": "https://nationalpost.com/news/canada/canada-indo-pacific-economic-diplomacy-anand"
+      },
+      {
+        "title": "Rob Roberts, Editor-in-Chief | National Post",
+        "url": "https://nationalpost.com/author/rob-roberts/"
+      },
+      {
+        "title": "Postmedia Reports Fourth Quarter Results",
+        "url": "https://www.postmedia.com/2025/11/20/postmedia-reports-fourth-quarter-results-11/"
+      },
+      {
+        "title": "Andrew MacLeod - Postmedia Senior Management",
+        "url": "https://www.postmedia.com/investors-governance/senior-management-2/"
+      }
+    ]
+  }
+}

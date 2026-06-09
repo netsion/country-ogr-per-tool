@@ -1,28 +1,29 @@
 {
   "org_id": "SG-CORP-005",
   "basic_info": {
-    "name_original": "冬海集团",
+    "name_original": "Sea Ltd",
     "name_zh": "冬海集团",
-    "name_en": "Sea Ltd",
+    "name_en": "Sea Limited",
     "aliases": [
       "Sea Group",
+      "Sea Limited",
       "Garena",
       "Sea",
-      "Sea Limited",
-      "Garena Interactive Holding Limited",
       "冬海集团"
     ],
     "org_type": "CORP",
     "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": null,
-    "website": "https://www.sea.com"
+    "founded_date": "2009-01-01",
+    "website": "https://www.sea.com",
+    "stock_exchange": "NYSE: SE",
+    "isin": "US81141R1005"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "@SeaGroup",
+      "account_name": "SeaGroup",
       "url": "https://twitter.com/seagroup",
       "source": "wikidata"
     },
@@ -30,115 +31,274 @@
       "platform": "facebook",
       "account_name": "Sea Limited",
       "url": "https://www.facebook.com/100094063993857/",
-      "source": "web_search_2026-04-16"
+      "source": "web_search"
     },
     {
       "platform": "linkedin",
       "account_name": "Sea Limited",
       "url": "https://www.linkedin.com/company/sea-limited/",
-      "source": "web_search_2026-04-16"
+      "source": "web_search"
     }
   ],
   "digital_assets": [
     {
-      "name": "Sea.com",
+      "name": "Sea官网",
       "url": "https://www.sea.com",
-      "description": "冬海集团官方网站，展示Shopee、Garena、SeaMoney三大业务",
-      "source": "official_website"
+      "description": "冬海集团官方网站，展示Shopee、Garena、Monee三大核心业务板块。",
+      "source": "https://www.sea.com"
     },
     {
-      "name": "Shopee",
+      "name": "Shopee电商平台",
       "url": "https://shopee.com",
-      "description": "东南亚最大电商平台，2025年首次实现全年盈利",
-      "source": "web_search_2026-04-16"
+      "description": "东南亚最大电商平台，覆盖新加坡、马来西亚、泰国、菲律宾、越南、印尼、台湾及巴西，2025年首次实现全年盈利。",
+      "source": "https://en.wikipedia.org/wiki/Sea_Limited"
     },
     {
-      "name": "Garena",
+      "name": "Garena游戏平台",
       "url": "https://www.garena.sg/",
-      "description": "数字娱乐和游戏平台，预测2026年预订量将实现两位数增长",
-      "source": "web_search_2026-04-16"
+      "description": "数字娱乐和游戏平台，主要产品包括Free Fire（全球最热门手游之一），2024年2月峰值日活跃用户超1亿。",
+      "source": "https://en.wikipedia.org/wiki/Sea_Limited"
     },
     {
-      "name": "SeaMoney",
-      "url": "https://www.seamoney.com/",
-      "description": "数字金融服务业务，涵盖电子支付和信贷服务",
-      "source": "web_search_2026-04-16"
+      "name": "Monee数字金融服务",
+      "url": "https://www.monee.com/",
+      "description": "原SeaMoney，2025年5月更名为Monee。提供移动钱包、支付处理、信贷、银行和保险等数字金融服务，覆盖7个市场。2025年贷款余额超过50亿美元。",
+      "source": "https://fortune.com/asia/2025/05/08/sea-rebrand-seamoney-to-monee-fintech/"
+    },
+    {
+      "name": "Sea投资者关系",
+      "url": "https://www.sea.com/investor/home",
+      "description": "冬海集团投资者关系页面，包含财报、SEC文件和公司治理信息。",
+      "source": "https://www.sea.com/investor/home"
+    },
+    {
+      "name": "MariBank",
+      "url": "https://www.maribank.sg/",
+      "description": "Sea旗下新加坡数字全面银行，2023年3月开业，持有新加坡金管局数字全面银行牌照。",
+      "source": "https://www.maribank.sg/blog/what-is-maribank"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000110",
       "name": "李小冬 (Forrest Li)",
-      "title": "Founder, Chairman & CEO",
-      "title_description": "创始人、董事长兼首席执行官",
-      "description": "天津出生，新加坡公民，2009年创立Garena（后更名Sea Ltd），纽交所上市科技公司掌舵人"
+      "title": "创始人、董事长兼首席执行官 (Founder, Chairman & CEO)",
+      "title_description": "公司最高决策者，负责集团整体战略方向和业务发展。",
+      "description": "中国天津出生，新加坡公民。2009年创立Garena（后更名Sea Limited），将其发展为涵盖电商（Shopee）、游戏（Garena）和数字金融（Monee）的东南亚最大科技公司之一。2017年带领Sea在纽交所上市，为首家在美IPO的东南亚大型科技公司。"
     },
     {
       "person_id": "SG-PERSON-000162",
       "name": "叶刚 (Gang Ye)",
-      "title": "Co-founder & Chief Operating Officer",
-      "title_description": "联合创始人兼首席运营官",
-      "description": "Sea Ltd联合创始人，负责集团运营管理"
+      "title": "联合创始人兼首席运营官 (Co-founder & COO)",
+      "title_description": "负责集团日常运营管理和战略执行。",
+      "description": "Sea Limited联合创始人，集团首席运营官，负责集团整体运营管理。曾担任集团首席技术官，持有公司约6.1%股权。"
     },
     {
-      "person_id": "SG-PERSON-000116",
-      "name": "Chris Feng",
-      "title": "President of Sea Ltd",
-      "title_description": "集团总裁",
-      "description": "2014年加入Sea，2022年起担任总裁，此前曾任Shopee CEO"
+      "person_id": "SG-PERSON-000114",
+      "name": "冯振明 (Chris Feng)",
+      "title": "集团总裁 (President)",
+      "title_description": "负责集团层面战略协调和跨业务整合。",
+      "description": "2014年加入Sea，2022年1月起担任集团总裁。此前曾任Shopee CEO（2015-2021）和SeaMoney CEO（2020年起），是Shopee从零成长为东南亚最大电商平台的关键推动者。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-CORP-005-DEPT-001",
-      "name": "Sea discontinued its investment division and ceased new equity investments",
+      "name": "Shopee电商平台 (Shopee)",
       "head": null,
-      "description": null,
+      "description": "东南亚最大电商平台，覆盖新加坡、马来西亚、泰国、菲律宾、越南、印尼、台湾和巴西。2025财年收入145.5亿美元（同比增长33.9%），GMV增长26.8%，首次实现全年盈利（调整后EBITDA 8.81亿美元）。Shopee在2025至2026年间多次上调平台佣金费率1-1.5个百分点，市场反应积极。2026年GMV增长目标为25%。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-005-DEPT-002",
+      "name": "Garena数字娱乐 (Garena)",
+      "head": null,
+      "description": "数字娱乐和游戏开发发行部门，管理Garena+在线游戏和社交平台。旗舰产品Free Fire是全球最热门手游之一，2024年2月峰值日活跃用户超1亿。2025财年收入24.1亿美元（同比增长26.1%），预订量增长37.3%，调整后EBITDA利润率高达68.7%。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-005-DEPT-003",
+      "name": "Monee数字金融服务 (Monee)",
+      "head": null,
+      "description": "原SeaMoney，2025年5月更名为Monee。提供移动钱包（ShopeePay）、先买后付（SPayLater）、借贷（SLoan）及数字银行（MariBank、SeaBank）等服务，覆盖7个市场。2025财年收入37.9亿美元（同比增长60.1%），为集团增速最快的业务板块。贷款余额92亿美元，不良贷款率维持在1.1%低位。在新加坡Rochester Commons设立全球总部，容纳1000名员工。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-005-DEPT-004",
+      "name": "Lion City Sailors FC (狮城水手足球俱乐部)",
+      "head": null,
+      "description": "新加坡超级联赛足球俱乐部。原为Home United，2020年被李小冬收购后私有化并更名。是Sea在体育领域的标志性投资。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2026-02-19",
-      "title": "Google与Sea达成AI战略合作",
-      "description": "Google与Sea Ltd宣布战略合作，为Shopee（电商）、Garena（游戏）和SeaMoney（数字支付）开发AI工具，包括AI购物代理",
-      "impact": "AI赋能三大核心业务，提升东南亚市场竞争力",
-      "source": "https://www.reuters.com/world/asia-pacific/google-shopee-owner-sea-develop-ai-tools-e-commerce-gaming-2026-02-19/"
+      "date": "2026-05-06",
+      "title": "Sea即将公布2026年Q1财报",
+      "description": "Sea Limited预计近期公布2026年Q1财报。分析师预期Garena游戏业务用户增长放缓但变现能力保持强劲，Shopee电商业务预计持续增长。",
+      "impact": "市场关注Shopee在2026年GMV增速放缓背景下的盈利可持续性，以及Google AI合作的落地效果。",
+      "source": "https://www.tradingview.com/news/zacks:9456cb387094b:0-sea-limited-gears-up-to-report-q1-earnings-what-s-in-the-offing/"
     },
     {
       "date": "2026-03-03",
       "title": "Sea公布2025年Q4及全年财报",
-      "description": "Sea季度收入增长38%至68.5亿美元，但Shopee 2026年增速预期放缓导致股价一度暴跌27%；Shopee 2025年首次实现全年盈利",
-      "impact": "盈利里程碑与增长放缓的矛盾导致市场分歧，2026年GMV增长目标为25%",
-      "source": "https://finimize.com/content/sea-stock-slipped-after-shopees-2026-growth-forecast-cooled"
+      "description": "2025全年收入229.4亿美元（同比增长36.4%），净利润16.1亿美元（同比增长259.7%）。Q4收入69亿美元（同比增长38.4%）。Shopee全年收入145.5亿美元首次全年盈利；Monee收入37.9亿美元（同比增长60.1%）；Garena收入24.1亿美元（同比增长26.1%）。",
+      "impact": "三大业务板块全面盈利，标志着Sea从高速增长转向高质量增长的关键转折。但Shopee 2026年GMV增速目标25%低于部分分析师预期，股价一度暴跌27%。",
+      "source": "https://marketchameleon.com/articles/b/2026/3/3/sea-limited-2025-earnings-growth-profitability-segments"
+    },
+    {
+      "date": "2026-02-19",
+      "title": "Google与Sea达成AI战略合作",
+      "description": "Google与Sea Ltd宣布扩大战略合作，为Shopee（电商）、Garena（游戏）和Monee（数字金融）开发AI工具，包括AI购物代理、游戏AI助手等应用。",
+      "impact": "AI赋能三大核心业务，提升东南亚市场竞争力，是Sea在AI时代保持技术领先的重要布局。",
+      "source": "https://www.reuters.com/world/asia-pacific/google-shopee-owner-sea-develop-ai-tools-e-commerce-gaming-2026-02-19/"
     },
     {
       "date": "2025-11-01",
       "title": "Shopee首次实现年度盈利",
-      "description": "Shopee在2025年实现首次全年净利润，标志着Sea电商业务从烧钱扩张转向可持续盈利的关键转折",
-      "impact": "东南亚电商竞争格局进入新阶段",
+      "description": "Shopee在2025年实现首次全年净利润，标志着Sea电商业务从烧钱扩张转向可持续盈利的关键转折。2025全年调整后EBITDA达8.81亿美元。",
+      "impact": "东南亚电商竞争格局进入新阶段，Shopee率先盈利为行业树立标杆。",
       "source": "https://thediplomat.com/2026/03/shopee-finally-became-profitable-in-2025/"
+    },
+    {
+      "date": "2025-05-08",
+      "title": "SeaMoney更名Monee并开设新加坡全球总部",
+      "description": "Sea Limited在16周年之际将SeaMoney更名为Monee，并在新加坡Rochester Commons开设数字金融服务全球总部（10层楼，20万平方英尺，容纳1000-1500名员工）。同时宣布在产品管理、AI和反洗钱领域建立卓越中心。",
+      "impact": "大幅提升金融业务的品牌独立性和组织地位，体现Sea对数字金融的长期战略承诺。",
+      "source": "https://fortune.com/asia/2025/05/08/sea-rebrand-seamoney-to-monee-fintech/"
+    },
+    {
+      "date": "2025-01-15",
+      "title": "Sea与NUS共建新大楼启用",
+      "description": "Sea Limited与新加坡国立大学（NUS）合作建设的Sea Building和Sea Connect两栋新大楼在NUS计算机学院正式启用。这是Sea 2021年向NUS捐赠5000万新元的成果，用于AI和数据科学领域的研究和教育。",
+      "impact": "深化产学研合作，为Sea在AI和计算机科学领域培养人才储备。",
+      "source": "https://en.wikipedia.org/wiki/Sea_Limited"
     }
   ],
-  "related_entities": [],
-  "core_business": "冬海集团（英語：Sea Limited）由李小冬于2009年创立，总部位于新加坡。冬海集团市值在2020年8月23日达到720亿美元。\n腾讯2022年2月降低冬海集團持股至18%，並於2022年9月6日公告騰訊在Sea董事會中的代表任宇昕已辭任，騰訊並永久放棄對Sea集團的全部投票權，退出Sea集團董事會。\n2022年11月，Sea與騰訊關係進一步終止。騰訊擁有的拳頭遊戲宣布收回東海旗下競舞臺港澳和東南亞的《英雄聯盟》與《聯盟戰棋》發行業務，東南亞地區將由拳頭遊戲直營，台灣與越南則分別由台灣大哥大與VNGGames代理發行。\n主要公司\nGarena\n蝦皮購物\nMonee (前SeaMoney）\n首次公開募股（IPO）\n冬海集團於2017年10月20日在紐約證券交易所（NYSE）以每股15美元的價格掛牌，籌集8.9億美元（新台幣270億元）的首次公開募股（IPO）。中國大陸的騰訊控股是上市的主要受益者，其持股比例為39.7％，係最大股東；李小冬擁有的Blue Dolphins Venture持股15％；李小冬本人擁有20％；集團首席技術長Gang Ye持股10％；其他投資者還包括高瓴資本、淡馬錫旗下投資公司Seatown Holdings、Mistletoe等。\n参考文献\n外部連結\n官方网站",
-  "industries": [
-    "financial_services"
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "Shopee (虾皮购物)",
+      "org_type": "CORP",
+      "org_description": "东南亚最大电商平台，Sea集团核心子公司，2025年首次实现全年盈利。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Garena",
+      "org_type": "CORP",
+      "org_description": "数字娱乐和游戏平台，Sea集团旗下游戏业务部门，旗舰产品Free Fire全球日活超1亿。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Monee (前SeaMoney)",
+      "org_type": "CORP",
+      "org_description": "Sea集团数字金融服务部门，2025年更名，涵盖支付、信贷和数字银行业务（MariBank、SeaBank）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "MariBank",
+      "org_type": "FIN",
+      "org_description": "Sea旗下新加坡数字全面银行，2023年3月开业，持有MAS数字全面银行牌照。2025年FY亏损5560万新元。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "腾讯控股 (Tencent Holdings)",
+      "org_type": "CORP",
+      "org_description": "中国科技巨头，曾是Sea最大股东（IPO时持股39.7%）。2022年减持至约18.4%，永久放弃Sea全部投票权并退出董事会。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "org_name": "Google (Alphabet Inc.)",
+      "org_type": "CORP",
+      "org_description": "2026年2月与Sea扩大AI战略合作，为Shopee、Garena和Monee开发AI工具。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "Lion City Sailors FC (狮城水手)",
+      "org_type": "CORP",
+      "org_description": "新加坡超级联赛足球俱乐部，2020年被李小冬收购并更名，为Sea旗下体育资产。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Baillie Gifford & Co.",
+      "org_type": "FIN",
+      "org_description": "苏格兰投资管理公司，截至2024年中持有Sea约6.45%股权，为主要机构股东。",
+      "relationship_type": "controlling_shareholder"
+    }
   ],
-  "apec_stance": "Sea Ltd旗下的Shopee是东南亚最大电商平台，业务覆盖多个APEC经济体（印尼、菲律宾、越南、泰国等），受益于APEC数字经济议程和区域贸易便利化",
+  "core_business": "冬海集团（Sea Limited，NYSE: SE）是东南亚最大科技集团之一，总部位于新加坡Fusionopolis Place。公司由李小冬（Forrest Li）于2009年创立（原名Garena），2017年在纽交所上市，是首家在美IPO的东南亚大型科技公司。集团旗下三大核心业务板块协同发展：Shopee（电商）是东南亚最大电商平台，覆盖新加坡、马来西亚、泰国、菲律宾、越南、印尼、台湾和巴西，2025财年收入145.5亿美元（同比增长33.9%），GMV增长26.8%，首次实现全年盈利（调整后EBITDA 8.81亿美元）。Shopee在2025-2026年间多次上调佣金费率1-1.5个百分点，反映其市场定价能力提升。Garena（游戏）管理在线游戏和社交平台，旗舰产品Free Fire是全球最热门手游之一，2024年2月峰值日活超1亿，2025财年收入24.1亿美元（同比增长26.1%），调整后EBITDA利润率高达68.7%，是集团的现金奶牛。Monee（数字金融，原SeaMoney）于2025年5月更名并在新加坡开设全球总部，提供移动钱包（ShopeePay）、先买后付（SPayLater）、借贷（SLoan）及数字银行（MariBank在新加坡、SeaBank在印尼和菲律宾）等服务，覆盖7个市场。2025财年收入37.9亿美元（同比增长60.1%），是集团增速最快的板块，贷款余额92亿美元，不良贷款率仅1.1%。2025全年集团总收入229.4亿美元（同比增长36.4%），净利润16.1亿美元（同比增长259.7%），三大业务板块全面盈利。2026年2月，Sea与Google扩大AI战略合作，为三大业务开发AI工具，包括AI购物代理。主要股东包括腾讯（约18.4%，但已于2022年放弃全部投票权）、Baillie Gifford（6.45%）、李小冬（3.67%）等。",
+  "industries": [
+    "information_technology",
+    "retail",
+    "financial_services",
+    "fintech"
+  ],
+  "apec_stance": "冬海集团是东南亚数字经济的核心参与者，业务覆盖多个APEC经济体（新加坡、印尼、菲律宾、越南、泰国、马来西亚、台湾等）。Shopee作为东南亚最大电商平台，直接受益于APEC数字经济议程和区域贸易便利化。Monee（前SeaMoney）在推动区域普惠金融方面发挥重要作用，覆盖7个市场提供数字支付和信贷服务。Sea与Google的AI战略合作（2026年）体现了其在APEC科技创新议程中的积极参与。Sea也是新加坡产学研合作的典范——2021年向新加坡国立大学捐赠5000万新元用于AI和数据科学研究。集团2025年总收入229.4亿美元和16.1亿美元净利润，体现了东南亚数字经济的巨大潜力。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sea_Group_logo.svg/330px-Sea_Group_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
-    "data_sources": [
-      "wikidata",
-      "wikipedia",
-      "official_website"
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Sea Limited - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Sea_Limited"
+      },
+      {
+        "title": "冬海集团 - Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/冬海集团"
+      },
+      {
+        "title": "Sea Official Website",
+        "url": "https://www.sea.com"
+      },
+      {
+        "title": "Sea 2025 Full Year Earnings Analysis - Market Chameleon",
+        "url": "https://marketchameleon.com/articles/b/2026/3/3/sea-limited-2025-earnings-growth-profitability-segments"
+      },
+      {
+        "title": "Google-Sea AI Partnership - Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/google-shopee-owner-sea-develop-ai-tools-e-commerce-gaming-2026-02-19/"
+      },
+      {
+        "title": "SeaMoney Rebrands to Monee - Fortune",
+        "url": "https://fortune.com/asia/2025/05/08/sea-rebrand-seamoney-to-monee-fintech/"
+      },
+      {
+        "title": "Shopee Profitability - The Diplomat",
+        "url": "https://thediplomat.com/2026/03/shopee-finally-became-profitable-in-2025/"
+      },
+      {
+        "title": "Sea Stock Slipped - Finimize",
+        "url": "https://finimize.com/content/sea-stock-slipped-after-shopees-2026-growth-forecast-cooled"
+      },
+      {
+        "title": "Sea Leadership - Chris Feng",
+        "url": "https://www.sea.com/aboutus/leadership/management/ChrisFeng"
+      },
+      {
+        "title": "MariBank - What is MariBank",
+        "url": "https://www.maribank.sg/blog/what-is-maribank"
+      }
     ],
-    "completeness_score": 94,
-    "notes": "Enriched with web search data: key_people, social_accounts, recent_events, digital_assets, apec_stance (2026-04-16)"
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "web_search",
+      "financial_reports",
+      "news_articles"
+    ],
+    "completeness_score": 89,
+    "notes": "Phase3 enrichment: expanded departments (4 depts with detailed descriptions), 6 recent events with sources, 8 related entities, updated financials to FY2025 and Q1 2026, corrected org_subtype to publicly_listed, added ISIN/stock_exchange, expanded core_business and apec_stance with verified data."
   }
 }

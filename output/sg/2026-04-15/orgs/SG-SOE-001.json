@@ -1,138 +1,283 @@
 {
   "org_id": "SG-SOE-001",
   "basic_info": {
-    "name_original": "淡马锡控股",
-    "name_zh": "淡马锡控股",
+    "name_original": "Temasek Holdings",
     "name_en": "Temasek Holdings",
+    "name_zh": "淡马锡控股",
     "aliases": [
-      "Temasek Holdings Private Limited",
+      "Temasek Holdings (Private) Limited",
       "淡马锡控股",
-      "டெமாசெக் ஹோல்டிங்ஸ்"
+      "淡马锡",
+      "Temasek",
+      "THPL"
     ],
     "org_type": "SOE",
     "org_subtype": "sovereign_wealth_fund",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1974-01-01",
-    "website": "http://www.temasek.com.sg/"
+    "founded_date": "1974-06-25",
+    "website": "https://www.temasek.com.sg"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
       "account_name": "Temasek",
       "url": "https://twitter.com/Temasek",
-      "source": "wikidata"
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "temasekholdings",
       "url": "https://facebook.com/temasekholdings",
-      "source": "wikidata"
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Temasek",
+      "url": "https://www.linkedin.com/company/temasek",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Temasek",
+      "url": "https://www.youtube.com/@Temasek",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@temasekseen",
+      "url": "https://www.instagram.com/temasekseen/",
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
       "name": "淡马锡官方网站",
       "url": "https://www.temasek.com.sg/",
-      "description": "淡马锡控股官方网站，包含投资组合、年报和公司治理信息",
-      "source": "official_website"
+      "description": "淡马锡控股官方网站，包含投资组合、年报、公司治理及新闻资讯。",
+      "source": "https://www.temasek.com.sg/"
     },
     {
       "name": "淡马锡年度报告2025",
       "url": "https://www.temasekreview.com.sg/",
-      "description": "Temasek Review 2025年度报告，主题'Sense, Adapt, Thrive'",
-      "source": "official_website"
+      "description": "Temasek Review 2025年度报告，主题'Sense, Adapt, Thrive'，披露净投资组合价值S$434亿。",
+      "source": "https://www.temasekreview.com.sg/"
+    },
+    {
+      "name": "淡马锡投资组合表现",
+      "url": "https://www.temasek.com.sg/en/our-financials/portfolio-performance",
+      "description": "淡马锡官方投资组合表现数据页面。",
+      "source": "https://www.temasek.com.sg/en/our-financials/portfolio-performance"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000083",
-      "name": "何晶 (Ho Ching)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000131",
+      "name": "张志贤 (Teo Chee Hean)",
+      "title": "董事会主席 (Chairman)",
+      "title_description": "淡马锡控股董事会主席，负责公司治理和战略方向",
+      "description": "新加坡前副总理兼统筹国家安全部长，2025年7月加入淡马锡董事会任副主席，同年10月9日接替林文兴出任第五任主席。同时担任总理公署高级顾问。"
+    },
+    {
+      "person_id": "SG-PERSON-000293",
+      "name": "迪尔汉·皮莱·桑德拉塞加拉 (Dilhan Pillay Sandrasegara)",
+      "title": "执行董事兼首席执行官 (Executive Director & CEO)",
+      "title_description": "淡马锡控股及淡马锡国际的最高执行长官",
+      "description": "2010年加入淡马锡，历任投资集团主管、投资组合管理主管、企业发展集团主管。此前为WongPartnership律师事务所管理合伙人。2021年10月接替何晶出任执行董事兼CEO。同时兼任淡马锡国际CEO。"
     },
     {
       "person_id": "SG-PERSON-000084",
-      "name": "Chia Song Hwee",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "name": "谢松辉 (Chia Song Hwee)",
+      "title": "联席首席执行官 (Co-CEO, Temasek International)",
+      "title_description": "淡马锡国际联席CEO，将出任淡马锡全球投资CEO",
+      "description": "2011年加入淡马锡，历任总裁兼首席运营官。此前为特许半导体制造公司（Chartered Semiconductor）CEO。2025年10月出任淡马锡国际联席CEO，2026年4月将出任新设立的淡马锡全球投资（TGI）CEO。"
     },
     {
-      "person_id": "SG-PERSON-000085",
-      "name": "林文兴 (Lim Boon Heng)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
-    },
-    {
-      "person_id": "SG-PERSON-000086",
-      "name": "张志贤 (Teo Chee Hean)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000083",
+      "name": "何晶 (Ho Ching)",
+      "title": "淡马锡信托主席 (Chairperson, Temasek Trust)",
+      "title_description": "前淡马锡控股CEO，现任淡马锡公益信托主席",
+      "description": "2002年加入淡马锡任执行董事，2004年至2021年出任CEO。在其领导下淡马锡首次公布财务报表并获得AAA信用评级。现为淡马锡信托主席，负责淡马锡的社区和公益事务。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-001-DEPT-001",
-      "name": "or renew the members of Temasek's board of directors. In most other respects",
+      "name": "淡马锡全球投资 (Temasek Global Investments / TGI)",
+      "head": "谢松辉 (Chia Song Hwee)",
+      "description": "2026年4月1日新设立的全资投资实体，专注于全球直接投资（GDIs），投资于符合数字化、可持续生活、未来消费和长寿四大结构性趋势的成熟及新兴市场领军企业，占淡马锡投资组合约36%。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-001-DEPT-002",
+      "name": "淡马锡新加坡 (Temasek Singapore / TSG)",
+      "head": "方静宜 (Png Chin Yee)",
+      "description": "2026年4月1日新设立的全资实体，专注于新加坡本地组合公司（TPCs）的主动投资组合管理，包括DBS、新电信、新加坡航空、PSA、凯德等，合计营收约S$200亿，在新加坡雇佣超过16万人，占淡马锡投资组合约41%。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-001-DEPT-003",
+      "name": "淡马锡合作解决方案 (Temasek Partnership Solutions / TPS)",
       "head": null,
-      "description": null,
+      "description": "2026年4月1日新设立的全资实体，管理资金投资、战略合作伙伴关系和资产管理公司（AMCs）。淡马锡旗下资产管理规模超过S$90亿，占投资组合约23%。通过Seviora Holdings深化合作伙伴关系。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-001-DEPT-004",
+      "name": "淡马锡国际 (Temasek International / TI)",
+      "head": "迪尔汉·皮莱 (Dilhan Pillay)",
+      "description": "集团核心运营实体，提供集团级治理、战略和运营支持，为三大投资实体服务。TI同时管理企业职能部门和集团共享服务。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2025-07-09",
+      "title": "淡马锡2025年度报告：净投资组合价值创历史新高",
+      "description": "截至2025年3月31日，淡马锡净投资组合价值达到S$434亿，较上年增加S$45亿，增幅11.8%。若将未上市资产按市价调整，总价值达S$469亿。一年期股东总回报率1.60%，10年期和20年期回报率分别为6%和7%。",
+      "impact": "投资组合创历史新高，显示淡马锡在全球经济不确定性中仍保持稳健增长。",
+      "source": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/temasek-net-portfolio-value-grows-to-record-high-of-434-billion"
+    },
+    {
       "date": "2025-08-28",
       "title": "淡马锡宣布重大组织架构重组——2026年4月设立三个投资实体",
-      "description": "淡马锡控股宣布十多年来首次重大重组，将于2026年4月1日起分拆为三个全资投资实体：全球直接投资、新加坡本地组合公司、合作/联合投资平台。CEO表示重组旨在提高投资聚焦度和运营敏捷性。",
-      "impact": "淡马锡10年期股东回报率约5%，重组旨在提升投资回报率和战略清晰度",
-      "source": "https://www.reuters.com/markets/europe/singapores-temasek-revamp-structure-sharpen-investment-focus-ceo-says-2025-08-28/"
+      "description": "淡马锡控股宣布十多年来首次重大重组，将于2026年4月1日起分拆为三个全资投资实体：淡马锡全球投资（TGI）、淡马锡新加坡（TSG）、淡马锡合作解决方案（TPS）。CEO迪尔汉·皮莱表示重组旨在提高投资聚焦度和运营敏捷性。谢松辉出任联席CEO。",
+      "impact": "重组旨在通过专业化管理三大投资板块提升投资回报率和战略清晰度，是T2030十年战略路线图的重要里程碑。",
+      "source": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/temasek-positions-organisation-for-the-new-global-environment"
+    },
+    {
+      "date": "2025-10-09",
+      "title": "张志贤接任淡马锡董事会主席",
+      "description": "新加坡前副总理张志贤于10月9日正式接替林文兴出任淡马锡控股第五任董事会主席。林文兴自2013年起担任主席，任内淡马锡净投资组合价值从S$223亿增长至S$434亿。陈崇铭（Tan Chong Meng）被任命为副主席。",
+      "impact": "领导层更替标志着淡马锡进入新的治理阶段，张志贤的政府和安全管理经验将为淡马锡应对全球地缘政治风险提供重要支持。",
+      "source": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/teo-chee-hean-chairman-tan-chong-meng-deputy-chairman"
+    },
+    {
+      "date": "2022-11-17",
+      "title": "FTX投资全数减值",
+      "description": "淡马锡宣布将FTX投资的2.75亿美元全数减值，占淡马锡截至2022年3月净投资组合的0.09%。淡马锡对FTF创始人Sam Bankman-Fried的信任被证明是'错付的'。2023年5月，淡马锡削减了相关负责团队和高管的薪酬。",
+      "impact": "FTX事件促使淡马锡大幅削减早期初创投资，早期投资规模下降88%，并加强了尽职调查流程。",
+      "source": "https://www.temasek.com.sg/en/news-and-resources/news-room/statements/2022/statement-FTX"
+    },
+    {
+      "date": "2024-01-01",
+      "title": "淡马锡与EQT出售O2 Power",
+      "description": "淡马锡与EQT以15亿美元将可再生能源平台O2 Power出售给JSW Energy，体现淡马锡在能源转型领域的投资和退出能力。",
+      "impact": "成功退出可再生能源投资，回收资本以再投资于可持续能源领域。",
+      "source": "https://en.wikipedia.org/wiki/Temasek_Holdings"
     }
   ],
   "related_entities": [
     {
-      "org_id": "Q32245",
-      "org_name": "Singapore Airlines",
+      "org_id": "SG-SOE-003",
+      "org_name": "新加坡航空 (Singapore Airlines)",
       "org_type": "SOE",
-      "org_description": null,
+      "org_description": "淡马锡持股约60%的旗舰组合公司，新加坡国家航空公司。",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": "Q864923",
-      "org_name": "Singtel",
+      "org_id": "SG-SOE-004",
+      "org_name": "新加坡电信 (Singtel)",
       "org_type": "SOE",
-      "org_description": null,
+      "org_description": "淡马锡持有主要股份的新加坡电信巨头，淡马锡历史上长期持有约51%股权。",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": "Q3272868",
-      "org_name": "CapitaLand",
-      "org_type": "SOE",
-      "org_description": null,
+      "org_id": "SG-CORP-001",
+      "org_name": "星展银行 (DBS Bank)",
+      "org_type": "CORP",
+      "org_description": "淡马锡持股约30%的东南亚最大银行。",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-008",
+      "org_name": "凯德集团 (CapitaLand)",
+      "org_type": "SOE",
+      "org_description": "淡马锡持股约52%的亚洲最大房地产公司之一。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-007",
+      "org_name": "吉宝企业 (Keppel Ltd.)",
+      "org_type": "CORP",
+      "org_description": "淡马锡持有重要股权的多元化企业集团，涵盖能源、基础设施和房地产。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-005",
+      "org_name": "新加坡国际港务集团 (PSA International)",
+      "org_type": "SOE",
+      "org_description": "淡马锡全资拥有的全球领先港口运营商。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-002",
+      "org_name": "新加坡政府投资公司 (GIC Private Limited)",
+      "org_type": "SOE",
+      "org_description": "新加坡另一主权财富基金，管理约7440亿美元资产，与淡马锡形成互补的投资体系。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "SG-GOV-010",
+      "org_name": "新加坡财政部 (Ministry of Finance)",
+      "org_type": "GOV",
+      "org_description": "淡马锡的100%股东，新加坡宪法第五附表实体，总统对储备金有保护权。",
+      "relationship_type": "controlling_shareholder"
     }
   ],
-  "core_business": "淡馬錫控股私人有限公司（英語：Temasek Holdings Private Limited），簡稱淡馬錫控股或淡馬錫，是一家新加坡的投資公司，新加坡政府財政部對其擁有100%的股權。由於其自成立起到2004年9月期間從未公布過財務報表，因此被認為是新加坡最神秘的企業之一。截至2019年3月31日的財政年度，全年股息收入90億新元，10年期股本回報率9%，集團投資組合總價值約3130億新元(2310億美元)。\n概述\n淡马锡控股成立于1974年，是新加坡政府所全资拥有的几家公司中知名度最高的，却始终保持神秘。作为豁免私人企业，淡马锡控股不必像上市公司一样公开每年的财务报表，因此一直以来对该公司的传闻都不断。该公司掌控了包括新加坡电信、新加坡航空、星展银行、新加坡地铁、新加坡国际港务集团、新加坡电力、吉宝集团和莱佛士酒店等几乎所有新加坡最重要、营业额最大的企业，曾有国外媒体估算，淡马锡控股所持有的股票市价占到整个新加坡股票市场的47%，可以说是几乎主宰了新加坡的经济命脉。也因如此，新加坡的经济模式被称作是“国家资本主义”，即通过国家控制的私人企业来进行投资，主导以私营企业为主的资本市场。\n淡马锡控股除了投资新加坡本地市场外，也把亚洲市场和发达国家市场视为投资终点，目前大约一半的资产是在新加坡以外地区。其中主要的投资包括马来西亚电讯、印度的ICICI银行、澳大利亚第二大电信公司Optus。近年来该公司加大了对中国市场的投资，对中国的首家私营银行民生银行表现出兴趣。\n2002年5月，时任副总理的前新加坡总理李显龙之妻何晶被任命为淡马锡控股的执行董事；2004年1月，何晶更出任首席执行长（CEO）。对何晶的任命曾在国际媒体上引起风波，许多人批评并影射这项人事任命的不当动机，公家投資根本由李光耀家族為所欲為的把持。\n2004年10月，该公司首次公布了2003年度的财务报表，这项举措被认为是为准备首次发行企业债券而做准备。报表显示，在过去的30年中，公司的总体投資報酬率为18%，但是过去10年的投資報酬率则只有3%。它的总资产达到900亿美元，是新加坡最大的企业，企业规模与美国通用电气相当。在2003年的表现方面，公司的投資報酬率则高达46%，被认为是何晶出任CEO后大胆扩张的结果。国际两家评级机构标准普尔与穆迪投资都在财务报表发表后给予淡马锡控股AAA的最高信用评级。\n2009年四月，捷星亞洲航空的最大股東澳洲航空和其他股東達成協議，淡馬錫控股退出不再投資捷星亞洲航空。\n2010年2月，證實已經成立一家全球性質的投資公司，「海鎮控股國際」（Seatown Holdings International）預料規模約30億美元（約234億港元）。\n2010年7月5日，淡马锡沽售中国建设银行15億股H股，及中行51.9億股H股，套現95.3億及190億元，合共285.3億元。淡馬錫仍持有154.06億股建行及52.81億股中行，持股量分別為6.41%及6.95%。\n2010年11月1日，淡馬錫控股宣佈注資4億美元，入股巴西石油與天然氣服務公司(Odebrecht Oil and Gas,簡稱OOG)，將持有該公司14.3%的股權。Odebrecht是拉丁美洲最大的建築工程公司，旗下石油與天然氣服務公司自1950年代起即持續與巴西國家石油公司維持夥伴關係。\n2013年9月13日，淡馬錫透過子企Sennet Investments，以每股23.8至24美元悉售770萬股(或21.3%)優酷土豆的股份，即不再是中資最大單一大股東。\n2014年3月21日，淡馬錫斥資440",
+  "core_business": "淡马锡控股（Temasek Holdings (Private) Limited）是新加坡政府全资拥有的跨国投资公司，1974年6月25日成立，以新加坡古称'淡马锡'命名。截至2025年3月31日，净投资组合价值达S$434亿（约合3240亿美元），在全球9个国家设有13个办事处。淡马锡由新加坡财政部全资持有，但作为独立商业投资公司运营，依法纳税、向股东派息，并拥有独立的董事会和管理团队。淡马锡自2004年起获得穆迪和标普的Aaa/AAA最高信用评级。\n\n淡马锡最初持有新加坡政府此前直接持有的本地企业股权，包括鸟园、酒店、造船厂、初创航空公司和钢铁厂等，初始投资组合仅S$3.54亿。经过50年的发展，淡马锡已从新加坡本地控股公司转型为根植亚洲的全球投资公司，66%的基础敞口面向发达经济体。淡马锡以四大结构性趋势指导投资组合构建：数字化、可持续生活、未来消费和长寿，重点投资领域涵盖消费/媒体/科技、生命科学与农业食品、非银行金融服务等。2025年8月，淡马锡宣布自2026年4月起将投资组合管理分为三大实体：淡马锡全球投资（TGI，占36%）专注全球直接投资；淡马锡新加坡（TSG，占41%）管理新加坡本地组合公司；淡马锡合作解决方案（TPS，占23%）负责基金投资和合作伙伴关系。\n\n淡马锡自成立以来的50年复合年股东总回报率为14%，20年期回报率为7%。旗下主要组合公司包括DBS银行、新加坡航空、新电信、凯德集团、PSA国际、吉宝企业、SMRT集团等。淡马锡是新加坡宪法第五附表实体，总统对可能导致储备金减少的交易拥有否决权，并可任命、终止或续任董事会成员。2022年FTX投资失败后，淡马锡大幅调整了早期初创投资策略，加强尽职调查流程。2025年，淡马锡发布首份可持续发展报告，披露投资组合碳排放量下降22%，可持续投资占总资产12%。",
   "industries": [
     "investment"
   ],
-  "apec_stance": "淡马锡控股作为新加坡主权财富基金，投资组合中41%位于新加坡本土，其余覆盖亚太和全球市场。淡马锡通过投资新加坡航空、新电信、星展银行等政联公司，间接参与APEC区域经济活动。淡马锡积极布局中国、印度等APEC经济体，是亚太区域最大的机构投资者之一。",
+  "apec_stance": "淡马锡作为新加坡主权财富基金，是亚太区域最大的机构投资者之一。投资组合覆盖多个APEC经济体，包括中国、日本、韩国、澳大利亚、美国、加拿大、墨西哥等。淡马锡通过持有新加坡航空、新电信、DBS银行、凯德集团、PSA国际等政联公司的股权，间接深度参与APEC区域经济活动。淡马锡在全球9个国家设立13个办事处，其中北京、上海、深圳、河内、孟买位于APEC经济体。近年来淡马锡持续加码亚太投资，在印度市场控股Manipal Health Enterprises（59%），投资Country Delight、Lenskart等企业。在中国市场投资腾讯、京东等科技巨头。淡马锡与黑石合作成立脱碳伙伴关系基金，在APEC框架下的可持续发展和绿色金融领域发挥积极作用。淡马锡明确表示不会因美国关税政策大幅调整投资策略，将继续以亚太为核心锚定区域进行长期投资。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/The_Atrium_%40_Orchard.JPG/330px-The_Atrium_%40_Orchard.JPG",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news"
     ],
-    "completeness_score": 97,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 97)"
+    "completeness_score": 96,
+    "quotes": [
+      {
+        "title": "Wikipedia - Temasek Holdings",
+        "url": "https://en.wikipedia.org/wiki/Temasek_Holdings"
+      },
+      {
+        "title": "Temasek Official Website",
+        "url": "https://www.temasek.com.sg"
+      },
+      {
+        "title": "Temasek Review 2025",
+        "url": "https://www.temasekreview.com.sg/"
+      },
+      {
+        "title": "Temasek - Restructuring Announcement",
+        "url": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/temasek-positions-organisation-for-the-new-global-environment"
+      },
+      {
+        "title": "Temasek - Teo Chee Hean Chairman Announcement",
+        "url": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/teo-chee-hean-chairman-tan-chong-meng-deputy-chairman"
+      },
+      {
+        "title": "Temasek - Net Portfolio Value Record High",
+        "url": "https://www.temasek.com.sg/en/news-and-resources/news-room/news/2025/temasek-net-portfolio-value-grows-to-record-high-of-434-billion"
+      },
+      {
+        "title": "Reuters - Temasek revamp structure",
+        "url": "https://www.reuters.com/markets/europe/singapores-temasek-revamp-structure-sharpen-investment-focus-ceo-says-2025-08-28/"
+      },
+      {
+        "title": "Temasek FTX Statement",
+        "url": "https://www.temasek.com.sg/en/news-and-resources/news-room/statements/2022/statement-FTX"
+      }
+    ],
+    "notes": "Phase 3 enrichment: corrected person_id mappings (Teo Chee Hean: SG-PERSON-000131, Lim Boon Heng: SG-PERSON-000136), updated key_people to reflect current leadership (Teo Chee Hean as Chairman since Oct 2025, Dilhan Pillay as CEO since Oct 2021), added Chia Song Hwee as Co-CEO, added 4 new departments reflecting 2026 restructuring, expanded recent_events to 5 events, expanded related_entities to 8 with correct org_ids from index, updated core_business with 2025 financial data, enhanced apec_stance with regional investment details."
   }
 }

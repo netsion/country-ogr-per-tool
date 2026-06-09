@@ -1,116 +1,333 @@
 {
   "org_id": "SG-CORP-002",
   "basic_info": {
-    "name_original": "華僑銀行",
-    "name_zh": "華僑銀行",
+    "name_original": "Oversea-Chinese Banking Corporation",
+    "name_zh": "华侨银行",
     "name_en": "Oversea-Chinese Banking Corporation",
     "aliases": [
       "OCBC Bank",
-      "華僑銀行",
+      "OCBC",
       "华侨银行",
-      "ஓவர்சீ-சைனீஸ் பேங்கிங் கார்ப்ரேஷன்"
+      "華僑銀行",
+      "Oversea-Chinese Banking Corporation Limited"
     ],
     "org_type": "CORP",
     "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1932-01-01",
+    "founded_date": "1932-10-31",
     "website": "https://www.ocbc.com/"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "ocbcmy",
-      "url": "https://twitter.com/ocbcmy",
-      "source": "wikidata"
+      "account_name": "OCBCBank",
+      "url": "https://twitter.com/OCBCBank",
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "OCBCBank",
       "url": "https://facebook.com/OCBCBank",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "ocbc-bank",
+      "url": "https://www.linkedin.com/company/ocbc-bank/",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "ocbcbank",
+      "url": "https://www.instagram.com/ocbcbank/",
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
       "name": "OCBC官方网站",
       "url": "https://www.ocbc.com/",
-      "description": "华侨银行官方网站，提供个人银行、商业银行和财富管理服务",
+      "description": "华侨银行官方网站，提供个人银行、商业银行和财富管理服务信息",
       "source": "official_website"
     },
     {
       "name": "OCBC投资者关系",
       "url": "https://www.ocbc.com/group/investors/financials.page",
-      "description": "OCBC财务报告、年报和投资者演示材料",
+      "description": "OCBC财务报告、年报、投资者演示材料和股息信息",
       "source": "official_website"
     },
     {
-      "name": "OCBC年报2025",
+      "name": "OCBC 2025年年报",
       "url": "https://www.ocbc.com/group/investors/annual-reports/2025-annual-report/index.page",
-      "description": "OCBC 2025年度报告，包含完整财务数据和战略回顾",
+      "description": "OCBC 2025年度报告，包含完整财务数据、董事会主席致辞和集团CEO战略展望",
       "source": "official_website"
+    },
+    {
+      "name": "Bank of Singapore（新加坡银行）",
+      "url": "https://www.bankofsingapore.com/",
+      "description": "OCBC旗下私人银行子公司，服务高净值个人和家族客户，在香港和迪拜设有分支机构",
+      "source": "official_website"
+    },
+    {
+      "name": "Lion Global Investors（利安资金管理）",
+      "url": "https://www.lionglobalinvestors.com/",
+      "description": "OCBC集团旗下资产管理公司，管理资产规模达699亿新元（截至2023年3月）",
+      "source": "official_website"
+    },
+    {
+      "name": "Great Eastern Holdings（大东方控股）",
+      "url": "https://www.greateasternlife.com/",
+      "description": "OCBC旗下保险公司，拥有380万保单持有人，在马来西亚、印尼和文莱运营，OCBC持股93.72%",
+      "source": "wikipedia"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000104",
       "name": "黄碧娟 (Helen Wong)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "前任集团首席执行官 (Former Group CEO)",
+      "title_description": "已于2025年12月31日退休卸任",
+      "description": "黄碧娟于2021年起担任OCBC集团CEO，是新加坡三大银行首位女性CEO。2025年7月宣布因家庭原因退休，2025年底正式卸任，由陈德隆接任。退休后仍担任OCBC中国董事长。2025年年薪1200万新元。"
     },
     {
       "person_id": "SG-PERSON-000105",
       "name": "陈德隆 (Tan Teck Long)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "集团首席执行官 (Group CEO)",
+      "title_description": "2026年1月1日正式就任",
+      "description": "陈德隆拥有超过30年银行业经验，此前担任OCBC全球批发银行业务主管。2025年7月被任命为集团CEO继任者，同时兼任副CEO以确保过渡平稳。2026年1月正式接任后推出The Next Frontier新战略，重点聚焦东盟市场和财富管理整合。"
     },
     {
-      "person_id": "SG-PERSON-000106",
-      "name": "李国庆 (Andrew Lee)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000232",
+      "name": "李国庆 (Andrew Lee Kok Keng)",
+      "title": "董事会主席 (Chairman)",
+      "title_description": "非执行独立董事，2023年2月就任主席",
+      "description": "李国庆是资深银行家，拥有超过30年金融服务经验，曾在OCBC银行、大东方人寿、BCS信息系统和渣打银行担任高管。2022年2月加入OCBC董事会，2023年2月接替黄上杭出任主席。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-CORP-002-DEPT-001",
-      "name": "bank moved its head office to Bombay",
+      "name": "全球批发银行业务部 (Global Wholesale Banking)",
       "head": null,
-      "description": null,
+      "description": "负责企业银行、投资银行、机构银行业务和交易银行服务，为大型企业和机构客户提供融资、贸易融资和资本市场解决方案",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-002-DEPT-002",
+      "name": "财富管理部 (Wealth Management)",
+      "head": null,
+      "description": "整合私人银行（新加坡银行）、高端私人客户、贵宾银行、保险（大东方控股）、资产管理（利安资金管理）和证券经纪业务。FY2025财富管理收入达56亿新元，占总收入38%",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-002-DEPT-003",
+      "name": "个人银行部 (Consumer Banking)",
+      "head": null,
+      "description": "提供零售银行服务，包括储蓄账户、信用卡、房屋贷款、个人贷款和数字银行服务。2024年9月推出面向7至15岁儿童的MyOwn Account",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-002-DEPT-004",
+      "name": "商业银行部 (Business Banking)",
+      "head": null,
+      "description": "服务中小企业和商业客户，提供商业贷款、贸易融资、现金管理和数字化解决方案。与Xero合作帮助中小企业数字化转型",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-002-DEPT-005",
+      "name": "OCBC NISP（印尼子行）",
+      "head": null,
+      "description": "OCBC印尼子公司，前身为Bank NISP，在印尼运营超过411家分行。2024年5月完成对澳洲联邦银行印尼分行（PT Bank Commonwealth Indonesia）的收购，2026年5月收购汇丰银行印尼财富和卓越理财业务，新增33.6万客户和66亿新元AUM",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-002-DEPT-006",
+      "name": "OCBC中国 (OCBC China)",
+      "head": null,
+      "description": "总部位于上海，在14个城市设有16家分支行，约1500名员工。OCBC自1925年在厦门设立分行以来已在中国大陆持续运营近百年。2023年12月正式更名为OCBC Bank Limited并启用OCBC China品牌名",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-002-DEPT-007",
+      "name": "OCBC银行（香港） (OCBC Bank Hong Kong)",
+      "head": null,
+      "description": "前身为永亨银行，2014年被OCBC以近50亿美元收购。2023年7月更名为OCBC Bank (Hong Kong) Limited。在香港和澳门提供全面银行服务",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-08",
+      "title": "OCBC公布2026年第一季度净利润19.7亿新元，同比增长5%",
+      "description": "OCBC公布Q1 FY2026净利润19.7亿新元，超出分析师预期的18.9亿新元。非利息收入创历史新高达16.1亿新元，其中财富管理手续费同比增长34%至4.22亿新元。净利息收入因利率下降同比下滑5%至22.2亿新元，净息差降至1.76%。银行因中东战争不确定性增加拨备1.91亿新元。",
+      "impact": "OCBC展示出财富管理业务的结构性增长动能，非利息收入占比首次超过40%，有效对冲了利率下行压力",
+      "source": "https://www.channelnewsasia.com/business/ocbc-q1-profit-beats-forecasts-sets-aside-more-allowances-amid-middle-east-war-6108371"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "OCBC收购汇丰银行印尼财富和卓越理财业务",
+      "description": "OCBC通过旗下印尼子公司PT Bank OCBC NISP Tbk与PT Bank HSBC Indonesia签署协议，收购汇丰银行印尼零售银行和财富管理业务。交易将新增33.6万客户和66亿新元资产管理规模（AUM），包括43亿新元客户投资和23亿新元存款。这是新任CEO陈德隆上任以来的首笔重大收购。",
+      "impact": "显著扩大OCBC在东南亚最大经济体的零售银行和财富管理版图，巩固其作为印尼最大外资银行之一的地位",
+      "source": "https://www.ocbc.com/group/media/release/2026/ocbc-acquires-hsbc-international-wealth-and-premier-banking-indonesia"
+    },
+    {
       "date": "2026-02-25",
-      "title": "OCBC公布2025财年净利润74.2亿新元",
-      "description": "华侨银行公布FY2025净利润为74.2亿新元，创纪录的税前利润达91.2亿新元。财富管理业务增长强劲，新银行客户增长近10%，资产管理规模增长超10%。",
-      "impact": "OCBC巩固新加坡第二大银行地位，承诺向柔新经济特区企业提供150亿令吉融资",
+      "title": "OCBC公布2025财年净利润74.2亿新元，税前利润创新高",
+      "description": "OCBC公布FY2025净利润74.2亿新元，税前利润首次突破91.2亿新元。总收入达146亿新元创历史新高，其中非利息收入增长16%至54.6亿新元。财富管理收入增长14%至创纪录的56亿新元，占总收入38%。董事会建议末期普通股息42分加特别股息16分，全年股息合计99分，派息率60%。",
+      "impact": "OCBC宣布25亿新元资本回报计划，预计FY26完成。新CEO同步发布The Next Frontier战略，聚焦东盟市场、财富管理整合和AI/数字化",
       "source": "https://www.ocbc.com/group/media/release/2025/ocbc-group-full-year-2025.page"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "陈德隆正式接任OCBC集团CEO",
+      "description": "陈德隆于2026年1月1日正式接替退休的黄碧娟担任OCBC集团CEO。陈德隆此前担任OCBC全球批发银行业务主管，拥有超过30年银行业经验。2025年7月宣布继任安排后，陈德隆同时兼任副CEO以确保平稳过渡。黄碧娟退休后仍担任OCBC中国董事长。",
+      "impact": "管理层更替顺利完成，新CEO随即推出The Next Frontier战略，标志着OCBC进入新一轮增长阶段",
+      "source": "https://www.ocbc.com/group/media/release/2025/ocbc-appoints-tan-teck-long-as-group-chief-executive-officer-succeeding-helen-wong"
+    },
+    {
+      "date": "2024-10-10",
+      "title": "OCBC将大东方控股持股比例提升至93.72%",
+      "description": "OCBC完成对旗下保险子公司大东方控股（Great Eastern Holdings）的私有化要约，将持股比例从约87.1%提升至93.72%。大东方控股拥有531亿新元资产和380万保单持有人，在新加坡、马来西亚、印尼和文莱运营。",
+      "impact": "进一步加强OCBC在保险和综合金融服务领域的布局，提升集团内部协同效应和财富管理整合能力",
+      "source": "https://en.wikipedia.org/wiki/Oversea-Chinese_Banking_Corporation"
+    },
+    {
+      "date": "2024-05-01",
+      "title": "OCBC印尼完成对澳洲联邦银行印尼分行收购",
+      "description": "OCBC印尼（Bank OCBC NISP）完成对PT Bank Commonwealth Indonesia（澳洲联邦银行印尼分行）的收购，获得100%股份，新增超过120万客户。",
+      "impact": "扩大OCBC在印尼的零售银行网络和客户基础，增强在东南亚最大经济体的市场份额",
+      "source": "https://zh.wikipedia.org/wiki/华侨银行"
     }
   ],
-  "related_entities": [],
-  "core_business": "華僑銀行有限公司（英語：Oversea-Chinese Banking Corporation Limited，SGX：O39、OTCBB：OVCHY），通常缩写并简称为OCBC，是新加坡的第二大銀行。由陈嘉庚女儿的丈夫李光前於1932年通过合并1912年創辦的華商銀行、1917年創辦的和豐銀行以及1919年创办的旧华侨银行而创立。現時華僑銀行在全球18個國家或地區擁有超過630個分支行及代表處，當中超過337家分支行由該行在印尼的子公司OCBC NISP之名運作。\n歷史\n1932 年，华侨银行与华商银行及和丰银行进行了合并；在 1942 年时因为太平洋战争的波及而关闭了分行一直到当年 4 月 5 日；\n1948 年华侨银行在新加坡推出了晚间存款服务；1958 年在新加坡以改装车向郊区和偏远地区提供了流动银行服务；1972 年收购了四海通银行，又在 2000 年收购了新加坡银行，2001 年收购了吉宝资本；2003 年时与华侨银行金融进行了合并。\n2003 年 3 月份收购了Bank NISP22.5% 股份，再於12月增持至51%，次月以28億坡元收購大東方控股，再於6月增持至81.1%。\n2005 年 4 月份Bank NISP成為华侨银行子公司，再於6月增持至70.62%；同年旗下的華僑資產管理公司與大東方控股的SL資產管理公司合併。\n2006 年 1 月份認購寧波銀行（前稱寧波市商業銀行）12.2% 股份，並於6月完成收購，8月增持大東方控股至87.1%，同年收購越南VP銀行10%。\n2007 年 8 月份華僑銀行（中國）注冊成立，1月獲马来西亚国家银行批准在馬來西亞成立伊斯蘭銀行分行。\n2008年1月份收購馬來西亞PacificMas Berhad，4月合共持有67%股份，2月旗下OCBC Al-Amin銀行於馬來西亞開業，同年旗的Bank NISP宣布易名為 PT Bank OCBC NISP Tbk。\n2009年10月份宣佈有意收購ING亞洲私人銀行及附屬機構。\n2010年1月29日宣佈，以約14.46億美元完成收購總部設在新加坡的ING亞洲私人銀行及附屬機構，並已經被重新命名為新加坡銀行（Bank of Singapore），而前稱新加坡銀行的旗下公司亦於同日易名為（Singapore Island Bank Limited）及以finatiQ之名提供服務。\n2014年1月15日華僑銀行同意以3.83億坡元（約23.43億港元）增持正配股集資的內地寧波銀行，資金將由華僑銀行內部資源支付，交易有待內地監管機構批准，增持後，華僑銀行持股量將由15.34%升至20%。2014年4月1日華僑銀行同意以每股125港元，交易價相等於市賬率2.02倍，斥資最多387.12億港元全購永亨銀行，並更名為華僑永亨銀行。\n2016年4月8日新加坡華僑銀行宣布斥資3.2億美元（約25億港元）現金，收購巴克萊銀行在新加坡及香港的財富及投資管理業務。\n2017年5月11日，華僑銀行宣布收購澳洲國民銀行在新加坡和香港的私人財富業務。收購於2017年11月完成。交易完成後，香港的存款和抵押貸款被轉移到華僑銀行（香港），而在新加坡的存款和抵押貸款則被轉移到新加坡華僑銀行。\n2024年5月，华侨银行印度尼西亚已完成对PT Bank Commonwealth Indonesia (澳大利亚联邦银行印度尼西亚分行) 的收购。目前它拥澳大利亚联邦银行印度尼西亚分行100%的股份，并将获得超过120万新客户\n2024年10月10日，新加坡华侨银行宣布从11月1日起停止为任何",
+  "related_entities": [
+    {
+      "org_id": "SG-CORP-003",
+      "org_name": "大东方控股 (Great Eastern Holdings)",
+      "org_type": "CORP",
+      "org_description": "东南亚最大的保险公司之一，OCBC持股93.72%，拥有380万保单持有人和531亿新元资产，在新加坡、马来西亚、印尼和文莱运营",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-004",
+      "org_name": "新加坡银行 (Bank of Singapore)",
+      "org_type": "CORP",
+      "org_description": "OCBC旗下私人银行子公司，前身为ING亚洲私人银行，2010年被OCBC收购后更名。服务高净值个人和家族客户，在香港和迪拜设有分支机构",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-005",
+      "org_name": "利安资金管理 (Lion Global Investors)",
+      "org_type": "CORP",
+      "org_description": "OCBC集团旗下资产管理公司，由大东方控股持股70%、OCBC间接持股30%。管理资产规模达699亿新元（截至2023年3月）",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-006",
+      "org_name": "OCBC NISP (PT Bank OCBC NISP Tbk)",
+      "org_type": "CORP",
+      "org_description": "OCBC印尼子公司，在印尼运营超过411家分行和576台ATM，覆盖62个城市。2024年收购澳洲联邦银行印尼分行，2026年收购汇丰银行印尼财富业务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-007",
+      "org_name": "OCBC中国 (OCBC China Limited)",
+      "org_type": "CORP",
+      "org_description": "OCBC中国大陆子公司，总部上海，在14个城市设有16家分支行，约1500名员工。OCBC自1925年在厦门设分行以来持续运营近百年",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "OCBC银行（香港）(OCBC Bank Hong Kong Limited)",
+      "org_type": "CORP",
+      "org_description": "前身为永亨银行，2014年OCBC以约50亿美元收购。2023年7月更名，在香港和澳门提供全面银行服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "OCBC Al-Amin Bank Berhad",
+      "org_type": "CORP",
+      "org_description": "OCBC旗下伊斯兰银行子公司，2008年在马来西亚成立，是首家新加坡背景的伊斯兰银行，提供符合沙里亚法规的全套金融解决方案",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "宁波银行 (Bank of Ningbo)",
+      "org_type": "CORP",
+      "org_description": "OCBC自2006年入股宁波银行，2014年增持至20%（监管允许上限），为宁波银行重要战略股东",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "华侨永亨银行 (OCBC Wing Hang Bank)",
+      "org_type": "CORP",
+      "org_description": "2014年OCBC斥资387亿港元收购永亨银行并更名，2023年进一步更名为OCBC Bank (Hong Kong) Limited",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "华侨银行（OCBC）是新加坡第二大银行、东南亚第二大银行（按总资产计），截至2024年底总资产达6251亿新元。银行于1932年10月31日由李光前通过合并华商银行（1912年创办）、和丰银行（1917年创办）和旧华侨银行（1919年创办）而创立，在全球19个国家和地区拥有超过400家分支行和代表处，雇员约3.3万人。OCBC核心业务涵盖个人银行、商业银行、投资银行、财富管理、保险和资产管理六大板块。个人银行服务包括储蓄、信用卡、房贷和数字银行；商业银行服务覆盖中小企业融资、贸易融资和现金管理；财富管理业务整合私人银行（Bank of Singapore）、高端客户银行、保险（大东方控股）和资产管理（利安资金管理），FY2025财富管理收入达56亿新元，占总收入38%。银行在新加坡交易所上市（SGX: O39），信用评级为穆迪Aa1、标普AA-和惠誉AA-，是全球最高评级银行之一。李光前家族作为创始股东近一个世纪以来一直是OCBC最大股东，持股约28%。2026年新任CEO陈德隆推出The Next Frontier战略，聚焦东盟市场深耕、财富管理整合、AI/数字化能力提升和绿色转型支持四大方向。OCBC承诺为柔佛-新加坡经济特区企业提供150亿令吉融资支持，在中国宁波银行持股20%，在印尼通过OCBC NISP运营超过411家分行。",
   "industries": [
     "financial_services"
   ],
-  "apec_stance": "OCBC积极拓展APEC区域业务，承诺为柔佛-新加坡经济特区企业提供150亿令吉融资支持。OCBC在中国宁波银行持股约20%，在印尼通过OCBC NISP运营超过337家分行，是东盟区域银行业整合的积极参与者。",
+  "apec_stance": "OCBC是APEC区域金融服务的积极参与者和重要连接者。作为东南亚第二大银行，OCBC在19个APEC经济体中的多个核心市场运营，包括新加坡、马来西亚、印尼、中国大陆、香港、澳大利亚和日本等。2026年新CEO陈德隆将东盟列为The Next Frontier战略的核心方向，承诺通过OCBC NISP在印尼持续扩张——2026年5月收购汇丰银行印尼财富业务即为此战略的标志性举措。在中国，OCBC通过宁波银行（持股20%）和OCBC中国（14城16网点）深耕近百年。OCBC积极支持柔佛-新加坡经济特区（JS-SEZ），承诺提供150亿令吉融资。银行还大力推动可持续金融，FY2025可持续融资贷款组合增长13%至565亿新元。在区域金融基础设施方面，OCBC的数字银行平台覆盖东盟多国，2025年11月推出应用内通话功能以增强数字银行安全。财富管理方面，FY2025来自东盟和大中华区的财富管理收入显著增长，Bank of Singapore服务覆盖新加坡、印尼、马来西亚、中国大陆和香港等APEC核心市场。OCBC曾被Global Finance评为全球最安全银行前三名，获The Asian Banker评为2024年新加坡最强银行。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/OCBC_Centre_2%2C_Mar_06.JPG/330px-OCBC_Centre_2%2C_Mar_06.JPG",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikipedia_zh",
+      "official_website",
+      "news_articles",
+      "press_releases",
+      "financial_reports"
     ],
-    "completeness_score": 94,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 94)"
+    "completeness_score": 92,
+    "notes": "Phase 3 enrichment: updated key people with CEO transition (Tan Teck Long succeeded Helen Wong Jan 2026), added 6 recent events including Q1 FY2026 results and HSBC Indonesia acquisition, expanded departments to 7 units, added 9 related entities covering all major subsidiaries and associates, enriched core_business and apec_stance with latest financial data.",
+    "quotes": [
+      {
+        "title": "OCBC Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Oversea-Chinese_Banking_Corporation"
+      },
+      {
+        "title": "华侨银行 Wikipedia (中文)",
+        "url": "https://zh.wikipedia.org/wiki/华侨银行"
+      },
+      {
+        "title": "OCBC Official Website",
+        "url": "https://www.ocbc.com/"
+      },
+      {
+        "title": "OCBC FY2025 Full Year Results Press Release",
+        "url": "https://www.ocbc.com/group/media/release/2025/ocbc-group-full-year-2025.page"
+      },
+      {
+        "title": "CNA: OCBC Q1 profit beats forecasts",
+        "url": "https://www.channelnewsasia.com/business/ocbc-q1-profit-beats-forecasts-sets-aside-more-allowances-amid-middle-east-war-6108371"
+      },
+      {
+        "title": "Straits Times: OCBC wealth business drives Q1 profit",
+        "url": "https://www.straitstimes.com/business/banking/ocbcs-wealth-business-drives-q1-profit-up-5-to-1-97-billion-more-than-expcted"
+      },
+      {
+        "title": "OCBC: Tan Teck Long appointed Group CEO",
+        "url": "https://www.ocbc.com/group/media/release/2025/ocbc-appoints-tan-teck-long-as-group-chief-executive-officer-succeeding-helen-wong"
+      },
+      {
+        "title": "OCBC: Acquires HSBC International Wealth and Premier Banking in Indonesia",
+        "url": "https://www.ocbc.com/group/media/release/2026/ocbc-acquires-hsbc-international-wealth-and-premier-banking-indonesia"
+      },
+      {
+        "title": "OCBC Chairman Andrew Lee Profile",
+        "url": "https://www.ocbc.com/group/about-us/our-leadership/board-of-directors/andrew-lee"
+      },
+      {
+        "title": "Reuters: OCBC to buy HSBC Indonesia wealth portfolio",
+        "url": "https://www.reuters.com/world/asia-pacific/singapores-ocbc-buy-hsbc-wealth-premier-banking-portfolio-indonesia-2026-05-04/"
+      }
+    ]
   }
 }

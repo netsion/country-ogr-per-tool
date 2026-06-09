@@ -1,132 +1,339 @@
 {
   "org_id": "SG-ACAD-003",
   "basic_info": {
-    "name_original": "新加坡管理大學",
-    "name_zh": "新加坡管理大學",
+    "name_original": "Singapore Management University",
     "name_en": "Singapore Management University",
+    "name_zh": "新加坡管理大学",
     "aliases": [
       "SMU",
       "Universiti Pengurusan Singapura",
-      "新加坡管理大學",
+      "新大",
       "新加坡管理大学"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "2000-01-01",
-    "website": "http://www.smu.edu.sg"
+    "founded_date": "2000-07-29",
+    "website": "https://www.smu.edu.sg"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "sgsmu",
+      "account_name": "@sgsmu",
       "url": "https://twitter.com/sgsmu",
-      "source": "wikidata"
+      "source": "wikipedia_en"
     },
     {
       "platform": "facebook",
       "account_name": "sgsmu",
       "url": "https://facebook.com/sgsmu",
-      "source": "wikidata"
+      "source": "wikipedia_en"
     },
     {
       "platform": "youtube",
-      "account_name": "UCkv980lbtBCyZtRy3YiRFsA",
+      "account_name": "SMU Singapore",
       "url": "https://youtube.com/channel/UCkv980lbtBCyZtRy3YiRFsA",
-      "source": "wikidata"
+      "source": "wikipedia_en"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Singapore Management University",
+      "url": "https://www.linkedin.com/school/singapore-management-university/",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@smu_sg",
+      "url": "https://www.instagram.com/smu_sg/",
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
-      "name": "SMU官网",
+      "name": "SMU官方网站",
       "url": "https://www.smu.edu.sg/",
-      "description": "SMU官方网站。",
-      "source": "https://www.smu.edu.sg/"
+      "description": "新加坡管理大学官方网站，提供招生、研究、校园活动等综合信息",
+      "source": "official_website"
     },
     {
-      "name": "SMU News Hub",
-      "url": "https://www.smu.edu.sg/news-hub",
-      "description": "SMU新闻中心。",
-      "source": "https://www.smu.edu.sg/news-hub"
+      "name": "SMU新闻中心",
+      "url": "https://news.smu.edu.sg/",
+      "description": "SMU新闻发布平台，展示最新学术成果、校园动态和活动预告",
+      "source": "official_website"
+    },
+    {
+      "name": "SMU机构知识库 (InK)",
+      "url": "https://ink.library.smu.edu.sg/",
+      "description": "收录SMU教职人员的期刊论文、工作论文、会议论文、著作等研究成果，以及研究生学位论文",
+      "source": "wikipedia_en"
+    },
+    {
+      "name": "SMU Academy继续教育学院",
+      "url": "https://academy.smu.edu.sg/",
+      "description": "面向在职专业人士的终身教育平台，提供文凭和证书课程，覆盖行业实用知识和管理技能",
+      "source": "official_website"
+    },
+    {
+      "name": "SMU创新与创业研究所",
+      "url": "https://www.smu.edu.sg/ideas/",
+      "description": "提供创新创业训练、商业孵化器项目和Protégé Ventures学生风险投资基金",
+      "source": "wikipedia_en"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000101",
-      "name": "Piyush Gupta",
-      "title": "董事会主席",
-      "title_description": "Chairman, Board of Trustees",
-      "description": "同时担任星展银行CEO。"
+      "name": "高博德 (Piyush Gupta)",
+      "title": "董事会主席 (Chairman, Board of Trustees)",
+      "title_description": "SMU董事会主席",
+      "description": "同时担任星展银行（DBS）前CEO（2009-2025年任职）。SMU董事会主席，领导大学治理和战略方向。"
     },
     {
-      "person_id": "SG-PERSON-000188",
-      "name": "Professor Lily Kong",
-      "title": "校长",
-      "title_description": "President",
-      "description": "首位新加坡籍且首位女性SMU校长。"
+      "person_id": "SG-PERSON-000171",
+      "name": "江莉莉 (Lily Kong)",
+      "title": "校长 (President)",
+      "title_description": "SMU校长，新加坡首位国籍且首位女性SMU校长",
+      "description": "2019年就任SMU第四任校长，是首位新加坡籍且首位女性SMU校长。2026年获CASE亚太领导力奖。地理学家出身，曾任新加坡国立大学副校长。"
     },
     {
-      "person_id": "SG-PERSON-000187",
-      "name": "Professor Alan K.L. Chan",
-      "title": "教务长",
-      "title_description": "Provost",
-      "description": "负责SMU学术事务和教职人员管理。"
+      "person_id": "SG-PERSON-000170",
+      "name": "陈金梁 (Alan Kam-leung Chan)",
+      "title": "教务长 (Provost)",
+      "title_description": "SMU教务长，负责学术事务和教职人员管理",
+      "description": "2025年4月就任SMU教务长，负责学术事务和教职人员管理。人文与哲学学者出身。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-ACAD-003-DEPT-001",
-      "name": "Accounting and Corporate Regulatory Authority (ACRA)",
+      "name": "李光前商学院 (Lee Kong Chian School of Business)",
       "head": null,
-      "description": null,
+      "description": "SMU首个成立的学院，2000年首批招生。以慈善家李光前命名。提供工商管理学士（BBM）、MBA和EMBA课程。金融时报全球MBA排名第58位，研究生产力全球排名第21位（UTD 2024）。获得AACSB、AMBA和EQUIS三重认证。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-002",
+      "name": "会计学院 (School of Accountancy)",
+      "head": null,
+      "description": "2001年成立，提供会计学士（BAcc）和专业会计硕士（MPA）课程。获ISCA、ACRA、CPA Australia、ICAA和ICAEW认证。BYU会计研究排名全亚洲第1、全球第3。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-003",
+      "name": "计算与信息系统学院 (School of Computing and Information Systems)",
+      "head": null,
+      "description": "前身为信息系统学院（SIS），在卡内基梅隆大学协助下成立。2021年更名为计算与信息系统学院，提供信息系统、计算机科学、计算与法律、软件工程四个本科学位。CSRankings.org软件工程研究产出全球第2。IT商业硕士亚洲排名第1、全球第14。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-004",
+      "name": "经济学院 (School of Economics)",
+      "head": null,
+      "description": "2002年成立，原属经济与社会科学学院（SESS），2007年独立设院。拥有51名全职教员。提供经济学理学士、经济学和应用经济学硕士及经济学博士课程。Tilburg大学全球经济学研究排名前100。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-005",
+      "name": "杨邦孝法学院 (Yong Pung How School of Law)",
+      "head": null,
+      "description": "SMU最小的学院，每年招生约180人。2007年从商学院法律系独立成院，2021年以新加坡前首席大法官杨邦孝命名。提供法学学士（LLB）、法律博士（JD）和法学硕士（LLM）课程。2026年QS法学全球排名第56位。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-006",
+      "name": "社会科学学院 (School of Social Sciences)",
+      "head": null,
+      "description": "2002年成立，原属SESS，2007年独立。提供社会科学学士课程，涵盖政治学、心理学和社会学三个主修方向，另设心理学博士课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-007",
+      "name": "综合学科学院 (College of Integrative Studies)",
+      "head": null,
+      "description": "2021年成立，专注于跨学科教学与研究，是新加坡首个提供个性化主修专业的学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-003-DEPT-008",
+      "name": "研究生研究学院 (College of Graduate Research Studies)",
+      "head": null,
+      "description": "专注于跨学科研究生项目，推动高水平跨领域研究。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-11-10",
-      "title": "SMU在QS亚洲大学排名2026中跃升18位",
-      "description": "SMU取得历史最佳排名。",
-      "impact": "巩固SMU作为亚洲顶尖大学的品牌形象。",
-      "source": "https://news.smu.edu.sg/"
+      "date": "2026-05-08",
+      "title": "SMU校长江莉莉获2026年CASE亚太领导力奖",
+      "description": "SMU校长江莉莉教授在澳大利亚布里斯班举行的CASE亚太推进会议上获颁2026年CASE亚太领导力奖，表彰其在大学发展与校友关系领域的杰出贡献。",
+      "impact": "提升SMU在国际高等教育界的声誉和影响力",
+      "source": "https://news.smu.edu.sg/caseleadershipaward"
     },
     {
-      "date": "2026-03-16",
-      "title": "SMU发布全新品牌活动Bold Ideas Big Impact",
-      "description": "围绕SMU2030战略愿景展开。",
-      "impact": "强化SMU差异化定位。",
-      "source": "https://news.smu.edu.sg/"
+      "date": "2026-04-28",
+      "title": "SMU在印尼设立子公司加速AI驱动经济中的人才培养",
+      "description": "SMU正式成立SMU Indonesia子公司，与印尼教育部、劳工部、印尼央行、印尼大学、加查马达大学和万隆理工学院合作，提供银行金融、电信、能源等领域的在职培训和未来发展技能课程，响应印尼\"三重准备\"劳动力议程。",
+      "impact": "深化新加坡-印尼人才整合，扩大SMU在东盟最大经济体的影响力",
+      "source": "https://news.smu.edu.sg/news/2026/04/28/smu-establishes-subsidiary-indonesia-accelerate-talent-development-and"
+    },
+    {
+      "date": "2026-04-16",
+      "title": "SMU成立长寿社会与经济研究所（LSEI）",
+      "description": "SMU在世界老龄节2026上正式启动长寿社会与经济研究所（LSEI），由总理公署部长英兰妮主持。研究所投入超过1,000万新元种子资金，设两大研究支柱：建设长寿经济和培养全面福祉。与护联中心（AIC）、狮子乐龄之友、Singlife、圣路加乐龄关怀和劳动力发展局（WSG）建立战略伙伴关系。",
+      "impact": "整合SMU老龄化研究资源，推动新加坡应对超老龄社会的政策创新和银发经济发展",
+      "source": "https://news.smu.edu.sg/news/2026/04/14/smu-launches-longevity-societies-and-economies-institute-advance-knowledge-and"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "SMU与联合国开发计划署合作培养可持续发展人才",
+      "description": "SMU与UNDP合作建设下一代可持续发展人才和研究枢纽，加速亚洲绿色转型，应对低碳经济转型中专业人才短缺的瓶颈。",
+      "impact": "强化SMU在可持续发展领域的研究实力和人才培养能力",
+      "source": "https://news.smu.edu.sg/news/2026/04/30/accelerating-asias-green-transition-smu-and-undp-partner-build-next-generation"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "SMU在QS亚洲大学排名2026中跃升18位",
+      "description": "SMU在QS亚洲大学排名2026中取得历史最佳排名，跃升18位。声誉增长突显了大学在研究和毕业生就业能力方面日益增长的影响力。",
+      "impact": "巩固SMU作为亚洲顶尖大学的品牌形象，提升招生竞争力",
+      "source": "https://www.publicnow.com/view/CD4BEF580E84E6FEB671D728E5206266AE35EDEF"
+    },
+    {
+      "date": "2025-07-28",
+      "title": "SMU发行新加坡高校首只可持续发展债券",
+      "description": "SMU成功发行1.5亿新元可持续发展债券，票面利率2.022%，2032年7月到期。华侨银行（OCBC）担任独家牵头管理人。这是新加坡自治大学首次发行的可持续发展债券，覆盖环境项目和社会影响项目。穆迪给予SQS2（非常好）的可持续质量评分和Aaa信用评级。",
+      "impact": "开创新加坡高等教育机构可持续融资先河，推动绿色基础设施和包容性教育",
+      "source": "https://esgnews.com/smu-raises-111m-with-singapores-first-university-issued-sustainability-bond/"
+    },
+    {
+      "date": "2025-03-16",
+      "title": "SMU推出14个新兴行业研究生文凭课程",
+      "description": "SMU推出14个面向最急需技能的行业研究生文凭课程，覆盖数据分析、AI、网络安全等高需求领域，为在职人士提供灵活的模块化学习路径。",
+      "impact": "增强SMU在终身学习和职业发展领域的市场竞争力",
+      "source": "https://www.asiaone.com/singapore/smu-new-industry-graduate-diplomas-most-demand-skills"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-CORP-001",
-      "org_name": "DBS Bank",
+      "org_name": "星展银行 (DBS Bank)",
       "org_type": "CORP",
-      "org_description": "董事会主席Piyush Gupta同时担任其CEO。",
+      "org_description": "SMU董事会主席高博德曾任其CEO（2009-2025年），与SMU保持紧密联系",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-CORP-002",
+      "org_name": "华侨银行 (Oversea-Chinese Banking Corporation)",
+      "org_type": "CORP",
+      "org_description": "SMU可持续发展债券独家牵头管理人和账簿管理人",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-ACAD-001",
+      "org_name": "新加坡国立大学 (National University of Singapore)",
+      "org_type": "ACAD",
+      "org_description": "新加坡最古老的自治大学，与SMU同属新加坡六大公立大学",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-ACAD-002",
+      "org_name": "南洋理工大学 (Nanyang Technological University)",
+      "org_type": "ACAD",
+      "org_description": "与SMU同属新加坡六大公立大学，2005年一同改制为自治大学",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-GOV-014",
+      "org_name": "新加坡教育部 (Ministry of Education)",
+      "org_type": "GOV",
+      "org_description": "SMU的经费来源部门，2005年将SMU改制为自治大学",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "宾夕法尼亚大学沃顿商学院 (Wharton School, University of Pennsylvania)",
+      "org_type": "ACAD",
+      "org_description": "SMU建校时的学术模式参照对象，1999年签署合作共建沃顿-SMU研究中心协议",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-INTL-001",
+      "org_name": "联合国开发计划署 (UNDP)",
+      "org_type": "INTL",
+      "org_description": "2026年4月与SMU合作建设下一代可持续发展人才和研究枢纽",
       "relationship_type": "affiliated"
     }
   ],
-  "core_business": "新加坡管理大学（英語：Singapore Management University，缩写：SMU），簡稱新大，成立于2000年1月12日，為一所新加坡知名的公立大学。學校共有六个学院，分别是商学院、会计学院、法学院、信息系统学院、经济学院和社会科学院，提供本科、研究生和博士生教育，还設有学术研究办公室，针对社会精英人士提供的特别定制的学习课程。\n歷史\n1997年，新加坡政府首次提出建立新加坡管理大學的構想。大學體制參照美國大學的模式，以自主、開放為特徵。自1999年起，新大商學院與美國賓夕法尼亞大學華頓商學院合作，並建立了聯合研究中心。\n2000年，新大的首個校舍投入運作。該址曾是創立於1929年的萊佛士學院和後來的新加坡國立大學之所在地，鄰近华侨中学。2001年，校方開展校舍改善工程，並保留了殖民地時期的建築風格。在2001年至2004年間， Ronald Frank教授出任大學校長，其後由Howard Hunter教授接任。Arnoud De Meyer則於2010年9月就任。2019年，江莉莉出任校長。\n2005年，新大正式遷入勿拉士峇沙(Bras Basah)的永久校園，並舉行了首屆畢業典禮。其後，校方將經濟與社會科學院拆分為經濟學院和社會科學院。同年，新加坡教育部將新大與新加坡國立大學及南洋理工大學改制為自治大學。\n2011年4月，新加坡管理大学獲得國際商管學院促進協會的商學及會計認證。\n校園\n新大校園共有九座大樓，由一條商店林立並對公眾開放的地下人行道互相連接: \n李光前商学院\n會計學院\n李嘉誠圖書館\n电算及信息系统学院\n經濟學院/电算及信息系统学院（二区）\n行政大樓\n楊邦孝法學院暨柯玉芝法律圖書館（內设大卫·马绍尔模擬法庭）\n翁俊民基金会荟萃楼\n社会科学学院及综合学科学院楼\n校園內設有游泳池、健身中心和附設攀石牆的多用途體育館。無線網路亦覆蓋了整個校園。\n學生組織\n新加坡管理大学学生协会創立（SMUSA）於2000年，宗旨是建構一個屬於學生的社區網絡。所有在讀本科生皆是学生协会的會員。 新大学生协会由幹事會(Executive Committee)、理事會(Students' Association Council)和八個成員機構(Constituent bodies)組成。成員機構包括會計學會(ASOC)、商業學會(BONDUE)、經濟學會(SES)、社會科學會(SSS)、信息系統學會(SISS)、文藝學會(ACF)、體育學會(SSU)和特別興趣與社區服務學會(SICS)。\n新大学生协会幹事會的選舉於每年的第二學期舉行，任期為每年的1月1日至12月31日。\n排名\nQS排名在511-520之間。在UTD世界知名商学院排名中，新加坡管理大学被排名全球第37位，比新加坡國立大學和南洋理工大學排名還要高，这所大学同時排在了其它领先的商学院如墨尔本商学院和蒙特利尔大学商学院之前。Eduniversal将新大放在了国际知名顶级商学院之一。\n参考文献\n外部链接\n新加坡管理大学 （页面存档备份，存于互联网档案馆）\n新加坡管理大学学生协会 （页面存档备份，存于互联网档案馆）\n新加坡管理大学本科课程信息網",
+  "core_business": "新加坡管理大学（Singapore Management University，简称SMU或新大）是新加坡第三古老的自治大学，2000年7月29日正式成立。SMU采用美式大学教育模式，以沃顿商学院为蓝本，是新加坡第一所侧重管理教育的公立大学。大学位于新加坡市中心勿拉士峇沙（Bras Basah）城区校区，占地4.5公顷，由9座大楼组成，通过地下人行道相连。SMU约有8,200名本科生和1,800名研究生，设8个学院：李光前商学院、会计学院、计算与信息系统学院、经济学院、杨邦孝法学院、社会科学学院、综合学科学院和研究生研究学院。SMU以研讨式小班教学（每班50人以下）为特色，采用学分制和灵活的双学位/双主修制度。李光前商学院获得AACSB、AMBA和EQUIS三重认证，是全球最年轻的\"三冠王\"商学院之一。2026年QS世界大学排名第511位，但多门学科进入全球百强：会计与金融第50位、商业管理第39位、法学第56位、经济学第77位。在研究排名中表现卓越：UTD商学院研究生产力全球第21位（2024年），BYU会计研究全亚洲第1，CSRankings软件工程研究全球第2。SMU的核心竞争力体现在：强调实践导向的教学法（SMU-X项目解决真实世界问题）、强大的行业联系（如李光耀全球商业计划大赛）、创新创业生态系统（Protégé Ventures学生风投基金）以及位于城市中心金融区的区位优势。",
   "industries": [
     "higher_education"
   ],
-  "apec_stance": "SMU与APEC存在多层次联系：经济学情报俱乐部曾参访APEC秘书处；学者曾参与APEC商业奖学金项目研究。",
+  "apec_stance": "SMU与APEC经济体保持多层次联系。SMU经济学与公共政策研究团队关注APEC框架下的区域经济一体化议题。李光前商学院与APEC经济体多个商学院和金融机构建立合作关系，参与区域商业教育网络。SMU创新与创业研究所主办的李光耀全球商业计划大赛吸引大量APEC经济体高校团队参赛。2026年SMU成立印尼子公司，深化与东盟最大经济体在AI驱动经济中的人才培养合作，呼应APEC人力资源开发目标。SMU与UNDP合作培养可持续发展人才，与APEC绿色转型议程相契合。长寿社会与经济研究所的研究成果对APEC老龄化经济体具有政策参考价值。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SMU_Admin_Building.jpg/330px-SMU_Admin_Building.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikidata",
       "official_website",
-      "web_search"
+      "web_search",
+      "news_articles"
     ],
-    "completeness_score": 88,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 75)"
+    "completeness_score": 92,
+    "notes": "Phase 3 enrichment: updated departments (8 schools), key_people, recent_events (2025-2026), related_entities, digital_assets, social_accounts, core_business, apec_stance, basic_info.name_original/founded_date. Cross-verified with Wikipedia EN/ZH, SMU official site, SMU Newsroom, ESG News, PR Newswire.",
+    "quotes": [
+      {
+        "title": "SMU - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Singapore_Management_University"
+      },
+      {
+        "title": "SMU - Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡管理大学"
+      },
+      {
+        "title": "SMU Official Website",
+        "url": "https://www.smu.edu.sg/"
+      },
+      {
+        "title": "SMU Newsroom",
+        "url": "https://news.smu.edu.sg/"
+      },
+      {
+        "title": "SMU LSEI Launch",
+        "url": "https://news.smu.edu.sg/news/2026/04/14/smu-launches-longevity-societies-and-economies-institute-advance-knowledge-and"
+      },
+      {
+        "title": "SMU Indonesia Subsidiary",
+        "url": "https://news.smu.edu.sg/news/2026/04/28/smu-establishes-subsidiary-indonesia-accelerate-talent-development-and"
+      },
+      {
+        "title": "SMU-UNDP Sustainability Partnership",
+        "url": "https://news.smu.edu.sg/news/2026/04/30/accelerating-asias-green-transition-smu-and-undp-partner-build-next-generation"
+      },
+      {
+        "title": "SMU Sustainability Bond - ESG News",
+        "url": "https://esgnews.com/smu-raises-111m-with-singapores-first-university-issued-sustainability-bond/"
+      },
+      {
+        "title": "SMU QS Asia Rankings Rise",
+        "url": "https://www.publicnow.com/view/CD4BEF580E84E6FEB671D728E5206266AE35EDEF"
+      },
+      {
+        "title": "SMU Industry Graduate Diplomas - AsiaOne",
+        "url": "https://www.asiaone.com/singapore/smu-new-industry-graduate-diplomas-most-demand-skills"
+      },
+      {
+        "title": "QS World Rankings 2026 SMU Analysis",
+        "url": "https://theindependent.sg/qs-world-rankings-2026-smu-rises-nus-and-ntu-hold-strong-sutd-slides/"
+      },
+      {
+        "title": "SMU CASE Asia-Pacific Leadership Award",
+        "url": "https://news.smu.edu.sg/caseleadershipaward"
+      }
+    ]
   }
 }

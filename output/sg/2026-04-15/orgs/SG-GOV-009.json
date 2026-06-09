@@ -1,19 +1,20 @@
 {
   "org_id": "SG-GOV-009",
   "basic_info": {
-    "name_original": "新加坡总理公署",
+    "name_original": "Prime Minister's Office",
     "name_zh": "新加坡总理公署",
     "name_en": "Prime Minister's Office",
     "aliases": [
-      "新加坡总理公署",
-      "Pejabat Perdana Menteri Singapura"
+      "PMO",
+      "Pejabat Perdana Menteri Singapura",
+      "总理公署"
     ],
     "org_type": "GOV",
     "org_subtype": "gov_department",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
     "founded_date": "1959-01-01",
-    "website": "http://www.pmo.gov.sg/"
+    "website": "https://www.pmo.gov.sg"
   },
   "social_accounts": [
     {
@@ -25,8 +26,8 @@
     {
       "platform": "youtube",
       "account_name": "PMO Singapore",
-      "url": "https://youtube.com/channel/UCCW8a4CgTbBWzid3IJYomFQ",
-      "source": "wikidata"
+      "url": "https://www.youtube.com/@pmosingapore",
+      "source": "wikipedia_en"
     },
     {
       "platform": "instagram",
@@ -43,126 +44,201 @@
   ],
   "digital_assets": [
     {
-      "name": "PMO Newsroom",
+      "name": "总理公署新闻发布平台",
       "url": "https://www.pmo.gov.sg/newsroom/",
-      "description": "总理公署新闻发布平台，发布总理声明、内阁公告和重要政策",
-      "source": "web_search_2026-04-16"
+      "description": "发布总理声明、内阁公告、重要政策及国际交往新闻",
+      "source": "https://www.pmo.gov.sg"
     },
     {
-      "name": "PMO Cabinet Page",
+      "name": "新加坡内阁页面",
       "url": "https://www.pmo.gov.sg/about-us/the-cabinet/",
-      "description": "新加坡内阁完整成员名单及职务分配",
-      "source": "web_search_2026-04-16"
+      "description": "新加坡内阁完整成员名单及职务分配，含内阁宣誓仪式照片",
+      "source": "https://www.pmo.gov.sg/about-us/the-cabinet/"
     },
     {
-      "name": "SGDI - PMO Directory",
+      "name": "政府电子目录-总理公署",
       "url": "https://www.sgdi.gov.sg/ministries/pmo",
       "description": "新加坡政府目录交互系统中总理公署的组织架构和人员信息",
       "source": "web_search_2026-04-16"
+    },
+    {
+      "name": "国庆群众大会",
+      "url": "https://www.pmo.gov.sg/newsroom/ndr/",
+      "description": "总理年度国庆群众大会演讲全文及视频存档",
+      "source": "https://www.pmo.gov.sg"
+    },
+    {
+      "name": "国家奖项",
+      "url": "https://www.pmo.gov.sg/national-awards/recipients/",
+      "description": "新加坡国家奖项获奖者数据库，涵盖各类型公共服务及个人荣誉",
+      "source": "https://www.pmo.gov.sg"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000005",
       "name": "黄循财 (Lawrence Wong)",
-      "title": "Prime Minister & Minister for Finance",
-      "title_description": "总理兼财政部长，总理公署负责人",
-      "description": "2024年5月就任第四任总理，2025年5月组建第二届内阁"
+      "title": "总理兼财政部长",
+      "title_description": "Prime Minister and Minister for Finance",
+      "description": "2024年5月就任第四任总理，2025年5月带领人民行动党以65.57%得票率赢得大选后组建第二届内阁"
+    },
+    {
+      "person_id": "SG-PERSON-000031",
+      "name": "颜金勇 (Gan Kim Yong)",
+      "title": "副总理兼贸工部长",
+      "title_description": "Deputy Prime Minister and Minister for Trade and Industry",
+      "description": "唯一副总理，领导经济策略检讨委员会（ESR），负责新加坡经济转型蓝图制定"
     },
     {
       "person_id": "SG-PERSON-000021",
       "name": "李显龙 (Lee Hsien Loong)",
-      "title": "Senior Minister",
-      "title_description": "国务资政",
-      "description": "前总理（2004-2024），现任内阁国务资政"
+      "title": "国务资政",
+      "title_description": "Senior Minister",
+      "description": "前总理（2004-2024），现任内阁国务资政，2026年5月仍以外交特使身份出访马来西亚等国"
     },
     {
-      "person_id": "SG-PERSON-000172",
-      "name": "叶成昌 (Leo Yip)",
-      "title": "Head of Civil Service / Permanent Secretary (PMO Strategy Group)",
-      "title_description": "公务员首长兼总理公署策略组常任秘书",
-      "description": "2026年新加坡公务员体系最高负责人"
+      "person_id": "SG-PERSON-000098",
+      "name": "尚穆根 (K. Shanmugam)",
+      "title": "国家安全统筹部长兼内政部长",
+      "title_description": "Coordinating Minister for National Security and Minister for Home Affairs",
+      "description": "负责国家安全协调及内政事务，为内阁核心成员之一"
     },
     {
-      "person_id": "SG-PERSON-000115",
-      "name": "庄凯峰 (Chng Kai Fong)",
-      "title": "Permanent Secretary, Prime Minister's Office",
-      "title_description": "总理公署常任秘书",
-      "description": "负责总理公署日常行政管理"
+      "person_id": "SG-PERSON-000018",
+      "name": "英兰妮 (Indranee Rajah)",
+      "title": "总理公署部长、财政部第二部长兼国家发展部第二部长",
+      "title_description": "Minister, Prime Minister's Office; Second Minister for Finance and National Development",
+      "description": "总理公署内阁部长，同时兼任财政部及国家发展部第二部长"
+    },
+    {
+      "person_id": "SG-PERSON-000158",
+      "name": "陈国明 (Desmond Tan)",
+      "title": "总理公署高级政务部长",
+      "title_description": "Senior Minister of State, Prime Minister's Office",
+      "description": "负责总理公署日常政务事务"
     },
     {
       "person_id": "SG-PERSON-000150",
       "name": "陈庆粦 (Chan Heng Kee)",
-      "title": "Permanent Secretary (PMO Strategy Group)",
-      "title_description": "总理公署策略组常任秘书",
-      "description": "参与公务员首长轮换，协助政府战略规划"
+      "title": "公务员首长兼总理公署策略组常任秘书",
+      "title_description": "Head of Civil Service / Permanent Secretary (PMO Strategy Group)",
+      "description": "新加坡公务员体系最高负责人，负责协调政府整体战略方向"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-009-DEPT-001",
-      "name": "See also",
+      "name": "贪污调查局 (Corrupt Practices Investigation Bureau, CPIB)",
       "head": null,
-      "description": null,
+      "description": "独立反腐败调查机构，1952年成立，负责预防及调查公共和私营部门腐败行为",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-002",
-      "name": "Government of Singapore",
+      "name": "选举局 (Elections Department Singapore, ELD)",
       "head": null,
-      "description": null,
+      "description": "负责策划、准备和管理总统选举及国会选举的机构",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-003",
-      "name": "Cabinet of Singapore",
+      "name": "国家研究基金会 (National Research Foundation, NRF)",
       "head": null,
-      "description": null,
+      "description": "协调各研究机构为国家框架提供连贯战略方向，推动国家战略建设与企业创新",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-004",
-      "name": "Prime Minister of Singapore",
+      "name": "国家安全协调秘书处 (National Security Coordination Secretariat, NSCS)",
       "head": null,
-      "description": null,
+      "description": "负责国家安全规划、政策和情报问题的处理，是总理公署关键安全机构",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-005",
-      "name": "References",
+      "name": "国家人口及人才署 (National Population and Talent Division, NPTD)",
       "head": null,
-      "description": null,
+      "description": "2011年1月成立，负责推动人口政策，包括婚姻生育支持、人才吸引与留住、移民及归化政策",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-006",
-      "name": "External links",
+      "name": "公共服务署 (Public Service Division, PSD)",
       "head": null,
-      "description": null,
+      "description": "负责实施人力资源开发政策，塑造公共服务方向，管理公务员职业发展与培训",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-007",
-      "name": "Official website",
+      "name": "智慧国与数字政府群 (Smart Nation and Digital Government Group, SNDGG)",
       "head": null,
-      "description": null,
+      "description": "推动智慧国2.0计划，负责数字政府转型、网络安全及人工智能战略实施",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-009-DEPT-008",
-      "name": "Singapore Government Directory Interactive — Prime Minister's Office",
+      "name": "网络安全局 (Cyber Security Agency, CSA)",
       "head": null,
-      "description": null,
+      "description": "负责新加坡国家网络安全策略、运营及行业监管",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-009-DEPT-009",
+      "name": "政府科技局 (Government Technology Agency, GovTech)",
+      "head": null,
+      "description": "负责政府数字服务开发与技术基础设施建设的法定机构",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-009-DEPT-010",
+      "name": "公共服务学院 (Civil Service College, CSC)",
+      "head": null,
+      "description": "负责公务员培训与发展，提升公共服务质量与生产力",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-009-DEPT-011",
+      "name": "策略组 (Strategy Group)",
+      "head": null,
+      "description": "协调各部委和政府总体政策活动，提供全面的政策方向与战略规划",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-009-DEPT-012",
+      "name": "新加坡金融管理局 (Monetary Authority of Singapore, MAS)",
+      "head": null,
+      "description": "新加坡中央银行及金融监管机构，负责货币、银行、保险、金融和证券业务的监管",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-08",
+      "title": "黄循财总理出席第48届东盟峰会",
+      "description": "总理兼财政部长黄循财赴菲律宾宿务出席第48届东盟峰会，呼吁东盟加强一体化以应对全球供应链中断新常态",
+      "impact": "推动东盟在贸易、能源安全和粮食安全领域的区域合作，强化新加坡在东盟的领导角色",
+      "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-to-attend-the-48th-asean-summit-in-cebu-the-philippines-8-may-2026/"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "新加坡与新西兰签署全球首个必需品供应贸易协定",
+      "description": "黄循财总理与新西兰总理卢克森共同签署《必需品供应贸易协定》（AOTES），为全球首个具有法律约束力的双边必需品供应保障协议",
+      "impact": "确保危机时期食品、燃料、医疗及建材等必需品贸易不受出口限制，开创供应链韧性国际合作新模式",
+      "source": "https://www.channelnewsasia.com/singapore/singapore-new-zealand-essential-goods-free-trade-agreement-legally-binding-6097926"
+    },
+    {
       "date": "2026-03-18",
       "title": "新加坡-日本关系升级为战略伙伴关系",
-      "description": "黄循财总理与日本首相高市早苗宣布将新日关系升级为战略伙伴关系",
+      "description": "黄循财总理与日本首相宣布将新日关系升级为战略伙伴关系",
       "impact": "深化亚太地区双边战略合作，涵盖安全、经济和科技领域",
       "source": "https://www.pmo.gov.sg/newsroom/"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "黄循财总理发表2026财年预算声明",
+      "description": "总理兼财政部长黄循财在国会发表以\"在变革的世界中共同保障未来\"为主题的2026年预算声明，总额约1547亿新元",
+      "impact": "推动AI国家战略、成立国家AI委员会、40%企业所得税回扣、强化经济策略检讨实施方案",
+      "source": "https://www.singaporebudget.gov.sg/"
     },
     {
       "date": "2026-01-01",
@@ -174,49 +250,127 @@
     {
       "date": "2025-05-23",
       "title": "第二届黄循财内阁宣誓就职",
-      "description": "总理公署公布新内阁名单，设立四名统筹部长分别掌管经济、国家安全、社会政策和基础设施",
-      "impact": "总理公署协调功能强化，政府治理结构优化",
-      "source": "https://www.pmo.gov.sg/about-us/the-cabinet/"
+      "description": "总理公署公布新内阁名单，设立三名统筹部长分别掌管国家安全、公共服务和社会政策，颜金勇出任唯一副总理",
+      "impact": "总理公署协调功能强化，政府治理结构优化，九名新政治职务者加入内阁",
+      "source": "https://www.pmo.gov.sg/newsroom/changes-to-cabinet-and-other-appointments-may-2025/"
+    },
+    {
+      "date": "2025-05-03",
+      "title": "人民行动党以65.57%得票率赢得2025年大选",
+      "description": "黄循财总理领导人民行动党在2025年大选中赢得87个议席中的65.57%全国得票率，获得明确执政授权",
+      "impact": "完成新加坡第四代领导层权力交接，为黄循财组建首个完整内阁奠定基础",
+      "source": "https://www.straitstimes.com/singapore/politics/ge2025-pap-gets-65-57-per-cent-of-votes-in-landslide-win"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-002",
-      "org_name": "Government of Singapore",
+      "org_name": "新加坡政府 (Government of Singapore)",
       "org_type": "GOV",
-      "org_description": null,
+      "org_description": "新加坡国家行政体系最高层级",
       "relationship_type": "parent_org"
     },
     {
-      "org_id": "Q1045329",
-      "org_name": "Corrupt Practices Investigation Bureau",
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
       "org_type": "GOV",
-      "org_description": null,
+      "org_description": "新加坡政府最高决策机构，由总理领导",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "SG-GOV-018",
-      "org_name": "新加坡贪污调查局 (Corrupt Practices Investigation Bureau)",
+      "org_name": "贪污调查局 (Corrupt Practices Investigation Bureau)",
       "org_type": "GOV",
-      "org_description": null,
+      "org_description": "独立反腐败调查机构，1952年成立",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-017",
+      "org_name": "新加坡金融管理局 (Monetary Authority of Singapore)",
+      "org_type": "GOV",
+      "org_description": "新加坡中央银行及金融监管机构",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-010",
+      "org_name": "财政部 (Ministry of Finance)",
+      "org_type": "GOV",
+      "org_description": "新加坡财政管理部委，现任财长由黄循财总理兼任",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "SG-GOV-012",
+      "org_name": "新加坡外交部 (Ministry of Foreign Affairs)",
+      "org_type": "GOV",
+      "org_description": "新加坡外交事务主管部委",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "SG-PARTY-001",
+      "org_name": "人民行动党 (People's Action Party)",
+      "org_type": "PARTY",
+      "org_description": "新加坡执政党，自1959年以来连续执政",
+      "relationship_type": "affiliated"
     }
   ],
-  "core_business": "新加坡总理公署（英語：Prime Minister's Office），縮寫為PMO，是新加坡政府处理国内和国外政治事务的部长级机构。其领导者是新加坡总理和其他高级政治人员。新加坡总理公署位于新加坡总統府，它同時也是新加坡总统的官邸和办公室。\n角色和职能\n新加坡总理公署的主要角色和职能是：\n协调各部委和政府的总体政策活动，提供全面的政策方向\n根除腐败和执行选举\n贯彻国家发展方向的研究，创新职能和企业策略\n争取国家安全性，打造网络化的政府和一个富有弹性的新加坡\n负责监督、计划和协调多个机构的方案，联系海外新加坡国民\n管理公共服务人员，对员工的职业发展进行培训\n促进公共服务质量和生产力\n对公共服务委员会提供秘书处的支持\n指导并协调整个国家的人口政策和方案\n职能细分\n内阁制\n国旗\n荣誉和奖励\n治安法官\n对腐败的预防\n选举\n国家人口政策和方案\n国家发展和方向研究，创新职能和企业协调\n国家安全和情报协调\n21世纪公共服务计划\n人才管理\n行政服务\n退休金\n度假村管理\n人事委员会\n上诉委员会\n公务员的工业关系\n工作人员发展政策\n战略政策\n公共服务委员会秘书处\n公共政策发展培训\n公共行政和管理培训和咨询\n货币、银行、保险、金融和证券业务\n国际和区域金融机构联络\n下辖机构\n新加坡总理公署辖下部门包括：贪污调查局、选举局、国家研究基金会、国家安全协调处、国家人口和人才分局、公共服务部、自閉症資源中心。\n贪污调查局\n贪污调查局是一个独立的调查机构，目的是防止新加坡公共和私营部门的腐败。它成立于1952年，是防治权力腐败的主要机构。该局是由一名局長直接负责。\n选举局\n选举部是负责策划、准备和管理进行总统和议会选举的机构。\n国家研究基金会\n国家研究基金会的任务是协调各研究机构为国家框架提供一个更大的、连贯的战略和方向的概述。推动国家战略建设和实施，同时帮助企业创新。\n国家安全协调秘书处\n国家安全协调秘书处是新加坡总理公署一个重要的机构，它负责国家安全规划、政策和情报问题的处理。\n国家人口和人才分局\n2011年1月建立，它主要负责推动新加坡人口问题的解决。其政策有：支持婚姻和生育，吸引和留住人才，移民和归化，召回海外新加坡人。\n公共服务部\n公共服务部主要实施有效的人力资源开发政策，塑造公共服务集政策方向。\n自閉症資源中心\n自閉症資源中心負責新加坡本地的自閉症人士資源及福利政策。\n参考文献\n外部链接\n官方网站  （英文）\nYouTube上的新加坡政府的官方频道頻道",
+  "core_business": "新加坡总理公署（Prime Minister's Office，缩写PMO）是新加坡政府行政分支的核心机构，负责监督和协调各部委的总体政策活动，提供全面的国家战略方向。总理公署由总理直接领导，同时配备多名内阁级部长、高级政务部长及常任秘书协助运作。其核心职能涵盖六大领域：一是反腐败治理，通过贪污调查局（CPIB）独立调查公共和私营部门的腐败行为；二是选举管理，通过选举局（ELD）策划和执行总统及国会选举；三是国家研究与创新战略，通过国家研究基金会（NRF）协调全国科研方向并推动企业创新；四是国家安全协调，通过国家安全协调秘书处（NSCS）统筹情报和安全政策；五是公共服务管理，通过公共服务署（PSD）和公共服务学院（CSC）管理约3700名员工的职业发展和培训；六是数字化与智慧国建设，通过智慧国与数字政府群（SNDGG）、网络安全局（CSA）和政府科技局（GovTech）推进智慧国2.0计划。此外，新加坡金融管理局（MAS）亦在总理公署管辖之下，负责货币政策和金融监管。总理公署位于总统府（The Istana），该址同时也是新加坡总统的官邸和办公室。2019年年度预算约为10.2亿新元。2025年5月大选后，黄循财总理组建第二届内阁，设立三名统筹部长分管国家安全、公共服务和社会政策，进一步强化总理公署的跨部委协调功能。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "新加坡总理公署主导APEC参与策略，黄循财总理在APEC 2025呼吁深化区域合作，新加坡将于2030年主办APEC峰会",
+  "apec_stance": "新加坡总理公署主导APEC参与策略的顶层设计。黄循财总理作为政府首脑直接参与APEC领导人非正式会议，在2025年APEC韩国峰会上呼吁深化区域经济合作和维护基于规则的多边贸易体系。总理公署下辖的外交部、贸工部等协同推进APEC议程，重点关注数字贸易、供应链韧性和人工智能治理等新兴议题。新加坡将于2030年主办APEC峰会，相关筹备工作由总理公署统筹协调。2026年2月预算案中设立的国家AI委员会和AI技能培训计划也与APEC数字经济优先事项高度契合。新加坡坚持支持自由贸易和开放的区域经济一体化立场，积极推动APEC在关税便利化、数字标准互认和中小企业数字化转型方面的合作。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_articles"
     ],
-    "completeness_score": 95,
-    "notes": "Enriched with web search data: key_people, social_accounts, recent_events, digital_assets, apec_stance (2026-04-16)"
+    "completeness_score": 97,
+    "notes": "Phase 3 enrichment: verified key_people IDs against person index, replaced invalid departments with actual PMO sub-agencies, added 7 recent events (2025-2026), expanded related_entities to 7 entries, enriched digital_assets to 5 items, rewrote core_business and apec_stance with cross-verified data from Wikipedia and PMO official site.",
+    "quotes": [
+      {
+        "title": "Wikipedia - Prime Minister's Office (Singapore)",
+        "url": "https://en.wikipedia.org/wiki/Prime_Minister%27s_Office_(Singapore)"
+      },
+      {
+        "title": "Wikipedia 中文 - 新加坡总理公署",
+        "url": "https://zh.wikipedia.org/wiki/新加坡总理公署"
+      },
+      {
+        "title": "PMO Official Website",
+        "url": "https://www.pmo.gov.sg"
+      },
+      {
+        "title": "PMO Cabinet Page",
+        "url": "https://www.pmo.gov.sg/about-us/the-cabinet/"
+      },
+      {
+        "title": "PMO Newsroom",
+        "url": "https://www.pmo.gov.sg/newsroom/"
+      },
+      {
+        "title": "PMO Cabinet Appointments May 2025",
+        "url": "https://www.pmo.gov.sg/newsroom/changes-to-cabinet-and-other-appointments-may-2025/"
+      },
+      {
+        "title": "CNA - Singapore NZ Essential Goods Agreement",
+        "url": "https://www.channelnewsasia.com/singapore/singapore-new-zealand-essential-goods-free-trade-agreement-legally-binding-6097926"
+      },
+      {
+        "title": "Straits Times - GE2025 PAP Landslide Win",
+        "url": "https://www.straitstimes.com/singapore/politics/ge2025-pap-gets-65-57-per-cent-of-votes-in-landslide-win"
+      },
+      {
+        "title": "CNA - ASEAN Summit Cebu 2026",
+        "url": "https://www.channelnewsasia.com/singapore/asean-summit-cebu-2026-lawrence-wong-singapore-declaration-6098266"
+      },
+      {
+        "title": "Singapore Budget 2026",
+        "url": "https://www.singaporebudget.gov.sg/"
+      }
+    ]
   }
 }

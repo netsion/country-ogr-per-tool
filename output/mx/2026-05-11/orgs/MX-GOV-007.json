@@ -1,0 +1,279 @@
+{
+  "org_id": "MX-GOV-007",
+  "basic_info": {
+    "name_original": "Secretaría de Gobernación",
+    "name_zh": "内政部",
+    "name_en": "Secretariat of the Interior",
+    "aliases": [
+      "SEGOB",
+      "Secretaría de Gobernación",
+      "Ministry of the Interior (Mexico)",
+      "Department of the Interior (Mexico)"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "MEX",
+    "hq_country_iso3": "MEX",
+    "founded_date": "1853-01-01",
+    "website": "http://www.gob.mx/segob"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "SEGOB_mx",
+      "url": "https://twitter.com/SEGOB_mx",
+      "source": "official website"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "rosaicela_",
+      "url": "https://twitter.com/rosaicela_",
+      "source": "official website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Secretaría de Gobernación",
+      "url": "https://www.facebook.com/SecretariadeGobernacionMX",
+      "source": "official website footer"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Secretaría de Gobernación",
+      "url": "https://www.youtube.com/user/SEGOBmx",
+      "source": "official website footer"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "SEGOB 新闻门户",
+      "url": "https://noticias.segob.gob.mx/",
+      "description": "内政部官方新闻发布平台，发布新闻稿、演讲稿和声明",
+      "source": "official website"
+    },
+    {
+      "name": "联邦官方日报 (DOF)",
+      "url": "https://www.dof.gob.mx/",
+      "description": "由内政部管理和出版的联邦政府官方公报，刊载法律、法令和法规",
+      "source": "wikipedia"
+    },
+    {
+      "name": "全国个人身份识别服务",
+      "url": "https://www.gob.mx/curp",
+      "description": "全国唯一人口登记码 (CURP) 管理系统，含生物识别功能",
+      "source": "news search"
+    },
+    {
+      "name": "联邦立法信息系统 (SIL)",
+      "url": "https://sil.gobernacion.gob.mx/",
+      "description": "联邦立法信息系统，追踪国会议案和立法进程",
+      "source": "official website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MX-PERSON-000154",
+      "name": "罗莎·伊塞拉·罗德里格斯 (Rosa Icela Rodríguez Velázquez)",
+      "title": "内政部长 (Secretaria de Gobernación)",
+      "title_description": "主持内政部全面工作，负责国内政策协调、联邦与州政府关系、国家安全事务",
+      "description": "2024年10月1日就任内政部长，此前曾任公共安全部长。在洛佩斯·奥夫拉多尔政府和辛鲍姆政府中均担任重要职务，是墨西哥政坛资深女性政治家。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "MX-GOV-007-DEPT-001",
+      "name": "内政副秘书处 (Subsecretaría de Gobernación)",
+      "head": null,
+      "description": "负责国内政治事务协调、联邦与各州政府间关系、地方政府事务管理",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-007-DEPT-002",
+      "name": "人权、人口与移民副秘书处 (Subsecretaría de Derechos Humanos, Población y Migración)",
+      "head": null,
+      "description": "负责人权政策、人口事务、移民管理、难民与庇护事务，下辖国家移民研究所 (INM)",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-007-DEPT-003",
+      "name": "和平建设、社会参与与宗教事务副秘书处 (Subsecretaría de Construcción de Paz, Participación Social y Asuntos Religiosos)",
+      "head": null,
+      "description": "负责和平建设、社会参与、宗教事务管理、社会对话与冲突预防",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-007-DEPT-004",
+      "name": "国家移民研究所 (Instituto National de Migración, INM)",
+      "head": null,
+      "description": "负责墨西哥出入境管理、移民政策执行、外国人居留许可和遣返程序",
+      "parent_dept_id": "MX-GOV-007-DEPT-002"
+    },
+    {
+      "dept_id": "MX-GOV-007-DEPT-005",
+      "name": "国家调查与安全中心 (Centro Nacional de Inteligencia, CNI)",
+      "head": null,
+      "description": "墨西哥主要情报机构，直接向内政部长汇报，负责国家安全情报收集与分析",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-007-DEPT-006",
+      "name": "广电总局 (Dirección General de Radio, Televisión y Cinematografía)",
+      "head": null,
+      "description": "监管广播、电视和电影内容，确保符合隐私保护、公共道德和公共秩序标准",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-007-DEPT-007",
+      "name": "国家档案馆 (Archivo General de la Nación)",
+      "head": null,
+      "description": "管理和保存联邦政府历史档案文件，监督公共信息公开制度的执行",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-07",
+      "title": "内政部长罗莎·伊塞拉会见失踪人员家属搜寻团体",
+      "description": "罗莎·伊塞拉·罗德里格斯与来自墨西哥城、墨西哥州、伊达尔戈、莫雷洛斯、普埃布拉和特拉斯卡拉的失踪人员家属团体会面，重申寻找失踪人员是'国家优先事项'。",
+      "impact": "彰显辛鲍姆政府对失踪人员问题的重视，但民间团体对进展速度仍有批评",
+      "source": "https://www.jornada.com.mx/noticia/2026/05/07/politica/busqueda-de-desaparecidos-es-prioridad-nacional-asegura-rosa-icela-rodriguez"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "SEGOB与宗教团体举行第二次对话以简化行政程序",
+      "description": "内政部与宗教协会举行第二轮对话，旨在优化宗教团体的注册和审批流程，改善服务响应。",
+      "impact": "推进宗教事务管理的透明化和行政效率提升",
+      "source": "https://mvsnoticias.com/nacional/2026/5/6/segob-se-reune-con-asociaciones-religiosas-para-agilizar-tramites-738899.html"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "SEGOB工作人员参加2026年全国首次防震演练",
+      "description": "内政部长罗莎·伊塞拉及全体工作人员参加了2026年首次全国地震防灾演练，强调民防体系建设的重要性。",
+      "impact": "强化联邦政府灾害应急响应能力",
+      "source": "https://heraldodemexico.com.mx/nacional/2026/5/6/rosa-icela-rodriguez-personal-de-segob-participan-en-el-primer-simulacro-nacional-2026-807903.html"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "内政部长与UNIR社会团体举行对话",
+      "description": "罗莎·伊塞拉·罗德里格斯与全国团结组织 (UNIR) 成员举行关注社会诉求的对话会议。",
+      "impact": "加强政府与社会组织的沟通渠道，预防社会冲突",
+      "source": "https://www.jornada.com.mx/noticia/2026/04/29/politica/rosa-icela-se-reune-con-unir-para-atender-demandas-sociales"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "内政部长展示生物识别CURP系统",
+      "description": "罗莎·伊塞拉·罗德里格斯展示了生物识别CURP（全国唯一人口登记码）系统的数据采集过程，该系统旨在变革公民身份识别方式。",
+      "impact": "推动墨西哥身份认证系统现代化，增强国家安全和公共服务效率",
+      "source": "https://www.infobae.com/mexico/2026/04/13/rosa-icela-rodriguez-secretaria-de-gobernacion-presume-su-curp-biometrica/"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "SEGOB拒绝美国国务院人权报告结论",
+      "description": "内政部长罗莎·伊塞拉·罗德里格斯重申墨西哥政府拒绝接受美国国务院人权报告中的相关结论。",
+      "impact": "体现墨西哥在人权议题上维护主权的立场",
+      "source": "https://www.facebook.com/DiarioDeMexico/videos/1427511589407863/"
+    },
+    {
+      "date": "2026-01-07",
+      "title": "内政部长在第37届使领馆负责人会议上介绍执政进展",
+      "description": "罗莎·伊塞拉在第37届使领馆负责人年会 (REC 2026) 上介绍'墨西哥拥抱你'计划进展和内政部保障国家治理的行动。",
+      "impact": "加强外交部与内政部在海外公民保护事务上的协调",
+      "source": "https://www.razon.com.mx/mexico/2026/01/07/rosa-icela-expone-avances-de-segob-en-gobernabilidad/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MX-GOV-001",
+      "org_name": "总统府 (Presidencia de la República)",
+      "org_type": "GOV",
+      "org_description": "墨西哥联邦行政首脑机构，现任总统克劳迪娅·辛鲍姆",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "MX-GOV-008",
+      "org_name": "外交部 (Secretaría de Relaciones Exteriores)",
+      "org_type": "GOV",
+      "org_description": "墨西哥外交事务主管部门",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "MX-GOV-012",
+      "org_name": "安全与公民保护部 (Secretaría de Seguridad y Protección Ciudadana)",
+      "org_type": "GOV",
+      "org_description": "联邦公共安全管理机构",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "MX-GOV-025",
+      "org_name": "国家选举研究所 (Instituto Nacional Electoral)",
+      "org_type": "GOV",
+      "org_description": "联邦选举管理和组织机构",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "MX-GOV-026",
+      "org_name": "总检察长办公室 (Fiscalía General de la República)",
+      "org_type": "GOV",
+      "org_description": "联邦检察机关",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "墨西哥内政部（Secretaría de Gobernación, SEGOB）是联邦政府最重要的内阁部门之一，负责国内事务管理和国家治理。其核心职能包括：向国会提交总统的法律提案并管理联邦官方日报的出版发行；协调联邦政府与各州、市政府之间的关系；管理全国个人身份识别服务系统（CURP生物识别）；制定和执行国内政治政策，处理与政党、社会团体和宗教组织的关系；监督宪法条款的遵守，特别是个人权利保障；管理国家移民研究所（INM），负责出入境和移民政策执行；通过国家调查与安全中心（CNI）收集和分析国家安全情报；监督广电内容合规性；管理联邦民防体系，协调灾害预防与应急响应；管理国家档案馆。由于宪法规定内政部长在总统临时或永久缺席时代行总统职权，该职位被视为距离总统宝座最近的位置，历史上多位内政部长成为总统候选人。现任部长为罗莎·伊塞拉·罗德里格斯，于2024年10月就任。",
+  "industries": [
+    "public_administration",
+    "internal_security",
+    "intelligence_security",
+    "regulatory"
+  ],
+  "apec_stance": "墨西哥内政部作为国内事务管理机构，不直接参与APEC相关活动。在APEC框架下，墨西哥的外交政策主要由外交部（SRE）和经济部（SE）负责。但内政部通过国家移民研究所参与APEC商务旅行卡等跨境人员流动便利化措施的执行，同时通过国家安全情报体系为APEC成员国之间的安全合作提供支持。墨西哥已于2025年APEC庆州峰会上成功申办2028年APEC主办权，内政部将在会议安全、人员出入境管理等方面发挥保障作用。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/OFICINAS_CENTRALES_DE_LA_SECRETARIA_DE_GOBERNACION.jpg/330px-OFICINAS_CENTRALES_DE_LA_SECRETARIA_DE_GOBERNACION.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 84,
+    "notes": "Enriched profile from Wikipedia EN, news searches, and official sources. Cloudflare blocked official website direct reading; used search results and cached data instead.",
+    "quotes": [
+      {
+        "title": "Secretariat of the Interior - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Secretariat_of_the_Interior_(Mexico)"
+      },
+      {
+        "title": "Secretaría de Gobernación - Wikipedia (ES)",
+        "url": "https://es.wikipedia.org/wiki/Secretar%C3%ADa_de_Gobernaci%C3%B3n_(M%C3%A9xico)"
+      },
+      {
+        "title": "Rosa Icela expone avances de Segob en gobernabilidad",
+        "url": "https://www.razon.com.mx/mexico/2026/01/07/rosa-icela-expone-avances-de-segob-en-gobernabilidad/"
+      },
+      {
+        "title": "Búsqueda de desaparecidos es prioridad nacional - La Jornada",
+        "url": "https://www.jornada.com.mx/noticia/2026/05/07/politica/busqueda-de-desaparecidos-es-prioridad-nacional-asegura-rosa-icela-rodriguez"
+      },
+      {
+        "title": "SEGOB Manual de Organización General",
+        "url": "https://www.gob.mx/segob/documentos/manual-de-organizacion-general-de-la-secretaria-de-gobernacion"
+      },
+      {
+        "title": "Reglamento Interior de la Secretaría de Gobernación 2025",
+        "url": "http://www.cjef.gob.mx/UE/2025/Reglamento_Interior_de_la_Secretar%C3%ADa_de_Gobernaci%C3%B3n.pdf"
+      },
+      {
+        "title": "Rosa Icela Rodríguez presume su CURP biométrica - Infobae",
+        "url": "https://www.infobae.com/mexico/2026/04/13/rosa-icela-rodriguez-secretaria-de-gobernacion-presume-su-curp-biometrica/"
+      },
+      {
+        "title": "SEGOB Noticias",
+        "url": "https://noticias.segob.gob.mx/"
+      }
+    ]
+  }
+}

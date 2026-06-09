@@ -1,0 +1,381 @@
+{
+  "org_id": "CA-FIN-008",
+  "org_type": "FIN",
+  "org_subtype": "Stock Exchange",
+  "basic_info": {
+    "name_original": "TMX Group",
+    "name_en": "TMX Group",
+    "name_zh": "多伦多证券交易所集团 (TMX Group)",
+    "description": "TMX Group Limited is a Canadian financial services company that operates equities, fixed income, derivatives, and energy markets exchanges. It provides services encompassing listings, trading, clearing, settling and depository facilities, information services as well as technology services for the international financial community. TMX Group is best known for operating the Toronto Stock Exchange (TSX), TSX Venture Exchange (TSXV), Montréal Exchange (MX), and the Canadian Depository for Securities (CDS).",
+    "founded_date": "2008-05-01",
+    "headquarters": "Toronto, Ontario",
+    "country": "CA",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "org_type": "FIN",
+    "org_subtype": "publicly_listed",
+    "website": "https://www.tmx.com/"
+  },
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000129",
+      "name": "卢克·伯特兰 (Luc Bertrand)",
+      "title": "董事会主席 (Chairman of the Board)",
+      "title_description": "Chairman of the Board of TMX Group since May 2023; previously spokesman for Maple Group Acquisition Corporation during its 2012 acquisition of TMX Group",
+      "description": "Former Vice Chairman of National Bank of Canada; led the Maple Group consortium that acquired TMX Group in 2012; largest individual shareholder of TMX Group"
+    },
+    {
+      "person_id": "CA-PERSON-000130",
+      "name": "约翰·麦肯齐 (John McKenzie)",
+      "title": "首席执行官兼董事 (CEO & Director)",
+      "title_description": "Chief Executive Officer of TMX Group since January 2020; member of the Board of Directors",
+      "description": "Led TMX Group through record-breaking financial performance in 2025 with full-year revenue growth of 18%; spearheaded international expansion including AlphaX US launch and Cboe acquisition; total yearly compensation approximately CA$5.86M"
+    },
+    {
+      "person_id": "CA-PERSON-000131",
+      "name": "彼得·康罗伊 (Peter Conroy)",
+      "title": "全球洞察业务首席执行官 (CEO of Global Insights)",
+      "title_description": "Leads TMX Group's Global Insights division which represents approximately 40% of total revenue",
+      "description": "Oversees data-driven businesses including TMX Datalinx, TMX VettaFi, and TMX Newsfile; key architect of TMX's strategy to build 50% of revenue from data-based businesses"
+    },
+    {
+      "person_id": "CA-PERSON-000132",
+      "name": "海蒂·菲舍尔 (Heidi Fischer)",
+      "title": "AlphaX美国总裁 (President of AlphaX US)",
+      "title_description": "President of TSX Alpha US, Inc., TMX Group's first US-based Alternative Trading System",
+      "description": "Leads the AlphaX US equity ATS venue launched in January 2025; oversees US market expansion strategy for TMX Group's Markets division"
+    },
+    {
+      "person_id": "CA-PERSON-000133",
+      "name": "谢丽尔·格雷登 (Cheryl Graden)",
+      "title": "首席法律与企业事务官兼公司秘书 (Chief Legal & Enterprise Corporate Affairs Officer and Corporate Secretary)",
+      "title_description": "Senior Vice President, Group Head of Legal and Business Affairs and Corporate Secretary since March 2015",
+      "description": "Oversees all legal affairs, corporate governance, and enterprise corporate affairs for TMX Group and its subsidiaries"
+    },
+    {
+      "person_id": "CA-PERSON-000134",
+      "name": "汤姆·亨德里克森 (Tom Hendrickson)",
+      "title": "VettaFi总裁 (President of VettaFi)",
+      "title_description": "President of TMX VettaFi, a leading US-based indexing, digital distribution, analytics and thought leadership company",
+      "description": "Leads VettaFi operations following TMX Group's $848 million acquisition completed in January 2024"
+    }
+  ],
+  "departments": [
+    {
+      "name": "资本形成部 (Capital Formation)",
+      "dept_id": "CA-FIN-008-DEPT-001",
+      "head": "John McKenzie",
+      "description": "Operates leading global exchanges offering companies at various growth stages access to equity capital and full-service corporate solutions; includes Toronto Stock Exchange, TSX Venture Exchange, TSX Trust, and TMX Newsfile",
+      "parent_dept_id": null
+    },
+    {
+      "name": "股票与固定收益交易及清算部 (Equities and Fixed Income Trading and Clearing)",
+      "dept_id": "CA-FIN-008-DEPT-002",
+      "head": null,
+      "description": "Manages Canada's most significant equities markets trading venues including TSX, TSXV, TSX Alpha Exchange, AlphaX US, Shorcan, and Canadian Depository for Securities (CDS); provides transparent and regulated trading environment with deep market liquidity",
+      "parent_dept_id": null
+    },
+    {
+      "name": "衍生品交易及清算部 (Derivatives Trading and Clearing)",
+      "dept_id": "CA-FIN-008-DEPT-003",
+      "head": null,
+      "description": "Provides global access to liquid and secure marketplaces for equity and interest rate derivatives trading and clearing through Montréal Exchange (MX) and Canadian Derivatives Clearing Corporation (CDCC); offers comprehensive risk management tools and central counterparty clearing services for listed and OTC markets",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全球洞察部 (Global Insights)",
+      "dept_id": "CA-FIN-008-DEPT-004",
+      "head": "Peter Conroy",
+      "description": "Comprises TMX Datalinx, TMX Trayport, TMX VettaFi, and TMX Money; represents approximately 40% of total revenue as TMX's most recurring and sustainable business segment; focuses on data products, market analytics, energy trading platforms, and indexing services",
+      "parent_dept_id": null
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-subsidiary-010",
+      "org_name": "多伦多证券交易所 (Toronto Stock Exchange / TSX)",
+      "org_type": "subsidiary",
+      "org_description": "Canada's premier senior equity market exchange; serves the senior equities market and is one of the world's largest exchanges by listed company count",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-011",
+      "org_name": "TSX创业板交易所 (TSX Venture Exchange / TSXV)",
+      "org_type": "subsidiary",
+      "org_description": "Canada's public venture equity market exchange serving emerging companies; experienced a 'Modern Resource Renaissance' in 2025 with resource companies achieving 431% average share price appreciation",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-012",
+      "org_name": "蒙特利尔交易所 (Montréal Exchange / MX)",
+      "org_type": "subsidiary",
+      "org_description": "Canada's derivatives exchange; acquired by TMX Group in 2008 for C$1.31 billion; provides trading in equity and interest rate derivatives",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-013",
+      "org_name": "加拿大证券存管处 (Canadian Depository for Securities / CDS)",
+      "org_type": "subsidiary",
+      "org_description": "Canada's national securities depository, clearing and settlement hub for equity, fixed income and money markets",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-014",
+      "org_name": "加拿大衍生品清算公司 (Canadian Derivatives Clearing Corporation / CDCC)",
+      "org_type": "subsidiary",
+      "org_description": "Central counterparty clearinghouse for derivative products traded on Montréal Exchange and OTC markets",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-015",
+      "org_name": "TMX VettaFi",
+      "org_type": "subsidiary",
+      "org_description": "US-based indexing, digital distribution, analytics and thought leadership company; 78% stake acquired for US$848 million in January 2024",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-016",
+      "org_name": "TMX Trayport",
+      "org_type": "subsidiary",
+      "org_description": "Developer of the Joule electronic trading platform for energy markets; expanding into new asset classes and digitized solutions for voice-brokered markets",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-017",
+      "org_name": "AlphaX US",
+      "org_type": "subsidiary",
+      "org_description": "TMX Group's first US Alternative Trading System (ATS) venue launched January 2025; trades US-listed securities under Reg NMS with focus on enhanced execution quality",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-FIN-018",
+      "org_name": "Cboe澳大利亚 (Cboe Australia)",
+      "org_type": "FIN",
+      "org_description": "Australian equities exchange being acquired from Cboe Global Markets for US$300 million as part of April 2026 deal",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-CORP-010",
+      "org_name": "Cboe加拿大 (Cboe Canada)",
+      "org_type": "FIN",
+      "org_description": "Canadian equities exchange being acquired from Cboe Global Markets as part of April 2026 deal to create a global powerhouse for mining finance",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-subsidiary-018",
+      "org_name": "Wall Street Horizon",
+      "org_type": "subsidiary",
+      "org_description": "Boston-based provider of global market-moving action and corporate event data; acquired by TMX Group in November 2022",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-partner-001",
+      "org_name": "标普道琼斯指数 (S&P Dow Jones Indices)",
+      "org_type": "partner",
+      "org_description": "Strategic partner for the S&P/TSX composite index family and other co-branded indices",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-regulator-001",
+      "org_name": "安大略证券委员会 (Ontario Securities Commission / OSC)",
+      "org_type": "regulator",
+      "org_description": "Primary securities regulator overseeing TMX Group's exchange operations in Ontario",
+      "relationship_type": "regulator"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-22",
+      "title": "TMX Group宣布收购Cboe澳大利亚和Cboe加拿大",
+      "description": "TMX Group Limited宣布以3亿美元（约4.09亿加元）的总对价从Cboe Global Markets收购Cboe Australia和Cboe Canada。该交易将创建全球矿业融资巨头，减少加拿大市场参与者的复杂性和成本，进一步扩大TMX在澳大利亚和加拿大资本市场生态系统的服务能力。",
+      "impact": "high",
+      "source": "https://investors.tmx.com/English/News--Events/news/news-details/2026/TMX-Group-Announces-Agreement-to-Acquire-Cboe-Australia-and-Cboe-Canada/default.aspx"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "TMX Group公布2026年4月交易统计数据",
+      "description": "TMX Group公布其市场（包括多伦多证券交易所、TSX创业板交易所、TSX Alpha Exchange和蒙特利尔交易所）2026年4月的合并交易统计数据。",
+      "impact": "low",
+      "source": "https://tsx2025rd.q4web.com/English/News--Events/news/news-details/2026/TMX-Group-Consolidated-Trading-Statistics---April-2026/default.aspx"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "TMX Group宣布董事选举结果",
+      "description": "TMX Group在年度股东大会上选举了全部12名董事候选人，CEO John McKenzie以99.73%的赞成票获连任。",
+      "impact": "medium",
+      "source": "https://www.newsfilecorp.com/release/296265/TMX-Group-Announces-Election-of-Directors"
+    },
+    {
+      "date": "2026-02-05",
+      "title": "TMX Group公布2025年第四季度创纪录业绩",
+      "description": "TMX Group公布2025年Q4收入达4.578亿加元，同比增长16%，创历史新高。全年收入增长18%，董事会批准每股股息增加0.02加元（增幅9%）至0.24加元。所有业务板块均贡献增长，全球洞察业务占收入约40%。",
+      "impact": "high",
+      "source": "https://investors.tmx.com/English/News--Events/news/news-details/2026/TMX-Group-Limited-Reports-Results-for-The-Fourth-Quarter-of-2025/default.aspx"
+    },
+    {
+      "date": "2025-10-27",
+      "title": "TMX Group公布2025年第三季度创纪录收入",
+      "description": "TMX Group报告Q3 2025收入为4.186亿加元，同比增长18%。CEO John McKenzie强调多元化战略的成功，全球洞察业务（数据和分析）约占收入的40%，为最持续、最具复发性且以两位数增长的业务板块。",
+      "impact": "high",
+      "source": "https://www.bnnbloomberg.ca/markets/2025/10/28/tmx-groups-ceo-cites-diversification-as-key-to-record-success/"
+    },
+    {
+      "date": "2025-01-22",
+      "title": "TMX Group推出AlphaX US替代交易系统",
+      "description": "TMX Group推出AlphaX US，这是其市场部门首次在加拿大以外的国际扩张。AlphaX US是一个专注于提升执行质量的美国股票ATS，仅交易美国上市证券（Reg NMS）。上线六周后增长超出预期。",
+      "impact": "high",
+      "source": "https://www.tmx.com/en/newsroom/press-releases?id=1254"
+    },
+    {
+      "date": "2024-01-02",
+      "title": "TMX Group完成对VettaFi的收购",
+      "description": "TMX Group完成以8.48亿美元收购VettaFi Holdings LLC剩余约78%的共同单位。VettaFi是一家美国领先的指数、数字分销、分析和思想领导力公司。TMX此前已在2023年上半年战略投资约22%的股份。",
+      "impact": "high",
+      "source": "https://www.tmx.com/en/newsroom/press-releases?id=1171"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@TMXGroup",
+      "url": "https://x.com/TMXGroup",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "TMX Group",
+      "url": "https://www.linkedin.com/company/tmx-group",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "TMX Group",
+      "url": "https://www.youtube.com/tmxgroup",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "TMX Capital Markets Learning Centre",
+      "url": "https://www.facebook.com/pages/TMX-Capital-Markets-Learning-Centre/144002475754218",
+      "source": "https://www.tmx.com/"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "TMX Group官方网站 (TMX Group Official Website)",
+      "url": "https://www.tmx.com/",
+      "description": "Corporate website providing information about TMX Group companies, investor relations, and sustainability initiatives",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "TMX Money",
+      "url": "https://money.tmx.com/en/",
+      "description": "Flagship site providing free real-time stock quotes for retail investors, integrated with TMX Matrix since June 2020",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "TMX Datalinx",
+      "url": "https://www.tmxinfoservices.com/",
+      "description": "Data products and services platform providing market data, analytics, and insights to the global financial community",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "TMX VettaFi",
+      "url": "https://www.vettafi.com/",
+      "description": "US-based indexing, digital distribution, analytics and thought leadership platform; acquired by TMX Group for $848 million",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "TMX Trayport",
+      "url": "https://www.trayport.com/",
+      "description": "Developer of the Joule electronic trading platform for energy markets; expanding into new asset classes and digitized solutions",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "AlphaX US",
+      "url": "https://us.tmxalphax.com/",
+      "description": "US equity Alternative Trading System launched January 2025; focuses on enhanced execution quality for US-listed securities",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "TMX投资者关系 (Investor Relations)",
+      "url": "https://investors.tmx.com/",
+      "description": "Investor relations portal providing quarterly reports, financial statements, dividend information, and analyst coverage",
+      "source": "https://www.tmx.com/"
+    },
+    {
+      "name": "TMX Matrix",
+      "url": "https://tmxmatrix.com/discover",
+      "description": "Platform showcasing regulated growth companies listed on TSX Venture Exchange; launched November 2018 and integrated with TMX Money",
+      "source": "https://en.wikipedia.org/wiki/TMX_Group"
+    }
+  ],
+  "industries": [
+    "financial_services",
+    "banking",
+    "investment",
+    "asset_management",
+    "information_technology",
+    "energy_oil_gas",
+    "regulatory"
+  ],
+  "core_business": "TMX Group Limited（多伦多证券交易所集团）是加拿大最大的综合性金融市场基础设施运营商，总部位于多伦多。公司运营包括多伦多证券交易所（TSX）、TSX创业板交易所（TSXV）、蒙特利尔交易所（MX）、TSX Alpha Exchange和AlphaX US在内的多家交易所，以及加拿大证券存管处（CDS）和加拿大衍生品清算公司（CDCC）等清算结算机构。TMX Group的业务涵盖资本形成、股票与固定收益交易清算、衍生品交易清算和全球洞察四大板块。2025年公司实现创纪录的全年收入，同比增长18%，其中全球洞察业务（包括TMX Datalinx、VettaFi、Trayport等数据和分析服务）贡献约40%的收入，成为最具复利性和可持续性的增长引擎。公司积极拓展国际市场，2025年1月在美国推出AlphaX US替代交易系统，2026年4月宣布以3亿美元收购Cboe澳大利亚和Cboe加拿大，致力打造全球矿业融资平台。",
+  "apec_stance": "TMX Group作为加拿大资本市场核心基础设施，在APEC区域金融市场中扮演重要角色。多伦多证券交易所是全球矿业融资中心，大量亚太地区矿业和资源类企业选择在TSX/TSXV上市融资。公司在新加坡、悉尼、北京设有办公室，积极服务亚太客户。TMX通过推出核能指数、CDR（加拿大存托凭证）产品及扩展ETF生态，促进APEC区域跨境资本流动。2026年收购Cboe Australia进一步深化了TMX与亚太资本市场的联系，强化了其作为全球矿业融资枢纽的地位。公司还通过TMX Trayport的能源交易平台服务于亚太能源市场。",
+  "contacts": [],
+  "collection_meta": {
+    "phase": "phase3_enriched",
+    "collection_date": "2026-05-11",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "annual_report",
+      "other"
+    ],
+    "completeness_score": 97,
+    "quotes": [
+      {
+        "title": "TMX Group - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/TMX_Group"
+      },
+      {
+        "title": "TMX Group Official Website",
+        "url": "https://www.tmx.com/"
+      },
+      {
+        "title": "TMX Group Announces Agreement to Acquire Cboe Australia and Cboe Canada (April 22, 2026)",
+        "url": "https://investors.tmx.com/English/News--Events/news/news-details/2026/TMX-Group-Announces-Agreement-to-Acquire-Cboe-Australia-and-Cboe-Canada/default.aspx"
+      },
+      {
+        "title": "TMX Group Q4 2025 Earnings Report",
+        "url": "https://investors.tmx.com/English/News--Events/news/news-details/2026/TMX-Group-Limited-Reports-Results-for-The-Fourth-Quarter-of-2025/default.aspx"
+      },
+      {
+        "title": "BNN Bloomberg - TMX CEO Cites Diversification as Key to Record Success",
+        "url": "https://www.bnnbloomberg.ca/markets/2025/10/28/tmx-groups-ceo-cites-diversification-as-key-to-record-success/"
+      },
+      {
+        "title": "Reuters - TMX Group to buy Cboe's Canada, Australia units",
+        "url": "https://www.reuters.com/legal/transactional/cboe-sell-canada-australia-exchanges-tmx-2026-04-22/"
+      },
+      {
+        "title": "TMX Group Launches AlphaX US (January 22, 2025)",
+        "url": "https://www.tmx.com/en/newsroom/press-releases?id=1254"
+      },
+      {
+        "title": "TMX Group Completes VettaFi Acquisition (January 2, 2024)",
+        "url": "https://www.tmx.com/en/newsroom/press-releases?id=1171"
+      },
+      {
+        "title": "TMX Group Sees Stronger IPO Market Heading into 2026",
+        "url": "https://www.theglobeandmail.com/investing/article-tmx-group-sees-stronger-ipo-market-heading-into-2026/"
+      },
+      {
+        "title": "TMX 2025 Annual Report",
+        "url": "https://s21.q4cdn.com/671813756/files/doc_financials/2025/ar/TMX_2025_Annual-Report_EN_Web.pdf"
+      }
+    ],
+    "wikidata_qid": null
+  }
+}

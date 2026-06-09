@@ -1,18 +1,20 @@
 {
   "org_id": "SG-CORP-006",
   "basic_info": {
-    "name_original": "丰益国际",
+    "name_original": "Wilmar International Limited",
     "name_zh": "丰益国际",
-    "name_en": "Wilmar International",
+    "name_en": "Wilmar International Limited",
     "aliases": [
-      "wilmar-international.com",
-      "丰益国际"
+      "Wilmar",
+      "丰益国际",
+      "WLMIY",
+      "SGX:F34"
     ],
     "org_type": "CORP",
     "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1991-01-01",
+    "founded_date": "1991-04-01",
     "website": "https://www.wilmar-international.com/"
   },
   "social_accounts": [
@@ -20,87 +22,259 @@
       "platform": "linkedin",
       "account_name": "Wilmar International",
       "url": "https://sg.linkedin.com/company/wilmar-international",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "@wilmargroup",
       "url": "https://www.facebook.com/wilmargroup/",
-      "source": "web_search"
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
       "name": "Wilmar官网",
-      "url": "http://www.wilmar-international.com",
-      "description": "Wilmar International官方网站。",
-      "source": "http://www.wilmar-international.com"
+      "url": "https://www.wilmar-international.com",
+      "description": "Wilmar International官方网站，涵盖业务介绍、投资者关系及可持续发展报告",
+      "source": "https://www.wilmar-international.com"
     },
     {
-      "name": "2025年报",
-      "url": "https://www.wilmar-international.com/annualreport2025/",
-      "description": "Wilmar 2025年度报告。",
-      "source": "https://www.wilmar-international.com/annualreport2025/"
+      "name": "Wilmar投资者关系",
+      "url": "http://ir-media.wilmar-international.com/",
+      "description": "包含财报公告、SGX披露及年报下载",
+      "source": "official_website"
+    },
+    {
+      "name": "2025年年报",
+      "url": "https://links.sgx.com/FileOpen/Wilmar%20Annual%20Report%202025.ashx?App=Announcement&FileID=880339",
+      "description": "Wilmar 2025年度报告，涵盖全年业绩及业务回顾",
+      "source": "https://links.sgx.com"
+    },
+    {
+      "name": "Wilmar可持续发展报告",
+      "url": "https://www.wilmar-international.com/sustainability",
+      "description": "Wilmar可持续发展举措及NDPE政策执行情况",
+      "source": "https://www.wilmar-international.com/sustainability"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000111",
       "name": "郭孔丰 (Kuok Khoon Hong)",
-      "title": "主席兼CEO",
+      "title": "主席兼首席执行官",
       "title_description": "Chairman and CEO",
-      "description": "Wilmar联合创始人，自2006年起担任CEO约19年。"
+      "description": "Wilmar联合创始人，自1991年创立公司并担任CEO至今超过35年。2021年Forbes新加坡富豪榜排名第12位。在其领导下Wilmar成长为全球最大棕榈油加工企业和Fortune Global 500成员（2025年排名第200位）。"
     },
     {
-      "person_id": "SG-PERSON-000189",
+      "person_id": "SG-PERSON-000172",
       "name": "Pua Seck Guan",
-      "title": "首席运营官",
+      "title": "首席运营官兼执行董事",
       "title_description": "COO & Executive Director",
-      "description": "负责集团运营管理。"
+      "description": "负责集团运营管理，监督全球制造及分销网络。"
+    },
+    {
+      "person_id": "SG-PERSON-000234",
+      "name": "刘锦荣 (Charles Loo)",
+      "title": "首席财务官",
+      "title_description": "Chief Financial Officer",
+      "description": "负责集团财务管理，2026年AGM上确认印尼罚款已计入经营现金流，并阐述调整后净负债权益比仅为0.34倍。"
+    },
+    {
+      "person_id": "SG-PERSON-000119",
+      "name": "林祥源 (Lim Siong Guan)",
+      "title": "首席独立董事",
+      "title_description": "Lead Independent Director",
+      "description": "重申Wilmar对合规的明确和坚定承诺，不容忍任何腐败或违法行为。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-CORP-006-DEPT-001",
-      "name": "Formed a joint venture with India's Adani Group called Adani Wilmar",
+      "name": "食品产品事业部 (Food Products)",
       "head": null,
-      "description": null,
+      "description": "涵盖食用油精炼、消费包装食用油、面粉和大米加工、糖类精炼及消费产品销售。主要品牌包括中国市场金龙鱼、印度市场Fortune品牌。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-006-DEPT-002",
+      "name": "饲料与工业产品事业部 (Feed & Industrial Products)",
+      "head": null,
+      "description": "涵盖油籽压榨、蛋白饲料生产、油脂化学品、特种油脂和生物柴油制造。FY2025该部门利润同比增长62%，是业绩增长核心驱动力。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-006-DEPT-003",
+      "name": "种植园事业部 (Plantation)",
+      "head": null,
+      "description": "管理超过23万公顷油棕种植园，其中约三分之二位于印尼，其余分布在马来西亚和非洲。受印尼B50生物柴油政策利好推动。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-006-DEPT-004",
+      "name": "物流与航运事业部 (Shipping)",
+      "head": null,
+      "description": "支持液态和干散货船队运营，为集团大宗商品贸易提供物流保障。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2026-02-26",
-      "title": "FY2025净利润同比增长20.6%",
-      "description": "净利润达14.1亿美元，营收704.2亿美元。",
-      "impact": "展现农业大宗商品市场韧性。",
-      "source": "https://www.reuters.com/"
+      "date": "2026-05-04",
+      "title": "Wilmar连续第五年入选道琼斯全球最佳指数",
+      "description": "Wilmar宣布第五次连续入选Dow Jones Best-in-Class World Index，彰显其可持续发展领导力。",
+      "impact": "强化Wilmar在ESG领域的国际认可度，有利于吸引长期机构投资者。",
+      "source": "https://www.wilmar-international.com/docs/default-source/default-document-library/highlights/media-releases/2026/wil-news-release---dow-jones-best-in-class-2026_4may2026.pdf"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "FY2026第一季度净利润同比下降22.8%",
+      "description": "Wilmar公布1Q2026净利润为2.656亿美元，同比下降22.8%，主要受大宗商品价格波动和对冲的临时按市值计价损失影响。",
+      "impact": "短期业绩承压但分析机构认为基本面稳健，维持持有评级。",
+      "source": "https://www.businesstimes.com.sg/companies-markets/wilmar-posts-22-8-fall-q1-net-profit-us265-6-million-amid-volatile-commodity-prices"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Wilmar召开2026年度股东大会",
+      "description": "管理层回应印尼罚款已支付并计入财报、印度AWL Agri Business整合进展、印尼B50生物柴油政策利好以及中央厨房扩张等议题。",
+      "impact": "市场对公司治理改善持谨慎乐观态度，长期战略清晰度提升。",
+      "source": "https://fifthperson.com/2026-wilmar-agm/"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Wilmar签署15亿美元银团贷款",
+      "description": "Wilmar签署总额15亿美元的银团贷款协议（含超额配售选择权），用于公司运营和战略投资。",
+      "impact": "增强流动性储备，为印度市场扩张提供资金保障。",
+      "source": "https://www.wilmar-international.com/docs/default-source/default-document-library/highlights/media-releases/2026/wil-news-release---usd1500m-syndicated-loan-facility_31-mar-2026.pdf"
     },
     {
       "date": "2026-02-26",
-      "title": "警告2026年关税紧张局势风险",
-      "description": "公司警告经营环境受关税紧张局势影响。",
-      "impact": "可能影响全球供应链布局和利润率。",
-      "source": "https://www.reuters.com/"
+      "title": "FY2025核心净利润同比增长10%至12.8亿美元",
+      "description": "Wilmar公布FY2025核心净利润12.8亿美元，同比增长10%；全年营收704.2亿美元，同比增长4.5%。Feed & Industrial Products部门2H利润大增62%为增长核心。",
+      "impact": "展现农业大宗商品市场韧性，油籽压榨利润率大幅改善。",
+      "source": "https://www.wilmar-international.com/docs/default-source/default-document-library/highlights/media-releases/2026/wilmar-fy2025-results-news-release.pdf"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Wilmar预计非洲将驱动未来全球棕榈油需求",
+      "description": "公司展望非洲将成为棕榈油需求的下一个增长引擎，Wilmar已在尼日利亚、加纳和乌干达布局种植园业务。",
+      "impact": "为长期增长提供新市场叙事，但非洲业务面临社区和环境争议。",
+      "source": "https://www.nst.com.my/business/corporate/2026/02/1375274/wilmar-africa-drive-future-global-palm-oil-demand"
     }
   ],
-  "related_entities": [],
-  "core_business": "丰益国际有限公司，簡稱豐益國際（SGX：F34、OTCBB：WLMIY），是一家位于新加坡的控股公司。其股东ADM为世界四大粮商之一。旗下公司益海嘉里，为亚洲最大农产品生产企业之一。丰益国际的业务包括棕榈种植、食用油精炼、食用糖加工和提炼、特种油脂、油脂化学品、生物柴油和化肥制造等。2021年，丰益国际入围FoodTalks发布的全球特种油脂企业30强榜单，位列第二。\n历史\n2009年，豐益國際曾打算分拆中國業務到香港交易所上市，集資最多312億港元。其後，豐益國際取消分拆計劃。 \n2010年7月5日新加坡豐益國際，以17億5000萬澳元（14億7000萬美元）成功收購澳洲CSR集團的糖業及再生能源業務Sucrogen。\n本次報價包括13.5億澳元現金並承擔4.03億澳元凈債務。\n2009年收入、238.851億美元\n盈利、18.82億美元\n員工、 80,000\n資產、234.488億美元\n淨資產、109.311億美元\n2010世界500強排名（353位）\n争议\n该公司於印尼婆羅洲砍伐森林，種植棕櫚樹，已嚴重影響婆羅洲猩猩生存環境。\n參考\n外部連結\n（英文）豐益國際有限公司（Wilmar International Limited）（页面存档备份，存于互联网档案馆）",
-  "industries": [
-    "financial_services"
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "益海嘉里金龙鱼 (Yihai Kerry Arawana)",
+      "org_type": "CORP",
+      "org_description": "Wilmar旗下中国A股上市子公司（SZ:300999），运营中国最大消费包装食用油业务，品牌包括金龙鱼。Wilmar持有约90%股份。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "AWL Agri Business (原Adani Wilmar)",
+      "org_type": "CORP",
+      "org_description": "印度最大食品FMCG公司之一，Fortune品牌食用油市场份额约20%，覆盖160万家零售终端和1.23亿家庭。Wilmar于2024-2025年逐步收购Adani集团所持股份，现持有约57%。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "ADM (Archer Daniels Midland)",
+      "org_type": "CORP",
+      "org_description": "世界四大粮商之一，Wilmar的主要股东之一，持有约22.49%股份。双方曾建立热带油脂精炼和全球海运等战略合作。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "PPB Group Berhad",
+      "org_type": "CORP",
+      "org_description": "马来西亚上市公司，郭氏集团旗下投资控股公司，持有Wilmar约18.78%股份。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "Goodman Fielder",
+      "org_type": "CORP",
+      "org_description": "澳新地区领先食品公司，Wilmar与First Pacific于2015年以13亿澳元联合收购。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Shree Renuka Sugars",
+      "org_type": "CORP",
+      "org_description": "印度糖业公司，Wilmar旗下糖业务板块的重要组成部分。",
+      "relationship_type": "subsidiary"
+    }
   ],
-  "apec_stance": "Wilmar作为亚太最大农业综合企业集团，业务遍及中国、印尼、印度等APEC经济体，是APEC区域农业贸易和粮食安全合作的重要参与者。",
-  "profile": null,
+  "core_business": "丰益国际（Wilmar International Limited，SGX:F34）是全球最大的棕榈油加工企业和亚洲领先的农业综合企业集团，总部位于新加坡。公司成立于1991年4月1日，由郭孔丰与印尼企业家Martua Sitorus联合创立，最初从事棕榈油贸易业务。经过30余年发展，Wilmar已成长为一家覆盖全价值链的跨国农业巨头，业务涵盖油棕种植（全球超过23万公顷种植园）、食用油精炼、油籽压榨、消费包装产品（食用油、面粉、大米）、特种油脂、油脂化学品、生物柴油制造、糖类加工以及物流航运等。集团在全球20多个国家拥有超过1000家加工厂，分销网络覆盖中国、印尼、印度等约50个国家，员工约10万人。Wilmar旗下核心资产包括中国A股上市公司益海嘉里金龙鱼（Yihai Kerry Arawana，持股约90%）以及印度最大食品FMCG公司AWL Agri Business（原Adani Wilmar，持股约57%）。2025财年集团营收达704.2亿美元，核心净利润12.8亿美元。Wilmar在2025年Fortune Global 500中排名第200位，并连续五年入选Dow Jones可持续发展指数。公司同时面临环境与人权方面的争议，包括印尼砍伐森林及2016年Amnesty International报告的劳工问题，公司于2013年承诺实施NDPE（不毁林、不开垦泥炭地、不剥削）政策以应对批评。",
+  "industries": [
+    "agriculture_food",
+    "food_beverage",
+    "supply_chain",
+    "energy_renewable"
+  ],
+  "apec_stance": "Wilmar作为亚太地区最大农业综合企业集团，业务深度嵌入APEC经济体：中国是其最大市场（通过益海嘉里金龙鱼），印尼是其最大种植园基地，印度是其下一个战略重心（通过AWL Agri Business）。此外Wilmar在越南、澳大利亚、日本等APEC经济体也有重要布局。集团是APEC区域农业贸易和粮食安全合作的关键参与者，棕榈油贸易直接影响区域内多国的食用油供应和价格稳定。印尼B50生物柴油政策将进一步加剧本区域棕榈油供需格局变化，Wilmar作为最大棕榈油贸易商将同时受益并承担供应调节角色。在中美贸易摩擦背景下，Wilmar的跨区域供应链布局赋予其独特的缓冲优势。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wilmar_International_Logo.svg/250px-Wilmar_International_Logo.svg.png",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "official_website",
       "wikipedia",
-      "web_search"
+      "wikidata",
+      "web_search",
+      "news_search",
+      "annual_report"
     ],
-    "completeness_score": 90,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 72)"
+    "completeness_score": 91,
+    "notes": "Phase 3 enrichment: updated basic_info, expanded key_people to 4, rewrote departments with 4 business segments, added 6 recent events, added 6 related_entities, rewrote core_business and apec_stance with cross-verified data from Wikipedia EN/ZH, official website, and multiple news sources.",
+    "quotes": [
+      {
+        "title": "Wilmar International - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wilmar_International"
+      },
+      {
+        "title": "丰益国际 - 中文维基百科",
+        "url": "https://zh.wikipedia.org/wiki/丰益国际"
+      },
+      {
+        "title": "Wilmar International Official Website",
+        "url": "https://www.wilmar-international.com"
+      },
+      {
+        "title": "Wilmar FY2025 Results News Release",
+        "url": "https://www.wilmar-international.com/docs/default-source/default-document-library/highlights/media-releases/2026/wilmar-fy2025-results-news-release.pdf"
+      },
+      {
+        "title": "8 Things I Learned from the 2026 Wilmar AGM - Fifth Person",
+        "url": "https://fifthperson.com/2026-wilmar-agm/"
+      },
+      {
+        "title": "Wilmar FY2025 Profit Rises - Food Ingredients First",
+        "url": "https://www.foodingredientsfirst.com/news/wilmar-crushing-margins-profit-growth.html"
+      },
+      {
+        "title": "Wilmar 1Q26 Results - Business Times Singapore",
+        "url": "https://www.businesstimes.com.sg/companies-markets/wilmar-posts-22-8-fall-q1-net-profit-us265-6-million-amid-volatile-commodity-prices"
+      },
+      {
+        "title": "Wilmar Annual Report 2025 - SGX",
+        "url": "https://links.sgx.com/FileOpen/Wilmar%20Annual%20Report%202025.ashx?App=Announcement&FileID=880339"
+      },
+      {
+        "title": "Wilmar DJSI Inclusion May 2026",
+        "url": "https://www.wilmar-international.com/docs/default-source/default-document-library/highlights/media-releases/2026/wil-news-release---dow-jones-best-in-class-2026_4may2026.pdf"
+      },
+      {
+        "title": "Wilmar Syndicated Loan Mar 2026",
+        "url": "https://www.wilmar-international.com/docs/default-source/default-document-library/highlights/media-releases/2026/wil-news-release---usd1500m-syndicated-loan-facility_31-mar-2026.pdf"
+      },
+      {
+        "title": "Wilmar Africa Palm Oil Demand - NST",
+        "url": "https://www.nst.com.my/business/corporate/2026/02/1375274/wilmar-africa-drive-future-global-palm-oil-demand"
+      }
+    ]
   }
 }

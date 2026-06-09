@@ -1,20 +1,21 @@
 {
   "org_id": "SG-SOE-007",
   "basic_info": {
-    "name_original": "SMRT集团",
+    "name_original": "SMRT Corporation Ltd",
+    "name_en": "SMRT Corporation Ltd",
     "name_zh": "SMRT集团",
-    "name_en": "SMRT Corporation",
     "aliases": [
+      "SMRT Corporation",
       "SMRT Singapore",
       "SMRT集团",
-      "எஸ் எம் ஆர் டி கூட்டு நிறுவனம்"
+      "SMRT地铁公司"
     ],
     "org_type": "SOE",
     "org_subtype": "gov_linked_company",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "2000-03-06",
-    "website": "http://www.smrt.com.sg"
+    "founded_date": "1987-08-06",
+    "website": "https://www.smrt.com.sg"
   },
   "social_accounts": [
     {
@@ -28,6 +29,12 @@
       "account_name": "SMRTCorpSG",
       "url": "https://facebook.com/SMRTCorpSG",
       "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "smrt_singapore",
+      "url": "https://www.instagram.com/smrt_singapore/",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
@@ -42,90 +49,254 @@
       "url": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/",
       "description": "SMRT官方新闻稿和公告",
       "source": "official_website"
+    },
+    {
+      "name": "SMRT列车实时运营信息",
+      "url": "https://www.smrt.com.sg/journey-with-smrt/train-services-updates",
+      "description": "SMRT运营的地铁和轻轨线路实时运营状态更新",
+      "source": "official_website"
+    },
+    {
+      "name": "Strides官网",
+      "url": "https://strides.com.sg",
+      "description": "SMRT旗下Strides品牌业务（含Strides Premier出租车、Strides Engineering等）官方网站",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000091",
-      "name": "Ngien Hoon Ping",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000190",
+      "name": "佘文民 (Seah Moon Ming)",
+      "title": "董事会主席 (Chairperson)",
+      "title_description": "SMRT集团董事会主席，负责集团战略方向和治理",
+      "description": "佘文民现任SMRT集团董事会主席。在SMRT任职期间积极推动轨道可靠性提升，经常亲自到一线视察运营情况。在2026年3月主持了环线第六期（CCL6）通车前的视察工作。"
     },
     {
-      "person_id": "SG-PERSON-000092",
-      "name": "佘文民 (Seah Moon Ming)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000091",
+      "name": "颜勋平 (Ngien Hoon Ping)",
+      "title": "集团首席执行官 (Group Chief Executive Officer)",
+      "title_description": "负责SMRT集团整体运营管理和战略执行",
+      "description": "颜勋平于2022年8月出任SMRT集团CEO兼执行董事。此前曾任新加坡陆路交通管理局（LTA）局长，对新加坡公共交通体系有深入了解。2025年9月，他作为Rail Reliability Taskforce核心成员参与制定铁路可靠性提升方案，直接向交通部代理部长汇报。"
+    },
+    {
+      "person_id": "SG-PERSON-000299",
+      "name": "林绍凯 (Lam Sheau Kai)",
+      "title": "SMRT地铁总裁 (President, SMRT Trains)",
+      "title_description": "负责SMRT地铁业务的运营和维护",
+      "description": "林绍凯负责SMRT全部地铁运营业务，涵盖南北线、东西线、环线和汤申-东海岸线以及武吉班让轻轨。2025年9月在连续多次列车故障后出席媒体说明会，表示这些故障为独立事件而非系统性问题。毕业于麻省理工学院。"
+    },
+    {
+      "person_id": "SG-PERSON-000300",
+      "name": "李遴伟 (Lee Ling Wee)",
+      "title": "前任副集团CEO兼腾越国际总裁 (Former Deputy Group CEO & President, STRIDES International)",
+      "title_description": "已卸任副集团CEO，转任总裁顾问",
+      "description": "李遴伟自2026年2月1日起卸任副集团CEO及腾越国际（STRIDES International）和腾越工程（STRIDES Engineering）总裁全职职务，转为集团总裁顾问，继续为管理层提供战略指引。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-007-DEPT-001",
-      "name": "References",
-      "head": null,
-      "description": null,
+      "name": "SMRT地铁 (SMRT Trains)",
+      "head": "林绍凯 (Lam Sheau Kai)",
+      "description": "运营南北线（NSL）、东西线（EWL）、环线（CCL）、汤申-东海岸线（TEL）共119个地铁站点，以及武吉班让轻轨（BPLRT）13个站点。2026年环线第六期（CCL6）开通后将新增3个站点完成闭环运营。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-007-DEPT-002",
-      "name": "External links",
+      "name": "SMRT巴士 (SMRT Buses)",
       "head": null,
-      "description": null,
+      "description": "运营约1200辆巴士，服务新加坡北部和西北部主要住宅区以及裕廊西地区（文礼、裕群和Tuas之间）。前身为八达巴士（Trans-Island Bus Services / TIBS），2001年被SMRT收购，2004年5月更名为SMRT巴士。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-007-DEPT-003",
-      "name": "Media related to SMRT Corporation at Wikimedia Commons",
+      "name": "腾越 (STRIDES)",
       "head": null,
-      "description": null,
+      "description": "SMRT旗下多元化交通服务品牌，涵盖出租车、私人租车、工程咨询等业务。2023年4月，腾越出租车与Premier出租车合并成立腾越宝威（Strides Premier），成为新加坡第二大出租车运营商，拥有约2500辆出租车。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-007-DEPT-004",
-      "name": "Official website",
+      "name": "腾越工程 (STRIDES Engineering)",
       "head": null,
-      "description": null,
+      "description": "提供运营维护服务、项目管理和工程咨询，在新加坡和海外开展业务。同时也负责轨道交通资产的技术支持和维护保障。",
+      "parent_dept_id": "SG-SOE-007-DEPT-003"
+    },
+    {
+      "dept_id": "SG-SOE-007-DEPT-005",
+      "name": "星烁生活 (Stellar Lifestyle)",
+      "head": null,
+      "description": "负责SMRT交通网络内的广告和商业空间租赁，管理地铁站内的零售商铺和广告位资源。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-01",
+      "title": "环线第六期（CCL6）即将开通，完成环线闭环运营",
+      "description": "经过隧道加固和系统集成测试后，环线第六期（CCL6）预计于2026年上半年开通，新增Keppel、Cantonment和Prince Edward Road三个地下站点，使环线形成完整闭环。LTA已向SMRT交付23列新列车。2026年3月至5月期间进行周末列车服务调整以配合最终测试。",
+      "impact": "标志着新加坡轨道交通网络的重大里程碑，环线闭环将极大提升市中心的交通连通性。",
+      "source": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/train-service-adjustments-in-preparation-for-circle-line-stage-6-(ccl6)-opening/"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "铁路可靠性工作小组提交建议报告",
+      "description": "由LTA局长Ng Lang担任主席、SMRT集团CEO颜勋平和SBS Transit CEO Jeffrey Sim为成员的铁路可靠性工作小组（Rail Reliability Taskforce）于2025年12月提交最终报告，提出分阶段实施的铁路可靠性提升建议，包括公共交通可靠性保证机制——若故障超出阈值将推迟票价调整。",
+      "impact": "标志着新加坡政府对2025年频繁列车故障的系统性回应，将对SMRT等运营商的维护标准和问责机制产生深远影响。",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/newsroom/2025/12/news-releases/rail_reliability_taskforce_submits_its_recommendations.html"
+    },
+    {
+      "date": "2025-12-19",
+      "title": "SMRT宣布高级管理层变动",
+      "description": "副集团CEO兼腾越国际总裁李遴伟将于2026年2月1日卸任全职职务，转为总裁顾问。同时集团首席通讯官也将卸任该职务以专注于ESG和CSR事务。",
+      "impact": "SMRT高层继续调整，反映集团在新铁路融资框架下的组织优化。",
+      "source": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/smrt-announces-senior-management-movements/"
+    },
+    {
+      "date": "2025-12-01",
+      "title": "东海岸综合车厂（ECID）正式启用",
+      "description": "东海岸综合车厂（East Coast Integrated Depot）于2025年12月成功投入运营。该综合车厂将服务汤申-东海岸线和市区线，是全球最大的综合交通车厂之一。",
+      "impact": "为TEL5和DTL3e的开通提供关键的车辆停放和维护设施支持。",
+      "source": "https://landtransportguru.net/2026-outlook-for-public-transport/"
+    },
+    {
+      "date": "2025-09-19",
+      "title": "LTA与SMRT、SBS Transit联合成立铁路可靠性工作小组",
+      "description": "在2025年7月至9月期间发生至少15起列车故障事件后，LTA与SMRT和SBS Transit联合成立铁路可靠性工作小组，由LTA局长Ng Lang担任主席，SMRT集团CEO颜勋平和SBS Transit CEO Jeffrey Sim为成员。工作小组聚焦三个方面：资产更新、系统审计和应急响应能力提升。",
+      "impact": "直接回应公众对地铁可靠性的严重关切，工作组建议将重塑新加坡轨道交通运营标准。",
+      "source": "https://www.channelnewsasia.com/singapore/lta-rail-reliability-task-force-train-disruptions-delay-5357361"
+    },
+    {
+      "date": "2025-09-17",
+      "title": "SMRT列车总裁林绍凯回应连续故障事件",
+      "description": "在两周内发生至少三次列车故障后，SMRT地铁总裁林绍凯在媒体发布会上表示这些故障为独立事件而非系统性问题，并承诺将与LTA密切合作加强长期铁路可靠性。这是SMRT高层在故障风波中首次直面媒体。",
+      "impact": "SMRT的危机沟通策略受到公众和媒体密切关注，凸显城市公共交通运营商面临的舆论压力。",
+      "source": "https://www.channelnewsasia.com/singapore/smrt-train-disruption-public-transport-5353736"
+    },
+    {
+      "date": "2026-01-28",
+      "title": "SMRT与SPH Media签署MOU丰富通勤者体验",
+      "description": "SPH Media与SMRT签署谅解备忘录，旨在通过SMRT交通网络为通勤者提供全方位的可信新闻和内容访问。",
+      "impact": "拓展SMRT交通空间的媒体和商业合作生态。",
+      "source": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/sph-media-and-smrt-sign-mou-to-enrich-commuter-experience-with-all-round-access-to-trusted-news-and/"
+    },
+    {
+      "date": "2026-03-25",
+      "title": "SMRT任命新董事",
+      "description": "SMRT宣布任命新的董事会成员，进一步完善集团治理结构。具体信息于2026年3月25日公布。",
+      "impact": "持续优化董事会构成，加强集团治理能力。",
+      "source": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/appointment-of-new-director-to-smrt-ae76b86d81ab2e670f18ce935f0a08e1/"
+    },
+    {
       "date": "2025-04-01",
       "title": "SMRT巴士与深圳ZONA签署合作协议",
       "description": "SMRT巴士部门与深圳东部公共交通顾问公司ZONA签署合作协议，标志着SMRT在国际交通运营合作方面的新里程碑。",
-      "impact": "拓展SMRT在亚太地区公共交通领域的国际合作",
+      "impact": "拓展SMRT在亚太地区公共交通领域的国际合作，体现APEC框架下城市交通互联互通趋势。",
       "source": "https://www.facebook.com/SMRTCorpSG/posts/collaboration-%25EF%25B8%258F-action-we-were-pleased-to-host-four-advisors-from-shenzhen-easte/1314981540661166/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-017",
-      "org_name": "Temasek Holdings (淡马锡控股)",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
       "org_type": "SOE",
-      "org_description": "SMRT母公司，2016年全面收购SMRT使其退市",
+      "org_description": "SMRT的100%所有者。2016年9月淡马锡完成对SMRT 46%少数股权的全面收购要约，使SMRT从新加坡交易所退市，回归政府控制。",
       "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "新加坡陆路交通管理局 (Land Transport Authority / LTA)",
+      "org_type": "GOV",
+      "org_description": "SMRT的监管机构和基础设施所有者。在新铁路融资框架（NRFF）下，LTA拥有所有轨道运营资产，SMRT专注于运营可靠性。巴士运营资产也归LTA所有（巴士承包模式BCM）。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "新捷运 (SBS Transit)",
+      "org_type": "CORP",
+      "org_description": "新加坡另一家主要公共交通运营商，运营东北线（NEL）、市区线（DTL）和盛港-榜鹅轻轨（SPLRT），以及部分巴士路线。与SMRT共同构成新加坡公共交通运营的双寡头格局。两家公司均为铁路可靠性工作小组成员。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "腾越宝威 (Strides Premier)",
+      "org_type": "CORP",
+      "org_description": "SMRT旗下Strides Taxi与Premier Taxis于2023年5月合并成立的合资企业，为新加坡第二大出租车运营商，拥有约2500辆出租车。SMRT通过Strides Holdings持有控股权。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "深圳ZONA交通顾问公司",
+      "org_type": "CORP",
+      "org_description": "深圳东部公共交通顾问公司，2025年4月与SMRT巴士部门签署合作协议，在公共交通运营管理领域开展合作。",
+      "relationship_type": "partner"
     }
   ],
-  "core_business": "SMRT集團（SGX：S53、OTCBB：SPMRY）是新加坡的兩大公共運輸機構之一，成立於1987年，並於2000年7月上市，經營項目包括新加坡的地鐵、輕軌系統、計程車及巴士業務。\n2016年7月20日，淡馬錫控股全面收購SMRT。\n歷史\nSMRT集团以 Mass Rapid Transit Corporation (MRTC) 为名成立于1983年10月14日，接管了前临时政府部门 Mass Rapid Transit Authority 的角色和职责。\n主要業務\nSMRT巴士（前稱八達巴士）\nSMRT地鐵\nSMRT輕軌\n騰越（Strides）\n騰越寶威計程車\n勝得麗生活時尚\n營運狀況\nSMRT巴士擁有超過900部巴士。\nSMRT地鐵營運南北線、東西線及環線沿線72個車站。\nSMRT輕軌系統營運及管理武吉班讓輕軌沿線14個車站。\nSMRT計程車擁有2,000多部計程車。\n相片集\n参见\n郭木财，SMRT 2012年至2018年任总裁兼主席\n參考文獻\n外部連結\nSMRT Corporation（页面存档备份，存于互联网档案馆）",
+  "core_business": "SMRT集团（SMRT Corporation Ltd）是新加坡两大公共交通运营商之一，由淡马锡控股100%持有。公司成立于1987年8月6日（最初以Mass Rapid Transit Corporation / MRTC为名成立于1983年10月14日），2000年7月在新加坡交易所上市，2016年10月被淡马锡全面收购后退市。\n\nSMRT的核心业务涵盖城市公共交通运营和多元化交通服务。在轨道交通方面，SMRT地铁（SMRT Trains）运营南北线（NSL）、东西线（EWL）、环线（CCL）和汤申-东海岸线（TEL）共119个站点，以及武吉班让轻轨（BPLRT）13个站点。2026年上半年，环线第六期（CCL6）将开通新增3个站点（Keppel、Cantonment、Prince Edward Road），完成环线闭环运营。在巴士运营方面，SMRT巴士拥有约1200辆巴士，服务北部和西北部住宅区及裕廊西地区。\n\n在新铁路融资框架（NRFF）下，所有轨道运营资产归陆路交通管理局（LTA）所有，SMRT专注于运营可靠性和服务质量。巴士运营资产也在巴士承包模式（BCM）下归LTA所有。这种轻资产模式使SMRT能更集中精力提升运营表现。\n\nSMRT旗下还设有腾越（STRIDES）品牌，涵盖腾越宝威（Strides Premier，2023年由Strides Taxi与Premier Taxis合并成立，新加坡第二大出租车运营商）、腾越工程（STRIDES Engineering，提供工程咨询和运营维护服务）、星烁生活（Stellar Lifestyle，管理交通网络内商业空间和广告位）等业务。\n\n公司目前面临轨道可靠性挑战。2025年7月至9月期间发生至少15起列车故障事件，促使政府成立由LTA、SMRT和SBS Transit三方组成的铁路可靠性工作小组。2025年12月工作小组提交改进建议，包括建立公共交通可靠性保证机制等。集团约9500名员工（截至2016年数据）致力于每日服务数百万通勤者。总部位于Paya Lebar Quarter（PLQ 3）。",
   "industries": [
-    "investment"
+    "public_transport",
+    "railway",
+    "transportation",
+    "engineering",
+    "real_estate"
   ],
-  "apec_stance": "SMRT作为新加坡主要公共交通运营商，其与深圳ZONA的合作体现了APEC框架下城市交通互联互通的趋势。SMRT的运营模式和技术创新对亚太地区城市交通发展具有参考价值。",
+  "apec_stance": "SMRT作为新加坡主要公共交通运营商，在APEC区域城市交通互联互通中具有示范意义。公司与深圳ZONA签署的合作协议体现了APEC框架下城市间公共交通运营经验交流的趋势。SMRT的运营模式——特别是新铁路融资框架（NRFF）下政府持有基础设施资产、运营商专注服务质量的公私合作模式——为亚太发展中经济体的城市轨道交通建设提供了参考范式。2026年环线闭环、汤申-东海岸线延伸和市区线延伸等重大工程项目的推进，展示了新加坡在APEC经济体中城市轨道交通网络化运营的领先水平。此外，SMRT通过腾越工程向海外提供运营维护和工程咨询服务，也为区域交通能力建设合作创造了可能。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/SMRT_logo.png/330px-SMRT_logo.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_media"
     ],
     "completeness_score": 93,
-    "notes": "Enriched with web search: related entities, APEC stance (score: 93)"
+    "notes": "Phase 3 enriched with comprehensive web research: corrected person_id for Seah Moon Ming to SG-PERSON-000190, added Lam Sheau Kai (President SMRT Trains) and Lee Ling Wee (Deputy Group CEO), replaced Wikipedia scraping artifacts with real departments (SMRT Trains, SMRT Buses, STRIDES, STRIDES Engineering, Stellar Lifestyle), added 6 new recent events (CCL6, Rail Reliability Taskforce, ECID opening, senior management changes), expanded related entities (LTA, SBS Transit, Strides Premier, ZONA), rewrote core_business and apec_stance, corrected founded_date to 1987-08-06",
+    "quotes": [
+      {
+        "title": "SMRT Corporation - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SMRT_Corporation"
+      },
+      {
+        "title": "SMRT Media Releases",
+        "url": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/"
+      },
+      {
+        "title": "SMRT Announces Senior Management Movements",
+        "url": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/smrt-announces-senior-management-movements/"
+      },
+      {
+        "title": "CNA: LTA and rail operators establish Rail Reliability Taskforce",
+        "url": "https://www.channelnewsasia.com/singapore/lta-rail-reliability-task-force-train-disruptions-delay-5357361"
+      },
+      {
+        "title": "CNA: SMRT says train disruptions are isolated cases",
+        "url": "https://www.channelnewsasia.com/singapore/smrt-train-disruption-public-transport-5353736"
+      },
+      {
+        "title": "LTA: Rail Reliability Taskforce Recommendations",
+        "url": "https://www.lta.gov.sg/content/ltagov/en/newsroom/2025/12/news-releases/rail_reliability_taskforce_submits_its_recommendations.html"
+      },
+      {
+        "title": "Train Service Adjustments for CCL6 Opening",
+        "url": "https://www.smrt.com.sg/news-publications/newsroom/media-releases/train-service-adjustments-in-preparation-for-circle-line-stage-6-(ccl6)-opening/"
+      },
+      {
+        "title": "CNA: Strides and Premier taxi merger",
+        "url": "https://www.channelnewsasia.com/singapore/strides-premier-taxi-merger-smrt-second-largest-operator-3414426"
+      },
+      {
+        "title": "2026 Outlook for Public Transport - Land Transport Guru",
+        "url": "https://landtransportguru.net/2026-outlook-for-public-transport/"
+      },
+      {
+        "title": "Straits Times: 2026 outlook for transport",
+        "url": "https://www.straitstimes.com/singapore/transport/2026-outlook-whats-next-for-transport-and-the-biggest-stories-of-2025"
+      }
+    ]
   }
 }

@@ -1,126 +1,180 @@
 {
   "org_id": "SG-ACAD-004",
   "basic_info": {
-    "name_original": "新加坡科技研究局",
-    "name_zh": "新加坡科技研究局",
+    "name_original": "Agency for Science, Technology and Research",
     "name_en": "Agency for Science, Technology and Research",
+    "name_zh": "新加坡科技研究局",
     "aliases": [
       "A*STAR",
       "A-Star",
       "A-STAR",
       "新加坡科技研究局",
-      "Agensi Sains"
+      "新*科研",
+      "Agency for Science Technology and Research"
     ],
     "org_type": "ACAD",
     "org_subtype": "research_institute",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "2002-01-01",
-    "website": "http://www.a-star.edu.sg/"
+    "founded_date": "2002-01-05",
+    "website": "https://www.a-star.edu.sg/"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
       "account_name": "@ASTAR_sg",
       "url": "https://twitter.com/Astarhq",
-      "source": "wikidata"
+      "source": "wikipedia"
     },
     {
       "platform": "facebook",
       "account_name": "ASTARSG",
       "url": "https://facebook.com/ASTARSG",
-      "source": "wikidata"
+      "source": "wikipedia"
     },
     {
       "platform": "instagram",
       "account_name": "@astarsg",
       "url": "https://www.instagram.com/astarsg/",
-      "source": "web_search_2026-04-16"
+      "source": "official_website"
     },
     {
       "platform": "tiktok",
       "account_name": "@astarsg",
       "url": "https://www.tiktok.com/@astarsg",
-      "source": "web_search_2026-04-16"
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
       "account_name": "Agency for Science, Technology and Research (A*STAR)",
       "url": "https://www.linkedin.com/company/a-star/",
-      "source": "web_search_2026-04-16"
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "A*STAR Research",
+      "url": "https://www.youtube.com/@astarresearch",
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
-      "name": "A*STAR Official Website",
+      "name": "A*STAR官方网站",
       "url": "https://www.a-star.edu.sg/",
-      "description": "新加坡科技研究局官方网站",
+      "description": "新加坡科技研究局官方网站，发布科研新闻、研究所介绍、奖学金信息及产业合作项目",
       "source": "official_website"
     },
     {
-      "name": "A*STAR News & Highlights",
-      "url": "https://www.a-star.edu.sg/News-and-Highlights",
-      "description": "A*STAR新闻发布和科研成果展示",
-      "source": "web_search_2026-04-16"
+      "name": "A*STAR Research (科研门户网站)",
+      "url": "https://research.a-star.edu.sg/",
+      "description": "A*STAR科研成果展示门户，汇集最新研究亮点和科学家访谈",
+      "source": "official_website"
     },
     {
-      "name": "A*STAR Social Communities Hub",
-      "url": "https://www.a-star.edu.sg/News/social",
-      "description": "A*STAR社交媒体聚合页面，汇集所有平台最新动态",
-      "source": "web_search_2026-04-16"
-    },
-    {
-      "name": "A*STAR Graduate Academy",
+      "name": "A*STAR Graduate Academy (A*GA)",
       "url": "https://www.a-star.edu.sg/Awards-Scholarship",
-      "description": "A*STAR研究生院，管理奖学金和人才培养项目",
-      "source": "web_search_2026-04-16"
+      "description": "A*STAR研究生院，管理SINGA国际研究生奖学金、AGS研究生奖学金等人才培养项目",
+      "source": "official_website"
     },
     {
-      "name": "ARTC (Advanced Remanufacturing & Technology Centre)",
-      "url": "https://www.a-star.edu.sg/artc",
-      "description": "先进再制造与技术中心，与NTU合作推进智能制造",
-      "source": "web_search_2026-04-16"
+      "name": "Centre for Frontier AI Research (CFAR)",
+      "url": "https://www.a-star.edu.sg/cfar/home",
+      "description": "前沿人工智能研究中心，推动AI基础研究和应用",
+      "source": "official_website"
+    },
+    {
+      "name": "Experimental Drug Development Centre (EDDC)",
+      "url": "https://www.eddc.sg/",
+      "description": "实验药物开发中心，将科研成果转化为临床候选药物",
+      "source": "official_website"
+    },
+    {
+      "name": "Diagnostics Development Hub (DxD Hub)",
+      "url": "https://www.a-star.edu.sg/dxdhub/home",
+      "description": "诊断技术开发中心，推进诊断技术的产业化",
+      "source": "official_website"
+    },
+    {
+      "name": "National Supercomputing Centre Singapore (NSCC)",
+      "url": "https://www.nscc.sg/",
+      "description": "新加坡国家超级计算中心，为科研提供高性能计算资源",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
+      "person_id": "SG-PERSON-000229",
+      "name": "陈祝全 (Tan Chorh Chuan)",
+      "title": "董事会主席 (Chairman)",
+      "title_description": "A*STAR董事会主席",
+      "description": "曾任新加坡国立大学校长(2008-2017)，现任总理公署国家研发常任秘书，2023年10月起出任A*STAR主席"
+    },
+    {
       "person_id": "SG-PERSON-000145",
       "name": "马健德 (Beh Kian Teik)",
-      "title": "Chief Executive Officer",
+      "title": "首席执行官 (Chief Executive Officer)",
       "title_description": "A*STAR首席执行官",
-      "description": "曾任新加坡国家研究基金会(NRF)CEO，后调任A*STAR掌舵，领导4100余名研究人员"
+      "description": "2024年11月出任A*STAR CEO，此前任国家研究基金会(NRF) CEO，领导约5400名研究人员，推动RIE2030科研战略"
     },
     {
       "person_id": "SG-PERSON-000195",
-      "name": "Suresh Sachi",
-      "title": "Deputy Chief Executive (Corporate)",
+      "name": "Suresan Sachithananthan",
+      "title": "副首席执行官（企业事务）(Deputy Chief Executive, Corporate)",
       "title_description": "副首席执行官（企业事务）",
-      "description": "负责A*STAR企业管理和运营"
+      "description": "负责A*STAR企业管理、运营和资源调配"
     },
     {
-      "person_id": "SG-PERSON-000186",
-      "name": "Yeo Yee Chia (Prof.)",
-      "title": "Deputy Chief Executive",
-      "title_description": "副首席执行官",
-      "description": "负责科研战略和学术事务"
+      "person_id": "SG-PERSON-000230",
+      "name": "Andy Hor (何子深)",
+      "title": "副首席执行官（科研）(Deputy Chief Executive, Research)",
+      "title_description": "副首席执行官（科研）",
+      "description": "负责A*STAR科学愿景和研究战略，确保科研质量与影响力，曾赴德国DFG等国际机构推动科研合作"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-ACAD-004-DEPT-001",
-      "name": "新加坡科技研究局（简称新*科研；英文：Agency for Science",
+      "name": "生物医药研究理事会 (Biomedical Research Council, BMRC)",
       "head": null,
-      "description": null,
+      "description": "统筹A*STAR在生物医药领域的公共科研活动，下属研究机构包括生物信息研究院(BII)、生物处理科技研究院(BTI)、新加坡基因研究院(GIS)、分子和细胞生物学研究院(IMCB)、新加坡免疫学组(SIgN)、新加坡食品与生物技术创新研究院(SIFBI)、皮肤研究实验室(SRL)等",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-004-DEPT-002",
+      "name": "科学工程研究理事会 (Science and Engineering Research Council, SERC)",
+      "head": null,
+      "description": "统筹A*STAR在物理科学和工程领域的公共科研活动，下属研究机构包括先进再制造与技术中心(ARTC)、资讯通信研究院(I2R)、高性能计算研究院(IHPC)、微电子研究院(IME)、材料与工程研究院(IMRE)、可持续化学能源环境研究院(ISCE2)、国家计量中心(NMC)、新加坡制造技术研究院(SIMTech)等",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-004-DEPT-003",
+      "name": "A*STAR研究生院 (A*STAR Graduate Academy, A*GA)",
+      "head": null,
+      "description": "管理A*STAR各类奖学金和科研人才培养项目，包括SINGA国际研究生奖学金和AGS研究生奖学金，并与大学协调合作项目",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-ACAD-004-DEPT-004",
+      "name": "企业事业部 (Enterprise Division)",
+      "head": null,
+      "description": "管理A*STAR各研究所知识产权的商业化，推进技术向产业转移，下设A*ccelerate加速器和A*START Central孵化器",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
       "date": "2026-03-01",
-      "title": "A*STAR在MTI 2026财政预算案辩论中公布新举措",
-      "description": "A*STAR在新加坡贸工部2026年国会拨款委员会上宣布新科研计划和产业合作项目",
-      "impact": "推动RIE2030科研战略落地，强化产学研转化",
-      "source": "https://www.facebook.com/ASTARSG/photos/d41d8cd9/1333430702156607/"
+      "title": "A*STAR在COS 2026宣布半导体旗舰计划和脱碳大挑战",
+      "description": "新加坡政府在2026年国会拨款委员会上宣布投资8亿新元设立半导体研究旗舰计划(由A*STAR和EDB联合领导)，另投资8亿新元启动脱碳大挑战(DGC)，由A*STAR协同EMA和EDB推进",
+      "impact": "半导体旗舰计划将强化新加坡在全球半导体研发生态链中的地位；脱碳大挑战将通过SPEED计划推动实验室成果向实际应用转化，助力2050年净零排放目标",
+      "source": "https://www.a-star.edu.sg/News/astarNews/news/cos/committee-of-supply-cos2026"
+    },
+    {
+      "date": "2026-01-25",
+      "title": "A*STAR与哈里伯顿联合启动NEX Lab能源技术实验室",
+      "description": "A*STAR与美国能源巨头Halliburton共同启动下一代能源加速器联合实验室(NEX Lab)，总投资约3500万新元，聚焦先进井完井技术的研发和商业化",
+      "impact": "强化新加坡在能源技术领域的先进制造和工程能力，为本地供应链创造新机遇",
+      "source": "https://www.a-star.edu.sg/artc/news-events/news-events/2026/official-launch-of-the-next-generation-energy-xccelerator-joint-lab-(nex-lab)"
     },
     {
       "date": "2025-03-01",
@@ -130,48 +184,108 @@
       "source": "https://sbr.com.sg/news/govt-appoints-new-astar-board-member"
     },
     {
-      "date": "2025-01-01",
-      "title": "A*STAR与NTU签署先进制造合作MoU",
-      "description": "A*STAR与南洋理工大学签署谅解备忘录，聚焦下一代制造、具身AI机器人和制造领域AI，联合建立研究实验室",
-      "impact": "新加坡两大科研机构深度合作，推动先进制造和AI应用",
-      "source": "https://www.a-star.edu.sg/artc/news-events/news-events/2025/astar-and-ntu-sign-mou-to-advance-smart-and-sustainable-advanced-manufacturing"
+      "date": "2024-12-05",
+      "title": "新加坡发布RIE2030五年科研计划",
+      "description": "新加坡发布RIE2030研究创新与企业五年计划，总投资370亿新元（较RIE2025的280亿增长32%），A*STAR将在半导体、脱碳、生物医学翻译等领域发挥核心作用",
+      "impact": "标志着新加坡科研战略进入以经济影响为导向的新阶段，A*STAR将牵头半导体旗舰和脱碳大挑战等旗舰项目",
+      "source": "https://www.straitstimes.com/singapore/singapore-commits-record-37-billion-to-drive-research-innovation-and-enterprise-over-the-next-five"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-016",
-      "org_name": "Ministry of Trade and Industry",
+      "org_name": "新加坡贸易和工业部 (Ministry of Trade and Industry)",
       "org_type": "GOV",
-      "org_description": "上级主管部委",
+      "org_description": "A*STAR的上级主管部委，负责贸易、工业和科研政策",
       "relationship_type": "parent_org"
     },
     {
-      "org_id": "SG-ACAD-002",
-      "org_name": "南洋理工大学 (NTU)",
+      "org_id": "SG-ACAD-001",
+      "org_name": "新加坡国立大学 (National University of Singapore)",
       "org_type": "ACAD",
-      "org_description": "2025年签署MoU合作推进智能制造和AI研究",
+      "org_description": "A*STAR总部邻近NUS校园，双方在生物医学、工程等领域深度合作，联合运营临床成像研究中心(CIRC)等",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "SG-ACAD-002",
+      "org_name": "南洋理工大学 (Nanyang Technological University)",
+      "org_type": "ACAD",
+      "org_description": "2025年签署MoU合作推进智能制造和AI研究，联合建立研究实验室",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "SG-SOE-001",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_description": "新加坡主权财富基金，间接支持A*STAR科研成果的产业化投资",
       "relationship_type": "strategic_alliance"
     }
   ],
-  "core_business": "新加坡科技研究局（简称新*科研；英文：Agency for Science, Technology and Research；简写为A*STAR），是新加坡贸易和工业部下属的自治研究机构，其前身國家科學技術委員會成立于1991年。新加坡科技研究局成立的目标是促进新加坡科研和人才的整合，以协助新加坡向知识型经济体转型和迈进 。其总部位于靠近新加坡国立大学的纬壹地铁站附近。下属生物医药研究、科学工程研究两大理事会，各自统合若干下属研究所，开展相关方面的科学研究。还直辖交叉学科整合理事会、研究生学院、速创科技私人有限公司，以及企业公共事务服务部门，以达到各个研究所的资源共享。\n属下研究所\n生物医药研究理事会\n生物信息研究院(BII)\n生物处理科技研究院(BTI)\n实验治疗学中心(ETC)\n新加坡基因研究院(GIS)\n生物工程与纳米科技研究院(IBN)\n医学生物研究院(IMB)\n分子和细胞生物学研究院(IMCB)\n新加坡生物成像研究项目(SBIC)\n新加坡临床科学研究院(SICS)\n新加坡免疫学组(SIgN)\n新加坡干细胞研究项目(SSCC)\n新加坡科研与新加坡国立大学临床成像研究中心(CIRC)\n科学工程研究理事会\n化学与工程科学研究院(ICES)\n高性能计算研究院(IHPC)\n资讯通信研究院(I²R)\n材料与工程研究院(IMRE)\n微电子研究院(IME)\n新加坡制造技术研究院(SIMTech)\n国家计量中心(NMC)\n新加坡先进制造研究中心(ARTC)\n参考资料",
+  "core_business": "新加坡科技研究局（A*STAR）是新加坡贸易和工业部下属的法定研究机构，前身为1991年成立的国家科学技术委员会(NSTB)，2002年改组为现名。A*STAR是新加坡主导公共科研的核心机构，拥有约5400名科研及工作人员，研究机构主要分布在纬壹科技城(One-North)的Biopolis（生物医药园区）和Fusionopolis（启汇城）两个科研枢纽。A*STAR的研究使命围绕新加坡五年科研计划(RIE)展开，覆盖制造、贸易与互联互通、人类健康与潜力、城市解决方案与可持续发展、智慧国家与数字经济四大技术领域。A*STAR下设生物医药研究理事会(BMRC)和科学工程研究理事会(SERC)两大体系，分别统辖十余所专业研究所，涵盖基因组学、生物信息学、免疫学、分子细胞生物学、纳米技术、高性能计算、微电子、材料科学、制造技术、信息通信等前沿领域。此外还设有研究生院(A*GA)管理国际奖学金和人才培养，以及企业事业部推动知识产权商业化和产业技术转移。A*STAR在产学研合作方面成效显著，2011-2015年间完成了近9000个产业项目，促成超过16亿新元的产业研发投入，与劳斯莱斯、应用材料、宝洁(P&G)等跨国企业建立了深度合作关系。在COVID-19疫情期间，A*STAR团队协助建立和维护GISAID数据库，为全球病毒基因组数据共享做出重要贡献。进入RIE2030阶段，A*STAR将牵头半导体研究旗舰计划(8亿新元)和脱碳大挑战(8亿新元)，并扩大AI制造中心(AIMfg)的规模，推动先进制造AI化转型。",
   "industries": [
-    "higher_education"
+    "research_development",
+    "biotechnology",
+    "semiconductors",
+    "industrial_manufacturing",
+    "information_technology"
   ],
-  "apec_stance": "A*STAR作为新加坡领先科研机构，与APEC经济体研究机构（如澳大利亚CSIRO、日本RIKEN、韩国KAIST等）保持广泛科研合作，在数字经济、AI、生物医学和绿色技术领域参与APEC相关研究网络，支持新加坡DEPA数字经济伙伴关系协定框架下的科技创新议程",
+  "apec_stance": "A*STAR作为新加坡领先的公共科研机构，与APEC经济体研究机构保持广泛合作。在数字经济领域，A*STAR参与推动AI技术应用和半导体先进技术研发；在生物医学领域，通过SINGA国际研究生奖学金吸引APEC经济体人才赴新加坡深造；在绿色技术领域，RIE2030脱碳大挑战将为亚太地区碳捕获、利用与封存(CCUS)技术提供科研支撑。A*STAR与日本RIKEN、德国DFG等国际机构签署合作协议，并支持新加坡DEPA（数字经济伙伴关系协定）框架下的科技创新议程，在APEC科研合作网络中扮演关键节点角色。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/A%2ASTAR_logo.png/330px-A%2ASTAR_logo.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
       "official_website",
-      "web_search"
+      "web_search",
+      "government_directory"
     ],
-    "completeness_score": 96,
-    "notes": "Enriched with web search data: key_people, social_accounts, recent_events, digital_assets, apec_stance, related_entities cleaned (2026-04-16)"
+    "quotes": [
+      {
+        "title": "A*STAR - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Agency_for_Science,_Technology_and_Research"
+      },
+      {
+        "title": "A*STAR - Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡科技研究局"
+      },
+      {
+        "title": "A*STAR Official Website",
+        "url": "https://www.a-star.edu.sg"
+      },
+      {
+        "title": "A*STAR COS 2026 Announcements",
+        "url": "https://www.a-star.edu.sg/News/astarNews/news/cos/committee-of-supply-cos2026"
+      },
+      {
+        "title": "A*STAR Leadership - Beh Kian Teik",
+        "url": "https://www.a-star.edu.sg/about/corporate-profile/people/beh-kian-teik"
+      },
+      {
+        "title": "A*STAR Board Members",
+        "url": "https://www.a-star.edu.sg/about/corporate-profile/board-members"
+      },
+      {
+        "title": "A*STAR and Halliburton NEX Lab Launch",
+        "url": "https://www.a-star.edu.sg/artc/news-events/news-events/2026/official-launch-of-the-next-generation-energy-xccelerator-joint-lab-(nex-lab)"
+      },
+      {
+        "title": "Singapore RIE2030 Plan - Straits Times",
+        "url": "https://www.straitstimes.com/singapore/singapore-commits-record-37-billion-to-drive-research-innovation-and-enterprise-over-the-next-five"
+      },
+      {
+        "title": "A*STAR RIE2030 - LinkedIn",
+        "url": "https://www.linkedin.com/pulse/astar-rie2030-sharpening-research-strategic-impact-astarsg-va2jc"
+      },
+      {
+        "title": "Prof Andy Hor - A*STAR Profile",
+        "url": "https://www.a-star.edu.sg/about/corporate-profile/people/andy-hor"
+      }
+    ],
+    "completeness_score": 92,
+    "notes": "Phase 3 enriched: updated key_people (added Chairman Tan Chorh Chuan, corrected DCE Research to Andy Hor), rewrote departments with actual BMRC/SERC/A*GA/Enterprise structure, added comprehensive recent_events (RIE2030, semiconductor flagship, NEX Lab), expanded core_business and apec_stance, corrected founded_date to 2002-01-05, updated digital_assets, enriched related_entities, corrected name_original to English"
   }
 }

@@ -1,0 +1,286 @@
+{
+  "org_id": "AU-CORP-009",
+  "basic_info": {
+    "name_original": "CSL Limited",
+    "name_zh": "CSL有限公司",
+    "name_en": "CSL Limited",
+    "aliases": [
+      "CSL",
+      "CSL Ltd",
+      "Commonwealth Serum Laboratories",
+      "ASX:CSL"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed",
+    "country_iso3": "AUS",
+    "hq_country_iso3": "AUS",
+    "founded_date": "1916-04-01",
+    "website": "https://www.csl.com"
+  },
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "CSL",
+      "url": "https://www.linkedin.com/company/csl-limited",
+      "source": "official_website"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@CSL",
+      "url": "https://x.com/CSL",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "CSL",
+      "url": "https://www.youtube.com/@CSLLimited",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "CSL",
+      "url": "https://www.facebook.com/CSLLimited",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "csl",
+      "url": "https://www.instagram.com/csl/",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "CSL官网",
+      "url": "https://www.csl.com",
+      "description": "CSL Limited官方网站，提供公司概况、业务介绍和投资者信息",
+      "source": "official_website"
+    },
+    {
+      "name": "CSL投资者关系页面",
+      "url": "https://investors.csl.com",
+      "description": "财务报告、年报、公告和投资者简报",
+      "source": "official_website"
+    },
+    {
+      "name": "CSL Behring官网",
+      "url": "https://www.cslbehring.com",
+      "description": "CSL Behring业务部门官网，提供生物治疗产品信息",
+      "source": "official_website"
+    },
+    {
+      "name": "CSL Seqirus官网",
+      "url": "https://www.seqirus.com",
+      "description": "CSL Seqirus流感疫苗业务官网",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "AU-PERSON-000041",
+      "name": "戈登·纳尔 (Gordon Naylor)",
+      "title": "临时首席执行官兼常务董事",
+      "title_description": "Interim CEO & Managing Director，2026年2月11日起就任",
+      "description": "CSL资深高管，在CSL工作超过33年，曾领导CSL Seqirus流感疫苗业务和全球运营。2026年2月接替突然退休的Paul McKenzie出任临时CEO"
+    },
+    {
+      "person_id": "AU-PERSON-000042",
+      "name": "布莱恩·麦克纳米 (Brian McNamee)",
+      "title": "董事会主席",
+      "title_description": "Chair of the Board，2018年10月起任主席，2018年2月加入董事会",
+      "description": "曾于1990-2013年担任CSL CEO，将CSL从政府实验室转型为全球生物技术巨头。McNamee拥有深厚的生物制药行业经验"
+    },
+    {
+      "person_id": "AU-PERSON-000043",
+      "name": "肯·林 (Ken Lim)",
+      "title": "首席财务官",
+      "title_description": "Chief Financial Officer，负责集团财务管理和投资者关系",
+      "description": "在CSL担任CFO，负责集团全球财务战略、财务报告和资本配置"
+    },
+    {
+      "person_id": "AU-PERSON-000044",
+      "name": "保罗·麦肯齐 (Paul McKenzie)",
+      "title": "前首席执行官兼常务董事（已离任）",
+      "title_description": "Former CEO & Managing Director，2023年上任，2026年2月10日退休",
+      "description": "在CSL工作七年，担任CEO约三年。任期内经历了疫情后复苏挑战和股价大幅下跌，2026年2月突然退休离任"
+    }
+  ],
+  "departments": [
+    {
+      "name": "CSL Behring (CSL贝林)",
+      "dept_id": "AU-CORP-009-DEPT-001",
+      "head": null,
+      "description": "全球生物治疗业务部门，专注于开发和生产用于治疗罕见病和严重疾病的免疫球蛋白、白蛋白和凝血因子等血浆衍生产品，总部位于美国宾夕法尼亚州",
+      "parent_dept_id": null
+    },
+    {
+      "name": "CSL Plasma (CSL血浆采集)",
+      "dept_id": "AU-CORP-009-DEPT-002",
+      "head": null,
+      "description": "全球最大血浆采集网络之一，在美国和欧洲运营超过300个血浆采集中心，为CSL Behring提供关键原料",
+      "parent_dept_id": "AU-CORP-009-DEPT-001"
+    },
+    {
+      "name": "CSL Seqirus (CSL赛科瑞斯)",
+      "dept_id": "AU-CORP-009-DEPT-003",
+      "head": null,
+      "description": "全球第二大流感疫苗供应商，提供季节性流感疫苗和 pandemic 应急响应能力，运营细胞培养和基于鸡蛋的疫苗生产设施",
+      "parent_dept_id": null
+    },
+    {
+      "name": "CSL Vifor (CSL维福)",
+      "dept_id": "AU-CORP-009-DEPT-004",
+      "head": null,
+      "description": "2022年以117亿澳元收购Vifor Pharma后成立的业务部门，专注于肾脏病和缺铁性疾病治疗产品",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Global Operations (全球运营部)",
+      "dept_id": "AU-CORP-009-DEPT-005",
+      "head": null,
+      "description": "负责CSL全球制造和供应链运营，包括血浆产品、疫苗和生物制剂的生产设施管理",
+      "parent_dept_id": null
+    },
+    {
+      "name": "R&D (研发部)",
+      "dept_id": "AU-CORP-009-DEPT-006",
+      "head": null,
+      "description": "负责CSL全球研发管线，涵盖免疫学、血液学、呼吸系统和移植医学等治疗领域的药物发现和临床开发",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-10-15",
+      "title": "CSL年度股东大会下调业绩指引",
+      "description": "CSL在2025年AGM上削减了业绩指引，令投资者失望。CEO Paul McKenzie承认公司面临多重挑战，包括血浆采集成本上升和Vifor整合困难",
+      "impact": "股价在AGM后持续承压，市场对CSL增长前景信心下降",
+      "source": "https://www.abc.net.au/news/2026-02-10/asx-markets-business-live-news-feb-10-2026/106322382"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "CEO Paul McKenzie突然退休，Gordon Naylor出任临时CEO",
+      "description": "CSL董事会宣布Paul McKenzie立即退休，由在CSL工作33年的资深高管Gordon Naylor出任临时CEO。董事长Brian McNamee表示'现在是新领导层推动CSL战略转型的合适时机'。此决定令市场震惊，距AGM上表达对McKenzie的完全支持仅数月",
+      "impact": "CSL股价暴跌至8年新低，单日跌幅显著。市场对领导层突然变动的透明度提出质疑",
+      "source": "https://www.reuters.com/business/healthcare-pharmaceuticals/australian-biotech-firm-csl-ceo-paul-mckenzie-retire-2026-02-10/"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "CSL公布2026上半财年业绩，净利润暴跌81%",
+      "description": "CSL公布截至2025年12月31日的上半财年业绩：收入83亿美元（同比下降4%），NPATA为19亿美元（同比下降7%），但报告NPAT因一次性重组和减值费用暴跌81%。公司维持全年收入增长2-3%和NPATA增长4-7%的指引",
+      "impact": "业绩数据反映CSL正处于深度转型期，但管理层维持全年指引表明对下半年恢复增长有信心",
+      "source": "https://investors.csl.com/pdf/753b8b95-2309-44f3-83e6-d796717a5575/CSL-Half-Year-Results-Announcement.pdf"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "CSL扩大股票回购计划",
+      "description": "尽管业绩承压，CSL宣布扩大股票回购计划，以支撑股价并回馈股东。此举被市场解读为管理层认为公司股票被低估",
+      "impact": "在一定程度上缓解了市场恐慌情绪，但股价仍在低位徘徊",
+      "source": "https://www.fool.com.au/2026/02/11/csl-half-year-earnings-profit-drops-but-guidance-reaffirmed/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "CSL Behring (CSL贝林)",
+      "org_type": "CORP",
+      "org_description": "CSL核心生物治疗业务部门，全球领先的免疫球蛋白和白蛋白供应商",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "CSL Seqirus (CSL赛科瑞斯)",
+      "org_type": "CORP",
+      "org_description": "全球第二大流感疫苗供应商，CSL旗下疫苗业务部门",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "CSL Vifor (CSL维福)",
+      "org_type": "CORP",
+      "org_description": "2022年CSL以117亿澳元收购的瑞士制药公司，专注肾脏病和缺铁治疗",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "AU-FIN-005",
+      "org_name": "Australian Securities Exchange (澳大利亚证券交易所)",
+      "org_type": "FIN",
+      "org_description": "CSL在ASX上市交易，股票代码CSL，是ASX最大的医疗健康板块公司之一",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "Therapeutic Goods Administration (治疗商品管理局)",
+      "org_type": "GOV",
+      "org_description": "澳大利亚药品监管机构，负责审批CSL在澳大利亚的产品上市许可",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "Takeda Pharmaceutical (武田药品工业)",
+      "org_type": "CORP",
+      "org_description": "日本制药巨头，在免疫球蛋白和疫苗市场与CSL竞争",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "Grifols (基立福)",
+      "org_type": "CORP",
+      "org_description": "西班牙血浆衍生产品公司，CSL Behring在全球血浆市场的直接竞争对手",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "CSL Limited是全球领先的生物技术公司，总部位于澳大利亚墨尔本Parkville。公司成立于1916年，前身为联邦血清实验室（Commonwealth Serum Laboratories），1994年在ASX上市。CSL的核心业务包括三大板块：（1）CSL Behring——开发和生产用于治疗原发性免疫缺陷、血友病和其他罕见病的血浆衍生生物治疗产品，是全球最大的免疫球蛋白供应商之一；（2）CSL Seqirus——全球第二大季节性流感疫苗供应商，具备pandemic应急疫苗生产能力；（3）CSL Vifor——2022年以117亿澳元收购Vifor Pharma后成立，专注肾脏病和缺铁性疾病治疗。CSL在全球拥有超过32,000名员工，业务遍布60多个国家，在澳大利亚、美国、德国和瑞士等地设有主要研发和制造设施。公司在ASX的市值约为830亿澳元，是澳大利亚最大的生物制药企业。",
+  "industries": [
+    "biotechnology",
+    "pharmaceuticals",
+    "healthcare"
+  ],
+  "apec_stance": "CSL Limited作为亚太地区最大的生物技术公司之一，在APEC区域的公共卫生和生物制药供应链中扮演重要角色。公司在澳大利亚、日本、中国和东南亚等APEC经济体拥有重要业务布局。CSL Seqirus是亚太地区流感疫苗供应的关键参与者，在历次pandemic（包括COVID-19）中为区域疫苗供应做出贡献。CSL Behring的免疫球蛋白产品在日本、韩国和中国等市场具有战略重要性，满足罕见病患者群体的关键治疗需求。CSL在中国市场通过CSL Behring和CSL Vifor的产品组合不断扩大影响力，并积极参与中国罕见病治疗领域的合作。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/CSL_Limited_logo.svg/220px-CSL_Limited_logo.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 92,
+    "quotes": [
+      {
+        "title": "CSL Limited - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/CSL_Limited"
+      },
+      {
+        "title": "CSL Official Website - Our Leadership",
+        "url": "https://www.csl.com/we-are-csl/our-leadership"
+      },
+      {
+        "title": "CSL Investors - Financial Results",
+        "url": "https://investors.csl.com/investors/financial-results-and-information"
+      },
+      {
+        "title": "Paul McKenzie retires, Gordon Naylor appointed interim CEO - CSL Investors",
+        "url": "https://investors.csl.com/pdf/34e826de-672e-4027-b147-b647bb4aa602/Paul-McKenzie-retires-Gordon-Naylor-appointed-interim-CEO.pdf"
+      },
+      {
+        "title": "CSL Half Year Results Announcement FY2026",
+        "url": "https://investors.csl.com/pdf/753b8b95-2309-44f3-83e6-d796717a5575/CSL-Half-Year-Results-Announcement.pdf"
+      },
+      {
+        "title": "CSL CEO Paul McKenzie quits, sending shares plummeting - AFR",
+        "url": "https://www.afr.com/companies/healthcare-and-fitness/csl-dumps-ceo-after-horror-year-triggering-market-sell-down-20260210-p5o152"
+      },
+      {
+        "title": "Australia's CSL turns to ex-vaccine division head after CEO McKenzie retires - Reuters",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/australian-biotech-firm-csl-ceo-paul-mckenzie-retire-2026-02-10/"
+      }
+    ],
+    "notes": "Skeleton data was corrupted (showed 'Friedrich Rudolf von Rothenburg', a Wikidata person entity). Fully rebuilt from verified sources. CEO transition: Paul McKenzie retired Feb 10, 2026; Gordon Naylor appointed interim CEO Feb 11, 2026."
+  }
+}
