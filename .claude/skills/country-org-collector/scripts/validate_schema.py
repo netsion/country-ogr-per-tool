@@ -340,7 +340,8 @@ def calc_org_score(data):
             filled += weight if len(val) >= 100 else weight // 2
 
     total += 2
-    if (data.get("profile") or {}).get("source_url"):
+    profile = data.get("profile")
+    if isinstance(profile, dict) and profile.get("source_url"):
         filled += 2
 
     return min(round(filled / total * 100), 100) if total > 0 else 0
@@ -383,7 +384,8 @@ def calc_person_score(data):
     total += 2
     if data.get("wikidata_qid"):
         filled += 1
-    if (data.get("profile") or {}).get("source_url"):
+    profile = data.get("profile")
+    if isinstance(profile, dict) and profile.get("source_url"):
         filled += 1
 
     return min(round(filled / total * 100), 100) if total > 0 else 0
@@ -573,7 +575,9 @@ def validate_person_profile(data, filepath):
             r.error(f"political_stances[{i}].stance_content is empty or using wrong field name (not 'stance')")
 
     for i, ach in enumerate(data.get("major_achievements", [])):
-        if not ach.get("achievement"):
+        if isinstance(ach, str):
+            r.warn(f"major_achievements[{i}] is a string, expected object {{date, achievement, organization}}")
+        elif not ach.get("achievement"):
             r.warn(f"major_achievements[{i}].achievement is empty")
 
     meta = data.get("collection_meta", {})

@@ -70,15 +70,14 @@ description: 系统化收集、整理和分析指定国家的重点组织机构�
 
 ```
 工具：Agent（subagent_type: "general-purpose"）
-prompt 结构：
-  1. 角色定义（你是组织/人物信息丰富 Agent）
-  2. 任务目标（org_id/name/completeness 目标）
-  3. 文件路径（输入骨架 + 输出位置 + schema 路径）
-  4. 搜索策略（§13.2 / §14.2）
-  5. 字段名约束（§13.3 / §14.3）
-  6. 写入后验证指令（validate_schema.py）
-  7. 网络配置提醒（代理 + User-Agent）
-  8. 工具选择策略（首选 mcp__search-read，备选 WebSearch）
+
+P3（组织丰富）：主会话构建完整 inline prompt，包含搜索策略、字段约束、验证指令。
+  → 详见 §13.3 prompt 模板
+
+P4（人物收集）：主会话构建含执行步骤的 prompt（~800字符），子代理自行读取外部规则文件。
+  prompt 内容见 §14.2 模板
+  外部规则文件：person_collection_rules.md（字段名约束、语言规范、枚举值、自检清单）
+  执行步骤（读文件→搜索→写入→验证）和具体路径由主会话 prompt 内联提供，无需模板变量替换
 ```
 
 ### 并行控制（仅 P3）
@@ -790,7 +789,7 @@ python .claude/skills/country-org-collector/scripts/update_person_list.py output
    }
 2. WHILE remaining 不为空:
    a. 从 remaining 中取 1 个 person_id
-   b. 为该人物构建子代理 prompt（§14.3）
+   b. 为该人物构建子代理 prompt（§14.2）
    c. 派发 Agent 调用
    d. 等待子代理返回
    e. 如子代理失败（API 错误/超时）→ 重试 1 次（相同 prompt）
@@ -800,212 +799,57 @@ python .claude/skills/country-org-collector/scripts/update_person_list.py output
       python .claude/skills/country-org-collector/scripts/generate_name_index.py output/{iso}/{date}
    h. 更新 _phase_progress.json
    i. 报告进度
-3. 全部完成后执行质量门禁检查（§14.4）
+3. 全部完成后执行质量门禁检查（§14.3）
 ```
 
-## 14.2 搜索策略参考（子代理内部执行）
+## 14.2 子代理 Prompt 模板（外部化）
 
-**多语言搜索策略**：按目标国语言 → 英语 → 中文顺序搜索。
-
-**搜索关键词模板**（按字段类型）：
-
-| 字段 | 英语搜索 | 目标国语言搜索 |
-|------|---------|--------------|
-| biography | `{name_en} biography career` | `{name_local} 프로필 약력` (韩) / `{name_local} プロフィール 経歴` (日) |
-| education | `{name_en} education university degree` | `{name_local} 학력 출신대학` (韩) |
-| career | `{name_en} career history appointment` | `{name_local} 경력 발탁` (韩) |
-| family | `{name_en} family spouse children` | `{name_local} 가족 배우자` (韩) |
-| stance | `{name_en} policy stance speech` | `{name_local} 정책 입장` (韩) |
-| social | `{name_en} site:linkedin.com` 等 | — |
-
-**社交媒体搜索模板**（对每个人物必做）：
-
-```
-"{name_en}" site:facebook.com
-"{name_en}" site:twitter.com OR site:x.com
-"{name_en}" site:linkedin.com
-"{name_en}" site:instagram.com
-"{name_en}" site:tiktok.com
-"{name_en}" site:youtube.com
-```
-
-### 高价值官方来源
-
-| 来源 | 适用人物 | URL 模式 |
-|------|---------|---------|
-| 政府名录 | 政府官员 | 该国政府名录网站（如 sgdi.gov.sg） |
-| 议会名录 | 国会议员 | 该国议会官网议员名录 |
-| 国防部 Leadership | 军方将领 | 该国国防部官网 |
-| 大学官网 Leadership | 学术领袖 | {university}.edu.*/about/leadership |
-| 官网 leadership 页 | 企业高管 | 企业官网 leadership/team 页 |
-
-### 中文名获取优先级
-
-当 `name_zh` 为空时：
-1. Wikidata `zh` label
-2. Wikipedia 中文版 sitelink
-3. 该国华文媒体报道
-4. Web 搜索 `{person_name} 中文名`
-
-> **⚠️ 非中文母语国家人名**：不得使用大陆新华社音译，必须使用目标国家本地华文媒体标准译名。详见 `malay_name_zh_guide.md`。
-
-## 14.3 子代理 Prompt 模板
+> **架构决策**：字段约束、语言规范、枚举值等规则存储在 `person_collection_rules.md`，子代理自行读取。执行步骤和具体路径由主会话 prompt 内联提供（~800字符），不依赖子Agent做模板变量替换。
+>
+> **原因**：主会话在批量派发大量子代理后会发生上下文压缩，导致内联规则被截断或丢失（实测 prompt 从4086字符衰减至1243字符）。外部化规则文件后子代理始终读取完整规则。执行步骤内联是为了避免子Agent心智替换模板变量出错。
 
 主会话为每个人物构建以下 prompt，通过 Agent 工具派发：
 
 ```
 你是人物信息调查 Agent。任务：为 {person_id}（{name_en}）生成高质量画像。
 
-第一步：读取当前人物文件
-  文件路径：{filepath}
-  如文件已存在，读取后了解当前字段状态；如不存在，创建新文件。
+第一步：读取必要文件（不可跳过）
+1. 字段规则手册：.claude/skills/country-org-collector/person_collection_rules.md
+2. Schema定义：.claude/skills/country-org-collector/person_profile_schema.json
+3. 当前人物文件（如已存在）：{filepath}
+4. ID映射索引：{output_dir}/_name_index.json
 
-第二步：多语言搜索（按此顺序）
-1. 目标国语言：{name_local} + 关键词
-2. 英语：{name_en} + 关键词
-3. 中文：{name_zh} + 关键词
+第二步：搜索并获取详情
+1. 按 person_collection_rules.md 搜索策略执行多语言搜索（mcp__search-read__search 首选）
+2. 对搜索结果中的高价值页面，使用 mcp__search-read__read_url 读取全文
+3. 至少读取 3 个不同来源的完整页面（如 Wikipedia、议会名录、官方页面）
 
-必做字段（按优先级）：
-1. biography_summary — 中文生平概述（200字+）
-2. work_experience — 完整职业履历（≥3条，含起止日期）
-3. education — 学历信息（院校、学位、专业）
-4. political_stances — 政治立场（含 source URL）
-5. person_relationships — 人际关系网络（含 person_id 交叉引用）
-6. social_accounts — 社交媒体（LinkedIn/Twitter/Facebook/Instagram/Tiktok/Youtube）
-7. family_members — 家庭信息（relationship 必须使用 enum 值：spouse/son/daughter 等；name 必须是真实姓名，搜不到则不写入该条）
-8. major_achievements — 主要成就
+第三步：组装画像并写入 {filepath}
+严格遵循 person_collection_rules.md 中的字段名约束、语言规范、枚举值、自检清单。
 
-⚠️ 字段名严格约束（写入前逐条对照）：
+collection_meta 规范：
+- phase = "phase4_person_profile"
+- collection_date = 当天日期
+- quotes = [{"title": "...", "url": "..."}]（对象数组，禁止纯字符串数组或空数组）
+- data_sources = 本次实际使用的来源类型
 
-精确字段名（不可自创）：
-work_experience[]:      start_date | end_date | organization | org_id | position
-education[]:            institution | degree | field | start_date | end_date
-political_stances[]:    date | topic | stance_content | source
-person_relationships[]: person_id | person_name | relationship_type | description
-major_achievements[]:   date | achievement | organization
-social_accounts[]:      platform | account_name | url | source
-family_members[]:       person_id | name | relationship | industry_or_organization
-contacts[]:             type | value | source
+第四步：写入后验证（不可跳过）
+python .claude/skills/country-org-collector/scripts/validate_schema.py {output_dir} --file {filepath}
+如有 ERRORS → 修复 → 重新验证 → 直到 0 errors。
+python .claude/skills/country-org-collector/scripts/validate_schema.py {output_dir} --file {filepath} --score
 
-⚠️ 字段语言规范（遵循 §7 三种格式：中文 / 中文(本国官方语言) / 本国官方语言）：
-- name → 本国官方语言（如"Nguyễn Thị Phương Thảo"、"이재명"、"Lawrence Wong"）。不附加中文或英文名
-- name_zh → 中文译名（如"阮氏芳草"、"李在明"）。非中文母语人名须使用该国本地华文媒体标准译法
-- name_en → 英文名（如"Nguyen Thi Phuong Thao"、"Lee Jae-myung"）
-- biography_summary → 中文（200字+）
-- current_positions[] → 中文（如"外交部副部长"）
-- work_experience[].position → 中文（如"经济政策局局长"）
-- work_experience[].organization → 中文(本国官方语言)（如"外交部 (Bộ Ngoại giao)"、"三星电子 (삼성전자)"）
-- work_experience[].org_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
-- education[].institution → 中文(本国官方语言)（如"首尔大学 (서울대학교)"、"河内国家大学 (ĐHQG Hà Nội)"）
-- education[].field → 中文（如"经济学"）
-- political_stances[].topic → 中文（如"半导体产业政策"）
-- political_stances[].stance_content → 中文
-- person_relationships[].person_name → 中文(本国官方语言)（如"黎明兴 (Lê Minh Hưng)"、"李在明 (이재명)"）
-- person_relationships[].description → 中文
-- person_relationships[].person_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
-- family_members[].name → 中文(本国官方语言)（如"阮氏金 (Nguyễn Thị Kim)"）。必须是真实全名
-- family_members[].person_id → 已知用 ID，未知用 null。❌ 禁止 `""` 空字符串
-- family_members[].industry_or_organization → 中文（如"越南外交部"）
-- major_achievements[].achievement → 中文
-- major_achievements[].organization → 中文(本国官方语言)（如"大韩民国国会 (대한민국 국회)"）
-- 括号方向规则：中文在前，括号附本国官方语言。❌ 禁止本地语言在前："이재명 (李在明)"
-- social_accounts[].platform 保留英文枚举值
-- 所有 URL 保留原样
+铁律：禁止编造信息，搜索不到则留空。重要信息至少2个独立来源确认。
 
-常见错误对照表：
-| 路径 | ✅ 正确 | ❌ 错误 |
-|------|---------|---------|
-| political_stances[] 立场内容 | `stance_content` | stance, position, content |
-| major_achievements[] 成就描述 | `achievement` | description, title, content |
-| person_relationships[] 人物ID/名 | `person_id` / `person_name` | related_person, related_person_name, name |
-| person_relationships[] 关系类型 | `relationship_type` | relationship |
-| social_accounts[] 平台 | `twitter_x` (小写英文) | "Facebook", "X (Twitter)", "Instagram" |
-| family_members[] 关系 | `spouse` (英文 enum) | "妻子", "配偶", "儿子", "父亲" |
+完成后返回：person_id、最终 completeness_score、搜索来源数、各字段条目数。
 
-枚举值速查（只列易错项，完整列表见 person_profile_schema.json）：
-- social_accounts[].platform: twitter_x | facebook | instagram | youtube | linkedin | telegram | tiktok | threads | wechat | weibo | other
-- family_members[].relationship: spouse | father | mother | son | daughter | brother | sister | grandfather | grandmother | uncle | aunt | cousin | other
-- person_relationships[].relationship_type: spouse | parent | child | sibling | mentor | mentee | colleague | superior | subordinate | political_ally | political_rival | associate | other
-- education[].degree: primary | secondary | high_school | associate | bachelor | master | doctorate | professional | other | null
-- contacts[].type: email | phone | fax | website | other
-
-⚠️ 数据清洗高频反模式（本轮收集 380 文件审计发现的问题）：
-
-| 反模式 | ✅ 正确写法 | ❌ 错误写法 |
-|--------|-----------|-----------|
-| degree 用中文/非标准值 | `"bachelor"` / `null` | `"学士"`, `"학사"`, `"undergraduate"`, `"dropped_out"` |
-| degree 高中阶段 | `"high_school"` | `"middle_school"`, `"secondary"` |
-| contact type 非标准 | `"phone"` / `"email"` / `"other"` | `"office_phone"`, `"office_room"`, `"homepage"`, `"address"` |
-| contact type 网站 | `"website"` | `"homepage"`, `"url"` |
-| platform 大写/变体 | `"twitter_x"` / `"facebook"` | `"Twitter"`, `"X (Twitter)"`, `"Facebook"`, `"Naver Blog"` |
-| platform 博客/IM | `"other"` | `"Naver blog"`, `"Blog"`, `"KakaoTalk"`, `"Kakao"` |
-| relationship_type 中文 | `"colleague"` / `"superior"` | `"同僚"`, `"上司"`, `"政治盟友"`, `"政治对手"` |
-| relationship_type 复合词 | `"political_ally"` / `"political_rival"` | `"政治上级/特别辅佐"`, `"政治同僚"` |
-| work_experience 日期范围 | `start_date` + `end_date` 各自独立 | `"1998-2002"` 写在单个字段里 |
-| nationality 非标准 | `"KR"` / `"JP"` / `"US"` | `"韩国"`, `"日本"`, `"大韩民国"` |
-| top-level 多余字段 | 仅用 schema 定义的字段 | `photo_url`, `importance_level`, `party`, `role` 等自创字段 |
-| org_id / person_id | `"KR-PARTY-001"` / `null` | `""` (空字符串) |
-| person name 格式 | `"Nguyễn Thị Phương Thảo"` / `"이재명"` (本国官方语言) | `"阮氏芳草 (Nguyễn Thị Phương Thảo)"` / `"李在明 (이재명)"` (中文开头) |
-| person_relationships person_name | `"黎明兴 (Lê Minh Hưng)"` (中文在前) | `"Lê Minh Hưng"` (纯本地语言) / `"黎明兴"` (纯中文) |
-
-写入后自检清单（在写文件前逐条验证）：
-1. name 是否为本国官方语言？"阮氏芳草 (Nguyễn Thị Phương Thảo)" → "Nguyễn Thị Phương Thảo"
-2. name_zh 是否为纯中文？"Nguyễn Thị Phương Thảo" → "阮氏芳草"
-3. person_relationships[].person_name / family_members[].name 是否为"中文(本国官方语言)"格式？
-4. work_experience[].organization / education[].institution 是否为"中文(本国官方语言)"格式？
-5. 所有 degree 值是否在枚举列表内？中文/韩文 degree → 改为英文 enum 或 null
-6. 所有 platform 值是否小写英文枚举？"Facebook" → "facebook"
-7. 所有 contacts[].type 是否在枚举列表内？"office_phone" → "phone"
-8. nationality 是否为 ISO 3166-1 alpha-2？"韩国" → "KR"
-9. 是否存在非 schema 定义的 top-level 字段？有则删除
-10. 所有日期字段是否独立（非范围格式）？"1998-2002" → start_date="1998", end_date="2002"
-
-必填字段禁止为空（无法填写则整条记录删除，不要写入空壳条目）：
-- `person_relationships[].person_name` — 不知道名字就不写这条关系
-- `family_members[].name` — 必须是真实全名，使用中文(本国官方语言)格式（如"金惠京 (Kim Hye-kyung)"、"阮氏金 (Nguyễn Thị Kim)"）。以下均为无效占位符，出现任何一种则删除该条：`未公开`、`姓名未公开`、`不详`、`未知`、纯关系词（`配偶`/`长子`/`次子`/`长女`/`次女`/`父亲`/`母亲`/`儿子`/`女儿`/`三子`）、仅姓氏（`李氏`/`赵氏`/`韩氏`）、括号描述（`（一子）`/`（妻子）`/`（长女）`）、关系+出生信息（`长女（2006年出生）`/`长子（约1994年生）`）。不确定姓名就宁可不写这条。
-- `political_stances[].stance_content` — 没有内容就不写这条
-- `major_achievements[].achievement` — 没有描述就不写这条
-
-ID 规则：
-1. 读取 {output_dir}/_name_index.json 获取已知实体 ID 映射
-2. 逐条检查每个 organization / person_name 是否在 index 中
-3. 命中 → 使用对应 ID（如 `"KR-PARTY-001"`）
-4. 未命中 → org_id / person_id 写 `null`（JSON null，❌ 禁止 `""` 空字符串）
-5. 禁止自创 ID 格式（不要写 KR-ORG-xxx 或 KR-PERSON-NEW 等非标准格式）
-
-查表示例：
-  _name_index.json 中有 `{"共同民主党": "KR-PARTY-001", "더불어민주당": "KR-PARTY-001"}`
-  → work_experience 中 organization="共同民主党 (더불어민주당)" 的 org_id 应为 `"KR-PARTY-001"`
-  _name_index.json 中有 `{"이재명": "KR-PERSON-000098", "李在明": "KR-PERSON-000098"}`
-  → person_relationships 中 person_name="李在明 (이재명)" 的 person_id 应为 `"KR-PERSON-000098"`
-  → person 档案的 name 字段应为 `"이재명"`（本国官方语言），name_zh 应为 `"李在明"`（中文）
-
-完成后报告：列出所有命中的 ID 映射（如"共同民主党 → KR-PARTY-001，이재명 → KR-PERSON-000098"），未命中的写明"未命中→null"。
-
-第三步：将完整画像写入文件路径 {filepath}
-
-写入前更新 collection_meta：
-- `collection_meta.quotes` = 来源URL列表，**必须是对象数组**，每条含 title 和 url：
-  ```json
-  [{"title": "Lee Jae-myung - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lee_Jae-myung"},
-   {"title": "이재명 - Korean Wikipedia", "url": "https://ko.wikipedia.org/wiki/이재명"}]
-```
-  ❌ 禁止写成纯字符串数组 `["url1", "url2"]`
-  ❌ 禁止留空 `[]`
-- `collection_meta.data_sources` 补充本次实际使用的来源类型
-
-写入后必须执行（不可跳过）：
-1. 运行 `python .claude/skills/country-org-collector/scripts/validate_schema.py {output_dir} --file {filepath}`
-2. 如有 ERRORS → 修复 → 重新验证 → 直到 0 errors
-3. 运行 `python .claude/skills/country-org-collector/scripts/validate_schema.py {output_dir} --file {filepath} --score` 更新 completeness_score
-
-交叉验证：重要信息需至少 2 个独立来源确认。
-禁止编造：搜索不到的信息留空，绝不猜测。
-
-完成后返回：person_id、最终 completeness_score、搜索来源数量、是否有字段缺失。
+任务参数：
+- person_id: {person_id}
+- name_en: {name_en}
+- name_zh: {name_zh}
+- name_local: {name_local}
 ```
 
-## 14.4 质量门禁
+## 14.3 质量门禁
 
 每批人物完成后，主会话检查：
 
@@ -1020,7 +864,7 @@ ID 规则：
 | major_achievements 格式 | 0 错误 | 确保为 `{date, achievement}` |
 | political_stances 格式 | 0 错误 | 确保为 `{topic, stance_content, source}` |
 
-## 14.5 进度持久化
+## 14.4 进度持久化
 
 Phase 4 开始时，主会话创建或复用 `_phase_progress.json`：
 
@@ -1043,7 +887,7 @@ Phase 4 开始时，主会话创建或复用 `_phase_progress.json`：
 - 中断恢复时：读取 `remaining` 列表跳过已完成项
 - Phase 完成后可删除此文件或保留作为审计记录
 
-## 14.6 限速规则
+## 14.5 限速规则
 
 单人物收集耗时约 5-8 分钟。串行执行，无并行。
 

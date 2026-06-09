@@ -21,7 +21,7 @@ import urllib.parse
 
 from atomic_write import save_json, load_json, setup_proxy
 
-RATE_LIMIT = 2  # seconds between API calls
+RATE_LIMIT = 5  # seconds between API calls
 
 
 def fetch_entity(qid):
