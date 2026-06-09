@@ -1,0 +1,288 @@
+{
+  "org_id": "AU-MIL-002",
+  "basic_info": {
+    "name_original": "Royal Australian Navy",
+    "name_zh": "皇家澳大利亚海军",
+    "name_en": "Royal Australian Navy",
+    "aliases": [
+      "RAN",
+      "Commonwealth Naval Forces",
+      "CNF",
+      "Australia Navy"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "AUS",
+    "hq_country_iso3": "AUS",
+    "founded_date": "1901-03-01",
+    "website": "https://www.navy.gov.au/"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "Australian_Navy",
+      "url": "https://x.com/Australian_Navy",
+      "source": "https://www.navy.gov.au/social-media"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "RoyalAustralianNavy",
+      "url": "https://www.facebook.com/RoyalAustralianNavy/",
+      "source": "https://www.navy.gov.au/social-media"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "royalaustraliannavy",
+      "url": "https://www.instagram.com/royalaustraliannavy/",
+      "source": "https://www.navy.gov.au/social-media"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Royal Australian Navy",
+      "url": "https://www.linkedin.com/company/royal-australian-navy",
+      "source": "https://www.navy.gov.au/social-media"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "RoyalAustralianNavy",
+      "url": "https://www.youtube.com/user/royalaustraliannavy",
+      "source": "https://www.navy.gov.au/social-media"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Royal Australian Navy Official Website",
+      "url": "https://www.navy.gov.au/",
+      "description": "皇家澳大利亚海军官方网站，提供舰队信息、招录及新闻",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "Navy News",
+      "url": "https://www.defence.gov.au/news-events/navy-news",
+      "description": "澳大利亚海军新闻发布平台",
+      "source": "defence.gov.au"
+    },
+    {
+      "name": "Navy Careers",
+      "url": "https://www.navy.gov.au/careers",
+      "description": "海军招录信息门户",
+      "source": "navy.gov.au"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "AU-PERSON-000034",
+      "name": "马克·哈蒙德 (Mark Hammond)",
+      "title": "海军司令 (Chief of Navy)",
+      "title_description": "皇家澳大利亚海军最高指挥官",
+      "description": "海军中将，2022年7月就任海军司令。2026年4月被任命为下一任国防军司令，将于7月接任"
+    },
+    {
+      "person_id": null,
+      "name": "乔纳森·厄尔利 (Jonathan Earley)",
+      "title": "副海军司令 (Deputy Chief of Navy)",
+      "title_description": "协助海军司令管理海军日常事务",
+      "description": "海军少将"
+    },
+    {
+      "person_id": null,
+      "name": "克里斯托弗·史密斯 (Christopher Smith)",
+      "title": "澳大利亚舰队司令 (Commander Australian Fleet)",
+      "title_description": "指挥皇家澳大利亚海军所有作战舰艇",
+      "description": "海军少将"
+    },
+    {
+      "person_id": null,
+      "name": "马修·巴克利 (Matthew Buckley)",
+      "title": "核动力潜艇能力主管 (Head Nuclear-Powered Submarine Capability)",
+      "title_description": "负责AUKUS核潜艇项目",
+      "description": "海军少将，已被任命为下一任海军司令，将于2026年7月接任"
+    },
+    {
+      "person_id": "AU-PERSON-000038",
+      "name": "安德鲁·伯顿辛 (Andrew Bertoncin)",
+      "title": "海军准尉长 (Warrant Officer of the Navy)",
+      "title_description": "海军最高级别士兵",
+      "description": "海军最高级别士官"
+    }
+  ],
+  "departments": [
+    {
+      "name": "舰队司令部 (Fleet Command)",
+      "dept_id": "AU-MIL-002-DEPT-001",
+      "head": "克里斯托弗·史密斯 (Christopher Smith)",
+      "description": "负责海军所有分配资产的全权指挥，向联合行动司令部提供作战准备部队",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海军战略司令部 (Navy Strategic Command)",
+      "dept_id": "AU-MIL-002-DEPT-002",
+      "head": null,
+      "description": "负责海军训练、工程和后勤保障需求",
+      "parent_dept_id": null
+    },
+    {
+      "name": "水面部队 (Surface Force)",
+      "dept_id": "AU-MIL-002-DEPT-003",
+      "head": null,
+      "description": "覆盖海军水面作战舰艇（护卫舰及以上级别），包括3艘霍巴特级驱逐舰和7艘安扎克级护卫舰",
+      "parent_dept_id": "AU-MIL-002-DEPT-001"
+    },
+    {
+      "name": "潜艇部队 (Submarine Force)",
+      "dept_id": "AU-MIL-002-DEPT-004",
+      "head": null,
+      "description": "运营6艘科林斯级常规动力潜艇，负责反舰和情报收集任务",
+      "parent_dept_id": "AU-MIL-002-DEPT-001"
+    },
+    {
+      "name": "海军航空兵 (Fleet Air Arm)",
+      "dept_id": "AU-MIL-002-DEPT-005",
+      "head": null,
+      "description": "运营MH-60R海鹰直升机等海军航空资产，包括两个前线中队和两个训练中队",
+      "parent_dept_id": "AU-MIL-002-DEPT-001"
+    },
+    {
+      "name": "水雷战、清除潜水、水文气象和巡逻部队 (Mine Warfare, Clearance Diving, Hydrographic, Meteorological and Patrol Forces)",
+      "dept_id": "AU-MIL-002-DEPT-006",
+      "head": null,
+      "description": "运营海军小型作战舰艇，包括巡逻艇、水雷猎雷艇和水文调查船",
+      "parent_dept_id": "AU-MIL-002-DEPT-001"
+    },
+    {
+      "name": "清除潜水分队 (Clearance Diving Branch)",
+      "dept_id": "AU-MIL-002-DEPT-007",
+      "head": null,
+      "description": "包括两个清除潜水队（CDT 1和CDT 4），负责反水雷、爆炸物处理和海上战术行动",
+      "parent_dept_id": "AU-MIL-002-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-16",
+      "title": "2026年国家国防战略大幅增加海军投资",
+      "description": "新发布的国家国防战略将核动力潜艇投资提高至710-960亿澳元，并推进通用护卫舰项目",
+      "impact": "高",
+      "source": "https://www.navalnews.com/naval-news/2026/04/australian-defence-strategy-spends-big-on-submarines-frigates/"
+    },
+    {
+      "date": "2026-04-13",
+      "title": "海军司令哈蒙德被任命为下一任国防军司令",
+      "description": "总理阿尔巴尼斯宣布海军司令马克·哈蒙德中将将接替约翰斯顿上将担任国防军司令，巴克利少将将接任海军司令",
+      "impact": "高",
+      "source": "https://www.abc.net.au/news/2026-04-13/albanese-names-new-defence-force-chief/106558194"
+    },
+    {
+      "date": "2026-03-21",
+      "title": "海军125周年国际舰队检阅",
+      "description": "19国军舰驶入悉尼港参加皇家澳大利亚海军125周年国际舰队检阅活动",
+      "impact": "中",
+      "source": "https://www.facebook.com/7NEWSsydney/posts/1393230476167890"
+    },
+    {
+      "date": "2025-11-04",
+      "title": "印太海上力量会议",
+      "description": "海军司令哈蒙德在悉尼为来自50多个国家的代表正式开幕印太海上力量会议",
+      "impact": "中",
+      "source": "https://www.miragenews.com/navy-chief-launches-sea-power-2025-1566944/"
+    },
+    {
+      "date": "2025-11-06",
+      "title": "AUKUS潜艇过渡风险评估",
+      "description": "海军领导层公开承认从科林斯级向核动力潜艇过渡为高风险任务，正在进行综合方案管理",
+      "impact": "高",
+      "source": "https://www.defensenews.com/global/asia-pacific/2025/11/06/australian-navy-sizes-up-high-risk-submarine-transitions-under-aukus/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "AU-MIL-001",
+      "org_name": "澳大利亚国防军 (Australian Defence Force)",
+      "org_type": "military",
+      "org_description": "澳大利亚三军统一军事组织",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "AU-GOV-004",
+      "org_name": "澳大利亚国防部 (Department of Defence)",
+      "org_type": "government",
+      "org_description": "主管国防事务的联邦政府部门",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "AU-MIL-003",
+      "org_name": "澳大利亚陆军 (Australian Army)",
+      "org_type": "military",
+      "org_description": "澳大利亚国防军地面分支",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "AU-MIL-004",
+      "org_name": "皇家澳大利亚空军 (Royal Australian Air Force)",
+      "org_type": "military",
+      "org_description": "澳大利亚国防军空中分支",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "AU-SOE-007",
+      "org_name": "澳大利亚潜艇公司 (ASC Pty Ltd)",
+      "org_type": "soe",
+      "org_description": "澳大利亚国有潜艇和军舰建造企业，负责建造AUKUS潜艇",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "AU-GOV-006",
+      "org_name": "国防科学技术集团 (Defence Science and Technology Group)",
+      "org_type": "government",
+      "org_description": "澳大利亚国防科研机构",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "皇家澳大利亚海军是澳大利亚国防军的海上分支，负责澳大利亚的海上防御和海上利益保护。现有约16,000名现役人员和4,607名预备役人员，拥有30艘现役舰艇和14艘非现役舰艇。主要装备包括2艘堪培拉级两栖攻击舰、3艘霍巴特级驱逐舰、7艘安扎克级护卫舰、6艘科林斯级潜艇及多型巡逻艇和支援舰。当前核心战略转型包括：通过AUKUS获取核动力潜艇（2033年起接收弗吉尼亚级，2040年代初建造SSN-AUKUS级）、建造猎人级反潜护卫舰、引进日本三菱重工新型通用护卫舰。海军两大主要基地为悉尼的东舰队基地（HMAS Kuttabul）和珀斯附近的西舰队基地（HMAS Stirling）。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": "皇家澳大利亚海军通过在印太地区的持续存在部署、联合演习和海上安全合作，直接支持APEC区域的和平与稳定。海军参与多项区域行动，包括'坚决行动'（边境保护）、'曼尼托行动'（中东反海盗）、'索拉尼亚行动'（太平洋海上监视）和'门户行动'（与马来西亚联合海上巡逻）。2026年3月举办125周年国际舰队检阅，19国军舰参加。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Royal_Australian_Navy_crest.svg/120px-Royal_Australian_Navy_crest.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "navy.gov.au",
+      "defence.gov.au",
+      "abc.net.au",
+      "defensenews.com",
+      "navalnews.com",
+      "miragenews.com",
+      "pm.gov.au"
+    ],
+    "completeness_score": 100,
+    "notes": "Enriched from Wikipedia, official websites, and news sources. Original skeleton had corrupted data (Leona - unrelated name). Fully rebuilt.",
+    "quotes": [
+      {
+        "title": "Royal Australian Navy - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Royal_Australian_Navy"
+      },
+      {
+        "title": "Royal Australian Navy Official Website",
+        "url": "https://www.navy.gov.au/"
+      },
+      {
+        "title": "List of active Royal Australian Navy ships",
+        "url": "https://en.wikipedia.org/wiki/List_of_active_Royal_Australian_Navy_ships"
+      },
+      {
+        "title": "Mark Hammond (admiral) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mark_Hammond_(admiral)"
+      },
+      {
+        "title": "Navy Social Media",
+        "url": "https://www.navy.gov.au/social-media"
+      }
+    ]
+  }
+}

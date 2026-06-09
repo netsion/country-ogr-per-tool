@@ -1,7 +1,7 @@
 {
   "org_id": "SG-GOV-002",
   "basic_info": {
-    "name_original": "新加坡政府",
+    "name_original": "Government of Singapore",
     "name_zh": "新加坡政府",
     "name_en": "Government of Singapore",
     "aliases": [
@@ -15,7 +15,7 @@
     "org_subtype": "head_of_state",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": null,
+    "founded_date": "1965-08-09",
     "website": "https://www.gov.sg/"
   },
   "social_accounts": [
@@ -23,13 +23,13 @@
       "platform": "twitter_x",
       "account_name": "@govsingapore",
       "url": "https://twitter.com/govsingapore",
-      "source": "wikidata"
+      "source": "wikidata + gov.sg官网验证"
     },
     {
       "platform": "facebook",
       "account_name": "gov.sg",
       "url": "https://facebook.com/gov.sg",
-      "source": "wikidata"
+      "source": "wikidata + gov.sg官网验证"
     },
     {
       "platform": "youtube",
@@ -52,7 +52,13 @@
   ],
   "digital_assets": [
     {
-      "name": "Singpass",
+      "name": "新加坡政府官方门户",
+      "url": "https://www.gov.sg/",
+      "description": "新加坡政府官方网站，提供政策信息、公共服务入口和最新政府公告",
+      "source": "维基百科 + 官网验证"
+    },
+    {
+      "name": "Singpass（新密码通）",
       "url": "https://www.singpass.gov.sg/",
       "description": "新加坡国民数字身份认证系统，99%政府服务可通过此平台在线办理",
       "source": "web_search_2026-04-16"
@@ -64,204 +70,1076 @@
       "source": "web_search_2026-04-16"
     },
     {
-      "name": "gov.sg 官方门户",
-      "url": "https://www.gov.sg/",
-      "description": "新加坡政府官方网站，提供政策信息和公共服务入口",
-      "source": "official_website"
-    },
-    {
-      "name": "Smart Nation 2.0",
+      "name": "智慧国2.0战略报告",
       "url": "https://file.go.gov.sg/smartnation2-report.pdf",
       "description": "智慧国2.0战略报告，约99%政府服务已实现在线办理",
       "source": "web_search_2026-04-16"
     },
     {
-      "name": "SG Digital Gateway",
+      "name": "新加坡数字门户",
       "url": "https://www.digitalgateway.gov.sg/",
       "description": "新加坡数字政府服务门户，整合数字基础设施和策略平台",
       "source": "web_search_2026-04-16"
+    },
+    {
+      "name": "新加坡政府新闻中心",
+      "url": "https://www.sgpc.gov.sg/",
+      "description": "新加坡政府官方新闻发布平台，汇集各部委和机构的新闻稿及公告",
+      "source": "web_search_2026-05-08"
+    },
+    {
+      "name": "2026年财政预算案专页",
+      "url": "https://www.singaporebudget.gov.sg/",
+      "description": "新加坡2026年财政预算案官方页面，包含预算声明全文、附件及政策措施详情",
+      "source": "web_search_2026-05-08"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000005",
       "name": "黄循财 (Lawrence Wong)",
-      "title": "Prime Minister & Minister for Finance",
-      "title_description": "新加坡第四任总理兼财政部长",
-      "description": "2024年5月就任总理，2025年5月领导PAP赢得大选后组建第二届内阁"
+      "title": "总理兼财政部长",
+      "title_description": "政府首脑，领导内阁并掌管国家财政，制定和执行政府总体政策方向",
+      "description": "2024年5月15日就任第四任总理，2025年5月领导人民行动党赢得大选后组建第二届内阁。兼任财政部长。马西岭-油池集选区议员。人民行动党秘书长。"
     },
     {
-      "person_id": "SG-PERSON-000135",
+      "person_id": "SG-PERSON-000132",
       "name": "尚达曼 (Tharman Shanmugaratnam)",
-      "title": "President",
-      "title_description": "新加坡总统",
-      "description": "2023年9月就任第九任总统，国家元首"
+      "title": "总统",
+      "title_description": "国家元首，行使宪法赋予的有限自由裁量权，包括任命总理、否决特定法案和保护国家储备",
+      "description": "2023年9月就任第九任总统。曾任副总理兼经济与社会政策统筹部长。"
     },
     {
       "person_id": "SG-PERSON-000031",
       "name": "颜金勇 (Gan Kim Yong)",
-      "title": "Deputy Prime Minister",
-      "title_description": "副总理",
-      "description": "2025年5月内阁改组后担任副总理"
+      "title": "副总理兼贸易与工业部长",
+      "title_description": "协助总理处理政府事务，负责贸易和工业政策",
+      "description": "2025年5月内阁改组后担任唯一副总理，兼任贸工部长。曾任卫生部长和外交部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000021",
+      "name": "李显龙 (Lee Hsien Loong)",
+      "title": "国务资政",
+      "title_description": "前任总理，以内阁资政身份继续为政府提供经验和建议",
+      "description": "2004年至2024年担任第三任总理。2024年5月卸任后出任国务资政。"
     },
     {
       "person_id": "SG-PERSON-000098",
       "name": "尚穆根 (K. Shanmugam)",
-      "title": "Coordinating Minister for National Security & Home Affairs Minister",
-      "title_description": "国家安全统筹部长兼内政部长",
-      "description": "2025年继续担任内阁核心职务"
+      "title": "国家安全统筹部长兼内政部长",
+      "title_description": "统筹协调涉及多个部委的国家安全事务，负责内政、警务、移民和国内安全",
+      "description": "2025年继续担任内阁核心职务。自2015年起连续担任内政部长。"
     },
     {
       "person_id": "SG-PERSON-000012",
       "name": "陈振声 (Chan Chun Sing)",
-      "title": "Minister for Defence & Coordinating Minister for Public Services",
-      "title_description": "国防部长兼公共服务统筹部长",
-      "description": "2025年5月接替退休的黄永宏担任国防部长"
+      "title": "国防部长兼公共服务统筹部长",
+      "title_description": "负责国防事务和武装部队管理，统筹协调公共服务体系改革",
+      "description": "2025年5月接替退休的黄永宏担任国防部长，同时担任公共服务统筹部长。"
     },
     {
       "person_id": "SG-PERSON-000013",
       "name": "王乙康 (Ong Ye Kung)",
-      "title": "Minister for Health & Coordinating Minister",
-      "title_description": "卫生部长兼统筹部长",
-      "description": "2025年继续担任内阁职务"
+      "title": "卫生部长兼社会政策统筹部长",
+      "title_description": "负责医疗卫生政策，统筹协调社会保障、教育和人力等社会政策领域",
+      "description": "2025年继续担任内阁职务，同时担任社会政策统筹部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000026",
+      "name": "维文 (Vivian Balakrishnan)",
+      "title": "外交部长",
+      "title_description": "负责新加坡外交事务、国际关系和对外政策",
+      "description": "自2015年起连续担任外交部长。"
     },
     {
       "person_id": "SG-PERSON-000014",
       "name": "徐芳达 (Chee Hong Tat)",
-      "title": "Minister for National Development",
-      "title_description": "国家发展部长",
-      "description": "2025年内阁改组后担任该职"
+      "title": "国家发展部长",
+      "title_description": "负责城市规划、住房建设、土地使用和国家发展政策",
+      "description": "2025年内阁改组后担任该职。"
+    },
+    {
+      "person_id": "SG-PERSON-000032",
+      "name": "杨莉明 (Josephine Teo)",
+      "title": "数码发展及新闻部长",
+      "title_description": "负责数码发展政策、信息管理、智慧国计划和网络安全事务",
+      "description": "2025年继续担任内阁职务，兼任智慧国计划及网络安全主管部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000018",
+      "name": "英兰妮 (Indranee Rajah)",
+      "title": "总理公署部长兼财政部第二部长及国家发展部第二部长",
+      "title_description": "在总理公署负责特别事务，协助财政部长和国家发展部长处理相关事务",
+      "description": "同时担任国会领袖，负责策划和管理政府在国会中的立法活动。"
+    },
+    {
+      "person_id": "SG-PERSON-000025",
+      "name": "陈诗龙 (Tan See Leng)",
+      "title": "人力部长兼能源及科技主管部长",
+      "title_description": "负责劳动力政策、外籍劳工管理、就业保障，以及能源和科技事务",
+      "description": "2025年内阁改组后新增能源及科技主管部长职责。"
+    },
+    {
+      "person_id": "SG-PERSON-000015",
+      "name": "傅海燕 (Grace Fu)",
+      "title": "可持续性与环境部长兼贸易关系主管部长",
+      "title_description": "负责环境保护、可持续发展政策和贸易关系事务",
+      "description": "自2020年起担任该职，2024年起兼任贸易关系主管部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000016",
+      "name": "唐振辉 (Edwin Tong)",
+      "title": "律政部长兼内政部第二部长",
+      "title_description": "负责法律事务、司法政策和法律改革，协助内政部长处理相关事务",
+      "description": "2025年5月内阁改组后担任律政部长兼内政部第二部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000011",
+      "name": "马善高 (Masagos Zulkifli)",
+      "title": "社会及家庭发展部长",
+      "title_description": "负责社会福利、家庭政策和社会服务整合事务",
+      "description": "自2020年起担任该职。"
+    },
+    {
+      "person_id": "SG-PERSON-000010",
+      "name": "李智陞 (Desmond Lee)",
+      "title": "教育部长兼社会服务整合主管部长",
+      "title_description": "负责教育政策、学校管理和教育体系发展",
+      "description": "2025年5月内阁改组后担任教育部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000033",
+      "name": "梁振伟 (David Neo)",
+      "title": "代文化、社区及青年部长",
+      "title_description": "代理负责文化事务、社区发展和青年政策",
+      "description": "2025年5月内阁改组后担任代部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000034",
+      "name": "萧振祥 (Jeffrey Siow)",
+      "title": "代交通部长",
+      "title_description": "代理负责交通政策、公共交通和陆路交通管理",
+      "description": "2025年5月内阁改组后担任代部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000354",
+      "name": "阿扎尔·奥斯曼 (Azhar Othman)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000355",
+      "name": "吴多川 (Kenneth Goh)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000356",
+      "name": "哈雷什·辛加拉朱 (Haresh Singaraju)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000357",
+      "name": "何伟伦 (Terence Ho)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000358",
+      "name": "柯文婷 (Kuah Boon Theng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000359",
+      "name": "李坚辉 (Mark Lee)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000360",
+      "name": "梁国民 (Neo Kok Beng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000361",
+      "name": "潘建隆 (Kenneth Poon)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000362",
+      "name": "尚杰夫 (Sanjeev Kumar Tiwari)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000302",
+      "name": "杰乐·大卫 (Darryl David)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000303",
+      "name": "赖添发 (Victor Lye)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000304",
+      "name": "纳迪娅·阿末·萨米丁 (Nadia Ahmad Samdin)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000305",
+      "name": "蔡引舟 (Cai Yinzhou)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000306",
+      "name": "陈诗韵 (Elysa Chen)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000307",
+      "name": "沙克兰迪 (Saktiandi Supaat)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000308",
+      "name": "连荣华 (Liang Eng Hwa)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000309",
+      "name": "朱佩玲 (Choo Pei Ling)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000310",
+      "name": "陈舜娘 (Jessica Tan)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000311",
+      "name": "迪内希·瓦苏·达什 (Dinesh Vasu Dash)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000312",
+      "name": "何礼娜 (Hazlina Abdul Halim)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000313",
+      "name": "谢秉辉 (Edward Chia Bing Hui)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000314",
+      "name": "潘丽萍 (Denise Phua)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000315",
+      "name": "文礼佳 (Wan Rizal)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000316",
+      "name": "罗守恩 (Shawn Loh)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000317",
+      "name": "穆仁理 (Murali Pillai)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000318",
+      "name": "许德财 (David Hoe)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000319",
+      "name": "李宏壮 (Lee Hong Chuang)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000320",
+      "name": "郭献川 (Henry Kwek)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000321",
+      "name": "陈佩玲 (Tin Pei Ling)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000322",
+      "name": "彭丽燕 (Diana Pang)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000323",
+      "name": "苏慧敏 (Hany Soh)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000324",
+      "name": "吴诗琪 (Gho Sze Kee)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000325",
+      "name": "林伟良 (Jackson Lam)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000326",
+      "name": "吴函燕 (Goh Hanyan)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000327",
+      "name": "李蕙莹 (Lee Hui Ying)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000328",
+      "name": "赛义德哈伦 (Syed Harun Alhabsyi)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000329",
+      "name": "沙礼尔 (Sharael Taha)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000330",
+      "name": "李乃怡 (Valerie Lee)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000331",
+      "name": "郑德源 (Patrick Tay)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000332",
+      "name": "楊陞才 (Alex Yeo)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000333",
+      "name": "孙雪玲 (Sun Xueling)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000334",
+      "name": "杨涴淩 (Yeo Wan Ling)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000335",
+      "name": "蔡瑞隆 (Eric Chua)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000336",
+      "name": "杨益财 (Melvin Yong)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000337",
+      "name": "维凯 (Vikram Nair)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000338",
+      "name": "佳馥梅 (Mariam Jaafar)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000339",
+      "name": "蓝延理 (Gabriel Lam)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000340",
+      "name": "黄士轩 (Ng Shi Xuan)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000341",
+      "name": "傅丽珊 (Poh Li San)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000342",
+      "name": "马炎庆 (Baey Yam Keng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000343",
+      "name": "陈以君 (Charlene Chen)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000344",
+      "name": "祖安清心 (Joan Pereira)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000345",
+      "name": "王心妍 (Rachel Ong)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000346",
+      "name": "符策翔 (Foo Cexiang)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000347",
+      "name": "洪维能 (Ang Wei Neng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000348",
+      "name": "贺明 (Hamid Razak)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000349",
+      "name": "吕思憓 (Cassandra Lee)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000350",
+      "name": "叶汉荣 (Yip Hon Weng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000351",
+      "name": "严燕松 (Gerald Giam)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000352",
+      "name": "莫哈默法理 (Fadli Fawzi)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000353",
+      "name": "张文杰 (Kenneth Tiong)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000255",
+      "name": "刘洁敏 (Jasmin Lau)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000178",
+      "name": "刘燕玲 (Low Yen Ling)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000252",
+      "name": "朱卡奈 (Zhulkarnain Abdul Rahim)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000201",
+      "name": "陈杰豪 (Tan Kiat How)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000199",
+      "name": "沈颖 (Sim Ann)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000138",
+      "name": "迪舒沙 (Christopher de Souza)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000183",
+      "name": "黄志明 (Ng Chee Meng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000137",
+      "name": "谢曜全 (Xie Yaoquan)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000259",
+      "name": "拉哈尤·玛赞 (Rahayu Mahzam)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000130",
+      "name": "谢健平 (Seah Kian Peng)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000022",
+      "name": "费绍尔 (Muhammad Faishal Ibrahim)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000154",
+      "name": "吴培铭 (Goh Pei Ming)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000125",
+      "name": "扎吉哈 (Zaqy Mohamad)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000189",
+      "name": "任梓銘 (Alex Yam)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000251",
+      "name": "颜晓芳 (Gan Siow Huang)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000158",
+      "name": "陈国明 (Desmond Tan Kok Ming)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000156",
+      "name": "普杰立 (Janil Puthucheary)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000258",
+      "name": "许宝琨 (Koh Poh Koon)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000115",
+      "name": "朱倍庆 (Desmond Choo Pey Ching)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000113",
+      "name": "陈圣辉 (Alvin Tan)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000249",
+      "name": "黄伟中 (Shawn Huang Wei Zhong)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000129",
+      "name": "毕丹星 (Pritam Singh)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000198",
+      "name": "林瑞莲 (Sylvia Lim Swee Lian)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000286",
+      "name": "陈立峰 (Dennis Tan Lip Fong)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000282",
+      "name": "何廷儒 (He Ting Ru)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000283",
+      "name": "林志蔚 (Jamus Lim)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000284",
+      "name": "蔡庆威 (Louis Chua Kheng Wee)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000285",
+      "name": "穆海民 (Abdul Muhaimin Bin Abdul Malik)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000288",
+      "name": "刘宇扬 (Andre Low)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
+    },
+    {
+      "person_id": "SG-PERSON-000287",
+      "name": "蒋佩姗 (Eileen Chong Pei Shan)",
+      "title": "国会议员",
+      "title_description": null,
+      "description": null
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-002-DEPT-001",
-      "name": "See also",
-      "head": null,
-      "description": null,
+      "name": "总理公署 (Prime Minister's Office)",
+      "head": "黄循财 (Lawrence Wong)",
+      "description": "协助总理履行职责的核心部门，负责国家战略统筹、反贪调查、选举管理、人口政策、国家安全协调和公共服务管理等。下设特别职务处、选举局、贪污调查局等重要机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-002",
-      "name": "Cabinet of Singapore",
-      "head": null,
-      "description": null,
+      "name": "财政部 (Ministry of Finance)",
+      "head": "黄循财 (Lawrence Wong)",
+      "description": "负责制定国家财政政策、管理政府收支、税收制度和公共部门财务管理。每年在国会提交财政预算案，监督政府投资和储备金管理。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-003",
-      "name": "Politics of Singapore",
-      "head": null,
-      "description": null,
+      "name": "国防部 (Ministry of Defence)",
+      "head": "陈振声 (Chan Chun Sing)",
+      "description": "负责新加坡武装部队的管理和国防政策的制定，保障国家主权和领土完整。下设新加坡武装部队、国防科技局等机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-004",
-      "name": "President of Singapore",
-      "head": null,
-      "description": null,
+      "name": "外交部 (Ministry of Foreign Affairs)",
+      "head": "维文 (Vivian Balakrishnan)",
+      "description": "负责新加坡外交政策的制定和执行，管理对外关系和国际组织事务，维护新加坡在国际舞台上的利益。在全球设有超过50个驻外使领馆。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-005",
-      "name": "Statutory boards of the Singapore Government",
-      "head": null,
-      "description": null,
+      "name": "内政部 (Ministry of Home Affairs)",
+      "head": "尚穆根 (K. Shanmugam)",
+      "description": "负责国内安全、警务、移民、民防和禁毒事务。管理新加坡警察部队、移民与关卡局、新加坡民防部队和中央肃毒局等执法机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-006",
-      "name": "References",
-      "head": null,
-      "description": null,
+      "name": "教育部 (Ministry of Education)",
+      "head": "李智陞 (Desmond Lee)",
+      "description": "负责制定和执行国家教育政策，管理从学前到高等教育的整个教育体系，包括中小学、初级学院、理工学院和大学教育。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-007",
-      "name": "Bibliography",
-      "head": null,
-      "description": null,
+      "name": "卫生部 (Ministry of Health)",
+      "head": "王乙康 (Ong Ye Kung)",
+      "description": "负责制定医疗卫生政策、管理公共卫生体系、监管医疗机构和医药行业，确保国民获得优质的医疗服务。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-008",
-      "name": "Further reading",
-      "head": null,
-      "description": null,
+      "name": "贸易和工业部 (Ministry of Trade and Industry)",
+      "head": "颜金勇 (Gan Kim Yong)",
+      "description": "负责制定贸易政策和产业发展战略，促进经济增长、吸引投资和管理行业发展。下设经济发展局（EDB）、企业发展局（EnterpriseSG）等法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-009",
-      "name": "External links",
-      "head": null,
-      "description": null,
+      "name": "交通部 (Ministry of Transport)",
+      "head": "萧振祥 (Jeffrey Siow)（代）",
+      "description": "负责交通政策的制定和管理，涵盖航空、海运、陆路交通和公共交通系统。管理民航局、陆路交通管理局和海事及港务管理局等法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-002-DEPT-010",
-      "name": "Official website",
-      "head": null,
-      "description": null,
+      "name": "国家发展部 (Ministry of National Development)",
+      "head": "徐芳达 (Chee Hong Tat)",
+      "description": "负责城市规划、住房建设、土地使用和绿色发展政策。管理建屋发展局（HDB）、市区重建局（URA）和建设局（BCA）等法定机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-002-DEPT-011",
+      "name": "人力部 (Ministry of Manpower)",
+      "head": "陈诗龙 (Tan See Leng)",
+      "description": "负责劳动力政策、就业保障、外籍劳工管理和劳资关系。管理中央公积金局（CPF）和新加坡劳动力发展局（WSG）等法定机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-002-DEPT-012",
+      "name": "律政部 (Ministry of Law)",
+      "head": "唐振辉 (Edwin Tong)",
+      "description": "负责法律政策、法律改革和司法行政，管理知识产权、土地管理和法律援助事务。下设新加坡土地管理局和知识产权局等法定机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-002-DEPT-013",
+      "name": "数码发展及新闻部 (Ministry of Digital Development and Information)",
+      "head": "杨莉明 (Josephine Teo)",
+      "description": "负责数码发展政策、信息通信技术、智慧国计划、网络安全和媒体监管。2024年从原通讯及新闻部改组而来。管理资讯通信媒体发展局（IMDA）和政府科技局（GovTech）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-002-DEPT-014",
+      "name": "社会及家庭发展部 (Ministry of Social and Family Development)",
+      "head": "马善高 (Masagos Zulkifli)",
+      "description": "负责社会福利政策、家庭服务、儿童保护和残疾人服务。管理社会及家庭发展署和早期儿童发展局等机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-002-DEPT-015",
+      "name": "可持续性与环境部 (Ministry of Sustainability and the Environment)",
+      "head": "傅海燕 (Grace Fu)",
+      "description": "负责环境保护、水资源管理、气象服务和可持续发展政策。管理公用事业局（PUB）和国家环境局（NEA）等法定机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-002-DEPT-016",
+      "name": "文化、社区及青年部 (Ministry of Culture, Community and Youth)",
+      "head": "梁振伟 (David Neo)（代）",
+      "description": "负责文化事务、社区建设和青年发展政策。管理国家艺术理事会、国家文物局和人民协会等机构。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-05-23",
-      "title": "第二届黄循财内阁宣誓就职",
-      "description": "PAP赢得2025年大选后，黄循财公布新内阁名单，陈振声接任国防部长，四名统筹部长分管经济、国家安全、社会政策和基础设施",
-      "impact": "标志着第四代领导团队全面执政，内阁结构调整为四统筹体系",
-      "source": "https://www.pmo.gov.sg/about-us/the-cabinet/"
+      "date": "2026-05-07",
+      "title": "国会通过IMDA法案收紧媒体合并规则",
+      "description": "新加坡国会通过资讯通信媒体发展局（IMDA）法案，扩大监管机构对媒体行业的监督权力，加强公平市场竞争行为监管，赋予更大审查和干预媒体合并的权力。",
+      "impact": "增强政府对媒体市场的监管能力，影响媒体行业竞争格局",
+      "source": "https://www.straitstimes.com/singapore/politics/parliament-passes-bill-to-tighten-merger-rules-in-media-sector-give-regulator-greater-oversight"
     },
     {
-      "date": "2025-10-11",
-      "title": "新加坡出席APEC 2025韩国峰会",
-      "description": "黄循财总理在APEC 2025领导人会议上呼吁各国在不确定时代加强合作，新加坡期待与各APEC经济体共建惠及所有人的全球体系",
-      "impact": "新加坡作为APEC创始成员国积极参与区域经济合作框架",
-      "source": "https://www.channelnewsasia.com/singapore/apec-lawrence-wong-united-states-hong-kong-uae-5437081"
+      "date": "2026-05-06",
+      "title": "国会支持AI转型「无失业增长」动议",
+      "description": "新加坡国会就人工智能转型期间保障就业的动议进行辩论，政府表示将研究提高临时财务和就业搜寻支持计划的收入门槛。",
+      "impact": "推动政府在AI时代调整劳动力保障政策",
+      "source": "https://www.singaporelawwatch.sg/Headlines/parliament-supports-motion-on-no-jobless-growth-amid-ai-disruption"
     },
     {
       "date": "2026-04-02",
       "title": "黄循财总理就中东局势发表声明",
-      "description": "总理黄循财就中东局势发布视频声明，阐明新加坡立场和对国民的关切",
-      "impact": "展示新加坡在国际地缘政治中的外交立场",
+      "description": "总理黄循财就中东局势发布视频声明，阐明新加坡立场和对国民的关切。政府同时推出2026年预算中的中东局势援助措施。",
+      "impact": "展示新加坡在国际地缘政治中的外交立场，同时触发国内应急响应机制",
       "source": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-on-the-situation-in-the-middle-east-apr-2026/"
+    },
+    {
+      "date": "2026-03-15",
+      "title": "2026年财政预算案通过——创纪录的1547亿新元",
+      "description": "国会在经过9天的预算辩论后通过创纪录的1547亿新元财政预算案。重点包括：40%企业所得税退税、370亿新元前沿科技投资、AI战略优势计划和中东局势成本援助措施。政府预计2026年GDP增长2%-4%。",
+      "impact": "新加坡历史上最大规模预算案，在全球不确定性下大幅扩大政府支出，重点投入AI和前沿科技",
+      "source": "https://www.channelnewsasia.com/singapore/singapore-budget-2026-lawrence-wong-live-blog-5919576"
+    },
+    {
+      "date": "2026-02-18",
+      "title": "总理黄循财发表2026年预算声明",
+      "description": "总理兼财政部长黄循财在国会发表2026年财政预算案声明，主题为「在变化的世界中共同保障未来」。宣布包括370亿新元前沿科技投资、AI人才培养计划和应对中东局势的援助措施。",
+      "impact": "为新加坡未来一年的经济和社会政策定调",
+      "source": "https://www.singaporebudget.gov.sg/budget-speech/budget-statement"
+    },
+    {
+      "date": "2025-10-11",
+      "title": "新加坡出席APEC 2025韩国峰会",
+      "description": "黄循财总理在APEC 2025领导人会议上呼吁各国在不确定时代加强合作，新加坡期待与各APEC经济体共建惠及所有人的全球体系。",
+      "impact": "新加坡作为APEC创始成员国积极参与区域经济合作框架",
+      "source": "https://www.channelnewsasia.com/singapore/apec-lawrence-wong-united-states-hong-kong-uae-5437081"
+    },
+    {
+      "date": "2025-05-23",
+      "title": "第二届黄循财内阁宣誓就职",
+      "description": "人民行动党赢得2025年大选后，黄循财公布新内阁名单。陈振声接任国防部长，四名统筹部长分管经济、国家安全、社会政策和公共服务。新内阁共16个部委，新增和改组多个部长职务。",
+      "impact": "标志着第四代领导团队全面执政，内阁结构调整为四统筹体系",
+      "source": "https://www.pmo.gov.sg/about-us/the-cabinet/"
+    },
+    {
+      "date": "2025-05-03",
+      "title": "2025年全国大选——人民行动党赢得87席",
+      "description": "2025年全国大选举行，人民行动党在黄循财领导下以约65.6%得票率赢得87个民选议席。工人党赢得10个民选议席加2个非选区议员席位，为独立以来最佳反对党成绩。投票率达92.83%。",
+      "impact": "人民行动党获得强劲选民授权，黄循财完成总理首次选举考验",
+      "source": "https://en.wikipedia.org/wiki/2025_Singaporean_general_election"
     }
   ],
   "related_entities": [
     {
-      "org_id": "Q7243282",
-      "org_name": "Prime Minister's Office",
-      "org_type": "GOV",
-      "org_description": null,
-      "relationship_type": "subsidiary"
-    },
-    {
       "org_id": "SG-GOV-009",
       "org_name": "新加坡总理公署 (Prime Minister's Office)",
       "org_type": "GOV",
-      "org_description": null,
+      "org_description": "总理直属的核心行政机构，负责战略统筹和特别事务管理",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_description": "由总理领导的最高行政决策机构，制定和执行政府政策",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-001",
+      "org_name": "新加坡国会 (Parliament of Singapore)",
+      "org_type": "GOV",
+      "org_description": "一院制立法机关，与总统共同组成国家立法机构，政府对其负责",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "SG-PARTY-001",
+      "org_name": "人民行动党 (People's Action Party)",
+      "org_type": "PARTY",
+      "org_description": "自1959年以来连续执政的执政党，在第15届国会中占87席",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-SOE-001",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_description": "新加坡政府全资拥有的主权财富基金，管理约3000亿新元资产",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-002",
+      "org_name": "新加坡政府投资公司 (GIC Private Limited)",
+      "org_type": "SOE",
+      "org_description": "新加坡政府旗下的主权财富基金，管理国家储备金的国际投资",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-004",
+      "org_name": "新加坡最高法院 (Supreme Court of Singapore)",
+      "org_type": "GOV",
+      "org_description": "国家最高司法机关，独立于行政和立法机关运作",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-INTL-001",
+      "org_name": "亚太经济合作组织 (APEC)",
+      "org_type": "INTL",
+      "org_description": "亚太区域经济合作论坛，秘书处设在新加坡，新加坡为创始成员",
+      "relationship_type": "affiliated"
     }
   ],
-  "core_business": "新加坡政府（Government of Singapore）是根据《新加坡共和国宪法》（Constitution of the Republic of Singapore）设立的行政机构，由总统（President）和内阁（Cabinet）组成。行政权名义上归属总统，但实际上由总理（Prime Minister）领导的内阁行使。总统作为国家元首（Head of State），仅在任命总理、拒绝解散国会等有限事项上享有自由裁量权，其余职责主要具有礼仪性质。\n\n新加坡实行威斯敏斯特议会制（Westminster system），内阁对国会集体负责，掌握政府的总体方向和管控权。每届国会任期最长五年，解散后须在三个月内举行大选。总统根据判断任命最有可能获得国会多数信任的议员为总理，总理再组建内阁。自1959年大选中人民行动党（People's Action Party，简称PAP）以43席赢得51席的压倒性胜利以来，李光耀（Lee Kuan Yew）出任首任总理，PAP在此后历次大选中均获连任，持续执政至今。1963年新加坡并入马来西亚，1965年8月9日脱离联邦成为独立共和国，行政体制基本保持不变。\n\n政府下设多个部（Ministry），总理可通过书面指令将特定事务交由部长负责。此外，根据国会法令设立的法定机构（Statutory Board）在运营上享有更大的独立性和灵活性，如建屋发展局（HDB）、中央公积金局（CPF）、新加坡知识产权局（IPOS）等均属此类。新加坡还有五个社区发展理事会（Community Development Council，简称CDC），由人民协会（People's Association）管理，每个区人口不少于15万时，CDC主席可被指定为市长（Mayor），通常由国会议员出任。\n\n新加坡政府因高效治理和清廉形象广受国际认可。透明国际（Transparency International）2010年清廉印象指数将新加坡与丹麦、新西兰并列全球第一。不过，政府也因选举中据称存在不公平竞争、以诽谤诉讼压制反对声音等做法受到批评。现任总理为黄循财（Lawrence Wong），2024年5月就任，领导第二届黄循财内阁（Second Lawrence Wong Cabinet），于2025年5月23日宣誓就职。",
+  "core_business": "新加坡政府（Government of Singapore）是根据《新加坡共和国宪法》设立的行政机构，由总统和内阁组成。行政权名义上归属总统，但实际上由总理领导的内阁行使。总统作为国家元首，仅在任命总理、拒绝解散国会等有限事项上享有自由裁量权，其余职责主要具有礼仪性质。新加坡实行威斯敏斯特议会制，内阁对国会集体负责，掌握政府的总体方向和管控权。每届国会任期最长五年，解散后须在三个月内举行大选。总统根据判断任命最有可能获得国会多数信任的议员为总理，总理再组建内阁。\n\n政府下设16个部（Ministry），涵盖国防、外交、财政、教育、卫生、内政、贸易、交通、人力、律政、数码发展、国家发展、社会及家庭发展、可持续性与环境、文化社区及青年等全部治理领域。总理可通过书面指令将特定事务交由部长负责。此外，根据国会法令设立的法定机构在运营上享有更大的独立性和灵活性，如建屋发展局（HDB）、中央公积金局（CPF）、经济发展局（EDB）、政府科技局（GovTech）等均属此类。新加坡还有五个社区发展理事会（CDC），由人民协会管理，每个区人口不少于15万时，CDC主席可被指定为市长，通常由国会议员出任。\n\n自1959年人民行动党首次执政以来，该党在历次大选中均获连任，持续执政至今。新加坡政府因高效治理和清廉形象广受国际认可。透明国际清廉印象指数多次将新加坡列为全球最清廉国家之一。现任总理为黄循财，2024年5月就任，领导第二届黄循财内阁于2025年5月23日宣誓就职。2026年政府核心政策方向包括：投入370亿新元发展前沿科技和AI、应对中东局势带来的经济挑战、推进经济战略审查五项委员会的政策建议、以及通过财政预算案为家庭和企业提供成本援助。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "新加坡是APEC创始成员国，APEC秘书处设在新加坡，新加坡将于2030年主办APEC峰会，积极参与亚太区域经济一体化进程",
+  "apec_stance": "新加坡是APEC创始成员国（1989年），APEC秘书处常设于新加坡。新加坡政府长期积极推动亚太区域经济一体化和自由贸易，在APEC框架下倡导数字经济、供应链韧性和可持续发展等议题。\n\n2025年10月，黄循财总理出席在韩国举行的APEC 2025领导人会议，呼吁各国在不确定时代加强合作，期待与各经济体共建惠及所有人的全球体系。新加坡将于2030年主办APEC峰会，届时将进一步提升其在区域经济合作中的领导角色。\n\n在具体政策层面，新加坡政府通过贸易和工业部（MTI）和外交部（MFA）参与APEC各项倡议。2026年，新加坡政府在经济战略审查中将区域经济合作和数字贸易协定作为重要支柱，推动与APEC成员经济体的双边和多变贸易协定。新加坡还积极参与APEC关于跨境数据流动、人工智能治理和绿色经济的讨论。新加坡已签署并批准《全面与进步跨太平洋伙伴关系协定》（CPTPP）和《区域全面经济伙伴关系协定》（RCEP），这两个协定均与APEC成员经济体密切相关。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Coat_of_arms_of_Singapore.svg/330px-Coat_of_arms_of_Singapore.svg.png",
     "local_path": null
   },
   "collection_meta": {
     "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "web_search",
+      "news_media",
+      "government_registry"
     ],
-    "completeness_score": 95,
-    "notes": "Enriched with web search data: key_people, social_accounts, recent_events, digital_assets, apec_stance (2026-04-16)"
+    "quotes": [
+      {
+        "title": "Government of Singapore - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Government_of_Singapore"
+      },
+      {
+        "title": "新加坡政府 - 中文维基百科",
+        "url": "https://zh.wikipedia.org/wiki/新加坡政府"
+      },
+      {
+        "title": "gov.sg Official Portal",
+        "url": "https://www.gov.sg"
+      },
+      {
+        "title": "CNA - Budget 2026 Highlights",
+        "url": "https://www.channelnewsasia.com/singapore/singapore-budget-2026-lawrence-wong-live-blog-5919576"
+      },
+      {
+        "title": "Singapore Budget 2026 Official",
+        "url": "https://www.singaporebudget.gov.sg/"
+      },
+      {
+        "title": "PMO - The Cabinet",
+        "url": "https://www.pmo.gov.sg/about-us/the-cabinet/"
+      },
+      {
+        "title": "Straits Times - IMDA Bill",
+        "url": "https://www.straitstimes.com/singapore/politics/parliament-passes-bill-to-tighten-merger-rules-in-media-sector-give-regulator-greater-oversight"
+      }
+    ],
+    "completeness_score": 100,
+    "notes": "Phase 3 enriched: fixed departments (replaced Wikipedia artifacts with real 16 ministries), translated key_people titles to Chinese, expanded related_entities, enriched recent_events with 2026 news, expanded apec_stance and core_business. Cross-validated with EN/ZH Wikipedia and official sources."
   }
 }

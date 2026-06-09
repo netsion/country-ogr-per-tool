@@ -1,18 +1,20 @@
 {
   "org_id": "SG-SOE-008",
   "basic_info": {
-    "name_original": "凯德集团",
+    "name_original": "CapitaLand",
     "name_zh": "凯德集团",
     "name_en": "CapitaLand",
     "aliases": [
+      "CapitaLand Group",
       "凯德集团",
-      "嘉德置地"
+      "嘉德置地",
+      "CapitaLand Investment"
     ],
     "org_type": "SOE",
     "org_subtype": "gov_linked_company",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "2000-01-01",
+    "founded_date": "2000-11-28",
     "website": "https://www.capitaland.com/"
   },
   "social_accounts": [
@@ -45,8 +47,8 @@
     {
       "name": "CapitaLand官方网站",
       "url": "https://www.capitaland.com",
-      "description": "凯德集团官方网站，覆盖开发、投资、住宿三大业务板块",
-      "source": "web_search"
+      "description": "凯德集团官方网站，覆盖投资管理、开发、住宿三大业务板块",
+      "source": "official_website"
     },
     {
       "name": "CapitaLand Investment投资者关系",
@@ -56,107 +58,243 @@
     },
     {
       "name": "CapitaLand Investment 2025年度报告",
-      "url": "https://ir.capitalandinvest.com/misc/ar2025/200-201/",
-      "description": "CLI 2025年度报告，含公司治理和管理层信息",
+      "url": "https://ir.capitalandinvest.com/misc/ar2025/",
+      "description": "CLI 2025年度报告，含公司治理、管理层信息和财务数据",
       "source": "web_search"
+    },
+    {
+      "name": "CapitaStar积分平台",
+      "url": "https://www.capitastar.com/sg/en.html",
+      "description": "新加坡领先的生活方式与购物奖励积分平台",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000108",
-      "name": "Wong Kan Seng (黄根成)",
-      "title": "Chairman, CapitaLand Group",
+      "person_id": "SG-PERSON-000124",
+      "name": "黄根成 (Wong Kan Seng)",
+      "title": "董事会主席 (Chairman, CapitaLand Group)",
       "title_description": "凯德集团董事会主席",
-      "description": "黄根成为新加坡前副总理兼内政部长，现任凯德集团董事会独立董事兼主席。"
+      "description": "黄根成为新加坡前副总理兼内政部长（2005-2011年），现任凯德集团董事会主席（2021年起），同时担任大华银行（UOB）董事会主席。"
     },
     {
-      "person_id": "SG-PERSON-000127",
+      "person_id": "SG-PERSON-000121",
       "name": "Miguel Ko",
-      "title": "Chairman, CapitaLand Investment",
-      "title_description": "CLI董事会主席，非执行非独立董事",
-      "description": "Miguel Ko担任CLI董事会主席，领导这家管理约1250亿新元资产的全球不动产投资管理公司。"
+      "title": "CLI董事会主席 (Chairman, CapitaLand Investment)",
+      "title_description": "凯德投资董事会主席，非执行非独立董事",
+      "description": "Miguel Ko担任CLI董事会主席，领导这家管理约1250亿新元基金的全球不动产投资管理公司。"
     },
     {
-      "person_id": "SG-PERSON-000122",
-      "name": "Lee Chee Koon (李志勤)",
-      "title": "Group CEO, CapitaLand Investment",
-      "title_description": "集团首席执行官，领导凯德投资全球业务",
-      "description": "李志勤领导CapitaLand Investment (CLI)，一家拥有约1250亿新元资产管理规模的全球不动产管理公司。此前曾任首席投资官，后升任集团总裁兼CEO。"
+      "person_id": "SG-PERSON-000117",
+      "name": "李志勤 (Lee Chee Koon)",
+      "title": "集团首席执行官 (Group CEO, CapitaLand Investment)",
+      "title_description": "凯德投资集团首席执行官，领导全球业务",
+      "description": "李志勤领导CapitaLand Investment (CLI)，一家拥有约1250亿新元基金管理规模的全球不动产管理公司。此前曾任首席投资官，后升任集团总裁兼CEO。"
     },
     {
-      "person_id": "SG-PERSON-000131",
-      "name": "Ronald Tay (郑润明)",
-      "title": "CEO, CapitaLand Development Singapore",
-      "title_description": "负责凯德开发在新加坡各资产类别的业务",
-      "description": "郑润明负责凯德开发在新加坡的房地产开发业务，涵盖住宅、办公、零售等全资产类别。"
+      "person_id": "SG-PERSON-000301",
+      "name": "郑润明 (Ronald Tay)",
+      "title": "新加坡开发业务首席执行官 (CEO, CapitaLand Development Singapore)",
+      "title_description": "负责凯德开发在新加坡各资产类别的开发业务",
+      "description": "郑润明负责凯德开发在新加坡的房地产开发业务，涵盖住宅、办公、零售、工业等全资产类别。此前曾担任凯德开发越南区CEO。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-008-DEPT-001",
-      "name": "Pidemco Land and DBS Land merged to form CapitaLand Group Pte. Ltd",
-      "head": null,
-      "description": null,
+      "name": "凯德投资 (CapitaLand Investment)",
+      "head": "李志勤 (Lee Chee Koon)",
+      "description": "全球领先的房地产投资管理平台，管理约1250亿新元基金（截至2025年底），涵盖上市房地产投资信托、私募基金、商业管理、住宿管理等业务。2021年从凯德集团分拆并在新加坡交易所上市（SGX: 9CI）。",
       "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-008-DEPT-002",
+      "name": "凯德开发 (CapitaLand Development)",
+      "head": null,
+      "description": "凯德集团的房地产开发业务板块，为亚洲值得信赖的领先开发商，在新加坡、中国、越南、印度等市场开展住宅、商业和综合开发项目。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-008-DEPT-003",
+      "name": "雅诗阁有限公司 (The Ascott Limited)",
+      "head": null,
+      "description": "凯德集团旗下全资住宿业务单元，成立于1984年，在全球超过40个国家的220多个城市运营服务公寓，是亚太地区最大的住宿业主-运营商。管理CapitaLand Ascott Trust（亚太最大住宿信托，资产价值约89亿新元）。",
+      "parent_dept_id": "SG-SOE-008-DEPT-001"
+    },
+    {
+      "dept_id": "SG-SOE-008-DEPT-004",
+      "name": "凯德综合商业信托 (CapitaLand Integrated Commercial Trust, CICT)",
+      "head": null,
+      "description": "新加坡最大REIT之一，由原CapitaLand Mall Trust与CapitaLand Commercial Trust于2020年合并成立，资产规模约224亿新元。2026年4月宣布以约19.5亿新元出售Asia Square Tower 2，同时收购Paragon商场。",
+      "parent_dept_id": "SG-SOE-008-DEPT-001"
+    },
+    {
+      "dept_id": "SG-SOE-008-DEPT-005",
+      "name": "凯德腾飞房产投资信托 (CapitaLand Ascendas REIT, CLAR)",
+      "head": null,
+      "description": "新加坡首个也是最大的上市商业空间和工业REIT，2002年上市。2026年3月收购新加坡Loyang Crescent物业并进入日本超大规模数据中心市场。",
+      "parent_dept_id": "SG-SOE-008-DEPT-001"
     }
   ],
   "recent_events": [
     {
-      "date": "2026-03-13",
-      "title": "CapitaLand Investment发布2025年度报告",
-      "description": "CLI发布年度报告，披露董事会构成和管理层信息。截至2026年3月，董事会由主席Miguel Ko、集团CEO李志勤、首席独立董事Anthony Lim Weng Kin等组成。",
-      "impact": "显示公司治理结构稳定，资产规模持续增长。",
-      "source": "https://ir.capitalandinvest.com/misc/ar2025/200-201/"
+      "date": "2026-04-28",
+      "title": "CLI计划打造单一旗舰REIT以驱动规模增长",
+      "description": "CapitaLand Investment表示计划整合旗下多个REIT，建立单一旗舰C-REIT以提升规模效应和市场竞争力。CLI 2025财年盈利为1.45亿新元，较2024年的4.79亿新元下降70%，主要受投资组合收益下降和资产重估损失影响。",
+      "impact": "若整合成功，将重塑新加坡REIT市场格局，提升凯德在亚太不动产投资领域的竞争力。",
+      "source": "https://www.businesstimes.com.sg/property/capitaland-investment-sets-sights-single-flagship-c-reit-drive-scale"
     },
     {
-      "date": "2025-01-01",
-      "title": "CapitaLand持续扩展中国及亚太市场",
-      "description": "凯德集团持续深耕中国和亚太房地产市场，通过CapitaLand Investment管理约1250亿新元资产。集团在新加坡、中国、越南、印度等市场保持活跃的收购和开发活动。",
-      "impact": "凯德作为淡马锡旗下重要不动产平台，其亚太布局对区域地产市场具有风向标意义。",
-      "source": "https://www.capitaland.com/en/investment/about-us/management-team.html"
+      "date": "2026-04-23",
+      "title": "CLI获得Income Insurance 24亿新元不动产投资委托",
+      "description": "CapitaLand Investment赢得Income Insurance的24亿新元不动产投资管理委托，进一步扩大其基金管理规模。2025年以来CLI在新加坡累计交易额达121亿新元。",
+      "impact": "巩固CLI作为亚太领先不动产管理平台的地位，推动基金管理收入持续增长。",
+      "source": "https://www.theedgesingapore.com/news/property/capitaland-investment-wins-24-bil-real-estate-investment-mandate-income-insurance"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "CICT出售Asia Square Tower 2并收购Paragon商场",
+      "description": "CapitaLand Integrated Commercial Trust以约19.5亿新元将Asia Square Tower 2出售给IOI Properties，同时宣布收购Paragon商场，交易总额约50亿新元。出售价格较2025年底估值溢价9.9%。",
+      "impact": "CICT通过资产置换优化投资组合，退出办公楼资产转向优质零售物业。",
+      "source": "https://www.reuters.com/world/asia-pacific/singapores-capitaland-trust-sell-building-ioi-properties-195-billion-2026-04-19/"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "CLAR收购新加坡资产并首次进入日本数据中心市场",
+      "description": "CapitaLand Ascendas REIT收购新加坡Loyang Crescent 100%权益（产业集群物业），同时以1.251亿英镑收购英国一座31MW数据中心，首次进入日本超大规模数据中心领域。",
+      "impact": "标志着凯德在数据中心这一新经济资产类别的持续扩张。",
+      "source": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2026/march/capitaland-ascendas-reit-acquires-two-assets-in-Singapore-and-enters-Japan-with-a-hyperscale-data-centre.html"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "CLI公布FY2025业绩：运营PATMI增长6%至5.39亿新元",
+      "description": "CapitaLand Investment公布FY2025业绩，运营PATMI同比增长6%至5.39亿新元。基金管理规模（FUM）同比增长7%至1250亿新元。AI赋能举措带来超过1200万新元收入增量和超过500万新元成本节约。全年总PATMI为1.45亿新元（低于FY2024的4.79亿新元），主要因投资组合收益下降和重估损失。",
+      "impact": "显示CLI在费收入和基金规模增长方面保持韧性，但整体盈利受宏观环境影响较大。",
+      "source": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2026/february/capitaland-investment-posts-improved-fy-2025-operating-patmi-of-.html"
+    },
+    {
+      "date": "2025-11-25",
+      "title": "凯德开发被评为2025年度新加坡最佳房地产开发商",
+      "description": "Euromoney授予CapitaLand Development'2025年度新加坡最佳房地产开发商'称号。其2025年2月推出的住宅项目在开盘周末售出超过87%的单位，展示了公司在交通导向型综合开发项目上的优势。",
+      "impact": "巩固凯德开发在新加坡房地产市场的领先地位。",
+      "source": "https://www.euromoney.com/article/dp91rk9aahc8848k8ck4g8w08/markets/singapores-best-real-estate-developer-2025-capitaland-development/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-017",
-      "org_name": "Temasek Holdings (淡马锡控股)",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
       "org_type": "SOE",
-      "org_description": "持有凯德集团约40%股权，为最大股东",
+      "org_description": "持有凯德集团约40%股权，为最大股东和实际控制人",
       "relationship_type": "controlling_shareholder"
     },
     {
       "org_id": "SG-SOE-008",
-      "org_name": "CapitaLand Investment Limited (CLI, 凯德投资)",
+      "org_name": "凯德投资有限公司 (CapitaLand Investment Limited, CLI)",
       "org_type": "SOE",
-      "org_description": "凯德集团旗下上市投资管理平台，管理约1250亿新元资产",
+      "org_description": "凯德集团旗下上市投资管理平台（SGX: 9CI），管理约1250亿新元基金",
       "relationship_type": "subsidiary"
     },
     {
       "org_id": "SG-SOE-008",
-      "org_name": "CapitaLand Ascott Trust (雅诗阁公寓信托)",
+      "org_name": "凯德雅诗阁信托 (CapitaLand Ascott Trust, CLAS)",
       "org_type": "CORP",
-      "org_description": "亚洲最大服务公寓信托之一",
+      "org_description": "亚太最大住宿信托，资产价值约89亿新元（截至2025年底）",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-008",
+      "org_name": "凯德综合商业信托 (CapitaLand Integrated Commercial Trust, CICT)",
+      "org_type": "CORP",
+      "org_description": "新加坡最大REIT之一，资产规模约224亿新元",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-008",
+      "org_name": "凯德腾飞房产投资信托 (CapitaLand Ascendas REIT, CLAR)",
+      "org_type": "CORP",
+      "org_description": "新加坡首个上市商业空间和工业REIT，也是最大同类REIT",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "org_name": "星展银行 (DBS Bank)",
+      "org_type": "CORP",
+      "org_description": "凯德集团历史渊源方：DBS Land（星展置地）于2000年与Pidemco Land合并组成凯德集团",
+      "relationship_type": "affiliated"
     }
   ],
-  "core_business": "凯德集团（英語：Capitaland），曾用名嘉德置地，是一間新加坡上市公司，也是新加坡海峽時報指數的成份股。於2000年11月由百騰置地（Pidemco Land，原新科集團附屬公司）及發展置地（DBS Land，原星展集團附屬公司）合併組成。 嘉德置地集團主業為地產發展商及持有樓房資產。\n凯德集团是亚洲规模最大的房地产集团之一，总部设在新加坡。凯德集团的房地产和房地产基金管理业务集中于核心市场新加坡和中国。凯德集团的房地产业务多元化，包括住宅、办公楼、购物商场、服务公寓和综合房产。凯德集团也同时是亚洲最大的房地产基金管理者之一。\n資產\n凯德集团旗下的上市公司包括澳洲置地、凯德商用、雅诗阁公寓信托、凯德商务产业信托、凯德商用新加坡信托、凯德商用马来西亚信托、凯德商用中国信托和桂凯信托。凱德置地中國控股持有麗豐控股20%。\n2009年11月18日，凯德集团以每股2.12元价格，首次公開發售凱德商用產業，曾用名嘉德商用（CapitaMallsAsia，简称CMA）11亿6520万新股，合CMA总股本的30％，24.7億新加坡幣（約18億美元）。凱德商用于2009年11月25日首日挂牌交易。\n凯德集团旗下之凱德商用產業（CapitaLandRetail）在IPO之后重新更名为CapitaMallsAsia。更名整合后凱德商用涵盖凯德集团旗下的零售不动产基金及地产信托管理等业务。另外，凱德商用还持有RafflesCityChinaFund基金15％的股权。而其母公司凯德集团有40%股权握在新加坡主权财富基金淡马锡手中。\n凯德商用在亚太地区拥有及管理新加坡、中国、马来西亚、日本及印度五国53个城市的105个商业地产项目，物业总值约1,681亿人民币，总面积约910万平方米。\n凯德商用的购物中心项目包括位于世界著名购物街道之一的新加坡乌节路的ION Orchard及狮城68、新加坡来福士城及克拉码头。其资产组合也包括位于马来西亚槟城的合您广场、日本东京的Olinas Mall及印度班加罗尔的Forum Value Mall。\n2010年1月18日，東方海外與新加坡凯德集团達成協議，以代價約二十四億美元出售「東方海外發展（中國）」現時在中國內地七個房地產項目，涉及樓面面積約一百四十五萬平方米，七個項目分別位於上海、昆山和天津項目；其中半數為住宅物業，其餘為寫字樓、商鋪與酒店。\n2017年11月，凱德集團以33.607億元人民幣收購廣州樂峰廣場。\n2019年1月14日凱德置地斥資110億新元收購淡馬錫附屬公司星橋騰飛，交易完成後，凱德集團管理的資產總值將超過1160億新元。\n2023年2月，凱德集團以28.1億人民幣收購北京蘇寧生活廣場。\n參見\n來福士廣場\n参考文献\n外部参考\nCapitaLand Official Website（页面存档备份，存于互联网档案馆）\nCapitaLand Global Presence（页面存档备份，存于互联网档案馆）\nCapitaLand Business Subsidiaries\nCapitaMalls Asia Official Website\nThe Ascott Limited Official Website\n凯德集团 中文官方網址（页面存档备份，存于互联网档案馆）\n凯德商用 中文官方網址\n雅诗阁 中文官方網址（页面存档备份，存于互联网档案馆）",
+  "core_business": "凯德集团（CapitaLand）是亚洲规模最大的房地产集团之一，总部设在新加坡，由淡马锡控股持有约40%股权。集团于2000年11月由百腾置地（Pidemco Land，原新科集团附属公司）及发展置地（DBS Land，原星展集团附属公司）合并组成。凯德集团于2021年进行重大业务重组，将投资管理业务分拆为CapitaLand Investment（CLI，SGX: 9CI）独立上市，保留CapitaLand Development（CLD）作为私人开发业务板块。CLI作为全球领先的房地产投资管理平台，截至2025年底管理约1250亿新元基金（FUM），同比增长7%，通过7只上市REIT和商业信托以及一系列私募基金进行投资。业务涵盖住宅、办公楼、购物中心、服务公寓、产业园区、物流仓储和数据中心等多元化资产类别，在全球超过45个国家的270多个城市拥有业务布局。集团旗下主要上市基金包括凯德综合商业信托（CICT）、凯德腾飞房产投资信托（CLAR）、凯德雅诗阁信托（CLAS）、凯德中国信托（CLCT）、凯德印度信托（CLINT）和凯德马来西亚信托（CMMT）。凯德的战略聚焦于人口结构变化、颠覆式创新和数字化转型三大投资主题，积极拓展数据中心、自助仓储等新经济资产类别，同时深耕新加坡和中国两大核心市场。2025财年，CLI运营PATMI同比增长6%至5.39亿新元，AI赋能举措带来超过1200万新元收入增量。集团通过CapitaStar平台运营新加坡领先的购物奖励积分生态。",
   "industries": [
-    "investment"
+    "investment",
+    "real_estate"
   ],
-  "apec_stance": null,
+  "apec_stance": "凯德集团作为淡马锡旗下核心不动产平台，在APEC区域拥有广泛布局，业务遍及新加坡、中国、越南、马来西亚、日本、韩国、印度、澳大利亚等APEC经济体。集团通过多只上市REIT和私募基金深度参与亚太房地产市场，是区域不动产投资管理的重要参与者。CLI的基金管理规模达1250亿新元，其中大量资产位于APEC成员国。凯德在中国拥有长期深耕历史，通过凯德中国信托（CLCT）管理大量商业地产项目；在东南亚通过凯德马来西亚信托（CMMT）和凯德腾飞房产投资信托（CLAR）持续扩张。2026年以来，凯德积极布局数据中心等数字经济基础设施，首次进入日本超大规模数据中心市场，与APEC推动数字经济的方向高度契合。集团在推动亚太区域房地产市场的资本流动和跨境投资方面发挥着重要的桥梁作用。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Capital_Tower%2C_Jan_06.JPG/330px-Capital_Tower%2C_Jan_06.JPG",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news"
     ],
-    "completeness_score": 93,
-    "notes": "Enriched with web search: key people expanded, social accounts, recent events, related entities, digital assets (score: 93)"
+    "completeness_score": 96,
+    "quotes": [
+      {
+        "title": "CapitaLand - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/CapitaLand"
+      },
+      {
+        "title": "CapitaLand官方网站",
+        "url": "https://www.capitaland.com"
+      },
+      {
+        "title": "CLI FY2025业绩公告",
+        "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2026/february/capitaland-investment-posts-improved-fy-2025-operating-patmi-of-.html"
+      },
+      {
+        "title": "CICT出售Asia Square Tower 2 - Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/singapores-capitaland-trust-sell-building-ioi-properties-195-billion-2026-04-19/"
+      },
+      {
+        "title": "CLI计划单一旗舰REIT - BusinessTimes",
+        "url": "https://www.businesstimes.com.sg/property/capitaland-investment-sets-sights-single-flagship-c-reit-drive-scale"
+      },
+      {
+        "title": "CLI赢得Income Insurance 24亿委托 - Edge Singapore",
+        "url": "https://www.theedgesingapore.com/news/property/capitaland-investment-wins-24-bil-real-estate-investment-mandate-income-insurance"
+      },
+      {
+        "title": "CLAR收购新加坡和日本资产 - CapitaLand Newsroom",
+        "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2026/march/capitaland-ascendas-reit-acquires-two-assets-in-Singapore-and-enters-Japan-with-a-hyperscale-data-centre.html"
+      },
+      {
+        "title": "CLI FY2025 Results - Minichart",
+        "url": "https://www.minichart.com.sg/2026/02/10/capitaland-investment-fy2025-results-12-cents-dividend-strong-fee-revenue-growth-s125b-funds-under-management/"
+      },
+      {
+        "title": "Wong Kan Seng - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wong_Kan_Seng"
+      },
+      {
+        "title": "CapitaLand Development被评为2025年新加坡最佳开发商 - Euromoney",
+        "url": "https://www.euromoney.com/article/dp91rk9aahc8848k8ck4g8w08/markets/singapores-best-real-estate-developer-2025-capitaland-development/"
+      },
+      {
+        "title": "CLI Annual Report 2025",
+        "url": "https://ir.capitalandinvest.com/misc/ar2025/"
+      },
+      {
+        "title": "CLI FY2025 FUM达1250亿 - Yahoo Finance",
+        "url": "https://sg.news.yahoo.com/capitaland-investment-grows-funds-under-044039039.html"
+      }
+    ],
+    "notes": "Phase3 enriched: expanded departments, recent events (6 events with 2025-2026 dates), related entities, rewrote core_business and apec_stance with verified data. Fixed key_people titles and descriptions to Chinese. FUM confirmed at S$125B as of FY2025."
   }
 }

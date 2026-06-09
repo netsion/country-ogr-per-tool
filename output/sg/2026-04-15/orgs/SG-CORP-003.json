@@ -1,19 +1,21 @@
 {
   "org_id": "SG-CORP-003",
   "basic_info": {
-    "name_original": "大华银行",
+    "name_original": "United Overseas Bank",
     "name_zh": "大华银行",
     "name_en": "United Overseas Bank",
     "aliases": [
       "UOB",
       "UOB Group",
-      "大华银行"
+      "大华银行",
+      "大華銀行",
+      "United Overseas Bank Limited"
     ],
     "org_type": "CORP",
     "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1935-01-01",
+    "founded_date": "1935-08-06",
     "website": "https://www.uobgroup.com/"
   },
   "social_accounts": [
@@ -22,11 +24,23 @@
       "account_name": "uob.sg",
       "url": "https://facebook.com/uob.sg",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "uob",
+      "url": "https://www.linkedin.com/company/uob/",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "uob",
+      "url": "https://www.instagram.com/uob/",
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
-      "name": "UOB官方网站",
+      "name": "UOB集团官方网站",
       "url": "https://www.uobgroup.com/",
       "description": "大华银行集团官方网站，覆盖19个国家和地区的银行业务",
       "source": "official_website"
@@ -38,9 +52,21 @@
       "source": "official_website"
     },
     {
-      "name": "东盟金融科技报告2025",
-      "url": "https://www.uobgroup.com/techecosystem/reports/fintech-in-asean-2025.page",
-      "description": "UOB发布的东盟金融科技生态系统年度研究报告",
+      "name": "UOB 2025年年报",
+      "url": "https://www.uob.com.sg/investor-relations/assets/pdfs/investor/annual/uob-annual-report-2025.pdf",
+      "description": "UOB 2025年度报告，包含完整财务数据、董事会主席致辞和CEO战略展望",
+      "source": "official_website"
+    },
+    {
+      "name": "UOB新闻中心",
+      "url": "https://www.uobgroup.com/uobgroup/newsroom/index.page",
+      "description": "UOB集团最新新闻发布、企业动态和财务业绩公告",
+      "source": "official_website"
+    },
+    {
+      "name": "UOB资产管理 (UOB Asset Management)",
+      "url": "https://www.uobam.com.sg/",
+      "description": "UOB旗下资产管理公司，在新加坡和文莱提供投资管理服务",
       "source": "official_website"
     }
   ],
@@ -48,62 +74,241 @@
     {
       "person_id": "SG-PERSON-000107",
       "name": "黄一宗 (Wee Ee Cheong)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "副主席兼首席执行官 (Deputy Chairman and CEO)",
+      "title_description": "UOB集团最高管理者",
+      "description": "黄一宗是UOB创始人黄庆昌之孙、前主席黄祖耀之子，自1979年加入银行业，拥有超过40年银行从业经验。担任UOB副主席兼CEO，领导集团战略方向。FY2025年薪1200万新元。2026年5月宣布计划到2030年将财富管理收入翻倍。完成花旗东盟消费银行业务49亿美元收购后的全面整合，客户基础扩大至850万。"
     },
     {
-      "person_id": "SG-PERSON-000108",
+      "person_id": "SG-PERSON-000124",
       "name": "黄根成 (Wong Kan Seng)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "董事会主席 (Chairman)",
+      "title_description": "非执行独立董事，2018年2月就任主席",
+      "description": "黄根成于2017年7月加入UOB董事会，2018年2月接替黄祖耀出任主席。此前曾担任新加坡副总理兼内政部长长达26年。FY2025董事费200万新元。他在2025年带领董事会制定了UOB十年发展规划。"
     },
     {
       "person_id": "SG-PERSON-000109",
       "name": "黄祖耀 (Wee Cho Yaw)",
-      "title": "Director",
-      "title_description": null,
-      "description": null
+      "title": "已故荣誉主席 (Late Chairman Emeritus)",
+      "title_description": "2024年2月3日逝世，享年95岁",
+      "description": "黄祖耀是UOB创始人黄庆昌之子，掌舵UOB超过50年，将其从一家单分行银行发展为东南亚第三大银行。在其领导下，UOB通过系列收购（崇侨银行、利华银行、远东银行、华联银行）成长为区域银行巨头。2018年退休离开董事会，2024年2月3日逝世。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-CORP-003-DEPT-001",
-      "name": "opened its first overseas branch in Hong Kong",
+      "name": "个人金融服务部 (Personal Financial Services)",
       "head": null,
-      "description": null,
+      "description": "提供零售银行服务，包括存款、房贷、信用卡、保险和财富管理。在新加坡运营68家分行，整合花旗东盟消费银行业务后客户基础扩大至850万",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-003-DEPT-002",
+      "name": "商业银行部 (Commercial Banking)",
+      "head": null,
+      "description": "服务中小企业和商业客户，提供商业贷款、贸易融资、现金管理和跨境银行服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-003-DEPT-003",
+      "name": "企业与机构银行部 (Corporate and Institutional Banking)",
+      "head": null,
+      "description": "为大型企业和机构客户提供企业融资、银团贷款、项目融资、结构性融资和资本市场解决方案",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-003-DEPT-004",
+      "name": "财富管理部 (Wealth Management)",
+      "head": null,
+      "description": "提供私人银行、贵宾银行和资产管理服务。Q1 FY2026财富收入3.42亿新元，FY2025全年财富收入12.8亿新元。目标到2030年将财富收入翻倍",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-003-DEPT-005",
+      "name": "全球技术与创新中心 (Global Technology and Innovation Centre)",
+      "head": null,
+      "description": "位于榜鹅数码园区（Punggol Digital District），投资超过5亿新元建设30万平方英尺设施，容纳3000名技术和创新人员，设计和部署面向东盟的新一代银行解决方案",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-003-DEPT-006",
+      "name": "UOB大华继显 (UOB Kay Hian)",
+      "head": null,
+      "description": "UOB关联证券经纪公司，提供股票经纪、研究和投资服务，是东南亚最大证券经纪商之一",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-07",
+      "title": "UOB公布Q1 FY2026净利润14.4亿新元，同比下降4%但超预期",
+      "description": "UOB公布Q1 FY2026净利润14.4亿新元，同比下降4%但超出彭博预期的13.9亿新元。净利息收入同比下降4%至23.2亿新元，净息差收窄至1.82%。净手续费收入同比下降8%至6.37亿新元。财富管理收入同比增长6%至3.42亿新元。CEO黄一宗宣布目标到2030年将财富收入翻倍。",
+      "impact": "UOB正从花旗收购整合阶段转向释放客户价值阶段，战略重心转向轻资本、高ROE和费用驱动型增长模式",
+      "source": "https://www.straitstimes.com/business/banking/uob-q1-profit-falls-4-to-1-44-billion-but-beats-expectations"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "UOB成为首家入驻榜鹅数码园区的银行",
+      "description": "UOB正式迁入新加坡榜鹅数码园区（Punggol Digital District），投资超过5亿新元建设全球技术与创新中心。该设施面积30万平方英尺，将容纳3000名技术和创新人员，负责设计和部署面向东盟的新一代银行解决方案。UOB是首家入驻该智慧可持续商业区的银行。",
+      "impact": "强化UOB数字优先战略的技术基础，支持东盟区域数字银行能力输出，90%员工已完成AI技能培训",
+      "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/punggol-digital-district.page"
+    },
+    {
       "date": "2026-02-24",
-      "title": "UOB公布2025财年营业利润77亿新元",
-      "description": "大华银行公布FY2025营业利润达77亿新元，但净利润因上年基数效应同比下降23%至47亿新元。新加坡市场贡献55%收入。费用收入增长强劲。",
-      "impact": "UOB在东盟市场的布局持续深化，计划在东盟推出数字银行服务",
+      "title": "UOB公布FY2025营业利润77亿新元",
+      "description": "UOB公布FY2025营业利润达77亿新元，由强劲的费用收入驱动。财富管理收入增长至12.8亿新元。新加坡市场贡献55%收入。花旗东盟消费银行业务全面整合完成，客户基础扩大至850万。非performing贷款比率保持在1.5%。",
+      "impact": "完成花旗消费银行业务整合是UOB区域扩张的重要里程碑，使其成为东盟最互联的银行特许经营之一",
       "source": "https://www.uobgroup.com/uobgroup/newsroom/2026/uobgroup-fy25-financial-results.page"
+    },
+    {
+      "date": "2025-04-08",
+      "title": "UOB越南增资至10万亿越南盾并建设新总部",
+      "description": "UOB宣布向越南子公司注资2万亿越南盾（约7700万美元），将注册资本提高至10万亿越南盾（约3.85亿美元）。同时将在胡志明市第一郡巴盛综合体（Ba Son Complex）建设UOB Vietnam Plaza新总部大楼。",
+      "impact": "UOB作为首家在越南设立代表处的新加坡银行（1992年），持续加大对越南这一关键东盟市场的投入",
+      "source": "https://en.wikipedia.org/wiki/United_Overseas_Bank"
+    },
+    {
+      "date": "2025-02-01",
+      "title": "UOB中国将个人业务转让予富邦华一银行",
+      "description": "UOB中国宣布将其个人银行业务转让予富邦华一银行。UOB中国将继续专注于企业银行和批发银行业务，在中国大陆17个城市设有分支行。",
+      "impact": "UOB调整在华战略重心，退出零售银行以聚焦企业与批发银行业务，反映外资银行在中国零售市场的挑战",
+      "source": "https://zh.wikipedia.org/wiki/大华银行"
+    },
+    {
+      "date": "2022-01-14",
+      "title": "UOB收购花旗东盟四国消费银行业务",
+      "description": "UOB以约49亿美元收购花旗集团在印尼、马来西亚、泰国和越南的消费银行业务，包括财富管理和零售存款业务。2022年11月完成泰国业务交割，2023年3月完成越南业务交割。此次收购使UOB在上述四国的客户基础翻倍至850万。",
+      "impact": "这是UOB历史上最大规模的收购，显著扩大了其在东盟核心市场的零售银行和财富管理版图",
+      "source": "https://en.wikipedia.org/wiki/United_Overseas_Bank"
+    },
+    {
+      "date": "2024-02-03",
+      "title": "UOB荣誉主席黄祖耀逝世",
+      "description": "UOB荣誉主席兼顾问黄祖耀于2024年2月3日逝世，享年95岁。黄祖耀于1960年加入UOB，1974年出任主席，在其50多年领导下将UOB从一家单分行银行发展为东南亚第三大银行。通过收购崇侨银行、利华银行、远东银行和华联银行等系列并购，塑造了UOB的区域银行地位。",
+      "impact": "新加坡失去一位传奇银行家，黄祖耀被誉为新加坡金融业的奠基人之一。UOB集团市值约500亿新元",
+      "source": "https://www.straitstimes.com/singapore/uob-s-wee-cho-yaw-dies-aged-95"
     }
   ],
-  "related_entities": [],
-  "core_business": "大華銀行（英語：United Overseas Bank；縮寫：UOB），是一間總部設於新加坡的跨國銀行，其分行多遍佈於東南亞國家。大華銀行於1935年由砂拉越商人黃慶昌與其他華裔商人於新加坡創立，該行目前在新加坡設有68間分行，在泰國與印尼也設有上百間據點，在亞太地區、西歐及北美洲19個國家及地區共設有超過500個分行與辦事處。在總資產價值上，大華銀行是東南亞第三大銀行。\n歷史\n1935年8月6日，砂朥越華裔商人黃慶昌與他的六個朋友集資100萬叻幣成立大華銀行。大華銀行名稱是用來強調連繫當地華人的目的，英文行名為United Chinese Bank。1935年10月，大華銀行在萊佛士坊的蒙咸大廈正式開業。1965年，大華銀行在香港成立其第一間海外分行，同年因英文行名與香港中國聯合銀行相同，遂改為 United Overseas Bank。\n1970年，大華銀行在馬來西亞證券交易所上市。在其上市之後，大華銀行進行了一系列的收購計劃。1971年，大華銀行收購崇僑銀行，增加新加坡分行的數目，並擴充了在馬來西亞和香港的業務。1973年，大華銀行亦收購了在馬來西亞和新加坡從事銀行業務的利華銀行。同年，大華銀行在蒙咸大廈原址興建一幢樓高30層的辦公大樓，並命名為大華銀行大廈（今大華銀行大廈二座）。其後，大華銀行又分別在1984年和1999年收購了遠東銀行、菲律宾威士茂银行和泰国汇宝银行。其後，大華銀行在2001年以100億新加坡元的價格收購华联银行。\n2000年，大華銀行附屬的大華證券經紀公司與繼顯控股合併成大華繼顯。\n2002年，大華銀行在中國上海設立分行，並將位處北京的辦事處升格為分行，以擴充中國市場。\n2022年1月14日，马来西亚分行的大华银行成功收购马来西亚的花旗集团。并在于2022年9月14日获得马来西亚国家银行的批准，将向高庭申请资产转移令，再将花旗的消费银行资产和负债转移予马来西亚大华银行。\n股東\n截至2021年3月2日，大華銀行的前八大股東為：\n*佔比乃根據公司已發行普通股總數計算，不包括庫存股及附屬公司持股。\n國際業務\n澳洲\n1986年，大華銀行在悉尼MLC中心建立其在澳洲的第一個分行。大華銀行亦在墨爾本和布里斯本設立辦事處，並提供商業銀行服務，包括往來戶口、存款、貸款、资产融资、贸易融资、结构性融资、现金管理及跨境支付業務。\n汶萊\n大華銀行在汶萊的業務原是1974年華聯銀行在當地創立的業務。2002年1月，華聯銀行被大華銀行收購後，大華銀行接收華聯銀行在汶萊的業務。2005年10月1日，大華銀行在斯里巴加灣市的分行搬遷。\n2015年，大華銀行以6504.4萬新加坡元的價格將其汶萊零售銀行業務出售給佰度瑞银行。佰度瑞银行在此次收購前已負責大華銀行在汶萊的資產管理業務，並向個人、團體及公司提供投資管理經驗。\n中國大陸\n大華銀行在1984年北京建立其在中國大陸第一家辦事處。2007年12月18日，大華銀行（中國）在上海成立。大華銀行在中國大陸有17間分行或支行，位處上海、北京、沈阳、深圳、天津、廈門、杭州、成都、廣州、蘇州、重慶和昆明等主要城市，提供零售及批发银行业务。\n2019年7月16日申能集團與大華銀行在上海合資成立「申能消費金融有限公司」，合資公司初期註冊資本為5億元，申能集團與大華銀行分別持股80.1%和19.9%。\n2025年2月，大华银行中国宣布将其个人业务转让予富邦华一银行。\n香港\n大華銀行在1965年在香港建立其首間海外分行，主要從事贸易融资及企業银行業務。大華銀行在香港有3家分行，其中最大的分行提供全面個人及公司銀行服",
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "UOB大华继显 (UOB Kay Hian Private Limited)",
+      "org_type": "CORP",
+      "org_description": "东南亚最大证券经纪商之一，UOB关联公司，提供股票经纪、研究和投资服务。2025年7月因反洗钱违规被新加坡金管局罚款285万新元",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "UOB资产管理 (UOB Asset Management Ltd)",
+      "org_type": "CORP",
+      "org_description": "UOB旗下资产管理子公司，在新加坡和文莱提供投资管理服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "UOB泰国 (United Overseas Bank Thai)",
+      "org_type": "CORP",
+      "org_description": "UOB泰国子公司，前身为Radanasin Bank，2005年与Bank of Asia合并，拥有154家分行。2022年11月完成花旗泰国消费银行业务整合",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "UOB马来西亚 (UOB Malaysia)",
+      "org_type": "CORP",
+      "org_description": "UOB马来西亚子公司，1993年成立，整合利华银行、崇侨银行和华联银行在马业务。2022年收购花旗马来西亚消费银行业务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "UOB印尼 (UOB Indonesia)",
+      "org_type": "CORP",
+      "org_description": "前身为PT Bank Buana Indonesia（1956年成立），在印尼30个城市运营41家分行和172家支行",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "UOB中国 (UOB China)",
+      "org_type": "CORP",
+      "org_description": "2007年12月在上海成立，在中国大陆17个城市设有分支行，提供零售和批发银行业务。2025年2月将个人业务转让予富邦华一银行",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "UOB越南 (UOB Vietnam)",
+      "org_type": "CORP",
+      "org_description": "UOB是首家在越南设立代表处的新加坡银行（1992年），2025年增资至10万亿越南盾，建设UOB Vietnam Plaza新总部。2023年完成花旗越南消费银行业务收购",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "United Orient Capital Pte Ltd",
+      "org_type": "CORP",
+      "org_description": "UOB合资企业，专注于私募股权投资",
+      "relationship_type": "strategic_alliance"
+    }
+  ],
+  "core_business": "大华银行（UOB）是新加坡第三大银行、东南亚第三大银行（按总资产计），于1935年8月6日由砂拉越华裔商人黄庆昌与六位合伙人集资100万叻币创立，最初名为United Chinese Bank，1965年因与香港中国联合银行英文名重复而更名为United Overseas Bank。银行总部位于新加坡莱佛士坊UOB大厦，在新加坡设有68家分行，在全球19个国家和地区拥有近430家分支行和办事处，雇员约2.5万人。UOB核心业务涵盖个人金融服务、商业银行、企业与机构银行、财富管理和资产管理五大板块。个人金融服务覆盖零售存款、信用卡、房贷和保险；商业银行服务中小企业融资和跨境贸易；企业银行提供银团贷款、项目融资和资本市场解决方案；财富管理业务目标到2030年收入翻倍。2022年UOB以约49亿美元收购花旗集团在印尼、马来西亚、泰国和越南的消费银行业务，使客户基础扩大至850万，成为东盟最互联的银行特许经营之一。UOB在新加坡交易所上市（SGX: U11），信用评级为标普AA-，2019年被列入彭博性别平等指数。2026年5月，UOB投资超过5亿新元在榜鹅数码园区建成全球技术与创新中心，容纳3000名技术人员，推动数字银行能力在东盟区域的部署。UOB还通过绿色通道安排与柔佛投资局合作，已为柔佛-新加坡经济特区引入超过58亿新元的外商直接投资。",
   "industries": [
     "financial_services"
   ],
-  "apec_stance": "UOB积极推动APEC区域数字银行发展，计划在东盟推出专属数字银行平台。2025年UOB与DBS联合为东南亚数据中心项目提供IDR6.7万亿银团贷款，支持区域数字基础设施建设。UOB在东盟金融科技领域发布年度研究报告，促进区域金融创新合作。",
+  "apec_stance": "UOB是APEC区域银行业的重要参与者和东盟金融一体化的积极推动者。作为东南亚第三大银行，UOB在东盟10国中的7国设有银行业务，并在大中华区、日本和韩国等APEC经济体拥有分支网络。2022年收购花旗东盟四国消费银行业务（49亿美元）使UOB成为该区域最大的跨国银行网络之一，客户基础扩大至850万。UOB积极推动东盟区域数字银行发展，2026年5月在榜鹅数码园区启用5亿新元全球技术与创新中心，3000名技术人员负责设计和部署面向东盟的新一代数字银行解决方案，90%员工已完成AI技能培训。UOB通过绿色通道安排（Green Lane）与柔佛投资局合作，为柔佛-新加坡经济特区（JS-SEZ）引入超过58亿新元外商直接投资，促进APEC区域跨境投资便利化。在可持续金融方面，UOB发布东盟金融科技年度研究报告，推动区域金融创新合作，并支持数据中心等数字基础设施项目的银团贷款。在财富管理领域，UOB目标到2030年将财富收入翻倍，强化东盟和北亚跨境财富管理能力。UOB在中国大陆17个城市设有分支行，2019年与申能集团合资成立申能消费金融公司。UOB还通过TMRW数字银行平台在泰国和印尼提供移动银行服务，推动APEC发展中经济体的金融普惠。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/At_Singapore_2023_106.jpg/330px-At_Singapore_2023_106.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikipedia_zh",
+      "official_website",
+      "news_articles",
+      "press_releases",
+      "financial_reports"
     ],
-    "completeness_score": 94,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 94)"
+    "completeness_score": 89,
+    "notes": "Phase 3 enrichment: updated key people descriptions with detailed backgrounds (Wee Cho Yaw death noted), added 7 recent events including Q1 FY2026 results and Punggol Digital District move, expanded departments to 6 units, added 8 related entities covering all major subsidiaries and associates, enriched core_business and apec_stance with latest financial data and strategic developments.",
+    "quotes": [
+      {
+        "title": "UOB Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/United_Overseas_Bank"
+      },
+      {
+        "title": "大华银行 Wikipedia (中文)",
+        "url": "https://zh.wikipedia.org/wiki/大华银行"
+      },
+      {
+        "title": "UOB Group Official Website",
+        "url": "https://www.uobgroup.com/"
+      },
+      {
+        "title": "UOB FY25 Financial Results Press Release",
+        "url": "https://www.uobgroup.com/uobgroup/newsroom/2026/uobgroup-fy25-financial-results.page"
+      },
+      {
+        "title": "Straits Times: UOB to double wealth income by 2030",
+        "url": "https://www.straitstimes.com/business/banking/uob-q1-profit-falls-4-to-1-44-billion-but-beats-expectations"
+      },
+      {
+        "title": "Yahoo Finance: UOB 1QFY2026 net profit analysis",
+        "url": "https://sg.finance.yahoo.com/news/uobs-1qfy2026-net-profit-rises-152014539.html"
+      },
+      {
+        "title": "UOB Punggol Digital District Press Release",
+        "url": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/punggol-digital-district.page"
+      },
+      {
+        "title": "Wee Cho Yaw Obituary - Straits Times",
+        "url": "https://www.straitstimes.com/singapore/uob-s-wee-cho-yaw-dies-aged-95"
+      },
+      {
+        "title": "UOB Board of Directors",
+        "url": "https://www.uobgroup.com/uobgroup/about/management/board-of-directors.page"
+      },
+      {
+        "title": "Business Times: UOB CEO Wee Ee Cheong FY2025 pay",
+        "url": "https://www.businesstimes.com.sg/companies-markets/uob-ceo-wee-ee-cheongs-fy2025-pay-down-20-s12-million-line-profit-drop"
+      }
+    ]
   }
 }

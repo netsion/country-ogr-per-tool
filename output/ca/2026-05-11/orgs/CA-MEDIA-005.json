@@ -1,0 +1,276 @@
+{
+  "org_id": "CA-MEDIA-005",
+  "basic_info": {
+    "name_original": "La Presse",
+    "name_zh": "新闻报",
+    "name_en": "La Presse",
+    "aliases": [
+      "La Presse+",
+      "La Presse Mobile",
+      "Cyberpresse"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "digital_media",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "founded_date": "1884-10-20",
+    "website": "https://www.lapresse.ca/"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@LP_LaPresse",
+      "url": "https://x.com/LP_LaPresse",
+      "source": "official website footer"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "LaPresseFB",
+      "url": "https://www.facebook.com/LaPresseFB/",
+      "source": "official website footer"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@lp_lapresse",
+      "url": "https://www.instagram.com/lp_lapresse/",
+      "source": "official website footer"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "La Presse",
+      "url": "https://www.youtube.com/lapresse",
+      "source": "official website footer"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "@lp_lapresse",
+      "url": "https://www.tiktok.com/@lp_lapresse",
+      "source": "social media search"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "La Presse+ (tablet edition)",
+      "url": "https://plus.lapresse.ca/",
+      "description": "Free interactive digital edition for iPad and Android tablets, launched in 2013 as the core digital product",
+      "source": "wikipedia"
+    },
+    {
+      "name": "La Presse Mobile app",
+      "url": "https://www.lapresse.ca/",
+      "description": "Mobile news application providing free access to all La Presse content",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Atelier La Presse (advertising)",
+      "url": "https://atelier.lapresse.ca/",
+      "description": "Advertising and media kit platform for La Presse, providing audience data and ad solutions",
+      "source": "official website"
+    },
+    {
+      "name": "Nuglif (publishing technology)",
+      "url": "https://www.lapresse.ca/",
+      "description": "Subsidiary founded in May 2015 offering publishing software and tools for digital news media, replicating the La Presse+ model for other publications",
+      "source": "wikipedia"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000225",
+      "name": "Pierre-Elliott Levasseur (皮埃尔-埃利奥特·勒瓦瑟)",
+      "title": "President (总裁)",
+      "title_description": "Oversees overall strategy, operations and financial management of La Presse as an independent non-profit organization",
+      "description": "Led La Presse through its transition from print to fully digital and from Power Corporation ownership to non-profit status in 2018"
+    },
+    {
+      "person_id": "CA-PERSON-000226",
+      "name": "Guy Crevier (盖伊·克勒维耶)",
+      "title": "Editor-in-Chief (总编辑)",
+      "title_description": "Responsible for editorial direction and news coverage quality across all La Presse platforms",
+      "description": "Joined La Presse in 2001 as news editor, initiated radical editorial remodelling that modernized the newspaper and increased circulation"
+    },
+    {
+      "person_id": "CA-PERSON-000227",
+      "name": "Francois Cardinal (弗朗索瓦·卡尔迪纳尔)",
+      "title": "Vice-President, Information and Deputy Publisher (信息副总裁兼副发行人)",
+      "title_description": "Deputy publisher overseeing editorial operations and digital strategy; represents La Presse at international media conferences",
+      "description": "Journalist since 1998, served as reporter, parliamentary correspondent, and columnist before rising to executive editorial role"
+    },
+    {
+      "person_id": "CA-PERSON-000228",
+      "name": "Patrick Lagace (帕特里克·拉加塞)",
+      "title": "Senior Columnist (资深专栏作家)",
+      "title_description": "High-profile columnist covering politics, society and current affairs for La Presse",
+      "description": "Joined La Presse in 2006 after seven years at Le Journal de Montreal; one of Quebec's most recognized media figures, also hosts morning radio on 98.5 FM"
+    },
+    {
+      "person_id": "CA-PERSON-000229",
+      "name": "Yves Boisvert (伊夫·布瓦韦尔)",
+      "title": "Senior Columnist (资深专栏作家)",
+      "title_description": "Columnist specializing in judicial affairs and political commentary",
+      "description": "Holds a law degree from Universite de Montreal; veteran journalist with decades of experience in Quebec media"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CA-MEDIA-005-DEPT-001",
+      "name": "Newsroom (新闻编辑部)",
+      "head": "Guy Crevier",
+      "description": "Largest independent French-language newsroom in North America, covering regional, provincial, national and international news with reporters, correspondents and photographers worldwide",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CA-MEDIA-005-DEPT-002",
+      "name": "Political Bureau (政治报道部)",
+      "head": null,
+      "description": "Dedicated team of parliamentary correspondents covering Quebec City (National Assembly) and Ottawa (Parliament of Canada) politics",
+      "parent_dept_id": "CA-MEDIA-005-DEPT-001"
+    },
+    {
+      "dept_id": "CA-MEDIA-005-DEPT-003",
+      "name": "International Desk (国际新闻部)",
+      "head": null,
+      "description": "Foreign correspondents and international coverage desk, with reporting from major global hotspots; formerly led by award-winning correspondent Agnes Gruda",
+      "parent_dept_id": "CA-MEDIA-005-DEPT-001"
+    },
+    {
+      "dept_id": "CA-MEDIA-005-DEPT-004",
+      "name": "Business and Economy Section (商业经济部)",
+      "head": null,
+      "description": "Dedicated team covering business, finance, economy and technology news for Quebec and Canadian audiences",
+      "parent_dept_id": "CA-MEDIA-005-DEPT-001"
+    },
+    {
+      "dept_id": "CA-MEDIA-005-DEPT-005",
+      "name": "Digital Product and Technology (数字产品与技术部)",
+      "head": null,
+      "description": "Responsible for La Presse+, mobile apps, website development, and the Nuglif publishing technology subsidiary",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-30",
+      "title": "AP and La Presse renew collaboration through 2029",
+      "description": "The Associated Press and La Presse renewed their longstanding collaboration, extending their news-sharing relationship through 2029, strengthening La Presse's international coverage capabilities",
+      "impact": "Ensures continued access to global wire content and enhances La Presse's international reporting capacity for the next four years",
+      "source": "https://www.ap.org/media-center/press-releases/2025/ap-lapresse-renew-longstanding-collaboration/"
+    },
+    {
+      "date": "2025-09-25",
+      "title": "La Presse publishes major digital transformation series",
+      "description": "La Presse published an in-depth portfolio series examining digital transformation across Quebec's economy, analyzing five key metrics to understand the scope and pace of technological change",
+      "impact": "Demonstrated La Presse's role as a thought leader in analyzing digital economy trends relevant to Quebec and Canadian business communities",
+      "source": "https://www.lapresse.ca/affaires/portfolio/2025-09-25/transformation-numerique/cinq-chiffres-pour-comprendre.php"
+    },
+    {
+      "date": "2024-07-01",
+      "title": "WAN-IFRA highlights La Presse as global print-to-digital success story",
+      "description": "The World Association of News Publishers featured La Presse in a detailed case study as one of the few newspapers worldwide that has successfully completed the full transition from print to digital, reaching 4 million monthly readers (60% of Quebec's adult population)",
+      "impact": "Established La Presse as a global benchmark for digital newspaper transformation; validated the non-profit, free-access digital model",
+      "source": "https://wan-ifra.org/2024/07/ceasing-print-the-bold-and-successful-story-of-canadas-la-presse/"
+    },
+    {
+      "date": "2024-02-01",
+      "title": "La Presse reports financial sustainability with 56,000 donors contributing $7.8 million",
+      "description": "The News Media Canada initiative highlighted La Presse's donor-funded model, showing 56,000 donors contributed $7.8 million, proving that a non-profit digital news model can achieve financial viability",
+      "impact": "Validated the innovative non-profit digital media business model as sustainable, with donation revenue growing to $9 million from 62,000 donors by 2024",
+      "source": "https://nmc-mic.ca/2024/02/01/how-la-presse-is-helping-show-that-news-organizations-can-still-be-profitable/"
+    },
+    {
+      "date": "2025-03-17",
+      "title": "La Presse provides extensive coverage of Canada-US trade war",
+      "description": "La Presse published in-depth analysis of the Canada-US tariff escalation, reporting on Quebec's and Canada's inability to indefinitely retaliate against escalating US tariffs under the Trump administration",
+      "impact": "Played a critical role informing Quebec's Francophone public about the trade war's economic implications, providing analysis unavailable in English-language media",
+      "source": "https://www.lapresse.ca/actualites/politique/2025-03-17/guerre-commerciale/le-canada-ne-pourra-pas-riposter-a-une-surenchere-tarifaire.php"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-SOE-003",
+      "org_name": "Canadian Broadcasting Corporation / Radio-Canada",
+      "org_type": "SOE",
+      "org_description": "Canada's national public broadcaster; Radio-Canada is the primary French-language public media competitor to La Presse in Quebec",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-MEDIA-006",
+      "org_name": "The Canadian Press / La Presse canadienne",
+      "org_type": "MEDIA",
+      "org_description": "Canada's national news agency; La Presse is a major client of CP wire services for Canadian and international news coverage",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-MEDIA-003",
+      "org_name": "The Globe and Mail",
+      "org_type": "MEDIA",
+      "org_description": "Canada's leading English-language national newspaper; serves as a counterpart to La Presse in the English-language market",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-FIN-007",
+      "org_name": "Desjardins Group",
+      "org_type": "FIN",
+      "org_description": "North America's largest association of credit unions, based in Quebec; formerly connected through Power Corporation's ownership network",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "La Presse（新闻报）是加拿大魁北克省最重要的法语数字新闻媒体，成立于1884年，总部位于蒙特利尔。该报最初为纸质大报，被视为加拿大的报纸记录之一。2013年推出面向iPad的免费数字版La Presse+，2016年停止工作日纸质版，2017年12月31日彻底停印，成为加拿大首家全面数字化转型的大型日报。2018年7月，La Presse从Power Corporation of Canada（鲍尔集团）及Desmarais家族剥离，转型为独立非营利组织，由社会信托基金管理。该报每月覆盖约400万读者，相当于魁北克省成年人口的60%，是北美最大的独立法语新闻编辑室。La Presse采用免费获取模式，收入来源包括数字广告、读者捐赠（2024年6.2万捐赠者共捐900万加元）及政府媒体扶持资金，2024年实现750万加元盈余。其新闻覆盖涵盖政治、经济、国际事务、文化、体育等领域，并拥有派驻魁北克城和渥太华的议会记者团队及海外通讯员网络。",
+  "industries": [
+    "digital_media",
+    "media_publishing",
+    "broadcasting",
+    "nonprofit"
+  ],
+  "apec_stance": "La Presse作为魁北克最大的法语新闻媒体，在亚太地区事务报道方面主要通过国际新闻部门进行。该报与美联社（AP）保持长期新闻合作关系（2025年续约至2029年），借此获取亚太地区新闻素材。La Presse在加拿大对华贸易政策、加美贸易争端等涉及APEC经济体的议题上发挥了重要的舆论引导作用。2025年加拿大与美国贸易战期间，La Presse深入分析了关税升级对魁北克经济的影响，以及加拿大-中国贸易谈判的地缘政治复杂性。该报编辑立场传统上支持加拿大联邦主义和自由贸易，在魁北克独立公投中均支持联邦派选项。作为非营利数字媒体，La Presse的报道为法语加拿大公众提供了关于亚太经济合作与国际贸易的关键信息来源。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2012_logo_for_La_Presse_newspaper.svg/330px-2012_logo_for_La_Presse_newspaper.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-12",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 100,
+    "notes": "Enriched profile from Wikipedia, official site, WAN-IFRA case study, Reuters Institute Digital News Report, and news search results",
+    "quotes": [
+      {
+        "title": "La Presse - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/La_Presse_(Canadian_newspaper)"
+      },
+      {
+        "title": "Ceasing print: The bold and successful story of Canada's La Presse - WAN-IFRA",
+        "url": "https://wan-ifra.org/2024/07/ceasing-print-the-bold-and-successful-story-of-canadas-la-presse/"
+      },
+      {
+        "title": "AP and LaPresse renew longstanding collaboration",
+        "url": "https://www.ap.org/media-center/press-releases/2025/ap-lapresse-renew-longstanding-collaboration/"
+      },
+      {
+        "title": "How La Presse is helping show that news organizations can still be profitable - News Media Canada",
+        "url": "https://nmc-mic.ca/2024/02/01/how-la-presse-is-helping-show-that-news-organizations-can-still-be-profitable/"
+      },
+      {
+        "title": "Reuters Institute Digital News Report 2025 - Canada",
+        "url": "https://reutersinstitute.politics.oxford.ac.uk/digital-news-report/2025/canada"
+      },
+      {
+        "title": "La Presse nos realisations - Annual reports",
+        "url": "https://info.lapresse.ca/nous-soutenir/nos-realisations"
+      },
+      {
+        "title": "La Presse to become a non-profit entity - CBC News",
+        "url": "https://www.cbc.ca/news/canada/montreal/montreal-s-la-presse-to-become-non-profit-entity-1.4653138"
+      },
+      {
+        "title": "La Presse is surviving in a unique media market - The Hub",
+        "url": "https://thehub.ca/2024/05/10/la-presse-is-surviving-in-a-unique-media-market/"
+      }
+    ]
+  }
+}

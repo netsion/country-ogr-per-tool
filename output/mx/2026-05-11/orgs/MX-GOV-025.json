@@ -1,0 +1,272 @@
+{
+  "org_id": "MX-GOV-025",
+  "basic_info": {
+    "name_original": "Instituto Nacional Electoral",
+    "name_zh": "国家选举研究所",
+    "name_en": "National Electoral Institute",
+    "aliases": [
+      "INE",
+      "Instituto Federal Electoral",
+      "IFE"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "independent_organ",
+    "country_iso3": "MEX",
+    "hq_country_iso3": "MEX",
+    "founded_date": "2014-04-03",
+    "website": "https://www.ine.mx"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@INEMexico",
+      "url": "https://twitter.com/INEMexico",
+      "source": "official website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "INEMexico",
+      "url": "https://www.facebook.com/INEMexico",
+      "source": "official website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "INE",
+      "url": "https://www.youtube.com/user/INEMexico",
+      "source": "official website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "inemexico",
+      "url": "https://www.instagram.com/inemexico/",
+      "source": "official website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "INE选举数据中心",
+      "url": "https://computos.ine.mx/",
+      "description": "联邦和地方选举计票结果官方查询平台，提供实时计票数据和统计报告",
+      "source": "official website"
+    },
+    {
+      "name": "选民登记与凭证系统",
+      "url": "https://www.ine.mx/credencial/",
+      "description": "联邦选民登记处管理平台，负责选民凭证（INE卡）的申领和更新，该凭证同时作为墨西哥最主要的身份证件",
+      "source": "official website"
+    },
+    {
+      "name": "2025年司法选举计票系统",
+      "url": "https://computospj2025.ine.mx/",
+      "description": "2025年历史性司法选举专用计票平台，用于首次全民投票选举881名法官和治安法官的计票与结果公布",
+      "source": "official website"
+    },
+    {
+      "name": "政党财政审计门户",
+      "url": "https://www.ine.mx/fiscalizacion/",
+      "description": "全国财政审计系统（Sistema Nacional de Fiscalización），负责审计全国各政党和独立候选人的竞选资金来源与使用",
+      "source": "official website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MX-PERSON-000042",
+      "name": "瓜达卢佩·塔德伊·萨瓦拉 (Guadalupe Taddei Zavala)",
+      "title": "总理事会主席 (Consejera Presidenta del Consejo General)",
+      "title_description": "INE最高决策机构的负责人，负责主持总理事会会议并领导联邦选举组织工作",
+      "description": "2023年4月由众议院选举产生，任期九年（至2032年），是INE历史上首位女性主席。曾任国家移民研究所法律顾问、墨西哥城选举研究所顾问。"
+    },
+    {
+      "person_id": "MX-PERSON-000172",
+      "name": "克劳迪娅·阿莱特·埃斯皮诺 (Claudia Arlett Espino)",
+      "title": "执行秘书 (Secretaria Ejecutiva)",
+      "title_description": "负责协调总执行委员会、管理和监督INE各执行和技术机构的运营",
+      "description": "2024年12月1日起任INE执行秘书，由主席提名并经总理事会批准。"
+    },
+    {
+      "person_id": "MX-PERSON-000173",
+      "name": "阿图罗·卡斯蒂略·洛萨 (Arturo Castillo Loza)",
+      "title": "选举顾问 (Consejero Electoral)",
+      "title_description": "总理事会11名选举顾问之一，拥有投票权，参与制定选举政策和决定",
+      "description": "2023年4月由众议院选举产生，任期至2032年4月。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "MX-GOV-025-DEPT-001",
+      "name": "总理事会 (Consejo General)",
+      "head": "瓜达卢佩·塔德伊·萨瓦拉 (Guadalupe Taddei Zavala)",
+      "description": "INE最高决策机构，由11名选举顾问（含主席）、立法代表、政党代表和执行秘书组成，负责制定选举政策、监督选举过程和批准选举结果",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-002",
+      "name": "执行秘书处 (Secretaría Ejecutiva)",
+      "head": "克劳迪娅·阿莱特·埃斯皮诺 (Claudia Arlett Espino)",
+      "description": "负责协调总执行委员会工作，管理和监督INE各执行和技术机构的日常运营",
+      "parent_dept_id": "MX-GOV-025-DEPT-001"
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-003",
+      "name": "联邦选民登记处 (Dirección Ejecutiva del Registro Federal de Electores)",
+      "head": null,
+      "description": "负责管理联邦选民名册、印制选民凭证（INE卡），该凭证是墨西哥最重要的身份证件",
+      "parent_dept_id": "MX-GOV-025-DEPT-002"
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-004",
+      "name": "选举组织执行处 (Dirección Ejecutiva de Organización Electoral)",
+      "head": null,
+      "description": "负责规划、协调和执行联邦选举的各项后勤工作，包括投票站设置、选票印刷和计票",
+      "parent_dept_id": "MX-GOV-025-DEPT-002"
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-005",
+      "name": "特权与政党执行处 (Dirección Ejecutiva de Prerrogativas y Partidos Políticos)",
+      "head": null,
+      "description": "负责分配和管理政党财政资助、广播和电视时段，以及监督政党资金使用",
+      "parent_dept_id": "MX-GOV-025-DEPT-002"
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-006",
+      "name": "国家选举专业服务处 (Dirección Ejecutiva del Servicio Profesional Electoral Nacional)",
+      "head": null,
+      "description": "负责INE专业人员的招聘、选拔、培训和考核，确保选举工作的专业化和连续性",
+      "parent_dept_id": "MX-GOV-025-DEPT-002"
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-007",
+      "name": "财政审计技术处 (Unidad Técnica de Fiscalización)",
+      "head": null,
+      "description": "负责审计全国政党和独立候选人的竞选收支，执行全国财政审计系统的各项职能",
+      "parent_dept_id": "MX-GOV-025-DEPT-002"
+    },
+    {
+      "dept_id": "MX-GOV-025-DEPT-008",
+      "name": "地方公共机构联络技术处 (Unidad Técnica de Vinculación con los Organismos Públicos Locales)",
+      "head": null,
+      "description": "负责INE与32个州级选举机构的协调与合作，确保地方选举的统一标准",
+      "parent_dept_id": "MX-GOV-025-DEPT-002"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-01",
+      "title": "INE成功组织墨西哥首次司法选举",
+      "description": "INE组织了墨西哥历史上首次全民投票选举司法官员（881个职位），包括最高法院大法官、巡回法院治安法官和地区法院法官。这是2024年司法改革后的首次司法选举，具有历史里程碑意义。",
+      "impact": "全球首次大规模司法选举，开创司法民主化先例，但投票率偏低引发争议，选举结果确认莱尼亚·巴特雷斯和乌戈·阿吉拉尔当选最高法院大法官",
+      "source": "https://es.wikipedia.org/wiki/Elecciones_federales_judiciales_extraordinarias_de_M%C3%A9xico_de_2025"
+    },
+    {
+      "date": "2025-10-01",
+      "title": "塔德伊就选举改革表态：INE必须保持自主性",
+      "description": "INE主席瓜达卢佩·塔德伊在UNAM法学研究所举办的'选举改革：走向何方？'研讨会上表示，墨西哥需要一个21世纪的INE，必须保持自主、透明、远离政治波动。她强调选举改革应作为完善民主的工具。",
+      "impact": "为即将到来的选举改革讨论定调，INE表明坚守制度独立性的立场",
+      "source": "https://www.jornada.com.mx/2025/10/02/politica/012n1pol"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "塔德伊重组总执行委员会，实现多数女性领导",
+      "description": "INE主席瓜达卢佩·塔德伊公布了总执行委员会（JGE）的最终组成，在性别争议后实现女性占多数的领导结构。该委员会是INE负责执行工作的核心机构。",
+      "impact": "推进INE内部性别平等，回应此前关于性别代表性不足的批评",
+      "source": "https://www.infobae.com/mexico/2026/05/08/taddei-reestructura-la-junta-general-ejecutiva-del-ine-con-mayoria-femenina-tras-polemica-de-genero/"
+    },
+    {
+      "date": "2025-07-15",
+      "title": "塔德伊警告选举改革可能带来'崎岖前途'",
+      "description": "针对总统府提出的选举改革方案，INE主席瓜达卢佩·塔德伊警告改革方案可能给INE带来'崎岖前途'，并表示INE将寻求与总统委员会和立法委员会进行对话。",
+      "impact": "揭示INE与行政和立法部门之间围绕选举改革方向存在的张力",
+      "source": "https://www.sdpnoticias.com/mexico/reforma-electoral-guadalupe-taddei-ve-futuro-escabroso-por-esta-propuesta/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MX-GOV-006",
+      "org_name": "联邦司法选举法庭 (Tribunal Electoral del Poder Judicial de la Federación)",
+      "org_type": "GOV",
+      "org_description": "负责裁决选举争议的司法机构，对INE的选举决定进行司法审查",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "MX-GOV-001",
+      "org_name": "总统府 (Presidencia de la República)",
+      "org_type": "GOV",
+      "org_description": "联邦行政权力最高机构，可通过提出选举改革方案影响INE的组织架构",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "MX-GOV-004",
+      "org_name": "众议院 (Cámara de Diputados)",
+      "org_type": "GOV",
+      "org_description": "负责选举INE顾问和批准INE预算的立法机构",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "MX-GOV-003",
+      "org_name": "参议院 (Senado de la República)",
+      "org_type": "GOV",
+      "org_description": "参与选举相关立法审批的上级议院",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "MX-PARTY-001",
+      "org_name": "国家复兴运动党 (Morena)",
+      "org_type": "PARTY",
+      "org_description": "执政党，推动2024年司法改革和2025年选举改革的主要政治力量",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "墨西哥国家选举研究所（INE）是墨西哥五个宪法自治机构之一，是联邦选举事务的最高权威机构。其主要职能包括：组织和规范全国范围内的联邦及地方选举；管理联邦选民登记册并发放选民凭证（即俗称的'INE卡'，该凭证同时是墨西哥最重要的全国通用身份证件）；组织公民参与程序，包括公民提案、公民咨询和罢免投票；监督和审计全国政党和独立候选人的竞选资金来源与使用；管理选举期间广播电视时段的分配；推广公民参与公共生活和民主文化；以及规范选举过程中所有参与者的行为准则。INE于2014年4月3日正式成立，取代了此前的联邦选举研究所（IFE），将职能范围从联邦选举扩展到全国所有层级选举。INE的永久性结构包括总理事会（11名选举顾问组成）、执行秘书处和总执行委员会，另设32个地方委员会和300个选区委员会等临时性机构在选举期间运作。INE还通过专业选举服务系统（Servicio Profesional Electoral Nacional）保障选举工作的专业化和连续性。2025年6月，INE成功组织了墨西哥乃至全球首次大规模司法选举，投票选举881名司法官员，创造了司法民主化的历史先例。INE年度预算约327.67亿比索（2024年），总部位于墨西哥城特拉尔潘区。",
+  "industries": [
+    "public_administration",
+    "regulatory"
+  ],
+  "apec_stance": "作为宪法自治机构，INE不直接参与APEC框架内的活动。然而，INE的选举组织经验在亚太地区具有一定示范意义，尤其是其自1990年代以来建立的算法化选区重划系统（使用模拟退火和蜂巢优化等算法）在国际上受到广泛关注。INE的选举观察和透明度机制也与APEC倡导的良好治理和制度化建设目标一致。墨西哥在APEC财长会议和领导人非正式会议等场合展示的民主制度化成果，部分得益于INE作为独立选举机构所保障的选举公正性。INE管理的选民凭证（INE卡）系统作为全国统一身份证件的技术经验，也可为APEC经济体在数字身份认证领域提供参考。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/IFE_logo.gif/250px-IFE_logo.gif",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 88,
+    "notes": "Enriched profile from Wikipedia EN/ES, official INE site, and recent news (2025-2026). Key events include 2025 judicial elections and electoral reform debate. Person IDs set to null as key figures not in name_index.",
+    "quotes": [
+      {
+        "title": "National Electoral Institute - Wikipedia EN",
+        "url": "https://en.wikipedia.org/wiki/National_Electoral_Institute"
+      },
+      {
+        "title": "Instituto Nacional Electoral - Wikipedia ES",
+        "url": "https://es.wikipedia.org/wiki/Instituto_Nacional_Electoral"
+      },
+      {
+        "title": "INE Sitio Oficial",
+        "url": "https://www.ine.mx"
+      },
+      {
+        "title": "Reforma electoral debe preservar autonomía del INE - La Jornada",
+        "url": "https://www.jornada.com.mx/2025/10/02/politica/012n1pol"
+      },
+      {
+        "title": "Taddei reestructura la JGE del INE - Infobae",
+        "url": "https://www.infobae.com/mexico/2026/05/08/taddei-reestructura-la-junta-general-ejecutiva-del-ine-con-mayoria-femenina-tras-polemica-de-genero/"
+      },
+      {
+        "title": "Elecciones federales judiciales extraordinarias 2025 - Wikipedia ES",
+        "url": "https://es.wikipedia.org/wiki/Elecciones_federales_judiciales_extraordinarias_de_M%C3%A9xico_de_2025"
+      },
+      {
+        "title": "Resultados Elección Judicial 2025 - Infobae",
+        "url": "https://www.infobae.com/mexico/2025/06/02/resultados-eleccion-judicial-2025-ultimas-noticias-y-reacciones-a-la-votacion-de-jueces-y-magistrados/"
+      }
+    ]
+  }
+}

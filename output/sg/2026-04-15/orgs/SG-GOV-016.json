@@ -1,217 +1,381 @@
 {
   "org_id": "SG-GOV-016",
   "basic_info": {
-    "name_original": "新加坡贸易和工业部",
-    "name_zh": "新加坡贸易和工业部",
+    "name_original": "Ministry of Trade and Industry",
     "name_en": "Ministry of Trade and Industry",
+    "name_zh": "新加坡贸易与工业部",
     "aliases": [
+      "MTI",
       "MTI Singapore",
-      "新加坡贸易和工业部",
-      "Kementerian Perdagangan dan Perusahaan"
+      "Ministry of Trade and Industry Singapore",
+      "新加坡贸工部",
+      "新加坡贸易与工业部",
+      "Kementerian Perdagangan dan Perusahaan",
+      "Kementerian Perdagangan dan Industri",
+      "வர்த்தக, தொழில் அமைச்சு"
     ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
     "founded_date": "1979-03-15",
-    "website": "http://app.mti.gov.sg"
+    "headquarters": "100 High Street, #09-01 (The Treasury), Singapore 179434",
+    "website": "https://www.mti.gov.sg"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
       "account_name": "MTI_Sg",
       "url": "https://twitter.com/MTI_Sg",
-      "source": "wikidata"
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "MTISingapore",
       "url": "https://facebook.com/MTISingapore",
-      "source": "wikidata"
+      "source": "official_website"
     },
     {
       "platform": "youtube",
-      "account_name": "UCR6rrRIDFGobm_rDzPkUYOg",
+      "account_name": "MTI Singapore",
       "url": "https://youtube.com/channel/UCR6rrRIDFGobm_rDzPkUYOg",
-      "source": "wikidata"
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "MTI Singapore",
+      "url": "https://www.linkedin.com/company/mtisingapore/",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
     {
       "name": "MTI官方网站",
       "url": "https://www.mti.gov.sg",
-      "description": "MTI官方门户网站，包含政策信息、新闻发布和组织架构",
-      "source": "web_search"
+      "description": "MTI官方门户网站，包含政策信息、经济数据、新闻发布和组织架构。",
+      "source": "https://www.mti.gov.sg"
     },
     {
       "name": "MTI新闻室",
       "url": "https://www.mti.gov.sg/newsroom/",
-      "description": "MTI官方新闻发布和声明",
-      "source": "web_search"
+      "description": "MTI官方新闻发布和声明，涵盖贸易政策、经济数据和产业动态。",
+      "source": "https://www.mti.gov.sg/newsroom/"
     },
     {
       "name": "APEC参与页面",
       "url": "https://www.mti.gov.sg/trade-international-economic-relations/regional-and-international-platforms/asia-pacific-economic-cooperation-apec/",
-      "description": "新加坡在APEC中的参与概述",
-      "source": "web_search"
+      "description": "新加坡在APEC中的参与概述，包括历史、当前优先事项和新加坡作为创始成员的角色。",
+      "source": "https://www.mti.gov.sg/trade-international-economic-relations/regional-and-international-platforms/asia-pacific-economic-cooperation-apec/"
+    },
+    {
+      "name": "COS 2026专页",
+      "url": "https://www.mti.gov.sg/resources/cos2026/",
+      "description": "贸工部2026年供应委员会辩论专页，包含六大战略优先方向和详细政策计划。",
+      "source": "https://www.mti.gov.sg/resources/cos2026/"
+    },
+    {
+      "name": "新加坡经济调查报告",
+      "url": "https://www.mti.gov.sg/resources/economic-survey-of-singapore/",
+      "description": "MTI定期发布的新加坡经济表现报告，包含GDP增长、贸易数据和产业分析。",
+      "source": "https://www.mti.gov.sg/resources/economic-survey-of-singapore/"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000031",
-      "name": "Gan Kim Yong (颜金勇)",
-      "title": "Deputy Prime Minister and Minister for Trade and Industry",
-      "title_description": "贸工部部长，兼任副总理和MAS主席",
-      "description": "颜金勇现任新加坡副总理兼贸工部部长，同时担任新加坡金融管理局（MAS）主席。在GE2025后新内阁中获任命为副总理。"
+      "name": "颜金勇 (Gan Kim Yong)",
+      "title": "副总理兼贸工部长",
+      "title_description": "Deputy Prime Minister and Minister for Trade and Industry",
+      "description": "颜金勇现任新加坡副总理兼贸工部部长，同时担任新加坡金融管理局（MAS）主席。自2021年5月起担任贸工部长，在GE2025后新内阁中获任命为副总理。在其领导下，新加坡2025年经济增长达5.0%。"
     },
     {
-      "person_id": "SG-PERSON-000046",
-      "name": "Alvin Tan (陈杰豪)",
-      "title": "Minister of State for Trade and Industry",
-      "title_description": "贸工部政务部长",
-      "description": "陈杰豪担任贸工部政务部长，协助部长处理贸易和工业事务。"
+      "person_id": "SG-PERSON-000025",
+      "name": "陈诗龙 (Tan See Leng)",
+      "title": "贸工部兼管能源与科技部长",
+      "title_description": "Minister-in-charge of Energy and Science & Technology in MTI",
+      "description": "陈诗龙担任贸工部兼管能源与科技部长，同时担任人力部长。负责能源转型、碳减排和科技创新政策。"
     },
     {
-      "person_id": "SG-PERSON-000146",
-      "name": "Beh Swan Gin (梅森源)",
-      "title": "Permanent Secretary (Development)",
-      "title_description": "常任秘书（发展），负责MTI发展事务",
-      "description": "梅森源博士担任MTI常任秘书（发展），负责贸工部的发展政策和战略方向。"
+      "person_id": "SG-PERSON-000015",
+      "name": "傅海燕 (Grace Fu)",
+      "title": "贸工部兼管贸易关系部长",
+      "title_description": "Minister-in-charge of Trade Relations in MTI",
+      "description": "傅海燕担任贸工部兼管贸易关系部长，同时担任永续发展与环境部长。代表新加坡出席APEC部长级会议和贸易部长会议，2025年在APEC MRT和AMM中积极倡导以规则为基础的多边贸易体系。"
+    },
+    {
+      "person_id": "SG-PERSON-000178",
+      "name": "刘燕玲 (Low Yen Ling)",
+      "title": "贸工部高级政务部长",
+      "title_description": "Senior Minister of State for Trade and Industry",
+      "description": "刘燕玲担任贸工部高级政务部长，同时兼任文化、社区及青年部高级政务部长。负责企业生态系统和创业支持事务。"
+    },
+    {
+      "person_id": "SG-PERSON-000113",
+      "name": "陈杰豪 (Alvin Tan)",
+      "title": "贸工部政务部长",
+      "title_description": "Minister of State for Trade and Industry",
+      "description": "陈杰豪担任贸工部政务部长，协助部长处理贸易和工业事务，关注数字经济和创新产业。"
+    },
+    {
+      "person_id": "SG-PERSON-000251",
+      "name": "颜晓芳 (Gan Siow Huang)",
+      "title": "贸工部政务部长",
+      "title_description": "Minister of State for Trade and Industry",
+      "description": "颜晓芳担任贸工部政务部长，协助部长处理贸易和工业事务。"
     },
     {
       "person_id": "SG-PERSON-000144",
+      "name": "马宣仁 (Beh Swan Gin)",
+      "title": "常任秘书",
+      "title_description": "Permanent Secretary",
+      "description": "马宣仁博士担任MTI常任秘书，负责贸工部的整体行政管理和政策协调。"
+    },
+    {
+      "person_id": "SG-PERSON-000262",
       "name": "Augustin Lee",
-      "title": "Permanent Secretary (Energy & Carbon / Trade)",
-      "title_description": "常任秘书（能源与碳/贸易）",
-      "description": "Augustin Lee担任MTI常任秘书，负责能源、碳政策和贸易事务。"
+      "title": "常任秘书（能源与贸易）",
+      "title_description": "Permanent Secretary (Energy and Trade)",
+      "description": "Augustin Lee担任MTI常任秘书（能源与贸易），负责能源政策、碳减排和贸易事务。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-016-DEPT-001",
-      "name": "The nine Statutory Boards comprises:",
+      "name": "新加坡科技研究局 (Agency for Science, Technology and Research, A*STAR)",
       "head": null,
-      "description": null,
+      "description": "负责推动科学研究和科技创新的法定机构，是新加坡研发体系的核心。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-002",
-      "name": "Agency for Science, Technology and Research (A*STAR),",
+      "name": "经济发展局 (Economic Development Board, EDB)",
       "head": null,
-      "description": null,
+      "description": "负责吸引外资和推动产业发展的法定机构，是新加坡经济发展战略的主要执行者。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-003",
-      "name": "Economic Development Board (EDB),",
+      "name": "新加坡企业发展局 (Enterprise Singapore, EnterpriseSG)",
       "head": null,
-      "description": null,
+      "description": "负责支持企业发展和国际化的法定机构，管理StartupSG等创业支持计划。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-004",
-      "name": "Enterprise Singapore,",
+      "name": "裕廊集团 (JTC Corporation)",
       "head": null,
-      "description": null,
+      "description": "负责工业基础设施开发与管理的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-005",
-      "name": "Jurong Town Corporation (JTC),",
+      "name": "新加坡旅游局 (Singapore Tourism Board, STB)",
       "head": null,
-      "description": null,
+      "description": "负责推广新加坡旅游的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-006",
-      "name": "Singapore Tourism Board (STB),",
+      "name": "新加坡竞争与消费者委员会 (Competition and Consumer Commission of Singapore, CCCS)",
       "head": null,
-      "description": null,
+      "description": "负责维护市场竞争秩序和保护消费者权益的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-007",
-      "name": "Competition and Consumer Commission of Singapore (CCCS),",
+      "name": "能源市场管理局 (Energy Market Authority, EMA)",
       "head": null,
-      "description": null,
+      "description": "负责能源市场监管和能源安全的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-008",
-      "name": "Energy Market Authority (EMA),",
+      "name": "酒店执照局 (Hotels Licensing Board, HLB)",
       "head": null,
-      "description": null,
+      "description": "负责酒店行业牌照管理的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-009",
-      "name": "Hotels Licensing Board (HLB), and",
+      "name": "圣淘沙发展局 (Sentosa Development Corporation, SDC)",
       "head": null,
-      "description": null,
+      "description": "负责圣淘沙岛开发和管理的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-016-DEPT-010",
-      "name": "List of ministers",
+      "name": "新加坡统计局 (Department of Statistics, DOS)",
       "head": null,
-      "description": null,
+      "description": "负责国家统计数据收集和发布的政府部门。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-016-DEPT-011",
+      "name": "新加坡国家航天局 (National Space Agency of Singapore, NSAS)",
+      "head": null,
+      "description": "负责推动新加坡航天技术发展和太空产业战略的政府部门。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-02-10",
+      "title": "MTI上调2026年GDP增长预测至2.0%-4.0%",
+      "description": "MTI宣布新加坡2025年经济增长5.0%，并将2026年GDP增长预测从1.0%-3.0%上调至2.0%-4.0%，主要受全球AI投资热潮推动。制造业和批发贸易表现强劲，服务业出口亦保持增长。",
+      "impact": "显示新加坡经济在全球不确定性中保持韧性，AI投资成为新增长引擎。",
+      "source": "https://www.singstat.gov.sg/news/performance-of-singapore-economy-4q2025"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "COS 2026公布六大战略优先方向",
+      "description": "贸工部在2026年供应委员会辩论中公布六大战略优先方向：建立关键增长领域领导地位并拓展新增长领域（含半导体RIE旗舰计划、8亿元去碳化大挑战）；维持活力企业生态（含10亿元StartupSG Equity增资、15亿元锚基金第二期）；建立AI领导者地位（含AI Champions计划和Kampong AI园区）；强化可信赖枢纽地位；捍卫和拓展经济空间；以及推进能源转型。",
+      "impact": "全面规划新加坡经济未来方向，AI、半导体和去碳化是三大重点投资领域。",
+      "source": "https://www.mti.gov.sg/resources/cos2026/"
+    },
+    {
       "date": "2025-10-31",
       "title": "新加坡在APEC部长级会议呼吁加强区域韧性",
-      "description": "新加坡在APEC 2025部长级会议上重申对WTO规则为基础的多边贸易体系的承诺，呼吁多边合作增强亚太区域韧性。",
+      "description": "贸工部兼管贸易关系部长傅海燕出席在韩国庆州举行的APEC 2025部长级会议（AMM），重申新加坡对以WTO规则为基础的多边贸易体系的承诺，呼吁多边合作增强亚太区域韧性。会议有21个APEC经济体部长及ASEAN、OECD、WTO等国际组织参加。",
       "impact": "显示新加坡作为贸易枢纽在APEC框架中的积极角色和对多边主义的坚定支持。",
-      "source": "https://www.sgpc.gov.sg/api/file/getfile/Singapore%2520Calls%2520for%2520Multilateral%2520Cooperation%2520to%2520Enhance%2520Resilience%2520Across%2520Region%2520At%2520APEC%2520Ministerial%2520Meeting%25202025_31%2520Oct%25202025.pdf"
+      "source": "https://www.mti.gov.sg/newsroom/singapore-calls-for-multilateral-cooperation-to-enhance-resilience-across-the-region-at-apec-ministerial-meeting-2025/"
     },
     {
       "date": "2025-05-16",
       "title": "新加坡在APEC贸易部长会议重申规则为基础的贸易体系",
-      "description": "贸工部长颜金勇在APEC MRT 2025会议上重申新加坡对规则为基础的多边贸易体系的承诺。APEC发表联合声明表达对全球贸易挑战的关切。",
+      "description": "贸工部兼管贸易关系部长傅海燕在APEC MRT 2025会议（韩国济州）上重申新加坡对以规则为基础的多边贸易体系的承诺。会议发表联合声明表达对全球贸易挑战的关切。APEC经济体占新加坡全球商品和服务贸易的78%以上。",
       "impact": "在全球贸易紧张局势中维护自由贸易立场，体现新加坡作为开放经济体的核心利益。",
       "source": "https://www.mti.gov.sg/newsroom/singapore-reaffirms-commitment-to-the-rules-based-multilateral-trading-system-at-apec-ministers-responsible-for-trade-meeting-2025/"
     },
     {
-      "date": "2025-10-16",
-      "title": "新加坡预算2026：AI战略从愿景到执行",
-      "description": "MTI推动新加坡2026财年预算中的AI战略部署，从政策愿景转向实际执行阶段。",
-      "impact": "显示MTI在推动新加坡数字经济和AI产业发展方面的关键政策角色。",
-      "source": "https://news.nus.edu.sg/"
+      "date": "2025-09-16",
+      "title": "启动未来投资与贸易伙伴关系（FIT Partnership）",
+      "description": "MTI推动启动未来投资与贸易伙伴关系（Future of Investment and Trade Partnership），旨在应对新兴挑战和机遇，推进新加坡经济蓝图的更新。",
+      "impact": "为新加坡在新全球经济格局中拓展贸易和投资合作奠定框架基础。",
+      "source": "https://www.mti.gov.sg/trade-international-economic-relations/regional-and-international-platforms/future-of-investment-and-trade-partnership/"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "新加坡2026年第一季度GDP预估增长4.6%",
+      "description": "根据MTI公布的预先估计，新加坡2026年第一季度GDP同比增长4.6%，商品出口同比增长41.2%，消费价格指数同比上涨1.8%。",
+      "impact": "经济延续2025年强劲表现，显示制造业和出口持续增长动力。",
+      "source": "https://www.mti.gov.sg"
     }
   ],
   "related_entities": [
     {
-      "org_id": "SG-GOV-017",
-      "org_name": "Monetary Authority of Singapore (MAS, 新加坡金融管理局)",
+      "org_id": "SG-GOV-002",
+      "org_name": "新加坡政府 (Government of Singapore)",
       "org_type": "GOV",
-      "org_description": "MTI部长颜金勇兼任MAS主席",
+      "org_description": "贸工部是新加坡政府的下辖部门",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_description": "贸工部长为内阁成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "SG-GOV-017",
+      "org_name": "新加坡金融管理局 (Monetary Authority of Singapore)",
+      "org_type": "GOV",
+      "org_description": "贸工部长颜金勇兼任MAS主席",
       "relationship_type": "partner"
     },
     {
       "org_id": "SG-INTL-001",
-      "org_name": "APEC Secretariat (APEC秘书处)",
+      "org_name": "亚太经济合作组织 (Asia-Pacific Economic Cooperation)",
       "org_type": "INTL",
-      "org_description": "MTI是新加坡参与APEC事务的主管部门",
+      "org_description": "MTI是新加坡参与APEC事务的核心主管部门，APEC经济体占新加坡全球贸易的78%以上",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-ACAD-004",
+      "org_name": "新加坡科技研究局 (Agency for Science, Technology and Research)",
+      "org_type": "ACAD",
+      "org_description": "A*STAR是MTI管辖下的法定机构，负责国家科研和创新战略",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-013",
+      "org_name": "经济发展局 (Economic Development Board)",
+      "org_type": "GOV",
+      "org_description": "MTI管辖下的法定机构，负责吸引外资和推动产业发展战略",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-014",
+      "org_name": "新加坡企业发展局 (Enterprise Singapore)",
+      "org_type": "GOV",
+      "org_description": "MTI管辖下的法定机构，负责支持企业发展和国际化，管理StartupSG等计划",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-005",
+      "org_name": "新加坡国际港务集团 (PSA International)",
+      "org_type": "SOE",
+      "org_description": "新加坡主要港口运营商，与MTI的贸易便利化政策密切相关",
       "relationship_type": "partner"
     }
   ],
-  "core_business": "新加坡贸易与工业部（英語：Ministry of Trade and Industry；馬來語：Kementerian Perdagangan dan Industri），简称“贸工部”、缩写为MTI，是新加坡政府的一个部门，主要负责新加坡贸易和工业政策的制定和实施。\n历任部长\n该部由“贸易与工业部长”（简称“贸工部长”）领导，为新加坡内阁的一员。\n法定机构\n新加坡统计局\n新加坡科技研究局\n新加坡竞争委员会\n新加坡经济发展局\n能源市场管理局\n酒店执照局\n新加坡国际企业发展局\n裕廊集团\n圣淘沙发展局\n新加坡旅游局\n生产力和创新局\n参考文献\n外部链接\n官方网站",
+  "core_business": "新加坡贸易与工业部（英语：Ministry of Trade and Industry，缩写MTI）是新加坡政府负责制定和实施贸易与工业政策的核心部门，成立于1979年3月15日。其法定格言为「A Global City of Business Excellence」（卓越商业的全球城市）。MTI总部位于财务大厦（The Treasury），2018年约有3,134名员工。MTI的核心职能涵盖五大领域：一是推动生产力驱动型经济增长，通过研发投资和产业升级提升国家竞争力；二是维护和拓展经济空间，通过多边和双边贸易协定深化经济联系，积极参与APEC、WTO等国际经济组织；三是建设面向未来的经济，重点投资半导体、AI、量子计算、去碳化技术和航天产业等前沿领域；四是发展活力企业生态，通过StartupSG、锚基金等计划支持创业和中小企业发展；五是推进能源转型，在确保能源安全的同时实现低碳经济转型。MTI管辖11个法定机构和政府部门，包括新加坡科技研究局（A*STAR）、经济发展局（EDB）、新加坡企业发展局（EnterpriseSG）、裕廊集团（JTC）、新加坡旅游局（STB）、竞争与消费者委员会（CCCS）、能源市场管理局（EMA）、酒店执照局（HLB）、圣淘沙发展局（SDC）、统计局（DOS）和国家航天局（NSAS）。2025年新加坡经济增长5.0%，2026年增长预测为2.0%-4.0%。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "MTI是新加坡参与APEC事务的核心主管部门，负责制定和执行新加坡在APEC框架下的贸易和经济政策。2025年，MTI在APEC贸易部长会议（MRT）和部长级会议（AMM）中均积极倡导以规则为基础的多边贸易体系，推动贸易便利化倡议（包括无纸化贸易对话），并呼吁加强区域韧性。新加坡在APEC中获得了所有经济体对贸易便利化举措的认可。MTI管辖下的企业发展局（EnterpriseSG）和经济发展局（EDB）也是APEC经济合作项目的积极参与者。",
-  "profile": null,
+  "apec_stance": "MTI是新加坡参与APEC事务的核心主管部门，负责制定和执行新加坡在APEC框架下的贸易和经济政策。新加坡是APEC创始成员之一（1989年），APEC经济体占新加坡全球商品和服务贸易的78%以上。2009年新加坡曾担任APEC主席，以「持续增长、连接区域」为主题推动区域经济一体化。2025年，MTI在APEC贸易部长会议（MRT，韩国济州）和部长级会议（AMM，韩国庆州）中均积极倡导以规则为基础的多边贸易体系。在MRT 2025上，傅海燕重申新加坡对WTO规则体系的承诺；在AMM 2025上，新加坡呼吁多边合作增强区域韧性，支持贸易便利化倡议和无纸化贸易对话。MTI 2026年COS辩论明确将「捍卫和拓展经济空间」列为六大战略优先之一，承诺深化与关键经济伙伴的贸易和投资联系，拓展新兴市场，通过灵活多边主义维护以规则为基础的贸易秩序。MTI管辖下的企业发展局（EnterpriseSG）和经济发展局（EDB）也是APEC经济合作项目的积极参与者。2026年APEC由越南主办，MTI将继续推动数字经济、AI合作和供应链韧性等议题。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ministry_of_Trade_and_Industry_%28Singapore%29_logo.png/330px-Ministry_of_Trade_and_Industry_%28Singapore%29_logo.png",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
-    "data_sources": [
-      "wikidata",
-      "wikipedia",
-      "official_website"
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "MTI Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Trade_and_Industry_(Singapore)"
+      },
+      {
+        "title": "MTI Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡贸易和工业部"
+      },
+      {
+        "title": "MTI Official Website",
+        "url": "https://www.mti.gov.sg"
+      },
+      {
+        "title": "MTI COS 2026 Page",
+        "url": "https://www.mti.gov.sg/resources/cos2026/"
+      },
+      {
+        "title": "MTI APEC Page",
+        "url": "https://www.mti.gov.sg/trade-international-economic-relations/regional-and-international-platforms/asia-pacific-economic-cooperation-apec/"
+      },
+      {
+        "title": "APEC AMM 2025 Press Release",
+        "url": "https://www.mti.gov.sg/newsroom/singapore-calls-for-multilateral-cooperation-to-enhance-resilience-across-the-region-at-apec-ministerial-meeting-2025/"
+      },
+      {
+        "title": "APEC MRT 2025 Press Release",
+        "url": "https://www.mti.gov.sg/newsroom/singapore-reaffirms-commitment-to-the-rules-based-multilateral-trading-system-at-apec-ministers-responsible-for-trade-meeting-2025/"
+      },
+      {
+        "title": "GDP Forecast Upgrade",
+        "url": "https://www.singstat.gov.sg/news/performance-of-singapore-economy-4q2025"
+      },
+      {
+        "title": "CNA GDP Coverage",
+        "url": "https://www.channelnewsasia.com/singapore/gdp-2026-growth-forecast-upgrade-manufacturing-tariffs-5918991"
+      }
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with web search: key people (minister, PS), recent events (APEC 2025), related entities, APEC stance, digital assets (score: 92)"
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "web_search",
+      "government_press_release"
+    ],
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: corrected departments (real statutory boards), added NSAS, added 6 recent events with GDP data and COS 2026, expanded key_people with correct person_ids from index (SG-PERSON-000113 for Alvin Tan, SG-PERSON-000025 for Tan See Leng, SG-PERSON-000015 for Grace Fu, SG-PERSON-000178 for Low Yen Ling), expanded related_entities, added headquarters, expanded core_business and apec_stance, added linkedin social account."
   }
 }

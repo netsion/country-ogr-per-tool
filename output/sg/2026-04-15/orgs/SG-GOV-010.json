@@ -1,19 +1,20 @@
 {
   "org_id": "SG-GOV-010",
   "basic_info": {
-    "name_original": "财政部",
+    "name_original": "Ministry of Finance",
     "name_zh": "财政部",
     "name_en": "Ministry of Finance",
     "aliases": [
-      "财政部",
-      "Kementerian Kewangan Singapura"
+      "MOF",
+      "Kementerian Kewangan Singapura",
+      "新加坡财政部"
     ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": null,
-    "website": "http://www.mof.gov.sg"
+    "founded_date": "1959-06-05",
+    "website": "https://www.mof.gov.sg"
   },
   "social_accounts": [
     {
@@ -37,16 +38,28 @@
   ],
   "digital_assets": [
     {
-      "name": "Singapore Budget",
+      "name": "新加坡预算案官网",
       "url": "https://www.singaporebudget.gov.sg/",
-      "description": "新加坡政府预算官方网站。",
+      "description": "新加坡政府预算官方网站，含预算声明全文、收入支出分析及各项支援措施详情",
       "source": "https://www.singaporebudget.gov.sg/"
     },
     {
-      "name": "MOF官网",
+      "name": "财政部官网",
       "url": "https://www.mof.gov.sg/",
-      "description": "新加坡财政部官网。",
+      "description": "新加坡财政部官方网站，发布财政政策、税务变更及新闻公告",
       "source": "https://www.mof.gov.sg/"
+    },
+    {
+      "name": "财政部新闻发布室",
+      "url": "https://www.mof.gov.sg/news-resources/newsroom/",
+      "description": "财政部新闻发布及声明档案，含部长演讲全文",
+      "source": "https://www.mof.gov.sg/"
+    },
+    {
+      "name": "Budget 2026 专题页",
+      "url": "https://www.gov.sg/budget2026/",
+      "description": "新加坡政府Budget 2026专题页面，以\"在变革的世界中共同保障未来\"为主题",
+      "source": "https://www.gov.sg/budget2026/"
     }
   ],
   "key_people": [
@@ -54,101 +67,217 @@
       "person_id": "SG-PERSON-000005",
       "name": "黄循财 (Lawrence Wong)",
       "title": "总理兼财政部长",
-      "title_description": "Minister for Finance / Prime Minister",
-      "description": "新加坡第四任总理，继续兼任财政部长。"
+      "title_description": "Prime Minister and Minister for Finance",
+      "description": "新加坡第四任总理，继续兼任财政部长。2021年5月起担任财长，是继李显龙之后第二位兼任总理的财长。"
     },
     {
-      "person_id": "SG-PERSON-000095",
-      "name": "Indranee Rajah",
+      "person_id": "SG-PERSON-000018",
+      "name": "英兰妮 (Indranee Rajah)",
       "title": "财政部第二部长",
       "title_description": "Second Minister for Finance",
-      "description": "兼任总理署和财政部第二部长。"
-    },
-    {
-      "person_id": "SG-PERSON-000169",
-      "name": "Lai Chung Han",
-      "title": "常任秘书",
-      "title_description": "Permanent Secretary",
-      "description": "黎忠翰，财政部常任秘书。"
+      "description": "兼任总理公署部长和国家发展部第二部长，协助财长处理财政部事务。"
     },
     {
       "person_id": "SG-PERSON-000034",
-      "name": "Jeffrey Siow",
-      "title": "高级政务部长",
+      "name": "萧振祥 (Jeffrey Siow)",
+      "title": "财政部高级政务部长",
       "title_description": "Senior Minister of State for Finance",
-      "description": "萧振祥，财政部高级政务部长。"
+      "description": "同时担任交通部代部长，2025年5月内阁改组后晋升为高级政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000249",
+      "name": "黄伟中 (Shawn Huang Wei Zhong)",
+      "title": "财政部高级政务秘书",
+      "title_description": "Senior Parliamentary Secretary for Finance",
+      "description": "2024年5月起担任财政部高级政务秘书，同时兼任人力部高级政务秘书。前F-16战斗机飞行员。"
+    },
+    {
+      "person_id": "SG-PERSON-000159",
+      "name": "黎忠汉 (Lai Chung Han)",
+      "title": "常任秘书",
+      "title_description": "Permanent Secretary",
+      "description": "财政部最高级别公务员，负责部委日常行政管理和政策执行。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-010-DEPT-001",
-      "name": "Statutory Boards",
+      "name": "会计与企业管制局 (Accounting and Corporate Regulatory Authority, ACRA)",
       "head": null,
-      "description": null,
+      "description": "负责企业注册、会计行业监管及公司治理法规执行的法定机构",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-010-DEPT-002",
-      "name": "Ministers",
+      "name": "新加坡国内税务局 (Inland Revenue Authority of Singapore, IRAS)",
       "head": null,
-      "description": null,
+      "description": "负责征收税款、执行税法及管理税务激励措施的法定机构，为政府最大收入征收机构",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-010-DEPT-003",
-      "name": "References",
+      "name": "新加坡赛马博彩管理局 (Tote Board)",
       "head": null,
-      "description": null,
+      "description": "管理赛马博彩及新加坡博彩公司的法定机构，收益用于慈善及社会项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-010-DEPT-004",
-      "name": "External links",
+      "name": "主计署 (Accountant-General's Department, AGD)",
       "head": null,
-      "description": null,
+      "description": "负责政府账目管理、财务报告及公共部门会计标准制定的部门",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-010-DEPT-005",
-      "name": "Media related to Ministry of Finance (Singapore) at Wikimedia Commons",
+      "name": "新加坡关税局 (Singapore Customs)",
       "head": null,
-      "description": null,
+      "description": "负责贸易便利化、关税征收及海关执法的部门",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-010-DEPT-006",
+      "name": "VITAL (政府部门共享服务中心)",
+      "head": null,
+      "description": "为政府各部门提供共享行政服务的中心，包括财务、人力资源及采购服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-010-DEPT-007",
+      "name": "新加坡会计发展局 (Singapore Accountancy Commission, SAC)",
+      "head": null,
+      "description": "推动新加坡会计行业发展的法定机构，负责会计标准和专业资格监管",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2026-02-18",
-      "title": "新加坡2026财年预算案发布",
-      "description": "总理兼财政部长黄循财发表预算声明，总预算约1547亿新元。",
-      "impact": "宣布40%企业所得税回扣、成立国家AI委员会等。",
-      "source": "https://www.singaporebudget.gov.sg/"
+      "date": "2026-05-06",
+      "title": "FATF发布新加坡反洗钱同行评估报告",
+      "description": "金融行动特别工作组（FATF）发布新加坡第五轮互评估报告，强烈肯定新加坡在反洗钱、反恐融资及反扩散融资方面拥有健全有效的框架和流程",
+      "impact": "巩固新加坡作为国际金融中心的信誉，为财政部继续强化金融犯罪防控提供国际认可",
+      "source": "https://www.mof.gov.sg/news-resources/newsroom/singapore-has-a-robust-framework-for-combatting-financial-crime-according-to-international-body/"
     },
     {
       "date": "2026-04-07",
       "title": "增强预算措施应对全球局势",
-      "description": "财政部高级政务部长宣布提前落实部分预算措施。",
-      "impact": "针对全球不确定性，提前提供定向支持。",
+      "description": "财政部高级政务部长宣布提前落实部分预算措施，针对全球不确定性提供定向支持",
+      "impact": "加速向企业和个人提供援助，增强经济韧性",
       "source": "https://www.gov.sg/budget2026/"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "黄循财总理发表2026财年预算声明",
+      "description": "总理兼财政部长黄循财在国会发表以\"在变革的世界中共同保障未来\"为主题的2026年预算声明，总支出约1547亿新元。核心措施包括40%企业所得税回扣（上限3万新元）、成立国家AI委员会、企业创新计划AI增强版（400%税务扣除）等",
+      "impact": "推动AI国家战略落地、强化经济转型蓝图实施、为企业和家庭提供即时支援",
+      "source": "https://www.singaporebudget.gov.sg/"
+    },
+    {
+      "date": "2025-08-01",
+      "title": "经济策略检讨启动",
+      "description": "政府启动经济策略检讨（ESR），由副总理颜金勇领导五个委员会，旨在为新加坡制定前瞻性经济蓝图以应对地缘政治变化和技术颠覆",
+      "impact": "2026年1月发布七项中期建议，为Budget 2026的政策方向奠定基础",
+      "source": "https://www.gov.sg/features/sert/esr/"
     }
   ],
-  "related_entities": [],
-  "core_business": "新加坡財政部（馬來語：Kementerian Kewangan Singapura；英語：Ministry of Finance），缩写为MOF，是新加坡政府的一个部门，负责規範新加坡經濟的結構及管理新加坡的金融機構，規模約1,523名人員。现任财政部长是人民行动党的黄循财。\n组织结构\n财政部下属4个法定机构，即会计与企业管制局 (ACRA)、新加坡国内税务局 (IRAS)、新加坡会计发展局 (SAC) 和新加坡赛马博彩管理局。财政部也下辖3个部门，主计署 (AGD)、VITAL 和新加坡海关。\n历任部长\n參考注釋\n外部連結\n財政部官方網站 （页面存档备份，存于互联网档案馆）",
+  "related_entities": [
+    {
+      "org_id": "SG-GOV-002",
+      "org_name": "新加坡政府 (Government of Singapore)",
+      "org_type": "GOV",
+      "org_description": "新加坡国家行政体系最高层级",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "org_name": "总理公署 (Prime Minister's Office)",
+      "org_type": "GOV",
+      "org_description": "新加坡政府行政核心机构，财长黄循财同时担任总理",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "SG-GOV-016",
+      "org_name": "新加坡贸易和工业部 (Ministry of Trade and Industry)",
+      "org_type": "GOV",
+      "org_description": "负责经济政策和产业发展的部委，与财政部在经济策略检讨中紧密合作",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "SG-GOV-017",
+      "org_name": "新加坡金融管理局 (Monetary Authority of Singapore)",
+      "org_type": "GOV",
+      "org_description": "中央银行及金融监管机构，与财政部协调货币政策和金融监管",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-SOE-001",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_description": "新加坡主权财富基金，财政部负责监督其投资储备的使用",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-SOE-002",
+      "org_name": "新加坡政府投资公司 (GIC Private Limited)",
+      "org_type": "SOE",
+      "org_description": "新加坡主权财富基金，管理政府外汇储备投资",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "新加坡财政部（Ministry of Finance，缩写MOF）是新加坡政府负责财政政策制定和执行的核心部委，成立于1959年，总部位于新加坡高街100号财政部大楼。财政部的主要职责包括：制定和管理国家年度预算，每年由财长向国会提交预算声明，经辩论通过后形成拨款法案并经总统签署成为法律；管理政府财政收入和支出，确保审慎和可持续的财政政策；制定和执行税务政策，涵盖企业所得税、个人所得税、消费税等各类税种；监管金融市场法律法规，包括会计师法、会计标准法、商业注册法、公司法、有限合伙法等；推动国际金融机构联络与合作，代表新加坡参与国际金融治理；确保政府储备金审慎投资和公共资金的合理使用。财政部下辖三个法定机构和三个部门：会计与企业管制局（ACRA）负责企业注册和会计行业监管，新加坡国内税务局（IRAS）负责税款征收，新加坡赛马博彩管理局（Tote Board）管理博彩业收益用于社会公益，主计署（AGD）管理政府账目，新加坡海关负责贸易便利化和关税征收，VITAL提供政府共享行政服务。此外，新加坡会计发展局（SAC）亦为财政部下属法定机构。财政部现有员工约3858人（2018年数据），2019年年度预算约10.2亿新元。自成立以来，历届财政部长均为人民行动党成员，其中李显龙（2004-2007年）和黄循财（2024年至今）曾同时担任总理和财政部长。2026年预算案以\"在变革的世界中共同保障未来\"为主题，聚焦AI战略、经济转型和劳动力技能提升，总支出约1547亿新元。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "新加坡作为APEC秘书处所在地，积极推动自由贸易和数字贸易。黄循财总理出席2025年APEC韩国峰会，强调维护基于规则的多边贸易体系。新加坡将于2030年主办APEC峰会。",
+  "apec_stance": "新加坡财政部作为APEC经济体财长会议（APEC Finance Ministers' Meeting）的参与方，积极推动区域金融合作与宏观经济政策协调。黄循财总理兼财长在APEC框架下强调维护基于规则的多边贸易体系和开放的区域经济一体化。财政部通过其管辖的新加坡金融管理局（MAS）积极参与APEC金融市场改革、数字贸易标准制定和金融科技合作。2026年预算案中推出的企业创新计划AI增强版（400%税务扣除）和国家AI委员会成立，与APEC数字经济和人工智能治理优先事项高度一致。新加坡作为APEC秘书处所在地，财政部承担协调APEC经济委员会相关议题的职责。新加坡将于2030年主办APEC峰会，财政部将主导相关财政和金融议题的筹备工作。财政部还通过经济策略检讨（ESR）推动新加坡在全球地缘经济碎片化背景下的竞争力重塑，这与APEC推动区域经济一体化的核心目标相辅相成。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
       "official_website",
-      "web_search"
+      "web_search",
+      "news_articles"
     ],
-    "completeness_score": 90,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 70)"
+    "completeness_score": 91,
+    "notes": "Phase 3 enrichment: corrected person_id for Indranee Rajah (SG-PERSON-000018) and Lai Chung Han (SG-PERSON-000159), added Shawn Huang Wei Zhong as SPS, replaced invalid departments with actual MOF statutory boards and departments, expanded related_entities to 6 entries, added 4 recent events (2025-2026), enriched digital_assets to 4 items, set founded_date to 1959-06-05, rewrote core_business and apec_stance with cross-verified data.",
+    "quotes": [
+      {
+        "title": "Wikipedia - Ministry of Finance (Singapore)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Finance_(Singapore)"
+      },
+      {
+        "title": "MOF Official Website",
+        "url": "https://www.mof.gov.sg"
+      },
+      {
+        "title": "Singapore Budget 2026",
+        "url": "https://www.singaporebudget.gov.sg/"
+      },
+      {
+        "title": "Gov.sg Budget 2026",
+        "url": "https://www.gov.sg/budget2026/"
+      },
+      {
+        "title": "MOF - FATF Financial Crime Report",
+        "url": "https://www.mof.gov.sg/news-resources/newsroom/singapore-has-a-robust-framework-for-combatting-financial-crime-according-to-international-body/"
+      },
+      {
+        "title": "FATF Mutual Evaluation Report Singapore 2026",
+        "url": "https://www.fatf-gafi.org/en/publications/Mutualevaluations/mer-singapore-2026.html"
+      },
+      {
+        "title": "PMO Cabinet Appointments May 2025",
+        "url": "https://www.pmo.gov.sg/newsroom/changes-to-cabinet-and-other-appointments-may-2025/"
+      },
+      {
+        "title": "Economic Strategy Review",
+        "url": "https://www.gov.sg/features/sert/esr/"
+      },
+      {
+        "title": "KPMG Singapore Budget 2026 Summary",
+        "url": "https://kpmg.com/sg/en/campaigns/kpmg-singapore-budget.html"
+      }
+    ]
   }
 }

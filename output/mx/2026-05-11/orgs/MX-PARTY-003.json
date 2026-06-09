@@ -1,0 +1,259 @@
+{
+  "org_id": "MX-PARTY-003",
+  "basic_info": {
+    "name_original": "Partido Revolucionario Institucional",
+    "name_zh": "制度革命党",
+    "name_en": "Institutional Revolutionary Party",
+    "aliases": [
+      "PRI",
+      "P.R.I.",
+      "Partido Nacional Revolucionario",
+      "Partido de la Revolución Mexicana",
+      "Partido Revolucionario Institucional",
+      "El Tricolor"
+    ],
+    "org_type": "PARTY",
+    "org_subtype": null,
+    "country_iso3": "MEX",
+    "hq_country_iso3": "MEX",
+    "founded_date": "1929-03-04",
+    "website": "https://www.pri.org.mx"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "PRI_Nacional",
+      "url": "https://twitter.com/PRI_Nacional",
+      "source": "wikipedia"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "PRINacional",
+      "url": "https://www.facebook.com/PRINacional",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "pri_nacional",
+      "url": "https://www.instagram.com/pri_nacional",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "PRINacional",
+      "url": "https://www.youtube.com/@PRINacional",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "PRI官方网站",
+      "url": "https://www.pri.org.mx",
+      "description": "制度革命党官方网站，提供党纲、新闻、候选人信息等",
+      "source": "wikipedia"
+    },
+    {
+      "name": "La República报纸",
+      "url": "https://www.pri.org.mx",
+      "description": "PRI官方报纸",
+      "source": "wikipedia"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MX-PERSON-000010",
+      "name": "亚历杭德罗·莫雷诺·卡德纳斯 (Alejandro Moreno Cárdenas)",
+      "title": "党主席 (Presidente Nacional del PRI)",
+      "title_description": "PRI全国执行委员会主席，绰号'Alito'，同时担任参议员",
+      "description": "绰号'Alito'，自2019年起担任PRI党主席。前塔巴斯科州州长和参议员。其领导风格引发党内批评，2025年3月面临可能的剥夺豁免权程序。2025年12月社会国际开除了PRI的会员资格，部分原因涉及其领导问题"
+    },
+    {
+      "person_id": "MX-PERSON-000086",
+      "name": "卡罗利娜·维吉亚诺·奥地利 (Carolina Viggiano Austria)",
+      "title": "总书记 (Secretaria General)",
+      "title_description": "PRI全国总书记",
+      "description": "负责PRI日常党务管理和组织运营"
+    },
+    {
+      "person_id": "MX-PERSON-000233",
+      "name": "曼努埃尔·阿尼奥尔韦·巴尼奥斯 (Manuel Añorve Baños)",
+      "title": "参议院党团领袖",
+      "title_description": "PRI在参议院的议会党团领袖",
+      "description": null
+    },
+    {
+      "person_id": "MX-PERSON-000087",
+      "name": "鲁文·莫雷拉·巴尔德斯 (Rubén Moreira Valdez)",
+      "title": "众议院党团领袖",
+      "title_description": "PRI在众议院的议会党团领袖",
+      "description": null
+    },
+    {
+      "person_id": "MX-PERSON-000088",
+      "name": "普卢塔科·埃利亚斯·卡列斯 (Plutarco Elías Calles)",
+      "title": "创始人",
+      "title_description": "1929年创建国民革命党(PNR)，即PRI的前身",
+      "description": "墨西哥1924-1928年总统，被称为'最高革命领袖'(Jefe Máximo)。1929年刺杀当选总统阿尔瓦罗·奥布雷贡后引发的政治危机中创建了PNR，旨在制度化革命胜利者的权力，实现和平政权交接"
+    }
+  ],
+  "departments": [
+    {
+      "name": "全国执行委员会 (Comité Ejecutivo Nacional)",
+      "dept_id": "MX-PARTY-003-DEPT-001",
+      "head": "亚历杭德罗·莫雷诺·卡德纳斯 (Alejandro Moreno Cárdenas)",
+      "description": "PRI最高领导机构，由党主席、总书记及各职能书记组成",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国政治委员会 (Consejo Político Nacional)",
+      "dept_id": "MX-PARTY-003-DEPT-002",
+      "head": null,
+      "description": "PRI最高政治决策机构，制定战略方向和政策",
+      "parent_dept_id": null
+    },
+    {
+      "name": "青年网络 (Red Jóvenes x México)",
+      "dept_id": "MX-PARTY-003-DEPT-003",
+      "head": null,
+      "description": "PRI青年组织，负责青年党员动员和培养新一代政治领袖",
+      "parent_dept_id": "MX-PARTY-003-DEPT-001"
+    },
+    {
+      "name": "墨西哥工人联合会 (Confederación de Trabajadores de México)",
+      "dept_id": "MX-PARTY-003-DEPT-004",
+      "head": null,
+      "description": "PRI传统工会组织，历史上是党的核心群众组织之一，由菲德尔·贝拉斯克斯领导直至其97岁去世(1997年)",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国农民联合会 (Confederación Nacional Campesina)",
+      "dept_id": "MX-PARTY-003-DEPT-005",
+      "head": null,
+      "description": "PRI传统农民组织，由拉扎罗·卡德纳斯在1938年创建PRM时设立的农民部门演变而来",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-03",
+      "title": "社会国际正式开除PRI会员资格",
+      "description": "社会国际(Socialist International)宣布因违反伦理准则将PRI从其成员名单中删除，理由是PRI放弃了社会民主原则并转向右翼。PRI于2003年成为社会国际正式成员。这是PRI国际声望的又一次重大打击",
+      "impact": "高",
+      "source": "El País, La Silla Rota, Crónica"
+    },
+    {
+      "date": "2025-10-18",
+      "title": "PAN宣布终止与PRI的联盟关系",
+      "description": "PAN党主席豪尔赫·罗梅罗宣布PAN'新时代'重启，正式结束与PRI的政党联盟。这意味着PRI失去最重要的反对派联盟伙伴，面临更大政治孤立。PRI主席莫雷诺随后表示'联盟将持续'，但未能阻止PAN的决策",
+      "impact": "高",
+      "source": "Nacion321, El Financiero, Zócalo"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "莫雷诺表示PRI不会在2030年推出'发明'候选人",
+      "description": "PRI党主席亚历杭德罗·莫雷诺(Alito)表示PRI不会在2030年大选中重复2018年和2024年推举'公民候选人'的失败策略，称治理墨西哥需要'性格和决心'，暗示可能亲自参选。此番言论被解读为其可能参加2030年总统选举的信号",
+      "impact": "中",
+      "source": "El Imparcial, El Financiero"
+    },
+    {
+      "date": "2025-03-06",
+      "title": "莫雷诺面临剥夺参议员豁免权程序",
+      "description": "众议院教导处批准了对PRI党主席亚历杭德罗·莫雷诺的可能剥夺豁免权程序，使其面临司法调查风险。这进一步动摇了其党内领导地位",
+      "impact": "中",
+      "source": "SDP Noticias"
+    },
+    {
+      "date": "2024-06-02",
+      "title": "PRI在2024年总统选举中遭遇历史最差成绩",
+      "description": "作为'力量与心为墨西哥'联盟的一部分，PRI支持PAN候选人索奇特尔·加尔维斯。PRI自身得票仅获参议院16席(10%)和众议院37席(7%)，首次未能在众议院选区席位中获得至少10席。这是PRI近百年历史上最差的选举表现",
+      "impact": "高",
+      "source": "Wikipedia, INE"
+    },
+    {
+      "date": "2025-07-26",
+      "title": "分析人士警告PRI面临灭绝风险",
+      "description": "多份分析报告指出，在莫雷诺领导下PRI持续衰退，民意调查显示至少40%的受访者对PRI持负面看法。2024年选举后PRI仅控制2个州长职位(科利马州和科阿韦拉州，部分与PAN联盟)",
+      "impact": "中",
+      "source": "Politico.mx, Mexico Affairs"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MX-PARTY-001",
+      "org_name": "国家复兴运动党 (Movimiento Regeneración Nacional)",
+      "org_type": "PARTY",
+      "org_description": "墨西哥执政党，取代PRI成为主导政治力量。MORENA创始人洛佩斯·奥布拉多尔等多位领导人均出自PRI",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "MX-PARTY-002",
+      "org_name": "国家行动党 (Partido Acción Nacional)",
+      "org_type": "PARTY",
+      "org_description": "墨西哥保守政党，2024年与PRI组成选举联盟，2025年10月PAN宣布终止联盟",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "MX-PARTY-004",
+      "org_name": "墨西哥生态绿党 (Partido Verde Ecologista de México)",
+      "org_type": "PARTY",
+      "org_description": "曾长期与PRI结盟的小党，后转投MORENA阵营",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "MX-GOV-001",
+      "org_name": "墨西哥总统府 (Presidencia de México)",
+      "org_type": "GOV",
+      "org_description": "PRI在1929-2000年间连续执政71年，2012-2018年间再次执政。现为反对党",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "制度革命党(PRI)是墨西哥历史最悠久的政党之一，1929年由普卢塔科·埃利亚斯·卡列斯创建(初名国民革命党PNR)，先后更名为墨西哥革命党(PRM, 1938)和制度革命党(PRI, 1946)。该党连续执政71年(1929-2000)，建立了以社团主义、选举操纵和政治镇压为特征的'事实一党制'，被秘鲁作家巴尔加斯·略萨称为'完美的独裁'。PRI的核心特征是其'大帐篷'(catch-all)性质，意识形态从左到右几乎无所不包，完全取决于时任总统的政策取向——从卡德纳斯时期的左翼改革(包括石油国有化)到1980-90年代的新自由主义转型(私有化、加入NAFTA)。PRI历史上通过'指名'(dedazo)制度由在任总统指定继承人，配合工人联合会(CTM)、全国农民联合会(CNC)等社团主义组织控制社会各界。2000年PRI首次在总统选举中落败，2012-2018年在恩里克·培尼亚·涅托领导下短暂重返执政，但因其腐败丑闻(多位PRI州长被定罪)和经济政策不得人心而在2018年惨败。此后PRI持续衰退：2021年试图自我定位为社会民主党，2025年12月被社会国际开除会员资格。截至2025年，PRI仅控制2个州长职位，面临存亡危机。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "PRI在1980-90年代执政期间推行新自由主义经济改革，积极推动墨西哥加入GATT和NAFTA，是经济全球化和自由贸易的推动者。在APEC框架内，PRI传统上支持区域经济一体化和开放贸易政策。然而，2024年PRI正式宣布放弃新自由主义，试图重新定位为'中左翼'政党。其当前APEC立场不明确，党内存在路线分歧。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PRI_logo_%28Mexico%29.svg/330px-PRI_logo_%28Mexico%29.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-19",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "el_pais",
+      "politico_mx",
+      "infobae",
+      "el_imparcial",
+      "official_website"
+    ],
+    "completeness_score": 97,
+    "notes": "Enriched from skeleton with Wikipedia EN data and recent news. Key 2025 events: Socialist International expulsion, PAN alliance breakup, extinction risk.",
+    "quotes": [
+      {
+        "title": "Institutional Revolutionary Party - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Institutional_Revolutionary_Party"
+      },
+      {
+        "title": "Socialist International expels PRI - El País",
+        "url": "https://elpais.com/mexico/2025-12-03/la-internacional-socialista-expulsa-al-pri-por-sus-acciones.html"
+      },
+      {
+        "title": "PRI extinction risk - Politico.mx",
+        "url": "https://politico.mx/2025/07/26/el-pri-de-alito-entre-criticas-y-riesgo-de-extincion/"
+      },
+      {
+        "title": "Alito Moreno on 2030 election - El Imparcial",
+        "url": "https://www.elimparcial.com/mexico/2025/12/23/con-inventos-y-ocurrencias-el-pri-no-va-a-ir-alito-moreno-habla-sobre-la-eleccion-de-2030-y-aclara-cual-sera-la-estrategia-del-partido-dentro-de-4-anos/"
+      },
+      {
+        "title": "PRI leader criticizes MORENA - Mexico Affairs",
+        "url": "https://mexico.affairs.media/pri-leader-criticizes-morena-ahead-2025-elections/"
+      },
+      {
+        "title": "Alito Moreno destape - El Financiero",
+        "url": "https://www.elfinanciero.com.mx/nacional/2025/12/23/alito-moreno-se-destapa-para-la-presidencia-pri-no-repetira-inventos-en-2030-advierte/"
+      }
+    ]
+  }
+}

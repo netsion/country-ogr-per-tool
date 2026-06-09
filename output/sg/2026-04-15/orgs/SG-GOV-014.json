@@ -1,22 +1,29 @@
 {
   "org_id": "SG-GOV-014",
   "basic_info": {
-    "name_original": "新加坡教育部",
+    "name_original": "Ministry of Education",
     "name_zh": "新加坡教育部",
     "name_en": "Ministry of Education",
     "aliases": [
-      "Kementerian Pelajaran",
-      "Ministry of Education, SIngapore",
       "MOE Singapore",
+      "Ministry of Education Singapore",
+      "Ministry of Education (Singapore)",
       "新加坡教育部",
-      "Kementerian Pendidikan Singapura"
+      "教育部",
+      "Kementerian Pendidikan Singapura",
+      "Kementerian Pelajaran",
+      "கல்வி அமைச்சகம்"
     ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1960-01-01",
-    "website": "https://www.moe.gov.sg/"
+    "founded_date": "1955-04-07",
+    "website": "https://www.moe.gov.sg/",
+    "headquarters": "1 North Buona Vista Drive, Ministry of Education Building, Singapore 138675",
+    "motto": "Moulding the future of our nation",
+    "employees": "62,964",
+    "annual_budget": "S$13.20 billion (2019)"
   },
   "social_accounts": [
     {
@@ -48,14 +55,20 @@
     {
       "name": "MOE官网",
       "url": "https://www.moe.gov.sg/",
-      "description": "新加坡教育部官网。",
+      "description": "新加坡教育部官方网站，提供教育政策、学校信息及公共服务。",
       "source": "https://www.moe.gov.sg/"
     },
     {
       "name": "COS 2026公告",
       "url": "https://cos.moe.gov.sg/2026-announcements/",
-      "description": "教育部2026年供应委员会公告。",
+      "description": "教育部2026年政府拨款委员会（Committee of Supply）政策公告汇总。",
       "source": "https://cos.moe.gov.sg/2026-announcements/"
+    },
+    {
+      "name": "MySkillsFuture门户",
+      "url": "https://www.myskillsfuture.gov.sg/",
+      "description": "SkillsFuture官方在线门户，提供课程搜索和技能评估工具。",
+      "source": "https://www.moe.gov.sg/"
     }
   ],
   "key_people": [
@@ -64,82 +77,251 @@
       "name": "李智陞 (Desmond Lee)",
       "title": "教育部长",
       "title_description": "Minister for Education",
-      "description": "提出建设我们为先社会的教育愿景。"
-    },
-    {
-      "person_id": "SG-PERSON-000175",
-      "name": "Lim Wan Yong",
-      "title": "常任秘书",
-      "title_description": "Permanent Secretary",
-      "description": "教育部常任秘书。"
-    },
-    {
-      "person_id": "SG-PERSON-000174",
-      "name": "Liew Wei Li",
-      "title": "教育总司长",
-      "title_description": "Director-General of Education",
-      "description": "教育总司长。"
+      "description": "2025年5月22日起担任教育部长，领导教育部。此前担任国家发展部长。提出'We First'社会教育愿景，推动教育公平与包容。"
     },
     {
       "person_id": "SG-PERSON-000033",
-      "name": "David Neo",
-      "title": "教育部第二部长",
-      "title_description": "Second Minister for Education",
-      "description": "梁振辉。"
+      "name": "梁振伟 (David Neo)",
+      "title": "教育部高级政务部长",
+      "title_description": "Senior Minister of State for Education",
+      "description": "教育部高级政务部长，协助部长处理教育事务。"
+    },
+    {
+      "person_id": "SG-PERSON-000156",
+      "name": "普杰立 (Janil Puthucheary)",
+      "title": "教育部高级政务部长",
+      "title_description": "Senior Minister of State for Education",
+      "description": "教育部高级政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000255",
+      "name": "刘洁敏 (Jasmin Lau)",
+      "title": "教育部政务部长",
+      "title_description": "Minister of State for Education",
+      "description": "教育部政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000175",
+      "name": "林宛蓉 (Lim Wan Yong)",
+      "title": "常任秘书（教育）",
+      "title_description": "Permanent Secretary (Education)",
+      "description": "教育部常任秘书，负责部门行政管理。"
+    },
+    {
+      "person_id": "SG-PERSON-000256",
+      "name": "陈荣辉 (Kenneth Er Boon Hwee)",
+      "title": "第二常任秘书（教育）",
+      "title_description": "Second Permanent Secretary (Education)",
+      "description": "教育部第二常任秘书。"
+    },
+    {
+      "person_id": "SG-PERSON-000257",
+      "name": "廖伟力 (Liew Wei Li)",
+      "title": "教育总司长",
+      "title_description": "Director-General of Education",
+      "description": "教育总司长，负责教育专业事务的领导与指导。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-014-DEPT-001",
-      "name": "私立教育理事会（英語：Council for Private Education）",
+      "name": "技能创前程局 (SkillsFuture Singapore, SSG)",
       "head": null,
-      "description": null,
+      "description": "2016年成立的法定机构，负责推动全国终身学习运动SkillsFuture。2026年将与劳动力发展局(WSG)合并为新的法定机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-002",
+      "name": "新加坡考试与评鉴局 (Singapore Examinations and Assessment Board, SEAB)",
+      "head": null,
+      "description": "负责新加坡全国考试的命题、评卷及成绩发布，包括PSLE、SEC（原GCE O/N水准）等考试。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-003",
+      "name": "东南亚研究所 (ISEAS-Yusof Ishak Institute)",
+      "head": null,
+      "description": "专注于东南亚研究的国家级研究机构，为政策制定提供区域分析支持。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-004",
+      "name": "工艺教育学院 (Institute of Technical Education, ITE)",
+      "head": null,
+      "description": "新加坡职业教育机构，提供技术工艺类课程，设有三个校区。2025年工学结合文凭项目已发展到45个课程、1,600名学员。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-005",
+      "name": "新加坡理工学院 (Singapore Polytechnic)",
+      "head": null,
+      "description": "新加坡第一所理工学院，成立于1954年，提供应用科学、工程、商业等领域文凭课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-006",
+      "name": "义安理工学院 (Ngee Ann Polytechnic)",
+      "head": null,
+      "description": "成立于1963年，提供工程、信息技术、商业及健康科学等文凭课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-007",
+      "name": "淡马锡理工学院 (Temasek Polytechnic)",
+      "head": null,
+      "description": "成立于1990年，提供应用科学、商业、设计及信息技术等文凭课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-008",
+      "name": "南洋理工学院 (Nanyang Polytechnic)",
+      "head": null,
+      "description": "成立于1992年，提供工程、信息技术、健康科学及设计等文凭课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-009",
+      "name": "共和理工学院 (Republic Polytechnic)",
+      "head": null,
+      "description": "成立于2002年，采用问题导向学习(PBL)教学法，提供工程、信息技术、体育及健康等文凭课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-014-DEPT-010",
+      "name": "新加坡科学馆 (Science Centre Singapore)",
+      "head": null,
+      "description": "负责推广科学教育和公众科学素养，举办科学展览和教育活动。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
       "date": "2026-03-03",
-      "title": "建设我们为先社会的教育愿景",
-      "description": "李智陞部长提出We First社会教育愿景。",
-      "impact": "明确未来数年教育政策方向。",
-      "source": "https://www.moe.gov.sg/"
+      "title": "COS 2026：建设'We First'社会的教育愿景",
+      "description": "李智陞部长在2026年政府拨款委员会辩论中阐述'We Learn for Life Together'愿景，涵盖三大方向：因材施教、AI适应及终身学习。重点包括取消现有高才教育计划(GEP)、2027年起在15所小学开设高级学习模块、扩大弱势学生支持至157所学校。",
+      "impact": "全面重塑新加坡基础教育政策方向，影响约10%小学生将受益于新的高才教育模式。",
+      "source": "https://www.moe.gov.sg/news/press-releases/20260303-we-learn-for-life-together-building-a-we-first-society-through-education"
     },
     {
       "date": "2026-01-01",
-      "title": "中学禁止手机和智能手表新规",
-      "description": "所有中学正式实施在校期间禁止使用手机和智能手表。",
-      "impact": "影响全国约13万名中学生。",
-      "source": "https://www.moe.gov.sg/"
+      "title": "中学全面禁止手机和智能手表",
+      "description": "所有中学正式实施在校期间禁止使用智能手机和智能手表，个人学习设备默认进入睡眠模式。该政策于2025年11月宣布，2026年全面执行。",
+      "impact": "影响全国约13万名中学生，旨在改善学习专注力和学生身心健康。",
+      "source": "https://www.facebook.com/gov.sg/posts/cos2026-from-building-ai-literacy-to-expanding-learning-opportunities-moe-will-s/1392383622928914/"
     },
     {
       "date": "2026-03-03",
-      "title": "15所小学开设高级学习模块",
-      "description": "从2027年起在15所小学为高能力学生开设高级学习模块。",
-      "impact": "约2万名学生将受益。",
+      "title": "推出AI素养全面提升计划",
+      "description": "MOE宣布将AI素养纳入从小学到大学预科的完整课程体系，更新'Code for Fun'编程计划以强化AI技能（2027年全面实施），并在品格与公民教育课程中增加生成式AI信息验证和深伪识别内容。同时为校友提供折扣AI课程，为中小企业推出AI技能启动平台。",
+      "impact": "系统性培养全年龄段AI素养能力，确保新加坡在全球AI竞争中保持优势。",
+      "source": "https://www.moe.gov.sg/news/press-releases/20260303-we-learn-for-life-together-building-a-we-first-society-through-education"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "扩大特殊教育学校容量",
+      "description": "教育部将扩大自闭症伴智力障碍(ASD-ID)特殊教育学校容量约30%，从9,000名学生增至约12,000名。通过扩建三所MINDS学校校舍、扩容现有学校及新建三所ASD-ID学校实现。特殊教育学校总数将从26所增至30所。",
+      "impact": "显著改善特殊教育需求学生的入学机会和地理可达性。",
+      "source": "https://www.moe.gov.sg/news/press-releases/20260303-we-learn-for-life-together-building-a-we-first-society-through-education"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "2028年实施新中学后招生制度",
+      "description": "配合2024年起全面实施科目编班制(Full SBB)，首批SEC考试学生将于2028年1月通过统一在线门户申请各类中学后教育机构（初院、理工学院、工艺教育学院），取代现行分散的多个招生程序。选择顺序将作为同分排名时的考量因素。",
+      "impact": "简化升学流程，让学生根据自身优势和兴趣优先选择学校和专业。",
+      "source": "https://www.moe.gov.sg/news/press-releases/20260303-we-learn-for-life-together-building-a-we-first-society-through-education"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "2026年直接招生及提前录取开始",
+      "description": "教育部启动2026年直接招生练习(DSA)及理工学院和工艺教育学院提前招生练习(EAE)。",
+      "impact": "为学生提供更多元化的升学途径。",
       "source": "https://www.moe.gov.sg/"
     }
   ],
-  "related_entities": [],
-  "core_business": "新加坡教育部（英語：Ministry of Education；馬來語：Kementerian Pelajaran；坦米爾語：கல்வி அமைச்சகம்），縮寫為MOE，是新加坡政府的一个下辖部门。它主要负责新加坡的教育事业。\n法定组织\n私立教育理事会（英語：Council for Private Education）\n新加坡理工学院\n义安理工学院\n淡马锡理工学院\n南洋理工学院\n共和理工学院\n工艺教育学院（英語：Institute of Technical Education）\n东南亚研究所\n新加坡科学馆（英語：Science Centre, Singapore）\n新加坡考试与评鉴局（英語：Singapore Examinations and Assessment Board）\n部长列表\n教育部由新加坡教育部长领导，该部长被任命为新加坡内阁成员。此职位目前由人民行动党的黄循财担任。\n参考文献\n外部链接\n官方网站",
+  "related_entities": [
+    {
+      "org_id": "SG-ACAD-001",
+      "org_name": "新加坡国立大学 (National University of Singapore, NUS)",
+      "org_type": "ACAD",
+      "org_description": "新加坡顶尖自治大学，教育部资助的主要高等教育机构。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-ACAD-002",
+      "org_name": "南洋理工大学 (Nanyang Technological University, NTU)",
+      "org_type": "ACAD",
+      "org_description": "新加坡主要自治大学，教育部资助的重点高等教育机构。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-ACAD-003",
+      "org_name": "新加坡管理大学 (Singapore Management University, SMU)",
+      "org_type": "ACAD",
+      "org_description": "新加坡自治大学，专注于管理及社会科学教育。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-NGO-004",
+      "org_name": "全国职工总会 (National Trades Union Congress, NTUC)",
+      "org_type": "NGO",
+      "org_description": "教育部所属教师工会均隶属NTUC体系，双方在SkillsFuture等终身学习项目上密切合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_description": "教育部长为内阁成员，教育部隶属内阁管辖。",
+      "relationship_type": "parent_org"
+    }
+  ],
+  "core_business": "新加坡教育部（Ministry of Education，简称MOE）是新加坡政府负责教育政策制定和实施的核心部门，成立于1955年4月7日。总部位于波娜维斯达教育部大厦。教育部以'Moulding the future of our nation'为座右铭，拥有约62,964名员工。\n\n教育部管辖范围涵盖从学前教育到高等教育的完整教育体系。下设十个法定机构：技能创前程局(SSG)、新加坡考试与评鉴局(SEAB)、东南亚研究所(ISEAS)、工艺教育学院(ITE)及五所理工学院（新加坡、义安、淡马锡、南洋、共和理工学院）和新加坡科学馆。教育部同时资助六所自治大学。\n\n核心职能包括：制定和执行全国教育政策、管理公立学校体系、推行课程改革与评估制度、师资培养与发展、教育经费分配、特殊教育支持，以及推动终身学习运动SkillsFuture。2026年，教育部在'We First'社会愿景下推出多项重大改革：取消现有高才教育计划(GEP)代之以更包容的校本拓展模式、全面实施中学手机禁令、系统性推进AI素养教育、扩大特殊教育学校容量30%、改革中学后统一招生制度，以及SSG与WSG合并以强化终身学习生态系统。\n\n教育部员工通过多个工会组织归属全国职工总会(NTUC)，包括新加坡教师工会、新加坡华文教师工会、新加坡马来教师工会及新加坡淡米尔教师工会。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "教育部参与APEC人力资源开发工作组（HRDWG）和教育网络（EDNET），推动亚太地区教育合作和数字教育。",
+  "apec_stance": "教育部积极参与APEC人力资源开发工作组（HRDWG）和教育网络（EDNET），推动亚太地区教育合作。新加坡在APEC框架下重点倡导数字教育与AI素养教育合作，通过SkillsFuture模式分享终身学习经验。教育部推动的'Code for Fun'编程及AI素养课程可为APEC经济体提供参考，特别是在缩小数字鸿沟和培养面向未来的劳动力的议题上。新加坡教育体系在全球评估（如PISA）中的优异表现使其在APEC教育政策对话中具有影响力，经常被邀请分享教育改革最佳实践。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Ministry_of_Education_%28Singapore%29_logo.svg/330px-Ministry_of_Education_%28Singapore%29_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikipedia_zh",
       "official_website",
-      "web_search"
+      "web_search",
+      "news_articles",
+      "government_press_releases"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 78)"
+    "quotes": [
+      {
+        "title": "Ministry of Education (Singapore) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Education_(Singapore)"
+      },
+      {
+        "title": "新加坡教育部 - 维基百科",
+        "url": "https://zh.wikipedia.org/wiki/新加坡教育部"
+      },
+      {
+        "title": "MOE Official Website",
+        "url": "https://www.moe.gov.sg"
+      },
+      {
+        "title": "We Learn for Life Together: Building a We First Society Through Education (COS 2026)",
+        "url": "https://www.moe.gov.sg/news/press-releases/20260303-we-learn-for-life-together-building-a-we-first-society-through-education"
+      },
+      {
+        "title": "COS 2026 Announcements",
+        "url": "https://cos.moe.gov.sg/2026-announcements/"
+      },
+      {
+        "title": "gov.sg Facebook - COS 2026 MOE Initiatives",
+        "url": "https://www.facebook.com/gov.sg/posts/cos2026-from-building-ai-literacy-to-expanding-learning-opportunities-moe-will-s/1392383622928914/"
+      }
+    ],
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: Updated key_people with full ministerial lineup from Wikipedia EN, expanded departments from 1 to all 10 statutory boards with descriptions, added 6 recent_events from MOE COS 2026 press release, expanded related_entities with ACAD orgs and NTUC, enriched core_business and apec_stance with cross-verified COS 2026 data."
   }
 }

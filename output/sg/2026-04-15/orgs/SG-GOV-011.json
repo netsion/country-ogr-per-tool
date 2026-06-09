@@ -1,16 +1,17 @@
 {
   "org_id": "SG-GOV-011",
   "basic_info": {
-    "name_original": "新加坡国防部",
-    "name_zh": "新加坡国防部",
+    "name_original": "Ministry of Defence",
     "name_en": "Ministry of Defence Singapore",
+    "name_zh": "新加坡国防部",
     "aliases": [
       "Ministry of Defence (Singapore)",
       "Singapore Ministry of Defence",
       "MoD Singapore",
       "MINDEF",
       "新加坡国防部",
-      "Kementerian Pertahanan Singapura"
+      "Kementerian Pertahanan Singapura",
+      "新加坡國防部"
     ],
     "org_type": "GOV",
     "org_subtype": "ministry",
@@ -43,144 +44,296 @@
       "account_name": "@mindefsg",
       "url": "https://www.instagram.com/mindefsg/",
       "source": "web_search_2026-04-16"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@chanchunsing.sg",
+      "url": "https://www.instagram.com/chanchunsing.sg/",
+      "source": "web_search_2026-05-08"
+    },
+    {
+      "platform": "telegram",
+      "account_name": "defencepioneersg",
+      "url": "https://t.me/defencepioneersg",
+      "source": "web_search_2026-05-08"
     }
   ],
   "digital_assets": [
     {
-      "name": "MINDEF Official Website",
+      "name": "MINDEF官方网站",
       "url": "https://www.mindef.gov.sg",
       "description": "新加坡国防部官方网站，发布防务政策、新闻和军事信息",
       "source": "official_website"
     },
     {
-      "name": "cyberdefenders.sg",
+      "name": "网络防卫平台",
       "url": "https://www.cyberdefenders.sg/",
       "description": "新加坡网络防卫宣传平台，提升全民网络安全意识",
       "source": "web_search_2026-04-16"
     },
     {
-      "name": "MINDEF News & Speeches",
+      "name": "MINDEF新闻与演讲",
       "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/",
       "description": "国防部新闻发布和部长演讲稿",
-      "source": "web_search_2026-04-16"
+      "source": "official_website"
+    },
+    {
+      "name": "全面防卫官网",
+      "url": "https://www.totaldefence.gov.sg",
+      "description": "新加坡全面防卫（Total Defence）官方网站，涵盖军事、民事、经济、社会、心理和数码六大防卫领域",
+      "source": "web_search_2026-05-08"
+    },
+    {
+      "name": "国防先驱网",
+      "url": "https://www.defencepioneer.sg",
+      "description": "MINDEF/SAF官方数字媒体平台，报道国防新闻和军人生活",
+      "source": "web_search_2026-05-08"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000012",
       "name": "陈振声 (Chan Chun Sing)",
-      "title": "Minister for Defence & Coordinating Minister for Public Services",
-      "title_description": "国防部长兼公共服务统筹部长",
-      "description": "2025年5月23日接替退休的黄永宏博士出任国防部长，曾任贸易与工业部长、教育部长等职"
+      "title": "国防部长兼公共服务统筹部长",
+      "title_description": "Minister for Defence & Coordinating Minister for Public Services",
+      "description": "2025年5月23日接替退休的黄永宏博士出任国防部长。此前历任贸易与工业部长、教育部长等职，曾为新加坡陆军总长，拥有三星将军军衔"
     },
     {
-      "person_id": "SG-PERSON-000138",
-      "name": "Zaqy Mohamad",
-      "title": "Senior Minister of State for Defence",
-      "title_description": "国防部高级政务部长",
-      "description": "协助国防部长处理国防部事务"
+      "person_id": "SG-PERSON-000125",
+      "name": "扎吉哈 (Zaqy Mohamad)",
+      "title": "国防部高级政务部长",
+      "title_description": "Senior Minister of State for Defence",
+      "description": "协助国防部长处理国防部事务，同时兼任人力部高级政务部长"
     },
     {
-      "person_id": "SG-PERSON-000118",
-      "name": "Desmond Choo",
-      "title": "Minister of State for Defence",
-      "title_description": "国防部政务部长",
+      "person_id": "SG-PERSON-000115",
+      "name": "朱倍庆 (Desmond Choo)",
+      "title": "国防部政务部长",
+      "title_description": "Minister of State for Defence",
       "description": "2025年新任命，首次担任国防部政务部长"
     },
     {
-      "person_id": "SG-PERSON-000181",
-      "name": "王铭杰 (Melvyn Ong)",
-      "title": "Chief of Defence Force (CDF)",
-      "title_description": "新加坡武装部队总长",
-      "description": "新加坡武装部队最高军事指挥官"
+      "person_id": "SG-PERSON-000250",
+      "name": "梁颖强 (Joseph Leong Weng Keong)",
+      "title": "国防部常任秘书",
+      "title_description": "Permanent Secretary (Defence)",
+      "description": "负责国防部的行政管理和政策执行"
+    },
+    {
+      "person_id": "SG-PERSON-000200",
+      "name": "王赐吉 (Melvyn Ong)",
+      "title": "国防部常任秘书（发展）",
+      "title_description": "Permanent Secretary (Defence Development)",
+      "description": "负责国防发展事务，曾任新加坡武装部队总长"
+    },
+    {
+      "person_id": "SG-PERSON-000139",
+      "name": "孟耀诚 (Aaron Beng)",
+      "title": "新加坡武装部队总长",
+      "title_description": "Chief of Defence Force (CDF)",
+      "description": "新加坡武装部队最高军事指挥官，海军中将军衔"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-011-DEPT-001",
-      "name": "Ministers",
+      "name": "国防政策办公室 (Defence Policy Office)",
       "head": null,
-      "description": null,
+      "description": "负责制定国防战略和政策方向，统筹国防外交关系",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-011-DEPT-002",
-      "name": "See also",
+      "name": "国防媒体中心 (Defence Media Centre)",
       "head": null,
-      "description": null,
+      "description": "负责国防部公共事务、媒体关系和信息传播",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-011-DEPT-003",
-      "name": "Ministry of Home Affairs",
+      "name": "国防科技与未来系统司 (Future Systems and Technology)",
       "head": null,
-      "description": null,
+      "description": "负责国防科技规划、未来作战系统开发和数字化转型",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-011-DEPT-004",
-      "name": "References",
+      "name": "安全与情报司 (Security and Intelligence Division)",
       "head": null,
-      "description": null,
+      "description": "新加坡对外情报机构，在国防部内自主运作，负责海外情报收集与分析",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-011-DEPT-005",
-      "name": "External links",
+      "name": "国防科学与技术局 (Defence Science and Technology Agency)",
       "head": null,
-      "description": null,
+      "description": "MINDEF下属唯一法定机构，负责国防科技研发、武器系统采购和技术支持",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-011-DEPT-006",
-      "name": "Official website",
+      "name": "新加坡陆军 (Singapore Army)",
       "head": null,
-      "description": null,
+      "description": "新加坡武装部队陆军组成部分，负责地面作战和国土防卫",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-011-DEPT-007",
-      "name": "Singapore Government Directory Interactive — Ministry of Defence",
+      "name": "新加坡共和国空军 (Republic of Singapore Air Force)",
       "head": null,
-      "description": null,
+      "description": "负责新加坡领空防卫和空中作战力量，装备F-15SG、F-16及即将引进的F-35B战斗机",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-011-DEPT-008",
+      "name": "新加坡共和国海军 (Republic of Singapore Navy)",
+      "head": null,
+      "description": "负责海域防卫和海上安全，装备隐形护卫舰、潜艇等先进舰艇",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-011-DEPT-009",
+      "name": "数码与情报军种 (Digital and Intelligence Service)",
+      "head": null,
+      "description": "新加坡武装部队最新成立的军种，负责网络战、情报搜集和数字作战",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-011-DEPT-010",
+      "name": "新加坡武装部队军训学院 (SAF Training Institute)",
+      "head": null,
+      "description": "负责武装部队各军种的教育训练和军事人才培养",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2026-01-19",
-      "title": "陈振声在第14届香格里拉对话先行会议上发表特别演说",
-      "description": "国防部长陈振声在香格里拉对话Sherpa会议上发表特别演说，为2026年5月正式对话奠定讨论基础",
-      "impact": "新加坡继续发挥亚太安全对话枢纽的东道主角色",
-      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/20jan26-speech/"
+      "date": "2026-05-07",
+      "title": "澳大利亚国防军总长获颁新加坡最高军事勋章",
+      "description": "澳大利亚国防军总长约翰斯顿海军上将在国防部获总统尚达曼颁发新加坡最高军事勋章——卓越功绩服务勋章（军事），彰显新澳防务合作深度",
+      "impact": "进一步巩固新澳双边防务伙伴关系，体现新加坡通过军事外交深化区域安全合作",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/7may26-nr/"
     },
     {
-      "date": "2025-05-27",
-      "title": "陈振声首次以国防部长身份视察武装部队",
-      "description": "新任国防部长陈振声视察高战备部队并观看Exercise Rover演习，提出'新思路'应对防务挑战",
-      "impact": "新防长上任后迅速掌握武装部队实况，释放改革信号",
-      "source": "https://www.channelnewsasia.com/singapore/chan-chun-sing-defence-minister-first-visit-saf-5154541"
+      "date": "2026-05-03",
+      "title": "新加坡武装部队公开动员及民征演练",
+      "description": "国防部举行公开动员和民间资源征用演练，检验武装部队快速动员能力和民间资源调配机制",
+      "impact": "展示新加坡全面防卫体系实战化水平，强化国民服役意识和全社会动员能力",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/3may26-nr/"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "2026财年国防预算公布：249亿新元",
+      "description": "新加坡公布2026财年国防预算约249亿新元（约197亿美元），同比增长6.4%，其中国防运营支出233.2亿新元，国防占GDP约3%但政府表示必要时可提高",
+      "impact": "反映新加坡在全球安全环境日趋复杂下持续强化国防投入的决心，预算涵盖F-35采购、无人系统和网络安全等领域",
+      "source": "https://www.channelnewsasia.com/singapore/defence-security-spending-cybersecurity-budget-2026-5925711"
+    },
+    {
+      "date": "2025-09-12",
+      "title": "陈振声访问F-35生产线确认首批战机2026年底交付",
+      "description": "国防部长陈振声访问洛克希德·马丁公司F-35生产设施，确认新加坡首批F-35B战斗机仍按计划于2026年底交付，共采购20架F-35系列战机",
+      "impact": "新加坡空军将迈入第五代隐身战机时代，显著提升空中威慑力和区域防务能力",
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/12sep25-nr/"
+    },
+    {
+      "date": "2025-05-23",
+      "title": "陈振声就任国防部长",
+      "description": "黄循财总理宣布新内阁阵容，陈振声接替任职14年退休的黄永宏博士出任国防部长，同时兼任公共服务统筹部长",
+      "impact": "新加坡国防部完成14年来首次领导人更替，标志着国防政策进入新时代",
+      "source": "https://www.pmo.gov.sg/about-us/the-cabinet/mr-chan-chun-sing/"
     }
   ],
-  "related_entities": [],
-  "core_business": "新加坡国防部（英語：Ministry of Defence；馬來語：Kementerian Pertahanan；坦米爾語：தற்காப்பு அமைச்சு），縮寫為MINDEF，是新加坡政府的一个下辖部门。它主要负责管理新加坡的国防事业，同时制定国防政策，包括军事国防、经济国防、社会防卫和心理防卫。\n沿革\n1970年8月11日，新加坡国防及治安部分离出新加坡国防部和新加坡内政部。\n法定机构\n战略信息技术中心\n国防管理组织\n心理防卫组织\n国防财务组织\n法律服务组织\n人力资源组织\n国防部奖学金中心\n辅导中心\n国防政策小组\n国防政策办公室\n国防媒体中心\n军事安全局\n国防部公共事务组织\n公共交通部\n国防科技和人力资源管理办公室\n民间资源局\n特别项目办公室\n国防部首席信息官办公室\n国防部远程服务组织\n国防部武装部队人力中心\n中央人力资源基础组织\n人力和国家军人分支机构\n国防部人力资源组织\n民族事务组织\n海军服役人员组织\n就业中心\n军队组织\n新加坡陸軍\n新加坡共和国空军\n新加坡共和国海军\n体育锻炼和体育中心\n新加坡武装部队宪兵司令部\n新加坡共和國數碼部队\n新加坡武装部队\n外国军事联络处\n总部医疗团\n联合情报委员会\n联勤部\n联合人力资源部\n联合运营和规划局\n新加坡共和国空军总部\n新加坡共和国海军总部\n新加坡武装部队军训学院总部\n新加坡陆军总部\n培训学校\n基本军事训练中心学校1\n基本军事训练中心学校2\n基本军事训练中心学校3\n基本军事训练中心学校4\n新加坡军官学校\n专科学校\n安全和情报部门\n法定委员会\n国防科学与技术局\n参考文献\n外部链接\n官方网站",
+  "related_entities": [
+    {
+      "org_id": "SG-MIL-001",
+      "org_name": "新加坡武装部队 (Singapore Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "新加坡的武装力量，由陆军、海军、空军和数码与情报军种组成，归属MINDEF管辖",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-013",
+      "org_name": "内政部 (Ministry of Home Affairs)",
+      "org_type": "GOV",
+      "org_description": "1970年与MINDEF同时从原国防与内政部分拆而成，负责国内安全和执法",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "org_name": "总理公署 (Prime Minister's Office)",
+      "org_type": "GOV",
+      "org_description": "新加坡政府中枢机构，国防部长的任命和重大国防决策经由总理公署协调",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "国防科学与技术局 (Defence Science and Technology Agency)",
+      "org_type": "GOV",
+      "org_description": "MINDEF下属唯一法定机构，负责国防科技研发和武器系统采购",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "安全与情报司 (Security and Intelligence Division)",
+      "org_type": "GOV",
+      "org_description": "新加坡对外情报机构，在国防部内自主运作",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "新加坡国防部（MINDEF）是新加坡政府负责国防事务的核心部门，于1970年8月11日由原国防与内政部分拆成立。总部位于武吉甘柏甘柏通道303号国防部大厦。MINDEF的使命是\"通过威慑和外交增强新加坡的和平与安全，若二者失败，则迅速果断地击败侵略者\"。MINDEF推行全面防卫（Total Defence）战略，涵盖军事防卫、民事防卫、经济防卫、社会防卫、心理防卫和数码防卫六大领域，强调全民参与。MINDEF下辖新加坡武装部队（SAF），包括陆军、海军（RSN）、空军（RSAF）和数码与情报军种（DIS），以及唯一法定机构国防科学与技术局（DSTA）。安全与情报司（SID）作为新加坡对外情报机构在部内自主运作。2026财年国防预算约249亿新元（约197亿美元），占GDP约3%，是东南亚最大的国防预算。新加坡正在实施F-35B隐身战斗机采购计划，首批预计2026年底交付，同时推进无人系统、网络安全和人工智能等新型作战能力建设。MINDEF还通过主办年度香格里拉对话会，为亚太地区提供最重要的安全对话平台。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "新加坡国防部通过主办年度香格里拉对话为亚太安全合作提供平台，与APEC安全议题互补，支持区域和平稳定",
+  "apec_stance": "新加坡国防部通过主办年度香格里拉对话为亚太安全合作提供最重要的多边平台，该对话汇集APEC经济体防务领导人和安全专家，与APEC经济安全议题形成互补。新加坡坚持基于规则的国际秩序和自由航行原则，积极推动区域安全对话与信任建立措施，支持APEC框架下的经济安全与反恐合作。新加坡国防开支长期保持GDP的3%，体现了对小国在大国博弈中维持战略自主的重视，这种立场与APEC倡导的和平稳定区域环境目标高度一致。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/c/ce/MINDEF_crest.jpeg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia",
-      "official_website"
+      "wikipedia_en",
+      "wikipedia_zh",
+      "official_website",
+      "web_search"
     ],
-    "completeness_score": 93,
-    "notes": "Enriched with web search data: key_people, social_accounts, recent_events, digital_assets, apec_stance (2026-04-16)"
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: corrected key_people IDs, added real departments, updated CDF to Aaron Beng, added F-35 delivery and budget 2026 events, added Telegram/Instagram social accounts, added Total Defence digital asset, expanded related_entities, rewrote core_business and apec_stance",
+    "quotes": [
+      {
+        "title": "MINDEF Official Website",
+        "url": "https://www.mindef.gov.sg"
+      },
+      {
+        "title": "Wikipedia EN - Ministry of Defence (Singapore)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Singapore)"
+      },
+      {
+        "title": "Wikipedia ZH - 新加坡国防部",
+        "url": "https://zh.wikipedia.org/wiki/新加坡国防部"
+      },
+      {
+        "title": "CNA - Budget 2026 Defence Spending",
+        "url": "https://www.channelnewsasia.com/singapore/defence-security-spending-cybersecurity-budget-2026-5925711"
+      },
+      {
+        "title": "MINDEF - F-35 Production Visit",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/12sep25-nr/"
+      },
+      {
+        "title": "PMO - Chan Chun Sing Biography",
+        "url": "https://www.pmo.gov.sg/about-us/the-cabinet/mr-chan-chun-sing/"
+      },
+      {
+        "title": "Straits Times - F-35 Delivery 2026",
+        "url": "https://www.straitstimes.com/singapore/first-delivery-of-f-35-fighter-jets-to-rsaf-on-track-for-end-2026-mindef"
+      },
+      {
+        "title": "MINDEF - Australia CDF Award",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/7may26-nr/"
+      }
+    ]
   }
 }

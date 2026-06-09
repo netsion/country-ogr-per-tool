@@ -1,0 +1,402 @@
+{
+  "org_id": "CA-FIN-007",
+  "org_type": "FIN",
+  "org_subtype": "Credit Union",
+  "basic_info": {
+    "name_original": "Mouvement Desjardins",
+    "name_en": "Desjardins Group",
+    "name_zh": "加鼎集团",
+    "description": "北美最大的信用合作社联邦组织，加拿大第六大金融机构。成立于1900年12月6日，由阿尔方斯·德雅尔丹（Alphonse Desjardins）在魁北克利维（Levis）创立。加鼎集团是一家合作制金融机构，由210余家地方信用合作社（caisses populaires）组成，服务超过1000万社员与客户，雇员约57,530人。集团业务涵盖零售银行、保险（财产意外险、人寿健康险）、财富管理、证券经纪、风险投资及消费金融等。2025年总资产达5,102亿加元，盈余收入38亿加元。总部位于魁北克利维，但主要高管团队驻蒙特利尔。",
+    "founded_date": "1900-12-06",
+    "headquarters": "Levis, Quebec, Canada",
+    "country": "CA",
+    "website": "https://www.desjardins.com/"
+  },
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000123",
+      "name": "丹尼斯·杜布瓦 (Denis Dubois)",
+      "title": "总裁兼首席执行官 (President and CEO)",
+      "title_description": "President and Chief Executive Officer of Desjardins Group",
+      "description": "精算师出身，2003年加入加鼎集团，历任财产意外险执行副总裁、财富管理与人寿健康险执行副总裁等职。2025年6月被任命为总裁兼CEO，同年9月2日正式就任。主导了State Farm加拿大业务收购及Guardian Capital整合等重大交易。毕业于拉瓦尔大学（Universite Laval）。"
+    },
+    {
+      "person_id": "CA-PERSON-000124",
+      "name": "路易·巴比诺 (Louis Babineau)",
+      "title": "董事会主席 (Chair of the Board)",
+      "title_description": "Chair of the Board of Directors of Desjardins Group",
+      "description": "2024年5月起担任加鼎集团董事会主席。在加鼎集团实施新治理模式后，董事会主席与总裁兼CEO职责分离。代表Sainte-Foy加鼎信用合作社。拥有DBA和ASC学位。"
+    },
+    {
+      "person_id": "CA-PERSON-000125",
+      "name": "瓦莱丽·拉瓦耶 (Valerie Lavoie)",
+      "title": "执行副总裁，财产与意外险 (Executive Vice-President, Property & Casualty Insurance)",
+      "title_description": "Executive Vice-President, Property & Casualty Insurance, Desjardins Group; President and COO, Desjardins General Insurance Group",
+      "description": "负责加鼎集团财产与意外险业务，同时担任加鼎一般保险集团总裁兼首席运营官。管理委员会成员。"
+    },
+    {
+      "person_id": "CA-PERSON-000126",
+      "name": "尚塔尔·加涅 (Chantal Gagne)",
+      "title": "执行副总裁，人寿与健康保险 (Executive Vice-President, Life and Health Insurance)",
+      "title_description": "Executive Vice-President, Life and Health Insurance",
+      "description": "在加鼎集团任职18年，2025年8月晋升为执行副总裁。此前曾任人寿健康险及独立分销副总裁，在财产意外险和精算服务领域拥有丰富经验。管理委员会成员。"
+    },
+    {
+      "person_id": "CA-PERSON-000127",
+      "name": "塞巴斯蒂安·瓦莱 (Sebastien Vallee)",
+      "title": "执行副总裁，财富管理 (Executive Vice-President, Wealth Management)",
+      "title_description": "Executive Vice-President, Wealth Management",
+      "description": "2000年加入加鼎集团，在财富管理领域拥有15年高级管理经验。此前任投资方案副总裁，也是魁北克金融管理局（AMF）投资产品咨询委员会成员。管理委员会成员。"
+    },
+    {
+      "person_id": "CA-PERSON-000128",
+      "name": "阿兰·勒普罗洪 (Alain Leprohon)",
+      "title": "执行副总裁，财务与首席财务官 (Executive Vice-President, Finance and CFO)",
+      "title_description": "Executive Vice-President, Finance and Chief Financial Officer",
+      "description": "担任加鼎集团首席财务官，负责集团财务管理与战略财务规划。管理委员会成员。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "个人服务与社区生活部 (Personal Services and Community Life)",
+      "dept_id": "CA-FIN-007-DEPT-001",
+      "head": "Nathalie Larue",
+      "description": "负责面向个人客户的金融服务及社区生活项目，管理零售银行业务和社员关系。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "商业服务部 (Business Services)",
+      "dept_id": "CA-FIN-007-DEPT-002",
+      "head": "Jean-Yves Bourgeois",
+      "description": "面向企业客户的综合金融服务部门，涵盖商业贷款、现金管理、贸易融资等业务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "财产与意外险部 (Property and Casualty Insurance)",
+      "dept_id": "CA-FIN-007-DEPT-003",
+      "head": "Valerie Lavoie",
+      "description": "管理汽车保险、房屋保险及商业财产保险等财产意外险业务，通过Desjardins General Insurance Group运营。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "人寿与健康保险部 (Life and Health Insurance)",
+      "dept_id": "CA-FIN-007-DEPT-004",
+      "head": "Chantal Gagne",
+      "description": "负责人寿保险、健康保险、团体保险及退休金产品，通过Desjardins Financial Security运营。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "财富管理部 (Wealth Management)",
+      "dept_id": "CA-FIN-007-DEPT-005",
+      "head": "Sebastien Vallee",
+      "description": "负责共同基金、ETF、投资解决方案、证券经纪（Desjardins Securities）及资产管理业务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "信息技术部 (Information Technology)",
+      "dept_id": "CA-FIN-007-DEPT-006",
+      "head": "Daniel Grossi",
+      "description": "负责集团数字化转型、IT基础设施、企业架构及在线银行平台建设。2025年推出安全聊天功能。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "运营部 (Operations)",
+      "dept_id": "CA-FIN-007-DEPT-007",
+      "head": "Di-Thai Hua",
+      "description": "负责集团日常运营管理，包括后台处理、流程优化和运营效率提升。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "风险管理与合规部 (Risk Management and Compliance)",
+      "dept_id": "CA-FIN-007-DEPT-008",
+      "head": "Antoine Avril",
+      "description": "负责集团风险管理框架、合规监督、信用风险评估及监管关系维护。2025年一级资本充足率达23.7%。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术与组织效能部 (Technology and Organizational Performance)",
+      "dept_id": "CA-FIN-007-DEPT-009",
+      "head": "Johanne Duhaime",
+      "description": "高级执行副总裁领导，统筹集团技术战略和组织绩效提升。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "社员客户体验与合作人文转型部 (Member/Client Experience, Cooperation and Human Transformation)",
+      "dept_id": "CA-FIN-007-DEPT-010",
+      "head": "Marie-Huguette Cormier",
+      "description": "负责提升社员与客户体验、推进合作文化建设和人力资源转型。",
+      "parent_dept_id": null
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-subsidiary-001",
+      "org_name": "加鼎一般保险集团 (Desjardins General Insurance Group)",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团旗下财产与意外险运营主体，提供汽车保险、房屋保险等个人及商业保险产品。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-002",
+      "org_name": "加鼎金融安全公司 (Desjardins Financial Security)",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团人寿与健康保险子公司，提供人寿保险、健康保险、团体保险和退休储蓄计划。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-003",
+      "org_name": "加鼎证券 (Desjardins Securities)",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团旗下证券经纪子公司，提供股票、债券交易及投资咨询服务。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-004",
+      "org_name": "加鼎全球资产管理公司 (Desjardins Global Asset Management)",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团资产管理子公司，2026年3月完成对Guardian Capital Group的16.7亿加元收购，合并管理资产约2800亿加元。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-005",
+      "org_name": "加鼎风险投资 (Desjardins Capital)",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团旗下风险投资和私募股权机构，支持魁北克及加拿大中小企业发展。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-006",
+      "org_name": "加鼎国际开发组织 (Developpement international Desjardins / DID)",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团旗下的国际发展NGO，成立于1970年，在30余个发展中国家开展普惠金融和技术援助项目。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-007",
+      "org_name": "Aviso Wealth",
+      "org_type": "subsidiary",
+      "org_description": "加鼎集团参与投资的财富管理公司，由Denis Dubois担任董事会主席。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-008",
+      "org_name": "加鼎安大略信用合作社 (Caisse Desjardins Ontario Credit Union)",
+      "org_type": "subsidiary",
+      "org_description": "2020年1月由11家安大略省加鼎附属信用合作社合并而成，服务安大略省英法双语社区。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-subsidiary-009",
+      "org_name": "Guardian Capital Group Limited",
+      "org_type": "subsidiary",
+      "org_description": "全球投资管理公司，2026年3月被加鼎集团以16.7亿加元全资收购（私有化），合并资产管理规模约2800亿加元。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CA-FIN-006",
+      "org_name": "加拿大国民银行 (National Bank of Canada)",
+      "org_type": "FIN",
+      "org_description": "加拿大第六大银行，也是魁北克省主要银行之一。加鼎集团为魁北克省最大金融机构，两者在魁北克金融市场存在竞争与合作关系。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-GOV-006",
+      "org_name": "加拿大财政部 (Department of Finance Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦政府财政政策制定部门，负责金融监管政策，加鼎集团作为系统重要性金融机构受其监管框架影响。",
+      "relationship_type": "regulator"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-02",
+      "title": "丹尼斯·杜布瓦被任命为新任总裁兼CEO",
+      "description": "加鼎集团董事会宣布Denis Dubois接替Guy Cormier担任总裁兼首席执行官，于2025年9月2日正式就任。这是加鼎集团新治理模式下首次任命CEO，董事会主席与CEO职责已分离。",
+      "impact": "high",
+      "source": "https://www.desjardins.com/en/news/announcement-denis-dubois-ceo.html"
+    },
+    {
+      "date": "2025-08-25",
+      "title": "加鼎集团公布新管理架构",
+      "description": "新CEO Denis Dubois宣布管理委员会新组成，12名成员包括3名新成员：Chantal Gagne（人寿健康险执行副总裁）、Daniel Grossi（信息技术执行副总裁）、Sebastien Vallee（财富管理执行副总裁）。同时两名高管离任。",
+      "impact": "medium",
+      "source": "https://www.desjardins.com/en/news/new-senior-management-structure.html"
+    },
+    {
+      "date": "2025-08-28",
+      "title": "宣布以16.7亿加元收购Guardian Capital Group",
+      "description": "加鼎集团宣布通过其子公司Desjardins Global Asset Management以每股68加元、总价约16.7亿加元现金收购投资管理公司Guardian Capital Group Limited。该交易旨在打造加拿大领先的资产管理平台。",
+      "impact": "high",
+      "source": "https://www.newswire.ca/news-releases/desjardins-accelerates-investment-growth-by-entering-into-a-definitive-agreement-for-the-take-private-acquisition-of-guardian-capital-group-limited-expanding-reach-across-canada-and-beyond-804981998.html"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "公布2025年创纪录财务业绩",
+      "description": "加鼎集团公布2025年财报：总资产达5102亿加元，盈余收入38.11亿加元，净利润163.08亿加元（同比增长11.2%），社员分红5.05亿加元（同比增长15.6%），一级资本充足率23.7%。赞助、捐赠和奖学金总额1.33亿加元。",
+      "impact": "high",
+      "source": "https://www.desjardins.com/en/news/desjardins-group-presents-results-that-demonstrate-collective-strength-benefiting-members-clients-communities.html"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "完成对Guardian Capital Group的收购",
+      "description": "加鼎集团正式完成对Guardian Capital Group Limited的16.7亿加元收购交易。合并后资产管理及顾问规模约2800亿加元，成为加拿大资产管理领域的重要力量。交易通过Desjardins Global Asset Management执行。",
+      "impact": "high",
+      "source": "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html"
+    },
+    {
+      "date": "2026-01-06",
+      "title": "2019年数据泄露案嫌疑人在西班牙落网",
+      "description": "魁北克省警方证实，涉嫌参与2019年加鼎集团大规模数据泄露案（影响970万人和17.3万企业）的嫌疑人Juan Pablo Serrano在西班牙被捕。该事件曾导致430万个人用户和17.3万企业的个人数据外泄。",
+      "impact": "medium",
+      "source": "https://www.epochtimes.com/gb/26/1/8/n14671340.htm"
+    },
+    {
+      "date": "2025-12-00",
+      "title": "宣布未来三年建造超1万套住房的承诺",
+      "description": "为应对住房可负担性危机，加鼎集团宣布将在未来三年内帮助创建超过1万套住房单位的融资承诺。此举体现了其作为社会经济领导者的角色定位。",
+      "impact": "medium",
+      "source": "https://www.desjardins.com/ca/about-us/investor-relations/desjardins-group-annual-report/index.jsp"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "发布气候变化风险意识调查报告",
+      "description": "加鼎保险发布调查报告，显示加拿大人对气候风险的认知上升，但许多人尚未采取适应措施。反映了集团在ESG和气候风险领域的关注。",
+      "impact": "low",
+      "source": "https://www.desjardins.com/en/news.html"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "Desjardins",
+      "url": "https://www.linkedin.com/company/desjardins/",
+      "source": "https://www.desjardins.com/ca/about-us/investor-relations/desjardins-group-annual-report/index.jsp"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Desjardinsgroup",
+      "url": "https://www.facebook.com/Desjardinsgroup",
+      "source": "https://www.desjardins.com/ca/about-us/investor-relations/desjardins-group-annual-report/index.jsp"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "desjardinsgroup",
+      "url": "https://www.youtube.com/@desjardinsgroup",
+      "source": "https://www.desjardins.com/ca/about-us/investor-relations/desjardins-group-annual-report/index.jsp"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "desjardinscoop",
+      "url": "http://instagram.com/desjardinscoop",
+      "source": "https://www.desjardins.com/ca/about-us/investor-relations/desjardins-group-annual-report/index.jsp"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "DesjardinsCoop",
+      "url": "https://x.com/DesjardinsCoop",
+      "source": "https://www.wikidata.org/wiki/Q2933350"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Desjardins官方网站",
+      "url": "https://www.desjardins.com/",
+      "description": "加鼎集团主门户，提供个人银行、企业金融、保险和投资产品及在线服务入口。",
+      "source": "official"
+    },
+    {
+      "name": "Desjardins Funds",
+      "url": "https://www.fondsdesjardins.com/newsroom/",
+      "description": "加鼎基金官网，提供共同基金和ETF产品信息及投资工具。",
+      "source": "official"
+    },
+    {
+      "name": "Desjardins Insurance",
+      "url": "https://www.desjardinsinsurance.com/",
+      "description": "加鼎保险平台，提供汽车、房屋、人寿和健康保险产品的在线报价与服务。",
+      "source": "official"
+    },
+    {
+      "name": "AccesD在线银行",
+      "url": "https://www.desjardins.com/securezone/aacces/a/index.jsp",
+      "description": "加鼎集团网上银行平台AccesD，支持个人和企业客户的账户管理、转账和支付功能。",
+      "source": "official"
+    }
+  ],
+  "industries": [
+    "banking",
+    "insurance",
+    "asset_management",
+    "investment",
+    "financial_services",
+    "venture_capital",
+    "trade_finance",
+    "fintech"
+  ],
+  "core_business": "加鼎集团（Desjardins Group）是北美最大的合作制金融服务集团，由阿尔方斯·德雅尔丹于1900年在魁北克利维创立。集团以信用合作社联邦制运作，旗下210余家地方信用合作社（caisses populaires）在魁北克和安大略省运营超过669个服务网点，服务超过1000万社员和客户。核心业务覆盖五大板块：零售银行（储蓄、信贷、支付）、财产与意外保险（汽车、房屋、商业保险，通过Desjardins General Insurance Group运营）、人寿与健康保险（通过Desjardins Financial Security运营）、财富管理与证券经纪（通过Desjardins Securities及Desjardins Global Asset Management运营，2026年完成对Guardian Capital的收购后资产管理规模约2800亿加元）以及商业金融服务。此外，集团通过加鼎国际开发组织（DID）在30余个发展中国家开展普惠金融项目。2025财年集团总资产达5102亿加元，净利润163亿加元，一级资本充足率23.7%，是全球第八大合作金融机构，也是魁北克省最大的私营部门雇主。",
+  "apec_stance": "加鼎集团作为加拿大最大的合作制金融机构，未直接参与APEC框架活动，但通过以下路径与亚太地区产生关联：（1）加拿大为APEC成员经济体，加鼎集团作为系统重要性金融机构受加拿大亚太经济政策影响；（2）集团旗下的加鼎国际开发组织（DID）在亚太地区发展中国家开展普惠金融和技术援助项目；（3）集团资产管理业务通过收购Guardian Capital Group拓展全球布局，可能涉及亚太市场投资配置；（4）加鼎集团关注亚太地区金融科技发展和ESG投资趋势，以保持在全球金融合作中的竞争力。作为加拿大金融体系的重要组成部分，加鼎集团间接受益于APEC推动的贸易自由化和投资便利化政策。",
+  "contacts": [],
+  "collection_meta": {
+    "phase": "phase3_enriched",
+    "collection_date": "2026-05-11",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "desjardins.com",
+      "newswire",
+      "bnnbloomberg",
+      "insurancebusinessmag",
+      "wealthprofessional",
+      "epochtimes",
+      "lapresse"
+    ],
+    "completeness_score": 92,
+    "quotes": [
+      {
+        "title": "Desjardins Group - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Desjardins_Group"
+      },
+      {
+        "title": "Denis Dubois Biography - Desjardins",
+        "url": "https://www.desjardins.com/ca/about-us/desjardins/governance-democracy/denis-dubois/index.jsp"
+      },
+      {
+        "title": "Desjardins announces new president and CEO",
+        "url": "https://www.desjardins.com/en/news/announcement-denis-dubois-ceo.html"
+      },
+      {
+        "title": "Desjardins Group announces new senior management structure",
+        "url": "https://www.desjardins.com/en/news/new-senior-management-structure.html"
+      },
+      {
+        "title": "2025 Desjardins Group Annual Report",
+        "url": "https://www.desjardins.com/ca/about-us/investor-relations/desjardins-group-annual-report/index.jsp"
+      },
+      {
+        "title": "Desjardins finalizes acquisition of Guardian Capital Group",
+        "url": "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html"
+      },
+      {
+        "title": "Desjardins Group 2025 Financial Results",
+        "url": "https://www.desjardins.com/en/news/desjardins-group-presents-results-that-demonstrate-collective-strength-benefiting-members-clients-communities.html"
+      },
+      {
+        "title": "Desjardins Group Board of Directors",
+        "url": "https://www.desjardins.com/ca/about-us/desjardins/governance-democracy/board-directors/index.jsp"
+      },
+      {
+        "title": "Desjardins Management Committee",
+        "url": "https://www.desjardins.com/ca/about-us/desjardins/governance-democracy/management-committee/index.jsp"
+      },
+      {
+        "title": "Desjardins Group - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2933350"
+      },
+      {
+        "title": "Desjardins earnings top $510 billion - BNN Bloomberg",
+        "url": "https://www.bnnbloomberg.ca/business/2026/02/24/desjardins-reports-revenue-earnings-up-as-assets-top-510-billion/"
+      }
+    ],
+    "wikidata_qid": "Q2933350"
+  }
+}

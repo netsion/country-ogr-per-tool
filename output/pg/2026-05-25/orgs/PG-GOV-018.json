@@ -1,0 +1,237 @@
+{
+  "org_id": "PG-GOV-018",
+  "basic_info": {
+    "name_original": "Department of Forestry",
+    "name_zh": "林业部",
+    "name_en": "Department of Forestry",
+    "aliases": [
+      "Ministry of Forestry",
+      "PNG Department of Forestry",
+      "Forestry Ministry"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "gov_department",
+    "country_iso3": "PNG",
+    "hq_country_iso3": "PNG",
+    "founded_date": "1993-01-01",
+    "website": "https://pngfa.gov.pg/"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "PNG Forest Authority",
+      "url": "https://www.facebook.com/pngforesetauthority/",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "PNG森林与土地利用监测地理门户",
+      "url": "https://png-nfms.org/",
+      "description": "巴布亚新几内亚国家森林与土地利用监测地理信息系统门户，提供森林覆盖变化和土地利用监测数据",
+      "source": "https://png-nfms.org/"
+    },
+    {
+      "name": "PNG森林报告资料库",
+      "url": "https://pngforests.com/",
+      "description": "在线报告资料库，汇集巴布亚新几内亚森林管理和伐木行业的公开报告",
+      "source": "https://pngforests.com/"
+    },
+    {
+      "name": "PNG REDD+ 国家森林监测系统",
+      "url": "https://pngreddplus.org/management-structure/png-forest-authority-pngfa/",
+      "description": "巴布亚新几内亚REDD+减排毁林和森林退化框架下的国家森林监测系统",
+      "source": "https://pngreddplus.org/management-structure/png-forest-authority-pngfa/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "PG-PERSON-000016",
+      "name": "Salio Waipo（Salio Waipo）",
+      "title": "林业部长",
+      "title_description": "巴布亚新几内亚林业部内阁部长，负责国家林业政策的顶层领导和立法方向",
+      "description": "2022年8月被任命为林业部长，接替已故部长Solan Mirisim。积极推动禁止原木出口政策、下游加工转型和国家造林再造林计划2025-2030"
+    },
+    {
+      "person_id": "PG-PERSON-000085",
+      "name": "John Mosoro（John Mosoro）",
+      "title": "森林管理局常务董事",
+      "title_description": "巴布亚新几内亚森林管理局（PNGFA）最高行政长官，负责森林管理局日常运营和战略执行",
+      "description": "2025年起担任PNGFA常务董事（曾任代理），领导林业部门改革、森林工业特区建设和原木出口禁令执行。推动SGS和Control Union等第三方独立核查机构合作，建立林业未来投资信托基金账户"
+    }
+  ],
+  "departments": [
+    {
+      "name": "国家森林局（National Forest Service）",
+      "dept_id": "PG-GOV-018-DEPT-001",
+      "head": null,
+      "description": "PNGFA的运营执行部门，负责森林资源管理的日常运作，涵盖19个省级办事处",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国家森林委员会（National Forest Board）",
+      "dept_id": "PG-GOV-018-DEPT-002",
+      "head": null,
+      "description": "PNGFA监督和咨询机构，向林业部长提供建议并指导国家森林局的工作方向",
+      "parent_dept_id": null
+    },
+    {
+      "name": "省级森林处（Provincial Forest Divisions）",
+      "dept_id": "PG-GOV-018-DEPT-003",
+      "head": null,
+      "description": "在19个省份设有办事处（含5个区域办公室），负责地方森林资源管理和执法",
+      "parent_dept_id": "PG-GOV-018-DEPT-001"
+    },
+    {
+      "name": "PNG Diwai Holdings Limited",
+      "dept_id": "PG-GOV-018-DEPT-004",
+      "head": null,
+      "description": "PNGFA商业运营子公司，负责林业下游加工的商业投资和运营管理",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-10",
+      "title": "PNGFA接收林业未来投资信托基金账户文书",
+      "description": "财政部正式向PNGFA移交林业未来投资信托账户的原始信托文书和政府公告通知，这是首个专门管理林业出口收入的信托基金，旨在为后代保留林业收益并产生利润",
+      "impact": "建立林业收入长效管理机制，推动林业财政可持续化",
+      "source": "https://www.postcourier.com.pg/forestry-future-investment-trust-account-a-milestone-achievement/"
+    },
+    {
+      "date": "2025-09-22",
+      "title": "SGS与PNGFA续签森林监测合作伙伴关系",
+      "description": "PNGFA与全球检验认证公司SGS续签合作伙伴关系，加强森林资源监测和收入安全保障",
+      "impact": "通过国际第三方检验提升原木出口监管透明度和税收合规",
+      "source": "https://thepngbulletin.com/news/png-forest-authority-and-sgs-renew-partnership-to-strengthen-forest-monitoring-and-revenue-security/"
+    },
+    {
+      "date": "2025-11-28",
+      "title": "国家林业部门论坛讨论原木出口禁令转型计划",
+      "description": "PNGFA在莫尔兹比港召集政府、行业、土地所有者、民间社会和发展伙伴参加国家林业部门论坛，讨论2025年底前禁止原木出口和2026年起全面转向下游加工的转型方案",
+      "impact": "原木出口禁令政策正式进入实施阶段，推动林业产业结构性转型",
+      "source": "https://www.tvwan.com.pg/news/6890"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "内阁批准国家造林再造林计划2025-2030",
+      "description": "国家行政委员会（NEC）批准国家造林再造林计划2025-2030，林业部长Salio Waipo赞扬PNGFA管理团队提交该计划",
+      "impact": "为未来五年森林恢复和可持续发展奠定政策基础，应对长期伐木导致的森林退化",
+      "source": "https://thepngbulletin.com/news/pngnews/cabinet-endorses-massive-tree-planting-program-forest-minister-salio-waipo/"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "PNGFA任命Control Union为独立第三方核查机构",
+      "description": "PNGFA正式与Control Union（PNG）Limited签署谅解协议，任命其为独立第三方核查机构，负责监控全国原木出口和林产品",
+      "impact": "强化原木出口监测和执法能力，提升林业治理透明度",
+      "source": "https://thepngbulletin.com/news/png-forest-authority-appoints-control-union-as-independent-third-party-verifier/"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "林业部长与贸易投资部长联合签署七个林业特区NEC提案",
+      "description": "林业部长Salio Waipo与国际贸易投资部长Richard Maru联合签署七项NEC提案，申请在东塞皮克、西塞皮克、马当、莫罗贝、海湾、中央和东新不列颠省设立林业特殊经济区（SEZ），推动下游加工",
+      "impact": "林业SEZ将从法律和基础设施层面支撑原木出口禁令后的产业转型，创造就业和增值加工能力",
+      "source": "https://www.nbc.com.pg/post/33821/ministers-sign-seven-submissions-for-forestry-sezs"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "PG-GOV-027",
+      "org_name": "巴布亚新几内亚森林管理局（Papua New Guinea Forest Authority）",
+      "org_type": "GOV",
+      "org_description": "1993年依《林业法1991》设立的半自治森林管理机构，是林业部下设的主要执行机构",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PG-GOV-001",
+      "org_name": "国家行政委员会（National Executive Council）",
+      "org_type": "GOV",
+      "org_description": "巴布亚新几内亚内阁，是政府最高决策机构",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "PG-GOV-022",
+      "org_name": "国际贸易投资部（Department of International Trade and Investment）",
+      "org_type": "GOV",
+      "org_description": "负责国际贸易和投资促进的政府部门",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "PG-GOV-005",
+      "org_name": "财政部（Department of Treasury）",
+      "org_type": "GOV",
+      "org_description": "巴布亚新几内亚财政与预算管理部门",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "PG-GOV-006",
+      "org_name": "财务部（Department of Finance）",
+      "org_type": "GOV",
+      "org_description": "巴布亚新几内亚公共财务管理部门",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "巴布亚新几内亚林业部是主管国家森林资源管理、保护和可持续利用的核心政府部门。其下设的巴布亚新几内亚森林管理局（PNGFA）于1993年依据《林业法1991》正式成立，取代原林业部并统一各省森林处和森林产业委员会。PNGFA总部位于莫尔兹比港Hohola，设有19个省级办事处和超过386名常驻员工。巴布亚新几内亚拥有约2943.7万公顷森林覆盖面积（全国4628.4万公顷总面积中），估计有1.5万至2万种高等植物、超过2000种树种。约95%的土地由习惯土地所有者拥有和管理。林业部的核心职能包括：制定和执行国家林业政策与法规、监管伐木许可和森林经营、推动原木出口禁令和下游加工转型、管理国家造林再造林计划、监督森林工业特区（SEZ）建设、以及通过独立第三方核查（SGS、Control Union）确保出口合规和收入透明",
+  "industries": [
+    "public_administration",
+    "forestry_timber",
+    "environmental_services",
+    "sustainability"
+  ],
+  "apec_stance": "作为APEC成员经济体巴布亚新几内亚的林业主管部门，该部门在APEC环境和可持续发展议程中发挥重要作用。巴布亚新几内亚拥有全球第三大热带雨林面积，林业部积极参与REDD+（减少毁林和森林退化导致的排放）国际框架。在APEC经济领袖会议期间，巴布亚新几内亚强调气候融资、森林保护和可持续林业发展的重要性。2025年COP30后，总理Marape重申禁止原木出口政策，将林业定位为气候变化解决方案的核心组成部分。林业部还与欧盟FCCB项目和FAO合作推进国家森林清查计划",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-06-06",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "official_website",
+      "wikipedia",
+      "news_articles",
+      "social_media"
+    ],
+    "completeness_score": 77,
+    "notes": "已修正原骨架中可能存在的马拉维林业部错误数据。巴布亚新几内亚的'林业部'（Department of Forestry）现为政策领导部门，实际执行机构为PNGFA（Papua New Guinea Forest Authority），两者紧密关联。网站pngfa.gov.pg为PNGFA官网",
+    "quotes": [
+      {
+        "title": "PNGFA Official Website",
+        "url": "https://pngfa.gov.pg/"
+      },
+      {
+        "title": "PNGFA About Us - Minister for Forests",
+        "url": "https://pngfa.gov.pg/about-us"
+      },
+      {
+        "title": "Papua New Guinea Forestry Authority - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Papua_New_Guinea_Forestry_Authority"
+      },
+      {
+        "title": "Forestry Future Investment Trust Account Milestone",
+        "url": "https://www.postcourier.com.pg/forestry-future-investment-trust-account-a-milestone-achievement/"
+      },
+      {
+        "title": "PNGFA and SGS Renew Partnership",
+        "url": "https://thepngbulletin.com/news/png-forest-authority-and-sgs-renew-partnership-to-strengthen-forest-monitoring-and-revenue-security/"
+      },
+      {
+        "title": "Cabinet Endorses National Reforestation Program 2025-2030",
+        "url": "https://thepngbulletin.com/news/pngnews/cabinet-endorses-massive-tree-planting-program-forest-minister-salio-waipo/"
+      },
+      {
+        "title": "PNGFA Appoints Control Union as Independent Verifier",
+        "url": "https://thepngbulletin.com/news/png-forest-authority-appoints-control-union-as-independent-third-party-verifier/"
+      },
+      {
+        "title": "Ministers Sign Seven Submissions for Forestry SEZs",
+        "url": "https://www.nbc.com.pg/post/33821/ministers-sign-seven-submissions-for-forestry-sezs"
+      },
+      {
+        "title": "PM Marape Reaffirms End to Round Log Exports",
+        "url": "https://www.pmnec.gov.pg/prime-minister-marape-reaffirms-end-to-round-log-exports-and-push-for-downstream-processing/"
+      },
+      {
+        "title": "PNGFA Launches First Website and Communication Strategy",
+        "url": "https://emtv.com.pg/pngfa-launches-first-website-communication-strategy-after-32-year/"
+      }
+    ]
+  }
+}

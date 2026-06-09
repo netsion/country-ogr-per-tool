@@ -1,39 +1,56 @@
 {
   "org_id": "SG-PARTY-006",
   "basic_info": {
-    "name_original": "新加坡民主党",
-    "name_zh": "新加坡民主党",
+    "name_original": "Singapore Democratic Party",
     "name_en": "Singapore Democratic Party",
+    "name_zh": "新加坡民主党",
     "aliases": [
       "SDP",
       "新加坡民主党",
-      "Parti Demokratik Singapura"
+      "Parti Demokratik Singapura",
+      "சிங்கப்பூர் மக்களாட்ச"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1980-01-01",
-    "website": "http://yoursdp.org/"
+    "founded_date": "1980-08-06",
+    "website": "https://yoursdp.org/",
+    "headquarters": "21 Bukit Batok Crescent, #29-84, WCEGA Tower, Singapore 658065",
+    "ideology": "社会自由主义、自由主义、社会民主主义",
+    "political_position": "中间偏左",
+    "slogan": "Competent, Constructive, Compassionate（能干、建设性、关怀）",
+    "colors": "红色",
+    "newspaper": "The New Democrat",
+    "youth_wing": "Young Democrats",
+    "women_wing": "Women Democrats",
+    "regional_affiliation": "亚洲自由民主人士委员会 (Council of Asian Liberals and Democrats)",
+    "international_affiliation": "自由国际 (Liberal International)"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
       "account_name": "yoursdp",
       "url": "https://twitter.com/yoursdp",
-      "source": "wikidata"
+      "source": "wikipedia"
     },
     {
       "platform": "facebook",
       "account_name": "yoursdp",
       "url": "https://facebook.com/yoursdp",
-      "source": "wikidata"
+      "source": "wikipedia"
     },
     {
       "platform": "youtube",
       "account_name": "UC_6ZBBzLo-jVQKxlcB8uj_g",
       "url": "https://youtube.com/channel/UC_6ZBBzLo-jVQKxlcB8uj_g",
-      "source": "wikidata"
+      "source": "wikipedia"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "yoursdp",
+      "url": "https://www.instagram.com/yoursdp/",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
@@ -41,146 +58,196 @@
       "name": "SDP官方网站",
       "url": "https://yoursdp.org/",
       "description": "新加坡民主党官方网站，包含政策纲领、选举信息和党活动",
-      "source": "official_website"
+      "source": "wikipedia"
     },
     {
       "name": "SDP GE2025竞选档案",
       "url": "https://yoursdp.org/ge2025/",
       "description": "SDP 2025年大选专区，包含候选人介绍和政策宣言",
       "source": "official_website"
+    },
+    {
+      "name": "SDP党报 The New Democrat",
+      "url": "https://yoursdp.org/category/the-new-democrat/",
+      "description": "SDP发行的党刊，刊载政策评论和党务动态",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000082",
-      "name": "徐順全 (Chee Soon Juan)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000152",
+      "name": "徐顺全 (Chee Soon Juan)",
+      "title": "秘书长 (Secretary-General)",
+      "title_description": "SDP党魁，自1993年6月起担任秘书长至今",
+      "description": "徐顺全原为新加坡国立大学心理学讲师，1992年被SDP创始人詹时中招揽入党并参加马林百列集选区补选。1993年党内内讧后接任秘书长，领导SDP至今超过30年。曾因发表演说被控非法集会、因诽谤被宣告破产而无法参选长达十余年。2015年重返政坛后逐步转型为较温和的形象。GE2025中在三巴旺西单选区获46.81%得票率，仅差不到1个百分点未能获得NCMP席位。选后推出OTSEC合作社和选举改革请愿。"
+    },
+    {
+      "person_id": "SG-PERSON-000290",
+      "name": "保罗·淡马亚 (Paul Tambyah)",
+      "title": "主席 (Chairman)",
+      "title_description": "SDP主席兼政策主管，自2017年起担任至今",
+      "description": "保罗·淡马亚是新加坡国立大学医学院教授，专攻传染病学，在国际医学界享有盛誉。2015年加入SDP参选荷兰-武吉知马集选区，2017年当选主席。GE2020在武吉班让单选区获46.26%得票率，GE2025在武吉班让获38.59%得票率。2026年2月继续当选新一届中委会主席。"
+    },
+    {
+      "person_id": "SG-PERSON-000291",
+      "name": "林文兴 (Bryan Lim Boon Heng)",
+      "title": "副主席 (Vice-Chairman)",
+      "title_description": "SDP副主席，负责培训与发展",
+      "description": "2026年2月当选SDP新一届中委会副主席，负责党员培训与发展工作。GE2025中作为SDP三巴旺集选区五人团队成员参选。"
+    },
+    {
+      "person_id": "SG-PERSON-000292",
+      "name": "詹时中 (Chiam See Tong)",
+      "title": "创始人 (Founder)",
+      "title_description": "SDP创始人，曾任波东巴西区国会议员（1984-1996）",
+      "description": "詹时中是律师出身，于1980年8月6日创建SDP。1984年以60.3%得票率当选波东巴西单选区议员，成为新加坡独立后第二位反对党议员。1991年带领SDP赢得3个议席，创反对党历史最佳成绩。1993年与中执委及徐顺全产生严重分歧，1996年离党加入新加坡人民党(SPP)。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-PARTY-006-DEPT-001",
-      "name": "Central Executive Committee Line-up (2026-2028)",
-      "head": null,
-      "description": null,
+      "name": "中央执行委员会 (Central Executive Committee, 2026-2028任期)",
+      "head": "徐顺全 (Chee Soon Juan)",
+      "description": "SDP最高决策机构，由12名成员组成，在两年一度的党代表大会上由骨干党员选举产生。2026-2028任期成员包括：秘书长徐顺全、助理秘书长Christopher Ang、主席兼政策主管保罗·淡马亚、副主席Bryan Lim、财政Surayah Akbar、助理财政Matthew Tan等。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-PARTY-006-DEPT-002",
-      "name": "Leadership",
+      "name": "青年团 (Young Democrats)",
       "head": null,
-      "description": null,
-      "parent_dept_id": null
+      "description": "SDP青年组织，负责吸引和培养年轻党员，推动关注青年权益的政策。",
+      "parent_dept_id": "SG-PARTY-006-DEPT-001"
     },
     {
       "dept_id": "SG-PARTY-006-DEPT-003",
-      "name": "List of secretaries-general",
+      "name": "妇女团 (Women Democrats)",
       "head": null,
-      "description": null,
-      "parent_dept_id": null
+      "description": "SDP妇女组织，推动关注女性权益和平等的政策。",
+      "parent_dept_id": "SG-PARTY-006-DEPT-001"
     },
     {
       "dept_id": "SG-PARTY-006-DEPT-004",
-      "name": "List of chairmen",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-PARTY-006-DEPT-005",
-      "name": "Former elected Members of Parliament",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-PARTY-006-DEPT-006",
-      "name": "Election results",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-PARTY-006-DEPT-007",
-      "name": "Parliament",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-PARTY-006-DEPT-008",
-      "name": "Seats contested",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-PARTY-006-DEPT-009",
-      "name": "By-elections",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-PARTY-006-DEPT-010",
-      "name": "References",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
+      "name": "政策研究部 (Policy Division)",
+      "head": "保罗·淡马亚 (Paul Tambyah)",
+      "description": "SDP是新加坡反对党中首个制定全面替代政策方案的政党。政策研究部负责制定涵盖医疗、住房、教育、经济和移民等领域的详细政策文件。",
+      "parent_dept_id": "SG-PARTY-006-DEPT-001"
     }
   ],
   "recent_events": [
     {
       "date": "2025-05-03",
-      "title": "GE2025：徐顺全在三巴旺西以46.81%得票率惜败",
-      "description": "在2025年全国大选中，SDP秘书长徐顺全在三巴旺西单选区获46.81%选票，以不到1个百分点之差未能获得非选区议员席位。主席保罗·谭比亚在武吉班让单选区参选。SDP连续28年未有民选议员进入国会的记录延续。",
-      "impact": "SDP在选举中表现接近突破但仍未能赢得议席，反映反对党竞争格局的变化",
+      "title": "GE2025：SDP在四个选区全部落败，28年无民选议员记录延续",
+      "description": "在GE2025中，SDP参选四个选区：徐顺全在三巴旺西单选区获46.81%得票率（为当晚第三接近的选区），以不到1个百分点之差未能获得NCMP席位；主席淡马亚在武吉班让获38.59%；三巴旺集选区团队获29.93%（三方混战）；马西岭-油池集选区获26.54%。SDP自1997年以来连续28年未有民选议员进入国会。",
+      "impact": "徐顺全在33年政治生涯中仍未能进入国会，仅差不到1个百分点未能获得NCMP席位。淡马亚对武吉班让的结果尤为失望。SDP得票率从2020年的37.04%降至2025年的30.9%（所角逐选区）。",
       "source": "https://www.channelnewsasia.com/singapore/ge2025-results-sdp-chee-soon-juan-5107181"
+    },
+    {
+      "date": "2025-04-20",
+      "title": "SDP发布GE2025竞选宣言",
+      "description": "SDP在油池广场发布竞选宣言，口号为'繁荣而非苟活'(Thrive, Not Just Survive)，提出超过60项政策提案，涵盖六大领域：消费税削减、9万新元组屋方案、废除小六会考(PSLE)、建立全民单一支付医疗体系、移民政策调整等。",
+      "impact": "SDP的政策提案被认为是各反对党中最为激进和详细的，主张完全废除PSLE、完全去商品化住房等立场比工人党更为左倾。",
+      "source": "https://www.channelnewsasia.com/singapore/ge2025-singapore-democratic-party-manifesto-5075506"
+    },
+    {
+      "date": "2025-05-18",
+      "title": "SDP选后推出三大举措：选举改革请愿、OTSEC合作社、青年组织",
+      "description": "在感谢晚宴上，徐顺全宣布三项重大举措：发起在线请愿要求改革选举制度（包括选区划分透明化）；成立'橙色与青色社会企业合作社'(OTSEC)，作为'以人民为本的经济抗衡力量'对抗'PAP-NTUC纽带'，会员费100新元；以及建立青年组织为未来选举做准备。",
+      "impact": "标志着SDP从选举模式转向社会运动模式的尝试。OTSEC合作社试图将政治组织与经济互助结合，但11月徐顺全的Orange and Teal咖啡馆已关闭。",
+      "source": "https://www.channelnewsasia.com/singapore/sdp-chee-soon-juan-campaign-electoral-reform-5137741"
     },
     {
       "date": "2026-02-01",
       "title": "SDP选举产生新一届中委会（2026-2028任期）",
-      "description": "SDP选举产生2026-2028任期中央执行委员会，徐顺全继续担任秘书长，保罗·谭比亚继续担任主席。",
-      "impact": "SDP领导层保持稳定，为下一阶段政治运作做准备",
-      "source": "https://yoursdp.org/ge2025/"
+      "description": "SDP在第22届党代表大会上选举产生2026-2028任期中央执行委员会。徐顺全继续担任秘书长，保罗·淡马亚继续担任主席。新中委会保持了领导层的稳定性，同时引入数名新成员。",
+      "impact": "SDP领导层保持稳定，显示党内对徐顺全-淡马亚领导组合的持续信任，为下一阶段政治运作做准备。",
+      "source": "https://en.wikipedia.org/wiki/Singapore_Democratic_Party"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-PARTY-001",
-      "org_name": "People's Action Party (PAP, 人民行动党)",
+      "org_name": "人民行动党 (People's Action Party)",
       "org_type": "PARTY",
-      "org_description": "新加坡执政党，SDP的主要政治对手",
+      "org_description": "新加坡执政党，SDP的主要政治对手，自1959年以来连续执政",
       "relationship_type": "strategic_alliance"
     },
     {
       "org_id": "SG-PARTY-004",
-      "org_name": "Workers' Party (WP, 工人党)",
+      "org_name": "工人党 (Workers' Party)",
       "org_type": "PARTY",
-      "org_description": "新加坡主要反对党，与SDP在反对党阵营中共存",
+      "org_description": "新加坡主要反对党，GE2025后保持10个国会席位。SDP在政策立场上比工人党更偏左",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "SG-PARTY-005",
+      "org_name": "前进党 (Progress Singapore Party)",
+      "org_type": "PARTY",
+      "org_description": "新加坡反对党，2023年SDP曾提议与其组建联盟",
       "relationship_type": "strategic_alliance"
     }
   ],
-  "core_business": "新加坡民主党（Singapore Democratic Party，简称SDP）是新加坡的一个中间偏左社会自由主义政党，由詹时中（Chiam See Tong）于1980年8月6日创立。建党宣言提出消除殖民主义和封建主义、维护议会民主、坚持民主和社会主义原则等目标。1984年大选中，詹时中以60.3%得票率当选波东巴西（Potong Pasir）单选区议员，成为新加坡独立后第二位当选反对党议员。1991年大选中，SDP取得历史性突破，赢得波东巴西、武吉甘柏（Bukit Gombak）和义顺中（Nee Soon Central）三个议席，得票率达48.6%，为独立以来反对党最佳成绩。\n\n然而，1993年党内爆发严重内讧。詹时中与中央执行委员会（CEC）及当时被其招揽入党的徐顺全（Chee Soon Juan）产生分歧。詹时中于1996年离党，转而加入新加坡人民党（SPP）。徐顺全此后接任秘书长，领导SDP至今。1997年大选中，SDP全军覆没，此后再未获得国会议席。\n\nSDP主张加强公民自由、扩大社会保护、增加社会福利支出、推动教育医疗住房改革，并呼吁调整移民政策。在国际层面，SDP是自由国际（Liberal International）和亚洲自由民主人士委员会（Council of Asian Liberals and Democrats）的成员。近年来，SDP持续参与选举。在2025年大选中，徐顺全在三巴旺西单选区（Sembawang West SMC）获46.81%得票率，虽未能当选但表现接近。主席保罗·谭比亚（Paul Tambyah）在武吉班让单选区（Bukit Panjang SMC）参选。2026年2月，SDP选举产生了新一届中央执行委员会（2026-2028任期），继续由徐顺全担任秘书长、谭比亚担任主席。",
+  "core_business": "新加坡民主党（Singapore Democratic Party，简称SDP）是新加坡历史最悠久的反对党之一，由詹时中（Chiam See Tong）于1980年8月6日创立。建党宣言提出消除殖民主义和封建主义、维护议会民主、坚持民主和社会主义原则等目标。SDP的意识形态定位为社会自由主义和社会民主主义，是新加坡主要反对党中立场最偏左的政党，比工人党更倾向于推行激进改革，如建立全民单一支付医疗体系、完全废除小六会考(PSLE)、完全去商品化公共住房等。\n\nSDP的政治历程可分为四个主要阶段。第一阶段为1980-1991年的创始与崛起期：詹时中在1984年以60.3%得票率当选波东巴西单选区议员，成为新加坡独立后第二位反对党议员。1991年大选是SDP的历史巅峰，赢得波东巴西、武吉甘柏和义顺中三个议席，得票率达48.6%，为独立以来反对党最佳成绩。第二阶段为1993-2000年的内讧与衰落期：1993年詹时中与中执委及徐顺全爆发严重分歧，1996年詹时中离党加入新加坡人民党(SPP)。徐顺全接任秘书长后，SDP在1997年大选中全军覆没，此后再未获得国会议席。第三阶段为2001-2010年的抗争期：徐顺全因诽谤官司被宣告破产，无法参选长达十余年。SDP在此期间以街头示威和国际舆论战为主要策略，2008年'Tak Boleh Tahan'（忍无可忍）抗议活动中18人被捕。第四阶段为2011年至今的政策转型期：徐顺全2012年脱离破产状态重返政坛，逐步从对抗性政治转向政策导向型政治，强调以详细的政策替代方案争取选民支持。2016年武吉巴督补选中徐顺全获38.79%选票，2020年大选中淡马亚在武吉班让获46.26%，2025年徐顺全在三巴旺西获46.81%，得票率持续提升但始终未能突破。\n\n在国际层面，SDP是自由国际(Liberal International)和亚洲自由民主人士委员会(Council of Asian Liberals and Democrats)的成员。SDP的竞选口号为'Competent, Constructive, Compassionate'（能干、建设性、关怀），强调以能力和关怀为核心价值。SDP的核心政策议题包括：降低消费税、改革医疗体系为全民单一支付制度、提供9万新元起的组屋、废除PSLE、调整移民政策、提高社会福利支出、推动公民自由和宪法改革等。SDP是新加坡反对党中首个制定全面详细替代政策方案的政党，在医疗、住房、教育等领域均有系统的政策文件。选后SDP推出OTSEC社会企业合作社，试图在经济层面建立对抗PAP-NTUC体系的替代力量。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "SDP作为新加坡反对党，其政策主张聚焦国内社会改革，对APEC事务的直接参与有限。SDP是自由国际（Liberal International）和亚洲自由民主人士委员会成员，在民主和人权议题上有国际联系。",
+  "apec_stance": "SDP作为新加坡反对党，其政策主张聚焦国内社会改革，对APEC事务的直接参与有限。SDP是自由国际(Liberal International)和亚洲自由民主人士委员会(Council of Asian Liberals and Democrats)的成员，在民主和人权议题上有国际联系。SDP主张调整移民政策、限制外籍劳动力流入，这一立场与APEC推动区域人员自由流动的方向存在张力。SDP呼吁审查现有贸易协定对新加坡本地就业的影响，但未对APEC框架提出具体替代方案。由于SDP自1997年以来始终无国会代表权，其对区域经济治理议题的影响力极为有限。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Logo_of_the_SDP.svg/330px-Logo_of_the_SDP.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "web_search",
+      "news_media"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with web search: related entities, APEC stance (score: 92)"
+    "completeness_score": 89,
+    "notes": "Phase 3 enrichment: updated CEC 2026-2028 lineup, detailed GE2025 results, OTSEC cooperative and electoral reform petition (May 2025), manifesto details, corrected person_id for Chee Soon Juan (SG-PERSON-000152), added Paul Tambyah/Bryan Lim/Chiam See Tong as key_people, fixed departments from Wikipedia table names to actual organizational units, added Instagram account, expanded core_business with four historical phases, updated related_entities relationship types. Cross-validated with CNA, Wikipedia EN/ZH, Mothership, Straits Times.",
+    "quotes": [
+      {
+        "title": "SDP - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Singapore_Democratic_Party"
+      },
+      {
+        "title": "SDP - Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡民主党"
+      },
+      {
+        "title": "CNA: GE2025 SDP results",
+        "url": "https://www.channelnewsasia.com/singapore/ge2025-results-sdp-chee-soon-juan-5107181"
+      },
+      {
+        "title": "CNA: SDP manifesto launch",
+        "url": "https://www.channelnewsasia.com/singapore/ge2025-singapore-democratic-party-manifesto-5075506"
+      },
+      {
+        "title": "CNA: SDP electoral reform and OTSEC",
+        "url": "https://www.channelnewsasia.com/singapore/sdp-chee-soon-juan-campaign-electoral-reform-5137741"
+      },
+      {
+        "title": "SDP GE2025 archive",
+        "url": "https://yoursdp.org/ge2025/"
+      },
+      {
+        "title": "SDP official website",
+        "url": "https://yoursdp.org/"
+      },
+      {
+        "title": "Mothership: SDP manifesto 2025",
+        "url": "https://mothership.sg/2025/04/thrive-sdp-manifesto-2025/"
+      },
+      {
+        "title": "Mothership: OTSEC cooperative",
+        "url": "https://mothership.sg/2025/05/chee-soon-juan-sdp-co-operative-ntuc/"
+      },
+      {
+        "title": "Straits Times: SDP electoral reform petition",
+        "url": "https://www.straitstimes.com/singapore/politics/sdp-launches-petition-to-reform-election-system-as-part-of-new-campaign"
+      }
+    ]
   }
 }

@@ -1,0 +1,954 @@
+{
+  "org_id": "CA-GOV-003",
+  "basic_info": {
+    "name_original": "Senate of Canada",
+    "name_zh": "加拿大参议院",
+    "name_en": "Senate of Canada",
+    "aliases": [
+      "Sénat du Canada",
+      "Canadian Senate",
+      "加拿大上议院",
+      "Upper House of Canada"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "legislature",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "founded_date": "1867-07-01",
+    "website": "https://sencanada.ca/"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@SenateCA",
+      "url": "https://x.com/SenateCA",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Senate of Canada - Sénat du Canada",
+      "url": "https://www.facebook.com/SenCanada/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Senate of Canada | Sénat du Canada",
+      "url": "https://www.youtube.com/channel/UC1Xn76eNXEO9gV_FFFsH0uQ",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@sencanada",
+      "url": "https://www.instagram.com/sencanada/",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Senate of Canada",
+      "url": "https://ca.linkedin.com/company/senate-of-canada",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "SenCanada.ca (Official Website)",
+      "url": "https://sencanada.ca/",
+      "description": "加拿大参议院官方网站，提供议员名录、法案追踪、委员会报告及议事记录",
+      "source": "official_website"
+    },
+    {
+      "name": "Senate ParlVU (Video Streaming)",
+      "url": "https://senparlvu.parl.gc.ca/Harmony/",
+      "description": "参议院会议视频直播与回放平台",
+      "source": "official_website"
+    },
+    {
+      "name": "LEGISinfo (Bill Tracking)",
+      "url": "https://www.parl.ca/legisinfo/",
+      "description": "加拿大议会法案追踪系统，可查阅参众两院所有法案状态",
+      "source": "official_website"
+    },
+    {
+      "name": "Hansard (Debates of the Senate)",
+      "url": "https://sencanada.ca/en/in-the-chamber/debates/",
+      "description": "参议院议事录全文，记录每次会议的辩论内容",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000330",
+      "name": "皮埃雷特·兰盖特 (Pierrette Ringuette)",
+      "title": "参议员（新不伦瑞克省），加拿大参议院独立参议员小组（ISG）成员",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "ISG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000331",
+      "name": "珀西·唐恩 (Percy Downe)",
+      "title": "参议员（爱德华王子岛省），加拿大参议员小组（CSG）成员",
+      "title_description": "代表Prince Edward Island的参议员",
+      "description": "CSG参议员，代表Prince Edward Island地区"
+    },
+    {
+      "person_id": "CA-PERSON-000707",
+      "name": "迈克尔·L·麦克唐纳 (Michael L. MacDonald)",
+      "title": "加拿大参议院 (Senate of Canada) 保守党参议员，代表新斯科舍省（布雷顿角选区）",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "CPC参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000708",
+      "name": "约娜·马丁 (Yonah Martin)",
+      "title": "加拿大参议院 (Senate of Canada) 保守党参议员，代表不列颠哥伦比亚省",
+      "title_description": "代表British Columbia的参议员",
+      "description": "CPC参议员，代表British Columbia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000332",
+      "name": "帕梅拉·沃林 (Pamela Wallin)",
+      "title": "加拿大参议院参议员（萨斯喀彻温省）",
+      "title_description": "代表Saskatchewan的参议员",
+      "description": "CSG参议员，代表Saskatchewan地区"
+    },
+    {
+      "person_id": "CA-PERSON-000333",
+      "name": "帕特里克·布拉佐 (Patrick Brazeau)",
+      "title": "加拿大参议院参议员（魁北克省）",
+      "title_description": "代表Quebec的参议员",
+      "description": "NA参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000150",
+      "name": "里奥·豪萨科斯 (Leo Housakos)",
+      "title": "加拿大参议院反对党领袖（2025年5月起）",
+      "title_description": "代表Quebec的参议员",
+      "description": "CPC参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000709",
+      "name": "克洛德·卡里尼昂 (Claude Carignan)",
+      "title": "加拿大参议院 (Senate of Canada) 保守党参议员，代表魁北克省（千岛选区）",
+      "title_description": "代表Quebec的参议员",
+      "description": "CPC参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000710",
+      "name": "罗斯-梅·普瓦里耶 (Rose-May Poirier)",
+      "title": "参议员（新不伦瑞克省），保守党参议员党团（CPC）成员",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "CPC参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000334",
+      "name": "萨拉·阿塔乌拉詹 (Salma Ataullahjan)",
+      "title": "加拿大参议院参议员（安大略省）",
+      "title_description": "代表Ontario的参议员",
+      "description": "CPC参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000335",
+      "name": "法比安·曼宁 (Fabian Manning)",
+      "title": "加拿大参议院参议员（纽芬兰与拉布拉多省）",
+      "title_description": "代表Newfoundland and Labrador的参议员",
+      "description": "CPC参议员，代表Newfoundland and Labrador地区"
+    },
+    {
+      "person_id": "CA-PERSON-000336",
+      "name": "若泽·韦尔纳 (Josée Verner)",
+      "title": "参议员（魁北克省蒙塔维尔选区），加拿大参议员小组（CSG）成员",
+      "title_description": "代表Quebec的参议员",
+      "description": "CSG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000337",
+      "name": "丹妮丝·巴特斯 (Denise Batters)",
+      "title": "参议员（萨斯喀彻温省），保守党参议员核心小组（CPC）成员",
+      "title_description": "代表Saskatchewan的参议员",
+      "description": "CPC参议员，代表Saskatchewan地区"
+    },
+    {
+      "person_id": "CA-PERSON-000338",
+      "name": "大卫·韦尔斯 (David Wells)",
+      "title": "参议员（纽芬兰与拉布拉多省），保守党参议员核心小组（CPC）成员",
+      "title_description": "代表Newfoundland and Labrador的参议员",
+      "description": "CPC参议员，代表Newfoundland and Labrador地区"
+    },
+    {
+      "person_id": "CA-PERSON-000339",
+      "name": "斯科特·坦纳斯 (Scott Tannas)",
+      "title": "参议员（阿尔伯塔省），加拿大参议员组织（CSG）领袖",
+      "title_description": "代表Alberta的参议员",
+      "description": "CSG参议员，代表Alberta地区"
+    },
+    {
+      "person_id": "CA-PERSON-000340",
+      "name": "彼得·哈德 (Peter Harder)",
+      "title": "参议员（安大略省），加拿大参议院进步参议员小组（PSG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "PSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000144",
+      "name": "雷蒙德·加涅 (Raymonde Gagné)",
+      "title": "加拿大参议院议长（2023年5月起）",
+      "title_description": "代表Manitoba的参议员",
+      "description": "NA参议员，代表Manitoba地区"
+    },
+    {
+      "person_id": "CA-PERSON-000341",
+      "name": "尚塔尔·珀蒂克莱尔 (Chantal Petitclerc)",
+      "title": "参议员（魁北克省），加拿大参议院独立参议员小组（ISG）成员",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000342",
+      "name": "旺达·托马斯·伯纳德 (Wanda Thomas Bernard)",
+      "title": "参议员（新斯科舍省），加拿大参议院进步参议员小组（PSG）成员",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "PSG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000148",
+      "name": "勒内·科米尔 (René Cormier)",
+      "title": "加拿大参议院临时议长（2025年6月起）",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "ISG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000343",
+      "name": "托尼·迪恩 (Tony Dean)",
+      "title": "参议员（安大略省），加拿大参议院独立参议员小组（ISG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000344",
+      "name": "玛丽卢·麦克弗德兰 (Marilou McPhedran)",
+      "title": "参议员（马尼托巴省），加拿大参议院无党派参议员（Non-affiliated）",
+      "title_description": "代表Manitoba的参议员",
+      "description": "NA参议员，代表Manitoba地区"
+    },
+    {
+      "person_id": "CA-PERSON-000345",
+      "name": "露西·蒙西翁 (Lucie Moncion)",
+      "title": "参议员（安大略省），加拿大参议院独立参议员小组（ISG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000346",
+      "name": "金·佩特 (Kim Pate)",
+      "title": "参议员（安大略省），加拿大参议院独立参议员小组（ISG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000347",
+      "name": "吴荣元 (Yuen Pau Woo)",
+      "title": "参议员（不列颠哥伦比亚省），加拿大参议院独立参议员小组（ISG）成员；参议院法规联合审查联合委员会联席主席；参议院外交与国际贸易常设委员会、银行贸易与商业常设委员会、规则程序与议会权利常设委员会成员",
+      "title_description": "代表British Columbia的参议员",
+      "description": "ISG参议员，代表British Columbia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000348",
+      "name": "埃里克·福雷 (Éric Forest)",
+      "title": "加拿大参议院（Senate of Canada）参议员（魁北克省），2016年11月至今",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000151",
+      "name": "雷蒙·圣日耳曼 (Raymonde Saint-Germain)",
+      "title": "加拿大参议院独立参议员党团召集人（2022年1月起）",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000349",
+      "name": "罗莎·加尔维斯 (Rosa Galvez)",
+      "title": "加拿大参议院（Senate of Canada）参议员（魁北克省），2016年12月至今",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000350",
+      "name": "玛丽·科因 (Mary Coyle)",
+      "title": "加拿大参议院议员（代表新斯科舍省）",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "ISG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000351",
+      "name": "玛丽·简·麦卡勒姆 (Mary Jane McCallum)",
+      "title": "加拿大参议院议员（代表马尼托巴省）",
+      "title_description": "代表Manitoba的参议员",
+      "description": "CPC参议员，代表Manitoba地区"
+    },
+    {
+      "person_id": "CA-PERSON-000352",
+      "name": "罗伯特·布莱克 (Robert Black)",
+      "title": "加拿大参议院议员（代表安大略省），2018年2月至今",
+      "title_description": "代表Ontario的参议员",
+      "description": "CSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000353",
+      "name": "玛蒂·迪肯 (Marty Deacon)",
+      "title": "加拿大参议院议员（代表安大略省滑铁卢地区），2018年2月至今",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000354",
+      "name": "伊冯娜·博耶 (Yvonne Boyer)",
+      "title": "加拿大参议院议员（代表安大略省）",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000355",
+      "name": "穆罕默德-伊克巴尔·拉瓦利亚 (Mohamed-Iqbal Ravalia)",
+      "title": "加拿大参议院议员（代表纽芬兰与拉布拉多省）",
+      "title_description": "代表Newfoundland and Labrador的参议员",
+      "description": "ISG参议员，代表Newfoundland and Labrador地区"
+    },
+    {
+      "person_id": "CA-PERSON-000356",
+      "name": "皮埃尔·达尔丰 (Pierre Dalphond)",
+      "title": "加拿大参议院议员（代表魁北克省德洛里米耶选区），独立参议员小组（ISG）成员，2018年6月至今",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000357",
+      "name": "唐娜·达斯科 (Donna Dasko)",
+      "title": "加拿大参议院议员（代表安大略省），独立参议员小组（ISG）成员，2018年6月至今",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000358",
+      "name": "科林·迪肯 (Colin Deacon)",
+      "title": "加拿大参议院议员（代表新斯科舍省），加拿大参议员小组（CSG）成员，2018年6月至今",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "CSG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000359",
+      "name": "朱莉·米维尔-德谢纳 (Julie Miville-Dechene)",
+      "title": "加拿大参议院议员（代表魁北省因克曼选区），进步参议员小组（PSG）成员，2018年6月至今",
+      "title_description": "代表Quebec的参议员",
+      "description": "PSG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000360",
+      "name": "贝弗·布森 (Bev Busson)",
+      "title": "加拿大参议院议员（代表不列颠哥伦比亚省），独立参议员小组（ISG）成员，2018年9月至今",
+      "title_description": "代表British Columbia的参议员",
+      "description": "ISG参议员，代表British Columbia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000361",
+      "name": "马蒂·克莱恩 (Marty Klyne)",
+      "title": "加拿大参议院议员（代表萨斯喀彻温省），进步参议员小组（PSG）成员，2018年9月至今",
+      "title_description": "代表Saskatchewan的参议员",
+      "description": "PSG参议员，代表Saskatchewan地区"
+    },
+    {
+      "person_id": "CA-PERSON-000362",
+      "name": "彼得·博姆 (Peter Boehm)",
+      "title": "加拿大参议院议员（代表安大略省），独立参议员小组（ISG）成员，2018年10月至今",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000363",
+      "name": "帕蒂·拉布坎-本森 (Patti LaBoucane-Benson)",
+      "title": "加拿大参议院议员（代表艾伯塔省），无党派（Non-affiliated），2018年10月至今",
+      "title_description": "代表Alberta的参议员",
+      "description": "NA参议员，代表Alberta地区"
+    },
+    {
+      "person_id": "CA-PERSON-000364",
+      "name": "葆拉·西蒙斯 (Paula Simons)",
+      "title": "加拿大参议院议员（代表阿尔伯塔省），独立参议员团（ISG）成员",
+      "title_description": "代表Alberta的参议员",
+      "description": "ISG参议员，代表Alberta地区"
+    },
+    {
+      "person_id": "CA-PERSON-000365",
+      "name": "布莱恩·弗朗西斯 (Brian Francis)",
+      "title": "加拿大参议院议员（代表爱德华王子岛省），进步参议员团（PSG）领袖",
+      "title_description": "代表Prince Edward Island的参议员",
+      "description": "PSG参议员，代表Prince Edward Island地区"
+    },
+    {
+      "person_id": "CA-PERSON-000366",
+      "name": "唐恩·安德森 (Dawn Anderson)",
+      "title": "加拿大参议院议员（代表西北地区）（加拿大保守党参议院核心小组成员）",
+      "title_description": "代表Northwest Territories的参议员",
+      "description": "CPC参议员，代表Northwest Territories地区"
+    },
+    {
+      "person_id": "CA-PERSON-000367",
+      "name": "帕特·邓肯 (Pat Duncan)",
+      "title": "加拿大参议院议员（代表育空地区）（无党派 affiliation）",
+      "title_description": "代表Yukon的参议员",
+      "description": "NA参议员，代表Yukon地区"
+    },
+    {
+      "person_id": "CA-PERSON-000368",
+      "name": "斯坦·库彻 (Stan Kutcher)",
+      "title": "参议员",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "ISG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000369",
+      "name": "罗斯玛丽·穆迪 (Rosemary Moodie)",
+      "title": "加拿大参议院议员（代表安大略省），独立参议员团（ISG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000370",
+      "name": "托尼·洛弗雷达 (Tony Loffreda)",
+      "title": "加拿大参议院议员（代表魁北克省），独立参议员团（ISG）成员",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000711",
+      "name": "伯纳黛特·克莱门特 (Bernadette Clement)",
+      "title": "参议员（安大略省），独立参议员小组（ISG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000371",
+      "name": "吉姆·奎恩 (Jim Quinn)",
+      "title": "加拿大参议院议员（代表新不伦瑞克省），加拿大参议员团（CSG）成员",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "CSG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000372",
+      "name": "哈桑·尤素福 (Hassan Yussuff)",
+      "title": "加拿大参议院议员（代表安大略省），独立参议员团（ISG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000373",
+      "name": "大卫·阿诺特 (David Arnot)",
+      "title": "加拿大参议院议员（代表萨斯喀彻温省），独立参议员团（ISG）成员",
+      "title_description": "代表Saskatchewan的参议员",
+      "description": "ISG参议员，代表Saskatchewan地区"
+    },
+    {
+      "person_id": "CA-PERSON-000374",
+      "name": "米歇尔·奥迪特 (Michèle Audette)",
+      "title": "加拿大参议院议员（代表魁北克省德萨拉贝里选区）",
+      "title_description": "代表Quebec的参议员",
+      "description": "PSG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000375",
+      "name": "阿米娜·盖尔巴 (Amina Gerba)",
+      "title": "加拿大参议院议员（代表魁北克省里戈选区）",
+      "title_description": "代表Quebec的参议员",
+      "description": "PSG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000376",
+      "name": "克莱芒·吉尼亚克 (Clément Gignac)",
+      "title": "参议院议员（代表魁北克省Kennebec选区）",
+      "title_description": "代表Quebec的参议员",
+      "description": "CSG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000377",
+      "name": "卡伦·索伦森 (Karen Sorensen)",
+      "title": "参议院议员（代表阿尔伯塔省阿尔伯塔落基山脉选区）",
+      "title_description": "代表Alberta的参议员",
+      "description": "PSG参议员，代表Alberta地区"
+    },
+    {
+      "person_id": "CA-PERSON-000712",
+      "name": "弗洛德莉兹（弗洛尔）·奥斯勒 (Flordeliz (Flor) Osler)",
+      "title": "参议员（曼尼托巴省），加拿大参议员小组（CSG）成员",
+      "title_description": "代表Manitoba的参议员",
+      "description": "CSG参议员，代表Manitoba地区"
+    },
+    {
+      "person_id": "CA-PERSON-000378",
+      "name": "玛戈·格林伍德 (Margo Greenwood)",
+      "title": "参议院议员（代表不列颠哥伦比亚省）",
+      "title_description": "代表British Columbia的参议员",
+      "description": "ISG参议员，代表British Columbia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000379",
+      "name": "莎伦·伯里 (Sharon Burey)",
+      "title": "参议院议员（代表安大略省）",
+      "title_description": "代表Ontario的参议员",
+      "description": "CSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000380",
+      "name": "安德鲁·卡多佐 (Andrew Cardozo)",
+      "title": "加拿大参议院议员（代表安大略省），进步参议员团（PSG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "PSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000381",
+      "name": "丽贝卡·帕特森 (Rebecca Patterson)",
+      "title": "加拿大参议院议员（代表安大略省），加拿大参议员团（CSG）成员",
+      "title_description": "代表Ontario的参议员",
+      "description": "CSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000382",
+      "name": "简·麦克亚当 (Jane MacAdam)",
+      "title": "加拿大参议院议员（代表爱德华王子岛省），独立参议员小组成员（ISG）",
+      "title_description": "代表Prince Edward Island的参议员",
+      "description": "ISG参议员，代表Prince Edward Island地区"
+    },
+    {
+      "person_id": "CA-PERSON-000383",
+      "name": "艾里斯·佩滕 (Iris Petten)",
+      "title": "加拿大参议院议员（代表纽芬兰与拉布拉多省），无党派参议员",
+      "title_description": "代表Newfoundland and Labrador的参议员",
+      "description": "NA参议员，代表Newfoundland and Labrador地区"
+    },
+    {
+      "person_id": "CA-PERSON-000384",
+      "name": "保罗·普罗斯珀 (Paul Prosper)",
+      "title": "加拿大参议院议员（代表新斯科舍省），加拿大参议员团体（CSG）",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "CSG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000713",
+      "name": "朱迪·怀特 (Judy White)",
+      "title": "参议员（纽芬兰与拉布拉多省），进步参议员小组（PSG）成员",
+      "title_description": "代表Newfoundland and Labrador的参议员",
+      "description": "PSG参议员，代表Newfoundland and Labrador地区"
+    },
+    {
+      "person_id": "CA-PERSON-000385",
+      "name": "雷让·奥坎 (Réjean Aucoin)",
+      "title": "加拿大参议院议员（代表新斯科舍省），加拿大参议员团体（CSG）",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "CSG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000386",
+      "name": "罗杰·卡兹纳 (Rodger Cuzner)",
+      "title": "加拿大参议院议员（代表新斯科舍省），进步参议院小组（Progressive Senate Group）成员",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "PSG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000387",
+      "name": "琼·金斯顿 (Joan Kingston)",
+      "title": "加拿大参议院议员（代表新不伦瑞克省），独立参议员小组（Independent Senators Group）成员",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "ISG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000388",
+      "name": "约翰·麦克奈尔 (John M. McNair)",
+      "title": "加拿大参议院议员（代表新不伦瑞克省），隶属独立参议员小组（ISG）",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "ISG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000714",
+      "name": "克里斯塔·罗斯 (Krista Ross)",
+      "title": "参议员（新不伦瑞克省），加拿大参议员小组（CSG）成员",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "CSG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000389",
+      "name": "玛尼·麦克宾 (Marnie McBean)",
+      "title": "加拿大参议院议员（代表安大略省），隶属独立参议员小组（ISG）",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000390",
+      "name": "波莱特·西尼尔 (Paulette Senior)",
+      "title": "加拿大参议院议员（代表安大略省），隶属独立参议员小组（ISG）",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000391",
+      "name": "托尼·瓦龙 (Toni Varone)",
+      "title": "加拿大参议院议员（代表安大略省），隶属独立参议员小组（ISG）",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000715",
+      "name": "玛丽·罗宾逊 (Mary Robinson)",
+      "title": "加拿大参议院 (Senate of Canada) 参议员，代表爱德华王子岛省",
+      "title_description": "代表Prince Edward Island的参议员",
+      "description": "CSG参议员，代表Prince Edward Island地区"
+    },
+    {
+      "person_id": "CA-PERSON-000392",
+      "name": "穆罕默德·阿尔扎伊巴克 (Mohammad Al Zaibak)",
+      "title": "加拿大参议院议员（代表安大略省），隶属加拿大参议员小组（CSG）",
+      "title_description": "代表Ontario的参议员",
+      "description": "CSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000393",
+      "name": "曼努埃尔·乌达尔 (Manuelle Oudar)",
+      "title": "加拿大参议院议员（代表魁北克省拉萨尔选区），隶属独立参议员小组（ISG）",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000716",
+      "name": "维克多·布德罗 (Victor Boudreau)",
+      "title": "加拿大参议院 (Senate of Canada) 参议员，代表新不伦瑞克省",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "ISG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000394",
+      "name": "查尔斯·阿德勒 (Charles Adler)",
+      "title": "加拿大参议院议员（代表马尼托巴省）（2024年8月17日起）",
+      "title_description": "代表Manitoba的参议员",
+      "description": "CSG参议员，代表Manitoba地区"
+    },
+    {
+      "person_id": "CA-PERSON-000395",
+      "name": "特雷西·穆格利 (Tracy Muggli)",
+      "title": "加拿大参议院议员（代表萨斯喀彻温省）（2024年8月16日起）",
+      "title_description": "代表Saskatchewan的参议员",
+      "description": "PSG参议员，代表Saskatchewan地区"
+    },
+    {
+      "person_id": "CA-PERSON-000396",
+      "name": "达里尔·弗里德汉德勒 (Daryl Fridhandler)",
+      "title": "加拿大参议院议员（代表阿尔伯塔省），隶属进步参议院小组",
+      "title_description": "代表Alberta的参议员",
+      "description": "PSG参议员，代表Alberta地区"
+    },
+    {
+      "person_id": "CA-PERSON-000397",
+      "name": "克里斯托弗·威尔斯 (Kristopher Wells)",
+      "title": "加拿大参议院议员（代表阿尔伯塔省），隶属进步参议院小组",
+      "title_description": "代表Alberta的参议员",
+      "description": "PSG参议员，代表Alberta地区"
+    },
+    {
+      "person_id": "CA-PERSON-000149",
+      "name": "皮埃尔·莫罗 (Pierre Moreau)",
+      "title": "加拿大参议院政府代表（2025年7月起）",
+      "title_description": "代表Quebec的参议员",
+      "description": "NA参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000398",
+      "name": "苏兹·尤昂斯 (Suze Youance)",
+      "title": "加拿大参议院议员（代表魁北克省），隶属独立参议员小组（ISG）",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000399",
+      "name": "南希·卡雷塔克-林德尔 (Nancy Karetak-Lindell)",
+      "title": "加拿大参议院议员（代表努纳武特地区），隶属独立参议员小组（ISG）",
+      "title_description": "代表Nunavut的参议员",
+      "description": "ISG参议员，代表Nunavut地区"
+    },
+    {
+      "person_id": "CA-PERSON-000400",
+      "name": "阿利斯特·叙雷特 (Allister Surette)",
+      "title": "加拿大参议院议员（代表新斯科舍省），独立参议员团成员",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "ISG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000401",
+      "name": "巴尔特吉·迪隆 (Baltej Dhillon)",
+      "title": "加拿大参议院议员（代表不列颠哥伦比亚省），独立参议员团成员",
+      "title_description": "代表British Columbia的参议员",
+      "description": "ISG参议员，代表British Columbia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000402",
+      "name": "玛蒂娜·埃贝尔 (Martine Hébert)",
+      "title": "加拿大参议院议员（代表魁北克省维多利亚选区），独立参议员团成员",
+      "title_description": "代表Quebec的参议员",
+      "description": "ISG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000403",
+      "name": "托德·刘易斯 (Todd Lewis)",
+      "title": "加拿大参议院议员（代表萨斯喀彻温省），加拿大参议员团成员",
+      "title_description": "代表Saskatchewan的参议员",
+      "description": "CSG参议员，代表Saskatchewan地区"
+    },
+    {
+      "person_id": "CA-PERSON-000404",
+      "name": "达妮埃尔·昂克尔 (Danièle Henkel)",
+      "title": "加拿大参议院议员（代表魁北克省阿尔玛选区），进步参议院党团成员（2025年2月起）",
+      "title_description": "代表Quebec的参议员",
+      "description": "PSG参议员，代表Quebec地区"
+    },
+    {
+      "person_id": "CA-PERSON-000405",
+      "name": "邓肯·威尔逊 (Duncan Wilson)",
+      "title": "加拿大参议院议员（代表不列颠哥伦比亚省），进步参议院党团成员（2025年2月起）",
+      "title_description": "代表British Columbia的参议员",
+      "description": "PSG参议员，代表British Columbia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000406",
+      "name": "唐·阿诺德 (Dawn Arnold)",
+      "title": "加拿大参议院议员（代表新不伦瑞克省），独立参议员集团成员（2025年3月起）",
+      "title_description": "代表New Brunswick的参议员",
+      "description": "ISG参议员，代表New Brunswick地区"
+    },
+    {
+      "person_id": "CA-PERSON-000407",
+      "name": "凯瑟琳·海 (Katherine Hay)",
+      "title": "加拿大参议院议员（代表安大略省），进步参议院党团成员（2025年3月起）",
+      "title_description": "代表Ontario的参议员",
+      "description": "PSG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000408",
+      "name": "托尼·英斯 (Tony Ince)",
+      "title": "加拿大参议院议员（代表新斯科舍省）",
+      "title_description": "代表Nova Scotia的参议员",
+      "description": "CSG参议员，代表Nova Scotia地区"
+    },
+    {
+      "person_id": "CA-PERSON-000409",
+      "name": "法拉·穆罕默德 (Farah Mohamed)",
+      "title": "加拿大参议院议员（代表安大略省）",
+      "title_description": "代表Ontario的参议员",
+      "description": "ISG参议员，代表Ontario地区"
+    },
+    {
+      "person_id": "CA-PERSON-000410",
+      "name": "桑德拉·普帕泰洛 (Sandra Pupatello)",
+      "title": "加拿大参议院议员（代表安大略省）",
+      "title_description": "代表Ontario的参议员",
+      "description": "NA参议员，代表Ontario地区"
+    }
+  ],
+  "departments": [
+    {
+      "name": "参议院议长办公室 (Office of the Speaker of the Senate)",
+      "dept_id": null,
+      "head": "雷蒙德·加涅 (Raymonde Gagné)",
+      "description": "负责参议院行政管理及会议主持，代表参议院进行国内国际外交活动",
+      "parent_dept_id": null
+    },
+    {
+      "name": "参议院政府代表办公室 (Government Representative Office)",
+      "dept_id": null,
+      "head": "皮埃尔·莫罗 (Pierre Moreau)",
+      "description": "负责在参议院推动政府立法议程，管理与政府法案相关的参议院事务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "参议院秘书处 (Office of the Clerk of the Senate)",
+      "dept_id": null,
+      "head": null,
+      "description": "提供程序性建议和行政支持，包括书记官、副书记官、法律书记官等非议员官员",
+      "parent_dept_id": null
+    },
+    {
+      "name": "参议院常设委员会系统 (Standing Committee System)",
+      "dept_id": null,
+      "head": null,
+      "description": "包含约19个常设委员会，涵盖原住民事务、农业与林业、银行贸易与商业、外交与国际贸易、人权、财政、国防安全、法律与宪法等领域",
+      "parent_dept_id": null
+    },
+    {
+      "name": "参议院内部经济、预算与行政委员会 (Internal Economy, Budgets and Administration)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责参议院内部财务管理和行政事务，监督参议员经费使用和合规性",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-03-26",
+      "title": "参议院通过预算实施法案C-15",
+      "description": "加拿大参议院通过Bill C-15《2025年预算实施法(第1号)》，该法案涵盖高速铁路建设、稳定币监管框架、公务员买断激励计划等，总规模达350亿加元。法案于同日获得御准成为法律",
+      "impact": "标志着卡尼政府首份预算的核心立法议程完成，涉及数字金融框架和公共交通基础设施的重大投资",
+      "source": "https://www.theglobeandmail.com/politics/article-senate-approves-budget-bill-allowing-public-sector-buyouts-to-proceed/"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "参议院人权委员会发布反犹主义报告",
+      "description": "参议院人权常设委员会发布《团结一致反对反犹主义》(Standing United Against Antisemitism)报告，呼吁联邦政府设立跨部门工作组、加强数字素养教育和执法力度以应对反犹仇恨犯罪的急剧上升",
+      "impact": "引发全国范围对仇恨犯罪治理政策的讨论，要求恢复反犹主义特使职位并建立全国仇恨犯罪调查单元",
+      "source": "https://sencanada.ca/en/info-page/parl-45-1/ridr-antisemitism-in-canada/"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "参议院外交委员会审议没收俄罗斯国家资产法案S-214",
+      "description": "参议院外交与国际贸易常设委员会就Bill S-214举行听证会。该法案由参议员Donna Dasko提出，拟授权联邦政府没收被冻结的外国国家资产并用于乌克兰重建。专家证人对法案的法律风险与国际影响展开辩论",
+      "impact": "若通过将开创加拿大没收外国主权资产的先例，涉及超200亿加元的冻结俄罗斯资产，但可能引发报复性措施并影响外国投资",
+      "source": "https://www.theglobeandmail.com/politics/article-senate-bill-proposes-giving-ottawa-the-power-to-confiscate-russian/"
+    },
+    {
+      "date": "2025-07-18",
+      "title": "卡尼总理任命皮埃尔·莫罗为参议院政府代表",
+      "description": "马克·卡尼总理任命魁北克参议员皮埃尔·莫罗(Pierre Moreau)接替退休的马克·高德(Marc Gold)出任参议院政府代表，负责在参议院推动政府立法议程",
+      "impact": "参议院政府领导层更迭，影响第45届议会参议院立法协调方式",
+      "source": "https://www.pm.gc.ca/en/news/news-releases/2025/07/18/prime-minister-carney-announces-appointment-government-representative"
+    },
+    {
+      "date": "2025-05-14",
+      "title": "里奥·豪萨科斯被任命为参议院反对党领袖",
+      "description": "保守党参议员里奥·豪萨科斯(Leo Housakos)被任命为参议院反对党领袖，负责领导保守党参议员党团对政府进行监督问责",
+      "impact": "保守党在参议院加强组织化反对力量，截至2025年底已有数名参议员从独立党团转入保守党党团",
+      "source": "https://sencanada.ca/en/senators/housakos-leo/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "参议员拟创建第六个议会党团",
+      "description": "多名参议员正在筹备创建参议院第六个议会党团，引发关于卡尼总理对参议院未来愿景的讨论。参议员们也在讨论总理是否应任命参议院政府领袖入内阁",
+      "impact": "反映参议院内部政治格局持续演变，非党派独立参议员模式面临新挑战",
+      "source": "https://www.ipolitics.ca/2026/04/01/senators-planning-to-create-sixth-group-as-questions-are-raised-about-carneys-vision-for-the-upper-chamber/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-GOV-002",
+      "org_name": "加拿大议会 (Parliament of Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦立法机构，由参议院、众议院和君主三部分组成",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "CA-GOV-004",
+      "org_name": "加拿大众议院 (House of Commons of Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大议会下议院，由338名民选议员组成，是联邦立法的主导机构",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CA-GOV-001",
+      "org_name": "加拿大政府 (Government of Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦政府行政机构，由总理领导的内阁组成",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-GOV-005",
+      "org_name": "加拿大最高法院 (Supreme Court of Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大最高司法机构，负责解释宪法和审理上诉案件",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-GOV-006",
+      "org_name": "加拿大财政部 (Department of Finance Canada)",
+      "org_type": "GOV",
+      "org_description": "负责联邦财政政策、税收和预算的政府部门",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-GOV-007",
+      "org_name": "加拿大全球事务部 (Global Affairs Canada)",
+      "org_type": "GOV",
+      "org_description": "负责外交、国际贸易和国际发展的政府部门",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-PARTY-002",
+      "org_name": "加拿大保守党 (Conservative Party of Canada)",
+      "org_type": "PARTY",
+      "org_description": "加拿大主要中右翼政党，目前是参议院中唯一具有正式党派 affiliations 的反对党党团",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "CA-SOE-003",
+      "org_name": "加拿大广播公司 (Canadian Broadcasting Corporation)",
+      "org_type": "SOE",
+      "org_description": "加拿大国家公共广播机构，负责报道议会事务",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "加拿大参议院是加拿大议会的上议院，成立于1867年联邦成立之初，与君主和众议院共同构成加拿大的两院制立法体系。参议院共有105个席位，由总理推荐、总督任命的参议员组成，代表加拿大四大区域（安大略省24席、魁北克省24席、大西洋省份24席、西部省份24席）以及纽芬兰与拉布拉多省（6席）和三个地区（各1席）。参议员的强制退休年龄为75岁。参议院的核心职能包括：对众议院通过的法案进行\"冷静的二次思考\"(sober second thought)式的审查和修订；对政府进行监督和问责；通过常设委员会就重要的公共政策议题开展深入调查研究和听证。自2016年起，杜鲁多政府建立了独立顾问委员会制度，参议员任命不再以党派归属为依据，使参议院的政治格局发生了根本性变化。目前参议院由五个议会党团组成：独立参议员党团(ISG，最大党团)、加拿大参议员党团(CSG)、进步参议院党团(PSG)、保守党党团以及无党籍参议员。参议院在税收和拨款法案上无发起权，但理论上对其他所有法案拥有与众议院同等的立法权，包括否决权。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "加拿大参议院作为联邦立法机构的上议院，本身不直接制定对外经贸政策立场，但通过其常设委员会——特别是外交与国际贸易委员会、银行贸易与商业委员会——对加拿大的APEC参与及亚太经贸关系进行审查和研究。参议院委员会经常就加拿大与亚太经济体的贸易协定、投资关系及经济安全议题举行听证会并发布报告。在当前美加贸易紧张局势下，参议院在审议涉及贸易多元化、供应链安全和数字经济监管的法案（如2026年预算实施法案中的数字金融框架）方面发挥着重要的立法审查作用。参议院也通过议会间交流与亚太国家立法机构保持联系。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Skyscrapers_of_Nagoya_from_Mount_Hongu.jpg/330px-Skyscrapers_of_Nagoya_from_Mount_Hongu.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia_en",
+      "wikipedia_zh",
+      "official_website",
+      "news_search"
+    ],
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: corrected skeleton data (was erroneously populated with Nagoya data), populated all fields with verified Senate of Canada information",
+    "quotes": [
+      {
+        "title": "Senate of Canada - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Senate_of_Canada"
+      },
+      {
+        "title": "加拿大参议院 - 维基百科 (中文)",
+        "url": "https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8F%82%E8%AE%AE%E9%99%A2"
+      },
+      {
+        "title": "SenCanada.ca Official Website",
+        "url": "https://sencanada.ca/"
+      },
+      {
+        "title": "Senate approves budget bill - The Globe and Mail (2026-03-26)",
+        "url": "https://www.theglobeandmail.com/politics/article-senate-approves-budget-bill-allowing-public-sector-buyouts-to-proceed/"
+      },
+      {
+        "title": "Senate antisemitism report - SenCanada (2026-04-21)",
+        "url": "https://sencanada.ca/en/info-page/parl-45-1/ridr-antisemitism-in-canada/"
+      },
+      {
+        "title": "Bill S-214 Russian assets - The Globe and Mail (2026-05-06)",
+        "url": "https://www.theglobeandmail.com/politics/article-senate-bill-proposes-giving-ottawa-the-power-to-confiscate-russian/"
+      },
+      {
+        "title": "Pierre Moreau appointment - PM Canada (2025-07-18)",
+        "url": "https://www.pm.gc.ca/en/news/news-releases/2025/07/18/prime-minister-carney-announces-appointment-government-representative"
+      },
+      {
+        "title": "Sixth group discussions - iPolitics (2026-04-01)",
+        "url": "https://www.ipolitics.ca/2026/04/01/senators-planning-to-create-sixth-group-as-questions-are-raised-about-carneys-vision-for-the-upper-chamber/"
+      },
+      {
+        "title": "Raymonde Gagné biography - SenCanada",
+        "url": "https://sencanada.ca/en/speakers/raymonde-gagne/biography/"
+      },
+      {
+        "title": "Leo Housakos biography - SenCanada",
+        "url": "https://sencanada.ca/en/senators/housakos-leo/"
+      }
+    ]
+  }
+}

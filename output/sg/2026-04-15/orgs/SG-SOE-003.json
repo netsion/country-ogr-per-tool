@@ -1,7 +1,7 @@
 {
   "org_id": "SG-SOE-003",
   "basic_info": {
-    "name_original": "新加坡航空",
+    "name_original": "Singapore Airlines",
     "name_zh": "新加坡航空",
     "name_en": "Singapore Airlines",
     "aliases": [
@@ -11,13 +11,14 @@
       "Singapore Airlines Ltd.",
       "Singapore Airlines Limited",
       "新加坡航空",
+      "新航",
       "சிங்கப்பூர் வான்வழி"
     ],
     "org_type": "SOE",
     "org_subtype": "state_owned_enterprise",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1964-01-01",
+    "founded_date": "1972-10-01",
     "website": "https://www.singaporeair.com/"
   },
   "social_accounts": [
@@ -35,9 +36,21 @@
     },
     {
       "platform": "youtube",
-      "account_name": "UCIrr4E2y6Cv-2FSxk1_PBGQ",
+      "account_name": "Singapore Airlines",
       "url": "https://youtube.com/channel/UCIrr4E2y6Cv-2FSxk1_PBGQ",
       "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "singaporeair",
+      "url": "https://www.instagram.com/singaporeair/",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Singapore Airlines",
+      "url": "https://www.linkedin.com/company/singapore-airlines/",
+      "source": "official_website"
     }
   ],
   "digital_assets": [
@@ -52,76 +65,242 @@
       "url": "https://www.singaporeair.com/en_UK/sg/investor-relations/",
       "description": "新航财务报告、年报和投资者演示材料",
       "source": "official_website"
+    },
+    {
+      "name": "KrisFlyer里程计划",
+      "url": "https://www.krisflyer.com/",
+      "description": "新航飞行常客奖励计划网站，可累积和兑换里程",
+      "source": "official_website"
+    },
+    {
+      "name": "新航新闻中心",
+      "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/press-release/",
+      "description": "新加坡航空官方新闻发布和公告",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000087",
       "name": "吴俊鵬 (Goh Choon Phong)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "集团首席执行官 (Group Chief Executive Officer)",
+      "title_description": "新航集团CEO，负责集团整体战略和运营管理",
+      "description": "吴俊鵬自2011年起担任新加坡航空集团首席执行官。在他领导下，新航完成了Vistara与Air India的合并（2024年11月），使新航持有印度航空25.1%的股份。他还主导了11亿新元的客舱升级计划。"
     },
     {
-      "person_id": "SG-PERSON-000088",
+      "person_id": "SG-PERSON-000127",
       "name": "佘林发 (Peter Seah Lim Huat)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "董事会主席 (Chairman of the Board)",
+      "title_description": "新航董事会主席，负责董事会治理和公司战略方向",
+      "description": "佘林发担任新加坡航空董事会主席，同时担任DBS集团控股主席和GIC董事会董事，在新加坡金融和商界具有重要影响力。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-003-DEPT-001",
-      "name": "Singapore Airlines Group has more than 20 subsidiaries",
+      "name": "客运运营部 (Passenger Operations)",
       "head": null,
-      "description": null,
+      "description": "负责新加坡航空客运航班的日常运营管理，包括航线规划、机组调度和航班运营。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-003-DEPT-002",
+      "name": "酷航 (Scoot)",
+      "head": null,
+      "description": "新航全资拥有的低成本航空公司，运营中短程航线，是新加坡航空集团旗下重要的低成本航空品牌。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-003-DEPT-003",
+      "name": "新航工程有限公司 (SIA Engineering Company)",
+      "head": null,
+      "description": "负责飞机维修、修理和大修(MRO)业务，在9个国家运营，拥有27个合资企业（包括与波音和劳斯莱斯的合作）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-003-DEPT-004",
+      "name": "新加坡货运航空 (Singapore Airlines Cargo)",
+      "head": null,
+      "description": "运营新航货机机队（包括7架波音747-400F和5架波音777F），并管理客机腹舱货运能力。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-003-DEPT-005",
+      "name": "客舱服务部 (Cabin Services)",
+      "head": null,
+      "description": "负责管理新航空中乘务团队（新加坡空姐），提供客舱服务和新航标志性的高品质乘客体验。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-003-DEPT-006",
+      "name": "财务与投资者关系部 (Finance & Investor Relations)",
+      "head": null,
+      "description": "负责新航集团财务管理、资金运营、投资者关系和财务报告。新航在新加坡交易所上市（SGX:C6L）。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2026-02-13",
-      "title": "新航Q3 FY2025/26营收创纪录但净利润暴跌68.9%",
-      "description": "新加坡航空集团Q3营收达创纪录的55亿新元，但净利润暴跌68.9%。FY2025/26上半年净利润同比下降67.8%至2.39亿新元，Q2单季利润仅5200万新元（同比下降82.1%）。",
-      "impact": "尽管客运量创纪录（全年3940万人次），利润受Air India相关因素和竞争压力拖累",
-      "source": "https://www.asiaone.com/money/singapore-airlines-financial-performance-q3-2025-2026"
+      "date": "2026-05-08",
+      "title": "新航宣布增加欧洲航线航班频率，开通马德里新航线",
+      "description": "新加坡航空宣布将增加新加坡至曼彻斯特、米兰和慕尼黑的航班频率，并计划于2026年10月开通新加坡至马德里的新航线（每周3班）。同时将于2026年6月1日开通每日新加坡至杭州直飞航班。",
+      "impact": "扩大新航在欧洲和中国市场的布局，强化樟宜机场作为全球航空枢纽的地位",
+      "source": "https://www.businesstoday.com.my/2026/05/08/sia-says-to-increase-europe-flights-amid-strong-demand/"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "新航A350新型头等和商务舱座椅推迟至2027年Q1交付",
+      "description": "新加坡航空宣布将空客A350-900新型头等舱和商务舱座椅的投入使用时间从原定的2026年Q2推迟至2027年Q1，原因是行业性供应链限制以及一款新座椅的认证延迟。该升级计划总投资11亿新元，涵盖41架空客A350-900长程和超长程飞机。",
+      "impact": "影响新航与中东航企的竞争地位，可能暂时削弱其高端市场的产品优势",
+      "source": "https://www.channelnewsasia.com/singapore/singapore-airlines-sia-a350-900-airbus-first-business-class-seats-delayed-6102836"
+    },
+    {
+      "date": "2026-05-07",
+      "title": "酷航宣布增购11架空客A320neo系列飞机",
+      "description": "新航集团旗下低成本航空公司酷航宣布增购11架空客A320neo系列飞机，以扩大中短程航线网络和提升运营效率。",
+      "impact": "增强酷航在中短程市场的竞争力，支持新航集团整体运力增长",
+      "source": "https://sginvestors.io/sgx/stock/c6l-sia/company-announcement"
+    },
+    {
+      "date": "2026-02-23",
+      "title": "新航Q3 FY2025/26营收创纪录达55.1亿新元，但净利润暴跌68.9%",
+      "description": "新加坡航空集团Q3营收达创纪录的55.1亿新元（同比增长5.5%），运营利润增长25.9%，但净利润暴跌68.9%至5.05亿新元。FY2025/26前九个月营收达151.8亿新元（创纪录）。利润下降主要受Air India相关因素和竞争压力影响。",
+      "impact": "营收创新高显示市场需求强劲，但利润率受印度航空联营亏损和供应成本上升挤压",
+      "source": "https://www.marketscreener.com/news/singapore-airlines-record-quarterly-revenue-drives-25-9-increase-in-sia-group-operating-profit-ce7e5cdad98efe20"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "新航FY2025/26上半年净利润同比下降67.8%至2.39亿新元",
+      "description": "新航集团公布FY2025/26上半年（4-9月）净利润为2.39亿新元，同比下降67.8%。Q2单季利润仅5200万新元（同比下降82.1%）。运营利润为8.03亿新元，微增0.9%。",
+      "impact": "尽管客运量创新高，利润受Air India相关联营亏损和去年同期高基数效应影响显著下滑",
+      "source": "https://www.theedgesingapore.com/capital/results/singapore-airlines-earnings-plunge-821-y-o-y-52-mil-2qfy2025-weighed-down-air-india"
     },
     {
       "date": "2025-06-01",
-      "title": "新航FY2024/25全年净利润28亿新元创纪录营收",
-      "description": "新航集团公布截至2025年3月31日财年净利润约28亿新元，营收创纪录达195.4亿新元（同比增长2.8%），客运量创历史新高3940万人次。",
+      "title": "新航FY2024/25全年净利润28亿新元，营收创纪录达195.4亿新元",
+      "description": "新航集团公布截至2025年3月31日财年净利润约28亿新元，营收创纪录达195.4亿新元（同比增长2.8%），客运量创历史新高2650万人次。新航同时宣布将在FY2025/26投资11亿新元升级长途客舱产品。",
       "impact": "后疫情时代新航实现创纪录业绩，但后续季度面临利润下滑压力",
       "source": "https://www.singaporeair.com/content/dam/sia/web-assets/pdfs/about-us/information-for-investors/financial-results/AuditedFS-fy2425.pdf"
+    },
+    {
+      "date": "2024-11-12",
+      "title": "Vistara与Air India完成合并，新航持有印度航空25.1%股份",
+      "description": "Tata集团与新加坡航空的合资企业Vistara正式并入Air India，合并于2024年11月12日完成。新加坡航空现持有合并后Air India的25.1%股份，成为印度最大航空公司的重要股东。",
+      "impact": "新航获得进入印度庞大航空市场的战略性持股，但短期内Air India的亏损对新航财报造成拖累",
+      "source": "https://en.wikipedia.org/wiki/Singapore_Airlines"
+    },
+    {
+      "date": "2024-05-21",
+      "title": "新航SQ321航班遭遇严重湍流致1人死亡104人受伤",
+      "description": "新加坡航空SQ321航班（伦敦-新加坡，波音777-300ER）在缅甸安达曼海上空遭遇严重湍流，紧急备降曼谷。事故造成1名73岁英国乘客死亡，104名乘客和机组人员需送医治疗。这是新航近年来最严重的飞行安全事故。",
+      "impact": "引发全球对航路湍流安全的关注，对新航安全声誉造成一定影响",
+      "source": "https://en.wikipedia.org/wiki/Singapore_Airlines"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-SOE-001",
-      "org_name": "Temasek Holdings",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
       "org_type": "SOE",
-      "org_description": null,
+      "org_description": "新航的控股股东，持有约55%的表决权股份。新加坡政府通过财政部持有淡马锡的金股。",
       "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度航空 (Air India)",
+      "org_type": "CORP",
+      "org_description": "印度最大的航空公司，新航通过Vistara合并后持有其25.1%股份。Tata集团为控股股东。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "酷航 (Scoot)",
+      "org_type": "CORP",
+      "org_description": "新航全资拥有的低成本航空公司，运营中短程航线。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "新航工程有限公司 (SIA Engineering Company)",
+      "org_type": "CORP",
+      "org_description": "新航旗下飞机维修、修理和大修(MRO)服务商，在9个国家运营，拥有27个合资企业。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "星空联盟 (Star Alliance)",
+      "org_type": "INTL",
+      "org_description": "全球最大的航空联盟，新航自2000年4月起为成员。联盟涵盖联合航空、汉莎航空、全日空等主要航空公司。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "SG-GOV-010",
+      "org_name": "新加坡财政部 (Ministry of Finance)",
+      "org_type": "GOV",
+      "org_description": "通过淡马锡控股间接持有新航控股权，同时持有政府金股。",
+      "relationship_type": "regulator"
     }
   ],
-  "core_business": "新加坡航空（英語：Singapore Airlines；馬來語：Singapore Airlines；坦米爾語：சிங்கப்பூர் வான்வழி；SGX：C6L）是新加坡的國家航空公司，故一般簡稱新航。新加坡航空以樟宜机场為樞紐，經營航班往東南亞、東亞、南亞、西亞（中東）、歐洲、北美、大洋洲和南非共32個國家66個目的地，並佔據袋鼠航線的部分市場。新航亦是首間營運空中巴士A380、A350-900ULR和波音787-10，以及亞洲唯一運營過協和式客機的航空公司。\n新加坡航空旗下還有一些與航空相關的子公司，包括低成本航空公司酷航，以及經營飛機維修業務的新航工程。若以客運收益公里計算，新航位列全世界首15大航空公司，以國際客運載客量計算，新航則位列全球第十。\n新加坡航空曾經於2004、2007、2008、2018、2023年贏得Skytrax的「年度最佳航空公司」大獎，亦被Skytrax評為「五星級航空公司」之一。新加坡航空在《財星》雜誌中在2007年全球最被受欣賞的公司排行第17位，航空公司当中排行第2位，其品牌在航空界中已廣為人知，尤其是在安全、服務質素和革新風格方面，與其收益成比例。新航獲獎無數，對機隊購買頗為樂觀，勇於嘗試不同新機種。新航亦是亞洲首家、全球第三家被通過為IOSA（運行安全審計，IATA Operations Safety Audit）。\n歷史\n成立之初\n新加坡航空成立於1947年，原本名為馬來亞航空公司。1947年4月2日執行首個非定期航班，由英国海峡殖民地新加坡出發前往吉隆坡。5月1日開始定期航班服務，由新加坡出發前往吉隆坡、怡保和槟城。在1940和50年代，馬來亞航空繼續擴展其業務，包括引入DC-3、DC-4、維克斯子爵、洛歇L-1049超級星座式、哈維蘭彗星型和福克F27等客機。\n1963年馬來亞、新加坡、沙巴和砂拉越組成了马来西亚联邦，這使馬來亞航空更名為「馬來西亞航空」，同時馬來西亞航空亦接管了婆羅洲航空。1965年正式宣佈新加坡獨立，又使馬來西亞航空更名為馬來西亞-新加坡航空。馬來西亞-新加坡航空在接下來的數年急速擴張，並訂購了首架波音客機B707，隨後亦訂購了波音737。在1972年，新加坡與馬來西亞政府間的合作破裂，這使馬來亞航空一分為二，分別為現時的馬來西亞航空和新加坡航空，自此兩家公司各自發展。\n迅速增長\n馬來亞航空分裂之後，新加坡航空保留了10架原馬來西亞－新加坡航空的波音707和737，以及其國際航線，而女性空中服務員的制服亦保留了紗籠和可巴雅設計。在70年代，新航急速擴張其業務，包括在亞洲和印度次大陸開拓更多新航點，並購入波音747壯大其規模。新航在1977年曾與英航合作，使用協和飛機運營新加坡往倫敦的航班，編號為G-BOAD的協和客機也將左側機身改為新航塗裝，右側保留英航塗裝。但由於馬來西亞禁止超音速飛機經過其領空，該航班一度改經印尼；1980年，新航的協和航班因成本高昂而停辦。到了80年代，進一步開拓更多北美洲和歐洲航線。新航一度使用波音757、空中巴士A300和空中巴士A310，亦是首批購入波音747-400的航空公司之一，首架747-400在1989年投入服務，同年5月29日新航用其開通新加坡至倫敦的不停站直飛航線。後來新航更購入波音777和空中巴士A340。到了90年代，新航開拓了南非的約翰內斯堡航線，隨後亦開通了開普敦和德班航線。1995年，新航推出“銀刃世界”（Krisworld）空中娛樂系統，並於1997年率先推出個人音視頻點播服務（AVOD）。1998年，新航更在其波音747-",
+  "core_business": "新加坡航空（Singapore Airlines，SGX:C6L）是新加坡的国家航空公司（载旗航空公司），以樟宜机场为主要枢纽。新航成立于1972年10月1日（前身为1947年创立的马来亚航空），运营覆盖东南亚、东亚、南亚、中东、欧洲、北美、大洋洲和南非的航线网络，通达约76个目的地。新航是空中客车A380、A350-900ULR和波音787-10的启动客户，运营着包括SQ21/22（新加坡-纽瓦克）在内的世界最长直飞航线。新航集团拥有超过20家子公司，包括低成本航空公司酷航(Scoot)、飞机维修商新航工程有限公司(SIA Engineering)和新加坡货运航空(SIA Cargo)。截至2025年，新航运营约160架飞机（含154架客机和12架货机），员工约17000人。新航是星空联盟成员，自2000年4月加入。2024年11月，新航完成Vistara与Air India的合并，持有印度航空25.1%股份。新航曾五次获得Skytrax'年度最佳航空公司'大奖（2004、2007、2008、2018、2023年），2024年连续第二年获得该荣誉，并被Skytrax评为'五星级航空公司'。2024年1月，新航被《财富》杂志评为全球最受尊敬的航空公司第一名。FY2024/25（截至2025年3月）新航集团营收达195.4亿新元（创纪录），净利润28亿新元。FY2025/26前九个月营收再创新高至151.8亿新元，但净利润受Air India联营亏损等因素影响大幅下滑。",
   "industries": [
-    "investment"
+    "aviation",
+    "transportation",
+    "hospitality_tourism"
   ],
-  "apec_stance": "新航是APEC区域航空互联互通的重要参与者，运营覆盖APEC多个成员经济体的航线网络。新加坡通过国会批准的《民航局（修正）法案》对离境旅客征收绿色燃料附加费，支持可持续航空燃料（SAF）发展，与APEC 2025年可持续发展主题一致。",
+  "apec_stance": "新加坡航空是APEC区域航空互联互通的核心参与者。新航以樟宜机场为枢纽，运营覆盖中国、日本、韩国、澳大利亚、美国、加拿大、新西兰、印尼、马来西亚、泰国、越南、菲律宾、墨西哥、秘鲁、智利等多个APEC经济体的航线网络。新航在袋鼠航线（澳大利亚-欧洲经新加坡）市场占据主导地位。2024年新航完成与Air India的合并，进一步深化了在APEC重要经济体印度的战略布局。新航积极投资可持续航空，支持新加坡通过《民航局（修正）法案》对离境旅客征收绿色燃料附加费，推动可持续航空燃料(SAF)发展，与APEC 2025年可持续发展主题一致。新航还于2025年11月宣布投资11亿新元进行客舱升级计划，旨在提升其在全球高端航空市场的竞争力。新航的扩张计划（2026年增开杭州、马德里航线，增加欧洲航班频率）进一步强化了APEC经济体之间的航空连接。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Singapore_Airlines_Airbus_A350-941_F-WZFD_to_9V-SMF.jpg/330px-Singapore_Airlines_Airbus_A350-941_F-WZFD_to_9V-SMF.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_media"
     ],
-    "completeness_score": 97,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 97)"
+    "completeness_score": 88,
+    "quotes": [
+      {
+        "title": "Singapore Airlines - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Singapore_Airlines"
+      },
+      {
+        "title": "新加坡航空 - Wikipedia (中文)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡航空"
+      },
+      {
+        "title": "CNA: SIA delays new first/business class seats on A350",
+        "url": "https://www.channelnewsasia.com/singapore/singapore-airlines-sia-a350-900-airbus-first-business-class-seats-delayed-6102836"
+      },
+      {
+        "title": "SIA Q3 FY2025/26 Results",
+        "url": "https://www.marketscreener.com/news/singapore-airlines-record-quarterly-revenue-drives-25-9-increase-in-sia-group-operating-profit-ce7e5cdad98efe20"
+      },
+      {
+        "title": "The Edge: SIA Q2 earnings plunge 82.1%",
+        "url": "https://www.theedgesingapore.com/capital/results/singapore-airlines-earnings-plunge-821-y-o-y-52-mil-2qfy2025-weighed-down-air-india"
+      },
+      {
+        "title": "Business Today: SIA increases Europe flights",
+        "url": "https://www.businesstoday.com.my/2026/05/08/sia-says-to-increase-europe-flights-amid-strong-demand/"
+      },
+      {
+        "title": "SIA Official Press Releases",
+        "url": "https://www.singaporeair.com/en_UK/sg/corporate/newsroom/press-release/"
+      },
+      {
+        "title": "SIA FY2024/25 Annual Report",
+        "url": "https://www.singaporeair.com/content/dam/sia/web-assets/pdfs/about-us/information-for-investors/financial-results/AuditedFS-fy2425.pdf"
+      },
+      {
+        "title": "Scoot Bolsters Fleet announcement",
+        "url": "https://sginvestors.io/sgx/stock/c6l-sia/company-announcement"
+      }
+    ],
+    "notes": "Enriched with cross-validated data from Wikipedia (EN/ZH), CNA, The Edge Singapore, MarketScreener, Business Today, and official SIA sources. Key updates: corrected founded_date to 1972-10-01 (SIA inception), updated fleet to ~160 aircraft, added 2026 events (A350 cabin delay, European expansion, Scoot fleet expansion, Hangzhou route), verified Air India 25.1% stake, updated financials through Q3 FY2025/26."
   }
 }

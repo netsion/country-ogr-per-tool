@@ -1,21 +1,24 @@
 {
   "org_id": "SG-CORP-001",
   "basic_info": {
-    "name_original": "星展銀行",
-    "name_zh": "星展銀行",
+    "name_original": "DBS Bank",
+    "name_zh": "星展银行",
     "name_en": "DBS Bank",
     "aliases": [
       "DBS Bank Limited",
+      "DBS Group Holdings",
       "DBS",
-      "星展銀行",
       "星展银行",
+      "星展銀行",
+      "The Development Bank of Singapore",
+      "POSBank",
       "டி.பி.எஸ் வங்கி"
     ],
     "org_type": "CORP",
     "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1968-07-01",
+    "founded_date": "1968-07-16",
     "website": "https://www.dbs.com.sg/"
   },
   "social_accounts": [
@@ -36,6 +39,18 @@
       "account_name": "UCBhPkAuGks2UkizNMbtW6uw",
       "url": "https://youtube.com/channel/UCBhPkAuGks2UkizNMbtW6uw",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "DBS Bank",
+      "url": "https://www.linkedin.com/company/dbs-bank",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "dbsbank",
+      "url": "https://www.instagram.com/dbsbank/",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
@@ -53,8 +68,26 @@
     },
     {
       "name": "DBS新闻中心",
-      "url": "https://www.dbs.com/media/default.page",
+      "url": "https://www.dbs.com/newsroom/",
       "description": "DBS官方新闻稿和媒体报道",
+      "source": "official_website"
+    },
+    {
+      "name": "DBS 2025年度报告",
+      "url": "https://www.dbs.com/annualreports/2025/index.html",
+      "description": "DBS 2025年度报告'A Beacon of Stability'，包含财务业绩、战略回顾和可持续发展报告",
+      "source": "official_website"
+    },
+    {
+      "name": "DBS PayLah!",
+      "url": "https://www.dbs.com.sg/personal/mobile/paylah/index.html",
+      "description": "DBS移动支付钱包应用，拥有超过100万用户",
+      "source": "official_website"
+    },
+    {
+      "name": "POSBank官方网站",
+      "url": "https://www.posb.com.sg/",
+      "description": "POSBank（邮政储蓄银行）官网，DBS旗下品牌，成立于1877年，1998年被DBS收购",
       "source": "official_website"
     }
   ],
@@ -62,69 +95,229 @@
     {
       "person_id": "SG-PERSON-000100",
       "name": "陈淑珊 (Tan Su Shan)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "集团首席执行官 (Group CEO)",
+      "title_description": "DBS集团首席执行官兼董事",
+      "description": "陈淑珊于2025年3月28日正式接任DBS集团首席执行官，成为DBS历史上首位女性CEO。此前担任集团机构银行业务主管和副CEO，2010年加入DBS。拥有超过30年银行业经验，曾在摩根士丹利和花旗银行任职。"
     },
     {
       "person_id": "SG-PERSON-000101",
       "name": "高博德 (Piyush Gupta)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "前集团首席执行官 (Former Group CEO)",
+      "title_description": "DBS集团前首席执行官（2009-2025年3月）",
+      "description": "高博德领导DBS长达15年（2009-2025），推动DBS完成数字化转型，将其打造为'全球最佳数字银行'。在其任期内DBS多次被评为全球最佳银行和亚洲最安全银行。2025年3月退休后由陈淑珊接任。"
     },
     {
-      "person_id": "SG-PERSON-000102",
+      "person_id": "SG-PERSON-000231",
       "name": "佘林發 (Peter Seah)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "董事会主席 (Chairman)",
+      "title_description": "DBS集团董事会主席（2010年5月起）",
+      "description": "佘林發自2010年5月起担任DBS董事会主席，在其领导下DBS完成了从传统银行到全球领先数字银行的转型。此前曾任大华银行（UOB）高层管理人员。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-CORP-001-DEPT-001",
-      "name": "Formerly known as Post Office Savings Bank",
+      "name": "个人银行与财富管理部 (Consumer Banking / Wealth Management)",
       "head": null,
-      "description": null,
+      "description": "DBS和POSB的个人银行服务，涵盖存款、贷款、信用卡、投资和财富管理。通过DBS Treasures、DBS Treasures Private Client和DBS Private Bank三个层级服务不同资产规模的客户。在市场波动中利用AI驱动的智能推荐引导零售投资者。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-001-DEPT-002",
+      "name": "机构银行部 (Institutional Banking)",
+      "head": null,
+      "description": "为企业客户和机构客户提供包括贸易融资、现金管理、银团贷款、资本市场和咨询等全面的银行服务。是DBS收入的重要来源。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-001-DEPT-003",
+      "name": "全球金融市场部 (Global Financial Markets)",
+      "head": null,
+      "description": "提供外汇、利率、衍生品、商品等全球金融市场交易和风险管理服务。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-001-DEPT-004",
+      "name": "中小企业银行部 (SME Banking)",
+      "head": null,
+      "description": "为年营业额不超过1亿新元的中小企业提供综合银行服务，包括融资、现金管理和数码化解决方案。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-001-DEPT-005",
+      "name": "POSBank (邮政储蓄银行)",
+      "head": null,
+      "description": "前身为邮政储蓄银行，成立于1877年，1998年被DBS以16亿新元收购。POSBank继续以独立品牌运营，拥有新加坡最多数量的分行（尤其在住宅区）和ATM网点，服务超过400万客户。POSBank的定位为'邻居第一，银行家第二'。",
+      "parent_dept_id": "SG-CORP-001-DEPT-001"
+    },
+    {
+      "dept_id": "SG-CORP-001-DEPT-006",
+      "name": "数据与转型办公室 (Data & Transformation Office)",
+      "head": null,
+      "description": "负责DBS的人工智能和数据分析战略。2025年部署超过2000个AI模型和430多个用例，AI/ML项目创造约10亿新元经济价值。由首席数据与转型官Nimish Panchmatia领导。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2026-02-08",
-      "title": "DBS 2025财年第四季度净利润低于预期",
-      "description": "新加坡最大银行DBS公布2025财年Q4净利润同比下降10%，全年ROE为16.2%（低于2024年的18%）。CEO陈淑珊警告2026年将是波动之年，呼吁投资者'系好安全带'。",
-      "impact": "DBS股价在2025年仍上涨28.2%创下历史新高，强劲的资本回报计划（股息和回购）仍是亮点",
-      "source": "https://www.channelnewsasia.com/business/dbs-q4-2025-earnings-profit-5916466"
+      "date": "2026-04-29",
+      "title": "DBS Q1 2026净利润达29.3亿新元创历史新高",
+      "description": "DBS集团2026年第一季度净利润同比增长1%至29.3亿新元，总收入创下59.5亿新元的历史新高。财富管理业务表现强劲，推动手续费收入和国库客户销售达到新纪录。ROE为17.0%，ROTE为18.7%。同时宣布每股0.66新元中期股息和0.15新元资本回报股息。",
+      "impact": "财富管理业务成为DBS增长新引擎，有效抵消了利率下降对净息差的负面影响。DBS对2026年展望转为更加乐观。",
+      "source": "https://www.dbs.com/newsroom/First_quarter_net_profit_rises_to_SGD_2_93_billion_as_total_income_reaches_a_new_high_led_by_record_wealth_management_performance_ROE_at_17_0pct"
     },
     {
-      "date": "2025-12-11",
-      "title": "DBS发布2026年新加坡市场展望",
-      "description": "DBS经济学家预测新加坡2026年GDP增速将放缓至约1.8%，略低于MTI官方预测范围（1-3%）的中值。",
-      "impact": "为投资者和政策制定者提供权威经济展望参考",
-      "source": "https://www.dbs.com/insightsdirect/api/s3/dbs-buffer/article_attachment/20251211/07-34-32_Singapore%2520Market%2520Focus%2520%25282026%2520Outlook%2529%252011dec25.pdf"
+      "date": "2026-04-24",
+      "title": "DBS/POSB投入1000万新元帮助新加坡人应对生活成本压力",
+      "description": "DBS/POSB宣布投入1000万新元加强社区支持计划，帮助新加坡人应对持续的生活成本上涨和经济不确定性，同时增强企业韧性。",
+      "impact": "体现DBS作为新加坡最大银行的社会责任担当。",
+      "source": "https://www.dbs.com/newsroom/dbs_posb_commits_sgd_10_million_to_help_singaporeans_manage_cost_pressures_and_fortify_business_resilience"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "DBS/POSB 2026年首次数码银行服务中断",
+      "description": "DBS和POSB的数码银行服务在3月19日中午出现故障，影响digibank和PayLah!用户的正常使用。服务随后在同日恢复。",
+      "impact": "引发市场对DBS系统韧性的持续关注，该行此前在2023年因多次数码服务中断被新加坡金管局（MAS）施加额外资本要求和业务限制。",
+      "source": "https://fintechnews.sg/127876/digital-banking-news-singapore/dbs-outage-2026/"
+    },
+    {
+      "date": "2026-02-15",
+      "title": "DBS成为亚太首家试点Visa智能商务支付的银行",
+      "description": "DBS与Visa合作，成为亚太地区首家试点Visa Intelligent Commerce的银行，将AI技术应用于日常支付场景，提升支付智能化水平。",
+      "impact": "巩固DBS在数码支付创新领域的领先地位。",
+      "source": "https://www.dbs.com/newsroom/DBS_is_first_bank_in_Asia_Pacific_to_pilot_Visa_Intelligent_Commerce_for_everyday_payments"
+    },
+    {
+      "date": "2025-12-22",
+      "title": "DBS荣获全球年度银行大奖",
+      "description": "DBS在英国伦敦半岛酒店举行的颁奖典礼上荣获Bank of the Year Global大奖，表彰其长达十年的转型成就。同月，DBS与Crypto.com达成合作，允许用户通过DBS存取新加坡元和美元。",
+      "impact": "DBS的全球声誉进一步提升，加密货币合作标志着其在数码资产领域的前瞻布局。",
+      "source": "https://en.wikipedia.org/wiki/DBS_Bank"
+    },
+    {
+      "date": "2025-03-28",
+      "title": "高博德退休，陈淑珊接任DBS集团CEO",
+      "description": "Piyush Gupta在DBS年度股东大会后正式卸任CEO职务，结束了15年的任期。Tan Su Shan（陈淑珊）接任，成为DBS历史上首位女性CEO。此前陈淑珊担任集团副CEO和机构银行业务主管。",
+      "impact": "标志着DBS进入新领导时代。陈淑珊预计将继续聚焦高ROE业务和全球增长战略。",
+      "source": "https://www.channelnewsasia.com/singapore/piyush-gupta-step-down-dbs-march-2025-tan-su-shan-take-over-5573036"
     }
   ],
-  "related_entities": [],
-  "core_business": "星展銀行有限公司（英語：DBS Bank Limited，SGX：D05），簡稱星展銀行，是新加坡最大的商業銀行，曾獲得《環球金融》雜誌評選為「亞洲最安全銀行」的稱號。\n星展銀行原名「新加坡發展銀行」（或「星加坡發展銀行」，英語：Development Bank of Singapore），并在2003年7月21日改用现名，以反映其作为一家全球银行的角色的变化。\n星展銀行現時最大的控股股東是淡马锡控股有限公司，淡马锡控股是新加坡第二大主权财富基金（仅次于 GIC 政府投资公司）。截至2018年3月31日，淡马锡拥有星展银行29％的股份。\n吉祥物為索拉（男）、露娜（女）。\n分行據點\n星展銀行現時除了在新加坡本國已經有超過一百家分行以外，在美國、英國、日本、台灣、印度、馬來西亞、緬甸、中國大陸、香港、澳門（包括直屬分行及附屬公司，現址位於中環中心。）、泰國和韓國都設有分行。\n歷史沿革\n1968年，新加坡發展銀行創立，簡稱星展銀行，最初的用途是發展投資項目。\n1998年，星展銀行與新加坡郵政儲蓄銀行（POSBank）合并，成為新加坡規模最大的商業銀行。\n2000年11月，星展銀行轄下的地產商-發展置地脫離星展，並與從新科控股分拆出來的百騰置地合併為淡馬錫控股全資附屬的嘉德置地（後改屬凱德集團）。\n2008年12月22日，星展集團以每兩股供一股每股作價5.42新加坡元（約29港元）供股集資40億新加坡元（當時約合214億港元）。\n2013年11月11日，星展集團以8.5億新加坡元（近6.81億美元），出售剩餘的9.9%菲律賓群島銀行（Bank of the Philippine Islands）股份。當中5.6%股權將售予新加坡政府投資公司（GIC）。另外，4.3%股權將售予菲律賓Ayala Corp。Ayala本身為菲律賓群島銀行的最大股東。\n2014年3月17日，星展集團以2.2億美元的價格，收購法國興業銀行在香港和新加坡的私人銀行業務，以及部分信託業務。\n2015年4月8日，星展集團與宏利金融（945）達成長達15年的銀保協議，宏利須分期支付12億美元（約93億港元）。協議列明星展旗下香港、新加坡、中國及印尼近200間分行，來年將會獨家銷售宏利人壽產品。\n2016年10月31日，星展集團以高於帳面價值1.1億新加坡幣（約6.13億港元），收購澳盛銀行中華民國、新加坡、香港、中華人民共和國、印尼五個市場的個人金融與財富管理業務。是次收購，出售的5個市場零售及私銀業務，包括總值110億澳元（約647.9億港元）貸款及資產總值、約70億澳元信用風險加權資產及約170億澳元存款，今年度有關業務獲利5,000萬澳元。澳盛銀行目前服務近130萬客戶，其中有10萬名財富管理與私人銀行客戶以及120萬個人金融客戶。\n海外發展\n印尼\n2012年4月1日，星展集團斥資91億新加坡元（約合73億美元）（約561.6億港元）收購印尼金融銀行（PT Bank Danamon），星展向淡馬錫控股全資子公司富登金控收購印尼金融銀行67.4%的股權，作價約62億新元（49億美元）。星展集團將按每股14.07新元的價格向富登金控發行4.39億股新股﹐以換取這部分股權。淡馬錫控股目前已持有星展集團29.7%的股份﹐上述交易完成後﹐其持股比例將進一步增至40.4%。\n在完成對印尼金融銀行67.4%股權的收購之後﹐星展集團還計劃發出總價29億新元的強制性現金收購提議，獲得其尚不持有的印尼金融銀行剩餘股權。印尼金融銀行在印尼有3,000個網點﹐600萬客戶。\n2013年7月31日，星展集團",
-  "industries": [
-    "financial_services"
+  "related_entities": [
+    {
+      "org_id": "SG-GOV-017",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_description": "持有DBS约29%股权（截至2023年3月），为最大股东和实际控制人",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "org_name": "POSBank (邮政储蓄银行)",
+      "org_type": "CORP",
+      "org_description": "成立于1877年，1998年被DBS以16亿新元收购，作为DBS旗下独立品牌运营，服务超过400万客户",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "org_name": "PT Bank DBS Indonesia",
+      "org_type": "CORP",
+      "org_description": "DBS印尼子公司，拥有39家分支机构和11个城市网点，DBS持股99%",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "org_name": "DBS Bank (Hong Kong) Limited",
+      "org_type": "CORP",
+      "org_description": "DBS香港子公司，由收购的广安银行和道亨银行整合而成，在香港提供全面银行服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-CORP-001",
+      "org_name": "DBS Bank India Limited",
+      "org_type": "CORP",
+      "org_description": "DBS印度全资子公司，拥有530多个分支机构覆盖19个邦，2020年收购Lakshmi Vilas Bank",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-SOE-008",
+      "org_name": "凯德集团 (CapitaLand)",
+      "org_type": "SOE",
+      "org_description": "DBS Land（星展置地）于2000年与Pidemco Land合并组成凯德集团，两者具有历史渊源关系",
+      "relationship_type": "affiliated"
+    }
   ],
-  "apec_stance": "DBS作为新加坡最大银行，积极支持APEC区域金融互联互通，在东盟数字银行领域处于领先地位。DBS在印尼已拥有约25万数字银行客户，并与UOB联合为东南亚数据中心项目提供IDR6.7万亿银团贷款，推动区域数字基础设施建设。DBS多次被评为亚洲最安全银行和亚洲最佳数字银行。",
+  "core_business": "星展银行（DBS Bank）是新加坡最大的商业银行，也是东南亚资产规模最大的银行，总资产超过7390亿新元（截至2023年底）。DBS前身为新加坡发展银行（The Development Bank of Singapore），于1968年7月16日由新加坡政府设立，最初目的是接管经济发展委员会（EDB）的工业融资职能，资助新加坡的工业化和城市开发项目。2003年7月21日改用现名DBS Bank，以反映其作为全球银行的角色变化。DBS在新加坡交易所上市（SGX: D05），信用评级为穆迪Aa1和标普AA-，连续15年（2009-2023年）被Global Finance评为'亚洲最安全银行'。DBS的核心业务涵盖四大板块：个人银行与财富管理（通过DBS、DBS Treasures、DBS Private Bank三个层级服务不同资产规模客户）、机构银行（企业融资、贸易融资、现金管理）、全球金融市场（外汇、利率、衍生品交易）和中小企业银行。1998年DBS以16亿新元收购邮政储蓄银行（POSBank），获得超过400万客户和新加坡最广泛的分行及ATM网络。DBS自2014年起在CEO高博德的领导下启动全面数字化转型，将自己定位为'一家提供银行服务的科技公司'，2016年被Euromoney评为'全球最佳数字银行'。2019年成为全球首家同时获得Euromoney、Global Finance和The Banker三大'全球最佳银行'荣誉的银行。2025年DBS的AI和数据分析举措创造了约10亿新元的经济价值，部署超过2000个AI模型和430多个用案例。DBS在全球17个市场设有分支，包括中国、香港、台湾、印度、印尼、马来西亚、泰国、越南、日本、韩国、英国和阿联酋等。2022年DBS收购花旗台湾消费银行业务（9.3亿新元），成为台湾最大外资银行。2025年3月高博德退休，陈淑珊接任CEO成为DBS首位女性掌门人。2026年第一季度DBS净利润达29.3亿新元，总收入创59.5亿新元历史新高，财富管理业务表现强劲。DBS还通过PayLah!移动支付平台（超100万用户）和digibank数字银行平台服务客户。",
+  "industries": [
+    "financial_services",
+    "banking",
+    "fintech"
+  ],
+  "apec_stance": "DBS作为新加坡和东南亚最大银行，在APEC区域金融互联互通中扮演核心角色。DBS在多个APEC经济体（新加坡、中国、香港、台湾、日本、韩国、澳大利亚、马来西亚、泰国、越南、印尼等）设有重要业务据点，是亚太跨境贸易融资和资金流动的关键枢纽银行。DBS积极推动东盟数字银行发展，在印尼通过PT Bank DBS Indonesia运营39家分支机构，在印度拥有530多个网点。DBS多次被国际机构评为'亚洲最安全银行'和'全球最佳数字银行'，其数字化转型经验为APEC经济体银行业提供了标杆。2025年DBS的AI举措创造约10亿新元经济价值，2026年Q1财富管理业务推动总收入创历史新高。DBS在可持续金融领域同样领先，2025年可持续融资承诺超过1020亿新元，在亚太绿色金融和转型金融领域发挥重要作用。DBS也是亚太私人银行第三大参与者（不含中国境内），管理约2710亿新元资产。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Marina_Bay_Financial_Centre%2C_Singapore_-_20121110.jpg/330px-Marina_Bay_Financial_Centre%2C_Singapore_-_20121110.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news"
     ],
-    "completeness_score": 94,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 94)"
+    "completeness_score": 92,
+    "quotes": [
+      {
+        "title": "DBS Bank - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/DBS_Bank"
+      },
+      {
+        "title": "DBS官方网站",
+        "url": "https://www.dbs.com.sg/"
+      },
+      {
+        "title": "DBS Q1 2026业绩公告",
+        "url": "https://www.dbs.com/newsroom/First_quarter_net_profit_rises_to_SGD_2_93_billion_as_total_income_reaches_a_new_high_led_by_record_wealth_management_performance_ROE_at_17_0pct"
+      },
+      {
+        "title": "DBS Q1 2026 Reuters报道",
+        "url": "https://www.reuters.com/world/asia-pacific/singapore-bank-dbs-first-quarter-net-profit-rises-1-year-2026-04-29/"
+      },
+      {
+        "title": "高博德退休陈淑珊接任 - CNA",
+        "url": "https://www.channelnewsasia.com/singapore/piyush-gupta-step-down-dbs-march-2025-tan-su-shan-take-over-5573036"
+      },
+      {
+        "title": "DBS AI创造10亿新元价值 - BusinessTimes",
+        "url": "https://www.businesstimes.com.sg/companies-markets/dbs-unlocks-s1-billion-ai-value-2025"
+      },
+      {
+        "title": "DBS 2025年度报告",
+        "url": "https://www.dbs.com/annualreports/2025/index.html"
+      },
+      {
+        "title": "DBS Visal智能商务支付试点",
+        "url": "https://www.dbs.com/newsroom/DBS_is_first_bank_in_Asia_Pacific_to_pilot_Visa_Intelligent_Commerce_for_everyday_payments"
+      },
+      {
+        "title": "DBS/POSB 1000万社区支持",
+        "url": "https://www.dbs.com/newsroom/dbs_posb_commits_sgd_10_million_to_help_singaporeans_manage_cost_pressures_and_fortify_business_resilience"
+      },
+      {
+        "title": "DBS 2026年服务中断 - FinTech News",
+        "url": "https://fintechnews.sg/127876/digital-banking-news-singapore/dbs-outage-2026/"
+      },
+      {
+        "title": "DBS Q1 2026分析 - Minichart",
+        "url": "https://www.minichart.com.sg/2026/04/29/dbs-group-1q2026-results-net-profit-hits-sgd-2-93-billion-declares-66-cents-interim-dividend-and-15-cents-capital-return-dividend/"
+      },
+      {
+        "title": "陈淑珊薪酬与DBS AI - Caproasia",
+        "url": "https://www.caproasia.com/2026/03/09/singapore-largest-bank-dbs-ceo-tan-su-shan-received-7-5-million-s9-6-million-total-salary-in-2025-in-her-1st-year-as-ceo-28-3-26-succeeded-piyush-gupta-who-received-13-7-million-s17-6-millio/"
+      }
+    ],
+    "notes": "Phase3 enriched: expanded departments (6 departments including POSBank and Data/Transformation Office), added recent events (6 events with 2025-2026 dates), related entities (6 entities), rewrote core_business and apec_stance with verified data. Fixed key_people titles/descriptions to Chinese. Added social accounts (LinkedIn, Instagram). Added digital assets (Annual Report 2025, PayLah!, POSBank). Updated Tan Su Shan as current CEO, Piyush Gupta as former CEO."
   }
 }

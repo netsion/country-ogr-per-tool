@@ -1,12 +1,14 @@
 {
   "org_id": "SG-SOE-004",
   "basic_info": {
-    "name_original": "新加坡电信",
+    "name_original": "Singapore Telecommunications Limited",
     "name_zh": "新加坡电信",
     "name_en": "SingTel",
     "aliases": [
       "Singapore Telecommunications",
       "Singapore Telecommunications Limited",
+      "Singtel",
+      "新电信",
       "新加坡电信"
     ],
     "org_type": "SOE",
@@ -31,85 +33,310 @@
     },
     {
       "platform": "youtube",
-      "account_name": "UCUWVWgnKKAWdLkgJGZiFEMA",
+      "account_name": "Singtel",
       "url": "https://youtube.com/channel/UCUWVWgnKKAWdLkgJGZiFEMA",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Singtel",
+      "url": "https://www.linkedin.com/company/singtel",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
     {
-      "name": "SingTel官方网站",
+      "name": "Singtel官方网站",
       "url": "https://www.singtel.com/",
       "description": "新电信官方网站，覆盖22个国家和地区的通信和数字服务",
       "source": "official_website"
     },
     {
-      "name": "SingTel投资者关系",
+      "name": "Singtel投资者关系",
       "url": "https://www.singtel.com/about-us/investor-relations/financial-results",
       "description": "新电信财务报告、股价和投资者活动信息",
+      "source": "official_website"
+    },
+    {
+      "name": "RE:AI云服务平台",
+      "url": "https://www.singtel.com/business/products-services/5g",
+      "description": "Singtel于2024年推出的AI云服务平台，旨在让AI技术广泛惠及各类组织机构",
+      "source": "official_website"
+    },
+    {
+      "name": "Nxera数据中心",
+      "url": "https://www.nxera-dc.com",
+      "description": "Singtel旗下区域性AI就绪数据中心业务品牌，专注于下一代AI基础设施",
       "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000089",
-      "name": "蔡淑君 (Chua Sock Koong)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
-    },
-    {
       "person_id": "SG-PERSON-000090",
       "name": "袁坤满 (Yuen Kuan Moon)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "title": "集团首席执行官 (Group CEO)",
+      "title_description": "自2021年1月1日起担任Singtel集团首席执行官，主导集团从传统电信向AI科技企业的战略转型",
+      "description": "袁坤满现任Singtel集团CEO，负责集团全球战略和业务管理。斯坦福大学毕业生，领导了Singtel28增长计划和向AI技术公司的转型，2025财年薪酬820万新元。"
+    },
+    {
+      "person_id": "SG-PERSON-000294",
+      "name": "李腾毅 (Lee Theng Kiat)",
+      "title": "董事会主席 (Chairman of the Board)",
+      "title_description": "非独立非执行董事，自2020年起担任董事会主席",
+      "description": "李腾毅同时担任淡马锡国际主席至2026年3月，是新加坡商界资深人士，拥有丰富的投资和企业管理经验。"
+    },
+    {
+      "person_id": "SG-PERSON-000295",
+      "name": "张伟梁 (Bill Chang)",
+      "title": "数字基础设施业务首席执行官 (CEO, Digital InfraCo & Nxera)",
+      "title_description": "负责Singtel数字基础设施和AI数据中心业务",
+      "description": "张伟梁自2023年6月起担任Singtel Digital InfraCo首席执行官兼Nxera执行董事，主导AI工厂和主权AI能力建设，推动Singtel从电信运营商向AI技术公司转型。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-004-DEPT-001",
-      "name": "Vividwireless Group Limited – provision of wireless broadband services",
+      "name": "消费者业务部 (Consumer Group)",
       "head": null,
-      "description": null,
+      "description": "负责新加坡本土的移动通信、固定宽带和付费电视（Singtel TV）等消费者服务。新加坡最大移动运营商，拥有450万用户，市场份额44.6%。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-004-DEPT-002",
-      "name": "Associates of the group",
+      "name": "国际数字服务部 (International Digital Services)",
+      "head": "叶安娜 (Anna Yip)",
+      "description": "2025年1月新设立，负责集团国际业务拓展和数字服务开发，由叶安娜担任CEO",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-004-DEPT-003",
+      "name": "数字基础设施部 (Digital InfraCo / Nxera)",
+      "head": "张伟梁 (Bill Chang)",
+      "description": "负责集团数据中心、AI基础设施和云服务业务。旗下Nxera品牌专注下一代AI就绪数据中心，RE:AI平台提供GPU即服务和AI即服务。2026年2月与KKR联合以66亿新元收购ST Telemedia Global Data Centres剩余82%股权，Singtel持有25%股份。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-004-DEPT-004",
+      "name": "NCS集团 (NCS Group)",
       "head": null,
-      "description": null,
+      "description": "Singtel旗下信息技术和咨询服务子公司，提供企业数字化转型服务。2026年1月Sam Liew接替Ng Kuo Pin出任CEO。是亚太地区领先的信息通信技术服务商。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-004-DEPT-005",
+      "name": "Optus (澳大利亚子公司)",
+      "head": null,
+      "description": "Singtel全资拥有的澳大利亚第二大电信运营商，提供移动、宽带和企业通信服务。2025年8月任命John Arthur为董事会主席。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-004-DEPT-006",
+      "name": "Singtel Innov8 (风险投资)",
+      "head": null,
+      "description": "Singtel旗下风险投资部门，成立于2011年，初始资本2亿新元，专注于创新科技公司的战略投资",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-11-13",
-      "title": "SingTel FY2026上半年净利润大增176%至34亿新元",
-      "description": "新电信公布H1 FY26净利润达34亿新元（同比增长176%），基础利润增长14%至13.5亿新元。Q1核心盈利创五年新高（6.86亿新元），受AI、数字基础设施投资和Bharti Airtel收益驱动。",
-      "impact": "SingTel上调全年运营盈利预期，分析师维持看好评级，股息率约5.1%",
+      "date": "2025-02-07",
+      "title": "Singtel率先部署700MHz频段，推出5G+服务",
+      "description": "Singtel成为新加坡首家部署700MHz低频段频谱的电信运营商，进一步扩大全国5G覆盖范围。信号在高层建筑室内和地下空间的强度提升高达40%。该服务品牌正式命名为Singtel 5G+。",
+      "impact": "巩固了Singtel在新加坡5G网络技术上的领先地位，为后续全国网络切片奠定基础。",
+      "source": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-launches-first-deployment-of-spectrum-in-singapore"
+    },
+    {
+      "date": "2025-05-15",
+      "title": "Singtel发布5G+全国网络切片",
+      "description": "Singtel推出5G+服务升级，成为全球首家向所有用户提供全国范围网络切片的电信运营商。超过150万符合资格的用户自动升级至5G+ Priority，速度提升高达4倍。",
+      "impact": "开创全球电信行业先例，为消费者和企业用户提供差异化服务质量保障。",
+      "source": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-sets-new-global-standard-in-connectivity-with-5g"
+    },
+    {
+      "date": "2025-11-12",
+      "title": "Singtel FY2026上半年净利润大增176%至34亿新元",
+      "description": "Singtel公布H1 FY26净利润达34亿新元（同比增长176%），基础利润增长14%至13.5亿新元。同时宣布多项战略交易：参与AI合资企业Syntelligence、增持泰国AIS股份、推进数字基础设施投资。",
+      "impact": "Singtel上调全年运营盈利预期，分析师维持看好评级，展现向AI科技企业转型的初步成果。",
       "source": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-H1FY26"
+    },
+    {
+      "date": "2025-08-25",
+      "title": "Global Telco AI Alliance正式成立Syntelligence AI合资企业",
+      "description": "Singtel与Deutsche Telekom、e&、SK Telecom、SoftBank等五家全球电信巨头共同成立Syntelligence AI合资企业，各持20%股份。合资企业总部位于伦敦，开发专为电信行业定制的大语言模型和AI应用，用于反垃圾通话、客服体验优化等场景。",
+      "impact": "标志着全球电信业在AI领域最大规模的跨国合作之一，Singtel在AI生态中的战略角色进一步确立。",
+      "source": "https://www.singtel.com/about-us/media-centre/news-releases/global-telco-ai-alliance-founding-parties-sign-agreement"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "KKR与Singtel以66亿新元联合收购STT GDC",
+      "description": "KKR牵头的财团与Singtel签署协议，以约66亿新元（51亿美元）收购ST Telemedia Global Data Centres（STT GDC）剩余82%股权。STT GDC在12个市场拥有超过100个数据中心，总IT负载2.3吉瓦。交易完成后KKR持股75%，Singtel持股25%。",
+      "impact": "Singtel数字基础设施版图大幅扩张，成为东南亚乃至亚太地区最大的数据中心运营商之一，为其AI工厂战略提供关键基础设施支撑。",
+      "source": "https://www.singtel.com/about-us/media-centre/news-releases/kkr-led-consortium-with-singtel-group-to-fully-acquire-st-telemedia-global-data-centres"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Singtel Digital InfraCo与Nvidia共建AI应用卓越中心",
+      "description": "Singtel Digital InfraCo与Nvidia合作，在榜鹅数字园区设立AI应用卓越中心（Centre of Excellence for Applied AI），整合AI基础设施、前沿模型开发商和应用解决方案提供商，推动企业级AI应用从试点到规模化部署。",
+      "impact": "构建东南亚AI生态系统关键节点，Bill Chang称之为'AI电网'战略的核心组成部分。",
+      "source": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-digital-infraco-accelerates-sovereign-ai-innovations"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Singtel与Ericsson合作加速5G Advanced演进",
+      "description": "Singtel与Ericsson宣布战略合作，加速5G Advanced向可编程、AI驱动的数字平台演进，旨在推动企业数字化转型、加强新加坡数字经济实力，并为未来十年的国家网络基础设施做好准备。",
+      "impact": "进一步巩固Singtel在5G技术演进方面的全球领先地位。",
+      "source": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-partners-ericsson-to-accelerate-industry-transformation-with-5g-advanced"
     }
   ],
-  "related_entities": [],
-  "core_business": "新加坡電信有限公司（英語：Singapore Telecommunications Limited；缩写：Singtel，SGX：Z74、OTCBB：SGAPY）简称新电信，在21个国家拥有逾7.53亿位用户，現在正集中於提供互联网接入、IPTV（Singtel TV）、手機（新电信流动）和固網電話服務。是國際組織Bridge Alliance的創始會員。\n新電信積極開拓新加坡以外的市場和擁有局部經營者的股份，包括拥有澳大利亚電信公司Optus的所有股份。至於新電信的大部份股權則是由淡馬錫控股持有。2012年3月6日，新电信斥资3.21亿美元收购了以色列Amobee公司，该公司主要提供移动广告解决方案。\n2012年9月20日，新电信以2650万美元收购社交照片智能聚合服务提供商Pixable，旨在进一步丰富用户的网络内容交流体验。2012年9月26日淡馬錫以每股3.2-3.25新加坡元出售4億股新电信，涉及13億新加坡元。報導又指淡馬錫會額外出售1億股新电信股份，令交易達到13.4億新加坡元。當減持5億股新电信後，淡馬錫的持股量將由54.4%降至51.3%。\n历史\n1992 年：SingTel 于 3 月以Telecommunications Equipment之名成立，并于 1993 年 10 月成为一家上市公司。\n2001 年4月：新加坡电信获得 3G 牌照。\n2001 年 3 月，新加坡电信以 74 亿至 85 亿美元的价格收购了 Optus。\n2003 年：SingTel 在 5 月份的 IPO 期间出售了新加坡邮政 (SingPost) 60% 的股份，以专注于其核心电信服务业务。\n2003 年：SingTel 于 6 月以 2.2 亿新元的价格将其在 Yellow Pages 的股份、其目录业务出售给 CVC Asia Pacific 和 J.P. Morgan Partners Asia。\n2020 年 12 月 4 日，新加坡电信和叫车公司 Grab 财团宣布获得数字银行牌照，并将于 2022 年开始运营。\n新电信首席执行官清单\n全球办事处\n新加坡电信在22个国家与地区设有共40个办事处，遍布亚太、中东、欧洲与美国等地区，为全球客户提供覆盖广泛又稳定的网络基础设施。每个新加坡电信的全球办事处都能提供专业的服务及技术上的支持以满足不同客户的需求。\n事件\n武吉班让交换中心火灾案\n2013年10月9日，新电信位於武吉班讓的互聯網交換中心發生火灾。火災於下午兩點發生，新加坡民防部队在下午兩點十六分接获通报並开始执行救火任务。\n火灾导致新加坡北部与西部的新电信服务使用者的网络供應受影响。受影响地方主要有武吉巴都，武吉班让，武吉知马，蔡厝港，克兰芝，马希龄，德歪与乌兰。根据报道，大约60000固定宽带线，46000 mioTV 订阅者，以及30000语音线使用者受到影响。OpenNet 也表示属下的81个光缆电线也被损坏，影响了46000个光缆连接。\n事后，新电信因这起火灾案而被判罚款6百万。是新加坡历史上是针对电信公司最大的罚款金额。\nGushcloud行销宣传丑闻\n2015年3月14日，博客鄭彥彥在自己的部落格上揭发Gushcloud公司指示博客在社交媒体上批评新加坡電信竞争对手，M1与星和電信的手机配套服务。主要目的以打击新电信竞争对手的配套销售量以及阻止其他人向新电信購買手机配套，主要影响目标顾客以青年人为主。在郑彦彦揭发这起事件之后，M1与星和電信向IMDA寻求协助调查。\n新电信之后向M1和星和道歉，该两所公司也接受了新电信的道歉。",
+  "related_entities": [
+    {
+      "org_id": "SG-SOE-001",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_description": "Singtel的多数股权持有方，淡马锡是新加坡政府投资机构",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "Optus (澳大利亚)",
+      "org_type": "CORP",
+      "org_description": "Singtel全资拥有的澳大利亚第二大电信运营商",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Bharti Airtel (印度)",
+      "org_type": "CORP",
+      "org_description": "印度第二大电信运营商，Singtel持有约27.5%股份，是其最重要的区域关联公司之一",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "Telkomsel (印度尼西亚)",
+      "org_type": "CORP",
+      "org_description": "印尼最大移动运营商，Singtel持有约35%股份",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "Advanced Info Service / AIS (泰国)",
+      "org_type": "CORP",
+      "org_description": "泰国最大移动运营商，Singtel持有约23.3%股份，2025年进一步增持",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "Globe Telecom (菲律宾)",
+      "org_type": "CORP",
+      "org_description": "菲律宾最大移动运营商之一，Singtel持有约47%股份",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "NCS Group",
+      "org_type": "CORP",
+      "org_description": "Singtel旗下信息技术和咨询服务子公司，亚太领先ICT服务商",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Syntelligence AI",
+      "org_type": "CORP",
+      "org_description": "与Deutsche Telekom、e&、SK Telecom、SoftBank共同成立的电信AI合资企业，各持20%股份",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "ST Telemedia Global Data Centres (STT GDC)",
+      "org_type": "CORP",
+      "org_description": "KKR与Singtel联合收购的全球数据中心运营商，Singtel持有25%股份，在12个市场拥有超100个数据中心",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "Grab / GXS数字银行",
+      "org_type": "CORP",
+      "org_description": "Singtel与Grab联合获得新加坡数字银行牌照，于2022年开始运营",
+      "relationship_type": "strategic_alliance"
+    }
+  ],
+  "core_business": "新加坡电信有限公司（Singapore Telecommunications Limited，SGX: Z74）是新加坡最大的电信运营商，也是亚太地区领先的通信科技集团。公司成立于1879年（前身为私人电话交换局），1992年公司化，1993年在新加坡交易所上市。Singtel通过旗下子公司和关联公司在21个国家拥有逾8亿移动用户，业务涵盖移动通信、固定宽带、付费电视（Singtel TV）、ICT服务、数据中心和AI云服务。\n\nSingtel的核心业务分为三大板块：（1）新加坡本土消费者业务，拥有450万移动用户和44.6%的市场份额，同时运营固定宽带（45.8%市场份额）和Singtel TV付费电视服务；（2）国际关联公司投资组合，包括全资拥有澳大利亚Optus、持有印度Bharti Airtel 27.5%股份、印尼Telkomsel 35%股份、泰国AIS 23.3%股份、菲律宾Globe Telecom 47%股份等；（3）数字基础设施和企业服务，通过NCS提供ICT解决方案，通过Digital InfraCo和Nxera运营AI就绪数据中心。\n\n2025财年营收141.46亿新元，净利润40.17亿新元，总资产467.83亿新元。主要股东为淡马锡控股（新加坡政府投资机构）。近年来Singtel积极推进Singtel28增长计划，加速从传统电信运营商向AI科技企业转型：2024年推出RE:AI云服务；2025年率先部署700MHz频段并推出全球首个全国5G+网络切片；2025年8月与全球四大电信巨头成立Syntelligence AI合资企业；2026年2月与KKR联合以66亿新元收购STT GDC，大幅扩展数据中心版图；同年与Nvidia共建AI应用卓越中心，构建东南亚主权AI能力。集团在全球22个国家设有40个办事处，员工逾24000人。",
   "industries": [
+    "telecommunications",
+    "information_technology",
+    "cloud_computing",
     "investment"
   ],
-  "apec_stance": "新电信作为亚太地区最大电信运营商之一（覆盖7.53亿用户），在APEC区域数字互联互通中扮演关键角色。旗下澳洲Optus、印度Bharti Airtel等区域关联公司构成覆盖多个APEC经济体的电信网络。SingTel积极投资AI和数字基础设施，与APEC数字经济议程高度契合。",
+  "apec_stance": "Singtel作为亚太地区最大电信运营商之一，在APEC区域数字互联互通中扮演核心角色。通过旗下澳洲Optus、印度Bharti Airtel（27.5%）、印尼Telkomsel（35%）、泰国AIS（23.3%）、菲律宾Globe Telecom（47%）等区域关联公司，Singtel构建了覆盖多个APEC经济体的电信和数字基础设施网络。在APEC数字经济议程中，Singtel积极推动5G/5G+网络部署（2025年率先推出全球首个全国5G+网络切片）、AI能力建设（2025年与全球电信联盟成立Syntelligence AI、2026年与Nvidia共建AI卓越中心）以及数据中心互联互通（2026年收购STT GDC扩展至12个市场）。Singtel的国际海底光缆网络连接超过100个国家，是APEC区域信息基础设施的关键支撑。集团在新加坡、澳大利亚、印度、泰国、印尼、菲律宾等APEC经济体均有重大投资和运营，与APEC促进区域经济一体化和数字经济发展的目标高度契合。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Singtel_logo.svg/330px-Singtel_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
-    "data_sources": [
-      "wikidata",
-      "wikipedia",
-      "official_website"
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Singtel - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Singtel"
+      },
+      {
+        "title": "新加坡电信 - Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡电信"
+      },
+      {
+        "title": "Singtel 5G+ 700MHz Launch",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-launches-first-deployment-of-spectrum-in-singapore"
+      },
+      {
+        "title": "Singtel 5G+ Global Standard",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-sets-new-global-standard-in-connectivity-with-5g"
+      },
+      {
+        "title": "KKR-Singtel STT GDC Acquisition",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/kkr-led-consortium-with-singtel-group-to-fully-acquire-st-telemedia-global-data-centres"
+      },
+      {
+        "title": "Global Telco AI Alliance JV Agreement",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/global-telco-ai-alliance-founding-parties-sign-agreement"
+      },
+      {
+        "title": "Singtel Digital InfraCo Nvidia CoE",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-digital-infraco-accelerates-sovereign-ai-innovations"
+      },
+      {
+        "title": "Singtel-Ericsson 5G Advanced",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-partners-ericsson-to-accelerate-industry-transformation-with-5g-advanced"
+      },
+      {
+        "title": "Singtel Leadership Page",
+        "url": "https://www.singtel.com/about-us/company/leadership"
+      },
+      {
+        "title": "Singtel Corporate Governance",
+        "url": "https://www.singtel.com/about-us/company/corporate-governance"
+      },
+      {
+        "title": "Business Times: Singtel AI Push",
+        "url": "https://www.businesstimes.com.sg/companies-markets/traditional-telco-tech-singtel-steps-sovereign-ai-push-latest-tie"
+      },
+      {
+        "title": "Straits Times: KKR Singtel STT GDC",
+        "url": "https://www.straitstimes.com/business/companies-markets/singtel-kkr-consortium-buy-rest-of-st-telemedia-global-data-centres-for-6-6-billion"
+      },
+      {
+        "title": "Singtel Annual Report FY2025",
+        "url": "https://www.singtel.com/about-us/investor-relations/annual-report-fy2025/group-ceo-review"
+      }
     ],
-    "completeness_score": 94,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 94)"
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "web_search",
+      "news_media"
+    ],
+    "completeness_score": 92,
+    "notes": "Phase3 enriched: updated leadership, added 5G+/AI/DC developments, expanded departments and related_entities with recent M&A and JV activities. Cross-verified across Wikipedia, official press releases, Straits Times, Business Times."
   }
 }

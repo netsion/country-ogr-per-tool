@@ -1,19 +1,22 @@
 {
   "org_id": "SG-SOE-005",
   "basic_info": {
-    "name_original": "新加坡國際港務集團",
-    "name_zh": "新加坡國際港務集團",
+    "name_original": "PSA International Pte. Ltd.",
+    "name_zh": "新加坡国际港务集团",
     "name_en": "PSA International",
     "aliases": [
+      "PSA International",
+      "PSA International Pte Ltd",
+      "新加坡国际港务集团",
       "新加坡國際港務集團",
-      "新加坡国际港务集团"
+      "Port of Singapore Authority"
     ],
     "org_type": "SOE",
     "org_subtype": "state_owned_enterprise",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "2003-01-01",
-    "website": "http://www.internationalpsa.com/home/default.html"
+    "founded_date": "1964-04-01",
+    "website": "https://www.globalpsa.com"
   },
   "social_accounts": [
     {
@@ -45,99 +48,242 @@
     {
       "name": "PSA International官网",
       "url": "https://www.globalpsa.com",
-      "description": "PSA International官方网站。",
-      "source": "https://www.globalpsa.com"
+      "description": "PSA International集团官方网站，涵盖全球港口运营、供应链解决方案和海运服务信息",
+      "source": "official_website"
     },
     {
       "name": "PSA Singapore官网",
       "url": "https://www.singaporepsa.com",
-      "description": "PSA新加坡业务网站。",
-      "source": "https://www.singaporepsa.com"
+      "description": "PSA新加坡业务网站，覆盖新加坡本土港口运营和大士港（Tuas Port）相关资讯",
+      "source": "official_website"
+    },
+    {
+      "name": "PSA BDP官网",
+      "url": "https://psabdp.com",
+      "description": "PSA BDP是PSA International旗下全球物流和供应链解决方案品牌，前身为BDP International",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000185",
+      "person_id": "SG-PERSON-000169",
       "name": "Peter Voser",
-      "title": "集团主席",
-      "title_description": "Group Chairman",
-      "description": "PSA International集团董事会主席。"
+      "title": "集团主席 (Group Chairman)",
+      "title_description": "PSA International集团董事会主席",
+      "description": "Peter Voser现任PSA International集团主席。曾任壳牌石油CEO，是国际商界资深人士，在能源和基础设施领域拥有丰富经验。"
     },
     {
       "person_id": "SG-PERSON-000128",
       "name": "王金榜 (Ong Kim Pong)",
-      "title": "集团CEO",
-      "title_description": "Group CEO",
-      "description": "负责PSA集团全球业务和战略合作。"
+      "title": "集团首席执行官 (Group CEO)",
+      "title_description": "负责PSA集团全球业务战略和增长",
+      "description": "王金榜现任PSA International集团CEO，在PSA拥有近30年工作经验，曾负责东南亚、欧洲、地中海和东北亚等多个区域的运营。2024年接替退休的陈宗铭（Tan Chong Meng）出任集团CEO。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-005-DEPT-001",
-      "name": "formerly the Port of Singapore Authority",
+      "name": "PSA Singapore (新加坡港口业务)",
       "head": null,
-      "description": null,
+      "description": "PSA集团旗舰业务，运营新加坡各大集装箱码头，包括大士港（Tuas Port，全球最大全自动化集装箱码头）、巴西班让码头、布拉尼码头、吉宝码头等。新加坡是全球最大的集装箱转运中心，连接超过600个港口，处理约全球七分之一的集装箱转运量。2025年新加坡码头吞吐量达4450万TEU，同比增长8.7%。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-005-DEPT-002",
+      "name": "PSA International (海外港口业务)",
+      "head": null,
+      "description": "PSA在全球45个国家超过180个地点运营港口和码头。海外业务涵盖比利时安特卫普、韩国釜山、中国大连/广州/福州/天津、印度金奈/孟买、日本北九州、泰国林查班、印尼雅加达、波兰格但斯克、意大利热那亚、土耳其梅尔辛、巴拿马、美国等。2025年海外码头吞吐量6040万TEU。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-005-DEPT-003",
+      "name": "PSA Marine (海事服务)",
+      "head": null,
+      "description": "PSA International全资子公司，为航运和港口社区提供海事服务，包括引航、码头拖航等。拥有并运营超过80艘船舶，业务遍及新加坡、马来西亚、中国大陆、香港、印度、澳大利亚、巴拿马、秘鲁和阿曼。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-SOE-005-DEPT-004",
+      "name": "PSA BDP (供应链与物流)",
+      "head": null,
+      "description": "PSA于2022年全资收购BDP International后整合形成的全球物流和供应链解决方案品牌，提供端到端供应链管理、运输和物流服务，在全球133个办公地点开展业务。2025年5月进一步收购ED Forwarding多数股权以扩展业务。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-01-14",
-      "title": "2025年全球吞吐量创纪录达1.05亿TEU",
-      "description": "同比增长5%，新加坡旗舰码头4450万TEU。",
-      "impact": "巩固PSA全球最大港口运营商地位。",
-      "source": "https://www.singaporepsa.com/"
+      "date": "2025-02-24",
+      "title": "PSA Singapore大士港累计吞吐量突破1000万TEU",
+      "description": "自2022年9月大士港开始运营以来，PSA Singapore在该全球最大全自动化集装箱码头累计处理1000万TEU。大士港目前正在推进第三阶段建设，完成后将新增900万TEU全自动化处理能力。",
+      "impact": "标志着大士港作为全球最先进自动化码头的运营成熟度，巩固新加坡作为全球最大转运中心的地位。",
+      "source": "https://www.singaporepsa.com/2025/02/24/psa-singapore-celebrates-10-million-teu-milestone-at-tuas-port/"
+    },
+    {
+      "date": "2025-09-15",
+      "title": "PSA Singapore与中远海运扩展合作至港口运营之外",
+      "description": "PSA Singapore与COSCO签署协议，在新加坡建设区域配送设施，合作范围扩展至港口运营之外的供应链物流领域。PSA Supply Chain Hub @ Tuas计划于2027年开始运营，投资额约6.475亿新元。",
+      "impact": "展示PSA从纯港口运营商向综合供应链服务商转型的战略方向，深化与中国最大航运企业的合作关系。",
+      "source": "https://www.singaporepsa.com/2025/09/15/psa-singapore-and-cosco-expand-collaboration-beyond-port-operations-with-regional-distribution-facilities-in-singapore/"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "PSA International 2025年全球吞吐量创纪录达1.05亿TEU",
+      "description": "PSA International公布2025年全年业绩：全球集装箱吞吐量达创纪录的1.05亿TEU，同比增长5%。其中新加坡旗舰码头4450万TEU（增长8.7%），海外码头6040万TEU（增长2%）。集团营收增长7%至82.64亿新元，运营利润增长19%至14亿新元。",
+      "impact": "巩固PSA作为全球最大港口运营商的地位，在持续的地缘政治不确定性和全球贸易压力下展现强劲韧性。",
+      "source": "https://www.singaporepsa.com/2026/01/14/psa-internationals-2025-container-throughput-performance/"
     },
     {
       "date": "2026-03-09",
-      "title": "FY2025营收83亿新元",
-      "description": "营收增长7%，运营利润增长19%至14亿新元。",
-      "impact": "PSA财务表现强劲。",
-      "source": "https://www.singaporepsa.com/"
+      "title": "PSA公布FY2025财务业绩：营收83亿新元",
+      "description": "PSA International公布2025财年完整业绩：营收82.64亿新元（增长7%），运营利润14亿新元（增长19%），净利润约11亿新元。集团CEO王金榜表示，在日益碎片化的全球格局中，PSA作为中立码头运营商的角色从未如此重要。",
+      "impact": "PSA财务表现稳健，运营利润大幅增长显示运营效率持续提升，为全球扩张提供资金支持。",
+      "source": "https://www.singaporepsa.com/wp-content/uploads/2026/03/260309-PSA-Group-Financial-Results-FY2025.pdf"
     },
     {
-      "date": "2026-01-01",
-      "title": "Saudi Global Ports在Jubail码头运营",
-      "description": "PSA关联企业在沙特阿拉伯Jubail集装箱码头开展运营。",
-      "impact": "展示PSA在中东市场持续扩张。",
-      "source": "https://www.globalpsa.com/"
+      "date": "2026-01-22",
+      "title": "PSA Singapore大士港第三阶段正式投运",
+      "description": "PSA Singapore正式投运大士港第三阶段，新增900万TEU全自动化处理能力，使大士港总处理能力提升约20%。大士港是当前全球最大的全自动化集装箱码头，预计完全建成后年处理能力将达到6500万TEU。",
+      "impact": "大幅提升新加坡港口容量和竞争力，支撑新加坡作为全球航运枢纽的长期发展战略。",
+      "source": "https://ports.marinelink.com/ports/port/new-bedford/news/psa-singapore-commissions-phase-3-of-tuas-port-boosting-capacity-by-20-percent"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "PIL与PSA International联合推出新加坡首个陆海联运绿色航运服务",
+      "description": "太平船务（PIL）与PSA International联合推出新加坡首个陆海联运绿色航运服务，获得DNV技术支持。该项目旨在推动航运业脱碳和绿色物流发展。",
+      "impact": "展示PSA在绿色航运和可持续发展领域的投入，与新加坡海事脱碳议程保持一致。",
+      "source": "https://www.pilship.com/newsroom/pil-and-psa-international-launch-singapores-first-joint-land-sea-green-shipping-service-supported-by-dnv/"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "PSA成功竞得厦门集装箱码头集团投资",
+      "description": "PSA International通过公开竞标程序成功获得厦门集装箱码头集团（XCTG）投资，投资额约3.88亿美元，持股30%。XCTG运营8个集装箱码头，年设计总吞吐能力约2000万TEU。这是PSA在福建省厦门和福州已有投资基础上的进一步扩张。",
+      "impact": "显著扩大PSA在中国这一全球最大贸易国的港口业务布局，强化其亚太港口网络覆盖。",
+      "source": "https://www.globalpsa.com/psa-expands-network-in-china-with-successful-bid-for-xiamen-port-investment/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-SOE-001",
-      "org_name": "Temasek Holdings",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
       "org_type": "SOE",
-      "org_description": null,
+      "org_description": "PSA International的多数股东，新加坡政府投资机构",
       "relationship_type": "parent_org"
     },
     {
-      "org_id": "SG-SOE-001",
-      "org_name": "淡马锡控股",
+      "org_id": null,
+      "org_name": "PSA Marine",
+      "org_type": "CORP",
+      "org_description": "PSA全资海事服务子公司，提供引航、拖航等港口海事服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "PSA BDP",
+      "org_type": "CORP",
+      "org_description": "PSA旗下全球物流和供应链解决方案品牌，2022年收购BDP International后整合而成",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "新加坡海事及港务管理局 (MPA)",
+      "org_type": "GOV",
+      "org_description": "新加坡海事监管机构，负责港口监管和海事政策。PSA从原新加坡港务局（Port of Singapore Authority）企业化后，监管职能移交至MPA",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "中远海运 (COSCO Shipping)",
+      "org_type": "CORP",
+      "org_description": "中国最大航运企业，与PSA在新加坡合作运营COSCO-PSA码头，2025年进一步扩展至供应链物流合作",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "厦门集装箱码头集团 (XCTG)",
+      "org_type": "CORP",
+      "org_description": "PSA于2026年4月通过竞标获得30%投资的中国港口运营商，运营8个集装箱码头",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "SG-SOE-002",
+      "org_name": "Mapletree Investments",
       "org_type": "SOE",
-      "org_description": "PSA International的多数股东。",
-      "relationship_type": "parent_org"
+      "org_description": "前身为PSA于2000年成立的The HarbourFront Limited，后独立为淡马锡旗下房地产投资公司",
+      "relationship_type": "affiliated"
     }
   ],
-  "core_business": "PSA國際港務集團（英語：PSA International，簡称：PSA），是世界領先的集裝箱碼頭運营商，在亞、歐、美三洲16介國家参與的碼頭項目約40個，包括位于新加坡和比利時的旗艦碼頭。\n歷史\nPSA國際港務集團的前身是1964年4月1日成立的新加坡港務局（Port of Singapore Authority），貨責經营管理運作新加坡港的所有港務事宜。1997年8月25日，新加坡國會通過法案，將港務局改組為新加坡港務集團有限公司（PSA Corporation Ltd），同年9月1日開始運作。 PSA在2003年12月时進行重組，成為PSA集團所主要持有的一間公司之一。\n新加坡港务集团\n新加坡港务集團 (PSA Singapore)是世界上最大的貨櫃轉口港中心，運結全球超過600座港口并处理了大約世界七分之一的貨櫃轉運呑吐量。\nPSA Marine\nPSA Marine 是一間由PSA國際港務集團完全持有的子公司，為航運和船隊提供海上服務。服務內容包括領港費、碇泊和碼頭拖船費、海上運輸、近海石油和天然氣產業提供船隻支援、重物搬運、處理漏油和海上救援。\n營運港口\n以下列表為PSA国际港务集团营运的港口。\n參考\n連結\nPSA国际港务集团官方網站 （页面存档备份，存于互联网档案馆）",
+  "core_business": "PSA International Pte. Ltd.（新加坡国际港务集团）是全球领先的港口运营商和供应链解决方案提供商，总部位于新加坡。公司前身是1964年4月1日成立的新加坡港务局（Port of Singapore Authority），1997年10月企业化为PSA Corporation Limited，2003年12月重组后以PSA International Pte. Ltd.为控股公司。'PSA'不再是缩写，而是作为品牌名称保留。\n\nPSA的业务分为四大板块：（1）新加坡本土港口运营，管理全球最大的集装箱转运中心，包括大士港（Tuas Port，当前全球最大的全自动化集装箱码头）、巴西班让码头、布拉尼码头和吉宝码头等。2025年新加坡码头吞吐量达4450万TEU，同比增长8.7%；（2）国际港口运营，在45个国家超过180个地点运营超过70个深水、铁路和内陆码头，2025年海外码头吞吐量6040万TEU，覆盖中国、韩国、日本、印度、印尼、泰国、比利时、意大利、波兰、土耳其、美国、加拿大、巴拿马等市场；（3）海事服务（PSA Marine），全资子公司提供引航、拖航等港口海事服务，运营超过80艘船舶；（4）供应链与物流（PSA BDP），2022年收购BDP International后整合形成端到端全球供应链解决方案业务。\n\n2025财年业绩：全球集装箱吞吐量创纪录的1.05亿TEU（同比增长5%），营收82.64亿新元（增长7%），运营利润14亿新元（增长19%），净利润约11亿新元。主要股东为淡马锡控股。近年来PSA积极推进从纯港口运营商向综合供应链服务商转型：大士港第三阶段于2026年1月投运，新增900万TEU自动化处理能力；2026年4月以3.88亿美元获得厦门集装箱码头集团30%股权；同时推进绿色航运和可持续发展。预计2027年前完成所有城市港口向大士港的搬迁，届时大士港完全建成后将拥有6500万TEU年处理能力和66个泊位。",
   "industries": [
-    "investment"
+    "port_operations",
+    "logistics_warehousing",
+    "supply_chain",
+    "maritime_shipping"
   ],
-  "apec_stance": "PSA作为亚太最大港口运营商之一，在APEC区域供应链互联互通中发挥关键作用。在APEC多个经济体运营港口，直接受益于APEC贸易便利化和供应链韧性倡议。",
+  "apec_stance": "PSA International作为全球最大的港口运营商之一，在APEC区域供应链互联互通中发挥关键枢纽作用。PSA在多个APEC经济体运营港口，包括新加坡、中国（大连、广州、福州、天津、厦门、连云港）、韩国（釜山、仁川）、日本（北九州）、印尼（雅加达）、泰国（林查班、曼谷）、印度（金奈、孟买）、菲律宾等，直接受益于APEC贸易便利化和供应链韧性倡议。\n\n新加坡作为APEC重要成员经济体，其港口是亚太贸易网络的核心节点。PSA新加坡旗舰码头连接全球超过600个港口，处理约全球七分之一的集装箱转运量，是APEC区域内货物贸易流动的关键基础设施。PSA近年来加大在APEC经济体的投资力度：2026年4月投资3.88亿美元获得中国厦门集装箱码头集团30%股权，2025年与COSCO扩展供应链合作。大士港作为全球最大全自动化码头的持续扩建（2026年第三阶段投运），将为APEC区域的贸易量增长提供关键容量支撑。PSA同时推进绿色航运和数字化，与APEC可持续发展和数字经济议程保持一致。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Official_Logo_of_PSA_International.png/330px-Official_Logo_of_PSA_International.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "PSA International - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/PSA_International"
+      },
+      {
+        "title": "PSA International Official Website",
+        "url": "https://www.globalpsa.com"
+      },
+      {
+        "title": "PSA Singapore Official Website",
+        "url": "https://www.singaporepsa.com"
+      },
+      {
+        "title": "PSA 2025 Container Throughput Performance",
+        "url": "https://www.singaporepsa.com/2026/01/14/psa-internationals-2025-container-throughput-performance/"
+      },
+      {
+        "title": "PSA FY2025 Financial Results",
+        "url": "https://www.singaporepsa.com/wp-content/uploads/2026/03/260309-PSA-Group-Financial-Results-FY2025.pdf"
+      },
+      {
+        "title": "PSA Tuas Port 10M TEU Milestone",
+        "url": "https://www.singaporepsa.com/2025/02/24/psa-singapore-celebrates-10-million-teu-milestone-at-tuas-port/"
+      },
+      {
+        "title": "PSA-COSCO Collaboration Expansion",
+        "url": "https://www.singaporepsa.com/2025/09/15/psa-singapore-and-cosco-expand-collaboration-beyond-port-operations-with-regional-distribution-facilities-in-singapore/"
+      },
+      {
+        "title": "PSA Xiamen Port Investment",
+        "url": "https://www.globalpsa.com/psa-expands-network-in-china-with-successful-bid-for-xiamen-port-investment/"
+      },
+      {
+        "title": "PSA Tuas Port Phase 3 Commissioning",
+        "url": "https://ports.marinelink.com/ports/port/new-bedford/news/psa-singapore-commissions-phase-3-of-tuas-port-boosting-capacity-by-20-percent"
+      },
+      {
+        "title": "Straits Times: PSA Revenue 105M TEUs",
+        "url": "https://www.straitstimes.com/business/psa-revenue-rises-7-as-ports-handle-record-105-million-containers"
+      },
+      {
+        "title": "PIL-PSA Green Shipping Service",
+        "url": "https://www.pilship.com/newsroom/pil-and-psa-international-launch-singapores-first-joint-land-sea-green-shipping-service-supported-by-dnv/"
+      },
+      {
+        "title": "PSA Board of Directors",
+        "url": "https://www.globalpsa.com/bod/"
+      }
+    ],
     "data_sources": [
-      "wikidata",
       "wikipedia",
       "official_website",
-      "web_search"
+      "web_search",
+      "news_media"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 75)"
+    "completeness_score": 88,
+    "notes": "Phase3 enriched: updated financials FY2025, expanded departments with PSA Marine/PSA BDP, added Xiamen investment, Tuas Phase 3, COSCO collaboration, green shipping events. Cross-verified across Wikipedia, PSA official sites, Straits Times, Container News, Maritime Link."
   }
 }

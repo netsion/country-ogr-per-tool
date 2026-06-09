@@ -6,7 +6,8 @@
     "name_en": "Supreme Court of Singapore",
     "aliases": [
       "SG Supreme Court",
-      "Mahkamah Agung Singapura"
+      "Mahkamah Agung Singapura",
+      "新加坡最高法院"
     ],
     "org_type": "GOV",
     "org_subtype": "judiciary",
@@ -20,152 +21,237 @@
       "platform": "twitter_x",
       "account_name": "@SingaporeCourts",
       "url": "https://x.com/SingaporeCourts",
-      "source": "web_search"
+      "source": "https://www.judiciary.gov.sg"
     },
     {
       "platform": "facebook",
       "account_name": "SG Courts",
       "url": "https://www.facebook.com/SingaporeCourts/",
-      "source": "web_search"
+      "source": "https://www.judiciary.gov.sg"
     },
     {
       "platform": "linkedin",
       "account_name": "SG Courts",
       "url": "https://sg.linkedin.com/company/sgcourts",
-      "source": "web_search"
+      "source": "https://www.judiciary.gov.sg"
     }
   ],
   "digital_assets": [
     {
-      "name": "eLitigation (Judgments Portal)",
+      "name": "eLitigation（判决文书门户）",
       "url": "https://www.elitigation.sg/gd/Home/Index",
-      "description": "Official portal for Supreme Court judgments and case law",
-      "source": "official_website"
+      "description": "最高法院判决文书和案例法官方检索平台，提供全文判决书浏览和搜索功能",
+      "source": "https://www.judiciary.gov.sg"
     },
     {
-      "name": "Singapore Law Watch",
+      "name": "新加坡法律观察",
       "url": "https://www.singaporelawwatch.sg",
-      "description": "Legal news, judgments, and case summaries aggregator maintained by SAL",
-      "source": "web_search"
+      "description": "由新加坡法学院（SAL）运营的法律新闻、判决和案件摘要聚合平台",
+      "source": "https://www.singaporelawwatch.sg"
+    },
+    {
+      "name": "SG Courts 判决及案件摘要",
+      "url": "https://www.judiciary.gov.sg/judgments/judgments-case-summaries",
+      "description": "新加坡法院官方判决文书和精选案件摘要库，提供AI辅助搜索原型",
+      "source": "https://www.judiciary.gov.sg"
+    },
+    {
+      "name": "Authentic Court Orders",
+      "url": "https://www.courtorders.gov.sg",
+      "description": "法院命令和判决相关文件下载门户，提供遗嘱认证和遗产管理相关文件",
+      "source": "https://www.courtorders.gov.sg"
+    },
+    {
+      "name": "PAIR Search（司法AI搜索）",
+      "url": "https://search.pair.gov.sg/?source=judiciary",
+      "description": "政府AI搜索平台中的司法信息检索入口",
+      "source": "https://search.pair.gov.sg"
     }
   ],
   "key_people": [
     {
       "person_id": "SG-PERSON-000049",
-      "name": "Sundaresh Menon",
-      "title": "Chief Justice",
-      "title_description": "Presiding member of the Supreme Court and President of the Court of Appeal; highest judicial office in Singapore",
-      "description": "Appointed Chief Justice on 6 November 2012. First Chief Justice born in Singapore."
+      "name": "梅达顺 (Sundaresh Menon)",
+      "title": "首席大法官",
+      "title_description": "最高法院审判长兼上诉庭庭长，新加坡司法体系最高职位",
+      "description": "2012年11月6日就任首席大法官。首位在新加坡出生的首席大法官。根据宪法第93条，首席大法官为司法体系首长。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-004-DEPT-001",
-      "name": "Court of Appeal",
-      "head": "Chief Justice Sundaresh Menon",
-      "description": "Highest court in Singapore, hearing civil and criminal appeals from the High Court. Comprises the Chief Justice and Justices of Appeal.",
+      "name": "上诉庭 (Court of Appeal)",
+      "head": "首席大法官梅达顺 (Chief Justice Sundaresh Menon)",
+      "description": "新加坡终审法院，审理来自高等法庭的民事和刑事上诉案件。由首席大法官及上诉庭法官组成，通常以三名法官开庭，重大案件可由五名或以上法官审理。1994年4月8日起取代英国枢密院成为终审法院。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-004-DEPT-002",
-      "name": "Appellate Division of the High Court",
+      "name": "高等法庭上诉庭 (Appellate Division of the High Court)",
       "head": null,
-      "description": "Intermediate appellate court hearing appeals from the General Division of the High Court. Comprises 4 Judges.",
+      "description": "中间上诉法院，审理来自高等法庭一般分庭的上诉案件。由4名法官组成。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-004-DEPT-003",
-      "name": "General Division of the High Court",
+      "name": "高等法庭一般分庭 (General Division of the High Court)",
       "head": null,
-      "description": "Court of first instance for serious criminal cases and high-value civil cases. Also hears appeals from State Courts and Family Justice Courts. Comprises 19 Judges and Judicial Commissioners.",
+      "description": "一审法院，负责审理严重刑事案件（包括死刑案件）和高额民事纠纷（争议金额超过25万新元）。同时受理来自国家法院和家事司法法院的上诉。具有固有的司法审查权，可对行政行为进行违宪审查。截至2026年3月共有19名法官及司法委员。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-004-DEPT-004",
-      "name": "Singapore International Commercial Court (SICC)",
+      "name": "新加坡国际商事法庭 (Singapore International Commercial Court)",
       "head": null,
-      "description": "Specialist court for international commercial disputes, with International Judges and expertise in cross-border commercial law.",
+      "description": "专门处理国际商事争议的特别法庭，配备来自世界各地的国际法官（International Judges），在跨境商事法领域具有显著优势。截至2026年3月共有26名国际法官。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-004-DEPT-005",
+      "name": "最高法院注册处 (Supreme Court Registry)",
+      "head": null,
+      "description": "负责最高法院的行政管理和案件管理，包括接收和保管法院文书、安排庭审、处理破产申请和审前会议等事务。注册官同时被任命为推事法官，可进行刑事案件的初步调查。由司法行政首席执行官（Chief Executive of Judiciary Administration and Operations）统领。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
       "date": "2026-03-09",
-      "title": "Appointment of two new High Court Judges",
-      "description": "PMO announced appointment of two new Judges of the High Court, bringing total Supreme Court judicial strength to 35 Judges plus 26 International Judges.",
-      "impact": "Expanded capacity of the General Division of the High Court",
+      "title": "任命两名新高等法庭法官",
+      "description": "总统根据总理建议任命两名新的高等法庭法官，使最高法院法官总数达到35名（含首席大法官1名、上诉庭法官5名、高等法庭上诉庭法官4名、高等法庭法官19名、司法委员1名及高级法官5名）及国际法官26名。",
+      "impact": "扩大高等法庭审判力量，提升案件审理能力",
       "source": "https://www.pmo.gov.sg/newsroom/appointments-of-judges-of-the-high-court-mar-2026/"
     },
     {
+      "date": "2026-03-06",
+      "title": "上诉庭对Terraform Labs加密货币崩溃案作出里程碑裁决",
+      "description": "新加坡上诉庭就Kupetz等人诉Terraform Labs案（[2026] SGCA(I) 1）作出裁决，大部分维持初审对Terraform Labs及其创始人权道亨的欺诈责任认定，但认定初审法院在损害赔偿计算方法上有误，调整了加密资产损失的赔偿标准。",
+      "impact": "为加密货币和数字资产投资者欺诈索赔确立重要先例，明确波动性加密资产的损害赔偿计算方法",
+      "source": "https://iclg.com/news/23629-singapore-appeal-court-refines-damages-approach-in-terraform-fraud-case"
+    },
+    {
       "date": "2025-09-19",
-      "title": "Appointment of Supreme Court and SICC International Judges",
-      "description": "Appointment of Justice David John Goddard as International Judge of the Court of Appeal and other SICC appointments.",
-      "impact": "Strengthened international judicial expertise in commercial and appellate matters",
+      "title": "任命最高法院及SICC国际法官",
+      "description": "任命新西兰法官David John Goddard为上诉庭国际法官，以及多名SICC国际法官。Goddard法官获委任为上诉庭国际法官，加强国际司法专业力量。",
+      "impact": "增强国际商事和上诉领域的国际司法专业力量",
       "source": "https://www.pmo.gov.sg/newsroom/appointment-of-supreme-court-and-singapore-international-commercial-court-judges-sep-2025/"
     },
     {
       "date": "2025-08-01",
-      "title": "Three Judicial Commissioners appointed as High Court Judges",
-      "description": "Three existing Judicial Commissioners elevated to Judges of the High Court, including Justice Kristy Tan.",
-      "impact": "Increased High Court capacity from 17 to 19 Judges",
-      "source": "web_search"
+      "title": "三名司法委员升任高等法庭法官",
+      "description": "三名现任司法委员升任高等法庭法官，包括Kristy Tan法官。",
+      "impact": "高等法庭法官人数从17名增至19名，增强审判力量",
+      "source": "https://www.straitstimes.com/singapore/three-new-supreme-court-judges-appointed"
+    },
+    {
+      "date": "2025-07-16",
+      "title": "上诉庭法官庄泓翔获续任",
+      "description": "总统根据宪法第95(2)条续任Steven Chong Horng Siong（庄泓翔）为上诉庭法官，任期一年，自2025年9月23日起生效。同时任命三名新的高等法庭法官。",
+      "impact": "确保上诉庭审判力量的连续性和稳定性",
+      "source": "https://www.pmo.gov.sg/newsroom/reappointment-and-appointments-of-supreme-court-judges-jul-2025/"
     },
     {
       "date": "2025-05-01",
-      "title": "Ang Cheng Hock appointed as Judge of the High Court",
-      "description": "Distinguished legal professional with 29 years of experience appointed as High Court Judge.",
-      "impact": "Supreme Court expanded to 36 Judges total",
-      "source": "web_search"
-    },
-    {
-      "date": "2026-03-06",
-      "title": "Court of Appeal landmark ruling on Terraform Labs crypto collapse",
-      "description": "Singapore Court of Appeal largely upheld a landmark ruling against Terraform Labs and its owner regarding the 2022 collapse of TerraUSD and Luna cryptocurrencies, while finding the trial court erred in damages calculation.",
-      "impact": "Significant precedent for cryptocurrency and digital asset disputes",
-      "source": "web_search"
+      "title": "洪清福获任命为高等法庭法官",
+      "description": "资深法律专业人士Ang Cheng Hock（洪清福）获任命为高等法庭法官，此前在总检察署担任副检察长超过两年。",
+      "impact": "最高法院法官总数扩大至36名",
+      "source": "https://www.pmo.gov.sg/newsroom/appointment-to-the-supreme-court"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-002",
-      "org_name": "Government of Singapore",
+      "org_name": "新加坡政府 (Government of Singapore)",
       "org_type": "GOV",
-      "org_description": "Supreme Court is a constitutional organ of the Singapore government, operating independently under Article 93 of the Constitution",
+      "org_description": "最高法院是根据宪法第93条设立的新加坡政府宪政机关，独立行使司法权",
       "relationship_type": "member_of"
     },
     {
-      "org_id": "SG-GOV-005",
-      "org_name": "State Courts of Singapore",
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
       "org_type": "GOV",
-      "org_description": "Subordinate courts hearing less serious criminal cases and lower-value civil claims; appeals go to the High Court",
+      "org_description": "行政分支，与司法体系构成三权分立架构。最高法院法官由总统根据总理建议任命，任命前须咨询首席大法官。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "SG-GOV-007",
+      "org_name": "新加坡国家法院 (State Courts of Singapore)",
+      "org_type": "GOV",
+      "org_description": "下级法院，审理较轻微刑事案件和较低金额民事纠纷，上诉至高等法庭",
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": "SG-GOV-006",
-      "org_name": "Family Justice Courts of Singapore",
+      "org_id": "SG-GOV-008",
+      "org_name": "新加坡家事司法法院 (Family Justice Courts of Singapore)",
       "org_type": "GOV",
-      "org_description": "Specialist courts for family proceedings; appeals go to the High Court",
+      "org_description": "专门处理家事诉讼的法院，上诉至高等法庭",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-019",
+      "org_name": "新加坡总检察署 (Attorney-General's Chambers)",
+      "org_type": "GOV",
+      "org_description": "检察机构，总检察长在最高法院提起公诉和出庭辩护",
+      "relationship_type": "partner"
     }
   ],
-  "core_business": "新加坡最高法院（Supreme Court of Singapore）是新加坡司法体系的最高审级，成立于1970年1月9日，由上诉庭（Court of Appeal）、高等法庭上诉庭（Appellate Division of the High Court）和高等法庭一般分庭（General Division of the High Court）三部分组成。上诉庭是新加坡的终审法院，审理来自高等法庭的民事和刑事上诉案件。高等法庭一般分庭则是一审法院，负责审理严重刑事案件和高额民事纠纷，并受理来自国家法院（State Courts）和家事司法法院（Family Justice Courts）的上诉。\n\n最高法院还设有新加坡国际商事法庭（Singapore International Commercial Court，简称SICC），专门处理国际商事争议，配备来自世界各地的国际法官（International Judges），在国际商事法领域具有显著优势。截至2026年3月，最高法院共有35名法官（包括首席大法官1名、上诉庭法官5名、高等法庭上诉庭法官4名、高等法庭法官19名、司法委员1名及高级法官5名）以及26名国际法官。2026年3月新任命两名高等法庭法官，进一步增强了审判力量。\n\n现任首席大法官为梅达顺（Sundaresh Menon），2012年11月6日就任，是首位在新加坡出生的首席大法官。最高法院法官由总统根据总理建议任命。2026年3月，上诉庭对Terraform Labs加密货币崩溃案作出里程碑式裁决，确立了数字资产争议领域的重要先例。新加坡最高法院积极推动法治建设和司法合作，SICC已成为亚太地区国际商事争议解决的枢纽，首席大法官梅达顺多次在国际论坛上倡导跨境司法合作。",
+  "core_business": "新加坡最高法院（Supreme Court of Singapore）是新加坡司法体系的最高审级，成立于1970年1月9日，由上诉庭（Court of Appeal）、高等法庭上诉庭（Appellate Division of the High Court）和高等法庭一般分庭（General Division of the High Court）三部分组成。根据宪法第93条，新加坡的司法权赋予最高法院及下级法院。首席大法官为司法体系首长。\n\n上诉庭是新加坡的终审法院，审理来自高等法庭的民事和刑事上诉案件。上诉庭由首席大法官（兼任庭长）和上诉庭法官组成，通常以三名法官开庭，重大案件可由五名或以上奇数法官审理。1994年4月8日，新加坡完全废除向英国枢密院司法委员会的上诉，上诉庭正式成为终审法院。同年7月11日，上诉庭发表实践声明，宣布在遵循先例（stare decisis）原则下，有权在认为必要时偏离自身或枢密院的先前裁决，以适应新加坡独立后的政治、社会和经济环境变化。\n\n高等法庭一般分庭是一审法院，具有固有的无限制管辖权。民事案件争议金额超过25万新元须在高等法庭提起，遗嘱认证案件遗产价值超过300万新元亦由高等法庭管辖。刑事方面，高等法庭审理可判处死刑或监禁超过十年的案件。高等法庭还行使司法审查权，可对行政行为和立法进行违宪审查。高等法庭对所有下级法院具有一般监督和覆核权。\n\n最高法院还设有新加坡国际商事法庭（SICC），专门处理国际商事争议，配备来自世界各地的26名国际法官，在国际商事法领域具有显著优势。2026年3月，上诉庭对Terraform Labs加密货币崩溃案作出里程碑裁决（[2026] SGCA(I) 1），明确了波动性加密资产投资者欺诈索赔的损害赔偿计算方法，为数字资产争议领域确立了重要先例。\n\n截至2026年3月，最高法院共有35名法官（包括首席大法官1名、上诉庭法官5名、高等法庭上诉庭法官4名、高等法庭法官19名、司法委员1名及高级法官5名）以及26名国际法官。现任首席大法官为梅达顺（Sundaresh Menon），2012年11月6日就任，是首位在新加坡出生的首席大法官。最高法院法官由总统根据总理建议任命，任命前须咨询首席大法官意见。现任最高法院大楼位于最高法院巷1号，由英国建筑师诺曼·福斯特（Norman Foster）设计，2005年竣工启用，大楼采用大量玻璃和开放式布局象征法律的透明与公正。",
   "industries": [
     "judicial",
     "legal_services",
     "public_administration"
   ],
-  "apec_stance": "Singapore actively promotes the rule of law and judicial cooperation within APEC. The SICC serves as a hub for international commercial dispute resolution in the Asia-Pacific region, and Singapore Courts engage in judicial exchange programs with other APEC member economies. Chief Justice Menon has spoken at international forums on cross-border legal cooperation and the role of courts in supporting international trade.",
+  "apec_stance": "新加坡最高法院积极推动法治建设和司法合作，SICC已成为亚太地区国际商事争议解决的枢纽。首席大法官梅达顺多次在国际论坛上倡导跨境司法合作和法治建设。新加坡法院与多个APEC成员经济体的司法机关建立了交流合作机制。SICC的国际法官来自新西兰、英国、澳大利亚、加拿大等多个APEC经济体，体现了区域内司法专业知识的融合。2026年3月Terraform Labs案的里程碑裁决进一步巩固了新加坡作为亚太地区数字资产和金融科技争议解决中心的地位，为APEC框架内的数字经济治理提供了司法实践参考。",
   "collection_meta": {
     "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikidata",
       "web_search",
-      "official_website"
+      "official_website",
+      "news_media"
     ],
-    "completeness_score": 100,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 100)"
+    "completeness_score": 79,
+    "quotes": [
+      {
+        "title": "Supreme Court of Singapore - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_Singapore"
+      },
+      {
+        "title": "新加坡最高法院 - Wikipedia (中文)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡最高法院"
+      },
+      {
+        "title": "SG Courts Official Website",
+        "url": "https://www.judiciary.gov.sg"
+      },
+      {
+        "title": "Appointments of Judges of the High Court (Mar 2026)",
+        "url": "https://www.pmo.gov.sg/newsroom/appointments-of-judges-of-the-high-court-mar-2026/"
+      },
+      {
+        "title": "Appointment of Supreme Court and SICC Judges (Sep 2025)",
+        "url": "https://www.pmo.gov.sg/newsroom/appointment-of-supreme-court-and-singapore-international-commercial-court-judges-sep-2025/"
+      },
+      {
+        "title": "Reappointment and Appointments of Supreme Court Judges (Jul 2025)",
+        "url": "https://www.pmo.gov.sg/newsroom/reappointment-and-appointments-of-supreme-court-judges-jul-2025/"
+      },
+      {
+        "title": "Singapore appeal court refines damages approach in Terraform fraud case",
+        "url": "https://iclg.com/news/23629-singapore-appeal-court-refines-damages-approach-in-terraform-fraud-case"
+      },
+      {
+        "title": "Three new Supreme Court judges appointed - Straits Times",
+        "url": "https://www.straitstimes.com/singapore/three-new-supreme-court-judges-appointed"
+      },
+      {
+        "title": "eLitigation - Supreme Court Judgments Portal",
+        "url": "https://www.elitigation.sg/gd/Home/Index"
+      }
+    ],
+    "notes": "Phase 3 enrichment: expanded departments with Registry, enriched core_business with jurisdictional details and constitutional basis, added Terraform Labs ruling event, added 5th related entity (AGC), expanded digital_assets, updated language conventions to zh(en) format"
   },
   "profile": null
 }

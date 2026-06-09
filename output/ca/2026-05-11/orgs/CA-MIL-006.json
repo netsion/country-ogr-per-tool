@@ -1,0 +1,240 @@
+{
+  "org_id": "CA-MIL-006",
+  "basic_info": {
+    "name_original": "Communications Security Establishment Canada",
+    "name_zh": "加拿大通信安全局",
+    "name_en": "Communications Security Establishment Canada",
+    "aliases": [
+      "Communications Security Establishment",
+      "CSE",
+      "CSEC",
+      "Centre de la sécurité des télécommunications",
+      "CST"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "intelligence_agency",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "founded_date": "1946-04-13",
+    "website": "https://www.cse-cst.gc.ca/en"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "cse_cst",
+      "url": "https://twitter.com/cse_cst",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "CSE-CST",
+      "url": "https://youtube.com/channel/UCJ4AXt7ecSBp2QSsxm9UBdg",
+      "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "communications-security-establishment",
+      "url": "https://www.linkedin.com/company/cse-cst/",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Canadian Centre for Cyber Security",
+      "url": "https://www.cyber.gc.ca/en",
+      "description": "加拿大网络安全中心官网,提供国家网络安全威胁评估、安全指南和事件响应服务",
+      "source": "official_website"
+    },
+    {
+      "name": "National Cyber Threat Assessment 2025-2026",
+      "url": "https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessment-2025-2026",
+      "description": "CSE发布的国家网络威胁评估报告,分析加拿大面临的网络威胁趋势和关键风险",
+      "source": "official_website"
+    },
+    {
+      "name": "CSE Annual Report 2024-2025",
+      "url": "https://www.cse-cst.gc.ca/en/accountability/transparency/reports/communications-security-establishment-canada-annual-report-2024-2025",
+      "description": "CSE年度报告,概述信号情报、网络安全和主动网络行动等核心活动",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000256",
+      "name": "卡罗琳·泽维尔(Caroline Xavier)",
+      "title": "局长(Chief of CSE)",
+      "title_description": "加拿大通信安全局最高行政长官,负责领导加拿大的密码情报、网络安全和网络作战活动,向国防部长汇报",
+      "description": "2022年8月31日就任CSE局长。此前曾担任加拿大边境服务局总裁和加拿大卫生部高级官员,在公共安全和情报领域拥有丰富经验"
+    },
+    {
+      "person_id": "CA-PERSON-000140",
+      "name": "大卫·麦坚迪(David McGuinty)",
+      "title": "国防部长(Minister of National Defence)",
+      "title_description": "CSE的主管部长,负责通过部长指令、授权和命令指导和授权CSE的活动",
+      "description": "加拿大联邦国会议员,2025年由总理马克·卡尼任命为国防部长,对CSE具有政治监督权"
+    },
+    {
+      "person_id": "CA-PERSON-000257",
+      "name": "拉吉夫·古普塔(Rajiv Gupta)",
+      "title": "加拿大网络安全中心负责人(Head of Canadian Centre for Cyber Security)",
+      "title_description": "领导CSE下属的网络安全中心,负责监控威胁、保护国家关键基础设施免受网络攻击",
+      "description": "网络安全专家,负责协调国家级网络安全事件响应和威胁情报发布"
+    },
+    {
+      "person_id": "CA-PERSON-000258",
+      "name": "梅根·杜尔博士(Dr. Megan Dewar)",
+      "title": "塔特数学与计算研究所负责人(Head of Tutte Institute for Mathematics and Computing)",
+      "title_description": "领导CSE下属的研究所,开展密码学和知识发现领域的研究,支持加拿大密码学项目和五眼联盟伙伴",
+      "description": "数学家,负责管理CSE的尖端数学和计算研究项目"
+    }
+  ],
+  "departments": [
+    {
+      "name": "加拿大网络安全中心(Canadian Centre for Cyber Security, CCCS)",
+      "dept_id": "CA-MIL-006-DEPT-001",
+      "head": "拉吉夫·古普塔(Rajiv Gupta)",
+      "description": "加拿大政府网络安全事务的最高权威机构,负责监控网络威胁、保护国家关键基础设施和协调全国网络安全事件响应。2018年10月成立,整合了多个联邦机构的网络安全运营单位",
+      "parent_dept_id": null
+    },
+    {
+      "name": "塔特数学与计算研究所(Tutte Institute for Mathematics and Computing, TIMC)",
+      "dept_id": "CA-MIL-006-DEPT-002",
+      "head": "梅根·杜尔博士(Dr. Megan Dewar)",
+      "description": "CSE下属研究机构,2011年正式命名,以著名密码学家威廉·塔特命名,负责开展密码学和知识发现的机密与非机密研究,开发了UMAP等开源算法",
+      "parent_dept_id": null
+    },
+    {
+      "name": "漏洞研究中心(Vulnerability Research Centre, VRC)",
+      "dept_id": "CA-MIL-006-DEPT-003",
+      "head": null,
+      "description": "CSE研究局下属部门,专注于先进漏洞研究,包括源代码审计、软件逆向工程和动态分析,与多伦多大学、安大略理工大学和康考迪亚大学等高校合作",
+      "parent_dept_id": null
+    },
+    {
+      "name": "信号情报局(Signals Intelligence Directorate)",
+      "dept_id": "CA-MIL-006-DEPT-004",
+      "head": null,
+      "description": "负责收集和分析外国信号情报,通过CFS Leitrim等信号情报站以及与五眼联盟伙伴的合作,为政府决策者提供关键情报支持",
+      "parent_dept_id": null
+    },
+    {
+      "name": "网络作战局(Cyber Operations Directorate)",
+      "dept_id": "CA-MIL-006-DEPT-005",
+      "head": null,
+      "description": "负责执行防御性和主动性网络作战行动,授权保护加拿大政府系统和关键基础设施,并可对威胁加拿大的网络对手实施先发制人行动",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-17",
+      "title": "CSE网络安全中心启动关键基础设施防护新计划",
+      "description": "CSE网络安全中心宣布启动新举措,帮助加拿大关键基础设施做好应对严重网络威胁的准备,加强对能源、通信等关键领域的防护",
+      "impact": "提升加拿大关键基础设施的抗网络攻击能力,应对日益复杂的国家级网络威胁",
+      "source": "https://www.canada.ca/en/communications-security/news/2026/04/cyber-centre-launches-new-initiative-to-help-canadas-critical-infrastructure-prepare-for-severe-cyber-threats.html"
+    },
+    {
+      "date": "2025-03-01",
+      "title": "CSE发布2025年加拿大民主进程网络安全威胁报告更新",
+      "description": "CSE发布关于加拿大民主进程网络威胁的最新报告,强调外国对手日益利用人工智能技术针对包括加拿大在内的全球选举活动进行干扰",
+      "impact": "警示AI驱动的选举干预威胁升级,推动加强选举基础设施的网络安全防护",
+      "source": "https://www.canada.ca/en/communications-security/news/2025/03/communications-security-establishment-canada-releases-2025-update-to-report-on-cyber-threats-to-canadas-democratic-process.html"
+    },
+    {
+      "date": "2024-10-30",
+      "title": "CSE发布国家网络威胁评估2025-2026",
+      "description": "CSE网络安全中心发布《国家网络威胁评估2025-2026》,分析日益复杂和不可预测的国家和非国家网络威胁行为体对加拿大构成的威胁",
+      "impact": "为加拿大政府和企业提供全面的网络安全风险画像,指导全国网络防御战略",
+      "source": "https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessment-2025-2026"
+    },
+    {
+      "date": "2025-10-29",
+      "title": "CSE发布2024-2025年度报告",
+      "description": "CSE年度报告显示,2024-25年其网络安全中心的自动化防御系统共抵御了2.3万亿次恶意行为,平均每天约63亿次,并成功阻止了一起针对加拿大机构的勒索软件攻击",
+      "impact": "展示CSE在网络安全防御方面的规模和能力,凸显网络威胁的严重性和持续增长趋势",
+      "source": "https://www.cse-cst.gc.ca/en/accountability/transparency/reports/communications-security-establishment-canada-annual-report-2024-2025"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "CSE参与国际行动打击中国关联隐蔽基础设施网络",
+      "description": "CSE与美国CISA等五眼联盟伙伴联合发布安全公告,揭示并打击与中方关联的大规模受损基础设施网络,该网络被用于针对全球目标的网络间谍活动",
+      "impact": "展示五眼联盟在网络空间的协同防御能力,对国家级网络间谍行为形成威慑",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-GOV-008",
+      "org_name": "国防部(Department of National Defence)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦国防部,CSE是其下属的独立机构,国防部长为CSE的主管部长",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CA-MIL-001",
+      "org_name": "加拿大武装部队(Canadian Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "加拿大的统一军事力量,CSE为其提供信号情报和技术支援",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-GOV-015",
+      "org_name": "皇家加拿大骑警(Royal Canadian Mounted Police)",
+      "org_type": "GOV",
+      "org_description": "加拿大联邦警察,CSE依法为其提供技术和行动协助",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-GOV-009",
+      "org_name": "公共安全部(Public Safety Canada)",
+      "org_type": "GOV",
+      "org_description": "加拿大公共安全部,在网络安全事务上与CSE密切合作",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-MIL-005",
+      "org_name": "加拿大特种作战部队司令部(CANSOFCOM)",
+      "org_type": "MIL",
+      "org_description": "CSE为CANSOFCOM的特种作战提供情报支持和网络作战配合",
+      "relationship_type": "strategic_alliance"
+    }
+  ],
+  "core_business": "加拿大通信安全局(CSE)是加拿大的国家密码情报与安全机构,成立于1946年(前身为二战期间的国家研究委员会检查单位),总部位于渥太华爱德华·德雷克大楼,拥有约3,841名员工(2024-25年),年度预算约10.417亿加元。CSE是国防部下属的独立机构,局长直接向国防部长汇报。根据2019年《通信安全局法》,CSE的法定职责包括四大核心领域:第一,外国信号情报(SIGINT),通过截获和分析外国电子通信为政府决策提供关键情报,与五眼联盟伙伴(美国NSA、英国GCHQ、澳大利亚ASD、新西兰GCSB)深度合作共享情报;第二,网络安全与信息保障,通过下属的加拿大网络安全中心(CCCS)保护联邦政府系统和关键基础设施,2024-25年共抵御2.3万亿次恶意行为;第三,防御性和主动性网络作战,授权保卫加拿大系统免受外国网络攻击,并可对威胁加拿大的网络对手实施先发制人的行动;第四,为联邦执法和安全机构提供技术和行动协助。CSE还运营塔特数学与计算研究所(TIMC)和漏洞研究中心(VRC)等前沿研究机构,开发了UMAP等开源算法。CSE的活动受到国家安全与情报审查局(NSIRA)、情报专员和议会国家安全与情报委员会(NSICOP)的多重独立监督。",
+  "industries": [
+    "defence_military",
+    "intelligence_security",
+    "cybersecurity",
+    "information_technology"
+  ],
+  "apec_stance": "CSE作为加拿大的密码情报和网络安全机构,在亚太地区安全事务中扮演重要角色。在印太战略框架下,CSE高度关注来自亚太地区的国家级网络威胁行为体,包括国家支持的网络间谍、网络犯罪集团和黑客活动分子。CSE通过五眼联盟框架与美国、英国、澳大利亚和新西兰的信号情报机构密切合作,共享亚太地区的网络威胁情报。CSE发布的《国家网络威胁评估2025-2026》明确指出,来自包括中国在内的APEC经济体的国家级网络行为体对加拿大构成了最严重的网络间谍和攻击威胁。CSE积极参与国际网络安全合作,协助APEC经济体加强网络防御能力建设,同时通过加拿大网络安全中心发布安全指南,帮助在亚太地区有业务的加拿大企业防范网络风险。在网络空间行为规范方面,CSE支持建立基于规则的国际网络空间秩序,与APEC经济体在网络安全能力建设和信息共享方面开展合作。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/CSEC_logo_canada.svg/330px-CSEC_logo_canada.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "wikidata",
+      "web_search"
+    ],
+    "completeness_score": 93,
+    "notes": "Enriched with detailed organizational structure including CCCS, TIMC and VRC; key people; cyber threat assessments and recent operations",
+    "quotes": [
+      {
+        "title": "National Cyber Threat Assessment 2025-2026",
+        "url": "https://www.cyber.gc.ca/en/guidance/national-cyber-threat-assessment-2025-2026"
+      },
+      {
+        "title": "Cyber Centre launches new initiative to help Canada's critical infrastructure prepare for severe cyber threats",
+        "url": "https://www.canada.ca/en/communications-security/news/2026/04/cyber-centre-launches-new-initiative-to-help-canadas-critical-infrastructure-prepare-for-severe-cyber-threats.html"
+      },
+      {
+        "title": "CSE Annual Report 2024-2025",
+        "url": "https://www.cse-cst.gc.ca/en/accountability/transparency/reports/communications-security-establishment-canada-annual-report-2024-2025"
+      }
+    ]
+  }
+}

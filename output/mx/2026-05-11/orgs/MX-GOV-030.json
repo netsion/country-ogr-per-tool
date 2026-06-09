@@ -1,0 +1,241 @@
+{
+  "org_id": "MX-GOV-030",
+  "basic_info": {
+    "name_original": "Instituto Nacional de Estadística y Geografía",
+    "name_zh": "国家统计与地理研究所",
+    "name_en": "National Institute of Statistics and Geography",
+    "aliases": [
+      "INEGI",
+      "Instituto Nacional de Estadística, Geografía e Informática"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "independent_organ",
+    "country_iso3": "MEX",
+    "hq_country_iso3": "MEX",
+    "founded_date": "1983-01-25",
+    "website": "https://www.inegi.org.mx"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "INEGI_INFORMA",
+      "url": "https://twitter.com/INEGI_INFORMA",
+      "source": "wikipedia"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "INEGIInforma",
+      "url": "https://facebook.com/INEGIInforma",
+      "source": "wikipedia"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "INEGI",
+      "url": "https://www.youtube.com/user/inegi",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "INEGI官方数据门户",
+      "url": "https://www.inegi.org.mx",
+      "description": "提供全国及各州统计数据、地理信息和经济指标的在线平台",
+      "source": "official_website"
+    },
+    {
+      "name": "DENUE全国经济单位名录",
+      "url": "https://www.inegi.org.mx/app/mapa/denue/default.aspx",
+      "description": "全国经济单位统计名录，包含企业位置、规模和活动类型等信息",
+      "source": "official_website"
+    },
+    {
+      "name": "墨西哥数字地图",
+      "url": "http://gaia.inegi.org.mx/mdm6/",
+      "description": "交互式全国数字地图系统，提供地理空间数据可视化",
+      "source": "official_website"
+    },
+    {
+      "name": "SNIEG国家统计地理信息系统",
+      "url": "https://www.snieg.mx",
+      "description": "国家统计与地理信息系统门户，协调全国各机构统计数据生产",
+      "source": "official_website"
+    },
+    {
+      "name": "INEGI开放数据平台",
+      "url": "https://datos.gob.mx/busca/organization/inegi",
+      "description": "INEGI开放数据集，供公众下载和使用的统计数据资源",
+      "source": "official_website"
+    },
+    {
+      "name": "Cuéntame教育平台",
+      "url": "https://www.cuentame.inegi.org.mx",
+      "description": "面向学生和教师的教育统计信息平台",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MX-PERSON-000179",
+      "name": "格拉谢拉·马尔克斯·科林 (Graciela Márquez Colín)",
+      "title": "主席 (Presidenta)",
+      "title_description": "INEGI最高负责人，主持管理委员会",
+      "description": "2022年1月1日起担任INEGI主席，由总统提名、参议院任命，负责领导国家统计与地理信息的生产与协调工作"
+    },
+    {
+      "person_id": "MX-PERSON-000046",
+      "name": "帕洛马·梅罗迪奥·戈麦斯 (Paloma Merodio Gómez)",
+      "title": "副主席 (Vicepresidenta)",
+      "title_description": "负责地理、环境与国土城市规划信息子系统",
+      "description": "2017年4月起担任INEGI副主席，主管地理信息、环境与国土空间规划领域"
+    },
+    {
+      "person_id": "MX-PERSON-000047",
+      "name": "阿德里安·弗朗科·巴里奥斯 (Adrián Franco Barrios)",
+      "title": "副主席 (Vicepresidente)",
+      "title_description": "负责政府、公共安全与司法信息子系统",
+      "description": "2019年1月起担任INEGI副主席，主管政府治理、公共安全与司法统计"
+    }
+  ],
+  "departments": [
+    {
+      "name": "经济信息子系统 (Subsistema Nacional de Información Económica)",
+      "dept_id": "MX-GOV-030-DEPT-001",
+      "head": null,
+      "description": "负责GDP核算、消费者物价指数、生产者物价指数、就业统计、贸易数据等经济指标的采集与发布",
+      "parent_dept_id": null
+    },
+    {
+      "name": "地理与环境信息子系统 (Subsistema Nacional de Información Geográfica y del Medio Ambiente)",
+      "dept_id": "MX-GOV-030-DEPT-002",
+      "head": "帕洛马·梅罗迪奥·戈麦斯 (Paloma Merodio Gómez)",
+      "description": "负责地理测绘、地图制作、卫星影像、环境监测和国土空间规划数据",
+      "parent_dept_id": null
+    },
+    {
+      "name": "人口与社会信息子系统 (Subsistema Nacional de Información Demográfica y Social)",
+      "dept_id": "MX-GOV-030-DEPT-003",
+      "head": null,
+      "description": "负责人口普查、住户调查、社会发展指标和人口统计数据的采集与分析",
+      "parent_dept_id": null
+    },
+    {
+      "name": "政府与司法信息子系统 (Subsistema Nacional de Información de Gobierno, Seguridad Pública e Impartición de Justicia)",
+      "dept_id": "MX-GOV-030-DEPT-004",
+      "head": "阿德里安·弗朗科·巴里奥斯 (Adrián Franco Barrios)",
+      "description": "负责公共安全统计、司法数据和政府治理信息的采集与发布",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-07",
+      "title": "INEGI报告墨西哥投资连续17个月下滑",
+      "description": "INEGI数据显示墨西哥投资持续收缩，其中私人投资同比下降5.4%，公共投资增长3.5%",
+      "impact": "反映墨西哥经济面临投资信心不足的挑战，引发市场对经济增速放缓的担忧",
+      "source": "https://www.informador.mx/economia/inegi-la-inversion-en-mexico-suma-17-meses-de-caidas-20260507-0067.html"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "INEGI报告2026年一季度GDP仅增长0.2%",
+      "description": "INEGI发布数据称墨西哥一季度GDP环比仅增长0.2%，服务业为主要增长动力",
+      "impact": "显示墨西哥经济增长动能减弱，低于市场预期",
+      "source": "https://www.jornada.com.mx/noticia/2026/04/30/economia/pierde-fuerza-la-economia-crece-a-tasa-anual-y-se-contrae-respecto-al-cierre-de-2025"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "INEGI报告贫困线上涨超过通胀率",
+      "description": "INEGI数据显示2026年4月墨西哥食品价格上涨推动贫困线上调，超过同期通胀率",
+      "impact": "加剧低收入家庭生活压力，可能影响政府反贫困政策效果评估",
+      "source": "https://enfoquenoticias.com.mx/finanzas/inegi-lineas-pobreza-mexico-aumento-alimentos-inflacion-abril-2026/"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "INEGI调查显示安全感上升8个百分点",
+      "description": "INEGI公布2026年一季度公共安全感知调查，不安全感比例下降8个百分点",
+      "impact": "反映政府安全策略成效，为公共政策评估提供重要数据支撑",
+      "source": "https://www.infobae.com/mexico/2026/04/24/percepcion-de-inseguridad-en-mexico-bajo-8-puntos-porcentuales-harfuch-destaca-estrategia-sostenida/"
+    },
+    {
+      "date": "2026-02-23",
+      "title": "INEGI发布2025年全年GDP增长0.8%",
+      "description": "INEGI确认2025年墨西哥GDP年增长0.8%，四季度GDP名义值达36.31万亿比索",
+      "impact": "为经济政策制定和市场分析提供权威基准数据",
+      "source": "https://www.eleconomista.com.mx/economia/pib-mexico-registro-avance-0-8-anual-2025-inegi-20260223-801184.html"
+    },
+    {
+      "date": "2026-01-08",
+      "title": "INEGI报告2025年通胀率为3.69%",
+      "description": "INEGI公布2025年全年通胀率为3.69%，为2020年以来最低水平",
+      "impact": "确认墨西哥通胀持续回落趋势，为央行利率决策提供参考",
+      "source": "https://www.jornada.com.mx/noticia/2026/01/08/economia/la-inflacion-en-mexico-para-todo-2025-llego-a-369por-ciento-anual"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MX-GOV-009",
+      "org_name": "财政与公共信贷部 (Secretaría de Hacienda y Crédito Público)",
+      "org_type": "GOV",
+      "org_description": "INEGI数据的主要使用者之一，用于财政政策和宏观经济管理",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "MX-GOV-027",
+      "org_name": "墨西哥银行 (Banco de México)",
+      "org_type": "GOV",
+      "org_description": "INEGI为墨西哥银行制定货币政策提供通胀和就业等关键数据",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "MX-GOV-016",
+      "org_name": "经济部 (Secretaría de Economía)",
+      "org_type": "GOV",
+      "org_description": "INEGI前身隶属于经济部，目前在经济统计方面仍有协作",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "INEGI（国家统计与地理研究所）是墨西哥五个宪法自治机构之一，负责规范和协调国家统计与地理信息系统（SNIEG）。该机构于1983年由总统米格尔·德拉马德里创立，最初名为国家统计、地理与信息学研究所，2008年获得宪法自治地位并简化名称。INEGI总部位于阿瓜斯卡连特斯州，是墨西哥最重要的数据生产机构，其核心职能包括：每十年进行一次全国人口与住房普查；每五年进行一次经济普查和农业普查；编制国民经济核算体系（GDP、投入产出表等）；自2011年起负责编制消费者物价指数（INPC）和生产者物价指数（INPP）；制作国家官方地图和地理空间数据；确定更新计量单位（UMA）价值——这是计算罚款和各类行政费用的关键基准。INEGI的数据涵盖人口、经济、地理、环境、公共安全等各个领域，为政府决策、学术研究和私营部门提供基础数据支撑。2024年预算约为142.5亿比索，由主席格拉谢拉·马尔克斯·科林和四名副主席组成的管理委员会领导。",
+  "industries": [
+    "public_administration",
+    "research_development",
+    "regulatory"
+  ],
+  "apec_stance": "INEGI作为墨西哥国家级统计机构，在APEC经济体统计合作中扮演重要角色。其经济数据（GDP、通胀率、贸易统计等）是墨西哥参与APEC经济政策讨论和区域经济分析的基础。INEGI参与国际统计标准制定和数据可比性提升工作，与亚太地区其他国家统计局保持合作交流。其开放数据政策和数字化转型实践为APEC数字经济和数据治理议题提供参考经验。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/INEGI.png/330px-INEGI.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia_en",
+      "wikipedia_es",
+      "official_website",
+      "news_search"
+    ],
+    "completeness_score": 87,
+    "notes": "Enriched profile with comprehensive departments, digital assets, key people and recent events",
+    "quotes": [
+      {
+        "title": "INEGI - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/National_Institute_of_Statistics_and_Geography"
+      },
+      {
+        "title": "INEGI - Wikipedia (Spanish)",
+        "url": "https://es.wikipedia.org/wiki/Instituto_Nacional_de_Estad%C3%ADstica_y_Geograf%C3%ADa"
+      },
+      {
+        "title": "INEGI PIB 2025",
+        "url": "https://www.eleconomista.com.mx/economia/pib-mexico-registro-avance-0-8-anual-2025-inegi-20260223-801184.html"
+      },
+      {
+        "title": "INEGI inflación 2025",
+        "url": "https://www.jornada.com.mx/noticia/2026/01/08/economia/la-inflacion-en-mexico-para-todo-2025-llego-a-369por-ciento-anual"
+      },
+      {
+        "title": "INEGI inversión 2026",
+        "url": "https://www.informador.mx/economia/inegi-la-inversion-en-mexico-suma-17-meses-de-caidas-20260507-0067.html"
+      }
+    ]
+  }
+}

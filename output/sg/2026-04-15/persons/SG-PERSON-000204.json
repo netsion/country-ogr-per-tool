@@ -1,7 +1,7 @@
 {
   "person_id": "SG-PERSON-000204",
   "wikidata_qid": null,
-  "name": "Teo Swee Lian / 张秀丽",
+  "name": "Teo Swee Lian",
   "name_zh": "张秀丽",
   "name_en": "Teo Swee Lian",
   "aliases": [
@@ -12,106 +12,261 @@
   "gender": "female",
   "birth_date": null,
   "birth_place": null,
+  "birth_place_zh": null,
+  "ethnicity": "chinese",
   "contacts": [],
   "current_positions": [
-    "新加坡邮政（SingPost）董事会主席（Chairman）",
-    "凯德综合商业信托（CICT）主席",
-    "汇丰银行（HSBC）独立非执行董事",
-    "友邦保险（AIA）董事",
-    "新加坡金融管理局（MAS）企业治理委员会成员"
+    {
+      "org_id": "SG-SOE-006",
+      "title_zh": "董事会主席（非独立非执行董事）",
+      "title_en": "Chairman, Non-Independent Non-Executive Director",
+      "start_date": "2025-05-21",
+      "is_current": true
+    },
+    {
+      "org_id": "SG-SOE-008",
+      "title_zh": "凯德综合商业信托管理有限公司董事会主席（独立非执行董事）",
+      "title_en": "Chairman, Non-Executive Independent Director, CapitaLand Integrated Commercial Trust Management Limited",
+      "start_date": "2019-04-12",
+      "is_current": true
+    },
+    {
+      "org_id": null,
+      "title_zh": "汇丰控股有限公司独立非执行董事",
+      "title_en": "Independent Non-Executive Director, HSBC Holdings PLC",
+      "start_date": "2023-10-01",
+      "is_current": true
+    },
+    {
+      "org_id": null,
+      "title_zh": "克里福德资本控股有限公司董事",
+      "title_en": "Director, Clifford Capital Holdings Pte. Ltd.",
+      "start_date": null,
+      "is_current": true
+    },
+    {
+      "org_id": null,
+      "title_zh": "嘉西安爱基金（新加坡明爱社区理事会）受托人委员会成员",
+      "title_en": "Member of the Board of Trustees, CSCC Agape Fund, Caritas Singapore Community Council Limited",
+      "start_date": null,
+      "is_current": true
+    }
   ],
   "education": [
     {
-      "institution": "英国牛津大学（University of Oxford）",
-      "degree": "理学硕士",
-      "field": "应用统计学"
+      "institution_zh": "帝国理工学院（伦敦大学）",
+      "institution_en": "Imperial College of Science and Technology, University of London",
+      "degree_level": "bachelor",
+      "field_zh": "数学",
+      "field_en": "Mathematics",
+      "end_year": 1981
+    },
+    {
+      "institution_zh": "牛津大学",
+      "institution_en": "University of Oxford",
+      "degree_level": "master",
+      "field_zh": "应用统计学",
+      "field_en": "Applied Statistics",
+      "end_year": 1982
     }
   ],
   "work_experience": [
     {
-      "organization": "新加坡金融管理局（MAS）",
-      "position": "高级官员（任职27年）"
+      "org_id": "SG-GOV-017",
+      "org_name_zh": "新加坡金融管理局",
+      "org_name_en": "Monetary Authority of Singapore (MAS)",
+      "title_zh": "外汇储备管理、金融业发展、战略规划及金融监管等多个部门工作",
+      "title_en": "Various roles in foreign reserves management, financial sector development, strategic planning and financial supervision",
+      "start_date": "1988",
+      "end_date": "2005-03"
     },
     {
-      "organization": "新加坡金融管理局（MAS）",
-      "position": "特别顾问，专注MAS在国际监管框架中的角色"
+      "org_id": "SG-GOV-017",
+      "org_name_zh": "新加坡金融管理局",
+      "org_name_en": "Monetary Authority of Singapore (MAS)",
+      "title_zh": "副董事总经理（审慎监管）",
+      "title_en": "Deputy Managing Director, Prudential Supervision",
+      "start_date": "2005-03",
+      "end_date": "2010-03"
     },
     {
-      "organization": "新加坡电信（Singtel）",
-      "position": "董事"
+      "org_id": "SG-GOV-017",
+      "org_name_zh": "新加坡金融管理局",
+      "org_name_en": "Monetary Authority of Singapore (MAS)",
+      "title_zh": "副董事总经理（金融监管）",
+      "title_en": "Deputy Managing Director, Financial Supervision",
+      "start_date": "2010-04",
+      "end_date": "2013-08"
     },
     {
-      "organization": "凯德综合商业信托（CICT）",
-      "position": "非执行主席"
+      "org_id": "SG-GOV-017",
+      "org_name_zh": "新加坡金融管理局",
+      "org_name_en": "Monetary Authority of Singapore (MAS)",
+      "title_zh": "特别顾问（董事总经理办公室），专注MAS在国际监管框架中的角色",
+      "title_en": "Special Advisor, Managing Director's Office, focused on MAS's role in the international regulatory framework",
+      "start_date": "2013-09",
+      "end_date": "2015-06"
     },
     {
-      "organization": "汇丰银行（HSBC）",
-      "position": "独立非执行董事（2023年10月起）"
+      "org_id": "SG-SOE-008",
+      "org_name_zh": "凯德综合商业信托管理有限公司",
+      "org_name_en": "CapitaLand Integrated Commercial Trust Management Limited",
+      "title_zh": "董事会主席、独立非执行董事",
+      "title_en": "Chairman, Non-Executive Independent Director",
+      "start_date": "2019-04-12",
+      "end_date": null
     },
     {
-      "organization": "友邦保险（AIA Group）",
-      "position": "董事"
+      "org_id": null,
+      "org_name_zh": "友邦保险集团有限公司",
+      "org_name_en": "AIA Group Limited",
+      "title_zh": "非执行董事",
+      "title_en": "Non-Executive Director",
+      "start_date": null,
+      "end_date": null
     },
     {
-      "organization": "新加坡邮政（SingPost）",
-      "position": "非独立非执行董事兼主席（2025年5月起）"
+      "org_id": "SG-SOE-004",
+      "org_name_zh": "新加坡电信有限公司",
+      "org_name_en": "Singapore Telecommunications Limited",
+      "title_zh": "非执行董事",
+      "title_en": "Non-Executive Director",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "org_id": null,
+      "org_name_zh": "迪拜金融服务管理局",
+      "org_name_en": "Dubai Financial Services Authority",
+      "title_zh": "非执行董事",
+      "title_en": "Non-Executive Director",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "org_id": null,
+      "org_name_zh": "克里福德资本有限公司",
+      "org_name_en": "Clifford Capital Private Limited",
+      "title_zh": "非执行董事",
+      "title_en": "Non-Executive Director",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "org_id": null,
+      "org_name_zh": "汇丰控股有限公司",
+      "org_name_en": "HSBC Holdings PLC",
+      "title_zh": "独立非执行董事",
+      "title_en": "Independent Non-Executive Director",
+      "start_date": "2023-10-01",
+      "end_date": null
+    },
+    {
+      "org_id": "SG-SOE-006",
+      "org_name_zh": "新加坡邮政有限公司",
+      "org_name_en": "Singapore Post Limited",
+      "title_zh": "董事会主席、非独立非执行董事",
+      "title_en": "Chairman, Non-Independent Non-Executive Director",
+      "start_date": "2025-05-21",
+      "end_date": null
+    }
+  ],
+  "major_achievements": [
+    {
+      "title_zh": "获公共行政金质奖章（金条）",
+      "title_en": "The Public Administration Medal (Gold) (Bar)",
+      "year": 2012,
+      "description_zh": "因在新加坡金融管理局的杰出贡献，获颁公共行政金质奖章（金条）"
+    },
+    {
+      "title_zh": "获公共行政金质奖章",
+      "title_en": "The Public Administration Medal (Gold)",
+      "year": 2006,
+      "description_zh": "因在新加坡金融管理局的卓越服务，获颁公共行政金质奖章"
+    },
+    {
+      "title_zh": "获公共行政银质奖章",
+      "title_en": "The Public Administration Medal (Silver)",
+      "year": 1999,
+      "description_zh": "因在新加坡金融管理局的贡献，获颁公共行政银质奖章"
+    },
+    {
+      "title_zh": "被任命为新加坡邮政董事会主席",
+      "title_en": "Appointed Chairman of Singapore Post",
+      "year": 2025,
+      "description_zh": "2025年5月被任命为新加坡邮政董事会主席，接替任职九年的Simon Israel，领导公司战略转型"
+    },
+    {
+      "title_zh": "在MAS服务27年，历任金融监管最高职位",
+      "title_en": "27 years at MAS, rising to Deputy Managing Director",
+      "year": 2015,
+      "description_zh": "在新加坡金融管理局服务27年，从外汇储备管理逐步晋升至副董事总经理（金融监管），退休前担任特别顾问"
     }
   ],
   "person_relationships": [
     {
-      "relation": "sibling",
-      "name": "张志贤（Teo Chee Hean）",
-      "description": "新加坡前副总理、前高级国务部长"
-    }
-  ],
-  "social_accounts": [],
-  "family_members": [
+      "related_person_id": null,
+      "related_person_name": "Teo Chee Hean",
+      "relationship_type": "sibling",
+      "notes_zh": "张志贤（Teo Chee Hean），新加坡前高级政务部长、前国家安全统筹部长，其妹妹为张秀丽"
+    },
     {
-      "relation": "sibling",
-      "name": "张志贤（Teo Chee Hean），新加坡前副总理"
+      "related_person_id": null,
+      "related_person_name": "Simon Israel",
+      "relationship_type": "colleague",
+      "notes_zh": "Simon Israel前任SingPost董事会主席（2016-2025），张秀丽于2025年5月接替其职位"
     }
   ],
   "political_stances": [],
-  "major_achievements": [
+  "family_background": [
     {
-      "date": null,
-      "organization": null,
-      "achievement": "在新加坡金融管理局（MAS）服务27年，积累了丰富的金融监管经验"
-    },
-    {
-      "date": null,
-      "organization": null,
-      "achievement": "2015年从MAS退休，之后活跃于多个上市公司董事会"
-    },
-    {
-      "date": null,
-      "organization": null,
-      "achievement": "2025年5月被任命为SingPost董事会主席"
-    },
-    {
-      "date": null,
-      "organization": null,
-      "achievement": "同时担任CICT、HSBC、AIA等多个重要机构的董事/主席职务"
-    },
-    {
-      "date": null,
-      "organization": null,
-      "achievement": "2023年10月加入汇丰银行董事会"
+      "member_name": "Teo Chee Hean",
+      "relationship": "brother",
+      "occupation_zh": "新加坡前高级政务部长、前副总理、前国家安全统筹部长"
     }
   ],
-  "biography_summary": "张秀丽（Teo Swee Lian），现年约65岁，是新加坡邮政（SingPost）现任董事会主席，2025年5月被任命。她在新加坡金融管理局（MAS）服务了27年，担任过特别顾问等高级职务，专注于MAS在国际监管框架中的角色，于2015年退休。她持有英国牛津大学应用统计学理学硕士学位。退休后，她活跃于多个重要上市公司的董事会，现任凯德综合商业信托（CICT）主席、汇丰银行独立非执行董事和友邦保险董事。她也是新加坡金融管理局企业治理委员会成员。她是新加坡前副总理张志贤的妹妹。SingPost在声明中赞扬她'在金融服务领域的丰富经验和在上市公司治理方面的杰出记录'，认为她是带领SingPost进入新篇章的理想人选。",
+  "contact_info": {
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "social_accounts": [],
+  "biography_summary": "张秀丽（Teo Swee Lian），65岁，新加坡资深金融监管专家和企业领袖。伦敦大学帝国理工学院数学学士（1981）和牛津大学应用统计学硕士（1982）。在新加坡金融管理局（MAS）服务超过27年，先后从事外汇储备管理、金融业发展、战略规划和金融监管工作，历任副董事总经理（审慎监管，2005-2010）、副董事总经理（金融监管，2010-2013）及特别顾问（2013-2015），2015年6月退休。退休后活跃于多家上市公司董事会：2019年4月起任凯德综合商业信托（CICT）主席和独立非执行董事；2023年10月起任汇丰控股独立非执行董事；此前曾任友邦保险（AIA）、新加坡电信（SingTel）、迪拜金融服务管理局、克里福德资本等机构董事。2025年5月21日被任命为新加坡邮政（SingPost）董事会主席，接替任职九年的Simon Israel，领导公司战略转型。曾于1999年、2006年和2012年分别获颁公共行政银质奖章、金质奖章和金质奖章（金条）。新加坡前副总理、前高级政务部长张志贤之妹。",
   "profile": null,
+  "data_sources": [
+    "https://www.hsbc.com/who-we-are/our-people/board-of-directors/swee-lian-teo",
+    "https://www.cict.com.sg/board-of-directors.html",
+    "https://www.singpost.com/about-us/corporate-information/board-of-directors-and-key-executives",
+    "https://www.singpost.com/about-us/news-releases/singpost-board-names-teo-swee-lian-chairman-designate",
+    "https://www.straitstimes.com/business/companies-markets/teo-swee-lian-to-be-next-singpost-chairman-with-simon-israel-retiring-after-9-years",
+    "https://www.businesstimes.com.sg/companies-markets/singpost-names-teo-swee-lian-chairman-designate-simon-israel-retire-after-9-years-helm"
+  ],
   "collection_meta": {
-    "collection_date": "2026-04-17",
-    "phase": "phase4_person_profile",
-    "data_sources": [
-      "https://www.channelnewsasia.com/singapore/singpost-new-chairman-teo-swee-lian-simon-israel-5143311",
-      "https://www.straitstimes.com/business/companies-markets/teo-swee-lian-to-be-next-singpost-chairman-with-simon-israel-retiring-after-9-years",
-      "https://www.hsbc.com/who-we-are/our-people/board-of-directors/swee-lian-teo",
-      "https://www.singpost.com/about-us/news-releases/singpost-board-names-teo-swee-lian-chairman-designate",
-      "https://www.cict.com.sg/board-of-directors.html"
+    "completeness_score": 59,
+    "collection_date": "2026-05-09",
+    "last_verified": "2026-05-09",
+    "quotes": [
+      {
+        "title": "Swee Lian Teo - HSBC Board of Directors",
+        "url": "https://www.hsbc.com/who-we-are/our-people/board-of-directors/swee-lian-teo"
+      },
+      {
+        "title": "CICT Board of Directors - Teo Swee Lian Profile",
+        "url": "https://www.cict.com.sg/board-of-directors.html"
+      },
+      {
+        "title": "SingPost Board Names Teo Swee Lian Chairman-designate",
+        "url": "https://www.singpost.com/about-us/news-releases/singpost-board-names-teo-swee-lian-chairman-designate"
+      },
+      {
+        "title": "Teo Swee Lian to be next SingPost chairman - Straits Times",
+        "url": "https://www.straitstimes.com/business/companies-markets/teo-swee-lian-to-be-next-singpost-chairman-with-simon-israel-retiring-after-9-years"
+      },
+      {
+        "title": "SingPost names Teo Swee Lian chairman-designate - Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singpost-names-teo-swee-lian-chairman-designate-simon-israel-retire-after-9-years-helm"
+      }
     ],
-    "completeness_score": 60,
-    "notes": "Collected via web search. Birth date not confirmed but press reports state she is 65 as of May 2025. Chinese name 张秀丽 from user input. She is sister of Teo Chee Hean."
+    "notes": "SingPost董事会主席（2025年5月-）。CICT主席（2019年4月-）。HSBC独立非执行董事（2023年10月-）。MAS服务27年（1988-2015），历任副董事总经理（审慎监管、金融监管）及特别顾问。帝国理工数学学士（1981）+牛津应用统计硕士（1982）。三枚公共行政奖章（银1999、金2006、金条2012）。张志贤之妹。重新收集于2026-05-09，更新最新职位（SingPost主席），补全MAS完整履历阶段、CICT详细背景、三枚政府奖章、外部任命列表。"
   }
 }

@@ -1,17 +1,20 @@
 {
   "org_id": "SG-GOV-019",
   "basic_info": {
-    "name_original": "新加坡總檢察長",
-    "name_zh": "新加坡總檢察長",
-    "name_en": "Attorney-General of Singapore",
+    "name_original": "Attorney-General's Chambers",
+    "name_en": "Attorney-General's Chambers",
+    "name_zh": "新加坡总检察署",
     "aliases": [
-      "新加坡總檢察長"
+      "Attorney-General's Chambers",
+      "AGC",
+      "新加坡总检察署",
+      "新加坡总检察长"
     ],
     "org_type": "GOV",
     "org_subtype": "gov_department",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1965-08-01",
+    "founded_date": "1867-04-01",
     "website": "https://www.agc.gov.sg"
   },
   "social_accounts": [
@@ -30,86 +33,211 @@
   ],
   "digital_assets": [
     {
-      "name": "AGC官网",
+      "name": "AGC官方网站",
       "url": "https://www.agc.gov.sg",
-      "description": "AGC官方网站。",
+      "description": "新加坡总检察署官方网站，发布新闻、法律信息及领导层介绍。",
       "source": "https://www.agc.gov.sg"
     },
     {
-      "name": "Singapore Statutes Online",
+      "name": "新加坡法规在线",
       "url": "https://sso.agc.gov.sg",
-      "description": "新加坡法规在线平台。",
+      "description": "新加坡立法部门维护的在线法规平台，提供全部现行法规全文检索。",
       "source": "https://sso.agc.gov.sg"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000126",
-      "name": "Lucien Wong SC",
-      "title": "总检察长",
-      "title_description": "Attorney-General",
-      "description": "新加坡第九任总检察长，2025年10月获第四次连任，任期至2029年1月。"
+      "person_id": "SG-PERSON-000120",
+      "name": "黄鲁胜 (Lucien Wong)",
+      "title": "总检察长 (Attorney-General)",
+      "title_description": "新加坡总检察署最高首长，兼任政府法律顾问和公诉人",
+      "description": "2017年1月14日就任第九任总检察长。黄鲁胜为资深律师（Senior Counsel），曾任艾伦与格莱希尔律师事务所（Allen & Gledhill）主席兼高级合伙人，在银行、企业和金融服务法律领域拥有超过30年经验。2025年10月获总统尚达曼第四次任命连任，任期至2029年1月13日。"
     },
     {
-      "person_id": "SG-PERSON-000176",
-      "name": "Lionel Yee",
-      "title": "副检察长",
-      "title_description": "Solicitor-General",
-      "description": "AGC二号人物，2025年获连任。"
+      "person_id": "SG-PERSON-000265",
+      "name": "余文中 (Lionel Yee Woon Chin)",
+      "title": "副检察长 (Deputy Attorney-General)",
+      "title_description": "AGC副手，协助总检察长处理法律事务",
+      "description": "资深律师（Senior Counsel），1988年毕业于剑桥大学法律系，1999年获纽约大学法学硕士。1991年加入AGC，历任国际事务司司长、第二副检察长、司法委员、副检察长等职。2025年10月获连任，新任期自2026年1月14日至2029年1月13日。"
+    },
+    {
+      "person_id": "SG-PERSON-000266",
+      "name": "郑伟雄 (Tai Wei Shyong)",
+      "title": "副检察长 (Deputy Attorney-General)",
+      "title_description": "副检察长，分管刑事司法领域",
+      "description": "资深律师（Senior Counsel），牛津大学法学学士及民法学士，2009年获剑桥大学犯罪学硕士。1999年加入新加坡法律服务体系，历任裁判法庭书记、副总检察长、内政部副常任秘书等职，2021年1月就任副检察长。"
+    },
+    {
+      "person_id": "SG-PERSON-000267",
+      "name": "吴义函 (Goh Yihan)",
+      "title": "副检察长 (Deputy Attorney-General)",
+      "title_description": "副检察长，前新加坡最高法院法官",
+      "description": "资深律师（Senior Counsel），2006年以一级荣誉毕业于新加坡国立大学法学院，2010年获哈佛大学法学硕士。曾任新大杨邦孝法学院院长、最高法院法官，2025年1月就任副检察长。"
+    },
+    {
+      "person_id": "SG-PERSON-000268",
+      "name": "陈慧玲 (Valerie Thean)",
+      "title": "副检察长 (Deputy Attorney-General)",
+      "title_description": "副检察长，前家事司法法院首任庭长",
+      "description": "资深律师（Senior Counsel），1988年获总统奖学金，剑桥大学法律系一级荣誉毕业，哈佛法学硕士。2014年出任家事司法法院首任庭长，2026年4月就任副检察长。"
+    },
+    {
+      "person_id": "SG-PERSON-000269",
+      "name": "洪月娥 (Daphne Hong)",
+      "title": "副检察长 (Solicitor-General)",
+      "title_description": "副检察长级别，国际法事务负责人",
+      "description": "1991年毕业于新加坡国立大学法学院。曾任初级法庭副登记官、最高法院高级助理登记官、AGC国际事务司司长，2022年4月就任副检察长。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-019-DEPT-001",
-      "name": "Office of Attorney-General was established in 1867",
+      "name": "民事部门 (Civil Division)",
       "head": null,
-      "description": null,
+      "description": "为各部委和国家机关提供法律咨询，起草和审查合同及法律文件，代表政府参与国际事务和民事诉讼。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-019-DEPT-002",
+      "name": "国际事务部门 (International Affairs Division)",
+      "head": null,
+      "description": "处理国际法问题，代表新加坡参与双边和多边谈判，起草国际法律文书。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-019-DEPT-003",
+      "name": "立法部门 (Legislation Division)",
+      "head": null,
+      "description": "下设四个小组：法律起草组负责起草法规，立法编辑与修订组负责法律修订，法律出版组维护新加坡在线法规系统，企业服务与治理组提供行政支持。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-019-DEPT-004",
+      "name": "犯罪部门 (Crime Division)",
+      "head": null,
+      "description": "行使检察权，总检察长拥有起诉裁量权（Prosecutorial Discretion），可自行决定启动、进行或终止任何起诉。是AGC最大的业务部门。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-10-01",
-      "title": "总检察长Lucien Wong获第四次连任",
-      "description": "获尚达曼总统任命连任，任期延至2029年。",
-      "impact": "确保AGC领导层延续性。",
-      "source": "https://www.agc.gov.sg/"
+      "date": "2025-10-10",
+      "title": "总检察长黄鲁胜获第四次连任",
+      "description": "总统尚达曼根据总理建议，再次任命黄鲁胜为总检察长，任期三年（2026年1月14日至2029年1月13日）。副检察长余文中亦获连任。",
+      "impact": "确保AGC领导层的延续性和稳定性，是新加坡法律体系持续运作的重要保障。",
+      "source": "https://www.channelnewsasia.com/singapore/attorney-general-lucien-wong-lionel-yee-court-5393581"
     },
     {
-      "date": "2026-01-01",
+      "date": "2026-01-12",
       "title": "2026法律年度开幕致辞",
-      "description": "总检察长强调国际合作在刑事司法事务中的重要性。",
-      "impact": "为新任期工作定调。",
-      "source": "https://lawgazette.com.sg/"
+      "description": "总检察长黄鲁胜在法律年度开幕式上发表演讲，强调国际合作在刑事司法事务中的重要性，并回顾AGC拥有约400名法律服务官，是新加坡最大的法律机构。",
+      "impact": "为新任期工作定调，突出AGC在维护法治和国际法律合作方面的角色。",
+      "source": "https://lawgazette.com.sg/news/updates/opening-of-the-legal-year-2026-speech-attorney-general/"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "维持新加坡最大股票操纵案判决",
+      "description": "上诉庭维持对苏志文（Soh Chee Wen，36年监禁）和余素玲（Quah Su-Ling，20年监禁）的量刑判决，认定其为新加坡史上最大股票市场操纵案的主谋，涉及Blumont、Asiasons和LionGold三只股票。",
+      "impact": "彰显新加坡对市场操纵行为的零容忍态度，维护新加坡作为国际金融中心的声誉。",
+      "source": "https://www.agc.gov.sg/newsroom/convictions-and-sentences-upheld-for-masterminds-behind-singapore-s-largest-stock-market-manipulation/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "陈慧玲出任副检察长",
+      "description": "前家事司法法院首任庭长陈慧玲就任副检察长，填补管理层空缺。AGC领导层扩充至一名总检察长、四名副检察长和一名副检察长级别的副检察长。",
+      "impact": "加强AGC高层管理力量，引入家事法领域资深专家。",
+      "source": "https://www.agc.gov.sg/about-us/leadership/"
+    },
+    {
+      "date": "2025-06-16",
+      "title": "与印度尼西亚总检察署续签谅解备忘录",
+      "description": "AGC与印度尼西亚总检察署续签合作谅解备忘录（MOU），深化两国在跨境法律事务上的合作。",
+      "impact": "加强东南亚区域内跨境司法合作能力。",
+      "source": "https://www.instagram.com/p/DK9TwKFyJE_/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-004",
-      "org_name": "新加坡最高法院",
+      "org_name": "新加坡最高法院 (Supreme Court of Singapore)",
       "org_type": "GOV",
-      "org_description": "新加坡司法体系最高机构。",
+      "org_description": "新加坡司法体系最高机构，与AGC共同构成法律体系核心。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-GOV-007",
+      "org_name": "新加坡国家法院 (State Courts of Singapore)",
+      "org_type": "GOV",
+      "org_description": "处理刑事案件和民事纠纷的下级法院，AGC在国家法院提起大量刑事检控。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "org_name": "新加坡总理公署 (Prime Minister's Office)",
+      "org_type": "GOV",
+      "org_description": "总检察长由总理建议、总统任命，总理公署与AGC在人事上有直接关联。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "SG-GOV-016",
+      "org_name": "新加坡贸易和工业部 (Ministry of Trade and Industry)",
+      "org_type": "GOV",
+      "org_description": "AGC在贸易法和国际经济法领域为贸工部提供法律咨询。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "SG-GOV-017",
+      "org_name": "新加坡金融管理局 (Monetary Authority of Singapore)",
+      "org_type": "GOV",
+      "org_description": "AGC与金管局在金融犯罪起诉和市场操纵案件上密切合作。",
       "relationship_type": "partner"
     }
   ],
-  "core_business": "新加坡总检察署（Attorney-General's Chambers，简称AGC）是新加坡政府的最高法律顾问机关和公诉机构，其首长总检察长（Attorney-General）根据《新加坡宪法》第35条由总统根据总理建议任命。与部分威斯敏斯特体制国家不同，新加坡总检察长不是国会议员。现任总检察长为黄鲁胜高级律师（Lucien Wong），2017年就任第九任总检察长，2026年1月获续任三年至2029年1月13日。\n\n总检察长承担双重角色：政府法律顾问和公诉人。AGC下设四个主要部门。民事部门（Civil Division）负责为各部委和国家机关提供法律咨询、起草和审查合同及法律文件、代表政府参与国际事务和诉讼等。国际事务部门（International Affairs Division）处理国际法问题，代表新加坡参与双边和多边谈判，起草国际法律文书。立法部门（Legislation Division）包括四个小组：法律起草组（Law Drafting Group）负责起草法规，立法编辑与修订组负责法律修订，法律出版组维护新加坡在线法规系统（Singapore Statutes Online），企业服务与治理组提供行政支持。犯罪部门（Crime Division）行使检察权，总检察长拥有起诉裁量权（Prosecutorial Discretion），可自行决定启动、进行或终止任何起诉。\n\n总检察署的历史可追溯至1867年4月1日，英国殖民政府任命Thomas Braddell爵士为首任海峡殖民地（Straits Settlements）总检察长。1942年日军占领期间，时任总检察长Charles Gough Howell在战俘营中去世。1965年新加坡独立后，Ahmad Mohamed Ibrahim成为首任共和国总检察长。2024年10月，上诉庭裁定新加坡监狱署和AGC披露和索取死囚信件的行为违法。2026年，国会中就总检察长任命程序的透明度展开了讨论，工人党议员林瑞莲（Sylvia Lim）呼吁增加候选人遴选的透明度。",
+  "core_business": "新加坡总检察署（Attorney-General's Chambers，简称AGC）是新加坡政府的最高法律顾问机关和公诉机构。其首长总检察长（Attorney-General）根据《新加坡宪法》第35条由总统根据总理建议任命，任期可延至60岁以后。与部分威斯敏斯特体制国家不同，新加坡总检察长不是国会议员。现任总检察长为黄鲁胜高级律师（Lucien Wong SC），2017年就任第九任总检察长，2025年10月获第四次连任，任期延至2029年1月13日。\n\n总检察长承担双重角色：政府法律顾问和公诉人。AGC下设四个主要部门。民事部门（Civil Division）负责为各部委和国家机关提供法律咨询、起草和审查合同及法律文件、代表政府参与国际事务和诉讼等。国际事务部门（International Affairs Division）处理国际法问题，代表新加坡参与双边和多边谈判，起草国际法律文书。立法部门（Legislation Division）包括四个小组：法律起草组负责起草法规，立法编辑与修订组负责法律修订，法律出版组维护新加坡在线法规系统（Singapore Statutes Online），企业服务与治理组提供行政支持。犯罪部门（Crime Division）行使检察权，总检察长拥有起诉裁量权（Prosecutorial Discretion），可自行决定启动、进行或终止任何起诉。AGC拥有约400名法律服务官（Legal Service Officers），是新加坡最大的法律机构。\n\n总检察署的历史可追溯至1867年4月1日，英国殖民政府任命Thomas Braddell爵士为首任海峡殖民地（Straits Settlements）总检察长。1942年日军占领期间，时任总检察长Charles Gough Howell在战俘营中去世。1965年新加坡独立后，Ahmad Mohamed Ibrahim成为首任共和国总检察长。2024年10月，上诉庭裁定新加坡监狱署和AGC披露和索取死囚信件的行为违法。2026年3月，上诉庭维持了新加坡史上最大股票操纵案的判决。2026年，国会中就总检察长任命程序的透明度展开了讨论，工人党议员林瑞莲（Sylvia Lim）呼吁增加候选人遴选的透明度，律政部长唐振辉（Edwin Tong）回应称任命过程涉及与首席大法官、公共服务委员会主席和总统顾问理事会的磋商。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "AGC强调国际刑事司法合作的重要性，与APEC框架下各经济体间法律合作需求相呼应。在跨境执法、反洗钱、反恐融资等领域是APEC法律合作的重要资产。",
+  "apec_stance": "AGC强调国际刑事司法合作的重要性，在2026年法律年度开幕致辞中总检察长专门论述了跨境法律协作的必要性。AGC与印度尼西亚等APEC经济体签署合作谅解备忘录，在跨境执法、反洗钱、反恐融资、市场操纵打击等领域是APEC法律合作的重要参与者。2026年AGC与新加坡金管局、警察部队联合维护新加坡最大股票操纵案的判决，彰显APEC金融中心对市场诚信的承诺。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Lucien_Wong_2022.jpg/330px-Lucien_Wong_2022.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "web_search"
+      "official_website",
+      "web_search",
+      "news"
     ],
-    "completeness_score": 88,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 70)"
+    "completeness_score": 93,
+    "quotes": [
+      {
+        "title": "Wikipedia - Attorney-General of Singapore",
+        "url": "https://en.wikipedia.org/wiki/Attorney-General_of_Singapore"
+      },
+      {
+        "title": "AGC Official Website - Leadership",
+        "url": "https://www.agc.gov.sg/about-us/leadership/"
+      },
+      {
+        "title": "AGC Official Website - Homepage",
+        "url": "https://www.agc.gov.sg"
+      },
+      {
+        "title": "CNA - Lucien Wong reappointed AG, Lionel Yee reappointed DAG",
+        "url": "https://www.channelnewsasia.com/singapore/attorney-general-lucien-wong-lionel-yee-court-5393581"
+      },
+      {
+        "title": "AGC - Stock Market Manipulation Convictions Upheld",
+        "url": "https://www.agc.gov.sg/newsroom/convictions-and-sentences-upheld-for-masterminds-behind-singapore-s-largest-stock-market-manipulation/"
+      },
+      {
+        "title": "Law Gazette - Opening of Legal Year 2026",
+        "url": "https://lawgazette.com.sg/news/updates/opening-of-the-legal-year-2026-speech-attorney-general/"
+      }
+    ],
+    "notes": "Phase 3 enrichment: corrected person_id mappings, expanded leadership to 6 key people with proper Chinese naming, added 4 departments, expanded recent_events to 5 events with verified dates, added 5 related_entities with correct IDs, updated core_business and apec_stance with cross-verified information."
   }
 }

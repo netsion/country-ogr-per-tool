@@ -1,21 +1,22 @@
 {
   "org_id": "SG-NGO-003",
   "basic_info": {
-    "name_original": "新加坡紅十字會",
-    "name_zh": "新加坡紅十字會",
+    "name_original": "Singapore Red Cross Society",
     "name_en": "Singapore Red Cross Society",
+    "name_zh": "新加坡红十字会",
     "aliases": [
-      "Red Cross of Singapore",
-      "SRC",
       "Singapore Red Cross",
-      "新加坡紅十字會"
+      "SRC",
+      "Red Cross of Singapore",
+      "新加坡红十字会",
+      "Persatuan Palang Merah Singapura"
     ],
     "org_type": "NGO",
     "org_subtype": "humanitarian_org",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1949-04-03",
-    "website": "https://redcross.sg/"
+    "founded_date": "1949-09-30",
+    "website": "https://www.redcross.sg/"
   },
   "social_accounts": [
     {
@@ -54,82 +55,150 @@
       "name": "新加坡红十字会官方网站",
       "url": "https://redcross.sg",
       "description": "SRC官方网站，包含人道主义项目、献血服务、培训课程和捐赠渠道",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "name": "新加坡红十字会学院",
       "url": "https://redcross.sg/our-services/academy.html",
-      "description": "提供急救培训、灾害管理课程等专业培训服务",
-      "source": "web_search"
+      "description": "提供急救培训、灾害管理课程等专业培训服务，包括虚拟现实和无人机操作等新技术培训",
+      "source": "official_website"
+    },
+    {
+      "name": "新加坡红十字会国际服务页面",
+      "url": "https://redcross.sg/our-services/international-services.html",
+      "description": "介绍SRC国际人道主义援助项目，包括灾害救援、疫情应对和区域合作",
+      "source": "official_website"
+    },
+    {
+      "name": "感恩之心2026募捐活动",
+      "url": "https://go.redcross.sg/ghc26-pledge",
+      "description": "2026年度'Grateful Hearts Campaign'募捐活动认捐页面",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000135",
-      "name": "Tharman Shanmugaratnam (尚达曼)",
-      "title": "Patron",
+      "person_id": "SG-PERSON-000132",
+      "name": "尚达曼 (Tharman Shanmugaratnam)",
+      "title": "赞助人 (Patron)",
       "title_description": "新加坡总统，依照传统担任红十字会赞助人",
       "description": "尚达曼于2023年就任新加坡总统后，依惯例成为新加坡红十字会赞助人，接替前任总统哈莉玛。"
     },
     {
-      "person_id": "SG-PERSON-000200",
-      "name": "Tan Kai Hoe (陈开和)",
-      "title": "Chairman",
-      "title_description": "新加坡红十字会理事会主席，负责治理和战略方向",
-      "description": "陈开和接替郑大亚出任红十字会理事会主席，领导组织治理、财务监督和战略规划工作。"
+      "person_id": "SG-PERSON-000274",
+      "name": "陈开河 (Tan Kai Hoe)",
+      "title": "理事会主席 (Chairman of the Council)",
+      "title_description": "新加坡红十字会理事会主席，由总统任命，负责治理和战略方向",
+      "description": "陈开河于2020年12月由哈莉玛总统任命为红十字会理事会主席，接替任职12年的郑大亚。他致力于扩展SRC人道主义服务的规模和范围，推动采用创新技术提升培训和灾害响应能力。"
     },
     {
-      "person_id": "SG-PERSON-000147",
-      "name": "Benjamin William",
-      "title": "Secretary General / CEO",
+      "person_id": "SG-PERSON-000275",
+      "name": "本杰明·威廉 (Benjamin William)",
+      "title": "秘书长兼首席执行官 (Secretary General / CEO)",
       "title_description": "新加坡红十字会最高行政负责人，负责日常运营和战略执行",
-      "description": "自2012年3月1日起担任秘书长兼CEO，至今已领导红十字会超过14年，继续推动人道主义救援和社区服务。"
+      "description": "本杰明·威廉自2012年3月起担任秘书长兼CEO，至今已领导红十字会超过14年。此前他在新加坡外交部任职30年，曾派驻文莱、菲律宾、美国和老挝等国大使馆。在他的领导下，SRC在组织转型和社区影响力方面取得显著成效。"
     },
     {
       "person_id": "SG-PERSON-000160",
-      "name": "Emily Tan",
-      "title": "Vice Chairman & Chairman, Finance and Investment Committee",
+      "name": "陈宝凤 (Emily Tan)",
+      "title": "副主席兼财务投资委员会主席 (Vice Chairman & Chairman, Finance and Investment Committee)",
       "title_description": "负责财务管理和投资战略",
       "description": "同时担任理事会副主席和财务投资委员会主席，负责组织的财务健康和投资组合管理。"
+    },
+    {
+      "person_id": "SG-PERSON-000276",
+      "name": "陈宝鸿 (Tan Poh Hong)",
+      "title": "副主席兼企业治理与提名委员会主席 (Vice Chairman & Chairman, Corporate Governance and Nomination Committee)",
+      "title_description": "负责企业治理和理事会成员提名",
+      "description": "担任理事会副主席，同时领导企业治理与提名委员会。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-NGO-003-DEPT-001",
-      "name": "Singapore Red Cross Academy (formerly known as Red Cross Training Centre)",
+      "name": "学习与发展部 (Learning & Development)",
       "head": null,
-      "description": null,
+      "description": "包含新加坡红十字会学院（前身为红十字训练中心）和红十字青少年部。学院提供急救培训、灾害管理课程等，新课程体系还包括心理健康、社会创业以及虚拟现实和无人机操作等新技术培训。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-NGO-003-DEPT-002",
-      "name": "Centre of Excellence in Pandemic Preparedness (CoEPP)",
+      "name": "献血者项目部 (Blood Donor Programme)",
       "head": null,
-      "description": null,
+      "description": "管理献血招募计划，包括运营与行政、营销与合作伙伴关系、青少年献血推广三个子部门。SRC于2001年被新加坡卫生科学局指定为国家献血招募机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-NGO-003-DEPT-003",
-      "name": "Day Activities Centre",
+      "name": "全球合作部 (Global Engagement)",
       "head": null,
-      "description": null,
+      "description": "负责国际人道主义服务、大流行病防备卓越中心（CoEPP）和人道主义事务联络。SRC在亚太地区积极开展灾害救援和国际援助。",
       "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-004",
+      "name": "社区服务部 (Community Engagement)",
+      "head": null,
+      "description": "包含社区服务、社区急救（前身为社区韧性部）和志愿者管理三个子部门。运营'First Aiders on Wheels'公园急救志愿者计划，并与国家公园局合作扩展覆盖范围。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-005",
+      "name": "关怀服务部 (Care Services)",
+      "head": null,
+      "description": "运营红十字残疾人之家（Red Cross Home for the Disabled）和日间活动中心。残疾人之家已引入机器人辅助等创新技术以提升护理质量。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-006",
+      "name": "外联部 (Outreach)",
+      "head": null,
+      "description": "包含营销与传播部（前身为企业传播与营销合作伙伴部）和资源开发部（前身为筹款部），负责公众宣传和资金募集。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-007",
+      "name": "企业管理部 (Corporate Management)",
+      "head": null,
+      "description": "包含人力资源、信息技术、行政管理（设施管理和办公室管理）和合规等职能。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-008",
+      "name": "财务管理部 (Finance Management)",
+      "head": null,
+      "description": "包含财务、集中采购和风险管理三个子部门。2023年组织收入约2407万新元，其中捐款约1014万新元。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-009",
+      "name": "大流行病防备卓越中心 (Centre of Excellence in Pandemic Preparedness, CoEPP)",
+      "head": null,
+      "description": "专注大流行病防备和能力建设，在全球合作部框架下运作，为亚太地区提供疫情应对的专业支持。",
+      "parent_dept_id": "SG-NGO-003-DEPT-003"
+    },
+    {
+      "dept_id": "SG-NGO-003-DEPT-010",
+      "name": "红十字青少年部 (Red Cross Youth)",
+      "head": null,
+      "description": "管理红十字少年团（Red Cross Juniors）和青年志愿者项目。新课程体系涵盖心理健康、社会创业、虚拟现实和无人机操作，培养青年参与人道主义行动。2024年表彰了223名个人和57个组织。",
+      "parent_dept_id": "SG-NGO-003-DEPT-001"
     }
   ],
   "recent_events": [
     {
-      "date": "2025-10-28",
-      "title": "新加坡红十字会发起第四轮加沙人道主义募捐",
-      "description": "SRC发起第四轮公众募捐活动，为加沙地区人道主义行动提供资金支持。这是自加沙危机爆发以来SRC的第四次大规模募捐活动。",
-      "impact": "显示新加坡在国际人道主义救援中的持续参与和公民社会的响应力。",
-      "source": "https://sg.news.yahoo.com/singapore-red-cross-calls-donations-044500607.html"
+      "date": "2026-05-07",
+      "title": "新加坡红十字会秘书长出席SIDEX 2026大会",
+      "description": "本杰明·威廉作为演讲嘉宾出席SIDEX 2026会议，讨论新加坡在全球人道主义舞台上的潜在角色，强调规则本身不足以保护生命，关键在于如何理解和尊重规则。",
+      "impact": "展示SRC在国际人道主义外交中的积极参与和思想领导力。",
+      "source": "https://www.facebook.com/sgredcross/posts/rules-alone-do-not-protect-lives-how-they-are-understood-and-respected-doesrecen/1386257000194316/"
     },
     {
-      "date": "2025-08-30",
-      "title": "第十届新加坡人道主义会议",
-      "description": "新加坡红十字会在文化、社区及青年部（MCCY）支持下成功举办第十届新加坡人道主义会议，汇聚国内外人道主义工作者和专家。",
-      "impact": "巩固新加坡作为区域人道主义合作枢纽的地位。",
-      "source": "https://www.mccy.gov.sg/about-us/news-and-resources/10th-singapore-humanitarian-conference/"
+      "date": "2026-03-16",
+      "title": "老挝-新加坡红十字会深化人道主义合作",
+      "description": "老挝红十字会与新加坡红十字会在万象举行高级别会议，由老挝红十字会Khamlavanh Chanthalavanh和SRC秘书长本杰明·威廉共同主持。双方签署双边合作协议，重点合作领域包括灾害防备培训、社区健康项目（WASH）和数字化转型。",
+      "impact": "加强APEC区域内红十字会间合作，提升东南亚灾害响应能力。",
+      "source": "https://kpl.gov.la/En/detail.aspx?id=97439"
     },
     {
       "date": "2026-02-07",
@@ -137,35 +206,151 @@
       "description": "SRC社区急救队在2026年Chingay Parade现场提供急救服务，展示社区服务能力。",
       "impact": "体现红十字会在本地大型活动中的基层服务角色。",
       "source": "https://www.facebook.com/sgredcross/posts/1317240997095917"
+    },
+    {
+      "date": "2025-10-27",
+      "title": "新加坡红十字会重启加沙人道主义募捐",
+      "description": "在2025年10月10日停火后，SRC重新启动公众募捐活动，为加沙地区重建和恢复提供人道主义支持。这是SRC自加沙危机爆发以来的又一轮大规模募捐。",
+      "impact": "显示新加坡在国际人道主义救援中的持续参与和公民社会的响应力。",
+      "source": "https://www.instagram.com/p/DQVhyJ2jIJj/"
+    },
+    {
+      "date": "2025-09-04",
+      "title": "SRC投入5万新元援助缅甸人道主义危机",
+      "description": "新加坡红十字会承诺投入5万新元人道主义援助，并启动公众募捐支持受影响社区。同时宣布举办第十届新加坡人道主义会议。",
+      "impact": "体现SRC作为亚太区域人道主义援助者的活跃角色。",
+      "source": "https://redcross.sg/news-and-stories/10-events/1614-10th-singapore-humanitarian-conference-by-the-singapore-red-cross.html"
+    },
+    {
+      "date": "2025-08-30",
+      "title": "第十届新加坡人道主义会议暨第三届志愿者大会",
+      "description": "SRC在文化、社区及青年部（MCCY）支持下成功举办第十届新加坡人道主义会议暨第三届志愿者大会，汇聚国内外人道主义工作者和专家。会议在金沙会展中心举行。",
+      "impact": "巩固新加坡作为区域人道主义合作枢纽的地位。",
+      "source": "https://www.mccy.gov.sg/about-us/news-and-resources/10th-singapore-humanitarian-conference/"
+    },
+    {
+      "date": "2025-05-02",
+      "title": "新加坡人道主义创新挑战赛SHIC'25启动",
+      "description": "SRC启动2025年新加坡人道主义创新挑战赛（SHIC'25），面向青年、学生和创新者征集重塑志愿服务和人道主义工作的创新方案，挑战期为2025年5月2日至6月30日。",
+      "impact": "推动人道主义领域的技术创新和青年参与。",
+      "source": "https://www.facebook.com/sgredcross/posts/-calling-all-innovators-change-makers-the-singapore-humanitarian-innovation-chal/1088499726636713/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-GOV-015",
-      "org_name": "Ministry of Health Singapore (MOH, 新加坡卫生部)",
+      "org_name": "新加坡卫生部 (Ministry of Health Singapore, MOH)",
       "org_type": "GOV",
-      "org_description": "指定SRC为国家捐血中心",
+      "org_description": "SRC被卫生科学局（HSA，隶属MOH）指定为国家献血招募机构。卫生部长出席世界献血者日活动。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "红十字与红新月会国际联合会 (International Federation of Red Cross and Red Crescent Societies, IFRC)",
+      "org_type": "NGO",
+      "org_description": "全球红十字运动协调机构，SRC是其国家成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "红十字国际委员会 (International Committee of the Red Cross, ICRC)",
+      "org_type": "NGO",
+      "org_description": "国际人道主义法守护机构，SRC是其成员组织。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "SG-GOV-019",
+      "org_name": "新加坡文化、社区及青年部 (Ministry of Culture, Community and Youth, MCCY)",
+      "org_type": "GOV",
+      "org_description": "支持SRC举办新加坡人道主义会议等重大活动。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "新加坡卫生科学局 (Health Sciences Authority, HSA)",
+      "org_type": "GOV",
+      "org_description": "2001年指定SRC为国家献血招募机构，共同管理献血者招募项目。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "老挝红十字会 (Lao Red Cross)",
+      "org_type": "NGO",
+      "org_description": "2026年3月与SRC签署双边合作协议，在灾害防备、社区健康和数字化转型领域合作。",
       "relationship_type": "partner"
     }
   ],
-  "core_business": "新加坡紅十字會（英語：The Red Cross Society of the Republic of Singapore，縮寫：SRC）起始於1949年9月30日，當時隸屬於英國紅十字會。1973年4月，新加坡紅十字會（SRC）於新加坡國會正式註冊成立。2001年，它被新加坡衛生科學局任命為國家捐血中心。\n組織\nSRC理事由27至33名成員所組成的理事會，主席由新加坡總統任命。該委員會負責推行SRC的目標，通過議會的憲法法案和規定。理事會徵詢三名任命委員提供專業知識，即財務委員會，法律委員會和醫學委員會。\nSRC管理由執行委員會監督，運作由紅十字青少年部，成年志願者部，程序部，各常設委員會，工作隊和資源小組。由理事會祕書處制定政策和指令實施，志工和工作人員SRC活動。\n部門\n理事會\n祕書處\n程序部\n紅十字青少年部\n成人志願者部\n業務項目\n紅十字會弱勢家庭\n捐血招募計劃\n紅十字會訓練中心\n紅十字會非緊急救護車服務\n國際服務\n主要活動\n2004年12月，新加坡紅十字會積極參與印度洋大地震救災工作。\n2005年5月，新加坡紅十字會慶祝紅十字運動142週年，推出兩個月期間的活動，像是將捐血車開進紅十字會之家。\n2012年10月，新加坡紅十字會支援汶川地震，并向中国红十字会捐赠1500万元。\n腳註\n內部連結\n國際紅十字與紅新月運動\n各國紅十字會\n紅十字國際委員會\n紅十字會與紅新月會國際聯合會\n外部連結\n新加坡紅十字會 （页面存档备份，存于互联网档案馆）",
+  "core_business": "新加坡红十字会（The Red Cross Society of the Republic of Singapore，简称SRC）是新加坡全国性人道主义援助和社区服务慈善组织，1949年9月30日成立时隶属英国红十字会，1973年4月由新加坡国会正式注册成立。SRC是红十字与红新月会国际联合会（IFRC）和红十字国际委员会（ICRC）的国家成员。\n\nSRC由19名成员组成的理事会治理，主席由新加坡总统任命。现任主席为陈开河（2020年起任职），秘书长兼CEO为本杰明·威廉（2012年起任职）。2023年组织收入约2407万新元，其中捐款约1014万新元，员工约215人。\n\n核心业务涵盖七大领域：学习与发展（红十字学院培训、红十字青少年）、献血者项目（国家献血招募）、全球合作（国际救援、大流行病防备卓越中心CoEPP）、社区服务（社区急救、志愿者管理）、关怀服务（残疾人之家、日间活动中心）、外联（营销传播、筹款）和企业管理。此外还运营非紧急救护车服务和长者居家监测计划（HoME+）。\n\n在国际救援方面，SRC活跃于亚太地区，曾参与2004年印度洋海啸救灾、汶川地震援助（捐赠1500万元）、缅甸水灾救援等。2024年庆祝成立75周年。2025-2026年继续开展加沙人道主义募捐、老挝红十字会合作、人道主义创新挑战赛等项目。",
   "industries": [
     "nonprofit"
   ],
-  "apec_stance": null,
+  "apec_stance": "新加坡红十字会作为红十字与红新月会国际联合会（IFRC）和红十字国际委员会（ICRC）的国家成员，在APEC区域人道主义合作中扮演积极角色。SRC长期参与亚太地区灾害救援和国际人道主义援助，包括2004年印度洋海啸、汶川地震、斯里兰卡经济危机、缅甸水灾等重大灾害响应。2026年3月与老挝红十字会签署双边合作协议，在灾害防备培训、模拟演练、应急物资管理和社区健康（WASH项目）等领域深化合作，推动东南亚区域灾害韧性建设。SRC运营的大流行病防备卓越中心（CoEPP）为亚太地区提供疫情应对能力建设支持。其红十字会学院培训来自区域内各国的人道主义工作者，并通过新加坡人道主义会议等平台促进区域人道主义对话与合作。SRC的国际援助工作和区域合作体现了新加坡在APEC人道主义领域的软实力贡献。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Singapore_Red_Cross.jpg/330px-Singapore_Red_Cross.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "wikipedia_zh",
+      "official_website",
+      "web_search",
+      "news_articles"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with web search: key people, social accounts, recent events, related entities, digital assets (score: 92)"
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: updated founded_date to 1949-09-30, expanded key people with Tan Poh Hong, rewrote all departments with descriptions based on official SRC structure, added 2025-2026 events including Laos cooperation and SIDEX, expanded related entities, wrote comprehensive apec_stance",
+    "quotes": [
+      {
+        "title": "Wikipedia - Singapore Red Cross Society",
+        "url": "https://en.wikipedia.org/wiki/Singapore_Red_Cross_Society"
+      },
+      {
+        "title": "维基百科 - 新加坡红十字会",
+        "url": "https://zh.wikipedia.org/wiki/新加坡红十字会"
+      },
+      {
+        "title": "SRC Patron & Council - Official Website",
+        "url": "https://redcross.sg/about-us/patron-council.html"
+      },
+      {
+        "title": "Lao-Singapore Red Cross Cooperation - KPL News",
+        "url": "https://kpl.gov.la/En/detail.aspx?id=97439"
+      },
+      {
+        "title": "SRC expanding humanitarian services - Straits Times",
+        "url": "https://www.straitstimes.com/singapore/singapore-red-cross-working-to-expand-scale-and-scope-of-humanitarian-services"
+      },
+      {
+        "title": "10th Singapore Humanitarian Conference - MCCY",
+        "url": "https://www.mccy.gov.sg/about-us/news-and-resources/10th-singapore-humanitarian-conference/"
+      },
+      {
+        "title": "President appoints new SRC Chairman - SRC",
+        "url": "https://redcross.sg/media-centre/press-releases/934-president-appoints-new-chairman-for-singapore-red-cross.html"
+      },
+      {
+        "title": "Benjamin William - SRC Official",
+        "url": "https://redcross.sg/simple-page/1311:careers-benjamin-william.html"
+      },
+      {
+        "title": "World Blood Donor Day 2025 - MOH Speech",
+        "url": "https://www.moh.gov.sg/newsroom/speech-by-mr-ong-ye-kung--minister-for-health-and-coordinating-minister-for-social-policies-at-world-blood-donor-day/"
+      },
+      {
+        "title": "11th Singapore Humanitarian Conference - Eventbrite",
+        "url": "https://www.eventbrite.sg/e/11th-singapore-humanitarian-conference-tickets-1985969763022"
+      },
+      {
+        "title": "SRC Gaza Ceasefire Fundraising - Instagram",
+        "url": "https://www.instagram.com/p/DQVhyJ2jIJj/"
+      },
+      {
+        "title": "SIDEX 2026 - Benjamin William Speaker Profile",
+        "url": "https://sidex.sg/conference/speakers/benjamin-jeyaraj-william/"
+      }
+    ]
   }
 }

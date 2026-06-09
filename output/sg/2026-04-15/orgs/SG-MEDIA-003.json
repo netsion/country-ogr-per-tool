@@ -1,10 +1,11 @@
 {
   "org_id": "SG-MEDIA-003",
   "basic_info": {
-    "name_original": "亚洲新闻台",
-    "name_zh": "亚洲新闻台",
+    "name_original": "CNA",
     "name_en": "CNA",
+    "name_zh": "亚洲新闻台",
     "aliases": [
+      "CNA",
       "Channel NewsAsia",
       "Channel News Asia",
       "亚洲新闻台"
@@ -31,19 +32,13 @@
     },
     {
       "platform": "youtube",
-      "account_name": "UC83jt4dlz1Gjl58fzQrrKZg",
-      "url": "https://youtube.com/channel/UC83jt4dlz1Gjl58fzQrrKZg",
-      "source": "wikidata"
-    },
-    {
-      "platform": "youtube",
-      "account_name": "CNA",
-      "url": "https://www.youtube.com/user/channelnewsasia",
+      "account_name": "channelnewsasia",
+      "url": "https://www.youtube.com/@channelnewsasia",
       "source": "web_search"
     },
     {
       "platform": "instagram",
-      "account_name": "@channelnewsasia",
+      "account_name": "channelnewsasia",
       "url": "https://www.instagram.com/channelnewsasia/",
       "source": "web_search"
     },
@@ -55,107 +50,203 @@
     },
     {
       "platform": "tiktok",
-      "account_name": "@channelnewsasia",
+      "account_name": "channelnewsasia",
       "url": "https://www.tiktok.com/@channelnewsasia",
       "source": "web_search"
     }
   ],
   "digital_assets": [
     {
-      "name": "CNA官网",
+      "name": "CNA官方网站",
       "url": "https://www.channelnewsasia.com/",
-      "description": "CNA官方网站。",
+      "description": "CNA官方网站，提供24/7实时新闻更新，涵盖亚洲、新加坡及全球新闻报道、纪录片和时事节目。",
       "source": "https://www.channelnewsasia.com/"
     },
     {
-      "name": "CNA Live TV",
+      "name": "CNA Live TV直播",
       "url": "https://www.channelnewsasia.com/watch",
-      "description": "CNA在线直播。",
+      "description": "CNA在线直播频道，提供24小时不间断新闻直播，可在官网和meWATCH平台观看。",
       "source": "https://www.channelnewsasia.com/watch"
     },
     {
-      "name": "CNA Mobile App",
+      "name": "CNA移动应用",
       "url": "https://cna.asia/app",
-      "description": "CNA移动应用。",
+      "description": "CNA移动应用程序，支持iOS和Android平台，提供突发新闻推送和个性化新闻阅读体验。",
       "source": "https://cna.asia/app"
+    },
+    {
+      "name": "CNA Originals (FAST频道)",
+      "url": "https://www.channelnewsasia.com",
+      "description": "CNA的免费广告支持流媒体电视（FAST）频道，面向欧美观众提供精选长篇纪录片和时事节目，包括《Asia Tonight》和《East Asia Tonight》旗舰新闻节目。覆盖美国、加拿大、英国、德国、意大利、荷兰和北欧等市场。",
+      "source": "https://www.mediacorp.sg/media-releases/cna-now-available-more-180-million-homes-and-connected-devices-worldwide-following-strategic-expansion-europe-189036"
+    },
+    {
+      "name": "CNA938电台",
+      "url": "https://www.channelnewsasia.com",
+      "description": "CNA同品牌新闻广播频率，提供全天候新闻和时事广播节目，前身938Now于2019年更名为CNA938。",
+      "source": "https://en.wikipedia.org/wiki/Channel_NewsAsia"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000205",
-      "name": "Tham Loke Kheng",
-      "title": "CEO",
-      "title_description": "CEO, Mediacorp",
-      "description": "新传媒集团CEO，统领包括CNA在内的所有媒体资产。"
+      "person_id": "SG-PERSON-000181",
+      "name": "谭丽琼 (Tham Loke Kheng)",
+      "title": "首席执行官 (CEO, Mediacorp)",
+      "title_description": "新传媒集团CEO兼董事，统领包括CNA在内的所有媒体资产",
+      "description": "谭丽琼于2017年9月出任Mediacorp CEO，是一位资深媒体行业高管。她早年就职于新加坡广播公司（SBC），后历任StarHub内容与营销主管、台湾宽频通讯总裁和香港NOW TV主管等亚洲媒体公司高管职位。同时担任Mediacorp董事。"
     },
     {
       "person_id": "SG-PERSON-000225",
       "name": "Walter Fernandez",
-      "title": "总编辑兼首席可持续发展官",
-      "title_description": "Editor-in-Chief & CSO, Mediacorp",
-      "description": "同时担任CNA总编辑和Mediacorp首席可持续发展官。"
+      "title": "总编辑兼首席可持续发展官 (Editor-in-Chief & Chief Sustainability Officer)",
+      "title_description": "Mediacorp总编辑兼首席可持续发展官，负责CNA新闻内容的总体编辑方针和可持续发展战略",
+      "description": "Walter Fernandez于2001年加入Mediacorp，2013年起担任总编辑，负责全媒体平台的新闻和时事内容，重点推动CNA的全球扩张。2021年起兼任首席可持续发展官，主导Mediacorp的可持续发展倡议。拥有超过30年新闻从业经验，此前曾在《海峡时报》工作。同时领导新闻编辑室的AI战略和解决方案。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-MEDIA-003-DEPT-001",
-      "name": "introducing a new studio at the Marina Bay Financial Centre",
-      "head": null,
-      "description": null,
+      "name": "英文新闻部 (English News & Current Affairs)",
+      "head": "Walter Fernandez",
+      "description": "负责CNA英文新闻和时事节目的制作和编辑，包括《亚洲早晨新闻》(Asia First)、《亚洲晚间新闻》(Asia Tonight)、《东亚晚间新闻》(East Asia Tonight)和《新加坡晚间新闻》(Singapore Tonight)等旗舰节目。覆盖全球约50名驻外记者的调度管理。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-MEDIA-003-DEPT-002",
-      "name": "a new Mumbai bureau",
+      "name": "中文新闻与时事部 (Chinese News & Current Affairs)",
+      "head": "黄慧玲 (Wee Wai Lin)",
+      "description": "负责Mediacorp所有平台的中文新闻和时事内容制作。黄慧玲于2025年被任命为部门主管兼总编辑，1990年加入Mediacorp，拥有超过35年媒体经验。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-MEDIA-003-DEPT-003",
+      "name": "国际记者网络 (Global Bureau Network)",
       "head": null,
-      "description": null,
+      "description": "CNA在全球设有约15个亚洲主要城市记者站（包括北京、香港、雅加达、首尔、东京、曼谷、仰光、胡志明市等），以及23个北美、欧洲和非洲记者站。总计约50名驻外记者，其中35人驻扎在亚洲重点城市。此外在纽约、华盛顿特区、伦敦和布鲁塞尔设有记者站。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-MEDIA-003-DEPT-004",
+      "name": "纪录片与专题部 (Documentaries & Special Features)",
+      "head": null,
+      "description": "负责制作CNA获奖纪录片系列，包括《Insight》（调查纪录片）、《Undercover Asia》（亚洲社会调查）、《Walk the Line》和《The Mark of Empire》等品牌节目。自2013年以来累计获得超过650项国际奖项。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-MEDIA-003-DEPT-005",
+      "name": "数字媒体部 (Digital Media)",
+      "head": null,
+      "description": "负责CNA数字平台运营，包括官方网站、社交媒体账号、移动应用和FAST频道（CNA Originals）的内容分发。推动AI翻译和个性化内容推荐等创新应用。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
-      "date": "2025-01-01",
-      "title": "Walter Fernandez兼任首席可持续发展官",
-      "description": "Mediacorp将可持续发展融入新闻和媒体运营。",
-      "impact": "加大ESG和可持续发展报道投入。",
-      "source": "https://www.channelnewsasia.com/"
+      "date": "2026-03-09",
+      "title": "CNA全球足迹翻倍，覆盖超过1.8亿家庭和联网设备",
+      "description": "CNA宣布通过与欧洲和北美领先电视和技术提供商的战略合作，成功将全球覆盖范围从两年前翻倍至超过1.8亿家庭和联网设备。CNA Originals频道已扩展至德国、意大利、荷兰、北欧、英国、美国和加拿大等市场。此里程碑在柏林举办的两日活动中庆祝，包括面向250名外交官和商界领袖的专属展示和吸引近3000名柏林市民的公开活动。",
+      "impact": "标志着CNA从区域性亚洲新闻网络向全球性新闻品牌转型的重要里程碑，显著提升了新加坡媒体的国际影响力。",
+      "source": "https://www.mediacorp.sg/media-releases/cna-now-available-more-180-million-homes-and-connected-devices-worldwide-following-strategic-expansion-europe-189036"
     },
     {
-      "date": "2025-01-01",
-      "title": "CNA在纽约电影节获多项殊荣",
-      "description": "Mediacorp旗下CNA在纽约电影节获24项大奖。",
-      "impact": "提升国际品牌认知度。",
-      "source": "https://www.channelnewsasia.com/"
+      "date": "2025-05-26",
+      "title": "Mediacorp获世界媒体节首届'年度广播公司'大奖",
+      "description": "Mediacorp在2025年德国柏林世界媒体节（WMF）电视与企业媒体大奖中荣获首届'年度广播公司'大奖。CNA在三个国际大奖赛中共获得91项荣誉，包括WMF的47项（两项特别奖、18项金奖）以及纽约电影节的多个奖项。",
+      "impact": "巩固了CNA作为亚洲领先国际新闻品牌的地位，其纪录片和时事节目质量获得全球行业认可。",
+      "source": "https://www.channelnewsasia.com/singapore/cna-international-awards-wmf-nyf-walk-line-5148746"
+    },
+    {
+      "date": "2024-11-25",
+      "title": "CNA在英国正式上线",
+      "description": "CNA在英国通过Freeview（276频道）、Freely（579频道）和社交电视平台Bolt+上线，使CNA全球覆盖范围扩大至1.1亿家庭。此前CNA已于2024年6月在北美正式上线。在伦敦泛太平洋酒店举办的发布活动吸引了200余位外交官、智库代表和商界领袖出席。",
+      "impact": "欧洲市场拓展是CNA全球增长战略的重要组成部分，使CNA成为向西方决策者提供亚洲视角的关键窗口。",
+      "source": "https://www.channelnewsasia.com/singapore/cna-uk-britain-launch-global-expansion-growth-asian-perspectives-4768551"
+    },
+    {
+      "date": "2024-10-01",
+      "title": "TODAY并入CNA数字新闻编辑室",
+      "description": "Mediacorp旗下数字媒体《今日报》(TODAY)正式并入CNA数字新闻编辑室运营。TODAY品牌转型为CNA旗下的数字长篇周末杂志'CNA TODAY'。合并不涉及裁员，所有TODAY员工获聘至CNA。",
+      "impact": "整合Mediacorp数字新闻资源，扩大CNA的数字触达和受众参与度，同时保留TODAY品牌的长篇内容特色。",
+      "source": "https://www.channelnewsasia.com/singapore/today-merge-cna-become-digital-long-form-weekend-magazine-4571806"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "CNA入选YouGov 2026年新加坡十大品牌",
+      "description": "根据YouGov 2026年最佳品牌排名报告，CNA位列新加坡第九名。路透研究所此前调查也显示CNA是新加坡在线触达率最高和信任度最高的本地新闻媒体。",
+      "impact": "印证CNA作为新加坡最具影响力和最受信任的新闻品牌的地位。",
+      "source": "https://en.wikipedia.org/wiki/Channel_NewsAsia"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-MEDIA-001",
-      "org_name": "Mediacorp",
+      "org_name": "新传媒 (Mediacorp)",
       "org_type": "MEDIA",
-      "org_description": "CNA的母公司。",
+      "org_description": "CNA的母公司。Mediacorp是新加坡国家媒体网络和最大的内容创作者，每周以四种语言覆盖99%的新加坡人口。由Niam Chiang Meng担任董事长，Tham Loke Kheng担任CEO。旗下拥有电视台、电台、数字平台和内容制作业务。",
       "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "SG-MEDIA-002",
+      "org_name": "SPH Media (新报业媒体信托)",
+      "org_type": "MEDIA",
+      "org_description": "新加坡另一大媒体集团，与Mediacorp构成双寡头格局。SPH Media以报纸出版为主，而Mediacorp以广播电视为主，两者在新闻领域既竞争又合作。",
+      "relationship_type": "partner"
     }
   ],
-  "core_business": "亚洲新闻台（英語：CNA，原名為Channel NewsAsia）是位于新加坡以报道亚太新闻为主的电视频道，1999年3月1日开播，由新傳媒私人有限公司（Mediacorp）全資擁有，覆盖范围超过20个亚洲国家和地区，播出语言以英语为主，附带少量日语及华语。此频道分为两个版本——新加坡版本以及国际版本。同时新传媒电台也有同名广播频率——CNA938。\n台徽\n亚洲新闻台台徽灵感來自於英文單詞「Asia」（亞洲），將首寫字母「A」變形為三角形狀並用紅色修飾，將字母A中的橫槓放低，使其坐在地面，是為了給人以從地面升起的印象，反應一個新興的亞洲。用紅色是因為紅色比較醒目，同時紅色在許多亞洲文化中也代表著吉祥。\n概况\n亚洲新闻台隶属新加坡新传媒集团，节目内容以亚太地区政治、商业和社会新闻为主，兼具保健、饮食、旅游、科技资讯；有别于西方媒体对亚洲新闻事件的报道，亚洲新闻台定位于以亚洲人视角报道亚洲的新闻时事。\n2017年3月26日，亚洲新闻台搬遷至緯壹科技城內的媒體城，並啟用新攝影棚。\n2019年3月1日，亞洲新聞台開播20週年，更名為CNA，并且更新新闻节目开场画面，其荧幕下方显示新闻重点的模式更改为从横右边滚动至左边的跑马移动模式显示新闻重点。\n2020年10月27日，每日午夜播出的《News Now》更名為《World Tonight》（世界晚間新聞）（现已停播）。\n2023年2月1日凌晨0:00开始，亚洲新闻台画面右上角的“mediacorp”更换为透明的圆底“M”logo。\n節目\n新聞節目\n亞洲早晨新聞（Asia First）：平日07:00~10:00播出\n亞洲新聞（Asia Now）：2019年4月1日開播，為觀眾帶來最新的新聞\n東亞晚間新聞（East Asia Tonight）：平日18:00~19:00播出\n亞洲晚間新聞（Asia Tonight）：平日20:00~21:00，假日20:00~20:30播出\n新聞提要（Headlines)：播報2分鐘當地和世界新聞。\n新加坡晚間新聞（Singapore Tonight）：播報當地重要和世界新聞，讓你洞悉各地大事 平日22:00~23:00，假日22:00~22:30播出\n外購節目\nJapan Hour（隱藏式字幕）\n参考资料\n外部链接\n亚洲新闻网英语版（页面存档备份，存于互联网档案馆）",
+  "core_business": "CNA（原名Channel NewsAsia，中文译名亚洲新闻台）是总部位于新加坡的跨国新闻频道，由新加坡国家媒体网络Mediacorp全资拥有，于1999年3月1日开播。CNA以'了解亚洲'(Understand Asia)为品牌定位，致力于从亚洲视角报道全球新闻事件，旨在成为西方主流国际媒体之外的替代新闻来源。\n\nCNA的核心业务为24小时英语新闻电视频道运营和数字新闻内容分发。电视频道分为新加坡版本（包含《新加坡晚间新闻》等本地节目）和国际版本，通过地面数字电视（DVB-T2）、卫星、有线和流媒体平台覆盖亚太29个国家和地区。旗舰新闻节目包括：《亚洲早晨新闻》(Asia First，07:00-10:00)、《东亚晚间新闻》(East Asia Tonight，18:00-19:00)、《亚洲晚间新闻》(Asia Tonight，20:00-21:00)和《新加坡晚间新闻》(Singapore Tonight，22:00-23:00)。\n\n在数字领域，CNA运营官方网站、移动应用和多个社交媒体平台，同时在YouTube上进行24/7直播。CNA还运营同品牌新闻广播频率CNA938。2024年起，CNA通过免费广告支持流媒体电视（FAST）频道CNA Originals大举进军欧美市场，至2026年3月已覆盖超过1.8亿家庭和联网设备。CNA Originals提供精选长篇纪录片和时事节目，以及两档旗舰新闻节目。\n\nCNA拥有约50名驻外记者，其中35人驻扎在亚洲重点城市，包括15个亚洲主要城市记者站和23个北美、欧洲及非洲记者站。自2013年以来，CNA累计获得超过650项国际奖项，包括国际艾美奖提名、戛纳企业媒体与电视奖、纽约电影节奖和国际广播协会(AIB)年度频道等荣誉。2025年5月，Mediacorp在柏林世界媒体节上荣获首届'年度广播公司'大奖。\n\nCNA的台标灵感来自英文单词'Asia'中的首字母'A'，将其变形为开放的三角形，横杠降低象征从地面升起的新兴亚洲。红色代表在许多亚洲文化中的吉祥寓意。2019年3月，为纪念开播20周年，频道从'Channel NewsAsia'更名为'CNA'，以强调其多平台身份而非仅限于电视。CNA总部位于新加坡纬壹科技城媒体城(Mediacorp Campus)。",
   "industries": [
-    "broadcasting"
+    "broadcasting",
+    "digital_media"
   ],
-  "apec_stance": "CNA是APEC区域经济动态的重要报道平台。长期关注亚太区域贸易和经济合作议题，包括APEC峰会的深度报道。在塑造APEC区域公众舆论方面具有独特影响力。",
+  "apec_stance": "CNA是APEC区域经济和政治动态的重要报道平台。作为亚洲视角的新闻网络，CNA长期关注亚太区域贸易、经济合作和安全议题，对历届APEC峰会进行深度报道。CNA在15个亚洲城市设有记者站，对APEC成员国（包括中国、日本、韩国、印尼、马来西亚、越南等）的政治和经济事务具有深度的本地化报道能力。通过2024-2026年的全球扩张战略，CNA已将亚洲视角的新闻分析带到北美和欧洲的决策者面前，在塑造国际社会对APEC区域事务的理解方面具有独特而重要的桥梁作用。CNA与新加坡政府的密切关系使其报道兼具可信度和政策洞察力，但也存在被认为是亲政府立场的批评。2025年路透研究所调查显示，CNA是新加坡在线触达率最高和信任度最高的本地新闻来源。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/330px-CNA_new_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikidata",
       "official_website",
       "web_search"
     ],
-    "completeness_score": 90,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 75)"
+    "completeness_score": 83,
+    "notes": "Phase 3 enrichment: comprehensive overhaul based on multi-source research. Updated key_people with Chinese names and expanded descriptions. Added 5 departments reflecting actual editorial and operational structure. Expanded recent_events with verified 2024-2026 events. Expanded digital_assets with CNA Originals FAST channel and CNA938. Updated core_business and apec_stance with detailed current information.",
+    "quotes": [
+      {
+        "title": "CNA (TV network) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Channel_NewsAsia"
+      },
+      {
+        "title": "亚洲新闻台 - 维基百科",
+        "url": "https://zh.wikipedia.org/wiki/亚洲新闻台"
+      },
+      {
+        "title": "Mediacorp Management Team & Board of Directors",
+        "url": "https://www.mediacorp.sg/corporate/leadership"
+      },
+      {
+        "title": "CNA UK Launch - CNA",
+        "url": "https://www.channelnewsasia.com/singapore/cna-uk-britain-launch-global-expansion-growth-asian-perspectives-4768551"
+      },
+      {
+        "title": "CNA 180 Million Homes Expansion - Mediacorp",
+        "url": "https://www.mediacorp.sg/media-releases/cna-now-available-more-180-million-homes-and-connected-devices-worldwide-following-strategic-expansion-europe-189036"
+      },
+      {
+        "title": "Mediacorp Broadcaster of the Year WMF 2025",
+        "url": "https://www.channelnewsasia.com/singapore/cna-international-awards-wmf-nyf-walk-line-5148746"
+      },
+      {
+        "title": "TODAY merges with CNA - CNA",
+        "url": "https://www.channelnewsasia.com/singapore/today-merge-cna-become-digital-long-form-weekend-magazine-4571806"
+      },
+      {
+        "title": "Mediacorp crowned broadcaster of the year 2025 - ABU",
+        "url": "https://www.abu.org.my/2025/06/01/mediacorp-wins-inaugural-broadcaster-of-the-year-award-at-wmf-2025/"
+      }
+    ]
   }
 }

@@ -1,19 +1,20 @@
 {
   "org_id": "SG-SOE-006",
   "basic_info": {
-    "name_original": "新加坡郵政",
-    "name_zh": "新加坡郵政",
-    "name_en": "Singapore Post",
+    "name_original": "Singapore Post Limited",
+    "name_en": "Singapore Post Limited",
+    "name_zh": "新加坡邮政",
     "aliases": [
       "Singapore Post Limited",
       "SingPost",
-      "新加坡郵政"
+      "新加坡邮政",
+      "SGX: S08"
     ],
     "org_type": "SOE",
     "org_subtype": "gov_linked_company",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1819-01-01",
+    "founded_date": "1858-10-01",
     "website": "https://www.singpost.com/"
   },
   "social_accounts": [
@@ -34,103 +35,143 @@
       "account_name": "singpost",
       "url": "https://www.instagram.com/singpost/",
       "source": "web_search"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Singapore Post",
+      "url": "https://www.linkedin.com/company/singapore-post/",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
     {
       "name": "SingPost官方网站",
       "url": "https://www.singpost.com",
-      "description": "SingPost官方网站，提供邮政服务、物流方案和新闻发布",
-      "source": "web_search"
+      "description": "SingPost官方网站，提供邮政服务、物流方案、新闻发布和在线追踪服务",
+      "source": "official_website"
     },
     {
       "name": "SingPost新闻中心",
       "url": "https://www.singpost.com/about-us/news-releases/",
       "description": "SingPost官方新闻发布和公告",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
-      "name": "SingPost@MyBlock",
-      "url": "https://www.singpost.com/singpostatmyblock",
-      "description": "住宅邮箱试点项目，允许居民在组屋信箱直接寄信和退货",
-      "source": "web_search"
+      "name": "SingPost投资者关系",
+      "url": "https://www.singpost.com/investor-relations/",
+      "description": "SingPost投资者关系页面，含财报、公告和公司治理信息",
+      "source": "official_website"
+    },
+    {
+      "name": "POPStation自助取件服务",
+      "url": "https://www.singpost.com/send-receive/popstation",
+      "description": "POPStation自助包裹取件服务网络，覆盖新加坡全岛",
+      "source": "official_website"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000180",
-      "name": "Mark Chong",
-      "title": "Group Chief Executive Officer",
-      "title_description": "SingPost新任集团CEO，负责公司全球业务和战略转型",
-      "description": "Mark Chong为新加坡电信（Singtel）资深高管，于2025年11月1日正式出任SingPost集团CEO。他表示将带领高管团队聚焦国内运营，开启公司新篇章。"
+      "person_id": "SG-PERSON-000204",
+      "name": "张秀丽 (Teo Swee Lian)",
+      "title": "董事会主席 (Chairman)",
+      "title_description": "SingPost董事会主席，非执行非独立董事",
+      "description": "张秀丽现年65岁，曾任新加坡金融管理局（MAS）高级顾问，在MAS服务超过27年，涵盖外汇储备管理、金融部门发展、战略规划和金融监管等领域。现任汇丰控股（HSBC Holdings PLC）董事及凯德综合商业信托管理有限公司主席。2025年5月21日被任命为SingPost董事会主席，接替任职9年后退休的Simon Israel。"
     },
     {
-      "person_id": "SG-PERSON-000204",
-      "name": "Teo Swee Lian (张秀丽)",
-      "title": "Chairman",
-      "title_description": "SingPost新任董事会主席，接替Simon Israel",
-      "description": "张秀丽为新加坡金融管理局（MAS）前高级官员，被任命为SingPost新任主席，接替任职9年的Simon Israel。"
+      "person_id": "SG-PERSON-000180",
+      "name": "钟振国 (Mark Chong Chin Kok)",
+      "title": "集团首席执行官 (Group Chief Executive Officer)",
+      "title_description": "负责SingPost集团整体战略和运营，推动公司向科技驱动型物流企业转型",
+      "description": "钟振国现年62岁，于2025年11月1日正式出任SingPost集团CEO。此前在新加坡电信（Singtel）服务28年，历任集团首席企业官、国际业务CEO、集团首席技术官等要职。拥有法国ENSERG电子工程学士及硕士学位、新加坡国立大学MBA学位。他强调高管团队将聚焦国内运营稳定，带领公司开启新篇章。"
     },
     {
       "person_id": "SG-PERSON-000182",
-      "name": "Neo Su Yin (黄素燕)",
-      "title": "Group Chief Operating Officer",
-      "title_description": "负责SingPost全球运营，兼管新加坡国内业务",
-      "description": "于2025年1月被任命为集团COO（新设立职位），拥有20多年管理经验。在历任集团CEO离职期间曾承担额外职责。"
+      "name": "黄素燕 (Neo Su Yin)",
+      "title": "集团首席运营官 (Group Chief Operating Officer)",
+      "title_description": "负责SingPost全球运营和业务转型执行",
+      "description": "黄素燕于2025年1月被任命为集团COO（新设立职位），拥有20多年物流和航空管理经验。曾在新加坡樟宜机场集团担任总经理，并在新加坡共和国海军服役17年，曾任军舰指挥官。她是新加坡武装部队功绩奖学金获得者。"
     },
     {
-      "person_id": "SG-PERSON-000211",
-      "name": "Vincent Phang (潘伟明)",
-      "title": "Former Group CEO",
-      "title_description": "已被解雇的前任集团CEO",
-      "description": "曾任SingPost集团CEO，后被公司解雇。FY2025获得61.64万新元薪酬。"
+      "person_id": "SG-PERSON-000296",
+      "name": "Isaac Mah",
+      "title": "首席财务官 (Chief Financial Officer)",
+      "title_description": "负责SingPost集团财务和投资管理",
+      "description": "Isaac Mah为特许会计师，于2025年1月22日被任命为CFO。2019年加入SingPost以来历任战略投资主管和投资者关系负责人，主导了SingPost在澳洲的投资及后续剥离交易。持有东伦敦大学会计与金融一等荣誉学士学位。"
+    },
+    {
+      "person_id": "SG-PERSON-000297",
+      "name": "Gavin Pathross",
+      "title": "首席信息技术官 (Chief Information Technology Officer)",
+      "title_description": "负责SingPost集团信息技术战略和数字化转型",
+      "description": "Gavin Pathross于2026年1月加入SingPost，拥有超过20年的国际经验，曾在德勤、喜力、百胜餐饮集团等企业担任高级技术职务。拥有清华大学和INSEAD联合EMBA学位。"
+    },
+    {
+      "person_id": "SG-PERSON-000298",
+      "name": "潘伟明 (Vincent Phang)",
+      "title": "前任集团CEO (Former Group CEO)",
+      "title_description": "因举报人事件处理不当被解雇的前任集团CEO",
+      "description": "潘伟明曾任SingPost集团CEO，2024年12月因对举报人（whistleblower）报告的处理方式存在失职被公司解雇，同时被解雇的还有CFO Vincent Yik和国际业务CEO李宇（Li Yu）。FY2025获得61.64万新元薪酬（较之前减半）。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-SOE-006-DEPT-001",
-      "name": "1982年，新加坡郵政服務部被併入當時的新加坡電信局（Telecommunication Authority of Singapore）。",
+      "name": "新加坡邮政与物流事业部 (Singapore Postal & Logistics)",
       "head": null,
-      "description": null,
+      "description": "负责新加坡国内邮件收寄、分拣和投递，以及国内电商物流服务。运营44个邮局和配送基地，以及POPStation自助取件网络和POPDrop自助服务终端。截至2025年8月共有36台POPDrop终端。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-006-DEPT-002",
-      "name": "2003年，新加坡郵政私人有限公司更名為新加坡郵政有限公司（Singapore Post Limited），並在新加坡交易所（SGX-ST）的主板上市。",
+      "name": "国际业务部 (International Business Unit)",
       "head": null,
-      "description": null,
+      "description": "负责跨境电商物流服务，覆盖中国、香港、东南亚等市场。2024年曾因手动录入投递状态代码无支持文件的事件引发举报人风波，导致三名高管被解雇。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-006-DEPT-003",
-      "name": "外部链接",
+      "name": "电子商务物流部 (eCommerce Logistics)",
       "head": null,
-      "description": null,
+      "description": "负责仓储、履约和国际货运代理服务。通过Quantium Solutions等子公司提供亚太区电商物流解决方案。2024年集团重组后划分为独立业务单元。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-006-DEPT-004",
-      "name": "官方网站",
-      "head": null,
-      "description": null,
+      "name": "集团技术与创新部 (Group Technology & Innovation)",
+      "head": "Gavin Pathross",
+      "description": "负责SingPost集团信息技术架构、数字化转型和创新项目，包括无人机投递、自动化物流平台等前沿技术应用。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-SOE-006-DEPT-005",
-      "name": "相關條目",
-      "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-SOE-006-DEPT-006",
-      "name": "新加坡郵政編碼",
-      "head": null,
-      "description": null,
+      "name": "集团财务与投资部 (Group Finance & Investment)",
+      "head": "Isaac Mah",
+      "description": "负责集团财务管理、投资并购、投资者关系和风险管理。主导了澳洲业务FMH的收购及后续剥离。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
+    {
+      "date": "2026-05-07",
+      "title": "SingPost与Asendia建立战略合作伙伴关系，强化亚太跨境电商物流网关",
+      "description": "国际电商物流 specialist Asendia与SingPost宣布建立战略合作伙伴关系，旨在强化新加坡及亚太地区的跨境电商物流能力。合作回应2025年美国取消小额免税和2026年7月欧盟即将实施的150欧元以下商品免税取消等全球贸易政策变化。双方将推出DDP（完税后交货）解决方案，帮助商家应对欧盟新规。",
+      "impact": "标志着SingPost在全球贸易政策剧变背景下积极拓展跨境物流网络，巩固新加坡作为亚太电商物流枢纽的地位。",
+      "source": "https://www.singpost.com/about-us/news-releases/asendia-and-singapore-post-form-strategic-partnership-strengthen-apac-cross"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Zelostech深化与SingPost合作，加速全自动驾驶公共道路部署",
+      "description": "自动驾驶技术公司Zelostech与SingPost深化战略合作，推进全自动驾驶在公共道路的部署应用。",
+      "impact": "展示SingPost在物流自动化和无人驾驶配送领域的技术布局。",
+      "source": "https://www.singpost.com/about-us/news-releases/zelostech-deepens-strategic-partnership-singapore-post-accelerate-fully"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "SingPost与SkyNet Worldwide Express建立独家战略合作",
+      "description": "SingPost与SkyNet Worldwide Express签署独家战略合作协议，旨在增强新加坡的电商物流服务能力。",
+      "impact": "扩展SingPost在马来西亚及东南亚地区的物流网络覆盖。",
+      "source": "https://www.singpost.com/about-us/news-releases/singpost-and-skynet-worldwide-express-establish-exclusive-strategic"
+    },
     {
       "date": "2025-11-01",
       "title": "Mark Chong正式就任SingPost集团CEO，聚焦国内运营",
@@ -146,40 +187,148 @@
       "source": "https://www.singpost.com/about-us/news-releases/"
     },
     {
-      "date": "2026-01-01",
-      "title": "SingPost国内邮件新费率生效",
-      "description": "SingPost宣布国内标准邮件新费率于2026年1月1日起生效，同时推出包裹和快递的新价格结构。",
-      "impact": "反映运营成本上升和商业模式调整。",
-      "source": "https://www.singpost.com/about-us/news-releases/"
+      "date": "2025-10-19",
+      "title": "SingPost推出住宅邮箱试点项目",
+      "description": "SingPost在组屋区推出住宅邮箱（Residential Posting Box）试点项目，将邮政服务延伸至居民楼下，方便居民直接寄信和退货包裹。",
+      "impact": "创新邮政服务模式，提升最后一公里邮政便利性。",
+      "source": "https://www.singpost.com/about-us/news-releases/singpost-launches-residential-posting-box-trial-bring-postal-services-closer"
+    },
+    {
+      "date": "2025-09-25",
+      "title": "SingPost任命Mark Chong为集团CEO",
+      "description": "SingPost宣布任命前Singtel高管Mark Chong为新任集团CEO，11月1日生效。这是该公司经历前CEO因举报人事件被解雇后的重大人事任命。",
+      "impact": "结束数月的CEO空缺，为SingPost战略转型提供新的领导力。",
+      "source": "https://www.singpost.com/about-us/news-releases/singpost-appoints-mark-chong-group-chief-executive-officer"
+    },
+    {
+      "date": "2025-05-21",
+      "title": "张秀丽被任命为SingPost董事会主席",
+      "description": "前MAS高级官员张秀丽（Teo Swee Lian）被任命为SingPost董事会主席，接替任职9年后退休的Simon Israel。该任命被视为SingPost董事会更新的重要里程碑。",
+      "impact": "完成董事会层面的领导层更新，为公司治理带来新气象。",
+      "source": "https://www.channelnewsasia.com/singapore/singpost-new-chairman-teo-swee-lian-simon-israel-5143311"
+    },
+    {
+      "date": "2025-03-31",
+      "title": "SingPost完成澳洲业务FMH剥离",
+      "description": "SingPost将旗下澳洲物流业务Freight Management Holdings（FMH）出售给私募股权公司Pacific Equity Partners，现金对价约7.759亿澳元（约5.041亿美元）。此次剥离使SingPostFY2025全年净利润达2.451亿新元，较上年翻番以上。",
+      "impact": "大幅改善财务表现，但核心业务盈利能力仍面临挑战，新加坡邮政及国际业务运营利润率仅约1%。",
+      "source": "https://www.theedgesingapore.com/capital/results/singpost-1hfy2026-underlying-net-profit-plunges-78-y-o-y-discontinued-operations"
+    },
+    {
+      "date": "2024-12-22",
+      "title": "SingPost解雇CEO等三名高管，引发企业治理震动",
+      "description": "SingPost解雇集团CEO Vincent Phang、CFO Vincent Yik及国际业务CEO Li Yu，三人被指对举报人报告处理失职。举报人报告揭露国际业务部门在无支持文件的情况下手动录入投递状态代码，以规避向客户的合同违约金赔偿。三名被解雇高管表示异议。",
+      "impact": "新加坡企业界罕见的最高层解雇事件，引发对公司治理和举报人保护机制的广泛讨论。",
+      "source": "https://www.channelnewsasia.com/singapore/singpost-fires-ceo-vincent-phang-cfo-vincent-yik-whistleblower-report-without-merits-4822176"
+    },
+    {
+      "date": "2025-02-01",
+      "title": "SingPost裁员45人进行组织重组",
+      "description": "作为\"重组\"计划的一部分，SingPost在2025年2月裁员45名员工。",
+      "impact": "反映公司在剥离澳洲业务后聚焦核心业务、精简组织的战略方向。",
+      "source": "https://www.channelnewsasia.com/singapore/singpost-new-ceo-ecommerce-logistics-5457331"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-SOE-004",
-      "org_name": "Singapore Telecommunications (Singtel, 新加坡电信)",
+      "org_name": "新加坡电信 (Singapore Telecommunications / Singtel)",
       "org_type": "SOE",
-      "org_description": "SingPost前母公司，新任CEO Mark Chong来自Singtel",
-      "relationship_type": "partner"
+      "org_description": "SingPost的关联公司（associate company），Singtel通过持股与SingPost保持紧密关系。新任CEO Mark Chong来自Singtel，董事会成员Gan Siok Hoon为Singtel现任副集团首席企业官。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-GOV-017",
+      "org_name": "淡马锡控股 (Temasek Holdings)",
+      "org_type": "SOE",
+      "org_description": "SingPost最大股东，持股约21.71%。淡马锡为新加坡政府投资公司，与SingPost同属政联公司体系。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿里巴巴集团 (Alibaba Group)",
+      "org_type": "CORP",
+      "org_description": "SingPost第二大股东，持股约11.21%。2014年以2.5亿美元认购10.35%股份，2016年增持至14.51%并投资子公司Quantium Solutions。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "Asendia",
+      "org_type": "CORP",
+      "org_description": "国际电商和邮政 specialist，由法国邮政和瑞士邮政联合创立。2026年5月与SingPost建立战略合作伙伴关系，共同强化亚太跨境电商物流。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "CouriersPlease Pty Ltd",
+      "org_type": "CORP",
+      "org_description": "澳洲国内快递公司，原为SingPost全资子公司Quantium Solutions（澳洲）于2014年从新西兰邮政集团收购。已随澳洲业务剥离而出售。",
+      "relationship_type": "subsidiary"
     }
   ],
-  "core_business": "新加坡郵政（SGX：S08，英語：Singapore Post Limited，簡稱：SingPost、新郵）是一家新加坡民營化的公司，過去曾是新加坡電信局的一個部門，現為新加坡電信及阿里巴巴集團的關係企業。\n新加坡郵政是第一家公共郵政被許可人，新加坡電信局於1992年根據電信管理法第42條授予許可。作為被許可人，新加坡郵政被授權以獨佔特權經營、操作國際郵件及包裹的接收、收集和遞送。\n沿革\n1819年，史丹福‧萊佛士（Stamford Raffles）在新加坡成立了一間郵局，僅由三人運營。\n1858年10月，貿易蓬勃發展，為因應海運和郵遞的需求增長，郵局成為海事處的一個郵政部門。\n1949年，郵政部改由馬來西亞聯邦郵政總局管理。\n1965年8月9日，新加坡獨立，之後分階段接管了郵政部。\n1966年1月8日，郵政部被聯合國的國際郵政機構萬國郵政聯盟（UPU）錄取。\n1967年1月1日，新加坡郵政服務部（Postal Services Department）作為一個獨立的機構成立。\n1982年，新加坡郵政服務部被併入當時的新加坡電信局（Telecommunication Authority of Singapore）。\n1992年，新加坡電信局的業務被分拆為三個實體：重組後的新加坡電信局（現為資訊通信媒體發展局的一部分）、民營化的新加坡電信私人有限公司（現為新加坡電信有限公司）及其子公司：新加坡郵政私人有限公司（Singapore Post Private Limited）。\n2003年，新加坡郵政私人有限公司更名為新加坡郵政有限公司（Singapore Post Limited），並在新加坡交易所（SGX-ST）的主板上市。\n2014年5月，中國的阿里巴巴集團入股新加坡郵政，以2.5億美元認購10.35%股份。\n2016年7月，阿里巴巴集團增加新加坡郵政的股份至14.51％，並投資新加坡郵政的子公司冠庭國際物流股份有限公司（Quantium Solutions Co, Ltd.）。\n子公司\nCouriersPlease Pty Ltd.（澳洲的國內快遞）\nFamous Holdings Pte Ltd.（貨運承攬）\nGeneral Storage Company Pte Ltd.（倉儲）\nQuantium Solutions Co, Ltd.（新加坡郵政在海外的郵政服務網絡）\nSingpost Ecommerce Pte Ltd.（電子商務）\n参考\n外部链接\n官方网站\n相關條目\n新加坡郵政編碼",
+  "core_business": "新加坡邮政（Singapore Post Limited，简称SingPost，SGX: S08）是新加坡指定的公共邮政服务许可证持有者，也是亚太地区领先的邮政和电商物流服务商。公司历史可追溯至1858年，最初为殖民时期的邮政部门，历经多次体制变革——1982年并入新加坡电信局（TAS），1992年随电信业务拆分成为新加坡电信（Singtel）的子公司，2003年在新加坡交易所主板上市（SGX: S08）并更名为Singapore Post Limited。\n\nSingPost的核心业务涵盖三大板块：（1）新加坡邮政与物流——国内邮件收寄、分拣和投递，运营44个邮局和配送基地，以及覆盖全岛的POPStation自助取件和POPDrop自助服务终端网络；（2）国际业务——跨境电商物流，服务覆盖中国、香港、东南亚等市场，通过Quantium Solutions等子公司提供仓储、履约和货运代理服务；（3）电子商务物流——为电商平台提供端到端物流解决方案。公司约3000名员工，服务覆盖全球220多个目的地。\n\n主要股东包括淡马锡控股（21.71%）和阿里巴巴集团（11.21%）。公司近年来经历重大战略转型：2024年12月因举报人事件解雇CEO等三名高管，引发企业治理震动；2025年3月完成以约7.759亿澳元将澳洲物流业务FMH出售给Pacific Equity Partners，使FY2025净利润翻番至2.451亿新元，但核心新加坡邮政及国际业务运营利润率仅约1%。2025年9月任命前Singtel高管Mark Chong为新任集团CEO，11月正式就任，新设COO职位由黄素燕担任，标志着公司在经历领导层危机后进入重建期。公司正积极拓展跨境物流网络，2026年5月与Asendia建立战略合作伙伴关系以应对欧盟和美国贸易政策变化，同时布局无人机投递、自动驾驶物流等前沿技术领域。",
   "industries": [
-    "investment"
+    "logistics_warehousing",
+    "ecommerce",
+    "transportation"
   ],
-  "apec_stance": null,
+  "apec_stance": "SingPost作为亚太地区重要的邮政和电商物流服务商，在APEC区域经济一体化中扮演物流枢纽角色。公司服务覆盖中国、东南亚等APEC主要经济体，与阿里巴巴集团的战略合作以及2026年与Asendia建立的跨境物流伙伴关系，直接服务于APEC框架下的贸易便利化和数字经济互联互通目标。公司积极应对2025年美国取消小额免税和2026年欧盟海关改革等全球贸易政策变化，为亚太电商商家提供DDP（完税后交货）解决方案，体现了其在区域跨境电商生态中的关键桥梁作用。SingPost的无人机投递、自动驾驶物流等技术创新也为APEC经济体在智慧物流领域提供了合作契机。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Singapore_Post_Logo.svg/330px-Singapore_Post_Logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_media"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with web search: key people, social accounts, recent events, related entities, digital assets (score: 92)"
+    "completeness_score": 100,
+    "notes": "Phase 3 enriched with comprehensive web research: updated key people (added CFO Isaac Mah, CITO Gavin Pathross), corrected founding date to 1858-10-01, expanded departments from Wikipedia scraping artifacts to real business units, added 8 new recent events, expanded related entities with Alibaba/Asendia/CouriersPlease, rewrote core_business and apec_stance, added LinkedIn social account",
+    "quotes": [
+      {
+        "title": "Singapore Post - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Singapore_Post"
+      },
+      {
+        "title": "SingPost Board of Directors and Key Executives",
+        "url": "https://www.singpost.com/about-us/corporate-information/board-of-directors-and-key-executives"
+      },
+      {
+        "title": "SingPost News Releases",
+        "url": "https://www.singpost.com/about-us/news-releases/"
+      },
+      {
+        "title": "Asendia and SingPost Strategic Partnership (7 May 2026)",
+        "url": "https://www.singpost.com/about-us/news-releases/asendia-and-singapore-post-form-strategic-partnership-strengthen-apac-cross"
+      },
+      {
+        "title": "CNA: New SingPost CEO says executive team will focus on domestic operations",
+        "url": "https://www.channelnewsasia.com/singapore/singpost-new-ceo-ecommerce-logistics-5457331"
+      },
+      {
+        "title": "CNA: Teo Swee Lian to succeed Simon Israel as SingPost chairman",
+        "url": "https://www.channelnewsasia.com/singapore/singpost-new-chairman-teo-swee-lian-simon-israel-5143311"
+      },
+      {
+        "title": "CNA: SingPost fires CEO over whistleblower report",
+        "url": "https://www.channelnewsasia.com/singapore/singpost-fires-ceo-vincent-phang-cfo-vincent-yik-whistleblower-report-without-merits-4822176"
+      },
+      {
+        "title": "The Edge Singapore: SingPost 1HFY2026 underlying net profit plunges 78%",
+        "url": "https://www.theedgesingapore.com/capital/results/singpost-1hfy2026-underlying-net-profit-plunges-78-y-o-y-discontinued-operations"
+      },
+      {
+        "title": "SingPost appoints Mark Chong as Group CEO",
+        "url": "https://www.singpost.com/about-us/news-releases/singpost-appoints-mark-chong-group-chief-executive-officer"
+      },
+      {
+        "title": "CNA: SingPost raises domestic mail rates by 10 cents in 2026",
+        "url": "https://www.channelnewsasia.com/singapore/singpost-increase-regular-domestic-postage-rates-10-cents-2026-5569141"
+      }
+    ]
   }
 }

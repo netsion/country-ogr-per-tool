@@ -2,21 +2,23 @@
   "org_id": "SG-CORP-004",
   "basic_info": {
     "name_original": "Grab",
-    "name_zh": "Grab",
-    "name_en": "Grab",
+    "name_zh": "Grab公司",
+    "name_en": "Grab Holdings Inc.",
     "aliases": [
       "MyTeksi",
-      "Grab Car",
-      "Grab Taxi",
       "GrabTaxi",
-      "GrabCar"
+      "GrabCar",
+      "Grab Holdings",
+      "GRAB"
     ],
     "org_type": "CORP",
-    "org_subtype": "private_company",
+    "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "2012-01-01",
-    "website": "https://www.grab.com"
+    "founded_date": "2012-06-01",
+    "website": "https://www.grab.com",
+    "stock_exchange": "NASDAQ: GRAB",
+    "isin": "KYG4124C1096"
   },
   "social_accounts": [
     {
@@ -26,21 +28,15 @@
       "source": "wikidata"
     },
     {
-      "platform": "facebook",
-      "account_name": "GrabPH",
-      "url": "https://facebook.com/GrabPH",
-      "source": "wikidata"
+      "platform": "twitter_x",
+      "account_name": "GrabSG",
+      "url": "https://x.com/GrabSG",
+      "source": "web_search"
     },
     {
       "platform": "facebook",
       "account_name": "Grab",
       "url": "https://www.facebook.com/Grab/",
-      "source": "web_search"
-    },
-    {
-      "platform": "twitter_x",
-      "account_name": "@GrabSG",
-      "url": "https://x.com/GrabSG",
       "source": "web_search"
     },
     {
@@ -60,84 +56,261 @@
     {
       "name": "Grab官网",
       "url": "https://www.grab.com",
-      "description": "Grab官方网站。",
+      "description": "Grab官方主页，展示叫车、外卖、支付等一站式超级App服务。",
       "source": "https://www.grab.com"
     },
     {
       "name": "Grab投资者关系",
       "url": "https://investors.grab.com/",
-      "description": "财报和公司治理信息。",
+      "description": "财报、SEC文件和公司治理信息。",
       "source": "https://investors.grab.com/"
+    },
+    {
+      "name": "Grab开发者门户",
+      "url": "https://developer.grab.com/",
+      "description": "Grab API开发者平台，提供支付、配送等接口。",
+      "source": "https://www.grab.com"
+    },
+    {
+      "name": "GrabMaps",
+      "url": "https://grabmaps.grab.com/",
+      "description": "Grab自研地图与定位技术平台，专为东南亚城市超本地化路线优化。",
+      "source": "https://en.wikipedia.org/wiki/Grab_(company)"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000143",
-      "name": "Anthony Tan",
-      "title": "联合创始人兼CEO",
-      "title_description": "Co-Founder and CEO",
-      "description": "哈佛商学院MBA毕业，将Grab从打车应用发展为东南亚超级App平台。"
+      "person_id": "SG-PERSON-000142",
+      "name": "陈炳耀 (Anthony Tan)",
+      "title": "董事长兼首席执行官 (Chairman & CEO)",
+      "title_description": "公司最高决策者，负责整体战略方向和业务发展。",
+      "description": "哈佛商学院MBA毕业，2012年与陈慧玲联合创立Grab（原名MyTeksi），将其从马来西亚打车应用发展为东南亚最大超级App平台。Grab在2021年通过SPAC方式登陆纳斯达克，创下当时最大SPAC合并纪录。"
     },
     {
       "person_id": "SG-PERSON-000184",
       "name": "Peter Oey",
-      "title": "CFO兼董事会成员",
-      "title_description": "CFO / Board Member",
-      "description": "负责Grab的财务战略和投资者关系。"
+      "title": "首席财务官 (CFO)",
+      "title_description": "负责公司财务战略、投资者关系和资本配置。",
+      "description": "Grab首席财务官，负责集团财务管理和投资者关系。2026年5月起不再担任董事会成员，由总裁Alex Hungate接替其董事会席位。"
+    },
+    {
+      "person_id": "SG-PERSON-000233",
+      "name": "洪伟强 (Alex Hungate)",
+      "title": "总裁兼首席运营官 (President & COO)",
+      "title_description": "负责Grab出行、配送和金融服务业务的整体运营，以及营销和用户支持职能。",
+      "description": "2022年加入Grab任总裁兼COO，此前曾任新加坡交易所CEO。哈佛商学院毕业，2026年5月加入Grab董事会。负责集团三大核心业务板块的日常运营管理。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-CORP-004-DEPT-001",
-      "name": "Grab invested in Indonesian conglomerate Lippo Group's Ovo platform",
+      "name": "出行事业部 (Mobility)",
       "head": null,
-      "description": null,
+      "description": "Grab核心打车业务，包括GrabCar、GrabTaxi、GrabBike、GrabShare等服务，覆盖东南亚8个国家319座城市。2025年获新加坡陆路交通管理局10年街头载客运营商牌照，成为新加坡第六家出租车运营商。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-004-DEPT-002",
+      "name": "配送事业部 (Deliveries)",
+      "head": null,
+      "description": "包括GrabFood外卖、GrabMart杂货配送、GrabExpress快递等服务。2026年3月宣布收购Delivery Hero旗下foodpanda台湾业务。配送业务占集团收入约53.4%（2024财年）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-004-DEPT-003",
+      "name": "金融服务事业部 (Grab Financial Group)",
+      "head": null,
+      "description": "包括GrabPay数字钱包、保险、借贷等金融服务。与Singtel合资运营GXS Bank（新加坡）和GXBank（马来西亚）数字银行。2026年Q1放贷规模首次突破10亿美元。2026年2月宣布以4.25亿美元收购美国数字投资平台Stash。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-CORP-004-DEPT-004",
+      "name": "人工智能中心 (AI Centre of Excellence)",
+      "head": null,
+      "description": "在新加坡数字产业发展署（DISG）支持下成立的人工智能创新中心，旨在加速AI驱动的解决方案。与OpenAI和Anthropic合作开发AI商户助手和AI司机伴侣等工具。与自动驾驶公司WeRide、Momenta等建立战略合作伙伴关系。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-04",
+      "title": "Grab公布2026年第一季度财报",
+      "description": "Q1收入9.55亿美元，净利润1.36亿美元（同比增长466%），金融服务收入同比增长43%，放贷规模首次单季度突破10亿美元。",
+      "impact": "季度利润创历史新高，AI驱动下的金融业务成为新增长引擎，但全年收入指引低于市场预期。",
+      "source": "https://investors.grab.com/news-and-events/news-details/2026/Grab-to-Announce-First-Quarter-2026-Results-on-4-May-2026-2026-vDR-ZuBznE/default.aspx"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Grab与WeRide合作启动新加坡首个自动驾驶载客服务",
+      "description": "Grab与中国自动驾驶公司WeRide合作，在新加坡榜鹅正式推出自动驾驶载客服务，为新加坡首个面向公众的自动驾驶出行服务。",
+      "impact": "标志着Grab在自动驾驶出行领域迈出实质性一步，为未来更大规模部署奠定基础。",
+      "source": "https://www.grab.com/sg/press/others/grab-in-partnership-with-weride-officially-launch-singapores-first-autonomous-public-ride-service-in-punggol/"
+    },
+    {
+      "date": "2026-03-23",
+      "title": "Grab宣布收购foodpanda台湾业务",
+      "description": "Grab宣布收购Delivery Hero旗下foodpanda在台湾的配送业务，进一步扩大其配送网络版图。",
+      "impact": "拓展Grab在华语市场的业务覆盖，与此前宣布的6亿美元台湾市场扩张计划形成协同效应。",
+      "source": "https://investors.grab.com/news-and-events/default.aspx"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Grab以4.25亿美元收购美国数字投资平台Stash",
+      "description": "Grab宣布收购美国数字投资平台Stash Financial，估值4.25亿美元，预计2026年Q3完成交易。此次收购旨在扩展Grab的金融服务版图至投资理财领域。",
+      "impact": "Grab从出行和外卖平台加速向全方位金融服务集团转型，标志着其全球化金融布局的重要一步。",
+      "source": "https://www.forbes.com/sites/iansayson/2026/02/12/grab-buys-investment-app-stash-at-425-million-valuation-after-posting-first-full-year-profit/"
+    },
+    {
       "date": "2026-01-01",
       "title": "Grab宣布6亿美元进军台湾市场",
-      "description": "Grab最大规模市场扩张举措。",
-      "impact": "如果成功将显著扩大可寻址市场。",
+      "description": "Grab宣布以6亿美元投资进入台湾市场，为公司史上最大规模的市场扩张举措。",
+      "impact": "如果成功将显著扩大可寻址市场，台湾作为高消费力市场具有战略价值。",
       "source": "https://investors.grab.com/"
     },
     {
       "date": "2025-12-01",
-      "title": "Grab董事会大规模改组",
-      "description": "引入新的独立董事。",
-      "impact": "反映公司治理和战略方向调整。",
-      "source": "https://investors.grab.com/"
+      "title": "Grab与Momenta达成自动驾驶战略合作",
+      "description": "Grab宣布与中国自动驾驶公司Momenta建立战略合作关系，计划将Momenta的自动驾驶技术部署到东南亚市场。",
+      "impact": "加速Grab在东南亚的自动驾驶布局，与此前WeRide合作形成互补。",
+      "source": "https://en.wikipedia.org/wiki/Grab_(company)"
     },
     {
-      "date": "2025-01-01",
+      "date": "2025-02-20",
       "title": "Grab实现首次全年盈利",
-      "description": "2025财年净利润达2亿美元，收入33.7亿美元。",
-      "impact": "里程碑式成就，标志转向可持续盈利模式。",
-      "source": "https://investors.grab.com/"
+      "description": "2025财年Grab实现净利润2.68亿美元，总收入33.7亿美元，毛利率43.2%，净利润率7.9%。这是Grab自2021年上市以来首次实现全年盈利。",
+      "impact": "里程碑式成就，标志着Grab从亏损扩张转向可持续盈利模式的关键转折。",
+      "source": "https://thediplomat.com/2026/02/southeast-asias-grab-finally-turns-a-profit/"
     }
   ],
-  "related_entities": [],
-  "core_business": "Grab（前身为MyTeksi）是一間在東南亞地區由馬來西亞華裔成立的提供服務的技術公司和交通網路公司，總部置於新加坡，由陳炳耀和陳慧玲于2012年在馬來西亞雪蘭莪州八打靈再也創立的行動應用程式。該應用連結乘客和司機，提供載客車輛租賃及即時共乘的分享型經濟服務。乘客可以透過傳送簡訊或是使用流動應用程式來預約這些載客的車輛，利用行動應用程式時還可以追蹤車輛的位置。疫情期間兼開始經營外賣、送貨、電子商務等等，成為全方面的生活平台。\n發展\n2017年：\n8月，Grab公司获得了一笔高达25亿美元的G轮融资，披露的投资方有软银集团和滴滴出行投资了20亿美元，剩下的5亿美元则来自于丰田旗下 Next Technology Fund。在東南亞，Grab的最大競爭對手為優步（Uber）及Go-Jek。\n截至10月26日，Grab的在冊司機數量已超過200萬，而Grab應用程式已被下載到超過6,800萬部行動設備；搭乘数累計达10亿次，日均搭乘350萬次，其中全是東南亞地區用戶。\n2018年：\nGrab聘请了陸續於雷曼兄弟控股公司（Lehman Brothers）及野村證券（Nomura Holdings）任職的资深金融家John Chua领导财务。\n3月26日，叫車服務程式優步（Uber）已同意將其印尼、新加坡、馬來西亞等東南亞業務出售予Grab，合併後Uber可望獲得Grab 27.5%的股權。\n5月28日，Grab推出网上订餐（外卖）服务Grab Food。\n10月6日软银集团再投資5億美元，上一輪Grab的市值估價為110億美元。\n2019年：\n3月，獲軟銀願景基金（Softbank Vision Fund）注資14.6億美元，將Grab市值推高至140億美元。\n7月29日，软银集团首席执行官孙正义表示，将向东南亚网约车公司Grab投资20亿美元。同时还将帮助Grab在印尼首都雅加达建立第二总部。\n2020年：\n2月，Grab在新加坡推出了针对医护人员的GrabCare，首先是为Tan Tock Seng医院和国家传染病中心提供24小时服务。 在此之前，有报道称由于Covid-19情况导致歧视加剧，医护人员难以乘车。 该服务最终将扩展到其他新加坡医院。Grab还将其GrabMart（日常必需品交付）和GrabAssistant（按需礼宾服务）服务扩展到更多城市和国家，以满足对在线食品和杂货交付日益增长的需求。 为了在疫情爆发期间为其驾驶员和商人伙伴提供支持，Grab承诺提供4000万美元用于整个东南亚的救灾计划。\n12月，Grab与Singtel（Singapore Telecommunications）一起从新加坡获得了数字银行许可证，这是一个财团，将允许Grab-Singtel扩展其金融服务产品。\n2021年：\n1月，公司的金融服务部门Grab Financial Group从韩国的Hanwha Asset Management筹集了超过3亿美元。\n1月31日，Grab通过债务融资获得20亿美金资金。\n4月13日，Grab宣布与空白支票公司Altimeter Growth Corp.（Nasdaq:AGC）合并计划在美国上市。拟议中的交易使Grab的初始备考股权价值约为396亿美元，而PIPE规模超过40亿美元，并将为Grab带来约45亿美元的现金收益，其中包括来自Altimeter的7.5亿美元。\n12月2日，Grab正式在美国公开上市。Grab人两名创始人与其员工共同出席纽约纳斯达克的上市仪式，股票代码为「GRAB」。\n使用\n一開始，使用者必須先",
+  "related_entities": [
+    {
+      "org_id": "SG-SOE-004",
+      "org_name": "新加坡电信 (Singtel)",
+      "org_type": "SOE",
+      "org_description": "东南亚最大电信运营商之一，与Grab合资成立GXS Bank和GXBank数字银行。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "SG-FIN-001",
+      "org_name": "GXS Bank (GXS Bank Pte. Ltd.)",
+      "org_type": "FIN",
+      "org_description": "Grab与Singtel合资的数字银行，持有新加坡数字全面银行牌照，2022年8月开业。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Jaya Grocer (Jaya Grocer Holdings Sdn. Bhd.)",
+      "org_type": "CORP",
+      "org_description": "马来西亚大众高端超市连锁，Grab于2021年底收购多数股权，后进一步收购Everrise超市连锁。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "OVO (PT OVO Finance Indonesia)",
+      "org_type": "CORP",
+      "org_description": "印尼数字支付平台，Grab于2018年投资力宝集团旗下OVO平台。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "Stash Financial",
+      "org_type": "CORP",
+      "org_description": "美国数字投资平台，Grab于2026年2月以4.25亿美元收购，预计2026年Q3完成。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "WeRide (文远知行)",
+      "org_type": "CORP",
+      "org_description": "中国自动驾驶公司，与Grab合作在新加坡榜鹅推出首个自动驾驶载客服务（2026年4月）。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "Momenta",
+      "org_type": "CORP",
+      "org_description": "中国自动驾驶技术公司，2025年12月与Grab达成战略合作，将自动驾驶技术部署至东南亚。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "Uber Technologies",
+      "org_type": "CORP",
+      "org_description": "2018年将东南亚业务出售给Grab并获得27.5%股权（现为13.71%），至今仍为Grab最大单一股东。",
+      "relationship_type": "controlling_shareholder"
+    }
+  ],
+  "core_business": "Grab Holdings Inc.（纳斯达克：GRAB）是东南亚领先的超级App平台，总部位于新加坡纬壹媒体城（one-north）。公司由陈炳耀（Anthony Tan）和陈慧玲（Tan Hooi Ling）于2012年在马来西亚创立（原名MyTeksi），最初定位为出租车叫车应用。经过十余年发展，Grab已演变为涵盖出行、配送、金融服务三大核心业务的综合性科技平台。出行业务（Mobility）提供从网约车、摩托车到共享出行等多元交通服务，覆盖新加坡、马来西亚、印尼、泰国、越南、菲律宾、柬埔寨、缅甸等8个东南亚国家，超过319座城市，是该地区最大的网约车平台。配送业务（Deliveries）包括GrabFood外卖、GrabMart杂货配送和GrabExpress快递服务，占集团收入约53.4%（2024财年），并持续通过并购扩张版图（2026年收购foodpanda台湾业务）。金融服务（Grab Financial Group）涵盖GrabPay数字钱包、借贷、保险及数字银行业务。Grab与新加坡电信（Singtel）合资成立GXS Bank（新加坡）和GXBank（马来西亚），持有数字全面银行牌照。2026年Q1，Grab金融业务放贷规模首次单季度突破10亿美元，金融服务收入同比增长43%。2026年2月，Grab宣布以4.25亿美元收购美国数字投资平台Stash，标志着其金融版图向投资理财领域延伸。在人工智能领域，Grab于2025年推出AI商户助手和AI司机伴侣（与OpenAI和Anthropic合作），并在新加坡设立AI卓越中心。Grab还与WeRide和Momenta等自动驾驶公司建立战略合作，2026年4月在新加坡榜鹅推出首个面向公众的自动驾驶载客服务。2025财年，Grab实现上市以来首次全年盈利（净利润2.68亿美元，收入33.7亿美元），标志着从烧钱扩张向可持续盈利的关键转型。2026年Q1净利润进一步跃升至1.36亿美元（同比增长466%）。",
   "industries": [
+    "information_technology",
+    "transportation",
+    "fintech",
     "financial_services"
   ],
-  "apec_stance": "Grab业务覆盖新加坡、印尼、泰国、越南、菲律宾、马来西亚等APEC经济体。其金融服务（GrabFin）在推动区域普惠金融方面发挥重要作用。",
+  "apec_stance": "Grab业务覆盖新加坡、印尼、泰国、越南、菲律宾、马来西亚等多个APEC经济体，是东南亚数字经济基础设施的核心参与者。其金融服务板块（GXS Bank、GrabPay、GrabFin）在推动区域普惠金融方面发挥重要作用。Grab与微软、OpenAI、Anthropic等全球科技企业的AI合作，以及与WeRide、Momenta等自动驾驶公司的战略合作，体现了其在APEC数字经济议程中的积极参与。2026年进军台湾市场的举措进一步扩大了其在APEC经济体的业务版图。Grab在新加坡的经济影响力显著——据牛津经济研究院数据，其出行和配送服务2023年为新加坡经济贡献了52亿新元，创造了11.7万个就业机会。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Grab_HQ_at_one-north%2C_Singapore_%282025%29_-_img_03.jpg/330px-Grab_HQ_at_one-north%2C_Singapore_%282025%29_-_img_03.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
-    "data_sources": [
-      "wikidata",
-      "wikipedia",
-      "official_website",
-      "web_search"
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Grab Holdings - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Grab_(company)"
+      },
+      {
+        "title": "Grab - Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/Grab"
+      },
+      {
+        "title": "Grab Official Website",
+        "url": "https://www.grab.com"
+      },
+      {
+        "title": "Grab Q1 2026 Results - Yahoo Finance via Simply Wall St",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-grab-holdings-grab-valuation-071056400.html"
+      },
+      {
+        "title": "Grab Acquires Stash - Forbes",
+        "url": "https://www.forbes.com/sites/iansayson/2026/02/12/grab-buys-investment-app-stash-at-425-million-valuation-after-posting-first-full-year-profit/"
+      },
+      {
+        "title": "Grab Finally Turns a Profit - The Diplomat",
+        "url": "https://thediplomat.com/2026/02/southeast-asias-grab-finally-turns-a-profit/"
+      },
+      {
+        "title": "Grab Q1 2026 Earnings - MarketBeat",
+        "url": "https://www.marketbeat.com/earnings/reports/2026-5-5-grab-holdings-limited-stock/"
+      },
+      {
+        "title": "Grab Investor Relations",
+        "url": "https://investors.grab.com/"
+      },
+      {
+        "title": "Grab SEC Filing 20-F FY2025",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000020/ck0001855612-20251231.htm"
+      },
+      {
+        "title": "Grab Fintech Surge - GrowthHQ",
+        "url": "https://www.growthhq.io/our-thinking/grab-holdings-fintech-surge-how-strategic-partnerships-are-powering-42-revenue-growth-and-market-domination-in-southeast-asia-2025"
+      },
+      {
+        "title": "Grab Loanbook Exceeds US$1 Billion - Fintech News Singapore",
+        "url": "https://fintechnews.sg/131055/digital-banking-news-singapore/grabs-loanbook-exceeds-us1-billion-in-single-quarter-for-the-first-time/"
+      }
     ],
-    "completeness_score": 90,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 75)"
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "web_search",
+      "sec_filings",
+      "financial_reports",
+      "news_articles"
+    ],
+    "completeness_score": 92,
+    "notes": "Phase3 enrichment: added detailed departments, expanded key_people (Alex Hungate), 7 recent events with sources, 8 related entities, updated financials to Q1 2026, expanded core_business and apec_stance."
   }
 }

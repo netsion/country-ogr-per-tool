@@ -1,60 +1,76 @@
 {
   "org_id": "SG-GOV-015",
   "basic_info": {
-    "name_original": "新加坡卫生部",
-    "name_zh": "新加坡卫生部",
+    "name_original": "Ministry of Health",
     "name_en": "Ministry of Health",
+    "name_zh": "保健卫生部",
     "aliases": [
+      "MOH",
+      "Ministry of Health Singapore",
       "Kementerian Kesihatan",
-      "新加坡卫生部",
       "Kementerian Kesihatan Singapura",
+      "新加坡卫生部",
+      "新加坡保健卫生部",
       "சிங்கப்பூர் சுகாதார அமைச்சகம்"
     ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1965-01-01",
-    "website": "http://www.moh.gov.sg"
+    "founded_date": "1955-01-01",
+    "headquarters": "16 College Road, College of Medicine Building, Singapore 169854",
+    "website": "https://www.moh.gov.sg"
   },
   "social_accounts": [
     {
       "platform": "facebook",
       "account_name": "SingaporeMOH",
       "url": "https://www.facebook.com/SingaporeMOH/",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "twitter_x",
       "account_name": "@MOHSingapore",
       "url": "https://x.com/MOHSingapore",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "@mohsingapore",
       "url": "https://www.instagram.com/mohsingapore/",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "youtube",
       "account_name": "MOHSingapore",
       "url": "https://www.youtube.com/@MOHSingapore",
-      "source": "web_search"
+      "source": "official_website"
     }
   ],
   "digital_assets": [
     {
       "name": "MOH官网",
       "url": "https://www.moh.gov.sg/",
-      "description": "新加坡卫生部官网。",
+      "description": "新加坡卫生部官方网站，提供政策信息、新闻发布、医疗服务指南等。",
       "source": "https://www.moh.gov.sg/"
     },
     {
       "name": "Healthier SG",
       "url": "https://www.healthiersg.gov.sg/",
-      "description": "新加坡全民健康管理国家级策略。",
+      "description": "新加坡全民健康管理国家级策略平台，推动预防性医疗和健康生活。",
       "source": "https://www.healthiersg.gov.sg/"
+    },
+    {
+      "name": "健康信息法案（HIA）网站",
+      "url": "https://www.healthinfo.gov.sg/",
+      "description": "2026年2月通过的健康信息法案官方页面，促进医疗信息共享和协调护理。",
+      "source": "https://www.healthinfo.gov.sg/"
+    },
+    {
+      "name": "COS 2026专页",
+      "url": "https://www.moh.gov.sg/cos2026/",
+      "description": "卫生部2026年供应委员会辩论专页，包含部长演讲和政策公布。",
+      "source": "https://www.moh.gov.sg/cos2026/"
     }
   ],
   "key_people": [
@@ -62,118 +78,273 @@
       "person_id": "SG-PERSON-000013",
       "name": "王乙康 (Ong Ye Kung)",
       "title": "卫生部长兼社会政策统筹部长",
-      "title_description": "Minister for Health",
-      "description": "主导Healthier SG计划和医疗体系改革。"
+      "title_description": "负责卫生部全面工作，主导Healthier SG计划和医疗体系改革",
+      "description": "王乙康自2021年5月起担任卫生部长，同时兼任社会政策统筹部长。在新冠疫情后期主导新加坡医疗体系转型，推动Healthier SG全民健康计划和保健老龄化战略。"
     },
     {
-      "person_id": "SG-PERSON-000170",
-      "name": "Lai Wei Lin",
+      "person_id": "SG-PERSON-000201",
+      "name": "陈杰豪 (Tan Kiat How)",
+      "title": "卫生部兼数码发展及新闻部高级政务部长",
+      "title_description": "协助部长处理卫生政策与数码健康事务",
+      "description": "陈杰豪担任卫生部高级政务部长，负责推动医疗数码化和健康信息技术应用，同时兼任数码发展及新闻部高级政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000258",
+      "name": "许宝琨 (Koh Poh Koon)",
+      "title": "卫生部高级政务部长",
+      "title_description": "协助部长处理卫生政策事务",
+      "description": "许宝琨担任卫生部高级政务部长，参与卫生政策制定和医疗服务优化工作。"
+    },
+    {
+      "person_id": "SG-PERSON-000259",
+      "name": "拉哈尤·玛赞 (Rahayu Mahzam)",
+      "title": "卫生部政务部长",
+      "title_description": "协助部长处理卫生政策事务",
+      "description": "拉哈尤·玛赞担任卫生部政务部长，同时兼任数码发展及新闻部政务部长。"
+    },
+    {
+      "person_id": "SG-PERSON-000260",
+      "name": "赖慧玲 (Lai Wei Lin)",
       "title": "常任秘书（政策与发展）",
-      "title_description": "Permanent Secretary (Policy)",
-      "description": "卫生部常任秘书。"
+      "title_description": "Permanent Secretary (Policy and Development)",
+      "description": "赖慧玲担任卫生部常任秘书（政策与发展），负责卫生政策制定与发展战略。"
+    },
+    {
+      "person_id": "SG-PERSON-000261",
+      "name": "黄好游 (Ng How Yue)",
+      "title": "常任秘书（服务）",
+      "title_description": "Permanent Secretary (Services)",
+      "description": "黄好游担任卫生部常任秘书（服务），负责医疗服务运营与管理。"
     },
     {
       "person_id": "SG-PERSON-000167",
-      "name": "Kenneth Mak",
-      "title": "医务总监",
-      "title_description": "Director of Medical Services",
-      "description": "麦国安教授。"
+      "name": "麦锡威 (Kenneth Mak)",
+      "title": "卫生总司长",
+      "title_description": "Director-General of Health",
+      "description": "麦锡威教授担任卫生部卫生总司长，是新加坡公共卫生事务的专业负责人。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-015-DEPT-001",
-      "name": "See also",
+      "name": "保健促进局 (Health Promotion Board, HPB)",
       "head": null,
-      "description": null,
+      "description": "负责推动全民健康教育和健康生活方式的法定机构，管理Healthier SG社区健康项目。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-015-DEPT-002",
-      "name": "Healthcare in Singapore",
+      "name": "卫生科学局 (Health Sciences Authority, HSA)",
       "head": null,
-      "description": null,
+      "description": "负责药品、医疗器械和血液安全监管的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-015-DEPT-003",
-      "name": "Notes",
+      "name": "传染病管理局 (Communicable Diseases Agency, CDA)",
       "head": null,
-      "description": null,
+      "description": "负责传染病监测、防控和公共卫生应急响应的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-015-DEPT-004",
-      "name": "References",
+      "name": "新加坡医学委员会 (Singapore Medical Council)",
       "head": null,
-      "description": null,
+      "description": "负责医师注册和专业行为规范的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-015-DEPT-005",
-      "name": "External links",
+      "name": "新加坡护士委员会 (Singapore Nursing Board)",
       "head": null,
-      "description": null,
+      "description": "负责护士注册和执业规范的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-015-DEPT-006",
-      "name": "Official website",
+      "name": "新加坡药学会 (Singapore Pharmacy Council)",
       "head": null,
-      "description": null,
+      "description": "负责药剂师注册和执业规范的法定机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-015-DEPT-007",
-      "name": "Singapore Government Directory Interactive — Ministry of Health",
+      "name": "新加坡牙科委员会 (Singapore Dental Council)",
       "head": null,
-      "description": null,
+      "description": "负责牙科医师注册和执业规范的法定机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "SG-GOV-015-DEPT-008",
+      "name": "中医委员会 (Traditional Chinese Medicine Practitioners Board)",
+      "head": null,
+      "description": "负责中医师注册和执业规范的法定机构。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
       "date": "2026-03-05",
-      "title": "2026年供应委员会强化医疗体系",
-      "description": "宣布扩大MediShield Life覆盖范围、改革MediSave等措施。",
-      "impact": "直接影响所有公民和永久居民的医疗保障。",
+      "title": "2026年供应委员会辩论公布三大政策方向",
+      "description": "卫生部长王乙康在COS 2026辩论中公布三大政策方向：成为更健康的国民（含AI辅助慢性病筛查ACE-AI工具）、维持医疗可负担性（含MediSave慢性与预防护理计划提升）、以及加强护理质量与协调（含NEHR Connect Grant和综合社区护理计划ICCP）。",
+      "impact": "全面升级新加坡医疗体系以应对超老龄社会挑战，2026年65岁以上公民占比已超20%。",
       "source": "https://www.moh.gov.sg/cos2026/"
     },
     {
-      "date": "2026-01-12",
-      "title": "健康信息法案公布",
-      "description": "建立统一的健康信息共享框架。",
-      "impact": "为医疗数字化转型奠定法律基础。",
-      "source": "https://healthinfo.gov.sg/"
+      "date": "2026-03-05",
+      "title": "卫生部中文名称更新为「保健卫生部」",
+      "description": "为更好反映当前使命和优先事项，MOH将中文名称从「卫生部」正式更新为「保健卫生部」。「保健」传达了促进和维护国民健康的优先方向，保留「卫生」则反映在传染病和流行病防控方面的持续工作。",
+      "impact": "反映新加坡卫生政策重心从公共卫生向全民健康管理的战略转型。",
+      "source": "https://www.moh.gov.sg/newsroom/becoming-a-healthier-population/"
     },
     {
-      "date": "2026-03-01",
-      "title": "新加坡正式成为超老龄社会",
-      "description": "加快医疗体系转型，推动Healthier SG计划和AI辅助诊疗。",
-      "impact": "2025财年卫生部预算184.9亿新元。",
-      "source": "https://www.moh.gov.sg/"
+      "date": "2026-02-12",
+      "title": "健康信息法案正式通过",
+      "description": "新加坡国会通过健康信息法案（Health Information Act, HIA），旨在促进全国电子健康记录系统（NEHR）之外的健康信息共享，推动协调护理和降低医疗成本。NEHR Connect Grant拨款4500万新元支持医疗机构接入。",
+      "impact": "为新加坡医疗数字化转型奠定法律基础，实现跨机构健康信息互联互通。",
+      "source": "https://www.healthinfo.gov.sg/"
+    },
+    {
+      "date": "2025-11-26",
+      "title": "发布综合健保计划附加险新规",
+      "description": "卫生部宣布对综合健保计划（Integrated Shield Plan）附加险实施新设计要求，以遏制不断上涨的保险费和医疗成本。新附加险保费预计比现有最高保障附加险低约30%，2026年4月起生效。",
+      "impact": "直接影响新加坡数百万持有私人医疗保险的公民和永久居民的保费支出。",
+      "source": "https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "增强版居家个人护理服务（HPC+）正式上线",
+      "description": "增强版居家个人护理服务（HPC+）面向体弱老人提供24/7技术监测跌倒和事故功能，涵盖家务、个人护理、监护支持等模块。预计超过5600名老人受益。",
+      "impact": "支持新加坡「原地养老」政策，通过技术手段提升居家护理质量和安全。",
+      "source": "https://www.moh.gov.sg/newsroom/becoming-a-healthier-population/"
+    },
+    {
+      "date": "2026-01-21",
+      "title": "Grow Well SG健康计划扩展至更多学童",
+      "description": "卫生部将健康计划扩展至小学四年级和五年级学生，约8万名学童将在2026年学校健康筛查中受益，作为COS 2025承诺的延续。",
+      "impact": "推动预防性健康管理覆盖更广泛的青少年群体。",
+      "source": "https://www.moe.gov.sg/news/press-releases/20260121-grow-well-sg-health-plan-expanded-to-more-children"
     }
   ],
-  "related_entities": [],
-  "core_business": "新加坡保健卫生部（中文旧译卫生部；英語：Ministry of Health；馬來語：Kementerian Kesihatan；坦米爾語：சுகாதார அமைச்சு），缩写为MOH，是新加坡政府的一个下辖部门。它主要负责提供信息以提高健康教育和健康意识，保证公共服务，提供市民和游客健康服务质量监测。此外，它也利用资源和专业知识负责新加坡共和国的疾病传播控制。现任部长是王乙康。\n法定委员会\n新加坡保健促进局\n新加坡卫生科学局\n新加坡牙科协会\n新加坡医学委员会\n新加坡护士委员会\n新加坡药学会\n中医委员会\n专家认证委员会\n部长列表\n新加坡保健卫生部由保健卫生部长领导，保健卫生部长被任命为新加坡内阁成员。现任部长为人民行动党的王乙康。\n参考文献\n外部链接\n官方网站",
+  "related_entities": [
+    {
+      "org_id": "SG-GOV-002",
+      "org_name": "新加坡政府 (Government of Singapore)",
+      "org_type": "GOV",
+      "org_description": "卫生部是新加坡政府的下辖部门",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "SG-GOV-003",
+      "org_name": "新加坡内阁 (Cabinet of Singapore)",
+      "org_type": "GOV",
+      "org_description": "卫生部长为内阁成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "SG-GOV-007",
+      "org_name": "保健促进局 (Health Promotion Board)",
+      "org_type": "GOV",
+      "org_description": "卫生部下设法定机构，负责全民健康教育和健康促进活动",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-008",
+      "org_name": "卫生科学局 (Health Sciences Authority)",
+      "org_type": "GOV",
+      "org_description": "卫生部下设法定机构，负责药品、医疗器械和血液安全监管",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "org_name": "传染病管理局 (Communicable Diseases Agency)",
+      "org_type": "GOV",
+      "org_description": "卫生部下设法定机构，负责传染病防控和公共卫生应急响应",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-010",
+      "org_name": "新加坡综合保健集团 (SingHealth)",
+      "org_type": "GOV",
+      "org_description": "新加坡最大公立医疗集群，由卫生部全资拥有",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-011",
+      "org_name": "国立保健集团 (National Healthcare Group)",
+      "org_type": "GOV",
+      "org_description": "新加坡三大公立医疗集群之一，负责北部和中部地区医疗服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "SG-GOV-012",
+      "org_name": "国立大学医疗系统 (National University Health System)",
+      "org_type": "GOV",
+      "org_description": "新加坡三大公立医疗集群之一，负责西部地区医疗服务",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "新加坡保健卫生部（英语：Ministry of Health，缩写MOH）是新加坡政府负责管理公共医疗体系的核心部门。其法定格言为「Championing a Healthy Nation」（倡导健康国家）。MOH成立于1955年，总部位于欧南园医学院大楼（College of Medicine Building），2018年约有1,573名员工。MOH的核心职能包括：制定和执行国家卫生政策，管理公共医疗保健体系；通过Healthier SG全民健康计划推动预防性医疗和慢性病管理；监管卫生科学局、保健促进局、传染病管理局等法定机构；管理新加坡三大公立医疗集群（SingHealth、NHG、NUHS）；确保医疗服务质量和病人安全；控制传染病传播和公共卫生应急响应；管理医疗融资体系（包括MediSave、MediShield Life、Medifund三大保障支柱）；以及推动医疗数字化转型（如全国电子健康记录NEHR和2026年健康信息法案HIA）。面对新加坡2026年正式成为超老龄社会（65岁以上公民占比超20%）的挑战，MOH正着力推动保健老龄化战略、社区护理转型和AI辅助诊疗等创新举措。2025财年卫生部预算约172亿新元。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "卫生部参与APEC卫生工作组（HWG），推动亚太地区公共卫生合作、传染病防控和健康老龄化议题。",
+  "apec_stance": "新加坡卫生部积极参与APEC卫生工作组（Health Working Group, HWG），推动亚太地区公共卫生合作。主要参与领域包括：传染病防控和信息共享，在新冠疫情后推动区域公共卫生应急协调机制建设；健康老龄化和长期护理，分享新加坡Healthier SG全民健康计划和社区护理转型经验；数字健康和远程医疗，推广全国电子健康记录系统和AI辅助诊疗技术；以及医疗体系可持续性，探讨如何在老龄化趋势下维持医疗融资和社会保障。作为APEC创始成员国的卫生主管部门，MOH在区域公共卫生治理中发挥建设性作用，支持APEC Putrajaya Vision 2040中关于以人为本的可持续增长目标。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Ministry_of_Health_%28Singapore%29_%28logo%29.svg/330px-Ministry_of_Health_%28Singapore%29_%28logo%29.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "MOH Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Health_(Singapore)"
+      },
+      {
+        "title": "MOH Wikipedia (Chinese)",
+        "url": "https://zh.wikipedia.org/wiki/新加坡卫生部"
+      },
+      {
+        "title": "MOH Official Website",
+        "url": "https://www.moh.gov.sg"
+      },
+      {
+        "title": "MOH COS 2026 Page",
+        "url": "https://www.moh.gov.sg/cos2026/"
+      },
+      {
+        "title": "Becoming a Healthier Population - COS 2026",
+        "url": "https://www.moh.gov.sg/newsroom/becoming-a-healthier-population/"
+      },
+      {
+        "title": "Keeping Healthcare Affordable - COS 2026",
+        "url": "https://www.moh.gov.sg/newsroom/keeping-healthcare-affordable/"
+      },
+      {
+        "title": "Enhancing Quality and Coordination of Care - COS 2026",
+        "url": "https://www.moh.gov.sg/newsroom/enhancing-quality-and-coordination-of-care/"
+      },
+      {
+        "title": "Health Information Act Website",
+        "url": "https://www.healthinfo.gov.sg/"
+      },
+      {
+        "title": "MOH IP Riders Announcement",
+        "url": "https://www.moh.gov.sg/newsroom/new-requirements-for-integrated-shield-plan-riders-to-strengthen-sustainability-of-private-health-insurance-and-address-rising-healthcare-costs/"
+      },
+      {
+        "title": "Grow Well SG Expansion",
+        "url": "https://www.moe.gov.sg/news/press-releases/20260121-grow-well-sg-health-plan-expanded-to-more-children"
+      }
+    ],
     "data_sources": [
-      "wikidata",
       "wikipedia",
       "official_website",
-      "web_search"
+      "web_search",
+      "government_press_release"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 78)"
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: updated departments (real statutory boards), added 6 recent events, expanded related_entities, enriched key_people with correct person_ids, updated name_zh to 保健卫生部, added headquarters, expanded core_business and apec_stance."
   }
 }

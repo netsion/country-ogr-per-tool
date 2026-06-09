@@ -1,0 +1,319 @@
+{
+  "org_id": "MX-GOV-011",
+  "basic_info": {
+    "name_original": "Secretaría de Marina",
+    "name_zh": "海军秘书处",
+    "name_en": "Secretariat of the Navy",
+    "aliases": [
+      "SEMAR",
+      "Marina",
+      "Secretaría de Marina de México",
+      "Secretaria de Marina",
+      "Armada de México",
+      "MARINA"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "MEX",
+    "hq_country_iso3": "MEX",
+    "founded_date": "1940-12-31",
+    "website": "https://www.gob.mx/semar"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@SEMAR_mx",
+      "url": "https://x.com/SEMAR_mx",
+      "source": "Wikipedia Spanish / official site"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Secretaría de Marina",
+      "url": "https://www.facebook.com/SEMARmx",
+      "source": "gob.mx/semar footer"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Secretaría de Marina Armada de México",
+      "url": "https://www.youtube.com/semarmex",
+      "source": "search result"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@semar_mx",
+      "url": "https://www.instagram.com/semar_mx",
+      "source": "search result"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "海军秘书处官方网站",
+      "url": "https://www.gob.mx/semar",
+      "description": "墨西哥海军秘书处官方网站，包含新闻发布、组织机构、公共服务和招募信息",
+      "source": "Wikipedia"
+    },
+    {
+      "name": "2025-2030海洋部门计划",
+      "url": "https://www.gob.mx/cms/uploads/attachment/file/1025963/En_el_Mar__en_el_Aire__en_la_Tierra.pdf",
+      "description": "2025年9月8日发布于联邦官方日报的海洋部门计划(Programa Sectorial de Marina 2025-2030)，旨在将墨西哥转变为海洋强国，涵盖港口现代化、海洋经济发展和海上安全战略",
+      "source": "DOF"
+    },
+    {
+      "name": "国家搜索与救援系统",
+      "url": "https://www.gob.mx/semar",
+      "description": "由海军秘书处运营的海上搜索与救援系统(Sistema de Búsqueda y Rescate)，负责海上人员搜救行动",
+      "source": "官方政府网站"
+    },
+    {
+      "name": "特万特佩克地峡跨洋走廊计划",
+      "url": "https://www.dof.gob.mx/2025/SEMAR/ProgramaInstitucionalCIIT.pdf",
+      "description": "2025年10月发布的跨洋走廊机构计划(PICIIT 2025-2030)，将太平洋与大西洋通过铁路系统连接，是墨西哥最重要的战略基础设施项目之一",
+      "source": "DOF"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MX-PERSON-000034",
+      "name": "雷蒙多·佩德罗·莫拉莱斯·安赫莱斯 (Raymundo Pedro Morales Ángeles)",
+      "title": "海军部长 (Secretario de Marina)",
+      "title_description": "墨西哥海军秘书处最高长官，同时为联邦内阁成员和海军最高军衔军官，负责指挥墨西哥海军、海军陆战队和商船队",
+      "description": "辛鲍姆政府内阁成员，海军上将。负责领导SEMAR的全面改革和现代化进程，主持跨洋走廊和海洋部门计划等重大战略项目。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "MX-GOV-011-DEPT-001",
+      "name": "海军秘书办公室 (Oficina del Secretario de Marina)",
+      "head": "雷蒙多·佩德罗·莫拉莱斯·安赫莱斯 (Raymundo Pedro Morales Ángeles)",
+      "description": "秘书处最高领导机构，下设监察与总审计、海军委员会、上将委员会、海军总参谋部、法律事务单位和人权保护单位",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-002",
+      "name": "海军特别行动单位 (Unidad de Operaciones Especiales de la Armada)",
+      "head": null,
+      "description": "负责海军特种作战任务，包括反恐、反毒品和海上安全行动",
+      "parent_dept_id": "MX-GOV-011-DEPT-001"
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-003",
+      "name": "海军情报单位 (Unidad de Inteligencia Naval)",
+      "head": null,
+      "description": "负责海军情报收集、分析和行动支持",
+      "parent_dept_id": "MX-GOV-011-DEPT-001"
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-004",
+      "name": "海军警察单位 (Unidad de Policía Naval)",
+      "head": null,
+      "description": "负责执行海上执法任务，包括缉毒、反走私和港口安全",
+      "parent_dept_id": "MX-GOV-011-DEPT-001"
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-005",
+      "name": "民防单位 (Unidad de Protección Civil)",
+      "head": null,
+      "description": "负责执行「海军计划」(Plan Marina)，在自然灾害和紧急情况下为平民提供援助",
+      "parent_dept_id": "MX-GOV-011-DEPT-001"
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-006",
+      "name": "海军副秘书处 (Subsecretaría de Marina)",
+      "head": null,
+      "description": "负责海军建设、一般服务和水文测量、工程和疏浚、港口船长和海事事务、马里亚群岛治理等",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-007",
+      "name": "港口和商船协调总署 (Coordinación General de Puertos y Marina Mercante)",
+      "head": null,
+      "description": "负责港口管理、商船事务、港口发展和管理，管理全国18个中央化港口",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-008",
+      "name": "总务办公室 (Oficialía Mayor)",
+      "head": null,
+      "description": "负责人力资源、行政与财务管理和海军大学",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-009",
+      "name": "跨洋走廊 (Corredor Interoceánico del Istmo de Tehuantepec)",
+      "head": null,
+      "description": "由SEMAR管理的战略性多式联运物流平台，通过铁路连接太平洋和大西洋港口，2023年起划归海军秘书处管理",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-010",
+      "name": "海军机场集团 (Grupo Aeroportuario Marina)",
+      "head": null,
+      "description": "2025年7月由墨西哥城机场集团(GACM)合并而成，管理墨西哥城国际机场(AICM)和费利佩·安赫莱斯国际机场(AIFA)等机场",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "MX-GOV-011-DEPT-011",
+      "name": "海军大学 (Universidad Naval)",
+      "head": null,
+      "description": "海军教育体系的核心机构，下设海军系统工程、航空海军系统和水道测量学院，以及英雄海军军事学校等多所院校",
+      "parent_dept_id": "MX-GOV-011-DEPT-008"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-08",
+      "title": "海军秘书处发布2025-2030海洋部门计划",
+      "description": "SEMAR在联邦官方日报发布《海洋部门计划》(Programa Sectorial de Marina 2025-2030)，旨在将墨西哥利用超过1.1万公里的海岸线发展成为海洋强国。计划涵盖港口现代化（萨尔蒂纳克鲁斯、夸察夸尔科斯、多斯博卡斯、曼萨尼约、韦拉克鲁斯等）、海洋经济发展和海上安全战略。",
+      "impact": "为SEMAR制定了六年的战略路线图，将港口和物流投资占预算的39%，标志着海军从传统防务角色向海洋经济战略引擎的转型",
+      "source": "https://www.jornada.com.mx/noticia/2025/09/08/politica/publica-semar-en-dof-su-plan-sectorial-maritimo-20252030"
+    },
+    {
+      "date": "2025-10-16",
+      "title": "跨洋走廊机构计划2025-2030获批",
+      "description": "SEMAR在联邦官方日报发布跨洋走廊机构计划(PICIIT 2025-2030)的秘书级协议。该计划确立了将特万特佩克地峡建设为太平洋与大西洋间多式联运物流平台的长期战略，整合铁路、港口、公路和工业园区。",
+      "impact": "巩固了SEMAR对这一国家战略基础设施项目的管理权，项目被视为巴拿马运河的替代方案",
+      "source": "https://www.jornada.com.mx/noticia/2025/10/16/politica/publica-dof-acuerdo-de-semar-que-aprueba-programa-institucional-del-corredor-interoceanico"
+    },
+    {
+      "date": "2025-11-22",
+      "title": "跨洋走廊K线伊斯莫-索科努斯科段恢复运营",
+      "description": "SEMAR通过跨洋走廊恢复了K线「伊斯莫-索科努斯科」第一段的运营。该线路是连接太平洋与大西洋的战略铁路项目的一部分。",
+      "impact": "推进了跨洋走廊项目的实际运营能力建设",
+      "source": "https://www.gob.mx/semar/prensa/la-secretaria-de-marina-a-traves-del-corredor-interoceanico-reinicia-operaciones-del-primer-tramo-de-la-linea-k-istmo-soconusco?idiom=es"
+    },
+    {
+      "date": "2025-12-28",
+      "title": "跨洋列车脱轨事故造成重大伤亡",
+      "description": "跨洋铁路列车在瓦哈卡州阿孙西翁伊斯塔尔特佩克发生脱轨事故，造成13人死亡、98人受伤。事故发生在Z线区间，距第二站仅7分钟车程。SEMAR启动应急响应，将黑匣子置于监管链下进行调查。",
+      "impact": "对SEMAR管理的跨洋走廊项目造成重大声誉打击，引发对铁路安全标准的质疑，但项目继续推进",
+      "source": "https://elpais.com/mexico/2025-12-30/lo-que-se-sabe-del-descarrilamiento-del-tren-interoceanico-en-oaxaca.html"
+    },
+    {
+      "date": "2026-01-26",
+      "title": "2026年海军大学招生活动启动",
+      "description": "SEMAR启动2026年海军大学(Universidad Naval)招生工作，提供海军系统工程、航空海军系统和水道测量等专业的学位课程。",
+      "impact": "持续推进海军人才专业化和现代化建设",
+      "source": "https://www.gob.mx/semar/documentos/notas-informativas-2026"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "参议院批准96名美国海军陆战队员入境训练墨军",
+      "description": "墨西哥参议院批准96名美国海军陆战队员进入墨西哥领土，旨在为SEMAR部队提供专业训练。",
+      "impact": "反映了墨美军事合作在辛鲍姆政府期间持续深化的趋势",
+      "source": "https://www.informador.mx/semar-t2393"
+    },
+    {
+      "date": "2026-05-09",
+      "title": "海军在格雷罗州海岸查获大量可卡因",
+      "description": "SEMAR部队在格雷罗州海岸拦截一艘载有26包可卡因的船只，逮捕两名外籍人员。此次行动是海军打击海上毒品走私的持续行动的一部分。",
+      "impact": "展示了SEMAR在海上执法和反毒品走私方面的持续行动能力",
+      "source": "https://www.jornada.com.mx/noticia/2026/05/09/politica/semar-asegura-cocaina-en-costas-de-guerrero"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MX-MIL-002",
+      "org_name": "墨西哥海军 (Armada de México)",
+      "org_type": "MIL",
+      "org_description": "墨西哥海军武装力量，由SEMAR组织、管理和指挥，包括水面舰队、潜艇、海军航空、海军陆战队和商船队",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "MX-MIL-005",
+      "org_name": "海军陆战队 (Infantería de Marina)",
+      "org_type": "MIL",
+      "org_description": "墨西哥海军陆战队，隶属于海军，是墨西哥在反毒品战争中最精锐的作战部队之一",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "MX-GOV-010",
+      "org_name": "国防部 (Secretaría de la Defensa Nacional)",
+      "org_type": "GOV",
+      "org_description": "墨西哥国防部，负责陆军和空军的指挥管理，与SEMAR共同构成墨西哥武装力量两大支柱",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "MX-GOV-001",
+      "org_name": "总统府 (Presidencia de la República)",
+      "org_type": "GOV",
+      "org_description": "墨西哥联邦行政权力最高机构，总统为武装部队总司令，直接任命海军部长",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "MX-GOV-012",
+      "org_name": "安全和公民保护部 (Secretaría de Seguridad y Protección Ciudadana)",
+      "org_type": "GOV",
+      "org_description": "负责联邦公共安全政策和国民警卫队协调的内阁级部门",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "墨西哥海军秘书处(SEMAR)是联邦政府两大军事部门之一，与国防部(SEDENA)并列。SEMAR的核心使命是组织、管理和指挥墨西哥海军(Armada de México)，包括水面舰队、潜艇部队、海军航空兵、海军陆战队(Infantería de Marina)和商船队。根据《联邦公共行政组织法》第30条，SEMAR拥有极其广泛的职能，涵盖：在领海、专属经济区和海岸行使国家主权；海上执法、海关巡逻和反毒品走私行动；指挥海岸警卫队和海上搜索救援系统(ENSAR)；管理全国18个中央化港口和港口船长事务；建设和维护海军造船厂、船坞和海军设施；执行水文测量和海洋科学研究；管理海军教育和卫生系统；以及实施「海军计划」(Plan Marina)应对自然灾害。近年来，SEMAR的职责范围显著扩大，超出了传统海军防务范畴。2019年起负责管理特万特佩克地峡跨洋走廊(CIIT)——连接太平洋和大西洋的战略性多式联运项目，2023年正式划归SEMAR管理。2025年7月，墨西哥城机场集团(GACM)合并组建为海军机场集团(Grupo Aeroportuario Marina)，SEMAR开始管理墨西哥城国际机场(AICM)和费利佩·安赫莱斯国际机场(AIFA)等机场。2026年SEMAR预算约659亿比索，雇员约91,550人，其中港口和物流投资占预算39%。SEMAR通过2025-2030海洋部门计划，正致力于将墨西哥建设为海洋强国。",
+  "industries": [
+    "public_administration",
+    "defence_military",
+    "maritime_shipping",
+    "port_operations",
+    "intelligence_security",
+    "infrastructure",
+    "aviation"
+  ],
+  "apec_stance": "墨西哥是APEC成员经济体。SEMAR通过其管理的跨洋走廊项目(CIIT)和港口现代化计划，在亚太贸易物流中扮演日益重要的角色。特万特佩克跨洋走廊被视为巴拿马运河的替代航线，连接太平洋和大西洋，可为APEC区域内的跨洋贸易提供新通道。2025-2030海洋部门计划将港口现代化和海洋经济发展列为核心目标，曼萨尼约、拉萨罗卡德纳斯等太平洋港口的扩建直接服务于与亚太地区的贸易增长。SEMAR的海上安全行动也保障了APEC框架下的海上贸易通道安全。在中美贸易摩擦和近岸外包(nearshoring)趋势下，SEMAR管理的跨洋走廊和太平洋港口成为墨西哥融入亚太供应链的重要战略基础设施。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/SEMAR_Logo_%282024%29.png/250px-SEMAR_Logo_%282024%29.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 84,
+    "notes": "Enriched from skeleton profile. SEMAR has expanded significantly beyond traditional naval defense into port management, interoceanic corridor, airport operations, and maritime economic development. Key sources include Spanish/English Wikipedia, SEMAR press releases via gob.mx, and 2025-2026 news coverage.",
+    "quotes": [
+      {
+        "title": "Secretaría de Marina - Spanish Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Secretar%C3%ADa_de_Marina_(M%C3%A9xico)"
+      },
+      {
+        "title": "Secretariat of the Navy - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Secretariat_of_the_Navy_(Mexico)"
+      },
+      {
+        "title": "SEMAR发布2025-2030海洋部门计划 - La Jornada",
+        "url": "https://www.jornada.com.mx/noticia/2025/09/08/politica/publica-semar-en-dof-su-plan-sectorial-maritimo-20252030"
+      },
+      {
+        "title": "跨洋走廊机构计划2025-2030获批 - La Jornada",
+        "url": "https://www.jornada.com.mx/noticia/2025/10/16/politica/publica-dof-acuerdo-de-semar-que-aprueba-programa-institucional-del-corredor-interoceanico"
+      },
+      {
+        "title": "跨洋列车脱轨事故 - El País",
+        "url": "https://elpais.com/mexico/2025-12-30/lo-que-se-sabe-del-descarrilamiento-del-tren-interoceanico-en-oaxaca.html"
+      },
+      {
+        "title": "SEMAR 2026预算659亿比索 - Info-Transportes",
+        "url": "https://info-transportes.com.mx/index.php/puertos-y-terminales/4263-gobierno-designa-a-la-secretaria-de-marina-65-mil-926-millones-en-el-pef-2026"
+      },
+      {
+        "title": "海军机场集团合并 - A21",
+        "url": "https://a21.com.mx/aeronautica/2025/07/01/concluye-proceso-de-fusion-para-surgimiento-de-grupo-aeroportuario-marina/"
+      },
+      {
+        "title": "美国海军陆战队训练墨军 - El Informador",
+        "url": "https://www.informador.mx/semar-t2393"
+      },
+      {
+        "title": "SEMAR查获可卡因 - La Jornada",
+        "url": "https://www.jornada.com.mx/noticia/2026/05/09/politica/semar-asegura-cocaina-en-costas-de-guerrero"
+      },
+      {
+        "title": "2025-2030海洋部门计划PDF - DOF",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1025963/En_el_Mar__en_el_Aire__en_la_Tierra.pdf"
+      }
+    ]
+  }
+}

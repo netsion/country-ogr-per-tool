@@ -1,0 +1,294 @@
+{
+  "org_id": "AU-CORP-006",
+  "basic_info": {
+    "name_original": "Coles Group Limited",
+    "name_zh": "高斯集团",
+    "name_en": "Coles Group",
+    "aliases": [
+      "Coles Myer Ltd",
+      "G.J. Coles & Coy",
+      "COL",
+      "ASX: COL"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed",
+    "country_iso3": "AUS",
+    "hq_country_iso3": "AUS",
+    "founded_date": "1914-04-09",
+    "website": "https://www.colesgroup.com.au/"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "Coles",
+      "url": "https://x.com/Coles",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "coles",
+      "url": "https://www.facebook.com/coles/",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "colesgroup",
+      "url": "https://au.linkedin.com/company/colesgroup",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "colessupermarkets",
+      "url": "https://www.instagram.com/colessupermarkets/",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Coles Online",
+      "url": "https://www.coles.com.au/",
+      "description": "Coles超市在线购物平台，提供线上杂货购买和配送服务",
+      "source": "official_website"
+    },
+    {
+      "name": "Coles Group Corporate",
+      "url": "https://www.colesgroup.com.au/",
+      "description": "高斯集团企业官网",
+      "source": "official_website"
+    },
+    {
+      "name": "flybuys",
+      "url": "https://www.flybuys.com.au/",
+      "description": "澳大利亚领先消费者忠诚度计划，Coles Group与Wesfarmers各持股50%",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "彼得·艾伦 (Peter Allen)",
+      "title": "董事长",
+      "title_description": "非执行董事长，2025年5月1日接替退休的James Graham出任董事长",
+      "description": "2024年9月加入Coles董事会担任非执行董事，此前曾担任Scentre Group首席执行官。曾任Westfield首席财务官"
+    },
+    {
+      "person_id": "AU-PERSON-000030",
+      "name": "莉亚·韦克特 (Leah Weckert)",
+      "title": "首席执行官兼董事总经理 (CEO & Managing Director)",
+      "title_description": "集团最高执行官，负责整体业务运营和战略执行",
+      "description": "2023年5月就任CEO。2011年加入Coles，历任首席财务官、商业和快消品业务首席执行官等多个高级职位，在Coles从Wesfarmers剥离上市过程中发挥了领导作用"
+    },
+    {
+      "person_id": "AU-PERSON-000468",
+      "name": "贾妮·芬利 (Janie Finlay)",
+      "title": "阿什利青少年拘留中心教育项目协调员",
+      "title_description": null,
+      "description": null
+    }
+  ],
+  "departments": [
+    {
+      "name": "Coles Supermarkets (高斯超市)",
+      "dept_id": "AU-CORP-006-DEPT-001",
+      "head": null,
+      "description": "澳大利亚第二大超市连锁，运营约846家超市门店，是集团核心业务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Coles Local",
+      "dept_id": "AU-CORP-006-DEPT-002",
+      "head": null,
+      "description": "小型业态社区杂货店，面向城市密集区域提供便利购物服务",
+      "parent_dept_id": "AU-CORP-006-DEPT-001"
+    },
+    {
+      "name": "Coles Online",
+      "dept_id": "AU-CORP-006-DEPT-003",
+      "head": null,
+      "description": "在线零售平台，提供线上杂货购买、配送到家及自提服务",
+      "parent_dept_id": "AU-CORP-006-DEPT-001"
+    },
+    {
+      "name": "Coles Liquor (高斯酒类零售)",
+      "dept_id": "AU-CORP-006-DEPT-004",
+      "head": null,
+      "description": "集团酒类零售部门，运营Liquorland、Vintage Cellars和First Choice Liquor三大品牌，共约894家门店",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Liquorland",
+      "dept_id": "AU-CORP-006-DEPT-005",
+      "head": null,
+      "description": "连锁酒类零售品牌，部分门店与Coles超市相邻但独立运营",
+      "parent_dept_id": "AU-CORP-006-DEPT-004"
+    },
+    {
+      "name": "Vintage Cellars",
+      "dept_id": "AU-CORP-006-DEPT-006",
+      "head": null,
+      "description": "精品酒类连锁店，专注于优质葡萄酒和高档酒品",
+      "parent_dept_id": "AU-CORP-006-DEPT-004"
+    },
+    {
+      "name": "First Choice Liquor",
+      "dept_id": "AU-CORP-006-DEPT-007",
+      "head": null,
+      "description": "大型酒类连锁店，与Woolworths旗下Dan Murphy's直接竞争",
+      "parent_dept_id": "AU-CORP-006-DEPT-004"
+    },
+    {
+      "name": "Coles Financial Services",
+      "dept_id": "AU-CORP-006-DEPT-008",
+      "head": null,
+      "description": "为澳大利亚家庭提供保险、信用卡和个人贷款等金融服务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Chef Fresh",
+      "dept_id": "AU-CORP-006-DEPT-009",
+      "head": null,
+      "description": "食品制造部门，收购了 chilled食品生产商Jewel Fine Foods，生产即食餐品",
+      "parent_dept_id": null
+    },
+    {
+      "name": "flybuys (合资)",
+      "dept_id": "AU-CORP-006-DEPT-010",
+      "head": null,
+      "description": "消费者忠诚度计划，Coles Group与Wesfarmers各持股50%",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-09-23",
+      "title": "ACCC起诉Coles误导性'Down Down'折扣",
+      "description": "澳大利亚竞争与消费者委员会(ACCC)对Coles提起联邦法院诉讼，指控其在数百种常见超市产品上通过'Down Down'促销标签进行虚假折扣宣传，在提价后再打折制造降价假象",
+      "impact": "可能面临巨额罚款，与Woolworths共同面临集体诉讼",
+      "source": "https://www.accc.gov.au/media-release/accc-takes-woolworths-and-coles-to-court-over-alleged-misleading-prices-dropped-and-down-down-claims"
+    },
+    {
+      "date": "2025-02-27",
+      "title": "Coles公布中期业绩并宣布董事长更替",
+      "description": "Coles公布2025财年上半年业绩，超市销售收入增长4.3%，酒类收入微增0.8%。同时宣布董事长James Graham将于4月30日退休，Peter Allen将于5月1日接任",
+      "impact": "领导层平稳过渡，股价在消息公布后上涨至历史高位",
+      "source": "https://announcements.asx.com.au/asxpdf/20250227/pdf/06g0nm1z8f3sbn.pdf"
+    },
+    {
+      "date": "2025-02-16",
+      "title": "ACCC诉Coles虚假折扣案开庭",
+      "description": "被称为'世纪案件'的ACCC诉Coles虚假折扣案在联邦法院开庭审理。ACCC指控Coles的'Down Down'促销活动'完全具有误导性'，公司内部邮件显示高层对定价规则的违规有所察觉",
+      "impact": "品牌信誉受损，可能面临数亿澳元罚款",
+      "source": "https://www.abc.net.au/news/2026-02-16/accc-coles-federal-court-case-discount-pricing/106294956"
+    },
+    {
+      "date": "2025-05-01",
+      "title": "Peter Allen正式接任Coles董事长",
+      "description": "Peter Allen于5月1日正式接替退休的James Graham出任Coles Group董事长。Allen此前担任Scentre Group首席执行官，拥有丰富的零售和房地产行业经验",
+      "impact": "新任董事长将为Coes带来新的治理视角",
+      "source": "https://www.colesgroup.com.au/about-us/?page=board-of-directors"
+    },
+    {
+      "date": "2025-10-27",
+      "title": "Coles超市销售增速超过Woolworths",
+      "description": "Coles第三季度超市销售增长表现优于Woolworths，CEO Leah Weckert表示业务持续强劲。Woolworths董事长Scott Perkins誓言要通过降价夺回流失的市场份额",
+      "impact": "两大超市竞争格局发生变化，Coles市场份额增长",
+      "source": "https://www.afr.com/companies/retail/coles-doubles-woolworths-sales-growth-and-says-more-to-come-20251027-p5n5in"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "Coles上半年财务业绩令人失望",
+      "description": "Coles公布的上半年财务结果不及市场预期，导致投资者立即抛售股票。但公司仍提高了每股股息至37澳分，超出分析师预期",
+      "impact": "股价下跌，反映超市行业面临的利润压力",
+      "source": "https://www.abc.net.au/news/2026-02-27/coles-financial-results-go-backwards-with-shares-following/106396060"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "AU-CORP-005",
+      "org_name": "Woolworths Group (伍尔沃斯集团)",
+      "org_type": "CORP",
+      "org_description": "澳大利亚最大零售商，运营Woolworths超市，与Coes形成双寡头竞争格局",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "AU-CORP-004",
+      "org_name": "Wesfarmers (西农集团)",
+      "org_type": "CORP",
+      "org_description": "综合性企业集团，2007-2018年间拥有Coles Group，目前仍持有flybuys 50%股权",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "AU-CORP-007",
+      "org_name": "Coles Supermarkets (高斯超市)",
+      "org_type": "CORP",
+      "org_description": "Coles Group旗下的旗舰超市连锁品牌",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "AU-GOV-019",
+      "org_name": "Australian Competition and Consumer Commission (澳大利亚竞争与消费者委员会)",
+      "org_type": "GOV",
+      "org_description": "澳大利亚竞争监管机构",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "高斯集团(Coles Group)是澳大利亚第二大零售商，仅次于伍尔沃斯集团。核心业务为超市食品零售，旗下拥有Coles超市（约846家门店）、Coles Local社区店、Coles Online在线平台、酒类零售业务（Liquorland、Vintage Cellars、First Choice Liquor共约894家门店）以及Coles Financial Services金融服务。集团由George Coles于1914年在维多利亚州Collingwood创立，2007年被Wesfarmers以220亿澳元收购，2018年重新分拆为独立上市公司。集团2024财年营收约437亿澳元，净利润约11.2亿澳元，员工约11.5万人。Coles与Woolworths共同占据澳大利亚超市约80%的市场份额。",
+  "industries": [
+    "retail",
+    "food_beverage",
+    "ecommerce",
+    "financial_services"
+  ],
+  "apec_stance": "作为澳大利亚领先的零售商，高斯集团通过其广泛的供应链网络与APEC经济体保持紧密联系。Coles执行'Australia First'采购政策，优先采购澳大利亚本地产品（100%新鲜肉类和96%新鲜果蔬为本地采购），同时从新西兰等APEC经济体进口部分商品。Coles与Wesfarmers合资运营的flybuys忠诚度计划是澳大利亚最大的消费者数据平台之一。在ACCC超市调查背景下，Coles与Woolworths的双寡头市场结构成为政策改革焦点。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Coles_Group_logo.svg/250px-Coles_Group_logo.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "social_media",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 92,
+    "notes": "Original skeleton had erroneous data (Coleophora olympica insect). Fully rebuilt with verified Coles Group data.",
+    "quotes": [
+      {
+        "title": "Coles Group - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coles_Group"
+      },
+      {
+        "title": "About us - Coles Group",
+        "url": "https://www.colesgroup.com.au/about-us/"
+      },
+      {
+        "title": "Executive leadership team - Coles Group",
+        "url": "https://www.colesgroup.com.au/about-us/?page=executive-leadership-team"
+      },
+      {
+        "title": "Board of Directors - Coles Group",
+        "url": "https://www.colesgroup.com.au/about-us/?page=board-of-directors"
+      },
+      {
+        "title": "ACCC takes Woolworths and Coles to court",
+        "url": "https://www.accc.gov.au/media-release/accc-takes-woolworths-and-coles-to-court-over-alleged-misleading-prices-dropped-and-down-down-claims"
+      },
+      {
+        "title": "Coles Chair Succession - ASX Announcement",
+        "url": "https://announcements.asx.com.au/asxpdf/20250227/pdf/06g0nm1z8f3sbn.pdf"
+      },
+      {
+        "title": "AFR: Coles doubles Woolworths sales growth",
+        "url": "https://www.afr.com/companies/retail/coles-doubles-woolworths-sales-growth-and-says-more-to-come-20251027-p5n5in"
+      },
+      {
+        "title": "ABC: Coles financial results disappointing",
+        "url": "https://www.abc.net.au/news/2026-02-27/coles-financial-results-go-backwards-with-shares-following/106396060"
+      }
+    ]
+  }
+}

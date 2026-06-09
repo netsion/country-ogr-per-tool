@@ -1,46 +1,80 @@
 {
   "org_id": "SG-GOV-012",
   "basic_info": {
-    "name_original": "新加坡外交部",
-    "name_zh": "新加坡外交部",
+    "name_original": "Ministry of Foreign Affairs",
     "name_en": "Ministry of Foreign Affairs of the Republic of Singapore",
+    "name_zh": "新加坡外交部",
     "aliases": [
+      "Ministry of Foreign Affairs Singapore",
+      "MFA Singapore",
+      "MFA",
       "新加坡外交部",
+      "Kementerian Ehwal Luar Negeri Singapura",
       "Kementerian Ehwal Luar Republik Singapura"
     ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
-    "founded_date": "1965-01-01",
-    "website": "http://www.mfa.gov.sg/"
+    "founded_date": "1965-08-09",
+    "website": "https://www.mfa.gov.sg"
   },
   "social_accounts": [
     {
       "platform": "facebook",
       "account_name": "SingaporeMFA",
       "url": "https://www.facebook.com/SingaporeMFA/",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "twitter_x",
       "account_name": "@MFAsg",
       "url": "https://x.com/MFAsg",
-      "source": "web_search"
+      "source": "official_website"
     },
     {
       "platform": "youtube",
       "account_name": "@mfasingapore",
       "url": "https://www.youtube.com/@mfasingapore",
       "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@mfa_sg",
+      "url": "https://www.instagram.com/mfa_sg/",
+      "source": "web_search_2026-05-08"
+    },
+    {
+      "platform": "telegram",
+      "account_name": "MFAsg",
+      "url": "https://t.me/s/MFAsg",
+      "source": "web_search_2026-05-08"
     }
   ],
   "digital_assets": [
     {
-      "name": "MFA官网",
+      "name": "MFA官方网站",
       "url": "https://www.mfa.gov.sg/",
-      "description": "新加坡外交部官网。",
-      "source": "https://www.mfa.gov.sg/"
+      "description": "新加坡外交部官方网站，发布外交政策、新闻声明和领事服务信息",
+      "source": "official_website"
+    },
+    {
+      "name": "MFA旅行登记系统",
+      "url": "https://eregister.mfa.gov.sg/",
+      "description": "新加坡公民海外旅行自愿登记系统，用于紧急情况下的联络和撤离协助",
+      "source": "official_website"
+    },
+    {
+      "name": "MFA外交政策页面",
+      "url": "https://www.mfa.gov.sg/about-mfa/foreign-policy/",
+      "description": "新加坡外交政策总览，涵盖双边关系、国际组织参与和区域合作",
+      "source": "official_website"
+    },
+    {
+      "name": "MFA APEC专页",
+      "url": "https://www.mfa.gov.sg/about-mfa/foreign-policy/international-organisations/asia-pacific-economic-cooperation-apec/",
+      "description": "新加坡外交部关于APEC的专门页面，介绍新加坡在APEC中的角色和贡献",
+      "source": "official_website"
     }
   ],
   "key_people": [
@@ -49,132 +83,244 @@
       "name": "维文 (Vivian Balakrishnan)",
       "title": "外交部长",
       "title_description": "Minister for Foreign Affairs",
-      "description": "自2015年起担任外交部长。"
+      "description": "自2015年10月1日起担任外交部长，2025年出版《Not So Little Red Dot: 60 Years of Singapore's Diplomacy》回顾新加坡60年外交历程"
+    },
+    {
+      "person_id": "SG-PERSON-000199",
+      "name": "沈颖 (Sim Ann)",
+      "title": "外交部高级政务部长",
+      "title_description": "Senior Minister of State for Foreign Affairs",
+      "description": "协助外交部长处理外交部事务"
+    },
+    {
+      "person_id": "SG-PERSON-000251",
+      "name": "颜晓芳 (Gan Siow Huang)",
+      "title": "外交部政务部长",
+      "title_description": "Minister of State for Foreign Affairs",
+      "description": "2026年3月参与中东撤离行动协调工作"
+    },
+    {
+      "person_id": "SG-PERSON-000252",
+      "name": "朱卡奈 (Zhulkarnain Abdul Rahim)",
+      "title": "外交部政务部长",
+      "title_description": "Minister of State for Foreign Affairs",
+      "description": "2025年新任命的外交部政务部长"
     },
     {
       "person_id": "SG-PERSON-000141",
-      "name": "Albert Chua",
+      "name": "蔡艾伯 (Albert Chua)",
       "title": "常任秘书",
       "title_description": "Permanent Secretary",
-      "description": "外交部常任秘书。"
+      "description": "外交部常任秘书，负责外交部的整体行政和政策执行"
     },
     {
       "person_id": "SG-PERSON-000179",
-      "name": "Luke Goh",
+      "name": "吴鹏毅 (Luke Goh)",
       "title": "常任秘书（发展）",
       "title_description": "Permanent Secretary (Development)",
-      "description": "外交部发展常任秘书。"
+      "description": "外交部发展常任秘书，负责外交能力建设和发展合作"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-GOV-012-DEPT-001",
-      "name": "Impact",
+      "name": "亚太司 (Asia-Pacific Directorate)",
       "head": null,
-      "description": null,
+      "description": "负责处理新加坡与亚太地区国家的双边政治和经济关系",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-002",
-      "name": "Ministers",
+      "name": "东南亚与东盟司 (Southeast Asia and ASEAN Directorate)",
       "head": null,
-      "description": null,
+      "description": "负责处理与东南亚国家的关系和东盟事务协调",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-003",
-      "name": "See also",
+      "name": "礼宾司 (Protocol Directorate)",
       "head": null,
-      "description": null,
+      "description": "负责外交礼宾事务、国事访问安排和外交使团管理",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-004",
-      "name": "List of current foreign ministers",
+      "name": "领事司 (Consular Directorate)",
       "head": null,
-      "description": null,
+      "description": "负责海外新加坡公民领事保护和协助，处理签证与公民事务",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-005",
-      "name": "Foreign relations of Singapore",
+      "name": "新加坡合作计划 (Singapore Cooperation Programme)",
       "head": null,
-      "description": null,
+      "description": "负责新加坡对发展中国家的技术援助和能力建设项目",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-006",
-      "name": "List of diplomatic missions of Singapore",
+      "name": "企业事务司 (Corporate Affairs Directorate)",
       "head": null,
-      "description": null,
+      "description": "负责外交部的组织管理和资源统筹",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-007",
-      "name": "References",
+      "name": "外交学院 (Diplomatic Academy)",
       "head": null,
-      "description": null,
+      "description": "负责外交人员培训和专业能力发展",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-GOV-012-DEPT-008",
-      "name": "External links",
+      "name": "管理司 (Management Directorate)",
       "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-GOV-012-DEPT-009",
-      "name": "Official website of the Ministry of Foreign Affairs",
-      "head": null,
-      "description": null,
+      "description": "负责外交部内部行政管理和人事事务",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-06",
+      "title": "维文外长访问中东三国",
+      "description": "维文外长于5月2日至5日访问中东地区，就中东局势交换意见，强调降级冲突和持久政治解决的重要性",
+      "impact": "展现新加坡在中东危机中积极外交斡旋的姿态，维护新加坡在中东地区的利益和公民安全",
+      "source": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/visit-of-minister-for-foreign-affairs-dr-vivian-balakrishnan-to-the-middle-east--2-to-5-may-2026-2/"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "黄循财总理出席第48届东盟峰会",
+      "description": "黄循财总理赴菲律宾宿务出席第48届东盟峰会，东盟外长在会前就加强集体韧性达成共识",
+      "impact": "新加坡继续在东盟框架内推动区域经济一体化和集体安全合作",
+      "source": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/pm-lawrence-wong-to-attend-the-48th-asean-summit-in-cebu--the-philippines--8-may-2026-/"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "新西兰总理克里斯托弗·卢克森正式访问新加坡",
+      "description": "新西兰总理卢克森对新加坡进行正式访问，深化双边经贸和安全合作关系",
+      "impact": "新新（西兰）关系进一步升温，在防务安全、数字经济等领域拓展合作",
+      "source": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/official-visit-of-prime-minister-of-new-zealand-christopher-luxon--4-may-2026/"
+    },
+    {
+      "date": "2026-03-07",
+      "title": "中东冲突期间MFA组织撤离航班",
+      "description": "因美国-以色列对伊朗袭击导致中东领空关闭，外交部安排新加坡空军A330多用途加油运输机从阿曼马斯喀特和沙特利雅得撤离152名新加坡公民及其家属",
+      "impact": "展现了外交部在海外危机中的应急协调和公民保护能力，获得社会各界高度评价",
+      "source": "https://www.mfa.gov.sg/"
+    },
+    {
       "date": "2026-03-18",
       "title": "新日关系升级为战略伙伴关系",
-      "description": "黄循财总理首次正式访问日本，双边关系升级。",
-      "impact": "新日在各领域合作进入新阶段。",
+      "description": "黄循财总理首次正式访问日本，双边关系升级为战略伙伴关系，涵盖防务、经济、数码等领域",
+      "impact": "新日在各领域合作进入新阶段，对亚太安全格局产生深远影响",
       "source": "https://www.pmo.gov.sg/newsroom/"
     },
     {
+      "date": "2025-10-31",
+      "title": "新加坡出席APEC部长级会议呼吁多边合作",
+      "description": "傅海燕部长代表新加坡出席在韩国庆州举行的2025年APEC部长级会议，呼吁加强多边合作以增强区域韧性",
+      "impact": "新加坡在APEC框架内持续推动自由贸易、数字经济和区域经济一体化议题",
+      "source": "https://www.mti.gov.sg/newsroom/singapore-calls-for-multilateral-cooperation-to-enhance-resilience-across-the-region-at-apec-ministerial-meeting-2025/"
+    },
+    {
       "date": "2025-03-03",
-      "title": "新世界秩序下的外交政策",
-      "description": "维文外长阐述新加坡外交政策方向。",
-      "impact": "明确基于国际法的外交原则。",
-      "source": "https://www.mfa.gov.sg/"
+      "title": "维文外长阐述新世界秩序下的外交政策",
+      "description": "维文外长在国会拨款委员会辩论中系统阐述新加坡在剧变国际环境中的外交政策方向，强调基于国际法和规则的多边主义",
+      "impact": "明确新加坡坚持独立自主、基于国际法的外交原则，在全球地缘政治变局中保持战略定力",
+      "source": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/mfa-cos-2025--singapore-s-foreign-policy-in-a-new-world-order/"
     }
   ],
   "related_entities": [
     {
       "org_id": "SG-INTL-001",
-      "org_name": "APEC秘书处",
+      "org_name": "亚太经济合作组织 (APEC)",
       "org_type": "INTL",
-      "org_description": "总部位于新加坡。",
+      "org_description": "APEC秘书处总部位于新加坡，新加坡将于2030年主办APEC峰会",
       "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SG-GOV-009",
+      "org_name": "总理公署 (Prime Minister's Office)",
+      "org_type": "GOV",
+      "org_description": "新加坡政府中枢机构，外交部长的任命和重大外交决策经由总理公署协调",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "SG-GOV-016",
+      "org_name": "新加坡贸易和工业部 (Ministry of Trade and Industry)",
+      "org_type": "GOV",
+      "org_description": "与MFA共同协调新加坡在国际经贸组织中的参与，包括APEC贸易部长会议",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "东盟秘书处 (ASEAN Secretariat)",
+      "org_type": "INTL",
+      "org_description": "东南亚国家联盟秘书处，新加坡是东盟创始成员国之一",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "联合国 (United Nations)",
+      "org_type": "INTL",
+      "org_description": "新加坡在纽约和日内瓦设有常驻联合国代表团，积极参与联合国事务",
+      "relationship_type": "member_of"
     }
   ],
-  "core_business": "新加坡外交部（Ministry of Foreign Affairs，简称MFA）是新加坡政府负责外交事务的核心部门，成立于1965年8月9日，即新加坡独立当日。外交部主管新加坡与外国的外交关系，处理领事事务并为海外新加坡公民提供领事协助。现任外交部长为维文医生（Vivian Balakrishnan），自2015年10月1日任职至今。\n\n外交部在全球设有50个海外使团，包括7个高级专员公署（High Commissions）、21个大使馆、4个常驻联合国代表团（Permanent Missions to the UN）和17个领事馆。新加坡已在海外任命31名荣誉总领事/领事，并有46名非常驻大使和高级专员驻新加坡办公。外交部内部分为11个处理政治和经济事务的理事会，以及7个负责礼宾、领事事务和新加坡合作计划（Singapore Cooperation Programme，简称SCP）等事务的理事会。企业事务理事会负责组织与资源管理，人力资源理事会和外交学院（Diplomatic Academy）负责人员发展和培训。\n\n新加坡目前与188个国家保持外交关系。在新加坡境内设有70个驻外使馆和高级专员公署、43个外国领事馆和11个国际组织总部。外交部年度预算约为4.667亿新元。2026年3月，在美国-以色列对伊朗发动袭击导致领空关闭后，外交部安排了从阿曼马斯喀特（Muscat）和沙特利雅得（Riyadh）撤离新加坡公民及其家属的专机，展现了其应急协调能力。外交部在APEC和ASEAN等区域框架中发挥着重要作用，积极推动自由贸易、数字经济合作和区域经济一体化。",
+  "core_business": "新加坡外交部（MFA）是新加坡政府负责外交事务的核心部门，成立于1965年8月9日新加坡独立当日。总部位于东陵区雪伍德路1号。外交部的使命是\"通过有效外交推进和保护新加坡及新加坡人的利益\"，格言为\"在世界中确立我们的地位\"。MFA主管新加坡与外国的外交关系，处理领事事务并为海外新加坡公民提供领事保护和协助。外交部在全球设有50个海外使团，包括7个高级专员公署、21个大使馆、4个常驻联合国代表团和17个领事馆。此外，新加坡已在海外任命31名荣誉总领事，并有46名非常驻大使和高级专员驻新加坡办公。MFA内部分为11个处理政治和经济事务的理事会，以及7个负责礼宾、领事事务和新加坡合作计划（SCP）的理事会。外交学院负责外交人员培训和发展。新加坡目前与188个国家保持外交关系，在新加坡境内设有70个驻外使馆和高级专员公署、43个外国领事馆和11个国际组织总部。2026年3月，在中东冲突导致领空关闭后，MFA成功组织了从阿曼和沙特的公民撤离行动，动用新加坡空军A330运输机将152名公民安全接回，展现了其卓越的应急协调能力。MFA年度预算约4.667亿新元（2019年数据）。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "新加坡是APEC秘书处所在地，积极参与APEC活动。推动数字贸易规则和区域经济一体化。新加坡将于2030年主办APEC峰会。",
+  "apec_stance": "新加坡是APEC秘书处所在地，始终积极参与和推动APEC活动。新加坡视APEC为促进亚太区域经济一体化的核心平台，重点推动数字贸易规则制定、跨境数据流动、数字经济合作和供应链韧性等前沿议题。在2025年韩国APEC部长级会议上，新加坡呼吁加强多边合作以增强区域韧性。新加坡已确认将于2030年主办APEC峰会，这将是新加坡继2009年后第二次主办该会议，体现了新加坡在APEC中的核心地位。维文外长多次强调，新加坡坚持基于规则的多边贸易体系和开放的区域经济架构，这与APEC促进自由开放贸易和投资的宗旨高度一致。新加坡还通过新加坡合作计划（SCP）向APEC发展中经济体提供技术援助和能力建设支持。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Ministry_of_Foreign_Affairs_Singapore_logo.jpg/330px-Ministry_of_Foreign_Affairs_Singapore_logo.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia",
+      "wikipedia_en",
+      "wikipedia_zh",
       "official_website",
       "web_search"
     ],
-    "completeness_score": 92,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 78)"
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment: updated ministers list from Wikipedia (added Sim Ann SMS, Gan Siow Huang MOS, Zhulkarnain MOS), added real departments, updated recent events with 2026 Middle East visit/ASEAN summit/NZ PM visit/evacuation flights/APEC 2025, added Instagram/Telegram accounts, added digital assets (eRegister, APEC page), expanded related_entities, rewrote core_business and apec_stance, corrected name_original to English",
+    "quotes": [
+      {
+        "title": "MFA Official Website",
+        "url": "https://www.mfa.gov.sg"
+      },
+      {
+        "title": "Wikipedia EN - Ministry of Foreign Affairs (Singapore)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Singapore)"
+      },
+      {
+        "title": "Wikipedia ZH - 新加坡外交部",
+        "url": "https://zh.wikipedia.org/wiki/新加坡外交部"
+      },
+      {
+        "title": "MFA - Vivian Balakrishnan Middle East Visit May 2026",
+        "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/visit-of-minister-for-foreign-affairs-dr-vivian-balakrishnan-to-the-middle-east--2-to-5-may-2026-2/"
+      },
+      {
+        "title": "MFA - PM Wong ASEAN Summit May 2026",
+        "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/pm-lawrence-wong-to-attend-the-48th-asean-summit-in-cebu--the-philippines--8-may-2026-/"
+      },
+      {
+        "title": "MTI - APEC Ministerial Meeting 2025",
+        "url": "https://www.mti.gov.sg/newsroom/singapore-calls-for-multilateral-cooperation-to-enhance-resilience-across-the-region-at-apec-ministerial-meeting-2025/"
+      },
+      {
+        "title": "MFA - COS 2025 Foreign Policy Speech",
+        "url": "https://www.mfa.gov.sg/newsroom/announcements-and-highlights/mfa-cos-2025--singapore-s-foreign-policy-in-a-new-world-order/"
+      },
+      {
+        "title": "MFA APEC Page",
+        "url": "https://www.mfa.gov.sg/about-mfa/foreign-policy/international-organisations/asia-pacific-economic-cooperation-apec/"
+      }
+    ]
   }
 }

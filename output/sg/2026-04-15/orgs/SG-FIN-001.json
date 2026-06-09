@@ -1,19 +1,20 @@
 {
   "org_id": "SG-FIN-001",
   "basic_info": {
-    "name_original": "新加坡交易所",
-    "name_zh": "新加坡交易所",
-    "name_en": "Singapore Stock Exchange",
+    "name_original": "Singapore Exchange Limited",
+    "name_en": "Singapore Exchange Limited",
+    "name_zh": "新加坡交易所集团",
     "aliases": [
       "SGX",
-      "Singapore Exchange Limited",
-      "Singapore Stock Market",
       "SGX Group",
+      "Singapore Exchange",
+      "Singapore Stock Exchange",
       "新加坡交易所",
+      "新交所",
       "Bursa Saham Singapura"
     ],
     "org_type": "FIN",
-    "org_subtype": "asset_management",
+    "org_subtype": "publicly_listed",
     "country_iso3": "SGP",
     "hq_country_iso3": "SGP",
     "founded_date": "1999-12-01",
@@ -37,6 +38,12 @@
       "account_name": "UCaurkyabSDD8bgrSqUyVhyg",
       "url": "https://youtube.com/channel/UCaurkyabSDD8bgrSqUyVhyg",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Singapore Exchange (SGX)",
+      "url": "https://www.linkedin.com/company/singapore-exchange-sgx-",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
@@ -57,138 +64,249 @@
       "url": "https://www.sgx.com/securities/company-locator",
       "description": "SGX全部上市公司检索和基本信息",
       "source": "official_website"
+    },
+    {
+      "name": "SGX投资者关系页面",
+      "url": "https://investors.sgx.com",
+      "description": "SGX集团投资者关系门户，包含年报、财报和公司公告",
+      "source": "web_search"
+    },
+    {
+      "name": "SGX集团官网",
+      "url": "https://www.sgxgroup.com",
+      "description": "SGX集团企业门户网站，介绍集团业务架构和战略",
+      "source": "web_search"
     }
   ],
   "key_people": [
     {
-      "person_id": "SG-PERSON-000093",
-      "name": "谢福华 (Hsieh Fu Hua)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000236",
+      "name": "许文辉 (Koh Boon Hwee)",
+      "title": "董事会主席 (Chairman of the Board)",
+      "title_description": "SGX集团董事会主席，负责公司治理和战略方向",
+      "description": "许文辉自2018年起担任SGX集团董事会主席，同时也是新加坡政府投资公司（GIC）董事会成员和投资委员会成员。在加入SGX之前，他曾担任星展银行集团首席执行官和新加坡电信集团董事长。"
     },
     {
-      "person_id": "SG-PERSON-000094",
-      "name": "馬格努斯·博可 (Magnus Böcker)",
-      "title": "Chief Executive Officer",
-      "title_description": null,
-      "description": null
-    },
-    {
-      "person_id": "SG-PERSON-000078",
-      "name": "柯宗盛 (Kwa Chong Seng)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "SG-PERSON-000237",
+      "name": "罗文才 (Loh Boon Chye)",
+      "title": "首席执行官 (Chief Executive Officer)",
+      "title_description": "SGX集团最高行政负责人，推动集团多资产交易所战略",
+      "description": "罗文才自2015年7月起担任SGX集团CEO，拥有近30年金融行业经验，曾任职于美国银行-美林证券、德意志银行（17年）、新加坡金融管理局和摩根担保信托公司。2025年获Markets Media Group全球市场选择奖年度CEO。"
     }
   ],
   "departments": [
     {
       "dept_id": "SG-FIN-001-DEPT-001",
-      "name": "Asian Gateway Investments Pte Ltd: wholly owned subsidiary",
+      "name": "证券交易部 (SGX ST - Securities Trading)",
       "head": null,
-      "description": null,
+      "description": "负责SGX证券市场的交易运营，包括主板（Mainboard）和凯利板（Catalist）上市股票的交易服务。截至2022年2月共有672家上市公司。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-002",
-      "name": "Listing",
+      "name": "衍生品交易部 (SGX DT - Derivatives Trading)",
       "head": null,
-      "description": null,
+      "description": "负责衍生品交易，涵盖股票指数期货/期权、外汇期货、大宗商品衍生品等。SGX是全球最大的铁矿石掉期清算机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-003",
-      "name": "Trading system",
+      "name": "衍生品清算部 (SGX DC - Derivatives Clearing)",
       "head": null,
-      "description": null,
+      "description": "负责衍生品交易的清算和结算操作，确保交易对手方风险管理。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-004",
-      "name": "Financial performance",
+      "name": "场外交易清算平台 (SGX AsiaClear)",
       "head": null,
-      "description": null,
+      "description": "2006年推出的亚洲首个场外交易清算平台，提供石油掉期和远期运价协议等OTC衍生品的登记与清算服务。是全球最大的铁矿石掉期清算机构。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-005",
-      "name": "Corporate governance code",
+      "name": "电子交易系统部 (SGX ETS - Electronic Trading System)",
       "head": null,
-      "description": null,
+      "description": "提供全球交易接入服务，约80%客户来自新加坡以外地区。运营SGX QUEST（报价和执行系统）平台。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-006",
-      "name": "Companies listed",
+      "name": "中央存管有限公司 (Central Depository Pte Ltd)",
       "head": null,
-      "description": null,
+      "description": "SGX全资子公司，负责证券的清算、结算和存管服务。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-007",
-      "name": "Major shareholders",
+      "name": "上市业务部 (Listing)",
       "head": null,
-      "description": null,
+      "description": "负责管理SGX主板和凯利板（Catalist）的上市事务。凯利板采用保荐人制度，与原SESDAQ不同。2026年将推出全球上市板块（GLB）与纳斯达克双重上市。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-008",
-      "name": "See also",
+      "name": "亚洲门户投资有限公司 (Asian Gateway Investments Pte Ltd)",
       "head": null,
-      "description": null,
+      "description": "SGX全资子公司。",
       "parent_dept_id": null
     },
     {
       "dept_id": "SG-FIN-001-DEPT-009",
-      "name": "List of ASEAN stock exchanges by market capitalization",
+      "name": "SGX IT解决方案公司 (Singapore Exchange IT Solutions Pte Ltd)",
       "head": null,
-      "description": null,
-      "parent_dept_id": null
-    },
-    {
-      "dept_id": "SG-FIN-001-DEPT-010",
-      "name": "List of stock exchanges in the Commonwealth of Nations",
-      "head": null,
-      "description": null,
+      "description": "负责计算机服务和维护以及软件维护。运营SGX Reach高速交易平台（基于NASDAQ OMX的GENIUM平台）。",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
     {
+      "date": "2026-05-07",
+      "title": "新加坡通过SGX-纳斯达克双重上市法案",
+      "description": "新加坡国会通过《证券期货法》修正案，为企业在SGX和纳斯达克同时上市建立法律框架，允许企业使用单一文件进行双重上市。全球上市板块（GLB）预计2026年中上线。",
+      "impact": "大幅降低合规成本，吸引东南亚和东亚优质企业来新加坡上市，巩固SGX作为区域资本市场枢纽的地位。",
+      "source": "https://www.businesstoday.com.my/2026/05/07/singapore-passes-law-for-companies-to-dual-list-on-sgx-and-nasdaq/"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "MAS和SGX宣布全球上市板块框架细节",
+      "description": "新加坡金融管理局（MAS）和SGX公布全球上市板块（GLB）详细框架，允许企业通过单一招股书在SGX和纳斯达克同时上市，计划2026年中正式推出。",
+      "impact": "为东南亚发行人和私募股权支持企业提供新的上市路径，预计2026年将有20+宗IPO。",
+      "source": "https://sg.finance.yahoo.com/news/global-listing-board-set-mid-013000463.html"
+    },
+    {
       "date": "2026-02-10",
       "title": "SGX 2026年1月业绩创历史新高",
       "description": "新加坡交易所集团报告2026年1月ETF成交额创历史新高，交易量在多个板块增长强劲。2025年共完成13宗IPO筹资超25亿新元，为近年来最高。",
-      "impact": "监管改革推动下，2026年预计将有20+宗IPO，IPO管道增至去年三倍",
+      "impact": "监管改革推动下，2026年预计将有20+宗IPO，IPO管道增至去年三倍。",
       "source": "https://mondovisione.com/media-and-resources/news/sgx-group-kicks-off-2026-with-new-highs-in-january-performance-2026210/"
     },
     {
       "date": "2026-02-04",
       "title": "SGX录得创纪录半年度利润",
       "description": "新加坡交易所公布创纪录的半年度利润，受市场波动推动外汇和大宗商品衍生品交易量增长。100只SGX上市股票日均成交超100万新元。",
-      "impact": "SGX在亚太衍生品和商品清算市场的地位进一步巩固",
+      "impact": "SGX在亚太衍生品和商品清算市场的地位进一步巩固。",
       "source": "https://www.reuters.com/world/asia-pacific/singapore-exchange-reports-rise-first-half-profit-strong-trading-volumes-2026-02-04/"
+    },
+    {
+      "date": "2025-09-15",
+      "title": "SGX主席呼吁投资者承担更大投资责任",
+      "description": "SGX集团主席许文辉表示，拥有监管体系比试图消除所有风险更为有效，投资者应为自己的投资决策承担更大责任。",
+      "impact": "反映SGX在市场治理上从家长式监管向投资者自主决策转变的思路。",
+      "source": "https://www.straitstimes.com/business/investors-must-take-greater-responsibility-for-their-investment-decisions-sgx-chairman"
     }
   ],
-  "related_entities": [],
-  "core_business": "新加坡交易所集团（SGX Group; SGX：S68）是一家总部位于新加坡的交易所集团，运营证券、固定收益、货币、金融衍生工具及大宗商品市场，并提供上市、交易、清算、结算、存托及数据等一系列服务。其主要指数为新加坡海峡时报指数。\n新加坡交易所集团是世界交易所联合会和亚洲太平洋地区证券交易所联合会的成员。截至2026年4月，交易所总市值为8671.5亿美元。\n历史\n新加坡交易所集团（以下简称“新交所”）的前身为1973年成立的新加坡证券交易所（SES）以及1984年成立的新加坡国际金融交易所(SIMEX)。\n1999年12月1日，二者与证券结算与电脑服务私营有限公司（SCCS）合并为新加坡交易所集团，时任新加坡副总理李显龙主持合并仪式。新集团以控股公司形式成立，原属多家交易所公司的股本被注销，这些公司新发行的股份由新交所全额缴足，由此，三家公司原先持有的所有资产均转移至新交所。\n2000年11月23日，新交所成为亚太地区继澳大利亚证券交易所（1998年上市）和香港交易所（2000年早些时候上市）之后第三家通过公开发售和私募方式上市的交易所。新交所股票在其自己的交易所挂牌上市，是MSCI新加坡自由指数和海峡时报指数等基准指数的成分股。\n2006年5月，新交所推出了亚洲首个场外交易清算平台SGX AsiaClear，用于一系列场外衍生品产品，以降低对手方风险并提高流动性。该平台推出了远期运价协议和石油掉期合约的场外交易登记与清算服务。不久之后，新交所推出了全球首个铁矿石掉期清算与结算服务，并自此成为全球最大的铁矿石掉期清算机构。\n2007年3月，新交所斥资4270万美元收购了孟买证券交易所5%的股份。\n2008年1月31日，新交所收购了菲律宾交易系统控股公司20%的股份，该公司成为新交所的联营公司。\n2008年初，新交所达成协议收购新加坡商品交易所至少95%的股份。2008年6月30日，新交所完成对新加坡商品交易所的收购，后者现为新交所的全资子公司。\n2010年起，新交所曾与澳大利亚证券交易所进行收购谈判，若交易成功，将成为当时的亚太区第二大交易所。交易方案受到了新交所的股东东京交易所的反对，在澳大利亚国内也饱受争议。2011年4月8日，澳大利亚副总理韦恩·斯旺决定阻止两家交易所的合并。在联邦政府宣布阻止合并后，新交所撤回了收购要约。\n2016年11月，新交所收购了总部位于伦敦的波罗的海交易所。\n2018年2月6日，新交所与马来西亚交易所宣布拟建立股票市场交易连接，预计于2018年底前投入运行。然而，在2018年马来西亚大选结果出炉后，该股票市场连接计划被搁置。\n2019年3月28日，新加坡交易所以0.25億美元現金收購外匯交易平台BidFX20%股權。\n2020年1月21日，新加坡交易所首次被纳入彭博性别平等指数，以表彰其在性别平等、多元化及董事会代表性方面的承诺。\n主要股东\n截至2022年6月30日，新加坡交易所集团的十大最大股东如下：\nSEL控股私人有限公司– 23.41%\n花旗托管新加坡有限公司– 16.09%\n星展服务私人有限公司– 10.88%\n莱佛士代理人（私人）有限公司– 9.65%\n汇丰银行（新加坡）代理人私人有限公司– 8.42%\n星展证券代持人私人有限公司– 5.42%\n辉立证券私人有限公司– 1.41%\nBPSS代理人新加坡私人有限公司– 1.03%\n大华银行代理人（私人）有限公司– 0.69%\n银河-联昌证券（新加坡）私人有限公司– 0.38%\n参见\n新加坡经济\n参考文献\n外部連結\n新加坡交易所集团 （页面存档备份，存于互联",
+  "related_entities": [
+    {
+      "org_id": "SG-GOV-001",
+      "org_name": "新加坡金融管理局 (Monetary Authority of Singapore, MAS)",
+      "org_type": "GOV",
+      "org_description": "新加坡中央银行和金融监管机构，负责监管SGX的运营和证券市场法规制定。2025-2026年共同推进全球上市板块（GLB）框架。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "纳斯达克 (Nasdaq)",
+      "org_type": "FIN",
+      "org_description": "美国第二大证券交易所，与SGX合作建立全球上市板块（GLB）双重上市框架。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "波罗的海交易所 (Baltic Exchange)",
+      "org_type": "FIN",
+      "org_description": "总部位于伦敦的全球航运运价基准机构，2016年11月被SGX收购，现为SGX全资子公司。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界交易所联合会 (World Federation of Exchanges, WFE)",
+      "org_type": "NGO",
+      "org_description": "全球交易所行业组织，SGX为其成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "SG-NGO-003",
+      "org_name": "亚洲太平洋地区证券交易所联合会 (Asian and Oceanian Stock Exchanges Federation, AOSEF)",
+      "org_type": "NGO",
+      "org_description": "亚太地区交易所合作组织，SGX为其成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "新加坡商品交易所 (Singapore Commodity Exchange, SICOM)",
+      "org_type": "FIN",
+      "org_description": "原新加坡大宗商品交易所，2008年6月被SGX收购，现为SGX全资子公司，运营天然橡胶等商品期货合约。",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "新加坡交易所集团（SGX Group；SGX：S68）是一家总部位于新加坡的多元化交易所集团，运营证券、固定收益、货币、金融衍生工具及大宗商品市场，并提供上市、交易、清算、结算、存托及数据等一站式服务。SGX是东盟第二大证券交易所（仅次于印尼证券交易所），截至2026年4月总市值约8672亿美元。主要指数为海峡时报指数。\n\nSGX于1999年12月1日由新加坡证券交易所（SES，1973年成立）、新加坡国际金融交易所（SIMEX，1984年成立）和证券结算与电脑服务有限公司（SCCS）合并而成。2000年11月在新交所自身挂牌上市，成为亚太第三家上市的交易所。\n\n集团核心业务包括：证券市场（主板Mainboard和凯利板Catalist）、衍生品市场（涵盖股指期货/期权、外汇期货、大宗商品衍生品）、场外交易清算（SGX AsiaClear，全球最大铁矿石掉期清算机构）、固定收益市场、以及数据服务。80%的衍生品交易客户来自新加坡以外地区。\n\n主要子公司包括中央存管有限公司（CDB）、新加坡商品交易所（SICOM）、波罗的海交易所（2016年收购）、亚洲门户投资有限公司等。2026年与纳斯达克联合推出全球上市板块（GLB），建立双重上市框架，进一步巩固SGX作为亚太资本市场枢纽的地位。",
   "industries": [
     "financial_services"
   ],
-  "apec_stance": "SGX是世界交易所联合会和亚洲太平洋地区证券交易所联合会的成员，是APEC区域资本市场的重要基础设施。SGX是全球最大的铁矿石掉期清算机构，在亚太大宗商品和外汇衍生品市场占据核心地位。SGX积极推动东盟资本市场互联互通，促进APEC区域资本流动和企业上市融资。",
+  "apec_stance": "SGX是世界交易所联合会和亚洲太平洋地区证券交易所联合会的成员，是APEC区域资本市场的重要基础设施。作为全球最大的铁矿石掉期清算机构，SGX在亚太大宗商品和外汇衍生品市场占据核心地位，铁矿石、橡胶等关键大宗商品的定价和清算服务对APEC区域资源贸易具有重要意义。SGX积极推动东盟资本市场互联互通，曾与马来西亚交易所推进股票市场连接计划。2025-2026年，SGX与纳斯达克建立全球上市板块（GLB）双重上市框架，并通过股权投资与孟买证券交易所（5%）、菲律宾交易系统控股公司（20%）等建立战略合作，促进APEC区域资本流动、企业上市融资和市场一体化。SGX的海峡时报指数是亚太地区重要基准指数之一。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/SGX_Centre%2C_Singapore_-_20121015.jpg/330px-SGX_Centre%2C_Singapore_-_20121015.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-04-16",
-    "phase": "phase2_deep_profile",
+    "collection_date": "2026-05-08",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "wikipedia_zh",
+      "official_website",
+      "web_search",
+      "news_articles"
     ],
-    "completeness_score": 94,
-    "notes": "Enriched with Wikipedia full text + DBpedia (score: 94)"
+    "completeness_score": 88,
+    "notes": "Phase 3 enrichment: updated key people to current leadership (Koh Boon Hwee/Loh Boon Chye), added departments with descriptions, expanded related entities, added 2025-2026 events including SGX-Nasdaq GLB, updated org_subtype, added LinkedIn social account",
+    "quotes": [
+      {
+        "title": "Wikipedia - Singapore Exchange",
+        "url": "https://en.wikipedia.org/wiki/Singapore_Exchange"
+      },
+      {
+        "title": "维基百科 - 新加坡交易所",
+        "url": "https://zh.wikipedia.org/wiki/新加坡交易所"
+      },
+      {
+        "title": "SGX reforms set stage for 20+ IPOs in 2026 - SBR",
+        "url": "https://sbr.com.sg/markets-investing/exclusive/sgx-reforms-set-stage-20-ipos-in-2026"
+      },
+      {
+        "title": "SGX Set for Higher IPO Volume in 2026 - Asia Business Outlook",
+        "url": "https://www.asiabusinessoutlook.com/news/sgx-set-for-higher-ipo-volume-in-2026-following-2025-gains-nwid-10975.html"
+      },
+      {
+        "title": "Singapore Passes Law for SGX-Nasdaq Dual Listings - BusinessToday",
+        "url": "https://www.businesstoday.com.my/2026/05/07/singapore-passes-law-for-companies-to-dual-list-on-sgx-and-nasdaq/"
+      },
+      {
+        "title": "SGX Chairman on investor responsibility - Straits Times",
+        "url": "https://www.straitstimes.com/business/investors-must-take-greater-responsibility-for-their-investment-decisions-sgx-chairman"
+      },
+      {
+        "title": "Loh Boon Chye CEO profile - Markets Media",
+        "url": "https://www.marketsmedia.com/ceo-of-the-year-loh-boon-chye-sgx-group/"
+      },
+      {
+        "title": "Koh Boon Hwee - GIC Investment Board",
+        "url": "https://www.gic.com.sg/who-we-are/investment-board/koh-boon-hwee/"
+      },
+      {
+        "title": "SGX 2026 Jan performance - Mondovisione",
+        "url": "https://mondovisione.com/media-and-resources/news/sgx-group-kicks-off-2026-with-new-highs-in-january-performance-2026210/"
+      },
+      {
+        "title": "SGX record H1 profit - Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/singapore-exchange-reports-rise-first-half-profit-strong-trading-volumes-2026-02-04/"
+      },
+      {
+        "title": "Global Listing Board mid-year debut - Yahoo Finance",
+        "url": "https://sg.finance.yahoo.com/news/global-listing-board-set-mid-013000463.html"
+      }
+    ]
   }
 }

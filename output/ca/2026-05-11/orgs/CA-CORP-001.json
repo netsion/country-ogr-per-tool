@@ -1,0 +1,332 @@
+{
+  "org_id": "CA-CORP-001",
+  "basic_info": {
+    "name_original": "Shopify Inc.",
+    "name_zh": "肖皮菲",
+    "name_en": "Shopify Inc.",
+    "aliases": [
+      "shopify",
+      "Shopify",
+      "Shopify Inc.",
+      "肖皮菲",
+      "SHOP"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN",
+    "founded_date": "2006-06-01",
+    "website": "https://www.shopify.com"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@Shopify",
+      "url": "https://twitter.com/Shopify",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Shopify",
+      "url": "https://www.linkedin.com/company/shopify/",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Shopify",
+      "url": "https://www.facebook.com/shopify",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@shopify",
+      "url": "https://www.instagram.com/shopify/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Shopify",
+      "url": "https://www.youtube.com/@Shopify",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Shopify Official Website",
+      "url": "https://www.shopify.com",
+      "description": "Shopify主站，提供建站、支付、物流等一站式电商解决方案",
+      "source": "official_website"
+    },
+    {
+      "name": "Shopify App Store",
+      "url": "https://apps.shopify.com",
+      "description": "Shopify应用商店，拥有超过16,000个第三方应用",
+      "source": "official_website"
+    },
+    {
+      "name": "Shopify Admin",
+      "url": "https://admin.shopify.com",
+      "description": "商家管理后台入口",
+      "source": "official_website"
+    },
+    {
+      "name": "Shopify Partners",
+      "url": "https://www.shopify.com/partners",
+      "description": "Shopify合作伙伴平台，面向开发者和代理商",
+      "source": "official_website"
+    },
+    {
+      "name": "Shopify Investors",
+      "url": "https://www.shopify.com/investors",
+      "description": "投资者关系页面",
+      "source": "official_website"
+    },
+    {
+      "name": "Shopify Community",
+      "url": "https://community.shopify.com",
+      "description": "Shopify社区论坛",
+      "source": "official_website"
+    },
+    {
+      "name": "Universal Commerce Protocol (UCP)",
+      "url": "https://ucp.dev/",
+      "description": "Shopify与Google联合开发的开放商业协议标准，用于AI代理与商家的商品发现和交易",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CA-PERSON-000039",
+      "name": "托比亚斯·吕特克 (Tobias Lütke)",
+      "title": "首席执行官 (CEO)",
+      "title_description": "公司联合创始人，负责公司整体战略方向和产品愿景",
+      "description": "德国裔加拿大程序员和企业家，2006年联合创立Shopify，使用Ruby on Rails构建了平台最初版本。领导Shopify从一个小型建站工具发展为全球领先的电商平台。"
+    },
+    {
+      "person_id": "CA-PERSON-000040",
+      "name": "哈利·芬克尔斯坦 (Harley Finkelstein)",
+      "title": "总裁 (President)",
+      "title_description": "负责公司增长战略、品牌合作和市场拓展",
+      "description": "加拿大企业家和律师，长期担任Shopify高管，是公司对外形象代表。推动Shopify在AI商务和全渠道零售领域的战略布局。"
+    },
+    {
+      "person_id": "CA-PERSON-000041",
+      "name": "杰夫·霍夫梅斯特 (Jeff Hoffmeister)",
+      "title": "首席财务官 (CFO)",
+      "title_description": "负责公司财务管理、投资者关系和资本配置",
+      "description": "领导Shopify财务团队，管理公司高速增长下的财务策略，包括2026年20亿美元股票回购计划。"
+    },
+    {
+      "person_id": "CA-PERSON-000042",
+      "name": "卡兹·内贾提安 (Kaz Nejatian)",
+      "title": "首席运营官 (COO)",
+      "title_description": "负责公司日常运营和产品交付",
+      "description": "Shopify核心运营高管，曾公开评论加拿大贸易政策，主张加强边境管控。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "产品与工程部门 (Product & Engineering)",
+      "dept_id": "CA-CORP-001-DEPT-001",
+      "head": "托比亚斯·吕特克 (Tobias Lütke)",
+      "description": "负责Shopify核心平台的开发与维护，包括Shopify Admin、Shopify Checkout、Hydrogen/Oxygen前端框架以及AI商务工具的开发",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Shopify Plus企业服务部门 (Shopify Plus)",
+      "dept_id": "CA-CORP-001-DEPT-002",
+      "head": null,
+      "description": "面向大型企业和高增长品牌的专属电商平台，提供高级定制化功能、专属支持和B2B电商解决方案",
+      "parent_dept_id": "CA-CORP-001-DEPT-001"
+    },
+    {
+      "name": "支付与金融服务部门 (Shopify Payments & Financial Services)",
+      "dept_id": "CA-CORP-001-DEPT-003",
+      "head": null,
+      "description": "管理Shopify Payments支付网关、Shop Pay一键支付、Shopify Capital商家融资和Shop App等金融科技产品",
+      "parent_dept_id": null
+    },
+    {
+      "name": "AI商务与创新部门 (AI Commerce & Innovation)",
+      "dept_id": "CA-CORP-001-DEPT-004",
+      "head": null,
+      "description": "负责AI驱动的商务产品开发，包括与Google联合开发的Universal Commerce Protocol (UCP)、Sidekick AI助手以及与Gemini和ChatGPT的集成",
+      "parent_dept_id": "CA-CORP-001-DEPT-001"
+    },
+    {
+      "name": "应用生态与合作伙伴部门 (App Ecosystem & Partnerships)",
+      "dept_id": "CA-CORP-001-DEPT-005",
+      "head": null,
+      "description": "管理Shopify App Store（超过16,000个应用）和Shopify Partner Directory，维护开发者生态和第三方集成合作",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-05",
+      "title": "Shopify公布2026年第一季度财报：GMV首次突破1000亿美元",
+      "description": "Shopify 2026年Q1营收增长34%，GMV超过1000亿美元，自由现金流利润率15%。总裁Harley Finkelstein表示Shopify在AI时代具有明显竞争优势，公司预计Q2营收增长将达二十几个百分点。",
+      "impact": "high",
+      "source": "https://www.shopify.com/news/shopify-q1-2026-financial-results"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Shopify入选2026年《时代》杂志全球最具影响力公司",
+      "description": "TIME杂志将Shopify列入2026年TIME100最具影响力公司名单，肯定其在AI商务领域的创新，特别是Universal Commerce Protocol和与Google Gemini、ChatGPT的深度集成。Shopify支持超过14%的美国电商。",
+      "impact": "high",
+      "source": "https://time.com/collection/time100-most-influential-companies/2026/shopify/"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Shopify公布2025年全年财报：营收116亿美元",
+      "description": "Shopify 2025年Q4营收增长31%，全年营收115.6亿美元，同比增长30%。自由现金流20亿美元，连续十个季度实现两位数自由现金流利润率。同时宣布20亿美元股票回购计划。",
+      "impact": "high",
+      "source": "https://www.shopify.com/investors/press-releases/shopifys-standout-2025-the-launchpad-for-a-new-era-of-commerce-in-2026"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "Shopify与Google联合发布Universal Commerce Protocol (UCP)",
+      "description": "Shopify与Google共同发布开放商业协议标准UCP，允许AI代理（如Gemini、ChatGPT、Microsoft Copilot）直接完成从商品发现到结账的全流程交易。该协议使Shopify数百万商家能够通过AI对话界面直接销售商品。",
+      "impact": "high",
+      "source": "https://en.wikipedia.org/wiki/Shopify"
+    },
+    {
+      "date": "2025-05-19",
+      "title": "Shopify转至纳斯达克交易所并纳入纳斯达克100指数",
+      "description": "Shopify将其美国上市地点从NYSE转至纳斯达克全球精选市场，并于2025年5月19日成为纳斯达克100指数成分股，标志着公司市值和市场地位的重大认可。",
+      "impact": "medium",
+      "source": "https://en.wikipedia.org/wiki/Shopify"
+    },
+    {
+      "date": "2025-02-01",
+      "title": "CEO Lutke就美加关税争端公开表态引发争议",
+      "description": "Shopify创始人兼CEO Tobias Lutke公开批评加拿大政府对美国实施报复性关税的决定，表示理解特朗普政府的立场。COO Kaz Nejatian亦批评加拿大的边境政策。此番言论引发加拿大国内广泛讨论。",
+      "impact": "medium",
+      "source": "https://en.wikipedia.org/wiki/Shopify"
+    },
+    {
+      "date": "2025-01-01",
+      "title": "Shopify发布Winter 26版本：150余项产品更新",
+      "description": "Shopify Winter 26版本发布150多项产品更新，涵盖AI工具升级、零售POS增强和TikTok Shop原生集成等，重新定义在线零售能力。",
+      "impact": "medium",
+      "source": "https://www.shopify.com/editions/winter2026"
+    },
+    {
+      "date": "2023-05-01",
+      "title": "Shopify裁员20%并出售物流业务",
+      "description": "Shopify裁员约20%的员工，将Shopify Logistics出售给Flexport，后者成为Shopify的首选物流合作伙伴。Shopify获得Flexport 13%的股权。同时将仓库机器人子公司6 River Systems出售给Ocado Group。",
+      "impact": "high",
+      "source": "https://en.wikipedia.org/wiki/Shopify"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CA-FIN-001",
+      "org_name": "加拿大皇家银行 (Royal Bank of Canada)",
+      "org_type": "FIN",
+      "org_description": "加拿大最大银行，可能是Shopify的金融服务合作机构之一",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CA-SOE-003",
+      "org_name": "加拿大广播公司 (Canadian Broadcasting Corporation)",
+      "org_type": "SOE",
+      "org_description": "加拿大国家广播机构，曾就Shopify平台内容审核问题进行过批评性报道",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "CA-GOV-001",
+      "org_name": "加拿大政府 (Government of Canada)",
+      "org_type": "GOV",
+      "org_description": "Shopify作为加拿大最大科技公司之一，与联邦政府在贸易政策和数字战略方面有互动。CEO曾就关税政策公开评论。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "CA-CORP-011",
+      "org_name": "Stripe (Stripe Inc.)",
+      "org_type": "CORP",
+      "org_description": "全球在线支付平台，2013年与Shopify合作推出Shopify Payments，是Shopify支付基础设施的核心合作伙伴",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-CORP-012",
+      "org_name": "谷歌 (Google / Alphabet Inc.)",
+      "org_type": "CORP",
+      "org_description": "Shopify与Google联合开发了Universal Commerce Protocol (UCP)开放标准，并在Gemini AI、Google Shopping等领域深度合作",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-CORP-013",
+      "org_name": "Flexport (Flexport Inc.)",
+      "org_type": "CORP",
+      "org_description": "全球物流平台，2023年收购Shopify Logistics业务后成为Shopify官方物流合作伙伴，Shopify持有其13%股权",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "CA-MEDIA-008",
+      "org_name": "京东 (JD.com)",
+      "org_type": "CORP",
+      "org_description": "中国电商巨头，2022年与Shopify达成战略合作，允许美国商家通过JD Worldwide跨境平台将产品销往中国市场",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "CA-CORP-014",
+      "org_name": "Klaviyo (Klaviyo Inc.)",
+      "org_type": "CORP",
+      "org_description": "营销自动化平台，最初在Shopify App Store上推出，2022年获得Shopify 1亿美元战略投资，成为Shopify Plus推荐邮件解决方案",
+      "relationship_type": "minority_shareholder"
+    }
+  ],
+  "core_business": "Shopify是一家加拿大跨国电子商务公司，总部位于安大略省渥太华，由Tobias Lutke、Daniel Weinand和Scott Lake于2006年创立。公司最初源于一个名为Snowdevil的滑雪装备网店项目，程序员出身的Lutke使用Ruby on Rails自行开发了电商平台，随后将其产品化。Shopify为全球175个以上国家的数百万商家提供一站式电子商务基础设施平台，核心业务包括：在线商店搭建与管理、Shopify Payments支付处理、Shop Pay一键结账（拥有超过1.5亿用户）、Shopify Plus企业级电商解决方案、Shopify App Store应用生态系统（超过16,000个应用）、Shopify Capital商家融资服务以及AI驱动的智能商务工具。2025年公司营收达115.6亿美元，同比增长30%，处理商品交易总额（GMV）超过2920亿美元，占美国电商市场份额超过14%。公司于2026年与Google联合发布Universal Commerce Protocol (UCP)开放标准，引领AI代理商务新时代。Shopify在多伦多证券交易所（TSX: SHOP）和纳斯达克（NASDAQ: SHOP）上市，是纳斯达克100指数和S&P/TSX 60指数成分股。",
+  "industries": [
+    "ecommerce",
+    "software",
+    "fintech",
+    "payment_services",
+    "cloud_computing",
+    "internet_services"
+  ],
+  "apec_stance": "Shopify作为加拿大最大的科技公司之一，在亚太地区电商生态中扮演重要角色。根据ECDB数据，Shopify是亚太地区使用率最高的电商软件平台，在菲律宾等市场分布最广。公司通过多项战略举措深化APEC区域布局：2022年与京东（JD.com）达成合作，帮助北美商家通过JD Worldwide跨境平台进入中国市场；同年与支付宝（Alipay）合作支持跨境支付，并通过阿里巴巴速卖通（AliExpress）应用实现商品同步和一件代发。Shopify Payments已在澳大利亚、新西兰、日本、新加坡等APEC经济体开通服务。公司2026年推出的Universal Commerce Protocol (UCP)开放标准旨在全球范围内（包括APEC区域）实现AI代理与商家的无缝对接，推动跨境电商数字化转型。CEO Tobias Lutke在2025年美加关税争端中的立场显示公司在国际贸易政策方面的关注度，其反对报复性关税的态度反映了对自由跨境贸易的支持。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/250px-Shopify_logo_2018.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-05-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 96,
+    "notes": "Enriched profile from Wikipedia (English), official Shopify website, TIME100, financial press releases, and APAC market research. Chinese name 肖皮菲 confirmed from Wikidata/Commons.",
+    "quotes": [
+      {
+        "title": "Shopify Delivers Again as Merchants Clear $100 Billion in Q1 GMV",
+        "url": "https://www.shopify.com/news/shopify-q1-2026-financial-results"
+      },
+      {
+        "title": "Shopify's Standout 2025: The Launchpad for a New Era of Commerce in 2026",
+        "url": "https://www.shopify.com/investors/press-releases/shopifys-standout-2025-the-launchpad-for-a-new-era-of-commerce-in-2026"
+      },
+      {
+        "title": "Shopify - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shopify"
+      },
+      {
+        "title": "Shopify: 2026 TIME100 Most Influential Companies",
+        "url": "https://time.com/collection/time100-most-influential-companies/2026/shopify/"
+      },
+      {
+        "title": "Shopify Is the Leading Software in APAC - ECDB",
+        "url": "https://ecdb.com/blog/shopify-is-the-leading-software-in-apac-highest-distribution-in-the-philippines/5138"
+      },
+      {
+        "title": "Shopify Winter '26 Editions",
+        "url": "https://www.shopify.com/editions/winter2026"
+      }
+    ]
+  }
+}
