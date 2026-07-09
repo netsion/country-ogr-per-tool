@@ -1,0 +1,313 @@
+# -*- coding: utf-8 -*-
+"""Write enriched KG-MIL-002 (State Border Service of Kyrgyzstan) JSON."""
+import json
+import os
+
+data = {
+    "org_id": "KG-MIL-002",
+    "basic_info": {
+        "name_original": "Мамлекеттик чек ара кызматы / Государственная пограничная служба Кыргызской Республики",
+        "name_zh": "吉尔吉斯斯坦国家边防局（Государственная пограничная служба / Мамлекеттик чек ара кызматы）",
+        "name_en": "State Border Service of the Kyrgyz Republic",
+        "aliases": [
+            "吉尔吉斯边防军",
+            "国家边防局",
+            "吉尔吉斯斯坦边防总队",
+            "Kyrgyz Frontier Force",
+            "Пограничная служба ГКНБ КР",
+            "Border Guard Service of the SCNS"
+        ],
+        "org_type": "MIL",
+        "org_subtype": "border_guard",
+        "country_iso3": "KGZ",
+        "hq_country_iso3": "KGZ",
+        "founded_date": "2002-08-31",
+        "website": "https://www.gps.gov.kg/",
+        "wikidata_qid": "Q16917019"
+    },
+    "social_accounts": [
+        {
+            "platform": "website",
+            "handle": "gps.gov.kg",
+            "url": "https://www.gps.gov.kg/",
+            "followers": None,
+            "verified": True
+        },
+        {
+            "platform": "digital_border",
+            "handle": "digitalborder.gps.gov.kg",
+            "url": "https://digitalborder.gps.gov.kg/",
+            "followers": None,
+            "verified": True
+        }
+    ],
+    "digital_assets": [
+        {
+            "type": "official_website",
+            "url": "https://www.gps.gov.kg/",
+            "description": "国家边防局官方网站（Официальный сайт Государственной пограничной службы）"
+        },
+        {
+            "type": "border_portal",
+            "url": "https://digitalborder.gps.gov.kg/",
+            "description": "数字边境口岸信息门户，提供通关点实时信息（Портал информации о пунктах пропуска）"
+        },
+        {
+            "type": "evisa_portal",
+            "url": "https://www.evisa.e-gov.kg/",
+            "description": "吉尔吉斯斯坦电子签证官方门户，由边防局参与管理（Официальный портал e-VISA）"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": "KG-PERSON-000017",
+            "name": "阿卜迪卡里姆·阿利姆巴耶夫（Абдикарим Карбекович Алимбаев / Abdikarim Alimbaev）",
+            "title": "局长 / 主席",
+            "title_description": "国家边防局主席，少将军衔（Председатель Государственной пограничной службы, генерал-майор）",
+            "description": "2024年12月24日首次被任命为国家安全委员会（УКНК/ГКНБ）第一副主席兼边防局局长；2026年2月10日根据总统扎帕罗夫命令，边防局从ГКНБ独立，阿利姆巴耶夫转任独立的国家边防局主席。此前曾任总统驻巴特肯州全权代表（2020-2024），2014-2016年曾任边防局副局长。"
+        },
+        {
+            "person_id": "KG-PERSON-KG002a",
+            "name": "卡姆奇别克·塔希耶夫（Камчыбек Кадыркулович Ташиев / Kamchybek Tashiev）",
+            "title": "上级主管：国家安全委员会主席",
+            "title_description": "吉尔吉斯斯坦内阁副主席兼国家安全委员会主席（Заместитель председателя Кабинета министров — председатель ГКНБ）",
+            "description": "塔希耶夫作为ГКНБ主席长期主管边防事务，主导边防现代化、特种部队'狼'(Бору)营地建设、对塔吉克斯坦划界谈判（2025年2月签署最终议定书）。是边防局的直接上级主管。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "边防特种部队'狼'支队（Спецназ 'Бору' / Boru Special Forces）",
+            "name_en": "Boru Special Purpose Unit",
+            "description": "驻防共和国南部，支援塔吉克斯坦和乌兹别克斯坦边境哨所，主要应对来自阿富汗方向的毒品走私和武装渗透。2007年3月获'狼'(Бору)命名，部队标识为圆形盾牌中央狼头。下辖多个番号单位，包括驻巴特肯州奥尔托-库尔什的2053部队（в/ч 2053）和驻苏柳克塔的部队。",
+            "head": None
+        },
+        {
+            "name": "巴特肯边防支队（Баткенский пограничный отряд）",
+            "name_en": "Batken Border Detachment",
+            "description": "负责巴特肯州方向对塔吉克斯坦边境的巡逻与警戒，是2021年和2022年吉塔边境冲突的一线主力。其防区包括戈尔诺-巴达赫尚、沃鲁赫飞地周边争议地段。",
+            "head": None
+        },
+        {
+            "name": "伊塞克湖边防支队（Иссык-Кульский пограничный отряд）",
+            "name_en": "Issyk-Kul Border Detachment",
+            "description": "驻防伊塞克湖州，指挥部位于埃奇利塔什（Эчилиташ）哨所。负责中吉边境部分地段及伊塞克湖南部高海拔边境的巡逻。",
+            "head": None
+        },
+        {
+            "name": "奥什边防支队（Ошский пограничный отряд）",
+            "name_en": "Osh Border Detachment",
+            "description": "负责奥什州方向边境管理，涵盖乌兹别克斯坦和塔吉克斯坦交界复杂地段，包括索赫飞地周边。",
+            "head": None
+        },
+        {
+            "name": "边防航空兵 / 无人机部队（Пограничная авиация и БПЛА）",
+            "name_en": "Border Aviation and UAV Unit",
+            "description": "2021年12月起装备土耳其制Bayraktar TB2察打一体无人机，后续引进Bayraktar Akıncı（2架）、TAI Anka（3架）、TAI Aksungur（1架），是边防现代化与边境态势感知的核心力量。",
+            "head": None
+        },
+        {
+            "name": "边防指挥学院 / 训练中心（Пограничное училище / Учебный центр）",
+            "name_en": "Border Guard Training Center",
+            "description": "负责军官与士兵的边防业务、山地作战、反毒品侦察训练，与俄罗斯联邦安全局边防局及土耳其安全部队有合作培训项目。",
+            "head": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-02-10",
+            "title": "边防局从国家安全委员会独立",
+            "description": "总统扎帕罗夫签署命令，将边防局从ГКНБ体系中剥离，设立独立的国家边防局（Государственная пограничная служба），阿卜迪卡里姆·阿利姆巴耶夫任首任主席。这是自2020年扎帕罗夫将边防局并入ГКНБ以来的又一次体制重大调整。",
+            "source": "https://en.kabar.kg/news/head-of-border-service-of-kyrgyzstan-appointed/"
+        },
+        {
+            "date": "2025-03-13",
+            "title": "吉尔吉斯斯坦-塔吉克斯坦签署历史性边境条约（胡占德条约）",
+            "description": "扎帕罗夫总统与塔吉克斯坦拉赫蒙总统在比什凯克签署全长984公里的吉塔国界划界协定，结束多年武装冲突。边防局负责实施实地勘界、哨所重新部署和民事通关恢复。",
+            "source": "https://en.wikipedia.org/wiki/Khujand_treaty"
+        },
+        {
+            "date": "2025-02-21",
+            "title": "吉塔边界划界最终议定书签署",
+            "description": "吉尔吉斯斯坦副总理兼ГКНБ主席塔希耶夫与塔吉克斯坦ГКНБ主席亚季莫夫在比什凯克签署最终划界议定书，为3月总统级正式签约铺平道路。",
+            "source": "https://www.newscentralasia.net/2025/02/24/border-of-peace-kyrgyzstan-and-tajikistan-sign-final-border-delimitation-protocol/"
+        },
+        {
+            "date": "2024-12-24",
+            "title": "阿利姆巴耶夫首任被任命为ГКНБ第一副主席兼边防局局长",
+            "description": "扎帕罗夫总统任命时任总统驻巴特肯州全权代表阿卜迪卡里姆·阿利姆巴耶夫为ГКНБ第一副主席兼边防局局长，接替乌拉尔别克·舍尔舍耶夫（Уларбек Шаршеев，2017-2024年在任）。",
+            "source": "https://www.akchabar.kg/en/news/abdikarim-alimbaev-naznachen-glavoj-gosudarstvennoj-pogranichnoj-sluzhbi-kirgizstana-qdnfnlvtnfahdwak"
+        },
+        {
+            "date": "2022-09-14",
+            "title": "2022年吉塔大规模边境冲突",
+            "description": "吉塔边境自9月14日至19日爆发独立以来最血腥冲突，双方动用坦克、火箭炮、攻击无人机。吉尔吉斯斯坦报告63名军人阵亡，巴特肯州约13.7万人被迫疏散。边防局一线哨所首当其冲。",
+            "source": "https://en.wikipedia.org/wiki/2022_Kyrgyzstan%E2%80%93Tajikistan_clashes"
+        },
+        {
+            "date": "2022-03-25",
+            "title": "引进55辆俄罗斯虎式装甲车",
+            "description": "ГКНБ边防局接收55辆俄制虎式（Тигр）装甲车，用于加强巴特肯方向边境哨所机动能力。",
+            "source": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0_%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D1%81%D1%82%D0%B0%D0%BD%D0%B0"
+        },
+        {
+            "date": "2021-12-01",
+            "title": "引进土耳其Bayraktar TB2攻击无人机",
+            "description": "边防局正式列装土耳其Bayraktar TB2察打一体无人机，大幅提升山地边境态势感知与精确打击能力，后续又引进Akıncı、Aksungur、Anka等型号。",
+            "source": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0_%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D1%81%D1%82%D0%B0%D0%BD%D0%B0"
+        },
+        {
+            "date": "2021-04-28",
+            "title": "2021年吉塔边境冲突爆发",
+            "description": "吉尔吉斯斯坦与塔吉克斯坦在戈尔诺-巴达赫尚的科克塔什村附近因水源争议爆发三天冲突，至少55人死亡。边防局哨所与巴特肯支队是冲突核心力量。",
+            "source": "https://en.wikipedia.org/wiki/2021_Kyrgyzstan%E2%80%93Tajikistan_clashes"
+        }
+    ],
+    "related_entities": [
+        {
+            "entity_id": "KG-GOV-007",
+            "entity_name": "国家安全委员会（ГКНБ / УКНК / State Committee for National Security）",
+            "relationship_type": "parent_agency",
+            "description": "2014-2017年、2020-2026年边防局隶属于ГКНБ。2026年2月边防局从ГКНБ独立，但职能、人事、情报仍有深度协同。ГКНБ主席塔希耶夫是边防局政策与预算的直接上级。",
+            "country": "KGZ"
+        },
+        {
+            "entity_id": "KG-GOV-001",
+            "entity_name": "总统办公室（Аппарат Президента / Office of the President）",
+            "relationship_type": "command_authority",
+            "description": "边防局主席由总统直接任命，对总统负责。扎帕罗夫总统主导了边防局的体制调整、现代化采购与对塔划界谈判。",
+            "country": "KGZ"
+        },
+        {
+            "entity_id": "TJ-BORDER-001",
+            "entity_name": "塔吉克斯坦国家边防委员会（Государственный комитет национальной безопасности Таджикистана / Пограничные войска Таджикистана）",
+            "relationship_type": "counterpart_adversary",
+            "description": "2021年4月、2022年9月发生两次大规模武装冲突的直接对手。2025年3月签署划界条约后转为合作伙伴，双方启动联合巡逻和哨所协调机制。",
+            "country": "TJK"
+        },
+        {
+            "entity_id": "UZ-BORDER-001",
+            "entity_name": "乌兹别克斯坦国家边防局（Государственная пограничная служба Узбекистана）",
+            "relationship_type": "counterpart_partner",
+            "description": "吉尔吉斯斯坦与乌兹别克斯坦2023年1月完成全部划界，2024年12月完成Barak飞地交换。边防局与乌方共同管理卡拉苏等重新开放的口岸。",
+            "country": "UZB"
+        },
+        {
+            "entity_id": "RU-FSB-001",
+            "entity_name": "俄罗斯联邦安全局边防局（Пограничная служба ФСБ России）",
+            "relationship_type": "training_partner",
+            "description": "历史渊源：1992-1999年俄边防军曾负责吉尔吉斯斯坦边境。当前为教官培训、装备供应（如2022年55辆虎式装甲车）和反毒品行动合作伙伴。",
+            "country": "RUS"
+        },
+        {
+            "entity_id": "TR-GENDARME-001",
+            "entity_name": "土耳其宪兵总队 / 海岸警卫队（Türkiye Jandarma / Sahil Güvenlik）",
+            "relationship_type": "equipment_supplier",
+            "description": "主要装备供应方：提供Bayraktar TB2、Akıncı、Aksungur、Anka等无人机系统，并提供操作员培训。土耳其是边防局现代化最重要的外部伙伴。",
+            "country": "TUR"
+        },
+        {
+            "entity_id": "CN-MPS-001",
+            "entity_name": "中国武警边防 / 移民管理局",
+            "relationship_type": "joint_drill_partner",
+            "description": "2013年起在共同边境举行联合演练，并在中吉边境口岸（吐尔尕特、伊尔克什坦）开展跨境合作。",
+            "country": "CHN"
+        }
+    ],
+    "core_business": "吉尔吉斯斯坦国家边防局是负责保卫国家领土完整、边境管控、口岸出入境管理的国家公共服务机构。核心职能包括：(1) 全长逾4千公里陆地边境（与塔吉克斯坦、乌兹别克斯坦、哈萨克斯坦、中国接壤）的巡逻、监控、哨所管理；(2) 山地高海拔边境哨所运作，应对飞地、争议地段复杂形势；(3) 陆路口岸、机场出入境检查与移民手续办理；(4) 与海关联合开展通关管理；(5) 边防特种部队'狼'(Бору)打击来自阿富汗方向的毒品走私和武装渗透；(6) 边防航空兵与无人机部队实施边境态势感知与远程精确打击；(7) 主导或参与与邻国的边境划界、勘界、哨所重新部署工作。",
+    "industries": [
+        "defence_military",
+        "border_security",
+        "national_security"
+    ],
+    "apec_stance": "吉尔吉斯斯坦不是APEC成员，国家边防局与APEC无直接制度性互动。其边境管理事务主要在以下多边框架开展：(1) 上海合作组织（SCO）边防合作机制；(2) 独联体集体安全条约组织（CSTO）边防安全合作；(3) 联合国毒罪办（UNODC）中亚边境援助项目（2025年与UNODC合作改善吉乌边境通关）。在中亚区域一体化加速背景下，边防局推动与哈萨克斯坦、乌兹别克斯坦、塔吉克斯坦口岸的数字化通关协同（如数字边境门户 digitalborder.gps.gov.kg）。",
+    "profile": {
+        "overview": "吉尔吉斯斯坦国家边防局（Государственная пограничная служба / Мамлекеттик чек ара кызматы）是负责吉尔吉斯斯坦陆地边境管控、出入境管理与边防作战的国家公共服务机构，编制约6800人，总部位于比什凯克市О.Медерова街163号。其前身可追溯至1992年从前苏联克格勃中亚边防区接管部队，1999年从俄罗斯边防军手中正式接管边境职能，2002年8月31日正式合并组建为国家边防局。",
+        "history": "1992年独立后，吉尔吉斯斯坦接管原苏联克格勃中亚边防区，但因能力有限，1992-1999年间边境主要由俄罗斯边防军负责。1999年8月俄方将边境职能移交吉尔吉斯斯坦。2002年8月31日由国防部边防总局与国家安全局边防检查总局合并组建国家边防局。2012年9月4日正式确立为独立公共服务机构。2020年扎帕罗夫总统将其并入国家安全委员会（ГКНБ）。2026年2月再次从ГКНБ独立。",
+        "mission": "保卫吉尔吉斯斯坦领土完整，确保与塔吉克斯坦、乌兹别克斯坦、哈萨克斯坦、中国四国接壤的复杂山地边境安全；管理出入境口岸与移民事务；打击跨国毒品走私和武装渗透；推进与邻国的边境划界与勘界。",
+        "capability_modernization": "2021年起快速现代化：引进土耳其Bayraktar TB2/Akıncı/Aksungur/Anka无人机；2021年采购40辆阿联酋丰田装甲越野车用于巴特肯方向；2022年3月列装55辆俄制虎式装甲车。新建'狼'(Бору)特种部队2053部队驻地（奥尔托-库尔什）和苏柳克塔驻地。",
+        "border_challenges": "吉尔吉斯斯坦边境地形多山高海拔，存在多个飞地（塔吉克斯坦沃鲁赫、乌兹别克斯坦索赫/沙希马尔丹/乔卡拉），未划界争议地段曾长期引发冲突。2021年4月、2022年9月与塔吉克斯坦爆发两次大规模武装冲突，共造成逾150人死亡。2025年3月签署吉塔划界条约，2023年完成与乌兹别克斯坦全部划界，边境形势显著改善。",
+        "personnel": "现役编制约6800人（2025年）。最高军衔为少将。设主席一人、副主席若干。下辖边防支队、特种部队、航空兵/无人机部队、训练中心。军官多毕业于吉尔吉斯斯坦军事院校，部分接受俄罗斯联邦安全局、土耳其安全部队培训。",
+        "headquarters": "吉尔吉斯共和国比什ке克市，О.Медерова街163号（720005, Киргизская Республика, г. Бишкек, ул. О. Медерова, 163）"
+    },
+    "collection_meta": {
+        "collection_date": "2026-07-06",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "Wikipedia (Russian & English)",
+            "Wikidata Q16917019",
+            "Kabar News Agency (en.kabar.kg)",
+            "24.kg English",
+            "AKIpress / Open.kg",
+            "Reuters",
+            "The Diplomat",
+            "Carnegie Endowment",
+            "Times of Central Asia",
+            "president.kg",
+            "gps.gov.kg"
+        ],
+        "completeness_score": 91,
+        "notes": "Phase 3 enriched. Key fixes from skeleton: (1) country_iso3 corrected from KGP to KGZ; (2) wikidata_qid set to Q16917019; (3) founded_date confirmed as 2002-08-31 (merger date, not 1992); (4) chairman name clarified as Abdikarim Karbekovich Alimbaev (Абдикарим Карбекович Алимбаев), appointed 2024-12-24 as ГКНБ First Deputy + Border Director, then 2026-02-10 as independent Border Service Chairman; (5) Major recent events: 2026-02 independence from ГКНБ, 2025-03 Khujand Treaty with Tajikistan; (6) weapons systems documented (Bayraktar TB2/Akıncı, Tigr armored vehicles); (7) Boru special forces detailed.",
+        "quotes": [
+            {
+                "title": "Head of Border Service of Kyrgyzstan appointed (Kabar, 2026-02-10)",
+                "url": "https://en.kabar.kg/news/head-of-border-service-of-kyrgyzstan-appointed/"
+            },
+            {
+                "title": "Abdikarim Alimbaev appointed Chairman of State Border Service (24.kg)",
+                "url": "https://24.kg/english/361447_Abdikarim_Alimbaev_appointed_Chairman_of_State_Border_Service/"
+            },
+            {
+                "title": "Государственная пограничная служба Кыргызстана — Wikipedia (Russian)",
+                "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0_%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7%D1%81%D1%82%D0%B0%D0%BD%D0%B0"
+            },
+            {
+                "title": "State Border Guard Service of Kyrgyzstan — Wikipedia (English)",
+                "url": "https://en.wikipedia.org/wiki/State_Border_Guard_Service_of_Kyrgyzstan"
+            },
+            {
+                "title": "Treaty of Khujand — Wikipedia (2025 Kyrgyz-Tajik border agreement)",
+                "url": "https://en.wikipedia.org/wiki/Khujand_treaty"
+            },
+            {
+                "title": "Border of Peace: Kyrgyzstan and Tajikistan Sign Final Border Delimitation Protocol (News Central Asia)",
+                "url": "https://www.newscentralasia.net/2025/02/24/border-of-peace-kyrgyzstan-and-tajikistan-sign-final-border-delimitation-protocol/"
+            },
+            {
+                "title": "Kyrgyzstan and Tajikistan sign deal to end long-running border dispute (Reuters)",
+                "url": "https://www.reuters.com/world/asia-pacific/kyrgyzstan-tajikistan-sign-deal-end-long-running-border-dispute-2025-03-13/"
+            },
+            {
+                "title": "Kyrgyzstan, Uzbekistan officially complete border delimitation (24.kg, 2023-01)",
+                "url": "https://24.kg/english/256905_Kyrgyzstan_and_Uzbekistan_officially_complete_border_delimitation/"
+            },
+            {
+                "title": "New military town for Boru special forces unit opened in Batken region (24.kg)",
+                "url": "https://24.kg/english/333813_New_military_town_for_Boru_special_forces_unit_opened_in_Batken_region/"
+            },
+            {
+                "title": "Kyrgyzstan and UNODC join efforts to improve Kyrgyz-Uzbek border (UNODC, 2025)",
+                "url": "https://www.unodc.org/roca/en/NEWS/2025/kyrgyzstan-and-unodc-join-efforts-to-improve-border-communities-and-traveler-experience-at-the-kyrgyz-uzbek-border.html"
+            }
+        ]
+    }
+}
+
+output_path = "D:/claude-workspace/apec-osint-tool/output/kg/2026-06-21/orgs/KG-MIL-002.json"
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+# Verify
+with open(output_path, "r", encoding="utf-8") as f:
+    loaded = json.load(f)
+
+print(f"OK: wrote {output_path}")
+print(f"org_id: {loaded['org_id']}")
+print(f"country_iso3: {loaded['basic_info']['country_iso3']}")
+print(f"wikidata_qid: {loaded['basic_info']['wikidata_qid']}")
+print(f"founded_date: {loaded['basic_info']['founded_date']}")
+print(f"key_people count: {len(loaded['key_people'])}")
+print(f"departments count: {len(loaded['departments'])}")
+print(f"recent_events count: {len(loaded['recent_events'])}")
+print(f"related_entities count: {len(loaded['related_entities'])}")
+print(f"completeness_score: {loaded['collection_meta']['completeness_score']}")

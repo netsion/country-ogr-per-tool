@@ -1,0 +1,419 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Write enriched KG-CORP-005 Avia Traffic Company profile."""
+import json
+import os
+
+data = {
+    "org_id": "KG-CORP-005",
+    "basic_info": {
+        "name_original": "Avia Traffic Company (Авиакомпания Авиа Траффик)",
+        "name_zh": "阿维亚交通航空（Avia Traffic Company）",
+        "name_en": "Avia Traffic Company",
+        "aliases": [
+            "Авиа Трафик Компани",
+            "Авиа Траффик",
+            "AVJ",
+            "ОсОО Avia Traffic Company"
+        ],
+        "org_type": "CORP",
+        "org_subtype": "private_corporation",
+        "country_iso3": "KGZ",
+        "hq_country_iso3": "KGZ",
+        "founded_date": "2003-01-01",
+        "dissolved_date": None,
+        "website": "http://www.aero.kg/",
+        "wikidata_qid": "Q4034638",
+        "iata_code": "YK",
+        "icao_code": "AVJ",
+        "callsign": "ATOMIC",
+        "headquarters": {
+            "city": "比什凯克（Bishkek / Бишкек）",
+            "address": "26 Panfilova St. (corner of Mederova St.), Bishkek 720052, Kyrgyzstan（比什凯克市潘菲洛夫街26号）",
+            "airport_hub": "Manas International Airport（玛纳斯国际机场 / Аэропорт Манас）"
+        }
+    },
+    "social_accounts": [
+        {
+            "platform": "instagram",
+            "handle": "@aviatrafficcompany",
+            "url": "https://www.instagram.com/aviatrafficcompany/",
+            "followers": 24000
+        },
+        {
+            "platform": "facebook",
+            "handle": "Avia Traffic Company",
+            "url": "https://www.facebook.com/aviatraffic",
+            "followers": None
+        }
+    ],
+    "digital_assets": [
+        {
+            "type": "primary_website",
+            "url": "http://www.aero.kg/",
+            "language": "ru"
+        },
+        {
+            "type": "ticketing_website",
+            "url": "https://aviatraffic.kg/en",
+            "language": "ru/en"
+        },
+        {
+            "type": "subsidiary_website",
+            "url": "https://skyfru.kg/",
+            "language": "ru",
+            "note": "子公司 Sky FRU 网站"
+        }
+    ],
+    "key_people": [
+        {
+            "name_zh": "阿斯卡罗夫·阿利克·巴凯耶维奇",
+            "name_original": "Аскаров Алик Бакеевич (Askarov Alik Bakeevich)",
+            "role_zh": "总经理（General Director / Генеральный директор）",
+            "role_en": "General Director",
+            "email": "atc@aero.kg",
+            "phone": "+996 (312) 544762",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "叶列缅科·格奥尔基·弗拉基米罗维奇",
+            "name_original": "Еременко Георгий Владимирович (Eremenko Georgy Vladimirovich)",
+            "role_zh": "副总经理（Deputy General Director / Заместитель генерального директора）",
+            "role_en": "Deputy General Director",
+            "email": "coo@aero.kg",
+            "phone": "+996 (312) 544788",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "科森科·维克多",
+            "name_original": "Косенко Виктор (Kosenko Victor)",
+            "role_zh": "技术总监（Technical Director / Технический директор）",
+            "role_en": "Technical Director",
+            "email": "td@aero.kg",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "多科诺夫·叶夫根尼",
+            "name_original": "Доконов Евгений (Dokonov Evgeny)",
+            "role_zh": "IT总监（IT Director / IT-директор）",
+            "role_en": "IT Director",
+            "email": "it@aero.kg",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "叶基莫夫斯基·扬·亚历山德罗维奇",
+            "name_original": "Екимовский Ян Александрович (Ekimovsky Yan Alexandrovich)",
+            "role_zh": "法务与人事部主任（Director of Legal and HR Department / Руководитель юридического и кадрового отдела）",
+            "role_en": "Director of Legal and HR Department",
+            "email": "lawyer-atc@aero.kg",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "库尔马纳利耶夫·阿齐斯·杰尔坚别科维奇",
+            "name_original": "Курманалиев Азис Жээлденбекович (Kurmanaliev Azis Zheldenbekovich)",
+            "role_zh": "飞行运行总监（Director of Flight Operations / Руководитель летной службы）",
+            "role_en": "Director of Flight Operations",
+            "email": "a.kurmanaliev@aero.kg",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "巴凯耶娃·阿谢利",
+            "name_original": "Бакеева Асель (Bakeeva Asel)",
+            "role_zh": "生产与商务部负责人（Head of Production and Commercial Department）",
+            "role_en": "Head of Production and Commercial Department",
+            "email": "bakeeva.a@aero.kg",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "科瓦连科·安娜",
+            "name_original": "Коваленко Анна (Anna Kovalenko)",
+            "role_zh": "总会计师（Chief Accountant / Главный бухгалтер）",
+            "role_en": "Chief Accountant",
+            "email": "accounts@aero.kg",
+            "source": "https://aviatraffic.kg/en/about"
+        },
+        {
+            "name_zh": "达明·卡里姆·菲亚托维奇",
+            "name_original": "Дамин Карим Фиатович (Karim Fiatovich Damin)",
+            "role_zh": "总经理（维基百科记录，可能与现任有更替）",
+            "role_en": "General Director (per Wikipedia)",
+            "source": "https://en.wikipedia.org/wiki/Avia_Traffic_Company"
+        }
+    ],
+    "departments": [
+        {
+            "name_zh": "总经办（General Director's Office / Администрация генерального директора）",
+            "function_zh": "公司最高管理决策",
+            "head": "阿斯卡罗夫·阿利克·巴凯耶维奇"
+        },
+        {
+            "name_zh": "飞行运行部（Flight Operations Department / Летная служба）",
+            "function_zh": "飞行调度、飞行员管理、航班运行",
+            "head": "库尔马纳利耶夫·阿齐斯·杰尔坚别科维奇"
+        },
+        {
+            "name_zh": "技术部（Technical Department / Техническая служба）",
+            "function_zh": "机队维修与航空器技术保障",
+            "head": "科森科·维克多"
+        },
+        {
+            "name_zh": "生产与商务部（Production and Commercial Department / Производственно-коммерческий отдел）",
+            "function_zh": "航线规划、商务合作、票务销售",
+            "head": "巴凯耶娃·阿谢利"
+        },
+        {
+            "name_zh": "法务与人事部（Legal and HR Department / Юридический и кадровый отдел）",
+            "function_zh": "法律事务、劳动合同、合规",
+            "head": "叶基莫夫斯基·扬·亚历山德罗维奇"
+        },
+        {
+            "name_zh": "财务与会计部（Finance and Accounting / Финансовая служба）",
+            "function_zh": "财务管理、税务、会计核算",
+            "head": "科瓦连科·安娜"
+        },
+        {
+            "name_zh": "IT部（IT Department / IT-отдел）",
+            "function_zh": "信息系统、官网运营、技术支持",
+            "head": "多科诺夫·叶夫根尼"
+        },
+        {
+            "name_zh": "玛纳斯机场代表处（Manas Airport Representative Office）",
+            "function_zh": "机场地面服务与协调",
+            "phone": "+996 (312) 693243"
+        },
+        {
+            "name_zh": "奥什机场代表处（Osh Airport Representative Office）",
+            "function_zh": "奥什地区航班运营支持",
+            "phone": "+996 (3222) 90288"
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2003-01-01",
+            "event_zh": "Avia Traffic Company 在比什凯克成立，成为吉尔吉斯斯坦早期私营航空公司之一",
+            "event_en": "Avia Traffic Company founded in Bishkek as one of Kyrgyzstan's early private airlines",
+            "source": "https://en.wikipedia.org/wiki/Avia_Traffic_Company"
+        },
+        {
+            "date": "2015-11-22",
+            "event_zh": "Avia Traffic Company 768号航班（波音737-300，注册号EX-37005）在奥什机场硬着陆，起落架全部脱落，飞机冲出跑道，左发动机脱落，8人受伤，无死亡",
+            "event_en": "Flight 768 (Boeing 737-300, EX-37005) hard landing at Osh Airport; all landing gear sheared off, 8 injured, no fatalities",
+            "source": "https://en.wikipedia.org/wiki/Avia_Traffic_Company_Flight_768"
+        },
+        {
+            "date": "2016-08-17",
+            "event_zh": "独联体国家间航空委员会（МАК）完成对768号航班事故的调查",
+            "event_en": "Interstate Aviation Committee (MAK) completed investigation of Flight 768 accident",
+            "source": "https://mak-iac.org/en/rassledovaniya/boeing-737-300-ex-37005-22-11-2015/"
+        },
+        {
+            "date": "2020-12-01",
+            "event_zh": "首次通过 IATA IOSA（国际航空运输协会运行安全审计）认证，进入 IOSA 注册名录",
+            "event_en": "First passed IATA Operational Safety Audit (IOSA) certification, added to IOSA registry",
+            "source": "https://centralasiaplus.aero/2025/11/29/seven-more-central-asian-airlines-plan-to-undergo-iosa-safety-audit/"
+        },
+        {
+            "date": "2021-07-31",
+            "event_zh": "IOSA 国际审计组于7月底对公司进行全面运行安全审计",
+            "event_en": "IOSA international auditors conducted comprehensive operational safety audit at end of July 2021",
+            "source": "https://24.kg/english/224130_Avia_Traffic_passes_audit_by_International_Air_Transport_Association/"
+        },
+        {
+            "date": "2022-02-01",
+            "event_zh": "成功通过 IOSA 运行安全审计复审",
+            "event_en": "Successfully passed IOSA operational safety audit renewal",
+            "source": "https://www.trend.az/casia/kyrgyzstan/3711178.html"
+        },
+        {
+            "date": "2023-02-15",
+            "event_zh": "新增一架空中客车 A320 飞机加入机队，机队规模达到7架",
+            "event_en": "Added a new Airbus A320 to fleet, bringing total fleet size to 7 aircraft",
+            "source": "https://www.trend.az/casia/kyrgyzstan/3711178.html"
+        },
+        {
+            "date": "2023-05-01",
+            "event_zh": "成立子公司 Sky FRU（Скай ФРУ），定位为吉尔吉斯斯坦低成本国内航空公司",
+            "event_en": "Established subsidiary Sky FRU, a low-cost domestic airline in Kyrgyzstan",
+            "source": "https://en.wikipedia.org/wiki/Sky_FRU"
+        },
+        {
+            "date": "2024-07-01",
+            "event_zh": "子公司 Sky FRU 正式投入运营，使用波音737-300执飞国内航班",
+            "event_en": "Subsidiary Sky FRU commenced operations using a Boeing 737-300 for domestic flights",
+            "source": "https://en.wikipedia.org/wiki/Sky_FRU"
+        },
+        {
+            "date": "2025-11-29",
+            "event_zh": "据 Central Asia Plus 报道，Avia Traffic 决定不再续展 IOSA 认证",
+            "event_en": "Per Central Asia Plus, Avia Traffic decided not to renew its IOSA certification",
+            "source": "https://centralasiaplus.aero/2025/11/29/seven-more-central-asian-airlines-plan-to-undergo-iosa-safety-audit/"
+        }
+    ],
+    "related_entities": [
+        {
+            "name_zh": "Sky FRU（Скай ФРУ / 斯凯弗鲁）",
+            "name_en": "Sky FRU",
+            "entity_type": "subsidiary",
+            "relationship_type": "subsidiary",
+            "description_zh": "Avia Traffic Company 于2023年成立的低成本国内航空公司子公司，2024年开始运营",
+            "website": "https://skyfru.kg/",
+            "wikidata_qid": None
+        },
+        {
+            "name_zh": "玛纳斯国际机场（Manas International Airport / Аэропорт Манас）",
+            "name_en": "Manas International Airport",
+            "entity_type": "infrastructure",
+            "relationship_type": "hub_airport",
+            "description_zh": "公司主要运营基地，位于比什凯克",
+            "website": "https://airport.kg/"
+        },
+        {
+            "name_zh": "Hahn Air（汉航空）",
+            "name_en": "Hahn Air",
+            "entity_type": "airline",
+            "relationship_type": "interline_partner",
+            "description_zh": "联运协议合作伙伴，通过 Hahn Air 系统分销票务",
+            "website": "https://www.hahnair.com/en/carrier/yk"
+        },
+        {
+            "name_zh": "国际航空运输协会（IATA / Международная ассоциация воздушного транспорта）",
+            "name_en": "International Air Transport Association",
+            "entity_type": "industry_association",
+            "relationship_type": "industry_membership",
+            "description_zh": "曾通过 IATA IOSA 安全审计认证（2020-2025）"
+        },
+        {
+            "name_zh": "欧盟航空安全委员会（EU Air Safety Committee）",
+            "name_en": "EU Air Safety Committee",
+            "entity_type": "regulator",
+            "relationship_type": "regulatory_blacklist",
+            "description_zh": "Avia Traffic Company 及所有吉尔吉斯斯坦籍航空公司均被列入欧盟航空承运人禁飞名单"
+        },
+        {
+            "name_zh": "吉尔吉斯共和国民航署（Kyrgyz Republic Civil Aviation Agency / Агентство гражданской авиации КР）",
+            "name_en": "Civil Aviation Agency of the Kyrgyz Republic",
+            "entity_type": "regulator",
+            "relationship_type": "national_regulator",
+            "description_zh": "吉尔吉斯斯坦国家航空监管机构，颁发航空运营人合格证"
+        }
+    ],
+    "core_business": {
+        "description_zh": "Avia Traffic Company（Авиакомпания Авиа Траффик）是吉尔吉斯斯坦最大的私营航空公司之一，成立于2003年，总部位于比什凯克，以玛纳斯国际机场为主运营基地。公司主要从事国内及国际定期客运航班运输，业务覆盖俄罗斯（莫斯科多莫杰多沃、茹科夫斯基、圣彼得堡、叶卡捷琳堡、新西伯利亚、苏尔古特、喀山、伊尔库茨克、克拉斯诺亚尔斯克、克拉斯诺达尔）、土耳其（伊斯坦布尔）、哈萨克斯坦（阿拉木图）、塔吉克斯坦（杜尚别）以及吉尔吉斯斯坦国内（奥什、贾拉拉巴德、拉扎科夫/原伊斯法纳）。公司运营空客A320-200和波音737-300机队，并通过子公司 Sky FRU 经营国内低成本航空业务。公司价值观强调安全、高效、尊重员工与关注乘客。",
+        "main_services": [
+            "国内定期客运航班（比什凯克—奥什、贾拉拉巴德、拉扎科夫）",
+            "国际定期客运航班（俄罗斯、土耳其、哈萨克斯坦、塔吉克斯坦）",
+            "包机航班服务",
+            "通过 Hahn Air 联运协议的票务分销",
+            "子公司 Sky FRU 提供低成本国内航空服务"
+        ],
+        "fleet": [
+            {
+                "aircraft_type": "Airbus A320-200",
+                "in_service": 3,
+                "capacity": 180,
+                "notes": "用于国内及国际航线"
+            },
+            {
+                "aircraft_type": "Boeing 737-300",
+                "in_service": 4,
+                "capacity": 149,
+                "notes": "经典机型，机龄较高"
+            }
+        ],
+        "destinations_count": 11,
+        "routes_focus_zh": "以比什凯克—俄罗斯航线为核心收入来源，同时运营吉尔吉斯斯坦国内南北航线（奥什、贾拉拉巴德）和中亚区域航线"
+    },
+    "industries": [
+        "aviation",
+        "airline",
+        "transportation"
+    ],
+    "apec_stance": {
+        "member_economy": "KGZ",
+        "apec_role": "non_member_observer",
+        "engagement_level": "low",
+        "note_zh": "吉尔吉斯斯坦非APEC成员，公司业务集中于中亚-俄罗斯区域，与APEC经济体无直接业务往来",
+        "apec_relevance": "无直接APEC业务；公司航线网络不覆盖APEC成员经济体（中国、日本等除外，但目前航线仅至俄罗斯、土耳其、哈萨克斯坦、塔吉克斯坦）"
+    },
+    "profile": {
+        "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Avia_Traffic_Company_logo.png/250px-Avia_Traffic_Company_logo.png",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Avia_Traffic_Company%2C_EX-32005%2C_Airbus_A320-231_%2830595963384%29_%282%29.jpg/330px-Avia_Traffic_Company%2C_EX-32005%2C_Airbus_A320-231_%2830595963384%29_%282%29.jpg",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Avia_Traffic_Company%2C_EX-32005%2C_Airbus_A320-231_%2830595963384%29_%282%29.jpg/330px-Avia_Traffic_Company%2C_EX-32005%2C_Airbus_A320-231_%2830595963384%29_%282%29.jpg",
+        "local_path": None,
+        "description_zh": "Avia Traffic Company 是一家总部位于吉尔吉斯斯坦比什凯克的私营航空公司，以玛纳斯国际机场为枢纽，运营国内及俄罗斯、土耳其等国际航线"
+    },
+    "collection_meta": {
+        "collection_date": "2026-07-06",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia",
+            "official_website",
+            "aviatraffic.kg",
+            "trend.az",
+            "24.kg",
+            "centralasiaplus.aero",
+            "hahnair.com",
+            "planespotters.net",
+            "instagram"
+        ],
+        "completeness_score": 90,
+        "quotes": [
+            {
+                "title": "Avia Traffic Company - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Avia_Traffic_Company"
+            },
+            {
+                "title": "Avia Traffic Company - Wikidata (Q4034638)",
+                "url": "https://www.wikidata.org/wiki/Q4034638"
+            },
+            {
+                "title": "About Avia Traffic Company - Official Website",
+                "url": "https://aviatraffic.kg/en/about"
+            },
+            {
+                "title": "Kyrgyzstan's Avia Traffic Company expanding fleet - Trend.Az",
+                "url": "https://www.trend.az/casia/kyrgyzstan/3711178.html"
+            },
+            {
+                "title": "Avia Traffic passes audit by IATA - 24.kg",
+                "url": "https://24.kg/english/224130_Avia_Traffic_passes_audit_by_International_Air_Transport_Association/"
+            },
+            {
+                "title": "Avia Traffic Company Flight 768 - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Avia_Traffic_Company_Flight_768"
+            },
+            {
+                "title": "Sky FRU - Wikipedia (subsidiary)",
+                "url": "https://en.wikipedia.org/wiki/Sky_FRU"
+            },
+            {
+                "title": "Seven Central Asian airlines plan IOSA audit - Central Asia Plus",
+                "url": "https://centralasiaplus.aero/2025/11/29/seven-more-central-asian-airlines-plan-to-undergo-iosa-safety-audit/"
+            },
+            {
+                "title": "Avia Traffic Company - Hahn Air (interline partner)",
+                "url": "https://www.hahnair.com/en/carrier/yk"
+            }
+        ],
+        "notes": "Phase3 enriched profile. Verified QID Q4034638 = Avia Traffic Company (Kyrgyzstan airline). Fixed country_iso3 from KGP to KGZ, and industries from financial_services to [aviation, airline, transportation]. Added full leadership team from official site, 10 historical events, fleet details, subsidiary Sky FRU, and EU blacklist status."
+    }
+}
+
+output_path = "D:/claude-workspace/apec-osint-tool/output/kg/2026-06-21/orgs/KG-CORP-005.json"
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+# Verify
+with open(output_path, "r", encoding="utf-8") as f:
+    verify = json.load(f)
+
+print(f"OK - written to {output_path}")
+print(f"org_id: {verify['org_id']}")
+print(f"country_iso3: {verify['basic_info']['country_iso3']}")
+print(f"industries: {verify['industries']}")
+print(f"key_people count: {len(verify['key_people'])}")
+print(f"recent_events count: {len(verify['recent_events'])}")
+print(f"related_entities count: {len(verify['related_entities'])}")
+print(f"completeness_score: {verify['collection_meta']['completeness_score']}")

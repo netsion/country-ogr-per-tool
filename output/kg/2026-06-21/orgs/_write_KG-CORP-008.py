@@ -1,0 +1,450 @@
+# -*- coding: utf-8 -*-
+"""Write enriched KG-CORP-008 Nur Telecom JSON profile (UTF-8)."""
+import json
+from pathlib import Path
+
+data = {
+    "org_id": "KG-CORP-008",
+    "basic_info": {
+        "name_original": "ОсОО «НУР Телеком» (ООО «НУР Телеком»)",
+        "name_zh": "努尔电信（Nur Telecom，商业品牌「O!」）",
+        "name_en": "Nur Telecom LLC (brand: O!)",
+        "aliases": [
+            "Nur Telecom",
+            "НУР Телеком",
+            "O!",
+            "O! Mobile Operator",
+            "Мобильный оператор О!",
+            "ООО «НУР Телеком»",
+            "ОсОО «НУР Телеком»",
+            "NUR Telecom LLC",
+            "NurTelecom"
+        ],
+        "org_type": "CORP",
+        "org_subtype": "private_corporation",
+        "country_iso3": "KGZ",
+        "hq_country_iso3": "KGZ",
+        "founded_date": "2009-03-03",
+        "website": "https://o.kg",
+        "wikidata_qid": None
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "handle": "omobileoperator",
+            "url": "https://www.facebook.com/omobileoperator/",
+            "followers": None,
+            "verified": True
+        },
+        {
+            "platform": "instagram",
+            "handle": "o.kg",
+            "url": "https://www.instagram.com/o.kg/",
+            "followers": None,
+            "verified": True
+        },
+        {
+            "platform": "youtube",
+            "handle": "Omobileoperator",
+            "url": "https://www.youtube.com/@Omobileoperator",
+            "followers": None,
+            "verified": False
+        },
+        {
+            "platform": "linkedin",
+            "handle": "o-mobile-operator (NUR Telecom LLC)",
+            "url": "https://kg.linkedin.com/company/мобильный-оператор-о-",
+            "followers": 4567,
+            "verified": False
+        },
+        {
+            "platform": "telegram",
+            "handle": "o_kg",
+            "url": "https://t.me/o_kg",
+            "followers": None,
+            "verified": False
+        }
+    ],
+    "digital_assets": [
+        {
+            "type": "primary_website",
+            "url": "https://o.kg",
+            "description": "官方网站（吉尔吉斯斯坦语 / 俄语 / 英语）— Official website in Kyrgyz, Russian, English"
+        },
+        {
+            "type": "mobile_app",
+            "url": "https://o.kg/l/myo",
+            "description": "My O! 综合生态系统应用（含 O!Dengi 电子钱包、用户账户、O!Market）— Subscriber self-care app with e-wallet and marketplace"
+        },
+        {
+            "type": "mobile_app",
+            "url": "http://www.onelink.to/htbudq",
+            "description": "O!TV 移动电视应用（2016 年首发）— Mobile TV app launched in 2016"
+        },
+        {
+            "type": "ecommerce_site",
+            "url": "https://www.ostore.kg",
+            "description": "O!Store 在线商店及线下连锁店（智能手机分期销售）— Online shop and largest device retail chain"
+        },
+        {
+            "type": "corporate_portal",
+            "url": "https://team.o.kg/",
+            "description": "O!Team 企业招聘门户 — Corporate recruitment portal"
+        },
+        {
+            "type": "internship_portal",
+            "url": "https://internlabs.o.kg/",
+            "description": "Intern Labs 免费培训项目门户 — Free IT training program portal"
+        },
+        {
+            "type": "email_contact",
+            "url": "mailto:corporate@nurtelecom.kg",
+            "description": "corporate@nurtelecom.kg（企业客户服务）— Corporate customer service email"
+        }
+    ],
+    "key_people": [
+        {
+            "name_zh": "弗拉季斯拉夫·斯列波库罗夫",
+            "name_original": "Слепокуров Владислав Анатольевич",
+            "name_en": "Vladislav Slepokurov",
+            "role_zh": "总经理（首席执行官）",
+            "role_en": "General Director (CEO)",
+            "organization": "ОсОО «НУР Телеком»",
+            "start_date": None,
+            "end_date": None,
+            "source_url": "https://o.kg/ru/novosti/luchshie-sotrudniki-mobilnogo-operatora-o-otmecheny-nagradami/",
+            "notes": "截至 2024 年 8 月仍登记为机构负责人（ИНН 00807199710065）"
+        },
+        {
+            "name_zh": "安东·科瓦连科",
+            "name_original": "Антон Коваленко",
+            "name_en": "Anton Kovalenko",
+            "role_zh": "技术总监（CTO）",
+            "role_en": "Technical Director (CTO)",
+            "organization": "ОсОО «НУР Телеком»",
+            "start_date": None,
+            "end_date": None,
+            "source_url": "https://www.tadviser.ru/index.php/Компания:НУР_Телеком_(Мобильный_оператор_О)",
+            "notes": "在 2024 年 5G 部署讨论中接受采访"
+        },
+        {
+            "name_zh": "卡内凯伊·马萨利耶娃",
+            "name_original": "Масалиева Каныкей Исхаковна",
+            "name_en": "Kanykei Masalieva",
+            "role_zh": "政府关系组组长",
+            "role_en": "Head of Government Relations Group",
+            "organization": "ОсОО «НУР Телеком»",
+            "start_date": None,
+            "end_date": None,
+            "source_url": "https://24.kg/biznes_info/51229_luchshie_sotrudniki_mobilnogo_operatora_o_otmechenyi_nagradami/",
+            "notes": None
+        },
+        {
+            "name_zh": "斯坦尼斯拉夫·穆科沃兹",
+            "name_original": "Муковоз Станислав Викторович",
+            "name_en": "Stanislav Mukovoz",
+            "role_zh": "运营服务局局长",
+            "role_en": "Head of Operations Service",
+            "organization": "ОсОО «НУР Телеком»",
+            "start_date": None,
+            "end_date": None,
+            "source_url": "https://24.kg/biznes_info/51229_luchshie_sotrudniki_mobilnogo_operatora_o_otmechenyi_nagradami/",
+            "notes": None
+        },
+        {
+            "name_zh": "艾丹·卡里布扎诺夫",
+            "name_original": "Айдан Карибжанов",
+            "name_en": "Aidan Karibzhanov",
+            "role_zh": "实际控股母公司 Visor Holding 大股东",
+            "role_en": "Majority shareholder of Visor Capital Holding (parent company)",
+            "organization": "Visor Capital Holding (Kazakhstan)",
+            "start_date": None,
+            "end_date": None,
+            "source_url": "https://ru.ruwiki.ru/wiki/%D0%9E!_(%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80)",
+            "notes": "哈萨克斯坦商人，2018 年福布斯哈萨克斯坦富豪榜第 25 位"
+        }
+    ],
+    "departments": [
+        {
+            "name_zh": "企业客户服务部",
+            "name_en": "Corporate Sales Service",
+            "description": "面向法人与政府客户的定制套餐及折扣方案（公务员、紧急情况部、内务部、教师、医生等享受优惠）",
+            "head": None
+        },
+        {
+            "name_zh": "运营服务局（网络运维）",
+            "name_en": "Operations Service (Network Operations)",
+            "description": "基站、4G/5G 网络建设与运维（140+ 基站 LTE 升级）",
+            "head": "Stanislav Mukovoz"
+        },
+        {
+            "name_zh": "政府关系组",
+            "name_en": "Government Relations Group",
+            "description": "对接政府机构、参与国家数字化转型项目",
+            "head": "Kanykei Masalieva"
+        },
+        {
+            "name_zh": "人力资源部",
+            "name_en": "Human Resources Department",
+            "description": "2025 年获 WOW! HR 国际奖项 High Performance 类别（在阿拉木图颁奖）",
+            "head": None
+        },
+        {
+            "name_zh": "数据分析与 IT 部门",
+            "name_en": "Data Engineering / IT",
+            "description": "数据工程团队，负责 350 万以上用户数据处理",
+            "head": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2025-07-22",
+            "title_zh": "终止部分企业套餐",
+            "title_en": "Termination of select corporate plans",
+            "description_zh": "自 2025 年 7 月 22 日起停止 Premium VIP、Korporativny 4/6、Business Exclusivnyi、Vecherny Bishkek 等十余种企业套餐",
+            "description_en": "Effective July 22, 2025 the operator terminates 10+ legacy corporate plans including Premium VIP, Korporativny 4/6, Business Exclusivnyi.",
+            "url": "https://o.kg/en/novosti/mobilnyy-operator-o-informiruet-6",
+            "category": "product_change"
+        },
+        {
+            "date": "2025-05-15",
+            "title_zh": "荣获 WOW! HR 2025 国际奖",
+            "title_en": "Won international WOW! HR 2025 award",
+            "description_zh": "O! 人力资源部在阿拉木图举办的 WOW! HR 2025 颁奖典礼上获 High Performance 类别奖项",
+            "description_en": "O! HR department awarded at international WOW! HR 2025 in High Performance category (ceremony in Almaty).",
+            "url": "https://open.kg/en/news/local-news/54167-mobilnyj-operator-o-zavoeval-mezhdunarodnuju-premiju-wow-hr-2025.html",
+            "category": "award"
+        },
+        {
+            "date": "2025-04-15",
+            "title_zh": "团队参加比什凯克雪豹跑 2025",
+            "title_en": "O! Team at Bishkek Snow Leopard Run 2025",
+            "description_zh": "O! 公司团队参加比什凯克雪豹马拉松公益活动，体现企业社会责任",
+            "description_en": "United team of NUR Telecom participated in Bishkek Snow Leopard Run 2025 charity event.",
+            "url": "https://o.kg/en/novosti/komanda-o-na-bishkek-snow-leopard-run-2025-sila-duha-i-obschie-pobedy",
+            "category": "csr"
+        },
+        {
+            "date": "2024-11-30",
+            "title_zh": "5G 频谱拍卖被取消",
+            "title_en": "5G spectrum auction cancelled",
+            "description_zh": "吉尔吉斯政府取消了原定 2024 年的 5G 频谱拍卖；Nur Telecom 此前在比什凯克、奥什设有试点区域并推动全面部署",
+            "description_en": "Government cancelled the 5G spectrum auction planned for 2024; Nur Telecom had pushed for full deployment with pilot zones in Bishkek and Osh.",
+            "url": "https://kglabs.org/kyrgyzstans-digital-landscape-evidence-from-the-field/",
+            "category": "regulatory"
+        },
+        {
+            "date": "2024-08-05",
+            "title_zh": "启动 5G 网络（试点）",
+            "title_en": "Launch of 5G network (pilot)",
+            "description_zh": "Nur Telecom 在吉尔吉斯斯坦启动 5G 网络，旨在推动数字经济、智慧城市、IoT 等领域发展",
+            "description_en": "Nur Telecom launched a 5G network in Kyrgyzstan to drive digital economy, smart cities and IoT.",
+            "url": "https://www.tadviser.ru/index.php/Компания:НУР_Телеком_(Мобильный_оператор_О)",
+            "category": "technology"
+        },
+        {
+            "date": "2023-10-01",
+            "title_zh": "在 140 个站点升级 LTE 网络",
+            "title_en": "LTE network upgraded at 140 sites",
+            "description_zh": "在全国所有区域 140 个站点进行 LTE 网络升级，巩固 4G 覆盖率优势",
+            "description_en": "Operator upgraded its LTE network at 140 sites across all regions of the country.",
+            "url": "https://www.samenacouncil.org/samena_daily_news?news=108452",
+            "category": "technology"
+        },
+        {
+            "date": "2022-10-01",
+            "title_zh": "在奥什开设 5G 示范区",
+            "title_en": "Opened 5G demo zone in Osh",
+            "description_zh": "继比什凯克之后，在奥什市开设第二个 5G 示范区域",
+            "description_en": "Opened a second 5G demonstration zone in Osh after the first in Bishkek.",
+            "url": "https://www.ookla.com/articles/central-asia-5g-4g-performance-q1-2023",
+            "category": "technology"
+        },
+        {
+            "date": "2020-09-23",
+            "title_zh": "接入 Sberbank Online 支付系统",
+            "title_en": "Integrated with Sberbank Online payment system",
+            "description_zh": "俄罗斯 Sberbank 将 O! 接入其 Sberbank Online 支付平台，用户可在全球范围内为 O! 话费充值",
+            "description_en": "Russia's Sberbank integrated O! into Sberbank Online, enabling global top-ups for O! subscribers.",
+            "url": "https://www.tadviser.ru/index.php/Компания:НУР_Телеком_(Мобильный_оператор_О)",
+            "category": "partnership"
+        }
+    ],
+    "related_entities": [
+        {
+            "name_zh": "Visor Capital Holding（哈萨克斯坦）",
+            "name_en": "Visor Capital Holding (Kazakhstan)",
+            "name_original": "Visor Capital / Visor Holding",
+            "relationship_type": "parent_company",
+            "description": "哈萨克斯坦 Visor Capital 控股集团，通过其持有 Nur Telecom；实际控制人为 Aidan Karibzhanov"
+        },
+        {
+            "name_zh": "Sky Mobile（Beeline 吉尔吉斯斯坦）",
+            "name_en": "Sky Mobile (Beeline Kyrgyzstan)",
+            "name_original": "ОсОО «Скай Мобайл» / VEON",
+            "relationship_type": "competitor",
+            "description": "吉尔吉斯三大移动运营商之一，由 VEON（荷兰）持股 50.1%、Crowell Investments 持股 49.9%"
+        },
+        {
+            "name_zh": "Alfa Telecom（MEGA / 原 MegaCom）",
+            "name_en": "Alfa Telecom (MEGA / formerly MegaCom)",
+            "name_original": "АО «Альфа Телеком»",
+            "relationship_type": "competitor",
+            "description": "吉尔吉斯市场份额第一（34.7%），100% 国有"
+        },
+        {
+            "name_zh": "Saima Telecom",
+            "name_en": "Saima Telecom",
+            "name_original": "ОсОО «Сайма Телеком»",
+            "relationship_type": "partner",
+            "description": "固网宽带合作方；自 2020 年 10 月起推出 Saima+O!TV 联合套餐（含光纤上网与 200+ 频道 OTT 服务）"
+        },
+        {
+            "name_zh": "Green Telecom Service LLC",
+            "name_en": "Green Telecom Service LLC",
+            "name_original": "ОсОО «Грин Телеком Сервис»",
+            "relationship_type": "subsidiary_or_jv",
+            "description": "O!Dengi 电子钱包服务的运营方，持有吉尔吉斯斯坦国家银行颁发牌照 №2021030817、№3022030817"
+        },
+        {
+            "name_zh": "O!Bank-Bishkek（OJSC 分支机构）",
+            "name_en": "O!Bank-Bishkek (OJSC Branch)",
+            "name_original": "О!Банк-Бишкек ОАО филиал",
+            "relationship_type": "subsidiary_or_jv",
+            "description": "Nur Telecom 收款银行（BIC: 125008）"
+        },
+        {
+            "name_zh": "Naumen（俄罗斯）",
+            "name_en": "Naumen (Russia)",
+            "name_original": "Naumen Consulting",
+            "relationship_type": "vendor",
+            "description": "2018 年为 Nur Telecom 部署 Naumen Contact Center（IP 呼叫中心 SaaS）"
+        },
+        {
+            "name_zh": "MEGOGO",
+            "name_en": "MEGOGO",
+            "name_original": "MEGOGO",
+            "relationship_type": "content_partner",
+            "description": "O!Kino 服务的内容提供方（通过 Dias TV LLC 联合提供）"
+        },
+        {
+            "name_zh": "吉尔吉斯斯坦国家银行",
+            "name_en": "National Bank of the Kyrgyz Republic",
+            "name_original": "Национальный банк Кыргызской Республики",
+            "relationship_type": "regulator",
+            "description": "O!Dengi / O!Bank 金融服务的监管机构"
+        },
+        {
+            "name_zh": "吉尔吉斯斯坦国家数字发展部 / GKNB",
+            "name_en": "Ministry of Digital Development & National Security Service (GKNB)",
+            "name_original": "Министерство цифрового развития / ГКНБ",
+            "relationship_type": "regulator",
+            "description": "行业主管部门；GKNB 强制要求所有移动运营商在编一名安全官（薪资不低于副总级）"
+        },
+        {
+            "name_zh": "Beeline（前 Bitel 资产分裂）",
+            "name_en": "Beeline (former Bitel asset split)",
+            "name_original": "«Бител» / «Вымпелком»",
+            "relationship_type": "spinoff_origin",
+            "description": "Nur Telecom 与 Sky Mobile 共同源自前吉尔吉斯首家 GSM 运营商 Bitel 的资产分裂（2005-2008 年间，Maxim Bakiyev 介入）"
+        }
+    ],
+    "core_business": "吉尔吉斯斯坦最大的移动通信运营商之一，以「O!」品牌运营（自称市场第一）。提供 GSM-900/1800（2G）、WCDMA/UMTS 2100 与 UMTS 900（3G）、LTE 800/1800/2100/2600 MHz（4G Band 20/3/1/7）及试点 5G 服务，覆盖全国 99.8% 人口。除核心语音与移动数据业务外，公司构建了「My O!」数字生态系统：含 O!Dengi 电子钱包、O!Market 在线市场、O!TV 移动电视、O!Kino 流媒体（合作 MEGOGO/START）、O!Store 零售连锁、O!Bank 银行服务、Intern Labs IT 培训等。公司同时是政府战略合作伙伴，多次获「吉尔吉斯斯坦最佳纳税人」称号，向国家预算贡献全国电信行业税收约一半。",
+    "industries": [
+        "telecommunications",
+        "mobile_network_operator",
+        "digital_wallet_and_fintech",
+        "mobile_tv_streaming",
+        "retail_devices"
+    ],
+    "apec_stance": {
+        "is_apec_member": False,
+        "apec_role": "N/A（吉尔吉斯斯坦非 APEC 成员）",
+        "apec_engagement_level": "none",
+        "regional_engagement": "中亚区域（CAREC / 欧亚经济联盟周边）主要电信运营商；母公司 Visor Capital 为哈萨克斯坦资本，体现中亚跨境投资；曾与俄罗斯 Sberbank、Naumen、Yandex 等建立合作；2025 年获区域级 WOW! HR 奖（颁奖地阿拉木图）",
+        "notes": "吉尔吉斯斯坦位于中亚，不是 APEC 21 个成员经济体之一。但公司业务与中亚、欧亚经济联盟紧密关联，并对中亚数字经济一体化具有战略意义。"
+    },
+    "profile": {
+        "summary": "努尔电信（Nur Telecom，品牌 O!）是吉尔吉斯斯坦领先的全业务移动运营商，2009 年 3 月 3 日商用启动，2024 年市场份额约 35.2%，用户数超 350 万。其发展史与吉尔吉斯前总统之子 Maxim Bakiyev 时期 Bitel 资产分裂（2005-2008）密切相关，由哈萨克斯坦 Visor Capital 控股（实控人 Aidan Karibzhanov）。公司在 2014 年率先推出 4G LTE、2016 年推出移动电视 O!TV、2017 年推出 O!Dengi 电子钱包，2019 年获 Ookla「吉尔吉斯斯坦最快移动网络」奖，2024 年率先试点 5G。公司构建了完整的数字生态（My O!、O!Market、O!Bank、O!Store、Intern Labs），并向国家预算贡献电信行业税收约一半，是吉国主要纳税人之一。",
+        "history": "2005 年「郁金香革命」后，原吉尔吉斯首家 GSM 运营商 Bitel 被反复转手：从 Aidar Akayev（前总统之子）到哈萨克商人，再到俄罗斯 MTS，最后由 Maxim Bakiyev（下一任总统之子）介入，资产分裂为两部分：一部分归 Sky Mobile（现 Beeline），另一部分归 Nur Telecom（Visor Capital 持股），并以新品牌「O!」于 2009 年 3 月 3 日商用启动。初期仅覆盖比什凯克和楚河州，后扩展至全国。2010 年代连续推出 4G、移动电视、电子钱包等创新，2022 年开始 5G 测试，2024 年 8 月正式试点部署 5G。",
+        "market_position": "吉尔吉斯斯坦三大移动运营商之一。根据 KG Labs 2024 年 Q2 数据：MEGA（国有）34.7%、Nur Telecom/O! 35.2%（市场份额第一，私企）、Sky Mobile/Beeline（VEON）余下份额。Nur Telecom 自称基于 2023 年 1 月 20 日数据为市场第一（按用户数）。覆盖全国 99.8% 人口。",
+        "financials": "据公开报道，月缴纳电信行业约一半税收至国家预算；用户超 350 万；My O! 应用下载量超 300 万次；员工数千人；具体营收未公开披露。",
+        "technology": "4G LTE 覆盖 99.8% 人口；2024 年 5G 试点；MCC 437 / MNC 09；频段：GSM-900/1800、UMTS 900/2100、LTE 800/1800/2100/2600 MHz；主要设备供应商含华为、中兴（Huawei/ZTE 在 5G 试点中参与）；MCC-MNC: 437-09。",
+        "controversies": "公司起源与 Maxim Bakiyev（前总统 Kurmanbek Bakiyev 之子）时期的 Bitel 资产分裂有关，是吉尔吉斯电信业最具争议的私有化案例之一。GKNB（国家安全委员会）强制要求在编安全官。",
+        "csr_activities": "新冠疫情期间为数万公务员、师生、医生提供免费通信；巴特肯（Batken）边境冲突期间提供免费通信及援助；孤儿院资助；年度「Plant a Tree」环保项目（已建 8 所绿色校园）；Intern Labs 免费 IT 培训（数十名 IT 专家毕业）。"
+    },
+    "collection_meta": {
+        "collection_date": "2026-07-06",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "o.kg (official site)",
+            "ru.ruwiki.ru",
+            "ky.wikipedia.org",
+            "ru.wikipedia.org",
+            "tadviser.ru",
+            "mcc-mnc.org",
+            "kglabs.org (Kyrgyzstan Digital Landscape)",
+            "telecompaper.com",
+            "samenacouncil.org",
+            "ookla.com",
+            "cbinsights.com",
+            "open.kg",
+            "24.kg",
+            "statsnet.co",
+            "fsa.gov.kg",
+            "operatorwatch.com"
+        ],
+        "completeness_score": 88,
+        "notes": "Wikidata 无现有 QID（搜索 Nur Telecom / O! Kyrgyzstan 均返回空，可创建新条目）。已修正 country_iso3 从 KGP → KGZ。吉尔吉斯 Wikipedia 称公司为 ЖАК（封闭股份公司），俄语版称为 ООО（有限责任公司）；本档案以 ОсОО（吉尔吉斯有限责任公司，Общество с ограниченной ответственностью）为准。CEO 已通过 24.kg 与 o.kg 官方页面交叉验证。Visor Capital 持股信息来源：ru.ruwiki.ru / kglabs.org。原 Bitel 资产分裂涉及前总统家族，敏感历史信息已注明。",
+        "quotes": [
+            {
+                "title": "О! is the #1 Mobile operator in Kyrgyzstan — NUR Telecom LLC",
+                "url": "https://o.kg/en/o-kompanii/istoriya-kompanii"
+            },
+            {
+                "title": "Nur Telecom / O! (35.2%, owned by Visor Holding Kazakhstan) — KG Labs Digital Landscape",
+                "url": "https://kglabs.org/kyrgyzstans-digital-landscape-evidence-from-the-field/"
+            },
+            {
+                "title": "«НУР Телеком» сообщила о запуске 5G-сети в Киргизии (August 2024)",
+                "url": "https://www.tadviser.ru/index.php/Компания:НУР_Телеком_(Мобильный_оператор_О)"
+            },
+            {
+                "title": "General Director — Vladislav Slepokurov (24.kg)",
+                "url": "https://24.kg/biznes_info/51229_luchshie_sotrudniki_mobilnogo_operatora_o_otmechenyi_nagradami/"
+            }
+        ],
+        "search_queries_used": [
+            "Nur Telecom Kyrgyzstan O! mobile operator wikidata",
+            "Нур Телеком Кыргызстан сотовый оператор история",
+            "Nur Telecom CEO general director Kyrgyzstan 2024 2025",
+            "O! mobile operator Kyrgyzstan subscribers market share 2024",
+            "Visor Holding Kazakhstan Nur Telecom Karibzhanov owner shareholder",
+            "Nur Telecom 5G 2024 August launch subscribers",
+            "site:wikidata.org Nur Telecom"
+        ]
+    }
+}
+
+out_path = Path(r"D:/claude-workspace/apec-osint-tool/output/kg/2026-06-21/orgs/KG-CORP-008.json")
+out_path.parent.mkdir(parents=True, exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"WROTE: {out_path}")
+print(f"SIZE: {out_path.stat().st_size} bytes")
+
+# Validate
+with open(out_path, "r", encoding="utf-8") as f:
+    reloaded = json.load(f)
+print(f"KEYS: {list(reloaded.keys())}")
+print(f"key_people count: {len(reloaded['key_people'])}")
+print(f"recent_events count: {len(reloaded['recent_events'])}")
+print(f"related_entities count: {len(reloaded['related_entities'])}")
+print(f"social_accounts count: {len(reloaded['social_accounts'])}")
+print(f"digital_assets count: {len(reloaded['digital_assets'])}")
+print(f"departments count: {len(reloaded['departments'])}")
+print(f"industries: {reloaded['industries']}")
+print(f"country_iso3: {reloaded['basic_info']['country_iso3']}")
+print(f"wikidata_qid: {reloaded['basic_info']['wikidata_qid']}")
+print(f"completeness_score: {reloaded['collection_meta']['completeness_score']}")

@@ -625,6 +625,11 @@ Step 5: 检查缺失字段
 
 第三步：将丰富后的完整画像写入原文件路径
 
+⚠️ JSON 写入编码规则（Windows 环境必读）：
+由于文件包含日文/韩文/中文等 CJK 字符，禁止用 Bash+python -c 内联写入（Windows GBK 终端会破坏日文汉字）。
+正确做法：用 Write 工具创建临时 .py 脚本文件，脚本内使用 json.dump(data, f, ensure_ascii=False, indent=2) + open(..., 'w', encoding='utf-8') 写入目标文件，然后用 Bash 执行该脚本。
+详见 network_config.md「JSON 文件写入编码规范」。
+
 ⚠️ 必须使用以下精确字段名（不可自创字段名）：
 
 key_people[]:        person_id | name | title | title_description | description

@@ -47,7 +47,7 @@ def setup_proxy(primary=None, fallback=None):
     print(f"  Proxy configured: {proxy_url or 'DIRECT'}")
 
 
-def _test_proxy(proxy_url, timeout=5):
+def _test_proxy(proxy_url, timeout=15):
     """Test if a proxy is reachable. Returns proxy_url on success, None on failure."""
     try:
         proxy_handler = urllib.request.ProxyHandler({

@@ -64,6 +64,37 @@ import sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 ```
 
+## JSON 文件写入编码规范（子代理必读）
+
+子代理写入含 CJK 字符（日文汉字 `内閣府`、韩文 `더불어민주당`、中文等）的 JSON 文件时，**禁止**以下做法：
+- ❌ 直接用 `Write` 工具写入大 JSON（中文字符串可能被截断或转义错误）
+- ❌ 用 `Bash` + `python -c '...'` 内联写入（Windows GBK 终端导致日文汉字编码失败）
+- ❌ 手动拼接 JSON 字符串（引号/换行/特殊字符易出错）
+
+**正确写入方式**（使用 Bash + Python 脚本文件）：
+
+```bash
+# 1. 先用 Write 工具创建临时 Python 脚本
+# 2. 在脚本中用 json.dumps(..., ensure_ascii=False) 生成 JSON 字符串
+# 3. 用 open(..., 'w', encoding='utf-8') 写入目标文件
+# 4. 执行脚本
+python /tmp/write_profile.py
+```
+
+脚本模板：
+```python
+import json
+data = { ... }  # 完整画像数据
+with open('output/jp/2026-06-09/orgs/JP-GOV-002.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+# 验证写入成功
+with open('output/jp/2026-06-09/orgs/JP-GOV-002.json', 'r', encoding='utf-8') as f:
+    verified = json.load(f)
+print(f"OK: {verified['org_id']} score={verified['collection_meta']['completeness_score']}")
+```
+
+> **关键**：`ensure_ascii=False` + `encoding='utf-8'` 缺一不可。缺少前者会写入 `\uXXXX` 转义序列；缺少后者在 Windows 上会用 GBK 编码导致日文汉字写入失败。
+
 ## 工具选择策略
 
 1. **Wikidata SPARQL** — 优先本地 curl + 代理（最稳定）；`mcp__search-read__read_url` 作备选

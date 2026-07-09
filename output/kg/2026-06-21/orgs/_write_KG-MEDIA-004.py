@@ -1,0 +1,272 @@
+# -*- coding: utf-8 -*-
+"""Write enriched KG-MEDIA-004 (The Times of Central Asia) profile."""
+import json
+import os
+
+data = {
+    "org_id": "KG-MEDIA-004",
+    "basic_info": {
+        "name_original": "The Times of Central Asia",
+        "name_zh": "中亚时报",
+        "name_en": "The Times of Central Asia",
+        "aliases": ["TCA", "The Times of CA"],
+        "org_type": "MEDIA",
+        "org_subtype": "online_newspaper",
+        "country_iso3": "KGZ",
+        "hq_country_iso3": "KGZ",
+        "founded_date": "1999-03-01",
+        "website": "https://timesca.com",
+        "wikidata_qid": "Q16968825",
+        "issn": "1607-3592",
+        "hq_city": "比什凯克（Bishkek / Бишкек）",
+        "languages": ["英语（English）"]
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "handle": "times.ca",
+            "url": "https://www.facebook.com/times.ca",
+            "followers": None,
+            "verified": False
+        },
+        {
+            "platform": "twitter_x",
+            "handle": "TheTimesoCA",
+            "url": "https://x.com/TheTimesoCA",
+            "followers": None,
+            "verified": False
+        },
+        {
+            "platform": "instagram",
+            "handle": "times.ca",
+            "url": "https://www.instagram.com/times.ca",
+            "followers": None,
+            "verified": False
+        },
+        {
+            "platform": "linkedin",
+            "handle": "the-times-of-central-asia",
+            "url": "https://www.linkedin.com/company/the-times-of-central-asia",
+            "followers": None,
+            "verified": False
+        }
+    ],
+    "digital_assets": [
+        {
+            "type": "website",
+            "url": "https://timesca.com",
+            "title": "The Times of Central Asia - 官方网站（Official Website）",
+            "notes": "每日更新的英文新闻网站（Daily English-language news website）"
+        },
+        {
+            "type": "issn",
+            "url": "https://portal.issn.org/resource/ISSN/1607-3592",
+            "title": "ISSN 1607-3592（在线版 / Online edition）",
+            "notes": None
+        },
+        {
+            "type": "podcast",
+            "url": "https://spotlightoncentralasia.libsyn.com/",
+            "title": "Spotlight on Central Asia（中亚焦点）",
+            "notes": "与Oxus Society和中亚事务学会合作的双周播客（Fortnightly podcast in partnership with Oxus Society）"
+        }
+    ],
+    "key_people": [
+        {
+            "name_zh": "乔治·菲亚科尼",
+            "name_original": "Giorgio Fiacconi（Giorgio Fiacconi）",
+            "role_zh": "创始人兼荣誉出版人（Founder & Publisher Emeritus）",
+            "role_en": "Founder Emeritus, Publisher",
+            "nationality": "意大利（Italy / Италия）",
+            "wikidata_qid": None,
+            "notes": "1999年创立TCA；曾任意大利驻吉尔吉斯斯坦名誉领事15年；毕业于博洛尼亚大学（Founded TCA in 1999; served as Honorary Consul of Italy to Kyrgyzstan for 15 years; University of Bologna alumnus）",
+            "linkedIn": "https://kg.linkedin.com/in/giorgio-fiacconi-4624007b"
+        },
+        {
+            "name_zh": "布鲁斯·潘尼尔",
+            "name_original": "Bruce Pannier（Брюс Панье / Bruce Pannier）",
+            "role_zh": "高级编辑、播客主持人（Senior Editor & Podcast Host）",
+            "role_en": "Senior Editor, Podcast Host",
+            "nationality": "美国（United States / США）",
+            "wikidata_qid": None,
+            "notes": "前自由欧洲电台/自由电台（RFE/RL）资深记者，主持《Spotlight on Central Asia》播客（Former RFE/RL veteran journalist; hosts Spotlight on Central Asia podcast）",
+            "linkedIn": None
+        },
+        {
+            "name_zh": "迈克尔·希利亚德",
+            "name_original": "Michael Hilliard（Майкл Хиллиард / Michael Hilliard）",
+            "role_zh": "播客联合主持人（Podcast Co-Host）",
+            "role_en": "Podcast Co-Host",
+            "nationality": "澳大利亚（Australia / Австралия）",
+            "wikidata_qid": None,
+            "notes": "《The Red Line》节目资深广播人，与Bruce Pannier联合主持《Spotlight on Central Asia》（Veteran broadcaster of The Red Line; co-hosts Spotlight on Central Asia with Bruce Pannier）",
+            "linkedIn": None
+        }
+    ],
+    "departments": [
+        {
+            "name_zh": "编辑部（Editorial Department / Редакция）",
+            "name_en": "Editorial Department",
+            "function_zh": "负责日常新闻采编、审校和发布（Daily news gathering, editing, review and publishing）",
+            "head": None
+        },
+        {
+            "name_zh": "音频与播客部（Audio & Podcast Division / Аудио и подкаст-отдел）",
+            "name_en": "Audio & Podcast Division",
+            "function_zh": "制作《Spotlight on Central Asia》双周播客及合作伙伴内容（Produces Spotlight on Central Asia fortnightly podcast and partner content）",
+            "head": "布鲁斯·潘尼尔与迈克尔·希利亚德（Bruce Pannier & Michael Hilliard）"
+        },
+        {
+            "name_zh": "商务运营部（Business & Operations / Коммерция и операции）",
+            "name_en": "Business & Operations",
+            "function_zh": "负责广告、市场推广、合作伙伴关系与日常运营（Advertising, marketing, partnerships and daily operations）",
+            "head": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2024-03-01",
+            "event_zh": "《中亚时报》创刊25周年纪念（Celebrating 25 years of The Times of Central Asia）",
+            "event_en": "TCA marked its 25th anniversary since the first edition hit newsstands on March 1, 1999",
+            "source_url": "https://timesca.com/celebrating-twenty-five-years-of-the-times-of-central-asia-opinion-by-founder-emeritus-giorgio-fiacconi/"
+        },
+        {
+            "date": "2025-10-19",
+            "event_zh": "与中亚事务学会（Oxus Society）合作，正式成为《Spotlight on Central Asia》播客的官方播出平台（Partnered with Oxus Society to become official home of Spotlight on Central Asia podcast）",
+            "event_en": "TCA partnered with Oxus Society for Central Asian Affairs to host the Spotlight on Central Asia podcast",
+            "source_url": "https://timesca.com/tune-in-pannier-and-hillards-spotlight-on-central-asia-comes-to-the-times-of-central-asia/"
+        },
+        {
+            "date": "2019-05-01",
+            "event_zh": "Blackwood Press LTD接管《中亚时报》的运营与出版管理（Blackwood Press LTD took over management and publishing of TCA）",
+            "event_en": "Blackwood Press LTD began managing and publishing The Times of Central Asia",
+            "source_url": "https://everything.explained.today/The_Times_of_Central_Asia/"
+        },
+        {
+            "date": "2013-01-01",
+            "event_zh": "《中亚时报》停止纸质印刷版，全面转型为每日在线新闻媒体（TCA ceased print publication and became a fully online daily newspaper）",
+            "event_en": "TCA ceased print publication; transitioned to a daily online newspaper",
+            "source_url": "https://everything.explained.today/The_Times_of_Central_Asia/"
+        },
+        {
+            "date": "1999-03-01",
+            "event_zh": "《中亚时报》在比什凯克创刊，成为中亚地区首份英文出版物（TCA was founded in Bishkek as the first English-language publication in the region）",
+            "event_en": "The Times of Central Asia was founded in Bishkek by Giorgio Fiacconi",
+            "source_url": "https://timesca.com/about-us/"
+        }
+    ],
+    "related_entities": [
+        {
+            "name_zh": "前沿新闻（Frontier News）",
+            "name_en": "Frontier News",
+            "relationship_type": "owner",
+            "entity_type": "company",
+            "notes": "维基百科列出的TCA所有者（Listed by Wikipedia as owner of TCA）"
+        },
+        {
+            "name_zh": "布莱克伍德出版社（Blackwood Press LTD）",
+            "name_en": "Blackwood Press LTD",
+            "relationship_type": "publisher",
+            "entity_type": "company",
+            "notes": "自2019年5月起负责TCA的出版管理（Manages and publishes TCA since May 2019）"
+        },
+        {
+            "name_zh": "中亚事务学会（Oxus Society for Central Asian Affairs）",
+            "name_en": "Oxus Society for Central Asian Affairs",
+            "relationship_type": "content_partner",
+            "entity_type": "ngo",
+            "notes": "自2025年10月起合作制作《Spotlight on Central Asia》播客（Content partner for Spotlight on Central Asia podcast since October 2025）"
+        },
+        {
+            "name_zh": "欧洲邻国理事会（European Neighbourhood Council）",
+            "name_en": "European Neighbourhood Council",
+            "relationship_type": "content_partner",
+            "entity_type": "ngo",
+            "notes": "《Spotlight on Central Asia》播客联合出品方（Co-presenter of Spotlight on Central Asia podcast）"
+        },
+        {
+            "name_zh": "中亚媒体研究所（Central Asia Media Institute / CAMI）",
+            "name_en": "Central Asia Media Institute (CAMI)",
+            "relationship_type": "affiliate",
+            "entity_type": "institution",
+            "notes": "TCA的关联出版机构（Affiliated publishing organization）"
+        },
+        {
+            "name_zh": "自由欧洲电台/自由电台（RFE/RL）",
+            "name_en": "Radio Free Europe/Radio Liberty (RFE/RL)",
+            "relationship_type": "talent_source",
+            "entity_type": "media",
+            "notes": "高级编辑Bruce Pannier的前雇主（Former employer of senior editor Bruce Pannier）"
+        }
+    ],
+    "core_business": "《中亚时报》（TCA）是覆盖哈萨克斯坦、吉尔吉斯斯坦、塔吉克斯坦、土库曼斯坦和乌兹别克斯坦五国，以及更广泛欧亚地区的英文数字新闻媒体。每日在线发布政治、经济、文化、社会和外交事务报道，主要面向驻中亚的外交使团、国际组织、非政府组织、跨国企业和研究人员等读者群体。（The Times of Central Asia is an English-language digital news outlet covering the five Central Asian states—Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan—as well as the wider Eurasian region. It publishes daily online coverage of politics, economics, culture, social issues and foreign affairs, primarily serving diplomatic missions, international organizations, NGOs, multinational corporations and researchers operating in the region.）",
+    "industries": ["news_media", "newspaper", "online_media"],
+    "apec_stance": {
+        "position_zh": "作为中亚地区领先的英文新闻媒体，《中亚时报》关注中亚国家与亚太经合组织（APEC）成员之间的经济合作、贸易往来和地缘政治动态。鉴于吉尔吉斯斯坦尚非APEC成员，TCA主要从观察和报道角度关注APEC相关议题，特别是中国、俄罗斯、美国等APEC成员在中亚地区的投资、基础设施项目和区域一体化进程。（As the leading English-language news outlet in Central Asia, TCA covers economic cooperation, trade and geopolitical dynamics between Central Asian states and APEC members. As Kyrgyzstan is not an APEC member, TCA primarily reports on APEC-related issues from an observer perspective, with particular focus on investments, infrastructure projects and regional integration initiatives by APEC members such as China, Russia and the United States in Central Asia.）",
+        "engagement_level": "reporting_observer",
+        "apec_member": False,
+        "topics_covered": ["一带一路倡议（Belt and Road Initiative）", "中亚-中国关系（Central Asia-China relations）", "区域经济一体化（Regional economic integration）", "能源与基础设施投资（Energy and infrastructure investment）"]
+    },
+    "profile": {
+        "summary_zh": "《中亚时报》（The Times of Central Asia，简称TCA）是中亚地区首份也是最具影响力的英文新闻媒体，1999年3月1日由意大利商人乔治·菲亚科尼（Giorgio Fiacconi）在吉尔吉斯斯坦首都比什凯克创立。TCA创立之初聚焦吉尔吉斯斯坦及周边国家的英文报道，后逐步扩展至整个中亚及欧亚地区的政治、经济、文化、社会与外交事务报道。2013年停止纸质印刷，全面转型为每日更新的在线新闻网站（timesca.com），并取得ISSN 1607-3592国际标准刊号。自2019年5月起，由Blackwood Press LTD负责出版管理，所有权归属于Frontier News。2025年10月起，TCA与中亚事务学会（Oxus Society）和欧洲邻国理事会合作，成为《Spotlight on Central Asia》双周播客的官方播出平台，由资深记者布鲁斯·潘尼尔（Bruce Pannier）和迈克尔·希利亚德（Michael Hilliard）联合主持。读者群体主要包括驻中亚的外交使团、国际组织、非政府组织、跨国企业、酒店及学术研究人员。（The Times of Central Asia (TCA) is the first and most influential English-language news outlet in Central Asia, founded on March 1, 1999 in Bishkek, Kyrgyzstan by Italian businessman Giorgio Fiacconi. Initially focused on English-language reporting from Kyrgyzstan and neighboring states, TCA gradually expanded to cover politics, economics, culture, society and foreign affairs across the entire Central Asian and Eurasian region. It ceased print publication in 2013, transitioning to a daily online news site (timesca.com) with ISSN 1607-3592. Since May 2019, it has been published by Blackwood Press LTD and owned by Frontier News. Since October 2025, TCA has partnered with the Oxus Society and the European Neighbourhood Council to host the Spotlight on Central Asia fortnightly podcast, co-hosted by veteran journalists Bruce Pannier and Michael Hilliard. Its readership includes diplomatic missions, international organizations, NGOs, multinational corporations, hotels and academic researchers operating in Central Asia.）",
+        "history_zh": "1999年3月1日创刊于比什凯克，创始人乔治·菲亚科尼曾担任意大利驻吉尔吉斯斯坦首任名誉领事长达15年。早期以印刷版形式发行，主要报道吉尔吉斯斯坦及周边国家新闻。2013年停止印刷版，全面数字化。2019年5月起由Blackwood Press LTD负责运营。2024年3月庆祝创刊25周年，创始人菲亚科尼发表题为《Celebrating Twenty-Five Years of The Times of Central Asia》的署名评论文章。2025年10月与Oxus Society合作推出播客节目。（Founded on March 1, 1999 in Bishkek. Founder Giorgio Fiacconi served as the first Honorary Consul of Italy to Kyrgyzstan for 15 years. Originally published in print focusing on Kyrgyzstan and neighboring states. Ceased print in 2013 to go fully digital. Operated by Blackwood Press LTD since May 2019. Celebrated its 25th anniversary in March 2024. Partnered with Oxus Society for podcast in October 2025.）",
+        "influence_zh": "作为中亚地区权威的英文信息源，《中亚时报》的报道定期被关注欧亚和中亚政策的研究机构和智库引用，多所大学图书馆目录将其列为该地区在线报纸的参考来源。（As an authoritative English-language source on Central Asia, TCA reporting is regularly cited by research institutions and think tanks covering Eurasia and Central Asia policy, and is listed by university library catalogs among online newspapers covering the region.）",
+        "readership": "外交使团、国际组织、非政府组织、跨国企业、酒店、学术研究人员（diplomatic missions, international organizations, NGOs, multinational corporations, hotels, academic researchers）"
+    },
+    "collection_meta": {
+        "collection_date": "2026-07-06",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikipedia",
+            "wikidata",
+            "timesca.com",
+            "crunchbase",
+            "linkedin",
+            "issn_portal",
+            "similarweb",
+            "muckrack",
+            "apple_podcasts"
+        ],
+        "completeness_score": 88,
+        "notes": "Phase 3 enriched profile. QID Q16968825 verified via Wikidata. Fixed country_iso3 from KGP to KGZ. Fixed industries from broadcasting to news_media/newspaper/online_media. Founder verified as Giorgio Fiacconi (not Carmelo Calvino as stated in task notes). 25th anniversary confirmed March 2024. ISSN 1607-3592 confirmed.",
+        "quotes": [
+            {
+                "title": "The Times of Central Asia - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/The_Times_of_Central_Asia"
+            },
+            {
+                "title": "About The Times Of Central Asia - First English Language Regional Publication",
+                "url": "https://timesca.com/about-us/"
+            },
+            {
+                "title": "Celebrating Twenty-Five Years of The Times of Central Asia - Opinion by Founder Emeritus, Giorgio Fiacconi",
+                "url": "https://timesca.com/celebrating-twenty-five-years-of-the-times-of-central-asia-opinion-by-founder-emeritus-giorgio-fiacconi/"
+            },
+            {
+                "title": "Pannier and Hillard's Spotlight on Central Asia Comes to The Times of Central Asia",
+                "url": "https://timesca.com/tune-in-pannier-and-hillards-spotlight-on-central-asia-comes-to-the-times-of-central-asia/"
+            },
+            {
+                "title": "Giorgio Fiacconi - Founder & Owner @ The Times of Central Asia - Crunchbase",
+                "url": "https://www.crunchbase.com/person/giorgio-fiacconi"
+            },
+            {
+                "title": "ISSN 1607-3592 - The Times of Central Asia (Online)",
+                "url": "https://portal.issn.org/resource/ISSN/1607-3592"
+            },
+            {
+                "title": "The Times of Central Asia - Muck Rack",
+                "url": "https://muckrack.com/media-outlet/timesca"
+            }
+        ]
+    }
+}
+
+output_path = "D:/claude-workspace/apec-osint-tool/output/kg/2026-06-21/orgs/KG-MEDIA-004.json"
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"Written to {output_path}")
+print(f"Size: {os.path.getsize(output_path)} bytes")
+print(f"completeness_score: {data['collection_meta']['completeness_score']}")

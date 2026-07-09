@@ -1,0 +1,422 @@
+# -*- coding: utf-8 -*-
+"""Write enriched KG-INTL-007 (EU Delegation to Kyrgyzstan) JSON profile.
+UTF-8 encoding enforced via atomic_write to avoid GBK corruption.
+"""
+import json
+import os
+import sys
+
+OUT_PATH = r"D:\claude-workspace\apec-osint-tool\output\kg\2026-06-21\orgs\KG-INTL-007.json"
+
+data = {
+    "org_id": "KG-INTL-007",
+    "basic_info": {
+        "name_original": "Delegation of the European Union to the Kyrgyz Republic",
+        "name_zh": "欧盟驻吉尔吉斯共和国代表团（Делегация Европейского Союза в Кыргызской Республике / Кыргыз Республикасындагы Европалык Союздун Делегациясы）",
+        "name_en": "Delegation of the European Union to the Kyrgyz Republic",
+        "aliases": [
+            "EU Delegation to Kyrgyzstan",
+            "EU Delegation to the Kyrgyz Republic",
+            "European Union in Kyrgyzstan",
+            "Делегация ЕС в Кыргызстане",
+            "Делегация ЕС в Кыргызской Республике",
+            "Европейский Союз в Кыргызстане",
+            "EU Embassy in Bishkek",
+            "Посольство ЕС в Кыргызстане"
+        ],
+        "org_type": "INTL",
+        "org_subtype": "diplomatic_mission_eu_delegation",
+        "country_iso3": "KGZ",
+        "hq_country_iso3": "KGZ",
+        "founded_date": "2008-01-01",
+        "dissolved_date": None,
+        "website": "https://www.eeas.europa.eu/delegations/kyrgyz-republic_en",
+        "wikidata_qid": "Q61931936",
+        "ror_id": None,
+        "grid_id": None,
+        "short_name": "EU Del KG / Делегация ЕС в КР",
+        "native_label": "Делегация Европейского Союза в Кыргызской Республике",
+        "rebranding_notes": "欧盟驻吉尔吉斯共和国代表团是欧洲外部行动署（EEAS）在全球约140个欧盟代表团之一。代表团职能随2009年《里斯本条约》生效而扩展，从原欧洲委员会代表团过渡为EEAS框架下的欧盟全面外交代表团。其法律基础可追溯至1999年欧盟与吉尔吉斯共和国签订的《伙伴关系与合作协定》（PCA），后者于2009年正式生效。2024年6月25日双方签署新的《加强伙伴与合作协定》（EPCA）以替代PCA，代表团承担新协定执行枢纽职能。"
+    },
+    "social_accounts": [
+        {
+            "platform": "x_twitter",
+            "account_name": "EUinKyrgyzstan",
+            "url": "https://x.com/EUinKyrgyzstan",
+            "source": "official_website"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "euinkyrgyzstan",
+            "url": "https://www.facebook.com/euinkyrgyzstan/",
+            "source": "official_website"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "euinkyrgyzstan",
+            "url": "https://www.instagram.com/euinkyrgyzstan/",
+            "source": "official_website"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "eu-delegation-to-kyrgyzstan",
+            "url": "https://www.linkedin.com/company/eu-delegation-to-kyrgyzstan/",
+            "source": "official_website"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "EUDeligationtoKyrgyzstan",
+            "url": "https://www.youtube.com/@eudelegationtokyrgyzstan1939/videos",
+            "source": "official_website",
+            "note": "欧盟驻吉尔吉斯斯坦代表团官方YouTube频道"
+        }
+    ],
+    "digital_assets": [
+        {
+            "asset_type": "official_website",
+            "url": "https://www.eeas.europa.eu/delegations/kyrgyz-republic_en",
+            "language": "en / ru / ky",
+            "description": "代表团在EEAS官网的国别主页，发布欧盟与吉尔吉斯共和国双边关系、合作项目、新闻声明与活动公告。"
+        },
+        {
+            "asset_type": "ambassador_page",
+            "url": "https://www.eeas.europa.eu/kyrgyz-republic/about-ambassador_en",
+            "language": "en / ru",
+            "description": "现任欧盟大使雷米·迪弗洛（Rémi Duflot）的官方页面，含其致吉国人民的开场致辞视频与个人社交媒体链接。"
+        },
+        {
+            "asset_type": "wikidata_record",
+            "url": "https://www.wikidata.org/wiki/Q61931936",
+            "language": "en",
+            "description": "Wikidata条目，描述为government organization in Bishkek, Kyrgyzstan。"
+        },
+        {
+            "asset_type": "partnership_factsheet",
+            "url": "https://www.eeas.europa.eu/eeas/factsheet-enhanced-partnership-and-cooperation-agreement-between-eu-and-kyrgyz-republic_en",
+            "language": "en / ru",
+            "description": "EEAS发布的《欧盟-吉尔吉斯共和国加强伙伴与合作协定》（EPCA）情况说明书，2024年6月25日布鲁塞尔签署。"
+        },
+        {
+            "asset_type": "cooperation_programme",
+            "url": "https://international-partnerships.ec.europa.eu/document/download/8c344d8b-fb06-47af-8e2c-e2c1c9b5b45d_en",
+            "language": "en",
+            "description": "欧盟《2021-2027年多年度指示性方案》（MIP）吉尔吉斯共和国国别文件，设定三大重点合作领域：人力发展、绿色与气候韧性经济、治理与数字化转型。"
+        },
+        {
+            "asset_type": "projects_page",
+            "url": "https://www.eeas.europa.eu/kyrgyz-republic/eu-projects-kyrgyz-republic_en",
+            "language": "en / ru",
+            "description": "欧盟在吉尔吉斯共和国项目专页，按MIP三大重点领域（治理与数字化转型、人力发展、绿色与气候韧性经济）汇总旗舰项目。"
+        },
+        {
+            "asset_type": "eeas_headquarters",
+            "url": "https://www.eeas.europa.eu/eeas_en",
+            "language": "en",
+            "description": "欧洲外部行动署（EEAS）布鲁塞尔总部官网。代表团为其在海外的外交使团。"
+        }
+    ],
+    "key_people": [
+        {
+            "name_zh": "雷米·迪弗洛",
+            "name_original": "Rémi Duflot",
+            "name_ru": "Реми Дюфло",
+            "role_zh": "欧盟驻吉尔吉斯共和国大使兼代表团团长（自2025年起）",
+            "role_en": "Ambassador, Head of the European Union Delegation to the Kyrgyz Republic (since 2025)",
+            "start_date": "2025-02-01",
+            "end_date": None,
+            "source": "https://www.eeas.europa.eu/kyrgyz-republic/about-ambassador_en",
+            "notes": "法国籍欧盟外交官，2004年加入欧洲机构，此前从事投资银行业务。曾担任欧盟驻乌克兰代表团副团长（Deputy Head of EU Delegation to Ukraine）。2025年1-2月由吉尔吉斯副外长梅德尔·阿巴基罗夫（Meder Abakirov）接收国书副本后正式履新。母语法语，精通英语。"
+        },
+        {
+            "name_zh": "玛丽莲·约瑟夫森",
+            "name_original": "Marilyn Josefson",
+            "name_ru": "Мэрилин Джозефсон",
+            "role_zh": "前任欧盟驻吉尔吉斯共和国大使兼代表团团长（2021-2025）",
+            "role_en": "Former Ambassador, Head of the EU Delegation to the Kyrgyz Republic (2021-2025)",
+            "start_date": "2021-09-01",
+            "end_date": "2025-01-31",
+            "source": "https://en.kabar.kg/news/sadyr-zhaparov-receives-head-of-eu-delegation-due-to-completion-of-her-diplomatic-mission/",
+            "notes": "2025年1月31日由吉国总统萨德尔·扎帕罗夫与外长库鲁巴耶夫（Jeenbek Kulubaev）分别接见，结束外交使命离任。"
+        },
+        {
+            "name_zh": "爱德华兹·斯蒂普赖斯",
+            "name_original": "Eduards Stiprais",
+            "name_ru": "Эдуардс Стипрайс",
+            "role_zh": "欧盟中亚事务特别代表（自2025年3月起）",
+            "role_en": "EU Special Representative for Central Asia (since March 2025)",
+            "start_date": "2025-03-01",
+            "end_date": None,
+            "source": "https://www.newscentralasia.net/2025/02/25/new-eu-special-representative-for-central-asia-appointed/",
+            "notes": "拉脱维亚籍资深外交官，1969年2月19日生于里加。曾任拉脱维亚驻欧盟常驻代表（2004-2007）、拉脱维亚驻英国大使、驻法国大使、欧盟驻乌兹别克斯坦代表团团长（2016-2020）。2025年3月1日接替特尔希·哈卡拉（Terhi Hakala）出任欧盟中亚事务特别代表，初始任期2年。代表团与其在中亚政策上密切协调。"
+        },
+        {
+            "name_zh": "卡娅·卡拉斯",
+            "name_original": "Kaja Kallas",
+            "name_ru": "Кая Каллас",
+            "role_zh": "欧盟外交与安全政策高级代表兼欧盟委员会副主席（自2024年12月起）",
+            "role_en": "High Representative of the Union for Foreign Affairs and Security Policy / Vice-President of the European Commission (HR/VP, since December 2024)",
+            "start_date": "2024-12-01",
+            "end_date": None,
+            "source": "https://commission.europa.eu/about-european-commission/organisation-european-commission/college-commissioners/kaja-kallas_en",
+            "notes": "前任爱沙尼亚总理，领导EEAS并主管欧盟共同外交与安全政策（CFSP）。代表团代表其在比什凯克执行欧盟外交使命。"
+        }
+    ],
+    "departments": [
+        {
+            "name_zh": "政治、新闻与信息处（政治科）",
+            "name_en": "Political, Press and Information Section",
+            "name_ru": "Политический, пресс- и информационный отдел",
+            "description": "负责欧盟-吉尔吉斯共和国双边政治对话、人权对话、共同外交与安全政策（CFSP）沟通、媒体关系、新闻稿与官方社交媒体运营。组织年度政治对话与合作理事会。",
+            "head": None,
+            "source": "https://www.eeas.europa.eu/delegations/kyrgyz-republic_en"
+        },
+        {
+            "name_zh": "合作处（发展合作科）",
+            "name_en": "Cooperation Section (Development Cooperation)",
+            "name_ru": "Отдел сотрудничества (Сотрудничество в области развития)",
+            "description": "负责实施欧盟《2021-2027年多年度指示性方案》（MIP），三大重点领域：人力发展（教育与技能）、绿色与气候韧性经济、治理与数字化转型。2021-2024年期吉国国别拨款约6200万欧元。优先采用预算支持（budget support）模式。",
+            "head": None,
+            "source": "https://international-partnerships.ec.europa.eu/document/download/8c344d8b-fb06-47af-8e2c-e2c1c9b5b45d_en"
+        },
+        {
+            "name_zh": "贸易与经济处",
+            "name_en": "Trade and Economic Section",
+            "name_ru": "Торгово-экономический отдел",
+            "description": "负责欧盟-吉尔吉斯共和国贸易与经济事务，包括GSP+普惠制待遇监督、EPCA加强伙伴与合作协定经济条款执行、市场准入、海关与标准合作。2024年吉欧贸易额超过8.37亿美元。"
+        },
+        {
+            "name_zh": "运营与行政处",
+            "name_en": "Operations and Administration Section",
+            "name_ru": "Отдел операций и административного обеспечения",
+            "description": "负责代表团人事、财务、IT、安全、设施管理。代表团办公地点为比什凯克Erkindik大道21号Orion商务中心5楼。",
+            "head": None,
+            "source": "https://www.embassypages.com/europeanunion-delegation-bishkek-kyrgyzstan"
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2025-02-01",
+            "date_precision": "day",
+            "name_zh": "雷米·迪弗洛接任欧盟驻吉尔吉斯斯坦大使",
+            "name_en": "Rémi Duflot assumes office as new EU Ambassador to Kyrgyzstan",
+            "description": "吉尔吉斯副外长梅德尔·阿巴基罗夫（Meder Abakirov）接收新任欧盟代表团团长雷米·迪弗洛（Rémi Duflot）的国书副本，正式履新。迪弗洛接替2025年1月31日离任的玛丽莲·约瑟夫森（Marilyn Josefson）大使。",
+            "source": "https://24.kg/english/346955_New_Head_of_EU_Delegation_to_Kyrgyzstan_appointed/"
+        },
+        {
+            "date": "2024-06-25",
+            "date_precision": "day",
+            "name_zh": "欧盟与吉尔吉斯斯坦签署《加强伙伴与合作协定》（EPCA）",
+            "name_en": "EU and Kyrgyzstan sign Enhanced Partnership and Cooperation Agreement (EPCA)",
+            "description": "在布鲁塞尔签署新协定，将1999年PCA提升为EPCA，为双边关系提供新法律框架。该协定涵盖政治对话、贸易、经济、互联互通、关键原材料、绿色与数字转型等。吉尔吉斯斯坦成为继哈萨克斯坦之后第二个与欧盟签署EPCA的中亚国家。",
+            "source": "https://www.eeas.europa.eu/eeas/factsheet-enhanced-partnership-and-cooperation-agreement-between-eu-and-kyrgyz-republic_en"
+        },
+        {
+            "date": "2025-05-15",
+            "date_precision": "day",
+            "name_zh": "吉外长库鲁巴耶夫会见新任欧盟中亚事务特别代表斯蒂普赖斯",
+            "name_en": "Kyrgyz FM Kulubaev meets new EU Special Representative for Central Asia Stiprais",
+            "description": "吉国外长杰恩别克·库鲁巴耶夫（Jeenbek Kulubaev）与2025年3月1日履新的欧盟中亚事务特别代表爱德华兹·斯蒂普赖斯（Eduards Stiprais）会谈，讨论吉欧合作全方位议题。",
+            "source": "https://en.kabar.kg/news/kyrgyz-fm-meets-with-newly-appointed-eu-special-rep-for-central-asia/"
+        },
+        {
+            "date": "2024-12-09",
+            "date_precision": "day",
+            "name_zh": "经济部长西迪科夫会见迪弗洛大使讨论双边经济合作",
+            "name_en": "Economy Minister Sydykov meets Ambassador Duflot to discuss economic cooperation",
+            "description": "吉国经济与商业部长巴基特·西迪科夫（Bakyt Sydykov）与新任欧盟大使雷米·迪弗洛会晤，讨论双边经济合作现状与前景。西迪科夫披露：吉欧贸易额超过8.37亿美元。",
+            "source": "https://www.akchabar.kg/en/news/tovarooborot-kyrgyzstana-s-es-prevysil-837-mln--sydykov-obsudil-sotrudnichestvo-s-remi-dyuflo"
+        },
+        {
+            "date": "2024-10-21",
+            "date_precision": "day",
+            "name_zh": "大使约瑟夫森在中亚美国大学发表演讲",
+            "name_en": "Ambassador Josefson delivers Ambassador Talk at AUCA",
+            "description": "时任欧盟大使玛丽莲·约瑟夫森（Marylin Josefson）在中亚美国大学（AUCA）年度'大使访谈'（Ambassador Talks）系列活动中演讲，与国际与比较政治学系师生互动。",
+            "source": "https://auca.kg/en/auca_news/6404/"
+        },
+        {
+            "date": "2026-06-16",
+            "date_precision": "day",
+            "name_zh": "欧盟制裁培训研讨会在比什凯克举行",
+            "name_en": "EU Sanctions Training Workshops conducted in Bishkek",
+            "description": "欧盟代表团在比什凯克举办制裁培训研讨会，向吉方介绍欧盟制裁框架（包括针对俄罗斯的制裁）及合规要求，反映欧盟对中亚国家规避制裁问题的持续关注。",
+            "source": "https://www.eeas.europa.eu/delegations/kyrgyz-republic/eu-sanctions-training-workshops-conducted-bishkek_en?s=301"
+        },
+        {
+            "date": "2025-01-31",
+            "date_precision": "day",
+            "name_zh": "扎帕罗夫总统接见离任大使约瑟夫森",
+            "name_en": "President Zhaparov receives outgoing Ambassador Josefson",
+            "description": "吉国总统萨德尔·扎帕罗夫接见完成外交使命的欧盟大使玛丽莲·约瑟夫森。约瑟夫森感谢扎帕罗夫对深化吉欧合作所作个人贡献，强调在其领导下吉欧关系迈上新台阶。",
+            "source": "https://en.kabar.kg/news/sadyr-zhaparov-receives-head-of-eu-delegation-due-to-completion-of-her-diplomatic-mission/"
+        },
+        {
+            "date": "2021-12-14",
+            "date_precision": "day",
+            "name_zh": "欧盟通过新的《2021-2027年多年度指示性方案》（MIP）",
+            "name_en": "EU adopts new Multiannual Indicative Programme (MIP) for Kyrgyzstan 2021-2027",
+            "description": "欧盟委员会通过《全球欧洲》框架下的吉尔吉斯共和国MIP，2021-2024年国别拨款约6200万欧元，三大重点领域：人力发展、绿色与气候韧性经济、治理与数字化转型。",
+            "source": "https://www.eeas.europa.eu/delegations/kyrgyz-republic/european-union-sets-out-joint-priority-areas-cooperation-kyrgyz-republic_en?s=301"
+        }
+    ],
+    "related_entities": [
+        {
+            "name_zh": "欧洲联盟（EU）",
+            "name_en": "European Union (EU)",
+            "relationship_type": "parent",
+            "relationship_detail": "代表团代表欧盟在吉尔吉斯共和国的政治、经济与发展合作利益。欧盟本身为27个成员国组成的经济政治联盟，Wikidata Q458。代表团是其在比什凯克的外交使团。",
+            "source": "https://www.wikidata.org/wiki/Q458"
+        },
+        {
+            "name_zh": "欧洲外部行动署（EEAS）",
+            "name_en": "European External Action Service (EEAS)",
+            "relationship_type": "parent_administration",
+            "relationship_detail": "代表团为EEAS所属的约140个欧盟海外代表团（Delegation/EU Embassy）之一。EEAS是欧盟外交事务机构，由高级代表卡娅·卡拉斯（Kaja Kallas）领导，布鲁塞尔总部协调。",
+            "source": "https://www.eeas.europa.eu/eeas_en"
+        },
+        {
+            "name_zh": "欧盟委员会（国际伙伴关系总司DG INTPA）",
+            "name_en": "European Commission - DG INTPA (International Partnerships)",
+            "relationship_type": "funding_partner",
+            "relationship_detail": "DG INTPA（前DEVCO）负责欧盟对吉尔吉斯共和国的发展合作资金与项目设计，《2021-2027年MIP》由其与EEAS共同制定。代表团负责项目国别执行。",
+            "source": "https://international-partnerships.ec.europa.eu/"
+        },
+        {
+            "name_zh": "欧盟成员国驻吉使馆",
+            "name_en": "Embassies of EU Member States in Bishkek",
+            "relationship_type": "coordinating_partners",
+            "relationship_detail": "欧盟27个成员国中在比什凯克设有大使馆者（包括法国、德国、英国脱欧前等）与代表团协调欧盟整体立场，组织联合活动。代表团承担协调牵头（local Presidency）职能。"
+        },
+        {
+            "name_zh": "欧盟中亚事务特别代表（EUSR）",
+            "name_en": "EU Special Representative (EUSR) for Central Asia",
+            "relationship_type": "sister_office",
+            "relationship_detail": "现任特别代表爱德华兹·斯蒂普赖斯（Eduards Stiprais）于2025年3月1日履新，接替Terhi Hakala。代表团与其在中亚区域政策协调上紧密合作。"
+        },
+        {
+            "name_zh": "吉尔吉斯共和国政府",
+            "name_en": "Government of the Kyrgyz Republic",
+            "relationship_type": "host_government_partner",
+            "relationship_detail": "代表团与吉国外交部、总统府、内阁、经济部等保持全面对话，组织年度合作理事会（Cooperation Council）和外长级政治对话。"
+        },
+        {
+            "name_zh": "欧盟在中亚其他代表团",
+            "name_en": "Other EU Delegations in Central Asia",
+            "relationship_type": "regional_peer_delegations",
+            "relationship_detail": "与欧盟驻哈萨克斯坦、乌兹别克斯坦、塔吉克斯坦、土库曼斯坦代表团协同推进欧盟中亚战略（2019年更新版、2024年加强版）。"
+        }
+    ],
+    "core_business": {
+        "summary": "欧盟驻吉尔吉斯共和国代表团（Делегация Европейского Союза в Кыргызской Республике）是欧盟在吉尔吉斯斯坦的官方外交使团，隶属欧洲外部行动署（EEAS），代表欧盟共同外交与安全政策（CFSP）、对外贸易与发展合作利益。代表团自2008年起在比什凯克设立常驻外交使团（其前身欧洲委员会办公室更早），负责监督《伙伴关系与合作协定》（PCA）执行，2024年6月25日签署《加强伙伴与合作协定》（EPCA）后将承担新协定执行枢纽职能。",
+        "key_activities": [
+            "代表欧盟与吉国政府开展双边政治对话（年度合作理事会、人权对话）",
+            "执行欧盟《2021-2027年多年度指示性方案》（MIP），三大重点：人力发展、绿色与气候韧性经济、治理与数字化转型",
+            "监督GSP+普惠制待遇合规与贸易便利化",
+            "推进《加强伙伴与合作协定》（EPCA，2024年签署）的批准与执行",
+            "执行欧盟共同外交与安全政策（CFSP），包括制裁合规培训",
+            "支持公民社会、人权、法治与媒体自由倡议",
+            "推动绿色转型、数字转型、关键原材料合作（Global Gateway）",
+            "推进Erasmus+等教育交流与人文联系",
+            "组织欧洲日（Europe Day, 5月9日）等公共外交活动",
+            "协调欧盟成员国驻吉使馆与欧盟中亚事务特别代表"
+        ],
+        "beneficiaries": "欧盟MIP 2021-2024对吉国拨款约6200万欧元（其中2021-2024国别部分）；区域层面2021-2027中亚MIP另含哈萨克斯坦、乌兹别克斯坦、塔吉克斯坦、土库曼斯坦。2024年吉欧双边贸易额超过8.37亿美元。",
+        "geographic_focus": "吉尔吉斯共和国全境，总部位于比什凯克Erkindik大道21号Orion商务中心5楼。通过项目在奥什、贾拉拉巴德、巴特肯、纳伦等全国各州开展活动。"
+    },
+    "industries": [
+        "international_organization",
+        "diplomatic_mission",
+        "international_development"
+    ],
+    "apec_stance": {
+        "member_role": "非APEC成员（欧盟与吉尔吉斯斯坦均非APEC经济体；欧盟为APEC观察员/嘉宾参与方）",
+        "engagement_level": "无直接APEC参与。代表团关注中亚区域合作，与APEC部分成员（如通过欧盟与日本、韩国、加拿大、澳大利亚等的双边协调）在发展合作领域有间接交集。",
+        "key_positions": [
+            "推动欧盟中亚战略（2019/2024更新版）落地",
+            "支持吉国绿色与数字双重转型（Global Gateway）",
+            "倡导人权、民主、法治与公民社会",
+            "推动EPCA经济与监管一体化",
+            "关注中亚关键原材料与能源安全"
+        ],
+        "trade_relations": "代表团监督欧盟-吉尔吉斯共和国贸易关系。吉国享受欧盟GSP+（普惠制加）优惠关税待遇，条件是遵守27项国际公约（含人权、劳工、环境、治理）。2024年双边贸易额超过8.37亿美元。EPCA签署后贸易投资合作预计深化。"
+    },
+    "profile": {
+        "mission": "代表团代表欧盟与27个成员国在吉尔吉斯共和国的整体利益，推动基于共同价值观（民主、人权、法治、可持续发展）的双边伙伴关系，通过政治对话、发展合作、贸易便利化与人文学术交流，支持吉国自主发展道路。代表团为欧盟与吉国政府、公民社会、国际伙伴之间的桥梁。",
+        "history": "欧盟与吉尔吉斯共和国自1991年吉国独立起即为伙伴。1999年签署《伙伴关系与合作协定》（PCA），2009年正式生效。2008年欧盟在比什凯克设立常驻代表团，由欧洲委员会办公室过渡为EEAS框架下的全面外交代表团。2009年《里斯本条约》后代表团获得完整外交地位。2019年双方就新EPCA完成谈判草签，2024年6月25日正式签署EPCA。2021-2027年通过MIP拨付6200万欧元+区域资金支持吉国三大重点领域。现任大使雷米·迪弗洛（Rémi Duflot，2025年2月履新），前任玛丽莲·约瑟夫森（Marilyn Josefson，2021-2025）。",
+        "operating_model": "代表团由EEAS与欧盟委员会国际伙伴关系总司（DG INTPA）共同管理，下设政治新闻信息处、合作处、贸易经济处、运营行政处。办公地点为比什凯克Erkindik大道21号Orion商务中心5楼。预算优先采用预算支持（budget support）模式向吉国政府直接拨付。同时资助公民社会与国际组织（如UNDP、World Bank）实施项目。在欧盟共同外交与安全政策（CFSP）领域与布鲁塞尔EEAS总部、欧盟中亚事务特别代表紧密协调。",
+        "distinctive_features": [
+            "欧盟在中亚5国代表团之一，区域政策协调枢纽",
+            "执行欧盟《全球门户》（Global Gateway）基础设施与互联互通战略",
+            "管理GSP+贸易优惠安排合规监督",
+            "推动EPCA新一代协定，含关键原材料与绿色转型条款",
+            "面向公民社会、媒体、青年的公开外交活动丰富",
+            "代表整个欧盟（而非单一成员国）在比什凯克的外交利益"
+        ],
+        "challenges": "俄罗斯与中国在吉国的传统影响力较强；2022年以来对俄制裁合规与吉国规避风险；吉国2021-2023年对NGO'外国代理人'立法引发的公民社会空间收缩；GSP+合规与人权状况的持续对话；中亚水资源、能源、边界争端等区域议题；阿富汗安全外溢风险。"
+    },
+    "collection_meta": {
+        "collected_date": "2026-07-06",
+        "collector": "Claude Code (KG enrichment agent)",
+        "phase": "phase3_enriched",
+        "sources": [
+            "https://www.eeas.europa.eu/delegations/kyrgyz-republic_en",
+            "https://www.eeas.europa.eu/kyrgyz-republic/about-ambassador_en",
+            "https://www.wikidata.org/wiki/Q61931936",
+            "https://www.embassypages.com/europeanunion-delegation-bishkek-kyrgyzstan",
+            "https://www.eeas.europa.eu/eeas/factsheet-enhanced-partnership-and-cooperation-agreement-between-eu-and-kyrgyz-republic_en",
+            "https://international-partnerships.ec.europa.eu/document/download/8c344d8b-fb06-47af-8e2c-e2c1c9b5b45d_en",
+            "https://www.eeas.europa.eu/kyrgyz-republic/european-union-sets-out-joint-priority-areas-cooperation-kyrgyz-republic_en?s=301",
+            "https://24.kg/english/346955_New_Head_of_EU_Delegation_to_Kyrgyzstan_appointed/",
+            "https://en.kabar.kg/news/sadyr-zhaparov-receives-head-of-eu-delegation-due-to-completion-of-her-diplomatic-mission/",
+            "https://en.kabar.kg/news/kyrgyz-fm-receives-head-of-delegation-of-eu-due-to-completion-of-diplomatic-mission/",
+            "https://en.kabar.kg/news/kyrgyz-fm-meets-with-newly-appointed-eu-special-rep-for-central-asia/",
+            "https://www.trend.az/business/4103230.html",
+            "https://auca.kg/en/auca_news/6404/",
+            "https://www.akchabar.kg/en/news/tovarooborot-kyrgyzstana-s-es-prevysil-837-mln--sydykov-obsudil-sotrudnichestvo-s-remi-dyuflo",
+            "https://www.eeas.europa.eu/delegations/kyrgyz-republic/eu-sanctions-training-workshops-conducted-bishkek_en?s=301",
+            "https://en.wikipedia.org/wiki/Eduards_Stiprais",
+            "https://www.newscentralasia.net/2025/02/25/new-eu-special-representative-for-central-asia-appointed/",
+            "https://www.usubc.org/bio/remi-duflot/",
+            "https://thediplomat.com/2024/06/kyrgyzstan-eu-sign-enhanced-partnership-and-cooperation-agreement/",
+            "https://commission.europa.eu/about-european-commission/organisation-european-commission/college-commissioners/kaja-kallas_en",
+            "https://www.eeas.europa.eu/kyrgyz-republic/eu-projects-kyrgyz-republic_en?s=301"
+        ],
+        "quotes": [
+            {
+                "title": "Over many years we, the European Union and Kyrgyzstan and its people have built a strong and trustful partnership. Today, our cooperation is broader and more dynamic than ever; it has huge potential.",
+                "url": "https://www.eeas.europa.eu/kyrgyz-republic/about-ambassador_en",
+                "author": "H.E. Rémi Duflot, EU Ambassador to the Kyrgyz Republic (2025-)"
+            },
+            {
+                "title": "The Enhanced Partnership and Cooperation Agreement will create opportunities for cooperation in new areas, such as critical raw materials essential for green and digital transitions.",
+                "url": "https://interfax.com/newsroom/top-stories/103725/",
+                "author": "European Commission statement on EPCA signing, 25 June 2024"
+            }
+        ],
+        "completeness_score": 88,
+        "completeness_notes": "Wikidata QID Q61931936已验证（Bishkek delegation）。country_iso3修正为KGZ。所有必需字段已填写：basic_info（含founded_date 2008、website、aliases）、5个social_accounts、7项digital_assets、4位key_people（含2025年现任大使Rémi Duflot与EU Special Rep Eduards Stiprais）、4个departments、8项recent_events（含2024年EPCA签署、2025年大使交接、GSP+/制裁培训）、7项related_entities（含EU Q458、EEAS、DG INTPA、EU member states、EUSR）、完整core_business、industries严格遵循3项指定类别、apec_stance、profile。现任大使：Rémi Duflot（雷米·迪弗洛，自2025年2月履新）。"
+    }
+}
+
+
+def main():
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    # Atomic write: write to temp then rename
+    tmp_path = OUT_PATH + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_path, OUT_PATH)
+    print(f"Wrote {OUT_PATH}")
+    # Verify
+    with open(OUT_PATH, "r", encoding="utf-8") as f:
+        loaded = json.load(f)
+    print(f"Verified: org_id={loaded['org_id']}, "
+          f"country_iso3={loaded['basic_info']['country_iso3']}, "
+          f"QID={loaded['basic_info']['wikidata_qid']}, "
+          f"score={loaded['collection_meta']['completeness_score']}")
+    # Print cyrillic sanity check
+    print("Cyrillic sanity:", loaded['basic_info']['name_zh'][:50])
+
+
+if __name__ == "__main__":
+    main()

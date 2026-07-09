@@ -310,10 +310,10 @@ def resolve_key_people(orgs_dir, registry_data, cache_dir, country_iso):
             continue
         data = load_json(fpath)
         for i, kp in enumerate(data.get("key_people", [])):
-            name = kp.get("name", "")
+            name = kp.get("name") or ""
             pid = kp.get("person_id")
             # QID placeholder: name starts with Q followed by digits
-            if name.startswith("Q") and len(name) > 1 and name[1:].isdigit():
+            if isinstance(name, str) and name.startswith("Q") and len(name) > 1 and name[1:].isdigit():
                 qid = name
                 if qid not in qid_occurrences:
                     qid_occurrences[qid] = []
@@ -476,7 +476,8 @@ def generate_profile(org, cache_data, registry, target_qids_map, next_ids, count
     name_en = get_wd_label(wd, "en") if wd else org.get("name_en") or org.get("name", "")
     name_zh = (get_wd_label(wd, "zh") or get_wd_label(wd, "zh-hans")) if wd else None
     name_zh = name_zh or org.get("name_zh")
-    name_original = org.get("name_original") or name_en
+    local_lang = {"JP": "ja", "KR": "ko", "VN": "vi", "TH": "th", "MY": "ms"}.get(country_iso)
+    name_original = (get_wd_label(wd, local_lang) if wd and local_lang else None) or org.get("name_original") or name_en
     aliases = get_wd_aliases(wd, "en") if wd else []
     website = get_wd_string_value(wd, "P856") if wd else None
     founded = get_wd_time_value(wd, "P571") if wd else None
@@ -517,6 +518,7 @@ def generate_profile(org, cache_data, registry, target_qids_map, next_ids, count
     if website: data_sources.append("official_website")
     if not data_sources: data_sources = ["web_search"]
 
+    qid = org.get("qid") or org.get("wikidata_qid")
     profile_data = {
         "org_id": org_id,
         "basic_info": {
@@ -530,6 +532,7 @@ def generate_profile(org, cache_data, registry, target_qids_map, next_ids, count
             "hq_country_iso3": country_iso3,
             "founded_date": founded,
             "website": website,
+            "wikidata_qid": qid,
         },
         "social_accounts": social,
         "digital_assets": [],
@@ -642,7 +645,7 @@ def main():
         if not existing_id:
             reg_entry = {
                 "org_id": org_id,
-                "name": f"{org.get('name_zh', '')} ({name_en})",
+                "name": f"{profile['basic_info'].get('name_zh', '') or profile['basic_info'].get('name_original', '')} ({name_en})",
                 "org_type": category,
                 "org_subtype": org.get("org_subtype"),
                 "wikidata_qid": qid,
