@@ -1,0 +1,65 @@
+{
+  "phase": "P5_validation",
+  "started_at": "2026-07-06T00:00:00",
+  "last_updated": "2026-07-06T09:00:00",
+  "status": "complete",
+  "pipeline": [
+    "validate_schema.py --fix (smart quotes auto-fix)",
+    "validate_schema.py --normalize (date/field normalization)",
+    "validate_schema.py --score (canonical completeness score)",
+    "validate_schema.py --cross-ref (org/person ID cross-references)",
+    "generate_index.py (orgs/persons _index.json)"
+  ],
+  "schema_errors": 0,
+  "cross_ref_errors": 0,
+  "warnings": 1771,
+  "orgs": {
+    "total": 113,
+    "avg_score": 90.42,
+    "min": 64,
+    "max": 100,
+    "count_by_type": {
+      "ACAD": 22,
+      "CORP": 8,
+      "FIN": 17,
+      "GOV": 19,
+      "INTL": 5,
+      "MEDIA": 10,
+      "MIL": 3,
+      "NGO": 5,
+      "PARTY": 16,
+      "SOE": 8
+    },
+    "count_ge_80": 106
+  },
+  "persons": {
+    "total": 143,
+    "avg_score": 55.97,
+    "min": 21,
+    "max": 90,
+    "count_ge_70": 19,
+    "count_ge_80": 7,
+    "score_buckets": {
+      "<30": 6,
+      "30-49": 40,
+      "50-69": 78,
+      "70-79": 12,
+      "80-89": 6,
+      "90-100": 1
+    },
+    "skipped_placeholders": [
+      {
+        "person_id": "KG-PERSON-000349",
+        "reason": "key_people entry had no actual name - literally '第一副部长 (First Deputy Minister)' placeholder"
+      }
+    ]
+  },
+  "notes": [
+    "Original sub-agent self-assessed scores (avg 73.81) replaced with canonical validator scores (avg 55.97) using stricter schema-based formula.",
+    "All schema_errors fixed via fix_kg_schema.py + fix_kg_orgs2.py + fix_kg_persons.py + migrate_kg_persons.py",
+    "id_registry.json rebuilt to add 21 missing org entries (was 93, now 114 - one stale entry KG-GOV-018 retained)",
+    "KG-PERSON-000015 Sultan Barikov (score 21) confirmed phantom entry from fabricated Wikidata QID Q133461846",
+    "256 unprofiled-person warnings (key_people referencing IDs in registry but no profile file) - non-blocking",
+    "1771 mostly-cosmetic warnings (empty person_name, dept_id, organization fields in some nested entries)"
+  ]
+}

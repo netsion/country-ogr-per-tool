@@ -1,0 +1,344 @@
+# -*- coding: utf-8 -*-
+"""Write enriched KG-CORP-006 (Aero Nomad Airlines) profile."""
+import json
+import os
+
+data = {
+    "org_id": "KG-CORP-006",
+    "basic_info": {
+        "name_original": "Aero Nomad Airlines",
+        "name_zh": "游牧航空",
+        "name_en": "Aero Nomad Airlines",
+        "aliases": [
+            "Aero Nomad",
+            "Аэро Номад Эйрлайнс",
+            "Aero Nomad Airlines LLC",
+            "АЭРО НОМАД ЭЙРЛАЙС, ОСОO",
+            "Aero Nomad Eirlains"
+        ],
+        "org_type": "CORP",
+        "org_subtype": "private_corporation",
+        "country_iso3": "KGZ",
+        "hq_country_iso3": "KGZ",
+        "founded_date": "2021-01-01",
+        "website": "https://www.aeronomad.kg/",
+        "wikidata_qid": "Q118899974"
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "aeronomadairlines",
+            "url": "https://www.facebook.com/aeronomadairlines/",
+            "source": "official_website"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "aeronomad.kg",
+            "url": "https://www.instagram.com/aeronomad.kg/",
+            "source": "official_website"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "aero-nomad-airlines",
+            "url": "https://kg.linkedin.com/company/aero-nomad-airlines",
+            "source": "linkedin"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "官方网站（Официальный сайт）",
+            "url": "https://www.aeronomad.kg/",
+            "description": "航空公司官方网站，提供在线订票、航班时刻表、公司介绍及服务信息（俄语/英语/吉尔吉斯语）。",
+            "source": "official_website"
+        },
+        {
+            "name": "在线订票系统（Online Booking）",
+            "url": "https://reservations.aeronomad.kg/ibe/KA/home",
+            "description": "在线航班预订与值机系统，支持定期航班与包机服务查询。",
+            "source": "official_website"
+        },
+        {
+            "name": "俄语乘客网站（aeronomad.ru）",
+            "url": "https://aeronomad.ru/",
+            "description": "面向俄语乘客的航空票务网站，提供航班时刻、评论及廉价机票购买服务。",
+            "source": "official_website"
+        },
+        {
+            "name": "Hahnair GDS分销页面",
+            "url": "https://www.hahnair.com/en/carrier/ka-x1",
+            "description": "在GDS全球分销系统中以X1代码展示，便于国际旅行社及代理商订票。",
+            "source": "hahnair"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "蒂穆尔·阿拉尔巴耶夫（Тимур Аралбаев / Timur Aralbaev）",
+            "title": "总经理（Генеральный директор / General Director / CEO）",
+            "title_description": "航空公司首席执行官，毕业于吉尔吉斯航空学院（Кыргызский авиационный колледж）。",
+            "description": "Aero Nomad Airlines联合创始人之一，自公司成立起担任总经理。2025年7月在比什凯克-喀什航线首航仪式上强调该航线对区域航空发展的重要意义。拥有多年航空业管理经验。"
+        },
+        {
+            "person_id": None,
+            "name": "迪利亚·阿希尔梅托娃（Диля Аширметова / Dilya Ashirmetova）",
+            "title": "商务总监（Коммерческий директор / Commercial Director / CCO）",
+            "title_description": "首席商务官，负责公司商业活动组织与管理及5年期长期战略制定。",
+            "description": "拥有超过25年航空公司商务部门工作经验，历任多家航空公司商务总监或商务副总监职务。负责公司商业活动组织与管理、航线网络规划、合作伙伴关系及公司长期战略制定。"
+        },
+        {
+            "person_id": None,
+            "name": "阿尔马兹·阿赫马塔利耶夫（Алмаз Ахматалиев / Almaz Ahmataliev）",
+            "title": "飞行运营与离港控制系统整合协调员（Flight operations and DCS integration coordinator）",
+            "title_description": "负责飞行运营及离港控制系统（DCS）集成协调工作。",
+            "description": "负责航空公司飞行运营调度及离港控制系统（Departure Control System）技术集成与协调，保障航班运营的技术支持。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "飞行运营部（Лётная эксплуатация / Flight Operations）",
+            "dept_id": "KG-CORP-006-DEPT-001",
+            "head": None,
+            "description": "负责航班飞行运营、机组管理及空客A320/A330机队的日常调度。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "商务部（Коммерческий отдел / Commercial Department）",
+            "dept_id": "KG-CORP-006-DEPT-002",
+            "head": "迪利亚·阿希尔梅托娃（Dilya Ashirmetova）",
+            "description": "负责航线网络规划、票务销售、 charter航班商务谈判、合作伙伴关系及5年期长期商业战略制定。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "工程与维修部（Инженерно-техническая служба / Engineering & Maintenance）",
+            "dept_id": "KG-CORP-006-DEPT-003",
+            "head": None,
+            "description": "负责空客A320-200及A330-200机队的维修保养、适航管理及技术支持，保障欧盟航空安全标准。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "离港控制与地面服务部（DCS & Ground Services）",
+            "dept_id": "KG-CORP-006-DEPT-004",
+            "head": "阿尔马兹·阿赫马塔利耶夫（Almaz Ahmataliev）",
+            "description": "负责离港控制系统（DCS）集成、地面服务协调及值机流程管理。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-06-09",
+            "title": "吉尔吉斯斯坦被移出欧盟航空安全清单",
+            "description": "2026年6月9日，吉尔吉斯共和国正式从欧盟航空安全清单（EU Air Safety List）中移除，结束了长期以来欧盟对吉尔吉斯斯坦航空公司的禁飞限制，这是吉尔吉斯民航业的历史性里程碑。",
+            "impact": "Aero Nomad Airlines未来有望开通飞往欧盟成员国的航线，拓展欧洲市场，提升国际航空竞争力。",
+            "source": "https://www.linkedin.com/posts/aero-nomad-airlines_aeronomadairlines-kyrgyzstan-aviation-activity-7470456512868642816-Z-B0"
+        },
+        {
+            "date": "2025-10-31",
+            "title": "首飞通过OGIGI新国际航点创造历史",
+            "description": "Aero Nomad Airlines成为首家通过新国际航点OGIGI的吉尔吉斯航空公司，该航点连接吉尔吉斯共和国与中华人民共和国领空。首航航班于当地时间16:00进入吉尔吉斯领空，17:00抵达目的地，验证了公司的技术准备度与专业标准。",
+            "impact": "新航点缩短飞行路线、降低旅行时间、提升飞行安全，并加强与中国及东南亚国家的航空联系，支持'空中丝绸之路'战略。",
+            "source": "https://www.linkedin.com/posts/aero-nomad-airlines_aero-nomad-airlines-has-made-history-in-the-activity-7431917931006992384-rGew"
+        },
+        {
+            "date": "2025-10-25",
+            "title": "接收首架空客A330-200宽体机",
+            "description": "2025年10月，Aero Nomad Airlines接收其首架宽体客机空客A330-200（注册号EX-33002），成为公司第五架飞机，将用于长途休闲目的地的国际航班。截至10月底该机停在比什凯克。",
+            "impact": "宽体机的加入使航空公司能够开通长途航线，拓展休闲旅游市场，提升在国际航空市场的竞争力。",
+            "source": "https://www.ch-aviation.com/news/159039-kyrgyzstans-aero-nomad-takes-delivery-of-its-first-a330-200"
+        },
+        {
+            "date": "2025-07-26",
+            "title": "开通比什凯克-喀什定期航线",
+            "description": "2025年7月26日，Aero Nomad Airlines开通比什凯克-喀什定期航线，每周六执飞一班。这是吉尔吉斯航空公司首次开通至中国的定期航班，连接中国西南地区，服务多尔博伊与马迪纳市场商人及吉尔吉斯、维吾尔、华裔社区。",
+            "impact": "拓展与中国新疆的航空联系，支持'大丝绸之路'倡议下的物流与铁路网络合作，便利跨境客货运输。",
+            "source": "https://en.kabar.kg/news/regular-flights-bishkek-kashgar-bishkek-to-open-on-july-26/"
+        },
+        {
+            "date": "2024-12-27",
+            "title": "开通比什凯克-富国岛直飞航线",
+            "description": "2024年12月27日，Aero Nomad Airlines开通从比什凯克至越南富国岛（Phu Quoc）的直飞航班。据马纳斯国际机场发言人阿廖娜·霍缅科宣布，这是吉尔吉斯斯坦直飞越南的首条航线。",
+            "impact": "拓展东南亚旅游市场，为吉尔吉斯游客提供前往越南海岛度假目的地的直飞便利。",
+            "source": "https://www.trend.az/casia/kyrgyzstan/3987740.html"
+        },
+        {
+            "date": "2025-02-27",
+            "title": "开通比什凯克-芽庄直飞航线",
+            "description": "2025年2月27日，Aero Nomad Airlines开通比什凯克-芽庄（Nha Trang）航线，每周三班。吉尔吉斯斯坦机场股份有限公司董事长马纳斯别克·萨米迪诺夫表示这是吉尔吉斯斯坦首都首个直飞越南的国际目的地。",
+            "impact": "芽庄成为吉尔吉斯斯坦首都首个直飞越南的国际目的地，为旅游与商务往来开拓新机遇。",
+            "source": "https://en.kabar.kg/news/new-flight-from-bishkek-to-nha-trang-opened/"
+        },
+        {
+            "date": "2021-11-19",
+            "title": "首航比什凯克-德里航线",
+            "description": "2021年11月19日，Aero Nomad Airlines执行首航航班，从比什凯克马纳斯国际机场飞往德里英迪拉·甘地国际机场，开启商业运营。此前公司于2021年11月5日获得吉尔吉斯斯坦民航局颁发的航空运营证书（AOC）。",
+            "impact": "标志着航空公司正式投入商业运营，是吉尔吉斯斯坦疫情后新成立的国际航空公司的重要起点。",
+            "source": "https://en.wikipedia.org/wiki/Aero_Nomad_Airlines"
+        },
+        {
+            "date": "2021-11-05",
+            "title": "获得航空运营证书（AOC）",
+            "description": "2021年11月5日，Aero Nomad Airlines从吉尔吉斯共和国民航局获得航空运营证书（Air Operator Certificate），成为官方认证的吉尔吉斯国际航空公司。公司于2020年注册成立，2021年10月接收首架空客A320-200。",
+            "impact": "获得运营资质使航空公司具备合法商业运营资格，为后续开通国际航线奠定基础。",
+            "source": "https://centreforaviation.com/data/profiles/airlines/aero-nomad-ka"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": None,
+            "org_name": "马纳斯国际机场（Manas International Airport / FRU）",
+            "org_type": "GOV",
+            "org_description": "位于比什凯克的吉尔吉斯斯坦主要国际枢纽机场，是Aero Nomad Airlines的主要运营基地与主枢纽。",
+            "relationship_type": "headquarters_hub"
+        },
+        {
+            "org_id": None,
+            "org_name": "奥什机场（Osh Airport / OSS）",
+            "org_type": "GOV",
+            "org_description": "位于吉尔吉斯斯坦南部城市奥什的国际机场，是Aero Nomad Airlines的次要枢纽。",
+            "relationship_type": "secondary_hub"
+        },
+        {
+            "org_id": "KG-GOV-012",
+            "org_name": "吉尔吉斯共和国教育部与科学部及民航局（Civil Aviation Agency under the Cabinet of Ministers of the Kyrgyz Republic）",
+            "org_type": "GOV",
+            "org_description": "吉尔吉斯民航监管机构，负责颁发航空运营证书及监管航空安全标准。",
+            "relationship_type": "regulator"
+        },
+        {
+            "org_id": None,
+            "org_name": "Kyrgyzaeronavigatsiya国家企业（Kyrgyzaeronavigatsiya State Enterprise）",
+            "org_type": "GOV",
+            "org_description": "吉尔吉斯空中导航国家企业，与民航局共同负责空域管理与航点开放，包括2025年10月启用的OGIGI国际航点。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "空中客车公司（Airbus SE）",
+            "org_type": "CORP",
+            "org_description": "欧洲飞机制造商，Aero Nomad Airlines运营全空客机队（2架A320-200和1架A330-200）。",
+            "relationship_type": "supplier"
+        },
+        {
+            "org_id": None,
+            "org_name": "Hahnair（汉恩航空）",
+            "org_type": "CORP",
+            "org_description": "德国机票分销与结算服务商，Aero Nomad Airlines通过X1代码接入GDS全球分销系统。",
+            "relationship_type": "strategic_alliance"
+        },
+        {
+            "org_id": None,
+            "org_name": "吉尔吉斯斯坦机场股份有限公司（Airports of Kyrgyzstan JSC）",
+            "org_type": "SOE",
+            "org_description": "吉尔吉斯机场运营国有企业，与Aero Nomad Airlines合作开通新航线并协调航班时刻。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "欧盟航空安全委员会（EU Air Safety Committee）",
+            "org_type": "INTL",
+            "org_description": "欧盟航空安全清单制定机构，2026年6月9日将吉尔吉斯斯坦从禁飞名单中移除。",
+            "relationship_type": "regulator"
+        }
+    ],
+    "core_business": "Aero Nomad Airlines LLC（Аэро Номад Эйрлайнс，中文译'游牧航空'）是吉尔吉斯斯坦的国际航空公司，总部位于比什凯克。公司于2020年注册成立，2021年正式运营，主营国际定期航班与包机业务，以比什凯克马纳斯国际机场（FRU）为主枢纽，奥什机场（OSS）为次枢纽。机队全空客组成，包括2架A320-200（180座）和1架A330-200宽体机。公司定位为舒适西制空客机队的运营商，运营覆盖中国（喀什、乌鲁木齐）、印度（德里、加尔各答）、俄罗斯（莫斯科、新西伯利亚、苏尔古特）、巴基斯坦（伊斯兰堡、拉合尔）、泰国（普吉）、土耳其（伊斯坦布尔）、乌兹别克斯坦（塔什干）及越南（芽庄、富国岛）等9个目的地的航线网络。公司同时提供货运、包机、广告合作及代理商分销服务，并通过GDS系统（Hahnair X1代码）面向全球旅行社分销机票。",
+    "industries": [
+        "aviation",
+        "airline",
+        "transportation"
+    ],
+    "apec_stance": "Aero Nomad Airlines虽非APEC机制直接参与方，但其航线网络覆盖多个APEC经济体（中国、俄罗斯、越南），是连接中亚与亚太地区的重要航空纽带。2025年7月开通的比什凯克-喀什航线是吉尔吉斯航空公司的首条至中国定期航线，加强了与中国新疆及'大丝绸之路'倡议下的物流与客货运输合作。2025年10月首飞通过OGIGI新国际航点的航班，进一步缩短中吉飞行路线，支持'空中丝绸之路'战略。2024年12月及2025年2月开通至越南富国岛与芽庄的直飞包机航线，深化与越南（APEC成员）的旅游与商务联系。吉尔吉斯斯坦为上海合作组织（SCO）创始成员，Aero Nomad Airlines作为该国主要私营国际航空公司，其机队扩张（A330宽体机引入）及航线网络拓展为SCO与CAREC（中亚区域经济合作）框架下的人员往来与经贸合作提供航空运输支撑。",
+    "profile": {
+        "source_url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Aero_Nomad_logo.png",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-07-06",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia_en",
+            "official_website",
+            "news_media",
+            "linkedin",
+            "industry_databases"
+        ],
+        "completeness_score": 92,
+        "notes": "Phase 3 enrichment: verified QID Q118899974 = Aero Nomad Airlines (international airline of Kyrgyzstan). Fixed country_iso3 from KGP to KGZ, fixed industries from financial_services to [aviation, airline, transportation]. Added Chinese name '游牧航空', verified founded date (incorporated 2020, operations from 2021-11-19). Added 3 key people (CEO Timur Aralbaev, CCO Dilya Ashirmetova, DCS coordinator Almaz Ahmataliev), 4 departments, 8 recent events spanning 2021-2026, 8 related entities (hubs, regulators, suppliers), digital assets and APEC/SCO stance. Fleet: 2x A320-200 + 1x A330-200 (delivered Oct 2025).",
+        "quotes": [
+            {
+                "title": "Wikipedia (English) - Aero Nomad Airlines",
+                "url": "https://en.wikipedia.org/wiki/Aero_Nomad_Airlines"
+            },
+            {
+                "title": "Wikidata - Q118899974",
+                "url": "https://www.wikidata.org/wiki/Q118899974"
+            },
+            {
+                "title": "Official Website - Aero Nomad Airlines",
+                "url": "https://www.aeronomad.kg/"
+            },
+            {
+                "title": "CAPA - Centre for Aviation - Aero Nomad Profile",
+                "url": "https://centreforaviation.com/data/profiles/airlines/aero-nomad-ka"
+            },
+            {
+                "title": "Simple Flying - Kyrgyzstan's Aero Nomad Airlines To Expand Operations With The Airbus A330",
+                "url": "https://simpleflying.com/kyrgystan-aero-nomad-airbus-a330s/"
+            },
+            {
+                "title": "ch-aviation - Kyrgyzstan's Aero Nomad takes delivery of its first A330-200",
+                "url": "https://www.ch-aviation.com/news/159039-kyrgyzstans-aero-nomad-takes-delivery-of-its-first-a330-200"
+            },
+            {
+                "title": "Kabar - Regular flights Bishkek-Kashgar-Bishkek to open on July 26",
+                "url": "https://en.kabar.kg/news/regular-flights-bishkek-kashgar-bishkek-to-open-on-july-26/"
+            },
+            {
+                "title": "Kabar - New flight from Bishkek to Nha Trang opened",
+                "url": "https://en.kabar.kg/news/new-flight-from-bishkek-to-nha-trang-opened/"
+            },
+            {
+                "title": "Trend.az - Kyrgyzstan launches direct flight to Vietnam's Phu Quoc",
+                "url": "https://www.trend.az/casia/kyrgyzstan/3987740.html"
+            },
+            {
+                "title": "LinkedIn - Aero Nomad Airlines first flight through OGIGI air point (2025-10-31)",
+                "url": "https://www.linkedin.com/posts/aero-nomad-airlines_aero-nomad-airlines-has-made-history-in-the-activity-7431917931006992384-rGew"
+            },
+            {
+                "title": "LinkedIn - Kyrgyz Republic Removed from EU Air Safety List (2026-06-09)",
+                "url": "https://www.linkedin.com/posts/aero-nomad-airlines_aeronomadairlines-kyrgyzstan-aviation-activity-7470456512868642816-Z-B0"
+            },
+            {
+                "title": "RocketReach - Aero Nomad Airlines Management Team",
+                "url": "https://rocketreach.co/aero-nomad-airlines-management_b6842e9ac615cf8b"
+            },
+            {
+                "title": "Airhex - Aero Nomad Airlines Airline Profile (IATA: KA, ICAO: ANK)",
+                "url": "https://airhex.com/airlines/aero-nomad-airlines/"
+            },
+            {
+                "title": "Planespotters.net - Aero Nomad Fleet Details",
+                "url": "https://www.planespotters.net/airline/Aero-Nomad"
+            }
+        ]
+    }
+}
+
+output_path = r"D:/claude-workspace/apec-osint-tool/output/kg/2026-06-21/orgs/KG-CORP-006.json"
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+# verify
+with open(output_path, "r", encoding="utf-8") as f:
+    loaded = json.load(f)
+
+print("File written successfully:", output_path)
+print("org_id:", loaded["org_id"])
+print("country_iso3:", loaded["basic_info"]["country_iso3"])
+print("industries:", loaded["industries"])
+print("key_people count:", len(loaded["key_people"]))
+print("departments count:", len(loaded["departments"]))
+print("recent_events count:", len(loaded["recent_events"]))
+print("related_entities count:", len(loaded["related_entities"]))
+print("completeness_score:", loaded["collection_meta"]["completeness_score"])
+print("phase:", loaded["collection_meta"]["phase"])

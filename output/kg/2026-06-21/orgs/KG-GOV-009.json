@@ -1,0 +1,251 @@
+{
+  "org_id": "KG-GOV-009",
+  "basic_info": {
+    "name_original": "Кыргыз Республикасынын Коргоо министрлиги",
+    "name_zh": "吉尔吉斯斯坦国防部",
+    "name_en": "Ministry of Defense of the Kyrgyz Republic",
+    "aliases": [
+      "Ministry of Defense Kyrgyzstan",
+      "MoD Kyrgyzstan",
+      "Кыргыз Республикасынын Коргоо министрлиги",
+      "Министерство обороны Кыргызской Республики",
+      "State Committee for Defense Affairs of the Kyrgyz Republic",
+      "ГКДО КР",
+      "Minoborony KR"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "KGZ",
+    "hq_country_iso3": "KGZ",
+    "founded_date": "1992-01-13",
+    "website": "https://mil.gov.kg/",
+    "wikidata_qid": "Q2566849"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Milgovkg",
+      "url": "https://www.facebook.com/Milgovkg/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Пресс-служба ГКДО КР / MoD Kyrgyzstan Press Service",
+      "url": "https://www.youtube.com/channel/UCXo3TjN_ztE4KM9fw5ZFKNQ",
+      "source": "wikipedia_ru"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "国防部官方网站",
+      "url": "https://mil.gov.kg/",
+      "description": "吉尔吉斯斯坦共和国国防部官方网站，发布新闻、法规、军事教育及征兵信息",
+      "source": "wikipedia_ru"
+    },
+    {
+      "name": "egov.kg 国防部页面",
+      "url": "https://egov.kg/kg/ministry/defense",
+      "description": "吉尔吉斯斯坦国家门户下属国防部子页面，提供公共服务入口",
+      "source": "egov_kg"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "KG-PERSON-000006",
+      "name": "巴克特别克·阿桑卡利耶维奇·别克博洛托夫(Бактыбек Асанкалиевич Бекболотов)",
+      "title": "前任国防部长 / 现任安全会议秘书",
+      "title_description": "2021年9月6日至2025年5月15日担任国防部长，卸任后转任吉尔吉斯斯坦安全会议秘书",
+      "description": "中将军衔，任内推动国防部从国防事务国家委员会（ГКДО）恢复为正式部委，深化与俄罗斯及集体安全条约组织（CSTO）的军事合作"
+    },
+    {
+      "person_id": "KG-PERSON-000345",
+      "name": "鲁斯兰·穆斯塔法耶维奇·穆坎别托夫(Руслан Мустафаевич Мукамбетов)",
+      "title": "国防部长",
+      "title_description": "少将军衔，2025年5月22日由总统扎帕罗夫任命为国防部长",
+      "description": "此前曾任武装力量总参谋长，2025年4月曾被免职后经议会审议复任国防部长，主导2026年吉俄军事合作计划"
+    },
+    {
+      "person_id": "KG-PERSON-000346",
+      "name": "埃尔利斯·捷尔季克巴耶夫(Эрлис Тердикбаев)",
+      "title": "第一国防部副部长",
+      "title_description": "少将军衔，长期担任国防部第一副部长",
+      "description": "曾于2018年至2021年担任国防事务国家委员会主席，具有丰富的军事行政经验"
+    },
+    {
+      "person_id": "KG-PERSON-000347",
+      "name": "塔里埃尔·奥通巴耶夫(Тариэль Отонбаев)",
+      "title": "武装力量总参谋长",
+      "title_description": "上校军衔，负责武装力量的作战指挥与训练管理",
+      "description": "依据2025年俄语维基百科资料，担任武装力量总参谋部领导人，统筹各军种及兵种协同"
+    }
+  ],
+  "departments": [
+    {
+      "name": "武装力量总参谋部(Генеральный штаб Вооружённых сил)",
+      "dept_id": null,
+      "head": "塔里埃尔·奥通巴耶夫",
+      "description": "负责武装力量的作战指挥、训练规划、兵种协同及战略部署，2014年起直接对总统负责，与国防部形成行政与作战双轨体制",
+      "parent_dept_id": null
+    },
+    {
+      "name": "西南作战指挥部",
+      "dept_id": null,
+      "head": null,
+      "description": "负责吉尔吉斯斯坦南部及边境地区的军事行动指挥，重点应对费尔干纳谷地的安全威胁",
+      "parent_dept_id": "KG-GOV-009"
+    },
+    {
+      "name": "国土防空部队(Силы воздушной обороны)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责吉尔吉斯斯坦领空防御，配备俄制S-300PS及道尔-M2KM防空导弹系统",
+      "parent_dept_id": "KG-GOV-009"
+    },
+    {
+      "name": "后勤与物资技术保障总局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责部队的武器装备采购、物资补给、军事基础设施维护及军用物资储备管理",
+      "parent_dept_id": "KG-GOV-009"
+    },
+    {
+      "name": "军事教育与训练总局",
+      "dept_id": null,
+      "head": null,
+      "description": "管理吉尔吉斯斯坦各军事院校及训练中心，组织军官培养及与外国军事院校的交流合作",
+      "parent_dept_id": "KG-GOV-009"
+    },
+    {
+      "name": "军事医疗管理局",
+      "dept_id": null,
+      "head": null,
+      "description": "负责军人及家属的医疗保障，管理军队医院及疗养机构",
+      "parent_dept_id": "KG-GOV-009"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-05-22",
+      "title": "鲁斯兰·穆坎别托夫被任命为国防部长",
+      "description": "总统扎帕罗夫签署法令，任命前武装力量总参谋长鲁斯兰·穆坎别托夫少将为国防部长，接替转任安全会议秘书的别克博洛托夫，候选资格经议会一致通过",
+      "impact": "高层人事变动可能调整国防部与总参谋部的协作关系，新任部长推动2026年与俄罗斯的军事合作计划",
+      "source": "24.kg / Kabar"
+    },
+    {
+      "date": "2025-09-17",
+      "title": "集体安全条约组织\"边界-2025\"演习在吉尔吉斯斯坦举行",
+      "description": "CSTO集体快速部署部队在中亚区指挥参谋演习\"边界-2025\"于伊塞克湖州\"雪绒花\"训练场举行，来自哈萨克斯坦、俄罗斯、塔吉克斯坦及吉尔吉斯斯坦约1200名官兵、500件军事装备参演，含航空、直升机、无人机及战斗艇",
+      "impact": "提升了CSTO集体部队在阿富汗方向威胁的应对能力，巩固了吉尔吉斯斯坦在CSTO框架内的安全地位",
+      "source": "TASS / CSTO官网"
+    },
+    {
+      "date": "2025-10-15",
+      "title": "吉尔吉斯军队参加CSTO\"牢不可破的兄弟情-2025\"演习",
+      "description": "吉尔吉斯军队赴塔吉克斯坦参加CSTO维和演习\"牢不可破的兄弟情-2025\"及专门演习\"屏障-2025\"，演练辐射、化学、生物防护及医疗保障",
+      "impact": "加强了与CSTO成员国的军事互操作能力，体现了吉尔吉斯斯坦在维和及大规模杀伤性武器防护领域的合作承诺",
+      "source": "24.kg / Caspianpost"
+    },
+    {
+      "date": "2025-11-01",
+      "title": "吉尔吉斯斯坦与俄罗斯批准2026年联合军事合作计划",
+      "description": "国防部长穆坎别托夫与俄罗斯国防部长别洛乌索夫在CSTO峰会期间举行双边会谈，签署2026年军事合作计划，重点为人员培训及联合演训",
+      "impact": "深化了吉俄军事同盟关系，确认俄罗斯在坎特空军基地的持续存在及武器供给",
+      "source": "Caspianpost / Global Military"
+    },
+    {
+      "date": "2025-05-28",
+      "title": "CSTO国防部长在比什凯克通过2026-2030年军事合作计划",
+      "description": "CSTO成员国国防部长会议在比什凯克举行，通过2026-2030年军事合作计划及2026年联合训练计划，由吉尔吉斯斯坦担任轮值主席",
+      "impact": "巩固了比什凯克作为CSTO中亚指挥枢纽的地位，明确未来五年的联合演训日程",
+      "source": "Times of Central Asia"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KG-GOV-001",
+      "org_name": "吉尔吉斯斯坦总统(Президент Кыргызской Республики)",
+      "org_type": "GOV",
+      "org_description": "吉尔吉斯斯坦国家元首及武装力量最高统帅，自2014年起总参谋长直接对总统负责",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "KG-GOV-002",
+      "org_name": "吉尔吉斯斯坦部长会议(Кабинет министров)",
+      "org_type": "GOV",
+      "org_description": "吉尔吉斯共和国政府，国防部的上级行政机关",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "KG-MIL-001",
+      "org_name": "吉尔吉斯斯坦武装力量(Вооружённые силы Кыргызской Республики)",
+      "org_type": "MIL",
+      "org_description": "吉尔吉斯斯坦武装力量，由陆军、国土防空部队及特种部队构成，总兵力约1.5万人，国防部负责其行政及后勤保障",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "KG-MIL-002",
+      "org_name": "国家边防局(Государственная пограничная служба)",
+      "org_type": "MIL",
+      "org_description": "2002年从国防部独立出来的边境防御机构，与国防部协同负责边境安全",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "KG-GOV-017",
+      "org_name": "紧急情况部(Министерство по чрезвычайным ситуациям)",
+      "org_type": "GOV",
+      "org_description": "吉尔吉斯斯坦紧急情况管理机构，与国防部在自然灾害救援及民防事务中协同行动",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "吉尔吉斯斯坦国防部是共和国武装力量的中央行政机关，负责实施国家的军事政策并全面保障武装力量的运行。其核心职能包括：制定国防建设规划与军事学说，编制国防预算，组织武器装备采购与维护，管理军事教育与军官培养体系，运营军事医疗机构，执行兵员征召与动员准备，以及开展国际军事合作与外援协调。2014年起，武装力量的作战指挥权移交至总参谋部，国防部职能调整为行政与后勤保障，并负责总参谋部的全面运营支持。国防部通过组织参与集体安全条约组织（CSTO）和上海合作组织（SCO）框架下的联合军事演习，深化与俄罗斯等传统盟友的军事技术合作，并推动边境防御、反恐及地区维和能力建设。其下属机构包括西南作战指挥部、国土防空部队、后勤保障总局、军事教育总局等，构成了覆盖全国及南部边境敏感地区的军事行政网络。",
+  "industries": [
+    "public_administration",
+    "defence_military",
+    "civil_service"
+  ],
+  "apec_stance": "吉尔吉斯斯坦国防部不是亚太经济合作组织（APEC）的直接参与主体，因为吉尔吉斯斯坦并非APEC成员经济体。但在更广义的亚太安全架构中，国防部通过集体安全条约组织（CSTO）与俄罗斯、哈萨克斯坦、塔吉克斯坦、白俄罗斯保持军事同盟关系，并参与上合组织（SCO）框架下的反恐演习与地区安全合作。CSTO在2025年于吉尔吉斯斯坦境内举办\"边界-2025\"演习，2026年计划由俄罗斯担任轮值主席国举行60项联合及作战训练活动，包括8项重大指挥参谋及专门演习。在俄罗斯坎特空军基地（第917航空基地）驻军的背景下，国防部在中俄与西方在中亚的军事影响平衡中保持中立亲俄的立场，强调多边安全合作及阿富汗方向威胁的共同应对，同时避免直接介入大国博弈，致力于维护国家主权与边境稳定。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ministry_of_Defense_Kyrgyzstan_seal.svg/250px-Ministry_of_Defense_Kyrgyzstan_seal.svg.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-06-21",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia_ru",
+      "wikipedia_en",
+      "mil.gov.kg",
+      "egov.kg",
+      "24.kg",
+      "kabar.kg",
+      "caspianpost.com",
+      "tass.com",
+      "odkb-csto.org",
+      "timesca.com"
+    ],
+    "completeness_score": 89,
+    "notes": "Phase3 enriched profile. Original skeleton was erroneously populated with Japanese MoD data; replaced with correct Kyrgyzstan MoD data. Mukambetov appointed Minister May 2025; Bekbolotov now Secretary of Security Council. Dept list inferred from Russian Wikipedia structure description.",
+    "quotes": [
+      {
+        "title": "Ministry of Defense (Kyrgyzstan) - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Defense_(Kyrgyzstan)"
+      },
+      {
+        "title": "Министерство обороны Кыргызстана - Русская Википедия",
+        "url": "https://ru.wikipedia.org/wiki/Министерство_обороны_Киргизии"
+      },
+      {
+        "title": "Ruslan Mukambetov appointed Minister of Defense of Kyrgyzstan - 24.kg",
+        "url": "https://24.kg/english/330030_Ruslan_Mukambetov_appointed_Minister_of_Defense_of_Kyrgyzstan/"
+      },
+      {
+        "title": "CSTO Rubezh-2025 exercises - TASS",
+        "url": "https://tass.com/world/2017641"
+      },
+      {
+        "title": "Kyrgyzstan, Russia Sign 2026 Military Cooperation Plan - Caspianpost",
+        "url": "https://caspianpost.com/kyrgyzstan/kyrgyzstan-russia-sign-2026-military-cooperation-plan-at-csto"
+      }
+    ]
+  }
+}
