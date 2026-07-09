@@ -1,0 +1,338 @@
+{
+  "org_id": "JP-MEDIA-001",
+  "basic_info": {
+    "name_original": "日本放送協会",
+    "name_zh": "日本广播协会",
+    "name_en": "NHK",
+    "aliases": [
+      "Nippon Hōsō Kyōkai",
+      "Japan Broadcasting Corporation",
+      "Nippon Hoso Kyokai",
+      "nhk.or.jp",
+      "NHK Television"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "broadcaster",
+    "country_iso3": "JPN",
+    "hq_country_iso3": "JPN",
+    "founded_date": "1924-11-29",
+    "website": "https://www.nhk.or.jp",
+    "wikidata_qid": "Q212128"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "nhk",
+      "url": "https://twitter.com/nhk",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "NHKonline",
+      "url": "https://facebook.com/NHKonline",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UCip8ve30-AoX2y2OtAAmqFA",
+      "url": "https://youtube.com/channel/UCip8ve30-AoX2y2OtAAmqFA",
+      "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "nhk",
+      "url": "https://www.instagram.com/nhk/",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "NHK官方网站",
+      "url": "https://www.nhk.or.jp",
+      "description": "NHK综合门户网站，提供新闻、节目信息、活动公告及收视契约等经营信息",
+      "source": "official_website"
+    },
+    {
+      "name": "NHK NEWS WEB",
+      "url": "https://www3.nhk.or.jp/news/",
+      "description": "NHK新闻网站，提供国内外新闻报道及深度分析",
+      "source": "official_website"
+    },
+    {
+      "name": "NHK PLUS",
+      "url": "https://nhkplus.jp/",
+      "description": "NHK网络同步播放平台，面向日本国内用户提供电视节目实时观看和回放",
+      "source": "official_website"
+    },
+    {
+      "name": "NHK WORLD-JAPAN",
+      "url": "https://www3.nhk.or.jp/nhkworld/",
+      "description": "NHK国际频道官方网站，提供英语新闻及日本文化节目在线观看",
+      "source": "official_website"
+    },
+    {
+      "name": "NHK ONE",
+      "url": "https://www.web.nhk/",
+      "description": "NHK统一流媒体平台，整合电视节目同步播出、回放收听及新闻资讯",
+      "source": "official_website"
+    },
+    {
+      "name": "NHK华语视界",
+      "url": "https://www.nhk.jp/p/ts/2ZZJX62J9Z/",
+      "description": "面向中文观众的NHK网络频道，提供中文节目内容",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "JP-PERSON-000044",
+      "name": "稻叶延雄 (Nobuo Inaba)",
+      "title": "前任会长 (已卸任)",
+      "title_description": "NHK第24任会长，已于2026年1月24日任期届满卸任",
+      "description": "东京大学经济学部毕业，曾任日本银行理事、理光经济社会研究所参与，2023年1月25日就任NHK第24任会长，为外部招聘，2026年1月24日任期届满"
+    },
+    {
+      "person_id": "JP-PERSON-000373",
+      "name": "井上树彦 (Tatsuhiko Inoue)",
+      "title": "会长 (Chair)",
+      "title_description": "NHK第25任会长，协会最高负责人，代表协会并总理业务",
+      "description": "早稻田大学第一文学部毕业，从NHK内部晋升，曾任NHK副会长，2026年1月25日起就任第25任会长，是继上田良一之后时隔三届再次由内部晋升的会长"
+    },
+    {
+      "person_id": "JP-PERSON-000374",
+      "name": "小池英树 (Hideo Koike)",
+      "title": "副会长 (Executive Vice President)",
+      "title_description": "协助会长处理业务并掌理具体事务",
+      "description": "NHK副会长，协助会长管理协会运营"
+    },
+    {
+      "person_id": "JP-PERSON-000375",
+      "name": "古贺信行 (Nobuyuki Koga)",
+      "title": "经营委员会委员长 (Chairman of the Board of Governors)",
+      "title_description": "NHK最高决策机构经营委员会的委员长，由委员互选产生",
+      "description": "野村控股前任社长、交通政策审议会会长，2024年3月12日就任第25任经营委员会委员长"
+    }
+  ],
+  "departments": [
+    {
+      "name": "媒体总局 (メディア総局)",
+      "dept_id": "JP-MEDIA-001-DEPT-001",
+      "head": null,
+      "description": "NHK核心内容制作部门，下辖媒体战略本部、创意中心、解说委员室、播音室、NHK点播室、报道局、播放技术局、国际广播局及海外总支局",
+      "parent_dept_id": null
+    },
+    {
+      "name": "报道局 (報道局)",
+      "dept_id": "JP-MEDIA-001-DEPT-002",
+      "head": null,
+      "description": "负责NHK新闻节目的策划、采编与制作，涵盖政治、经济、社会、国际等各领域新闻报道",
+      "parent_dept_id": "JP-MEDIA-001-DEPT-001"
+    },
+    {
+      "name": "国际广播局 (国際放送局)",
+      "dept_id": "JP-MEDIA-001-DEPT-003",
+      "head": null,
+      "description": "负责NHK WORLD-JAPAN国际频道的运营，包括NHK World TV英语频道、NHK World Premium日语频道及短波广播Radio Japan",
+      "parent_dept_id": "JP-MEDIA-001-DEPT-001"
+    },
+    {
+      "name": "观众局 (視聴者局)",
+      "dept_id": "JP-MEDIA-001-DEPT-004",
+      "head": null,
+      "description": "2022年4月整合原观众总局与营业局而成，负责收视费收取、观众关系管理及全国支援业务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术局 (技術局)",
+      "dept_id": "JP-MEDIA-001-DEPT-005",
+      "head": null,
+      "description": "负责广播技术研发与基础设施维护，NHK是全球首个实现高清及8K广播的机构",
+      "parent_dept_id": null
+    },
+    {
+      "name": "经营管理局 (経営管理)",
+      "dept_id": "JP-MEDIA-001-DEPT-006",
+      "head": null,
+      "description": "涵盖总务局、经理局、信息系统局、集团经营战略局等后台支持部门",
+      "parent_dept_id": null
+    },
+    {
+      "name": "研究所 (放送文化研究所・放送技術研究所)",
+      "dept_id": "JP-MEDIA-001-DEPT-007",
+      "head": null,
+      "description": "NHK附属研究机构，广播文化研究所负责媒体与受众研究，广播技术研究所负责前沿广播技术研发",
+      "parent_dept_id": null
+    },
+    {
+      "name": "首都圈局及各地广播局",
+      "dept_id": "JP-MEDIA-001-DEPT-008",
+      "head": null,
+      "description": "管理东京本部首都圈局及全国54个广播局，其中札幌、仙台、名古屋、大阪、广岛、福冈、松山为七大据点广播局",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-01-25",
+      "title": "井上树彦就任NHK第25任会长",
+      "description": "经经营委员会决议，原副会长井上树彦升任第25任会长，成为继上田良一之后时隔三届再次从内部晋升的会长。前任会长稻叶延雄任期届满卸任",
+      "impact": "领导层更替，延续令和改革路线，NHK管理团队调整",
+      "source": "prtimes.jp"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "NHK广播第2频道废止",
+      "description": "NHK广播第2频道（NHK Radio 2）于2026年3月31日正式停止播出，与广播第1频道合并为新的NHK AM频道",
+      "impact": "频谱资源优化，广播频道精简，日本广播历史重要节点",
+      "source": "ja.wikipedia.org"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "NHK德黑兰支局长被拘押",
+      "description": "2026年1月，NHK驻德黑兰支局长川上信之助被伊朗当局拘押并转移至埃温监狱。日本政府确认一名日本公民在德黑兰被拘留，NHK表示员工安全为首要关切",
+      "impact": "国际新闻采编人员安全风险凸显，日伊外交议题",
+      "source": "en.wikipedia.org"
+    },
+    {
+      "date": "2025-10-01",
+      "title": "NHK WORLD-JAPAN扩大直播及回放服务",
+      "description": "自2025年10月1日起，NHK WORLD-JAPAN在国际电视及广播节目的官方网站和移动应用上扩展了直播与回放服务",
+      "impact": "国际传播能力增强，全球受众触达范围扩大",
+      "source": "nhkworldnews.com"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "NHK与Netflix恢复节目全球配信合作",
+      "description": "NHK计划自2026年6月起在附加条件下恢复向Netflix提供NHK节目全球配信，此前因Netflix引入广告制度于2023年10月中止",
+      "impact": "NHK内容全球分发渠道恢复，国际收入改善",
+      "source": "ja.wikipedia.org"
+    },
+    {
+      "date": "2026-03-28",
+      "title": "NHK广播节目观众个人信息泄露事件",
+      "description": "NHK将502名新年度广播节目评论员的个人信息误发送给其他评论员，附件文件包含其他评论员的姓名和电子邮件地址",
+      "impact": "信息安全管理受到质疑，NHK致歉并改进流程",
+      "source": "ja.wikipedia.org"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "JP-MEDIA-001",
+      "org_name": "NHK媒体控股 (NHKメディアホールディングス)",
+      "org_type": "MEDIA",
+      "org_description": "NHK100%持股的控股子公司，统管NHK集团旗下各业务子公司",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-MEDIA-001",
+      "org_name": "NHK Enterprises (NHKエンタープライズ)",
+      "org_type": "MEDIA",
+      "org_description": "NHK核心节目制作与内容开发子公司，负责节目制作、活动策划、角色授权及DVD/Blu-ray销售等业务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-MEDIA-001",
+      "org_name": "日本国际广播 (日本国際放送)",
+      "org_type": "MEDIA",
+      "org_description": "NHK持股64.1%的国际广播运营公司，整合NHK及民间广播机构的资源向全球传播日本节目",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-MEDIA-001",
+      "org_name": "NHK出版 (NHK出版)",
+      "org_type": "MEDIA",
+      "org_description": "NHK全资出版子公司，负责NHK节目相关书籍、杂志的出版发行",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-MEDIA-001",
+      "org_name": "NHK Technologies (NHKテクノロジーズ)",
+      "org_type": "MEDIA",
+      "org_description": "2019年由NHK Integrated Technology与NHK Media Technology合并而成的技术子公司，负责广播技术支持",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-MEDIA-001",
+      "org_name": "NHK交响乐团 (NHK交響楽団)",
+      "org_type": "NGO",
+      "org_description": "日本顶级交响乐团之一，由NHK财务赞助，1942年成立时名为日本交响乐团，1951年更名为NHK交响乐团",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "JP-MEDIA-002",
+      "org_name": "NHK Cosmomedia America",
+      "org_type": "MEDIA",
+      "org_description": "NHK在美国的关联公司，面向北美观众提供日语电视节目服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-MEDIA-003",
+      "org_name": "NHK Cosmomedia (Europe)",
+      "org_type": "MEDIA",
+      "org_description": "NHK在欧洲的关联公司，面向欧洲观众提供日语电视节目服务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JP-NGO-006",
+      "org_name": "亚太广播联盟 (Asia-Pacific Broadcasting Union)",
+      "org_type": "NGO",
+      "org_description": "亚太地区广播机构联合组织，NHK为常任理事局成员，海老泽胜二和桥本元一两任前会长曾先后担任ABU会长",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "JP-GOV-003",
+      "org_name": "总务省 (Ministry of Internal Affairs and Communications)",
+      "org_type": "GOV",
+      "org_description": "NHK的主管政府部门，负责批准NHK经营计划、任命经营委员会委员及国际广播事务管理",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "日本广播协会（NHK）是日本依据《广播法》设立的公共广播特殊法人，也是亚洲规模最大的公共广播机构。以观众缴纳的收视费为主要财源（不依赖广告收入），运营两个地面电视频道（NHK综合电视和NHK教育电视E电视）、三个卫星电视频道（NHK BS、NHK BS Premium 4K、NHK BS8K）和两个广播网络（NHK AM和NHK FM）。此外，通过NHK WORLD-JAPAN国际频道向全球提供英语和日语新闻及文化节目。NHK拥有约10,268名员工（2023年度），在国内设有54个广播局覆盖全日本，海外设有欧洲、中国、亚洲、美国四大总局共约30个支局。旗下拥有NHK媒体控股、NHK Enterprises、日本国际广播、NHK出版等13家连结子公司。NHK在广播技术领域处于全球领先地位，是世界上首个实现高清电视广播（Hi-Vision）和8K超高清电视广播的机构。其节目制作涵盖新闻报道、电视剧（晨间剧连续电视剧和大河剧）、纪录片（NHK特集）、教育节目、音乐节目（红白歌合战）等广泛领域。",
+  "industries": [
+    "broadcasting",
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "NHK作为亚太地区最大的公共广播机构，是亚太广播联盟（ABU）的常任理事局成员，在亚太媒体合作中扮演重要角色。NHK WORLD-JAPAN国际频道以英语和日语向全球特别是亚太地区传播新闻与文化内容，是日本对外信息传播的重要窗口。NHK与CNN、ABC、BBC、CCTV、KBS等亚太地区主要广播机构建立了新闻素材交换合作关系。在APEC相关议题的报道中，NHK通过国际报道2026等节目持续关注亚太经济一体化、贸易自由化及区域合作等议题。NHK受日本政府委托运营国际广播，其国际传播活动在客观上服务于日本在亚太地区的软实力建设和公共外交目标。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NHK_Broadcasting_Center_2016.jpg/330px-NHK_Broadcasting_Center_2016.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-06-11",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "ja.wikipedia.org",
+      "en.wikipedia.org",
+      "nhk.or.jp",
+      "prtimes.jp",
+      "nhkworldnews.com",
+      "wikidata",
+      "statemediamonitor.com"
+    ],
+    "completeness_score": 96,
+    "notes": "Phase 3 enriched profile. Key update: Inoue Tatsuhiko appointed 25th president effective 2026-01-25. Radio 2 abolished 2026-03-31. Tehran bureau chief detained 2026-01. Netflix distribution resumed 2026-06.",
+    "quotes": [
+      {
+        "title": "NHK - Japanese Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/日本放送協会"
+      },
+      {
+        "title": "NHK - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/NHK"
+      },
+      {
+        "title": "NHK Official Website",
+        "url": "https://www.nhk.or.jp"
+      },
+      {
+        "title": "次期NHK会長に関するお知らせ (PRTIMES)",
+        "url": "https://prtimes.jp/main/html/rd/p/000000020.000160617.html"
+      },
+      {
+        "title": "NHK WORLD-JAPAN News",
+        "url": "https://www3.nhk.or.jp/nhkworld/en/news/"
+      }
+    ]
+  }
+}
