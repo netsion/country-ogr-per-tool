@@ -1,0 +1,4799 @@
+{
+  "description": "组织与人物ID注册表——记录所有已分配的org_id和person_id，防止重复和冲突。所有新ID必须先在此注册。",
+  "id_rule": {
+    "format": "{ISO2}-{TYPE}-{SEQ}",
+    "ISO2": "HK",
+    "TYPE": "GOV/SOE/CORP/NGO/ACAD/MEDIA/FIN/INTL/PARTY/MIL",
+    "SEQ": "3位顺序号"
+  },
+  "registry": [
+    {
+      "org_id": "HK-GOV-001",
+      "name": "香港機場管理局 (Airport Authority Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q4698894",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-002",
+      "name": "審計署 (Audit Commission (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q1595267",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-003",
+      "name": "香港特別行政區行政長官 (Chief Executive of Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2741486",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-004",
+      "name": "政務司司長 (Chief Secretary for Administration)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q3135366",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-005",
+      "name": "商務及經濟發展局 (Commerce and Economic Development Bureau)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2358129",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-006",
+      "name": "競爭事務委員會 (Competition Commission (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q21707981",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-007",
+      "name": "消費者委員會 (Consumer Council)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q8516701",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-008",
+      "name": "選舉管理委員會 (香港) (Electoral Affairs Commission)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q5354970",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-009",
+      "name": "平等機會委員會 (Equal Opportunities Commission (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q1547492",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-010",
+      "name": "行政會議 (Executive Council of Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q1545681",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-011",
+      "name": "財政司司長 (Financial Secretary (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q637960",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-012",
+      "name": "財經事務及庫務局 (Financial Services and the Treasury Bureau)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2375383",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-013",
+      "name": "香港特別行政區政府 (Government of Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q15164",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-014",
+      "name": "香港應用科技研究院 (Hong Kong Applied Science and Technology Research Institute)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q5894236",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-015",
+      "name": "香港終審法院 (Court of Final Appeal)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q837636",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-016",
+      "name": "香港海關 (Hong Kong Customs and Excise Department)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2355311",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-017",
+      "name": "香港房屋委員會 (Hong Kong Housing Authority)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q5894701",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-001",
+      "name": "香港金融管理局 (Hong Kong Monetary Authority)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q1595286",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-018",
+      "name": "香港警務處 (Hong Kong Police Force)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q25859",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-019",
+      "name": "香港生產力促進局 (Hong Kong Productivity Council)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q5894945",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-020",
+      "name": "香港貿易發展局 (Hong Kong Trade Development Council)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q1426533",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-021",
+      "name": "醫院管理局 (Hospital Authority)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q5908350",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-022",
+      "name": "房屋局 (Housing Bureau (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q11075477",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-023",
+      "name": "入境事務處 (Immigration Department)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q1860726",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-024",
+      "name": "廉政公署 (Independent Commission Against Corruption (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q30999",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-025",
+      "name": "創新科技及工業局 (Innovation, Technology and Industry Bureau)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q112707414",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-026",
+      "name": "香港司法機構 (Judiciary of Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q838466",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-027",
+      "name": "香港立法會 (Legislative Council of Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q19208",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-028",
+      "name": "強制性公積金計劃管理局 (Mandatory Provident Fund Schemes Authority)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q11069291",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-029",
+      "name": "通訊事務管理局辦公室 (Office of the Communications Authority)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q22100463",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-030",
+      "name": "香港個人資料私隱專員公署 (Office of the Privacy Commissioner for Personal Data, Hong Kong)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2354315",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-031",
+      "name": "選舉事務處 (Registration and Electoral Office)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2968414",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-032",
+      "name": "律政司司長 (Secretary for Justice)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q835507",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-033",
+      "name": "證券及期貨事務監察委員會 (Securities and Futures Commission)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q7444930",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-034",
+      "name": "保安局 (Security Bureau (Hong Kong))",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q138515",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-035",
+      "name": "運輸及物流局 (Transport and Logistics Bureau)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q112707285",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-036",
+      "name": "市區重建局 (Urban Renewal Authority)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q7899999",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-GOV-037",
+      "name": "西九文化區 (West Kowloon Cultural District Authority)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q7985661",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-002",
+      "name": "友邦保險 (AIA Group)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q1152465",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-003",
+      "name": "中國銀行（香港） (Bank of China (Hong Kong))",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q787060",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-004",
+      "name": "東亞銀行 (Bank of East Asia)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q806679",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-005",
+      "name": "滙豐控股 (HSBC)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q190464",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-006",
+      "name": "恒生銀行 (Hang Seng Bank)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q1575470",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-007",
+      "name": "香港交易及結算所有限公司 (Hong Kong Exchanges and Clearing)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q751361",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-008",
+      "name": "宏利金融 (Manulife)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q1652574",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-009",
+      "name": "英國保誠 (Prudential plc)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q1374135",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-FIN-010",
+      "name": "渣打銀行 (Standard Chartered)",
+      "org_type": "FIN",
+      "org_subtype": null,
+      "wikidata_qid": "Q548278",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-SOE-001",
+      "name": "中國中信股份有限公司 (CITIC Limited)",
+      "org_type": "SOE",
+      "org_subtype": null,
+      "wikidata_qid": "Q1023763",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-SOE-002",
+      "name": "招商局港口 (China Merchants Port Holdings)",
+      "org_type": "SOE",
+      "org_subtype": null,
+      "wikidata_qid": "Q268784",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-001",
+      "name": "阿里巴巴集团 (Alibaba Group)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1359568",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-002",
+      "name": "比亚迪 (BYD Company Limited)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q2608329",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-003",
+      "name": "長實集團 (CK Asset Holdings)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q19985983",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-004",
+      "name": "長江和記實業 (CK Hutchison Holdings)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q19548352",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-005",
+      "name": "長江基建 (CK Infrastructure Holdings)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q5094252",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-006",
+      "name": "中電集團 (CLP Holdings)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q977959",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-007",
+      "name": "中国海洋石油有限公司 (CNOOC Limited)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q795221",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-008",
+      "name": "國泰航空 (Cathay Pacific Airways)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q32141",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-009",
+      "name": "中国移动 (China Mobile)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q741618",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-010",
+      "name": "中國海外發展 (China Overseas Land and Investment)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1073463",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-011",
+      "name": "千色汇 (Henderson Land Development)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1604969",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-012",
+      "name": "香港電訊 (HKT Trust)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q5895075",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-013",
+      "name": "京東商城 (JD.com)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q3598926",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-014",
+      "name": "怡和洋行 (Jardine Matheson Holdings)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1683452",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-015",
+      "name": "九廣鐵路公司 (Kowloon-Canton Railway Corporation)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q838436",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-016",
+      "name": "香港鐵路有限公司 (MTR Corporation)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1479375",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-017",
+      "name": "美团 (Meituan)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q15907772",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-018",
+      "name": "新世界發展 (New World Development)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q752084",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-019",
+      "name": "信和集團 (Sino Group)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q4776877",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-020",
+      "name": "新鴻基地產 (Sun Hung Kai Properties)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1789188",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-021",
+      "name": "太古集團 (Swire Pacific)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1141162",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-022",
+      "name": "腾讯 (Tencent)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q860580",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-023",
+      "name": "香港中華煤氣 (The Hong Kong and China Gas Company)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q751883",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-CORP-024",
+      "name": "小米集團 (Xiaomi)",
+      "org_type": "CORP",
+      "org_subtype": null,
+      "wikidata_qid": "Q1636958",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-001",
+      "name": "巴士的報 (Bastille Post)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q17499744",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-002",
+      "name": "香港01 (HK01)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q22774484",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-003",
+      "name": "信報財經新聞 (Hong Kong Economic Journal)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q5894514",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-004",
+      "name": "明報 (Ming Pao)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q1674139",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-005",
+      "name": "now TV (Now TV (Hong Kong))",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q307373",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-006",
+      "name": "香港電台 (RTHK)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q1153480",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-007",
+      "name": "星島日報 (Sing Tao Daily)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q5241255",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-008",
+      "name": "南華早報 (South China Morning Post)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q1198574",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-009",
+      "name": "無綫集團 (TVB)",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q1195543",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-MEDIA-010",
+      "name": "英文虎報 (The Standard (Hong Kong))",
+      "org_type": "MEDIA",
+      "org_subtype": null,
+      "wikidata_qid": "Q908244",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-001",
+      "name": "香港中文大學 (Chinese University of Hong Kong)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q15570",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-002",
+      "name": "香港城市大學 (City University of Hong Kong)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q787360",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-003",
+      "name": "香港教育大學 (Education University of Hong Kong)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q5968342",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-004",
+      "name": "英基學校協會 (English Schools Foundation)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q3257976",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-005",
+      "name": "香港恒生大學 (Hang Seng University of Hong Kong)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q5647847",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-006",
+      "name": "香港演藝學院 (Hong Kong Academy for Performing Arts)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q1583368",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-007",
+      "name": "香港浸會大學 (Hong Kong Baptist University)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q603686",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-008",
+      "name": "香港都會大學 (Hong Kong Metropolitan University)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q1540301",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-009",
+      "name": "香港理工大學 (Hong Kong Polytechnic University)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q1187271",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-010",
+      "name": "香港科技大學 (Hong Kong University of Science and Technology)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q1333303",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-011",
+      "name": "嶺南大學 (Lingnan University)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q1541161",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-ACAD-012",
+      "name": "香港大學 (University of Hong Kong)",
+      "org_type": "ACAD",
+      "org_subtype": null,
+      "wikidata_qid": "Q15568",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-001",
+      "name": "香港經濟民生聯盟 (Business and Professionals Alliance for Hong Kong)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q2914027",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-002",
+      "name": "公民黨 (Civic Party)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q23055",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-003",
+      "name": "民主建港协进联盟 (Democratic Alliance for the Betterment and Progress of Hong Kong)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q21916",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-004",
+      "name": "民主黨 (Democratic Party (Hong Kong))",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q21892",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-005",
+      "name": "香港工會聯合會 (Hong Kong Federation of Trade Unions)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q23062",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-006",
+      "name": "工黨 (Labour Party (Hong Kong))",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q23057",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-007",
+      "name": "社會民主連線 (League of Social Democrats)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q1026514",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-008",
+      "name": "新民黨 (New People's Party)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q23059",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-009",
+      "name": "人民力量 (People Power (Hong Kong))",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q1026597",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-PARTY-010",
+      "name": "公共專業聯盟 (Professional Commons)",
+      "org_type": "PARTY",
+      "org_subtype": null,
+      "wikidata_qid": "Q2689969",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-NGO-001",
+      "name": "香港社會服務聯會 (Hong Kong Council of Social Service)",
+      "org_type": "NGO",
+      "org_subtype": null,
+      "wikidata_qid": "Q7740156",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-NGO-002",
+      "name": "香港紅十字會 (Hong Kong Red Cross)",
+      "org_type": "NGO",
+      "org_subtype": null,
+      "wikidata_qid": "Q840469",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-NGO-003",
+      "name": "樂施會 (Oxfam Hong Kong)",
+      "org_type": "NGO",
+      "org_subtype": null,
+      "wikidata_qid": "Q267941",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-NGO-004",
+      "name": "保良局 (Po Leung Kuk)",
+      "org_type": "NGO",
+      "org_subtype": null,
+      "wikidata_qid": "Q2395518",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "org_id": "HK-NGO-005",
+      "name": "香港公益金 (The Community Chest of Hong Kong)",
+      "org_type": "NGO",
+      "org_subtype": null,
+      "wikidata_qid": "Q7727046",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000201",
+      "name": "盧偉國",
+      "name_en": "Lo Wai-kwok",
+      "wikidata_qid": "Q10844330",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000202",
+      "name": "林健鋒",
+      "name_en": "Jeffrey Lam Kin-fung",
+      "wikidata_qid": "Q10844330",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000203",
+      "name": "梁君彥",
+      "name_en": "Andrew Leung Kwan-yuen",
+      "wikidata_qid": "Q7087947",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000204",
+      "name": "劉業強",
+      "name_en": "Kenneth Lau Ip-keung",
+      "wikidata_qid": "Q10851375",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000205",
+      "name": "梁美芬",
+      "name_en": "Priscilla Leung Mei-fun",
+      "wikidata_qid": "Q12770289",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000206",
+      "name": "陳克勤",
+      "name_en": "Gary Chan Hak-kan",
+      "wikidata_qid": "Q10867036",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000207",
+      "name": "周浩鼎",
+      "name_en": "Holden Chow Ho-ding",
+      "wikidata_qid": "Q16229644",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000208",
+      "name": "李慧琼",
+      "name_en": "Starry Lee Wai-king",
+      "wikidata_qid": "Q1548856",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000209",
+      "name": "葉劉淑儀",
+      "name_en": "Regina Ip Lau Suk-yee",
+      "wikidata_qid": "Q10870116",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000210",
+      "name": "梁家傑",
+      "name_en": "Alan Leong Kah-kit",
+      "wikidata_qid": "Q706811",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000211",
+      "name": "羅健熙",
+      "name_en": "Lo Kin-hei",
+      "wikidata_qid": "Q16226282",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000212",
+      "name": "胡志偉",
+      "name_en": "Wu Chi-wai",
+      "wikidata_qid": "Q10867036",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000213",
+      "name": "吳秋北",
+      "name_en": "Stanley Ng Chau-pei",
+      "wikidata_qid": "Q10859063",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000214",
+      "name": "黃國",
+      "name_en": "Wong Kwok-kin",
+      "wikidata_qid": "Q10870117",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000215",
+      "name": "李卓人",
+      "name_en": "Lee Cheuk-yan",
+      "wikidata_qid": "Q10861478",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000216",
+      "name": "莫乃光",
+      "name_en": "Charles Peter Mok",
+      "wikidata_qid": "Q5074079",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000217",
+      "name": "黃浩銘",
+      "name_en": "Raphael Wong Ho-ming",
+      "wikidata_qid": "Q15908246",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000218",
+      "name": "黃毓民",
+      "name_en": "Wong Yuk-man",
+      "wikidata_qid": "Q10871333",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000219",
+      "name": "奚國華",
+      "name_en": "Xi Guohua",
+      "wikidata_qid": null,
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000220",
+      "name": "張文武",
+      "name_en": "Zhang Wenwu",
+      "wikidata_qid": null,
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000221",
+      "name": "馮波鳴",
+      "name_en": "Feng Boming",
+      "wikidata_qid": null,
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000222",
+      "name": "徐頌",
+      "name_en": "Xu Song",
+      "wikidata_qid": null,
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": null
+    },
+    {
+      "person_id": "HK-PERSON-000601",
+      "wikidata_qid": "Q9051824",
+      "name": "李家超 (John Lee Ka-chiu)",
+      "name_en": "John Lee Ka-chiu",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000602",
+      "wikidata_qid": "Q9439903",
+      "name": "陳國基 (Eric Chan Kwok-ki)",
+      "name_en": "Eric Chan Kwok-ki",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000603",
+      "wikidata_qid": "Q7149777",
+      "name": "陳茂波 (Paul Chan Mo-po)",
+      "name_en": "Paul Chan Mo-po",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000604",
+      "wikidata_qid": "Q112658126",
+      "name": "丘應樺 (Algernon Yau Ying-wah)",
+      "name_en": "Algernon Yau Ying-wah",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000605",
+      "wikidata_qid": "Q112657820",
+      "name": "許正宇 (Christopher Hui Ching-yu)",
+      "name_en": "Christopher Hui Ching-yu",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000606",
+      "wikidata_qid": "Q112644506",
+      "name": "何永賢 (Winnie Ho Wing-yin)",
+      "name_en": "Winnie Ho Wing-yin",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000607",
+      "wikidata_qid": null,
+      "name": "林智遠 (Nelson Lam Chi-yuen)",
+      "name_en": "Nelson Lam Chi-yuen",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000608",
+      "wikidata_qid": null,
+      "name": "陳家殷 (Samuel Chan Ka-yan)",
+      "name_en": "Samuel Chan Ka-yan",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000609",
+      "wikidata_qid": null,
+      "name": "畢仲明 (Rasul Butt)",
+      "name_en": "Rasul Butt",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000610",
+      "wikidata_qid": null,
+      "name": "陳錦榮 (Clement Chan Kam-wing)",
+      "name_en": "Clement Chan Kam-wing",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000611",
+      "wikidata_qid": null,
+      "name": "岑昭慧 (Alaina Shum Jiu-fai)",
+      "name_en": "Alaina Shum Jiu-fai",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000612",
+      "wikidata_qid": null,
+      "name": "駱應淦 (David Lok Kai-hong)",
+      "name_en": "David Lok Kai-hong",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000613",
+      "wikidata_qid": null,
+      "name": "林美美 (Linda Lam Mei-sau)",
+      "name_en": "Linda Lam Mei-sau",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000614",
+      "wikidata_qid": "Q50835",
+      "name": "葉劉淑儀 (Regina Ip Lau Suk-yee)",
+      "name_en": "Regina Ip Lau Suk-yee",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000615",
+      "wikidata_qid": "Q4756603",
+      "name": "張舉能 (Andrew Cheung Kui-nung)",
+      "name_en": "Andrew Cheung Kui-nung",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000616",
+      "wikidata_qid": null,
+      "name": "陳子達 (Chan Tsz-tat)",
+      "name_en": "Chan Tsz-tat",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000617",
+      "wikidata_qid": null,
+      "name": "周一鳴 (Joe Chow Yat-ming)",
+      "name_en": "Joe Chow Yat-ming",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000618",
+      "wikidata_qid": "Q208798",
+      "name": "林天福 (Fred Lam Tin-fuk)",
+      "name_en": "Fred Lam Tin-fuk",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000619",
+      "wikidata_qid": null,
+      "name": "張李佳蕙 (Vivian Cheung Kar-fay)",
+      "name_en": "Vivian Cheung Kar-fay",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000620",
+      "wikidata_qid": null,
+      "name": "李惠光 (Ir Sunny Lee Wai-kwong)",
+      "name_en": "Ir Sunny Lee Wai-kwong",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000621",
+      "wikidata_qid": null,
+      "name": "孫孝明 (Ir Dr Ted Suen)",
+      "name_en": "Ir Dr Ted Suen",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000622",
+      "wikidata_qid": "Q110406229",
+      "name": "陳祖恒 (Sunny Tan)",
+      "name_en": "Sunny Tan",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000623",
+      "wikidata_qid": null,
+      "name": "畢學禮 (Mohamed Din Butt)",
+      "name_en": "Mohamed D. Butt",
+      "nationality": "HK",
+      "status": "profiled",
+      "notes": "phase4_person_lite (GOV-A batch)"
+    },
+    {
+      "person_id": "HK-PERSON-000701",
+      "name": "馬時亨 (Frederick Ma)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q985782",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-020"
+    },
+    {
+      "person_id": "HK-PERSON-000702",
+      "name": "莊翊萍 (Sophia Chong)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-020"
+    },
+    {
+      "person_id": "HK-PERSON-000703",
+      "name": "范鴻齡 (Henry Fan)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q5737813",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-021"
+    },
+    {
+      "person_id": "HK-PERSON-000704",
+      "name": "李夏茵 (Libby Lee)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-021"
+    },
+    {
+      "person_id": "HK-PERSON-000705",
+      "name": "何永賢 (Winnie Ho)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q112644506",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-022"
+    },
+    {
+      "person_id": "HK-PERSON-000706",
+      "name": "李佩詩 (Charmaine Lee)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-022"
+    },
+    {
+      "person_id": "HK-PERSON-000707",
+      "name": "郭俊峯 (Benson Kwok)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-023"
+    },
+    {
+      "person_id": "HK-PERSON-000708",
+      "name": "胡英明 (Danny Woo)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q109410712",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-024"
+    },
+    {
+      "person_id": "HK-PERSON-000709",
+      "name": "孫東 (Dong Sun)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-025"
+    },
+    {
+      "person_id": "HK-PERSON-000710",
+      "name": "張舉能 (Andrew Cheung)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q4756603",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-026"
+    },
+    {
+      "person_id": "HK-PERSON-000711",
+      "name": "梁君彥 (Andrew Leung)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q5283551",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-027"
+    },
+    {
+      "person_id": "HK-PERSON-000712",
+      "name": "劉麥嘉軒 (Ayesha Macpherson Lau)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-028"
+    },
+    {
+      "person_id": "HK-PERSON-000713",
+      "name": "鄭恩賜 (Cheng Yan-chee)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-028"
+    },
+    {
+      "person_id": "HK-PERSON-000714",
+      "name": "黎陳芷娟 (Marion Lai)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-029"
+    },
+    {
+      "person_id": "HK-PERSON-000715",
+      "name": "鍾麗玲 (Ada Chung)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-030"
+    },
+    {
+      "person_id": "HK-PERSON-000716",
+      "name": "林定國 (Paul Lam)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q67935929",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-032"
+    },
+    {
+      "person_id": "HK-PERSON-000717",
+      "name": "黃天祐 (Kelvin Wong)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-033"
+    },
+    {
+      "person_id": "HK-PERSON-000718",
+      "name": "梁鳳儀 (Julia Leung)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q10853592",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-033"
+    },
+    {
+      "person_id": "HK-PERSON-000719",
+      "name": "鄧炳強 (Chris Tang)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q48914413",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-034"
+    },
+    {
+      "person_id": "HK-PERSON-000720",
+      "name": "陳美寶 (Mable Chan)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-035"
+    },
+    {
+      "person_id": "HK-PERSON-000721",
+      "name": "周松崗 (Chow Chung-kong)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-036"
+    },
+    {
+      "person_id": "HK-PERSON-000722",
+      "name": "蔡宏興 (Donald Choi)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-036"
+    },
+    {
+      "person_id": "HK-PERSON-000723",
+      "name": "唐英年 (Henry Tang)",
+      "person_type": "government_official",
+      "wikidata_qid": "Q517394",
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-037"
+    },
+    {
+      "person_id": "HK-PERSON-000724",
+      "name": "馮程淑儀 (Betty Fung)",
+      "person_type": "government_official",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "notes": "HK GOV batch B - HK-GOV-037"
+    }
+  ],
+  "counters": {
+    "HK": {
+      "GOV": 37,
+      "FIN": 10,
+      "SOE": 2,
+      "CORP": 24,
+      "MEDIA": 10,
+      "ACAD": 12,
+      "PARTY": 10,
+      "NGO": 5
+    },
+    "persons_total": 142,
+    "persons_phase4_lite": 23
+  },
+  "person_id_rule": {
+    "format": "{ISO2}-PERSON-{SEQ:06d}",
+    "ISO2": "HK"
+  },
+  "person_registry": [
+    {
+      "person_id": "HK-PERSON-000001",
+      "name": "朱葉玉如 (Nancy Ip)",
+      "wikidata_qid": "Q9117794",
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000002",
+      "name": "蔡崇信 (Joseph Tsai)",
+      "wikidata_qid": "Q18165291",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000003",
+      "name": "王傳福 (Wang Chuanfu)",
+      "wikidata_qid": "Q716030",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000004",
+      "name": "李兆基 (Lee Shau-kee)",
+      "wikidata_qid": "Q716047",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-011"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000005",
+      "name": "John Witt",
+      "wikidata_qid": "Q109182853",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-014"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000006",
+      "name": "楊美珍 (Jeny Yeung)",
+      "wikidata_qid": "Q135103340",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-016"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000007",
+      "name": "歐陽伯權 (Rex Auyeung)",
+      "wikidata_qid": "Q64008248",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-016"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000008",
+      "name": "唐信 (Norman Thompson)",
+      "wikidata_qid": "Q136035601",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-016"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000009",
+      "name": "李敦 (Wilfrid Newton)",
+      "wikidata_qid": "Q96091865",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-016"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000010",
+      "name": "馬達誠 (Hamish Mathers)",
+      "wikidata_qid": "Q136035616",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-016"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000011",
+      "name": "郭炳湘 (Kwok Ping Sheung Walter)",
+      "wikidata_qid": "Q380602",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-020"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000012",
+      "name": "马化腾 (Ma Huateng)",
+      "wikidata_qid": "Q1739008",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-022"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000013",
+      "name": "雷军 (Lei Jun)",
+      "wikidata_qid": "Q9000717",
+      "status": "listed",
+      "source_orgs": [
+        "HK-CORP-024"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000014",
+      "name": "余偉文 (Eddie Yue Wai-man)",
+      "wikidata_qid": "Q67932795",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000015",
+      "name": "李國寶 (David Li)",
+      "wikidata_qid": "Q5236581",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000016",
+      "name": "歐智華 (Stuart Gulliver)",
+      "wikidata_qid": "Q1666888",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000017",
+      "name": "Michael Geoghegan",
+      "wikidata_qid": "Q6830574",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000018",
+      "name": "斯蒂芬·格林 (Stephen Green, Baron Green of Hurstpierpoint)",
+      "wikidata_qid": "Q335910",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000019",
+      "name": "Keith Whitson",
+      "wikidata_qid": "Q26251175",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000020",
+      "name": "龐約翰 (John Bond)",
+      "wikidata_qid": "Q3181095",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000021",
+      "name": "浦偉士 (William Purves)",
+      "wikidata_qid": "Q8017137",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000022",
+      "name": "祈耀年 (Noel Quinn)",
+      "wikidata_qid": "Q66477676",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000023",
+      "name": "范宁 (John Flint)",
+      "wikidata_qid": "Q42887509",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000024",
+      "name": "范智廉 (Sir Douglas Flint)",
+      "wikidata_qid": "Q553390",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-005",
+        "HK-FIN-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000025",
+      "name": "杜嘉祺 (Mark Tucker)",
+      "wikidata_qid": "Q6770049",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-005",
+        "HK-FIN-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000026",
+      "name": "Rose Lee Wai Mun",
+      "wikidata_qid": "Q23762089",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000027",
+      "name": "Mike Wells",
+      "wikidata_qid": "Q20687564",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000028",
+      "name": "Paul Manduca",
+      "wikidata_qid": "Q20640859",
+      "status": "listed",
+      "source_orgs": [
+        "HK-FIN-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000029",
+      "name": "瓦德華女男爵蘇日塔·瓦德華 (Shriti Vadera, Baroness Vadera)",
+      "wikidata_qid": "Q1793381",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000030",
+      "name": "温拓思 (Bill Winters)",
+      "wikidata_qid": "Q19663112",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000031",
+      "name": "José Viñals Íñiguez",
+      "wikidata_qid": "Q21032614",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000032",
+      "name": "李家超 (John Lee)",
+      "wikidata_qid": "Q9051824",
+      "status": "listed",
+      "source_orgs": [
+        "HK-GOV-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000033",
+      "name": "陳國基 (Eric Chan)",
+      "wikidata_qid": "Q9439903",
+      "status": "listed",
+      "source_orgs": [
+        "HK-GOV-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000034",
+      "name": "黃文超 (Wang Man-chiu)",
+      "wikidata_qid": "Q111693192",
+      "status": "listed",
+      "source_orgs": [
+        "HK-GOV-031"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000035",
+      "name": "楊鐵樑 (Yang Ti-liang)",
+      "wikidata_qid": "Q3588237",
+      "status": "listed",
+      "source_orgs": [
+        "HK-NGO-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000036",
+      "name": "鄭棟材 (Cheng Tung-choi)",
+      "wikidata_qid": "Q18384192",
+      "status": "listed",
+      "source_orgs": [
+        "HK-NGO-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000037",
+      "name": "盧偉國 (Lo Wai-kwok)",
+      "wikidata_qid": "Q12140214",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000038",
+      "name": "梁家傑 (Leong Kah Kit Alan)",
+      "wikidata_qid": "Q200518",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000039",
+      "name": "李慧琼 (Starry Lee)",
+      "wikidata_qid": "Q1548856",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000040",
+      "name": "胡志偉 (Wu Chi-wai)",
+      "wikidata_qid": "Q8038881",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000041",
+      "name": "羅健熙 (Lo Kin-hei)",
+      "wikidata_qid": "Q15635911",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000042",
+      "name": "李柱銘 (Martin Lee)",
+      "wikidata_qid": "Q696659",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000043",
+      "name": "楊森 (Yeung Sum)",
+      "wikidata_qid": "Q1026809",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000044",
+      "name": "李永達 (Lee Wing-tat)",
+      "wikidata_qid": "Q1026921",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000045",
+      "name": "何俊仁 (Albert Ho)",
+      "wikidata_qid": "Q23626",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000046",
+      "name": "劉慧卿 (Lau Wai Hing Emily)",
+      "wikidata_qid": "Q698557",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000047",
+      "name": "吳秋北 (Ng Chau-pei)",
+      "wikidata_qid": "Q10919071",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000048",
+      "name": "李卓人 (Lee Cheuk-yan)",
+      "wikidata_qid": "Q23641",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000049",
+      "name": "葉劉淑儀 (Regina Ip)",
+      "wikidata_qid": "Q50835",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000050",
+      "name": "莫乃光 (Mok Charles Peter)",
+      "wikidata_qid": "Q5081014",
+      "status": "listed",
+      "source_orgs": [
+        "HK-PARTY-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000101",
+      "name": "盧煜明 (Dennis Lo)",
+      "wikidata_qid": "Q14915755",
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000102",
+      "name": "蔡雅德 (John Chai Yat-chiu)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000103",
+      "name": "潘惠賢 (Isabella Poon Wai-yin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000104",
+      "name": "張妙清 (Fanny M. Cheung)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000105",
+      "name": "梅彦昌 (Freddy Boey)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000106",
+      "name": "魏明德 (Michael Ngai Ming-tak)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000107",
+      "name": "李振聲 (Lee Chun-sing)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000108",
+      "name": "李子建 (John Lee Chi-kin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000109",
+      "name": "黃友嘉 (David Wong Yau-kar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000110",
+      "name": "Belinda Greer",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000111",
+      "name": "麥雅士 (Kim Mak)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000112",
+      "name": "何順文 (Simon Ho)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000113",
+      "name": "莫家豪 (Joshua Mok Ka-ho)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000114",
+      "name": "陳頌瑛 (Anna CY Chan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000115",
+      "name": "黃宇翹 (Symon Wong Yu-wing)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000116",
+      "name": "楊傳亮 (Charles Yang Chuen-liang)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000117",
+      "name": "衛炳江 (Alexander Wai)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000118",
+      "name": "黃英豪 (Kennedy Wong Ying-ho)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000119",
+      "name": "齊光 (Sunny Chai)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000120",
+      "name": "林群聲 (Paul Lam Kwan-sing)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000121",
+      "name": "黃天祥 (Conrad Wong Tin-cheung)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000122",
+      "name": "關清平 (Reggie Kwan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000123",
+      "name": "滕錦光 (Jin-Guang Teng)",
+      "wikidata_qid": "Q59877960",
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000124",
+      "name": "林大輝 (Lam Tai-fai)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000125",
+      "name": "葉中賢 (Daniel Yip Chung-yin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000126",
+      "name": "沈向洋 (Harry Shum)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000127",
+      "name": "鄭光廷 (Tim Cheng Kwang-ting)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000128",
+      "name": "秦泗釗 (S. Joe Qin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-011"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000129",
+      "name": "姚志漢 (Andrew Yao Cho-fai)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-011"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000130",
+      "name": "陳漢夫 (Raymond Chan Hon-fu)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-011"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000131",
+      "name": "張翔 (Xiang Zhang)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000132",
+      "name": "黃天牧 (Peter Wong Tung-shun)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "HK-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000301",
+      "name": "阮國恒 (Arthur Yuen)",
+      "wikidata_qid": "Q10851891",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000302",
+      "name": "李達志 (Howard Lee)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000303",
+      "name": "陳維民 (Darryl Chan)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-001"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000304",
+      "name": "李源祥 (Lee Yuan Siong)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000305",
+      "name": "孫煜 (Sun Yu)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000306",
+      "name": "李民橋 (Adrian Li)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000307",
+      "name": "李民斌 (Brian Li)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-004"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000308",
+      "name": "Georges Elhedery (喬治·艾爾赫德利)",
+      "wikidata_qid": "Q131458416",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-005"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000309",
+      "name": "鄭維新 (Edward Cheng)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000310",
+      "name": "林慧虹 (Luanne Lim)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-006"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000311",
+      "name": "唐家成 (Carlson Tong)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-007"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000312",
+      "name": "陳翊庭 (Bonnie Chan)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-007"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000313",
+      "name": "Phil Witherington (魏宏峰)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000314",
+      "name": "Anil Wadhwani (阿尼爾·瓦德瓦尼)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-009"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000315",
+      "name": "Maria Ramos (瑪麗亞·拉莫斯)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000316",
+      "name": "禤惠儀 (Mary Huen)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-010"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000317",
+      "name": "謝仕榮 (Edmund Tse)",
+      "wikidata_qid": "Q206015",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-002"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000318",
+      "name": "張輝 (Zhang Hui)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000319",
+      "name": "劉碧茵 (Vanessa Lau)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-007"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000321",
+      "name": "萬瑞安 (Roy Gori)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000322",
+      "name": "高迎欣 (Gao Yingxin)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-003"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000323",
+      "name": "Colin Simpson (科林·辛普森)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-FIN-008"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000501",
+      "name": "刘强东 (Richard Qiangdong Liu)",
+      "wikidata_qid": "Q57048",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-013"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000502",
+      "name": "许冉 (Sandy Ran Xu)",
+      "wikidata_qid": "Q111324831",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-013"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000503",
+      "name": "祈天立 (Ben Keswick)",
+      "wikidata_qid": "Q16197911",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-014"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000504",
+      "name": "金泽培 (Jacob Kam Ching-pui)",
+      "wikidata_qid": "Q16831855",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-016"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000505",
+      "name": "王兴 (Wang Xing)",
+      "wikidata_qid": "Q10932221",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-017"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000506",
+      "name": "穆荣均 (Mu Rongjun)",
+      "wikidata_qid": "Q111297568",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-017"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000507",
+      "name": "郑家纯 (Henry Cheng Kar-shun)",
+      "wikidata_qid": "Q7063210",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-018"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000508",
+      "name": "郑志刚 (Adrian Cheng)",
+      "wikidata_qid": "Q10854468",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-018"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000509",
+      "name": "黄志祥 (Robert Ng Chee Siong)",
+      "wikidata_qid": "Q7349069",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-019"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000510",
+      "name": "黄永光 (Daryl Ng Win-kong)",
+      "wikidata_qid": "Q20636434",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-019"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000511",
+      "name": "郭炳联 (Raymond Kwok Ping-luen)",
+      "wikidata_qid": "Q7278083",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-020"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000512",
+      "name": "施怀德 (Guy Bradley)",
+      "wikidata_qid": "Q26216303",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-021"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000513",
+      "name": "施铭伦 (Merlin Swire)",
+      "wikidata_qid": "Q8066466",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-021"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000514",
+      "name": "刘炽平 (Martin Lau Chi-ping)",
+      "wikidata_qid": "Q162897",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-022"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000515",
+      "name": "张志东 (Tony Zhang Zhidong)",
+      "wikidata_qid": "Q10859699",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-022"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000516",
+      "name": "李家杰 (Peter Lee Ka-kit)",
+      "wikidata_qid": "Q7063107",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-023"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000517",
+      "name": "黄维义 (Peter Wong Wai-yee)",
+      "wikidata_qid": null,
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-023"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000518",
+      "name": "林斌 (Lin Bin)",
+      "wikidata_qid": "Q1086182",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-024"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000519",
+      "name": "卢伟冰 (Lu Weibing)",
+      "wikidata_qid": "Q60862175",
+      "status": "profiled_lite",
+      "source_orgs": [
+        "HK-CORP-024"
+      ]
+    },
+    {
+      "person_id": "HK-PERSON-000401",
+      "name": "李澤鉅 (Victor Li Tzar-kuoi)",
+      "name_en": "Victor Li Tzar-kuoi",
+      "nationality": "HK",
+      "wikidata_qid": "Q700167",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000402",
+      "name": "霍建寧 (Canning Fok Kin-ning)",
+      "name_en": "Canning Fok Kin-ning",
+      "nationality": "HK",
+      "wikidata_qid": "Q291785",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000403",
+      "name": "李嘉誠 (Li Ka-shing)",
+      "name_en": "Li Ka-shing",
+      "nationality": "HK",
+      "wikidata_qid": "Q20151",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000404",
+      "name": "葉德銓 (Edmond Ip Tak-chuen)",
+      "name_en": "Edmond Ip Tak-chuen",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000405",
+      "name": "甘慶林 (Kam Hing Lam)",
+      "name_en": "Kam Hing Lam",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000406",
+      "name": "Andrew John Hunter (亨特)",
+      "name_en": "Andrew John Hunter",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000407",
+      "name": "李兆基 (Lee Shau-kee)",
+      "name_en": "Lee Shau-kee",
+      "nationality": "HK",
+      "wikidata_qid": "Q316607",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000408",
+      "name": "林高演 (Colin Lam Ko-yin)",
+      "name_en": "Colin Lam Ko-yin",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000409",
+      "name": "李家誠 (Martin Lee Ka-shing)",
+      "name_en": "Martin Lee Ka-shing",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000410",
+      "name": "米高·嘉道理 (Michael Kadoorie)",
+      "name_en": "Michael David Kadoorie",
+      "nationality": "HK",
+      "wikidata_qid": "Q3308477",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000411",
+      "name": "包立賢 (Andrew Brandler)",
+      "name_en": "Andrew Clifford Winawer Brandler",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000412",
+      "name": "蔣東強 (Chiang Tung Keung)",
+      "name_en": "Chiang Tung Keung",
+      "nationality": "HK",
+      "wikidata_qid": "Q6975021",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000413",
+      "name": "楊美珍 (Jeny Yeung Mei-chun)",
+      "name_en": "Jeny Yeung Mei-chun",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000414",
+      "name": "潘志偉 (Lincoln Pan)",
+      "name_en": "Lincoln Pan",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000415",
+      "name": "韋思齊 (John Witt)",
+      "name_en": "John R. Witt",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000801",
+      "name": "盧永雄 (Lo Wing-hung)",
+      "name_en": "Lo Wing-hung",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000802",
+      "name": "李彤 (Li Tong)",
+      "name_en": "Li Tong",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000803",
+      "name": "蘇曉婷 (Su Xiaoting)",
+      "name_en": "Su Xiaoting",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000804",
+      "name": "莊偉茵 (Quince Chong)",
+      "name_en": "Quince Chong Wai-yan, JP",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000805",
+      "name": "鄧傳鏘 (Vincent Teng)",
+      "name_en": "Vincent Teng Chuen-cheong",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000806",
+      "name": "李澤楷 (Richard Li)",
+      "name_en": "Richard Li Tzar-kai",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000807",
+      "name": "黃金少 (Raymond Huang)",
+      "name_en": "Raymond Huang",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000808",
+      "name": "高敬森 (Alex Ko)",
+      "name_en": "Alex Ko Chi-ngai",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000809",
+      "name": "李澤楷 (Richard Li)",
+      "name_en": "Richard Li Tzar-kai",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000810",
+      "name": "李若凡 (Janice Lee)",
+      "name_en": "Janice Lee",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000811",
+      "name": "李百全 (Patrick Li)",
+      "name_en": "Patrick Li Pak-chuen",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000812",
+      "name": "衛懿欣 (Wai Yee-chun)",
+      "name_en": "Wai Yee-chun, JP",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000813",
+      "name": "黎廷瑤 (Lai Ting-yiu)",
+      "name_en": "Lai Ting Yiu",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000814",
+      "name": "郭英成 (Guo Yingcheng)",
+      "name_en": "Guo Yingcheng",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000815",
+      "name": "譚衛兒 (Tammy Tam)",
+      "name_en": "Tammy Tam Wai-yi",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000816",
+      "name": "周松剛 (Chow Chung-yan)",
+      "name_en": "Chow Chung-yan",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000817",
+      "name": "蘇勵恆 (Catherine So)",
+      "name_en": "Catherine So",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000818",
+      "name": "許濤 (Thomas Hui)",
+      "name_en": "Thomas Hui",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000819",
+      "name": "蕭世和 (Siu Sai-wo)",
+      "name_en": "Siu Sai-wo",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000820",
+      "name": "曾志偉 (Eric Tsang)",
+      "name_en": "Eric Tsang Chi-wai",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000821",
+      "name": "陳美娟 (Bonnie Chen)",
+      "name_en": "Bonnie Chen",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000822",
+      "name": "湯錦標 (Mr. Tong)",
+      "name_en": "Mr. Tong Kam-biu",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000823",
+      "name": "管浩鳴 (Peter Koon)",
+      "name_en": "Revd. Canon Peter Douglas Koon Ho-ming, SBS, JP",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000824",
+      "name": "陳文宜 (Grace Chan)",
+      "name_en": "Grace Chan Man-yee",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000825",
+      "name": "何驥 (George Ho)",
+      "name_en": "George Joseph Ho",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000826",
+      "name": "劉楚釗 (Lau Cho-chou)",
+      "name_en": "Dr. Lau Cho Chou",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000827",
+      "name": "蘇婉嫻 (So Yuen-han)",
+      "name_en": "Ms. So Yuen Han",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000828",
+      "name": "韋能 (Wayne Porritt)",
+      "name_en": "Wayne Porritt",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000829",
+      "name": "鄧智輝 (Henry Tang)",
+      "name_en": "Henry Tang Chi-fai",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000830",
+      "name": "李何芷韻 (Helena Lee)",
+      "name_en": "Mrs. Helena Lee Ho Tsz-wan",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000831",
+      "name": "譚毓楢 (Jenny Tam)",
+      "name_en": "Dr. Jenny Tam Yuet-jing",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000832",
+      "name": "李林麗嬋 (Janet Lee)",
+      "name_en": "Mrs. Janet Lee Lam Lai-sin",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000833",
+      "name": "李穎賢 (Cecilia Li)",
+      "name_en": "Cecilia Li Wing-yin",
+      "nationality": "HK",
+      "wikidata_qid": null,
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-001101",
+      "wikidata_qid": "Q710786",
+      "name": "李國章 (Arthur Li Kwok-cheung)",
+      "name_en": "Arthur Li Kwok-cheung",
+      "name_zh": "李國章",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001102",
+      "wikidata_qid": "Q7066146",
+      "name": "張宇人 (Tommy Cheung Yu-yan)",
+      "name_en": "Tommy Cheung Yu-yan",
+      "name_zh": "張宇人",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001103",
+      "wikidata_qid": "Q16243650",
+      "name": "廖長江 (Martin Liao Che-kong)",
+      "name_en": "Martin Liao Che-kong",
+      "name_zh": "廖長江",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001104",
+      "wikidata_qid": "Q707107",
+      "name": "任志剛 (Joseph Yam Chi-kwong)",
+      "name_en": "Joseph Yam Chi-kwong",
+      "name_zh": "任志剛",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001105",
+      "wikidata_qid": "Q10854582",
+      "name": "湯家驊 (Ronny Tong Ka-wah)",
+      "name_en": "Ronny Tong Ka-wah",
+      "name_zh": "湯家驊",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001106",
+      "wikidata_qid": "Q16244286",
+      "name": "林正財 (Lam Ching-choi)",
+      "name_en": "Lam Ching-choi",
+      "name_zh": "林正財",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001107",
+      "wikidata_qid": "Q10931698",
+      "name": "鄭慕智 (Fanny Cheung Mu-chi)",
+      "name_en": "Fanny Cheung Mu-chi",
+      "name_zh": "鄭慕智",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001108",
+      "wikidata_qid": "Q10918610",
+      "name": "梁高美懿 (Margaret Leung Ko May-yee)",
+      "name_en": "Margaret Leung Ko May-yee",
+      "name_zh": "梁高美懿",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001109",
+      "wikidata_qid": "Q10845212",
+      "name": "陳健波 (Chan Kin-por)",
+      "name_en": "Chan Kin-por",
+      "name_zh": "陳健波",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001110",
+      "wikidata_qid": "Q16243839",
+      "name": "陳清霞 (Priscilla Chan Ching-ha)",
+      "name_en": "Priscilla Chan Ching-ha",
+      "name_zh": "陳清霞",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001111",
+      "wikidata_qid": "Q16244021",
+      "name": "高永文 (Ko Wing-man)",
+      "name_en": "Ko Wing-man",
+      "name_zh": "高永文",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001112",
+      "wikidata_qid": "Q15936600",
+      "name": "蔡冠深 (Jonathan Choi Koon-shum)",
+      "name_en": "Jonathan Choi Koon-shum",
+      "name_zh": "蔡冠深",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001113",
+      "wikidata_qid": "Q10891755",
+      "name": "張志剛 (Cheung Chi-kong)",
+      "name_en": "Cheung Chi-kong",
+      "name_zh": "張志剛",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001114",
+      "wikidata_qid": null,
+      "name": "李山 (Li Shan)",
+      "name_en": "Li Shan",
+      "name_zh": "李山",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001115",
+      "wikidata_qid": "Q10874227",
+      "name": "胡定旭 (Anthony Wu Ting-yuk)",
+      "name_en": "Anthony Wu Ting-yuk",
+      "name_zh": "胡定旭",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001116",
+      "wikidata_qid": null,
+      "name": "李國棟 (Lawrence Li Kwok-tung)",
+      "name_en": "Lawrence Li Kwok-tung",
+      "name_zh": "李國棟",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001117",
+      "wikidata_qid": null,
+      "name": "莊子雄 (Steve Chuang Tzu-hsiung)",
+      "name_en": "Steve Chuang Tzu-hsiung",
+      "name_zh": "莊子雄",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001118",
+      "wikidata_qid": null,
+      "name": "林家駿 (Anthony Lam)",
+      "name_en": "Anthony Lam",
+      "name_zh": "林家駿",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001119",
+      "wikidata_qid": "Q6207681",
+      "name": "陳瑞娟 (Agnes Chan)",
+      "name_en": "Agnes Chan",
+      "name_zh": "陳瑞娟",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001120",
+      "wikidata_qid": null,
+      "name": "梁兆基 (George Leung Siu-kay)",
+      "name_en": "George Leung Siu-kay",
+      "name_zh": "梁兆基",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001121",
+      "wikidata_qid": "Q324492",
+      "name": "劉遵義 (Lawrence J. Lau)",
+      "name_en": "Lawrence J. Lau",
+      "name_zh": "劉遵義",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001122",
+      "wikidata_qid": "Q41419087",
+      "name": "廖宜暉 (David Liao Siu-wei)",
+      "name_en": "David Liao Siu-wei",
+      "name_zh": "廖宜暉",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001123",
+      "wikidata_qid": null,
+      "name": "羅哲宏 (Surendra Rosha)",
+      "name_en": "Surendra Rosha",
+      "name_zh": "羅哲宏",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001124",
+      "wikidata_qid": null,
+      "name": "吳燕婉 (Maggie Ng)",
+      "name_en": "Maggie Ng",
+      "name_zh": "吳燕婉",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001125",
+      "wikidata_qid": "Q16607817",
+      "name": "劉鳴煒 (Lau Ming-wai)",
+      "name_en": "Lau Ming-wai",
+      "name_zh": "劉鳴煒",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001126",
+      "wikidata_qid": "Q16188873",
+      "name": "曾鈺成 (Jasper Tsang Yok-sing)",
+      "name_en": "Jasper Tsang Yok-sing",
+      "name_zh": "曾鈺成",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001127",
+      "wikidata_qid": null,
+      "name": "白德利 (Tim Blackburn)",
+      "name_en": "Tim Blackburn",
+      "name_zh": "白德利",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001128",
+      "wikidata_qid": "Q2854670",
+      "name": "鄭志剛 (Adrian Cheng)",
+      "name_en": "Adrian Cheng",
+      "name_zh": "鄭志剛",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001129",
+      "wikidata_qid": null,
+      "name": "馬紹祥 (Eric Ma Siu-cheung)",
+      "name_en": "Eric Ma Siu-cheung",
+      "name_zh": "馬紹祥",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001130",
+      "wikidata_qid": "Q7062269",
+      "name": "史美倫 (Laura Cha Shih May-lung)",
+      "name_en": "Laura Cha Shih May-lung",
+      "name_zh": "史美倫",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001131",
+      "wikidata_qid": "Q71093194",
+      "name": "羅碩瀚 (John Lo Shiu-hon)",
+      "name_en": "John Lo Shiu-hon",
+      "name_zh": "羅碩瀚",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001132",
+      "wikidata_qid": null,
+      "name": "陳少暉 (Shaohui Chen)",
+      "name_en": "Shaohui Chen",
+      "name_zh": "陳少暉",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001133",
+      "wikidata_qid": "Q16244439",
+      "name": "歐陽伯權 (Rex Auyeung Pak-kuen)",
+      "name_en": "Rex Auyeung Pak-kuen",
+      "name_zh": "歐陽伯權",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001134",
+      "wikidata_qid": "Q10980815",
+      "name": "金澤培 (Jacob Kam Chak-pui)",
+      "name_en": "Jacob Kam Chak-pui",
+      "name_zh": "金澤培",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001135",
+      "wikidata_qid": null,
+      "name": "林國興 (Susanna Hui Hon-kwun)",
+      "name_en": "Susanna Hui Hon-kwun",
+      "name_zh": "林國興",
+      "nationality": "HK",
+      "gender": "female",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001136",
+      "wikidata_qid": null,
+      "name": "夏雅朗 (Aron Harilela)",
+      "name_en": "Aron Harilela",
+      "name_zh": "夏雅朗",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001137",
+      "wikidata_qid": "Q10881583",
+      "name": "陳智思 (Bernard Chan)",
+      "name_en": "Bernard Chan",
+      "name_zh": "陳智思",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001138",
+      "wikidata_qid": "Q10859786",
+      "name": "陳振英 (Ronick Chan Chun-ying)",
+      "name_en": "Ronick Chan Chun-ying",
+      "name_zh": "陳振英",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001139",
+      "wikidata_qid": "Q7066394",
+      "name": "吳光正 (Peter Woo Kwong-ching)",
+      "name_en": "Peter Woo Kwong-ching",
+      "name_zh": "吳光正",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-001140",
+      "wikidata_qid": "Q7106663",
+      "name": "羅康瑞 (Vincent Lo Hong-sui)",
+      "name_en": "Vincent Lo Hong-sui",
+      "name_zh": "羅康瑞",
+      "nationality": "HK",
+      "gender": "male",
+      "collection_date": "2026-07-24",
+      "phase": "phase4_person_lite"
+    },
+    {
+      "person_id": "HK-PERSON-000901",
+      "name": "梁熙",
+      "name_en": "Leung Hei Edward",
+      "nationality": "HK",
+      "wikidata_qid": "Q109453167",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000902",
+      "name": "陳學鋒",
+      "name_en": "Chan Hok-fung",
+      "nationality": "HK",
+      "wikidata_qid": "Q88913639",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000903",
+      "name": "鄧家彪",
+      "name_en": "Tang Ka-piu",
+      "nationality": "HK",
+      "wikidata_qid": "Q14476291",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000904",
+      "name": "顏汶羽",
+      "name_en": "Ngan Man-yu",
+      "nationality": "HK",
+      "wikidata_qid": "Q48919459",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000905",
+      "name": "梁文廣",
+      "name_en": "Leung Man Kwong",
+      "nationality": "HK",
+      "wikidata_qid": "Q52397261",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000906",
+      "name": "鄭泳舜",
+      "name_en": "Vincent Cheng",
+      "nationality": "HK",
+      "wikidata_qid": "Q20091635",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000907",
+      "name": "楊永杰",
+      "name_en": "Yang Wing-kit",
+      "nationality": "HK",
+      "wikidata_qid": "Q54357619",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000908",
+      "name": "李世榮",
+      "name_en": "Li Sai-wing",
+      "nationality": "HK",
+      "wikidata_qid": "Q78123387",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000909",
+      "name": "林素蔚",
+      "name_en": "Connie Lam",
+      "nationality": "HK",
+      "wikidata_qid": "Q110246085",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000910",
+      "name": "張欣宇",
+      "name_en": "Zhang Xinyu",
+      "nationality": "HK",
+      "wikidata_qid": "Q110231739",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000911",
+      "name": "劉國勳",
+      "name_en": "Edward Lau Kwok-fan",
+      "nationality": "HK",
+      "wikidata_qid": "Q9112403",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000912",
+      "name": "田北辰",
+      "name_en": "Michael Tien",
+      "nationality": "HK",
+      "wikidata_qid": "Q80332",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000913",
+      "name": "陳恒鑌",
+      "name_en": "Ben Chan",
+      "nationality": "HK",
+      "wikidata_qid": "Q4885408",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000914",
+      "name": "陳穎欣",
+      "name_en": "Chan Wing Yan",
+      "nationality": "HK",
+      "wikidata_qid": "Q28932308",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000915",
+      "name": "李梓敬",
+      "name_en": "Dominic Lee Tsz-king",
+      "nationality": "HK",
+      "wikidata_qid": "Q16923214",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000916",
+      "name": "何俊賢",
+      "name_en": "Ho Chun Yin Steven",
+      "nationality": "HK",
+      "wikidata_qid": "Q7614821",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000917",
+      "name": "陳健波",
+      "name_en": "Chan Kin-por",
+      "nationality": "HK",
+      "wikidata_qid": "Q5070327",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000918",
+      "name": "易志明",
+      "name_en": "Frankie Yick",
+      "nationality": "HK",
+      "wikidata_qid": "Q5491095",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000919",
+      "name": "朱國強",
+      "name_en": "Chu Kwok-keung",
+      "nationality": "HK",
+      "wikidata_qid": "Q55708559",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000920",
+      "name": "林新強",
+      "name_en": "Ambrose Lam",
+      "nationality": "HK",
+      "wikidata_qid": "Q17499907",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000921",
+      "name": "黃俊碩",
+      "name_en": "Edmund Wong",
+      "nationality": "HK",
+      "wikidata_qid": "Q110653364",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000922",
+      "name": "林哲玄",
+      "name_en": "Lam Tzit Yuen David",
+      "nationality": "HK",
+      "wikidata_qid": "Q110317082",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000923",
+      "name": "謝偉銓",
+      "name_en": "Tony Tse",
+      "nationality": "HK",
+      "wikidata_qid": "Q5541244",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000924",
+      "name": "梁子穎",
+      "name_en": "Dennis Leung Tsz Wing",
+      "nationality": "HK",
+      "wikidata_qid": "Q9297490",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000925",
+      "name": "周小松",
+      "name_en": "Chau Siu-chung",
+      "nationality": "HK",
+      "wikidata_qid": "Q110786565",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000926",
+      "name": "郭偉强",
+      "name_en": "Kwok Wai-keung",
+      "nationality": "HK",
+      "wikidata_qid": "Q13642421",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000927",
+      "name": "狄志遠",
+      "name_en": "Tik Chi-yuen",
+      "nationality": "HK",
+      "wikidata_qid": "Q7801860",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000928",
+      "name": "龍漢標",
+      "name_en": "Louis Loong",
+      "nationality": "HK",
+      "wikidata_qid": "Q110532471",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000929",
+      "name": "姚柏良",
+      "name_en": "Yiu Pak-leung",
+      "nationality": "HK",
+      "wikidata_qid": "Q54355577",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000930",
+      "name": "廖長江",
+      "name_en": "Martin Liao",
+      "nationality": "HK",
+      "wikidata_qid": "Q1522171",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000931",
+      "name": "嚴剛",
+      "name_en": "Erik Yim",
+      "nationality": "HK",
+      "wikidata_qid": "Q110532594",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000932",
+      "name": "吳永嘉",
+      "name_en": "Ng Wing-ka",
+      "nationality": "HK",
+      "wikidata_qid": "Q26211043",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000933",
+      "name": "陳振英",
+      "name_en": "Ronick Chan Chun-ying",
+      "nationality": "HK",
+      "wikidata_qid": "Q26703335",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000934",
+      "name": "李惟宏",
+      "name_en": "Robert Lee Wai-wang",
+      "nationality": "HK",
+      "wikidata_qid": "Q110653366",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000935",
+      "name": "霍啟剛",
+      "name_en": "Kenneth Fok",
+      "nationality": "HK",
+      "wikidata_qid": "Q8958593",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000936",
+      "name": "邵家輝",
+      "name_en": "Peter Shiu",
+      "nationality": "HK",
+      "wikidata_qid": "Q19853823",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000937",
+      "name": "邱達根",
+      "name_en": "Duncan Chiu",
+      "nationality": "HK",
+      "wikidata_qid": "Q9026378",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000938",
+      "name": "張宇人",
+      "name_en": "Tommy Cheung",
+      "nationality": "HK",
+      "wikidata_qid": "Q7819303",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000939",
+      "name": "陳勇",
+      "name_en": "Chan Yung",
+      "nationality": "HK",
+      "wikidata_qid": "Q16923211",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000940",
+      "name": "陸頌雄",
+      "name_en": "Luk Chung-hung",
+      "nationality": "HK",
+      "wikidata_qid": "Q26251804",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000941",
+      "name": "馬逢國",
+      "name_en": "Ma Fung-kwok",
+      "nationality": "HK",
+      "wikidata_qid": "Q6720732",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000942",
+      "name": "陳凱欣",
+      "name_en": "Chan Hoi-yan",
+      "nationality": "HK",
+      "wikidata_qid": "Q8942683",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000943",
+      "name": "鄧飛",
+      "name_en": "Tang Fei",
+      "nationality": "HK",
+      "wikidata_qid": "Q15922830",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000944",
+      "name": "謝偉俊",
+      "name_en": "Paul Tse",
+      "nationality": "HK",
+      "wikidata_qid": "Q3479098",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000945",
+      "name": "林筱魯",
+      "name_en": "Lam Siu-lo",
+      "nationality": "HK",
+      "wikidata_qid": "Q22099789",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000946",
+      "name": "周文港",
+      "name_en": "Chow Man-kong",
+      "nationality": "HK",
+      "wikidata_qid": "Q111511848",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000947",
+      "name": "江玉歡",
+      "name_en": "Kong Yuk Foon Doreen",
+      "nationality": "HK",
+      "wikidata_qid": "Q110645248",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000948",
+      "name": "陳月明",
+      "name_en": "Chan Yuet-ming",
+      "nationality": "HK",
+      "wikidata_qid": "Q110786518",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000949",
+      "name": "李浩然",
+      "name_en": "Hoey Simon Lee",
+      "nationality": "HK",
+      "wikidata_qid": "Q110532592",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000950",
+      "name": "陳家珮",
+      "name_en": "Judy Chan",
+      "nationality": "HK",
+      "wikidata_qid": "Q17499686",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000951",
+      "name": "陳曼琪",
+      "name_en": "Chan Man Ki Maggie",
+      "nationality": "HK",
+      "wikidata_qid": "Q16908007",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000952",
+      "name": "蘇長荣",
+      "name_en": "So Cheung-wing",
+      "nationality": "HK",
+      "wikidata_qid": "Q113297550",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000953",
+      "name": "譚岳衡",
+      "name_en": "Tan Yueheng",
+      "nationality": "HK",
+      "wikidata_qid": "Q110246078",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000954",
+      "name": "吳傑莊",
+      "name_en": "Johnny Ng",
+      "nationality": "HK",
+      "wikidata_qid": "Q65052445",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000955",
+      "name": "陳紹雄",
+      "name_en": "Chan Siu-hung",
+      "nationality": "HK",
+      "wikidata_qid": "Q110532586",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000956",
+      "name": "洪雯",
+      "name_en": "Wendy Hong",
+      "nationality": "HK",
+      "wikidata_qid": "Q110246083",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000957",
+      "name": "林順潮",
+      "name_en": "Dennis Lam",
+      "nationality": "HK",
+      "wikidata_qid": "Q11107186",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000958",
+      "name": "陳仲尼",
+      "name_en": "Rock Chen Chung-nin",
+      "nationality": "HK",
+      "wikidata_qid": "Q60993101",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000959",
+      "name": "容海恩",
+      "name_en": "Yung Hoi Yan",
+      "nationality": "HK",
+      "wikidata_qid": "Q24837388",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000960",
+      "name": "陳沛良",
+      "name_en": "Chan Pui-leung",
+      "nationality": "HK",
+      "wikidata_qid": "Q110786468",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000961",
+      "name": "劉智鵬",
+      "name_en": "Chi-pang Lau",
+      "nationality": "HK",
+      "wikidata_qid": "Q10899938",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000962",
+      "name": "簡慧敏",
+      "name_en": "Carmen Kan",
+      "nationality": "HK",
+      "wikidata_qid": "Q110653662",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000963",
+      "name": "林琳",
+      "name_en": "Lam Lam Nixie",
+      "nationality": "HK",
+      "wikidata_qid": "Q85881358",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000964",
+      "name": "陸瀚民",
+      "name_en": "Benson Luk",
+      "nationality": "HK",
+      "wikidata_qid": "Q110406242",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000965",
+      "name": "葛珮帆",
+      "name_en": "Elizabeth Quat",
+      "nationality": "HK",
+      "wikidata_qid": "Q5363394",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000966",
+      "name": "郭玲麗",
+      "name_en": "Lillian Kwok",
+      "nationality": "HK",
+      "wikidata_qid": "Q110406068",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000967",
+      "name": "黎棟國",
+      "name_en": "Lai Tung-kwok",
+      "nationality": "HK",
+      "wikidata_qid": "Q372525",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000968",
+      "name": "何君堯",
+      "name_en": "Ho Kwan Yiu",
+      "nationality": "HK",
+      "wikidata_qid": "Q6313725",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000969",
+      "name": "麥美娟",
+      "name_en": "Alice Mak",
+      "nationality": "HK",
+      "wikidata_qid": "Q4725987",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000970",
+      "name": "黃元山",
+      "name_en": "Stephen Wong",
+      "nationality": "HK",
+      "wikidata_qid": "Q11176005",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000971",
+      "name": "李鎮強",
+      "name_en": "Lee Chun-keung",
+      "nationality": "HK",
+      "wikidata_qid": "Q110405427",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000972",
+      "name": "張國鈞",
+      "name_en": "Horace Cheung",
+      "nationality": "HK",
+      "wikidata_qid": "Q7237065",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000973",
+      "name": "梁毓偉",
+      "name_en": "Kenneth Leung Yuk-wai",
+      "nationality": "HK",
+      "wikidata_qid": "Q110107956",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000974",
+      "name": "林振昇",
+      "name_en": "Lam Chun-sing",
+      "nationality": "HK",
+      "wikidata_qid": "Q111693353",
+      "countries": [
+        "HK"
+      ],
+      "phase": "phase4_person_lite",
+      "collection_date": "2026-07-24"
+    },
+    {
+      "person_id": "HK-PERSON-000001",
+      "name_en": "林天福 (Fred Lam) - 董事會主席 [HK-PERSON-000618]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000002",
+      "name_en": "張李佳蕙 (Vivian Cheung) - 行政總裁 [HK-PERSON-000619]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000003",
+      "name_en": "林智遠 (Nelson Lam) - 審計署署長 [HK-PERSON-000607]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000004",
+      "name_en": "丘應樺 (Algernon Yau) - 商務及經濟發展局局長 [HK-PERSON-000604]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000005",
+      "name_en": "陳家殷 (Samuel Chan Ka-yan) - 主席 [HK-PERSON-000608]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000006",
+      "name_en": "畢仲明 (Rasul Butt) - 行政總裁 [HK-PERSON-000609]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000007",
+      "name_en": "陳錦榮 (Clement Chan Kam-wing) - 主席 [HK-PERSON-000610]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000008",
+      "name_en": "岑昭慧 (Alaina Shum) - 總幹事 [HK-PERSON-000611]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000009",
+      "name_en": "駱應淦 (David Lok Kai-hong) - 主席 [HK-PERSON-000612]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000010",
+      "name_en": "林美美 (Linda Lam Mei-sau) - 主席 [HK-PERSON-000613]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000011",
+      "name_en": "許正宇 (Christopher Hui Ching-yu) - 財經事務及庫務局局長 [HK-PERSON-000605]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000012",
+      "name_en": "李惠光 (Ir Sunny Lee) - 董事會主席 [HK-PERSON-000620]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000013",
+      "name_en": "孫孝明 (Ir Dr Ted Suen) - 行政總裁 [HK-PERSON-000621]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000014",
+      "name_en": "張舉能 (Andrew Cheung Kui-nung) - 終審法院首席法官 [HK-PERSON-000615]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000015",
+      "name_en": "陳子達 (Chan Tsz-tat) - 海關關長 [HK-PERSON-000616]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000016",
+      "name_en": "何永賢 (Winnie Ho Wing-yin) - 主席（房屋局局長兼任） [HK-PERSON-000606]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000017",
+      "name_en": "周一鳴 (Joe Chow Yat-ming) - 警務處處長 [HK-PERSON-000617]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000018",
+      "name_en": "陳祖恒 (Sunny Tan) - 主席 [HK-PERSON-000622]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-000019",
+      "name_en": "畢學禮 (Mohamed D. Butt) - 執行總監 [HK-PERSON-000623]",
+      "importance_level": "low",
+      "org_ids": []
+    },
+    {
+      "person_id": "HK-PERSON-001141",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001142",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001143",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001144",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001145",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001146",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001147",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001148",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001149",
+      "name": "",
+      "status": "stub"
+    },
+    {
+      "person_id": "HK-PERSON-001150",
+      "name": "",
+      "status": "stub"
+    }
+  ],
+  "person_counters": {
+    "HK": 1214,
+    "HK-PERSON": 1150
+  }
+}

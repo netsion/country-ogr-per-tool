@@ -34,19 +34,19 @@
     {
       "person_id": "PG-PERSON-000001",
       "name": "詹姆斯·马拉佩 (James Marape)",
-      "title": "总理兼国库部长",
+      "title": "总理",
       "title_description": "国家执行委员会主席,领导内阁制定和执行国家政策",
       "description": "自2019年5月起担任巴布亚新几内亚总理,领导Pangu Pati政党联盟,2022年8月连任,推进'Reset@50'改革议程"
     },
     {
-      "person_id": "PG-PERSON-000059",
+      "person_id": "PG-PERSON-000131",
       "name": "约翰·罗索 (John Rosso)",
       "title": "副总理兼土地与规划部长",
       "title_description": "内阁副职领导人,协助总理处理内阁事务",
       "description": "自2022年8月起担任副总理,是Pangu Pati核心成员,负责土地与物理规划事务"
     },
     {
-      "person_id": "PG-PERSON-000060",
+      "person_id": "PG-PERSON-000107",
       "name": "格蕾丝·索翁 (Grace So'on)",
       "title": "国家执行委员会秘书",
       "title_description": "负责NEC秘书处的行政管理和决策记录",
@@ -55,16 +55,16 @@
     {
       "person_id": "PG-PERSON-000004",
       "name": "伊恩·林-斯塔基 (Ian Ling-Stuckey)",
-      "title": "协助总理的部长",
-      "title_description": "协助总理处理经济与财政事务",
-      "description": "资深政治家,曾在2019-2024年担任国库部长,2024年1月内阁改组后担任协助总理的部长职务"
+      "title": "国库部长（Minister for Treasury）",
+      "title_description": "负责国家财政政策、预算编制和经济管理",
+      "description": "资深政治家,2026年7月内阁改组后重任国库部长,此前曾担任协助总理的部长职务,隶属Pangu Pati"
     },
     {
       "person_id": "PG-PERSON-000006",
-      "name": "温·达基 (Win Daki)",
-      "title": "商务与工业部长",
-      "title_description": "负责国家商业发展和工业政策",
-      "description": "2024年1月内阁改组后被任命为商务与工业部长,隶属Pangu Pati"
+      "name": "温·巴克里·达基 (Win Bakri Daki)",
+      "title": "国防部长（Minister for Defence）",
+      "title_description": "负责国家防务和安全事务",
+      "description": "2026年7月内阁改组后被任命为国防部长,隶属Pangu Pati"
     }
   ],
   "departments": [
@@ -79,7 +79,7 @@
       "name": "国库部 (Department of Treasury)",
       "dept_id": "PG-GOV-001-DEPT-002",
       "head": null,
-      "description": "负责国家财政政策、预算编制和经济管理,由总理詹姆斯·马拉佩兼任国库部长",
+      "description": "负责国家财政政策、预算编制和经济管理,由国库部长 Ian Ling-Stuckey 领导",
       "parent_dept_id": null
     },
     {
@@ -93,18 +93,25 @@
       "name": "国防部 (Department of Defence)",
       "dept_id": "PG-GOV-001-DEPT-004",
       "head": null,
-      "description": "负责国家防务和安全事务,由威廉·约瑟夫(William Joseph)担任国防部长",
+      "description": "负责国家防务和安全事务,由国防部长 Win Bakri Daki 担任",
       "parent_dept_id": null
     },
     {
       "name": "教育部 (Department of Education)",
       "dept_id": "PG-GOV-001-DEPT-005",
       "head": null,
-      "description": "负责国家教育政策和学校管理,由吉米·乌古罗(Jimmy Uguro)担任教育部长",
+      "description": "负责国家教育政策和学校管理,由教育部长 Francis Kikin Siune 担任（2026年7月14日内阁改组后）",
       "parent_dept_id": null
     }
   ],
   "recent_events": [
+    {
+      "date": "2026-07-14",
+      "title": "Marape announces major cabinet reshuffle, six new ministers sworn in",
+      "description": "总理马拉佩宣布内阁改组,6位新部长宣誓就职：Douglas Tomuriesa（民航）、Robert Naguri（ICT）、Francis Kikin Siune（教育）、Saki Hacky Soloma（劳工）、John Numoi Kaupa（环境）、Agena Gamai（某职）。Timothy Masiu、Lucas Dawa Dekena、Simon Kilepa 等前部长被接替。",
+      "impact": "马拉佩政府任内最大规模内阁改组之一,强化Reset@50改革议程推动力",
+      "source": "https://www.scoop.co.nz/stories/WO2607/S00134/papua-new-guinea-pm-announces-cabinet-reshuffle-government-reforms.htm"
+    },
     {
       "date": "2026-01-14",
       "title": "马拉佩宣布内阁改组,三位新部长宣誓就职",
@@ -188,8 +195,8 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-06-06",
-    "phase": "phase3_enriched",
+    "collection_date": "2026-07-15",
+    "phase": "phase5_quality_check",
     "quotes": [
       {
         "title": "National Executive Council of Papua New Guinea - Wikipedia",
@@ -214,6 +221,10 @@
       {
         "title": "PNG Launches 2025-2032 SEZ Foundation Policy - PNG Business News",
         "url": "https://www.pngbusinessnews.com/articles/2025/7/png-launches-2025-2032-special-economic-zone-foundation-policy"
+      },
+      {
+        "title": "Papua New Guinea PM Announces Cabinet Reshuffle - Scoop.co.nz",
+        "url": "https://www.scoop.co.nz/stories/WO2607/S00134/papua-new-guinea-pm-announces-cabinet-reshuffle-government-reforms.htm"
       }
     ],
     "data_sources": [
@@ -224,6 +235,6 @@
       "government_portal"
     ],
     "completeness_score": 87,
-    "notes": "Enriched with current cabinet composition, recent policy decisions, and foreign policy stance. NEC has no direct social media accounts; information sourced from PM&NEC department website and government news portals."
+    "notes": "Enriched with current cabinet composition, recent policy decisions, and foreign policy stance. NEC has no direct social media accounts; information sourced from PM&NEC department website and government news portals.| 2026-07-15 Phase 5更新：基于2026年7月14日内阁改组，修正 key_people 的 person_id 错位、departments 过时描述、添加新改组事件。"
   }
 }
