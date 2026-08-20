@@ -52,9 +52,16 @@
   ],
   "key_people": [
     {
+      "person_id": "PG-PERSON-000313",
+      "name": "Robert Naguri（罗伯特·纳古里）",
+      "title": "信息通信与技术部长（Minister for Information and Communications Technology）",
+      "title_description": "2026年7月14日内阁改组后宣誓就任，负责国家ICT政策与数字政府建设",
+      "description": "Bogia选区议员，原任能源部长，2026年7月14日内阁改组中接替Timothy Masiu出任ICT部长"
+    },
+    {
       "person_id": "PG-PERSON-000015",
       "name": "Timothy Masiu（Timothy Masiu）",
-      "title": "信息与通信技术部长",
+      "title": "前信息与通信技术部长（Former Minister for ICT，2026-07-13止）",
       "title_description": "巴布亚新几内亚信息与通信技术部内阁部长，负责国家ICT政策方向和数字转型战略的顶层领导",
       "description": "自2016年起担任南布干维尔选区国会议员，隶属于国民联盟党。2022年被任命为ICT部长，积极推动巴布亚新几内亚数字转型、AI战略和数字政府建设。2025年7月因健康原因暂时离职，由警察部长Peter Tsiamalili Jr代理。曾获亚洲广播发展研究所终身成就奖"
     },
@@ -66,9 +73,9 @@
       "description": "拥有中国武汉大学整合营销传播硕士学位，领导巴布亚新几内亚数字转型项目，包括SevisPass数字身份系统和企业计划2024-2027的实施"
     },
     {
-      "person_id": "PG-PERSON-000084",
+      "person_id": "PG-PERSON-000191",
       "name": "Peter Tsiamalili Jr.（Peter Tsiamalili Jr.）",
-      "title": "代理信息与通信技术部长",
+      "title": "代理信息通信技术部长（Acting Minister for ICT）",
       "title_description": "2025年7月起因Timothy Masiu健康原因临时代理ICT部长职务",
       "description": "现任警察部长兼布干维尔区域议员，2025年7月被任命为代理ICT部长。2026年1月转任工程与公路部长。任代理ICT部长期间推动了NICTA治理改革、网络安全立法合作和数据成本降低等议题"
     }
@@ -183,8 +190,8 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-06-06",
-    "phase": "phase3_enriched",
+    "collection_date": "2026-07-15",
+    "phase": "phase5_quality_check",
     "data_sources": [
       "official_website",
       "wikipedia",
@@ -192,7 +199,7 @@
       "social_media"
     ],
     "completeness_score": 87,
-    "notes": "已修正原骨架中错误的孟加拉国DoICT数据（网站doict.gov.bd、Twitter@doict_bdgov等均为孟加拉国机构），替换为巴布亚新几内亚DICT正确信息（官网ict.gov.pg）",
+    "notes": "已修正原骨架中错误的孟加拉国DoICT数据（网站doict.gov.bd、Twitter@doict_bdgov等均为孟加拉国机构），替换为巴布亚新几内亚DICT正确信息（官网ict.gov.pg）| 2026-07-15 Phase 5更新：基于2026年7月14日内阁改组，修正 key_people person_id 错位、更新部长职务变更。",
     "quotes": [
       {
         "title": "DICT Official Website - About Us",
@@ -233,6 +240,10 @@
       {
         "title": "Pacific Must Build Its Own Digital Future - Minister Masiu at PITA",
         "url": "https://pina.com.fj/2025/05/27/pacific-must-build-its-own-digital-future-says-png-ict-minister-masiu/"
+      },
+      {
+        "title": "Papua New Guinea PM Announces Cabinet Reshuffle - Scoop.co.nz",
+        "url": "https://www.scoop.co.nz/stories/WO2607/S00134/papua-new-guinea-pm-announces-cabinet-reshuffle-government-reforms.htm"
       }
     ]
   }

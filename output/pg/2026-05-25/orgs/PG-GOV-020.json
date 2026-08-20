@@ -42,16 +42,23 @@
     {
       "person_id": "PG-PERSON-000167",
       "name": "Miki Kaeok",
-      "title": "交通部长（兼任）",
+      "title": "交通部长（Minister for Transport）",
       "title_description": "Minister for Transport (concurrent with Finance portfolio)，2025年3月25日内阁改组后兼任交通部长",
       "description": "Wapenamanda选区议员，原财政部长。2025年3月Schnaubelt辞职后，总理Marape任命其兼任交通部长职务。"
     },
     {
       "person_id": "PG-PERSON-000238",
       "name": "Wake Goi",
-      "title": "交通与民航部长",
+      "title": "前交通与民航部长（Former Minister, 2025-04止）",
       "title_description": "Minister for Civil Aviation，2025年3月25日内阁改组后接任民航部长",
       "description": "Jimi选区议员，2025年3月由总理Marape任命为民航部长，填补Schnaubelt辞职后的空缺。"
+    },
+    {
+      "person_id": "PG-PERSON-000003",
+      "name": "Douglas Tomuriesa（道格拉斯·托穆里耶萨）",
+      "title": "民航部长（Minister for Civil Aviation）",
+      "title_description": "2026年7月14日内阁改组后宣誓就任，原任反对党领袖",
+      "description": "Kiriwina-Goodenough选区议员，人民进步党党魁，2026年7月14日内阁改组中接任新设立的民航部长职位"
     }
   ],
   "departments": [
@@ -190,8 +197,8 @@
   "apec_stance": "巴布亚新几内亚交通与民航部在APEC框架下积极参与亚太区域交通互联互通合作。2024年时任部长Walter Schnaubelt出席了ICAO第二届亚太民航部长级会议，强调巴新致力于航空安全和国际标准合规。巴新通过ADB资助的民航发展投资项目（CADIP II）提升航空基础设施水平，符合APEC关于区域互联互通和基础设施投资的目标。在低碳交通转型方面，巴新于2025年向ICAO提交了国际航空碳减排国家行动计划。澳大利亚的长期交通领域援助（TSSP3）也体现了APEC框架下发达经济体对发展中成员的基础设施支持。巴新正在制定电动汽车政策草案，推动交通部门向低碳转型。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-06-06",
-    "phase": "phase3_enriched",
+    "collection_date": "2026-07-15",
+    "phase": "phase5_quality_check",
     "data_sources": [
       "wikipedia",
       "web_search",
@@ -200,7 +207,7 @@
       "government_directory"
     ],
     "completeness_score": 75,
-    "notes": "Enriched from ICAO documents, PNG government sources, and multiple news outlets. Note: Walter Schnaubelt resigned as Minister on 2025-03-27; the portfolio was split with Miki Kaeok taking Transport and Wake Goi taking Civil Aviation. The department website could not be confirmed. Miki Kaeok and Wake Goi do not have person_ids in the index.",
+    "notes": "Enriched from ICAO documents, PNG government sources, and multiple news outlets. Note: Walter Schnaubelt resigned as Minister on 2025-03-27; the portfolio was split with Miki Kaeok taking Transport and Wake Goi taking Civil Aviation. The department website could not be confirmed. Miki Kaeok and Wake Goi do not have person_ids in the index.| 2026-07-15 Phase 5更新：基于2026年7月14日内阁改组，修正 key_people person_id 错位、更新部长职务变更。",
     "quotes": [
       {
         "title": "PNG Parliament - Walter Schnaubelt Bio",
@@ -221,6 +228,10 @@
       {
         "title": "CASA PNG Official Website",
         "url": "https://casapng.gov.pg/"
+      },
+      {
+        "title": "Papua New Guinea PM Announces Cabinet Reshuffle - Scoop.co.nz",
+        "url": "https://www.scoop.co.nz/stories/WO2607/S00134/papua-new-guinea-pm-announces-cabinet-reshuffle-government-reforms.htm"
       }
     ]
   }
