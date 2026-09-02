@@ -6,7 +6,8 @@
     "name_en": "City University of Hong Kong",
     "aliases": [
       "CityU",
-      "City Polytechnic of Hong Kong"
+      "City Polytechnic of Hong Kong",
+      "城大"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
@@ -31,58 +32,186 @@
     },
     {
       "platform": "youtube",
-      "account_name": "UC1OVYBbIxEFAzm_Hc4nvG9w",
+      "account_name": "CityU Hong Kong",
       "url": "https://youtube.com/channel/UC1OVYBbIxEFAzm_Hc4nvG9w",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "City University of Hong Kong",
+      "url": "https://www.linkedin.com/school/city-university-of-hong-kong/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "香港城市大学官方网站",
+      "description": "含学院课程、研究、招生及新闻栏目"
+    },
+    {
+      "name": "香港城市大学（东莞）网站",
+      "description": "东莞校区官方门户，2024年正式开办课程"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000105",
-      "name": "梅彦昌",
+      "name": "梅彦昌 (Freddy Boey)",
       "name_en": "Freddy Boey Yin-chiang",
-      "role_zh": "校長（第五任）",
-      "role_en": "President"
+      "title": "前校长（第五任，已卸任）",
+      "title_description": "2023年5月至2026年4月任大学最高行政负责人，因私人理由辞任",
+      "description": "新加坡国立大学前常务副校长（创新与企业），国际生物材料工程专家，2023年5月18日就任香港城市大学第五任校长，任内推动大学QS国际排名跃升及东莞校区建设；2026年4月因私人理由向校董会辞任，即时生效。"
     },
     {
       "person_id": "HK-PERSON-000106",
-      "name": "魏明德",
+      "name": "魏明德 (Michael Ngai)",
       "name_en": "Michael Ngai Ming-tak",
-      "role_zh": "校董會主席",
-      "role_en": "Council Chairman"
+      "title": "校董会主席",
+      "title_description": "主持校董会，负责大学治理与战略监督",
+      "description": "香港城市大学校董会主席，负责大学整体治理、财务监督及重要人事任命。"
     },
     {
       "person_id": "HK-PERSON-000107",
-      "name": "李振声",
+      "name": "李振声 (Lee Chun-sing)",
       "name_en": "Lee Chun-sing",
-      "role_zh": "常務副校長兼教務長",
-      "role_en": "Provost and Deputy President"
+      "title": "署理校长兼常务副校长（教务）",
+      "title_description": "2026年4月起署任校长主持校政，同时分管学术事务与教务管理",
+      "description": "化学及材料学者，香港城市大学常务副校长兼教务长，2026年4月校长梅彦昌辞任后获校董会委任为署理校长，负责大学日常管治、学术规划、课程质量及教务管理，并参与新校长遴选过渡安排。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "香港城市大學，簡稱城大，是香港其中一所公立研究型大學以及綜合大學，校園位於香港九龍深水埗區。鄰近又一城及港鐵九龍塘站，該校創立於1984年，當時稱為香港城市理工學院，簡稱城市理工，獲大學教育資助委員會資助，並於1994年正名為香港城市大學。城大是香港頂尖的大學之一，現時屬於「QS世界百強大學」、「泰晤士高等教育世界百強大學」、「美國新聞與世界報道世界百強大學」及「軟科世界百強大學」。城大由商學院、工學院、人文社會科學院、理學院、賽馬會動物醫學及生命科學院、創意媒體學院、計算學院、能源及環境學院、法律學院、周亦卿研究生院、生物醫學院、數碼醫學研究院共12個學院、29個學系及41個科研中心組成，提供逾100項學士學位及研究生課程，另設有「城大創新學院」提供一系列適合本科、碩士及博士學生修讀的創新創業課程。位於東莞松山湖高新技術產業開發區校區的香港城市大學（東莞）於2024年正式開辦課程。\n",
+  "departments": [
+    {
+      "name": "商学院 (College of Business)",
+      "description": "提供会计、金融、资讯系统、管理等商学科课程"
+    },
+    {
+      "name": "工学院 (College of Engineering)",
+      "description": "涵盖机械、生物医学、材料、电机工程及计算机等学科"
+    },
+    {
+      "name": "计算学院 (School of Computing)",
+      "description": "数据科学与人工智能等重点学科所在地，QS学科排名全球50强"
+    },
+    {
+      "name": "赛马会动物医学及生命科学学院 (Jockey Club College of Veterinary Medicine and Life Sciences)",
+      "description": "亚洲首获国际认可的兽医学院"
+    },
+    {
+      "name": "创意媒体学院 (School of Creative Media)",
+      "description": "传媒及创意学科QS排名全球50强"
+    },
+    {
+      "name": "能源及环境学院 (School of Energy and Environment)",
+      "description": "聚焦能源技术与环境可持续发展研究"
+    },
+    {
+      "name": "法律学院 (School of Law)",
+      "description": "提供普通法及中国国际法等法学课程"
+    },
+    {
+      "name": "周亦卿研究生院 (Chow Yei Ching School of Graduate Studies)",
+      "description": "统筹研究院课程及研究生事务"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-03-12",
+      "title": "四学科荣列2025年QS学科排名全球50强",
+      "description": "城大四个学科跻身2025年QS世界大学学科排名全球前50位，12个学科位列全港前三位，共20个学科位列全球百强。",
+      "impact": "彰显城大学术实力在国际学术界持续获得肯定"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "QS 2026排名跃升至全球第52/63位区间",
+      "description": "港城大QS排名跃升至全球第52位（引用口径不一，约52-63位），论文引用率全球第二；东莞校区与本部共享QS排名，亚洲排名第10。",
+      "impact": "国际排名持续上升，扩大全球学术影响力"
+    },
+    {
+      "date": "2024-09-01",
+      "title": "香港城市大学（东莞）正式开办课程",
+      "description": "位于东莞松山湖高新技术产业开发区的城大东莞校区于2024年正式开办课程，并于QS平台与本部共享排名。",
+      "impact": "深化大湾区高等教育布局，拓展内地办学空间"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "校长梅彦昌辞任，李振声获委任署理校长",
+      "description": "校长梅彦昌因私人理由向校董会辞任，即时生效；常务副校长兼教务长李振声教授获委任为署理校长。校方指辞任对即将公布的2027年QS排名数据几乎没有影响，学科实力与科研资源短期保持稳定。",
+      "impact": "大学进入校长更替过渡期，日常校政由署理校长主持"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "校董会成立校长遴选委员会启动全球招聘",
+      "description": "城大校董会宣布成立遴选委员会，正式展开全球招聘程序物色新任校长，并已在国际媒体及相关网站刊登招聘广告；申请人须持博士学位，并在顶尖大学或同等机构担任高阶管理职务。",
+      "impact": "新校长遴选程序全面启动，确保大学管治平稳过渡"
+    },
+    {
+      "date": "2025-09-08",
+      "title": "举办亚洲数字健康峰会2025",
+      "description": "城大及城大数码医学研究院于2025年9月8日至10日举办「亚洲数字健康峰会2025」，汇聚全球学者及业界创新者，推动数字医学研究与合作。",
+      "impact": "巩固城大在亚太数字医学研究领域的影响力"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "大学教育资助委员会 (UGC)",
+      "org_description": "城大为其资助的香港八所公立大学之一"
+    },
+    {
+      "org_name": "香港城市大学（东莞）(CityU Dongguan)",
+      "org_description": "位于东莞松山湖的校区，2024年开办课程，与本部共享QS排名"
+    },
+    {
+      "org_name": "香港赛马会 (Hong Kong Jockey Club)",
+      "org_description": "冠名资助城大赛马会动物医学及生命科学学院"
+    },
+    {
+      "org_name": "深圳研究院",
+      "org_description": "城大在深圳的产学研合作平台"
+    }
+  ],
+  "core_business": "香港城市大学简称城大，是香港公立研究型综合大学，校园位于九龙深水埗区、邻近九龙塘站。学校创立于1984年，初名香港城市理工学院，1994年正名为大学，获大学教育资助委员会资助。城大现为QS及泰晤士高等教育世界百强大学，曾连续两年蝉联全球「最国际化大学」榜首；2025年QS世界大学排名列第62位，QS学科排名中四个学科跻身全球50强、20个学科位列百强，论文引用率全球第二。大学由商学院、工学院、人文社会科学院、理学院、赛马会动物医学及生命科学学院、创意媒体学院、计算学院、能源及环境学院、法律学院、周亦卿研究生院等12个学院、29个学系及41个科研中心组成，提供逾100项学士及研究生课程，并设城大创新学院提供创新创业课程。2024年位于东莞松山湖的香港城市大学（东莞）正式开办课程，与本部共享QS排名。",
   "industries": [
     "higher_education"
   ],
-  "apec_stance": null,
+  "apec_stance": "作为全球最国际化大学之一，城大吸引亚太及全球师生，与内地（东莞校区、深圳研究院）及海外院校合作紧密，服务香港作为亚太教育枢纽及大湾区科创走廊的高等教育功能。",
   "profile": {
-    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/CityU_logo.svg/330px-CityU_logo.svg.png",
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/CityU_logo.svg/330px_CityU_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 88,
+    "quotes": [
+      {
+        "title": "城大四学科荣列2025年QS世界大学学科排名50强（城大官网）",
+        "url": "https://www.cityu.edu.hk/zh-hk/media/news/2025/03/12/four-cityuhk-subjects-secure-top-50-ranking-qs-world-university-rankings-subject-2025"
+      },
+      {
+        "title": "城大成立遴选委员会全球物色新任校长（城大官网）",
+        "url": "https://www.cityu.edu.hk/zh-hk/media/press-release/2026/07/20/cityuhk-establishes-search-committee-to-conduct-global-search-for-next-president"
+      },
+      {
+        "title": "香港城市大学（东莞）官网",
+        "url": "https://www.cityu-dg.edu.cn/home"
+      },
+      {
+        "title": "城大校长梅彦昌教授请辞 李振声教授获委任署理校长（Student.hk）",
+        "url": "https://student.hk/commonDetial?breadCrumbName=%E7%86%B1%E8%A9%B1&rid=WS69ef2b92c1f484a0be3bf336"
+      },
+      {
+        "title": "亚洲数字健康峰会2025（城大官网）",
+        "url": "https://www.cityu.edu.hk/zh-hk/media/news/2025/07/11/digital-health-asia-2025"
+      }
+    ],
+    "notes": "P3再丰富：更新校长辞任/署理校长安排、全球遴选委员会、亚洲数字健康峰会等2025-2026事件"
   },
-  "description": "香港的公立大學",
-  "brief": "香港的公立大學"
+  "description": "香港公立研究型大学，QS百强，全球最国际化大学之一，设东莞校区",
+  "brief": "香港公立研究型大学，QS百强，全球最国际化大学之一，设东莞校区"
 }

@@ -1,51 +1,106 @@
 {
   "person_id": "HK-PERSON-000109",
-  "wikidata_qid": null,
-  "name": "黄友嘉",
-  "name_en": "David Wong Yau-kar",
+  "wikidata_qid": "Q11176036",
+  "name": "黃友嘉",
   "name_zh": "黄友嘉",
+  "name_en": "David Wong Yau-kar",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "honors": [
-    "GBS",
-    "JP"
-  ],
+  "birth_place": "",
+  "contacts": [],
   "current_positions": [
-    "香港教育大學校董會主席"
+    "香港教育大学校董会主席",
+    "香港中华总商会永远名誉会长",
+    "第十四届港区全国人大代表"
   ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [
+  "education": [
     {
+      "start_date": null,
+      "end_date": null,
+      "institution": "芝加哥大学 (University of Chicago)",
+      "degree": "doctorate",
+      "field": "经济学"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港中华总商会 (The Chinese General Chamber of Commerce)",
+      "org_id": null,
+      "position": "会长（2018-2020任期，后任永远名誉会长）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "联合集团及香港工商界 (United Group)",
+      "org_id": null,
+      "position": "工商界管理及董事职务"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港教育大学 (The Education University of Hong Kong)",
       "org_id": "HK-ACAD-003",
-      "relation": "council_chairman"
+      "position": "校董会主席（获再度委任）"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000108",
+      "person_name": "李子建 (John Lee)",
+      "relationship_type": "subordinate",
+      "description": "黄友嘉任校董会主席，李子建任香港教育大学校长"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "香港教育大學校董會主席（已獲再委任），亦是香港中華總商會永遠名譽會長及第十四屆港區全國人大代表。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "",
+      "organization": "",
+      "achievement": "获颁金紫荆星章（GBS），并获委任为太平绅士（JP）"
+    },
+    {
+      "date": "",
+      "organization": "",
+      "achievement": "当选第十四届港区全国人大代表"
+    }
+  ],
+  "biography_summary": "黄友嘉（David Wong Yau-kar），GBS，JP，香港工商界领袖及公共事务人物，现任香港教育大学校董会主席、香港中华总商会永远名誉会长及第十四届港区全国人大代表。他拥有美国芝加哥大学经济学博士学位，长期从事工商界管理及投资工作，曾任香港中华总商会会长，积极参与商会事务，推动香港与内地的经贸交流。他获香港特区行政长官委任为香港教育大学校董会主席并获再度委任，负责大学最高管治工作，并曾出任强制性公积金计划管理局主席等多项公职，获颁金紫荆星章。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "eduhk_press_release",
-      "eduhk_governance"
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 45,
-    "notes": "lite profile - HK ACAD batch"
-  },
-  "importance_level": "medium",
-  "importance_reason": "派生自職位: 香港教育大學校董會主席",
-  "person_relationships": [
-    {
-      "org_id": "HK-ACAD-003",
-      "org_name": "香港教育大學",
-      "title": "",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 43,
+    "quotes": [
+      {
+        "title": "香港教育大学：校董会",
+        "url": "https://www.eduhk.hk/governance"
+      },
+      {
+        "title": "香港中华总商会",
+        "url": "https://www.cgcc.org.hk"
+      },
+      {
+        "title": "香港教育大学新闻稿：教大欢迎校董会主席续任",
+        "url": "https://www.eduhk.hk/zht/press-releases/eduhk-welcomes-reappointment-of-council-chairman"
+      },
+      {
+        "title": "职业训练局：黃友嘉博士荣誉院士介绍",
+        "url": "https://www.vtc.edu.hk/home/tc/industry-partnership/honorary-fellowships/david-wong-yau-kar.html"
+      }
+    ],
+    "notes": "phase4深度丰富；补深新增Wikidata QID Q11176036。身份核查：中文维基显示其曾任香港中华厂商联合会会长（非中华总商会会长），亦为工商专业联会前主席、第十二及十三届港区全国人大代表，1957年10月25日生；原档商会职务表述存疑，待后续核实。无P18、无个人官方社交媒体账号，头像及社交保持空白。"
+  }
 }

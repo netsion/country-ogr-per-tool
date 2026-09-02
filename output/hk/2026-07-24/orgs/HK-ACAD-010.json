@@ -6,7 +6,9 @@
     "name_en": "Hong Kong University of Science and Technology",
     "aliases": [
       "HKUST",
-      "The Hong Kong University of Science and Technology"
+      "The Hong Kong University of Science and Technology",
+      "科大",
+      "港科大"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
@@ -22,55 +24,202 @@
       "account_name": "hkust",
       "url": "https://facebook.com/hkust",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "The Hong Kong University of Science and Technology",
+      "url": "https://www.linkedin.com/school/hong-kong-university-of-science-and-technology/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "HKUST",
+      "url": "https://www.youtube.com/user/HKUST",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "hkust",
+      "url": "https://www.instagram.com/hkust/",
+      "source": "news_search"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "HKUST",
+      "url": "https://twitter.com/hkust",
+      "source": "wikidata"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "香港科技大学官方网站",
+      "description": "含院系课程、研究成果、招生及新闻栏目"
+    },
+    {
+      "name": "香港科技大学（广州）官网",
+      "description": "南沙校区官方网站，介绍融合学科课程设置与「港科大一體，雙校互補」办学框架"
+    },
+    {
+      "name": "HKUST Entrepreneurship Center 创业中心平台",
+      "description": "支持学生及校友创业孵化、知识转移与大湾区产学研合作的大学平台"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-001141",
-      "name": "朱叶玉如",
+      "name": "朱叶玉如 (Nancy Ip)",
       "name_en": "Nancy Ip Yuk-yu",
-      "role_zh": "校長（第五任）",
-      "role_en": "President (5th)"
+      "title": "校长",
+      "title_description": "大学最高行政负责人，主持校政与发展战略",
+      "description": "国际知名神经科学专家，香港科技大学第五任校长（2022年就任），兼任晨兴生命科学教授，长期研究阿尔茨海默症等脑疾病，领导大学推进科技创新与国际排名提升。"
     },
     {
       "person_id": "HK-PERSON-000126",
-      "name": "沈向洋",
+      "name": "沈向洋 (Harry Shum)",
       "name_en": "Harry Shum",
-      "role_zh": "校董會主席",
-      "role_en": "Council Chairman"
+      "title": "校董会主席",
+      "title_description": "主持校董会，负责大学治理与重大决策",
+      "description": "计算机视觉与人工智能专家，曾任微软全球执行副总裁，现任香港科技大学校董会主席，亦是粤港澳大湾区数字经济研究院创院理事长。"
     },
     {
       "person_id": "HK-PERSON-000127",
-      "name": "郑光廷",
+      "name": "郑光廷 (Tim Kwang-ting Cheng)",
       "name_en": "Tim Kwang-ting Cheng",
-      "role_zh": "副校長（研究及發展）",
-      "role_en": "Vice-President for Research and Development"
+      "title": "副校长（研究及发展）",
+      "title_description": "分管研究事务、创新及知识转移",
+      "description": "电子及计算机工程学者，香港科技大学副校长（研究及发展），负责大学科研战略、创新平台建设与产业合作。"
+    },
+    {
+      "person_id": "HK-PERSON-001217",
+      "name": "廖长城 (Andrew Liao Cheung-sing)",
+      "title": "大学顾问委员会主席",
+      "title_description": "主持大学顾问委员会，为大学发展提供策略建议",
+      "description": "资深大律师，曾任香港特别行政区行政会议非官方成员，自2023年3月起任香港科技大学大学顾问委员会主席，2026年1月获大学监督（行政长官）再度委任，任期三年至2029年3月。"
+    },
+    {
+      "person_id": "HK-PERSON-001218",
+      "name": "汪扬 (Yang Wang)",
+      "title": "副校长（大学拓展）",
+      "title_description": "分管大学拓展、品牌宣传与对外合作事务",
+      "description": "数学学者，香港科技大学副校长（大学拓展）兼中电控股可持续发展学教授，负责大学拓展、品牌与对外合作，曾代表大学评论科大于泰晤士高等教育大学影响力排名的表现。"
+    },
+    {
+      "person_id": "HK-PERSON-001219",
+      "name": "屈华民 (Huamin Qu)",
+      "title": "跨学科学院院长",
+      "title_description": "统筹跨学科教育与数据科学、人工智能等新兴领域项目",
+      "description": "计算机科学与工程学者，香港科技大学跨学科学院首任院长（2023年学院成立起任职），兼任跨学科事务处处长及新兴跨学科领域学部主任，研究涵盖数据可视化与人机交互。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "香港科技大學，簡稱科大、港科大、香港科大、UST，是香港的一所公立研究型大學，位於香港新界西貢區大埔仔。香港科技大學創立於1991年，是香港頂尖的大學之一，是香港第三所獲得大學名銜的學府。\n",
+  "departments": [
+    {
+      "name": "理学院 (School of Science)",
+      "description": "涵盖数学、物理、化学、生命科学等基础学科"
+    },
+    {
+      "name": "工程学院 (School of Engineering)",
+      "description": "科大最大学院，涵盖电子工程、计算机科学、机械、土木等，多个工科跻身QS学科排名全球50强"
+    },
+    {
+      "name": "工商管理学院 (School of Business and Management)",
+      "description": "亚洲顶尖商学院之一，EMBA及MBA课程国际排名领先"
+    },
+    {
+      "name": "人文和社会科学学院 (School of Humanities and Social Science)",
+      "description": "提供人文、社会科学及语言教育"
+    },
+    {
+      "name": "跨学科学院 (Interdisciplinary Programs Office)",
+      "description": "统筹数据科学及人工智能等跨学科项目，相关学科QS排名全球第17位、香港第一"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-15",
+      "title": "QS世界大学排名2026升至第44位",
+      "description": "香港科技大学在《QS世界大学排名2026》中上升三位至全球第44位，稳居全球五十强；全球影响力排名第19位、国际化排名第2位。",
+      "impact": "彰显学术卓越、创新研究及国际化教育的全球领先地位"
+    },
+    {
+      "date": "2024-06-01",
+      "title": "QS世界大学排名2025跃升13位至第47位",
+      "description": "在《QS世界大学排名2025》中，科大从第60位跃升13位至第47位，跻身全球五十强；14个学科跻身全球50强，数据科学及人工智能学科全球第17位。",
+      "impact": "创指标改革后单年最大回升，巩固香港顶尖研究型大学地位"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "广州校区与清水湾本部共享QS排名",
+      "description": "香港科技大学（广州）与清水湾本部在QS官网共享全球第44位排名，广州校区聚焦融合学科与交叉培养模式。",
+      "impact": "扩大科大在大湾区的教研布局与品牌影响力"
+    },
+    {
+      "date": "2026-03-06",
+      "title": "沈向洋续任校董会主席、廖长城续任顾问委员会主席",
+      "description": "身兼大学监督的香港特别行政区行政长官再度委任沈向洋教授为校董会主席、廖长城博士为大学顾问委员会主席，任期三年至2029年3月；沈向洋自2023年3月起担任校董会主席，并于2026年3月获委任香港人工智能研发院董事局主席。",
+      "impact": "保持大学管治领导层稳定，延续科技创新与国际合作发展战略"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "大学教育资助委员会 (UGC)",
+      "org_description": "科大为其资助的香港八所公立大学之一"
+    },
+    {
+      "org_name": "香港科技大学（广州）(HKUST Guangzhou)",
+      "org_description": "2022年设立的广州校区，位于南沙，采用融合学科模式办学"
+    },
+    {
+      "org_name": "香港科技大学霍英东研究院",
+      "org_description": "位于广州南沙的科研转化平台，衔接大湾区产业合作"
+    },
+    {
+      "org_name": "深圳研究院",
+      "org_description": "科大在深圳的产学研基地，对接深圳科技创新产业"
+    }
+  ],
+  "core_business": "香港科技大学创立于1991年，位于香港新界西贡区大埔仔，是香港第三所获得大学名衔的公立研究型大学，也是香港顶尖学府之一。科大设有理、工、商、人文社科四大学院及跨学科学院，以科技与商科教育见长，在人工智能、数据科学、机器人、材料及生命科学等领域研究实力雄厚。2025年QS世界大学排名跃升13位至第47位，2026年再升至第44位，稳居全球五十强，国际化程度全球第2，数据科学及人工智能学科排名全球第17位（香港第一）。在校长朱叶玉如领导下，大学积极推进创新科技与知识转移，并通过广州校区及深圳、南沙研究院深度参与粤港澳大湾区科创发展。",
   "industries": [
     "higher_education"
   ],
-  "apec_stance": null,
+  "apec_stance": "科大是亚太顶尖研究型大学，汇聚全球人才（国际化全球第2），与内地及亚太各地产业和学术机构合作紧密，其广州校区与湾区研究院网络支持大湾区国际科技创新中心建设，服务亚太人才与创新交流。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Hong_Kong_University_of_Science_and_Technology_symbol.svg/330px-Hong_Kong_University_of_Science_and_Technology_symbol.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 21,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 93,
+    "quotes": [
+      {
+        "title": "科大于《QS世界大学排名2026》跃升3位至44名（港科大官网）",
+        "url": "https://hkust.edu.hk/zh-hans/news/hkust-rises-44th-qs-world-university-rankings-2026"
+      },
+      {
+        "title": "科大欢迎沈向洋教授续任校董会主席（港科大官网）",
+        "url": "https://hkust.edu.hk/zh-hant/news/hkust-welcomes-reappointment-prof-harry-shum-council-chairman"
+      },
+      {
+        "title": "香港科技大学官网：管治及领导架构",
+        "url": "https://hkust.edu.hk/zh-hant/about/leadership"
+      },
+      {
+        "title": "科大设立跨学科学院，屈华民教授担任首任院长",
+        "url": "https://www.bhkaec.org.hk/a/132576-cht"
+      },
+      {
+        "title": "文汇报：沈向洋获再度委任为科大校董会主席",
+        "url": "https://www.wenweipo.com/a/202601/09/AP6960d354e4b069b7ebf7ae0f.html"
+      }
+    ],
+    "notes": "P3再丰富：补廖长城/汪扬/屈华民（null ID待分配）、校董会续任事件、X账号及广州校区/创业中心数字资产"
   },
-  "description": "香港的公立大學",
-  "brief": "香港的公立大學"
+  "description": "香港顶尖研究型大学，QS全球第44位，数据科学及AI学科香港第一",
+  "brief": "香港顶尖研究型大学，QS全球第44位，数据科学及AI学科香港第一"
 }

@@ -1,49 +1,98 @@
 {
   "person_id": "HK-PERSON-000110",
   "wikidata_qid": null,
-  "name": "Belinda Greer",
-  "name_en": "Belinda Greer",
+  "name": "白玲達",
   "name_zh": "白玲达",
-  "nationality": "UK",
+  "name_en": "Belinda Greer",
+  "aliases": [],
+  "nationality": "GB",
   "gender": "female",
   "birth_date": null,
-  "honors": [],
-  "current_positions": [
-    "英基學校協會行政總裁"
-  ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [
+  "birth_place": "苏格兰",
+  "contacts": [
     {
-      "org_id": "HK-ACAD-004",
-      "relation": "chief_executive"
+      "type": "website",
+      "value": "https://www.esf.edu.hk",
+      "source": "https://www.esf.edu.hk"
     }
   ],
-  "social_accounts": [],
-  "biography_summary": "蘇格蘭裔教育家，2013年9月加入英基學校協會出任行政總裁，先前曾任英國皇室教育督學及斯特林議會教育局局長。",
+  "current_positions": [
+    "英基学校协会行政总裁"
+  ],
+  "education": [],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": "2013",
+      "organization": "英国教育体系 (UK Education Sector)",
+      "org_id": null,
+      "position": "英国皇室教育督学（Her Majesty's Inspector of Education）及斯特林议会教育局局长"
+    },
+    {
+      "start_date": "2013-09",
+      "end_date": null,
+      "organization": "英基学校协会 (English Schools Foundation)",
+      "org_id": "HK-ACAD-004",
+      "position": "行政总裁，统领香港最大国际学校网络之一"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000111",
+      "person_name": "麦雅士 (Kim Mak)",
+      "relationship_type": "superior",
+      "description": "麦雅士任英基校董会主席，白玲达任行政总裁"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "Belinda Greer",
+      "url": "https://hk.linkedin.com/in/belinda-greer-bba042119",
+      "source": "LinkedIn公开档案（经ESF官网及搜索核实）"
+    }
+  ],
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2013",
+      "organization": "英基学校协会 (ESF)",
+      "achievement": "出任英基行政总裁，领导22所学校、逾17700名学生的教育体系，推动全面采用IB课程体系"
+    }
+  ],
+  "biography_summary": "白玲达（Belinda Greer），苏格兰裔教育家，2013年9月起出任英基学校协会（ESF）行政总裁，统领香港规模最大的国际学校网络之一（22所学校、逾17700名学生）。她拥有逾二十年高层教育管理经验：1980年代曾在阿布扎比任教，其后在苏格兰教育体系长期任职，先后担任校长、学校督学、英国皇室教育督学（Her Majesty's Inspector of Education）及斯特林议会教育局局长，在教育质量保证及学校管理方面经验丰富。任内她领导英基推进课程改革（包括全面转为IB课程体系）、学校网络扩建及财务可持续发展，并处理学位需求增长等挑战，使英基持续成为香港国际教育的重要提供者。她亦担任Bodhi Love基金会顾问委员会委员，参与教育公益事务。",
   "profile": {
-    "source_url": null,
+    "source_url": "https://www.esf.edu.hk/wp-content/uploads/2020/08/belinda-new1-191x250.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "esf_official",
+      "official_website",
       "wikipedia",
-      "scmp"
+      "news_search"
     ],
-    "completeness_score": 50,
-    "notes": "lite profile - HK ACAD batch"
-  },
-  "importance_level": "medium",
-  "importance_reason": "派生自職位: 英基學校協會行政總裁",
-  "person_relationships": [
-    {
-      "org_id": "HK-ACAD-004",
-      "org_name": "英基學校協會",
-      "title": "",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 40,
+    "quotes": [
+      {
+        "title": "英基学校协会官网",
+        "url": "https://www.esf.edu.hk"
+      },
+      {
+        "title": "英文维基百科：English Schools Foundation",
+        "url": "https://en.wikipedia.org/wiki/English_Schools_Foundation"
+      },
+      {
+        "title": "南华早报：英国资深教育家白玲达出任英基学校协会行政总裁",
+        "url": "https://www.scmp.com/news/hong-kong/article/1250964/veteran-uk-educator-belinda-greer-replace-du-quesnay-esf-chief"
+      },
+      {
+        "title": "Tes：My Week As CEO of the English Schools Foundation in Hong Kong",
+        "url": "https://www.tes.com/magazine/leadership/strategy/my-week-as-ceo-english-schools-foundation-hong-kong"
+      }
+    ],
+    "notes": "phase4深度丰富；暂无Wikidata条目；英国籍（GBR）。2026-08-27补深：补ESF官网头像直链、LinkedIn账号、成就及扩写简历（来源：esf.edu.hk、Tes专访、Bodhi Love官网）。"
+  }
 }

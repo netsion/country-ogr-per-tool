@@ -1,9 +1,9 @@
 {
   "person_id": "HK-PERSON-000618",
-  "wikidata_qid": "Q208798",
+  "wikidata_qid": "Q11105886",
   "name": "林天福",
-  "name_en": "Fred Lam Tin-fuk",
   "name_zh": "林天福",
+  "name_en": "Fred Lam Tin-fuk",
   "aliases": [
     "Fred Lam",
     "Frederick Lam"
@@ -11,46 +11,115 @@
   "nationality": "HK",
   "gender": "male",
   "birth_date": "1958-07-19",
-  "birth_place": null,
-  "contacts": [],
-  "current_positions": [
-    "香港機場管理局董事會主席 (Chairman of the Board, Airport Authority Hong Kong)",
-    "機場理事會世界理事會理事 (Member, World Governing Board of Airports Council International)"
-  ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "birth_place": "香港",
+  "contacts": [
     {
-      "org_id": "HK-GOV-001",
-      "org_name": "香港機場管理局",
-      "title": "",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
+      "type": "website",
+      "value": "https://www.hongkongairport.com/en/airport-authority/board-management/the-board.page",
+      "source": "https://www.hongkongairport.com"
     }
   ],
+  "current_positions": [
+    "香港机场管理局董事会主席",
+    "机场理事会世界理事会理事（ACI）"
+  ],
+  "education": [
+    {
+      "start_date": null,
+      "end_date": "1980",
+      "institution": "香港大学 (The University of Hong Kong)",
+      "degree": "bachelor",
+      "field": "社会科学"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": "1980",
+      "end_date": "1992",
+      "organization": "香港特区政府 (Government of Hong Kong)",
+      "org_id": "HK-GOV-013",
+      "position": "政务主任"
+    },
+    {
+      "start_date": "1992",
+      "end_date": "2006",
+      "organization": "香港贸易发展局 (Hong Kong Trade Development Council)",
+      "org_id": "HK-GOV-020",
+      "position": "副总干事"
+    },
+    {
+      "start_date": "2006",
+      "end_date": "2014",
+      "organization": "香港贸易发展局 (Hong Kong Trade Development Council)",
+      "org_id": "HK-GOV-020",
+      "position": "总裁"
+    },
+    {
+      "start_date": "2014-10",
+      "end_date": "2024-05",
+      "organization": "香港机场管理局 (Airport Authority Hong Kong)",
+      "org_id": "HK-GOV-001",
+      "position": "行政总裁"
+    },
+    {
+      "start_date": "2024-06-01",
+      "end_date": null,
+      "organization": "香港机场管理局 (Airport Authority Hong Kong)",
+      "org_id": "HK-GOV-001",
+      "position": "董事会主席"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000619",
+      "person_name": "张李佳蕙 (Vivian Cheung)",
+      "relationship_type": "subordinate",
+      "description": "机管局行政总裁，向董事会及主席负责"
+    }
+  ],
+  "social_accounts": [],
   "family_members": [],
   "political_stances": [],
-  "major_achievements": [],
-  "social_accounts": [],
-  "biography_summary": "林天福現任香港機場管理局董事會主席，2024年6月1日就任，接替蘇澤光。1958年7月19日出生，香港大學社會科學學士。1980年代加入政府任政務主任，1992年至2006年任香港貿易發展局副總幹事，2006年至2014年任總裁。2014年10月至2024年5月任機管局行政總裁。2025年7月起兼任匯豐香港獨立非執行董事。持有GBS、JP。",
+  "major_achievements": [
+    {
+      "date": "",
+      "organization": "香港机场管理局 (Airport Authority Hong Kong)",
+      "achievement": "任行政总裁期间主导香港国际机场三跑道系统建设，2024年全面启用"
+    },
+    {
+      "date": "",
+      "organization": "香港特区政府",
+      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
+    }
+  ],
+  "biography_summary": "林天福（Fred Lam Tin-fuk），1958年7月19日出生，香港机场管理局董事会主席，2024年6月1日就任，接替苏泽光。香港大学社会科学学士，1980年代加入政府任政务主任，1992年加入香港贸易发展局任副总干事，2006年至2014年出任总裁，其间推动香港对外贸易推广事务。2014年10月出任机管局行政总裁，主导三跑道系统等重大基建项目，2024年6月转任董事会主席。获颁金紫荆星章并获委任为太平绅士，并担任机场理事会世界理事会理事。",
   "profile": {
-    "source_url": "https://en.wikipedia.org/wiki/Airport_Authority_Hong_Kong",
-    "local_path": null,
-    "photo_url": null,
-    "primary_source": "Wikipedia + AAHK + HKTDC background"
+    "source_url": "",
+    "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q208798",
-      "https://www.hongkongairport.com/en/airport-authority/board-management/the-board.page",
-      "https://zh.wikipedia.org/zh-cn/%E6%9E%97%E5%A4%A9%E7%A6%8F"
+      "wikipedia",
+      "wikidata",
+      "official_website"
     ],
-    "completeness_score": 60,
-    "notes": "phase4_person_lite: AAHK Board Chairman",
-    "quotes": []
-  },
-  "importance_level": "medium",
-  "importance_reason": "派生自職位: 香港機場管理局董事會主席 (Chairman of the Board, Airport Authority Hong Kong)"
+    "completeness_score": 54,
+    "quotes": [
+      {
+        "title": "林天福 - 維基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%A4%A9%E7%A6%8F"
+      },
+      {
+        "title": "機管局董事會 - 官方网页",
+        "url": "https://www.hongkongairport.com/en/airport-authority/board-management/the-board.page"
+      },
+      {
+        "title": "政府新聞公報 - 政府委任香港機場管理局成員（林天福獲委任為主席）",
+        "url": "https://www.info.gov.hk/gia/general/202404/30/P2024043000256.htm"
+      }
+    ],
+    "notes": "修正原lite错误QID Q208798（法国城镇Cavaillon）及错误name「卡瓦永」，经zh-wiki条目匹配Q11105886。补深核查：无P18、无个人社交媒体；补机管局官网董事会页为官网渠道。"
+  }
 }

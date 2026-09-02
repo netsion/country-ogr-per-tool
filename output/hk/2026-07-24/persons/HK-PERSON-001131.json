@@ -1,37 +1,110 @@
 {
   "person_id": "HK-PERSON-001131",
-  "wikidata_qid": "Q71093194",
-  "name": "罗硕瀚",
-  "name_en": "John Lo Shiu-hon",
+  "wikidata_qid": null,
+  "name": "羅碩瀚",
   "name_zh": "罗硕瀚",
+  "name_en": "John Lo Shiu-hon",
+  "aliases": [
+    "John Lo"
+  ],
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "honors": [
-    "JP"
+  "birth_place": "",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.tencent.com/zh-cn/about/management.html",
+      "source": "腾讯官网管理层页面"
+    }
   ],
   "current_positions": [
-    "騰訊控股有限公司首席財務官",
-    "騰訊高級副總裁",
-    "香港賽馬會董事"
+    "腾讯控股首席财务官",
+    "腾讯控股高级副总裁",
+    "香港赛马会董事"
   ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [],
-  "biography_summary": "香港會計界及商界領袖，2012年起出任騰訊控股首席財務官兼高級副總裁，主導騰訊全球資本運作。同時擔任香港賽馬會董事。",
+  "education": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港大学 (The University of Hong Kong)",
+      "degree": "bachelor",
+      "field": ""
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港会计师公会 (HKICPA)",
+      "degree": "bachelor",
+      "field": "执业会计师（FCCA/FCPA）"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": "2012",
+      "organization": "普华永道 (PwC)",
+      "org_id": null,
+      "position": "审计合伙人，服务多家科网上市公司"
+    },
+    {
+      "start_date": "2012",
+      "end_date": null,
+      "organization": "腾讯控股 (Tencent)",
+      "org_id": "HK-CORP-022",
+      "position": "副总裁，后升任高级副总裁兼首席财务官，主导腾讯全球资本运作"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000514",
+      "person_name": "刘炽平 (Martin Lau)",
+      "relationship_type": "superior",
+      "description": "腾讯总裁"
+    }
+  ],
+  "social_accounts": [],
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2012",
+      "organization": "腾讯控股 (Tencent)",
+      "achievement": "加入腾讯出任首席财务官，主导公司重大投资并购及财务运作"
+    },
+    {
+      "date": "",
+      "organization": "香港特区政府",
+      "achievement": "获委任为太平绅士（JP）"
+    }
+  ],
+  "biography_summary": "罗硕瀚（John Lo Shiu-hon），JP，香港会计界及商界领袖，腾讯控股有限公司首席财务官兼高级副总裁，并任香港赛马会董事。他为香港执业会计师，拥有香港会计师公会（FCPA）及英国特许公认会计师公会（FCCA）资深会员资格，毕业于香港大学，曾在普华永道（PwC）任职审计合伙人多年，长期服务多家科网上市公司，对科技企业财务及审计实务经验深厚。2012年他加入腾讯出任副总裁，其后升任高级副总裁兼首席财务官，主管公司财务、审计及投资者关系，向总裁刘炽平汇报，主导腾讯于港交所上市以来的全球资本运作、重大投资并购及股份回购等财务安排，是腾讯成为亚洲市值最高科技企业之一过程中的财务掌舵人。他积极参与香港公共及社会事务，兼任香港赛马会董事，并获香港特区政府委任为太平绅士。",
   "profile": {
     "source_url": "https://www.tencent.com/images/john-lo.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "tencent.com",
-      "globaldata.com"
+      "official_website",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile - HK business leader batch"
-  },
-  "importance_level": "low",
-  "importance_reason": "派生自職位: 騰訊控股有限公司首席財務官"
+    "completeness_score": 43,
+    "quotes": [
+      {
+        "title": "騰訊官網 - 管理層",
+        "url": "https://www.tencent.com/zh-cn/about/management.html"
+      },
+      {
+        "title": "港交所披露易 - 騰訊高管資料",
+        "url": "https://www.hkexnews.hk"
+      },
+      {
+        "title": "羅碩瀚先生 - 香港賽馬會董事簡歷（香港賽馬會官方文件）",
+        "url": "https://mcs.hkjc.com/getFile.aspx?filename=PR20250829_Steward_attachment3_Lo_C.pdf"
+      }
+    ],
+    "notes": "修正原lite错误QID Q71093194（NASA学术论文），Wikidata暂无独立条目，置空"
+  }
 }

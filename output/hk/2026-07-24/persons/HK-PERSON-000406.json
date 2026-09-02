@@ -1,63 +1,125 @@
 {
   "person_id": "HK-PERSON-000406",
   "wikidata_qid": null,
-  "name": "Andrew John Hunter (亨特)",
+  "name": "Andrew John Hunter",
+  "name_zh": "安德鲁·约翰·亨特",
   "name_en": "Andrew John Hunter",
-  "name_zh": "亨特",
-  "nationality": "HK",
+  "aliases": [
+    "亨特",
+    "A J Hunter"
+  ],
+  "nationality": "GB",
   "gender": "male",
   "birth_date": "1958-10-01",
-  "honors": [],
-  "current_positions": [
-    "長江基建聯席董事總經理兼執行董事"
-  ],
-  "education": [],
-  "career_history": [
+  "birth_place": "英国",
+  "contacts": [
     {
-      "organization": "長江基建",
-      "position": "執行董事 (2006年12月起)"
-    },
-    {
-      "organization": "長江基建",
-      "position": "副董事總經理 (2010年5月起)"
-    },
-    {
-      "organization": "長江基建",
-      "position": "聯席董事總經理 (2026年1月起)"
+      "type": "website",
+      "value": "https://www.cki.com.hk/english/about_CKI/management_bio/index.htm",
+      "source": "https://www.cki.com.hk/english/about_CKI/management_bio/index.htm"
     }
   ],
-  "related_organizations": [
+  "current_positions": [
+    "长江基建集团有限公司联席董事总经理（2026年1月起）",
+    "长江和记实业有限公司执行董事",
+    "电能实业有限公司主席"
+  ],
+  "education": [],
+  "work_experience": [
     {
+      "start_date": null,
+      "end_date": null,
+      "organization": "和记黄埔地产 (Hutchison Property)",
+      "org_id": null,
+      "position": "财务董事（Finance Director）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "长江和记实业有限公司 (CK Hutchison Holdings)",
+      "org_id": "HK-CORP-004",
+      "position": "集团财务董事（Group Finance Director），后任执行董事"
+    },
+    {
+      "start_date": null,
+      "end_date": "2026-01",
+      "organization": "长江基建集团有限公司 (CK Infrastructure Holdings)",
       "org_id": "HK-CORP-005",
-      "relation": "group_co_md"
+      "position": "副董事总经理（Deputy Managing Director）"
+    },
+    {
+      "start_date": "2026-01",
+      "end_date": null,
+      "organization": "长江基建集团有限公司 (CK Infrastructure Holdings)",
+      "org_id": "HK-CORP-005",
+      "position": "联席董事总经理（Co-Managing Director）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "电能实业有限公司 (Power Assets Holdings)",
+      "org_id": null,
+      "position": "主席"
+    },
+    {
+      "start_date": "2011-10",
+      "end_date": null,
+      "organization": "诺森伯兰水务集团 (Northumbrian Water Group)",
+      "org_id": null,
+      "position": "非执行主席"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000401",
+      "person_name": "李泽钜 (Victor Li)",
+      "relationship_type": "superior",
+      "description": "长江基建主席，Hunter任联席董事总经理"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "長江基建聯席董事總經理兼執行董事，2006年加入。曾任副董事總經理逾15年，2026年1月晉升聯席董事總經理。同時任英國Northumbrian Water及UK Power Networks等多家CK基建海外子公司董事。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2026-01",
+      "organization": "长江基建 (CK Infrastructure)",
+      "achievement": "由副董事总经理升任长江基建联席董事总经理"
+    },
+    {
+      "date": null,
+      "organization": "长和系 (CK Group)",
+      "achievement": "长期负责长和系财务管理工作，历任集团财务董事，后出任电能实业主席"
+    }
+  ],
+  "biography_summary": "安德鲁·约翰·亨特（Andrew John Hunter），1958年10月出生，英国籍，长江集团资深财务及基建管理高管。早年出任和记黄埔地产财务董事，其后升任长江和记实业集团财务董事，现任长和执行董事。在长江基建长期担任副董事总经理，2026年1月升任联席董事总经理，同时出任电能实业有限公司主席，并自2011年10月起担任英国诺森伯兰水务集团非执行主席。在长和系的全球基建及公用事业投资管理中担任重要角色，负责监督英国、澳大利亚、加拿大等市场的能源、水务及交通基建资产。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "cki_official",
-      "nwg_official",
-      "linkedin"
+      "wikipedia",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile - HK CORP batch 3; no wikidata QID"
-  },
-  "importance_level": "medium",
-  "importance_reason": "派生自職位: 長江基建聯席董事總經理兼執行董事",
-  "person_relationships": [
-    {
-      "org_id": "HK-CORP-005",
-      "org_name": "長江基建",
-      "title": "聯席董事總經理",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 51,
+    "quotes": [
+      {
+        "title": "Board and Key Personnel - CK Infrastructure Holdings",
+        "url": "https://www.cki.com.hk/english/about_CKI/management_bio/index.htm"
+      },
+      {
+        "title": "Power Assets Holdings Limited Annual Report 2025",
+        "url": "https://www.powerassets.com/documents/en/InvestorRelations/Documents/Annual%20Report%202025/PAHAR2025_e10.pdf"
+      },
+      {
+        "title": "Andrew John Hunter - Northumbrian Water Group",
+        "url": "https://www.nwg.co.uk/about-us/nwl/governance2/nwl-board/andrew-john-hunter/"
+      }
+    ],
+    "notes": "身份核验无误。补充2026年1月由长建副董事总经理升任联席董事总经理、电能实业主席、诺森伯兰水务非执行主席等职务。原名格式'Andrew John Hunter (亨特)'规范化。公开资料无学历详情，未编造。无P18，avatar置空。 补深核查：无Wikidata条目及P18、无个人社交媒体；补长建官网管理层简介页为官网渠道。"
+  }
 }

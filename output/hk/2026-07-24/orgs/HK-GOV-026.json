@@ -11,44 +11,173 @@
     "org_subtype": "judiciary",
     "country_iso3": "HKG",
     "hq_country_iso3": "HKG",
-    "founded_date": null,
+    "founded_date": "1997-07-01",
     "website": "http://www.judiciary.gov.hk/",
     "wikidata_qid": "Q838466"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [
+  "digital_assets": [
     {
-      "person_id": "HK-PERSON-000710",
-      "name": "张举能",
-      "title": "负责人 大法官",
-      "title_description": null,
-      "description": null
+      "name": "司法机构官方网站",
+      "description": "提供法院服务、案件排期、判案书、陪审团及法庭费用等资讯"
+    },
+    {
+      "name": "香港司法机构判案书系统",
+      "description": "发布各级法院判案书及法律参考资料"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "香港司法機構 由各級法院、特別法庭和審裁處組成，是香港特別行政區的司法機關，一切司法人員均根據基本法第88條，由行政長官組成的推薦委員會推薦並由行政長官委任。現任首長為終審法院首席法官張舉能。而司法機構政務處則協助各級法院內部行政及管理事宜，一切運作制度與特區政府部門無異。\n",
+  "key_people": [
+    {
+      "person_id": "HK-PERSON-000615",
+      "name": "张举能 (Andrew Cheung)",
+      "title": "终审法院首席法官",
+      "title_description": "香港司法机构首长，领导各级法院及司法行政管理",
+      "description": "1961年生，大紫荆勋贤，香港终审法院首席法官。曾任高等法院原讼法庭法官（专责人权法及宪法行政诉讼）、高等法院首席法官（2011）及终审法院常任法官（2018），2021年1月就任终审法院首席法官。2025年主持法律年度开启典礼并率团访问澳洲及内地法院。"
+    },
+    {
+      "person_id": "HK-PERSON-001188",
+      "name": "潘兆初 (Jeremy Poon)",
+      "title": "高等法院首席法官",
+      "title_description": "领导高等法院上诉法庭及原讼法庭",
+      "description": "高等法院首席法官兼上诉法庭庭长，协助终审法院首席法官管理高等法院事务，为司法机构高级司法人员。"
+    },
+    {
+      "person_id": "HK-PERSON-001297",
+      "name": "李义 (Roberto Ribeiro)",
+      "title": "终审法院常任法官",
+      "title_description": "终审法院三名常任法官之一，参与终审上诉案件的审理",
+      "description": "香港资深法官，大紫荆勋贤，长期任职高等法院原讼法庭及上诉法庭，2000年起出任终审法院常任法官，2026年3月获再度任命延续常任法官职务。"
+    },
+    {
+      "person_id": "HK-PERSON-001298",
+      "name": "霍兆刚 (Joseph Fok)",
+      "title": "终审法院常任法官",
+      "title_description": "终审法院常任法官，参与终审上诉案件的审理",
+      "description": "香港资深法官，曾任高等法院原讼法庭法官及上诉法庭副庭长，2013年起出任终审法院常任法官，为终审法院三名常任法官之一。"
+    },
+    {
+      "person_id": "HK-PERSON-001299",
+      "name": "林文瀚 (Johnson Lam)",
+      "title": "终审法院常任法官",
+      "title_description": "终审法院常任法官，参与终审上诉案件的审理",
+      "description": "香港资深法官，曾任高等法院原讼法庭法官及上诉法庭副庭长，2021年起出任终审法院常任法官，为终审法院三名常任法官之一。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "终审法院 (Court of Final Appeal)",
+      "description": "香港最高上诉法院，审理终审上诉案件及来自其他法院的上诉"
+    },
+    {
+      "name": "高等法院 (High Court)",
+      "description": "分为上诉法庭及原讼法庭，审理重大民事及刑事案件的上诉和初审"
+    },
+    {
+      "name": "区域法院 (District Court)",
+      "description": "审理中等金额民事案件及较严重刑事案件的初审法院"
+    },
+    {
+      "name": "裁判法院及审裁处 (Magistrates' Courts and Tribunals)",
+      "description": "包括裁判法院、小额钱债审裁处、劳资审裁处及土地审裁处等，处理较轻微案件及专门纠纷"
+    },
+    {
+      "name": "司法机构政务处 (Judiciary Administration)",
+      "description": "协助各级法院内部行政及管理事宜的支援部门"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-20",
+      "title": "2025年法律年度开启典礼",
+      "description": "终审法院首席法官张举能在法律年度开启典礼致辞，重申法院并非舆论的仲裁者，亦非检控机关的延伸，国安案件与其他案件采用相同法律原则。",
+      "impact": "阐述司法机构依法独立行使审判权的原则立场。"
+    },
+    {
+      "date": "2025-03-24",
+      "title": "出席亚太区司法学术研讨会",
+      "description": "张举能率领高级法官代表团在澳洲堪培拉出席2025年亚太区司法学术研讨会，3月26日结束访问。",
+      "impact": "促进香港与亚太区司法机构的交流合作。"
+    },
+    {
+      "date": "2025-11-07",
+      "title": "率团访问广州、深圳",
+      "description": "应最高人民法院邀请，张举能率香港司法机构代表团访问广州、深圳，与内地法院交流司法工作。",
+      "impact": "深化内地与香港司法交流机制。"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "终审法院常任法官李义获再度任命",
+      "description": "行政长官根据司法人员推荐委员会的推荐，再度任命终审法院常任法官李义，任期由2026年3月20日起延续。",
+      "impact": "维持终审法院常任法官编制的稳定。"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "终审法院非常任法官任期延续",
+      "description": "司法机构公布，行政长官接纳终审法院首席法官的建议，将来自其他普通法适用地区的非常任法官（包括祈显义）任期延续三年，由2026年4月6日起生效。",
+      "impact": "延续海外非常任法官参与终审审理的安排。"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "律政司 (Department of Justice)",
+      "org_description": "负责刑事检控、法律草拟及法律政策的政府部门，与司法机构分工独立"
+    },
+    {
+      "org_name": "司法人员推荐委员会 (Judicial Officers Recommendation Commission)",
+      "org_description": "根据《基本法》第88条组成的法定委员会，负责向行政长官推荐司法人员任命"
+    },
+    {
+      "org_name": "香港大律师公会 (Hong Kong Bar Association)",
+      "org_description": "大律师专业组织，与司法机构共同维护香港法律专业体系"
+    },
+    {
+      "org_name": "香港律师会 (The Law Society of Hong Kong)",
+      "org_description": "事务律师专业监管组织，与司法机构协作推动法律服务发展"
+    }
+  ],
+  "core_business": "香港司法机构由各级法院、特别法庭和审裁处组成，是香港特别行政区的司法机关，负责行使香港的司法权，审理刑事及民事案件。层级包括终审法院、高等法院（上诉法庭及原讼法庭）、区域法院、裁判法院、各种审裁处及死因裁判法庭。一切司法人员均根据《基本法》第88条，由司法人员推荐委员会推荐并经行政长官委任。司法机构首长为终审法院首席法官，现由张举能出任；司法机构政务处协助各级法院内部行政及管理事宜，运作制度与特区政府部门相若。司法机构独立于行政和立法机关，依法律独立行使审判权。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
+  "apec_stance": "香港司法机构以司法独立和普通法制度为香港这一APEC成员经济体提供法治基础，其商业纠纷解决机制（包括高等法院及仲裁配套）服务亚太区跨境商贸活动，维持香港作为国际法律及争议解决中心的地位。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Hong_Kong_Judiciary_logo.svg/330px-Hong_Kong_Judiciary_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase3_org_enriched",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 35,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 85,
+    "quotes": [
+      {
+        "title": "香港司法机构：法官和司法人员名单",
+        "url": "https://www.judiciary.hk/zh/about_us/judges.html"
+      },
+      {
+        "title": "司法机构便览",
+        "url": "https://www.judiciary.hk/zh/publications/judfactsheet.html"
+      },
+      {
+        "title": "再度任命终审法院常任法官（政府新闻公报）",
+        "url": "https://www.info.gov.hk/gia/general/202603/19/P2026031900250.htm"
+      },
+      {
+        "title": "维基百科：香港終審法院",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E7%B5%82%E5%AF%A9%E6%B3%95%E9%99%A2"
+      },
+      {
+        "title": "香港终审法院首席法官张举能率团访问广州、深圳（最高人民法院）",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/480981.html"
+      }
+    ],
+    "notes": "P3 enrichment: 补全成立日期（1997-07-01终审法院设立）、终审法院三名常任法官、2026年法官任命延续事件；纯事实记录"
   },
-  "description": "香港的司法機關",
-  "brief": "香港的司法機關"
+  "description": "香港的司法机关",
+  "brief": "香港的司法机关"
 }

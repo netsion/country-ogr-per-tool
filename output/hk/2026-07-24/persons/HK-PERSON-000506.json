@@ -1,60 +1,128 @@
 {
   "person_id": "HK-PERSON-000506",
-  "wikidata_qid": "Q111297568",
-  "name": "穆荣均",
-  "name_en": "Mu Rongjun",
+  "wikidata_qid": null,
+  "name": "穆榮均",
   "name_zh": "穆荣均",
+  "name_en": "Mu Rongjun",
+  "aliases": [
+    "穆荣均 (美团)"
+  ],
   "nationality": "CN",
   "gender": "male",
-  "birth_date": null,
-  "honors": [],
+  "birth_date": "1980-01-01",
+  "birth_place": "",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://about.meituan.com",
+      "source": "美团官网"
+    }
+  ],
   "current_positions": [
-    "美团联合创始人兼高级副总裁"
+    "美团联合创始人、执行董事兼高级副总裁（分管金融服务平台及公司事务平台）",
+    "十四届北京市政协常务委员"
   ],
   "education": [
     {
-      "institution": "清华大学",
-      "degree": "硕士",
-      "year": null
+      "start_date": "1998",
+      "end_date": "2002",
+      "institution": "清华大学 (Tsinghua University)",
+      "degree": "master",
+      "field": "自动化工程"
+    },
+    {
+      "start_date": "2002",
+      "end_date": "2005",
+      "institution": "清华大学 (Tsinghua University)",
+      "degree": "master",
+      "field": "计算机科学与技术"
     }
   ],
-  "career_history": [
+  "work_experience": [
     {
-      "organization": "百度",
-      "position": "工程师"
-    }
-  ],
-  "related_organizations": [
+      "start_date": "2005",
+      "end_date": "2007",
+      "organization": "百度 (Baidu)",
+      "org_id": null,
+      "position": "高级软件工程师及项目经理"
+    },
     {
+      "start_date": "2007",
+      "end_date": null,
+      "organization": "饭否网 (Fanfou)",
+      "org_id": null,
+      "position": "联合创始人、技术总监"
+    },
+    {
+      "start_date": "2010",
+      "end_date": null,
+      "organization": "美团 (Meituan)",
       "org_id": "HK-CORP-017",
-      "relation": "coo_founder"
+      "position": "联合创始人、执行董事兼高级副总裁（曾执掌人力资源、行政、IT、采购、法务、政府事务等部门，现分管金融服务平台及公司事务平台）"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000505",
+      "person_name": "王兴 (Wang Xing)",
+      "relationship_type": "associate",
+      "description": "清华大学校友，共同创办美团"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "美团联合创始人，清华大学毕业。曾任职百度，2010年与王兴联合创立美团，现任美团高级副总裁。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2010",
+      "organization": "美团 (Meituan)",
+      "achievement": "与王兴联合创立美团，公司于2018年在香港交易所上市"
+    },
+    {
+      "date": "2020-12-09",
+      "organization": "人力资源和社会保障部、中国物流与采购联合会",
+      "achievement": "被评为全国物流行业劳动模范"
+    },
+    {
+      "date": "2023",
+      "organization": "北京市政协",
+      "achievement": "当选十四届北京市政协常务委员"
+    },
+    {
+      "date": "2024-03",
+      "organization": "胡润研究院",
+      "achievement": "以110亿元人民币财富位列《2024胡润全球富豪榜》"
+    }
+  ],
+  "biography_summary": "穆荣均，1980年生，美团联合创始人、执行董事兼高级副总裁，被称为'美团后勤参谋长'。他本科毕业于清华大学自动化工程专业（2002年），硕士毕业于清华大学计算机科学与技术专业（2005年），读硕期间与在美国留学的王兴相识于网络。2005年硕士毕业后加入刚上市的百度，任高级软件工程师及项目经理；2007年5月联合创立饭否网并任技术总监；2010年与王兴共同创立美团，长期负责公司技术与中后台体系建设，曾执掌人力资源、行政、IT、采购、法务、政府事务等部门，现分管美团金融服务平台及公司事务平台。他是美团从团购网站发展为中国领先本地生活服务平台并于2018年在香港交易所上市的核心创始团队成员之一，2020年获评为全国物流行业劳动模范，2023年当选十四届北京市政协常务委员，并多次入选福布斯及胡润全球富豪榜。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
-      "meituan_official"
+      "official_website",
+      "news_search",
+      "baike"
     ],
-    "completeness_score": 50,
-    "notes": "lite profile - HK CORP batch 2"
-  },
-  "importance_level": "low",
-  "importance_reason": "派生自職位: 美团联合创始人兼高级副总裁",
-  "person_relationships": [
-    {
-      "org_id": "HK-CORP-017",
-      "org_name": "美团",
-      "title": "Co-founder & Senior Vice President",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 52,
+    "quotes": [
+      {
+        "title": "穆荣均_百度百科",
+        "url": "https://baike.baidu.com/item/%E7%A9%86%E8%8D%A3%E5%9D%87/23808766"
+      },
+      {
+        "title": "Meituan 官网",
+        "url": "https://about.meituan.com"
+      },
+      {
+        "title": "'美团后勤参谋长'穆荣均 - 界面新闻",
+        "url": "https://www.jiemian.com/article/2604879.html"
+      }
+    ],
+    "notes": "原lite QID Q111297568为维基消歧义页，维持置空；补全出生年份、学历、饭否及百度经历、履职分工与荣誉；无公开个人照片直链及社交媒体"
+  }
 }

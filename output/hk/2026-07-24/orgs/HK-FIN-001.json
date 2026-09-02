@@ -5,7 +5,8 @@
     "name_zh": "香港金融管理局",
     "name_en": "Hong Kong Monetary Authority",
     "aliases": [
-      "HKMA"
+      "HKMA",
+      "金管局"
     ],
     "org_type": "FIN",
     "org_subtype": "regulatory_agency",
@@ -33,62 +34,212 @@
       "account_name": "UCj3HkzIYR1zlOwn4kXcCfTw",
       "url": "https://youtube.com/channel/UCj3HkzIYR1zlOwn4kXcCfTw",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Hong Kong Monetary Authority",
+      "url": "https://www.linkedin.com/company/hong-kong-monetary-authority/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "「汇思」专栏 (InSight)",
+      "description": "金管局总裁及管理层发表的评论文章平台，阐释货币政策与金融科技等政策方向"
+    },
+    {
+      "name": "数码港元 (e-HKD)",
+      "description": "金管局研究的央行数码货币（零售层面港元数码化）项目"
+    },
+    {
+      "name": "跨境支付通 (Payment Connect)",
+      "description": "金管局与中国人民银行连接内地网上支付跨行清算系统(IBPS)与香港快速支付系统(FPS)的实时小额跨境汇款安排"
+    },
+    {
+      "name": "金管局年报 (HKMA Annual Report)",
+      "description": "每年发布，全面回顾香港金融体系运行、货币稳定、银行业监管、金融科技发展及离岸人民币业务"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000014",
-      "name": "余伟文",
-      "title": "行政总裁",
-      "title_description": "金融管理專員 / 香港金融管理局總裁",
-      "description": "2019年10月1日起出任香港金融管理局（HKMA）總裁。2024年7月獲再度委任。1986年加入香港政府任行政主任，1993年HKMA成立時加入，2007年起任副總裁。"
+      "name": "余伟文 (Eddie Yue)",
+      "name_en": "Eddie Yue",
+      "title": "总裁（金融管理专员）",
+      "title_description": "金管局最高负责人，负责货币政策、银行监管与外汇基金管理",
+      "description": "1986年加入香港政府，1993年金管局成立时随之加入，2007年起任副总裁，2019年10月1日出任总裁，2024年7月获再度委任，任内推动稳定币发牌制度、数码港元研究及跨境支付通，并多次就人民币国际化与国际资金流入亚洲的趋势发表政策阐述。"
     },
     {
       "person_id": "HK-PERSON-000301",
-      "name": "阮国恒",
-      "title": "Deputy 行政总裁",
-      "title_description": "香港金融管理局副總裁（銀行監管）",
-      "description": "2010年1月起任HKMA副總裁，主管銀行政策、監管、操守及執法。"
+      "name": "阮国恒 (Arthur Yuen)",
+      "name_en": "Arthur Yuen",
+      "title": "副总裁（银行监管）",
+      "title_description": "主管银行政策、监管、操守及执法",
+      "description": "2010年1月起任金管局副总裁，长期主管银行监管条线，负责认可机构审慎监管与银行业操守工作。"
     },
     {
       "person_id": "HK-PERSON-000302",
-      "name": "李达志",
-      "title": "Deputy 行政总裁",
-      "title_description": "香港金融管理局副總裁（外匯基金／金融基建）",
-      "description": "2018年1月起任HKMA副總裁，負責外匯基金管理、金融基礎設施及金融科技。"
+      "name": "李达志 (Howard Lee)",
+      "name_en": "Howard Lee",
+      "title": "副总裁（外汇基金／金融基建）",
+      "title_description": "负责外汇基金管理、金融基础设施及金融科技",
+      "description": "2018年1月起任金管局副总裁，负责外汇基金投资管理、支付结算系统与金融科技发展，曾任金管局助理总裁（货币管理）。"
     },
     {
       "person_id": "HK-PERSON-000303",
-      "name": "陈维民",
-      "title": "Deputy 行政总裁",
-      "title_description": "香港金融管理局副總裁（對外事務／貨幣管理）",
-      "description": "2022年11月起任HKMA副總裁，負責對外事務、貨幣管理及研究。"
+      "name": "陈维民 (Darryl Chan)",
+      "name_en": "Darryl Chan",
+      "title": "副总裁（对外事务／货币管理）",
+      "title_description": "负责对外事务、货币管理及研究",
+      "description": "2022年11月起任金管局副总裁，负责对外联系、货币稳定政策与研究工作，曾任香港驻外经贸办事处官员。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "香港金融管理局 是獨立於香港政府運作的政府部門，是香港的中央銀行機構，於1993年4月1日成立，由外匯基金管理局與銀行業監理處合併而成，負責香港的金融政策、銀行、貨幣及外匯基金管理，直接向財政司司長負責。其關連機構包括香港按揭證券有限公司、香港印鈔有限公司、香港貨幣及金融研究中心、香港銀行同業結算有限公司及外匯基金投資有限公司。現任金融管理專員（通稱總裁）余偉文。\n",
-  "industries": [
-    "financial_services"
+  "departments": [
+    {
+      "name": "银行监理部 (Banking Supervision)",
+      "description": "负责认可银行的审慎监管与现场审查"
+    },
+    {
+      "name": "银行政策部 (Banking Policy)",
+      "description": "制定银行监管政策与法定监管要求"
+    },
+    {
+      "name": "货币市场部 (Monetary Markets)",
+      "description": "执行联系汇率制度下的货币市场操作与流动性管理"
+    },
+    {
+      "name": "外汇基金投资办公室 (Reserve Management)",
+      "description": "管理外汇基金的投资组合与资产配置"
+    },
+    {
+      "name": "金融科技促进办公室 (Fintech Promotion)",
+      "description": "推动金融科技发展，包括稳定币发牌制度、数码港元与跨境支付项目"
+    },
+    {
+      "name": "对外事务部 (External Affairs)",
+      "description": "负责与国际金融组织及各地监管机构的联系合作"
+    },
+    {
+      "name": "货币稳定部 (Monetary Stability)",
+      "description": "维持货币稳定与联系汇率制度的政策研究与执行支持"
+    },
+    {
+      "name": "研究部 (Research)",
+      "description": "开展宏观经济、货币金融与离岸人民币市场研究，支持政策制定"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "title": "《稳定币条例》生效并发出首批牌照",
+      "date": "2025-08-01",
+      "description": "香港《稳定币条例》于2025年8月1日生效，金管局开始接受稳定币发行人牌照申请；首阶段申请共收到36家机构申请，其后向汇丰及碇点金融批出首批牌照，总裁余伟文形容为里程碑。",
+      "impact": "将数码资产纳入传统金融监管体系，巩固香港国际金融中心地位"
+    },
+    {
+      "title": "余伟文撰文呼吁稳定币市场降温",
+      "date": "2025-07-23",
+      "description": "金管局总裁余伟文在《汇思》发表文章，指香港稳定币发行人标准严格、门槛与银行及电子钱包监管看齐，首阶段仅发数张牌照，获牌稳定币须有跨境贸易等实际应用场景，提醒公众稳定币并非投资或投机工具。",
+      "impact": "引导市场理性预期，防范金融风险与炒作"
+    },
+    {
+      "title": "金管局与人民银行推出「跨境支付通」",
+      "date": "2025-06-20",
+      "description": "金管局与中国人民银行连接两地快速支付系统（香港FPS与内地IBPS），推出「跨境支付通」，两地居民凭手机号码或账户号码即可实时小额跨境汇款。",
+      "impact": "提升跨境支付效率，便利两地经贸活动与民生往来"
+    },
+    {
+      "title": "金管局发布2025年年报",
+      "date": "2026-04-30",
+      "description": "金管局发布2025年年报，全面回顾香港金融体系运行、货币稳定、银行业监管、金融科技发展及离岸人民币业务。",
+      "impact": "系统披露监管与政策成效，增强市场透明度"
+    },
+    {
+      "title": "人民银行推出强化香港离岸人民币市场措施",
+      "date": "2026-07-07",
+      "description": "中国人民银行宣布支持香港固定收益及货币市场、离岸人民币市场建设的新措施，包括共建香港固定收益及货币电子交易平台、优化扩容「债券通」（南向通）额度等；金管局总裁余伟文表示新措施将提升香港离岸人民币市场的多元性。",
+      "impact": "深化两地金融市场互联互通，巩固香港全球离岸人民币枢纽地位"
+    },
+    {
+      "title": "余伟文：国际资金加速流入亚洲，互联互通将持续深化",
+      "date": "2026-06-09",
+      "description": "金管局总裁余伟文表示香港离岸人民币流动性池规模约1万亿元人民币，全球超过70%的离岸人民币支付经香港处理；金管局并与内地金融管理部门探讨扩展跨境理财通3.0的产品类别、额度及参与投资者类别。",
+      "impact": "反映香港在区域金融中介与人民币国际化中的关键角色"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "香港按揭证券有限公司 (HKMC)",
+      "org_description": "金管局关连机构，从事按揭担保与基建投资"
+    },
+    {
+      "org_name": "香港银行同业结算有限公司 (HKICL)",
+      "org_description": "金管局关连机构，运营香港银行同业支付结算系统及快速支付系统(FPS)"
+    },
+    {
+      "org_name": "外汇基金投资有限公司 (EFIL)",
+      "org_description": "负责外汇基金部分投资管理的关连机构"
+    },
+    {
+      "org_name": "香港印钞有限公司 (HKNPL)",
+      "org_description": "金管局关连机构，负责港元纸币印制"
+    },
+    {
+      "org_name": "香港货币及金融研究中心 (HKIMR)",
+      "org_description": "金管局研究附属机构，开展货币金融研究"
+    },
+    {
+      "org_name": "香港特别行政区政府财政司司长 (FS)",
+      "org_description": "金管局直接向财政司司长负责"
+    },
+    {
+      "org_name": "中国人民银行 (PBOC)",
+      "org_description": "内地中央银行，与金管局合作推进跨境支付通、债券通及离岸人民币市场建设等互联互通措施"
+    }
+  ],
+  "core_business": "香港金融管理局是独立于香港特区政府运作的政府部门，为香港的中央银行机构，于1993年4月1日由外汇基金管理局与银行业监理处合并成立，负责香港的金融政策、银行监管、货币及外汇基金管理，直接向财政司司长负责。其法定职能包括维持货币稳定（执行联系汇率制度）、促进银行体系安全与稳定、管理外汇基金以保障资产与维持港元信心，以及发展香港金融市场基础设施。金管局亦推动金融科技发展，2025年起实施稳定币发行人发牌制度并研究数码港元；与中国人民银行合作推出连接两地快速支付系统的「跨境支付通」，并参与债券通、跨境理财通等互联互通安排及离岸人民币市场建设，香港离岸人民币流动性池规模约1万亿元，全球超过70%的离岸人民币支付经香港处理。其关连机构包括香港按揭证券有限公司、香港印钞有限公司、香港货币及金融研究中心、香港银行同业结算有限公司及外汇基金投资有限公司。现任总裁为余伟文。",
+  "industries": [
+    "financial_services",
+    "monetary_policy"
+  ],
+  "apec_stance": "金管局代表香港参与国际金融监管合作，与APEC经济体央行及监管机构保持联系，推进跨境金融基建合作（如与内地快速支付系统互联的跨境支付通、债券通及跨境理财通扩容），支持离岸人民币市场发展及人民币国际化，推动香港作为亚太区国际金融中心服务区域贸易与投资；总裁余伟文指出国际资金正加速流入亚洲，香港的区域金融中介角色持续强化。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Hong_Kong_Monetary_Authority.jpg/330px-Hong_Kong_Monetary_Authority.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase3_org_enriched",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 45,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | Phase 3 update: key_people filled by phase4_person_lite batch."
+    "completeness_score": 96,
+    "quotes": [
+      {
+        "title": "金管局与人民银行推出「跨境支付通」（金管局新闻稿，2025-06-20）",
+        "url": "https://www.hkma.gov.hk/chi/news-and-media/press-releases/2025/06/20250620-4/"
+      },
+      {
+        "title": "金管局「汇思」：余伟文谈行稳致远的稳定币（2025-07-23）",
+        "url": "https://www.hkma.gov.hk/chi/news-and-media/insight/2025/07/20250723/"
+      },
+      {
+        "title": "维基百科：香港金融管理局",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%87%91%E8%9E%8D%E7%AE%A1%E7%90%86%E5%B1%80"
+      },
+      {
+        "title": "香港特区政府新闻公报：支持香港固定收益和货币市场、离岸人民币市场建设的新措施（2026-07-07）",
+        "url": "https://www.info.gov.hk/gia/general/202607/07/P2026070700531.htm"
+      },
+      {
+        "title": "上海证券报：香港金管局总裁余伟文——国际资金加速「到亚洲来」互联互通将再深化（2026-06）",
+        "url": "https://paper.cnstock.com/html/2026-06/10/content_2229676.htm"
+      }
+    ],
+    "notes": "P3二轮丰富：补跨境支付通、2025年报、离岸人民币新措施及理财通3.0事件，新增货币稳定部/研究部及人行、印钞公司等关联机构，digital_assets扩充"
   },
-  "description": "香港中央銀行機構",
-  "brief": "香港中央銀行機構"
+  "description": "香港的中央银行机构，负责货币稳定、银行监管与外汇基金管理，推进稳定币发牌、跨境支付通及离岸人民币枢纽建设",
+  "brief": "香港的中央银行机构，负责货币政策、银行监管与外汇基金管理，推进稳定币发牌与跨境支付互联互通"
 }

@@ -2,51 +2,114 @@
   "person_id": "HK-PERSON-000108",
   "wikidata_qid": null,
   "name": "李子建",
-  "name_en": "John Lee Chi-kin",
   "name_zh": "李子建",
+  "name_en": "John Lee Chi-kin",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "honors": [
-    "JP"
+  "birth_place": "",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.eduhk.hk",
+      "source": "https://www.eduhk.hk"
+    }
   ],
   "current_positions": [
-    "香港教育大學校長",
-    "香港教育大學課程與教學講座教授",
-    "全國政協委員"
+    "香港教育大学校长",
+    "香港教育大学课程与教学讲座教授",
+    "全国政协委员"
   ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [
+  "education": [
     {
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港中文大学 (The Chinese University of Hong Kong)",
+      "degree": "bachelor",
+      "field": "地理（教育学）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港大学 (The University of Hong Kong)",
+      "degree": "doctorate",
+      "field": "课程与教学"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港中文大学 (The Chinese University of Hong Kong)",
+      "org_id": "HK-ACAD-001",
+      "position": "教育学院任教多年，历任课程与教学学系教授、学院副院长等职"
+    },
+    {
+      "start_date": null,
+      "end_date": "2023",
+      "organization": "香港教育大学 (The Education University of Hong Kong)",
       "org_id": "HK-ACAD-003",
-      "relation": "president"
+      "position": "学术副校长及首席副校长"
+    },
+    {
+      "start_date": "2023-09-01",
+      "end_date": null,
+      "organization": "香港教育大学 (The Education University of Hong Kong)",
+      "org_id": "HK-ACAD-003",
+      "position": "校长，接替张仁良"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-001151",
+      "person_name": "郑美红 (May Cheng)",
+      "relationship_type": "subordinate",
+      "description": "郑美红任香港教育大学副校长（学术）"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "2023年9月1日接替張仁良出任香港教育大學校長，曾任該校學術副校長及首席副校長，於香港中文大學教育學院出身。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "",
+      "organization": "",
+      "achievement": "课程与教学及环境教育领域知名学者，著作丰富，并获委任为太平绅士（JP）"
+    },
+    {
+      "date": "",
+      "organization": "",
+      "achievement": "当选全国政协委员"
+    }
+  ],
+  "biography_summary": "李子建（John Lee Chi-kin），JP，香港教育家，现任香港教育大学校长及课程与教学讲座教授，并当选全国政协委员。他于香港中文大学接受本科教育，后在香港大学取得博士学位，长期从事课程与教学、环境教育及教师教育研究，学术著作丰富，是相关领域知名学者。他曾在香港中文大学教育学院任教多年，其 后加入香港教育大学，先后出任学术副校长及首席副校长，2023年9月1日接替张仁良出任校长，领导教大在师资培训及教育研究方面的发展，任内获委任为太平绅士。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "zh.wikipedia",
-      "eduhk_official"
+      "wikipedia",
+      "official_website"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile - HK ACAD batch"
-  },
-  "importance_level": "high",
-  "importance_reason": "派生自職位: 香港教育大學校長",
-  "person_relationships": [
-    {
-      "org_id": "HK-ACAD-003",
-      "org_name": "香港教育大學",
-      "title": "",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 46,
+    "quotes": [
+      {
+        "title": "中文维基百科：李子建 (教育家)",
+        "url": "https://zh.wikipedia.org/wiki/李子建_(教育家)"
+      },
+      {
+        "title": "香港教育大学：校长李子建",
+        "url": "https://www.eduhk.hk"
+      },
+      {
+        "title": "团结香港基金：李子建教授个人简介",
+        "url": "https://ourhkfoundation.org.hk/profile/Professor-John-LEE-Chi-kin"
+      }
+    ],
+    "notes": "phase4深度丰富；暂无独立Wikidata条目。 2026-08-27补深核查：无Wikidata QID，无P18可用照片，教大官网无公开校长肖像直链，头像维持留空；无经核实的个人社交媒体账号，social维持空。"
+  }
 }

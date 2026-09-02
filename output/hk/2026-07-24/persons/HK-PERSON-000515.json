@@ -1,66 +1,107 @@
 {
   "person_id": "HK-PERSON-000515",
-  "wikidata_qid": "Q10859699",
-  "name": "张志东",
-  "name_en": "Tony Zhang Zhidong",
+  "wikidata_qid": "Q15934341",
+  "name": "張志東",
   "name_zh": "张志东",
+  "name_en": "Tony Zhang Zhidong",
+  "aliases": [
+    "Tony Zhang"
+  ],
   "nationality": "CN",
   "gender": "male",
   "birth_date": "1972-01-01",
-  "honors": [],
+  "birth_place": "广东省东莞市",
+  "contacts": [],
   "current_positions": [
     "腾讯控股有限公司联合创始人",
-    "腾讯学院讲师"
+    "腾讯学院讲师、终身荣誉顾问"
   ],
   "education": [
     {
-      "institution": "深圳大学",
-      "degree": "计算机学士",
-      "year": null
+      "start_date": null,
+      "end_date": null,
+      "institution": "深圳大学 (Shenzhen University)",
+      "degree": "bachelor",
+      "field": "计算机"
     },
     {
-      "institution": "华南理工大学",
-      "degree": "硕士",
-      "year": null
+      "start_date": null,
+      "end_date": null,
+      "institution": "华南理工大学 (South China University of Technology)",
+      "degree": "master",
+      "field": "计算机"
     }
   ],
-  "career_history": [
+  "work_experience": [
     {
-      "organization": "黎明网络",
+      "start_date": null,
+      "end_date": "1998",
+      "organization": "黎明网络 (Liming Networks)",
+      "org_id": null,
       "position": "工程师"
+    },
+    {
+      "start_date": "1998",
+      "end_date": "2014",
+      "organization": "腾讯控股 (Tencent)",
+      "org_id": "HK-CORP-022",
+      "position": "联合创始人兼首席技术官（CTO）"
+    },
+    {
+      "start_date": "2014",
+      "end_date": null,
+      "organization": "腾讯控股 (Tencent)",
+      "org_id": "HK-CORP-022",
+      "position": "腾讯学院讲师、终身荣誉顾问"
     }
   ],
-  "related_organizations": [
+  "person_relationships": [
     {
-      "org_id": "HK-CORP-022",
-      "relation": "cofounder"
+      "person_id": null,
+      "person_name": "马化腾 (Pony Ma)",
+      "relationship_type": "associate",
+      "description": "深圳大学校友，1998年共同创立腾讯"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "腾讯联合创始人，深圳大学及华南理工大学毕业。1998年与马化腾共同创立腾讯，曾任腾讯首席技术官(CTO)至2014年，后转任腾讯学院讲师及终身荣誉顾问。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "1998",
+      "organization": "腾讯控股 (Tencent)",
+      "achievement": "与马化腾等共同创立腾讯，作为首席技术官主导QQ等核心产品的技术研发"
+    }
+  ],
+  "biography_summary": "张志东（Tony Zhang Zhidong），1972年生于广东，腾讯控股有限公司联合创始人。深圳大学计算机专业学士、华南理工大学计算机硕士。曾在黎明网络任工程师，1998年与马化腾等人共同创立腾讯，长期担任首席技术官，主导QQ等核心产品的技术架构设计，为人低调，被认为是腾讯技术体系的奠基人。2014年卸任首席技术官，转任腾讯学院讲师、荣誉院长及终身荣誉顾问，专注于管理及技术人才培养。他是腾讯第二大个人股东，2019年福布斯估计其身家约133亿美元，位列全球富豪之列；他持有QQ号码10002，为人低调务实，在腾讯内部以对产品与技术品质的严格要求著称。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
-      "tencent_official"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 70,
-    "notes": "lite profile - HK CORP batch 2"
-  },
-  "importance_level": "low",
-  "importance_reason": "派生自職位: 腾讯控股有限公司联合创始人",
-  "person_relationships": [
-    {
-      "org_id": "HK-CORP-022",
-      "org_name": "腾讯",
-      "title": "Co-founder",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 46,
+    "quotes": [
+      {
+        "title": "腾讯官网管理层",
+        "url": "https://www.tencent.com/zh-cn/about/management.html"
+      },
+      {
+        "title": "腾讯 - 维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AF"
+      },
+      {
+        "title": "对话腾讯主要创办人张志东 - 新浪财经",
+        "url": "https://finance.sina.com.cn/wm/2020-11-16/doc-iiznctke1682654.shtml"
+      }
+    ],
+    "notes": "原lite QID Q10859699（捷克保护区条目）置空。2026-08-27补深：经zh-wiki条目匹配新增Wikidata Q15934341（无P18，头像留空）；出生年份维基百科记1972年、Wikidata记1971年（精度仅到年），档案采维基百科1972年并记录差异；补出生地东莞、腾讯学院荣誉院长、第二大个人股东及财富资料；其人低调，无个人公开社交媒体。"
+  }
 }

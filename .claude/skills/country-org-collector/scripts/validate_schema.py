@@ -187,6 +187,26 @@ ALLOWED_PERSON_TOP = {
 _KO_FIRST_PAT = re.compile(r'([가-힣][가-힣\s·\w./-]*)\s*[（(]([^)）]+)[)）]')
 
 
+def _degree_pattern_fallback(deg):
+    """Map Chinese/compound degree strings to enum via substring patterns (order matters)."""
+    low = deg.lower()
+    if re.search(r'副学士|副學士|associate|diploma|文憑|文凭', low):
+        return 'associate'
+    if re.search(r'博士|ph\.?d|doctor|dba', low):
+        return 'doctorate'
+    if re.search(r'硕士|碩士|mba|master', low):
+        return 'master'
+    if re.search(r'学士|學士|bachelor|llb', low):
+        return 'bachelor'
+    if re.search(r'jd|會計師|会计师|特許|特许|律師|律师|cfa|cpa|acca|fcca|hkicpa|专业资|專業資', low):
+        return 'professional'
+    if re.search(r'中学|中學|high.?school|secondary', low):
+        return 'high_school'
+    if re.search(r'小学|小學|primary', low):
+        return 'primary'
+    return None  # unmapped -> null (previous behavior)
+
+
 def normalize_data(data, is_person=True):
     """Auto-fix common issues: enums, dates, extra fields, Korean-first text."""
     fixes = []
@@ -207,6 +227,8 @@ def normalize_data(data, is_person=True):
         if deg and isinstance(deg, str):
             if deg not in DEGREE_LEVELS:
                 new = DEGREE_NORMALIZE.get(deg.lower())
+                if new is None:
+                    new = _degree_pattern_fallback(deg)
                 if new != deg:
                     edu['degree'] = new
                     fixes.append(f"education[{i}].degree: '{deg}' -> '{new}'")

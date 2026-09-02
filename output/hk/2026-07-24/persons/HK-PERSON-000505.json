@@ -1,69 +1,126 @@
 {
   "person_id": "HK-PERSON-000505",
-  "wikidata_qid": "Q10932221",
-  "name": "王兴",
-  "name_en": "Wang Xing",
+  "wikidata_qid": "Q18235069",
+  "name": "王興",
   "name_zh": "王兴",
+  "name_en": "Wang Xing",
+  "aliases": [
+    "王興 (美團)",
+    "美团王兴"
+  ],
   "nationality": "CN",
   "gender": "male",
   "birth_date": "1979-02-18",
-  "honors": [],
+  "birth_place": "福建省龙岩市",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://about.meituan.com/en/management-team",
+      "source": "https://about.meituan.com"
+    }
+  ],
   "current_positions": [
-    "美团创始人兼首席执行官"
+    "美团创始人、董事长兼首席执行官",
+    "理想汽车非执行董事",
+    "中华全国工商业联合会第十三届执行委员会委员"
   ],
   "education": [
     {
-      "institution": "清华大学",
-      "degree": "电子工程学士",
-      "year": 2001
+      "start_date": "1997",
+      "end_date": "2001",
+      "institution": "清华大学 (Tsinghua University)",
+      "degree": "bachelor",
+      "field": "电子工程"
     },
     {
-      "institution": "美国特拉华大学",
-      "degree": "硕士",
-      "year": null
+      "start_date": "2001",
+      "end_date": "2005",
+      "institution": "特拉华大学 (University of Delaware)",
+      "degree": "master",
+      "field": "电子与计算机工程"
     }
   ],
-  "career_history": [
+  "work_experience": [
     {
-      "organization": "校内网(后改名人人网)",
+      "start_date": "2005",
+      "end_date": "2006",
+      "organization": "校内网 (Xiaonei Network)",
+      "org_id": null,
       "position": "创始人"
     },
     {
-      "organization": "饭否网",
+      "start_date": "2007",
+      "end_date": "2009",
+      "organization": "饭否网 (Fanfou)",
+      "org_id": null,
       "position": "创始人"
-    }
-  ],
-  "related_organizations": [
+    },
     {
+      "start_date": "2010",
+      "end_date": null,
+      "organization": "美团 (Meituan)",
       "org_id": "HK-CORP-017",
-      "relation": "ceo_founder"
+      "position": "创始人、董事长兼首席执行官"
     }
   ],
-  "social_accounts": [],
-  "biography_summary": "美团创始人、董事长兼首席执行官，福建龙岩人。清华大学电子工程系毕业，曾创立校内网、饭否网等知名互联网产品。2010年创立美团，带领公司成为中国最大本地生活服务平台。",
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000506",
+      "person_name": "穆荣均 (Mu Rongjun)",
+      "relationship_type": "associate",
+      "description": "清华大学校友，2010年起共同创办美团"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "other",
+      "account_name": "饭否 @王兴",
+      "url": "https://fanfou.com/wangxing",
+      "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%B4_(%E7%BE%8E%E5%9B%A2)"
+    }
+  ],
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2010",
+      "organization": "美团 (Meituan)",
+      "achievement": "创立美团，带领公司发展为中国领先的本地生活服务平台，并于2018年在香港交易所上市"
+    },
+    {
+      "date": "2005",
+      "organization": "校内网 (Xiaonei Network)",
+      "achievement": "创立校内网（后更名为人人网），中国早期校园社交网络"
+    }
+  ],
+  "biography_summary": "王兴，1979年2月18日出生于福建省龙岩市，美团创始人、董事长兼首席执行官。1997年保送入读清华大学电子工程系，2001年获学士学位，后赴美国特拉华大学攻读并获电子与计算机工程硕士学位。2003年回国创业，先后创办校内网（后更名人人网）与饭否网等知名互联网产品。2010年创办美团，公司从团购网站发展为覆盖外卖、到店、酒旅、出行等业务的本地生活服务平台，2018年在香港交易所上市（3690.HK）。王兴现为美团董事长兼首席执行官，并担任理想汽车非执行董事、中华全国工商业联合会第十三届执行委员会委员。",
   "profile": {
-    "source_url": null,
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Wang_Xing_in_2009.jpg/250px-Wang_Xing_in_2009.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
-      "meituan_official"
+      "wikidata",
+      "news_search"
     ],
-    "completeness_score": 70,
-    "notes": "lite profile - HK CORP batch 2"
-  },
-  "importance_level": "high",
-  "importance_reason": "派生自職位: 美团创始人兼首席执行官",
-  "person_relationships": [
-    {
-      "org_id": "HK-CORP-017",
-      "org_name": "美团",
-      "title": "Founder & Chief Executive Officer",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 53,
+    "quotes": [
+      {
+        "title": "王兴 (美团) - 维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%B4_(%E7%BE%8E%E5%9B%A2)"
+      },
+      {
+        "title": "王兴 - 百度百科",
+        "url": "https://baike.baidu.com/item/%E7%8E%8B%E5%85%B4/3918107"
+      },
+      {
+        "title": "王兴 - 美团官网管理团队介绍",
+        "url": "https://about.meituan.com/en/management-team"
+      }
+    ],
+    "notes": "修正原lite错误QID（Q10932221为清代人物），经zh-wiki条目匹配Wikidata Q18235069。补深：补美团官网管理团队页为官方渠道。"
+  }
 }

@@ -5,7 +5,8 @@
     "name_zh": "now 电视",
     "name_en": "Now TV",
     "aliases": [
-      "NowTV"
+      "NowTV",
+      "now宽频电视"
     ],
     "org_type": "MEDIA",
     "org_subtype": "broadcaster",
@@ -15,47 +16,160 @@
     "website": "http://nowtv.now.com/",
     "wikidata_qid": "Q307373"
   },
-  "social_accounts": [],
-  "digital_assets": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "nowTVHK",
+      "url": "https://www.facebook.com/nowTVHK",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Now新闻",
+      "url": "https://www.youtube.com/@nowvideo",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "nowtv.hongkong",
+      "url": "https://www.instagram.com/nowtv.hongkong/",
+      "source": "official_social_media"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Now TV官方网站",
+      "description": "提供节目表、订阅方案及Now TV App下载"
+    },
+    {
+      "name": "Now TV App / Now TV Smart TV App",
+      "description": "流动及智能电视应用，支援手机、平板及Smart TV跨屏观看"
+    },
+    {
+      "name": "MOViE MOViE (MM)",
+      "description": "旗下电影频道及自选影视品牌，提供中西日韩电影内容"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000806",
-      "name": "李泽楷",
+      "name": "李泽楷 (Richard Li)",
       "title": "主席",
-      "title_description": "主席",
-      "description": "PCCW主席兼執行董事"
+      "title_description": "电讯盈科主席兼执行董事，Now TV最终控制人",
+      "description": "电讯盈科（PCCW）主席兼执行董事，香港富商李嘉诚次子，旗下香港电讯全资拥有Now TV，并透过PCCW Media经营ViuTV及Viu串流平台，业务覆盖电信、媒体及OTT服务。"
     },
     {
       "person_id": "HK-PERSON-000810",
-      "name": "李若凡",
-      "title": "董事总经理, PCCW Media",
-      "title_description": "PCCW媒體集團董事總經理",
-      "description": "Viu首席執行官"
+      "name": "李若凡 (Janice Lee)",
+      "title": "PCCW Media董事总经理",
+      "title_description": "负责PCCW媒体集团（含Now TV及Viu）整体业务",
+      "description": "PCCW媒体集团董事总经理兼Viu首席执行官，统领Now TV付费电视、ViuTV免费电视及Viu串流平台的亚洲区业务，推动集团媒体业务的数字化转型及跨市场扩张。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "Now TV，前稱now寬頻電視，是香港唯一的收費電視台，由香港電訊全資擁有的Now TV Limited負責經營，現時提供152條頻道，包括34條Now TV頻道，另有58個自選影像服務。\n",
-  "industries": [
-    "broadcasting"
+  "departments": [
+    {
+      "name": "Now TV节目及内容部",
+      "description": "负责频道采购、体育赛事转播权（英超、西甲、欧联等）及自制内容"
+    },
+    {
+      "name": "Now新闻台 (Now News)",
+      "description": "旗下24小时新闻频道，制作本地及国际新闻节目"
+    },
+    {
+      "name": "ViuTV (99台)",
+      "description": "集团旗下免费电视台，制作自家剧集、综艺及「晚吹」清谈系列等节目"
+    },
+    {
+      "name": "Viu串流平台 (Viu OTT)",
+      "description": "面向亚洲市场的OTT平台，提供韩剧、粤语配音剧及与Now TV打通的会员服务"
+    },
+    {
+      "name": "Now Sports体育制播部 (Now Sports)",
+      "description": "负责体育频道（含Now Sports Premier League 620台）的赛事版权采购、制作及4K直播"
+    },
+    {
+      "name": "客户服务及订户管理部",
+      "description": "负责机顶盒订户及Now TV App用户的订购方案、帐务及客户支援服务"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2025-01-01",
+      "title": "深化与串流平台的捆绑策略",
+      "description": "Now TV订户可透过机顶盒及应用程式收看Viu、HBO Max、Netflix等串流平台内容，电影库汇聚逾2,800套中西日韩电影，推动一站式跨屏观看体验。",
+      "impact": "在OTT竞争加剧下整合内容生态，维持付费电视订户价值。"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "获得2026年美加墨世界杯香港独家转播权",
+      "description": "Now TV与ViuTV获得2026年美加墨世界杯香港地区独家转播权，收费平台全程直播全部104场赛事，提供AI观赛助手及4K超高清直播，ViuTV免费播放25场精选赛事。",
+      "impact": "巩固Now TV作为香港体育转播龙头平台的地位。"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "再夺英超及英格兰足总杯独家播映权至2030/31赛季",
+      "description": "Now TV宣布再度夺得英格兰超级联赛及英格兰足总杯独家播映权至2030/31赛季，连续多个球季为香港观众直播每季全部380场英超赛事，指定赛事以4K播放，并由第一圈起直播2026/27赛季足总杯精选赛事。",
+      "impact": "延续连续15年以上的英超转播布局，稳住香港体育收费转播市场的核心版权资产。"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "香港电讯 (HKT)",
+      "org_description": "电讯盈科旗下电信公司，Now TV Limited的全资母公司"
+    },
+    {
+      "org_name": "电讯盈科 (PCCW)",
+      "org_description": "李泽楷任主席的上市综合企业，媒体与电信业务控股平台"
+    },
+    {
+      "org_name": "ViuTV",
+      "org_description": "集团旗下免费电视台（99台），与Now TV共享内容及转播资源"
+    },
+    {
+      "org_name": "Viu (OTT平台)",
+      "org_description": "集团旗下亚洲串流平台，覆盖东南亚、中东等多个市场"
+    }
+  ],
+  "core_business": "Now TV（前称now宽频电视）是香港主要的收费电视平台，1998年推出，由香港电讯全资拥有的Now TV Limited经营，隶属电讯盈科旗下PCCW Media。现时提供超过150条频道（含34条Now TV频道）及58个自选影像服务，内容涵盖体育（英超、西甲、欧联、四大满贯网球）、电影、剧集、综艺、新闻及儿童节目，并透过Now TV App及Smart TV App实现跨屏观看。体育版权为其核心资产：已获得2026年美加墨世界杯香港独家转播权，并再度夺得英超及英格兰足总杯独家播映权至2030/31赛季，每季直播全部380场英超赛事，指定赛事以4K播放。集团另经营ViuTV免费电视及Viu串流平台，形成「付费电视+免费电视+OTT」的全媒体布局。",
+  "industries": [
+    "broadcasting",
+    "digital_media"
+  ],
+  "apec_stance": "Now TV母公司PCCW Media旗下的Viu串流平台业务遍及东南亚、中东等多个亚太市场，是亚太区华语及亚洲内容跨市场分发的典型案例；Now TV的体育及内容版权采购亦与亚太媒体市场紧密相连。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/HK_now_TV_logo.svg/330px-HK_now_TV_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 30,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | key_people updated in phase4 lite"
+    "completeness_score": 75,
+    "quotes": [
+      {
+        "title": "Now TV首页（官方网站）",
+        "url": "https://www.nowtv.now.com/?lang=zh"
+      },
+      {
+        "title": "Now TV再夺英超及英格兰足总杯独家播映权至2030/31赛季（香港电讯新闻稿）",
+        "url": "https://hkt.com/about-hkt/press-release/now-tv-secures-premier-league-and-emirates-fa-cup-exclusive-broadcast-rights-until-2030-31-bringing-leading-english-football-competitions-to-hong-kong-fans-for-the-next-five-consecutive-seasons/"
+      },
+      {
+        "title": "PCCW董事会及管理层（Janice Lee，PCCW Media集团董事总经理）",
+        "url": "https://www.pccw.com/about-us/leadership/senior-corporate-executives-and-bu-heads.page?locale=en"
+      },
+      {
+        "title": "Viu订阅计划 | Viu香港（与Now TV打通的会员体系）",
+        "url": "https://www.viu.com/ott/hk/zh/premium"
+      }
+    ],
+    "notes": "Phase3二次丰富：补全英超/足总杯版权至2030/31、Now Sports制播与客服部门、Instagram账号，内容统一为简体中文。"
   },
-  "description": "香港收費電視台",
-  "brief": "香港收費電視台"
+  "description": "香港收费电视及流媒体平台",
+  "brief": "香港收费电视及流媒体平台"
 }

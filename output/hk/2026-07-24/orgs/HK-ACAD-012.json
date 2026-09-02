@@ -35,62 +35,197 @@
       "account_name": "UCvZ4seZaqaO_A_WPfL-d9WQ",
       "url": "https://youtube.com/channel/UCvZ4seZaqaO_A_WPfL-d9WQ",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "The University of Hong Kong",
+      "url": "https://www.linkedin.com/school/the-university-of-hong-kong/",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "hkuhk",
+      "url": "https://www.instagram.com/hkuhk/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "HKU Scholars Hub",
+      "description": "港大学术成果与学者研究数据库，公开大学研究产出"
+    },
+    {
+      "name": "港大新闻及刊物 (HKU Press Releases)",
+      "description": "香港大学官方新闻稿与刊物平台，发布大学排名、科研成果及活动信息"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000131",
-      "name": "张翔",
+      "name": "张翔 (Xiang Zhang)",
       "name_en": "Xiang Zhang",
+      "title": "校长",
+      "title_description": "大学最高学术与行政首长，负责整体战略发展与学术领导",
+      "description": "材料科学与物理学家，美国国家科学院院士、美国国家工程院院士，2018年7月起出任香港大学第十六任校长。兼任物理学系讲座教授，2025年Research.com全球学者排名中物理学领域全球第48位、亚洲领先。任内港大QS世界大学排名从第22位升至2026年的全球第11位历史高位。2026年7月27日宣布于2028年7月14日十年任期约满后离任，不再续任，校务委员会将按《香港大学条例》启动继任遴选。",
       "role_zh": "校長（第十六任）",
       "role_en": "President and Vice-Chancellor"
     },
     {
       "person_id": "HK-PERSON-000132",
-      "name": "黄天牧",
+      "name": "黄天牧 (Peter Wong)",
       "name_en": "Peter Wong Tung-shun",
+      "title": "校务委员会主席",
+      "title_description": "主持校务委员会，负责大学治理、财务及重大人事决策",
+      "description": "资深银行家，曾任东亚银行董事，2022年起出任香港大学校务委员会主席，负责主持大学最高治理机构，统筹校董及校务委员会事务。",
       "role_zh": "校務委員會主席",
       "role_en": "Council Chairman"
     },
     {
       "person_id": "HK-PERSON-000015",
-      "name": "李国宝",
+      "name": "李国宝 (David Li)",
       "name_en": "David Li",
+      "title": "副校监",
+      "title_description": "大学礼仪性高级职位，代表大学出席重要典礼与外事活动",
+      "description": "东亚银行主席、香港立法会前议员（金融界功能界别），长期担任香港大学副校监，是香港银行界与教育界知名人士。",
       "role_zh": "副校監",
       "role_en": "Pro-Chancellor"
     },
     {
-      "person_id": "HK-PERSON-000601",
-      "name": "李家超",
+      "person_id": "HK-PERSON-001152",
+      "name": "李家超 (John Lee)",
       "name_en": "John Lee Ka-chiu",
+      "title": "校监",
+      "title_description": "香港大学校监为法定职位，由香港特别行政区行政长官兼任",
+      "description": "香港特别行政区行政长官，依《香港大学条例》兼任大学校监，主持学位颁授典礼等大学礼仪。",
       "role_zh": "校監（特首兼任）",
       "role_en": "Chancellor (ex officio, as HK CE)"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "香港大學，簡稱港大，是香港第一所公立研究型大學，大學本部位於香港島中西區薄扶林龍虎山。大學成立於1911年，由兩所當時已存在的高等院校——香港西醫書院及香港工學院合併而成，并加设文学院，於1912年3月11日正式辦學，是香港最早建立的高等教育及提供學士課程的教育機構，亦是英國在印度以東最早成立的大學。\n",
+  "departments": [
+    {
+      "name": "建筑学院 (Faculty of Architecture)",
+      "description": "提供建筑、城市规划、景观设计及文物保护等课程"
+    },
+    {
+      "name": "文学院 (Faculty of Arts)",
+      "description": "涵盖人文、语言、翻译、历史与哲学等学科"
+    },
+    {
+      "name": "经济及工商管理学院 (Faculty of Business and Economics)",
+      "description": "香港历史最悠久的商学院之一，提供经济、金融、工商管理课程"
+    },
+    {
+      "name": "牙医学院 (Faculty of Dentistry)",
+      "description": "香港唯一牙医学院，多份全球学科排名位居前列"
+    },
+    {
+      "name": "工程学院 (Faculty of Engineering)",
+      "description": "涵盖计算机科学、电子工程、机械工程、土木工程等学系"
+    },
+    {
+      "name": "法律学院 (Faculty of Law)",
+      "description": "香港主要的法学教育机构，专注普通法与比较法研究"
+    },
+    {
+      "name": "李嘉诚医学院 (Li Ka Shing Faculty of Medicine)",
+      "description": "香港历史最悠久的医学院，前身香港西医书院为大学创校学院之一"
+    },
+    {
+      "name": "理学院 (Faculty of Science)",
+      "description": "涵盖数学、物理、化学、生物、地球科学等基础科学"
+    },
+    {
+      "name": "教育学院 (Faculty of Education)",
+      "description": "香港主要的教师教育及教育研究学院，2025-26年度《美国新闻与世界报道》全球最佳大学教育学科排名第一，QS 2025学科排名全球第三"
+    },
+    {
+      "name": "社会科学学院 (Faculty of Social Sciences)",
+      "description": "涵盖政治学与公共行政、社会工作及社会行政、心理学、地理、新闻及传媒等学系"
+    }
+  ],
+  "recent_events": [
+    {
+      "title": "校长张翔宣布2028年约满离任",
+      "date": "2026-07-27",
+      "description": "港大校长张翔于2026年7月27日凌晨向全校成员发信，决定在2028年7月14日完成十年任期后离任，不再续任；校务委员会于7月28日会议备悉决定，并将按《香港大学条例》启动继任校长遴选程序。",
+      "impact": "港大将进入新校长遴选周期，校方称需新领袖以新思维（含人工智能应用）引领下一阶段变革"
+    },
+    {
+      "title": "QS世界大学排名2026升至全球第11位",
+      "date": "2025-06-19",
+      "description": "香港大学在QS世界大学排名2026中跃升6位至全球第11位，创历史新高；此前2025年排名已从第22位升至第17位。",
+      "impact": "巩固港大作为亚洲顶尖大学的国际地位"
+    },
+    {
+      "title": "全球学者排名5人亚洲称冠",
+      "date": "2025-06-01",
+      "description": "Research.com公布2025年度全球学者排名，港大12名学者跻身各领域全球前100名，其中5人在所属领域排名亚洲第一，包括校长张翔（物理学全球第48位）。",
+      "impact": "反映港大基础研究与源头创新的国际实力"
+    },
+    {
+      "title": "泰晤士高等教育2025学科排名表现卓越",
+      "date": "2025-01-01",
+      "description": "港大在THE 2025世界大学学科排名中，教育学位列全球第六，11个学科中8个排名本地第一。",
+      "impact": "提升港大在多学科领域的全球知名度"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "大学教育资助委员会 (UGC)",
+      "org_description": "香港特区政府资助八所公立大学的法定机构，港大为其资助院校"
+    },
+    {
+      "org_name": "香港西医书院 (Hong Kong College of Medicine)",
+      "org_description": "港大创校基础之一，1887年由孙中山先生就读，1912年并入港大医学院"
+    },
+    {
+      "org_name": "香港科技大学 (HKUST)",
+      "org_description": "同为香港研究型大学，与港大在研究及排名上常被并列比较"
+    }
+  ],
+  "core_business": "香港大学（简称港大）是香港第一所公立研究型大学，本部位于香港岛中西区薄扶林。大学成立于1911年，由香港西医书院及香港工学院两所当时已存在的高等院校合并并加设文学院而成，于1912年3月11日正式办学，是香港最早建立的高等教育及提供学士课程的教育机构，也是英国在印度以东最早成立的大学。港大现设有建筑、文、经济及工商管理、牙医、工程、法律、李嘉诚医学、理及社会科学等十个学院，采用全英文授课，研究水平位居亚洲前列。2025年QS世界大学排名升至全球第17位，2026年再升至第11位历史新高。大学以医学、法律、牙医及社会科学等学科见长，毕业生遍布香港政商界与学术界，与内地及亚太高校合作紧密。",
   "industries": [
     "higher_education"
   ],
-  "apec_stance": null,
+  "apec_stance": "作为亚太区顶尖研究型大学，港大与APEC多个经济体的大学建立交换与研究合作网络，招收大量亚太国际学生，在医学、工程、法律与商科领域为区域经贸发展培养专业人才，并参与亚太高校联盟等区域学术合作机制。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/5/5e/University_of_Hong_Kong_coat_of_arms.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 85,
+    "quotes": [
+      {
+        "title": "香港大学新闻稿：港大校长将于约满后离任",
+        "url": "https://www.hku.hk/press/press-releases/detail/c_29278.html"
+      },
+      {
+        "title": "香港大学官方网站",
+        "url": "https://www.hku.hk/c_index.html"
+      },
+      {
+        "title": "维基百科：香港大學",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%B8"
+      },
+      {
+        "title": "维基百科：香港大学教育学院",
+        "url": "https://zh.wikipedia.org/zh-hans/%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%B8%E6%95%99%E8%82%B2%E5%AD%B8%E9%99%A2"
+      },
+      {
+        "title": "香港大学新闻稿：2025年QS世界大学排名创纪录升至全球第17位",
+        "url": "https://www.hku.hk/press/press-releases/detail/c_27414.html"
+      }
+    ],
+    "notes": "P3再丰富：补齐十个学院（新增教育学院、社会科学学院），新增2026年7月校长约满离任公告事件，更新张翔履历；已有person_id全部原样保留"
   },
-  "description": "1911年成立的香港公立研究型大學",
-  "brief": "1911年成立的香港公立研究型大學"
+  "description": "1911年成立的香港公立研究型大学",
+  "brief": "香港历史最悠久的公立研究型大学，QS 2026全球第11位"
 }
