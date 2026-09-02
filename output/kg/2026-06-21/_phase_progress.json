@@ -1,65 +1,52 @@
 {
   "phase": "P5_validation",
   "started_at": "2026-07-06T00:00:00",
-  "last_updated": "2026-07-06T09:00:00",
+  "last_updated": "2026-09-01T21:00:00",
   "status": "complete",
   "pipeline": [
-    "validate_schema.py --fix (smart quotes auto-fix)",
-    "validate_schema.py --normalize (date/field normalization)",
-    "validate_schema.py --score (canonical completeness score)",
-    "validate_schema.py --cross-ref (org/person ID cross-references)",
-    "generate_index.py (orgs/persons _index.json)"
+    "P4追加: 109-person queue (2026-07-07 original session completed nearly all; 2026-09-01 re-verified ~20 incl. 000376-000378 new)",
+    "P5追加 (2026-09-01): validate_schema.py --fix --normalize --score",
+    "P5追加 (2026-09-01): --cross-ref (fixed 5 dangling KG-FIN-011 refs, 000237 wrong person_id, GOV-018 stale, GOV-010 placeholder key_people)",
+    "generate_index.py"
   ],
   "schema_errors": 0,
   "cross_ref_errors": 0,
-  "warnings": 1771,
+  "cross_ref_warnings": 0,
   "orgs": {
     "total": 113,
-    "avg_score": 90.42,
+    "avg_score": 90.4,
     "min": 64,
     "max": 100,
-    "count_by_type": {
-      "ACAD": 22,
-      "CORP": 8,
-      "FIN": 17,
-      "GOV": 19,
-      "INTL": 5,
-      "MEDIA": 10,
-      "MIL": 3,
-      "NGO": 5,
-      "PARTY": 16,
-      "SOE": 8
-    },
     "count_ge_80": 106
   },
   "persons": {
-    "total": 143,
-    "avg_score": 55.97,
+    "total": 394,
+    "avg_score": 57.8,
     "min": 21,
-    "max": 90,
-    "count_ge_70": 19,
-    "count_ge_80": 7,
+    "max": 94,
+    "count_ge_70": 72,
+    "count_ge_80": 23,
     "score_buckets": {
-      "<30": 6,
-      "30-49": 40,
-      "50-69": 78,
-      "70-79": 12,
-      "80-89": 6,
-      "90-100": 1
+      "<30": 8,
+      "30-49": 105,
+      "50-69": 209,
+      "70-79": 49,
+      "80-89": 20,
+      "90-100": 3
     },
     "skipped_placeholders": [
-      {
-        "person_id": "KG-PERSON-000349",
-        "reason": "key_people entry had no actual name - literally '第一副部长 (First Deputy Minister)' placeholder"
-      }
+      {"person_id": "KG-PERSON-000349", "reason": "key_people entry had no real name - '第一副部长'"},
+      {"person_id": "KG-PERSON-000350", "reason": "key_people entry had no real name - '国家税务局长' (real incumbent Шыкмаматов collected as KG-PERSON-000377)"}
     ]
   },
+  "known_duplicates": [
+    {"pair": "KG-PERSON-000371 = KG-PERSON-000053", "who": "Бакыт Бешимов (Bakyt Beshimov)", "note": "both files kept; registry referenced both IDs; notes field documents duplication"},
+    {"pair": "KG-PERSON-000362 = KG-PERSON-000251", "who": "Азамат Сакиев (Azamat Sakiev)", "note": "both files kept; 000362 has fuller data (patronymic Абдукаримович)"}
+  ],
   "notes": [
-    "Original sub-agent self-assessed scores (avg 73.81) replaced with canonical validator scores (avg 55.97) using stricter schema-based formula.",
-    "All schema_errors fixed via fix_kg_schema.py + fix_kg_orgs2.py + fix_kg_persons.py + migrate_kg_persons.py",
-    "id_registry.json rebuilt to add 21 missing org entries (was 93, now 114 - one stale entry KG-GOV-018 retained)",
-    "KG-PERSON-000015 Sultan Barikov (score 21) confirmed phantom entry from fabricated Wikidata QID Q133461846",
-    "256 unprofiled-person warnings (key_people referencing IDs in registry but no profile file) - non-blocking",
-    "1771 mostly-cosmetic warnings (empty person_name, dept_id, organization fields in some nested entries)"
+    "2026-09-01: P4 queue actually completed by original 2026-07-07 session before context loss; continuation session re-verified ~20 persons (scores updated, e.g. 000377: 67->82).",
+    "5 dangling work_experience org_id 'KG-FIN-011' (Demir Bank - never collected as org) set to null; org name text preserved.",
+    "KG-PERSON-000237 person_relationships[0].person_id fixed: KG-PARTY-003 (wrong type) -> KG-PERSON-000233 (Atambaev).",
+    "Registry: KG-GOV-018 status=removed (fabricated ministry); KG-PERSON-000349/000350 status=placeholder_skipped; GOV-010 key_people pruned from 3 to 1."
   ]
 }
