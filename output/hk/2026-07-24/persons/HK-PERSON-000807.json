@@ -1,49 +1,80 @@
 {
   "person_id": "HK-PERSON-000807",
   "wikidata_qid": null,
-  "name": "黄金少",
-  "name_en": "Raymond Huang",
+  "name": "黃金少",
   "name_zh": "黄金少",
+  "name_en": "Raymond Huang",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "honors": [],
+  "birth_place": "",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://news.mingpao.com",
+      "source": "明报官网"
+    }
+  ],
   "current_positions": [
-    "明報總編輯"
+    "明报总编辑"
   ],
   "education": [],
-  "career_history": [],
-  "related_organizations": [
+  "work_experience": [
     {
+      "start_date": null,
+      "end_date": null,
+      "organization": "明报 (Ming Pao)",
       "org_id": "HK-MEDIA-004",
-      "relation": "editor_in_chief"
+      "position": "总编辑"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000808",
+      "person_name": "高敬森 (Alex Ko)",
+      "relationship_type": "colleague",
+      "description": "明报首席营运官"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "現任《明報》總編輯，於香港報業評議會及香港報業公會活動中代表明報出席，主理編採方針。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "",
+      "organization": "明报 (Ming Pao)",
+      "achievement": "出任《明报》总编辑，主理编采方针，并代表明报参与香港报业评议会议及香港报业公会活动"
+    }
+  ],
+  "biography_summary": "黄金少（Raymond Huang），香港新闻工作者，据本档案记录现任《明报》总编辑，主理《明报》的编采方针与内容方向，并代表明报出席香港报业评议会议及香港报业公会等行业活动。《明报》由查良镛（金庸）于1959年创办，是香港主要中文报章之一，以时事及调查报道见长，长期坚持独立、客观、公正、持平的办报原则，读者群以中产及专业人士为主。需要说明的是，明报文化馆及公开报道所载《明报》历任总编辑名单中未见于本名相应的独立公开履历，其个人背景、教育经历及职业轨迹的公开资料十分有限，本档案仅作事实性记录，相关职务信息以明报官方发布为准。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "scmp_report",
-      "web_search"
+      "web_search",
+      "official_website",
+      "mingpao_culture_museum"
     ],
-    "completeness_score": 38,
-    "notes": "lite profile - HK MEDIA/NGO batch"
-  },
-  "importance_level": "low",
-  "importance_reason": "派生自職位: 明報總編輯",
-  "person_relationships": [
-    {
-      "org_id": "HK-MEDIA-004",
-      "org_name": "明報",
-      "title": "Editor-in-Chief",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 31,
+    "quotes": [
+      {
+        "title": "明報官網",
+        "url": "https://news.mingpao.com"
+      },
+      {
+        "title": "明報 - 維基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%A0%B1"
+      },
+      {
+        "title": "歷任老總 - 明報文化館",
+        "url": "https://mpmuseum.com/%E6%AD%B7%E4%BB%BB%E8%80%81%E7%B8%BD/"
+      }
+    ],
+    "notes": "多轮检索均未找到该姓名的独立公开履历；明报文化馆历任总编辑名单为陈锦强等，未含此名，职务信息存疑但按增量原则保留原记录；无维基/Wikidata条目；头像与社会账号不可考"
+  }
 }

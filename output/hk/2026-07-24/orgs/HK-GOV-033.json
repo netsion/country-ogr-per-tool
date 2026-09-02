@@ -5,10 +5,9 @@
     "name_zh": "证券及期货事务监察委员会",
     "name_en": "Securities and Futures Commission",
     "aliases": [
-      "Securities and Futures Commission of Hong Kong",
       "SFC",
       "Hong Kong SFC",
-      "HKSFC"
+      "证监会"
     ],
     "org_type": "GOV",
     "org_subtype": "statutory_board",
@@ -24,48 +23,246 @@
       "account_name": "sfchkofficial",
       "url": "https://facebook.com/sfchkofficial",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Hong Kong Securities and Futures Commission",
+      "url": "https://www.linkedin.com/company/hk-sfc",
+      "source": "official_website"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "Hong Kong SFC",
+      "url": "https://x.com/HKSFC",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "HK SFC",
+      "url": "https://www.youtube.com/user/HKSFCNEWS",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "证监会官方网站",
+      "description": "发布监管规则、执法新闻、持牌人登记及投资者教育信息"
+    },
+    {
+      "name": "证监会年报及《资产及财富管理活动调查》",
+      "description": "年度报告及行业调查，披露香港资本市场及资产管理市场数据"
+    },
+    {
+      "name": "持牌人及注册机构公众纪录册",
+      "description": "公开的持牌法团、注册机构及负责人员资料库，供公众查核中介机构资质"
+    },
+    {
+      "name": "投资者教育资源平台 (Investor Education)",
+      "description": "证监会及投资者教育委员会提供的金融产品风险与理财知识资源"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000717",
-      "name": "黄天祐",
+      "name": "黄天祐 (Kelvin Wong)",
       "title": "主席",
-      "title_description": null,
-      "description": null
+      "title_description": "非执行主席，领导证监会董事会，制定整体监管及政策方向",
+      "description": "2024年起出任证监会主席，会计及财务专家出身，曾任中远海运港口执行董事及董事副总经理、证监会非执行董事、投资者及理财教育委员会主席，任内推动虚拟资产监管框架、四类新牌照制度及香港资本市场结构性增长。"
     },
     {
       "person_id": "HK-PERSON-000718",
-      "name": "梁凤仪",
-      "title": "首席执行官",
-      "title_description": null,
-      "description": null
+      "name": "梁凤仪 (Christina Choi)",
+      "title": "行政总裁",
+      "title_description": "负责证监会日常运营、政策执行及管理层领导，领导执行委员会",
+      "description": "证监会行政总裁，2015年加入证监会，先后任投资产品部及中介机构部执行董事，2018年至2022年兼任副行政总裁，2023年1月出任行政总裁，为证监会首位女性行政总裁；2025年11月获再度委任，新任期由2026年1月1日起生效，任期两年。任内主导虚拟资产平台发牌制度。"
+    },
+    {
+      "person_id": "HK-PERSON-001342",
+      "name": "程苹 (Lisa Chen)",
+      "title": "执行董事（法律服务部）",
+      "title_description": "掌管法律服务部，负责法律政策、立法事务及诉讼支持",
+      "description": "证监会执行董事，掌管法律服务部，为董事局及各监管部门提供法律意见，并统筹《证券及期货条例》相关立法与修订工作。"
+    },
+    {
+      "person_id": "HK-PERSON-001343",
+      "name": "蔡凤仪 (Juliette Choi)",
+      "title": "执行董事（企业融资部）",
+      "title_description": "掌管企业融资部，监管上市申请、收购合并及股份回购",
+      "description": "证监会执行董事，2025年11月1日起由投资产品部转掌企业融资部，此前任投资产品部执行董事至2025年10月31日，长期参与投资产品审批与监管政策制订。"
+    },
+    {
+      "person_id": "HK-PERSON-001344",
+      "name": "戴霖 (Michael Duignan)",
+      "title": "执行董事（法规执行部）",
+      "title_description": "掌管法规执行部，负责调查市场失当行为及提出检控",
+      "description": "证监会执行董事，2025年10月31日企业融资部任期届满后转掌法规执行部，为国际监管资深人员，熟悉跨境执法与市场监察事务。"
+    },
+    {
+      "person_id": "HK-PERSON-001345",
+      "name": "梁仲贤 (Rico Leung)",
+      "title": "执行董事（市场监察部）",
+      "title_description": "掌管市场监察部，监察证券及期货市场交易与基础设施",
+      "description": "2019年获委任为证监会市场监察部执行董事，2025年8月28日起续任新任期，负责监察市场交易活动、交易所营运及市场基础设施发展。"
+    },
+    {
+      "person_id": "HK-PERSON-001346",
+      "name": "吴家俐 (Elisa Ng)",
+      "title": "执行董事（投资产品部）",
+      "title_description": "掌管投资产品部，审批及监管投资基金、衍生工具及虚拟资产相关产品",
+      "description": "证监会执行董事，长期任职投资产品部，负责集体投资计划、衍生工具及虚拟资产相关产品的审批与监管政策。"
+    },
+    {
+      "person_id": "HK-PERSON-001347",
+      "name": "叶志衡 (Eric Yip)",
+      "title": "执行董事（中介机构部）",
+      "title_description": "掌管中介机构部，监管持牌法团、注册机构及虚拟资产平台",
+      "description": "证监会执行董事，掌管中介机构部，负责持牌中介机构的发牌、监察与虚拟资产平台发牌制度的执行工作。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "證券及期貨事務監察委員會 是香港獨立於政府公務員架構外的法定組織，負責監管香港的證券及期貨市場運作。\n",
-  "industries": [
-    "public_administration"
+  "departments": [
+    {
+      "name": "中介机构部 (Intermediaries)",
+      "description": "监管持牌法团及注册机构，包括证券经纪、资产管理及虚拟资产平台，下设发牌科及中介机构监察科"
+    },
+    {
+      "name": "投资产品部 (Investment Products)",
+      "description": "审批及监管集体投资计划、衍生工具及虚拟资产相关产品"
+    },
+    {
+      "name": "企业融资部 (Corporate Finance)",
+      "description": "监管上市申请、收购合并及股份回购等企业融资活动"
+    },
+    {
+      "name": "法规执行部 (Enforcement)",
+      "description": "调查市场失当行为、内幕交易及欺诈，提出刑事及民事检控"
+    },
+    {
+      "name": "市场监察部 (Market Surveillance)",
+      "description": "监察证券及期货市场交易活动、交易所营运及市场基础设施，识别异常交易"
+    },
+    {
+      "name": "法律服务部 (Legal Services)",
+      "description": "为董事局及各功能部门提供法律意见，统筹立法、规例修订及诉讼事务"
+    },
+    {
+      "name": "机构事务部 (Corporate Affairs)",
+      "description": "负责证监会机构传讯、投资者教育及对外关系事务"
+    },
+    {
+      "name": "行政总裁办公室：机构秘书及对外事务 (Secretariat and External Affairs)",
+      "description": "由首席管治总监兼秘书长掌管，涵盖秘书处、机构传讯及投诉处理职能"
+    },
+    {
+      "name": "行政总裁办公室：国际事务及可持续金融 (International Affairs and Sustainable Finance)",
+      "description": "处理国际证券监管合作事务，与国际证监会组织及金融稳定委员会等多边组织联系"
+    },
+    {
+      "name": "行政总裁办公室：内地事务 (Mainland Affairs)",
+      "description": "跟踪内地资本市场发展及监管改革，与中国证监会保持跨境监管合作沟通"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2025-11-14",
+      "title": "梁凤仪获再度委任为行政总裁",
+      "description": "行政长官再度委任梁凤仪为证监会行政总裁，任期两年，由2026年1月1日起生效，延续其自2023年1月起的首任任期。",
+      "impact": "保持证监会管理层及虚拟资产监管政策执行的延续性。"
+    },
+    {
+      "date": "2025-07-18",
+      "title": "多名执行董事获再度委任及转任",
+      "description": "特区政府公布再度委任证监会执行董事：梁仲贤继续执掌市场监察部（新任期自2025年8月28日起），戴霖在企业融资部任期于2025年10月31日届满后转掌法规执行部，蔡凤仪由2025年11月1日起转掌企业融资部。",
+      "impact": "完成执行董事层面的轮替安排，维持监管架构稳定。"
+    },
+    {
+      "date": "2025-06-01",
+      "title": "就虚拟资产交易及托管服务发表咨询文件",
+      "description": "财库局与证监会发布咨询文件，拟将虚拟资产OTC交易等业务纳入监管并设立虚拟资产交易牌照制度，12月24日发表咨询总结，目标2026年提交条例草案。",
+      "impact": "确立香港虚拟资产全面监管框架，新增虚拟资产交易、咨询及资产管理三类牌照。"
+    },
+    {
+      "date": "2025-11-03",
+      "title": "宣布允许持牌虚拟资产平台共用全球订单簿",
+      "description": "行政总裁梁凤仪在2025香港金融科技周宣布将出台两份指引：助力持牌虚拟资产平台对接全球流动性，并对专业投资者的虚拟资产实现全面开放。",
+      "impact": "打通香港与全球虚拟资产市场流动性，强化香港数字资产枢纽地位。"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "发表2025-26年报：持牌虚拟资产平台成交额增125%",
+      "description": "年报披露12家持牌虚拟资产平台成交额增长125%，资产管理、数字资产及股票市场录得结构性增长，四类新牌照制度推进中。",
+      "impact": "反映香港资本市场及虚拟资产监管框架的成效。"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "财经事务及库务局 (FSTB)",
+      "org_description": "香港特别行政区政府负责金融市场政策的决策局，与证监会共同制订金融市场及虚拟资产政策，并行使执行董事委任程序"
+    },
+    {
+      "org_name": "香港金融管理局 (HKMA)",
+      "org_description": "银行及货币监管机构，与证监会在批发市场及债券通等领域协作"
+    },
+    {
+      "org_name": "香港交易及结算所 (HKEX)",
+      "org_description": "前线市场监管机构，与证监会对上市公司及市场运作进行双重监管"
+    },
+    {
+      "org_name": "国际证监会组织 (IOSCO)",
+      "org_description": "国际证券监管机构组织，证监会为其活跃成员，参与跨境监管合作"
+    },
+    {
+      "org_name": "中国证券监督管理委员会 (CSRC)",
+      "org_description": "内地证券监管机构，与证监会通过内地事务职能保持跨境监管合作与市场互联互通沟通"
+    },
+    {
+      "org_name": "投资者及理财教育委员会 (IFEC)",
+      "org_description": "证监会支持的投资者教育机构，推广金融理财知识及投资者保护"
+    }
+  ],
+  "core_business": "证券及期货事务监察委员会（证监会）是根据《证券及期货条例》（第571章）于1989年5月成立的独立法定监管机构，独立于政府公务员架构，负责监管香港证券及期货市场。证监会董事会由非执行主席、行政总裁、多名执行董事及非执行董事组成，大部分成员为非执行董事，由香港特别行政区行政长官或其授权财政司司长委任，任期固定。证监会职能包括监管持牌中介机构（证券商、基金经理、虚拟资产平台）、审批投资产品、监察企业融资及上市活动、执行法规打击市场失当行为，以及投资者教育；功能部门涵盖中介机构部、投资产品部、企业融资部、法规执行部、市场监察部、法律服务部及机构事务部，另设国际事务及可持续金融、内地事务等行政总裁办公室职能。近年证监会着力构建虚拟资产监管制度，截至2025-26年度已发出12个持牌虚拟资产平台牌照，并推进虚拟资产交易、咨询及资产管理新牌照制度；其年度《资产及财富管理活动调查》显示香港2025年管理资产总值达42.2万亿港元的历史高位。",
+  "industries": [
+    "public_administration",
+    "regulatory"
+  ],
+  "apec_stance": "证监会作为亚太区主要证券监管机构，通过国际证监会组织及与内地、新加坡、美国等APEC成员经济体监管机构的双边合作，推动跨境监管协作，其虚拟资产发牌制度为亚太区数字资产监管提供先例，支持香港作为国际金融中心服务区域资本市场。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/One_Island_East_201302.jpg/330px-One_Island_East_201302.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase3_org_enriched",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 35,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "证监会官方网站：组织架构",
+        "url": "https://www.sfc.hk/TC/About-the-SFC/Our-Structure"
+      },
+      {
+        "title": "香港特区政府新闻公报：政府再度委任证监会执行董事",
+        "url": "https://www.info.gov.hk/gia/general/202507/18/P2025071800536.htm"
+      },
+      {
+        "title": "中国基金报：梁凤仪获再度委任为行政总裁，任期两年",
+        "url": "https://www.chnfund.com/article/AR4a5b3af2-b819-4a5b-a391-3a1d93f72c5e"
+      },
+      {
+        "title": "香港证监会梁凤仪：将允许持牌虚拟资产平台共用全球订单簿（东方财富）",
+        "url": "https://finance.eastmoney.com/a/202511033553402279.html"
+      },
+      {
+        "title": "香港敲定虚拟资产交易与托管监管框架，拟新增投资咨询与资产管理牌照（每日经济新闻）",
+        "url": "https://www.nbd.com.cn/articles/2025-12-25/4195807.html"
+      }
+    ],
+    "notes": "P3二轮丰富：按sfc.hk官网补全全部6名执行董事（程苹、蔡凤仪、戴霖、梁仲贤、吴家俐、叶志衡，均person_id=null待主会话分配）、法律服务部/机构事务部/行政总裁办公室四项职能、梁凤仪再度委任及执行董事轮替事件、CSRC/IFEC关联实体。纯事实记录，内容统一为简体中文。"
   },
-  "description": "registration 管理局 in 香港",
-  "brief": "registration 管理局 in 香港"
+  "description": "香港证券及期货市场的法定监管机构",
+  "brief": "香港证券及期货市场的法定监管机构"
 }

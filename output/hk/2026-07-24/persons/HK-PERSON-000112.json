@@ -1,48 +1,112 @@
 {
   "person_id": "HK-PERSON-000112",
   "wikidata_qid": null,
-  "name": "何顺文",
-  "name_en": "Simon Shun-man Ho",
+  "name": "何順文",
   "name_zh": "何顺文",
+  "name_en": "Simon Shun-man Ho",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "honors": [],
-  "current_positions": [
-    "香港恆生大學校長"
-  ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [
+  "birth_place": "",
+  "contacts": [
     {
+      "type": "website",
+      "value": "https://www.hsu.edu.hk",
+      "source": "https://www.hsu.edu.hk"
+    }
+  ],
+  "current_positions": [
+    "香港恒生大学校长"
+  ],
+  "education": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港大学 (The University of Hong Kong)",
+      "degree": "bachelor",
+      "field": "工商管理"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "美国大学（博士学位）",
+      "degree": "doctorate",
+      "field": "会计学"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": "2014",
+      "organization": "香港中文大学及澳门大学 (CUHK; University of Macau)",
+      "org_id": "HK-ACAD-001",
+      "position": "曾任香港中文大学商学院教授、院长及澳门大学副校长等学术管理职务"
+    },
+    {
+      "start_date": "2014-03-16",
+      "end_date": "2026-08-31",
+      "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)",
       "org_id": "HK-ACAD-005",
-      "relation": "president"
+      "position": "创校校长，领导恒生管理学院正名为大学"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港公司治理论坛 (Hong Kong Corporate Governance Forum)",
+      "org_id": null,
+      "position": "主席"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000113",
+      "person_name": "莫家豪 (Joshua Mok)",
+      "relationship_type": "subordinate",
+      "description": "莫家豪于2026年9月1日接替何顺文出任香港恒生大学校长"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "香港恆生大學創校校長，2014年3月16日上任，香港公司治理論壇主席；2024年於哈佛商學院完成非營利策略管理課程。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2018",
+      "organization": "香港恒生大学 (HSUHK)",
+      "achievement": "领导恒生管理学院获教育部批准正名为香港恒生大学，并出任创校校长"
+    }
+  ],
+  "biography_summary": "何顺文（Simon Ho），香港管理学学者及大学管理人，香港恒生大学创校校长。他拥有香港大学工商管理学士学位及美国会计学博士学位，是亚洲会计学界知名学者，曾任香港中文大学商学院教授及院长、澳门大学副校长等学术管理职务，长期研究企业伦理、公司治理及社会责任，现任香港公司治理论坛主席。2014年3月16日他出任恒生管理学院校长，2018年领导学院成功正名为香港恒生大学并出任创校校长，推动博雅教育与专业教育结合的办学模式。2024年他在哈佛商学院完成非营利策略管理课程，其校长任期至2026年8月31日，由莫家豪接任。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "hsuhk_official",
-      "wikipedia"
+      "wikipedia",
+      "official_website"
     ],
-    "completeness_score": 50,
-    "notes": "lite profile - HK ACAD batch"
-  },
-  "importance_level": "high",
-  "importance_reason": "派生自職位: 香港恆生大學校長",
-  "person_relationships": [
-    {
-      "org_id": "HK-ACAD-005",
-      "org_name": "香港恒生大學",
-      "title": "",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 43,
+    "quotes": [
+      {
+        "title": "中文维基百科：何顺文",
+        "url": "https://zh.wikipedia.org/wiki/何順文"
+      },
+      {
+        "title": "香港恒生大学官网",
+        "url": "https://www.hsu.edu.hk"
+      },
+      {
+        "title": "香港恒生大学：何顺文校长简历",
+        "url": "https://www.hsu.edu.hk/hk/about-hsuhk/president-office/prof-simon-hos-biography/"
+      },
+      {
+        "title": "团结香港基金：何顺文教授简介",
+        "url": "https://www.ourhkfoundation.org.hk/tc/profile/Professor-Simon-S-M-HO"
+      }
+    ],
+    "notes": "phase4深度丰富；暂无独立Wikidata条目。补深核查：无Wikidata条目、无P18、无个人社交媒体，头像及社交保持空白。"
+  }
 }

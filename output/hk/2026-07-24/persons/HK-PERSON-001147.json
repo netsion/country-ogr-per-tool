@@ -1,48 +1,117 @@
 {
   "person_id": "HK-PERSON-001147",
-  "wikidata_qid": "Q6926150",
+  "wikidata_qid": "Q380602",
   "name": "郭炳湘",
-  "name_en": "Walter Kwok",
   "name_zh": "郭炳湘",
-  "aliases": [],
+  "name_en": "Walter Kwok Ping-sheung",
+  "aliases": [
+    "Walter Kwok"
+  ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": null,
-  "birth_place": null,
+  "birth_date": "1950-10-25",
+  "birth_place": "香港",
   "contacts": [],
-  "current_positions": [
-    "新鴻基地產 Chief Executive Officer (former, deceased)"
-  ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "current_positions": [],
+  "education": [
     {
-      "org_id": "HK-CORP-020",
-      "org_name": "新鴻基地產",
-      "title": "Chief Executive Officer (former, deceased)",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
+      "start_date": null,
+      "end_date": "1972",
+      "institution": "伦敦帝国学院 (Imperial College London)",
+      "degree": "bachelor",
+      "field": "土木工程"
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": "1990",
+      "end_date": "2008",
+      "organization": "新鸿基地产 (Sun Hung Kai Properties)",
+      "org_id": "HK-CORP-020",
+      "position": "主席兼行政总裁"
+    },
+    {
+      "start_date": "2008",
+      "end_date": "2018",
+      "organization": "帝国集团 (Empire Group)",
+      "org_id": null,
+      "position": "创办人"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000511",
+      "person_name": "郭炳联 (Raymond Kwok)",
+      "relationship_type": "other",
+      "description": "三弟，新鸿基地产主席兼董事总经理"
+    }
+  ],
   "social_accounts": [],
-  "biography_summary": "新鴻基地產前主席（1990–2008）。2018年逝世。",
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "郭得胜",
+      "relationship": "other",
+      "industry_or_organization": "新鸿基地产创办人"
+    },
+    {
+      "person_id": "HK-PERSON-000511",
+      "name": "郭炳联",
+      "relationship": "other",
+      "industry_or_organization": "新鸿基地产"
+    },
+    {
+      "person_id": null,
+      "name": "郭炳江",
+      "relationship": "other",
+      "industry_or_organization": "新鸿基地产前联席主席"
+    }
+  ],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "1990",
+      "organization": "新鸿基地产 (SHKP)",
+      "achievement": "接任新鸿基地产主席，带领公司发展为香港最大地产商之一"
+    },
+    {
+      "date": "",
+      "organization": "香港特区政府",
+      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
+    }
+  ],
+  "biography_summary": "郭炳湘（Walter Kwok，1950-2018），新鸿基地产创办人郭得胜长子，1990年至2008年出任新鸿基地产主席兼行政总裁，任内带领公司发展为香港最大地产发展商之一。2008年离任后创办帝国集团，继续从事地产发展业务。2018年10月20日于香港病逝，享年68岁。郭炳湘曾获颁金紫荆星章并获委任为太平绅士。",
   "profile": {
-    "source_url": null,
-    "local_path": null,
-    "photo_url": null,
-    "primary_source": "org key_people stub for HK-CORP-020"
+    "source_url": "",
+    "local_path": null
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自職位: 新鴻基地產 Chief Executive Officer (former, deceased)",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "phase4_person_stub",
-    "data_sources": [],
-    "completeness_score": 20,
-    "notes": "Auto-generated stub to satisfy org.key_people linkage; enrich later.",
-    "quotes": []
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "news_search"
+    ],
+    "completeness_score": 41,
+    "quotes": [
+      {
+        "title": "郭炳湘 - 維基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E9%83%AD%E7%82%B3%E6%B9%98"
+      },
+      {
+        "title": "新鴻基地產官網",
+        "url": "https://www.shkp.com"
+      },
+      {
+        "title": "香港新鴻基地產前主席郭炳湘病逝 - 人民網",
+        "url": "http://house.people.com.cn/n1/2018/1021/c164220-30353411.html"
+      },
+      {
+        "title": "郭炳湘逝世 - 東方日報",
+        "url": "http://orientaldaily.on.cc/cnt/news/20181021/00174_001.html"
+      }
+    ],
+    "notes": "已故人物（2018年10月20日逝世）。2026-08-27补深：原QID Q6926150在Wikidata中不存在（no-such-entity），经zh-wiki条目匹配更正为Q380602（webb-site来源）；出生日期更正为1950-10-25（原记1950-01-01为占位值）；Q380602无P18，头像留空；已故人物无社交媒体及现行联系方式。"
   }
 }

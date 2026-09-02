@@ -5,8 +5,8 @@
     "name_zh": "渣打银行",
     "name_en": "Standard Chartered",
     "aliases": [
-      "Standard Chartered Yeah",
-      "Standard Chartered Bunk"
+      "Standard Chartered PLC",
+      "Standard Chartered Bank"
     ],
     "org_type": "FIN",
     "org_subtype": "commercial_bank",
@@ -28,61 +28,155 @@
       "account_name": "StandardChartered",
       "url": "https://facebook.com/StandardChartered",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Standard Chartered Bank",
+      "url": "https://www.linkedin.com/company/standard-chartered-bank",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "渣打银行官方网站",
+      "description": "集团及各地区官网，提供企业银行、零售银行、财富管理及投资者关系信息"
+    },
+    {
+      "name": "SC Mobile香港移动应用",
+      "description": "渣打香港手机银行应用，提供零售银行及投资服务"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000030",
-      "name": "温拓思",
+      "name": "温拓思 (Bill Winters)",
       "title": "集团行政总裁",
-      "title_description": "渣打集團首席執行官",
-      "description": "2015年6月起任渣打集團首席執行官。前摩根大通投資銀行聯席主管。獲CBE勳銜。"
+      "title_description": "负责集团全球整体战略与运营",
+      "description": "2015年6月起任渣打集团首席执行官。前摩根大通投资银行联席主管，获CBE勋衔，任内主导集团重组及聚焦亚洲、非洲和中东市场的战略，2025年提前一年完成三年计划回报目标。"
     },
     {
       "person_id": "HK-PERSON-000315",
-      "name": "Maria Ramos (玛丽亚·拉莫斯)",
-      "title": "Group 主席",
-      "title_description": "渣打集團主席",
-      "description": "2025年起任渣打集團主席，接替José Viñals。前南非Absa Group首席執行官。"
+      "name": "玛丽亚·拉莫斯 (Maria Ramos)",
+      "title": "集团主席",
+      "title_description": "负责董事会领导及集团治理",
+      "description": "2025年5月8日起出任渣打集团主席，接替服务满九年的韦浩思（José Viñals）。曾任南非Absa Group首席执行官，拥有逾三十年银行业与公共部门管理经验，现年65岁。"
     },
     {
       "person_id": "HK-PERSON-000031",
-      "name": "José Viñals (范智廉)",
-      "title": "Group 主席 (2016–2025)",
-      "title_description": "渣打集團前主席（2016–2025）",
-      "description": "2016年至2025年任渣打集團主席。"
+      "name": "韦浩思 (José Viñals)",
+      "title": "前集团主席（2016-2025）",
+      "title_description": "前任集团主席，2025年5月卸任",
+      "description": "2016年至2025年任渣打集团主席，任内完成集团资本重组与战略重定位，前国际货币基金组织金融顾问。"
     },
     {
       "person_id": "HK-PERSON-000316",
-      "name": "禤惠仪",
-      "title": "执行董事 and CEO, Hong Kong",
-      "title_description": "渣打銀行（香港）執行董事兼行政總裁",
-      "description": "2017年3月起任渣打銀行（香港）行政總裁，並任香港、台灣及澳門區行政總裁。"
+      "name": "禤惠仪 (Mary Huen)",
+      "name_en": "Mary Huen Wai-yi",
+      "title": "渣打银行（香港）执行董事兼行政总裁、大中华及北亚区行政总裁",
+      "title_description": "负责渣打香港业务及大中华、北亚区（含台湾及澳门）整体管理",
+      "description": "香港银行家，MH、JP勋衔，1991年加入渣打，在银行及商业管理领域拥有逾30年经验，历任存贷产品、财富管理及分销等多个管理岗位，曾任渣打银行（台湾）行政总裁。2017年3月起任渣打银行（香港）行政总裁，其后兼任大中华及北亚区行政总裁，积极推动香港财富管理、数码银行及人民币国际化业务，并向内地企业推广香港连接海外市场的优势。曾获特区政府委任为医院管理局非官方成员。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "英国跨国银行和金融服务公司",
+  "departments": [
+    {
+      "name": "环球银行部 (Global Banking)",
+      "description": "企业融资、贸易融资、资本市场及金融机构业务，服务集团网络内跨国企业"
+    },
+    {
+      "name": "环球市场部 (Global Markets)",
+      "description": "外汇、利率及商品交易业务，2025年第二季度收入同比大幅增长47%"
+    },
+    {
+      "name": "财富管理及零售银行 (Wealth and Retail Banking)",
+      "description": "存款、贷款、投资及保险产品，聚焦亚洲高潜力市场的富裕客户群"
+    },
+    {
+      "name": "渣打银行（香港）(Standard Chartered Hong Kong)",
+      "description": "集团旗舰市场实体，是香港三家发钞银行之一，兼管台湾及澳门业务"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-03-11",
+      "title": "发布人民币国际化旗舰报告《流动的人民币：企业跨境新动能》",
+      "description": "渣打银行发布基于对全球19个行业近300家大型企业调研的人民币国际化旗舰报告，显示全球企业已在贸易和供应链领域广泛使用人民币，融资和财资管理领域仍有广阔机遇；渣打是唯一将人民币国际化纳入集团战略的国际银行。",
+      "impact": "巩固渣打在跨境人民币及企业出海金融服务领域的领先地位，香港离岸人民币枢纽角色进一步强化。"
+    },
+    {
+      "date": "2025-05-08",
+      "title": "Maria Ramos出任集团主席",
+      "description": "鉴于韦浩思接近服务满九年任期，渣打委任65岁的Maria Ramos于2025年5月8日起接任集团主席。",
+      "impact": "集团治理层完成换届，市场预期战略延续。"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "公布2025年全年业绩，提前一年完成回报目标",
+      "description": "2025年列账基准税前盈利69.63亿美元，同比增长16%；经营收入209.42亿美元，增长21%；有形股东权益基本回报达14.7%，提前一年完成三年计划目标。",
+      "impact": "财富管理及跨境业务双轮驱动对冲降息压力，集团盈利能力显著提升。"
+    },
+    {
+      "date": "2025-10-30",
+      "title": "第三季度业绩强劲，上调全年回报指引",
+      "description": "渣打集团2025年第三季度业绩显示环球市场业务大幅增长，集团预期2025年有形股东权益基本回报约13%（其后全年实际达14.7%）。",
+      "impact": "受益于全球贸易及投资结构性调整带来的网络业务机会，亚太市场增长稳健。"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "渣打银行（香港）有限公司 (Standard Chartered Bank Hong Kong)",
+      "org_description": "集团在香港的持牌银行实体，香港三家发钞银行之一"
+    },
+    {
+      "org_name": "香港交易及结算所 (HKEX)",
+      "org_description": "渣打集团于香港联交所上市（股份代号2888），主要上市地为伦敦"
+    },
+    {
+      "org_name": "渤海银行 (Bank of Bohai)",
+      "org_description": "渣打持股的中国内地全国性股份制商业银行，为集团在内地的重要战略投资"
+    }
+  ],
+  "core_business": "渣打银行（Standard Chartered PLC）是总部位于伦敦的英国跨国银行集团，1853年创立，历史可追溯至在南非、印度及中国开展业务的特许银行。集团专注于亚洲、非洲和中东等新兴市场，业务网络覆盖约60个市场，提供环球银行、环球市场、财富管理及零售银行服务，包括贸易融资、企业贷款、外汇资金管理、跨境财富方案及数码银行。香港是渣打最大的利润来源市场之一，渣打银行（香港）为香港三家发钞银行之一，并在香港联交所上市（股份代号2888）。近年集团以财富管理与跨境业务为增长引擎，2025年经营收入增长21%至209.42亿美元。",
   "industries": [
     "financial_services"
   ],
-  "apec_stance": null,
+  "apec_stance": "渣打银行网络覆盖中国内地、香港、新加坡、马来西亚、泰国、印尼、韩国等多个APEC成员经济体，是亚太区贸易融资与跨境资本流动的主要金融服务提供者之一。渣打是唯一将人民币国际化纳入集团战略的国际银行，2026年3月发布旗舰报告《流动的人民币：企业跨境新动能》，支持香港离岸人民币业务枢纽建设；管理层多次表示全球贸易及投资结构性调整契合其网络优势，集团持续加大对中国内地及东南亚市场投入，并协助内地企业经香港拓展海外市场（跨境财资管理、贸易融资、绿色债券等）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Standard_Chartered_headquarters_in_London-Front_view.jpg/330px-Standard_Chartered_headquarters_in_London-Front_view.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase3_org_enriched",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 45,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | Phase 3 update: key_people filled by phase4_person_lite batch."
+    "completeness_score": 85,
+    "quotes": [
+      {
+        "title": "渣打银行发布《流动的人民币：企业跨境新动能》报告（官网）",
+        "url": "https://www.sc.com/cn/news-media/rmbi-report/"
+      },
+      {
+        "title": "渣打银行中国官网：跨境人民币业务",
+        "url": "https://www.sc.com/cn/business/rmb/"
+      },
+      {
+        "title": "维基百科：禤惠儀",
+        "url": "https://zh.wikipedia.org/wiki/%E7%A6%A4%E6%83%A0%E5%84%80"
+      },
+      {
+        "title": "渣打集团发布2025年业绩（渣打银行中国官网）",
+        "url": "https://www.sc.com/cn/news-media/2025-financial-results/"
+      },
+      {
+        "title": "渣打去年税前多赚16%（香港仔）",
+        "url": "https://www.tkww.hk/epaper/view/newsDetail/2026336252441268224.html"
+      }
+    ],
+    "notes": "P3再丰富：更新禤惠仪为大中华及北亚区行政总裁，新增2026年人民币国际化旗舰报告事件，apec_stance补充跨境人民币与金融经贸事实；已有person_id全部原样保留"
   },
   "description": "英国跨国银行和金融服务公司",
   "brief": "英国跨国银行和金融服务公司"

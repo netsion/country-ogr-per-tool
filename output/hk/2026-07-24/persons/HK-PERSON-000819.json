@@ -1,55 +1,107 @@
 {
   "person_id": "HK-PERSON-000819",
   "wikidata_qid": null,
-  "name": "萧世和",
-  "name_en": "Siu Sai-wo",
+  "name": "蕭世和",
   "name_zh": "萧世和",
+  "name_en": "Siu Sai-wo",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": null,
-  "honors": [],
-  "current_positions": [
-    "電視廣播有限公司（TVB）總經理（商務營運）",
-    "星島新聞集團前首席執行官"
-  ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [
+  "birth_date": "1961-01-01",
+  "birth_place": "",
+  "contacts": [
     {
-      "org_id": "HK-MEDIA-009",
-      "relation": "gm_business_ops"
+      "type": "website",
+      "value": "https://corporate.tvb.com",
+      "source": "TVB官网"
+    }
+  ],
+  "current_positions": [
+    "电视广播有限公司（TVB）总经理（商务营运）",
+    "TVB行政委员会成员（2022年1月1日起兼任）"
+  ],
+  "education": [
+    {
+      "institution": "香港中文大学 (The Chinese University of Hong Kong)",
+      "degree": null,
+      "field": "新闻与传播学",
+      "notes": "1985年毕业"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": "1999",
+      "organization": "香港多间主要中文报章",
+      "org_id": null,
+      "position": "高级职位（曾任《新报》经济版采访主任、《香港经济日报》执行总编辑）"
     },
     {
+      "start_date": "1999",
+      "end_date": "2021",
+      "organization": "星岛新闻集团 (Sing Tao News Corporation)",
       "org_id": "HK-MEDIA-007",
-      "relation": "former_ceo"
+      "position": "1999年加入任《星岛日报》执行总编辑，其后升任《星岛日报》及《头条日报》总编辑兼行政总裁，2013年出任集团执行董事、行政总裁（在星岛任职逾14年，2021年10月2日离任）"
+    },
+    {
+      "start_date": "2021-10-04",
+      "end_date": null,
+      "organization": "电视广播有限公司 (TVB)",
+      "org_id": "HK-MEDIA-009",
+      "position": "总经理（商务营运），负责监管TVB各平台的市场推广及销售营运，制定集团整体品牌策略，并在集团多家附属公司担任董事职务"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000818",
+      "person_name": "许涛 (Thomas Hui)",
+      "relationship_type": "superior",
+      "description": "TVB执行主席"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "香港資深媒體人，曾任星島新聞集團首席執行官，2021年10月起出任TVB總經理（商務營運），主管市場推廣與廣告銷售。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2013",
+      "organization": "星岛新闻集团",
+      "achievement": "出任星岛集团执行董事、行政总裁，兼《星岛日报》及《头条日报》总编辑"
+    },
+    {
+      "date": "2021-10",
+      "organization": "电视广播有限公司 (TVB)",
+      "achievement": "获TVB执行主席许涛委任为总经理（商务营运），当时已为拥有超过30年经验的资深媒体人"
+    }
+  ],
+  "biography_summary": "萧世和（Siu Sai-wo），1961年生（2021年时60岁），香港资深媒体管理人，现任电视广播有限公司（TVB）总经理（商务营运）兼行政委员会成员。他1985年毕业于香港中文大学新闻与传播学系，印刷媒体从业经验超过30年，加入星岛前曾任《新报》经济版采访主任及《香港经济日报》执行总编辑等香港多间主要中文报章高级职位。1999年他加入星岛集团任《星岛日报》执行总编辑，其后升任《星岛日报》及《头条日报》总编辑兼行政总裁，2013年出任星岛集团执行董事及行政总裁，在星岛任职逾14年，2021年10月2日离任。2021年10月4日他获TVB委任为总经理（商务营运），与升任总经理（节目内容营运）的曾志伟同日履新，负责监管TVB各平台的市场推广及销售营运、制定集团整体品牌策略，并兼任行政委员会成员（2022年起），推动TVB在电商（邻住买）及数码广告领域的发展，同时在集团多家附属公司担任董事。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "tvb_corporate",
-      "the_standard",
-      "web_search"
+      "official_website",
+      "news_search",
+      "baike"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile - HK MEDIA/NGO batch"
-  },
-  "importance_level": "high",
-  "importance_reason": "派生自職位: 電視廣播有限公司（TVB）總經理（商務營運）",
-  "person_relationships": [
-    {
-      "org_id": "HK-MEDIA-009",
-      "org_name": "無綫集團",
-      "title": "General Manager (Business Operations)",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 44,
+    "quotes": [
+      {
+        "title": "General Manager (Business Operations) - Siu Sai Wo - TVB corporate",
+        "url": "https://corporate.tvb.com/article/e9e42bf454a22d4ada114ccb3502033c.html"
+      },
+      {
+        "title": "萧世和 - 百度百科",
+        "url": "https://baike.baidu.com/item/%E8%90%A7%E4%B8%96%E5%92%8C/20056611"
+      },
+      {
+        "title": "前星島CEO蕭世和任TVB商務總經理 - 香港經濟日報",
+        "url": "https://inews.hket.com/article/3068428/"
+      }
+    ],
+    "notes": "出生年份按TVB官方资料'2021年时60岁'推算；补全教育（中大新闻系1985）、新报/经济日报经历、星岛完整任期及TVB职责；无维基/Wikidata条目，无公开照片直链"
+  }
 }

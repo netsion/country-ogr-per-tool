@@ -1,72 +1,126 @@
 {
   "person_id": "HK-PERSON-000516",
-  "wikidata_qid": "Q7063107",
-  "name": "李家杰",
-  "name_en": "Peter Lee Ka-kit",
+  "wikidata_qid": "Q7175408",
+  "name": "李家傑",
   "name_zh": "李家杰",
+  "name_en": "Peter Lee Ka-kit",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
   "birth_date": "1963-09-21",
-  "honors": [
-    "GBS",
-    "全国政协常委",
-    "太平绅士"
+  "birth_place": "香港",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.hld.com/sc/about-the-group/our-leadership/lee-ka-kit",
+      "source": "https://www.hld.com/sc/about-the-group/our-leadership/lee-ka-kit"
+    }
   ],
   "current_positions": [
-    "恒基兆業地產聯席主席兼董事總經理",
-    "恒基兆业地产主席",
-    "中华煤气主席"
+    "恒基兆业地产联席主席兼董事总经理",
+    "香港中华煤气主席",
+    "全国政协常委"
   ],
   "education": [
     {
-      "institution": "英国布里斯托大学",
-      "degree": "学士",
-      "year": null
+      "start_date": null,
+      "end_date": "1985",
+      "institution": "布里斯托大学 (University of Bristol)",
+      "degree": "bachelor",
+      "field": "土木工程"
     }
   ],
-  "career_history": [],
-  "related_organizations": [
+  "work_experience": [
     {
-      "org_id": "HK-CORP-023",
-      "relation": "chairman"
+      "start_date": "1985",
+      "end_date": null,
+      "organization": "恒基兆业地产 (Henderson Land Development)",
+      "org_id": "HK-CORP-011",
+      "position": "历任执行董事、副主席，现任联席主席兼董事总经理"
     },
     {
-      "org_id": "HK-CORP-011",
-      "relation": "chairman"
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港中华煤气 (The Hong Kong and China Gas Company)",
+      "org_id": "HK-CORP-023",
+      "position": "主席"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": null,
+      "person_name": "李兆基 (Lee Shau-kee)",
+      "relationship_type": "other",
+      "description": "父亲，恒基兆业地产创办人"
+    },
+    {
+      "person_id": null,
+      "person_name": "李家诚 (Martin Lee Ka-shing)",
+      "relationship_type": "other",
+      "description": "弟弟，恒基兆业地产联席主席"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "中华煤气主席及恒基兆业地产主席，李兆基长子。1963年生于香港，英国布里斯托大学毕业。全国政协常委，获金紫荆星章。亦为李家杰珍惜生命基金创办人。",
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "李兆基",
+      "relationship": "other",
+      "industry_or_organization": "恒基兆业地产创办人"
+    },
+    {
+      "person_id": null,
+      "name": "李家诚",
+      "relationship": "other",
+      "industry_or_organization": "恒基兆业地产"
+    }
+  ],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "",
+      "organization": "香港特区政府",
+      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
+    },
+    {
+      "date": "",
+      "organization": "李家杰珍惜生命基金",
+      "achievement": "创办李家杰珍惜生命基金，关注青少年心理健康"
+    },
+    {
+      "date": "",
+      "organization": "香港中华煤气 (Towngas)",
+      "achievement": "推动煤气公司向新能源及环保业务转型发展"
+    }
+  ],
+  "biography_summary": "李家杰（Peter Lee Ka-kit），1963年9月21日生于香港，恒基兆业地产创办人李兆基长子。1985年毕业于英国布里斯托大学土木工程专业，同年加入恒基兆业地产，历任执行董事、副主席，后出任联席主席兼董事总经理，并兼任香港中华煤气主席。他是全国政协常委，长期参与内地与香港经贸事务，获颁金紫荆星章并获委任为太平绅士。李家杰创办李家杰珍惜生命基金，关注青少年心理健康，并推动集团在地产、能源领域的可持续发展。",
   "profile": {
-    "source_url": null,
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Peter_Lee_Ka-kit_2019.jpg/250px-Peter_Lee_Ka-kit_2019.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
-      "towngas_official"
+      "wikidata",
+      "official_website"
     ],
-    "completeness_score": 70,
-    "notes": "lite profile - HK CORP batch 2; updated batch 3 (added HLD relation)"
-  },
-  "importance_level": "high",
-  "importance_reason": "派生自職位: 恒基兆業地產聯席主席兼董事總經理",
-  "person_relationships": [
-    {
-      "org_id": "HK-CORP-011",
-      "org_name": "千色汇",
-      "title": "聯席主席兼董事總經理",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    },
-    {
-      "org_id": "HK-CORP-023",
-      "org_name": "香港中華煤氣",
-      "title": "Chairman",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 52,
+    "quotes": [
+      {
+        "title": "李家傑 - 維基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AE%B6%E5%82%91"
+      },
+      {
+        "title": "香港中华煤气官网",
+        "url": "https://www.towngas.com"
+      },
+      {
+        "title": "李家杰博士 - 恒基兆业地产官网集团管理层介绍",
+        "url": "https://www.hld.com/sc/about-the-group/our-leadership/dr-lee-ka-kit"
+      }
+    ],
+    "notes": "修正原lite错误QID Q7063107（维基分类页）及错误name_zh，经zh-wiki条目匹配Q7175408。补深：经P18补Commons头像；无个人社交媒体；补恒地官网领导层简介页。"
+  }
 }

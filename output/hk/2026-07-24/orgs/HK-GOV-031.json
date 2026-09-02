@@ -5,7 +5,8 @@
     "name_zh": "选举事务处",
     "name_en": "Registration and Electoral Office",
     "aliases": [
-      "REO"
+      "REO",
+      "选举处"
     ],
     "org_type": "GOV",
     "org_subtype": "statutory_board",
@@ -16,47 +17,202 @@
     "wikidata_qid": "Q2968414"
   },
   "social_accounts": [],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "选举事务处官方网站",
+      "description": "提供选举安排、选民登记、选举指引及公告等资讯"
+    },
+    {
+      "name": "选民登记网站 (voterregistration.gov.hk)",
+      "description": "供市民进行选民登记及查阅登记状态的网上平台，支持「智方便」身份认证"
+    },
+    {
+      "name": "选民资料网上查阅系统 (voterinfo.gov.hk)",
+      "description": "供选民查阅自己在地方选区、功能界别及选举委员会界别分组登记册中的资料"
+    },
+    {
+      "name": "选举网站 (elections.gov.hk)",
+      "description": "为各项公共选举（如立法会选举、选举委员会界别分组选举）设立的专题网站，载有提名、投票及点票安排"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-001150",
-      "name": "黄文超",
-      "title": "首席执行官",
-      "title_description": null,
-      "description": null
+      "name": "黄文超 (Wong Man-chiu)",
+      "name_en": "Wong Man-chiu",
+      "title": "前总选举事务主任",
+      "title_description": "2022年1月至2024年9月出任部门首长，其后退休前休假并由陈淑华接任",
+      "description": "香港特区选举事务处前总选举事务主任，2022年1月接替翁应辉出任该职，任内统筹2023年区议会一般选举等公共选举的行政工作，2024年9月展开退休前休假离任。"
+    },
+    {
+      "person_id": "HK-PERSON-001333",
+      "name": "谢衍文 (Tse Yin-man)",
+      "name_en": "Tse Yin-man",
+      "title": "总选举事务主任",
+      "title_description": "部门首长，由行政长官委任并刊宪，负责选举事务处整体行政管理及选举执行工作",
+      "description": "现任香港特区选举事务处总选举事务主任，职级为高级首席行政主任（首长级薪级第2点），领导部门为2026年立法会选举及2027年区议会一般选举等公共选举提供行政支援。"
+    },
+    {
+      "person_id": "HK-PERSON-001334",
+      "name": "陈淑华 (Chan Shuk-wah)",
+      "name_en": "Chan Shuk-wah",
+      "title": "前总选举事务主任",
+      "title_description": "2024年9月接替黄文超出任总选举事务主任，任内负责2025年立法会换届选举的行政安排",
+      "description": "香港特区选举事务处前总选举事务主任，原为署理高级首席行政主任，2024年9月经政府刊宪接替黄文超出任部门首长，任内统筹2025年立法会换届选举并向立法会政制事务委员会简介选管会选举报告书。"
+    },
+    {
+      "person_id": "HK-PERSON-001335",
+      "name": "周伟 (Chau Wai)",
+      "name_en": "Chau Wai",
+      "title": "首席选举事务主任（选举）",
+      "title_description": "部门副首长之一，领导选举部，负责策划及筹备各项公共选举（乡郊代表选举除外）",
+      "description": "选举事务处首席选举事务主任（选举），统率选举部各分部，分管招募选举工作人员、培训、提名、票站及中央点票站安排等选举执行事务。"
+    },
+    {
+      "person_id": "HK-PERSON-001336",
+      "name": "赵金泉 (Chiu Kam-chuen)",
+      "name_en": "Chiu Kam-chuen",
+      "title": "首席选举事务主任（策划及研究）",
+      "title_description": "部门副首长之一，领导委员会及研究部，兼任选举管理委员会秘书处工作",
+      "description": "选举事务处首席选举事务主任（策划及研究），负责选管会秘书处事务、选举政策研究及选举安排的检讨工作。"
+    },
+    {
+      "person_id": "HK-PERSON-001337",
+      "name": "孙鸿义 (Suen Hung-yee)",
+      "name_en": "Suen Hung-yee",
+      "title": "资讯科技管理主管",
+      "title_description": "负责选举事务处资讯科技应用系统及基础设施建设",
+      "description": "选举事务处资讯科技管理主管（总系统经理），负责策划、管理及提升选民登记系统、电子选民登记册应用系统等，并改善部门资讯保安措施。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
+  "departments": [
+    {
+      "name": "选举部 (Elections Division)",
+      "description": "部门最大分工，下设选举部1至5等多个分部，负责策划及筹备各项公共选举，涵盖选举工作人员招募与培训、候选人提名、票站物流、中央指挥中心及数据资讯中心运作、中央点票站设置等"
+    },
+    {
+      "name": "选民登记部 (Voter Registration Division)",
+      "description": "下设功能界别组、选民登记（特别职务）组及执行组，负责编制地方选区、功能界别及选举委员会界别分组选民登记册，查核选民登记记录及处理登记申请"
+    },
+    {
+      "name": "委员会及研究部 (Committees and Research Division)",
+      "description": "兼负选举管理委员会秘书处职能，处理选管会事务、选举研究及检讨工作"
+    },
+    {
+      "name": "行政部 (Administration Division)",
+      "description": "下设行政组及物料供应组，负责部门人力资源管理、财务会计、资源管理及物料采购"
+    },
+    {
+      "name": "资讯科技管理部 (IT Management Division)",
+      "description": "负责策划、研究、管理及提升选举事务处的资讯科技应用系统与基础设施，包括新选民登记系统、电子选民登记册应用系统及资讯保安措施"
+    },
+    {
+      "name": "传讯及传媒关系组 (Media Relations Unit)",
+      "description": "由总新闻主任领导，负责联络传媒、新闻发布及选举宣传活动的安排"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-25",
+      "title": "展开2027年区议会一般选区划界临时建议公众咨询",
+      "description": "选举事务处及选举管理委员会于2026年8月25日就2027年区议会一般选举区议会地方选区分界及名称的临时建议展开公众咨询。",
+      "impact": "为2027年区议会一般选举的选区划分进行程序准备"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "发表2026年临时选民登记册",
+      "description": "2026年地方选区、功能界别及选举委员会界别分组临时选民/投票人登记册及取消登记名单于2026年8月1日发表，供公众查阅，市民可透过选民登记网站或「智方便」核对资料。",
+      "impact": "为2026年立法会选举周期的选民基础做好准备"
+    },
+    {
+      "date": "2026-04-20",
+      "title": "向立法会简介2025年立法会选举报告书",
+      "description": "总选举事务主任在立法会政制事务委员会会议上，简介选举管理委员会2025年立法会选举报告书中的主要检讨结果及建议。",
+      "impact": "检讨选举安排并向立法会交代选举行政工作"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "2026年选民登记运动分两阶段进行",
+      "description": "2026年选民登记运动于4月下旬启动，第一阶段（至6月2日）呼吁合资格人士登记及更新资料，选举事务处并拟试行监誓员服务便利市民。",
+      "impact": "提升选民登记覆盖率及资料准确性"
+    },
+    {
+      "date": "2025-09-07",
+      "title": "举办2025年选举委员会界别分组补选",
+      "description": "选举事务处为2025年选举委员会界别分组补选提供投票日行政支援，并延长查询热线服务时间。",
+      "impact": "补齐选举委员会界别分组空缺席位"
+    },
+    {
+      "date": "2025-09-25",
+      "title": "发表2025年正式选民登记册",
+      "description": "2025年地方选区及功能界别正式选民登记册于2025年9月25日发表，选举委员会界别分组正式投票人登记册则于2025年7月21日发表。",
+      "impact": "确立各次选举的合资格选民名单"
+    }
+  ],
   "related_entities": [
     {
       "org_id": "HK-GOV-008",
-      "org_name": "Electoral Affairs Commission",
+      "org_name": "选举管理委员会 (Electoral Affairs Commission)",
       "org_type": "GOV",
-      "org_description": null,
+      "org_description": "独立法定机构，负责规管选举安排及划分选区；选举事务处为其行政支援机构，其秘书处设于选举事务处内",
       "relationship_type": "parent_org"
+    },
+    {
+      "org_name": "政制及内地事务局 (Constitutional and Mainland Affairs Bureau)",
+      "org_description": "选举事务处隶属的政策局，负责选举政策决策"
+    },
+    {
+      "org_name": "香港特别行政区政府 (HKSAR Government)",
+      "org_description": "选举事务处为特区政府部门，总选举事务主任由行政长官委任并刊宪"
+    },
+    {
+      "org_name": "民政事务总署 (Home Affairs Department)",
+      "org_description": "负责根据《乡郊代表选举条例》安排乡郊代表选举，该类选举不在选举事务处选举部统筹范围内"
     }
   ],
-  "core_business": "選舉事務處 是香港特別行政區政府負責選舉工作的部門，隸屬政制及內地事務局，亦是選舉管理委員會行政支援機構。選舉事務處協助選管會執行《選舉管理委員會條例》所規定的法定職能，當中包括協助市民登記成為選民、劃分選區、制定選舉條例及選舉活動指引等。行政長官、選舉委員會界別、立法會及區議會選舉工作，均交由該部門負責。不過，選舉事務處在職能上屬於執行部門，對選舉政策並無決策權，相關權力在政制局和選管會。\n",
+  "core_business": "选举事务处是香港特别行政区政府负责选举行政工作的部门，隶属政制及内地事务局，亦是选举管理委员会的行政支援机构。部门首长为总选举事务主任，由行政长官委任并刊登宪报，职级为高级首席行政主任（首长级薪级第2点）。选举事务处协助选管会执行《选举管理委员会条例》所规定的法定职能，包括协助市民登记成为选民、编制及发表地方选区、功能界别及选举委员会界别分组选民登记册、划分选区、制定选举活动指引及安排投票点票等。行政长官选举、选举委员会界别分组选举、立法会及区议会选举的实务行政工作均由该部门负责执行。部门下设选举部、选民登记部、委员会及研究部、行政部、资讯科技管理部等分工，并管理电子选民登记册系统等资讯科技基础设施。选举事务处在职能上属于执行部门，对选举政策并无决策权，相关政策权力在政制及内地事务局和选举管理委员会。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
+  "apec_stance": "选举事务处为香港特区政府的选举执行部门，主要职能属本地公共选举行政管理工作，与APEC经贸事务无直接关联。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Regional_Emblem_of_Hong_Kong.svg/330px-Regional_Emblem_of_Hong_Kong.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 21,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 87,
+    "quotes": [
+      {
+        "title": "选举事务处官方网站",
+        "url": "https://www.reo.gov.hk/sc/"
+      },
+      {
+        "title": "选举事务处架构图（官方网站）",
+        "url": "https://www.reo.gov.hk/tc/about/org_1.html"
+      },
+      {
+        "title": "选举事务处 - 维基百科",
+        "url": "https://zh-yue.wikipedia.org/wiki/%E9%81%B8%E8%88%89%E4%BA%8B%E5%8B%99%E8%99%95"
+      },
+      {
+        "title": "香港特区政府及有关机构电话簿 - 选举事务处",
+        "url": "https://tel.directory.gov.hk/index_REO_CHI.html"
+      },
+      {
+        "title": "选举管理委员会官方网站",
+        "url": "https://www.eac.hk/sc/"
+      }
+    ],
+    "notes": "P3深度丰富（政府类，纯事实记录）：按官方架构图补全部门分工及现任领导层；黄文超条目更新为前首长并保留原person_id；选举事务处无自有官方社交媒体专页，相关宣传经政府新闻处及「添马台」等渠道发布，故social_accounts留空。"
   },
-  "description": "香港特別行政區政府部門",
-  "brief": "香港特別行政區政府部門"
+  "description": "香港特区政府负责执行选举行政工作的部门，隶属政制及内地事务局，并为选举管理委员会提供行政支援",
+  "brief": "香港特区政府负责执行选举行政工作的部门，隶属政制及内地事务局"
 }

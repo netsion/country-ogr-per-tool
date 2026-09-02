@@ -12,7 +12,7 @@
     "country_iso3": "HKG",
     "hq_country_iso3": "HKG",
     "founded_date": "1959-05-20",
-    "website": "http://news.mingpao.com/",
+    "website": "https://news.mingpao.com/",
     "wikidata_qid": "Q1674139"
   },
   "social_accounts": [
@@ -33,48 +33,151 @@
       "account_name": "UCk8a6ogkkg1EcVysur1Wb9A",
       "url": "https://youtube.com/channel/UCk8a6ogkkg1EcVysur1Wb9A",
       "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "mingpao.hk",
+      "url": "https://www.instagram.com/mingpao.hk/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "明报新闻网 (news.mingpao.com)",
+      "description": "1995年推出的明报新闻网站，涵盖新闻、财经、生活等主题网站"
+    },
+    {
+      "name": "明报电子报 (epaper.mingpao.com)",
+      "description": "明报付费电子版，年费798港元，包含全部零售版内容"
+    },
+    {
+      "name": "明报走进大湾区 (mpgba.com)",
+      "description": "报道大湾区消息与生活资讯的专题平台"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000807",
-      "name": "黄金少",
+      "name": "黄金少 (Wong Kam-siu)",
       "title": "总编辑",
-      "title_description": "總編輯",
-      "description": null
+      "title_description": "负责明报编辑方针与新闻内容",
+      "description": "资深新闻工作者，长期任职明报，现任明报总编辑，负责报纸及新闻网的内容编辑方向。"
     },
     {
       "person_id": "HK-PERSON-000808",
-      "name": "高敬森",
-      "title": "首席运营官",
-      "title_description": "首席營運官",
-      "description": null
+      "name": "高敬森 (Ko King-sum)",
+      "title": "首席营运官",
+      "title_description": "负责明报营运及集团事务",
+      "description": "明报首席营运官，负责报章营运、发行及数码业务管理事务。"
+    },
+    {
+      "person_id": "HK-PERSON-001194",
+      "name": "张裘昌 (Cheung Chau-cheung)",
+      "title": "控股方世华媒体行政总裁",
+      "title_description": "世界华文媒体执行董事兼行政总裁，为明报母公司管理层",
+      "description": "马来西亚世华媒体集团高管，负责集团旗下媒体（含明报）的整体经营决策。"
+    },
+    {
+      "person_id": "HK-PERSON-001355",
+      "name": "张晓卿 (Tiong Hiew King)",
+      "title": "世界华文媒体集团执行主席",
+      "title_description": "明报母公司世华媒体及马来西亚星洲媒体集团的创办人兼执行主席，为明报的最终控股方",
+      "description": "马来西亚企业家，常青集团创办人，透过世界华文媒体（港交所00685）及星洲媒体集团控制明报、星洲日报、南洋商报等华文媒体，2005年入主明报集团后主导其与马来西亚媒体的整合。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "《明報》 是香港的中文報紙，由武俠小說泰斗查良鏞（筆名金庸）和沈寶新在1959年創立，內容以香港本地新聞為主、兩岸和國際新聞為輔，另有姊妹刊物《明报周刊》和《明报月刊》。\n",
-  "industries": [
-    "broadcasting"
+  "departments": [
+    {
+      "name": "港闻部 (Local News Desk)",
+      "description": "负责香港本地新闻采编"
+    },
+    {
+      "name": "中国及国际新闻部 (China & World Desk)",
+      "description": "负责两岸及国际新闻的采编与编译"
+    },
+    {
+      "name": "经济新闻部 (Business Desk)",
+      "description": "负责财经地产新闻内容"
+    },
+    {
+      "name": "副刊及生活组 (Supplement & Lifestyle)",
+      "description": "负责副刊、教育、生活等专题内容"
+    },
+    {
+      "name": "数码及电子报业务部 (Digital)",
+      "description": "营运明报新闻网及电子订阅业务"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "title": "世界华文媒体宣布加拿大明报停刊",
+      "date": "2026-01-14",
+      "description": "世界华文媒体（00685）以财务原因宣布旗下1993年创刊的加拿大《明报》停刊，加东及加西版于1月16日出版最后一份报纸，2月1日起正式终止加拿大媒体业务，约60名员工受影响，遣散等一次性支出不少于约400万港元。",
+      "impact": "反映海外华文纸媒市场持续收缩，加拿大自此再无每日出版的中文日报；香港明报总馆运作不受影响"
+    },
+    {
+      "title": "明报持续营运香港本地采编及数码业务",
+      "date": "2026-06-29",
+      "description": "明报新闻网照常运作，每日出版港闻、中国、财经、生活等版面内容，并延续付费电子报订阅模式，报道涵盖香港本地事务、大湾区及国际新闻。",
+      "impact": "在海外版收缩背景下，明报将资源集中于香港本地及数码新闻业务"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "世界华文媒体有限公司 (MMedia)",
+      "org_description": "马来西亚张晓卿家族控制的上市公司（00685），明报的母公司"
+    },
+    {
+      "org_name": "明报报业有限公司 (Ming Pao Newspapers Limited)",
+      "org_description": "明报在香港的营运实体，负责《明报》报章、明报新闻网及电子报的采编与出版业务"
+    },
+    {
+      "org_name": "明报周刊 / 明报月刊",
+      "org_description": "明报旗下娱乐及文化姊妹刊物，明报月刊为文化思想类月刊"
+    },
+    {
+      "org_name": "星洲媒体集团 (Sin Chew Media)",
+      "org_description": "世华媒体旗下马来西亚报业集团，出版《星洲日报》等，与明报为姊妹媒体"
+    }
+  ],
+  "core_business": "《明报》是香港的中文报纸，1959年5月20日由武侠小说泰斗查良镛（笔名金庸）和沈宝新创立，内容以香港本地新闻为主、两岸和国际新闻为辅，另有姊妹刊物《明报周刊》和《明报月刊》。明报长期以独立、客观、持平的编辑方针见称，读者以中产阶层、专业人士及企业决策者为主，曾多次获新闻业界奖项，并被学术调查评为最具公信力香港报章之一。1995年推出明报新闻网，现营运付费电子报及多个主题网站。明报现隶属马来西亚世华媒体（世界华文媒体有限公司，港交所00685）旗下，与星洲日报、南洋商报等为姊妹媒体；2026年初海外版加拿大明报因财务原因结业。现任总编辑为黄金少。",
+  "industries": [
+    "media_publishing"
+  ],
+  "apec_stance": "明报作为面向全球华人的公信力报章，其新闻网覆盖两岸及亚太新闻，母公司世华媒体的媒体网络横跨香港、马来西亚、新加坡等APEC经济体，服务亚太华文读者市场。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ming_Pao_logo.svg/330px-Ming_Pao_logo.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 38,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | key_people updated in phase4 lite"
+    "completeness_score": 81,
+    "quotes": [
+      {
+        "title": "维基百科：明報",
+        "url": "https://zh.wikipedia.org/wiki/%E6%98%8E%E5%A0%B1"
+      },
+      {
+        "title": "明报新闻网",
+        "url": "https://news.mingpao.com/"
+      },
+      {
+        "title": "明报新闻网：加拿大明报告别「有始必有终」",
+        "url": "https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20260117/s00002/1768585800830/"
+      },
+      {
+        "title": "HK01：33年历史加拿大明报月底告终",
+        "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60312217/"
+      }
+    ],
+    "notes": "P3深度丰富（第二轮）：补入控股方张晓卿、明报报业营运实体、加拿大停刊最终细节（2月1日终止、遣散400万港元），已有person_id原样保留"
   },
-  "description": "香港中文報章",
-  "brief": "香港中文報章"
+  "description": "香港中文报章",
+  "brief": "1959年金庸创办的香港中文报章，隶属世华媒体集团"
 }

@@ -5,61 +5,227 @@
     "name_zh": "香港教育大学",
     "name_en": "The Education University of Hong Kong",
     "aliases": [
+      "EdUHK",
+      "教大",
       "The Hong Kong Institute of Education",
       "HKIEd",
-      "EdUHK",
-      "Education University of Hong Kong",
-      "Hong Kong Institute of Education"
+      "香港教育学院"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "HKG",
     "hq_country_iso3": "HKG",
     "founded_date": "1994-04-25",
-    "website": "http://www.ied.edu.hk",
+    "website": "https://www.eduhk.hk",
     "wikidata_qid": "Q5968342"
   },
-  "social_accounts": [],
-  "digital_assets": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "The Education University of Hong Kong 香港教育大學",
+      "url": "https://www.facebook.com/eduhk",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "The Education University of Hong Kong",
+      "url": "https://www.linkedin.com/school/edu-hk",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "EdUHK Live",
+      "url": "https://www.youtube.com/user/EdUHKLive",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "eduhk",
+      "url": "https://www.instagram.com/eduhk",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "香港教育大学官网（eduhk.hk）",
+      "description": "大学介绍、学院设置、招生及新闻稿发布平台"
+    },
+    {
+      "name": "教大知识转移网页",
+      "description": "展示大学研究影响力与知识转移项目"
+    },
+    {
+      "name": "荣誉学院 (Honours College)",
+      "description": "2026年3月成立的本科生高阶培育计划，首届2025/26年度试行，旨在培育明日领袖"
+    },
+    {
+      "name": "人工智能及教育未来联盟",
+      "description": "教大牵头推动人工智能与教育未来跨机构协作的联盟平台"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000108",
-      "name": "李子建",
+      "name": "李子建 (John Lee Chi-kin)",
       "name_en": "John Lee Chi-kin",
-      "role_zh": "校長",
-      "role_en": "President"
+      "title": "校长",
+      "title_description": "大学最高行政首长，负责整体学术与行政管理，兼任课程与教学讲座教授",
+      "description": "2023年9月出任香港教育大学校长。2010年加入教大（前身香港教育学院）任学术副校长，2019至2023年任学术及首席副校长；曾任香港中文大学教育学院院长。香港太平绅士、第十四届全国政协委员，入选斯坦福大学全球排名前2%科学家名单，研究方向涵盖课程与教学、环境教育。"
     },
     {
       "person_id": "HK-PERSON-000109",
-      "name": "黄友嘉",
+      "name": "黄友嘉 (David Wong Yau-kar)",
       "name_en": "David Wong Yau-kar",
-      "role_zh": "校董會主席",
-      "role_en": "Council Chairman"
+      "title": "校董会主席",
+      "title_description": "主持校董会，负责大学最高管治机构的决策与监督",
+      "description": "2021年1月起出任教大校董会主席，2023年底获再度委任，任期由2024年1月1日起三年。香港太平绅士、金紫荆星章，美国芝加哥大学经济学博士，第十二、十三届港区全国人大代表，联侨远东有限公司董事总经理，曾任香港中华厂商联合会会长及强积金计划管理局主席。"
+    },
+    {
+      "person_id": "HK-PERSON-001151",
+      "name": "郑美红 (Cheng May-Hung, Agnes)",
+      "name_en": "Agnes May-Hung Cheng",
+      "title": "副校长（学术）",
+      "title_description": "分管学术事务、课程质量与教师教育",
+      "description": "长期任教大，专长课程与教学、科学教育，曾任课程与教学学系系主任及教务长，2024年起以副校长（学术）身份参与大学对外交流及新课程规划事务。"
+    },
+    {
+      "person_id": "HK-PERSON-001210",
+      "name": "陈智轩 (Chan Chetwyn Che-hin)",
+      "title": "副校长（研究与发展）",
+      "title_description": "分管大学研究事务、知识转移及研究生教育",
+      "description": "教大副校长（研究与发展）及利定昌心理学讲座教授，2021年7月上任。1995年获加拿大阿尔伯塔大学教育心理学博士学位，专长康复科学及心理测量，曾率团访问南京大学等内地院校推动学术合作，并推动「留学香港」品牌及荣誉学院等发展项目。"
+    },
+    {
+      "person_id": "HK-PERSON-001211",
+      "name": "方永豪 (Fong Wing-ho)",
+      "title": "副校长（行政）",
+      "title_description": "分管大学行政事务、校园设施及资源管理",
+      "description": "教大副校长（行政），与管理层共同出席2026年3月传媒聚会，分享大学最新成就及发展规划，包括新课程启航与学科排名提升等。"
+    },
+    {
+      "person_id": "HK-PERSON-001212",
+      "name": "李伟展 (Lee Wai-chin)",
+      "title": "荣誉学院院长",
+      "title_description": "主管2026年成立的荣誉学院，负责高阶本科生培育计划",
+      "description": "教大荣誉学院院长，2026年3月31日主持荣誉学院成立暨2025/26年度启动礼，与校长及副校长（研究与发展）共同推动首届试行计划学生加入荣誉学院。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "香港教育大學，簡稱教大，是八間大學教育資助委員會（教資會）資助的法定公立大學及師範大學。\n",
-  "industries": [
-    "higher_education"
+  "departments": [
+    {
+      "name": "教育及人类发展学院 (Faculty of Education and Human Development)",
+      "description": "教大规模最大的学院，涵盖课程与教学、心理学、特殊教育与咨询、健康与体育等学系"
+    },
+    {
+      "name": "人文学院 (Faculty of Humanities)",
+      "description": "涵盖语文教育、语言学及现代语言研究、文化与创意艺术等学系"
+    },
+    {
+      "name": "文理学院 (Faculty of Liberal Arts and Social Sciences)",
+      "description": "涵盖科学与环境研究、数学与资讯科技、社会科学等学系"
+    },
+    {
+      "name": "研究生院 (Graduate School)",
+      "description": "负责修课式及研究式研究生课程管理"
+    },
+    {
+      "name": "荣誉学院 (Honours College)",
+      "description": "2026年3月成立，首届2025/26年度试行，透过高阶培育计划提升学生领导力与跨学科视野"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2025-03-12",
+      "title": "教大教育学科跻身2025 QS世界大学学科排名全球第12位",
+      "description": "在《2025 QS世界大学学科排名》中，教大教育学科跃升至全球第12位、亚洲第4、香港第2。",
+      "impact": "巩固教大作为亚洲顶尖师范大学的国际地位。"
+    },
+    {
+      "date": "2025-06-19",
+      "title": "首次参与QS世界大学排名位列全球第530位",
+      "description": "教大首次参与《QS世界大学排名2026》，位列全球第530位；另在US News及世界报道教育学科排名中跃升至全球第3位。",
+      "impact": "综合排名突破显示教大整体学术实力获国际认可。"
+    },
+    {
+      "date": "2024-09-01",
+      "title": "李子建出任校长并革新师训课程",
+      "description": "新校长李子建履新，计划在下一个六年《策略发展计划》中拓展教育科技、开设STEAM及AI相关学院课程，并加强师训课程中的师德育成。",
+      "impact": "推动教师「一专多能」培养模式，强化教育科技布局。"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "成立荣誉学院培育明日领袖",
+      "description": "教大宣布成立「香港教育大学荣誉学院」并举行2025/26年度启动礼暨宣誓仪式，典礼由校长李子建主持，副校长（研究与发展）陈智轩及荣誉学院院长李伟展出席，首届试行计划学生正式加入。",
+      "impact": "拓展本科生高阶培育路径，提升大学英才培养能力。"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "举行传媒聚会发布新课程启航",
+      "description": "校长李子建联同副校长（学术）郑美红、副校长（研究与发展）陈智轩及副校长（行政）方永豪等管理层出席传媒聚会，分享大学最新成就及发展规划，包括学科排名上升与多元新课程启航。",
+      "impact": "展示教大多元发展及管治团队布局，加强公众沟通。"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "大学教育资助委员会 (University Grants Committee)",
+      "org_description": "教大为教资会资助的八所法定公立大学之一"
+    },
+    {
+      "org_name": "香港中文大学 (The Chinese University of Hong Kong)",
+      "org_description": "校长李子建曾任中大教育学院院长，两校在教师教育领域有学术渊源"
+    },
+    {
+      "org_name": "香港特区政府教育局 (Education Bureau, HKSAR)",
+      "org_description": "教育政策主管当局，与教大在师资培训上协作"
+    },
+    {
+      "org_name": "南京大学 (Nanjing University)",
+      "org_description": "副校长陈智轩2025年9月率团访问，两校达成多领域合作共识，为教大内地学术伙伴之一"
+    }
+  ],
+  "core_business": "香港教育大学（简称教大）是香港八所大学教育资助委员会资助的法定公立大学，也是香港以至区域内以师范教育为特色的大学。其历史可追溯至1853年圣保罗书院创办的在职教师培训及1939年成立的罗富国师范学院等，1994年四所师范学院与语言教育学院合并成立香港教育学院，2016年正名为大学，2024年迎来30周年校庆。教大以教师教育为核心使命，提供学士、硕士及博士课程，设教育及人类发展、人文、文理三个学院及研究生院，2026年增设荣誉学院培育高阶本科人才，研究范畴涵盖课程与教学、特殊教育与融合教育、心理学、语文教育及社会科学等，为香港基础教育输送大批教师，并在亚太教育研究与政策领域具有影响力。",
+  "industries": [
+    "higher_education",
+    "education"
+  ],
+  "apec_stance": "教大是亚太地区具影响力的师范院校之一，与内地及东南亚多所院校建立伙伴协作（如南京大学等），招收亚太区学生，配合「留学香港」品牌策略扩展国际招生，参与区域教育研究合作与学术交流，为APEC成员经济体的人力资源与教育发展提供人才支持。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/EdUHK_seal.svg/330px-EdUHK_seal.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 15,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "副校长（研究与发展）— 香港教育大学官网",
+        "url": "https://www.eduhk.hk/zht/about/university-administration/vice-president-research-and-development"
+      },
+      {
+        "title": "教大成立荣誉学院培育明日领袖（紫荆网）",
+        "url": "https://bau.com.hk/web/article/1488600734439370752/web/content_1488600734439370752.html"
+      },
+      {
+        "title": "教大教育学科跻身2025 QS世界大学学科排名全球第12位（教大新闻稿）",
+        "url": "https://www.eduhk.hk/zht/press-releases/eduhk-ranked-12th-in-qs-world-university-rankings-by-subject-2025"
+      },
+      {
+        "title": "校长简介 — 香港教育大学",
+        "url": "https://www.eduhk.hk/zht/about/university-administration/president"
+      },
+      {
+        "title": "香港教育大学副校长陈智轩一行访问南京大学（南京大学）",
+        "url": "https://hnc.nju.edu.cn/info/1884/34491.htm"
+      }
+    ],
+    "notes": "P3再丰富：新增副校长（研究与发展）陈智轩、副校长（行政）方永豪、荣誉学院院长李伟展，补荣誉学院成立及传媒聚会事件、南京大学伙伴关系，内容统一简体。"
   },
-  "description": "香港的大學",
-  "brief": "香港的大學"
+  "description": "香港八所教资会资助法定公立大学之一，以师范教育为特色，QS教育学科全球第12位",
+  "brief": "香港以师范教育为特色的公立大学，QS教育学科全球前列"
 }

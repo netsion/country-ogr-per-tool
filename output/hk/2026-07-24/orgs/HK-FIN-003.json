@@ -5,7 +5,10 @@
     "name_zh": "中国银行（香港）",
     "name_en": "Bank of China (Hong Kong)",
     "aliases": [
-      "BOCHK"
+      "BOCHK",
+      "中银香港",
+      "中銀香港",
+      "BOC Hong Kong"
     ],
     "org_type": "FIN",
     "org_subtype": "commercial_bank",
@@ -15,54 +18,229 @@
     "website": "https://www.bochk.com",
     "wikidata_qid": "Q787060"
   },
-  "social_accounts": [],
-  "digital_assets": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "BOCHK.official",
+      "url": "https://www.facebook.com/BOCHK.official/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "BOCHK",
+      "url": "https://www.youtube.com/user/bochkcom",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Bank of China (Hong Kong)",
+      "url": "https://www.linkedin.com/company/bank-of-china-hong-kong/",
+      "source": "official_website"
+    },
+    {
+      "platform": "other",
+      "account_name": "微信官方账号「中银香港」(BOCHK WeChat)",
+      "url": "https://www.bochk.com/tc/home.html",
+      "source": "official_website"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "BOCHK Mobile / 中银香港手机银行",
+      "description": "银行官方移动应用，提供零售与商业银行、跨境汇款及「跨境支付通」转账服务"
+    },
+    {
+      "name": "中银香港线上新闻中心",
+      "description": "官方新闻稿平台，发布人民币业务、数字人民币与跨境金融产品动态"
+    },
+    {
+      "name": "数字人民币（e-CNY）钱包服务",
+      "description": "中银香港为香港居民及企业提供数字人民币兑换、钱包服务，并首家成为数字人民币境外资金托管行"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000318",
-      "name": "张辉",
-      "title": "主席",
-      "title_description": "中銀香港董事長",
-      "description": "2025年2月起任中銀香港董事長。同時任中國銀行副董事長、行長兼執行董事。"
+      "name": "张辉 (Zhang Hui)",
+      "title": "董事长",
+      "title_description": "中银香港董事会主席，负责董事会治理与集团战略",
+      "description": "2025年2月起任中银香港董事长，同时任中国银行副董事长、行长兼执行董事，为资深银行家，长期任职中国银行体系。"
     },
     {
       "person_id": "HK-PERSON-000305",
-      "name": "孙煜",
-      "title": "Vice 主席 and 行政总裁",
-      "title_description": "中銀香港副董事長兼總裁",
-      "description": "2020年12月起任執行董事及中銀香港副董事長兼總裁。前任中國銀行副行長。"
+      "name": "孙煜 (Sun Yu)",
+      "title": "副董事长兼总裁",
+      "title_description": "银行日常经营最高负责人，兼任香港银行公会主席等多项公职",
+      "description": "2020年12月起任中银香港执行董事、副董事长兼总裁，前任中国银行副行长，长期分管金融市场与资产负债管理业务。现任香港银行公会主席、香港中资银行业协会会长、货币发行委员会及银行业务咨询委员会委员等公职，积极拓展离岸人民币业务并推动跨境支付通等金融创新。"
     },
     {
       "person_id": "HK-PERSON-000322",
-      "name": "高迎欣",
-      "title": "Former Vice 主席 and 行政总裁",
-      "title_description": "中銀香港前副董事長兼總裁",
-      "description": "2020年12月至2024年任中銀香港副董事長兼總裁。卸任後由孫煜接任。"
+      "name": "高迎欣 (Gao Yingxin)",
+      "title": "前副董事长兼总裁",
+      "title_description": "中银香港前副董事长兼总裁（2020-2024）",
+      "description": "2020年12月至2024年任中银香港副董事长兼总裁，卸任后返回中国银行体系任职，由孙煜接任。"
+    },
+    {
+      "person_id": "HK-PERSON-001265",
+      "name": "邢桂伟 (Xing Guiwei)",
+      "title": "副总裁",
+      "title_description": "分管信息科技与金融科技创新事务",
+      "description": "2022年加入中银香港任副总裁，兼任香港银行同业结算有限公司董事。加入前曾任中银金融科技有限公司董事长兼中国银行金融技术创新办公室主任，长期负责金融科技发展规划，持有北京大学信息科学学士及应用数学博士学位。"
+    },
+    {
+      "person_id": "HK-PERSON-001266",
+      "name": "王化斌 (Wang Huabin)",
+      "title": "副总裁",
+      "title_description": "分管企业及机构银行业务",
+      "description": "2024年加入中银香港任副总裁，兼任中银集团信托人有限公司、理慧银行有限公司董事长及中银集团保险有限公司董事。2000年加入中国银行，曾任金融机构部总经理、伦敦分行副行长及中银香港金边分行行长，在国际结算及贸易融资领域经验丰富。"
+    },
+    {
+      "person_id": "HK-PERSON-000802",
+      "name": "李彤 (Li Tong)",
+      "title": "副总裁",
+      "title_description": "分管资产管理与资本市场相关业务",
+      "description": "2024年加入中银香港任副总裁，兼任中银香港资产管理有限公司董事长。1993年加入中国银行，曾任中银国际控股有限公司首席执行官兼执行总裁，在商业银行、投资银行及国际金融市场拥有逾三十年经验。"
+    },
+    {
+      "person_id": "HK-PERSON-001267",
+      "name": "王春飞 (Wang Chunfei)",
+      "title": "风险总监",
+      "title_description": "统筹全行信贷、市场及操作风险管控",
+      "description": "2026年加入中银香港任风险总监。2001年加入中国银行，曾任职资产保全部、风险管理部、信用审批部，并曾任中银金融资产投资有限公司副总经理，在风险和信贷管理方面具备丰富经验。"
+    },
+    {
+      "person_id": "HK-PERSON-001268",
+      "name": "刘畅 (Liu Chang)",
+      "title": "财务总监",
+      "title_description": "负责财务管理、预算与司库事务",
+      "description": "2026年4月晋升为中银香港财务总监，兼任香港印钞有限公司董事。2000年加入中国银行，2016年起历任中银香港财务管理部多个管理岗位，持有纽约市立大学工商管理硕士学位及美国注册会计师资格。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "中國銀行（香港）有限公司 是中銀香港（控股）有限公司的全資附屬機構，也是香港資產和存款數目第二大的商业银行。中銀香港前身是1964年註冊成立的寶生銀行，2001年10月重組合併了12間中国银行附屬銀行及機構的所有業務、資產及負債後更為現名。截至2023年，中銀香港擁有超過180間分行，總資產達到36,855億港元，2023年年度溢利為349億港元。\n",
+  "departments": [
+    {
+      "name": "企业金融部 (Corporate Banking)",
+      "description": "为企业客户提供贷款、贸易融资、银团贷款及跨境结算服务"
+    },
+    {
+      "name": "个人金融及财富管理部 (Personal Banking and Wealth Management)",
+      "description": "负责零售存贷、财富管理、私人银行及信用卡业务"
+    },
+    {
+      "name": "全球市场部 (Global Markets)",
+      "description": "负责外汇、人民币产品、证券投资与资金业务交易"
+    },
+    {
+      "name": "人民币业务部 (RMB Business)",
+      "description": "统筹离岸人民币清算、结算与产品创新，为香港人民币业务唯一清算行"
+    },
+    {
+      "name": "风险管理部 (Risk Management)",
+      "description": "负责信贷、市场及操作风险管控，由风险总监统领"
+    },
+    {
+      "name": "金融机构部 (Financial Institutions)",
+      "description": "负责与银行同业、央行及国际金融机构的合作与代理业务"
+    },
+    {
+      "name": "信息科技部 (Information Technology)",
+      "description": "负责银行核心系统、数字化转型与金融科技创新，支撑手机银行及数字人民币基础设施建设"
+    }
+  ],
+  "recent_events": [
+    {
+      "title": "2025年全年股东应占利润401亿港元",
+      "date": "2026-03-30",
+      "description": "中银香港公布2025年全年业绩，股东应占利润达401亿港元，较2021年增长64.8%，标志五年战略计划收官；截至2025年底总资本比率25.98%，资本水平充裕。",
+      "impact": "盈利能力稳步提升，为派息及新资本计划奠定基础"
+    },
+    {
+      "title": "2025年中期纯利升11%",
+      "date": "2025-08-29",
+      "description": "中银香港公布2025年中期业绩，净利息收入按年跌4%至250.63亿港元，但净服务费及佣金收入按年升26%，纯利同比增长11%，拨备增59%主要涉及房地产信贷。",
+      "impact": "手续费收入强劲增长对冲息差压力"
+    },
+    {
+      "title": "数字人民币与「转数快」互联互通（数字人民币2.0）",
+      "date": "2026-04-03",
+      "description": "据中银香港2025年报，数字人民币与香港快速支付系统「转数快」（FPS）实现互联互通，为全球首个法定数字货币系统与快速支付系统的双边互联互通项目；中银香港并为首家数字人民币境外资金托管行。",
+      "impact": "巩固该行在全球离岸人民币及数字金融基础设施中的领先地位"
+    },
+    {
+      "title": "万象分行成为数字人民币跨境支付平台首批境外直接参与行",
+      "date": "2025-12-29",
+      "description": "中银香港万象分行成功对接数字人民币跨境数字支付平台，成为该平台首批境外直接参与行，推动数字人民币在贸易结算、投融资等多元场景的跨境应用。",
+      "impact": "拓展东南亚区域人民币业务布局，服务中国与东盟经贸往来"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "中国银行 (Bank of China)",
+      "org_description": "中银香港的母公司，中银香港（控股）为中国银行旗下上市旗舰"
+    },
+    {
+      "org_name": "中银香港（控股）有限公司 (BOC Hong Kong Holdings)",
+      "org_description": "港交所上市控股公司（2388），持有中银香港全部权益"
+    },
+    {
+      "org_name": "香港金融管理局 (HKMA)",
+      "org_description": "银行监管机构，中银香港为其认可机构及三家发钞银行之一"
+    },
+    {
+      "org_name": "中国人民银行 (PBOC)",
+      "org_description": "中银香港获委任为香港人民币业务清算行，与人民银行保持紧密合作"
+    },
+    {
+      "org_name": "香港银行公会 (HKAB)",
+      "org_description": "中银香港总裁孙煜现任香港银行公会主席"
+    },
+    {
+      "org_name": "香港银行同业结算有限公司 (HKICL)",
+      "org_description": "运营「转数快」（FPS）等支付基础设施，与中银香港合作推动跨境支付通及数字人民币互联互通"
+    }
+  ],
+  "core_business": "中国银行（香港）有限公司是中银香港（控股）有限公司的全资附属机构，也是香港资产和存款数目第二大的商业银行及三家发钞银行之一。中银香港前身是1964年注册成立的宝生银行，2001年10月重组合并12间中国银行附属银行及机构的业务、资产及负债后更为现名。银行提供个人金融、企业金融、财富管理、全球市场、资产管理及保险代理等综合服务，并自2003年起担任香港人民币业务清算行，是全球最大的离岸人民币清算与结算银行。截至2025年，中银香港股东应占利润达401亿港元，较2021年增长64.8%，总资本比率25.98%。该行积极推动人民币国际化、数字人民币跨境应用与「跨境支付通」等支付互联互通创新，并在东南亚（含万象、金边等地）设有分支机构，服务跨境贸易与投资需求。",
   "industries": [
     "financial_services"
   ],
-  "apec_stance": null,
+  "apec_stance": "中银香港作为香港人民币业务清算行，服务中国内地、香港与东南亚等APEC经济体之间的跨境贸易结算与投资，推动离岸人民币国际化、数字人民币跨境应用及「跨境支付通」等支付互联互通创新，总裁孙煜提出以打造东南亚区域中国相关业务首选银行为目标，加大东盟市场资源投入，为亚太经贸往来提供金融基础设施支持。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HK_Bank_of_China_Tower_View.jpg/330px-HK_Bank_of_China_Tower_View.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase3_org_enriched",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 45,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | Phase 3 update: key_people filled by phase4_person_lite batch."
+    "completeness_score": 96,
+    "quotes": [
+      {
+        "title": "维基百科：中國銀行（香港）",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E9%8A%80%E8%A1%8C%EF%BC%88%E9%A6%99%E6%B8%AF%EF%BC%89"
+      },
+      {
+        "title": "中银香港官网：高层管理人员",
+        "url": "https://www.bochk.com/m/sc/aboutus/organisation/management.html"
+      },
+      {
+        "title": "文汇报：中银去年赚逾400亿增近5%",
+        "url": "https://www.wenweipo.com/a/202603/31/AP69cadbe5e4b0b49ad1b4a99c.html"
+      },
+      {
+        "title": "中银香港2025年报：助力数字人民币2.0创新发展（新浪财经）",
+        "url": "https://finance.sina.com.cn/wm/2026-04-03/doc-inhtetzi8949156.shtml"
+      },
+      {
+        "title": "中国新闻网：中银香港副董事长兼总裁孙煜——加大东盟市场资源投入",
+        "url": "https://www.chinanews.com.cn/cj/2025/06-29/10440084.shtml"
+      }
+    ],
+    "notes": "P3再丰富：官网补全5名高管（null ID待分配）、金融机构/信息科技部门、数字人民币2.0与FPS互联互通、跨境支付通及东盟布局"
   },
-  "description": "香港中資持牌銀行及發鈔行之一",
-  "brief": "香港中資持牌銀行及發鈔行之一"
+  "description": "香港中资持牌银行及发钞行之一",
+  "brief": "香港第二大商业银行及人民币清算行，中银集团旗下上市旗舰"
 }

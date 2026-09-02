@@ -1,7 +1,7 @@
 {
   "org_id": "HK-CORP-001",
   "basic_info": {
-    "name_original": "阿里巴巴集团",
+    "name_original": "阿里巴巴集團",
     "name_zh": "阿里巴巴集团",
     "name_en": "Alibaba Group",
     "aliases": [
@@ -37,49 +37,185 @@
       "account_name": "UC9awv94A7WzWuTUP2frSuDA",
       "url": "https://youtube.com/channel/UC9awv94A7WzWuTUP2frSuDA",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Alibaba Group",
+      "url": "https://www.linkedin.com/company/alibaba-group/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "阿里足迹 (Alizila)",
+      "description": "阿里巴巴集团官方新闻平台，发布集团战略、财务与业务动态"
+    },
+    {
+      "name": "1688.com / Taobao / Tmall",
+      "description": "集团旗下核心电商平台，覆盖B2B批发与B2C零售"
+    },
+    {
+      "name": "通义千问 (Qwen)",
+      "description": "集团自研大语言模型系列，驱动阿里云AI产品线，AI相关产品收入连续多个季度保持三位数同比增长"
+    },
+    {
+      "name": "平头哥 (T-Head)",
+      "description": "集团芯片设计业务，2026财年起与云智能集团整合为「AI云与算力服务」分部"
+    }
+  ],
   "key_people": [
     {
-      "person_id": "HK-PERSON-001142",
-      "name": "蔡崇信",
+      "person_id": "HK-PERSON-001196",
+      "name": "蔡崇信 (Joe Tsai)",
+      "title": "董事局主席",
+      "title_description": "主持董事局，负责集团战略与治理",
+      "description": "阿里巴巴联合创始人，曾长期任集团首席财务官及执行副主席，拥有耶鲁大学法学背景，2023年9月起出任董事局主席，并任NBA布鲁克林篮网队老板。"
+    },
+    {
+      "person_id": "HK-PERSON-001153",
+      "name": "吴泳铭 (Eddie Wu)",
       "title": "首席执行官",
-      "title_description": null,
-      "description": null
+      "title_description": "负责集团整体业务运营与AI战略落地",
+      "description": "阿里巴巴联合创始人之一，2023年9月起出任集团首席执行官兼淘天集团董事长，主导「用户为先、AI驱动」战略，提出未来五年云和AI商业化收入突破1000亿美元的目标。"
+    },
+    {
+      "person_id": "HK-PERSON-001154",
+      "name": "马云 (Jack Ma)",
+      "title": "创始人",
+      "title_description": "集团创始人，非执行职务",
+      "description": "1999年在杭州联合十七位创始人创立阿里巴巴，长期任董事局主席至2019年卸任，现主要为集团精神领袖与股东。"
+    },
+    {
+      "person_id": "HK-PERSON-001221",
+      "name": "徐宏 (Toby Xu)",
+      "title": "首席财务官",
+      "title_description": "负责集团财务管理、投资者关系及股份回购计划",
+      "description": "毕业于复旦大学物理系，中国注册会计师协会会员，2018年7月加入阿里巴巴，曾任集团CEO业务助理及副总裁，2022年起出任集团首席财务官，主导大规模股份回购与AI基础设施投入的财务安排。"
+    },
+    {
+      "person_id": "HK-PERSON-001222",
+      "name": "蒋凡 (Fan Jiang)",
+      "title": "电商事业群首席执行官",
+      "title_description": "统管集团中国及国际电商业务",
+      "description": "曾长期执掌淘宝天猫，2024年起出任阿里巴巴电商事业群首席执行官，统筹淘天集团与国际数字商业集团的国内外电商业务。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
+  "departments": [
+    {
+      "name": "AI云与算力服务 (原阿里云智能集团，整合平头哥)",
+      "description": "集团云计算与人工智能业务板块，2026财年起云智能集团与平头哥芯片业务整合为「AI云与算力服务」分部，季度收入同比增长45%，运营通义千问大模型"
+    },
+    {
+      "name": "电商事业群 (E-Commerce Business Group)",
+      "description": "2024年11月成立，整合淘天集团与阿里国际数字商业集团，统管中国电商与国际电商业务"
+    },
+    {
+      "name": "淘天集团 (Taobao and Tmall Group)",
+      "description": "中国零售电商平台板块，包含淘宝、天猫及即时零售业务，中国电商季度收入超千亿元"
+    },
+    {
+      "name": "阿里国际数字商业集团 (AIDC)",
+      "description": "跨境与国际化电商业务，包含速卖通AliExpress、Lazada、Trendyol等，在全球多地区多元化布局"
+    },
+    {
+      "name": "菜鸟集团 (Cainiao)",
+      "description": "智慧物流网络平台，服务电商履约与全球供应链"
+    }
+  ],
+  "recent_events": [
+    {
+      "title": "2026财年收入首次突破万亿元人民币",
+      "date": "2026-05-13",
+      "description": "截至2026年3月31日止财年，阿里巴巴收入10236.70亿元（约1484亿美元），同比增长3%（剔除高鑫零售、银泰等已处置业务后同口径增长11%），财年AI相关产品收入保持高速增长。",
+      "impact": "集团进入万亿收入规模阶段，AI商业化成为核心增长引擎"
+    },
+    {
+      "title": "云智能与平头哥整合为AI云与算力服务分部",
+      "date": "2026-08-20",
+      "description": "2026年6月季度财报中，阿里巴巴首次将云智能集团与平头哥整合为「AI云与算力服务」分部，该分部季度收入484.37亿元，同比增长45%，创22个季度以来新高；季度集团总收入2689.53亿元，同比增长9%。",
+      "impact": "确认增长动力全面转向模型、算力与智能，据Omdia报告阿里云以38.1%份额居中国AI云市场首位"
+    },
+    {
+      "title": "发布2025财年年报，AI驱动业绩加速",
+      "date": "2025-06-26",
+      "description": "阿里巴巴2025财年收入9963.47亿元，净利润同比增长76.81%至1259.76亿元；蔡崇信与吴泳铭在股东信中表示AI业务已正式迈入商业化回报周期。",
+      "impact": "确立「用户为先、AI驱动」为集团未来十年核心战略"
+    },
+    {
+      "title": "提出云和AI收入破千亿美元目标",
+      "date": "2026-02-01",
+      "description": "CEO吴泳铭在季度业绩会议称，未来五年包含MaaS在内的云和AI商业化收入目标突破1000亿美元；管理层其后表示AI基建投入资金将远超此前公布的3800亿元计划。",
+      "impact": "指引集团资本开支与AI基础设施投资方向"
+    }
+  ],
   "related_entities": [
     {
-      "org_id": "Q1198574",
-      "org_name": "South China Morning Post",
+      "org_id": "HK-MEDIA-008",
+      "org_name": "南华早报 (South China Morning Post)",
       "org_type": "MEDIA",
-      "org_description": null,
+      "org_description": "香港英文报章，2015年起为阿里巴巴旗下子公司",
       "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "蚂蚁集团 (Ant Group)",
+      "org_type": "FIN",
+      "org_description": "支付宝母公司，由阿里巴巴分拆的金融科技集团，阿里持股约33%",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "香港交易及结算所有限公司 (HKEX)",
+      "org_type": "GOV",
+      "org_description": "阿里巴巴于港交所主板上市（股份代号9988），同时以美国存托股份在纽约证券交易所上市",
+      "relationship_type": "affiliated"
     }
   ],
-  "core_business": "阿里巴巴集团控股有限公司，简称阿里巴巴集团，是一家创立于中国杭州的全球化互联网企业。该集团由马云牵头，联合其余十七名创始人于1999年创建，目前由蔡崇信担任董事局主席。\n",
+  "core_business": "阿里巴巴集团控股有限公司是创立于中国杭州的全球化互联网企业，1999年由马云联合十八位创始人创建，于香港（港交所9988）及纽约两地上市。集团业务涵盖中国零售电商（淘宝、天猫）、跨境与国际电商（速卖通、Lazada、Trendyol）、云计算与人工智能（阿里云、通义千问大模型、平头哥芯片）、智慧物流（菜鸟）、本地生活及文娱等领域。2024年11月成立电商事业群，整合国内外电商业务；云智能集团与平头哥整合为「AI云与算力服务」分部，季度收入同比增长45%，据Omdia报告阿里云以38.1%份额居中国AI云市场首位。2026财年（截至2026年3月）集团收入10236.70亿元，首次突破万亿元人民币大关。集团在亚太电商与云服务市场占有重要地位，同时通过旗下南华早报涉足媒体业务。",
   "industries": [
-    "financial_services"
+    "financial_services",
+    "ecommerce",
+    "cloud_computing"
   ],
-  "apec_stance": null,
+  "apec_stance": "阿里巴巴为横跨多个APEC经济体的电商与云计算巨头，通过速卖通、Lazada（东南亚）等平台促进亚太跨境贸易数字化，阿里云在东南亚等APEC地区设数据中心服务区域企业，推动亚太数字贸易与中小企业上云出海。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TaobaoCity_Alibaba_Xixi_Park.jpg/330px-TaobaoCity_Alibaba_Xixi_Park.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 29,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 93,
+    "quotes": [
+      {
+        "title": "阿里巴巴集团公布2026年6月份季度业绩",
+        "url": "https://www.alibabagroup.com/zh-HK/document-2026456290057781248"
+      },
+      {
+        "title": "阿里巴巴集团公布2026年3月份季度及2026财年业绩",
+        "url": "https://ali-home.alibaba.com/document-1991237450038119936"
+      },
+      {
+        "title": "维基百科：阿里巴巴集团",
+        "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E9%9B%86%E5%9B%A2"
+      },
+      {
+        "title": "新浪财经：阿里第二季度AI云与算力服务收入484亿，同比增45%",
+        "url": "https://finance.sina.cn/stock/jdts/2026-08-21/detail-ininywtc6595516.d.html"
+      },
+      {
+        "title": "阿里足迹：阿里巴巴集团主席和首席执行官致股东的信（FY25）",
+        "url": "https://www.alibabanews.com/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E9%9B%86%E5%9B%A2%E4%B8%BB%E5%B8%AD%E5%92%8C%E9%A6%96%E5%B8%AD%E5%9F%B7%E8%A1%8C%E5%AE%98%E8%87%B4%E8%82%A1%E6%9D%B1%E7%9A%84%E4%BF%A1_fy25/"
+      }
+    ],
+    "notes": "P3 enrichment round 2: added CFO Toby Xu & e-commerce BG CEO Fan Jiang (person_id null), FY2026 trillion-RMB revenue, AI cloud & computing segment reorg events"
   },
-  "description": "电子商务集团",
-  "brief": "电子商务集团"
+  "description": "电子商务与云计算集团",
+  "brief": "中国最大电商平台与云服务商之一，2026财年收入突破万亿元人民币，总部架构涉香港上市主体"
 }

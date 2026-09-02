@@ -4,7 +4,10 @@
     "name_original": "運輸及物流局",
     "name_zh": "运输及物流局",
     "name_en": "Transport and Logistics Bureau",
-    "aliases": [],
+    "aliases": [
+      "运输局",
+      "TLB"
+    ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "HKG",
@@ -13,40 +16,150 @@
     "website": "https://www.tlb.gov.hk/",
     "wikidata_qid": "Q112707285"
   },
-  "social_accounts": [],
-  "digital_assets": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "HKTLB",
+      "url": "https://www.facebook.com/HKTLB/",
+      "source": "facebook_search"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "运输及物流局官方网站",
+      "description": "发布运输及物流政策、新闻公报、演讲辞及咨询文件"
+    }
+  ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000720",
-      "name": "陈美宝",
-      "title": "Secretary for Transport and 物流",
-      "title_description": null,
-      "description": null
+      "name": "陈美宝 (Mable Chan)",
+      "title": "运输及物流局局长",
+      "title_description": "掌管运输及物流政策，涵盖航空枢纽、航运中心及物流发展",
+      "description": "2024年起出任运输及物流局局长，为行政会议官守成员，任内主导低空经济发展、推动「监管沙盒」试点项目及巩固香港国际机场的客货运復苏，积极拓展航空网络及跨境无人机物流配送。"
+    },
+    {
+      "person_id": "HK-PERSON-001349",
+      "name": "廖振新",
+      "title": "运输及物流局副局长",
+      "title_description": "协助局长制订及推展运输与物流政策",
+      "description": "运输及物流局副局长（JP），协助局长处理局内政策事务及立法会联系工作，参与公共交通、物流及低空经济等政策的推展。"
+    },
+    {
+      "person_id": "HK-PERSON-001243",
+      "name": "丘卓恒",
+      "title": "运输及物流局常任秘书长",
+      "title_description": "局内最高级公务员，领导运输科及物流科的日常运作",
+      "description": "运输及物流局常任秘书长（JP），首长级甲一级政务官，负责领导局内两科公务员团队的日常政策执行与部门协调，向局长负责。"
+    },
+    {
+      "person_id": "HK-PERSON-001191",
+      "name": "廖志勇",
+      "title": "民航处处长",
+      "title_description": "负责民航规管及低空经济沙盒的申请审批",
+      "description": "民航处处长，与运输及物流局协作推展低空经济「监管沙盒」试点项目，2025年6月至2026年5月共批出115项恒常实际运作应用场景申请。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "運輸及物流局 是香港特別行政區政府決策局之一，專責對外對內交通政策事宜、物流發展事宜。\n",
-  "industries": [
-    "public_administration"
+  "departments": [
+    {
+      "name": "运输科 (Transport Branch)",
+      "description": "负责公共交通、铁路、道路及海事运输政策"
+    },
+    {
+      "name": "物流科 (Logistics Branch)",
+      "description": "负责香港作为国际物流枢纽的发展政策及货车运输业规管"
+    },
+    {
+      "name": "民航处 (Civil Aviation Department)",
+      "description": "负责航空安全规管、空域管理及低空经济应用审批的部门"
+    },
+    {
+      "name": "运输署 (Transport Department)",
+      "description": "负责陆路交通管理、道路安全及公共交通规管的执行部门"
+    },
+    {
+      "name": "海事处 (Marine Department)",
+      "description": "负责港口管理、船舶注册及海事安全的部门"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2025-09-29",
+      "title": "简介施政报告运输物流措施",
+      "description": "局长陈美宝在立法会介绍《行政长官2025年施政报告》政策措施，包括巩固国际航空枢纽及航运中心地位、全力发展低空经济，目标年内落实首批「监管沙盒」38个项目，并加速扩展航空版图及建立飞机拆件回收服务。",
+      "impact": "确立航空、航运、物流及低空经济的综合发展策略。"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "低空经济「监管沙盒X」启动",
+      "description": "陈美宝联同民航处处长等主礼低空经济「监管沙盒X」启动礼，表示明年推动跨境物流配送，使用更重型无人机执行跨境物流任务。",
+      "impact": "推进低空经济从试点走向恆常化及跨境应用。"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "低空经济115项应用场景恆常化",
+      "description": "陈美宝表示低空经济是国家「十五五」规划明确的战略性新兴支柱产业，2025年6月至2026年5月民航处已就恆常实际运作应用场景批准共115项申请。",
+      "impact": "香港低空经济发展进入规模化应用阶段。"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_name": "机场管理局 (Airport Authority Hong Kong)",
+      "org_description": "负责香港国际机场运营的法定机构，与运输及物流局协作拓展航空网络"
+    },
+    {
+      "org_name": "民航处 (Civil Aviation Department)",
+      "org_description": "运输及物流局辖下部门，负责航空安全及低空经济应用审批"
+    },
+    {
+      "org_name": "港铁公司 (MTR Corporation)",
+      "org_description": "香港铁路服务营办商，其票价及服务受运输及物流局政策规管"
+    },
+    {
+      "org_name": "发展低空经济工作组",
+      "org_description": "《2024年施政报告》宣布成立、由运输及物流局领导推动低空经济发展的跨部门工作组"
+    }
+  ],
+  "core_business": "运输及物流局是香港特别行政区政府总部下辖的决策局，于2022年7月1日政府架构重组时设立，专责对内对外交通政策及物流发展事宜，政策目标为巩固和提升香港作为国际航空枢纽、国际航运中心及物流枢纽的地位。局方督导民航处、运输署及海事处等部门的运作，负责公共交通（铁路、巴士、渡轮）、道路网络、港口航运、航空安全及物流业发展政策，并自2024年起全力推动低空经济发展，透过「监管沙盒」试点项目激活低空空域作为新经济生产要素。",
+  "industries": [
+    "public_administration",
+    "transportation"
+  ],
+  "apec_stance": "运输及物流局主管的香港国际机场及港口是亚太区航空与航运枢纽，连接APEC多个成员经济体的客货运网络；其低空经济及物流枢纽政策直接参与亚太区域供应链与空域管理合作。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Regional_Emblem_of_Hong_Kong.svg/330px-Regional_Emblem_of_Hong_Kong.svg.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase3_org_enriched",
+    "collection_date": "2026-09-01",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 35,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 75,
+    "quotes": [
+      {
+        "title": "运输及物流局 - 关于我们 - 组织架构",
+        "url": "https://www.tlb.gov.hk/tc/aboutus/organisation/index.html"
+      },
+      {
+        "title": "运输及物流局局长出席立法会经济发展事务委员会政策简报会开场发言",
+        "url": "https://www.info.gov.hk/gia/general/202509/29/P2025092900475.htm"
+      },
+      {
+        "title": "低空经济｜监管沙盒X启动 陈美宝：明年推动跨境物流配送（HK01）",
+        "url": "https://global.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60297279/"
+      },
+      {
+        "title": "有片｜115项应用场景恆常化 陈美宝：积极推动低空经济健康有序发展（香港商报）",
+        "url": "https://www.hkcd.com.hk/hkcdweb/content/2026/06/29/content_8762298.html"
+      }
+    ],
+    "notes": "Phase3深度丰富：补全副局长廖振新、常任秘书长丘卓恒及官方Facebook专页，完善局科架构与低空经济进展，纯事实记录，内容统一为简体中文。"
   },
-  "description": "香港特別行政區政府總部決策局",
-  "brief": "香港特別行政區政府總部決策局"
+  "description": "香港特别行政区政府总部决策局",
+  "brief": "香港特别行政区政府总部决策局"
 }

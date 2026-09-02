@@ -1,36 +1,123 @@
 {
   "person_id": "HK-PERSON-001129",
-  "wikidata_qid": null,
-  "name": "马绍祥",
-  "name_en": "Eric Ma Siu-cheung",
+  "wikidata_qid": "Q16908157",
+  "name": "馬紹祥",
   "name_zh": "马绍祥",
+  "name_en": "Eric Ma Siu-cheung",
+  "aliases": [
+    "Eric Ma"
+  ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1964-01-01",
-  "honors": [
-    "JP"
+  "birth_date": null,
+  "birth_place": "",
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.nwd.com.hk/sc/our-group/senior-management/",
+      "source": "https://www.nwd.com.hk"
+    }
   ],
   "current_positions": [
-    "新世界發展行政總裁（2024-）",
-    "發展局前局長"
+    "新世界发展行政总裁"
   ],
-  "education": [],
-  "career_history": [],
-  "related_organizations": [],
-  "biography_summary": "香港政商界人士，曾任發展局局長（2017），加入新世界發展，2024年接替鄭志剛出任行政總裁。",
+  "education": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港大学 (The University of Hong Kong)",
+      "degree": "bachelor",
+      "field": "土木工程"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "奥克兰大学 (University of Auckland)",
+      "degree": "master",
+      "field": "岩土工程"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": "2013",
+      "organization": "工程顾问界 (Engineering consultancy)",
+      "org_id": null,
+      "position": "曾任职多家国际工程顾问公司，为资深工程师"
+    },
+    {
+      "start_date": "2013",
+      "end_date": "2017",
+      "organization": "发展局 (Development Bureau)",
+      "org_id": "HK-GOV-022",
+      "position": "副局长，后任局长（2017）"
+    },
+    {
+      "start_date": "2018",
+      "end_date": null,
+      "organization": "新世界发展 (New World Development)",
+      "org_id": "HK-CORP-018",
+      "position": "执行董事及首席运营总监，2024年9月起出任行政总裁，接替郑志刚"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000508",
+      "person_name": "郑志刚 (Adrian Cheng)",
+      "relationship_type": "colleague",
+      "description": "前任新世界发展行政总裁"
+    }
+  ],
+  "social_accounts": [],
+  "family_members": [],
+  "political_stances": [
+    {
+      "date": "",
+      "topic": "土地发展",
+      "stance_content": "任发展局局长期间推动土地供应及基建发展政策",
+      "source": "https://www.nwd.com.hk"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2024-09",
+      "organization": "新世界发展 (New World Development)",
+      "achievement": "出任行政总裁，负责集团整体业务运营及财务重整"
+    },
+    {
+      "date": "",
+      "organization": "香港特区政府",
+      "achievement": "获委任为太平绅士（JP）"
+    }
+  ],
+  "biography_summary": "马绍祥（Eric Ma Siu-cheung），1964年生，香港政商界人士，新世界发展行政总裁。香港大学土木工程学士及新西兰奥克兰大学岩土工程硕士，为资深工程专业人士，曾在国际工程顾问公司任职多年。2013年加入政府出任发展局副局长，2017年短暂出任发展局局长。2018年加入新世界发展任执行董事及首席运营总监，2024年9月接替郑志刚出任行政总裁，负责集团业务运营及债务管理。获委任为太平绅士。",
   "profile": {
     "source_url": "https://www.nwd.com.hk/images/eric_ma.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "nwd.com.hk",
-      "wikipedia"
+      "wikipedia",
+      "wikidata",
+      "official_website"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile - HK business leader batch"
-  },
-  "importance_level": "medium",
-  "importance_reason": "派生自職位: 新世界發展行政總裁（2024-）"
+    "completeness_score": 51,
+    "quotes": [
+      {
+        "title": "馬紹祥 - 維基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E7%B4%B9%E7%A5%A5"
+      },
+      {
+        "title": "新世界發展官網",
+        "url": "https://www.nwd.com.hk"
+      },
+      {
+        "title": "馬紹祥教授工程師 - 香港高等教育科技學院學術人員介紹",
+        "url": "https://thei.edu.hk/tc/academic-staff-department-of-construction-environment-and-engineering/ma-siu-cheung/"
+      }
+    ],
+    "notes": "补回QID Q16908157（经zh-wiki条目匹配）。补深核查：无个人社交媒体；补新世界发展官网管理层页。"
+  }
 }

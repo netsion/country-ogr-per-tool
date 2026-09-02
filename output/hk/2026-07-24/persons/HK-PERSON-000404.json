@@ -1,85 +1,117 @@
 {
   "person_id": "HK-PERSON-000404",
   "wikidata_qid": null,
-  "name": "叶德铨",
-  "name_en": "Edmond Ip Tak-chuen",
+  "name": "葉德銓",
   "name_zh": "叶德铨",
+  "name_en": "Edmond Ip Tak-chuen",
+  "aliases": [],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": null,
-  "honors": [
-    "JP"
-  ],
+  "birth_date": "1953-01-01",
+  "birth_place": "香港",
+  "contacts": [],
   "current_positions": [
-    "長江實業集團副主席",
-    "長江和記實業執行董事及副董事總經理",
-    "長江基建執行董事及副主席"
+    "长江实业集团有限公司执行董事、董事会副主席",
+    "长江和记实业有限公司副董事总经理",
+    "长江基建集团有限公司副主席"
   ],
-  "education": [],
-  "career_history": [
+  "education": [
     {
-      "organization": "長江集團",
-      "position": "1993年加入"
-    },
-    {
-      "organization": "長江實業",
-      "position": "副董事總經理 -> 副主席 (2024年4月)"
+      "start_date": null,
+      "end_date": null,
+      "institution": "不详 (Unknown)",
+      "degree": "master",
+      "field": "硕士研究生学历"
     }
   ],
-  "related_organizations": [
+  "work_experience": [
     {
+      "start_date": "1993",
+      "end_date": null,
+      "organization": "长江集团 (CK Group)",
+      "org_id": null,
+      "position": "加入长江集团"
+    },
+    {
+      "start_date": "2015-01",
+      "end_date": "2024-04",
+      "organization": "长江实业集团有限公司 (CK Asset Holdings)",
       "org_id": "HK-CORP-003",
-      "relation": "deputy_chairman"
+      "position": "董事（2015年1月），2015年2月起任执行董事兼副董事总经理，2015年6月起任执行委员会委员"
     },
     {
+      "start_date": "2024-04-01",
+      "end_date": null,
+      "organization": "长江实业集团有限公司 (CK Asset Holdings)",
+      "org_id": "HK-CORP-003",
+      "position": "执行董事、董事会副主席，兼任可持续发展委员会主席"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "长江和记实业有限公司 (CK Hutchison Holdings)",
       "org_id": "HK-CORP-004",
-      "relation": "deputy_md"
+      "position": "执行董事及副董事总经理"
     },
     {
+      "start_date": null,
+      "end_date": null,
+      "organization": "长江基建集团有限公司 (CK Infrastructure Holdings)",
       "org_id": "HK-CORP-005",
-      "relation": "deputy_chairman"
+      "position": "执行董事、副主席，2020年12月起任可持续发展委员会成员"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000401",
+      "person_name": "李泽钜 (Victor Li)",
+      "relationship_type": "superior",
+      "description": "长实集团主席，叶德铨任副主席"
     }
   ],
   "social_accounts": [],
-  "biography_summary": "長江實業副主席、長江和記實業執行董事及副董事總經理。1993年加入長江集團，2024年4月由長實副董事總經理重新獲委任為副主席。同時任長江基建等多家集團公司董事，擁有逾45年會計、審計、稅務及財務經驗。",
+  "family_members": [],
+  "political_stances": [],
+  "major_achievements": [
+    {
+      "date": "2024-04",
+      "organization": "长江实业集团 (CK Asset Holdings)",
+      "achievement": "由副董事总经理调任长实集团董事会副主席"
+    },
+    {
+      "date": null,
+      "organization": "长江集团 (CK Group)",
+      "achievement": "在长江集团服务逾30年，历任长实、长和、长江基建、长江生命科技等多家上市公司董事"
+    }
+  ],
+  "biography_summary": "叶德铨（Edmond Ip Tak-chuen），1953年出生，硕士研究生学历，香港长江集团资深高管。1993年加入长江集团，长期担任多家系内公司董事。2015年1月出任长江实业集团有限公司董事，同年2月起任执行董事兼副董事总经理，6月起任执行委员会委员；2024年4月1日由副董事总经理调任长实集团董事会副主席，并兼任可持续发展委员会主席。同时担任长江和记实业有限公司执行董事及副董事总经理、长江基建集团有限公司副主席（2020年12月起兼任其可持续发展委员会成员）、长江生命科技集团有限公司执行董事等职，在长和系服务逾30年。",
   "profile": {
-    "source_url": null,
+    "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-07-24",
-    "phase": "phase4_person_lite",
+    "collection_date": "2026-08-27",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "ckh_official",
-      "cka_official",
-      "cki_official"
+      "wikipedia",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 60,
-    "notes": "lite profile - HK CORP batch 3; no wikidata QID"
-  },
-  "importance_level": "high",
-  "importance_reason": "派生自職位: 長江實業集團副主席",
-  "person_relationships": [
-    {
-      "org_id": "HK-CORP-003",
-      "org_name": "長實集團",
-      "title": "副主席",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    },
-    {
-      "org_id": "HK-CORP-004",
-      "org_name": "長江和記實業",
-      "title": "執行董事及副董事總經理",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    },
-    {
-      "org_id": "HK-CORP-005",
-      "org_name": "長江基建",
-      "title": "執行董事",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    }
-  ]
+    "completeness_score": 52,
+    "quotes": [
+      {
+        "title": "叶德铨 - 百度百科",
+        "url": "https://baike.baidu.com/item/%E5%8F%B6%E5%BE%B7%E9%93%A8/53486427"
+      },
+      {
+        "title": "长实集团执行董事叶德铨由副董事总经理调任副主席 - 网易",
+        "url": "https://www.163.com/dy/article/IUD4SKK90519D45U.html"
+      },
+      {
+        "title": "CK ASSET HOLDINGS LIMITED 执行董事调任公告",
+        "url": "https://www.ckah.com/sites/default/files/2024-03/20240328-01-ENG_0.pdf"
+      }
+    ],
+    "notes": "身份核验无误。补充1993年加入长江集团以来在长实/长和/长建/长科的完整董事履历及2024年4月调任副主席。出生仅知1953年。公开资料未见其就读院校详情，未编造。无P18，avatar置空。 补深核查：无Wikidata条目、无P18、无个人社交媒体及公开个人联系方式，四项保持空白。"
+  }
 }
