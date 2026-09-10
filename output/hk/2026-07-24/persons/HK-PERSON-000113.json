@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-000113",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q83743752",
   "name": "莫家豪",
   "name_zh": "莫家豪",
   "name_en": "Joshua Mok Ka-ho",
@@ -10,7 +10,7 @@
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "birth_place": "",
+  "birth_place": null,
   "contacts": [
     {
       "type": "website",
@@ -19,9 +19,7 @@
     }
   ],
   "current_positions": [
-    "香港恒生大学常务副校长兼教务长",
-    "香港恒生大学研究生院院长",
-    "香港恒生大学候任校长（2026年9月1日上任）"
+    "香港恒生大学校长（2026年9月1日就任，任期五年）"
   ],
   "education": [
     {
@@ -42,6 +40,13 @@
   "work_experience": [
     {
       "start_date": null,
+      "end_date": null,
+      "organization": "香港教育大学 (The Education University of Hong Kong)",
+      "org_id": "HK-ACAD-003",
+      "position": "副校长"
+    },
+    {
+      "start_date": null,
       "end_date": "2024",
       "organization": "岭南大学 (Lingnan University)",
       "org_id": "HK-ACAD-011",
@@ -49,27 +54,45 @@
     },
     {
       "start_date": "2024-06",
+      "end_date": "2026-08",
+      "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)",
+      "org_id": "HK-ACAD-005",
+      "position": "常务副校长（学术及研究），2026年9月1日起专任校长"
+    },
+    {
+      "start_date": "2026-09-01",
       "end_date": null,
       "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)",
       "org_id": "HK-ACAD-005",
-      "position": "教务长，2025年3月获委任为下任校长，2026年9月1日接替何顺文出任校长"
+      "position": "校长（任期五年），接替创校校长何顺文"
     }
   ],
   "person_relationships": [
     {
       "person_id": "HK-PERSON-000112",
       "person_name": "何顺文 (Simon Ho)",
-      "relationship_type": "superior",
-      "description": "2026年9月接替何顺文出任香港恒生大学校长"
+      "relationship_type": "colleague",
+      "description": "2026年9月1日接替何顺文出任香港恒生大学校长（何顺文为创校校长，同日卸任）"
     }
   ],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
-  "major_achievements": [],
-  "biography_summary": "莫家豪（Joshua Mok Ka-ho），比较政策讲座教授，香港恒生大学候任校长（2026年9月1日上任）、现任常务副校长兼教务长及研究生院院长。他本科毕业于香港中文大学社会学系，于伦敦政治经济学院取得社会政策博士学位，是亚太地区教育政策、社会政策及比较发展研究领域的知名学者，著作丰富。他曾任岭南大学副校长及比较政策讲座教授，长期研究高等教育市场化、大湾区教育融合等议题，2024年6月加入香港恒生大学担任教务长，2025年3月获委任为下任校长，将接替创校校长何顺文领导大学发展。",
+  "major_achievements": [
+    {
+      "date": "2026-03-05",
+      "achievement": "经全球招聘及遴选委员会严谨遴选，获恒生大学校董会和校务委员会委任为下任校长，任期五年",
+      "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)"
+    },
+    {
+      "date": "2026-09-01",
+      "achievement": "正式就任香港恒生大学校长，接替创校校长何顺文",
+      "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)"
+    }
+  ],
+  "biography_summary": "莫家豪（Joshua Mok Ka-ho），香港恒生大学校长（2026年9月1日就任，任期五年），高等教育政策、比较社会政策及比较发展研究领域的知名学者，被传媒评为全球顶尖2%科学家。他本科毕业于香港中文大学社会学系，于伦敦政治经济学院取得社会政策博士学位，曾任香港教育大学副校长及岭南大学副校长（比较政策讲座教授），长期研究高等教育市场化、大湾区教育融合等议题，学术著作丰富。他2024年6月加入香港恒生大学出任常务副校长（学术及研究），2026年3月5日获校董会委任为下任校长，同年9月1日正式接替创校校长何顺文执掌恒大，领导大学发展。",
   "profile": {
-    "source_url": "",
+    "source_url": "https://www.hsu.edu.hk/en/about-hsuhk/management-structure/",
     "local_path": null
   },
   "collection_meta": {
@@ -77,27 +100,29 @@
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
-      "wikipedia"
+      "wikipedia",
+      "wikidata",
+      "news_search"
     ],
-    "completeness_score": 37,
+    "completeness_score": 52,
     "quotes": [
       {
-        "title": "香港恒生大学：校长委任公告",
-        "url": "https://www.hsu.edu.hk"
+        "title": "香港恒生大学：Management Structure（President Professor Joshua Mok Ka-ho）",
+        "url": "https://www.hsu.edu.hk/en/about-hsuhk/management-structure/"
       },
       {
-        "title": "香港恒生大学研究生院：莫家豪教授",
-        "url": "https://gs.hsu.edu.hk"
-      },
-      {
-        "title": "香港电台：恒生大学委任莫家豪为下任校长",
+        "title": "香港电台：恒大宣布委任莫家豪为下任校长 任期5年（2026-03-05）",
         "url": "https://news.rthk.hk/rthk/ch/component/k2/1846159-20260305.htm"
       },
       {
         "title": "香港01：莫家豪获委任为恒生大学下任校长",
         "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60327753/%E8%8E%AB%E5%AE%B6%E8%B1%AA%E6%88%90%E6%81%92%E5%A4%A7%E4%B8%8B%E4%BB%BB%E6%A0%A1%E9%95%B7%E6%8E%A5%E4%BD%95%E9%A0%86%E6%96%87-9-1%E5%B1%A5%E6%96%B0-%E8%A2%AB%E8%A9%95%E5%85%A8%E7%90%83%E9%A0%82%E5%B0%962-%E7%A7%91%E5%AD%B8%E5%AE%B6"
+      },
+      {
+        "title": "Wikidata: Q83743752 Ka Ho Mok",
+        "url": "https://www.wikidata.org/wiki/Q83743752"
       }
     ],
-    "notes": "phase4深度丰富；暂无独立Wikidata条目。 2026-08-27补深核查：无Wikidata QID、无P18；恒大官网领袖页面无公开肖像图片直链，头像维持留空；无经核实的个人社交媒体账号，social维持空。"
+    "notes": "phase4深度丰富；暂无独立中文维基百科条目。 | 2026-09-07修复：就任事实更新——恒生大学官网管理层页（2026年9月现行版本）确认其现为校长（President），教务长已由他人署任，故current_positions更新为校长、常务副校长（学术及研究）职务移入work_experience（2024-06至2026-08）；委任公布日期由原档「2025年3月」纠正为2026年3月5日（RTHK原文核实，任期五年）；据RTHK补香港教育大学副校长履历（org_id经索引核为HK-ACAD-003）；补两项major_achievements；填入Wikidata Q83743752（雇主含恒生大学及岭南大学，身份吻合）；person_relationships何顺文关系更新为colleague（前任/继任）；bio更新就任事实。经查证无个人官方社交媒体账号，social_accounts保持为空；恒大官网无公开个人头像直链，avatar维持留空。"
   }
 }

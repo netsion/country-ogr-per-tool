@@ -14,27 +14,9 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "副主席",
-      "organization": "香港生产力促进局 (Hong Kong Productivity Council)",
-      "org_id": "HK-GOV-019",
-      "start_date": "2025-01-01",
-      "end_date": null
-    },
-    {
-      "title": "主席",
-      "organization": "中小型企业管理委员会 (Small and Medium Enterprises Committee)",
-      "org_id": null,
-      "start_date": "2025-01-01",
-      "end_date": null
-    },
-    {
-      "title": "董事及总经理",
-      "organization": "启东电线电缆 (Kai Dong Wire & Cable)",
-      "org_id": null,
-      "start_date": null,
-      "end_date": null
-    }
+    "香港生产力促进局副主席",
+    "中小型企业管理委员会主席",
+    "启东电线电缆董事及总经理"
   ],
   "education": [],
   "work_experience": [
@@ -43,7 +25,6 @@
       "org_id": null,
       "start_date": null,
       "end_date": null,
-      "description": "商界人士，任启东电线电缆董事及总经理",
       "position": "董事及总经理"
     },
     {
@@ -51,7 +32,6 @@
       "org_id": "HK-GOV-019",
       "start_date": "2025-01-01",
       "end_date": null,
-      "description": "2024年12月20日政府宣布再度委任为生产力局副主席，任期由2025年1月1日起；2026年7月政府公布的最新理事会名单中续任副主席",
       "position": "副主席"
     },
     {
@@ -59,7 +39,6 @@
       "org_id": null,
       "start_date": "2025-01-01",
       "end_date": null,
-      "description": "2024年12月27日政府宣布新一届中小型企业管理委员会由于健安出任主席",
       "position": "主席"
     },
     {
@@ -67,18 +46,10 @@
       "org_id": null,
       "start_date": null,
       "end_date": null,
-      "description": "2016年前后以香港总商会代表身份出任劳工顾问委员会雇主代表",
       "position": "委员（代表香港总商会）"
     }
   ],
-  "person_relationships": [
-    {
-      "related_org": "香港总商会",
-      "org_id": null,
-      "relation": "曾任代表（劳工顾问委员会）",
-      "person_name": "于健安"
-    }
-  ],
+  "person_relationships": [],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
@@ -86,15 +57,15 @@
     {
       "date": null,
       "achievement": "获颁铜紫荆星章（BBS）",
-      "organization": null
+      "organization": "香港特别行政区政府 (HKSAR Government)"
     },
     {
       "date": null,
       "achievement": "获委任为太平绅士（JP）",
-      "organization": null
+      "organization": "香港特别行政区政府 (HKSAR Government)"
     }
   ],
-  "biography_summary": "于健安 (BBS, JP)，香港商界人士，启东电线电缆董事及总经理。现任香港生产力促进局副主席（2025年1月1日起再度获委任，2026年续任），并出任特区政府中小型企业管理委员会主席。曾以香港总商会代表身份参与劳工顾问委员会工作。任内推动生产力局与内地城市在科技创新、新质生产力等方向的交流合作。",
+  "biography_summary": "于健安 (BBS, JP)，香港商界人士，启东电线电缆董事及总经理。现任香港生产力促进局副主席：2024年12月20日政府宣布再度委任，任期由2025年1月1日起，2026年7月政府公布的最新理事会名单中续任；并出任特区政府中小型企业管理委员会主席（2024年12月27日政府宣布委任）。曾以香港总商会代表身份出任劳工顾问委员会雇主代表。获颁铜紫荆星章（BBS）及委任为太平绅士（JP）。任内推动生产力局与内地城市在科技创新、新质生产力等方向的交流合作。",
   "profile": {
     "honors": [
       "铜紫荆星章（BBS）",
@@ -102,7 +73,7 @@
     ]
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -123,7 +94,7 @@
       "https://www.info.gov.hk/gia/general/202607/24/P2026072300491.htm",
       "https://www.info.gov.hk/gia/general/202412/27/P2024122700157p.htm"
     ],
-    "completeness_score": 38,
-    "notes": "教育背景及出生日期无权威公开来源，留空。公司职务（启东电线电缆）来源为公开百科类条目，仅有单一可靠来源，已在 description 中客观记录，供后续核实。"
+    "completeness_score": 41,
+    "notes": "2026-09-07复核：current_positions由对象数组规范化为纯中文字符串；work_experience移除规范外字段description，相关事实并入biography_summary；major_achievements补充organization。删除原person_relationships中指向HK-PERSON-000071的条目——该ID为于健安合并前旧ID（id_registry有登记但无档案文件、不在_name_index），属同一人的自引用，予以清除。教育背景、出生日期、BBS/JP获颁年份及社交账号经查证无更多公开资料（HKPC官网有WAF拦截，各搜索引擎均不可用），留空。公司职务（启东电线电缆）来源为公开百科类条目，仅有单一可靠来源，供后续核实。"
   }
 }

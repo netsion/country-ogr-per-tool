@@ -120,53 +120,68 @@
       "title": "2025年全年业绩超预期，利润增长17%",
       "date": "2026-02-25",
       "description": "汇丰公布2025年业绩，第四季度每股盈利1.60美元超预期，全年收入第四季达177亿美元；全年业绩带动奖金池增加10%至39.3亿美元，创至少十年新高。",
-      "impact": "印证艾桥智重组战略成效，股价上扬"
+      "impact": "印证艾桥智重组战略成效，股价上扬",
+      "source": "https://www.hsbc.com/news-and-views/news/media-releases/2026/hsbc-holdings-plc-annual-results-2025"
     },
     {
       "title": "委任布兰登·尼尔森为集团主席",
       "date": "2025-12-03",
       "description": "汇丰董事会委任临时主席、前毕马威合伙人布兰登·尼尔森为集团主席，接替已转任友邦保险主席的杜嘉祺，结束历时约一年的主席遴选程序，恢复从董事会内部任命主席的惯例。",
-      "impact": "领导层不确定性消除，尼尔森与行政总裁艾桥智继续推进成本削减与重组战略。"
+      "impact": "领导层不确定性消除，尼尔森与行政总裁艾桥智继续推进成本削减与重组战略。",
+      "source": "https://www.hsbc.com/news-and-views/news/hsbc-news-archive/brendan-nelson-appointed-as-group-chair"
     },
     {
       "title": "香港商业地产拨备增至7亿美元",
       "date": "2026-02-25",
       "description": "2025年汇丰就香港商业房地产行业的相关拨备为7亿美元（2024年为1亿美元），反映新增违责风险及非住宅物业供应过剩压力。",
-      "impact": "反映香港商业地产市道下行对银行资产质量的影响"
+      "impact": "反映香港商业地产市道下行对银行资产质量的影响",
+      "source": "https://www.hsbc.com/news-and-views/news/media-releases/2026/hsbc-holdings-plc-annual-results-2025"
     },
     {
       "title": "获发香港稳定币发行人牌照",
       "date": "2026-01-01",
       "description": "金管局批出首批稳定币发行人牌照，汇丰为首批两家获发牌机构之一，计划下半年推出服务，应用于个人转账及支付。",
-      "impact": "使汇丰成为首批进入香港受监管稳定币市场的银行"
+      "impact": "使汇丰成为首批进入香港受监管稳定币市场的银行",
+      "source": "https://www.about.hsbc.com.hk/zh-hk/news-and-media/hsbc-welcomes-hkmas-grant-of-a-hong-kong-stablecoin-issuer-licence"
     },
     {
       "title": "2026年中期业绩：税前利润增23%，恢复10亿美元回购",
       "date": "2026-08-04",
       "description": "2026年上半年除税前利润195.22亿美元，同比增长23%；收入377亿美元，增11%；第二次股息每股0.1美元，并拟启动最多10亿美元股份回购，预计第三季业绩公布前完成；单计第二季税前利润101.5亿美元，按年升60%，胜预期。",
-      "impact": "重组成效持续释放，亚洲战略聚焦下盈利与股东回报双升。"
+      "impact": "重组成效持续释放，亚洲战略聚焦下盈利与股东回报双升。",
+      "source": "https://finance.sina.com.cn/stock/bxjj/2026-08-04/doc-inimcpir5389687.shtml"
     }
   ],
   "related_entities": [
     {
       "org_name": "香港上海汇丰银行有限公司 (The Hongkong and Shanghai Banking Corporation)",
-      "org_description": "汇丰控股旗下主要营运实体，香港三大发钞银行之一，集团最大利润来源"
+      "org_description": "汇丰控股旗下主要营运实体，香港三大发钞银行之一，集团最大利润来源",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "恒生银行 (Hang Seng Bank)",
-      "org_description": "汇丰控股持股约62%的香港上市银行子公司"
+      "org_description": "汇丰控股持股约62%的香港上市银行子公司",
+      "org_id": "HK-FIN-006",
+      "relationship_type": "subsidiary"
     },
     {
       "org_name": "汇丰保险 (HSBC Insurance)",
-      "org_description": "集团旗下保险业务板块"
+      "org_description": "集团旗下保险业务板块",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港金融管理局 (HKMA)",
-      "org_description": "汇丰香港的主要监管机构，并委任其为流动资金提供者及发钞行，2026年初向其批出首批稳定币发行人牌照"
+      "org_description": "汇丰香港的主要监管机构，并委任其为流动资金提供者及发钞行，2026年初向其批出首批稳定币发行人牌照",
+      "org_id": "HK-FIN-001",
+      "relationship_type": "regulator"
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "汇丰控股于香港联交所上市（股份代号00005），为恒生指数成份股"
+      "org_description": "汇丰控股于香港联交所上市（股份代号00005），为恒生指数成份股",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     }
   ],
   "core_business": "汇丰控股有限公司是汇丰集团的控股公司，总部设于英国伦敦，为规模最大的欧系银行。汇控1991年正式成立，但旗下香港上海汇丰银行始创于1865年，已有超过160年历史，香港为其最大的利润来源市场。汇丰是全球规模最大的银行及金融服务机构之一，业务网络遍及欧洲、香港、亚太、中东、北美洲和拉丁美洲的64个国家和地区，设有约4000个办事处，服务客户超过五千万名。集团主营零售银行及财富管理、工商金融、环球银行及资本市场、环球私人银行等业务，2025年起重组为香港及内地、企业及机构银行、国际财富及卓越理财等新分部。2024年起艾桥智出任行政总裁，推动集团数十年来最大规模重组并削减成本（目标2026年底前节省15亿美元），2025年全年利润增长17%，2026年上半年税前利润再增23%至195亿美元，并持续以股息及股份回购回馈股东。",
@@ -207,7 +222,5 @@
       }
     ],
     "notes": "Phase3二次丰富：新增集团主席尼尔森、2026年中期业绩及10亿美元回购、监察委员会架构、HKEX关联实体，内容统一为简体中文。"
-  },
-  "description": "英国跨国金融服务控股公司",
-  "brief": "欧洲最大银行，香港为最大利润来源市场"
+  }
 }

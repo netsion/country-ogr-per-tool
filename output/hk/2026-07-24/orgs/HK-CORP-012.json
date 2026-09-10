@@ -59,7 +59,7 @@
   ],
   "key_people": [
     {
-      "person_id": "HK-PERSON-001168",
+      "person_id": "HK-PERSON-001135",
       "name": "许汉卿 (Susanna Hui Hon-hing)",
       "name_en": "Susanna Hui Hon-hing",
       "title": "集团董事总经理",
@@ -68,7 +68,7 @@
     },
     {
       "person_id": "HK-PERSON-001169",
-      "name": "潘志贤 (Patrick Poon)",
+      "name": "潘智豪 (Patrick Poon)",
       "name_en": "Patrick Poon",
       "title": "财务总裁",
       "title_description": "负责集团财务及投资者关系",
@@ -103,40 +103,57 @@
   ],
   "recent_events": [
     {
+      "date": "2026-07-17",
+      "title": "推出全港首创超低时延3.2Tbps AI数据中心互联Superhighway",
+      "description": "香港电讯宣布推出超低时延3.2Tbps人工智能数据中心互联（DCI）Superhighway，于落马洲河套区至将军澳的先进空芯光纤上运行，时延较传统光纤低约三成，首阶段目标2026年底前完成，并将支援兆瓦级沙岭数据园区，让AI基础设施供应商、企业及大学等机构跨数据中心高速调度算力。",
+      "impact": "巩固集团在香港AI基建及数据中心互联领域的领导地位，支援北部都会区创科发展",
+      "source": "https://www.hkt-enterprise.com/tc/news-events/news/32tbps-ai-data-centre-inter-connect-superhighway"
+    },
+    {
       "date": "2026-07-30",
       "title": "公布2026年稳健中期业绩，加快AI应用布局",
       "description": "香港电讯公布2026年中期业绩，盈利同比增长4%，中期分派每股34.8港仙；5G后付客户占整体后付客户基础62%。集团董事总经理许汉卿表示，随着AI时代来临，集团过去六个月已加快将AI应用于网络及客户服务，并聚焦数据中心及跨境连接机遇。",
-      "impact": "AI与数据中心成为集团新增长引擎，业务在本地电讯市场竞争加剧下保持稳健"
+      "impact": "AI与数据中心成为集团新增长引擎，业务在本地电讯市场竞争加剧下保持稳健",
+      "source": "https://www.hkt.com/about-hkt/press-release/hkt-reports-solid-interim-results-for-2026/"
     },
     {
       "date": "2026-02-09",
       "title": "公布2025年全年稳健业绩",
       "description": "香港电讯宣布截至2025年12月31日止年度盈利同比增长4%，末期分派每股47.97港仙，全年合共分派81.77港仙，约相当于7%股息率；5G客户数增长20%，企业业务收益增长8%。",
-      "impact": "巩固其作为香港科技、媒体及电讯领导者的市场地位，维持高派息政策回馈信托持有人"
+      "impact": "巩固其作为香港科技、媒体及电讯领导者的市场地位，维持高派息政策回馈信托持有人",
+      "source": "https://www.pccw.com/assets/Common/files/press-release/2026/Feb/Press%20release_HKT%20annual%20results%202025_CN.pdf"
     },
     {
       "date": "2025-07-31",
       "title": "2025年中期业绩稳健",
       "description": "集团董事总经理许汉卿表示，尽管香港短期存在挑战，资本市场气氛改善及大型活动带动旅游业复苏带来正面因素。",
-      "impact": "显示集团业务在本地消费市道波动下保持韧性。"
+      "impact": "显示集团业务在本地消费市道波动下保持韧性。",
+      "source": "https://www.am730.com.hk/article/584993"
     }
   ],
   "related_entities": [
     {
       "org_name": "电讯盈科 (PCCW)",
-      "org_description": "香港电讯的控股公司，香港电讯信托由电讯盈科主导"
+      "org_description": "香港电讯的控股公司，香港电讯信托由电讯盈科主导",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "香港电讯信托 (HKT Trust)",
-      "org_description": "以信托及股份合订单位形式于联交所上市（6823.HK）"
+      "org_description": "以信托及股份合订单位形式于联交所上市（6823.HK）",
+      "relationship_type": "subsidiary",
+      "org_id": "HK-CORP-012"
     },
     {
       "org_name": "香港交易及结算所有限公司 (HKEX)",
-      "org_description": "香港电讯信托与香港电讯上市地（股份代号6823）"
+      "org_description": "香港电讯信托与香港电讯上市地（股份代号6823）",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     },
     {
       "org_name": "中国移动香港 (China Mobile Hong Kong)",
-      "org_description": "香港流动电讯市场主要竞争对手之一，其入主香港宽频并推出具竞争力的5G套餐，加剧市场竞争，集团管理层公开回应表示对竞争从不怠慢"
+      "org_description": "香港流动电讯市场主要竞争对手之一，其入主香港宽频并推出具竞争力的5G套餐，加剧市场竞争，集团管理层公开回应表示对竞争从不怠慢",
+      "org_id": null
     }
   ],
   "core_business": "香港电讯（HKT，6823.HK）是香港领先的综合电讯服务供应商，历史可追溯逾150年，现以香港电讯信托及香港电讯有限公司的合订证券形式上市，控股股东为电讯盈科。集团透过固网、宽频、流动通讯及媒体娱乐网络提供独特的「四网合一」服务，业务涵盖本地电话、本地数据及宽频、国际电讯、真5G流动通讯、媒体娱乐、企业方案，以及客户器材销售、外判服务、顾问服务及客户联络中心等。集团亦是香港市场领先的企业数码转型伙伴，运营大型数据中心，支援云端及AI平台供应商在港及海外（尤其东盟及拉美）扩展，并加快将AI应用于网络与客户服务，布局河套区及跨境连接，致力推动香港智慧城市发展。",
@@ -145,7 +162,7 @@
     "information_technology",
     "media_publishing"
   ],
-  "apec_stance": "香港电讯作为亚太区主要电讯及数码基建运营商，服务香港本地及跨国企业客户，其数据中心与连结能力支援云端及AI企业拓展东盟等APEC市场，促进区内数码互联互通。",
+  "apec_stance": "香港电讯作为亚太区主要电讯及数码基建运营商，服务香港本地、大湾区及跨国企业客户，其数据中心与连结能力支援云端及AI企业拓展东盟等APEC市场，促进区内数码互联互通。集团正构建覆盖落马洲至将军澳的超低时延3.2Tbps AI数据中心互联网络，并布局河套深港科技创新合作区及跨境连接，配合香港作为APEC成员经济体数码枢纽的角色，支援区内算力调度与企业数码转型需求。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PCCW_Tower.jpg/330px-PCCW_Tower.jpg",
     "local_path": null
@@ -159,7 +176,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 81,
+    "completeness_score": 88,
     "quotes": [
       {
         "title": "香港电讯2026年录得稳健中期业绩（HKT官网新闻稿）",
@@ -180,10 +197,12 @@
       {
         "title": "香港电讯许汉卿：中移动是强劲的市场对手集团对此从不怠慢（雅虎财经）",
         "url": "https://hk.finance.yahoo.com/news/%E9%A6%99%E6%B8%AF%E9%9B%BB%E8%A8%8A%E8%A8%B1%E6%BC%A2%E5%8D%BF-%E4%B8%AD%E7%A7%BB%E5%8B%95%E6%98%AF%E5%BC%B7%E5%8B%81%E7%9A%84%E5%B8%82%E5%A0%B4%E5%B0%8D%E6%89%8B-%E9%9B%86%E5%9C%98%E5%B0%8D%E6%AD%A4%E5%BE%9E%E4%B8%8D%E6%80%A0%E6%85%A2-100849885.html"
+      },
+      {
+        "title": "香港电讯将推出超低时延3.2Tbps AI数据中心互联Superhighway（HKT Enterprise Solutions新闻稿）",
+        "url": "https://www.hkt-enterprise.com/tc/news-events/news/32tbps-ai-data-centre-inter-connect-superhighway"
       }
     ],
-    "notes": "P3二次丰富：新增2026年中期业绩（AI应用/5G后付62%）、2025年全年分派与5G增长数据、市场竞争格局（中移香港）、核心业务补AI与河套布局"
-  },
-  "description": "香港领先的综合电讯商，四网合一服务，电讯盈科控股（6823.HK）",
-  "brief": "香港领先电讯及数码服务供应商（6823.HK），电讯盈科控股"
+    "notes": "P3二次丰富：新增2026年中期业绩（AI应用/5G后付62%）、2025年全年分派与5G增长数据、市场竞争格局（中移香港）、核心业务补AI与河套布局；B4批注：补入2026年7月17日AI数据中心互联Superhighway新闻稿，并将apec_stance扩写至100字以上（原78字按半权计分）"
+  }
 }

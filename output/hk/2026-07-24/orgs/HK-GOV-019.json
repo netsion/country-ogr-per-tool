@@ -66,7 +66,7 @@
     },
     {
       "person_id": "HK-PERSON-000623",
-      "name": "毕坚文 (Mohamed Butt)",
+      "name": "畢堅文 (Mohamed D. Butt)",
       "title": "总裁",
       "title_description": "生产力局行政总裁，负责机构日常运营与技术支援服务",
       "description": "香港生产力促进局总裁，领导机构为业界提供先进技术、智能制造及绿色科技支援，并代表生产力局参与内地及国际合作项目。"
@@ -135,9 +135,10 @@
     },
     {
       "title": "行政长官到访生产力局",
-      "date": "2025-10-08",
+      "date": "2024-10-08",
       "description": "行政长官于10月8日到访生产力局，了解新质生产力展区及新兴与未来产业发展支援工作，生产力局表示将全力配合特区政府对接国家战略，推动新质生产力及新型工业化。",
-      "impact": "体现特区政府对生产力局在新型工业化中角色的重视"
+      "impact": "体现特区政府对生产力局在新型工业化中角色的重视",
+      "source": "https://huacheng.gz-cmc.com/pages/2024/10/10/566d1dff812c4952ae6781dcbf1ba667.html"
     },
     {
       "title": "陈祖恒获再度委任为主席",
@@ -149,23 +150,33 @@
   "related_entities": [
     {
       "org_name": "创新科技及工业局 (ITIB)",
-      "org_description": "生产力局的主管政策局"
+      "org_description": "生产力局的主管政策局",
+      "org_id": "HK-GOV-025",
+      "relationship_type": "parent_org"
     },
     {
       "org_name": "香港科技园公司 (HKSTP)",
-      "org_description": "香港创科生态伙伴机构，与生产力局互补服务创科企业"
+      "org_description": "香港创科生态伙伴机构，与生产力局互补服务创科企业",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "中国生产力促进中心网络",
-      "org_description": "与内地生产力机构的合作网络"
+      "org_description": "与内地生产力机构的合作网络",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "香港特区政府 (HKSAR Government)",
-      "org_description": "生产力局由香港特别行政区政府设立，理事会成员由行政长官委任，承担多项政府资助计划的管理工作"
+      "org_description": "生产力局由香港特别行政区政府设立，理事会成员由行政长官委任，承担多项政府资助计划的管理工作",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "香港职业训练局 (VTC)",
-      "org_description": "与生产力局在应用人才培育及理事会层面有协作关系的法定培训机构"
+      "org_description": "与生产力局在应用人才培育及理事会层面有协作关系的法定培训机构",
+      "relationship_type": "partner",
+      "org_id": null
     }
   ],
   "core_business": "香港生产力促进局（生产力局）是香港的工商业支援机构，于1967年依据第1116章《香港生产力促进局条例》成立的法定机构。生产力局致力于为香港企业提供多元化的技术支援服务，涵盖智能制造、工业4.0、人工智能与机械人、绿色科技与新能源、数码转型、检测认证及知识产权等专业领域，协助企业（尤其中小企业）提升生产力并实现新型工业化。生产力局营运多个技术中心和实验室，管理政府多项中小企业资助计划，并积极参与大湾区合作，在内地设有办事处支援港商升级转型，近年更设立「The Cradle出海服务中心」助力企业拓展国际市场。近年机构全力配合特区政府推动新质生产力发展及香港成为国际创科中心与全球AI枢纽的政策方向。现任主席为陈祖恒，副主席为于健安，总裁为毕坚文。",
@@ -207,7 +218,5 @@
       }
     ],
     "notes": "P3二次丰富：补全副主席于健安及首席总监层、新届理事会、CE到访事件、出海服务中心；陈祖恒英文名按官方Sunny Tan更正。"
-  },
-  "description": "香港工商业支援机构，法定机构",
-  "brief": "1967年成立的法定机构，支援企业提升生产力与新型工业化"
+  }
 }

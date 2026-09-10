@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001392",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q5194859",
   "name": "陶君行",
   "name_zh": "陶君行",
   "name_en": "Andrew To Kwan-hang",
@@ -15,23 +15,17 @@
     {
       "institution": "喇沙书院 (La Salle College)",
       "degree": null,
-      "field": null,
-      "year": null,
-      "notes": "中小学阶段就读"
+      "field": null
     },
     {
       "institution": "岭南学院 (Lingnan College)",
-      "degree": "荣誉社会科学学士",
-      "field": "社会科学",
-      "year": null,
-      "notes": "曾任岭南学院学生会会长"
+      "degree": "bachelor",
+      "field": "社会科学"
     },
     {
       "institution": "香港城市大学 (City University of Hong Kong)",
-      "degree": "文学硕士",
-      "field": "公共政策及管理",
-      "year": null,
-      "notes": null
+      "degree": "master",
+      "field": "公共政策及管理"
     }
   ],
   "work_experience": [
@@ -40,7 +34,6 @@
       "org_id": null,
       "start_date": "1991-01-01",
       "end_date": "2011-12-31",
-      "description": "1991年当选时为全港最年轻区议员，连续任职至2011年落败",
       "position": "区议员（竹园北选区）"
     },
     {
@@ -48,7 +41,6 @@
       "org_id": "HK-PARTY-007",
       "start_date": "2006-01-01",
       "end_date": "2010-01-30",
-      "description": "2006年创党成员，历任秘书长、副主席（外务）",
       "position": "秘书长"
     },
     {
@@ -56,7 +48,6 @@
       "org_id": "HK-PARTY-007",
       "start_date": "2010-01-31",
       "end_date": "2011-11-08",
-      "description": "接替黄毓民当选主席，2011年区议会选举落败后辞职",
       "position": "主席"
     },
     {
@@ -64,7 +55,6 @@
       "org_id": null,
       "start_date": "2005-01-01",
       "end_date": null,
-      "description": "2005年筹组领汇监察并获选为主席",
       "position": "主席"
     },
     {
@@ -72,18 +62,21 @@
       "org_id": null,
       "start_date": "1989-01-01",
       "end_date": null,
-      "description": "1989年起担任支联会常委",
       "position": "常委"
     }
   ],
   "person_relationships": [
     {
-      "notes": "孔令瑜为民阵前任召集人",
-      "person_name": "孔令瑜"
+      "person_id": "HK-PERSON-001442",
+      "person_name": "孔令瑜",
+      "relationship_type": null,
+      "description": "孔令瑜为民阵前任召集人"
     },
     {
-      "notes": "同为社会民主连线成员（HK-PERSON-001391）",
-      "person_name": "梁国雄"
+      "person_id": "HK-PERSON-001443",
+      "person_name": "梁国雄",
+      "relationship_type": null,
+      "description": "同为社会民主连线成员（HK-PERSON-001391）"
     }
   ],
   "social_accounts": [],
@@ -117,7 +110,7 @@
     "notes": "高敏感政治人物，按内容安全约束仅记录基础履历事实（出生、职业、任期、政党职务），司法记录以一句客观表述写入biography_summary，不展开案件细节。数据来源限于中文维基百科与立法会官方资料库。政党沿革（港同盟/民主党/前线/社民连）仅作客观履历记录。"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -134,6 +127,7 @@
       "立法会官方资料库",
       "组织档案HK-PARTY-007"
     ],
-    "completeness_score": 63
+    "completeness_score": 64,
+    "notes": "2026-09-07 主会话字段规范化：移除规则外字段、degree 枚举化。"
   }
 }

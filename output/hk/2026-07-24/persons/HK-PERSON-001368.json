@@ -14,14 +14,7 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "义务司库及财务委员会主席 (Hon Treasurer & Chairman of Finance Committee)",
-      "organization": "香港红十字会 (Hong Kong Red Cross)",
-      "org_id": "HK-NGO-002",
-      "start_date": null,
-      "end_date": null,
-      "source": "redcross.org.hk"
-    }
+    "香港红十字会义务司库"
   ],
   "education": [],
   "work_experience": [
@@ -31,15 +24,15 @@
       "org_id": "HK-NGO-002",
       "start_date": null,
       "end_date": "2025",
-      "description": "曾任香港红十字会副主席，期间兼任红十字会70周年筹备委员会成员，并多次出席香港人道年奖颁奖典礼、长者服务等活动并致辞。2025年起转任义务司库及财务委员会主席。"
+      "description": "曾任香港红十字会副主席，期间兼任红十字会70周年筹备委员会成员，并多次出席香港人道年奖颁奖典礼、长者服务等活动并致辞。2025年起转任义务司库。"
     },
     {
-      "position": "义务司库及财务委员会主席",
+      "position": "义务司库",
       "organization": "香港红十字会 (Hong Kong Red Cross)",
       "org_id": "HK-NGO-002",
       "start_date": "2025",
       "end_date": null,
-      "description": "现任香港红十字会董事会义务司库及财务委员会主席（官网董事会名单及2025年周年大会新闻稿均予确认），并担任75周年庆典筹备委员会成员。"
+      "description": "现任香港红十字会董事会义务司库（官网董事会名单2026年9月读取确认）。据该会2025年周年大会新闻稿，并兼任财务委员会主席，为75周年庆典筹备委员会成员。"
     },
     {
       "position": "国际及赈灾服务管理委员会义务司库",
@@ -52,16 +45,16 @@
   ],
   "person_relationships": [
     {
-      "related_person_id": null,
+      "person_id": "HK-PERSON-000090",
       "person_name": "袁汉荣",
-      "relationship": "同任香港红十字会董事会（曾韵雯任副主席/义务司库期间，袁汉荣任副主席）",
-      "source": "redcross.org.hk"
+      "relationship_type": "colleague",
+      "description": "曾韵雯任副主席/义务司库期间，袁汉荣任（副）主席（来源：redcross.org.hk董事会名单）"
     },
     {
-      "related_person_id": null,
+      "person_id": "HK-PERSON-000826",
       "person_name": "刘楚钊",
-      "relationship": "香港红十字会董事会同仁（刘楚钊为主席）",
-      "source": "redcross.org.hk"
+      "relationship_type": "colleague",
+      "description": "刘楚钊为红十字会主席，曾韵雯任义务司库（来源：redcross.org.hk董事会名单）"
     }
   ],
   "social_accounts": [],
@@ -74,7 +67,7 @@
       "organization": "香港红十字会 (Hong Kong Red Cross)"
     }
   ],
-  "biography_summary": "曾韵雯 (Ms Wendy W M Tsang)，香港红十字会资深义务领袖，长年参与董事会及各委员会工作。曾任香港红十字会副主席（兼70周年筹备委员会成员）、国际及赈灾服务管理委员会义务司库，2025年起出任董事会义务司库及财务委员会主席，并为EmpowerHer Network荣誉创始成员，推动女性赋能与人道服务工作。",
+  "biography_summary": "曾韵雯 (Ms Wendy W M Tsang)，香港红十字会资深义务领袖，长年参与董事会及各委员会工作。曾任香港红十字会副主席（兼70周年筹备委员会成员）、国际及赈灾服务管理委员会义务司库，2025年起出任董事会义务司库（据2025年周年大会新闻稿兼任财务委员会主席），现为75周年庆典筹备委员会成员，并为EmpowerHer Network荣誉创始成员，推动女性赋能与人道服务工作。",
   "profile": {
     "fields_of_work": [
       "人道服务",
@@ -85,11 +78,11 @@
     "region": "香港特别行政区"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
-        "title": "香港红十字会 - 赞助人、董事会及顾问团成员名单",
+        "title": "香港红十字会 - 赞助人、董事会及顾问团成员名单（2026年9月读取，载曾韵雯任义务司库）",
         "url": "https://www.redcross.org.hk/tc/patronsandcouncilmembers.html"
       },
       {
@@ -107,6 +100,6 @@
       "hk01.com"
     ],
     "completeness_score": 35,
-    "notes": "红十字会职务由官网董事会名单及多份官方新闻稿交叉核实。批次信息称「副主席」，经核实该职务为曾任（2021-2025年间多份新闻稿确认），现任义务司库及财务委员会主席，已按最新官方信息建档。出生日期、学历、家庭信息均无公开来源，留空。"
+    "notes": "本次再核实：红十字会官网董事会名单（2026-09读取）确认其现任义务司库，原current_positions对象数组按规范改为纯中文字符串（取官网名单可核实的「义务司库」），「财务委员会主席」表述保留于work_experience描述（源自2025年周年大会新闻稿）；relationship_type由other改为colleague。出生日期、学历、家庭信息及个人社交账号经查证（红十字会官网及搜索引擎）无公开资料，留空。"
   }
 }

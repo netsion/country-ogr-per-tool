@@ -27,7 +27,7 @@
       "start_date": null,
       "end_date": "1970",
       "institution": "佛教黄凤翎中学",
-      "degree": "secondary",
+      "degree": null,
       "field": null
     },
     {
@@ -71,14 +71,14 @@
       "start_date": "1998-07-01",
       "end_date": "2000-06-30",
       "organization": "香港特别行政区立法会 (Legislative Council of the HKSAR)",
-      "org_id": "HK-GOV-027",
+      "org_id": null,
       "position": "立法会议员（新界东地方选区）"
     },
     {
       "start_date": "2000-10-01",
       "end_date": "2004-09-30",
       "organization": "香港特别行政区立法会 (Legislative Council of the HKSAR)",
-      "org_id": "HK-GOV-027",
+      "org_id": null,
       "position": "立法会议员（香港岛地方选区）"
     },
     {
@@ -99,7 +99,7 @@
       "start_date": "2008-10-01",
       "end_date": "2016-09-30",
       "organization": "香港特别行政区立法会 (Legislative Council of the HKSAR)",
-      "org_id": "HK-GOV-027",
+      "org_id": null,
       "position": "立法会议员（香港岛地方选区），曾任教育事务委员会主席、环境事务委员会副主席"
     },
     {
@@ -119,25 +119,25 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000098",
       "person_name": "刘慧卿 (Emily Lau)",
       "relationship_type": "associate",
       "description": "1991年起任其助选团义工，1996年共同创立论政团体前线，1998年与刘慧卿同名单当选立法会议员"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000215",
       "person_name": "李卓人 (Lee Cheuk-yan)",
       "relationship_type": "colleague",
       "description": "2011年共同创立工党并分别出任正副主席"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000099",
       "person_name": "吴霭仪 (Margaret Ng)",
       "relationship_type": "associate",
       "description": "1995年至1997年担任其立法局议员助理"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000100",
       "person_name": "张超雄 (Fernando Cheung)",
       "relationship_type": "colleague",
       "description": "工党创党同僚，共同于2011年12月创立工党"
@@ -193,7 +193,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -215,6 +215,6 @@
         "url": "https://www.legco.gov.hk/general/chinese/cmi/yr12-16/hsl.htm"
       }
     ],
-    "notes": "按内容安全约束仅记录基础事实（出生、教育、履历、议会任期）；涉司法内容仅一句客观交代时间与结果。无个人官方社交媒体账号可查证，social_accounts留空；香港人权监察主席任期止于何年公开资料不详，end_date留null。"
+    "notes": "按内容安全约束仅记录基础事实（出生、教育、履历、议会任期）；涉司法内容仅一句客观交代时间与结果。无个人官方社交媒体账号可查证，social_accounts留空；香港人权监察主席任期止于何年公开资料不详，end_date留null。；2026-09-07 主会话字段规范化：edu.degree->None。"
   }
 }

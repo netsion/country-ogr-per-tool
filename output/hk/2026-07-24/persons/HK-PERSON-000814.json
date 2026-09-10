@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-000814",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q19850061",
   "name": "郭英成",
   "name_zh": "郭英成",
   "name_en": "Kwok Ying Shing",
@@ -9,7 +9,7 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1964-01-01",
+  "birth_date": null,
   "birth_place": "广东省普宁市",
   "contacts": [],
   "current_positions": [
@@ -22,9 +22,9 @@
     {
       "start_date": null,
       "end_date": null,
-      "institution": "同济大学",
-      "degree": null,
-      "field": "工商管理"
+      "institution": "同济大学 (Tongji University)",
+      "degree": "master",
+      "field": "工商管理（EMBA）"
     }
   ],
   "work_experience": [
@@ -46,13 +46,13 @@
       "start_date": null,
       "end_date": null,
       "organization": "星岛新闻集团 (Sing Tao News Corporation)",
-      "org_id": "HK-MEDIA-007",
+      "org_id": null,
       "position": "董事会联席主席（与蔡加赞共同担任），主要股东之一"
     }
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001358",
       "person_name": "蔡加赞 (Karson Choi)",
       "relationship_type": "associate",
       "description": "共同担任星岛新闻集团董事会联席主席"
@@ -109,12 +109,13 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "web_search",
-      "official_website"
+      "official_website",
+      "wikidata"
     ],
     "completeness_score": 51,
     "quotes": [
@@ -131,6 +132,6 @@
         "url": "https://www.singtaonewscorp.com/tc/about-other.html"
       }
     ],
-    "notes": "出生年份1964及普宁籍贯据百度百科；佳兆业近年债务重组情况为公开报道事实；无Wikidata QID、无公开头像直链"
+    "notes": "出生年份1964及普宁籍贯据百度百科，仅知年份，birth_date虚构的月日精度已移除置null；2026-09-07复核：补Wikidata Q19850061（label郭英成，P69教育经历为同济大学，与百度百科一致），学历学位定为硕士（EMBA）；星岛新闻集团未在组织索引注册（HK-MEDIA-007对应星岛日报），故其org_id置null；未查证到其公开认证个人社交账号；无公开头像直链"
   }
 }

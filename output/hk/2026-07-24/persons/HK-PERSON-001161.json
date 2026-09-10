@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001161",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q113901567",
   "name": "賀以禮",
   "name_zh": "贺以礼",
   "name_en": "Patrick Healy",
@@ -21,11 +21,7 @@
       "source": "https://www.cathaypacific.com/cx/zh_HK/contact-us.html"
     }
   ],
-  "current_positions": [
-    "国泰航空集团主席（2019年11月起，将于2026年5月卸任）",
-    "太古股份有限公司常务董事",
-    "太古可口可乐有限公司主席"
-  ],
+  "current_positions": [],
   "education": [
     {
       "start_date": null,
@@ -38,7 +34,7 @@
   "work_experience": [
     {
       "start_date": "1988",
-      "end_date": null,
+      "end_date": "2026-05-13",
       "organization": "太古集团 (John Swire and Sons / Swire Group)",
       "org_id": "HK-CORP-021",
       "position": "加入英国太古集团有限公司，历任香港太古集团董事、太古股份有限公司常务董事、太古地产董事"
@@ -101,15 +97,20 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
       "news_search",
-      "wikipedia"
+      "wikipedia",
+      "wikidata"
     ],
-    "completeness_score": 52,
+    "completeness_score": 53,
     "quotes": [
+      {
+        "title": "Wikidata Q113901567 Patrick Healy（賀以禮，Hong Kong businessman，2026-09-07检索确认）",
+        "url": "https://www.wikidata.org/wiki/Q113901567"
+      },
       {
         "title": "国泰航空行政管理团队",
         "url": "https://www.cathaypacific.com/cx/sc_CN/about-us/about-our-airline/management-team.html"
@@ -123,6 +124,6 @@
         "url": "https://finance.now.com/news/post.php?id=970713"
       }
     ],
-    "notes": "暂无Wikidata条目；2026年5月已退休，current_positions为空。出生年份参考前瞻眼资料。 2026-08-27补深：按国泰官网管理团队页补current_positions（国泰集团主席等）；补入国泰官方联系方式。"
+    "notes": "2026-09-07核对：①补Wikidata QID Q113901567（labels 賀以禮/Patrick Healy，desc 國泰航空主席，剑桥校友）；②勘误——其已于2026年5月13日退休卸任国泰集团主席及太古职务（由白德利接任），原current_positions仍列在任职务已过时，现清空（截至2026-09-07无查证到的现任公职）；③太古集团工作经历补end_date 2026-05-13；④出生年份1966仅单一来源（前瞻眼），birth_date保持null；⑤无查证到的个人社交媒体。"
   }
 }

@@ -38,7 +38,9 @@
   ],
   "current_positions": [
     "招商局港口控股有限公司董事会副主席、首席执行官兼执行董事",
-    "招商局港口集团股份有限公司党委书记、副董事长、首席执行官"
+    "招商局港口集团股份有限公司副董事长、首席执行官",
+    "上海国际港务（集团）股份有限公司副董事长",
+    "招商局港口集团股份有限公司党委书记"
   ],
   "education": [
     {
@@ -90,7 +92,14 @@
       "end_date": null,
       "organization": "招商局港口集团股份有限公司 (China Merchants Port Group)",
       "org_id": null,
-      "position": "历任副总经理、首席运营官、湛江港（集团）股份有限公司董事长"
+      "position": "历任副总经理、总经理、首席运营官，曾兼任湛江港（集团）股份有限公司董事长，现任副董事长、首席执行官"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "上海国际港务（集团）股份有限公司 (Shanghai International Port (Group) Co., Ltd.)",
+      "org_id": null,
+      "position": "副董事长兼战略委员会委员"
     },
     {
       "start_date": "2022-06",
@@ -136,11 +145,12 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikipedia",
       "official_website",
+      "wikipedia",
+      "baike",
       "news_search"
     ],
     "completeness_score": 63,
@@ -158,6 +168,6 @@
         "url": "https://www.qcc.com/pl/pr19b0b6b534df4c7447b75f0292a93d.html"
       }
     ],
-    "notes": "身份核验无误。补充出生1972年2月及四个学位、大连港/辽宁港/招商局港口完整履历。2026-08-27补：新增招商局港口控股官网公开办公联系方式；无个人公开社交账号，social保持空。"
+    "notes": "身份核验无误。补充出生1972年2月及四个学位、大连港/辽宁港/招商局港口完整履历。2026-08-27补：新增招商局港口控股官网公开办公联系方式；无个人公开社交账号，social保持空。2026-09-07核查：招商局港口控股官网董事会页（现行有效）确认其现任本公司董事会副主席、首席执行官及执行董事，并兼任招商局港口集团股份有限公司副董事长、首席执行官及上海国际港务（集团）股份有限公司副董事长，据此新增上港集团副董事长一职及履历中「总经理」一段；党委书记一职沿用内地工商信息来源。birth_date按官方「1972年2月」年月精度填1972-02-01。上港集团不在_name_index.json中，org_id为null。"
   }
 }

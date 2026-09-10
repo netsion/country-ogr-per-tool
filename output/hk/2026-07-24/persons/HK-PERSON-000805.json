@@ -9,7 +9,7 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1973-01-01",
+  "birth_date": null,
   "birth_place": "",
   "contacts": [
     {
@@ -25,22 +25,25 @@
   ],
   "education": [
     {
-      "institution": "丽泽中学",
-      "degree": "",
-      "field": "",
-      "notes": ""
+      "start_date": null,
+      "end_date": null,
+      "institution": "丽泽中学 (Lai Chack Middle School)",
+      "degree": "high_school",
+      "field": null
     },
     {
+      "start_date": null,
+      "end_date": null,
       "institution": "香港中文大学 (The Chinese University of Hong Kong)",
-      "degree": null,
-      "field": "",
-      "notes": ""
+      "degree": "bachelor",
+      "field": "文学"
     },
     {
+      "start_date": null,
+      "end_date": null,
       "institution": "香港理工大学 (The Hong Kong Polytechnic University)",
-      "degree": null,
-      "field": "工商管理",
-      "notes": ""
+      "degree": "doctorate",
+      "field": "工商管理"
     }
   ],
   "work_experience": [
@@ -87,7 +90,14 @@
       "position": "总编辑（2024年8月19日正式接替退休的郭艳明）"
     }
   ],
-  "person_relationships": [],
+  "person_relationships": [
+    {
+      "person_id": null,
+      "person_name": "郭艷明",
+      "relationship_type": "colleague",
+      "description": "前任《信报》总编辑，2024年8月19日退休，由邓传锵接任"
+    }
+  ],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
@@ -114,7 +124,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "zh_wikipedia",
@@ -123,10 +133,10 @@
       "web_search",
       "official_website"
     ],
-    "completeness_score": 59,
+    "completeness_score": 60,
     "quotes": [
       {
-        "title": "鄧傳鏘 - 維基百科",
+        "title": "鄧傳鏘 - 維基百科（2026-09 直读复核工作经历与社会活动）",
         "url": "https://zh.wikipedia.org/wiki/%E9%84%A7%E5%82%B3%E9%8F%98"
       },
       {
@@ -138,6 +148,6 @@
         "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60285515/"
       }
     ],
-    "notes": "Wikidata Q127427905；头像取自Commons imageinfo 250px直链；补全完整职历、教育、奖项、旅发局成员身份"
+    "notes": "Wikidata Q127427905；头像取自Commons imageinfo 250px直链。2026-09-07复核：zh.wikipedia直读核实工作经历与社会活动与现档一致；education条目按biography既有记载补齐degree枚举（中大bachelor/理工doctorate/丽泽中学high_school），并删除规范外的notes字段及空字符串字段；新增与前总编辑郭艷明的colleague关系（接任事实见橙新闻）。出生仅知1973年，birth_date精度不足改为null。个人社交媒体：查证无官方账号，social_accounts保持为空；信报YouTube节目《老总平常谈》为机构节目而非个人账号。"
   }
 }

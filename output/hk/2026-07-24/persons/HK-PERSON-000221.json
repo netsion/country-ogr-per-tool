@@ -7,7 +7,7 @@
   "aliases": [],
   "nationality": "CN",
   "gender": "male",
-  "birth_date": "1969-10-01",
+  "birth_date": null,
   "birth_place": "中国",
   "contacts": [
     {
@@ -71,7 +71,7 @@
   "person_relationships": [
     {
       "person_id": "HK-PERSON-000222",
-      "person_name": "徐颂 (Xu Song)",
+      "person_name": "徐頌 (Xu Song)",
       "relationship_type": "subordinate",
       "description": "招商局港口控股副董事长兼行政总裁"
     }
@@ -102,14 +102,15 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "official_website",
-      "news_search"
+      "news_search",
+      "wikidata"
     ],
-    "completeness_score": 57,
+    "completeness_score": 56,
     "quotes": [
       {
         "title": "冯波鸣_百度百科",
@@ -124,6 +125,6 @@
         "url": "https://www.sohu.com/a/706213432_265147"
       }
     ],
-    "notes": "身份核验无误（招商局港口董事会主席冯波鸣）。确认出生1969年10月，补充中远海运及招商局完整履历。补深核查：无个人社交媒体；补招商局港口官网董事简介页。"
+    "notes": "身份核验无误（招商局港口董事会主席冯波鸣）。确认出生1969年10月，补充中远海运及招商局完整履历。2026-08-27补：无个人社交媒体；补招商局港口官网董事简介页。2026-09-07核：Wikidata中英文检索均无本人条目，wikidata_qid保持null；出生仅能确认1969年10月（无具体日期），为避免虚构精度将birth_date由1969-10-01改为null；cmport.com.hk官网当日无法访问，现任职务沿用2026-08-27核验结果（招商局港口董事会主席、招商局集团副总经理等）未获新的反证；家庭信息未公开，family保持空。"
   }
 }

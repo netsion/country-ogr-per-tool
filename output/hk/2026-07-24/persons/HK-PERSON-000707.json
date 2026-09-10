@@ -10,7 +10,7 @@
   "nationality": "HK",
   "gender": "male",
   "birth_date": "1969-04-09",
-  "birth_place": "",
+  "birth_place": null,
   "contacts": [
     {
       "type": "other",
@@ -34,80 +34,118 @@
   ],
   "education": [
     {
-      "institution": "龙翔官立中学 / 圣公会圣本德工业中学",
-      "degree": "",
-      "field": "",
-      "notes": "在港完成中学教育"
+      "start_date": null,
+      "end_date": null,
+      "institution": "九龍婦女福利會李炳紀念學校",
+      "degree": "primary",
+      "field": null
     },
     {
-      "institution": "莫纳什大学 (Monash University)",
-      "degree": null,
+      "start_date": null,
+      "end_date": null,
+      "institution": "龍翔官立中學",
+      "degree": "high_school",
+      "field": null
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "聖公會聖本德工業中學",
+      "degree": "high_school",
+      "field": null
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "莫納什大學 (Monash University)",
+      "degree": "bachelor",
       "field": "工商管理"
     },
     {
-      "institution": "香港大学 (The University of Hong Kong)",
-      "degree": null,
+      "start_date": null,
+      "end_date": null,
+      "institution": "香港大學 (The University of Hong Kong)",
+      "degree": "master",
       "field": "公共行政学"
     }
   ],
   "work_experience": [
     {
-      "start_date": "1989",
-      "end_date": null,
-      "organization": "入境事务处 (Immigration Department)",
+      "start_date": "1989-09",
+      "end_date": "2009",
+      "organization": "入境事務處 (Immigration Department)",
       "org_id": "HK-GOV-023",
-      "position": "助理入境事务主任（1989年加入前人民入境事务处）"
+      "position": "助理入境事务主任（1989年9月加入前人民入境事务处，1997年随部门改称入境事务处；1994年晋升入境事务主任，2002年晋升高级入境事务主任）"
     },
     {
       "start_date": "2009",
-      "end_date": null,
-      "organization": "入境事务处",
+      "end_date": "2020",
+      "organization": "入境事務處 (Immigration Department)",
       "org_id": "HK-GOV-023",
       "position": "总入境事务主任（2013年晋升助理首席入境事务主任，2016年晋升首席入境事务主任）"
     },
     {
       "start_date": "2020",
-      "end_date": null,
-      "organization": "入境事务处",
+      "end_date": "2022",
+      "organization": "入境事務處 (Immigration Department)",
       "org_id": "HK-GOV-023",
-      "position": "助理处长，其后晋升副处长"
+      "position": "助理处长"
+    },
+    {
+      "start_date": "2022",
+      "end_date": "2023-09",
+      "organization": "入境事務處 (Immigration Department)",
+      "org_id": "HK-GOV-023",
+      "position": "副处长（管制、签证及证件）"
     },
     {
       "start_date": "2023-09-18",
       "end_date": null,
-      "organization": "入境事务处 (Immigration Department)",
+      "organization": "入境事務處 (Immigration Department)",
       "org_id": "HK-GOV-023",
       "position": "处长（国务院任命，接替退休的区嘉宏；2026年4月9日达退休年龄后获延任至2027年6月30日）"
     }
   ],
-  "person_relationships": [],
+  "person_relationships": [
+    {
+      "person_id": null,
+      "person_name": "區嘉宏",
+      "relationship_type": "other",
+      "description": "前任入境事务处处长；郭俊峯于2023年9月18日接替退休的区嘉宏出任处长"
+    }
+  ],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
     {
       "date": "2023-09-18",
-      "organization": "入境事务处 (Immigration Department)",
+      "organization": "入境事務處 (Immigration Department)",
       "achievement": "获国务院任命出任入境事务处处长，服务部门超过34年，行政长官李家超赞其具备丰富部门运作经验及管理领导才能"
     },
     {
-      "date": "",
-      "organization": "香港特区政府",
-      "achievement": "获颁入境事务长期服务奖章（IDSM）"
+      "date": "2008",
+      "organization": "香港特別行政區政府 (Government of the HKSAR)",
+      "achievement": "获颁香港入境事务长期服务奖章"
+    },
+    {
+      "date": "2023",
+      "organization": "香港特別行政區政府 (Government of the HKSAR)",
+      "achievement": "获颁香港入境事务卓越奖章（IDSM）"
     },
     {
       "date": "2026-04",
-      "organization": "香港特区政府",
+      "organization": "香港特別行政區政府 (Government of the HKSAR)",
       "achievement": "获延任入境事务处处长至2027年6月30日，以便利部门管理层顺利交接"
     }
   ],
-  "biography_summary": "郭俊峰（Benson Kwok Joon-fung），IDSM，1969年4月9日生，香港入境事务处处长、香港特区政府主要官员及维护国家安全委员会成员。他在香港完成中学教育（曾就读龙翔官立中学及圣公会圣本德工业中学）后，负笈澳洲莫纳什大学取得工商管理学士学位，其后于香港大学取得公共行政学硕士学位。1989年他加入前人民入境事務處任助理入境事务主任，服务部门逾三十四年，2009年晋升总入境事务主任，2013年晋升助理首席入境事务主任，2016年晋升首席入境事务主任，2020年晋升助理处长，其后升任副处长，期间曾负责口岸管制、个人证件及智能身份证等业务。2023年9月18日获国务院任命接替区嘉宏出任处长，领导入境事务处负责出入境管制、签发旅行证件、生死婚姻登记及执行人才入境政策等工作；2026年4月9日达到纪律部队首长退休年龄后获延任至2027年6月30日，他表明'有机会都想贡献香港'。他获颁入境事务长期服务奖章。",
+  "biography_summary": "郭俊峰（Benson Kwok Joon-fung），IDSM，1969年4月9日生，香港入境事务处处长、香港特区政府主要官员及维护国家安全委员会成员。他在香港完成中小学教育（小学就读九龙妇女福利会李炳纪念学校，中学就读龙翔官立中学及圣公会圣本德工业中学）后，负笈澳洲莫纳什大学取得工商管理学士学位，其后于香港大学取得公共行政学硕士学位。1989年9月他加入前人民入境事务處任助理入境事务主任，服务部门逾三十四年，1994年晋升入境事务主任，2002年晋升高级入境事务主任，2009年晋升总入境事务主任，2013年晋升助理首席入境事务主任，2016年晋升首席入境事务主任，2020年晋升助理处长，2022年升任副处长（管制、签证及证件），期间曾负责口岸管制、个人证件及智能身份证等业务。2023年9月18日获国务院任命接替区嘉宏出任处长，领导入境事务处负责出入境管制、签发旅行证件、生死婚姻登记及执行人才入境政策等工作；2026年4月9日达到纪律部队首长退休年龄后获延任至2027年6月30日，他表明「有机会都想贡献香港」。他先后获颁入境事务长期服务奖章及入境事务卓越奖章（IDSM）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Benson_Kwok_Immigration_Director_first_day_in_office_%28cropped%29.jpg/250px-Benson_Kwok_Immigration_Director_first_day_in_office_%28cropped%29.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
@@ -116,7 +154,7 @@
       "wikidata",
       "commons"
     ],
-    "completeness_score": 57,
+    "completeness_score": 68,
     "quotes": [
       {
         "title": "入境事務處處長 郭俊峯, IDSM - 香港政府一站通",
@@ -131,6 +169,6 @@
         "url": "https://www.info.gov.hk/gia/general/202604/08/P2026040800408.htm"
       }
     ],
-    "notes": "Wikidata Q122740822；头像取自Wikidata P18经Commons imageinfo 250px直链；补全出生日期、教育背景（莫纳什大学工商管理学士、港大公共行政硕士）、晋升轨迹及延任安排"
+    "notes": "2026-09-07复核：经香港政府一站通名录（覆檢日期2025年5月）确认自2023年起出任处长及1989/2009/2013/2016/2020/2022晋升轨迹（副处长晋升年份以官方名录2022年为准，中文维基记为2021年）。中文维基补全小学（九龙妇女福利会李炳纪念学校）及中学（龙翔官立中学、圣公会圣本德工业中学）经历；education删除规范外notes字段、拆分中学条目并补规范degree枚举（primary/high_school/bachelor/master）。修正原档案奖章误记：IDSM为「香港入境事务卓越奖章」（2023年），非长期服务奖章；并补2008年长期服务奖章。补与前任区嘉宏的交接关系；biography内引号改用「」。出生日期1969-04-09经中文维基与Wikidata一致确认。无个人社交媒体、家庭信息未公开，相关字段保持空。"
   }
 }

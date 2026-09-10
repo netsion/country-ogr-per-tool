@@ -13,99 +13,105 @@
   "gender": "male",
   "birth_date": null,
   "birth_place": null,
-  "contacts": [],
-  "current_positions": [
+  "contacts": [
     {
-      "title": "荣誉学院院长",
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
-      "start_date": "2025-03-31",
-      "end_date": null,
-      "notes": "教大于2025年3月31日宣布成立荣誉学院并出任首任院长",
-      "position": "荣誉学院院长"
+      "type": "phone",
+      "value": "2948 8630",
+      "source": "https://repository.eduhk.hk/en/persons/wai-chin-li/"
     },
     {
-      "title": "副教授",
-      "organization": "香港教育大学科学与环境学系 (Department of Science and Environmental Studies, EdUHK)",
-      "org_id": "HK-ACAD-003",
-      "start_date": null,
-      "end_date": null,
-      "notes": null,
-      "position": "副教授"
-    },
-    {
-      "title": "可持续发展教育文学硕士课程主任",
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
-      "start_date": null,
-      "end_date": null,
-      "notes": null,
-      "position": "可持续发展教育文学硕士课程主任"
+      "type": "email",
+      "value": "waichin@eduhk.hk",
+      "source": "https://repository.eduhk.hk/en/persons/wai-chin-li/"
     }
+  ],
+  "current_positions": [
+    "香港教育大学荣誉学院院长",
+    "香港教育大学科学与环境学系副教授",
+    "香港教育大学可持续发展教育文学硕士课程主任"
   ],
   "education": [
     {
-      "degree": "理学士（应用生物学，主修环境科学）",
       "institution": "香港浸会大学 (Hong Kong Baptist University)",
-      "year": null,
-      "notes": null
+      "degree": "bachelor",
+      "field": "应用生物学（主修环境科学）",
+      "start_date": null,
+      "end_date": null
     },
     {
-      "degree": "哲学博士",
       "institution": "香港浸会大学 (Hong Kong Baptist University)",
-      "year": null,
-      "notes": null
+      "degree": "doctorate",
+      "field": "环境科学",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "香港中文大学 (The Chinese University of Hong Kong)",
+      "degree": "professional",
+      "field": "生物学（教育文凭PGDE）",
+      "start_date": null,
+      "end_date": null
     }
   ],
   "work_experience": [
     {
-      "title": "教员（科学与环境学系）",
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
-      "start_date": "2012-01-01",
-      "end_date": null,
-      "notes": "2012年加入教大，后升任副教授；曾兼任学生宿舍舍监",
-      "position": "教员（科学与环境学系）"
+      "start_date": "2007",
+      "end_date": "2012",
+      "organization": "香港浸会大学持续教育学院国际学院 (College of International Education, Hong Kong Baptist University)",
+      "org_id": "HK-ACAD-007",
+      "position": "讲师兼环境保育研究课程统筹"
     },
     {
-      "title": "荣誉学院院长",
+      "start_date": "2012",
+      "end_date": null,
       "organization": "香港教育大学 (The Education University of Hong Kong)",
       "org_id": "HK-ACAD-003",
+      "position": "科学与环境学系教员（后升任副教授）"
+    },
+    {
       "start_date": "2025-03-31",
       "end_date": null,
-      "notes": "首任荣誉学院院长，学院于2025/26学年成立",
-      "position": "荣誉学院院长"
+      "organization": "香港教育大学 (The Education University of Hong Kong)",
+      "org_id": "HK-ACAD-003",
+      "position": "荣誉学院院长（首任）"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": null,
-      "relationship": "研究合作者",
-      "notes": "共同参与「根特征与水分因数对稻米累积重金属的影响及机理」项目，获2022年度广东省科学技术奖自然科学奖二等奖",
-      "person_name": "黄铭洪"
+      "person_id": "HK-PERSON-000055",
+      "person_name": "黄铭洪 (Wong Ming-hung)",
+      "relationship_type": "other",
+      "description": "共同参与「根特征与水分因数对稻米累积重金属的影响及机理」项目，获2022年度广东省科学技术奖自然科学奖二等奖（研究合作者）"
     }
   ],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "other",
+      "account_name": "ORCID: 0000-0002-3808-6925",
+      "url": "https://orcid.org/0000-0002-3808-6925",
+      "source": "https://repository.eduhk.hk/en/persons/wai-chin-li/"
+    }
+  ],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
     {
-      "date": null,
+      "date": "2023",
       "achievement": "参与「根特征与水分因数对稻米累积重金属的影响及机理」项目，获2022年度广东省科学技术奖自然科学奖二等奖",
-      "organization": "香港教育大学"
+      "organization": "香港教育大学 (The Education University of Hong Kong)"
     },
     {
-      "date": null,
-      "achievement": "出任香港教育大学荣誉学院首任院长（2025年）",
-      "organization": "香港教育大学"
+      "date": "2025",
+      "achievement": "出任香港教育大学荣誉学院首任院长（学院于2025/26学年成立）",
+      "organization": "香港教育大学 (The Education University of Hong Kong)"
     },
     {
-      "date": null,
-      "achievement": "研究领域涵盖土壤微生物学、植物生理学与根系结构、环境毒理学和土壤重金属污染与修复",
-      "organization": "香港教育大学"
+      "date": "2024",
+      "achievement": "获第9届加拿大国际发明及创新比赛银奖及特别奖、硅谷国际发明节银奖",
+      "organization": "香港教育大学 (The Education University of Hong Kong)"
     }
   ],
-  "biography_summary": "李伟展 (Li Wai-chin)，香港教育大学科学与环境学系副教授、荣誉学院首任院长。在香港浸会大学取得应用生物学（主修环境科学）理学士及哲学博士学位，2012年加入教大，专注研究土壤微生物学、植物生理学与根系结构、环境毒理学以及土壤重金属污染与修复，关注环境毒素对食物安全与人类健康的风险。与黄铭洪教授合作的稻米重金属研究项目获2022年度广东省科学技术奖自然科学奖二等奖。兼任可持续发展教育文学硕士课程主任及学生宿舍舍监，2025年3月31日起出任教大荣誉学院首任院长。",
+  "biography_summary": "李伟展 (Li Wai-chin)，香港教育大学科学与环境学系副教授、荣誉学院首任院长。在香港浸会大学取得应用生物学（主修环境科学）理学士及环境科学哲学博士，另持香港中文大学生物学教育文凭（PGDE），2007至2012年任浸大国际学院讲师，2012年加入教大，专注土壤污染与微生物强化植物修复、环境毒理学研究，关注环境毒素对食物安全与人类健康的风险。与黄铭洪教授合作的稻米重金属研究项目获2022年度广东省科学技术奖自然科学奖二等奖。兼任可持续发展教育文学硕士课程主任，2025年3月31日起出任教大荣誉学院首任院长。",
   "profile": {
     "fields_of_expertise": [
       "土壤微生物学",
@@ -117,7 +123,7 @@
     "career_highlights": "2022年度广东省科学技术奖自然科学奖二等奖；教大荣誉学院首任院长"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -125,24 +131,24 @@
         "url": "https://www.eduhk.hk/zht/press-releases/eduhk-launches-honours-college-to-shape-tomorrow-s-leaders"
       },
       {
-        "title": "香港教育大学特写：从观察大自然开始——李伟展博士专访",
-        "url": "https://www.eduhk.hk/zht/features/finding-yourself-by-observing-nature-an-interview-with-dr-li-wai-chin"
+        "title": "EdUHK Research Repository: LI, Wai Chin 李偉展（学历、2007-2012浸大国际学院经历、获奖、联系方式）",
+        "url": "https://repository.eduhk.hk/en/persons/wai-chin-li/"
       },
       {
         "title": "香港教育大学：黄铭洪教授及李伟展博士荣获年度广东省科学技术奖",
         "url": "https://www.eduhk.hk/zhs/recognition/professor-wong-ming-hung-and-dr-li-wai-chin-receive-natural-science-award"
       },
       {
-        "title": "EdUHK Research Repository: LI, Wai Chin 李偉展",
-        "url": "https://repository.eduhk.hk/en/persons/wai-chin-li/"
+        "title": "香港教育大学特写：从观察大自然开始——李伟展博士专访",
+        "url": "https://www.eduhk.hk/zht/features/finding-yourself-by-observing-nature-an-interview-with-dr-li-wai-chin"
       }
     ],
     "data_sources": [
       "EdUHK官网",
       "EdUHK新闻稿",
-      "EdUHK研究机构库"
+      "EdUHK Research Repository"
     ],
-    "completeness_score": 43,
-    "notes": "职务、研究领域、学位均有教大官网及研究机构库多源核实。出生日期无公开资料；育有两名子女（官网专访提及）但子女姓名未公开，family_members按要求留空。"
+    "completeness_score": 54,
+    "notes": "2026-09-07复核：现任职务（荣誉学院院长、副教授）经教大官网及研究库页再核实无变化。依研究库页补：环境科学哲学博士（专业方向）、香港中文大学生物学教育文凭（PGDE）、2007-2012浸大国际学院讲师经历、办公电话与电邮、ORCID（platform=other）。current_positions由对象数组规范为纯中文字符串；degree改英文枚举（bachelor/doctorate/professional）；major_achievements.organization补英文并附2023、2024、2025年份；删除work_experience/education条目内非规范字段（title/notes/year）。出生日期无公开资料；育有两名子女（官网专访提及）但姓名未公开，family_members留空。"
   }
 }

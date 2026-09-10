@@ -10,7 +10,7 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1977-01-01",
+  "birth_date": "1978-01-01",
   "birth_place": "香港",
   "contacts": [],
   "current_positions": [
@@ -18,6 +18,8 @@
     "尖沙咀置业集团有限公司主席兼执行董事",
     "信和酒店（集团）有限公司主席兼执行董事",
     "信和集团执行董事",
+    "东亚银行有限公司非执行董事",
+    "中国人民政治协商会议北京市委员会常务委员（第十四届）",
     "香港太平绅士（JP）"
   ],
   "education": [
@@ -25,29 +27,29 @@
       "start_date": null,
       "end_date": null,
       "institution": "哥伦比亚大学 (Columbia University, New York)",
-      "degree": null,
-      "field": "经济学"
+      "degree": "bachelor",
+      "field": "经济学（文学学士）"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "哥伦比亚大学 (Columbia University, New York)",
-      "degree": null,
-      "field": "房地产发展"
+      "degree": "master",
+      "field": "房地产发展（理学硕士）"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "萨凡纳艺术设计学院 (SCAD)",
-      "degree": null,
-      "field": ""
+      "degree": "doctorate",
+      "field": "荣誉人文科学博士"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "香港都会大学 (HKMU)",
-      "degree": null,
-      "field": ""
+      "degree": "doctorate",
+      "field": "荣誉工商管理学博士"
     }
   ],
   "work_experience": [
@@ -82,6 +84,13 @@
     {
       "start_date": null,
       "end_date": null,
+      "organization": "东亚银行 (The Bank of East Asia)",
+      "org_id": "HK-FIN-004",
+      "position": "非执行董事"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
       "organization": "黄廷方慈善基金 (Ng Teng Fong Charitable Foundation)",
       "org_id": null,
       "position": "董事"
@@ -91,7 +100,7 @@
     {
       "person_id": "HK-PERSON-000509",
       "person_name": "黄志祥 (Robert Ng)",
-      "relationship_type": "other",
+      "relationship_type": "parent",
       "description": "父亲，2025年8月31日退任信和系主席，由黄永光接任"
     }
   ],
@@ -99,8 +108,8 @@
     {
       "platform": "linkedin",
       "account_name": "Daryl Ng",
-      "url": "https://www.linkedin.com/in/daryl-ng",
-      "source": "https://www.sino-group.com"
+      "url": "https://hk.linkedin.com/in/daryl-ng-8bb1551b2",
+      "source": "LinkedIn 检索核实（账号名 Daryl Ng，职位标注 Chairman at Sino Group，持续发布信和集团相关动态）"
     }
   ],
   "family_members": [
@@ -141,7 +150,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -164,6 +173,6 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%B0%B8%E5%85%89"
       }
     ],
-    "notes": "重要更正：教育背景为哥伦比亚大学经济学士及房地产发展硕士（原档案误记哈佛大学）；2025年8月31日起出任信和系三上市公司主席；无公开个人头像直链 | birth_date 原始值为「1977年前后（2025年8月接任主席时47-48岁）」，按年份归一化"
+    "notes": "重要更正：教育背景为哥伦比亚大学经济学士及房地产发展硕士（原档案误记哈佛大学）；2025年8月31日起出任信和系三上市公司主席；无公开个人头像直链。2026-09-07 复核：现任主席职务经信和集团官网董事简介（sino.com）及西九文化区管理局官网核实（2025-08-31 起任信和置业、尖沙咀置业、信和酒店主席）；birth_date 由 1977-01-01 更正为 1978-01-01（中文维基百科及 Wikidata P569 均记 1978 年，官网简介 2026 年载 48 岁；日不详按规则记 -01）；教育 degree 规范化为枚举（学士→bachelor、硕士→master、两项荣誉博士→doctorate）；新增东亚银行非执行董事（官网确认，org_id HK-FIN-004 经 _name_index 核查）及北京市政协常委职务；person_relationships 黄志祥关系由 other 修正为 parent；LinkedIn 账号经检索核实更正为 hk.linkedin.com/in/daryl-ng-8bb1551b2（原 URL linkedin.com/in/daryl-ng 无据）。"
   }
 }

@@ -14,13 +14,13 @@
   "birth_place": null,
   "contacts": [
     {
-      "type": "linkedin",
+      "type": "other",
       "value": "https://hk.linkedin.com/in/davidwlng",
       "source": "https://hk.linkedin.com/in/davidwlng"
     }
   ],
   "current_positions": [
-    "信和集团联席董事 (Group Deputy CEO / Joint Director, Sino Group)"
+    "信和集团联席董事"
   ],
   "education": [
     {
@@ -58,7 +58,7 @@
       "end_date": null,
       "organization": "信和集团 (Sino Group)",
       "org_id": "HK-CORP-019",
-      "position": "集团联席董事（Deputy CEO）"
+      "position": "集团联席董事"
     }
   ],
   "person_relationships": [
@@ -69,7 +69,14 @@
       "description": "胞姐，信和集团非执行董事"
     }
   ],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "davidwlng",
+      "url": "https://hk.linkedin.com/in/davidwlng",
+      "source": "https://hk.linkedin.com/in/davidwlng"
+    }
+  ],
   "family_members": [
     {
       "name": "黄廷方 (Ng Teng Fong)",
@@ -84,7 +91,7 @@
     {
       "name": "黄永光 (Daryl Ng Win-kong)",
       "relationship": "brother",
-      "description": "兄长，信和集团主席"
+      "description": "兄长，信和集团副主席"
     },
     {
       "name": "黄敏华 (Nikki Ng Mien-hua)",
@@ -94,13 +101,13 @@
   ],
   "political_stances": [],
   "major_achievements": [],
-  "biography_summary": "黄永龙 (David Ng Win Loong)，信和集团创办人黄廷方之孙、主席黄志祥次子、集团主席黄永光之弟。持有哥伦比亚大学政治学与政府学文学士学位，并修读凯洛格-香港科技大学行政人员工商管理硕士课程。2012年5月加入信和集团任董事长行政助理，2016年11月出任集团总经理，2019年起担任集团联席董事（Deputy CEO），为黄氏家族第三代成员。他曾以福建省港澳委员身份出席福建省政协十二届二次会议。",
+  "biography_summary": "黄永龙 (David Ng Win Loong)，信和集团创办人黄廷方之孙、主席黄志祥次子、集团副主席黄永光之弟。持有哥伦比亚大学政治学与政府学文学士学位，并修读凯洛格-香港科技大学行政人员工商管理硕士课程。2012年5月加入信和集团任董事长行政助理，2016年11月出任集团总经理，2019年起担任集团联席董事，为黄氏家族第三代成员。他曾以福建省港澳委员身份出席福建省政协十二届二次会议。",
   "profile": {
     "source_url": null,
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "news",
@@ -108,7 +115,7 @@
       "linkedin",
       "official_website"
     ],
-    "completeness_score": 46,
+    "completeness_score": 43,
     "quotes": [
       {
         "title": "8world：一览黄志祥同三名子女背景",
@@ -127,6 +134,6 @@
         "url": "https://www.sino.com/tc/about-sino/directors-and-board-committees/"
       }
     ],
-    "notes": "黄永龙未见于信和官网董事页，联席董事/Deputy CEO职务依据新闻报道（8world、联合早报、ETNet）与LinkedIn双源。出生日期及出生地公开资料未见，留空。8world原文称其为'黄永光的次子'系笔误，据联合早报及英文维基其为黄志祥次子、黄永光之弟。quotes第4条为机构官网佐证链接（非本人专页），已在notes说明。"
+    "notes": "2026-09-07复核：8world报道复核确认2019年起任信和集团联席董事及2012-2016年董事长行政助理、2016-2019年集团总经理履历；current_positions规范化为纯中文字符串；contacts类型由linkedin改为规范枚举other，LinkedIn移入social_accounts（platform枚举linkedin）；家族成员黄永光职务更正为信和集团副主席（8world载其2017年起任副主席，集团主席为其父黄志祥）。黄永龙未见于信和官网董事页，联席董事职务依据新闻报道（8world、联合早报、ETNet）与LinkedIn双源。出生日期及出生地公开资料未见，留空。8world原文称其为'黄永光的次子'系笔误，据联合早报及英文维基其为黄志祥次子、黄永光之弟。quotes第4条为机构官网佐证链接（非本人专页），已在notes说明。"
   }
 }

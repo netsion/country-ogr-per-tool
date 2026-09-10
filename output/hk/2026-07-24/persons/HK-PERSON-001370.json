@@ -7,7 +7,8 @@
   "aliases": [
     "Emily Tang",
     "鄧宣宏雁博士, JP",
-    "Dr Emily Tang, JP"
+    "Dr Emily Tang, JP",
+    "Mrs Emily H Y Tang"
   ],
   "nationality": "HK",
   "gender": "female",
@@ -46,7 +47,7 @@
       "position": "行政总裁"
     },
     {
-      "start_date": "2026",
+      "start_date": "2026-03",
       "end_date": null,
       "organization": "保良局 (Po Leung Kuk)",
       "org_id": "HK-NGO-004",
@@ -55,22 +56,28 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
-      "person_name": "谭毓桢 (Dr Tam Yu-ching)",
-      "relationship_type": "associate",
+      "person_id": "HK-PERSON-000831",
+      "person_name": "譚毓楨 (Dr. Jenny Tam)",
+      "relationship_type": "colleague",
       "description": "保良局丙午年董事会主席，二人同为该届董事会领导成员"
     }
   ],
   "social_accounts": [],
   "family_members": [
     {
+      "person_id": null,
       "name": "邓钜明",
       "relationship": "spouse",
-      "description": "太子珠宝钟表集团主席，夫妇共同经营珠宝钟表业务"
+      "industry_or_organization": "太子珠宝钟表集团（主席）"
     }
   ],
   "political_stances": [],
   "major_achievements": [
+    {
+      "date": "2017",
+      "achievement": "荣获世界杰出华人奖，同年获法国北欧大学颁授荣誉博士",
+      "organization": "法国北欧大学"
+    },
     {
       "date": "2023",
       "organization": "中国人民政治协商会议全国委员会",
@@ -93,21 +100,21 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
       "wikipedia",
       "news"
     ],
-    "completeness_score": 49,
+    "completeness_score": 52,
     "quotes": [
       {
         "title": "保良局官网：董事会名单",
         "url": "https://www.poleungkuk.org.hk/about-us/governance/board-of-directors"
       },
       {
-        "title": "保良局官网：会员周年大会选出丙午年董事会公告",
+        "title": "保良局新闻稿：保良局举行会员周年大会 恭贺新一届丙午年董事会顺利选出（2026年3月6日）",
         "url": "https://www.poleungkuk.org.hk/news/Po-Leung-Kuk-Annual-General-Meeting-Board-of-Directors2026-2027"
       },
       {
@@ -115,10 +122,10 @@
         "url": "https://www.poleungkuk.org.hk/f/page/16821/71891/3_VC2_emilytang_2526.pdf"
       },
       {
-        "title": "镇金店官网：关于我们（管理层）",
-        "url": "https://tw.justgold.cc/justgold/about.php?id=1"
+        "title": "东网：名人—嫌扮靓麻烦！邓宣宏雁想下世做男人（2017年8月4日）",
+        "url": "https://hk.on.cc/hk/bkn/cnt/entertainment/20170804/bkn-20170804063017646-0804_00862_001.html"
       }
     ],
-    "notes": "官方PDF简历为二进制无法全文解析，履历信息来自官网搜索摘要及镇金店官网、百度百科等多源交叉核实。出生日期及学历（博士授予院校）未查到可靠来源，留空处理。云南省政协常委及全国政协委员身份来自百度百科与官网PDF摘要双源。"
+    "notes": "2026-09-07复核：现任职务（保良局丙午年董事会副主席）经保良局2026年3月6日会员周年大会新闻稿原文核实——丙午年（2026-27年度）主席谭毓桢博士、副主席邓宣宏雁女士等五人，start_date相应修正为2026-03。规范化：family_members的规则外description字段改为industry_or_organization；person_relationships的relationship_type由associate更正为colleague（同届董事会成员）；aliases增补保良局官方PDF所用英文名Mrs Emily H Y Tang。新增可查证成就：2017年获世界杰出华人奖及法国北欧大学荣誉博士衔（东网2017年报道与太子珠宝钟表官方Facebook双源）；因属荣誉头衔而非正规学历，记入major_achievements而未写入education，正规教育背景（如有）未查得，留空。出生日期未查到可靠来源，留空；出生地云南昆明为百度百科等多源记载。云南省政协常委及全国政协委员身份来自百度百科与官网PDF摘要双源。未查到其个人官方社交账号（太子珠宝钟表官方Facebook为机构账号，不计入），保持缺失。Wikidata QID未核实，留null。"
   }
 }

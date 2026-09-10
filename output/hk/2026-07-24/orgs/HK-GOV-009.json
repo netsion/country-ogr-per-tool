@@ -54,7 +54,7 @@
   "key_people": [
     {
       "person_id": "HK-PERSON-000613",
-      "name": "林美秀 (Vivian Lam)",
+      "name": "林美秀 (Linda Lam Mei-sau)",
       "title": "主席",
       "title_description": "平机会主席，负责机构治理与反歧视政策方向",
       "description": "曾在律政司服务29年，退休前为律政司国际法律专员，长期就贸易投资法律及国际义务提供法律意见，2024年4月11日起获行政长官委任为平机会主席，任期三年至2027年4月10日。"
@@ -65,6 +65,20 @@
       "title": "行政总监（营运）",
       "title_description": "负责平机会日常营运管理，经常代表机构就反歧视指引及公众教育发言",
       "description": "博士，现任平机会行政总监（营运），曾任政策、研究及培训科总监，长期负责反歧视政策研究、实务守则制定及公众教育工作，是平机会对外发言的主要管理层成员之一。"
+    },
+    {
+      "person_id": "HK-PERSON-001465",
+      "name": "黄巧欣 (Careen Wong)",
+      "title": "委员",
+      "title_description": "行政长官新委任的平机会委员（2026-05-20起，任期两年）",
+      "description": "律师，沈黄律师事务所创办合伙人，香港律师会副会长，物业管理业监管局副主席，2026年4月30日获行政长官委任为平机会新任委员，任期两年，自2026年5月20日起生效。"
+    },
+    {
+      "person_id": "HK-PERSON-001467",
+      "name": "王伟伦",
+      "title": "委员",
+      "title_description": "行政长官再度委任的平机会委员（2026-05-20起，任期两年）",
+      "description": "博士，东部地区公共行政组织议决会主席，并列名上诉及规则委员会（学术及职业资历评审条例）及推广职业专才教育和资历架构督导委员会，2026年4月30日获行政长官再度委任为平机会委员，任期两年，自2026年5月20日起生效。"
     }
   ],
   "departments": [
@@ -98,46 +112,54 @@
       "title": "2024/25年度投诉个案增逾两成",
       "date": "2026-03-16",
       "description": "平机会主席林美秀在立法会政制事务委员会表示，年度接获投诉按年增加逾两成，最多涉及残疾歧视，其次是性骚扰；透过调解促成和解金额逾858万港元，按年多逾250万元。",
-      "impact": "反映反歧视执法与调解需求上升"
+      "impact": "反映反歧视执法与调解需求上升",
+      "source": "https://www.eoc.org.hk/zh-hk/ENews/373-1"
     },
     {
       "title": "关注AI招聘筛选或致歧视",
       "date": "2026-03-16",
       "description": "有议员关注雇主使用AI筛选求职者或导致不易察觉的歧视，林美秀回应指人工智能属中立科技，关键在善用，平机会将加强公众教育，提点持份者适当应用以促进共融。",
-      "impact": "把平等机会议题延伸至人工智能应用领域"
+      "impact": "把平等机会议题延伸至人工智能应用领域",
+      "source": "https://hk.on.cc/hk/bkn/cnt/news/20260316/bkn-20260316182744258-0316_00822_001.html"
     },
     {
       "title": "平机会成立30周年",
       "date": "2026-05-29",
       "description": "平机会于2026年迎来成立30周年。主席林美秀表示，成立以来经调解累计为投诉人取得逾1亿港元赔偿；2021至2025年期间收到8宗涉及内地人根据《种族歧视条例》提出的投诉，会以宣传教育促进种族融和。",
-      "impact": "总结机构三十年反歧视工作成果"
+      "impact": "总结机构三十年反歧视工作成果",
+      "source": "http://www.hkcd.com.hk/content_app/2026-05/29/content_8757246.html"
     },
     {
       "title": "委任新任及连任委员",
       "date": "2026-05-20",
       "description": "行政长官委任新任委员黄巧欣及多名连任委员，任期两年，由2026年5月20日起生效，主席林美秀对新一届委员组合表示欢迎。",
-      "impact": "完成委员会的例行换届"
+      "impact": "完成委员会的例行换届",
+      "source": "https://www.eoc.org.hk/zh-hk/PressRelease/Detail/18713"
     }
   ],
   "related_entities": [
     {
       "org_name": "政制及内地事务局 (CMAB)",
-      "org_description": "平机会的主要政策局，主席及委员由行政长官委任"
+      "org_description": "平机会的主要政策局，主席及委员由行政长官委任",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "香港特别行政区行政长官 (Chief Executive)",
-      "org_description": "负责委任平机会主席及委员"
+      "org_description": "负责委任平机会主席及委员",
+      "org_id": "HK-GOV-003"
     },
     {
       "org_name": "立法会政制事务委员会 (LegCo Panel on Constitutional Affairs)",
-      "org_description": "定期听取平机会工作进度报告及质询其政策执行情况"
+      "org_description": "定期听取平机会工作进度报告及质询其政策执行情况",
+      "org_id": null
     }
   ],
   "core_business": "平等机会委员会（平机会）是香港的独立法定机构，于1996年5月根据《性别歧视条例》成立，负责执行《性别歧视条例》、《残疾歧视条例》、《家庭岗位歧视条例》及《种族歧视条例》四条反歧视条例，旨在消除基于性别、婚姻状况、怀孕、残疾、情绪病、家庭岗位及种族而产生的歧视，以及性骚扰及基于残疾与种族的骚扰及中伤行为，促进男女之间、伤健之间、不同种族人士以及有否家庭岗位人士之间的平等机会。平机会的职能包括调查及调解投诉个案、在调解不成时提供法律协助、推行教育及推广工作、检讨法例和发出实务守则及指引，以及就反歧视政策向政府提出建议。主席及委员由行政长官委任，总部设于黄竹坑香叶道41号16楼，下设投诉事务科、法律服务科、政策研究及培训科、机构传讯科、机构规划及服务科及少数族裔事务组。现任主席为林美秀，2024年4月就任，任期三年。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "平机会与亚太地区同类人权及平等机会机构保持交流，推动工作间平等与共融营商环境，与区域内劳动权益及企业社会责任议题相关。",
+  "apec_stance": "平机会与亚太地区同类人权及平等机会机构保持交流，推动工作间平等与共融营商环境；其执行的性别、残疾、种族及家庭岗位歧视条例为区内劳动权益保障提供制度参照，与APEC框架下促进包容性增长、妇女经济赋权及企业社会责任等议题方向一致，相关公众教育及实务守则亦为在港经营的亚太区企业提供反歧视合规指引。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Equal_Opportunities_Commission_logo.svg/330px-Equal_Opportunities_Commission_logo.svg.png",
     "local_path": null
@@ -151,7 +173,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 76,
+    "completeness_score": 87,
     "quotes": [
       {
         "title": "维基百科：平等機會委員會",
@@ -172,10 +194,16 @@
       {
         "title": "香港商报：平机会成立30年 经调停累计为投诉人取得逾1亿元赔偿（2026-05-29）",
         "url": "http://www.hkcd.com.hk/content_app/2026-05/29/content_8757246.html"
+      },
+      {
+        "title": "香港政府新闻公报：委任平等机会委员会委员（2026-04-30）",
+        "url": "https://www.info.gov.hk/gia/general/202604/30/P2026043000242.htm"
+      },
+      {
+        "title": "平机会官网：组织架构及员工（黄巧欣、王伟伦博士职务）",
+        "url": "https://www.eoc.org.hk/zh-hk/about-the-eoc/organisation-and-staff-2"
       }
     ],
-    "notes": "P3 enrichment round 2: corrected departments to official 5 divisions + EM unit, added COO Zhu Chongwen, 30th anniversary and 2026 member appointment events"
-  },
-  "description": "香港独立运作的法定机构，执行反歧视条例",
-  "brief": "香港法定机构，负责执行四条反歧视条例及调解歧视投诉"
+    "notes": "P3 enrichment round 2: corrected departments to official 5 divisions + EM unit, added COO Zhu Chongwen, 30th anniversary and 2026 member appointment events. 第三轮：补入新任委员黄巧欣及再度委任委员王伟伦（person_id=null，均经政府新闻公报及平机会官网核实）。"
+  }
 }

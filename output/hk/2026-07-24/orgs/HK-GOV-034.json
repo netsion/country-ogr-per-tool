@@ -54,7 +54,7 @@
       "name": "卓孝业 (Michael Cheuk)",
       "title": "副局长",
       "title_description": "协助局长处理保安局事务",
-      "description": "前惩教署署长，2023年起出任保安局副局长，曾负责统筹打击诈骗及人口贩卖相关工作。"
+      "description": "前警务处助理处长（主管服务质素监管部并出任西九龙总区指挥官），2022年7月起出任保安局副局长，曾负责统筹打击诈骗及人口贩卖相关工作。"
     },
     {
       "person_id": "HK-PERSON-001348",
@@ -104,28 +104,39 @@
   ],
   "recent_events": [
     {
+      "title": "邓炳强阐述国安风险及应对策略",
+      "date": "2026-04-08",
+      "description": "保安局局长邓炳强在立法会保安事务委员会表示，香港仍面对外部敌对势力抹黑、潜逃者勾结外部势力、本土恐怖主义及「软对抗」等国安风险，提出强化情报体系等六项策略应对，并指维护国家安全工作只能加强、不会放松。",
+      "impact": "明确保安局维护国家安全的政策优先方向与执法部署",
+      "source": "https://www.news.cn/gangao/20260408/b0fe8f9e39414f5e9e691ab6d3ddbf33/c.html"
+    },
+    {
       "title": "七地警方联合跨境反诈行动FRONTIER+",
       "date": "2025-06-03",
       "description": "香港警务处联同澳门、马来西亚、马尔代夫、新加坡、韩国、泰国警方开展反诈骗跨境合作平台FRONTIER+首次联合行动，出动超过2700名执法人员，拘捕1858人，涉及9268宗诈骗案。",
-      "impact": "强化亚太区跨境执法与反诈协作"
+      "impact": "强化亚太区跨境执法与反诈协作",
+      "source": "https://www.info.gov.hk/gia/general/202506/03/P2025060300471.htm"
     },
     {
       "title": "统筹打击诈骗工作",
       "date": "2025-01-01",
       "description": "保安局统筹跨部门打击电话及网络诈骗工作，推动短讯发送人登记制及跨境执法合作，反诈骗协调中心并与国际刑警组织设立国际止付机制。",
-      "impact": "强化跨部门与国际反诈协作"
+      "impact": "强化跨部门与国际反诈协作",
+      "source": "https://www.info.gov.hk/gia/general/202507/09/P2025070900591p.htm"
     },
     {
       "title": "落实维护国家安全法定工作",
       "date": "2024-01-01",
       "description": "保安局统筹相关执法部门执行《维护国家安全条例》下的法定职务及宣传推广工作。",
-      "impact": "落实特区维护国家安全的法定责任"
+      "impact": "落实特区维护国家安全的法定责任",
+      "source": "https://www.info.gov.hk/gia/general/202604/15/P2026041500363.htm"
     },
     {
       "title": "廖李可期出任保安局常任秘书长",
       "date": "2026-03-30",
       "description": "政府宣布任命时任政府新闻处处长廖李可期为保安局常任秘书长，接替展开退休前休假的前常任秘书长。",
-      "impact": "保安局高层公务员团队换届"
+      "impact": "保安局高层公务员团队换届",
+      "source": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/ch/component/k2/1843483-20260211.htm"
     }
   ],
   "related_entities": [
@@ -138,23 +149,33 @@
     },
     {
       "org_name": "香港警务处 (Hong Kong Police Force)",
-      "org_description": "保安局辖下最大纪律部队，负责治安执法"
+      "org_description": "保安局辖下最大纪律部队，负责治安执法",
+      "org_id": "HK-GOV-018",
+      "relationship_type": "subsidiary"
     },
     {
       "org_name": "入境事务处 (Immigration Department)",
-      "org_description": "保安局辖下负责出入境管制的纪律部队"
+      "org_description": "保安局辖下负责出入境管制的纪律部队",
+      "org_id": "HK-GOV-023",
+      "relationship_type": "subsidiary"
     },
     {
       "org_name": "保安局禁毒处 (Narcotics Division)",
-      "org_description": "负责禁毒政策与教育的部门"
+      "org_description": "负责禁毒政策与教育的部门",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "发展局 (Development Bureau)",
-      "org_description": "同属特区政府决策局，与保安局在楼宇安全及应急工程上有协作"
+      "org_description": "同属特区政府决策局，与保安局在楼宇安全及应急工程上有协作",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "国际刑警组织 (INTERPOL)",
-      "org_description": "香港执法部门透过国际刑警组织参与跨境执法合作，包括国际止付机制打击诈骗"
+      "org_description": "香港执法部门透过国际刑警组织参与跨境执法合作，包括国际止付机制打击诈骗",
+      "relationship_type": "partner",
+      "org_id": null
     }
   ],
   "core_business": "保安局是香港特别行政区政府的决策局之一，主管香港公共秩序，统管公共安全、出入境、海关、监狱、消防、救护、禁毒及政府飞行服务等纪律部队及辅助队伍，职能类似内政部或国土安全部门。保安局的政策范围涵盖治安与执法、出入境及人才签证政策、海关与禁毒、消防安全、紧急应变与救灾、以及维护国家安全相关工作。局方同时负责统筹打击诈骗、跨境罪案及有组织罪行等跨部门行动，透过辖下反诈骗协调中心与国际刑警组织等建立跨境合作机制，并管理各纪律部队的人事与资源。局内设保安局常任秘书长、副秘书长及多个专责科组，现任局长为邓炳强、副局长为卓孝业、常任秘书长为廖李可期。",
@@ -176,7 +197,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 81,
+    "completeness_score": 85,
     "quotes": [
       {
         "title": "维基百科：保安局（香港）",
@@ -193,10 +214,12 @@
       {
         "title": "香港电台：廖李可期任保安局常秘",
         "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/ch/component/k2/1843483-20260211.htm"
+      },
+      {
+        "title": "香港特区政府保安局局长邓炳强：维护国家安全工作只能加强（新华网）",
+        "url": "https://www.news.cn/gangao/20260408/b0fe8f9e39414f5e9e691ab6d3ddbf33/c.html"
       }
     ],
-    "notes": "P3 enrichment round 2: added Permanent Secretary, internal divisions, FRONTIER+ anti-fraud operation; factual records only, no evaluative content"
-  },
-  "description": "香港特别行政区政府决策局，主管保安政策，统管六大纪律部队及两支辅助队伍",
-  "brief": "统管香港六大纪律部队及保安政策的决策局"
+    "notes": "P3 enrichment round 2: added Permanent Secretary, internal divisions, FRONTIER+ anti-fraud operation; factual records only, no evaluative content; B4批注：补入2026年4月8日立法会保安事务委员会国安风险阐述事件（新华网报道）"
+  }
 }

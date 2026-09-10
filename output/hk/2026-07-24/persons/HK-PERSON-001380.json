@@ -14,19 +14,14 @@
   "birth_place": "香港",
   "contacts": [],
   "current_positions": [
-    {
-      "position": "资深大律师（执业）",
-      "organization": "香港大律师执业 (Chambers)",
-      "org_id": null,
-      "since": "1997"
-    }
+    "资深大律师（执业）"
   ],
   "education": [
     {
       "start_date": null,
       "end_date": null,
       "institution": "九龙华仁书院 (Wah Yan College, Kowloon)",
-      "degree": "secondary",
+      "degree": "high_school",
       "field": null
     },
     {
@@ -77,14 +72,14 @@
       "start_date": "1988",
       "end_date": "1991",
       "organization": "香港消费者委员会 (Consumer Council)",
-      "org_id": null,
+      "org_id": "HK-GOV-007",
       "position": "主席"
     },
     {
       "start_date": "1985-10-30",
       "end_date": "1997-06-30",
       "organization": "香港立法局 (Legislative Council)",
-      "org_id": "HK-GOV-002",
+      "org_id": null,
       "position": "立法局议员（1985-1991年法律界功能界别，1991-1997年港岛东选区）"
     },
     {
@@ -105,15 +100,16 @@
       "start_date": "1998-07-01",
       "end_date": "2008-09-30",
       "organization": "香港特别行政区立法会 (Legislative Council of the HKSAR)",
-      "org_id": "HK-GOV-002",
+      "org_id": null,
       "position": "立法会议员（第一、二、三届，香港岛选区）"
     }
   ],
   "person_relationships": [
     {
-      "org_id": null,
+      "person_id": "HK-PERSON-000096",
       "person_name": "李祖诒",
-      "relationship_type": "child"
+      "relationship_type": "child",
+      "description": null
     }
   ],
   "social_accounts": [],
@@ -164,7 +160,7 @@
     "religion": "天主教"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -182,6 +178,6 @@
         "url": "https://app.legco.gov.hk/member_front/chinese/library/index.aspx"
       }
     ],
-    "notes": "按内容安全约束，仅记录出生、教育、法律执业、议会任期、专业资格等基础事实；司法事项仅一句客观交代时间与结果。大律师公会名册未能直接访问在线版本，资深大律师资格以中文维基百科及立法会资料库交叉记载为准；contacts 无公开可核实资料留空。涉争议叙述一律未收录。"
+    "notes": "按内容安全约束，仅记录出生、教育、法律执业、议会任期、专业资格等基础事实；司法事项仅一句客观交代时间与结果。大律师公会名册未能直接访问在线版本，资深大律师资格以中文维基百科及立法会资料库交叉记载为准；contacts 无公开可核实资料留空。涉争议叙述一律未收录。；2026-09-07 主会话规范化：current_positions 对象转纯字符串、education degree 枚举化（QID Q696659 已核验证实为本人）。"
   }
 }

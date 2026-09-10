@@ -23,6 +23,18 @@
       "account_name": "CITIC Limited",
       "url": "https://www.linkedin.com/company/citic-limited",
       "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "OneCITIC",
+      "url": "https://www.facebook.com/OneCITIC/",
+      "source": "web_search"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "OneCITIC",
+      "url": "https://x.com/OneCITIC",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
@@ -111,41 +123,61 @@
       "date": "2025-06-25",
       "title": "召开股东周年大会，一季度业绩开门红",
       "description": "中信股份在港召开2025年度股东周年大会，奚国华表示旗下9家上市子公司一季度利润同比增长，市值大幅提升，中信特钢、南钢股份、中信戴卡应对外部挑战展现韧性。",
-      "impact": "显示复杂外部环境下公司经营韧性。"
+      "impact": "显示复杂外部环境下公司经营韧性。",
+      "source": "https://www.news.cn/money/20250625/9ad55998c5cc483cbfc90ba3ce6a673a/c.html"
     },
     {
       "date": "2026-03-27",
       "title": "发布2025年业绩：规模与利润创新高",
       "description": "2025年营业收入7,692.64亿元，净利润587.3亿元，资产总额13.02万亿元（较年初增长7.8%）；董事长奚国华提出统筹推进全球布局、防范化解金融风险及市值管理。",
-      "impact": "「十四五」收官之年规模与利润双双创新高，为「十五五」布局奠定基础。"
+      "impact": "「十四五」收官之年规模与利润双双创新高，为「十五五」布局奠定基础。",
+      "source": "https://caijing.chinadaily.com.cn/a/202603/31/WS69cb63dea310942cc49a5c0e.html"
     },
     {
       "date": "2026-08-26",
       "title": "公布最新董事名单，董事会架构保持稳定",
       "description": "公司按港交所规定披露董事名单与角色职能：执行董事为奚国华（董事长）、张文武（副董事长及总经理）、王国权；非执行董事包括李艺、岳学鲲、杨小平、李子民；独立非执行董事以梁定邦为首。此前独立非执行董事田川于2026年8月退任。",
-      "impact": "确认央企上市平台治理架构稳定，管理层与董事会职责清晰。"
+      "impact": "确认央企上市平台治理架构稳定，管理层与董事会职责清晰。",
+      "source": "https://stockn.xueqiu.com/00267/20260826480828.pdf"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "公布2026年中期业绩，收入与净利润稳健增长",
+      "description": "中信股份（00267.HK）公布截至2026年6月30日止六个月中期业绩，收入4,087.66亿元人民币，同比增长10.7%；归属于普通股股东净利润337.64亿元，同比增长8.1%；建议派发中期股息每股0.21元，并携旗下上市公司在上交所路演大厅联合发布业绩。",
+      "impact": "中期业绩稳健增长，巩固其作为恒生指数成份股及中信集团在港上市旗舰的地位。",
+      "source": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-28/doc-inipvvzv4685603.shtml"
     }
   ],
   "related_entities": [
     {
       "org_name": "中国中信集团有限公司 (CITIC Group)",
-      "org_description": "中信股份的国有母公司，中央金融企业"
+      "org_description": "中信股份的国有母公司，中央金融企业",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "中信银行 (CITIC Bank)",
-      "org_description": "金融板块旗舰上市银行"
+      "org_description": "金融板块旗舰上市银行",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "中信证券 (CITIC Securities)",
-      "org_description": "中国最大券商之一，金融板块核心资产"
+      "org_description": "中国最大券商之一，金融板块核心资产",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "中信金融控股 (CITIC Financial Holdings)",
-      "org_description": "中信集团金融板块持股管理平台，统筹金融子公司协同"
+      "org_description": "中信集团金融板块持股管理平台，统筹金融子公司协同",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "中信股份于香港联交所上市（股份代号00267），为恒生指数成份股"
+      "org_description": "中信股份于香港联交所上市（股份代号00267），为恒生指数成份股",
+      "relationship_type": "regulator",
+      "org_id": "HK-FIN-007"
     }
   ],
   "core_business": "中国中信股份有限公司（中信股份，00267.HK）前身为中信泰富有限公司，在香港注册及上市，是国有中信集团的上市旗舰平台，也是中国最大的综合性企业集团之一和恒生指数成份股公司。业务涵盖金融（中信银行、中信证券）、资源能源（中信泰富特钢、南钢）、工程承包（在沙特、阿联酋、东欧、拉美等地推进项目）、先进制造（中信戴卡、中信重工）、投资及房地产等板块，以「金融+实业+科技」三轮驱动模式运营。董事会下设提名、战略与可持续发展、执行及审核等委员会，执行董事包括董事长奚国华、副董事长兼总经理张文武及副总经理王国权。2025年公司资产总额达13.02万亿元，营业收入7,692.64亿元，净利润587.3亿元，规模与利润均创新高；母公司中信集团连续多年上榜《财富》世界500强。",
@@ -168,7 +200,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 84,
+    "completeness_score": 93,
     "quotes": [
       {
         "title": "中信股份2025年年报：董事会（官网）",
@@ -189,10 +221,16 @@
       {
         "title": "中信股份奚国华：一季度业绩稳健 市值大幅提升（新华网）",
         "url": "https://www.news.cn/money/20250625/9ad55998c5cc483cbfc90ba3ce6a673a/c.html"
+      },
+      {
+        "title": "中信股份发布中期业绩 归母净利润337.64亿元同比增长8.1%（新浪财经，2026-08-28）",
+        "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-28/doc-inipvvzv4685603.shtml"
+      },
+      {
+        "title": "CITIC Group（中信集团官方 Facebook 账号 OneCITIC）",
+        "url": "https://www.facebook.com/OneCITIC/"
       }
     ],
-    "notes": "Phase3二次丰富：补全2026年董事会名单（王国权/李艺/梁定邦）、董事会委员会、官网网址更正及最新港交所披露。"
-  },
-  "description": "中信集团在香港上市的综合性企业旗舰",
-  "brief": "中信集团在香港上市的综合性企业旗舰"
+    "notes": "Phase3二次丰富：补全2026年董事会名单（王国权/李艺/梁定邦）、董事会委员会、官网网址更正及最新港交所披露。B5批次：新增2026年中期业绩事件（第4条recent_event）；Facebook/X账号OneCITIC为母公司中信集团官方账号（中信股份自身除LinkedIn外暂未发现独立官方社交账号）"
+  }
 }

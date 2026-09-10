@@ -13,6 +13,16 @@
   "birth_place": "",
   "contacts": [
     {
+      "type": "email",
+      "value": "waiyyc@rthk.gov.hk",
+      "source": "香港特区政府及有关机构电话簿 (directory.gov.hk)"
+    },
+    {
+      "type": "phone",
+      "value": "2339 6332",
+      "source": "香港特区政府及有关机构电话簿 (directory.gov.hk)"
+    },
+    {
       "type": "other",
       "value": "香港九龙广播道30号广播大厦 (Broadcasting House, 30 Broadcast Drive, Kowloon)",
       "source": "香港电台官网"
@@ -60,10 +70,16 @@
   ],
   "person_relationships": [
     {
+      "person_id": "HK-PERSON-001195",
+      "person_name": "关婉仪 (Angelina Kwan Yuen-yee)",
+      "relationship_type": "superior",
+      "description": "现任广播处长，为卫懿欣在香港电台的直接上级"
+    },
+    {
       "person_id": "HK-PERSON-000811",
       "person_name": "李百全 (Patrick Li)",
-      "relationship_type": "superior",
-      "description": "广播处长"
+      "relationship_type": "colleague",
+      "description": "两人同属香港特区政府政务职系；李百全曾任广播处长（2021-2022），其后历任保安局常任秘书长及民政及青年事务局常任秘书长"
     }
   ],
   "social_accounts": [],
@@ -71,7 +87,7 @@
   "political_stances": [],
   "major_achievements": [
     {
-      "date": "",
+      "date": null,
       "organization": "香港电台 (RTHK)",
       "achievement": "出任副广播处长，协助广播处长管理港台日常运作及节目策略"
     },
@@ -92,18 +108,23 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
+      "government_directory",
       "web_search",
       "zh_wikipedia"
     ],
-    "completeness_score": 48,
+    "completeness_score": 51,
     "quotes": [
       {
-        "title": "香港電台 - 組織架構",
-        "url": "https://www.rthk.hk/aboutus"
+        "title": "公務員詳細資料 - 香港特別行政區政府及有關機構電話簿（衛懿欣，副廣播處長）",
+        "url": "https://www.directory.gov.hk/details.jsp?lang=chi&dn=cn%3D1203009994%2Cou%3DRTHK%2Cou%3DPeople%2Co%3Dgovernment%2Cc%3Dhk"
+      },
+      {
+        "title": "香港電台 - 組織架構（維基百科：廣播處長關婉儀、副廣播處長衛懿欣）",
+        "url": "https://zh.wikipedia.org/zh-tw/%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%8F%B0"
       },
       {
         "title": "衛懿欣 - 維基百科",
@@ -114,6 +135,6 @@
         "url": "https://www.stheadline.com/politics/3357459/"
       }
     ],
-    "notes": "无Wikidata QID；中文维基百科有条目；英文名据维基更正为Christine Wai Yee-yan；无P18头像，无个人社交媒体账号"
+    "notes": "经政府电话簿及维基百科核实截至2026年9月仍任香港电台副广播处长；补政府电话簿办公电话及电邮；更正person_relationships：原记录李百全为其上级（广播处长）有误——李百全2022年6月已离任港台，卫懿欣2024年2月才到任，现上级为广播处长关婉仪（HK-PERSON-001195），李百全改为政务职系同事关系；教育背景、出生日期等个人资料无公开可查来源，保持缺失；无公开个人社交媒体账号"
   }
 }

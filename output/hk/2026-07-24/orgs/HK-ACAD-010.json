@@ -138,43 +138,55 @@
       "date": "2025-07-15",
       "title": "QS世界大学排名2026升至第44位",
       "description": "香港科技大学在《QS世界大学排名2026》中上升三位至全球第44位，稳居全球五十强；全球影响力排名第19位、国际化排名第2位。",
-      "impact": "彰显学术卓越、创新研究及国际化教育的全球领先地位"
+      "impact": "彰显学术卓越、创新研究及国际化教育的全球领先地位",
+      "source": "https://hkust.edu.hk/zh-hans/news/hkust-rises-44th-qs-world-university-rankings-2026"
     },
     {
       "date": "2024-06-01",
       "title": "QS世界大学排名2025跃升13位至第47位",
       "description": "在《QS世界大学排名2025》中，科大从第60位跃升13位至第47位，跻身全球五十强；14个学科跻身全球50强，数据科学及人工智能学科全球第17位。",
-      "impact": "创指标改革后单年最大回升，巩固香港顶尖研究型大学地位"
+      "impact": "创指标改革后单年最大回升，巩固香港顶尖研究型大学地位",
+      "source": "https://hkust.edu.hk/zh-hans/news/hkust-leaps-13-spots-rank-among-top-50-universities-worldwide"
     },
     {
       "date": "2026-06-01",
       "title": "广州校区与清水湾本部共享QS排名",
       "description": "香港科技大学（广州）与清水湾本部在QS官网共享全球第44位排名，广州校区聚焦融合学科与交叉培养模式。",
-      "impact": "扩大科大在大湾区的教研布局与品牌影响力"
+      "impact": "扩大科大在大湾区的教研布局与品牌影响力",
+      "source": "https://hkust.edu.hk/zh-hans/news/hkust-rises-44th-qs-world-university-rankings-2026"
     },
     {
       "date": "2026-03-06",
       "title": "沈向洋续任校董会主席、廖长城续任顾问委员会主席",
       "description": "身兼大学监督的香港特别行政区行政长官再度委任沈向洋教授为校董会主席、廖长城博士为大学顾问委员会主席，任期三年至2029年3月；沈向洋自2023年3月起担任校董会主席，并于2026年3月获委任香港人工智能研发院董事局主席。",
-      "impact": "保持大学管治领导层稳定，延续科技创新与国际合作发展战略"
+      "impact": "保持大学管治领导层稳定，延续科技创新与国际合作发展战略",
+      "source": "https://hkust.edu.hk/zh-hant/news/hkust-welcomes-reappointment-prof-harry-shum-council-chairman"
     }
   ],
   "related_entities": [
     {
       "org_name": "大学教育资助委员会 (UGC)",
-      "org_description": "科大为其资助的香港八所公立大学之一"
+      "org_description": "科大为其资助的香港八所公立大学之一",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "香港科技大学（广州）(HKUST Guangzhou)",
-      "org_description": "2022年设立的广州校区，位于南沙，采用融合学科模式办学"
+      "org_description": "2022年设立的广州校区，位于南沙，采用融合学科模式办学",
+      "relationship_type": "subsidiary",
+      "org_id": "HK-ACAD-010"
     },
     {
       "org_name": "香港科技大学霍英东研究院",
-      "org_description": "位于广州南沙的科研转化平台，衔接大湾区产业合作"
+      "org_description": "位于广州南沙的科研转化平台，衔接大湾区产业合作",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "深圳研究院",
-      "org_description": "科大在深圳的产学研基地，对接深圳科技创新产业"
+      "org_description": "科大在深圳的产学研基地，对接深圳科技创新产业",
+      "relationship_type": "subsidiary",
+      "org_id": null
     }
   ],
   "core_business": "香港科技大学创立于1991年，位于香港新界西贡区大埔仔，是香港第三所获得大学名衔的公立研究型大学，也是香港顶尖学府之一。科大设有理、工、商、人文社科四大学院及跨学科学院，以科技与商科教育见长，在人工智能、数据科学、机器人、材料及生命科学等领域研究实力雄厚。2025年QS世界大学排名跃升13位至第47位，2026年再升至第44位，稳居全球五十强，国际化程度全球第2，数据科学及人工智能学科排名全球第17位（香港第一）。在校长朱叶玉如领导下，大学积极推进创新科技与知识转移，并通过广州校区及深圳、南沙研究院深度参与粤港澳大湾区科创发展。",
@@ -219,7 +231,5 @@
       }
     ],
     "notes": "P3再丰富：补廖长城/汪扬/屈华民（null ID待分配）、校董会续任事件、X账号及广州校区/创业中心数字资产"
-  },
-  "description": "香港顶尖研究型大学，QS全球第44位，数据科学及AI学科香港第一",
-  "brief": "香港顶尖研究型大学，QS全球第44位，数据科学及AI学科香港第一"
+  }
 }

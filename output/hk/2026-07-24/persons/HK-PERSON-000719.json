@@ -81,7 +81,7 @@
       "person_id": "HK-PERSON-000617",
       "person_name": "周一鸣 (Joe Chow)",
       "relationship_type": "colleague",
-      "description": "时任警务处处长，邓炳强任内晋升其为核心指挥层"
+      "description": "时任警务处处长，邓炳强任保安局局长期间为其政府当局主管"
     }
   ],
   "social_accounts": [
@@ -98,8 +98,8 @@
       "source": "https://www.instagram.com/tang.ping.keung"
     },
     {
-      "platform": "other",
-      "account_name": "微博 @鄧炳強",
+      "platform": "weibo",
+      "account_name": "鄧炳強",
       "url": "https://weibo.com/u/7771542711",
       "source": "https://weibo.com/u/7771542711"
     }
@@ -120,23 +120,24 @@
       "achievement": "出任警务处处长，领导警队应对重大治安挑战"
     },
     {
-      "date": "",
-      "organization": "香港特区政府",
+      "date": null,
+      "organization": "香港特别行政区政府 (HKSAR Government)",
       "achievement": "获颁金紫荆星章（GBS）、香港警察卓越服务奖章（PDSM）并获委任为太平绅士（JP）"
     }
   ],
-  "biography_summary": "邓炳强（Chris Tang Ping-keung），1965年7月4日生于香港，保安局局长。1987年加入香港警务处任见习督察，服务警队逾三十年，曾主管刑事及行动部门，累升至副处长（行动），2019年11月出任警务处处长，2021年6月出任保安局局长，并任行政会议官守议员，统领警务处、入境事务处、海关、惩教署及消防处等纪律部队。拥有香港中文大学及澳洲查尔斯特大学硕士学位。获颁金紫荆星章并获委任为太平绅士。",
+  "biography_summary": "邓炳强（Chris Tang Ping-keung），1965年7月4日生于香港，保安局局长。1987年加入香港警务处任见习督察，服务警队逾三十年，曾主管刑事及行动部门，累升至副处长（行动），2019年11月出任警务处处长，2021年6月出任保安局局长，并任行政会议官守议员，统领警务处、入境事务处、海关、惩教署及消防处等纪律部队。拥有香港中文大学及澳洲查尔斯特大学硕士学位。获颁金紫荆星章、香港警察卓越服务奖章并获委任为太平绅士。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Chris_TANG_Ping-keung.png/250px-Chris_TANG_Ping-keung.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
-      "official_website"
+      "official_website",
+      "gov_press_release"
     ],
     "completeness_score": 62,
     "quotes": [
@@ -149,14 +150,14 @@
         "url": "https://zh.wikipedia.org/wiki/%E9%84%A7%E7%82%B3%E5%BC%B7"
       },
       {
-        "title": "GovHK 香港政府一站通：保安局局長鄧炳強簡歷",
-        "url": "https://www.gov.hk/sc/about/govdirectory/po/ss.htm"
+        "title": "GovHK 香港政府一站通：保安局局長鄧炳強",
+        "url": "https://www.gov.hk/tc/about/govdirectory/po/ss.htm"
       },
       {
         "title": "行政會議成員 - 保安局局長鄧炳強簡歷",
         "url": "https://www.ceo.gov.hk/exco/chi/ss.html"
       }
     ],
-    "notes": "QID验证无误；补全警队履历、社媒与Commons头像2026-08-27补：新增保安局官网公开联系方式。"
+    "notes": "QID验证无误；补全警队履历、社媒与Commons头像。2026-08-27补：新增保安局官网公开联系方式。 2026-09-07复核：经GovHK政府一站通官方目录确认仍现任保安局局长；微博账号platform由「other」规范为枚举值「weibo」；规范major_achievements的organization格式。"
   }
 }

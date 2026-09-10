@@ -49,12 +49,16 @@
     {
       "name": "香港恒生大学官网（hsu.edu.hk）",
       "description": "大学介绍、学院课程、招生及新闻发布平台"
+    },
+    {
+      "name": "恒生大学新闻稿平台",
+      "description": "大学传播处新闻稿发布页面，公布校园活动、学术合作及校政消息"
     }
   ],
   "key_people": [
     {
       "person_id": "HK-PERSON-000310",
-      "name": "林慧虹 (Diana Cesar)",
+      "name": "林慧虹 (Luanne Lim Hui Hung)",
       "name_en": "Diana Cesar",
       "title": "校董会主席",
       "title_description": "大学最高管治机构校董会的主席，负责大学整体管治与战略方向",
@@ -116,31 +120,53 @@
       "date": "2026-01-07",
       "title": "林慧虹出任校董会主席",
       "description": "恒生银行执行董事兼行政总裁林慧虹获委任为香港恒生大学校董及校董会主席，任期三年。",
-      "impact": "加强大学与恒生银行创办渊源的联系，为校董会带来商界管治经验。"
+      "impact": "加强大学与恒生银行创办渊源的联系，为校董会带来商界管治经验。",
+      "source": "https://www.stheadline.com/zh-hans/edu-insights/3533735/%E6%81%92%E7%94%9F%E5%A4%A7%E5%AD%B8%E5%A7%94%E4%BB%BB%E6%9E%97%E6%85%A7%E8%99%B9%E4%B8%BA%E6%A0%A1%E8%91%A3%E4%BC%9A%E4%B8%BB%E5%B8%AD-%E4%BB%BB%E6%9C%9F3%E5%B9%B4"
     },
     {
       "date": "2026-03-05",
       "title": "委任莫家豪教授为下任校长",
       "description": "恒大宣布委任常务暨学术及研究副校长莫家豪为下任校长，任期五年，自2026年9月1日生效；现任校长何顺文于8月31日任期结束后退休。",
-      "impact": "完成校长交接安排，校董会期望其带领恒大成为亚洲领先私立大学。"
+      "impact": "完成校长交接安排，校董会期望其带领恒大成为亚洲领先私立大学。",
+      "source": "https://www.wenweipo.com/a/202603/05/AP69a93bbbe4b04d7d56d6b748.html"
+    },
+    {
+      "date": "2026-05-06",
+      "title": "与英国杜伦大学签署合作备忘录",
+      "description": "香港恒生大学与英国杜伦大学签署合作备忘录，由常务暨学术及研究副校长莫家豪代表大学签署，携手推进国际高等教育交流与创新发展。",
+      "impact": "拓展大学全球高等教育合作网络，提升国际化水平。",
+      "source": "https://www.hkong.cn/2026/0506/61836.shtml"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "举行新生入学礼",
+      "description": "香港恒生大学举行新生入学礼，校长莫家豪勉励新生以明辨思维与人文关怀拥抱人工智能；同日首届工商管理硕士（中文）课程举行迎新晚宴暨启动礼。",
+      "impact": "莫家豪正式以校长身份主持开学活动，标志校长交接完成。",
+      "source": "https://www.hsu.edu.hk/hk/cpao/press-releases/"
     }
   ],
   "related_entities": [
     {
       "org_name": "恒生银行 (Hang Seng Bank)",
-      "org_description": "大学前身恒生商学书院由恒生银行创办，渊源深厚"
+      "org_description": "大学前身恒生商学书院由恒生银行创办，渊源深厚",
+      "relationship_type": "affiliated",
+      "org_id": "HK-FIN-006"
     },
     {
       "org_name": "香港特区政府教育局 (Education Bureau, HKSAR)",
-      "org_description": "2018年批准恒生管理学院正名为大学的政策当局"
+      "org_description": "2018年批准恒生管理学院正名为大学的政策当局",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "香港中文大学 (The Chinese University of Hong Kong)",
-      "org_description": "下任校长莫家豪为香港中文大学社会学系校友，两校保持学术人才交流"
+      "org_description": "下任校长莫家豪为香港中文大学社会学系校友，两校保持学术人才交流",
+      "org_id": "HK-ACAD-001"
     },
     {
       "org_name": "岭南大学 (Lingnan University)",
-      "org_description": "下任校长莫家豪此前出任岭南大学副校长兼研究生院院长的香港公立博雅大学"
+      "org_description": "下任校长莫家豪此前出任岭南大学副校长兼研究生院院长的香港公立博雅大学",
+      "org_id": "HK-ACAD-011"
     }
   ],
   "core_business": "香港恒生大学（恒大）是一所位于沙田小沥源的私立大学，前身可追溯至1980年恒生银行创办的恒生商学书院，2010年改组为恒生管理学院，2018年获教育局批准正名为大学。恒大以博雅教育与专业教育相结合为理念，由商学院、传播学院、决策科学学院、人文社会科学学院、翻译及外语学院及跨学科学院六个学院组成，现有超过6,700名全日制学生、逾200名全职教学人员及逾390名全职行政与学术支援人员，提供涵盖本科至研究生程度的课程，定位为亚洲领先私立大学。",
@@ -148,7 +174,7 @@
     "higher_education",
     "education"
   ],
-  "apec_stance": "恒大招收内地及海外学生，与亚太区院校开展学术交流与合作，其博雅加专业教育的模式为区域内私立高等教育发展提供参考。",
+  "apec_stance": "恒大招收内地及海外学生，与亚太区及欧洲院校开展学术交流与合作，2026年与英国杜伦大学签署合作备忘录推进国际化，并计划增加内地生学额，配合香港作为区域高等教育枢纽的定位；其博雅加专业教育的模式为亚太区私立高等教育发展提供参考，毕业生进入亚太区商贸及金融行业，间接支持区域人力资本培育。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/HSUHK_logo.svg/330px-HSUHK_logo.svg.png",
     "local_path": null
@@ -162,7 +188,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 79,
+    "completeness_score": 91,
     "quotes": [
       {
         "title": "恒生大学委任莫家豪教授为下任校长（恒大官网）",
@@ -187,10 +213,16 @@
       {
         "title": "郑慕智议员（香港特区行政会议官网）",
         "url": "https://www.ceo.gov.hk/exco/chi/Moses-Cheng.html"
+      },
+      {
+        "title": "香港恒生大学与英国顶尖高校深化合作拓展全球高等教育版图（香港新闻社，2026-05-06）",
+        "url": "https://www.hkong.cn/2026/0506/61836.shtml"
+      },
+      {
+        "title": "香港恒生大学新闻稿（2026年9月3日新生入学礼）",
+        "url": "https://www.hsu.edu.hk/hk/cpao/press-releases/"
       }
     ],
-    "notes": "P3二次丰富：新增校董会主席林慧虹、校务委员会主席郑慕智，补近期校董会换届事件及关联院校"
-  },
-  "description": "香港私立大学，前身为恒生商学书院，博雅与专业教育并重",
-  "brief": "香港私立大学，六学院组成，博雅教育特色"
+    "notes": "P3二次丰富：新增校董会主席林慧虹、校务委员会主席郑慕智，补近期校董会换届事件及关联院校 | B2批次再丰富：补2026年杜伦大学合作备忘录、2026年新生入学礼两条事件，新增新闻稿平台数字资产，扩写APEC关联段落。"
+  }
 }

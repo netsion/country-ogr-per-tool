@@ -12,7 +12,7 @@
   "nationality": "HK",
   "gender": "female",
   "birth_date": null,
-  "birth_place": "",
+  "birth_place": null,
   "contacts": [
     {
       "type": "website",
@@ -30,7 +30,7 @@
       "start_date": null,
       "end_date": null,
       "institution": "英国皇家芭蕾舞学院 (Royal Academy of Ballet, London)",
-      "degree": "high_school",
+      "degree": "professional",
       "field": "专业舞蹈员文凭"
     },
     {
@@ -51,14 +51,14 @@
       "start_date": null,
       "end_date": null,
       "institution": "香港大学 (The University of Hong Kong)",
-      "degree": "",
+      "degree": null,
       "field": "文化领航课程（Clore领袖培训计划奖学金）"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "牛津大学赛德商学院 (Saïd Business School, University of Oxford)",
-      "degree": "",
+      "degree": null,
       "field": "高级行政管理领导课程"
     }
   ],
@@ -128,7 +128,14 @@
     }
   ],
   "person_relationships": [],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "Anna CY Chan",
+      "url": "https://www.linkedin.com/in/anna-cy-chan-2125b658",
+      "source": "https://www.linkedin.com/posts/anna-cy-chan-2125b658_%E5%9C%8D%E7%88%90%E9%99%B3%E9%A0%8C%E7%91%9B%E9%A0%90%E5%91%8A%E6%9C%AC%E5%9C%B0%E7%94%9F%E6%93%81%E4%B8%89%E6%96%87%E5%85%A9%E8%AA%9E%E5%84%AA%E5%8B%A2%E5%A4%9A%E5%85%83%E8%A1%A8%E6%BC%94%E8%97%9D%E8%A1%93dna%E5%B8%B6%E5%8B%95%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81-activity-7430851708920033280-DL0i"
+    }
+  ],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
@@ -139,7 +146,7 @@
     },
     {
       "date": "2016",
-      "organization": "",
+      "organization": "城市当代舞蹈团 (City Contemporary Dance Company)",
       "achievement": "获「城市当代舞蹈达人」荣誉"
     },
     {
@@ -153,7 +160,7 @@
       "achievement": "获第20届最具影响力女性「杰出女性领袖奖」（代表艺术、体育及文娱界）"
     },
     {
-      "date": "",
+      "date": null,
       "organization": "香港演艺学院 (Hong Kong Academy for Performing Arts)",
       "achievement": "领导成立舞蹈科学实验室及舞蹈与科技工作室；与14个国际伙伴共同创立Asia Network for Dance (AND+)网络；策划「赛马会触动舞蹈计划」探讨舞蹈对帕金森症患者的影响"
     }
@@ -164,14 +171,15 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
       "wikidata",
-      "news_search"
+      "news_search",
+      "linkedin"
     ],
-    "completeness_score": 60,
+    "completeness_score": 63,
     "quotes": [
       {
         "title": "香港演艺学院校长介绍页",
@@ -184,8 +192,12 @@
       {
         "title": "西九文化区：陈颂瑛教授",
         "url": "https://www.westk.hk/tc/person/professor-anna-chan-chung-ying"
+      },
+      {
+        "title": "LinkedIn：Anna CY Chan（Professor, Director of The Hong Kong Academy for Performing Arts）",
+        "url": "https://www.linkedin.com/in/anna-cy-chan-2125b658"
       }
     ],
-    "notes": "无Wikidata条目，wikidata_qid保持null；出生日期未公开；Wikidata无P18照片，官网未提供可直链头像，留空。补深核查：亦无个人官方社交媒体账号，社交保持空白。"
+    "notes": "无Wikidata条目，wikidata_qid保持null；出生日期未公开，birth_place无公开资料置null。本轮补核查（2026-09-07）：找到其个人LinkedIn账号（linkedin.com/in/anna-cy-chan-2125b658，身份标注Professor, Director of HKAPA）并录入social_accounts；2016「城市当代舞蹈达人」荣誉补填颁发机构城市当代舞蹈团；专业舞蹈员文凭degree改为professional枚举，港大Clore课程及牛津赛德商学院高管课程属非学位培训，degree置null；现职（演艺学院校长、世界舞蹈联盟亚太区会长）经LinkedIn及官网复核确认。其余无公开社交媒体，family_members/political_stances无可靠公开资料，保持空白。"
   }
 }

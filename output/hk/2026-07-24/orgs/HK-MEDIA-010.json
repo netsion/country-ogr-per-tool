@@ -79,6 +79,13 @@
       "title": "创办人",
       "title_description": "《英文虎报》创刊人，星岛报系创办人",
       "description": "著名侨商、「万金油大王」，1938年创办《星岛日报》，1949年3月1日创办《虎报》（后官方中文名《标准虎报》，英文原称 Hong Kong Tiger Standard），即《英文虎报》前身。"
+    },
+    {
+      "person_id": "HK-PERSON-001468",
+      "name": "任展兴",
+      "title": "总经理",
+      "title_description": "代表《英文虎报》负责业务营运及对外合作拓展",
+      "description": "《英文虎报》总经理，代表报章与马来西亚网媒《Weekly Echo》及马来西亚新闻学院（MPI）签署为期两年的合作谅解备忘录，涵盖内容交流、跨境报道及记者培训等合作。"
     }
   ],
   "departments": [
@@ -108,40 +115,49 @@
       "date": "2025-02-01",
       "title": "总编辑更替",
       "description": "陈美娟于2025年2月接替在任近20年的汤锦标，出任《英文虎报》总编辑。",
-      "impact": "星岛新闻集团旗下英文媒体的编辑室领导层交接。"
+      "impact": "星岛新闻集团旗下英文媒体的编辑室领导层交接。",
+      "source": "https://zh.wikipedia.org/zh-hans/%E8%8B%B1%E6%96%87%E8%99%8E%E5%A0%B1"
     },
     {
       "date": "2025-01-01",
       "title": "持续扩展免费数字发行",
       "description": "《英文虎报》以「香港首要免费英文日报」定位，同时运营印刷版、新闻网站、电子报及Instagram等社交媒体，覆盖街头派发点、订阅及校园读者。",
-      "impact": "维持其作为香港唯一免费英文报章的市场地位。"
+      "impact": "维持其作为香港唯一免费英文报章的市场地位。",
+      "source": "https://www.thestandard.com.hk/"
     },
     {
       "date": "2026-07-01",
       "title": "多平台报道香港财经及社会热点",
       "description": "2026年该报持续通过网站、Facebook及Instagram报道IPO热潮、楼市复苏、启德体育园活动及本地社会新闻等议题，服务在港英文读者。",
-      "impact": "巩固其作为香港英文读者免费资讯主要来源的角色。"
+      "impact": "巩固其作为香港英文读者免费资讯主要来源的角色。",
+      "source": "https://www.facebook.com/thestandardhk/"
     }
   ],
   "related_entities": [
     {
       "org_name": "星岛新闻集团 (Sing Tao News Corporation)",
-      "org_description": "《英文虎报》的母公司，香港上市媒体集团（联交所：1105），同时经营《星岛日报》、《头条日报》等媒体"
+      "org_description": "《英文虎报》的母公司，香港上市媒体集团（联交所：1105），同时经营《星岛日报》、《头条日报》等媒体",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "星岛日报 (Sing Tao Daily)",
-      "org_description": "同属星岛新闻集团的中文旗舰日报，与《英文虎报》共享集团采编及发行资源"
+      "org_description": "同属星岛新闻集团的中文旗舰日报，与《英文虎报》共享集团采编及发行资源",
+      "org_id": "HK-MEDIA-007",
+      "relationship_type": "sibling"
     },
     {
       "org_name": "《南华早报》(SCMP)",
-      "org_description": "香港主要英文收费报章，为主要竞争对手"
+      "org_description": "香港主要英文收费报章，为主要竞争对手",
+      "org_id": "HK-MEDIA-008",
+      "relationship_type": null
     }
   ],
   "core_business": "《英文虎报》（The Standard）于1949年3月1日由星岛日报创办人胡文虎创刊，当时官方中文名称为《标准虎报》，英文原称 Hong Kong Tiger Standard，属星岛新闻集团旗下，是目前香港发行量最高的英文报纸，也是香港唯一的免费英文报章，逢星期一至五派发，2007年9月10日起由收费（原售6港元）转为免费模式。2000年互联网热潮期间曾改名《香港邮报》（Hong Kong iMail）并改以小型报格式，2002年5月恢复原名。该报以印刷版、新闻网站（thestandard.com.hk）、电子报及社交媒体平台提供本地新闻、国际时事、财经、体育及生活内容，并设有「To The Point」等评论专栏，定位为免费英文综合新闻媒体，其Facebook专页有逾13万用户赞好，另运营YouTube频道及Instagram账号，覆盖在港外籍人士及商界读者。",
   "industries": [
     "media_publishing"
   ],
-  "apec_stance": "《英文虎报》作为香港特别行政区唯一的免费英文媒体，服务在港的国际商贸社群，报道本地及亚太区财经时事（包括IPO、楼市及区域贸易动态），为在港外籍及商界读者提供英文资讯。",
+  "apec_stance": "《英文虎报》作为香港特别行政区唯一的免费英文报章，服务在港的国际商贸社群，报道本地及亚太区财经时事（包括IPO、楼市及区域贸易动态），为在港外籍及商界读者提供英文资讯。该报亦主动拓展亚太区媒体网络，与马来西亚网媒《Weekly Echo》及马来西亚新闻学院签署合作谅解备忘录，促进与东盟媒体的新闻专业交流与跨境报道合作，配合香港拓展东盟市场的方向。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_standard_logo.jpg/330px-The_standard_logo.jpg",
     "local_path": null
@@ -155,7 +171,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 79,
+    "completeness_score": 85,
     "quotes": [
       {
         "title": "维基百科：英文虎报",
@@ -172,10 +188,12 @@
       {
         "title": "The Standard 英文虎報 - Facebook",
         "url": "https://www.facebook.com/thestandardhk/"
+      },
+      {
+        "title": "KellyChu：《英文虎報》與大馬網媒及新聞學院簽合作備忘錄（星島頭條）",
+        "url": "https://www.stheadline.com/opinion/3603406/KellyChu-%E8%8B%B1%E6%96%87%E8%99%8E%E5%A0%B1%E8%88%87%E5%A4%A7%E9%A6%AC%E7%B6%B2%E5%AA%92%E5%8F%8A%E6%96%B0%E8%81%9E%E5%AD%B8%E9%99%A2%E7%B0%BD%E5%90%88%E4%BD%9C%E5%82%99%E5%BF%98%E9%8C%84-Executive%E6%97%A5%E8%A8%98"
       }
     ],
-    "notes": "P3二次丰富：补创办人胡文虎及创刊史、Instagram账号、星岛日报关联实体及2026年多平台动态，collection_date更新为2026-09-01。"
-  },
-  "description": "香港唯一免费英文报章",
-  "brief": "香港唯一免费英文报章"
+    "notes": "P3二次丰富：补创办人胡文虎及创刊史、Instagram账号、星岛日报关联实体及2026年多平台动态，collection_date更新为2026-09-01。 | B2批次再丰富：补总经理任展兴（据星岛头条KellyChu专栏关于《英文虎报》与马来西亚媒体签署合作备忘录的报道），扩写APEC关联段落。"
+  }
 }

@@ -79,9 +79,10 @@
   "social_accounts": [],
   "family_members": [
     {
+      "person_id": null,
       "name": "彭灝",
       "relationship": "other",
-      "occupation": null
+      "industry_or_organization": "香港赛马会（会员及马主）"
     }
   ],
   "political_stances": [],
@@ -103,7 +104,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
@@ -130,6 +131,6 @@
         "url": "https://www.cgcc.org.hk/zh/member_detail/%E5%BD%AD%E6%A5%9A%E5%A4%AB"
       }
     ],
-    "notes": "消委会副主席职务有消委会官网+政府新闻公报（2023、2025两次）多源确认。出生日期、出生地未能从可靠来源查得，留空。education条目中学就读加拿大、大学就读波士顿大学的信息来自文汇报2014年专访（单源），写入正式字段但在此标注；education对象含note字段。主要职务公司名称在不同来源有嘉辉时代/龙裕(中国)两种记载，均按来源分列记录。Wikidata QID未核实，留空。"
+    "notes": "2026-09-07复核：消委会副主席现任职务经政府新闻公报（2025年10月24日）原文再次核实——再度委任彭楚夫为副主席，任期两年，自2025年11月1日起生效，公报并载列其列入消委会副主席名单元误。规范化：原person_relationships及family_members引用的HK-PERSON-000067（邝祖盛）、HK-PERSON-000068（彭灝）在persons库中不存在，按规则改为null；family_members移除规则外occupation字段，改为industry_or_organization。出生日期、出生地未能从可靠来源查得，留空。education条目中学就读加拿大、大学就读波士顿大学的信息来自文汇报2014年专访（单源），写入正式字段但在此标注。主要职务公司名称在不同来源有嘉辉时代/龙裕(中国)两种记载，均按来源分列记录。未查到其官方社交账号，保持缺失。Wikidata QID未核实，留null。"
   }
 }

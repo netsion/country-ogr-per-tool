@@ -42,21 +42,29 @@
     }
   ],
   "person_relationships": [],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Dickson Chau 周嘉发",
+      "url": "https://www.facebook.com/dickson.lsd/",
+      "source": "本人Facebook个人页面（其自述职务，原档案collection_meta.quotes已引用该来源）"
+    }
+  ],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
-  "biography_summary": "周嘉发 (Dickson Chau)，香港政治人物，社会民主连线成员，2011年加入该党，2021年起担任外务副主席，为该组织解散前最后一任外务副主席（任期至2025年组织解散）。曾于2013年担任香港大学学生会常务秘书。公开资料中未见其出生年月等个人背景信息的可靠中性来源。",
+  "biography_summary": "周嘉发 (Dickson Chau)，香港政治人物，社会民主连线成员，2011年加入该党，2021年起担任外务副主席，为该组织2025年解散前最后一任外务副主席；曾于2013年担任香港大学学生会常务秘书。2016年11月6日反释法游行期间，其因在中联办外无视警方多次警告、企图从警员手上拉开吴文远阻挠警务人员执行职务，被裁定一项阻挠在正当执行职务的警务人员罪成；与吴文远、郑沛伦共同提出的定罪上诉于2020年9月17日被高等法院原讼法庭驳回（高院裁判法院上诉2019年第492号，[2020] HKCFI 2425）。该司法记录来源为香港特区政府律政司网站司法裁决摘要。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "zh.wikipedia.org",
       "www.facebook.com",
-      "www.lsd.org.hk"
+      "www.lsd.org.hk",
+      "www.doj.gov.hk 律政司司法裁决摘要"
     ],
-    "completeness_score": 26,
+    "completeness_score": 33,
     "quotes": [
       {
         "title": "社会民主连线 — 维基百科（中文）",
@@ -69,8 +77,12 @@
       {
         "title": "周嘉发 Dickson Chau — Facebook 个人页面（本人自述职务）",
         "url": "https://www.facebook.com/dickson.lsd/"
+      },
+      {
+        "title": "律政司司法裁决摘要：香港特别行政区诉吴文远、周嘉发及郑沛伦 HCMA 492/2019（[2020] HKCFI 2425）",
+        "url": "https://www.doj.gov.hk/tc/notable_judgments/pdf/HCMA_492_2019c.pdf"
       }
     ],
-    "notes": "按内容安全约束仅记录基础事实字段，未做泛新闻搜索。出生日期、学历详情等无中性来源，留null。英文名以本人Facebook自述 Dickson Chau 为准（批次信息 Chow Ka-fat 为粤语拼写入aliases）。职务任期由维基百科条目与本人Facebook自述两个独立来源印证。"
+    "notes": "按内容安全约束仅记录基础事实字段，未做泛新闻搜索。出生日期、学历详情等无中性来源，留null。英文名以本人Facebook自述 Dickson Chau 为准（批次信息 Chow Ka-fat 为粤语拼写入aliases）。职务任期由维基百科条目与本人Facebook自述两个独立来源印证。2026-09-07核查：据律政司官网司法裁决摘要增补2016年11月6日中联办外示威阻挠警务人员执行职务罪成、2020年9月17日定罪上诉被驳回（HCMA 492/2019）的司法记录，并据已有Facebook来源增补社交账号；该组织2025年解散后无现任公职，current_positions 留空。教育详情及经证实的其他官方社交账号经查证无更多公开资料。"
   }
 }

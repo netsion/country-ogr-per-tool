@@ -121,9 +121,9 @@
       "person_id": "HK-PERSON-001260",
       "name": "网大为 (David Wallerstein)",
       "name_en": "David Wallerstein",
-      "title": "首席探索官 (CXO)",
-      "title_description": "负责海外市场拓展与前沿探索项目",
-      "description": "腾讯高级执行副总裁兼首席探索官，长期负责集团国际业务拓展，推动腾讯在海外市场（含东南亚等APEC经济体）的投资与合作。"
+      "title": "高级管理顾问 (Senior Management Advisor)",
+      "title_description": "关注前沿科技与全球性议题（粮食、能源、水）",
+      "description": "腾讯首位外籍高管，曾促成MIH对腾讯的关键投资；2001年加入后长期任国际业务部高级执行副总裁，2015年前后出任首席探索官（CXO），2024年1月1日起改任高级管理顾问。"
     }
   ],
   "departments": [
@@ -157,45 +157,60 @@
       "title": "2025年全年收入增长14%至7517.7亿元",
       "date": "2026-03-18",
       "description": "腾讯公布2025年业绩，全年收入7517.7亿元人民币，同比增长14%；净利润2248.4亿元，实现双位数增长，游戏、视频号等高毛利业务占比提升。",
-      "impact": "游戏与广告AI驱动收入盈利双增，四季度净利润增13.5%"
+      "impact": "游戏与广告AI驱动收入盈利双增，四季度净利润增13.5%",
+      "source": "https://static.www.tencent.com/uploads/2026/03/18/559e5d480a4411165e6c7367d61fefbd.pdf"
     },
     {
       "title": "2026年AI投入至少翻倍",
       "date": "2026-03-18",
       "description": "管理层宣布2025年在混元大模型及元宝等AI新产品投入超180亿元，2026年相关投资将至少翻倍；马化腾首谈「养虾」生态AI智能体战略。",
-      "impact": "确立AI为集团核心战略，短期利润率承压换长期布局"
+      "impact": "确立AI为集团核心战略，短期利润率承压换长期布局",
+      "source": "https://finance.sina.com.cn/wm/2026-03-18/doc-inhrmayn1566445.shtml"
     },
     {
       "title": "2026年第一季度营收增长9%，AI全线提速",
       "date": "2026-05-13",
       "description": "2026年一季度总营收1964.6亿元同比增长9%，权益持有人应占净利润580.9亿元同比增长21%，非国际财报准则净利润679.1亿元同比增长11%；研发开支约225.4亿元同比增长19%，主要用于AI投入；微信月活约14.18亿。",
-      "impact": "AI开始反哺游戏、广告、云业务，2026年成为AI商业转化关键年"
+      "impact": "AI开始反哺游戏、广告、云业务，2026年成为AI商业转化关键年",
+      "source": "https://stcn.com/article/detail/3907875.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "阅文集团 (China Literature)",
-      "org_description": "腾讯旗下网络文学平台，运营QQ阅读等数字阅读业务"
+      "org_description": "腾讯旗下网络文学平台，运营QQ阅读等数字阅读业务",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "腾讯音乐娱乐集团 (TME)",
-      "org_description": "腾讯控股的在线音乐娱乐平台，在纽交所与港交所上市"
+      "org_description": "腾讯控股的在线音乐娱乐平台，在纽交所与港交所上市",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "Prosus/Naspers",
-      "org_description": "腾讯主要股东，南非报业集团旗下国际投资公司"
+      "org_description": "腾讯主要股东，南非报业集团旗下国际投资公司",
+      "relationship_type": "minority_shareholder",
+      "org_id": null
     },
     {
       "org_name": "财付通/腾讯金融科技 (Tenpay)",
-      "org_description": "腾讯旗下第三方支付与金融科技平台，为微信支付底层支撑"
+      "org_description": "腾讯旗下第三方支付与金融科技平台，为微信支付底层支撑",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "Epic Games",
-      "org_description": "腾讯持股约40%的美国游戏公司（Fortnite开发商），为集团重要海外投资"
+      "org_description": "腾讯持股约40%的美国游戏公司（Fortnite开发商），为集团重要海外投资",
+      "relationship_type": "minority_shareholder",
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "腾讯2004年6月在港交所主板上市（0700.HK），现为恒生指数最大权重成份股之一"
+      "org_description": "腾讯2004年6月在港交所主板上市（0700.HK），现为恒生指数最大权重成份股之一",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     }
   ],
   "core_business": "腾讯控股有限公司是中国跨国互联网与科技投资控股公司，1998年11月由马化腾、张志东、陈一丹、许晨晔、曾李青五位创始人共同创立，总部位于深圳南山区腾讯滨海大厦，在香港交易所主板上市（0700），为按市值计中国最大公司。集团业务涵盖社交通信（微信/QQ，微信月活约14.18亿）、网络游戏（全球最大游戏公司）、数字内容（视频、音乐、文学）、金融科技（理财通、财付通）、云计算（腾讯云）与企业服务，并通过庞大投资组合持有京东、美团、拼多多、Epic Games、Sea等众多公司权益。2025年集团收入7517.7亿元、净利润2248.4亿元；2026年一季度营收1964.6亿元同比增长9%。AI被确立为核心战略，自研混元大模型支撑元宝助手与云AI产品，2026年AI投入在2025年超180亿元基础上至少翻倍。董事会主席兼CEO为马化腾，总裁为刘炽平，首席战略官为James Mitchell。",
@@ -243,7 +258,5 @@
       }
     ],
     "notes": "P3二次丰富：补全许晨晔/James Mitchell/卢山/网大为管理层、2026年Q1业绩、CDG事业群、财付通/Epic Games/HKEX关联实体、元宝数字资产"
-  },
-  "description": "中国跨国投资控股集团",
-  "brief": "中国最大互联网公司，主营社交、游戏、金融科技与云服务"
+  }
 }

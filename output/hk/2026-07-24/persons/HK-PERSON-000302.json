@@ -21,6 +21,11 @@
       "source": "https://www.hkma.gov.hk/chi/other-information/contact-us/"
     },
     {
+      "type": "phone",
+      "value": "+852 2878 8139",
+      "source": "https://www.directory.gov.hk/details.jsp?dn=cn%3D1268000023%2Cou%3DHKMA%2Cou%3DPeople%2Co%3Dgovernment%2Cc%3Dhk&lang=chi"
+    },
+    {
       "type": "fax",
       "value": "+852 2878 8197",
       "source": "https://www.hkma.gov.hk/chi/other-information/contact-us/"
@@ -76,7 +81,7 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000014",
       "person_name": "余伟文 (Eddie Yue)",
       "relationship_type": "superior",
       "description": "金管局总裁，李达志为总裁委员会成员"
@@ -102,34 +107,40 @@
       "achievement": "主导金管局金融科技发展工作，包括虚拟银行及多种央行数字货币跨境网络等项目"
     }
   ],
-  "biography_summary": "李达志（Howard Tat-chi Lee），太平绅士，现任香港金融管理局副总裁，负责储备管理、金融基建及金融科技，兼任外汇基金投资办公室行政总裁及香港按揭证券有限公司执行董事。2009年加入金管局出任分处主管，曾负责货币管理、金融稳定监察、机构发展及银行政策等范畴工作，2017年11月获委任为副总裁并于2018年1月1日生效。2023年2月至2025年3月兼任香港投资管理有限公司相关职务。2025年5月获财政司司长批准延长任期至正常退休年龄后两年。任内推动香港金融科技生态发展及金融基建造就，包括转数快等支付基建的持续发展。",
+  "biography_summary": "李达志（Howard Tat-chi Lee），太平绅士，现任香港金融管理局副总裁，负责储备管理、金融基建及金融科技，兼任外汇基金投资办公室行政总裁及香港按揭证券有限公司执行董事。2009年加入金管局出任分处主管，曾负责货币管理、金融稳定监察、机构发展及银行政策等范畴工作，2018年1月1日获委任为副总裁。加入金管局前曾任职香港特区政府，负责经济发展、金融服务及其他公共政策工作。2023年2月至2025年3月兼任香港投资管理有限公司相关职务。2025年5月获财政司司长批准延长任期至正常退休年龄后两年。任内推动香港金融科技生态发展及金融基建造就，包括转数快等支付基建的持续发展。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikipedia",
       "official_website",
+      "government_gazette",
+      "government_directory",
+      "wikipedia",
       "news_search"
     ],
     "completeness_score": 53,
     "quotes": [
       {
-        "title": "李达志（香港金融管理局副总裁）_百度百科",
-        "url": "https://baike.baidu.com/item/%E6%9D%8E%E8%BE%BE%E5%BF%97/61475894"
+        "title": "總裁委員會 - 香港金融管理局（李達志簡歷）",
+        "url": "https://www.hkma.gov.hk/chi/about-us/the-hkma/the-chief-executives-committee/"
       },
       {
-        "title": "香港金融管理局 - 香港金融管理局高层人事任命（2025年5月16日）",
+        "title": "香港金融管理局高層人事任命（2025年5月16日新闻公报）",
         "url": "https://www.hkma.gov.hk/gb_chi/news-and-media/press-releases/2025/05/20250516-5/"
+      },
+      {
+        "title": "公務員詳細資料 - 香港特別行政區政府電話簿（李達志：副總裁、外匯基金投資辦公室行政總裁）",
+        "url": "https://www.directory.gov.hk/details.jsp?dn=cn%3D1268000023%2Cou%3DHKMA%2Cou%3DPeople%2Co%3Dgovernment%2Cc%3Dhk&lang=chi"
       },
       {
         "title": "李达志先生 - 中银香港科技创新奖",
         "url": "https://stip.hk/cn/%E5%BE%80%E5%B1%86%E8%A9%95%E5%AF%A9%E5%A7%94%E5%93%A1%E6%9C%83/1st-review-financial-technology-committee-4-cn/1st-mr-howard-tat-chi-lee-2"
       }
     ],
-    "notes": "身份核验无误。补充外汇基金投资办公室、按揭证券公司及港投公司履历，2025年5月任期延长信息。公开资料未见出生日期及学历详情，未编造。avatar原为页面链接非图片直链，无P18，置空。 2026-08-27补深：补入金管局官方联系方式；无经核实的个人社交媒体账号。"
+    "notes": "身份核验无误。2026-09-07复核：任务提示称其为「中银香港高管」，经中银香港官网Senior Management页核实不成立（该页仅载孫煜、邢桂偉、汪華彬、陳文等），李達志实为香港金融管理局副总裁，档案身份维持不变。金管局总裁委员会页确认现任副总裁（负责储备管理、金融基建及金融科技，2018-01-01获委任）；政府电话簿确认兼任外汇基金投资办公室行政总裁；2025-05-16新闻公报确认兼任香港按揭证券有限公司执行董事及任期延长。新增政府电话簿办公室直线电话。学历未见任何官方来源披露，education保持为空，不编造。公开渠道未见个人社交媒体账号，social_accounts保持为空。出生日期无公开资料，维持null。"
   }
 }

@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-000801",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q113902284",
   "name": "盧永雄",
   "name_zh": "卢永雄",
   "name_en": "Lo Wing-hung",
@@ -46,14 +46,14 @@
       "start_date": null,
       "end_date": "1999",
       "organization": "亚洲电视及多家香港主要报章",
-      "org_id": "",
+      "org_id": null,
       "position": "1990年代任亚洲电视新闻部记者；曾在新闻周刊任采访主任，长期报道中港政治新闻"
     },
     {
       "start_date": "1999-07",
       "end_date": "2013",
       "organization": "星岛新闻集团 (Sing Tao News Corporation)",
-      "org_id": "HK-MEDIA-007",
+      "org_id": null,
       "position": "1999年7月加入任《星岛日报》总编辑，2002年10月获委任为集团执行董事，历任《星岛日报》及《头条日报》社长、集团行政总裁"
     },
     {
@@ -100,15 +100,16 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "official_website",
       "news_search",
-      "web_search"
+      "web_search",
+      "wikidata"
     ],
-    "completeness_score": 51,
+    "completeness_score": 52,
     "quotes": [
       {
         "title": "盧永雄 - 維基百科",
@@ -123,6 +124,6 @@
         "url": "https://zh.wikipedia.org/wiki/zh-hk/%E5%B7%B4%E5%A3%AB%E7%9A%84%E5%A0%B1"
       }
     ],
-    "notes": "别名更正：笔名为陆羽仁，原档案「巴士阿叔/Bus Uncle」别称与本人无关已移除；补全学历（中大新闻学士＋政治行政硕士＋港大法律文凭）及勋衔；无Wikidata QID、无公开个人头像直链"
+    "notes": "别名更正：笔名为陆羽仁，原档案「巴士阿叔/Bus Uncle」别称与本人无关已移除；补全学历（中大新闻学士＋政治行政硕士＋港大法律文凭）及勋衔；2026-09-07复核：补Wikidata Q113902284（zh label卢永雄）；星岛新闻集团未在组织索引注册（HK-MEDIA-007对应星岛日报），故其org_id置null；social_accounts中的facebook为巴士的报机构账号，未查证到其个人认证社交账号；无公开个人头像直链"
   }
 }

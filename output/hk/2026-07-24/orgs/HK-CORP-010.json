@@ -71,6 +71,22 @@
       "title": "副总裁兼执行董事",
       "title_description": "协助行政总裁分管财务与投资者关系等事务",
       "description": "中国海外发展副总裁，多次代表集团出席年度及中期业绩发布会，负责财务披露与投资者沟通相关工作。"
+    },
+    {
+      "person_id": "HK-PERSON-001457",
+      "name": "庄勇 (Zhuang Yong)",
+      "name_en": "Zhuang Yong",
+      "title": "副主席兼非执行董事",
+      "title_description": "协助主席参与董事局治理与重大决策监督",
+      "description": "自2020年2月起出任中国海外发展非执行董事，2022年起调任副主席；现兼任中国海外宏洋集团有限公司（香港上市）非执行董事兼董事局主席，来自中国海外集团体系。"
+    },
+    {
+      "person_id": "HK-PERSON-001458",
+      "name": "陈家强 (K.C. Chan)",
+      "name_en": "Professor K.C. Chan",
+      "title": "独立非执行董事",
+      "title_description": "参与董事局监督、审计及企业治理，提供独立意见",
+      "description": "自2019年8月起出任中国海外发展独立非执行董事，曾于2007年至2017年出任香港特区政府财经事务及库务局局长，曾任香港科技大学商学院院长及香港数码港管理有限公司主席，获金紫荆星章、银紫荆星章及太平绅士衔。"
     }
   ],
   "departments": [
@@ -100,51 +116,67 @@
       "date": "2026-08-26",
       "title": "公布2026年度中期业绩",
       "description": "上半年合约物业销售额人民币1343.5亿元，同比增长11.8%，为唯一实现销售双位数增长的TOP10发展商；收入976亿元，同比增长17.3%；核心股东应占溢利79.3亿元，派中期股息每股港币23仙；期末在手现金1211亿元，净借贷比率27.2%。",
-      "impact": "权益销售规模居全行业第一，巩固其在中国房地产行业的领先地位"
+      "impact": "权益销售规模居全行业第一，巩固其在中国房地产行业的领先地位",
+      "source": "https://www.coli.com.hk/cn/NewsCenter/Info?itemid=5940"
     },
     {
       "date": "2026-08-26",
       "title": "香港销售创历年新高",
       "description": "2026年上半年香港及北上广深五个城市合约销售额789.9亿元，占系列公司销售额68.6%；香港全口径销售突破150亿港元，创历年新高，于中资发展商中排名第一。",
-      "impact": "印证聚焦一线城市及香港本地市场战略成效"
+      "impact": "印证聚焦一线城市及香港本地市场战略成效",
+      "source": "https://finance.sina.com.cn/roll/2026-08-31/doc-iniqetnt4649179.shtml"
     },
     {
       "date": "2026-03-31",
       "title": "公布2025年度全年业绩",
       "description": "2025年实现收入1680.9亿元人民币，同比下降9.2%；股东应占净利润156.4亿元，同比增长23.2%；核心净利润130.1亿元；在手现金超千亿元。",
-      "impact": "权益销售及投资规模均居行业第一，保持行业领先盈利能力"
+      "impact": "权益销售及投资规模均居行业第一，保持行业领先盈利能力",
+      "source": "https://www.cohl.com/zh-hans/news/10759/"
     },
     {
       "date": "2025-01-01",
       "title": "权益购地金额居行业首位",
       "description": "2025年全年权益购地金额达924亿元人民币，继续聚焦北京、上海、广州、深圳等一线城市及强二线城市；2026年年初至8月新增购地18宗，权益地价333.4亿元。",
-      "impact": "在房地产市场持续调整背景下扩大土地储备优势，强化市场份额"
+      "impact": "在房地产市场持续调整背景下扩大土地储备优势，强化市场份额",
+      "source": "https://www.guandian.cn/m/show/536419"
     }
   ],
   "related_entities": [
     {
       "org_name": "中国海外集团 (China Overseas Holdings)",
-      "org_description": "中国建筑集团旗下的中央企业母公司，是中国海外发展的控股股东"
+      "org_description": "中国建筑集团旗下的中央企业母公司，是中国海外发展的控股股东",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "中国建筑集团有限公司 (China State Construction Engineering Corporation)",
-      "org_description": "中央企业，中国海外集团的最终母公司"
+      "org_description": "中央企业，中国海外集团的最终母公司",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "中国海外宏洋集团 (China Overseas Grand Oceans Property)",
-      "org_description": "同系香港上市地产公司，主要在内地二三线城市开展房地产开发"
+      "org_description": "同系香港上市地产公司，主要在内地二三线城市开展房地产开发",
+      "relationship_type": "sibling",
+      "org_id": null
     },
     {
       "org_name": "中海物业集团 (China Overseas Property Holdings)",
-      "org_description": "同系香港上市物业管理公司，为集团项目提供物业管理服务"
+      "org_description": "同系香港上市物业管理公司，为集团项目提供物业管理服务",
+      "relationship_type": "sibling",
+      "org_id": null
     },
     {
       "org_name": "中国建筑国际集团 (China State Construction International Holdings)",
-      "org_description": "同系香港上市建筑及基建公司，同属中国海外集团体系"
+      "org_description": "同系香港上市建筑及基建公司，同属中国海外集团体系",
+      "relationship_type": "sibling",
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "中国海外发展为恒生指数成份股，股份代号0688.HK，在香港交易所主板上市"
+      "org_description": "中国海外发展为恒生指数成份股，股份代号0688.HK，在香港交易所主板上市",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     }
   ],
   "core_business": "中国海外发展有限公司是中国建筑工程总公司旗下中国海外集团的房地产旗舰平台，1992年在香港联交所上市（股份代号：0688.HK），为恒生指数成份股，总部设于香港金钟太古广场三座。业务分为住宅开发、经营性业务及生态型业务三大板块：主营物业发展与投资，以「中海地产」品牌在中国内地开展住宅开发，推行「中海好房子」产品体系及「Living OS」系统；运营写字楼、购物中心等持有型商业组合并拓展轻资产管理及多层次REITs平台；同时布局康养等新业态。集团是行业唯一获两家国际评级机构给予A-级评级的内房上市公司，因盈利能力突出在业内有「利润王」之称。策略高度聚焦北京、上海、广州、深圳及香港市场，2026年上半年合约销售1343.5亿元同比增长11.8%、权益销售行业第一，其中香港销售突破150亿港元创历年新高；期末在手现金1211亿元，平均融资成本2.76%居行业最低区间。",
@@ -162,7 +194,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 81,
+    "completeness_score": 89,
     "quotes": [
       {
         "title": "中国海外发展有限公司公布2026年度中期业绩（官网）",
@@ -179,10 +211,12 @@
       {
         "title": "中国海外发展有限公司官方网站",
         "url": "https://www.coli.com.hk/"
+      },
+      {
+        "title": "中国海外发展官方网站：公司治理—董事局名单",
+        "url": "https://www.coli.com.hk/cn/AboutUs/Corporate"
       }
     ],
-    "notes": "P3深度丰富：补入2026中期业绩（合约销售1343.5亿、香港销售150亿港元新高）、生态型业务/REITs平台等板块，管理层按官网保留"
-  },
-  "description": "中国建筑集团旗下香港上市地产开发商，以「中海地产」品牌运营，中国房地产行业龙头",
-  "brief": "中国建筑集团旗下香港上市地产开发商，以「中海地产」品牌运营，权益销售行业第一，中国房地产行业龙头"
+    "notes": "P3深度丰富：补入2026中期业绩（合约销售1343.5亿、香港销售150亿港元新高）、生态型业务/REITs平台等板块，管理层按官网保留；B4批注：按官网公司治理页补入副主席兼非执行董事庄勇、独立非执行董事陈家强（二人于内部人名索引无登记，person_id为null）"
+  }
 }

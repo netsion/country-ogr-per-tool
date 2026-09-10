@@ -22,12 +22,26 @@
       "account_name": "公民黨 Civic Party",
       "url": "https://www.facebook.com/civicpartyhk",
       "source": "Facebook 公开专页（解散前官方专页，现已停止更新）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Civic Party公民黨",
+      "url": "https://www.youtube.com/@hkcivicparty",
+      "source": "YouTube 公开频道（解散前官方频道，现已停止更新）"
     }
   ],
   "digital_assets": [
     {
       "name": "公民党 Facebook 专页（历史存档）",
       "description": "该党解散前的官方社交媒体专页，刊载历届执委选举、政策发布等党务资讯，解散后停止更新。"
+    },
+    {
+      "name": "公民党 YouTube 频道（历史存档）",
+      "description": "该党解散前的官方YouTube频道，载有党务宣传、立法会工作及「公民对谈」等视频内容，解散后停止更新。"
+    },
+    {
+      "name": "《十年前后》创党十周年特刊",
+      "description": "公民党成立十周年时制作的特刊，收录「公民对谈」系列跨党派交流访谈，记录该党政制论述。"
     }
   ],
   "key_people": [
@@ -76,41 +90,69 @@
   ],
   "recent_events": [
     {
+      "date": "2012-09-09",
+      "title": "立法会换届选举取得6席",
+      "description": "公民党在2012年立法会换届选举中取得6个议席，为其历史最佳成绩，成为当时立法会内主要非建制派政党之一。",
+      "impact": "该党议会影响力达到顶峰。",
+      "source": "https://zh.wikipedia.org/zh-hant/%E5%85%AC%E6%B0%91%E9%BB%A8_(%E9%A6%99%E6%B8%AF)"
+    },
+    {
+      "date": "2022-12-06",
+      "title": "周年大会无人接任，执委会转为临时执委会",
+      "description": "公民党举行周年党员大会，因无人报名参选新一届执行委员会，现任执委会转为此后负责公民党有限公司清盘工作的临时执委会，该党步入解散程序。",
+      "impact": "政党运作转入清盘准备阶段。",
+      "source": "https://www.voacantonese.com/a/ithk-democratic-party-elected-new-committee-civic-party-enter-disbanding-20221206-rt/6864604.html"
+    },
+    {
       "date": "2023-05-27",
       "title": "特别会员大会通过解散决议",
       "description": "公民党召开特别会员大会，超过四分之三出席党员通过清盘解散决议，并委任清盘人展开程序，该党当时已无党员参加立法会换届选举。",
-      "impact": "成立17年的政党进入解散程序。"
+      "impact": "成立17年的政党进入解散程序。",
+      "source": "https://news.now.com/home/local/player?newsId=519088"
+    },
+    {
+      "date": "2023-12-24",
+      "title": "临时执行委员会总辞",
+      "description": "临时执委会主席梁家杰宣布临时执行委员会于12月24日总辞，清盘人已按法例召开最终会议并向会员提交清盘报告，该党按法例将于2024年3月正式解散。",
+      "impact": "清盘程序进入最后阶段，党务运作全面停止。",
+      "source": "https://www.cna.com.tw/news/acn/202312230184.aspx"
     },
     {
       "date": "2024-03-27",
       "title": "完成清盘正式解散",
       "description": "公民党有限公司完成所有清盘程序并从公司注册处名册除名，正式解散；结余近10万港元全数捐赠香港公益金。",
-      "impact": "该党结束18年历史。"
+      "impact": "该党结束18年历史。",
+      "source": "https://www.hk01.com/%E6%94%BF%E6%83%85/1004703/"
     }
   ],
   "related_entities": [
     {
       "org_name": "香港公益金 (Community Chest)",
-      "org_description": "公民党解散后将约10万港元结余全数捐赠的慈善机构"
+      "org_description": "公民党解散后将约10万港元结余全数捐赠的慈善机构",
+      "org_id": "HK-NGO-005"
     },
     {
       "org_name": "香港立法会 (Legislative Council)",
-      "org_description": "公民党曾在2012年立法会选举取得6席，为当时非建制派第一大党"
+      "org_description": "公民党曾在2012年立法会选举取得6席，为当时非建制派第一大党",
+      "org_id": "HK-GOV-027"
     },
     {
       "org_name": "香港大律师公会 (Hong Kong Bar Association)",
-      "org_description": "该党多名创党成员及领导层为执业大律师或资深大律师，与香港法律界联系密切"
+      "org_description": "该党多名创党成员及领导层为执业大律师或资深大律师，与香港法律界联系密切",
+      "org_id": null
     },
     {
       "org_name": "香港特别行政区政府公司注册处 (Companies Registry)",
-      "org_description": "公民党以有限公司形式注册，2024年3月完成清盘后从公司注册处名册除名"
+      "org_description": "公民党以有限公司形式注册，2024年3月完成清盘后从公司注册处名册除名",
+      "relationship_type": "regulator",
+      "org_id": null
     }
   ],
   "core_business": "公民党是香港一个已解散的政党，2006年3月19日成立，以有限公司形式注册运作，核心成员多来自法律界（俗称「大状党」），曾为立法会内主要非建制派政党之一，2012年立法会选举取得6席。该党组织架构包括党员大会（最高权力机构）、执行委员会（设主席、党魁、副主席、秘书长等职）及青年组织「青年公民」。2022年底该党执行委员会无人接任而转为临时执行委员会，2023年5月27日特别会员大会通过自愿清盘解散决议，2024年3月27日完成清盘程序从公司注册处除名，正式解散，结余近10万港元捐赠香港公益金。该组织现已不存在，无现任架构。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "该党已解散，无现行职能；其历史活动范畴限于香港本地政治，未参与APEC或亚太区域经贸合作机制。",
+  "apec_stance": "该党已解散，无现行职能；其历史活动范畴限于香港本地政治与立法会事务，未参与APEC或亚太区域经贸合作机制；历史上该党成员曾就涉及区域政经议题的香港政策发表意见，但与APEC进程无直接关联。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Logo_of_the_Civic_Party.svg/330px-Logo_of_the_Civic_Party.svg.png",
     "local_path": null
@@ -123,7 +165,7 @@
       "wikidata",
       "news_search"
     ],
-    "completeness_score": 69,
+    "completeness_score": 87,
     "quotes": [
       {
         "title": "公民党 - 维基百科（繁体条目）",
@@ -136,10 +178,20 @@
       {
         "title": "公民党换届领导层年轻化 杨岳桥任党魁（HK01）",
         "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/55208/"
+      },
+      {
+        "title": "香港公民黨臨時執委會24日總辭 明年3月正式解散（中央社）",
+        "url": "https://www.cna.com.tw/news/acn/202312230184.aspx"
+      },
+      {
+        "title": "Civic Party公民黨 - YouTube官方頻道",
+        "url": "https://www.youtube.com/@hkcivicparty"
+      },
+      {
+        "title": "香港民主黨選出新一屆中委 公民黨無人接班將進入解散程序（VOA）",
+        "url": "https://www.voacantonese.com/a/ithk-democratic-party-elected-new-committee-civic-party-enter-disbanding-20221206-rt/6864604.html"
       }
     ],
-    "notes": "Phase3深度丰富：已解散政党，纯事实记录其成立、组织架构、历任领导及解散程序，无现任架构，新增前主席陈家洛、前党魁杨岳桥（person_id=null 待主会话分配），内容统一为简体中文。"
-  },
-  "description": "香港已解散政党（2006-2024）",
-  "brief": "香港已解散政党（2006-2024）"
+    "notes": "Phase3深度丰富：已解散政党，纯事实记录其成立、组织架构、历任领导及解散程序，无现任架构，新增前主席陈家洛、前党魁杨岳桥（person_id=null 待主会话分配），内容统一为简体中文。P3二次丰富：补充YouTube官方频道（解散前开设，现停止更新）及2023年12月24日临时执委会总辞事件，social_accounts计2项。P3三次丰富：依维基百科及VOA报道补充2012年立法会选举6席、2022年12月6日临时执委会转换两条历史事件，补YouTube历史存档及十周年特刊数字资产，扩充apec_stance。"
+  }
 }

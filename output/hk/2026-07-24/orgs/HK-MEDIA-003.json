@@ -44,6 +44,10 @@
     {
       "name": "信报财经月刊",
       "description": "信报出版的深度财经分析月刊"
+    },
+    {
+      "name": "信报网上版及流动版",
+      "description": "《信报》网上版与流动应用，于印刷版休刊日继续提供即时财经新闻订阅服务"
     }
   ],
   "key_people": [
@@ -56,17 +60,24 @@
     },
     {
       "person_id": "HK-PERSON-000805",
-      "name": "邓传锵 (Tang Chuen-cheung)",
+      "name": "鄧傳鏘 (Vincent Teng Chuen-cheong)",
       "title": "总编辑",
       "title_description": "负责信报编辑方针与新闻内容",
       "description": "资深财经新闻工作者，2024年8月接替退休的郭艳明出任《信报》总编辑，并同时担任《信报财经月刊》总编辑，负责财经新闻及评论内容的编辑方针。"
     },
     {
       "person_id": "HK-PERSON-001193",
-      "name": "林行止 (Lin Hsi-tung)",
+      "name": "林行止 (Lam Shan-muk)",
       "title": "创办人、前社长",
       "title_description": "信报创办人，长期撰写「林行止专栏」",
       "description": "本名林山木，1973年与夫人骆友梅创办《信报》，为香港首份专业财经报章的开创者，其政经专栏在华人知识界影响深远，已卸任社长职务。"
+    },
+    {
+      "person_id": "HK-PERSON-001464",
+      "name": "骆友梅",
+      "title": "创办人",
+      "title_description": "1973年与林行止共同创办信报",
+      "description": "林行止夫人，曾从事新闻工作，1973年与林行止等共同创办《信报》，长期参与报社经营，为香港首份专业财经中文报章的创办人之一。"
     }
   ],
   "departments": [
@@ -92,44 +103,54 @@
       "title": "电讯盈科向李泽楷收购信报业务",
       "date": "2025-01-28",
       "description": "电讯盈科以7,000万港元向主席李泽楷收购信报业务，信报由李泽楷个人持有转入其上市的电讯盈科体系。",
-      "impact": "信报控股结构变更，纳入电讯盈科旗下媒体业务"
+      "impact": "信报控股结构变更，纳入电讯盈科旗下媒体业务",
+      "source": "https://www.hkej.com/instantnews/announcement/article/3988273/%E9%9B%BB%E7%9B%88%E6%96%A57000%E8%90%AC%E5%90%91%E6%9D%8E%E6%BE%A4%E6%A5%B7%E8%B3%BC%E4%BF%A1%E5%A0%B1"
     },
     {
       "title": "邓传锵接任总编辑",
       "date": "2024-08-01",
       "description": "总编辑郭艳明退休，由资深财经新闻工作者邓传锵接任《信报》及《信报财经月刊》总编辑。",
-      "impact": "完成编辑部领导层交接"
+      "impact": "完成编辑部领导层交接",
+      "source": "https://www.881903.com/news/local/2534489"
     },
     {
       "title": "持续经营付费订阅数码转型",
       "date": "2025-01-01",
       "description": "信报在纸媒市场收缩环境下持续强化hkej.com付费订阅模式，聚焦财经专业读者群，维持财经新闻与政经评论的市场定位。",
-      "impact": "在香港中文财经媒体中保持专业读者市场"
+      "impact": "在香港中文财经媒体中保持专业读者市场",
+      "source": "https://www.hkej.com"
     }
   ],
   "related_entities": [
     {
       "org_name": "盈科拓展集团 (Pacific Century Group)",
-      "org_description": "李泽楷旗下投资集团，2006年入主信报，2025年信报业务售予电讯盈科"
+      "org_description": "李泽楷旗下投资集团，2006年入主信报，2025年信报业务售予电讯盈科",
+      "relationship_type": "affiliated",
+      "org_id": null
     },
     {
       "org_name": "电讯盈科 (PCCW)",
-      "org_description": "李泽楷任主席的香港上市电信及媒体集团，2025年1月以7,000万港元收购信报业务，信报现为其旗下媒体"
+      "org_description": "李泽楷任主席的香港上市电信及媒体集团，2025年1月以7,000万港元收购信报业务，信报现为其旗下媒体",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "Clermont Media Limited",
-      "org_description": "以李泽楷为委托人的离岸信托公司全资持有的公司，为信报财经新闻有限公司的直接全资股东"
+      "org_description": "以李泽楷为委托人的离岸信托公司全资持有的公司，为信报财经新闻有限公司的直接全资股东",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "香港经济日报 (Hong Kong Economic Times)",
-      "org_description": "1988年创刊的中文财经报章，与信报市场定位相近，长期构成竞争关系"
+      "org_description": "1988年创刊的中文财经报章，与信报市场定位相近，长期构成竞争关系",
+      "org_id": null
     }
   ],
   "core_business": "《信报财经新闻》（简称《信报》）于1973年7月3日创刊，由林行止（原名林山木）与妻子骆友梅及罗治平创办，是香港首份以财经新闻为主的中文报章，曾经被学术调查评选为具有公信力的香港报章之一。信报以专业财经报道、政经评论（「林行止专栏」曾为标志性栏目）及市场分析著称，读者以金融界、商界及知识分子为主。2006年李泽楷以约3,500万美元收购信报，2025年1月电讯盈科以7,000万港元向李泽楷收购信报业务。信报逢周一至周六出版，总部位于九龙牛头角励业街联侨广场，2008年启用网上版，营运hkej.com付费订阅平台及《信报财经月刊》（1977年创刊）。在纸媒持续收缩的环境下，信报专注财经专业内容与订阅制数码转型，维持其在香港财经媒体中的专业地位。现任总编辑为邓传锵。",
   "industries": [
     "media_publishing"
   ],
-  "apec_stance": "信报专注财经新闻，报道覆盖亚太金融市场与国际贸易动态，为华语商界读者提供APEC经济体经济政策与市场资讯。",
+  "apec_stance": "信报专注财经新闻，报道覆盖亚太金融市场与国际贸易动态，长期追踪APEC会议及亚太区经济体政策与跨境商贸资讯，曾报道行政长官赴韩国庆州出席APEC领导人非正式会议等区域经贸新闻，为华语商界读者提供APEC成员经济体的经济政策、市场分析与投资资讯，是亚太区华人财经读者了解区域政经动态的重要中文媒体之一。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HKEJ_logo.svg/330px-HKEJ_logo.svg.png",
     "local_path": null
@@ -143,7 +164,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 77,
+    "completeness_score": 85,
     "quotes": [
       {
         "title": "维基百科：信報",
@@ -152,10 +173,16 @@
       {
         "title": "信报财经新闻官方网站",
         "url": "https://www.hkej.com"
+      },
+      {
+        "title": "李家超明赴南韓慶州出席APEC會議（信報網站）",
+        "url": "https://www.hkej.com/instantnews/current/article/4232508/%E6%9D%8E%E5%AE%B6%E8%B6%85%E6%98%8E%E8%B5%B4%E5%8D%97%E9%9F%93%E6%85%B6%E5%B7%9E%E5%87%BA%E5%B8%ADAPEC%E6%9C%83%E8%AD%B0"
+      },
+      {
+        "title": "信报网站出报安排及网上版流动版说明",
+        "url": "https://m.hkej.com/dailynewsmob/finnews"
       }
     ],
-    "notes": "P3再丰富：补2025年电讯盈科7,000万港元收购、2024年总编辑交接、Clermont Media持股架构及香港经济日报竞合关系，事实记录。"
-  },
-  "description": "香港中文财经报章",
-  "brief": "1973年创刊的香港首份专业财经中文报章，李泽楷为最终控股人"
+    "notes": "P3再丰富：补2025年电讯盈科7,000万港元收购、2024年总编辑交接、Clermont Media持股架构及香港经济日报竞合关系，事实记录。 | B2批次再丰富：补创办人骆友梅、网上版及流动版数字资产，扩写APEC关联段落。"
+  }
 }

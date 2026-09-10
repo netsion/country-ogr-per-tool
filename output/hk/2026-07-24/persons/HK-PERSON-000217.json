@@ -16,22 +16,22 @@
   "current_positions": [],
   "education": [
     {
-      "start_date": null,
-      "end_date": null,
+      "start_date": "2000",
+      "end_date": "2007",
       "institution": "沙田培英中学 (Sha Tin Pui Ying College)",
       "degree": "high_school",
       "field": "中学"
     },
     {
       "start_date": null,
-      "end_date": null,
+      "end_date": "2010",
       "institution": "香港理工大学 (Hong Kong Polytechnic University)",
       "degree": "bachelor",
-      "field": "社会科学（社会政策）"
+      "field": "社会政策及行政"
     },
     {
       "start_date": null,
-      "end_date": null,
+      "end_date": "2011",
       "institution": "香港中文大学 (The Chinese University of Hong Kong)",
       "degree": "master",
       "field": "社会政策"
@@ -43,23 +43,89 @@
       "end_date": "2025-06-29",
       "organization": "社会民主连线 (League of Social Democrats)",
       "org_id": "HK-PARTY-007",
-      "position": "成员，其后出任主席（社民连于2025年6月29日宣布解散）"
+      "position": "成员"
     },
     {
       "start_date": null,
       "end_date": null,
-      "organization": "沙田沥源区议员岑子杰议员办事处 (Office of Councillor Sum Tse-kit)",
+      "organization": "立法会议员梁国雄办事处 (Office of Legislative Councillor Leung Kwok-hung)",
       "org_id": null,
-      "position": "办事处职员"
+      "position": "议员助理"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "社会民主连线 (League of Social Democrats)",
+      "org_id": "HK-PARTY-007",
+      "position": "行政委员"
+    },
+    {
+      "start_date": "2014-02",
+      "end_date": "2016-02",
+      "organization": "社会民主连线 (League of Social Democrats)",
+      "org_id": "HK-PARTY-007",
+      "position": "内务副主席"
+    },
+    {
+      "start_date": "2016-02-21",
+      "end_date": "2020-03-01",
+      "organization": "社会民主连线 (League of Social Democrats)",
+      "org_id": "HK-PARTY-007",
+      "position": "外务副主席"
+    },
+    {
+      "start_date": "2020-03-01",
+      "end_date": "2021-07-25",
+      "organization": "社会民主连线 (League of Social Democrats)",
+      "org_id": "HK-PARTY-007",
+      "position": "主席（第七届）"
     }
   ],
-  "person_relationships": [],
-  "social_accounts": [],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-001391",
+      "person_name": "梁国雄 (Leung Kwok-hung)",
+      "relationship_type": "superior",
+      "description": "2013年黄浩铭担任立法会议员梁国雄的助理，协助其议会工作"
+    },
+    {
+      "person_id": "HK-PERSON-001393",
+      "person_name": "吴文远 (Avery Ng)",
+      "relationship_type": "colleague",
+      "description": "社民连前主席，2020年3月1日由黄浩铭接任主席职务"
+    },
+    {
+      "person_id": "HK-PERSON-001202",
+      "person_name": "陈宝莹 (Chan Po-ying)",
+      "relationship_type": "colleague",
+      "description": "社民连党友，2021年7月25日接替黄浩铭出任社民连主席"
+    },
+    {
+      "person_id": null,
+      "person_name": "岑子杰 (Sum Tse-kit)",
+      "relationship_type": "colleague",
+      "description": "社民连党友，2020年接替黄浩铭出任社民连外务副主席，2019年当选沙田沥源区议员"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "raphaelpyc",
+      "url": "https://www.facebook.com/raphaelpyc",
+      "source": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%B5%A9%E9%8A%98"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "RaphaelWongHK",
+      "url": "https://www.facebook.com/RaphaelWongHK",
+      "source": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%B5%A9%E9%8A%98"
+    }
+  ],
   "family_members": [
     {
       "person_id": null,
       "name": "黄裕财",
-      "relationship": "other",
+      "relationship": "father",
       "industry_or_organization": "沙田乡事委员会执行委员会成员、沙田下禾輋村非原居民代表"
     }
   ],
@@ -69,29 +135,40 @@
       "topic": "基层民生政策",
       "stance_content": "长期关注基层住屋、劳工及社会福利议题，参与基层社区运动",
       "source": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%B5%A9%E9%8A%98"
+    },
+    {
+      "date": "2017-08-15",
+      "topic": "公民抗命与和平抗争",
+      "stance_content": "主张非暴力和平抗争，认为为弱势群体发声是公民责任，公民抗命者应勇于承担刑责以彰显公义",
+      "source": "https://zh.wikipedia.org/wiki/%E9%BB%83%E6%B5%A9%E9%8A%98"
     }
   ],
   "major_achievements": [
     {
-      "date": "",
-      "organization": "社会民主连线 (LSD)",
-      "achievement": "出任社会民主连线主席，直至该党于2025年6月解散"
+      "date": "2014-02",
+      "organization": "社会民主连线 (League of Social Democrats)",
+      "achievement": "以25岁之龄当选社会民主连线内务副主席，接替退下来的邓徐中"
+    },
+    {
+      "date": "2020-03-01",
+      "organization": "社会民主连线 (League of Social Democrats)",
+      "achievement": "接替吴文远出任社会民主连线第七届主席，至2021年7月25日由陈宝莹接任"
     }
   ],
-  "biography_summary": "黄浩铭，1988年10月24日出生于香港，外号「村长」，社会运动人士及前政界人物，曾任社会民主连线主席。他早年就读沙田培英中学，先后取得香港理工大学社会科学系社会政策学士学位及香港中文大学社会政策硕士学位。2008年他加入社会民主连线，长期从事基层社会运动，关注基层住屋、劳工及社会福利等民生议题，曾任沙田沥源区议员岑子杰办事处职员，2015年曾参选区议会但未当选。他其后出任社民连主席，社民连于2025年6月29日宣布解散。其父亲黄裕财为沙田乡事委员会执行委员会成员。他曾因多起社运相关案件服刑。",
+  "biography_summary": "黄浩铭，1988年10月24日出生于香港，外号「村长」，社会运动人士及前政界人物。他2000年至2007年就读沙田培英中学，2010年获香港理工大学社会政策及行政（荣誉）文学士学位，2011年获香港中文大学社会政策社会科学硕士学位。2008年加入社会民主连线，长期从事基层社会运动，关注基层住屋、劳工及社会福利等民生议题，2013年曾任立法会议员梁国雄的助理。他2011年及2015年两度出战沙田沥源区议会选举均高票落败，2016年与陈伟业合组名单参选立法会新界西亦未当选。党内方面，他2014年2月当选社民连内务副主席，2016年2月21日出任外务副主席，2020年3月1日接替吴文远出任第七届主席，2021年7月25日由陈宝莹接任。他先后四次因社运相关案件入狱，2022年5月30日刑满出狱。社民连于2025年6月29日宣布解散。其父亲黄裕财为沙田乡事委员会执行委员会成员。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Raphael_Wong.jpg/250px-Raphael_Wong.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-20",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "news_search"
     ],
-    "completeness_score": 47,
+    "completeness_score": 78,
     "quotes": [
       {
         "title": "维基百科：黃浩銘",
@@ -106,6 +183,6 @@
         "url": "https://www.wikidata.org/wiki/Q15908246"
       }
     ],
-    "notes": "出生日期修正为1988-10-24（原档案1979-01-01有误）。法律案件按敏感中立规则作中性表述，政治争议细节略去。"
+    "notes": "2026-09-07维护：以中文维基百科API核证并补全履历与教育时间线，英文维基百科交叉核证。关键修正：主席任期为2020-03-01至2021-07-25（接替吴文远，由陈宝莹接任），原档案「出任主席直至2025年6月解散」有误；其2008年加入社民连，该党于2025-06-29宣布解散。补充：培英中学2000-2007、理大社会政策及行政学士2010、中大社会政策硕士2011、2014-02内务副主席、2016-02-21外务副主席、2013年任立法会议员梁国雄助理、两个Facebook专页；family_members黄裕财relationship由other修正为father。current_positions无可查证现任职务（社民连已解散、无其他公职）保持为空。出生日期1988-10-24经维基百科核证无误。法律案件按敏感中立规则作中性表述，政治争议细节略去。"
   }
 }

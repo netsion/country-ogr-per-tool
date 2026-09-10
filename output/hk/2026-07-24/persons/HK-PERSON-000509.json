@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-000509",
-  "wikidata_qid": "Q11176350",
+  "wikidata_qid": "Q126488",
   "name": "黃志祥",
   "name_zh": "黄志祥",
   "name_en": "Robert Ng Chee Siong",
@@ -14,7 +14,7 @@
   "birth_place": "新加坡",
   "contacts": [],
   "current_positions": [
-    "信和集团主席（信和置业、尖沙咀置业及信和酒店主席职务于2025年8月31日退任，由长子黄永光接任）"
+    "信和集团主席（信和置业、尖沙咀置业及信和酒店主席职务已于2025年8月31日退任，由长子黄永光接任）"
   ],
   "education": [],
   "work_experience": [
@@ -47,22 +47,35 @@
       "person_id": null,
       "name": "黄廷方 (Ng Teng Fong)",
       "relationship": "father",
-      "industry_or_organization": "父亲，新加坡远东机构及信和集团创办人"
+      "industry_or_organization": "新加坡远东机构及信和集团创办人"
+    },
+    {
+      "person_id": null,
+      "name": "杨素琼",
+      "relationship": "spouse",
+      "industry_or_organization": "妻子，杨伟成之女"
     },
     {
       "person_id": null,
       "name": "黄志达 (Philip Ng)",
-      "relationship": "other",
+      "relationship": "brother",
       "industry_or_organization": "弟弟，主管新加坡远东机构"
     },
     {
       "person_id": "HK-PERSON-000510",
-      "name": "黄永光",
+      "name": "黄永光 (Daryl Ng)",
       "relationship": "son",
-      "industry_or_organization": "长子，信和集团执行董事兼副主席"
+      "industry_or_organization": "长子，信和集团执行董事兼副主席，2025年8月接任信和置业主席"
     }
   ],
-  "political_stances": [],
+  "political_stances": [
+    {
+      "date": "",
+      "topic": "土地房屋政策",
+      "stance_content": "向来有「地产超级大好友」之称，对香港地产业长期乐观，支持香港特区政府的「勾地」政策，政府每次卖地均常见其踪影",
+      "source": "中文维基百科「黃志祥 (商人)」条目"
+    }
+  ],
   "major_achievements": [
     {
       "date": "1991",
@@ -86,7 +99,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -94,21 +107,21 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 46,
+    "completeness_score": 48,
     "quotes": [
       {
         "title": "黃志祥 (商人) - 維基百科",
-        "url": "https://zh.wikipedia.org/wiki/zh-hk/%E9%BB%83%E5%BF%97%E7%A5%A5_(%E5%95%86%E4%BA%BA)"
+        "url": "https://zh.wikipedia.org/wiki/%E9%BB%83%E5%BF%97%E7%A5%A5_(%E5%95%86%E4%BA%BA)"
+      },
+      {
+        "title": "Wikidata Q126488 - Robert Ng",
+        "url": "https://www.wikidata.org/wiki/Q126488"
       },
       {
         "title": "黃志祥8月底退任信置主席 長子黃永光「接棒」 - 香港01",
         "url": "https://www.hk01.com/%E8%B2%A1%E7%B6%93%E5%BF%AB%E8%A8%8A/60262663/"
-      },
-      {
-        "title": "黃志祥（新加坡富豪）- 百度百科",
-        "url": "https://baike.baidu.com/item/%E9%BB%84%E5%BF%97%E7%A5%A5/66732875"
       }
     ],
-    "notes": "重要更新：2025年8月31日退任信和系三上市公司主席；国籍更正为新加坡籍（SG）；获颁勋衔为金紫荆星章（GBS）；无公开个人头像直链"
+    "notes": "2026-09-07核查：修正wikidata_qid，原Q11176350实为消歧义页，经Wikidata API核实Q126488（label「Robert Ng/黃志祥」，描述信和集团主席）为正确条目；birth_date保持「1952-01-01」（schema要求YYYY-MM-DD格式，实际公开资料仅确知1952年出生，Wikidata P569精度仅到年，日/月为占位惯例）；补妻子杨素琼（杨伟成之女）及六名子女中的黄永光等家庭关系，兄弟黄志达关系改为brother；补政治立场（支持「勾地」政策、「地产超级大好友」）；教育背景经Wikidata（无P69）及中文维基核查均无可查证的院校信息，保持缺失；无经核实的个人社交媒体账号，social保持空。"
   }
 }

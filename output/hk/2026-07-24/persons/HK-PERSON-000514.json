@@ -10,7 +10,7 @@
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "birth_place": "",
+  "birth_place": "北京",
   "contacts": [
     {
       "type": "other",
@@ -87,7 +87,7 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001148",
       "person_name": "马化腾 (Pony Ma)",
       "relationship_type": "colleague",
       "description": "腾讯董事会主席兼首席执行官，刘炽平为其核心管理伙伴"
@@ -108,24 +108,24 @@
       "achievement": "升任总裁，协助带领腾讯成为中国最大互联网公司之一并于香港上市"
     }
   ],
-  "biography_summary": "刘炽平（Martin Lau Chi-ping），1973年生，腾讯控股有限公司总裁兼执行董事。先后获密歇根大学电气工程学士、斯坦福大学电气工程硕士及西北大学凯洛格商学院工商管理硕士学位。加入腾讯前曾任职麦肯锡管理顾问及高盛投资银行部执行董事，参与多家中国电信及科技企业的融资项目。2005年加入腾讯任首席战略投资官，2006年升任总裁，主导腾讯的战略规划与投资并购，是公司发展为全球领先互联网企业的核心管理层成员。",
+  "biography_summary": "刘炽平（Martin Lau Chi-ping），1973年生于北京，腾讯控股有限公司总裁兼执行董事。先后获密歇根大学电气工程学士、斯坦福大学电气工程硕士及西北大学凯洛格商学院工商管理硕士学位。加入腾讯前曾任职麦肯锡管理顾问及高盛投资银行部执行董事，参与多家中国电信及科技企业的融资项目。2005年加入腾讯任首席战略投资官，2006年升任总裁，主导腾讯的战略规划与投资并购，是公司发展为全球领先互联网企业的核心管理层成员。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "official_website"
     ],
-    "completeness_score": 54,
+    "completeness_score": 56,
     "quotes": [
       {
-        "title": "劉熾平 - 維基百科",
-        "url": "https://zh.wikipedia.org/wiki/%E5%88%98%E7%82%BD%E5%B9%B3"
+        "title": "Martin Lau - Wikidata Q22774267",
+        "url": "https://www.wikidata.org/wiki/Q22774267"
       },
       {
         "title": "腾讯官网管理层",
@@ -136,6 +136,6 @@
         "url": "https://finance.ifeng.com/people/detail/comchief/liuzhiping.shtml"
       }
     ],
-    "notes": "修正原lite错误QID Q162897（消歧义页），经zh-wiki条目匹配Q22774267 2026-08-27补深：补入公司官方联系方式；无经核实的个人社交媒体账号。"
+    "notes": "修正原lite错误QID Q162897（消歧义页），经zh-wiki条目匹配Q22774267。2026-09-07补深：据Wikidata Q22774267补birth_date=1973（P569年仅精度）、birth_place=北京（P19=Q956北京）；中文维基百科暂无其条目；无经核实的个人社交媒体账号，社交账号保持空并注明。"
   }
 }

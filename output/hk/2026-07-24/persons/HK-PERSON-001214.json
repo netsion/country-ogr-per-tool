@@ -29,28 +29,28 @@
       "end_date": null,
       "institution": "香港大学 (The University of Hong Kong)",
       "degree": "bachelor",
-      "field": "工业工程理学学士"
+      "field": "工业工程"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "香港大学 (The University of Hong Kong)",
-      "degree": "postgraduate_certificate",
-      "field": "心理学 Postgraduate Certificate in Psychology"
+      "degree": "other",
+      "field": "心理学（研究生证书）"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "威斯康星大学麦迪逊分校 (University of Wisconsin-Madison, USA)",
       "degree": "master",
-      "field": "心理学硕士"
+      "field": "心理学"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "威斯康星大学麦迪逊分校 (University of Wisconsin-Madison, USA)",
       "degree": "doctorate",
-      "field": "心理学博士"
+      "field": "心理学"
     }
   ],
   "work_experience": [
@@ -65,14 +65,14 @@
       "start_date": null,
       "end_date": null,
       "organization": "香港大学 (The University of Hong Kong)",
-      "org_id": null,
+      "org_id": "HK-ACAD-012",
       "position": "心理学系任教；曾任大学堂舍监（1996-2006）、社会科学院副院长（2000-2002）、通识教育总监（2002-2015）、学生事务长（2005-2015）"
     },
     {
       "start_date": "2017",
       "end_date": "2023",
       "organization": "香港都会大学 (Hong Kong Metropolitan University)",
-      "org_id": null,
+      "org_id": "HK-ACAD-008",
       "position": "校董会成员"
     },
     {
@@ -99,10 +99,10 @@
       "achievement": "推动跨学科教学创新与学生全人发展，主导大学教学课程改革与体验式、虚拟教学模式发展"
     }
   ],
-  "biography_summary": "周伟立（Albert Chau Wai-lap），香港浸会大学副校长（教与学），2016年7月就任，负责大学教学与学习事务，包括课程与学位课程发展、教学质量保证、体验式与虚拟教学、学生收生及教学环球化。他于香港大学取得工业工程理学学士及心理学 Postgraduate Certificate，后于美国威斯康星大学麦迪逊分校取得心理学硕士及博士学位，曾任教于香港大学心理学系，先后担任大学堂舍监（1996-2006）、社会科学院副院长（2000-2002）、通识教育总监（2002-2015）及学生事务长（2005-2015）。他是香港心理学会院士，2017至2023年任香港都会大学校董会成员，并曾参与多个与教育、长者事务及环境相关的政府委员会及咨询小组。",
-  "profile": "周伟立是心理学家及高等教育管理者，长期从事学生事务与通识教育工作，在香港大学服务逾二十年后，自2016年起领导香港浸会大学的教学与学习发展，倡导培育具关怀、创意及道德操守的全球公民。",
+  "biography_summary": "周伟立（Albert Chau Wai-lap），香港浸会大学副校长（教与学），2016年7月就任，负责大学教学与学习事务，包括课程与学位课程发展、教学质量保证、体验式与虚拟教学、学生收生及教学环球化。他于香港大学取得工业工程理学学士及心理学研究生证书，后于美国威斯康星大学麦迪逊分校取得心理学硕士及博士学位，曾任教于香港大学心理学系，先后担任大学堂舍监（1996-2006）、社会科学院副院长（2000-2002）、通识教育总监（2002-2015）及学生事务长（2005-2015）。他是香港心理学会院士，2017至2023年任香港都会大学校董会成员，并曾参与多个与教育、长者事务及环境相关的政府委员会及咨询小组，倡导培育具关怀、创意及道德操守的全球公民。",
+  "profile": null,
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -116,10 +116,9 @@
     ],
     "data_sources": [
       "https://www.hkbu.edu.hk/en/about/university-officers/dr-albert-chau.html",
-      "https://www.hkbu.edu.hk/en/about/university-officers.html",
-      "https://www.instagram.com/p/DN5QTH0AX47/"
+      "https://www.hkbu.edu.hk/en/about/university-officers.html"
     ],
     "completeness_score": 52,
-    "notes": "重要更正：批次文件及 HK-ACAD-007 组织档案 key_people 将本 person_id 记为「黄定国 (Albert Wai-tat Huang)，副校长（教与学）」。经香港浸会大学官网核实，该校副校长（教与学）自2016年起为周伟立博士 (Dr Albert Chau Wai-lap)，未查得任何「Albert Wai-tat Huang」任此职的记录，判断原记录为姓名讹误。本档案按实际在任者周伟立建档，建议同步修正 HK-ACAD-007 key_people。出生日期、出生地未查到，留空。"
+    "notes": "2026-09-07复核：经香港浸会大学官网管理层页（现时在线版本，标注2016-now）确认其仍任副校长（教与学），学历表述以官网为准。字段规范化：education.degree「postgraduate_certificate」非枚举值改为「other」；field 字段清理为纯中文学科名；profile 描述字符串因 schema 仅允许图片引用字段而置空（内容并入传记）。重要更正（沿用前批次）：批次文件及 HK-ACAD-007 组织档案 key_people 曾将本 person_id 记为「黄定国 (Albert Wai-tat Huang)」，经官网核实该校副校长（教与学）自2016年起为周伟立博士，原记录为姓名讹误，建议同步修正 HK-ACAD-007 key_people。出生日期、出生地未查到，留空。未查证到其官方社交媒体账号，social_accounts保持为空。"
   }
 }

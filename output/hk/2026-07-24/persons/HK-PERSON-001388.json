@@ -7,18 +7,11 @@
   "aliases": [],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1992-01-01",
+  "birth_date": null,
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "秘书长",
-      "organization": "工党 (Labour Party)",
-      "org_id": "HK-PARTY-006",
-      "start_date": null,
-      "end_date": null,
-      "source": "zh.wikipedia 工党(香港)条目"
-    }
+    "工党秘书长"
   ],
   "education": [],
   "work_experience": [
@@ -26,15 +19,13 @@
       "org_id": null,
       "start_date": "2020-01-01",
       "end_date": "2021-07-08",
-      "description": "2019年区议会选举以3771票当选，2021年7月8日卸任",
       "position": "东区区议会议员（下耀东选区）",
-      "organization": "香港特别行政区东区区议会"
+      "organization": "香港特别行政区东区区议会 (Eastern District Council)"
     },
     {
       "org_id": "HK-PARTY-006",
       "start_date": null,
       "end_date": null,
-      "description": null,
       "position": "秘书长",
       "organization": "工党 (Labour Party)"
     },
@@ -42,33 +33,39 @@
       "org_id": "HK-PARTY-006",
       "start_date": null,
       "end_date": null,
-      "description": "本职为注册社工，任工党东区社区干事，跟进长者政策、业主法团事务等地区工作",
       "position": "社区干事（注册社工）",
       "organization": "工党 (Labour Party)"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": "HK-PERSON-001387",
-      "relationship": "同党党友",
-      "description": "同属工党，任内共同跟进东区地区事务",
-      "person_name": "麦德正"
+      "person_id": "HK-PERSON-001387",
+      "person_name": "麦德正",
+      "relationship_type": "colleague",
+      "description": "同属工党，任内共同跟进东区地区事务（同党党友，麦德正为西湾河区议员）"
     }
   ],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "何偉倫",
+      "url": "https://www.facebook.com/alanholphk",
+      "source": "中文维基百科《何偉倫》条目外部链接「何偉倫的Facebook專頁」"
+    }
+  ],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
     {
-      "year": "2019",
-      "description": "2019年区议会选举以3,771票（60.55%）击败寻求连任的候选人当选",
-      "achievement": "当选东区区议会下耀东选区议员"
+      "date": "2019",
+      "achievement": "2019年区议会选举以3,771票（60.55%）击败寻求连任的民建联候选人王志钟当选东区区议会下耀东选区议员",
+      "organization": "香港特别行政区东区区议会 (Eastern District Council)"
     }
   ],
-  "biography_summary": "何伟伦 (Ho Wai-lun)，1992年生，香港政治人物，工党党员，现任工党秘书长。本职为注册社工，曾任工党东区社区干事，跟进区内长者支援及楼宇事务。2020年1月至2021年7月任香港特别行政区东区区议会下耀东选区议员。",
+  "biography_summary": "何伟伦 (Ho Wai-lun)，1992年生，香港政治人物，工党党员，现任工党秘书长。本职为注册社工，曾任工党东区社区干事，与党友、西湾河区议员麦德正共同跟进区内长者支援及业主法团事务，曾就区内人口老化、长者缺乏支援等问题向不同政府部门提出长者政策建议。2019年区议会选举中，他以「打破垄断，踢走建制」为口号参选东区下耀东选区，以3,771票（60.55%）击败寻求连任的民建联议员王志钟当选，2020年1月至2021年7月8日任东区区议会议员，其后在区议员辞职潮中离任。",
   "profile": {},
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -78,12 +75,18 @@
       {
         "title": "工党(香港) - 维基百科",
         "url": "https://zh.wikipedia.org/wiki/%E5%B7%A5%E9%BB%A8_(%E9%A6%99%E6%B8%AF)"
+      },
+      {
+        "title": "何偉倫的Facebook專頁（中文维基百科条目外部链接）",
+        "url": "https://www.facebook.com/alanholphk"
       }
     ],
     "data_sources": [
       "zh.wikipedia.org",
-      "zh-yue.wikipedia.org"
+      "zh-yue.wikipedia.org",
+      "facebook.com"
     ],
-    "completeness_score": 33
+    "completeness_score": 40,
+    "notes": "2026-09-07 复核：字段规范化——current_positions 由对象改为纯字符串；work_experience 删除规则外 description 字段（关键事实并入 biography_summary）；major_achievements 删除规则外 year 字段、date 改为「2019」并补 organization（中文(英文)格式）；person_relationships 增加 relationship_type 语义修正为 colleague 并补齐党友身份说明。birth_date 原记录为 1992-01-01，经查中文维基百科仅载「1992年」（无月日），故将 birth_date 改为 null，出生年份保留于 biography_summary。新增 Facebook 社交账号 facebook.com/alanholphk（维基条目外链「何偉倫的Facebook專頁」；页面需登录未能直读验证现状）；维基条目另载西湾河筲箕湾工作队 Facebook 页（facebook.com/swhskwteam），属何伟伦与麦德正的联合工作队页面而非个人专页，不列入其个人 social_accounts。教育背景、出生地点维基百科及公开检索均无资料，保持缺失。"
   }
 }

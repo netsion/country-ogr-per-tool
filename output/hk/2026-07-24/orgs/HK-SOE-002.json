@@ -33,6 +33,10 @@
     {
       "name": "投资者关系公告页",
       "description": "港交所公告、业绩公布及证券变动月报表发布平台"
+    },
+    {
+      "name": "企业宣传片及宣传册 (Corporate Video / Corporate Brochure)",
+      "description": "官网发布的公司形象宣传片、企业手册及照片库"
     }
   ],
   "key_people": [
@@ -92,31 +96,62 @@
       "title": "公布2026年中期业绩",
       "date": "2026-08-28",
       "description": "招商局港口（00144）公布截至2026年6月30日止六个月中期业绩：收入72.97亿港元（同比增13.01%），股东应占溢利38.32亿港元（同比增6.92%）；完成集装箱吞吐量7821万TEU（同比增4.5%），散杂货吞吐量2.67亿吨（同比增1.7%）；于2026年6月30日归属权益持有人净资产为1163.50亿港元，较2025年底上升5.4%。",
-      "impact": "在地缘扰动下收入与盈利保持增长，境内外港口组合运营稳健"
+      "impact": "在地缘扰动下收入与盈利保持增长，境内外港口组合运营稳健",
+      "source": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-28/doc-inipvvzv4685504.shtml"
     },
     {
       "title": "公布2025年全年业绩",
       "date": "2026-03-31",
       "description": "招商局港口（00144）公布2025年业绩：集装箱吞吐量1.51亿TEU（同比增3.8%，其中中国内地、香港及台湾地区11235万TEU、海外地区3894万TEU），散杂货吞吐量5.30亿吨；收入133.54亿港元（同比增12.8%），归属权益持有者利润64.57亿港元（同比降18.5%，主要受联营公司利润减少及拨备影响）。",
-      "impact": "吞吐量与收入创新高，盈利受一次性因素影响"
+      "impact": "吞吐量与收入创新高，盈利受一次性因素影响",
+      "source": "https://www.cmport.com.hk/Fanti/news/Detail.aspx?id=10010106"
+    },
+    {
+      "title": "宣布中期股息及暂停办理股份过户登记安排",
+      "date": "2026-08-28",
+      "description": "招商局港口同日刊发《截至2026年6月30日止6个月之中期股息及暂停办理股份过户登记手续》公告，随2026年中期业绩一并公布派息安排； Yahoo财经显示其远期股息0.74港元（收益率约4.51%），除息日为2026年9月24日。",
+      "impact": "维持稳定派息政策，吸引收益型投资者",
+      "source": "https://www.cmport.com.hk/touch/investor/Released.aspx"
+    },
+    {
+      "title": "订立多项持续关连交易年度上限",
+      "date": "2026-06-26",
+      "description": "招商局港口刊发持续关连交易公告，修订与招商局集团体系的多项持续关连交易2026年度上限，包括招商局港口大厦及前海湾花园租赁协议、招商局国际财务金融服务协议、招商前海湾服务框架协议、iDipo服务框架协议、招商国科自动驾驶运输服务协议及招商保税物流服务框架协议等7项安排。",
+      "impact": "理顺与控股股东招商局集团及其关联企业的持续交易框架",
+      "source": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062600615_c.pdf"
+    },
+    {
+      "title": "中金维持跑赢行业评级、高盛上调目标价",
+      "date": "2026-04-03",
+      "description": "中金公司于2026年4月3日维持招商局港口（00144）跑赢行业评级，目标价16.5港元；此前高盛亦预计内地集装箱吞吐量全年增长4.6%，上调招商局港口及中远海运港口目标价。",
+      "impact": "卖方机构对公司港口组合盈利前景维持正面看法",
+      "source": "https://www.sl886.com/stock/list?code=00144&list=ratingnews"
     }
   ],
   "related_entities": [
     {
       "org_name": "招商局集团 (China Merchants Group)",
-      "org_description": "中央管理的国有骨干企业，招商局港口的最终母公司"
+      "org_description": "中央管理的国有骨干企业，招商局港口的最终母公司",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "招商港口（001872.SZ）",
-      "org_description": "深圳上市的招商局港口集团，为招商局港口控股的控股股东；2026年上半年其港口项目完成集装箱吞吐量10677.5万TEU，同比增长5.5%"
+      "org_description": "深圳上市的招商局港口集团，为招商局港口控股的控股股东；2026年上半年其港口项目完成集装箱吞吐量10677.5万TEU，同比增长5.5%",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "香港国际货柜码头 (HIT)",
-      "org_description": "招商局港口在香港参与投资的葵青货柜码头运营商之一"
+      "org_description": "招商局港口在香港参与投资的葵青货柜码头运营商之一",
+      "relationship_type": "affiliated",
+      "org_id": null
     },
     {
       "org_name": "中国内地参股港口 (Ningbo, Shanghai ports)",
-      "org_description": "公司在中国内地参股主要集装箱港口，构成核心资产组合"
+      "org_description": "公司在中国内地参股主要集装箱港口，构成核心资产组合",
+      "relationship_type": "affiliated",
+      "org_id": null
     }
   ],
   "core_business": "招商局港口控股有限公司（港交所00144）是招商局集团属下旗舰公司，创办于1992年，同年以红筹公司名义在香港交易所上市，为首家在港上市的红筹公司，并于2004年成为恒生指数成份股。公司专注全球港口投资、运营及管理，业务网络覆盖中国内地主要港口（深圳、宁波、上海等）及亚洲、非洲、欧洲、拉丁美洲等地的海外港口，是全球领先的港口运营商。2025年公司完成集装箱吞吐量1.51亿TEU、散杂货吞吐量5.30亿吨，收入133.54亿港元；2026年上半年完成集装箱吞吐量7821万TEU（同比增4.5%），收入72.97亿港元（同比增13.01%）。公司同时推动智慧港口与绿色低碳技术应用，并作为招商局集团全球港口战略的上市平台。董事会主席为冯波鸣，副董事长兼行政总裁为徐颂，执行董事兼董事总经理为陆永新，执行董事兼财务总监为涂晓平。",
@@ -139,7 +174,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 75,
+    "completeness_score": 88,
     "quotes": [
       {
         "title": "维基百科：招商局港口",
@@ -160,10 +195,20 @@
       {
         "title": "招商局港口官网：管理层简介（陆永新、涂晓平）",
         "url": "https://www.cmport.com.hk/Fanti/about/Detail.aspx?id=10009172"
+      },
+      {
+        "title": "招商局港口官网：投资者关系公告列表（中期股息公告2026-08-28）",
+        "url": "https://www.cmport.com.hk/touch/investor/Released.aspx"
+      },
+      {
+        "title": "港交所公告：招商局港口持续关连交易（2026-06-26）",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062600615_c.pdf"
+      },
+      {
+        "title": "SL886财经网：招商局港口大行评级（中金2026-04-03）",
+        "url": "https://www.sl886.com/stock/list?code=00144&list=ratingnews"
       }
     ],
-    "notes": "P3 enrichment round 2: added 2026 interim results, MD/CFO executives, finance department, investor relations asset"
-  },
-  "description": "招商局集团旗下全球港口投资运营商",
-  "brief": "1992年上市的首家红筹公司，全球领先港口运营商（港交所00144）"
+    "notes": "P3 enrichment round 2: added 2026 interim results, MD/CFO executives, finance department, investor relations asset. 第三轮：补中期股息公告、持续关连交易公告（HKEX PDF）、中金/高盛评级3条事件及企业宣传片数字资产；经核实官网及公开检索未发现LinkedIn以外的官方社交账号，social_accounts保持1项。"
+  }
 }

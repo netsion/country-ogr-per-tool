@@ -5,7 +5,7 @@
   "name_zh": "陈立程",
   "name_en": "Chan Lap-ching",
   "aliases": [
-    "陳立程 (Chan Lap-ching)"
+    "Chan Lap-ching"
   ],
   "nationality": "HK",
   "gender": "male",
@@ -13,14 +13,7 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "副执行总编辑",
-      "organization": "香港01 (HK01)",
-      "org_id": "HK-MEDIA-002",
-      "start_date": null,
-      "end_date": null,
-      "description": "香港01副执行总编辑，曾代表该机构领取传媒转型大奖综合评审范畴网站金奖。"
-    }
+    "香港01副执行总编辑"
   ],
   "education": [],
   "work_experience": [
@@ -29,15 +22,13 @@
       "org_id": "HK-MEDIA-002",
       "start_date": null,
       "end_date": null,
-      "description": null,
       "position": "副执行总编辑"
     },
     {
       "organization": "香港01 (HK01)",
       "org_id": "HK-MEDIA-002",
-      "start_date": null,
+      "start_date": "2017",
       "end_date": null,
-      "description": "2017年以香港01总编辑主任身份出席「香港明天更好基金」与传媒机构主管午宴。",
       "position": "总编辑主任"
     },
     {
@@ -45,7 +36,6 @@
       "org_id": "HK-MEDIA-002",
       "start_date": null,
       "end_date": "2022-08-29",
-      "description": "据中文维基百科《香港01》条目，曾任《香港01》周报主編（周报已于2022年8月停刊）。",
       "position": "主編"
     }
   ],
@@ -57,13 +47,13 @@
     {
       "date": null,
       "achievement": "代表香港01领取香港互动市务商会「传媒转型大奖」综合评审范畴网站金奖",
-      "organization": "香港01"
+      "organization": "香港01 (HK01)"
     }
   ],
-  "biography_summary": "陈立程 (Chan Lap-ching)，香港01副执行总编辑，香港特别行政区传媒从业人员。早于2017年以香港01总编辑主任身份出席本地传媒主管活动，后出任副执行总编辑，并曾代表香港01领取香港互动市务商会「传媒转型大奖」综合评审范畴网站金奖。据中文维基百科条目，其亦曾担任《香港01》周报主編（周报于2022年8月停刊）。其个人出生、教育等背景资料未有公开可靠来源。",
+  "biography_summary": "陈立程 (Chan Lap-ching)，香港01副执行总编辑，香港特别行政区传媒从业人员。早于2017年以香港01总编辑主任身份出席本地传媒主管活动，后出任副执行总编辑，并曾代表香港01领取香港互动市务商会「传媒转型大奖」综合评审范畴网站金奖。据中文维基百科《香港01》条目，其亦曾担任《香港01》周报主編（周报于2022年8月停刊）。其个人出生、教育等背景资料未有公开可靠来源。",
   "profile": {},
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -71,16 +61,16 @@
         "url": "https://www.hk01.com/%E7%A4%BE%E6%9C%83%E6%96%B0%E8%81%9E/60318197/"
       },
       {
-        "title": "「香港明天更好基金」与传媒机构主管午宴（香港明天更好基金新闻稿）",
+        "title": "「香港明天更好基金」与传媒机构主管午宴（香港明天更好基金新闻稿，2017年以总编辑主任身份出席）",
         "url": "https://www.betterhongkong.org/tc/press-release/%E3%80%8C%E9%A6%99%E6%B8%AF%E6%98%8E%E5%A4%A9%E6%9B%B4%E5%A5%BD%E5%9F%BA%E9%87%91%E3%80%8D%E8%88%87%E5%82%B3%E5%AA%92%E6%A9%9F%E6%A7%8B%E4%B8%BB%E7%AE%A1%E5%8D%88%E5%AE%B4/15019"
       }
     ],
     "data_sources": [
-      "香港01官方网站",
-      "香港明天更好基金新闻稿",
-      "中文维基百科《香港01》条目"
+      "official_website",
+      "wikipedia",
+      "web_search"
     ],
     "completeness_score": 30,
-    "notes": "现职副执行总编辑一职由香港01官方报道（颁奖报道）及批次机构档案双源确认；「总编辑主任」「周报主編」为单一来源，仅作履历参考记录。该人物为次级媒体管理人员，公开个人资料（出生、学历、联系方式）有限，按铁律宁缺毋滥留空，未收录其任何评论性文章内容。"
+    "notes": "2026-09-07复查字段规范化：current_positions由对象数组改为纯中文字符串数组「香港01副执行总编辑」；删除work_experience[].description等schema外字段（原描述信息「2017年出席传媒主管午宴」以start_date=2017保留在总编辑主任条目）；aliases改为「Chan Lap-ching」；major_achievements[].organization补英文括注。补充搜索（search.gov.hk无收录，Brave/DDG被限流、Bing/Mojeek返回验证码或无关结果），未查到教育背景及任何可核实官方社交账号，经查证无更多公开资料，禁止编造。现职副执行总编辑由香港01官方报道及批次机构档案双源确认；「总编辑主任」「周报主編」为单一来源，仅作履历参考记录。该人物为次级媒体管理人员，按铁律宁缺毋滥留空，未收录其任何评论性文章内容。"
   }
 }

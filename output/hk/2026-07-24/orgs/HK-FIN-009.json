@@ -93,14 +93,14 @@
     },
     {
       "person_id": "HK-PERSON-001273",
-      "name": "卡尔拉 (Avnish Kalra)",
+      "name": "卡爾拉 (Avnish Kalra)",
       "title": "集团首席风险及合规官",
       "title_description": "负责集团风险管理、合规及内控职能",
       "description": "出任集团首席风险及合规官并为集团执行委员会成员，负责集团整体风险框架与合规体系建设。"
     },
     {
       "person_id": "HK-PERSON-001274",
-      "name": "谢凯瑟 (Catherine Chia)",
+      "name": "謝凱瑟 (Catherine Chia)",
       "title": "集团首席人力资源官",
       "title_description": "负责集团人力资源、人才发展与组织文化建设",
       "description": "出任集团首席人力资源官并为集团执行委员会成员，领导集团在亚洲及非洲市场的人才与组织发展工作。"
@@ -148,41 +148,53 @@
       "title": "范智廉出任集团主席",
       "date": "2026-05-28",
       "description": "前汇丰控股集团主席范智廉爵士正式接替瓦德华女男爵出任英国保诚集团主席，负责董事会治理。",
-      "impact": "集团治理层完成交接，延续聚焦亚洲与非洲的战略方向"
+      "impact": "集团治理层完成交接，延续聚焦亚洲与非洲的战略方向",
+      "source": "https://www.prudentialplc.com/en/newsroom/company-news/2026/Prudential-plc-appoints-Sir-Douglas-Flint-CBE-to-succeed-Shriti-Vadera-as-Chair"
     },
     {
       "title": "2025年全年新业务利润增长12%",
       "date": "2026-03-18",
       "description": "保诚公布2025年全年业绩，以传统内含价值计算的新业务利润增长12%至27.82亿美元，新业务利润率提升2个百分点至42%；经调整税前经营溢利增长5%至33.06亿美元，多项指标双位数增长。",
-      "impact": "集团2024-2027年股东总回报预期超70亿美元，包括回购与资本返还"
+      "impact": "集团2024-2027年股东总回报预期超70亿美元，包括回购与资本返还",
+      "source": "https://news.futunn.com/hk/post/70220022/"
     },
     {
       "title": "2025年中期业绩稳健",
       "date": "2025-08-01",
       "description": "保诚上半年归属股东利润12.84亿美元，新业务利润增12%至12.6亿美元，中期息增至7.71美仙，宣布未来两年斥86亿美元回购，并称迁册并非目前首要任务。",
-      "impact": "维持高股东回报与亚洲增长战略"
+      "impact": "维持高股东回报与亚洲增长战略",
+      "source": "https://www.tkww.hk/epaper/view/newsDetail/1960772266933489664.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "瀚亚投资 (Eastspring Investments)",
-      "org_description": "保诚旗下亚洲资产管理公司，管理资产约2580亿美元"
+      "org_description": "保诚旗下亚洲资产管理公司，管理资产约2580亿美元",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "保诚集团保险有限公司 (Prudential Hong Kong)",
-      "org_description": "集团香港寿险营运主体"
+      "org_description": "集团香港寿险营运主体",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "保诚保险新加坡 (Prudential Singapore)",
-      "org_description": "集团东南亚主要寿险营运主体之一"
+      "org_description": "集团东南亚主要寿险营运主体之一",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港金融管理局/保监局 (HKMA/IA)",
-      "org_description": "香港市场银行及保险监管机构"
+      "org_description": "香港市场银行及保险监管机构",
+      "relationship_type": "regulator",
+      "org_id": "HK-FIN-001"
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "保诚以第一上市形式在港交所挂牌（股份代号2378）的上市平台"
+      "org_description": "保诚以第一上市形式在港交所挂牌（股份代号2378）的上市平台",
+      "org_id": "HK-FIN-007"
     }
   ],
   "core_business": "英国保诚集团（Prudential plc）是一家聚焦亚洲与非洲市场的国际人寿保险及资产管理集团，为约2400万名客户提供服务，管理资产达6350亿英镑。集团于伦敦、香港、新加坡及纽约交易所上市（港交所2378），行政总部设于香港。集团主营人寿保险、健康保险、储蓄与退休产品及资产管理（旗下瀚亚投资），业务覆盖中国内地、香港、东南亚（新加坡、马来西亚、印尼、越南、泰国、菲律宾）及非洲多个市场。2023年华康尧出任首席执行官后推进分销扩张、客户体验提升与健康业务建设等战略投资。2025年全年以传统内含价值计算的新业务利润增长12%至27.82亿美元，经调整经营溢利增长5%至33.06亿美元，并计划2024至2027年向股东返还超过70亿美元。2026年5月，前汇丰控股集团主席范智廉爵士出任集团主席，领导董事会治理。",
@@ -224,7 +236,5 @@
       }
     ],
     "notes": "P3二轮丰富：补全集团执行委员会（CFO布默、首席风险及合规官卡尔拉、首席人力资源官谢凯瑟、高级独立董事安德森）、新增科技运营/风险合规/人力资源部门、2026主席交接事件及港交所/新加坡实体。"
-  },
-  "description": "英国保险公司，聚焦亚洲与非洲市场",
-  "brief": "聚焦亚洲及非洲的上市保险集团，行政总部设于香港"
+  }
 }

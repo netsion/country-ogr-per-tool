@@ -10,7 +10,7 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": null,
+  "birth_date": "1958-08-10",
   "birth_place": "香港",
   "contacts": [
     {
@@ -23,21 +23,36 @@
     "香港特别行政区商务及经济发展局局长",
     "香港特别行政区行政会议官守议员"
   ],
-  "education": [],
-  "work_experience": [
+  "education": [
     {
       "start_date": null,
       "end_date": null,
-      "organization": "国泰航空 (Cathay Pacific)",
-      "org_id": "HK-CORP-008",
-      "position": "中国区总经理等管理职务"
+      "institution": "天主教伍華中學 (Ng Wah Catholic Secondary School)",
+      "degree": "high_school",
+      "field": null
     },
     {
       "start_date": null,
       "end_date": null,
+      "institution": "墨爾本皇家理工大學 (RMIT University)",
+      "degree": "bachelor",
+      "field": "商业（运输及物流）"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": "1982",
+      "end_date": "2020",
+      "organization": "国泰航空 (Cathay Pacific)",
+      "org_id": "HK-CORP-008",
+      "position": "历任国泰航空服务董事及中国区总经理等高级管理职务，并统理国泰航空服务有限公司、香港机场地勤服务有限公司等多家附属公司业务"
+    },
+    {
+      "start_date": null,
+      "end_date": "2020",
       "organization": "港龙航空 (Cathay Dragon)",
       "org_id": null,
-      "position": "行政总裁及主席"
+      "position": "行政总裁"
     },
     {
       "start_date": null,
@@ -45,6 +60,13 @@
       "organization": "香港华民航空 (Air Hong Kong)",
       "org_id": null,
       "position": "主席及行政总裁"
+    },
+    {
+      "start_date": "2020-12",
+      "end_date": "2022",
+      "organization": "大湾区航空 (Greater Bay Airlines)",
+      "org_id": null,
+      "position": "董事会成员兼行政总裁"
     },
     {
       "start_date": "2022-07-01",
@@ -81,30 +103,30 @@
   ],
   "major_achievements": [
     {
-      "date": "",
+      "date": null,
       "organization": "航空业",
-      "achievement": "从事航空业超过40年，历任国泰航空、港龙航空及香港华民航空高管"
+      "achievement": "从事航空业超过40年，历任国泰航空、港龙航空、香港华民航空及大湾区航空高管"
     },
     {
-      "date": "",
+      "date": null,
       "organization": "香港特区政府",
       "achievement": "获委任为太平绅士（JP）"
     }
   ],
-  "biography_summary": "丘应桦（Algernon Yau Ying-wah），1959年生于香港，香港特别行政区商务及经济发展局局长，为清末爱国志士丘逢甲后裔。从事航空业超过四十年，曾任职国泰航空，官至中国区总经理，其后出任港龙航空行政总裁及主席、香港华民航空主席及行政总裁等职务。2022年7月1日出任商务及经济发展局局长，负责对外贸易、招商引资、旅游、创意产业及电讯广播等政策，任内推动香港参与国际经贸合作及加入RCEP的相关工作。",
+  "biography_summary": "丘应桦（Algernon Yau Ying-wah），1958年8月10日生于香港，祖籍闽南，为清末爱国志士丘逢甲后裔，现任香港特别行政区商务及经济发展局局长。中学毕业于天主教伍华中学，后赴墨尔本皇家理工大学修读商业（运输及物流）学士。1982年加入国泰航空，历任服务董事、中国区总经理等职，并曾出任港龙航空行政总裁、香港华民航空主席及行政总裁、大湾区航空董事会成员兼行政总裁。2022年7月1日出任商务及经济发展局局长，负责对外贸易、招商引资、旅游、创意产业及电讯广播等政策，任内推动香港加入RCEP及参与国际经贸合作。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/%E4%B8%98%E6%87%89%E6%A8%BA_20230710_%28cropped%29.jpg/250px-%E4%B8%98%E6%87%89%E6%A8%BA_20230710_%28cropped%29.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "official_website"
     ],
-    "completeness_score": 52,
+    "completeness_score": 62,
     "quotes": [
       {
         "title": "商務及經濟發展局局長官方简历",
@@ -119,6 +141,6 @@
         "url": "https://www.gov.hk/tc/about/govdirectory/po/sced.htm"
       }
     ],
-    "notes": "QID验证无误；补全航空业履历与经贸政策立场 2026-08-27补深：补入Wikidata P18头像（Commons 250px直链）；social无经核实的个人账号，维持空。"
+    "notes": "2026-09-07补深：依据zh-wiki与Wikidata（P569精度为年，1958）修正出生年为1958-08-10（原档案作1959年，有误）；补入教育（天主教伍华中学、墨尔本皇家理工大学商业运输及物流学士）；补入大湾区航空行政总裁履历（2020-12至2022）；出生日期精确到日仅有zh-wiki单一来源，Wikidata仅精确到年。无经核实的个人社交媒体账号，social维持空。"
   }
 }

@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001209",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q7052057",
   "name": "陳德霖",
   "name_zh": "陈德霖",
   "name_en": "Norman Chan Tak-lam",
@@ -11,27 +11,9 @@
   "birth_place": "香港",
   "contacts": [],
   "current_positions": [
-    {
-      "start_date": "2023-04-18",
-      "end_date": null,
-      "organization": "香港中文大学 (The Chinese University of Hong Kong)",
-      "org_id": "HK-ACAD-001",
-      "position": "校董会副主席"
-    },
-    {
-      "start_date": null,
-      "end_date": null,
-      "organization": "香港中文大学崇基学院 (Chung Chi College, CUHK)",
-      "org_id": null,
-      "position": "校董会主席"
-    },
-    {
-      "start_date": null,
-      "end_date": null,
-      "organization": "香港Web3.0协会 (Hong Kong Web3.0 Association)",
-      "org_id": null,
-      "position": "创会会长"
-    }
+    "香港中文大学校董会副主席",
+    "香港中文大学崇基学院校董会主席",
+    "香港Web3.0协会创会会长"
   ],
   "education": [
     {
@@ -45,7 +27,7 @@
       "start_date": null,
       "end_date": null,
       "institution": "皇仁书院 (Queen's College)",
-      "degree": "secondary",
+      "degree": "high_school",
       "field": "中学"
     }
   ],
@@ -54,28 +36,28 @@
       "start_date": "1976",
       "end_date": "2005",
       "organization": "香港特别行政区政府 (Hong Kong SAR Government)",
-      "org_id": null,
+      "org_id": "HK-GOV-013",
       "position": "政务主任，历任外汇基金管理局副局长（货币管理，1991）、香港金融管理局助理总裁（1993）、副总裁（1996）"
     },
     {
       "start_date": "2005-12",
       "end_date": "2007-06",
       "organization": "渣打银行（亚洲） (Standard Chartered Bank)",
-      "org_id": null,
+      "org_id": "HK-FIN-010",
       "position": "亚洲区副主席"
     },
     {
       "start_date": "2007-07",
       "end_date": "2009-07",
       "organization": "香港特别行政区行政长官办公室 (Chief Executive's Office, HKSAR)",
-      "org_id": null,
+      "org_id": "HK-GOV-003",
       "position": "行政长官办公室主任"
     },
     {
       "start_date": "2009-10-01",
       "end_date": "2019-09-30",
       "organization": "香港金融管理局 (Hong Kong Monetary Authority)",
-      "org_id": null,
+      "org_id": "HK-FIN-001",
       "position": "总裁（金融管理专员），两届任期共十年"
     },
     {
@@ -90,16 +72,17 @@
   "social_accounts": [],
   "family_members": [
     {
+      "person_id": null,
       "name": "Diana",
       "relationship": "spouse",
-      "notes": "据中文维基百科条目记载；中文全名未公开，按规则不进占位符以外细节"
+      "industry_or_organization": null
     }
   ],
   "political_stances": [
     {
+      "date": null,
       "topic": "金融稳定与国际金融中心地位",
       "stance_content": "任内致力维护香港货币与金融体系稳定，推动香港作为亚洲国际金融中心的发展",
-      "context": "金管局总裁任期内公开政策取向",
       "source": "新华社及政府新闻公报"
     }
   ],
@@ -111,7 +94,7 @@
     },
     {
       "date": null,
-      "organization": null,
+      "organization": "香港特别行政区政府 (Government of Hong Kong)",
       "achievement": "获颁金紫荆星章（GBS）荣誉"
     },
     {
@@ -126,33 +109,34 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "org_website",
       "wikipedia",
+      "wikidata",
       "government_website",
       "news_search"
     ],
-    "completeness_score": 58,
+    "completeness_score": 59,
     "quotes": [
+      {
+        "title": "香港中文大学校董会成员名录（2026年8月1日更新）",
+        "url": "https://www.cuhk.edu.hk/governance/council/chinese/composition.html"
+      },
       {
         "title": "香港中文大学新闻稿：陈德霖博士出任香港中文大学校董会副主席",
         "url": "https://www.cpr.cuhk.edu.hk/sc/press/dr-norman-chan-appointed-vice-chairman-of-cuhk-council/"
-      },
-      {
-        "title": "香港中文大学校董会成员名录",
-        "url": "https://www.cuhk.edu.hk/governance/council/chinese/composition.html"
       },
       {
         "title": "香港特别行政区政府新闻公报：委任香港金融管理局总裁（2009年）",
         "url": "https://www.info.gov.hk/gia/general/200907/17/P200907170201.htm"
       },
       {
-        "title": "香港金融管理局：陈德霖先生离任（2005年新闻稿）",
-        "url": "https://www.hkma.gov.hk/gb_chi/news-and-media/press-releases/2005/04/20050412-5/"
+        "title": "Wikidata: Q7052057 Norman Chan",
+        "url": "https://www.wikidata.org/wiki/Q7052057"
       }
     ],
-    "notes": "校董会副主席职务获中大官网及新闻稿双源确认；金管局总裁任期获政府新闻公报及金管局官网双源确认。Wikidata QID未核实，留null。配偶仅英文教名Diana见于维基，中文全名未公开。校董会副主席任期公告为两年（2023年4月18日起），中大官网现行名录确认仍在任。"
+    "notes": "复核（2026-09-07）：现任职务经中大校董会官网名录确认仍在任（页面2026年8月1日更新，副主席陳德霖博士）。补Wikidata QID=Q7052057（label陳德霖、别名Norman Chan Tak-Lam、出生日期1954-10-30与档案一致）。规范化：current_positions对象改纯中文字符串；education的皇仁书院degree由非枚举值「secondary」改为「high_school」；political_stances删除schema外字段「context」并补「date」；family_members删除schema外字段「notes」（配偶仅英文教名Diana见于中文维基百科，中文全名未公开）；major_achievements金紫荆星章补organization（颁授方为香港特区政府）。org_id核对_name_index.json：行政长官办公室=HK-GOV-003（由null补上），其余HK-GOV-013/HK-FIN-010/HK-FIN-001/HK-ACAD-001均在索引内。无经证实的个人社交媒体账号，social_accounts保持空。"
   }
 }

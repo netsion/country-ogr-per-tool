@@ -13,9 +13,7 @@
   "birth_date": "1954-06-20",
   "birth_place": "西班牙马德里",
   "contacts": [],
-  "current_positions": [
-    "渣打集团有限公司前集团主席 (Group Chairman, Standard Chartered, 2016-2025)"
-  ],
+  "current_positions": [],
   "education": [
     {
       "start_date": null,
@@ -65,7 +63,7 @@
       "start_date": "2016-12-01",
       "end_date": "2025-05-08",
       "organization": "渣打集团有限公司 (Standard Chartered PLC)",
-      "org_id": "HK-FIN-003",
+      "org_id": "HK-FIN-010",
       "position": "集团主席"
     }
   ],
@@ -77,8 +75,8 @@
       "description": "任渣打集团主席期间，温拓思任集团行政总裁"
     },
     {
-      "person_id": null,
-      "person_name": "Maria Ramos",
+      "person_id": "HK-PERSON-000315",
+      "person_name": "玛丽亚·拉莫斯 (Maria Ramos)",
       "relationship_type": "associate",
       "description": "接替他出任渣打集团主席"
     }
@@ -88,23 +86,24 @@
   "political_stances": [],
   "major_achievements": [
     {
-      "date": "",
-      "organization": "国际货币基金组织 (IMF)",
-      "achievement": "任IMF货币与资本市场部主任期间主导全球金融稳定报告编制"
+      "date": null,
+      "organization": "国际货币基金组织 (International Monetary Fund)",
+      "achievement": "任IMF金融顾问兼货币与资本市场部主任期间，担任IMF全球金融稳定议题首席发言人，主导《全球金融稳定报告》编制"
     }
   ],
-  "biography_summary": "韦浩思（José Viñals，1954年6月20日生）是西班牙经济学家和银行家。他先后获瓦伦西亚大学经济学学士、伦敦政治经济学院硕士及哈佛大学博士学位，1981至1986年在斯坦福大学任经济学助理教授。此后在西班牙央行工作二十年，官至副行长，主管货币政策与银行监管；2009年加入国际货币基金组织，出任金融顾问兼货币与资本市场部主任，是全球金融稳定议题的首席发言人。2016年12月接掌渣打集团主席，任内推动集团数字化转型与亚洲市场扩张，2025年5月8日九年任期届满退任，由 Maria Ramos 接任。",
+  "biography_summary": "韦浩思（José Viñals，1954年6月20日生）是西班牙经济学家和银行家。他先后获瓦伦西亚大学经济学学士、伦敦政治经济学院硕士及哈佛大学博士学位，1981至1986年在斯坦福大学任经济学助理教授。此后在西班牙央行工作二十年，官至副行长，主管货币政策与银行监管；2009年加入国际货币基金组织，出任金融顾问兼货币与资本市场部主任，是全球金融稳定议题的首席发言人。2016年12月接任渣打集团主席，2025年5月8日九年任期届满退任，由玛丽亚·拉莫斯 (Maria Ramos) 接任，此后暂无公开确认的现任职务。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Jos%C3%A9_Vi%C3%B1als_2023.jpg/250px-Jos%C3%A9_Vi%C3%B1als_2023.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
-      "official_website"
+      "official_website",
+      "news_search"
     ],
     "completeness_score": 56,
     "quotes": [
@@ -125,6 +124,6 @@
         "url": "https://www.sc.com/en/about/our-people/"
       }
     ],
-    "notes": "Identity rewrite: was mixed 范智廉/José Viñals; corrected to José Viñals per zh-wiki + HK01/Wenwei Po (韦浩思). Succeeded by Maria Ramos 2025-05-08. 2026-08-27覆核：韦浩思已于2025年5月退任，无个人公开社交账号或办公联系方式，social/contacts保持空。"
+    "notes": "Identity rewrite: was mixed 范智廉/José Viñals; corrected to José Viñals per zh-wiki + HK01/Wenwei Po (韦浩思). Succeeded by Maria Ramos 2025-05-08. 2026-09-07覆核：en.wikipedia仍描述其为渣打集团现任主席（页面未更新），以香港媒体报道及继任者档案（HK-PERSON-000315，2025-05-08接任）为准，确认其已卸任，current_positions清空。en-wiki载其已婚并育有四名子女但无姓名，family_members不立条。退休后无个人公开社交账号或办公联系方式，social/contacts保持空。major_achievements空date字段改为null。"
   }
 }

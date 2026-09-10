@@ -62,14 +62,14 @@
   "key_people": [
     {
       "person_id": "HK-PERSON-000616",
-      "name": "陈子达 (Terris Cheung)",
+      "name": "陳子達 (Chan Tsz-tat)",
       "title": "海关关长",
       "title_description": "统领海关全体部门，负责执法、边境管制及贸易便利化政策",
       "description": "1994年加入香港海关任职见习督察，历任海关监督、高级监督、助理关长及副关长，2024年12月31日根据行政长官提名获国务院任命为海关关长，并出任世界海关组织亚太区副主席。香港中文大学政治与行政学学士，获CDSM勋衔。"
     },
     {
       "person_id": "HK-PERSON-001184",
-      "name": "胡伟军 (Wai-kwan Wu)",
+      "name": "胡伟军 (Mark Woo Wai-kwan)",
       "title": "副关长（管制及执法）",
       "title_description": "分管边境管制及执法行动",
       "description": "海关副关长（管制及执法），负责口岸管制、缉私、缉毒及知识产权执法工作，出席部门年度工作回顾记者会。"
@@ -109,55 +109,69 @@
       "date": "2026-01-27",
       "title": "举行2026年国际海关节酒会",
       "description": "香港海关在香港会议展览中心举行2026年「国际海关节」酒会，由财政司司长陈茂波及海关关长陈子达主礼，世界海关组织将当年国际海关节主题聚焦海关区域合作。",
-      "impact": "展示香港海关与国际海关社区的联系及区域合作角色。"
+      "impact": "展示香港海关与国际海关社区的联系及区域合作角色。",
+      "source": "https://www.info.gov.hk/gia/general/202601/27/P2026012700570.htm"
     },
     {
       "date": "2026-02-12",
       "title": "续任世界海关组织亚太区副主席（2026-2028）",
       "description": "世界海关组织亚太区首脑会议闭幕，香港海关获各成员支持，将于2026至2028年继续担任亚太区副主席，关长陈子达表示将继续推动区域海关合作与执法行动。",
-      "impact": "延续香港海关在亚太海关事务中的协调角色。"
+      "impact": "延续香港海关在亚太海关事务中的协调角色。",
+      "source": "https://www.i-cable.com/%E6%96%B0%E8%81%9E%E8%B3%87%E8%A8%8A/466289/"
     },
     {
       "date": "2026-07-01",
       "title": "对接国家「十五五」规划工作方向",
       "description": "关长陈子达表示香港海关工作涵盖守国门与促发展两大范畴，将全力配合特区政府施政、对接国家「十五五」规划，并到访大连、青岛与国家海关总署署长孙梅君会面，深化内地与香港海关业务协作。",
-      "impact": "深化内地与香港海关合作，服务国家贸易发展战略。"
+      "impact": "深化内地与香港海关合作，服务国家贸易发展战略。",
+      "source": "https://www.info.gov.hk/gia/general/202608/24/P2026082100531.htm"
     },
     {
       "date": "2025-02-18",
       "title": "举行2024年工作回顾记者会",
       "description": "关长陈子达联同两位副关长主持部门年度工作回顾，总结执法成效并阐述「守正创新固优势、内联外通建繁荣」的工作方向。",
-      "impact": "确立提升执法成效及融入国家发展的工作重点。"
+      "impact": "确立提升执法成效及融入国家发展的工作重点。",
+      "source": "https://www.customs.gov.hk/sc/customs-announcement/press-release/index_id_4491.html"
     },
     {
       "date": "2025-02-20",
       "title": "出任世界海关组织亚太区副主席",
       "description": "香港海关出任世界海关组织亚太区副主席，任期内透过举办国际会议、策划大型区域性执法行动及能力建设活动，助力香港发展成为区域知识产权贸易中心。",
-      "impact": "提升香港海关在亚太海关合作中的角色与影响力。"
+      "impact": "提升香港海关在亚太海关合作中的角色与影响力。",
+      "source": "https://www.customs.gov.hk/hcms/filemanager/common/customs_newsletter/issue_68/tc/article/1/"
     },
     {
       "date": "2026-02-12",
       "title": "2025年工作回顾：执法案件上升24%",
       "description": "2025年海关共处理38,869宗案件，同比上升24%，检获总值93.7亿元货品，拘捕超过36,201人，其中私烟案件占约七成；私烟定额罚款增至5,000元，并计划全面推行烟草标签制。",
-      "impact": "打击私烟及缉毒成效显著，反映执法资源持续加强。"
+      "impact": "打击私烟及缉毒成效显著，反映执法资源持续加强。",
+      "source": "https://www.customs.gov.hk/tc/customs-announcement/press-release/index_id_5078.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "保安局 (Security Bureau)",
-      "org_description": "香港海关的隶属决策局，统筹保安纪律部队政策"
+      "org_description": "香港海关的隶属决策局，统筹保安纪律部队政策",
+      "org_id": "HK-GOV-034",
+      "relationship_type": "parent_org"
     },
     {
       "org_name": "世界海关组织 (WCO)",
-      "org_description": "香港海关出任其亚太区副主席，参与区域海关合作与执法行动"
+      "org_description": "香港海关出任其亚太区副主席，参与区域海关合作与执法行动",
+      "relationship_type": "member_of",
+      "org_id": null
     },
     {
       "org_name": "海关总署 (China Customs)",
-      "org_description": "与香港海关在口岸合作、打击走私及贸易便利化方面保持紧密协作"
+      "org_description": "与香港海关在口岸合作、打击走私及贸易便利化方面保持紧密协作",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "香港警务处 (Hong Kong Police Force)",
-      "org_description": "同属保安局下的纪律部队，在缉毒及执法行动上协作"
+      "org_description": "同属保安局下的纪律部队，在缉毒及执法行动上协作",
+      "org_id": "HK-GOV-018",
+      "relationship_type": "sibling"
     }
   ],
   "core_business": "香港海关是香港特别行政区政府保安局辖下的纪律部队之一，成立于1909年。由于香港为自由港，香港海关与世界多数海关当局职能不同，除少量保障和征收应课税品税款工作外，主要负责货物清关、防止走私、缉毒和防止贩毒及滥用受管制药物、保障知识产权、保障消费者权益、监管金钱服务经营者、监管贵金属及宝石交易商、保障和利便正当工商业及维护香港贸易信誉。截至2022年9月，海关职员编制达7,400人。海关同时负责执行进出口管制法例，并透过与世界海关组织及各地海关的合作促进贸易便利化。",
@@ -202,7 +216,5 @@
       }
     ],
     "notes": "Phase3再丰富（2026-09-01）：补全6个官方社交媒体帐号、2026年国际海关节、WCO亚太区副主席续任及对接「十五五」规划工作，纯事实记录，内容统一为简体中文。"
-  },
-  "description": "香港特别行政区政府保安局辖下纪律部队",
-  "brief": "香港特别行政区政府保安局辖下纪律部队"
+  }
 }

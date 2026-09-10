@@ -112,7 +112,8 @@
       "date": "2026-01-01",
       "title": "亚洲金融论坛升级为AFF+",
       "description": "马时亨宣布计划将亚洲金融论坛升级为AFF+，加入产业元素，强化论坛作为国际商贸及金融交流平台的功能。",
-      "impact": "提升香港旗舰论坛的国际影响力及产业对接能力。"
+      "impact": "提升香港旗舰论坛的国际影响力及产业对接能力。",
+      "source": "https://www.bastillepost.com/hongkong/article/14997278-%E9%A6%AC%E6%99%82%E4%BA%A8%E8%87%AA%E7%88%86%E5%90%8C%E8%B2%BF%E7%99%BC%E5%B1%80%E5%85%A9%E5%A4%A7%E6%B7%B5%E6%BA%90-%E5%B0%87%E6%8F%90%E5%8D%87%E4%BA%9E%E6%B4%B2%E9%87%91%E8%9E%8D%E8%AB%96%E5%A3%87"
     },
     {
       "date": "2026-01-26",
@@ -130,19 +131,27 @@
   "related_entities": [
     {
       "org_name": "商务及经济发展局 (Commerce and Economic Development Bureau)",
-      "org_description": "贸发局所属政策范畴的决策局，负责香港对外贸易政策"
+      "org_description": "贸发局所属政策范畴的决策局，负责香港对外贸易政策",
+      "org_id": "HK-GOV-005",
+      "relationship_type": "parent_org"
     },
     {
       "org_name": "香港会议展览中心 (HKCEC)",
-      "org_description": "贸发局多数旗舰展览的举办场地，贸发局为香港会议展览中心（管理）有限公司的股东之一"
+      "org_description": "贸发局多数旗舰展览的举办场地，贸发局为香港会议展览中心（管理）有限公司的股东之一",
+      "relationship_type": "supplier",
+      "org_id": null
     },
     {
       "org_name": "香港总商会 (HKGCC)",
-      "org_description": "香港主要商会，与贸发局在贸易推广活动上协作"
+      "org_description": "香港主要商会，与贸发局在贸易推广活动上协作",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "中华总商会 (CGCC)",
-      "org_description": "香港主要华商团体，与贸发局合作推动港企开拓内地及海外市场"
+      "org_description": "香港主要华商团体，与贸发局合作推动港企开拓内地及海外市场",
+      "relationship_type": "partner",
+      "org_id": null
     }
   ],
   "core_business": "香港贸易发展局（贸发局）成立于1966年，是法定机构，使命是为香港商界创造机遇、拓展环球业务，尤以服务中小企业为主。贸发局在全球设有51间办事处，透过每年约40项大型国际展览及会议（如香港礼品及赠品展、香港钟表展、亚洲金融论坛等）、商贸配对、市场研究及线上采购平台，连系全球买家与香港、内地及亚洲供应商，推广香港作为「超级联系人」及「超级增值人」的角色，并协助企业应对国际经贸格局变化、开拓新兴市场及参与大湾区建设。",
@@ -193,7 +202,5 @@
       }
     ],
     "notes": "P3二次丰富：新增理事会成员（林建岳、陈瑞娟、诸立力）、60周年活动、AFF 2026升级实录，quotes扩充至7条，内容统一为简体中文。"
-  },
-  "description": "推广香港对外贸易的法定机构",
-  "brief": "推广香港对外贸易的法定机构"
+  }
 }

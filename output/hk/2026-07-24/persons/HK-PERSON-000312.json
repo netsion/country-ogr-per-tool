@@ -1,13 +1,13 @@
 {
   "person_id": "HK-PERSON-000312",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q115591695",
   "name": "陳翊庭",
   "name_zh": "陈翊庭",
   "name_en": "Bonnie Chan Yi-ting",
   "aliases": [],
   "nationality": "HK",
   "gender": "female",
-  "birth_date": "1970-01-01",
+  "birth_date": null,
   "birth_place": "香港",
   "contacts": [
     {
@@ -109,7 +109,7 @@
       "description": "港交所董事会主席，陈翊庭任集团行政总裁"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001130",
       "person_name": "史美伦 (Laura Cha)",
       "relationship_type": "associate",
       "description": "前任港交所主席，陈翊庭曾担任其智囊"
@@ -148,10 +148,11 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
+      "wikidata",
       "official_website",
       "news_search"
     ],
@@ -162,14 +163,14 @@
         "url": "https://www.hkexgroup.com/About-HKEX/Organisation/Management/Chairman-of-the-Management-Committee/Bonnie-Y-CHAN?sc_lang=zh-HK"
       },
       {
-        "title": "陈翊庭 - 百度百科",
-        "url": "https://baike.baidu.com/item/%E9%99%88%E7%BF%8A%E5%BA%AD/53587024"
-      },
-      {
         "title": "Bonnie Chan - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Bonnie_Chan"
+      },
+      {
+        "title": "Wikidata Q115591695 Bonnie Chan",
+        "url": "https://www.wikidata.org/wiki/Q115591695"
       }
     ],
-    "notes": "身份核验无误。补充港大/哈佛法学学历、摩根士丹利/达维/港交所完整履历及2024年3月出任CEO、续任至2030年信息。出生年仅知1970年。头像URL若文件不存在则失效，以Commons实际文件为准。2026-08-27补：新增港交所官网公开联系方式；本人无个人公开社交账号，social保持空。"
+    "notes": "身份核验无误。补充港大/哈佛法学学历、摩根士丹利/达维/港交所完整履历及2024年3月出任CEO、续任至2030年信息。2026-09-07补：经Wikidata核实QID为Q115591695（zh标签陳翊庭）；出生日期Wikidata仅精确到年（1970，precision=9），原birth_date虚构至1月1日，已规范为null，年份保留于简介。本人无个人公开社交账号，social保持空。"
   }
 }

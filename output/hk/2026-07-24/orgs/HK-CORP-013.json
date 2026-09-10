@@ -81,8 +81,8 @@
     },
     {
       "person_id": "HK-PERSON-001238",
-      "name": "单甦 (Shan Su)",
-      "name_en": "Shan Su",
+      "name": "单甦 (Ian Su Shan)",
+      "name_en": "Ian Su Shan",
       "title": "首席财务官",
       "title_description": "分管集团财务管理与信息披露",
       "description": "2022年5月加入京东物流任首席财务官，2023年5月升任京东集团首席财务官，并兼任首席气候官，此前曾任德邦物流董事、达达集团董事会主席，在财务管理领域经验丰富。"
@@ -123,51 +123,66 @@
       "date": "2025-02-01",
       "title": "正式上线京东外卖业务",
       "description": "京东2025年初正式上线外卖业务，刘强东亲自参与一线运营，一年内获得超过2.4亿用户下单，外卖市场份额超过15%，但新业务2025年经营亏损达466.4亿元。",
-      "impact": "打破外卖市场双寡头格局，显著提升用户购物频率，同时短期压缩集团利润"
+      "impact": "打破外卖市场双寡头格局，显著提升用户购物频率，同时短期压缩集团利润",
+      "source": "https://stcn.com/article/detail/1525859.html"
     },
     {
       "date": "2026-03-06",
       "title": "公布2025年全年业绩",
       "description": "2025年营收同比增长13%，集团净利润约270亿元，京东零售与京东物流分别实现514亿元和52.7亿元经营利润；CEO许冉表示预计2026年外卖总投入将较2025年降低。",
-      "impact": "外卖业务从大规模投入转向规模与效率并重的新阶段"
+      "impact": "外卖业务从大规模投入转向规模与效率并重的新阶段",
+      "source": "https://finance.sina.com.cn/tech/roll/2026-03-06/doc-inhpyyhv9368642.shtml"
     },
     {
       "date": "2025-11-13",
       "title": "三季度收入超预期",
       "description": "2025年三季度集团收入2991亿元人民币（约420亿美元），同比增长14.9%，超出市场预期。",
-      "impact": "显示新业务拉动的用户活跃度提升带动整体增长"
+      "impact": "显示新业务拉动的用户活跃度提升带动整体增长",
+      "source": "http://www.news.cn/auto/20251113/fb310e65bbaa4a3389adce78af997b22/c.html"
     },
     {
       "date": "2023-05-11",
       "title": "管理层交接：许冉出任CEO",
       "description": "京东在港交所公告，首席财务官许冉接替退休的徐雷出任集团首席执行官兼执行董事，京东物流原CFO单甦升任集团首席财务官。",
-      "impact": "完成近年最重要的一次管理层交接，确立「刘强东—许冉」领导架构"
+      "impact": "完成近年最重要的一次管理层交接，确立「刘强东—许冉」领导架构",
+      "source": "https://www.stcn.com/article/detail/864046.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "京东物流 (JD Logistics)",
-      "org_description": "京东集团旗下港股上市物流公司（2618.HK），运营覆盖全国的仓配网络"
+      "org_description": "京东集团旗下港股上市物流公司（2618.HK），运营覆盖全国的仓配网络",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "京东健康 (JD Health)",
-      "org_description": "京东集团旗下港股上市互联网医疗健康平台（6618.HK）"
+      "org_description": "京东集团旗下港股上市互联网医疗健康平台（6618.HK）",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "京东工业 (JD Industrial)",
-      "org_description": "京东集团旗下工业供应链业务板块"
+      "org_description": "京东集团旗下工业供应链业务板块",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "达达集团 (Dada Group)",
-      "org_description": "京东控股的本地即时配送与即时零售平台（达达快送、京东到家）"
+      "org_description": "京东控股的本地即时配送与即时零售平台（达达快送、京东到家）",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "永辉超市 (Yonghui Superstores)",
-      "org_description": "京东参与的线下商超零售企业，CEO许冉兼任其董事"
+      "org_description": "京东参与的线下商超零售企业，CEO许冉兼任其董事",
+      "relationship_type": "affiliated",
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "京东集团2020年在香港二次上市（9618.HK），此前2014年于纳斯达克上市"
+      "org_description": "京东集团2020年在香港二次上市（9618.HK），此前2014年于纳斯达克上市",
+      "org_id": "HK-FIN-007"
     }
   ],
   "core_business": "京东集团由刘强东于1998年创立、2004年转型线上，是中国领先的技术驱动电商与零售基础设施服务商，主要采用B2C自营模式，业务现分为京东零售、京东物流和新业务（以外卖为主）三大板块。京东以自营正品、自建物流著称，以「多快好省」为核心经营理念，2025年营收同比增长13%，京东零售与京东物流分别贡献514亿元和52.7亿元经营利润。2025年集团高调进军外卖市场，一年内获得超2.4亿用户下单、市场份额超15%，虽有高额投入导致新业务年亏损466.4亿元，但显著提升了平台用户活跃度。公司2014年在美国纳斯达克上市，2020年6月18日在香港联交所二次上市（9618.HK），并通过京东国际拓展跨境与全球业务，将供应链基础设施能力向亚太等海外市场延伸。",
@@ -208,7 +223,5 @@
       }
     ],
     "notes": "P3二次丰富：新增管理层（单甦、张雱）、京东国际板块、达达/永辉关联实体、微博与Facebook账号及管理层交接事件"
-  },
-  "description": "中国领先自营式电商与零售集团，2025年进军外卖市场",
-  "brief": "中国领先自营式电商与零售集团，2025年进军外卖市场"
+  }
 }

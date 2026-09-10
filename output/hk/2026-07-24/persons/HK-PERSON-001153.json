@@ -73,13 +73,13 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001154",
       "person_name": "马云 (Jack Ma)",
       "relationship_type": "associate",
       "description": "1997年跟随马云进京负责外经贸部网站技术开发，1999年随马云回杭州共同创办阿里巴巴"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001196",
       "person_name": "蔡崇信 (Joe Tsai)",
       "relationship_type": "colleague",
       "description": "2023年集团交接中，蔡崇信出任主席、吴泳铭出任首席执行官"
@@ -92,7 +92,7 @@
     {
       "date": "1999",
       "organization": "阿里巴巴集团 (Alibaba Group)",
-      "achievement": "作为\"十八罗汉\"之一联合创办阿里巴巴，为集团第一位程序员（004号员工）"
+      "achievement": "作为「十八罗汉」之一联合创办阿里巴巴，为集团第一位程序员（004号员工）"
     },
     {
       "date": "2015",
@@ -105,17 +105,18 @@
       "achievement": "出任阿里巴巴控股集团首席执行官，兼任淘天集团董事长及阿里云董事长与首席执行官"
     }
   ],
-  "biography_summary": "吴泳铭，1975年生于浙江杭州，阿里巴巴集团联合创始人之一、首席执行官，阿里巴巴合伙人，\"十八罗汉\"之一，阿里004号员工，花名\"东邪\"。他1996年毕业于浙江工业大学计算机及应用专业，先加入中国黄页，1997年随马云赴北京负责外经贸部网站技术开发，1999年回杭州共同创办阿里巴巴，是集团第一代程序员。他先后担任淘宝、支付宝、B2B等业务的首席技术官，领导构建相关业务底层技术架构，并创建核心广告平台阿里妈妈、孵化手机淘宝。2015年创立元璟资本任董事长，2020年转任非执行董事。2023年9月经董事会批准出任阿里巴巴控股集团首席执行官，兼任淘天集团董事长、阿里云智能集团董事长与首席执行官，推动集团\"用户为先、AI驱动\"战略。",
+  "biography_summary": "吴泳铭，1975年生于浙江杭州，阿里巴巴集团联合创始人之一、首席执行官，阿里巴巴合伙人，「十八罗汉」之一，阿里004号员工，花名「东邪」。他1996年毕业于浙江工业大学计算机及应用专业，先加入中国黄页，1997年随马云赴北京负责外经贸部网站技术开发，1999年回杭州共同创办阿里巴巴，是集团第一代程序员。他先后担任淘宝、支付宝、B2B等业务的首席技术官，领导构建相关业务底层技术架构，并创建核心广告平台阿里妈妈、孵化手机淘宝。2015年创立元璟资本任董事长，2020年转任非执行董事。2023年9月经董事会批准出任阿里巴巴控股集团首席执行官，兼任淘天集团董事长、阿里云智能集团董事长与首席执行官，推动集团「用户为先、AI驱动」战略。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
+      "org_website",
       "news_search"
     ],
     "completeness_score": 58,
@@ -125,14 +126,10 @@
         "url": "https://zh.wikipedia.org/wiki/吴泳铭"
       },
       {
-        "title": "青塔：浙工大校友吴泳铭将出任阿里巴巴控股集团CEO",
-        "url": "https://www.cingta.com/article/detail/24481"
-      },
-      {
         "title": "阿里巴巴集团官网管理层介绍：吴泳铭（董事兼首席执行官）",
         "url": "https://www.alibabagroup.com/zh-HK/about-alibaba-leadership-1637927598568767488"
       }
     ],
-    "notes": "Wikidata Q125372971；无公开头像（Wikidata无P18）。国籍为中国大陆（CHN），因阿里巴巴为香港上市公司纳入HK库。补深核查：无P18、无个人社交媒体；补阿里集团投资者关系管理层页为官网渠道。"
+    "notes": "复核：中文维基百科仅载出生年份1975年（无月日），birth_date按schema要求为YYYY-MM-DD格式故保持null，年份已记于biography_summary，不虚构精度。org_id核对_name_index.json：阿里巴巴集团=HK-CORP-001，中国黄页、元璟资本未入索引故为null。未查到任何经证实的个人社交媒体账号（微博/领英等），social_accounts保持空。现任职务（集团CEO、淘天董事长、阿里云董事长兼CEO）与集团官网管理层页一致。"
   }
 }

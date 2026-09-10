@@ -60,10 +60,24 @@
     },
     {
       "person_id": "HK-PERSON-000706",
-      "name": "李佩诗 (Li Pui-sze)",
+      "name": "李佩詩 (Charmaine Lee)",
       "title": "副主席（房屋局常任秘书长兼房屋署署长）",
       "title_description": "房委会副主席，统领房屋署日常运作及公营房屋兴建与管理事务",
       "description": "1993年8月加入政务职系，2023年4月晋升首长级甲级政务官，曾于多个决策局及部门服务，曾任社会福利署署长，2025年2月起出任房屋局常任秘书长兼房屋署署长并按《房屋条例》兼任房委会副主席。"
+    },
+    {
+      "person_id": "HK-PERSON-000950",
+      "name": "陈家珮 (Chan Ka-pui)",
+      "title": "非官方委员",
+      "title_description": "房委会非官方委员，参与公营房屋政策及事务审议",
+      "description": "香港特别行政区立法会议员，获颁荣誉勋章(MH)及太平绅士(JP)，2025年3月获行政长官再度委任为房委会非官方委员，并列入房委会2026/27年度委员名单。"
+    },
+    {
+      "person_id": "HK-PERSON-000962",
+      "name": "简慧敏 (Kan Wai-mun)",
+      "title": "非官方委员",
+      "title_description": "房委会非官方委员，参与公营房屋政策及事务审议",
+      "description": "香港特别行政区立法会议员、太平绅士(JP)，2025年3月获行政长官再度委任为房委会非官方委员，并列入房委会2026/27年度委员名单。"
     }
   ],
   "departments": [
@@ -105,51 +119,64 @@
       "title": "简约公屋大规模落成",
       "date": "2025-03-28",
       "description": "简约公屋计划自2025年3月交付首条钥匙起推进，2025年有9500个单位落成，2026年可望累计提供约3万个单位；启德世运道项目约10700个单位全数落成，建造周期较传统缩短近60%。政府估算3万个家庭5年可省回逾75亿元租金。",
-      "impact": "公屋综合轮候时间2025年中缩短至5.1年，朝4.5年目标迈进"
+      "impact": "公屋综合轮候时间2025年中缩短至5.1年，朝4.5年目标迈进",
+      "source": "https://www.hb.gov.hk/tc/policy/housing/policy/light_public_housing/lphphoto.html"
     },
     {
       "title": "未来5年居屋供应5.5万伙",
       "date": "2025-08-24",
       "description": "房屋局局长何永贤表示，未来5年连同房协将提供约5.5万个居屋单位，平均每年9000至10000个；公屋与资助出售房屋比例将由7:3逐步调整至6:4。",
-      "impact": "增加资助房屋供应，居屋超额认购倍数回落"
+      "impact": "增加资助房屋供应，居屋超额认购倍数回落",
+      "source": "https://www.hkcd.com.hk/content_app/2025-08/24/content_8710359.html"
     },
     {
       "title": "加强打击滥用公屋",
       "date": "2025-08-24",
       "description": "现届政府3年收回9000个滥用公屋单位，节省超90亿元；「举报滥用公屋奖」自2025年1月起接获3500宗申请，首批3宗获发奖金。",
-      "impact": "回收公屋资源并改善分配公平"
+      "impact": "回收公屋资源并改善分配公平",
+      "source": "https://www.hkcd.com.hk/content_app/2025-08/24/content_8710359.html"
     },
     {
       "title": "房委会公开例会介绍公营房屋发展最新路向",
       "date": "2026-07-13",
       "description": "房屋署署长李佩诗在房委会公开例会上介绍重点房屋政策与工作的最新路向，汇报全力推进公营房屋发展的进展。",
-      "impact": "持续向公众交代公营房屋兴建进度及政策落实情况"
+      "impact": "持续向公众交代公营房屋兴建进度及政策落实情况",
+      "source": "https://www.info.gov.hk/gia/general/202607/13/P2026071300653.htm"
     }
   ],
   "related_entities": [
     {
       "org_name": "房屋局 (Housing Bureau)",
-      "org_description": "房委会的主管政策局，局长兼任房委会主席"
+      "org_description": "房委会的主管政策局，局长兼任房委会主席",
+      "org_id": "HK-GOV-022",
+      "relationship_type": "parent_org"
     },
     {
       "org_name": "房屋署 (Housing Department)",
-      "org_description": "房委会的执行机关，负责公屋日常运作"
+      "org_description": "房委会的执行机关，负责公屋日常运作",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港房屋协会 (HKHS)",
-      "org_description": "独立法定房屋机构，与房委会合作提供资助房屋"
+      "org_description": "独立法定房屋机构，与房委会合作提供资助房屋",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "简约公屋专责团队 (Light Public Housing Team)",
-      "org_description": "负责简约公屋项目建设的专责机构"
+      "org_description": "负责简约公屋项目建设的专责机构",
+      "org_id": null
     },
     {
       "org_name": "上诉委员会(房屋) (Appeal Panel (Housing))",
-      "org_description": "独立法定上诉机制，处理公屋租户就房委会决定提出的上诉"
+      "org_description": "独立法定上诉机制，处理公屋租户就房委会决定提出的上诉",
+      "org_id": null
     },
     {
       "org_name": "立法会房屋事务委员会 (LegCo Panel on Housing)",
-      "org_description": "立法会监察公营及私营房屋政策的委员会，与房委会工作对接"
+      "org_description": "立法会监察公营及私营房屋政策的委员会，与房委会工作对接",
+      "org_id": null
     }
   ],
   "core_business": "香港房屋委员会是根据《房屋条例》于1973年4月1日成立的法定组织，负责策划、兴建及管理香港的出租公共房屋，亦负责兴建资助出售房屋（居者有其屋计划），其执行机关为政府部门的房屋署。房委会的主要职能包括制定公营房屋政策、编配及管理公屋单位、订定租金水平、规划新发展项目，以及透过居屋及绿置居等计划协助中低收入家庭自置居所。2022/23年度至今公屋落成量达16.8万伙，逐步扭转供应「头轻尾重」局面。近年房委会推进简约公屋计划以缩短轮候时间（2025年中综合轮候时间降至5.1年），并加强打击滥用公屋。房委会下设建筑、商业楼宇、财务、策划、资助房屋及屋邨管理等多个小组委员会。房委会主席由房屋局局长何永贤兼任，副主席由房屋局常任秘书长兼房屋署署长李佩诗担任，房委会单位现时容纳超过200万人。",
@@ -157,7 +184,7 @@
     "public_administration",
     "real_estate"
   ],
-  "apec_stance": "房委会的公营房屋管理模式（包括miC组装合成建筑法的应用）为亚太区高密度城市住屋问题提供参考，其经验与新加坡建屋发展局等机构常有交流。",
+  "apec_stance": "香港房屋委员会的公营房屋管理模式在亚太区具有参考价值，其公屋规划、编配、屋邨管理及资助出售房屋政策经验，常与新加坡建屋发展局等亚太区房屋机构互相观摩交流。房委会近年采用组装合成建筑法（MiC）等创新建造技术提升公屋兴建效率，为亚太区高密度城市解决住房供应与可负担住屋问题提供实务参考，与APEC框架下关注的可持续城市发展与民生福祉议题方向一致。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_of_Hong_Kong_Housing_Authority.svg/330px-Logo_of_Hong_Kong_Housing_Authority.svg.png",
     "local_path": null
@@ -171,7 +198,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 79,
+    "completeness_score": 89,
     "quotes": [
       {
         "title": "房委会副主席（房屋署署长李佩诗）— 香港房屋委员会官方网站",
@@ -188,10 +215,16 @@
       {
         "title": "维基百科：香港房屋委員會",
         "url": "https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E6%88%BF%E5%B1%8B%E5%A7%94%E5%93%A1%E6%9C%83"
+      },
+      {
+        "title": "房委會委員2026-27年度名單（房委會官網）",
+        "url": "https://www.housingauthority.gov.hk/tc/about-us/housing-authority/ha-and-its-committees/ha-members/index.html"
+      },
+      {
+        "title": "委任房屋委員會委員（香港政府新聞公報，2025年3月31日）",
+        "url": "https://www.info.gov.hk/gia/general/202503/31/P2025033100285.htm"
       }
     ],
-    "notes": "Phase3二次丰富：新增副主席李佩诗、5个小组委员会、上诉委员会(房屋)等关联机构、2026年公开例会事件。"
-  },
-  "description": "香港公营机构，负责公屋及居屋事务",
-  "brief": "策划兴建管理香港公共租住房屋及资助出售房屋的法定组织"
+    "notes": "Phase3二次丰富：新增副主席李佩诗、5个小组委员会、上诉委员会(房屋)等关联机构、2026年公开例会事件。 | B2批次再丰富：补非官方委员陈家珮、简慧敏（据2026-27年度委员名单及2025年3月委任公告），扩写APEC关联段落。"
+  }
 }

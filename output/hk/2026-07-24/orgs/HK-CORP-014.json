@@ -45,14 +45,14 @@
   "key_people": [
     {
       "person_id": "HK-PERSON-000503",
-      "name": "祈天立 (Ben Keswick)",
+      "name": "班哲明·凱瑟克 (Ben Keswick)",
       "title": "执行主席",
       "title_description": "主持董事局并负责集团战略，兼任提名与薪酬委员会主席",
       "description": "凯瑟克（Keswick）家族成员，该家族自19世纪起掌控怡和；1998年加入集团，曾任怡和太平洋财务总监及行政总裁、怡和合发集团常务董事，2012至2020年任集团常务董事，2019年起再任执行主席，主导集团向投资公司模式的战略转型与投资组合重组。"
     },
     {
       "person_id": "HK-PERSON-000414",
-      "name": "潘志伟 (Lincoln Pan)",
+      "name": "潘林峯 (Lincoln Pan)",
       "title": "集团行政总裁",
       "title_description": "负责集团整体业务运营与投资管理",
       "description": "中文名潘永成，曾任亚太另类投资公司PAG合伙人及私募股权联席主管，2025年12月1日起接替退休的韦杰聪（John Witt）出任怡和集团行政总裁。"
@@ -102,51 +102,67 @@
       "title": "任命潘永成为新任行政总裁",
       "date": "2025-12-01",
       "description": "怡和集团宣布任命来自PAG的潘永成（Lincoln Pan）为行政总裁，接替服务32年后退休的韦杰聪（John Witt）。",
-      "impact": "引入私募股权背景领导，市场预期将强化股东回报导向"
+      "impact": "引入私募股权背景领导，市场预期将强化股东回报导向",
+      "source": "https://www.jardines.com/newsroom/latest-news/press-release/2025/lincoln-pan-appointed-chief-executive-officer-effect-1-december-2025-succeeding-john"
     },
     {
       "title": "2025年全年业绩：基本净利润增长11%",
       "date": "2026-03-11",
       "description": "怡和控股公布2025年全年业绩，基本净利润达16.8亿美元，同比增长11%，资产负债表实现净现金转折，继续推进向投资公司模式的战略转型。",
-      "impact": "标志集团投资组合重组取得实质进展"
+      "impact": "标志集团投资组合重组取得实质进展",
+      "source": "https://hk.investing.com/news/company-news/article-93CH-1359506"
     },
     {
       "title": "文华东方国际私有化生效",
       "date": "2026-02-28",
       "description": "怡和控股以每股3.35美元（含现金2.75美元及文华东方出售港岛壹号中心后派发的每股0.6美元特别股息）将持股约88%的文华东方国际私有化并撤销上市，作价较市价溢价约四成，预计2026年2月28日生效。",
-      "impact": "简化集团架构，酒店资产全面纳入集团投资组合管理"
+      "impact": "简化集团架构，酒店资产全面纳入集团投资组合管理",
+      "source": "https://law.asia/zh-hans/mandarin-oriental-privatisation/"
     },
     {
       "title": "投资者日更新集团战略",
       "date": "2026-03-11",
       "description": "集团在公布全年业绩同期举行投资者日，阐述向投资公司模式转型后的资本配置与股东回报框架。",
-      "impact": "强化资本市场对集团战略转型的理解与信心"
+      "impact": "强化资本市场对集团战略转型的理解与信心",
+      "source": "https://www.jardines.com/investors/investor-day-2026"
     }
   ],
   "related_entities": [
     {
       "org_name": "香港置地控股 (Hongkong Land)",
-      "org_description": "怡和系旗下大型物业投资、管理及发展集团，聚焦香港、新加坡、中国内地及亚洲主要城市"
+      "org_description": "怡和系旗下大型物业投资、管理及发展集团，聚焦香港、新加坡、中国内地及亚洲主要城市",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "文华东方国际 (Mandarin Oriental)",
-      "org_description": "国际豪华酒店集团，怡和系旗下资产，2026年2月完成私有化并撤销上市"
+      "org_description": "国际豪华酒店集团，怡和系旗下资产，2026年2月完成私有化并撤销上市",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "怡和太平洋 (Jardine Pacific)",
-      "org_description": "怡和旗下综合业务平台，涵盖汽车、餐饮、工程物流等亚太业务"
+      "org_description": "怡和旗下综合业务平台，涵盖汽车、餐饮、工程物流等亚太业务",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "DFI零售集团 (DFI Retail Group)",
-      "org_description": "怡和系旗下亚洲零售集团，经营万宁、7-Eleven、美心等品牌权益"
+      "org_description": "怡和系旗下亚洲零售集团，经营万宁、7-Eleven、美心等品牌权益",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "怡和合发 (Jardine Cycle & Carriage)",
-      "org_description": "新加坡上市的综合企业，怡和系东南亚旗舰，持有印尼阿斯特拉国际（Astra International）等汽车与重工业资产"
+      "org_description": "新加坡上市的综合企业，怡和系东南亚旗舰，持有印尼阿斯特拉国际（Astra International）等汽车与重工业资产",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "阿斯特拉国际 (Astra International)",
-      "org_description": "印尼最大汽车集团及多元化企业，怡和系通过怡和合发持有其控股权"
+      "org_description": "印尼最大汽车集团及多元化企业，怡和系通过怡和合发持有其控股权",
+      "relationship_type": "subsidiary",
+      "org_id": null
     }
   ],
   "core_business": "怡和洋行（Jardine Matheson，怡和控股）是1832年创立于广州的英资洋行，前名渣甸洋行，由威廉·渣甸与詹姆士·马地臣创办，现为远东最大的英资财团之一，总部设于香港，旗舰怡和控股于百慕大注册，在伦敦、百慕大及新加坡交易所上市，大部分股权由新加坡注册的怡和策略持有，凯瑟克家族为实际控制方。集团业务多元，透过香港置地（物业投资与发展）、文华东方（豪华酒店）、DFI零售集团（超市与便利店）、怡和太平洋（汽车、餐饮、工程与物流）及怡和合发（东南亚汽车与重工业，含印尼阿斯特拉国际）等附属公司，覆盖地产、酒店、零售、汽车经销、工程物流与金融服务等领域，全球雇员逾40万人。怡和是首家在上海开设的欧洲公司和首家在日本投资的外国公司，对香港早年发展有重要作用。近年集团推进向投资公司模式转型，2026年2月完成文华东方私有化并重组投资组合，2025年基本净利润增长11%，以357.79亿美元营收位列《财富》世界500强。",
@@ -190,7 +206,5 @@
       }
     ],
     "notes": "P3二次丰富：补投资管理高层（甘尼斯/廖艾琳，person_id=null待分配）、文华东方2026年2月私有化生效、怡和合发/阿斯特拉关联实体、投资管理部"
-  },
-  "description": "英资综合企业集团",
-  "brief": "远东最大英资财团，业务覆盖地产、零售、酒店与汽车经销"
+  }
 }

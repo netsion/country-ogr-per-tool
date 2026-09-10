@@ -109,18 +109,21 @@
   "social_accounts": [
     {
       "platform": "facebook",
-      "account": "PZpage",
-      "url": "https://www.facebook.com/PZpage"
+      "account_name": "PZpage",
+      "url": "https://www.facebook.com/PZpage",
+      "source": "https://www.wikidata.org/wiki/Q18228462"
     },
     {
       "platform": "instagram",
-      "account": "pzimmerman.hk",
-      "url": "https://www.instagram.com/pzimmerman.hk"
+      "account_name": "pzimmerman.hk",
+      "url": "https://www.instagram.com/pzimmerman.hk",
+      "source": "https://www.paulzimmerman.hk/about-contact.html"
     },
     {
       "platform": "youtube",
-      "account": "paulzimmerman6050",
-      "url": "https://www.youtube.com/@paulzimmerman6050"
+      "account_name": "paulzimmerman6050",
+      "url": "https://www.youtube.com/@paulzimmerman6050",
+      "source": "https://www.paulzimmerman.hk/about-contact.html"
     }
   ],
   "family_members": [],
@@ -187,6 +190,6 @@
         "url": "https://www.wikidata.org/wiki/Q18228462"
       }
     ],
-    "notes": "nationality按2012年归化中国籍记录为HK（荷兰裔背景在biography说明）。策略委员会主席一职为批次提供的组织档案信息（公共专业联盟关联），官网及维基印证其为联盟成员并曾任主席。选举及政党经历一句客观带过，不展开争议内容。"
+    "notes": "nationality按2012年归化中国籍记录为HK（荷兰裔背景在biography说明）。策略委员会主席一职为批次提供的组织档案信息（公共专业联盟关联），官网及维基印证其为联盟成员并曾任主席。选举及政党经历一句客观带过，不展开争议内容。 | 2026-09-07复核：social_accounts字段名account规范化为account_name并补source；facebook账号PZpage经Wikidata（Q18228462）交叉确认，instagram/youtube来自其个人官网。未发现其twitter/threads等其他官方账号，不再补。"
   }
 }
