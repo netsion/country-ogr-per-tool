@@ -22,6 +22,14 @@
     {
       "name": "九广铁路公司官网（kcrc.com.hk）",
       "description": "公司概览、管理局成员、公开资料及年度经审核业绩发布平台"
+    },
+    {
+      "name": "九铁年报",
+      "description": "公司于官网发布的年度报告（最新为二零二二年度），载列管理局报告书及经审核财务报表"
+    },
+    {
+      "name": "公布专页（业绩及公告）",
+      "description": "官网公布栏目，按年刊载历年经审核业绩新闻稿及公告（可追溯至2023年度）"
     }
   ],
   "key_people": [
@@ -35,8 +43,8 @@
     },
     {
       "person_id": "HK-PERSON-001172",
-      "name": "马利德 (Carl Mahler)",
-      "name_en": "Carl Mahler",
+      "name": "马利德 (L.T. Ma)",
+      "name_en": "L.T. Ma",
       "title": "总裁",
       "title_description": "负责公司日常管理",
       "description": "九广铁路公司总裁，领导公司作为铁路土地及资产持有人的管理工作。"
@@ -101,35 +109,68 @@
       "date": "2026-03-31",
       "title": "公布2025年度经审核业绩",
       "description": "2025年度从港铁公司收取的服务经营权收入中，非定额部分为36.35亿港元（2024年度为33.3亿港元，增加10%），另有每年定额7.5亿港元。",
-      "impact": "反映东铁线及屯马线等本地铁路网络及高铁乘客量增长，公司收入稳步上升。"
+      "impact": "反映东铁线及屯马线等本地铁路网络及高铁乘客量增长，公司收入稳步上升。",
+      "source": "https://www.kcrc.com/download/sc/announcements/Chinese_KCRC_Audited_Results_2025.pdf"
     },
     {
       "date": "2025-12-31",
       "title": "高铁2025年度乘客量创历史新高",
       "description": "广深港高铁香港段2025年度创出2018年启用以来的历史新高乘客量，东铁及屯马线本地乘客量亦较前一年上升。",
-      "impact": "带动公司非定额服务经营权收入增长。"
+      "impact": "带动公司非定额服务经营权收入增长。",
+      "source": "https://www.news.cn/20260104/68cd1c004b6440bb8e39de8cb8db5b22/c.html"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "公布2024年度经审核业绩",
+      "description": "总裁马利德于2025年4月15日公布公司截至2024年12月31日止年度经审核业绩，年度录得会计溢利2.09亿港元，铁路乘客量上升带动来自港铁公司的服务经营权收益较2023年度增长约28%。",
+      "impact": "两铁合并后资产持有人模式的收入及盈利保持稳健。",
+      "source": "https://www.kcrc.com/download/tc/announcements/Chinese_KCRC_Audited_Results_2024.pdf"
+    },
+    {
+      "date": "2024-05-10",
+      "title": "公布2023年度经审核业绩",
+      "description": "公司公布截至2023年12月31日止年度经审核业绩，年度录得溢利2.57亿港元，扭转过去三年疫情期间的亏损，铁路乘客量强劲回升带动服务经营权收入增长。",
+      "impact": "公司财务状况随跨境及本地交通复常明显改善。",
+      "source": "https://hk.finance.yahoo.com/news/%E4%B9%9D%E5%BB%A3%E9%90%B5%E8%B7%AF%E5%85%AC%E5%8F%B8%E5%8E%BB%E5%B9%B4%E8%BD%89%E8%B3%BA2-57%E5%84%84%E5%85%83-012822497.html"
+    },
+    {
+      "date": "2007-12-02",
+      "title": "两铁合并，服务经营权授予港铁公司",
+      "description": "根据《两铁合并条例》及服务经营权协议，公司于2007年12月2日将东铁线、轻铁、西铁线、马鞍山线等原九铁路线服务经营权授予香港铁路有限公司，转型为有关铁路土地及资产的持有人。",
+      "impact": "确立公司此后以收取定额及非定额服务经营权收入为主的营运模式。",
+      "source": "https://www.tlb.gov.hk/tc/policy/transport/issues/pmmks/Rail%20Merger%20Brief%20(chi).pdf"
     }
   ],
   "related_entities": [
     {
       "org_name": "香港铁路有限公司 (MTR Corporation)",
-      "org_description": "2007年两铁合并后获授予服务经营权，运营原九铁路线并向九铁公司支付经营权费用"
+      "org_description": "2007年两铁合并后获授予服务经营权，运营原九铁路线并向九铁公司支付经营权费用",
+      "relationship_type": "partner",
+      "org_id": "HK-CORP-016"
     },
     {
       "org_name": "香港特区政府运输及物流局 (Transport and Logistics Bureau)",
-      "org_description": "运输政策主管局，其常任秘书长出任九铁管理局成员"
+      "org_description": "运输政策主管局，其常任秘书长出任九铁管理局成员",
+      "relationship_type": "regulator",
+      "org_id": "HK-GOV-035"
     },
     {
       "org_name": "香港特区政府财经事务及库务局 (FSTB)",
-      "org_description": "其局长出任九铁管理局主席，其常任秘书长（库务）及副秘书长（库务）出任管理局成员"
+      "org_description": "其局长出任九铁管理局主席，其常任秘书长（库务）及副秘书长（库务）出任管理局成员",
+      "relationship_type": "regulator",
+      "org_id": "HK-GOV-012"
     },
     {
       "org_name": "香港特区政府库务署 (Treasury, HKSAR)",
-      "org_description": "其署长出任九铁管理局成员，代表政府股东监督公司财务"
+      "org_description": "其署长出任九铁管理局成员，代表政府股东监督公司财务",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "香港特区政府政府产业署 (Government Property Agency)",
-      "org_description": "其署长出任九铁管理局成员，涉政府产业管理经验"
+      "org_description": "其署长出任九铁管理局成员，涉政府产业管理经验",
+      "relationship_type": "affiliated",
+      "org_id": null
     }
   ],
   "core_business": "九广铁路公司（九铁公司）为香港特区政府全资拥有的法定公营公司，根据《九广铁路公司条例》于1982年12月24日成立。其前身为政府部门九广铁路局，1910年起营运香港首条铁路，后经历电气化、双轨化及站房现代化。公司曾以审慎商业原则营运东铁、轻铁、西铁（现屯马线一部分）、马鞍山铁路及尖沙咀支线、落马洲支线，并经营物业、接驳巴士、过境货运及广告等业务。2007年12月2日两铁合并后，公司向香港铁路有限公司授予服务经营权，转型为有关铁路土地及资产的持有人，每年从港铁收取定额及非定额服务经营权收入，管理局由政府高层官员出任主席及成员。",
@@ -137,7 +178,7 @@
     "railway",
     "asset_management"
   ],
-  "apec_stance": "公司持有的东铁线连接香港与深圳及内地铁路网，广深港高铁香港段相关资产涉及跨境铁路服务，是香港与内地及亚太区域陆路互联互通基础设施的组成部分。",
+  "apec_stance": "公司持有的东铁线连接香港与深圳及内地铁路网，广深港高铁香港段相关资产涉及跨境铁路服务，是香港与内地及亚太区域陆路互联互通基础设施的组成部分；其服务经营权收入与跨境及本地铁路乘客量挂钩，直接反映亚太区人员往来与经贸活动的景气变化。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/KowloonCanton.svg/330px-KowloonCanton.svg.png",
     "local_path": null
@@ -151,7 +192,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 72,
+    "completeness_score": 89,
     "quotes": [
       {
         "title": "管理局及管理人员（KCRC官网）",
@@ -168,10 +209,28 @@
       {
         "title": "九广铁路公司2025年度经审核业绩（香港交通资讯网）",
         "url": "https://www.hkitalk.net/HKiTalk2/thread-2287227-1-1.html"
+      },
+      {
+        "title": "九廣鐵路公司截至2024年12月31日止年度經審核業績公布（KCRC官方新闻稿）",
+        "url": "https://www.kcrc.com/download/tc/announcements/Chinese_KCRC_Audited_Results_2024.pdf"
+      },
+      {
+        "title": "九廣鐵路公司公布（業績發布紀錄列表，KCRC官网）",
+        "url": "https://www.kcrc.com/tc/announcements.html"
+      },
+      {
+        "title": "九廣鐵路去年賺2.09億元 乘客量上升（香港大纪元）",
+        "url": "https://hk.epochtimes.com/news/2025-04-16/60201846"
+      },
+      {
+        "title": "九廣鐵路公司去年轉賺2.57億元（Yahoo财经）",
+        "url": "https://hk.finance.yahoo.com/news/%E4%B9%9D%E5%BB%A3%E9%90%B5%E8%B7%AF%E5%85%AC%E5%8F%B8%E5%8E%BB%E5%B9%B4%E8%BD%89%E8%B3%BA2-57%E5%84%84%E5%85%83-012822497.html"
+      },
+      {
+        "title": "两铁合并立法会参考资料摘要（运输及物流局）",
+        "url": "https://www.tlb.gov.hk/tc/policy/transport/issues/pmmks/Rail%20Merger%20Brief%20(chi).pdf"
       }
     ],
-    "notes": "P3二次丰富：补全管理局全体官方成员（黎志华、丘卓恒、吴维文）及高级财务经理，扩展库务署/政府产业署关联；公司无官方社媒账号故不收录"
-  },
-  "description": "香港政府全资法定公营公司，两铁合并后为铁路土地及资产持有人",
-  "brief": "政府全资法定机构，铁路土地及资产持有人（KCRC）"
+    "notes": "P3二次丰富：补全管理局全体官方成员（黎志华、丘卓恒、吴维文）及高级财务经理，扩展库务署/政府产业署关联；公司无官方社媒账号故不收录。P3三次丰富：补充2024及2023年度经审核业绩、2007年两铁合并三条事件，补年报及公布专页数字资产，扩充apec_stance；经核查公司官网（kcrc.com.hk页脚无社交图标）及多轮搜索，未发现九广铁路公司开设任何官方社交媒体账号，social_accounts维持为空，属客观事实而非缺漏。"
+  }
 }

@@ -9,7 +9,7 @@
   ],
   "nationality": "HK",
   "gender": "female",
-  "birth_date": "1972-01-01",
+  "birth_date": null,
   "birth_place": "",
   "contacts": [
     {
@@ -87,7 +87,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikidata",
@@ -95,8 +95,12 @@
       "news_search",
       "zh_wikipedia"
     ],
-    "completeness_score": 47,
+    "completeness_score": 46,
     "quotes": [
+      {
+        "title": "成員 - 醫院管理局（行政總裁李夏茵醫生，2025-08-01起出任）",
+        "url": "https://www.ha.org.hk/visitor/ha_visitor_index.asp?Content_ID=10192&Lang=CHIB5"
+      },
       {
         "title": "李夏茵 - 維基百科",
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%A4%8F%E8%8C%B5"
@@ -110,6 +114,6 @@
         "url": "https://www.info.gov.hk/gia/general/202507/02/P2025070200634.htm"
       }
     ],
-    "notes": "QID Q113902215维持；无P18头像；补全出生年份（1972）、2008年加入医管局及2016年晋升策略发展总监的轨迹、选委会委员身份；无个人社交媒体"
+    "notes": "QID Q113902215维持；无P18头像。2026-09-07复核：ha.org.hk医管局官方成员页确认其自2025年8月1日起任行政总裁（现职在任）。birth_date规范化：原记'1972-01-01'，Wikidata P569仅年份精度（precision 9），无精确出生日期依据，改为null，出生年份1972保留于biography_summary。无个人社交媒体账号，social_accounts保持空白。"
   }
 }

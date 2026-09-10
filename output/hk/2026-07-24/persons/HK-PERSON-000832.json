@@ -11,11 +11,16 @@
   "nationality": "HK",
   "gender": "female",
   "birth_date": null,
-  "birth_place": "",
-  "contacts": [],
+  "birth_place": null,
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.commchest.org",
+      "source": "香港公益金官网"
+    }
+  ],
   "current_positions": [
     "香港公益金会长",
-    "香港义工总领袖（据公开资料）",
     "香港家庭计划指导会荣誉会长",
     "香港芭蕾舞团荣誉会长"
   ],
@@ -23,9 +28,9 @@
     {
       "start_date": null,
       "end_date": null,
-      "institution": "真光女书院 (True Light Girls' College, 九龙窝打老道)",
-      "degree": "",
-      "field": ""
+      "institution": "真光女书院 (True Light Girls' College)",
+      "degree": "high_school",
+      "field": null
     }
   ],
   "work_experience": [
@@ -40,7 +45,7 @@
       "start_date": null,
       "end_date": null,
       "organization": "多个公益及慈善团体",
-      "org_id": "",
+      "org_id": null,
       "position": "合共担任18项名誉职位，包括香港各界妇女联合协进会名誉赞助人、香港乳癌基金会名誉赞助人、学友社名誉赞助人等"
     }
   ],
@@ -55,7 +60,7 @@
   "social_accounts": [],
   "family_members": [
     {
-      "person_id": "HK-PERSON-000601",
+      "person_id": "HK-PERSON-001152",
       "name": "李家超",
       "relationship": "spouse",
       "industry_or_organization": "丈夫，香港特别行政区行政长官"
@@ -76,30 +81,30 @@
   "political_stances": [],
   "major_achievements": [
     {
-      "date": "",
+      "date": null,
       "organization": "香港特区政府",
       "achievement": "获颁铜紫荆星章（BBS）"
     },
     {
-      "date": "",
-      "organization": "香港公益金 (Community Chest)",
+      "date": null,
+      "organization": "香港公益金 (The Community Chest of Hong Kong)",
       "achievement": "出任公益金会长，领导公益金筹款及拨款工作，包括「公益金及时雨基金」等紧急援助计划；曾与多位香港高官夫人组成乐队Singing Girls担任主唱，表演筹款"
     }
   ],
   "biography_summary": "李林丽婵（Janet Lee Lam Lai-sim），香港特别行政区行政长官李家超夫人，香港公益金会长，获颁铜紫荆星章。她中学就读九龙窝打老道真光女书院，与李家超在中学联校舞会相识，1980年结婚，育有两子李文龙及李文骏。她曾组建乐队Singing Girls并担任主唱，与多位香港高官夫人一同表演筹款。根据行政长官办公室申报，她合共担任18个公益或慈善团体的名誉职位，包括香港公益金会长、香港家庭计划指导会荣誉会长、香港芭蕾舞团荣誉会长，以及香港各界妇女联合协进会、香港乳癌基金会、学友社等机构的名誉赞助人。作为公益金会长，她主持周年大会、领导「公益金及时雨基金」等筹款及拨款工作，公益金为香港主要的联合筹款机构，每年向逾百间社会福利机构提供资助；她亦以公益金会长身份担任香港小姐竞选决赛评判等公开活动职务，参与官方社交及社区探访活动。",
   "profile": {
-    "source_url": "",
+    "source_url": "https://www.commchest.org/tc/news/press-release/detail/1094",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
       "wikipedia",
       "news_search"
     ],
-    "completeness_score": 42,
+    "completeness_score": 44,
     "quotes": [
       {
         "title": "李林麗嬋 - 維基百科",
@@ -114,6 +119,6 @@
         "url": "https://www.i-cable.com/%E6%96%B0%E8%81%9E%E8%B3%87%E8%A8%8A/58696/"
       }
     ],
-    "notes": "原档案「第一副会长兼执行委员会主席」职务已过时，现职为公益金会长（2022年起）；英文名尾字为Lai-sim；敏感人物家属，仅作事实记录；无公开头像直链"
+    "notes": "2026-09-07复核：维基百科条目再确认中学就读真光女书院、1980年结婚、两子李文龙李文骏、Singing Girls表演筹款。原档案「第一副会长兼执行委员会主席」职务已过时，现职为公益金会长（2022年起）。规范化修正：education.degree 空串改「high_school」、field 空串改 null、institution 移除括号内地址；major_achievements[].date 两处空串改 null；birth_place 空串改 null。内容修正：「香港义工总领袖（据公开资料）」未能经权威来源查证，已自 current_positions 移除。经查证无更多公开资料：无Wikidata条目、出生日期不公开、无个人官方社交媒体账号，保持缺失。敏感人物家属，仅作事实记录；无公开头像直链。"
   }
 }

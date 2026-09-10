@@ -119,27 +119,49 @@
       "date": "2025-10-27",
       "title": "组织架构改革：人事大调整",
       "description": "阿里巴巴主席蔡崇信电邮公布改革：总编辑谭卫儿改任新设的出版人并接手大部分业务职责，副总编辑周松欣接任总编辑，行政总裁苏嘉媛执掌逾三年后离任。",
-      "impact": "在媒体行业经营压力下合并编辑与业务领导架构，聚焦提升读者数量。"
+      "impact": "在媒体行业经营压力下合并编辑与业务领导架构，聚焦提升读者数量。",
+      "source": "https://inews.hket.com/article/4028246/"
     },
     {
       "date": "2026-01-01",
       "title": "订阅与数字业务持续拓展",
       "description": "在新领导架构下，总编辑周松欣统筹编辑战略、产品设计及订阅增长，SCMP继续推进SCMP Plus数字订阅计划及电子报产品，并发展论坛活动与研究业务。",
-      "impact": "推动收入来源从传统广告向订阅与多元业务转型。"
+      "impact": "推动收入来源从传统广告向订阅与多元业务转型。",
+      "source": "https://wan-ifra.org/2026/01/how-the-south-china-morning-post-designed-its-award-winning-premium-platform-scmp-plus/"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "与阿斯塔纳国际金融中心签署合作备忘录",
+      "description": "《南华早报》在香港与阿斯塔纳国际金融中心（AIFC）签署合作备忘录，深化媒体与区域推广合作，配合香港拓展与中亚市场联系的战略方向。",
+      "impact": "扩大SCMP在中亚及区域市场的影响力与业务合作网络。",
+      "source": "https://corp.scmp.com/press/"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "主办中国会议2026",
+      "description": "《南华早报》举办中国会议2026（China Conference 2026），行政长官李家超出席会议并发表演讲，会议汇聚政商领袖讨论中国及区域政经议题。",
+      "impact": "巩固SCMP作为亚太区政商对话平台的角色。",
+      "source": "https://www.info.gov.hk/gia/general/202607/07/P2026070700298.htm"
     }
   ],
   "related_entities": [
     {
       "org_name": "阿里巴巴集团 (Alibaba Group)",
-      "org_description": "2016年4月完成收购南华早报的母公司，为最终控股方"
+      "org_description": "2016年4月完成收购南华早报的母公司，为最终控股方",
+      "org_id": "HK-CORP-001",
+      "relationship_type": "controlling_shareholder"
     },
     {
       "org_name": "《英文虎报》(The Standard)",
-      "org_description": "香港免费英文报章，为主要竞争对手之一"
+      "org_description": "香港免费英文报章，为主要竞争对手之一",
+      "org_id": "HK-MEDIA-010",
+      "relationship_type": null
     },
     {
       "org_name": "《香港自由新闻》(HKFP)",
-      "org_description": "香港英文网媒，竞争媒体之一"
+      "org_description": "香港英文网媒，竞争媒体之一",
+      "relationship_type": null,
+      "org_id": null
     }
   ],
   "core_business": "《南华早报》（SCMP）于1903年11月6日创刊，与《星期日南华早报》同为香港销量最高的英语收费报纸，2016年4月被阿里巴巴集团完成收购。报道覆盖香港、中国内地以至全亚洲的新闻、财经、科技及社会议题，是国际社会了解中国及亚洲的主要英文媒体之一，主要竞争对手包括《英文虎报》、《亚洲华尔街日报》及《香港自由新闻》。除报纸及scmp.com网站外，集团亦发展论坛活动、行业研究及品牌内容等多元业务。2025年10月进行组织架构改革，由谭卫儿出任新设的出版人、周松欣接任总编辑。",
@@ -147,7 +169,7 @@
     "media_publishing",
     "digital_media"
   ],
-  "apec_stance": "《南华早报》作为亚洲主要英文媒体，持续报道APEC成员经济体（中国内地、香港、东南亚、美日韩等）的经贸、金融及地缘政治议题，是亚太商界及国际读者获取中国及亚洲资讯的重要渠道。",
+  "apec_stance": "《南华早报》作为亚洲主要英文媒体，持续报道APEC成员经济体（中国内地、香港、东南亚、美日韩等）的经贸、金融及地缘政治议题，是亚太商界及国际读者获取中国及亚洲资讯的重要渠道。该报亦主办中国会议及粤港澳大湾区—东盟峰会等区域论坛，汇聚APEC经济体的政商领袖讨论区域贸易、供应链及互联互通议题，在亚太区舆论与经贸交流中扮演媒体平台角色。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/6/66/Front_Page_of_South_China_Morning_Post.png",
     "local_path": null
@@ -161,7 +183,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 79,
+    "completeness_score": 89,
     "quotes": [
       {
         "title": "南华早报 - 维基百科",
@@ -178,10 +200,16 @@
       {
         "title": "South China Morning Post - Wikipedia (English)",
         "url": "https://en.wikipedia.org/wiki/South_China_Morning_Post"
+      },
+      {
+        "title": "SCMP与阿斯塔纳国际金融中心签署合作备忘录（SCMP企业网站新闻稿，2026-06-02）",
+        "url": "https://corp.scmp.com/press/"
+      },
+      {
+        "title": "行政長官在中國會議2026致辭（香港政府新聞公報，2026-07-07）",
+        "url": "https://www.info.gov.hk/gia/general/202607/07/P2026070700298.htm"
       }
     ],
-    "notes": "P3补充丰富：补全周松欣英文名及履历、Instagram官方账号、ePaper及订阅产品线、2026年订阅业务进展，内容保持简体与中立事实记录。 | 订阅业务事件日期原为近似值2026-01，按schema补齐为2026-01-01"
-  },
-  "description": "香港销量最高的英文报纸",
-  "brief": "香港销量最高的英文报纸"
+    "notes": "P3补充丰富：补全周松欣英文名及履历、Instagram官方账号、ePaper及订阅产品线、2026年订阅业务进展，内容保持简体与中立事实记录。 | 订阅业务事件日期原为近似值2026-01，按schema补齐为2026-01-01 | B2批次再丰富：补2026年6月AIFC合作备忘录及2026年7月中国会议两条事件，扩写APEC关联段落。"
+  }
 }

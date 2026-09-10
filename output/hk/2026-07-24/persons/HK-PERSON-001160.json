@@ -47,26 +47,26 @@
       "position": "总经理"
     },
     {
+      "start_date": "2024-08",
+      "end_date": null,
+      "organization": "中国海洋石油集团有限公司 (China National Offshore Oil Corporation)",
+      "org_id": null,
+      "position": "党组成员、副总经理"
+    },
+    {
       "start_date": "2024-11",
       "end_date": "2026-03",
       "organization": "中国海洋石油有限公司 (CNOOC Limited)",
       "org_id": "HK-CORP-007",
       "position": "执行董事、总裁、战略与可持续发展委员会成员及安全总监"
-    },
-    {
-      "start_date": "2026-03",
-      "end_date": null,
-      "organization": "中国海洋石油集团有限公司 (China National Offshore Oil Corporation)",
-      "org_id": null,
-      "position": "党组成员、副总经理，兼中国海洋石油有限公司高级副总裁"
     }
   ],
   "person_relationships": [
     {
       "person_id": "HK-PERSON-001159",
       "person_name": "黄永章 (Huang Yongzhang)",
-      "relationship_type": "superior",
-      "description": "黄永章接任中国海洋石油有限公司首席执行官兼总裁，阎洪涛转任集团副总经理"
+      "relationship_type": "colleague",
+      "description": "黄永章接任中国海洋石油有限公司首席执行官兼总裁，阎洪涛辞任上市公司总裁后专职集团副总经理"
     }
   ],
   "social_accounts": [],
@@ -79,18 +79,18 @@
       "achievement": "升任公司执行董事、总裁及安全总监"
     },
     {
-      "date": "",
-      "organization": "",
+      "date": "2023",
+      "organization": "全国人民代表大会 (National People's Congress)",
       "achievement": "当选第十四届全国人大代表，曾任天津市第十八届人大代表"
     }
   ],
-  "biography_summary": "阎洪涛，1970年生，中共党员，高级工程师，现任中国海洋石油集团有限公司党组成员、副总经理，中国海洋石油有限公司高级副总裁，并当选第十四届全国人大代表。他毕业于中国石油大学石油储运专业，获工学硕士学位，长期从事海洋油气开发与生产管理工作，历任中国海洋石油有限公司开发生产部副总经理、总经理，南海东部石油管理局（深圳分公司）副局长，有限公司安全副总监、副总裁，以及中海石油（中国）有限公司天津分公司总经理等职务。2024年11月他升任中国海洋石油有限公司执行董事、总裁及安全总监，2026年3月因工作调整辞任上市公司总裁职务，转任中海油集团党组成员、副总经理兼有限公司高级副总裁。",
+  "biography_summary": "阎洪涛，1970年生，中共党员，高级工程师，现任中国海洋石油集团有限公司党组成员、副总经理，中国海洋石油有限公司高级副总裁，并当选第十四届全国人大代表。他毕业于中国石油大学石油储运专业，获油气储运工程工学硕士学位，长期从事海洋油气开发与生产管理工作，历任中国海洋石油有限公司开发生产部副总经理、总经理，南海东部石油管理局（深圳分公司）副局长，有限公司安全副总监、副总裁，以及中海石油（中国）有限公司天津分公司总经理等职务。2024年8月任中海油集团党组成员、副总经理，2024年11月至2026年3月兼任中国海洋石油有限公司执行董事、总裁及安全总监，其后因工作调整辞任上市公司职务，专职集团副总经理。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "news_search",
@@ -99,18 +99,18 @@
     "completeness_score": 48,
     "quotes": [
       {
-        "title": "百度百科：阎洪涛",
+        "title": "百度百科：阎洪涛（2024年8月任集团副总经理、2024年11月至2026年3月任上市公司总裁）",
         "url": "https://baike.baidu.com/item/%E9%98%8E%E6%B4%AA%E6%B6%9B/62548306"
       },
       {
-        "title": "界面新闻：中国海油阎洪涛辞任执行董事、总裁",
-        "url": "https://www.jiemian.com/article/14143139.html"
+        "title": "中国海洋石油有限公司公告（2026年3月，阎洪涛辞任执行董事、总裁；生于1970年）",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022301.PDF"
       },
       {
-        "title": "中国海洋石油集团有限公司官网：公司高层阎洪涛简历",
-        "url": "https://www.cnooc.com.cn/gyhy/hygl/gsgc/"
+        "title": "海江集团新闻：中国海油党组成员、副总经理阎洪涛赴青岛项目部调研（2026年9月，确认现任职务）",
+        "url": "https://www.hai-jiang.com/portal/news/detail.html?id=3461"
       }
     ],
-    "notes": "暂无Wikidata条目；国籍CHN。补深核查：无Wikidata条目、无P18、无个人社交媒体及公开个人联系方式，四项保持空白。"
+    "notes": "2026年9月经新闻核实仍任中国海油集团党组成员、副总经理。出生信息：公司公告多处记载生于1970年，但仅知年份且schema要求YYYY-MM-DD精度，birth_date保持null（出生年份见于biography_summary）。工作经历重组：集团副总经理起始时间由原档案的2026-03更正为2024-08（原档案把上市公司总裁职务卸任时间误作集团任职起点），并明确2024年11月至2026年3月兼任上市公司执行董事、总裁。major_achievements中人大代表条目补齐organization与date（第十四届全国人大代表2023年产生）。无Wikidata条目、无公开个人社交媒体及联系方式，保持空白。"
   }
 }

@@ -51,7 +51,7 @@
     },
     {
       "person_id": "HK-PERSON-000404",
-      "name": "叶德铨 (Alfred Yip Tak-luen)",
+      "name": "葉德銓 (Edmond Ip Tak-chuen)",
       "name_en": "Alfred Yip Tak-luen",
       "title": "执行董事",
       "title_description": "参与集团投资与业务管理决策",
@@ -67,7 +67,7 @@
     },
     {
       "person_id": "HK-PERSON-000406",
-      "name": "安德鲁亨特 (Andrew John Hunter)",
+      "name": "甄達安 (Andrew John Hunter)",
       "name_en": "Andrew John Hunter",
       "title": "联席董事总经理",
       "title_description": "联席董事总经理兼执行董事，负责财务与投资管理",
@@ -101,51 +101,67 @@
       "date": "2026-08-12",
       "title": "公布2026年中期业绩，溢利大增389%",
       "description": "长江基建公布截至2026年6月30日止六个月中期业绩，股东应占溢利212.52亿港元，同比增长389%（主要反映出售英国配电网络UKPN等项目带来的收益）；营业额196.31亿港元。董事会宣派2026年度中期股息每股0.75港元，同比上升2.7%，将于9月23日派发。",
-      "impact": "资产出售收益兑现叠加派息持续增长，巩固集团净现金优势与收息型基建股定位。"
+      "impact": "资产出售收益兑现叠加派息持续增长，巩固集团净现金优势与收息型基建股定位。",
+      "source": "https://m.cls.cn/detail/2452419"
     },
     {
       "date": "2026-06-30",
       "title": "出售UKPN及UK Rails项目后财务根基巩固",
       "description": "出售英国配电网络UKPN及UK Rails权益后，截至2026年6月30日集团持有现金净额港币339亿元，创历史新高。",
-      "impact": "净现金状况为集团物色全球潜在收购机遇提供优势。"
+      "impact": "净现金状况为集团物色全球潜在收购机遇提供优势。",
+      "source": "https://news.rthk.hk/rthk/ch/component/k2/1865911-20260812.htm"
     },
     {
       "date": "2026-03-01",
       "title": "公布2025年全年业绩，连续29年增派息",
       "description": "2025年度股东应占溢利82.7亿港元，同比增长1.8%；全年股息合共每股2.61港元，实现连续29年股息增长；2025年亦为集团上市30周年。",
-      "impact": "受规管业务模式展现盈利韧性，巩固其收息型基建股定位。"
+      "impact": "受规管业务模式展现盈利韧性，巩固其收息型基建股定位。",
+      "source": "https://www.guandian.cn/m/show/549284"
     },
     {
       "date": "2025-08-13",
       "title": "2025年中期业绩稳健",
       "description": "上半年股东应占溢利43.48亿港元，同比增长1%；中期股息每股0.73港元，同比增加1港仙。",
-      "impact": "在利率及地缘政治不确定性下业务保持稳定。"
+      "impact": "在利率及地缘政治不确定性下业务保持稳定。",
+      "source": "https://wap.eastmoney.com/a/202508133483042423.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "长江和记实业有限公司 (CK Hutchison Holdings)",
-      "org_description": "主要股东，长和系旗舰，与长建共同持有海外基建权益，亦共同完成出售UKPN及欧洲电信基建资产等交易"
+      "org_description": "主要股东，长和系旗舰，与长建共同持有海外基建权益，亦共同完成出售UKPN及欧洲电信基建资产等交易",
+      "org_id": "HK-CORP-004",
+      "relationship_type": "controlling_shareholder"
     },
     {
       "org_name": "长实集团 (CK Asset Holdings)",
-      "org_description": "同系上市公司，共享管理层，副主席叶德铨同时在两家公司任职"
+      "org_description": "同系上市公司，共享管理层，副主席叶德铨同时在两家公司任职",
+      "org_id": "HK-CORP-003",
+      "relationship_type": "affiliated"
     },
     {
       "org_name": "UK Power Networks (UKPN)",
-      "org_description": "英国配电网络运营商，长建与长和系曾共同持有，2025-2026年完成出售权益，贡献巨额收益"
+      "org_description": "英国配电网络运营商，长建与长和系曾共同持有，2025-2026年完成出售权益，贡献巨额收益",
+      "relationship_type": "affiliated",
+      "org_id": null
     },
     {
       "org_name": "Northumbrian Water",
-      "org_description": "英国供水及污水处理公司，长建通过旗下权益参与其受规管水务业务"
+      "org_description": "英国供水及污水处理公司，长建通过旗下权益参与其受规管水务业务",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "SA Power Networks",
-      "org_description": "澳大利亚南澳州配电公司，长建于澳洲的核心受规管能源资产之一"
+      "org_description": "澳大利亚南澳州配电公司，长建于澳洲的核心受规管能源资产之一",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所有限公司 (HKEX)",
-      "org_description": "长江基建（01038.HK）上市地，同时于伦敦证券交易所双重第一上市"
+      "org_description": "长江基建（01038.HK）上市地，同时于伦敦证券交易所双重第一上市",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     }
   ],
   "core_business": "长江基建集团有限公司（长建，01038.HK）是长江集团旗下专注基建业务的上市公司，于百慕大注册、香港注册总部运营，1996年7月上市，为香港最大型的上市基建投资公司之一。集团主要在香港、内地、英国、欧洲大陆、澳洲、新西兰、加拿大及美国从事基建业务的开发、投资及经营，核心为受规管的能源基建（电网、燃气管网）、交通基建（铁路车辆租赁）、水务基建（供水及污水处理）及基建材料（水泥、混凝土）等范畴。主要股东为长江和记实业，主席为李泽钜。集团凭借受规管资产带来稳定现金流，2025年度股东应占溢利82.7亿港元，连续29年增加股息；2026年上半年因出售英国配电网络UKPN等权益，中期溢利大增至212.52亿港元，并持有现金净额339亿港元，为捕捉全球收购机遇保持财务灵活性。",
@@ -188,7 +204,5 @@
       }
     ],
     "notes": "P3二次丰富：补2026年中期业绩（溢利212.52亿+389%、股息0.75港元）与净现金339亿事件、新增水务基建分部及UKPN/Northumbrian Water/SA Power Networks关联实体；官方无企业社媒账号故social_accounts留空，key_people五个已有ID原样保留、无新增人物"
-  },
-  "description": "长江集团旗下基建旗舰，投资全球受规管能源、水务、交通基建及基建材料，连续29年增派息",
-  "brief": "长和系基建旗舰（01038.HK），全球受规管基建投资者"
+  }
 }

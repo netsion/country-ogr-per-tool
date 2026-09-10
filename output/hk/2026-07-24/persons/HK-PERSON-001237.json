@@ -9,27 +9,19 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1947-01-01",
+  "birth_date": null,
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "执行董事",
-      "organization": "恒基兆业地产 (Henderson Land Development)",
-      "org_id": "HK-CORP-011",
-      "start_date": "2002-01-01",
-      "end_date": null,
-      "notes": "1997年加入公司，2002年起出任执行董事"
-    }
+    "恒基兆业地产执行董事"
   ],
   "education": [
     {
-      "institution": "香港理工大学",
+      "institution": "香港理工大学 (The Hong Kong Polytechnic University)",
       "degree": null,
       "field": null,
       "start_date": null,
-      "end_date": null,
-      "notes": "毕业于香港理工大学（百度百科，单源）"
+      "end_date": null
     }
   ],
   "work_experience": [
@@ -38,31 +30,27 @@
       "org_id": "HK-CORP-011",
       "start_date": "1997-01-01",
       "end_date": null,
-      "notes": "1997年加入公司，2002年起任执行董事；分管物业管理业务，具超过55年物业管理经验",
       "position": "执行董事"
     },
     {
-      "organization": "恒基兆业发展有限公司",
+      "organization": "恒基兆业发展有限公司 (Henderson Investment Limited)",
       "org_id": null,
       "start_date": null,
       "end_date": "2011-06-01",
-      "notes": "曾任上市公司恒基兆业发展有限公司执行董事，至2011年6月退任",
       "position": "执行董事"
     },
     {
-      "organization": "香港物业管理公司协会",
+      "organization": "香港物业管理公司协会 (Hong Kong Association of Property Management Companies)",
       "org_id": null,
       "start_date": "2003-01-01",
       "end_date": "2007-01-01",
-      "notes": null,
       "position": "会长"
     },
     {
-      "organization": "香港地产行政师学会",
+      "organization": "香港地产行政师学会 (Hong Kong Institute of Real Estate Administrators)",
       "org_id": null,
       "start_date": "2006-01-01",
       "end_date": "2018-01-01",
-      "notes": null,
       "position": "副会长"
     }
   ],
@@ -74,30 +62,30 @@
     {
       "date": null,
       "achievement": "获颁银紫荆星章 (SBS)",
-      "organization": "香港特别行政区政府"
+      "organization": "香港特别行政区政府 (HKSAR Government)"
     },
     {
       "date": null,
       "achievement": "获颁铜紫荆星章 (BBS)",
-      "organization": "香港特别行政区政府"
+      "organization": "香港特别行政区政府 (HKSAR Government)"
     },
     {
       "date": null,
       "achievement": "获颁荣誉勋章 (MH)",
-      "organization": "香港特别行政区政府"
+      "organization": "香港特别行政区政府 (HKSAR Government)"
     },
     {
       "date": null,
       "achievement": "获委任为太平绅士 (JP)",
-      "organization": "香港特别行政区政府"
+      "organization": "香港特别行政区政府 (HKSAR Government)"
     },
     {
       "date": "1999-01-01",
       "achievement": "成为香港地产建设商会个人会员（至2022年）",
-      "organization": "香港地产建设商会"
+      "organization": "香港地产建设商会 (The Real Estate Developers Association of Hong Kong)"
     }
   ],
-  "biography_summary": "孙国林 (Suen Kwok-lam)，香港恒基兆业地产执行董事，1997年加入公司，2002年起出任执行董事，具超过55年物业管理经验，长期分管集团物业管理业务。曾于2003年至2007年担任香港物业管理公司协会会长，2006年至2018年担任香港地产行政师学会副会长。获颁银紫荆星章、铜紫荆星章及荣誉勋章，并为太平绅士。",
+  "biography_summary": "孙国林 (Suen Kwok-lam)，香港恒基兆业地产执行董事，1997年加入公司，2002年起出任执行董事，具超过55年物业管理经验，长期分管集团物业管理业务。曾于2003年至2007年担任香港物业管理公司协会会长，2006年至2018年担任香港地产行政师学会副会长，1999年至2022年为香港地产建设商会个人会员。获颁银紫荆星章、铜紫荆星章及荣誉勋章，并为太平绅士。",
   "profile": {
     "honors": [
       "银紫荆星章 (SBS)",
@@ -107,7 +95,7 @@
     ]
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -120,12 +108,11 @@
       }
     ],
     "data_sources": [
-      "恒基兆业地产官网",
-      "百度百科",
-      "同花顺F10",
-      "恒益物业管理官网"
+      "official_website",
+      "baike",
+      "news_search"
     ],
-    "completeness_score": 44,
-    "notes": "出生年份1947来自百度百科（单源）；教育局职务荣誉多源交叉验证。教育背景仅单源，标注于education.notes。"
+    "completeness_score": 43,
+    "notes": " 2026-09-07核查：经恒基兆业地产官网管理层页再确认现任执行董事（1997年加入、2002年起任执行董事）及商会/协会任职年份。birth_date原填1947-01-01属虚构精度（年份1947仅百度百科单源），改置null并在biography_summary不再引用具体年份。current_positions规范化为纯字符串数组；work_experience及education移除规范外字段notes；机构名补英文（恒基兆业发展有限公司英文名Henderson Investment Limited、两会协英文名为该会通用英文名）。荣誉获颁年份无公开资料，date置null。无经核实的个人社交媒体账号。"
   }
 }

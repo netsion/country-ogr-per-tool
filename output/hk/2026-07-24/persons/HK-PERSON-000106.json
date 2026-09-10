@@ -9,8 +9,8 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1967-01-01",
-  "birth_place": "",
+  "birth_date": null,
+  "birth_place": null,
   "contacts": [
     {
       "type": "other",
@@ -27,10 +27,11 @@
   ],
   "education": [
     {
+      "start_date": null,
+      "end_date": null,
       "institution": "剑桥大学 (University of Cambridge)",
-      "degree": "",
-      "field": "",
-      "notes": "英国剑桥大学毕业"
+      "degree": null,
+      "field": null
     }
   ],
   "work_experience": [
@@ -38,7 +39,7 @@
       "start_date": "2026-01-01",
       "end_date": null,
       "organization": "香港立法会 (Legislative Council of Hong Kong)",
-      "org_id": "HK-GOV-002",
+      "org_id": null,
       "position": "议员（选举委员会界别，2025年以无党派身份当选）"
     },
     {
@@ -46,7 +47,7 @@
       "end_date": null,
       "organization": "香港城市大学 (City University of Hong Kong)",
       "org_id": "HK-ACAD-002",
-      "position": "校董会主席，由香港特区行政长官委任，任期三年，接替黄家纯"
+      "position": "校董会主席（由行政长官委任，任期三年，接替黄家纯）"
     },
     {
       "start_date": null,
@@ -84,27 +85,27 @@
   "major_achievements": [
     {
       "date": "2024-12",
-      "organization": "香港城市大学",
+      "organization": "香港城市大学 (City University of Hong Kong)",
       "achievement": "获行政长官李家超委任为城大校董会主席，任期三年（2025年1月1日生效），接替黄家纯"
     },
     {
       "date": "2025",
-      "organization": "香港立法会",
+      "organization": "香港立法会 (Legislative Council of Hong Kong)",
       "achievement": "以无党派身份在第八届立法会选举委员会界别当选立法会议员，2026年1月1日就任"
     },
     {
-      "date": "",
-      "organization": "学术界",
+      "date": null,
+      "organization": "哈萨克国立科技大学 (Satbayev University)、岭南大学 (Lingnan University)",
       "achievement": "获聘哈萨克国立科技大学荣誉教授，并当选岭南大学荣誉院士"
     }
   ],
-  "biography_summary": "魏明德（Michael Ngai Ming-tak，1967年生），又名魏名成，香港商界领袖及政治人物，现任香港城市大学校董会主席、香港立法会议员（选举委员会界别）、香港金融发展协会主席、安德资本集团主席，并为第十四届全国政协委员。他毕业于英国剑桥大学，投身国际金融业逾30年，曾任瑞士银行董事总经理，在金融投资领域经验丰富。他亦积极投身公共及教育事务，获聘为哈萨克国立科技大学荣誉教授、当选岭南大学荣誉院士。2024年12月获行政长官李家超委任为香港城市大学校董会主席，任期三年，接替黄家纯，任内强调大学管治首重'一条心'，校董会须妥善监管财务与审计，并与校长梅彦昌共同推动城大的研究创新及国际化发展。2025年他以无党派身份在第八届立法会选举的选举委员会界别当选，2026年1月1日就任立法会议员，议员办事处设于金钟立法会综合大楼1313室。",
+  "biography_summary": "魏明德（Michael Ngai Ming-tak，1967年生），字魏名成，香港商界领袖及政治人物，现任香港城市大学校董会主席、香港立法会议员（选举委员会界别）、香港金融发展协会主席、安德资本集团主席，并为第十四届全国政协委员。他毕业于英国剑桥大学，投身国际金融业逾30年，曾任瑞士银行董事总经理，在金融投资领域经验丰富。他亦积极投身公共及教育事务，获聘为哈萨克国立科技大学荣誉教授、当选岭南大学荣誉院士。2024年12月获行政长官李家超委任为香港城市大学校董会主席，任期三年，接替黄家纯，任内强调大学管治首重「一条心」，校董会须妥善监管财务与审计，并与校长梅彦昌共同推动城大的研究创新及国际化发展。2025年他以无党派身份在第八届立法会选举的选举委员会界别当选，2026年1月1日就任立法会议员，议员办事处设于金钟立法会综合大楼1313室。",
   "profile": {
-    "source_url": "",
+    "source_url": null,
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
@@ -112,7 +113,7 @@
       "zh_wikipedia",
       "wikidata"
     ],
-    "completeness_score": 56,
+    "completeness_score": 54,
     "quotes": [
       {
         "title": "魏明德 (香港) - 維基百科",
@@ -127,6 +128,6 @@
         "url": "https://www.stheadline.com/edu-news/3427699/"
       }
     ],
-    "notes": "Wikidata Q113903379，无P18头像；新增立法会议员身份及安德资本/金融发展协会等职务；无个人社交媒体账号"
+    "notes": "Wikidata Q113903379，无P18头像。2026-09-07覆核：中文维基百科确认其现任职务五项、剑桥大学学历、字魏名成、1967年出生（仅年份，birth_date须为YYYY-MM-DD故保持null，年份保留于传记）；原birth_date'1967-01-01'系虚构精度已改为null；education的degree/field空字符串改为null。瑞士银行董事总经理经历沿用早前新闻来源（维基未载），嘉道理家族关联未能查证，不予记录。无公开社交媒体账号。"
   }
 }

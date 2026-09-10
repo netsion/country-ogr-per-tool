@@ -22,6 +22,12 @@
       "account_name": "cedbhk",
       "url": "https://facebook.com/cedbhk",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "cedbhk",
+      "url": "https://hk.linkedin.com/company/cedbhk",
+      "source": "web_search"
     }
   ],
   "digital_assets": [
@@ -99,25 +105,36 @@
       "title": "出席APEC贸易部长会议（韩国济州）",
       "date": "2025-05-16",
       "description": "局长丘应桦在韩国济州出席APEC贸易部长会议，在「透过可持续贸易达致繁荣」环节发言，指出香港作为国际航运及物流枢纽，一直透过不同措施支持供应链的可持续性。",
-      "impact": "阐述香港在区域供应链与可持续贸易方面的立场"
+      "impact": "阐述香港在区域供应链与可持续贸易方面的立场",
+      "source": "https://www.cedb.gov.hk/tc/news/press_release/2025/pr16052025b.html"
     },
     {
       "title": "出席APEC第36届部长级会议（韩国庆州）",
       "date": "2025-10-30",
       "description": "丘应桦在韩国庆州出席APEC部长级会议，称开放稳定的贸易环境较以往更重要，并在「创新与繁荣」环节分享香港推动数字化促进贸易的举措。",
-      "impact": "强化香港在APEC框架下的经济参与"
+      "impact": "强化香港在APEC框架下的经济参与",
+      "source": "https://www.info.gov.hk/gia/general/202510/30/P2025103000537.htm"
     },
     {
       "title": "李颂恩出任常任秘书长",
       "date": "2026-04-01",
       "description": "政府公布高层官员任命，前运输署署长李颂恩于2026年4月1日出任商务及经济发展局常任秘书长，接替前任常任秘书长。",
-      "impact": "局方最高级公务员层完成交接，延续商贸及经济政策执行"
+      "impact": "局方最高级公务员层完成交接，延续商贸及经济政策执行",
+      "source": "https://www.news.gov.hk/chi/2026/03/20260330/20260330_140522_688.html"
     },
     {
       "title": "局长就《2026年拨款条例草案》在立法会恢复二读辩发言",
       "date": "2026-04-29",
       "description": "丘应桦在立法会会议上就《2026年拨款条例草案》恢复二读辩论发言，说明与商经局政策范围相关的资源安排。",
-      "impact": "落实年度财政资源以支持商贸、电讯及创意产业政策"
+      "impact": "落实年度财政资源以支持商贸、电讯及创意产业政策",
+      "source": "https://www.info.gov.hk/gia/general/202604/29/P2026042900400.htm"
+    },
+    {
+      "title": "局长赴苏州出席APEC贸易部长会议",
+      "date": "2026-05-20",
+      "description": "商务及经济发展局局长丘应桦赴苏州，出席5月22日至23日举行的亚太经合组织（APEC）贸易部长会议，与其他成员经济体贸易部长围绕「建设开放、可预期的区域与多边经贸秩序」等议题讨论。2026年中国为APEC东道主，香港以「中国香港」名义参与。",
+      "impact": "香港深度参与APEC「中国年」经贸议程，巩固区域经贸秩序中的角色",
+      "source": "https://www.info.gov.hk/gia/general/202605/20/P2026052000391.htm"
     }
   ],
   "related_entities": [
@@ -137,19 +154,27 @@
     },
     {
       "org_name": "香港贸易发展局 (HKTDC)",
-      "org_description": "法定贸易推广机构，商经局局长为其理事会成员"
+      "org_description": "法定贸易推广机构，商经局局长为其理事会成员",
+      "org_id": "HK-GOV-020",
+      "relationship_type": "regulated_by"
     },
     {
       "org_name": "投资推广署 (InvestHK)",
-      "org_description": "商经局辖下负责招商引资的部门"
+      "org_description": "商经局辖下负责招商引资的部门",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "工业贸易署 (Trade and Industry Department)",
-      "org_description": "商经局辖下部门，执行贸易政策及支持中小企业"
+      "org_description": "商经局辖下部门，执行贸易政策及支持中小企业",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港旅游发展局 (Hong Kong Tourism Board)",
-      "org_description": "法定机构，负责在全球推广香港旅游，旅游事务由商经局工商及旅游科分管"
+      "org_description": "法定机构，负责在全球推广香港旅游，旅游事务由商经局工商及旅游科分管",
+      "relationship_type": "regulated_by",
+      "org_id": null
     }
   ],
   "core_business": "商务及经济发展局是香港特别行政区政府决策局之一，于2007年7月1日成立，负责涵盖商贸、经济、电讯及竞争政策事宜。其政策范围包括对外贸易关系与多边经贸合作、工商业支持与中小企业政策、保护知识产权、旅游、广播与电讯、邮政、影视及创意产业、竞争政策与消费者权益等。该局下设工商及旅游科与通讯及创意产业科，并管辖投资推广署与工业贸易署，局长为丘应桦，兼任香港贸易发展局理事会成员，常任秘书长为李颂恩（2026年4月上任），并兼任通讯事务管理局副主席；另设「一带一路」专员办公室统筹相关经贸合作。该局代表香港参与亚太经合组织（APEC）贸易部长会议及部长级会议、世界贸易组织等多边经贸论坛，推动香港对外贸易关系与区域经济融合。",
@@ -170,7 +195,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 84,
+    "completeness_score": 91,
     "quotes": [
       {
         "title": "维基百科：商務及經濟發展局",
@@ -195,10 +220,16 @@
       {
         "title": "政府新闻网：商经局局长就《2026年拨款条例草案》恢复二读辩发言",
         "url": "https://www.info.gov.hk/gia/general/202604/29/P2026042900400.htm"
+      },
+      {
+        "title": "香港特区政府新闻公报：商經局局長赴蘇州出席亞太經合組織貿易部長會議（2026-05-20）",
+        "url": "https://www.info.gov.hk/gia/general/202605/20/P2026052000391.htm"
+      },
+      {
+        "title": "Commerce and Economic Development Bureau（商经局官方 LinkedIn 专页）",
+        "url": "https://hk.linkedin.com/company/cedbhk"
       }
     ],
-    "notes": "P3深度丰富（第二轮）：新增常任秘书长李颂恩、政治助理李世华（person_id留空待分配）、一带一路专员办公室、2026年任命及立法会事件，纯事实记录"
-  },
-  "description": "香港特别行政区政府总部决策局",
-  "brief": "主管香港商贸、经济、电讯及创意产业政策的决策局"
+    "notes": "P3深度丰富（第二轮）：新增常任秘书长李颂恩、政治助理李世华（person_id留空待分配）、一带一路专员办公室、2026年任命及立法会事件，纯事实记录；B5批次：新增官方LinkedIn专页（社交账号达2个）、局长赴苏州出席APEC贸易部长会议事件（recent_events达5条）"
+  }
 }

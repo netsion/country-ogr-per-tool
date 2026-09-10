@@ -72,7 +72,7 @@
     },
     {
       "person_id": "HK-PERSON-001204",
-      "name": "陈志豪 (公民力量背景)",
+      "name": "陳志豪 (Victor Chan Chi-ho)",
       "title": "执委会成员",
       "title_description": "新民党执委会及地区领导层成员（含公民力量合并成员）",
       "description": "新民党于2015年与地区组织公民力量结盟，大部分公民力量成员同时为新民党党员，共同参与新界东地区服务网络。"
@@ -143,41 +143,54 @@
       "title": "举行十五周年党庆典礼",
       "date": "2026-07-11",
       "description": "新民党于香港会议展览中心举行十五周年党庆典礼，行政长官李家超、中联办主任及多名官员出席，主席叶刘淑仪表示重视政策研究工作。",
-      "impact": "展示该党成立十五年来的组织发展及与特区政府的联系"
+      "impact": "展示该党成立十五年来的组织发展及与特区政府的联系",
+      "source": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/ch/component/k2/1861886-20260711.htm"
     },
     {
       "title": "参与2025年立法会换届选举",
       "date": "2025-12-07",
       "description": "新民党派出陈家珮、李梓敬、何敬康三人参选立法会选委会界别并当选；主席叶刘淑仪、常务副主席黎栋国决定不再竞逐连任，容海恩专注法律专业发展。",
-      "impact": "实现立法会议员新老交替，维持该党在立法会的代表性"
+      "impact": "实现立法会议员新老交替，维持该党在立法会的代表性",
+      "source": "https://news.rthk.hk/rthk/ch/component/k2/1835181-20251208.htm"
     },
     {
       "title": "提交2026年施政报告及首个五年规划建议书",
       "date": "2026-07-01",
       "description": "新民党主席叶刘淑仪、常务副主席黎栋国、副主席容海恩及执委陈家珮等提交2026年《施政报告》及香港特别行政区经济和社会发展第一个五年规划建议书。",
-      "impact": "体现该党以政策研究为核心的议会工作定位"
+      "impact": "体现该党以政策研究为核心的议会工作定位",
+      "source": "https://www.facebook.com/npp.hk/posts/1477178647788096"
     }
   ],
   "related_entities": [
     {
       "org_name": "行政会议 (Executive Council)",
-      "org_description": "主席叶刘淑仪任行政会议召集人"
+      "org_description": "主席叶刘淑仪任行政会议召集人",
+      "org_id": "HK-GOV-010",
+      "relationship_type": null
     },
     {
       "org_name": "立法会 (Legislative Council)",
-      "org_description": "新民党现有陈家珮、李梓敬、何敬康三名立法会议员"
+      "org_description": "新民党现有陈家珮、李梓敬、何敬康三名立法会议员",
+      "relationship_type": null,
+      "org_id": null
     },
     {
       "org_name": "公民力量 (Civil Force)",
-      "org_description": "与新民党结盟的新界东地区组织，成员多兼为党员"
+      "org_description": "与新民党结盟的新界东地区组织，成员多兼为党员",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "汇贤智库 (Savantas Policy Institute)",
-      "org_description": "叶刘淑仪创办的智库，与新民党在政策研究上联系密切"
+      "org_description": "叶刘淑仪创办的智库，与新民党在政策研究上联系密切",
+      "relationship_type": "affiliated",
+      "org_id": null
     },
     {
       "org_name": "海上丝绸之路协会 (Maritime Silk Road Society)",
-      "org_description": "叶刘淑仪任创会主席的民间经贸交流组织，与「一带一路」倡议相关"
+      "org_description": "叶刘淑仪任创会主席的民间经贸交流组织，与「一带一路」倡议相关",
+      "relationship_type": "affiliated",
+      "org_id": null
     }
   ],
   "core_business": "新民党于2011年1月9日由叶刘淑仪创办，是香港特别行政区建制派政党。其支持票源主要来自中产、专业及本地工商界人士、现职及退休香港公务员（包括警察、廉政公署等纪律部队人员），并于2015年与地区组织公民力量结盟，扩充新界东地区网络。组织架构设中央委员会及执行委员会，现由主席叶刘淑仪、常务副主席黎栋国、副主席潘国山及容海恩领导，在立法会拥有陈家珮、李梓敬、何敬康三名议员，并在南区、湾仔、东区、屯门等区议会有多名区议员。该党以政策研究为核心工作，每年就施政报告提交建议书，并在香港岛及新界东设有地区服务处网络。（注：本条目按敏感中立要求仅作事实记录）",
@@ -222,7 +235,5 @@
       }
     ],
     "notes": "P3深度丰富：补全中委会架构（黎栋国/潘国山/三名立法会议员）、十五周年党庆、五年规划建议书等事件，保持敏感中立事实记录"
-  },
-  "description": "香港特别行政区建制派政党",
-  "brief": "2011年叶刘淑仪创办的建制派政党，票源以中产及纪律部队为主，现有三名立法会议员"
+  }
 }

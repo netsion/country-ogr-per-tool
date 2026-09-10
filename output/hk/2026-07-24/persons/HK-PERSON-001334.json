@@ -14,31 +14,26 @@
   "education": [],
   "work_experience": [
     {
-      "title": "首席选举事务主任",
-      "position": "首席选举事务主任",
-      "organization": "选举事务处 (Registration and Electoral Office)",
-      "org_id": "HK-GOV-031",
       "start_date": "2022-01-01",
       "end_date": null,
-      "description": "2022年1月起出任选举事务处首席选举事务主任"
-    },
-    {
-      "title": "总选举事务主任",
-      "position": "总选举事务主任",
       "organization": "选举事务处 (Registration and Electoral Office)",
       "org_id": "HK-GOV-031",
+      "position": "首席选举事务主任"
+    },
+    {
       "start_date": "2024-09-11",
       "end_date": null,
-      "description": "2024年9月11日接替黄文超出任总选举事务主任，任内督导2025年立法会换届选举；其后由谢衍文接任该职"
+      "organization": "选举事务处 (Registration and Electoral Office)",
+      "org_id": "HK-GOV-031",
+      "position": "总选举事务主任"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": "HK-PERSON-001333",
-      "related_person_name": "谢衍文 (Tse Yin-man)",
+      "person_id": "HK-PERSON-001333",
       "person_name": "谢衍文 (Tse Yin-man)",
-      "relationship": "前任/继任",
-      "note": "谢衍文接替陈淑华出任总选举事务主任"
+      "relationship_type": "other",
+      "description": "谢衍文接替陈淑华出任总选举事务主任（前任/继任）"
     }
   ],
   "social_accounts": [],
@@ -46,23 +41,26 @@
   "political_stances": [],
   "major_achievements": [
     {
-      "title": "督导2025年立法会换届选举",
-      "achievement": "督导2025年立法会换届选举",
-      "description": "任总选举事务主任期间负责统筹2025年立法会换届选举的选民登记与选举安排",
-      "date": "2025"
+      "date": "2025",
+      "organization": "选举事务处 (Registration and Electoral Office)",
+      "achievement": "任总选举事务主任期间统筹2025年立法会换届选举的选民登记、投票与点票安排，选举管理委员会主席陆启康于点票完成后公开致谢其带领的选举事务处团队"
     }
   ],
-  "biography_summary": "陈淑华，香港特别行政区政府首长级公务员（职级高级首席行政主任）。2022年1月起任选举事务处首席选举事务主任，2024年9月11日接替黄文超出任总选举事务主任，为选举事务处部门首长，任内督导2025年立法会换届选举；其后由谢衍文接任。",
+  "biography_summary": "陈淑华，香港特别行政区政府首长级公务员（职级高级首席行政主任）。2022年1月起出任选举事务处首席选举事务主任，2024年9月11日接替黄文超出任总选举事务主任，执掌选举事务处。任内统筹2025年立法会换届选举的选民登记、投票与点票安排：该届选举于2025年12月7日举行，点票于翌日清晨约6时完成，选举管理委员会主席陆启康其后公开致谢总选举事务主任陈淑华及其团队，称其完成「不可完成的任务」。2026年政府电话簿显示总选举事务主任一职已由谢衍文接任，其正式离任日期未见官方公报披露。",
   "profile": {
     "notes": "离任总选举事务主任的确切日期未在官方来源中查得；现任政府电话簿显示总选举事务主任已由谢衍文接任，故列为前首长。出生日期、教育背景等个人信息官方来源未公开，留空。"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
         "title": "政府新闻网 - 政制及内地事务局副局长在立法会政制事务委员会会议发言（总选举事务主任陈淑华女士简介立法会选举安排）",
         "url": "https://www.info.gov.hk/gia/general/202604/20/P2026042000529p.htm"
+      },
+      {
+        "title": "香港政府新闻网 - 立會選舉體現公平公開原則（陸啟康致謝選舉事務處總選舉事務主任陳淑華，2025-12-08）",
+        "url": "https://www.news.gov.hk/chi/2025/12/20251208/20251208_092341_321.html"
       },
       {
         "title": "香港特别行政区政府电话簿 - 选举事务处（现任总选举事务主任为谢衍文）",
@@ -74,10 +72,12 @@
       }
     ],
     "data_sources": [
-      "https://www.info.gov.hk/gia/general/202604/20/P2026042000529p.htm",
-      "https://tel.directory.gov.hk/index_REO_CHI.html",
-      "https://zh.wikipedia.org/zh-hant/%E7%B8%BD%E9%81%B8%E8%88%89%E4%BA%8B%E5%8B%99%E4%B8%BB%E4%BB%BB"
+      "official_website",
+      "government_news",
+      "wikipedia",
+      "web_search"
     ],
-    "completeness_score": 28
+    "completeness_score": 33,
+    "notes": "2026-09-07复查：新增政府新闻网2025-12-08报道双源确认其至2025年立法会换届选举点票完成时仍在任总选举事务主任，并充实biography_summary；字段规范化——删除work_experience[].title/description、major_achievements[].title/description等schema外字段，major_achievements补organization；collection_meta.data_sources由URL列表规范为来源类型。search.gov.hk两次定向检索除选举报道外无更多个人资料（无学历、生卒、新职务任命公报），无社交账号可查证，经查证无更多公开资料，禁止编造。"
   }
 }

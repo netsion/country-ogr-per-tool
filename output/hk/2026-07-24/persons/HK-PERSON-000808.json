@@ -10,7 +10,7 @@
   "nationality": "HK",
   "gender": "male",
   "birth_date": null,
-  "birth_place": "",
+  "birth_place": null,
   "contacts": [],
   "current_positions": [
     "明报首席营运官"
@@ -18,9 +18,10 @@
   "education": [
     {
       "institution": "香港中文大学 (The Chinese University of Hong Kong)",
-      "degree": "",
-      "field": "",
-      "source": "LinkedIn个人档案"
+      "degree": null,
+      "field": null,
+      "start_date": null,
+      "end_date": null
     }
   ],
   "work_experience": [
@@ -52,18 +53,18 @@
   "political_stances": [],
   "major_achievements": [
     {
-      "date": "",
+      "date": null,
       "organization": "明报 (Ming Pao)",
       "achievement": "出任明报集团首席营运官，负责商务营运与数字化转型"
     }
   ],
   "biography_summary": "高敬森（Alex Ko Chi-ngai），明报首席营运官，毕业于香港中文大学。他负责明报集团的商务营运与数字化转型工作，包括广告经营、订阅业务及新媒体平台发展，与管理层共同推动这份由查良镛（金庸）与沈宝新于1959年创立、拥有逾六十年历史的中文报章，在媒体行业深度变革的新媒体环境下实现可持续发展。据其职业档案，他同时担任公司董事，长期专注于香港传媒行业的市场推广与营运管理，在报章发行、品牌推广及数字业务拓展方面具备丰富经验。其公开个人背景资料有限，亦无维基百科或维基数据条目。",
   "profile": {
-    "source_url": "",
+    "source_url": null,
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "web_search",
@@ -85,6 +86,6 @@
         "url": "https://marketingpulse.hktdc.com/conference/mp/en/archive/participant-list-2024"
       }
     ],
-    "notes": "无维基百科/Wikidata条目；无公开头像；教育背景（香港中文大学）及LinkedIn档案来自职业社交平台"
+    "notes": "2026-09-07 复核：字段规范化——education.degree 由空字符串改为 null、field 由空字符串改为 null、删除规则外 source 字段；birth_place 由空字符串改为 null；major_achievements.date 空字符串改为 null；profile.source_url 空字符串改为 null。经 Bing（webReader 中转）、DuckDuckGo、Brave 多引擎及贸发局参会者页复核，除 LinkedIn 档案（有登录墙无法直读全文）外，未见其此前任职经历、学历专业、出生日期等更多可查证公开资料，work_experience 暂仅一条，Education 学位与专业不详，保持缺失；无中文维基百科条目（API 确认 missing）；未发现经证实的其他官方社交媒体账号。无维基百科/Wikidata条目；无公开头像；教育背景（香港中文大学）及LinkedIn档案来自职业社交平台"
   }
 }

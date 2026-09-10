@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://apec-osint-tool.org/schemas/org_list.json",
+  "title": "APEC OSINT Organization List (Phase 1)",
+  "description": "Phase 1 broad scan output: a structured list of organizations for a target country",
+  "type": "object",
+  "required": ["metadata", "organizations", "summary"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["country", "country_iso", "country_qid", "collection_date", "phase", "categories_covered", "total_organizations"],
+      "additionalProperties": false,
+      "properties": {
+        "country": {
+          "type": "string",
+          "description": "Full English country name",
+          "examples": ["Singapore"]
+        },
+        "country_iso": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2 code",
+          "examples": ["SG"]
+        },
+        "country_qid": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$",
+          "description": "Wikidata QID for the country",
+          "examples": ["Q334"]
+        },
+        "collection_date": {
+          "type": "string",
+          "format": "date",
+          "description": "YYYY-MM-DD"
+        },
+        "phase": {
+          "type": "string",
+          "const": "phase1_broad_scan"
+        },
+        "categories_covered": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["GOV", "SOE", "CORP", "NGO", "ACAD", "MEDIA", "FIN", "INTL", "PARTY", "MIL"]
+          },
+          "description": "Organization categories included in this scan"
+        },
+        "subcategories_covered": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Subcategories actually covered (optional detail)"
+        },
+        "depth": {
+          "type": "string",
+          "enum": ["overview", "deep"],
+          "description": "Scan depth level"
+        },
+        "total_organizations": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "organizations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/org_entry" }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["by_category", "data_quality"],
+      "additionalProperties": false,
+      "properties": {
+        "by_category": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["count", "top_orgs"],
+            "properties": {
+              "count": { "type": "integer" },
+              "subcategories": {
+                "type": "object",
+                "additionalProperties": { "type": "integer" }
+              },
+              "top_orgs": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        },
+        "data_quality": {
+          "type": "object",
+          "required": ["verified_count", "unverified_count", "completeness_pct"],
+          "properties": {
+            "verified_count": { "type": "integer" },
+            "unverified_count": { "type": "integer" },
+            "completeness_pct": { "type": "integer", "minimum": 0, "maximum": 100 }
+          }
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "verification_status_enum": {
+      "type": "string",
+      "enum": ["verified", "unverified", "partial", "source_blocked_cloudflare", "source_unavailable"]
+    },
+
+    "org_entry": {
+      "type": "object",
+      "required": ["id", "name", "category", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}-[A-Z]+-[0-9]{3}$",
+          "description": "Unique org identifier: {ISO2}-{TYPE}-{SEQ}",
+          "examples": ["SG-GOV-001"]
+        },
+        "wikidata_qid": {
+          "type": ["string", "null"],
+          "pattern": "^Q[0-9]+$",
+          "description": "Wikidata entity ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Primary display name"
+        },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Alternative names, abbreviations, translations"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["GOV", "SOE", "CORP", "NGO", "ACAD", "MEDIA", "FIN", "INTL", "PARTY", "MIL"]
+        },
+        "subcategory": {
+          "type": ["string", "null"],
+          "description": "Org subtype (see enum_reference.md for full list)"
+        },
+        "description": {
+          "type": ["string", "null"]
+        },
+        "headquarters": {
+          "type": ["string", "null"],
+          "description": "HQ location (city, district, or address)"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "founded": {
+          "type": ["string", "null"],
+          "description": "YYYY-MM-DD or YYYY-01-01"
+        },
+        "website": {
+          "type": ["string", "null"],
+          "format": "uri"
+        },
+        "parent_organization": {
+          "type": ["string", "null"],
+          "description": "Name of parent org"
+        },
+        "key_people": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": { "type": "string" },
+              "name": { "type": "string" },
+              "since": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string" },
+              "target_name": { "type": "string" }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["type", "url"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["wikipedia", "wikidata", "official_website", "web_search", "news_search", "government_registry", "opencorporates", "other"]
+              },
+              "url": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        "verification_status": {
+          "$ref": "#/$defs/verification_status_enum"
+        }
+      }
+    }
+  }
+}

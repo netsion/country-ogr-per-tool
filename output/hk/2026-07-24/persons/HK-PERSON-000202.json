@@ -13,13 +13,35 @@
   "gender": "male",
   "birth_date": "1951-10-23",
   "birth_place": "香港",
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.ceo.gov.hk/exco/chi/Jeffrey-Lam.html",
+      "source": "https://www.ceo.gov.hk/exco/chi/Jeffrey-Lam.html"
+    }
+  ],
   "current_positions": [
     "职业训练局主席",
     "香港行政会议非官守成员",
-    "香港经济民生联盟副主席"
+    "香港经济民生联盟副主席",
+    "洪水桥产业园公司董事会主席",
+    "香港旅游发展局成员"
   ],
   "education": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "圣士提反书院附属小学 (St. Stephen's College Preparatory School)",
+      "degree": "primary",
+      "field": "小学"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "圣若瑟书院 (St. Joseph's College)",
+      "degree": "high_school",
+      "field": "中学（中四赴美升学）"
+    },
     {
       "start_date": null,
       "end_date": null,
@@ -106,19 +128,25 @@
     {
       "person_id": null,
       "name": "林亮添",
-      "relationship": "other",
+      "relationship": "father",
       "industry_or_organization": "永和实业创办人，代理变形金刚起家"
     },
     {
       "person_id": null,
+      "name": "梁育吾",
+      "relationship": "mother",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
       "name": "林凯章",
-      "relationship": "other",
+      "relationship": "son",
       "industry_or_organization": "2021年当选选举委员会商界（第一）委员"
     }
   ],
   "political_stances": [
     {
-      "date": "",
+      "date": null,
       "topic": "工商界与经贸政策",
       "stance_content": "长期代表香港总商会在立法会发声，关注工商界权益、盛事经济及香港贸易发展，曾任盛事基金评审委员会主席",
       "source": "https://zh.wikipedia.org/zh-hk/%E6%9E%97%E5%81%A5%E9%8B%92"
@@ -146,34 +174,35 @@
       "achievement": "获政府委任为职业训练局主席，2026年1月1日履新"
     }
   ],
-  "biography_summary": "林健锋，1951年10月23日出生于香港，祖籍广东南海，工商界人士及政界人物，现任职业训练局主席、香港行政会议非官守成员及香港经济民生联盟创党副主席。他早年在圣若瑟书院就读，中四赴美升学，毕业于塔夫斯大学机械工程系，其后取得香港理工大学国际酒店管理硕士及香港中文大学教育硕士学位。他是永和实业董事长，曾任香港总商会及香港工业总会理事。他2004年起循商界（第一）功能界别出任立法会议员共五届，2012年与梁君彦等创立经民联并出任副主席，同年获委任为行政会议非官守成员，曾任廉政公署事宜投诉委员会主席、香港按揭证券有限公司非执行董事、西九文化区管理局董事等职，并为第十一至十三届全国政协委员。2025年10月他宣布不再竞逐连任立法会，同年12月获委任为职业训练局主席。他获颁大紫荆勋章、金紫荆星章并获委任为太平绅士。",
+  "biography_summary": "林健锋，1951年10月23日出生于香港，祖籍广东南海，工商界人士及政界人物，现任职业训练局主席、香港行政会议非官守成员及香港经济民生联盟创党副主席。他早年在圣士提反书院附属小学及圣若瑟书院就读，中四赴美升学，毕业于塔夫斯大学机械工程系，其后取得香港理工大学国际酒店管理硕士及香港中文大学教育硕士学位。他是永和实业董事长，曾任香港总商会及香港工业总会理事。他2004年起循商界（第一）功能界别出任立法会议员共五届，2012年与梁君彦等创立经民联并出任副主席，同年获委任为行政会议非官守成员，曾任廉政公署事宜投诉委员会主席、香港按揭证券有限公司非执行董事、西九文化区管理局董事等职，并为第十一至十三届全国政协委员。2025年10月他宣布不再竞逐连任立法会，同年12月获委任为职业训练局主席，2026年1月1日履新。他获颁大紫荆勋章、金紫荆星章并获委任为太平绅士。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mr_Jefflam_Lam_%281%29.jpg/250px-Mr_Jefflam_Lam_%281%29.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-20",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
+      "official_website",
       "news_search"
     ],
-    "completeness_score": 69,
+    "completeness_score": 74,
     "quotes": [
       {
         "title": "维基百科：林健鋒",
         "url": "https://zh.wikipedia.org/zh-hk/%E6%9E%97%E5%81%A5%E9%8B%92"
       },
       {
-        "title": "香港经济民生联盟官网",
-        "url": "https://www.bpahk.org"
+        "title": "香港特区政府行政会议成员官方页面：林健锋",
+        "url": "https://www.ceo.gov.hk/exco/chi/Jeffrey-Lam.html"
       },
       {
-        "title": "香港立法会议员资料：林健锋",
-        "url": "https://www.legco.gov.hk"
+        "title": "Wikidata: Jeffrey Lam (Q6176119)",
+        "url": "https://www.wikidata.org/wiki/Q6176119"
       }
     ],
-    "notes": "修正原档案wikidata_qid错误（原Q10844330为卢伟国的条目，经zh-wiki对应核实林健锋正确QID为Q6176119）；修正name_zh字段错误（原为无关字符串）。头像为Commons「Mr Jefflam Lam (1).jpg」250px直链。荣誉：GBM、GBS、MBE、JP。2026-08-31补深核查：已于2025年12月卸任立法会议员，不在第八届立法会议员联络目录内；行政会议及VTC官方页面均无其个人办公联系方式；搜索仅见个人Facebook账户（facebook.com/jeffrey.lam.566），非经官方核证专页，按纪律不收录——social/contacts保持空。"
+    "notes": "修正原档案wikidata_qid错误（原Q10844330为卢伟国的条目，经zh-wiki对应核实林健锋正确QID为Q6176119）；修正name_zh字段错误（原为无关字符串）。荣誉：GBM、GBS、MBE、JP。2026-09-07换届后状态核实：2025年10月12日宣布不竞逐第八届立法会，立法会议员任期至2025-12-31届满（继任者林伟全）；行政会议非官守成员身份经特首办官网ceo.gov.hk确认延续至2026年9月仍为现任；职业训练局主席2026-01-01履新、任期两年，均无误。补齐：family_members关系规范化（父林亮添father、子林凯章son，维基确认）并补母亲梁育吾；education补圣士提反书院附属小学及圣若瑟书院；current_positions补洪水桥产业园公司董事会主席（维基现任）及香港旅游发展局成员（行政会议官网）；contacts补行政会议官方页面；political_stances空date置null。社交账号：仅见未经官方核证的个人Facebook账户（facebook.com/jeffrey.lam.566及同名疑似账户），按纪律不收录，social_accounts保持空。"
   }
 }

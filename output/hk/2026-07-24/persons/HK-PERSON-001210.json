@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001210",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q55382627",
   "name": "陳智軒",
   "name_zh": "陈智轩",
   "name_en": "Chan Che-hin, Chetwyn",
@@ -22,27 +22,15 @@
     }
   ],
   "current_positions": [
-    {
-      "start_date": "2021-07-01",
-      "end_date": null,
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
-      "position": "副校长（研究与发展）"
-    },
-    {
-      "start_date": null,
-      "end_date": null,
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
-      "position": "利定昌心理学讲座教授 (Peter T. C. Lee Chair Professor of Psychology)"
-    }
+    "香港教育大学副校长（研究与发展）",
+    "香港教育大学利定昌心理学讲座教授"
   ],
   "education": [
     {
       "start_date": null,
       "end_date": "1995",
       "institution": "加拿大阿尔伯塔大学 (University of Alberta)",
-      "degree": "phd",
+      "degree": "doctorate",
       "field": "教育心理学"
     }
   ],
@@ -51,14 +39,14 @@
       "start_date": "2005",
       "end_date": "2010",
       "organization": "香港理工大学 (The Hong Kong Polytechnic University)",
-      "org_id": null,
+      "org_id": "HK-ACAD-009",
       "position": "康复治疗科学系系主任"
     },
     {
       "start_date": null,
       "end_date": "2021",
       "organization": "香港理工大学 (The Hong Kong Polytechnic University)",
-      "org_id": null,
+      "org_id": "HK-ACAD-009",
       "position": "协理副校长（学与教）、康复治疗科学系讲座教授、神经科学中心实验室主任"
     },
     {
@@ -96,7 +84,7 @@
     },
     {
       "date": "2008",
-      "organization": null,
+      "organization": "美国心理学会",
       "achievement": "获选为美国心理学会院士（2008年）及香港心理学会院士（2007年）"
     }
   ],
@@ -106,13 +94,14 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "org_website",
-      "news_search"
+      "news_search",
+      "wikidata"
     ],
-    "completeness_score": 47,
+    "completeness_score": 48,
     "quotes": [
       {
         "title": "香港教育大学：陈智轩教授研究学者索引（官方履历）",
@@ -125,8 +114,12 @@
       {
         "title": "香港教育大学：副校长（研究与发展）官方页面",
         "url": "https://www.eduhk.hk/zht/about/university-administration/vice-president-research-and-development"
+      },
+      {
+        "title": "Wikidata：Chetwyn Chan (Q55382627)",
+        "url": "https://www.wikidata.org/wiki/Q55382627"
       }
     ],
-    "notes": "教大官网三处独立页面交叉确认职务与履历。出生日期及出生地未在官方及公开来源查得，留null。Wikidata QID未核实，留null。无公开家人信息，family_members为空数组。"
+    "notes": "2026-09-07 复核：Wikidata Q55382627 经 API 核实（标签「陳智軒」，雇主含教大及理大、教育程度阿尔伯塔大学，与本人物匹配），已填入 wikidata_qid。教大官方学者页再次交叉确认现任职务与履历。education[].degree 由非枚举值「phd」规范为「doctorate」。current_positions 由对象数组规范为纯字符串数组。社交账号搜索未发现本人物的认证官方账号（检索结果均为台湾同名人士），保持空数组。出生日期、出生地及本科此前学历未在官方及公开来源查得，留null。"
   }
 }

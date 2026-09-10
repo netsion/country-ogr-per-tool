@@ -63,14 +63,14 @@
   "key_people": [
     {
       "person_id": "HK-PERSON-000608",
-      "name": "陈家殷 (Khalil Chen)",
+      "name": "陳家殷 (Samuel Chan Ka-yan)",
       "title": "前任主席（2020年5月—2026年4月30日）",
       "title_description": "曾领导竞委会董事会及法定职能的总体方向，2026年4月30日卸任",
       "description": "执业大律师，2016年5月加入竞委会任委员，曾任消费者委员会副主席，2020年5月接替胡红玉出任主席，其后两度获再度委任，2026年4月30日卸任，由翟绍唐接任主席。"
     },
     {
       "person_id": "HK-PERSON-000609",
-      "name": "毕仲明 (Ricky But)",
+      "name": "畢仲明 (Rasul Butt)",
       "title": "行政总裁",
       "title_description": "负责竞委会日常运作、调查及执法工作",
       "description": "竞争事务委员会行政总裁，2026年5月3日起获再度委任，任期三年，统领委员会的执法、政策研究及公众教育职能。"
@@ -110,47 +110,60 @@
       "date": "2026-04-24",
       "title": "翟绍唐获委任为主席，7名新委员加入",
       "description": "行政长官委任资深大律师翟绍唐为竞委会主席，任期两年（2026年5月1日生效），并同时委任7名新委员及再度委任8名现任委员，委员会由一名主席及15名委员组成。",
-      "impact": "完成竞委会换届，接替卸任的陈家殷，延续竞争执法工作。"
+      "impact": "完成竞委会换届，接替卸任的陈家殷，延续竞争执法工作。",
+      "source": "https://www.cedb.gov.hk/sc/news/press_release/2026/pr24042026a.html"
     },
     {
       "date": "2025-12-08",
       "title": "就楼宇维修业反竞争行为采取新一轮执法行动",
       "description": "竞委会就楼宇维修业界的反竞争行为采取新一轮执法行动，涉及全港多区共17个项目。",
-      "impact": "持续打击围标行为，保障楼宇维修市场的公平竞争。"
+      "impact": "持续打击围标行为，保障楼宇维修市场的公平竞争。",
+      "source": "https://www.compcomm.hk/scindex.html"
     },
     {
       "date": "2025-11-25",
       "title": "就「交换敏感资料」展开宣传教育活动",
       "description": "竞委会发布新闻稿，就企业间交换敏感资料的反竞争风险展开宣传教育活动。",
-      "impact": "加强业界对《竞争条例》第一行为守则的合规意识。"
+      "impact": "加强业界对《竞争条例》第一行为守则的合规意识。",
+      "source": "https://www.compcomm.hk/tc/media/reports_publications/information_exchange.html"
     },
     {
       "date": "2025-12-19",
       "title": "《竞争快讯》新一期出版",
       "description": "竞委会定期刊物《竞争快讯》发布新一期，介绍执法动态及合规指引。",
-      "impact": "持续向商界传递竞争法合规信息。"
+      "impact": "持续向商界传递竞争法合规信息。",
+      "source": "https://www.compcomm.hk/scindex.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "竞争事务审裁处 (Competition Tribunal)",
-      "org_description": "高等法院下属审裁处，负责审理竞委会提起的竞争法案件"
+      "org_description": "高等法院下属审裁处，负责审理竞委会提起的竞争法案件",
+      "org_id": null
     },
     {
       "org_name": "商务及经济发展局 (Commerce and Economic Development Bureau)",
-      "org_description": "负责竞争政策的主责决策局，委员由行政长官经其政策范畴委任"
+      "org_description": "负责竞争政策的主责决策局，委员由行政长官经其政策范畴委任",
+      "org_id": "HK-GOV-005",
+      "relationship_type": "regulator"
     },
     {
       "org_name": "国家市场监督管理总局 (SAMR)",
-      "org_description": "中国内地反垄断执法机构，2025年1月与竞委会主席会面就反垄断执法及公平竞争审查交换意见"
+      "org_description": "中国内地反垄断执法机构，2025年1月与竞委会主席会面就反垄断执法及公平竞争审查交换意见",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "马来西亚竞争委员会 (Malaysia Competition Commission)",
-      "org_description": "与竞委会签署谅解备忘录，促进两地竞争执法合作"
+      "org_description": "与竞委会签署谅解备忘录，促进两地竞争执法合作",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "消费者委员会 (Consumer Council)",
-      "org_description": "香港消费者权益法定机构，与竞委会在保障消费者利益及竞争倡导方面职能相辅"
+      "org_description": "香港消费者权益法定机构，与竞委会在保障消费者利益及竞争倡导方面职能相辅",
+      "org_id": "HK-GOV-007",
+      "relationship_type": "partner"
     }
   ],
   "core_business": "竞争事务委员会（竞委会）是根据香港法例第619章《竞争条例》于2012年成立的独立法定机构，负责在香港特别行政区执行竞争法，职能包括调查及打击合谋定价、围标、分配市场、限制产量等严重反竞争行为及滥用市场权势行为，透过竞争事务审裁处提出法律程序，同时进行市场研究、发布指引、处理合并申请及推动企业合规与公众教育。委员会现由一名主席及15名委员组成（共16名成员），全部由行政长官委任，现任主席为翟绍唐（2026年5月1日起，任期两年），行政支援部门设于黄竹坑南岛广场。竞委会致力于维护香港自由市场竞争，防止合谋行为妨碍营商环境，保障消费者及诚信商人的利益。",
@@ -191,7 +204,5 @@
       }
     ],
     "notes": "Phase3二次丰富：更新2026年换届（翟绍唐接任主席、7新委员）、补全社交媒体账号（FB/IG/YouTube）、马来西亚竞委会合作等关联实体，内容统一为简体中文，纯事实记录。"
-  },
-  "description": "香港执行《竞争条例》的法定竞争执法机构",
-  "brief": "香港执行《竞争条例》的法定竞争执法机构"
+  }
 }

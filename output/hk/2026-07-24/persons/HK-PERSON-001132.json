@@ -13,34 +13,29 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "高级副总裁兼首席财务官 (Senior Vice President and Chief Financial Officer)",
-      "organization": "美团 (Meituan)",
-      "org_id": "HK-CORP-017",
-      "start_date": "2018-09-07",
-      "end_date": null,
-      "notes": "分管财务平台、战略与投融资、资本市场事宜"
-    }
+    "美团高级副总裁兼首席财务官"
   ],
   "education": [
     {
       "institution": "北京大学 (Peking University)",
-      "degree": "经济学学士",
+      "degree": "bachelor",
       "field": "经济学",
-      "year": null
+      "start_date": null,
+      "end_date": null
     },
     {
       "institution": "哈佛大学商学院 (Harvard Business School)",
-      "degree": "工商管理硕士 (MBA)",
-      "field": "工商管理",
-      "year": null
+      "degree": "master",
+      "field": "工商管理 (MBA)",
+      "start_date": null,
+      "end_date": null
     }
   ],
   "work_experience": [
     {
       "organization": "科尔尼管理咨询公司 (A.T. Kearney)",
       "org_id": null,
-      "title": "早期职业经历（咨询）",
+      "position": "管理咨询（早期职业经历）",
       "start_date": null,
       "end_date": null,
       "notes": null
@@ -48,7 +43,7 @@
     {
       "organization": "中经合集团 (WI Harper Group)",
       "org_id": null,
-      "title": "投资相关职务",
+      "position": "投资相关职务（早期职业经历）",
       "start_date": null,
       "end_date": null,
       "notes": null
@@ -56,15 +51,15 @@
     {
       "organization": "摩根士丹利 (Morgan Stanley)",
       "org_id": null,
-      "title": "直接投资部",
+      "position": "直接投资部职务",
       "start_date": null,
       "end_date": null,
       "notes": null
     },
     {
       "organization": "腾讯 (Tencent)",
-      "org_id": null,
-      "title": "腾讯产业共赢基金执行董事、投资并购部助理总经理",
+      "org_id": "HK-CORP-022",
+      "position": "腾讯产业共赢基金执行董事、投资并购部助理总经理",
       "start_date": null,
       "end_date": null,
       "notes": null
@@ -72,49 +67,67 @@
     {
       "organization": "美团 (Meituan)",
       "org_id": "HK-CORP-017",
-      "title": "战略投资副总裁",
+      "position": "战略投资副总裁",
       "start_date": "2014-01-01",
       "end_date": null,
       "notes": "2014年加入，负责公司战略发展与投融资"
     },
     {
       "organization": "美团点评产业基金管理公司",
-      "org_id": "HK-CORP-017",
-      "title": "首席执行官 (CEO)",
+      "org_id": null,
+      "position": "首席执行官 (CEO)",
       "start_date": "2017-01-01",
       "end_date": null,
-      "notes": "2017年美团点评设立30亿元产业基金，任基金管理公司CEO"
+      "notes": "2017年美团点评设立30亿元产业基金，任基金管理公司CEO；该实体未收录于组织名称索引，org_id置空"
     },
     {
       "organization": "美团 (Meituan)",
       "org_id": "HK-CORP-017",
-      "title": "高级副总裁兼首席财务官 (Senior Vice President and CFO)",
+      "position": "高级副总裁兼首席财务官 (Senior Vice President and CFO)",
       "start_date": "2018-09-07",
       "end_date": null,
-      "notes": "2018年9月美团港股上市时出任CFO；美团最高管理层S-team成员"
+      "notes": "2018年9月美团港股上市时出任CFO，并任公司董事；美团最高管理层S-team成员"
     }
   ],
   "person_relationships": [
     {
-      "related_person": "王兴 (Wang Xing)",
-      "relation": "同事",
-      "notes": "美团董事长兼首席执行官"
+      "person_id": "HK-PERSON-000505",
+      "person_name": "王兴 (Wang Xing)",
+      "relationship_type": "colleague",
+      "description": "美团董事长兼首席执行官"
     }
   ],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
-    "2014年加入美团，主导公司战略发展与投融资体系建设",
-    "2017年出任美团点评产业基金管理公司CEO",
-    "2018年9月美团在香港交易所上市时出任首席财务官，此后负责财务平台、战略与投资及资本市场事宜"
+    {
+      "date": "2014",
+      "organization": "美团 (Meituan)",
+      "achievement": "加入美团，主导公司战略发展与投融资体系建设"
+    },
+    {
+      "date": "2017",
+      "organization": "美团 (Meituan)",
+      "achievement": "出任美团点评产业基金管理公司CEO，负责30亿元产业基金"
+    },
+    {
+      "date": "2018-09",
+      "organization": "美团 (Meituan)",
+      "achievement": "美团在香港交易所上市时出任首席财务官，此后分管财务平台、战略与投资平台及资本市场事宜"
+    },
+    {
+      "date": null,
+      "organization": "猫眼娱乐 (Maoyan Entertainment)",
+      "achievement": "出任猫眼娱乐非执行董事"
+    }
   ],
-  "biography_summary": "陈少晖 (Chen Shaohui)，1981年出生，中国籍。北京大学经济学学士、哈佛大学工商管理硕士。早期先后任职于科尔尼管理咨询公司、中经合集团、摩根士丹利等机构，后任腾讯产业共赢基金执行董事、腾讯投资并购部助理总经理。2014年以战略投资副总裁身份加入美团，负责战略发展与投融资；2017年出任美团点评产业基金管理公司CEO；2018年9月起任美团高级副总裁兼首席财务官，分管财务平台、战略与投融资及资本市场事宜，为美团最高管理层S-team成员。亦曾担任猫眼娱乐非执行董事。",
+  "biography_summary": "陈少晖 (Chen Shaohui)，1981年出生，中国籍。北京大学经济学学士、哈佛大学工商管理硕士。早期先后任职于科尔尼管理咨询公司、中经合集团、摩根士丹利等机构，后任腾讯产业共赢基金执行董事、腾讯投资并购部助理总经理。2014年以战略投资副总裁身份加入美团，负责战略发展与投融资；2017年出任美团点评产业基金管理公司CEO；2018年9月起任美团高级副总裁兼首席财务官，分管财务平台、战略与投资平台及资本市场事宜，为美团最高管理层S-team成员，并任公司董事。亦曾担任猫眼娱乐非执行董事。",
   "profile": {
-    "notes": "生日仅知1981年4月，按规则日期用-01填充。高盛投行部经历仅见单一来源，未写入正式字段。陈少晖性格低调，主要在财报电话会议等场合公开露面。"
+    "notes": "生日仅知1981年4月，按规则日期用-01填充。出生地查证不到（维基百科无条目，百度百科反爬403），保持缺失。高盛投行部经历仅见单一来源，未写入正式字段。2026-09-07经同花顺F10复核：现任美团高级副总裁兼首席财务官（2018-09-07至今）并任公司董事。陈少晖性格低调，主要在财报电话会议等场合公开露面。"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -141,7 +154,7 @@
       "央广网",
       "百度百科"
     ],
-    "completeness_score": 56,
-    "notes": " | 2026-09-03 与重复档案 HK-PERSON-001247（繁简异名对账）合并：以 HK-PERSON-001132 为唯一 ID，内容以 2026-09-01 重建版为准"
+    "completeness_score": 58,
+    "notes": " | 2026-09-03 与重复档案 HK-PERSON-001247（繁简异名对账）合并：以 HK-PERSON-001132 为唯一 ID，内容以 2026-09-01 重建版为准 | 2026-09-07 规范化：current_positions 改纯字符串；education 改 degree 英文枚举并去 year 字段；work_experience title 改 position，美团点评产业基金管理公司 org_id 置 null（未收录索引）；major_achievements 改对象数组并补猫眼娱乐条目。现任职务经同花顺F10复核。无公开官方社交账号，social_accounts 保持空。"
   }
 }

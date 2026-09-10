@@ -43,29 +43,29 @@
       "end_date": null,
       "institution": "浙江大学 (Zhejiang University)",
       "degree": "master",
-      "field": "经济学（硕士学位）"
+      "field": "经济学"
     }
   ],
   "work_experience": [
     {
       "start_date": "1990-07",
-      "end_date": "2021",
+      "end_date": "2021-01",
       "organization": "中国电信集团 (China Telecom Group)",
       "org_id": null,
-      "position": "长期任职，历任高级管理职务，2018年8月起任集团副总经理兼总法律顾问"
+      "position": "长期任职，历任多个高级管理职务，2018年8月起任集团副总经理兼总法律顾问"
     },
     {
       "start_date": "2021-01",
       "end_date": "2025-10",
       "organization": "中国联合网络通信集团有限公司 (China United Network Communications Group)",
       "org_id": null,
-      "position": "总经理、党组副书记（后任董事长）"
+      "position": "总经理、党组副书记，后升任董事长"
     },
     {
       "start_date": "2025-10-28",
       "end_date": null,
       "organization": "中国移动通信集团有限公司 (China Mobile Communications Group)",
-      "org_id": null,
+      "org_id": "HK-CORP-009",
       "position": "董事长、党组书记"
     },
     {
@@ -90,8 +90,8 @@
   "major_achievements": [
     {
       "date": "2025-10",
-      "organization": "中国移动 (China Mobile)",
-      "achievement": "出任中国移动集团董事长、党组书记，成为中国移动首位\"70后\"董事长，职业生涯横跨电信、联通、移动三大运营商集团"
+      "organization": "中国移动通信集团有限公司 (China Mobile Communications Group)",
+      "achievement": "出任中国移动集团董事长、党组书记，成为中国移动首位「70后」董事长，职业生涯横跨电信、联通、移动三大运营商集团"
     }
   ],
   "biography_summary": "陈忠岳，1971年6月生，中共党员，高级工程师，硕士学位，现任中国移动通信集团有限公司董事长、党组书记及中国移动有限公司执行董事兼董事长。他1990年7月毕业于上海邮电学校国际邮电业务专业并参加工作，后获上海外国语学院英语专业大学学历及浙江大学经济学硕士学位。他长期在中国电信系统工作，历任多个管理职务，2018年8月任中国电信集团副总经理兼总法律顾问；2021年1月调任中国联通总经理、党组副书记，主持公司生产经营管理工作，后升任联通集团董事长。2025年10月28日，中共中央组织部宣布陈忠岳任中国移动通信集团有限公司董事长、党组书记；同年12月22日获委任为上市公司中国移动执行董事兼董事长，接替因年龄原因辞任的杨杰。",
@@ -100,31 +100,28 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "news_search",
+      "official_website",
       "wikipedia"
     ],
     "completeness_score": 48,
     "quotes": [
       {
-        "title": "百度百科：陈忠岳",
-        "url": "https://baike.baidu.com/item/%E9%99%88%E5%BF%A0%E5%B2%B3/15936455"
-      },
-      {
-        "title": "澎湃新闻：陈忠岳任中国移动通信集团有限公司董事长",
-        "url": "https://www.thepaper.cn/newsDetail_forward_31847883"
-      },
-      {
-        "title": "中国移动官网：公司领导（董事会成员介绍）",
+        "title": "中国移动官网「公司领导」页（董事会成员：陈忠岳，中国移动通信集团有限公司董事长、党组书记）",
         "url": "https://www.10086.cn/aboutus/jtgk/gsld/"
       },
       {
-        "title": "同花顺F10：中国移动（HK0941）高管介绍",
-        "url": "https://basic.10jqka.com.cn/HK0941/manager.html"
+        "title": "中国移动集团新闻：中国移动董事长陈忠岳出席MWC上海2026并发表主旨演讲（2026年6月，确认现任）",
+        "url": "https://www.10086.cn/aboutus/news/groupnews/index_detail_55309.html"
+      },
+      {
+        "title": "百度百科：陈忠岳（1971年6月生；2025年12月22日获委任为中国移动执行董事兼董事长）",
+        "url": "https://baike.baidu.com/item/%E9%99%88%E5%BF%A0%E5%B2%B3/15936455"
       }
     ],
-    "notes": "暂无Wikidata条目；国籍CHN。 2026-08-27补深：补入公司官方联系方式；无经核实的个人社交媒体账号。"
+    "notes": "2026年9月经中国移动官网「公司领导」页及2026年6月MWC上海新闻双重核实，现任集团董事长、党组书记及上市公司执行董事兼董事长。出生信息：百度百科记载1971年6月生，仅见于单一来源且schema要求YYYY-MM-DD精度，birth_date保持null（出生年月见于biography_summary）。education字段规范化：浙江大学field去除冗余「（硕士学位）」字样。org_id：中国移动通信集团有限公司条目按_name_index.json映射补HK-CORP-009；中国电信集团、中国联通集团未在索引中，保持null。Wikidata经检索无陈忠岳条目，wikidata_qid维持null。无经核实的个人社交媒体账号，保持空白。contacts为公司层面公开联系方式，保留。"
   }
 }

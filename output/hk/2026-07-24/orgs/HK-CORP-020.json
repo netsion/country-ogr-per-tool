@@ -95,7 +95,7 @@
     },
     {
       "person_id": "HK-PERSON-001254",
-      "name": "郭基泓 (Edward Kwok)",
+      "name": "郭基泓 (Christopher Kwok Kai-wang)",
       "name_en": "Edward Kwok",
       "title": "执行董事",
       "title_description": "郭炳联之子，参与集团业务管理",
@@ -141,51 +141,67 @@
       "date": "2025-09-04",
       "title": "公布2024/25年度全年业绩",
       "description": "截至2025年6月30日止年度收入797.21亿港元同比增长11.5%，股东应占溢利192.77亿港元同比增长1.2%，基础溢利218.55亿港元；年度销售总额466亿港元，总租金收入244.6亿港元。",
-      "impact": "在楼市调整期保持稳健盈利，租金收入提供稳定现金流"
+      "impact": "在楼市调整期保持稳健盈利，租金收入提供稳定现金流",
+      "source": "https://www.shkp.com/zh-CN/media/press-releases/sun-hung-kai-properties-202425-annual-results-announcement"
     },
     {
       "date": "2026-02-26",
       "title": "公布2025/26年度中期业绩",
       "description": "中期可拨归公司股东基础溢利122.13亿港元同比增长，每股基础溢利4.21港元；香港未入账合约销售额约356亿港元预计大部分于本财年确认。",
-      "impact": "销售交付量增加抵销利润率影响，业绩表现理想"
+      "impact": "销售交付量增加抵销利润率影响，业绩表现理想",
+      "source": "https://www.shkp.com/zh-CN/media/press-releases/sun-hung-kai-properties-202526-interim-results-announcement"
     },
     {
       "date": "2026-02-13",
       "title": "上海徐家汇中心ITC整体竣工",
       "description": "集团在内地最大单体投资项目、总建筑面积逾70万平方米的上海徐家汇中心（ITC）主地块于2026年2月整体竣工，第三期工程全面完工，成为浦西新地标。",
-      "impact": "显著提升集团内地收租物业组合规模，内地租金收入占比进一步提高"
+      "impact": "显著提升集团内地收租物业组合规模，内地租金收入占比进一步提高",
+      "source": "https://www.xuhui.gov.cn/xwzx_bmlf/20260107/568063.html"
     },
     {
       "date": "2026-03-24",
       "title": "上海徐家汇中心安达仕酒店开业",
       "description": "与凯悦集团合作的Andaz Shanghai ITC于2026年第一季度开业，为ITC综合体内的五星级酒店，郭炳联出席开业典礼。",
-      "impact": "完善ITC综合体业态组合，强化酒店业务与商业地产协同"
+      "impact": "完善ITC综合体业态组合，强化酒店业务与商业地产协同",
+      "source": "https://www.sh.chinanews.com.cn/chanjing/2026-03-24/145492.shtml"
     }
   ],
   "related_entities": [
     {
       "org_name": "郭氏家族信托 (Kwok family trusts)",
-      "org_description": "新地控股股东，郭得胜家族后代通过信托持有集团股份"
+      "org_description": "新地控股股东，郭得胜家族后代通过信托持有集团股份",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "载通国际 (Transport International)",
-      "org_description": "新地为主要股东的巴士及运输集团（九龙巴士母公司）"
+      "org_description": "新地为主要股东的巴士及运输集团（九龙巴士母公司）",
+      "relationship_type": "minority_shareholder",
+      "org_id": null
     },
     {
       "org_name": "数码通电讯 (SmarTone)",
-      "org_description": "新地为大股东的香港移动电讯运营商"
+      "org_description": "新地为大股东的香港移动电讯运营商",
+      "relationship_type": "minority_shareholder",
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "新地1972年8月23日以市值4亿港元在港上市（0016.HK），现为恒生指数成份股"
+      "org_description": "新地1972年8月23日以市值4亿港元在港上市（0016.HK），现为恒生指数成份股",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     },
     {
       "org_name": "新意网集团 (SUNeVision)",
-      "org_description": "新地控股的香港数据中心及科技基础设施公司，港交所上市"
+      "org_description": "新地控股的香港数据中心及科技基础设施公司，港交所上市",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "凯悦酒店集团 (Hyatt Hotels)",
-      "org_description": "新地酒店业务合作伙伴，共同打造上海徐家汇中心安达仕酒店"
+      "org_description": "新地酒店业务合作伙伴，共同打造上海徐家汇中心安达仕酒店",
+      "relationship_type": "partner",
+      "org_id": null
     }
   ],
   "core_business": "新鸿基地产发展有限公司是香港最大型的地产发展公司之一，1972年8月23日在香港交易所上市（0016.HK），现为恒生指数成份股。核心业务为物业发展，另经营收租物业、酒店、物业管理等地产业务，并投资电讯（数码通）、数据中心（新意网）、基建等领域。集团奉行「开发+收租」双线模式，在香港拥有环球贸易广场、国际金融中心(IFC)、新城市广场等地标物业，在内地拥有上海国际金融中心、上海徐家汇中心ITC（总建筑面积逾70万平方米，2026年整体竣工）等大型项目，业务覆盖上海、北京、广州、成都、南京等城市。2024/25年度收入797.21亿港元同比增长11.5%，股东应占溢利192.77亿港元，年度销售总额466亿港元，总租金收入244.6亿港元，其中内地收租物业组合总租金收入57.13亿元人民币。集团由郭氏家族控股，主席兼董事总经理为郭炳联，副董事总经理为黄植荣与雷霆。",
@@ -230,7 +246,5 @@
       }
     ],
     "notes": "P3二次丰富：补全黄植荣/郭基泓/郭炳江等董事局成员、上海ITC竣工与安达仕酒店开业事件、新意网与凯悦关联实体、内地业务与财务部门"
-  },
-  "description": "香港最大地产发展商之一，「开发+收租」双线模式，恒指蓝筹",
-  "brief": "香港最大地产发展商之一，「开发+收租」双线模式，恒指蓝筹"
+  }
 }

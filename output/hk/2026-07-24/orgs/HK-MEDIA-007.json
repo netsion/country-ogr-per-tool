@@ -70,7 +70,7 @@
   "key_people": [
     {
       "person_id": "HK-PERSON-000813",
-      "name": "黎廷瑶 (Lai Ting-yiu)",
+      "name": "黎廷瑤 (Lai Ting Yiu)",
       "title": "首席执行官兼总编辑",
       "title_description": "负责星岛新闻集团经营与编辑事务",
       "description": "资深传媒管理者，2013年起出任星岛新闻集团首席执行官，负责集团经营及编辑方向，带领集团数码化转型及2022年香港主板上市，任内推动新媒体业务于2025年度转亏为盈。"
@@ -124,41 +124,54 @@
       "title": "2025年度业绩：新媒体业务转盈",
       "date": "2026-02-01",
       "description": "星岛新闻集团（港交所1105）公布截至2025年12月底年度业绩，收入约7.11亿港元，股东应占亏损收窄，新媒体业务转亏为盈，集团聚焦「智媒化」与「湾区化」发展方向。",
-      "impact": "新媒体业务成为集团新增长点，亏损收窄改善经营基础"
+      "impact": "新媒体业务成为集团新增长点，亏损收窄改善经营基础",
+      "source": "https://www.stheadline.com/stock-market/3556430/"
     },
     {
       "title": "主席蔡加赞获颁金紫荆星章",
       "date": "2025-07-01",
       "description": "香港特区政府公布2025年授勋名单，星岛新闻集团联席主席蔡加赞获颁金紫荆星章，表彰其社会贡献。",
-      "impact": "提升集团主要领导人的社会地位"
+      "impact": "提升集团主要领导人的社会地位",
+      "source": "https://www.info.gov.hk/gia/general/202507/01/P2025063000678.htm"
     },
     {
       "title": "持续数码化转型",
       "date": "2025-01-01",
       "description": "星岛新闻集团在纸媒收缩环境下持续投入数码平台（星岛网及星岛头条App），并巩固财经及地产内容在港人读者中的市场份额。",
-      "impact": "维持星岛在港媒市场的经营基础"
+      "impact": "维持星岛在港媒市场的经营基础",
+      "source": "https://www.singtao.com.hk/"
     }
   ],
   "related_entities": [
     {
       "org_name": "星岛新闻集团有限公司 (Sing Tao News Corp)",
-      "org_description": "星岛日报的上市母公司（港交所1105，1996年于百慕达注册），旗下拥有《头条日报》《东周刊》等刊物，2025年收入约7.11亿港元"
+      "org_description": "星岛日报的上市母公司（港交所1105，1996年于百慕达注册），旗下拥有《头条日报》《东周刊》等刊物，2025年收入约7.11亿港元",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "佳兆业集团 (Kaisa Group)",
-      "org_description": "郭英成创办的内地房企，为星岛新闻集团主要股东背景"
+      "org_description": "郭英成创办的内地房企，为星岛新闻集团主要股东背景",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "头条日报 (Headline Daily)",
-      "org_description": "星岛集团旗下免费报纸"
+      "org_description": "星岛集团旗下免费报纸",
+      "relationship_type": "sibling",
+      "org_id": null
     },
     {
       "org_name": "东周刊 (East Week)",
-      "org_description": "星岛新闻集团旗下中文周刊"
+      "org_description": "星岛新闻集团旗下中文周刊",
+      "relationship_type": "sibling",
+      "org_id": null
     },
     {
       "org_name": "康健国际医疗集团 (Town Health)",
-      "org_description": "蔡加赞任主席兼首席执行官的医疗服务集团，与其在星岛的职务属同一商业网络"
+      "org_description": "蔡加赞任主席兼首席执行官的医疗服务集团，与其在星岛的职务属同一商业网络",
+      "relationship_type": "affiliated",
+      "org_id": null
     }
   ],
   "core_business": "《星岛日报》是由华侨富商胡文虎于1938年在香港创办的中文报章，创立时同时出版《星岛晚报》及《星岛晨报》，与新加坡、马来西亚的《星洲日报》原属姊妹报，现时已分属不同集团。星岛日报以港闻、内地新闻、财经地产及社区议题为主要内容，读者面广泛，在香港报业市场长期占据主要地位。该报在美国、加拿大、英国及澳洲等华人聚居地区设有分部并发行海外版，配合电子报及加拿大都市网等数码平台，是全球发行网络最广的华文报章之一。香港日占时期曾改称《香岛日报》，1945年日本投降后恢复原名。星岛日报现隶属星岛新闻集团（港交所1105，1996年注册），2021年郭英成入主成为主要股东，2022年5月蔡加赞入股并与郭英成共同出任联席主席，主要股东为郭晓亭及蔡加赞（各持约14.2%）。集团现由首席执行官兼总编辑黎廷瑶执掌日常经营与编辑，2025年度收入约7.11亿港元，新媒体业务转亏为盈，聚焦智媒化与湾区化发展。",
@@ -204,7 +217,5 @@
       }
     ],
     "notes": "P3 re-enrichment: co-chairmen structure (Kwok/Choi), 2025 annual results with new media turnaround, overseas digital platforms added"
-  },
-  "description": "香港中文报章",
-  "brief": "1938年胡文虎创办的香港中文报章，隶属星岛新闻集团，全球发行网络广泛的华文媒体"
+  }
 }

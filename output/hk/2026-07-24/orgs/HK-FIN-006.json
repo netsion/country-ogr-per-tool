@@ -44,7 +44,7 @@
   "key_people": [
     {
       "person_id": "HK-PERSON-000309",
-      "name": "郑维新 (Cheng Wai-chee, Raymond)",
+      "name": "鄭維新 (Edward Cheng Wai-sun)",
       "title": "独立非执行主席",
       "title_description": "负责董事会领导及公司治理",
       "description": "2025年5月8日起出任恒生银行独立非执行主席，接替退任的利蕴莲（Irene Lee），为汇丰集团资深管理层成员，主持了私有化方案审议期间及2025年中期业绩发布等重大事项。"
@@ -58,7 +58,7 @@
     },
     {
       "person_id": "HK-PERSON-000026",
-      "name": "李慧敏 (Margaret Leung)",
+      "name": "李慧敏 (Rose Lee Wai-mun)",
       "title": "前副董事长",
       "title_description": "曾任恒生银行副董事长",
       "description": "曾任恒生银行副董事长，为恒生历史上重要的华资银行家之一，长期参与香港银行业发展。"
@@ -94,53 +94,68 @@
       "date": "2025-10-09",
       "title": "汇丰宣布以千亿港元私有化恒生银行",
       "description": "汇丰控股、汇丰亚太及恒生银行联合公告，拟以每股155港元现金对价（较前收盘价溢价约30%、总金额约1061亿港元）通过协议安排私有化恒生银行，交易完成后恒生将撤销上市地位。",
-      "impact": "结束恒生53年上市历史及汇丰60年控股不控管的特殊关系，市场关注财富管理业务协同效应。"
+      "impact": "结束恒生53年上市历史及汇丰60年控股不控管的特殊关系，市场关注财富管理业务协同效应。",
+      "source": "https://www.hsbc.com/investors/hsbc-proposal-to-privatise-hang-seng-bank-hk"
     },
     {
       "date": "2026-01-08",
       "title": "私有化方案获股东高票通过",
       "description": "恒生银行法院会议及股东特别大会上，私有化方案以压倒性票数获独立股东批准，计划于2026年1月26日生效。",
-      "impact": "私有化程序完成关键一步，恒生银行转为汇丰全资附属公司。"
+      "impact": "私有化程序完成关键一步，恒生银行转为汇丰全资附属公司。",
+      "source": "http://www.news.cn/gangao/20260108/0b3e357e7fbf412589bc18ec352fe731/c.html"
     },
     {
       "date": "2026-01-27",
       "title": "恒生银行撤销联交所上市地位",
       "description": "私有化计划生效后，恒生银行股份（原股份代号0011）于香港联交所的上市地位正式撤销。汇丰集团行政总裁表示恒生将维持独立运作，保留自身管治架构、品牌、分行网络及客户定位。",
-      "impact": "香港四大银行之一转为全资附属，恒生指数公司等附属业务照常运营。"
+      "impact": "香港四大银行之一转为全资附属，恒生指数公司等附属业务照常运营。",
+      "source": "https://www.hsbc.com/investors/hsbc-proposal-to-privatise-hang-seng-bank-hk"
     },
     {
       "date": "2025-07-30",
       "title": "2025年中期溢利下跌30%",
       "description": "2025年上半年股东应得溢利68.8亿港元，同比减少30.46%，净利息收入143.39亿港元因HIBOR走低及贷款减少而下降；财富管理及证券经纪收入显著增长，并宣布最多30亿港元股份回购计划。",
-      "impact": "收入结构转型：减息环境下净息差承压，非利息收入成为增长动力。"
+      "impact": "收入结构转型：减息环境下净息差承压，非利息收入成为增长动力。",
+      "source": "https://www.hangseng.com/cms/ccd/chi/PDF/300725c.pdf"
     },
     {
       "date": "2025-10-20",
       "title": "林慧虹接任行政总裁",
       "description": "汇丰香港区行政总裁林慧虹于2025年10月20日出任恒生银行执行董事兼行政总裁，原任施颖茵调回汇丰任香港区副主席；其固定年薪850万港元。",
-      "impact": "管理层顺利完成交接，新任CEO主导私有化后的业务整合与财富管理转型。"
+      "impact": "管理层顺利完成交接，新任CEO主导私有化后的业务整合与财富管理转型。",
+      "source": "https://news.now.com/home/finance/player?newsId=622556"
     }
   ],
   "related_entities": [
     {
       "org_name": "香港上海汇丰银行 (The Hongkong and Shanghai Banking Corporation)",
-      "org_description": "恒生银行的母公司，原持有约62.14%股权，2026年1月完成私有化后持恒生银行100%权益，恒生维持独立品牌与运作"
+      "org_description": "恒生银行的母公司，原持有约62.14%股权，2026年1月完成私有化后持恒生银行100%权益，恒生维持独立品牌与运作",
+      "relationship_type": "controlling_shareholder",
+      "org_id": null
     },
     {
       "org_name": "汇丰控股 (HSBC Holdings)",
-      "org_description": "通过旗下汇丰亚太于2026年1月以每股155港元、总额约1061亿港元完成私有化恒生银行"
+      "org_description": "通过旗下汇丰亚太于2026年1月以每股155港元、总额约1061亿港元完成私有化恒生银行",
+      "org_id": "HK-FIN-005",
+      "relationship_type": "controlling_shareholder"
     },
     {
       "org_name": "恒生指数有限公司 (Hang Seng Indexes Company)",
-      "org_description": "恒生银行全资附属公司，负责编制恒生指数及其他港股市场参考指数，私有化后照常运营"
+      "org_description": "恒生银行全资附属公司，负责编制恒生指数及其他港股市场参考指数，私有化后照常运营",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港恒生大学 (The Hang Seng University of Hong Kong)",
-      "org_description": "恒生银行于1980年创办的教育机构发展而成的私立大学，行政总裁林慧虹出任校董会主席"
+      "org_description": "恒生银行于1980年创办的教育机构发展而成的私立大学，行政总裁林慧虹出任校董会主席",
+      "org_id": "HK-ACAD-005",
+      "relationship_type": "affiliated"
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "恒生银行原于香港联交所主板上市（股份代号0011），2026年1月27日私有化后撤销上市地位"
+      "org_description": "恒生银行原于香港联交所主板上市（股份代号0011），2026年1月27日私有化后撤销上市地位",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     }
   ],
   "core_business": "恒生银行于1933年由林炳炎、何善衡、梁植伟、盛春霖及何添在香港创立，是香港主要商业银行之一，以存款计长期排名香港第三，仅次于汇丰银行与中国银行（香港）。1965年后成为汇丰集团成员；2025年10月汇丰宣布以每股155港元、总额约1061亿港元将其私有化，2026年1月方案生效并撤销上市，恒生现为汇丰全资附属公司，但保留独立品牌、管治架构、分行网络及客户定位。银行提供个人银行、商业银行、财富管理、保险及证券经纪等综合金融服务，以香港及中国内地（含粤港澳大湾区）为重点市场，在内地设有恒生银行（中国）法人子公司。其全资附属恒生指数有限公司负责编制恒生指数，是香港股市最重要的参考指数。近年银行积极拓展财富管理及非利息收入业务，成为汇丰亚太财富管理战略的重要支柱。",
@@ -181,7 +196,5 @@
       }
     ],
     "notes": "P3增量丰富：补入汇丰1061亿港元私有化（2026年1月生效退市）、林慧虹新职务（恒生中国董事长、恒生大学校董会主席）等2025-2026年事实，全简体中文。"
-  },
-  "description": "汇丰集团全资附属银行及香港四大银行之一，2026年1月私有化退市",
-  "brief": "汇丰集团全资附属银行及香港四大银行之一，2026年1月私有化退市"
+  }
 }

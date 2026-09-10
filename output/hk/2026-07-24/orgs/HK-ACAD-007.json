@@ -90,7 +90,7 @@
     },
     {
       "person_id": "HK-PERSON-000119",
-      "name": "齐光 (Sunny Chai)",
+      "name": "查毅超 (Sunny Chai)",
       "name_en": "Sunny N.C. Chai",
       "title": "校董会副主席",
       "title_description": "协助主席处理校董会事务，参与大学战略规划审议",
@@ -142,51 +142,67 @@
       "title": "香港首间中医医院分阶段投入服务，浸大为承办机构",
       "date": "2025-12-11",
       "description": "位于将军澳百胜角的香港中医医院于2025年12月11日正式分阶段投入服务，率先开展门诊、日间住院及临床支援服务，预计2026年12月展开24小时住院服务。香港浸会大学获香港特别行政区政府委任为服务契约承办机构，并成立「浸大中医医院有限公司」负责管理营运。",
-      "impact": "确立浸大在香港中医药发展中的旗舰地位，开创香港中医住院医疗服务的新篇章"
+      "impact": "确立浸大在香港中医药发展中的旗舰地位，开创香港中医住院医疗服务的新篇章",
+      "source": "https://www.info.gov.hk/gia/general/202510/15/P2025101500294.htm"
     },
     {
       "title": "校长卫炳江获续任18个月",
       "date": "2025-08-08",
       "description": "浸大校董会宣布校长卫炳江原任期2026年1月底届满后续任18个月至2027年7月31日，卸任后只出任光子学讲座教授至2031年，校方将适时全球公开招聘新校长。",
-      "impact": "为八大近年最短校长续任安排，触发后续全球校长遴选程序"
+      "impact": "为八大近年最短校长续任安排，触发后续全球校长遴选程序",
+      "source": "https://www.wenweipo.com/a/202508/08/AP6895c8e2e4b03652800eebe5.html"
     },
     {
       "title": "争取申办香港第三间医学院",
       "date": "2025-06-01",
       "description": "浸大在卫炳江带领下参与争取申办香港第三间医学院，提出融合中医药与西医训练的课程方案。",
-      "impact": "若获批将大幅提升浸大在医学教育领域的地位"
+      "impact": "若获批将大幅提升浸大在医学教育领域的地位",
+      "source": "https://www.hkbu.edu.hk/zh_hk/whats-new/press-release/2025/0317-hkbu-announces-the-submission-of-new-medical-school-proposal-and-expresses-gratitude-for-the-unwavering-support-from-the-preparatory-and-expert-advisory-committees.html"
     },
     {
       "title": "文学及社会科学院成立与赛马会创意校园启用",
       "date": "2024-07-01",
       "description": "浸大推动跨学科课程改革，原文学院与社会科学院于2024年7月1日正式合并为文学及社会科学院；同年赛马会创意校园正式启用，为跨学科合作与创意探索提供新空间。",
-      "impact": "重塑大学学部架构，强化创意艺术与跨学科教育布局"
+      "impact": "重塑大学学部架构，强化创意艺术与跨学科教育布局",
+      "source": "https://www.hkbu.edu.hk/zh_cn/about/annual-report/2024-2025/highlights-of-the-year.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "大学教育资助委员会 (UGC)",
-      "org_description": "香港特区政府资助八所公立大学的法定机构，浸大为其资助院校之一"
+      "org_description": "香港特区政府资助八所公立大学的法定机构，浸大为其资助院校之一",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "香港特区政府教育局 (EDB)",
-      "org_description": "负责香港教育政策的政府部门，监管高等院校体系"
+      "org_description": "负责香港教育政策的政府部门，监管高等院校体系",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "香港中医医院 (Chinese Medicine Hospital of Hong Kong)",
-      "org_description": "香港首间中医医院，位于将军澳百胜角，2025年12月11日起分阶段投入服务，由浸大担任服务契约承办机构"
+      "org_description": "香港首间中医医院，位于将军澳百胜角，2025年12月11日起分阶段投入服务，由浸大担任服务契约承办机构",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "浸大中医医院有限公司 (HKBU Chinese Medicine Hospital Company Limited)",
-      "org_description": "浸大于2021年11月23日成立的担保有限公司，作为营运机构负责管理、营运及保养香港中医医院"
+      "org_description": "浸大于2021年11月23日成立的担保有限公司，作为营运机构负责管理、营运及保养香港中医医院",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港医务卫生局 (Health Bureau)",
-      "org_description": "香港特区政府统筹医疗卫生政策的决策局，主管中医医院计划并委任浸大为承办机构"
+      "org_description": "香港特区政府统筹医疗卫生政策的决策局，主管中医医院计划并委任浸大为承办机构",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "香港赛马会 (Hong Kong Jockey Club)",
-      "org_description": "香港大型慈善机构，捐助浸大建设赛马会创意校园，支持大学创意艺术教育发展"
+      "org_description": "香港大型慈善机构，捐助浸大建设赛马会创意校园，支持大学创意艺术教育发展",
+      "relationship_type": "partner",
+      "org_id": null
     }
   ],
   "core_business": "香港浸会大学（简称浸大）是香港一所公立研究型博雅大学，为香港教资会资助的八所公立大学之一，其前身为1956年创办的香港浸会书院。大学以「全人教育」为办学理念，现设有文学及社会科学院、工商管理学院、中医药学院、传理学院、创意艺术学院、理学院及持续教育学院，提供学士至博士层次课程。浸大尤以传理学与中医药学著称，其中医药学院是香港首家提供中医药高等教育的学院，研究成果获国际学界广泛认可；浸大获香港特别行政区政府委任为香港首间中医医院的服务契约承办机构，该院已于2025年12月起分阶段投入服务。大学近年积极推动跨学科课程改革、创意艺术教育与科技创新，并参与争取申办香港第三间医学院。浸大与亚太及内地多所高校建立合作关系，招收大量国际学生，是区域内具有影响力的高等教育机构。",
@@ -231,7 +247,5 @@
       }
     ],
     "notes": "P3二次丰富：按官网更新七学院架构（含2024年文学院与社会科学院合并）、补香港中医医院承办事件与关联实体、增补digital_assets与新任副校长（person_id留空待分配）"
-  },
-  "description": "香港法定公立大学，以传理学与中医药学著称，承办香港首间中医医院",
-  "brief": "香港教资会资助的公立研究型大学，以传理与中医药学科见长，承办香港首间中医医院"
+  }
 }

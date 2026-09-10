@@ -22,14 +22,14 @@
       "start_date": null,
       "end_date": null,
       "institution": "香港树仁学院（今香港树仁大学）",
-      "degree": "diploma",
+      "degree": null,
       "field": "社会工作"
     },
     {
       "start_date": null,
       "end_date": "1980",
       "institution": "香港浸会学院 (Hong Kong Baptist College，今香港浸会大学)",
-      "degree": "diploma",
+      "degree": null,
       "field": "社会工作"
     },
     {
@@ -43,7 +43,7 @@
       "start_date": null,
       "end_date": "1990",
       "institution": "加州大学伯克利分校 (University of California, Berkeley)",
-      "degree": "doctor",
+      "degree": null,
       "field": "哲学博士（社工方向）"
     }
   ],
@@ -73,14 +73,14 @@
       "start_date": "2004-10-01",
       "end_date": "2008-09-30",
       "organization": "香港特别行政区立法会 (Legislative Council of the HKSAR)",
-      "org_id": "HK-GOV-027",
+      "org_id": null,
       "position": "立法会议员（社会福利界功能界别）"
     },
     {
       "start_date": "2006",
       "end_date": "2010",
       "organization": "公民党 (Civic Party)",
-      "org_id": null,
+      "org_id": "HK-PARTY-002",
       "position": "副主席（2006-2008），2010年11月退党"
     },
     {
@@ -101,7 +101,7 @@
       "start_date": "2012-10-01",
       "end_date": "2020-12-01",
       "organization": "香港特别行政区立法会 (Legislative Council of the HKSAR)",
-      "org_id": "HK-GOV-027",
+      "org_id": null,
       "position": "立法会议员（新界东地方选区，2012年、2016年两度当选；2020年12月1日辞去议席）"
     },
     {
@@ -120,7 +120,7 @@
       "description": "工党创党同僚，2011年12月共同创立工党并分别出任副主席"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000215",
       "person_name": "李卓人 (Lee Cheuk-yan)",
       "relationship_type": "colleague",
       "description": "2010年退出公民党后与李卓人等共同筹组工党"
@@ -182,7 +182,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -204,6 +204,6 @@
         "url": "https://www.legco.gov.hk/general/cn/cmi/yr12-16/cch.htm"
       }
     ],
-    "notes": "按内容安全约束仅记录基础事实（出生、教育、履历、议会任期）；涉司法内容仅一句客观交代时间与结果；离港后相关背景未做深挖。屋仑华人服务社任职及城大任教起止年份公开资料不详，日期留null。"
+    "notes": "按内容安全约束仅记录基础事实（出生、教育、履历、议会任期）；涉司法内容仅一句客观交代时间与结果；离港后相关背景未做深挖。屋仑华人服务社任职及城大任教起止年份公开资料不详，日期留null。；2026-09-07 主会话字段规范化：edu.degree->None。"
   }
 }

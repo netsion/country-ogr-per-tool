@@ -15,22 +15,8 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "集团财务总裁 (Group Chief Financial Officer)",
-      "organization": "国泰航空 (Cathay Pacific Airways)",
-      "org_id": "HK-CORP-008",
-      "start_date": "2021-01-25",
-      "end_date": "2026-09-30",
-      "source": "cathaypacific.com"
-    },
-    {
-      "title": "常务董事 (Executive Director)",
-      "organization": "国泰航空 (Cathay Pacific Airways)",
-      "org_id": "HK-CORP-008",
-      "start_date": "2021-01-25",
-      "end_date": "2026-09-30",
-      "source": "cathaypacific.com"
-    }
+    "国泰航空集团财务总裁",
+    "国泰航空董事局常务董事"
   ],
   "education": [],
   "work_experience": [
@@ -39,41 +25,36 @@
       "org_id": "HK-CORP-008",
       "start_date": "2021-01-25",
       "end_date": "2026-09-30",
-      "description": "负责集团财务汇报、企业融资、税务、内部审计及采购活动，同时出任董事局常务董事。太古集团公告委任，2021年1月25日接替 Martin Murray。已公告将辞任，自2026年10月1日生效，由马嘉俊 (Gavin March) 接任。",
-      "position": "集团财务总裁 (Group Chief Financial Officer)"
+      "position": "集团财务总裁（兼董事局常务董事），负责集团财务汇报、企业融资、税务、内部审计及采购；已公告辞任，2026年10月1日起由马嘉俊 (Gavin March) 接任"
     },
     {
       "organization": "香港飞机工程有限公司 (Hong Kong Aircraft Engineering Company, HAECO)",
       "org_id": null,
       "start_date": "2017-10-01",
       "end_date": "2021-01-24",
-      "description": "2017年10月至2021年1月出任香港飞机工程有限公司（太古集团旗下）董事兼集团财务总监。",
-      "position": "董事兼集团财务总监 (Director and Group Director Finance)"
+      "position": "董事兼集团财务总监"
     },
     {
       "organization": "中国航海有限公司 (The China Navigation Company Pte. Limited)",
       "org_id": null,
       "start_date": null,
       "end_date": "2017-09-30",
-      "description": "出任香港飞机工程财务总监前，曾任太古集团全资子公司中国航海有限公司（总部新加坡）财务总监。",
-      "position": "财务总监 (Finance Director)"
+      "position": "财务总监"
     },
     {
-      "organization": "太古集团 (Swire Group)",
-      "org_id": null,
-      "start_date": "2008-01-01",
-      "end_date": null,
-      "description": "2008年加入太古集团，先后在香港、中国内地及新加坡的集团旗下公司工作。",
-      "position": "太古集团管理培训生及管理职务"
+      "organization": "太古集团 (Swire Pacific)",
+      "org_id": "HK-CORP-021",
+      "start_date": "2008",
+      "end_date": "2017-09-30",
+      "position": "管理培训生及集团旗下公司管理职务（先后在香港、中国内地及新加坡工作）"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": "HK-PERSON-001229",
-      "relation_type": "colleague",
-      "description": "同为国泰航空董事局常务董事（管理层同事）",
-      "source": "cathaypacific.com",
-      "person_name": "麦皓云 (Alex McGowan)"
+      "person_id": "HK-PERSON-001229",
+      "person_name": "麦皓云 (Alex McGowan)",
+      "relationship_type": "colleague",
+      "description": "同为国泰航空董事局常务董事（管理层同事）（来源：cathaypacific.com）"
     }
   ],
   "social_accounts": [],
@@ -107,11 +88,11 @@
     ]
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
-        "title": "Cathay Pacific Executive Team (管理层官方页面)",
+        "title": "Cathay Pacific Executive Team (管理层官方页面，2026-09复核确认在职)",
         "url": "https://www.cathaypacific.com/cx/en_US/about-us/about-our-airline/management-team.html"
       },
       {
@@ -131,10 +112,9 @@
       "cathaypacific.com",
       "swirepacific.com",
       "reuters.com",
-      "hk.finance.yahoo.com",
-      "linkedin.com"
+      "hk.finance.yahoo.com"
     ],
     "completeness_score": 43,
-    "notes": "职务与履历以国泰官网（中英文管理层页）为准，与太古集团公告、港交所公告报道交叉核实。2026年10月1日卸任信息来自国泰港交所公告及路透社报道（双源）。出生日期、国籍、教育背景未见可靠公开来源，按铁律留空。"
+    "notes": "2026-09-07复核：经国泰官网管理层页核实仍任集团财务总裁、董事局常务董事（官网页面含2026年5月后人事变动信息，确认时效）；已公告2026年10月1日卸任，由马嘉俊 (Gavin March) 接任（港交所公告+路透社双源）。规范化：current_positions由对象数组改为纯中文字符串；work_experience删除非规范字段description（要点并入position）；太古集团 entry 起止日期规范（2008年至2017年9月）。教育背景未见可靠公开来源（官网未披露），education保持为空；出生日期未公开；无经查证的官方社交账号。"
   }
 }

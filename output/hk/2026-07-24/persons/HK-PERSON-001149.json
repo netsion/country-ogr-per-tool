@@ -36,7 +36,8 @@
   ],
   "current_positions": [
     "小米集团创始人、董事长兼首席执行官",
-    "金山软件董事长"
+    "金山软件董事长",
+    "第十四届全国人民代表大会代表"
   ],
   "education": [
     {
@@ -53,7 +54,7 @@
       "end_date": "2007",
       "organization": "金山软件 (Kingsoft)",
       "org_id": null,
-      "position": "总经理、首席执行官（2007年上市后辞职）"
+      "position": "总经理、首席执行官（2007年上市后辞任CEO，转任副董事长）"
     },
     {
       "start_date": "2007",
@@ -68,6 +69,13 @@
       "organization": "小米集团 (Xiaomi)",
       "org_id": "HK-CORP-024",
       "position": "创始人、董事长兼首席执行官"
+    },
+    {
+      "start_date": "2011-07",
+      "end_date": null,
+      "organization": "金山软件 (Kingsoft)",
+      "org_id": null,
+      "position": "董事长"
     },
     {
       "start_date": "2021",
@@ -87,10 +95,10 @@
   ],
   "social_accounts": [
     {
-      "platform": "other",
-      "account_name": "微博 @雷军",
+      "platform": "weibo",
+      "account_name": "雷军",
       "url": "https://weibo.com/leijun",
-      "source": "https://weibo.com/leijun"
+      "source": "https://weibo.com/leijun（雷军本人微博认证账号）"
     }
   ],
   "family_members": [],
@@ -107,28 +115,33 @@
       "achievement": "宣布进军智能电动汽车行业，小米SU7于2024年发布并热销"
     },
     {
+      "date": "2023-03",
+      "organization": "全国人民代表大会",
+      "achievement": "当选第十四届全国人大代表（2013年当选第十二届起连任至今）"
+    },
+    {
       "date": "2024",
       "organization": "武汉大学",
       "achievement": "向武汉大学捐赠13亿元人民币，创中国高校单笔个人现金捐赠纪录"
     }
   ],
-  "biography_summary": "雷军，1969年12月16日生于湖北仙桃，小米集团创始人、董事长兼首席执行官，金山软件董事长。武汉大学计算机系毕业，1992年加入金山软件，历任总经理及首席执行官，带领金山于2007年在香港上市。其后创立顺为资本从事风险投资，2010年创办小米，以互联网模式做手机，将小米发展为全球主要智能手机及IoT厂商，2018年在香港上市。2021年宣布进军智能电动汽车业务，2024年推出小米SU7。雷军亦是著名天使投资人及慈善捐赠人。",
+  "biography_summary": "雷军，1969年12月16日生于湖北仙桃，小米集团创始人、董事长兼首席执行官，金山软件董事长，第十四届全国人大代表。武汉大学计算机系毕业，1992年参与创办金山软件，历任总经理及首席执行官，带领金山于2007年在香港上市，2011年7月重任金山软件董事长。其后创立顺为资本从事风险投资，2010年4月创办小米，以互联网模式做手机，将小米发展为全球主要智能手机及IoT厂商，2018年在香港上市，成为港交所首只同股不同权股票。2021年宣布进军智能电动汽车业务，2024年推出小米SU7。雷军亦是著名天使投资人及慈善捐赠人，2024年向武汉大学捐赠13亿元人民币。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/%E9%9B%B7%E5%86%9B_Lei_Jun_20240425_1.jpg/250px-%E9%9B%B7%E5%86%9B_Lei_Jun_20240425_1.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "official_website"
     ],
-    "completeness_score": 58,
+    "completeness_score": 64,
     "quotes": [
       {
-        "title": "雷軍 - 維基百科",
+        "title": "雷军 - 维基百科",
         "url": "https://zh.wikipedia.org/wiki/%E9%9B%B7%E5%86%9B"
       },
       {
@@ -140,6 +153,6 @@
         "url": "https://baike.baidu.com/item/%E9%9B%B7%E5%86%9B/1968"
       }
     ],
-    "notes": "修正原lite错误QID Q29584，经zh-wiki条目匹配Q90007172026-08-27补：新增小米香港主要营业地点（据港交所披露2025年1月公告）及小米香港官网客服联系方式。"
+    "notes": "QID Q9000717。2026-09-07核补：social_accounts平台字段由other规范为weibo枚举值、account_name规范为「雷军」；据中文维基补金山软件董事长独立条目（2011年7月重任至今）、第十四届全国人大代表（2023年3月当选，2013年十二届起连任）并加入current_positions；金山软件不在组织名称索引内，org_id留null；小米汽车隶属小米集团，沿用HK-CORP-024。无党派人士；未发现经证实的境外社交账号（微博为其主要公开发声渠道）。"
   }
 }

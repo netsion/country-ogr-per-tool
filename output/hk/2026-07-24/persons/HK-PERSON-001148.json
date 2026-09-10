@@ -12,7 +12,7 @@
   "nationality": "CN",
   "gender": "male",
   "birth_date": "1971-10-29",
-  "birth_place": "广东省汕头市（海南岛出生）",
+  "birth_place": "海南省东方市（出生时属广东省海南行政区东方县，籍贯广东省汕头市）",
   "contacts": [
     {
       "type": "other",
@@ -34,6 +34,13 @@
     "腾讯控股有限公司董事会主席兼首席执行官"
   ],
   "education": [
+    {
+      "start_date": null,
+      "end_date": "1989",
+      "institution": "深圳中学 (Shenzhen Middle School)",
+      "degree": "high_school",
+      "field": null
+    },
     {
       "start_date": "1989",
       "end_date": "1993",
@@ -77,7 +84,7 @@
     {
       "person_id": null,
       "name": "马陈术",
-      "relationship": "other",
+      "relationship": "father",
       "industry_or_organization": "曾任深圳盐田港上市公司副主席"
     }
   ],
@@ -89,29 +96,29 @@
       "achievement": "创办腾讯，推出QQ及微信，带领公司发展为全球领先的互联网及科技企业，2004年在香港上市"
     },
     {
-      "date": "",
-      "organization": "慈善",
-      "achievement": "与妻子创立腾讯慈善基金会并多次捐赠，支持教育、医疗及科学探索"
+      "date": "2007",
+      "organization": "腾讯公益慈善基金会 (Tencent Charity Foundation)",
+      "achievement": "推动创立中国互联网企业首家的公益基金会并多次捐赠，支持教育、医疗及科学探索"
     }
   ],
-  "biography_summary": "马化腾（Pony Ma Huateng），1971年10月29日生于海南岛，籍贯广东汕头，腾讯控股有限公司创办人、董事会主席兼首席执行官。1989年至1993年就读于深圳大学计算机专业，毕业后在润讯通信任软件工程师及开发部主管，1998年与张志东、曾李青、许晨晔及陈一丹共同创办腾讯，先后推出QQ、微信等产品，将腾讯发展为涵盖社交、网络游戏、数字内容、金融科技及云服务的全球领先互联网企业，2004年6月在香港交易所上市（0700.HK），长期位列亚洲市值最高的科技公司之列。他曾出任港区全国人大代表，近年逐步将管理分工授权予总裁刘炽平等管理层；公益方面与妻子王丹婷参与创立腾讯慈善基金会（为中国互联网企业最早成立的公益基金会之一），并多次以个人名义捐赠，支持基础科学、教育及医疗事业，2021年宣布投入500亿元设立「可持续社会价值创新」项目，助力碳中和、乡村振兴及科学探索。",
+  "biography_summary": "马化腾（Pony Ma Huateng），1971年10月29日生于海南岛（今海南省东方市），籍贯广东汕头，腾讯控股有限公司创办人、董事会主席兼首席执行官。先后就读于深圳中学及深圳大学计算机专业，1993年毕业后在润讯通信任软件工程师及开发部主管，1998年与张志东、曾李青、许晨晔及陈一丹共同创办腾讯，先后推出QQ、微信等产品，将腾讯发展为涵盖社交、网络游戏、数字内容、金融科技及云服务的全球领先互联网企业，2004年6月在香港交易所上市（0700.HK），长期位列亚洲市值最高的科技公司之列。他曾出任港区全国人大代表，近年逐步将管理分工授权予总裁刘炽平等管理层；公益方面参与创立腾讯公益慈善基金会（为中国互联网企业最早成立的公益基金会之一），并多次以个人名义捐赠，支持基础科学、教育及医疗事业，2021年宣布投入500亿元设立「可持续社会价值创新」项目，助力碳中和、乡村振兴及科学探索。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Pony_Ma_2011.jpg/250px-Pony_Ma_2011.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "official_website"
     ],
-    "completeness_score": 49,
+    "completeness_score": 52,
     "quotes": [
       {
-        "title": "馬化騰 - 維基百科",
-        "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%8C%96%E9%A8%B0"
+        "title": "马化腾 - 维基百科",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%8C%96%E8%85%BE"
       },
       {
         "title": "騰訊官網",
@@ -122,6 +129,6 @@
         "url": "https://baike.baidu.com/item/%E9%A9%AC%E5%8C%96%E8%85%BE/124988"
       }
     ],
-    "notes": "修正原lite错误QID Q168845（星团天文学条目）及错误name「星團」，经zh-wiki条目匹配Q1739008；补腾讯官方联系方式；bio扩写（联合创始人名单、上市编号、港区人大代表、500亿可持续社会价值创新项目）；无个人官方社媒账号，social保持为空"
+    "notes": "本次补缺：birth_place原「广东省汕头市（海南岛出生）」混淆籍贯与出生地，按zh-wiki修正为海南省东方市（出生时属广东海南行政区东方县，籍贯汕头）；education补深圳中学（zh-wiki母校栏+Wikidata P69，至1989年）；family马陈术relationship由other规范化为father（其父）；major_achievements公益条目补基金会组织名及2007年创立年份。腾讯org_id HK-CORP-022经_name_index.json核实有效。现任职务（腾讯董事会主席兼CEO）经zh-wiki及腾讯官网管理页确认；曾任港区全国人大代表（第13届止）维持「曾任」表述。无个人官方社媒账号（腾讯仅有企业账号），social保持为空；未见适合收录的可核实政策立场表述，political_stances保持为空"
   }
 }

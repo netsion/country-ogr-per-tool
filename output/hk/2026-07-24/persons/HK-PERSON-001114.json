@@ -9,9 +9,20 @@
   ],
   "nationality": "HK",
   "gender": "male",
-  "birth_date": "1963-01-01",
+  "birth_date": null,
   "birth_place": "四川省威远县",
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.bauhinia.party",
+      "source": "紫荆党官网"
+    },
+    {
+      "type": "website",
+      "value": "https://www.hkiif.org/a-list/29487-eng?lang=cht",
+      "source": "香港国际金融学会创会理事个人页"
+    }
+  ],
   "current_positions": [
     "紫荆党主席（创党主席）",
     "丝路金融公司董事长兼首席执行官",
@@ -26,21 +37,21 @@
       "start_date": "1981",
       "end_date": "1986",
       "institution": "清华大学经济管理学院 (Tsinghua University)",
-      "degree": null,
+      "degree": "bachelor",
       "field": "经济管理"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "加州大学戴维斯分校 (UC Davis)",
-      "degree": null,
+      "degree": "master",
       "field": "经济学"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "麻省理工学院 (MIT)",
-      "degree": null,
+      "degree": "doctorate",
       "field": "经济学"
     }
   ],
@@ -56,14 +67,14 @@
       "start_date": null,
       "end_date": null,
       "organization": "国家开发银行",
-      "org_id": "",
+      "org_id": null,
       "position": "投资银行筹备领导小组副组长"
     },
     {
       "start_date": null,
       "end_date": null,
       "organization": "中银国际控股有限公司 (BOC International)",
-      "org_id": "",
+      "org_id": null,
       "position": "总裁"
     },
     {
@@ -77,7 +88,7 @@
       "start_date": "2025-09",
       "end_date": null,
       "organization": "花旗集团 (Citi)",
-      "org_id": "",
+      "org_id": null,
       "position": "日本、北亚及澳大利亚地区主席"
     },
     {
@@ -107,12 +118,12 @@
     },
     {
       "date": "",
-      "organization": "金融界",
+      "organization": "丝路金融 (Silk Road Finance)",
       "achievement": "创办丝路金融及涛石股权投资管理，推动一带一路相关投融资业务；拥有逾25年全球金融机构和大型中资银行领导经验"
     },
     {
       "date": "2025-09",
-      "organization": "花旗集团",
+      "organization": "花旗集团 (Citi)",
       "achievement": "获花旗集团任命为日本、北亚及澳大利亚地区主席"
     }
   ],
@@ -122,7 +133,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -130,7 +141,7 @@
       "news_search",
       "web_search"
     ],
-    "completeness_score": 60,
+    "completeness_score": 62,
     "quotes": [
       {
         "title": "李山 (香港) - 維基百科",
@@ -143,8 +154,12 @@
       {
         "title": "李山博士 - 創會理事 - 香港國際金融學會",
         "url": "https://www.hkiif.org/a-list/29487-eng?lang=cht"
+      },
+      {
+        "title": "Wikidata: 李山 (Q106676038)（P19威远县；P69清华/UC Davis/MIT；无P569出生日期）",
+        "url": "https://www.wikidata.org/wiki/Q106676038"
       }
     ],
-    "notes": "重要更正：教育背景为清华学士＋UC Davis硕士＋MIT博士（原档案误记清华及MIT双博士）；敏感政党创始人，仅作事实记录，政治立场仅涉经济治理；无公开个人头像直链"
+    "notes": "重要更正：教育背景为清华学士＋UC Davis硕士＋MIT博士（原档案误记清华及MIT双博士）。 2026-09-07深核：(1) birth_date删除虚构精度的1963-01-01（仅出生年1963经zh-wiki/百度百科核实，Wikidata无P569，schema要求YYYY-MM-DD完整日期故留空）；(2) 据已核实教育路径补齐degree枚举（bachelor/master/doctorate）；(3) 补contacts（紫荆党官网、香港国际金融学会个人页）；(4) Wikidata确认P19威远县，与birth_place一致。敏感政党创始人，仅作事实记录，政治立场仅涉经济治理；无公开个人头像直链，profile留空；无公开个人社交账号，social维持空。中银国际（BOC International）与索引中的中银香港（HK-FIN-003）为不同实体，org_id维持null。"
   }
 }

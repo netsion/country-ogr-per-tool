@@ -11,39 +11,72 @@
   "gender": "male",
   "birth_date": "1950-10-25",
   "birth_place": "香港",
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://zh.wikipedia.org/wiki/%E9%83%AD%E7%82%B3%E6%B9%98",
+      "source": "维基百科"
+    }
+  ],
   "current_positions": [],
   "education": [
     {
       "start_date": null,
+      "end_date": "1968",
+      "institution": "伊尔斯米尔学院 (Ellesmere College, UK)",
+      "degree": "high_school",
+      "field": null
+    },
+    {
+      "start_date": null,
       "end_date": "1972",
       "institution": "伦敦帝国学院 (Imperial College London)",
-      "degree": "bachelor",
+      "degree": "master",
       "field": "土木工程"
     }
   ],
   "work_experience": [
     {
+      "start_date": "1990-11",
+      "end_date": null,
+      "organization": "九龙巴士 (Kowloon Motor Bus)",
+      "org_id": null,
+      "position": "董事（1990年11月起出任九巴及龙运巴士董事，1997年9月起兼任九龙巴士控股董事）"
+    },
+    {
       "start_date": "1990",
       "end_date": "2008",
       "organization": "新鸿基地产 (Sun Hung Kai Properties)",
       "org_id": "HK-CORP-020",
-      "position": "主席兼行政总裁"
+      "position": "董事局主席兼行政总裁"
     },
     {
       "start_date": "2008",
+      "end_date": "2014",
+      "organization": "新鸿基地产 (Sun Hung Kai Properties)",
+      "org_id": "HK-CORP-020",
+      "position": "非执行董事（2008年2月休假卸任主席后改任，2014年1月辞任，专注个人事业）"
+    },
+    {
+      "start_date": null,
       "end_date": "2018",
       "organization": "帝国集团 (Empire Group)",
       "org_id": null,
-      "position": "创办人"
+      "position": "创办人兼前董事会主席"
     }
   ],
   "person_relationships": [
     {
       "person_id": "HK-PERSON-000511",
       "person_name": "郭炳联 (Raymond Kwok)",
-      "relationship_type": "other",
+      "relationship_type": "sibling",
       "description": "三弟，新鸿基地产主席兼董事总经理"
+    },
+    {
+      "person_id": "HK-PERSON-001255",
+      "person_name": "郭炳江 (Thomas Kwok)",
+      "relationship_type": "sibling",
+      "description": "二弟，新鸿基地产前联席主席"
     }
   ],
   "social_accounts": [],
@@ -51,49 +84,100 @@
     {
       "person_id": null,
       "name": "郭得胜",
-      "relationship": "other",
+      "relationship": "father",
       "industry_or_organization": "新鸿基地产创办人"
+    },
+    {
+      "person_id": null,
+      "name": "邝肖卿",
+      "relationship": "mother",
+      "industry_or_organization": "新鸿基地产主要股东"
+    },
+    {
+      "person_id": "HK-PERSON-001255",
+      "name": "郭炳江",
+      "relationship": "brother",
+      "industry_or_organization": "新鸿基地产前联席主席"
     },
     {
       "person_id": "HK-PERSON-000511",
       "name": "郭炳联",
-      "relationship": "other",
-      "industry_or_organization": "新鸿基地产"
+      "relationship": "brother",
+      "industry_or_organization": "新鸿基地产主席兼董事总经理"
     },
     {
       "person_id": null,
-      "name": "郭炳江",
-      "relationship": "other",
-      "industry_or_organization": "新鸿基地产前联席主席"
+      "name": "顾芝蓉",
+      "relationship": "spouse",
+      "industry_or_organization": "汇丰银行（1982-1983年首段婚姻）"
+    },
+    {
+      "person_id": null,
+      "name": "李天颖",
+      "relationship": "spouse",
+      "industry_or_organization": "医学界家庭出身（1983年结婚）"
+    },
+    {
+      "person_id": null,
+      "name": "郭基俊",
+      "relationship": "son",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "郭基浩",
+      "relationship": "son",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "郭蕙珊",
+      "relationship": "daughter",
+      "industry_or_organization": null
     }
   ],
   "political_stances": [],
   "major_achievements": [
     {
       "date": "1990",
-      "organization": "新鸿基地产 (SHKP)",
-      "achievement": "接任新鸿基地产主席，带领公司发展为香港最大地产商之一"
+      "organization": "新鸿基地产 (Sun Hung Kai Properties)",
+      "achievement": "接任新鸿基地产董事局主席兼行政总裁，带领公司发展为香港最大地产商之一"
     },
     {
-      "date": "",
+      "date": null,
       "organization": "香港特区政府",
-      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
+      "achievement": "获委任为太平绅士（JP）"
+    },
+    {
+      "date": "2004",
+      "organization": "法国政府 (Government of France)",
+      "achievement": "获颁法国艺术与文学勋章（骑士勋位）"
+    },
+    {
+      "date": "2008",
+      "organization": "法国政府 (Government of France)",
+      "achievement": "获颁法国荣誉军团勋章（骑士勋位）"
+    },
+    {
+      "date": null,
+      "organization": "中华全国工商业联合会 (All-China Federation of Industry and Commerce)",
+      "achievement": "曾任全国政协委员及中华全国工商业联合会副主席，并获选为北京市及广州市荣誉市民"
     }
   ],
-  "biography_summary": "郭炳湘（Walter Kwok，1950-2018），新鸿基地产创办人郭得胜长子，1990年至2008年出任新鸿基地产主席兼行政总裁，任内带领公司发展为香港最大地产发展商之一。2008年离任后创办帝国集团，继续从事地产发展业务。2018年10月20日于香港病逝，享年68岁。郭炳湘曾获颁金紫荆星章并获委任为太平绅士。",
+  "biography_summary": "郭炳湘（Walter Kwok Ping-sheung，1950-2018），已故香港企业家，帝国集团创办人兼前董事会主席，新鸿基地产创办人郭得胜长子，郭炳江、郭炳联的兄长，籍贯广东中山石岐。他早年就读慈幼学校及慈幼英文学校，1968年毕业于英国伊尔斯米尔学院，1972年获伦敦大学帝国理工学院土木工程硕士学位，为英国土木工程师学会会员及香港工程师学会资深会员。1990年起出任新鸿基地产董事局主席兼行政总裁，任内带领公司发展为香港最大地产发展商之一；1997年9月曾被「大富豪」张子强犯罪集团绑架，获赎回后身心受创并患上抑郁症。2008年2月以个人理由休假并卸任主席兼行政总裁，其后转任非执行董事，2014年1月辞任并与两名弟弟均分新地股权，此后筹组帝国集团发展地产及投资业务。社区参与方面，曾任香港公益金历届董事委员会主席、香港地产建设商会董事，并任全国政协委员及中华全国工商业联合会副主席。他获委任为太平绅士，2004年获法国艺术与文学勋章骑士勋位，2008年获法国荣誉军团勋章骑士勋位。2018年8月27日深夜因中风晕倒送院，延至10月20日在港安医院病逝，享年68岁。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "news_search"
     ],
-    "completeness_score": 41,
+    "completeness_score": 64,
     "quotes": [
       {
         "title": "郭炳湘 - 維基百科",
@@ -112,6 +196,6 @@
         "url": "http://orientaldaily.on.cc/cnt/news/20181021/00174_001.html"
       }
     ],
-    "notes": "已故人物（2018年10月20日逝世）。2026-08-27补深：原QID Q6926150在Wikidata中不存在（no-such-entity），经zh-wiki条目匹配更正为Q380602（webb-site来源）；出生日期更正为1950-10-25（原记1950-01-01为占位值）；Q380602无P18，头像留空；已故人物无社交媒体及现行联系方式。"
+    "notes": "已故人物（2018年10月20日病逝），current_positions保持为空、无任何现任表述，已复核确认。2026-09-07核查更正：①授勋更正——原档案「获颁金紫荆星章（GBS）并获委任太平绅士」查无GBS记录，据zh-wiki荣誉章节（引法国驻港澳总领事馆）实为太平绅士、2004年法国艺术与文学勋章骑士勋位、2008年法国荣誉军团勋章骑士勋位，另曾任全国政协委员及全国工商联副主席；②学历更正——帝国理工学位由bachelor更正为master（1972年土木工程硕士），补1968年伊尔斯米尔学院；③补履历：九巴及龙运巴士董事(1990-11起)、新地非执行董事(2008-2014)、2014年股权均分后筹组帝国集团（创办年份文献说法不一，start_date留空不臆断）；④家族成员补全并修正relationship枚举（父郭得胜、母邝肖卿、弟郭炳江/郭炳联、首任妻顾芝蓉、妻李天颖、子郭基俊/郭基浩、女郭蕙珊），郭炳江关联ID为HK-PERSON-001255；⑤原QID Q6926150不存在，沿用已核实的Q380602；⑥已故人物无社交媒体及现行联系方式，social_accounts保持为空。"
   }
 }

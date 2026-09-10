@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001398",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q115861679",
   "name": "何敬康",
   "name_zh": "何敬康",
   "name_en": "Adrian Pedro Ho King-hong",
@@ -13,7 +13,7 @@
   "birth_place": "香港",
   "contacts": [
     {
-      "type": "address",
+      "type": "other",
       "value": "金钟立法会综合大楼1312室（议员办事处）"
     },
     {
@@ -22,35 +22,31 @@
     }
   ],
   "current_positions": [
-    {
-      "organization": "香港特别行政区立法会",
-      "org_id": null,
-      "start_date": "2026-01-01",
-      "end_date": null,
-      "description": "2025年立法会换届选举成功连任，任期自2026年1月1日起",
-      "position": "立法会议员（选举委员会界别）(Legislative Council Member, Election Committee constituency)"
-    },
-    {
-      "organization": "新民党",
-      "org_id": "HK-PARTY-008",
-      "start_date": null,
-      "end_date": null,
-      "position": "新民党成员（中央委员）(Member / Central Committee Member, New People's Party)"
-    },
-    {
-      "organization": "中国人民政治协商会议广东省委员会",
-      "org_id": null,
-      "start_date": null,
-      "end_date": null,
-      "position": "第十三届广东省政协委员 (Member, 13th Guangdong Provincial Committee of the CPPCC)"
-    }
+    "香港特别行政区立法会议员（选举委员会界别）",
+    "新民党中央委员",
+    "中国人民政治协商会议广东省委员会委员（第十三届）"
   ],
   "education": [
     {
-      "degree": "经济学学士",
+      "institution": "喇沙小学",
+      "degree": "primary",
+      "field": null,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "Repton School (英国)",
+      "degree": "high_school",
+      "field": null,
+      "start_date": null,
+      "end_date": null
+    },
+    {
       "institution": "宾夕法尼亚大学沃顿商学院 (Wharton School, University of Pennsylvania)",
-      "year": null,
-      "field": "经济学"
+      "degree": "bachelor",
+      "field": "经济学",
+      "start_date": null,
+      "end_date": null
     }
   ],
   "work_experience": [
@@ -59,88 +55,102 @@
       "org_id": null,
       "start_date": null,
       "end_date": null,
-      "description": "曾任职能背景包括投资银行及风电发展业务",
       "position": "投资银行从业员"
     },
     {
       "organization": "香港特别行政区立法会",
-      "org_id": null,
+      "org_id": "HK-GOV-027",
       "start_date": "2022-12-19",
       "end_date": "2025-12-31",
-      "description": "2022年12月18日立法会选委会界别补选中以833票当选，12月19日宣誓就任第七届立法会议员",
       "position": "立法会议员（选举委员会界别，补选当选）"
     },
     {
       "organization": "香港特别行政区立法会",
-      "org_id": null,
+      "org_id": "HK-GOV-027",
       "start_date": "2026-01-01",
       "end_date": null,
-      "description": "2025年立法会换届选举中以1,210票成功连任",
       "position": "立法会议员（选举委员会界别，连任）"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": null,
-      "relationship": "叔父",
-      "description": "全国政协副主席、前澳门特别行政区行政长官何厚铧为其叔父",
-      "person_name": "何厚铧"
-    },
-    {
-      "related_person_id": null,
-      "relationship": "祖父",
-      "description": "澳门知名银行家",
-      "person_name": "何贤"
-    },
-    {
-      "related_person_id": null,
-      "relationship": "政党同事（新民党主席）",
-      "description": "同属新民党",
-      "person_name": "叶刘淑仪"
+      "person_id": "HK-PERSON-000614",
+      "person_name": "叶刘淑仪",
+      "relationship_type": "colleague",
+      "description": "同属新民党（新民党主席）"
     }
   ],
   "social_accounts": [
     {
       "platform": "facebook",
-      "account": "何敬康Adrian Ho (@adrianhosavehk)",
+      "account_name": "何敬康Adrian Ho (@adrianhosavehk)",
       "url": "https://www.facebook.com/adrianhosavehk/"
     }
   ],
-  "family_members": [],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "何厚荣",
+      "relationship": "father",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": "HK-PERSON-001445",
+      "name": "何贤",
+      "relationship": "grandfather",
+      "industry_or_organization": "银行业"
+    },
+    {
+      "person_id": "HK-PERSON-001444",
+      "name": "何厚铧",
+      "relationship": "uncle",
+      "industry_or_organization": "中国人民政治协商会议全国委员会"
+    },
+    {
+      "person_id": null,
+      "name": "何敬民",
+      "relationship": "cousin",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "何敬麟",
+      "relationship": "cousin",
+      "industry_or_organization": null
+    }
+  ],
   "political_stances": [
     {
+      "date": "2022-12",
       "topic": "议会工作",
-      "source": "维基百科及2025年立法会选举候选人简介",
-      "stance_content": "公开表示期望将爱国爱港的理性声音带入立法会，竞选口号为「令香港更自豪」"
+      "stance_content": "公开表示期望将爱国爱港的理性声音带入立法会，竞选口号为「令香港更自豪」",
+      "source": "维基百科及2025年立法会选举候选人简介"
     }
   ],
   "major_achievements": [
     {
-      "date": null,
+      "date": "2022-12-18",
       "achievement": "2022年12月立法会选举委员会界别补选中以833票当选为第七届立法会议员",
-      "organization": null
+      "organization": "香港特别行政区立法会"
+    },
+    {
+      "date": "2025-12-07",
+      "achievement": "2025年立法会换届选举以1,210票成功连任（第八届立法会议员）",
+      "organization": "香港特别行政区立法会"
     },
     {
       "date": null,
-      "achievement": "2025年立法会换届选举以1,210票成功连任",
-      "organization": null
-    },
-    {
-      "date": null,
-      "achievement": "创办网上群组 Save HK",
+      "achievement": "创办网上群组「Save HK 救救香港」",
       "organization": null
     }
   ],
-  "biography_summary": "何敬康（Adrian Pedro Ho King-hong），1977年生于香港，新民党成员（中央委员），香港特别行政区立法会议员（选举委员会界别）。出身澳门何氏家族，为全国政协副主席何厚铧侄儿、银行家何贤之孙。毕业于喇沙小学及英国 Repton School，获宾夕法尼亚大学沃顿商学院经济学学士学位，曾任投资银行及风电发展相关工作，并创办网上群组 Save HK。2022年12月经立法会选委会界别补选当选，2025年换届选举成功连任，另任第十三届广东省政协委员。",
+  "biography_summary": "何敬康（Adrian Pedro Ho King-hong），1977年生于香港，新民党成员（中央委员），香港特别行政区立法会议员（选举委员会界别）。出身澳门何氏家族，父亲何厚荣，祖父为澳门知名银行家何贤，叔父为全国政协副主席、前澳门特别行政区行政长官何厚铧。毕业于喇沙小学及英国 Repton School，获宾夕法尼亚大学沃顿商学院经济学学士学位，曾任投资银行及风电发展相关工作，并创办网上群组「Save HK 救救香港」。2022年12月经立法会选委会界别补选当选第七届议员，2025年12月换届选举成功连任，另任第十三届广东省政协委员。",
   "profile": {
-    "honors": [],
-    "schools_attended": [
-      "喇沙小学",
-      "Repton School (英国)"
-    ]
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Adrian_Pedro_Ho_20230712_(cropped).jpg",
+    "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "collector": "sub_agent",
     "quotes": [
@@ -155,15 +165,24 @@
       {
         "title": "认识何敬康 - 新民党官网",
         "url": "https://npp.org.hk/adrian/article/p/%E8%AA%8D%E8%AD%98%E4%BD%95%E6%95%AC%E5%BA%B7"
+      },
+      {
+        "title": "维基百科：何敬康",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BD%95%E6%95%AC%E5%BA%B7"
+      },
+      {
+        "title": "Wikidata: Q115861679",
+        "url": "https://www.wikidata.org/wiki/Q115861679"
       }
     ],
     "data_sources": [
       "legco.gov.hk",
       "elections.gov.hk",
       "npp.org.hk",
-      "zh.wikipedia.org"
+      "zh.wikipedia.org",
+      "wikidata.org"
     ],
-    "completeness_score": 59,
-    "notes": "出生日期仅知1977年，按规则补-01。国籍：持有中华人民共和国（香港）及澳门居留身份，曾持有葡萄牙国籍（据维基百科已放弃）。婚姻状况维基标注来源请求，未收录。职业细节（投资银行、风电发展）来自南华早报议题页概述，机构名称未公开，故 work_experience 仅作概括性记录。；亲属关系（叔父何厚铧、祖父何贤）因 schema family_members 枚举仅支持核心家庭成员，改记于 person_relationships。"
+    "completeness_score": 65,
+    "notes": "2026-09-07维护：经中文维基百科API查证，补 wikidata_qid（Q115861679）及照片 source_url；依维基信息框补 family_members（父亲何厚荣、祖父何贤、叔父何厚铧、堂弟何敬民、堂兄何敬麟），原 person_relationships 中亲属条目（叔父何厚铧、祖父何贤）迁移至 family_members。规范性修正：current_positions 改为纯中文字符串数组；education[].degree 改英文枚举（primary/high_school/bachelor）并删除规则外字段 year；work_experience 删除规则外字段 description，立法会条目补 org_id=HK-GOV-027；contacts.type address→other；social_accounts.account→account_name；political_stances 补 date=2022-12；major_achievements 补 date（2022-12-18 补选、2025-12-07 换届，换届日期经维基百科查证）及 organization。仍缺失：出生日期仅知1977年（按规则补-01-01）；维基标注已婚但配偶姓名未公开，故 family_members 不收录配偶；Save HK 创办具体日期查证不到，date 保持 null；投资银行及风电业务任职机构名称未公开，work_experience 仅作概括性记录；原 work_experience 描述中的当选票数等信息已保留于 major_achievements 及 biography_summary。国籍：中华人民共和国（香港），持澳门居民身份，曾持葡萄牙国籍（据维基百科已放弃）。"
   }
 }

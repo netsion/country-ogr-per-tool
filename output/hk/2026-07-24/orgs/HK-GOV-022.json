@@ -53,10 +53,25 @@
     },
     {
       "person_id": "HK-PERSON-000706",
-      "name": "李佩诗 (Angela Lee)",
+      "name": "李佩詩 (Charmaine Lee)",
       "title": "房屋局常任秘书长／房屋署署长",
       "title_description": "负责局方日常行政及房屋署的部门管理",
       "description": "房屋局常任秘书长兼房屋署署长，统领房屋署的公屋发展、屋邨管理及机构运作，支援局长落实公营房屋建屋计划。"
+    },
+    {
+      "person_id": "HK-PERSON-001462",
+      "name": "戴尚誠 (Victor Tai Sheung-shing)",
+      "name_en": "Victor Tai Sheung-shing",
+      "title": "房屋局副局长",
+      "title_description": "协助局长推展公营房屋政策及项目",
+      "description": "建筑师、雕塑家，1966年生，2022年7月获委任为房屋局副局长（JP），曾任民政事务局体育园项目总监及建筑署工程策划总监，协助局长推展简约公屋、公屋兴建量及建屋提速等工作。"
+    },
+    {
+      "person_id": "HK-PERSON-001472",
+      "name": "欧阳文倩",
+      "title": "房屋局局长政治助理",
+      "title_description": "协助局长处理政治联络及政策解说工作",
+      "description": "2022年7月获委任为房屋局局长政治助理，曾任《文汇报》记者，协助局长联系立法会、业界及社区，解说公营房屋及简约公屋等政策。"
     }
   ],
   "departments": [
@@ -82,48 +97,73 @@
       "date": "2025-03-28",
       "title": "简约公屋首批单位交付一周年",
       "description": "简约公屋自2025年3月28日交付首条钥匙起一年内，已有310个单位流转，部分居民已入住传统公屋；何永贤表示9,500个简约公屋单位于本年落成，2026年可望合共提供3万个单位。",
-      "impact": "改善不适切居所市民的居住环境，协助消化公屋轮候队伍。"
+      "impact": "改善不适切居所市民的居住环境，协助消化公屋轮候队伍。",
+      "source": "https://global.hk01.com/%E7%A4%BE%E4%BC%9A%E6%96%B0%E9%97%BB/60337326/%E7%AE%80%E7%BA%A6%E5%85%AC%E5%B1%8B-%E4%B8%80%E5%B9%B4%E5%B7%B2%E6%9C%89310%E5%8D%95%E4%BD%8D%E6%B5%81%E8%BD%AC-%E4%BD%95%E6%B0%B8%E8%B4%A4%E6%8C%87%E9%83%A8%E4%BB%BD%E5%B1%85%E6%B0%91%E5%85%A5%E4%BC%99%E4%BC%A0%E7%BB%9F%E5%85%AC%E5%B1%8B"
     },
     {
       "date": "2025-09-19",
       "title": "介绍施政报告房屋措施",
       "description": "何永贤在《行政长官2025年施政报告》相关措施记者会上介绍增建简约公屋及资助出售单位、扭转公营房屋头轻尾重等政策措施。",
-      "impact": "延续增加公营房屋供应的政策主线。"
+      "impact": "延续增加公营房屋供应的政策主线。",
+      "source": "https://www.info.gov.hk/gia/general/202509/19/P2025091900868.htm"
+    },
+    {
+      "date": "2025-09-26",
+      "title": "立法会三读通过《简朴房条例草案》",
+      "description": "立法会三读通过《简朴房条例草案》，为分间单位（劏房）设立登记制度及最低居住环境标准（简朴房制度），局长何永贤表示政府会有序落实规管制度，逐步解决劣质劏房这个深层社会问题。",
+      "impact": "劏房规管完成立法，制度进入落实准备阶段。",
+      "source": "https://www.news.gov.hk/chi/2025/09/20250926/20250926_122040_957.html"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "《简朴房条例》正式生效",
+      "description": "《简朴房条例》于2026年3月1日正式生效，分间单位出租须符合面积、独立厕所及安全等最低标准并办理登记，由房屋局与相关部门执行规管。",
+      "impact": "简朴房规管制度由立法进入执行阶段，劣质劏房将逐步被取缔。",
+      "source": "https://www.bhu.gov.hk/tc/whats-new/news/"
     },
     {
       "date": "2026-03-28",
       "title": "公屋轮候人数显著下降",
       "description": "何永贤表示公屋轮候人数已降至10.6万人，累计消化约5万个申请（惠及7万多人）；2025年公营房屋派出量比新增申请多6,000多个。",
-      "impact": "公营房屋供求关系出现结构性改善迹象。"
+      "impact": "公营房屋供求关系出现结构性改善迹象。",
+      "source": "https://www.wenweipo.com/a/202603/28/AP69c6ed6ee4b0b49ad1b43c43.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "房屋委员会 (Housing Authority)",
-      "org_description": "法定机构，负责制定公营房屋政策，房屋局为其执行机构提供支援"
+      "org_description": "法定机构，负责制定公营房屋政策，房屋局为其执行机构提供支援",
+      "org_id": "HK-GOV-017",
+      "relationship_type": "regulated_by"
     },
     {
       "org_name": "房屋协会 (Hong Kong Housing Society)",
-      "org_description": "独立非营利房屋机构，与政府合作提供资助房屋，未来五年将联合提供约5.5万个居屋单位"
+      "org_description": "独立非营利房屋机构，与政府合作提供资助房屋，未来五年将联合提供约5.5万个居屋单位",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "发展局 (Development Bureau)",
-      "org_description": "负责土地发展政策的决策局，与房屋局协作保障房屋土地供应"
+      "org_description": "负责土地发展政策的决策局，与房屋局协作保障房屋土地供应",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "北部都会区统筹办事处",
-      "org_description": "统筹北部都会区发展，为长远房屋供应提供土地基础"
+      "org_description": "统筹北部都会区发展，为长远房屋供应提供土地基础",
+      "org_id": null
     },
     {
       "org_name": "立法会房屋事务委员会",
-      "org_description": "立法会事务委员会，审议房屋政策及拨款，监督房屋局工作"
+      "org_description": "立法会事务委员会，审议房屋政策及拨款，监督房屋局工作",
+      "org_id": null
     }
   ],
   "core_business": "房屋局是香港特别行政区政府总部下辖的决策局，于2022年7月政府架构重组时从运输及房屋局分拆设立，专责房屋政策，负责制定及落实公营房屋（公屋、居屋、绿置居）与私营房屋政策、规管分间单位（简朴房制度）、推动简约公屋及过渡性房屋以填补短期供应缺口，并督导房屋署执行公屋兴建、编配及屋邨管理工作。局方政策目标包括未来十年提供30.8万个公营房屋单位、缩短公屋轮候时间、改善劏房居民居住环境及透过「幸福设计指引」提升屋邨生活质素。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "房屋局职能属本地民生政策范畴，与APEC无直接关联；其增加土地及房屋供应的工作为香港作为国际商贸都市的可持续发展提供基础支撑。",
+  "apec_stance": "房屋局职能属本地民生政策范畴，与APEC无直接关联；其增加土地及房屋供应、缩短公屋轮候时间及改善居住环境的工作，为香港作为亚太区国际商贸都市吸纳和留住人才、支撑经济与社会可持续发展提供基础支撑。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Regional_Emblem_of_Hong_Kong.svg/330px-Regional_Emblem_of_Hong_Kong.svg.png",
     "local_path": null
@@ -137,7 +177,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 72,
+    "completeness_score": 88,
     "quotes": [
       {
         "title": "房屋局 - 政策焦点 - 简约公屋（官方网站）",
@@ -158,10 +198,28 @@
       {
         "title": "大公文汇：何永贤开设社交媒体专页",
         "url": "https://www.tkww.hk/a/202207/30/AP62e4e555e4b0a4690289b346.html"
+      },
+      {
+        "title": "房屋局 - 關於我們 - 組織架構（官方网站）",
+        "url": "https://www.hb.gov.hk/tc/aboutus/organisation/index.html"
+      },
+      {
+        "title": "委任副局長及政治助理（香港政府新闻公报）",
+        "url": "https://www.info.gov.hk/gia/general/202207/22/P2022072200385.htm"
+      },
+      {
+        "title": "戴尚誠 - 维基百科",
+        "url": "https://zh.wikipedia.org/zh-cn/%E6%88%B4%E5%B0%9A%E8%AA%A0"
+      },
+      {
+        "title": "簡樸房條例草案獲通過（香港政府新闻网）",
+        "url": "https://www.news.gov.hk/chi/2025/09/20250926/20250926_122040_957.html"
+      },
+      {
+        "title": "簡樸房最新消息（《簡樸房條例》2026年3月1日生效）",
+        "url": "https://www.bhu.gov.hk/tc/whats-new/news/"
       }
     ],
-    "notes": "P3深度丰富：补全局长官方社媒专页、别名、成立日期更正为2022年分拆设立、政策专页等数字资产，纯事实记录，内容统一为简体中文。"
-  },
-  "description": "香港特别行政区政府总部决策局",
-  "brief": "香港特别行政区政府总部决策局，2022年分拆设立，专责房屋政策"
+    "notes": "P3深度丰富：补全局长官方社媒专页、别名、成立日期更正为2022年分拆设立、政策专页等数字资产，纯事实记录，内容统一为简体中文。P3二次丰富：依房屋局官网组织架构页及政府新闻公报增补副局长戴尚诚（person_id=null 待主会话分配）、局长政治助理欧阳文倩（person_id=null 待主会话分配），key_people计4人。"
+  }
 }

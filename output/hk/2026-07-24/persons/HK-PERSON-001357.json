@@ -11,73 +11,59 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "助理广播处长（电视及机构业务）",
-      "organization": "香港电台 (RTHK)",
-      "org_id": "HK-MEDIA-006",
-      "start_date": null,
-      "end_date": null,
-      "source": "中文维基百科香港电台条目；公开报道"
-    }
+    "香港电台助理广播处长（电视及机构业务）"
   ],
   "education": [
     {
-      "institution": "香港大学",
-      "institution_zh": "香港大学",
-      "degree": "音乐系",
+      "institution": "香港大学 (The University of Hong Kong)",
+      "degree": "bachelor",
       "field": "音乐",
-      "graduation_year": null,
-      "source": "灼见名家专访（2024-07-23）"
+      "start_date": null,
+      "end_date": null
     }
   ],
   "work_experience": [
     {
       "organization": "香港电台第四台（古典音乐台）",
       "org_id": "HK-MEDIA-006",
+      "position": "助理节目主任（香港大学音乐系毕业后加入港台第四台，为其第一份工作，任职超过30年；曾负责莫扎特200周年亚洲区钢琴大赛行政工作）",
       "start_date": null,
-      "end_date": null,
-      "description": "香港大学音乐系毕业后加入港台第四台，为其第一份工作，任职超过30年。曾负责莫扎特200周年亚洲区钢琴大赛行政工作。",
-      "position": "助理节目主任"
+      "end_date": null
     },
     {
       "organization": "香港电台第四台",
       "org_id": "HK-MEDIA-006",
+      "position": "第四台总监（由助理节目主任逐步晋升）",
       "start_date": null,
-      "end_date": null,
-      "description": "由助理节目主任逐步晋升至第四台总监。",
-      "position": "第四台总监"
+      "end_date": null
     },
     {
       "organization": "香港电台",
       "org_id": "HK-MEDIA-006",
+      "position": "机构发展组成员（处理版权、节目授权、赞助事宜，并管理电台图书馆及库存数码化）",
       "start_date": null,
-      "end_date": null,
-      "description": "处理版权、节目授权、赞助事宜，并管理电台图书馆及库存数码化。",
-      "position": "机构发展组成员"
+      "end_date": null
     },
     {
       "organization": "香港电台",
       "org_id": "HK-MEDIA-006",
+      "position": "电视部（外购节目）",
       "start_date": null,
-      "end_date": null,
-      "description": "调任电视部岗位，负责外购节目。",
-      "position": "电视部（外购节目）"
+      "end_date": null
     },
     {
       "organization": "香港电台",
       "org_id": "HK-MEDIA-006",
-      "start_date": "2021-01-01",
-      "end_date": null,
-      "description": "2021年回归电台部任总监，负责管理各频道节目和运作；任内推动第四台50周年节目及与内地、国际广播机构交流合作。",
-      "position": "总监（电台）"
+      "position": "总监（电台）（2021年回归电台部任总监，负责管理各频道节目和运作；任内推动第四台50周年节目及与内地、国际广播机构交流合作）",
+      "start_date": "2021",
+      "end_date": null
     },
     {
       "organization": "香港电台 (Radio Television Hong Kong)",
       "org_id": "HK-MEDIA-006",
+      "position": "助理广播处长（电视及机构业务）（现任职务，属首长级D2薪级管理岗位）",
       "start_date": null,
-      "end_date": null,
-      "description": "现任职务，属首长级（D2薪级）管理岗位。",
-      "position": "助理广播处长（电视及机构业务）"
+      "end_date": null
     }
   ],
   "person_relationships": [],
@@ -106,12 +92,12 @@
       "organization": "香港电台 (RTHK)"
     }
   ],
-  "biography_summary": "邝思燕 (Kwong Sze-yin)，香港电台助理广播处长（电视及机构业务），女性管理人员。毕业于香港大学音乐系，大学毕业后即加入香港电台，服务超过30年，先后任职第四台（古典音乐台）、机构发展组、电视部，2021年起任总监（电台），其后晋升助理广播处长。",
+  "biography_summary": "邝思燕 (Kwong Sze-yin)，香港电台助理广播处长（电视及机构业务），女性管理人员。毕业于香港大学音乐系，大学毕业后即加入香港电台，服务超过30年，先后任职第四台（古典音乐台）助理节目主任至第四台总监、机构发展组、电视部，2021年起任总监（电台），其后晋升助理广播处长（电视及机构业务），属首长级D2薪级管理岗位。",
   "profile": {
     "notes": "出生日期、姓名英文拼写等个人资料无官方公开来源。职业生涯履历主要来自灼见名家2024年专访（其时任总监（电台）），现任助理广播处长职务获维基百科及公开报道确认。"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -126,8 +112,10 @@
     "data_sources": [
       "灼见名家 master-insight.com",
       "中文维基百科香港电台条目",
-      "YouTube 灼见文化专访"
+      "YouTube 灼见文化专访",
+      "Wikidata API"
     ],
-    "completeness_score": 47
+    "completeness_score": 47,
+    "notes": "2026-09-07复核：①current_positions由对象数组改为纯字符串；②education删除schema外字段institution_zh/graduation_year/source，degree由「音乐系」更正为英文枚举bachelor（港大音乐系毕业，学位级别为合理推断），institution补英文；③work_experience删除schema外字段description（内容并入position）；④2026-09-07经多渠道查证（中文维基香港电台条目、Wikidata、RTHK官网管理层页为JS动态页面无法直读、DDG/Bing/Mojeek搜索引擎均被屏蔽、政府电话簿为JS应用），未能进一步核证name_en「Kwong Sze-yin」拼写及出生日期等资料，维持现状；zh wiki香港电台条目2021年时段的助理广播处长（电视及机构业务）为区丽雅，鄺思燕应为其后继任者。经查证无公开个人社交账号，保持缺失。"
   }
 }

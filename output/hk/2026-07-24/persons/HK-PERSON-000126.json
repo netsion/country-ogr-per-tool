@@ -8,9 +8,9 @@
     "Harry Shum Heung-yeung",
     "沈向洋博士"
   ],
-  "nationality": "HK",
+  "nationality": "CN",
   "gender": "male",
-  "birth_date": "1966-10-01",
+  "birth_date": null,
   "birth_place": "中国江苏省溧水县（今南京市溧水区）",
   "contacts": [
     {
@@ -112,11 +112,11 @@
       "position": "校董会主席（2026年3月获续任第二个三年任期）"
     },
     {
-      "start_date": "2026-03",
-      "end_date": null,
+      "start_date": "2026-03-13",
+      "end_date": "2028-03-12",
       "organization": "香港人工智能研发院 (Hong Kong Centre for AI R&D)",
       "org_id": null,
-      "position": "董事局主席"
+      "position": "董事局主席（任期两年，2026年3月13日至2028年3月12日）"
     }
   ],
   "person_relationships": [],
@@ -124,10 +124,10 @@
   "family_members": [],
   "political_stances": [
     {
-      "date": "",
+      "date": null,
       "topic": "人工智能与数字经济",
       "stance_content": "创办IDEA研究院推动粤港澳大湾区数字经济发展，出任香港人工智能研发院董事局主席，支持香港发展成为国际创新科技中心",
-      "source": "https://zh.wikipedia.org/zh-hk/%E6%B2%88%E5%90%91%E6%B4%8B"
+      "source": "https://www.info.gov.hk/gia/general/202603/12/P2026031200374.htm"
     }
   ],
   "major_achievements": [
@@ -152,27 +152,32 @@
       "achievement": "当选国际院士"
     },
     {
-      "date": "",
-      "organization": "",
+      "date": null,
+      "organization": "微软 (Microsoft)",
       "achievement": "领导微软人工智能整体战略与研发，主导开发Bing搜索及人工智能小冰；发表学术论文200多篇，拥有50多项美国专利"
     }
   ],
   "biography_summary": "沈向洋，1966年10月出生于江苏溧水，计算机科学家，香港科技大学校董会主席、粤港澳大湾区数字经济研究院（IDEA研究院）创院理事长。他1980年13岁考入南京工学院（今东南大学），后获香港大学电机电子工程硕士学位，1996年获卡内基梅隆大学计算机科学博士学位，其博士论文是最早研究将照片转换为虚拟现实的工作之一。1996年他加入微软研究院，1998年参与创建微软中国研究院（后为微软亚洲研究院）并于2004年任院长，2013年至2019年出任微软全球执行副总裁，主管人工智能与研究事业群，领导开发Bing搜索及人工智能小冰。2020年起他任清华大学高等研究院双聘教授、小冰公司董事长，同年11月创办IDEA研究院并任创院理事长，2023年3月获委任为香港科技大学校董会主席，2026年3月获续任并出任香港人工智能研发院董事局主席。他是IEEE会士、ACM会士、美国国家工程院外籍院士及英国皇家工程科学院国际院士，获颁铜紫荆星章。",
   "profile": {
-    "source_url": "",
+    "source_url": null,
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "official_website",
+      "gov_news",
       "news_search"
     ],
-    "completeness_score": 65,
+    "completeness_score": 64,
     "quotes": [
+      {
+        "title": "政府新闻公报：政府宣布委任香港人工智能研发院董事局成员（沈向洋出任主席，2026-03-12）",
+        "url": "https://www.info.gov.hk/gia/general/202603/12/P2026031200374.htm"
+      },
       {
         "title": "维基百科：沈向洋",
         "url": "https://zh.wikipedia.org/zh-hk/%E6%B2%88%E5%90%91%E6%B4%8B"
@@ -186,6 +191,6 @@
         "url": "https://hkust.edu.hk/zh-hant/about/leadership"
       }
     ],
-    "notes": "Wikidata Q16905622已回填，无P18照片，头像留空。荣誉：NAE外籍院士、ACM/IEEE会士、英国皇家工程科学院国际院士、BBS。2026-08-27补深：补入科大方联系方式；无经核实的个人社交媒体账号。"
+    "notes": "2026-09-07复核：香港人工智能研发院董事局主席职务经政府新闻公报（2026-03-12）确认，任期为2026-03-13至2028-03-12两年，work_experience条目已补精确起讫日期；科大校董会主席2026年3月获续任，仍为现任。规范化：political_stances[0].date及major_achievements[4].date由空字符串改为null，major_achievements[4].organization按可推断补为微软；profile.source_url空字符串改为null。无经核实的个人社交媒体账号，social保持空。2026-09-10修正：nationality由HK改为CN（Wikidata P27=中华人民共和国；中文维基百科国籍为中华人民共和国（香港），本人出生于江苏溧水，为中国公民）；birth_date由1966-10-01置为null，因公开来源（Wikidata月精度、中文维基百科「1966年10月」）仅确认出生年月，无出生日期，原日期属虚构精度。现任五项职务（科大校董会主席、IDEA创院理事长、清华双聘教授、小冰公司董事长、香港人工智能研发院董事局主席）经中文维基百科与政府新闻公报交叉确认，均为现任。留意勿与演员Harry Shum Jr.混淆，未发现其本人经核实的社交媒体账号。"
   }
 }

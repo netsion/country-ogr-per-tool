@@ -20,7 +20,7 @@
       "start_date": null,
       "end_date": null,
       "institution": "诗巫中正中学、卫理中学、圣心英文中学 (Chung Cheng Middle School, Methodist School, Sacred Heart English School, Sibu)",
-      "degree": "secondary",
+      "degree": "high_school",
       "field": "中学课程，半工读完成"
     },
     {
@@ -56,7 +56,7 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001192",
       "person_name": "于品海 (Poon Chio-hoi)",
       "relationship_type": "associate",
       "description": "于品海1993年接掌明报企业控制权后，将控制权转售予张晓卿"
@@ -65,19 +65,22 @@
   "social_accounts": [],
   "family_members": [
     {
+      "person_id": null,
       "name": "吴宇珠 (Ngu Yii Chuo)",
       "relationship": "spouse",
-      "notes": "配偶"
+      "industry_or_organization": null
     },
     {
+      "person_id": null,
       "name": "张道赏",
       "relationship": "father",
-      "notes": "父亲"
+      "industry_or_organization": null
     },
     {
+      "person_id": null,
       "name": "黄凤娇",
       "relationship": "mother",
-      "notes": "母亲"
+      "industry_or_organization": null
     }
   ],
   "political_stances": [],
@@ -111,7 +114,7 @@
     "death_cause": "心脏衰竭"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -138,6 +141,6 @@
       "https://www.forbes.com/sites/iansayson/2025/11/12/malaysias-media-lumber-tycoon-tiong-hiew-king-dies-at-91/"
     ],
     "completeness_score": 57,
-    "notes": "张晓卿已于2025年11月11日逝世，故current_positions为空，职务记录于work_experience并标注截止日期。世华媒体官网作为集团官方来源列于quotes首位。子女总数（2子4女）因未查到全部真实全名，未列入family_members，仅记录有全名/常见报道名的成员。纯事实记录，不涉旗下媒体编辑立场。"
+    "notes": "2026-09-07复核：人物已于2025年11月11日逝世，死亡事实及日期已经联合早报与Forbes两独立来源交叉确认，无需更新现任职务（current_positions按已故处理保持为空）。本次为字段规范化：education中学历degree由非枚举值secondary改为high_school；family_members删除规范外notes字段并补person_id/industry_or_organization规范字段（值为null）。常青集团、星洲媒体集团未收录于_name_index.json，org_id保持null。子女（2子4女）因未查到全部真实全名，不列入family_members。未查到官方社交媒体账号及公开联系方式，social_accounts/contacts保持为空。"
   }
 }

@@ -17,13 +17,18 @@
       "type": "website",
       "value": "https://www.ceo.gov.hk",
       "source": "https://www.ceo.gov.hk"
+    },
+    {
+      "type": "website",
+      "value": "https://www.ceo.gov.hk/en/biography.html",
+      "source": "https://www.ceo.gov.hk/en/biography.html"
     }
   ],
   "current_positions": [
     "香港特别行政区行政长官",
     "香港特别行政区维护国家安全委员会主席",
-    "香港都会大学校监",
-    "香港特别行政区行政会议主席"
+    "香港特别行政区行政会议主席",
+    "香港都会大学校监"
   ],
   "education": [
     {
@@ -36,23 +41,16 @@
     {
       "start_date": null,
       "end_date": null,
-      "institution": "查尔斯特大学 (Charles Sturt University)",
-      "degree": "master",
-      "field": "公共行政"
-    },
-    {
-      "start_date": null,
-      "end_date": null,
       "institution": "香港警察学院 (Hong Kong Police College)",
-      "degree": "high_school",
-      "field": "警务"
+      "degree": null,
+      "field": "警务训练"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "查尔斯特大学 (Charles Sturt University)",
       "degree": "master",
-      "field": "政策与管理"
+      "field": "公共政策与管理（透过警队与查尔斯特大学合作计划取得）"
     }
   ],
   "work_experience": [
@@ -61,7 +59,7 @@
       "end_date": "2012",
       "organization": "香港警务处 (Hong Kong Police Force)",
       "org_id": "HK-GOV-018",
-      "position": "见习督察至警务处副处长（管理）"
+      "position": "见习督察，累迁至警务处副处长（管理），曾主管刑事情报科、有组织罪案及三合会调查科"
     },
     {
       "start_date": "2012-10-01",
@@ -82,7 +80,7 @@
       "end_date": "2022-04-07",
       "organization": "政务司司长办公室 (Office of the Chief Secretary for Administration)",
       "org_id": "HK-GOV-004",
-      "position": "政务司司长"
+      "position": "政务司司长（兼任候选人资格审查委员会首任主席）"
     },
     {
       "start_date": "2022-07-01",
@@ -96,65 +94,24 @@
       "end_date": null,
       "organization": "香港都会大学 (Hong Kong Metropolitan University)",
       "org_id": "HK-ACAD-008",
-      "position": "校监"
-    },
-    {
-      "start_date": "1977",
-      "end_date": "2012",
-      "organization": "香港警务处 (Hong Kong Police Force)",
-      "org_id": "HK-GOV-018",
-      "position": "见习督察，累迁至副处长（管理）"
-    },
-    {
-      "start_date": "2012",
-      "end_date": "2017",
-      "organization": "保安局 (Security Bureau)",
-      "org_id": "HK-GOV-034",
-      "position": "副局长"
-    },
-    {
-      "start_date": "2017",
-      "end_date": "2021",
-      "organization": "保安局 (Security Bureau)",
-      "org_id": "HK-GOV-034",
-      "position": "局长"
-    },
-    {
-      "start_date": "2021-06",
-      "end_date": "2022",
-      "organization": "政务司司长办公室 (Office of the Chief Secretary for Administration)",
-      "org_id": "HK-GOV-004",
-      "position": "政务司司长"
-    },
-    {
-      "start_date": "2022-07-01",
-      "end_date": null,
-      "organization": "香港特别行政区政府 (Government of Hong Kong SAR)",
-      "org_id": "HK-GOV-013",
-      "position": "行政长官"
+      "position": "校监（行政长官当然兼任）"
     }
   ],
   "person_relationships": [
     {
-      "person_id": null,
-      "person_name": "陈国基 (Eric Chan)",
-      "relationship_type": "subordinate",
-      "description": "陈国基在其行政长官任内出任政务司司长"
-    },
-    {
-      "person_id": null,
-      "person_name": "邓炳强 (Chris Tang)",
-      "relationship_type": "subordinate",
-      "description": "邓炳强在其任内先后出任保安局局长及政务司司长"
-    },
-    {
-      "person_id": null,
+      "person_id": "HK-PERSON-000602",
       "person_name": "陈国基 (Eric Chan)",
       "relationship_type": "subordinate",
       "description": "政务司司长，其内阁主要成员"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000719",
+      "person_name": "邓炳强 (Chris Tang)",
+      "relationship_type": "subordinate",
+      "description": "在其任内先后出任保安局局长及政务司司长"
+    },
+    {
+      "person_id": "HK-PERSON-001440",
       "person_name": "林郑月娥 (Carrie Lam)",
       "relationship_type": "colleague",
       "description": "前任行政长官，李家超曾在其政府内任保安局局长"
@@ -165,12 +122,6 @@
       "platform": "facebook",
       "account_name": "John Lee",
       "url": "https://www.facebook.com/JohnLeeKaiChiu",
-      "source": "https://zh.wikipedia.org/wiki/李家超"
-    },
-    {
-      "platform": "other",
-      "account_name": "李家超（微博）",
-      "url": "https://weibo.com/u/7721965186",
       "source": "https://zh.wikipedia.org/wiki/李家超"
     },
     {
@@ -186,7 +137,13 @@
       "source": "https://www.ceo.gov.hk"
     },
     {
-      "platform": "other",
+      "platform": "weibo",
+      "account_name": "李家超（微博）",
+      "url": "https://weibo.com/u/7721965186",
+      "source": "https://zh.wikipedia.org/wiki/李家超"
+    },
+    {
+      "platform": "weibo",
       "account_name": "微博 @李家超",
       "url": "https://weibo.com/7767790303",
       "source": "https://weibo.com/7767790303"
@@ -202,41 +159,17 @@
     {
       "person_id": null,
       "name": "李文龙",
-      "relationship": "other",
+      "relationship": "son",
       "industry_or_organization": "金融业，曾任恒生银行策略及企业发展总监"
     },
     {
       "person_id": null,
       "name": "李文骏",
-      "relationship": "other",
+      "relationship": "son",
       "industry_or_organization": "银行资讯科技业"
     }
   ],
   "political_stances": [
-    {
-      "date": "2024-01-25",
-      "topic": "盛事经济",
-      "stance_content": "提出年度特区政府投入开展\"盛事经济\"，带动多产业经济发展，2024年全年举办超过200项盛事活动。",
-      "source": "https://zh.wikipedia.org/wiki/李家超"
-    },
-    {
-      "date": "2024",
-      "topic": "资本投资者入境计划",
-      "stance_content": "《施政报告》提出调整\"新资本投资者入境计划\"，容许投资5000万元或以上的住宅物业，料为香港带来逾150亿元投资额。",
-      "source": "https://zh.wikipedia.org/wiki/李家超"
-    },
-    {
-      "date": "2023",
-      "topic": "住房民生",
-      "stance_content": "提出以立法方式制订住宅楼宇分间单位出租制度，将合标单位命名为\"简朴房\"，最低标准不少于8平方米且须有窗及独立厕所。",
-      "source": "https://zh.wikipedia.org/wiki/李家超"
-    },
-    {
-      "date": "2025-06",
-      "topic": "贸易政策",
-      "stance_content": "表示香港的成功基因是其开放性、零关税和自由港地位，将继续奉行相关政策，无惧地缘不稳定因素。",
-      "source": "https://zh.wikipedia.org/wiki/李家超"
-    },
     {
       "date": "2022-10",
       "topic": "土地房屋供应",
@@ -248,13 +181,37 @@
       "topic": "经济发展",
       "stance_content": "施政报告提出抢企业、抢人才策略，包括设立引进重点企业办公室及高才通计划，促进香港经济发展",
       "source": "https://www.policyaddress.gov.hk"
+    },
+    {
+      "date": "2024-01-25",
+      "topic": "盛事经济",
+      "stance_content": "提出年度特区政府投入开展「盛事经济」，带动多产业经济发展，2024年全年举办超过200项盛事活动。",
+      "source": "https://zh.wikipedia.org/wiki/李家超"
+    },
+    {
+      "date": "2024",
+      "topic": "资本投资者入境计划",
+      "stance_content": "《施政报告》提出调整「新资本投资者入境计划」，容许投资5000万元或以上的住宅物业，料为香港带来逾150亿元投资额。",
+      "source": "https://zh.wikipedia.org/wiki/李家超"
+    },
+    {
+      "date": "2023",
+      "topic": "住房民生",
+      "stance_content": "提出以立法方式制订住宅楼宇分间单位出租制度，将合标单位命名为「简朴房」，最低标准不少于8平方米且须有窗及独立厕所。",
+      "source": "https://zh.wikipedia.org/wiki/李家超"
+    },
+    {
+      "date": "2025-06",
+      "topic": "贸易政策",
+      "stance_content": "表示香港的成功基因是其开放性、零关税和自由港地位，将继续奉行相关政策，无惧地缘不稳定因素。",
+      "source": "https://zh.wikipedia.org/wiki/李家超"
     }
   ],
   "major_achievements": [
     {
       "date": "2022-05-08",
       "organization": "香港特别行政区 (Hong Kong SAR)",
-      "achievement": "在行政长官选举中获得1,416张支持票（得票率99.44%），当选第6任香港特别行政区行政长官"
+      "achievement": "在行政长官选举中获得1,416张支持票（约99.2%得票率），当选第6任香港特别行政区行政长官，同年7月1日就任"
     },
     {
       "date": "2021-06",
@@ -272,30 +229,25 @@
       "achievement": "率香港与内地企业访问卡塔尔及科威特，促成59份合作备忘协议"
     },
     {
-      "date": "2022-05-08",
-      "organization": "香港特别行政区",
-      "achievement": "在行政长官选举中以99.2%得票率当选第六任行政长官，2022年7月1日就任"
-    },
-    {
-      "date": "",
+      "date": "2010",
       "organization": "香港警务处 (Hong Kong Police Force)",
       "achievement": "服务警队35年，官至警务处副处长（管理）"
     }
   ],
-  "biography_summary": "李家超，1957年12月7日出生于香港，籍贯广东番禺，现任香港特别行政区行政长官兼维护国家安全委员会主席。他1977年加入皇家香港警察任见习督察，服务警队35年，曾主管刑事情报科、有组织罪案及三合会调查科等部门，2010年晋升警务处副处长（管理），任内通过警队与查尔斯特大学的合作计划取得公共行政硕士学位。2012年获聘为保安局副局长，2017年晋升保安局局长，是主权移交后首位警察出身的保安局局长。2021年6月出任政务司司长，成为首位纪律部队出身的司长，同年兼任候选人资格审查委员会首任主席。2022年5月在行政长官选举中以超过99%得票率当选，7月1日就任第6任行政长官。任内推动盛事经济、调整新资本投资者入境计划、制订\"简朴房\"分间单位出租制度，并率团访问中东与东盟多国，发挥香港\"超级联系人\"角色。其妻为林丽婵，育有两子。",
+  "biography_summary": "李家超，1957年12月7日出生于香港，籍贯广东番禺，现任香港特别行政区行政长官兼维护国家安全委员会主席。他1977年加入皇家香港警察任见习督察，服务警队35年，曾主管刑事情报科、有组织罪案及三合会调查科等部门，2010年晋升警务处副处长（管理），任内通过警队与查尔斯特大学的合作计划取得公共政策与管理硕士学位。2012年获聘为保安局副局长，2017年晋升保安局局长，是主权移交后首位警察出身的保安局局长。2021年6月出任政务司司长，成为首位纪律部队出身的司长，同年兼任候选人资格审查委员会首任主席。2022年5月在行政长官选举中以约99%得票率当选，7月1日就任第6任行政长官。任内推动盛事经济、调整新资本投资者入境计划、制订「简朴房」分间单位出租制度，并率团访问中东与东盟多国，发挥香港「超级联系人」角色。其妻为林丽婵，育有两子。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/John_Lee_20250907.jpg/250px-John_Lee_20250907.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-20",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
       "official_website"
     ],
-    "completeness_score": 99,
+    "completeness_score": 95,
     "quotes": [
       {
         "title": "中文维基百科：李家超",
@@ -308,12 +260,8 @@
       {
         "title": "行政长官官方简历 - gov.hk",
         "url": "https://www.ceo.gov.hk/en/biography.html"
-      },
-      {
-        "title": "李家超 - 維基百科",
-        "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AE%B6%E8%B6%85"
       }
     ],
-    "notes": "Wikidata Q9051824；头像取自Commons 250px。 | Merged duplicate HK-PERSON-000601"
+    "notes": "2026-09-07快速核查（score 99，仅轻量规范化）：确认现任行政长官至2027年任期；清理合并产生的work_experience重复条目（保留精确日期版本）；education去重（查尔斯特大学两条并为一条「公共政策与管理」硕士，警察学院degree由high_school改为null）；两个微博条目platform由other规范为weibo（微博ID未能登录核验，两条均保留存疑）；family_members两子relationship由other规范为son；政治立场日期排序并规范化中文引号；person_relationships去重（陈国基重复条目合并）。"
   }
 }

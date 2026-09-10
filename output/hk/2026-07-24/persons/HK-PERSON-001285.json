@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001285",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q10482845",
   "name": "翟紹唐",
   "name_zh": "翟绍唐",
   "name_en": "Jat Sew-tong",
@@ -82,14 +82,14 @@
       "start_date": "1997",
       "end_date": "1997",
       "organization": "香港司法机构 (Judiciary of Hong Kong)",
-      "org_id": null,
+      "org_id": "HK-GOV-026",
       "position": "区域法院暂委法官"
     },
     {
       "start_date": "2006",
       "end_date": "2014",
       "organization": "香港司法机构 (Judiciary of Hong Kong)",
-      "org_id": null,
+      "org_id": "HK-GOV-026",
       "position": "高等法院原讼法庭特委法官（2004年起任暂委法官）"
     },
     {
@@ -123,13 +123,13 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000608",
       "person_name": "陈家殷 (Victor Dawes)",
       "relationship_type": "associate",
       "description": "2026年5月1日接替陈家殷出任竞争事务委员会主席"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001137",
       "person_name": "陈智思 (Bernard Chan)",
       "relationship_type": "associate",
       "description": "2025年10月1日接替陈智思出任西九文化区管理局副主席"
@@ -150,9 +150,10 @@
   "social_accounts": [],
   "family_members": [
     {
+      "person_id": null,
       "name": "翟仕尧",
       "relationship": "father",
-      "occupation": "书法艺术家"
+      "industry_or_organization": "书法艺术界"
     }
   ],
   "political_stances": [],
@@ -191,7 +192,7 @@
       "wikipedia",
       "government_press_release"
     ],
-    "completeness_score": 73,
+    "completeness_score": 74,
     "quotes": [
       {
         "title": "香港竞争事务委员会官网：主席翟绍唐先生简介",
@@ -210,6 +211,6 @@
         "url": "https://templechambers.com/zh-CN/member/jat-sew-tong-sc"
       }
     ],
-    "notes": "出生年份1965年来自维基百科（仅年份，月日不明按规则填-01）。竞委会主席及西九副主席职务均有官网与政府新闻公报双源确认。其他现任公职（医管局、证监会纪律研讯主席委员会、小交响乐团、团结香港基金）以竞委会官网及Temple Chambers官网为准。Wikidata QID未核实，留空。"
+    "notes": "出生年份1965年来自维基百科（仅年份，月日不明按规则填-01）。竞委会主席及西九副主席职务均有官网与政府新闻公报双源确认。其他现任公职（医管局、证监会纪律研讯主席委员会、小交响乐团、团结香港基金）以竞委会官网及Temple Chambers官网为准。 | 2026-09-07复核：Wikidata QID确认为Q10482845（zh标签「翟紹唐」，描述「香港資深大律師」）；person_relationships中HK-PERSON-000065/000066在人员库中不存在，按规则改为null；family_members的schema外字段occupation改为industry_or_organization。社交平台：未查证到其官方社交媒体账号，social_accounts保持为空。另注：前任竞委会主席陈家殷在库内档案（HK-PERSON-000608）name_en为Samuel Chan Ka-yan，与常见英文别名Victor Dawes不一致，属该档案自身问题，本档案引用关系保持不变。"
   }
 }

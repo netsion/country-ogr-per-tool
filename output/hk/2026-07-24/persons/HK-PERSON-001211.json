@@ -15,70 +15,52 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    {
-      "title": "副校长（行政）兼校董会秘书",
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
-      "start_date": "2024-09-01",
-      "end_date": null,
-      "notes": "2024年1月18日校董会通过委任，任期三年，自2024年9月1日生效",
-      "position": "副校长（行政）兼校董会秘书"
-    }
+    "香港教育大学副校长（行政）兼校董会秘书"
   ],
   "education": [],
   "work_experience": [
     {
-      "title": "就业策划及发展中心主任",
-      "organization": "香港中文大学 (The Chinese University of Hong Kong)",
-      "org_id": null,
       "start_date": "2000-01-01",
       "end_date": "2008-01-01",
-      "notes": "任职八年",
+      "organization": "香港中文大学 (The Chinese University of Hong Kong)",
+      "org_id": "HK-ACAD-001",
       "position": "就业策划及发展中心主任"
     },
     {
-      "title": "学生事务处处长",
-      "organization": "香港教育学院（香港教育大学前身） (The Hong Kong Institute of Education)",
-      "org_id": "HK-ACAD-003",
       "start_date": "2008-01-01",
       "end_date": "2014-01-01",
-      "notes": "任职六年，为学生提供全方位学习经历",
+      "organization": "香港教育学院（香港教育大学前身） (The Hong Kong Institute of Education)",
+      "org_id": "HK-ACAD-003",
       "position": "学生事务处处长"
     },
     {
-      "title": "协理副校长",
-      "organization": "恒生管理学院（2018年正名为香港恒生大学） (Hang Seng Management College / The Hang Seng University of Hong Kong)",
-      "org_id": null,
       "start_date": "2014-01-01",
       "end_date": "2016-01-01",
-      "notes": null,
+      "organization": "恒生管理学院（2018年正名为香港恒生大学） (Hang Seng Management College / The Hang Seng University of Hong Kong)",
+      "org_id": "HK-ACAD-005",
       "position": "协理副校长"
     },
     {
-      "title": "副校长（机构发展）兼校董会及校务委员会秘书",
-      "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)",
-      "org_id": null,
       "start_date": "2016-01-01",
       "end_date": "2024-08-31",
-      "notes": "负责行政架构、机构发展，支援校董会及校务委员会事务",
+      "organization": "香港恒生大学 (The Hang Seng University of Hong Kong)",
+      "org_id": "HK-ACAD-005",
       "position": "副校长（机构发展）兼校董会及校务委员会秘书"
     },
     {
-      "title": "副校长（行政）兼校董会秘书",
-      "organization": "香港教育大学 (The Education University of Hong Kong)",
-      "org_id": "HK-ACAD-003",
       "start_date": "2024-09-01",
       "end_date": null,
-      "notes": "负责管理大学行政工作，涵盖人力资源、财务、校园发展、物业管理、资讯科技服务及自资持续与专业教育",
+      "organization": "香港教育大学 (The Education University of Hong Kong)",
+      "org_id": "HK-ACAD-003",
       "position": "副校长（行政）兼校董会秘书"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": null,
-      "relationship": "上级",
-      "notes": "教大校长李子建教授欢迎其出任副校长（行政）",
-      "person_name": "李子建"
+      "person_id": "HK-PERSON-000108",
+      "person_name": "李子建 (John Lee Chi-kin)",
+      "relationship_type": "superior",
+      "description": "教大校长李子建教授欢迎其出任副校长（行政）"
     }
   ],
   "social_accounts": [],
@@ -88,7 +70,7 @@
     {
       "date": null,
       "achievement": "在香港教育大学推动人工智能教育发展，提出通过整合校内资源、争取外部赞助及善用先进设施巩固教大在人工智能教育领域的地位（公开访谈表述）",
-      "organization": "香港教育大学"
+      "organization": "香港教育大学 (The Education University of Hong Kong)"
     }
   ],
   "biography_summary": "方永豪 (Tom Fong Wing-ho)，香港教育大学副校长（行政）兼校董会秘书，2024年9月1日就任，任期三年。深耕高等教育行政管理领域二十余年：2000至2008年任香港中文大学就业策划及发展中心主任；2008至2014年任香港教育学院（教大前身）学生事务处处长；2014年加入恒生管理学院（后正名为香港恒生大学）任协理副校长，2016至2024年出任副校长（机构发展）兼校务委员会秘书。其博士学历详情未见公开披露。",
@@ -101,7 +83,7 @@
     "career_highlights": "2024年重返香港教育大学出任副校长（行政）"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -118,11 +100,10 @@
       }
     ],
     "data_sources": [
-      "EdUHK官网",
-      "EdUHK新闻稿",
-      "EdUHK特写专访"
+      "official_website",
+      "news_search"
     ],
     "completeness_score": 44,
-    "notes": "职务与履历均经教大官网及新闻稿双源核实。学历信息未在公开来源查得，education留空；出生日期、家庭信息无公开资料。"
+    "notes": "职务与履历均经教大官网及新闻稿双源核实。 2026-09-07核查：current_positions由对象数组规范化为纯字符串数组；work_experience移除规范外字段title/notes；person_relationships补英文名（John Lee Chi-kin）；官网简介页未载学历信息，education依规则保持留空；出生日期、家庭信息无公开资料；无经核实的个人社交媒体账号。"
   }
 }

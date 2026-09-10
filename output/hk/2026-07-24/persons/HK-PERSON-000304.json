@@ -7,7 +7,7 @@
   "aliases": [],
   "nationality": "SG",
   "gender": "male",
-  "birth_date": "1965-10-01",
+  "birth_date": null,
   "birth_place": "新加坡",
   "contacts": [
     {
@@ -89,6 +89,12 @@
       "person_name": "谢仕荣 (Edmund Tse)",
       "relationship_type": "associate",
       "description": "友邦保险前独立非执行主席，李源祥任CEO期间与其搭挡"
+    },
+    {
+      "person_id": null,
+      "person_name": "马明哲 (Ma Mingzhe)",
+      "relationship_type": "superior",
+      "description": "中国平安创始人、董事长，李源祥任平安集团联席首席执行官及执行董事期间的直属上级"
     }
   ],
   "social_accounts": [],
@@ -107,29 +113,30 @@
     },
     {
       "date": "2015-10",
-      "organization": "中国保险行业协会等 (China Insurance Industry)",
+      "organization": "中国保险行业协会 (China Insurance Industry Association)",
       "achievement": "荣获2014中国保险年度人物特别奖"
     },
     {
       "date": null,
       "organization": "日内瓦保险协会 (The Geneva Association)",
-      "achievement": "出任日内瓦保险协会主席"
+      "achievement": "出任日内瓦保险协会主席（2025年在任，接替瑞士再保险首席执行官）"
     }
   ],
-  "biography_summary": "李源祥（Lee Yuan Siong），1965年10月出生，新加坡籍华人保险业高管，北美精算师及特许金融分析师，持有伦敦政治经济学院精算学理学学士及剑桥大学财政金融硕士学位。早期任职于新加坡金融管理局，1994年加入英国保诚集团，2000年出任信诚人寿（现中信保诚人寿）总经理。2004年加入中国平安，任职逾15年，历任平安人寿总经理及董事长、集团常务副总经理、首席保险业务执行官、联席首席执行官及执行董事。2020年6月1日起出任友邦保险集团首席执行官兼总裁，并成为董事会成员，同时担任日内瓦保险协会主席。任内推动友邦保险在亚太区18个市场的寿险业务发展及'友邦保险最重要资产'战略转型。",
+  "biography_summary": "李源祥（Lee Yuan Siong），1965年出生，新加坡籍华人保险业高管，北美精算师及特许金融分析师，持有伦敦政治经济学院精算学理学学士及剑桥大学财政金融硕士学位。早期任职于新加坡金融管理局，1994年加入英国保诚集团，2000年出任信诚人寿（现中信保诚人寿）总经理。2004年加入中国平安，任职逾15年，历任平安人寿总经理及董事长、集团常务副总经理、首席保险业务执行官、联席首席执行官及执行董事。2020年6月1日起出任友邦保险集团首席执行官兼总裁，并成为董事会成员，同时担任日内瓦保险协会主席。任内推动友邦保险在亚太区18个市场的寿险业务发展及「友邦保险最重要资产」战略转型。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "official_website",
-      "news_search"
+      "news_search",
+      "wikidata"
     ],
-    "completeness_score": 62,
+    "completeness_score": 63,
     "quotes": [
       {
         "title": "李源祥（友邦保险集团首席执行官兼总裁）_百度百科",
@@ -142,8 +149,16 @@
       {
         "title": "李源祥 - 陆家嘴论坛",
         "url": "http://www.lujiazuiforum.org/node2/n1471/n2076/n2080/u1ai45009.html"
+      },
+      {
+        "title": "AIA chief executive succeeds Swiss Re CEO as chairman of The Geneva Association - Insurance Business",
+        "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/aia-chief-executive-succeeds-swiss-re-ceo-as-chairman-of-the-geneva-association-492627.aspx"
+      },
+      {
+        "title": "Programme on Regulation and Supervision 2025 - The Geneva Association",
+        "url": "https://www.genevaassociation.org/events/programme-regulation-and-supervision-2025"
       }
     ],
-    "notes": "身份核验无误。补充1965年10月出生、LSE/剑桥学历、保诚/信诚人寿/平安/友邦完整履历。avatar原为页面链接非图片直链，无P18，置空。国籍为新加坡。 2026-08-27补深：补入友邦保险香港官方联系方式；无经核实的个人社交媒体账号。"
+    "notes": "身份核验无误。补充1965年出生、LSE/剑桥学历、保诚/信诚人寿/平安/友邦完整履历。国籍为新加坡。 2026-08-27补深：补入友邦保险香港官方联系方式。 2026-09-07复核：核实日内瓦保险协会主席属实（Geneva Association官网2025年活动页及行业媒体报道确认在任）；出生日期公开资料仅知1965年（一说1965年10月），无精确到日的可靠来源，birth_date置空避免虚构精度；未发现Wikidata条目，wikidata_qid保持空；无经核实的个人社交媒体账号，social_accounts保持空；补充与平安集团董事长马明哲的上下级关系。"
   }
 }

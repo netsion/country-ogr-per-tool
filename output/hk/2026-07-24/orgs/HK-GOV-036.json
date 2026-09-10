@@ -57,7 +57,7 @@
     },
     {
       "person_id": "HK-PERSON-000722",
-      "name": "蔡宏兴 (Victor Lui)",
+      "name": "蔡宏興 (Donald Choi Wun-hing)",
       "title": "行政总监",
       "title_description": "市建局行政首长，负责机构日常运营与项目执行",
       "description": "建筑师及城市规划专业人士，曾任华懋集团行政总裁长达七年，2025年6月15日起出任市建局行政总监，任期三年，主导重建项目规划、楼宇复修及保育工作。"
@@ -104,43 +104,55 @@
       "title": "成立25周年银禧庆典并公布转亏为盈",
       "date": "2026-08-14",
       "description": "市建局举行成立25周年银禧庆典，主席周松岗公布机构于2025/26财政年度转亏为盈，录得3.38亿元营运盈余。成立25年来累计推行80个市区重建及保育项目，重建1700多幢失修楼宇，提供37000多个新建住宅单位。",
-      "impact": "为持续推动市区更新提供财政基础"
+      "impact": "为持续推动市区更新提供财政基础",
+      "source": "http://www.hkcd.com.hk/content_app/2026-08/15/content_8769855.html"
     },
     {
       "title": "蔡宏兴出任行政总监",
       "date": "2025-06-15",
       "description": "行政长官接纳由财政司司长担任主席的遴选委员会建议，委任蔡宏兴为市建局行政总监，任期三年，接替离任的韦志成。",
-      "impact": "机构管理层换届"
+      "impact": "机构管理层换届",
+      "source": "https://www.hk01.com/%E5%9C%B0%E7%94%A2%E6%A8%93%E5%B8%82/60242917/"
     },
     {
       "title": "推进油旺地区规划研究",
       "date": "2024-01-01",
       "description": "市建局持续推展油麻地及旺角地区的大型市区更新规划研究，探索以更高地积比率及转移地盘发展模式重整旧区。",
-      "impact": "为香港最大旧区更新提供长远蓝图"
+      "impact": "为香港最大旧区更新提供长远蓝图",
+      "source": "https://www.info.gov.hk/gia/general/202506/11/P2025061100469p.htm"
     },
     {
       "title": "政府拨款190亿扩大楼宇复修支援",
       "date": "2025-01-01",
       "description": "政府自2018年起先后拨款合共190亿元，透过市建局推出多项楼宇复修支援计划，协助老化楼宇进行预防性维修，配合推动预防性维修政策。",
-      "impact": "延长旧楼寿命，改善居住安全"
+      "impact": "延长旧楼寿命，改善居住安全",
+      "source": "https://www.devb.gov.hk/sc/publications_and_press_releases/press/index_id_15558.html"
     }
   ],
   "related_entities": [
     {
       "org_name": "发展局 (Development Bureau)",
-      "org_description": "市建局的主管政策局，主席及董事由政府根据《市区重建局条例》委任"
+      "org_description": "市建局的主管政策局，主席及董事由政府根据《市区重建局条例》委任",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "地政总署 (Lands Department)",
-      "org_description": "与市建局合作处理重建项目的收地及契约事宜"
+      "org_description": "与市建局合作处理重建项目的收地及契约事宜",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "屋宇署 (Buildings Department)",
-      "org_description": "与市建局合作执行强制验楼及楼宇安全政策"
+      "org_description": "与市建局合作执行强制验楼及楼宇安全政策",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "土地发展公司 (Land Development Corporation)",
-      "org_description": "市建局的前身机构，1988年成立"
+      "org_description": "市建局的前身机构，1988年成立",
+      "relationship_type": "predecessor",
+      "org_id": null
     }
   ],
   "core_business": "市区重建局（市建局）是香港专门负责处理楼宇重建及复修的法定机构，前身为1988年成立的土地发展公司。鉴于香港特区政府希望加快市区（香港岛、九龙、荃湾区及葵青区）重建，于2001年5月1日通过《市区重建局条例》成立市建局。其使命以「重建发展」和「楼宇复修」两大核心业务为主，辅以「保育」、「活化」及「改造重设」，职责包括加速旧区重建、促进复修楼龄较高楼宇、修葺保育具有历史或建筑价值的楼宇，并透过改善旧区环境促进经济发展。市建局以自负盈亏模式运作，透过收购旧楼业权、整合土地、招标联同发展商重建，同时营运楼宇复修资助计划与保育项目。成立25年来累计推行80个市区重建及保育项目，提供37000多个新建住宅单位。现任主席为周松岗，行政总监为蔡宏兴。",
@@ -186,7 +198,5 @@
       }
     ],
     "notes": "P3 enrichment round 2: corrected MD appointment (Victor Lui from 2025-06-15), added executive directors, 25th anniversary and financial surplus; factual only"
-  },
-  "description": "香港专门负责处理楼宇重建及复修的法定机构",
-  "brief": "负责香港旧区重建、楼宇复修及保育的法定机构"
+  }
 }

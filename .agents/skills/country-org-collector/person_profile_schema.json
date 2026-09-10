@@ -1,0 +1,311 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://apec-osint-tool.org/schemas/person_profile.json",
+  "title": "APEC OSINT Person Profile",
+  "description": "Phase 6 person profile schema for a single person",
+  "type": "object",
+  "required": ["person_id", "name", "name_en", "nationality", "gender"],
+  "additionalProperties": false,
+  "properties": {
+    "person_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-PERSON-[0-9]{6}$",
+      "description": "Unique person identifier: {ISO2}-PERSON-{SEQ(6-digit)}",
+      "examples": ["SG-PERSON-000001"]
+    },
+    "wikidata_qid": {
+      "type": ["string", "null"],
+      "pattern": "^Q[0-9]+$",
+      "examples": ["Q57643"]
+    },
+    "name_zh": {
+      "type": ["string", "null"],
+      "examples": ["黄循财"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Name in the person's native/primary language",
+      "examples": ["黄循财", "K. Shanmugam"]
+    },
+    "name_en": {
+      "type": "string",
+      "examples": ["Lawrence Wong"]
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": [],
+      "description": "Alternative names, nicknames, transliterations"
+    },
+    "nationality": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "examples": ["SG"]
+    },
+    "gender": {
+      "$ref": "#/$defs/gender_enum"
+    },
+    "birth_date": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Full date in YYYY-MM-DD format. Use -01 for unknown month/day."
+    },
+    "birth_place": {
+      "type": ["string", "null"],
+      "examples": ["Singapore"]
+    },
+    "contacts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/contact" },
+      "default": []
+    },
+    "current_positions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": [],
+      "description": "List of current position titles"
+    },
+    "education": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/education_entry" },
+      "default": []
+    },
+    "work_experience": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/work_experience_entry" },
+      "default": []
+    },
+    "person_relationships": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/person_relationship" },
+      "default": []
+    },
+    "social_accounts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/social_account" },
+      "default": []
+    },
+    "family_members": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/family_member" },
+      "default": []
+    },
+    "political_stances": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/political_stance" },
+      "default": []
+    },
+    "major_achievements": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/major_achievement" },
+      "default": []
+    },
+    "biography_summary": {
+      "type": ["string", "null"],
+      "description": "Brief biographical summary paragraph"
+    },
+    "profile": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "description": "Photo/logo image reference",
+      "properties": {
+        "source_url": { "type": ["string", "null"], "description": "Original image URL (e.g. Wikipedia/Wikidata)" },
+        "local_path": { "type": ["string", "null"], "description": "Local downloaded path relative to output dir, e.g. photos/SG-PERSON-000005.jpg" }
+      }
+    },
+    "collection_meta": {
+      "$ref": "#/$defs/collection_metadata"
+    }
+  },
+  "$defs": {
+    "gender_enum": {
+      "type": "string",
+      "enum": ["male", "female", "non_binary", "unknown"]
+    },
+    "contact_type_enum": {
+      "type": "string",
+      "enum": ["phone", "email", "fax", "website", "other"]
+    },
+    "degree_level_enum": {
+      "type": "string",
+      "enum": ["primary", "high_school", "associate", "bachelor", "master", "doctorate", "professional", "other"]
+    },
+    "person_relationship_type_enum": {
+      "type": "string",
+      "enum": [
+        "spouse", "parent", "child", "sibling", "grandparent", "grandchild",
+        "uncle_aunt", "cousin", "in_law", "mentor", "mentee",
+        "ally", "rival", "colleague", "superior", "subordinate",
+        "business_partner", "political_ally", "political_rival", "associate", "other"
+      ]
+    },
+    "family_relation_enum": {
+      "type": "string",
+      "enum": [
+        "spouse", "father", "mother", "son", "daughter",
+        "brother", "sister", "grandfather", "grandmother",
+        "uncle", "aunt", "cousin",
+        "father_in_law", "mother_in_law", "brother_in_law", "sister_in_law",
+        "son_in_law", "daughter_in_law", "other"
+      ]
+    },
+    "social_platform_enum": {
+      "type": "string",
+      "enum": [
+        "twitter_x", "facebook", "linkedin", "youtube", "instagram",
+        "telegram", "tiktok", "threads", "mastodon", "wechat",
+        "weibo", "github", "gitlab", "medium", "substack", "other"
+      ]
+    },
+    "contact": {
+      "type": "object",
+      "required": ["type", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "$ref": "#/$defs/contact_type_enum" },
+        "value": { "type": "string" },
+        "source": { "type": ["string", "null"] }
+      }
+    },
+    "education_entry": {
+      "type": "object",
+      "required": ["institution"],
+      "additionalProperties": false,
+      "properties": {
+        "start_date": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "description": "YYYY, YYYY-MM, or YYYY-MM-DD; use highest precision available"
+        },
+        "end_date": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "description": "YYYY, YYYY-MM, or YYYY-MM-DD; use highest precision available"
+        },
+        "institution": { "type": "string" },
+        "degree": { "$ref": "#/$defs/degree_level_enum" },
+        "field": { "type": ["string", "null"] }
+      }
+    },
+    "work_experience_entry": {
+      "type": "object",
+      "required": ["organization", "position"],
+      "additionalProperties": false,
+      "properties": {
+        "start_date": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "description": "YYYY, YYYY-MM, or YYYY-MM-DD; use highest precision available"
+        },
+        "end_date": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "description": "YYYY, YYYY-MM, or YYYY-MM-DD; use highest precision available"
+        },
+        "organization": { "type": "string" },
+        "org_id": { "type": ["string", "null"] },
+        "position": { "type": "string" }
+      }
+    },
+    "person_relationship": {
+      "type": "object",
+      "required": ["person_id", "person_name", "relationship_type"],
+      "additionalProperties": false,
+      "properties": {
+        "person_id": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{2}-PERSON-[0-9]{6}$",
+          "description": "Person ID if the related person exists in the database, null otherwise"
+        },
+        "person_name": { "type": "string" },
+        "relationship_type": { "$ref": "#/$defs/person_relationship_type_enum" },
+        "description": { "type": ["string", "null"] }
+      }
+    },
+    "social_account": {
+      "type": "object",
+      "required": ["platform", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "platform": { "$ref": "#/$defs/social_platform_enum" },
+        "account_name": { "type": ["string", "null"] },
+        "url": { "type": "string" },
+        "source": { "type": ["string", "null"] }
+      }
+    },
+    "family_member": {
+      "type": "object",
+      "required": ["name", "relationship"],
+      "additionalProperties": false,
+      "properties": {
+        "person_id": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{2}-PERSON-[0-9]{6}$"
+        },
+        "name": { "type": "string" },
+        "relationship": { "$ref": "#/$defs/family_relation_enum" },
+        "industry_or_organization": { "type": ["string", "null"] }
+      }
+    },
+    "political_stance": {
+      "type": "object",
+      "required": ["date", "topic", "stance_content"],
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "description": "YYYY, YYYY-MM, or YYYY-MM-DD; use highest precision available"
+        },
+        "topic": { "type": "string" },
+        "stance_content": { "type": "string" },
+        "source": { "type": ["string", "null"] }
+      }
+    },
+    "major_achievement": {
+      "type": "object",
+      "required": ["date", "achievement"],
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "description": "YYYY, YYYY-MM, or YYYY-MM-DD; use highest precision available"
+        },
+        "organization": { "type": ["string", "null"] },
+        "achievement": { "type": "string" }
+      }
+    },
+    "collection_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "collection_date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "phase": { "type": "string", "const": "phase4_person_profile" },
+        "data_sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["official_website", "wikipedia", "wikidata", "news_search", "web_search", "social_media", "government_registry", "government_directory", "opencorporates", "annual_report", "other"]
+          }
+        },
+        "completeness_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "notes": { "type": ["string", "null"] },
+        "quotes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "url"],
+            "additionalProperties": false,
+            "properties": {
+              "title": { "type": "string", "description": "网页标题" },
+              "url": { "type": "string", "format": "uri", "description": "引用网页链接" }
+            }
+          },
+          "default": [],
+          "description": "收集过程中引用的网页来源列表"
+        }
+      }
+    }
+  }
+}

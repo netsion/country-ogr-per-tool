@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-000720",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q112966453",
   "name": "陳美寶",
   "name_zh": "陈美宝",
   "name_en": "Mable Chan",
@@ -34,24 +34,31 @@
   "work_experience": [
     {
       "start_date": "1989",
-      "end_date": "2017",
+      "end_date": "2012",
       "organization": "香港特区政府 (Government of Hong Kong SAR)",
-      "org_id": "HK-GOV-013",
-      "position": "政务职系（行政职系），历任运输科等多个岗位"
+      "org_id": null,
+      "position": "政务主任，曾在多个决策局及部门服务"
     },
     {
-      "start_date": "2017",
-      "end_date": "2020",
+      "start_date": "2012-07",
+      "end_date": "2017-10",
+      "organization": "财经事务及库务局 (Financial Services and the Treasury Bureau)",
+      "org_id": "HK-GOV-012",
+      "position": "副秘书长（2012年7月至2016年7月主管库务，2016年8月起主管财经事务）"
+    },
+    {
+      "start_date": "2017-10",
+      "end_date": "2020-07",
       "organization": "运输署 (Transport Department)",
       "org_id": null,
       "position": "署长"
     },
     {
       "start_date": "2020-08",
-      "end_date": "2024",
+      "end_date": "2024-12",
       "organization": "运输及物流局 (Transport and Logistics Bureau)",
       "org_id": "HK-GOV-035",
-      "position": "常任秘书长"
+      "position": "常任秘书长（运输）（前称运输及房屋局常任秘书长）"
     },
     {
       "start_date": "2024-12-05",
@@ -83,41 +90,42 @@
     {
       "date": "2024-12-05",
       "organization": "运输及物流局 (Transport and Logistics Bureau)",
-      "achievement": "出任运输及物流局局长，是本届政府首位由常务秘书长晋升的问责局长"
+      "achievement": "出任运输及物流局局长，是本届政府首位由常任秘书长晋升的问责局长"
     },
     {
-      "date": "",
+      "date": null,
       "organization": "香港特区政府",
       "achievement": "获委任为太平绅士（JP）"
     }
   ],
-  "biography_summary": "陈美宝（Mable Chan），1966年1月4日出生，运输及物流局局长，2024年12月5日就任。香港大学社会科学学士，1989年加入政府行政职系，长期在运输政策范畴任职，曾在前运输局及运输署担任多个首长级职位，2017年出任运输署署长，2020年8月升任运输及物流局常任秘书长。出任局长后，负责香港交通运输、航空、海运及物流政策，推动运输基建发展蓝图、智慧出行及港口航运业提升。获委任为太平绅士。",
+  "biography_summary": "陈美宝（Mable Chan），1966年1月4日出生，运输及物流局局长，2024年12月5日就任。1989年加入政府，任职政务主任，长期在财经及运输政策范畴任职：2012年7月至2016年7月任财经事务及库务局副秘书长（库务），2016年8月起任副秘书长（财经事务），2017年10月出任运输署署长，2020年8月升任运输及物流局（前称运输及房屋局）常任秘书长（运输）。持有香港大学社会科学学士学位。出任局长后，负责香港交通运输、航空、海运及物流政策，推动运输基建发展蓝图、智慧出行及港口航运业提升。获委任为太平绅士。",
   "profile": {
     "source_url": "",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
+      "wikidata",
       "news_search"
     ],
-    "completeness_score": 52,
+    "completeness_score": 57,
     "quotes": [
       {
-        "title": "運輸及物流局局長 - 官方简历",
-        "url": "https://www.tlb.gov.hk/eng/aboutus/organisation/stl.html"
+        "title": "運輸及物流局局長陳美寶簡歷 - 官方简历",
+        "url": "https://www.tlb.gov.hk/tc/aboutus/organisation/stl.html"
       },
       {
-        "title": "政府新聞公報 - 運輸及物流局局長委任",
-        "url": "https://www.info.gov.hk"
+        "title": "Wikidata Q112966453 (Mable Chan)",
+        "url": "https://www.wikidata.org/wiki/Q112966453"
       },
       {
         "title": "GovHK 香港政府一站通：運輸及物流局局長陳美寶簡歷",
         "url": "https://www.gov.hk/sc/about/govdirectory/po/stl.htm"
       }
     ],
-    "notes": "无Wikidata QID；补全政务职系履历。补深核查：无P18（局长办公室网页照片为动态元素无稳定直链）、无个人社交媒体；补运物局官网局长简历页。"
+    "notes": "2026-09-07复核：补回Wikidata QID Q112966453，出生日期1966-01-04经Wikidata核实；据运输及物流局官方简历将政务职系履历细化为五个任期准确的职位（财经事务及库务局副秘书长两任、运输署署长2017年10月起、常任秘书长2020年8月起），org_id引用已注册组织索引；无个人社交媒体；无P18头像稳定直链。"
   }
 }

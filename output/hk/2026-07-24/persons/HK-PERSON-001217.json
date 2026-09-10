@@ -33,14 +33,14 @@
       "start_date": null,
       "end_date": "1967",
       "institution": "英华书院 (Ying Wa College)",
-      "degree": "",
+      "degree": "high_school",
       "field": "中学（中五毕业）"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "英皇书院 (King's College, Hong Kong)",
-      "degree": "",
+      "degree": "high_school",
       "field": "中学"
     },
     {
@@ -84,7 +84,7 @@
       "start_date": "2002-07",
       "end_date": "2009-01",
       "organization": "香港特别行政区行政会议 (Executive Council of Hong Kong)",
-      "org_id": null,
+      "org_id": "HK-GOV-010",
       "position": "非官守成员（2012年7月至2017年6月再度出任）"
     },
     {
@@ -111,7 +111,7 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001103",
       "person_name": "廖长江",
       "relationship_type": "sibling",
       "description": "胞弟，香港特别行政区立法会商界（第二）功能界别议员"
@@ -122,15 +122,15 @@
     {
       "person_id": null,
       "name": "廖长江",
-      "relationship": "other",
+      "relationship": "brother",
       "industry_or_organization": "香港特别行政区立法会议员、大律师"
     }
   ],
   "political_stances": [],
   "major_achievements": [
     {
-      "date": "",
-      "organization": "",
+      "date": null,
+      "organization": "香港特别行政区政府 (HKSAR Government)",
       "achievement": "获颁大紫荆勋章（GBM）、金紫荆星章（GBS），并获委任为太平绅士（JP）"
     },
     {
@@ -139,8 +139,8 @@
       "achievement": "担任科大校董会主席八年，任内推动大学发展战略；2023年起转任大学顾问委员会主席并获续任"
     },
     {
-      "date": "",
-      "organization": "",
+      "date": null,
+      "organization": "香港大学 (The University of Hong Kong)",
       "achievement": "香港大学法律学系第一届毕业生，长期从事知识产权法律实务，曾任香港法律改革委员会委员、经济发展委员会委员、全国政协委员"
     }
   ],
@@ -150,7 +150,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "hkust.edu.hk",
@@ -177,6 +177,6 @@
         "url": "https://www.hkba.org/zh-hant/barrister/liao-andrew-sc"
       }
     ],
-    "notes": "行政会议成员、全国政协委员等仅作客观职务与任期事实记录；出生月份据维基百科（1949年6月），日不详按规则记为-01；政治立场字段按要求留空。"
+    "notes": "行政会议成员、全国政协委员等仅作客观职务与任期事实记录；出生月份据维基百科（1949年6月），日不详按规则记为-01；政治立场字段按要求留空。2026-09-07 复核：教育学位字段规范化（中学改为 high_school 枚举），major_achievements 补齐关联组织，family_members 廖长江关系修正为 brother；未查证到其官方社交媒体账号，social_accounts 保持为空。现任科大大学顾问委员会主席经 info.gov.hk 及科大官网（2026年3月续任）核实。"
   }
 }

@@ -35,14 +35,14 @@
       "end_date": "1984",
       "institution": "伦敦大学 (University of London)",
       "degree": "master",
-      "field": "硕士"
+      "field": null
     },
     {
       "start_date": "1984",
       "end_date": "1987",
       "institution": "剑桥大学 (University of Cambridge)",
-      "degree": "doctor",
-      "field": "药理学硕士及遗传工程学博士"
+      "degree": "doctorate",
+      "field": "药理学及遗传工程学"
     }
   ],
   "work_experience": [
@@ -57,7 +57,7 @@
       "start_date": "1990",
       "end_date": null,
       "organization": "香港电讯IMS有限公司 (Hongkong Telecom IMS)",
-      "org_id": null,
+      "org_id": "HK-CORP-012",
       "position": "董事总经理，创办「网上行 Netvigator」及「互动电视 iTV」（now TV 前身）"
     },
     {
@@ -101,11 +101,18 @@
       "organization": "网龙网络控股有限公司 (NetDragon Websoft Holdings)",
       "org_id": null,
       "position": "独立非执行董事，兼薪酬委员会主席、审核委员会及提名委员会成员"
+    },
+    {
+      "start_date": "2024-08-01",
+      "end_date": null,
+      "organization": "超媒体控股有限公司 (0072.HK)",
+      "org_id": null,
+      "position": "首席运营官（负责集团国际业务板块管理与协调）"
     }
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000085",
       "person_name": "高锟 (Charles Kao)",
       "relationship_type": "associate",
       "description": "担任高锟慈善基金主席，推动相关慈善及科普工作"
@@ -142,7 +149,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -166,8 +173,16 @@
       {
         "title": "网龙投资者关系网站：卢永仁博士",
         "url": "https://ir.nd.com.cn/tc/staff/%E7%9B%A7%E6%B0%B8%E4%BB%81%E5%8D%9A%E5%A3%AB"
+      },
+      {
+        "title": "明报财经：超媒體控股委任盧永仁為首席運營官 下月生效（2024-07-30）",
+        "url": "https://finance.mingpao.com/fin/instantf/20240730/1722313034591/"
+      },
+      {
+        "title": "团结香港基金：卢永仁博士简介（教育经历交叉印证）",
+        "url": "https://www.ourhkfoundation.org.hk/tc/profile/Dr-William-LO"
       }
     ],
-    "notes": "生年月日无公开可靠来源，birth_date留空。部分早期经历（麦肯锡、花旗、中国联通等）主要来自维基百科（部分标注来源请求），已与团结香港基金及公司官网交叉印证现任职务。已辞任多间上市公司独董（景瑞控股2024年12月、东建国际及资本策略地产2026年8月），故未列入current_positions。"
+    "notes": "生年月日无公开可靠来源，birth_date留空。本次修订：education剑桥条目degree由「doctor」规范为「doctorate」，伦敦大学条目field「硕士」非学科名改为null；超媒体控股首席运营官任命已核实（超媒体控股0072.HK公告，2024年8月1日起，明报财经/香港经济日报报道），并补入work_experience。部分早期经历（麦肯锡、花旗、中国联通等）主要来自维基百科及团结香港基金简介交叉印证。已辞任多间上市公司独董（景瑞控股2024年12月、东建国际及资本策略地产2026年8月），故未列入current_positions。未查到公开个人社交媒体账号，social_accounts保持为空。"
   }
 }

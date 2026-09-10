@@ -25,10 +25,17 @@
   "education": [
     {
       "start_date": null,
-      "end_date": null,
+      "end_date": "1993",
       "institution": "香港中文大学 (The Chinese University of Hong Kong)",
       "degree": "bachelor",
-      "field": ""
+      "field": "英文"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "中华传道会安柱中学 (CNEC Christian College)",
+      "degree": "high_school",
+      "field": null
     }
   ],
   "work_experience": [
@@ -40,11 +47,25 @@
       "position": "副会长"
     },
     {
-      "start_date": "1998",
-      "end_date": "2021",
+      "start_date": "1993",
+      "end_date": "2019",
+      "organization": "葵青区议会 (Kwai Tsing District Council)",
+      "org_id": null,
+      "position": "区议员（连任六届，2008年起任副主席）"
+    },
+    {
+      "start_date": "2012",
+      "end_date": "2022",
       "organization": "立法会 (Legislative Council of Hong Kong)",
       "org_id": "HK-GOV-027",
-      "position": "议员（1998-2021年，新界西及区议会（第二）界别）"
+      "position": "议员（2012-2022年，新界西及选举委员会界别）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港妇女动力协会",
+      "org_id": null,
+      "position": "会长（曾任）"
     },
     {
       "start_date": "2022-07-01",
@@ -77,6 +98,12 @@
       "topic": "地区治理",
       "stance_content": "完善地区治理体系，重塑区议会职能，加强基层治理及青年发展服务",
       "source": "https://www.hab.gov.hk"
+    },
+    {
+      "date": "2020",
+      "topic": "公共卫生",
+      "stance_content": "新冠疫情期间与工联会议员一同促请政府尽快推行粤港澳互认健康码，便利跨境家庭",
+      "source": "https://zh.wikipedia.org/wiki/%E9%BA%A5%E7%BE%8E%E5%A8%9F"
     }
   ],
   "major_achievements": [
@@ -88,27 +115,33 @@
     {
       "date": "",
       "organization": "香港特区政府",
-      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
+      "achievement": "获颁银紫荆星章（SBS）并获委任为太平绅士（JP）"
+    },
+    {
+      "date": "1993",
+      "organization": "葵青区议会",
+      "achievement": "22岁获委任为葵青区议员，为当年全港最年轻的区议员"
     }
   ],
-  "biography_summary": "麦美娟（Alice Mak Mei-kuen），1971年生，香港民政及青年事务局局长，2022年7月1日就任，并任行政会议官守议员。她出身工联会，曾任该会副会长，1998年至2021年为立法会议员，长期代表劳工及基层声音。转任问责局长后，负责民政、地区治理及青年事务，任内主导完善地区治理体系及区议会改革，并推动青年发展蓝图。获颁金紫荆星章并获委任为太平绅士。（注：原lite误标为立法会议员，已于2021年离任议会）",
+  "biography_summary": "麦美娟（Alice Mak Mei-kuen），1971年生，香港民政及青年事务局局长，2022年7月1日就任，并任行政会议官守议员。她1993年毕业于香港中文大学新亚书院英文系，同年22岁获委任为葵青区议员，为当年全港最年轻议员，连任六届至2019年，曾任区议会副主席。她出身工联会，曾任该会副会长，2012年至2022年为立法会议员（新界西及选举委员会界别），2021年12月转战选委会界别当选。转任问责局长后，负责民政、地区治理及青年事务，任内主导完善地区治理体系及区议会改革，并推动青年发展蓝图。获颁银紫荆星章并获委任为太平绅士。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/%E9%BA%A5%E7%BE%8E%E5%A8%9F_20230524_%28cropped%29.jpg/250px-%E9%BA%A5%E7%BE%8E%E5%A8%9F_20230524_%28cropped%29.jpg",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikidata",
       "official_website",
-      "wikipedia"
+      "wikipedia",
+      "gov_news"
     ],
-    "completeness_score": 52,
+    "completeness_score": 67,
     "quotes": [
       {
-        "title": "民政及青年事務局局長 - 官方简历",
-        "url": "https://www.hab.gov.hk"
+        "title": "民政及青年事務局局長 - 官方简历（GovHK，2026-09-07读取，确认SBS,JP及CV）",
+        "url": "https://www.gov.hk/tc/about/govdirectory/po/shya.htm"
       },
       {
         "title": "麥美娟 - 維基百科",
@@ -119,6 +152,6 @@
         "url": "https://www.gov.hk/tc/about/govdirectory/po/shya.htm"
       }
     ],
-    "notes": "修正原lite错误current_positions（现为民政及青年事务局局长而非立法会议员）2026-08-27补：新增其官方Facebook专页；按维基百科补出生日期1971-11-01。"
+    "notes": "2026-09-07核对：①勘误——原档案误记金紫荆星章（GBS），GovHK官方简历及中文维基均确认为银紫荆星章（SBS,JP），已改；②勘误——原档案立法会任期误写1998-2021，官方简历及维基确认为2012-2022（此前1993-2019为葵青区议员，连任六届），已改并补葵青区议会履历；③补教育字段：中大新亚书院英文系（1993年毕业）、中华传道会安柱中学；④补香港妇女动力协会会长（曾任，官方简历）；⑤补2020健康码立场；birth_place未查证（籍贯广东顺德均安，出生地不详），保持缺失。现任职务（民政及青年事务局局长）经GovHK现网核实。"
   }
 }

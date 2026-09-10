@@ -59,7 +59,7 @@
     },
     {
       "person_id": "HK-PERSON-000411",
-      "name": "包立贤 (Richard Lancaster)",
+      "name": "包立賢 (Andrew Clifford Winawer Brandler)",
       "name_en": "Richard Lancaster",
       "title": "副主席",
       "title_description": "协助主席管理集团事务",
@@ -117,41 +117,54 @@
       "date": "2026-02-26",
       "title": "公布2025年全年业绩",
       "description": "在日益复杂的能源格局下业务展现韧性，2025年度总收入880.18亿港元，持续投资增长、可靠性、安全及服务质量。",
-      "impact": "集团保持稳健派息能力，战略聚焦可持续增长与卓越运营。"
+      "impact": "集团保持稳健派息能力，战略聚焦可持续增长与卓越运营。",
+      "source": "https://www.clpgroup.com/content/dam/clp-group/channels/media/document/2026/20260226a_en.pdf.coredownload.pdf"
     },
     {
       "date": "2025-10-01",
       "title": "印度Apraava Energy签署出售哈格尔电厂协议",
       "description": "Apraava Energy于2025年10月签署出售660兆瓦燃煤的哈格尔电厂协议，落实《气候愿景2050》下2040年前淘汰剩余燃煤资产的承诺。",
-      "impact": "标志集团在印度市场的减碳步伐加速，碳排放呈下行轨迹。"
+      "impact": "标志集团在印度市场的减碳步伐加速，碳排放呈下行轨迹。",
+      "source": "https://m.economictimes.com/industry/energy/power/jindal-power-buys-apraava-energys-jhajjar-power-plant/articleshow/124421887.cms"
     },
     {
       "date": "2025-08-04",
       "title": "2025年中期业绩展现韧性",
       "description": "面对全球能源需求波动及地缘政治紧张，中电维持香港稳健可靠的能源供应，并继续投资香港、内地、印度及澳洲业务。",
-      "impact": "多市场组合对冲单一市场风险。"
+      "impact": "多市场组合对冲单一市场风险。",
+      "source": "https://www.clp.com.cn/wp-content/uploads/2025/08/20250804_sc.pdf"
     }
   ],
   "related_entities": [
     {
       "org_name": "中华电力有限公司 (CLP Power Hong Kong)",
-      "org_description": "集团旗下香港供电主体，服务九龙、新界及离岛"
+      "org_description": "集团旗下香港供电主体，服务九龙、新界及离岛",
+      "relationship_type": "subsidiary",
+      "org_id": "HK-CORP-006"
     },
     {
       "org_name": "EnergyAustralia",
-      "org_description": "集团旗下澳洲能源公司，运营发电及零售业务"
+      "org_description": "集团旗下澳洲能源公司，运营发电及零售业务",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "Apraava Energy",
-      "org_description": "集团持股的印度能源公司，正退出燃煤资产"
+      "org_description": "集团持股的印度能源公司，正退出燃煤资产",
+      "relationship_type": "subsidiary",
+      "org_id": null
     },
     {
       "org_name": "香港电灯 (HK Electric)",
-      "org_description": "香港另一家电力供应商，与中电分域供电"
+      "org_description": "香港另一家电力供应商，与中电分域供电",
+      "relationship_type": null,
+      "org_id": null
     },
     {
       "org_name": "香港交易及结算所有限公司 (HKEX)",
-      "org_description": "中电控股（00002.HK）上市地"
+      "org_description": "中电控股（00002.HK）上市地",
+      "org_id": "HK-FIN-007",
+      "relationship_type": "regulator"
     }
   ],
   "core_business": "中电集团（中电控股，00002.HK）于1901年在香港注册成立，当时名为中华电力有限公司，是香港两家电力供应商之一，负责供电予九龙、新界（包括附近小岛屿）及大部分离岛，并因此成为该等地区唯一的电力供应商。集团现已发展为亚太区主要的投资者及营运商，业务横跨香港、中国内地、印度、东南亚及澳洲，涵盖燃气、核电、可再生能源及燃煤发电以及零售能源服务。集团以《气候愿景2050》推进减碳，目标2040年前逐步淘汰剩余燃煤资产。2025年度集团总收入880.18亿港元，在复杂能源环境下业绩保持韧性，主席为米高·嘉道理爵士，首席执行官为蒋东强。",
@@ -202,7 +215,5 @@
       }
     ],
     "notes": "P3二次丰富：补入中华电力主席阮苏少湄、总裁罗嘉进（person_id留空待分配），核验董事会及管理层信息，内容字段统一为简体中文"
-  },
-  "description": "香港两大电力供应商之一，亚太区主要能源投资者，业务横跨中港印澳及东南亚",
-  "brief": "亚太区主要电力集团（00002.HK），香港供电龙头"
+  }
 }

@@ -11,109 +11,94 @@
   ],
   "nationality": "HK",
   "gender": "female",
-  "birth_date": "1963-01-01",
+  "birth_date": null,
   "birth_place": "香港",
   "contacts": [
     {
       "type": "phone",
       "value": "+852 2878 3368",
-      "label": "办公电话（行政长官办公室主任）"
+      "source": "政府电话簿（行政长官办公室主任办公电话，directory.gov.hk）"
     },
     {
       "type": "fax",
-      "value": "+852 2509 0580"
+      "value": "+852 2509 0580",
+      "source": "政府电话簿（directory.gov.hk）"
     },
     {
       "type": "email",
       "value": "ceo@ceo.gov.hk",
-      "label": "行政长官办公室公务邮箱"
+      "source": "行政长官办公室公务邮箱"
     }
   ],
   "current_positions": [
-    {
-      "title": "行政长官办公室主任 (Director of the Chief Executive's Office)",
-      "organization": "香港特别行政区行政长官办公室 (Chief Executive's Office, HKSAR)",
-      "org_id": "HK-GOV-003",
-      "start_date": "2022-07-01",
-      "end_date": null,
-      "source": "https://www.directory.gov.hk/details.jsp?lang=chi&dn=cn%3D1113005901%2Cou%3DCEO%2Cou%3DPeople%2Co%3DGOVERNMENT%2Cc%3DHK"
-    }
+    "行政长官办公室主任（2022年7月1日起）"
   ],
   "education": [
     {
-      "institution": "香港中文大学联合书院 (United College, The Chinese University of Hong Kong)",
-      "degree": "社会科学学士",
-      "field": "政治及行政学",
       "start_date": null,
       "end_date": "1987",
-      "notes": "1987年毕业"
+      "institution": "香港中文大学联合书院 (United College, The Chinese University of Hong Kong)",
+      "degree": "bachelor",
+      "field": "政治及行政学（社会科学学士）"
     }
   ],
   "work_experience": [
     {
       "organization": "香港特别行政区政府 (Government of the Hong Kong Special Administrative Region)",
-      "org_id": "HK-GOV-003",
+      "org_id": null,
       "start_date": "1987-07",
       "end_date": null,
-      "description": "1987年7月加入政务职系，1998年6月晋升首长级丙级政务官，2015年4月晋升首长级甲级政务官（D6）。曾任职于前民意汇集处、前运输科、前宪制事务科、前新机场工程统筹署及前贸易署等多个决策局及部门。",
-      "position": "政务主任（AO）"
+      "position": "政务主任（1987年7月加入政务职系，1998年晋升首长级丙级政务官，2015年4月晋升首长级甲级政务官；曾任职于前民意汇集处、前运输科、前宪制事务科、前新机场工程统筹署及前贸易署等）"
     },
     {
       "organization": "香港特别行政区政府工业贸易署 (Trade and Industry Department, HKSAR Government)",
       "org_id": null,
       "start_date": "2004-07",
       "end_date": "2006-07",
-      "description": "担任工业贸易署副署长，负责多边贸易、区域合作组织及欧洲事务。",
-      "position": "副署长（多边贸易、区域合作组织及欧洲）"
+      "position": "副署长（负责多边贸易、区域合作组织及欧洲事务）"
     },
     {
       "organization": "香港特别行政区政府卫生福利及食物局 / 劳工及福利局 (Health, Welfare and Food Bureau / Labour and Welfare Bureau, HKSAR Government)",
       "org_id": null,
       "start_date": "2006-09",
       "end_date": "2009-09",
-      "description": "担任副秘书长，负责安老服务及社会保障（后为劳工及福利局副秘书长(福利)）。",
-      "position": "副秘书长（安老服务及社会保障）"
+      "position": "副秘书长（负责安老服务及社会保障）"
     },
     {
-      "organization": "香港特别行政区政府保安局 (Security Bureau, HKSAR Government)",
-      "org_id": null,
+      "organization": "香港特区政府保安局 (Security Bureau, HKSAR Government)",
+      "org_id": "HK-GOV-034",
       "start_date": "2009-09",
       "end_date": "2013-07",
-      "description": "担任保安局副秘书长。",
       "position": "副秘书长"
     },
     {
-      "organization": "香港特别行政区政府社会福利署 (Social Welfare Department, HKSAR Government)",
+      "organization": "香港特区政府社会福利署 (Social Welfare Department, HKSAR Government)",
       "org_id": null,
       "start_date": "2013-07-08",
       "end_date": "2019-10-08",
-      "description": "出任社会福利署署长。",
       "position": "署长"
     },
     {
-      "organization": "香港特别行政区政府保安局 (Security Bureau, HKSAR Government)",
-      "org_id": null,
+      "organization": "香港特区政府保安局 (Security Bureau, HKSAR Government)",
+      "org_id": "HK-GOV-034",
       "start_date": "2019-10-21",
       "end_date": "2022-06-30",
-      "description": "出任保安局常任秘书长。",
       "position": "常任秘书长"
     },
     {
-      "organization": "香港特别行政区行政长官办公室 (Chief Executive's Office, HKSAR)",
+      "organization": "香港特别行政区行政长官办公室 (Office of the Chief Executive, HKSAR)",
       "org_id": "HK-GOV-003",
       "start_date": "2022-07-01",
       "end_date": null,
-      "description": "出任行政长官办公室主任。2023年11月曾率领政治委任官员国家事务研修班赴北京和南京研修考察。",
-      "position": "行政长官办公室主任"
+      "position": "行政长官办公室主任（2023年11月曾率领政治委任官员国家事务研修班赴北京和南京研修考察）"
     }
   ],
   "person_relationships": [
     {
-      "related_person_id": null,
-      "related_person_name": "李家超 (John Lee Ka-chiu)",
-      "relationship": "上级",
-      "notes": "李家超出任行政长官后委任其为行政长官办公室主任",
-      "source": null
+      "person_id": "HK-PERSON-001152",
+      "person_name": "李家超 (John Lee Ka-chiu)",
+      "relationship_type": "superior",
+      "description": "李家超出任行政长官后委任其为行政长官办公室主任"
     }
   ],
   "social_accounts": [],
@@ -123,28 +108,28 @@
     {
       "date": "2013-07-08",
       "achievement": "出任香港特别行政区政府社会福利署署长",
-      "organization": "香港特别行政区政府社会福利署 (Social Welfare Department, HKSAR Government)"
+      "organization": "香港特区政府社会福利署 (Social Welfare Department, HKSAR Government)"
     },
     {
       "date": "2019-10-21",
       "achievement": "出任香港特别行政区政府保安局常任秘书长",
-      "organization": "香港特别行政区政府保安局 (Security Bureau, HKSAR Government)"
+      "organization": "香港特区政府保安局 (Security Bureau, HKSAR Government)"
     },
     {
       "date": "2022-07-01",
       "achievement": "出任香港特别行政区行政长官办公室主任",
-      "organization": "香港特别行政区行政长官办公室 (Chief Executive's Office, HKSAR)"
+      "organization": "香港特别行政区行政长官办公室 (Office of the Chief Executive, HKSAR)"
     },
     {
       "date": null,
       "achievement": "获委任为太平绅士（JP）",
-      "organization": null
+      "organization": "香港特别行政区政府 (Government of the Hong Kong Special Administrative Region)"
     }
   ],
-  "biography_summary": "叶文娟 (Carol Yip Man-kuen)，1963年生于香港，籍贯广东潮州，香港特别行政区行政长官办公室主任，太平绅士。1987年于香港中文大学政治及行政学系毕业后加入政府政务职系，2015年晋升首长级甲级政务官，曾历任工业贸易署副署长、卫生福利及食物局及劳工及福利局副秘书长、保安局副秘书长、社会福利署署长（2013-2019）、保安局常任秘书长（2019-2022），2022年7月1日起出任行政长官办公室主任。",
+  "biography_summary": "叶文娟 (Carol Yip Man-kuen)，1963年生，香港特别行政区行政长官办公室主任，太平绅士。1987年于香港中文大学政治及行政学系毕业后加入政府政务职系，2015年晋升首长级甲级政务官，曾历任工业贸易署副署长、卫生福利及食物局及劳工及福利局副秘书长、保安局副秘书长、社会福利署署长（2013-2019）、保安局常任秘书长（2019-2022），2022年7月1日起出任行政长官办公室主任，2026年6月仍以该职随行政长官率团出访哈萨克斯坦及福建，在任持续。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -152,21 +137,25 @@
         "url": "https://www.directory.gov.hk/details.jsp?lang=chi&dn=cn%3D1113005901%2Cou%3DCEO%2Cou%3DPeople%2Co%3DGOVERNMENT%2Cc%3DHK"
       },
       {
-        "title": "香港特区政府新闻公报—候任行政长官就第六届政府主要官员任命记者会",
-        "url": "https://www.info.gov.hk/gia/general/202206/19/P2022061900541p.htm"
+        "title": "行政长官率团访问福建（2026年6月18日政府新闻公报，列明行政长官办公室主任葉文娟随团）",
+        "url": "https://www.info.gov.hk/gia/general/202606/18/P2026061800681.htm"
       },
       {
-        "title": "香港政府新闻网—叶文娟率团赴京研修考察",
-        "url": "https://www.news.gov.hk/chi/2023/11/20231119/20231119_110155_262.html"
+        "title": "香港特別行政區行政長官網站—多媒體資訊（2026年6月1日葉文娟訪問阿斯塔納）",
+        "url": "https://www.ceo.gov.hk/tc/multimedia-content.html?type=2026&date=20260601&id=1"
+      },
+      {
+        "title": "政府委任平等機會委員會主席（2024年3月19日：林美秀获委任平机会主席，非葉文娟）",
+        "url": "https://www.info.gov.hk/gia/general/202403/19/P2024031900476.htm"
       }
     ],
     "data_sources": [
       "directory.gov.hk（政府电话簿）",
       "info.gov.hk（政府新闻公报）",
-      "news.gov.hk（香港政府新闻网）",
+      "ceo.gov.hk（行政长官办公室官网）",
       "zh.wikipedia.org（中文维基百科，交叉核对）"
     ],
-    "completeness_score": 59,
-    "notes": "政府官员纯事实记录，仅引用官方来源（政府电话簿、政府新闻公报、政府新闻网），维基百科仅作履历交叉核对。出生年份1963年来自维基百科（官方页面未刊载具体出生日期），出生月日不详按规则填-01。Wikidata QID未查证到，留null。person_relationships中李家超关系为基于公开任命记录的客观职务从属关系。"
+    "completeness_score": 58,
+    "notes": "2026-09-07复核：经2026年6月政府新闻公报、行政长官办公室官网及2026年7月媒体报道确认，葉文娟现仍任行政长官办公室主任，现职核实无误。委托方背景中「平机会主席」说法经查不实——平机会主席为林美秀（2024年4月11日起三年任期），葉文娟并无平机会职务。birth_date原填1963-01-01，出生月日无任何来源依据，按规范改为null以免虚构精度，出生年份1963（仅维基百科单源）保留于biography_summary。current_positions由对象数组规范化为纯中文字符串；contacts的label字段改为source；education.degree中文学位名改为bachelor枚举并删除notes字段；work_experience删除非规范description字段，关键履历信息并入position。政府官员无官方个人社交账号，social_accounts保持为空。Wikidata QID未查证到，留null。"
   }
 }

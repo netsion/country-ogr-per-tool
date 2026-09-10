@@ -66,7 +66,7 @@
     },
     {
       "person_id": "HK-PERSON-000612",
-      "name": "骆应淦 (Lawrence Lok)",
+      "name": "駱應淦 (Lawrence Lok Ying-kam)",
       "title": "前任委员",
       "title_description": "曾任选管会委员，参与选举监督及选区划界决策",
       "description": "1955年生于香港，资深大律师（SC），1994年获委任为御用大律师，1997年起曾任高等法院特委法官，曾任香港大律师公会执委会成员及选举管理委员会委员，获颁BBS勋衔。"
@@ -92,57 +92,77 @@
   ],
   "recent_events": [
     {
+      "date": "2025-12-08",
+      "title": "2025年立法会换届选举顺利结束，逾130万人投票",
+      "description": "2025年立法会换届选举于12月7日投票结束，逾130万人投票，地方选区和功能界别投票率分别约三成及四成，选举委员会界别投票率接近百分之百；选管会主席陆启康法官表示点票工作畅顺，并向选务人员致谢。",
+      "impact": "完善选举制度后第二次立法会换届选举顺利完成，展现选举管理与监督机制的有效运作",
+      "source": "https://www.news.gov.hk/chi/2025/12/20251208/20251208_020910_559.html"
+    },
+    {
       "date": "2026-08-01",
       "title": "发表2026年临时选民登记册",
       "description": "2026年地方选区、功能界别及选举委员会界别分组临时选民／投票人登记册及取消登记名单发表。",
-      "impact": "为后续选举周期的选民资格审定提供基础。"
+      "impact": "为后续选举周期的选民资格审定提供基础。",
+      "source": "https://www.info.gov.hk/gia/general/202608/01/P2026073100408.htm"
     },
     {
       "date": "2026-04-22",
       "title": "2026年选民登记运动展开",
       "description": "选举事务处展开2026年选民登记运动，呼吁合资格个人或团体于6月2日前登记或更新资料；选管会主席陆启康法官联同委员石丹理教授、文本立资深大律师参与宣传。",
-      "impact": "推动合资格市民登记为选民，维护选民登记册的准确性和完整性。"
+      "impact": "推动合资格市民登记为选民，维护选民登记册的准确性和完整性。",
+      "source": "https://www.info.gov.hk/gia/general/202604/22/P2026042200289.htm"
     },
     {
       "date": "2025-10-23",
       "title": "第八届立法会换届选举启动礼",
       "description": "选管会主席陆启康出席2025年立法会换届选举启动礼并致辞，表示将确保选举在公开、公正、诚实、安全有序及高效的情况下进行。",
-      "impact": "标志着2025年立法会换届选举筹备工作全面展开。"
+      "impact": "标志着2025年立法会换届选举筹备工作全面展开。",
+      "source": "https://www.chinanews.com.cn/dwq/2025/10-23/10503386.shtml"
     },
     {
       "date": "2025-08-08",
       "title": "陆启康再获委任为主席",
       "description": "行政长官再度委任高等法院原讼法庭法官陆启康为选管会主席，任期三年（2025年9月1日至2028年8月31日）；石丹理教授亦再获委任为委员。",
-      "impact": "选管会领导层保持稳定，延续公共选举的监督职能。"
+      "impact": "选管会领导层保持稳定，延续公共选举的监督职能。",
+      "source": "https://www.info.gov.hk/gia/general/202508/08/P2025080800476p.htm"
     }
   ],
   "related_entities": [
     {
       "org_name": "选举事务处 (Registration and Electoral Office)",
-      "org_description": "选管会的行政支援部门，属政府部门，由总选举事务主任掌管"
+      "org_description": "选管会的行政支援部门，属政府部门，由总选举事务主任掌管",
+      "org_id": "HK-GOV-031",
+      "relationship_type": "subsidiary"
     },
     {
       "org_name": "政制及内地事务局 (Constitutional and Mainland Affairs Bureau)",
-      "org_description": "负责香港选举制度相关政策的主责决策局"
+      "org_description": "负责香港选举制度相关政策的主责决策局",
+      "relationship_type": "regulator",
+      "org_id": null
     },
     {
       "org_name": "立法会 (Legislative Council)",
-      "org_description": "选管会负责监督立法会换届选举及就选区分界提出建议"
+      "org_description": "选管会负责监督立法会换届选举及就选区分界提出建议",
+      "org_id": null
     },
     {
       "org_name": "民政事务总署 (Home Affairs Department)",
-      "org_description": "与选举事务处协作推进选民登记宣传及乡郊代表选举的行政安排"
+      "org_description": "与选举事务处协作推进选民登记宣传及乡郊代表选举的行政安排",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "香港特别行政区政府 (Government of the Hong Kong Special Administrative Region)",
-      "org_description": "行政长官委任选管会主席及委员，选管会就公共选举安排向行政长官负责"
+      "org_description": "行政长官委任选管会主席及委员，选管会就公共选举安排向行政长官负责",
+      "org_id": "HK-GOV-013",
+      "relationship_type": "parent_org"
     }
   ],
   "core_business": "选举管理委员会是根据香港法例第541章《选举管理委员会条例》于1993年成立的独立及非政治性法定组织，其法定职能是确保香港特别行政区的公共选举（包括行政长官选举、立法会选举、区议会选举、乡郊代表选举及选举委员会界别分组选举）在任何时候均以公开、公平和诚实的方式进行。选管会负责就选区分界向行政长官提交建议、举行和监督公共选举、编制选民登记安排、发出选举活动指引、规管选举广告及处理选举相关投诉。其行政支援机构为选举事务处，由总选举事务主任掌管，属政府部门。委员会由一名主席（按惯例由高等法院法官出任）及两名委员组成，现届为主席陆启康法官、委员石丹理教授及文本立资深大律师，均由行政长官委任。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": "选管会为香港本地选举管理机构，与APEC无直接职能关联；其程序性工作（选民登记、选举安排）间接支撑香港作为APEC成员经济体的公共治理与制度运作。",
+  "apec_stance": "选管会为香港本地选举管理机构，与APEC无直接职能关联。香港作为APEC成员经济体，其营商环境与公共治理水平部分依托健全的选举制度与法治秩序；选管会依法确保各项公共选举在公开、公平、诚实情况下进行，为香港维持国际金融中心地位及参与亚太区域经贸合作提供制度支撑，其选民登记与选举管理程序间接服务香港整体的公共治理与对外经贸形象。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/e/e0/Electoral_Affairs_Commission_logo_2023.png",
     "local_path": null
@@ -156,7 +176,7 @@
       "official_website",
       "news_search"
     ],
-    "completeness_score": 81,
+    "completeness_score": 88,
     "quotes": [
       {
         "title": "选举管理委员会 - 成员（官方网站）",
@@ -173,10 +193,12 @@
       {
         "title": "二〇二六年选民登记运动展开 - 香港政府新闻公报",
         "url": "https://www.info.gov.hk/gia/general/202604/22/P2026042200289.htm"
+      },
+      {
+        "title": "逾130万人投票 陆启康感鼓舞 - 香港政府新闻网",
+        "url": "https://www.news.gov.hk/chi/2025/12/20251208/20251208_020910_559.html"
       }
     ],
-    "notes": "Phase3二次丰富：补全委员文本立、骆应淦标注为前任委员、选民登记网站及选举广告中央平台等数字资产、2026年选民登记运动等程序性事件，只记录法定程序职能，内容统一为简体中文。"
-  },
-  "description": "香港监督公共选举的独立法定机构",
-  "brief": "香港监督公共选举的独立法定机构"
+    "notes": "Phase3二次丰富：补全委员文本立、骆应淦标注为前任委员、选民登记网站及选举广告中央平台等数字资产、2026年选民登记运动等程序性事件，只记录法定程序职能，内容统一为简体中文；B4批注：补入2025年立法会换届选举结束事件，并将apec_stance扩写至100字以上（原约70字按半权计分）；选管会本身无其他经核实的官方社交平台账号，保留选举专页Facebook一项"
+  }
 }

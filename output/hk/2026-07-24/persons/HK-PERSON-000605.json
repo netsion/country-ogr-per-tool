@@ -15,95 +15,96 @@
   "contacts": [
     {
       "type": "website",
-      "value": "https://www.fstb.gov.hk",
+      "value": "https://www.fstb.gov.hk/tc/aboutus/biography-of-sfst.htm",
       "source": "https://www.fstb.gov.hk"
-    },
-    {
-      "type": "website",
-      "value": "https://www.fstb.gov.hk",
-      "source": "https://www.fstb.gov.hk/sc/aboutus/biography-of-sfst.htm"
     }
   ],
   "current_positions": [
-    "香港特别行政区财经事务及库务局局长",
-    "香港特别行政区行政会议官守议员",
-    "香港特别行政区政府财经事务及库务局局长",
-    "九广铁路公司管理局主席",
+    "财经事务及库务局局长",
+    "行政会议官守成员",
+    "九广铁路公司主席",
     "香港铁路有限公司董事",
     "香港机场管理局董事会成员"
   ],
   "education": [
     {
       "start_date": null,
-      "end_date": "1999",
-      "institution": "香港大学 (The University of Hong Kong)",
-      "degree": "bachelor",
-      "field": "经济及金融"
+      "end_date": null,
+      "institution": "張祝珊英文中學 (Cheung Chuk Shan College)",
+      "degree": "high_school",
+      "field": "中学"
     },
     {
       "start_date": null,
       "end_date": null,
-      "institution": "哈佛大学 (Harvard University)",
+      "institution": "牛津大學 (University of Oxford)",
+      "degree": "bachelor",
+      "field": "哲学、政治学及经济学（PPE，荣誉学士）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "牛津大學 (University of Oxford)",
       "degree": "master",
-      "field": "公共行政"
+      "field": "哲学、政治学及经济学（文学硕士）"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "歐洲工商管理學院 (INSEAD)",
+      "degree": "master",
+      "field": "工商管理（MBA）"
     }
   ],
   "work_experience": [
     {
       "start_date": "1999",
-      "end_date": "2016",
-      "organization": "香港特区政府 (Government of Hong Kong SAR)",
-      "org_id": "HK-GOV-013",
-      "position": "政务主任，历任财经事务及库务局、保安局等多个岗位"
-    },
-    {
-      "start_date": "2016",
-      "end_date": "2020",
-      "organization": "香港金融发展局 (Financial Services Development Council)",
-      "org_id": null,
-      "position": "行政总监"
-    },
-    {
-      "start_date": "2020-04-22",
-      "end_date": null,
-      "organization": "财经事务及库务局 (Financial Services and the Treasury Bureau)",
-      "org_id": "HK-GOV-012",
-      "position": "局长"
-    },
-    {
-      "start_date": "1999",
       "end_date": "2003",
-      "organization": "香港特别行政区政府 (Government of Hong Kong)",
+      "organization": "香港特別行政區政府 (Government of Hong Kong SAR)",
       "org_id": "HK-GOV-013",
       "position": "政务主任，曾调派经济发展科、驻北京办事处及民政事务总署"
     },
     {
       "start_date": "2006",
       "end_date": "2018",
-      "organization": "香港交易及结算所有限公司 (Hong Kong Exchanges and Clearing)",
+      "organization": "香港交易及結算所有限公司 (Hong Kong Exchanges and Clearing)",
       "org_id": "HK-FIN-007",
       "position": "历任要职，官至市场发展科董事总经理兼项目管理主管"
     },
     {
       "start_date": "2019",
       "end_date": "2020",
-      "organization": "香港金融发展局 (Financial Services Development Council)",
+      "organization": "香港金融發展局 (Financial Services Development Council)",
       "org_id": null,
       "position": "行政总监"
     },
     {
       "start_date": "2020-04-22",
       "end_date": null,
-      "organization": "财经事务及库务局 (Financial Services and the Treasury Bureau)",
+      "organization": "財經事務及庫務局 (Financial Services and the Treasury Bureau)",
       "org_id": "HK-GOV-012",
       "position": "局长（2022年7月1日获再度任命）"
     },
     {
+      "start_date": "2020-04-22",
+      "end_date": null,
+      "organization": "九廣鐵路公司 (Kowloon-Canton Railway Corporation)",
+      "org_id": "HK-CORP-015",
+      "position": "主席（局长兼任）"
+    },
+    {
       "start_date": null,
       "end_date": null,
-      "organization": "九广铁路公司 (Kowloon-Canton Railway Corporation)",
-      "org_id": "HK-CORP-015",
-      "position": "管理局主席"
+      "organization": "香港鐵路有限公司 (MTR Corporation)",
+      "org_id": "HK-CORP-016",
+      "position": "董事"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "香港機場管理局 (Airport Authority Hong Kong)",
+      "org_id": "HK-GOV-001",
+      "position": "董事会成员"
     }
   ],
   "person_relationships": [
@@ -114,7 +115,7 @@
       "description": "行政长官，许正宇为其问责班子留任成员"
     },
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-001420",
       "person_name": "许晓晖 (Florence Hui)",
       "relationship_type": "other",
       "description": "已故民政事务局前副局长许晓晖胞弟"
@@ -124,9 +125,21 @@
   "family_members": [
     {
       "person_id": null,
+      "name": "許宏全",
+      "relationship": "father",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": "HK-PERSON-001420",
       "name": "许晓晖",
-      "relationship": "other",
+      "relationship": "sister",
       "industry_or_organization": "曾任香港特区政府民政事务局副局长"
+    },
+    {
+      "person_id": null,
+      "name": "陳妍妮",
+      "relationship": "spouse",
+      "industry_or_organization": "摩根大通 (J.P. Morgan) 亚洲区董事总经理"
     }
   ],
   "political_stances": [
@@ -143,61 +156,53 @@
       "source": "https://www.fstb.gov.hk"
     },
     {
-      "date": "",
+      "date": "2023",
       "topic": "金融市场发展",
       "stance_content": "任内推动香港作为国际金融中心的发展，包括家族办公室业务、绿色金融及虚拟资产监管制度建设等财经政策。",
-      "source": "https://www.fstb.gov.hk/sc/aboutus/biography-of-sfst.htm"
+      "source": "https://www.fstb.gov.hk/tc/aboutus/biography-of-sfst.htm"
     }
   ],
   "major_achievements": [
     {
-      "date": "2020",
-      "organization": "香港特区政府",
-      "achievement": "出任财经事务及库务局局长，负责金融监管、政府财政及公共开支政策"
-    },
-    {
-      "date": "",
-      "organization": "香港特区政府",
-      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
-    },
-    {
       "date": "2020-04",
-      "organization": "香港特别行政区政府 (Government of Hong Kong)",
-      "achievement": "以43岁之龄获委任为财经事务及库务局局长，为历来最年轻的局长级官员之一"
+      "organization": "香港特别行政區政府 (Government of Hong Kong SAR)",
+      "achievement": "以43岁之龄获委任为财经事务及库务局局长，为历来最年轻的局长级官员之一，2022年7月1日获再度任命留任"
+    },
+    {
+      "date": "2023",
+      "organization": "香港特别行政區政府 (Government of Hong Kong SAR)",
+      "achievement": "获颁金紫荆星章（GBS）并获委任为太平绅士（JP）"
     }
   ],
-  "biography_summary": "许正宇（Christopher Hui），GBS，JP，1976年生，香港政治人物及公务员，现任财经事务及库务局局长。他1999年至2003年任职特区政府政务主任，曾被调派到经济发展科、香港特区政府驻北京办事处和民政事务总署服务。2003年离开政府后曾在香港交易所工作，2006年至2018年在香港交易及结算所有限公司任职至市场发展科董事总经理兼项目管理主管，2019年起出任香港金融发展局行政总监。2020年4月22日获国务院任命为财经事务及库务局局长，为当年最年轻的局长级官员之一，2022年7月获再度任命。他现兼任香港铁路有限公司董事、香港机场管理局董事会成员及九广铁路公司管理局主席。其胞姊为已故民政事务局前副局长许晓晖。",
+  "biography_summary": "许正宇（Christopher Hui），GBS，JP，1976年生（仅知出生年份），香港政治人物及公务员，2020年4月22日起出任财经事务及库务局局长，2022年7月1日获再度任命留任至今。他中学就读张祝珊英文中学，毕业于英国牛津大学哲学、政治学及经济学系（荣誉学士与硕士），并持INSEAD工商管理硕士学位。他1999年至2003年任职特区政府政务主任，曾被调派到经济发展科、驻北京办事处和民政事务总署；2003年离开政府后任职银行界，其后在香港交易所任职13年至市场发展科董事总经理兼项目管理主管，2019年起出任香港金融发展局行政总监。现兼任九广铁路公司主席、香港铁路有限公司董事及香港机场管理局董事会成员。其胞姊为已故民政事务局前副局长许晓晖，妻子陈妍妮为摩根大通亚洲区董事总经理。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Christopher_Hui_20201223_%28cropped%29.png/250px-Christopher_Hui_20201223_%28cropped%29.png",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
-      "official_website"
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 72,
+    "completeness_score": 75,
     "quotes": [
       {
-        "title": "財經事務及庫務局局長官方简历",
-        "url": "https://www.fstb.gov.hk/en/aboutus/biography-of-sfst.htm"
+        "title": "局長簡歷 - 財經事務及庫務局",
+        "url": "https://www.fstb.gov.hk/tc/aboutus/biography-of-sfst.htm"
+      },
+      {
+        "title": "九廣鐵路公司 - 管理局及管理層",
+        "url": "https://www.kcrc.com/tc/about-kcrc/managing-board-and-management.html"
       },
       {
         "title": "許正宇 - 維基百科",
         "url": "https://zh.wikipedia.org/wiki/%E8%A8%B1%E6%AD%A3%E5%AE%87"
-      },
-      {
-        "title": "财经事务及库务局：局长简历",
-        "url": "https://www.fstb.gov.hk/sc/aboutus/biography-of-sfst.htm"
-      },
-      {
-        "title": "中文维基百科：许正宇",
-        "url": "https://zh.wikipedia.org/wiki/許正宇"
       }
     ],
-    "notes": "修正原lite错误QID Q112657820（新西兰会计学者），经zh-wiki条目匹配Q91408367 | Merged duplicate HK-PERSON-0011712026-08-27覆核：本人无个人公开社交账号（财经事务及库务局动态经局方官方渠道发布），social保持空。"
+    "notes": "2026-09-07覆核：(1)补出生年份1976（中文维基，仅知年份故不写精确日期）；(2)经财库局官方局长简历及九铁公司官网核实现任职务：局长（留任中）、九广铁路公司主席、港铁公司董事、机场管理局董事会成员，并以org索引补HK-CORP-016（港铁）、HK-GOV-001（机管局）org_id；(3)合并work_experience重复条目（政务主任两条、金发局两条、局长两条合并为一，金发局任期按维基订正为2019-2020）；(4)current_positions去重；(5)家庭关系规范化：许晓晖改为sister，补妻子陈妍妮（维基载）；(6)contacts去重。本人无个人公开社交账号，social保持空。原lite错误QID Q112657820已修正为Q91408367。2026-09-10复检：(1)重大修正学历——原档案香港大学经济学及金融学士（1999）+哈佛公共行政硕士无任何来源佐证，财库局官方局长简历与中文维基一致载牛津大学哲学、政治学及经济学荣誉学士与硕士及INSEAD工商管理硕士，另补中学张祝珊英文中学，已整体替换education；(2)birth_date原写「1976」不符合schema全日期格式，虚构精度置null，年份保留于biography_summary及本备注；(3)九广铁路公司主席start_date按中文维基信息框补2020-04-22（与局长就任同日）；(4)补父亲许宏全（维基信息框，行业不详置null）；(5)经财库局官网（现版局长简历）再次确认2026年9月仍在任局长，九铁主席、港铁董事、机管局董事会成员职务不变。所有org_id经_name_index.json核验有效。"
   }
 }

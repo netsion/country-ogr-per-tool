@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-001257",
-  "wikidata_qid": null,
+  "wikidata_qid": "Q18659347",
   "name": "許晨曄",
   "name_zh": "许晨晔",
   "name_en": "Daniel Xu",
@@ -14,93 +14,84 @@
   "gender": "male",
   "birth_date": "1971-04-10",
   "birth_place": "天津",
-  "contacts": {
-    "email": null,
-    "phone": null,
-    "address": "深圳市南山区科技中一路腾讯大厦",
-    "website": "https://www.tencent.com"
-  },
-  "current_positions": [
+  "contacts": [
     {
-      "title": "首席信息官 (CIO)",
-      "organization": "腾讯 (Tencent)",
-      "org_id": "HK-CORP-022",
-      "start_date": "1999",
-      "end_date": null,
-      "source": "腾讯管理层公开资料、维基百科"
-    },
-    {
-      "title": "高级执行副总裁",
-      "organization": "腾讯 (Tencent)",
-      "org_id": "HK-CORP-022",
-      "start_date": null,
-      "end_date": null,
-      "source": "腾讯公司公开资料"
+      "type": "website",
+      "value": "https://www.tencent.com",
+      "source": "腾讯公司官网"
     }
+  ],
+  "current_positions": [
+    "腾讯首席信息官"
   ],
   "education": [
     {
       "institution": "深圳大学 (Shenzhen University)",
-      "degree": "理学士",
+      "degree": "bachelor",
       "field": "计算机及应用",
-      "year": "1993"
+      "end_date": "1993"
     },
     {
       "institution": "南京大学 (Nanjing University)",
-      "degree": "硕士",
+      "degree": "master",
       "field": "计算机应用",
-      "year": "1996"
+      "end_date": "1996"
     }
   ],
   "work_experience": [
     {
-      "title": "首席信息官",
       "organization": "腾讯 (Tencent)",
       "org_id": "HK-CORP-022",
       "start_date": "1999",
       "end_date": null,
-      "description": "腾讯主要创办人之一，1999年起受雇于集团，全面负责公司网站财产和社区、客户关系及公共关系的策略规划和发展工作。"
+      "position": "首席信息官"
     },
     {
-      "title": "高级执行副总裁",
-      "organization": "腾讯 (Tencent)",
-      "org_id": "HK-CORP-022",
-      "start_date": null,
-      "end_date": null,
-      "description": "兼任集团高级执行副总裁。"
-    },
-    {
-      "title": "技术岗位",
       "organization": "深圳电信数据分局 (Shenzhen Telecom Data Communications Bureau)",
       "org_id": null,
       "start_date": null,
       "end_date": "1999",
-      "description": "南京大学硕士毕业后进入深圳电信数据分局工作，积累了软件系统设计与网络应用经验，与腾讯另一位联合创始人曾李青为同事。"
+      "position": "技术岗位"
     }
   ],
   "person_relationships": [
     {
-      "related_person": "马化腾 (Pony Ma)",
-      "relation": "中学及大学同学、腾讯联合创始人同事",
-      "source": "公开报道"
+      "person_id": "HK-PERSON-001148",
+      "person_name": "马化腾 (Pony Ma)",
+      "relationship_type": "colleague",
+      "description": "中学及大学同学、腾讯联合创始人同事（来源：公开报道）"
     },
     {
-      "related_person": "曾李青",
-      "relation": "深圳电信数据分局前同事、腾讯联合创始人",
-      "source": "公开报道"
+      "person_id": "HK-PERSON-000059",
+      "person_name": "曾李青",
+      "relationship_type": "colleague",
+      "description": "深圳电信数据分局前同事、腾讯联合创始人（来源：公开报道）"
     }
   ],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
-    "腾讯控股有限公司五位主要联合创始人之一（与马化腾、张志东、曾李青、陈一丹共同创立）",
-    "长期担任腾讯首席信息官，负责公司信息系统、网站财产与社区及客户关系的策略规划",
-    "2024年3月以110亿元人民币财富位列《胡润百富榜》相关榜单（公开报道）"
+    {
+      "date": "1998",
+      "achievement": "与马化腾、张志东、曾李青、陈一丹共同创立腾讯",
+      "organization": "腾讯 (Tencent)"
+    },
+    {
+      "date": "1999",
+      "achievement": "起担任腾讯首席信息官，负责公司网站财产和社区、客户关系及公共关系的策略规划和发展工作",
+      "organization": "腾讯 (Tencent)"
+    },
+    {
+      "date": "2024",
+      "achievement": "以110亿元人民币财富位列《胡润百富榜》相关榜单（公开报道）",
+      "organization": "胡润百富 (Hurun Report)"
+    }
   ],
-  "biography_summary": "许晨晔 (Daniel Xu)，1971年4月10日出生，腾讯公司主要联合创始人之一，现任腾讯首席信息官 (CIO) 兼高级执行副总裁，全面负责公司网站财产和社区、客户关系及公共关系的策略规划和发展工作。1993年获深圳大学计算机及应用理学士学位，1996年获南京大学计算机应用硕士学位，毕业后曾任职于深圳电信数据分局，1999年与马化腾、张志东、曾李青、陈一丹共同创立腾讯，自1999年起受雇于集团至今。",
+  "biography_summary": "许晨晔 (Daniel Xu)，1971年4月10日出生，腾讯公司主要联合创始人之一，现任腾讯首席信息官 (CIO)，全面负责公司网站财产和社区、客户关系及公共关系的策略规划和发展工作。1993年获深圳大学计算机及应用理学士学位，1996年获南京大学计算机应用硕士学位，毕业后曾任职于深圳电信数据分局，1998年与马化腾、张志东、曾李青、陈一丹共同创立腾讯，自1999年起负责网站财产、社区及客户关系的策略规划工作至今。腾讯于香港联合交易所上市（0700.HK）。",
   "profile": {
-    "notes": "出生日期1971-04-10来自中文维基百科条目；出生地天津来自媒体报道（自小随父母从天津到广东），单源信息已在biography_summary中谨慎表述。腾讯于香港联合交易所上市（HKEX: 0700），组织档案归入香港特别行政区数据集。国籍按公开资料为中国 (CN)。",
+    "source_url": "https://zh.wikipedia.org/zh-hans/%E8%AE%B8%E6%99%A8%E6%99%94",
+    "notes": "出生日期1971-04-10来自中文维基百科条目（2026-09-07复核仍为现任首席信息官，其引述腾讯官网存档于2026-01-22）；出生地天津来自媒体报道（自小随父母从天津到广东），中文维基百科信息框则载出生地为广东深圳，两源不一致，保留天津并谨慎表述。原档案所载「高级执行副总裁」头衔未获2026年官方来源证实，已移除。腾讯于香港联合交易所上市（HKEX: 0700），组织档案归入香港特别行政区数据集。国籍按公开资料为中国 (CN)。",
     "languages": [
       "中文",
       "英语"
@@ -108,18 +99,19 @@
     "religion": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
-    "completeness_score": 54,
+    "completeness_score": 52,
     "data_sources": [
       "zh.wikipedia.org",
       "baike.baidu.com",
       "szu.edu.cn",
-      "sina.com.cn"
+      "sina.com.cn",
+      "wikidata.org"
     ],
     "quotes": [
       {
-        "title": "许晨晔 — 中文维基百科（腾讯首席信息官、出生日期及学历）",
+        "title": "许晨晔 — 中文维基百科（腾讯首席信息官、出生日期及学历，2026-09-07复核仍为现任CIO）",
         "url": "https://zh.wikipedia.org/zh-hans/%E8%AE%B8%E6%99%A8%E6%99%94"
       },
       {
@@ -131,8 +123,8 @@
         "url": "https://finance.sina.com.cn/tech/2022-01-12/doc-ikyamrmz4752299.shtml"
       },
       {
-        "title": "腾讯五虎将 — 百度百科（五位创始股东、CIO职务）",
-        "url": "https://baike.baidu.com/item/%E8%85%BE%E8%AE%AF%E4%BA%94%E8%99%8E%E5%B0%86/13779799"
+        "title": "许晨晔 Daniel Xu — Wikidata条目Q18659347（腾讯联合创始人兼首席信息官）",
+        "url": "https://www.wikidata.org/wiki/Q18659347"
       }
     ]
   }

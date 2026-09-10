@@ -57,15 +57,15 @@
     },
     {
       "person_id": "HK-PERSON-000621",
-      "name": "孙孝明 (Ted Suen)",
+      "name": "孙耀达 (Ted Suen)",
       "name_en": "Ir Dr Ted Suen",
       "title": "行政总裁",
       "title_description": "2025年7月2日起出任行政总裁，负责应科院日常运营及研发管理",
       "description": "工程师博士（新闻稿中亦作「孙耀达」），具备逾30年资讯科技经验，擅长资讯科技服务外包、大型系统整合及数码转型，加入应科院前曾任联想电讯盈科企业方案有限公司（LPS）总裁，2025年6月获聘任为应科院行政总裁，任期三年，领导应科院研发及业界技术转移，推动在智慧城市、金融科技及数码健康等领域的应用落地。"
     },
     {
-      "person_id": "HK-PERSON-001204",
-      "name": "陈志豪 (Henry Chung)",
+      "person_id": "HK-PERSON-001456",
+      "name": "Henry Chung",
       "name_en": "Henry Shu-hung Chung",
       "title": "董事局成员",
       "title_description": "2025年10月获委任加入应科院董事局",
@@ -107,53 +107,68 @@
       "date": "2025-02-10",
       "title": "举办首届「应用科技高峰会」",
       "description": "应科院在香港会议展览中心举办首届应用科技高峰会，汇聚全球40多位政产学研投领袖，热议生成式人工智能、低空经济、智慧城市等议题，吸引逾1500位来宾，会上签署多份合作备忘录。",
-      "impact": "确立应科院作为香港最大研发中心在区域创科生态的「超级联系人」角色。"
+      "impact": "确立应科院作为香港最大研发中心在区域创科生态的「超级联系人」角色。",
+      "source": "https://itpromag.com/2025/02/10/astri-tech-applied-summit/"
     },
     {
       "date": "2025-07-02",
-      "title": "孙孝明（Ted Suen）出任行政总裁",
-      "description": "应科院聘任孙孝明博士工程师（新闻稿作孙耀达）为行政总裁，任期三年；其曾任联想电讯盈科企业方案总裁，具备逾30年资讯科技经验。",
-      "impact": "为应科院在合并NAMI后的扩展期引入企业级科技管理经验。"
+      "title": "孙耀达（Ted Suen）出任行政总裁",
+      "description": "应科院聘任孙耀达博士工程师为行政总裁，任期三年；其曾任联想电讯盈科企业方案总裁，具备逾30年资讯科技经验。",
+      "impact": "为应科院在合并NAMI后的扩展期引入企业级科技管理经验。",
+      "source": "https://itpromag.com/2025/06/16/astri-ted-suen/"
     },
     {
       "date": "2025-10-20",
       "title": "李惠光获续任董事局主席",
       "description": "特区政府续任李惠光为应科院董事局主席（任期至2026年10月20日），并委任城大副校长陈志豪、建筑师苏晴及城大协理副校长谢俊明等三名新成员加入董事局。",
-      "impact": "董事局补充学术界及专业界别力量，强化治理与产学研协作。"
+      "impact": "董事局补充学术界及专业界别力量，强化治理与产学研协作。",
+      "source": "https://metroradio.com.hk/news/details.aspx?CategoryName=finance&NewsID=20251020172409"
     },
     {
       "date": "2026-04-01",
       "title": "应科院与NAMI完成策略合并",
       "description": "应科院与纳米及先进材料研发院（NAMI）完成策略合并，整合香港应用研发资源，技术版图扩展至先进材料领域。",
-      "impact": "巩固应科院作为香港最大政府资助研发中心的地位，提升服务大湾区创科生态的能力。"
+      "impact": "巩固应科院作为香港最大政府资助研发中心的地位，提升服务大湾区创科生态的能力。",
+      "source": "https://www.astri.org/tc/news-detail/astri-and-nami-complete-strategic-merger-to-propel-hong-kongs-innovation-leadership/"
     },
     {
       "date": "2026-04-13",
       "title": "于香港国际创科展展示「医」食住行科技",
       "description": "应科院在2026年香港国际创科展展出历届规模最大的技术阵容，包括5G远程控制塔式起重机及入围爱迪生奖2026的精密定位技术等。",
-      "impact": "印证合并带来的协同效应，展示应科院综合科研实力。"
+      "impact": "印证合并带来的协同效应，展示应科院综合科研实力。",
+      "source": "https://www.astri.org/sc/news-detail/astri-showcases-smart-technologies-forhealthcare-food-living-and-mobility-at-innoex-2026/"
     }
   ],
   "related_entities": [
     {
       "org_name": "创新科技署 (Innovation and Technology Commission)",
-      "org_description": "特区政府负责创科政策及资助的部门，应科院为其资助的主要研发机构"
+      "org_description": "特区政府负责创科政策及资助的部门，应科院为其资助的主要研发机构",
+      "relationship_type": "parent_org",
+      "org_id": null
     },
     {
       "org_name": "纳米及先进材料研发院 (NAMI)",
-      "org_description": "2026年4月与应科院完成策略合并，整合先进材料研发能力"
+      "org_description": "2026年4月与应科院完成策略合并，整合先进材料研发能力",
+      "relationship_type": "predecessor",
+      "org_id": null
     },
     {
       "org_name": "香港科技园公司 (HKSTP)",
-      "org_description": "香港创科生态主要推动者，与应科院在技术孵化及企业合作方面协作"
+      "org_description": "香港创科生态主要推动者，与应科院在技术孵化及企业合作方面协作",
+      "relationship_type": "partner",
+      "org_id": null
     },
     {
       "org_name": "香港城市大学 (CityU)",
-      "org_description": "多名董事局成员来自城大，双方在数码健康及创新科研领域有密切合作"
+      "org_description": "多名董事局成员来自城大，双方在数码健康及创新科研领域有密切合作",
+      "org_id": "HK-ACAD-002",
+      "relationship_type": "partner"
     },
     {
       "org_name": "香港生产力促进局 (HKPC)",
-      "org_description": "香港另一主要政府资助机构，与应科院在新型工业化及智能制造方面协作"
+      "org_description": "香港另一主要政府资助机构，与应科院在新型工业化及智能制造方面协作",
+      "org_id": "HK-GOV-019",
+      "relationship_type": "partner"
     }
   ],
   "core_business": "香港应用科技研究院（应科院）由香港特别行政区政府于2000年成立，是香港最大的政府资助研发中心，使命是透过应用科技研究提升香港竞争力，并担当促进香港、大湾区以至全球创新生态圈发展的「超级联系人」。应科院由行政总裁领导，向董事局负责，董事局下设财务与行政、科技及审计三个功能委员会。应科院设五个技术部门，涵盖先进电子元件及系统、人工智能及可信技术、通讯技术、智能感知与控制技术、物联网感测与人工智能技术，研发成果应用于智慧城市、金融科技、新型工业化及智能制造、数码健康科技、专用集成电路及元宇宙六项重点范畴。应科院至今已将约1,600项技术转让给业界，并在中国内地、美国及其他国家获授接近1,200项专利，2026年4月与纳米及先进材料研发院（NAMI）完成策略合并后，技术版图进一步扩展至先进材料领域。",
@@ -202,8 +217,6 @@
         "url": "https://www.astri.org/sc/news-detail/astri-showcases-smart-technologies-forhealthcare-food-living-and-mobility-at-innoex-2026/"
       }
     ],
-    "notes": "P3二次丰富：更正行政总裁为Ted Suen（孙孝明/孙耀达，2025年7月履新）、新增NAMI合并完成及创科展事件、功能委员会、陈志豪（person_id留null待分配）"
-  },
-  "description": "香港最大的政府资助应用科技研发中心",
-  "brief": "香港最大的政府资助应用科技研发中心"
+    "notes": "P3二次丰富：行政总裁为Ted Suen（孙耀达，2025年7月履新；早前档案误记孙孝明，已核实更正）、新增NAMI合并完成及创科展事件、功能委员会、陈志豪（person_id留null待分配）"
+  }
 }

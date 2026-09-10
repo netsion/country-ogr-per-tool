@@ -100,39 +100,48 @@
       "date": "2026-03-11",
       "title": "发布人民币国际化旗舰报告《流动的人民币：企业跨境新动能》",
       "description": "渣打银行发布基于对全球19个行业近300家大型企业调研的人民币国际化旗舰报告，显示全球企业已在贸易和供应链领域广泛使用人民币，融资和财资管理领域仍有广阔机遇；渣打是唯一将人民币国际化纳入集团战略的国际银行。",
-      "impact": "巩固渣打在跨境人民币及企业出海金融服务领域的领先地位，香港离岸人民币枢纽角色进一步强化。"
+      "impact": "巩固渣打在跨境人民币及企业出海金融服务领域的领先地位，香港离岸人民币枢纽角色进一步强化。",
+      "source": "https://www.sc.com/cn/news-media/rmbi-report/"
     },
     {
       "date": "2025-05-08",
       "title": "Maria Ramos出任集团主席",
       "description": "鉴于韦浩思接近服务满九年任期，渣打委任65岁的Maria Ramos于2025年5月8日起接任集团主席。",
-      "impact": "集团治理层完成换届，市场预期战略延续。"
+      "impact": "集团治理层完成换届，市场预期战略延续。",
+      "source": "https://www.sc.com/en/press-release/maria-ramos-chair-standard-chartered-announcement/"
     },
     {
       "date": "2026-02-24",
       "title": "公布2025年全年业绩，提前一年完成回报目标",
       "description": "2025年列账基准税前盈利69.63亿美元，同比增长16%；经营收入209.42亿美元，增长21%；有形股东权益基本回报达14.7%，提前一年完成三年计划目标。",
-      "impact": "财富管理及跨境业务双轮驱动对冲降息压力，集团盈利能力显著提升。"
+      "impact": "财富管理及跨境业务双轮驱动对冲降息压力，集团盈利能力显著提升。",
+      "source": "https://www.sc.com/cn/news-media/2025-financial-results/"
     },
     {
       "date": "2025-10-30",
       "title": "第三季度业绩强劲，上调全年回报指引",
       "description": "渣打集团2025年第三季度业绩显示环球市场业务大幅增长，集团预期2025年有形股东权益基本回报约13%（其后全年实际达14.7%）。",
-      "impact": "受益于全球贸易及投资结构性调整带来的网络业务机会，亚太市场增长稳健。"
+      "impact": "受益于全球贸易及投资结构性调整带来的网络业务机会，亚太市场增长稳健。",
+      "source": "https://www.hl.co.uk/shares/share-research/standard-chartered-q3-results-guidance-raised"
     }
   ],
   "related_entities": [
     {
       "org_name": "渣打银行（香港）有限公司 (Standard Chartered Bank Hong Kong)",
-      "org_description": "集团在香港的持牌银行实体，香港三家发钞银行之一"
+      "org_description": "集团在香港的持牌银行实体，香港三家发钞银行之一",
+      "relationship_type": "subsidiary",
+      "org_id": "HK-FIN-010"
     },
     {
       "org_name": "香港交易及结算所 (HKEX)",
-      "org_description": "渣打集团于香港联交所上市（股份代号2888），主要上市地为伦敦"
+      "org_description": "渣打集团于香港联交所上市（股份代号2888），主要上市地为伦敦",
+      "org_id": "HK-FIN-007"
     },
     {
       "org_name": "渤海银行 (Bank of Bohai)",
-      "org_description": "渣打持股的中国内地全国性股份制商业银行，为集团在内地的重要战略投资"
+      "org_description": "渣打持股的中国内地全国性股份制商业银行，为集团在内地的重要战略投资",
+      "relationship_type": "minority_shareholder",
+      "org_id": null
     }
   ],
   "core_business": "渣打银行（Standard Chartered PLC）是总部位于伦敦的英国跨国银行集团，1853年创立，历史可追溯至在南非、印度及中国开展业务的特许银行。集团专注于亚洲、非洲和中东等新兴市场，业务网络覆盖约60个市场，提供环球银行、环球市场、财富管理及零售银行服务，包括贸易融资、企业贷款、外汇资金管理、跨境财富方案及数码银行。香港是渣打最大的利润来源市场之一，渣打银行（香港）为香港三家发钞银行之一，并在香港联交所上市（股份代号2888）。近年集团以财富管理与跨境业务为增长引擎，2025年经营收入增长21%至209.42亿美元。",
@@ -177,7 +186,5 @@
       }
     ],
     "notes": "P3再丰富：更新禤惠仪为大中华及北亚区行政总裁，新增2026年人民币国际化旗舰报告事件，apec_stance补充跨境人民币与金融经贸事实；已有person_id全部原样保留"
-  },
-  "description": "英国跨国银行和金融服务公司",
-  "brief": "英国跨国银行和金融服务公司"
+  }
 }

@@ -18,9 +18,7 @@
     {
       "institution": "金文泰中学 (Clementi Secondary School)",
       "degree": null,
-      "field": null,
-      "year": null,
-      "notes": "中学（预科中六）毕业"
+      "field": null
     }
   ],
   "work_experience": [
@@ -29,7 +27,6 @@
       "org_id": null,
       "start_date": "2004-10-01",
       "end_date": "2010-01-28",
-      "description": "地区直选当选连任，2010年1月辞职引发补选后于同年5月补选重回立法会",
       "position": "立法会议员（新界东选区）"
     },
     {
@@ -37,7 +34,6 @@
       "org_id": null,
       "start_date": "2010-05-17",
       "end_date": "2017-07-14",
-      "description": "2017年7月14日高等法院裁定其2016年宣誓无效，自2016年10月12日起丧失议员资格",
       "position": "立法会议员（新界东选区）"
     },
     {
@@ -45,7 +41,6 @@
       "org_id": "HK-PARTY-007",
       "start_date": "2012-01-01",
       "end_date": "2016-12-31",
-      "description": "曾任主席（2012－2016），2006－2025年任执行委员，为创党成员之一",
       "position": "主席"
     },
     {
@@ -53,14 +48,15 @@
       "org_id": null,
       "start_date": "1988-01-01",
       "end_date": null,
-      "description": "1988年与他人共同成立政治团体四五行动并任总代表",
       "position": "总代表"
     }
   ],
   "person_relationships": [
     {
-      "notes": "2021年结婚，陈宝莹为社会民主连线成员",
-      "person_name": "陈宝莹"
+      "person_id": "HK-PERSON-001202",
+      "person_name": "陳寶瑩 (Chan Po-ying)",
+      "relationship_type": "spouse",
+      "description": "2021年结婚，陈宝莹为社会民主连线成员"
     }
   ],
   "social_accounts": [],
@@ -89,7 +85,7 @@
     "notes": "高敏感政治人物，按内容安全约束仅记录基础履历事实（出生、职业、任期、政党职务），司法记录以一句客观表述写入biography_summary。数据来源限于中文维基百科与立法会官方资料库。政治立场细节按规则不予收录。"
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "quotes": [
       {
@@ -106,6 +102,7 @@
       "立法会官方资料库",
       "组织档案HK-PARTY-007"
     ],
-    "completeness_score": 49
+    "completeness_score": 49,
+    "notes": "2026-09-07 字段规范化：移除 work/education 规则外字段、关系人名改索引格式并补 spouse。"
   }
 }

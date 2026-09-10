@@ -21,6 +21,8 @@
     "信和酒店（集团）有限公司非执行董事 (Non-Executive Director, Sino Hotels (Holdings) Limited)",
     "香港总商会理事会副主席",
     "香港旅游发展局成员",
+    "香港艺术节协会执行委员会成员",
+    "香港历史文物保育建设有限公司董事",
     "中国人民政治协商会议第十二届、第十三届及第十四届上海市委员会委员"
   ],
   "education": [
@@ -29,14 +31,14 @@
       "end_date": null,
       "institution": "耶鲁大学 (Yale University)",
       "degree": "bachelor",
-      "field": "文学学士"
+      "field": "文学"
     },
     {
       "start_date": null,
       "end_date": null,
       "institution": "伦敦大学东方及非洲文化研究院 (SOAS, University of London)",
       "degree": "master",
-      "field": "东方及非洲文化研究硕士"
+      "field": "东方及非洲文化研究"
     }
   ],
   "work_experience": [
@@ -45,19 +47,25 @@
       "end_date": null,
       "organization": "信和集团 (Sino Group)",
       "org_id": "HK-CORP-019",
-      "position": "加入集团，曾任集团总经理，参与管理集团租务营运及酒店业务；后出任集团慈善事务董事"
+      "position": "集团总经理（参与管理集团租务营运及酒店业务，后出任集团慈善事务董事）"
     },
     {
       "start_date": "2023-08-10",
       "end_date": null,
       "organization": "信和集团 (Sino Group)",
       "org_id": "HK-CORP-019",
-      "position": "集团非执行董事；同日获委任为信和置业、尖沙咀置业及信和酒店之非执行董事，并为环境、社会及管治督导委员会成员"
+      "position": "集团非执行董事兼慈善事务董事；同日获委任为信和置业、尖沙咀置业及信和酒店之非执行董事，并为环境、社会及管治督导委员会成员"
     }
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "HK-PERSON-000509",
+      "person_name": "黄志祥 (Robert Ng Chee Siong)",
+      "relationship_type": "parent",
+      "description": "父亲，信和集团主席"
+    },
+    {
+      "person_id": "HK-PERSON-000510",
       "person_name": "黄永光 (Daryl Ng Win-kong)",
       "relationship_type": "sibling",
       "description": "胞兄，信和集团主席"
@@ -115,7 +123,7 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-01",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
@@ -123,7 +131,7 @@
       "wikidata",
       "news"
     ],
-    "completeness_score": 48,
+    "completeness_score": 51,
     "quotes": [
       {
         "title": "信和集团官网：黃敏華女士（尖沙咀置业非执行董事）",
@@ -142,6 +150,6 @@
         "url": "https://www.usmart.hk/en/news-detail/7094931631210873221"
       }
     ],
-    "notes": "出生年份1980来自中文维基（官网仅载年龄），birth_date按规则以-01补齐月日。BBS勋衔见维基条目标题；官网载其为前主要股东已故黄廷方之孙女、黄志祥之女儿。职务与学历经官网与维基双源核实。"
+    "notes": "出生年份1980来自中文维基（官网仅载年龄），birth_date按规则以-01补齐月日。BBS勋衔见维基条目标题；官网载其为前主要股东已故黄廷方之孙女、黄志祥之女儿。职务与学历经官网与维基双源核实。2026-09-07复核：中文维基证实其另任香港艺术节协会执行委员会成员、香港历史文物保育建设有限公司董事，补入current_positions；补父亲黄志祥（HK-PERSON-000509）关联；work_experience.position规范化为职务名称。无经核实的个人社交媒体账号。"
   }
 }

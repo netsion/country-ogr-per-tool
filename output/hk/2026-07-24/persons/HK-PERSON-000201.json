@@ -1,6 +1,6 @@
 {
   "person_id": "HK-PERSON-000201",
-  "wikidata_qid": "Q10844330",
+  "wikidata_qid": "Q12140214",
   "name": "盧偉國",
   "name_zh": "卢伟国",
   "name_en": "Lo Wai-kwok",
@@ -16,14 +16,18 @@
   "contacts": [
     {
       "type": "website",
+      "value": "https://www.irdrwklo.hk",
+      "source": "https://www.irdrwklo.hk/profile.php"
+    },
+    {
+      "type": "website",
       "value": "https://www.bpahk.org",
       "source": "https://www.bpahk.org"
     }
   ],
   "current_positions": [
     "香港经济民生联盟主席",
-    "港区全国政协委员",
-    "香港品质保证局前主席"
+    "港区全国政协委员"
   ],
   "education": [
     {
@@ -106,19 +110,45 @@
       "position": "生物医学工程学系特约教授（荣誉院士；1991至1998年任校董）"
     }
   ],
-  "person_relationships": [],
-  "social_accounts": [],
+  "person_relationships": [
+    {
+      "person_id": "HK-PERSON-000202",
+      "person_name": "林健锋 (Jeffrey Lam)",
+      "relationship_type": "political_ally",
+      "description": "经民联创党成员，卢伟国任主席、林健锋任副主席"
+    }
+  ],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "LO Wai Kwok 卢伟国",
+      "url": "https://www.facebook.com/wk.lo.92/",
+      "source": "https://www.facebook.com/wk.lo.92/"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "盧偉國LO Wai Kwok",
+      "url": "https://www.youtube.com/channel/UCVY5uOdmo9FKlU9F6c3bW3A",
+      "source": "https://www.youtube.com/channel/UCVY5uOdmo9FKlU9F6c3bW3A"
+    }
+  ],
   "family_members": [
     {
       "person_id": null,
       "name": "黄少珍",
       "relationship": "spouse",
       "industry_or_organization": "首任妻子，2021年逝世，与卢伟国育有一子卢展擎"
+    },
+    {
+      "person_id": null,
+      "name": "卢展擎",
+      "relationship": "son",
+      "industry_or_organization": null
     }
   ],
   "political_stances": [
     {
-      "date": "",
+      "date": null,
       "topic": "基建与工程政策",
       "stance_content": "担任立法会工程界议员期间，长期关注香港基建发展、工程界专业地位及建造业发展，推动香港与内地工程专业资格互认",
       "source": "https://zh.wikipedia.org/zh-hk/%E7%9B%A7%E4%BC%9F%E5%9B%BD"
@@ -127,7 +157,7 @@
   "major_achievements": [
     {
       "date": "1992",
-      "organization": "",
+      "organization": "国际青年商会香港分会 (JCI Hong Kong)",
       "achievement": "获选香港青年工业家及香港十大杰出青年"
     },
     {
@@ -137,12 +167,12 @@
     },
     {
       "date": "2012",
-      "organization": "",
+      "organization": "香港立法会 (Legislative Council of Hong Kong)",
       "achievement": "当选立法会工程界功能界别议员，其后连任多届至2025年底"
     },
     {
       "date": "2016",
-      "organization": "香港经济民生联盟 (BPA)",
+      "organization": "香港经济民生联盟 (Business and Professionals Alliance for Hong Kong)",
       "achievement": "接替梁君彦出任经民联主席"
     }
   ],
@@ -152,28 +182,33 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-08-27",
+    "collection_date": "2026-09-07",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
       "wikidata",
-      "news_search"
+      "official_website",
+      "social_media"
     ],
-    "completeness_score": 69,
+    "completeness_score": 79,
     "quotes": [
       {
         "title": "维基百科：盧偉國",
         "url": "https://zh.wikipedia.org/zh-hk/%E7%9B%A7%E4%BC%9F%E5%9B%BD"
       },
       {
-        "title": "Wikidata: Lo Wai-kwok (Q10844330)",
-        "url": "https://www.wikidata.org/wiki/Q10844330"
+        "title": "Wikidata: Lo Wai-kwok (Q12140214)",
+        "url": "https://www.wikidata.org/wiki/Q12140214"
       },
       {
-        "title": "香港经济民生联盟官网",
-        "url": "https://www.bpahk.org"
+        "title": "盧偉國議員博士工程師个人网站",
+        "url": "https://www.irdrwklo.hk/profile.php"
+      },
+      {
+        "title": "Wikipedia (EN): Lo Wai-kwok",
+        "url": "https://en.wikipedia.org/wiki/Lo_Wai-kwok"
       }
     ],
-    "notes": "修正原档案name_zh字段错误（原为无关字符串「2001年9月逝世人物列表」，已改为简体「卢伟国」）；头像为Commons「Lo Wai-kwok 2016.jpg」250px直链。争议及政治敏感话题按规则略去。荣誉：GBS、MH、JP。补深：未见其个人社交媒体账号（仅经民聯官方专页），社交保持空白；补经民联官网为官方渠道。"
+    "notes": "2026-09-07关键修正：原wikidata_qid Q10844330实为「2001年9月逝世人物列表」条目（即此前name_zh污染的根源），经Wikidata搜索确认为卢伟国的正确QID为Q12140214（P31=human），已替换；Wikidata仅存年份精度1953，出生日期1952-12-25以中英文维基百科一致记载为准。current_positions移除「香港品质保证局前主席」（卸任职务已载于work_experience）。补齐：个人官网irdrwklo.hk（contacts）、经核证的Facebook专页（facebook.com/wk.lo.92，简介自称卢伟国博士工程师立法会议员）及YouTube频道「盧偉國LO Wai Kwok」（social_accounts）；补儿子卢展擎（维基）；补与林健锋（HK-PERSON-000202）的经民联同僚关系；major_achievements空organization按可推断来源回填；political_stances空date置null。2025年10月13日已宣布不竞逐第八届立法会，任期2025-12-31届满无误。争议及政治敏感话题按规则略去。荣誉：GBS、MH、JP。"
   }
 }

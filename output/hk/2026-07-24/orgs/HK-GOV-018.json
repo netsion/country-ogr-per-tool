@@ -132,7 +132,8 @@
       "date": "2025-05-01",
       "title": "成立第二届科技罪案警政顾问小组",
       "description": "警队成立第二届科技罪案警政顾问小组，强化应对科技罪案及网络诈骗的专业能力。",
-      "impact": "提升打击骗案及网络罪案的跨专业协作。"
+      "impact": "提升打击骗案及网络罪案的跨专业协作。",
+      "source": "https://www.police.gov.hk/offbeat/1279/chi/9002.html"
     },
     {
       "date": "2026-02-02",
@@ -144,7 +145,8 @@
       "date": "2026-04-12",
       "title": "举办全民国家安全教育日2026暨警民同乐日",
       "description": "警务处举行全民国家安全教育日2026暨警民同乐日，政务司副司长卓永兴出席开幕礼，警队高层及市民共同参与。",
-      "impact": "促进警民沟通及社区联系。"
+      "impact": "促进警民沟通及社区联系。",
+      "source": "https://www.info.gov.hk/gia/general/202604/12/P2026041200298.htm"
     },
     {
       "date": "2026-08-19",
@@ -156,27 +158,39 @@
   "related_entities": [
     {
       "org_name": "保安局 (Security Bureau)",
-      "org_description": "香港警务处的隶属决策局，统筹香港保安事务"
+      "org_description": "香港警务处的隶属决策局，统筹香港保安事务",
+      "org_id": "HK-GOV-034",
+      "relationship_type": "parent_org"
     },
     {
       "org_name": "入境事务处 (Immigration Department)",
-      "org_description": "同属保安局的纪律部队，负责出入境管制，与警队协作"
+      "org_description": "同属保安局的纪律部队，负责出入境管制，与警队协作",
+      "org_id": "HK-GOV-023",
+      "relationship_type": "sibling"
     },
     {
       "org_name": "香港海关 (Customs and Excise Department)",
-      "org_description": "同属保安局的纪律部队，在缉毒及执法行动上与警队协作"
+      "org_description": "同属保安局的纪律部队，在缉毒及执法行动上与警队协作",
+      "org_id": "HK-GOV-016",
+      "relationship_type": "sibling"
     },
     {
       "org_name": "国际刑警组织 (INTERPOL)",
-      "org_description": "香港警队为其成员机构，2026年11月香港将主办第94届国际刑警组织周年大会，现任处长早年曾借调至法国里昂总部工作"
+      "org_description": "香港警队为其成员机构，2026年11月香港将主办第94届国际刑警组织周年大会，现任处长早年曾借调至法国里昂总部工作",
+      "relationship_type": "member_of",
+      "org_id": null
     },
     {
       "org_name": "香港警察队员佐级协会 (Junior Police Officers' Association)",
-      "org_description": "警队员佐级人员的职工会组织"
+      "org_description": "警队员佐级人员的职工会组织",
+      "relationship_type": "affiliated",
+      "org_id": null
     },
     {
       "org_name": "消防处及医疗辅助队等应急部门 (Emergency Services Departments)",
-      "org_description": "在大型演习及紧急事故应变上与警队跨部门协作的机构"
+      "org_description": "在大型演习及紧急事故应变上与警队跨部门协作的机构",
+      "relationship_type": "partner",
+      "org_id": null
     }
   ],
   "core_business": "香港警务处成立于1844年5月1日，是香港最早的现代警察机关之一，隶属香港特别行政区政府保安局，为编制最庞大的政府部门及纪律部队，负责维护香港治安、防止和侦破罪案、交通执法、边境巡逻、反恐及应付紧急事故。香港警民比例居全球前列，2013年联合国统计香港平均每100万人有4,500名警察。不少国家由军队担当的职能在香港由警方负责，如防守海岸、边界巡逻及反恐行动。警队由处长领导，下设副处长（行动）、副处长（管理）及副处长（国家安全）三名副处长，分管行动处、刑事部、人事及训练处、监管处、财务政务及策划处和国家安全处等部门。警队另依《香港国安法》设立国家安全处，执行危害国家安全罪案的执法工作。警队亦是国际刑警组织成员，2026年11月将在香港主办第94届国际刑警组织周年大会。现任警务处处长为周一鸣，2025年4月2日由国务院任命。",
@@ -225,7 +239,5 @@
       }
     ],
     "notes": "P3二轮丰富：补全三名副处长（行动/管理/国家安全）、公共关系部、Instagram账号、2026年国际刑警大会及跨部门演习等中性事件，内容统一简体中文。"
-  },
-  "description": "香港特别行政区政府的警察机关",
-  "brief": "香港特别行政区政府的警察机关"
+  }
 }
