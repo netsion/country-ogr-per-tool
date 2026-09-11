@@ -289,30 +289,12 @@
       "notes": null
     },
     {
-      "org_id": "MO-CORP-002",
-      "name": "銀河娛樂集團 (Galaxy Entertainment Group)",
-      "org_type": "CORP",
-      "org_subtype": "gaming",
-      "wikidata_qid": "Q4039216",
-      "status": "skipped_by_user",
-      "notes": null
-    },
-    {
-      "org_id": "MO-CORP-003",
-      "name": "金沙中國 (Sands China)",
-      "org_type": "CORP",
-      "org_subtype": "gaming",
-      "wikidata_qid": "Q15913951",
-      "status": "skipped_by_user",
-      "notes": null
-    },
-    {
       "org_id": "MO-CORP-004",
       "name": "永利澳門 (Wynn Macau)",
       "org_type": "CORP",
       "org_subtype": "gaming",
-      "wikidata_qid": "Q1414111",
-      "status": "deferred_by_user",
+      "wikidata_qid": "Q11131238",
+      "status": "profiled",
       "notes": null
     },
     {
@@ -321,16 +303,7 @@
       "org_type": "CORP",
       "org_subtype": "gaming",
       "wikidata_qid": "Q15931251",
-      "status": "skipped_by_user",
-      "notes": null
-    },
-    {
-      "org_id": "MO-CORP-006",
-      "name": "新濠國際發展 (Melco International Development)",
-      "org_type": "CORP",
-      "org_subtype": "conglomerate",
-      "wikidata_qid": "Q6812076",
-      "status": "deferred_by_user",
+      "status": "profiled",
       "notes": null
     },
     {
@@ -564,8 +537,9 @@
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q2397164",
-      "status": "profiled",
-      "notes": null
+      "status": "merged",
+      "notes": null,
+      "merged_into": "MO-GOV-012"
     }
   ],
   "counters": {
@@ -760,7 +734,11 @@
       "org_ids": [
         "MO-CORP-001"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "梁安琪 (Angela Leong On-kei)",
+      "source_orgs": [
+        "MO-CORP-001"
+      ]
     },
     {
       "person_id": "MO-PERSON-000021",
@@ -779,7 +757,7 @@
         "MO-CORP-008",
         "MO-CORP-010"
       ],
-      "status": "listed"
+      "status": "abandoned"
     },
     {
       "person_id": "MO-PERSON-000023",
@@ -869,7 +847,8 @@
       "org_ids": [
         "MO-CORP-011"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000165"
     },
     {
       "person_id": "MO-PERSON-000033",
@@ -1094,7 +1073,11 @@
       "org_ids": [
         "MO-FIN-006"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "牛建軍 (Niu Jianjun)",
+      "source_orgs": [
+        "MO-FIN-006"
+      ]
     },
     {
       "person_id": "MO-PERSON-000058",
@@ -1103,7 +1086,8 @@
       "org_ids": [
         "MO-GOV-002"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000177"
     },
     {
       "person_id": "MO-PERSON-000059",
@@ -1112,7 +1096,8 @@
       "org_ids": [
         "MO-GOV-002"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000178"
     },
     {
       "person_id": "MO-PERSON-000060",
@@ -1121,7 +1106,8 @@
       "org_ids": [
         "MO-GOV-002"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000179"
     },
     {
       "person_id": "MO-PERSON-000061",
@@ -1131,7 +1117,8 @@
         "MO-GOV-002",
         "MO-GOV-009"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000180"
     },
     {
       "person_id": "MO-PERSON-000062",
@@ -1140,7 +1127,8 @@
       "org_ids": [
         "MO-GOV-002"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000181"
     },
     {
       "person_id": "MO-PERSON-000063",
@@ -1628,7 +1616,11 @@
       "org_ids": [
         "MO-GOV-025"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "黃伊琳 (Wong I Lam)",
+      "source_orgs": [
+        "MO-GOV-025"
+      ]
     },
     {
       "person_id": "MO-PERSON-000117",
@@ -1637,7 +1629,11 @@
       "org_ids": [
         "MO-GOV-025"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "梁華峰 (Leong Wa Fong)",
+      "source_orgs": [
+        "MO-GOV-025"
+      ]
     },
     {
       "person_id": "MO-PERSON-000118",
@@ -1736,7 +1732,11 @@
       "org_ids": [
         "MO-MEDIA-003"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "林昶 (Lin Chang)",
+      "source_orgs": [
+        "MO-MEDIA-003"
+      ]
     },
     {
       "person_id": "MO-PERSON-000129",
@@ -1745,7 +1745,11 @@
       "org_ids": [
         "MO-MEDIA-003"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "周海燕 (Zhou Haiyan)",
+      "source_orgs": [
+        "MO-MEDIA-003"
+      ]
     },
     {
       "person_id": "MO-PERSON-000130",
@@ -1799,7 +1803,11 @@
       "org_ids": [
         "MO-MIL-001"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "陳文勝 (Chen Wensheng)",
+      "source_orgs": [
+        "MO-MIL-001"
+      ]
     },
     {
       "person_id": "MO-PERSON-000136",
@@ -1808,7 +1816,11 @@
       "org_ids": [
         "MO-MIL-001"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "練偉 (Lian Wei)",
+      "source_orgs": [
+        "MO-MIL-001"
+      ]
     },
     {
       "person_id": "MO-PERSON-000137",
@@ -1817,7 +1829,11 @@
       "org_ids": [
         "MO-NGO-001"
       ],
-      "status": "listed"
+      "status": "listed",
+      "name": "馬志毅 (Ma Chi Ngai)",
+      "source_orgs": [
+        "MO-NGO-001"
+      ]
     },
     {
       "person_id": "MO-PERSON-000138",
@@ -1826,7 +1842,7 @@
       "org_ids": [
         "MO-NGO-001"
       ],
-      "status": "listed"
+      "status": "abandoned"
     },
     {
       "person_id": "MO-PERSON-000139",
@@ -1925,7 +1941,8 @@
       "org_ids": [
         "MO-NGO-004"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000002"
     },
     {
       "person_id": "MO-PERSON-000150",
@@ -1988,7 +2005,8 @@
       "org_ids": [
         "MO-NGO-006"
       ],
-      "status": "listed"
+      "status": "merged",
+      "merged_into": "MO-PERSON-000007"
     },
     {
       "person_id": "MO-PERSON-000157",
@@ -2061,10 +2079,241 @@
         "MO-PARTY-001"
       ],
       "status": "listed"
+    },
+    {
+      "person_id": "MO-PERSON-000165",
+      "name": "何超鳳 (Daisy Ho Chiu-fung)",
+      "wikidata_qid": "Q112966286",
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-001"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000166",
+      "name": "梁安琪 (Angela Leong On-kei)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-CORP-001"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000167",
+      "name": "盛智文 (Allan Zeman)",
+      "wikidata_qid": "Q2837795",
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-004"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000168",
+      "name": "陳志玲 (Linda Chen)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-004"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000169",
+      "name": "潘國宏 (Craig S. Billings)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-004"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000170",
+      "name": "羅偉信 (Frederic Jean-Luc Luvisutto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-004"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000171",
+      "name": "蘇兆明 (Nicholas Sallnow-Smith)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-004"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000172",
+      "name": "馮小峰 (Kenneth Xiaofeng Feng)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-005"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000173",
+      "name": "劉珍伲 (Jeny Lau)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-005"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000174",
+      "name": "霍恩巴克 (William Joseph Hornbuckle)",
+      "wikidata_qid": "Q18394947",
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-005"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000175",
+      "name": "傅建國 (Fu Jianguo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MO-CORP-008",
+        "MO-CORP-010"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000176",
+      "name": "牛建軍 (Niu Jianjun)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-FIN-006"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000177",
+      "name": "黃少澤 (Wong Sio Chak)",
+      "wikidata_qid": "Q23418834",
+      "status": "listed",
+      "source_orgs": [
+        "MO-GOV-002",
+        "MO-GOV-006"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000178",
+      "name": "吳惠嫻 (Ng Wai Han)",
+      "wikidata_qid": "Q140410667",
+      "status": "listed",
+      "source_orgs": [
+        "MO-GOV-002",
+        "MO-GOV-007"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000179",
+      "name": "陳子勁 (Chan Tsz King)",
+      "wikidata_qid": "Q135232243",
+      "status": "listed",
+      "source_orgs": [
+        "MO-GOV-002",
+        "MO-GOV-008"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000180",
+      "name": "柯嵐 (Ke Lan)",
+      "wikidata_qid": "Q117746993",
+      "status": "listed",
+      "source_orgs": [
+        "MO-GOV-002",
+        "MO-GOV-009"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000181",
+      "name": "譚偉文 (Tam Vai Man)",
+      "wikidata_qid": "Q10528355",
+      "status": "listed",
+      "source_orgs": [
+        "MO-GOV-002",
+        "MO-GOV-010"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000182",
+      "name": "黃伊琳 (Wong I Lam)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-GOV-025"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000183",
+      "name": "梁華峰 (Leong Wa Fong)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-GOV-025"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000184",
+      "name": "林昶 (Lin Chang)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-MEDIA-003"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000185",
+      "name": "周海燕 (Zhou Haiyan)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-MEDIA-003"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000186",
+      "name": "陳文勝 (Chen Wensheng)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-MIL-001"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000187",
+      "name": "練偉 (Lian Wei)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-MIL-001"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000188",
+      "name": "馬志毅 (Ma Chi Ngai)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-NGO-001"
+      ]
+    },
+    {
+      "person_id": "MO-PERSON-000189",
+      "name": "陳明金 (Chan Meng Kam)",
+      "wikidata_qid": null,
+      "status": "abandoned",
+      "source_orgs": [
+        "MO-PARTY-001"
+      ]
     }
   ],
   "person_counters": {
-    "MO-PERSON": 164,
+    "MO-PERSON": 189,
     "MO": 2
   }
 }
