@@ -1,16 +1,20 @@
 {
   "org_id": "QA-GOV-012",
   "basic_info": {
-    "name_original": "وزارة الرياضة والشباب (قطر)",
+    "name_original": "وزارة الرياضة والشباب",
     "name_zh": "卡塔尔体育与青年部",
     "name_en": "Ministry of Sports and Youth",
-    "aliases": [],
+    "aliases": [
+      "MSY",
+      "Ministry of Youth and Sports",
+      "وزارة الشباب والرياضة"
+    ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": null,
-    "website": "http://www.msy.gov.qa",
+    "founded_date": "2021-10-19",
+    "website": "https://www.msy.gov.qa",
     "wikidata_qid": "Q115805125"
   },
   "social_accounts": [
@@ -18,35 +22,220 @@
       "platform": "twitter_x",
       "account_name": "MSYQatar",
       "url": "https://x.com/MSYQatar",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "msyqatar",
       "url": "https://www.instagram.com/msyqatar/",
-      "source": "instagram_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Ministry of Sports and Youth",
+      "url": "https://qa.linkedin.com/company/ministry-of-sports-and-youth",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔负责体育事务与青年发展的政府部门",
-  "industries": [
-    "public_administration"
+  "digital_assets": [
+    {
+      "name": "官方新闻中心",
+      "url": "https://www.msy.gov.qa/en/news",
+      "description": "该部官方网站新闻栏目，发布部务活动、青年项目与体育领域官方消息",
+      "source": "https://www.msy.gov.qa"
+    },
+    {
+      "name": "全国体育日奖项页面",
+      "url": "https://www.msy.gov.qa/en/sports-day-awards-en/",
+      "description": "国家体育日奖项（National Sports Day Award）官方页面，用于表彰在推广体育运动与身体活动方面作出贡献的政府及私营机构",
+      "source": "https://www.msy.gov.qa/en/sports-day-awards-en/"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔负责体育事务与青年发展的政府部门",
-  "brief": "Government ministry of Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼 (حمد بن خليفة بن أحمد آل ثاني)",
+      "title": "体育与青年大臣",
+      "title_description": "2024年1月获任命，全面负责该部体育与青年领域各项事务",
+      "description": "卡塔尔体育界资深管理者，从事体育管理三十余年；任国际足联理事会（FIFA Council）成员及亚足联职业足球委员会委员；2024年1月出任体育与青年大臣；2026年7月获任卡塔尔足球协会主席"
+    },
+    {
+      "person_id": null,
+      "name": "亚西尔·本·阿卜杜拉·贾马尔 (ياسر بن عبدالله الجمال)",
+      "title": "体育与青年部副部长 (وكيل وزارة الرياضة والشباب)",
+      "title_description": "工程师，协助大臣主持部务并分管对外体育与青年合作",
+      "description": "以副部长身份多次代表该部出席海合会青年与体育部长会议等区域会议；2026年8月分别会见苏丹、哈萨克斯坦、马耳他驻卡塔尔大使，洽谈体育与青年领域合作；此前曾会见联合国秘书处青年事务助理秘书长"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜勒拉赫曼·本·阿卜杜拉·马勒基 (عبدالرحمن بن عبدالله المالكي)",
+      "title": "体育事务助理副部长 (وكيل الوزارة المساعد للشؤون الرياضية)",
+      "title_description": "分管体育事务领域",
+      "description": "工程师；曾负责该部体育设施相关事务；2026年6月率团出席在塞浦路斯举行的国际体育旅游会议；多次出席全国体育日等活动并主持相关颁奖"
+    },
+    {
+      "person_id": null,
+      "name": "艾哈迈德·穆罕默德·哈拉米 (Ahmed Mohammed Al Harami)",
+      "title": "青年事务助理副部长",
+      "title_description": "分管青年事务领域",
+      "description": "2026年2月在「我们的青年论坛」上致辞，肯定卡塔尔青年在国际平台上的表现，强调国际参与对青年领导力与责任感培养的作用"
+    }
+  ],
+  "departments": [
+    {
+      "name": "体育事务司 (Department of Sports Affairs)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责体育领域监管与服务，包括体育俱乐部相关事务的承接与管理；该领域由体育事务助理副部长阿卜杜勒拉赫曼·本·阿卜杜拉·马勒基分管",
+      "parent_dept_id": null
+    },
+    {
+      "name": "青年事务司 (Youth Affairs Department)",
+      "dept_id": null,
+      "head": "法瓦兹·阿卜杜拉·穆赛弗里 (Fawaz Abdullah Al Musaifri)",
+      "description": "负责青年赋权与青年项目，组织「我们的青年论坛」等青年交流活动，支持青年参与地区和国际论坛；该领域由青年事务助理副部长艾哈迈德·穆罕默德·哈拉米分管",
+      "parent_dept_id": null
+    },
+    {
+      "name": "规划、质量与创新司 (Planning, Quality and Innovation Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责该部战略规划、质量与创新管理，跟踪战略计划项目实施；据《海湾时报》2025年11月报道，司长玛哈·伊萨（Maha Issa）兼任「数据领域青年创意奖」奖项副主席",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-02",
+      "title": "卡塔尔「数据领域青年创意奖」获批准为海合会联合倡议",
+      "description": "2026年9月2日在麦纳麦举行的第39届海合会青年和体育部长会议上，与会部长赞赏卡塔尔以该部名义发起「数据领域青年创意奖」并承担全部组织费用；会议批准该奖项为海合会联合倡议并纳入联合行动计划，未来拟扩展至生成式人工智能与数据安全等新技术领域。卡塔尔由该部副部长亚西尔·本·阿卜杜拉·贾马尔率团与会",
+      "impact": "该部发起的青年奖项上升为海合会层面联合倡议，扩大了卡塔尔在区域青年事务中的参与度",
+      "source": "https://thepeninsulaqatar.com/article/04/09/2026/gcc-ministers-of-youth-and-sports-hail-qatars-youth-creativity-award-in-world-of-data"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "副部长会见苏丹、哈萨克斯坦、马耳他三国驻卡塔尔大使",
+      "description": "该部副部长亚西尔·本·阿卜杜拉·贾马尔分别会见三国驻卡塔尔大使，讨论加强卡塔尔与三国在体育与青年领域的合作关系，交流经验与成功做法，并探讨拓展下一阶段合作前景",
+      "impact": "拓展该部在体育与青年领域的双边合作渠道",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-8/23/undersecretary-of-ministry-of-sports-and-youth-meets-ambassadors-of-sudan-kazakhstan-malta"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "该部召开季度会议检视战略计划与机构绩效",
+      "description": "会议由体育与青年大臣谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼主持，审议该部战略计划项目进展及第三国家发展计划相关项目实施情况，评估工作重点领域与机构绩效水平，强调持续完善机构工作体系、提升执行效率",
+      "impact": "对接国家发展目标，改进体育与青年领域公共服务质量",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-4/8/ministry-of-sports-and-youth-holds-quarterly-meeting"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "举办「我们的青年论坛」表彰国际舞台上的卡塔尔青年",
+      "description": "该部组织「我们的青年论坛」互动交流活动，汇聚2025年度代表卡塔尔出席国际活动的青年；青年事务助理副部长艾哈迈德·穆罕默德·哈拉米与青年事务司司长法瓦兹·阿卜杜拉·穆赛弗里出席并致辞，活动包含青年国际参与经历分享及成果建议汇总",
+      "impact": "强化该部与青年群体的直接沟通，为青年项目与倡议设计提供参考",
+      "source": "https://thepeninsulaqatar.com/article/17/02/2026/ministry-of-youth-and-sports-celebrates-qatars-representatives-at-international-events"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "卡塔尔举行第十五届全国体育日",
+      "description": "全国体育日按惯例于2月第二个星期二举行，各国家机构广泛参与；该部副部长亚西尔·贾马尔与体育事务助理副部长阿卜杜勒拉赫曼·马勒基等出席相关活动，该部同时负责全国体育日奖项评选，以鼓励政府与私营机构推广体育运动",
+      "impact": "推动体育运动融入日常生活方式，扩大全民体育参与基础",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-2/10/state-institutions-participate-in-15th-national-sports-day"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-010",
+      "org_name": "卡塔尔国家奥林匹克委员会 (Qatar Olympic Committee)",
+      "org_type": "NGO",
+      "org_description": "1979年成立、1980年获国际奥委会承认，负责监督卡塔尔奥林匹克运动并培养运动员；英文维基百科将其列为与该部开展协作的机构",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔文化体育部 (Ministry of Culture and Sports)",
+      "org_type": "GOV",
+      "org_description": "2016年由青年与体育部与文化部合并而成的原部委；2021年10月依据2021年第57号埃米尔决定拆分为文化部与体育与青年部，为本部前身机构",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔足球协会 (Qatar Football Association)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球管理机构；据该部官方网站新闻，2026年7月该部大臣谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼获任其主席",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔部长会议 (Council of Ministers)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔内阁机构，该部为其组成部门，体育与青年大臣为内阁成员",
+      "relationship_type": "parent_org"
+    }
+  ],
+  "core_business": "卡塔尔体育与青年部是卡塔尔国负责体育事务与青年发展的政府部门，总部位于多哈。其前身可追溯至2014年依据第16号埃米尔法令设立的青年与体育部，2016年与文化部合并为文化体育部；2021年10月19日，卡塔尔埃米尔发布2021年第57号埃米尔决定重新划分各部委职能，原文化体育部拆分为文化部与体育与青年部，形成现建制。依据该部官方网站，其主要职责包括：对全国体育与青年领域及相关机构进行总体监督，支持、跟进并协调各方工作；制定体育俱乐部、青年中心、委员会和协会的设立条件与标准并核发许可；鼓励社区将体育运动作为生活方式，扩大体育参与基础，资助国家体育人才；组织全国性体育赛事与活动；督促国家运动员遵守国际体育规则与规范；推进青年赋权，发展青年能力并发挥其才能。该部官网列明的附属机构包括体育俱乐部与联合会及青年中心，并与卡塔尔国家奥林匹克委员会等机构开展协作。组织架构方面，该部由体育与青年大臣主持，下设副部长及体育事务、青年事务助理副部长，内设体育事务、青年事务、规划质量与创新等部门。该部年度重点工作包括主办全国体育日、运营「我们的青年论坛」等青年交流项目，并发起「数据领域青年创意奖」等区域青年倡议。其工作与卡塔尔2030国家愿景人力资源开发支柱及第三国家发展计划相衔接，2023—2027年关键优先方向涵盖扩大全民体育参与、完善体育赛事体系、赋权青年中心、发展竞技体育人才以及投资青年思想与活力等领域。",
+  "industries": [
+    "public_administration",
+    "sports",
+    "social_services"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，该部不以成员身份参与APEC进程及其合作机制。该部开展的区域青年与体育合作主要依托海湾合作委员会（GCC）等区域框架，例如发起「数据领域青年创意奖」并推动其成为海合会联合倡议；同时与包括APEC成员经济体在内的各国在体育赛事、青年交流领域保持一般性往来。",
+  "profile": {
+    "source_url": "https://www.msy.gov.qa/en/about-us",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q115805125"
+      "official_website",
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "Phase 3丰富化：机构沿革（2014年第16号埃米尔法令设立青年与体育部、2016年合并、2021年第57号埃米尔决定拆分）核自官网About页、阿米里迪万宫新闻及The Peninsula报道；大臣与副部长、助理副部长信息核自GCO、QNA、The Peninsula及该部官方X账号；近期事件核自QNA与The Peninsula。原顶层brief/description字段中的有效事实已并入core_business后删除。key_people四人（哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼、亚西尔·贾马尔、马勒基、哈拉米）均未在_name_index.json中命中，person_id为null留待P4回填",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "About Us - Ministry of Sports and Youth 官网关于本部页面（第57号埃米尔决定与职责）",
+        "url": "https://www.msy.gov.qa/en/about-us"
+      },
+      {
+        "title": "HH The Amir Issues Amiri Decision on Ministries' Competencies - Amiri Diwan（2021年10月19日第57号埃米尔决定）",
+        "url": "https://www.diwan.gov.qa/ar-QA/Briefing-Room/News/General/LG/2021/October/19/LG02?sc_lang=en"
+      },
+      {
+        "title": "Qatar forms new ministries in latest Cabinet reshuffle - The Peninsula（2021-10-19）",
+        "url": "https://thepeninsulaqatar.com/article/19/10/2021/Qatar-forms-new-ministries-in-latest-Cabinet-reshuffle"
+      },
+      {
+        "title": "Ministry of Sports and Youth (Qatar) - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Sports_and_Youth_(Qatar)"
+      },
+      {
+        "title": "Minister of Sports and Youth - Government Communications Office（2024年1月任命）",
+        "url": "https://www.gco.gov.qa/en/state-of-qatar/state-institutions/council-of-ministers/members-of-the-cabinet/minister-of-sports-and-youth/"
+      },
+      {
+        "title": "Ministry of Sports and Youth Holds Quarterly Meeting - QNA（2026-04-08）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-4/8/ministry-of-sports-and-youth-holds-quarterly-meeting"
+      },
+      {
+        "title": "Undersecretary of Ministry of Sports and Youth Meets Ambassadors of Sudan, Kazakhstan, Malta - QNA（2026-08-23）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-8/23/undersecretary-of-ministry-of-sports-and-youth-meets-ambassadors-of-sudan-kazakhstan-malta"
+      },
+      {
+        "title": "Ministry of Youth, Sports celebrates Qatar's representatives at international events - The Peninsula（2026-02-17）",
+        "url": "https://thepeninsulaqatar.com/article/17/02/2026/ministry-of-youth-and-sports-celebrates-qatars-representatives-at-international-events"
+      },
+      {
+        "title": "GCC Ministers of Youth and Sports hail Qatar's Youth Creativity Award in World of Data - The Peninsula（2026-09-04）",
+        "url": "https://thepeninsulaqatar.com/article/04/09/2026/gcc-ministers-of-youth-and-sports-hail-qatars-youth-creativity-award-in-world-of-data"
+      },
+      {
+        "title": "State Institutions Participate in 15th National Sports Day - QNA（2026-02-10）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-2/10/state-institutions-participate-in-15th-national-sports-day"
+      }
+    ]
   }
 }

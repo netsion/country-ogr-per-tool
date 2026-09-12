@@ -4,7 +4,13 @@
     "name_original": "الخطوط الجوية القطرية",
     "name_zh": "卡塔尔航空公司",
     "name_en": "Qatar Airways",
-    "aliases": [],
+    "aliases": [
+      "Qatar Airways Company",
+      "Qatar Airways Company Q.C.S.C.",
+      "QR",
+      "QTR",
+      "卡塔尔航空"
+    ],
     "org_type": "SOE",
     "org_subtype": "state_owned_enterprise",
     "country_iso3": "QAT",
@@ -37,44 +43,212 @@
       "account_name": "qatarairways",
       "url": "https://facebook.com/qatarairways",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "qatar-airways",
+      "url": "https://www.linkedin.com/company/qatar-airways/",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "卡塔尔航空货运官方网站（Qatar Airways Cargo）",
+      "url": "https://www.qrcargo.com",
+      "description": "集团货运部门官方网站，提供空运货物运力查询、订舱、追踪及新闻发布等服务",
+      "source": "https://www.qrcargo.com"
+    },
+    {
+      "name": "卡塔尔航空集团新闻中心",
+      "url": "https://www.qatarairways.com/press-releases/en-WW/",
+      "description": "发布集团新闻稿、年度报告及媒体资料，含2025/26财年年度报告专页",
+      "source": "https://www.qatarairways.com/press-releases/en-WW/pages/2026-annual-report/"
+    }
+  ],
   "key_people": [
     {
       "person_id": "QA-PERSON-000011",
-      "name": "阿克巴尔·阿尔·贝克",
+      "name": "阿克巴尔·阿尔·贝克 (Akbar Al Baker)",
       "title": "前首席执行官",
-      "title_description": "卡塔爾的國家航空公司",
-      "description": ""
+      "title_description": "执掌卡塔尔航空27年，2023年11月5日正式卸任集团首席执行官",
+      "description": "卡塔尔航空任期最长的集团首席执行官，任内推动公司加入寰宇一家联盟、建成并启用哈马德国际机场，使卡塔尔航空多次获Skytrax「全球最佳航空公司」；2023年10月23日官方宣布退休，同年11月5日卸任"
     },
     {
       "person_id": "QA-PERSON-000017",
-      "name": "巴德尔·穆罕默德·阿尔·米尔",
-      "title": "首席执行官",
-      "title_description": "卡塔爾的國家航空公司",
-      "description": ""
+      "name": "巴德尔·穆罕默德·阿尔·米尔 (Badr Mohammed Al Meer)",
+      "title": "前首席执行官",
+      "title_description": "2023年11月5日就任集团首席执行官，2025年12月7日卸任；接任前曾任哈马德国际机场首席运营官",
+      "description": "航空机场管理背景出身，出任集团首席执行官前长期担任哈马德国际机场首席运营官；任内签署波音历史上最大宽体机订单（最多210架），公司第九次获Skytrax全球最佳航空公司奖；2025年12月7日由哈马德·阿里·哈特尔接任"
+    },
+    {
+      "person_id": null,
+      "name": "哈马德·阿里·哈特尔 (Hamad Ali Al-Khater)",
+      "title": "集团首席执行官",
+      "title_description": "2025年12月7日起出任卡塔尔航空集团首席执行官（现任）",
+      "description": "加入卡塔尔航空集团前担任哈马德国际机场首席运营官，负责机场运营安全与可靠性、战略方向、基础设施扩建及旅客体验提升；此前在卡塔尔能源公司（QatarEnergy）担任高级职务，主管业务开发与交易执行（任命来源：卡塔尔航空集团2025年12月7日官方新闻稿）"
+    },
+    {
+      "person_id": "QA-PERSON-000008",
+      "name": "萨阿德·谢里达·卡比 (Saad Sherida Al-Kaabi)",
+      "title": "董事会主席",
+      "title_description": "卡塔尔航空集团董事会主席，兼任卡塔尔能源事务国务大臣、卡塔尔能源公司（QatarEnergy）总裁兼首席执行官",
+      "description": "以卡塔尔航空集团董事会主席身份主持集团领导层换届（2025年12月官方公告确认为现任董事会主席），并同时主管卡塔尔能源部门事务"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔国家航空公司，寰宇一家成员",
-  "industries": [
-    "aviation"
+  "departments": [
+    {
+      "name": "客运航空业务",
+      "dept_id": null,
+      "head": null,
+      "description": "核心业务板块，以多哈哈马德国际机场为枢纽运营辐射式航线网络，通航全球170余个目的地；机队由200余架飞机组成，包括空客A350、波音777、波音787等宽体机型，并部署星链（Starlink）高速机上互联网",
+      "parent_dept_id": null
+    },
+    {
+      "name": "货运业务（Qatar Airways Cargo）",
+      "dept_id": null,
+      "head": null,
+      "description": "集团货运部门，2025/26财年运输货物超143万吨，约占全球国际航空货运市场12%份额，为全球主要国际航空货运承运人之一",
+      "parent_dept_id": null
+    },
+    {
+      "name": "机场运营（哈马德国际机场）",
+      "dept_id": null,
+      "head": null,
+      "description": "哈马德国际机场为集团枢纽机场，由卡塔尔航空集团管理运营，产权归卡塔尔民航局；2025年旅客吞吐量约5430万人次，获Skytrax「中东最佳机场」连续11年，并曾于2021、2022、2024年获评「全球最佳机场」",
+      "parent_dept_id": null
+    },
+    {
+      "name": "地面服务与旅游零售业务",
+      "dept_id": null,
+      "head": null,
+      "description": "涵盖Qatar Aviation Services地面服务、Qatar Aircraft Catering航空配餐、Qatar Duty Free机场免税零售（连续三年获Skytrax全球最佳机场购物奖）及Qatar Airways Holidays旅游度假产品等业务",
+      "parent_dept_id": null
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔国家航空公司，寰宇一家成员",
-  "brief": "state-owned flag-carrier airline of Qatar",
+  "recent_events": [
+    {
+      "date": "2023-11-05",
+      "title": "领导层换届：阿尔·贝克卸任，阿尔·米尔接任集团首席执行官",
+      "description": "执掌卡塔尔航空27年的集团首席执行官阿克巴尔·阿尔·贝克于2023年10月23日宣布卸任，11月5日正式退休；原哈马德国际机场首席运营官巴德尔·穆罕默德·阿尔·米尔接任集团首席执行官",
+      "impact": "结束长达27年的阿尔·贝克时代，开启管理层更替与新领导层的全球网络扩张议程",
+      "source": "https://www.qatarairways.com/press-releases/en-WW/231261-qatar-airways-group-announces-appointment-of-new-group-chief-executive/"
+    },
+    {
+      "date": "2025-05-14",
+      "title": "签署波音史上最大宽体机订单（最多210架）",
+      "description": "卡塔尔航空与波音宣布采购最多210架宽体飞机，含130架787梦想飞机与30架777-9确认订单及另外50架选择权，为波音历史上最大宽体机订单及公司史上最大订单；媒体报道该协议价值约960亿美元，签约仪式由美国总统与卡塔尔埃米尔见证",
+      "impact": "巩固「全球最年轻、最高效机队」战略，公司将成为中东最大787运营商，机队更新与运力扩张获得长期保障",
+      "source": "https://boeing.mediaroom.com/2025-05-14-Boeing-and-Qatar-Airways-Announce-Historic-Order-for-up-to-210-Widebody-Airplanes"
+    },
+    {
+      "date": "2025-06-17",
+      "title": "第九次获Skytrax「全球最佳航空公司」",
+      "description": "在巴黎航展期间发布的2025年世界航空奖中，卡塔尔航空第九次获评全球最佳航空公司，同时获全球最佳商务舱、全球最佳商务舱休息室及中东最佳航空公司（第13次）",
+      "impact": "延续其在全球航空服务质量评价中的领先地位（此前于2011、2012、2015、2017、2019、2021、2022、2024年八度获奖）",
+      "source": "https://skytraxratings.com/qatar-airways-named-worlds-best-airline-at-2025-world-airline-awards"
+    },
+    {
+      "date": "2025-12-07",
+      "title": "哈马德·阿里·哈特尔出任集团首席执行官",
+      "description": "卡塔尔航空集团宣布任命哈马德·阿里·哈特尔为集团首席执行官，接替巴德尔·穆罕默德·阿尔·米尔；哈特尔此前任哈马德国际机场首席运营官，更早前在卡塔尔能源公司担任高级职务",
+      "impact": "集团约两年内再次换帅；董事会主席萨阿德·谢里达·卡比表示将依托集团财务实力与全球网络延续发展战略",
+      "source": "https://www.qatarairways.com/press-releases/en-WW/258698-qatar-airways-group-appoints-mr-hamad-ali-al-khater-as-group-chief-executive-officer/"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "发布2025/26财年业绩：税后利润70.8亿卡塔尔里亚尔",
+      "description": "集团公布2025/26财年（截至2026年3月31日）税后利润70.8亿卡塔尔里亚尔（约19.4亿美元）；全年运送旅客超4180万人次，货运部门运输货物超143万吨、约占全球市场12%份额；航班准点率86%，获Cirium运营卓越白金奖",
+      "impact": "在地缘政治扰动影响财年末段运营的情况下保持盈利韧性；集团宣布继续重建全球航班时刻表，计划2026年夏季前恢复至160余个目的地",
+      "source": "https://thepeninsulaqatar.com/article/20/05/2026/qatar-airways-group-delivers-robust-financial-performance-despite-global-economic-instability"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "卡塔尔国 (State of Qatar)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔主权国家政府，1993年创立卡塔尔航空；公司由卡塔尔政府设立并自2013年起为卡塔尔国100%全资拥有",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "QA-SOE-009",
+      "org_name": "哈马德国际机场 (Hamad International Airport)",
+      "org_type": "SOE",
+      "org_description": "卡塔尔国家枢纽机场，2014年启用，产权归卡塔尔民航局，由卡塔尔航空集团管理运营；2025年旅客吞吐量约5430万人次",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "QA-SOE-012",
+      "org_name": "卡塔尔公务机 (Qatar Executive)",
+      "org_type": "SOE",
+      "org_description": "卡塔尔航空集团旗下公务机业务部门，提供公务机包机等服务，以哈马德国际机场为运营基地",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "寰宇一家联盟 (oneworld)",
+      "org_type": "INTL",
+      "org_description": "全球航空联盟，卡塔尔航空于2013年10月加入并成为其全职成员",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "卡塔尔航空（Qatar Airways）是卡塔尔的国家航空公司（载旗航空公司），由卡塔尔政府于1993年11月创立，总部位于多哈卡塔尔航空大厦，自2013年起为卡塔尔国政府100%全资拥有。公司以多哈哈马德国际机场为基地运营辐射式（hub-and-spoke）航线网络，通航全球170余个目的地，机队由200余架飞机组成，涵盖空客A350、波音777、波音787等宽体机型，并率先在大规模宽体机队上部署星链（Starlink）高速机上互联网。卡塔尔航空于2013年10月加入寰宇一家（oneworld）航空联盟，累计九次获Skytrax世界航空奖「全球最佳航空公司」（2011、2012、2015、2017、2019、2021、2022、2024、2025年）。公司业务除客运航空外，还包括卡塔尔航空货运（Qatar Airways Cargo，2025/26财年货邮运输量超143万吨、约占全球国际航空货运市场12%份额）、Qatar Aviation Services地面服务、Qatar Aircraft Catering航空配餐、Qatar Duty Free机场免税零售、Qatar Airways Holidays旅游度假产品及Qatar Executive公务机等板块，并管理运营哈马德国际机场。卡塔尔航空集团（Qatar Airways Group）在全球90多个国家雇用约5.78万名员工，2025/26财年实现税后利润70.8亿卡塔尔里亚尔（约19.4亿美元）。集团现任首席执行官为哈马德·阿里·哈特尔（2025年12月上任），董事会主席由卡塔尔能源事务国务大臣萨阿德·谢里达·卡比兼任。",
+  "industries": [
+    "aviation",
+    "logistics_warehousing",
+    "hospitality_tourism"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔航空作为卡塔尔国家航空公司不直接参与APEC框架下的议程与活动。该公司的航线网络连接多哈枢纽与亚太地区多个航点，服务亚太地区商务与旅游客流，其货运业务亦承运亚太区域的贸易货物。作为跨区域承运人，其经营状况与亚太航空市场供需及区域互联互通需求存在关联。",
+  "profile": {
+    "source_url": "https://www.qatarairways.com/en/about-qatar-airways.html",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q208033",
-      "https://www.qatarairways.com/"
+      "official_website",
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 95,
+    "notes": "P3丰富化（2026-09-11执行）：以Wikidata Q208033核对成立日期与股权；管理层据官方新闻稿核实——哈马德·阿里·哈特尔自2025年12月7日起接替巴德尔·阿尔·米尔出任集团首席执行官，故原「现任CEO」巴德尔·阿尔·米尔条目更新为「前首席执行官」（person_id未改动），现任CEO哈特尔及董事会主席萨阿德·谢里达·卡比（QA-PERSON-000008）已核实补入；近期事件来源为波音官方公告、Skytrax官方、卡塔尔航空官方新闻稿及卡塔尔半岛报财报报道",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Qatar Airways - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Airways"
+      },
+      {
+        "title": "Qatar Airways (Q208033) - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q208033"
+      },
+      {
+        "title": "卡塔尔航空官方网站 About Qatar Airways",
+        "url": "https://www.qatarairways.com/en/about-qatar-airways.html"
+      },
+      {
+        "title": "Qatar Airways Group Announces Appointment of New Group Chief Executive (2023-10-23)",
+        "url": "https://www.qatarairways.com/press-releases/en-WW/231261-qatar-airways-group-announces-appointment-of-new-group-chief-executive/"
+      },
+      {
+        "title": "Boeing and Qatar Airways Announce Historic Order for up to 210 Widebody Airplanes (2025-05-14)",
+        "url": "https://boeing.mediaroom.com/2025-05-14-Boeing-and-Qatar-Airways-Announce-Historic-Order-for-up-to-210-Widebody-Airplanes"
+      },
+      {
+        "title": "Qatar Airways is named the World's Best Airline at the 2025 World Airline Awards (Skytrax, 2025-06-17)",
+        "url": "https://skytraxratings.com/qatar-airways-named-worlds-best-airline-at-2025-world-airline-awards"
+      },
+      {
+        "title": "Qatar Airways Group Appoints Mr. Hamad Ali Al-Khater as Group Chief Executive Officer (2025-12-07)",
+        "url": "https://www.qatarairways.com/press-releases/en-WW/258698-qatar-airways-group-appoints-mr-hamad-ali-al-khater-as-group-chief-executive-officer/"
+      },
+      {
+        "title": "Qatar Airways Group delivers robust financial performance despite global economic instability (The Peninsula Qatar, 2026-05-20)",
+        "url": "https://thepeninsulaqatar.com/article/20/05/2026/qatar-airways-group-delivers-robust-financial-performance-despite-global-economic-instability"
+      }
+    ]
   }
 }

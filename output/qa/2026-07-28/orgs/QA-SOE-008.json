@@ -4,50 +4,236 @@
     "name_original": "قطر للسكك الحديدية",
     "name_zh": "卡塔尔铁路公司",
     "name_en": "Qatar Railways",
-    "aliases": [],
+    "aliases": [
+      "Qatar Rail",
+      "Qatar Railways Company"
+    ],
     "org_type": "SOE",
     "org_subtype": "state_owned_enterprise",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2009-01-01",
-    "website": "http://www.qr.com.qa",
+    "founded_date": "2011-01-01",
+    "website": "https://www.qr.com.qa",
     "wikidata_qid": "Q2121482"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
+      "account_name": "@qatarrail",
+      "url": "https://x.com/qatarrail",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@qatarrail",
+      "url": "https://www.instagram.com/qatarrail/",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
       "account_name": "QatarRail",
-      "url": "https://x.com/QatarRail",
-      "source": "twitter_search"
+      "url": "https://www.facebook.com/QatarRail",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Qatar Rail (@QatarRailwaysCompany)",
+      "url": "https://www.youtube.com/@QatarRailwaysCompany",
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
       "account_name": "qatarrail",
-      "url": "https://www.linkedin.com/company/qatarrail",
-      "source": "linkedin_search"
+      "url": "https://www.linkedin.com/company/qatarrail/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔国营铁路运营与建设公司",
-  "industries": [
-    "public_transport"
+  "digital_assets": [
+    {
+      "name": "卡塔尔铁路公司企业门户网站",
+      "url": "https://corp.qr.com.qa",
+      "description": "公司企业门户网站，提供公司概况、多哈地铁、卢赛尔轻轨与长距离铁路等业务板块介绍、新闻公告及企业获奖资料（该站点在部分网络环境下无法直连访问）",
+      "source": "https://corp.qr.com.qa"
+    },
+    {
+      "name": "多哈地铁项目官方页面",
+      "url": "https://corp.qr.com.qa/English/Projects/Pages/DohaMetro.aspx",
+      "description": "官方项目页面，介绍多哈地铁三线网络的线路走向、车站设置与自动化运营体系",
+      "source": "https://corp.qr.com.qa/English/Projects/Pages/DohaMetro.aspx"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔国营铁路运营与建设公司",
-  "brief": "state-owned company",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·穆罕默德·本·阿卜杜拉·本·穆罕默德·阿勒萨尼 (Sheikh Mohammed bin Abdulla bin Mohammed Al Thani)",
+      "title": "董事会主席 (Chairman of the Board)",
+      "title_description": "兼任卡塔尔交通大臣（2024年11月就任），主持公司新一届董事会",
+      "description": "曾在卡塔尔武装力量总司令部任高级军官，后历任Ooredoo集团副集团首席执行官、Ooredoo卡塔尔首席执行官、Ooredoo科威特首席执行官及Ooredoo阿曼、科威特、缅甸、阿尔及利亚公司董事长；持有英国卡迪夫大学会计与金融理学硕士学位及卡塔尔大学经济与行政科学（会计方向）学士学位"
+    },
+    {
+      "person_id": null,
+      "name": "贾西姆·穆罕默德·安萨里 (Jassim Mohammed Al-Ansari)",
+      "title": "首席执行官 (Chief Executive Officer)",
+      "title_description": "2026年5月经公司新一届董事会首次会议任命，负责公司整体经营与项目交付",
+      "description": "工程师；2012年1月加入卡塔尔铁路公司，曾任项目交付总监（Chief of Program Delivery），接替自2011年起执掌公司的阿卜杜拉·本·阿卜杜勒阿齐兹·图尔基·苏拜伊博士；加入公司前曾在卡塔尔市政部、公共工程局（Ashghal）及Makeen Holding从事工程与运营管理；持有卡塔尔大学土木工程学士学位"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜勒阿齐兹·本·纳赛尔·阿勒哈利法 (Abdulaziz bin Nasser Al Khalifa)",
+      "title": "董事会副主席 (Vice Chairman)",
+      "title_description": "新一届董事会副主席，2026年5月出席公司新董事会首次会议",
+      "description": "博士；现任卡塔尔公务员与政府发展局（CGB）主席、国家规划委员会秘书长，曾任卡塔尔发展银行（QDB）首席执行官"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "QA-SOE-008-DEPT-001",
+      "name": "多哈地铁项目 (Doha Metro)",
+      "head": null,
+      "description": "负责多哈地铁网络的设计、建设与交付：红线、金线、绿线三线共约76公里、37座车站，2019年5月开通试运营，2020年9月全线投入运营；红线衔接卢赛尔、西湾、姆希赖卜、哈马德国际机场与瓦克拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-SOE-008-DEPT-002",
+      "name": "卢赛尔轻轨项目 (Lusail Light Rail Transit)",
+      "head": null,
+      "description": "负责卢赛尔新城有轨电车网络的建设与拓展：规划橙线、粉线、紫线、绿松石线4条线路共25座车站，2022年1月开通首段，2024年4月粉线开通并完成橙线全部车站，2025年1月绿松石线投入服务；在莱格塔菲亚站与卢赛尔QNB站同多哈地铁换乘",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-SOE-008-DEPT-003",
+      "name": "长距离铁路项目 (Long Distance Passenger and Freight Rail)",
+      "head": null,
+      "description": "规划连接卡塔尔北部与西部主要人口中心、工业区与多哈的长距离客运与货运铁路网，并作为海湾合作委员会（GCC）区域铁路网的卡塔尔段分段推进",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-SOE-008-DEPT-004",
+      "name": "运营与维护 (Operations & Maintenance)",
+      "head": null,
+      "description": "统筹多哈地铁与卢赛尔轻轨网络的日常运营和维护管理，具体运营服务委托RKH Qitarat合资联合体承担；重大赛事与高峰时段统一调度全网110列地铁列车运力",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-04",
+      "title": "新一届董事会召开首次会议并任命贾西姆·安萨里为新任首席执行官",
+      "description": "卡塔尔铁路公司新一届董事会在公司总部召开首次会议，由交通大臣谢赫·穆罕默德·本·阿卜杜拉·本·穆罕默德·阿勒萨尼主持，成员包括副董事长阿卜杜勒阿齐兹·本·纳赛尔·阿勒哈利法博士等；会议任命工程师贾西姆·穆罕默德·安萨里为新任首席执行官，接替自2011年3月起担任董事总经理、2017年1月起兼任首席执行官的阿卜杜拉·本·阿卜杜勒阿齐兹·图尔基·苏拜伊博士",
+      "impact": "公司完成管理层新老交替，治理架构进入新一届董事会周期，长期执掌公司的创始管理层交棒",
+      "source": "https://thepeninsulaqatar.com/article/04/05/2026/qatar-rails-new-board-meets-appoints-jassim-al-ansari-as-ceo"
+    },
+    {
+      "date": "2025-12-10",
+      "title": "多哈地铁与卢赛尔轻轨在2025年阿拉伯杯小组赛期间运送旅客超250万人次",
+      "description": "公司公布2025年12月1日至9日赛事小组赛期间，多哈地铁运送旅客241.94万人次、卢赛尔轻轨运送10.82万人次，合计逾250万；第8个比赛日单日客流超过31.5万人次，卢赛尔QNB站为全网最繁忙车站（近8.8万人次）；公司投入全部110列地铁列车，红线启用6节编组列车（单列载客量提升至1120人）并缩短行车间隔",
+      "impact": "体现轨道交通网络在大型体育赛事期间的大客流组织与保障能力",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-12/10/qatar-rail-carries-over-25-million-passengers-on-board-doha-metro-lusail-tram-during-fifa-arab-cup-2025-group-stage"
+    },
+    {
+      "date": "2025-08-02",
+      "title": "卢赛尔轻轨累计客运量突破1000万人次",
+      "description": "公司宣布卢赛尔轻轨自2022年1月开通以来累计运送旅客超过1000万人次；该网络2022年1月以橙线7座车站开通，2024年4月粉线投入服务并完成橙线全部车站，2025年1月绿松石线开通；全线建成后共4条线路、25座车站，并在莱格塔菲亚站和卢赛尔QNB站与多哈地铁实现一卡同乘、免额外票费换乘",
+      "impact": "卢赛尔新城轻轨网络渐次成网，强化与多哈地铁的多式联运衔接",
+      "source": "https://thepeninsulaqatar.com/article/02/08/2025/lusail-tram-records-10-million-in-ridership"
+    },
+    {
+      "date": "2024-03-10",
+      "title": "首次接受欧洲质量管理基金会（EFQM）评估即获五星级卓越认证",
+      "description": "公司宣布获得欧洲质量管理基金会（EFQM）组织卓越五星级认证，时任董事总经理兼首席执行官阿卜杜拉·本·阿卜杜勒阿齐兹·图尔基·苏拜伊博士在多哈举行的仪式上从EFQM首席执行官罗素·朗缪尔手中接获证书；EFQM逾35年来评估超过5万家组织，仅约1%获评五星级，此次为公司首次接受评估即获认证",
+      "impact": "公司治理与运营质量获得国际认可，巩固其在区域轨道交通行业的标杆地位",
+      "source": "https://thepeninsulaqatar.com/article/10/03/2024/qatar-rail-gets-five-star-recognition-from-efqm"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-GOV-006",
+      "org_name": "卡塔尔交通部 (Ministry of Transport)",
+      "org_type": "GOV",
+      "org_description": "公司主管部门，公司作为国有企业由卡塔尔政府拥有；2024年11月起交通大臣由谢赫·穆罕默德·本·阿卜杜拉·本·穆罕默德·阿勒萨尼出任，并兼任公司董事会主席（该部门原名交通与通信部，2024年拆分改组）",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "RKH Qitarat",
+      "org_type": "CORP",
+      "org_description": "由法国RATP Dev、Keolis与卡塔尔本地企业组建的合资运营服务商，受公司委托负责多哈地铁与卢赛尔轻轨网络的日常运营与维护",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "QA-SOE-009",
+      "org_name": "多哈哈马德国际机场 (Hamad International Airport)",
+      "org_type": "SOE",
+      "org_description": "卡塔尔国家航空枢纽；多哈地铁红线设哈马德国际机场站与航站楼衔接，构成空铁联运通道",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "穆瓦萨拉特交通公司 (Mowasalat (Karwa))",
+      "org_type": "CORP",
+      "org_description": "卡塔尔国有公共交通运营商；与公司在metroexpress接驳服务及轨道交通首末一公里衔接方面长期协作",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔铁路公司（Qatar Rail）是卡塔尔国有的国家铁路公司，总部位于多哈，依据2011年埃米尔法令设立，由卡塔尔国政府拥有和管理，肩负全国铁路网络及系统（包括多哈地铁、卢赛尔轻轨和长距离铁路）的设计、建设、调试、运营与维护职责，是落实《卡塔尔2030国家愿景》交通基础设施战略的核心执行主体。公司核心业务分为三大板块：其一，多哈地铁——自动化无人驾驶地铁网络，红线、金线、绿线三线共约76公里、37座车站，2019年5月开通试运营、2020年9月全面投入运营，红线衔接多哈哈马德国际机场，运营车队共110列列车；其二，卢赛尔轻轨——服务于卢赛尔新城的有轨电车网络，规划4条线路（橙线、粉线、紫线、绿松石线）、25座车站，2022年1月开通首段并渐次成网，在莱格塔菲亚站与卢赛尔QNB站与地铁实现一卡同乘换乘；其三，长距离客运与货运铁路——规划连接卡塔尔主要人口中心与工业区的国家干线网络，并作为海湾合作委员会（GCC）铁路网的组成部分。公司治理方面，董事会主席由交通大臣兼任，日常经营由董事总经理及首席执行官负责，地铁与轻轨的运营维护委托RKH Qitarat联合体承担。公司亦注重引入私营部门参与，多哈地铁与卢赛尔轻轨项目约70%的合同授予本土私营企业。2024年3月，公司首次接受欧洲质量管理基金会（EFQM）评估即获五星级卓越认证。",
+  "industries": [
+    "railway",
+    "public_transport",
+    "transportation",
+    "infrastructure"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔铁路公司作为卡塔尔国有企业，不直接参与APEC框架下的经贸与贸易政策进程。公司与APEC成员经济体的联系主要体现在国际轨道交通行业的技术交流、工程承包与设备采购等商务往来层面；其规划参与的海湾合作委员会（GCC）铁路网亦属区域基础设施互联互通议程的组成部分。",
+  "profile": {
+    "source_url": "https://corp.qr.com.qa/English/QatarRail/Pages/AboutUs.aspx",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2121482",
-      "http://www.qr.com.qa"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "government_directory",
+      "social_media"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 87,
+    "notes": "Phase 3 丰富化：领导层与组织架构核实自The Peninsula（2026-05-04新董事会报道）、卡塔尔通讯社（QNA）、卡塔尔交通部官网（mot.gov.qa大臣简历）及英文维基百科；成立年份经Hukoomi卡塔尔政府门户网站、牛津商业集团等多个官方来源核实为2011年埃米尔法令设立，原Wikidata骨架中2009年的P571取值已修正；qr.com.qa/corp.qr.com.qa 官网在本收集环境无法直连访问，相关事实均改经可访问的新闻与政府来源交叉验证；key_people中谢赫·穆罕默德（董事会主席）、贾西姆·安萨里（CEO）、阿卜杜勒阿齐兹·阿勒哈利法（副董事长）均未收录于_name_index.json，person_id为null待P4回填；P2骨架的brief/description字段有效内容已并入core_business后删除",
+    "quotes": [
+      {
+        "title": "Qatar Rail's new Board meets, appoints Jassim Al-Ansari as CEO（The Peninsula Qatar）",
+        "url": "https://thepeninsulaqatar.com/article/04/05/2026/qatar-rails-new-board-meets-appoints-jassim-al-ansari-as-ceo"
+      },
+      {
+        "title": "Qatar Rail Carries Over 2.5 Million Passengers on Board Doha Metro, Lusail Tram during FIFA Arab Cup 2025 Group Stage（QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-12/10/qatar-rail-carries-over-25-million-passengers-on-board-doha-metro-lusail-tram-during-fifa-arab-cup-2025-group-stage"
+      },
+      {
+        "title": "Lusail Tram records 10 million in ridership（The Peninsula Qatar）",
+        "url": "https://thepeninsulaqatar.com/article/02/08/2025/lusail-tram-records-10-million-in-ridership"
+      },
+      {
+        "title": "Qatar Rail gets five-star recognition from EFQM（The Peninsula Qatar）",
+        "url": "https://thepeninsulaqatar.com/article/10/03/2024/qatar-rail-gets-five-star-recognition-from-efqm"
+      },
+      {
+        "title": "Minister of Transport - H.E. Sheikh Mohammed bin Abdulla bin Mohammed Al Thani（卡塔尔交通部官网）",
+        "url": "https://www.mot.gov.qa/en/about/minister"
+      },
+      {
+        "title": "Driving and Transportation - Hukoomi Qatar Government Portal（成立年份：2011年埃米尔法令）",
+        "url": "https://hukoomi.gov.qa/en/topics/driving-and-transportation"
+      },
+      {
+        "title": "Qatar Rail - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Rail"
+      },
+      {
+        "title": "Doha Metro - English Wikipedia（运营方RKH Qitarat、线路与机场衔接）",
+        "url": "https://en.wikipedia.org/wiki/Doha_Metro"
+      }
+    ]
   }
 }

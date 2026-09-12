@@ -4,12 +4,17 @@
     "name_original": "شبكة الجزيرة الإعلامية",
     "name_zh": "半岛电视台媒体网络",
     "name_en": "Al Jazeera Media Network",
-    "aliases": [],
+    "aliases": [
+      "AJMN",
+      "Al Jazeera Network",
+      "Al Jazeera Satellite Network",
+      "半岛电视台"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "broadcaster",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1996-00-00",
+    "founded_date": "1996-11-01",
     "website": "https://network.aljazeera.net/ar",
     "wikidata_qid": "Q4704134"
   },
@@ -18,7 +23,25 @@
       "platform": "twitter_x",
       "account_name": "AlJazeera",
       "url": "https://x.com/AlJazeera",
-      "source": "twitter_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "aljazeera",
+      "url": "https://www.facebook.com/aljazeera",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "aljazeera",
+      "url": "https://www.instagram.com/aljazeera/",
+      "source": "web_search"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "@aljazeeraenglish",
+      "url": "https://www.youtube.com/@aljazeeraenglish",
+      "source": "web_search"
     },
     {
       "platform": "linkedin",
@@ -27,27 +50,223 @@
       "source": "linkedin_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔国营国际新闻媒体集团",
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "半岛电视台英语新闻网站（aljazeera.com）",
+      "url": "https://www.aljazeera.com",
+      "description": "网络旗下英语数字门户，为半岛电视台英语频道主要线上平台，提供新闻、直播与点播内容",
+      "source": "https://www.aljazeera.com"
+    },
+    {
+      "name": "半岛电视台阿拉伯语新闻网站（aljazeera.net）",
+      "url": "https://www.aljazeera.net",
+      "description": "网络旗下阿拉伯语数字门户，承载半岛电视台阿拉伯语频道等阿语业务的线上内容",
+      "source": "https://www.aljazeera.net"
+    },
+    {
+      "name": "半岛电视台媒体学院（Al Jazeera Media Institute）",
+      "url": "https://institute.aljazeera.net/en",
+      "description": "网络旗下新闻培训机构，面向内外部人员提供新闻采编与媒体业务培训课程",
+      "source": "https://institute.aljazeera.net/en"
+    },
+    {
+      "name": "半岛电视台研究中心（Al Jazeera Center for Studies）",
+      "url": "https://studies.aljazeera.net/en",
+      "description": "网络旗下研究机构，围绕地区与国际议题发布研究报告和分析文章",
+      "source": "https://studies.aljazeera.net/en"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔国营国际新闻媒体集团",
-  "brief": "Qatari international news public broadcaster",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "哈马德·本·塔米尔·阿勒萨尼 (Hamad bin Thamer Al Thani)",
+      "title": "董事会主席",
+      "title_description": "半岛电视台媒体网络董事会主席，自建台初期起长期主持网络治理事务",
+      "description": "卡塔尔阿勒萨尼家族资深成员，长期担任半岛电视台媒体网络董事会主席，另兼任卡塔尔媒体公司（Qatar Media Corporation）主席；任内见证网络从单一阿语卫星频道发展为多语种国际媒体集团"
+    },
+    {
+      "person_id": null,
+      "name": "纳赛尔·本·费萨尔·本·哈利法·阿勒萨尼 (Nasser bin Faisal bin Khalifa Al Thani)",
+      "title": "台长（总干事） (Director General)",
+      "title_description": "2025年9月1日起出任，接替任职十二年的穆斯塔法·苏瓦格",
+      "description": "卡塔尔大学毕业生，曾任职于巴拉瓦房地产公司（Barwa Real Estate），2013年进入卡塔尔外交部，历任多个职务并获大使衔；2025年9月1日被任命为半岛电视台媒体网络台长，提出以数字化转型与运营框架升级为重点的网络战略"
+    },
+    {
+      "person_id": null,
+      "name": "艾哈迈德·阿勒亚菲 (Ahmad Alyafei)",
+      "title": "频道执行总监 (Executive Director of Channels)",
+      "title_description": "2025年9月新设职位，统管半岛电视台各频道的编辑与运营",
+      "description": "卡塔尔记者，拥有卡塔尔大学与英国普利茅斯大学学位；2018年起任半岛电视台阿拉伯语频道董事总经理约七年，2025年9月管理层改组中获任命为频道执行总监"
+    },
+    {
+      "person_id": null,
+      "name": "伊萨·阿里 (Issa Ali)",
+      "title": "半岛电视台英语频道董事总经理 (Managing Director, Al Jazeera English)",
+      "title_description": "2025年9月管理层改组中获任命",
+      "description": "拥有二十余年管理经验的媒体管理者，2025年9月起出任半岛电视台英语频道董事总经理"
+    },
+    {
+      "person_id": null,
+      "name": "阿西夫·哈米迪 (Asef Hamidi)",
+      "title": "半岛电视台阿拉伯语频道董事总经理 (Managing Director, Al Jazeera Arabic)",
+      "title_description": "2025年9月管理层改组中获任命，此前任该频道新闻总监",
+      "description": "长期在半岛电视台阿拉伯语频道任职，曾任该频道新闻总监，2025年9月起出任阿拉伯语频道董事总经理"
+    }
+  ],
+  "departments": [
+    {
+      "name": "阿拉伯语频道业务板块（半岛电视台阿拉伯语频道）",
+      "dept_id": null,
+      "head": "阿西夫·哈米迪 (Asef Hamidi)",
+      "description": "网络旗舰阿拉伯语新闻频道，1996年11月1日开播，1999年起24小时播出，面向中东及全球阿语受众",
+      "parent_dept_id": null
+    },
+    {
+      "name": "英语频道业务板块（半岛电视台英语频道）",
+      "dept_id": null,
+      "head": "伊萨·阿里 (Issa Ali)",
+      "description": "2006年11月15日开播的国际英语新闻频道，播报中心位于多哈、伦敦、吉隆坡和华盛顿，另有独立的英语频道新闻总监负责编辑业务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数字媒体业务板块（Al Jazeera Digital / AJ+）",
+      "dept_id": null,
+      "head": null,
+      "description": "运营aljazeera.com与aljazeera.net两大新闻网站及面向社交平台的数字视频品牌AJ+，涵盖短视频、播客与多平台内容分发",
+      "parent_dept_id": null
+    },
+    {
+      "name": "专项频道与培训研究板块",
+      "dept_id": null,
+      "head": null,
+      "description": "包括半岛电视台Mubasher直播频道、半岛电视台纪录片频道、半岛电视台调查部，以及半岛电视台媒体学院（新闻培训）和半岛电视台研究中心（政策研究）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-05-05",
+      "title": "以色列内阁表决通过关闭半岛电视台在以色列业务的决议",
+      "description": "据半岛电视台报道，以色列总理内塔尼亚胡宣布其内阁一致表决通过关闭半岛电视台在以色列境内业务的决议；半岛电视台发表声明反对该决定，并表示将保留法律追索权利",
+      "impact": "该网络在以色列境内的采编与信号分发业务自此停止，其在其他国家和地区的国际业务运作未受直接影响",
+      "source": "https://www.aljazeera.com/news/2024/5/5/netanyahu-government-votes-to-close-al-jazeera-channel-in-israel"
+    },
+    {
+      "date": "2024-07-31",
+      "title": "半岛电视台记者伊斯梅尔·加乌勒与摄像师拉米·里菲在加沙身亡",
+      "description": "据半岛电视台通报，其阿拉伯语频道记者伊斯梅尔·加乌勒（Ismail al-Ghoul）与摄像师拉米·里菲（Rami al-Rifi）在加沙城沙提难民营执行报道任务期间遭袭身亡",
+      "impact": "加沙冲突报道期间该网络多名一线采编人员遇难，战地报道的人员安全与采编部署受到考验",
+      "source": "https://www.aljazeera.com/news/2024/7/31/al-jazeera-journalist-cameraman-killed-in-gaza-attack"
+    },
+    {
+      "date": "2025-07-12",
+      "title": "半岛电视台巴尔干频道宣布停播",
+      "description": "据国际记者联合会（IFJ）通报，总部位于萨拉热窝的区域频道半岛电视台巴尔干频道（Al Jazeera Balkans）于2025年7月12日宣布停播；该频道2011年11月开播，以波斯尼亚语、克罗地亚语和塞尔维亚语播出约十四年，停播影响逾200名媒体从业人员",
+      "impact": "网络收缩东南欧区域性业务，西巴尔干地区媒体格局随之调整",
+      "source": "https://www.ifj.org/media-centre/news/detail/article/bosnia-and-herzegovina-abrupt-closure-of-al-jazeera-balkans-impacts-over-200-media-workers"
+    },
+    {
+      "date": "2025-09-01",
+      "title": "纳赛尔·本·费萨尔出任台长，网络同步改组管理层",
+      "description": "半岛电视台媒体网络宣布任命谢赫·纳赛尔·本·费萨尔·本·哈利法·阿勒萨尼为新任台长，接替任职十二年的穆斯塔法·苏瓦格（Mostefa Souag）；新台长曾在外交领域任职至大使衔。据媒体报道，管理层同步调整：艾哈迈德·阿勒亚菲出任统管各频道的频道执行总监，伊萨·阿里任英语频道董事总经理，阿西夫·哈米迪任阿拉伯语频道董事总经理",
+      "impact": "该网络多年来最大规模的管理层重组，新管理层提出以数字化转型与运营框架升级为战略重点",
+      "source": "https://network.aljazeera.net/en/node/2162"
+    },
+    {
+      "date": "2026-02-03",
+      "title": "台长在多哈网络峰会阐述数字与人工智能时代的新闻战略",
+      "description": "台长谢赫·纳赛尔·本·费萨尔在Web Summit Qatar 2026大会上表示，数字平台与人工智能带来的变革凸显新闻业提供语境、连接多元声音的价值，半岛电视台将持续推进新闻编辑室的数字化与人工智能应用",
+      "impact": "该网络向数字化、智能化新闻生产体系转型，业内关注其对采编流程与多语种内容生产的影响",
+      "source": "https://www.aljazeera.com/news/2026/2/3/journalism-has-acquired-renewed-importance-amid-tech-changes-al-jazeera-dg"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-MEDIA-002",
+      "org_name": "半岛电视台阿拉伯语频道 (Al Jazeera)",
+      "org_type": "MEDIA",
+      "org_description": "网络旗舰阿拉伯语新闻频道，1996年11月1日开播，是阿拉伯世界首个全天候独立新闻频道",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "QA-MEDIA-003",
+      "org_name": "半岛电视台英语频道 (Al Jazeera English)",
+      "org_type": "MEDIA",
+      "org_description": "网络旗下国际英语新闻频道，2006年11月15日开播，播报中心位于多哈、伦敦、吉隆坡和华盛顿",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "QA-MEDIA-007",
+      "org_name": "beIN媒体集团 (beIN Media Group)",
+      "org_type": "MEDIA",
+      "org_description": "总部位于多哈的体育与娱乐传媒集团，2014年由半岛电视台旗下体育频道业务（Al Jazeera Sport）独立重组而来",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "半岛电视台媒体网络（Al Jazeera Media Network，AJMN）是总部位于卡塔尔多哈的国际新闻媒体机构，法律形态为公益类私营基金会（2011年依据卡塔尔第10号法律由半岛电视台卫星频道网改组而成），运营资金包括卡塔尔政府拨款及广告、发行与版权等商业收入。其前身为1996年11月1日在多哈开播的半岛电视台卫星频道，是阿拉伯世界首个全天候独立新闻频道，以「舆论与另一种舆论」为创台理念，1999年起实行24小时播出。经过多年发展，该网络已形成多语种、多平台的媒体集团架构：旗舰频道包括半岛电视台阿拉伯语频道与2006年11月15日开播的半岛电视台英语频道（播报中心设于多哈、伦敦、吉隆坡和华盛顿），另设Mubasher直播频道、纪录片频道、面向社交平台的数字视频品牌AJ+及调查部等业务单元，并建有半岛电视台媒体学院和半岛电视台研究中心等培训与研究机构。英语数字门户aljazeera.com与阿拉伯语门户aljazeera.net构成其主要线上阵地。该网络在全球设有70多个记者站，内容覆盖150多个国家和地区，员工逾3000人，覆盖受众超4.3亿户家庭，播出语言包括阿拉伯语、英语和西班牙语。谢赫·哈马德·本·塔米尔·阿勒萨尼长期担任董事会主席；2025年9月起，曾任卡塔尔外交部大使衔官员的谢赫·纳赛尔·本·费萨尔·本·哈利法·阿勒萨尼出任台长。",
+  "industries": [
+    "broadcasting",
+    "digital_media",
+    "media_publishing"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，总部设于多哈的半岛电视台媒体网络不直接参与APEC进程与机制。作为面向全球的国际新闻机构，该网络在亚太地区设有播报中心（英语频道2006年开播时即在吉隆坡设立播报中心），长期报道APEC会议及亚太区域经贸议题，向区内外受众提供相关新闻内容。",
+  "profile": {
+    "source_url": "https://network.aljazeera.net/en/about-us",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q4704134",
-      "https://network.aljazeera.net/ar"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 97,
+    "notes": "Phase 3 丰富化。骨架wikidata_qid Q4704134经Wikidata EntityData核实即「Al Jazeera Media Network（شبكة الجزيرة الإعلامية）」实体本身，无需修正。顶层非标准字段brief（Qatari international news public broadcaster）与description（卡塔尔国营国际新闻媒体集团）的有效事实已并入core_business后删除。founded_date由1996-00-00细化为1996-11-01（官网About页与英文Wikipedia均载明1996年11月1日开播）。管理层（董事会主席、台长及2025年9月改组任命）经官方新闻稿与Middle East Eye、State Media Monitor交叉核实；key_people中哈马德·本·塔米尔·阿勒萨尼、纳赛尔·本·费萨尔·本·哈利法·阿勒萨尼、艾哈迈德·阿勒亚菲、伊萨·阿里、阿西夫·哈米迪均未见于_name_index.json，person_id留待P4回填。",
+    "quotes": [
+      {
+        "title": "Al Jazeera Media Network - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Al_Jazeera_Media_Network"
+      },
+      {
+        "title": "Who We Are - Al Jazeera Media Network官网（Our Story）",
+        "url": "https://network.aljazeera.net/en/about-us"
+      },
+      {
+        "title": "Sheikh Nasser Bin Faisal Al-Thani appointed Director General of Al Jazeera Media Network（官方新闻稿，2025-09-01）",
+        "url": "https://network.aljazeera.net/en/node/2162"
+      },
+      {
+        "title": "Al Jazeera appoints new director general, unveils major leadership changes（Middle East Eye）",
+        "url": "https://www.middleeasteye.net/news/al-jazeera-appoints-new-director-general-and-unveils-major-leadership-changes"
+      },
+      {
+        "title": "Al Jazeera Media Network (AJMN) - State Media Monitor（2026年6月）",
+        "url": "https://statemediamonitor.com/2026/06/al-jazeera-media-network-ajmn/"
+      },
+      {
+        "title": "Al Jazeera condemns Israeli government decision to shut down its operations（半岛电视台，2024-05-05）",
+        "url": "https://www.aljazeera.com/news/2024/5/5/netanyahu-government-votes-to-close-al-jazeera-channel-in-israel"
+      },
+      {
+        "title": "Al Jazeera journalist, cameraman killed in Israeli attack on Gaza（半岛电视台，2024-07-31）",
+        "url": "https://www.aljazeera.com/news/2024/7/31/al-jazeera-journalist-cameraman-killed-in-gaza-attack"
+      },
+      {
+        "title": "Abrupt closure of Al Jazeera Balkans impacts over 200 media workers（IFJ，2025-07）",
+        "url": "https://www.ifj.org/media-centre/news/detail/article/bosnia-and-herzegovina-abrupt-closure-of-al-jazeera-balkans-impacts-over-200-media-workers"
+      },
+      {
+        "title": "Journalism has acquired renewed importance amid tech changes: Al Jazeera DG（半岛电视台，2026-02-03）",
+        "url": "https://www.aljazeera.com/news/2026/2/3/journalism-has-acquired-renewed-importance-amid-tech-changes-al-jazeera-dg"
+      },
+      {
+        "title": "Al Jazeera Media Network - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q4704134"
+      }
+    ]
   }
 }

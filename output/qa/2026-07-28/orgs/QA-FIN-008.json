@@ -4,13 +4,17 @@
     "name_original": "مركز قطر للمال",
     "name_zh": "卡塔尔金融中心",
     "name_en": "Qatar Financial Centre",
-    "aliases": [],
+    "aliases": [
+      "QFC",
+      "QFC Authority",
+      "Qatar Financial Centre Authority"
+    ],
     "org_type": "FIN",
-    "org_subtype": "commercial_bank",
+    "org_subtype": "statutory_board",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2005-00-00",
-    "website": "http://qfc.qa",
+    "founded_date": "2005-03-01",
+    "website": "https://www.qfc.qa",
     "wikidata_qid": "Q7267101"
   },
   "social_accounts": [
@@ -18,44 +22,231 @@
       "platform": "twitter_x",
       "account_name": "QFCAuthority",
       "url": "https://x.com/QFCAuthority",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
       "account_name": "qfcauthority",
       "url": "https://www.linkedin.com/company/qfcauthority",
-      "source": "linkedin_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "qfcauthority",
+      "url": "https://www.instagram.com/qfcauthority",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "QatarFinancialCentre",
+      "url": "https://www.facebook.com/QatarFinancialCentre/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "QFCAuthority",
+      "url": "https://www.youtube.com/QFCAuthority",
+      "source": "official_website"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "qfcauthority",
+      "url": "https://www.tiktok.com/@qfcauthority",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "QFC数字资产实验室（Digital Assets Lab）",
+      "url": "https://www.qfc.qa/en/digital-assets-lab/",
+      "description": "QFC下设的数字创新枢纽，为区块链、代币化及分布式账本技术业务提供孵化环境与准入通道",
+      "source": "https://www.qfc.qa/en/digital-assets-lab/"
+    },
+    {
+      "name": "QFC报告与出版物页面",
+      "url": "https://www.qfc.qa/en/media-centre/reports-and-publications/",
+      "description": "提供QFC年度报告（含2024年度报告）及其他研究出版物的下载入口",
+      "source": "https://www.qfc.qa/en/media-centre/reports-and-publications/"
+    }
+  ],
   "key_people": [
     {
-      "person_id": "QA-PERSON-000013",
-      "name": "阿兰努德·宾特·哈马德·阿勒萨尼",
-      "title": "副局长",
-      "title_description": "副首席执行官",
-      "description": ""
+      "person_id": null,
+      "name": "谢赫·法萨尔·本·萨尼·阿勒萨尼 (Sheikh Faisal Bin Thani Al Thani)",
+      "title": "董事会主席",
+      "title_description": "兼任卡塔尔商业与工业大臣",
+      "description": "以商业与工业大臣身份出任QFC董事会主席；QFC官网领导层页面将其列为董事会主席，董事会成员还包括卡塔尔中央银行副行长、卡塔尔证券交易所首席执行官等官员"
+    },
+    {
+      "person_id": null,
+      "name": "曼苏尔·拉希德·阿勒哈特尔 (Mansoor Rashid Al-Khater)",
+      "title": "首席执行官",
+      "title_description": "兼董事会成员",
+      "description": "拥有逾28年从业经验，2026年1月11日起出任QFC首席执行官，接替任职约11年的优素福·穆罕默德·贾伊达（Yousuf Mohamed Al-Jaida）；2026年8月以CEO身份发布QFC上半年增长数据，并提出将卡塔尔打造为全球财富中心、推进金融服务数字化转型等方向"
+    },
+    {
+      "person_id": null,
+      "name": "纳赛尔·阿勒塔维勒 (Nasser Al Taweel)",
+      "title": "副首席执行官",
+      "title_description": "兼首席法务官及董事会秘书",
+      "description": "据QFC官网执行委员会名单任副首席执行官、首席法务官兼董事会秘书；2025年10月入选Legal 500中东地区总法律顾问权力名单（GC Powerlist Middle East 2025）"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔特别金融商业区",
-  "industries": [
-    "financial_services"
+  "departments": [
+    {
+      "name": "法律事务部门",
+      "dept_id": null,
+      "head": "纳赛尔·阿勒塔维勒 (Nasser Al Taweel)",
+      "description": "由副首席执行官兼首席法务官主管，负责中心法律事务、公司治理及董事会秘书工作",
+      "parent_dept_id": null
+    },
+    {
+      "name": "财务与税务部门",
+      "dept_id": null,
+      "head": "哈米德·阿勒萨阿迪 (Hamed Al-Saadi)",
+      "description": "由首席财务与税务官主管，负责中心财务管理与税务事务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "运营部门",
+      "dept_id": null,
+      "head": "阿卜杜拉·穆罕默德·哈吉里 (Abdulla Mohamed Al-Hajri)",
+      "description": "由首席运营官主管，负责中心日常运营事务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "市场与企业传播部门",
+      "dept_id": null,
+      "head": "优素福·法赫鲁 (Yousef Fakhroo)",
+      "description": "由首席市场与企业传播官主管，负责品牌推广与对外传播事务",
+      "parent_dept_id": null
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔特别金融商业区",
-  "brief": "The Qatar Financial Centre (‘QFC’) is an onshore business and financial centre located in Doha, Qatar, providing legal and regulatory services for local and international companies",
+  "recent_events": [
+    {
+      "date": "2026-08-24",
+      "title": "QFC公布2026年上半年业绩：企业注册量同比增长37%",
+      "description": "2026年上半年QFC新增注册企业1,135家，注册企业总数超过4,700家；新增企业中科技与创新类544家、媒体与娱乐类173家、咨询与专业服务类166家、财富管理类84家、金融科技类65家。期内卡塔尔首只房地产投资信托集合投资基金（Salwa REIT）在QFC注册；新任首席执行官曼苏尔·拉希德·阿勒哈特尔于1月上任并完成董事会改组，中心总部迁至卢赛尔",
+      "impact": "反映QFC平台持续扩张，巩固其作为卡塔尔吸引外资与企业落户主要平台的作用",
+      "source": "https://www.qfc.qa/en/news-detail/?id=1434"
+    },
+    {
+      "date": "2026-07-26",
+      "title": "QFC与卡塔尔金融商业学院签署合作备忘录培养金融人才",
+      "description": "QFC与卡塔尔金融商业学院（QFBA）签署谅解备忘录，围绕实习机会（含面向QFBA诺森比亚大学学生的实习）、行业互动与技能培养开展合作，并设立Takween卓越奖",
+      "impact": "拓展卡塔尔金融人才培养渠道，加强学界与产业界衔接",
+      "source": "https://www.qfc.qa/en/news-detail/?id=1435"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "QFC加入海湾资本市场协会（GCMA）",
+      "description": "QFC成为海湾资本市场协会（GCMA）准会员；此前双方已于2025年2月签署谅解备忘录，探索设立GCMA资产管理分会卡塔尔分支，并支持建立本地投资管理协会",
+      "impact": "推动卡塔尔资产管理生态建设，深化与海湾区域资本市场的联系",
+      "source": "https://www.qfc.qa/en/news-detail/?id=774"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "QFC在成立20周年之际发布新品牌标识",
+      "description": "QFC在卢赛尔新总部举行成立20周年庆典，发布新品牌标识「Grow with Confidence」，取代此前的「We Mean Business」。首席执行官曼苏尔·拉希德·阿勒哈特尔表示，QFC现有近4,000家企业、创造约1.3万个就业岗位，未来将着力巩固卡塔尔全球财富中心地位、推进金融服务数字化转型，支持卡塔尔2030国家愿景",
+      "impact": "标志QFC进入第三个十年发展阶段，强化其作为区域及国际企业进入卡塔尔市场门户的定位",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-1/15/qatar-financial-center-reveals-new-brand-in-20th-anniversary-celebration"
+    },
+    {
+      "date": "2025-08-21",
+      "title": "QFC公布2025年上半年企业注册量同比增长64%",
+      "description": "2025年上半年QFC新增注册企业828家，接近2024年全年新增纪录，注册企业总数至6月达3,300家；受监管企业中企业与投资银行业务表现领先，带动资产管理规模同比增长19%",
+      "impact": "显示QFC平台对企业的持续吸引力，为卡塔尔金融服务业多元化提供支撑",
+      "source": "https://www.ccifq.com/en/news/zoom-on-a-news/news/qfc-records-64-year-on-year-growth-in-h1-2025-registration.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-009",
+      "org_name": "卡塔尔金融中心监管局 (Qatar Financial Centre Regulatory Authority)",
+      "org_type": "FIN",
+      "org_description": "依据2005年第7号法律框架设立的独立监管机构，负责监管卡塔尔金融中心内的金融服务业务，与QFC管理局、公司注册处、民商事法院及监管法庭共同构成QFC治理架构",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔商业与工业部 (Ministry of Commerce and Industry)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔政府部委；QFC董事会由商业与工业大臣出任主席",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "海湾资本市场协会 (Gulf Capital Market Association)",
+      "org_type": "INTL",
+      "org_description": "海湾地区资本市场行业组织；QFC于2026年5月成为其准会员，并于2025年2月签署合作谅解备忘录",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔金融商业学院 (Qatar Finance and Business Academy)",
+      "org_type": "ACAD",
+      "org_description": "卡塔尔金融教育与培训机构；2026年7月与QFC签署谅解备忘录，合作培养金融人才",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔金融中心（QFC）是位于多哈的陆上商业与金融中心，依据2005年第7号法律设立，为希望在卡塔尔及本地区开展业务的本地和国际企业提供法律、监管、税务与商业环境方面的一站式服务，是卡塔尔推动经济多元化与吸引外国直接投资的重要平台。中心由相对独立的治理架构组成，包括卡塔尔金融中心管理局（QFC Authority）、监管局（QFC Regulatory Authority）、公司注册处、民商事法院及监管法庭，董事会由卡塔尔商业与工业大臣出任主席。QFC重点发展金融服务、商业与专业服务、伊斯兰与替代金融以及数字、人工智能与科技四大领域，并设有数字资产实验室（Digital Assets Lab），为区块链、代币化等业务提供孵化平台。入驻企业可享受外资100%持股、利润全额汇出及10%的企业所得税率等制度安排，其法律体系以英国普通法为基础。截至2026年6月，QFC注册企业超过4,700家，来自130多个国家和地区，创造约1.3万个就业岗位，中心总部已迁至卢赛尔。",
+  "industries": [
+    "financial_services",
+    "professional_services",
+    "fintech",
+    "investment",
+    "legal_services"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，QFC不直接参与APEC合作进程。作为卡塔尔面向全球企业的商业与金融平台，QFC与亚太地区存在业务联系，其注册企业来自包括亚太经济体在内的130多个国家和地区，并与区域内的迪拜国际金融中心、阿布扎比全球市场等金融中心保持制度层面的交流与合作。",
+  "profile": {
+    "source_url": "https://www.qfc.qa/en/about-us",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q7267101",
-      "http://qfc.qa"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 91,
+    "notes": "Phase 3 丰富化：领导层与部门核验自QFC官网领导层页面；原副局长阿兰努德·宾特·哈马德·阿勒萨尼已于2023年12月离任，按现任管理层规则未列入key_people；法萨尔·阿勒萨尼、曼苏尔·阿勒哈特尔、纳赛尔·阿勒塔维勒尚未建档，person_id暂为null待P4回填",
+    "quotes": [
+      {
+        "title": "QFC官网-关于我们（About Us）",
+        "url": "https://www.qfc.qa/en/about-us"
+      },
+      {
+        "title": "QFC官网-领导层（Leadership）",
+        "url": "https://www.qfc.qa/en/about-us/leadership"
+      },
+      {
+        "title": "QFC Sustains Growth Momentum in H1 2026 With 37% Increase in Firm Registrations",
+        "url": "https://www.qfc.qa/en/news-detail/?id=1434"
+      },
+      {
+        "title": "QFC And QFBA Sign Partnership to Strengthen Qatar's Financial Talent Pipeline",
+        "url": "https://www.qfc.qa/en/news-detail/?id=1435"
+      },
+      {
+        "title": "QFC Joins GCMA to Advance Qatar's Asset Management Ecosystem",
+        "url": "https://www.qfc.qa/en/news-detail/?id=774"
+      },
+      {
+        "title": "Qatar Financial Center Reveals New Brand in 20th Anniversary Celebration（卡塔尔通讯社QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-1/15/qatar-financial-center-reveals-new-brand-in-20th-anniversary-celebration"
+      },
+      {
+        "title": "QFC records 64% year-on-year growth in H1 2025 registration（CCIFQ转载The Peninsula）",
+        "url": "https://www.ccifq.com/en/news/zoom-on-a-news/news/qfc-records-64-year-on-year-growth-in-h1-2025-registration.html"
+      },
+      {
+        "title": "Qatar Financial Centre - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Financial_Centre"
+      }
+    ]
   }
 }

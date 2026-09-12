@@ -5,14 +5,16 @@
     "name_zh": "卡塔尔红新月会",
     "name_en": "Qatar Red Crescent Society",
     "aliases": [
-      "QRCS"
+      "QRCS",
+      "Qatar Red Crescent",
+      "QRC"
     ],
     "org_type": "NGO",
     "org_subtype": "humanitarian_org",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1978-00-00",
-    "website": "http://www.qrcs.org.qa/",
+    "founded_date": "1978-01-01",
+    "website": "https://www.qrcs.org.qa/",
     "wikidata_qid": "Q7267117"
   },
   "social_accounts": [
@@ -24,32 +26,224 @@
     },
     {
       "platform": "facebook",
-      "account_name": "QatarRedCrescent",
-      "url": "https://facebook.com/QatarRedCrescent",
-      "source": "wikidata"
+      "account_name": "QRCS",
+      "url": "https://www.facebook.com/QRCS",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "qrcs",
+      "url": "https://www.instagram.com/qrcs/",
+      "source": "web_search"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Qatar Red Crescent",
+      "url": "https://www.youtube.com/QRCS",
+      "source": "web_search"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Qatar Red Crescent Society (QRCS)",
+      "url": "https://www.linkedin.com/company/qrcs/",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "红十字会与红新月会国际联合会的卡塔尔分会",
-  "industries": [
-    "humanitarian_aid"
+  "digital_assets": [
+    {
+      "name": "QRCS官方移动应用（Google Play）",
+      "url": "https://play.google.com/store/apps/details?id=com.qrc",
+      "description": "卡塔尔红新月会官方应用，提供机构动态、人道项目介绍、捐赠及志愿服务入口",
+      "source": "https://play.google.com/store/apps/details?id=com.qrc"
+    },
+    {
+      "name": "QRCS 2023年度报告（IFRC文档库）",
+      "url": "https://data-api.ifrc.org/documents/QA/Annual%20Report_Qatar_2023.pdf",
+      "description": "红十字会与红新月会国际联合会文档库收录的卡塔尔红新月会2023年度报告，汇总其全年救济、发展与能力建设成果",
+      "source": "https://data-api.ifrc.org"
+    }
   ],
-  "apec_stance": null,
-  "description": "红十字会与红新月会国际联合会的卡塔尔分会",
-  "brief": "Qatari branch of the Red Crescent Society",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "优素福·本·阿里·哈特尔 (Yousef bin Ali Al-Khater)",
+      "title": "主席",
+      "title_description": "主持董事会及机构全面工作，对外代表QRCS",
+      "description": "卡塔尔外交官出身，1992年获卡塔尔大学教育学学士，2001年获美利坚大学（华盛顿）公共管理硕士；曾任卡塔尔教育大臣办公室教育规划主管及卡塔尔全国教科文委员会秘书长，2006-2008年在外交部国务大臣办公室任职，2008-2011年任驻美国休斯敦领事，2012-2021年先后任驻澳大利亚兼新西兰、驻英国兼爱尔兰和冰岛大使；2021年起任卡塔尔协商会议成员；任内QRCS在大马士革设立驻叙利亚代表处"
+    },
+    {
+      "person_id": null,
+      "name": "易卜拉欣·本·哈希姆·萨达 (Ibrahim bin Hashim Al-Sada)",
+      "title": "总经理兼秘书长",
+      "title_description": "执掌秘书长办公厅并主持机构日常运营，官方头衔为Managing Director - Secretary-General",
+      "description": "工程师出身，此前任QRCS副主席（2024年12月已以副主席身份公开活动）；2026年1月26日经董事会决议转任总经理兼秘书长；其前任秘书长费萨尔·穆罕默德·阿勒埃马迪（Faisal Mohamed Al-Emadi）同日改任主席顾问及个人代表"
+    },
+    {
+      "person_id": null,
+      "name": "穆罕默德·巴德尔·萨达 (Mohammed Bader Al Sada)",
+      "title": "负责救济与国际发展事务的副秘书长",
+      "title_description": "主管QRCS救济与国际发展板块，统筹海外救济与发展项目及应急准备体系，兼灾害管理训练营（DMC）负责人",
+      "description": "据卡塔尔通讯社2026年8月报道，其领导的救济与国际发展板块2026年上半年在20个国家完成167个救济与发展项目，总价值约1.146亿卡塔尔里亚尔，惠益4,175,837人；并主导10期灾害管理训练营等能力建设活动"
+    }
+  ],
+  "departments": [
+    {
+      "name": "救济与国际发展板块 (Relief and International Development Sector)",
+      "dept_id": null,
+      "head": null,
+      "description": "统筹全部海外救济与发展行动，涵盖食品保障、饮水与环境卫生、庇护所、生计赋权及对外医疗队，运营24小时灾害信息管理中心与战略物资储备体系",
+      "parent_dept_id": null
+    },
+    {
+      "name": "医疗事务板块 (Medical Affairs Division)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责医疗服务与医疗援助项目，运营心理社会支持应急响应单元（全球首个获国际认证的同类单元），并推进II型野战医院的国际认证",
+      "parent_dept_id": null
+    },
+    {
+      "name": "社会发展部 (Social Development Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "面向卡塔尔境内弱势群体开展社会保障、社区发展及斋月、冬季等季节性援助项目",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国际关系部 (International Relations Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责与红十字会与红新月会国际联合会、红十字国际委员会、联合国机构及各国红会的联络协调与人道外交事务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-08",
+      "title": "与叙利亚阿拉伯红新月会签署战略合作协议并设立驻叙代表处",
+      "description": "QRCS与叙利亚阿拉伯红新月会（SARC）在大马士革签署战略合作协议，内容包括在SARC总部设立QRCS驻叙利亚代表处，为双边人道行动提供制度框架，旨在扩大联合人道响应规模",
+      "impact": "QRCS在叙利亚的医疗与救济项目获得常驻机构依托，双边人道合作进入机制化阶段",
+      "source": "https://thepeninsulaqatar.com/article/08/09/2026/qrcs-sarcs-sign-partnership-agreement"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "公布2026年上半年成果：20国167个项目惠益逾417万人",
+      "description": "救济与国际发展板块副秘书长穆罕默德·巴德尔·萨达向卡塔尔通讯社介绍，2026年上半年该板块在20个国家完成167个救济与发展项目，总价值114,603,732卡塔尔里亚尔，惠益4,175,837人；QRCS并成为全球首个获得心理社会支持应急响应单元（ERU）国际认证的组织，正推进II型野战医院认证，同时主办由卡塔尔发展基金赞助的第10期灾害管理训练营",
+      "impact": "体现QRCS国际救济网络规模及其在应急响应专业认证上的领先地位",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-8/17/over-4-million-people-across-20-countries-benefited-from-qrcs-relief-development-projects-in-6-months"
+    },
+    {
+      "date": "2026-02-15",
+      "title": "向叙利亚派遣心脏介入专科医疗队",
+      "description": "QRCS启动赴叙利亚专科医疗队，由心脏导管介入顾问医生组成，为叙利亚心血管疾病患者免费实施导管检查与介入手术，并协助提升当地医院的心脏护理能力",
+      "impact": "延续对叙利亚卫生系统的专项支持，补强当地稀缺的专科诊疗能力",
+      "source": "https://reliefweb.int/report/syrian-arab-republic/qrcs-deploys-medical-convoy-syria-enar"
+    },
+    {
+      "date": "2026-01-26",
+      "title": "董事会改组管理层：萨达出任总经理兼秘书长",
+      "description": "QRCS董事会决议任命副主席易卜拉欣·本·哈希姆·萨达为秘书长办公厅指定负责人，头衔为总经理兼秘书长；前秘书长费萨尔·穆罕默德·阿勒埃马迪改任主席优素福·本·阿里·哈特尔的顾问及个人代表",
+      "impact": "机构最高行政负责人更替，管理层进入新一轮行政、战略与财务发展调整期",
+      "source": "https://www.qrcs.org.qa/en/News/Pages/Eng--Al-Sada-assigned-as-Managing-Director,-Secretary-General-of-QRCS.aspx?NewsId=v33Nej8z5j4="
+    },
+    {
+      "date": "2023-02-08",
+      "title": "土耳其-叙利亚强震应急响应：拨款100万美元并启动千万美元募捐",
+      "description": "土耳其和叙利亚北部发生强震后，QRCS从灾害应对基金中拨款100万美元，在土耳其及叙利亚北部展开紧急救济行动，并启动总额1,000万美元的募捐行动，扩大医疗、庇护所、饮水等领域的救济干预",
+      "impact": "QRCS当年最大规模的国际应急响应之一，体现其依托国际红会与红新月运动网络的快速动员能力",
+      "source": "https://thepeninsulaqatar.com/article/08/02/2023/qrcs-allocates-1-million-for-initial-relief-operations-in-turkey-syria"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "红十字会与红新月会国际联合会 (International Federation of Red Cross and Red Crescent Societies, IFRC)",
+      "org_type": "INTL",
+      "org_description": "总部位于日内瓦的全球人道主义网络，由191个国家红会组成；QRCS于1981年加入并成为其成员国家红会，依托该网络开展国际灾害响应",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "红十字国际委员会 (International Committee of the Red Cross, ICRC)",
+      "org_type": "INTL",
+      "org_description": "国际红会与红新月运动成员组织；QRCS于1981年获其正式承认，双方在一线人道行动与国际人道法传播领域保持合作",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "QA-NGO-009",
+      "org_name": "卡塔尔慈善协会 (Qatar Charity)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔主要慈善人道组织之一，与QRCS同属卡塔尔人道援助体系，曾在2023年土耳其-叙利亚地震中与卡塔尔发展基金等联合向灾区提供紧急援助",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "叙利亚阿拉伯红新月会 (Syrian Arab Red Crescent)",
+      "org_type": "NGO",
+      "org_description": "叙利亚境内国家红会；2026年9月与QRCS签署战略合作协议，QRCS在其大马士革总部设立驻叙利亚代表处",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔红新月会成立于1978年，是卡塔尔首家慈善与人道主义组织，总部设于多哈。1981年获红十字国际委员会正式承认并加入红十字会与红新月会国际联合会（IFRC），同时为设在吉达的阿拉伯红新月会秘书处成员，1982年成为卡塔尔首个设立妇女分支的慈善机构。其国内业务涵盖社会保障与发展、培训与资格认证、宣传教育、医疗服务和志愿服务，并作为卡塔尔民防委员会成员参与国家应急管理体系。国际业务以救济与人道响应、发展与赋权、人道外交为主线：救济与国际发展板块2026年上半年在20个国家完成167个项目，总价值约1.146亿卡塔尔里亚尔，惠益逾417万人，项目领域覆盖医疗、食品保障、饮水与环境卫生、庇护所、生计赋权。加沙是近年最优先方向，战争爆发以来已实施50多个项目、总额超2亿里亚尔、约170万人受益，先后发起Fidak Palestine、Gaza Abiyya、Life for Gaza等专项募捐行动。国别项目遍及孟加拉国罗兴亚难民营、黎巴嫩、也门、阿富汗、索马里、苏丹和叙利亚（含Syria Rejoice医疗援助行动），并与世界卫生组织、世界粮食计划署、联合国难民署及埃及、约旦、巴勒斯坦等国红会协调执行。该会运营24小时灾害信息管理中心与战略物资储备，其心理社会支持应急响应单元为全球首个获国际认证的同类单元，并正推进II型野战医院认证；资金主要来自卡塔尔本地及海外的个人、企业与政府捐赠。",
+  "industries": [
+    "humanitarian_aid",
+    "nonprofit",
+    "public_health",
+    "social_services"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，QRCS作为卡塔尔国家红会不参与APEC框架下的经贸与贸易政策进程，与APEC机制没有直接的组织性联系。其与亚太区域的关联主要体现在人道领域：在孟加拉国、阿富汗、菲律宾、印度尼西亚等亚太经济体实施救济与发展项目，并依托红十字会与红新月会国际联合会覆盖191个国家红会的网络，参与区域灾害协同响应。",
+  "profile": {
+    "source_url": "https://www.qrcs.org.qa/en/Pages/default.aspx",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q7267117",
-      "http://www.qrcs.org.qa/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 91,
+    "notes": "P3丰富化：经Wikidata EntityData核实，wikidata_qid Q7267117确为卡塔尔红新月会（英/阿/中文名称均匹配，P17=卡塔尔），无需修正；原非标准顶层字段brief与description的有效事实（IFRC卡塔尔分会）已并入core_business后删除；founded_date仅知年份1978（Wikidata P571年份精度），按规范补为1978-01-01；Facebook主页由Wikidata所载/QatarRedCrescent修正为经多条帖子URL验证的facebook.com/QRCS；key_people三人（Yousef bin Ali Al-Khater、Ibrahim bin Hashim Al-Sada、Mohammed Bader Al Sada）均未见于_name_index.json，person_id为null待P4回填；Wikipedia词条所列秘书长Saleh Ali Al-Muhanadi为过时信息，现任管理层以2026年1月26日QRCS官方公告为准",
+    "quotes": [
+      {
+        "title": "Qatar Red Crescent Society - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Red_Crescent_Society"
+      },
+      {
+        "title": "Eng. Al-Sada assigned as Managing Director, Secretary-General of QRCS（QRCS官网新闻，2026-01-26）",
+        "url": "https://www.qrcs.org.qa/en/News/Pages/Eng--Al-Sada-assigned-as-Managing-Director,-Secretary-General-of-QRCS.aspx?NewsId=v33Nej8z5j4="
+      },
+      {
+        "title": "Qatar Red Crescent Society announces appointments（Gulf Times，2026-01-27）",
+        "url": "https://www.gulf-times.com/article/719376/qatar/qatar-red-crescent-society-announces-appointments"
+      },
+      {
+        "title": "H.E. Yousef Bin Ali Al-Khater 传记（Doha Forum CHS 参会者页）",
+        "url": "https://chs-doha.org/en/Events/Pages/Participants/H-E--Yousef-Bin-Ali-Al-Khater.aspx"
+      },
+      {
+        "title": "QRCS President to QNA: Gaza Tops Humanitarian Priorities...（卡塔尔通讯社，2025-10-27）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-10/27/qrcs-president-to-qna-gaza-tops-humanitarian-priorities-since-outbreak-of-war-50-projects-backed-with-over-qr-200-million"
+      },
+      {
+        "title": "Over 4 Million People Across 20 Countries Benefited from QRCS Relief, Development Projects in 6 Months（卡塔尔通讯社，2026-08-17）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-8/17/over-4-million-people-across-20-countries-benefited-from-qrcs-relief-development-projects-in-6-months"
+      },
+      {
+        "title": "QRCS, SARCS sign partnership agreement（The Peninsula Qatar，2026-09-08）",
+        "url": "https://thepeninsulaqatar.com/article/08/09/2026/qrcs-sarcs-sign-partnership-agreement"
+      },
+      {
+        "title": "QRCS deploys medical convoy to Syria [EN/AR]（ReliefWeb，2026-02-15）",
+        "url": "https://reliefweb.int/report/syrian-arab-republic/qrcs-deploys-medical-convoy-syria-enar"
+      },
+      {
+        "title": "QRCS allocates $1 million for initial relief operations in Turkey, Syria（The Peninsula Qatar，2023-02-08）",
+        "url": "https://thepeninsulaqatar.com/article/08/02/2023/qrcs-allocates-1-million-for-initial-relief-operations-in-turkey-syria"
+      }
+    ]
   }
 }

@@ -4,12 +4,15 @@
     "name_original": "هيئة الرقابة الإدارية والشفافية (قطر)",
     "name_zh": "行政监督与透明度局",
     "name_en": "Administrative Control and Transparency Authority",
-    "aliases": [],
+    "aliases": [
+      "ACTA",
+      "هيئة الرقابة الإدارية والشفافية"
+    ],
     "org_type": "GOV",
     "org_subtype": "independent_organ",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2011-00-00",
+    "founded_date": "2011-01-01",
     "website": "https://www.acta.gov.qa",
     "wikidata_qid": "Q112675114"
   },
@@ -18,42 +21,214 @@
       "platform": "twitter_x",
       "account_name": "acta_qa",
       "url": "https://twitter.com/acta_qa",
-      "source": "wikidata"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "acta_qa",
-      "url": "https://instagram.com/acta_qa",
-      "source": "wikidata"
+      "url": "https://www.instagram.com/acta_qa",
+      "source": "official_website"
     },
     {
       "platform": "facebook",
-      "account_name": "acta.qa",
-      "url": "https://facebook.com/acta.qa",
-      "source": "wikidata"
+      "account_name": "actaqa",
+      "url": "https://www.facebook.com/actaqa",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "ACTA Qatar",
+      "url": "https://www.youtube.com/channel/UCCt-QkrQi__GN_sSrAQ5ifw",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔负责反腐与行政透明的独立机构",
-  "industries": [
-    "public_administration"
+  "digital_assets": [
+    {
+      "name": "行政监督与透明度局英文官网",
+      "url": "https://www.acta.gov.qa/en",
+      "description": "提供机构职能与权限、国家廉政与透明度战略、新闻动态、研究报告等英文信息",
+      "source": "https://www.acta.gov.qa/en"
+    },
+    {
+      "name": "行政监督与透明度局服务门户",
+      "url": "https://portal.acta.gov.qa",
+      "description": "该局在线服务门户，提供投诉、建议等信息获取相关服务的电子入口",
+      "source": "https://www.acta.gov.qa"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔负责反腐与行政透明的独立机构",
-  "brief": "وكالة حكومية في قطر",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "哈马德·本·纳赛尔·米斯奈德 (حمد بن ناصر المسند)",
+      "title": "局长",
+      "title_description": "依2018年埃米尔第12号法令任命，享副大臣级；2025年12月经协商一致当选《联合国反腐败公约》缔约国会议第十一届会议主席",
+      "description": "全名哈马德·本·纳赛尔·本·拉希德·米斯奈德·穆罕纳迪；2018年起出任行政监督与透明度局局长至今（官方网站局长致辞署名及阿拉伯语维基百科均确认其为现任局长）；2024年5月代表该局与埃及行政监督局签署谅解备忘录，2024年11月与沙特阿拉伯监察和反贪局签署谅解备忘录；2025年12月以缔约国会议主席身份主持在多哈举行的第十一届缔约国会议开幕式"
+    },
+    {
+      "person_id": null,
+      "name": "阿迈勒·艾哈迈德·阿尔-库瓦里 (أمل أحمد الكواري)",
+      "title": "监督与发展司司长",
+      "title_description": "主持该局监督与发展司工作，涉及国有资产管理廉政措施、招标透明度标准及《联合国反腐败公约》履约审议报告等事务",
+      "description": "持HEC巴黎商学院工商管理硕士学位，认证反洗钱专家；多次以监督与发展司司长身份代表该局出席海湾区域反腐败活动；2025年10月在科威特举行的海湾阿拉伯国家合作委员会反腐败部长委员会第十一次会议期间，获海合会廉政与反腐败机构「模范雇员奖」表彰"
+    }
+  ],
+  "departments": [
+    {
+      "name": "透明度司 (إدارة الشفافية)",
+      "dept_id": null,
+      "head": null,
+      "description": "在经济、财政和行政事务中确立透明与廉政原则，保障国家对资金、资源和财产的良善管理与最优使用；跟踪透明度领域发展，开展研究以应用最新方法，协调提升卡塔尔在国际透明度指标上的表现",
+      "parent_dept_id": null
+    },
+    {
+      "name": "监督与发展司 (إدارة الرقابة والتطوير)",
+      "dept_id": null,
+      "head": null,
+      "description": "就国有资产管理提出强化廉政的措施，为招标和投标程序制定明确的透明度标准；会同相关国家机构、缔约国及联合国毒品和犯罪问题办公室，编写卡塔尔执行《联合国反腐败公约》的审议报告",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国际合作司 (إدارة التعاون الدولي)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责与区域和国际反腐败机构及组织的合作事务，包括知识交流、参加相关会议和学术活动",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术办公室 (المكتب الفني)",
+      "dept_id": null,
+      "head": null,
+      "description": "就局长交办事项发表技术意见，研究和评估局内各项报告、项目和计划，会同相关行政单位跟进交办事项，并为局长准备议题、报告和研究的摘要",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-15",
+      "title": "《联合国反腐败公约》缔约国会议第十一届会议在多哈开幕，局长当选会议主席",
+      "description": "2025年12月15日至19日，卡塔尔在多哈主办《联合国反腐败公约》缔约国会议第十一届会议（CoSP11）。在开幕式上，行政监督与透明度局局长哈马德·本·纳赛尔·米斯奈德经协商一致当选本届会议主席，接替来自美国的第十届会议主席；其开幕致辞提到缔约国已达192个，并表示卡塔尔对本届会议的承办体现了国际社会共同打击腐败的承诺。卡塔尔在会议期间还展示了《2025—2030年国家廉政、透明度与预防腐败战略》",
+      "impact": "该局以会议主席身份主持全球反腐败治理重要多边平台，提升卡塔尔及本机构在国际反腐败领域的组织协调角色",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-12/15/acta-president-conference-of-states-parties-to-uncac-a-fundamental-platform-for-engagement-sharing-expertise"
+    },
+    {
+      "date": "2025-10-08",
+      "title": "发布《2025—2030年国家廉政、透明度与预防腐败战略》",
+      "description": "在首相兼外交大臣谢赫·穆罕默德·本·阿卜杜拉赫曼·本·贾西姆·阿勒萨尼赞助下，该局于2025年10月8日在多哈举行仪式，发布《国家廉政、透明度与预防腐败战略（2025—2030）》。战略围绕五大支柱展开：通过良善治理提升公共部门廉政、提高私营部门透明度、完善预防与问责的立法框架、提升社会廉政意识、在公共政策层面巩固治理与预防腐败实践，并与卡塔尔2030年国家愿景和第三国家发展战略（2024—2030）相衔接",
+      "impact": "确定该局未来五年在预防腐败和廉政建设领域的国家政策框架与优先事项",
+      "source": "https://qna.org.qa/en/news/news-details?id=acta-inaugurates-national-strategy-to-promote-integrity-transparency-prevent-corruption-2025-2030&date=8/10/2025"
+    },
+    {
+      "date": "2025-10-23",
+      "title": "局长率团出席海合会反腐败部长委员会第十一次会议，监督与发展司司长获「模范雇员奖」",
+      "description": "2025年10月23日，局长哈马德·本·纳赛尔·米斯奈德率卡塔尔代表团出席在科威特举行的海湾阿拉伯国家合作委员会反腐败部长委员会第十一次会议。会议审议了廉政、透明度与反腐败领域的共同关切议题，并支持海合会国家拟在多哈缔约国会议上提出的联合国决议和倡议。会议期间，该局监督与发展司司长阿迈勒·艾哈迈德·阿尔-库瓦里获海合会廉政与反腐败机构「模范雇员奖」表彰",
+      "impact": "体现该局在海合会区域反腐败合作中的牵头角色和人员专业能力获得区域认可",
+      "source": "https://qna.org.qa/ar-QA/news-bulletins-details?id=0110-%D9%82%D8%B7%D8%B1-%D8%AA%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A7%D9%84%D9%80-11-%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%86%D9%8A%D8%A9-%D8%A8%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D9%81%D8%B3%D8%A7%D8%AF-%D8%A8%D8%AF%D9%88%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%8A%D8%AA&date=23/10/2025"
+    },
+    {
+      "date": "2024-11-27",
+      "title": "与沙特阿拉伯监察和反贪局签署谅解备忘录",
+      "description": "2024年11月27日，该局与沙特阿拉伯监察和反贪局（纳扎哈）签署谅解备忘录，双方将在加强廉政与透明度、预防与打击腐败领域开展合作。卡塔尔后以2026年第28号埃米尔法令批准该备忘录",
+      "impact": "拓展该局与海湾邻国反腐败机构的机制化合作渠道",
+      "source": "https://x.com/nazaha_gov_sa/status/1861739905950367811"
+    },
+    {
+      "date": "2024-05-07",
+      "title": "与埃及行政监督局签署谅解备忘录",
+      "description": "2024年5月7日，在阿拉伯国家联盟总部举行的阿拉伯反腐败公约缔约国会议第五届会议期间，该局局长哈马德·本·纳赛尔·米斯奈德与埃及行政监督局局长阿姆鲁·阿德尔签署谅解备忘录，合作领域涵盖预防与打击腐败、交流经验和专家、培训相关领域人才",
+      "impact": "扩大该局在阿拉伯区域反腐败合作网络中的参与",
+      "source": "https://aca.gov.eg/News/5231.aspx"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "国家廉政与透明度委员会 (اللجنة الوطنية للنزاهة والشفافية)",
+      "org_type": "GOV",
+      "org_description": "2007年依埃米尔第84号法令设立、由相关国家机构组成的委员会，2011年被行政监督与透明度局取代",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际反贪局联合会 (International Association of Anti-Corruption Authorities)",
+      "org_type": "NGO",
+      "org_description": "由各国反腐败机构组成的国际性组织，据Wikidata记录该局为其成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "沙特阿拉伯监察和反贪局 (هيئة الرقابة ومكافحة الفساد)",
+      "org_type": "GOV",
+      "org_description": "沙特阿拉伯负责行政监察与反腐败的机构；2024年11月27日与该局签署廉政与透明度合作谅解备忘录",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及行政监督局 (هيئة الرقابة الإدارية)",
+      "org_type": "GOV",
+      "org_description": "埃及负责行政监察的机构；2024年5月7日与该局在阿盟总部签署预防与打击腐败合作谅解备忘录",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "行政监督与透明度局（ACTA）是卡塔尔负责促进廉政、透明度和预防腐败的独立政府机构，依据2011年埃米尔第75号法令设立，取代2007年成立的国家廉政与透明度委员会；2015年埃米尔第6号法令对其重新组织，赋予其法人资格，直接隶属埃米尔。其宗旨是协助国家实现最高的廉政与透明度指标。主要职能包括：制定国家廉政与透明度战略并会同相关机构协调实施；推动执行《联合国反腐败公约》及相关国际文书，以确保卡塔尔履行相应国际义务；就透明度和廉政领域的国家立法提出建议并定期审查；完善国家机关内部的廉政与透明度制度，跟踪行政监督与透明度领域的发展并应用最新监督方法；面向政府雇员开展腐败预防与侦查方面的培训、宣传教育项目；受理与廉政和透明度相关的投诉和建议并予以核实；与区域和国际反腐败机构开展合作、交流知识并参加相关会议。其工作范围涵盖卡塔尔各部委及政府机关及其下属机构和企业、公共机构与公司，以及从事公益活动的协会和民间机构。局内设透明度司、监督与发展司、国际合作司、技术办公室、法律事务司、内部审计司、规划质量与创新司等职能部门。2018年起由哈马德·本·纳赛尔·米斯奈德任局长。",
+  "industries": [
+    "public_administration",
+    "regulatory"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，行政监督与透明度局因此不属于APEC框架下反腐败与透明度相关合作机制的参与方。该局的国际活动主要依托《联合国反腐败公约》框架开展，包括2025年12月代表卡塔尔在多哈主办缔约国会议第十一届会议，以及与联合国毒品和犯罪问题办公室等机构在履约审议方面的合作。",
+  "profile": {
+    "source_url": "https://www.acta.gov.qa/ar-qa/AboutActa/Pages/default.aspx",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q112675114",
-      "https://www.acta.gov.qa"
+      "official_website",
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search",
+      "government_registry"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 87,
+    "notes": "Phase 3 丰富化：机构沿革、职能与组织架构核实自官网（关于、目标与权限、组织架构页）；局长任职核实自官网局长致辞署名、2018年埃米尔第12号法令（almeezan.qa）及QNA报道；监督与发展司司长阿迈勒·阿尔-库瓦里核实自QNA海合会会议报道及卡塔尔媒体；近期动态核实自QNA、UNODC、沙特纳扎哈官方X账号与埃及行政监督局官网；Wikidata别名ACTA与社交账号已并入。未发现副局长职位公开记录，key_people收录局长及监督与发展司司长2人；两人均未见于_name_index.json，person_id为null，待P4回填",
+    "quotes": [
+      {
+        "title": "الهيئة فى سطور - هيئة الرقابة الإدارية والشفافية（官网关于页）",
+        "url": "https://www.acta.gov.qa/ar-qa/AboutActa/Pages/default.aspx"
+      },
+      {
+        "title": "أهداف واختصاصات الهيئة（官网目标与权限页）",
+        "url": "https://www.acta.gov.qa/ar-qa/AboutActa/Pages/mandates-and-competences-of-acta.aspx"
+      },
+      {
+        "title": "الهيكل التنظيمي（官网组织架构页）",
+        "url": "https://www.acta.gov.qa/ar-qa/AboutActa/Pages/Org-Chart.aspx"
+      },
+      {
+        "title": "قرار أميري رقم (75) لسنة 2011 بإنشاء الهيئة（卡塔尔法律门户Almeezan）",
+        "url": "https://www.almeezan.qa/LawPage.aspx?id=2904&language=ar"
+      },
+      {
+        "title": "قرار أميري رقم (12) لسنة 2018 بتعيين رئيس للهيئة（Almeezan）",
+        "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=7575&language=ar"
+      },
+      {
+        "title": "ACTA President: Conference of States Parties to UNCAC a fundamental platform（QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-12/15/acta-president-conference-of-states-parties-to-uncac-a-fundamental-platform-for-engagement-sharing-expertise"
+      },
+      {
+        "title": "ACTA Inaugurates National Strategy to Promote Integrity, Transparency, Prevent Corruption 2025-2030（QNA）",
+        "url": "https://qna.org.qa/en/news/news-details?id=acta-inaugurates-national-strategy-to-promote-integrity-transparency-prevent-corruption-2025-2030&date=8/10/2025"
+      },
+      {
+        "title": "Conference of the States Parties: 11th session (COSP11)（UNODC）",
+        "url": "https://www.unodc.org/corruption/en/cosp/conference/session11.html"
+      },
+      {
+        "title": "هيئة الرقابة الإدارية والشفافية (قطر) - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/هيئة_الرقابة_الإدارية_والشفافية_(قطر)"
+      }
+    ]
   }
 }

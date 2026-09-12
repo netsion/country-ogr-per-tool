@@ -2,39 +2,244 @@
   "org_id": "QA-CORP-014",
   "basic_info": {
     "name_original": "نادي الجيش القطري",
-    "name_zh": "军队体育俱乐部",
+    "name_zh": "贾伊什体育俱乐部",
     "name_en": "El Jaish SC",
-    "aliases": [],
+    "aliases": [
+      "El-Jaish Sports Club",
+      "نادي الجيش الرياضي",
+      "Al-Jaish SC",
+      "艾查殊體育會",
+      "贾伊什",
+      "军队体育俱乐部"
+    ],
     "org_type": "CORP",
     "org_subtype": "private_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2007-00-00",
-    "website": "http://www.eljaish.com/",
+    "founded_date": "2007-01-01",
+    "website": null,
     "wikidata_qid": "Q429546"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔军队下属体育俱乐部",
-  "industries": [
-    "industrial_manufacturing"
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@EljaishSC",
+      "url": "https://twitter.com/EljaishSC",
+      "source": "俱乐部官网存档（web.archive.org，2012年快照页脚账号链接）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "EljaishSportsClubQatar",
+      "url": "https://www.facebook.com/EljaishSportsClubQatar",
+      "source": "俱乐部官网存档（web.archive.org，2012年快照页脚账号链接）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "EljaishSC",
+      "url": "https://www.youtube.com/user/EljaishSC",
+      "source": "俱乐部官网存档（web.archive.org，2012年快照页脚账号链接）"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔军队下属体育俱乐部",
-  "brief": "association football club",
+  "digital_assets": [
+    {
+      "name": "俱乐部官方网站存档快照（互联网档案馆）",
+      "url": "http://web.archive.org/web/20170512035402/http://www.eljaish.com/language/ar/",
+      "description": "俱乐部官网www.eljaish.com在俱乐部解散后已失效（现返回404），此为互联网档案馆2017年5月12日（存续期末）的存档快照",
+      "source": "web.archive.org"
+    },
+    {
+      "name": "德国转会市场（Transfermarkt）俱乐部资料页",
+      "url": "https://www.transfermarkt.com/el-jaish-sports-club/startseite/verein/33288",
+      "description": "该俱乐部（标注存续至2017年）在Transfermarkt的存档资料页，含历季阵容、教练组履历与赛事数据",
+      "source": "https://www.transfermarkt.com"
+    },
+    {
+      "name": "FootballDatabase俱乐部资料页",
+      "url": "https://footballdatabase.com/clubs-ranking/al-jaish",
+      "description": "该俱乐部在FootballDatabase的存档资料页，含世界/亚洲/卡塔尔排名与比赛数据记录",
+      "source": "https://footballdatabase.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "萨布里·拉穆什 (Sabri Lamouchi)",
+      "title": "主教练",
+      "title_description": "俱乐部存续期末主教练（2014年12月27日至2017年7月1日）",
+      "description": "法国籍教练、前法国国脚；2014年12月27日起执教该俱乐部直至其解散，2016年获俱乐部续约至2016/17赛季；执教期间经历2013-14赛季后俱乐部的多次教练更迭后长期稳定执教，率队征战卡塔尔星级联赛及亚足联冠军联赛"
+    },
+    {
+      "person_id": null,
+      "name": "拉萨德·沙比 (Lassaad Chabbi)",
+      "title": "助理教练",
+      "title_description": "2014年1月加入俱乐部教练组，2014年12月起任主教练拉穆什的助理教练直至俱乐部解散",
+      "description": "突尼斯裔奥地利籍教练；2014年1月起在该俱乐部教练组任职，后长期辅佐主教练拉穆什至2017年7月俱乐部解散"
+    }
+  ],
+  "departments": [
+    {
+      "name": "足球部",
+      "dept_id": null,
+      "head": "萨布里·拉穆什 (Sabri Lamouchi)",
+      "description": "俱乐部核心项目；一线队参加卡塔尔星级联赛，存续期内获卡塔尔杯冠军2次（2014、2016）、卡塔尔星杯冠军1次（2012-13）、卡塔尔加斯联赛（第二级别）冠军1次（2010-11），2013年参加亚足联冠军联赛进入十六强",
+      "parent_dept_id": null
+    },
+    {
+      "name": "手球部",
+      "dept_id": null,
+      "head": null,
+      "description": "足球之外成绩最突出的分部；手球队曾获海湾俱乐部手球锦标赛及亚洲俱乐部手球锦标赛季军",
+      "parent_dept_id": null
+    },
+    {
+      "name": "篮球部",
+      "dept_id": null,
+      "head": null,
+      "description": "篮球队为卡塔尔篮球联赛强队，2017年4月宣布合并时为联赛卫冕冠军（据海湾时报报道）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "排球部",
+      "dept_id": null,
+      "head": null,
+      "description": "俱乐部排球分部；英文维基百科为该分部设有独立条目，表明俱乐部存续期内设有排球项目",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2013-03-24",
+      "title": "决赛2-0胜阿拉比，夺得2012-13赛季卡塔尔星杯冠军",
+      "description": "俱乐部在2012-13赛季卡塔尔星杯（Qatari Stars Cup）决赛中以2-0击败阿拉比体育俱乐部夺冠，半决赛加时1-0淘汰莱克维亚；这是俱乐部首个正式冠军头衔（据RSSSF赛果记录）",
+      "impact": "俱乐部首次夺得官方认证的冠军奖杯，确立其在卡塔尔足坛的地位",
+      "source": "https://www.rsssf.org/tablesq/qat2013.html"
+    },
+    {
+      "date": "2013-11-27",
+      "title": "俱乐部与球员贝卢尼斯的合同纠纷获解决",
+      "description": "俱乐部与法国籍球员扎希尔·贝卢尼斯之间的薪资与合同争议，经国际足联介入调停后于2013年11月解决，球员获发离境许可返回法国（BBC当年11月27日报道）",
+      "impact": "持续约一年的劳资争议以球员获准离境告终",
+      "source": "https://www.bbc.co.uk/sport/football/25116925"
+    },
+    {
+      "date": "2016-04-29",
+      "title": "决赛2-1胜莱克维亚，第二度夺得卡塔尔杯",
+      "description": "俱乐部在2016年卡塔尔杯决赛中以2-1击败莱克维亚体育俱乐部夺冠（第2冠），半决赛3-2淘汰萨德；该赛季俱乐部另获卡塔尔星级联赛亚军，队内摩洛哥前锋哈姆达拉以21球当选联赛最佳射手",
+      "impact": "俱乐部竞技成绩达到历史高峰，成为卡塔尔星级联赛头部球队之一",
+      "source": "https://en.wikipedia.org/wiki/2016_Qatar_Cup"
+    },
+    {
+      "date": "2017-04-10",
+      "title": "卡塔尔文化体育部宣布俱乐部并入莱克维亚组建杜海勒俱乐部",
+      "description": "卡塔尔文化体育部宣布，经莱克维亚体育俱乐部提出、本俱乐部同意，两队将于2016-17赛季结束后合并，自2017-18赛季起以杜海勒体育俱乐部名义参赛；合并监督委员会由卡塔尔足协主席主持，成员包括两家俱乐部代表及卡塔尔球员协会主席（海湾时报2017年4月11日报道）",
+      "impact": "俱乐部存续期进入倒计时，其阵容与联赛席位此后并入合并后俱乐部",
+      "source": "https://www.gulf-times.com/story/543975/lekhwiya-el-jaish-clubs-to-merge"
+    },
+    {
+      "date": "2017-07-16",
+      "title": "合并手续完成，俱乐部正式解散",
+      "description": "莱克维亚与本俱乐部的合并手续于当日（星期日）完成，两队自2017-18赛季起以杜海勒体育俱乐部名义参加卡塔尔星级联赛，本俱乐部实体随之终止（英文维基百科记载俱乐部于2017年7月解散，杜海勒俱乐部官网同日发布合并完成公告）",
+      "impact": "俱乐部正式终止，其球员、资产与联赛地位由承继方杜海勒体育俱乐部接续",
+      "source": "https://staddoha.com/en/news/qatar/football-news/lekhwiya-el-jaish-officially-merged-on-sunday/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-CORP-007",
+      "org_name": "杜海勒体育俱乐部 (Al-Duhail SC)",
+      "org_type": "CORP",
+      "org_description": "2017年4月莱克维亚体育俱乐部宣布接管本俱乐部并完成合并、更名而成的俱乐部，自2017-18赛季起参加卡塔尔星级联赛，承继本俱乐部的球员、资产与参赛地位",
+      "relationship_type": "successor"
+    },
+    {
+      "org_id": "QA-NGO-011",
+      "org_name": "卡塔尔足球协会 (Qatar Football Association)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球管理机构；俱乐部参加其主管的卡塔尔星级联赛及杯赛体系，2017年合并监督委员会由其主席主持",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔武装部队 (Qatar Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "俱乐部的创办方与持有方，俱乐部阿拉伯语名称「军队」（الجيش）即源于此",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "沙尔克04 (FC Schalke 04)",
+      "org_type": "CORP",
+      "org_description": "德国足球俱乐部；据英文维基百科记载，为本俱乐部的关联（合作）俱乐部",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "贾伊什体育俱乐部（阿拉伯语原名意为「卡塔尔军队俱乐部」）是2007年至2017年间存在于多哈杜海勒区的卡塔尔综合性体育俱乐部，由卡塔尔武装部队创办并以「军队」为名，以足球为核心项目，另设手球、篮球、排球等分部。足球方面，球队2010-11赛季获卡塔尔加斯联赛（第二级别）冠军；2011年俱乐部正式完成设立，在取得升级资格后进入顶级联赛，升入卡塔尔星级联赛的首个赛季即获亚军，并取得2013年亚足联冠军联赛参赛资格，当年打入十六强。存续期内主要荣誉：卡塔尔星杯冠军1次（2012-13赛季，决赛2-0胜阿拉比）、卡塔尔杯冠军2次（2014年、2016年，2016年决赛2-1胜莱克维亚）、卡塔尔加斯联赛冠军1次（2010-11）；2015-16赛季获联赛亚军，队内摩洛哥前锋阿卜杜拉扎克·哈姆达拉以21球当选联赛最佳射手。手球队曾获海湾俱乐部手球锦标赛与亚洲俱乐部手球锦标赛季军，篮球队在2017年合并宣布时为卡塔尔篮球联赛卫冕冠军。2017年4月10日，卡塔尔文化体育部宣布本俱乐部由莱克维亚体育俱乐部接管合并、自2017-18赛季起以杜海勒体育俱乐部名义参赛；同年7月16日合并手续完成，俱乐部实体终止，其球员、资产与联赛地位由承继方接续。",
+  "industries": [
+    "sports"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，贾伊什体育俱乐部作为卡塔尔国内体育组织，不参与APEC进程，与APEC的经贸政策讨论无直接关联。该俱乐部存续期内的洲际活动限于亚足联冠军联赛等亚洲体育赛事范畴；承继其联赛席位的杜海勒体育俱乐部现为卡塔尔星级联赛球队。",
+  "profile": {
+    "source_url": "https://en.wikipedia.org/wiki/El_Jaish_SC",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q429546",
-      "http://www.eljaish.com/"
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search",
+      "official_website",
+      "other"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 84,
+    "notes": "本机构为已解散的历史体育俱乐部：2007年组建、2011年正式设立，2017年7月由莱克维亚体育俱乐部接管合并（后者更名杜海勒体育俱乐部，QA-CORP-007），档案按存续期末形态描述并注明合并/终止时间。骨架wikidata_qid Q429546经核实确实指向本机构（El Jaish SC），无需修正。founded_date取2007-01-01（Wikidata成立年份，精度为年），阿拉伯语与英语维基百科记载俱乐部2011年才正式设立。官网www.eljaish.com已失效（HTTP 404），website置null；social_accounts三个官方账号（Twitter/Facebook/YouTube）取自俱乐部自身官网2012年存档快照页脚，账号应随俱乐部2017年解散而停更。原brief/description中的有效事实（军队下属体育俱乐部、足球协会俱乐部）已并入core_business与profile。key_people仅收录存续期末管理层：主教练萨布里·拉穆什（Sabri Lamouchi）与助理教练拉萨德·沙比（Lassaad Chabbi），二人均不在_name_index.json中，person_id置null待P4回填。",
+    "quotes": [
+      {
+        "title": "El Jaish SC - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/El_Jaish_SC"
+      },
+      {
+        "title": "نادي الجيش (قطر) - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%AC%D9%8A%D8%B4_(%D9%82%D8%B7%D8%B1)"
+      },
+      {
+        "title": "Wikidata Q429546 (El Jaish SC)",
+        "url": "https://www.wikidata.org/wiki/Q429546"
+      },
+      {
+        "title": "Lekhwiya, El Jaish clubs to merge - Gulf Times",
+        "url": "https://www.gulf-times.com/story/543975/lekhwiya-el-jaish-clubs-to-merge"
+      },
+      {
+        "title": "Lekhwiya, El Jaish officially merged on Sunday - Stad Al Doha",
+        "url": "https://staddoha.com/en/news/qatar/football-news/lekhwiya-el-jaish-officially-merged-on-sunday/"
+      },
+      {
+        "title": "2016 Qatar Cup - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2016_Qatar_Cup"
+      },
+      {
+        "title": "Al Sadd beat El Jaish to win Qatar Cup - the-AFC",
+        "url": "https://www.the-afc.com/en/more/news/al_sadd_beat_el_jaish_to_win_qatar_cup.html"
+      },
+      {
+        "title": "Qatar 2012/13 - RSSSF",
+        "url": "https://www.rsssf.org/tablesq/qat2013.html"
+      },
+      {
+        "title": "Zahir Belounis: French footballer finally able to leave Qatar - BBC Sport",
+        "url": "https://www.bbc.co.uk/sport/football/25116925"
+      },
+      {
+        "title": "Lamouchi signs extension with El Jaish - QSL",
+        "url": "https://qsl.qa/en/lamouchi-signs-extension-el-jaish"
+      },
+      {
+        "title": "贾伊什俱乐部官网存档快照（互联网档案馆，2017-05-12）",
+        "url": "http://web.archive.org/web/20170512035402/http://www.eljaish.com/language/ar/"
+      }
+    ]
   }
 }

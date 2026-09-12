@@ -4,12 +4,15 @@
     "name_original": "منتدى الدوحة",
     "name_zh": "多哈论坛",
     "name_en": "Doha Forum",
-    "aliases": [],
+    "aliases": [
+      "DF",
+      "منتدى الدوحة"
+    ],
     "org_type": "NGO",
     "org_subtype": "think_tank",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2003-00-00",
+    "founded_date": "2003-04-14",
     "website": "https://dohaforum.org/",
     "wikidata_qid": "Q111942783"
   },
@@ -18,42 +21,223 @@
       "platform": "twitter_x",
       "account_name": "DohaForum",
       "url": "https://twitter.com/DohaForum",
-      "source": "wikidata"
-    },
-    {
-      "platform": "youtube",
-      "account_name": "UC0YP3sfxKYPLL-TE_e9vrnA",
-      "url": "https://www.youtube.com/channel/UC0YP3sfxKYPLL-TE_e9vrnA",
-      "source": "wikidata"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "dohaforum",
       "url": "https://instagram.com/dohaforum",
-      "source": "wikidata"
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "DohaForum",
+      "url": "https://www.youtube.com/user/DohaForum13",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "dohaforum",
+      "url": "https://www.linkedin.com/company/dohaforum/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔每年主办的国际政策论坛",
+  "digital_assets": [
+    {
+      "name": "多哈论坛年度报告库",
+      "url": "https://dohaforum.org/reports",
+      "description": "论坛历届报告的官方发布页面，提供2019年、2020年、2022年等年度论坛报告PDF下载",
+      "source": "https://dohaforum.org/"
+    },
+    {
+      "name": "Global Reboot 播客",
+      "url": "https://podcasts.apple.com/us/podcast/global-reboot/id1567272565",
+      "description": "多哈论坛官方播客，围绕全球治理、外交与国际合作议题制作访谈节目",
+      "source": "https://dohaforum.org/"
+    },
+    {
+      "name": "观点系列（Viewpoint Series）",
+      "url": "https://dohaforum.org/viewpoints",
+      "description": "论坛组织专家就地缘政治、经济与技术等全球热点议题撰写的观点文章专栏",
+      "source": "https://dohaforum.org/"
+    },
+    {
+      "name": "多哈论坛移动应用",
+      "url": "https://apps.apple.com/qa/app/doha-forum/id6474006140",
+      "description": "论坛官方移动应用，提供大会日程、演讲嘉宾及会务信息",
+      "source": "https://dohaforum.org/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "穆巴拉克·阿杰兰·阿尔-库瓦里 (Mubarak Ajlan Al-Kuwari)",
+      "title": "执行总监",
+      "title_description": "主持多哈论坛整体工作，同时担任卡塔尔国外交部会议组织常设委员会执行总监",
+      "description": "卡塔尔职业外交官，2012至2019年在卡塔尔驻英国大使馆任二等秘书兼领事；曾参与2021年卡塔尔首届经济论坛组织委员会及2022年卡塔尔世界杯贵宾礼宾等多个专项委员会工作，持有英国MBA学位，通晓阿拉伯语和英语（据卡塔尔外交部官网及济州和平研究院演讲者简历）"
+    },
+    {
+      "person_id": null,
+      "name": "玛哈·阿尔-库瓦里 (Maha Al-Kuwari)",
+      "title": "总经理",
+      "title_description": "负责论坛日常运营与统筹管理",
+      "description": "外交官出身，据其公开简历有十余年国际关系、大型国际会议组织与高级别谈判经验；2023年起以总经理身份在论坛闭幕式致辞，并曾代表论坛出席中国与全球化论坛等国际会议（据多哈论坛官网领导团队页面及其公开演讲资料）"
+    }
+  ],
+  "departments": [
+    {
+      "name": "年度论坛与会议组织",
+      "dept_id": null,
+      "head": "穆巴拉克·阿杰兰·阿尔-库瓦里 (Mubarak Ajlan Al-Kuwari)",
+      "description": "负责每年12月在多哈举行的论坛年度大会的议程设计、嘉宾邀请与会务组织；执行总监同时主管卡塔尔外交部会议组织常设委员会",
+      "parent_dept_id": null
+    },
+    {
+      "name": "报告与观点出版物",
+      "dept_id": null,
+      "head": null,
+      "description": "制作发布历届论坛报告及「观点系列」（Viewpoint Series）文章，2022年等年度报告以PDF形式在官网公开",
+      "parent_dept_id": null
+    },
+    {
+      "name": "播客与媒体中心",
+      "dept_id": null,
+      "head": null,
+      "description": "制作官方播客Global Reboot，运营媒体资料库、新闻发布会及各届论坛媒体资源",
+      "parent_dept_id": null
+    },
+    {
+      "name": "青年版论坛（Youth Edition）",
+      "dept_id": null,
+      "head": null,
+      "description": "面向全球青年的平行对话平台，2023年至2025年连续举办",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-12-10",
+      "title": "第21届多哈论坛举行，主题为「共建共享未来」",
+      "description": "2023年12月10日至11日，第21届多哈论坛在多哈喜来登酒店举行，主题为「共建共享未来」（Building Shared Futures），议题覆盖国际关系与安全、经济政策与发展、新兴技术、能源安全及气候变化等",
+      "impact": "巩固论坛作为东西方与全球南方观点交汇的全球对话平台定位",
+      "source": "https://dohaforum.org/2023/theme"
+    },
+    {
+      "date": "2024-12-07",
+      "title": "第22届多哈论坛举行，主题为「创新势在必行」",
+      "description": "2024年12月7日至8日，第22届多哈论坛以「创新势在必行」（The Innovation Imperative）为主题举行，探讨将创新原则应用于治理、国际体系、规范与制度等全球事务领域",
+      "impact": "突出制度创新与技术变革对全球治理方式的塑造作用",
+      "source": "https://dohaforum.org/2024/theme"
+    },
+    {
+      "date": "2025-11-11",
+      "title": "卡塔尔通讯社公布第23届论坛安排及年度主题",
+      "description": "卡塔尔通讯社（QNA）报道，在卡塔尔埃米尔赞助下，第23届多哈论坛定于2025年12月6日至7日举行，主题为「正义在行动：超越承诺、迈向进展」（Justice in Action: Beyond Promises to Progress），聚焦和平与安全、经济韧性及技术变革；论坛总经理玛哈·阿尔-库瓦里表示当年论坛将正义置于全球对话的核心",
+      "impact": "提前明确年度议程重点，引导国际社会关注全球南北发展差距等议题",
+      "source": "https://qna.org.qa/en/news/news-details?id=doha-forum-2025-set-to-explore-justice-in-action-beyond-promises-to-progress&date=11/11/2025"
+    },
+    {
+      "date": "2025-12-06",
+      "title": "第23届多哈论坛开幕，约6500名代表与会",
+      "description": "第23届多哈论坛于2025年12月6日至7日在多哈喜来登酒店举行；据主办方公布的数据，论坛吸引约6500名参会者、470名演讲嘉宾，来自约170个国家，议题涵盖冲突调解、全球治理与经济韧性等",
+      "impact": "论坛规模与参会国数量扩大，强化多哈作为国际对话与调解平台的角色",
+      "source": "https://dohaforum.org/2025/theme"
+    },
+    {
+      "date": "2026-01-27",
+      "title": "多哈论坛公布2026年主题「重新定义全球信任」",
+      "description": "多哈论坛宣布第24届论坛定于2026年12月5日至6日在多哈举行，主题为「重新定义全球信任」（Redefining Global Trust），探讨外交、调解与可信机构在地缘政治变化、技术转型与全球经济格局调整背景下如何演进",
+      "impact": "确定下届议程方向，聚焦国际合作中的信任机制重建",
+      "source": "https://www.arabnews.jp/en/middle-east/article_163056/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "卡塔尔国外交部 (Ministry of Foreign Affairs of the State of Qatar)",
+      "org_type": "GOV",
+      "org_description": "多哈论坛由卡塔尔国主办、外交部具体承办，其会议组织常设委员会负责论坛的组织实施，论坛执行总监即该委员会执行总监",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界人道主义论坛 (World Humanitarian Forum)",
+      "org_type": "NGO",
+      "org_description": "总部位于伦敦的国际人道主义会议平台；2024年10月与多哈论坛签署谅解备忘录，在人道主义议题上建立合作关系",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "济州和平研究院 (Jeju Peace Institute)",
+      "org_type": "NGO",
+      "org_description": "韩国济州论坛的运营机构；2025年济州论坛期间与多哈论坛建立合作伙伴关系，多哈论坛在同场活动上公布2026年主题",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "多哈论坛（Doha Forum）是卡塔尔自2003年起每年在首都多哈举办的国际政策论坛，以「外交、对话、多元」（Diplomacy, Dialogue, Diversity）为宗旨旗帜，汇聚各国政要、国际组织负责人、企业界与学术界人士，就全球重大挑战开展对话并构建行动导向的合作网络。论坛由卡塔尔国外交部主办，其会议组织常设委员会负责组织实施，现任执行总监为穆巴拉克·阿杰兰·阿尔-库瓦里，总经理为玛哈·阿尔-库瓦里。首届论坛于2003年4月14日至15日在多哈举行，围绕民主与自由贸易议题展开，约140名各界人士与会。历届议题涵盖国际关系与安全、经济政策与发展、新兴技术、网络安全、粮食与能源安全、气候变化与可持续发展等领域。近年主题包括2023年「共建共享未来」、2024年「创新势在必行」、2025年「正义在行动：超越承诺、迈向进展」；2026年第24届论坛定于12月5日至6日举行，主题为「重新定义全球信任」。据主办方公布的数据，2025年论坛吸引约6500名参会者、470名演讲嘉宾，来自约170个国家。除年度大会外，论坛设有面向青年的青年版论坛，发布年度报告与「观点系列」文章，制作Global Reboot播客并提供移动应用，同时与世界人道主义论坛、济州和平研究院等机构签署合作文件，开展跨机构合作。",
   "industries": [
+    "think_tank",
+    "foreign_affairs",
     "nonprofit"
   ],
-  "apec_stance": null,
-  "description": "卡塔尔每年主办的国际政策论坛",
-  "brief": "annual forum in Qatar",
+  "apec_stance": "卡塔尔不是APEC成员经济体，多哈论坛作为全球性政策对话平台也不直接参与APEC进程。论坛讨论的贸易便利化、区域经济一体化与互联互通等议题与APEC合作议程相近，历届与会者中包括多个APEC成员经济体的政要、企业家与学者。",
+  "profile": {
+    "source_url": "https://dohaforum.org/about-us/about-doha-forum",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q111942783",
-      "https://dohaforum.org/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 85,
+    "notes": "P3丰富化（2026-09-11）：wikidata_qid Q111942783经Wikidata API核验确指多哈论坛本体（官网dohaforum.org、国家QAT一致），无需修正；原顶层非标准字段brief/description的有效内容已并入core_business后删除；founded_date依据Wikipedia（首届论坛于2003年4月14-15日举行）由无效格式2003-00-00修正为2003-04-14；key_people两位现任负责人（执行总监穆巴拉克·阿杰兰·阿尔-库瓦里、总经理玛哈·阿尔-库瓦里）在_name_index.json中无匹配，person_id为null待P4回填",
+    "quotes": [
+      {
+        "title": "Doha Forum - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Doha_Forum"
+      },
+      {
+        "title": "多哈论坛官方网站首页（2026年第24届安排及2025年论坛数据）",
+        "url": "https://dohaforum.org/"
+      },
+      {
+        "title": "Our Leadership | Doha Forum（现任领导团队）",
+        "url": "https://dohaforum.org/about-us/our-Leadership"
+      },
+      {
+        "title": "Doha Forum 2023 Theme（第21届主题与日期）",
+        "url": "https://dohaforum.org/2023/theme"
+      },
+      {
+        "title": "Doha Forum 2024 Theme（第22届主题与日期）",
+        "url": "https://dohaforum.org/2024/theme"
+      },
+      {
+        "title": "Doha Forum 2025 Theme（第23届主题与日期）",
+        "url": "https://dohaforum.org/2025/theme"
+      },
+      {
+        "title": "QNA: Doha Forum 2025 Set to Explore 'Justice in Action: Beyond Promises to Progress'",
+        "url": "https://qna.org.qa/en/news/news-details?id=doha-forum-2025-set-to-explore-justice-in-action-beyond-promises-to-progress&date=11/11/2025"
+      },
+      {
+        "title": "Arab News Japan: Doha Forum announces 2026 theme 'Redefining Global Trust'",
+        "url": "https://www.arabnews.jp/en/middle-east/article_163056/"
+      },
+      {
+        "title": "MOFA Qatar - Executive Director, Permanent Committee for Organizing Conferences",
+        "url": "https://mofa.gov.qa/en/the-ministry/organizational-structure/the-permanent-committee-for-organizing-conferences/the-executive-director-to-the-permanent-committee-for-organizing-conferences"
+      },
+      {
+        "title": "Jeju Forum - Speaker Biography: Mubarak Ajlan AL-KUWARI",
+        "url": "http://jejuforum.or.kr/en/m24_view.php?idx=4827&year=2025"
+      }
+    ]
   }
 }

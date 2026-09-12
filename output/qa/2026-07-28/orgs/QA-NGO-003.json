@@ -4,7 +4,12 @@
     "name_original": "معهد الدوحة للدراسات العليا",
     "name_zh": "多哈研究生研究院",
     "name_en": "Doha Institute for Graduate Studies",
-    "aliases": [],
+    "aliases": [
+      "Doha Institute",
+      "DI",
+      "多哈研究生院",
+      "多哈研究生学院"
+    ],
     "org_type": "NGO",
     "org_subtype": "think_tank",
     "country_iso3": "QAT",
@@ -18,31 +23,224 @@
       "platform": "twitter_x",
       "account_name": "dohainstitute",
       "url": "https://x.com/dohainstitute",
-      "source": "twitter_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "dohainstitute.edu.qa",
+      "url": "https://www.facebook.com/dohainstitute.edu.qa",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "dohainstitute",
+      "url": "https://www.instagram.com/dohainstitute/",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Doha Institute for Graduate Studies",
+      "url": "https://www.linkedin.com/school/doha-institute-for-graduate-studies/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Doha Institute for Graduate Studies",
+      "url": "https://www.youtube.com/channel/UCCohAuytLRLVQIvmPU-XqUg",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "位于多哈的私立研究生院",
+  "digital_assets": [
+    {
+      "name": "官方网站阿拉伯语版",
+      "url": "https://www.dohainstitute.edu.qa/ar/Pages/default.aspx",
+      "description": "研究院官网阿拉伯语版本，提供机构简介、院系设置、招生与新闻信息",
+      "source": "https://www.dohainstitute.edu.qa"
+    },
+    {
+      "name": "新闻与活动门户",
+      "url": "https://www.dohainstitute.edu.qa/en/news-and-events/pages/news-listing.aspx",
+      "description": "发布研究院新闻、学术活动与公告的官方页面",
+      "source": "https://www.dohainstitute.edu.qa"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "阿兹米·比沙拉 (Azmi Bishara)",
+      "title": "董事会主席",
+      "title_description": "主持研究院董事会，负责机构治理、长期规划与政策监督",
+      "description": "巴勒斯坦裔阿拉伯学者、政治思想家，阿拉伯研究中心（ACRPS）总干事；据研究院官网及卡塔尔媒体报道，现任多哈研究生研究院董事会主席，多次以该身份出席研究院毕业典礼及建院十周年活动"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·阿卜杜拉·本·阿里·本·萨乌德·阿勒萨尼 (Sheikh Dr. Abdullah bin Ali bin Saud Al Thani)",
+      "title": "董事会副主席",
+      "title_description": null,
+      "description": "据卡塔尔通讯社2026年5月报道，以研究院董事会副主席身份出席第十届硕士毕业典礼并参与学位授予"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜勒瓦哈布·埃尔阿芬迪 (Abdelwahab El-Affendi)",
+      "title": "院长",
+      "title_description": "主持研究院整体学术与行政事务（President and Provost），2020年起任职",
+      "description": "苏丹裔政治学者，2015年加入研究院任政治学教授并主管政治与国际关系项目，2017年任社会科学与人文学院院长，2020年起任院长；此前1997至2015年在英国威斯敏斯特大学民主研究中心任研究员；英国皇家艺术学会终身会士；2026年7月代表研究院与卡塔尔国家规划委员会签署合作谅解备忘录"
+    },
+    {
+      "person_id": null,
+      "name": "阿迈勒·加扎勒 (Amal Ghazal)",
+      "title": "学术副校长",
+      "title_description": null,
+      "description": "据卡塔尔通讯社2026年5月报道，以研究院学术事务副校长（Vice President for Academic Affairs）身份出席第十届硕士毕业典礼并参与学位授予"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": null,
+      "name": "社会科学与人文学院",
+      "head": null,
+      "description": "研究院两大教学学院之一（School of Social Sciences and Humanities），开设政治学与国际关系、社会学、历史学、阿拉伯语言学与词典学、媒体研究、文学批评及冲突管理与人道主义行动等硕士项目；2026届毕业生中163人来自该院",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "经济、管理与公共政策学院",
+      "head": null,
+      "description": "研究院两大教学学院之一（School of Economics, Administration and Public Policy，原称公共行政与发展经济学院），开设公共管理、发展经济学、公共政策等硕士项目，其公共管理类项目获NASPAA认证；2026届毕业生中83人来自该院",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "冲突与人道主义研究中心",
+      "head": null,
+      "description": "设于研究院的研究中心（Center for Conflict and Humanitarian Studies），围绕冲突与人道主义议题开展研究，举办年度冲突与人道主义研究会议、公共讲座和网络研讨会，并参与相关教学项目",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-17",
+      "title": "公布新学年招生：约249名学生入读硕士与博士项目",
+      "description": "据卡塔尔通讯社报道，研究院宣布约249名学生注册入读其硕士与博士项目；研究院现设20个国际认证硕士项目及8个博士项目",
+      "impact": "招生规模保持稳定，反映其在区域性研究生教育中的持续吸引力",
+      "source": "https://www.gulf-times.com/article/731285/qatar/249-students-enroll-in-masters-doctoral-programs-at-doha-institute-for-graduate-studies"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "与卡塔尔国家规划委员会签署合作谅解备忘录",
+      "description": "研究院与卡塔尔国家规划委员会签署谅解备忘录，合作涵盖数据与统计、人口分析、战略规划、未来预测、管理、公共政策及人口与社会议题，包括联合培训、联合研究，并通过安全应用程序接口将研究院研究数据接入国家研究数据库；备忘录由院长埃尔阿芬迪与国家规划委员会助理秘书长巴萨姆·伊萨·曼奈签署",
+      "impact": "深化研究院与国家规划、统计机构的知识合作，服务卡塔尔2030国家愿景与第三国家发展战略",
+      "source": "https://www.gulf-times.com/article/728830/qatar/national-planning-council-doha-institute-for-graduate-studies-sign-mou-on-cooperation-expertise-exchange"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "举行第十届硕士生毕业典礼，十届累计毕业生达1886人",
+      "description": "毕业典礼在多哈喜来登酒店举行，卡塔尔首相兼外交大臣穆罕默德·本·阿卜杜勒拉赫曼·阿勒萨尼出席，董事会主席比沙拉、董事会副主席阿勒萨尼、院长埃尔阿芬迪及学术副校长加扎勒等参与学位授予；本届246名毕业生来自32个国籍，其中社会科学与人文学院163人、经济管理与公共政策学院83人，含73名卡塔尔籍毕业生及100名由卡塔尔发展基金通过「卡塔尔国国际学生奖学金计划」资助的学生",
+      "impact": "标志研究院办学十年的重要节点，毕业生规模与生源国际化程度持续扩大",
+      "source": "https://www.gulf-times.com/article/726028/qatar/pm-attends-doha-institutes-10th-graduation"
+    },
+    {
+      "date": "2025-05-17",
+      "title": "举行第九届硕士生毕业典礼",
+      "description": "毕业典礼在卡塔尔国家会议中心举行，由首相兼外交大臣主礼，董事会主席比沙拉及多名董事会成员出席；220名毕业生来自28个国家，其中社会科学与人文学院150人、经济管理与公共政策学院70人，含71名卡塔尔籍毕业生，部分国际学生由卡塔尔发展基金奖学金计划资助",
+      "impact": "毕业生网络扩展至更多国家，体现研究院的区域招生与奖学金资助体系",
+      "source": "https://www.dohainstitute.org/en/News/Pages/graduation-9th-cohort.aspx"
+    },
+    {
+      "date": "2025-02-17",
+      "title": "启动建院十周年系列庆祝活动",
+      "description": "研究院启动自2015年建院以来的十周年庆祝活动，首场活动邀请毕业生返校与在校生分享发展经历；院长埃尔阿芬迪表示年内还将举办系列学术活动，邀请卡塔尔及世界各地的知名学者和大学校长参与",
+      "impact": "巩固校友网络并提升机构在卡塔尔及地区学术界的可见度",
+      "source": "https://www.gulf-times.com/article/700473/qatar/doha-institute-celebrates-tenth-anniversary"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿拉伯研究中心 (المركز العربي للأبحاث ودراسة السياسات)",
+      "org_type": "NGO",
+      "org_description": "总部位于多哈的独立阿拉伯研究机构（ACRPS），2014年发起创立多哈研究生研究院；其总干事阿兹米·比沙拉兼任研究院董事会主席",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔发展基金 (Qatar Fund for Development)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔官方发展援助机构，通过「卡塔尔国国际学生奖学金计划」资助研究院的国际学生，2026届毕业生中有100人受其资助",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔国家规划委员会 (National Planning Council)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔负责国家规划与统计的政府机构，2026年7月与研究院签署谅解备忘录，在数据统计、人口分析、战略规划与公共政策等领域开展合作",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "欧洲大学研究院 (European University Institute)",
+      "org_type": "ACAD",
+      "org_description": "位于意大利佛罗伦萨的欧洲跨国学术机构，与研究院签署学术合作谅解备忘录",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "多哈研究生研究院（Doha Institute for Graduate Studies）是位于卡塔尔多哈的私立非营利研究生教育与研究机构，由阿拉伯研究中心（ACRPS）于2014年发起创立并作为独立法人运营，2015年秋季迎来首批学生，校园位于多哈塔尔法街（Al Tarfa Street, Zone 70）。研究院以阿拉伯语为主要教学语言，宗旨是培养能够参与知识生产、服务可持续发展与阿拉伯社会进步的研究者和专业人才，并推动阿拉伯语作为学术研究语言的使用。教学科研体系由社会科学与人文学院、经济、管理与公共政策学院两个学院构成，另设冲突与人道主义研究中心和语言中心，并发起多哈阿拉伯语历史词典项目。截至2026年，研究院提供20个国际认证硕士项目和8个博士项目，涵盖政治学与国际关系、社会学、历史学、阿拉伯语言学与词典学、媒体研究、文学批评、公共管理、发展经济学、公共政策等领域，其中13个项目获FIBBA认证、2个公共管理类项目获NASPAA认证；研究院还与卡塔尔外交部外交研究所合办外交研究与国际合作行政硕士项目。截至2026年5月，研究院已培养十届共1886名毕业生，生源来自50多个国家；卡塔尔发展基金通过「卡塔尔国国际学生奖学金计划」资助国际学生就读。研究院实行董事会治理，董事会下设执行、提名、学术事务、财务与规划等委员会，董事会主席为阿兹米·比沙拉，现任院长为阿卜杜勒瓦哈布·埃尔阿芬迪。",
   "industries": [
     "education",
-    "research_development"
+    "higher_education",
+    "research_development",
+    "think_tank"
   ],
-  "apec_stance": null,
-  "description": "位于多哈的私立研究生院",
-  "brief": "private school in Doha, Qatar",
+  "apec_stance": "卡塔尔不是APEC成员经济体，多哈研究生研究院与APEC机制没有直接的制度性联系。作为以阿拉伯语为主、面向社会科学与公共政策的研究生机构，其国际合作以阿拉伯地区高校与研究网络为主，并与欧洲大学研究院等机构签署学术合作备忘录，与亚太经济体的联系主要体现在国际学生与学者的常规学术交流层面。",
+  "profile": {
+    "source_url": "https://www.dohainstitute.edu.qa/en/About/Pages/Welcome.aspx",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q23418976",
-      "https://www.dohainstitute.edu.qa"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 95,
+    "notes": "Phase 3 丰富化：wikidata_qid Q23418976 经 Wikidata EntityData 核实确为本机构（P856 官网与 P2427 GRID ID 均匹配），未变更。骨架顶层非标准字段 brief 与 description 的有效内容已并入 core_business 并删除。name_zh 维持注册表中「多哈研究生研究院」（与 id_registry/_name_index 一致），中文媒体亦有「多哈研究生院」译法，已列入 aliases。建院表述：ACRPS 于2014年发起创立、2015年首批入学，founded_date 依 Wikidata P571 取2015年。四名 key_people（比沙拉、阿勒萨尼、埃尔阿芬迪、加扎勒）均未在 _name_index.json 中，person_id 置 null 待 P4 回填；related_entities 四项组织均未注册于 id_registry.json，org_id 置 null。",
+    "quotes": [
+      {
+        "title": "Doha Institute for Graduate Studies - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Doha_Institute_for_Graduate_Studies"
+      },
+      {
+        "title": "معهد الدوحة للدراسات العليا - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/معهد_الدوحة_للدراسات_العليا"
+      },
+      {
+        "title": "Office of the President - Doha Institute for Graduate Studies",
+        "url": "https://www.dohainstitute.edu.qa/en/About/Pages/Office-of-the-President.aspx"
+      },
+      {
+        "title": "The Doha Institute celebrates the graduation of its 9th cohort of Master's Students",
+        "url": "https://www.dohainstitute.org/en/News/Pages/graduation-9th-cohort.aspx"
+      },
+      {
+        "title": "PM attends Doha Institute's 10th graduation (Gulf Times)",
+        "url": "https://www.gulf-times.com/article/726028/qatar/pm-attends-doha-institutes-10th-graduation"
+      },
+      {
+        "title": "National Planning Council, Doha Institute for Graduate Studies sign MoU (Gulf Times)",
+        "url": "https://www.gulf-times.com/article/728830/qatar/national-planning-council-doha-institute-for-graduate-studies-sign-mou-on-cooperation-expertise-exchange"
+      },
+      {
+        "title": "249 Students enroll in Master's, Doctoral programs at Doha Institute for Graduate Studies (Gulf Times)",
+        "url": "https://www.gulf-times.com/article/731285/qatar/249-students-enroll-in-masters-doctoral-programs-at-doha-institute-for-graduate-studies"
+      },
+      {
+        "title": "Doha Institute celebrates tenth anniversary (Gulf Times)",
+        "url": "https://www.gulf-times.com/article/700473/qatar/doha-institute-celebrates-tenth-anniversary"
+      }
+    ]
   }
 }

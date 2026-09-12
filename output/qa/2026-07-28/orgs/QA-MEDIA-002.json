@@ -4,7 +4,13 @@
     "name_original": "قناة الجزيرة",
     "name_zh": "半岛电视台阿拉伯语频道",
     "name_en": "Al Jazeera",
-    "aliases": [],
+    "aliases": [
+      "Al Jazeera Arabic",
+      "Al Jazeera Satellite Channel",
+      "JSC",
+      "Aljazeera",
+      "الجزيرة"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "broadcaster",
     "country_iso3": "QAT",
@@ -19,6 +25,12 @@
       "account_name": "AJArabic",
       "url": "https://twitter.com/AJArabic",
       "source": "wikidata"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "AJABreaking",
+      "url": "https://x.com/AJABreaking",
+      "source": "wikipedia"
     },
     {
       "platform": "youtube",
@@ -39,27 +51,192 @@
       "source": "wikidata"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "总部位于多哈的阿拉伯语24小时新闻频道",
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "半岛电视台阿拉伯语新闻门户（الجزيرة نت）",
+      "url": "https://www.aljazeera.net/",
+      "description": "频道配套的阿拉伯语新闻门户网站，提供全天候文字新闻、电视直播流、专题报道及移动端应用，与频道内容联动",
+      "source": "https://www.aljazeera.net/"
+    },
+    {
+      "name": "半岛电视台中文网",
+      "url": "https://chinese.aljazeera.net/",
+      "description": "面向中文读者的新闻网站，提供频道及网络报道的中文版本，内容涵盖亚洲太平洋等地区新闻",
+      "source": "https://chinese.aljazeera.net/"
+    },
+    {
+      "name": "半岛电视媒体网络官方网站",
+      "url": "https://network.aljazeera.net/",
+      "description": "主办网络的企业官网，发布机构简介、领导层名单、新闻稿及年度报告等企业信息",
+      "source": "https://network.aljazeera.net/en/about-us"
+    }
   ],
-  "apec_stance": null,
-  "description": "总部位于多哈的阿拉伯语24小时新闻频道",
-  "brief": "Qatari international television channel",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "阿西夫·哈米迪 (عاصف حميدي)",
+      "title": "台长 (مدير قناة الجزيرة)",
+      "title_description": "2025年9月16日起执掌频道运营；此前自2015年起任频道新闻总监十年",
+      "description": "巴勒斯坦记者、媒体人，1971年8月20日出生于图勒凯尔姆省阿蒂利镇，毕业于约旦耶尔穆克大学新闻与媒体专业；1990年代为巴勒斯坦广播公司的创办成员并任其新闻总监，曾任巴勒斯坦浪潮广播电台负责人；2000至2005年在阿布扎比电视台历任驻外电视记者与主编；2005年加入半岛电视台，历任新闻制作人、编辑主管，2015年起任新闻总监；另著有多部新闻传播著作并在半岛媒体学院任教"
+    },
+    {
+      "person_id": null,
+      "name": "拉伊德·法基赫 (رائد فقيه)",
+      "title": "新闻总监 (مدير الأخبار)",
+      "title_description": "2025年9月起接替阿西夫·哈米迪执掌频道新闻编辑室",
+      "description": "频道资深编辑骨干之一，长期在半岛电视台新闻编辑室任职；2025年9月半岛电视媒体网络公布管理层调整时获任频道新闻总监"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑部 (غرفة الأخبار)",
+      "dept_id": null,
+      "head": "拉伊德·法基赫 (رائد فقيه)",
+      "description": "负责频道24小时整点新闻播报与突发新闻报道，统筹全球驻外记者站来稿与直播信号调度",
+      "parent_dept_id": null
+    },
+    {
+      "name": "时事谈话节目部",
+      "dept_id": null,
+      "head": null,
+      "description": "制作《反向意见》(الاتجاه المعاكس)、《无界》(بلا حدود)、《新闻纵深》(ما وراء الخبر)、《来自华盛顿》(من واشنطن)等品牌时事谈话与访谈节目，为频道的代表性栏目板块",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数字平台（半岛电视台网）",
+      "dept_id": null,
+      "head": null,
+      "description": "运营频道配套的阿拉伯语新闻门户网站aljazeera.net及其移动端应用和社交媒体发布渠道，提供新闻直播与点播服务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-02-16",
+      "title": "网络推出首个阿拉伯语FAST流媒体频道Al Jazeera World",
+      "description": "半岛电视媒体网络宣布在三星TV Plus平台上线Al Jazeera World，为其首个阿拉伯语免费广告支持流媒体电视（FAST）频道，集中播出网络的新闻与纪实内容；此前的2025年12月，网络与谷歌云扩大战略合作，发布整合AI的新闻采编模型The Core，推进采编流程数字化",
+      "impact": "频道内容向智能电视流媒体分发延伸，扩大阿拉伯语内容在全球联网电视终端的触达",
+      "source": "https://network.aljazeera.net/en/press-releases/al-jazeera-media-network-launches-al-jazeera-world-its-first-arabic-fast-service"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "阿拉伯语频道节目首获国际艾美奖",
+      "description": "在纽约举行的第53届国际艾美奖颁奖典礼上，阿拉伯语频道时事节目《故事仍在继续》（The Story Continues）获得新闻类奖项，为半岛电视媒体网络首座国际艾美奖，也是该届唯一进入最终名单的阿拉伯媒体节目；网络于11月26日发布新闻稿予以确认",
+      "impact": "提升频道及阿拉伯语节目在国际电视行业的认可度",
+      "source": "https://network.aljazeera.net/en/press-releases/al-jazeera-media-network-wins-multiple-awards-including-its-first-international-emmy"
+    },
+    {
+      "date": "2025-09-16",
+      "title": "阿西夫·哈米迪出任频道台长，频道与网络完成管理层换届",
+      "description": "半岛电视媒体网络公布系列人事任命：原新闻总监阿西夫·哈米迪升任频道台长（2025年第22号决定），拉伊德·法基赫接任新闻总监，同时任命频道执行总监及驻外记者总监等职务；此前9月1日，网络已任命谢赫·纳赛尔·本·法伊萨尔·本·哈利法·阿勒萨尼为总干事，接替任职12年的穆斯塔法·苏瓦格",
+      "impact": "频道及网络最高管理层完成代际更替，网络表示将借此推进媒体战略与运营架构更新",
+      "source": "https://nabaajordan.com/articles/470531"
+    },
+    {
+      "date": "2024-09-22",
+      "title": "以军突袭频道拉马拉记者站并下达45天关闭令",
+      "description": "以色列士兵突袭频道位于约旦河西岸城市拉马拉的记者站，向记者站负责人瓦利德·奥马里送达为期45天的军事关闭令，此前的关闭令曾多次获延长",
+      "impact": "频道在约旦河西岸的采访基地关闭，驻当地采编活动受阻",
+      "source": "https://www.bbc.com/news/articles/c8rd5z17px4o"
+    },
+    {
+      "date": "2024-05-05",
+      "title": "以色列内阁决定关闭半岛电视台在以色列境内的业务",
+      "description": "以色列内阁投票决定关闭半岛电视台在以色列境内的运营，并查扣部分播出设备，措施初期为期45天且可依相关法律延长",
+      "impact": "频道在以色列境内的运营及信号分发中断",
+      "source": "https://www.reuters.com/world/middle-east/israeli-cabinet-moves-close-al-jazeeras-local-operations-2024-05-05/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-MEDIA-001",
+      "org_name": "半岛电视媒体网络 (شبكة الجزيرة الإعلامية / Al Jazeera Media Network)",
+      "org_type": "MEDIA",
+      "org_description": "频道的主办机构，总部位于多哈，旗下拥有阿拉伯语频道、英语频道、纪录片频道、直播频道及AJ+等媒体平台，2025年9月起由谢赫·纳赛尔·本·法伊萨尔·阿勒萨尼出任总干事",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-MEDIA-003",
+      "org_name": "半岛电视台英语频道 (قناة الجزيرة الإنجليزية / Al Jazeera English)",
+      "org_type": "MEDIA",
+      "org_description": "同一主办网络旗下的英语24小时新闻频道，2006年11月开播，与本频道构成网络的两大旗舰新闻频道",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "半岛电视台纪录片频道 (قناة الجزيرة الوثائقية / Al Jazeera Documentary)",
+      "org_type": "MEDIA",
+      "org_description": "同一主办网络旗下的阿拉伯语纪录片频道，与本频道同属网络的姊妹频道体系",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "半岛电视台直播频道 (الجزيرة مباشر / Al Jazeera Mubasher)",
+      "org_type": "MEDIA",
+      "org_description": "同一主办网络旗下的阿拉伯语直播频道，未经剪辑转播新闻发布会、会议及演讲等现场实况",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "半岛电视台（قناة الجزيرة）是总部位于卡塔尔多哈的阿拉伯语24小时新闻卫星频道，1996年11月1日开播，由卡塔尔埃米尔哈马德·本·哈利法·阿勒萨尼提供1.5亿美元创办资金，其创立与1994年英国广播公司阿拉伯语电视部停播相衔接，吸纳了原BBC阿拉伯语部的部分采编人员。频道现属半岛电视媒体网络，是该网络的旗舰阿拉伯语新闻频道，与英语频道、纪录片频道、直播频道（Mubasher）等构成姊妹频道体系。频道通过尼罗星、Eutelsat、Es'hailSat等卫星向中东、北非、欧洲及全球其他地区播出，节目形态包括整点新闻滚动播报、时事谈话类节目（如《反向意见》《无界》《新闻纵深》《来自华盛顿》）、经济新闻及专题报道，并依托设在中东、北非、欧洲、亚洲等地的驻外记者站开展全球采编。数字业务方面，频道运营阿拉伯语新闻门户「半岛电视台网」（aljazeera.net），2003年起陆续推出英文版及中文版新闻网站，并通过YouTube、X等社交平台和联网电视终端分发内容；2026年2月网络还推出首个阿拉伯语FAST流媒体频道Al Jazeera World。经营方面，频道创办初期不播商业广告，后逐步引入广告、有线电视订阅分成、节目版权交易等收入来源。频道创办后经历阿富汗战争、伊拉克战争、阿拉伯之春等报道期而在阿拉伯受众中形成广泛影响。现任管理层为2025年9月上任的台长阿西夫·哈米迪。",
+  "industries": [
+    "broadcasting",
+    "digital_media"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，半岛电视台作为卡塔尔媒体机构不直接参与APEC进程与合作议程。作为面向全球播出的国际新闻频道，其报道网络覆盖亚太地区，长期向阿拉伯语受众提供亚太经贸动态及区域峰会（包括APEC会议）相关新闻，是亚太地区资讯在中东阿拉伯语世界传播的媒体渠道之一。",
+  "profile": {
+    "source_url": "https://network.aljazeera.net/en/about-us",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q13477",
-      "https://www.aljazeera.com/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 88,
+    "notes": "Phase 3 丰富化。骨架wikidata_qid=Q13477经Wikidata核实为卡塔尔阿拉伯语新闻频道Al Jazeera（1996-11-01开播、总部多哈、P127指向主办网络Q4704134），与本机构一致，无需修正。现任管理层（台长阿西夫·哈米迪、新闻总监拉伊德·法基赫）核实自网络官网领导层页及多家阿拉伯语媒体报道（2025年9月任命）；两人均未收录于_name_index.json，person_id为null待P4回填。拉伊德·法基赫任命主要见于单一来源报道，已在description中标注。频道节目名称及历史沿革核实自阿拉伯语维基百科。recent_events日期：以色列关闭决定（2024-05-05，Reuters）、拉马拉记者站关闭令（2024-09-22，BBC）、国际艾美奖颁奖（2025-11-24，iemmys.tv与网络新闻稿）、FAST频道上线（2026-02-16，网络新闻稿）。",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "قناة الجزيرة - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9"
+      },
+      {
+        "title": "Sheikh Nasser Bin Faisal Al-Thani appointed Director General of Al Jazeera Media Network - AJMN官网新闻稿",
+        "url": "https://network.aljazeera.net/en/node/2162"
+      },
+      {
+        "title": "عاصف حميدي | شبكة الجزيرة الإعلامية（网络官网领导层页）",
+        "url": "https://network.aljazeera.net/ar/profile/%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D8%A9/%D8%B9%D8%A7%D8%B5%D9%81-%D8%AD%D9%85%D9%8A%D8%AF%D9%8A"
+      },
+      {
+        "title": "تعيين عاصف حميدي مديرا لقناة الجزيرة - نبأ الأردن",
+        "url": "https://nabaajordan.com/articles/470531"
+      },
+      {
+        "title": "Al Jazeera Media Network wins multiple awards including its first International Emmy - AJMN官网新闻稿",
+        "url": "https://network.aljazeera.net/en/press-releases/al-jazeera-media-network-wins-multiple-awards-including-its-first-international-emmy"
+      },
+      {
+        "title": "The Al Jazeera Media Network launches Al Jazeera World, its first Arabic FAST service - AJMN官网新闻稿",
+        "url": "https://network.aljazeera.net/en/press-releases/al-jazeera-media-network-launches-al-jazeera-world-its-first-arabic-fast-service"
+      },
+      {
+        "title": "Israeli authorities raid Al Jazeera after shutdown order - Reuters",
+        "url": "https://www.reuters.com/world/middle-east/israeli-cabinet-moves-close-al-jazeeras-local-operations-2024-05-05/"
+      },
+      {
+        "title": "Israeli forces raid Al Jazeera office in occupied West Bank - BBC",
+        "url": "https://www.bbc.com/news/articles/c8rd5z17px4o"
+      },
+      {
+        "title": "Who we are - Al Jazeera Media Network（官方关于页）",
+        "url": "https://network.aljazeera.net/en/about-us"
+      }
+    ]
   }
 }

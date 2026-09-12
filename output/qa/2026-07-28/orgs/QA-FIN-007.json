@@ -3,13 +3,20 @@
   "basic_info": {
     "name_original": "بورصة قطر",
     "name_zh": "卡塔尔证券交易所",
-    "name_en": "Qatar Exchange",
-    "aliases": [],
+    "name_en": "Qatar Stock Exchange",
+    "aliases": [
+      "Qatar Exchange",
+      "QSE",
+      "Doha Securities Market",
+      "DSM",
+      "多哈证券市场",
+      "卡塔尔交易所"
+    ],
     "org_type": "FIN",
-    "org_subtype": "investment_bank",
+    "org_subtype": "gov_linked_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1997-00-00",
+    "founded_date": "1997-05-01",
     "website": "https://www.qe.com.qa/",
     "wikidata_qid": "Q1648198"
   },
@@ -18,48 +25,235 @@
       "platform": "twitter_x",
       "account_name": "QatarBursa",
       "url": "https://x.com/QatarBursa",
-      "source": "twitter_search"
+      "source": "official_website_footer"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "qatarexchange",
+      "url": "https://www.facebook.com/qatarexchange",
+      "source": "official_website_footer"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "QatarStockExchange",
+      "url": "https://www.instagram.com/QatarStockExchange/",
+      "source": "official_website_footer"
     },
     {
       "platform": "linkedin",
       "account_name": "qatar-stock-exchange",
       "url": "https://www.linkedin.com/company/qatar-stock-exchange",
       "source": "linkedin_search"
-    },
-    {
-      "platform": "instagram",
-      "account_name": "qatarbursa",
-      "url": "https://www.instagram.com/qatarbursa/",
-      "source": "instagram_search"
-    },
-    {
-      "platform": "instagram",
-      "account_name": "qatarstockexchange",
-      "url": "https://www.instagram.com/qatarstockexchange/",
-      "source": "instagram_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔首都多哈的证券市场",
-  "industries": [
-    "banking"
+  "digital_assets": [
+    {
+      "name": "QSE市场观察与行情平台（Market Watch）",
+      "url": "https://www.qe.com.qa/wp/mws/index/en",
+      "description": "提供卡塔尔交易所QE指数及上市证券的实时行情、价格、成交量与市场表现数据",
+      "source": "https://www.qe.com.qa/"
+    },
+    {
+      "name": "QSE年度报告页面",
+      "url": "https://www.qe.com.qa/annual-report",
+      "description": "提供交易所历年年度报告及统计报告的查阅与下载",
+      "source": "https://www.qe.com.qa/"
+    },
+    {
+      "name": "MSCI QSE 20 ESG指数专题页",
+      "url": "https://www.qe.com.qa/msci-qse-20-esg-index",
+      "description": "交易所与MSCI于2021年合作推出的可交易ESG指数页面，从MSCI卡塔尔IMI指数中选取环境、社会与治理表现最佳的20只证券",
+      "source": "https://www.qe.com.qa/msci-qse-20-esg-index"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔首都多哈的证券市场",
-  "brief": "securities market Doha, Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "费萨尔·本·萨尼·阿勒萨尼 (Sheikh Faisal bin Thani Al Thani)",
+      "title": "董事会主席",
+      "title_description": "2025年2月经卡塔尔投资局决议改组董事会后出任交易所董事会主席",
+      "description": "卡塔尔商业与工业大臣，兼任卡塔尔金融中心（QFC）董事会主席、卡塔尔第一银行董事长等职"
+    },
+    {
+      "person_id": null,
+      "name": "穆罕默德·本·赛义夫·阿勒苏瓦伊迪 (Mohammed bin Saif Al Sowaidi)",
+      "title": "董事会副主席",
+      "title_description": "2025年2月起任交易所董事会副主席",
+      "description": "现任卡塔尔投资局（QIA）首席执行官"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜拉·穆罕默德·安萨里 (Abdullah Mohammed Al Ansari)",
+      "title": "首席执行官",
+      "title_description": "2025年3月16日起出任交易所首席执行官",
+      "description": "2011年加入卡塔尔投资局，2022年至2025年担任卡塔尔基金总监，拥有逾16年投资、资产管理与资本市场发展经验"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "QA-FIN-007-DEPT-001",
+      "name": "主板市场 (Main Market)",
+      "head": null,
+      "description": "交易所核心股票板块，为卡塔尔公众持股公司提供挂牌与交易服务；2025年12月Mosanada设施管理服务公司直接上市后，上市公司增至55家，板块涵盖银行、工业、电信、消费等行业",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-FIN-007-DEPT-002",
+      "name": "创业市场 (QE Venture Market)",
+      "head": null,
+      "description": "2021年正式推出的中小企业挂牌平台，为中小企业提供资本市场融资渠道",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-FIN-007-DEPT-003",
+      "name": "债券与苏克克市场 (Debt Instruments Market)",
+      "head": null,
+      "description": "2011年设立的固定收益板块，交易国库券、企业债券与伊斯兰苏克克；2025年完成交易所历史上首只本地企业债券和首只苏克克的挂牌",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-FIN-007-DEPT-004",
+      "name": "ETF与指数产品 (ETFs & Funds)",
+      "head": null,
+      "description": "2018年上市卡塔尔首批ETF（含Al Rayan卡塔尔ETF），并与MSCI合作开发ESG主题指数及指数挂钩产品",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-02-09",
+      "title": "上市卡塔尔首只绿色苏克克",
+      "description": "由AlRayan银行发行的绿色苏克克自2026年2月9日起在交易所债券工具市场挂牌，完成全部技术与合规准备后生效，为卡塔尔市场首只绿色苏克克",
+      "impact": "拓展交易所可持续金融产品序列，为绿色项目提供资本市场融资渠道",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-2/9/qse-lists-qatars-first-green-sukuk-issued-by-alrayan-bank"
+    },
+    {
+      "date": "2025-12-15",
+      "title": "Mosanada设施管理服务公司直接上市，上市公司增至55家",
+      "description": "Mosanada设施管理服务公司（Q.P.S.C）以直接挂牌方式登陆主板市场，发行价每股10卡塔尔里亚尔，隐含市值约7亿卡塔尔里亚尔，自由流通比例25%；首个交易日成交量约533万卡塔尔里亚尔，交易所上市公司数量增至55家",
+      "impact": "丰富主板行业构成，延续2023年以来新挂牌节奏",
+      "source": "https://www.mosanada.qa/mosanada-facilities-management-services-q-p-s-c-completes-its-successful-direct-listing-on-the-qatar-stock-exchange-main-market/"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "上市卡塔尔首只本地企业债券",
+      "description": "Ahli Bank发行的5亿卡塔尔里亚尔（约1.37亿美元）、票面利率4.45%、期限三年的固定利率企业债券在交易所挂牌，为卡塔尔首只在本地发行并在交易所上市交易的企业债券",
+      "impact": "标志本地公司债市场起步，为投资者提供组合多元化工具",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-11/24/ahli-bank-lists-first-locally-issued-corporate-bond-in-boost-for-capital-market-development"
+    },
+    {
+      "date": "2025-11-20",
+      "title": "完成卡塔尔首宗全面市场化二次公开发行（Ooredoo）",
+      "description": "Ooredoo大股东阿布扎比投资局出售1.6048亿股（占5.01%）的二次公开发行完成，发行价每股12.5卡塔尔里亚尔；Ooredoo在交易所的自由流通比例由约22%提升至约27%",
+      "impact": "扩大市场自由流通盘与流动性，为卡塔尔后续同类发行提供先例",
+      "source": "https://mondovisione.com/media-and-resources/news/qatar-stock-exchange-announces-the-completion-of-the-first-fully-marketed-second-20251120/"
+    },
+    {
+      "date": "2025-03-16",
+      "title": "任命新首席执行官",
+      "description": "经董事会决议，阿卜杜拉·穆罕默德·安萨里自2025年3月16日起出任交易所首席执行官；其此前在卡塔尔投资局工作十余年，2022年至2025年任卡塔尔基金总监",
+      "impact": "管理层更替，上任后主持制定与新国家发展战略和第三金融部门战略对接的交易所五年战略",
+      "source": "https://thepeninsulaqatar.com/article/17/03/2025/qatar-stock-exchange-appoints-new-ceo"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-004",
+      "org_name": "卡塔尔投资局 (Qatar Investment Authority, QIA)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔主权财富基金；2009年6月经旗下Qatar Holding与纽约-泛欧交易所集团达成战略合作（纽泛欧持20%、Qatar Holding持80%），2013年购回纽泛欧所持全部剩余股份实现全资持有，并负责改组交易所董事会",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔金融市场管理局 (Qatar Financial Markets Authority, QFMA)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔资本市场的监管机构，负责审批交易所在主板市场的挂牌发行并对市场运行实施监管",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "多哈证券市场 (Doha Securities Market, DSM)",
+      "org_type": "FIN",
+      "org_description": "交易所前身，1995年依埃米尔法令设立、1997年正式开始运营，初始有17家上市公司，2009年与纽约-泛欧交易所集团战略合作后更名",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界交易所联合会 (World Federation of Exchanges, WFE)",
+      "org_type": "INTL",
+      "org_description": "全球交易所行业组织；交易所2007年成为其通讯会员，2013年取得正式会员资格",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "卡塔尔证券交易所（Qatar Stock Exchange，QSE）是卡塔尔全国主要的证券市场，总部位于多哈，前身为1995年依埃米尔法令设立、1997年5月正式运营的多哈证券市场（DSM）。2009年卡塔尔投资局（QIA）与纽约-泛欧交易所集团签署战略合作协议后交易所更名，现为由QIA通过旗下Qatar Holding全资持有的政联机构。交易所运营多个市场板块：主板市场汇聚卡塔尔公众持股公司，2025年12月Mosanada设施管理服务公司挂牌后上市公司达55家；创业市场（QE Venture Market，2021年推出）面向中小企业提供挂牌融资平台；债券与苏克克市场自2011年起交易国库券、企业债券与伊斯兰苏克克，2025年先后完成首只本地企业债券与交易所首只苏克克的挂牌；2018年上市卡塔尔首批ETF（含Al Rayan卡塔尔ETF），并与MSCI合作推出MSCI QSE 20 ESG指数。交易所编制反映市场整体表现的QE指数，2013年获MSCI和标普道琼斯指数上调至新兴市场地位（2014年5月生效），2015年获富时罗素升级并成为世界交易所联合会正式会员，2016年加入联合国可持续证券交易所倡议。2023年启用基于伦敦证券交易所集团（LSEG）技术的新交易平台，并在QIA支持下设立上限10亿卡塔尔里亚尔的常设做市计划、引入备兑卖空机制。交易所的挂牌发行由卡塔尔金融市场管理局（QFMA）审批，同时承担市场信息披露、投资者教育与金融知识普及职能。",
+  "industries": [
+    "financial_services",
+    "investment"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔证券交易所因此不直接参与APEC机制及其议程。作为海湾地区主要资本市场，交易所通过MSCI、标普道琼斯指数、富时罗素等国际指数体系，以及世界交易所联合会、联合国可持续证券交易所倡议等行业平台，与亚太各经济体的资本市场保持间接联系。其挂牌的电信、银行与工业企业多在亚太区域开展业务，与APEC区域的贸易投资往来存在客观关联。",
+  "profile": {
+    "source_url": "https://www.qe.com.qa/historical-background",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q1648198",
-      "https://www.qe.com.qa/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "Phase 3丰富化：历史沿革、板块结构核自官网历史背景页；董事会构成（2025年2月QIA改组）核自官网董事会页与新闻报道；近期事件核自WFE首席执行官访谈、卡塔尔通讯社（QNA）及发行人新闻稿；管理层3人均未在_name_index.json中，person_id为null待P4回填；原brief与description字段的有效内容已并入core_business后删除",
+    "quotes": [
+      {
+        "title": "QSE Historical Background（卡塔尔证券交易所官网）",
+        "url": "https://www.qe.com.qa/historical-background"
+      },
+      {
+        "title": "Board of Directors（卡塔尔证券交易所官网）",
+        "url": "https://www.qe.com.qa/board-of-directors"
+      },
+      {
+        "title": "Qatar Stock Exchange Reviews 2025 and Sets Its Course for 2026（世界交易所联合会Focus，CEO访谈）",
+        "url": "https://focus.world-exchanges.org/articles/qanda-ceo-qatar2026"
+      },
+      {
+        "title": "Qatar Stock Exchange appoints new CEO（The Peninsula Qatar）",
+        "url": "https://thepeninsulaqatar.com/article/17/03/2025/qatar-stock-exchange-appoints-new-ceo"
+      },
+      {
+        "title": "QSE Announces Completion Of The First Fully Marketed Secondary Public Offering For Ooredoo（Mondo Visione）",
+        "url": "https://mondovisione.com/media-and-resources/news/qatar-stock-exchange-announces-the-completion-of-the-first-fully-marketed-second-20251120/"
+      },
+      {
+        "title": "Ahli Bank Lists First Locally Issued Corporate Bond（卡塔尔通讯社QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-11/24/ahli-bank-lists-first-locally-issued-corporate-bond-in-boost-for-capital-market-development"
+      },
+      {
+        "title": "Mosanada FMS Completes Its Successful Direct Listing on the QSE Main Market（Mosanada新闻稿）",
+        "url": "https://www.mosanada.qa/mosanada-facilities-management-services-q-p-s-c-completes-its-successful-direct-listing-on-the-qatar-stock-exchange-main-market/"
+      },
+      {
+        "title": "QSE Lists QIIB Sukuk as the First Islamic Sukuk in Its History（QIIB新闻稿）",
+        "url": "https://www.qiib.com.qa/Press/Details/533"
+      },
+      {
+        "title": "QSE Lists Qatar's First Green Sukuk Issued by AlRayan Bank（卡塔尔通讯社QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-2/9/qse-lists-qatars-first-green-sukuk-issued-by-alrayan-bank"
+      },
+      {
+        "title": "QIA arm Qatar Holding buys NYSE Euronext out of QE（Gulf Times）",
+        "url": "https://www.gulf-times.com/story/367448/qia-arm-qatar-holding-buys-nyse-euronext-out-of-qe"
+      },
+      {
+        "title": "Qatar Stock Exchange - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Stock_Exchange"
+      }
+    ]
   }
 }

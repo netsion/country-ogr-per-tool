@@ -4,44 +4,234 @@
     "name_original": "بنك قطر للتنمية",
     "name_zh": "卡塔尔发展银行",
     "name_en": "Qatar Development Bank",
-    "aliases": [],
+    "aliases": [
+      "QDB",
+      "Qatar Industrial Development Bank",
+      "بنك قطر للتنمية"
+    ],
     "org_type": "FIN",
     "org_subtype": "commercial_bank",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1997-00-00",
-    "website": "http://www.qdb.com.qa/",
+    "founded_date": "1997-01-01",
+    "website": "https://www.qdb.qa/",
     "wikidata_qid": "Q7267099"
   },
   "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "QDBQA",
+      "url": "https://x.com/QDBQA",
+      "source": "official_x_account"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "qdb.qa",
+      "url": "https://www.instagram.com/qdb.qa/",
+      "source": "instagram_official_account"
+    },
     {
       "platform": "linkedin",
       "account_name": "qatar-development-bank",
       "url": "https://www.linkedin.com/company/qatar-development-bank",
       "source": "linkedin_search"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "QatarDevelopmentBank",
+      "url": "https://www.facebook.com/QatarDevelopmentBank",
+      "source": "facebook_official_account"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔国营发展金融机构",
-  "industries": [
-    "banking"
+  "digital_assets": [
+    {
+      "name": "国家融资门户TAMKEEN平台",
+      "url": "https://www.nfg.qa/",
+      "description": "QDB牵头开发、在卡塔尔中央银行指导下于2025年11月上线的全国统一商业融资数字平台，汇集卡塔尔主要银行，简化企业融资申请流程",
+      "source": "https://www.qdb.qa/about/news/news/qdb-unveils-nfg-tamkeen"
+    },
+    {
+      "name": "Startup Qatar投资计划官方页面",
+      "url": "https://www.qdb.qa/Financing-And-Funding/Equity-And-Investment/Startup-Qatar-Investment-Program",
+      "description": "QDB旗下面向科技初创企业的股权投资计划页面，为设立或扩张阶段的初创公司提供融资，初创阶段融资上限400万卡塔尔里亚尔、扩张阶段2000万卡塔尔里亚尔",
+      "source": "https://www.qdb.qa/Financing-And-Funding/Equity-And-Investment/Startup-Qatar-Investment-Program"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔国营发展金融机构",
-  "brief": "Bank of Qatar",
+  "key_people": [
+    {
+      "person_id": "QA-PERSON-000007",
+      "name": "阿里·本·艾哈迈德·库瓦里 (Ali bin Ahmed Al Kuwari)",
+      "title": "董事长",
+      "title_description": "兼任卡塔尔财政大臣（2021年10月就职）、卡塔尔国家银行（QNB）董事长",
+      "description": "拥有30余年银行业与政府工作经验，2013至2018年担任卡塔尔国家银行集团首席执行官；2021年10月起出任卡塔尔财政大臣，同时担任QNB及QDB董事长，并为卡塔尔投资局董事会成员"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜拉赫曼·本·希沙姆·阿勒苏瓦迪 (Abdulrahman bin Hesham Al-Sowaidi)",
+      "title": "首席执行官 (Chief Executive Officer)",
+      "title_description": "主持银行日常经营，主导与卡塔尔第三次国家发展战略相衔接的2025-2030年新战略",
+      "description": "2022年前后以代理首席执行官身份主持QDB工作，后正式出任首席执行官；多次代表QDB出席Web Summit Qatar等创业活动，阐述卡塔尔初创企业与风险投资生态的发展规划"
+    },
+    {
+      "person_id": null,
+      "name": "艾哈迈德·本·穆罕默德·阿勒赛义德 (Ahmed bin Mohammed Al Sayed)",
+      "title": "董事会成员",
+      "title_description": "卡塔尔国务部长兼自由区管理局主席",
+      "description": "曾任卡塔尔投资局（QIA）首席执行官，现任卡塔尔国务部长、自由区管理局主席，并任QDB董事会成员"
+    },
+    {
+      "person_id": null,
+      "name": "萨乌德·本·阿卜杜拉·阿勒阿提亚 (Saud bin Abdullah Al Attiyah)",
+      "title": "董事会成员",
+      "title_description": "卡塔尔财政部经济事务副次大臣",
+      "description": "作为财政部代表进入QDB董事会，参与银行战略与治理决策"
+    }
+  ],
+  "departments": [
+    {
+      "name": "融资业务板块",
+      "dept_id": null,
+      "head": null,
+      "description": "通过直接贷款、间接融资以及信贷担保计划（Al Dhameen升级版，初始担保额度30亿里亚尔）、Istithmar股权融资、绿色融资等计划支持企业设立与扩张；2025年融资组合达73亿卡塔尔里亚尔，服务企业630余家",
+      "parent_dept_id": null
+    },
+    {
+      "name": "卡塔尔出口局 (Qatar Exports)",
+      "dept_id": null,
+      "head": null,
+      "description": "QDB旗下出口促进机构（前身为Tasdeer），提供出口融资、出口保险、国际化融资计划、海外项目融资及买方信贷；2025年支持出口额28.5亿里亚尔，惠及425余家企业，并在沙特阿拉伯设立首个区域办事处",
+      "parent_dept_id": null
+    },
+    {
+      "name": "投资板块",
+      "dept_id": null,
+      "head": null,
+      "description": "通过Startup Qatar投资计划等开展直接与间接股权投资，2025年投资组合逾3.5亿里亚尔，投资60余家本地及国际初创企业，并与国际加速器和投资基金建立合作",
+      "parent_dept_id": null
+    },
+    {
+      "name": "创业孵化与加速板块",
+      "dept_id": null,
+      "head": null,
+      "description": "运营卡塔尔商业孵化中心（QBIC）、Scale7创意文化产业中心等孵化加速项目，2025年共有133家企业加入孵化与加速计划，3100余人次接受专项培训",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-01-04",
+      "title": "QDB公布2025年度业绩：融资与投资规模创新高",
+      "description": "QDB发布2025年关键业绩：融资承诺总额同比增长5%、服务630余家企业，融资组合达73亿卡塔尔里亚尔，其中直接放款20亿里亚尔（同比增30%）；出口支持额28.5亿里亚尔（同比增15%），撮合出口订单超75亿里亚尔（同比增341%）；近2100家企业受益于其金融与咨询服务，并与沙特国家债务管理中心签署首份谅解备忘录，将向沙特机构提供逾36亿里亚尔授信",
+      "impact": "反映新战略首年私人部门融资需求旺盛，巩固QDB在卡塔尔中小企业融资、投资与出口促进中的核心地位",
+      "source": "https://www.qdb.qa/about/news/news/achievements-2025"
+    },
+    {
+      "date": "2026-02-03",
+      "title": "QDB首席执行官介绍Startup Qatar投资计划扩容并发布风险投资报告",
+      "description": "在Web Summit Qatar 2026期间，首席执行官阿勒苏瓦迪接受卡塔尔通讯社专访表示，Startup Qatar投资计划目标组合规模将提升至10亿里亚尔，迄今已向来自15个国家的40余家初创企业投资近1.5亿里亚尔；QDB与MAGNiTT联合发布的2025年风险投资报告显示，卡塔尔2025年风险投资额达2.14亿里亚尔，同比增长81%，交易数量与投资额均居中东北非地区第四",
+      "impact": "凸显QDB在卡塔尔打造区域初创与风险投资中心进程中的融资主力角色",
+      "source": "https://qna.org.qa/en/news/news-details?id=qna-interview-qdb-chief-executive-unveils-plans-to-expand-start-up-investment-program&date=3/02/2026"
+    },
+    {
+      "date": "2025-11-03",
+      "title": "QDB推出国家融资门户TAMKEEN并升级信贷担保计划",
+      "description": "QDB在卡塔尔中央银行指导下推出全国统一商业融资数字平台「国家融资门户」（TAMKEEN，nfg.qa），将国内主要银行纳入同一平台，简化企业融资申请流程；同时发布Al Dhameen升级版信贷担保计划，初始担保额度30亿里亚尔，鼓励合作银行向本地企业和项目发放贷款",
+      "impact": "改善企业融资可得性，扩大银行体系对本地私人部门的信贷投放",
+      "source": "https://www.qdb.qa/about/news/news/qdb-unveils-nfg-tamkeen"
+    },
+    {
+      "date": "2025-06-17",
+      "title": "QDB开放第四届SME Excellence 2025评选申请",
+      "description": "QDB开放第四届「SME Excellence 2025」评选申请，旨在表彰50家业绩优异且持续增长的中小企业，评审基于2022至2024年经审计财务报表，申请于2025年7月15日截止",
+      "impact": "激励中小企业提升竞争力，支持其进入本地及国际市场",
+      "source": "https://www.qdb.qa/about/news/news/sme-excellence-2025"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-001",
+      "org_name": "卡塔尔中央银行 (مصرف قطر المركزي)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔中央银行；国家融资门户TAMKEEN即在其指导与领导下由QDB牵头开发",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "QA-NGO-001",
+      "org_name": "卡塔尔基金会 (مؤسسة قطر)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔非营利组织；与QDB共同设立贝达雅创业与职业发展中心（Bedaya Center）",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔商业孵化中心 (Qatar Business Incubation Center)",
+      "org_type": "NGO",
+      "org_description": "QDB与社会发展中心于2010年合资设立的创业孵化机构，2014年3月正式运营，为中东地区规模最大的综合孵化器之一",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "沙特国家债务管理中心 (National Debt Management Center)",
+      "org_type": "GOV",
+      "org_description": "沙特阿拉伯政府债务管理机构；2025年与QDB签署首份谅解备忘录，QDB将向沙特机构提供逾36亿里亚尔授信，支持卡塔尔产品与服务出口商参与沙特大型项目",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔发展银行（QDB）是卡塔尔国政府全资拥有的国家开发性金融机构，1997年依据第14号埃米尔法令设立，初名「卡塔尔工业发展银行」，后更为现名，总部位于多哈大哈马德街。银行以落实《卡塔尔国家愿景2030》和经济多元化为目标，主要面向工业、旅游、教育、医疗、农业与渔业等领域的私人部门企业和中小企业提供开发性融资与咨询服务。业务涵盖四大板块：一是融资业务，通过直接贷款、间接融资以及信贷担保计划（Al Dhameen升级版，初始担保额度30亿里亚尔）、Istithmar股权融资、绿色融资等计划支持企业设立与扩张，截至2025年底融资组合达73亿里亚尔，当年服务企业630余家；二是出口促进，旗下出口机构「卡塔尔出口局」（Qatar Exports，前身Tasdeer）提供出口融资、出口保险、国际化融资及海外项目融资，2025年支持出口额28.5亿里亚尔，惠及425余家企业；三是投资业务，通过Startup Qatar投资计划等向初创企业提供股权投资，投资组合逾3.5亿里亚尔，累计投资60余家本地及国际初创企业；四是创业生态建设，运营卡塔尔商业孵化中心（QBIC）、Scale7创意文化产业中心等孵化加速与培训项目。银行另通过Binaa国家平台发放公民住房贷款，2025年发放逾10亿里亚尔。董事会由财政大臣阿里·本·艾哈迈德·库瓦里出任主席，首席执行官为阿卜杜拉赫曼·本·希沙姆·阿勒苏瓦迪，现正实施与卡塔尔第三次国家发展战略相衔接的2025-2030年战略。",
+  "industries": [
+    "banking",
+    "financial_services",
+    "investment",
+    "venture_capital",
+    "trade_finance"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，QDB作为卡塔尔的国家开发性金融机构，不直接参与APEC框架下的合作进程。但卡塔尔与亚太经济体经贸往来密切，QDB通过出口融资与出口保险支持卡塔尔企业拓展包括亚太市场在内的138个全球市场，其Startup Qatar投资计划收到来自全球65个以上国家和地区的申请，所服务的初创企业与中小企业群体构成卡塔尔参与亚太区域经贸联系的微观基础之一。",
+  "profile": {
+    "source_url": "https://www.qdb.qa/about/about-qdb",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q7267099",
-      "http://www.qdb.com.qa/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 91,
+    "notes": "Phase 3丰富化：官网核对更正website为qdb.qa；董事会与CEO信息核自官网board-of-directors页及QDB官方新闻（2026-01-04年度业绩、2025-11-03 TAMKEEN发布）；核心业务数据核自QDB 2025年度业绩公告与QNA专访；原brief/description（「Bank of Qatar」/「卡塔尔国营发展金融机构」）已并入core_business并删除。key_people中除董事长（QA-PERSON-000007，已匹配_name_index）外，CEO阿勒苏瓦迪、董事会成员阿勒赛义德、阿勒阿提亚在_name_index.json中无对应记录，person_id为null待P4回填",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Qatar Development Bank - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Development_Bank"
+      },
+      {
+        "title": "QDB Board of Directors（官方网站）",
+        "url": "https://www.qdb.qa/en/board-of-directors"
+      },
+      {
+        "title": "QDB Records Exceptional Year in Empowering Private Sector（2025年度业绩）",
+        "url": "https://www.qdb.qa/about/news/news/achievements-2025"
+      },
+      {
+        "title": "QDB Unveils National Funding Gate (TAMKEEN)",
+        "url": "https://www.qdb.qa/about/news/news/qdb-unveils-nfg-tamkeen"
+      },
+      {
+        "title": "QNA Interview: QDB Chief Executive Unveils Plans to Expand Start-Up Investment Program",
+        "url": "https://qna.org.qa/en/news/news-details?id=qna-interview-qdb-chief-executive-unveils-plans-to-expand-start-up-investment-program&date=3/02/2026"
+      },
+      {
+        "title": "QDB Opens Applications for 4th Edition of SME Excellence 2025",
+        "url": "https://www.qdb.qa/about/news/news/sme-excellence-2025"
+      },
+      {
+        "title": "Minister of Finance - His Excellency Ali bin Ahmed Al Kuwari（卡塔尔通讯政府办公室）",
+        "url": "https://www.gco.gov.qa/en/state-of-qatar/state-institutions/council-of-ministers/members-of-the-cabinet/minister-of-finance/"
+      }
+    ]
   }
 }

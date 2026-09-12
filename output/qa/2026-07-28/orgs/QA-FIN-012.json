@@ -1,39 +1,260 @@
 {
   "org_id": "QA-FIN-012",
   "basic_info": {
-    "name_original": "1 vs. 100",
+    "name_original": "البنك التجاري القطري",
     "name_zh": "卡塔尔商业银行",
-    "name_en": "1 vs. 100",
-    "aliases": [],
+    "name_en": "Commercial Bank of Qatar",
+    "aliases": [
+      "Commercial Bank",
+      "The Commercial Bank of Qatar (P.S.Q.C.)",
+      "CBQ",
+      "بنك التجارة"
+    ],
     "org_type": "FIN",
     "org_subtype": "commercial_bank",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": null,
-    "website": null,
-    "wikidata_qid": "Q2813524"
+    "founded_date": "1975-04-01",
+    "website": "https://www.cbq.com.qa/",
+    "wikidata_qid": "Q23043278"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔第二大商业银行",
-  "industries": [
-    "banking"
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "cbqat",
+      "url": "https://x.com/cbqat/",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "cbqat",
+      "url": "https://www.instagram.com/cbqat/",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "cbqat",
+      "url": "https://www.facebook.com/cbqat",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "cbqat",
+      "url": "https://www.linkedin.com/company/cbqat",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "@CommercialBankQA",
+      "url": "https://www.youtube.com/@CommercialBankQA",
+      "source": "official_website"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔第二大商业银行",
-  "brief": "online Xbox game",
+  "digital_assets": [
+    {
+      "name": "商业银行官方网站",
+      "url": "https://www.cbq.com.qa",
+      "description": "银行官方网站（另有cbq.qa域名），提供个人银行、企业银行、财富管理产品与数字化服务资讯",
+      "source": "https://www.cbq.com.qa"
+    },
+    {
+      "name": "商业银行投资者关系与财务报告资料",
+      "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/financial-reports-en/2026/q1/investor-presentation---q1-2026.pdf",
+      "description": "2026年第一季度投资者演示材料（PDF），涵盖集团财务业绩、资产负债结构与战略执行情况",
+      "source": "https://www.cbq.com.qa/en/about-us/news"
+    },
+    {
+      "name": "官方『关于我们』历史与子公司介绍页",
+      "url": "https://www.cbq.com.qa/en/about-us/who-we-are/our-history",
+      "description": "以时间线呈现银行1974年章程设立、1975年4月开业以来收购Alternatif银行、数字化创新等发展历程",
+      "source": "https://www.cbq.com.qa/en/about-us/who-we-are/our-history"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·阿卜杜拉·本·阿里·本·贾博尔·阿勒萨尼 (Sheikh Abdulla bin Ali bin Jabor Al Thani)",
+      "title": "董事长",
+      "title_description": "2023年3月年度股东大会选举出任，主持董事会工作",
+      "description": "商业银行创始首任董事长谢赫·阿里·本·贾博尔·阿勒萨尼之子；2023年3月15日在年度股东大会上当选董事长并连任至今；在2026年第一季度及上半年业绩公告中以董事长身份代表银行发声，强调稳健治理、资产负债表韧性及与卡塔尔2030国家愿景对接的2026-2030年战略执行"
+    },
+    {
+      "person_id": null,
+      "name": "奥马尔·侯赛因·阿尔法丹 (Omar Hussain Alfardan)",
+      "title": "副董事长兼董事总经理",
+      "title_description": "创始股东家族代表，主管战略执行与董事会执行委员会事务",
+      "description": "银行创始股东侯赛因·易卜拉欣·阿尔法丹之子，阿尔法丹家族企业集团总裁；2023年3月起任董事总经理，现任副董事长兼董事总经理；兼任土耳其全资子公司Alternatif银行董事长，并为卡塔尔商人协会成员"
+    },
+    {
+      "person_id": null,
+      "name": "斯蒂芬·莫斯 (Stephen Moss)",
+      "title": "集团首席执行官",
+      "title_description": "2025年8月出任，负责全行业务运营与战略落地",
+      "description": "英国籍银行家、英国特许会计师协会(ICAEW)特许会计师；在汇丰集团任职逾30年，官至汇丰中东北非及土耳其区行政总裁，并曾为汇丰集团执行委员会成员；2025年8月起出任商业银行集团首席执行官，同年9月起兼任Alternatif银行副董事长"
+    }
+  ],
+  "departments": [
+    {
+      "name": "零售与财富管理业务板块",
+      "dept_id": null,
+      "head": null,
+      "description": "涵盖零售银行、高端银行(Premium Banking)、财富管理与私人银行服务，以顾问主导的财富管理业务和数字化渠道服务大众富裕及私人银行客群",
+      "parent_dept_id": null
+    },
+    {
+      "name": "批发银行业务板块",
+      "dept_id": null,
+      "head": null,
+      "description": "面向企业与机构客户提供公司银行、交易银行、现金管理与支付处理等服务，核心领域信贷组合持续增长",
+      "parent_dept_id": null
+    },
+    {
+      "name": "司库与投资业务板块",
+      "dept_id": null,
+      "head": null,
+      "description": "负责资产负债、流动性与资金管理，运营高质量投资证券组合（2026年6月末约413亿里亚尔，按年增长15.4%）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数字银行与技术服务板块",
+      "dept_id": null,
+      "head": null,
+      "description": "推进数字化与人工智能转型，运营CB手机银行、CB Pay等数字产品；通过卡塔尔金融中心旗下子公司CB创新服务公司(CB Innovation Services LLC)提供运营管理服务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-03-15",
+      "title": "年度股东大会改选董事会：谢赫·阿卜杜拉当选董事长",
+      "description": "商业银行举行年度股东大会，选举谢赫·阿卜杜拉·本·阿里·本·贾博尔·阿勒萨尼为董事长，侯赛因·易卜拉欣·阿尔法丹为副董事长，奥马尔·侯赛因·阿尔法丹为董事总经理；会议批准每股0.25里亚尔现金分红，并选出11名董事会成员，股东代表涵盖阿尔法丹投资、Al Gassar资本、卡塔尔保险公司等",
+      "impact": "确立现任董事会与管理层架构，此后银行治理格局保持稳定",
+      "source": "https://www.qatar-tribune.com/article/55413/business/sheikh-abdulla-elected-commercial-bank-chairman"
+    },
+    {
+      "date": "2025-01-22",
+      "title": "公布2024年度业绩：净利润30.32亿里亚尔",
+      "description": "集团公布截至2024年12月31日止年度业绩：合并净利润30.321亿里亚尔，按年增长0.7%，主要受运营成本下降等因素带动；总资产1658亿里亚尔，较2023年末增长0.9%",
+      "impact": "盈利与资产规模保持平稳，为2025年银行成立50周年节点奠定经营基础",
+      "source": "https://thepeninsulaqatar.com/article/22/01/2025/commercial-bank-reports-financial-year-2024-net-profit-of-qr30321m"
+    },
+    {
+      "date": "2026-01-18",
+      "title": "公布2025年度业绩：税后净利润22.05亿里亚尔同比下降27.3%",
+      "description": "集团公布2025年度业绩：计提BEPS第二支柱(Pillar Two)国际税项前净利润23.844亿里亚尔，按年下降21.4%；税后净利润22.049亿里亚尔，下降27.3%；总资产增至1929亿里亚尔。集团并于2026年1月发布2026年至2030年新一阶段发展战略",
+      "impact": "国际税改带来的税项计提与拨备因素压低账面利润；新战略阶段启动",
+      "source": "https://qna.org.qa/en/news/news-details?id=commercial-banks-net-profit-drops-by-273-percent-in-2025&date=18/01/2026"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "公布2026年第一季度业绩：总资产同比增长12.8%",
+      "description": "集团公布2026年第一季度业绩：第二支柱税前净利润5.383亿里亚尔，税后净利润5.014亿里亚尔（按年下降约23%）；净营业收入按年增长7.6%至12.168亿里亚尔；总资产1906亿里亚尔，按年增长12.8%；期间成功再发行5亿美元额外一级资本(AT1)证券，资本充足率升至18.4%；土耳其子公司受超通胀会计影响报告亏损",
+      "impact": "资本与流动性保持强劲，息费收入增长部分被拨备与税项计提抵消",
+      "source": "https://thepeninsulaqatar.com/article/14/04/2026/commercial-bank-reports-q1-2026-net-profit-before-pillar-two-tax-of-qr5383m"
+    },
+    {
+      "date": "2026-07-26",
+      "title": "公布2026年上半年业绩：第二支柱税前净利润10.83亿里亚尔",
+      "description": "集团公布截至2026年6月30日止六个月业绩：第二支柱税前净利润10.830亿里亚尔，净营业收入按年增长9.4%至24.594亿里亚尔，净利息收入增长14.4%；计提第二支柱税6930万里亚尔后，税后净利润10.137亿里亚尔；总资产1845亿里亚尔，较2025年6月末增长1.4%；客户存款851亿里亚尔；土耳其Alternatif银行恢复经营性盈利，超通胀会计后仍报告2820万里亚尔账面亏损",
+      "impact": "核心收入动能增强，全年拨备节奏趋于均衡；2026-2030年战略持续推进",
+      "source": "https://thepeninsulaqatar.com/article/27/07/2026/commercial-bank-net-profit-before-pillar-two-tax-reaches-qr10830m-in-h1"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-001",
+      "org_name": "卡塔尔中央银行 (Qatar Central Bank)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔中央银行，负责卡塔尔银行业监管与货币政策，商业银行在其监管框架下运营",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "QA-FIN-007",
+      "org_name": "卡塔尔证券交易所 (Qatar Stock Exchange)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔全国证券交易所；商业银行作为公众持股公司在其主板上市（股票代码PSQC），该行另通过全资子公司提供证券经纪服务",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "Alternatif银行 (Alternatif Bank)",
+      "org_type": "FIN",
+      "org_description": "总部位于土耳其伊斯坦布尔的商业银行；2013年成为商业银行多数股权子公司（持股74.24%），2016年底成为100%全资子公司；受土耳其超通胀会计影响，2026年上半年为集团贡献经营性盈利但报告账面亏损",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "商业银行金融服务公司 (Commercial Bank Financial Services LLC)",
+      "org_type": "FIN",
+      "org_description": "商业银行全资子公司，提供卡塔尔证券交易所直接接入、网上交易与经纪服务",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "卡塔尔商业银行（The Commercial Bank of Qatar (P.S.Q.C.)，通称Commercial Bank）是卡塔尔首家私立银行，1975年4月在多哈由侯赛因·阿尔法丹等本地商人发起创立，首任董事长为谢赫·阿里·本·贾博尔·阿勒萨尼，创办初期依据与大通曼哈顿银行的管理服务合同开展运营。银行现为在卡塔尔证券交易所主板上市的公众持股公司（股票代码PSQC），2008年成为首家在伦敦证券交易所发行全球存托凭证(GDR)的卡塔尔企业；据市场披露，卡塔尔投资局旗下Qatar Holding LLC为其重要股东（持股约16.7%）。总行设于多哈大哈马德街商业银行广场（2009年启用）。业务覆盖零售与高端银行、财富管理与私人银行、企业与批发银行、交易银行与现金管理、司库与投资等板块，并通过CB手机银行、CB Pay等数字产品推进数字化与人工智能转型。银行在卡塔尔市场多项服务居先，包括1990年率先引入自动柜员机(ATM)，随后率先推出POS机具与消费互联网银行服务。集团层面全资持有土耳其Alternatif银行（2016年底起100%持股），并在卡塔尔金融中心设有证券经纪（商业银行金融服务公司）、资产管理、创新服务、不动产顾问及融资租赁等多家全资子公司。截至2025年末，集团总资产约1929亿里亚尔，2024年度净利润30.32亿里亚尔。",
+  "industries": [
+    "banking",
+    "financial_services",
+    "investment"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，作为卡塔尔本土商业银行，其不直接参与APEC框架下的经贸磋商与合作进程。该行的贸易金融、跨境支付与资金管理等业务依托卡塔尔与亚太经济体之间的贸易投资往来展开，经营战略与卡塔尔2030国家愿景相对接。通过全资子公司土耳其Alternatif银行，其业务网络亦延伸至连接欧亚市场的土耳其。",
+  "profile": {
+    "source_url": "https://www.cbq.com.qa/en/about-us/who-we-are",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2813524"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "P3丰富化：修正wikidata_qid（原Q2813524为电子游戏『1 vs. 100』，非本机构）为Q23043278；原顶层非标准字段brief（内容为错误QID残留）已删除、description（卡塔尔第二大商业银行）中的机构定位并入core_business并改用可验证表述；key_people三人的person_id均为null（_name_index.json中无匹配，待P4回填）；Qatar Holding LLC持股比例约16.7%来自债券发行说明书及媒体数据",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Commercial Bank of Qatar - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Commercial_Bank_of_Qatar"
+      },
+      {
+        "title": "البنك التجاري القطري - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/البنك_التجاري_القطري"
+      },
+      {
+        "title": "Our History - Commercial Bank官方网站",
+        "url": "https://www.cbq.com.qa/en/about-us/who-we-are/our-history"
+      },
+      {
+        "title": "Subsidiaries - Commercial Bank官方网站",
+        "url": "https://www.cbq.com.qa/en/about-us/who-we-are/subsidiaries"
+      },
+      {
+        "title": "Sheikh Abdulla elected Commercial Bank chairman (Qatar Tribune)",
+        "url": "https://www.qatar-tribune.com/article/55413/business/sheikh-abdulla-elected-commercial-bank-chairman"
+      },
+      {
+        "title": "Commercial Bank reports FY2024 net profit of QR3,032.1m (The Peninsula)",
+        "url": "https://thepeninsulaqatar.com/article/22/01/2025/commercial-bank-reports-financial-year-2024-net-profit-of-qr30321m"
+      },
+      {
+        "title": "Commercial Bank's Net Profit Drops by 27.3 Percent in 2025 (QNA卡塔尔通讯社)",
+        "url": "https://qna.org.qa/en/news/news-details?id=commercial-banks-net-profit-drops-by-273-percent-in-2025&date=18/01/2026"
+      },
+      {
+        "title": "Commercial Bank reports Q1 2026 net profit before Pillar Two Tax of QR538.3m (The Peninsula)",
+        "url": "https://thepeninsulaqatar.com/article/14/04/2026/commercial-bank-reports-q1-2026-net-profit-before-pillar-two-tax-of-qr5383m"
+      },
+      {
+        "title": "Commercial Bank H1 2026 results (The Peninsula)",
+        "url": "https://thepeninsulaqatar.com/article/27/07/2026/commercial-bank-net-profit-before-pillar-two-tax-reaches-qr10830m-in-h1"
+      },
+      {
+        "title": "About Commercial Bank - Alternatif Bank官网",
+        "url": "https://www.alternatifbank.com.tr/en/about-us/alternatif-bank/about-commercial-bank"
+      }
+    ]
   }
 }

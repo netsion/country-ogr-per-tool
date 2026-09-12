@@ -4,12 +4,17 @@
     "name_original": "نادي السيلية",
     "name_zh": "塞利亚体育俱乐部",
     "name_en": "Al-Sailiya Sports Club",
-    "aliases": [],
+    "aliases": [
+      "Al-Sailiya SC",
+      "نادي السيلية الرياضي",
+      "Al-Qadsiyah Sports Club",
+      "نادي القادسية الرياضي"
+    ],
     "org_type": "CORP",
     "org_subtype": "private_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1995-00-00",
+    "founded_date": "1995-10-10",
     "website": "https://alsailiya.qa/",
     "wikidata_qid": "Q812719"
   },
@@ -18,36 +23,205 @@
       "platform": "twitter_x",
       "account_name": "AlSailiyaclub",
       "url": "https://x.com/AlSailiyaclub",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "alsailiyasportclub",
       "url": "https://www.instagram.com/alsailiyasportclub/",
-      "source": "instagram_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Alsailiyasportclub",
+      "url": "https://www.facebook.com/Alsailiyasportclub/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Al-Sailiya club",
+      "url": "https://www.youtube.com/channel/UCEvW67lX7sI-pT9PumlhzFA",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔职业足球俱乐部",
-  "industries": [
-    "industrial_manufacturing"
+  "digital_assets": [
+    {
+      "name": "俱乐部官方网站新闻中心",
+      "url": "https://alsailiya.qa/category/clubnews/",
+      "description": "俱乐部官方新闻与公告发布渠道，刊发会员大会通知、球队动态等官方信息",
+      "source": "https://alsailiya.qa/"
+    },
+    {
+      "name": "俱乐部官网历史与荣誉页",
+      "url": "https://alsailiya.qa/%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae-%d9%88-%d8%a3%d8%b3%d8%a7%d8%b7%d9%8a%d8%b1/",
+      "description": "介绍俱乐部1995年以卡迪西亚体育俱乐部之名成立、2003年更名及自有体育设施等历史沿革",
+      "source": "https://alsailiya.qa/"
+    },
+    {
+      "name": "俱乐部官网成就页",
+      "url": "https://alsailiya.qa/%d8%a7%d9%84%d8%a5%d9%86%d8%ac%d8%a7%d8%b2%d8%a7%d8%aa/",
+      "description": "汇总俱乐部历年所获联赛及杯赛荣誉的官方页面",
+      "source": "https://alsailiya.qa/"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔职业足球俱乐部",
-  "brief": "association football club",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "穆罕默德·阿里·马里 (محمد علي المري)",
+      "title": "俱乐部主席 (رئيس النادي)",
+      "title_description": "俱乐部主要负责人，代表俱乐部对外表态并主持会员大会",
+      "description": "博士。2025年4月以俱乐部主席身份接受卡塔尔通讯社采访，谈及球队夺得2024-25赛季卡塔尔乙级联赛冠军并重返卡塔尔之星联赛；2026年6月会员大会期间宣布续信任教练团队并公布新赛季计划；2021年5月俱乐部官网文章记载其当时任俱乐部首席执行官兼副主席"
+    },
+    {
+      "person_id": null,
+      "name": "米尔加尼·扎因 (ميرغني الزين)",
+      "title": "一线队主教练 (مدرب الفريق الأول)",
+      "title_description": "2023年3月起执教一线队，2026年6月获俱乐部续信任",
+      "description": "球员时代于2012年至2019年效力塞利亚俱乐部，退役后考取多项卡塔尔国内及亚洲教练资格；2023年3月在2022-23赛季末段接替萨米·特拉贝尔西出任一线队主教练，2024-25赛季率队夺得卡塔尔乙级联赛冠军并升级，2025-26赛季率队保级成功"
+    }
+  ],
+  "departments": [
+    {
+      "name": "一线队 (الفريق الأول)",
+      "dept_id": null,
+      "head": "米尔加尼·扎因 (ميرغني الزين)",
+      "description": "参加卡塔尔之星联赛（卡塔尔顶级足球联赛）的职业一线队及教练团队，主场比赛主要使用多哈哈马德·本·哈利法体育场",
+      "parent_dept_id": null
+    },
+    {
+      "name": "行政与技术部门 (الجهاز الإداري و الفني)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责俱乐部日常行政管理、球队后勤与技术保障，俱乐部官网设有专门栏目介绍该部门",
+      "parent_dept_id": null
+    },
+    {
+      "name": "青少年梯队 (الفئات السنية)",
+      "dept_id": null,
+      "head": null,
+      "description": "俱乐部各年龄段青少年球队，承担青训与后备人才培养职能；2025年10月俱乐部主席曾邀请梯队球员及教练到场观赛",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-03-01",
+      "title": "米尔加尼·扎因出任一线队主教练",
+      "description": "据俱乐部官网介绍，米尔加尼·扎因于2023年3月在2022-23赛季卡塔尔之星联赛末段接替突尼斯籍教练萨米·特拉贝尔西，出任一线队主教练；他球员时代曾于2012年至2019年效力塞利亚",
+      "impact": "球队完成赛季内换帅，为其后两个赛季的重建与升级奠定教练组基础",
+      "source": "https://alsailiya.qa/%d8%a7%d9%84%d8%ac%d9%87%d8%a7%d8%b2-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d9%8a-%d9%88-%d8%a7%d9%84%d9%81%d9%86%d9%8a/"
+    },
+    {
+      "date": "2023-05-10",
+      "title": "2022-23赛季末轮落败，降入卡塔尔乙级联赛",
+      "description": "卡塔尔之星联赛2022-23赛季末轮，塞利亚负于沃克拉体育俱乐部，赛季积16分位居积分榜末位，正式降入卡塔尔乙级联赛（卡塔尔通讯社报道）",
+      "impact": "球队退出顶级联赛，进入为期两个赛季的重建期",
+      "source": "https://www.qna.org.qa/ar-QA/News-Area/News/2023-05/10/0036-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A-%D8%A7%D9%84%D8%AF%D8%AD%D9%8A%D9%84-%D9%8A%D8%B5%D8%B9%D8%AF-%D9%84%D9%84%D8%AA%D8%AA%D9%88%D9%8A%D8%AC-%D9%88%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%86-%D8%A8%D9%88%D8%B5%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D9%84%D9%8A%D8%A9-%D9%8A%D8%AD%D8%AC%D8%B2-%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D8%A8%D9%88%D8%B7"
+    },
+    {
+      "date": "2025-04-17",
+      "title": "夺得2024-25赛季卡塔尔乙级联赛冠军并升级",
+      "description": "乙级联赛末轮塞利亚1-0击败沃卜，以冠军身份时隔两个赛季重返卡塔尔之星联赛；主席穆罕默德·阿里·马里对卡塔尔通讯社表示，这一成就是全队整季努力与针对性引援的结果（卡塔尔《消息报》刊载）",
+      "impact": "俱乐部重返国内顶级足球联赛",
+      "source": "https://al-sharq.com/article/17/04/2025/%D8%B1%D8%A6%D9%8A%D8%B3-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B3%D9%8A%D9%84%D9%8A%D8%A9-%D9%8A%D8%B9%D9%84%D9%82-%D8%B9%D9%84%D9%89-%D8%B5%D8%B9%D9%88%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82%D9%84%D9%84%D8%AF%D8%B1%D8%AC%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89"
+    },
+    {
+      "date": "2025-06-22",
+      "title": "2025-26赛季卡塔尔之星联赛赛程公布，塞利亚参加揭幕战",
+      "description": "卡塔尔之星联赛公布2025-26赛季初步赛程，联赛于8月14日揭幕，升班马塞利亚首轮在艾哈迈德·本·阿里体育场对阵莱扬体育俱乐部（Doha News报道）",
+      "impact": "俱乐部正式重返顶级联赛舞台",
+      "source": "https://dohanews.co/qatar-stars-league-confirms-initial-fixtures-start-date-for-2025-26-season/"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "召开2025-2026赛季会员大会并公布2026-27赛季备战计划",
+      "description": "俱乐部于2026年6月28日召开2025-2026赛季会员大会（6月10日官网公告预告）；据Al Kass报道，主席穆罕默德·阿里·马里在大会期间宣布继续信任主教练米尔加尼·扎因领衔的教练与行政团队，确认球队已实现2025-26赛季保级目标，并公布新赛季计划：7月18日起赴奥地利开展为期三周的季前集训，补充本土球员并保留外籍球员",
+      "impact": "管理层与教练组保持稳定，俱乐部以保级为基础推进2026-27赛季备战",
+      "source": "https://www.alkass.net/news_details?news_id=179484"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-011",
+      "org_name": "卡塔尔足球协会 (الاتحاد القطري لكرة القدم)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球运动管理机构，组织国内各级联赛及杯赛；塞利亚俱乐部为其会员俱乐部，参加其主办的赛事体系",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔之星联赛基金会 (مؤسسة دوري نجوم قطر)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔顶级足球联赛（卡塔尔之星联赛，现冠名多哈银行之星联赛）的运营机构，塞利亚俱乐部为其参赛会员；2021年时任俱乐部首席执行官穆罕默德·阿里·马里曾代表卡塔尔俱乐部公司竞选其执行局成员席位",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "QA-CORP-017",
+      "org_name": "阿赫利体育俱乐部 (نادي الأهلي)",
+      "org_type": "CORP",
+      "org_description": "多哈综合性体育俱乐部；塞利亚因自有球场容量与设施有限，通常以其境内的哈马德·本·哈利法体育场作为正式比赛主场",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "塞利亚体育俱乐部（نادي السيلية الرياضي）是一家位于卡塔尔首都多哈的职业足球俱乐部，现参加卡塔尔顶级足球联赛——卡塔尔之星联赛。俱乐部于1995年10月10日以「卡迪西亚体育俱乐部」（Al-Qadsiyah Sports Club）之名成立，2003年起改用现名，是卡塔尔较年轻的俱乐部之一，官网球迷板块以「沙欣」（الشواهين）为标识。竞技成绩方面，俱乐部历史上五夺卡塔尔乙级联赛冠军（2002-03、2004-05、2006-07、2011-12、2024-25赛季），三次夺得卡塔尔乙级联赛杯（1998、2005、2011），并在2020-21、2021-22赛季连夺卡塔尔球星杯（Qatari Stars Cup），2020-21赛季夺得卡塔尔足协杯（Qatar FA Cup），2014年获卡塔尔埃米尔杯亚军。设施方面，俱乐部自有的塞利亚体育场建于1995年，占地约6万平方米，设座席约1500个并配有两块训练场地及行政办公楼；因容量与配套设施有限，球队通常以多哈哈马德·本·哈利法体育场为主场。治理方面，俱乐部实行会员大会制度，现任主席为穆罕默德·阿里·马里博士，一线队主教练为米尔加尼·扎因；球队于2024-25赛季夺得乙级联赛冠军重返顶级联赛，并在2025-26赛季完成保级，目前立足卡塔尔之星联赛。",
+  "industries": [
+    "sports"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，塞利亚体育俱乐部作为卡塔尔国内职业体育俱乐部，未发现其直接参与APEC进程或相关活动的公开记录。俱乐部运营依托卡塔尔足球协会与卡塔尔之星联赛体系，其国际联系主要体现在亚洲足球赛事参赛以及球员、教练的跨国流动，与APEC贸易投资议程无直接关联。",
+  "profile": {
+    "source_url": "https://alsailiya.qa/%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae-%d9%88-%d8%a3%d8%b3%d8%a7%d8%b7%d9%8a%d8%b1/",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q812719",
-      "https://alsailiya.qa/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 85,
+    "notes": "Phase 3丰富化：wikidata_qid Q812719经核实确为塞利亚体育俱乐部（卡塔尔足球俱乐部），无错绑。成立日期取自英文维基百科（1995年10月10日以卡迪西亚体育俱乐部名义成立，2003年更名）。主席信息说明：阿拉伯语维基百科列出的主席阿卜杜拉·本·赛义德·欧代·马里未见近期报道佐证，而2025年4月至2026年6月卡塔尔通讯社、Al Kass、莱扬报等多家媒体一致以主席身份引述穆罕默德·阿里·马里博士，故按现任收录；其2021年时任CEO兼副主席（俱乐部官网）。主教练信息取自俱乐部官网行政与技术部门页。米尔加尼·扎因的国籍在各来源间存在差异，故未在档案中标注。key_people两人person_id均为null（_name_index.json未收录），待P4回填。",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Al-Sailiya SC - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Al-Sailiya_SC"
+      },
+      {
+        "title": "نادي السيلية - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%B3%D9%8A%D9%84%D9%8A%D8%A9"
+      },
+      {
+        "title": "Q812719 - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q812719"
+      },
+      {
+        "title": "塞利亚俱乐部官网·历史与荣誉页",
+        "url": "https://alsailiya.qa/%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae-%d9%88-%d8%a3%d8%b3%d8%a7%d8%b7%d9%8a%d8%b1/"
+      },
+      {
+        "title": "塞利亚俱乐部官网·行政与技术部门页（主教练信息）",
+        "url": "https://alsailiya.qa/%d8%a7%d9%84%d8%ac%d9%87%d8%a7%d8%b2-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d9%8a-%d9%88-%d8%a7%d9%84%d9%81%d9%86%d9%8a/"
+      },
+      {
+        "title": "رئيس نادي السيلية يعلق على صعود الفريق للدرجة الأولى（卡塔尔消息报，2025-04-17）",
+        "url": "https://al-sharq.com/article/17/04/2025/%D8%B1%D8%A6%D9%8A%D8%B3-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B3%D9%8A%D9%84%D9%8A%D8%A9-%D9%8A%D8%B9%D9%84%D9%82-%D8%B9%D9%84%D9%89-%D8%B5%D8%B9%D9%88%D8%AF-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82%D9%84%D9%84%D8%AF%D8%B1%D8%AC%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89"
+      },
+      {
+        "title": "2022-23赛季末轮降级报道（卡塔尔通讯社QNA，2023-05-10）",
+        "url": "https://www.qna.org.qa/ar-QA/News-Area/News/2023-05/10/0036-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A-%D8%A7%D9%84%D8%AF%D8%AD%D9%8A%D9%84-%D9%8A%D8%B5%D8%B9%D8%AF-%D9%84%D9%84%D8%AA%D8%AA%D9%88%D9%8A%D8%AC-%D9%88%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D9%86-%D8%A8%D9%88%D8%B5%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%B3%D8%AC%D9%84-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A-%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D9%84%D9%8A%D8%A9-%D9%8A%D8%AD%D8%AC%D8%B2-%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D9%87%D8%A8%D9%88%D8%B7"
+      },
+      {
+        "title": "Qatar Stars League confirms initial fixtures, start date for 2025/26 season（Doha News，2025-06-22）",
+        "url": "https://dohanews.co/qatar-stars-league-confirms-initial-fixtures-start-date-for-2025-26-season/"
+      },
+      {
+        "title": "نادي السيلية يعلن تجديد الثقة في الجهاز الفني（Al Kass，2026年6月）",
+        "url": "https://www.alkass.net/news_details?news_id=179484"
+      }
+    ]
   }
 }

@@ -4,13 +4,16 @@
     "name_original": "جامعة حمد بن خليفة",
     "name_zh": "哈马德·本·哈利法大学",
     "name_en": "Hamad Bin Khalifa University",
-    "aliases": [],
+    "aliases": [
+      "HBKU",
+      "جامعة حمد بن خليفة"
+    ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2010-00-00",
-    "website": "http://hbku.edu.qa/",
+    "founded_date": "2010-01-01",
+    "website": "https://www.hbku.edu.qa/",
     "wikidata_qid": "Q24911975"
   },
   "social_accounts": [
@@ -31,29 +34,227 @@
       "account_name": "HamadbinKhalifaUniversity",
       "url": "https://facebook.com/HamadbinKhalifaUniversity",
       "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "hamad-bin-khalifa-university",
+      "url": "https://www.linkedin.com/school/hamad-bin-khalifa-university/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Hamad bin Khalifa University",
+      "url": "https://www.youtube.com/channel/UCQ9NLJDG_-ulq1FGP0hdTcw",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "位于多哈教育城的公立研究型大学",
-  "industries": [
-    "education"
+  "digital_assets": [
+    {
+      "name": "HBKUx在线课程平台（edX）",
+      "url": "https://www.edx.org/school/hbkux",
+      "description": "该校在edX平台上的慕课品牌HBKUx，2019年起成为中东地区首个与edX合作的大学，开设可持续发展、沙漠气候太阳能等公开在线课程",
+      "source": "https://www.edx.org/school/hbkux"
+    },
+    {
+      "name": "QScience学术出版平台",
+      "url": "https://www.qscience.com",
+      "description": "哈马德·本·哈利法大学出版社（HBKU Press）运营的在线研究与学术出版平台，收录该校及合作机构的期刊与学术成果，已出版图书逾90种",
+      "source": "https://www.qscience.com"
+    }
   ],
-  "apec_stance": null,
-  "description": "位于多哈教育城的公立研究型大学",
-  "brief": "Public university in Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "艾哈迈德·M·哈斯纳 (Ahmad M. Hasnah)",
+      "title": "校长",
+      "title_description": "主持大学整体工作，分管卡塔尔环境与能源研究院、卡塔尔生物医学研究院、卡塔尔计算研究院三个下属研究所",
+      "description": "1990年获卡塔尔大学数学与物理学士学位，1993年与1996年获美国伊利诺伊理工学院计算机科学硕士、博士学位；2002年加入卡塔尔基金会，曾任学术事务主任和高等教育事务副校长，参与得克萨斯农工大学、卡内基梅隆大学、乔治城大学等落户教育城的合作谈判；2014年5月起任该校执行副校长兼教务长，主导设立六个学院，并参与世界教育创新峰会（WISE）的构想与筹建；现任校长"
+    },
+    {
+      "person_id": null,
+      "name": "普拉巴特·哈杰拉 (Prabhat Hajela)",
+      "title": "教务长",
+      "title_description": "主管学术事务",
+      "description": "现任哈马德·本·哈利法大学教务长，其职务经该校2026届毕业典礼专页及2026年8月迎新新闻双重确认；曾就多学科教育与人才培养代表校方致辞"
+    },
+    {
+      "person_id": null,
+      "name": "玛丽亚姆·曼奈 (Maryam Al-Mannai)",
+      "title": "学生事务副校长",
+      "title_description": "主管学生事务、迎新与校友工作",
+      "description": "现任学生事务副校长，其职务经2025年毕业典礼新闻（署名Maryam Hamad Al-Mannai）及2026年8月迎新报道确认；她表示学生体验应延伸至课堂之外，鼓励学生在校园社区中建立联结、探索创新"
+    }
+  ],
+  "departments": [
+    {
+      "name": "理工学院 (College of Science and Engineering)",
+      "dept_id": null,
+      "head": "穆尼尔·哈姆迪 (Mounir Hamdi)",
+      "description": "开设人工智能与数据工程、计算机科学、网络安全、数据科学与工程、可持续发展等本科与研究生项目；2026/27学年新增人工智能与数据工程理学学士和集成电路与智能系统设计理学硕士",
+      "parent_dept_id": null
+    },
+    {
+      "name": "伊斯兰研究学院 (College of Islamic Studies)",
+      "dept_id": null,
+      "head": "雷杰普·森图尔克 (Recep Şentürk)",
+      "description": "开设伊斯兰研究、伊斯兰金融、应用伊斯兰伦理、伊斯兰与全球事务等硕士与博士项目，并运营教育城清真寺（Minaretein）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "法学院 (College of Law)",
+      "dept_id": null,
+      "head": "苏珊·L·卡拉马尼安 (Susan L. Karamanian)",
+      "description": "提供法学博士（JD）、法学硕士等学位项目，聚焦国际法、经济与商法及可持续发展相关议题",
+      "parent_dept_id": null
+    },
+    {
+      "name": "公共政策学院 (College of Public Policy)",
+      "dept_id": null,
+      "head": "洛根·科克伦 (Logan Cochrane)",
+      "description": "现由代理院长主持，开设公共政策硕士、博士等项目，研究涵盖政策设计、社会治理与可持续发展",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-18",
+      "title": "举行迎新活动，教育学院正式成立",
+      "description": "8月18日至20日在教育城Minaretein与Manufactury举行2026/27学年迎新活动，迎来约900名新生（本科生315名、研究生576名），覆盖51个学位项目，其中卡塔尔籍学生逾300名；新学年该校宣布教育学院（School of Education）成立，学院与学部总数增至八个",
+      "impact": "办学规模与学科版图进一步扩大，本科与研究生教育并行发展",
+      "source": "https://www.hbku.edu.qa/en/news/hbku-welcomes-new-students-2026-2027"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "与卡塔尔发展基金、联合国难民署联合举办世界难民日活动",
+      "description": "在卡塔尔发展基金（QFFD）主席谢赫·萨尼·本·哈马德·阿勒萨尼的赞助下，该校与QFFD及联合国难民署（UNHCR）联合举办「Together for Refugees」世界难民日主题活动，通过专家讨论与展览探讨难民韧性与融入路径",
+      "impact": "体现该校在人道主义议题上的学术召集与政策研究角色",
+      "source": "https://www.hbku.edu.qa/en/news/world-refugee-day-2026-event"
+    },
+    {
+      "date": "2026-05-03",
+      "title": "举行2026届毕业典礼，毕业人数创历史新高",
+      "description": "5月3日在卡塔尔国家会议中心举行2026届毕业典礼，300余名毕业生来自六个学院的36个学位项目；卡塔尔基金会副主席兼该校董事会主席谢哈·欣德·宾特·哈马德·阿勒萨尼出席",
+      "impact": "毕业规模创该校历史新高，显示其研究生教育持续扩张",
+      "source": "https://www.hbku.edu.qa/en/news/sheikha-hind-celebrates-hbku-graduation-2026"
+    },
+    {
+      "date": "2025-10-07",
+      "title": "与联合国难民署续签谅解备忘录",
+      "description": "该校与联合国难民署（UNHCR）续签合作谅解备忘录，延续2021年建立的合作关系，在难民倡导、教育与科研领域继续开展信息共享与机构能力建设",
+      "impact": "深化与人道主义国际组织的长期学术合作",
+      "source": "https://www.unhcr.org/qa/en/news/press-releases/unhcr-hamad-bin-khalifa-university-renew-their-partnership-refugee-advocacy"
+    },
+    {
+      "date": "2025-05-11",
+      "title": "举行2025届毕业典礼，293名学生毕业",
+      "description": "5月11日在卡塔尔国家会议中心举行2025届毕业典礼，293名毕业生（含73名卡塔尔籍学生）获35个学位项目的博士、法学博士、硕士与学士学位，主旨嘉宾称其为建校以来规模最大的毕业班",
+      "impact": "反映该校学生培养规模较初创期显著增长",
+      "source": "https://www.hbku.edu.qa/en/news/graduation-ceremony-2025"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-001",
+      "org_name": "卡塔尔基金会 (Qatar Foundation)",
+      "org_type": "NGO",
+      "org_description": "1995年成立的卡塔尔教育、科学与社会发展非营利组织，该校为其成员机构，2010年由其创立，位于其教育城园区内",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔计算研究院 (Qatar Computing Research Institute, QCRI)",
+      "org_type": "ACAD",
+      "org_description": "该校下设的国家级计算研究机构，从事计算与人工智能领域研究",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔环境与能源研究院 (Qatar Environment and Energy Research Institute, QEERI)",
+      "org_type": "ACAD",
+      "org_description": "该校下设的国家级研究机构，聚焦能源、环境与可持续发展研究",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔生物医学研究院 (Qatar Biomedical Research Institute, QBRI)",
+      "org_type": "ACAD",
+      "org_description": "该校下设的国家级生物医学研究机构，面向健康与生物医学领域的重大挑战开展研究",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "哈马德·本·哈利法大学（HBKU）是位于卡塔尔多哈教育城的公立研究型大学，2010年由卡塔尔基金会（Qatar Foundation）创立，以卡塔尔前埃米尔谢赫·哈马德·本·哈利法·阿勒萨尼命名，2014年起培养毕业生，2017年获卡塔尔教育与高等教育部第34号法令认可。该校以研究生教育为主、兼设部分本科项目，学科重点涵盖信息与计算技术、生命科学、可持续发展、伊斯兰研究、伊斯兰金融、中东研究、翻译研究与法学等领域。截至2026/27学年，该校设有八个学院与学部：伊斯兰研究学院、人文与社会科学学院、理工学院、法学院、健康与生命科学学院、公共政策学院，以及经济学与管理学院和新成立的教育学院。研究方面，该校下设卡塔尔环境与能源研究院（QEERI）、卡塔尔生物医学研究院（QBRI）与卡塔尔计算研究院（QCRI）三个国家研究所，并设有全球战略研究院（GISR）和哈马德·本·哈利法大学出版社（HBKU Press，运营QScience学术平台）；官网披露其研究产出累计逾8300篇论文、引用超过21万次。学生方面，2026/27学年迎新共录取约900名新生（本科生315名、研究生576名），学生来自数十个国家。在国际排名方面，该校2026年度QS世界大学排名并列第244位，2027年度升至并列第213位；2019年起与edX合作开设慕课平台HBKUx，是中东地区首个加入该平台的大学。",
+  "industries": [
+    "education",
+    "higher_education",
+    "research_development"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，哈马德·本·哈利法大学不以成员身份参与APEC框架下的政府间合作进程。该校作为面向全球招生并开展国际研究合作的公立研究型大学，与亚太地区高校及研究机构保持学术交流，其国际化科研与人才培养是卡塔尔与亚太经济体之间知识交流的组成部分。",
+  "profile": {
+    "source_url": "https://www.hbku.edu.qa/en/about",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q24911975",
-      "http://hbku.edu.qa/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 91,
+    "notes": "Phase 3丰富化：领导层、学院设置、学生规模与近期事件核实自官网2025-2026年新闻及毕业专页；wikidata_qid Q24911975经核验指向本校，无需修正；原brief与description中的有效事实（教育城公立研究型大学）已并入core_business；2026/27学年起学院总数由6个增至8个（新增经济学与管理学院、教育学院）；key_people三人（艾哈迈德·M·哈斯纳、普拉巴特·哈杰拉、玛丽亚姆·曼奈）均未收录于_name_index.json，person_id为null待P4回填；UNHCR续签新闻页面启用人机验证（403），其日期经UNHCR官网索引与该校官方Instagram双重交叉确认",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Hamad Bin Khalifa University官网About页",
+        "url": "https://www.hbku.edu.qa/en/about"
+      },
+      {
+        "title": "HBKU Leadership（董事会及校长名单）",
+        "url": "https://www.hbku.edu.qa/en/leadership"
+      },
+      {
+        "title": "President's Office - Dr. Ahmad M. Hasnah",
+        "url": "https://www.hbku.edu.qa/en/about-hbku/hbku-leadership/presidents-office"
+      },
+      {
+        "title": "Hamad Bin Khalifa University - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hamad_Bin_Khalifa_University"
+      },
+      {
+        "title": "HBKU Welcomes New Students as Academic Year Commences（2026迎新与教育学院成立）",
+        "url": "https://www.hbku.edu.qa/en/news/hbku-welcomes-new-students-2026-2027"
+      },
+      {
+        "title": "Sheikha Hind Celebrates HBKU Graduation 2026（2026届毕业典礼）",
+        "url": "https://www.hbku.edu.qa/en/news/sheikha-hind-celebrates-hbku-graduation-2026"
+      },
+      {
+        "title": "HBKU 2025 Graduation Ceremony（2025届毕业典礼）",
+        "url": "https://www.hbku.edu.qa/en/news/graduation-ceremony-2025"
+      },
+      {
+        "title": "HBKU Partners with QFFD and UNHCR for World Refugee Day Gathering",
+        "url": "https://www.hbku.edu.qa/en/news/world-refugee-day-2026-event"
+      },
+      {
+        "title": "UNHCR, Hamad Bin Khalifa University renew their partnership on refugee advocacy",
+        "url": "https://www.unhcr.org/qa/en/news/press-releases/unhcr-hamad-bin-khalifa-university-renew-their-partnership-refugee-advocacy"
+      },
+      {
+        "title": "Hamad Bin Khalifa University (HBKU) - TopUniversities（QS排名）",
+        "url": "https://www.topuniversities.com/universities/hamad-bin-khalifa-university-hbku"
+      },
+      {
+        "title": "HBKUx - edX",
+        "url": "https://www.edx.org/school/hbkux"
+      },
+      {
+        "title": "QScience（HBKU Press学术平台）",
+        "url": "https://www.qscience.com"
+      }
+    ]
   }
 }

@@ -4,33 +4,42 @@
     "name_original": "الاتحاد القطري لكرة القدم",
     "name_zh": "卡塔尔足球协会",
     "name_en": "Qatar Football Association",
-    "aliases": [],
+    "aliases": [
+      "QFA",
+      "الإتحاد القطري لكرة القدم"
+    ],
     "org_type": "NGO",
     "org_subtype": "professional_association",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1960-00-00",
-    "website": "http://www.qfa.qa/",
+    "founded_date": "1960-01-01",
+    "website": "https://www.qfa.qa/",
     "wikidata_qid": "Q622313"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "QFA_EN",
-      "url": "https://x.com/QFA_EN",
-      "source": "twitter_search"
+      "account_name": "QFA",
+      "url": "https://x.com/QFA",
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "qfa",
       "url": "https://www.instagram.com/qfa/",
-      "source": "instagram_search"
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "QFA",
       "url": "https://www.facebook.com/QFA/",
-      "source": "facebook_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "@qfa",
+      "url": "https://youtube.com/@qfa",
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
@@ -39,27 +48,208 @@
       "source": "linkedin_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔足球运动管理机构",
+  "digital_assets": [
+    {
+      "name": "卡塔尔足协官方新闻中心",
+      "url": "https://www.qfa.qa/en/news",
+      "description": "发布足协公告、赛事新闻与官方更新的官方新闻门户",
+      "source": "https://www.qfa.qa/en"
+    },
+    {
+      "name": "卡塔尔足球条例与规章平台",
+      "url": "https://www.qfa.qa/en/rules-and-regulations",
+      "description": "发布适用于卡塔尔各级足球活动的条例与规章，规范球员、官员、俱乐部及相关方的行为准则",
+      "source": "https://www.qfa.qa/en"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼 (Sheikh Hamad bin Khalifa bin Ahmed Al Thani)",
+      "title": "主席",
+      "title_description": "兼任卡塔尔体育与青年事务部长",
+      "description": "2005年至2023年首次出任卡塔尔足协主席；2024年1月起任卡塔尔体育与青年事务部长；2026年7月28日获任命再度出任足协主席，同年9月10日获会员大会确认任职至2027年选举性会员大会；兼任国际足联理事会成员（2023年起）、亚足联执行委员会委员、阿拉伯海湾杯足球联合会主席（2016年起）及2024-2034年国际足球赛事地方组委会主席"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·塔米姆·本·穆罕默德·阿勒萨尼 (Sheikh Tamim bin Mohammed Al Thani)",
+      "title": "副主席",
+      "title_description": "董事会副主席",
+      "description": "现任卡塔尔足协副主席，为协会董事会成员，列名于协会官网董事会页面"
+    },
+    {
+      "person_id": null,
+      "name": "曼苏尔·安萨里 (Mansoor Al-Ansari)",
+      "title": "秘书长",
+      "title_description": "主管协会日常行政与运营事务",
+      "description": "2015年起出任卡塔尔足协秘书长；兼任国际足联发展委员会委员（2025-2029任期），多次率团出席国际足联及亚足联会议"
+    },
+    {
+      "person_id": null,
+      "name": "胡伦·洛佩特吉 (Julen Lopetegui)",
+      "title": "国家男子足球队主教练",
+      "title_description": "西班牙籍",
+      "description": "2025年5月接替路易斯·加西亚出任卡塔尔国家队主教练，签约两年（至2027年亚洲杯）；率队通过2026年世界杯亚洲区预选赛并执教世界杯小组赛"
+    }
+  ],
+  "departments": [
+    {
+      "name": "国家队事务",
+      "dept_id": null,
+      "head": null,
+      "description": "负责男子国家队及U-17、U-20、U-23青年队、女子国家队的组队、训练与参赛管理",
+      "parent_dept_id": null
+    },
+    {
+      "name": "赛事与竞赛组织",
+      "dept_id": null,
+      "head": null,
+      "description": "负责组织卡塔尔星级联赛、乙级联赛、预备队联赛、业余联赛、大学联赛、学校联赛、五人制联赛以及埃米尔杯、谢赫贾西姆杯、卡塔尔杯、卡塔尔明星杯、卡塔尔足协杯等国内杯赛",
+      "parent_dept_id": null
+    },
+    {
+      "name": "条例与规则事务",
+      "dept_id": null,
+      "head": null,
+      "description": "制定和发布卡塔尔足球条例与规章，保障各级足球活动的透明、公平与一致，规范球员、官员、俱乐部及相关方行为",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-02-10",
+      "title": "卡塔尔队3-1胜约旦，蝉联2023年亚足联亚洲杯冠军",
+      "description": "在多哈卢塞尔球场举行的2023年亚足联亚洲杯决赛中，卡塔尔队凭借阿克拉姆·阿菲夫的点球帽子戏法以3-1击败约旦队，成为20年来首支蝉联亚洲杯冠军的球队；该届赛事由卡塔尔承办，于2024年1月12日至2月10日举行",
+      "impact": "卡塔尔队实现亚洲杯两连冠，巩固了卡塔尔在亚洲足坛的竞技地位，也延续其主办国际大赛的势头",
+      "source": "https://www.reuters.com/sports/soccer/qatar-retain-asian-cup-with-3-1-win-over-jordan-afif-nets-penalty-hat-trick-2024-02-10/"
+    },
+    {
+      "date": "2025-10-14",
+      "title": "卡塔尔队历史上首次通过预选赛晋级世界杯",
+      "description": "卡塔尔队在多哈贾西姆·本·哈马德体育场以2-1击败阿联酋队，以亚洲区第四轮小组头名身份直接晋级2026年美加墨世界杯；这是卡塔尔继2022年以东道主身份参赛后，首次通过预选赛获得世界杯参赛资格",
+      "impact": "卡塔尔连续第二届晋级世界杯决赛圈，为其后续的国际赛事参与和足球发展规划提供支撑",
+      "source": "https://www.aljazeera.com/sports/2025/10/14/qatar-reach-world-cup-through-qualification-for-first-time-beating-uae"
+    },
+    {
+      "date": "2025-11-03",
+      "title": "卡塔尔主办2025年国际足联U-17世界杯",
+      "description": "2025年国际足联U-17世界杯于11月3日至27日在卡塔尔举行，是该赛事扩军至48支球队后的首届比赛，赛事主要在多哈阿斯拜尔区域的球场进行；卡塔尔自2025年起连续承办多届U-17世界杯",
+      "impact": "体现卡塔尔持续承办国际足球赛事的能力，带动本地青训、场馆利用及体育旅游发展",
+      "source": "https://www.fifa.com/en/tournaments/mens/u17worldcup/qatar-2025"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "贾西姆·布埃纳因宣布辞去卡塔尔足协主席职务",
+      "description": "2023年6月当选的卡塔尔足协主席贾西姆·拉希德·布埃纳因通过其社交账号宣布辞职；时值卡塔尔队结束2026年世界杯小组赛征程（首战1-1战平瑞士，取得队史世界杯首个积分后出局）。其任内卡塔尔队夺得2023年亚洲杯冠军并首次经预选赛晋级世界杯",
+      "impact": "足协领导层进入更替阶段，为同年7月底的主席人事任命作出铺垫",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-7/9/qfa-president-resigns"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "足协会员大会确认谢赫·哈马德出任主席至2027年",
+      "description": "卡塔尔足协于2026年7月28日宣布任命体育与青年部长谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼为主席（其曾在2005-2023年担任该职）；9月10日召开的足协普通会员大会确认其任职至2027年选举性会员大会",
+      "impact": "足协完成领导层更替，主席由体育与青年部长兼任，协会与政府体育主管部门的协调保持延续",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-9/10/qfa-general-assembly-confirms-sheikh-hamad-bin-khalifa-bin-ahmed-al-thani-as-president-until-2027"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "国际足球联合会 (FIFA)",
+      "org_type": "INTL",
+      "org_description": "国际足球管理机构；卡塔尔足协1970年成为其临时会员，1972年获正式会籍",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚洲足球联合会 (AFC)",
+      "org_type": "INTL",
+      "org_description": "亚洲足球管理机构；卡塔尔足协于1974年加入，卡塔尔先后承办1988年、2011年和2023年亚洲杯",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "QA-ACAD-009",
+      "org_name": "阿斯拜尔学院 (Aspire Academy)",
+      "org_type": "ACAD",
+      "org_description": "位于多哈的精英体育学院；2023年9月与卡塔尔足协签署合作协议，共同发展教练员培训体系；2025年国际足联U-17世界杯主要在其所在区域举行",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔星级足球联赛 (Qatar Stars League, QSL)",
+      "org_type": "CORP",
+      "org_description": "负责卡塔尔顶级职业联赛（现冠名多哈银行星级联赛）运营的联赛机构，与卡塔尔足协在联赛组织方面协作；其主席由卡塔尔体育与青年部长、足协主席谢赫·哈马德兼任",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔足球协会是卡塔尔足球运动的全国管理机构，1960年成立，总部位于多哈。协会于1970年成为国际足联临时会员、1972年获正式会籍，1974年加入亚洲足球联合会，现为西亚足球联合会、阿拉伯足球协会联合会及海湾杯足球联合会成员。协会负责组织卡塔尔足球联赛体系，包括顶级的多哈银行星级联赛（12队）、乙级联赛（8队）、预备队联赛、业余联赛、大学联赛、学校联赛及五人制足球联赛，并主办埃米尔杯（1972年创办）、谢赫贾西姆杯、卡塔尔杯、卡塔尔明星杯和卡塔尔足协杯等国内杯赛。协会同时管理男子国家队、U-17、U-20、U-23青年队及女子国家队，并运营女子、青年和五人制地方足球联赛。卡塔尔曾主办1988年、2011年和2023年亚足联亚洲杯以及2022年国际足联世界杯，并自2025年起连续承办国际足联U-17世界杯；卡塔尔队于2019年和2024年（2023届赛事）两夺亚洲杯冠军，并于2025年10月首次通过预选赛晋级2026年世界杯决赛圈。协会还与阿斯拜尔学院等机构合作开展教练员培训与青训体系建设。",
   "industries": [
+    "sports",
     "nonprofit"
   ],
-  "apec_stance": null,
-  "description": "卡塔尔足球运动管理机构",
-  "brief": "association of Qatar football",
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔足球协会作为足球运动管理机构不直接参与APEC经贸合作进程。该协会的国际合作主要在国际足联（FIFA）与亚足联（AFC）框架下开展，其承办的亚洲杯、U-17世界杯等国际赛事所带动的跨境人员往来与体育旅游，与亚太地区的人文交流存在间接联系。",
+  "profile": {
+    "source_url": "https://www.qfa.qa/en/football/history",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q622313",
-      "http://www.qfa.qa/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 95,
+    "notes": "Phase 3 丰富化（2026-09-11）：wikidata_qid Q622313 经核实确为卡塔尔足球协会实体，与机构匹配；注意 Wikidata 该实体的 P488（主席）声明指向 Q57360（前埃米尔哈马德·本·哈利法·阿勒萨尼），与现任足协主席谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼（bin Ahmed 系，非国家元首）为不同人物，属 Wikidata 数据混淆，已在本档案中按官网董事会页面核实填写现任主席。成立年份 Wikidata 精度为年（1960），按规则填 1960-01-01。2026年7月主席更替（布埃纳因辞职、谢赫·哈马德获任命并经会员大会确认）经 QNA、卡塔尔体育与青年部及协会官网交叉验证。key_people 中 4 人（谢赫·哈马德·本·哈利法·本·艾哈迈德·阿勒萨尼、谢赫·塔米姆·本·穆罕默德·阿勒萨尼、曼苏尔·安萨里、胡伦·洛佩特吉）在 _name_index.json 中均无匹配记录，person_id 置 null 待 P4 回填",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Board of directors - Qatar Football Association (official website)",
+        "url": "https://www.qfa.qa/en/board-of-directors"
+      },
+      {
+        "title": "Qatar Football Association - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Football_Association"
+      },
+      {
+        "title": "QFA President Resigns - Qatar News Agency (QNA)",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-7/9/qfa-president-resigns"
+      },
+      {
+        "title": "Qatar Football Association Appoints Sheikh Hamad bin Khalifa bin Ahmed Al Thani as President - Ministry of Sports and Youth",
+        "url": "https://www.msy.gov.qa/en/news/qatar-football-association-appoints-sheikh-hamad-bin-khalifa-bin-ahmed-al-thani-as-president"
+      },
+      {
+        "title": "QFA General Assembly confirms Sheikh Hamad bin Khalifa bin Ahmed Al-Thani as President until 2027 - Qatar News Agency (QNA)",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-9/10/qfa-general-assembly-confirms-sheikh-hamad-bin-khalifa-bin-ahmed-al-thani-as-president-until-2027"
+      },
+      {
+        "title": "Al-Buenain elected as Qatar Football Association president - Gulf Times",
+        "url": "https://www.gulf-times.com/article/662235/sport/al-buenain-elected-as-qatar-football-association-president"
+      },
+      {
+        "title": "Afif nets penalty hat-trick as Qatar retain Asian Cup - Reuters",
+        "url": "https://www.reuters.com/sports/soccer/qatar-retain-asian-cup-with-3-1-win-over-jordan-afif-nets-penalty-hat-trick-2024-02-10/"
+      },
+      {
+        "title": "Qatar reach World Cup through qualification for first time beating UAE - Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2025/10/14/qatar-reach-world-cup-through-qualification-for-first-time-beating-uae"
+      },
+      {
+        "title": "FIFA U-17 World Cup Qatar 2025 - FIFA",
+        "url": "https://www.fifa.com/en/tournaments/mens/u17worldcup/qatar-2025"
+      },
+      {
+        "title": "QFA, Aspire Academy partner up to bolster coaching education - QFA",
+        "url": "https://www.qfa.qa/en/news/qfa-aspire-academy-partner-up-to-bolster-coaching-education"
+      },
+      {
+        "title": "Julen Lopetegui appointed Qatar coach - FIFA",
+        "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/qatar-lopetegui-appoint-coach"
+      }
+    ]
   }
 }

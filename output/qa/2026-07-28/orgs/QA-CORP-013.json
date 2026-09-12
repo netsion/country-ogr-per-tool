@@ -4,13 +4,18 @@
     "name_original": "النادي العربي",
     "name_zh": "阿拉比体育俱乐部",
     "name_en": "Al-Arabi SC",
-    "aliases": [],
+    "aliases": [
+      "Al-Arabi Sports Club",
+      "Al Arabi Doha",
+      "النادي العربي الرياضي",
+      "نادي العربي القطري"
+    ],
     "org_type": "CORP",
     "org_subtype": "private_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1972-00-00",
-    "website": "http://alarabi.qa",
+    "founded_date": "1952-01-01",
+    "website": "https://alarabi.qa",
     "wikidata_qid": "Q283760"
   },
   "social_accounts": [
@@ -18,42 +23,215 @@
       "platform": "instagram",
       "account_name": "alarabi_club",
       "url": "https://instagram.com/alarabi_club",
-      "source": "wikidata"
+      "source": "official_website"
     },
     {
       "platform": "twitter_x",
       "account_name": "alarabi_club",
       "url": "https://x.com/alarabi_club",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "alarabiclub1952",
       "url": "https://www.facebook.com/alarabiclub1952/",
-      "source": "facebook_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "ArabiSports",
+      "url": "https://www.youtube.com/user/ArabiSports",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔综合体育俱乐部",
-  "industries": [
-    "industrial_manufacturing"
+  "digital_assets": [
+    {
+      "name": "阿拉比体育俱乐部官方网站",
+      "url": "https://alarabi.qa",
+      "description": "俱乐部阿拉伯语官方网站，提供一线队赛程与积分榜、各项目部新闻、票务信息及球迷会员服务，官网页脚附社交媒体链接",
+      "source": "https://alarabi.qa"
+    },
+    {
+      "name": "阿拉比体育俱乐部官方YouTube频道",
+      "url": "https://www.youtube.com/user/ArabiSports",
+      "description": "俱乐部官方视频频道，发布比赛集锦、训练及俱乐部活动视频，链接见于官网页脚",
+      "source": "https://alarabi.qa"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔综合体育俱乐部",
-  "brief": "Qatari sports club",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "塔米姆·本·法哈德·阿勒萨尼 (Tamim bin Fahad Al Thani)",
+      "title": "社长",
+      "title_description": "谢赫（卡塔尔王室成员），俱乐部社长（Club President），经股东大会选举产生",
+      "description": "据卡塔尔通讯社2024年9月9日报道，俱乐部股东大会选举其出任社长、穆罕默德·贾西姆·库瓦里出任副社长；卡塔尔体育与青年部网站亦报道其以鼓掌方式当选。任内俱乐部于2025年10月任命科斯明·孔特拉为一线队主教练"
+    },
+    {
+      "person_id": null,
+      "name": "穆罕默德·贾西姆·库瓦里 (Mohammed Jassim Al-Kuwari)",
+      "title": "副社长",
+      "title_description": "俱乐部副社长（Vice President），2024年9月经股东大会选举产生",
+      "description": "2024年9月9日经俱乐部股东大会选举出任副社长；2026年9月以副社长身份出席俱乐部对卡塔尔国家青年手球队亚洲青年锦标赛夺冠球员的表彰仪式"
+    },
+    {
+      "person_id": null,
+      "name": "科斯明·孔特拉 (Cosmin Contra)",
+      "title": "一线队主教练",
+      "title_description": "2025年10月15日上任，2026年3月续约至2028年",
+      "description": "罗马尼亚籍足球教练、前球员，1975年生；2025年10月15日获委任为阿拉比一线队主教练，接替因赛季初战绩下滑离任的西班牙教练巴勃罗·阿莫（Pablo Amo）；2026年3月21日与俱乐部续约两个赛季至2028年"
+    }
+  ],
+  "departments": [
+    {
+      "name": "足球部",
+      "dept_id": null,
+      "head": "科斯明·孔特拉 (Cosmin Contra)",
+      "description": "核心项目部，一线队参加卡塔尔顶级联赛多哈银行明星联赛；2023年起主场为可容纳约4.44万观众的图玛玛体育场，此前为容纳约1.3万人的大哈马德体育场",
+      "parent_dept_id": null
+    },
+    {
+      "name": "手球部",
+      "dept_id": null,
+      "head": null,
+      "description": "运营手球项目运动队；2026年9月俱乐部表彰入选卡塔尔国家青年手球队并夺得亚洲青年锦标赛冠军的俱乐部球员",
+      "parent_dept_id": null
+    },
+    {
+      "name": "篮球部",
+      "dept_id": null,
+      "head": null,
+      "description": "运营篮球项目运动队，参加卡塔尔国内篮球赛事及西部亚洲篮球超级联赛（WASL），2025-26赛季跻身总决赛圈（Final 8）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "排球及其他项目部",
+      "dept_id": null,
+      "head": null,
+      "description": "涵盖排球、游泳、乒乓球、五人制足球及田径等项目运动队，并设青年委员会与文化委员会",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-05-12",
+      "title": "时隔30年再夺埃米尔杯冠军",
+      "description": "2022-23赛季埃米尔杯决赛在艾哈迈德·本·阿里体育场举行，阿拉比以3-0击败萨德体育俱乐部，第9次夺得埃米尔杯，这是俱乐部自1992-93赛季后首次夺得该赛事冠军",
+      "impact": "结束长达30年的国内杯赛冠军荒，并获得参加首届卡塔尔-阿联酋超级杯的资格",
+      "source": "https://en.wikipedia.org/wiki/2023_Amir_of_Qatar_Cup"
+    },
+    {
+      "date": "2024-04-12",
+      "title": "1-0击败沙迦 夺得首届卡塔尔-阿联酋超级杯冠军",
+      "description": "在图玛玛体育场举行的首届卡塔尔-阿联酋超级杯中，作为卡塔尔埃米尔杯冠军的阿拉比以1-0击败阿联酋总统杯冠军沙迦体育俱乐部；俱乐部荣誉记录将该冠军列为2023-24赛季奖项",
+      "impact": "俱乐部首个卡塔尔-阿联酋俱乐部对抗赛头衔",
+      "source": "https://www.365scores.com/football/match/qatar-uae-super-cup-8094/al-arabi-doha-sharjah-sc-7084-8351-8094"
+    },
+    {
+      "date": "2025-10-15",
+      "title": "任命罗马尼亚教练科斯明·孔特拉为一线队主教练",
+      "description": "卡塔尔通讯社报道俱乐部正式签下罗马尼亚教练科斯明·孔特拉，接替因赛季初战绩下滑而离任的西班牙教练巴勃罗·阿莫（Pablo Amo）",
+      "impact": "2025-26赛季中期换帅，球队进入技战术调整期",
+      "source": "https://qna.org.qa/en/news/news-details?id=qatari-league-al-arabi-sc-signs-romanian-coach-cosmin-contra&date=15/10/2025"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "篮球部跻身西部亚洲篮球超级联赛总决赛圈",
+      "description": "据俱乐部官网消息，国际篮联（FIBA）区域办公室公布2025-26赛季西部亚洲篮球超级联赛总决赛圈（WASL Final 8）抽签结果，阿拉比篮球部被抽入第二组",
+      "impact": "篮球项目持续参与洲际赛事，体现俱乐部多项目布局",
+      "source": "https://alarabi.qa/%d8%a7%d9%84%d8%b9%d8%b1%d8%a8%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%ac%d9%85%d9%88%d8%b9%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d8%b6%d9%85%d9%86-%d9%86%d9%87%d8%a7%d8%a6%d9%8a%d8%a7/"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "2026-27赛季多哈银行明星联赛取得首胜",
+      "description": "阿拉比在新赛季揭幕战2-2战平沙马勒、第二轮1-1战平杜海勒后，击败塞利亚体育俱乐部取得2026-27赛季多哈银行明星联赛（卡塔尔星级联赛）首胜，一线队由罗马尼亚教练孔特拉执教",
+      "impact": "联赛开局三轮后首度全取三分，稳定新赛季走势",
+      "source": "https://alarabi.qa/%d8%a7%d9%84%d9%81%d9%88%d8%b2-%d8%a7%d9%84%d8%a3%d9%88%d9%84-%d9%84%d9%81%d8%b1%d9%8a%d9%82%d9%86%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b3%d9%8a/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-011",
+      "org_name": "卡塔尔足球协会 (Qatar Football Association)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球管理机构，负责组织多哈银行明星联赛、埃米尔杯等国内足球赛事；阿拉比为其注册参赛俱乐部",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "QA-NGO-010",
+      "org_name": "卡塔尔国家奥林匹克委员会 (Qatar Olympic Committee)",
+      "org_type": "NGO",
+      "org_description": "统筹卡塔尔体育运动的全国性体育组织，阿拉比等国内体育俱乐部在其框架下开展竞技活动",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "QA-GOV-012",
+      "org_name": "卡塔尔体育与青年部 (Ministry of Sports and Youth)",
+      "org_type": "GOV",
+      "org_description": "负责卡塔尔体育事务的政府部门，对体育俱乐部的治理与选举（如2024年俱乐部股东大会社长选举）行使监管职能",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔星级联赛 (Qatar Stars League)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔顶级足球联赛及其运营机构，阿拉比一线队为参赛俱乐部，历史上7次夺得联赛冠军，夺冠次数居卡塔尔俱乐部第二位",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "阿拉比体育俱乐部（النادي العربي）是总部位于卡塔尔首都多哈的综合性体育俱乐部，其渊源可追溯至1952年在多哈成立的体育团体，1972年依据第11号部长令由解放俱乐部（Al-Tahrir）与联合俱乐部（Al-Wehda）合并定名为「阿拉比体育俱乐部」，是卡塔尔历史最悠久的俱乐部之一。俱乐部为公共体育机构，业务涵盖体育、文化与社会服务领域，设足球、手球、篮球、排球、游泳、乒乓球、五人制足球、田径等项目部门及青年委员会、文化委员会。足球是俱乐部最具影响力的项目：一线队参加卡塔尔顶级联赛多哈银行明星联赛，2023年起以可容纳约4.44万名观众的图玛玛体育场为主场，此前长期以约1.3万个座位的大哈马德体育场为主场。俱乐部国内战绩居卡塔尔足坛第二位，累计夺得7次联赛冠军（1982-83至1996-97赛季间）、9次埃米尔杯冠军（最近一次为2022-23赛季）、1次卡塔尔王储杯、1次卡塔尔足协杯及6次谢赫·贾西姆杯，1994-95赛季获亚洲俱乐部锦标赛（亚足联冠军联赛前身）亚军，2024年夺得首届卡塔尔-阿联酋超级杯。俱乐部实行社长制治理，由股东大会选举社长及副社长，现任社长为谢赫塔米姆·本·法哈德·阿勒萨尼。据亚足联调查，阿拉比是卡塔尔球迷基础最广泛的俱乐部，绰号「梦之队」，与萨德体育俱乐部的德比被视为卡塔尔足坛最受关注的对决。",
+  "industries": [
+    "sports"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，阿拉比体育俱乐部作为体育机构不直接参与APEC框架下的经贸议程。俱乐部的区域联系主要体现在亚洲体育交流层面：足球一线队长期参加亚足联主办的俱乐部赛事，篮球部参加西部亚洲篮球超级联赛（WASL）等区域赛事。",
+  "profile": {
+    "source_url": "https://alarabi.qa/%d8%b9%d9%86-%d8%a7%d9%84%d9%86%d8%a7%d8%af%d9%8a/",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q283760",
-      "http://alarabi.qa"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 91,
+    "notes": "Phase 3丰富化：wikidata_qid Q283760经Wikidata API核实为阿拉比体育俱乐部本体（多项目体育俱乐部，P17=卡塔尔），无需改绑。骨架顶层非标准字段brief/description中的有效事实（卡塔尔综合体育俱乐部）已并入core_business并删除。founded_date由Wikidata记载的1972年修正为1952年：官网与英文维基百科均记载俱乐部1952年成立、1972年依第11号部长令合并定名，仅知年份故按规范记为1952-01-01。管理层核实自卡塔尔通讯社（2024-09-09股东大会选举塔米姆·本·法哈德·阿勒萨尼为社长、穆罕默德·贾西姆·库瓦里为副社长）及官网新闻（2026-09-07库瓦里以副社长身份出席活动）；主教练孔特拉的任命与续约核实自QNA、The Peninsula与Transfermarkt。key_people中塔米姆·本·法哈德·阿勒萨尼、穆罕默德·贾西姆·库瓦里、科斯明·孔特拉均未收录于_name_index.json，person_id为null待P4回填。卡塔尔体育与青年部官网（msy.gov.qa）存在Cloudflare拦截，社长选举信息以QNA报道及搜索索引交叉佐证。",
+    "quotes": [
+      {
+        "title": "Al-Arabi SC (Qatar) - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Al-Arabi_SC_(Qatar)"
+      },
+      {
+        "title": "عن النادي（关于俱乐部，官网「关于我们」页）",
+        "url": "https://alarabi.qa/%d8%b9%d9%86-%d8%a7%d9%84%d9%86%d8%a7%d8%af%d9%8a/"
+      },
+      {
+        "title": "2023 Amir of Qatar Cup - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2023_Amir_of_Qatar_Cup"
+      },
+      {
+        "title": "إعادة انتخاب الشيخ تميم بن فهد آل ثاني رئيسا لنادي العربي بالتزكية（卡塔尔通讯社）",
+        "url": "https://www.qna.org.qa/ar-QA/News-Area/News/2024-09/09/0128-%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B3%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%AA%D9%85%D9%8A%D9%85-%D8%A8%D9%86-%D9%81%D9%87%D8%AF-%D8%A2%D9%84-%D8%AB%D8%A7%D9%86%D9%8A-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D9%84%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D8%AA%D8%B2%D9%83%D9%8A%D8%A9"
+      },
+      {
+        "title": "Qatari League: Al Arabi SC Signs Romanian Coach Cosmin Contra（卡塔尔通讯社英文）",
+        "url": "https://qna.org.qa/en/news/news-details?id=qatari-league-al-arabi-sc-signs-romanian-coach-cosmin-contra&date=15/10/2025"
+      },
+      {
+        "title": "Al Arabi extend coach Contra's contract until 2028（The Peninsula Qatar）",
+        "url": "https://thepeninsulaqatar.com/article/21/03/2026/al-arabi-extend-coach-contras-contract-until-2028"
+      },
+      {
+        "title": "Al Arabi Doha 1-0 Sharjah SC - Qatar-UAE Super Cup Final Match Report（365Scores）",
+        "url": "https://www.365scores.com/football/match/qatar-uae-super-cup-8094/al-arabi-doha-sharjah-sc-7084-8351-8094"
+      },
+      {
+        "title": "الفوز الأول لفريقنا في الدوري على السيلية（俱乐部官网新闻）",
+        "url": "https://alarabi.qa/%d8%a7%d9%84%d9%81%d9%88%d8%b2-%d8%a7%d9%84%d8%a3%d9%88%d9%84-%d9%84%d9%81%d8%b1%d9%8a%d9%82%d9%86%d8%a7-%d9%81%d9%8a-%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b3%d9%8a/"
+      }
+    ]
   }
 }

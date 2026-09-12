@@ -4,57 +4,225 @@
     "name_original": "حرس الأميري",
     "name_zh": "卡塔尔埃米尔卫队",
     "name_en": "Qatar Amiri Guard",
-    "aliases": [],
+    "aliases": [
+      "Emiri Guard",
+      "الحرس الأميري",
+      "الحرس الأميري القطري",
+      "QAG"
+    ],
     "org_type": "MIL",
     "org_subtype": "armed_forces",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": null,
-    "website": null,
+    "founded_date": "2007-04-05",
+    "website": "https://qag.gov.qa",
     "wikidata_qid": "Q96251856"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
       "account_name": "QatarAmiriGuard",
-      "url": "https://twitter.com/QatarAmiriGuard",
-      "source": "twitter_search"
+      "url": "https://x.com/QatarAmiriGuard",
+      "source": "web_search（账号自述为Official account of Qatar Amiri Guard）"
     },
     {
       "platform": "instagram",
+      "account_name": "qataramiriguard",
+      "url": "https://www.instagram.com/qataramiriguard/",
+      "source": "web_search（账号自述为Official account of Qatar Amiri Guard）"
+    },
+    {
+      "platform": "facebook",
       "account_name": "QatarAmiriGuard",
-      "url": "https://www.instagram.com/QatarAmiriGuard/",
-      "source": "instagram_search"
+      "url": "https://www.facebook.com/QatarAmiriGuard/",
+      "source": "web_search（Official page of Qatar Amiri Guard）"
+    },
+    {
+      "platform": "other",
+      "account_name": "amiriguard.qa",
+      "url": "https://www.snapchat.com/@amiriguard.qa",
+      "source": "web_search（Snapchat平台，账号自述为Official account of Qatar Amiri Guard）"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "卡塔尔埃米尔卫队官方门户网站",
+      "url": "https://qag.gov.qa",
+      "description": "埃米尔卫队官方网络域名；其官方社交媒体主页链接及所属邮件系统（mail.qag.gov.qa）均使用该域名，主站自境外访问受限",
+      "source": "https://www.facebook.com/QatarAmiriGuard/"
+    }
+  ],
   "key_people": [
     {
-      "person_id": "QA-PERSON-000003",
-      "name": "阿卜杜拉·本·哈马德·阿勒萨尼",
+      "person_id": "QA-PERSON-000245",
+      "name": "穆罕默德·本·苏尔坦·阿勒苏瓦迪 (محمد بن سلطان بن محمد آل سالمين السويدي)",
       "title": "指挥官",
-      "title_description": "指挥官",
-      "description": ""
+      "title_description": "埃米尔卫队指挥官（少将军衔，2025年12月21日第66号埃米尔决定任命，职级等同部长）",
+      "description": "全名Mohammed bin Sultan bin Mohammed Al Salmeen Al Suwaidi；2025年12月21日经第66号埃米尔决定出任指挥官，接替同日经第3号埃米尔令改任埃米尔办公厅国务大臣的前任指挥官Hazza bin Khalil Al Shahwani；2026年2月起以指挥官身份公开出席对外会见及训练结业典礼等活动"
+    },
+    {
+      "person_id": null,
+      "name": "阿里·苏拉布·哈马德·阿勒沙赫瓦尼·阿勒哈吉里 (علي ثلاب حمد الشهواني الهاجري)",
+      "title": "副指挥官",
+      "title_description": "埃米尔卫队副指挥官（准将军衔，2026年1月11日第5号埃米尔决定任命，官方公报2026年2月1日刊布）",
+      "description": "2026年第5号埃米尔决定自准将（عميد ركن）军衔任命为副指挥官；此前该职位由2024年第49号埃米尔决定作出任命，2026年决定同时废止与之相抵触的规定；person_id待P4回填"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔王室近卫部队",
-  "industries": [
-    "aerospace_defense"
+  "departments": [
+    {
+      "name": "埃米尔卫队学校 (مدرسة الحرس الأميري)",
+      "dept_id": "QA-MIL-003-DEPT-001",
+      "head": "穆罕默德·哈勒凡·阿尔-曼苏里 (Mohammed Khalfan Al Mansouri)",
+      "description": "卫队下属训练机构，公开承担新兵基础训练及要员保护、快速介入、战术急救等课程；据卡塔尔通讯社报道，其代理校长（上尉军衔）于2026年5月21日在Lahsaniya营主持2026训练季第一阶段结业典礼",
+      "parent_dept_id": null
+    },
+    {
+      "name": "督察长 (المفتش العام للحرس الأميري)",
+      "dept_id": "QA-MIL-003-DEPT-002",
+      "head": null,
+      "description": "据卡塔尔通讯社公开报道的卫队高级职位，在官方活动中与副指挥官、指挥官助理并列出席；任职人选未公开",
+      "parent_dept_id": null
+    },
+    {
+      "name": "指挥官助理 (مساعدو قائد الحرس الأميري)",
+      "dept_id": "QA-MIL-003-DEPT-003",
+      "head": null,
+      "description": "据卡塔尔通讯社公开报道的卫队高级职位（多人担任），在官方活动中与副指挥官、督察长并列出席；任职人选未公开",
+      "parent_dept_id": null
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔王室近卫部队",
-  "brief": "elite military protection unit of the Qatari Armed Forces",
+  "recent_events": [
+    {
+      "date": "2025-07-23",
+      "title": "时任指挥官出席伊斯坦布尔第17届国际防务工业展开幕式",
+      "description": "据卡塔尔通讯社报道，时任埃米尔卫队指挥官哈扎阿·本·哈利勒·阿尔-沙赫瓦尼中将出席在伊斯坦布尔举行的第17届国际防务工业展（IDEF 2025）开幕式，该展于2025年7月22日至27日举行",
+      "impact": "体现卡塔尔军事机构对国际防务工业交流活动的公开参与",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-7/23/amiri-guard-commander-participates-in-opening-of-international-defence-industry-fair-in-istanbul"
+    },
+    {
+      "date": "2025-12-18",
+      "title": "埃米尔出席2025年卡塔尔国庆阅兵，埃米尔卫队按惯例参与分列式",
+      "description": "2025年卡塔尔国庆阅兵当天上午在多哈滨海路举行，埃米尔塔米姆·本·哈马德·阿勒萨尼出席；据埃米尔办公厅及媒体、官方庆典网站报道，武装部队、埃米尔卫队、警察及应急部门等参加阅兵分列式",
+      "impact": "国庆阅兵是埃米尔卫队承担的年度公开礼仪勤务",
+      "source": "https://www.diwan.gov.qa/briefing-room/news/activities-and-occasions/2025/december/18/hh-the-amir-attends-qatar-national-day-parade"
+    },
+    {
+      "date": "2025-12-21",
+      "title": "第66号埃米尔决定任命新任埃米尔卫队指挥官",
+      "description": "埃米尔塔米姆发布2025年第66号埃米尔决定，任命穆罕默德·本·苏尔坦·本·穆罕默德·阿勒萨勒明·阿勒苏瓦迪少将为埃米尔卫队指挥官，职级等同部长，决定自发布之日起生效；同日第3号埃米尔令任命原指挥官哈扎阿·本·哈利勒·阿尔-沙赫瓦尼为埃米尔办公厅国务大臣",
+      "impact": "埃米尔卫队指挥层完成更替，新任指挥官随后公开开展对外会见等活动",
+      "source": "https://www.diwan.gov.qa/en/briefing-room/news/general/lg/2025/december/21/lg02"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "埃米尔卫队指挥官会见英国驻卡塔尔国防武官",
+      "description": "据卡塔尔通讯社报道，卫队指挥官穆罕默德·本·苏尔坦·阿勒苏瓦迪少将在Barzan营会见英国驻卡塔尔国防武官Charlie Fuller海军上校，双方讨论双方军事合作及其深化与发展途径；卫队高级军官出席会见",
+      "impact": "显示卫队与英国军方保持公开的双边军事交流渠道",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-2/1/amiri-guard-commander-meets-uk-defense-attache"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "埃米尔卫队学校举行2026训练季第一阶段结业典礼",
+      "description": "埃米尔卫队学校在Lahsaniya营举行多期基础训练课程结业典礼，标志2026年训练季第一阶段结束；卡塔尔武装力量参谋长贾西姆·本·穆罕默德·阿尔-曼纳伊中将与卫队指挥官阿勒苏瓦迪少将出席，课程涵盖基础安全与要员保护联合课程、基础自卫课程、快速介入课程及近身保护人员战术急救课程",
+      "impact": "公开反映卫队训练体系与课程设置，武装力量高层出席显示对卫队训练工作的重视",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-5/21/amiri-guard-celebrates-graduation-of-basic-training-courses"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "卡塔尔武装部队 (القوات المسلحة القطرية)",
+      "org_type": "MIL",
+      "org_description": "卡塔尔国正规武装力量，总部位于多哈；维基数据将埃米尔卫队列为武装力量组成部分，卫队为其序列内的精锐警卫单位",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃米尔办公厅 (الديوان الأميري)",
+      "org_type": "GOV",
+      "org_description": "埃米尔的办公与礼宾机构；依据2007年第9号埃米尔决定，卫队直接隶属埃米尔并守卫埃米尔办公厅及各宫殿；2025年12月前任卫队指挥官阿尔-沙赫瓦尼经第3号埃米尔令改任该厅国务大臣",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-MIL-001",
+      "org_name": "卡塔尔埃米尔空军 (Qatar Emiri Air Force)",
+      "org_type": "MIL",
+      "org_description": "卡塔尔武装力量的空中力量分支，与埃米尔卫队同属武装力量序列",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "QA-MIL-002",
+      "org_name": "卡塔尔埃米尔海军 (Qatari Emiri Navy)",
+      "org_type": "MIL",
+      "org_description": "卡塔尔武装力量的海上力量分支，与埃米尔卫队同属武装力量序列",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "卡塔尔埃米尔卫队（حرس الأميري，英译亦作Emiri Guard）是承担要员警卫与国家礼仪勤务的精锐军事单位。2007年4月5日，时任王储塔米姆·本·哈马德·阿勒萨尼以第9号埃米尔决定批准设立「埃米尔卫队」，规定其为具有独立法人地位的军事力量，直接隶属埃米尔，同时被视为卡塔尔武装力量的组成部分。根据该决定，卫队法定职责包括：保卫埃米尔制政体；随时确保埃米尔与王储在国内外的安全；保护其家属及指定的统治家族成员；在外国元首来访期间承担安保与礼宾护卫；守卫埃米尔办公厅、各宫殿及指定地点；提供军事随行人员；在国家元首访问、新任使节递交国书等礼仪场合执行仪仗任务；并在接获请求时向武装部队和其他军事机构提供支援。卫队由指挥官和副指挥官（均由埃米尔以决定任命）以及军官、士官、士兵和文职人员组成。卫队承担全军的公开礼仪勤务，仪仗采用英式礼节，每年参加卡塔尔国庆阅兵。卫队下设卫队学校，公开承担新兵基础训练及要员保护、快速介入、战术急救等课程。公开对外交流包括：2020年1月与阿曼苏丹特别部队举行「卡瓦西尔2」联合训练；指挥官曾访问巴基斯坦商谈军事合作；2025年7月时任指挥官出席伊斯坦布尔第17届国际防务工业展开幕式。2025年12月21日第66号埃米尔决定任命穆罕默德·本·苏尔坦·阿勒苏瓦迪少将为指挥官，同日原指挥官阿尔-沙赫瓦尼改任埃米尔办公厅国务大臣。",
+  "industries": [
+    "defence_military",
+    "internal_security"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，未参与APEC合作进程。埃米尔卫队是负责国家元首警卫与礼仪勤务的国内军事单位，职能不涉及亚太经贸合作事务；其公开的对外交往（如与阿曼、巴基斯坦、英国军方的交流及出席国际防务展览）均在双边与地区防务合作框架下进行，与APEC机制没有直接关联。",
+  "profile": {
+    "source_url": "https://en.wikipedia.org/wiki/Qatar_Amiri_Guard",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q96251856"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "government_registry",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 85,
+    "notes": "Phase 3丰富化（2026-09-11）：Wikidata QID Q96251856经核实与机构一致（P361指向卡塔尔武装力量、P17为卡塔尔、P31为军事单位），未做修改；原非标准顶层字段brief/description中的有效事实已并入core_business后删除。founded_date依据Almeezan卡塔尔官方法律门户刊载的第9号埃米尔决定（2007年4月5日设立埃米尔卫队）。官网域名qag.gov.qa经其Facebook官方主页链接及邮件系统标识核实，但主站自境外访问受限。key_people中副指挥官阿里·苏拉布·阿勒沙赫瓦尼·阿勒哈吉里（2026年第5号埃米尔决定任命）暂无已注册person_id，留null待P4回填；指挥官条目的person_id=QA-PERSON-000245保持不变。",
+    "quotes": [
+      {
+        "title": "Qatar Amiri Guard - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Amiri_Guard"
+      },
+      {
+        "title": "الحرس الأميري القطري - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/الحرس_الأميري_القطري"
+      },
+      {
+        "title": "قرار أميري رقم (9) لسنة 2007 بإنشاء الحرس الأميري - الميزان（卡塔尔官方法律门户）",
+        "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=2926&language=ar"
+      },
+      {
+        "title": "قرار أميري رقم (5) لسنة 2026 بتعيين نائب لقائد الحرس الأميري - الميزان",
+        "url": "https://almeezan.qa/LawPage.aspx?id=10285&language=ar"
+      },
+      {
+        "title": "HH The Amir Issues Amiri Decision Appointing Amiri Guard Commander - Amiri Diwan",
+        "url": "https://www.diwan.gov.qa/en/briefing-room/news/general/lg/2025/december/21/lg02"
+      },
+      {
+        "title": "سمو الأمير يشهد مسير اليوم الوطني للدولة - الديوان الأميري",
+        "url": "https://www.diwan.gov.qa/briefing-room/news/activities-and-occasions/2025/december/18/hh-the-amir-attends-qatar-national-day-parade"
+      },
+      {
+        "title": "Amiri Guard Commander Participates in Opening of International Defence Industry Fair in Istanbul - QNA",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-7/23/amiri-guard-commander-participates-in-opening-of-international-defence-industry-fair-in-istanbul"
+      },
+      {
+        "title": "Amiri Guard Commander Meets UK Defense Attache - QNA",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-2/1/amiri-guard-commander-meets-uk-defense-attache"
+      },
+      {
+        "title": "Amiri Guard Celebrates Graduation of Basic Training Courses - QNA",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-5/21/amiri-guard-celebrates-graduation-of-basic-training-courses"
+      },
+      {
+        "title": "Amiri Guard Organizes Events to Celebrate National Sports Day - QNA",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-2/10/amiri-guard-organizes-events-to-celebrate-national-sports-day"
+      }
+    ]
   }
 }
