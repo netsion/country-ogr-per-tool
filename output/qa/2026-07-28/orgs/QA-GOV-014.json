@@ -2,14 +2,19 @@
   "org_id": "QA-GOV-014",
   "basic_info": {
     "name_original": "وزارة الاتصالات وتكنولوجيا المعلومات",
-    "name_zh": "卡塔尔信息与通信技术部",
-    "name_en": "Ministry of Information and Communications Technology (ictQATAR)",
-    "aliases": [],
+    "name_zh": "卡塔尔通信与信息技术部",
+    "name_en": "Ministry of Communications and Information Technology (MCIT)",
+    "aliases": [
+      "MCIT",
+      "ictQATAR",
+      "Ministry of Information and Communications Technology",
+      "卡塔尔信息与通信技术部"
+    ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2013-00-00",
+    "founded_date": "2013-01-01",
     "website": "https://www.mcit.gov.qa/en",
     "wikidata_qid": "Q18510682"
   },
@@ -18,30 +23,219 @@
       "platform": "twitter_x",
       "account_name": "MCITQatar",
       "url": "https://x.com/MCITQatar",
-      "source": "twitter_search"
+      "source": "web_search"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "mcitqatar",
+      "url": "https://www.linkedin.com/company/mcitqatar",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "mcitqatar",
+      "url": "https://www.instagram.com/mcitqatar",
+      "source": "web_search"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "MCITQatar",
+      "url": "https://www.facebook.com/MCITQatar",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔负责信息通信技术政策的政府部门",
+  "digital_assets": [
+    {
+      "name": "Hukoomi卡塔尔政府服务门户",
+      "url": "https://hukoomi.gov.qa",
+      "description": "卡塔尔官方电子政务门户，由本部依据2021年第57号埃米尔法令负责开发运营；2026年6月发布以「数字工厂」计划为依托的新版平台",
+      "source": "https://thepeninsulaqatar.com/article/16/06/2026/mcit-officially-launches-new-enhanced-hukoomi-platform"
+    },
+    {
+      "name": "2030数字议程官方专页",
+      "url": "https://www.mcit.gov.qa/en/about-us/digital-agenda-2030",
+      "description": "本部官网发布的国家数字议程（Digital Agenda 2030）介绍页面，涵盖六大战略支柱与32个实施计划",
+      "source": "https://www.mcit.gov.qa"
+    },
+    {
+      "name": "Digital Station数字人才与项目门户",
+      "url": "https://digital.mcit.gov.qa",
+      "description": "本部数字技能与人才培养项目门户，载有数字技能框架（DSF）、数字人才引进与留用（DTAR）等项目信息",
+      "source": "https://digital.mcit.gov.qa"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "穆罕默德·本·阿里·本·穆罕默德·马纳伊 (Mohammed bin Ali bin Mohammed Al Mannai)",
+      "title": "通信与信息技术大臣",
+      "title_description": "2021年10月19日内阁改组中获任命，主管卡塔尔通信与信息技术政策及「2030数字议程」的实施",
+      "description": "拥有20余年通信行业经验，曾任卡塔尔通信监管局（CRA）总裁、卡塔尔国家宽带网络公司（Qnbn）总裁；任内推动「2030数字议程」、政府云、新版Hukoomi门户及MWC多哈大会等国家级数字化项目"
+    },
+    {
+      "person_id": null,
+      "name": "里姆·穆罕默德·曼苏里 (Reem Mohammed Al Mansoori)",
+      "title": "助理次长（数字产业事务）",
+      "title_description": "分管数字经济与数字产业事务，涵盖数字孵化中心等初创企业培育计划",
+      "description": "2023年3月曾以数字社会发展助理次长身份率团参加在多哈举行的第五届联合国最不发达国家会议（LDC5）；2026年6月获法国政府授予荣誉军团勋章，以表彰其在数字技术、创新与人工智能领域促进卡塔尔与法国合作中的贡献"
+    },
+    {
+      "person_id": null,
+      "name": "玛莎尔·阿里·哈马迪 (Mashael Ali Al-Hammadi)",
+      "title": "助理次长（数字政府事务）",
+      "title_description": "分管政府数字化转型与电子政务平台事务",
+      "description": "长期在卡塔尔政府数字化部门任职，代表本部参与数字政府相关活动与国际交流；卡塔尔国家人口委员会发布的人物简介中，其职衔亦译作政府信息技术事务助理次长"
+    }
+  ],
+  "departments": [
+    {
+      "name": "数字政府事务部门 (Digital Government Affairs)",
+      "dept_id": null,
+      "head": "玛莎尔·阿里·哈马迪 (Mashael Ali Al-Hammadi)",
+      "description": "统筹电子政务与政府数字平台建设，覆盖Hukoomi政府门户、卡塔尔政府云（Qatar Cloud）、国家认证系统（Tawtheeq）、政府网络（GOVNET）等国家级平台",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数字产业事务部门 (Digital Industry Affairs)",
+      "dept_id": null,
+      "head": "里姆·穆罕默德·曼苏里 (Reem Mohammed Al Mansoori)",
+      "description": "推动数字经济与数字产业发展，涵盖数字孵化中心（DIC）、初创企业加速与数字投资环境建设等职能",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数字社会发展部门 (Digital Society Development)",
+      "dept_id": null,
+      "head": null,
+      "description": "提升全民数字素养与数字包容，推进「数字社会」计划、数字技能框架（DSF）等项目；2023年官方报道中该部门为助理次长级单位",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-02-28",
+      "title": "卡塔尔发布「2030数字议程」",
+      "description": "本部在首相兼外交大臣穆罕默德·本·阿卜杜拉赫曼·阿勒萨尼赞助下正式发布国家数字议程（Digital Agenda 2030），该议程围绕数字基础设施、数字政府、数字创新等六大战略支柱展开，包含32个实施计划，旨在为国家的数字化转型与数字经济发展提供总体框架",
+      "impact": "确立卡塔尔至2030年数字化转型的总体政策框架，为政府、产业与社会层面的数字化项目提供依据",
+      "source": "https://thepeninsulaqatar.com/article/28/02/2024/qatar-launches-national-digital-agenda-comprising-32-programmes"
+    },
+    {
+      "date": "2025-11-22",
+      "title": "首届MWC25多哈大会筹备完成，本部为合作方",
+      "description": "由GSMA主办、本部合作举办的MWC25多哈大会于2025年11月25日至26日在多哈展览会展中心（DECC）举行，为该系列会议首次落地多哈；大会汇聚200余名演讲者（其中75%来自卡塔尔境外），卡塔尔大学出任首个教育合作伙伴；本部组织7场专题讨论和4场闭门圆桌，并携数字孵化中心、TASMU加速器和Scale Now计划的初创企业参展",
+      "impact": "卡塔尔首次承办GSMA移动世界大会系列会议，提升其区域数字枢纽地位，并为本国初创企业提供国际对接平台",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-11/22/final-preparations-conclude-for-mwc25-doha-in-partnership-with-gsma"
+    },
+    {
+      "date": "2026-01-31",
+      "title": "本部公布2026年Web Summit卡塔尔峰会参会方案",
+      "description": "本部公布参加第三届Web Summit卡塔尔峰会（2026年2月1日至4日，DECC）的综合参会方案，包括设置互动展台和互动剧场，举办22场以上专题讨论与现场演示，主题涵盖数字化转型、人工智能、创业与创新等，并与Invest Qatar协调组织",
+      "impact": "延续本部在全球科技盛会中的深度参与，向国际创投界展示卡塔尔数字化转型与创业生态经验",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-1/31/mcit-reveals-participation-programme-in-web-summit-2026"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "本部正式发布新版Hukoomi政府服务平台",
+      "description": "本部当日正式发布新版「Hukoomi」平台，为「数字工厂」（Digital Factory）计划的首项成果；该平台整合技术、数据与设计，旨在强化政府各部门之间的互联与统一治理，提升以民众为中心的数字政府服务体验",
+      "impact": "卡塔尔政府数字服务统一入口完成升级，为跨部门服务整合与「2030数字议程」目标的落实提供新基础",
+      "source": "https://thepeninsulaqatar.com/article/16/06/2026/mcit-officially-launches-new-enhanced-hukoomi-platform"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "卡塔尔将于11月同期主办MWC26多哈与ITU全权代表大会",
+      "description": "据卡塔尔通讯社报道，本部将与GSMA合作于2026年11月8日至10日在DECC主办第二届MWC26多哈大会；同期通信监管局（CRA）将在同一场馆主办国际电信联盟全权代表大会（PP-26，2026年11月9日至27日），两项全球性科技与政策盛会首次同期举行",
+      "impact": "全球科技产业与数字政策议程同期落地多哈，进一步强化卡塔尔在全球数字合作中的平台角色，并助推「2030数字议程」实施",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-8/31/qatar-to-host-mwc26-doha-alongside-itu-plenipotentiary-conference-in-november"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-GOV-006",
+      "org_name": "卡塔尔交通与通信部 (Ministry of Transport and Communications)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔政府部委之一（2004年设立），名称涵盖交通与通信两大政策领域；与本部同属卡塔尔内阁组成部门",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔通信监管局 (Communications Regulatory Authority, CRA)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔电信市场监管机构，2014年前后自ictQATAR体系分立，负责维护通信市场竞争环境；现任大臣马纳伊曾任该局总裁",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-SOE-004",
+      "org_name": "欧瑞德电信 (Ooredoo)",
+      "org_type": "SOE",
+      "org_description": "卡塔尔主要电信运营商，其所在电信与数字经济行业属本部产业政策与数字基础设施建设统筹范围",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-CORP-004",
+      "org_name": "沃达丰卡塔尔 (Vodafone Qatar)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔电信服务企业，同处本部产业政策覆盖的电信与数字经济行业",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "卡塔尔通信与信息技术部（MCIT）是卡塔尔主管通信与信息技术（ICT）政策的政府部门，依据2021年第57号埃米尔法令履行职能，包括统筹和推动ICT行业发展、提升社会对通信与信息技术的认知、实施电子政务项目并运营卡塔尔政府门户「Hukoomi」。其官方愿景为「拥抱数字进步以驱动卡塔尔的竞争力与繁荣」，使命是依托高产出数字投资和有吸引力的营商环境，建立领先的数字经济。机构沿革方面：2003年卡塔尔启动电子政务项目，2004年依据第36号埃米尔法令设立信息与通信技术最高委员会（ictQATAR）；2013年6月新内阁宣布在其基础上设立信息与通信技术部；2021年10月19日内阁改组后由穆罕默德·本·阿里·本·穆罕默德·马纳伊出任大臣并沿用现名。该部运营或支撑多项国家级数字平台，包括政府门户Hukoomi、文件核验平台Tasdeeq、卡塔尔政府云（Qatar Cloud）、政府数据中心、国家认证系统（Tawtheeq）与政府网络（GOVNET）等，并牵头「2030数字议程」（六大战略支柱、32个计划）、「数字工厂」、GovAI等旗舰计划，推动阿拉伯语大语言模型「Fanar」等人工智能布局，服务于卡塔尔2030国家愿景下的数字化转型目标。",
   "industries": [
     "public_administration",
-    "mobile_telecommunications"
+    "information_technology",
+    "telecommunications",
+    "cloud_computing"
   ],
-  "apec_stance": null,
-  "description": "卡塔尔负责信息通信技术政策的政府部门",
-  "brief": "Government ministry of Qatar",
+  "apec_stance": "卡塔尔为APEC非成员经济体，本部不直接参与APEC进程及其数字经济合作机制。该部主导的多边数字合作主要依托国际电信联盟（ITU，2026年11月多哈将同期主办ITU全权代表大会与MWC26多哈大会）和阿拉伯信息通信技术组织（AICTO）等区域与国际平台；其「2030数字议程」推动的云计算、人工智能与初创企业生态面向全球投资者开放，与亚太区域数字经济活动存在客观业务联系。",
+  "profile": {
+    "source_url": "https://www.mcit.gov.qa/en/about-us",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q18510682"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "government_directory"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "Phase 3 丰富化：QID Q18510682 经英文维基百科核实为现任实体（条目现名 Ministry of Communications and Information Technology (Qatar)），原英文名 Ministry of Information and Communications Technology (ictQATAR) 移入 aliases；官网 mcit.gov.qa 采集时处于维护/反爬状态，About us 内容取自 Wayback Machine 2026年4月快照；机构沿革与职能经维基百科、官方时间线及gco.gov.qa内阁名录交叉核实；事件经QNA与The Peninsula核实；key_people 三人均未收录于 _name_index.json，person_id 为 null 待 P4 回填（里姆·穆罕默德·曼苏里疑与 id_registry 中 QA-PERSON-000159 Reem al-Mansoori 为同一人，待核）",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Ministry of Communications and Information Technology (Qatar) - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Communications_and_Information_Technology_(Qatar)"
+      },
+      {
+        "title": "MCIT Qatar 官方网站 About Us（Wayback Machine 2026-04 快照）",
+        "url": "http://web.archive.org/web/20260417205652/https://www.mcit.gov.qa/en/about-us/"
+      },
+      {
+        "title": "Minister of Communications and Information Technology - 卡塔尔政府传播局（GCO）内阁成员名录",
+        "url": "https://www.gco.gov.qa/en/state-of-qatar/state-institutions/council-of-ministers/members-of-the-cabinet/minister-of-communications-and-information-technology/"
+      },
+      {
+        "title": "卡塔尔发布含32个计划的国家数字议程（The Peninsula）",
+        "url": "https://thepeninsulaqatar.com/article/28/02/2024/qatar-launches-national-digital-agenda-comprising-32-programmes"
+      },
+      {
+        "title": "MWC25 Doha 与GSMA合作最后筹备完成（QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-11/22/final-preparations-conclude-for-mwc25-doha-in-partnership-with-gsma"
+      },
+      {
+        "title": "MCIT 公布 Web Summit 2026 参会方案（QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-1/31/mcit-reveals-participation-programme-in-web-summit-2026"
+      },
+      {
+        "title": "MCIT 正式发布升级版 Hukoomi 平台（The Peninsula）",
+        "url": "https://thepeninsulaqatar.com/article/16/06/2026/mcit-officially-launches-new-enhanced-hukoomi-platform"
+      },
+      {
+        "title": "卡塔尔将同期主办 MWC26 Doha 与 ITU 全权代表大会（QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-8/31/qatar-to-host-mwc26-doha-alongside-itu-plenipotentiary-conference-in-november"
+      }
+    ]
   }
 }

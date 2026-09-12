@@ -4,12 +4,17 @@
     "name_original": "نادي الوكرة",
     "name_zh": "瓦克拉体育俱乐部",
     "name_en": "Al-Wakrah Sports Club",
-    "aliases": [],
+    "aliases": [
+      "Al-Wakrah S.C.",
+      "Al Wakrah Sport Club",
+      "نادي الوكرة الرياضي",
+      "The Blue Waves (الموج الأزرق)"
+    ],
     "org_type": "CORP",
     "org_subtype": "private_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1959-00-00",
+    "founded_date": "1959-01-01",
     "website": "https://alwakrahsc.qa/",
     "wikidata_qid": "Q284281"
   },
@@ -18,36 +23,216 @@
       "platform": "twitter_x",
       "account_name": "alwakrah_sc",
       "url": "https://x.com/alwakrah_sc",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "alwakrah_sc",
       "url": "https://www.instagram.com/alwakrah_sc/",
       "source": "instagram_search"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Alwakrah.Sports.Club",
+      "url": "https://www.facebook.com/Alwakrah.Sports.Club",
+      "source": "news_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔职业足球俱乐部",
-  "industries": [
-    "industrial_manufacturing"
+  "digital_assets": [
+    {
+      "name": "瓦克拉俱乐部官方网站新闻中心",
+      "url": "https://alwakrahsc.qa/category/clubnews/",
+      "description": "俱乐部官网新闻栏目，发布一线队赛事、董事会与会员大会动态及各项目部官方消息",
+      "source": "https://alwakrahsc.qa/"
+    },
+    {
+      "name": "瓦克拉俱乐部一线队页面",
+      "url": "https://alwakrahsc.qa/first-team/",
+      "description": "官网一线队页面，提供球队阵容、赛程与结果查询入口，并链接行政与技术团队名录",
+      "source": "https://alwakrahsc.qa/"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔职业足球俱乐部",
-  "brief": "association football club",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·萨乌德·本·阿卜杜拉赫曼·本·哈桑·阿勒萨尼 (Sheikh Saud bin Abdulrahman bin Hassan Al Thani)",
+      "title": "董事会主席（俱乐部主席）",
+      "title_description": "2025年7月15日经特别会员大会推举出任，接替因健康原因辞职的谢赫·哈利法·本·哈桑·阿勒萨尼",
+      "description": "出身卡塔尔阿勒萨尼家族哈桑支系；官网董事会名录现任主席；任内主持2026年7月俱乐部新视觉标识与新队徽发布等工作"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·穆罕默德·本·法赫德·阿勒萨尼 (Sheikh Mohammed bin Fahd Al Thani)",
+      "title": "董事会副主席",
+      "title_description": "2025年7月15日与主席萨乌德同届经特别会员大会推举出任",
+      "description": "官网董事会名录列名的俱乐部副主席；与前主席哈利法·本·哈桑时期的副主席萨勒曼·阿卜杜勒加尼为前后任"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜勒哈迪·哈米斯·哈桑 (Abdulhadi Khamis Hassan)",
+      "title": "总经理",
+      "title_description": "主管俱乐部日常运营与行政事务",
+      "description": "官网董事会名录列名的总经理；2025年7月15日主持审议前主席辞职及推举新主席的特别会员大会，2026年7月主持发布新队徽的会员大会"
+    },
+    {
+      "person_id": null,
+      "name": "何塞·路易斯·谢拉 (Jose Luis Sierra)",
+      "title": "一线队主教练",
+      "title_description": "2026年3月27日上任，接替转投赖扬的西班牙教练比森特·莫雷诺（Vicente Moreno）",
+      "description": "智利籍教练，1968年生于智利，球员时代为智利国脚；2026年3月底接手2025-26赛季冲刺阶段，官网2026年7月确认其留任执教2026-27赛季"
+    }
+  ],
+  "departments": [
+    {
+      "name": "足球部",
+      "dept_id": null,
+      "head": null,
+      "description": "核心业务部门，一线队参加卡塔尔星级联赛，主场为贾努布球场；官网下设一线队、五人制足球（صالات）及各年龄段青少年梯队栏目",
+      "parent_dept_id": null
+    },
+    {
+      "name": "手球部",
+      "dept_id": null,
+      "head": null,
+      "description": "俱乐部传统项目，1965年俱乐部正式注册时即与足球同期组建",
+      "parent_dept_id": null
+    },
+    {
+      "name": "篮球、排球部",
+      "dept_id": null,
+      "head": null,
+      "description": "运营篮球与排球项目运动队，参加卡塔尔国内相关赛事，官网设独立栏目",
+      "parent_dept_id": null
+    },
+    {
+      "name": "田径、游泳及乒乓球等项目部",
+      "dept_id": null,
+      "head": null,
+      "description": "涵盖田径、游泳、乒乓球等项目，官网均设专门栏目；俱乐部历史上还开展过国际象棋、网球、壁球和保龄球等项目",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-05-04",
+      "title": "夺得2024年卡塔尔杯冠军，时隔25年再捧杯",
+      "description": "卡塔尔杯决赛在阿卜杜拉·本·哈利法体育场举行，瓦克拉以1-0击败赖扬体育俱乐部夺冠，这是俱乐部继1999年后第二次夺得该项赛事冠军；半决赛瓦克拉点球5-4淘汰穆艾德尔；卡塔尔奥委会主席谢赫·乔安·本·哈马德·阿勒萨尼为冠军队颁奖",
+      "impact": "结束长达25年的冠军等待，并获得2024-25赛季亚足联冠军联赛二级联赛参赛资格",
+      "source": "https://www.qsl.qa/en/news/al-wakrah-crowned-qatar-cup-2024-champions"
+    },
+    {
+      "date": "2025-02-19",
+      "title": "亚足联冠军联赛二级联赛十六强点球负于沙特塔阿旺",
+      "description": "2024-25赛季亚足联冠军联赛二级联赛中，瓦克拉以A组次名出线（同组为伊朗大不里士拖拉机与塔吉克斯坦拉夫尚）；十六强首回合主场2-2、次回合客场2-2与沙特塔阿旺战成总比分4-4，点球大战3-4落败无缘八强",
+      "impact": "首次以卡塔尔杯冠军身份出战洲际赛事即跻身淘汰赛，国际比赛经验有所积累",
+      "source": "https://qsl.qa/en/node/19373"
+    },
+    {
+      "date": "2025-07-15",
+      "title": "谢赫·萨乌德·本·阿卜杜拉赫曼出任俱乐部主席",
+      "description": "因原主席谢赫·哈利法·本·哈桑·阿勒萨尼及副主席萨勒曼·阿卜杜勒加尼辞职（哈利法因健康原因），俱乐部特别会员大会于7月15日晚推举谢赫·萨乌德·本·阿卜杜拉赫曼·本·哈桑·阿勒萨尼为主席、谢赫·穆罕默德·本·法赫德·阿勒萨尼为副主席，任期至同年8月14日会员大会选举；会议由总经理阿卜杜勒哈迪·哈米斯主持，24名会员出席",
+      "impact": "俱乐部治理层完成平稳交接，新管理层随后推进品牌视觉更新等事务",
+      "source": "https://al-sharq.com/article/16/07/2025/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D9%84%D9%84%D9%88%D9%83%D8%B1%D8%A9"
+    },
+    {
+      "date": "2026-03-27",
+      "title": "任命智利教练何塞·路易斯·谢拉为一线队主教练",
+      "description": "俱乐部官方宣布聘请智利教练何塞·路易斯·谢拉出任一线队主教练，接替此前离任并转投赖扬的西班牙教练比森特·莫雷诺；谢拉1968年生于智利，球员时代为智利国脚，官网其后确认其留任执教2026-27赛季",
+      "impact": "2025-26赛季冲刺阶段重组教练组，球队当赛季最终列卡塔尔星级联赛第8名",
+      "source": "https://www.gulf-times.com/article/722984/sport/al-wakrah-appoint-sierra-as-head-coach"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "发布俱乐部新视觉标识与新队徽",
+      "description": "瓦克拉体育俱乐部在会员大会（「忠诚之夜」）期间正式发布全新视觉标识与新队徽，宣告俱乐部进入新的发展阶段；新标识面向社会公开征集设计方案后选出，延续俱乐部海滨城市与「南方城堡」的历史意象",
+      "impact": "俱乐部品牌重塑的标志性节点，配合新主席任内的会员结构与俱乐部章程修订",
+      "source": "https://alwakrahsc.qa/%D8%A7%D9%84%D9%88%D9%83%D8%B1%D8%A9-%D9%8A%D8%B2%D9%8A%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A7%D8%B1-%D8%B9%D9%86-%D8%A7%D9%84%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-011",
+      "org_name": "卡塔尔足球协会 (Qatar Football Association)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球管理机构，负责组织卡塔尔星级联赛、埃米尔杯等国内赛事；瓦克拉一线队在其组织的赛事中参赛",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "QA-NGO-010",
+      "org_name": "卡塔尔国家奥林匹克委员会 (Qatar Olympic Committee)",
+      "org_type": "NGO",
+      "org_description": "统筹卡塔尔体育运动的全国性体育组织，2024年卡塔尔杯颁奖仪式由其主席谢赫·乔安·本·哈马德·阿勒萨尼向瓦克拉颁发冠军奖杯",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔星级联赛 (Qatar Stars League)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔顶级足球联赛及其运营机构，瓦克拉一线队为其参赛俱乐部，曾于1998-99和2000-01赛季两夺联赛冠军",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "巴瓦房地产 (Barwa Real Estate)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔上市房地产企业、俱乐部赞助商，2026年8月经俱乐部官网宣布续约赞助球队",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "瓦克拉体育俱乐部（نادي الوكرة）创立于1959年，1965年正式注册时称瓦克拉青年俱乐部，1967年改为现名，总部位于多哈以南的瓦克拉市，是卡塔尔历史悠久的综合性体育俱乐部，昵称「蓝色波浪」（The Blue Waves），球迷群体被称为「水手」（Al-Nawakhda）。俱乐部核心业务为职业足球，一线队参加卡塔尔顶级联赛卡塔尔星级联赛，主场为2019年启用的贾努布球场（Al Janoub Stadium）；该球场由建筑师扎哈·哈迪德设计，可容纳约4.4万名观众，系2022年卡塔尔世界杯比赛场馆之一。俱乐部曾两夺卡塔尔星级联赛冠军（1998-99、2000-01赛季），并获1999年和2024年卡塔尔杯冠军（2024年决赛1-0胜赖扬，时隔25年再捧杯）、4次谢赫·贾西姆杯（1989、1991、1998、2004）、1次卡塔尔星杯（2011）及1984-85、2018-19赛季卡塔尔次级联赛冠军；近几个赛季2023-24列联赛第4，2024-25与2025-26赛季均列第8，并以2024年卡塔尔杯冠军身份参加2024-25赛季亚足联冠军联赛二级联赛，小组赛A组次名出线，十六强总比分4-4战平沙特塔阿旺后点球落败。除足球外，俱乐部设五人制足球、手球、篮球、排球、游泳、田径、乒乓球等项目，历史上还开展过国际象棋、网球、壁球和保龄球。俱乐部实行会员大会制度，由董事会治理，现任主席为2025年7月就任的谢赫·萨乌德·本·阿卜杜拉赫曼·本·哈桑·阿勒萨尼，总经理为阿卜杜勒哈迪·哈米斯；2022年世界杯期间因阿根廷球迷采用其配色助威而在国际上获得关注，2026年7月俱乐部发布全新视觉标识与新队徽，并获巴瓦房地产等企业赞助支持。",
+  "industries": [
+    "sports"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，瓦克拉体育俱乐部作为体育组织不直接参与APEC框架下的经贸议程。俱乐部的国际联系主要体现在亚洲足球交流层面：其以2024年卡塔尔杯冠军身份参加2024-25赛季亚足联冠军联赛二级联赛，与沙特阿拉伯、伊朗等经济体的俱乐部同场竞技，历史上还曾在2001年和2002年参加亚洲俱乐部锦标赛。其主场贾努布球场为2022年世界杯场馆，世界杯期间俱乐部因阿根廷球迷采用其蓝白配色助威而在国际社交媒体受到关注，带动了瓦克拉地区的体育旅游人流。",
+  "profile": {
+    "source_url": "https://alwakrahsc.qa/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9/",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q284281",
-      "https://alwakrahsc.qa/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "Phase 3丰富化：骨架wikidata_qid Q284281经Wikidata API核实为瓦克拉体育俱乐部本体，无需改绑；骨架industries误填industrial_manufacturing已修正为sports；顶层非标准字段brief/description的有效事实已并入core_business后删除。现任管理层核实自官网董事会名录及《东方报》（al-sharq.com）：英文Wikipedia信息框所列主席谢赫·哈利法·本·哈桑已于2025年7月因健康原因辞职，现任主席为谢赫·萨乌德·本·阿卜杜拉赫曼·本·哈桑·阿勒萨尼（2025-07-15特别会员大会推举）。founded_date仅知年份1959，按规范记为1959-01-01。key_people中萨乌德·本·阿卜杜拉赫曼、穆罕默德·本·法赫德、阿卜杜勒哈迪·哈米斯、何塞·路易斯·谢拉均未收录于_name_index.json，person_id为null待P4回填。全部recent_events来源URL经HTTP 200验证。",
+    "quotes": [
+      {
+        "title": "Al-Wakrah SC - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Al-Wakrah_SC"
+      },
+      {
+        "title": "Wikidata - Al-Wakrah Sports Club (Q284281)",
+        "url": "https://www.wikidata.org/wiki/Q284281"
+      },
+      {
+        "title": "مجلس الإدارة - نادي الوكرة الرياضي（俱乐部官网董事会名录）",
+        "url": "https://alwakrahsc.qa/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9/"
+      },
+      {
+        "title": "Al Wakrah crowned Qatar Cup 2024 champions（QSL官网）",
+        "url": "https://www.qsl.qa/en/news/al-wakrah-crowned-qatar-cup-2024-champions"
+      },
+      {
+        "title": "Al Wakrah bow out of AFC Champions League Two, losing 3-4 on penalties（QSL官网）",
+        "url": "https://qsl.qa/en/node/19373"
+      },
+      {
+        "title": "الشيخ سعود بن عبد الرحمن رئيساً للوكرة（جريدة الشرق，主席更迭报道）",
+        "url": "https://al-sharq.com/article/16/07/2025/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B3%D8%B9%D9%88%D8%AF-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D9%84%D9%84%D9%88%D9%83%D8%B1%D8%A9"
+      },
+      {
+        "title": "Al Wakrah appoint Sierra as head coach（Gulf Times）",
+        "url": "https://www.gulf-times.com/article/722984/sport/al-wakrah-appoint-sierra-as-head-coach"
+      },
+      {
+        "title": "الوكرة يزيح الستار عن الشعار الجديد في ليلة الوفاء（俱乐部官网，新队徽发布）",
+        "url": "https://alwakrahsc.qa/%D8%A7%D9%84%D9%88%D9%83%D8%B1%D8%A9-%D9%8A%D8%B2%D9%8A%D8%AD-%D8%A7%D9%84%D8%B3%D8%AA%D8%A7%D8%B1-%D8%B9%D9%86-%D8%A7%D9%84%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A/"
+      }
+    ]
   }
 }

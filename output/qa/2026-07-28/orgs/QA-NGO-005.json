@@ -4,7 +4,10 @@
     "name_original": "Hamad General Hospital",
     "name_zh": "哈马德总医院",
     "name_en": "Hamad General Hospital",
-    "aliases": [],
+    "aliases": [
+      "HGH",
+      "مستشفى حمد العام"
+    ],
     "org_type": "NGO",
     "org_subtype": "foundation",
     "country_iso3": "QAT",
@@ -16,32 +19,209 @@
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "HmcQatar",
-      "url": "https://x.com/HmcQatar",
-      "source": "twitter_search"
+      "account_name": "HMC_Qatar",
+      "url": "https://x.com/HMC_Qatar",
+      "source": "hamad.qa官网页脚引用的X账号（母机构哈马德医疗公司官方账号，覆盖哈马德总医院动态）；修正骨架中原记录的HmcQatar句柄"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Hamad Medical Corporation",
+      "url": "https://www.facebook.com/hamadmedicalcorporation",
+      "source": "Facebook官方主页（母机构账号）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "hmc_qatar",
+      "url": "https://www.instagram.com/hmc_qatar/",
+      "source": "Instagram官方账号页，自述为哈马德医疗公司官方账号（母机构账号）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Hamad Medical Corporation",
+      "url": "https://www.linkedin.com/company/hamad-medical-corporation",
+      "source": "LinkedIn公司页（母机构账号）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔最大综合医院",
+  "digital_assets": [
+    {
+      "name": "哈马德总医院官方页面（hamad.qa）",
+      "url": "https://www.hamad.qa/EN/Hospitals-and-services/Hamad-General-Hospital/Pages/default.aspx",
+      "description": "医院官方信息页，载明JCI认证历史（2006年首认证，2009、2012、2016、2019年续证）、医生查询入口、联系电话4439 4444及16060服务热线",
+      "source": "https://www.hamad.qa"
+    },
+    {
+      "name": "哈马德医疗公司患者门户（Patient Portal）",
+      "url": "https://www.hamad.qa/EN/Patient-Information/Patient-Portal/Pages/default.aspx",
+      "description": "从哈马德总医院官网「Access your patient record information」入口链接的患者电子病历查询门户",
+      "source": "https://www.hamad.qa/EN/Hospitals-and-services/Hamad-General-Hospital/Pages/default.aspx"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "穆娜·阿卜杜勒拉赫曼·马斯莱马尼 (Muna Abdulrahman Al Maslamani)",
+      "title": "医疗总监 (Medical Director)",
+      "title_description": "主持哈马德总医院医疗业务管理；兼任哈马德医疗公司传染病中心 (Communicable Disease Center) 首席执行官",
+      "description": "2023年11月19日经时任公共卫生部长兼哈马德医疗公司总裁哈南·阿勒库瓦里任命出任哈马德总医院医疗总监；2024年10月以医疗总监身份对外说明医院现代化改造期间的服务安排，包括保持370余张床位开放，创伤与急诊中心、骨与关节中心、儿科急诊中心及法赫德·本·贾西姆肾中心持续运营"
+    },
+    {
+      "person_id": null,
+      "name": "阿夫塔布·穆罕默德·奥马尔 (Aftab Mohammad Umar)",
+      "title": "急诊医学主席 (Chairman of Emergency Medicine)",
+      "title_description": "2023年11月19日获任，主管哈马德医疗公司急诊医学服务，主要成人急诊与创伤诊疗设施设于哈马德总医院创伤与急诊中心",
+      "description": "哈马德医疗公司2023年11月高层任命名单中的急诊医学学科带头人；哈马德总医院急诊部为全球最繁忙的急诊部门之一，年接诊量逾百万人次"
+    },
+    {
+      "person_id": null,
+      "name": "穆罕默德·阿布·纳达 (Mohd Abu Nada)",
+      "title": "外科主席 (Chairman of Surgery)",
+      "title_description": "2023年11月19日获任，兼任外科服务代理副首席医疗官 (Acting Deputy Chief Medical Officer for Surgical Services)",
+      "description": "哈马德医疗公司2023年11月高层任命名单中的外科学科带头人；哈马德总医院为该院网络内外科住院与手术服务的主要承载医院"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": null,
+      "name": "创伤与急诊中心 (Hamad Trauma and Emergency Center)",
+      "head": "哈桑·阿勒萨尼 (Hassan Al Thani)",
+      "description": "2007年成立于哈马德总医院院区，按美国外科医师学会创伤委员会标准列为一级创伤中心，是卡塔尔国家创伤体系的核心，自2014年起持有加拿大国际认证局（Accreditation Canada International）创伤卓越认证，2025年3月被世界卫生组织指定为创伤合作中心；创伤与血管服务负责人为哈桑·阿勒萨尼",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "骨与关节中心 (Bone and Joint Center)",
+      "head": null,
+      "description": "由哈马德总医院运营的骨科专科服务中心；据医院2024年10月公告，现代化改造期间继续运营",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "法赫德·本·贾西姆肾中心 (Fahad Bin Jassim Kidney Center)",
+      "head": null,
+      "description": "由哈马德总医院运营的肾脏病专科服务中心；据医院2024年10月公告，现代化改造期间继续运营",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "住院诊疗与重症监护服务 (Inpatient and Critical Care Services)",
+      "head": null,
+      "description": "覆盖内科、外科及重症监护的住院服务；现代化改造第一阶段期间保持370余张床位开放，部分门诊服务迁往阿伊莎·宾特·哈马德·阿提亚医院及医疗研究与护理中心",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-02-16",
+      "title": "卡塔尔公共卫生工程局授标哈马德总医院重建项目，合同额约11.79亿里亚尔",
+      "description": "卡塔尔公共卫生工程局（Ashghal）公布2026年一季度授标与招标的20个新项目（总值约115亿里亚尔），其中哈马德总医院重建项目为六大重点建筑项目之一，合同总额约11.79亿卡塔尔里亚尔，内容包括改造医院系统与设施以跟上卫生领域发展；项目按招标法程序授予卡塔尔企业",
+      "impact": "为2024年启动的三年现代化改造计划落实工程实施主体，医院设施与系统将获得全面更新",
+      "source": "https://thepeninsulaqatar.com/article/16/02/2026/ashghal-announces-qr11bn-worth-projects-including-hamad-general-hospital-redevelopment"
+    },
+    {
+      "date": "2025-03-11",
+      "title": "设于院内的哈马德创伤中心被世界卫生组织指定为创伤合作中心",
+      "description": "设于哈马德总医院的哈马德创伤中心被世卫组织指定为创伤合作中心，成为哈马德医疗公司旗下第三个WHO合作中心；该中心将支持世卫组织在创伤转诊路径评估、创伤管理培训标准制定及全球创伤救治实践社区建设等方面的工作",
+      "impact": "提升医院创伤学科的国际地位，为区域创伤体系能力建设、多机构临床研究与培训合作提供平台",
+      "source": "https://hamad.qa/EN/news/2025/March/Pages/Hamad-Trauma-Center-Designated-as-a-WHO-Collaborating-Center-on-Trauma.aspx"
+    },
+    {
+      "date": "2024-11-12",
+      "title": "埃米尔颁布2024年第71号决定任命哈马德医疗公司新总裁",
+      "description": "卡塔尔埃米尔发布2024年第71号埃米尔决定，任命谢赫穆罕默德·本·哈利法·本·穆罕默德·阿勒苏瓦伊迪为哈马德医疗公司总裁；哈马德医疗公司为哈马德总医院的上级运营管理机构，此前该职位由2007年起执掌机构、后出任公共卫生部长的哈南·阿勒库瓦里担任",
+      "impact": "医院上级管理机构完成主要负责人更替",
+      "source": "https://www.gulf-times.com/article/694402/qatar/amir-appoints-hmc-director-general"
+    },
+    {
+      "date": "2024-10-20",
+      "title": "启动为期三年的医院现代化改造计划",
+      "description": "哈马德医疗公司宣布对哈马德总医院实施为期三年的现代化改造，第一阶段自2025年起集中升级两栋住院楼及其底层，改造后将提供单人间与先进技术系统；改造期间两栋住院楼腾空，部分门诊迁至阿伊莎·宾特·哈马德·阿提亚医院及医疗研究与护理中心，医院保持370余张床位开放，创伤与急诊中心、骨与关节中心、儿科急诊中心及法赫德·本·贾西姆肾中心继续运营",
+      "impact": "短期内住院容量受限但核心服务不中断，长期将改善患者就医体验与设施技术水平",
+      "source": "https://hamad.qa/EN/news/2024/October/Pages/Hamad-General-Hospital-to-Embark-on-a-Major-Modernization-Program-to-Enhance-and-Upgrade-the-Facility.aspx"
+    },
+    {
+      "date": "2023-11-19",
+      "title": "公共卫生部长宣布高层任命，马斯莱马尼出任哈马德总医院医疗总监",
+      "description": "时任公共卫生部长兼哈马德医疗公司总裁哈南·阿勒库瓦里宣布一批卡塔尔籍高管任命，自2023年11月19日起生效；其中穆娜·阿卜杜勒拉赫曼·马斯莱马尼出任哈马德总医院医疗总监并兼任传染病中心首席执行官，同批任命还涉及急诊医学主席、外科主席等院内主要学科带头人职位",
+      "impact": "医院管理层换届，医疗总监及主要学科带头人职位完成人事更替",
+      "source": "https://hamad.qa/EN/news/2023/November/Pages/Minister-of-Public-Health-Announces-New-Senior-Leadership-Appointments-for-Hamad-Medical-Corporation.aspx"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-ACAD-010",
+      "org_name": "哈马德医疗公司 (Hamad Medical Corporation)",
+      "org_type": "ACAD",
+      "org_description": "卡塔尔主要公立医疗服务提供机构，总部位于多哈，运营涵盖哈马德总医院在内的多家医院、专科服务中心及急诊网络，为卡塔尔二级与三级医疗服务的主体提供者",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-GOV-008",
+      "org_name": "公共卫生部 (Ministry of Public Health)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔卫生主管部门，负责国家卫生政策与医疗服务监督；哈马德医疗公司多任总裁曾由该部部长兼任",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "QA-ACAD-003",
+      "org_name": "威尔·康奈尔医学院卡塔尔分校 (Weill Cornell Medical College in Qatar)",
+      "org_type": "ACAD",
+      "org_description": "位于多哈的医学院，与哈马德医疗公司医院网络开展医学教育与学生临床培训合作，为卡塔尔学术卫生体系成员",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "哈马德总医院（Hamad General Hospital，HGH）位于多哈，是卡塔尔主要公立医疗机构哈马德医疗公司（HMC）旗下历史最悠久、规模最大的综合医院之一，1982年建成投用，床位600余张，被视为卡塔尔医院体系的奠基性机构，是该地区领先的三级诊疗医院之一。医院临床服务涵盖创伤与急诊、内科、外科、重症监护、儿科急诊、骨科及肾脏病等领域：其创伤与急诊中心2007年成立，按美国外科医师学会标准列为一级创伤中心，是卡塔尔国家创伤体系的核心，急诊部为全球最繁忙的急诊部门之一，年接诊量逾百万人次；医院还运营骨与关节中心、法赫德·本·贾西姆肾中心及儿科急诊中心。质量认证方面，该院2006年首次通过国际医疗卫生机构认证联合委员会（JCI）认证，并于2009年、2012年、2016年和2019年多次续证；卡塔尔创伤体系自2014年起持有加拿大国际认证局（Accreditation Canada International）的创伤卓越认证，2025年3月设于院内的哈马德创伤中心被世界卫生组织指定为创伤合作中心。医院同时承担医学教育与临床研究职能，是哈马德医疗公司学术卫生体系的组成部分，研究产出收录于自然指数。2024年10月，哈马德医疗公司启动为期三年的医院现代化改造计划，第一阶段自2025年起对两栋住院楼及底层全面升级；2026年2月，卡塔尔公共卫生工程局（Ashghal）将总价值约11.79亿卡塔尔里亚尔的医院重建项目授标，用于更新系统与设施。改造期间医院保持370余张床位开放，继续提供创伤急诊、内外科及重症监护等核心服务。",
   "industries": [
+    "healthcare",
+    "public_health",
     "nonprofit"
   ],
-  "apec_stance": null,
-  "description": "卡塔尔最大综合医院",
-  "brief": "healthcare organization in Doha, Qatar",
+  "apec_stance": "卡塔尔为非APEC成员经济体，哈马德总医院作为卡塔尔公立医疗体系内的三级转诊医院，与APEC框架下的经贸合作进程没有直接关联。该院的对外合作主要体现为与世界卫生组织（2025年设于院内的创伤合作中心）、JCI及加拿大国际认证局等国际认证机构的临床质量合作，以及面向海湾区域的临床研究与学术交流。",
+  "profile": {
+    "source_url": "https://www.hamad.qa/EN/Hospitals-and-services/Hamad-General-Hospital/Pages/default.aspx",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q30254334",
-      "https://www.hamad.qa/EN/Hospitals-and-services/Hamad-General-Hospital/Pages/default.aspx"
+      "official_website",
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 88,
+    "notes": "Phase 3丰富化：经Wikidata API核实Q30254334确为哈马德总医院实体（英文名一致、P17=卡塔尔、P571=1982年），QID无需修正；原brief/description有效内容已并入core_business后删除；管理层与事件信息核实自hamad.qa官方新闻稿（2023-11-19任命、2024-10-20改造启动、2025-03-11 WHO合作中心）及Gulf Times（2024-11-12）、The Peninsula（2026-02-16）；社交媒体为母机构哈马德医疗公司官方账号，X句柄经官网页脚核实为@HMC_Qatar（修正骨架中的HmcQatar）；org_subtype沿用骨架值foundation（org_type=NGO体系内最接近枚举）；key_people三人在_name_index.json中无记录，person_id为null待P4回填",
+    "quotes": [
+      {
+        "title": "Hamad General Hospital - Hamad Medical Corporation 官方医院页",
+        "url": "https://www.hamad.qa/EN/Hospitals-and-services/Hamad-General-Hospital/Pages/default.aspx"
+      },
+      {
+        "title": "Hamad General Hospital to Embark on a Major Modernization Program to Enhance and Upgrade the Facility（HMC官方新闻稿，2024-10-20）",
+        "url": "https://hamad.qa/EN/news/2024/October/Pages/Hamad-General-Hospital-to-Embark-on-a-Major-Modernization-Program-to-Enhance-and-Upgrade-the-Facility.aspx"
+      },
+      {
+        "title": "Minister of Public Health Announces New Senior Leadership Appointments for Hamad Medical Corporation（HMC官方新闻稿，2023-11-19）",
+        "url": "https://hamad.qa/EN/news/2023/November/Pages/Minister-of-Public-Health-Announces-New-Senior-Leadership-Appointments-for-Hamad-Medical-Corporation.aspx"
+      },
+      {
+        "title": "Hamad Trauma Center Designated as a WHO Collaborating Center on Trauma（HMC官方新闻稿，2025-03-11）",
+        "url": "https://hamad.qa/EN/news/2025/March/Pages/Hamad-Trauma-Center-Designated-as-a-WHO-Collaborating-Center-on-Trauma.aspx"
+      },
+      {
+        "title": "Amir appoints HMC Director General（Gulf Times，2024-11-12）",
+        "url": "https://www.gulf-times.com/article/694402/qatar/amir-appoints-hmc-director-general"
+      },
+      {
+        "title": "Ashghal announces QR11bn worth projects, including Hamad General Hospital redevelopment（The Peninsula，2026-02-16）",
+        "url": "https://thepeninsulaqatar.com/article/16/02/2026/ashghal-announces-qr11bn-worth-projects-including-hamad-general-hospital-redevelopment"
+      },
+      {
+        "title": "Q30254334 - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q30254334"
+      }
+    ]
   }
 }

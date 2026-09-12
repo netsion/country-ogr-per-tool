@@ -2,52 +2,243 @@
   "org_id": "QA-FIN-010",
   "basic_info": {
     "name_original": "البنك الأهلي القطري",
-    "name_zh": "阿赫利银行卡塔尔",
+    "name_zh": "卡塔尔阿赫利银行",
     "name_en": "Ahli Bank Qatar",
-    "aliases": [],
+    "aliases": [
+      "Ahlibank",
+      "Ahli Bank QSC",
+      "Ahli Bank Q.P.S.C.",
+      "Al-Ahli Bank of Qatar",
+      "ABQK"
+    ],
     "org_type": "FIN",
     "org_subtype": "commercial_bank",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": null,
-    "website": "http://www.ahlibank.com.qa",
+    "founded_date": "1983-01-01",
+    "website": "https://www.ahlibank.com.qa",
     "wikidata_qid": "Q18746441"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
       "account_name": "ahlibankqatar",
-      "url": "https://x.com/ahlibankqatar",
-      "source": "twitter_search"
+      "url": "https://twitter.com/ahlibankqatar",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "ahlibankqatar",
+      "url": "https://www.facebook.com/ahlibankqatar/",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "ahlibankqatar",
+      "url": "https://www.instagram.com/ahlibankqatar/",
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
-      "account_name": "ahlibankqatar",
-      "url": "https://www.linkedin.com/company/ahlibankqatar",
-      "source": "linkedin_search"
+      "account_name": "ahli-bank-qsc",
+      "url": "https://www.linkedin.com/company/ahli-bank-qsc",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UCTDDEdS-paWPd0ibswobdJA",
+      "url": "https://www.youtube.com/channel/UCTDDEdS-paWPd0ibswobdJA",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔商业银行",
-  "industries": [
-    "banking"
+  "digital_assets": [
+    {
+      "name": "阿赫利银行投资者关系网页",
+      "url": "https://www.ahlibank.com.qa/en/about-us/investor-relations",
+      "description": "提供财务摘要、股权结构、信用评级、财务报告、投资者简报及公司治理等资料",
+      "source": "https://www.ahlibank.com.qa/en/about-us/investor-relations"
+    },
+    {
+      "name": "阿赫利银行2025年年报（PDF）",
+      "url": "https://www.ahlibank.com.qa/Library/Assets/Ahli%20Bank%20Annual%20Report_2025_ENG_V10_compressed-050411.pdf",
+      "description": "银行2025财年年度报告，含经审计合并财务报表、董事会报告及可持续发展（ESG）表现",
+      "source": "https://www.ahlibank.com.qa/en/about-us/investor-relations"
+    },
+    {
+      "name": "阿赫利银行网上及手机银行",
+      "url": "https://www.ahlibank.com.qa/en/online-and-mobile-banking",
+      "description": "个人网上银行与手机银行服务页面，提供账户管理、转账支付等在线功能",
+      "source": "https://www.ahlibank.com.qa/en/online-and-mobile-banking"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔商业银行",
-  "brief": "Bank of Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·法萨尔·本·阿卜杜勒阿齐兹·本·贾西姆·阿勒萨尼 (Sheikh Faisal Bin AbdulAziz Bin Jassem Al-Thani)",
+      "title": "董事会主席 (Chairman of the Board)",
+      "title_description": "2005年起进入董事会，2011年起任董事会主席；主持2025年度股东大会及年度业绩发布",
+      "description": "非独立非执行董事，2023年当选、任期至2026年；持有该行27,012,132股股份；现任卡塔尔伊斯兰艺术博物馆（Museum of Islamic Art）主席；获美国萨福克大学（Suffolk University）金融学学士学位"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·贾西姆·本·穆罕默德·本·哈马德·阿勒萨尼 (Sheikh Jassim Bin Mohammed Bin Hamad Al-Thani)",
+      "title": "副董事长 (Deputy Chairman)",
+      "title_description": "2014年起任董事会成员，2020年8月26日起任副董事长；代表Trans Orient Establishments",
+      "description": "非独立非执行董事；兼任卡塔尔穆罕默德·本·哈马德控股公司（Mohammed Bin Hamad Holding Company）董事会主席"
+    },
+    {
+      "person_id": null,
+      "name": "哈桑·艾哈迈德·阿夫兰吉 (Hassan Ahmed AlEfrangi)",
+      "title": "首席执行官 (Chief Executive Officer)",
+      "title_description": "主持银行全面经营管理，主导数字化转型战略、资产质量与风险管理及卡塔尔化人才战略",
+      "description": "以首席执行官身份就2025年中期业绩、2025年度业绩（净利润9.32亿卡塔尔里亚尔）等发布评论，强调可持续盈利增长、运营效率提升及与卡塔尔中央银行金融部门战略方向保持一致"
+    }
+  ],
+  "departments": [
+    {
+      "name": "公司银行 (Corporate Banking)",
+      "dept_id": null,
+      "head": null,
+      "description": "为公司及机构客户提供融资解决方案、贸易融资（进口、出口、保函及融资服务）、公司网上银行及Ahlipay等支付服务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "零售及私人银行 (Retail & Private Banking)",
+      "dept_id": null,
+      "head": null,
+      "description": "面向个人及高净值客户提供账户、个人贷款、汽车贷款、住房贷款、信用卡、保险、财富管理与贵宾银行等服务，由多哈的12家分行和93台ATM构成服务网络",
+      "parent_dept_id": null
+    },
+    {
+      "name": "司库与投资 (Treasury & Investments)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责资金管理、外汇与货币市场交易及公司和机构客户的司库投资解决方案",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国际银行 (International Banking)",
+      "dept_id": null,
+      "head": null,
+      "description": "为跨境经营的企业客户提供国际银行业务及相应金融支持",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-01-20",
+      "title": "公布2025年度业绩：净利润9.32亿卡塔尔里亚尔并建议派发25%现金股息",
+      "description": "阿赫利银行（ABQK）宣布截至2025年12月31日年度经审计净利润为9.32亿卡塔尔里亚尔，较2024年的8.92亿里亚尔增长4.6%；董事会建议派发25%现金股息，尚待股东大会批准；首席执行官阿夫兰吉表示业绩反映可持续盈利增长与资产质量和风险管理的持续投入",
+      "impact": "连续多年保持盈利增长，巩固其作为卡塔尔中型商业银行的财务稳健形象",
+      "source": "https://www.ahlibank.com.qa/en/media-center/news-press-releases/net-profit-2025"
+    },
+    {
+      "date": "2025-07-17",
+      "title": "发布2025年上半年业绩：净利润4.02亿里亚尔，总资产升至620亿里亚尔",
+      "description": "截至2025年6月的六个月净利润4.02亿里亚尔，同比增长5.1%；总资产升至约620亿里亚尔，贷款和垫款增长7.1%，客户存款增长2.4%；惠誉与穆迪重申其信用评级及稳定展望",
+      "impact": "显示其中期业绩延续增长势头，主要评级机构维持正面信用评价",
+      "source": "https://www.ahlibank.com.qa/en/media-center/news-press-releases/ahlibank-delivers-strong-q2-2025-results-advancing-its-role-as-a-strategic-financial-partner-in-qatar"
+    },
+    {
+      "date": "2025-02-26",
+      "title": "举行年度普通及特别股东大会，批准2024年度业绩与股息",
+      "description": "股东大会由董事会主席谢赫·法萨尔主持，批准2024年度业绩：净利润8.916亿里亚尔（2023年：8.365亿里亚尔，增长6.6%），营业利润增长18.4%至14.53亿里亚尔，并批准派发25%现金股息",
+      "impact": "确认2024年度盈利与分红方案，体现股东回报的连续性",
+      "source": "https://www.ahlibank.com.qa/en/media-center/news-press-releases/ahlibank-holds-annual-ordinary-and-extraordinary-general-meeting-2025"
+    },
+    {
+      "date": "2024-03-28",
+      "title": "惠誉将该行长期发行人违约评级由「A-」上调至「A」，展望稳定",
+      "description": "惠誉评级因卡塔尔主权评级上调，将包括阿赫利银行在内的7家卡塔尔银行评级上调，该行长期发行人违约评级由「A-」升至「A」，短期评级「F1」，展望稳定",
+      "impact": "反映其获政府支持的可能性及财务基本面向好，有利于国际市场融资成本",
+      "source": "https://www.fitchratings.com/research/banks/fitch-upgrades-7-qatari-banks-on-qatar-sovereign-upgrade-28-03-2024"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-004",
+      "org_name": "卡塔尔投资局 (Qatar Investment Authority)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔主权财富基金；据该行官网股权结构披露，其直接及通过子公司间接持有该行47.56%股份（1,213,428,215股），并向董事会派驻三名代表",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "QA-FIN-001",
+      "org_name": "卡塔尔中央银行 (Qatar Central Bank)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔银行业监管机构，负责该行财务报表最终审批、公司治理规则及数字金融转型战略指引",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "QA-FIN-007",
+      "org_name": "卡塔尔证券交易所 (Qatar Stock Exchange)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔全国性证券交易所，该行股票在此挂牌上市，证券代码为ABQK",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "卡塔尔阿赫利银行（Ahli Bank Q.P.S.C.，简称Ahlibank）是一家总部位于多哈的卡塔尔商业银行，1983年设立时名为「Al-Ahli Bank of Qatar」（卡塔尔阿赫利银行），2004年更名为Ahli Bank，现为在卡塔尔证券交易所上市的上市股份公司（Q.P.S.C.），证券代码ABQK。1987年花旗银行决定退出卡塔尔市场时，该行收购其全部资产，自此作为独立实体经营。该行面向个人、中小企业及公司客户提供覆盖公司银行、零售及私人银行、国际银行、司库与投资以及经纪服务的综合银行业务，通过多哈的12家分行和93台ATM网络提供服务，愿景是「成为卡塔尔社区的核心」。股权结构方面，据官网披露，卡塔尔投资局（QIA）直接及通过其子公司间接持有该行47.56%股份，其余52.44%由卡塔尔企业及个人持有，且无单一股东持股超过5%；QIA在董事会派驻三名代表。历史上，巴林Ahli United Bank曾为该行最大股东，2012年出售了几乎全部持股（仅保留1,000股），当时该行为卡塔尔第七大银行。经营表现方面，2024财年净利润8.916亿卡塔尔里亚尔（2023年：8.365亿里亚尔），2025财年增至9.32亿里亚尔。国际评级方面，惠誉对其长期评级为「A」、穆迪为「A2/P1」，展望均为稳定。该行推行数字化转型与卡塔尔化（Qatarisation）人才战略，卡塔尔籍员工占比约26%。",
+  "industries": [
+    "banking",
+    "financial_services",
+    "investment",
+    "trade_finance"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，阿赫利银行作为卡塔尔商业银行不直接参与APEC进程及相关合作机制。该行通过公司银行、贸易融资和国际银行业务，为卡塔尔与亚太地区之间的贸易往来和资金流动提供金融服务，其发展与卡塔尔金融部门整体的数字化和国际化方向一致。",
+  "profile": {
+    "source_url": "https://www.ahlibank.com.qa/en/about-us/overview",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q18746441",
-      "http://www.ahlibank.com.qa"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "annual_report",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 85,
+    "notes": "Phase 3 丰富化：成立年份（1983）、更名沿革、业务线、股权结构核自官网概述页/股权结构页/年报；2025年度及中期业绩核自官方新闻稿；董事会构成核自2024年公司治理报告（任期至2026年）；惠誉上调评级核自惠誉官网。brief/description 原骨架字段有效内容已并入 core_business。董事长与首席执行官未见于 _name_index.json，person_id 置 null 待 P4 回填",
+    "quotes": [
+      {
+        "title": "Ahlibank - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ahlibank"
+      },
+      {
+        "title": "Ahlibank 官方网站（Overview 概述页）",
+        "url": "https://www.ahlibank.com.qa/en/about-us/overview"
+      },
+      {
+        "title": "Ahlibank Shareholding Structure（官网股权结构页）",
+        "url": "https://www.ahlibank.com.qa/en/investor-relations/shareholding-structure"
+      },
+      {
+        "title": "Ahlibank 2024年公司治理报告（董事会成员名单）",
+        "url": "https://www.ahlibank.com.qa/Library/Assets/ABQ-Corporate-Governance-Report%202024_EN_20250223_WEB_Without-AGM-114336.pdf"
+      },
+      {
+        "title": "Ahlibank 2025年度净利润新闻稿",
+        "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases/net-profit-2025"
+      },
+      {
+        "title": "Ahlibank 2025年中期业绩新闻稿",
+        "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases/ahlibank-delivers-strong-q2-2025-results-advancing-its-role-as-a-strategic-financial-partner-in-qatar"
+      },
+      {
+        "title": "Ahlibank 2025年度股东大会新闻稿",
+        "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases/ahlibank-holds-annual-ordinary-and-extraordinary-general-meeting-2025"
+      },
+      {
+        "title": "Fitch Upgrades 7 Qatari Banks on Qatar Sovereign Upgrade（惠誉官网）",
+        "url": "https://www.fitchratings.com/research/banks/fitch-upgrades-7-qatari-banks-on-qatar-sovereign-upgrade-28-03-2024"
+      },
+      {
+        "title": "Gulf Times: Ahlibank posts net profit of QR932mn in 2025",
+        "url": "https://www.gulf-times.com/article/718891/business/ahlibank-posts-net-profit-of-qr932mn-in-2025-recommends-25-cash-dividend"
+      }
+    ]
   }
 }

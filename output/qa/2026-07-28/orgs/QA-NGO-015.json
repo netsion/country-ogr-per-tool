@@ -2,15 +2,21 @@
   "org_id": "QA-NGO-015",
   "basic_info": {
     "name_original": "سبيتار",
-    "name_zh": "卡塔尔骨科与运动医学医院",
+    "name_zh": "阿斯佩塔尔骨科与运动医学医院",
     "name_en": "Qatar Orthopaedic and Sports Medicine Hospital",
-    "aliases": [],
+    "aliases": [
+      "Aspetar",
+      "ASPETAR",
+      "Aspetar Orthopaedic and Sports Medicine Hospital",
+      "مستشفى سبيتار",
+      "卡塔尔骨科与运动医学医院"
+    ],
     "org_type": "NGO",
     "org_subtype": "foundation",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
     "founded_date": "2007-01-01",
-    "website": "http://www.aspetar.com/",
+    "website": "https://www.aspetar.com/",
     "wikidata_qid": "Q30280517"
   },
   "social_accounts": [
@@ -24,30 +30,237 @@
       "platform": "instagram",
       "account_name": "aspetar",
       "url": "https://www.instagram.com/aspetar/",
-      "source": "instagram_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Aspetar",
+      "url": "https://www.youtube.com/aspetar",
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Aspetar",
+      "url": "https://www.facebook.com/Aspetar",
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Aspetar",
+      "url": "https://www.linkedin.com/company/aspetar",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔专科骨科运动医学医院",
+  "digital_assets": [
+    {
+      "name": "阿斯佩塔尔运动医学期刊（Aspetar Sports Medicine Journal）",
+      "url": "https://www.aspetar.com/en/professionals/aspetar-sports-medicine-journal",
+      "description": "医院出版的免费印刷与在线学术刊物，兼具学术期刊与科普杂志形式，内容涵盖运动科学、运动医学、运动外科与康复等多学科",
+      "source": "https://www.aspetar.com/en/professionals/aspetar-sports-medicine-journal"
+    },
+    {
+      "name": "阿斯佩塔尔患者门户（Aspetar Guest Portal）",
+      "url": "https://www.aspetar.com/en/patient-information/guest-portal",
+      "description": "面向患者的在线服务门户，提供预约、转诊及就诊信息管理等数字化服务",
+      "source": "https://www.aspetar.com/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "哈立德·本·阿里·毛拉维 (Khalid bin Ali Al Mawlawi)",
+      "title": "代理院长 (Acting Director General)",
+      "title_description": "主持医院全面管理与战略运营",
+      "description": "拥有20余年大型机构与项目管理经验，曾任2022年卡塔尔世界杯交付与传承最高委员会赛事体验总监（Chief Tournament Experience Officer）；任内主导医院与亚足联等国际组织的合作，2025年获《福布斯中东》评为管理与领导力领域最具影响力领袖之一"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜勒阿齐兹·贾哈姆·库瓦里 (Abdulaziz Jaham Al Kuwari)",
+      "title": "首席执行官 (Chief Executive Officer)",
+      "title_description": "全面负责医院运营管理，兼任2025年阿斯佩塔尔世界大会主席",
+      "description": "骨科脊柱外科医生，曾任多哈阿赫利医院（Al Ahli Hospital）脊柱外科医师；担任第八届亚足联医学大会（吉隆坡，2025年7月）组织与科学委员会委员"
+    },
+    {
+      "person_id": null,
+      "name": "马尔科·卡尔迪纳莱 (Marco Cardinale)",
+      "title": "科研与科学支持执行总监 (Executive Director of Research and Scientific Support)",
+      "title_description": "主持医院科学研究与运动表现支持体系",
+      "description": "教授，领导医院科研团队开展运动生理与运动员健康研究；2026年牵头与多国机构合作在《Sports Medicine》发表关于2026年世界杯环境挑战的两篇系统性综述"
+    },
+    {
+      "person_id": null,
+      "name": "哈立德·赫莱菲 (Khalid Al Khelaifi)",
+      "title": "代理外科主任 (Acting Chief of Surgery)",
+      "title_description": "膝关节与肩关节外科顾问医师，兼任客座外科医师项目主任",
+      "description": "骨科顾问医师，2024年任U23亚洲杯卡塔尔赛区赛事医疗组织委员会主席，统筹全部场馆与驻地医疗服务"
+    },
+    {
+      "person_id": null,
+      "name": "里亚德·米拉迪 (Riadh Miladi)",
+      "title": "康复部门主任 (Director of Rehabilitation Department)",
+      "title_description": "兼任国家运动医学计划（NSMP）执行总监及足球国家队医疗服务部门主任",
+      "description": "长期负责医院物理治疗与运动康复体系，同时统筹面向卡塔尔各俱乐部与国家队的医疗保障合作项目"
+    }
+  ],
+  "departments": [
+    {
+      "name": "运动医学科 (Sports Medicine)",
+      "dept_id": null,
+      "head": "克里斯蒂亚诺·埃拉莱 (Cristiano Eirale)",
+      "description": "负责运动员伤病预防、健康评估与非手术治疗，涵盖运动生理、营养、心理等跨学科服务，设运动员筛查与体检单元",
+      "parent_dept_id": null
+    },
+    {
+      "name": "骨科外科 (Surgery)",
+      "dept_id": null,
+      "head": "哈立德·赫莱菲 (Khalid Al Khelaifi)",
+      "description": "开展膝关节、肩关节等运动相关骨科手术与软骨外科，设运动外科培训中心及面向国际专家的客座外科医师项目",
+      "parent_dept_id": null
+    },
+    {
+      "name": "康复部门 (Rehabilitation Department)",
+      "dept_id": null,
+      "head": "里亚德·米拉迪 (Riadh Miladi)",
+      "description": "提供物理治疗、运动康复与重返赛场评估，配备水疗池、康复健身房等设施，并统筹国家运动医学计划（NSMP）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "科研与科学支持部 (Research and Scientific Support)",
+      "dept_id": null,
+      "head": "马尔科·卡尔迪纳莱 (Marco Cardinale)",
+      "description": "负责运动医学与运动科学基础及应用研究、学术出版与国际科研合作，运营运动表现分析实验室并出版《阿斯佩塔尔运动医学期刊》",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-20",
+      "title": "亚足联宣布阿斯佩塔尔为官方医疗合作伙伴",
+      "description": "亚洲足球联合会（AFC）宣布阿斯佩塔尔成为亚足联主要俱乐部赛事及多项国家队赛事的官方医疗合作伙伴，合作期至2029年6月，阿斯佩塔尔同时正式加入亚足联全球支持者（Official Global Supporter）行列；双方合作始于2023年亚足联亚洲杯卡塔尔赛事的医疗服务",
+      "impact": "医院赛事医疗业务从单届赛事服务升级为覆盖亚洲足球赛事体系的长期合作，巩固其在亚洲足球医学领域的地位",
+      "source": "https://aspetar.com/en/about-us/press-room/news/afc-announces-aspetar-as-official-medical-partner"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "牵头发表2026年世界杯环境挑战科学指南",
+      "description": "由阿斯佩塔尔牵头、与国际多机构合作完成的两篇系统性综述在《Sports Medicine》发表，针对2026年美加墨世界杯的高温、海拔、空气污染、过敏原及长途旅行等环境压力因素为国家队伍提供备战框架；研究由医院研究员Christopher Esh主导，卡尔迪纳莱教授参与统筹",
+      "impact": "体现医院将科研成果转化为国际大赛实用指南的能力，强化其作为全球运动医学参考机构的角色",
+      "source": "https://www.aspetar.com/en/about-us/press-room/news/fifa-world-cup-2026"
+    },
+    {
+      "date": "2025-10-09",
+      "title": "阿斯佩塔尔世界大会2025在多哈开幕",
+      "description": "医院在阿斯拜尔穹顶体育馆（Aspire Dome）举办阿斯佩塔尔世界大会2025，来自74个国家的逾千名专业人士参加，国际奥委会与国际足联医学专家作主旨发言；会上宣布2026年将举办国际康复大会、2027年将举办第二届阿斯佩塔尔全球大会（恰逢建院二十周年）",
+      "impact": "提升卡塔尔在运动医学与国际医疗旅游领域的影响力，确立医院作为全球学术交流平台的位置",
+      "source": "https://www.aspetar.com/en/about-us/press-room/news/aspetar-world-conference-2025-kicks-off"
+    },
+    {
+      "date": "2025-07-10",
+      "title": "担任第八届亚足联医学大会首席合作伙伴",
+      "description": "亚足联宣布阿斯佩塔尔为2025年7月21日至25日在吉隆坡举行的第八届亚足联医学大会首席合作伙伴，医院派出约20名专家就运动医学人工智能、足球肌肉损伤、2022年世界杯经验、运动牙科与高性能康复等议题分享成果",
+      "impact": "深化与亚足联逾15年的医学合作，为2026年双方确立官方医疗合作伙伴关系奠定基础",
+      "source": "https://www.aspetar.com/en/about-us/press-room/news/premier-partner-afc-medical-conference"
+    },
+    {
+      "date": "2024-04-23",
+      "title": "担任U23亚洲杯卡塔尔2024独家医疗服务提供方",
+      "description": "医院宣布与亚足联合作，为2024年4月15日至5月3日在多哈举行的U23亚洲杯（16支队伍参赛）提供全面医疗保障，作为独家医疗提供方在全部四个比赛场馆及驻地部署医疗人员，并设24小时医疗指挥中心（MCC）；赛事医疗组织委员会由赫莱菲医师主持",
+      "impact": "延续医院在大型洲际赛事中的医疗保障职能，为后续亚足联长期合作提供业绩基础",
+      "source": "https://www.qna.org.qa/en/News-Area/News/2024-04/23/0060-aspetar-official-medical-partner-for-afc-u-23-asian-cup-qatar-2024"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿斯拜尔区基金会 (Aspire Zone Foundation)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔体育与健康生活方式园区（阿斯拜尔区，多哈2006年亚运会举办地）的运营主体，阿斯佩塔尔为其成员机构（member-organisation）",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-ACAD-009",
+      "org_name": "阿斯拜尔学院 (Aspire Academy)",
+      "org_type": "ACAD",
+      "org_description": "位于同一园区的体育精英人才培养学院，与本院同属阿斯拜尔区基金会成员机构，双方在运动员培养、训练与医疗保障方面协作",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "QA-NGO-010",
+      "org_name": "卡塔尔奥委会 (Qatar Olympic Committee)",
+      "org_type": "NGO",
+      "org_description": "通过国家运动医学计划（NSMP）与本院密切合作，并联合卡塔尔文化体育部为卡塔尔注册运动员提供伤病预防与健康管理服务",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚洲足球联合会 (Asian Football Confederation)",
+      "org_type": "INTL",
+      "org_description": "总部位于吉隆坡的亚洲足球管理机构；认可本院为「亚足联卓越医学中心」（AFC Medical Centre of Excellence），2026年4月起本院成为其主要赛事官方医疗合作伙伴（至2029年6月）",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "阿斯佩塔尔（Aspetar）是位于卡塔尔多哈阿斯拜尔区的专科骨科与运动医学医院，2007年投入使用，是中东地区首家同类专科医院，为阿斯拜尔区基金会（Aspire Zone Foundation）成员机构。医院面向各运动项目的运动员提供从伤病预防、诊断、外科治疗到康复与运动表现提升的全流程医疗服务，业务涵盖运动医学、骨科外科、康复医学科研四大板块，设有运动外科培训中心、运动表现分析与评估实验室、水疗池、高原住宿舱与环境模拟舱等设施，并为卡塔尔各足球俱乐部、体育联合会及国家队提供系统性医疗保障。医院通过国家运动医学计划（NSMP）与卡塔尔奥委会、文化体育部合作，覆盖卡塔尔注册运动员的伤病预防与健康管理。在国际合作方面，医院于2009年获国际足联足球医学评估研究中心（F-MARC）认证为「国际足联卓越医学中心」，2013年成为海湾合作委员会国家卫生部长理事会参考合作中心，2014年获认证为国际奥委会「损伤预防与运动员健康保护研究中心」，2015年获国际手球联合会「运动员与裁判健康参考中心」称号及加拿大国际认证局「白金级」认证，并获亚足联「卓越医学中心」认证。医院长期为亚足联亚洲杯、U23亚洲杯等大型国际赛事提供赛事医疗保障，2026年起成为亚足联主要赛事官方医疗合作伙伴。医院还出版免费学术刊物《阿斯佩塔尔运动医学期刊》，并通过主办阿斯佩塔尔世界大会等国际会议推动运动医学知识交流。",
   "industries": [
+    "healthcare",
+    "sports",
+    "research_development",
     "nonprofit"
   ],
-  "apec_stance": null,
-  "description": "卡塔尔专科骨科运动医学医院",
-  "brief": "healthcare organization in Doha, Qatar",
+  "apec_stance": "卡塔尔不是APEC成员经济体，阿斯佩塔尔作为医疗机构不直接参与APEC进程。本院的对外合作以国际体育组织网络为主，包括面向亚太地区的亚足联医学合作及面向全球运动员的赛事医疗服务。其科研成果通过《Sports Medicine》等国际期刊和开放获取的《阿斯佩塔尔运动医学期刊》，向包括APEC成员经济体在内的全球研究与临床机构传播。",
+  "profile": {
+    "source_url": "https://www.aspetar.com/en/about-us",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q30280517",
-      "http://www.aspetar.com/"
+      "official_website",
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 99,
+    "notes": "Phase 3 丰富化：wikidata_qid Q30280517 经核实指向正确实体（阿拉伯语标签「سبيتار」、英语标签 Qatar Orthopaedic and Sports Medicine Hospital、别名 ASPETAR、官网 aspetar.com、GRID ID grid.415515.1），无需修正；原顶层非标准字段 brief/description 的有效内容已并入 core_business 与 profile 并删除；name_zh 依据卡塔尔旅游局中文官网更正为「阿斯佩塔尔骨科与运动医学医院」，旧译「卡塔尔骨科与运动医学医院」保留于 aliases；key_people 均为现任管理层（毛拉维、库瓦里、卡尔迪纳莱、赫莱菲、米拉迪），在 _name_index.json 中均未建档，person_id 置 null 待 P4 回填",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Aspetar - About Us（官方网站）",
+        "url": "https://www.aspetar.com/en/about-us"
+      },
+      {
+        "title": "Qatar Orthopaedic and Sports Medicine Hospital - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q30280517"
+      },
+      {
+        "title": "مستشفى سبيتار - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89_%D8%B3%D8%A8%D9%8A%D8%AA%D8%A7%D8%B1"
+      },
+      {
+        "title": "AFC announces ASPETAR as Official Medical Partner（Aspetar Press Room，2026-04-20）",
+        "url": "https://aspetar.com/en/about-us/press-room/news/afc-announces-aspetar-as-official-medical-partner"
+      },
+      {
+        "title": "Aspetar Provides Scientific Guidance to Help Teams Navigate the Environmental Challenges at the FIFA World Cup 2026（Aspetar Press Room，2026-04-02）",
+        "url": "https://www.aspetar.com/en/about-us/press-room/news/fifa-world-cup-2026"
+      },
+      {
+        "title": "Aspetar World Conference 2025 Kicks Off in Doha（Aspetar Press Room，2025-10-09）",
+        "url": "https://www.aspetar.com/en/about-us/press-room/news/aspetar-world-conference-2025-kicks-off"
+      },
+      {
+        "title": "Aspetar the Premier Partner for 8th AFC Medical Conference Kuala Lumpur 2025（Aspetar Press Room，2025-07-10）",
+        "url": "https://www.aspetar.com/en/about-us/press-room/news/premier-partner-afc-medical-conference"
+      },
+      {
+        "title": "Aspetar Official Medical Partner for AFC U-23 Asian Cup Qatar 2024（卡塔尔通讯社 QNA，2024-04-23）",
+        "url": "https://www.qna.org.qa/en/News-Area/News/2024-04/23/0060-aspetar-official-medical-partner-for-afc-u-23-asian-cup-qatar-2024"
+      },
+      {
+        "title": "阿斯佩塔尔骨科与运动医学医院 - 卡塔尔旅游（Visit Qatar 中文）",
+        "url": "https://visitqatar.com/cn-zh/plan-your-trip/healthcare/aspetar-hospital-doha"
+      }
+    ]
   }
 }

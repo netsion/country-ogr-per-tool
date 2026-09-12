@@ -1,39 +1,256 @@
 {
   "org_id": "QA-FIN-013",
   "basic_info": {
-    "name_original": "عرب كولومبيا",
+    "name_original": "البنك العربي",
     "name_zh": "阿拉伯银行卡塔尔分行",
-    "name_en": "Arab diaspora in Colombia",
-    "aliases": [],
+    "name_en": "Arab Bank Qatar",
+    "aliases": [
+      "Arab Bank",
+      "Arab Bank PLC",
+      "Arab Bank Qatar Branch",
+      "arabbankqatar"
+    ],
     "org_type": "FIN",
     "org_subtype": "commercial_bank",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": null,
-    "website": null,
-    "wikidata_qid": "Q4783280"
+    "founded_date": "1930-05-21",
+    "website": "https://arabbank.com.qa/",
+    "wikidata_qid": "Q2629881"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "阿拉伯银行集团在卡塔尔的分支机构",
-  "industries": [
-    "banking"
+  "social_accounts": [
+    {
+      "platform": "instagram",
+      "account_name": "arabbankqatar",
+      "url": "https://www.instagram.com/arabbankqatar/",
+      "source": "arabbank.com.qa 官网页脚（卡塔尔分行专属账号）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "ArabBank",
+      "url": "https://www.facebook.com/ArabBank/",
+      "source": "arabbank.com.qa 官网页脚（集团账号）"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "arabbankgroup",
+      "url": "https://twitter.com/arabbankgroup",
+      "source": "arabbank.com.qa 官网页脚（集团账号）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "ArabBankGroup",
+      "url": "https://www.youtube.com/user/ArabBankGroup",
+      "source": "arabbank.com.qa 官网页脚（集团账号）"
+    }
   ],
-  "apec_stance": null,
-  "description": "阿拉伯银行集团在卡塔尔的分支机构",
-  "brief": "arab diaspora in Colombia",
+  "digital_assets": [
+    {
+      "name": "阿拉伯银行卡塔尔分行官方网站",
+      "url": "https://arabbank.com.qa/",
+      "description": "提供个人银行、企业与机构银行、司库及私人银行产品信息，含IBAN生成器、贷款计算器、分行与ATM查询及Arabi Online网上银行入口",
+      "source": "https://arabbank.com.qa/"
+    },
+    {
+      "name": "Arab Bank 集团媒体中心（卡塔尔站）",
+      "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room",
+      "description": "收录阿拉伯银行集团2023-2026年新闻稿，包括季度及年度业绩公告、国际奖项与重大战略动态",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room"
+    },
+    {
+      "name": "Fawran 即时支付服务页面",
+      "url": "https://www.arabbank.com.qa/mainmenu/home/ways-to-bank/fawran--service",
+      "description": "卡塔尔中央银行推出的即时支付服务，该分行官网将其列于电子银行服务中，客户可经手机号码、IBAN或别名即时收付款项",
+      "source": "https://arabbank.com.qa/ 站点导航"
+    },
+    {
+      "name": "Arab Bank 投资者关系财务报表页",
+      "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/investor-relations/financials",
+      "description": "提供阿拉伯银行集团季度及年度财务报表等投资者关系文件",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/investor-relations"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "萨比赫·塔希尔·马斯里 (Sabih Taher Masri)",
+      "title": "董事会主席",
+      "title_description": "阿拉伯银行（Arab Bank PLC）董事会主席，主持银行全面公司治理",
+      "description": "据银行官网董事会名单现任董事长；据银行行史，2012年8月经董事会选举出任董事长，此前该职位长期由肖曼家族成员担任；官网2026年上半年业绩公告中以其主席身份点评集团业绩"
+    },
+    {
+      "person_id": null,
+      "name": "哈立德·萨比赫·马斯里 (Khaled Sabih Masri)",
+      "title": "副董事长",
+      "title_description": "阿拉伯银行（Arab Bank PLC）董事会副主席",
+      "description": "据银行官网董事会名单现任副董事长，与董事长萨比赫·塔希尔·马斯里同为董事会核心成员；该行董事会由股东大会选举产生，任期四年"
+    },
+    {
+      "person_id": null,
+      "name": "兰达·萨迪克 (Randa Sadik)",
+      "title": "首席执行官",
+      "title_description": "阿拉伯银行（Arab Bank PLC）集团首席执行官，统管包括卡塔尔在内的全球业务网络",
+      "description": "据银行官网及业绩公告现任集团首席执行官，多次以CEO身份点评集团季度业绩；2025年12月获伦敦阿拉伯银行家协会（Arab Bankers Association）2025年度「阿拉伯银行业杰出服务奖」"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "QA-FIN-013-DEPT-001",
+      "name": "个人银行 (Consumer Banking)",
+      "head": null,
+      "description": "面向个人客户提供账户、银行卡、个人贷款及授信、汇款服务、财富管理及Elite贵宾银行计划等产品，支持Arabi Mobile、Arabi Online等数字渠道",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-FIN-013-DEPT-002",
+      "name": "企业与机构银行 (Corporate & Institutional Banking)",
+      "head": null,
+      "description": "提供企业融资（含基础设施与工业项目融资）、国际交易银行业务及企业解决方案与渠道，配套ArabiConnect企业数字平台与企业业务中心",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-FIN-013-DEPT-003",
+      "name": "司库 (Treasury)",
+      "head": null,
+      "description": "负责资金交易与司库业务，为企业和机构客户提供外汇及资金市场产品与服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-FIN-013-DEPT-004",
+      "name": "私人银行 (Private Banking)",
+      "head": null,
+      "description": "面向高净值客户提供私人银行与财富管理服务，可借助集团姊妹公司阿拉伯银行（瑞士）的专业能力",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-02",
+      "title": "阿拉伯银行集团公布2026年上半年业绩：净利润增至5.71亿美元",
+      "description": "集团2026年上半年税后净利润5.709亿美元，同比增长7%（上年同期为5.353亿美元）；总资产增长7%至803亿美元，贷款421亿美元（+6%），存款588亿美元（+6%），总权益135亿美元，资本充足率17.3%。董事长萨比赫·马斯里与首席执行官兰达·萨迪克在业绩公告中提及重振叙利亚业务、在阿尔及利亚启动伊斯兰业务窗口及深耕伊拉克市场等举措",
+      "impact": "集团营收与净利润延续增长态势，区域多元化布局有助于对冲地缘与全球不确定性，为包括卡塔尔在内的海外分支网络提供集团层面支撑",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2026"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "阿拉伯银行获《环球金融》杂志「2026年中东最佳银行」",
+      "description": "纽约《环球金融》（Global Finance）杂志授予阿拉伯银行「2026年中东最佳银行」称号，评选考量资产增长、盈利能力、地理覆盖、战略关系、新业务开发与产品创新等因素；该行称此奖项印证其在区域银行业中的领先地位",
+      "impact": "连续获得国际奖项有助于增强客户与市场信任，强化该行在包括卡塔尔在内的区域市场的品牌竞争力",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2026"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "阿拉伯银行集团2025年净利润创纪录达11.3亿美元，建议派发40%现金股息",
+      "description": "截至2025年12月31日年度，集团税后净利润11.30亿美元，较2024年的10.07亿美元增长12%；营业收入约36亿美元（+6%），贷款增长8%至412亿美元，总资产增长10%至782亿美元，客户存款增长10%至572亿美元。董事会建议向股东派发40%现金股息；期内集团启动品牌形象焕新，子公司阿拉伯银行伊拉克亦正式开业",
+      "impact": "盈利与资产规模创历史新高，40%分红方案提升股东回报；品牌焕新与伊拉克市场扩张标志集团进入新的增长阶段",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2026"
+    },
+    {
+      "date": "2025-12-09",
+      "title": "首席执行官兰达·萨迪克获阿拉伯银行家协会2025年度「阿拉伯银行业杰出服务奖」",
+      "description": "总部位于伦敦的阿拉伯银行家协会（Arab Bankers Association）在年度晚宴上向阿拉伯银行首席执行官兰达·萨迪克颁发2025年度「阿拉伯银行业杰出服务奖」（Distinguished Services to Arab Banking）",
+      "impact": "集团最高管理层获得区域银行业行业机构认可，反映其在阿拉伯银行业界的行业影响力",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2025"
+    },
+    {
+      "date": "2025-02-20",
+      "title": "阿拉伯银行发布焕新品牌形象",
+      "description": "阿拉伯银行公布全新品牌形象，设计更简洁、大胆并聚焦数字化，旨在强化与年轻世代等多元客群的连接；该行称此举立足1930年以来的传承，重塑其作为现代化、数字化领先金融机构的定位。卡塔尔分行官方Instagram账号同期发布焕新品牌内容",
+      "impact": "品牌统一焕新覆盖包括卡塔尔分行在内的全球网络，是集团2025年重要的市场形象工程",
+      "source": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2025"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿拉伯银行 (Arab Bank PLC)",
+      "org_type": "FIN",
+      "org_description": "总部位于约旦安曼、在安曼证券交易所上市的商业银行，1930年创立，拥有逾600家分支机构的全球阿拉伯银行网络；卡塔尔分行即该行在卡塔尔经营的分支网络，二者为同一法律实体",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-FIN-001",
+      "org_name": "卡塔尔中央银行 (Qatar Central Bank)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔的中央银行与银行业监管机构，阿拉伯银行卡塔尔分行在卡塔尔境内开展银行业务",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯银行（瑞士） (Arab Bank (Switzerland) Limited)",
+      "org_type": "FIN",
+      "org_description": "阿拉伯银行集团的姊妹公司，1962年成立于苏黎世，专注财富管理与私人银行，是该行财富管理业务的卓越中心",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯银行伊拉克 (Arab Bank Iraq)",
+      "org_type": "FIN",
+      "org_description": "阿拉伯银行集团子公司，2024年获伊拉克最终营业牌照，2025年初正式开业，重现该行1945-1964年在巴格达、埃尔比勒和摩苏尔的业务布局",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "阿拉伯银行卡塔尔分行是约旦阿拉伯银行（Arab Bank PLC）在卡塔尔境内经营的分支机构。阿拉伯银行于1930年5月由阿卜杜勒·哈米德·肖曼在耶路撒冷注册创立，1948年总部迁至安曼并改制为公众持股公司，现为安曼证券交易所上市公司，是中东规模最大的金融机构之一；据其官网介绍，该行拥有全球最大的阿拉伯银行网络之一，分支机构逾600家、遍及五大洲，网络覆盖伦敦、新加坡、上海、悉尼、日内瓦、巴黎、迪拜、麦纳麦等主要金融中心。卡塔尔分行业务条线涵盖个人银行（账户、银行卡、个人贷款及授信、汇款、财富管理与Elite贵宾计划）、企业与机构银行（企业融资、国际交易银行业务、企业解决方案与渠道）、司库及私人银行；数字化渠道包括Arabi Online网上银行、Arabi Mobile手机银行、企业平台ArabiConnect，并支持Google Pay、Samsung Pay及卡塔尔央行「Fawran」即时支付服务，在卡塔尔境内设有ATM网络并支持跨境汇款等特色服务。股权与治理方面，银行董事会由股东大会选举产生，沙特财政部与约旦社会保障公司作为重要股东在董事会拥有代表席位；现任董事长为萨比赫·马斯里，首席执行官为兰达·萨迪克。2025年集团总资产782亿美元，净利润11.3亿美元，创历史新高。",
+  "industries": [
+    "banking",
+    "financial_services",
+    "trade_finance",
+    "payment_services"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，阿拉伯银行卡塔尔分行因此不以成员机构身份参与APEC进程。该分行隶属的阿拉伯银行全球网络在亚太地区设有上海分行，并在新加坡、悉尼设有网点、在韩国设有代表处，为卡塔尔与亚太市场之间的贸易金融和跨境结算提供渠道，与亚太区域经贸往来存在客观业务联系。",
+  "profile": {
+    "source_url": "https://www.arabbank.com.qa/smartmenu/smart-menu/about-us-2/our-profile",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q4783280"
+      "official_website",
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "Phase 3 丰富化。P2骨架的wikidata_qid（Q4783280「Arab Colombians/哥伦比亚阿拉伯人」）与本报档主体无关，属P2错绑，已修正为母实体阿拉伯银行（Arab Bank PLC，Q2629881）；卡塔尔分行本身未独立注册法人、无独立Wikidata条目。name_original/name_en/aliases已按官方来源修正；原骨架顶层brief「arab diaspora in Colombia」为错绑产物，已弃用；顶层description「阿拉伯银行集团在卡塔尔的分支机构」已并入core_business。founded_date为母实体阿拉伯银行1930-05-21在耶路撒冷的注册日期（分行未单独注册法人）；业务条线、董事会名单取自卡塔尔官网，业绩与奖项数据取自官网媒体中心（2025/2026年页），并经英文Wikipedia交叉验证。key_people三人的person_id均未在_name_index.json命中，暂为null待P4回填。",
+    "quotes": [
+      {
+        "title": "Arab Bank Qatar 官方网站首页",
+        "url": "https://arabbank.com.qa/"
+      },
+      {
+        "title": "Our Profile - Arab Bank Qatar 官方简介页",
+        "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/about-us-2/our-profile"
+      },
+      {
+        "title": "Our History - Arab Bank Qatar 官方行史页",
+        "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/about-us-2/our-history"
+      },
+      {
+        "title": "Board of Directors - Arab Bank Qatar 董事会页",
+        "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/about-us-2/board-of-directors"
+      },
+      {
+        "title": "Media Room 2026 - Arab Bank Qatar 媒体中心（2026年新闻稿）",
+        "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2026"
+      },
+      {
+        "title": "Media Room 2025 - Arab Bank Qatar 媒体中心（2025年新闻稿）",
+        "url": "https://www.arabbank.com.qa/smartmenu/smart-menu/media-room?year=2025"
+      },
+      {
+        "title": "Arab Bank - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Arab_Bank"
+      },
+      {
+        "title": "Arab Bank (@arabbankqatar) Instagram - 卡塔尔分行官方账号",
+        "url": "https://www.instagram.com/arabbankqatar/"
+      },
+      {
+        "title": "The Peninsula Qatar：Arab Bank receives Best Bank in the Middle East 2025 award（多哈报道）",
+        "url": "https://thepeninsulaqatar.com/article/18/06/2025/arab-bank-receives-best-bank-in-the-middle-east-2025-award"
+      }
+    ]
   }
 }

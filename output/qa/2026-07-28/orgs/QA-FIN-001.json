@@ -4,13 +4,16 @@
     "name_original": "مصرف قطر المركزي",
     "name_zh": "卡塔尔中央银行",
     "name_en": "Qatar Central Bank",
-    "aliases": [],
+    "aliases": [
+      "QCB",
+      "مصرف قطر المركزي"
+    ],
     "org_type": "FIN",
-    "org_subtype": "commercial_bank",
+    "org_subtype": "regulatory_agency",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
     "founded_date": "1993-08-05",
-    "website": "http://www.qcb.gov.qa",
+    "website": "https://www.qcb.gov.qa",
     "wikidata_qid": "Q3365778"
   },
   "social_accounts": [
@@ -18,7 +21,13 @@
       "platform": "twitter_x",
       "account_name": "QCBQATAR",
       "url": "https://x.com/QCBQATAR",
-      "source": "twitter_search"
+      "source": "https://www.qcb.gov.qa/en/pages/socialmedia.aspx"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "qcbqatar",
+      "url": "https://www.instagram.com/qcbqatar/",
+      "source": "https://www.qcb.gov.qa/en/pages/socialmedia.aspx"
     },
     {
       "platform": "linkedin",
@@ -27,36 +36,207 @@
       "source": "linkedin_search"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "卡塔尔央行数字货币（CBDC）项目官方页面",
+      "url": "https://www.qcb.gov.qa/en/FinancialInstrumentsAndPaymentSystems/pages/digital-currency.aspx",
+      "description": "介绍QCB批发型央行数字货币项目，重点关注分布式账本技术、人工智能流动性预测模型、国内结算及证券交易等应用场景",
+      "source": "https://www.qcb.gov.qa/en/FinancialInstrumentsAndPaymentSystems/pages/digital-currency.aspx"
+    },
+    {
+      "name": "卡塔尔央行2024年年报（英文PDF）",
+      "url": "https://www.qcb.gov.qa/PublicationFilesReportsAndStatementsGovernance/QCB-AnnualReport-2024-ENG-V15.pdf",
+      "description": "卡塔尔中央银行2024年度官方报告，涵盖货币政策、金融部门发展及数字银行监管框架等工作成果",
+      "source": "https://www.qcb.gov.qa/PublicationFilesReportsAndStatementsGovernance/QCB-AnnualReport-2024-ENG-V15.pdf"
+    },
+    {
+      "name": "QCB移动应用程序（App Store）",
+      "url": "https://apps.apple.com/us/app/qcb/id6755175364",
+      "description": "卡塔尔中央银行官方移动应用，展示卡塔尔银行业关键数据、新闻与战略规划等信息",
+      "source": "https://apps.apple.com/us/app/qcb/id6755175364"
+    }
+  ],
   "key_people": [
     {
       "person_id": "QA-PERSON-000009",
-      "name": "班达尔·本·穆罕默德·阿勒阿提亚",
-      "title": "中央银行行长",
-      "title_description": "央行行长",
-      "description": ""
+      "name": "班达尔·本·穆罕默德·阿勒阿提亚 (Sheikh Bandar bin Mohammed bin Saoud Al-Thani)",
+      "title": "行长 (Governor)",
+      "title_description": "兼任董事会主席；并担任卡塔尔投资局董事会主席及卡塔尔证券交易所董事会主席",
+      "description": "1977年出生，2021年11月起出任卡塔尔中央银行行长并兼任董事会主席；此前长期在金融与监管领域任职，曾任卡塔尔证券交易所首席执行官、卡塔尔金融市场管理局副局长及卡塔尔投资局子公司QInvest高管；现同时担任卡塔尔投资局（QIA）董事会主席"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·艾哈迈德·本·哈立德·本·艾哈迈德·本·苏尔坦·阿勒萨尼 (Sheikh Ahmed bin Khalid bin Ahmed bin Sultan Al-Thani)",
+      "title": "副行长 (Deputy Governor)",
+      "title_description": "2025年2月经埃米尔第2025年第12号法令任命；并担任卡塔尔金融中心监管局（QFCRA）董事会主席及卡塔尔金融市场管理局（QFMA）董事会主席",
+      "description": "据卡塔尔埃米尔宫2025年2月12日公告，经2025年第12号埃米尔法令出任卡塔尔中央银行副行长；同时兼任卡塔尔金融中心监管局董事会主席、卡塔尔金融市场管理局董事会主席"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔国家中央银行",
+  "departments": [
+    {
+      "name": "银行监管部 (Banking Supervision Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责对卡塔尔境内银行及金融机构实施审慎监管与现场及非现场检查，制定监管规章与指引",
+      "parent_dept_id": null
+    },
+    {
+      "name": "金融市场与支付系统部 (Financial Markets & Payment Systems Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责金融市场工具、支付与结算系统的管理与发展，包括国债发行、回购操作及批发型央行数字货币等项目",
+      "parent_dept_id": null
+    },
+    {
+      "name": "研究与货币政策部 (Research & Monetary Policy Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责宏观经济与货币形势研究分析，为利率决策与汇率政策（里亚尔与美元挂钩）提供支持",
+      "parent_dept_id": null
+    },
+    {
+      "name": "金融稳定与监测部 (Financial Stability & Monitoring Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责监测系统性金融风险，维护银行与金融体系稳定，编写金融稳定评估报告",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-10",
+      "title": "卡塔尔央行下调主要政策利率25个基点",
+      "description": "卡塔尔中央银行宣布将存款利率（QCBDR）下调25个基点至3.85%，贷款利率及回购利率亦同步下调，延续与美联储政策利率联动调整的做法",
+      "impact": "降低商业银行融资成本，维持里亚尔与美元挂钩机制下的利差稳定",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-12/10/qatar-central-bank-cuts-key-interest-rates-by-25-basis-points"
+    },
+    {
+      "date": "2025-02-12",
+      "title": "埃米尔法令任命卡塔尔央行新任副行长",
+      "description": "卡塔尔埃米尔颁布2025年第12号法令，任命谢赫·艾哈迈德·本·哈立德·本·艾哈迈德·本·苏尔坦·阿勒萨尼为卡塔尔中央银行副行长；其同时兼任卡塔尔金融中心监管局及卡塔尔金融市场管理局董事会主席",
+      "impact": "完善央行高层管理架构，强化央行与QFCRA、QFMA等监管机构之间的协调",
+      "source": "https://www.diwan.gov.qa/briefing-room/news/general/lg/2025/february/12/lg03?sc_lang=en"
+    },
+    {
+      "date": "2024-12-03",
+      "title": "卡塔尔央行发布数字银行监管框架",
+      "description": "卡塔尔中央银行发布《数字银行监管框架》（Regulatory Framework for Digital Banks），为纯数字银行设立准入与运营监管规则，推动金融业数字化转型",
+      "impact": "为数字银行牌照发放与运营建立制度基础，促进银行业创新与竞争",
+      "source": "https://www.qcb.gov.qa/en/News/Pages/12Dec2024.aspx"
+    },
+    {
+      "date": "2024-10-09",
+      "title": "卡塔尔央行发布2024-2030年战略",
+      "description": "卡塔尔中央银行正式发布2024-2030年战略，围绕货币政策与金融稳定、数字化转型与支付、金融部门发展等支柱，目标是巩固卡塔尔区域金融中心地位",
+      "impact": "为未来数年货币政策、支付体系与金融科技发展确定政策方向",
+      "source": "https://www.qna.org.qa/en/News-Area/News/2024-10/09/0020-qatar-central-bank-unveils-strategy-for-2024-2030"
+    },
+    {
+      "date": "2024-06-02",
+      "title": "卡塔尔央行宣布启动央行数字货币（CBDC）项目",
+      "description": "卡塔尔中央银行宣布完成CBDC项目基础设施建设并启动第一阶段试验，重点研究分布式账本技术、人工智能及证券结算等批发型应用，试验面向本地大型银行与国际银行的大额支付结算",
+      "impact": "卡塔尔进入批发型CBDC试验阶段，为未来支付与证券结算基础设施建设积累技术经验",
+      "source": "https://www.qna.org.qa/en/News-Area/News/2024-06/02/0017-qatar-central-bank-announces-launch-of-digital-currency-project"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-004",
+      "org_name": "卡塔尔投资局 (Qatar Investment Authority)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔主权财富基金，管理国家部分石油天然气收入用于海外投资；卡塔尔央行行长谢赫·班达尔现任其董事会主席",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-FIN-009",
+      "org_name": "卡塔尔金融中心监管局 (Qatar Financial Centre Regulatory Authority)",
+      "org_type": "FIN",
+      "org_description": "负责监管卡塔尔金融中心（QFC）区内金融服务的独立监管机构；其董事会主席现由卡塔尔央行副行长兼任",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-FIN-002",
+      "org_name": "卡塔尔国家银行 (QNB Group)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔及中东地区资产规模最大的商业银行，由卡塔尔中央银行依据2012年第13号《卡塔尔中央银行与金融机构法》实施监管",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔财政部 (Ministry of Finance)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔联邦政府财政主管部门，与央行在财政政策、政府债券发行及外汇储备管理等方面保持政策协调",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔中央银行（QCB）是卡塔尔国中央银行与主要货币当局，依据1993年8月5日第15号埃米尔法令设立，总部位于多哈。其前身为1973年5月13日成立的卡塔尔货币局（Qatar Monetary Agency，由更早的卡塔尔-迪拜货币委员会演变而来），该局经1973年第24号埃米尔法令授权发行卡塔尔里亚尔并履行部分央行职能。现行组织法为2012年第13号《卡塔尔中央银行与金融机构法》，该法第5条规定其核心目标为：维护货币价值与货币和物价稳定；作为卡塔尔境内金融服务业、业务、市场与金融活动的监管、控制和监督最高当局；建立稳定、透明、有竞争力且治理良好的金融部门；增强公众对卡塔尔作为全球金融商业中心之一地位的信心。其主要职能（该法第6至8条）包括：维持里亚尔汇率稳定及其可兑换性（里亚尔实行与美元挂钩的固定汇率制度）；现金发行与流通管理；作为卡塔尔各银行及金融机构的银行；维护金融与银行体系稳定；管理和投资自有资金与外汇储备；制定辖下金融机构公司治理、透明度与稳健经营等方面的规章指引。卡塔尔央行通过存款利率（QCBDR）、贷款利率、回购利率等政策工具实施货币政策，并通常与美联储同步调整利率以维持里亚尔联系汇率。2023年，央行发布第三期金融部门战略规划（Third Financial Sector Strategic Plan），并于2024年10月发布2024-2030年战略，聚焦货币政策与金融稳定、数字化转型与支付、金融部门发展等重点方向。近年该行推进多项数字化举措：2024年6月宣布启动批发型央行数字货币（CBDC）项目第一阶段试验，研究分布式账本与人工智能在大额支付及证券结算中的应用；2024年12月发布《数字银行监管框架》为纯数字银行设立监管规则。卡塔尔央行同时代表政府发行国债与政府伊斯兰债券（Ijarah Sukuk），并与新加坡金融管理局、香港金融管理局等境外央行签署金融合作协议。",
   "industries": [
     "banking",
-    "public_administration"
+    "monetary_policy",
+    "financial_services",
+    "payment_services",
+    "public_administration",
+    "regulatory"
   ],
-  "apec_stance": null,
-  "description": "卡塔尔国家中央银行",
-  "brief": "Central Bank of Qatar",
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔中央银行不参与APEC进程。作为海湾地区主要央行之一，该行通过与国际清算银行、国际货币基金组织及金融稳定理事会（其副行长参与FSB中东与北非区域磋商小组会议）等国际机制开展合作。其与新加坡金融管理局、香港金融管理局等亚太主要金融监管机构签署的合作协议，反映了卡塔尔金融部门与亚太金融市场的联系。",
+  "profile": {
+    "source_url": "https://www.qcb.gov.qa/en/pages/background.aspx",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q3365778",
-      "http://www.qcb.gov.qa"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 85,
+    "notes": "Phase 3 丰富化：历史沿革、职能与治理架构核自QCB官网（governor/deputygovernor/organization-structure/socialmedia/background页面）、英文Wikipedia及Wikidata Q3365778；近年动态核自QNA、Reuters、Amiri Diwan及QCB官方新闻页。副行长Sheikh Ahmed bin Khalid Al-Thani未纳入_name_index.json，person_id为null，待P4回填。",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Governor - Qatar Central Bank（官网行长页）",
+        "url": "https://www.qcb.gov.qa/en/pages/governor.aspx"
+      },
+      {
+        "title": "The Deputy Governor - Qatar Central Bank（官网副行长页）",
+        "url": "https://www.qcb.gov.qa/en/pages/deputygovernor.aspx"
+      },
+      {
+        "title": "Organization Structure - Qatar Central Bank（官网组织架构页）",
+        "url": "https://www.qcb.gov.qa/en/pages/organization-structure.aspx"
+      },
+      {
+        "title": "Social Media - Qatar Central Bank（官网社交媒体页）",
+        "url": "https://www.qcb.gov.qa/en/pages/socialmedia.aspx"
+      },
+      {
+        "title": "Qatar Central Bank - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Central_Bank"
+      },
+      {
+        "title": "QCB cuts key interest rates by 25 basis points（QNA）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-12/10/qatar-central-bank-cuts-key-interest-rates-by-25-basis-points"
+      },
+      {
+        "title": "HH The Amir Issues Decree Appointing Deputy Governor of QCB（Amiri Diwan）",
+        "url": "https://www.diwan.gov.qa/briefing-room/news/general/lg/2025/february/12/lg03?sc_lang=en"
+      },
+      {
+        "title": "QCB Issues the Regulatory Framework for Digital Banks（官网新闻）",
+        "url": "https://www.qcb.gov.qa/en/News/Pages/12Dec2024.aspx"
+      },
+      {
+        "title": "Qatar Central Bank Unveils Strategy for 2024-2030（QNA）",
+        "url": "https://www.qna.org.qa/en/News-Area/News/2024-10/09/0020-qatar-central-bank-unveils-strategy-for-2024-2030"
+      },
+      {
+        "title": "QCB Announces Launch of Digital Currency Project（QNA）",
+        "url": "https://www.qna.org.qa/en/News-Area/News/2024-06/02/0017-qatar-central-bank-announces-launch-of-digital-currency-project"
+      }
+    ]
   }
 }

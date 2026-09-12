@@ -4,12 +4,15 @@
     "name_original": "Qatar Financial Centre Regulatory Authority",
     "name_zh": "卡塔尔金融中心监管局",
     "name_en": "Qatar Financial Centre Regulatory Authority",
-    "aliases": [],
+    "aliases": [
+      "QFCRA",
+      "QFC Regulatory Authority"
+    ],
     "org_type": "FIN",
     "org_subtype": "regulatory_agency",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2005-00-00",
+    "founded_date": "2005-01-01",
     "website": "https://www.qfcra.com/",
     "wikidata_qid": "Q120186972"
   },
@@ -27,27 +30,239 @@
       "source": "linkedin_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔金融中心独立金融监管机构",
-  "industries": [
-    "banking"
+  "digital_assets": [
+    {
+      "name": "QFCRA规则手册（QFC Legislation在线平台）",
+      "url": "https://qfcra-en.thomsonreuters.com/",
+      "description": "QFCRA官方在线立法与规则平台，收录QFC条例及QFCRA各业务领域规则（通用规则GENE、反洗钱与反恐融资规则AML/CFTR、银行审慎规则、投资管理与顾问规则INMA、衍生品市场与交易所规则DMEX、集合投资计划规则COLL等），并发布咨询文件",
+      "source": "https://www.qfcra.com/"
+    },
+    {
+      "name": "Lughatna Lexicon金融术语词典",
+      "url": "https://www.qfcra.com/lughatna-lexicon/",
+      "description": "QFCRA推出的阿拉伯语-英语金融监管术语对照在线词典，帮助市场参与者和公众理解QFC监管规则中的专业术语",
+      "source": "https://www.qfcra.com/"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔金融中心独立金融监管机构",
-  "brief": "The QFC Regulatory Authority is the independent regulator of the Qatar Financial Centre (QFC), established to authorise and regulate firms and individuals conducting financial services in or from the QFC.",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·班达尔·本·穆罕默德·本·沙特·阿勒萨尼 (Sheikh Bandar bin Mohammed bin Saoud Al-Thani)",
+      "title": "董事会主席 (Chairman)",
+      "title_description": "兼任卡塔尔中央银行行长；QFCRA董事会主席由卡塔尔央行行长依QFC法律兼任",
+      "description": "长期任职于金融与监管领域，2015-2021年任卡塔尔审计署署长，曾任阿拉伯最高审计机构组织（ARABOSAI）主席及执行理事会主席；早年于卡塔尔央行信贷与银行监督部门开启职业生涯，后在投资部门负责外汇储备交易管理，参与创建卡塔尔信用局并出任其首席执行官；持有巴黎HEC商学院EMBA及美国美利坚大学金融学学士学位"
+    },
+    {
+      "person_id": null,
+      "name": "迈克尔·G·瑞安 (Michael G. Ryan)",
+      "title": "董事会成员兼首席执行官 (Board Member and Chief Executive Officer)",
+      "title_description": "主持监管局日常运营与战略执行",
+      "description": "2009年加入QFCRA，此前任职于美国银行美林证券伦敦及都柏林，曾任美林国际银行有限公司首席执行官、美国银行美林爱尔兰国家执行长；早年担任瑞士信贷金融产品副总裁及Cadwalader, Wickersham & Taft律师事务所律师，专长银行、证券与公司法；兼任卡塔尔金融稳定与风险控制委员会成员及卡塔尔金融市场管理局董事"
+    },
+    {
+      "person_id": null,
+      "name": "伊萨·艾哈迈德·阿卜杜拉 (Eisa Ahmed Abdulla)",
+      "title": "副首席执行官 (Deputy Chief Executive Officer)",
+      "title_description": "协助首席执行官管理监管局运营事务",
+      "description": "据QFCRA官方网站执行团队名录，现任卡塔尔金融中心监管局副首席执行官"
+    },
+    {
+      "person_id": null,
+      "name": "法特玛·阿卜杜勒拉赫曼·阿尔-米尔 (Fatma Abdulrahman Al Meer)",
+      "title": "首席财务官兼首席运营官 (Chief Financial Officer and Chief Operating Officer)",
+      "title_description": "分管财务与运营管理",
+      "description": "2025年11月在QFCRA信息技术部门获ISO/IEC 27001:2022认证公告中以首席财务官兼首席运营官身份表示，该认证体现机构在运营卓越、数据保护与网络风险管理方面的高标准承诺"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·法赫德·贾巴尔·阿勒萨尼 (Sheikh Fahad Jabor Al Thani)",
+      "title": "监管与授权事务董事总经理 (Managing Director, Supervision and Authorisation)",
+      "title_description": "主管对QFC获授权金融机构的授权审批与持续监管",
+      "description": "据QFCRA官方网站执行团队名录，主管监管与授权部门，涵盖授权、金融分析与创新、银行与保险监管、投资管理与证券监管及反洗钱监管等职能"
+    },
+    {
+      "person_id": null,
+      "name": "法拉·阿卜杜勒拉赫曼·阿尔-穆夫塔赫 (Farah Abdulrahman Al Muftah)",
+      "title": "政策、法律与执法董事总经理 (Managing Director, Policy, Legal and Enforcement)",
+      "title_description": "主管政策制定、立法与执法事务",
+      "description": "2026年4月代表QFCRA参与第二届国际行动周时表示，该行动契合卡塔尔第三金融部门战略计划中强化消费者保护和提升公众意识的重点"
+    }
+  ],
+  "departments": [
+    {
+      "name": "授权部 (Authorisation)",
+      "dept_id": null,
+      "head": null,
+      "description": "受理并审批在QFC内或从QFC开展受监管金融服务的公司及个人的授权申请，QFC实行QFC管理局发放执照与QFCRA授权合并的单一申请流程",
+      "parent_dept_id": null
+    },
+    {
+      "name": "银行与保险监管部 (Bank and Insurance Supervision)",
+      "dept_id": null,
+      "head": null,
+      "description": "对QFC内银行及保险机构实施基于风险的持续监管，包括财务信息监测和定期现场与非现场风险评估，参照巴塞尔委员会及国际保险监管官协会标准",
+      "parent_dept_id": null
+    },
+    {
+      "name": "投资管理、顾问与证券监管部 (Investment Manager, Advisor and Securities Supervision)",
+      "dept_id": null,
+      "head": null,
+      "description": "对QFC内投资管理、投资顾问及证券业务进行监管，参照国际证监会组织相关标准",
+      "parent_dept_id": null
+    },
+    {
+      "name": "反洗钱与反恐融资监管部 (AML/CFT Supervision)",
+      "dept_id": null,
+      "head": null,
+      "description": "制定并执行QFC反洗钱与反恐融资监管框架，开展风险评估、检查及可疑交易报告相关监管工作，遵循金融行动特别工作组（FATF）标准",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-23",
+      "title": "与卡塔尔金融市场管理局共同参与第二届国际行动周",
+      "description": "QFCRA与卡塔尔金融市场管理局（QFMA）参与由英国金融行为监管局发起的第二届国际行动周（2026年4月20-24日），全球17家监管机构联合应对网红通过社交媒体推广非法金融产品的风险；两机构在卡塔尔开展消费者宣传与教育活动，QFCRA政策、法律与执法董事总经理法拉·阿尔-穆夫塔赫表示该行动契合卡塔尔第三金融部门战略计划中强化消费者保护的重点",
+      "impact": "强化卡塔尔金融消费者保护与投资者教育，体现QFCRA与国际监管界的协同行动",
+      "source": "https://www.qfcra.com/news/qfma-and-qfcra-participate-in-international-week-of-action/"
+    },
+    {
+      "date": "2026-02-19",
+      "title": "与Experts Credit Solutions Consultancy LLC达成执法和解",
+      "description": "QFCRA宣布与Experts Credit Solutions Consultancy LLC（ECSC）达成和解协议以结案一项调查。调查发现2023年1月至2024年10月间，ECSC在未获QFCRA授权的情况下安排信贷便利（属受监管活动）。鉴于其早期配合调查并采取补救措施，QFCRA依执法政策声明处以调减后的罚款14.58万卡塔尔里亚尔（约4万美元），并要求其支付调查费用3.645万里亚尔（约1万美元）",
+      "impact": "体现QFCRA对未经授权金融活动的执法立场及其执法政策中和解机制的实际运用",
+      "source": "https://www.qfcra.com/news/qfcra-agrees-to-settlement-with-experts-credit-solutions-consultancy-llc/"
+    },
+    {
+      "date": "2025-11-30",
+      "title": "信息技术部门获ISO/IEC 27001:2022信息安全管理体系认证",
+      "description": "QFCRA宣布其信息技术部门通过外部审核并以零不符合项获得ISO/IEC 27001:2022认证，即信息安全管理体系（ISMS）领域全球领先标准；首席财务官兼首席运营官法特玛·阿尔-米尔表示该认证体现机构在运营卓越、数据保护、网络安全与风险管理方面坚持最高标准的承诺",
+      "impact": "提升监管机构自身信息安全治理与运营韧性，支撑其数字化监管系统建设",
+      "source": "https://www.qfcra.com/news/qatar-financial-centre-regulatory-authority-qfcra-achieves-iso-sec-270012022-certification/"
+    },
+    {
+      "date": "2024-09-02",
+      "title": "QFCA与QFCRA联合发布QFC数字资产框架",
+      "description": "卡塔尔金融中心管理局（QFCA）与QFCRA宣布推出《QFC数字资产框架2024》，于2024年9月1日生效，确立数字资产的法律与监管基础，涵盖代币化流程、代币及其底层资产财产权的法律承认、托管安排、转让与交换，并承认智能合约的法律效力；QFCRA同期配套发布《投资代币规则2024》等规则，该框架为卡塔尔第三金融部门战略计划的重要目标之一",
+      "impact": "为QFC建立受监管的数字资产与代币化生态奠定法律与监管基础",
+      "source": "https://www.qfcra.com/news/qatar-financial-centre-issues-digital-assets-framework/"
+    },
+    {
+      "date": "2023-03-27",
+      "title": "发布《2023年衍生品市场与交易所规则》(DMEX) 为卡塔尔衍生品市场铺路",
+      "description": "QFCRA经三个月公开咨询后发布上市衍生品监管框架《衍生品市场与交易所规则2023》（DMEX），使QFC具备设立衍生品交易所及中央对手方（CCP）的监管条件；卡塔尔证券交易所（QSE）表示将与伦敦证券交易所集团合作，在QFC内设立衍生品交易所和中央清算对手方，交易QSE上市个股及股指的现金结算期权与期货；QFCRA首席执行官迈克尔·瑞安表示期待与QSE合作推出新交易所",
+      "impact": "为卡塔尔资本市场监管基础设施扩展及迈向发达市场地位提供制度基础",
+      "source": "https://www.qfcra.com/news/qfcra-announces-new-framework-for-a-derivatives-market-in-qatar/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-FIN-008",
+      "org_name": "卡塔尔金融中心 (Qatar Financial Centre)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔依据2005年第7号法律设立的金融与商业中心，QFCRA为其境内金融服务的独立监管机构，据Wikidata记载QFCRA系QFC的组成部分",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-FIN-001",
+      "org_name": "卡塔尔中央银行 (Qatar Central Bank)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔中央银行；其行长谢赫·班达尔·本·穆罕默德·本·沙特·阿勒萨尼依QFC法律兼任QFCRA董事会主席，卡塔尔央行2023年发布第三金融部门战略计划，QFCRA的监管工作与该战略相衔接",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔金融市场管理局 (Qatar Financial Markets Authority, QFMA)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔本土证券市场监管机构，与QFCRA为并行监管机构；两者2026年4月共同参与国际行动周消费者保护联合行动，QFCRA首席执行官兼任QFMA董事会成员",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-FIN-007",
+      "org_name": "卡塔尔证券交易所 (Qatar Stock Exchange)",
+      "org_type": "FIN",
+      "org_description": "卡塔尔本土证券交易所；在QFCRA发布DMEX规则后计划与伦敦证券交易所集团合作，在QFC内设立衍生品交易所及中央对手方，由QFCRA提供监管框架",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔金融中心监管局（QFCRA）是卡塔尔金融中心（QFC）的独立金融监管机构，依据卡塔尔国2005年第7号法律设立，负责授权并监管在卡塔尔金融中心内或从该中心开展金融服务的公司和个人。QFCRA建立了以原则为基础的监管制度，融合普通法传统，强调透明度、可预期性与问责制。其监管与授权条线下设授权、金融分析与创新、银行与保险监管、投资管理顾问与证券监管、反洗钱与反恐融资监管等职能部门，采用基于风险的监管方法，对获授权公司进行持续监测及定期现场与非现场风险评估，并在宏观审慎层面跟踪分析同业群体的风险与趋势。监管工作遵循巴塞尔银行监管委员会、国际保险监管官协会（IAIS）、国际证监会组织（IOSCO）及金融行动特别工作组（FATF）发布的国际监管标准。在国际合作方面，QFCRA是IAIS成员及其多边谅解备忘录签署方，同时是IOSCO附属成员及IOSCO多边谅解备忘录签署方，参与IOSCO非洲/中东区域委员会、增长与新兴市场委员会及投资管理委员会（C5）工作，并主持C5杠杆子工作组；另通过与英国、迪拜等监管机构的双边和多边谅解备忘录开展监管合作与信息交流。QFCRA董事会主席由卡塔尔中央银行行长兼任，机构总部位于多哈西湾Gate Tower 4大楼16层。",
+  "industries": [
+    "regulatory",
+    "banking",
+    "financial_services",
+    "insurance",
+    "asset_management"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，QFCRA作为卡塔尔国内金融监管机构不直接参与APEC进程及其相关工作机制。该机构通过IOSCO、IAIS等多边监管合作框架与全球各司法辖区的监管机构开展协作，其监管的卡塔尔金融中心注册有众多国际金融服务企业。QFCRA依据卡塔尔2030国家愿景及第三金融部门战略计划推进监管框架与国际审慎监管标准接轨，为包括APEC经济体在内的区域及全球金融机构在卡塔尔展业提供制度基础。",
+  "profile": {
+    "source_url": "https://www.qfcra.com/the-qfc-and-the-qfcra/",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q120186972",
-      "https://www.qfcra.com/"
+      "official_website",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 93,
+    "notes": "Phase 3 enrichment：董事会与执行团队、职能部门、2023-2026年新闻事件均核自QFCRA官方网站；原P2骨架brief/description内容已并入core_business并删除该两个非标准字段；QFCRA无Wikipedia词条，以Wikidata为结构化来源；key_people均未见于_name_index.json，person_id为null待P4回填",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "QFCRA官网首页",
+        "url": "https://www.qfcra.com/"
+      },
+      {
+        "title": "QFCRA Board of Directors（董事会名录）",
+        "url": "https://www.qfcra.com/directors/"
+      },
+      {
+        "title": "QFCRA The Executive Team（执行团队）",
+        "url": "https://www.qfcra.com/the-executive-team/"
+      },
+      {
+        "title": "QFCRA Chairman个人页",
+        "url": "https://www.qfcra.com/staff-members/chairman/"
+      },
+      {
+        "title": "QFCRA Michael G. Ryan个人页",
+        "url": "https://www.qfcra.com/staff-members/mr-michael-ryan/"
+      },
+      {
+        "title": "QFCRA Supervision and Authorisation（监管与授权）",
+        "url": "https://www.qfcra.com/supervision-and-authorisation/"
+      },
+      {
+        "title": "QFCRA International Co-operation（国际合作）",
+        "url": "https://www.qfcra.com/international-co-operation/"
+      },
+      {
+        "title": "QFMA and QFCRA Participate in International Week of Action（2026-04-23）",
+        "url": "https://www.qfcra.com/news/qfma-and-qfcra-participate-in-international-week-of-action/"
+      },
+      {
+        "title": "QFCRA agrees to settlement with Experts Credit Solutions Consultancy LLC（2026-02-19）",
+        "url": "https://www.qfcra.com/news/qfcra-agrees-to-settlement-with-experts-credit-solutions-consultancy-llc/"
+      },
+      {
+        "title": "QFCRA Achieves ISO/IEC 27001:2022 Certification（2025-11-30）",
+        "url": "https://www.qfcra.com/news/qatar-financial-centre-regulatory-authority-qfcra-achieves-iso-sec-270012022-certification/"
+      },
+      {
+        "title": "Qatar Financial Centre issues Digital Assets Framework（2024-09-02）",
+        "url": "https://www.qfcra.com/news/qatar-financial-centre-issues-digital-assets-framework/"
+      },
+      {
+        "title": "QFCRA Announces New Framework for a Derivatives Market in Qatar（2023-03-27）",
+        "url": "https://www.qfcra.com/news/qfcra-announces-new-framework-for-a-derivatives-market-in-qatar/"
+      },
+      {
+        "title": "Wikidata Q120186972（Qatar Financial Centre Regulatory Authority）",
+        "url": "https://www.wikidata.org/wiki/Q120186972"
+      }
+    ]
   }
 }

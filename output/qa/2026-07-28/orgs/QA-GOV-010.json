@@ -1,16 +1,23 @@
 {
   "org_id": "QA-GOV-010",
   "basic_info": {
-    "name_original": "وزارة البلدية والتخطيط العمراني",
+    "name_original": "وزارة البلدية",
     "name_zh": "卡塔尔市政部",
     "name_en": "Ministry of Municipality",
-    "aliases": [],
+    "aliases": [
+      "وزارة البلدية والتخطيط العمراني",
+      "Ministry of Municipality and Urban Planning",
+      "وزارة البلدية والبيئة",
+      "Ministry of Municipality and Environment",
+      "وزارة الشؤون البلدية والزراعة",
+      "Ministry of Municipal Affairs and Agriculture"
+    ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1972-00-00",
-    "website": "http://www.baladiya.gov.qa/",
+    "founded_date": "1972-01-01",
+    "website": "https://www.mme.gov.qa/",
     "wikidata_qid": "Q12250938"
   },
   "social_accounts": [
@@ -18,30 +25,206 @@
       "platform": "twitter_x",
       "account_name": "albaladiya",
       "url": "https://x.com/albaladiya",
-      "source": "twitter_search"
+      "source": "social_media"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "albaladiya",
+      "url": "https://www.facebook.com/albaladiya",
+      "source": "social_media"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "albaladiya",
+      "url": "https://www.instagram.com/albaladiya/",
+      "source": "social_media"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "albaladiya",
+      "url": "https://www.youtube.com/@albaladiya",
+      "source": "social_media"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔负责城乡市政事务的政府部门",
-  "industries": [
-    "public_administration"
+  "digital_assets": [
+    {
+      "name": "市政部官网组织架构页面",
+      "url": "https://www.mme.gov.qa/webcenter/portal/MM/pages_OrganizationalStructure",
+      "description": "官网组织架构栏目，列示部长办公室、各助理副大臣主管单位及其下设行政部门的职责分工，包括食品安全部门、公共园林部门等",
+      "source": "https://www.mme.gov.qa"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔负责城乡市政事务的政府部门",
-  "brief": "government ministry of Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "阿卜杜拉·本·哈马德·本·阿卜杜拉·阿提亚 (عبدالله بن حمد بن عبدالله العطية)",
+      "title": "市政大臣 (وزير البلدية)",
+      "title_description": "2024年1月8日经埃米尔令改组内阁时出任市政大臣",
+      "description": "获加迪夫大学机械工程学士学位和诺丁汉大学化学工程硕士学位；曾在卡塔尔石油公司任工程师至2011年，后加入拉斯加斯天然气公司并于2012年任规划总监；2014年任卡塔尔交付与遗产最高委员会项目管理办公室代理执行主任，2015年任技术办公室主任并出任公共工程局（阿什加尔）副局长；2018年起任卡塔尔迪亚尔房地产投资公司首席执行官，同期任巴尔瓦房地产公司副董事长并于2023年升任董事长；自2024年1月8日起出任市政大臣"
+    },
+    {
+      "person_id": null,
+      "name": "阿里·本·穆罕默德·本·阿里·阿勒阿里 (علي بن محمد بن علي العلي)",
+      "title": "市政部副大臣 (وكيل وزارة البلدية)",
+      "title_description": "2025年12月9日经第110/2025号埃米尔法令任命，法令自发布之日起生效",
+      "description": "2025年12月9日卡塔尔埃米尔颁布第110/2025号埃米尔法令，任命其为市政部副大臣；2026年3月曾陪同市政大臣视察本地农场，参与粮食安全政策执行相关工作"
+    },
+    {
+      "person_id": null,
+      "name": "法赫德·穆罕默德·卡塔尼 (فهد محمد القحطاني)",
+      "title": "市政部助理副大臣（农业与食品安全事务）",
+      "title_description": "主管农业事务与食品安全政策执行，分管食品安全部门",
+      "description": "工程师；担任市政部负责农业与食品安全事务的助理副大臣，主管国家食品安全政策的建议与执行监测、本地农业与食品生产数据的统计分析；2026年3月曾陪同市政大臣视察本地农场"
+    }
+  ],
+  "departments": [
+    {
+      "name": "城市规划事务部门 (قطاع شؤون التخطيط العمراني)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责在国家层面提出并编制城市规划总体方案，统筹国家总体规划（Qatar National Master Plan）的制订、修订与监督实施，并管理相关规划数据库",
+      "parent_dept_id": null
+    },
+    {
+      "name": "农业与食品安全事务部门 (وكيل الوزارة المساعد لشؤون الزراعة والأمن الغذائي)",
+      "dept_id": null,
+      "head": "法赫德·穆罕默德·卡塔尼 (فهد محمد القحطاني)",
+      "description": "由助理副大臣主管，下设食品安全部门（إدارة الأمن الغذائي）等单位，负责食品安全政策的建议与执行跟进、本地农业与食品生产数据的监测分析",
+      "parent_dept_id": null
+    },
+    {
+      "name": "公共服务事务部门 (قطاع شؤون الخدمات العامة)",
+      "dept_id": null,
+      "head": null,
+      "description": "下设公共园林部门（إدارة الحدائق العامة）等单位，负责公园、绿地与公共景观的建设养护以及公共清洁等市政服务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-08",
+      "title": "市政大臣在北京会见中国住房和城乡建设部部长",
+      "description": "市政大臣阿卜杜拉·本·哈马德·本·阿卜杜拉·阿提亚访问北京期间，会见中国住房和城乡建设部部长倪虹，双方就城市规划与市政领域的合作议题交换意见",
+      "impact": "拓展该部在国际城市规划与市政领域的对外交流与双边合作",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-9/8/minister-of-municipality-meets-chinese-minister-of-housing-urban-rural-development"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "市政大臣强调供应链稳定：关键蔬菜自给率达100%",
+      "description": "市政大臣、粮食安全政策执行跟进委员会主席阿卜杜拉·本·哈马德·本·阿卜杜拉·阿提亚视察本地农场时表示，关键蔬菜自给率达100%、鲜禽达99%，粮食安全政策执行情况良好、供应链保持稳定",
+      "impact": "凸显该部在协调国家粮食安全政策执行中的核心作用",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-3/18/minister-of-municipality-highlights-stability-of-supply-chains"
+    },
+    {
+      "date": "2025-12-09",
+      "title": "埃米尔颁布第110/2025号法令任命市政部副大臣",
+      "description": "卡塔尔埃米尔塔米姆·本·哈马德·阿勒萨尼颁布第110/2025号埃米尔法令，任命阿里·本·穆罕默德·本·阿里·阿勒阿里为市政部副大臣，法令自发布之日起生效",
+      "impact": "完成该部高级管理层的关键人事任命",
+      "source": "https://www.diwan.gov.qa/briefing-room/news/general/lg/2025/december/9/lg04"
+    },
+    {
+      "date": "2024-06-23",
+      "title": "启动智慧城市解决方案项目第一阶段",
+      "description": "市政大臣阿卜杜拉·本·哈马德·本·阿卜杜拉·阿提亚宣布启动智慧城市解决方案项目第一阶段，主要内容为实施智慧解决方案，以提升城市服务的人性化水平与运行效率",
+      "impact": "推动该部在城市管理与市政服务领域的数字化现代化转型",
+      "source": "https://www.qna.org.qa/en/News-Area/News/2024-06/23/0051-minister-of-municipality-inaugurates%C2%A0first-phase-of-smart-cities-solutions-project"
+    },
+    {
+      "date": "2024-01-08",
+      "title": "内阁改组：阿提亚出任市政大臣",
+      "description": "卡塔尔埃米尔办公厅发布埃米尔令改组内阁，任命阿卜杜拉·本·哈马德·本·阿卜杜拉·阿提亚为市政大臣；此前2021年10月内阁改组时，原市政与环境部分设为市政部与环境与气候变化部",
+      "impact": "确定该部现任主要领导，该部与环境和气候变化部分工运行",
+      "source": "https://www.diwan.gov.qa/briefing-room/news/general/lg/2024/january/8/lg01"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-GOV-009",
+      "org_name": "环境与气候变化部 (وزارة البيئة والتغير المناخي)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔主管环境与气候事务的政府部门；2021年10月内阁改组时，原市政与环境部一分为二，环境职能划归该部",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "中央市政委员会 (المجلس البلدي المركزي)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔的市政咨询机构，就市政事务向政府提出建议；市政部负责研究其建议并作出适当决定",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "公共工程局 (هيئة الأشغال العامة)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔负责道路与基础设施的法定机构（Ashghal），2004年依据第1/2004号法律设立；与市政部在道路、公园等市政项目上协作",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "市政与农业事务部 (وزارة الشؤون البلدية والزراعة)",
+      "org_type": "GOV",
+      "org_description": "该部历史沿革中的前身机构：1990年工业与农业部撤销后农业职能并入而成，1993年并入公共工程职能，经2005年改组及2021年机构调整后定名为市政部",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "卡塔尔市政部（وزارة البلدية）是卡塔尔国主管市政事务与城市规划的政府部门，也是该国公共服务职能较为广泛的部门之一，总部位于多哈。其核心职能包括：在国家层面提出并编制城市规划总体方案并监督实施；开展土地测量与划分、编制国家测绘地图、管理国有土地并向政府机构调配所需用地；为公共利益征用不动产；监管城市与村镇内部公共设施和次级道路的建设与维护；提出并实施楼宇、公园、绿地等市政项目；监管建筑物设置与工程执业；制定并实施公共清洁制度；监管墓园及提供殡葬服务等。此外，该部还承担农业事务与国家食品安全政策的协调职能，下设食品安全部门，牵头推动本地农产品自给。历史沿革方面：卡塔尔首个市政事务部门依据1972年第24号法令设立；1990年工业与农业部撤销后其农业职能并入，组成市政与农业事务部；1993年依据第20号法令并入公共工程职能；2004年公共工程局与城市规划发展委员会相继设立后，该部职能收窄于市政与农业事务，并依据2005年第23号法律改组；2016年组建市政与环境部；2021年10月依据第57/2021号埃米尔令，环境职能划出成立环境与气候变化部，该部定名为市政部；2022年10月第40/2022号埃米尔令核准其现行组织架构。该部愿景为在卡塔尔2030国家愿景框架下提升生活质量。现任市政大臣为阿卜杜拉·本·哈马德·本·阿卜杜拉·阿提亚（2024年1月8日就任），副大臣为阿里·本·穆罕默德·本·阿里·阿勒阿里（2025年12月任命）。",
+  "industries": [
+    "public_administration",
+    "urban_planning",
+    "agriculture_food"
+  ],
+  "apec_stance": "卡塔尔不是亚太经合组织（APEC）成员经济体，市政部不参与APEC相关进程。该部的城市规划、市政服务与食品安全职能主要面向国内治理，对外合作主要通过海湾阿拉伯国家合作委员会以及联合国相关机构等多边平台开展，与APEC框架下的经贸合作无直接关联。",
+  "profile": {
+    "source_url": "https://www.mme.gov.qa/webcenter/portal/MM/pages_aboutus",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q12250938",
-      "http://www.baladiya.gov.qa/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "government_directory",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 89,
+    "notes": "P3 丰富化：现任大臣（2024-01-08就任）与副大臣（2025年第110号埃米尔法令任命）经埃米尔办公厅及QNA交叉验证；历任沿革（1972年设立、1990/1993/2004-2005/2016/2021/2022年改组）依据阿拉伯语维基百科与埃米尔令记录。name_original 由Wikidata旧标签「وزارة البلدية والتخطيط العمراني」更正为现用官方阿拉伯语名「وزارة البلدية」，旧标签与历史名称移入aliases。key_people三人的person_id均为null（_name_index.json中未收录，待P4回填）",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Amiri Diwan: Amir issues Amiri order restructuring the Cabinet (2024-01-08)",
+        "url": "https://www.diwan.gov.qa/briefing-room/news/general/lg/2024/january/8/lg01"
+      },
+      {
+        "title": "Amiri Diwan: Amir issues Decree No. (110) of 2025 appointing Undersecretary of the Ministry of Municipality",
+        "url": "https://www.diwan.gov.qa/briefing-room/news/general/lg/2025/december/9/lg04"
+      },
+      {
+        "title": "QNA: Minister of Municipality Highlights Stability of Supply Chains (2026-03-18)",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-3/18/minister-of-municipality-highlights-stability-of-supply-chains"
+      },
+      {
+        "title": "QNA: Minister of Municipality Meets Chinese Minister of Housing, Urban-Rural Development (2026-09-08)",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-9/8/minister-of-municipality-meets-chinese-minister-of-housing-urban-rural-development"
+      },
+      {
+        "title": "QNA: Minister of Municipality Inaugurates First Phase of Smart Cities Solutions Project (2024-06-23)",
+        "url": "https://www.qna.org.qa/en/News-Area/News/2024-06/23/0051-minister-of-municipality-inaugurates%C2%A0first-phase-of-smart-cities-solutions-project"
+      },
+      {
+        "title": "وزارة البلدية (قطر) - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A8%D9%84%D8%AF%D9%8A%D8%A9_(%D9%82%D8%B7%D8%B1)"
+      },
+      {
+        "title": "عبد الله العطية (市政大臣阿提亚) - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%84%D8%B9%D8%B7%D9%8A%D8%A9"
+      },
+      {
+        "title": "Ministry of Municipality official website",
+        "url": "https://www.mme.gov.qa/"
+      }
+    ]
   }
 }

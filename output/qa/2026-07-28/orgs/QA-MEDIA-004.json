@@ -4,44 +4,227 @@
     "name_original": "غلف تايمز",
     "name_zh": "海湾时报",
     "name_en": "Gulf Times",
-    "aliases": [],
+    "aliases": [
+      "Gulf Times Newspaper",
+      "Gulf Times Qatar"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "newspaper",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1978-06-01",
-    "website": "http://www.gulf-times.com/",
+    "founded_date": "1978-12-10",
+    "website": "https://www.gulf-times.com/",
     "wikidata_qid": "Q1554284"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "gulftimes_qatar",
-      "url": "https://twitter.com/gulftimes_qatar",
+      "account_name": "GulfTimes_QATAR",
+      "url": "https://x.com/GulfTimes_QATAR",
       "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "gulftimes",
+      "url": "https://www.facebook.com/gulftimes",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "gulftimes",
+      "url": "https://www.instagram.com/gulftimes/",
+      "source": "web_search"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "gulf-times-qatar",
+      "url": "https://www.linkedin.com/company/gulf-times-qatar",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔出版的英文日报",
-  "industries": [
-    "media_publishing"
+  "digital_assets": [
+    {
+      "name": "海湾时报官方网站",
+      "url": "https://www.gulf-times.com/",
+      "description": "报社官方网站，发布本地、区域及国际新闻、评论、经济与体育等版面内容，并提供栏目导航与资料检索",
+      "source": "https://www.gulf-times.com/"
+    },
+    {
+      "name": "海湾时报电子报（PDF存档）",
+      "url": "https://www.gulf-times.com/pdfs",
+      "description": "提供每日印刷版报纸的PDF电子版浏览及往期报纸存档",
+      "source": "https://www.gulf-times.com/pdfs"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔出版的英文日报",
-  "brief": "newspaper",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "阿卜杜拉·本·哈利法·阿勒阿提亚 (Abdullah bin Khalifa al-Attiyah)",
+      "title": "董事长",
+      "title_description": "《海湾时报》及出版方海湾出版印刷公司董事长",
+      "description": "据《海湾时报》官方网站介绍页及2026年9月印刷版报头列名，任海湾时报董事长，主持报社整体管理事务"
+    },
+    {
+      "person_id": null,
+      "name": "费萨尔·阿卜杜勒哈米德·阿勒穆达哈卡 (Faisal Abdulhameed al-Mudahka)",
+      "title": "主编",
+      "title_description": "任主编逾八年，主管报社编辑方针与内容战略",
+      "description": "据《海湾时报》官网作者页介绍，其担任主编已超过八年；多次代表报社出席区域媒体行业活动，2025年7月参与卡塔尔新闻中心举办的媒体对话，2025年9月主持对卡塔尔媒体城主席的专访"
+    },
+    {
+      "person_id": null,
+      "name": "卡姆兰·雷赫马特 (Kamran Rehmat)",
+      "title": "副执行编辑",
+      "title_description": null,
+      "description": "据《海湾时报》2026年4月至9月印刷版报头列名，任副执行编辑（Deputy Managing Editor）"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑部",
+      "dept_id": null,
+      "head": null,
+      "description": "负责本地及国际新闻的采访、编辑与报道，下设本地记者队伍，覆盖卡塔尔、海湾地区及国际新闻（News Desk）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "经济版",
+      "dept_id": null,
+      "head": null,
+      "description": "负责财经与商业新闻报道，覆盖卡塔尔及海湾地区经济、能源与市场动态（Economy）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "体育版",
+      "dept_id": null,
+      "head": null,
+      "description": "负责本地及国际体育赛事报道（Sports）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术与印务部",
+      "dept_id": null,
+      "head": null,
+      "description": "负责报纸制版印刷与技术服务；公司1981年起建立自有印刷部门并开展商业印刷业务，另设资料档案部门维护历史报纸数据库（Technical）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-10",
+      "title": "《海湾时报》宣布新增多位国际撰稿人",
+      "description": "报社宣布聘请克里斯蒂安·乌尔里希森（Kristian Coates Ulrichsen）、罗里·米勒（Rory Miller）、贾米勒·姆鲁埃（Jamil K Mroue）、贾西姆·阿扎维（Jasim al-Azzawi）等国际记者、学者与媒体从业者担任定期撰稿人，提供地缘政治、能源、媒体及国际事务领域的分析与评论，扩展区域与全球议题报道",
+      "impact": "扩充该报分析评论内容供给，拓展国际议题覆盖面",
+      "source": "https://www.gulf-times.com/article/725266/qatar/gulf-times-adds-distinguished-contributors"
+    },
+    {
+      "date": "2025-09-22",
+      "title": "《海湾时报》主编专访卡塔尔媒体城主席",
+      "description": "该报主编费萨尔·阿卜杜勒哈米德·阿勒穆达哈卡专访卡塔尔媒体城（Media City Qatar）主席谢赫·阿卜杜拉·本·阿里·阿勒萨尼，访谈内容涉及卡塔尔建设创意经济与区域媒体枢纽的规划、国际媒体机构入驻及媒体城迁址多哈姆谢雷布市中心园区等",
+      "impact": "体现该报对卡塔尔媒体产业议题的深度访谈报道能力",
+      "source": "https://www.gulf-times.com/article/711211/qatar/we-have-attracted-major-international-organisations-such-as-cnn-dpa-euronews-and-dow-jones-while-simultaneously-empowering-local-talent-dr-abdulla"
+    },
+    {
+      "date": "2025-07-16",
+      "title": "《海湾时报》主编出席卡塔尔新闻中心媒体对话",
+      "description": "卡塔尔新闻中心（QPC）在多哈举办有叙利亚新闻部长及卡塔尔各报主编出席的媒体对话活动，该报主编阿勒穆达哈卡出席并参与讨论",
+      "impact": "反映该报参与区域媒体行业交流",
+      "source": "https://www.gulf-times.com/article/707451/qatar/qpc-hosts-media-dialogue-with-syrian-minister-qatari-editors"
+    },
+    {
+      "date": "2025-09-04",
+      "title": "《海湾时报》担任2025卡塔尔活动展官方媒体合作伙伴",
+      "description": "该报担任2025年卡塔尔活动展（Qatar Event Show 2025，9月2日至4日在多哈会展中心举行，汇聚逾50家参展商及2000多名业界代表）的官方媒体合作伙伴，并现场进行报道与人物专访",
+      "impact": "拓展该报在会展活动领域的媒体合作与报道业务",
+      "source": "https://www.gulf-times.com/article/709994/media/qatar-event-show-2025"
+    },
+    {
+      "date": "2023-02-21",
+      "title": "谷歌云中东区总经理到访《海湾时报》报社",
+      "description": "据该报2023年2月21日版面报道，谷歌云中东（Google Cloud ME）总经理到访海湾时报社，与报社人员会面交流",
+      "impact": "体现该报社与科技企业间的业务交流",
+      "source": "https://www.gulf-times.com/pdf/2023/02/21/main-20230221-1.pdf"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "海湾出版印刷公司 (Gulf Publishing & Printing Company W.L.L)",
+      "org_type": "CORP",
+      "org_description": "《海湾时报》的出版方与母公司，1978年6月1日在多哈成立，同时出版《海湾时报》与阿拉伯语姊妹报拉雅报",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "拉雅报 (Arrayah)",
+      "org_type": "MEDIA",
+      "org_description": "卡塔尔阿拉伯语日报，1979年5月10日创刊，与《海湾时报》同属海湾出版印刷公司旗下的姊妹报纸",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔新闻中心 (Qatar Press Center, QPC)",
+      "org_type": "NGO",
+      "org_description": "位于多哈的新闻行业机构，2025年7月主办有该报主编参与的媒体对话活动",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "海湾时报（Gulf Times）是卡塔尔主要英文日报，由位于多哈的海湾出版印刷公司（Gulf Publishing & Printing Company W.L.L）出版，报社总部设于多哈Al Hilal区C环路。出版公司于1978年1月19日召开创立会议并确定公司名称，同年6月1日正式成立；报纸创刊号于1978年12月10日以周报形式出版，1981年2月22日起改为日报，1995年12月由小报改为对开大报。出版公司同时运营英文的《海湾时报》与阿拉伯文的姊妹报拉雅报（Arrayah，1979年5月10日创刊）。《海湾时报》与半岛报（The Peninsula）、卡塔尔论坛报（Qatar Tribune）并列为卡塔尔三家主要英文日报，报道范围覆盖卡塔尔本地、海湾地区、阿拉伯世界及国际新闻，版面设置包括新闻、评论、分析、经济、体育等板块，并设有资料档案与印务技术部门。1981年起公司建立自有印刷部门并开展商业印刷业务。该报另通过官方网站、每日PDF电子报及社交媒体平台发布数字内容。据官网介绍页及2026年9月印刷版报头，报社董事长为阿卜杜拉·本·哈利法·阿勒阿提亚（Abdullah bin Khalifa al-Attiyah），主编为费萨尔·阿卜杜勒哈米德·阿勒穆达哈卡（Faisal Abdulhameed al-Mudahka）。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，《海湾时报》作为卡塔尔媒体机构不直接参与APEC进程与机制。该报经济版面对亚太区域经贸议题有常规报道，APEC相关会议与合作动态是其区域经济新闻的组成部分。卡塔尔与亚太经济体的贸易投资往来亦属其国际新闻与财经报道的覆盖范围。",
+  "profile": {
+    "source_url": "https://www.gulf-times.com/about",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q1554284",
-      "http://www.gulf-times.com/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 88,
+    "notes": "Phase 3丰富化（2026-09-11）：原顶层非标准字段brief与description的有效事实（newspaper子类、卡塔尔英文日报定位）已并入basic_info与core_business并删除这两个字段；wikidata_qid Q1554284经Wikidata API核实确为海湾时报报纸实体（P31=Q11032 newspaper），无需修正；founded_date更新为首期出版日1978-12-10（出版公司成立日1978-06-01见core_business，P2骨架原取公司成立日）；董事长姓名依官网介绍页及2026年9月印刷版报头采用Abdullah bin Khalifa al-Attiyah，英文Wikipedia记载的所有人姓名（Abdullah bin Hamad al-Attiyah）与官网不一致，以官网为准；X账号采用经验证的现用句柄@GulfTimes_QATAR（Wikidata P2002另含旧句柄gulftimes_qatar）；key_people三人均未见于_name_index.json，person_id为null待P4回填",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Gulf Times - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gulf_Times"
+      },
+      {
+        "title": "海湾时报官方网站 About 页",
+        "url": "https://www.gulf-times.com/about"
+      },
+      {
+        "title": "Gulf Times (Q1554284) - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1554284"
+      },
+      {
+        "title": "Gulf Times adds distinguished contributors - Gulf Times",
+        "url": "https://www.gulf-times.com/article/725266/qatar/gulf-times-adds-distinguished-contributors"
+      },
+      {
+        "title": "We have attracted major international organisations...: Dr Abdulla - Gulf Times",
+        "url": "https://www.gulf-times.com/article/711211/qatar/we-have-attracted-major-international-organisations-such-as-cnn-dpa-euronews-and-dow-jones-while-simultaneously-empowering-local-talent-dr-abdulla"
+      },
+      {
+        "title": "QPC hosts media dialogue with Syrian minister, Qatari editors - Gulf Times",
+        "url": "https://www.gulf-times.com/article/707451/qatar/qpc-hosts-media-dialogue-with-syrian-minister-qatari-editors"
+      },
+      {
+        "title": "Qatar Event Show 2025 - Gulf Times",
+        "url": "https://www.gulf-times.com/article/709994/media/qatar-event-show-2025"
+      },
+      {
+        "title": "Gulf Times print edition 2023-02-21（Google Cloud ME总经理到访报道）",
+        "url": "https://www.gulf-times.com/pdf/2023/02/21/main-20230221-1.pdf"
+      }
+    ]
   }
 }

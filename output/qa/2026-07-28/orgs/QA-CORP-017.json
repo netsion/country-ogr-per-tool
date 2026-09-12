@@ -4,13 +4,19 @@
     "name_original": "نادي الاهلي القطري",
     "name_zh": "卡塔尔阿赫利体育俱乐部",
     "name_en": "Al Ahli SC",
-    "aliases": [],
+    "aliases": [
+      "Al Ahli SC (Doha)",
+      "Al Ahli Doha",
+      "النادي الأهلي الرياضي",
+      "Al Najah SC",
+      "العميد"
+    ],
     "org_type": "CORP",
     "org_subtype": "private_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1950-00-00",
-    "website": "https://alahli.qa/",
+    "founded_date": "1950-01-01",
+    "website": "https://alahlisc.qa/",
     "wikidata_qid": "Q284452"
   },
   "social_accounts": [
@@ -18,36 +24,225 @@
       "platform": "twitter_x",
       "account_name": "ahliqat",
       "url": "https://x.com/ahliqat",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "ahliqat",
       "url": "https://www.instagram.com/ahliqat/",
-      "source": "instagram_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "ahliqat",
+      "url": "https://www.facebook.com/ahliqat/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "qtralahliclub",
+      "url": "https://www.youtube.com/user/qtralahliclub",
+      "source": "official_website"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "ahliqat",
+      "url": "https://www.tiktok.com/@ahliqat",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔职业足球俱乐部",
-  "industries": [
-    "industrial_manufacturing"
+  "digital_assets": [
+    {
+      "name": "俱乐部官方网站",
+      "url": "https://alahlisc.qa/",
+      "description": "俱乐部官方网站，设俱乐部新闻、一线队、董事会、历史与传奇、成就、票务信息及各运动项目栏目",
+      "source": "https://alahlisc.qa/"
+    },
+    {
+      "name": "卡塔尔足球协会俱乐部资料页",
+      "url": "https://www.qfa.qa/en/sports-club/al-ahli-sc",
+      "description": "卡塔尔足球协会官网提供的阿尔阿赫利俱乐部介绍与联系方式页面",
+      "source": "https://www.qfa.qa/en/sports-club/al-ahli-sc"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔职业足球俱乐部",
-  "brief": "multi-sport club in Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "哈桑·优素福·穆拉 (حسن يوسف الملا)",
+      "title": "俱乐部主席",
+      "title_description": "2024年8月经会员大会等额选举产生的董事会主席，任期2024-2028",
+      "description": "2024年8月28日俱乐部普通会员大会上以唯一候选名单当选董事会主席，接替前主席阿卜杜拉·优素福·穆拉；任内俱乐部于2026年1月夺得卡塔尔-阿联酋超级杯挑战杯冠军，并在2025/26赛季亚足联冠军联赛二级晋级半决赛"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜拉·贾西姆·阿勒伊萨克 (عبدالله جاسم آل إسحاق)",
+      "title": "俱乐部副主席",
+      "title_description": "2024-2028任期董事会副主席",
+      "description": "与主席哈桑·优素福·穆拉在2024年8月28日会员大会上同届当选"
+    },
+    {
+      "person_id": null,
+      "name": "阿里夫·阿卜杜勒拉赫曼·阿卜杜拉 (عارف عبدالرحمن العبدالله)",
+      "title": "总经理",
+      "title_description": "董事会任命的俱乐部日常行政负责人",
+      "description": "2024-2028任期董事会任命的总经理；俱乐部官方X账号2026年9月6日帖文显示其仍以总经理身份出席俱乐部活动"
+    },
+    {
+      "person_id": null,
+      "name": "博尔哈·希门尼斯 (Borja Jiménez)",
+      "title": "一线队主教练",
+      "title_description": "2026年7月3日上任",
+      "description": "西班牙籍足球教练，1985年1月21日生于西班牙阿维拉；据卡塔尔通讯社报道于2026年7月3日被任命为阿尔阿赫利一线队主教练，执教2026-27赛季多哈银行星级联赛"
+    }
+  ],
+  "departments": [
+    {
+      "name": "足球部（一线队）",
+      "dept_id": null,
+      "head": null,
+      "description": "征战卡塔尔星级联赛、埃米尔杯及亚足联俱乐部赛事的一线队足球业务，主场为哈马德·本·哈利法体育场",
+      "parent_dept_id": null
+    },
+    {
+      "name": "青训体系（青年与少年梯队）",
+      "dept_id": null,
+      "head": null,
+      "description": "运营青年、少年等各年龄梯队，长期为卡塔尔国家队输送球员，官网设青年与少年两个梯队栏目并组织青少年赛事",
+      "parent_dept_id": null
+    },
+    {
+      "name": "手球部",
+      "dept_id": null,
+      "head": null,
+      "description": "运营手球项目及梯队，2026年9月俱乐部曾表彰入选卡塔尔国家青年手球队的俱乐部球员",
+      "parent_dept_id": null
+    },
+    {
+      "name": "综合运动项目（游泳、篮球、排球、乒乓球）",
+      "dept_id": null,
+      "head": null,
+      "description": "俱乐部为多项目体育组织，官网设有游泳、篮球、排球、乒乓球等项目栏目，篮排球等项目自上世纪80年代即有建制",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-08-28",
+      "title": "会员大会选举产生2024-2028届董事会",
+      "description": "俱乐部普通会员大会以唯一候选名单等额选举哈桑·优素福·穆拉为董事会主席、阿卜杜拉·贾西姆·阿勒伊萨克为副主席、阿里夫·阿卜杜勒拉赫曼·阿卜杜拉为总经理，任期至2028年；38名有投票权会员出席，卡塔尔体育与青年部代表到会",
+      "impact": "完成俱乐部治理层换届，新董事会主导其后球队教练更迭、引援与竞赛成绩提升",
+      "source": "https://alahlisc.qa/%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%88%D9%85%D9%8A%D8%A9-%D9%84%D9%84%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%A7%D9%87%D9%84%D9%8A-%D8%AA%D9%86%D8%AA%D8%AE%D8%A8"
+    },
+    {
+      "date": "2025-11-30",
+      "title": "与克罗地亚籍主教练伊戈尔·比斯坎协商解约",
+      "description": "俱乐部宣布与2024年6月上任的克罗地亚籍主教练伊戈尔·比斯坎（Igor Bišćan）经双方同意终止合同；据卡塔尔通讯社报道，解约时球队在2025-26赛季多哈银行星级联赛积分榜列第9位",
+      "impact": "赛季中期换帅，其后由卡塔尔籍教练优内斯·阿里接任，球队于次月夺得卡塔尔-阿联酋超级杯挑战杯冠军",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-11/30/al-ahli-part-ways-with-croatian-coach-igor-biscan-by-mutual-consent"
+    },
+    {
+      "date": "2026-01-25",
+      "title": "夺得卡塔尔-阿联酋超级杯挑战杯冠军",
+      "description": "在阿布扎比穆罕默德·本·扎耶德体育场举行的第三届卡塔尔-阿联酋超级杯挑战杯决赛中，俱乐部与东道主阿布扎比贾兹拉队常规时间战成1-1（尤利安·德拉克斯勒第93分钟扳平），点球大战4-3获胜夺冠",
+      "impact": "俱乐部近年首项锦标；据维基百科荣誉记录，这是继2012年卡塔尔乙级联赛冠军后俱乐部获得的首座奖杯",
+      "source": "https://www.qfa.qa/en/news/al-ahli-claims-qatar-uae-super-cup-challenge-title"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "晋级亚足联冠军联赛二级半决赛，创队史最佳",
+      "description": "俱乐部参加2025/26赛季亚足联冠军联赛二级（AFC Champions League Two），淘汰赛先后淘汰伊朗的塞帕罕与约旦的侯赛因晋级西区半决赛；2026年4月22日在单场半决赛中以1-5不敌沙特阿拉伯的利雅得胜利",
+      "impact": "为俱乐部在亚足联赛事的历史最好成绩（此前仅在1992/93、1998/99赛季参加过亚洲优胜者杯并止步前两轮）",
+      "source": "https://www.espn.com/soccer/match/_/gameId/401861874/al-ahli-sc-al-nassr"
+    },
+    {
+      "date": "2026-07-03",
+      "title": "任命西班牙籍教练博尔哈·希门尼斯为主教练",
+      "description": "据卡塔尔通讯社报道，俱乐部当日宣布任命西班牙籍教练博尔哈·希门尼斯为一线队主教练；希门尼斯1985年生于阿维拉，2026-27赛季率队征战多哈银行星级联赛",
+      "impact": "球队完成教练组重组，进入2026-27赛季备战与征战阶段",
+      "source": "https://www.fananews.com/language/en/qatari-football-al-ahli-appoint-jimenez-as-new-coach/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-011",
+      "org_name": "卡塔尔足球协会 (Qatar Football Association)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球运动的全国管理机构，负责组织卡塔尔星级联赛及杯赛，俱乐部为其下属会员俱乐部",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔星级联赛 (Qatar Stars League)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔顶级足球联赛及其运营机构（现冠名为多哈银行星级联赛），俱乐部为参赛会员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔体育与青年部 (Ministry of Sports and Youth)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔主管体育与青年事务的政府部门，对俱乐部治理实施监督并派代表出席会员大会；1985年曾注资50万里亚尔帮助俱乐部缓解债务",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "QA-CORP-009",
+      "org_name": "赖扬体育俱乐部 (Al-Rayyan SC)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔星级联赛俱乐部，与本俱乐部有球员租借合作往来，并在联赛及2025年埃米尔杯半决赛（赖扬3-0胜）中多次交锋",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔阿赫利体育俱乐部（Al Ahli SC，通称「多哈阿赫利」，昵称「旅长」）是卡塔尔历史最悠久的体育俱乐部：1950年以「成功体育俱乐部」（Al Najah SC）之名创立，1972年与当地俱乐部合并后改用现名。俱乐部总部及主场位于多哈，足球队主场为容量约1.2万人的哈马德·本·哈利法体育场，队色为绿白两色。俱乐部为综合性体育组织，以职业足球为核心业务：一线队参加卡塔尔顶级联赛卡塔尔星级联赛（现冠名多哈银行星级联赛），并出战埃米尔杯及亚足联俱乐部赛事，2025/26赛季晋级亚足联冠军联赛二级半决赛；除足球外，官网设有游泳、篮球、排球、手球、乒乓球等项目及青年、少年梯队栏目，青训体系长期为卡塔尔国家队输送球员。俱乐部主要荣誉包括埃米尔杯冠军4次（1973、1981、1987、1992）、卡塔尔乙级联赛冠军1次（2012）以及2026年卡塔尔-阿联酋超级杯挑战杯冠军。俱乐部实行会员制治理，由会员大会选举产生的董事会管理，现任董事会于2024年8月选举产生、任期至2028年，设主席、副主席及总经理，荣誉主席为谢赫·艾哈迈德·本·哈马德·阿勒萨尼，并接受卡塔尔体育与青年部监督。",
+  "industries": [
+    "sports"
+  ],
+  "apec_stance": "卡塔尔非APEC成员经济体，本俱乐部作为体育组织不直接参与APEC进程与贸易政策事务。俱乐部参加的区域足球赛事（卡塔尔星级联赛、亚足联俱乐部赛事、2026年第三届卡塔尔-阿联酋超级杯）是多哈作为区域体育交流枢纽的组成部分。区域大型赛事带动的体育旅游与人员往来构成俱乐部运营环境的客观外部联系。",
+  "profile": {
+    "source_url": "https://alahlisc.qa/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%88-%D8%A3%D8%B3%D8%A7%D8%B7%D9%8A%D8%B1",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q284452",
-      "https://alahli.qa/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 95,
+    "notes": "Phase 3 丰富化完成。Wikidata QID Q284452 经核实指向卡塔尔多哈的 Al Ahli SC（卡塔尔最古老体育俱乐部），与机构相符，未变更。官网核验：alahlisc.qa 自述为俱乐部官方网站（站名 AL-AHLI SPORTS CLUB - OFFICIAL SITE，站内链接俱乐部官方X账号@ahliqat），故 website 由 Wikidata P856 的 alahli.qa 更新为 alahlisc.qa；alahli.qa 亦载有俱乐部新闻，供参考。主席人选经交叉验证：俱乐部官网2024-08-28会员大会公告、卡塔尔体育与青年部新闻及俱乐部官方X账号2026-09-06帖文一致确认现任主席为哈桑·优素福·穆拉（Wikidata与Transfermarkt所载阿卜杜拉·优素福·穆拉为上任主席，非现任）。原P2骨架顶层非标准字段 brief/description 的有效事实（卡塔尔职业足球俱乐部、综合性体育俱乐部）已并入 core_business 后删除；industries 由误填的 industrial_manufacturing 更正为 sports；founded_date 由 1950-00-00 规范为 1950-01-01。related_entities 中卡塔尔星级联赛、卡塔尔体育与青年部未见于 id_registry.json，org_id 置 null；key_people 4人均未见于 _name_index.json，person_id 置 null 待P4回填。",
+    "quotes": [
+      {
+        "title": "الجمعية العمومية للنادي الاهلي تنتخب حسن الملا رئيسا للنادي - AL-AHLI SPORTS CLUB OFFICIAL SITE",
+        "url": "https://alahlisc.qa/%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%88%D9%85%D9%8A%D8%A9-%D9%84%D9%84%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%A7%D9%87%D9%84%D9%8A-%D8%AA%D9%86%D8%AA%D8%AE%D8%A8"
+      },
+      {
+        "title": "Al Ahli Claims Qatar-UAE Super Cup Challenge Title - Qatar Football Association",
+        "url": "https://www.qfa.qa/en/news/al-ahli-claims-qatar-uae-super-cup-challenge-title"
+      },
+      {
+        "title": "Al Ahli Part Ways With Croatian Coach Igor Biscan by Mutual Consent - Qatar News Agency",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-11/30/al-ahli-part-ways-with-croatian-coach-igor-biscan-by-mutual-consent"
+      },
+      {
+        "title": "Al Nassr vs. Al Ahli SC - AFC Champions League Two 2025/26 semifinal (ESPN)",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401861874/al-ahli-sc-al-nassr"
+      },
+      {
+        "title": "Qatari Football: Al Ahli Appoint Jimenez as New Coach (QNA via Fana News)",
+        "url": "https://www.fananews.com/language/en/qatari-football-al-ahli-appoint-jimenez-as-new-coach/"
+      },
+      {
+        "title": "Al Ahli SC (Doha) - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Al_Ahli_SC_(Doha)"
+      },
+      {
+        "title": "AL-AHLI SPORTS CLUB - OFFICIAL SITE",
+        "url": "https://alahlisc.qa/"
+      }
+    ]
   }
 }

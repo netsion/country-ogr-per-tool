@@ -4,13 +4,17 @@
     "name_original": "وزارة الصحة العامة (قطر)",
     "name_zh": "卡塔尔公共卫生部",
     "name_en": "Ministry of Public Health",
-    "aliases": [],
+    "aliases": [
+      "MOPH",
+      "وزارة الصحة العامة",
+      "Ministry of Public Health of Qatar"
+    ],
     "org_type": "GOV",
     "org_subtype": "ministry",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": null,
-    "website": null,
+    "founded_date": "1979-01-01",
+    "website": "https://www.moph.gov.qa/",
     "wikidata_qid": "Q116965701"
   },
   "social_accounts": [
@@ -25,28 +29,222 @@
       "account_name": "mophqatar",
       "url": "https://www.linkedin.com/company/mophqatar",
       "source": "linkedin_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "mophqatar",
+      "url": "https://www.instagram.com/mophqatar/",
+      "source": "official_x_account"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "MOPHQatar",
+      "url": "https://www.facebook.com/MOPHQatar",
+      "source": "social_media_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔公共卫生部是一所致尼日利亚的机构。",
-  "industries": [
-    "environmental_services"
+  "digital_assets": [
+    {
+      "name": "国家卫生战略2024-2030专题页面",
+      "url": "https://www.moph.gov.qa/english/NHS/Pages/default.aspx",
+      "description": "公共卫生部官网国家卫生战略栏目，介绍2024-2030年国家卫生战略的目标、优先事项与实施进展",
+      "source": "https://www.moph.gov.qa/english/NHS/Pages/default.aspx"
+    },
+    {
+      "name": "医疗专业人员部（DHP）注册与执照系统",
+      "url": "https://dhp.moph.gov.qa/en/Pages/Home.aspx",
+      "description": "公共卫生部医疗专业人员部的电子注册与执照系统，供医疗执业人员办理注册、执照申请与考试安排",
+      "source": "https://dhp.moph.gov.qa/en/Pages/Home.aspx"
+    },
+    {
+      "name": "公共卫生部电子服务门户",
+      "url": "https://eservices.moph.gov.qa/qpsw/home",
+      "description": "公共卫生部电子服务入口，提供医疗卡办理、证书认证等在线服务",
+      "source": "https://www.facebook.com/MOPHQatar"
+    }
   ],
-  "apec_stance": null,
-  "description": "Qatar governmental body responsible for public health",
-  "brief": "Qatar governmental body responsible for public health",
+  "key_people": [
+    {
+      "person_id": "QA-PERSON-000010",
+      "name": "曼苏尔·本·易卜拉欣·马哈茂德 (منصور بن إبراهيم المحمود)",
+      "title": "部长",
+      "title_description": "2024年11月12日经阿米里令任命出任公共卫生部长，主持部务并主管国家卫生战略与卫生政策制定",
+      "description": "出任部长前长期担任卡塔尔投资管理局（QIA）总裁兼首席执行官（2018-2024）；2024年11月卡塔尔内阁改组中获任公共卫生部长"
+    },
+    {
+      "person_id": null,
+      "name": "加尼姆·阿里·穆罕默德·马奈 (غانم علي محمد المناعي)",
+      "title": "卫生监管事务助理次官 (Assistant Undersecretary for Healthcare Regulatory Affairs)",
+      "title_description": "分管医疗机构监管、卫生应急准备与药品医疗物资战略储备等事务",
+      "description": "2025年获任公共卫生部卫生监管事务助理次官；2026年3月代表该部向卡塔尔通讯社通报全国卫生机构应对紧急情况的准备状况"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·穆罕默德·本·哈马德·阿勒萨尼 (محمد بن حمد آل ثاني)",
+      "title": "公共卫生司司长 (Director of Public Health Department)",
+      "title_description": "主管公共卫生司，负责慢性病预防、健康促进与公共卫生项目管理",
+      "description": "自2008年起担任公共卫生部公共卫生司司长，同时兼任威尔·康奈尔医学院卡塔尔分校临床人口健康科学副教授"
+    }
+  ],
+  "departments": [
+    {
+      "name": "公共卫生司 (Public Health Department)",
+      "dept_id": null,
+      "head": "谢赫·穆罕默德·本·哈马德·阿勒萨尼 (محمد بن حمد آل ثاني)",
+      "description": "负责传染病与慢性病防控、健康促进及各项公共卫生项目的组织实施",
+      "parent_dept_id": null
+    },
+    {
+      "name": "医疗专业人员部 (Department of Healthcare Professions)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责全国医疗执业人员的注册、认证与执照管理，运营DHP电子注册执照系统（dhp.moph.gov.qa）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "卫生监管事务助理次官办公室 (Healthcare Regulatory Affairs)",
+      "dept_id": null,
+      "head": "加尼姆·阿里·穆罕默德·马奈 (غانم علي محمد المناعي)",
+      "description": "分管私立医疗机构监管、卫生应急准备与药品医疗物资战略储备等事务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国际卫生关系处 (International Health Relations)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责与世界卫生组织、海湾卫生理事会等国际及区域卫生组织的联络与合作",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-09-12",
+      "title": "卡塔尔发布《国家卫生战略2024-2030》",
+      "description": "首相兼外交大臣谢赫·穆罕默德·本·阿卜杜拉赫曼·阿勒萨尼在多哈出席发布仪式，战略以「人人享有健康」为主题，提出将人均预期寿命提高至82.6岁、降低慢性病死亡率等目标，为卡塔尔第三份国家卫生战略",
+      "impact": "确立公共卫生部未来六年的卫生政策纲领和公立医疗服务体系改革方向",
+      "source": "https://qna.org.qa/en/news-bulletins-details?id=0036-prime-minister-and-minister-of-foreign-affairs-launches-national-health-strategy-(2024-2030)&date=12/09/2024"
+    },
+    {
+      "date": "2024-10-14",
+      "title": "多哈主办世界卫生组织东地中海区域委员会第71届会议",
+      "description": "会议于2024年10月14日至17日在多哈举行，主题为「健康无国界：行动、可及与公平」，由卡塔尔承办，公共卫生部负责组织协调，世卫组织总干事谭德塞等出席",
+      "impact": "体现该部在世界卫生组织区域卫生治理中的组织协调角色",
+      "source": "https://www.qna.org.qa/en/News-Area/News/2024-10/14/0055-qatar-hosts-71st-session-of-who-regional-committee-for-eastern-mediterranean"
+    },
+    {
+      "date": "2024-11-12",
+      "title": "内阁改组：曼苏尔·本·易卜拉欣·马哈茂德出任公共卫生部长",
+      "description": "卡塔尔埃米尔颁布阿米里令改组内阁，任命曼苏尔·本·易卜拉欣·本·萨阿德·马哈茂德为公共卫生部长，接替自2016年起任职的哈南·穆罕默德·库瓦里",
+      "impact": "部级主要负责人更替，新部长此前任卡塔尔投资管理局首席执行官",
+      "source": "https://diwan.gov.qa/briefing-room/news/general/lg/2024/november/12/lg01?sc_lang=en"
+    },
+    {
+      "date": "2025-09-12",
+      "title": "卡塔尔公民改用国民身份证替代医疗卡就医",
+      "description": "公共卫生部宣布自2025年9月12日起，卡塔尔公民可在全国所有医疗机构凭国民身份证（QID）替代医疗卡免费接受医疗服务，无需再申办或续期医疗卡",
+      "impact": "简化公民就医流程，推进医疗服务数字化管理",
+      "source": "https://www.qatar-tribune.com/article/194053/nation/qatar-id-to-replace-health-card-for-citizens-moph"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "公共卫生部通报全国卫生机构应急准备情况",
+      "description": "卫生监管事务助理次官加尼姆·阿里·马奈向卡塔尔通讯社表示，鉴于地区局势变化，该部会同有关方面强化各项措施，全国医疗机构维持最高级别应急准备，急诊部门全天候运转，药品与医疗物资战略储备充足，并设16000热线受理卫生应急咨询",
+      "impact": "显示该部在区域局势变化背景下的卫生应急协调职能",
+      "source": "https://qna.org.qa/en/News-Area/News/2026-3/2/assistant-undersecretary-for-healthcare-regulation-affairs-at-moph-to-qna-health-sector-takes-necessary-measures-to-deal-with-emergencies"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-GOV-015",
+      "org_name": "卡塔尔最高卫生委员会 (Supreme Council of Health)",
+      "org_type": "GOV",
+      "org_description": "2009年设立的卡塔尔卫生主管部门，2016年撤销后其职能并入重组的公共卫生部",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "QA-ACAD-010",
+      "org_name": "哈马德医疗公司 (Hamad Medical Corporation)",
+      "org_type": "ACAD",
+      "org_description": "卡塔尔主要的公立医疗服务与学术医疗机构，运营哈马德总医院等多家医院，在公共卫生部监管下提供专科与急诊医疗服务",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "初级卫生保健公司 (Primary Health Care Corporation)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔公立初级医疗网络运营机构，管理全国卫生中心并提供初级诊疗与健康卡服务，接受公共卫生部监管",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界卫生组织 (World Health Organization)",
+      "org_type": "INTL",
+      "org_description": "联合国专门卫生机构；卡塔尔为其成员国，世卫组织2022年3月在多哈设立国家办事处，公共卫生部代表卡方与其开展合作",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "卡塔尔公共卫生部（Ministry of Public Health，MOPH）是卡塔尔负责公共卫生事务的政府主管部门，总部位于多哈，总机为+974 44070000。其法定职能涵盖：监督全国医疗服务的提供、提供预防性与治疗性卫生服务、普及健康意识、审批并监管私营部门设立的医疗机构、监管健康保险体系、监督医院与初级卫生保健中心、管理医疗及药学专业人员执业、发展电子医疗战略与能力、支持卫生研究、维护国家卫生应急准备与响应体系、安排公民境外就医以及食品安全监管等。该部前身机构于1979年设立；2009年卡塔尔改革卫生管理体制，设立最高卫生委员会承接其职能；2016年恢复设立公共卫生部，最高卫生委员会职能随之并入。目前该部统筹国家卫生系统，对哈马德医疗公司、初级卫生保健公司等公立医疗服务机构实施监管，并为卡塔尔公民提供免费国民健康保险安排。2024年9月，该部发布《国家卫生战略2024-2030》，提出提高人均预期寿命、降低慢性病死亡率等目标。在国际与区域层面，该部代表卡塔尔参与世界卫生组织及海湾阿拉伯国家合作委员会海湾卫生理事会等合作机制：世界卫生组织2022年3月在多哈设立国家办事处，2024年10月多哈承办了世卫组织东地中海区域委员会第71届会议。",
+  "industries": [
+    "public_health",
+    "healthcare",
+    "regulatory"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，公共卫生部不直接参与APEC框架及其相关工作组的活动。该部的多边卫生合作主要依托世界卫生组织、海湾阿拉伯国家合作委员会海湾卫生理事会等机制开展，包括在多哈承办世卫组织东地中海区域委员会会议。卡塔尔与APEC部分成员经济体保持着双边卫生领域交流与人员往来。",
+  "profile": {
+    "source_url": "https://www.moph.gov.qa/english/aboutus/Pages/default.aspx",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q116965701"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "government_directory"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 92,
+    "notes": "Phase 3 丰富化：核对Wikidata确认Q116965701为现任公共卫生部实体（阿拉伯语名带(قطر)消歧缀，对应enwiki/arwiki词条），Q59535295为1979年设立、2009年被最高卫生委员会取代的历史实体（注册为QA-GOV-007）；founded_date取自该历史实体的P571(1979年)，沿革写入core_business。P2骨架core_business含乱码句（「是一所致尼日利亚的机构」）已重写，原brief/description英文摘要已并入。现任部长曼苏尔·马哈茂德（2024-11-12就任，Amiri Diwan官方公告）匹配_name_index.json中QA-PERSON-000010；加尼姆·马奈与谢赫·穆罕默德·本·哈马德·阿勒萨尼未在索引中，person_id为null待P4回填。moph.gov.qa官网有WAF防护，官网事实经搜索摘要与200状态探测确认。 | 2026-09-12: 重复注册的组织档案QA-GOV-007（同一卫生部、挂历史实体Q59535295）已合并入本档案并删除，本档wikidata_qid使用现任部委实体Q116965701",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Ministry of Public Health (Qatar) - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Public_Health_(Qatar)"
+      },
+      {
+        "title": "Ministry of Public Health 官网 About Us",
+        "url": "https://www.moph.gov.qa/english/aboutus/Pages/default.aspx"
+      },
+      {
+        "title": "HH The Amir Issues Amiri Order Reshuffling the Cabinet（卡塔尔埃米尔办公厅）",
+        "url": "https://diwan.gov.qa/briefing-room/news/general/lg/2024/november/12/lg01?sc_lang=en"
+      },
+      {
+        "title": "Prime Minister and Minister of Foreign Affairs Launches National Health Strategy (2024-2030)（卡塔尔通讯社）",
+        "url": "https://qna.org.qa/en/news-bulletins-details?id=0036-prime-minister-and-minister-of-foreign-affairs-launches-national-health-strategy-(2024-2030)&date=12/09/2024"
+      },
+      {
+        "title": "Qatar Hosts 71st Session of WHO Regional Committee for Eastern Mediterranean（卡塔尔通讯社）",
+        "url": "https://www.qna.org.qa/en/News-Area/News/2024-10/14/0055-qatar-hosts-71st-session-of-who-regional-committee-for-eastern-mediterranean"
+      },
+      {
+        "title": "卫生监管事务助理次官向QNA介绍卫生部门应急措施（卡塔尔通讯社）",
+        "url": "https://qna.org.qa/en/News-Area/News/2026-3/2/assistant-undersecretary-for-healthcare-regulation-affairs-at-moph-to-qna-health-sector-takes-necessary-measures-to-deal-with-emergencies"
+      },
+      {
+        "title": "Qatar ID to replace health card for citizens: MoPH（Qatar Tribune）",
+        "url": "https://www.qatar-tribune.com/article/194053/nation/qatar-id-to-replace-health-card-for-citizens-moph"
+      },
+      {
+        "title": "Members of the Cabinet（卡塔尔政府传播办公室）",
+        "url": "https://www.gco.gov.qa/en/state-of-qatar/state-institutions/council-of-ministers/members-of-the-cabinet/"
+      },
+      {
+        "title": "Wikidata Q116965701 - Ministry of Public Health",
+        "url": "https://www.wikidata.org/wiki/Q116965701"
+      }
+    ]
   }
 }

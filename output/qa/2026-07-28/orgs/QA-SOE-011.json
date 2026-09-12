@@ -4,37 +4,168 @@
     "name_original": "الطيران الأميري القطري",
     "name_zh": "卡塔尔埃米尔专机队",
     "name_en": "Qatar Amiri Flight",
-    "aliases": [],
+    "aliases": [
+      "Amiri Flight",
+      "Qatari Amiri Flight",
+      "State of Qatar Amiri Flight",
+      "الطيران الأميري",
+      "卡塔尔皇家专机"
+    ],
     "org_type": "SOE",
     "org_subtype": "state_owned_enterprise",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1977-00-00",
-    "website": "http://www.amiriflight.gov.qa/",
+    "founded_date": "1977-01-01",
+    "website": "https://www.amiriflight.gov.qa/",
     "wikidata_qid": "Q2812546"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔王室与高官专机航空公司",
-  "industries": [
-    "aviation"
+  "digital_assets": [
+    {
+      "name": "卡塔尔埃米尔专机队官方网站",
+      "url": "https://www.amiriflight.gov.qa/",
+      "description": "机构官方网站，据Wikidata（P856）与英文维基百科信息栏收录；本次收集中该站点访问受限",
+      "source": "https://www.wikidata.org/wiki/Q2812546"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔王室与高官专机航空公司",
-  "brief": "Qatari VVIP air transport operator",
+  "key_people": [],
+  "departments": [
+    {
+      "name": "宽体专机运营板块",
+      "dept_id": null,
+      "head": null,
+      "description": "运营波音747-8 BBJ、空客A340-500与A330-200等宽体机队，承担埃米尔、王室成员及政府代表团的洲际远程专机任务；其中A7-HHE为埃米尔主用专机，A7-HHF为备用机",
+      "parent_dept_id": null
+    },
+    {
+      "name": "窄体与公务机运营板块",
+      "dept_id": null,
+      "head": null,
+      "description": "运营空客A319/A320公务型（ACJ）、ACJ320neo及湾流G700等机型，承担区域与中短程贵宾出行及随行人员运输",
+      "parent_dept_id": null
+    },
+    {
+      "name": "军事空运支援板块",
+      "dept_id": null,
+      "head": null,
+      "description": "受卡塔尔埃米尔空军委托代为运营1架C-17「环球霸王III」战略运输机",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-12-06",
+      "title": "波音747-8 BBJ（A7-HBJ）退出机队",
+      "description": "据英国航空媒体Key.Aero报道，注册号A7-HBJ的波音747-8KB BBJ于2023年12月6日完成所有权转移，正式退出卡塔尔埃米尔专机队；该机自2012年4月起在队服役，主要用于萨尼家族往返欧美的航班，售予马恩岛Global Jet公司相关方",
+      "impact": "机队减少一架747-8；该机2025年由卡塔尔方面提供给美国政府，后改装为VC-25B过渡总统专机",
+      "source": "https://www.key.aero/article/qatar-amiri-flight"
+    },
+    {
+      "date": "2024-09-06",
+      "title": "航空媒体Key.Aero刊发专机队专题报道",
+      "description": "Key.Aero于2024年9月6日刊发专题文章，介绍该专机队当时拥有约12架飞机（含7架宽体机与5架窄体机，平均机龄约19年），累计执行航班超过1400架次；2023年其A330机队执行149架次飞行、目的地逾50个，三架A340合计执行386架次任务",
+      "impact": "为外界了解这一低曝光度的政府专机机构提供了系统的公开运营数据",
+      "source": "https://www.key.aero/article/qatar-amiri-flight"
+    },
+    {
+      "date": "2025-05-21",
+      "title": "美国政府正式接收卡塔尔提供的前专机队波音747-8",
+      "description": "据英文维基百科VC-25B条目记载，美国空军部长于2025年5月21日宣布国防部长已正式接收一架由卡塔尔方面提供的波音747-8飞机；该机2012年4月由波音交付卡塔尔埃米尔专机队（时注册号A7-HJA），曾服务卡塔尔王室十余年，2023年转售后提供美方，交由L3Harris改装为VC-25B「Bridge」过渡总统专机",
+      "impact": "该机于2026年7月起作为美国总统专机投入服务；专机队退役大型客机进入国际流转",
+      "source": "https://en.wikipedia.org/wiki/Boeing_VC-25B_Bridge"
+    },
+    {
+      "date": "2025-09-02",
+      "title": "引入首架VIP构型波音777-200LR",
+      "description": "据ch-aviation2025年9月2日报道，卡塔尔埃米尔专机队引入首架VIP构型波音777-200LR宽体机，用于扩充远程专机运力；该机型翼展64.8米、航程约13650公里",
+      "impact": "宽体机队补充新型远程运力，机队更新持续推进",
+      "source": "https://www.ch-aviation.com/news/157785-qatar-amiri-flight-inducts-first-vip-configured-b777-200lr"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "接收首架空客ACJ320neo公务机",
+      "description": "据ch-aviation2025年12月23日报道，卡塔尔埃米尔专机队接收首架VIP构型空客ACJ320neo，为其窄体贵宾机队增添新型号",
+      "impact": "窄体机队现代化更新，逐步替代机龄较高的A319/A320公务型",
+      "source": "https://www.ch-aviation.com/news/161998-qatar-amiri-flight-takes-delivery-of-first-acj320neo"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "卡塔尔国政府 (Government of Qatar)",
+      "org_type": "GOV",
+      "org_description": "专机队的拥有方与运营方；据英文维基百科信息栏，该机构由卡塔尔政府拥有并运营，服务对象为卡塔尔王室与政府官员",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-SOE-005",
+      "org_name": "卡塔尔航空公司 (Qatar Airways)",
+      "org_type": "SOE",
+      "org_description": "卡塔尔国家载旗航空公司；专机队多数飞机采用卡塔尔航空标准涂装，双方历史上存在飞机互转（专机队曾长期借用卡塔尔航空注册的飞机执行政府包机）",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-SOE-012",
+      "org_name": "卡塔尔公务机 (Qatar Executive)",
+      "org_type": "SOE",
+      "org_description": "卡塔尔航空集团旗下公务机运营商；曾接收专机队退役的A319与A340飞机，专机队亦曾租赁其旗下环球快车（Global Express）公务机",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-MIL-001",
+      "org_name": "卡塔尔埃米尔空军 (Qatar Emiri Air Force)",
+      "org_type": "MIL",
+      "org_description": "卡塔尔空中武装力量；专机队机队中的1架C-17战略运输机系代其运营",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "卡塔尔埃米尔专机队是卡塔尔政府拥有并运营的VVIP专机航空运输机构，为卡塔尔王室成员与政府高级官员提供按需全球专机包机服务，几乎不对外承运普通商业客户。其前身可追溯至卡塔尔独立前后王室使用的专机运输安排，1977年购入首架波音707专机后逐步形成现今建制，总部设在多哈，以多哈国际机场为主要运作基地；多数飞机采用与卡塔尔国家载旗航空公司卡塔尔航空一致的涂装，无线电呼号为AMIRI。据英文维基百科2025年8月更新的机队信息，该机构运营约10架飞机，包括2架波音747-8 BBJ（A7-HHE为埃米尔主用专机，A7-HHF为备用机）、1架空客A340-500、2架空客A330-200、1架空客A319公务型、2架空客A320公务型及1架湾流G700公务机，另代卡塔尔埃米尔空军运营1架C-17战略运输机；2025年9月与12月又分别引入首架VIP构型波音777-200LR和首架空客ACJ320neo，机队现代化持续推进。其747-8专机航程可支持多哈至洛杉矶直飞，主要承担跨洲际官方出行。据航空专业媒体Key.Aero2024年9月的专题报道，该机构当时机队约12架、累计飞行超过1400架次，2023年各型机合计执行数百架次任务，目的地覆盖欧洲、亚洲、美洲及中东多地。",
+  "industries": [
+    "aviation",
+    "transportation"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔埃米尔专机队作为政府专机运营机构不直接参与APEC框架下的会议与合作进程。其执行的官方专机任务覆盖包括亚太各经济体在内的全球航线，多哈作为连接中东与亚太的航空枢纽为其运营提供支撑，机构活动与亚太地区的高层互访和经贸往来存在客观联系。",
+  "profile": {
+    "source_url": "https://www.amiriflight.gov.qa/",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2812546",
-      "http://www.amiriflight.gov.qa/"
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 67,
+    "notes": "Phase 3丰富化：机队构成与运营事实核自英文维基百科（2025年8月更新）与Key.Aero专题（2024-09-06），777-200LR与ACJ320neo引入核自ch-aviation报道，747-8流转事实核自VC-25B条目；原brief/description内容已并入core_business后删除。key_people留空：该机构为政府VVIP专机运营机构，公开渠道无现任管理层可验证信息（严禁编造），且按规定不收录国家元首。官方网站amiriflight.gov.qa本次访问受限，website及profile.source_url按Wikidata P856收录值保留。social_accounts未检索到官方账号。",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Qatar Amiri Flight - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Amiri_Flight"
+      },
+      {
+        "title": "The Qatari Amiri Flight - Key.Aero（2024-09-06专题）",
+        "url": "https://www.key.aero/article/qatar-amiri-flight"
+      },
+      {
+        "title": "Qatar Amiri Flight inducts first VIP-configured B777-200LR - ch-aviation",
+        "url": "https://www.ch-aviation.com/news/157785-qatar-amiri-flight-inducts-first-vip-configured-b777-200lr"
+      },
+      {
+        "title": "Qatar Amiri Flight takes delivery of first ACJ320neo - ch-aviation",
+        "url": "https://www.ch-aviation.com/news/161998-qatar-amiri-flight-takes-delivery-of-first-acj320neo"
+      },
+      {
+        "title": "Boeing VC-25B Bridge - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Boeing_VC-25B_Bridge"
+      },
+      {
+        "title": "Qatar Amiri Flight (Q2812546) - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2812546"
+      }
+    ]
   }
 }

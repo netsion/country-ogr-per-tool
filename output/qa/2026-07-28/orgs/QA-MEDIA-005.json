@@ -4,13 +4,17 @@
     "name_original": "وكالة الأنباء القطرية",
     "name_zh": "卡塔尔通讯社",
     "name_en": "Qatar News Agency",
-    "aliases": [],
+    "aliases": [
+      "QNA",
+      "قنا",
+      "Wakalat al-Anba al-Qatariya"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "news_agency",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1975-01-01",
-    "website": "http://www.qna.org.qa/en-us/",
+    "founded_date": "1975-05-25",
+    "website": "https://qna.org.qa/en",
     "wikidata_qid": "Q517525"
   },
   "social_accounts": [
@@ -18,7 +22,37 @@
       "platform": "twitter_x",
       "account_name": "QNAEnglish",
       "url": "https://x.com/QNAEnglish",
-      "source": "twitter_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "QatarNewsAgency",
+      "url": "https://www.facebook.com/QatarNewsAgency",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "qnaphoto",
+      "url": "https://www.instagram.com/qnaphoto",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "@qatarnewsagency3270",
+      "url": "https://www.youtube.com/@qatarnewsagency3270",
+      "source": "official_website"
+    },
+    {
+      "platform": "telegram",
+      "account_name": "QatarNewsAgency",
+      "url": "https://t.me/QatarNewsAgency",
+      "source": "official_website"
+    },
+    {
+      "platform": "other",
+      "account_name": "qnaarabic (Snapchat)",
+      "url": "https://www.snapchat.com/add/qnaarabic",
+      "source": "official_website"
     },
     {
       "platform": "linkedin",
@@ -27,27 +61,192 @@
       "source": "linkedin_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔国家通讯社",
-  "industries": [
-    "media_publishing"
+  "digital_assets": [
+    {
+      "name": "卡塔尔通讯社官方多语种新闻网站",
+      "url": "https://qna.org.qa/en",
+      "description": "通讯社官方新闻门户，提供阿拉伯语、英语、法语、德语、西班牙语、俄语、印地语、乌尔都语八个语种版本，设有卡塔尔、经济、综合、体育、科技等新闻栏目及图片、视频、信息图和新闻简报内容",
+      "source": "https://qna.org.qa/en"
+    },
+    {
+      "name": "QNA NEWS 新闻移动应用",
+      "url": "https://apps.apple.com/us/app/qna-news-2/id1607739121",
+      "description": "通讯社官方新闻客户端（另提供Android版），提供实时新闻推送服务，由技术事务部门运营",
+      "source": "https://qna.org.qa/en/pages/about-us"
+    },
+    {
+      "name": "QNA TV 卫星电视应用",
+      "url": "https://apps.apple.com/gb/app/qna-tv-2/id1635041653",
+      "description": "通讯社官方卫星电视流媒体应用（另提供Android版），提供新闻直播与视频内容服务",
+      "source": "https://qna.org.qa/en/pages/about-us"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔国家通讯社",
-  "brief": "news agency",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "艾哈迈德·本·赛义德·鲁迈希 (أحمد سعيد جبر الرميحي)",
+      "title": "总干事",
+      "title_description": "通讯社最高负责人，经埃米尔决定任命，全面主持通讯社工作",
+      "description": "自2021年10月起出任卡塔尔通讯社总干事（据记载经2021年第48号埃米尔决定任命），此前曾任卡塔尔外交大臣办公室媒体办公室主任；任内推动通讯社拓展多语种新闻服务并应用人工智能技术，截至2026年在任"
+    },
+    {
+      "person_id": null,
+      "name": "优素福·亚古布·哈马迪 (يوسف يعقوب الحمادي)",
+      "title": "新闻部主任",
+      "title_description": "主管通讯社新闻采集、编辑与24小时多语种发稿业务",
+      "description": "现任卡塔尔通讯社新闻部主任，2026年2月代表通讯社出席卡塔尔癌症学会年度合作伙伴答谢活动并代领荣誉盾牌"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻部 (إدارة الأخبار)",
+      "dept_id": null,
+      "head": null,
+      "description": "通讯社核心业务部门，负责24小时新闻采集、编辑与多语种发稿",
+      "parent_dept_id": null
+    },
+    {
+      "name": "编辑与媒体监测部 (إدارة التحرير والرصد الإعلامي)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责稿件编辑审校与媒体内容监测，保障发稿质量",
+      "parent_dept_id": null
+    },
+    {
+      "name": "对外媒体事务部 (إدارة شؤون الإعلام الخارجي)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责外国常驻及来访记者的注册接待、摄影许可核发、来访媒体代表团接待安排以及采访技术设备通关协调等对外媒体服务",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术事务部 (إدارة الشؤون الفنية)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责通讯社技术基础设施建设与运维，支撑新闻移动应用、卫星电视应用及人工智能等技术应用",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-10",
+      "title": "卡塔尔通讯社运用人工智能推出俄语、印地语和乌尔都语新闻服务",
+      "description": "卡塔尔通讯社5月10日起借助人工智能技术推出俄语、印地语和乌尔都语三个新语种的新闻服务，使发稿语种在阿拉伯语、英语及2022年增设的法语、德语、西班牙语基础上增至八种",
+      "impact": "多语种人工智能发稿能力扩展了通讯社在中亚、南亚等地区的受众覆盖，是其数字化转型的重要节点",
+      "source": "https://qna.org.qa/en/news/news-details?id=qna-launches-news-services-in-three-new-languages-using-ai&date=10/05/2026"
+    },
+    {
+      "date": "2025-12-09",
+      "title": "卡塔尔通讯社参展第二届世界人工智能峰会卡塔尔2025",
+      "description": "卡塔尔通讯社参加12月9日至10日在多哈会展中心举行的第二届世界人工智能峰会卡塔尔2025，在配套展区展示其应用于新闻播出、媒体报道制作及图片视频内容的AI技术，包括用于新闻视频制作的生成式人工智能和音视频片段分析系统等工具",
+      "impact": "集中展示通讯社新闻生产智能化水平，有利于其媒体技术应用的国际交流与推广",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-12/9/world-summit-ai-qatar-2025-qna-showcases-latest-ai-powered-technologies-it-leverages"
+    },
+    {
+      "date": "2025-10-23",
+      "title": "卡塔尔与沙特在协调理事会媒体委员会框架下举行会谈",
+      "description": "卡塔尔媒体公司主席谢赫·哈马德·本·萨米尔·阿勒萨尼与沙特阿拉伯媒体大臣萨勒曼·本·优素福·杜萨里在多哈举行会谈，卡塔尔通讯社总干事艾哈迈德·本·赛义德·鲁迈希出席，双方讨论了两国在媒体领域的交流与合作伙伴项目",
+      "impact": "为卡塔尔通讯社与沙特媒体机构的新闻交换和媒体合作提供双边机制支撑",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-10/23/qatar-saudi-arabia-discuss-further-media-cooperation"
+    },
+    {
+      "date": "2025-06-20",
+      "title": "卡塔尔通讯社与越南通讯社在OANA大会期间签署合作协议",
+      "description": "在俄罗斯圣彼得堡举行的亚太通讯社组织（OANA）第19次大会期间，卡塔尔通讯社总干事艾哈迈德·本·赛义德·鲁迈希与越南通讯社社长武越庄签署合作协议，内容涵盖新闻稿件、报道、简报等媒体内容交换以及传输接收等技术合作",
+      "impact": "拓展该社在亚太地区的通讯社合作网络，推动数字媒体与现代技术领域交流",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-6/20/qna-signs-cooperation-agreement-with-vietnamese-counterpart"
+    },
+    {
+      "date": "2025-05-25",
+      "title": "卡塔尔通讯社举行成立50周年金禧庆典",
+      "description": "卡塔尔通讯社迎来依据1975年第94号埃米尔法令成立50周年，举行金禧庆典并表彰各部门负责人和资深员工；该社自成立之初每日发稿半小时逐步发展为24小时滚动发稿的国家新闻机构",
+      "impact": "五十年社庆凸显该社作为卡塔尔官方通讯社的机构地位，其多语种服务与数字化建设持续跟进",
+      "source": "https://qna.org.qa/en/News-Area/News/2025-5/25/golden-jubilee-qna-celebrates-50th-anniversary-honors-heads-of-departments-veteran-employees"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "卡塔尔媒体公司 (Qatar Media Corporation)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔依据2009年第9号法令设立的国家媒体机构，主管广播电视等公共媒体事务；其主席和首席执行官与卡塔尔通讯社总干事共同参与卡塔尔-沙特协调理事会媒体委员会等合作机制",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "QA-MEDIA-001",
+      "org_name": "半岛传媒网络 (Al Jazeera Media Network)",
+      "org_type": "MEDIA",
+      "org_description": "总部位于多哈的卡塔尔国际媒体网络，与卡塔尔通讯社同为卡塔尔国家级媒体机构",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯通讯社联盟 (Federation of Arab News Agencies)",
+      "org_type": "INTL",
+      "org_description": "阿拉伯国家通讯社组成的行业联盟，旨在通过技术交流推动阿拉伯通讯社发展，卡塔尔通讯社为其成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚太通讯社组织 (Organization of Asia-Pacific News Agencies)",
+      "org_type": "INTL",
+      "org_description": "亚太地区通讯社多边合作组织，卡塔尔通讯社为其成员，2025年6月在该组织第19次大会期间与越南通讯社签署合作协议",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "卡塔尔通讯社（QNA）是卡塔尔国的官方国家通讯社，由卡塔尔国全资拥有，1975年5月25日依据埃米尔第94号法令成立，总部位于多哈西湾的外交官大厦，是海湾地区成立的第二家通讯社。该社成立之初每日仅发稿半小时，此后逐步发展为全天24小时滚动发稿的国家新闻机构，负责报道卡塔尔政府、各部委及公共机构动态和国内外重大事件，向本地和外国媒体提供文字新闻、报道、简报、图片、视频与信息图等内容。发稿语言以阿拉伯语和英语为主，2022年增设法语、德语和西班牙语服务，2026年5月又借助人工智能技术推出俄语、印地语和乌尔都语新闻服务，形成八个语种的对外传播格局。该社运营官方多语种新闻网站、QNA NEWS新闻客户端和QNA TV卫星电视应用，并通过多平台社交媒体账号发布内容；其对外媒体事务部门为外国常驻及来访记者提供注册接待、摄影许可核发和采访设备通关协调等服务。2014年第50号埃米尔决议确立了该社管理架构，现设总干事办公室及新闻、编辑与媒体监测、数据分析与文献、对外媒体事务、共享服务、技术事务、内部审计、规划与质量、法律事务等部门。该社历史上曾先后在卡塔尔外交部门与新闻主管部门主管下运作，现任总干事艾哈迈德·本·赛义德·鲁迈希于2021年10月经埃米尔决定任命。该社为阿拉伯通讯社联盟、不结盟国家通讯社联营、亚太通讯社组织成员，并属伊斯兰合作组织通讯社联盟执行理事会，亦为世界报业和新闻出版商协会成员。",
+  "industries": [
+    "media_publishing",
+    "broadcasting",
+    "digital_media"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔通讯社不直接参与APEC框架下的会议与活动机制。作为亚太通讯社组织（OANA）和阿拉伯通讯社联盟等多边通讯社合作机制的成员，该社的国际合作主要依托区域性通讯社网络展开，并通过其多语种新闻服务对亚太地区事务进行日常报道。",
+  "profile": {
+    "source_url": "https://qna.org.qa/en/pages/about-us",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q517525",
-      "http://www.qna.org.qa/en-us/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 88,
+    "notes": "Phase 3 丰富化：经Wikidata核实，wikidata_qid Q517525指向正确实体（Qatar News Agency），未发现错绑；官网已自http://www.qna.org.qa/en-us/（现返回404）迁移至https://qna.org.qa/en；founded_date依据1975年第94号埃米尔法令由1975-01-01细化为1975-05-25；原骨架brief（news agency）与description（卡塔尔国家通讯社）已并入core_business后删除；key_people中总干事艾哈迈德·本·赛义德·鲁迈希与新闻部主任优素福·亚古布·哈马迪均未在_name_index.json匹配到person_id，故为null待P4回填；related_entities中卡塔尔媒体公司、阿拉伯通讯社联盟、亚太通讯社组织不在id_registry中，org_id为null",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Qatar News Agency - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_News_Agency"
+      },
+      {
+        "title": "وكالة الأنباء القطرية - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%88%D9%83%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%A3%D9%86%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9"
+      },
+      {
+        "title": "About Us - Qatar News Agency官方网站",
+        "url": "https://qna.org.qa/en/pages/about-us"
+      },
+      {
+        "title": "QNA Launches News Services in Three New Languages Using AI（QNA官网）",
+        "url": "https://qna.org.qa/en/news/news-details?id=qna-launches-news-services-in-three-new-languages-using-ai&date=10/05/2026"
+      },
+      {
+        "title": "QNA Signs Cooperation Agreement With Vietnamese Counterpart（QNA官网）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-6/20/qna-signs-cooperation-agreement-with-vietnamese-counterpart"
+      },
+      {
+        "title": "Qatar, Saudi Arabia Discuss Further Media Cooperation（QNA官网）",
+        "url": "https://qna.org.qa/en/News-Area/News/2025-10/23/qatar-saudi-arabia-discuss-further-media-cooperation"
+      },
+      {
+        "title": "Qatar News Agency (QNA) - State Media Monitor",
+        "url": "https://statemediamonitor.com/2026/06/qatar-news-agency-qna/"
+      }
+    ]
   }
 }

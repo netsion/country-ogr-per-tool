@@ -4,56 +4,237 @@
     "name_original": "مؤسسة حمد الطبية",
     "name_zh": "哈马德医疗公司",
     "name_en": "Hamad Medical Corporation",
-    "aliases": [],
+    "aliases": [
+      "HMC",
+      "Hamad Medical Corp"
+    ],
     "org_type": "ACAD",
     "org_subtype": "research_institute",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1979-00-00",
+    "founded_date": "1979-01-01",
     "website": "https://www.hamad.qa",
     "wikidata_qid": "Q5643945"
   },
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "account_name": "HmcQatar",
-      "url": "https://x.com/HmcQatar",
-      "source": "twitter_search"
-    },
-    {
-      "platform": "linkedin",
-      "account_name": "hamad-medical-corporation",
-      "url": "https://www.linkedin.com/company/hamad-medical-corporation",
-      "source": "linkedin_search"
+      "account_name": "HMC_Qatar",
+      "url": "https://x.com/HMC_Qatar",
+      "source": "official_website"
     },
     {
       "platform": "facebook",
       "account_name": "hamadmedicalcorporation",
       "url": "https://www.facebook.com/hamadmedicalcorporation/",
-      "source": "facebook_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "hamad-medical-corporation",
+      "url": "https://www.linkedin.com/company/hamad-medical-corporation",
+      "source": "web_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔最主要的二级与三级医疗机构运营方",
-  "industries": [
-    "education"
+  "digital_assets": [
+    {
+      "name": "MyHealth患者门户",
+      "url": "https://myhealth.hamad.qa/",
+      "description": "HMC在线患者服务门户，支持患者经互联网查阅个人关键健康档案与医疗报告，并提供在线注册及移动端访问",
+      "source": "https://hamad.qa/EN/Patient-Information/Patient-Portal/Pages/default.aspx"
+    },
+    {
+      "name": "HMC官方新闻中心",
+      "url": "https://hamad.qa/EN/news/Pages/Press-Releases.aspx",
+      "description": "发布HMC官方新闻稿，涵盖医疗里程碑、质量认证动态与机构公告",
+      "source": "https://hamad.qa/EN/news"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔最主要的二级与三级医疗机构运营方",
-  "brief": "the main provider of secondary and tertiary healthcare in Qatar",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "穆罕默德·本·哈利法·本·穆罕默德·阿勒苏瓦伊迪 (Mohammed bin Khalifa bin Mohammed Al Suwaidi)",
+      "title": "总干事 (Director General)",
+      "title_description": "由2024年第71号埃米尔令任命，全面主持HMC运营管理；在部分官方与媒体场合亦称Managing Director（常务董事）",
+      "description": "卡塔尔医疗管理者。2024年11月，埃米尔塔米姆颁布2024年第71号埃米尔令，任命其为哈马德医疗公司总干事，接替自2007年起执掌该机构17年的前公共卫生部长哈南·库瓦里。任内推动缩短门诊预约等待时间（据其2026年8月向媒体披露，平均等待已由2024年的约58天降至约16天）并推进数字化转型；另以HMC总干事身份入选卡塔尔研究、发展与创新委员会（QRDI）董事会"
+    },
+    {
+      "person_id": null,
+      "name": "哈立德·贾勒哈姆 (Khalid Al Jalham)",
+      "title": "首席医疗官 (Chief Medical Officer)",
+      "title_description": "主管HMC全机构临床医疗事务",
+      "description": "泌尿外科资深顾问医师，曾任HMC门诊医疗中心（ACC）主任及医疗总监。2025年起任HMC首席医疗官，2025年3月在官方新闻稿中以该职务介绍卡塔尔首例心脏移植手术，称器官移植项目近年依托国际水准医院、国家捐献者登记体系和高水平医疗团队取得显著进展"
+    },
+    {
+      "person_id": null,
+      "name": "玛丽亚姆·穆塔瓦 (Mariam Al-Mutawa)",
+      "title": "代理首席护理官 (Acting Chief Nursing Officer)",
+      "title_description": "主持HMC全机构护理与助产事务；此前曾任HMC首席护理官",
+      "description": "HMC护理体系负责人，曾任鲁迈拉医院护理执行总监兼HMC副首席护理官，后升任首席护理官；多次代表HMC就护理与助产专业发展发声，2025年国际护士节致辞肯定护士与助产士对医疗体系的贡献，2026年国际护士节期间以代理首席护理官身份发表致辞"
+    }
+  ],
+  "departments": [
+    {
+      "name": "哈马德总医院 (Hamad General Hospital)",
+      "dept_id": null,
+      "head": null,
+      "description": "HMC旗舰综合医院，设约603张床位，涵盖急诊、哈马德创伤中心、重症监护及内外科服务；2024年在此完成卡塔尔首例机器人辅助肾移植",
+      "parent_dept_id": null
+    },
+    {
+      "name": "心脏医院 (Heart Hospital)",
+      "dept_id": null,
+      "head": null,
+      "description": "心血管专科医院，2010年12月投入使用，设约116张床位，提供心脏外科、心内科与心脏康复等服务；2025年3月在此完成卡塔尔首例心脏移植",
+      "parent_dept_id": null
+    },
+    {
+      "name": "女性健康与研究中心 (Women's Wellness and Research Center)",
+      "dept_id": null,
+      "head": null,
+      "description": "妇产专科设施，2017年投入使用，提供产科、妇科、新生儿科与妇女健康研究服务，承接原哈马德妇女医院职能",
+      "parent_dept_id": null
+    },
+    {
+      "name": "艾莎·宾特·哈马德·阿提亚医院 (Aisha Bint Hamad Al Attiyah Hospital)",
+      "dept_id": null,
+      "head": null,
+      "description": "位于卡塔尔北部豪尔市以南的社区医院，2022年11月接诊首批门诊患者，2023年年中全面投入运营，设300张单人病房并配备精神科、重症监护与新生儿监护设施",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-05-15",
+      "title": "发布2025年度成就报告：多项业务指标全面增长",
+      "description": "HMC年度成就报告显示，2025年住院量达159,109人次（同比增长4%），手术80,218台（增长11%），门诊超300万人次（增长8%），救护车转运210,676次；报告并列举卡塔尔首例全踝关节置换术等临床突破，国家糖尿病、肥胖与代谢疾病研究所在第80届联合国大会期间获全球领导力奖，HMC另在谷歌云峰会获数字创新奖",
+      "impact": "反映卡塔尔医疗服务需求持续增长，以及HMC在数字化转型与运营效率方面的成效，支撑第三国家发展战略与国家卫生战略目标",
+      "source": "https://www.gulf-times.com/article/725532/qatar/hmc-reports-major-healthcare-advances-in-2025"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "完成卡塔尔首例机器人Whipple手术",
+      "description": "HMC外科团队为一名42岁胰腺头部肿瘤女性患者完成卡塔尔首例机器人Whipple（胰十二指肠切除）手术，手术历时约9小时；该术式为腹部外科最复杂手术之一，患者术后次日即可下床并进入加速康复流程",
+      "impact": "提升HMC复杂机器人手术能力，减少胰腺疾病患者赴海外就医需求",
+      "source": "https://www.gulf-times.com/article/723417/qatar/robotic-whipple-procedures-performed-at-hmc-for-first-time-in-qatar"
+    },
+    {
+      "date": "2025-03-27",
+      "title": "完成卡塔尔首例心脏移植手术",
+      "description": "HMC心脏医院移植团队成功实施卡塔尔首例心脏移植，受者为一名42岁孟加拉国籍男性患者，术后恢复良好；公共卫生部长曼苏尔·本·易卜拉欣·马哈茂德与HMC总干事阿勒苏瓦伊迪前往探望，首席医疗官哈立德·贾勒哈姆表示该项目依托国家捐献者登记体系与国际水准团队",
+      "impact": "卡塔尔器官移植项目拓展至心脏领域，晚期心衰患者可在境内获得移植治疗",
+      "source": "https://hamad.qa/EN/news/2025/March/Pages/Qatars-First-Heart-Transplant-Successfully-Performed-at-Heart-Hospital.aspx"
+    },
+    {
+      "date": "2024-11-12",
+      "title": "埃米尔令任命阿勒苏瓦伊迪为HMC总干事",
+      "description": "埃米尔塔米姆·本·哈马德·阿勒萨尼颁布2024年第71号埃米尔令，任命穆罕默德·本·哈利法·本·穆罕默德·阿勒苏瓦伊迪阁下为哈马德医疗公司总干事，接替自2007年起执掌该机构17年的哈南·库瓦里",
+      "impact": "HMC最高管理层完成换届，机构治理进入新阶段",
+      "source": "https://www.gulf-times.com/article/694402/qatar/amir-appoints-hmc-director-general"
+    },
+    {
+      "date": "2024-04-25",
+      "title": "完成卡塔尔首例机器人辅助肾移植手术",
+      "description": "HMC在哈马德总医院为一名患慢性肾衰竭多年的七旬患者完成卡塔尔首例机器人辅助肾移植手术，由时任首席医疗官阿卜杜拉·安萨里指导的机器人外科与器官移植专科团队实施",
+      "impact": "HMC微创器官移植外科进入机器人时代，为肾衰竭患者提供创伤更小的治疗选择",
+      "source": "https://www.gulf-times.com/article/681289/qatar/hmc-performs-first-robotic-kidney-transplant-in-qatar"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-GOV-008",
+      "org_name": "卡塔尔公共卫生部 (Ministry of Public Health)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔卫生主管部门，负责国家卫生政策制定与医疗服务监管；HMC作为主要公立医疗服务提供方在其监管框架下运营",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "QA-NGO-005",
+      "org_name": "哈马德总医院 (Hamad General Hospital)",
+      "org_type": "NGO",
+      "org_description": "HMC旗舰综合医院，位于多哈，设急诊与哈马德创伤中心等核心设施",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "QA-ACAD-003",
+      "org_name": "威尔·康奈尔医学院卡塔尔分校 (Weill Cornell Medical College in Qatar)",
+      "org_type": "ACAD",
+      "org_description": "位于多哈教育城的美国威尔·康奈尔医学院海外分校，与HMC在医学教育、住院医师培训与临床科研方面长期合作，是HMC学术医疗体系（AHS）核心伙伴",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "QA-NGO-016",
+      "org_name": "西德拉医学研究中心 (Sidra Medicine)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔基金会旗下的妇儿专科医院，与HMC同属卡塔尔学术医疗体系（AHS）合作网络，在母婴与儿科等专科服务方面互补协作",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "哈马德医疗公司（HMC）是卡塔尔最主要的二级与三级医疗服务提供机构，也是中东领先的综合医院运营方之一，总部位于多哈，1979年依据第35号埃米尔令设立，属非营利公立医疗集团。HMC运营哈马德总医院、心脏医院、女性健康与研究中心、国家癌症治疗与研究中心、鲁迈拉医院、豪拉医院、豪尔医院、艾莎·宾特·哈马德·阿提亚医院等15家专科医院，并运营国家救护车服务（含直升机医疗救援）、心理健康服务、居家医疗及住宿照护服务，全系统编制床位逾2,200张。2016年以来，HMC新开设8家医院及一批专科设施。质量与认证方面，旗下13家医院持有国际联合委员会（JCI）学术医疗中心企业认证，救护车、居家医疗、卒中与姑息治疗服务亦通过JCI认证；2023年成为中东首个获JCI企业级认证的医疗机构，也是中东首个获美国毕业后医学教育认证委员会国际分会（ACGME-I）机构认证的医院系统；同年旗下4家医院跻身全球学术医疗中心250强，其中2家进入前100。教学科研方面，HMC牵头建设中东首个学术医疗体系（AHS），与威尔·康奈尔医学院卡塔尔分校、卡塔尔大学等院校合作，并设转化医学研究所等科研平台。临床服务规模庞大：2025年住院159,109人次、手术80,218台、门诊超300万人次、救护车转运210,676次；器官移植项目居区域前列，2024年完成卡塔尔首例机器人肾移植，2025年完成卡塔尔首例心脏移植。",
+  "industries": [
+    "healthcare",
+    "public_health",
+    "education",
+    "research_development"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，哈马德医疗公司作为卡塔尔公立医疗机构，不直接参与APEC框架下的经贸与政策议程。该机构通过国际医疗认证体系（JCI）、与美国威尔·康奈尔医学院等机构的学术合作以及面向多国患者的医疗服务，与亚太地区保持医疗与人才交流方面的客观联系。",
+  "profile": {
+    "source_url": "https://www.hamad.qa/EN/About-Us/Our-Organization/Pages/default.aspx",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5643945",
-      "https://www.hamad.qa"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 88,
+    "notes": "P3丰富化：骨架brief/description（卡塔尔最主要的二级与三级医疗机构运营方）已并入core_business并删除原非标准字段；wikidata_qid Q5643945经Wikidata EntityData核实与机构一致（英/阿拉伯语标签匹配、总部多哈），无需修正；founded_date按埃米尔令1979年（源数据年份精度）记为1979-01-01；org_subtype保留research_institute（schema ACAD枚举无医院子类，HMC为学术医疗体系与转化医学研究平台的母体机构）；X账号按官网页脚更正为HMC_Qatar；Mohammed bin Khalifa Al Suwaidi、Khalid Al Jalham、Mariam Al-Mutawa未在_name_index.json中命中，person_id为null待P4回填",
+    "quotes": [
+      {
+        "title": "Our Organization - Hamad Medical Corporation",
+        "url": "https://www.hamad.qa/EN/About-Us/Our-Organization/Pages/default.aspx"
+      },
+      {
+        "title": "Hamad Medical Corporation - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hamad_Medical_Corporation"
+      },
+      {
+        "title": "Amir appoints HMC Director General - Gulf Times",
+        "url": "https://www.gulf-times.com/article/694402/qatar/amir-appoints-hmc-director-general"
+      },
+      {
+        "title": "Qatar's First Heart Transplant Successfully Performed at Heart Hospital - HMC",
+        "url": "https://hamad.qa/EN/news/2025/March/Pages/Qatars-First-Heart-Transplant-Successfully-Performed-at-Heart-Hospital.aspx"
+      },
+      {
+        "title": "HMC performs first robotic kidney transplant in Qatar - Gulf Times",
+        "url": "https://www.gulf-times.com/article/681289/qatar/hmc-performs-first-robotic-kidney-transplant-in-qatar"
+      },
+      {
+        "title": "Robotic whipple procedures performed at HMC for first time in Qatar - Gulf Times",
+        "url": "https://www.gulf-times.com/article/723417/qatar/robotic-whipple-procedures-performed-at-hmc-for-first-time-in-qatar"
+      },
+      {
+        "title": "HMC reports major healthcare advances in 2025 - Gulf Times",
+        "url": "https://www.gulf-times.com/article/725532/qatar/hmc-reports-major-healthcare-advances-in-2025"
+      },
+      {
+        "title": "H.E. Dr. Hanan Mohamed Al Kuwari, Ph.D. - Weill Cornell Medicine（HMC总干事2007-2024年任职佐证）",
+        "url": "https://qatar-weill.cornell.edu/our-story/governance-and-leadership/joint-advisory-board/he-dr-hanan-mohamed-al-kuwari-phd"
+      },
+      {
+        "title": "HMC celebrates nurses and midwives role - The Peninsula（Mariam Al Mutawa职务佐证）",
+        "url": "https://thepeninsulaqatar.com/article/12/05/2025/hmc-celebrates-nurses-and-midwives-role-in-delivering-specialist-care"
+      },
+      {
+        "title": "MyHealth Patient Portal - Hamad Medical Corporation",
+        "url": "https://hamad.qa/EN/Patient-Information/Patient-Portal/Pages/default.aspx"
+      }
+    ]
   }
 }

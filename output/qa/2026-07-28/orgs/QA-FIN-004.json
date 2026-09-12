@@ -5,14 +5,15 @@
     "name_zh": "卡塔尔投资局",
     "name_en": "Qatar Investment Authority",
     "aliases": [
-      "QIA"
+      "QIA",
+      "Qatar Holding"
     ],
     "org_type": "FIN",
     "org_subtype": "sovereign_wealth_fund",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "2005-00-00",
-    "website": "http://www.qia.qa/",
+    "founded_date": "2005-01-01",
+    "website": "https://www.qia.qa/",
     "wikidata_qid": "Q1571175"
   },
   "social_accounts": [
@@ -29,35 +30,224 @@
       "source": "linkedin_search"
     }
   ],
-  "digital_assets": [],
-  "key_people": [
+  "digital_assets": [
     {
-      "person_id": "QA-PERSON-000010",
-      "name": "曼苏尔·本·易卜拉欣·马哈茂德",
-      "title": "首席执行官",
-      "title_description": "首席执行官",
-      "description": ""
+      "name": "卡塔尔投资局官方网站",
+      "url": "https://www.qia.qa/",
+      "description": "机构官网，提供使命定位、治理架构、投资组合板块（房地产、基础设施、科技媒体电信、医疗健康、金融机构、零售消费、基金及流动证券）、新闻发布与招聘信息",
+      "source": "https://www.qia.qa/"
+    },
+    {
+      "name": "QIA Advisory – Asia Pacific（亚太区顾问办公室网站）",
+      "url": "https://www.qiaadvisory.sg/",
+      "description": "QIA设在新加坡的亚太区顾问办公室官方网站，官网联络页列为QIA的亚太区派出机构",
+      "source": "https://www.qia.qa/en/Contact-us/Pages/default.aspx"
+    },
+    {
+      "name": "QIA Advisory – USA（美洲区顾问办公室网站）",
+      "url": "https://www.qiaadvisory.com/",
+      "description": "QIA设在美国的美洲区顾问办公室官方网站，官网联络页列为QIA的美洲区派出机构",
+      "source": "https://www.qia.qa/en/Contact-us/Pages/default.aspx"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔主权财富基金，管理超4000亿美元资产",
-  "industries": [
-    "asset_management"
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "谢赫·班达尔·本·穆罕默德·本·沙特·阿勒萨尼 (Sheikh Bandar bin Mohammed bin Saoud Al-Thani)",
+      "title": "董事会主席",
+      "title_description": "兼任卡塔尔中央银行行长；2023年3月起出任QIA董事会主席",
+      "description": "1977年生于卡塔尔，2021年11月经埃米尔决定出任卡塔尔中央银行行长；2023年3月接替转任卡塔尔首相的谢赫·穆罕默德·本·阿卜杜拉赫曼·阿勒萨尼，出任卡塔尔投资局董事会主席"
+    },
+    {
+      "person_id": null,
+      "name": "穆罕默德·赛义夫·阿勒苏瓦伊迪 (Mohammed Saif Al-Sowaidi)",
+      "title": "首席执行官",
+      "title_description": "2024年11月起任QIA首席执行官，此前任QIA美洲区首席投资官",
+      "description": "2010年加入QIA，曾主管私募股权基金团队、科技媒体电信团队及工业团队，2015至2020年担任QIA纽约顾问办公室负责人；现任董事会职务包括卡塔尔国家银行、卡塔尔航空集团、Ooredoo、大众集团及哈罗德；CFA特许持有人，拥有密苏里大学统计学与金融学双学位及TRIUM高管工商管理硕士学位"
+    },
+    {
+      "person_id": "QA-PERSON-000016",
+      "name": "哈桑·阿勒萨瓦迪 (Hassan Al-Thawadi)",
+      "title": "董事会成员",
+      "title_description": "兼任卡塔尔交付与遗产最高委员会秘书长",
+      "description": "2020年7月起出任QIA董事会成员，早年曾任职于QIA法务部门；现任卡塔尔交付与遗产最高委员会秘书长，曾主导2022年卡塔尔世界杯的申办与筹办工作"
+    },
+    {
+      "person_id": null,
+      "name": "纳赛尔·阿尔赫莱菲 (Nasser Al-Khelaïfi)",
+      "title": "董事会成员",
+      "title_description": "兼任beIN媒体集团主席及巴黎圣日耳曼足球俱乐部主席",
+      "description": "卡塔尔体育投资公司（QSI）主席、巴黎圣日耳曼俱乐部主席、beIN媒体集团主席，同时担任欧洲足球俱乐部组织（EFC）主席及国际足联理事会成员；作为QIA董事会成员参与机构治理"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔主权财富基金，管理超4000亿美元资产",
-  "brief": "Qatar's sovereign wealth fund founded in 2005",
+  "departments": [
+    {
+      "name": "科技、媒体与电信投资部门 (Tech, Media & Telecoms)",
+      "dept_id": null,
+      "head": null,
+      "description": "官网投资组合板块之一，聚焦全球科技、媒体与电信行业的直接投资，近年布局方向包括人工智能、量子计算及企业软件等领域",
+      "parent_dept_id": null
+    },
+    {
+      "name": "房地产投资部门 (Real Estate)",
+      "dept_id": null,
+      "head": null,
+      "description": "官网投资组合板块之一，管理全球主要门户市场的房地产资产，涵盖直接持有、合资、信托与基金等形式，代表资产包括伦敦金丝雀码头、希思罗机场股权及纽约曼哈顿物业等",
+      "parent_dept_id": null
+    },
+    {
+      "name": "基础设施投资部门 (Infrastructure)",
+      "dept_id": null,
+      "head": null,
+      "description": "官网投资组合板块之一，投资全球港口、机场、能源等基础设施资产，注重长期持有与稳定回报",
+      "parent_dept_id": null
+    },
+    {
+      "name": "基金投资部门 (Funds / Fund of Funds)",
+      "dept_id": null,
+      "head": null,
+      "description": "官网投资组合板块之一，通过母基金计划出资国内外风投与私募基金，并借助该计划加速卡塔尔本土风险投资与创业生态发展",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-10",
+      "title": "参与美国量子计算公司PsiQuantum 10亿美元E轮融资",
+      "description": "QIA宣布参与PsiQuantum总额10亿美元的E轮融资，该轮融资后公司估值约70亿美元，资金用于在澳大利亚布里斯班和美国芝加哥建设实用规模量子计算设施，英伟达等其他投资者同轮参与",
+      "impact": "拓展QIA在前沿科技（量子计算）领域的投资布局，覆盖美国与澳大利亚市场",
+      "source": "https://www.qia.qa/en/Newsroom/Pages/QIA-joins-PsiQuantum%E2%80%99s-USD-1-billion-Series-E-fundraise.aspx"
+    },
+    {
+      "date": "2025-05-23",
+      "title": "中国批准QIA收购华夏基金10%股权",
+      "description": "中国监管机构批准卡塔尔投资局收购中国第二大公募基金管理公司华夏基金（ChinaAMC）10%股权；据此前披露文件，该交易对价不低于4.9亿美元，QIA于2024年6月与华夏基金主要股东达成购买协议",
+      "impact": "QIA在中国资产管理市场取得重要直接投资头寸，深化与亚太资本市场的联系",
+      "source": "https://www.reuters.com/world/middle-east/china-approves-qatar-sovereign-fund-buy-tenth-its-top-asset-manager-2025-05-23/"
+    },
+    {
+      "date": "2024-11-12",
+      "title": "任命穆罕默德·赛义夫·阿勒苏瓦伊迪为新任首席执行官",
+      "description": "QIA宣布任命穆罕默德·赛义夫·阿勒苏瓦伊迪为新任首席执行官，接替转任卡塔尔公共卫生部长的曼苏尔·本·易卜拉欣·马哈茂德；阿勒苏瓦伊迪自2010年加入QIA，此前担任美洲区首席投资官，任命即时生效",
+      "impact": "机构最高管理层换届，此前的多元化投资与本土生态建设方向延续",
+      "source": "https://www.qia.qa/en/Newsroom/Pages/QIA-announces-appointment-of-new-CEO.aspx"
+    },
+    {
+      "date": "2023-07-10",
+      "title": "入股美国体育娱乐集团Monumental Sports & Entertainment约5%股权",
+      "description": "华盛顿奇才队与华盛顿首都队母公司Monumental Sports & Entertainment正式宣布QIA成为少数股东；据媒体报道，QIA以约40.5亿美元估值收购约5%股权（涉资约2亿美元），成为首家投资美国四大职业体育联盟球队母公司的主权财富基金",
+      "impact": "首次进入美国职业体育所有权领域，扩展美洲市场另类资产组合",
+      "source": "https://monumentalsports.com/2023/07/monumental-sports-entertainment-announces-qatar-investment-authority-as-minority-investor/"
+    },
+    {
+      "date": "2023-01-24",
+      "title": "增持瑞士信贷至约6.8%成为第二大股东",
+      "description": "QIA将其在瑞士信贷集团的持股比例由约5.6%增至约6.87%，成为仅次于沙特国家银行的第二大股东；瑞士信贷其后于2023年6月被瑞银集团收购，该持股随收购整合",
+      "impact": "体现QIA对欧洲金融机构的长期配置策略；相关标的已随瑞银收购不再独立存续",
+      "source": "https://www.cnbc.com/2023/01/24/qatar-doubles-credit-suisse-stake.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "卡塔尔经济事务与投资最高理事会 (Supreme Council for Economic Affairs and Investment, SCEAI)",
+      "org_type": "GOV",
+      "org_description": "由卡塔尔埃米尔亲自担任主席的国家机构，代表国家审批QIA的目标、总体战略、预算与法规，QIA对其负责并执行其批准的政策与计划",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "QA-FIN-002",
+      "org_name": "卡塔尔国家银行 (QNB Group)",
+      "org_type": "FIN",
+      "org_description": "中东与非洲地区规模领先的商业银行，QIA为其重要股东（英文维基百科将其列为QIA子公司之一），QIA现任首席执行官兼任其董事会成员",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "QA-SOE-010",
+      "org_name": "卡塔尔迪亚尔地产公司 (Qatari Diar Real Estate Investment Company)",
+      "org_type": "SOE",
+      "org_description": "QIA于2005年设立的房地产投资开发公司，总部位于卢赛尔，代表性项目包括伦敦切尔西兵营改造及前美国大使馆地块玫瑰木酒店等",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔控股 (Qatar Holding LLC)",
+      "org_type": "FIN",
+      "org_description": "QIA的间接子公司，承担部分国际直接投资的执行，曾主导对哈罗德百货、巴克莱银行等资产的投资",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "卡塔尔投资局（Qatar Investment Authority，QIA）是卡塔尔国的主权财富基金，依据埃米尔决定于2005年设立，总部位于多哈，负责管理国家石油天然气收入形成的财政盈余，以实现资产的保值增值并推动经济多元化。据主权财富基金研究所（SWFI）等第三方机构估计，QIA管理资产规模约6,000亿美元（2026年），为全球规模最大的主权财富基金之一。治理架构上，QIA对由卡塔尔埃米尔担任主席的经济事务与投资最高理事会（SCEAI）负责：理事会代表国家审批QIA的目标、总体战略、预算与法规；董事会负责批准治理政策、提供战略指引并监督管理层；首席执行官及执行管理团队主持日常运营，投资决策依据经济与财务标准独立作出。机构职能遵循三重使命：为国家及子孙后代创造长期价值、支持建设有竞争力的卡塔尔经济、并在必要时为稳定本地经济提供流动性。投资方面，QIA坚持长期投资视角，投资遍及美国、欧洲、亚太等主要市场以及卡塔尔国内非能源部门，覆盖私募股权、上市证券、房地产、基础设施、科技媒体电信、医疗健康、金融机构与零售消费等多个资产类别，并通过母基金计划出资全球风投基金、培育卡塔尔本土风险投资与创业生态。其代表性国际投资包括德国大众集团（普通股持股约17%）、伦敦希思罗机场（持股20%）、哈罗德百货（经卡塔尔控股间接全资持有）、美国Monumental Sports & Entertainment约5%股权，以及2025年获中国监管批准的华夏基金10%股权等。机构另在纽约和新加坡设有QIA Advisory顾问办公室，作为美洲与亚太区域的投资派出机构。",
+  "industries": [
+    "asset_management",
+    "investment",
+    "financial_services",
+    "real_estate",
+    "venture_capital"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔投资局不直接参与APEC框架下的议程与磋商进程。作为全球性主权财富基金，QIA的投资组合广泛分布于APEC成员经济体，包括美国、中国、新加坡、澳大利亚等市场，并在新加坡设有亚太区顾问办公室（QIA Advisory – Asia Pacific），在纽约设有美洲区顾问办公室。通过华夏基金、PsiQuantum、Monumental Sports & Entertainment等在成员经济体的直接投资，QIA与亚太区域资本市场保持密切的业务联系。",
+  "profile": {
+    "source_url": "https://www.qia.qa/en/About/Pages/default.aspx",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q1571175",
-      "http://www.qia.qa/"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite skeleton from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "completeness_score": 91,
+    "notes": "Phase 3丰富化（2026-09-11）：治理架构、使命与投资板块核实自qia.qa官网；管理层依据官网Leadership页核实——2024年11月起新任首席执行官为穆罕默德·赛义夫·阿勒苏瓦伊迪，原首席执行官曼苏尔·本·易卜拉欣·马哈茂德（QA-PERSON-000010）已转任卡塔尔公共卫生部长，故不再列入现任管理层；管理规模采用SWFI/维基百科2026年约6,000亿美元估计值，替代P2骨架中「超4,000亿美元」表述；哈桑·阿勒萨瓦迪匹配到QA-PERSON-000016，其余管理层person_id待P4回填；原顶层非标准字段brief/description的有效事实已并入core_business并删除",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "About - Qatar Investment Authority（官方网站：使命与历史）",
+        "url": "https://www.qia.qa/en/About/Pages/default.aspx"
+      },
+      {
+        "title": "Leadership - Qatar Investment Authority（官方网站：董事会与管理层）",
+        "url": "https://www.qia.qa/en/About/Pages/leadership.aspx"
+      },
+      {
+        "title": "CEO - Qatar Investment Authority（官方网站：现任CEO简历）",
+        "url": "https://www.qia.qa/en/About/Pages/ceo.aspx"
+      },
+      {
+        "title": "Governance - Qatar Investment Authority（官方网站：治理架构与SCEAI关系）",
+        "url": "https://www.qia.qa/en/About/Pages/Governance.aspx"
+      },
+      {
+        "title": "Qatar Investment Authority - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qatar_Investment_Authority"
+      },
+      {
+        "title": "QIA announces appointment of new CEO（官方新闻：2024-11-12 CEO任命）",
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-announces-appointment-of-new-CEO.aspx"
+      },
+      {
+        "title": "QIA joins PsiQuantum's USD 1 billion Series E fundraise（官方新闻）",
+        "url": "https://www.qia.qa/en/Newsroom/Pages/QIA-joins-PsiQuantum%E2%80%99s-USD-1-billion-Series-E-fundraise.aspx"
+      },
+      {
+        "title": "China approves Qatar sovereign fund to buy a tenth of its top asset manager (Reuters)",
+        "url": "https://www.reuters.com/world/middle-east/china-approves-qatar-sovereign-fund-buy-tenth-its-top-asset-manager-2025-05-23/"
+      },
+      {
+        "title": "Monumental Sports & Entertainment Announces Qatar Investment Authority as Minority Investor",
+        "url": "https://monumentalsports.com/2023/07/monumental-sports-entertainment-announces-qatar-investment-authority-as-minority-investor/"
+      },
+      {
+        "title": "Qatar doubles Credit Suisse stake (CNBC)",
+        "url": "https://www.cnbc.com/2023/01/24/qatar-doubles-credit-suisse-stake.html"
+      },
+      {
+        "title": "Governor - Qatar Central Bank（董事会主席兼任央行行长）",
+        "url": "https://www.qcb.gov.qa/en/pages/governor.aspx"
+      }
+    ]
   }
 }

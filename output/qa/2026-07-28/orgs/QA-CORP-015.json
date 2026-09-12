@@ -4,12 +4,16 @@
     "name_original": "نادي الشمال",
     "name_zh": "沙马勒体育俱乐部",
     "name_en": "Al-Shamal Sports Club",
-    "aliases": [],
+    "aliases": [
+      "Al-Shamal SC",
+      "Al Shamal SC",
+      "نادي الشمال الرياضي"
+    ],
     "org_type": "CORP",
     "org_subtype": "private_company",
     "country_iso3": "QAT",
     "hq_country_iso3": "QAT",
-    "founded_date": "1980-00-00",
+    "founded_date": "1980-01-01",
     "website": "https://alshamal.qa/",
     "wikidata_qid": "Q812760"
   },
@@ -18,36 +22,214 @@
       "platform": "twitter_x",
       "account_name": "alshamal_club",
       "url": "https://x.com/alshamal_club",
-      "source": "twitter_search"
+      "source": "official_website"
     },
     {
       "platform": "instagram",
       "account_name": "alshamal_club",
       "url": "https://www.instagram.com/alshamal_club/",
-      "source": "instagram_search"
+      "source": "official_website"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "alshamal.club",
+      "url": "https://www.facebook.com/alshamal.club/",
+      "source": "official_website"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UCH8WxQm5EOzE9HnRdsDYwLw",
+      "url": "https://www.youtube.com/channel/UCH8WxQm5EOzE9HnRdsDYwLw/",
+      "source": "official_website"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": "卡塔尔职业足球俱乐部",
-  "industries": [
-    "industrial_manufacturing"
+  "digital_assets": [
+    {
+      "name": "沙马勒体育俱乐部官方网站",
+      "url": "https://alshamal.qa/",
+      "description": "俱乐部官方网站，提供俱乐部新闻、足球/手球/篮球/排球/乒乓球/田径各项目部资讯、赛程赛果、董事会介绍及官方票务信息",
+      "source": "https://alshamal.qa/"
+    },
+    {
+      "name": "俱乐部官方票务信息页",
+      "url": "https://alshamal.qa/%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1/",
+      "description": "官网球迷服务栏目中的票务信息页，提供主场赛事购票指引",
+      "source": "https://alshamal.qa/"
+    }
   ],
-  "apec_stance": null,
-  "description": "卡塔尔职业足球俱乐部",
-  "brief": "association football club",
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "易卜拉欣·阿卜杜拉·侯赛因·萨阿达 (إبراهيم عبدالله حسين السادة)",
+      "title": "董事会主席",
+      "title_description": "主持俱乐部董事会及全面事务",
+      "description": "卡塔尔体育管理者，2020-2024任期首次出任沙马勒体育俱乐部董事会主席；2024年6月22日经俱乐部大会无异议推举连任，任期2024-2028。任内俱乐部于2025-26赛季获卡塔尔星级联赛亚军，并首次晋级亚足联冠军联赛精英赛"
+    },
+    {
+      "person_id": null,
+      "name": "阿卜杜拉·沙姆桑·萨阿达 (عبدالله شمسان السادة)",
+      "title": "董事会副主席",
+      "title_description": null,
+      "description": "据沙马勒体育俱乐部官网董事会名录列名的董事会副主席，曾代表俱乐部就球队竞技目标接受媒体采访"
+    },
+    {
+      "person_id": null,
+      "name": "大卫·普拉茨·拉塞罗 (David Prats Racero)",
+      "title": "主教练",
+      "title_description": "执教俱乐部一线队，征战卡塔尔星级联赛",
+      "description": "西班牙籍足球教练，2024-25赛季出任沙马勒一线队主教练，率队夺得2025-26赛季卡塔尔星级联赛亚军并晋级2026-27赛季亚足联冠军联赛精英赛；个人荣获卡塔尔足协2025-26赛季最佳教练奖，2026-27赛季继续执教（率队赴荷兰进行季前集训）"
+    }
+  ],
+  "departments": [
+    {
+      "name": "足球部 (قسم كرة القدم)",
+      "dept_id": null,
+      "head": "大卫·普拉茨·拉塞罗 (David Prats Racero)",
+      "description": "俱乐部核心项目，一线队参加卡塔尔星级联赛（2025-26赛季亚军），主场为沙马勒体育俱乐部体育场；另设各级青年梯队，历史上以青训培养见长",
+      "parent_dept_id": null
+    },
+    {
+      "name": "手球部 (قسم كرة اليد)",
+      "dept_id": null,
+      "head": null,
+      "description": "1982年增设，是俱乐部成立后最早拓展的运动项目之一，使用可容纳500名观众的室内体育馆",
+      "parent_dept_id": null
+    },
+    {
+      "name": "篮球与排球部",
+      "dept_id": null,
+      "head": null,
+      "description": "排球为俱乐部早期增设项目之一，其后成立篮球队，两队均以俱乐部室内体育馆为主场",
+      "parent_dept_id": null
+    },
+    {
+      "name": "乒乓球与田径部",
+      "dept_id": null,
+      "head": null,
+      "description": "乒乓球为俱乐部继排球之后增设的项目，田径项目随后设立，训练场地设于俱乐部体育园区内",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-06-22",
+      "title": "易卜拉欣·萨阿达无异议连任俱乐部董事会主席（2024-2028任期）",
+      "description": "据卡塔尔通讯社（QNA）报道，沙马勒体育俱乐部大会无异议推举易卜拉欣·阿卜杜拉·侯赛因·萨阿达连任董事会主席，任期至2028年；他曾于2020-2024任期首次执掌俱乐部，并表示第二个任期将力争更佳竞技成绩",
+      "impact": "俱乐部治理层保持稳定，为其后竞技成绩的突破提供管理层延续性",
+      "source": "https://qna.org.qa/ar-QA/news/news-details?id=0063-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A9-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D9%84%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%AA%D8%B2%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D8%AF%D9%88%D8%B1%D8%A9-2024---2028&date=22/06/2024"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "2025-26赛季卡塔尔星级联赛收官：沙马勒获队史最佳亚军战绩",
+      "description": "2025-26赛季多哈银行星级联赛末轮由榜首萨德（42分）对阵次席沙马勒（40分）直接争冠；最终萨德以45分夺冠，沙马勒以40分（12胜4平6负，进39球失28球）获得队史最佳联赛名次亚军，并据此取得2026-27赛季亚足联冠军联赛精英赛直接参赛资格",
+      "impact": "队史首次获得亚洲顶级俱乐部赛事参赛资格，俱乐部竞技地位与关注度显著提升",
+      "source": "https://www.qfa.qa/en/news/qatar-clubs-asian-slots-confirmed-for-2026-2027-season"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "主帅普拉茨荣获卡塔尔足协赛季最佳教练奖",
+      "description": "在卡塔尔足协（QFA）年度颁奖典礼上，沙马勒主帅大卫·普拉茨力压萨德主帅曼奇尼、拉扬主帅维森特·莫雷诺当选2025-26赛季最佳教练；队内巴格达·布内贾入围最佳球员候选，穆罕默德·马奈入围最佳U23球员候选",
+      "impact": "俱乐部教练组与球员表现获联赛官方认可，巩固其跻身卡塔尔强队行列的形象",
+      "source": "https://thepeninsulaqatar.com/article/12/05/2026/afif-tops-qfa-awards-again-prats-named-best-coach"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "签下突尼斯国脚本·鲁姆丹等多名球员，备战亚冠精英赛首秀",
+      "description": "俱乐部宣布从埃及开罗国民签下突尼斯国家队中场穆罕默德·阿里·本·鲁姆丹，并相继引进法国球员韦斯利·赛义德、乌拉圭球员费德里科·拜斯等人，与布内贾、杰伊森·穆里略等现有球员汇合；全队在荷兰米尔洛集训营进行季前备战，主帅普拉茨带队与多支欧亚球队进行热身赛，备战8月20日开锣的新赛季及队史首次亚冠精英赛征程",
+      "impact": "阵容深度明显增强，支撑国内联赛与亚冠精英赛双线作战",
+      "source": "https://thepeninsulaqatar.com/article/10/08/2026/al-shamal-bolster-squad-ahead-of-new-season"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-NGO-011",
+      "org_name": "卡塔尔足球协会 (Qatar Football Association)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔足球运动管理机构，负责组织国内联赛、杯赛及俱乐部注册体系，并主办年度卡塔尔足协颁奖典礼",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "QA-GOV-012",
+      "org_name": "卡塔尔体育与青年部 (Ministry of Sports and Youth)",
+      "org_type": "GOV",
+      "org_description": "主管卡塔尔体育与青年事务的政府部门，在其体育俱乐部登记体系下对俱乐部实施行业管理；阿拉伯语维基百科信息框将其列为俱乐部的主管（所有）方",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔星级足球联赛 (Qatar Stars League)",
+      "org_type": "CORP",
+      "org_description": "卡塔尔顶级职业足球联赛（现冠名为多哈银行星级联赛），12支球队参赛；沙马勒一线队参加该联赛，2025-26赛季获亚军",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚洲足球联合会 (Asian Football Confederation)",
+      "org_type": "INTL",
+      "org_description": "亚洲足球运动管理机构；沙马勒凭借2025-26赛季联赛亚军成绩获得2026-27赛季亚足联冠军联赛精英赛参赛资格，将首次亮相该项亚洲顶级俱乐部赛事",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "沙马勒体育俱乐部（نادي الشمال）是一家位于卡塔尔北部城市沙马尔城（Madinat ash Shamal）的综合性体育俱乐部，1980年由穆罕默德·本·巴德尔·阿勒萨达创立，早期以租借办公场所和简易土质球场起步。俱乐部以足球为核心项目，一线队参加卡塔尔顶级联赛卡塔尔星级联赛（现冠名为多哈银行星级联赛），历史上曾4次夺得卡塔尔二级联赛冠军（1985-86、2002-03、2014-15、2020-21赛季），1996年夺得谢赫贾西姆杯，1995年获阿拉伯和平锦标赛冠军。2025-26赛季俱乐部获联赛亚军，创造队史最佳战绩，并首次取得亚足联冠军联赛精英赛参赛资格。除足球外，俱乐部于1982年增设手球项目，此后陆续成立排球、乒乓球、篮球和田径等项目，各队共用可容纳500名观众的室内体育馆。俱乐部主场沙马勒体育俱乐部体育场于2011年启用，造型参照祖巴拉堡垒设计，红色砖材自印度进口，占地约8.4万平方米，座席由3,500个扩建至5,000个，馆内另设宴会厅与演讲厅，已成为当地地标。俱乐部以青训见长，曾培养出首位入选卡塔尔国家队的球员阿德南·阿卜杜拉。俱乐部由董事会治理，董事会主席易卜拉欣·萨阿达于2024年无异议连任（2024-2028任期）；据阿拉伯语维基百科信息框，俱乐部在卡塔尔体育与青年部主管体系下运作。",
+  "industries": [
+    "sports"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，沙马勒体育俱乐部作为国内体育机构，不直接参与APEC框架下的活动。俱乐部与亚太地区的联系主要体现在体育交流层面：其足球队隶属亚洲足球联合会竞赛体系，2026-27赛季将首次参加亚足联冠军联赛精英赛，与来自包括多个APEC成员经济体在内的亚洲俱乐部同场竞技。",
+  "profile": {
+    "source_url": "https://alshamal.qa/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%88-%D8%A3%D8%B3%D8%A7%D8%B7%D9%8A%D8%B1/",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P2_lite_expanded",
+    "collection_date": "2026-09-11",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q812760",
-      "https://alshamal.qa/"
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 40,
-    "notes": "P2 lite expanded from Wikidata + manual ZH",
-    "confidence_level": "high"
+    "completeness_score": 87,
+    "notes": "Phase 3丰富化：核实wikidata_qid Q812760确为沙马勒体育俱乐部（卡塔尔足球俱乐部，1980年成立），无需修正；原骨架非标准顶层字段brief/description的有效事实已并入core_business后删除；industries由误填的industrial_manufacturing修正为sports。key_people三人（易卜拉欣·阿卜杜拉·侯赛因·萨阿达、阿卜杜拉·沙姆桑·萨阿达、大卫·普拉茨·拉塞罗 David Prats Racero）均未见于_name_index.json，person_id置null待P4回填。管理层核实自俱乐部官网董事会名录与QNA报道；赛果与引援核实自QFA官网及The Peninsula报道",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Al-Shamal SC - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Al-Shamal_SC"
+      },
+      {
+        "title": "نادي الشمال - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/%D9%86%D8%A7%D8%AF%D9%8A_%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84"
+      },
+      {
+        "title": "نبذة عن النادي（俱乐部简介）- 沙马勒体育俱乐部官网",
+        "url": "https://alshamal.qa/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D9%88-%D8%A3%D8%B3%D8%A7%D8%B7%D9%8A%D8%B1/"
+      },
+      {
+        "title": "مجلس الإدارة（董事会名录）- 沙马勒体育俱乐部官网",
+        "url": "https://alshamal.qa/%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9/"
+      },
+      {
+        "title": "إبراهيم السادة رئيسا لنادي الشمال بالتزكية للدورة 2024-2028（卡塔尔通讯社）",
+        "url": "https://qna.org.qa/ar-QA/news/news-details?id=0063-%D8%A5%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%A9-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D9%84%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84-%D8%A8%D8%A7%D9%84%D8%AA%D8%B2%D9%83%D9%8A%D8%A9-%D9%84%D9%84%D8%AF%D9%88%D8%B1%D8%A9-2024---2028&date=22/06/2024"
+      },
+      {
+        "title": "Qatar Clubs' Asian Slots Confirmed for 2026–2027 Season - Qatar Football Association",
+        "url": "https://www.qfa.qa/en/news/qatar-clubs-asian-slots-confirmed-for-2026-2027-season"
+      },
+      {
+        "title": "Al Sadd, Al Shamal coaches eye Qatar Stars League title on Monday - The Peninsula Qatar",
+        "url": "https://thepeninsulaqatar.com/article/26/04/2026/al-sadd,-al-shamal-coaches-eye-qatar-stars-league-title-on-monday"
+      },
+      {
+        "title": "Afif tops QFA Awards again, Prats named Best Coach - The Peninsula Qatar",
+        "url": "https://thepeninsulaqatar.com/article/12/05/2026/afif-tops-qfa-awards-again-prats-named-best-coach"
+      },
+      {
+        "title": "Al Shamal bolster squad ahead of new season - The Peninsula Qatar",
+        "url": "https://thepeninsulaqatar.com/article/10/08/2026/al-shamal-bolster-squad-ahead-of-new-season"
+      }
+    ]
   }
 }
