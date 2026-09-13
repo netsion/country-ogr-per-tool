@@ -30,39 +30,48 @@
   "departments": [
     {
       "name": "經濟及科技發展局 (DSEDT)",
-      "description": "研究、協調及落實執行澳門特區的經濟政策和科技發展政策"
+      "description": "研究、協調及落實執行澳門特區的經濟政策和科技發展政策",
+      "dept_id": "MO-GOV-007-DEPT-001"
     },
     {
       "name": "財政局 (DSF)",
-      "description": "指導、統籌及監察澳門特區行政公營部門的財政活動，管理公共財政及稅務"
+      "description": "指導、統籌及監察澳門特區行政公營部門的財政活動，管理公共財政及稅務",
+      "dept_id": "MO-GOV-007-DEPT-002"
     },
     {
       "name": "旅遊局 (DST)",
-      "description": "執行澳門特區旅遊業政策，推動旅遊業發展；2024年12月第六屆政府起由社會文化司範疇改劃入經濟財政司範疇"
+      "description": "執行澳門特區旅遊業政策，推動旅遊業發展；2024年12月第六屆政府起由社會文化司範疇改劃入經濟財政司範疇",
+      "dept_id": "MO-GOV-007-DEPT-003"
     },
     {
       "name": "博彩監察協調局 (DICJ)",
-      "description": "協助制定博彩業政策，規管、監察及協調博彩經營及活動"
+      "description": "協助制定博彩業政策，規管、監察及協調博彩經營及活動",
+      "dept_id": "MO-GOV-007-DEPT-004"
     },
     {
       "name": "勞工事務局 (DSAL)",
-      "description": "協助制定及執行勞動、就業、職業安全健康及職業培訓政策"
+      "description": "協助制定及執行勞動、就業、職業安全健康及職業培訓政策",
+      "dept_id": "MO-GOV-007-DEPT-005"
     },
     {
       "name": "招商投資促進局 (IPIM)",
-      "description": "招商引資、協助企業開拓市場、推動會展產業發展、促進中國與葡語國家經貿合作，並輔助中葡論壇常設秘書處工作；由原澳門貿易投資促進局整合設立"
+      "description": "招商引資、協助企業開拓市場、推動會展產業發展、促進中國與葡語國家經貿合作，並輔助中葡論壇常設秘書處工作；由原澳門貿易投資促進局整合設立",
+      "dept_id": "MO-GOV-007-DEPT-006"
     },
     {
       "name": "澳門金融管理局 (AMCM)",
-      "description": "協助行政長官制定及施行貨幣、金融、外匯及保險政策，監管相關市場運作"
+      "description": "協助行政長官制定及施行貨幣、金融、外匯及保險政策，監管相關市場運作",
+      "dept_id": "MO-GOV-007-DEPT-007"
     },
     {
       "name": "統計暨普查局 (DSEC)",
-      "description": "指導、協調、執行及監察澳門特區的統計活動"
+      "description": "指導、協調、執行及監察澳門特區的統計活動",
+      "dept_id": "MO-GOV-007-DEPT-008"
     },
     {
       "name": "科學技術發展基金 (FDCT)",
-      "description": "對有助提升澳門科研實力、創新能力及競爭力的項目提供資助"
+      "description": "對有助提升澳門科研實力、創新能力及競爭力的項目提供資助",
+      "dept_id": "MO-GOV-007-DEPT-009"
     }
   ],
   "recent_events": [
@@ -104,9 +113,9 @@
       "relationship_type": "subsidiary"
     },
     {
-      "org_id": null,
+      "org_id": "MO-FIN-001",
       "org_name": "澳門金融管理局 (Monetary Authority of Macao)",
-      "org_type": "GOV",
+      "org_type": "FIN",
       "org_description": "經濟財政司司長監督的金融管理機構，負責貨幣、金融、外匯及保險政策",
       "relationship_type": "subsidiary"
     }

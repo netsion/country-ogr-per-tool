@@ -12,7 +12,23 @@
   "gender": "female",
   "birth_date": null,
   "birth_place": null,
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "phone",
+      "value": "(853) 2836 7878",
+      "source": "澳門特別行政區政府入口網站機構專頁（社會工作局總機電話，地址澳門西墳馬路6號，2026-09-13查閱）"
+    },
+    {
+      "type": "fax",
+      "value": "(853) 2835 8573",
+      "source": "澳門特別行政區政府入口網站機構專頁（社會工作局）"
+    },
+    {
+      "type": "email",
+      "value": "pr@ias.gov.mo",
+      "source": "澳門特別行政區政府入口網站機構專頁（社會工作局）"
+    }
+  ],
   "current_positions": [
     "社會工作局副局長",
     "社會工作局行政管理委員會成員"
@@ -95,8 +111,8 @@
       "court_property_declaration",
       "official_website"
     ],
-    "completeness_score": 49,
-    "notes": "種子來源：MO-GOV-023 key_people[1]。學歷（台灣師範大學社會教育系教育學士）及專業簡歷經第123/2017號社會文化司司長批示公報中葡文附件核實（bo.dsaj.gov.mo/bo/ii/2017/51/），並與澳門力報2017年12月6日報道交叉核實；2018年1月1日起任副局長、接替退休的區志強，經公報及力報、正報確認。性別為女性，依據公報葡文版陰性表述（É nomeada／da nomeada／Técnica superior）。續任至今經特區法院財產申報紀錄（2026年3月仍以副局長身份申報）確認。個人社交帳號、家庭成員及政策表態查證不到，從缺。",
+    "completeness_score": 55,
+    "notes": "種子來源：MO-GOV-023 key_people[1]。學歷（台灣師範大學社會教育系教育學士）及專業簡歷經第123/2017號社會文化司司長批示公報中葡文附件核實（bo.dsaj.gov.mo/bo/ii/2017/51/），並與澳門力報2017年12月6日報道交叉核實；2018年1月1日起任副局長、接替退休的區志強，經公報及力報、正報確認。性別為女性，依據公報葡文版陰性表述（É nomeada／da nomeada／Técnica superior）。續任至今經特區法院財產申報紀錄（2026年3月仍以副局長身份申報）確認。個人社交帳號、家庭成員及政策表態查證不到，從缺。2026-09-13補充：公開辦公聯繫方式（社會工作局總機2836 7878、傳真2835 8573、電郵pr@ias.gov.mo）經gov.mo機構專頁（entity-692）核實；出生日期及原預防及治療藥物依賴辦公室org_id（數據集內無該機構檔案）仍從缺。",
     "quotes": [
       {
         "title": "第123/2017號社會文化司司長批示（委任許華寶為社會工作局副局長）- 澳門特區公報",
@@ -113,6 +129,10 @@
       {
         "title": "Department Information - 社會工作局（局長及副局長名單）",
         "url": "https://www.ias.gov.mo/en/about-swb/department-information?q=level1"
+      },
+      {
+        "title": "社會工作局 - 澳門特別行政區政府入口網站機構專頁（地址、電話、傳真、電郵）",
+        "url": "https://www.gov.mo/zh-hant/entity-page/entity-692/"
       }
     ]
   },

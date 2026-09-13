@@ -12,7 +12,23 @@
   "gender": "male",
   "birth_date": null,
   "birth_place": null,
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "phone",
+      "value": "(853) 2855 9944",
+      "source": "澳門海關官網公告（總部搬遷後對外服務電話維持不變：總機2855 9944、24小時舉報投訴熱線2896 5001、查詢熱線8989 4317，2026-09-13查閱）"
+    },
+    {
+      "type": "phone",
+      "value": "(853) 8989 4317",
+      "source": "澳門海關官網公告（查詢熱線）"
+    },
+    {
+      "type": "email",
+      "value": "info@customs.gov.mo",
+      "source": "澳門海關官網公告（查詢電郵）"
+    }
+  ],
   "current_positions": [
     "澳門海關助理關長"
   ],
@@ -101,8 +117,8 @@
       "court_property_declaration",
       "news_media"
     ],
-    "completeness_score": 51,
-    "notes": "種子來源：MO-GOV-013 key_people[2]。委任日期（2024-08-28）及編號（01961）以《澳門特別行政區公報》第105/2024號保安司司長批示為準，與gov.mo就職新聞（含學歷、1996年入職原水警稽查隊、歷任五個處廳長職務、兩個個人嘉獎）及澳門有線電視就職報道交叉核實；英文名 Ip Wa Chio 經法院財產申報系統及《澳門年鑑2025》英文版附錄（Assistant Director-General: Ip Wa Chio）雙重確認。出生日期查證不到，留空；性別 male 為據官方活動報道及照片合理推斷；教育就讀年份及代助理關長確切起始月份查證不到，留空或按「自2023年起」記載；無個人官方社交帳號，social_accounts 留空。",
+    "completeness_score": 57,
+    "notes": "種子來源：MO-GOV-013 key_people[2]。委任日期（2024-08-28）及編號（01961）以《澳門特別行政區公報》第105/2024號保安司司長批示為準，與gov.mo就職新聞（含學歷、1996年入職原水警稽查隊、歷任五個處廳長職務、兩個個人嘉獎）及澳門有線電視就職報道交叉核實；英文名 Ip Wa Chio 經法院財產申報系統及《澳門年鑑2025》英文版附錄（Assistant Director-General: Ip Wa Chio）雙重確認。出生日期查證不到，留空；性別 male 為據官方活動報道及照片合理推斷；教育就讀年份及代助理關長確切起始月份查證不到，留空或按「自2023年起」記載；無個人官方社交帳號，social_accounts 留空。2026-09-13補充：公開辦公聯繫方式（海關總機2855 9944、查詢熱線8989 4317、電郵info@customs.gov.mo）經澳門海關官網總部搬遷公告核實；原水警稽查隊org_id（數據集內無該已改組機構檔案）維持null。",
     "quotes": [
       {
         "title": "葉華釗就任海關助理關長 - 澳門特別行政區政府入口網站（2024-08-28，含官方簡介）",
@@ -127,6 +143,10 @@
       {
         "title": "澳門海關舉行38名新入職關員就職儀式（澳門海關官網，助理關長葉華釗為新關員佩戴肩章）",
         "url": "https://www.customs.gov.mo/cn/news_details/article/mo1htpuk.html"
+      },
+      {
+        "title": "澳門海關官網（總部搬遷後對外服務電話公告：總機2855 9944、查詢熱線8989 4317、電郵info@customs.gov.mo）",
+        "url": "https://www.customs.gov.mo/cn/"
       }
     ]
   },
