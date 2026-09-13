@@ -14,16 +14,16 @@
     "前卡塔尔航空首席执行官"
   ],
   "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "work_experience": [
     {
+      "start_date": "1997",
+      "end_date": "2023-11",
+      "organization": "卡塔尔航空公司",
       "org_id": "QA-SOE-005",
-      "org_name": "卡塔尔航空公司",
-      "title": "前首席执行官",
-      "relationship": "key_personnel",
-      "source": "wikidata_position"
+      "position": "集团首席执行官"
     }
   ],
+  "person_relationships": [],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
@@ -35,12 +35,22 @@
   },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "https://www.wikidata.org/wiki/Q4117408"
     ],
     "completeness_score": 55,
-    "notes": "P4 lite profile from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "notes": "P4 lite profile from Wikidata + manual Chinese translations；2026-09-11规范化：org关系迁移至work_experience（1997年起任CEO至2023年11月）；收集深度：P4_lite",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Wikidata Q4117408（数据来源）",
+        "url": "https://www.wikidata.org/wiki/Q4117408"
+      },
+      {
+        "title": "upload.wikimedia.org（数据来源）",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Akbar_Al_Baker.jpg/250px-Akbar_Al_Baker.jpg"
+      }
+    ]
   }
 }
