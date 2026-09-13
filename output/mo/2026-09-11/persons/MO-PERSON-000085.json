@@ -12,7 +12,23 @@
   "gender": "male",
   "birth_date": null,
   "birth_place": null,
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "phone",
+      "value": "(853) 2836 6866",
+      "source": "澳門特別行政區政府入口網站機構頁：文化局（總機電話，地址澳門塔石廣場文化局大樓，2026-09-13查閱）"
+    },
+    {
+      "type": "fax",
+      "value": "(853) 2836 6899",
+      "source": "澳門特別行政區政府入口網站機構頁：文化局"
+    },
+    {
+      "type": "email",
+      "value": "webmaster@icm.gov.mo",
+      "source": "澳門特別行政區政府入口網站機構頁：文化局"
+    }
+  ],
   "current_positions": [
     "澳門特別行政區政府文化局副局長"
   ],
@@ -144,8 +160,8 @@
       "court_property_declaration",
       "news_media"
     ],
-    "completeness_score": 52,
-    "notes": "種子來源：MO-GOV-015 key_people[2]。學歷及完整專業簡歷取自第122/2025號社會文化司司長批示附件（澳門特區公報，2025-10-28簽署）；2025-11-06宣誓就職見gov.mo官方新聞；2026-05-27調任文化局副局長（第112/2026號行政長官批示，任期至2026-10-31）見澳門平台（Plataforma Media）及搜法易公報索引；英文名Mok Chi Hang取自澳門特區法院財產申報系統（體育局代副局長2025-07-11、副局長2026-02-16申報記錄）。體育局未建立獨立組織檔案，org_id留null；鄭繼明無person_id，留null。出生日期查證不到，留空。",
+    "completeness_score": 57,
+    "notes": "種子來源：MO-GOV-015 key_people[2]。學歷及完整專業簡歷取自第122/2025號社會文化司司長批示附件（澳門特區公報，2025-10-28簽署）；2025-11-06宣誓就職見gov.mo官方新聞；2026-05-27調任文化局副局長（第112/2026號行政長官批示，任期至2026-10-31）見澳門平台（Plataforma Media）及搜法易公報索引；英文名Mok Chi Hang取自澳門特區法院財產申報系統（體育局代副局長2025-07-11、副局長2026-02-16申報記錄）。體育局未建立獨立組織檔案，org_id留null；鄭繼明無person_id，留null。出生日期查證不到，留空。2026-09-13補充：公開辦公聯繫方式（文化局總機2836 6866、傳真2836 6899、電郵webmaster@icm.gov.mo）經gov.mo機構頁核實；體育發展局／體育局、東亞運及亞室運組委會org_id（數據集內均無該機構檔案）維持null。",
     "quotes": [
       {
         "title": "第122/2025號社會文化司司長批示（委任莫子恆為體育局副局長，附件含學歷及專業簡歷）- 澳門特別行政區公報",
@@ -166,6 +182,10 @@
       {
         "title": "委任文化局副局長（莫子恆）及體育局副局長（鄭繼明）第112/2026號行政長官批示 - 搜法易公報檢索",
         "url": "https://search.bo.dsaj.gov.mo/zh-mo/legismac/type/DESCE/number/112/2026"
+      },
+      {
+        "title": "文化局 - 澳門特別行政區政府入口網站機構頁（地址、電話、傳真、電郵）",
+        "url": "https://www.gov.mo/zh-hant/apm-entity-page/gov-department-institutions-of-the-msar/apm-550/apm-644/"
       }
     ]
   }

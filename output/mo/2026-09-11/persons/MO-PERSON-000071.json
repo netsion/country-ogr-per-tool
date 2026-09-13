@@ -12,7 +12,28 @@
   "gender": "female",
   "birth_date": null,
   "birth_place": null,
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "phone",
+      "value": "(853) 2857 3333",
+      "source": "澳門特區政府入口網站治安警察局機構頁（總部大樓電話，2026-09-13查閱）"
+    },
+    {
+      "type": "fax",
+      "value": "(853) 2878 0826",
+      "source": "澳門特區政府入口網站治安警察局機構頁"
+    },
+    {
+      "type": "email",
+      "value": "psp-info@fsm.gov.mo",
+      "source": "澳門特區政府入口網站治安警察局機構頁"
+    },
+    {
+      "type": "website",
+      "value": "http://www.fsm.gov.mo/psp",
+      "source": "澳門特區政府入口網站治安警察局機構頁"
+    }
+  ],
   "current_positions": [
     "澳門特別行政區治安警察局局長（警務總監）"
   ],
@@ -37,7 +58,7 @@
       "start_date": "1996-02",
       "end_date": "2001-04",
       "organization": "治安警察廳出入境事務局",
-      "org_id": null,
+      "org_id": "MO-GOV-011",
       "position": "1996年2月加入治安警察廳；歷任出入境事務局邊境檢查處助理處長（1996年3月至1997年1月）、身份資料科科長（1997年1月至1998年4月）、機場邊境站警司處處長（1998年4月至1999年3月）"
     },
     {
@@ -72,7 +93,7 @@
       "start_date": "2017-04",
       "end_date": "2018-04",
       "organization": "保安司司長辦公室",
-      "org_id": null,
+      "org_id": "MO-GOV-008",
       "position": "顧問"
     },
     {
@@ -176,8 +197,8 @@
       "government_directory",
       "news_search"
     ],
-    "completeness_score": 58,
-    "notes": "種子來源：MO-GOV-011 key_people[0]。職業簡歷以第157/2020號保安司司長批示（《澳門特別行政區公報》2020年第49期第二組）所附學歷及專業簡歷為據，與澳廣視新聞、澳門日報、正報及保安司司長辦公室新聞稿交叉核實。英文名Ng Sou Peng據澳門特區法院財產申報資料頁。2022年起調回澳門保安部隊高等學校任副校長（Segundo Comandante）一節僅據法院財產申報資料2022年2月24日申報職位推斷，具體任免文件未查得，存疑。出生日期及出生地無公開資料，留空。2020年6月交通廳廳長任職時間極短（同月轉任代副局長），精確起訖日期查證不到。無公開個人社交帳號，social_accounts留空；家庭資訊無公開資料。",
+    "completeness_score": 60,
+    "notes": "種子來源：MO-GOV-011 key_people[0]。職業簡歷以第157/2020號保安司司長批示（《澳門特別行政區公報》2020年第49期第二組）所附學歷及專業簡歷為據，與澳廣視新聞、澳門日報、正報及保安司司長辦公室新聞稿交叉核實。英文名Ng Sou Peng據澳門特區法院財產申報資料頁。2022年起調回澳門保安部隊高等學校任副校長（Segundo Comandante）一節僅據法院財產申報資料2022年2月24日申報職位推斷，具體任免文件未查得，存疑。出生日期及出生地無公開資料，留空。2020年6月交通廳廳長任職時間極短（同月轉任代副局長），精確起訖日期查證不到。無公開個人社交帳號，social_accounts留空；家庭資訊無公開資料。phase4複核：按_name_index映射，治安警察廳（葡屬時期，治安警察局前身）繫於MO-GOV-011、保安司司長辦公室繫於MO-GOV-008；澳門保安部隊高等學校無對應org ID，維持null；補充治安警察局公開辦公聯絡方式（政府入口網站治安警察局機構頁）。",
     "quotes": [
       {
         "title": "第157/2020號保安司司長批示 - 澳門特別行政區公報",
@@ -194,6 +215,10 @@
       {
         "title": "伍素萍就任治安警察局長 - 澳門日報電子版",
         "url": "https://www.macaodaily.com/html/2026-08/06/content_1925468.htm"
+      },
+      {
+        "title": "治安警察局 - 澳門特別行政區政府入口網站機構頁（電話2857 3333、傳真2878 0826、psp-info@fsm.gov.mo）",
+        "url": "https://www.gov.mo/zh-hant/apm-entity-page/gov-department-institutions-of-the-msar/apm-376/apm-424/"
       }
     ]
   },
