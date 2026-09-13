@@ -37,13 +37,23 @@
   },
   "collection_meta": {
     "collection_date": "2026-09-12",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "https://hukoomi.gov.qa/en/news/hh-the-amir-issues-amiri-decision-appointing-president-of-qatar-general-electricity-and-water-corporation",
       "https://thepeninsulaqatar.com/article/16/12/2024/amir-appoints-president-of-qatar-general-electricity-and-water-corporation"
     ],
     "completeness_score": 40,
-    "notes": "主会话直采（QA-GOV-001 key_people 错绑修复时新建）。name的阿拉伯文拼法未经多源核验，以name_en为准；出生信息无公开资料。",
-    "confidence_level": "medium"
+    "notes": "主会话直采（QA-GOV-001 key_people 错绑修复时新建）。name的阿拉伯文拼法未经多源核验，以name_en为准；出生信息无公开资料。；收集深度：P4_lite",
+    "confidence_level": "medium",
+    "quotes": [
+      {
+        "title": "hukoomi.gov.qa（数据来源）",
+        "url": "https://hukoomi.gov.qa/en/news/hh-the-amir-issues-amiri-decision-appointing-president-of-qatar-general-electricity-and-water-corporation"
+      },
+      {
+        "title": "thepeninsulaqatar.com（数据来源）",
+        "url": "https://thepeninsulaqatar.com/article/16/12/2024/amir-appoints-president-of-qatar-general-electricity-and-water-corporation"
+      }
+    ]
   }
 }

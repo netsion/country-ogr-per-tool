@@ -14,16 +14,23 @@
     "卡塔尔基金会首席执行官"
   ],
   "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "work_experience": [
     {
+      "start_date": null,
+      "end_date": null,
+      "organization": "卡塔尔基金会",
       "org_id": "QA-NGO-001",
-      "org_name": "卡塔尔基金会",
-      "title": "首席执行官",
-      "relationship": "key_personnel",
-      "source": "wikidata_position"
+      "position": "副主席"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "卡塔尔基金会",
+      "org_id": "QA-NGO-001",
+      "position": "首席执行官（前任）"
     }
   ],
+  "person_relationships": [],
   "social_accounts": [
     {
       "platform": "instagram",
@@ -42,12 +49,22 @@
   },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "https://www.wikidata.org/wiki/Q23043276"
     ],
     "completeness_score": 55,
-    "notes": "P4 lite profile from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "notes": "P4 lite profile from Wikidata + manual Chinese translations；2026-09-11规范化：org关系迁移至work_experience；现任副主席（组织档案核实），曾任首席执行官；收集深度：P4_lite",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Wikidata Q23043276（数据来源）",
+        "url": "https://www.wikidata.org/wiki/Q23043276"
+      },
+      {
+        "title": "upload.wikimedia.org（数据来源）",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hind_Bint_Hamad_Al_Thani_And_Bangladeshi_Athletes_In_Doha_2025-04-22_(PID-0002276)_(cropped).jpg/250px-Hind_Bint_Hamad_Al_Thani_And_Bangladeshi_Athletes_In_Doha_2025-04-22_(PID-0002276)_(cropped).jpg"
+      }
+    ]
   }
 }

@@ -11,19 +11,26 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    "卡塔尔王室成员"
+    "卡塔尔副埃米尔"
   ],
   "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "work_experience": [
     {
-      "org_id": "QA-MIL-003",
-      "org_name": "卡塔尔埃米尔卫队",
-      "title": "指挥官",
-      "relationship": "key_personnel",
-      "source": "wikidata_position"
+      "start_date": "2014-11-11",
+      "end_date": null,
+      "organization": "卡塔尔国",
+      "org_id": null,
+      "position": "副埃米尔"
+    },
+    {
+      "start_date": "2011-12-20",
+      "end_date": "2014-11-10",
+      "organization": "埃米尔宫廷 (Amiri Diwan)",
+      "org_id": null,
+      "position": "埃米尔宫廷首领"
     }
   ],
+  "person_relationships": [],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [],
@@ -35,12 +42,22 @@
   },
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
       "https://www.wikidata.org/wiki/Q19665019"
     ],
     "completeness_score": 55,
-    "notes": "P4 lite profile from Wikidata + manual Chinese translations",
-    "confidence_level": "high"
+    "notes": "P4 lite profile from Wikidata + manual Chinese translations；2026-09-11规范化：删除【指挥官@埃米尔卫队】误绑（现任埃米尔卫队司令为Mohammed bin Sultan Al-Suwaidi少将，2025年第66号埃米尔令任命）；补入副埃米尔及埃米尔宫廷履历（来源：diwan.gov.qa、gco.gov.qa）；收集深度：P4_lite",
+    "confidence_level": "high",
+    "quotes": [
+      {
+        "title": "Wikidata Q19665019（数据来源）",
+        "url": "https://www.wikidata.org/wiki/Q19665019"
+      },
+      {
+        "title": "upload.wikimedia.org（数据来源）",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Sheikh_abdualla_althani.jpg/250px-Sheikh_abdualla_althani.jpg"
+      }
+    ]
   }
 }
