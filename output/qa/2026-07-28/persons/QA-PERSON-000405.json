@@ -38,17 +38,24 @@
   ],
   "work_experience": [
     {
-      "start_date": "2024-01",
+      "start_date": "2024-01-08",
+      "end_date": null,
+      "organization": "卡塔尔部长会议（内阁）",
+      "org_id": "QA-GOV-019",
+      "position": "内阁事务国务大臣（内阁成员）"
+    },
+    {
+      "start_date": "2024-01-08",
       "end_date": null,
       "organization": "卡塔尔司法部 (وزارة العدل)",
       "org_id": "QA-GOV-004",
-      "position": "司法大臣兼内阁事务国务大臣"
+      "position": "司法大臣"
     },
     {
       "start_date": "2013",
       "end_date": "2024",
       "organization": "卡塔尔埃米尔办公厅 (الديوان الأميري)",
-      "org_id": null,
+      "org_id": "QA-GOV-018",
       "position": "法律事务司司长（大臣衔）"
     },
     {
@@ -122,7 +129,7 @@
       "web_search"
     ],
     "completeness_score": 57,
-    "notes": "P4建档：履历与教育背景以司法部官网about-minister阿英双语页面为基准（2024年1月任命、2013-2024埃米尔办公厅法律事务司司长（大臣衔）、2004-2005武装部队少尉、杜伦大学法学荣誉学士、斯旺西大学法学硕士优等），卡塔尔内阁官网及阿语维基百科交叉确认全名Ibrahim bin Ali bin Issa Al Hassan Al Mohannadi与任命日期2024年1月8日（2024年第1号埃米尔令）。Wikidata有实体Q124749605（gender=male，P39=卡塔尔司法大臣，start 2024），wikidata_qid回填；该实体无P18图片、无出生日期与出生地，birth_date与birth_place置null。头像取自司法部官网about-minister页面大臣官方正装照（HTTP 200核验，image/jpeg，已人工查看确认为其正式肖像），无Wikidata P18可用。社交账号：多轮X/LinkedIn/Instagram/Facebook检索仅见司法部及媒体机构账号（mojgovqa、QatariCM等）发布其活动，未发现可验证的本人官方账号，social_accounts留空。2025年2月10日民法典百科全书揭幕经司法部官网新闻与内阁官网新闻交叉确认；2025-2030战略计划由首相主持揭幕，未计入其个人成就。relationships中埃米尔（QA-PERSON-000001）、首相（QA-PERSON-000006）经_name_index.json命中回填ID，副部长QA-PERSON-000406为组织档案QA-GOV-004已预分配ID。埃米尔办公厅与武装部队未在_name_index.json命中，org_id置null。未注册任何新ID，未改动注册表、索引与组织档案。",
+    "notes": "P4建档：履历与教育背景以司法部官网about-minister阿英双语页面为基准（2024年1月任命、2013-2024埃米尔办公厅法律事务司司长（大臣衔）、2004-2005武装部队少尉、杜伦大学法学荣誉学士、斯旺西大学法学硕士优等），卡塔尔内阁官网及阿语维基百科交叉确认全名Ibrahim bin Ali bin Issa Al Hassan Al Mohannadi与任命日期2024年1月8日（2024年第1号埃米尔令）。Wikidata有实体Q124749605（gender=male，P39=卡塔尔司法大臣，start 2024），wikidata_qid回填；该实体无P18图片、无出生日期与出生地，birth_date与birth_place置null。头像取自司法部官网about-minister页面大臣官方正装照（HTTP 200核验，image/jpeg，已人工查看确认为其正式肖像），无Wikidata P18可用。社交账号：多轮X/LinkedIn/Instagram/Facebook检索仅见司法部及媒体机构账号（mojgovqa、QatariCM等）发布其活动，未发现可验证的本人官方账号，social_accounts留空。2025年2月10日民法典百科全书揭幕经司法部官网新闻与内阁官网新闻交叉确认；2025-2030战略计划由首相主持揭幕，未计入其个人成就。relationships中埃米尔（QA-PERSON-000001）、首相（QA-PERSON-000006）经_name_index.json命中回填ID，副部长QA-PERSON-000406为组织档案QA-GOV-004已预分配ID。埃米尔办公厅与武装部队未在_name_index.json命中，org_id置null。未注册任何新ID，未改动注册表、索引与组织档案。；2026-09-13因QA-GOV-018/019建档联动更新：work_experience拆分「司法大臣兼内阁事务国务大臣」为两条（司法部=QA-GOV-004司法大臣；部长会议=QA-GOV-019内阁事务国务大臣），2013-2024埃米尔办公厅法律事务司司长org_id由null回绑为QA-GOV-018；QA-GOV-018/019为本次新建机构（待主会话同步注册表）",
     "quotes": [
       {
         "title": "عن الوزير - وزارة العدل（司法部官网关于大臣页面，阿拉伯语：履历、职务、教育背景）",
