@@ -708,10 +708,59 @@
       "name": "Gas Exporting Countries Forum",
       "name_zh": "天然气出口国论坛",
       "category": "INTL"
+    },
+    {
+      "org_id": "QA-GOV-018",
+      "wikidata_qid": "Q19406958",
+      "name": "Amiri Diwan of the State of Qatar",
+      "name_zh": "卡塔尔埃米尔办公厅",
+      "category": "GOV"
+    },
+    {
+      "org_id": "QA-GOV-019",
+      "wikidata_qid": "Q5015550",
+      "name": "Council of Ministers of the State of Qatar",
+      "name_zh": "卡塔尔部长会议",
+      "category": "GOV"
+    },
+    {
+      "org_id": "QA-GOV-020",
+      "wikidata_qid": "Q818691",
+      "name": "Shura Council of Qatar",
+      "name_zh": "卡塔尔协商会议",
+      "category": "GOV"
+    },
+    {
+      "org_id": "QA-GOV-021",
+      "wikidata_qid": "Q6867021",
+      "name": "Ministry of Foreign Affairs of the State of Qatar",
+      "name_zh": "卡塔尔外交部",
+      "category": "GOV"
+    },
+    {
+      "org_id": "QA-GOV-022",
+      "wikidata_qid": null,
+      "name": "Ministry of Defence of the State of Qatar",
+      "name_zh": "卡塔尔国防部",
+      "category": "GOV"
+    },
+    {
+      "org_id": "QA-GOV-023",
+      "wikidata_qid": "Q117272512",
+      "name": "Ministry of Education and Higher Education",
+      "name_zh": "卡塔尔教育与高等教育部",
+      "category": "GOV"
+    },
+    {
+      "org_id": "QA-GOV-024",
+      "wikidata_qid": null,
+      "name": "Ministry of Commerce and Industry",
+      "name_zh": "卡塔尔商业与工业部",
+      "category": "GOV"
     }
   ],
   "counters": {
-    "GOV": 17,
+    "GOV": 24,
     "SOE": 13,
     "CORP": 18,
     "ACAD": 13,
@@ -721,7 +770,7 @@
     "NGO": 16,
     "MIL": 4,
     "INTL": 1,
-    "PERSON": 546
+    "PERSON": 580
   },
   "person_id_rule": "QA-PERSON-{SEQ:06d}",
   "person_registry": [
@@ -3305,7 +3354,10 @@
       "importance": "medium",
       "source_orgs": [
         "QA-CORP-012",
-        "QA-GOV-013"
+        "QA-GOV-013",
+        "QA-GOV-018",
+        "QA-GOV-019",
+        "QA-GOV-022"
       ]
     },
     {
@@ -5335,7 +5387,146 @@
       "source_orgs": [
         "QA-NGO-002"
       ]
+    },
+    {
+      "person_id": "QA-PERSON-000547",
+      "wikidata_qid": null,
+      "name": "Abdullah bin Mohammed bin Mubarak Al Khulaifi",
+      "name_zh": "阿卜杜拉·本·穆罕默德·本·穆巴拉克·阿勒哈利菲",
+      "importance": "high",
+      "source_orgs": [
+        "QA-GOV-018"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000548",
+      "wikidata_qid": "Q124705613",
+      "name": "Sultan bin Saad Al Muraikhi",
+      "name_zh": "苏尔坦·本·萨阿德·本·苏尔坦·穆赖希",
+      "importance": "high",
+      "source_orgs": [
+        "QA-GOV-019"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000549",
+      "wikidata_qid": "Q110183214",
+      "name": "Ghanem bin Shaheen Al Ghanim",
+      "name_zh": "加尼姆·本·沙欣·本·加尼姆·阿勒加尼姆",
+      "importance": "high",
+      "source_orgs": []
+    },
+    {
+      "person_id": "QA-PERSON-000561",
+      "wikidata_qid": "Q130284207",
+      "name": "Hassan bin Abdullah Al-Ghanim",
+      "name_zh": "哈桑·本·阿卜杜拉·阿勒加尼姆",
+      "importance": "high",
+      "source_orgs": [
+        "QA-GOV-020"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000562",
+      "wikidata_qid": "Q110424360",
+      "name": "Hamda bint Hassan Al Sulaiti",
+      "name_zh": "哈姆达·宾特·哈桑·苏莱蒂",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-020"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000563",
+      "wikidata_qid": null,
+      "name": "Khalid bin Ghanim Al Maadheed",
+      "name_zh": "哈立德·本·加尼姆·阿勒马阿兹德",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-020"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000564",
+      "wikidata_qid": null,
+      "name": "Mohamed bin Yousef Al Mana",
+      "name_zh": "穆罕默德·本·优素福·阿勒马纳",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-020"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000565",
+      "wikidata_qid": null,
+      "name": "Abdullah bin Nasser bin Turki Al Subaie",
+      "name_zh": "阿卜杜拉·本·纳赛尔·本·图尔基·苏拜伊",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-020"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000567",
+      "wikidata_qid": null,
+      "name": "Dr. Ahmad bin Hassan Al-Hammadi",
+      "name_zh": "艾哈迈德·本·哈桑·哈马迪",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-021"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000568",
+      "wikidata_qid": null,
+      "name": "Dr. Abdulaziz Mohamed Youssef Al-Horr",
+      "name_zh": "阿卜杜勒阿齐兹·穆罕默德·优素福·胡尔",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-021"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000569",
+      "wikidata_qid": "Q13560046",
+      "name": "Khalid bin Mohammad Al Attiyah",
+      "name_zh": "哈立德·本·穆罕默德·阿提亚",
+      "importance": "high",
+      "source_orgs": []
+    },
+    {
+      "person_id": "QA-PERSON-000571",
+      "wikidata_qid": null,
+      "name": "Jassim bin Mohammed Al Mannai",
+      "name_zh": "贾西姆·本·穆罕默德·马奈",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-022"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000576",
+      "wikidata_qid": "Q109257188",
+      "name": "Ibrahim bin Saleh Al Nuaimi",
+      "name_zh": "易卜拉欣·本·萨利赫·纳伊米",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-023"
+      ]
+    },
+    {
+      "person_id": "QA-PERSON-000577",
+      "wikidata_qid": null,
+      "name": "Sheikh Ali bin Alwaleed Al Thani",
+      "name_zh": "谢赫·阿里·本·瓦利德·阿勒萨尼",
+      "importance": "medium",
+      "source_orgs": [
+        "QA-GOV-024"
+      ]
     }
   ],
-  "last_updated": "2026-09-11"
+  "last_updated": "2026-09-14",
+  "person_counters": {
+    "QA-PERSON": 580
+  }
 }
