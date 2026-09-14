@@ -6,8 +6,12 @@
   "name_zh": "谢赫·贾西姆·本·哈马德·本·贾西姆·本·贾比尔·阿勒萨尼",
   "aliases": [
     "الشيخ جاسم بن حمد بن جاسم بن جبر آل ثاني",
+    "الشيخ جاسم بن حمد بن جاسم بن جابر آل ثاني",
     "Sheikh Jassim Bin Hamad Al Thani",
     "Jassim Bin Hamad Bin Jassim Bin Jaber Al Thani",
+    "Sheikh Jassim bin Hamad bin Jassim bin Jaber Al-Thani",
+    "Jassim Bin Hamad Al-Thani",
+    "谢赫·贾西姆·本·哈马德·阿勒萨尼",
     "Sheikh Jassim"
   ],
   "nationality": "QA",
@@ -102,10 +106,41 @@
       "person_name": "哈马德·本·贾西姆·本·贾比尔·阿勒萨尼 (حمد بن جاسم بن جبر آل ثاني)",
       "relationship_type": "parent",
       "description": "其父，卡塔尔前首相兼外交大臣（1992-2013年任外交大臣、2007-2013年任首相）；GSN人物档案与BBC、路透社报道均指明其为HBJ之子"
+    },
+    {
+      "person_id": "QA-PERSON-000389",
+      "person_name": "谢赫·穆罕默德·本·哈马德·本·贾西姆·阿勒萨尼 (H.E. Sheikh Mohammed Bin Hamad Bin Jassim Al-Thani)",
+      "relationship_type": "sibling",
+      "description": "其弟（1984年7月4日生），杜汉银行执行董事会成员兼董事总经理、海湾仓储公司（GWC）董事长；GSN与卫报报道其兄弟关系，QA-PERSON-000389档案person_relationships已回指本人为兄"
+    },
+    {
+      "person_id": null,
+      "person_name": "谢赫·法哈德·本·哈马德·本·贾西姆·本·贾比尔·阿勒萨尼 (Sheikh Fahad Bin Hamad Bin Jassim Bin Jaber Al Thani)",
+      "relationship_type": "sibling",
+      "description": "其弟，海湾仓储公司（GWC）副董事长；媒体listing两人同为前首相哈马德·本·贾西姆之子，未在_name_index.json中命中，person_id置null"
     }
   ],
   "social_accounts": [],
-  "family_members": [],
+  "family_members": [
+    {
+      "person_id": "QA-PERSON-000019",
+      "name": "哈马德·本·贾西姆·本·贾比尔·阿勒萨尼 (حمد بن جاسم بن جبر آل ثاني，父，卡塔尔前首相兼外交大臣)",
+      "relationship": "father",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": "QA-PERSON-000389",
+      "name": "谢赫·穆罕默德·本·哈马德·本·贾西姆·阿勒萨尼 (H.E. Sheikh Mohammed Bin Hamad Bin Jassim Al-Thani，弟，1984年7月4日生，杜汉银行执行董事会成员兼董事总经理)",
+      "relationship": "brother",
+      "industry_or_organization": "杜汉银行 (Dukhan Bank)"
+    },
+    {
+      "person_id": null,
+      "name": "谢赫·法哈德·本·哈马德·本·贾西姆·本·贾比尔·阿勒萨尼 (Sheikh Fahad Bin Hamad Bin Jassim Bin Jaber Al Thani，弟，海湾仓储公司副董事长)",
+      "relationship": "brother",
+      "industry_or_organization": "海湾仓储公司 (GWC)"
+    }
+  ],
   "political_stances": [],
   "major_achievements": [
     {
@@ -127,9 +162,44 @@
       "date": "2023-02-17",
       "achievement": "通过Nine Two基金会提交收购曼联足球俱乐部100%股权的全现金报价，与英力士的拉特克利夫竞购多轮，同年10月宣布退出竞购；竞购实体Nine Two UK Holdings Limited在英国公司注册处注册（公司号14938922），于2024年9月3日自愿注销",
       "organization": "Nine Two Foundation"
+    },
+    {
+      "date": "2024-11-08",
+      "achievement": "以米拉哈董事长身份与卡塔尔自由区管理局（QFZ）签署价值8,000万卡塔尔里亚尔的新游艇与船舶修造厂协议，选址乌姆胡尔自由区玛尔萨港，2024年11月动工",
+      "organization": "米拉哈 (Milaha)"
+    },
+    {
+      "date": "2025-05-27",
+      "achievement": "以米拉哈董事长身份与意大利芬坎蒂里（Fincantieri）集团签署战略合作备忘录，推进海事合作与技术整合",
+      "organization": "米拉哈 (Milaha)"
+    },
+    {
+      "date": "2025-12-21",
+      "achievement": "以董事长身份主持卡塔尔伊斯兰银行西湾QIB Towers新总部大楼正式启用，为该行成立以来的总部搬迁升级项目",
+      "organization": "卡塔尔伊斯兰银行 (مصرف قطر الإسلامي)"
+    },
+    {
+      "date": "2026-01-14",
+      "achievement": "以董事长身份发布QIB 2025年度业绩：净利润增长5%至48.35亿卡塔尔里亚尔，并发表年度致辞；2025年6月惠誉确认该行A级（展望稳定）、穆迪确认长期存款评级",
+      "organization": "卡塔尔伊斯兰银行 (مصرف قطر الإسلامي)"
+    },
+    {
+      "date": "2026-02-17",
+      "achievement": "以米拉哈董事长身份主持年度普通股东大会并作报告：2025年净利润12.71亿卡塔尔里亚尔（2024年为11.22亿），大会批准派发面值45%现金股息（每股0.45里亚尔）并续聘毕马威为2026年审计师",
+      "organization": "米拉哈 (Milaha)"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement": "QIB股东年会批准2025年度90%现金股息并选举新一届董事会（2026-2029任期）；据QIB官网现行董事会页，其继续出任董事长（非执行、非独立董事）",
+      "organization": "卡塔尔伊斯兰银行 (مصرف قطر الإسلامي)"
+    },
+    {
+      "date": "2026-07-20",
+      "achievement": "QIB公布2026年上半年净利润增长23%至22.25亿卡塔尔里亚尔，延续其任内的增长势头",
+      "organization": "卡塔尔伊斯兰银行 (مصرف قطر الإسلامي)"
     }
   ],
-  "biography_summary": "谢赫·贾西姆·本·哈马德·本·贾西姆·本·贾比尔·阿勒萨尼（Sheikh Jassim Bin Hamad Bin Jassim Bin Jaber Al Thani），1982年4月出生，卡塔尔商人、银行家，卡塔尔前首相兼外交大臣哈马德·本·贾西姆·本·贾比尔·阿勒萨尼（HBJ）之子。毕业于英国桑德赫斯特皇家军事学院，并修读多门管理与金融专业课程。2004年6月起任卡塔尔伊斯兰银行（QIB）董事，2005年4月出任董事会主席至今，执掌卡塔尔最大的伊斯兰银行；同时担任卡塔尔首家伊斯兰投资银行QInvest董事长、米拉哈（Milaha，原卡塔尔航运）董事长（2018年3月首次当选，2021年与2024年连任）、达曼伊斯兰保险公司（Beema）董事长及Qterminals副主席，2010年4月至2017年4月曾任瑞士信贷集团董事会成员。2023年2月，他以Nine Two基金会名义出价收购曼联足球俱乐部100%股权，同年10月退出竞购。",
+  "biography_summary": "谢赫·贾西姆·本·哈马德·本·贾西姆·本·贾比尔·阿勒萨尼（Sheikh Jassim Bin Hamad Bin Jassim Bin Jaber Al Thani），1982年4月出生，卡塔尔商人、银行家，卡塔尔前首相兼外交大臣哈马德·本·贾西姆·本·贾比尔·阿勒萨尼（HBJ）之子，其弟穆罕默德·本·哈马德任杜汉银行董事总经理、法哈德·本·哈马德任海湾仓储公司（GWC）副董事长。毕业于英国桑德赫斯特皇家军事学院，并修读多门管理与金融专业课程。2004年6月起任卡塔尔伊斯兰银行（QIB）董事，2005年4月出任董事会主席至今，执掌卡塔尔最大的伊斯兰银行；同时担任卡塔尔首家伊斯兰投资银行QInvest董事长、米拉哈（Milaha，原卡塔尔航运）董事长（2018年3月首次当选，2021年与2024年连任）、达曼伊斯兰保险公司（Beema）董事长及Qterminals副主席，2010年4月至2017年4月曾任瑞士信贷集团董事会成员。2023年2月，他以Nine Two基金会名义出价收购曼联足球俱乐部100%股权，同年10月退出竞购。近年动态：2024年11月主持Milaha与卡塔尔自由区管理局签署8,000万里亚尔游艇船舶修造厂协议，2025年5月与芬坎蒂里签署战略合作备忘录；2025年QIB净利润48.35亿里亚尔（同比增5%），12月启用西湾QIB Towers新总部，2026年3月股东年会批准90%现金股息并选出新一届董事会，据QIB官网现行董事会页其续任董事长；米拉哈2025年净利润12.71亿里亚尔，2026年2月股东大会批准45%股息。",
   "profile": {
     "source_url": "https://www.qib.com.qa/-/media/project/qib/images/aboutus/board-of-directors/sheikh-jassim-bin-hamad-bin-jassim-bin-jaber-ai-thani-new2.jpg?h=500&iar=0&w=500&rev=95cd25c5bc664f208463b2756d267376&hash=E267F11390FE93037C13EC31D8AA2351",
     "local_path": null
@@ -144,8 +214,8 @@
       "encyclopedia",
       "web_search"
     ],
-    "completeness_score": 58,
-    "notes": "P4建档：身份经_name_index.json（三个英文键均映射QA-PERSON-000360）与组织档案QA-FIN-003 key_people（QIB董事长）确认。履历以QIB官网董事会页阿英双语自述为基准（2004-06董事、2005-04董事长、桑德赫斯特毕业、瑞士信贷2010-04至2017-04董事、QInvest/Milaha/Beema董事长、Qterminals副主席）；Milaha职务经官网董事会页（2000年起任董事）+2026年1月董事会信息PDF+2023年报（董事长署名）+The Peninsula 2018-03-19报道交叉验证，确认2018年3月首次当选董事长、2021-03-16与2024年3月连任；QInvest董事长经其官网董事会页确认；桑德赫斯特学历获QIB与Milaha两处官方来源印证。出生年月1982年4月据GSN档案与英国公司注册处高管登记（Companies House，日不详按语料惯例补00），出生地无权威来源置null。曼联竞购（2023-02-17提交、2023-10-14报道退出）经路透、BBC、卫报、海峡时报多源验证；竞购实体Nine Two UK Holdings Limited（14938922）董事任期与2024-09-03注销日期取自Companies House。Wikidata实体Q116812131仅有1982年出生与银行家职业两项主张且无P18图片，wikidata_qid据实体补记；头像采用QIB官网官方证件照（curl核验HTTP 200、image/jpeg）。社媒逐一核查X/LinkedIn/Instagram/Facebook，未发现可验证的本人官方账号（Facebook同名页仅3赞属粉丝页、LinkedIn无本人档案），social_accounts留空。父子关系person_id命中_name_index.json之QA-PERSON-000019。QInvest/Milaha/Beema/Qterminals/Credit Suisse/Nine Two均未命中_name_index.json，org_id置null。未注册新ID，未改动注册表、索引与其他档案。",
+    "completeness_score": 67,
+    "notes": "P4建档：身份经_name_index.json（三个英文键均映射QA-PERSON-000360）与组织档案QA-FIN-003 key_people（QIB董事长）确认。履历以QIB官网董事会页阿英双语自述为基准（2004-06董事、2005-04董事长、桑德赫斯特毕业、瑞士信贷2010-04至2017-04董事、QInvest/Milaha/Beema董事长、Qterminals副主席）；Milaha职务经官网董事会页（2000年起任董事）+2026年1月董事会信息PDF+2023年报（董事长署名）+The Peninsula 2018-03-19报道交叉验证，确认2018年3月首次当选董事长、2021-03-16与2024年3月连任；QInvest董事长经其官网董事会页确认；桑德赫斯特学历获QIB与Milaha两处官方来源印证。出生年月1982年4月据GSN档案与英国公司注册处高管登记（Companies House，日不详按语料惯例补00），出生地无权威来源置null。曼联竞购（2023-02-17提交、2023-10-14报道退出）经路透、BBC、卫报、海峡时报多源验证；竞购实体Nine Two UK Holdings Limited（14938922）董事任期与2024-09-03注销日期取自Companies House。Wikidata实体Q116812131仅有1982年出生与银行家职业两项主张且无P18图片，wikidata_qid据实体补记；头像采用QIB官网官方证件照（curl核验HTTP 200、image/jpeg）。社媒逐一核查X/LinkedIn/Instagram/Facebook，未发现可验证的本人官方账号（Facebook同名页仅3赞属粉丝页、LinkedIn无本人档案），social_accounts留空。父子关系person_id命中_name_index.json之QA-PERSON-000019。QInvest/Milaha/Beema/Qterminals/Credit Suisse/Nine Two均未命中_name_index.json，org_id置null。未注册新ID，未改动注册表、索引与其他档案。2026-09-14增量核验与充实：(1)职务时效——QIB官网董事会页（英阿双语，当日实时抓取）仍列其为董事长（非执行、非独立），阿语页姓名作'جاسم بن حمد بن جاسم بن جبر آل ثاني'；Milaha官网董事会页仍列其为董事长（2000年起任董事自述不变）；Beema官网董事会页列其为董事长；QInvest官网本次访问超时未能复核，职务沿用2026-09-11官方页记载；Qterminals副主席未再核。2026-03-09 QIB股东年会批准90%现金股息并选举新一届董事会（Qatar Tribune报道，经Google News RSS核验标题与刊发时间），结合QIB官网现行董事会页判定其续任董事长。(2)近年活动新增（直链均已核验HTTP 200）：Milaha-QFZ 8,000万里亚尔游艇船舶修造厂协议（2024-11-08）、Milaha-芬坎蒂里战略合作备忘录（2025-05-27）、QIB新总部QIB Towers启用（2025-12-21，官方新闻稿）、QIB 2025年净利48.35亿里亚尔（+5%，2026-01-14官方新闻稿含其董事长致辞全文）、Milaha 2026-02-17年度普通股东大会（2025年净利12.71亿里亚尔、45%股息）、QIB 2026上半年净利22.25亿里亚尔（+23%，2026-07-20官方新闻稿）。(3)家族绑定：补QA-PERSON-000389（穆罕默德·本·哈马德，弟，1984年7月4日生）为sibling，其档案person_relationships已回指本人为兄，GSN与卫报报道佐证；据QA-PERSON-000389档案与GWC董事会记载补法哈德（弟，GWC副董事长，未在库，person_id置null）；family_members同步补父亲000019及两位兄弟。(4)Companies House高管登记页（当日实时核验）维持1982年4月出生、卡塔尔籍、居住卡塔尔；出生地仍无权威来源，维持null；Wikidata Q116812131复核仅存1982年（仅年份精度）出生与银行家职业两项主张，无阿语标签、无P18。(5)头像URL当日curl核验HTTP 200、image/jpeg，维持原链接；aliases补阿语جابر变体、英文连字号变体、媒体简称与中文简称。(6)completeness_score 67为校验脚本calc_person_score公式实算值（54/81）。未注册新ID，未改动注册表、索引及其他任何档案。",
     "quotes": [
       {
         "title": "QIB - Board of Directors（董事长官方简历：2004-06入董事、2005-04任董事长、桑德赫斯特、瑞士信贷2010-2017、QInvest/Milaha/Beema/Qterminals职务）",
@@ -198,6 +268,38 @@
       {
         "title": "Wikidata - Q116812131 Jassim Bin Hamad Bin Jassim Bin Jaber Al Thani（1982年出生、银行家；无P18图片）",
         "url": "https://www.wikidata.org/wiki/Q116812131"
+      },
+      {
+        "title": "QIB 2026-01-14 - QIB profit grows by 5% to reach QAR 4,835 million in 2025（官方新闻稿，内含董事长2025年度致辞全文、2025-06惠誉A级与穆迪评级确认）",
+        "url": "https://www.qib.com.qa/en/about-us/media-center/news/news-listing/2026/01/14/qib-profit-grows-by-5-to-reach-qar-4835-million-in-2025"
+      },
+      {
+        "title": "QIB 2025-12-21 - Qatar Islamic Bank officially inaugurates its new head office at QIB Towers, West Bay（官方新闻稿，新总部启用）",
+        "url": "https://www.qib.com.qa/en/about-us/media-center/news/news-listing/2025/12/21/qatar-islamic-bank-officially-inaugurates-its-new-head-office-at-qib-towers-west-bay"
+      },
+      {
+        "title": "QIB 2026-07-20 - QIB profit grows by 23% to reach QAR 2,225 million for the six months ended 30 June 2026（官方新闻稿）",
+        "url": "https://www.qib.com.qa/en/about-us/media-center/news/news-listing/2026/07/20/qib-profit-grows-by-23-to-reach-qar-2225-million-for-the-six-months-ended-30-june-2026"
+      },
+      {
+        "title": "The Peninsula 2026-02-18 - Milaha OGA approves 45% cash dividend（2026-02-17年度普通股东大会，其以董事长身份作2025年度报告：净利12.71亿里亚尔）",
+        "url": "https://www.thepeninsulaqatar.com/article/18/02/2026/Milahas-Ordinary-General-Assembly-Meeting-approves-to-distribute-cash-dividend-of-45-of-nominal-share-value"
+      },
+      {
+        "title": "The Peninsula 2024-11-08 - QFZ, Milaha sign new QR80m Yachts and Ships Yard agreement（乌姆胡尔自由区玛尔萨港）",
+        "url": "https://www.thepeninsulaqatar.com/article/08/11/2024/QFZ-Milaha-sign-new-QR80m-Yachts-and-Ships-Yard-agreement"
+      },
+      {
+        "title": "The Peninsula 2025-05-27 - Milaha and Fincantieri sign strategic MoU to advance maritime cooperation, technology integration",
+        "url": "https://www.thepeninsulaqatar.com/article/27/05/2025/Milaha-and-Fincantieri-sign-strategic-MoU-to-advance-maritime-cooperation-technology-integration"
+      },
+      {
+        "title": "Qatar Tribune 2026-03-09 - QIB shareholders approve 90% cash dividend, new board at AGM（经Google News RSS核验标题与刊发时间）",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYUpBTnBlNkU5VjB1T3ZvN3o1R05CUHh2elkxZXRFdmJwNnBfWjBZMGtYQzAwcnZ1VmlDX0ZpNjZESDFaS1lxQThaRU1tTG5JZmx5MmdmMldLSXh5ZFFjcHhfc0U3WV9BTG96dXViRTVZeUYyY05LUDBYMkEzTE5ZcWxuUC1ZbkdqUzdZM3VCREdKeE5NN2c?oc=5"
+      },
+      {
+        "title": "Beema (Damaan Islamic Insurance) - Board of Directors（官网董事会页列其为董事长，2026-09-14实时核验）",
+        "url": "https://beema.com.qa/board-management-team/"
       }
     ],
     "confidence_level": "high"

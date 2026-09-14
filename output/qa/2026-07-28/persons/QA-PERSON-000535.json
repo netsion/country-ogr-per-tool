@@ -6,7 +6,9 @@
   "name_zh": "谢赫哈立德·本·阿卜杜拉·阿勒萨尼",
   "aliases": [
     "Sheikh Khalid Bin Abdulla Al-Thani",
+    "Shiekh Khalid Bin Abdulla Al-Thani",
     "الشيخ خالد بن عبد الله آل ثاني",
+    "الشيخ/ خالد بن عبد الله آل ثاني",
     "Khalid bin Abdullah Al Thani",
     "Khalid bin Abdullah Al-Thani"
   ],
@@ -72,6 +74,13 @@
       "organization": "卡塔尔石化公司 (شركة قطر للبتروكيماويات)",
       "org_id": null,
       "position": "审计委员会及治理、风险与合规委员会主席"
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "卡塔尔大学天然气加工中心技术顾问委员会 (Qatar University Gas Processing Centre Technical Advisory Committee)",
+      "org_id": "QA-ACAD-001",
+      "position": "主席（曾任）"
     }
   ],
   "person_relationships": [
@@ -86,6 +95,12 @@
       "person_name": "艾哈迈德·希拉勒·穆汉纳迪 (أحمد هلال المهندي)",
       "relationship_type": "colleague",
       "description": "同经卡塔尔能源以特别股东身份任命（2026年6月1日生效）进入卡塔尔工业公司董事会，接替Ahmed Abdulqader Al-Ahmad；现任卡塔尔能源LNG首席执行官"
+    },
+    {
+      "person_id": "QA-PERSON-000308",
+      "person_name": "谢赫·哈立德·本·哈利法·本·贾西姆·阿勒萨尼 (خالد بن خليفة بن جاسم آل ثاني)",
+      "relationship_type": "colleague",
+      "description": "2011年至2025年12月同在卡塔尔能源液化天然气公司（QatarEnergy LNG，前身为Qatargas/RasGas）共事：其任首席执行官（2010年6月至2025年12月31日），本人任首席工程与项目官；注意与本人为不同分支的阿勒萨尼家族成员，勿混淆"
     }
   ],
   "social_accounts": [],
@@ -114,15 +129,16 @@
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-09-11",
+    "collection_date": "2026-09-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "official_website",
       "company_announcement",
-      "wikidata"
+      "wikidata",
+      "news_search"
     ],
-    "completeness_score": 58,
-    "notes": "P4建档：身份经org档案QA-SOE-007 key_people、id_registry.json条目与_name_index.json三方核对，_name_index中「Sheikh Khalid bin Abdullah Al-Thani」仅指向本档案ID，与QA-PERSON-000308/000521（Khalid bin Khalifa系）及QA-PERSON-000021（Khalid bin Khalifa bin Abdulaziz）无同人冲突。履历以IQ官网董事会英文个人简介为基准（QAFCO董事总经理兼首席执行官2026-05-10获任并兼董事会副主席、QatarEnergy LNG首席工程与项目官2011-2026、1996年以项目工程师加入RasGas、QAPCO审计委员会及GRC委员会主席、GPCA/AFA董事会成员、三所高校顾问委员会任职），IQ官网阿拉伯语同页交叉确认阿文姓名拼写خالد بن عبد الله آل ثاني及教育背景（卡塔尔大学机械工程学士、HEC Paris EMBA，均无就读年份）；IQ董事会任命细节以QatarEnergy特别股东任命函PDF（iq_out_2026_060.pdf，2026-06-01生效，接替Abdulrahman Mohammed Al-Suwaidi）确认为第二来源。QAFCO官网（qafco.com.qa/qafco.com）现不可访问，QAFCO任命暂以IQ官网简介为唯一在线来源；GPCA、AFA、QAPCO官网亦无法访问作交叉核验。Wikidata无该人物实体（英/阿wbsearchentities均无结果），wikidata_qid与birth_date、birth_place置null。头像取IQ官网个人页官方照片（HTTP 200核验，content-type image/png，176378字节），无Wikidata P18可用。社交账号：Bing/DuckDuckGo/Brave/Mojeek及Google News RSS均未检索到可核验为本人官方账号的档案，social_accounts留空。work_experience.org_id仅在_name_index.json命中时填写：Industries Qatar→QA-SOE-007；QatarEnergy LNG按QA-SOE-002（Qatargas，aliases含QatarEnergy LNG，2022年更名）回填；RasGas→QA-SOE-003；QAFCO与QAPCO未注册→null。未注册任何新ID，未改动注册表与其他档案。",
+    "completeness_score": 60,
+    "notes": "P4建档：身份经org档案QA-SOE-007 key_people、id_registry.json条目与_name_index.json三方核对，_name_index中「Sheikh Khalid bin Abdullah Al-Thani」仅指向本档案ID，与QA-PERSON-000308/000521（Khalid bin Khalifa系）及QA-PERSON-000021（Khalid bin Khalifa bin Abdulaziz）无同人冲突。履历以IQ官网董事会英文个人简介为基准（QAFCO董事总经理兼首席执行官2026-05-10获任并兼董事会副主席、QatarEnergy LNG首席工程与项目官2011-2026、1996年以项目工程师加入RasGas、QAPCO审计委员会及GRC委员会主席、GPCA/AFA董事会成员、三所高校顾问委员会任职），IQ官网阿拉伯语同页交叉确认阿文姓名拼写خالد بن عبد الله آل ثاني及教育背景（卡塔尔大学机械工程学士、HEC Paris EMBA，均无就读年份）；IQ董事会任命细节以QatarEnergy特别股东任命函PDF（iq_out_2026_060.pdf，2026-06-01生效，接替Abdulrahman Mohammed Al-Suwaidi）确认为第二来源。QAFCO官网（qafco.com.qa/qafco.com）现不可访问，QAFCO任命暂以IQ官网简介为唯一在线来源；GPCA、AFA、QAPCO官网亦无法访问作交叉核验。Wikidata无该人物实体（英/阿wbsearchentities均无结果），wikidata_qid与birth_date、birth_place置null。头像取IQ官网个人页官方照片（HTTP 200核验，content-type image/png，176378字节），无Wikidata P18可用。社交账号：Bing/DuckDuckGo/Brave/Mojeek及Google News RSS均未检索到可核验为本人官方账号的档案，social_accounts留空。work_experience.org_id仅在_name_index.json命中时填写：Industries Qatar→QA-SOE-007；QatarEnergy LNG按QA-SOE-002（Qatargas，aliases含QatarEnergy LNG，2022年更名）回填；RasGas→QA-SOE-003；QAFCO与QAPCO未注册→null；卡塔尔大学天然气加工中心技术顾问委员会→QA-ACAD-001（_name_index命中Qatar University）。未注册任何新ID，未改动注册表与其他档案。P4增量复核（2026-09-14）：重新抓取IQ官网英/阿董事会个人页，确认四项current_positions（IQ董事、QAFCO副主席兼董事总经理兼CEO、GPCA董事、AFA董事）截至2026-09-14仍列现任，IQ个人简介文字与建档时一致；头像URL重新核验HTTP 200（content-type image/png）。aliases增补IQ官网英文页原始拼写变体Shiekh Khalid Bin Abdulla Al-Thani与阿文页标题格式الشيخ/ خالد بن عبد الله آل ثاني。birth_date/birth_place经Google News RSS（英/阿多组关键词）、Wikidata wbsearchentities、MarketScreener（HTTP 403）、QAPCO/QAFCO/GPCA官网（均不可达）等渠道复查仍无可核验来源，维持null，宁缺毋滥。family_members：IQ/QAFCO官方简介及新闻均未披露其父名链完整传承（仅知父名Abdullah，无法确定属哪一支阿勒萨尼），无可核实在库亲属，留空。新增person_relationships条目QA-PERSON-000308（谢赫哈立德·本·哈利法·本·贾西姆·阿勒萨尼）：双方档案工作履历显示2011-2025年同在QA-SOE-002任职（其CEO、本人首席工程与项目官），Gulf Times 2025-09-28报道19届工程大会由其以QatarEnergy LNG CEO身份揭幕佐证在任时间线；该条目仅记同僚关系，二者分属阿勒萨尼家族不同分支，严禁据此作亲属推断。新增work_experience条目（卡塔尔大学天然气加工中心技术顾问委员会主席，IQ官方简介has held表述，起止年份官方未载，置null）。QAFCO官网域名qafert.com.qa经DNS查询已不存在（Non-existent domain）。",
     "quotes": [
       {
         "title": "Industries Qatar官网 - Board of Directors - Sheikh Khalid bin Abdullah Al-Thani（英文官方个人简介：QAFCO任命日期、履历、教育背景、兼职）",
@@ -143,6 +159,10 @@
       {
         "title": "IQ官网个人页官方照片（HTTP 200核验，content-type image/png）",
         "url": "https://www.iq.com.qa/media/ilsn01bk/sheikh-khalid-bin-abdullah-al-thani-1.png"
+      },
+      {
+        "title": "Gulf Times - QatarEnergy LNG 19th Engineering Conference（2025-09-28，佐证QA-PERSON-000308以QatarEnergy LNG CEO身份在任至2025年底，与本人2011-2026首席工程与项目官任期重叠）",
+        "url": "https://www.gulf-times.com/article/711655/business/qatarenergy-lngs-19th-engineering-conference-drives-innovation-and-knowledge-sharing-in-energy-sector"
       }
     ],
     "confidence_level": "high"
