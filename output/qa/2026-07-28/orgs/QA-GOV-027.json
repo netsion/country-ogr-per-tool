@@ -1,0 +1,325 @@
+{
+  "org_id": "QA-GOV-027",
+  "basic_info": {
+    "name_original": "النيابة العامة القطرية",
+    "name_zh": "卡塔尔检察院",
+    "name_en": "Public Prosecution of the State of Qatar",
+    "aliases": [
+      "النيابة العامة",
+      "Qatari Public Prosecution",
+      "卡塔尔公共检察院",
+      "卡塔尔总检察院"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "judiciary",
+    "country_iso3": "QAT",
+    "hq_country_iso3": "QAT",
+    "founded_date": "2002-01-01",
+    "website": "https://www.pp.gov.qa/",
+    "wikidata_qid": null
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "伊萨·本·萨阿德·贾法利·纳伊米 (عيسى بن سعد الجفالي النعيمي / Issa bin Saad Al Jafali Al Nuaimi)",
+      "title": "总检察长 (النائب العام / Attorney General)",
+      "title_description": "卡塔尔检察机关最高负责人，由埃米尔令任命，主持检察院全部工作，独享刑事追诉启动权，直接领导司法监察部与刑事研究院",
+      "description": "2021年6月17日经埃米尔令第3号（2021年）任命为总检察长，接替自2002年6月起任职近19年的阿里·本·费泰斯·阿尔-马里；此前于2018年至2021年担任司法大臣兼内阁事务国务大臣（2021年6月由马斯乌德·阿米尔接任司法大臣）；博士学历，QNA报道中称Dr.；任内推动2023年第9号检察院法实施，主持海合会及阿拉伯国家检察机关合作、刑事研究院检察官助理资格培训（第5、6期）等事务。未在_name_index.json中命中，person_id置null留待P4建档回填"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "QA-GOV-027-DEPT-001",
+      "name": "总检察长办公室 (مكتب النائب العام / Office of the Attorney General)",
+      "head": "伊萨·本·萨阿德·贾法利·纳伊米 (عيسى بن سعد الجفالي النعيمي)",
+      "description": "检察院首长机关，总检察长直接主持；下设技术办公室（Technical Office）协助处理检察业务事务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-002",
+      "name": "司法监察部 (إدارة التفتيش القضائي / Judicial Inspection Department)",
+      "head": null,
+      "description": "直属总检察长的内部监察机构，由一名一级总律师（محام عام أول）主持，负责监察总检察长和一级总律师以外全体检察成员的履职情况，调查针对检察成员职务行为或纪律问题的投诉并向总检察长呈报处理决定；检察助理试用期转正报告亦由该部门出具",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-003",
+      "name": "刑事研究院 (معهد الدراسات الجنائية / Criminal Studies Institute)",
+      "head": null,
+      "description": "直属总检察长的培训科研机构，驻多哈；负责检察成员及其助理的专业培训与资格养成，每年举办为期一年的检察官助理资格培训班（2024/2025年度第5期、2025/2026年度第6期），并面向国家其他机关开展专项培训和学术研讨",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-004",
+      "name": "总检察长办公室事务助理副部长办公室 (مكتب الوكيل المساعد لشؤون مكتب النائب العام / Office of the Assistant Undersecretary for the Office of the Attorney General)",
+      "head": null,
+      "description": "依官网组织架构图设置，协助总检察长处理办公室行政事务",
+      "parent_dept_id": "QA-GOV-027-DEPT-001"
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-005",
+      "name": "共同服务事务助理副部长办公室 (مكتب الوكيل المساعد لشؤون الخدمات المشتركة / Office of the Assistant Undersecretary for Common Services)",
+      "head": null,
+      "description": "依官网组织架构图设置，负责检察院人事、财务、信息技术等共同服务保障",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-006",
+      "name": "裁判与上诉检察署 (نيابة التمييز والاستئناف)",
+      "head": null,
+      "description": "依2023年第9号检察院法设置的专门检察部门，负责与终审法院及上诉审程序对应的公诉事务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-007",
+      "name": "经济犯罪与洗钱检察署 (نيابة الجرائم الاقتصادية وغسل الأموال)",
+      "head": null,
+      "description": "依2023年第9号检察院法设置的专门检察部门，负责经济犯罪与洗钱案件的侦查与公诉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-008",
+      "name": "国家安全与恐怖主义犯罪检察署 (نيابة جرائم أمن الدولة والإرهاب)",
+      "head": null,
+      "description": "依2023年第9号检察院法设置，负责危害国家安全与恐怖主义犯罪案件的侦查与公诉（前身为国家安全检察署）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-009",
+      "name": "判决执行与支票检察署 (نيابة تنفيذ الأحكام والشيكات)",
+      "head": null,
+      "description": "依2023年第9号检察院法设置，负责刑事判决执行监督及支票类案件公诉（前身为判决执行检察署）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-010",
+      "name": "毒品检察署 (نيابة المخدرات)",
+      "head": null,
+      "description": "专门检察部门，负责毒品犯罪案件的侦查与公诉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-011",
+      "name": "环境与市政检察署 (نيابة البيئة والبلدية)",
+      "head": null,
+      "description": "专门检察部门，负责环境与市政违法案件的侦查与公诉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-012",
+      "name": "少年与家庭检察署 (نيابة الأحداث والأسرة)",
+      "head": null,
+      "description": "依2023年第9号检察院法由少年检察署与家庭检察署整合设置，负责未成年人案件及家庭案件（含监护、无行为能力人保护事务）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-013",
+      "name": "卫生检察署 (نيابة الصحة)",
+      "head": null,
+      "description": "依2023年第9号检察院法设置的专门检察部门，负责医疗卫生领域违法案件",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-014",
+      "name": "商业与消费者事务检察署 (نيابة التجارة وشؤون المستهلك)",
+      "head": null,
+      "description": "负责商业与消费者保护领域案件；2020年12月24日检察院与商业与工业部共同启动该检察署",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-015",
+      "name": "国际合作检察署 (نيابة التعاون الدولي)",
+      "head": null,
+      "description": "依2023年第9号检察院法设置，负责引渡、司法协助等国际司法合作事务，对接总检察长主持的双边检察合作协定（如2026年与埃及、阿尔巴尼亚签署的检察院合作谅解备忘录）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-016",
+      "name": "交通检察署 (نيابة المرور)",
+      "head": null,
+      "description": "专门检察部门，负责交通违法犯罪案件",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-017",
+      "name": "居留事务检察署 (نيابة شؤون الإقامة)",
+      "head": null,
+      "description": "专门检察部门，负责违反居留与出入境管理法规案件",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-018",
+      "name": "首都总检察署 (نيابة العاصمة الكلية)",
+      "head": null,
+      "description": "多哈地区总检察署，统辖东部首都检察署、西部首都检察署、南部检察署三个地方检察署",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "QA-GOV-027-DEPT-019",
+      "name": "赖扬总检察署 (نيابة الريان الكلية)",
+      "head": null,
+      "description": "赖扬地区总检察署，统辖赖扬检察署、杜汉检察署、北部检察署三个地方检察署",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-07",
+      "title": "卡塔尔参加第17次海合会助理总检察长及检察官会议",
+      "description": "卡塔尔检察院在线参加海合会国家助理总检察长及检察官第17次会议，会议讨论人工智能在检察机关工作中的使用规则、组建海湾联合侦查机制等检察合作议题",
+      "impact": "海合会检察合作机制持续运转，人工智能应用与跨海湾联合侦查成为区域检察协作新议程",
+      "source": "https://thepeninsulaqatar.com/article/07/09/2026/qatar-participates-in-17th-meeting-of-gcc-assistant-attorneys-general-and-prosecutors"
+    },
+    {
+      "date": "2026-04-19",
+      "title": "总检察长出席与埃及检察院合办的刑事侦查实务进修课程开班式",
+      "description": "总检察长伊萨·本·萨阿德·贾法利·纳伊米出席检察院与阿拉伯埃及共和国检察院合作举办的刑事侦查实务进修课程（为期四天）开班式，强调阿拉伯检察机关间经验交流对统一刑事侦查实务的作用",
+      "impact": "卡埃两国检察院培训合作常态化，体现2026年2月双边合作谅解备忘录框架下的具体落实",
+      "source": "https://qna.org.qa/en/news/news-details?id=attorney-general-inaugurates-practical-criminal-investigation-course&date=19/04/2026"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "卡塔尔与埃及签署检察院合作谅解备忘录",
+      "description": "在开罗访问期间，总检察长伊萨·本·萨阿德·贾法利·纳伊米与埃及总检察长穆罕默德·肖基分别代表两国检察院签署合作谅解备忘录，涵盖科研、培训、会议组织及出版物交流等合作；期间还会见了埃及反洗钱与反恐怖融资管理委员会主席",
+      "impact": "两国检察院在反洗钱、人员培训与学术交流领域建立正式合作框架",
+      "source": "https://qna.org.qa/en/news/news-details?id=qatar-egypt-sign-mou-for-public-prosecution-cooperation&date=04/02/2026"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "总检察长分别会见伊朗司法部长与吉尔吉斯斯坦总检察长",
+      "description": "总检察长伊萨·本·萨阿德·贾法利·纳伊米在多哈分别会见伊朗司法部长阿明·侯赛因·拉希米与吉尔吉斯斯坦总检察长马克萨特·阿萨纳利耶夫，就检察与法律事务合作等共同关心议题交换意见",
+      "impact": "卡塔尔检察院与地区及中亚国家检察机关拓展双边司法合作关系",
+      "source": "https://qna.org.qa/en/news/news-details?id=qatar-attorney-general-holds-talks-with-iranian-kyrgyz-officials&date=16/12/2025"
+    },
+    {
+      "date": "2025-12-10",
+      "title": "总检察长在警察学院讲授廉洁与透明专题讲座",
+      "description": "总检察长伊萨·本·萨阿德·贾法利·纳伊米在警察学院研究生院向安全指挥与参谋计划第二期学员讲授专题讲座，阐述廉洁与透明是保护社会和实现正义的根本支柱，以及安全机构作为检察机关与司法机构关键伙伴的协调机制",
+      "impact": "体现检察院与内政部系统在法治建设与人员培训层面的制度化协作",
+      "source": "https://qna.org.qa/en/news/news-details?id=attorney-general-integrity-and-transparency-are-cornerstones-of-protecting-society-and-achieving-justice&date=10/12/2025"
+    },
+    {
+      "date": "2025-09-07",
+      "title": "总检察长出席2025/2026年度第6期检察官助理资格培训班开班式",
+      "description": "总检察长伊萨·本·萨阿德·贾法利·纳伊米出席刑事研究院举办、为期一年的第6期检察官助理资格培训班开班式，指出通过该培训是完成法律职业生涯的基本强制要求，并强调2023年第9号检察院法的实施强化了检察院的司法职能",
+      "impact": "检察官助理资格培训制度化，为检察院补充经正规养成的检察人才",
+      "source": "https://qna.org.qa/en/news/news-details?id=attorney-general-inaugurates-6th-qualifying-course-for-public-prosecutor-assistants&date=07/09/2025"
+    },
+    {
+      "date": "2021-06-17",
+      "title": "埃米尔令第3号任命伊萨·本·萨阿德·贾法利·纳伊米为总检察长",
+      "description": "卡塔尔埃米尔谢赫·塔米姆·本·哈马德·阿勒萨尼发布2021年第3号埃米尔令，任命伊萨·本·萨阿德·贾法利·纳伊米博士为总检察长，该令自发布之日起生效并在官方公报刊登；其前任阿里·本·费泰斯·阿尔-马里自2002年6月起担任总检察长近19年",
+      "impact": "完成卡塔尔检察院史上任期最长总检察长（2002-2021）的权力交接，纳伊米此前任司法大臣兼内阁事务国务大臣",
+      "source": "https://web.archive.org/web/20250816153255/https://www.qatar-tribune.com/article/6686/TopNews/Dr-Issa-bin-Saad-Al-Juffali-Al-Nuaimi-appointed-as-Qatars-attorney-general"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "QA-GOV-005",
+      "org_name": "卡塔尔内政部 (وزارة الداخلية)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔国主管公共安全与警务的政府部门；其所属警务人员经检察院委托作为司法警察（مأموري الضبط القضائي）在检察院指挥与监督下开展犯罪侦查，检察院对看守所等羁押场所行使监察权，双方在刑事侦查、廉洁培训等领域保持制度性协作",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔终审法院 (محكمة التمييز / Court of Cassation)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔最高审判机关；检察院独享刑事追诉权并向包括终审法院在内的各级法院提起刑事诉讼及上诉（检察院序列内设裁判与上诉检察署对口）。org_id置null原因：目标清单中QA-GOV-026终审法院档案尚未建立且id_registry.json未登记该ID，待其建档注册后回填",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔最高司法委员会 (المجلس الأعلى للقضاء / Supreme Judicial Council)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔司法机关的管理机构，负责法官事务与法院行政管理；检察院为依宪法独立于其行政管辖的司法机构，两者同属卡塔尔司法体系并在司法培训（如助理法官资格培训）等事务中协作。org_id置null原因：QA-GOV-025档案尚未建立且id_registry.json未登记该ID，待其建档注册后回填",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "QA-GOV-004",
+      "org_name": "卡塔尔司法部 (وزارة العدل)",
+      "org_type": "GOV",
+      "org_description": "卡塔尔国主管司法行政与法律事务的政府部门；检察院依宪法独立于司法部行使公诉权，但在立法建议（2023年第9号检察院法授权检察院就其职权范围内事项提出立法草案）、司法人员培训等领域与司法部及其法律与司法研究中心存在业务衔接",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "卡塔尔检察院（النيابة العامة القطرية）是卡塔尔国依宪法设立的独立司法机关，代表社会行使公诉权，监督司法警察事务并监督法律实施。2002年第10号法律创设检察院这一独立司法机构（拥有附属于国家总预算的独立预算），并撤销原检察机构（جهاز الادعاء العام）由检察院承继其全部职权；该法历经2005年、2019年修订，2023年5月埃米尔谢赫·塔米姆·本·哈马德·阿勒萨尼颁布2023年第9号检察院法，进一步确立检察院作为独立司法机构的地位。依据卡塔尔宪法第136条，检察院独享刑事追诉的提起与进行权（未经其提起，任何机关不得启动刑事诉讼，法律另有规定者除外）。其法定职权包括：侦查犯罪并可委托司法警察代为侦查（司法警察在受委托事项上隶属并受检察院监督）；向法院提起和进行刑事追诉、对判决提起上诉并执行；请求宣告商人破产并侦查过失或欺诈破产；办理法律规定的Hisba（公益）诉讼；调查剥夺或限制亲权、指定监护人、禁治产、宣告失踪等无行为能力人事务；会同主管机关对未成年人场所、监狱及其他羁押地点进行定期与突击检查，查阅登记簿和逮捕羁押令，受理并调查在押人员投诉；处分查扣财物、监督罚金征收、受理信托与保证金；就强制心理治疗、成瘾治疗及社会收容机构的收容申请会同主管机关作出处理；代表国家参与境内外涉及打击犯罪与司法合作的一切会议与论坛；就其职权范围内事项提出立法草案建议。检察职位由高至低分为一级总律师、总律师、一级检察署长、检察署长、一级检察官助理、检察官助理、一级助理检察官、助理检察官、检察助理九级，检察助理须经一年试用期（含在刑事研究院六个月资格培训）并经司法监察部报告、总检察长核准后方为转正。检察院内部设总检察长办公室、司法监察部、刑事研究院及共同服务事务等助理副部长系统，并按案件类型设裁判与上诉、经济犯罪与洗钱、国家安全与恐怖主义犯罪、判决执行与支票、毒品、环境与市政、少年与家庭、卫生、商业与消费者事务、国际合作、交通、居留事务等专门检察署，另按地域设首都、赖扬两个总检察署统辖六个地方检察署。总检察长为检察院最高负责人，由埃米尔令任命；现任总检察长伊萨·本·萨阿德·贾法利·纳伊米博士于2021年6月17日经2021年第3号埃米尔令任命，其前任阿里·本·费泰斯·阿尔-马里自2002年6月19日起任职近19年。检察院自2005年起主办两届世界总检察长峰会及2009年联合国反腐败公约缔约国会议等大型国际检察会议，并常态化参与海合会总检察长及助理总检察长会议机制（2026年9月参加第17次会议）、与埃及等国检察院签署双边合作谅解备忘录。",
+  "industries": [
+    "judicial",
+    "legal_services",
+    "public_administration"
+  ],
+  "apec_stance": "卡塔尔不是APEC成员经济体，卡塔尔检察院不参与APEC机制及其会议进程。作为独立公诉机关，其对外合作集中于海合会、阿拉伯国家及双边司法协助框架（引渡、刑事司法协助、反洗钱协作、检察人员培训互访等），与部分APEC成员经济体存在此类双边检察与司法合作关系，但均在双边或多边司法合作框架下进行，与APEC经贸议程无直接关联。",
+  "profile": {
+    "source_url": null,
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-13",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 82,
+    "notes": "P3丰富化。现任总检察长伊萨·本·萨阿德·贾法利·纳伊米经QNA 2025-12-10、2026-01-19、2026-02-04三篇报道交叉确认，任命事实（2021年6月17日第3号埃米尔令）核自Qatar Tribune存档报道（Wayback），任务提示中的Issa bin Ali Al Kuwari经检索证伪未采用。机构沿革与职权核自官网pp.gov.qa的2015年Wayback存档（About Us、Organizationchart、Public_Prosecutor页）及阿拉伯语维基百科النيابة العامة (قطر)条目（依2023年第9号检察院法列出专门检察署序列）；官网在直接与代理访问下均不可达且Wayback无2018年后首页快照，故架构以2023年第9号法序列为主、2015年存档架构（助理副部长系统）为辅，并在notes中说明。key_people仅1人：副总检察长/秘书长层级人物在可达来源中无法核实到姓名，遵循不虚构原则未列，留待P4补充。key_people中1人person_id为null（_name_index.json未命中该姓名），留待P4建档回填。recent_events仅收录机构任免、培训、国际合作的制度性事件，未写入任何具体刑事案件。founded_date精确到年（2002年第10号法），月份日期未经二级来源核实，按规范填2002-01-01",
+    "quotes": [
+      {
+        "title": "عن النيابة - 卡塔尔检察院关于本院页面（2015年Wayback存档：设立法、定义、职权）",
+        "url": "https://web.archive.org/web/20150405100817/https://www.pp.gov.qa/en/Pages/About_Us.aspx"
+      },
+      {
+        "title": "Organization Chart - 卡塔尔检察院组织架构页（2015年Wayback存档：办公室、司法监察部与全部检察署序列）",
+        "url": "https://web.archive.org/web/20150405124859/https://www.pp.gov.qa/en/Pages/Organizationchart.aspx"
+      },
+      {
+        "title": "Public Prosecutor - 总检察长简历页（2015年Wayback存档：阿里·本·费泰斯·阿尔-马里履历）",
+        "url": "https://web.archive.org/web/20150405031014/https://www.pp.gov.qa/en/Pages/Public_Prosecutor.aspx"
+      },
+      {
+        "title": "النيابة العامة (قطر) - 阿拉伯语维基百科卡塔尔检察院条目（2002年第10号法、2023年第9号法、检察署序列、职位等级）",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9_(%D9%82%D8%B7%D8%B1)"
+      },
+      {
+        "title": "عيسى بن سعد الجفالي النعيمي - 阿拉伯语维基百科（现任总检察长，曾任司法大臣2018-2021）",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B9%D9%8A%D8%B3%D9%89_%D8%A8%D9%86_%D8%B3%D8%B9%D8%AF_%D8%A7%D9%84%D8%AC%D9%81%D8%A7%D9%84%D9%8A_%D8%A7%D9%84%D9%86%D8%B9%D9%8A%D9%85%D9%8A"
+      },
+      {
+        "title": "Dr Issa bin Saad Al Juffali Al Nuaimi appointed as Qatar's attorney general（Qatar Tribune，2021-06-17，第3号埃米尔令，Wayback存档）",
+        "url": "https://web.archive.org/web/20250816153255/https://www.qatar-tribune.com/article/6686/TopNews/Dr-Issa-bin-Saad-Al-Juffali-Al-Nuaimi-appointed-as-Qatars-attorney-general"
+      },
+      {
+        "title": "Attorney General Inaugurates 6th Qualifying Course for Public Prosecutor Assistants（QNA，2025-09-07）",
+        "url": "https://qna.org.qa/en/news/news-details?id=attorney-general-inaugurates-6th-qualifying-course-for-public-prosecutor-assistants&date=07/09/2025"
+      },
+      {
+        "title": "Attorney General: Integrity and Transparency are Cornerstones of Protecting Society and Achieving Justice（QNA，2025-12-10）",
+        "url": "https://qna.org.qa/en/news/news-details?id=attorney-general-integrity-and-transparency-are-cornerstones-of-protecting-society-and-achieving-justice&date=10/12/2025"
+      },
+      {
+        "title": "Qatar Attorney General Holds Talks with Iranian, Kyrgyz Officials（QNA，2025-12-16）",
+        "url": "https://qna.org.qa/en/news/news-details?id=qatar-attorney-general-holds-talks-with-iranian-kyrgyz-officials&date=16/12/2025"
+      },
+      {
+        "title": "Qatar, Egypt Sign MoU for Public Prosecution Cooperation（QNA，2026-02-04）",
+        "url": "https://qna.org.qa/en/news/news-details?id=qatar-egypt-sign-mou-for-public-prosecution-cooperation&date=04/02/2026"
+      },
+      {
+        "title": "Attorney General Inaugurates Practical Criminal Investigation Course（QNA，2026-04-19）",
+        "url": "https://qna.org.qa/en/news/news-details?id=attorney-general-inaugurates-practical-criminal-investigation-course&date=19/04/2026"
+      },
+      {
+        "title": "Qatar participates in 17th meeting of GCC assistant attorneys general and prosecutors（The Peninsula，2026-09-07）",
+        "url": "https://thepeninsulaqatar.com/article/07/09/2026/qatar-participates-in-17th-meeting-of-gcc-assistant-attorneys-general-and-prosecutors"
+      },
+      {
+        "title": "Ali bin Fetais Al-Marri - English Wikipedia（前任总检察长2002-2021，2002-06-19任命）",
+        "url": "https://en.wikipedia.org/wiki/Ali_bin_Fetais_Al-Marri"
+      }
+    ]
+  }
+}
