@@ -2,7 +2,7 @@
   "country": "QA",
   "collection_date": "2026-07-28",
   "phase": "phase5_validation",
-  "total_profiles": 108,
+  "total_profiles": 116,
   "profiles": [
     {
       "org_id": "QA-ACAD-001",
@@ -474,6 +474,62 @@
       "completeness": 85
     },
     {
+      "org_id": "QA-GOV-025",
+      "name": "卡塔尔最高司法委员会 (Supreme Judicial Council of Qatar)",
+      "category": "GOV",
+      "subcategory": "judiciary",
+      "completeness": 71
+    },
+    {
+      "org_id": "QA-GOV-026",
+      "name": "卡塔尔终审法院 (Court of Cassation of Qatar)",
+      "category": "GOV",
+      "subcategory": "judiciary",
+      "completeness": 80
+    },
+    {
+      "org_id": "QA-GOV-027",
+      "name": "卡塔尔检察院 (Public Prosecution of the State of Qatar)",
+      "category": "GOV",
+      "subcategory": "judiciary",
+      "completeness": 82
+    },
+    {
+      "org_id": "QA-GOV-028",
+      "name": "卡塔尔最高经济事务与投资委员会 (Supreme Council for Economic Affairs and Investment)",
+      "category": "GOV",
+      "subcategory": "independent_organ",
+      "completeness": 86
+    },
+    {
+      "org_id": "QA-GOV-029",
+      "name": "卡塔尔宗教基金（瓦克夫）与伊斯兰事务部 (Ministry of Awqaf and Islamic Affairs)",
+      "category": "GOV",
+      "subcategory": "ministry",
+      "completeness": 80
+    },
+    {
+      "org_id": "QA-GOV-030",
+      "name": "卡塔尔劳动部 (Ministry of Labour)",
+      "category": "GOV",
+      "subcategory": "ministry",
+      "completeness": 80
+    },
+    {
+      "org_id": "QA-GOV-031",
+      "name": "卡塔尔中央市政委员会 (Central Municipal Council (CMC))",
+      "category": "GOV",
+      "subcategory": "local_government",
+      "completeness": 85
+    },
+    {
+      "org_id": "QA-GOV-032",
+      "name": "卡塔尔国家人权委员会 (National Human Rights Committee (Qatar))",
+      "category": "GOV",
+      "subcategory": "independent_organ",
+      "completeness": 91
+    },
+    {
       "org_id": "QA-INTL-001",
       "name": "天然气出口国论坛 (Gas Exporting Countries Forum)",
       "category": "INTL",
@@ -763,8 +819,8 @@
   ],
   "completeness_summary": {
     "avg_score": 89,
-    "high_completeness_gt80": 100,
-    "medium_completeness_50_80": 7,
+    "high_completeness_gt80": 104,
+    "medium_completeness_50_80": 11,
     "low_completeness_lt50": 1
   }
 }
