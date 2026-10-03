@@ -1,0 +1,91 @@
+{
+  "phase": "phase4_person_profile",
+  "paused_at": "2026-10-03",
+  "pause_reason": "用户指示飞完本轮后停止，打开新会话继续",
+  "total": 201,
+  "completed": 142,
+  "remaining": 59,
+  "current_in_flight": [],
+  "current_in_flight_note": "无在飞。本会话 P4 收集已按用户指令停止。新会话开始时直接按 current=[]、completed 清单计算 nxt = order - completed - current，派发 remaining 头部 4 个，恢复 4 并发滚动。",
+  "resume_procedure": [
+    "1. 检查 4 个在飞画像文件是否存在（000055/000057/000058/000059）",
+    "2. 存在则验证+入账+更新 _phase_progress_p4.json；不存在则用既往 prompt 模板重派",
+    "3. 逐个补位：nxt = [x for x in p['order'] if x not in p['completed'] and x not in p['current']][0]，保持恒定 4 在飞",
+    "4. 剩余队列以 low 重要性人物为主（司法/选举系统、国企董事、政党人物等）",
+    "5. 全部完成后：validate_schema.py --strict --cross-ref + generate_index.py + 最终汇报"
+  ],
+  "quality_stats": {
+    "person_files_on_disk": 144,
+    "scored_profiles": 69,
+    "avg_completeness": 90.7,
+    "min_score": 79,
+    "max_score": 99
+  },
+  "deduplications_done": [
+    "000038→000019 Torres Morales（国会主席）",
+    "000066→000032 Tangherlini（交通部长）",
+    "000126→000078 Lezameta",
+    "000194→000131 Ferrari（Credicorp CEO）"
+  ],
+  "name_corrections_in_person_list": [
+    "000107 Tahiti Viveauco → Tabata Dulce Vivanco del Castillo（PROINVERSIÓN 前总监）",
+    "000139 Pietro Gezzi → Piero Eduardo Ghezzi Solís（前生产部长本人）"
+  ],
+  "nationality_corrections": {
+    "PE-PERSON-000145": "PE→ES Verde（Volcan 副董事长，民主党顾问同一人）",
+    "PE-PERSON-000154": "PE→MX Chávez（Claro Perú CEO）",
+    "PE-PERSON-000155": "PE→UY Ranftl（Integratel 董事长）",
+    "PE-PERSON-000156": "PE→AR Palumbo（Integratel CEO）",
+    "PE-PERSON-000159": "PE→ES Pastor（BBVA Peru 第二副董）",
+    "PE-PERSON-000164": "PE→CL Büchi（Entel 集团 CEO）",
+    "PE-PERSON-000171": "PE→MX Gutiérrez（Arca 集团 CEO）",
+    "PE-PERSON-000172": "PE→MX García Chapa（Arca）",
+    "PE-PERSON-000173": "PE→MX Hernández（Arca）",
+    "PE-PERSON-000144": "锚点称秘鲁籍，实为 AR Mallo Huergo（Volcan 董事长）",
+    "PE-PERSON-000137": "PE→MX Gallegos（Backus 法律总监）",
+    "PE-PERSON-000157": "PE→MX Eguiluz（BBVA Peru CEO）",
+    "PE-PERSON-000170": "PE→MX Pérez Barba（Arca 南美执行总监）",
+    "PE-PERSON-000187": "PE→AR Arcuri（Scotiabank Perú Country Head）",
+    "PE-PERSON-000198": "PE→CL Naranjo（Camposol CEO）",
+    "PE-PERSON-000199": "PE→CL Vallejo（InRetail CEO）",
+    "PE-PERSON-000177": "锚点疑智利籍，实为 PE（四源确认）Zamora（Auna 执行董事长）"
+  },
+  "anchor_corrections_major": [
+    "Volcan 收购方：Techint（错误）→ Integra Capital / José Luis Manzano（正确），Transition Metals AG",
+    "Integratel Perú 前身：Entel Perú 被 WOM 收购（错误）→ Telefónica del Perú 2025-04 被 Integra Tec 收购、2025-06 更名（正确）；智利 Entel 旗下 Entel Perú（PE-CORP-012）是另一家公司",
+    "AJE 家族：五兄弟姐妹说法无据 → 实为六子女（Jorge/Ángel/Álvaro/Vicky/Arturo/Carlos，父母 Eduardo Añaños Pérez + Mirtha Jerí）",
+    "000167 Bauer 非 Añaños 家族成员（职业经理人，利马德国学校出身）",
+    "000166 Carlos Añaños 为创始一代（Q104906490），2024 加入 Perú Moderno 一度拟参选总统",
+    "000138 Cooper：非前央行副行长/BBVA 首席经济学家 → 前经济与财政部长（PPK 政府）+ 利马证交所首位女主席（Q40283634）",
+    "000161 Rodríguez-Pastor 父名：Humberto（错误）→ Carlos Rodríguez-Pastor Mendoza（前经济财长，1934-1995）",
+    "000176 Rosa Brescia：未嫁 Mohme 家族 → 夫为已故 Paul Fort；CPAL 荣誉主席；100 岁在世（Q46796444）",
+    "000175 Ana María Brescia：创始人女儿（第二代，非第三代长辈）；持 Inversiones Breca 30%，集团最大个人股东（Q46801266）",
+    "000197 Dyer：Camposol 非上市公司（Dyer 家族 100%），NYSE-DEVI 与 Confiep 会长说法均无据；其子 Abraham 被捕说法查无实据",
+    "000053 Gutiérrez Ticse 从未任 TC 院长；000054 Monteagudo 也从未任院长",
+    "org_id 勘误：最高法院=PE-GOV-023（022=国会）；宪法法院=PE-GOV-024（028=RENIEC）",
+    "Camposol NYSE 代码 CMSL 非 DEVI（存疑记录）"
+  ],
+  "major_political_intelligence": [
+    "⚠️ 2026 政局重大信号（待跨档核对）：000190 Arias Minaya 与 000193 Estela Benavides 的 BN 董事任命决议（RS 034/035-2026-EF，2026-09-02）均由藤森庆子总统签署 + MEF 部长 Elmer Cuba（000022）副署——2026-09 起秘鲁政府似已是藤森庆子政府；但 000006 档案称乌马拉夫妇流亡巴西系卢拉政府庇护、2025-04 起事；000005 Andrade 2025-2026 评论对象却是『赫里政府』——赫里（Jerí）与藤森庆子的政府交替时间线需 P5 统一核对",
+    "乌马拉案：2026-07-15 TC STC 169/2026 以 5:2 撤销全部刑事程序与 15 年徒刑（此前判 15 年）；反对者 Pacheco Zerga + Monteagudo；同一合议庭先例延伸适用于赫雷迪亚案（2026-08-13/14 废止其 15 年徒刑）",
+    "2026 大选危机：2026-04-12 大选日 ONPE 物资迟延致 5.2 万人未投票，主任 Corvetto 辞职并陷 13 项刑事控诉；继任 Pachas Serrano（临时）",
+    "TC 院长换届链：Morales Saravia（2022.9-2024.9）→ Pacheco Zerga（2024.9-2026.5 辞职）→ Domínguez（代理）→ Hernández Chávez（2026-09-04 至今）",
+    "最高法院：Arévalo（2023-2025 任主席）→ Tello Gilardi（000046，2025-2026，2026-09 受 JNJ 纪律调查）→ Prado 以代理主席身份活动",
+    "藤森惠子「鸡尾酒会案」先例成为 2026 司法翻案潮的关键判例",
+    "000174 Zavala（Intercorp CEO）：2024 利马 APEC CEO Summit 主席——与本项目 APEC 主题直接相关",
+    "2025-10 前后「Carlos Añaños 遇袭」系假冒 El Comercio 的诈骗页面（已辟谣）"
+  ],
+  "pending_tasks": [
+    "P4 中期：resolve_ids.py --allow-register + generate_name_index.py 批次性重跑",
+    "P4 全部完成后：validate_schema.py --strict --cross-ref + generate_index.py + 最终汇报",
+    "P5 前跨档核对：2026 政局时间线（Jerí → 藤森庆子？）、Banco de la Nación 创立年份两说（1937 vs 1966）、Paradise Papers 000167 Bauer 节点待核"
+  ],
+  "workflow_rules": {
+    "concurrency": 4,
+    "dispatch": "完成一个补位一个，current 列表必须与真实 Agent 一一对应",
+    "validation": "validate_schema.py --file persons/{ID}.json --score 必须 0 errors",
+    "registry_sync": "e['status']='profiled' + wikidata_qid 回填",
+    "write_rule": "子代理必须用 Write 工具直接写 JSON（禁 python -c，Windows GBK）",
+    "prompt_template": "见 .agents/skills/country-org-collector/SKILL.md §14.2；prompt 必含：必读 3 文件 + 锚点事实 + ID 勘误表 + 5 步搜索 + Write 落盘优先 + 验证 + 返回前确认文件存在"
+  }
+}
