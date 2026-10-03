@@ -1,0 +1,52 @@
+=== A. 中文规范 ===
+name_zh 无中文: 1 ['SA-PERSON-000754']
+biography 非中文(<50% CJK): 2 ['SA-PERSON-000394', 'SA-PERSON-000442']
+current_positions 非中文: 7 [('SA-PERSON-000072', 'وكيل جامعة الملك سعود بن عبدال'), ('SA-PERSON-000072', 'عضو مجلس أمناء الهيئة السعودية'), ('SA-PERSON-000072', 'استاذ طب الكلى، كلية الطب، جام'), ('SA-PERSON-000394', 'نائب المحافظ للأنظمة التقنية و'), ('SA-PERSON-000394', 'عضو مجلس إدارة شركة المنطقة ال')]
+work.organization 格式异常: 51
+    no_zh | Beta Lab (بيتا لاب) | SA-PERSON-000063
+    no_cjk_no_ar | King Abdulaziz University, Jeddah | SA-PERSON-000071
+    no_zh | جامعة الملك سعود بن عبدالعزيز للعلوم الص | SA-PERSON-000072
+    no_zh | جامعة الملك سعود بن عبدالعزيز للعلوم الص | SA-PERSON-000072
+    no_zh | مشروع مؤسسة الملك عبدالله الدولية لغسيل  | SA-PERSON-000072
+    no_zh | جامعة الملك سعود بن عبدالعزيز للعلوم الص | SA-PERSON-000072
+    no_zh | مدينة الملك عبدالعزيز الطبية (الحرس الوط | SA-PERSON-000072
+    no_zh | مدينة الملك عبدالعزيز الطبية (الحرس الوط | SA-PERSON-000072
+  异常类型分布: Counter({'no_zh': 35, 'no_cjk_no_ar': 14, 'local_first': 2})
+education.institution 格式异常: 16
+  异常类型分布: Counter({'no_zh': 8, 'no_cjk_no_ar': 7, 'local_first': 1})
+family.name 格式异常: 1 | 类型: Counter({'no_zh': 1})
+relationships.person_name 格式异常: 34 | 类型: Counter({'local_first': 18, 'no_zh': 16})
+achievements.organization 格式异常: 20 | 类型: Counter({'no_cjk_no_ar': 9, 'no_zh': 9, 'local_first': 2})
+括号反向(本地在前): 27 [('SA-PERSON-000064', 'GliaPharm SA (洛桑)'), ('SA-PERSON-000064', 'LynceeTec SA (洛桑)'), ('SA-PERSON-000120', 'Elbow Beach 酒店（百慕大） (Elbow Beach Hotel)'), ('SA-PERSON-000120', 'MCG 旅行公司（英国） (MCG)'), ('SA-PERSON-000138', 'noon 电商平台（努恩） (نون (noon))')]
+空字符串ID: 0
+quotes 空数组: 0 | 字符串数组: 0
+political_stances 非中文: 0
+
+=== B. 头像 ===
+profile 为空: 160
+source_url 缺失: 55
+source_url 非图片链接: 25
+    ('SA-PERSON-000054', 'https://kau.edu.sa/web/static?path=uploads/2025/Dec/sections/WZZqWf9Rn')
+    ('SA-PERSON-000085', 'https://mim-cms-directus.mim.gov.sa/assets/1906cf70-0c8b-40a4-8788-fd2')
+    ('SA-PERSON-000094', 'https://www.mewa.gov.sa/_layouts/MEWAHandler/MEWAHandler.ashx?type=Get')
+    ('SA-PERSON-000130', 'https://www.tasnee.com/en/about-us/leadership-board')
+    ('SA-PERSON-000271', 'https://sa.linkedin.com/in/raed-alsuhaibani-48b6a723')
+    ('SA-PERSON-000281', 'https://manhom.com/شخصيات/راكان-بن-إبراهيم-بن-عبدالعزيز-الطوق/')
+    ('SA-PERSON-000288', 'https://www.mewa.gov.sa/_layouts/MEWAHandler/MEWAHandler.ashx?type=Get')
+    ('SA-PERSON-000329', 'https://www.manhom.com/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA/%D8%A8%D8%')
+    ('SA-PERSON-000371', 'https://qiddiya.com/ar/about/leadership/')
+    ('SA-PERSON-000375', 'https://manhom.com/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA/%D9%88%D9%84%D')
+source_url 为 QID 链接: 0
+source_url 非法(非http): 0 []
+local_path 缺失: 178
+local_path 文件不存在: 0 []
+本地照片文件存在: 121 / 136 photos/文件
+
+=== C. 社交账号 ===
+平台分布: {"linkedin": 203, "instagram": 40, "twitter_x": 161, "facebook": 20, "other": 30, "youtube": 17, "tiktok": 4}
+0 个社交账号: 197
+仅 1 个社交账号: 122
+非法平台枚举: 0 []
+非法 URL: 0 []
+
+明细已存 _quality_check.json
