@@ -1,0 +1,3424 @@
+{
+  "phase": "P4_person_enrichment",
+  "started_at": "2026-09-30T20:00:51",
+  "last_updated": "2026-10-04T00:45:00",
+  "status": "completed",
+  "concurrency": 4,
+  "completed": [
+    "SA-PERSON-000004",
+    "SA-PERSON-000002",
+    "SA-PERSON-000332",
+    "SA-PERSON-000003",
+    "SA-PERSON-000016",
+    "SA-PERSON-000197",
+    "SA-PERSON-000196",
+    "SA-PERSON-000046",
+    "SA-PERSON-000200",
+    "SA-PERSON-000006",
+    "SA-PERSON-000005",
+    "SA-PERSON-000264",
+    "SA-PERSON-000039",
+    "SA-PERSON-000094",
+    "SA-PERSON-000195",
+    "SA-PERSON-000235",
+    "SA-PERSON-000218",
+    "SA-PERSON-000268",
+    "SA-PERSON-000337",
+    "SA-PERSON-000366",
+    "SA-PERSON-000328",
+    "SA-PERSON-000426",
+    "SA-PERSON-000388",
+    "SA-PERSON-000427",
+    "SA-PERSON-000437",
+    "SA-PERSON-000516",
+    "SA-PERSON-000521",
+    "SA-PERSON-000463",
+    "SA-PERSON-000523",
+    "SA-PERSON-000584",
+    "SA-PERSON-000615",
+    "SA-PERSON-000595",
+    "SA-PERSON-000681",
+    "SA-PERSON-000017",
+    "SA-PERSON-000014",
+    "SA-PERSON-000026",
+    "SA-PERSON-000024",
+    "SA-PERSON-000038",
+    "SA-PERSON-000036",
+    "SA-PERSON-000045",
+    "SA-PERSON-000050",
+    "SA-PERSON-000052",
+    "SA-PERSON-000056",
+    "SA-PERSON-000057",
+    "SA-PERSON-000051",
+    "SA-PERSON-000062",
+    "SA-PERSON-000074",
+    "SA-PERSON-000068",
+    "SA-PERSON-000063",
+    "SA-PERSON-000075",
+    "SA-PERSON-000070",
+    "SA-PERSON-000065",
+    "SA-PERSON-000082",
+    "SA-PERSON-000077",
+    "SA-PERSON-000080",
+    "SA-PERSON-000079",
+    "SA-PERSON-000081",
+    "SA-PERSON-000086",
+    "SA-PERSON-000087",
+    "SA-PERSON-000084",
+    "SA-PERSON-000090",
+    "SA-PERSON-000104",
+    "SA-PERSON-000110",
+    "SA-PERSON-000109",
+    "SA-PERSON-000115",
+    "SA-PERSON-000120",
+    "SA-PERSON-000121",
+    "SA-PERSON-000125",
+    "SA-PERSON-000150",
+    "SA-PERSON-000129",
+    "SA-PERSON-000144",
+    "SA-PERSON-000155",
+    "SA-PERSON-000156",
+    "SA-PERSON-000161",
+    "SA-PERSON-000164",
+    "SA-PERSON-000168",
+    "SA-PERSON-000166",
+    "SA-PERSON-000171",
+    "SA-PERSON-000173",
+    "SA-PERSON-000182",
+    "SA-PERSON-000181",
+    "SA-PERSON-000184",
+    "SA-PERSON-000190",
+    "SA-PERSON-000198",
+    "SA-PERSON-000186",
+    "SA-PERSON-000208",
+    "SA-PERSON-000193",
+    "SA-PERSON-000209",
+    "SA-PERSON-000215",
+    "SA-PERSON-000219",
+    "SA-PERSON-000234",
+    "SA-PERSON-000233",
+    "SA-PERSON-000240",
+    "SA-PERSON-000254",
+    "SA-PERSON-000256",
+    "SA-PERSON-000261",
+    "SA-PERSON-000255",
+    "SA-PERSON-000270",
+    "SA-PERSON-000272",
+    "SA-PERSON-000271",
+    "SA-PERSON-000273",
+    "SA-PERSON-000274",
+    "SA-PERSON-000282",
+    "SA-PERSON-000279",
+    "SA-PERSON-000286",
+    "SA-PERSON-000287",
+    "SA-PERSON-000289",
+    "SA-PERSON-000288",
+    "SA-PERSON-000296",
+    "SA-PERSON-000317",
+    "SA-PERSON-000306",
+    "SA-PERSON-000323",
+    "SA-PERSON-000341",
+    "SA-PERSON-000345",
+    "SA-PERSON-000350",
+    "SA-PERSON-000358",
+    "SA-PERSON-000354",
+    "SA-PERSON-000353",
+    "SA-PERSON-000363",
+    "SA-PERSON-000368",
+    "SA-PERSON-000365",
+    "SA-PERSON-000370",
+    "SA-PERSON-000373",
+    "SA-PERSON-000374",
+    "SA-PERSON-000382",
+    "SA-PERSON-000385",
+    "SA-PERSON-000383",
+    "SA-PERSON-000389",
+    "SA-PERSON-000397",
+    "SA-PERSON-000400",
+    "SA-PERSON-000411",
+    "SA-PERSON-000410",
+    "SA-PERSON-000414",
+    "SA-PERSON-000418",
+    "SA-PERSON-000420",
+    "SA-PERSON-000423",
+    "SA-PERSON-000428",
+    "SA-PERSON-000439",
+    "SA-PERSON-000451",
+    "SA-PERSON-000460",
+    "SA-PERSON-000459",
+    "SA-PERSON-000462",
+    "SA-PERSON-000457",
+    "SA-PERSON-000473",
+    "SA-PERSON-000476",
+    "SA-PERSON-000478",
+    "SA-PERSON-000477",
+    "SA-PERSON-000479",
+    "SA-PERSON-000482",
+    "SA-PERSON-000491",
+    "SA-PERSON-000492",
+    "SA-PERSON-000493",
+    "SA-PERSON-000495",
+    "SA-PERSON-000496",
+    "SA-PERSON-000497",
+    "SA-PERSON-000498",
+    "SA-PERSON-000503",
+    "SA-PERSON-000504",
+    "SA-PERSON-000505",
+    "SA-PERSON-000506",
+    "SA-PERSON-000507",
+    "SA-PERSON-000508",
+    "SA-PERSON-000509",
+    "SA-PERSON-000518",
+    "SA-PERSON-000517",
+    "SA-PERSON-000257",
+    "SA-PERSON-000515",
+    "SA-PERSON-000519",
+    "SA-PERSON-000534",
+    "SA-PERSON-000533",
+    "SA-PERSON-000524",
+    "SA-PERSON-000557",
+    "SA-PERSON-000553",
+    "SA-PERSON-000564",
+    "SA-PERSON-000563",
+    "SA-PERSON-000559",
+    "SA-PERSON-000565",
+    "SA-PERSON-000585",
+    "SA-PERSON-000566",
+    "SA-PERSON-000588",
+    "SA-PERSON-000591",
+    "SA-PERSON-000593",
+    "SA-PERSON-000598",
+    "SA-PERSON-000596",
+    "SA-PERSON-000599",
+    "SA-PERSON-000601",
+    "SA-PERSON-000600",
+    "SA-PERSON-000602",
+    "SA-PERSON-000606",
+    "SA-PERSON-000603",
+    "SA-PERSON-000622",
+    "SA-PERSON-000619",
+    "SA-PERSON-000530",
+    "SA-PERSON-000609",
+    "SA-PERSON-000624",
+    "SA-PERSON-000627",
+    "SA-PERSON-000635",
+    "SA-PERSON-000632",
+    "SA-PERSON-000628",
+    "SA-PERSON-000640",
+    "SA-PERSON-000641",
+    "SA-PERSON-000648",
+    "SA-PERSON-000646",
+    "SA-PERSON-000650",
+    "SA-PERSON-000649",
+    "SA-PERSON-000644",
+    "SA-PERSON-000653",
+    "SA-PERSON-000658",
+    "SA-PERSON-000657",
+    "SA-PERSON-000660",
+    "SA-PERSON-000661",
+    "SA-PERSON-000665",
+    "SA-PERSON-000670",
+    "SA-PERSON-000674",
+    "SA-PERSON-000686",
+    "SA-PERSON-000683",
+    "SA-PERSON-000707",
+    "SA-PERSON-000694",
+    "SA-PERSON-000680",
+    "SA-PERSON-000724",
+    "SA-PERSON-000720",
+    "SA-PERSON-000737",
+    "SA-PERSON-000748",
+    "SA-PERSON-000734",
+    "SA-PERSON-000754",
+    "SA-PERSON-000764",
+    "SA-PERSON-000770",
+    "SA-PERSON-000015",
+    "SA-PERSON-000142",
+    "SA-PERSON-000085",
+    "SA-PERSON-000194",
+    "SA-PERSON-000143",
+    "SA-PERSON-000572",
+    "SA-PERSON-000013",
+    "SA-PERSON-000242",
+    "SA-PERSON-000682",
+    "SA-PERSON-000243",
+    "SA-PERSON-000338",
+    "SA-PERSON-000303",
+    "SA-PERSON-000029",
+    "SA-PERSON-000028",
+    "SA-PERSON-000027",
+    "SA-PERSON-000030",
+    "SA-PERSON-000032",
+    "SA-PERSON-000033",
+    "SA-PERSON-000034",
+    "SA-PERSON-000037",
+    "SA-PERSON-000035",
+    "SA-PERSON-000040",
+    "SA-PERSON-000042",
+    "SA-PERSON-000043",
+    "SA-PERSON-000047",
+    "SA-PERSON-000048",
+    "SA-PERSON-000049",
+    "SA-PERSON-000054",
+    "SA-PERSON-000053",
+    "SA-PERSON-000064",
+    "SA-PERSON-000059",
+    "SA-PERSON-000060",
+    "SA-PERSON-000071",
+    "SA-PERSON-000072",
+    "SA-PERSON-000073",
+    "SA-PERSON-000078",
+    "SA-PERSON-000088",
+    "SA-PERSON-000083",
+    "SA-PERSON-000091",
+    "SA-PERSON-000095",
+    "SA-PERSON-000096",
+    "SA-PERSON-000097",
+    "SA-PERSON-000098",
+    "SA-PERSON-000100",
+    "SA-PERSON-000102",
+    "SA-PERSON-000105",
+    "SA-PERSON-000103",
+    "SA-PERSON-000106",
+    "SA-PERSON-000118",
+    "SA-PERSON-000119",
+    "SA-PERSON-000123",
+    "SA-PERSON-000127",
+    "SA-PERSON-000130",
+    "SA-PERSON-000124",
+    "SA-PERSON-000131",
+    "SA-PERSON-000138",
+    "SA-PERSON-000134",
+    "SA-PERSON-000137",
+    "SA-PERSON-000139",
+    "SA-PERSON-000145",
+    "SA-PERSON-000146",
+    "SA-PERSON-000147",
+    "SA-PERSON-000149",
+    "SA-PERSON-000152",
+    "SA-PERSON-000154",
+    "SA-PERSON-000158",
+    "SA-PERSON-000159",
+    "SA-PERSON-000160",
+    "SA-PERSON-000167",
+    "SA-PERSON-000174",
+    "SA-PERSON-000175",
+    "SA-PERSON-000176",
+    "SA-PERSON-000178",
+    "SA-PERSON-000177",
+    "SA-PERSON-000179",
+    "SA-PERSON-000180",
+    "SA-PERSON-000041",
+    "SA-PERSON-000185",
+    "SA-PERSON-000202",
+    "SA-PERSON-000213",
+    "SA-PERSON-000187",
+    "SA-PERSON-000214",
+    "SA-PERSON-000248",
+    "SA-PERSON-000244",
+    "SA-PERSON-000239",
+    "SA-PERSON-000250",
+    "SA-PERSON-000251",
+    "SA-PERSON-000262",
+    "SA-PERSON-000252",
+    "SA-PERSON-000263",
+    "SA-PERSON-000265",
+    "SA-PERSON-000269",
+    "SA-PERSON-000267",
+    "SA-PERSON-000280",
+    "SA-PERSON-000283",
+    "SA-PERSON-000281",
+    "SA-PERSON-000285",
+    "SA-PERSON-000284",
+    "SA-PERSON-000291",
+    "SA-PERSON-000292",
+    "SA-PERSON-000293",
+    "SA-PERSON-000294",
+    "SA-PERSON-000295",
+    "SA-PERSON-000298",
+    "SA-PERSON-000299",
+    "SA-PERSON-000297",
+    "SA-PERSON-000300",
+    "SA-PERSON-000301",
+    "SA-PERSON-000302",
+    "SA-PERSON-000304",
+    "SA-PERSON-000307",
+    "SA-PERSON-000309",
+    "SA-PERSON-000310",
+    "SA-PERSON-000311",
+    "SA-PERSON-000313",
+    "SA-PERSON-000318",
+    "SA-PERSON-000320",
+    "SA-PERSON-000319",
+    "SA-PERSON-000321",
+    "SA-PERSON-000322",
+    "SA-PERSON-000329",
+    "SA-PERSON-000330",
+    "SA-PERSON-000331",
+    "SA-PERSON-000333",
+    "SA-PERSON-000339",
+    "SA-PERSON-000336",
+    "SA-PERSON-000340",
+    "SA-PERSON-000344",
+    "SA-PERSON-000343",
+    "SA-PERSON-000346",
+    "SA-PERSON-000347",
+    "SA-PERSON-000349",
+    "SA-PERSON-000371",
+    "SA-PERSON-000348",
+    "SA-PERSON-000367",
+    "SA-PERSON-000375",
+    "SA-PERSON-000376",
+    "SA-PERSON-000384",
+    "SA-PERSON-000387",
+    "SA-PERSON-000392",
+    "SA-PERSON-000394",
+    "SA-PERSON-000395",
+    "SA-PERSON-000393",
+    "SA-PERSON-000396",
+    "SA-PERSON-000398",
+    "SA-PERSON-000404",
+    "SA-PERSON-000403",
+    "SA-PERSON-000405",
+    "SA-PERSON-000406",
+    "SA-PERSON-000409",
+    "SA-PERSON-000413",
+    "SA-PERSON-000416",
+    "SA-PERSON-000417",
+    "SA-PERSON-000429",
+    "SA-PERSON-000424",
+    "SA-PERSON-000421",
+    "SA-PERSON-000434",
+    "SA-PERSON-000441",
+    "SA-PERSON-000442",
+    "SA-PERSON-000435",
+    "SA-PERSON-000443",
+    "SA-PERSON-000455",
+    "SA-PERSON-000452",
+    "SA-PERSON-000454",
+    "SA-PERSON-000456",
+    "SA-PERSON-000464",
+    "SA-PERSON-000470",
+    "SA-PERSON-000469",
+    "SA-PERSON-000475",
+    "SA-PERSON-000472",
+    "SA-PERSON-000480",
+    "SA-PERSON-000481",
+    "SA-PERSON-000485",
+    "SA-PERSON-000488",
+    "SA-PERSON-000494",
+    "SA-PERSON-000116",
+    "SA-PERSON-000535",
+    "SA-PERSON-000501",
+    "SA-PERSON-000540",
+    "SA-PERSON-000500",
+    "SA-PERSON-000570",
+    "SA-PERSON-000555",
+    "SA-PERSON-000554",
+    "SA-PERSON-000543",
+    "SA-PERSON-000578",
+    "SA-PERSON-000604",
+    "SA-PERSON-000605",
+    "SA-PERSON-000579",
+    "SA-PERSON-000571",
+    "SA-PERSON-000616",
+    "SA-PERSON-000621",
+    "SA-PERSON-000617",
+    "SA-PERSON-000623",
+    "SA-PERSON-000636",
+    "SA-PERSON-000638",
+    "SA-PERSON-000637",
+    "SA-PERSON-000651",
+    "SA-PERSON-000652",
+    "SA-PERSON-000643",
+    "SA-PERSON-000639",
+    "SA-PERSON-000654",
+    "SA-PERSON-000656",
+    "SA-PERSON-000663",
+    "SA-PERSON-000659",
+    "SA-PERSON-000664",
+    "SA-PERSON-000667",
+    "SA-PERSON-000666",
+    "SA-PERSON-000668",
+    "SA-PERSON-000671",
+    "SA-PERSON-000675",
+    "SA-PERSON-000684",
+    "SA-PERSON-000672",
+    "SA-PERSON-000696",
+    "SA-PERSON-000695",
+    "SA-PERSON-000691",
+    "SA-PERSON-000701",
+    "SA-PERSON-000697",
+    "SA-PERSON-000698",
+    "SA-PERSON-000699",
+    "SA-PERSON-000709",
+    "SA-PERSON-000713",
+    "SA-PERSON-000714",
+    "SA-PERSON-000712",
+    "SA-PERSON-000715",
+    "SA-PERSON-000717",
+    "SA-PERSON-000718",
+    "SA-PERSON-000716",
+    "SA-PERSON-000702",
+    "SA-PERSON-000719",
+    "SA-PERSON-000721",
+    "SA-PERSON-000727",
+    "SA-PERSON-000728",
+    "SA-PERSON-000730",
+    "SA-PERSON-000733",
+    "SA-PERSON-000735",
+    "SA-PERSON-000743",
+    "SA-PERSON-000736",
+    "SA-PERSON-000750",
+    "SA-PERSON-000744",
+    "SA-PERSON-000763",
+    "SA-PERSON-000771",
+    "SA-PERSON-000768",
+    "SA-PERSON-000767"
+  ],
+  "remaining": [],
+  "current": [],
+  "failed": [],
+  "queue_meta": {
+    "SA-PERSON-000003": {
+      "imp": "high",
+      "n_orgs": 6
+    },
+    "SA-PERSON-000002": {
+      "imp": "high",
+      "n_orgs": 5
+    },
+    "SA-PERSON-000004": {
+      "imp": "high",
+      "n_orgs": 5
+    },
+    "SA-PERSON-000332": {
+      "imp": "high",
+      "n_orgs": 5
+    },
+    "SA-PERSON-000197": {
+      "imp": "high",
+      "n_orgs": 4
+    },
+    "SA-PERSON-000016": {
+      "imp": "high",
+      "n_orgs": 3
+    },
+    "SA-PERSON-000046": {
+      "imp": "high",
+      "n_orgs": 3
+    },
+    "SA-PERSON-000196": {
+      "imp": "high",
+      "n_orgs": 3
+    },
+    "SA-PERSON-000200": {
+      "imp": "high",
+      "n_orgs": 3
+    },
+    "SA-PERSON-000264": {
+      "imp": "high",
+      "n_orgs": 3
+    },
+    "SA-PERSON-000005": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000006": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000039": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000061": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000094": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000195": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000218": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000235": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000268": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000312": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000328": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000337": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000366": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000388": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000426": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000427": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000437": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000463": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000516": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000521": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000523": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000572": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000584": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000595": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000615": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000681": {
+      "imp": "high",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000013": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000014": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000017": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000024": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000026": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000036": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000038": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000045": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000050": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000051": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000052": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000057": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000062": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000063": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000065": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000068": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000070": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000074": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000075": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000077": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000079": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000080": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000081": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000082": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000084": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000086": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000087": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000090": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000104": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000109": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000110": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000115": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000120": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000121": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000125": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000129": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000144": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000150": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000155": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000156": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000161": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000164": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000166": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000168": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000171": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000173": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000181": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000182": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000184": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000186": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000190": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000193": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000198": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000208": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000209": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000215": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000219": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000224": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000233": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000234": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000238": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000240": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000245": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000249": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000254": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000255": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000256": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000257": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000261": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000266": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000270": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000271": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000272": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000273": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000274": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000279": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000282": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000286": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000287": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000288": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000289": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000296": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000306": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000317": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000323": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000341": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000345": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000350": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000353": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000354": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000355": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000358": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000361": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000363": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000365": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000368": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000370": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000373": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000374": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000377": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000382": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000383": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000385": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000389": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000391": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000397": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000400": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000401": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000407": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000410": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000411": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000414": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000415": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000418": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000419": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000420": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000423": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000428": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000430": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000431": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000436": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000439": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000440": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000451": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000457": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000459": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000460": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000462": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000468": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000473": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000476": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000477": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000478": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000479": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000482": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000487": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000491": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000492": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000493": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000495": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000496": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000497": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000498": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000499": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000503": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000504": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000505": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000506": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000507": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000508": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000509": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000510": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000514": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000515": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000517": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000518": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000519": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000520": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000524": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000530": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000533": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000534": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000545": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000548": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000551": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000553": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000557": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000559": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000563": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000564": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000565": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000566": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000585": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000588": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000589": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000591": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000592": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000593": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000594": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000596": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000598": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000599": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000600": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000601": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000602": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000603": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000606": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000607": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000608": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000609": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000619": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000622": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000624": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000627": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000628": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000629": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000630": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000631": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000632": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000635": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000640": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000641": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000644": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000646": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000648": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000649": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000650": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000653": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000655": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000657": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000658": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000660": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000661": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000665": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000670": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000674": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000680": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000683": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000685": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000686": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000694": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000707": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000720": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000724": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000734": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000737": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000748": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000754": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000756": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000761": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000764": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000770": {
+      "imp": "high",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000015": {
+      "imp": "medium",
+      "n_orgs": 3
+    },
+    "SA-PERSON-000085": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000142": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000143": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000194": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000242": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000243": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000303": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000338": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000682": {
+      "imp": "medium",
+      "n_orgs": 2
+    },
+    "SA-PERSON-000027": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000028": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000029": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000030": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000032": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000033": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000034": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000035": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000037": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000040": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000041": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000042": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000043": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000047": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000048": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000049": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000053": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000054": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000059": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000060": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000064": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000071": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000072": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000073": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000078": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000083": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000088": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000091": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000095": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000096": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000097": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000098": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000100": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000102": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000103": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000105": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000106": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000116": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000118": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000119": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000122": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000123": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000124": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000127": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000130": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000131": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000134": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000137": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000138": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000139": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000140": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000141": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000145": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000146": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000147": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000148": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000149": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000152": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000154": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000158": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000159": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000160": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000163": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000167": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000172": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000174": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000175": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000176": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000177": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000178": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000179": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000180": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000185": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000187": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000202": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000203": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000213": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000214": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000239": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000244": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000247": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000248": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000250": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000251": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000252": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000262": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000263": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000265": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000267": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000269": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000275": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000280": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000281": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000283": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000284": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000285": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000290": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000291": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000292": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000293": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000294": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000295": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000297": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000298": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000299": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000300": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000301": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000302": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000304": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000307": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000309": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000310": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000311": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000313": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000318": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000319": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000320": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000321": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000322": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000324": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000329": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000330": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000331": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000333": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000336": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000339": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000340": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000343": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000344": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000346": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000347": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000348": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000349": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000364": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000367": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000371": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000375": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000376": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000384": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000386": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000387": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000392": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000393": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000394": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000395": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000396": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000398": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000402": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000403": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000404": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000405": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000406": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000409": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000413": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000416": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000417": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000421": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000424": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000425": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000429": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000433": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000434": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000435": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000441": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000442": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000443": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000452": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000454": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000455": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000456": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000461": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000464": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000469": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000470": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000471": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000472": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000475": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000480": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000481": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000485": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000486": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000488": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000494": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000500": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000501": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000535": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000536": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000540": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000543": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000554": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000555": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000570": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000571": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000578": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000579": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000604": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000605": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000616": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000617": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000621": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000623": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000626": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000636": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000637": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000638": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000639": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000643": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000651": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000652": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000654": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000656": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000659": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000663": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000664": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000666": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000667": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000668": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000671": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000672": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000675": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000684": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000691": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000695": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000696": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000697": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000698": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000699": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000701": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000702": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000709": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000712": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000713": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000714": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000715": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000716": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000717": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000718": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000719": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000721": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000727": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000728": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000730": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000733": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000735": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000736": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000743": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000744": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000750": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000763": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000767": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000768": {
+      "imp": "medium",
+      "n_orgs": 1
+    },
+    "SA-PERSON-000771": {
+      "imp": "medium",
+      "n_orgs": 1
+    }
+  },
+  "notes": [
+    "SA-PERSON-000264 首次触发速率限制(1302)，等待后重试一次",
+    "SA-PERSON-000366 = SA-PERSON-000337 的重复 ID，跳过",
+    "SA-PERSON-000426 = SA-PERSON-000003 的重复 ID，跳过",
+    "2026-09-30 用户指令：当前在飞 4 个完成后暂停（000061/000312/000427/000437）",
+    "000051(ID)=Al-Alama(现校长)/000056=Al-Youbi(前校长) 身份甄别修正；000051 回入队列待采",
+    "SA-PERSON-000074 = SA-PERSON-000039 (教育大臣本亚尼) 的重复 ID，跳过",
+    "2026-10-01T04:54:03: 000084 (Omar Yaghi) hit 1301 content filter on first attempt; redispatched with neutral academic-science framing (avoid political controversy topics)",
+    "2026-10-01T05:36:01: 000109 完成时发现疑重复ID——SA-PERSON-000148 (Khaled Ahmed Aljuffali) 疑为同一人占位，待P4末合并阶段核实处理",
+    "2026-10-01T05:41:57: 000115 完成（检索白名单策略有效，连续1301后第3次成功）；发现疑重复ID SA-PERSON-000551 待P4末合并核实",
+    "2026-10-01T06:04:36: 000144 勘误——现任SAMA行长2023-02上任（非2009）；2009-2023在任者为前任哈马德·赛亚里=SA-PERSON-000147，两人不同，后续派发000147时注意区分",
+    "2026-10-01T06:16:04: 000161 完成时发现 AlAzzawi 疑双ID（000125 Mobily语境/000163 Riyad Bank语境）——注意 العزازي 与 العزاوي 拼写相近，P4末合并阶段须核实是否同一人",
+    "2026-10-01T06:45:28: 000182 核实——000181/000182 为mada前后任非重叠；000182之后继任者为عبدالعزيز العفالق(2022起,未入库)；SA-FIN-013组织档案key_people两人同挂现任执行总监,待000181完成后修正组织档案",
+    "2026-10-01T06:49:46: 000184 勘误——2026-07-11王室敕令卸任工业与矿产资源大臣，转任国务大臣兼履行GAMI总督职责；SA-FIN-014组织档案若列其为现任董事长/大臣需在P5复核时更新",
+    "2026-10-01T07:07:30: 000224挂起——疑与000219同一人(Khalid bin Abdullah Al-Luhaidan, 最高法院院长兼SJC当然成员)，待000219档案落地后比对合并；其间派发队列下一位",
+    "2026-10-01T07:13:13: 000238挂起——与在飞000234同一人(Ali bin Ahmed Al-Ahidab, 申诉院院长/主席， SA-GOV-008与SA-GOV-009两组织档案各注册一次)，待000234落地后合并",
+    "2026-10-01T07:21:48: 000234发现组织档案口径问题——SA-GOV-008(最高行政法院)与SA-GOV-009(申诉院)的key_people归属需P5复核（另有前任院长Khalid Al-Yousef双ID 000220/000236）",
+    "2026-10-01T07:41:01: 000255身份勘误——SA-GOV-014 key_people登记名'عبدالعزيز بن محمد بن عياف آل مقرن'有误(英文维基错误句所致)，实际国防次大臣为其兄عبدالرحمن(1961年生,Q46714081,2023-06-25敕令)；档案已按核实身份建档；P4末须修正SA-GOV-014组织档案key_people姓名与person_list.name_en",
+    "2026-10-01T08:21:07: 000279完成时子代理将MBS关联为SA-PERSON-000204，而其他档案用000003——两ID疑均指王储，P4末合并阶段须核实统一",
+    "2026-10-01T09:04:29: 000341勘误——2026-02-12王室敕令才接任投资大臣(2020首任为法利赫SA-PERSON-000015)；SA-GOV-035组织档案若仍写其2020在任须P5修正；另ACWA电力存在org双ID(SA-CORP-107/116)待P5组织侧合并",
+    "2026-10-01T12:40:22: 000508身份勘误——Mohammed bin Thamer Al Kaabi为巴林籍交通与电信大臣(2022-06至2024-11)，非阿联酋AI部长(Omar Al Olama)；DCO 2023轮值主席国为巴林与注册锚点吻合；档案按实际任职者建档，nationality已更正为BH",
+    "2026-10-01T13:04:00: 用户核实发现在飞为0——000257/000515/000517/000518 四个子代理已丢失（000257早已超期，其余为近期派发但未存活，通知缺失），四人档案文件均不存在、无重复风险；已全部原样重派，4并发恢复",
+    "2026-10-01T13:34:44: 000257勘误——联合部队司令2020-08-31代职/2021-10-15正式（非2022-12）；2024-08-29已退役转皇家法院顾问，继任者法赫德·本·哈马德·萨尔曼；SA-GOV-014组织档案若列其为现任联合部队司令须P5修正",
+    "2026-10-01T15:55:53: 000591登记机构误差——person_list将其登记于SA-MIL-001陆军，实际联合部队司令为国防部SA-GOV-014级职务（沿用000257先例记org_id=SA-GOV-014）；P5复核时可检查queue来源org_id映射",
+    "2026-10-01T16:49:57: 000599勘误——已非现任西部舰队司令，2023-11-16卸任移交منصور بن سعود الجعيد（继任者未入530名单）；SA-MIL-003组织档案若列其为现任须P5修正；另000598东部舰队司令身份仅阿维基单源无脚注，P5复核建议补核",
+    "2026-10-01T17:38:45: 000622勘误——皇家卫队局长任命实为2017-07-20/21王室令（双源），SA-MIL-010组织档案key_people描述的「2017年5月」存疑待P5复核",
+    "2026-10-01T17:46:31: 用户第二次核实发现在飞为0——000530/000609/000619/000624 子代理再次全部丢失（000530长期超期；其余未存活），四人档案均未落盘无重复风险；已全部原样重派。两次丢失事件间隔内正常完成的批次未受影响；后续每轮补位后立即抽查落盘",
+    "2026-10-01T17:56:10: SA-MIL-011快照解析——000627(Fahd Al-Mutairi)=2024-08改组前陆军司令、000628(Fahd al-Ghofaily)=前海军司令（000596档案证实其转任副总参谋长），均为真实独立前任人物，保留收集；000626登记为副总参谋长与000257档案的退役转皇家法院顾问记载存在现职冲突（快照过时），人格合并、现职以SPA档案为准",
+    "2026-10-01T18:26:13: 流程复盘——000619被误重派一次（它其实已在第一轮正常完成），第二个子代理正确识别已存在文件并做增量精修而非覆盖，档案质量提升无损坏；重派批次核对规则已收紧：重派前必须逐一核对完成列表",
+    "2026-10-01T18:28:00: 000609同000619情形——误重派的第二个子代理对已有档案做增量精修（42→47分，18条引用），校验0错误；已完成去重固化",
+    "2026-10-01T18:30:35: 000624误重派第二子代理覆盖精修（42→36分）——增量：Okaz讣闻证实父名/三兄弟入family_members；⚠️军衔分歧：首版采阿维基名录'少将现任'，精修版以2025-11时点证据采'准将无晋衔报道'——P5复核时以官方授衔报道裁决；工作经历/引用条数较首版少，如P5发现明显缺失可回补",
+    "2026-10-01T18:49:17: 流程事故复盘——000628子代理误执行他人临时构建脚本/tmp/sa271/，重新生成了000271档案；经验证该脚本即000271原构建脚本、产物与其原档案等效（72分,10引用,校验0错误），000271本就已完成无实质损坏；教训已记录：临时脚本应放入各任务独立目录",
+    "2026-10-01T19:32:55: 000650勘误——苏尔坦亲王基金会实际域名为sbaf.org.sa（派发提示的psfoundation.sa经DNS核验不存在），SA-NGO-004组织档案若引用psfoundation.sa须P5修正",
+    "2026-10-01T22:06:57: 4个在飞子代理（000680/000694/000720/000724）因5小时限额1308全部中断（限额21:40:16重置，用户指示继续后重派），档案均未落盘无重复风险",
+    "2026-10-01T22:56:43: 000737勘误——Saudia为政府全资未上市（派发模板误写'Tadawul 4256'，4256实为flynas代码）；SA-PERSON-000737档案以官网+SPA+主流媒体交叉验证为准",
+    "2026-10-01T23:24:21: 000770勘误——BSF=沙特法国银行Banque Saudi Fransi（bsf.sa），SA-SOE-028组织档案中「Banque BSF（原沙特汇丰）」表述有误须P5修正；其与汇丰关联仅为曾任汇丰沙特董事会（已卸任）",
+    "2026-10-01T23:26:57: 000015勘误——SA-SOE-001组织档案称法利赫任阿美董事长「2015至2021」与外部多源（WSJ/Reuters/维基2019-09-02交接）矛盾，实为2015→2019-09，须P5修正；000015现职：2026-02-12卸任投资大臣转任国务大臣，由000341接任（两人档案已互指）",
+    "000142勘误——财长任期实为1996-01至2016-10-31（非派发线索'约1996-2009'），逾20年全球任期最长财长之一；曾任外交大臣2018-12-27至2019-10（接朱拜尔，后由费萨尔·本·法尔汉接任）；'前阿美CEO'说法不实：公开记录无CEO任期（CEO自2015-09为阿明·纳赛尔），其阿美职务为董事会副主席，档案未采纳；教育顺序按官方修正：丹佛硕士(1976)→科罗拉多州立博士(1982)；另曾任IMF副执行董事/世行执行董事/SAMA副行长；阿美董事会起始年存疑（阿语维基1999/英文维基1996）；Ritz-Carlton争议内容按纪律排除。P5需查SA-SOE-001阿美档案及财部/外交部org档案中阿萨夫任期表述",
+    "000085勘误——官方头衔为工业部「规划与发展助理大臣」（مساعد الوزير，非派发线索所称副大臣وكيل الوزارة），2024-05-15王室令任命（特优级）；33年阿美系经历（SADARA副总裁/IMI CEO等，单一直接来源KACST董事会页转录，未独立复核）；KACST董事依据SA-ACAD-036档案转录，本次会话KACST官网不可达未能复核；2026-07-11工业大国臣职务由能源大臣000046亲王接任（与000184档案一致），Al-Ahmari本人职务未见变动报道；无Wikidata实体、无公开社交账号（全部搜索引擎被反爬拦截）；birth_date等无公开信息如实留空",
+    "000194勘误——任务前提「现任财政部副部长」不实：现任副部长为阿卜杜勒穆赫辛·哈勒夫（2024-05-15王室敕令获任，财政部官网2024-07-09更新+Alarabiya报道双证）；巴扎伊实任2009-09-12（A/135敕令，优秀级）至约2024-05，end_date以2024-05为上界（卸任敕令未见公开报道）；阿语维基信息框「现任副部长」为过时表述，不采信；ITFC董事会成员为现状（官网2026-10直读+2025年报，IsDB席位），2018年Arab News佐证曾任IsDB执行董事；同名者（LinkedIn同名/TikTok巴基斯坦政客Bazai/SPA苏丹·巴扎伊）均已排除。P5需查SA-FIN-001财部org档案key_people是否仍将其列为现任副部长",
+    "000143完成（与000332同人）。勘误：(a)旅游大臣2020-02-25就任首任，2026-04/09新闻证实仍在任——任务线索「约2020-2022」错误，按现任采集；(b)「Enaya保险背景」无来源，实为银行/投资业出身（利雅得银行→SABB→Jadwa创始人）；(c)SAMI董事长终点2024-02确证（Arab News 2024-02-28，哈立德·本·萨勒曼接任），起点仅能确认2017年在任；(d)PIF董事身份经PIF官网2024-12存档证实。另：人名索引中哈立德·本·萨勒曼与法利赫各存在多个重复person_id映射（关系字段分别取000196/000015），P5索引清理时处理",
+    "2026-10-02账本修复——000312(通信IT大臣杜萨里,双ID+000576)/000013(哈马丹,high)/000572(扎伊德,双ID+000575)曾标记completed但盘上无档案、无构建痕迹、无代理日志：判定为历史静默丢失，已退回remaining待重派（本轮暂停指令范围外，未派发）。另000061经核实为000046（能源大臣阿卜杜勒-阿齐兹亲王,Q4665821）重复注册，改记duplicates",
+    "000572完成——SPA社长2024-09→2025-10（新闻大臣决定委任，非王室令）；2025-10-30转任SBA局长兼CEO（现任）。机构名纠错：SBA现行官方阿语名为هيئة الإذاعة والتلفزيون السعودية，旧称الهيئة العامة للإذاعة，P5需修正使用旧称的组织档案（含SA-MEDIA-014）。链条：SPA法赫德·阿勒奥格兰(2021-02-08起,2024-09入协商会议)→扎伊德→哈桑·阿斯马里(000571,代理)；SBA穆罕默德·哈里斯(000577)→扎伊德；上级媒体大臣000200(董事会主席,三次任命其职务)。birth仅1974年精度(WD P569 precision=9)；Instagram @alialzeed姓名吻合但归属未证实，未收录",
+    "000013完成（score 42,敏感岗位登记级为预期）——总局局长2015-01-29王室敕令任命（萨勒曼即位后30道敕令之一，部长级待遇，同日入政治与安全事务委员会），在任至今（2026-08巴格达公开活动佐证）。前任：哈立德·本·班达尔亲王(2014-06-30)；再前班达尔·本·苏尔坦(2012-07-19~2014-04-15)、米格林亲王(2005-2012)。纠错：英维基正文'接任Idrissi'与全页矛盾未采信；WD Q59655961阿语label疑遭破坏未采信。birth两说(1954-08-02 vs 1955)留空",
+    "000242完成——高级学者委员会成员(1426/2005年任命,2024-09-02王室令重组的1446-1450届续任)；常设教令委员会成员(1426-07-11最高令A/202,现任四人之一)；新增：先知圣训汇编(麦地那)科学理事会主席(2017-10-17王室令首任,2026-01在任)。父名链محمد بن حسن بن عبد الرحمن بن عبد اللطيف آل الشيخ，与前教育大臣哈桑之子محمد بن حسن بن عبد الله(其女海法/萨拉等)严格区分。【大穆夫提登记纠错】：000649实为哈立德·本·苏尔坦亲王，非大穆夫提；大穆夫提=000069(2025任内去世，000241为其重复)，萨利赫·福赞(000068)2025-10-22接任并主持委员会——此前进度笔记中'000649大穆夫提'记录有误作废。组织重复：SA-GOV-004/SA-GOV-011/SA-ACAD-007为同一委员会三条目，档案选用SA-GOV-004",
+    "执行方案修正(用户指令)：滚动4并发=后台派发+完成一个补位一个；本批起用run_in_background",
+    "000682完成——已故：1939-07-05吉达生，2025-10-12卒（KAU当日讣告+7源交叉），享年86。纠错：协商会议副主席实为1993-2002（线索1983-1999不成立，1983系其任世界穆斯林联盟秘书长起始）；KAU校长1980-02-19~1983-11-03；WAMY副会长自1983；IIRO董事会主席2000。索引同案：000678/000687均为其异写ID（原均无档），随档并入",
+    "000243完成——高级学者委员会委员(1446-1450届)+常设教令委员会现任四人之一（大穆夫提福赞000068、محمد بن حسن آل الشيخ=000242、本人、عبد السلام السليمان[待查是否已注册]）。履历重要补充：2005首任→2010王室令解职（英维基关联2009 KAUST争议，仅记履历事实）→2016复任（另说2015-01-25）→2024-09-02重组续任；宫廷顾问(部长级)；SNB教法委员会委员；知识国际大学院长(2011-2017,英维基单源存疑)；著作65部+论文15篇书目已录。X账号@Al_shathri1441系学生代管未收录",
+    "000338完成——官方拼写رميح بن محمد الرميح（线索رومي/رماح均为误写）。SAR链纠错：运营EVP 2008-2010→CEO 2010-2015→铁路总局总裁2015-12（优异级）→SAR总监理2016-06-27→继任者马利克(000746)2017-03-01到任；线索CEO 2010-2017不准。副大臣2022-07-03王室令（优异级），2026-05-18延期四年。新发现：2026-02-12王室令أ/275由Fawaz Al-Sahli接掌TGA主席，其TGA任职结束（zatca/mot官网滞后仍列，P5需修TGA组织档案key_people）；2025-06当选UITP中东北非区主席(至2028)。社媒仅LinkedIn收录",
+    "000303完成——矿业副大臣2018-06-01王室令（优异级，时属能源工业资源部，2019部单设后沿用现职名），2026-03-04再延4年；2026-07-11部务变动后仍在任（霍拉耶夫免职、能源大臣000046兼任工业大臣；SGS官网2026-07-14名单+2026-09-29埃及矿业论坛现身佐证）。履历：Maaden总裁CEO 2011-2018（2006-03入司历任工业事务VP→磷酸盐VP）；1986-1993东方石化SABIC系副总裁兼CFO；1993-2006盖西姆水泥总裁；现任Maaden/Esnad两家董事会副主席。SGS副董事长兼代理总裁为现任（代理可考至2020-10，前总裁沙姆拉尼000408）。Wikidata Q125493244（另有重复条目Q114874262）。照片已存photos/SA-PERSON-000303.jpg。SAPTCO主席(2018-11起,阿维基)现任名单未列仅work_note存疑。P5需修：SA-GOV-026工业部（2026-07-11大臣更替+副大臣延期令）、SA-GOV-050 SGS、Maaden组织档案CEO链",
+    "000029完成——官方拼写Khaled Abu Bakr Bawazier（خالد أبو بكر باوزير）；2024-03任财政部国际关系副大臣（副大臣任命惯例不公开敕令号），现任（2026-05 G20财金副手会+2026-09-17海合会财副会佐证）。履历：壳牌2004-05→阿美12岗位2005-2021→G20沙特主席国国际事务高级顾问2019-07~2021-02→世行轮值执董2021-22→执董2022-24→副大臣2024-03。【贾丹多ID问题（P5重点）】：索引中贾丹有000140/000197/000258/000390四个映射，仅000197有实体档案（现任财政大臣）；SA-GOV-015财部org档案key_people引用的000258无档案文件——P4末合并阶段将000140/000258/000390并入000197。另：现任财部副部长哈勒夫（عبد المحسن بن سعد الخلف，即接替000194巴扎伊者）person_id=null疑似未注册，P4末resolve_ids --allow-register时补登记。Wikidata查无条目",
+    "000028完成——重要纠错：非线索所称2020年前后王室令任命；实为2023-01-22外交大臣部令决议（非王室令，首位沙特女性任该职）；且已是前任：外交部公共外交副大臣仅2023-01~2024-01，2024-01起转任投资部国际关系副大臣（现任，SPA 2025-11-10佐证）。该职前任为法赫德·阿布·纳斯尔（2020-02~2023-08，后转驻土耳其大使，库内无ID待P4末查册）。履历：美国银行业→驻美武官处→KAUST医院→休斯顿卫理公会→卫生部国际合作总司长2017-19→助理副大臣代理2019-22→外交部→投资部。交叉：上级外交大臣费萨尔·本·法尔汉=000195。P5需修：SA-GOV-012外交部key_people（其已离任）、SA-GOV-035投资部（补其现任职务）。社媒仅LinkedIn收录",
+    "000027完成——申诉委员会官方发言人2025-12-21由时任主席哈立德·尤素夫决定委任（此前为发言人助理，2025-04/10媒体佐证）；现任（2026-06/07/08多源）；2026-02-12委员会主席易人为阿里·阿海迪布(000238)未影响其职务——注意2026-02-12与工业大臣更替同日（王室令批量调整）。官方拼写Najla Al-Omar（Okaz作Al-Amar、官网slug作Al-Omr，均收别名）。无Wikidata、无社媒、无公开生年/教育，score 35符合预期。照片已存photos/SA-PERSON-000027.jpg。P5需查：SA-GOV-009申诉委org档案key_people（主席000238现状+发言人000027）",
+    "000030完成——纠错：教育部副部长任命为2025-05-08王室令（特级，非线索2021年前后）；现任（CUA官网2026-06-11更新佐证）。履历：KSU康复健康学士1996→达尔豪斯理疗硕士1999/神经科学博士2004→KSU多职→PNU校长2019-03~2025-05→教育部副部长2025-05-08。全名按敕令إيناس بنت سليمان بن محمد العيسى；其父为已故电视播音员苏莱曼·艾萨(1946-2012)。交叉：教育大臣本亚尼=000039双向一致。重复登记000058已入duplicates。P5需查：SA-GOV-016教育部key_people副部长职务现状、SA-ACAD-xxx PNU校长更替记录",
+    "000032完成——官方全名عبدالعزيز بن حمد الرميح/Abdulaziz Hamad AlRamaih（祖父名صالح；部分媒体误作بن عبدالرحمن已纠错）。2022-07-03王室令任卫生部规划与发展副大臣（特级），2026-05-17延4年，现任（MOH英文页2026-05-18更新）。工程师背景非医师：NGHA IT 1998-2013→NGHA CIO 2013-2018（BestCare上线）→埃森哲中东卫生创始合伙人2018-2021→卫生部电子卫生与数字化转型副部长2021-2022→现职。交叉：上级卫生大臣贾拉杰勒=000264、大臣助理同僚阿卜杜勒阿利=000265（与SA-GOV-017一致）。同名链区分确证：000338交通部鲁迈伊父链不同（2026-05-18同一X帖分别祝贺二人）。照片已存photos/SA-PERSON-000032.jpg；社媒收X @Aalramaih+LinkedIn",
+    "000033完成——全名حمدان بن هزاع العتيبي；职务实为助理大臣（联合服务事务）مساعد الوزير للخدمات المشتركة（非泛称助理大臣）；任命机制纠错：约2020-10由能源大臣决定（قرار）委任，非王室令（社媒级单源+2021-07起多源称谓衔接，notes注明证据等级）；现任（官网2025-12快照）。履历：2014-08起任阿卜杜勒阿齐兹亲王特别顾问（弱证据作下限）→2020-10助理大臣→2021/2022/2024三次代表能源部签协议。线索能源城/石化任职无来源未采。【发现库内错误（P5修）】：SA-GOV-018能源部key_people将卡赫塔尼person_id误记为000016（000016经索引核验实为阿明·纳赛尔/阿美CEO）。交叉：上级000046能源大臣（2026-07起兼任工矿）、同僚000034/000267。无Wikidata无社媒，score 47符合预期",
+    "000034完成——全名أحمد بن موسى الزهراني；2020-12-31能源大臣决定（قرار تكليف）委任发展与卓越事务助理大臣（非王室令），2021-01-01生效，现任（SFDA页2026-01更新+2026-09 MODON签约+WPC2026名录）。履历：KFUPM化工1995→宾州州立硕士2002→阿美约25年→沙特能源效率中心总监→助理大臣2021；兼任EnergyTech董事会主席、TAQA董事会主席（任期至2026-10-29）。交叉：上级000046、同僚000033；另两名助理大臣穆罕默德·易卜拉欣(油气)/纳赛尔·卡赫塔尼(电力)未建档(null)。同名排除000047/000300/000473/000705。照片已存photos/SA-PERSON-000034.jpg；社媒仅LinkedIn。Wikidata无条目",
+    "000037完成——KSU代理校长由校董会2025-06-23决定委任（非王室/部长令），SPA 2025-07-22报道到任；截至采集日仍为代理未转正，且仍兼规划与发展副校长。纠错：前任校长非巴德里，而是阿卜杜拉·本·萨勒曼·阿勒萨勒曼（此前亦代理，库内无ID）；官方英拼Masmali（无Al-前缀）。履历：视光师——利雅得武装部队医院2002→KSU视光学系主任/应用医学院质量副院长2012-2016→2030转型计划负责人→临床视光学与干眼教授2019→规划副校长→代理校长2025-06；KSU视光学士2001+Cardiff博士2010，FAAO会士。交叉：教育大臣000039（校董会成员）双向互证。Wikidata Q87102395经PubMed署名核验。X @RO_KSU系校长办官方账号（注明性质）+LinkedIn收录",
+    "000035完成——商业副大臣任命=王室令أ/517，2021-05-03（精确到日，阿维基5月2日不采）；2025-03-20延4年，2026年现任。履历纠错：非SFDA/统计总局序列——实为费萨尔国王大学化学1992→布里斯托生物有机化学博士→哈佛遗传学博士后→PerkinElmer→阿美医院/人才序列2003-2014→社会事务大臣顾问2015→商投大臣顾问2017→商业助理大臣2018-12-27→国家竞争力中心CEO 2019-09→商业副大臣2021-05。日期分歧存证：官方页助理大臣作2019-12，共时证据（SPA当日通稿+4家媒体+LinkedIn）确证2018-12-27，官方页系笔误沿播。「首位女副大臣」说法单源低质不采。交叉：商务大臣卡萨比=000268；与次大臣努拉·阿杰米000036互设关系。birth仅1970两处二手源，留空",
+    "000040完成（score 80本批最高）——职务纠错：实为KSU教育与学术事务副校长（非队列线索规划与发展副校长，该职由代理校长000037兼任；KSU官网2026-06-02领导页确证两人并列）。2024-12-31公布、2025-01-01就任（本人官方CV载明；KSU副校长任命原文未公开，同期先例均校董会决定）；现任（2026-10-02活动佐证）。履历：KSU生化系实验室技术员1986起步→教授2012→理学院院长2015-2021→副校长2025；1965-04-11生哈尔杰；伯明翰大学临床生化博士2003；576篇论文、斯坦福全球前2%科学家、2021伊本·西纳奖、WHO骨骼健康专家组2023-2028。官方英拼Nasser Mohammed Al-Daghri。交叉000037/000039/000041/000042。Wikidata Q60977118；社媒收X/LinkedIn/ResearchGate/ORCID",
+    "000042完成——职务纠错（重要）：非队列线索项目副校长，实为KSU研究生教育与科研副校长（hesr.ksu.edu.sa）；官网2026-06-02领导页显示项目副校长=德盖希姆000041。队列KSU条目疑因官网RTL抓取标题与姓名错位而系统性张冠李戴（000037代理校长✓/000040教育与学术✓/000041项目?/000042研科✓）——P5须整体复核SA-ACAD-001 key_people职务映射。2026-05-21校研究生院贺闻就任，现任。履历：KSU医学物理与纳米生物技术教授→阿卜杜拉国王纳米技术研究所总监2017→教育部R&D办公室总监督2018→研究生院院长2022-04-17（教育大臣决定）→现职；俄亥俄州立硕士+美国医学物理博士（UIUC说法无佐证不采）。照片已存photos/SA-PERSON-000042.jpg；社媒仅LinkedIn（X @HHadlaq系同名牙医已排除）。注意：000043在飞任务同挂「研科副校长」线索——待其回报核实是否为同人重复或另一职务",
+    "000043完成——重大纠错：赫尔西从未任KSU副校长！实职=KSU医疗城总经理/CEO（2020-07-16就任至今，此前2019-03医疗事务执行总监）兼心脏科学教授（2014起）。拼写纠错：Hersi（Ahmad Salah Hersi，MD MBA），非Al-Khorssi。履历：KSU MBBS 1995→Alberta内科/心脏科→Calgary电生理→Frankfurt MBA 2017→心脏科学系主任2011-16→法赫德国王心脏中心主任2018→医疗城CEO 2020；一级阿卜杜勒阿齐兹国王勋章(SPA 2012实证)。【KSU队列错位全景确认（P5系统性复核SA-ACAD-001）】：官网真实映射=马斯马利000037代理校长兼规划发展副校长/达格里000040教学与学术副校长/德盖希姆000041项目副校长(000041线索的教务副校长为错位)/哈德拉克000042研科副校长(2026-02-05前任亚齐德·阿勒谢赫)/赫尔西000043医疗城CEO(非副校长)。Google摘要拼接错位为成因。KSU医疗城作为实体可能缺组织档案，P5核查",
+    "000047完成——KFUPM学术事务副校长：2018-12-31由行使高等教育委员会职权的临时委员会第19次会议决定委任（3年任期，官方推文原文；CV自记2019起）；任期届满未见免职公告判断为续任，现任（官方电话簿+Pure活跃2026+2026-07官方帖三重确认）。履历：KFUPM研究助教1984起步→宾州州立土木博士1995→学生事务院长2007→工程科学学院院长2016→学术副校长2018/19至今；h指数32、美国专利共同发明人、ORCID 0000-0002-1047-2170。交叉：KFUPM校长萨格阿夫=000045（superior）、000048（colleague）。最高混淆风险=阿美勘探副总裁مسفر أحمد الزهراني（父名缩写几乎相同）已专门排除；与000034能源部扎赫拉尼父链不同。社媒仅LinkedIn",
+    "000048完成——KFUPM研究与创新副校长：线索属实无RTL错位（官网领导页执行团队逐人核对：000047学术/000048研创/000049行政财务）。该职系2020-2021研究体系重组新设，公开最早现身2021-05-27，无公开文告；现任（四重佐证）。履历：KFUPM电气学士1997/硕士2001→达尔豪斯博士2008→电机系主任2011→工学院院长2019→CeGP创始主任→研创副校长≥2021-05；副教授、h指数11。同名排除：manhom同名者为农牧部畜牧助理次官。【待P5裁决】两代理对KFUPM校长萨格阿夫ID结论冲突：000047代理称萨格阿夫=000045（索引命中），000048代理称库内未建档(null)——P5须查_name_index与000045实体归属后统一",
+    "000049完成——KFUPM行政与财务副校长：线索核实无误（官网英文领导页+阿语目录+hr子站+KBS+校新闻+中国使馆通稿六路交叉）。全名Ahmed Saleh Alojairi（أحمد صالح العجيري）。任命文告未公开，证据区间2022-12-03（时任教职员工事务长）→2025-02-16（Wayback领导页首档列为副校长）；现任（2025-10-21中国大使常华到访会见佐证）。履历：AMIS系主任→学生事务长2017-05~2018-03→人力资源长2020→教职员工事务长2022-12→副校长；滑铁卢MIS博士2011；2022-03-22起兼公共行政学院IPA理事。交叉：superior=000045萨格阿夫（第三个代理如此判定，000048的null说系孤例，倾向000045）、colleague=000047/000048。照片photos/SA-PERSON-000049.png；社媒X @Dr_Alojairi+LinkedIn",
+    "000054完成——拼写纠错：官方为كابلي/Kabli（K音），队列قبلي/Qabli系变体留作别名。KAU教学事务副校长线索核实无RTL错位（官网个人档案阿/英+新闻三重一致）；2025-10-02前后校长治校体制校内决定（تكليف）就任，未见王室令；现任（2026-05论坛/2026-09商会会见/代校长国庆致辞）。履历：KAU工业工程1999→诺丁汉硕2003博2009→副教授2020（注意非教授，dora.sa称谓以官网为准）→系主任2011-12→工学院发展副院长2012-18→工学院院长2018-25→教学副校长2025兼院系重组项目负责人；主持ABET认证2012-21。交叉：校长000051/校董会主席000052马沙茨/副主席000053/教育大臣000039。照片photos/SA-PERSON-000054.png；无社媒无Wikidata。同系助教مهند كابلي疑为兄弟已排除",
+    "000053完成——KAU校董会副主席线索属实无RTL错位。时间线：2020-11-12王室批准首届（3年）→2024-04-15连任（至约2027），现任。身份=Abdullatif bin AHMED Al-Othman（1958年生）：阿美前高级副总裁（财务/工程项目管理）、SAGIA前局长2012-05~2017-04（部长级；官方页记至2016与继任者2017-04-23敕令冲突，双记取2017-04）。企业任职17条入档：现任Almoosa健康集团董事长、BSF/Investcorp等董事；曾任阿美贸易(SA-CORP-102)/Sadara/Dussur/KAUST捐赠基金投资公司创始董事长。【纠错①】KAU校董会主席=马沙茨000052而非教育大臣（任务假设不成立）。【新重复嫌疑（P5查证）】000290疑为000052马沙茨重复条目，P4末核查合并。交叉：KAU校长000051阿拉马、前校长000056尤比、董事000214阿哈迈迪。照片photos/SA-PERSON-000053.png。birth仅1958年精度",
+    "000064完成——KAUST任期重大纠错：非线索2019-2023且未离任！实为2012-01-14到任（BESE首任院长2012-2020→智慧健康计划主任2020-01→2022-06-15接Bradley辞职出任科研副校长过渡任命）→现衔科研事务高级副校长，现任至今（KAUST官网现行领导页+瑞士驻沙使馆2026-08帖+2025-11获奖新闻三路互证）。「firial研究所」无可考，瑞士现职实为日内瓦阿伽玛基金会理事会主席+GliaPharm联合创始人。履历纠错：UCLA/QBRI未获证实——美国受训实为UCSD 1982 PhD（索尔克研究所Floyd Bloom实验室）；日内瓦MD 1979。荣誉：Academia Europaea 2001/猞猁之眼外籍院士2021/挪威科学院2024/都灵荣誉博士2025/IPSEN奖2016。Wikidata Q19841109；社媒LinkedIn/ORCID/ResearchGate",
+    "000059完成——PNU研科副校长线索属实无错位；任命链：2023-09-24代理副校长→2024-02-22前转正（文书未公开）。【重要遗漏职务补全】2025年中~2026-07-26任PNU代理校长（000030艾萨2025-05-08转教育部副部长后受命）；2026-07-26王室批准新校长نجلاء التويجري（奈杰拉·图瓦吉里，库内无ID——P4末resolve_ids查册），其代理期结束回任副校长。【PNU校长链完整建档】艾萨000030(2019-03~2025-05-08)→阿姆罗代理(2025-05~2026-07-26)→图瓦吉里(2026-07-26~)，P5修SA-ACAD-004。学术：理学院化学系教授（物理化学/液晶/DFT/电催化；Scholar滞留Assistant Professor以官网为准）。履历：化学系副系主任→理学院副院长→人力资源总处处长→副校长→代理校长→回任。Google Scholar/ORCID收录；无社媒。排除000600/000630（马齐德·阿姆鲁男性军方）",
+    "000060完成——PNU学术事务副校长线索成立无错位（官网署名+六平台官方社媒2024-01~2026-09一致配对）；任命区间1445هـ（2023-08时为招生注册院长→2024-01已任副校长），现任至2026-09-24，新校长图瓦吉里2026-07-25/26上任后续任。履历：数学学者——迈季迈阿教育学院助教1999→PNU纯数学博士2011（分数阶边值问题）→迈季迈阿大学数学系主任两任→PNU数学科学系副教授→招生注册院长→副校长；1978年生（本人签署履历DOC佐证）。Scholar职称滞后以官网为准。【连带发现】官网「捐赠与投资副校长」页搜索快照错显法拉赫姓名，实职=d.مشاعل المطيري（搜索引擎抓取残留）——又一个RTL类错位案例，P5修SA-ACAD-004时注意。交叉：000059/000030/图瓦吉里(未注册)。无社媒无Wikidata",
+    "000071完成——KSAU-HS官网副校长名单页逐人核对无RTL错位（Al Kushi=教学事务VP/Hejaili=研究生教育VP/Moamary=发展质量VP，与000072/000073线索一致）。2024-08经教育大臣班延批准出任（官方LinkedIn贺帖），此前副校长助理2017-2024；现任（2026-08-27新闻）。履历：医师——KAU MBBS 1993/UBC FRCPC 2000（妇科与乳腺病理亚专科）→KAMC-R顾问病理(SA-GOV-090)→KSAU-HS基础科学系主任→COSHP-R院长2013→副校长助理2017→副校长2024-08。交叉：校长克纳维=000070（superior）、colleague 000072、associate 000264（卫生委员会指南间接交叉）。阿语页院长职务滞后已注。社媒仅LinkedIn",
+    "000072完成——KSAU-HS研究生教育副校长线索属实无错位（官网三处核对+与000071/000073职务配对一致）。任命链：2023-11-13教育部长批准委派（校级职务部级批准，非王室令）；【建档前2天新动态】2026-09-30校长克纳维(000070)决定续予信任重新任命，职衔扩为「研究生教育与科学研究副校长」——P5修SA-ACAD-009时用新职衔。履历：肾内科教授——KAMC透析项目医疗主任2008→GME主任2011-13→研究生教育副主任2013→主任2017-2024→副校长2023；MBBS吉达KAU 1993/沙特内科Board 1998/西安大略肾脏fellowship 2001。交叉：000070上级、000071/000073同僚、000264（SCFHS董事会主席=卫生部长，本人为董事成员）、000261为2023任命批准者推断（通报未点名）。照片photos/SA-PERSON-000072.webp；无社媒",
+    "000073完成——KSAU-HS发展质量副校长线索属实无错位（官网领导页三人组第三次互证：000071教学/000072研教/000073发展质量）。任命：2013-07由高等教育理事会依校长克纳维(000070)提名任命（此前教学事务助理副校长两年）；现任（领导页2026-07-01更新+LinkedIn 2026-02活跃）。履历：呼吸科医师——法赫德国王国民卫队医院住院医1990-94→UBC会士1995-97→KAMC-R呼吸顾问1997至今→住院医培训项目主任→医学院创院临床事务副院长2006-10→助理副校长→副校长2013-07至今；兼职KAMC-R执行医疗总监2015-10~2019-02（MERS后重开/JCI×2/产能+40%）。资质MBBS/ABIM/FRCP(Edin)/MBA；《呼吸医学年鉴》创刊主编；全名محمد بن سعد بن محمد المعماري。社媒X @almoamary+LinkedIn+ORCID。000264无直接职务关联未建关系",
+    "000078完成——Alfaisal副校长（财务行政）兼医学院院长：官网exec-officers+catalog两页+教师主页三处一致，本条目无误（但IP快照37.99.159.85存在RTL错位痕迹——Maha AlSaud被排在校长行，不涉本档，P5查SA-ACAD-026时注意核对校长行）。医学院创院院长2008-01至今，副校长约2015起；现任（2026-08第十九届迎新）。履历纠错：非King Saud Medical City——KSU示教员1984→教授兼胸外科主任2000→KKUH顾问1995→KFSHRC胸外科顾问兼外科主任1997（CV为准，ArabNews 2008说有出入）→Alfaisal 2008；胸外科专家：FRCS(Edin)获G.B.Ong奖章、Royal Brompton肺移植训练、参与300+例肺移植。拼写纠错：规范为القطان/AlQattan非الكتان。Wikidata Q89493488（stub）。交叉：校长000077、校董会主席哈立德·费萨尔亲王000075、colleague 000079/000080；KFSHRC无org_id（索引缺该机构）。照片photos/SA-PERSON-000078.jpg",
+    "000088完成——职衔纠错：KFCRIS官网实为助理秘书长（科学事务）مساعد الأمين العام للشؤون العلمية（非线索科研事务for Research），兼高级研究员；官网团队页配对核实无RTL错位；现任（2024-05官方X/2026-04阿杰尔/2026-09会议页三时点），升任日期无公开公告。履历：非内部起家——2020-09入中心（也门研究项目主任兼编辑评审部主任）；此前梅斯巴尔研究中心顾问2014起、伊尔姆基金会副秘书长2007-2010、伊玛目宰德文化基金会联合创始人。学术：KCL社会人类学博士2016（论文：沙特人推特宗教解构叙事）、代表作Tweeted Heresies(OUP 2019)/主编Huthi Movement(I.B.Tauris 2022)；1969生贝鲁特。交叉：主席图尔基·费萨尔亲王=000086、秘书长玛哈·宾特·穆罕默德·费萨尔=000087、colleague 000089。社媒X @amiQ1/LinkedIn/ResearchGate；Wikidata Q55392377。照片photos/SA-PERSON-000088.jpg",
+    "000083完成——KACST研发高级副总裁（职衔变体：النائب الأول/الأعلى/Senior VP同指一职）：2022-07-01委任（与总裁杜苏基2022重组同批），现任（SPA 2026-01/08+Pasqal 2026-08-31+LinkedIn 2026-09-22）。履历：KACST航天航空研究所副所长2016-18→主管2019-05~2022-07→SVP；GAMI创始团队顾问2018-19；航天委员会非专职顾问2019（国家航天战略/航天法）。教育：萨里电气工程博士2013（硕士5G方向论文2009/KAU学士2006）。新增交叉：现兼任C4IR沙特董事会主席（2026-08；2025-04主席还是杜苏基）。【重复嫌疑（P5查证）】000082疑与000046能源大臣重复——机构档案SA-ACAD-036用000082而本批000061已确认并入000046；P4末核查000082实体归属。交叉：上级000081（KACST总裁）/000046、同僚000084/000085。社媒仅LinkedIn；无Wikidata",
+    "000091完成——Almarai副董事长任期纠错：2025-06-26特别股东大会改章程（董事会任期改四年），新董事会2025-08-07~2029-08-06九人；董事长纳伊夫亲王+副董事长穆海迪布（均非执行），Tadawul披露原文直读，现任。企业任职清单：Savola(2050)董事长（2025-07-01连任，任期至2029-06-30）、Rafal地产董事长、穆海迪布家族集团董事长、Vision Invest/Tarabot/国王萨勒曼残疾研究中心/Kulana董事；曾任SABB董事（至2019合并）/ACWA Power董事/MEPCO董事长（现由其子担任）。2011入Almarai董事会、副董事长不晚于2017-03、东京大学荣誉博士2012。父子：其子穆萨布=000129。Manhom所列Tasnee等滞后未采；birth两说(1955-02-23快照 vs 1956)留空。【组织档案缺口（P5）】SA-CORP-038 Savola索引已映射但档案文件未生成；Rafal/Vision Invest/Tarabot/家族集团均未入库。交叉：000090（Almarai董事长）/000092（CEO）/000094/000095。社媒仅LinkedIn双锚点",
+    "000095完成——身份重大纠错：实为Georges P. SCHORDERET（瑞士籍，1953-09生），线索Chodreise/Choueiri均误拼；非PIF派驻新人——而是阿尔马莱老臣：约2004加入，历任CFO(2011)/COO/CEO两段（2015-02~2019-04退休、2019-07-07复任2021-03-07交棒Al Bader），间任董事会顾问；首次入董事会2025-08-07（四年任期至2029-08-06）。PIF持股16.32%已于2021-03-25转予子公司SALIC（P5修SA-CORP-001股权表述）。其他任职：扎因电信独立董事两段（2015辞/2022-07-06辞审计委）、Jamjoom Pharma 2023-04~2025-06；现任Topian(NEOM食品)董事兼投委会主席/SAPIN/Helvetican等；早年SAirGroup CFO(至2001)/Alusuisse-Lonza CFO。交叉：董事长纳伊夫亲王=000090、副董事长000091、董事法德利（环境水利农业大臣）=000094。birth_date留空仅知1953-09。社媒仅LinkedIn瑞士站（另一沙特站同名不采）",
+    "000096完成——Jarir管理层执行顾问（执行董事类），任期2025-03-09~2029-03-08（2025-03-05股东大会连任），现任。【头衔变更新发现】Wayback证明2022-11~2025-10-20官网头衔均为COO，改为执行顾问发生在2025-10-20后~2026-10-02前，无Tadawul人事公告（Manhom/英文维基仍写COO——P5修SA-CORP-004时注意）。家族甄别：属创始家族成员非职业经理人——链式全名ناصر بن عبد العزيز بن ناصر：父阿卜杜勒阿齐兹·本·纳赛尔（Jarir代理CFO 2022起，疑同一人），祖父纳赛尔与董事长000024（创始人）/CEO 000023相同→推断堂兄弟。履历：东华盛顿大学计算机学士1981→海水淡化公营机构IT→1990起任Jarir COO（Manhom二手汇编）。直接持股0.1666667%。照片photos/SA-PERSON-000096.png；与000097（بن عبد الرحمن链）父名不同严格区分",
+    "000097完成——Jarir非执行董事。任期纠错：Jarir董事会为2025-03-05股东大会选出（四年2025-03-09~2029-03-08），与Almarai的2025-06改章程案无关（派发线索混淆了两家公司）。进入董事会路径：2022-12-19创始人000024之弟阿卜杜拉·阿吉勒（1979年起任成员代表董事）辞任（2023-07-21讣告），本目标2023-01-01补缺入上届董事会→2025-03连任。关系甄别：父=阿卜杜拉、祖父=阿卜杜拉赫曼·本·纳赛尔→推断为阿卜杜拉之子、创始人000024之侄（存疑推断已注）——【000024档案误差（P5修）】其family_members把本目标记为brother，与父名链矛盾。与000096父链不同确系两人，互设colleague。【派发线索纠错】Jarir CEO=000023（副董事长兼CEO阿卜杜勒卡里姆，索引有映射档案未建），000092系Almarai CEO与本档无关。履历：雪城MIS→SABB客户经理→贾里尔投资公司分析师→贾里尔房地产CEO（现任）+商业开发副主席。社媒仅LinkedIn",
+    "000098完成——【现状纠错】已非Jarir独立董事：2022-03-09~2025-03-08任期届满，2025-03-05新届8人不含她（FY2025年报附注明确）；jarir.com官网仍列系滞后页。职业背景纠错：非会计师/学者——航空/IT运营管理者：flynas首席共享服务官（现任，2018年成为沙特民航业首位女性高管）；现任Mobi工业（原国家化肥）独立董事兼提名薪酬委主席。STC Pay线索证伪（系同批他人简历内容）。1985-09-16生（候选人CV PDF）。交叉：000096/000097为2022-2025届董事会同事、flynas=SA-CORP-020。与000097确认：Jarir董事会四年任期系2025-03-05决议所定（与Almarai 6月改章程案无关——两家公司两次独立事件）",
+    "000100完成——官方拼写Hethloul Bin SALEH Al Hethloul（هذلول بن صالح بن محمد الهذلول），非Hazlol/Hadhloul。达尔阿卡兰副董事长：2025-07-08董事会决议任命（Tadawul 2025-07-09披露），此前2004年起多届仅任董事；现任（任期2025-06-23~2029-06-22，非执行，审计委+执委会委员）——注意达尔阿卡兰董事会周期与Jarir(2025-03)/Almarai(2025-08)各不相同。其他任职：达尔阿卡兰伊斯兰债券公司副董事长、Tharawat投资控股(阿联酋)董事兼合伙人；曾任巴林Alkhair银行董事2004-2016、Alkhair Capital沙特2008-2018、SHL住房融资2007-2018、王国分期公司总经理。教育仅商业文凭（利雅得商业中等学院1990）。直接持股1368股。交叉：董事长沙拉什=000099、000101/000102/000103均colleague。照片photos/SA-PERSON-000100.png；无社媒无Wikidata",
+    "000102完成——拼写纠错：官方为الجارالله/Al-Jarallah（非线索الجرلة）。达尔阿卡兰非执行董事：2025-06-29股东大会当选（任期2025-06-23~2029-06-22），2025-07-08起任审计委员会主席；上届2022-06当选；Manhom称2004年起任董事（二级源）。其他任职纠错：库瓦拉金融(Nomu 9596)董事2021-03~2024-11-17辞任（2024-09连任后旋辞，Decypha仍列现任已过时）；SHL住房2007-2013；赫扎姆地产董事（二级源）。教育三源冲突（管理学学士/1993商学/会计文凭）已综合备考；1969-07-20生（Manhom二级源）。DFSA招股书证实其为1994年六创始家族股东之一。交叉：000099/000100/000101/000103四条colleague。无社媒无Wikidata",
+    "000105完成——扎米尔工业（SENAAT）副董事长两届：2022-05-01~2025-04-30、2025-05-01~2028-04-30（现届兼提名薪酬委委员），现任（官网+交易所双确认）；Manhom误写2022起任董事长已纠错。家族任职网：扎米尔集团控股副董事长2018起、扎米尔房地产董事长2020起、Wahaj沙特先进技术董事长2019起、SVC董事2018起、Kinan董事2006起；Zoujaj副董事长2020-2023已离任（其2026 CV仍列，依交易所证据记离任）。【Ticker纠错（P5修SA-CORP-013）】扎米尔工业=Tadawul 2240（非线索2080；2080系国家天然气），2025-10更名为SENAAT代码不变。【组织档案缺口】SA-CORP-046集团控股索引有映射无档案文件。交叉：董事长000104阿卜杜拉·扎米尔、000106董事、CEO 000107 Zaatari。教育：KSU工业工程2001+哈佛房地产高管项目2013；1978-03-27生（Manhom单源）；无社媒无Wikidata",
+    "000103完成——达尔阿卡兰非执行董事（「独立董事」标签复核不成立：官方候选人简历表未填报独立，独立标注仅见于其سهل融资职务2021-2023，2023-12-21辞任）；任期2025-06-23~2029-06-22，审计委+薪酬委委员。【家族甄别纠错（P5修SA-CORP-011）】达尔阿卡兰并非卡西尔/卡西姆家族创立——1994年六个商业家族联合发起，核心为谢拉什家族（创始人/现任董事长尤素夫·谢拉什）；本人为职业经理人（延布皇家委员会1989-95/Fama集团1995-2004），2004受聘，曾任达尔阿卡兰CEO/总经理2004-2011（2011-12辞任董事），创办Amjal房地产2012-2017（Manhom/Decypha仍称现任已过时）。个人持股0.0001%。1963-05-11生（回历换算）；KSU建筑工程1986。交叉：000100副董事长（非董事长——派发词误写已纠）/000101/000102 colleague。无社媒无Wikidata",
+    "000106完成——SENAAT（原扎米尔工业）非执行董事：2022-05~2025-04届当选+2025-05-04留任（至2028-04-30，审计委委员），SENAAT官网2026-10-02直读确认现任。Ticker纠错与000105一致：2240（2080已重分配给GASCO）。集团任职：扎米尔集团控股CFO/财务事务副执行官2005年起（四源），此前集团财务分析师1996-2005。外部董事：EIC(1303)2024-12连任至2027-12、UCIC(1323)2025-01-20起；Chemanol(2001)曾任副董事长已卸任（纠正曾任成员说法）。教育KFUPM会计1995；1973-10-18生（Manhom单源）。谱系：创始人谢赫·阿卜杜拉之孙、000104/000105的堂兄弟（父名链分属不同儿子支系；其父名对应前工业电力大臣Abdulaziz bin Abdullah 1942-2019，与奥斯曼·扎米尔系兄弟——推断已注）。交叉000104/000105/000107。注意：董事会同事Khalid Al Fuhaid无ID勿与000439混淆",
+    "000118完成——【性别纠错】为女性（هديل/Hadeel Saleh Kamel），任务提示Haitham男名与官方拼写无关。家族关系（阿语维基双条目互证）：创始人萨利赫·卡米勒(000114)与埃及女演员صفاء أبو السعود之女；与000115董事长阿卜杜拉/000116副董事长穆希丁为同父异母兄妹——三人在达拉·巴拉卡同一董事会共事（2026-10-02官网直读董事会：董事长Abdullah/Mohyedin副/CEO Yamani/董事Hadeel/Sabahi/Baryyan；控股未上市无任期披露）。「长期任达拉总裁涉ART」描述实指其父000114非本人；本人媒体系任职：ART总经理/ADD埃及北非副总裁/AMD董事总经理/AMC规划发展副总裁。家族任职（埃及为主）：AMIC副董事长2010起、A.T.Lease董事长2020-06起、达拉埃及投资MD、伊斯梅利亚系列公司。新发现：红海电影基金会受托人（2024-05既有受托人）；掌管约占阿语电影遗产60%的最大电影资料库。TheOfficialBoard标独立董事与家族身份不符不采。2000年工商管理学士（院校未披露）。交叉000114/000115/000116；000119副CEO未建亲属关系（无披露）。无社媒无Wikidata",
+    "000119完成——达拉·巴拉卡副CEO现任（2026-10-02官网执行管理层，仅次于CEO亚马尼）；2020年（创始人逝世同年）起任集团副总裁/副CEO；非空降：2000年起集团内逐级升任（中部执行总监→项目板块MD→助理副总裁→副CEO），1998-2000桑巴金融出身。【家族关系纠错】父名链عمرو بن محمد بن عبدالله كامل——父穆罕默德系创始人萨利赫·卡米勒(000114)之兄弟（Okaz 2007悼文证实同祖父），故本人与000115/000116/000118为堂亲cousin而非兄弟——卡米勒家族两支系格局厘清：兄支（000115/000116同母+000118异母）+弟支（本人）。其他：达拉健康董事2019起、锡纳德控股副董事长2022-10起、阿姆拉克国际副董事长（2023-10-17起）、多家达拉系子公司董事长；另艾曼·卡米勒同列执行管理层（亲缘未证实仅同事）。无社媒无Wikidata",
+    "000122查重命中000130——flynas副董事长迈曼与Tasnee副董事长系同一人（Talal Ibrahim AlMaiman，KHC CEO）。纠错与线索：①flynas股东结构=National Flight Services约29%+Kingdom Holding约27%（IPO前37%）+Nasser Al Rashid约6.5%，无Al-Azuni Group；董事长=艾耶德·杰伊德000120（非Bader Al-Kharashi）②迈曼任职网供000130并入：KHC CEO 2017起/董事1996起、BSF副董事长2019起、BSF Capital董事长、Tasnee副董事长2022起、达拉健康董事2022起等；MBA利物浦2009/EE埃文斯维尔1979③X/TikTok冒充瓦利德王子办公室的诈骗号已排除；LinkedIn收录④【org数据质量】现届flynas IR董事会6人=杰伊德/迈曼/胡利/巴提/法里斯/穆罕纳——000124（萨阿德·穆萨）不在现届名单，疑上届董事，已给在飞000124代理发补充线索核实。P5修SA-CORP-020时核对",
+    "000123完成——全名Hamza Bahi Adeen Al Kholi（حمزة بهي الدين الخولي）。flynas董事：2012年起多届连任，本届2023-11-26~2027-11-25（非执行非独立），无委员会职务，现任。股东甄别：不代表外部股东——2024年NAS Holding解散时获配367.6万股（IPO摊薄后1.80%），六董事中唯一直接持股者；兼NAS Holding董事。履历：实业家——胡利集团创始人/董事长CEO（1971起）、HAKTCO等合伙、朱夫水泥非执行董事、埃及First Arabian系董事长。 extraordinary兼职：格林纳达驻UNESCO特命全权大使兼常驻代表（2025-10-07执董会记录直读证实在任！）；2006法国荣誉军团骑士。KSU药学学士1966；约1945/46年生。Wikidata Q13141649（条目描述埃及商人系错误，国籍沙特以招股书为准）。【佐证000124线索】招股书6人董事名单确认无Al-Mousa——与SA-CORP-020列其为董事冲突，待000128代理回报裁定。另确认000098的flynas职务现任（前独立董事系Jarir任期）",
+    "000127完成——Mobily职务链条完整还原：2021-12入董事会（独立）→2023-04-20首任董事长（接辞职的阿穆迪）→2024-12-01连任董事长→2025-10-21辞董事长转任副董事长（同日阿穆迪卸副主席、阿扎维000125接董事长）→现任副主席非执行（官网2026-10-02直读，拼写Abdulkarim I. AlNafie）。履历：SIDF职员1981-2003→沙特陶瓷CEO 2003-2015→SIDF总经理2015-2018→沙特陶瓷执行董事2018-2022（工业金融序列非PIF系）。其他：MIS董事（2025-07连任至2029-07）、Astra工业集团现任、纳西吉/布万等；曾任桑巴/MODON(SA-GOV-044)/巴赫里(SA-CORP-084)/利雅得钢铁。LCGPA董事单源待核未入正式字段。交叉：000125阿扎维、000126班比拉；阿穆迪不在库。教育1980怀特沃斯大学会计工商管理（拼写待核）。照片photos/SA-PERSON-000127.png；无Wikidata",
+    "000130完成（000122查重并入的主档）——identity_note已注明000122为重复ID待P4末合并；flynas副董事长(2013至今,SA-CORP-020)已并入工作经历；_f122研究缓存复用成功。Tasnee副董事长两说并存（flynas IR作2022起/Tasnee官方公告+Manhom作2025-07-06新届任命，任期至2029-07-05）；⚠️新冲突：Tasnee 2025-07-06新届执委会名单不含其名vs flynas IR执委会委员2007至今——已标注存疑。本科专业两说（电气vs工业工程，从多数披露）。KRED起止两说并存。出生1954-03-06（Manhom单源）。交叉：flynas董事会000120/000121/000123、Tasnee 000129、KHC上级=瓦利德亲王000584。诈骗社媒号（冒充瓦利德王子办公室）排除；仅LinkedIn收录。无Wikidata",
+    "000124完成——【现状定案】非现任董事：2023-11-26届董事（至迟2022-09-24在任），2024年中辞职——招股书脚注3明确巴提/法里斯系2024-06-26董事会决议接替辞职的前董事穆萨与哈纳基（2024-10-03股东大会批准）；IR官网6人名单不含他属正确显示。2024-06-26同日改任提名薪酬委员会非董事委员（عضو من خارج المجلس），2026-10-02 IR委员会页确认仍在任。全名Saad Ibrahim AlMousa。股东代表假设排除（家族非披露股东）。其他：Ashmore副董事长兼独立董事（2023-10起，NRC主席+审计风险委）、Zain KSA董事2022-04~2025-04换届未连任、إنمار الروابي(Nomu 9521)2019~2022、两家家族公司CEO、瓦克夫基金会董事长；利雅得地产世家兄弟八人。education无任何披露留空；birth 1979-05-28单源未达双源留空记note。LinkedIn收录。P5修SA-CORP-020：其key_people应改为「前董事（2022/2023-2024），现提名薪酬委非董事委员」",
+    "000131完成——【CEO现状重要纠错】2024-04-01就任Tasnee CEO，2026-08-17董事会批准因退休辞职，2026-09-30卸任（建档3天前），继任者阿勒米沙尔=000132自2026-10-01接任；本人留任董事至2029-07-05届满（风险与治理委委员）——SA-CORP-028 key_people需按此更新（CEO=000132、其转纯董事）。履历：SABIC财务序列25+年（CFO 2011-2015）→Tasnee内部晋升CFO 2015→CEO 2024。其他任职：SAL董事长2021起、SCCH董事长2025-01起、Maadaniyah董事长2026-06-08起、TAQA董事兼审计委主席2015-05起。【Ticker纠错（P5修SA-CORP-028）】Tasnee=Tadawul 2060非2290（派发线索有误）。交叉000129/000130/000132。照片photos/SA-PERSON-000131.jpg；无社媒无Wikidata",
+    "000138完成（noon私营企业登记级48分，预期内）——分析副总裁现任（LinkedIn快照2019-07至今与2026-10精确吻合；noon总任期自2018-04）。履历（LinkedIn自述已标注）：Jabong→Wadi.com定价序列2015-2018→noon战略项目高级经理→分析VP 2019-07；Wadi系Alabbar系早期电商并入noon，平移轨迹自洽。常驻地两说并存（古尔冈分析中心vs迪拜）已注。与000137（维卡斯·杰恩，物流VP，2017创始团队）严格区分。交叉：Alabbar=000135、CEO Faraz Khalid=000136（superior）、000137 colleague。同名排除含关键项：Maersk前noon Grocery物流的另一Saurabh Singh。社媒仅LinkedIn。无birth/education双源留空",
+    "000134完成——Tasnee独立成员（非股东席位）：2025-07-06~2029-07-05任期，风险与治理委+审计委委员，至迟2026-04-30起任风险与治理委主席，现任。Ticker再证：Tasnee=2060（2290系YANSAB，与000131一致）。家族甄别：父=哈立德·本·阿卜杜拉·扎米尔——扎米尔集团控股现任主席（兼Sipchem主席）；非Abdulrahman之子（父名不等）；与000104-106同属创始人谢赫·阿卜杜拉家族但具体房支不断言。「战略发展执行官」线索无来源应删。履历：THIQAH战略执行总监现任、沙特陶瓷(2040)董事；曾任阿美战略顾问/KFUPM MBA副教授/Monshaat顾问/Parsons战略总监；Gulf General保险独立董事2026-06-08辞职生效（原NRC主席）。仅LinkedIn。",
+    "000137完成（noon私营登记级58分）——物流运营副总裁现任（四源交叉：2026 LinkedIn目录Since Founding+TOB现行+RocketReach currently+ZoomInfo；帖文2019-2024连续）。职衔三源有差异（VP Logistics/VP Logistics Operations/VP Global Operations）主取TOB。履历纠错：非DHL/Foxconn背景——实为Jabong 2014→Namshi物流负责人2015（降本30%）→noon 2017创始运营团队（UAE/KSA开城、noon Grocery 2020/noon Food 2021物流上线）。教育MDI MBA 2012-14+Manipal机电学士2010（自述/转述性质）。交叉：董事长Alabbar=000135、CEO Faraz Khalid=000136（superior）、000138 colleague。10+组同名排除。仅LinkedIn",
+    "000140查重命中000197（财长=PIF董事）——贾丹多ID问题（000140/000258/000390→000197）全线闭合，唯000197有档（84分）。【P5修】SA-FIN-001（PIF组织档案）key_people中000140应改指000197。【PIF董事会11人名单已存证】(_f140_pif_jina.txt)：MBS主席、Al-Assaf、Al Qasabi(000268)、Al Shaikh、Al-Jadaan(000197)、Al-Khateeb(000130同名近亲注意=旅游大臣阿勒哈提卜)、Al-Falih(000015)、Alibrahim、Al-Rumayyan(总裁)、Altwaijri、Al-Saif——P5修SA-FIN-001 key_people时可直接采用",
+    "000141就地查重命中000268（商务大臣卡萨比=PIF董事），免派代理。PIF董事会批次查重闭合：000140→000197（财长）、000141→000268（商务大臣）；000142（阿萨夫）/000143（哈提卜→000332）此前已建。P5修SA-FIN-001时key_people全部指向主ID",
+    "000139完成——PIF副总裁兼国际投资负责人2021-06起（SEC委托书精确到月；此前国际投资部负责人2016-10~2021-06/高级顾问2015-10起），现任。新职务：2026-08起兼PIF共享服务部代理负责人、2026-09起任Savvy Games临时CEO（接Brian Ward）；主导550亿美元收购EA（2026-08交割）。SEC逐一核对董事清单：Lucid董事2019-04→董事长2023-04（两委员会主席）、Uber董事2023-11（审计委）、Hapag-Lloyd 2018-02、Manara Minerals董事长、Sanabil/SITE/阿兹慕-贝尼蒂。履历：Saudi Fransi Capital资管负责人→Morgan Stanley/CMA/SIDF早年。KSU国际商务+旧金山大学MBA三方一致；49岁(2026委托书)约1976/77年生。交叉：MBS=000003（PIF主席）、鲁梅扬=000002（总裁）；org Lucid=SA-CORP-070/Uber=072/Savvy=037。【org索引重复映射（P5查）】Savvy=SA-CORP-037与SA-CORP-074在索引中重复映射同一公司，P4末核查合并",
+    "000145完成——王室令A/26（回历1448-01-26=2026-07-11）任SAMA技术事务副行长（特等秩；职务名纠错：官方为Technical Affairs非线索Technology and Innovation，其履历为储备投资/货币序列非金融科技条线）；同日王子令任命两副行长（另一位=000146）。全名طلال بن فؤاد بن أحمد الحمود。在任（2026-10-02 SAMA阿英领导页+董事会页直读）。【行长纠错】SAMA现任行长=艾曼·赛亚里000144（2023-02-02王室令就任），非线索所称胡莱菲（已于2021年初离任）——P5修SA-FIN-002时核对。履历：毕马威(次级源)→SAMA 2009投资分析师→固收与另类投资主管2011-13→外部固收主管2013-17→储备管理司司长2017-22→投资副行长2022-24→助理行长(货币)2024-02→现职2026-07。其他：SAMA董事会(职务兼任)、沙特发展基金董事(org未登记null)。教育：UBC经济学士+西蒙弗雷泽工商管理学士（加拿大）。交叉000144/000146/000181。照片photos/SA-PERSON-000145.jpg；无社媒无Wikidata",
+    "000146完成——拼写纠错：官方为الدحيم/Al-Deheem（非线索الظهيم/Al-Dhahim），全名عبدالإله بن عبدالعزيز بن محمد الدحيم。王室令أ/27（2026-07-11，与000145的A/26同日批次）任SAMA行政事务副行长（卓越级），在任（2026-10-02领导页直取）。履历：SAMA内部——投资风险与绩效总监→财政与行政副行长→助理行长(行政,2024-09佐证)→现职（前两段日期未披露留空）。其他：SAMA董事会当然成员+ZATCA(SA-GOV-047)董事会成员。教育：KFUPM金融学士+密歇根罗斯高管课程。交叉：行长000144、同批000145。无社媒无Wikidata",
+    "000148查重命中000109（朱法利）。重要时间线纠错：其SAMA董事任命=王室令69117号2022-06-05批次（同批含哈马德·赛亚里=000147与Sheila Alrowaily=000149），非2026-07批次（该批仅为两名副行长000145/000146）；在任（2026-10-02官网在列）。【P5修】SA-FIN-002 key_people[4]的person_id 000148应改指000109；索引000148条目重定向。附：000109档案notes第9条已预标记此冲突",
+    "000147完成——身份重磅：他是SAMA史上任期最长前局长（1983~2009-02-14逾26年，BIS表彰的各成员央行最长行长）！王室令69117号（2022-06-05）任命为董事会5名非政府成员之首（部长级敬称），同批=朱法利000109第2+拉希德·哈米德+阿卜杜勒卡迪尔+鲁瓦伊利000149；在任（2026-10-02董事会页直读）；2026-07批次未涉董事会非政府成员。与行长000144父名链不同非亲属。履历：利雅得公共行政学院讲师→SIDF总干事→PIF秘书长（2009并任PIF董事+最高经济委员会成员）→SAMA监察长兼副行长1980→局长1983→IFSB理事会轮值主席2009→Petrochem董事会主席2012-2022（公司2022-04退市）→SAMA董事2022今。【P5修SA-FIN-002】非政府成员任期非5年——2020央行法(M/36)第8条规定7年可续。born 1941（仅年份）。交叉000144/000145/000146/000109/000499（贾西尔，副手及继任者）。拼写Hamad Saud Al-Sayyari。无社媒无Wikidata",
+    "000149完成——69117号令复核确认：原文伊历1443年6月6日（前批000147线索的10-06系历法月序笔误）；同批5人=赛亚里000147+朱法利000109+拉希德（SAMA材料口径حميد/راشد不一已注）+阿卜杜拉·阿卜杜勒卡迪尔+希拉·鲁瓦伊利第5位。在任（2026-10-02董事会页）。履历纠错：非银行业科班——阿美投资财务序列1998入职、2019起任阿美子公司Wisayah全球投资CEO；银行交集仅SNB董事2021-05~2022-06（获任央行董事即辞）。「首位女性行长级」未证实，可证实的=SAMA史上首位女性董事。新发现：IFRS Foundation受托人2025-01~2027-12（Companies House登记出生1966-03）、NEOM投资财务委成员、G20 EMPOWER沙特私营部门主席、哈萨纳董事2026-08-26改组卸任、Hart Energy 2021能源界最具影响力女性。Wikidata Q115629453；LinkedIn收录",
+    "000152完成——2026-09-03获任SNB副CEO（即日生效，集团强化高管层新动作，近期新设副职）。履历链精确化：桑巴财资资深交易员2008-2011（衍生品/外汇）→NCB 2011（利率交易主管→交易部主管→EVP首席交易策略）→2021合并入SNB（EVP全球交易银行）→2022 SEVP财资业务集团主管。纠错：SA-FIN-003记2022年加入SNB不精确（2011已入NCB法人前身）——P5修。子公司：TFKB土耳其担保参与银行（SNB持股67.03%）董事会主席2025-05-02起兼薪酬治理委主席（org_id=SA-participation_bank-001）。拼写纠错：官方Al-Thumairi（线索Al-Sumairi无来源支持）。教育：KFUPM MIS 2008+伦敦商学院2013/沃顿2015/哥大2019高管教育。交叉：CEO 000151萨德汉（superior）、董事长000150加姆迪、CFO 000153伊德、000154谢里夫（151/153/154文件未落盘，关系按索引名建）。照片photos/SA-PERSON-000152.jpg；LinkedIn收录",
+    "000154完成——SNB Capital CEO 2021-02就任现任（PIF 2020-12-22宣布主导NCB Capital+Samba Capital合并实体）。「兼董事会成员」双重成立：SNB Capital董事+SNB母行董事（2018起非执行、曾任母行副主席兼执委至2021-02、2024-05连任3年）；org归属=CEO/SNB Capital董事→SA-investment_bank-003、母行董事→SA-FIN-003。履历：SIDF信贷→比拉德银行消费金融初创→CMA注册与上市部主任2006-2013→利雅得资本CEO→PIF沙特投资总局局长2017-2020→现职。其他：AviLease副董事长2022起、TONOMUS 2021起、资本市场机构委员会主席2023起、REGA董事；曾任沙特电力(SA-SOE-002)/STC(004)/SABIC(003)董事。业绩：2024阿美二次发行123.5亿美元、2025 ACWA增发+Nice One IPO、福布斯中东最强资产管理人2025/2026连庄（AUM约701亿美元）。拼写纠错：官方Rashed Ibrahim Sharif（非Rasheed/Al-Sharif拼写）。born 1975（仅年份）。【新重复嫌疑（P5查证）】000151（طارق عبد الرحمن السدحان）与000165（Tareq Al-Sadhan）疑为同一人（SNB CEO）重复映射——000152档案已按索引引000151，P4末核查统一",
+    "000158完成——拉吉哈银行非执行家族董事三连任（2017-2020/2020-2023/2023-11-14~2026-11-13现任）；2026-07-09已开放下届提名。家族席位基础=家族控股「穆罕默德·阿卜杜拉齐兹·拉吉哈及子投资公司」董事总经理兼副董事长；另任拉吉哈钢铁/贝兰/沙特旅游开发/达姆房地产等6家董事长+半岛家电副董事长；主持其父慈善瓦克夫董事会；著有《تجربتي مع الوقف》。1969-09-13生；Wikidata Q26689645。【关键预判（P5与000159/000160核对）】SA-FIN-004引英文维基「11人董事会4名家族董事」系过时记载——2023-2026届家族董事仅2人（董事长阿卜杜拉·本·苏莱曼+巴德尔本人）；000159（穆罕默德·本·阿卜杜拉）与000160（苏莱曼·本·萨利赫）均不在本届！2024-12空缺系独立董事辞职（非家族），2025-02由菲萨尔·阿巴海勒补选。000159在飞代理应自行核实此点。父名链：بن محمد بن عبدالعزيز（父=创始四兄弟之一的穆罕默德）；000155标注cousin正确。交叉000155/000156/000157/000159/000160/000296",
+    "000159完成——与000158的000158派发词预判双双证实：【现状纠错】非现任银行董事——1988年起任董事（招股书自述），2011-2014/2014-2017两届在档（2014届登记为独立董事+审计合规委），2017-10-22股东大会未获连任、任期止于2017-11-13；2017/2020/2023三届及官网现行页均无此人。【P5修000155档案】其对000159「现家族董事」描述过时需改。与000158实为堂兄弟非兄弟（父名链：000158父=穆罕默德·本·阿卜杜勒阿齐兹，000159父=阿卜杜拉·本·阿卜杜勒阿齐兹·本·萨利赫，同祖；决定性证据=2014年报同届名单两人并列）。家族企业：TADCO(6040)董事1989-94→副主席1994-2010→主席2010~2019-01（留任董事）→2020-09-12辞职；拉吉哈化工集团主席1985-2008；杰纳特/雷卡/东亚农业主席（end留空）；沙特埃及企业家协会主席。1976利雅得大学管理学学士；约1950-51年生。新增非注册人物：父阿卜杜拉（2011-2014届银行董事/TADCO持股25%）、两弟法赫德/尤素福——P4末resolve_ids查册。交叉000155/000157/000160/000296/000158。全部现任职务为空（均已离任如实留空）",
+    "000163就地查重命中000125（阿扎维：利雅得银行副董事长+2025-10-22起Mobily董事长双职皆在000125主档），免派代理。P5核对SA-FIN-005与SA-CORP-022两org档案的key_people均指向000125",
+    "000160完成——预判证实并精确化：前董事，三届任期2008-2011/2011-2014/2014-2017（2010年报时任审计委主席+提名薪酬委主席），2017-10-23第28届股东大会11人名单无其名、此后三届未回归。现状非退休：现任拉吉哈资本(SA-FIN-019)董事会副主席兼审计委主席（2024年报）、萨利赫·拉吉哈及合伙人公司副董事长、معمار房地产副董事长（双源）、哈希姆承包/拉吉赫-米斯费尔农业董事。【P5修正集（SA-FIN-004与相关档）】①key_people「11人中4名家族董事」实为2014-2017届构成；②000158并非2017首任——2011-11-14已在任（代表منافع القابضة）；③000155现在时表述过时；④其父صالح بن عبدالعزيز（创始四兄弟长兄）2011-02卒，وقف سليمان بن صالح الراجحي 2026仍资助麦加眼科慈善。全名سليمان بن صالح بن عبدالعزيز الراجحي。无birth/education公开来源留空；无社媒无Wikidata",
+    "000172查重命中000764（库鲁德）。合并要点：①副董事长任期链=2022-03-22董事会决议（SAMA不反对2022-05-31生效）→2025-04-24连任（至2028-05-20），现任；②职业背景纠错：「律师/律所」线索证伪——实为KFUPM金融→阿卜杜勒拉提夫·阿利萨集团顾问2010-12→Mayaas财富管理联合创始人/VP 2012-16→PIF 2016至今（幕僚长2021/董事会秘书长2022/本地房地产投资部负责人2025-05-15）；③其他：KAFD管理公司董事长2025-09起、南方省水泥/Dan/TAQNIA董事长、德拉伊耶/Balad/费萨尔国王专科医院董事；④教育补全：La Verne管理与领导力硕士+KFUPM金融学士（比000764现有更完整）。X @Saad1k与LinkedIn双锚点收录",
+    "000167完成——SAB副董事长任期纠错：2025-12-08股东大会选出2026-2028届（SAMA无异议2025-12-29），2026-01-01起任副董事长至2028-12-31；上届（2023-2025）副董事长系Al Fadly，本人该届为独立董事+风险管理委主席（2026系升任非连任）。【职业背景重大纠错】「律师/律所」线索不成立——SAB官网/年报/贝莱德/蒙纳杰姆年报四方一致认定职业银行家：Samba 1981-1992（五任主管）→利雅得银行1992-2013（官至副CEO）→GOSI总裁2013-2021（全权大臣级）；LinkedIn同名律师系他人。其他任职：现任贝莱德沙特董事长2022-05起/SIIG/蒙纳杰姆食品（2021-2025曾任副董事长兼审计委主席）/SALIC/AlBawani；历任莫比莱董事长、沙特法国银行董事长2014-18、哈萨纳董事长2014-20、Maaden董事、万事达区域董事1996-2013（后任西南亚中东非洲区主席）等11项。教育：波特兰大学工商管理1981（Portland vs Portland State两说存疑注记）；Wikidata Q22688386。交叉：000166主席/000168 CEO、GOSI=SA-GOV-039。无社媒",
+    "000174完成——Alinma非执行董事（2025-04-24第11届股东大会9人名单，任期2025-05-21~2028-05-20，风险委+治理可持续发展委委员），现任。履历纠错：非银行职业经理人——金融科技创业者+政务序列：SiFi联合创始人/CEO/副董事长（2021-06起；2024种子轮1000万美元/2026 A轮2000万）←沙特海关总署署长2017-01~2021-03←商业投资部外贸事务副部长2016-17（org档案「副部长助理」应更正为副部长/وكيل）←沙特出口发展局秘书长2013-16←外交部/思科/微软/Yesser早年IT。其他董事：Maaden(1211)/ACWA Power(2082)/Retal(4322独立,2025-08)/Obeikan Glass(4245)/AZM副董事长；NRRC/CST/沙特航空机构董事。教育：INSEAD MBA 2009+KSU信息系统2000+LSE/IMD。海关总署org_id=null（2021年并入ZATCA，勿套用SA-GOV-047）。交叉000171/000764/000173",
+    "000175完成——「独立董事」纠错：官方两届AGM披露（2022/2025）均列为非执行董事（غير تنفيذي），独立标注仅限鲁迈赞/阿达斯/谢赫穆巴拉克，ir.alinma英文亦non-executive。「STC科技系」线索不实：履历=银行+食品零售+家族企业——Samba GM兼高级信贷官→SEDCO CEO 2013起约五年→Savola集团CEO约2018~2020-12（任内扭亏5.2亿亏损为9.1亿盈利）。任期链：2022-04-13当选→2025-04-24连任（2025-05-21~2028-05-20）现任；风险管理委主席+执委委员；Alinma投资(SA-FIN-028)董事会主席2023-12起。其他董事：Halwani Bros(独立2023-11)/MBLC 2025-06/Fakeeh医院/吉达城市发展/Dar Al Tamleek/ALJ等；曾任SNB/Almarai/Savola系副主席；埃法特大学校董(SA-ACAD-049)。born 1963-09-29（Manhom单源留空）。无社媒无Wikidata。交叉000171/000173/000174/000764",
+    "000176完成——任期链：2022-04-13当选第五任期（2022-05-21~2025-05-20，当选时类别为非执行）→2025-04-24第11届股东大会连任为独立董事（2025-05-21~2028-05-20，监管无异议2025-06-06）→在任。委员会：执委委员+审计委委员（审计委主席为海瑟姆·阿勒谢赫穆巴拉克非本人——P5修SA-FIN-008时独立标注三项：鲁迈赞/阿达斯/谢赫穆巴拉克）。【职业背景纠错】「学者/会计师」线索不符官方披露——金融学士（苏尔坦亲王大学2010）+LBS MBA 2022，职业链=银行企业银行与房地产投资序列：ANB→NCB→莱达投资→利雅得控股执委会→哈萨纳助理总经理2021-23→MASIC房地产投资主管2023-04至今，无学术/会计披露。交叉000171/000764/000173/000174/000175五条colleague。org：Alinma=SA-FIN-008/哈萨纳=SA-CORP-080/NCB=SA-FIN-003。仅LinkedIn；无Wikidata",
+    "000178完成——审计委主席=本人已核实（2025-06-11 Tadawul披露+官网委员会页双证，注明مستقل）；任期链：2019-05-21首入董事会→2022当选独立→2025连任独立（至2028-05-20）在任。2022-2025届曾任风险管理委主席，2025届改为审计委主席+风险委委员（职务轮换）。【职业背景纠错】「会计师/审计背景」线索需修正——会计学学士（北卡1996）+MBA投资方向2001，职业序列为财富/资产管理（Saudi Fransi Capital 2011-2015主管兼代理CEO→ANB Invest→NCB→拉吉希银行集团总经理；Aramco/博兹咨询）；专业资格CFA（单源），无CPA/SOCPA——2022同批披露中SOCPA资格者为奥斯曼·图韦杰里，线索疑混淆。其他：Draya REIT董事2017起现任、Draya金融前CIO、穆斯塔斯米尔证券前董事。交叉000171/000173/000174/000175/000176/000764。无社媒无Wikidata",
+    "000177完成——姓名纠错：官方全名عبدالرحمن بن محمد رمزي عداس（含父名Ramzi）。三届连任：2019-11-21首任（官方X公告）→2022届任审计委主席→现届2025-05-21~2028-05-20独立，改任提名与薪酬委员会主席+执委委员（审计委主席已换谢赫穆巴拉克000178——两人职务轮换与000176档案互证）。【履历纠错】「医疗/航空背景」不实——NCB近30年（风险/公司业务主管）+SEDCO房地产投资MD 2007-2010+自营金融咨询2010至今；医疗关联仅Arcoma私营公司董事一席。其他：Bank AlBilad董事2010-2019（两委员会主席）、Savola董事2019~2022-06+Savola World基金会主席、Stusid银行董事会主席2012起、Kinan房地产董事2022起、Al Rabie食品董事兼审计主席、环境基金/农业发展基金/ZATCA委员会职务。持Alinma 28430股。born 1957-02-01单源留空。照片photos/SA-PERSON-000177.webp。Alinma批次：000171董事长+000764副+000173 CEO+000174/000175/000176/000177/000178五董事+000172空号——全董事会落位",
+    "2026-10-02账本修复——000041（KSU德盖希姆）判定静默丢失：长期挂current但盘上无档案无构建痕迹无完成通知，已退回remaining并立即重派（真实在飞经用户核点=000179/000180/000185）。执行纪律追加：每次补位时需以代理活动迹象（近时通知流）旁证在飞真实性，防止幽灵在飞",
+    "000179完成——她是在任独立董事（2025-04-24第11届AGM当选，2025-05-21~2028-05-20），执委+风险委委员（非审计委）。【更正此前账本注记】现届独立标注非三人而是五人：谢赫穆巴拉克000178/哈吉勒000171（董事长）/努迈000179/鲁迈赞000176/阿达斯000177（官方AGM名单）——P5修SA-FIN-008独立标注时以五人口径。【学术履历纠错】「金融学教授/女性大学」未证实——实为KSU金融学讲师（CV托管+FIN210课件署名+帖文三源互证），无教授职衔无ORCID无出版物。履历：KSU金融学士2008-2012→DePaul金融硕士→摩根士丹利受训→KSU讲师→Hassana 2018（国际市场总监→2022 CRO）→MRZM投资管理合伙人（现任）→马阿里夫教育公司董事。与Alinma全部8名董事互设colleague。born未披露；KSU CV仅索引级已标注",
+    "000180完成——任命链：2021-09加盟Alinma任第一副CEO兼零售数字银行集团负责人→2023-01董事会批准升副CEO（保留条线），现任（2026Q1业绩电话会出席佐证）。履历主体在拉吉哈银行(SA-FIN-004)：汇款部经理→财资投资主管→零售集团总经理→数字渠道与支付总经理；学历纠错：伊玛目大学英语语言学士1997（非金融科班）。其他：Jabal Omar(SA-CORP-057)董事2022-08~2024-06-30已离任；曾任Al Rajhi Capital(SA-FIN-019)/Takaful(SA-FIN-020)董事、伊姆坎金融等3家董事长、Neoleap副主席、Visa CEMEA与Mastercard MEA董事。同名甄别：Manhom把餐饮设计公司创始人100%持股权误记银行家名下已排除。交叉000173（互设）/000171",
+    "000041重派完成——职务归属独立复核确认：项目副校长（官网领导页2026-06-02修订+条目链projects.ksu.edu.sa），队列原线索系RTL错位（教育与学术实为000040达格里）；校董会决定自2026-01-01委任（官方新闻node/145827），在任（2026-08-06视察在建工程佐证）。履历：城市规划学者——UIUC规划博士2006+宾大硕士2001+MIT证书；KSU建筑与规划学院院长2020-2025→项目副校长2026；早年市政部规划署+PNU 2014-2016两职。拼写官方Abdulaziz Aldegheishem。照片photos/SA-PERSON-000041.jpg；社媒收X @aldegheishem+LinkedIn。与000037/000040/000042/000043预埋引用全部互洽——KSU批次至此九人完整闭环（000037代理校长+五位副校长000040/000041/000042/000043+000030系外+000043医疗城CEO）",
+    "000185完成——【两项现状重大纠错】①非现任SIDF CEO：任期2018~2022（SIDF官网2018-05-01新闻：由时任主席法利赫大臣批准任命，非王室令），继任者苏尔坦·本·哈立德·本·费萨尔王子（SPA 2023-01-02，P4末查册是否需补登）；②EXIM副主席系2021年首届董事会以SIDF CEO身份兼任——官网2026-02-08快照仍列其为董事但已无副主席头衔。现任身份：Khwarizmi Holding创始人（2023-01）+Stanford GSB管理学讲师（2025/26、2026/27开课）。履历：阿美2010-17（含Wisayah CEO 2015-17、末任投资管理部主任）→SIDF CEO→创业。董事网：stc非执行2024、SNB（2024-05续任3年）、Budget Saudi董事长2024-06起4年、利雅得开发公司副董事长2025-06起、Khazna董事长、Hassana董事等11项。【实体归属存疑两说并记】「阿拉伯矿业公司」其2024简历列沙特股份公司（=Maaden）但Manhom注约旦（安曼）；Maaden 2023-2026董事会公开名单无其名——P5核查。拼写官方Almojel。Wikidata Q114874202；社媒X @Ibrahim_Almojel+LinkedIn。交叉000184/000183；000303系Maaden副董事长与本人物无关。P5修SA-FIN-014（其EXIM职务为董事非副主席）+SA-GOV-121（SIDF CEO应更新为苏尔坦王子）",
+    "000202完成——副宫廷主管：王室令أ/412（2025-05-08签发，刊乌姆古拉5085期），衔同部长，官报称Mr（媒体「亲王/博士」称谓无官方依据不采）；在任（2025-08-28随行国王佐证）。履历链补全：宫廷顾问→国王私人副秘书兼宫廷执行事务助理主管（双重职衔≥2019-07-29 Okaz佐证）→现职。交叉：宫廷主管=000201阿勒伊萨（superior）、国王萨勒曼=000004（颁布者）、同日王室令接替其国王私人副秘书职的塔米姆·阿勒萨利姆未建档（null）。score 43符合该类岗位公开信息量。无社媒无Wikidata",
+    "000213完成——任命纠错：副议长始于2020-10-18王室令（大臣级，非2024-09）；2024-09-02王室令为续任（成员名单第1项），同令第2项=助理议长哈南·阿哈迈迪000214。在任（SPA 2026-09-30佐证）。履历纠错：学界背景（比较思想学）非军方/安全序列——KAU伊斯兰研究学士1996→埃克塞特硕士2000/博士2002→KAU教员1997-2020（富布赖特2007）→协商会议成员三届2009起→阿拉伯议会成员2012-16→阿拉伯议会主席2016-12~2020-10→副议长2020至今。荣誉：阿拉伯议会勋章2020/阿拉伯卓越勋章2025。交叉：议长阿勒谢赫=000005（反向关系已在）、000214、国王000004；阿议会继任者阿德尔·阿勒奥苏米未建档（null，单源）。Wikidata Q78476236；X @mishalfmpr（置信中）。born 1974（仅年份补01-01）",
+    "000187完成——【两项现状纠错】①Saudi EXIM董事非现任：2020-11首届董事，LinkedIn载任期止2025-07（TheOrg/Equilar列现任系滞后未采）；②NDF「开发性基金与银行监管部主管」实为副局长级「发展、规划与基金监管副局长」2020-01~2025，NDF官网现任执行层5人已不含本人→已卸任（end记2025精度）。【新增现任核心职务】Leejam（健身时间）CEO：董事会决议2024-12-26、2025-02-13到任（Tadawul披露）。履历：SIDF信贷专员2004起步→TAQNIA工业技术总监/COO→NDF副局长→Leejam CEO；KFUPM金融经济2003优等+LBS/沃顿/IMD。其他：ADF董事2020-09~2024-11(SA-GOV-065)、SME Bank董事2023-11起未见卸任、SIDF投资公司董事2023-01起。同名排除：X帖「加入利雅得胜利俱乐部董事会」无官方印证判定同名/不实。交叉000185（EXIM同届）/000184/000183；NDF=SA-GOV-094、EXIM=SA-FIN-014。P5修SA-FIN-014（其董事任期已止）",
+    "000214完成——任命纠错：首次任助理议长=2020-10-18王室令（第8届重组A/146），2024-09-02的A/84系第9届重组续任（150人名单列第2位）。在任（SPA 2026-05-15佐证）。履历：IPA学术序列——卫生管理教授（2017起）→协商会议议员2013-2020（首批女议员）→助理议长2020至今（首位女性助理议长+首位主持全会女性2020-12-02）。教育：KSU经济1986→杜兰卫生管理硕士1989→匹兹堡DrPH 1995（Delta Omega）。里程碑：2022杜兰国际杰出成就奖。交叉：议长000005、000213同批（colleague互指）、父出版人null。Wikidata Q85872487；社媒X+LinkedIn双锚点。协商会议领导层三人组（000005/000213/000214）全落位",
+    "000247查重命中000244（学者苏莱曼双登记）——判别完成：常设教令委员会现任四人=福赞000068+阿勒谢赫000242+沙斯里000243+苏莱曼（000244主档）。已向在飞000244代理发合并提示（正确全链姓名/委员会届别/师承福赞000068与博士导师000005/著作8种/缓存复用）。000247登记名形态更准确，P4末合并时将bin Abdullah形设为alias主拼写并保留双别名",
+    "000248完成——外交部副大臣2020-07-15王室令（大臣衔），在任（2026-09接见中俄/爱尔兰大使佐证）。【履历纠错】「军方/安全/反恐背景」不成立——文官序列：迈阿密土木1982→农业水利部工程师→FAO/WFP罗马代表→驻荷兰大使兼禁化武组织代表2002-2009（2006荷兰年度大使奖）→粮食仓储与面粉总组织总裁2009-2014（兼SALIC董事/国际谷物理事会主席）→农业大臣51天（2014-12~2015-01）→协商会议成员→驻土耳其大使2017-2020→现职。【拼写纠错】官方الخريجي（Al-Khuraiji/ElKhereiji），线索الإخريجي为讹误；英维基两处信息框错误不采。交叉：000195（反向引用闭环）/000028同僚班子。照片photos/SA-PERSON-000248.jpg；X @W_Elkhereiji收录。born 1958",
+    "000244完成（000247并入的主档）——姓名链按官方全链عبد السلام بن عبد الله بن محمد建档（bin Mohammed形降别名注明维基截略）；identity_note已注000247重复ID待P4末合并。届别纠正：1440-11-19（2019-07-22）王室令A/418独立任命新任委员（非1426/2005首批），经2020/2024重组续任，1446-1450届在列；常设委员会第四人成立。【对我的合并提示的两处纠错（代理正确）】①高等司法学院院长为「前院长」——2019-08就任至迟2024-09卸任（继任者穆哈马迪2024-09-23已在任；2026-03教务X帖原文有سابقًa字样），已按前院长口径建档；②Wikidata Q71849183实存（阿语标签正是000247登记名），已采用——此前「无实体」结论有误。履历：教学序列无法官任职（沙里亚学院教师→高等司法学院比较教法系→2019双任命→院长→前）；博士比较教法优等第一荣誉（导师000005），学位年份仅第三方2011存疑并记。师承：伊本·巴兹=000066（1407起）、福赞=000068（1408至今）、前大穆夫提000069",
+    "000239完成——【现状重要纠错】已离任：前申诉委员会副主席（司法事务2019-10-15王室令أ/80+2023-10-26أ/128加兼执行事务）；现职=Dhamanah律所高级顾问（官网明载Former Vice President双职均前）；离任日期未公开（在任窗口2024-08-25~2026-10-02），2026-02-12主席更替未涉其职务、未见免职令。履历：申诉委员会内部晋升——法律研究员1986→申诉委法官1988（行政/惩戒/商事/刑事/上诉各庭）→司法督察副局长2012→行政上诉法院院长级2013→督察总局局长2017→副主席2019；兼行政司法委员会(SA-GOV-078)成员。教育：伊玛目大学卡西姆沙里亚学士+IPA文凭+高等司法研究院硕士（Dhamanah页把文凭写作硕士与官方不符以官方为准）。交叉：前主席尤素福=000236（superior）、现主席阿海迪布=000238、发言人000027——申诉委领导层拼图闭合。P5修SA-GOV-009：其key_people中副主席职务应为前职并补现任者（现届副主席待查，2026年会议通稿不点名）",
+    "000250完成——【职务线索彻底翻案】非内政部助理大臣！官方职级链（王室令编号全见国民卫队部官网）：利雅得埃米尔府特别顾问2009→协商会议成员兼外事委员会主席2015→内政部次官（大臣衔）2016→皇家法院顾问2017→内政部副部长（بمرتبة وزير）2018-06-02~2025-05-08；2025-05-08王室令أ/411免职并调任国民警卫队部副部长（大臣衔），现任（2026年公开活动佐证）——「内政部助理大臣（行动事务）」实为同僚赛义德·卡赫塔尼中将（注意：与在飞000251穆汉纳的行动事务助理大臣头衔存在张力，待000251回报裁定）。履历：伊玛目大学助教→社科院长1989→利雅得教育总局局长1991-93→埃米尔府序列；北科罗拉多硕博1984；阿卜杜勒阿齐兹一级勋章。交叉：内政大臣=000198（SA-GOV-013）、国民卫队部大臣=000323（SA-GOV-031）、穆汉纳=000251。Wikidata Q134396630。【索引异常（P4末查）】同一阿语名预映射000250与000324（译名之差），疑重复预留ID，核查000324归属",
+    "000251完成——【裁定000250遗留张力】穆汉纳确为内政部行动事务助理大臣：2026-02-12王室令（优秀级，乌姆古拉5144期，编号O/264）；其履历=安全事务副大臣2018-02-26（接替哈马德·哈利夫）→2026-02-12转现职（同日Abdullah bin Fahd bin Faris接安全事务副大臣）。000250代理所称「行动助理大臣=赛义德·卡赫塔尼中将」系过时/异构信息，现届以官方公报为准=穆汉纳。在任（MOH 2026-05-28通稿+ZATCA官网2026-09更新+Okaz 2026-05-21）。履历：侦查总局(SA-MIL-009)出身局内12个领导职务→利雅得侦查局长→安全副大臣→现职；文官「الأستاذ」衔无军衔。其他：ZATCA董事现任、海关总局董事（2021并入前）；曾主持米那踩踏案调查与涉恐名单王室委员会。教育：KSU考古学士+纽黑文刑事科学硕士+纳伊夫安全学院。交叉：内政大臣=000198；【索引异常（P4末查）】000249亦映射内政大臣同名，疑重复预留ID。又一次2026-02-12王室令批量日（申诉委主席+工业大臣+穆汉纳转任同日）。无社媒无Wikidata",
+    "000262完成——2020-08-23王室令任大学科研创新副部长（特级），前任=Hatem Al-Marzouki（三源交叉），非2025新任；在任（本人X 2025-09-23帖+教育部官媒2026-09末帖），历经两任大臣职务未变。履历纠错：非大学校长序列——KSU教授/技能发展院长/业务发展副校长→沙特国际商务中心西区总经理→哈达夫基金总经理2018-19(SA-GOV-100)→现职。学历：KAU学士1988+加州州立双硕1996+莱斯特博士2000。同名排除：阿维基同名条目系1915-1979埃米尔兼诗人；与000083（KACST苏德里）父名链相似但无亲属证据不混同；LinkedIn同名保险高管排除。交叉000039/000030",
+    "000252完成——内政部技术事务助理大臣：王室令أ/273（2026-02-12，特等级，乌姆古拉5144期——第4次确认该批量日），前任班达尔亲王同日免职；在任（2026-08/09公开活动）。技术官僚：Oracle沙特/上海湾副总裁→Microsoft Arabia总裁→内政部技术副助理大臣（≥2025-10）→助理大臣2026-02-12；KFUPM系统工程2002+IESE/密歇根Ross。其他：Elm上市公司董事2024起（manhom「2026年11月」系笔误已纠）。照片photos/SA-PERSON-000252.jpg；无Wikidata",
+    "000263完成——任命机制：非王室令，系2023-03-22教育大臣本亚尼(000039)部长决定（تكليف），依据内阁决议新设「助理部长（发展与转型）」职位，约2023-04-02生效；现任（SPA 2026-09-28+Talemia官网2026-10实时）。履历纠错/补全：SABIC系技术高管转任——东部石化IT经理→SABIC供应链多职→SABIC CIO约6年→2023现职；曾兼SABTANK总裁/Yansab副董事长等。【新发现现任兼职】教育部系国有教育公司Talemia董事会主席（org_id库内无映射留空——新组织实体线索）。教育：KFUPM计算机1990。拼写官方Murhaf（Marhaf变体）。LinkedIn收录。交叉000039/000030；维基另见助理部长卡拉维未建档",
+    "000265完成——全名Mohammed bin Khalid Alabdulaali；职衔精确为「卫生大臣助理（卫生服务）」兼卫生部官方发言人。任命机制：非王室令——2020-03大臣拉比亚部长决定委派（一年任期起算），2025-04-15卫生部公布正式任命（与阿勒艾班同批）；在任（SPA 2026-01-28+官网2026-05更新）。履历：法赫德国王医院CEO（胡富夫2010）→阿赫萨卫生局长2014→吉赞卫生局长2016→助理次大臣（医院服务）→发言人2019-08→现职。KFSHRC董事会成员证实；另有红新月会(SA-NGO-008)/SCFHS(SA-GOV-057)/沙特卫生委员会(SA-GOV-062)等职务。交叉：000264 superior、000032 colleague。【P5注意】该档KFSHRC标org_id=SA-GOV-002有误（SA-GOV-002系王室宫廷）——KFSHRC在索引中的正确org_id需P5核对。官方头像photos/SA-PERSON-000265.jpg；社媒X @drmohka+LinkedIn",
+    "000275查重命中000354（奥哈利三重ID分裂：000354有档+000510空号+000275空号）。【最新现状（并入000354主档要点）】①非现任MCIT副大臣：2025-05-09起兼任CST代理总裁，2026-02-12王室敕令免副大臣、正式任命CST（通信空间技术委员会，SA-GOV-038）总裁（优秀级）至今——P5修SA-GOV-020（副大臣职位空缺/继任未明）与SA-GOV-038（总裁=本人）；②履历纠错：「Yesser CEO/教育部副大臣」线索无来源不实——实为摩托罗拉网络工程师→ICDL沙特副总2003-06→思科沙特2006-2018（2017-06升MD）→MCIT副大臣2018-06-02→CST；③派发线索两处ID错置：哈克巴尼=000174非000177；斯瓦哈=000274（另有变体映射000355空号系ID分裂噪声）；④MCIT副大臣继任未明（部长助理拉比亚安系不同序列未收录）",
+    "000269完成——商务大臣助理：王室令2024-05-15（卓越级，个别媒体记05-14以SPA为准）；现任（2026-09架构页+2026-09-13 Ajel双证）。【履历纠错】「金融/投资序列」不实——法律/法规序列：迪拜哈德夫律所→利雅得卡西姆律所·安理联营→2013法律顾问入部→法规条例助理次大臣2017-03~2021-06→政策法规事务次大臣2021-06~2024-05→大臣助理。教育：赫尔大学商法硕士+伊玛目大学沙里亚学士。其他：律师协会董事2019-05起、健康保险理事会董事2023-05起、破产委员会成员（官网摘要称主席，直取失败降档注明）；无上市公司董事。与000146（SAMA德希姆）教名+父名链完全不同已严格区分。交叉：000268/000035/000036四人同列商务部架构页。社媒X @azalduhaim+LinkedIn",
+    "000267首次派发触发1301内容过滤（能源油气话题），已按既定中性学术白名单策略重派（剥离油气市场检索词，仅保留行政履历白名单）——该策略此前9连胜",
+    "000267完成（白名单版重派）——首次1301派发死前已写档，重派代理全量核验11个缓存后原样定稿（57分，0错误）。全名纠错：官方为Mohammed bin Abdulrahman Albrahim（محمد بن عبدالرحمن البراهيم），线索Alibrahim系马尔代夫使馆页写法入别名。最早在任证据2021-08-23 SPA（王室令原文未获，存疑注记）；履历纠错：「曾任职银行」不支持——实为阿美2011-2013能源优化主管。兼TAEF董事长兼执委会主席。同侪000033/000034/卡赫塔尼同页确认。Wikidata无实体；CDN图超时缺图。1301应对策略第10胜：白名单重派成功且核验机制保障了死前产物的质量",
+    "000280完成——文化部副部长：王室令أ/299（2018-07-27，特等级）SPA全文直读；在任（官网领导页2026-10-01更新）。全名纠错：王室令原文حامد بن محمد بن حامد فايز（含祖父名）。【履历纠错（P5修SA-GOV-021）】机构描述称其「曾任SABB集团高级副总裁」有误——文化部官方CV+Arab News+manhom均为NCB（国民商业银行）Senior EVP，已按NCB建档(org_id=SA-FIN-003)。一级阿卜杜勒阿齐兹勋章2021-05。交叉：大臣巴德尔亲王=000279（注意000419亦映射同名但无档——又一个空号，P4末核查000419）；000281助理大臣colleague。Wikidata Q114874279；照片photos/SA-PERSON-000280.png；社媒X @hamedfayez",
+    "000283完成——拼写纠错：官方Ammar bin Mohammed bin Hamid Nagadi（非Al-Naqadi）。经济规划部副部长：2022-01-13王室令A/339（优秀序列），2025-11-28延任4年，在任（2026-09-21会见联合国驻沙协调员佐证）。【履历纠错】「UN/国际组织经历」推测不成立——私营经济商业序列：阿美起家→宝洁→古迪沙特营销经理→巴西姆集团运营总监→宜家沙特和巴林CEO。新增：SFDA董事(SA-GOV-049官方页2026-01更新)+大学事务委员会成员。交叉：大臣费萨尔·易卜拉欣=000282（superior）、000284同日获任（colleague）。无Wikidata",
+    "000281完成——文化部助理大臣：王室令أ/311（1444-08-13=2023-03-05，卓越品级）；theorg「2018-06起任助理」不实——2018-06系其以创始团队成员加入文化部之时。在任（SPA 2026-09-22会见英驻沙大使+官网2026-10-01更新）。履历：哥伦比亚经济学士（magna cum laude）+哥大商学院MBA→金融/管理咨询→2018文化部创始团队→战略负责人→文化事务与国际关系总监察→2023助理大臣；兼迪里耶双年展基金会董事会副主席2020-01起、利雅得艺术董事2019-03起。G20/GEA线索无公开证据未采（实证G20经历=2023瓦拉纳西/2025德班两度代表大臣出席文化部长会）。交叉000279/000280。双年展基金会/利雅得艺术/视听总局org_id=null（库中无条目）。照片photos/SA-PERSON-000281.jpg；社媒LinkedIn+Instagram",
+    "000290查重命中000052（马沙特双身份破案：朝觐部副大臣=KAU校董会主席同一人）。000053档案notes的疑点记载证实。2026-10-02官网页仍在任。【附带发现（P4末核实）】朝觐大臣拉比亚三ID分裂：000289/000380/000425——核实000289有无档案后统一；若无档，拉比亚本人或需补登。P5修SA-GOV-024无需动（000052主档已在）",
+    "000285完成——环境水利农业部副部长：2017-04-23王室令任命（令号未公布），在任（官网2026-09-23更新+2026-10-02报道）；「以大臣衔」仅社媒转述未采。履历：沙特电力项目执行1997-2005（15个月建成主输电站）→ECRA经济资费总司长2005-2015→两届次大臣→副部长2017至今；KSU电气学士1997/硕士2006。其他：HRDF(SA-GOV-100)/统计总局(097)/投资总局(035)/不动产总局(056)/艾赫萨开发局董事；2025-05起任「里夫」基金会董事会主席；沙特工程师委员会(SA-GOV-073)成员。交叉：大臣法德利=000094（反向引用闭环）、同僚副部长000286/000287/000288在队列。社媒X @mansourmushaiti+LinkedIn",
+    "000284完成——官方全名سليمان بن عبدالعزيز بن سليمان العبيد（Suliman A. Alobaid官方英文，非Al-Ubaid/Al-Obeid）。经济规划部大臣助理：2022-01-13王室令（特优级），2025-11-28延任4年（与000283纳加迪同日延任），在任。履历纠错：「UN/国际组织序列」未证实——银行与IT序列：拉吉哈银行1997-2011（CSO→CIO→IT总经理→行政总经理）→沙特投资银行2011-2019→SNB 2021-22（集团数字技术与行政服务负责人）。其他：MEDGULF非执行董事2019-04~2022-02辞职、沙特美国运通董事2014-2020。教育：KSU计算机信息系统1997+MIT高管×4+INSEAD 2014。交叉：大臣000282、000283同事。born 1975-03-22（manhom单源留空）。X @AlobaidSul+LinkedIn",
+    "000291完成——朝觐部助理大臣现任：任命约2026-02-02/03公布（王室令原文未见，文种未证实已注）。履历：KAU 2013-2021（中庸研究所所长2016-2021等5职）→麦加埃米尔府顾问/麦加文化论坛执行总监2016-2019→国际合作副大臣2021-10~2025-12（官方页明确任期）→现职；无军方序列。交叉：大臣拉比亚=000289（三ID案在账）、马沙特=000290（其colleague引用指向000290，P4末随000290→000052合并改指主档）。score 52符合公开信息量。LinkedIn收录；无Wikidata",
+    "000292完成——现状：双头衔=副大臣（访问事务）+代理副大臣（朝觐者与副朝者服务事务，المكلف），官方页2026-09-20更新马来语版Pemangku互证。任命链：2017-08-08入部（副朝事务副大臣序列，2018-02仍代理）→2025转任访问事务副大臣（官方简历仅年份，王室令文本未检索到，2025-07 LinkedIn离任答谢佐证）。纠错：访问事务副大臣职非2025新设（SPA 2018-07-22载比贾维时任该职驻麦地那）。履历：KAU工学士1987→UMIST硕1991/博1995→2017入部；愿景实现办负责人2017-19/安全副朝模式监督委2020-/副朝最高委员会助理秘书长2021-。【口径冲突待P5核】org档案载000294萨利姆2022-06-06就任「副朝事务副大臣」与瓦赞官方简历2017-2025任该职时间线交叠——可能分设或头衔沿革，已注未改他档。交叉000289/000052/000291。照片photos/SA-PERSON-000292.png；无社媒无Wikidata",
+    "000293完成——朝觐部规划数字化副大臣现任（官网2026-09-20更新）。任命锚定2024-07（本人LinkedIn帖2024-07-02宣布就任；此前2023-01~2024-01均称助理副大臣；「2022年起任副大臣」系把助理阶段并入不采）。履历：商务部四职2013-2021→国家不动产总局技术顾问→CITC数字化转型主任2021-10→助理副大臣2022→副大臣2024-07。获政府数字卓越奖最佳数字领袖。交叉：000289/000052/000291/000292；org SA-GOV-024/019/038。社媒X @a_mathami（oembed验证）+LinkedIn。无Wikidata",
+    "000294完成——【解开000292的口径冲突】任命纠错：「2022-06获任副大臣」不确——2022-06系其加入朝觐部任战略与绩效管理中心主任兼愿景实现办负责人之年，升任副朝事务副大臣约为2025年中（本人LinkedIn 2025-05-30就任动态+RocketReach）；未检索到单独王室令。故时间线为顺序接替：瓦赞任副朝事务副大臣2017~2025年中→萨利姆2025年中接任——两档时间线不再交叠，P5无需裁定。履历：SABIC多职→拉吉哈银行多职→BCG资深合伙人（官方口径，LinkedIn自述Principal以官方为准）→麦加皇家委员会顾问→国家禁毒委顾问→2022入部→2025现职。教育：KFUPM供应链硕士+KSU计算机信息系统学士。交叉：000289/000052/000292（经官方页互核）/000291；org SA-GOV-054/SA-SOE-003/SA-FIN-004。000414（RCJY主席）同姓不同人已排除。LinkedIn确认，X高概率本人已注记",
+    "000295完成——代理性质核实：官方用语「المكلف」（Acting），自2024-04起任共享服务代理副大臣；线索「بالنيابة」字样官方页面未见（纠错）；任命文种原文未见公开发布存疑注记。在任（领导页2026-09-20）。履历：NTP特别项目总监→普慈者宾客服务计划共享服务总监→吉达省发展署财政与共享服务总监→部助理副大臣2022-03~2024-03→代理副大臣2024-04至今；财务/行政序列（CGMA/ACMA/PMP/CCMP）；KAU国际工商管理2010。拼写纠错：官方Bakhurji/Bakhorji（线索Bukhari系转写误差）。官方肖像photos/SA-PERSON-000295.png入库；社媒4账号（LinkedIn/X/IG/YouTube本人判定）。交叉000289/000052/000291",
+    "000298完成——人社部社会发展副大臣：王室令أ/276（2026-02-12，优异级——该批量日第5次确认，与Al-Saif任投资大臣/Al-Mazeed任旅游副大臣同批）；在任（2026-08/09活动佐证）。履历纠错：非社保/政务序列——金融/审计委员会序列：雅纳尔融资（ORIX系）CEO兼副总裁→费萨尔集团电子系统控股CEO/现代电子SONY总经理/集团CFO；历任Samba审计委、EIC、Amana/LIVA保险（就任后辞任）、MEFIC REIT、Vision Bank、PIF子公司审计委。无SAP/GOSI董事会记录；实职=NCSS国家社会研究中心董事（部代表，org_id未入index置null）。上级大臣拉吉希=000296。教育：KSU会计学士+SOCPA/AICPA双CPA+GCCBDI。官方公报行文براهيم系إبراهيم变体同一人。无社媒无Wikidata",
+    "000299完成——【职衔纠错】官方为مساعد وزير（大臣助理，共享服务部门）——位阶高于线索所称助理副大臣（وكيل مساعد）；王室令任命卓越级。2023-03-05获任，现任（官网领导页+HRSD官媒2026多帖）。履历纠错：非政务序列——ICT序列：Mobily个人业务单元CEO 2019-11~2023/企业战略客户服务业务部门CEO/商务EVP 2013-2017→思科2005-2012（沙特教育销售）→微软沙特教育行业经理；起点Al-Alameya计算机技术学院区域经理1998-2003。董事：Mobily Pay董事长2020-23、Sehhaty健康信息技术公司董事长、国家商业解决方案公司董事长、Mobily Ventures/Infotech India董事。教育：KAU计算机1997+哈佛领导力。交叉：000296/000297/000298。11组同名加姆迪排除",
+    "000297完成——全名补全：عبدالله بن ناصر بن محمد أبو ثنين。劳动部门副大臣：2018-02-26王室令（优秀级，接替被免的胡迈丹），两次延任（2022-01-12/2025-11-27各4年），在任（2026-06/09活动）。履历：IPA 1997-2012（助教→总主任）→劳动部三段次大臣（检查2012-16/计划2016-17/检查2017-18）→副大臣2018至今；KSU金融→Duquesne MBA+MS→Old Dominion经济学博士2007。【HRDF线索纠错】无其在HRDF(SA-GOV-100)任职证据（HRDF席位为تركي الجعويني），未建条目；实职=蒙沙阿特Monshaat董事（HRSD代表）+健康保险理事会+大学事务理事会+Takamul Holding副主席+Future Work副主席。【000285真实交叉点确认】000285穆谢伊提与本人在蒙沙阿特董事会同列（Wayback存档证实）——此前000285档案未记此交叉，P5补。上级大臣=000296（库内定名拉吉哈非拉吉希）。born 1973-08-11单源留空。org挂SA-GOV-025/058/084/097/130/134/135",
+    "000300完成——人社部技能与培训副大臣：2020-01-09就任（Manhom精确；SPA任命王室令原文未检索到已注）；在任（2026-10-02官网领导页）。职衔沿革：2018-2019任劳动政策副大臣；2020-2021官方媒体仍称「劳动事务副大臣」系新职创设期表述过渡。荣誉：一级阿卜杜勒阿齐兹勋章2021-05（此前000300曾误记二级，档案以王室令报道为准）。履历：IPA起步1996助教→司长/商业中心执行官→HRDF国家劳动观察站副总干事（哈佛25项行为学研究+世行合作）→CMA首席顾问→劳动政策副大臣→现职；布鲁内尔金融经济博士2010/斯克兰顿MBA/KSU金融学士。【纠正我的派发线索】000083是塔拉勒·AL-SUDAIRY（KACST）非扎赫拉尼——我在派发词中把000083姓名写错，代理已据实纠正排除。交叉000296/000297/000298/000299全建。无Wikidata",
+    "000301完成——人社部国际事务副大臣：2024-10-03经媒体披露为任命「决定」（قرار，非王室令——线索「王室令任命」未获证实；且不在2026-02-12批次）；就任前为卫生控股公司HHC COO（2022-03~2024-10）。在任（官网领导页2026-10-02）。履历纠错：「金融序列」不成立——医疗健康/学术序列：HHC COO、麦格拉比、卡西姆大学、SFDA、健康专业认证委员会、哈立德国王眼科医院；塔布克农业董事2020-21；医学背景：卡迪夫角膜与临床视光学博士2012。正式全名طارق بن عبدالعزيز الحمد。交叉：000296 superior、000297-000300同事（官网同页互证）。LinkedIn唯一账号",
+    "000302完成——人社部数字转型副大臣，职衔同义异写核实现职（官网2026-08-11更新在列）。任命机制修正：2018年任公务员部数字转型副大臣，并部王室令أ/455（2020-02-25）后自2020-06延续现职——非一次性个人任命令。履历：STC系统工程师2004-06→Alinma创始团队/技术系统设计总监2006-10→Mobily三段2010-2018→公务员部→HRSD；KSU计算机2004+沙特电子大学×科罗拉多MBA 2016+INSEAD/IMD/LBS。兼塔米恩科技董事2020-05起。拼写纠错：官方Bakhshwin（线索Bakhshween/媒体Bakhashwain均入别名）。交叉：000296+000297-000301六人同页互证；org SA-GOV-025/022/008/004。【P5修000297档案】其「2018年6月并部为HRSD」表述有误——并部王室令أ/455为2020-02-25（Okaz/Saudipedia/Argaam/Alriyadh多源一致）。000301全名بألعزيز确认无误",
+    "000304完成——工业事务副大臣：2023-12-12王室令（特优级），2026-07-11部务变动后在任（SPA 2026-09-15+官网2026-10-02双证）；官方英文名Khalil bin Ibrahim bin Salamah。履历：SABIC特种化学品总经理（30年+多子公司董事长）→2021-02督导工业部石化工业署→2023-03-01国家工业发展中心NIDC CEO→2023-12-12现职；KFUPM化工1993。【家庭重要新发现】其父=已故易卜拉欣·本·萨拉迈——SABIC前副董事长兼董事总经理（1983-1998）、创始领导人之一；2025-12-08获GPCA追授第七届先驱奖，本人代父领奖（Argaam直读）。父名属可建档候选（P4末resolve_ids查册）。交叉：000046（2026-07起兼任工业大臣）、000184（2023年主持NIDC任命）、000303/000085同僚。【P5修000085档案】其将000304描述为「矿业事务副大臣」有误，实为「工业事务副大臣」。Wikidata无实体；无社媒",
+    "000307完成——【现状重要修正】已卸任副大臣：2018-12-27王室令任伊斯兰事务部副大臣（优异级四年任期），2025-06起官方称谓仅用「高级学者委员会成员」（2020-10-18王室令兼任、2024-09续任）；2026-02受大穆夫提委派署理学学术研究与教法解答总署(SA-GOV-011)塔布克/焦夫两地区；2026-02-21伊玛目大学官号明称「前副大臣」；免职令未见于公开来源留空。履历：伊玛目穆罕默德·本·沙特伊斯兰大学（org_id索引未收录——新缺口）助教→教授全序列，学位均优异；2023-06阿拉法特日讲道人（沙特时代第14位）。【纠正我的派发线索】伊斯兰事务大臣=阿卜杜勒拉提夫·阿勒谢赫（000306），非线索所称阿卜杜拉·阿勒谢赫（000005系协商会议议长）——superior已正确指向000306。Wikidata Q85876445；无社媒。同族阿勒谢赫三家区分（000005议长/000306大臣/000242学者委员）全落位",
+    "000309完成——司法部副大臣：王室令A/25（1448-01-26=2026-07-11，特等级，乌姆古拉5172期）——该批量日第6次确认（同批A/19起：亲王兼工矿大臣/吉达市长巴法基赫/皇家宫廷顾问谢拉安等）；在任（官网1448/2/2更新+2026-09-03活动）。履历纠错：非纯行政序列——司法官体系出身：利雅得法院司法候补→朱拜勒法院法官/副院长/院长→利雅得执行法院副院长→转部委行政序列（公证事务助理副部长/公证署绩效助理副部长/司法部官方发言人2020~2026-07卸任/大臣办公厅总监/司法立法委筹备主任）；曾任最高司法委员会司法监察官。交叉：司法大臣=000218萨马阿尼（superior）；前任代理副大臣=000310法乌赞（在飞）、发言人继任=000311塞亚里（在飞）——司法部三档互指将随两档落位闭环。兼职：国家不动产总局董事/支持与清算中心董事/国家土地委员会成员。照片photos/SA-PERSON-000309.jpg；无社媒无Wikidata",
+    "000310完成——姓名纠错（重要）：官方Salman bin FAWZAN Al-Fawzan（父名福赞非线索bin Mohammed；SPA 2026-01-13曾误作bin Salih——多源变体同一人已全录aliases）。代理期核实：代理副大臣2022-01-06~2026-06-23（早于线索模糊表述）；2026-07-11王室令A/22任命000309为专职副大臣后代理终结——「代理结束未转正」，其继续任司法事务副部长（sub-minister级，现任：2026-07-21率团访约旦+官网2026-08在列）。履历：卡西姆大学沙里亚学士（瓦克夫页作伊玛目大学，教育分歧已注）→伊玛目沙里亚政策硕士→麦地那伊斯兰大学民法博士→副部长办公厅助理副部长→司法大臣顾问→司法事务副部长2019-10-16至今。交叉：大臣000218、000309同僚（2019同批发言人决定）；与000068大穆夫提区分（Salih vs Salman序列不同，无家族关系证据）。照片photos/SA-PERSON-000310.png；无社媒无Wikidata。司法部四档（000218/000309/000310/000311）关系网将在000311落位后全闭环",
+    "000311完成——司法部官方发言人：2026-08-20（教历1448-03-07）大臣萨马阿尼(000218)决定委任，在原有媒体与企业传播总局总监职务上兼任，新发生任命（晚于线索预设），现任。履历纠错：非司法行政序列——企业传播职业管理者空降：阿劳拉皇家委员会(SA-GOV-053)传播营销总监（manhom 2022-23但2025-02论坛仍以该头衔称之，时间线存疑已注）→伊克斯特德/Mobily/SNB(SA-FIN-003)与利雅得银行(SA-FIN-005)媒体总监→SIDF(SA-GOV-121)信用分析师起步；2025-09入司法部任顾问兼媒体总局总监。教育：KSU工业工程2006+中田纳西州立MBA 2011（manhom单源）。X @MOJspokesman经页面meta直读确认实名绑定+LinkedIn收录。与000147（前央行行长）同姓不同人已核。【司法部四档关系网闭环】000218大臣+000309副大臣+000310副部长+000311发言人互指齐备",
+    "000313完成（78分本段最高）——【现状重大发现】已于2026-02-12经王室令267/1447升任媒体部副部长（特等级），「助理大臣」系2023-12-12~2026-02-12旧职——线索过时；2026-02-12批量日再+1。另有传播事务副部长职2020-06~2023（不同序列须区分）。履历：学生记者→KAUST公关创始总监2009→阿美公关经理2014-16→国防部变革传播总经理→政府传播中心创始总经理2018-01~2024-01→媒体部发言人~2024→传播署总监→传播事务副部长→助理大臣→副部长（现任）。学者型官员：著作10部+索尔福德数字媒体博士2014。交叉：000200 superior/000572（SBA同僚：本人董事其局长）；SA-GOV-103媒体监管总局已注册无档（P5线索）。Wikidata Q12223425；社媒X/LinkedIn/Telegram；家族4条；著作10部入档。【P5修SA-GOV-029】key_people中其头衔需更新为副部长",
+    "000318完成——市政住房部副部长（市政事务）：2022-07-03王室令（优秀级），2026-05-21王室令أ/374延4年，在任（官网2026-08-27更新）。【谣言打假】2026-05-01/02房地产社媒帖称其出任「吉达市长」不实——与أ/374延长令矛盾（吉达市长2026-07-11已另任巴法基赫），status_note记录不采。履历：企业界1990起（百事全球中东北非/巴基斯坦区董事→NCB战略负责人→阿利亚尼金融副总裁→扎德投资CEO→阿西亚德控股副主席）→2022年大臣总顾问→副部长。其他：NHC主席2023-02-01起！+موان废管中心副主席/Remas副主席/红海管理局/娱乐总局/GEOSA/SIRC/麦地那与东部省发展局董事。交叉：大臣霍盖尔=000317（superior）；000285（MEWA）经查无直接关联——任务提示错误未建档关系。org SA-GOV-030；无Wikidata",
+    "000320完成——【姓名实锤纠错】线索阿语「عبدالعرير」系部会官网组织架构页自身的排印讹误——正式简历页/委任公告/Okaz/ManHOM均为يوسف بن عبدالعزيز الدهش，档案以正确名为准。2025-06-03官方决定（تكليف）任住房支持副部长（Okaz称قرار تكليف；王室令原文未检索到已注），在任（官网2026-08-27+架构页2026-10-02）。履历：现职→大臣顾问（转型与机构卓越兼快速响应办主任）→交通部机构卓越管理部主任→Alinma变革管理顾问→STC业务分析师；衔级وكيل（Mr.）非优秀级区别于哈沙尼。教育：KSU信息系统2011+INSEAD Executive Leadership 2030。交叉000317/000318/000319/000321。照片photos/SA-PERSON-000320.jpg；LinkedIn收录",
+    "000319完成——市政住房部城市规划与土地副部长：2025-02-15部委任命（تكليف，非王室令）公布，在任（官网2026-08/09两度更新+2026-04 SPA+2026-09访巴林）。姓名纠错：官方خالد بن محمد بن عبدالرحمن الغملاس（线索Al-Gamlas非官方转写）。职级为وكيل الوزارة（次大臣级）低于哈沙尼(000318)的نائب الوزير（副大臣级）——部内职级序列厘清。履历：内政部序列为主——瓦迪杜瓦西尔副省长2010-14→延布副省长2014-17→内政部地区事务副部长2017-21→副部长顾问→政策规制委主席2021-25→2025现职；KSU政治学+应用法律文凭。交叉000317/000318；org SA-GOV-030/013。照片photos/SA-PERSON-000319.jpg；无Wikidata",
+    "000321完成——市政住房部住房供给激励与房地产开发副部长：至少2021-12-21已在任（初称房地产开发副部长，2022-09-24起用现职名；王室令原文未获取）；在任（2026-10 Albilad+SPA系列）。【履历纠错】「NHC系/房地产金融」不成立——保险业15-20年+部委客户服务序列（客户服务总局局长→客户服务与体验助理副部长→副部长）；NHC(SA-SOE-033)仅现任董事会兼职。兼REGA(SA-GOV-056)董事（部委代表）/سكن基金会执委/马术机构董事；监管受益人赋能与住房支持局。教育：SBS瑞士商学院MBA+哈佛高管（仅此两项公开）。英文拼写官方不一（Tawil/Tuwail/Altawil全录aliases）。交叉000317/000318/000319/000320（组织架构页互证）。无Wikidata",
+    "000322完成——【现状重要纠错】已卸任发言人：2026-02-04经大臣霍盖尔(000317)决定出任市政住房部官方发言人，2026-08-24大臣决定委任أحمد الظفيري接替（媒体明言「接替拉萨斯迈」，SPA w2660671+发言人账号@SP_Momah简介已改）；档案按「2026-02~2026-08在任、现任状态未定」落档——线索「现任」已过时。履历：Trax传播经理→旅游部媒体中心主任→旅游部官方发言人2025-02-06→市政住房部媒体管理主任2025-12→发言人2026-02。教育：KFUPM媒体与战略传播硕士2022+KAU公共关系学士2014。交叉000317/000318；前后任发言人均null未入库。社媒X @mohdalrasasimah+LinkedIn+IG三账号本人判定",
+    "000329完成——体育副大臣：2021-09-12王室令（优秀级），2025-07-26延4年，在任（2026-10初活动佐证）。全名父链补全：بدر بن عبدالرحمن بن سليمان القاضي。拼写官方Alkadi（Al-Kadi/Al-Qadi入别名；Saudipedia年份换算矛盾已纠取2021-09-12）。履历：HSBC伦敦→宝洁迪拜/吉达财务会计总监2004-13→Goody CFO→electronic? CEO→联合集团CEO→Midwam董事长2018-21→体育大臣顾问兼体育总局CEO 2020-01→现职；KFUPM金融2004+2021西班牙体育管理硕士（单源注记）。其他：SAIP董事2024-12-25起、生活质量计划委成员。交叉：体育大臣=000328（superior落位）；org SA-GOV-032/104。照片photos/SA-PERSON-000329.jpg；社媒X/IG/LinkedIn三账号",
+    "000330完成——体育部助理大臣：2018-12-27王室令实任「体育总局局长助理」（彼时体育部2020-02才成立），2022-11-12以助理大臣延4年（名义至2026-11），在任（2026-01阿盟青年体育部长会+2026-04/05佐证）。履历：青年福利最高主席团约1985/86起（行政财务总司长13→14等）→2017-09总局局长代表→2018局长助理→2020改制助理大臣——40年体育系统职业公务员；KAU社会学学士。交叉：大臣000328（superior）、000329同事、图尔基·阿勒谢赫=000368（2017前superior）。org SA-GOV-032（GSA与体育部同映射已注work_note）。score 43符合职业公务员公开信息量。无社媒无Wikidata",
+    "000331完成——体育事务助理大臣：2022-12-22大臣决定（قرار）委任——非王室令（纠错：SPA与主流媒体均未见王室令）；在任（SPA 2025-09-10签约佐证）。履历：金融业（沙特法国资本基金管理人）→2007创沙特首个女子足球俱乐部→2017-03体育总局顾问→2019入部投资总监→2020-11规划与发展副大臣→2022-12助理大臣。其他：沙特奥委会/残奥委员会董事2019-12起（2025-03连任）、沙特足协首位女性董事及首位女性委员会主席。教育：叶玛玛大学工商管理（金融）2011。「首位获奥运奖牌沙特女性」说法无独立佐证未采。Wikidata Q114874115。交叉000328/000329/000330。体育部三副职+两助理全落位",
+    "000333完成——旅游部副部长：王室令A/277（1447-08-24=2026-02-12，当日系列第一项）——批量日第7次确认；接替海法公主000334（同日调任）；在任（SPA 2026-07/09+WTTC发言人名单）。此前任旅游部许可证与分级事务副大臣（≥2024-04-23溯源，酒店许可分级监管+朝觐季住宿督查——酒店监管序列证实；「金融序列」无来源未采）。拼写官方Al-Mazyad（线索Al-Muaid未见来源）。教育：California Western School of Law（LinkedIn快照级已注）。交叉：000143 superior/000334前任/000336同事。X @_Almazyad+LinkedIn收录；无Wikidata",
+    "000339完成——交通部部门赋能副大臣：王室令编号/日期未定位，在任下界2023-10-01（SPA已以其副大臣头衔署名签约，早于线索2024）；在任（官网2026-10-02）。头衔变体（赋能与机构发展/部门赋能）以官网为准。履历：P&G生产线经理→麦肯锡顾问→内政部发展计划创始成员兼安全部门战略总监→民航总局总裁顾问→交通部大臣顾问→高级执行官→现职；兼交通物流最高委员会秘书处代理CEO。教育：KFUPM工业与系统工程（官网）+LBS EMBA在读/斯坦福高管（LinkedIn自述未二源）。交叉：000411 superior、000338同事。无Wikidata；官方页无静态图",
+    "000336完成——旅游目的地赋能副部长：2020-07入新组建旅游部任投资吸引副部长（多方来源），至迟2023-10职衔改现名（无确切日期start_date留空）；在任（2026-09-27日内瓦颁奖代表大臣出席）。履历纠错：「旅游/酒店/咨询序列」不成立——投资银行序列：UBS约17年（分析师→副董事→沙特投行董事→瑞银沙特CEO兼投行主管2012-2020）→2020转政府。兼鲁阿麦地那控股（PIF系）董事（org_id null）。教育：华威制造工程与管理硕士1998-2002。交叉：大臣=000332主档（000143合并案）、000333同事；UBS=SA-investment_bank-002。媒体倒置写法笔误不采。LinkedIn收录；无Wikidata",
+    "000340完成——交通部共享服务副大臣：2023-07-17部官方渠道宣布，王室令未检索到（position_note已注）；在任（官网2026-10-02）。履历：PwC审计师→Jadwa投资高级会计师（官方英文Senior Accountant at Jadwa Investment——线索Savola系جدوى转写误读）→交通部财务事务总司长→现职。教育：KSU会计学士+哈德斯菲尔德会计硕士+CMA职业资格。无其他董事职务（官网Committees空白、TGA无其名）。交叉：000411 superior、000338/000339同事；000463（前教育部副大臣Khalid Al-Sabti）同姓不同人已排除。无社媒无Wikidata",
+    "000344完成——【现状重大纠错】已离任投资部（2025-01-07），现任ACWA Power中国区总裁（常驻上海，misa.gov.sa已无其成员页实测）——线索「投资交易副部长（现任）」过时。职衔链：投资运营副部长2022-04~2023→投资发展副部长2023-12~2024初→投资交易副部长2024-04~2025-01（任命无公开王室令，最早2022-04-06部官方X）。履历：阿美亚洲（中国）业务开发副总裁/合资项目开发副总裁→投资部→ACWA中国区总裁2025-01至今。教育：厦门大学化工学士+菲尼克斯MBA；通阿/英/中三语。交叉：000015（其任内上级）、000028同事、000341无共事期（2026-02-12才上任晚于其离任）。org SA-GOV-035/SA-CORP-107（ACWA）/阿美亚洲null注SA-SOE-001。照片photos/SA-PERSON-000344.png入库。【口径注记】id_registry中该ID importance_level=low而任务口径medium——P4末统一核对队列口径",
+    "000343完成——投资部投资者联络副部长：约2022-04/05获任（ManHOM/LinkedIn+maaal 2022-05-13报道；王室令原文未检索到已注）；在任推断成立（2026-02使馆帖+换帅后无免职报道；牙买加外帖「Minister of Investments」系外方误称未采）。【姓名链纠错】官方父名为إبراهيم非线索bin Mohammed——name已定بدر بن إبراهيم البدر；索引与SA-GOV-035 key_people[2]预登记拼写需上游更正（P5）。履历纠错：「顾问/经济咨询」不成立——央行+地产+投资管理序列：SAMA银行检查员1992-2006→Arcapita投资总监2006-12→海湾房地产CEO2013-16→扎米尔房地产CEO2016-19→国家公司推广计划CEO2019-22→现职。同名排除：بدر بن حمود البدر（Dur Hospitality CEO→Misk基金会CEO）系另一人（Argaam离职报道父名حمود证）。交叉000341/000015/000028/000344。X @albadrinvest+LinkedIn收录；无Wikidata",
+    "000346完成——CMA副主席（专职职业监管官员非部委兼任）：2017-10-29王室令首任（与主席库瓦伊兹同批五专职建制）→2023-02-27连任五年→2026-08-13主席更替（库瓦伊兹去职、苏德里000345享部长级接任）后留任至今（官网2026-09-27更新）。履历：王室法规总局案件研究员2002-06→CMA法律事务与执行副部长2006-2016→副主席；唯一兼任=保险管理局董事2024-03起。【重要纠错（两代理一致）】「CMA主席由财政大臣兼任(000197)」系2017-10专职建制前旧制——现主席=苏德里000345（在库！）；贾丹000197仅2015-01~2016-11任过CMA主席。P5修SA-GOV-036时以000345为key_people主席。另注意：CMA前主席محمد القويز未入库，勿与000167/000360（سليمان القويز）混淆。拼写官方Youssef Hamad Al-Blihid",
+    "000347完成——CMA董事会委员（专职，内部晋升）：2004入职→投资基金部主任2006-13→战略与国际事务副部长2013-17→2017-10王室令首任委员→2023-02-27连任五年→2026-08-13主席更替后留任，现任（官网在列）。CMA官网明示五名全职委员制——两代理一致纠错「部委兼任/财政大臣兼主席」为过时旧制。外部兼职：ZATCA董事兼提名薪酬委主席、IOSCO董事、IOSCO新兴市场委副主席。教育：KSU会计+肯特州立MBA+Harvard/LBS/INSEAD/IMD高管。与000145（SAMA塔拉勒·胡穆德）同姓异父名异机构已区分。org SA-GOV-036/047/002",
+    "000349完成——CMA董事会委员（专职，私人部门资本市场资深从业者33年：CS沙特MD&CEO 2010-19/Rana与Arabian Capital CEO/Samba多职/Bank Muscat/Tadawul董事/Al Alamiya主席）；2023-02-27王室令五年任期（同批：主席库瓦伊兹+副主席000346+000347+000348），2026-08-13主席更替后留任，现任（官网在列）。SOCPA资格；KSU法学1991+牛津2020。照片photos/SA-PERSON-000349.png入库。【跨档案线索（P5核）】000349代理发现现届CMA第五委员已是هباش，000348伊萨已不列现任页——已给在飞000348代理发补充线索专项核实其离任状态；P5修SA-GOV-036时以现届名单为准。000313新补位派发（队列自动取下一人）",
+    "000371完成——GEA董事会成员：2024-02-13内阁批准（三年任期至约2027-02，同批5人），在任（官网2026-09-21更新）。主职=专任企业高管：Sela公司创始人/董事总经理兼CEO（1997创立至今）+Sela控股副主席；GEA/Qiddiya(2019-12起,SA-SOE-010)/EIF董事均系兼任席位。医起企业家：KSU MBBS 1997+法兰克福金融商学院医疗管理MBA 2006。与000368同届董事会（其为主席）+2025-03 Sela与TKO拳击推广合作已建关联。Sela/控股/EIF org_id=null（未入库——新组织实体线索）。Wikidata Q135677442；照片photos/SA-PERSON-000371.jpg入库。ManHOM「2000-2020任期」与官方现任矛盾已按官方处理",
+    "000348完成——【现状纠错证实并精确化】已离任CMA：2024-09-02王室令（SPA N2164448）组建第九届协商会议其为成员（第147号）；Shura官方CV自注CMA任期2023-2024；CMA 2025-09-27官方新闻稿以「前任董事」致谢——比000349侧「离任未见公告」多出官方公告日期；接任者=مريع بن سعد هباش（官方新闻稿全名）。专职委员（非部委兼任）：会计学教授/投资人出身（区别于000346/000347监管线）。履历：KFUPM电气1997→SIPC工程师→UC Berkeley双文凭→UCLA MBA→宾州州立会计博士2009→巴黎九大助理/副教授2009-16→阿西拉投资CIO/常务董事2016-23→CMA 2023-24→协商会议2024-09至今；曾兼泰巴控股董事长2015-23（两源矛盾以官方CV为准）。交叉：000346/000347同僚；000161阿卜杜拉·阿勒伊萨（阿西拉董事长，父名链相同兄弟关系未证实，associate）。born 1974-07-20单源留空",
+    "000367完成——GACA航空安全与环境可持续性执行副总裁：无独立敕令稿（职务链复原）：2020-07总裁助理兼航空标准主管→≤2022-02安全与航空标准EVP→约2023年中改现称（称谓过渡至2024-12）→现任（2026-09-14颁达曼新廉航AOC+达美外国承运人许可佐证）。履历：法赫德国王空军学院航空科学学士（军航院校）+考文垂航空管理MBA——军航+监管序列。其他：ICAO A41技术委员会第一副主席2022、RASG-MID主席2025-05连任、早年GACA-ICAO TPM项目经理。【纠正我的派发线索】「GACA主席=达乌德」不准确——据SA-GOV-041 org档案：达乌德=总裁（000365），董事会主席=交通大臣贾塞尔（000366，其persons文件尚不存在已注）。拼写官方Sulaiman bin Saleh Almuhaimedi。org SA-GOV-041；id_registry importance=low vs任务medium注记。无Wikidata",
+    "000373完成（复核增补：昨日已有初版63分，本轮全面复核增补至73分，未新建ID）——K.A.CARE前主席。任期纠错：2018-06-02~2023-06-11（非2018-2022），继任者曼杜赫亲王（null未建）。敕令A/228（大臣级）。SEC主席链精确化：2018-01代行→2021-01-21正式（三年）→2024-01由扎伊德000720接任。出生纠错：1962-11-27（SPA回历换算+Manhom互证，英维基粗算1963-01-01不采）。现任：Petro Rabigh独立董事（官网现行）+Taqnia副主席。新增7条关系：000374亚马尼（KACARE前任，交接链！）/000046/000720/000171/000015/000045/null继任者。GAMI与利雅得皇家委员会董事Manhom单源未入正式字段。无社媒；Wikidata Q6399376。【队列管理注记】000373曾已有初稿文件但ID仍在remaining——本轮代理正确处理为增补；P4末审计remaining中是否还有「已有文件」的残留ID",
+    "000375完成——K.A.CARE前副主席（部长级）：2010-04-17王室敕令任命，回历任期1431/05/03~1439/05/03（≈2010-04-17~2018-01-19，线索成立）。【2018后现状（核心增量）】2019-09-08任利雅得知识大学校长（教育部长批准，2023-03续任），2025-04卸任（校方欢送帖，继任Alsughayir）；截至2026-10-02无新公开职务。履历：KAU核工程助教1983→教授/工学院院长/副校长→乌姆古拉大学校长2009-02~2010-04→K.A.CARE副主席→知识大学校长；KSU物理1975+Iowa State核工程硕1979/博1983；一级阿卜杜勒阿齐兹勋章。关系：000374亚马尼（K.A.CARE首任主席，superior，交接链！）、000376同敕令同事。【新重复嫌疑（P4末查）】000372与000046疑似同一人（均指阿卜杜勒阿齐兹亲王）；另000374档案中指向本人物的关系条person_id=null待补。照片photos/SA-PERSON-000375.webp",
+    "000376完成——K.A.CARE前副主席（可再生能源事务）：任期2010-2014成立且精确化（2010王室令任命、任职至2014-03；SPA 2013-12+Al-Yaum 2014-01时序吻合）。【2014后现状（核心增量）】无现任政府职务；现任沙特技术咨询公司Saudi Tech（1977年创立）董事会执行主席兼合伙人（官网+GRC双语帖+Malaz三源）；2025-11仍以「前次大臣、前KACARE副主席」出席GRC×韩国使馆研讨会。履历：KACST 1988→原子能研究所所长1989-2000→技术开发中心主任兼国家科技远期规划组长→商工部工业事务次大臣2005-2010（主导国家工业战略2020）→K.A.CARE副主席2010-14→Saudi Tech；Wisconsin-Madison机械BS/MS+UCSB博士1987热科学。关系：000374亚马尼（superior）、000375阿布·法拉杰（colleague）——K.A.CARE历史序列三人链闭环（000374亚马尼→000375/000376同届→000046现任主席）。Wikidata Q108025755；无社媒。org：KACST=SA-ACAD-036/商工部=SA-GOV-019/KACARE=SA-GOV-043/Saudi Tech=null",
+    "000386/000402双查重命中000460（SFDA局长贾德希三重ID链闭合）——【P5修000460档案】补录PHA董事会副主席（兼任）条目（来源：pha.gov.sa董事会页直读）；【000402原队列线索】其来源SA-GOV-049「副董事会主席兼CEO」与000460职务同——线索闭环。重复总数+2",
+    "000384完成——【代理/转正状态（任务核心）已解】前任正式CEO库韦扎尼2026-01初离任→董事会2026-01-12决议委派里亚德代理CEO六个月→期满仍代理→2026-09-28董事会任命塔拉勒·图艾杰里为正式CEO，里亚德未获转正、代理终结（建档日未见其新任命；副局长职务据LinkedIn现行头衔推定延续）。履历：NCDC执行副总干事2020（NCDC为PHA前身共用SA-GOV-046）→PHA副局长→代理CEO；Hopkins MPH+沙特预防医学专科。兼职：国家健康研究所董事（总局代表）、WHO卫生紧急常设委员会沙特代表（单源）。交叉：superior=000385（贾拉贾勒卫生部长/董事会主席——注意000264亦是贾拉杰勒，000385疑为其重复ID，P4末查）；继任者图艾杰里null未建。【疑似重复】000461→000384已登记。同名加姆迪12组逐一排除",
+    "000387完成——身份主线：卫生部人口健康副大臣（2025至今）；PHA(SA-GOV-046)董事会成员系随职兼任（以其副大臣职务列名）非专任。任命纠错：非王室令——2024年12月下旬卫生大臣部令创设人口健康副大臣职并委任（自1446/7/1H≈2025-01-01起一年期）；2013年预防卫生助理副大臣亦为部令。在任（PHA名单页≈2026-07+MOH履历页≈2026-05）。履历：KSU MBBS 1994→沙特内科董事会2000→达尔豪斯传染病fellowship2003→国民卫队医院东部区顾问/流行病学家→法赫德国王医疗城顾问2007至今→MOH感染防控司司长2011-14→预防卫生助理副大臣2014-2024→现职；国际序列：WHO执委会2014-16/IHR修订工作组联合主席2022-24/SAGO成员2021今；2022阿拉伯医生奖第一名。交叉：000264大臣兼PHA董事会主席（superior）、000386同事（其档案注PHA名单页列加姆迪代理系页面滞后）、000384同事。Wikidata Q47502612（ORCID三重吻合）；无社媒",
+    "000392完成——ZATCA运营事务副总督：2021-10-15公布（王室令原文未在SPA公开渠道检索到，多源确认、文书形式未独立核实已降注）；在任（官网2026-09-09更新+2026-04-27会见阿曼OPAZ主席）。履历：ZATCA/GAZT内部2017起（VAT落地项目经理；Manhom载2017-2021前身局运营副总督，2021-10改制后再任命）→此前：stc规划与绩效总监/بيان信用局审计委/SOCPA顾问/Tadawul发行人关系总监2006-13/拉吉希银行公司融资2004-06；非ZATCA董事会成员。教育：KSU会计学士2002+职业会计硕士2014+埃及商业银行信贷文凭2005。【纠正我的派发线索】「ZATCA总督=苏海卜·穆汉纳」有误——总督为苏海勒·本·穆罕默德·阿巴纳米（000389，王室令、部长级）；索引无「苏海卜·穆汉纳」条目——superior已正确指向000389。交叉：董事会000032/000146/000174/000347/000251五人（colleague全建）。Wikidata唯一命中为沙特喜剧演员已排除；LinkedIn收录",
+    "000394完成——ZATCA技术系统与数字化副总督：2021-10-14王室令序列（与000392同批；SPA原文未直检索到已注来源等级）；在任（官网2026-09-09更新）。头衔纠错：官方为「للأنظمة التقنية والرقمنة」（IT与数字化）非线索「والتحول الرقمي」。履历：stc七个技术管理岗2000-2019+Feature Multimedia程序员→GAZT技术副总督2019-21→ZATCA同职2021至今；此前IT总经理/IT基础设施总经理（官方）；KSU计算机2000+莱斯特MBA 2010。其他：SILZ特别综合物流区公司董事（中等置信度已注）。【总督纠错与000392一致】苏海勒·阿巴纳米=000389（000251穆汉纳系另一人）。交叉000392/000393同事。LinkedIn收录；无Wikidata",
+    "000395完成——ZATCA分析与风险副总督（女性）：任命未见王室令；ManHOM载2020-07起（当前线上页检索片段异文「2021-07」，按快照+推文交叉取2020-07并注）；在任（官网阿英简历页2026-09-09双证）。履历纠错：非政务序列——会计/风控序列：Riyad Bank质量保证专员2008-2012→TCS商业运营团队负责人2015→Al Khair Capital迪拜风险管理主管2016-2018（官方页证实）→ZATCA内部晋升：分析与风险总司长2018→战略风险司长/技术信息司长2019-2021→副总督（2018职务实际属前身GAZT；ManHOM止年2021与起始2020-07重叠系年份粒度粗已注）。教育：KSU会计学士+格拉斯哥卡利多尼亚风险管理硕士（双源）；LinkedIn题头兼称CRO。无董事职务（执行序列）。交叉000389/000392/000393。无Wikidata",
+    "000393完成——拼写纠错：官方Al-Oqalaa（非Al-Uqla）；职衔为「法律事务与合规副总督」（الالتزام=compliance）。2021年10月就任（王室令原文未检索到已注）；在任（官网2026-09-09更新+2026-06-16内阁新设保险纠纷初裁委员会仍任主席）。履历：律所律师→CMA调查部法律顾问2006-13→CMA基金发行违规部主任→CMA上市公司违规部主任→中东金融投资公司总法律顾问兼董秘→国家住房公司总法律顾问→法律与合规部主任→法律事务副总督2018-10（前段GAZT）→现职——CMA五年监管序列转政务。【新增】GAFT对外贸易总局(SA-GOV-083)董事（ZATCA代表）+利雅得保险纠纷初裁委主席。教育：KSU法学+新南威尔士公司法商法硕士。X @AnasAl3gla归属验证成立。交叉000389/000392；CMA=SA-GOV-036",
+    "000396完成——【头衔纠错】官方为「天课研究与咨询副总督」（Zakat Studies and Advisory Services）——线索所拟「والمخاطر」有误（分析风险条线系000395沙阿兰所任，两线分立）。兼任总局教法委员会秘书长。任命原文未检索到（同ZATCA多数副总督情形，已降档注）。在任（官网2026-09-09+Wayback 2026-06-12快照）。履历纠错：「教法+会计双背景」预判部分不成立——纯教法序列：卡西姆大学比较教法学助理教授（学术12+年）→ZATCA天课咨询总司长（2020年GAZT杂志61期已在天课条线）→副总督；卡西姆伊斯兰教法学士+高等级司法学院（伊玛目大学）比较教法硕博，硕士论文《法人天课》导师سالم الراكن。2024科威特天课之家研讨会评审委员（仅职务参与）。【纠正我的派发线索】「000325苏莱姆」指涉有误——000325系متعب بن عبدالله آل سعود亲王，与السليم无关。交叉000389+000392-000395五同事全建；非董事会成员。LinkedIn收录；无Wikidata",
+    "000398完成——Nazaha副主席（廉洁保护）：2016-08-19王室令（优异级），在任（2026-05-02朝觐季巡视）；≥2022-12起兼「监督调查与反腐败事务监管」。履历纠错：「安全/司法序列」不成立——学术-行政序列（经济学/公共行政）：KSU经济1999→华盛顿州立硕士2003兼助理教授→阿肯色州立经济学博士2007→世界银行经济研究员→IPA研究部主任/财政经济项目总主任2012副教授→2014-08-19该学院培训副总干事→2016现职。【纠正我的派发线索×2】①「主席=曼苏尔·阿勒马兹米亲王」有误——nazaha官网+SPA 2026-08-01均确认主席=马津·卡赫穆斯（000397，在库！）；任命时在任主席=哈立德·穆海辛（000400，在库）——两位superior均已建。②「000477=Rajhi银行CEO阿巴海勒」与索引不符——000477实为Abdullah bin Diran Al-Diran，索引中除本ID外无任何أبا الخيل建档者。全名بندر بن أحمد بن محمد أبا الخيل；与纳赛尔·阿巴·海勒（国际合作副主席）同姓另一人。org SA-GOV-048；无Wikidata",
+    "000404完成——SFDA药品部门EVP：2018-02就任，在任（官网2026-10-02+SPA 2024+WHO FPF 2024+DIA 2026连续佐证）。履历：KSU药学学士2004同年加入SFDA初创团队→国家药物警戒与药品安全中心主任2013-04~2014-11→警惕与效益/风险评估司执行总监2014-11~2018-02→EVP药品部门；KCL药理硕士2007+格拉斯哥医学与治疗学博士2012+哈佛/宾大/牛津/伯克利高管+CMI。其他：SAIP董事兼执委会主席（2021与2026双源现在时）、国家补充替代医学中心指导委、患者安全中心战略委、沙特卫生理事会咨询层级（注意与000460的理事会成员层级区分）、SFDA在ICH代表2019起。拼写官方Adel Alharf；全名عادل بن عبدالله الهرف（ManHOM四级源）。交叉：000460 superior/000403同事；000387无直接公开互动未建边（避免编造）。family_note线索：X账号贺مشعل بن عبدالله الهرف（阿语系副教授）晋升，或为兄弟无证据仅存注。照片photos/SA-PERSON-000404.png入库；无Wikidata",
+    "000403完成——拼写纠错：官网英文Sami Alsager（SPA/LinkedIn作AlSager；线索Al-Sagre/Al-Sagir未见官方来源），阿语名صالح? no—سامي بن سعد الصقر。SFDA运营部门EVP：转任窗口2018-01-04~2018-05-09（两文比对锁定），在任（官网2026-01-28更新+2026-05/06活动）。履历：药剂师≤2015入SFDA（2015-03以SFDA作者发 Pharmaceutical Medicine 论文）→化妆品产品安全执行总监2016-10→代理药品EVP 2017-04→药品EVP→运营EVP。教育留空（官网无CV；LinkedIn快照显示KSU但登录墙；官网敬称「先生」与媒体「博士」矛盾存疑不采）。【新发现兼职】沙特食品安全总局董事（库内无org_id，快照级已注）。交叉000460 superior；000387无直接互动未建边。照片photos/SA-PERSON-000403.png入库；无Wikidata。score 44符合公开信息量",
+    "000405完成——拼写纠错：SFDA官网英文Salem Alenzi（非Al-Anazi/Al-Onazi）；全名سالم بن الأسود العنزي（SASO页父名链）。任命窗口2025-03~2026-01（旧职继任者Abrar Al-Musharraf 2026-01就任+2025-03-19帖文仍称旧职）；在任（2026-10-02官网直读）。履历纠错：非医疗器械/生物医学工程序列——SFDA实验室与研究条线内部晋升：执行总监（主管实验室）→助理执行副总裁（研究与实验室）→器械与产品部门EVP；教育无可核实来源留空（「博士」仅尊称）。兼职：SASO董事（org未入库null）。交叉：000460 superior/000403/000404同事/前任阿里·达拉安null。照片photos/SA-PERSON-000405.png入库；无Wikidata。score 49符合公开信息量",
+    "000406完成——SFDA食品部门EVP：确认现任（官网2026-01-28更新2026-10-02仍在列+2025-11-27签BfR备忘录）。全名冲突：SPA官方通稿محمد بن ناصر الناصر（父名ناصر）vs Manhom页标题محمد بن علي الناصر——以SPA为准存疑标注。履历：食品监管序列全部官方级：2016市场监控执行管理总监兼局朝觐委主席→2018利雅得分支执行总监→2019中部分支总监→2022起食品EVP（代理自2022-02-01未全文核实，2022-06-19已正式主持GCC会议）；此前无食品工业/公共卫生序列证据。无SFDA系董事职务（董事会由部委代表组成）；2018前任食品副总裁الدوسري null未入库。教育仅KSU（LinkedIn）。「食品科学学位常见」假设未证实未写入。索引000484（محمد بن علي آل ناصر）空号已排除（拼写父名均不同）。交叉000460/000403/000404/000405",
+    "000409完成——SGS代理高级副总裁：官方头衔「النائب الأعلى للرئيس التنفيذي المكلّف/Acting Senior Vice President」与线索「نائب الرئيس الأول المكلف」及SA-GOV-050 key_people旧表述均不一致（position_note已纠）；截至2026-10-02仍为代理未检索到转正公告；不在SGS董事会（行政序列）。履历：本拉登集团建筑2001-03→Maaden矿山运营经理2014-15→EHS总监2015-18→矿山冶炼运营总监2018-20→黄金与基础金属子公司运营副总裁2020-22/代理总裁≥2021-06→ESNAD监察合规板块副总裁2023-01~约2025末→SGS现职（转任月份未披露，2025-03仍有ESNAD记录）。其他：GEOSA董事（SGS代表）、矿业协会理事长2025-08就任现任。教育Manhom单源：KSU地质2002+巴黎国立矿业硕士2007+马来西亚开放大学国际营销硕士2014+KFUPM EMBA2021。交叉：000303穆代伊费尔=上级（SGS副董事长兼代理总裁）、000408沙姆拉尼=同僚（SGS前总裁）、000407亲王=org预留最高领导ID。加姆迪部族11人全排查无重复。无Wikidata；推文syndication API直读推荐入降级链",
+    "000413完成——【代理结局核实（核心增量）】Mawani代理总裁2024年10月末/11月初（前任哈里里2024-10-31转SAL CEO；2024-11-14官方X首用「总裁المكلف」头衔）；【未转正】2025-06-24董事会任命马兹鲁阿（前NIDLP CEO）为总裁2025-06-29就任，图尔基复任港口事务副总裁（2021-11原职），现任（官方X 2026-08-19仍以该头衔报道）。履历：UASC约8年半（石化全球重点客户总监/总经理/商务总经理）→USL总经理→Mawani总裁顾问→2018-05-30战略规划与业务发展副总裁→2021-11港口事务副总裁→代理总裁2024-11~2025-06。教育：1997埃及阿拉伯科技海运学院工商管理。交叉：000411贾塞尔（Mawani董事会主席superior）、000338同事、哈里里null。【纠正我的派发线索】「000279系Al-Turki」有误——000279实为文化大臣巴德尔·本·法尔汉亲王（آل سعود），与Al-Turki无关，代理已写入identity_note。org SA-GOV-051；无Wikidata",
+    "000416完成——【现状重大纠错】非现任RCJY CEO——已离任：RCJY官网leaders页（Wayback 2026-02-08快照）已列历史序列（1976年设职以来第7任）；继任者أحمد الحسين→م. محمود الذيب（1445/13/5起）；LinkedIn自述「Former CEO RCJY」。任命系委员会主席部令非王室令（2018-10-08发布，2018-10-14生效）。离任口径差异：官网标1443/11/23（≈2022-06）vs 继任者起任1442/11/24（≈2021-07-05）+RCJY致谢推文2021-07-01+manhom「2018-2021」三证指向2021年中卸任，本档end取2021-07。履历：Petroserve电气工程师1987→SAMAREC→阿美25年（贝里气田厂长/延布炼油厂厂长等）→独立顾问/NDP高级战略顾问→RCJY CEO→XWE咨询创始人→2025年1-12月任教育捐基金自闭症服务公司CEO兼آفاق中心（中东最大自闭症机构）总监督。在任期间兼SAR/Marafiq/东部省发展局/教科文地区优质教育卓越中心董事（2018-2021）。交叉：000414 RCJY主席（relationship=other，两人任职仅可能数周重叠非直接上下级）。current_positions留空（无可核实在任职务）。无Wikidata；教育manhom单源已标登记级",
+    "000380/000425双查重命中000289（拉比亚三ID分裂案就地查证闭合，免派两代理）。000289主档已在库（朝觐大臣），000380/000425均无档空号。P5核对SA-GOV-054 key_people时朝觐大臣引用指向000289",
+    "000417完成——【现状重大纠错】已离任延布皇家委员会CEO：代理2020-02→正式2020-10~2022-10调任吉赞基础及转化工业城CEO（2022-10~2023）→2023-07起转任私营RAQI海湾投资公司（职业医学/企业健康）总裁至今（官网总裁致辞+X简介+LinkedIn三源）——线索「延布CEO」过时。现任延布CEO=杰哈尼（2022-03起，RCJY官网）；吉赞城CEO=法德利（2023起）——英维基RCJY条目仍列其为延布CEO属过时未采。全名勘定：فهد بن ضيف الله القرشي（SPA官方拼写）。履历：延布宣教合作办主任→RCJY延布投资发展总经理2019-20→延布CEO→吉赞城CEO→RAQI总裁；无工业区工程/学术序列证据（纠错）。任命文书未检索到王室令/部令原文（登记级已标）。交叉：000414 RCJY主席superior、000416朱拜勒CEO同事；杰哈尼/法德利null未建。X @Fahad_D_Q+LinkedIn收录；无Wikidata。登记级建档",
+    "000429完成——利雅得省副省长穆罕默德亲王：任命纠错（重要）：王室令A/171（1438-07-25=2017-04-22，特等级），非线索2017-11；SA-GOV-055「2017年4月起」正确。在任（SPA 2026-08-09佐证）。注意2026-02新任北方边境省副省长Mohammed bin Abdullah系另一人勿混淆。履历：皇家法院顾问2016-05→副省长至今；另任皇家保护区委员会成员；education登记级留空（无任何来源）。【王室家族网络核实】父阿卜杜拉赫曼（建国国王第16子、苏德里七兄弟、萨勒曼同母弟，2017-07-13卒）→国王萨勒曼000004=伯父（uncle）；王储000003=堂兄弟（cousin）兼RCRC主席；利雅得省长费萨尔·本·班达尔=000428直接上司（superior）。RCRC=SA-GOV-055/皇家法院=SA-GOV-002。无社媒；Wikidata Q63469597；score 47符合王室成员公开信息量（出生/教育均不公开）",
+    "000424完成——麦加副省长沙特·本·米沙勒亲王：2023-12-12王室令أ/202（卓越等第，首次任此职）免巴德尔·本·苏尔坦任命本人，现任（2026-08/09 SPA）。【三重纠错】①线索「2020-2025任副省长」不成立——无更早任期记录；②「其父米沙勒2015-2021任麦加省长」不成立——父米沙勒·本·阿卜杜勒阿齐兹（1926-2017，效忠委主席2007-2017）从未任麦加省长，2015-2021省长=哈立德·费萨尔、2013-2015=米沙勒·本·阿卜杜拉（易混淆人物）；③「麦加省长=法赫德·本·苏尔坦」不成立——其为塔布克省长(000651)，正职上级实=哈立德·费萨尔（2015-01-29就任，2026-09-17延4年）。【新重复嫌疑（P4末查）】000075/000423疑为同一人重复档案（哈立德·费萨尔）——已在relation description注明待核查。交叉：000423上级/000003王储（RCMC同董事会）/000206父（仅索引映射无档）。兼职12项（官方简历全列）：RCMC董事/效忠委成员/中央朝觐委执委会主席/麦加地区发展局副主席/吉达中部开发公司董事等；多次奉国王命主持天房清洗。Wikidata Q124341360。org SA-GOV-054",
+    "000421完成——RCU董事（麦地那省省长）萨勒曼·本·苏尔坦亲王：2024-12获任（官网2026-10-02双语列名），在任。履历：1996皇家防空少尉→华盛顿武官处→2003-08-06上尉退役转外交（王室令أ/116，公使B/13级）→2006晋A/14级→国家安全委任秘书长助理（2011优等待遇级）→2013-08-06副国防大臣（大臣级，2014-05-14因个人请求卸任，继任哈立德·本·班达尔）→2023-12-12王室令任麦地那省省长（接替费萨尔·本·萨勒曼）兼地区发展管理局董事会主席。【哈伊勒副埃米尔2017-2021证伪】哈伊勒省政府官网显示该职=费萨尔·本·费赫德·本·穆格林（2018-02-26就任），五源零记载——他人混淆未采。父兄网络：父=前王储兼国防大臣苏尔坦（2011卒）；法赫德（卡西姆省长）/班德尔（前驻美大使）三源核实；哈立德（前副防长）EN维基+Wikidata P22两源。【纠正000414身份认知】000414=Khalid Al-Salem（RCJY主席）非王族，与本亲王非兄弟——两亲王代理对此一致。org RCU=SA-GOV-053/国防部=SA-GOV-014/外交部=SA-GOV-012/防空=SA-MIL-004。Wikidata Q7405429；born 1976-02-02达兰三源；照片photos/SA-PERSON-000421.jpg入库。【新重复嫌疑（P4末查）】000652（无档）变体名映射疑与本人重复——索引行1101，P4末核对合并",
+    "000434完成——【专任/兼任甄别（核心）】非财政部/市政序列——GEOSA（测绘与地理空间信息总局）局长，以局长身份代表GEOSA任REGA董事（兼任）。GEOSA局长2021-11-18最高王室批准，在任（SPA 2026-08-09当选UN-GGIM联合主席）。履历：国防部军事测绘总局少将（副局长/边境文书司长/边界划定技术团队负责人）→皇家法院边界技术顾问（Manhom单源登记级）→地理空间IT企业→2021 GEOSA局长；Roger Williams土木1984+多伦多测绘硕士1994+汉诺威博士2006+英国皇家工兵测绘学校高级文凭，REGA+维基+Manhom三源一致。GEOSA库内无机构条目org_id=null（新组织实体线索）。交叉000317（REGA主席superior）/000321同事。LinkedIn收录；无Wikidata",
+    "000441完成——TVTC训练事务副总裁：任命性质纠错——非王室令，系تكليf委任（1443/4/13≈2021-11-19起），2023-11-01/2024-11-04两度由教育大臣（兼TVTC董事会主席）决定延长一年。在任（TVTC Instagram 2026-08-04+SPA 2025-08+官网2025-10快照+LinkedIn 2026-03）。履历：利雅得/布赖代技术学院讲师1995-2006→布赖代技术学院院长2009→卡西姆系列→男生技术学院序列助理副总裁2018-11→代理训练事务副总裁2021-08→副总裁1443/4/13；发动机与车辆技术专业；西弗吉尼亚大学技术教育博士2004+俄亥俄机械硕士2000+利雅得技术学院学士1416+布赖代文凭1414。其他：RPI/TYARAN/NEOM就业导向学院董事；未发现HRDF董事（早年参与培训项目，与000296按associate记录）。拼写：官方LinkedIn署名Dr. Adel Alzenedy（完整转写Adel bin Hamad Al-Zunaidi）。交叉000439 superior/000442同事/000296 associate。org SA-GOV-058；X @Dr_Adel_TVTC+LinkedIn收录；无Wikidata",
+    "000442完成——TVTC辅助服务副总裁：2025-05-01公布，性质为قرار تكليf（委任职决定）——「王室令任命」线索未获证实已注。在任（SPA+Alriyadh 2026-05-20 Tabuk考察+EnergyTech 2026-02+TVTC新闻2026-07/09）。履历：阿布哈技术学院助教→讲师→助理教授/行政技术系主任→海米斯穆谢特技术学院院长2005-09→TVTC规划发展副总裁2018→训练政策与质量副总裁2019-06→辅助服务副总裁2025-05（000443接其原职）。另有教育部大臣顾问2019-02（Manhom单源）/沙克拉大学助理教授2017-21/2023-05部长决定兼تطوير公共教育发展项目总监（2026实时页仍兼）；现兼EnergyTech董事2026-02。时间线矛盾：官方CV「1440H起副总裁至今」与ManHOM「2019-02大臣顾问」部分重叠两说并存。教育：会计学博士（威尔士卡迪夫2004）+科研方法文凭+会计硕士（迈阿密1994）+会计学士（伊玛目大学1409H）。交叉：000439 superior/000440 董事会主席/000441同事/000443接其原职/000296无直接职务关系未建边。org SA-GOV-058；无Wikidata",
+    "000435完成——投资部投资发展助理副部长（约2024底至今，管房地产/旅游/娱乐/ICT/教育服务投资），专任政府官员；REGA董事（投资部代表席）与Monshaat董事均为部委代表席兼任。【重大来源纠错】REGA官网其个人页简介与同板董事拉坎·阿勒谢赫页简介逐字相同——官网错植，不采信（与LinkedIn/Milken/SPA等5+独立证据矛盾）。最早可证2021-12-29（SPA 2316706董事会第17次会议投资部代表）；现任（官网2026-10-02列名15人董事会）。履历：拉筹伯大学国际贸易学士约2008-2011→私营房地产/航空/旅游/酒店13-15年→投资部房地产部门总经理2021-12~2024→助理副部长2024底至今。交叉：000317 REGA主席/000321塔维勒/000434阿勒萨伊勒同事；拉坎·阿勒谢赫索引无映射null。REGA=SA-GOV-056/MISA=SA-GOV-035/Monshaat=SA-GOV-084。LinkedIn仅1账号；无Wikidata",
+    "000443完成——TVTC训练政策与质量副总裁：未见王室令；辅助服务副总裁自1442/5/19≈2021-01-02代理履职，2021-03人事通报定级；转现职为机构委任（تكليf），TVTC Instagram 2025-05-01公告，接替000442（其转辅助服务副总裁）。在任（SPA 2026-01/04+利雅得报+TVTC巴哈X 2026-09-29+本人X简介6类来源）。履历：计算机教师/系主任→二级工业学院训练副职→技术学院计算机系主任（两任）→二级工业学院院长≈2014-16→拉斯技术学院院长≈2019→TVTC辅助服务助理副总裁→辅助服务副总裁2021初→政策质量副总裁2025。KSU信息系统学士1419+东英吉利信息系统硕士1430（公派）。【重要页内纠错】TVTC快照HTML注释隐藏的旧版履历属000442（其自2019-06起任政策质量副总裁，即豪沙尼前任）——该段UNESCO/Aramco/SDB条目不可归入豪沙尼。交叉：000439 superior/000441同事/000442同事兼前任/000296 superior（HRDF+Takamol董事长，本人均成员）。org TVTC=SA-GOV-058/HRDF=SA-GOV-100。X @SalehHoshani唯一社媒；无Wikidata",
+    "000455完成——TDF董事（兼任）：2020-06-17王储批准首届董事会即入列，现任；提名与薪酬委主席+信用保证委成员（阿维基称审计委主席与官网分工不符以官网为准）。主职：银行投资1995-2009（汇丰沙特/NCB）→MODON CFO 2009-11→MASIC CEO 2011-19→国家地产总局局长2018-12-27~2023-03-05→巴拉德金融董事长2023-04-16起→纳赫拉集团执董副主席2025起→【吉达市长】（أمين محافظة جدة，优秀级别，王室令أ/24，2026-07-11就任接图尔基，现任）。【履历纠错】「酒店业/旅游投资背景」未获支持——银行/投资/地产背景。humanonline称「苏莱曼·拉吉吉控股董事长」与全部官方来源矛盾疑张冠李戴已排除。交叉：000143 TDF主席/000454同批董事（注另有早期档000334）/000456副主席同事；前任市长图尔基null。org SA-GOV-061/SA-GOV-044（MODON）/SA-GOV-056（不动产总局曾任董事）。born 1973年吉达；无Wikidata；X @ihsanbafakih",
+    "000452完成——STA官方发言人（兼全球公关与企业传播高级总监）：确认现任（SPA 2026-09-10署名）。STA创始团队成员2020起（最早记录2020-12-11沙特冬季发言人；本人LinkedIn自述「自STA创立即加入」推定2020）。新发现：2025-11起兼TOURISE（利雅得新创全球旅游峰会平台）发言人（org未入库线索）。教育：INSEAD枫丹白露战略营销高管2026-05。交叉：STA CEO哈米德丁=000450（org引用但persons文件未落盘，P5线索）、大臣000143主档、同事哈兹米000451；000450确非「KFCRIS 000088」（简报正确）。照片photos/SA-PERSON-000452.jpg入库；X @AbdullahADakhil+LinkedIn收录；无Wikidata",
+    "000454完成（78分）——身份锁定：هيفاء بنت محمد بن سعود بن خالد（阿卜杜勒拉赫曼支系），Wikidata Q73886507。TDF董事2020-07-17首届入列，现任（2026索引仍列名 alongside 新NDF总裁阿里菲）；信贷委委员。【重大简报纠错】「2020-06旅游副大臣海法·宾特·阿卜杜勒阿齐兹·本·穆萨伊德·本·法赫德」未获任何来源支持——实为讹混；旅游部副部长=2022-07-03王室令由本档人物本人出任（SPA/Annahar/The National等一致）；2020年中相关任命实为2020-01 GACA董事/2020-07-17 TDF董事（时任部长助理）。即TDF董事海法=前旅游副部长海法，非两个不同公主。【2026-02-12改组】王室令O/249解除副部长职务、任大臣会议总秘书处顾问（特等阶部长级，现任）；同批阿里菲任NDF总裁（=000457）。履历：HSBC英国→高教部高级顾问→体育总局体育经济GM→Formula E控股秘书长2018-07起（主导德拉伊耶ePrix）→旅游部长助理2019-22→副部长2022-07~2026-02→顾问现任。纽黑文BA2008+伦敦商学院MBA2017；通三语。交叉000143/000453/000455/000456/000457；org TDF=SA-GOV-061/旅游部=033/GACA=041/Qiddiya=SA-SOE-010/大臣会议=SA-GOV-001。photo未入库（Commons source_url only）",
+    "000456完成——TDF董事会副主席（信贷委主席+风险合规委委员）：2020-06-17首届入列（SPA通稿），副主席头衔最早见于2025-07-20快照，现任未见免任；升任日期官方未披露。专任/兼任甄别：非常务兼任——职业董事/家族企业主：家族投资公司「奥姆兰·穆罕默德·奥姆兰及合伙人」董事长（父创立）+上市公司奥姆兰工贸(Tadawul 4226)非执行董事长2025-09-17起2025-2029任期；另兼SAB非执行董事/Saudia董事2026-08-18起/Yanal Finance董事长等19段。委员会分工=信贷委主席（成员含海法公主000454/法赫里000453）+风险合规委委员。拼写：TDF官网Mohammed Al Omran/SAB官网Mohammed Alomran（已采）；全名محمد بن عمران العمران。born 1965-05（UK Companies House认证核验）。教育：KSU土木+南加州建筑工程与管理硕士（三源一致）。交叉000143 superior（000332重复编号已注）/000454/000455/000453同事；父عمران/弟موسى入family。org SA-GOV-061；无Wikidata",
+    "000464完成——ETEC主任：任命机制纠错（重要）——非王室令，系2024-03-28 ETEC董事会决议（قرار مجلس الإدارة，董事会主席哈立德·萨卜提主持），王室令仅适用于董事会主席职。在任（官网2026-09-20更新+2026-01 ICAN2026+2026-02斋月致辞）。履历：KSU计算机系助理教授2009-2015→电子事务与传播学院副院长→تكافل基金会规划与信息监察→国家网络安全局能力建设副局长（SPA 2017-2021/CUA 2018-2021两注并存）→ETEC战略与发展副主席2021~2024-03→主任2024-03-28至今；皇后大学计算机硕士2005/博士2009+KSU一等荣誉学士（CUA名录本科行误列皇后大学2000不采信）。任内获「首尔协定」正式成员资格2024-06-15德里投票。【org_id纠错（重要）】任务标注ETEC=SA-GOV-064有误——064实为盖亚斯国家评估中心（ETEC下属），ETEC本体注册id=SA-GOV-135（141系重复登记项），本档采135。交叉：000463萨卜提superior（ETEC董事会主席、其前任）、000039本亚尼同事。org_id纠错P4末统一处理",
+    "000471查重命中000187（纳姆里三重ID链闭合）。【重大纠错×2】①「ADF董事会主席=000187萨格尔」有误——000187实为阿卜杜勒伊拉·纳姆里（曾任ADF董事，从未任主席），ADF董事会主席=环境水利农业大臣阿尔法德利（=000094，SPA/ADF官方账号2026-09证实）；②000471建档前提（独立于000187的新董事）不成立。ADF董事任命系2021-03-23部长会议决定（乌姆古拉公报p=16951），非王室令。纳姆里现状：已离任ADF（2024-11）+离NDF（2025-02）转Leejam CEO——000187主档需P5更新其现状为「前董事、现Leejam CEO」。同批公报另一ADF董事=纳菲亚（经计部代表）系另一人。索引000187/000471双映射需P4末合并",
+    "000470完成——ADF官方发言人（兼企业传播管理部主任）：2021-11-04由时任ADF总经理穆尼尔·萨赫利（=000469在建CEO）发布决定任命，在任（2025-10/2025-11/2026-01/2026-04四源持续佐证）。履历纠错：非农业金融/银行序列——媒体序列：KFCRIS(SA-ACAD-037)媒体与网络发布部主任2017-2020→塔特维尔教育服务→伊玛目大学兼任讲师→国民对话中心→记者（沃坦报/中东报/Majalla）；朴茨茅斯新闻学与国际关系学士2013+威斯敏斯特媒体机构管理硕士2014。ADF入职月份存疑（SPA称去年4月，2020或2021歧义，start_date留空已注）。交叉：000469（任命人superior）、000094法德利（ADF董事会主席，机构链关联无直接共事已注）。ADF发言人岗位登记级49分符合公开信息量。无社媒无Wikidata",
+    "000469完成——ADF CEO兼副主席：任命纠错（重要）——非王室令，2015-09-02由农业大臣兼ADF主席法德利(000094)发布大臣/董事会决定（قرار تكليf）委任；在任（SPA 2026-07-01英文稿+ADF官方X 2026-06-30）；2023-08 ADF新体系后「مدير عام」改称「CEO」同一职务延续。【新发现兼任】沙特环境基金(SA-GOV-088) CEO 2023-03-14~2026-05-15持续记载，2025-07官方口径「代理CEO（المكلف）」——2024-2026两职并行判定兼任。履历：SABIC总账→Almarai财务运营与股东服务总监+共享服务总监2004-08→亚马马水泥财务与信息系统总经理2008-11→Tadawul财务与支持服务总经理2011-15→ADF 2015-09至今；KSU会计1993+科罗拉多丹佛金融硕士2001+美国CPA+SOCPA。交叉：000094法德利=superior（ADF与环境基金双重董事会主席）。同名排除：000619فيحان（调查总局总局长）不同人；X/IG无关同名排除。ADF官网不可达（直连+jina均失败），CEO职务以SPA/NCPD/MEWA/维基交叉替代验证。无Wikidata",
+    "000475完成——交通总局官方发言人（上校）：全名منصور بن عبيد الشكرة（父欧拜德），英文Al-Shakrah。2013年少校任东部省交通局媒体发言人（代理，5家报道互证）→2013-11获纳伊夫阿拉伯安全科学大学硕士（论文：转化型领导在提升交通总局员工绩效中的作用，东部省埃米尔接见=000212）→≤2022-07-08起任交通总局官方发言人。现任（2026-07-17官方@KSA转发佐证）。任命日期无公开披露已注。交叉：000473交通总局总监（superior）、000198内政大臣（部门序列）、000212（2013论文接见associate）。org SA-GOV-066；38分符合发言人岗位公开信息量；无社媒无Wikidata",
+    "000472完成——ADF董事（经计部代表，兼任）：主职=经济与计划部负责部门与区域发展事务副部长（2022-03 تكليf至今）；兼Matarat Holding董事/沙特环境基金董事/曾列Estidamah董事2022年报。任命窗口锁定2023-06~12（Wayback五快照：2023-06-07列前任Nafea→2023-12-10列本人；王室令未检索到已注）。履历：沙特法国银行2005-2015三段晋升（杠杆融资负责人）→经计部顾问2015-21→部长助理副部长2021-22→副部长2022-03至今；贝鲁特美国大学经济学+伦敦商学院EMBA 2015。女性。【跨批交叉证实】ADF 2022-06-09存档显示「عبدالإله بن محمد النمر」时以NDF代表任ADF董事——与此前000187/000471查重合并案完全吻合，确认跨批重复建档判断正确。交叉000282（superior）/000094/000469/000471同事。org ADF=SA-GOV-065/MEP=SA-GOV-022/BSF=SA-FIN-018/环境基金=SA-GOV-088；Matarat/Estidamah=null（未入库）。照片photos/SA-PERSON-000472.webp入库；无Wikidata",
+    "000480完成——【三重重大纠错】①官方父名=سليمان（苏莱曼）非维基的سلمان——档案采官方拼写；②SA-GOV-067实为「沙特网络安全编程和无人机联合会SAFCSP（奥委会旗下）」而非「国家网络安全总局NCA」——NCA为SA-GOV-045，org档案ID标签有误（P5修正）；③交叉引用纠错：000253=纳伊夫亲王非穆萨德·达伍德（NCA主席穆萨德·艾班=000383）；「000448阿勒希拉利」未见于索引（000448现映射纳比拉·拉伊德·伊德里斯）。【现状纠错（重要）】已离任SAFCSP董事会：最早快照2021-07-31在列→2024-12-01仍在→2025-02-10起除名（离任窗口2024-12~2025-02），现行官网董事会仅5人无此人；阿美CISO=前职2018-09~2021-05（三方在任佐证）→NEOM CISO→现任NEOM战略办公室主任（Bank Albilad官方简历判读+LinkedIn 2022转发佐证）+Bank Albilad风险委外部委员+电气工业公司董事兼审计委员。履历：阿美海牙IT负责人→阿美CISO→NEOM CISO→NEOM战略办；佛罗里达理工电机1998+牛津高管2019；CSO 50奖2020/2021。交叉：000478哈米迪/000479苏韦莱姆同批董事+2020全球网络安全论坛同场、000007卡尼（colleague，SA-GOV-067）；000016阿明·纳赛尔superior（SA-SOE-001）；NEOM=SA-SOE-009。索引000448现映射纳比拉·拉伊德·伊德里斯系标签有误P4末统一处理。无Wikidata",
+    "【会话恢复修正】崩溃前4个在飞(000481/485/488/494)档案已落盘且schema 0错误，000116档案已落盘但完成记录丢失——5人补记completed。真实进度403/530，待派发63。恢复滚动4并发。",
+    "000535完成——SRMG副董事长马吉德·伊萨，score 64，29条履历/8源全文，birth_date矛盾留空（招股书45岁 vs maaal 1969）。",
+    "000501完成——桑博尔（ITFC前CEO 2016-2025/ICD代理CEO，均已离任故current_positions留空），score 67，8源全文。发现并合并重复ID：000189→000501（译名差异）。",
+    "000540完成——努尔·努加利(Arab News副总编辑2024-01起)，score 63，姓名拼写修正Noor Nugali，9引用。",
+    "【数据修正】registry中30个KR-PERSON前缀ID为子代理误用前缀（SA数据集的国际关系人，非韩国人物），已从person_registry移除+计数器清理；28个引用文件中person_id置null（person_name保留语义）。",
+    "000500完成——曼苏尔·穆赫塔尔(IsDB副总裁2015-12至2024-09口径矛盾已注记/BOI董事长)，score 78，Q6751897，13引用。",
+    "【重试记录】000543/000554/000555/000570 首轮派发因 Provider authentication failed 全部失败，无残留档案，原 prompt 重试派发（skill §14.1 e：失败重试1次）。",
+    "000570完成——巴萨姆(Al-Watan副总编辑，2015曾代理总编6个月)，score 54，7引用，重试轮成功。",
+    "000555完成——贾拉拉(Okaz数字发展与创新助理总编辑2026-03起)，score 42，7引用，重试轮成功。",
+    "000554完成——乌拜延(Okaz副总编辑/知名大众诗人，Q6814320)，score 73，10引用，拼写修正Abdullah Obian，重试轮成功。",
+    "000543完成——瓦哈布(Arab News执行主编/代理执行总编，印度籍修正，拼写Siraj Wahab)，score 73，12引用，重试轮成功。",
+    "000578完成——阿布·纳斯夫(SBA助理局长工程事务/战略规划总监督)，score 44，13引用，重试轮成功。",
+    "【记账修正】(1)首批派发未从remaining移除000500/501/535/540导致remaining虚高4，已清除；(2)000640实为崩溃会话已完成档(2026-10-01)，误标current已回退——未实际派发agent，无覆盖。真实remaining=55。",
+    "000604完成并立即合并→000649（同一人重复建档，score 84），主档吸收增量；改派000616。",
+    "000605完成——班达尔·本·苏尔坦亲王(前驻美大使1983-2005/前情报局长)，score 85，KFCRIS秘书长说法证伪；关系字段000604引用已改指000649。",
+    "000579完成——加米迪(SBA副局长，2019-09曾受命主持局务)，score 62，12条履历，头衔矛盾已存疑注记。",
+    "000571完成——阿斯马里(SPA代理社长2025起)，score 53，FANA官网简历直读，15引用。",
+    "000616完成——奥韦斯(国家安全总局副局长2022皇家令A/338，Q110550219)，score 35（低曝光情报官，库内口径一致），10引用。",
+    "000621完成——卡尔尼(调查总局副总局长中将，全名Abdullah bin Ali Al-Qarni锁定)，score 46，11引用，同名传教士/球员已区分。",
+    "000617完成——哈尔比(国家安全总局发言人上校，全名Turki bin Muqbil，父名媒体讹传已纠)，score 43，11引用。",
+    "000623完成——祖韦比(皇家卫队副局长中将2026-02令A/281，拼写实证Al-Dhuwaihi)，score 37，11引用，SPA原文直读。",
+    "000636完成——哈立德·本·瓦利德亲王(瓦利德之子/Q61679974，16条履历)，score 79，10引用。",
+    "000638完成——法赫德·本·纳夫勒(瓦利德慈善基金会托管人/前利雅得新月主席2019-2025，Q79351554)，score 67，7引用。",
+    "000637完成——里姆公主(瓦利德慈善基金会创始董事/副主席，Q23907942)，score 72，17引用；「Reelah独女说」存疑未收录，出生日期采1983-03-07多源。",
+    "000639首次派发因提供方内容过滤报错失败（无档案残留），调整措辞后重试。",
+    "000651完成——法赫德·本·苏尔坦(塔布克省省长1987至今/苏尔坦基金会副董事长，Q5429527)，score 72，兄弟身份区分完成。",
+    "000652完成并立即合并→000421（同一人重复建档），职务口径纠错为基金会理事会成员；军事履历实证为皇家防空部队序列。",
+    "000643完成——贾沃拉公主(哈立德国王之女/KKF董事会成员，父名三重确认)，score 38，11引用；发现其为000017之母；哈立德国王在位年勘误1975-1982。",
+    "000639完成（重试成功）——纳什万谢赫(瓦利德慈善基金会董事2009起/亲王宗教顾问20+年)，score 51，15引用。",
+    "000654完成——马古希(苏尔坦基金会助理总干事，拼写勘误Almagushi ق，驻英文化参赞出身)，score 72，7履历3学历。",
+    "000656完成并立即合并→000086（同一人重复建档，score 90重查更全）；改派000664。",
+    "000663完成——沙里夫博士(Mawhiba代理秘书长至2025-06-22卸任，全名Khalid bin Mohammed)，score 49，17引用。",
+    "000659完成——曼苏尔·本·沙特(KFF副秘书长2016起，ManHOM串档bin Mohammed职务已剔除)，score 73，19引用。",
+    "000664完成——萨丹(Mawhiba前副秘书长2019-2024，现任AlMaarefa大学院长，Q102358114)，score 64，姓氏勘误السدحان。",
+    "000667完成——加姆迪(KSrelief规划与发展助理总监/CERF咨询小组成员2012，全名bin Jumaan修正)，score 57，12引用，官方架构页履历直读。",
+    "000666完成——拜兹(KSrelief运营与项目助理总监，前卫生部工程事务助理副大臣2012-2014，拼写Al-Baiz修正)，score 31，13引用。",
+    "000668完成——朱泰利(KSrelief发言人兼资源与投资司长，牙医博士出身，2017-04起发言人)，score 47，12引用。",
+    "000671完成——贾里扬(SRCA董事会成员/卫生部代表，急诊医学教授，拼写Nawfal Aljerian)，score 69，10履历5学历。",
+    "000675完成——谢赫里(MWL传播与国际合作助理秘书长2026-09新衔，职衔沿革4段还原)，score 49，14引用。",
+    "000684完成——穆特拉克(高级学者委员会委员/皇家法院顾问/比较教法教授，WAMY宗教事务委副主席双源确认，Q12223423)，score 72，12引用。",
+    "000672完成——亚米(SRCA董事会成员/HRC代表，性别核实为男性，英文名Ghafoon Alyami修正)，score 65，17引用，HRC两届王室令职务链。",
+    "000696完成——卡赫塔尼谢赫(乌玛党创始协调委员会成员/商人，2011建党申请EHSA00466836，2012后无公开记录)，score 42，9引用。",
+    "000695完成——加米迪博士(乌姆·古拉圣训教授/乌玛党副主席，三重同名排查含第二近名者الحمدان)，score 63，11引用。",
+    "000691完成——布蒂(哈拉曼基金会美国分部董事1997-2004，两条履历线裁定非同一人：沙特奥委会主席线索证伪为纳瓦夫/阿卜杜拉亲王)，score 41，14引用，UN列名/除名/撤诉全时间线。",
+    "000701完成——玛达维·拉希德(NAAS党发言人=人类学家本人四源确认，FBA院士/Q3275459)，score 83，7履历4学历。",
+    "000697完成——杜盖希尔(乌玛党创始成员+حسم协会11人创始成员，HRW本人受访确认)，score 57，9引用。",
+    "000698完成——赫德尔教授(卡西姆大学比较教法教授/حسم创始成员/乌玛党创始委员会，2013判8年2015加刑10年2023获释全时间线)，score 54，12引用。",
+    "000699完成——马夫拉赫(乌玛党首任秘书长，2014-12-17伊斯坦布尔病逝4+源证实，推翻党档案「暗杀无佐证」旧注，已回写SA-PARTY-004)，score 56，13引用。",
+    "000709完成——多萨里(NAAS发言人兼媒体委员会主席2025-09起/RHUL副教授/ALQST代理主任，@maryam_dh三方锁定)，score 75，10履历14引用。",
+    "000713完成并立即合并→000282（第四处重复建档：阿美董事=经济和规划大臣本人，16条履历并入）；改派下一号。",
+    "000714完成并立即合并→000724（第五处重复建档，本次为消歧简档直接废置）；「能源部顾问」线索证伪未采信。",
+    "000712完成并立即合并→000197（第六处重复建档：阿美董事=财政大臣本人，score 81）；「Tadawul CEO」线索证伪实为CMA主席。",
+    "【修正】000702曾于12:25标记current但漏发Agent调用（状态与实际不符），现补派恢复4并发。",
+    "000716首次派发因提供方内容过滤误报失败（无档案残留），调整措辞后重试。",
+    "000715完成——达德利(前BP CEO 2010-2020/阿美独立董事2024-2027，国籍纠错为美英双重，Q421864)，score 80，16条履历11引用。",
+    "000717完成——利弗里斯(前陶氏CEO 2004-2018/阿美董事2018-07起，Q83636)，score 89，13条履历10引用；维基2028未来日期未采信。",
+    "000718完成——温伯格(前安永全球CEO 2013-2019/阿美独立董事2020起/Q14538344，出生年采1961三源一致)，score 80，12条履历。",
+    "000716完成（重试成功）——格利弗(前汇丰CEO 2011-2018/阿美董事2021，25条履历，港译歐智華入aliases)，score 68，10引用。",
+    "000702完成（补派）——奥达(NAAS副秘书长/前总书记2021-2025，萨勒曼·奥达之子，Q120775635，英文通称Abdullah Alaoudh)，score 91，9履历14引用。",
+    "000719完成——埃森汉斯(阿美董事会首位女性2018/审计委主席，前Sunoco CEO/Shell 28年，现TSMC独董，Q514865)，score 58，13条履历9引用。",
+    "000721完成——里伊斯博士(SEC副主席2024-2028，前Dussur CEO 2019-2025/APICORP副CEO)，score 64，5履历5学历8引用。",
+    "000727完成——卡塔尼(阿美下游业务总裁2023起/SABIC副董事长，2025首位沙特籍NAE国际院士)，score 60，17条履历9现职。",
+    "000728完成——穆尔希德(阿美CFO 2022-05起/SABIC非执行董事2020起/Wisayah董事长，Q115735778，拼写Ziad修正)，score 62，16条履历。",
+    "000730完成——胡迈德(stc副董事长2024-2028/PIF副总督，拼写Yazeed Al-Humied修正，1983-05-28生双源)，score 63，13条履历。",
+    "000733完成——贾尔布(Ma'aden独立副董事长已卸任2020-2023，前SABIC董事长2017-2020，22条履历横跨50年)，score 62，9引用。",
+    "000735完成——安东尼奥齐(Ma'aden EVP&CFO 2026-03起，前Livent首任CFO/Arcadium CFO，SEC备案精确日期)，score 65，6条履历9引用。",
+    "000743完成——努艾塞尔(Riyadh Air营销与企业传播SVP，阿语拼写النويصر修正，flynas→全民体育→Riyadh Air链)，score 56，5履历9引用。",
+    "000736完成——克拉克(Ma'aden勘探SVP 2024-10→EVP 2025/26，澳籍勘探地质学家，Cameco/RG Gold CEO出身，17条履历18引用)。remaining=3，全部在飞。",
+    "000750完成——法耶兹(NEOM首任副CEO 2022-06起，JPM/GS投行→BSF CEO，Natixis线索证伪，阿语名ريان بن محمد فايز修正)，score 60，15条履历13引用。",
+    "【修正2】误报「remaining全部在飞」：000767/768/771从未派发（队列尾部遗留），此前已补派000702同类错误。现补派767/768。",
+    "000744完成并立即合并→000454（第七处重复建档：Riyadh Air董事=旅游部前副部长本人，score 72）；「驻美使馆副团长」线索证伪。",
+    "000763完成——萨阿敦(世博公司副CEO 2025-06起/前NTP CEO 2018-2025/沙特足协董事2026，英文署名Thamir Alsadoun)，score 68，7履历9引用。",
+    "000771完成并立即合并→000730（第八处重复建档：Tadawul副主席=stc副董事长/PIF副总督本人，score 63）。",
+    "000768完成——达伍德(Alat代理CEO 2026-04/PIF工业矿业板块负责人/斯坦福博士，20条履历11项现任董事，官方阿语名آل داوود修正)，score 64，9引用。",
+    "000767完成——胡代布(SAMI Land Company CEO 2026-02新设子公司，退役上校，拼写الحديب修正)，score 51，18引用。P4全部收官：470/470，八处重复合并。"
+  ],
+  "hold": [],
+  "duplicates": [
+    {
+      "dup_id": "SA-PERSON-000224",
+      "primary_id": "SA-PERSON-000219",
+      "reason": "同一人：官方全名 خالد بن عبدالله بن محمد اللحيدان 一致（000219子代理核实）；000224未派发未生成档案，直接并入000219，P4末在org档案key_people中替换ID"
+    },
+    {
+      "dup_id": "SA-PERSON-000249",
+      "primary_id": "SA-PERSON-000198",
+      "reason": "同一人：内政大臣عبدالعزيز بن سعود بن نايف，000198档案已完成(81分)；000249来自SA-GOV-013内政部档案key_people的重复注册，未派发，直接并入000198"
+    },
+    {
+      "dup_id": "SA-PERSON-000238",
+      "primary_id": "SA-PERSON-000234",
+      "reason": "同一人：申诉院院长Ali Al-Ahidab（000234子代理索引核实同阿语名）；000238未派发，直接并入000234"
+    },
+    {
+      "dup_id": "SA-PERSON-000589",
+      "primary_id": "SA-PERSON-000256",
+      "reason": "同一人：总参谋长Fayyad Al-Ruwaili（000256子代理索引核实同名双ID），未派发则直接并入；已完成/已生成档案则P4末合并"
+    },
+    {
+      "dup_id": "SA-PERSON-000595",
+      "primary_id": "SA-PERSON-000256",
+      "reason": "同一人：总参谋长Fayyad Al-Ruwaili双档案——000256(本轮,72分,Q56250519,2018-02-26就任等修正事实)与000595(早前批次)。合并时以分数较高者为主档案，000256中的2018就任时间修正与空军司令2013-05-10精确日期须保留",
+      "both_files_exist": true
+    },
+    {
+      "dup_id": "SA-PERSON-000240",
+      "primary_id": "SA-PERSON-000068",
+      "both_files_exist": true,
+      "reason": "同一人：大穆夫提Saleh Al-Fawzan。主档案000068(95分)；000240(79分)档案含经核实事实须回填主档案：2025-10-22王室敕令就任第四任大穆夫提(接替2025-09-23逝世的Abdulaziz Al Sheikh)、Q61589、书目88种。另000245(教法总主席署注册)同为此人未派发，直接弃用"
+    },
+    {
+      "dup_id": "SA-PERSON-000245",
+      "primary_id": "SA-PERSON-000068",
+      "reason": "同一人：大穆夫提在SA-GOV-011的重复注册，未派发未生成档案，并入主档案000068"
+    },
+    {
+      "dup_id": "SA-PERSON-000266",
+      "primary_id": "SA-PERSON-000046",
+      "both_files_exist": true,
+      "reason": "同一人：能源大臣Abdulaziz bin Salman亲王三重注册——已完成档案000046与000082（分数见上），000266(SA-GOV-018能源部注册)未派发即弃用。合并时比较000046/000082分数取高者为主档案，另一份的独有信息并回"
+    },
+    {
+      "dup_id": "SA-PERSON-000261",
+      "primary_id": "SA-PERSON-000039",
+      "both_files_exist": true,
+      "reason": "同一人：教育大臣Yousef Al-Bunyan双档案（000039早前完成 vs 000261本轮70分,Q28222140）。合并取高者为主档案；⚠️安全复核项：000039曾收录telegram频道t.me/minister_moe_sa，该频道现被加密货币诈骗内容占据（000261子代理实测），冒充/劫持账号须从主档案移除；本人X实为@minister_moe_sa（@ybunyan为无关账号）"
+    },
+    {
+      "dup_id": "SA-PERSON-000204",
+      "primary_id": "SA-PERSON-000003",
+      "both_files_exist": false,
+      "reason": "同一人：王储MBS——000003已有完成档案(主)；000204为注册表悬挂行(无档案文件、未入530队列、未派发)，000279子代理曾误引000204关联MBS。P4末：000204注册行清理/统一至000003，000279等档案中的000204引用改指000003"
+    },
+    {
+      "dup_id": "SA-PERSON-000608",
+      "primary_id": "SA-PERSON-000323",
+      "reason": "同一人：国民警卫队大臣Abdullah bin Bandar（000323子代理发现索引阿语拼写带空格变体重复ID），未派发未生成档案，直接并入000323"
+    },
+    {
+      "dup_id": "SA-PERSON-000355",
+      "primary_id": "SA-PERSON-000274",
+      "reason": "同一人：通信IT大臣Abdullah Al-Swaha（000274档案已完成74分）当然兼任CST董事会主席（SA-GOV-038注册来源）；000355未派发未生成档案，直接并入000274"
+    },
+    {
+      "dup_id": "SA-PERSON-000361",
+      "primary_id": "SA-PERSON-000279",
+      "reason": "同一人：文化大臣Prince Badr bin Abdullah bin Farhan（000279档案已完成73分）当然兼任文化总局董事会成员（SA-GOV-040注册来源）；000361未派发未生成档案，直接并入000279"
+    },
+    {
+      "dup_id": "SA-PERSON-000316",
+      "primary_id": "SA-PERSON-000363",
+      "reason": "同一人：Awwad Al-Awwad简式名悬挂索引行（无档案、未入530队列、未派发），P4末注册行清理统一至000363"
+    },
+    {
+      "dup_id": "SA-PERSON-000377",
+      "primary_id": "SA-PERSON-000184",
+      "reason": "同一人：工业大臣Bandar Al-Khorayef（000184档案已完成81分，含MODON等兼任清单）兼任MODON董事会主席（SA-GOV-044注册来源）；000377未派发未生成档案，直接并入000184"
+    },
+    {
+      "dup_id": "SA-PERSON-000391",
+      "primary_id": "SA-PERSON-000282",
+      "reason": "同一人：经济和规划大臣Faisal Al-Ibrahim（000282档案已完成72分）兼任ZATCA董事会成员（SA-GOV-047注册来源）；000391未派发未生成档案，直接并入000282"
+    },
+    {
+      "dup_id": "SA-PERSON-000401",
+      "primary_id": "SA-PERSON-000264",
+      "reason": "同一人：卫生大臣Fahad Al-Jalajel第三重注册——SFDA董事会主席（SA-GOV-049注册来源），000264(90分主档案)与000385(73分)均已有档案；000401未派发未生成档案，并入000264（合并时保留000385回填项）"
+    },
+    {
+      "dup_id": "SA-PERSON-000407",
+      "primary_id": "SA-PERSON-000046",
+      "reason": "同一人：能源大臣Prince Abdulaziz bin Salman第四重注册——沙特地质调查局董事会主席（SA-GOV-050注册来源）；已有档案000046(85分主)/000082(11分)；000407未派发未生成档案，并入000046"
+    },
+    {
+      "dup_id": "SA-PERSON-000366",
+      "primary_id": "SA-PERSON-000411",
+      "reason": "同一人：交通与物流服务大臣Saleh bin Nasser Al-Jasser双重注册（000366/000411拼写变体الجاسر-الجاسر，均未派发）；000411在队列（另兼Mawani港口总局董事长），P4末以000411为主合并"
+    },
+    {
+      "dup_id": "SA-PERSON-000415",
+      "primary_id": "SA-PERSON-000184",
+      "reason": "同一人：工业大臣Bandar Al-Khorayef兼任RCJY朱拜勒延布皇家委员会董事会主席（SA-GOV-052注册来源）；000184档案已完成81分；000415未派发未生成档案，并入000184"
+    },
+    {
+      "dup_id": "SA-PERSON-000419",
+      "primary_id": "SA-PERSON-000279",
+      "reason": "同一人：文化大臣Prince Badr bin Abdullah bin Farhan（000279档案已完成73分）兼任AlUla皇家委员会总裁/董事（SA-GOV-053注册来源）；000419未派发未生成档案，并入000279；⚠️000420档案的person_relationships已引用000419(RCU总裁/superior)，P4末须改指000279"
+    },
+    {
+      "dup_id": "SA-PERSON-000430",
+      "primary_id": "SA-PERSON-000002",
+      "reason": "同一人：PIF总裁Yasser Al-Rumayyan三重注册（000002已有档案见上；000430=利雅得市皇家委员会注册、000756=另一注册），两ID均未派发未生成档案，并入000002"
+    },
+    {
+      "dup_id": "SA-PERSON-000756",
+      "primary_id": "SA-PERSON-000002",
+      "reason": "同一人：PIF总裁Yasser Al-Rumayyan三重注册（000002已有档案见上；000430=利雅得市皇家委员会注册、000756=另一注册），两ID均未派发未生成档案，并入000002"
+    },
+    {
+      "dup_id": "SA-PERSON-000431",
+      "primary_id": "SA-PERSON-000317",
+      "reason": "同一人：市政与住房大臣Majid Al-Hogail（000317档案已完成73分，含不动产总局董事长2017起）兼任不动产总局董事会主席（SA-GOV-056注册来源）；000431未派发未生成档案，并入000317"
+    },
+    {
+      "dup_id": "SA-PERSON-000436",
+      "primary_id": "SA-PERSON-000264",
+      "reason": "同一人：卫生大臣Fahad Al-Jalajel第4个ID——卫生专科委员会董事会主席（SA-GOV-057注册来源）；主档案000264(90分)，000385(73分)另有回填项，000401/000436未派发即弃用"
+    },
+    {
+      "dup_id": "SA-PERSON-000423",
+      "primary_id": "SA-PERSON-000075",
+      "both_files_exist": true,
+      "reason": "同一人：麦加省长Prince Khalid al-Faisal双档案——主档案000075(88分,早前完成)；000423(本轮80分,Q371263,2026-09延长任期新事实、文学著述、家庭关联000086/000563)须P4末按记录回填000075"
+    },
+    {
+      "dup_id": "SA-PERSON-000076",
+      "primary_id": "SA-PERSON-000086",
+      "reason": "同一人：图尔基·费萨尔亲王索引重复行000076（无档案文件，000086已有档案90分）；000423子代理核实；P4末注册行清理"
+    },
+    {
+      "dup_id": "SA-PERSON-000440",
+      "primary_id": "SA-PERSON-000039",
+      "reason": "同一人：教育大臣Yousef Al-Bunyan第4个ID——TVTC董事会主席兼任（SA-GOV-058注册来源）；主档案000039(91分)、000261(73分)已有档案；000440未派发未生成档案，弃用"
+    },
+    {
+      "dup_id": "SA-PERSON-000468",
+      "primary_id": "SA-PERSON-000094",
+      "reason": "同一人：环境水务农业大臣Abdulrahman Al-Fadli（000094档案已完成）兼任农业发展基金董事会主席（SA-GOV-065注册来源）；000468未派发未生成档案，并入000094"
+    },
+    {
+      "dup_id": "SA-PERSON-000203",
+      "primary_id": "SA-PERSON-000462",
+      "both_files_exist": false,
+      "reason": "同一人：KFSHRC CEO Majid Al-Fayyad双ID。000462本轮完成(63分,2017-10-03敕令修正+2021-12机构转型事实+照片)；SA-PERSON-000203无档案，直接并入000462"
+    },
+    {
+      "dup_id": "SA-PERSON-000487",
+      "primary_id": "SA-PERSON-000274",
+      "reason": "同一人：通信IT大臣Abdullah Al-Swaha（000274档案已完成74分）兼任沙特航天局董事会主席自2021-05-03（SA-GOV-075 key_people描述明确写\"现任通信和信息技术大臣\"）；000487未派发未生成档案，并入000274"
+    },
+    {
+      "dup_id": "SA-PERSON-000499",
+      "primary_id": "SA-PERSON-000190",
+      "reason": "同一人：IsDB集团总裁Muhammad Al-Jasser（000190档案已完成72分，2021-08-09就任、2026-06连任第二任期，ITFC董事长为兼任）；000499未派发未生成档案，并入000190"
+    },
+    {
+      "dup_id": "SA-PERSON-000510",
+      "primary_id": "SA-PERSON-000354",
+      "reason": "同一人：CST总裁Haitham Al-Ohali（000354档案已完成63分，2026-02-12正式就任）兼任Arabsat董事会主席（SA-INTL-008注册来源）；000510未派发未生成档案，并入000354"
+    },
+    {
+      "dup_id": "SA-PERSON-000514",
+      "primary_id": "SA-PERSON-000521",
+      "both_files_exist": false,
+      "reason": "同一人：MBC集团创始人Waleed Al-Ibrahim——000521已有档案(83分)；000514=Al Arabiya组织档案重复注册（阿语全名逐字一致），未派发未生成档案，并入000521"
+    },
+    {
+      "dup_id": "SA-PERSON-000536",
+      "primary_id": "SA-PERSON-000517",
+      "reason": "同一人：Adel Al-Toraifi（000517子代理索引核实疑似重复），未派发未生成档案，并入000517"
+    },
+    {
+      "dup_id": "SA-PERSON-000520",
+      "primary_id": "SA-PERSON-000515",
+      "reason": "同一人：Mamdouh Al-Muhaini——000515(Al Arabiya总经理,在飞重派中)与000520(Al Hadath总经理,SA-MEDIA-002注册)同阿语名；000520未派发，并入000515（合并时若其Al Hadath职务为独立现任需在主档案work_experience体现）"
+    },
+    {
+      "dup_id": "SA-PERSON-000545",
+      "primary_id": "SA-PERSON-000533",
+      "reason": "同一人：SRMG董事长Abdulrahman Al-Ruwaita（000533=SA-MEDIA-005注册在飞中；000545=Arab News SA-MEDIA-006重复注册，罗马化变体Alrowaita）；000545未派发未生成档案，并入000533"
+    },
+    {
+      "dup_id": "SA-PERSON-000548",
+      "primary_id": "SA-PERSON-000533",
+      "reason": "同一人：SRMG董事长Abdulrahman Al-Ruwaita第3个ID（000533在飞主档；000545=Arab News注册已弃；000548=Asharq Al-Awsat SA-MEDIA-007注册，阿语名含拼写变体الرويتع）；000548未派发未生成档案，并入000533"
+    },
+    {
+      "dup_id": "SA-PERSON-000551",
+      "primary_id": "SA-PERSON-000115",
+      "reason": "同一人：Dallah Albaraka董事长/Okaz董事长Abdullah Saleh Kamel（000115档案已完成70分，其notes当时已预告000551为重复）；000551未派发未生成档案，并入000115"
+    },
+    {
+      "dup_id": "SA-PERSON-000364",
+      "primary_id": "SA-PERSON-000585",
+      "reason": "同一人：Rotana音乐CEO Salem Al-Hindi（000585子代理索引发现同名悬挂条目000364，无档案文件未入队列派发），并入000585"
+    },
+    {
+      "dup_id": "SA-PERSON-000592",
+      "primary_id": "SA-PERSON-000254",
+      "reason": "同一人：国防大臣Prince Khalid bin Salman（000254档案已完成79分,Q30082184）在陆军组织SA-MIL-001的重复注册；000592未派发未生成档案，并入000254"
+    },
+    {
+      "dup_id": "SA-PERSON-000594",
+      "primary_id": "SA-PERSON-000254",
+      "reason": "同一人：国防大臣Prince Khalid bin Salman第5个重复注册（000254主档79分；000592=SA-MIL-001陆军注册、000594=SA-MIL-002空军注册）；000594未派发未生成档案，并入000254"
+    },
+    {
+      "dup_id": "SA-PERSON-000607",
+      "primary_id": "SA-PERSON-000254",
+      "reason": "同一人：国防大臣Prince Khalid bin Salman第6个重复注册（000254主档；000592=SA-MIL-001、000594=SA-MIL-002、000607=SA-MIL-005导弹部队注册）；000607未派发未生成档案，并入000254"
+    },
+    {
+      "dup_id": "SA-PERSON-000626",
+      "primary_id": "SA-PERSON-000257",
+      "reason": "同一人：联司前司令Mutaq Al-Azima（000257档案已完成）。现职冲突已裁决：A/73敕令明令其退役（000628子代理核实），000628接任副总参谋长——000257档案的\"退役转皇家法院顾问\"以SPA为准"
+    },
+    {
+      "dup_id": "SA-PERSON-000629",
+      "primary_id": "SA-PERSON-000593",
+      "reason": "同一人：SA-MIL-011总参谋部组织快照（2024-08-29改组前）注册的军种司令，与已完成档案SA-PERSON-000593重复；未派发未生成档案，并入SA-PERSON-000593"
+    },
+    {
+      "dup_id": "SA-PERSON-000630",
+      "primary_id": "SA-PERSON-000600",
+      "reason": "同一人：SA-MIL-011总参谋部组织快照（2024-08-29改组前）注册的军种司令，与已完成档案SA-PERSON-000600重复；未派发未生成档案，并入SA-PERSON-000600"
+    },
+    {
+      "dup_id": "SA-PERSON-000631",
+      "primary_id": "SA-PERSON-000603",
+      "reason": "同一人：SA-MIL-011总参谋部组织快照（2024-08-29改组前）注册的军种司令，与已完成档案SA-PERSON-000603重复；未派发未生成档案，并入SA-PERSON-000603"
+    },
+    {
+      "dup_id": "SA-PERSON-000597",
+      "primary_id": "SA-PERSON-000628",
+      "reason": "同一人：前海军司令Fahd Al-Ghufaili（000628子代理多源核实；000596档案关系表引用000597）——P4末统一至000628"
+    },
+    {
+      "dup_id": "SA-PERSON-000655",
+      "primary_id": "SA-PERSON-000423",
+      "reason": "同一人：KFF总干事哈立德·费萨尔亲王（000423档案已完成80分且work_experience已含费萨尔国王基金会职务；两写法仅差冠词ال：الفيصل vs بن فيصل）；000655未派发未生成档案，并入000423"
+    },
+    {
+      "dup_id": "SA-PERSON-000685",
+      "primary_id": "SA-PERSON-000674",
+      "reason": "同一人：穆盟秘书长Mohammed Al-Issa（000674档案已完成75分,Q6932837）当然兼任国际救济与发展组织IORD主席（SA-NGO-011注册来源，姊妹组织）；000685未派发未生成档案，并入000674；⚠️000686档案person_relationships已引用000685(上级)，P4末须改指000674"
+    },
+    {
+      "dup_id": "SA-PERSON-000761",
+      "primary_id": "SA-PERSON-000279",
+      "reason": "同一人：文化大臣Prince Badr bin Abdullah bin Farhan（000279档案已完成73分,Q46706439）兼任Diriyah公司董事（SA-SOE-012注册来源）；000761未派发未生成档案，并入000279"
+    },
+    {
+      "dup_id": "SA-PERSON-000486",
+      "primary_id": "SA-PERSON-000748",
+      "reason": "同一人：NEOM CEO Ayman Almudaifer（000748子代理索引核实疑似重复），未派发未生成档案，并入000748"
+    },
+    {
+      "dup_id": "SA-PERSON-000711",
+      "primary_id": "SA-PERSON-000142",
+      "reason": "同一人（易卜拉欣·阿萨夫，Wikidata Q16135350）；000711未单独建档，P4末合并阶段将000711指向000142",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000259",
+      "primary_id": "SA-PERSON-000194",
+      "reason": "同一人（哈马德·易卜拉欣·巴扎伊）；000194按主ID建档（identity_note注明），000259未单独建档，P4末合并阶段将000259指向000194",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000143",
+      "primary_id": "SA-PERSON-000332",
+      "reason": "同一人（艾哈迈德·阿基勒·哈提卜，旅游大臣/SAMI前董事长/PIF董事，Wikidata Q61755190）；000332为库内既有完整档案（score 91，含实测社媒），000143为新建档（score 79）。两文件均在盘。P4末合并：以000332为主档，000143增量信息（SAMI更替2024-02、2026在任证据）并入后裁撤或保留交叉引用",
+      "both_files_exist": true
+    },
+    {
+      "dup_id": "SA-PERSON-000061",
+      "primary_id": "SA-PERSON-000046",
+      "reason": "同一人：能源大臣阿卜杜勒-阿齐兹·本·萨勒曼亲王（Q4665821）；000046档案已在盘；000061曾误标completed，2026-10-02改记duplicate",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000426",
+      "primary_id": "SA-PERSON-000003",
+      "reason": "同一人（notes既有记录：000426=000003重复，跳过）；2026-10-02补登记",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000074",
+      "primary_id": "SA-PERSON-000039",
+      "reason": "同一人（教育大臣本亚尼，notes既有记录）；2026-10-02补登记",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000312",
+      "primary_id": "SA-PERSON-000200",
+      "reason": "同一人（媒体大臣萨勒曼·杜萨里，Q12216550）：000200为库内既有完整档案（score 84，aliases已含派发名），000312/000576均未建档；子代理按纪律查重命中即止。P4末：索引000312/000576重定向→000200；000200需补录与000572（SBA上下级）关系。P5需查SA-GOV-029媒体部key_people任期表述",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000576",
+      "primary_id": "SA-PERSON-000200",
+      "reason": "同一人（媒体大臣萨勒曼·杜萨里第二重复ID），与000312同案并入000200",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000575",
+      "primary_id": "SA-PERSON-000572",
+      "reason": "同一人（阿里·扎伊德，阿语拼写差异عبد الله/عبدالله）；已并入000572档案（identity_note注明），000575无独立文件",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000687",
+      "primary_id": "SA-PERSON-000682",
+      "reason": "同一人（阿卜杜拉·奥马尔·纳西夫派发双ID）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000678",
+      "primary_id": "SA-PERSON-000682",
+      "reason": "同一人（عبد الله بن عمر نصيف异写，索引双条目；原均无档，随000682建档并入)",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000747",
+      "primary_id": "SA-PERSON-000338",
+      "reason": "同一人（鲁迈伊，索引两条目职务链完全一致），随000338建档并入",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000058",
+      "primary_id": "SA-PERSON-000030",
+      "reason": "同一人（伊娜丝·艾萨，教育部副部长）：索引中000030教育部条目/000058努拉公主大学条目同阿语全名重复登记，均无档；随000030建档并入（000030为主ID）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000122",
+      "primary_id": "SA-PERSON-000130",
+      "reason": "同一人（塔拉勒·易卜拉欣·阿勒迈曼）：flynas官方IR董事页阿/英+Manhom三源核实——其简历同时并列flynas副董事长(2013至今)与Tasnee副董事长(2022至今)，与000130同人。000122未建档；研究缓存_f122_*.txt已存供000130建档复用。P4末：000122空号并入000130",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000140",
+      "primary_id": "SA-PERSON-000197",
+      "reason": "同一人（穆罕默德·杰达安）：PIF官网领导页11人董事会仅一名Al-Jadaan且头衔明写Minister of Finance（_f140_pif_jina.txt全文存证）；ZATCA官网明示财长兼任PIF/阿美董事；000197档案已收录PIF董事职务且notes第7条预判此重合。000140无档空号",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000258",
+      "primary_id": "SA-PERSON-000197",
+      "reason": "同一人（杰达安同名登记空号，无档案文件）：与000140/000390同批索引重复，均指财政大臣；与000140证据链同（000029档案曾标注SA-GOV-015财部key_people引用的000258无档）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000390",
+      "primary_id": "SA-PERSON-000197",
+      "reason": "同一人（杰达安同名登记空号，无档案文件）：与000140/000258同案",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000141",
+      "primary_id": "SA-PERSON-000268",
+      "reason": "同一人（马吉德·阿卜杜拉·卡萨比，商务大臣）：主会话就地查证免派——PIF官网领导页(_f140_pif_jina.txt存证)明写H.E. Dr. Majid Abdullah Al Qasabi—Minister of Commerce，与000268（Q12238118）全名一致；与000140→000197同批PIF董事会查重模式",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000148",
+      "primary_id": "SA-PERSON-000109",
+      "reason": "同一人（哈立德·艾哈迈德·朱法利）：000109既有档78分已完整覆盖SAMA董事+家族企业网；父名链خالد بن أحمد=Khaled bin Ahmed=Khaled Ahmed同一人（父=创始人艾哈迈德·朱法利000111）。000148无档空号",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000163",
+      "primary_id": "SA-PERSON-000125",
+      "reason": "同一人（穆塔兹·本·库赛·阿扎维）：主会话就地查证免派——000125既有档全名Mutez bin Qussay Al-Azawi与Mutaz Kusai AlAzzawi为同一人的两种转写，且000125工作经历已含两条SA-FIN-005利雅得银行职务记录（副董事长）；其2025-10-22起兼任Mobily董事长（000127档案交叉证实）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000172",
+      "primary_id": "SA-PERSON-000764",
+      "reason": "同一人（萨阿德·库鲁德）：000764既有档（2026-10-01）与Alinma副董事长任务6源交叉验证同一人（Alinma官网自述PIF幕僚长+LinkedIn单一简历双职并列）。建议合并方案：保留000764，补录Alinma副董事长（2022起两届连任至2028-05-20，治理与可持续发展委主席）与KFUPM金融学士；索引与SA-FIN-008中000172引用重映射至000764；研究缓存_f172_*×6可复用",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000360",
+      "primary_id": "SA-PERSON-000167",
+      "reason": "同一人（苏莱曼·阿尔格瓦伊兹）：000360系SA-GOV-039（GOSI）侧预分配ID（前总裁2013-2021），SAB官方简历明载其曾任GOSI总裁——与000167同一自然人；000360无档，P4末并入000167",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000247",
+      "primary_id": "SA-PERSON-000244",
+      "reason": "同一人（阿卜杜勒萨拉姆·苏莱曼，高级学者委员会+常设教令委员会成员）：官方全名链عبد السلام بن عبد الله بن محمد——000247登记名（bin Abdullah）为正确父名，000244登记名（bin Mohammed）系阿语维基截略错误。000244代理仍在飞将产出唯一主档（已收合并提示：全链姓名+研究成果+缓存复用），000247抑制建档。10条证据链（SPA w1143360王室令/官方站alsuliman.af.org.sa/阿维基双页/福赞图书馆站/al-moslim/my.gov.sa等）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000275",
+      "primary_id": "SA-PERSON-000354",
+      "reason": "同一人（海萨姆·奥哈利）：父名链+职务链双锁（乌姆古拉p=28842+SPA w697612官方全名与000354档案一致，生年1976-04-04同）；000275无档空号。合并时并入其最新现状（下）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000290",
+      "primary_id": "SA-PERSON-000052",
+      "reason": "同一人（阿卜杜勒法塔赫·马沙特）：朝觐与副朝部副大臣（2017-10-03王室令，特等级，在任）=KAU校董会主席（2020起）——KAU官网一句话锁定双重身份；haj.gov.sa现任页+KAU行政页+Saudipedia三源直读；「马沙茨/马沙特」系مشاط两种中文音译。000052既有档85分已含全部建档要求项；000053档案的疑点记载至此证实。000290无档空号",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000380",
+      "primary_id": "SA-PERSON-000289",
+      "reason": "疑似同一人（陶菲克·拉比亚，朝觐大臣）：000290代理发现_name_index中拉比亚同时映射000289/000380/000425三ID——待P4末以证据核实后正式合并（暂按000289为主）",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000425",
+      "primary_id": "SA-PERSON-000289",
+      "reason": "疑似同一人（陶菲克·拉比亚第三ID）：同上三ID分裂案，待P4末核实",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000324",
+      "primary_id": "SA-PERSON-000250",
+      "reason": "同一人（纳赛尔·达伍德）：000324队列名与000250索引命中名逐字一致（ناصر بن عبد العزيز الداود），职务=国民卫队部副部长（大臣级）正是000250自2025-05-08调任的现职（000250档案官方职级链有据）；000324无档空号。此前000250代理已发现两ID并行预留并建议核查——就地查证闭合",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000433",
+      "primary_id": "SA-PERSON-000321",
+      "reason": "疑似同一人（阿卜杜勒拉赫曼·本·阿卜杜拉·塔维勒）：索引中000433（无档）与本人REGA/SPA称呼完全一致，代理判定高度疑似重复映射；P4末核实后并入000321",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000386",
+      "primary_id": "SA-PERSON-000460",
+      "reason": "同一人（希沙姆·贾德希，SFDA局长）：000386代理4源直读证实PHA官网董事会页明载「SFDA局长兼任公共卫生总局董事会副主席」=000460（Q96180254，65分既有档）。拼写纠错反转：带点「الجضعي」恰是官方正式拼法，「الجدي」为媒体简写（与派发线索判断相反）。000460档案缺PHA副主席条目待P5补录；000386现为空挂ID",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000402",
+      "primary_id": "SA-PERSON-000460",
+      "reason": "同一人（希沙姆·贾德希第三ID）：队列名与000386/000460索引命中逐字一致（هشام بن سعد الجضعي），来源SA-GOV-049（SFDA）「副董事会主席兼首席执行官」正是000460职务；无档空号。三重ID链（000386/000402/000460）闭合",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000461",
+      "primary_id": "SA-PERSON-000384",
+      "reason": "疑似同一人（里亚德·加姆迪）：000461（无档）为沙特卫生理事会「公共卫生总局代表」席位，按卫生法第16条该席位由PHA负责人出任，且قينان/قنان为正字法变体——代理判定同一自然人，P4末核实后并入000384",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000334",
+      "primary_id": "SA-PERSON-000454",
+      "reason": "疑似同一人（海法公主）：索引短链名「هيفاء بنت محمد آل سعود」→000334（无档），媒体确以该短名称呼本人；000333档案已证实其前任副部长即海法公主本人——P4末核实后并入000454",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000471",
+      "primary_id": "SA-PERSON-000187",
+      "reason": "同一人（阿卜杜勒伊拉·纳姆里）：官方公报عبدالإله بن محمد النمر与000187登记名逐字一致；NDF副手（发展/规划/基金监管2020-01~2025）→ADF NDF代表席（兼任）；2024-11离任ADF、2025-02离NDF转Leejam CEO——即000187系ADF前董事非现任；000471无档空号。索引中同一人同时映射000187/000471，P4末将000471条目并入000187",
+      "both_files_exist": false
+    },
+    {
+      "dup_id": "SA-PERSON-000189",
+      "primary_id": "SA-PERSON-000501",
+      "reason": "同一人：Hani Salem Sonbol，_name_index 中两译名条目（松布尔/桑博尔）各指向一个ID；000189无档案不在队列，SA-FIN-015 key_people 已改指000501"
+    },
+    {
+      "dup_id": "SA-PERSON-000604",
+      "primary_id": "SA-PERSON-000649",
+      "reason": "同一人：哈立德·本·苏尔坦亲王（Q742051），队列重复条目各自派发建档；000649为主档（bio/work/quotes更全），000604独有增量（家属/立场/教育等）已按阿语名去重并入，档案移入_backup，orgs/SA-MIL-005与SA-PERSON-000603引用改指000649"
+    },
+    {
+      "dup_id": "SA-PERSON-000652",
+      "primary_id": "SA-PERSON-000421",
+      "reason": "同一人：萨勒曼·本·苏尔坦亲王（Q7405429）重复建档；000421为主档（外部引用多），000652独有增量已按阿语名去重并入，档案移入_backup，SA-NGO-004引用改指000421"
+    },
+    {
+      "dup_id": "SA-PERSON-000656",
+      "primary_id": "SA-PERSON-000086",
+      "reason": "同一人：图尔基·本·费萨尔亲王（Q4165651，前情报局长/驻美大使）重复建档；000086为主档（外部引用多），000656增量（13立场/8关系/12家属）已按阿语名去重并入，档案移入_backup，SA-NGO-005引用改指000086"
+    },
+    {
+      "dup_id": "SA-PERSON-000713",
+      "primary_id": "SA-PERSON-000282",
+      "reason": "同一人：经济和规划大臣费萨尔·易卜拉欣（Q106687219）重复建档（阿美董事条目与大臣条目）；000282为主档（外部引用多），000713增量已按阿语名去重并入，档案移入_backup，SA-SOE-001引用改指000282"
+    },
+    {
+      "dup_id": "SA-PERSON-000714",
+      "primary_id": "SA-PERSON-000724",
+      "reason": "同一人：哈立德·本·哈希姆·达巴格（Q115671210，阿美董事/CFO 2018-2021/SABIC董事长）重复建档；000724为主档（16条履历），000714为消歧简档无独有履历，引用吸收后废置，SA-SOE-001改指000724"
+    },
+    {
+      "dup_id": "SA-PERSON-000712",
+      "primary_id": "SA-PERSON-000197",
+      "reason": "同一人：财政大臣 Mohammed Al-Jadaan（Q28715686）重复建档（阿美董事「Al-Jadan」条目与财相条目）；000197为主档（外部引用7文件），000712增量（20履历/13现职）已去重并入，档案移入_backup"
+    },
+    {
+      "dup_id": "SA-PERSON-000744",
+      "primary_id": "SA-PERSON-000454",
+      "reason": "同一人：哈伊法公主（Q73886507，Riyadh Air董事=旅游部前副部长本人）重复建档；000454为主档（外部引用多），000744增量已去重并入，档案移入_backup，SA-SOE-007引用改指000454"
+    },
+    {
+      "dup_id": "SA-PERSON-000771",
+      "primary_id": "SA-PERSON-000730",
+      "reason": "同一人：Yazeed Al-Humied（stc副董事长/PIF副总督/Tadawul副主席）重复建档（Tadawul条目与stc条目）；000730为主档（外部引用多），000771增量（19条履历含PIF四段/CMA两段）已去重并入，档案移入_backup，SA-SOE-028引用改指000730"
+    }
+  ]
+}

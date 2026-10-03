@@ -1,0 +1,52 @@
+=== A. 中文规范 ===
+name_zh 无中文: 0 []
+biography 非中文(<50% CJK): 0 []
+current_positions 非中文: 0 []
+work.organization 格式异常: 12
+    no_zh | Temenos (شركة تينيموس) | SA-PERSON-000252
+    no_zh | Mobily Pay (شركة موبايلي باي) | SA-PERSON-000299
+    no_zh | Mobily Ventures (شركة موبايلي فنشرز) | SA-PERSON-000299
+    no_zh | Mobily Infotech India (شركة موبايلي إنفو | SA-PERSON-000299
+    no_cjk_no_ar | ninemsn (ninemsn) | SA-PERSON-000523
+    no_cjk_no_ar | Lucid Motors | SA-PERSON-000717
+    no_cjk_no_ar | NOVONIX | SA-PERSON-000717
+    no_zh | ACWA Power (شركة اكوا باور للطاقة) | SA-PERSON-000730
+  异常类型分布: Counter({'no_zh': 7, 'no_cjk_no_ar': 5})
+education.institution 格式异常: 1
+  异常类型分布: Counter({'no_cjk_no_ar': 1})
+family.name 格式异常: 0 | 类型: Counter()
+relationships.person_name 格式异常: 3 | 类型: Counter({'local_first': 3})
+achievements.organization 格式异常: 3 | 类型: Counter({'no_zh': 2, 'no_cjk_no_ar': 1})
+括号反向(本地在前): 0 []
+空字符串ID: 0
+quotes 空数组: 0 | 字符串数组: 0
+political_stances 非中文: 0
+
+=== B. 头像 ===
+profile 为空: 77
+source_url 缺失: 49
+source_url 非图片链接: 28
+    ('SA-PERSON-000004', 'https://unavatar.io/twitter/KingSalman')
+    ('SA-PERSON-000016', 'https://www.arabnews.jp/en/business/aramco-ceo-sees-catastrophic-conse')
+    ('SA-PERSON-000051', 'https://kau.edu.sa/web/static?path=uploads/2025/Sep/sections/ljQeBSUeP')
+    ('SA-PERSON-000054', 'https://kau.edu.sa/web/static?path=uploads/2025/Dec/sections/WZZqWf9Rn')
+    ('SA-PERSON-000085', 'https://unavatar.io/x/Dr_AlAhmariAA')
+    ('SA-PERSON-000154', 'https://snbcapital.com/w/team-1')
+    ('SA-PERSON-000155', 'https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Board-Members/Mr-')
+    ('SA-PERSON-000156', 'https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Board-Members/Mr-')
+    ('SA-PERSON-000158', 'https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Board-Members/Mr-')
+    ('SA-PERSON-000270', 'https://ncpd.gov.sa/api/oss/file?filename=board-members%2F01KXNEBFBTC9')
+source_url 为 QID 链接: 0
+source_url 非法(非http): 0 []
+local_path 缺失: 65
+local_path 文件不存在: 0 []
+本地照片文件存在: 317 / 329 photos/文件
+
+=== C. 社交账号 ===
+平台分布: {"linkedin": 211, "instagram": 43, "twitter_x": 174, "facebook": 20, "other": 40, "youtube": 17, "tiktok": 4}
+0 个社交账号: 178
+仅 1 个社交账号: 127
+非法平台枚举: 0 []
+非法 URL: 0 []
+
+明细已存 _quality_check.json
