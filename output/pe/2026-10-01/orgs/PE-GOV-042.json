@@ -1,0 +1,325 @@
+{
+  "org_id": "PE-GOV-042",
+  "basic_info": {
+    "name_original": "Ministerio de Economía y Finanzas",
+    "name_zh": "秘鲁经济财政部",
+    "name_en": "Ministry of Economy and Finance",
+    "aliases": [
+      "MEF",
+      "Ministerio de Economía y Finanzas del Perú"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "PER",
+    "hq_country_iso3": "PER",
+    "founded_date": "1821-01-01",
+    "website": "https://www.mef.gob.pe/",
+    "wikidata_qid": "Q3065145"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "MEF_Peru",
+      "url": "https://x.com/MEF_Peru",
+      "source": "wikipedia + gob.pe 官方账号清单"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "PeruMEF",
+      "url": "https://www.facebook.com/PeruMEF",
+      "source": "wikipedia + gob.pe 官方账号清单"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UCHIuXXO2ZLocViLR3Ir2uaQ",
+      "url": "https://youtube.com/channel/UCHIuXXO2ZLocViLR3Ir2uaQ",
+      "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "mefperu",
+      "url": "https://www.instagram.com/mefperu",
+      "source": "gob.pe 新闻列明官方账号（Facebook、Instagram、YouTube、X、TikTok、LinkedIn）"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "mefperu",
+      "url": "https://www.tiktok.com/@mefperu",
+      "source": "TikTok 官方账号页（标注 Cuenta Oficial del MEF）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "MEF Perú",
+      "url": "https://www.linkedin.com/company/mef-peru",
+      "source": "gob.pe 新闻列明官方 LinkedIn 账号（slug 见官方帖文链接）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "MEF 官方门户网站",
+      "url": "https://www.mef.gob.pe/",
+      "description": "发布经济信息、公共预算、国库、公共债务、公共投资等官方资料与法规文件。",
+      "source": "official_website"
+    },
+    {
+      "name": "MEF 开放数据平台",
+      "url": "http://datosabiertos.gob.pe/",
+      "description": "开放数据门户，提供财政、预算与公共投资等数据集（官网链接指向 datosabiertos.mef.gob.pe）。",
+      "source": "official_website footer"
+    },
+    {
+      "name": "INVIERTE.PE 公共投资跟踪查询系统",
+      "url": "https://ofi5.mef.gob.pe/ssi/",
+      "description": "公共投资项目的登记与跟踪查询系统（Sistema de seguimiento y consulta de inversiones públicas）。",
+      "source": "gob.pe 服务目录"
+    },
+    {
+      "name": "金融行政透明门户（Portal de Transparencia de la Administración Financiera）",
+      "url": "https://www.mef.gob.pe/transparenciafinanciera",
+      "description": "公开财政与金融行政信息的透明度门户。",
+      "source": "official_website footer"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "PE-PERSON-000022",
+      "name": "埃尔默·库瓦 (Elmer Cuba)",
+      "title": "经济和财政部长 (Ministro de Economía y Finanzas)",
+      "title_description": "全名：埃尔默·拉斐尔·库瓦·布斯廷萨 (Elmer Rafael Cuba Bustinza)，1965年10月24日生于阿雷基帕",
+      "description": "宏观经济学家、Macroconsult合伙人，曾任秘鲁中央储备银行（BCR）董事和Indecopi董事；2026年7月28日在基科·藤森总统主持下宣誓就职，加入路易斯·加拉雷塔总理领导的内阁，任期2026-2031。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "PE-GOV-042-DEPT-001",
+      "name": "经济副部长办公室 (Viceministerio de Economía)",
+      "head": null,
+      "description": "下辖宏观经济政策、公共收入政策、公共投资、财政分权与社会事务、金融市场与私营养老金发展、国际经济事务与竞争等总局。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PE-GOV-042-DEPT-002",
+      "name": "财政副部长办公室 (Viceministerio de Hacienda)",
+      "head": null,
+      "description": "下辖公共预算、公共会计、国库与公共债务、公共资源管理等总局。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PE-GOV-042-DEPT-003",
+      "name": "宏观经济政策总局 (Dirección General de Política Macroeconómica)",
+      "head": null,
+      "description": "负责牵头编制多年度宏观经济框架（Marco Macroeconómico Multianual）。",
+      "parent_dept_id": "PE-GOV-042-DEPT-001"
+    },
+    {
+      "dept_id": "PE-GOV-042-DEPT-004",
+      "name": "公共预算总局 (Dirección General de Presupuesto Público)",
+      "head": null,
+      "description": "全国公共预算行政系统的技术规范主管机构，负责公共部门预算过程的编制、指导、协调、控制与评估。",
+      "parent_dept_id": "PE-GOV-042-DEPT-002"
+    },
+    {
+      "dept_id": "PE-GOV-042-DEPT-005",
+      "name": "国库与公共债务总局 (Dirección General de Endeudamiento y Tesoro Público)",
+      "head": null,
+      "description": "负责公共债务与国库系统的综合管理，规范公共资金与公共债务运作。",
+      "parent_dept_id": "PE-GOV-042-DEPT-002"
+    },
+    {
+      "dept_id": "PE-GOV-042-DEPT-006",
+      "name": "公共收入政策总局 (Dirección General de Política de Ingresos Públicos)",
+      "head": null,
+      "description": "负责评估、制定税收政策以简化、重组和优化税制，提升各级政府征收入，并管理非税公共收入政策。",
+      "parent_dept_id": "PE-GOV-042-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-07-28",
+      "title": "埃尔默·库瓦宣誓就任经济财政部长",
+      "description": "在政府宫举行的仪式上，总统基科·藤森（Keiko Fujimori）主持埃尔默·库瓦·布斯廷萨宣誓就任经济财政部长（MEF），其加入路易斯·加拉雷塔（Luis Galarreta）总理领导的内阁。同日内阁公报（El Peruano）确认任命。",
+      "impact": "新部长为宏观经济学家、前中央储备银行董事，市场普遍预期财政政策保持审慎与连续性；其上任后随即推动结构性改革议程。",
+      "source": "https://larepublica.pe/economia/2026/07/28/elmer-cuba-jura-como-nuevo-titular-del-ministerio-de-economia-y-finanzas-2179856"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "MEF宣布设立四项总统委员会推动结构性改革",
+      "description": "部长库瓦在首次记者会上宣布设立四个总统委员会，分别负责劳动正规化（Miguel Jaramillo牵头）、金融市场强化（Martín Naranjo等牵头）、公共投资体系改革（Milton von Hesse牵头）和减少IGV与所得税逃漏（Manuel Estela牵头）；明确不提高税率，同时宣布最低工资分两步上调至1300新索尔、拟重启燃油价格稳定基金，并重新任命Petroperú董事会。",
+      "impact": "构成新政府经济议程核心：以征管与结构性改革提升生产率和税基，而非加税；对正规就业、公共投资质量与税收征管有中长期影响。",
+      "source": "https://www.gob.pe/institucion/mef/noticias/1427226-ministro-elmer-cuba-anuncia-cuatro-comisiones-presidenciales-para-impulsar-reformas-estructurales-y-elevar-la-productividad"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "MEF宣布将改革覆盖逾200万纳税人的简化税制（RUS等）",
+      "description": "部长库瓦表示将推动对RUS（单一简化税制）等特殊税制的改革，称RUS与RER等针对小微企业的税制「是时候改变了」，指出秘鲁税收征入低于同等人均GDP国家，存在提高税收压力（征管）的空间。国会经济委员会随后邀请部长与SUNAT署长说明政府税改方案。",
+      "impact": "税制改革若推进将扩大税基、影响逾200万纳税小微企业，需国会立法配合；市场与小企业部门对合规成本上升存在担忧。",
+      "source": "https://larepublica.pe/economia/2026/08/26/nuevo-rus-mef-anuncia-cambios-en-el-regimen-que-usan-mas-de-2-millones-de-contribuyentes-hnews-2205892"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "内阁批准2027财年公共预算案：2665.06亿新索尔，同比增长3.5%",
+      "description": "部长会议批准MEF起草的2027财年公共预算法案，总额266,506,316,735新索尔，较2026年PIA增长3.5%（为五年来第二低增幅），与2027年1.4%的财政赤字规则一致；重点投向公民安全（司法系统、警务与监狱约49.9亿新索尔）、社会包容（Pension 65翻倍、MIDIS逾16亿新索尔）、教育与卫生投资；地方政府获412.22亿新索尔（+15.2%）。法案随后提交国会审议。",
+      "impact": "显示财政整固取向（2026年赤字目标1.8%），预算增量有限意味着支出优先级再平衡；国会审议结果将影响2027年公共投资与社会保障力度。",
+      "source": "https://www.infobae.com/peru/2026/08/29/ejecutivo-propone-presupuesto-2027-con-el-segundo-avance-mas-bajo-en-los-ultimos-anos/"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "MEF通报X（推特）官方账号遭入侵",
+      "description": "MEF通过Instagram官方账号发布公报，确认其X平台官方账号（@MEF_Peru）被入侵，已启动相应恢复协议；并声明在恢复完成前，该账号发布的内容不构成MEF官方信息。",
+      "impact": "提示其官方社交媒体渠道存在信息安全风险；以MEF名义传播的X内容需经gob.pe平台等官方渠道核验。",
+      "source": "https://www.instagram.com/p/DdRmI7Mm92M/"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "MEF当选拉美加勒比财金部门气候变化区域平台2026-2027轮值主席",
+      "description": "MEF被区域成员国推选自2026年9月1日起担任拉丁美洲及加勒比财政部、经济部与央行气候变化区域平台（Plataforma Regional de Cambio Climático de Ministerios de Hacienda, Economía y Finanzas de ALC）2026-2027年度轮值主席，获世界银行等技术支持；MEF并推动该平台应对气候变化的宏观经济、财政与金融挑战议程。",
+      "impact": "提升秘鲁在可持续金融与气候财政区域议程中的话语权，MEF将牵头协调区域绿色财政政策合作。",
+      "source": "https://andina.pe/agencia/noticia-mef-lidera-plataforma-regional-sobre-desafios-economicos-y-fiscales-del-cambio-climatico-1092802.aspx"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "PE-GOV-029",
+      "org_name": "秘鲁国家海关与税务管理总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria)",
+      "org_type": "GOV",
+      "org_description": "负责全国关税征收与税收征管的专门机构，执行MEF制定的税收与关税政策。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PE-GOV-030",
+      "org_name": "银行、保险和私人养老金管理监管局 (Superintendencia de Banca, Seguros y AFP)",
+      "org_type": "GOV",
+      "org_description": "监管秘鲁银行、保险和私人养老金（AFP）体系的金融监管机构，在MEF主管的金融政策框架下运作。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PE-GOV-031",
+      "org_name": "证券市场监管局 (Superintendencia del Mercado de Valores)",
+      "org_type": "GOV",
+      "org_description": "监管秘鲁证券市场的专门机构，为MEF下辖附属机构。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PE-GOV-039",
+      "org_name": "秘鲁投资促进局 (PROINVERSIÓN)",
+      "org_type": "GOV",
+      "org_description": "促进私人投资（含公私合营PPP项目）的政府机构，隶属MEF体系。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PE-GOV-050",
+      "org_name": "国家公共合同监督局 (Organismo Supervisor de las Contrataciones del Estado)",
+      "org_type": "GOV",
+      "org_description": "监督国家公共采购（现由OECE承接其职能）的机构，为MEF下辖附属机构。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PE-FIN-006",
+      "org_name": "秘鲁国家银行 (Banco de la Nación)",
+      "org_type": "FIN",
+      "org_description": "提供国库支付与公共部门金融服务的国有银行，为MEF下辖附属机构。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "PE-GOV-002",
+      "org_name": "秘鲁部长会议 (Consejo de Ministros)",
+      "org_type": "GOV",
+      "org_description": "秘鲁内阁，MEF为内阁组成部门，部长由总统任命并向总理负责。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "PE-FIN-001",
+      "org_name": "秘鲁中央储备银行 (Banco Central de Reserva del Perú)",
+      "org_type": "FIN",
+      "org_description": "独立的中央银行，负责货币政策与金融稳定，与MEF在宏观经济政策上协同（现任部长库瓦曾任其董事）。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "PE-GOV-022",
+      "org_name": "秘鲁共和国议会 (Congreso de la República del Perú)",
+      "org_type": "GOV",
+      "org_description": "一院制立法机关，负责审议批准MEF提交的年度预算、公共债务与税收法案。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "秘鲁经济财政部（MEF）是主管国家经济与财政事务的内阁部门，负责规划和执行国家经济政策，目标是优化国家经济金融活动、确立宏观经济运行框架并实现经济可持续增长。其核心职能包括：制定并执行财政、融资、公共债务、预算与国库政策；制定关税与税收政策（由下辖的SUNAT负责征管）；编制多年度宏观经济框架（MMM）并执行财政赤字与公共债务规则；管理公共会计、国库与公共债务；主管公共投资体系（INVIERTE.PE）；统筹财政分权、国有企业（通过FONAFE）以及金融市场、劳动与私营养老金市场的发展政策；负责年度公共预算、公共债务与财政平衡法案的起草并提交国会审议。MEF同时主管SUNAT（海关税务）、SBS（银行保险）、SMV（证券市场）、PROINVERSIÓN（投资促进）、OSCE/OECE（公共采购）、国家银行（Banco de la Nación）和养老金规范化办公室（ONP）等附属机构，是秘鲁宏观经济稳定与财政可持续性的核心治理机构。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "MEF是秘鲁参与APEC财金轨道的主管部门，代表秘鲁出席APEC财长会议（FMM）及财政与结构性改革相关议程。2024年10月21日，第31届APEC财长会议在利马举行，由时任部长何塞·阿里斯塔（José Arista）主持，秘鲁作为主席国提出了建设更可持续、更数字化、更具韧性亚太区域金融议程的工作方案。2025年第32届财长会议由韩国仁川主办，2026年会议将由香港承办，MEF继续作为秘鲁财金事务对接机构参与。秘鲁曾三次主办APEC领导人非正式会议（2008、2016、2024），MEF在其中承担宏观经济与财政议题的牵头协调角色，并长期主张财政纪律、贸易投资自由化与区域经济一体化。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ministerio_de_Econom%C3%ADa_y_Finanzas_%28MEF%29.jpg/330px-Ministerio_de_Econom%C3%ADa_y_Finanzas_%28MEF%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-01",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_es",
+      "wikipedia_en",
+      "official_website",
+      "gob_pe_news",
+      "news_search",
+      "web_search",
+      "social_media"
+    ],
+    "completeness_score": 84,
+    "quotes": [
+      {
+        "title": "Ministerio de Economía y Finanzas del Perú - Wikipedia (es)",
+        "url": "https://es.wikipedia.org/wiki/Ministerio_de_Econom%C3%ADa_y_Finanzas_(Per%C3%BA)"
+      },
+      {
+        "title": "Ministry of Economy and Finance (Peru) - Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Economy_and_Finance_(Peru)"
+      },
+      {
+        "title": "Ministerio de Economía y Finanzas - Plataforma del Estado Peruano (gob.pe)",
+        "url": "https://www.gob.pe/mef"
+      },
+      {
+        "title": "Elmer Cuba jura como nuevo titular del Ministerio de Economía y Finanzas - La República",
+        "url": "https://larepublica.pe/economia/2026/07/28/elmer-cuba-jura-como-nuevo-titular-del-ministerio-de-economia-y-finanzas-2179856"
+      },
+      {
+        "title": "Elmer Cuba juro como nuevo ministro de Economía y Finanzas - gob.pe",
+        "url": "https://www.gob.pe/institucion/mef/noticias/1423627-elmer-cuba-juro-como-nuevo-ministro-de-economia-y-finanzas"
+      },
+      {
+        "title": "Ministro Elmer Cuba anuncia cuatro comisiones presidenciales para impulsar reformas estructurales - gob.pe",
+        "url": "https://www.gob.pe/institucion/mef/noticias/1427226-ministro-elmer-cuba-anuncia-cuatro-comisiones-presidenciales-para-impulsar-reformas-estructurales-y-elevar-la-productividad"
+      },
+      {
+        "title": "Ejecutivo propone Presupuesto 2027, con el segundo avance más bajo en los últimos años - Infobae",
+        "url": "https://www.infobae.com/peru/2026/08/29/ejecutivo-propone-presupuesto-2027-con-el-segundo-avance-mas-bajo-en-los-ultimos-anos/"
+      },
+      {
+        "title": "Nuevo RUS: MEF anuncia cambios en el régimen que usan más de 2 millones de contribuyentes - La República",
+        "url": "https://larepublica.pe/economia/2026/08/26/nuevo-rus-mef-anuncia-cambios-en-el-regimen-que-usan-mas-de-2-millones-de-contribuyentes-hnews-2205892"
+      },
+      {
+        "title": "MEF lidera plataforma regional sobre desafíos económicos y fiscales del cambio climático - Andina",
+        "url": "https://andina.pe/agencia/noticia-mef-lidera-plataforma-regional-sobre-desafios-economicos-y-fiscales-del-cambio-climatico-1092802.aspx"
+      },
+      {
+        "title": "MEF (@mefperu) - TikTok 官方账号",
+        "url": "https://www.tiktok.com/@mefperu"
+      },
+      {
+        "title": "Ministerio de Economía y Finanzas del Perú (@mefperu) - Instagram",
+        "url": "https://www.instagram.com/mefperu/"
+      },
+      {
+        "title": "Perú participó en reunión de Ministros de Finanzas del APEC - MEF",
+        "url": "https://www.mef.gob.pe/en/notas-de-prensa-y-comunicados/3702-peru-participo-en-reunion-de-ministros-de-finanzas-del-apec"
+      },
+      {
+        "title": "Declaración de los Ministros de Finanzas de APEC (31.ª reunión, Lima, 21 de octubre de 2024)",
+        "url": "https://cdn.www.gob.pe/uploads/document/file/7249315/85659-declaracion-de-los-ministros-de-finanzas.pdf"
+      }
+    ],
+    "notes": "P3丰富画像：合并西/英Wikipedia、gob.pe官方平台与MEF官网信息；部长任命（2026-07-28）经La República、gob.pe、El Peruano公报多源交叉验证；2027预算案（2026-08-29）经Infobae、El Peruano、MEF PDF多源确认。注意：西语Wikipedia部分段落（Gerardo Gonzales 2025-10-14上任）与英文Wikipedia部长列表矛盾，采信英文Wikipedia列表+2026-07-28宣誓就职的多源报道。X官方账号2026-09-14曾通报遭入侵。"
+  },
+  "wikidata_qid": "Q3065145"
+}
