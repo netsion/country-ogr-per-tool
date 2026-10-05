@@ -1,0 +1,14 @@
+SELECT ?org ?orgLabel ?orgDescription ?typeLabel ?hqLabel ?inception ?website
+WHERE {
+  ?org wdt:P17 wd:Q817 .
+  ?org wdt:P31 ?type .
+  VALUES ?type {
+    wd:Q43229 wd:Q4830453 wd:Q783794 wd:Q327333 wd:Q648294
+    wd:Q3918 wd:Q7278 wd:Q22687 wd:Q163740 wd:Q192621 wd:Q15416
+    wd:Q3230 wd:Q176742 wd:Q484652
+  }
+  OPTIONAL { ?org wdt:P159 ?hq . }
+  OPTIONAL { ?org wdt:P571 ?inception . }
+  OPTIONAL { ?org wdt:P856 ?website . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" . }
+} LIMIT 300
