@@ -1,0 +1,11 @@
+SELECT ?org ?orgLabel ?arLabel ?frLabel ?parentLabel ?website
+WHERE {
+  ?org wdt:P17 wd:Q1028 .
+  ?org wdt:P31 ?type .
+  VALUES ?type { wd:Q20390905 wd:Q648294 }
+  OPTIONAL { ?org wdt:P749 ?parent . }
+  OPTIONAL { ?org wdt:P856 ?website . }
+  OPTIONAL { ?org rdfs:label ?arLabel . FILTER(LANG(?arLabel)="ar") }
+  OPTIONAL { ?org rdfs:label ?frLabel . FILTER(LANG(?frLabel)="fr") }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" . }
+} LIMIT 100

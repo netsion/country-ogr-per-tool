@@ -1,0 +1,10 @@
+SELECT ?org ?orgLabel ?orgDescription ?ideologyLabel ?chairLabel ?founded ?website
+WHERE {
+  ?org wdt:P17 wd:Q1028 .
+  ?org wdt:P31 wd:Q7278 .
+  OPTIONAL { ?org wdt:P1142 ?ideology . }
+  OPTIONAL { ?org wdt:P488 ?chair . }
+  OPTIONAL { ?org wdt:P571 ?founded . }
+  OPTIONAL { ?org wdt:P856 ?website . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" . }
+} LIMIT 100

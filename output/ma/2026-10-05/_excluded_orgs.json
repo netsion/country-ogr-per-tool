@@ -1,0 +1,54 @@
+{
+  "action": "p3_trim_2026-10-05",
+  "directive": "ACAD/CORP/FIN each trimmed to 15",
+  "excluded": [
+    {
+      "org_id": "MA-FIN-016",
+      "reason": "Defunct bank: merged into Attijariwafa Bank (MA-FIN-002, retained) in 2003; P1 entry itself marked defunct."
+    },
+    {
+      "org_id": "MA-CORP-012",
+      "reason": "Lesieur Cristal: foreign-controlled (SIFCA/Savola) edible-oil processor; lowest strategic/OSINT value among 16 CORPs (energy, phosphate, telecom, retail, cement groups all retained)."
+    },
+    {
+      "org_id": "MA-ACAD-009",
+      "reason": "Moulay Ismail University (Meknes): regional comprehensive university; tier already represented by retained majors."
+    },
+    {
+      "org_id": "MA-ACAD-010",
+      "reason": "Mohamed I University (Oujda): regional university, eastern region; tier covered."
+    },
+    {
+      "org_id": "MA-ACAD-011",
+      "reason": "Hassan First University (Settat): small regional university, weak data (score 13)."
+    },
+    {
+      "org_id": "MA-ACAD-012",
+      "reason": "Chouaib Doukkali University (El Jadida): small regional university, weak data (score 13, 0 social)."
+    },
+    {
+      "org_id": "MA-ACAD-013",
+      "reason": "Ibn Tofail University (Kenitra): regional university; tier covered."
+    },
+    {
+      "org_id": "MA-ACAD-015",
+      "reason": "International University of Rabat: private university; weaker elite-network relevance than retained public grandes ecoles and Al Akhawayn."
+    },
+    {
+      "org_id": "MA-ACAD-016",
+      "reason": "UM6SS: private health university; much smaller scope than retained UM6P; royal health angle coverable via P4 persons if needed."
+    },
+    {
+      "org_id": "MA-ACAD-023",
+      "reason": "Centre national de la recherche scientifique (Q30284534): identity questionable - label collides with French CNRS; likely CNRST (funding agency); low OSINT value as collected."
+    },
+    {
+      "org_id": "MA-ACAD-024",
+      "reason": "King Abdul-Aziz Al Saoud Foundation: small Saudi-funded Islamic-studies foundation; weak data (score 11, 0 social)."
+    },
+    {
+      "org_id": "MA-GOV-019",
+      "reason": "Historical 2016-2021 cabinet entity of the ministry; current institution is MA-GOV-016 (Q26459282, mjcc.gov.ma). User-confirmed removal."
+    }
+  ]
+}
