@@ -27,6 +27,29 @@ QID_RE = re.compile(r'^Q[0-9]+$')
 ISO3_RE = re.compile(r'^[A-Z]{3}$')
 ISO2_RE = re.compile(r'^[A-Z]{2}$')
 STRICT_DATE_RE = re.compile(r'^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
+
+# Official ISO 3166-1 alpha-3 codes. *_iso3 fields must be in this set —
+# format-only checks ([A-Z]{3}) let fabricated codes like "LYP" (= ISO2+"P") through.
+VALID_ISO3 = frozenset("""
+AFG ALB DZA AND AGO ATG ARG ARM AUS AUT AZE
+BHS BHR BGD BRB BLR BEL BLZ BEN BTN BOL BIH BWA BRN BGR BFA BDI
+CPV CMR CAN CAF TCD CHL CHN COL COM COG COD CRI CIV HRV CUB CYP CZE
+DNK DJI DMA DOM ECU EGY SLV GNQ ERI EST SWZ ETH
+FJI FIN FRA GAB GMB GEO DEU GHA GRC GRD GTM GIN GNB GUY HTI HND HUN
+ISL IND IDN IRN IRQ IRL ISR ITA
+JAM JPN JOR KAZ KEN KIR PRK KOR KWT KGZ
+LAO LVA LBN LSO LBR LBY LIE LTU LUX
+MDG MWI MYS MDV MLI MLT MHL MRT MUS MEX FSM MDA MCO MNG MNE MAR MOZ MMR
+NAM NRU NPL NLD NZL NIC NER NGA MKD NOR
+OMN PAK PLW PAN PNG PRY PER PHL POL PRT
+QAT ROU RUS RWA KNA LCA VCT WSM SMR STP SAU SEN SRB SYC SLE SGP SVK SVN
+SLB SOM ZAF SSD ESP LKA SDN SUR SWE CHE SYR
+TWN TJK TZA THA TLS TGO TON TTO TUN TUR TKM TUV
+UGA UKR ARE GBR USA URY UZB VUT VAT VEN VNM YEM ZMB ZWE
+AIA ATA ABW ALA BMU BVT BES IOT CYM COK CXR CCK CUW FLK FRO
+GUF PYF GLP GUM GGY HMD HKG IMN JEY MAC MAF MSR NCL NIU NFK MNP
+PCN PSE PRI REU BLM SHN SPM SXM SGS SJM VGB WLF ESH ATF
+""".split())
 FLEXIBLE_DATE_RE = re.compile(r'^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$')
 SMART_QUOTES_RE = re.compile(r'[“”„‟]')
 
@@ -437,10 +460,10 @@ def validate_org_profile(data, filepath):
         r.error(f"basic_info.org_type '{bi['org_type']}' not in valid org_types")
     if bi.get("org_subtype") and bi["org_subtype"] not in ORG_SUBTYPES:
         r.error(f"basic_info.org_subtype '{bi['org_subtype']}' not in valid org_subtypes")
-    if bi.get("country_iso3") and not ISO3_RE.match(bi["country_iso3"]):
-        r.error(f"basic_info.country_iso3 '{bi['country_iso3']}' not ISO3 format")
-    if bi.get("hq_country_iso3") and not ISO3_RE.match(bi["hq_country_iso3"]):
-        r.error(f"basic_info.hq_country_iso3 '{bi['hq_country_iso3']}' not ISO3 format")
+    if bi.get("country_iso3") and bi["country_iso3"] not in VALID_ISO3:
+        r.error(f"basic_info.country_iso3 '{bi['country_iso3']}' is not a valid ISO 3166-1 alpha-3 code")
+    if bi.get("hq_country_iso3") and bi["hq_country_iso3"] not in VALID_ISO3:
+        r.error(f"basic_info.hq_country_iso3 '{bi['hq_country_iso3']}' is not a valid ISO 3166-1 alpha-3 code")
 
     err = validate_date(bi.get("founded_date"), strict=True, field_name="basic_info.founded_date")
     if err:

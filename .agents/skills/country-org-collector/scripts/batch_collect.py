@@ -26,24 +26,35 @@ WIKIDATA_RATE_LIMIT = 12  # seconds between requests
 WIKIPEDIA_RATE_LIMIT = 3  # seconds between requests
 MAX_RETRIES = 2
 RETRY_DELAY = 30  # seconds
+RATE_LIMIT_BACKOFF = (60, 60, 60)  # waits on HTTP 429 before giving up
 
 
 def fetch_url(url, timeout=30):
-    """Fetch URL with User-Agent header, return raw bytes."""
+    """Fetch URL with User-Agent header, return raw bytes. Retries with backoff on HTTP 429."""
     req = urllib.request.Request(url, headers={
         "User-Agent": "ApecOsintTool/1.0 (research; bot)",
         "Accept": "application/json",
     })
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.read()
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
+    waits = (None,) + tuple(RATE_LIMIT_BACKOFF)
+    for i, wait in enumerate(waits):
+        if wait is not None:
+            print(f"    RATE LIMITED (429), waiting {wait}s before retry {i}/{len(RATE_LIMIT_BACKOFF)}...")
+            time.sleep(wait)
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            if e.code == 429:
+                continue
+            print(f"    ERROR fetching {url}: {e}")
             return None
-        raise
-    except Exception as e:
-        print(f"    ERROR fetching {url}: {e}")
-        return None
+        except Exception as e:
+            print(f"    ERROR fetching {url}: {e}")
+            return None
+    print(f"    ERROR: persistent 429 rate limiting on {url}")
+    return None
 
 
 def fetch_wikidata_entity(qid):
@@ -138,10 +149,10 @@ def process_org(org, cache_dir):
                 result["errors"].append(f"Wikipedia error: {e}")
     time.sleep(WIKIPEDIA_RATE_LIMIT)
 
-    # Save cache (even if all fetches failed, write a minimal stub)
-    if result["wikidata"] is None and result["wikipedia"] is None and result.get("errors"):
-        result["source_unavailable"] = True
-        print(f"    WARNING: No data fetched, writing stub with source_unavailable flag")
+    # Don't cache when every fetch failed — a cached stub would never be retried on resume
+    if result["wikidata"] is None and result["wikipedia"] is None:
+        print(f"    WARNING: No data fetched, NOT caching (will retry on next run)")
+        return False
     save_json(cache_file, result)
     print(f"    SAVED: {cache_file}")
     return True
@@ -186,11 +197,13 @@ def main():
         was_cached = os.path.exists(cache_file)
 
         try:
-            process_org(org, cache_dir)
+            ok = process_org(org, cache_dir)
             if was_cached:
                 cached += 1
-            else:
+            elif ok:
                 success += 1
+            else:
+                failed += 1
         except Exception as e:
             print(f"    FATAL: {e}")
             failed += 1

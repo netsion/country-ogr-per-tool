@@ -64,7 +64,16 @@ ISO2_TO_ISO3 = {
     "CL": "CHL", "CN": "CHN", "HK": "HKG", "ID": "IDN", "JP": "JPN",
     "KR": "KOR", "MX": "MEX", "NZ": "NZL", "PG": "PNG", "PE": "PER",
     "PH": "PHL", "RU": "RUS", "TH": "THA", "TW": "TWN", "US": "USA",
-    "VN": "VNM",
+    "VN": "VNM", "SA": "SAU", "IN": "IND", "BR": "BRA", "GB": "GBR",
+    "FR": "FRA", "DE": "DEU", "ES": "ESP", "EG": "EGY",
+    "CD": "COD", "CG": "COG", "KE": "KEN", "ET": "ETH", "NG": "NGA",
+    "GH": "GHA", "SN": "SEN", "CI": "CIV", "CM": "CMR", "ZW": "ZWE",
+    "ZM": "ZMB", "TZ": "TZA", "UG": "UGA", "MZ": "MOZ", "AO": "AGO",
+    "LB": "LBN",
+    "AE": "ARE", "BF": "BFA", "JO": "JOR", "KG": "KGZ", "KH": "KHM",
+    "KW": "KWT", "KZ": "KAZ", "LA": "LAO", "LY": "LBY", "MA": "MAR",
+    "MO": "MAC", "OM": "OMN", "QA": "QAT", "TJ": "TJK", "TM": "TKM",
+    "UZ": "UZB",
 }
 
 
@@ -565,7 +574,11 @@ def main():
     base_dir = sys.argv[1]
     dir_parts = base_dir.replace("\\", "/").rstrip("/").split("/")
     country_iso = dir_parts[-2].upper() if len(dir_parts) >= 2 else "XX"
-    country_iso3 = ISO2_TO_ISO3.get(country_iso, country_iso + "P")
+    country_iso3 = ISO2_TO_ISO3.get(country_iso)
+    if not country_iso3:
+        print(f"ERROR: no ISO2->ISO3 mapping for country '{country_iso}'; "
+              f"add it to ISO2_TO_ISO3 in generate_profiles.py (never fabricate codes)")
+        sys.exit(1)
 
     cache_dir = os.path.join(base_dir, CACHE_DIR)
     orgs_dir = os.path.join(base_dir, ORGS_DIR)

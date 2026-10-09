@@ -60,11 +60,20 @@ INDUSTRY_MAP = {
 }
 
 ISO2_TO_ISO3 = {
+    'LB': 'LBN',
     "SG": "SGP", "MY": "MYS", "AU": "AUS", "BN": "BRN", "CA": "CAN",
     "CL": "CHL", "CN": "CHN", "HK": "HKG", "ID": "IDN", "JP": "JPN",
     "KR": "KOR", "MX": "MEX", "NZ": "NZL", "PG": "PNG", "PE": "PER",
     "PH": "PHL", "RU": "RUS", "TH": "THA", "TW": "TWN", "US": "USA",
-    "VN": "VNM",
+    "VN": "VNM", "SA": "SAU", "IN": "IND", "BR": "BRA", "GB": "GBR",
+    "FR": "FRA", "DE": "DEU", "ES": "ESP", "EG": "EGY",
+    "CD": "COD", "CG": "COG", "KE": "KEN", "ET": "ETH", "NG": "NGA",
+    "GH": "GHA", "SN": "SEN", "CI": "CIV", "CM": "CMR", "ZW": "ZWE",
+    "ZM": "ZMB", "TZ": "TZA", "UG": "UGA", "MZ": "MOZ", "AO": "AGO",
+    "AE": "ARE", "BF": "BFA", "JO": "JOR", "KG": "KGZ", "KH": "KHM",
+    "KW": "KWT", "KZ": "KAZ", "LA": "LAO", "LY": "LBY", "MA": "MAR",
+    "MO": "MAC", "OM": "OMN", "QA": "QAT", "TJ": "TJK", "TM": "TKM",
+    "UZ": "UZB",
 }
 
 
@@ -565,7 +574,11 @@ def main():
     base_dir = sys.argv[1]
     dir_parts = base_dir.replace("\\", "/").rstrip("/").split("/")
     country_iso = dir_parts[-2].upper() if len(dir_parts) >= 2 else "XX"
-    country_iso3 = ISO2_TO_ISO3.get(country_iso, country_iso + "P")
+    country_iso3 = ISO2_TO_ISO3.get(country_iso)
+    if not country_iso3:
+        print(f"ERROR: no ISO2->ISO3 mapping for country '{country_iso}'; "
+              f"add it to ISO2_TO_ISO3 in generate_profiles.py (never fabricate codes)")
+        sys.exit(1)
 
     cache_dir = os.path.join(base_dir, CACHE_DIR)
     orgs_dir = os.path.join(base_dir, ORGS_DIR)
@@ -579,8 +592,17 @@ def main():
     else:
         targets = targets_raw
 
-    # Load registry
-    registry_data = load_json(registry_file)
+    # Load registry (initialize on first run for a new country)
+    if os.path.exists(registry_file):
+        registry_data = load_json(registry_file)
+    else:
+        print(f"  INFO: id_registry.json not found, initializing empty registry")
+        registry_data = {
+            "registry": [],
+            "counters": {},
+            "person_registry": [],
+            "person_counters": {},
+        }
     registry = registry_data.get("registry", [])
     counters = registry_data.get("counters", {}).get(country_iso, {})
     next_ids = dict(counters)
@@ -607,10 +629,19 @@ def main():
         category = org.get("category")
 
         existing_id = None
-        for r in registry:
-            if r.get("wikidata_qid") == qid:
-                existing_id = r["org_id"]
-                break
+        # Guard: qid must be truthy — qid=None would match registry entries with
+        # wikidata_qid=None and make every no-qid org collide on the first one
+        if qid:
+            for r in registry:
+                if r.get("wikidata_qid") == qid:
+                    existing_id = r["org_id"]
+                    break
+        # No-qid orgs: idempotency via the target list id (org["id"] == profile filename)
+        if not existing_id and not qid:
+            target_id = org.get("id")
+            if target_id and os.path.exists(os.path.join(orgs_dir, f"{target_id}.json")):
+                skipped += 1
+                continue
         expected_file = f"{existing_id}.json" if existing_id else None
 
         if expected_file and expected_file in existing_profiles:

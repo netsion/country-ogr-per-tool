@@ -13,6 +13,12 @@
       "description": "Unique org identifier: {ISO2}-{TYPE}-{SEQ}",
       "examples": ["SG-GOV-001", "SG-SOE-001"]
     },
+    "wikidata_qid": {
+      "type": ["string", "null"],
+      "pattern": "^Q[0-9]+$",
+      "description": "Wikidata QID for the organization (validated by validate_schema.py and consumed by verify_qids.py)",
+      "examples": ["Q105954690"]
+    },
     "basic_info": {
       "type": "object",
       "required": ["name_original", "name_en", "org_type", "org_subtype", "country_iso3", "hq_country_iso3"],

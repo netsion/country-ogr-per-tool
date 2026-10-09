@@ -51,7 +51,7 @@ def main():
         "ID": "Indonesia", "JP": "Japan", "KR": "South Korea", "MX": "Mexico",
         "NZ": "New Zealand", "PG": "Papua New Guinea", "PE": "Peru", "PH": "Philippines",
         "RU": "Russia", "TH": "Thailand", "TW": "Chinese Taipei", "US": "United States",
-        "VN": "Vietnam",
+        "VN": "Vietnam", "LB": "Lebanon",
     }
     country_name = COUNTRY_NAMES.get(country_iso, country_iso)
 

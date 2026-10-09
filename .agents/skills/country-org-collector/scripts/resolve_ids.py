@@ -77,18 +77,34 @@ class Guardrails:
         self.registry_log.append((kind, new_id, name))
 
 
-def lookup_name(name, index):
+def lookup_name(name, index, kind=None):
     """Look up a name in the index, trying exact match first then decomposed components.
+
+    kind: "org" or "person" — restricts the result to the matching ID pattern and
+    disables decomposed matching for persons (Arabic patronymic fragments like
+    「本」/「阿卜杜勒」 over-match across different people, causing wrong-ID pollution).
 
     Returns (id_or_None, method_str).
     """
+    person_re = r'^[A-Z]{2}-PERSON-\d+$'
     if name in index:
+        found = index[name]
+        if kind == "person" and not re.match(person_re, found):
+            return None, None
+        if kind == "org" and re.match(person_re, found):
+            return None, None
         _decompose_hits["exact"] += 1
-        return index[name], "exact"
+        return found, "exact"
+    if kind == "person":
+        # persons: exact match only — decomposed fragments are unsafe
+        return None, None
     for component in decompose_name(name):
         if component in index:
+            found = index[component]
+            if re.match(person_re, found):
+                continue
             _decompose_hits["decomposed"] += 1
-            return index[component], "decomposed"
+            return found, "decomposed"
     return None, None
 
 
@@ -233,20 +249,15 @@ def resolve_orgs(output_dir, index, registry, iso, dry_run, guard):
             name = ent.get("org_name", "").strip()
             if not name:
                 continue
-            found_id, _ = lookup_name(name, index)
+            found_id, _ = lookup_name(name, index, kind="org")
             if found_id:
                 ent["org_id"] = found_id
                 filled_org += 1
                 modified = True
-            else:
-                ok, reason = guard.can_register("org")
-                if not ok:
-                    continue
-                org_type = ent.get("org_type") or "GOV"  # None-safe default
-                ent["org_id"] = register_new_org(registry, index, iso, name, org_type)
-                new_registered += 1
-                modified = True
-                guard.note_registered("org", ent["org_id"], f"{name} ({org_type})")
+            # related_entities are informational cross-references, not registry
+            # candidates: auto-registering them created semantic org_ids from
+            # free-text org_type values (e.g. "MA-公立大学-001") that then
+            # propagate through the name index into person files. Leave null.
 
         # key_people[].person_id
         for kp in profile.get("key_people", []):
@@ -257,7 +268,7 @@ def resolve_orgs(output_dir, index, registry, iso, dry_run, guard):
                 name = name.strip()
             if not name:
                 continue
-            found_id, _ = lookup_name(name, index)
+            found_id, _ = lookup_name(name, index, kind="person")
             if found_id:
                 kp["person_id"] = found_id
                 filled_person += 1
@@ -304,7 +315,7 @@ def resolve_persons(output_dir, index, registry, iso, dry_run, guard):
                 org_name = org_name.strip()
             if not org_name:
                 continue
-            found_id, _ = lookup_name(org_name, index)
+            found_id, _ = lookup_name(org_name, index, kind="org")
             if found_id:
                 we["org_id"] = found_id
                 filled_org += 1
@@ -329,7 +340,7 @@ def resolve_persons(output_dir, index, registry, iso, dry_run, guard):
                 name = name.strip()
             if not name:
                 continue
-            found_id, _ = lookup_name(name, index)
+            found_id, _ = lookup_name(name, index, kind="person")
             if found_id:
                 rel["person_id"] = found_id
                 filled_person += 1

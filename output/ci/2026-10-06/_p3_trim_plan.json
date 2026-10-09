@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-10-06",
+  "purpose": "P3 派发范围控制：trim 列表不派发子代理（档案保留在库，未删除）；keep 列表全部派发",
+  "criteria": [
+    "R1 总部不在科特迪瓦的国际组织，与该国仅为成员关系（skill §8 前缀规则）",
+    "R2 跨国公司纯销售型子公司，行业战略价值低，集团层面信息已覆盖",
+    "R3 实体过小且公开可验证资料稀薄，同类已有更强代表，P3 边际价值低",
+    "R4 与其他在库组织高度重叠（父子/母子公司），保留信息承载更大的一方"
+  ],
+  "trim": [
+    {"org_id": "CI-INTL-007", "name": "ECOWAS/CEDEAO", "rule": "R1", "reason": "总部阿布贾（尼日利亚），科特迪瓦仅为 12 成员国之一；区域经济视角已由 AfDB/BCEAO/BRVM 覆盖"},
+    {"org_id": "CI-INTL-008", "name": "UEMOA", "rule": "R1", "reason": "总部瓦加杜古（布基纳法索）；其货币与市场职能已由 BCEAO 与 BRVM 两个驻阿比让实体承载"},
+    {"org_id": "CI-INTL-009", "name": "Union Africaine (UA)", "rule": "R1", "reason": "总部亚的斯亚贝巴，55 成员之一，与科特迪瓦无特殊机构纽带"},
+    {"org_id": "CI-INTL-010", "name": "Organisation de la Coopération Islamique (OCI)", "rule": "R1", "reason": "总部吉达，57 成员之一，关联最弱"},
+    {"org_id": "CI-PARTY-006", "name": "UDPCI", "rule": "R3", "reason": "2020 总统选举得票 <1%，创始人 Guï 2002 年身亡后长期边缘化，公开资料稀薄"},
+    {"org_id": "CI-PARTY-007", "name": "MFA", "rule": "R3", "reason": "微型政党（Anaky Kobéna），无议会席位，可验证资料稀薄"},
+    {"org_id": "CI-PARTY-009", "name": "LIDER", "rule": "R3", "reason": "2011 年创建的微型政党（Henriette Lagou），选举权重可忽略"},
+    {"org_id": "CI-PARTY-010", "name": "COJEP", "rule": "R3", "reason": "2015 年创建的泛非主义小党，无议会代表，资料稀薄"},
+    {"org_id": "CI-ACAD-007", "name": "Université de Man", "rule": "R3", "reason": "2012 年新设地方大学，规模小、公开资料稀薄；高教板块已有 UFHB/INP-HB 等 8 所代表"},
+    {"org_id": "CI-ACAD-008", "name": "Université de San Pedro", "rule": "R3", "reason": "同上，新设地方大学资料稀薄"},
+    {"org_id": "CI-ACAD-009", "name": "Université de Bondoukou", "rule": "R3", "reason": "同上，新设地方大学资料稀薄"},
+    {"org_id": "CI-NGO-006", "name": "Fondation Franck Kessié", "rule": "R3", "reason": "球员个人基金会，机构规模与影响力远小于同类保留项（Drogba 基金会有总统令公益认定与部级合作）"},
+    {"org_id": "CI-NGO-012", "name": "LIDF", "rule": "R3", "reason": "2019 年创建的小型女权组织，与 LIDHO（1987，行业标杆）及 Woman Leaders 高度重叠"},
+    {"org_id": "CI-MEDIA-005", "name": "Life TV", "rule": "R3", "reason": "2020 年新设私营小台，来源仅媒体指南类；广电已有 RTI/NCI 代表"},
+    {"org_id": "CI-CORP-008", "name": "Nestlé Côte d'Ivoire", "rule": "R2", "reason": "跨国食品集团纯子公司，本地情报价值有限，集团层面已覆盖"},
+    {"org_id": "CI-CORP-009", "name": "Unilever Côte d'Ivoire", "rule": "R2", "reason": "同上"}
+  ],
+  "optional_trim": [
+    {"org_id": "CI-GOV-023", "name": "ONPC 民防办公室", "note": "应急救灾机构，情报价值偏低；如需压缩可裁，默认保留"},
+    {"org_id": "CI-MEDIA-008", "name": "CEDA 出版社", "note": "本土最大教科书出版社但情报价值一般；默认保留"},
+    {"org_id": "CI-PARTY-008", "name": "PIT", "note": "1990 年多党化首批合法政党，历史价值尚存；默认保留"}
+  ],
+  "considered_but_kept": [
+    {"org_id": "CI-FIN-004", "name": "BICICI", "reason": "事实核查确认 2026 年正常营业（CB-UMOA 持牌 0006），且 2026-07 控制权变更有情报价值"},
+    {"org_id": "CI-INTL-006", "name": "BCEAO", "reason": "总部达喀尔但发行科特迪瓦货币、阿比让设国家分局，属 R1 例外（主要活动国条款）"},
+    {"org_id": "CI-INTL-004", "name": "CI-GH 可可倡议", "reason": "秘书处阿克拉但为科特迪瓦第一大出口商品的双边机制，R1 例外"},
+    {"org_id": "CI-FIN-003", "name": "NSIA Banque CI", "reason": "虽与 Groupe NSIA (CI-CORP-012) 母子重叠，但系本土系统性银行（前身 BIAO），与集团画像互补，保留"}
+  ],
+  "stats": {
+    "before": {"GOV": 27, "SOE": 8, "CORP": 13, "FIN": 11, "ACAD": 16, "MEDIA": 8, "NGO": 12, "PARTY": 11, "MIL": 2, "INTL": 10, "total": 118},
+    "trimmed": 16,
+    "after": {"GOV": 27, "SOE": 8, "CORP": 11, "FIN": 11, "ACAD": 13, "MEDIA": 7, "NGO": 10, "PARTY": 7, "MIL": 2, "INTL": 6, "total": 102}
+  }
+}

@@ -125,6 +125,14 @@
 
 ## 搜索策略参考
 
+**工具优先级（SKILL.md §10 规定，必须遵守）**：
+- search-read MCP（`mcp__search-read__search` 搜索 / `mcp__search-read__read_url` 读全文）为默认挂载工具（2026-09-30 三探针实测均可用），**直接首选使用**
+- 仅当首选工具实测报错/超时/返回空时，才按以下阶梯降级：
+  1. `mcp__search-read__search`（keyword 参数）搜索 → `mcp__search-read__read_url`（url 参数）读全文
+  2. WebSearch（query 参数）搜索 → `mcp__web_reader__webReader`（url 参数）读全文
+  3. WebFetch 检索引擎结果页 + curl/requests 直取原文页（需带 User-Agent，走代理 http://127.0.0.1:7890）
+- 检索引擎结果页（bing/brave/ddg）只用于发现 URL，**引用事实必须来自直取的原文页**
+
 多语言搜索按此顺序：目标国语言 → 英语 → 中文
 
 | 字段 | 英语搜索 | 目标国语言搜索 |
