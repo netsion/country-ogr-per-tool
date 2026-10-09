@@ -1,0 +1,2607 @@
+{
+  "phase": "P4_person_enrichment",
+  "concurrency": 4,
+  "started_at": "2026-10-07",
+  "last_updated": "2026-10-07",
+  "completed": [
+    "CI-PERSON-000018",
+    "CI-PERSON-000019",
+    "CI-PERSON-000004",
+    "CI-PERSON-000001",
+    "CI-PERSON-000083",
+    "CI-PERSON-000070",
+    "CI-PERSON-000099",
+    "CI-PERSON-000073",
+    "CI-PERSON-000002",
+    "CI-PERSON-000348",
+    "CI-PERSON-000003",
+    "CI-PERSON-000005",
+    "CI-PERSON-000007",
+    "CI-PERSON-000008",
+    "CI-PERSON-000012",
+    "CI-PERSON-000010",
+    "CI-PERSON-000011",
+    "CI-PERSON-000013",
+    "CI-PERSON-000014",
+    "CI-PERSON-000015",
+    "CI-PERSON-000016",
+    "CI-PERSON-000037",
+    "CI-PERSON-000017",
+    "CI-PERSON-000061",
+    "CI-PERSON-000062",
+    "CI-PERSON-000068",
+    "CI-PERSON-000064",
+    "CI-PERSON-000069",
+    "CI-PERSON-000066",
+    "CI-PERSON-000072",
+    "CI-PERSON-000074",
+    "CI-PERSON-000071",
+    "CI-PERSON-000075",
+    "CI-PERSON-000076",
+    "CI-PERSON-000078",
+    "CI-PERSON-000079",
+    "CI-PERSON-000077",
+    "CI-PERSON-000080",
+    "CI-PERSON-000081",
+    "CI-PERSON-000082",
+    "CI-PERSON-000084",
+    "CI-PERSON-000091",
+    "CI-PERSON-000092",
+    "CI-PERSON-000095",
+    "CI-PERSON-000094",
+    "CI-PERSON-000096",
+    "CI-PERSON-000098",
+    "CI-PERSON-000101",
+    "CI-PERSON-000097",
+    "CI-PERSON-000102",
+    "CI-PERSON-000104",
+    "CI-PERSON-000105",
+    "CI-PERSON-000103",
+    "CI-PERSON-000106",
+    "CI-PERSON-000108",
+    "CI-PERSON-000109",
+    "CI-PERSON-000110",
+    "CI-PERSON-000111",
+    "CI-PERSON-000112",
+    "CI-PERSON-000114",
+    "CI-PERSON-000115",
+    "CI-PERSON-000113",
+    "CI-PERSON-000116",
+    "CI-PERSON-000117",
+    "CI-PERSON-000118",
+    "CI-PERSON-000119",
+    "CI-PERSON-000120",
+    "CI-PERSON-000122",
+    "CI-PERSON-000124",
+    "CI-PERSON-000123",
+    "CI-PERSON-000125",
+    "CI-PERSON-000126",
+    "CI-PERSON-000132",
+    "CI-PERSON-000133",
+    "CI-PERSON-000136",
+    "CI-PERSON-000146",
+    "CI-PERSON-000137",
+    "CI-PERSON-000148",
+    "CI-PERSON-000149",
+    "CI-PERSON-000153",
+    "CI-PERSON-000154",
+    "CI-PERSON-000157",
+    "CI-PERSON-000159",
+    "CI-PERSON-000160",
+    "CI-PERSON-000176",
+    "CI-PERSON-000172",
+    "CI-PERSON-000164",
+    "CI-PERSON-000178",
+    "CI-PERSON-000180",
+    "CI-PERSON-000179",
+    "CI-PERSON-000181",
+    "CI-PERSON-000187",
+    "CI-PERSON-000182",
+    "CI-PERSON-000186",
+    "CI-PERSON-000188",
+    "CI-PERSON-000189",
+    "CI-PERSON-000190",
+    "CI-PERSON-000195",
+    "CI-PERSON-000191",
+    "CI-PERSON-000196",
+    "CI-PERSON-000197",
+    "CI-PERSON-000198",
+    "CI-PERSON-000199",
+    "CI-PERSON-000200",
+    "CI-PERSON-000204",
+    "CI-PERSON-000201",
+    "CI-PERSON-000207",
+    "CI-PERSON-000206",
+    "CI-PERSON-000209",
+    "CI-PERSON-000208",
+    "CI-PERSON-000210",
+    "CI-PERSON-000211",
+    "CI-PERSON-000220",
+    "CI-PERSON-000231",
+    "CI-PERSON-000235",
+    "CI-PERSON-000219",
+    "CI-PERSON-000236",
+    "CI-PERSON-000240",
+    "CI-PERSON-000241",
+    "CI-PERSON-000243",
+    "CI-PERSON-000246",
+    "CI-PERSON-000250",
+    "CI-PERSON-000256",
+    "CI-PERSON-000254",
+    "CI-PERSON-000255",
+    "CI-PERSON-000257",
+    "CI-PERSON-000259",
+    "CI-PERSON-000258",
+    "CI-PERSON-000260",
+    "CI-PERSON-000261",
+    "CI-PERSON-000262",
+    "CI-PERSON-000264",
+    "CI-PERSON-000266",
+    "CI-PERSON-000267",
+    "CI-PERSON-000269",
+    "CI-PERSON-000270",
+    "CI-PERSON-000274",
+    "CI-PERSON-000273",
+    "CI-PERSON-000277",
+    "CI-PERSON-000275",
+    "CI-PERSON-000278",
+    "CI-PERSON-000276",
+    "CI-PERSON-000279",
+    "CI-PERSON-000280",
+    "CI-PERSON-000281",
+    "CI-PERSON-000282",
+    "CI-PERSON-000284",
+    "CI-PERSON-000286",
+    "CI-PERSON-000285",
+    "CI-PERSON-000283",
+    "CI-PERSON-000288",
+    "CI-PERSON-000299",
+    "CI-PERSON-000287",
+    "CI-PERSON-000294",
+    "CI-PERSON-000301",
+    "CI-PERSON-000303",
+    "CI-PERSON-000302",
+    "CI-PERSON-000300",
+    "CI-PERSON-000304",
+    "CI-PERSON-000307",
+    "CI-PERSON-000308",
+    "CI-PERSON-000305",
+    "CI-PERSON-000314",
+    "CI-PERSON-000311",
+    "CI-PERSON-000315",
+    "CI-PERSON-000317",
+    "CI-PERSON-000321",
+    "CI-PERSON-000316",
+    "CI-PERSON-000322",
+    "CI-PERSON-000324",
+    "CI-PERSON-000323",
+    "CI-PERSON-000325",
+    "CI-PERSON-000326",
+    "CI-PERSON-000332",
+    "CI-PERSON-000327",
+    "CI-PERSON-000331",
+    "CI-PERSON-000334",
+    "CI-PERSON-000333",
+    "CI-PERSON-000336",
+    "CI-PERSON-000335",
+    "CI-PERSON-000337",
+    "CI-PERSON-000340",
+    "CI-PERSON-000338",
+    "CI-PERSON-000339",
+    "CI-PERSON-000341",
+    "CI-PERSON-000343",
+    "CI-PERSON-000342",
+    "CI-PERSON-000344",
+    "CI-PERSON-000345",
+    "CI-PERSON-000351",
+    "CI-PERSON-000347",
+    "CI-PERSON-000352",
+    "CI-PERSON-000357",
+    "CI-PERSON-000355",
+    "CI-PERSON-000354",
+    "CI-PERSON-000353",
+    "CI-PERSON-000361",
+    "CI-PERSON-000359",
+    "CI-PERSON-000358",
+    "CI-PERSON-000364",
+    "CI-PERSON-000369"
+  ],
+  "remaining": [],
+  "current": [],
+  "failed": [],
+  "skipped_trim": 147,
+  "orphans_dropped": [
+    "CI-PERSON-000009",
+    "CI-PERSON-000020"
+  ],
+  "persons": {
+    "CI-PERSON-000001": {
+      "name": "Alassane Ouattara",
+      "name_zh": null,
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-GOV-001",
+          "总统 (Président de la République)"
+        ],
+        [
+          "CI-GOV-002",
+          "共和国总统"
+        ]
+      ]
+    },
+    "CI-PERSON-000004": {
+      "name": "Téné Birahima Ouattara",
+      "name_zh": null,
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-GOV-002",
+          "副总理兼国防部长 (Vice-Premier ministre, ministre de la Défense)"
+        ],
+        [
+          "CI-GOV-013",
+          "副总理兼国防部长 (Vice-Premier ministre, Ministre de la Défense)"
+        ],
+        [
+          "CI-MIL-001",
+          "国防部长 (Vice-Premier ministre, Ministre d'État, Ministre de la Défense)"
+        ],
+        [
+          "CI-MIL-002",
+          "国防部长 (Ministre d'État, Ministre de la Défense)"
+        ],
+        [
+          "CI-PARTY-001",
+          "总司库 (Trésorier Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000018": {
+      "name": "Sidi Ould Tah",
+      "name_zh": null,
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "行长 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000019": {
+      "name": "让-克洛德·布鲁 (Jean-Claude Kassi Brou)",
+      "name_zh": "让-克洛德·布鲁",
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-INTL-006",
+          "行长 (Gouverneur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000070": {
+      "name": "帕特里克·阿希 (Patrick Achi)",
+      "name_zh": "帕特里克·阿希",
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-GOV-003",
+          "议长 (Président de l'Assemblée nationale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000073": {
+      "name": "康迪娅·卡米索科·卡马拉 (Kandia Kamissoko Camara)",
+      "name_zh": "康迪娅·卡米索科·卡马拉",
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-ACAD-012",
+          "知名校友"
+        ],
+        [
+          "CI-GOV-004",
+          "参议院议长 (Présidente du Sénat)"
+        ],
+        [
+          "CI-PARTY-001",
+          "副主席 (Vice-Présidente)"
+        ],
+        [
+          "CI-PARTY-004",
+          "总书记 (Secrétaire générale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000083": {
+      "name": "坎瓦利·迪奥芒德 (Kanvaly Diomandé)",
+      "name_zh": "坎瓦利·迪奥芒德",
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-GOV-005",
+          "审计法院庭院长 (Président de la Cour des comptes)"
+        ]
+      ]
+    },
+    "CI-PERSON-000099": {
+      "name": "拉西纳·敦比亚 (Lassina Doumbia)",
+      "name_zh": "拉西纳·敦比亚",
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-GOV-013",
+          "总参谋长 (Chef d'État-major Général des Armées, CEMGA)"
+        ],
+        [
+          "CI-MIL-001",
+          "武装力量总参谋长 (Chef d'État-Major Général des Armées, CEMGA)"
+        ]
+      ]
+    },
+    "CI-PERSON-000348": {
+      "name": "亚历山大·阿帕洛·图雷 (Alexandre Apalo Touré)",
+      "name_zh": "亚历山大·阿帕洛·图雷",
+      "importance": "high",
+      "orgs": [
+        [
+          "CI-MIL-002",
+          "国家宪兵最高指挥官 (Commandant supérieur de la Gendarmerie nationale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000002": {
+      "name": "Tiémoko Meyliet Koné",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-001",
+          "副总统 (Vice-Président)"
+        ],
+        [
+          "CI-GOV-002",
+          "副总统"
+        ]
+      ]
+    },
+    "CI-PERSON-000003": {
+      "name": "Robert Beugré Mambé",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-001",
+          "总理 (Premier ministre)"
+        ],
+        [
+          "CI-GOV-002",
+          "总理 (Premier ministre)"
+        ],
+        [
+          "CI-GOV-007",
+          "前主席 (2005-2010)"
+        ],
+        [
+          "CI-PARTY-001",
+          "副主席 (Vice-Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000005": {
+      "name": "Tidjane Thiam",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-002",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000007": {
+      "name": "Yerim Habib Sow",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-011",
+          "创始人、总裁兼首席执行官 (Fondateur, Président-directeur général)"
+        ],
+        [
+          "CI-FIN-009",
+          "特利奥姆集团创始人（本行最终控制人）"
+        ]
+      ]
+    },
+    "CI-PERSON-000008": {
+      "name": "Jean Kacou Diagou",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-012",
+          "创始人兼总裁 (Président Fondateur du Groupe)"
+        ],
+        [
+          "CI-FIN-003",
+          "NSIA集团创始人兼董事长"
+        ]
+      ]
+    },
+    "CI-PERSON-000010": {
+      "name": "桑加弗瓦·庫里巴利 (Sangafowa Coulibaly)",
+      "name_zh": "桑加弗瓦·庫里巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-002",
+          "矿业、石油与能源部长 (Ministre des Mines, du Pétrole et de l'Énergie)"
+        ],
+        [
+          "CI-GOV-017",
+          "前农业部长"
+        ],
+        [
+          "CI-GOV-018",
+          "部长 (Ministre des Mines, du Pétrole et de l'Énergie)"
+        ]
+      ]
+    },
+    "CI-PERSON-000011": {
+      "name": "Anne Desirée Ouloto",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-002",
+          "国务部长兼公共服务与行政现代化部长"
+        ],
+        [
+          "CI-GOV-021",
+          "国务部长、公职与行政现代化部长 (Ministre d'État, Ministre de la Fonction publique et de la Modernisation de l'administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000012": {
+      "name": "Mamoun Beheiry",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000013": {
+      "name": "Abdelwahab Labidi",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000014": {
+      "name": "Babacar N'Diaye",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000015": {
+      "name": "奧馬爾·卡巴傑 (Omar Kabbaj)",
+      "name_zh": "奧馬爾·卡巴傑",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000016": {
+      "name": "唐纳德·卡贝鲁卡 (Donald Kaberuka)",
+      "name_zh": "唐纳德·卡贝鲁卡",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000017": {
+      "name": "阿金武米·阿德希納 (Akinwumi Adesina)",
+      "name_zh": "阿金武米·阿德希納",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000037": {
+      "name": "Fausséni Dembélé",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-001",
+          "前总经理 (Ancien Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000061": {
+      "name": "亨利·科南·贝迪埃 (Henri Konan Bédié)",
+      "name_zh": "亨利·科南·贝迪埃",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-003",
+          "前议长 (Ancien président de l'Assemblée nationale)"
+        ],
+        [
+          "CI-PARTY-002",
+          "前主席 (Ancien président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000062": {
+      "name": "帕斯卡尔·恩盖桑 (Pascal Affi N'Guessan)",
+      "name_zh": "帕斯卡尔·恩盖桑",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-003",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000063": {
+      "name": "阿拉萨内·瓦塔拉 (Alassane Ouattara)",
+      "name_zh": "阿拉萨内·瓦塔拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MIL-001",
+          "武装力量最高统帅 (Commandant en chef des armées)"
+        ],
+        [
+          "CI-PARTY-001",
+          "党主席 (Président du RHDP)"
+        ],
+        [
+          "CI-PARTY-004",
+          "荣誉主席 (Président d'honneur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000064": {
+      "name": "洛朗·巴博 (Laurent Gbagbo)",
+      "name_zh": "洛朗·巴博",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-003",
+          "创始人、前主席（历史领导人）"
+        ],
+        [
+          "CI-PARTY-005",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000066": {
+      "name": "Mamadou Koulibaly",
+      "name_zh": null,
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-003",
+          "前议长 (Ancien président de l'Assemblée nationale)"
+        ],
+        [
+          "CI-PARTY-009",
+          "Chair"
+        ]
+      ]
+    },
+    "CI-PERSON-000068": {
+      "name": "卡巴·尼亚莱 (Kaba Nialé)",
+      "name_zh": "卡巴·尼亚莱",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-002",
+          "国务部长兼外交与国际合作部长"
+        ],
+        [
+          "CI-GOV-009",
+          "国务部长兼外交与国际合作部长 (Ministre d'État, Ministre des Affaires étrangères et de la Coopération internationale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000069": {
+      "name": "阿马杜·库利巴利 (Amadou Coulibaly)",
+      "name_zh": "阿马杜·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-002",
+          "交流部长兼政府发言人"
+        ],
+        [
+          "CI-GOV-019",
+          "新闻与数字经济部长、政府发言人 (Ministre de la Communication et de l'Économie numérique, Porte-parole du Gouvernement)"
+        ]
+      ]
+    },
+    "CI-PERSON-000071": {
+      "name": "阿达马·比克托戈 (Adama Bictogo)",
+      "name_zh": "阿达马·比克托戈",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-003",
+          "前议长 (Ancien président de l'Assemblée nationale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000072": {
+      "name": "塔拉·宁基埃马·科内 (Tara Ninkiema Koné)",
+      "name_zh": "塔拉·宁基埃马·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-011",
+          "主席 (Présidente)"
+        ]
+      ]
+    },
+    "CI-PERSON-000074": {
+      "name": "让诺·阿乌苏-库阿迪奥 (Jeannot Ahoussou-Kouadio)",
+      "name_zh": "让诺·阿乌苏-库阿迪奥",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "前参议院议长 (Ancien Président du Sénat)"
+        ]
+      ]
+    },
+    "CI-PERSON-000075": {
+      "name": "萨拉·法迪卡·萨科 (Sarra Fadika Sako)",
+      "name_zh": "萨拉·法迪卡·萨科",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "参议院副议长 (Vice-présidente du Sénat)"
+        ],
+        [
+          "CI-PARTY-001",
+          "侯弗埃主义者荣誉委员会主席 (Présidente du Conseil de l'Ordre des Houphouëtistes)"
+        ]
+      ]
+    },
+    "CI-PERSON-000076": {
+      "name": "苏莱曼·图雷 (Souleymane Touré)",
+      "name_zh": "苏莱曼·图雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "参议院副议长 (Vice-président du Sénat)"
+        ]
+      ]
+    },
+    "CI-PERSON-000077": {
+      "name": "奥古斯坦·西吕埃·卡尼奥 (Augustin Silué Kagnon)",
+      "name_zh": "奥古斯坦·西吕埃·卡尼奥",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "参议院副议长 (Vice-président du Sénat)"
+        ]
+      ]
+    },
+    "CI-PERSON-000078": {
+      "name": "雷蒙·恩多希·亚皮 (Raymond N'Dohi Yapi)",
+      "name_zh": "雷蒙·恩多希·亚皮",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "参议院副议长 (Vice-président du Sénat)"
+        ]
+      ]
+    },
+    "CI-PERSON-000079": {
+      "name": "玛曼·库利巴利（原姓瓦塔拉）(Maman Coulibaly, née Ouattara)",
+      "name_zh": "玛曼·库利巴利（原姓瓦塔拉）",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "参议院副议长 (Vice-présidente du Sénat)"
+        ]
+      ]
+    },
+    "CI-PERSON-000080": {
+      "name": "马卡尼·迪亚比 (Makani Diaby)",
+      "name_zh": "马卡尼·迪亚比",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-004",
+          "参议院副议长 (Vice-président du Sénat)"
+        ]
+      ]
+    },
+    "CI-PERSON-000081": {
+      "name": "勒内·弗朗索瓦·阿潘-库阿西 (René François Aphing-Kouassi)",
+      "name_zh": "勒内·弗朗索瓦·阿潘-库阿西",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-005",
+          "末任院长 (Président de la Cour suprême)"
+        ]
+      ]
+    },
+    "CI-PERSON-000082": {
+      "name": "马马杜·科内 (Mamadou Koné)",
+      "name_zh": "马马杜·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-005",
+          "前任院长 (Ancien président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000084": {
+      "name": "尚塔尔·纳纳巴·卡马拉 (Chantal Nanaba Camara)",
+      "name_zh": "尚塔尔·纳纳巴·卡马拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-006",
+          "主席 (Présidente)"
+        ]
+      ]
+    },
+    "CI-PERSON-000091": {
+      "name": "易卜拉希姆·库伊贝尔·库利巴利 (Ibrahime Kuibiert Coulibaly)",
+      "name_zh": "易卜拉希姆·库伊贝尔·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-007",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000092": {
+      "name": "尤素福·巴卡约科 (Youssouf Bakayoko)",
+      "name_zh": "尤素福·巴卡约科",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-007",
+          "前主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000094": {
+      "name": "瓦贡多·迪奥芒德 (Vagondo Diomandé)",
+      "name_zh": "瓦贡多·迪奥芒德",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-010",
+          "部长 (Ministre)"
+        ]
+      ]
+    },
+    "CI-PERSON-000095": {
+      "name": "阿达马·多索 (Adama Dosso)",
+      "name_zh": "阿达马·多索",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-009",
+          "外交与国际合作部长级代表，负责非洲一体化与海外侨民事务 (Ministre délégué auprès du Ministre d'État chargé de l'Intégration africaine et des Ivoiriens de l'Extérieur)"
+        ],
+        [
+          "CI-SOE-001",
+          "董事 (Administrateur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000096": {
+      "name": "索罗·卡皮耶莱蒂安 (Soro Kapieletien)",
+      "name_zh": "索罗·卡皮耶莱蒂安",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-009",
+          "秘书长 (Secrétaire Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000097": {
+      "name": "阿达马·库利巴利 (Adama Coulibaly)",
+      "name_zh": "阿达马·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-011",
+          "部长 (Ministre)"
+        ],
+        [
+          "CI-GOV-026",
+          "前总干事 (ancien Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000098": {
+      "name": "让·桑桑·坎比利 (Jean Sansan Kambilé)",
+      "name_zh": "让·桑桑·坎比利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-012",
+          "掌玺部长、司法与人权部长 (Garde des Sceaux, Ministre de la Justice et des Droits de l'Homme)"
+        ]
+      ]
+    },
+    "CI-PERSON-000101": {
+      "name": "皮埃尔·恩古·丁巴 (Pierre N'Gou Dimba)",
+      "name_zh": "皮埃尔·恩古·丁巴",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-014",
+          "部长 (Ministre)"
+        ]
+      ]
+    },
+    "CI-PERSON-000102": {
+      "name": "科菲·恩盖桑 (Koffi N'Guessan)",
+      "name_zh": "科菲·恩盖桑",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-002",
+          "前总经理 (2011-2021)"
+        ],
+        [
+          "CI-GOV-015",
+          "部长 (Ministre)"
+        ]
+      ]
+    },
+    "CI-PERSON-000103": {
+      "name": "阿达马·迪亚瓦拉 (Adama Diawara)",
+      "name_zh": "阿达马·迪亚瓦拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-012",
+          "高等教育与科学研究部长 (Ministre de l'Enseignement supérieur et de la Recherche scientifique)"
+        ],
+        [
+          "CI-GOV-016",
+          "部长 (Ministre)"
+        ]
+      ]
+    },
+    "CI-PERSON-000104": {
+      "name": "布鲁诺·纳巴涅·科内 (Bruno Nabagné Koné)",
+      "name_zh": "布鲁诺·纳巴涅·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-002",
+          "校友；科特迪瓦前部长"
+        ],
+        [
+          "CI-GOV-017",
+          "部长 (Ministre)"
+        ]
+      ]
+    },
+    "CI-PERSON-000105": {
+      "name": "贝尔纳·基尼·科莫埃 (Bernard Kini Comoé)",
+      "name_zh": "贝尔纳·基尼·科莫埃",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-017",
+          "部长级代表 (Ministre délégué)"
+        ]
+      ]
+    },
+    "CI-PERSON-000106": {
+      "name": "阿布·班巴 (Abou Bamba)",
+      "name_zh": "阿布·班巴",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-020",
+          "部长 (Ministre)"
+        ]
+      ]
+    },
+    "CI-PERSON-000108": {
+      "name": "居斯塔夫·阿布阿 (Gustave Aboua)",
+      "name_zh": "居斯塔夫·阿布阿",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-020",
+          "可持续发展与生态转型总司总司长 (Directeur Général du Développement Durable et de la Transition Écologique)"
+        ]
+      ]
+    },
+    "CI-PERSON-000109": {
+      "name": "索罗·尼亚加福尔 (Soro Gninagafol)",
+      "name_zh": "索罗·尼亚加福尔",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-021",
+          "公职总司总司长 (Directeur Général de la Fonction Publique)"
+        ]
+      ]
+    },
+    "CI-PERSON-000110": {
+      "name": "易卜拉欣·卡利勒·科纳特 (Ibrahim Kalil Konaté)",
+      "name_zh": "易卜拉欣·卡利勒·科纳特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-019",
+          "数字转型与数字化部长 (Ministre de la Transition numérique et de la Digitalisation)"
+        ]
+      ]
+    },
+    "CI-PERSON-000111": {
+      "name": "吉布里勒·瓦塔拉 (Djibril Ouattara)",
+      "name_zh": "吉布里勒·瓦塔拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-002",
+          "前总经理 (Ancien Directeur Général)"
+        ],
+        [
+          "CI-GOV-019",
+          "数字转型与技术创新部长 (Ministre de la Transition numérique et de l'Innovation technologique)"
+        ]
+      ]
+    },
+    "CI-PERSON-000112": {
+      "name": "马里亚图·科内 (Mariatou Koné)",
+      "name_zh": "马里亚图·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-019",
+          "国家股份与国有企业部长 (Ministre du Portefeuille de l'État et des Entreprises publiques)"
+        ]
+      ]
+    },
+    "CI-PERSON-000113": {
+      "name": "穆萨·萨诺戈 (Moussa Sanogo)",
+      "name_zh": "穆萨·萨诺戈",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-019",
+          "遗产、国家股份与国有企业部长 (Ministre du Patrimoine, du Portefeuille de l'État et des Entreprises publiques)"
+        ]
+      ]
+    },
+    "CI-PERSON-000114": {
+      "name": "阿曼库·卡西·加班 (Amankou Kassi Gabin)",
+      "name_zh": "阿曼库·卡西·加班",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-023",
+          "总干事 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000115": {
+      "name": "法努·让·德·克拉朗斯 (Fanoux Jean De Clarence)",
+      "name_zh": "法努·让·德·克拉朗斯",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-023",
+          "副总干事 (Directeur Général Adjoint)"
+        ]
+      ]
+    },
+    "CI-PERSON-000116": {
+      "name": "耶奥·马里于斯 (Yéo Marius)",
+      "name_zh": "耶奥·马里于斯",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-001",
+          "总经理 (Directeur Général, Orange Liberia)"
+        ],
+        [
+          "CI-GOV-023",
+          "救援主任 (Directeur des Secours)"
+        ]
+      ]
+    },
+    "CI-PERSON-000117": {
+      "name": "阿戈·克里斯蒂安·科迪亚 (Ago Christian Kodia)",
+      "name_zh": "阿戈·克里斯蒂安·科迪亚",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-022",
+          "总干事 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000118": {
+      "name": "法布里斯·库利巴利 (Fabrice Coulibaly)",
+      "name_zh": "法布里斯·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-024",
+          "总干事 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000119": {
+      "name": "贝尔特·易卜拉希曼 (Berté Ibrahiman)",
+      "name_zh": "贝尔特·易卜拉希曼",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-024",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000120": {
+      "name": "索朗日·阿米西亚 (Solange Amichia)",
+      "name_zh": "索朗日·阿米西亚",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-025",
+          "总干事 (Directrice générale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000122": {
+      "name": "伊夫·杰杰 (Yves Djedje)",
+      "name_zh": "伊夫·杰杰",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-025",
+          "执行总监——战略转型与机构绩效 (Directeur Exécutif, Transformation Stratégique et Performance Institutionnelle)"
+        ]
+      ]
+    },
+    "CI-PERSON-000123": {
+      "name": "马马杜·贝尔特 (Mamadou Berté)",
+      "name_zh": "马马杜·贝尔特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-026",
+          "总干事 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000124": {
+      "name": "埃德蒙·福古尼盖·库利巴利 (Fougnigué Edmond COULIBALY)",
+      "name_zh": "埃德蒙·福古尼盖·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-GOV-027",
+          "总干事 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000125": {
+      "name": "穆萨·多索 (Moussa Dosso)",
+      "name_zh": "穆萨·多索",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-001",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000126": {
+      "name": "法图马塔·萨诺戈 (Fatoumata Sanogo)",
+      "name_zh": "法图马塔·萨诺戈",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-001",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000132": {
+      "name": "塞杜·穆萨·科内 (Seydou Moussa Koné)",
+      "name_zh": "塞杜·穆萨·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-002",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000133": {
+      "name": "让-吕克·阿西 (Jean-Luc Assi)",
+      "name_zh": "让-吕克·阿西",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-002",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000136": {
+      "name": "洛朗·卢库 (Laurent Loukou)",
+      "name_zh": "洛朗·卢库",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-004",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000137": {
+      "name": "阿卜杜拉耶·库利巴利 (Abdoulaye Coulibaly)",
+      "name_zh": "阿卜杜拉耶·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-004",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000146": {
+      "name": "特拉奥雷·卡苏姆 (Kassoum Traoré)",
+      "name_zh": "特拉奥雷·卡苏姆",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-005",
+          "总经理（临时）(Directeur Général par intérim)"
+        ]
+      ]
+    },
+    "CI-PERSON-000148": {
+      "name": "苏马伊拉·巴科科 (Soumaïla Bakayoko)",
+      "name_zh": "苏马伊拉·巴科科",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-011",
+          "前军事派参谋长 (chef d'état-major de la FAFN)"
+        ],
+        [
+          "CI-SOE-003",
+          "董事会主席 (Président du Conseil d'administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000149": {
+      "name": "索罗·蒂奥蒂奥霍 (Tiotioho Soro)",
+      "name_zh": "索罗·蒂奥蒂奥霍",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-003",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000153": {
+      "name": "布里马·库利巴利 (Bréhima Coulibaly)",
+      "name_zh": "布里马·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-006",
+          "总经理 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000154": {
+      "name": "雅克·阿萨奥雷·科南 (Jacques Assahoré Konan)",
+      "name_zh": "雅克·阿萨奥雷·科南",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-006",
+          "监管部长——水资源与森林部长 (Ministre des Eaux et Forêts)"
+        ]
+      ]
+    },
+    "CI-PERSON-000157": {
+      "name": "易卜拉希马·敦比亚 (Ibrahima Doumbia)",
+      "name_zh": "易卜拉希马·敦比亚",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-008",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000159": {
+      "name": "法曼·图雷 (Faman Touré)",
+      "name_zh": "法曼·图雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-001",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000160": {
+      "name": "帕特里克·布拉斯 (Patrick Blas)",
+      "name_zh": "帕特里克·布拉斯",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-001",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000164": {
+      "name": "基纳帕拉·库利巴利 (Kinapara Coulibaly)",
+      "name_zh": "基纳帕拉·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-SOE-007",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000172": {
+      "name": "穆罕默德·埃尔加齐 (Mohamed El Ghazi)",
+      "name_zh": "穆罕默德·埃尔加齐",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-002",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000176": {
+      "name": "贝尼托·法多 (Bénito Fado)",
+      "name_zh": "贝尼托·法多",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-003",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000178": {
+      "name": "莱昂斯·亚塞 (Léonce Yacé)",
+      "name_zh": "莱昂斯·亚塞",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-012",
+          "董事总经理 (Directeur Général)"
+        ],
+        [
+          "CI-FIN-003",
+          "前总经理"
+        ]
+      ]
+    },
+    "CI-PERSON-000179": {
+      "name": "艾哈迈德·西塞 (Ahmed Cissé)",
+      "name_zh": "艾哈迈德·西塞",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-004",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ],
+        [
+          "CI-MEDIA-006",
+          "所有者"
+        ]
+      ]
+    },
+    "CI-PERSON-000180": {
+      "name": "马马迪·迪亚基特 (Mamady Diakité)",
+      "name_zh": "马马迪·迪亚基特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-004",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000181": {
+      "name": "塞尔日·蒂埃梅莱 (Serge Thiemele)",
+      "name_zh": "塞尔日·蒂埃梅莱",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-005",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000182": {
+      "name": "保罗-哈里·艾特纳尔 (Paul-Harry Aithnard)",
+      "name_zh": "保罗-哈里·艾特纳尔",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-005",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000186": {
+      "name": "雷杜安·图比 (Redouane Toubi)",
+      "name_zh": "雷杜安·图比",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-006",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000187": {
+      "name": "拉拉·穆拉耶·埃兹丁 (Lala Moulaye Ezzedine)",
+      "name_zh": "拉拉·穆拉耶·埃兹丁",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-006",
+          "董事会主席 (Présidente du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000188": {
+      "name": "桑加洛·恩戈洛·库利巴利 (Soungalo N'golo Koulibaly)",
+      "name_zh": "桑加洛·恩戈洛·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-007",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000189": {
+      "name": "卡尔纳·帕特里斯·库利巴利 (Karna Patrice Coulibaly)",
+      "name_zh": "卡尔纳·帕特里斯·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-007",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000190": {
+      "name": "优素福·法迪加 (Youssouf Fadiga)",
+      "name_zh": "优素福·法迪加",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-008",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000191": {
+      "name": "苏莱曼·西塞 (Souleymane Cissé)",
+      "name_zh": "苏莱曼·西塞",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-008",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000195": {
+      "name": "比拉纳·瓦纳 (Birane Wane)",
+      "name_zh": "比拉纳·瓦纳",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-009",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000196": {
+      "name": "埃乌曼·卡西 (Ehouman Kassi)",
+      "name_zh": "埃乌曼·卡西",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-009",
+          "董事兼总经理 (Administrateur - Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000197": {
+      "name": "埃多·科西·阿梅农韦 (Edoh Kossi Amenounve)",
+      "name_zh": "埃多·科西·阿梅农韦",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-011",
+          "总干事 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000198": {
+      "name": "帕尔费·库瓦西 (Parfait Kouassi)",
+      "name_zh": "帕尔费·库瓦西",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-011",
+          "董事会主席 (Président du Conseil d'administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000199": {
+      "name": "伊德里萨·纳萨 (Idrissa Nassa)",
+      "name_zh": "伊德里萨·纳萨",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-010",
+          "科里斯集团创始人兼董事长（母公司层面）"
+        ]
+      ]
+    },
+    "CI-PERSON-000200": {
+      "name": "贾卡里贾·瓦塔拉 (Djakaridja Ouattara)",
+      "name_zh": "贾卡里贾·瓦塔拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-010",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000201": {
+      "name": "阿卜杜勒·穆穆内·尤努斯 (Abdoul Moumoune Younoussi)",
+      "name_zh": "阿卜杜勒·穆穆内·尤努斯",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-FIN-010",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000204": {
+      "name": "马马杜·班巴 (Mamadou Bamba)",
+      "name_zh": "马马杜·班巴",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-001",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000206": {
+      "name": "玛丽亚姆·图雷 (Mariame Touré)",
+      "name_zh": "玛丽亚姆·图雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-001",
+          "总经理 (Directrice Générale, Orange Money Côte d'Ivoire)"
+        ]
+      ]
+    },
+    "CI-PERSON-000207": {
+      "name": "纳菲·西卢埃 (Nafy Silue)",
+      "name_zh": "纳菲·西卢埃",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-001",
+          "总经理 (Directrice Générale, Orange Burkina Faso)"
+        ]
+      ]
+    },
+    "CI-PERSON-000208": {
+      "name": "科洛·科内 (Kolo Koné)",
+      "name_zh": "科洛·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-001",
+          "总经理 (Directeur Général, Côte d'Ivoire Câbles)"
+        ]
+      ]
+    },
+    "CI-PERSON-000209": {
+      "name": "卢萨因·乌萨拉 (Lhoussaine Oussalah)",
+      "name_zh": "卢萨因·乌萨拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-003",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000210": {
+      "name": "阿拉萨内·敦比亚 (Alassane Doumbia)",
+      "name_zh": "阿拉萨内·敦比亚",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-004",
+          "董事会主席 (Président du Conseil d'Administration de SIFCA)"
+        ],
+        [
+          "CI-CORP-006",
+          "董事会主席 (Président du Conseil d'administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000211": {
+      "name": "皮埃尔-埃马纽埃尔·比永 (Pierre-Emmanuel Billon)",
+      "name_zh": "皮埃尔-埃马纽埃尔·比永",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-004",
+          "董事总经理 (Administrateur Directeur Général de SIFCA)"
+        ],
+        [
+          "CI-CORP-006",
+          "董事 (Administrateur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000219": {
+      "name": "让-路易·比永 (Jean-Louis Billon)",
+      "name_zh": "让-路易·比永",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-004",
+          "SUCRIVOIRE与SAPH董事会主席 (Président du Conseil d'Administration de Sucrivoire et SAPH)"
+        ]
+      ]
+    },
+    "CI-PERSON-000220": {
+      "name": "马克·波兹芒捷 (Marc Pozmentier)",
+      "name_zh": "马克·波兹芒捷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-005",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000231": {
+      "name": "菲利普·雷纳尔 (Philippe Raynal)",
+      "name_zh": "菲利普·雷纳尔",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-010",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000235": {
+      "name": "贝内迪克特·贾宁·卡库·迪亚古 (Bénédicte Janine Kacou Diagou)",
+      "name_zh": "贝内迪克特·贾宁·卡库·迪亚古",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-012",
+          "集团董事总经理 (Directrice Générale du Groupe NSIA)"
+        ]
+      ]
+    },
+    "CI-PERSON-000236": {
+      "name": "让-克里斯蒂安·蒂尔克松 (Jean-Christian Turkson)",
+      "name_zh": "让-克里斯蒂安·蒂尔克松",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-013",
+          "总干事 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000240": {
+      "name": "穆萨·阿卜杜勒·卡德尔·迪亚比 (Moussa Abdoul Kader Diaby)",
+      "name_zh": "穆萨·阿卜杜勒·卡德尔·迪亚比",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-002",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000241": {
+      "name": "巴洛·齐耶 (Ballo Zié)",
+      "name_zh": "巴洛·齐耶",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-001",
+          "校长 (Président de l'université)"
+        ]
+      ]
+    },
+    "CI-PERSON-000243": {
+      "name": "约布埃·阿雅·维罗尼克 (Yoboué Aya Véronique)",
+      "name_zh": "约布埃·阿雅·维罗尼克",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-003",
+          "校长 (Présidente de l'université)"
+        ]
+      ]
+    },
+    "CI-PERSON-000246": {
+      "name": "库阿库·科菲 (Kouakou Koffi)",
+      "name_zh": "库阿库·科菲",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-004",
+          "大学校长 (Président de l'université)"
+        ]
+      ]
+    },
+    "CI-PERSON-000250": {
+      "name": "阿多希·库鲁·维维安 (Adohi Krou Viviane)",
+      "name_zh": "阿多希·库鲁·维维安",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-005",
+          "校长 (Présidente de l'université)"
+        ]
+      ]
+    },
+    "CI-PERSON-000254": {
+      "name": "阿瓦·苏戈·库利巴利 (Aoua Sougo Coulibaly)",
+      "name_zh": "阿瓦·苏戈·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-006",
+          "校长 (Présidente de l'université)"
+        ]
+      ]
+    },
+    "CI-PERSON-000255": {
+      "name": "卡马加特·马马杜 (Kamagaté Mamadou)",
+      "name_zh": "卡马加特·马马杜",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-006",
+          "院长 (Doyen)"
+        ]
+      ]
+    },
+    "CI-PERSON-000256": {
+      "name": "布鲁·加蒂安 (Brou Gatien)",
+      "name_zh": "布鲁·加蒂安",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-006",
+          "所长 (Directeur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000257": {
+      "name": "西吕埃·西埃莱 (Silué Siélé)",
+      "name_zh": "西吕埃·西埃莱",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-006",
+          "主任 (Directeur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000258": {
+      "name": "科南·夸梅·亚桑特 (Konan Kouamé Hyacinthe)",
+      "name_zh": "科南·夸梅·亚桑特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-006",
+          "主任 (Directeur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000259": {
+      "name": "西吕埃·格内内贝卢戈 (Silué Gnènèbelougo)",
+      "name_zh": "西吕埃·格内内贝卢戈",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-006",
+          "主任 (Directeur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000260": {
+      "name": "弗朗索瓦·科莫安 (François Komoin)",
+      "name_zh": "弗朗索瓦·科莫安",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-010",
+          "校长 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000261": {
+      "name": "蒂埃莫曼·科内 (Tiemoman Kone)",
+      "name_zh": "蒂埃莫曼·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-011",
+          "校长 (Président de l'UVCI)"
+        ]
+      ]
+    },
+    "CI-PERSON-000262": {
+      "name": "阿巴德·雷达 (Abbad Reda)",
+      "name_zh": "阿巴德·雷达",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-002",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000264": {
+      "name": "拉西纳·库利巴利 (Lacina Coulibaly)",
+      "name_zh": "拉西纳·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-CORP-006",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000266": {
+      "name": "巴莫里·卡马加特 (Bamory Kamagaté)",
+      "name_zh": "巴莫里·卡马加特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-012",
+          "院长 (Directeur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000267": {
+      "name": "迪亚拉·易卜拉欣 (Ibrahim Diarra)",
+      "name_zh": "迪亚拉·易卜拉欣",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-014",
+          "主任 (Directeur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000269": {
+      "name": "阿达马·科纳特 (Adama Konaté)",
+      "name_zh": "阿达马·科纳特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-013",
+          "总干事 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000270": {
+      "name": "阿卜杜拉赫马内·桑加雷 (Abdourahamane Sangaré)",
+      "name_zh": "阿卜杜拉赫马内·桑加雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-015",
+          "总干事 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000273": {
+      "name": "梅特·辛杜 (Meité Syndou)",
+      "name_zh": "梅特·辛杜",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-ACAD-016",
+          "所长 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000274": {
+      "name": "让·马夏尔·阿杜 (Jean Martial Adou)",
+      "name_zh": "让·马夏尔·阿杜",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-001",
+          "总经理 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000275": {
+      "name": "拉西纳·福法纳 (Lassina Fofana)",
+      "name_zh": "拉西纳·福法纳",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-001",
+          "董事会主席 (Président du conseil d'administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000276": {
+      "name": "阿卡·萨耶·拉扎雷 (Aka Sayé Lazare)",
+      "name_zh": "阿卡·萨耶·拉扎雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-001",
+          "前董事会主席 (Ancien Président du conseil d'administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000277": {
+      "name": "阿卜杜勒·塞尔日·奥利维耶·努霍 (Abdel Serge Olivier Nouho)",
+      "name_zh": "阿卜杜勒·塞尔日·奥利维耶·努霍",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-002",
+          "总经理 (Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000278": {
+      "name": "易卜拉希马·塞加·桑加雷 (Ibrahima Séga Sangaré)",
+      "name_zh": "易卜拉希马·塞加·桑加雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-002",
+          "董事会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000279": {
+      "name": "阿达马·科内 (Adama Koné)",
+      "name_zh": "阿达马·科内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-002",
+          "副总经理 (Directeur Général Adjoint)"
+        ]
+      ]
+    },
+    "CI-PERSON-000280": {
+      "name": "维南斯·科纳 (Venance Konan)",
+      "name_zh": "维南斯·科纳",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-002",
+          "前总经理 (Ancien Directeur Général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000281": {
+      "name": "维维亚娜·祖农·基普雷 (Viviane Zunon Kipré)",
+      "name_zh": "维维亚娜·祖农·基普雷",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-002",
+          "参议员，曾任董事会主席 (Sénatrice, ancienne Présidente du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000282": {
+      "name": "福塞尼·登贝莱 (Fausséni Dembélé)",
+      "name_zh": "福塞尼·登贝莱",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-003",
+          "社长 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000283": {
+      "name": "乌穆·瓦朗蒂娜·克洛迪娜·巴里·萨娜 (Oumou Valentine Claudine Barry épouse Sana)",
+      "name_zh": "乌穆·瓦朗蒂娜·克洛迪娜·巴里·萨娜",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-003",
+          "前社长 (Ancienne directrice générale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000284": {
+      "name": "帕斯卡尔·库阿奥 (Kouao Pascal)",
+      "name_zh": "帕斯卡尔·库阿奥",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-003",
+          "新闻副总监 (Sous-directeur de l'information)"
+        ]
+      ]
+    },
+    "CI-PERSON-000285": {
+      "name": "纳莫戈·索罗 (Soro Namogo)",
+      "name_zh": "纳莫戈·索罗",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-003",
+          "技术服务副总监 (Sous-directeur des services techniques)"
+        ]
+      ]
+    },
+    "CI-PERSON-000286": {
+      "name": "米蕾耶·库阿梅 (Mireille Kouamé)",
+      "name_zh": "米蕾耶·库阿梅",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-003",
+          "传播与营销副总监 (Sous-directrice de la communication et du marketing)"
+        ]
+      ]
+    },
+    "CI-PERSON-000287": {
+      "name": "安热·盖伊 (Ange Guéï)",
+      "name_zh": "安热·盖伊",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-004",
+          "总经理 (Directeur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000288": {
+      "name": "乔埃尔-法布里斯·阿奇 (Joël-Fabrice Achi)",
+      "name_zh": "乔埃尔-法布里斯·阿奇",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-004",
+          "图形动画总监 (Directeur des animations graphiques)"
+        ]
+      ]
+    },
+    "CI-PERSON-000294": {
+      "name": "库利巴利·瓦马拉 (Coulibaly Vamara)",
+      "name_zh": "库利巴利·瓦马拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-006",
+          "出版人 (Directeur de publication)"
+        ]
+      ]
+    },
+    "CI-PERSON-000299": {
+      "name": "达·莱昂斯·布鲁诺 (Léonce Bruno Da)",
+      "name_zh": "达·莱昂斯·布鲁诺",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-001",
+          "全国主席 (Président National)"
+        ]
+      ]
+    },
+    "CI-PERSON-000300": {
+      "name": "勒内·德尼-塞吉 (René Degni-Ségui)",
+      "name_zh": "勒内·德尼-塞吉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "创始人、首任主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000301": {
+      "name": "内特·威利·亚历山大 (Neth Willy Alexandre)",
+      "name_zh": "内特·威利·亚历山大",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "全国主席 (Président national)"
+        ]
+      ]
+    },
+    "CI-PERSON-000302": {
+      "name": "吉吉·维托·樊尚 (Guigui Veto Vincent)",
+      "name_zh": "吉吉·维托·樊尚",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "第一副主席 (1er Vice-président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000303": {
+      "name": "科纳特·曼帕 (Konaté Mampha)",
+      "name_zh": "科纳特·曼帕",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "第二副主席 (2ème Vice-présidente)"
+        ]
+      ]
+    },
+    "CI-PERSON-000304": {
+      "name": "库利巴利·昆沃洛 (Coulibaly Kounvolo)",
+      "name_zh": "库利巴利·昆沃洛",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "第三副主席 (3ème Vice-président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000305": {
+      "name": "阿胡伊·萨松·卡米耶 (Ahui Sasson Camille)",
+      "name_zh": "阿胡伊·萨松·卡米耶",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "秘书长 (Secrétaire général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000307": {
+      "name": "阿沃-比莱夫人 (Mme Avo-Bilé)",
+      "name_zh": "阿沃-比莱夫人",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-002",
+          "联盟机构主席 (Présidente des Organes)"
+        ]
+      ]
+    },
+    "CI-PERSON-000308": {
+      "name": "多米尼克·瓦塔拉 (Dominique Ouattara)",
+      "name_zh": "多米尼克·瓦塔拉",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-004",
+          "创始主席 (Présidente-Fondatrice)"
+        ]
+      ]
+    },
+    "CI-PERSON-000311": {
+      "name": "妮可·阿福 (Nicole Affo)",
+      "name_zh": "妮可·阿福",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-004",
+          "总秘书长 (Secrétaire générale)"
+        ]
+      ]
+    },
+    "CI-PERSON-000314": {
+      "name": "迪迪埃·德罗巴 (Didier Drogba)",
+      "name_zh": "迪迪埃·德罗巴",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-003",
+          "创始人兼主席 (Fondateur-Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000315": {
+      "name": "古苏·库杜·拉扎尔 (Lazare Goussou Koudou)",
+      "name_zh": "古苏·库杜·拉扎尔",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-007",
+          "执行主任 (Directeur Exécutif)"
+        ]
+      ]
+    },
+    "CI-PERSON-000316": {
+      "name": "诺埃尔·阿科西·邦乔 (Noël Akossi Bendjo)",
+      "name_zh": "诺埃尔·阿科西·邦乔",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-005",
+          "创始人兼首任主席 (Président-fondateur)"
+        ],
+        [
+          "CI-PARTY-002",
+          "总协调员 (Coordonnateur général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000317": {
+      "name": "阿塔纳斯·奥古·奥坎伊尼 (Athanase Ogou Okaingni)",
+      "name_zh": "阿塔纳斯·奥古·奥坎伊尼",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-005",
+          "副总干事 (Directeur Général Adjoint)"
+        ]
+      ]
+    },
+    "CI-PERSON-000321": {
+      "name": "库阿西·科南 (Kouassi KONAN)",
+      "name_zh": "库阿西·科南",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-008",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000322": {
+      "name": "让-皮埃尔·布兰 (Jean-Pierre BRIN)",
+      "name_zh": "让-皮埃尔·布兰",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-008",
+          "项目总监 (Directeur des Programmes)"
+        ]
+      ]
+    },
+    "CI-PERSON-000323": {
+      "name": "亚伯拉罕·约罗巴 (Abraham Yoroba)",
+      "name_zh": "亚伯拉罕·约罗巴",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-009",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000324": {
+      "name": "巴姆巴·德里萨 (Drissa Bamba)",
+      "name_zh": "巴姆巴·德里萨",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-010",
+          "管理委员会主席 (Président du Conseil d'Administration)"
+        ]
+      ]
+    },
+    "CI-PERSON-000325": {
+      "name": "佐罗-比·巴洛·埃皮法纳 (Epiphane Zoro-Bi Ballo)",
+      "name_zh": "佐罗-比·巴洛·埃皮法纳",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-010",
+          "前主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000326": {
+      "name": "库利巴利·布拉希马 (Coulibaly Brahima)",
+      "name_zh": "库利巴利·布拉希马",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-NGO-010",
+          "前秘书长 (ancien Secrétaire général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000327": {
+      "name": "吉尔贝·科内·卡法纳 (Gilbert Koné Kafana)",
+      "name_zh": "吉尔贝·科内·卡法纳",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-001",
+          "执行委员会主席 (Président du Directoire)"
+        ]
+      ]
+    },
+    "CI-PERSON-000331": {
+      "name": "内帕·伊雷·巴泰勒米 (Gnépa Iré Barthélémy)",
+      "name_zh": "内帕·伊雷·巴泰勒米",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-003",
+          "秘书长兼发言人 (Secrétaire général et porte-parole)"
+        ]
+      ]
+    },
+    "CI-PERSON-000332": {
+      "name": "让-热尔韦·谢代 (Jean-Gervais Tchéidé)",
+      "name_zh": "让-热尔韦·谢代",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "秘书长 (Secrétaire général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000333": {
+      "name": "阿杜·阿苏阿 (Adou Assoa / Assoa Adou)",
+      "name_zh": "阿杜·阿苏阿",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "第一副主席 (Premier vice-président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000334": {
+      "name": "于贝尔·乌拉耶 (Hubert Oulaye)",
+      "name_zh": "于贝尔·乌拉耶",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "第二副主席 (Deuxième vice-président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000335": {
+      "name": "埃马纽埃尔·阿卡 (Aka Emmanuel)",
+      "name_zh": "埃马纽埃尔·阿卡",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "第三副主席 (Troisième vice-président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000336": {
+      "name": "贾斯廷·科内·卡蒂南 (Justin Koné Katinan)",
+      "name_zh": "贾斯廷·科内·卡蒂南",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "第四副主席兼发言人 (Quatrième vice-président, porte-parole)"
+        ]
+      ]
+    },
+    "CI-PERSON-000337": {
+      "name": "塞巴斯蒂安·达诺·杰杰 (Sébastien Dano Djédjé)",
+      "name_zh": "塞巴斯蒂安·达诺·杰杰",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "战略与政治委员会主席 (Président du Conseil stratégique et politique)"
+        ]
+      ]
+    },
+    "CI-PERSON-000338": {
+      "name": "达马纳·皮卡斯 (Damana Pickass)",
+      "name_zh": "达马纳·皮卡斯",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "前秘书长 (ancien secrétaire général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000339": {
+      "name": "贾斯廷·库阿 (Justin Koua)",
+      "name_zh": "贾斯廷·库阿",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-005",
+          "前副秘书长 (ancien secrétaire général adjoint)"
+        ]
+      ]
+    },
+    "CI-PERSON-000340": {
+      "name": "弗朗西斯·沃迪埃 (Francis Wodié)",
+      "name_zh": "弗朗西斯·沃迪埃",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-008",
+          "创始人、前主席 (Fondateur, ancien président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000341": {
+      "name": "达尼埃尔·阿卡·阿希齐 (Daniel Aka Ahizi)",
+      "name_zh": "达尼埃尔·阿卡·阿希齐",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-008",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000342": {
+      "name": "约瑟夫·塞卡·塞卡 (Joseph Séka Séka)",
+      "name_zh": "约瑟夫·塞卡·塞卡",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-008",
+          "主席 (Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000343": {
+      "name": "卡里姆·法迪加 (Karim Fadiga)",
+      "name_zh": "卡里姆·法迪加",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-008",
+          "第一副主席 (Premier Vice-Président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000344": {
+      "name": "库阿西·梅尔莫兹 (Kouassi Mermoz)",
+      "name_zh": "库阿西·梅尔莫兹",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-008",
+          "秘书长 (Secrétaire général)"
+        ]
+      ]
+    },
+    "CI-PERSON-000345": {
+      "name": "亨利埃特·迪亚巴特 (Henriette Dagri Diabaté)",
+      "name_zh": "亨利埃特·迪亚巴特",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-004",
+          "主席 (Présidente)"
+        ]
+      ]
+    },
+    "CI-PERSON-000347": {
+      "name": "阿马杜·贡·库利巴利 (Amadou Gon Coulibaly)",
+      "name_zh": "阿马杜·贡·库利巴利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-004",
+          "第一副主席 (Premier vice-président)"
+        ]
+      ]
+    },
+    "CI-PERSON-000351": {
+      "name": "纪尧姆·索罗 (Guillaume Soro)",
+      "name_zh": "纪尧姆·索罗",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-PARTY-011",
+          "创始总书记、前总理"
+        ]
+      ]
+    },
+    "CI-PERSON-000352": {
+      "name": "夸梅·敦科·福特沃 (Kwame Donkoh Fordwor)",
+      "name_zh": "夸梅·敦科·福特沃",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000353": {
+      "name": "威拉·蒙贡巴 (Wila Mung'omba)",
+      "name_zh": "威拉·蒙贡巴",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-001",
+          "前任行长"
+        ]
+      ]
+    },
+    "CI-PERSON-000354": {
+      "name": "巴布卡尔·马内 (Baboucarr Manneh)",
+      "name_zh": "巴布卡尔·马内",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-003",
+          "总干事 (Director General)"
+        ]
+      ]
+    },
+    "CI-PERSON-000355": {
+      "name": "普雷姆·宾德拉班 (Prem Bindraban)",
+      "name_zh": "普雷姆·宾德拉班",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-003",
+          "副总干事 (Deputy Director General)"
+        ]
+      ]
+    },
+    "CI-PERSON-000357": {
+      "name": "菲利普·丰坦 (Philippe Fontayne)",
+      "name_zh": "菲利普·丰坦",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-002",
+          "国际可可理事会主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000358": {
+      "name": "毛里齐奥·杰利 (Maurizio Gelli)",
+      "name_zh": "毛里齐奥·杰利",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-002",
+          "国际可可理事会副主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000359": {
+      "name": "米米·蒙加·农比 (Mimy Monga Numbi)",
+      "name_zh": "米米·蒙加·农比",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-002",
+          "经济委员会代理主席兼副主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000361": {
+      "name": "梅琳·卡萨诺瓦·洛尔 (Merlyn Casanova Loor)",
+      "name_zh": "梅琳·卡萨诺瓦·洛尔",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-002",
+          "世界可可经济咨询委员会主席"
+        ]
+      ]
+    },
+    "CI-PERSON-000364": {
+      "name": "马马杜·迪奥普 (Mamadou Diop)",
+      "name_zh": "马马杜·迪奥普",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-INTL-006",
+          "副行长 (Vice-gouverneur)"
+        ]
+      ]
+    },
+    "CI-PERSON-000369": {
+      "name": "马克-加埃尔·阿努马 (Mac-Gaël Anouma)",
+      "name_zh": "马克-加埃尔·阿努马",
+      "importance": "medium",
+      "orgs": [
+        [
+          "CI-MEDIA-008",
+          "董事会主席兼总经理 (Président du Conseil d'administration et Directeur général)"
+        ]
+      ]
+    }
+  },
+  "merged_dupes": [
+    "CI-PERSON-000063 -> CI-PERSON-000001",
+    "CI-PERSON-000067 -> not in dispatch (merged)",
+    "CI-PERSON-000107 -> merged (not in dispatch)",
+    "CI-PERSON-000127 -> not in dispatch (trimmed)",
+    "CI-PERSON-000134 -> not in dispatch (trimmed)",
+    "CI-PERSON-000158 -> not in dispatch (trimmed)",
+    "CI-PERSON-000193 -> not in dispatch (trimmed)",
+    "CI-PERSON-000282 -> CI-PERSON-000037 (same person Fausseni Dembele, RTI ex-DG + AIP DG; kept 037)"
+  ]
+}

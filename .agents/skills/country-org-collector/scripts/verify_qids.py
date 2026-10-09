@@ -16,46 +16,70 @@ import sys; sys.stdout.reconfigure(encoding='utf-8'); sys.stderr.reconfigure(enc
 import json
 import os
 import time
+import urllib.error
 import urllib.request
 import urllib.parse
 
 from atomic_write import save_json, load_json, setup_proxy
 
-RATE_LIMIT = 5  # seconds between API calls
+RATE_LIMIT = 8  # seconds between API calls
+RATE_LIMIT_BACKOFF = (45, 90, 90)  # waits on HTTP 429 before giving up
+
+ENTITY_MISSING = "MISSING"  # sentinel: QID genuinely does not exist on Wikidata
+
+
+def _fetch_json(url, timeout=15):
+    """GET JSON with 429 backoff. Returns parsed dict, or None on persistent failure."""
+    waits = (None,) + tuple(RATE_LIMIT_BACKOFF)
+    for i, wait in enumerate(waits):
+        if wait is not None:
+            print(f"    RATE LIMITED (429), waiting {wait}s before retry {i}/{len(RATE_LIMIT_BACKOFF)}...")
+            time.sleep(wait)
+        req = urllib.request.Request(url, headers={"User-Agent": "ApecOsintTool/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                continue
+            print(f"    ERROR: {e}")
+            return None
+        except Exception as e:
+            print(f"    ERROR: {e}")
+            return None
+    print(f"    ERROR: persistent 429 rate limiting")
+    return None
 
 
 def fetch_entity(qid):
-    """Fetch entity labels from Wikidata to verify QID."""
+    """Fetch entity labels from Wikidata to verify QID.
+
+    Returns dict on success, ENTITY_MISSING if the QID does not exist,
+    None on API errors (must NOT be treated as an invalid QID).
+    """
     url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={qid}&format=json&props=labels|description"
-    req = urllib.request.Request(url, headers={"User-Agent": "ApecOsintTool/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-        entity = data.get("entities", {}).get(qid)
-        if not entity or "missing" in entity:
-            return None
-        return {
-            "en": entity.get("labels", {}).get("en", {}).get("value", ""),
-            "zh": entity.get("labels", {}).get("zh", {}).get("value", ""),
-            "desc": entity.get("descriptions", {}).get("en", {}).get("value", ""),
-        }
-    except Exception as e:
-        print(f"    ERROR: {e}")
+    data = _fetch_json(url)
+    if data is None:
         return None
+    entity = data.get("entities", {}).get(qid)
+    if not entity or "missing" in entity:
+        return ENTITY_MISSING
+    return {
+        "en": entity.get("labels", {}).get("en", {}).get("value", ""),
+        "zh": entity.get("labels", {}).get("zh", {}).get("value", ""),
+        "desc": entity.get("descriptions", {}).get("en", {}).get("value", ""),
+    }
 
 
 def search_entity(name_en):
     """Search Wikidata for the correct QID."""
     url = f"https://www.wikidata.org/w/api.php?action=wbsearchentities&search={urllib.parse.quote(name_en)}&language=en&format=json&limit=5"
-    req = urllib.request.Request(url, headers={"User-Agent": "ApecOsintTool/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-        results = data.get("search", [])
-        if results:
-            return results[0]["id"], results[0].get("label", ""), results[0].get("description", "")
-    except Exception as e:
-        print(f"    ERROR: {e}")
+    data = _fetch_json(url)
+    if data is None:
+        return None, None, None
+    results = data.get("search", [])
+    if results:
+        return results[0]["id"], results[0].get("label", ""), results[0].get("description", "")
     return None, None, None
 
 
@@ -130,15 +154,25 @@ def main():
 
         # Verify existing QID
         entity = fetch_entity(qid)
-        if not entity:
+        if entity is None:
+            # API error (e.g. persistent 429) — QID may well be valid, never replace it
+            print(f"[{i+1}/{len(targets)}] UNVERIFIED (API error): {name_en} QID={qid}")
+            failed += 1
+            time.sleep(RATE_LIMIT)
+            continue
+        if entity == ENTITY_MISSING:
             print(f"[{i+1}/{len(targets)}] INVALID: {name_en} QID={qid} does not exist")
-            # Search for correct QID
+            # Search for correct QID (only accept if name similarity is convincing)
             new_qid, label, desc = search_entity(name_en)
-            if new_qid:
+            if new_qid and name_similarity(name_en, label) >= 0.5:
                 print(f"  FIXED: {qid} -> {new_qid} ({label}: {desc})")
                 org["qid"] = new_qid
                 fixed += 1
+            elif new_qid:
+                print(f"  KEEP: search top hit '{label}' too dissimilar, keeping {qid}")
+                failed += 1
             else:
+                print(f"  NOT FOUND")
                 failed += 1
             time.sleep(RATE_LIMIT)
             continue

@@ -90,6 +90,9 @@ def build_index(output_dir):
             org_id = entry.get("org_id")
             if not org_id:
                 continue
+            # 已裁剪(trimmed)的组织不进入索引，防止子代理误引用已移除的 ID
+            if entry.get("status") == "trimmed":
+                continue
             for name in extract_names_from_registry_entry(entry):
                 if name and name not in index:
                     index[name] = org_id
@@ -97,6 +100,9 @@ def build_index(output_dir):
         for entry in registry.get("person_registry", []):
             person_id = entry.get("person_id")
             if not person_id:
+                continue
+            # 已合并(merged)的人物不进入索引，防止子代理引用已废弃的 ID
+            if entry.get("status") in ("merged", "trimmed"):
                 continue
             for name in extract_names_from_registry_entry(entry):
                 if name and name not in index:
@@ -142,6 +148,9 @@ def build_index(output_dir):
     for key_name in keys_snapshot:
         target_id = index[key_name]
         for component in decompose_name(key_name):
+            # 人物目标的单键分解（仅名或仅姓）歧义过大，曾致同名不同人误并，不入索引
+            if "-PERSON-" in target_id and " " not in component:
+                continue
             if component not in index:
                 index[component] = target_id
                 decomposed_added += 1
