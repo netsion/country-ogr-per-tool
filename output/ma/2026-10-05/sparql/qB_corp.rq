@@ -1,0 +1,13 @@
+SELECT ?org ?orgLabel ?orgDescription ?industryLabel ?employees ?revenue ?hqLabel ?ticker ?website
+WHERE {
+  ?org wdt:P17 wd:Q1028 .
+  ?org wdt:P31 ?type .
+  VALUES ?type { wd:Q4830453 wd:Q783794 }
+  OPTIONAL { ?org wdt:P452 ?industry . }
+  OPTIONAL { ?org wdt:P1128 ?employees . }
+  OPTIONAL { ?org wdt:P2139 ?revenue . }
+  OPTIONAL { ?org wdt:P159 ?hq . }
+  OPTIONAL { ?org wdt:P249 ?ticker . }
+  OPTIONAL { ?org wdt:P856 ?website . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" . }
+} LIMIT 300
