@@ -1,0 +1,222 @@
+{
+  "org_id": "LB-MEDIA-010",
+  "basic_info": {
+    "name_original": "Radio Lebanon",
+    "name_zh": "黎巴嫩国家广播电台",
+    "name_en": "Radio Lebanon",
+    "aliases": [
+      "Radio Liban",
+      "إذاعة لبنان",
+      "Radio Orient",
+      "Radio al-Sharq",
+      "Radio-Levant",
+      "الإذاعة اللبنانية"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "broadcaster",
+    "country_iso3": "LBN",
+    "hq_country_iso3": "LBN",
+    "founded_date": "1938-01-01",
+    "website": "http://www.radioliban.gov.lb/",
+    "wikidata_qid": "Q3416717"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "RadioLibanPage",
+      "url": "https://twitter.com/RadioLibanPage",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "RadioLibanPage",
+      "url": "https://facebook.com/RadioLibanPage",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "RadioLiban-FM",
+      "url": "https://www.youtube.com/@RadioLiban-FM",
+      "source": "official_website (radiooliban.gov.lb homepage subscribe link)"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官网在线直播（阿语主频道）",
+      "url": "http://www.radioliban.gov.lb/",
+      "description": "官方网站首页内嵌『البث المباشر』(直播) 音频播放器，提供阿语主频道实时流；网站另设当日节目单、晨间/午后新闻公报音频回听及最新节目集数栏目。",
+      "source": "official_website"
+    },
+    {
+      "name": "外语频道 96.2 FM 子站",
+      "url": "https://fr.radioliban.gov.lb",
+      "description": "Radio Liban 96.2 FM (以法语为主的外语频道) 官方子站，由主站首页『Radio Liban 96.2 FM』链接进入，提供该频道在线收听。",
+      "source": "official_website"
+    },
+    {
+      "name": "YouTube 官方频道",
+      "url": "https://www.youtube.com/@RadioLiban-FM",
+      "description": "电台官方 YouTube 频道 (@RadioLiban-FM)，用于节目视频分发，主站首页设有订阅入口。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "LB-PERSON-000296",
+      "name": "穆罕默德·加里布 (محمد غريب)",
+      "title": "台长（总经理）",
+      "title_description": "Radio Liban 台长/总经理，作为新闻部下属局级单位的最高负责人，主管电台运营、人事与编辑事务",
+      "description": "Media Ownership Monitor 黎巴嫩卷（引自电台官网『关于我们』页，lebanon.mom-gmr.org）记载其为电台总经理；State Media Monitor 2025/26 评估周期报告（statemediamonitor.com）确认其持续担任台长且周期内无领导层变动。2026年2月20日新闻部长视察电台档案库时以台长身份陪同（rnewslb.com 报道）。"
+    },
+    {
+      "person_id": "LB-PERSON-000132",
+      "name": "丽塔·纳吉姆·鲁米 (ريتا نجيم الرومي)",
+      "title": "节目总监",
+      "title_description": "电台节目总监（Programs Director），负责新闻、文化、社会类各档节目的编排与制作管理",
+      "description": "Media Ownership Monitor 黎巴嫩卷（lebanon.mom-gmr.org）记载其为电台节目总监；2026年2月20日新闻部长视察电台档案库的黎巴嫩媒体报道（rnewslb.com）中亦以其节目总监身份在列。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "阿拉伯语综合频道",
+      "dept_id": "LB-MEDIA-010-DEPT-001",
+      "head": null,
+      "description": "主频道，通过 98.1 FM 与 98.5 FM 播出新闻、谈话与音乐节目，以阿语为主；历史上以 836 kHz 中波覆盖黎全境及周边地区。发射台位于巴鲁克山 (Barouk)、艾托山 (Aito) 和比克法亚附近的纳斯 (Naas)，并在贝特梅里 (Beit Mery)、巴勒贝克 (Baalbeck) 与南黎巴嫩贾巴尔萨菲 (Jabal Safi) 设转播天线。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "外语频道",
+      "dept_id": "LB-MEDIA-010-DEPT-002",
+      "head": null,
+      "description": "通过 96.2 FM 播出，以法语节目为主，兼有英语和亚美尼亚语节目，并转播法国国际广播电台 (RFI) 的法语新闻节目；2003 年与 RFI 合作设立两个法语演播室。历史上曾使用 989 kHz 中波。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "节目部",
+      "dept_id": "LB-MEDIA-010-DEPT-003",
+      "head": "丽塔·纳吉姆·鲁米 (ريتا نجيم الرومي)",
+      "description": "负责日常节目编排制作，涵盖新闻报摘（如『صحافة اليوم』今日报界）、社会生活（如『صباحكم ورد』）、文化、自然与戏剧类栏目；官网设完整节目时间表。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "录音资料馆",
+      "dept_id": "LB-MEDIA-010-DEPT-004",
+      "head": null,
+      "description": "被 Media Ownership Monitor 评为中东最丰富的广播录音资料馆之一，保存黎巴嫩及阿拉伯艺术家黄金时代在该台录音室录制的数千个节目、音乐与歌曲录音；台内设有以著名歌手费鲁兹命名的录音室。2007 年由瑞士 Studer 公司为七个阿语演播室更新设备；2026 年 2 月新闻部要求加速完成档案数字化。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2022-07-14",
+      "title": "国家媒体员工举行为期两日罢工",
+      "description": "受黎巴嫩经济崩溃影响，国家媒体机构（含 Radio Liban 与国家通讯社 NNA）员工自 7 月 14 日起举行为期两天的罢工，抗议工作与生活条件持续恶化、薪资困境。",
+      "impact": "官方广播与新闻服务短暂中断，凸显国家媒体长期经费不足与欠薪问题，成为其后评估该台经济脆弱性的标志性先例。",
+      "source": "https://english.news.cn/20220715/4d17b62f150b4484ba165276867646f3/c.html; https://statemediamonitor.com/2026/06/radio-liban/"
+    },
+    {
+      "date": "2026-02-20",
+      "title": "新闻部长视察电台档案库并部署数字化收尾与安全升级",
+      "description": "新闻部长保罗·马尔科斯 (Paul Morcos) 视察 Radio Liban 档案库，新闻部总司长哈桑·法拉哈 (Hassan Falha)、电台台长穆罕默德·加里布、节目总监丽塔·纳吉姆·鲁米陪同；部长要求完善公共安全与警报防护系统并定期检测更新，指示未来数月内通过增派班次加速完成档案数字化，以保护国家广播遗产并保障电台知识产权。",
+      "impact": "档案数字化工程提速、库房安全条件获升级；被视为 2025/26 周期内新闻部对国家台技术与档案状况重新关注的标志，但未伴随治理或拨款改革。",
+      "source": "https://rnewslb.com/index.php/2026/02/20/%d9%85%d8%b1%d9%82%d8%b5-%d9%8a%d8%b7%d9%84%d9%82-%d8%ae%d8%b7%d8%a9-%d8%b1%d9%82%d9%85%d9%86%d8%a9-%d8%a3%d8%b1%d8%b4%d9%8a%d9%81-%d8%a5%d8%b0%d8%a7%d8%b9%d8%a9-%d9%84%d8%a8%d9%86%d8%a7%d9%86/; https://www.elnashra.com/news/show/1762757/; https://statemediamonitor.com/2026/06/radio-liban/"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "政府指令官方媒体调整真主党相关内容报道口径",
+      "description": "在真主党 2026 年 3 月未经国家批准发动军事行动升级、内阁决定重申国家对战争与和平决策权后，新闻部长保罗·马尔科斯指示官方媒体（国家通讯社、黎巴嫩电视台及作为新闻部属台的 Radio Liban 等）遵守政府决定：限制播出真主党讲话及武装派别声明、避免逐字发布，除直接引语外停用『伊斯兰抵抗』等特定称谓；国家媒体随后停播真主党总书记纳伊姆·卡西姆 (Naim Qassem) 的最新讲话。",
+      "impact": "作为政府官方传播渠道的 Radio Liban 编辑方针进一步受行政指令约束，对真主党相关内容的报道空间收窄；引发关于官方媒体话语空间的公开讨论。",
+      "source": "https://www.jpost.com/middle-east/article-890129; https://statemediamonitor.com/2026/06/radio-liban/; https://www.arabnews.com/node/2636193/amp; https://en.al-akhbar.com/news/government-moves-to-strip-resistance-from-state-coverage"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "LB-GOV-015",
+      "org_name": "黎巴嫩新闻部 (Ministry of Information)",
+      "org_type": "GOV",
+      "org_description": "黎巴嫩政府信息主管部门。Radio Liban 直接隶属该部，为部内局级建制单位（directorate），部长对电台的内容制作、人事与日常运营行使直接监督权并通过部补贴供款；2025 年 2 月起部长为保罗·马尔科斯。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "LB-MEDIA-005",
+      "org_name": "黎巴嫩电视台 (Télé Liban)",
+      "org_type": "MEDIA",
+      "org_description": "黎巴嫩国家电视台，与 Radio Liban 同属官方媒体体系并同受新闻部监管；不同于电台的部内局级建制，其采用国有公司制（设主席与董事会），2025 年 7 月任命主席兼台长。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "LB-MEDIA-018",
+      "org_name": "黎巴嫩国家通讯社 (National News Agency)",
+      "org_type": "MEDIA",
+      "org_description": "同属新闻部框架下的官方通讯社；2022 年 7 月曾与 Radio Liban 等国家媒体共同罢工，2026 年 3 月官方媒体真主党报道指令中被公开点名为执行对象。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "LB-MEDIA-029",
+      "org_name": "法国国际广播电台 (Radio France Internationale, RFI)",
+      "org_type": "MEDIA",
+      "org_description": "法国公共国际广播机构。2003 年起与 Radio Liban 建立合作，为其 96.2 FM 频道设立两个法语演播室；Radio Liban 外语频道转播其法语新闻节目。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "LB-GOV-043",
+      "org_name": "黎巴嫩国家 (Lebanese State)",
+      "org_type": "GOV",
+      "org_description": "电台唯一所有者（据 Media Ownership Monitor 持股 100%）。电台为非商业电台，除公益公告外不播商业广告，经费完全依赖经新闻部拨付的国家补贴，长期经费不足。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "LB-INTL-014",
+      "org_name": "亚太广播联盟 (Asia-Pacific Broadcasting Union, ABU)",
+      "org_type": "INTL",
+      "org_description": "地区性广播电视专业联盟。据维基百科记载，Radio Lebanon 为该联盟成员。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "Radio Lebanon（通称 Radio Liban，阿拉伯语 إذاعة لبنان）是黎巴嫩共和国的国家公共广播电台，也是阿拉伯世界最古老、最具开创性的广播电台之一。机构直接隶属黎巴嫩新闻部，为部内局级建制单位（directorate），而非独立法人公共机构，与公司制的国家电视台 Télé Liban 形成体制差异。其前身为 1938 年（一说筹建于 1933-1934 年）法国委任统治时期在埃米尔·埃德总统任内创办的 Radio Orient（Radio al-Sharq），台址设于贝鲁特大塞里斯尔宫；1946 年黎巴嫩独立后政府从法国委任当局接收电台，先后更名『黎巴嫩电台』（الإذاعة اللبنانية），1970 年代起启用现名，1950 年代末迁入贝鲁特萨纳耶 (Sanayeh) 区（现址为新闻部大楼）。现设阿语综合频道（98.1/98.5 FM，新闻、谈话与音乐）与外语频道（96.2 FM，以法语为主，兼英语、亚美尼亚语，并转播法国国际广播电台节目），另以阿、法、英、西、葡五种语言每天约 12 小时面向海外侨民及国际听众播出；历史上曾以 836 kHz、989 kHz 中波覆盖全境及邻国，发射台位于巴鲁克山等地并设多处转播天线。作为非商业电台，除公益公告外不播出商业广告，内容以反映政府官方路线为主，同时对国内各主流政治力量及泛阿拉伯与国际事务保持中立立场。其录音资料馆被视为中东最丰富的广播资料馆之一，是研究黎巴嫩及阿拉伯音乐与广播史的重要资源；经费完全依赖国家补贴，长期经费不足制约运营。",
+  "industries": [
+    "broadcasting"
+  ],
+  "apec_stance": null,
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/9/92/Radio-Liban-logo.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Radio Liban - Media Ownership Monitor Lebanon",
+        "url": "https://lebanon.mom-gmr.org/en/media/detail/outlet/radio-liban-3/"
+      },
+      {
+        "title": "Radio Liban - State Media Monitor (2026 cycle)",
+        "url": "https://statemediamonitor.com/2026/06/radio-liban/"
+      },
+      {
+        "title": "مرقص يطلق خطة رقمنة أرشيف 'إذاعة لبنان' (R News LB, 2026-02-20)",
+        "url": "https://rnewslb.com/index.php/2026/02/20/%d9%85%d8%b1%d9%82%d8%b5-%d9%8a%d8%b7%d9%84%d9%82-%d8%ae%d8%b7%d8%a9-%d8%b1%d9%82%d9%85%d9%86%d8%a9-%d8%a3%d8%b1%d8%b4%d9%8a%d9%81-%d8%a5%d8%b0%d8%a7%d8%b9%d8%a9-%d9%84%d8%a8%d9%86%d8%a7%d9%86/"
+      },
+      {
+        "title": "Lebanon orders official media to stop calling Hezbollah 'resistance' - The Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/article-890129"
+      },
+      {
+        "title": "Radio Lebanon - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Radio_Lebanon"
+      }
+    ],
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website (radioliban.gov.lb)",
+      "media_ownership_monitor (lebanon.mom-gmr.org)",
+      "state_media_monitor (statemediamonitor.com)",
+      "lebanese_news_media (rnewslb.com, elnashra.com)",
+      "international_news_media (jpost.com, arabnews.com, al-akhbar english, xinhua)"
+    ],
+    "completeness_score": 72,
+    "notes": "Phase 3 enrichment: multilingual (EN/FR/AR) open-source collection. History 1938 Radio Orient origin cross-confirmed by MOM/State Media Monitor/L'Orient-Le Jour; directorate status and director Mohammad Gharib confirmed by MOM + SMM + Feb 2026 Lebanese press; frequencies 98.1/98.5/96.2 FM confirmed by Wikipedia + SMM + official website. Unregistered persons (director, programs director) and orgs (RFI, Lebanese State, ABU) left with null IDs per ID rules. APEC not applicable (Lebanon is not an APEC member economy)."
+  }
+}

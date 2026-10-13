@@ -3,7 +3,7 @@
     "collection_date": "2026-07-24",
     "phase": "phase5_validation",
     "country": "HK",
-    "total_profiles": 563
+    "total_profiles": 565
   },
   "profiles": [
     {
@@ -104,6 +104,17 @@
       "current_title": null,
       "completeness_score": 56,
       "file": "HK-PERSON-000031.json"
+    },
+    {
+      "person_id": "HK-PERSON-000045",
+      "wikidata_qid": "Q23626",
+      "name_en": "Albert Ho Chun-yan",
+      "name_zh": "何俊仁",
+      "gender": "male",
+      "importance_level": "low",
+      "current_title": "已解散的香港市民支援爱国民主运动联合会前副主席",
+      "completeness_score": 52,
+      "file": "HK-PERSON-000045.json"
     },
     {
       "person_id": "HK-PERSON-000101",
@@ -6198,16 +6209,27 @@
       "current_title": "乐施会香港司库（2022年起）",
       "completeness_score": 57,
       "file": "HK-PERSON-001474.json"
+    },
+    {
+      "person_id": "HK-PERSON-001475",
+      "wikidata_qid": "Q105718403",
+      "name_en": "Chow Hang-tung",
+      "name_zh": "邹幸彤",
+      "gender": "female",
+      "importance_level": "low",
+      "current_title": "已解散的香港市民支援爱国民主运动联合会前副主席",
+      "completeness_score": 50,
+      "file": "HK-PERSON-001475.json"
     }
   ],
   "completeness_summary": {
     "avg_score": 56,
     "high_completeness_gt80": 3,
-    "medium_completeness_50_80": 399,
+    "medium_completeness_50_80": 401,
     "low_completeness_lt50": 161
   },
   "by_importance_level": {
-    "low": 558,
+    "low": 560,
     "high": 2,
     "medium": 3
   }

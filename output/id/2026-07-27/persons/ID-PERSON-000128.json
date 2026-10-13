@@ -3,80 +3,485 @@
   "wikidata_qid": "Q2107268",
   "name": "Prabowo Subianto",
   "name_en": "Prabowo Subianto",
-  "name_local": "Prabowo Subianto Djojohadikusumo",
   "name_zh": "普拉博沃·苏比延多",
-  "name_ms": "Prabowo Subianto",
-  "aliases": [],
+  "aliases": [
+    "Prabowo Subianto Djojohadikusumo",
+    "Prabowo Soebianto",
+    "普拉博沃·蘇比安托",
+    "Pandu"
+  ],
   "nationality": "ID",
   "gender": "male",
   "birth_date": "1951-10-17",
-  "birth_place": null,
-  "contacts": [],
-  "current_positions": [
-    "印度尼西亚国防部长",
-    "印度尼西亚总统",
-    "陆军战略预备部队司令",
-    "特种部队司令",
-    "Commander of Group 3 特种部队"
-  ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "birth_place": "Jakarta, Indonesia",
+  "contacts": [
     {
-      "org_id": "ID-PARTY-008",
-      "org_name": "Partai Gerakan Indonesia Raya",
-      "title": "Chairperson",
-      "relationship": "key_personnel",
-      "source": "org_key_people"
-    },
-    {
-      "org_id": "ID-ACAD-003",
-      "org_name": "Universitas Al Azhar Indonesia",
-      "title": "President of Indonesia",
-      "relationship": "key_personnel",
-      "source": "manual_curated_binding"
+      "type": "website",
+      "value": "https://prabowosubianto.com/",
+      "source": "Wikipedia (id) 信息框"
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "current_positions": [
+    "印度尼西亚总统（第8任）",
+    "大印尼运动党总主席",
+    "大印尼运动党指导委员会主席"
+  ],
+  "education": [
+    {
+      "institution": "维多利亚学院 (Victoria Institution)",
+      "degree": "high_school",
+      "field": null,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "伦敦美国学校 (American School in London)",
+      "degree": "high_school",
+      "field": null,
+      "start_date": "1966",
+      "end_date": "1968"
+    },
+    {
+      "institution": "印度尼西亚军事学院 (Akademi Militer/AKABRI)",
+      "degree": "other",
+      "field": "军事",
+      "start_date": "1970",
+      "end_date": "1974"
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": "1974",
+      "end_date": "1998",
+      "organization": "印度尼西亚国民军陆军 (TNI Angkatan Darat)",
+      "org_id": null,
+      "position": "职业军官（长期服役于特种部队，最终现役军衔中将，1998年11月退役，2024年2月获荣誉上将军衔）"
+    },
+    {
+      "start_date": "1995-12-01",
+      "end_date": "1998-03-20",
+      "organization": "印尼陆军特种部队司令部 (Kopassus)",
+      "org_id": null,
+      "position": "总指挥（第15任）"
+    },
+    {
+      "start_date": "1998-03-20",
+      "end_date": "1998-05-22",
+      "organization": "印尼陆军战略预备部队司令部 (Kostrad)",
+      "org_id": null,
+      "position": "司令（第22任）"
+    },
+    {
+      "start_date": "1998",
+      "end_date": null,
+      "organization": "努山塔拉集团 (Nusantara Group)",
+      "org_id": null,
+      "position": "企业家（收购纸浆企业Kiani Kertas并更名Kertas Nusantara，集团控制印尼国内外约27家公司，涵盖能源、棕榈油、渔业等）"
+    },
+    {
+      "start_date": "2004-12-05",
+      "end_date": null,
+      "organization": "印度尼西亚农民互助会 (HKTI)",
+      "org_id": null,
+      "position": "主席（2010年连任）"
+    },
+    {
+      "start_date": "2004",
+      "end_date": null,
+      "organization": "印度尼西亚全国班卡西拉协会 (IPSI)",
+      "org_id": null,
+      "position": "主席（2004年起连续三届当选，2018年亚运会班卡西拉项目贡献14枚金牌）"
+    },
+    {
+      "start_date": "2004",
+      "end_date": null,
+      "organization": "国际班卡西拉联合会 (IPSF)",
+      "org_id": null,
+      "position": "主席"
+    },
+    {
+      "start_date": "2008",
+      "end_date": null,
+      "organization": "印度尼西亚传统市场商贩协会 (APPSI)",
+      "org_id": null,
+      "position": "主席"
+    },
+    {
+      "start_date": "2008-02-06",
+      "end_date": null,
+      "organization": "大印尼运动党 (Partai Gerakan Indonesia Raya/Gerindra)",
+      "org_id": "ID-PARTY-008",
+      "position": "指导委员会主席（创党元老）"
+    },
+    {
+      "start_date": "2014-09-20",
+      "end_date": null,
+      "organization": "大印尼运动党 (Partai Gerakan Indonesia Raya/Gerindra)",
+      "org_id": "ID-PARTY-008",
+      "position": "总主席（第2任，继任已故的苏哈尔迪，现任）"
+    },
+    {
+      "start_date": "2019-10-23",
+      "end_date": "2024-10-20",
+      "organization": "印度尼西亚国防部 (Kementerian Pertahanan Republik Indonesia)",
+      "org_id": null,
+      "position": "国防部长（第26任，佐科·维多多内阁）"
+    },
+    {
+      "start_date": "2024-10-20",
+      "end_date": null,
+      "organization": "红白内阁 (Kabinet Merah Putih)",
+      "org_id": "ID-GOV-027",
+      "position": "印度尼西亚总统（第8任，兼武装力量最高统帅）"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "ID-PERSON-000002",
+      "person_name": "吉布兰·拉卡布明·拉卡 (Gibran Rakabuming Raka)",
+      "relationship_type": "political_ally",
+      "description": "2024年总统选举竞选搭档、现任副总统（前总统佐科长子）；普拉博沃-吉布兰组合以58.59%得票率一轮胜选，二者年龄差创印尼正副总统之最"
+    },
+    {
+      "person_id": "ID-PERSON-000003",
+      "person_name": "佐科·维多多 (Joko Widodo)",
+      "relationship_type": "colleague",
+      "description": "2014年、2019年两度总统选举中击败普拉博沃的对手；2019年10月起邀其加入内阁出任国防部长（2019-2024同僚）；2024年普拉博沃与佐科长子吉布兰搭档参选并胜出，被视为政治和解与结盟"
+    },
+    {
+      "person_id": "ID-PERSON-000325",
+      "person_name": "西蒂·赫迪亚蒂·哈里亚迪 (Siti Hediati Hariyadi/Titiek Soeharto)",
+      "relationship_type": "spouse",
+      "description": "前总统苏哈托次女，1983年5月8日结婚，1998年苏哈托下台后分居（未正式离婚），育有一子"
+    },
+    {
+      "person_id": "ID-PERSON-000324",
+      "person_name": "哈希姆·佐约哈迪库苏莫 (Hashim Djojohadikusumo)",
+      "relationship_type": "sibling",
+      "description": "唯一的弟弟（1953年生），印尼最富有的企业家之一，大印尼运动党共同创始人与主要金主；普拉博沃1998年退役后加入其商业集团"
+    },
+    {
+      "person_id": "ID-PERSON-000030",
+      "person_name": "梅加瓦蒂·苏加诺普特里 (Megawati Soekarnoputri)",
+      "relationship_type": "political_ally",
+      "description": "2009年总统选举搭档（媒体称Mega-Pro组合），签署《石碑协议》，获约27%选票败给苏西洛；2014、2019年大选后两人阵营转为对手"
+    },
+    {
+      "person_id": "ID-PERSON-000014",
+      "person_name": "桑迪亚加·乌诺 (Sandiaga Uno)",
+      "relationship_type": "political_ally",
+      "description": "2019年总统选举竞选搭档（普拉博沃-桑迪组合），败给连任的佐科-马鲁夫组合"
+    },
+    {
+      "person_id": "ID-PERSON-000040",
+      "person_name": "苏哈托 (Suharto)",
+      "relationship_type": "in_law",
+      "description": "前岳父（1983-1998为其女婿）、印尼第2任总统；1998年5月苏哈托辞职前，普拉博沃被视为其潜在接班人之一；其执政风格被批评者指有复兴「新秩序」之嫌"
+    },
+    {
+      "person_id": "ID-PERSON-000064",
+      "person_name": "维兰托 (Wiranto)",
+      "relationship_type": "colleague",
+      "description": "1998年任武装部队司令，主持军官荣誉议会对普拉博沃在绑架活动人士案中「误读命令」的认定并办理其退役；2019-2024两人同列佐科内阁"
+    },
+    {
+      "person_id": "ID-PERSON-000008",
+      "person_name": "斯莉·穆尔雅妮 (Sri Mulyani Indrawati)",
+      "relationship_type": "colleague",
+      "description": "红白内阁首任财政部长（自上届内阁留任），2025年9月8日内阁改组中被撤换"
+    },
+    {
+      "person_id": "ID-PERSON-000655",
+      "person_name": "普尔巴亚·尤迪·萨德瓦 (Purbaya Yudhi Sadewa)",
+      "relationship_type": "subordinate",
+      "description": "2025年9月8日至2026年9月14日任财政部长，主张「流动性优先」的宽松财政路线；后被副财长苏阿哈西尔·纳扎拉接替，为普拉博沃任内第五次内阁改组"
+    },
+    {
+      "person_id": "ID-PERSON-000177",
+      "person_name": "法德利·宗 (Fadli Zon)",
+      "relationship_type": "political_ally",
+      "description": "大印尼运动党共同创始人、党副主席、国会议员，自1998年退役后延续至今的长期政治盟友"
+    },
+    {
+      "person_id": "ID-PERSON-000013",
+      "person_name": "埃里克·托希尔 (Erick Thohir)",
+      "relationship_type": "colleague",
+      "description": "红白内阁国有企业部长、Danantara主权财富基金投资管理机构（BPI Danantara）首席执行官；2022年任国企部长期间与普拉博沃共同推动国防工业控股Defend ID整合"
+    },
+    {
+      "person_id": "ID-PERSON-000409",
+      "person_name": "苏米特罗·佐约哈迪库苏莫 (Soemitro Djojohadikoesoemo)",
+      "relationship_type": "parent",
+      "description": "父亲（1917-2001），著名经济学家，曾任苏加诺政府经济部长、苏哈托政府研究与技术部长；1960年代因与苏加诺政见分歧携家流亡海外"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": "ID-PERSON-000325",
+      "name": "西蒂·赫迪亚蒂·哈里亚迪 (Siti Hediati Hariyadi)",
+      "relationship": "spouse",
+      "industry_or_organization": "前总统苏哈托次女（1983年结婚，1998年分居）"
+    },
+    {
+      "person_id": null,
+      "name": "拉戈沃·赫迪普拉塞蒂奥 (Ragowo Hediprasetyo/Didit)",
+      "relationship": "son",
+      "industry_or_organization": "时装设计师（1984年3月生，定居巴黎）"
+    },
+    {
+      "person_id": "ID-PERSON-000409",
+      "name": "苏米特罗·佐约哈迪库苏莫 (Soemitro Djojohadikoesoemo)",
+      "relationship": "father",
+      "industry_or_organization": "经济学家，曾任经济部长、研究与技术部长"
+    },
+    {
+      "person_id": null,
+      "name": "多拉·玛丽·西加尔 (Dora Marie Sigar)",
+      "relationship": "mother",
+      "industry_or_organization": "北苏拉威西米纳哈萨与德裔新教家庭（1919-2008）"
+    },
+    {
+      "person_id": "ID-PERSON-000324",
+      "name": "哈希姆·佐约哈迪库苏莫 (Hashim Djojohadikusumo)",
+      "relationship": "brother",
+      "industry_or_organization": "企业家（努山塔拉集团等，大印尼运动党主要金主）"
+    },
+    {
+      "person_id": null,
+      "name": "比安蒂·佐约哈迪库苏莫 (Bianti Djojohadikusumo)",
+      "relationship": "sister",
+      "industry_or_organization": "配偶为印尼央行前行长苏德拉贾德·吉万多诺（1993-1998在任）"
+    },
+    {
+      "person_id": null,
+      "name": "玛丽亚妮·佐约哈迪库苏莫 (Maryani Djojohadikusumo)",
+      "relationship": "sister",
+      "industry_or_organization": "配偶为法国企业家迪迪埃·勒迈斯特（2018年去世）"
+    },
+    {
+      "person_id": "ID-PERSON-000040",
+      "name": "苏哈托 (Suharto)",
+      "relationship": "father_in_law",
+      "industry_or_organization": "印度尼西亚第2任总统（1967-1998在任）"
+    },
+    {
+      "person_id": "ID-PERSON-000729",
+      "name": "布迪·吉万多诺 (Budisatrio Djiwandono)",
+      "relationship": "other",
+      "industry_or_organization": "侄子，大印尼运动党籍国会议员、国会副议长"
+    },
+    {
+      "person_id": null,
+      "name": "托马斯·吉万多诺 (Thomas Djiwandono)",
+      "relationship": "other",
+      "industry_or_organization": "侄子，红白内阁财政部副部长"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2020",
+      "topic": "国防战略（全民战争学说）",
+      "stance_content": "任国防部长期间推行「全民战争」（perang total rakyat）国防学说，2021年10月7日组建后备役组件（Komponen Cadangan），推动以国防预算锚定GDP0.8%为基础的长期军备现代化，采购阵风战机、F-15EX、A400M运输机、Arrowhead 140护卫舰等装备",
+      "source": "Wikipedia (en/id)"
+    },
+    {
+      "date": "2020",
+      "topic": "粮食主权（粮食庄园计划）",
+      "stance_content": "受佐科委托主导中加里曼丹国家粮食庄园计划（2020年起约3万公顷，2021年扩至4.4万公顷），强调国防部仅扮演支持角色，主张跨部门协同实现国家粮食安全",
+      "source": "Wikipedia (en/id)"
+    },
+    {
+      "date": "2022-06-14",
+      "topic": "南海问题与不结盟外交",
+      "stance_content": "在香格里拉对话表示印尼尊重南海各相关方利益，引用曼德拉名言「你的敌人不必成为我们的敌人」；对AUKUS主张系相关国主权范围内的防御安排；2022年1月美方称其视中国在南海的行动违反国际法，其后被中国外交部发言人及普拉博沃本人否认，他强调印尼与中美俄均保持良好关系、坚持不结盟立场",
+      "source": "IISS Shangri-La Dialogue 2022；Wikipedia (en)"
+    },
+    {
+      "date": "2023-06-03",
+      "topic": "俄乌战争和平方案",
+      "stance_content": "在香格里拉对话提出结束俄乌战争的多点和平计划：立即停火、双方后撤15公里建立非军事区、争议地区由联合国主持公投；遭乌克兰防长斥为「俄罗斯的计划」，欧盟与斗争民主党亦批评，中方表示赞赏；佐科其后澄清该方案仅为开放对话中的个人建议、不代表印尼官方立场",
+      "source": "IISS Shangri-La Dialogue 2023；Wikipedia (en/id)"
+    },
+    {
+      "date": "2023-11",
+      "topic": "经济思想（潘查希拉经济/第三条道路）",
+      "stance_content": "在INDEF智库演讲中主张印尼需要资本主义与社会主义之间的中间道路，即哈比比所期望的「潘查希拉经济」，明确反对新自由主义",
+      "source": "Wikipedia (en)"
+    },
+    {
+      "date": "2023-11",
+      "topic": "外交方向再平衡与BRICS",
+      "stance_content": "提出印尼外交应「再平衡」：过去数十年偏向西方，应向中国、印度、日本、韩国等东方国家学习；对印尼加入BRICS持开放态度，称BRICS是经济集团而非地缘政治集团",
+      "source": "Wikipedia (en)"
+    },
+    {
+      "date": "2024-04-26",
+      "topic": "巴以冲突与对西方双重标准的批评",
+      "stance_content": "在《经济学人》撰文批评西方在加沙问题上的「道德危机」与双重标准，质问「杀害巴勒斯坦平民为何比杀害乌克兰平民更不值得谴责」；主张两国方案，表示巴勒斯坦完全独立后印尼才承认以色列，并个人捐款50亿盾援助巴勒斯坦",
+      "source": "The Economist；Wikipedia (en)"
+    },
+    {
+      "date": "2024-06-02",
+      "topic": "加沙维和与人道援助",
+      "stance_content": "在香格里拉对话表示若联合国授权，印尼愿向加沙派遣「2万甚至更多」维和人员，并准备尽快接收和治疗多达1000名巴勒斯坦伤员；2025年11月联合国大会演讲中重申这一承诺",
+      "source": "IISS Shangri-La Dialogue 2024；Wikipedia (en)"
+    },
+    {
+      "date": "2024-12-31",
+      "topic": "增值税政策",
+      "stance_content": "面对工会与公众对增值税从11%上调至12%的抗议，宣布12%税率仅适用于游艇、私人飞机、豪宅等奢侈品，其余商品服务维持原税率",
+      "source": "Wikipedia (en)"
+    },
+    {
+      "date": "2025-01",
+      "topic": "预算效率与免费营养餐（MBG）",
+      "stance_content": "以2025年第1号总统指令削减306.6万亿盾非必要开支，转投免费营养餐（Makan Bergizi Gratis）等民生计划；MBG于2025年1月6日在26省启动，由国家营养局执行，目标覆盖8290万学龄儿童与孕产妇，被视为「黄金印尼2045」愿景的人力资源支柱；2026年该计划因腐败案件与成本问题（当年预算近150亿美元）接受整顿，营养局负责人两度更迭",
+      "source": "Wikipedia (en)；Reuters；The Diplomat"
+    },
+    {
+      "date": "2025-06",
+      "topic": "经济民族主义（国家资本主义模式）",
+      "stance_content": "在圣彼得堡国际经济论坛称「30年来新自由主义与自由市场思维占主导，但许多印尼人未享有公平机会」，宣示回归国家资本主义模式；确立粮食自给、能源自给、教育质量提升、加速工业化四大战略优先，并要求自然资源财富必须首先惠及人民",
+      "source": "St. Petersburg International Economic Forum 2025；Wikipedia (en)"
+    },
+    {
+      "date": "2025-09",
+      "topic": "对巴以关系正常化的条件",
+      "stance_content": "在第80届联合国大会演讲中重申：只有以色列承认巴勒斯坦为独立国家，印尼才承认以色列；同时盛赞法、英、葡等国承认巴勒斯坦，敦促尚未承认的国家尽快行动，演讲获国内跨党派肯定并引起国际关注",
+      "source": "第80届联合国大会；Wikipedia (en)"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "1974",
+      "achievement": "毕业于印度尼西亚军事学院（AKABRI），与苏西洛等同届或近届学员日后同列军中高层",
+      "organization": "印度尼西亚军事学院 (Akademi Militer)"
+    },
+    {
+      "date": "1996",
+      "achievement": "指挥巴布亚马平朱马（Mapenduma）人质解救行动，成功营救被「自由巴布亚运动」劫持的11名科学考察人员（行动后续对涉嫌支持OPM村庄的报复行动引发人权争议）",
+      "organization": "印尼陆军特种部队司令部 (Kopassus)"
+    },
+    {
+      "date": "2008-02",
+      "achievement": "与法德利·宗、弟弟哈希姆等人共同创立大印尼运动党（Gerindra），任中央领导理事会指导委员会主席",
+      "organization": "大印尼运动党 (Partai Gerindra)"
+    },
+    {
+      "date": "2022-04-20",
+      "achievement": "与国企部长埃里克·托希尔整合PT Len、平达德、PAL印尼、印尼航空航天与Dahana五家国防国企组建控股集团Defend ID，推动国防工业整合",
+      "organization": "印度尼西亚国防部 (Kementerian Pertahanan)"
+    },
+    {
+      "date": "2024-02-28",
+      "achievement": "获佐科总统授予荣誉上将军衔",
+      "organization": "印度尼西亚国民军 (TNI)"
+    },
+    {
+      "date": "2024-08",
+      "achievement": "与澳大利亚总理阿尔巴尼斯共同宣布新的印尼-澳大利亚国防合作协议",
+      "organization": "印度尼西亚国防部 (Kementerian Pertahanan)"
+    },
+    {
+      "date": "2024-03-20",
+      "achievement": "在2024年总统选举中以约58.59%得票率（超过9600万票）一轮胜出，当选总统当选人，4月22日宪法法院驳回全部诉讼后正式确认",
+      "organization": "印度尼西亚选举委员会 (KPU)"
+    },
+    {
+      "date": "2024-10-20",
+      "achievement": "宣誓就任印尼第8任总统（时年73岁，为印尼史上就任时年龄最高的总统），10月21日公布103人红白内阁（48名部长、55名副部长，为1966年以来规模最大内阁）",
+      "organization": "印度尼西亚共和国 (Republik Indonesia)"
+    },
+    {
+      "date": "2025-02-24",
+      "achievement": "正式启动Danantara主权财富基金，整合国有企业资产（估计管理资产规模最高达9000亿美元，初期注资目标200亿美元）",
+      "organization": "印尼努山塔拉未来力量投资管理局 (Danantara Indonesia)"
+    },
+    {
+      "date": "2025-09-21",
+      "achievement": "签署总统令正式确立努山塔拉（Nusantara）为印尼政治首都，目标2028年实现迁都",
+      "organization": "印度尼西亚总统府 (Presiden Republik Indonesia)"
+    },
+    {
+      "date": "2026-08-14",
+      "achievement": "发表国情咨文：执政21个月实施121项变革性政策；宣布8种粮食商品实现自给自足；自2026年7月1日起全面实施B50棕榈油生物柴油、停止柴油进口，节省外汇约170万亿盾（约95亿美元）",
+      "organization": "红白内阁 (Kabinet Merah Putih)"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "twitter_x",
-      "url": "https://twitter.com/prabowo",
+      "url": "https://x.com/prabowo",
       "source": "wikidata",
       "account_name": "prabowo"
     },
     {
       "platform": "instagram",
-      "url": "https://instagram.com/prabowo",
+      "url": "https://www.instagram.com/prabowo/",
       "source": "wikidata",
       "account_name": "prabowo"
     },
     {
       "platform": "facebook",
-      "url": "https://facebook.com/PrabowoSubianto",
+      "url": "https://www.facebook.com/PrabowoSubianto",
       "source": "wikidata",
       "account_name": "PrabowoSubianto"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@djojohadikusumo",
+      "source": "web_search",
+      "account_name": "@djojohadikusumo"
     }
   ],
-  "biography_summary": "普拉博沃·蘇比延多·佐約哈迪庫蘇莫，印度尼西亞政治人物、退役將軍，現任（第8任）印度尼西亚总统，曾任印度尼西亞國防部部長、亦曾經是前總統蘇哈托的二女婿。他在2014年、2019年兩度代表大印尼運動黨參選總統，皆敗給原雅加達省長、第7任總統佐科·維多多，直至2024年第三次參選才成功當選，並於同年10月20日宣誓就職。他曾因涉嫌違反人权和在黑色五月暴动中綁架與刑求異議人士飽受爭議。\n",
+  "biography_summary": "普拉博沃·苏比延多·佐约哈迪库苏莫（Prabowo Subianto Djojohadikusumo），1951年10月17日生于雅加达，印尼第8任总统、退役将军、企业家与大印尼运动党（Gerindra）总主席。出身政治世家：父亲苏米特罗为著名经济学家、两任部长，祖父马尔戈诺为国家银行（BNI）创始人；幼年随流亡的父亲辗转瑞士、新加坡、马来西亚、英国等地，就读吉隆坡维多利亚学院与伦敦美国学校。1970年考入军事学院、1974年毕业，长期服役于特种部队（Kopassus），参与东帝汶军事行动与1996年巴布亚马平朱马人质营救；1983年与苏哈托次女蒂蒂克结婚（1998年分居）。1995年任Kopassus总指挥，1998年3月任陆军战略预备部队司令，同年5月骚乱后因涉嫌绑架民主活动人士被军官荣誉议会认定「误读命令」，11月退役（其本人否认部分指控，联合国与东帝汶政府从未对其起诉），其后赴约旦从商，收购纸浆企业并建立努山塔拉集团，并出任农民互助会（HKTI）、班卡西拉协会（IPSI）等组织主席。2008年创立Gerindra；2009年搭档梅加瓦蒂竞选副总统失利，2014年、2019年两度竞选总统败给佐科；2019-2024年任国防部长，任内推动军备现代化与国防工业整合。2024年与佐科长子吉布兰搭档，以58.59%得票一轮胜选，10月20日就任总统，组建红白内阁。执政以来推行免费营养餐（MBG）、设立Danantara主权财富基金、追求粮食与能源自给（B50生物柴油）、推动加入BRICS，外交延续「千友零敌」与不结盟方针；2025年8月抗议后多次改组内阁。其东帝汶时期人权指控与军人干政争议长期受到人权组织关注。",
   "profile": {
-    "source_url": "https://www.wikidata.org/wiki/Q2107268",
-    "local_path": null,
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prabowo_Subianto_2024_official_portrait.jpg?width=500",
+    "local_path": "photos/ID-PERSON-000128.jpg",
     "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prabowo%20Subianto%202024%20official%20portrait.jpg?width=500",
     "primary_source": "Wikidata"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Minister of Defence",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P4_person_lite",
+    "collection_date": "2026-09-17",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2107268"
+      "wikipedia",
+      "wikidata",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 65,
-    "notes": "lite profile from Wikidata; multi-lang names + avatar + positions + social.",
-    "quotes": []
+    "completeness_score": 96,
+    "notes": "P4深度丰富：以印尼语/英语维基百科全文、Wikidata EntityData（Q2107268）交叉核对生平与职务时间线，以 setCabinet Secretariat（setkab.go.id）2026年国情咨文、Straits Times（2026-09-14第五次内阁改组）、Reuters（2026-07-22 MBG营养局换帅）、Al Jazeera（2025-09-08改组）等新闻交叉核验任内近况。关键ID绑定：Gerindra=ID-PARTY-008（总主席）、红白内阁=ID-GOV-027（总统任期）；关系人物均经 _name_index.json 命中（吉布兰000002、佐科000003、蒂蒂克000325、哈希姆000324、苏哈托000040、父苏米特罗000409、梅加瓦蒂000030、桑迪亚加000014、维兰托000064、斯莉·穆尔雅妮000008、普尔巴亚000655、法德利·宗000177、埃里克·托希尔000013、侄布迪·吉万多诺000729）。存疑与处理：①东帝汶时期（1983年Kraras事件等）人权指控为多来源争议内容，本档案以中性表述并注明其本人否认、联合国及东帝汶政府从未起诉、部分NGO未能提供实证；②与蒂蒂克为分居（sep. 1998）而非离婚；③社媒：印尼政府（komdigi）曾警示TikTok上冒名账号，为免误录未收录TikTok，仅保留经Wikidata核实的X/Instagram/Facebook及检索确认的YouTube频道；④儿子Didit与母亲Dora Marie Sigar未入索引，person_id写null。",
+    "quotes": [
+      {
+        "title": "Prabowo Subianto - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Prabowo_Subianto"
+      },
+      {
+        "title": "Prabowo Subianto - Wikipedia (Indonesian)",
+        "url": "https://id.wikipedia.org/wiki/Prabowo_Subianto"
+      },
+      {
+        "title": "Wikidata EntityData Q2107268 (Prabowo Subianto)",
+        "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2107268.json"
+      },
+      {
+        "title": "President Prabowo: 121 Transformative Policies Implemented in 21 Months - Cabinet Secretariat of the Republic of Indonesia",
+        "url": "https://setkab.go.id/en/president-prabowo-121-transformative-policies-implemented-in-21-months/"
+      },
+      {
+        "title": "Prabowo replaces Finance Minister Purbaya in long-awaited Indonesian Cabinet shake-up - The Straits Times",
+        "url": "https://www.straitstimes.com/asia/se-asia/prabowo-replaces-finance-minister-purbaya-in-long-awaited-indonesian-cabinet-shake-up"
+      },
+      {
+        "title": "Indonesian President Prabowo replaces five ministers after deadly protests - Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2025/9/9/indonesian-president-prabowo-replaces-five-ministers-after-deadly-protests"
+      },
+      {
+        "title": "Indonesia's Prabowo appoints new chief of troubled free meals agency - Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/chief-indonesias-troubled-free-meals-agency-resigns-health-grounds-2026-07-22/"
+      }
+    ]
   }
 }

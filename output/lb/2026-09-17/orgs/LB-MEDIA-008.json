@@ -1,0 +1,231 @@
+{
+  "org_id": "LB-MEDIA-008",
+  "basic_info": {
+    "name_original": "National Broadcasting Network (شبكة البث الوطني)",
+    "name_zh": "国家广播网",
+    "name_en": "National Broadcasting Network",
+    "aliases": [
+      "NBN",
+      "شبكة البث الوطني",
+      "NBN Lebanon",
+      "National Broadcasting Network s.a.l."
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "broadcaster",
+    "country_iso3": "LBN",
+    "hq_country_iso3": "LBN",
+    "founded_date": "1996-05-04",
+    "website": "https://www.nbn.com.lb/",
+    "wikidata_qid": "Q6971139"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "nbnlb",
+      "url": "https://facebook.com/nbnlb",
+      "source": "wikipedia_en (official links)"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "NBN National Broadcasting Network",
+      "url": "https://www.facebook.com/p/NBN-National-Broadcasting-Network-61558866120404/",
+      "source": "facebook search result (active page, 2026)"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "NBN National Broadcasting Network (@NBNNationalBroadcasting, channel ID UCBWLHGMK10ebd2jndWUnHdw)",
+      "url": "https://www.youtube.com/@NBNNationalBroadcasting",
+      "source": "wikidata + youtube search (2026-09)"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "nbnlebanon (@nbntweets)",
+      "url": "https://x.com/nbntweets",
+      "source": "wikipedia_en (official links) + x.com search"
+    },
+    {
+      "platform": "telegram",
+      "account_name": "NBN Live",
+      "url": "https://t.me/nbnlive",
+      "source": "wikipedia_en (official links) + t.me/s/nbnlive page (2026-09 active)"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "NBN官方网站与直播门户（nbn.com.lb，含Live Stream直播流）",
+      "url": "https://www.nbn.com.lb/",
+      "description": "官方门户网站，首页内置Live Stream直播播放器；Media Ownership Monitor与NBN官方Facebook页面均列其为官方网址。2026-09-17实测首页为JS应用、静态文本较少。注意：Wikidata记录的域名nbntv.me目前仅返回目录索引页，疑似已迁移。",
+      "source": "media_ownership_monitor + official_facebook + direct access test 2026-09-17"
+    },
+    {
+      "name": "NBN官方YouTube频道（@NBNNationalBroadcasting）",
+      "url": "https://www.youtube.com/@NBNNationalBroadcasting",
+      "description": "上传新闻节选与时政栏目整期视频（如时政栏目《السياسة اليوم/今日政治》），2026年9月仍在持续更新，可作为研究该台节目编排与言论口径的公开数字档案。",
+      "source": "youtube channel + wikidata"
+    },
+    {
+      "name": "NBN Live官方Telegram频道",
+      "url": "https://t.me/nbnlive",
+      "description": "官方Telegram频道，滚动发布阿语新闻快讯并附直播链接，2026年9月仍在活跃更新。",
+      "source": "wikipedia_en + t.me/s/nbnlive (2026-09 active)"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "LB-PERSON-000222",
+      "name": "纳比·贝里 (نبيه بري)",
+      "title": "创始人",
+      "title_description": "1996年5月4日创立NBN；据英文维基百科与媒体所有权监测（MOM），公司系依据1998年1月10日第10059号法令设立",
+      "description": "黎巴嫩议长（1992年起在任）兼阿迈勒运动领导人。贝里本人不直接持股，家族通过其弟马哈茂德·贝里（9.8%）、其妹阿米娜·贝里（9.86%）及弟媳萨米拉·阿西（0.04%）合计持股约19.7%。多次通过NBN发布重大政治表态（如2022年2月经该台表态绝不接受推迟大选——路透社）。"
+    },
+    {
+      "person_id": "LB-PERSON-000126",
+      "name": "卡西姆·苏韦丹 (قاسم سويد)",
+      "title": "董事长兼首席执行官(CEO)",
+      "title_description": "MOM记载其为NBN董事会主席（chair of the board），英文维基百科称其为NBN首席执行官（CEO）",
+      "description": "个人持股10%；被英文维基百科与MOM描述为贝里的政治盟友、阿迈勒运动重要官员。"
+    },
+    {
+      "person_id": "LB-PERSON-000324",
+      "name": "穆罕默德·努尔丁 (محمد نور الدين)",
+      "title": "新闻总监(News Director)",
+      "title_description": "MOM记载其任NBN新闻总监，相当于主编，负责新闻采编播",
+      "description": "NBN新闻内容负责人；其任职记录见于MOM黎巴嫩媒体所有权数据库（2018年数据）。"
+    },
+    {
+      "person_id": "LB-PERSON-000127",
+      "name": "马哈茂德·贝里 (محمود بري)",
+      "title": "主要股东",
+      "title_description": "贝里家族持股代表",
+      "description": "纳比·贝里之弟，个人持股9.8%；与阿米娜·贝里（9.86%）、萨米拉·阿西（0.04%）共同构成贝里家族约19.7%的持股。"
+    },
+    {
+      "person_id": "LB-PERSON-000311",
+      "name": "艾哈迈德·侯赛因 (أحمد حسين)",
+      "title": "主要股东",
+      "title_description": "持股10%",
+      "description": "据英文维基百科与MOM，系贝里的亲密政治盟友、阿迈勒运动重要官员。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻部(قسم الأخبار)",
+      "dept_id": "LB-MEDIA-008-DEPT-001",
+      "head": "穆罕默德·努尔丁(محمد نور الدين)",
+      "description": "负责新闻快讯、新闻播报及时政节目的新闻采编；MOM数据库记载努尔丁任新闻总监（News Director）。该台其余内部部门架构未见公开资料。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-27",
+      "title": "贝里死讯谣言流传，NBN当晚播报辟谣",
+      "description": "2025年6月27日（周五）晚间，WhatsApp群组流传议长纳比·贝里去世的谣言。黎巴嫩南部媒体《南方》(Janoubia)监测记录显示，NBN随后播报称所有流传消息均不属实；《白天报》(An-Nahar)亦以NBN澄清贝里健康谣言为题进行报道。",
+      "impact": "凸显NBN作为贝里及阿迈勒运动阵营核心媒体，在涉及议长本人健康的敏感信息上承担官方辟谣渠道职能。",
+      "source": "https://janoubia.com/2025/06/27/شائعات-حول-صحة-نبيه-بري/ ; An-Nahar Facebook"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "2026年3月贝里健康传闻风波与辟谣联动",
+      "description": "2026年3月初有关贝里健康状况的传闻再度流传。3月3日贝里媒体办公室发表声明，强调有关贝里的新闻以其办公室发布为唯一渠道；3月10日黎巴嫩议会官网再刊声明，否认相关传闻并称其毫无事实依据（جملة وتفصيلا）。阿拉伯媒体在报道该风波时将NBN列为相关澄清的信息渠道之一（如An-Nahar以NBN澄清为题的报道）。",
+      "impact": "2025-2026年间贝里健康谣言多次发酵，NBN与议长媒体办公室形成该阵营的信息澄清组合，反映其政治信息发布中的特殊地位。",
+      "source": "https://www.lp.gov.lb/ContentRecordDetails?Id=35715 ; https://www.instagram.com/p/DVbKWlyDHTn/ ; elnashra.com"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "贝里回答NBN提问：与总统奥恩不会决裂",
+      "description": "议长纳比·贝里在回答NBN记者提问时表示，他与总统约瑟夫·奥恩之间不会有决裂，并称现阶段需要各方同心协力；Koura Media与An-Nahar等媒体于2026年6月2日记录了这一表态。",
+      "impact": "显示NBN持续保有对议长的近距离采访通道，继续承担贝里政局表态的发布平台职能。",
+      "source": "https://www.instagram.com/p/DVY09nqF1tQ/ ; https://www.threads.com/@koura_media_company"
+    },
+    {
+      "date": "2026-07-31",
+      "title": "NBN播报贝里就南黎巴嫩事件表态",
+      "description": "NBN新闻播报导语称：贝里谴责当日南黎巴嫩发生的事件，强调不会沉默、不会保持沉默；相关视频由NBN官方Facebook账号（页面ID 61558866120404）于2026年7月31日发布。",
+      "impact": "体现该台在以色列与真主党停火后的南黎巴嫩安全议题上，持续传递贝里及阿迈勒运动的立场。",
+      "source": "https://www.facebook.com/p/NBN-National-Broadcasting-Network-61558866120404/ (2026-07-31 video)"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "时政栏目《السياسة اليوم（今日政治）》持续播出",
+      "description": "NBN旗舰时政栏目《今日政治》2026年9月持续更新：9月11日播出战略学者埃利亚斯·法拉特访谈，9月14日播出含市民街头采访与学者访谈的整期节目，均由YouTube官方频道同步上传。",
+      "impact": "显示该台在2026年保持常态化新闻与时政节目生产，数字化分发（YouTube/Telegram）运转正常。",
+      "source": "https://www.youtube.com/watch?v=uwe-eTfDUk0 ; https://www.youtube.com/@NBNNationalBroadcasting"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "LB-PARTY-002",
+      "org_name": "阿迈勒运动 (Amal Movement / حركة أمل)",
+      "org_type": "PARTY",
+      "org_description": "黎巴嫩什叶派政党，由议长纳比·贝里领导。英文维基百科与MOM均称NBN为阿迈勒运动的官方电视台。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "LB-GOV-003",
+      "org_name": "黎巴嫩国会 (Parliament of Lebanon / مجلس النواب اللبناني)",
+      "org_type": "GOV",
+      "org_description": "NBN创始人贝里自1992年起任国会（国民议会）议长；该台常被用作议长发布重大政治表态的平台（如2022年2月经NBN表态反对推迟大选——路透社）。非股权或隶属关系。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "LB-MEDIA-006",
+      "org_name": "灯塔电视台 (Al-Manar / المنار)",
+      "org_type": "MEDIA",
+      "org_description": "黎巴嫩真主党官方电视台。NBN与Al-Manar分别隶属什叶派两大盟友政党（阿迈勒运动与真主党）的媒体平台，政治阵营相近，但两者之间无股权或隶属关系。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "国家广播网（NBN，شبكة البث الوطني）是黎巴嫩私营股份公司National Broadcasting Network s.a.l.运营的阿拉伯语综合电视台，总部位于贝鲁特，1996年5月4日开播。据英文维基百科与黎巴嫩媒体所有权监测（MOM），该台由议长（1992年起在任）兼阿迈勒运动领导人纳比·贝里依据1998年1月10日第10059号法令创办设立，被普遍视为阿迈勒运动的官方电视台，是黎巴嫩什叶派政治阵营媒体格局的核心组成部分。公司股权高度集中：哈姆丹家族29.8%（Hassan 10%、Khalil 10%、Ali 9.8%）、贝里家族约19.7%、艾哈迈德·侯赛因10%、CEO卡西姆·苏韦丹10%、威廉·姆贾利9.89%（前副总理伊萨姆·法雷斯幕僚长）；贝鲁特商业注册号70079，联系电话+961 1 803981。2000年9月开通卫星频道，覆盖阿拉伯世界、欧洲与非洲（MOM记载经NileSat上行，该台Facebook页面则称经ArabSat）；2004年起经Reach Media进入美国市场，并借ART平台覆盖北美、拉美、澳大利亚与加拿大。内容以阿语新闻、时政谈话节目（如《السياسة اليوم/今日政治》、曾见于美国国务院人权报告的《Ninety Minutes》）及娱乐节目为主；据IPSOS 2018年一二季度数据，其全国收视份额约4.8%。该台长期充当贝里发布重大政治表态的首选渠道（如2022年2月经NBN表态绝不接受推迟大选——路透社），并在2025至2026年贝里健康传闻风波中承担阵营辟谣平台职能。",
+  "industries": [
+    "broadcasting"
+  ],
+  "apec_stance": null,
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/NBN_LOGO_2016.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia_en",
+      "wikipedia_fr (search snippet only)",
+      "media_ownership_monitor_lebanon (company + outlet pages)",
+      "official_facebook_page",
+      "official_youtube_channel",
+      "official_telegram_channel (t.me/nbnlive)",
+      "lebanese_parliament_official_site (lp.gov.lb)",
+      "janoubia_news",
+      "annahar_news (facebook/instagram)",
+      "elnashra_news",
+      "reuters (2022-02-03)",
+      "us_state_dept_human_rights_report",
+      "wikidata (Q6971139)"
+    ],
+    "quotes": [
+      {
+        "title": "Wikipedia EN: NBN is the official television of the Lebanese Amal Movement; founded in 1996 by Parliament Speaker Nabih Berri pursuant to Decree No. 10059 of 10 January 1998; launched 4 May 1996",
+        "url": "https://en.wikipedia.org/wiki/National_Broadcasting_Network_(Lebanon)"
+      },
+      {
+        "title": "MOM Lebanon outlet page: Kassem Soueid is chair of NBN's board of directors and Mohammad Noureddine is its news director; audience share 4.8% (IPSOS Q1-Q2 2018); Sept 2000 satellite channel; since 2004 available in the US via Reach Media and via ART",
+        "url": "https://lebanon.mom-gmr.org/en/media/detail/outlet/nbn/"
+      },
+      {
+        "title": "Janoubia 2025-06-27: شائعات حول صحة نبيه بري — أفادت قناة NBN بأن ما يتداول غير صحيح (Berri death rumor denied by NBN)",
+        "url": "https://janoubia.com/2025/06/27/شائعات-حول-صحة-نبيه-بري/"
+      },
+      {
+        "title": "黎巴嫩议会官网 2026-03-10: المكتب الإعلامي للرئيس بري نفى ما يتم تداوله عن الرئيس نبيه بري مؤكدا انها عارية من الصحة جملة وتفصيلا (Berri media office denies rumors)",
+        "url": "https://www.lp.gov.lb/ContentRecordDetails?Id=35715"
+      },
+      {
+        "title": "Reuters 2022-02-03: Lebanon's parliament speaker (Berri) said on NBN TV he will not accept postponement of the general election",
+        "url": "https://www.reuters.com/world/middle-east/lebanons-parliament-speaker-says-he-will-not-accept-postponing-election-nbn-tv-2022-02-03/"
+      }
+    ],
+    "completeness_score": 89,
+    "notes": "Phase 3 enrichment. 阿拉伯语维基百科条目(شبكة البث الوطني)多次尝试读取均被抓取后端502拦截，未能直接获取原文；法语维基百科经检索摘要确认1996年5月4日创立。Wikidata记录域名nbntv.me于2026-09-17实测仅返回目录索引页，实际运营门户为nbn.com.lb（JS应用，静态内容有限，about页无法抓取），故website字段更新为nbn.com.lb。股权比例以MOM(2018年数据)为准；卫星上行运营商两来源记载不一（MOM: NileSat / NBN官方Facebook: ArabSat），已在core_business中注明。key_people中贝里以外的4人未见于_name_index，person_id按规范置null。apec_stance按规范置null（黎巴嫩非APEC成员经济体）。"
+  }
+}

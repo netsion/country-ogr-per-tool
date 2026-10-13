@@ -1,0 +1,360 @@
+{
+  "org_id": "JO-MIL-001",
+  "basic_info": {
+    "name_original": "القوات المسلحة الأردنية",
+    "name_zh": "约旦军事",
+    "name_en": "Jordanian Armed Forces",
+    "aliases": [
+      "Arab Army",
+      "Armed Forces of Jordan",
+      "Jordanian military",
+      "mil Jordan",
+      "military of Jordan"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "JOR",
+    "hq_country_iso3": "JOR",
+    "founded_date": "1920-10-22",
+    "website": "http://www.jaf.mil.jo",
+    "wikidata_qid": "Q1075753"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Jordan Armed Forces القوات المسلحة الاردنية (@ArmedForcesJO)",
+      "url": "https://www.facebook.com/ArmedForcesJO/",
+      "source": "https://www.facebook.com/ArmedForcesJO/"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@ArmedForcesJO",
+      "url": "https://x.com/ArmedForcesJO",
+      "source": "https://x.com/ArmedForcesJO?lang=en"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@armedforcesjo",
+      "url": "https://www.instagram.com/armedforcesjo/",
+      "source": "https://www.instagram.com/p/DZovuVDHWr3/"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "约旦武装部队官方网站（阿语/英语双语）",
+      "url": "http://www.jaf.mil.jo",
+      "description": "武装部队总司令部官网，发布最高统帅活动、联合参谋长动态、军事新闻与各军种介绍。",
+      "source": "https://www.jaf.mil.jo/Defaulten.aspx"
+    },
+    {
+      "name": "JAF官方新闻门户（News Portal）",
+      "url": "https://www.jaf.mil.jo/newsen.aspx",
+      "description": "由武装部队官方发言人发布的新闻检索入口，含演习、军援、人道行动等公开通报。",
+      "source": "https://www.jaf.mil.jo/newsen.aspx"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "JO-PERSON-000001",
+      "name": "阿卜杜拉二世·本·侯赛因国王 (عبد الله الثاني بن الحسين)",
+      "title": "最高统帅（Supreme Commander / القائد الأعلى）",
+      "title_description": "约旦国王，元帅（Field Marshal）军衔",
+      "description": "依据1952年宪法，国王亲自统辖武装部队，拥有高级军官的任免权和对所有单位的指挥控制权，宣战与媾和权亦由国王行使。"
+    },
+    {
+      "person_id": "JO-PERSON-000002",
+      "name": "贾法尔·哈桑 (جعفر حسان)",
+      "title": "国防部长（Minister of Defence）",
+      "title_description": "现任约旦首相，兼任国防部长",
+      "description": "作为内阁国防事务主管，依最高统帅（国王）的授权行事；武装部队作战指挥权直属国王体系，国防部负责行政与预算等文官层面事务。"
+    },
+    {
+      "person_id": "JO-PERSON-000037",
+      "name": "马吉迪·哈拉西斯 (مجدي محمد حماد الحراسيس)",
+      "title": "联合参谋长（Chairman of the Joint Chiefs of Staff）",
+      "title_description": "少将（Maj. Gen.），2026年9月2日经王室敕令就任",
+      "description": "1971年出生，2022年至2026年执掌约旦军事情报局，2026年9月2日经国王敕令接替任职7年的尤素夫·胡奈蒂（Yousef Huneiti）出任武装部队联合参谋长，是武装部队日常指挥、控制与行政的最高职业军官，直接对国王（最高统帅）负责。"
+    },
+    {
+      "person_id": "JO-PERSON-000052",
+      "name": "穆阿维叶·巴图什 (معاوية عبد الحميد البطوش)",
+      "title": "约旦皇家空军司令（Commander of the Royal Jordanian Air Force）",
+      "title_description": "准将（Brigadier General）",
+      "description": "2025年起出任皇家空军司令，指挥F-16战斗机机队、防空拦截与加沙人道主义空投等空中行动；2026年4月陪同国王视察皇家空军司令部。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "约旦皇家陆军（القوات البرية الملكية الأردنية / Royal Jordanian Army）",
+      "dept_id": "JO-MIL-001-DEPT-001",
+      "head": null,
+      "description": "地面部队主力，现役约8.6万人；由传统的装甲/机械化师改编为旅级快速反应结构，对应独立机构JO-MIL-002。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "约旦皇家空军（سلاح الجو الملكي الأردني / Royal Jordanian Air Force）",
+      "dept_id": "JO-MIL-001-DEPT-002",
+      "head": "吉哈德·巴图什准将（جهاد البطوش）",
+      "description": "空军军种，主力为F-16机队，承担防空反导拦截、对地支援、要员护航与加沙人道空投任务，对应独立机构JO-MIL-003。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "约旦皇家海军（القوة البحرية الملكية / Royal Jordanian Navy）",
+      "dept_id": "JO-MIL-001-DEPT-003",
+      "head": null,
+      "description": "海军军种，驻亚喀巴港，辖第77海军步兵营等部队，2006年建成以哈希姆亲王命名的海军基地，对应独立机构JO-MIL-012。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "阿卜杜拉二世国王特种部队群／特种作战司令部（مجموعة الملك عبدالله الثاني للقوات الخاصة）",
+      "dept_id": "JO-MIL-001-DEPT-004",
+      "head": null,
+      "description": "1963年4月15日奉侯赛因国王令组建，2017年整编为特种部队与快速反应力量；辖第71/101特种营及穆罕默德·本·扎耶德（MbZ）快速反应旅，执行反恐、侦察与精确打击任务，对应独立机构JO-MIL-008。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "皇家医疗服务局（الخدمات الطبية الملكية / Royal Medical Services）",
+      "dept_id": "JO-MIL-001-DEPT-005",
+      "head": null,
+      "description": "武装部队医疗卫生系统，运营6支机动野战医院，长期向加沙、西岸、黎巴嫩等冲突与灾区派遣野战医院，对应独立机构JO-MIL-011。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "军事情报局（مديرية الاستخبارات العسكرية / Directorate of Military Intelligence）",
+      "dept_id": "JO-MIL-001-DEPT-006",
+      "head": null,
+      "description": "总司令部直属军种情报机构，2022–2026年由马吉迪·哈拉西斯（现任联合参谋长）执掌。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "北部军区司令部（Northern Region Command）",
+      "dept_id": "JO-MIL-001-DEPT-007",
+      "head": null,
+      "description": "负责叙以方向北部防区，编成含机械化、步兵、炮兵与防空旅。",
+      "parent_dept_id": "JO-MIL-001-DEPT-001"
+    },
+    {
+      "name": "中部军区司令部（Central Region Command）",
+      "dept_id": "JO-MIL-001-DEPT-008",
+      "head": null,
+      "description": "负责首都安曼及周边防区，2018年第三皇家装甲师（战略预备队）并入该军区。",
+      "parent_dept_id": "JO-MIL-001-DEPT-001"
+    },
+    {
+      "name": "东部军区司令部（Eastern Region Command）",
+      "dept_id": "JO-MIL-001-DEPT-009",
+      "head": null,
+      "description": "负责伊拉克与叙利亚东部边境防区，常态化遂行反走私、反渗透边境作战。",
+      "parent_dept_id": "JO-MIL-001-DEPT-001"
+    },
+    {
+      "name": "南部军区司令部（Southern Region Command）",
+      "dept_id": "JO-MIL-001-DEPT-010",
+      "head": null,
+      "description": "负责沙特方向及亚喀巴南部防区。",
+      "parent_dept_id": "JO-MIL-001-DEPT-001"
+    },
+    {
+      "name": "边防安全局（Border Security Directorate）",
+      "dept_id": "JO-MIL-001-DEPT-011",
+      "head": null,
+      "description": "总司令部直属机构，辖电子侦察群与边防训练中心，主导北部边境反毒品走私与无人机侦测拦截。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-08-18",
+      "title": "约旦武装部队持续对加沙实施人道主义空投",
+      "description": "约旦武装部队总司令部通报，向加沙地带新完成一批次空投，投送约100吨食品与救济物资，为驻加沙约旦野战医院及当地民众提供补给；此前2025年7月27日约旦与阿联酋曾联合实施三次空投。",
+      "impact": "彰显JAF的地区人道主义投送能力，维持对加沙'人道走廊'的常态化空中补给。",
+      "source": "https://www.jaf.mil.jo/NewsViewEn.aspx?NewsId=60032"
+    },
+    {
+      "date": "2026-01-24",
+      "title": "国王下令改组约旦武装部队（阿拉伯军团）",
+      "description": "国王阿卜杜拉二世以最高统帅身份指示联合参谋长推进武装部队改组，旨在优化部队结构、提升战备与现代化水平，为后续高层人事调整与体制重塑定调。",
+      "impact": "启动新一轮军改进程，2026年9月联合参谋长换届被视为其延续。",
+      "source": "https://kingabdullah.jo/en/news/king-orders-restructuring-of-jordan-armed-forces-arab-army-1"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "约旦时隔34年恢复义务兵役制，首批新兵入营",
+      "description": "依据2025年《兵役与预备役法》，首批约6000名年满18岁男性自2026年2月1日起接受为期三个月的基本军事训练，受训者每月领取100约旦第纳尔津贴；该制度自1991年起中断，由王储侯赛因推动恢复。",
+      "impact": "扩大兵员储备、强化社会动员能力，被解读为应对地区安全环境恶化的举措。",
+      "source": "https://thearabweekly.com/regional-challenges-push-jordan-reinstate-national-service-after-decades-suspension"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "国王视察皇家空军司令部",
+      "description": "最高统帅阿卜杜拉二世国王视察约旦皇家空军司令部，听取战备与能力建设汇报，空军司令吉哈德·巴图什准将陪同。",
+      "impact": "体现王室对空军建设与防空战备的重视。",
+      "source": "https://kingabdullah.jo/en/news/king-visits-royal-jordanian-air-force-command-2"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "约旦防空部队与皇家空军拦截20枚自伊朗发射的导弹",
+      "description": "约旦军方通报，在2026年美以对伊冲突期间，约旦防空系统与皇家空军拦截并击落20枚飞越/进入约旦领空的伊朗导弹，保卫王国领空与境内（含美军基地周边）安全。",
+      "impact": "首次大规模实战检验JAF防空反导体系，凸显约旦'护空中立'立场。",
+      "source": "https://english.alarabiya.net/News/middle-east/2026/06/11/jordan-s-military-says-intercepted-20-missiles-launched-from-iran"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "约旦再次拦截5枚伊朗导弹",
+      "description": "随着伊朗与美国战事重启，约旦军方宣布当日拦截并击落5枚自伊朗方向进入约旦领空的弹道导弹。",
+      "impact": "表明对领空侵犯零容忍的一贯立场，边境与防空部队持续保持高度戒备。",
+      "source": "https://thedefensepost.com/2026/07/29/jordan-intercepts-iranian-missiles/"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "王室敕令任命马吉迪·哈拉西斯为联合参谋长",
+      "description": "国王发布王室敕令，任命少将马吉迪·穆罕默德·哈马德·哈拉西斯为武装部队联合参谋长，接替自2019年7月任职的尤素夫·胡奈蒂（Yousef Huneiti），任命自2026年9月2日生效；哈拉西斯此前于2022–2026年执掌军事情报局。",
+      "impact": "武装部队最高职业军官岗位换届，情报系统出身的哈拉西斯或延续1月改组与边境安全优先方向。",
+      "source": "https://kingabdullah.jo/en/news/royal-decree-appoints-al-harasis-as-chairman-of-joint-chiefs-of-staff-1"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "JO-GOV-014",
+      "org_name": "约旦国防部（وزارة الدفاع الأردنية / Ministry of Defence）",
+      "org_type": "GOV",
+      "org_description": "内阁组成部门，国防部长依最高统帅授权处理国防行政事务。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "JO-GOV-001",
+      "org_name": "约旦国王（المملكة الأردنية الهاشمية الملك / King of Jordan）",
+      "org_type": "GOV",
+      "org_description": "宪法规定的武装部队最高统帅，直接统辖并任免高级军官。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "JO-MIL-002",
+      "org_name": "约旦皇家陆军（القوات البرية الملكية الأردنية / Royal Jordanian Army）",
+      "org_type": "MIL",
+      "org_description": "地面部队军种，现役约8.6万人，编为四个军区及战略后备力量。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JO-MIL-003",
+      "org_name": "约旦皇家空军（سلاح الجو الملكي الأردني / Royal Jordanian Air Force）",
+      "org_type": "MIL",
+      "org_description": "空军军种，主力装备F-16，承担防空拦截与加沙人道空投。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "约旦皇家海军（القوة البحرية الملكية / Royal Jordanian Navy）",
+      "org_type": "MIL",
+      "org_description": "海军军种，驻亚喀巴，负责红海水域与海上安全。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JO-MIL-008",
+      "org_name": "阿卜杜拉二世国王特种部队群（مجموعة الملك عبدالله الثاني للقوات الخاصة）",
+      "org_type": "MIL",
+      "org_description": "特种作战与快速反应力量，含MbZ快速反应旅。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "皇家医疗服务局（الخدمات الطبية الملكية / Royal Medical Services）",
+      "org_type": "MIL",
+      "org_description": "武装部队医疗体系，运营海外野战医院并承担国内军地医疗保障。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "JO-MIL-010",
+      "org_name": "约旦设计与发展局（المركز الأردني للتصميم والتطوير / JODDB）",
+      "org_type": "MIL",
+      "org_description": "1999年设立的国防工业机构（原KADDB），为武装部队提供本土化装备研发制造并主办SOFEX防务展。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "JO-MIL-009",
+      "org_name": "国家安全与危机管理中心（المركز الوطني للأمن وإدارة الأزمات）",
+      "org_type": "MIL",
+      "org_description": "国家级安全与危机协调机构，总司令部层面参与其运作。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "JO-MIL-004",
+      "org_name": "约旦情报总局（دائرة المخابرات العامة / GID）",
+      "org_type": "MIL",
+      "org_description": "国家级对外与安全情报机构，与军事情报系统协作；现任联合参谋长哈拉西斯2022–2026年曾任职于军事情报系统。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "约旦武装部队（JAF，القوات المسلحة الأردنية，又称'阿拉伯军团'/الجيش العربي）是约旦哈希姆王国的正规武装力量，肇始于1920年10月22日成立的'机动部队'（1923年改称阿拉伯军团），1956年3月1日侯赛因国王实现军队指挥权'阿拉伯化'并改现名。依据宪法由国王直接统辖：国王任最高统帅并独享高级军官任免权与战争决定权，国防部长经国王授权行事，日常指挥由联合参谋长负责。核心职能包括：捍卫国家主权与边界安全（重点应对叙利亚方向的毒品走私、武装渗透及地区外溢风险）、保护境内民众与王室安全；保卫领空并遂行防空反导任务；编有皇家陆军（含四大军区与战略后备）、皇家空军、皇家海军、特种作战力量与皇家医疗服务局；积极参与联合国维和行动（自1989年以来累计派出逾6万人次，位居全球前列）；广泛开展人道主义援助，包括在加沙、西岸等地派驻野战医院并实施空投补给；常态化遂行边境反毒品走私与反渗透军事行动；通过约旦设计与发展局（JODDB）推动国防工业本土化并主办SOFEX特种作战防务展；同时是美国及西方国家在地区内的重要安全合作伙伴，长期为多国培训军事人员。现役约11至11.5万人、预备役约6至10万人，2026年2月起恢复中断34年的义务兵役制，正按2026年1月国王指示推进部队改组与现代化。",
+  "industries": [
+    "defence_military",
+    "aerospace_defense"
+  ],
+  "apec_stance": null,
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/2/2d/Jordanian_Armed_Forces_%28emblem%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_en",
+      "wikipedia_ar",
+      "official_website_jaf.mil.jo",
+      "kingabdullah.jo",
+      "rhc.jo",
+      "thearabweekly.com",
+      "english.alarabiya.net",
+      "thedefensepost.com",
+      "wikipedia_chairman_jcs",
+      "facebook.com/ArmedForcesJO",
+      "x.com/ArmedForcesJO"
+    ],
+    "completeness_score": 87,
+    "notes": "Phase 3 enrichment: leadership (King as supreme commander; PM/Defence Minister Jafar Hassan; Chairman JCS Maj. Gen. Majdi Al Harasis from 2026-09-02 succeeding Yousef Huneiti; RJAF commander Brig. Gen. Jihad Al-Battoush), structure (army/air force/navy/SOF/RMS/military intelligence/4 regional commands), official website and 3 social accounts, 6+ dated recent events (Gaza airdrops 2025, JAF restructuring order 2026-01, conscription restart 2026-02, Iranian missile interceptions 2026-06/07, JCS appointment 2026-09). Army commander not confirmed by reliable public source; left null. Only publicly reported organizational, leadership, cooperation and humanitarian facts included.",
+    "quotes": [
+      {
+        "title": "Royal Decree appoints Al Harasis as chairman of joint chiefs of staff (King Abdullah II official site)",
+        "url": "https://kingabdullah.jo/en/news/royal-decree-appoints-al-harasis-as-chairman-of-joint-chiefs-of-staff-1"
+      },
+      {
+        "title": "Jordanian Armed Forces - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jordanian_Armed_Forces"
+      },
+      {
+        "title": "Chairman of the Joint Chiefs of Staff (Jordan) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Joint_Chiefs_of_Staff_(Jordan)"
+      },
+      {
+        "title": "Jordan Continues Delivering Aid to Gaza through New Airdrops (JAF official news, 18/08/2025)",
+        "url": "https://www.jaf.mil.jo/NewsViewEn.aspx?NewsId=60032"
+      },
+      {
+        "title": "King orders restructuring of Jordan Armed Forces-Arab Army (24 January 2026)",
+        "url": "https://kingabdullah.jo/en/news/king-orders-restructuring-of-jordan-armed-forces-arab-army-1"
+      },
+      {
+        "title": "Regional challenges push Jordan to reinstate national service after decades suspension (The Arab Weekly)",
+        "url": "https://thearabweekly.com/regional-challenges-push-jordan-reinstate-national-service-after-decades-suspension"
+      },
+      {
+        "title": "Jordan's military says intercepted 20 missiles launched from Iran (Al Arabiya, 11 June 2026)",
+        "url": "https://english.alarabiya.net/News/middle-east/2026/06/11/jordan-s-military-says-intercepted-20-missiles-launched-from-iran"
+      },
+      {
+        "title": "Jordan Army Says Intercepted Five Iranian Missiles (The Defense Post, 29 July 2026)",
+        "url": "https://thedefensepost.com/2026/07/29/jordan-intercepts-iranian-missiles/"
+      },
+      {
+        "title": "King visits Royal Jordanian Air Force Command (06 April 2026)",
+        "url": "https://kingabdullah.jo/en/news/king-visits-royal-jordanian-air-force-command-2"
+      },
+      {
+        "title": "القوات المسلحة الأردنية - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/القوات_المسلحة_الأردنية"
+      }
+    ]
+  }
+}

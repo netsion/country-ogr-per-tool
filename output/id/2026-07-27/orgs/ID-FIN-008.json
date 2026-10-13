@@ -1,63 +1,191 @@
 {
   "org_id": "ID-FIN-008",
+  "wikidata_qid": "Q106401918",
   "basic_info": {
     "org_id": "ID-FIN-008",
-    "wikidata_qid": "Q106401918",
-    "name_en": "BNI KCP Simpang Limun",
-    "name_zh": "BNI辛邦利蒙分行",
-    "name_local": "BNI KCP Simpang Limun",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "FIN",
-    "org_subtype": "central_bank",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "",
-    "official_website": "",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "BNI KCP Simpang Limun",
+    "name_zh": "印尼国家银行辛邦利蒙支行",
+    "name_en": "BNI Simpang Limun Sub-Branch Office",
+    "founded_date": null,
     "country_iso3": "IDN",
-    "name_original": "BNI KCP Simpang Limun"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.bni.co.id/",
+    "org_type": "FIN",
+    "org_subtype": "subsidiary"
   },
-  "description": "办公室 银行 in North 苏门答腊",
-  "brief": "办公室 银行 in North 苏门答腊",
-  "mission": null,
-  "core_business": "办公室 银行 in North 苏门答腊",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "instagram",
+      "account_name": null,
+      "url": "https://www.instagram.com/bni46/",
+      "source": "@bni46"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": null,
+      "url": "https://x.com/bni46",
+      "source": "@bni46"
+    },
+    {
+      "platform": "facebook",
+      "account_name": null,
+      "url": "https://www.facebook.com/BNI46",
+      "source": "BNI46"
+    },
+    {
+      "platform": "youtube",
+      "account_name": null,
+      "url": "https://www.youtube.com/user/bni46",
+      "source": "BNI46"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "BNI Experience 分行定位页（Simpang Limun）",
+      "url": "https://bniexperience.bni.co.id/lokasi/cabang/35",
+      "description": "branch_locator",
+      "source": null
+    },
+    {
+      "name": "BNI 官网",
+      "url": "https://www.bni.co.id/",
+      "description": "official_website",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000569",
+      "name": "罗伊克·图马哈斯 (Royke Tumajas)",
+      "title": "母行行长（总裁董事）",
+      "title_description": "印尼国家银行（PT Bank Negara Indonesia）总行总裁董事",
+      "description": "支行本身不设独立对外披露的负责人，其经营管理隶属于 BNI 区域办公室01（日惹-棉兰体系，棉兰地区）管辖下的分行与支行层级"
+    },
+    {
+      "person_id": null,
+      "name": "阿德·钱德拉 (Ade Chandra)",
+      "title": "BNI 区域办公室01（棉兰）区域业务开发主管（RBD Head）",
+      "title_description": "BNI 棉兰区域办公室（Kanwil 01 Medan）区域业务开发主管，区域管理层成员，辖内含本网点",
+      "description": "2024年9月4日全国客户日（Harpelnas）暨 New Look New Image 客户体验战略推广期间，代表区域管理层到访 Simpang Limun 网点并慰问 Emerald 级客户 Tiomas Silaen（来源：棉兰本地媒体 DETAIL.ID）。该支行本身无公开披露的网点负责人（kepala）"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-FIN-008-DEPT-001",
+      "name": "柜面服务 (Teller)",
+      "head": null,
+      "description": "现金存取、转账等日常柜面业务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-008-DEPT-002",
+      "name": "客户关系管理组 (CRM Unit)",
+      "head": null,
+      "description": "负责网点客户维护与营销，曾向 Emerald 级客户提供服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-008-DEPT-003",
+      "name": "小微企业贷款服务 (KUR/信贷服务)",
+      "head": null,
+      "description": "提供人民营业贷款（KUR）申请、微型保险等产品咨询办理",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2020-03-27",
+      "title": "ATM 现金存款故障客户投诉",
+      "description": "印尼消费者媒体 mediakonsumen.com 刊出读者来信：客户2020年3月18日在该网点 ATM 存入 Rp1,000,000 现金交易失败且余额未入账（ATM 无'故障维修中'标识），经客服热线1500046受理（报告号12150366357），退款周期最长14个工作日，且现场咨询由保安代答引发服务体验争议",
+      "impact": "反映网点 ATM 维护标识与现场客服衔接不足；款项经客服渠道受理处理，属该网点可查的公开客户服务记录",
+      "source": "https://mediakonsumen.com/2020/03/27/surat-pembaca/setor-tunai-di-bni-simpang-limun-medan-saldo-tidak-masuk"
+    },
+    {
+      "date": "2023-08-28",
+      "title": "网点迁址暨新营业楼启用",
+      "description": "BNI 官方渠道发布 KCP Simpang Limun 网点搬迁通知：由 Jl. Sisingamangaraja No. 18 旧址迁至同街 Komplek Pertokoan（Ruko）PT Inatex 商业楼群（棉兰，Kel. Sudirejo II），并举行新营业楼落成启用（Instagram 短视频'Peresmian Gedung Baru BNI Sub Branch Office Simpang Limun - Medan'）",
+      "impact": "改善网点可达性与营业环境，继续服务辛邦利蒙商圈及周边社区",
+      "source": "https://www.instagram.com/p/CvXgAC3SuJr/"
+    },
+    {
+      "date": "2024-09-04",
+      "title": "全国客户日（Harpelnas 2024）区域管理层到访网点",
+      "description": "BNI 在全国客户日（Harpelnas，2024年9月4日）推出 New Look New Image 客户体验战略，区域01（棉兰）全线网点同步开展活动；区域业务开发主管（RBD Head）Ade Chandra 到访 Simpang Limun 网点并慰问 Emerald 级客户 Tiomas Silaen",
+      "impact": "确认该网点被纳入 BNI 区域01客户体验升级战略覆盖范围，高端客户服务获区域管理层直接关注",
+      "source": "https://detail.id/2024/09/begini-cara-bni-rayakan-harpelnas-di-wilayah-01-medan/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-SOE-006",
+      "org_name": "印尼国家银行 (PT Bank Negara Indonesia (Persero) Tbk / BNI)",
+      "org_type": "FIN",
+      "org_description": "母行，印尼国有商业银行",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "金融服务管理局 (Otoritas Jasa Keuangan / OJK)",
+      "org_type": "GOV",
+      "org_description": "印尼金融服务行业监管机构",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "印尼国家银行（BNI）辛邦利蒙支行（KCP Simpang Limun）是印尼四大国有商业银行之一的 PT Bank Negara Indonesia (Persero) Tbk 在北苏门答腊省棉兰市设立的支行级网点（Kantor Cabang Pembantu），现址为棉兰市 Jl. Sisingamangaraja 的 Komplek Ruko PT Inatek No. A1A-2（Kel. Sudirejo II，Kec. Medan Kota，邮编 20216，Simpang Limun 地区；官方网点目录仍标注门牌'Jl. Sisingamangaraja No. 18'），营业时间为工作日 08:00-15:00，登记电话 (061) 7880241，隶属 BNI 棉兰区域办公室（Regional Office 01 Medan）管辖。作为支行，其主要职能是面向周边社区居民、商户和大学城客群提供零售银行服务，包括开户、现金存取与转账、人民营业贷款（KUR）等小微企业信贷申请、微型保险等代理产品，并通过 CRM 组维护 Emerald 级高端客户关系。该行于2023年8月28日由 Jl. Sisingamangaraja No. 18 旧址迁入同街 PT Inatek 商业楼群现址并启用新营业楼；2024年9月4日全国客户日（Harpelnas）期间被纳入区域01 New Look New Image 客户体验战略活动范围。母行 BNI 成立于1946年，是印尼历史最悠久的国有银行，在雅加达和伦敦上市，BNI 整体受印尼金融服务管理局（OJK）监管并由印尼央行监督，存款由印尼存款保险公司（LPS）承保。",
+  "industries": [
+    "banking",
+    "financial_services"
+  ],
+  "apec_stance": "该支行本身为零售网点，不直接参与国际事务；其母行 BNI 作为印尼国有商业银行服务于印尼（APEC 成员经济体）的贸易融资与跨境结算需求，支行的 KUR 小微贷款业务支持地方企业融入区域供应链。BNI 官网列明其受 OJK 与印尼央行监管，为 LPS 存款保险参与机构。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 43,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q106401918"
+      "https://bniexperience.bni.co.id/lokasi/cabang/35",
+      "https://www.bni.co.id/id-id/",
+      "https://www.instagram.com/p/CvXgAC3SuJr/",
+      "https://www.waze.com/id/live-map/directions/id/sumatera-utara/bni-simpang-limun",
+      "https://detail.id/2024/09/begini-cara-bni-rayakan-harpelnas-di-wilayah-01-medan/",
+      "https://www.daftarperusahaan.com/bank/bank-bni-kcp-simpang-limun",
+      "https://mediakonsumen.com/2020/03/27/surat-pembaca/setor-tunai-di-bni-simpang-limun-medan-saldo-tidak-masuk",
+      "https://www.waze.com/live-map/directions/bni-kcp-simpang-limun-sisingamangaraja-medan?to=place.w.64684068.646840675.7909873",
+      "https://www.instagram.com/reel/Cwe0TmvBIGi/"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q106401918; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 69,
+    "quotes": [
+      {
+        "title": "BNI Experience 官方分行定位 - SIMPANG LIMUN",
+        "url": "https://bniexperience.bni.co.id/lokasi/cabang/35"
+      },
+      {
+        "title": "BNI 官网（监管与联系方式信息）",
+        "url": "https://www.bni.co.id/id-id/"
+      },
+      {
+        "title": "BNI 官方 Instagram - KCP Simpang Limun 迁址公告（2023-08-28）",
+        "url": "https://www.instagram.com/p/CvXgAC3SuJr/"
+      },
+      {
+        "title": "DETAIL.ID - Begini Cara BNI Rayakan Harpelnas di Wilayah 01 Medan（RBD Head Ade Chandra 到访 Simpang Limun 网点，2024-09-04）",
+        "url": "https://detail.id/2024/09/begini-cara-bni-rayakan-harpelnas-di-wilayah-01-medan/"
+      },
+      {
+        "title": "DaftarPerusahaan - Bank BNI KCP SIMPANG LIMUN（登记电话 (061)7880241，银行代码009）",
+        "url": "https://www.daftarperusahaan.com/bank/bank-bni-kcp-simpang-limun"
+      },
+      {
+        "title": "Media Konsumen - Setor Tunai di BNI Simpang Limun Medan, Saldo Tidak Masuk（2020-03-27 读者来信）",
+        "url": "https://mediakonsumen.com/2020/03/27/surat-pembaca/setor-tunai-di-bni-simpang-limun-medan-saldo-tidak-masuk"
+      },
+      {
+        "title": "Waze 实时地图 - BNI KCP Simpang Limun（现址 Komplek Ruko PT Inatek No.A1A-2，营业 08:00-15:00）",
+        "url": "https://www.waze.com/live-map/directions/bni-kcp-simpang-limun-sisingamangaraja-medan?to=place.w.64684068.646840675.7909873"
+      },
+      {
+        "title": "Instagram 短视频 - Peresmian Gedung Baru BNI Sub Branch Office Simpang Limun - Medan（2023年新楼落成）",
+        "url": "https://www.instagram.com/reel/Cwe0TmvBIGi/"
+      }
+    ],
+    "notes": "分支机构按分行职能如实建档：支行级网点不设独立公开披露的负责人，key_people 仅列母行总裁董事（新发现，person_id=null 待主会话分配）；成立日期无公开来源，留空未编造。 ｜2026-09-15：related_entities重建，母行关联指向新设档案 ID-SOE-006（支行级实体，公开信息有限，建议后续与母行档案体系合并管理）。 ｜2026-09-17：P3收尾——依据官方迁址公告文本与 Waze 交叉确认迁址方向（由 No.18 旧址迁至同街 PT Inatek 商业楼群，含门牌 No.A1A-2），修正原事件描述；依据 DETAIL.ID 将 Harpelnas 事件日期修正为 2024-09-04 并补充来源；新增 2020-03-27 mediakonsumen.com ATM 客诉事件（该网点直接相关、可验证）；key_people 增补区域01 RBD Head Ade Chandra（单源报道，person_id=null，非网点负责人故不建 person 档案）；网点自身 kepala 无任何公开披露，不编造。风险提示：Instagram/Facebook 上多个以'BNI SIMPANG LIMUN'名义发布 WhatsApp 号码（如 081818188321、0895634455388 等）的第三方账号非 BNI 官方渠道（BNI 官方提示仅信任官方号码），一律未采信；BNI 官网《KCP 迁址公告》（articleid/21973）页面为 JS 渲染无法抓取正文，未引用。"
   }
 }

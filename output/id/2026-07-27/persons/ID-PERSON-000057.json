@@ -1,53 +1,369 @@
 {
   "person_id": "ID-PERSON-000057",
   "wikidata_qid": "Q1755191",
+  "name_zh": "苏丹·达迪尔·阿里夏巴纳",
   "name": "Sutan Takdir Alisjahbana",
   "name_en": "Sutan Takdir Alisjahbana",
-  "name_local": "Sutan Takdir Alisjahbana",
-  "name_zh": "苏丹·达迪尔·阿里夏巴纳",
-  "name_ms": "Sutan Takdir Alisyahbana",
-  "aliases": [],
+  "aliases": [
+    "S.T. Alisjahbana",
+    "STA",
+    "Sutan Takdir Alisyahbana"
+  ],
   "nationality": "ID",
   "gender": "male",
   "birth_date": "1908-02-11",
-  "birth_place": null,
+  "birth_place": "娜塔尔，北苏门答腊，荷属东印度 (Natal, North Sumatra, Dutch East Indies)",
   "contacts": [],
-  "current_positions": [
-    "校长",
-    "印度尼西亞立憲會議"
-  ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "current_positions": [],
+  "education": [
     {
-      "org_id": "ID-ACAD-003",
-      "org_name": "Universitas Al Azhar Indonesia",
-      "title": "Constitutional Assembly of Indonesia",
-      "relationship": "key_personnel",
-      "source": "manual_curated_binding"
+      "start_date": null,
+      "end_date": "1921",
+      "institution": "荷印学校 (HIS, Bengkulu)",
+      "degree": "primary",
+      "field": null
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "institution": "武吉丁宜师范学校 (Kweekschool Fort de Kock, Bukittinggi)",
+      "degree": "high_school",
+      "field": "师范教育"
+    },
+    {
+      "start_date": null,
+      "end_date": "1928",
+      "institution": "万隆高级师范学校 (Hogere Kweekschool, Bandung)",
+      "degree": "associate",
+      "field": "师范教育"
+    },
+    {
+      "start_date": "1937",
+      "end_date": "1942",
+      "institution": "巴达维亚高等法学院 (Rechtshoogeschool te Batavia, Jakarta)",
+      "degree": "master",
+      "field": "法学"
+    },
+    {
+      "start_date": "1940",
+      "end_date": "1942",
+      "institution": "印度尼西亚大学文学院 (Fakultas Sastra, Universiteit van Indonesie)",
+      "degree": "other",
+      "field": "普通语言学、东亚哲学"
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": "1928",
+      "end_date": "1929",
+      "organization": "巨港高级师范学校 (HKS Palembang)",
+      "org_id": null,
+      "position": "教师"
+    },
+    {
+      "start_date": "1930",
+      "end_date": "1933",
+      "organization": "图书编译局 (Balai Pustaka)",
+      "org_id": "ID-MEDIA-006",
+      "position": "文学编辑 (Redaktur)"
+    },
+    {
+      "start_date": "1933",
+      "end_date": "1942",
+      "organization": "新作家杂志 (Poedjangga Baroe)",
+      "org_id": null,
+      "position": "创办人兼主编"
+    },
+    {
+      "start_date": "1943",
+      "end_date": "1950",
+      "organization": "印尼语委员会 (Komisi Bahasa Indonesia)",
+      "org_id": null,
+      "position": "秘书，后任主席"
+    },
+    {
+      "start_date": "1946",
+      "end_date": "1948",
+      "organization": "印度尼西亚大学 (Universitas Indonesia)",
+      "org_id": null,
+      "position": "讲师（印尼语、历史、文化）"
+    },
+    {
+      "start_date": "1949",
+      "end_date": "1958",
+      "organization": "印度尼西亚国立大学 (Universitas Nasional)",
+      "org_id": null,
+      "position": "创办人、校长、教授"
+    },
+    {
+      "start_date": "1953",
+      "end_date": "1962",
+      "organization": "对抗杂志 (Konfrontasi)",
+      "org_id": null,
+      "position": "创办人兼主编"
+    },
+    {
+      "start_date": "1956",
+      "end_date": "1959",
+      "organization": "印度尼西亚制宪会议 (Konstituante)",
+      "org_id": null,
+      "position": "议员"
+    },
+    {
+      "start_date": "1956",
+      "end_date": "1958",
+      "organization": "安达拉斯大学 (Universitas Andalas)",
+      "org_id": "ID-ACAD-008",
+      "position": "客座教授（印尼语语法）"
+    },
+    {
+      "start_date": "1963",
+      "end_date": "1968",
+      "organization": "马来亚大学 (Universiti Malaya)",
+      "org_id": null,
+      "position": "马来语教授兼马来学研究系主任"
+    },
+    {
+      "start_date": "1970",
+      "end_date": "1994",
+      "organization": "雅加达学院 (Akademi Jakarta)",
+      "org_id": null,
+      "position": "主席"
+    },
+    {
+      "start_date": "1979",
+      "end_date": "1994",
+      "organization": "科学与文化杂志 (Majalah Ilmu dan Budaya)",
+      "org_id": null,
+      "position": "社长"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "ID-PERSON-000250",
+      "person_name": "穆罕默德·亚明 (Muhammad Yamin)",
+      "relationship_type": "colleague",
+      "description": "印尼独立前后的著名作家、历史学家与政治家，与阿里夏巴纳同为20世纪三四十年代印尼文坛的代表人物。"
+    },
+    {
+      "person_id": null,
+      "person_name": "阿米尊·巴内 (Armijn Pane)",
+      "relationship_type": "colleague",
+      "description": "1933年与阿里夏巴纳、阿米尔·哈姆扎共同创办文学月刊《新作家》(Poedjangga Baroe)。"
+    },
+    {
+      "person_id": null,
+      "person_name": "阿米尔·哈姆扎 (Amir Hamzah)",
+      "relationship_type": "colleague",
+      "description": "1933年与阿里夏巴纳、阿米尊·巴内共同创办文学月刊《新作家》(Poedjangga Baroe)。"
+    },
+    {
+      "person_id": null,
+      "person_name": "苏丹·沙里尔 (Sutan Sjahrir)",
+      "relationship_type": "other",
+      "description": "母系血亲；沙里尔为印度尼西亚首任总理。"
+    }
+  ],
   "social_accounts": [],
-  "biography_summary": "蘇丹·達迪爾·阿里夏巴納，印度尼西亞（印尼）作家、記者、語言學家，有「現代印尼語的設計師」之稱。在1941年之前，他是當地一位活躍的作家，著有《揚帆》等小說，同時也在當地的東西方文化論戰中，提出西方化的主張。之後他主要從事語言文化相關的教研工作，包括規範科技術語、撰寫語法書等。\n",
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "拉登·阿里夏巴纳 (Raden Alisyahbana)",
+      "relationship": "father",
+      "industry_or_organization": "教师"
+    },
+    {
+      "person_id": null,
+      "name": "普蒂·萨米亚 (Puti Samiah)",
+      "relationship": "mother",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "罗哈妮·达哈 (Raden Ajeng Rohani Daha)",
+      "relationship": "spouse",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "苏吉亚蒂 (Raden Roro Sugiarti)",
+      "relationship": "spouse",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "玛格丽特·阿克瑟 (Dr. Margaret Axer)",
+      "relationship": "spouse",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "萨米亚蒂·阿里夏巴纳 (Samiati Alisjahbana)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "伊斯坎达尔·阿里夏巴纳 (Iskandar Alisjahbana)",
+      "relationship": "son",
+      "industry_or_organization": "万隆理工学院 (ITB) 校长，帕拉帕卫星系统之父"
+    },
+    {
+      "person_id": null,
+      "name": "索菲安·阿里夏巴纳 (Sofyan Alisjahbana)",
+      "relationship": "son",
+      "industry_or_organization": "Femina Group 联合创始人"
+    },
+    {
+      "person_id": null,
+      "name": "米尔塔·卡尔托哈迪普罗乔 (Mirta Kartohadiprodjo)",
+      "relationship": "daughter",
+      "industry_or_organization": "Femina Group 联合创始人"
+    },
+    {
+      "person_id": null,
+      "name": "斯里·阿尔塔里亚·阿里夏巴纳 (Sri Artaria Alisjahbana)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "塔玛莉亚·阿里夏巴纳 (Tamalia Alisjahbana)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "玛丽塔·阿里夏巴纳 (Marita Alisjahbana)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "玛尔加·阿里夏巴纳 (Marga Alisjahbana)",
+      "relationship": "daughter",
+      "industry_or_organization": "作家"
+    },
+    {
+      "person_id": null,
+      "name": "马里奥·阿里夏巴纳 (Mario Alisjahbana)",
+      "relationship": "son",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "班邦·哈里穆尔蒂 (Bambang Harymurti)",
+      "relationship": "son_in_law",
+      "industry_or_organization": "《时代》周刊 (Tempo)"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "1948",
+      "topic": "文化论战 (Polemik Kebudayaan)",
+      "stance_content": "在《新作家》等刊物发表《迈向新社会与新文化》(Menuju Masyarakat dan Kebudayaan Baru) 等文章，主张印尼应学习西方文明的价值、以理性与个人主义推动民族文化现代化，认为20世纪的「印尼」是一种新观念，不应简单依附「前印尼」时代的传统；由此与 Sanusi Pane、Poerbatjaraka、Ki Hadjar Dewantara 等展开长期论战，论战文章由 Achdiat K. Mihardja 辑为《文化论战》(Polemik Kebudayaan) 一书于1948年出版。",
+      "source": "https://1001indonesia.net/sutan-takdir-alisjahbana-sastrawan-pelopor-angkatan-pujangga-baru/"
+    },
+    {
+      "date": "1938",
+      "topic": "印尼语国语化与语言现代化",
+      "stance_content": "倡议并于1938年在梭罗发起第一次印尼语大会 (Kongres Bahasa Indonesia I)，主张对印尼语进行现代化改造，使其成为民族团结的共同语，并能承载现代科学与技术知识。",
+      "source": "https://id.wikipedia.org/wiki/Sutan_Takdir_Alisjahbana"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "1929",
+      "organization": "图书编译局 (Balai Pustaka)",
+      "achievement": "首部长篇小说《祸不单行》(Tak Putus Dirundung Malang) 出版。"
+    },
+    {
+      "date": "1933",
+      "organization": "新作家杂志 (Poedjangga Baroe)",
+      "achievement": "与阿米尊·巴内、阿米尔·哈姆扎共同创办文学月刊《新作家》(Poedjangga Baroe)，成为荷属东印度时期最具影响力的文学阵地。"
+    },
+    {
+      "date": "1936",
+      "organization": "图书编译局 (Balai Pustaka)",
+      "achievement": "出版代表作长篇小说《扬帆》(Layar Terkembang)，成为印尼现代文学经典。"
+    },
+    {
+      "date": "1936",
+      "organization": null,
+      "achievement": "撰成《印尼语新语法》(Tatabahasa Baru Bahasa Indonesia)，为第一部由印尼学者系统撰写的印尼语语法专著。"
+    },
+    {
+      "date": "1938",
+      "organization": null,
+      "achievement": "倡议并发起第一次印尼语大会 (Kongres Bahasa Indonesia I)。"
+    },
+    {
+      "date": "1949",
+      "organization": "印度尼西亚国立大学 (Universitas Nasional)",
+      "achievement": "参与创办印度尼西亚国立大学 (Universitas Nasional) 并出任校长。"
+    },
+    {
+      "date": "1970",
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)",
+      "achievement": "获印度尼西亚共和国政府文化奖章 (Satyalancana Kebudayaan)。"
+    },
+    {
+      "date": "1979",
+      "organization": "印度尼西亚大学 (Universitas Indonesia)",
+      "achievement": "获印度尼西亚大学语言科学荣誉博士学位 (Doctor Honoris Causa)。"
+    },
+    {
+      "date": "1987",
+      "organization": "马来西亚理科大学 (Universiti Sains Malaysia)",
+      "achievement": "获马来西亚理科大学文学荣誉博士学位 (Doctor Honoris Causa)。"
+    },
+    {
+      "date": "1990",
+      "organization": "伦敦大学亚非学院 (SOAS, University of London)",
+      "achievement": "获伦敦大学亚非学院 (SOAS) 荣誉博士学位。"
+    },
+    {
+      "date": "2010",
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)",
+      "achievement": "被追授「伟大之子之星」阿迪普拉达纳级勋章 (Bintang Mahaputera Adipradana)；此前2000年已被追授纳拉里亚级 (Bintang Mahaputera Nararya)。"
+    }
+  ],
+  "biography_summary": "苏丹·达迪尔·阿里夏巴纳（Sutan Takdir Alisjahbana，1908年2月11日－1994年7月17日），印度尼西亚作家、诗人、语言学家和文学编辑，印尼现代文学的奠基人之一，有「现代印尼语的设计师」之称。他生于北苏门答腊娜塔尔一个米南加保家庭，先后就读于明古鲁荷印学校、武吉丁宜师范学校和万隆高级师范学校，1942年获巴达维亚高等法学院法学硕士（Mr.）学位。1930至1933年任图书编译局（Balai Pustaka）文学编辑；1933年与阿米尊·巴内、阿米尔·哈姆扎共同创办《新作家》（Poedjangga Baroe）杂志，代表作有《扬帆》（Layar Terkembang，1936）与《长明灯》（Dian yang Tak Kunjung Padam）等。他在1930至1940年代的文化论战中主张学习西方文明、推动民族文化现代化；1943年起任印尼语委员会秘书（后任主席），1938年倡议第一次印尼语大会，对印尼语的国语化与现代化有奠基性贡献。政治上属印度尼西亚社会党，曾任中央国民委员会委员（1945-1949）与制宪会议议员（1956-1959）。1949年参与创办印度尼西亚国立大学并任校长，后任教于安达拉斯大学和马来亚大学（1963-1968），1970年起主持雅加达学院直至去世。曾获印度尼西亚大学、马来西亚理科大学、伦敦大学亚非学院荣誉博士学位。1994年7月17日逝世于雅加达。",
   "profile": {
-    "source_url": "https://www.wikidata.org/wiki/Q1755191",
-    "local_path": null,
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sutan%20Takdir%20Alisjahbana%20Kesusastraan%20Modern%20Indonesia%20p6.jpg?width=500",
-    "primary_source": "Wikidata"
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sutan%20Takdir%20Alisjahbana%20Kesusastraan%20Modern%20Indonesia%20p6.jpg",
+    "local_path": "photos/ID-PERSON-000057.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: rector",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P4_person_lite",
+    "collection_date": "2026-09-17",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q1755191"
+      "wikipedia",
+      "wikidata",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile from Wikidata; multi-lang names + avatar + positions + social.",
-    "quotes": []
+    "completeness_score": 83,
+    "notes": "P4深度画像：Wikipedia英文/印尼语全文+Wikidata Q1755191实体数据+1001indonesia全文交叉。1) 生卒核实为1908-02-11娜塔尔（北苏门答腊）、1994-07-17雅加达，英/印尼语维基百科、Wikidata、BookBrainz等一致；任务简报所称「1908-02-12出生」「逝世于悉尼」均与来源不符，未采信。2) 简报所称「Lembaga Kebudayaan Indonesia创始人」「任教纽约大学」「1957年移居马来西亚」在本次读取的来源中无法核实，按铁律未写入；马来亚大学任教期采信印尼语维基百科（1963-1968）。3) work_experience依印尼语维基百科+1001indonesia重建：Balai Pustaka编辑1930-1933（与ID-MEDIA-006档案key_people记载一致），制宪会议议员任期采信Wikidata P39限定符（1956-11-09至1959-07-05）。4) 原档案person_relationships中指向ID-ACAD-003的manual_curated_binding条目不符合schema、且该组织档案无此人记录，已移除，其制宪会议身份改录入work_experience；原current_positions（校长/立宪会议）系历史职务非现任，清空。5) top-level多余字段（name_local/name_ms/importance_level/importance_reason/profile.photo_url/profile.primary_source）已清理，name_ms并入aliases。6) 家庭成员（3位妻子、父母、9名子女、女婿Tempo主编班邦·哈里穆尔蒂）据印尼语维基百科单源，已按实名收录。历史人物，无社媒账号与联系方式。",
+    "quotes": [
+      {
+        "title": "Sutan Takdir Alisjahbana - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Sutan_Takdir_Alisjahbana"
+      },
+      {
+        "title": "Sutan Takdir Alisjahbana - Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Sutan_Takdir_Alisjahbana"
+      },
+      {
+        "title": "Sutan Takdir Alisjahbana - Wikidata (Q1755191)",
+        "url": "https://www.wikidata.org/wiki/Q1755191"
+      },
+      {
+        "title": "Sutan Takdir Alisjahbana, Sastrawan Pelopor Angkatan Pujangga Baru - 1001indonesia.net",
+        "url": "https://1001indonesia.net/sutan-takdir-alisjahbana-sastrawan-pelopor-angkatan-pujangga-baru/"
+      },
+      {
+        "title": "Category:Sutan Takdir Alisjahbana - Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/Category:Sutan_Takdir_Alisjahbana"
+      }
+    ]
   }
 }

@@ -1,0 +1,298 @@
+{
+  "org_id": "CL-MIL-003",
+  "basic_info": {
+    "name_original": "Chilean Navy",
+    "name_zh": "智利海軍",
+    "name_en": "Chilean Navy",
+    "aliases": [
+      "navy of Chile",
+      "na Chile",
+      "Chile navy"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "CHL",
+    "hq_country_iso3": "CHL",
+    "founded_date": "1817-01-01",
+    "website": "https://www.armada.cl",
+    "wikidata_qid": "Q208711"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "Armada_Chile",
+      "url": "https://x.com/Armada_Chile",
+      "source": "wikidata + es.wikipedia + x.com 官方账号验证"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "ArmadaChile",
+      "url": "https://www.facebook.com/ArmadaChile/",
+      "source": "facebook.com 官方账号（约46万粉丝）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "armada_chile",
+      "url": "https://www.instagram.com/armada_chile/",
+      "source": "instagram.com 官方账号（约23.4万粉丝）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "armadachile",
+      "url": "https://www.youtube.com/@armadachile",
+      "source": "es.wikipedia 外部链接（Canal Oficial）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "armada-de-chile",
+      "url": "https://es.linkedin.com/company/armada-de-chile",
+      "source": "linkedin.com 官方公司页（约2.6万关注者）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Armada de Chile 官方网站 (Sitio web oficial)",
+      "url": "https://www.armada.cl",
+      "description": "智利海军官网，发布新闻稿、高层动态、海军组织架构与海上服务信息（Policía Marítima、水文气象等）",
+      "source": "es.wikipedia + 官网检索确认"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CL-PERSON-000436",
+      "name": "劳尔·萨莫拉诺·戈尼 (Raúl Zamorano Goñi)",
+      "title": "海军参谋长 (Jefe del Estado Mayor General de la Armada)",
+      "title_description": "海军总司令首席军事助手，中将军衔",
+      "description": "现役海军中将，领导海军参谋部，协助总司令进行作战规划、人事与后勤管理（据西语维基百科海军高层名录）。"
+    },
+    {
+      "person_id": "CL-PERSON-000437",
+      "name": "莱昂纳多·查韦斯·阿尔维亚尔 (Leonardo Chávez Alvear)",
+      "title": "海军服务总局局长 (Director General de los Servicios de la Armada)",
+      "title_description": "负责海军后勤、卫生、教育等服务保障体系，中将军衔",
+      "description": "现役海军中将，主管海军服务总局（福利、卫生、教育等横向保障职能），为总司令直接下属三大高层之一（据西语维基百科海军高层名录）。【勘误 2026-10-04】人物档案（CL-PERSON-000437）核实：其已于 2025-12-02 退役（获授智利海军服役勋章），继任服务总局局长为 César Delgado Boffil 少将（2025-12-01 就任）；退役后任海峡授权引航员。"
+    },
+    {
+      "person_id": "CL-PERSON-000004",
+      "name": "费尔南多·巴罗斯 (Fernando Barros)",
+      "title": "国防部长 (Ministro de Defensa Nacional)",
+      "title_description": "智利国家防务最高行政长官，海军在文官政府框架下接受国防部政策指导",
+      "description": "现任智利国防部长，智利海军作为军种之一隶属于国防部体系，其预算、装备采购（含国家造船政策2025-2040）与战略方向由国防部主导。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "海军作战司令部 (Comando de Operaciones Navales)",
+      "dept_id": "CL-MIL-003-DEPT-001",
+      "head": null,
+      "description": "负责和平时期海军部队训练与战时作战指挥的牵头司令部，下辖国家舰队、潜艇部队、海军陆战队、海军航空兵等作战力量",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国家舰队 (Escuadra Nacional)",
+      "dept_id": "CL-MIL-003-DEPT-002",
+      "head": null,
+      "description": "水面主战舰队，现役编成：3艘23型(公爵级)反潜护卫舰、2艘阿德莱德级防空护卫舰、2艘M级多用途护卫舰、1艘22型反潜护卫舰，全部具备舰载直升机与反舰/防空导弹能力",
+      "parent_dept_id": "CL-MIL-003-DEPT-001"
+    },
+    {
+      "name": "潜艇部队司令部 (Comando de la Fuerza de Submarinos)",
+      "dept_id": "CL-MIL-003-DEPT-003",
+      "head": null,
+      "description": "下辖2艘鲉鱼级(Scorpène)与2艘209型潜艇，基地位于塔尔卡瓦诺，已完成TDNS战术导航系统等现代化升级",
+      "parent_dept_id": "CL-MIL-003-DEPT-001"
+    },
+    {
+      "name": "海军陆战队 (Infantería de Marina)",
+      "dept_id": "CL-MIL-003-DEPT-004",
+      "head": null,
+      "description": "约5000人的两栖作战力量，核心为远征两栖旅(BAE)，主战投送平台为两栖船坞运输舰'Sargento Aldea'，2026年参与UNITAS LXV7两栖登陆演习",
+      "parent_dept_id": "CL-MIL-003-DEPT-001"
+    },
+    {
+      "name": "海军航空兵 (Aviación Naval)",
+      "dept_id": "CL-MIL-003-DEPT-005",
+      "head": null,
+      "description": "装备P-3 Orion与C-295海上巡逻机、H215M/Panther舰载直升机等，承担海上侦察巡逻、反潜/反舰与搜救任务",
+      "parent_dept_id": "CL-MIL-003-DEPT-001"
+    },
+    {
+      "name": "第一海军区 (Primera Zona Naval - 瓦尔帕莱索)",
+      "dept_id": "CL-MIL-003-DEPT-006",
+      "head": null,
+      "description": "海军总部所在地（瓦尔帕莱索），负责中段海域海事管辖、港口安全与后勤保障",
+      "parent_dept_id": null
+    },
+    {
+      "name": "第二海军区 (Segunda Zona Naval - 塔尔卡瓦诺)",
+      "dept_id": "CL-MIL-003-DEPT-007",
+      "head": null,
+      "description": "南部主要海军基地（塔尔卡瓦诺），毗邻ASMAR船厂，潜艇部队与主要修造设施所在地",
+      "parent_dept_id": null
+    },
+    {
+      "name": "第三海军区 (Tercera Zona Naval - 蓬塔阿雷纳斯)",
+      "dept_id": "CL-MIL-003-DEPT-008",
+      "head": null,
+      "description": "麦哲伦/南极方向海军区（蓬塔阿雷纳斯），2026年9月在此组织1800人规模演习后收拢兵力",
+      "parent_dept_id": null
+    },
+    {
+      "name": "第四海军区 (Cuarta Zona Naval - 伊基克)",
+      "dept_id": "CL-MIL-003-DEPT-009",
+      "head": null,
+      "description": "北部海军区（伊基克），辖区内阿里卡港为对玻利维亚/秘鲁方向毒品走私海上拦截重点区域",
+      "parent_dept_id": null
+    },
+    {
+      "name": "第五海军区 (Quinta Zona Naval - 蒙特港)",
+      "dept_id": "CL-MIL-003-DEPT-010",
+      "head": null,
+      "description": "湖区-洛斯 Lagos 方向海军区（蒙特港），辖区渔业与养殖运输繁忙，与国家警察协同打击该区域毒品犯罪",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海军学校'阿图罗·普拉特' (Escuela Naval Arturo Prat)",
+      "dept_id": "CL-MIL-003-DEPT-011",
+      "head": null,
+      "description": "海军军官摇篮，全部现役及预备役军官均出身于此，毕业授予见习少尉军衔",
+      "parent_dept_id": null
+    },
+    {
+      "name": "海军理工大学 (Academia Politécnica Naval) 及海军战争学院 (Academia de Guerra Naval)",
+      "dept_id": "CL-MIL-003-DEPT-012",
+      "head": null,
+      "description": "海军专门教育与高等军事教育机构，设武器系统、工程与后勤、作战支援三大学院；战争学院承担上校以下高级参谋培养",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-06-08",
+      "title": "智利海军海事警察参与查获历史最大宗毒品案103.8吨",
+      "description": "在阿里卡检察院主导下，智利海军海事警察(Policía Marítima)与国家海关、调查警察(PDI)、宪兵(Carabineros)协同，在阿里卡、圣安东尼奥与瓦尔帕莱索港口查获1080.8吨被可卡因/氯胺酮污染的木材货物，折算纯毒品103,846公斤，为智利历史上最大海上集装箱毒品查获案，毒品拟运往欧洲",
+      "impact": "凸显海军在港口集装箱毒品稽查与国家缉毒体系中的关键角色；强化对北部港口跨国走私网络的震慑",
+      "source": "https://www.armada.cl/foco-investigativo-de-la-fiscalia-de-arica-policia-maritima-y-aduana"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "'科克伦'号护卫舰启航参加RIMPAC 2026并开启太平洋部署",
+      "description": "国家舰队23型反潜护卫舰'Almirante Cochrane'(FF-05)启航，代表智利参加环太平洋演习RIMPAC 2026与Pacific Dragon导弹跟踪演习，部署近四个月（'Operación Pacífico'）；7月23日海军宣布智利实现连续30年参加RIMPAC，并在多国编队航行(Group Sail)中担任指挥角色",
+      "impact": "巩固智利在太平洋多国海军协作体系中的地位，提升与美、澳、日、韩等盟友的互操作性；直接支撑APEC贸易通道安全保障能力",
+      "source": "https://www.armada.cl/rimpac-2026-armada-de-chile-consolida-su-liderazgo-en-el-principal"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "海军1312名官兵参加2026年大阅兵，蒙特港海上缉毒行动同步进行",
+      "description": "海军1312名官兵在圣地亚哥奥希金斯公园参加独立日大阅兵(Parada Militar 2026)；同日蒙特港方向，海军与宪兵联合摧毁一个毒品犯罪团伙；海军陆战队9月还赴秘鲁参加UNITAS LXV7多国两栖登陆演习（24国参演）",
+      "impact": "展示海军全国存在与多线作战能力：国庆礼仪、区域多国演习与国内治安协同并行",
+      "source": "https://www.armada.cl/armada-de-chile-se-presenta-en-la-gran-parada-militar-2026"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "海军结束麦哲伦大规模演习部署（1800人+潜艇+护卫舰）",
+      "description": "海军结束在麦哲伦地区近两个月的'Jaukén 2026'联合演习支持行动，累计部署超过1800名官兵、潜艇、舰艇与飞机，配合陆军3000人向南极-麦哲伦方向的兵力投送；两栖部队随后返回瓦尔帕莱索",
+      "impact": "强化智利对南部海疆与南极门户(麦哲伦海峡/比格尔海峡)的军事存在与投送能力",
+      "source": "https://www.zona-militar.com/2026/09/28/tras-el-despliegue-de-1-800-efectivos-submarinos-aeronaves-y-fragatas-la-armada-de-chile-finalizo-sus-ejercitaciones-en-magallanes/"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "首艘多用途舰'麦哲伦'号在ASMAR下水，海军造船国产化提速",
+      "description": "ASMAR塔尔卡瓦诺船厂为国家海军'Escotillón IV'项目建造的首艘多用途舰'Magallanes'（约110米长、7987吨）下水，预计2027年底服役；第二艘'Rapa Nui'已开工。这是国防部《国家造船政策2025-2040》(2025年7月28日颁布)框架下的标志性工程，远期计划2032年起本土建造新护卫舰",
+      "impact": "海军舰队更新从'买二手'转向'国产新建'，带动比奥比奥大区船舶工业就业与产业链，长期提升海军自持能力",
+      "source": "https://es.wikipedia.org/wiki/Armada_de_Chile"
+    },
+    {
+      "date": "2025-06-18",
+      "title": "费尔南多·卡夫雷拉就任海军总司令",
+      "description": "博里奇总统6月6日任命海军中将费尔南多·卡夫雷拉·萨拉萨尔为新任海军总司令，6月18日在瓦尔帕莱索举行交接仪式就职，接替德·拉·马萨上将",
+      "impact": "海军高层换届，延续博里奇政府时期军队领导层轮换；新任总司令推动北部防汛部署与舰队现代化议程",
+      "source": "https://prensa.presidencia.cl/comunicado.aspx?id=300401"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CL-GOV-011",
+      "org_name": "智利国防部 (Ministry of National Defense)",
+      "org_type": "GOV",
+      "org_description": "智利国家防务最高行政机关，现任部长费尔南多·巴罗斯(Fernando Barros)",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "CL-MIL-001",
+      "org_name": "智利武装部队 (Chilean Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "智利武装力量总体框架，由陆军、海军、空军三大军种组成",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CL-GOV-001",
+      "org_name": "智利政府 (Government of Chile)",
+      "org_type": "GOV",
+      "org_description": "海军总司令由共和国总统任命并接受其指挥，国防预算由政府与国会审批",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CL-SOE-009",
+      "org_name": "智利造船厂 (ASMAR)",
+      "org_type": "SOE",
+      "org_description": "国有船厂（原海军船械局），承担海军舰艇建造维修：'麦哲伦'级多用途舰建造方、23型护卫舰PIDAA现代化升级执行方",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "CL-MIL-005",
+      "org_name": "智利国家警察/宪兵 (Carabineros de Chile)",
+      "org_type": "MIL",
+      "org_description": "治安警察部队，与海军海事警察在蒙特港等地联合打击毒品犯罪",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CL-MIL-006",
+      "org_name": "智利调查警察 (Investigations Police of Chile)",
+      "org_type": "MIL",
+      "org_description": "刑事警察，参与阿里卡港103.8吨历史性毒品查获案的联合调查",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "智利海军(Armada de Chile)成立于1817年（1818年组建第一支国家舰队），是智利武装力量的海上军种，总部设于瓦尔帕莱索。其法定使命是'提供海军力量与海事服务，以捍卫主权与领土完整'，同时承担海军作战与海岸警卫队双重职能。海军现役兵力约2.9万人（含海军陆战队与海军航空兵），按国土南北狭长分布设五个海军区：第一海军区（瓦尔帕莱索，总部）、第二海军区（塔尔卡瓦诺）、第三海军区（蓬塔阿雷纳斯）、第四海军区（伊基克）、第五海军区（蒙特港）。作战力量由海军作战司令部统辖，包括国家舰队（3艘23型反潜护卫舰、2艘阿德莱德级防空护卫舰、2艘M级护卫舰、1艘22型护卫舰）、潜艇部队（2艘鲉鱼级+2艘209型）、约5000人的海军陆战队（以两栖舰'Sargento Aldea'为投送核心）、海军航空兵（P-3 Orion、C-295海上巡逻机及H215M/Panther直升机）以及特种作战与两栖运输司令部。依托4300余公里海岸线与太平洋区位，海军独占行使海上警察权（通过海事辖区、港务长体系），承担海上人命安全、港口与航行安全、渔业与水环境监管及打击海上走私贩毒等任务。教育体系由'阿图罗·普拉特'海军学校（军官）、' Alejandro Navarrete Cisterna'水兵学校、海军理工大学与海军战争学院构成。当前战略重点是舰队更新：《国家造船政策2025-2040》推动国产化造船（ASMAR承建'麦哲伦'级多用途舰，2032年起拟本土建造新护卫舰），并持续参与RIMPAC、UNITAS等多国演习以保持与西方海军的互操作性。智利对外贸易90%以上经海运，海军承担的海上通道安全、专属经济区巡逻与港口缉毒职能直接关系国民经济命脉。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": "智利海军并非APEC机制参与方，无直接APEC表态；但作为太平洋沿岸国家海上力量的核心，其职能与APEC议程存在结构性关联：智利约90%的对外贸易依赖海运，2026年海军密集开展的海上通道安全行动（RIMPAC 2026/Pacific Dragon部署、麦哲伦海峡方向1800人演习、港口缉毒103.8吨历史性查获）实质上守护着APEC成员间贸易所依赖的南太平洋航线与智利港口体系（瓦尔帕莱索、圣安东尼奥、阿里卡等）的安全稳定。海军通过连续30年参加RIMPAC并与美国第三舰队、澳大利亚等APEC成员海军保持高度互操作，为区域海上公共产品供给提供了制度化通道。此外，海军主导的《国家造船政策2025-2040》与ASMAR的产能扩张，为未来APEC框架下的海事装备与船舶工业合作提供了潜在接口。可将其定位为'APEC海上贸易通道安全的军事保障者'，其表态可从护航缉毒、多国演习与港口安全合作等间接维度分析。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Coat_of_arms_of_the_Chilean_Navy.svg/330px-Coat_of_arms_of_the_Chilean_Navy.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-02",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_es (Armada de Chile)",
+      "official_website (armada.cl 新闻稿)",
+      "search_news (La Tercera / zona-militar / infodefensa / BioBio)",
+      "presidencia.cl (总统府公报)",
+      "official_social_media (X/Facebook/Instagram/YouTube/LinkedIn)"
+    ],
+    "completeness_score": 93,
+    "notes": "Phase3 enrichment: 高层（总司令Cabrera/参谋长Zamorano/服务局长Chávez）、五海军区、舰队编成、舰艇与教育院校据西语维基与官网；近12个月事件（RIMPAC 2026、103.8吨缉毒、麦哲伦演习、Magallanes舰下水）据armada.cl与军事媒体。人名未在_name_index命中故person_id为null（Fernando Barros除外）。 | 2026-10-08 P5 严格合规：1 名无档案关键人物移出 key_people（原登记无 profile，不满足 strict 解析要求），原文保留于此：费尔南多·卡夫雷拉·萨拉萨尔 (Fernando Cabrera Salazar)（海军总司令 (Comandante en Jefe de la Armada)）2025年6月6日由博里奇总统任命、6月18日就职，接替胡安·安德烈斯·德·拉·马萨。曾任海军参谋长（Jefe del Estado Mayor General）、第一海军区司令。任内主持2026年海洋月开幕、领导RIMPAC 2026部署与南部麦哲伦大规模演习，并推动国家造船政策（PNCCN）下的",
+    "quotes": [
+      {
+        "title": "Comandante en Jefe de la Armada inaugura el Mes del Mar 2026（总司令卡夫雷拉上将在康塞普西翁主持2026年海洋月开幕并发表海洋战略反思讲话）",
+        "url": "https://www.armada.cl/comandante-en-jefe-de-la-armada-inaugura-el-mes-del-mar-2026-el-oceano"
+      },
+      {
+        "title": "RIMPAC 2026: Armada de Chile consolida su liderazgo en el principal ejercicio naval multinacional del mundo（海军宣布连续30年参加RIMPAC，强调智利在国际海事安全中的领导角色）",
+        "url": "https://www.armada.cl/rimpac-2026-armada-de-chile-consolida-su-liderazgo-en-el-principal"
+      },
+      {
+        "title": "Presidente Gabriel Boric designa a Fernando Cabrera Salazar como nuevo Comandante en Jefe de la Armada（总统府公报：博里奇总统任命新海军总司令）",
+        "url": "https://prensa.presidencia.cl/comunicado.aspx?id=300401"
+      },
+      {
+        "title": "Comandante en Jefe de la Armada destaca despliegue en el norte por lluvias（总司令就北部洪涝部署发表讲话并宣布增派海军单位）",
+        "url": "https://www.latercera.com/nacional/noticia/comandante-en-jefe-de-la-armada-destaca-despliegue-en-el-norte-por-lluvias-y-anuncia-alistamientos-de-mas-unidades-navales/"
+      }
+    ]
+  }
+}

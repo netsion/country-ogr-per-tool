@@ -1,71 +1,356 @@
 {
   "org_id": "ID-GOV-029",
+  "wikidata_qid": "Q818711",
   "basic_info": {
     "org_id": "ID-GOV-029",
-    "wikidata_qid": "Q818711",
-    "name_en": "People's Consultative Assembly",
-    "name_zh": "人民协商会议",
-    "name_local": "Majelis Permusyawaratan Rakyat",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
+    "name_original": "Majelis Permusyawaratan Rakyat",
+    "name_zh": "印度尼西亚共和国人民协商会议",
+    "name_en": "People's Consultative Assembly of the Republic of Indonesia",
+    "founded_date": "1945-08-29",
+    "country_iso3": "IDN",
+    "hq_country_iso3": "IDN",
+    "website": "https://mpr.go.id/",
     "org_type": "GOV",
     "org_subtype": "legislature",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://mpr.go.id/",
-    "official_website": "https://mpr.go.id/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
-    "country_iso3": "IDN",
-    "name_original": "Majelis Permusyawaratan Rakyat"
+    "aliases": [
+      "MPR RI",
+      "Majelis Permusyawaratan Rakyat Republik Indonesia",
+      "People's Consultative Assembly (MPR)"
+    ]
   },
-  "description": "印度尼西亞的最高立法機關",
-  "brief": "印度尼西亞的最高立法機關",
-  "mission": null,
-  "core_business": "印度尼西亚共和国人民协商会议，简称人民协商会议或人协，是印度尼西亚的立法机关。人协实行两院制，由人民代表会议（下议院）和地方代表理事会（上议院）组成，负责制定、修改和颁布宪法，并对总统进行监督。如总统违宪，有权弹劾罢免总统。每5年换届选举。本届人协于2024年4月成立，共有议员732名，包括580名人民代表会议议员和152名地方代表理事会成员。人协设主席1名，副主席9名。现任主席为艾哈迈德·穆扎尼。\n",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [
+  "social_accounts": [
     {
-      "person_id": "ID-PERSON-000421",
-      "name": "Ahmad Muzani",
-      "title": "高管（来源：Wikidata 领导层声明）",
-      "title_description": "",
-      "description": ""
+      "platform": "twitter_x",
+      "account_name": "mprgoid",
+      "url": "https://x.com/mprgoid",
+      "source": "official_website; X account bio self-declared 'Akun Twitter Resmi MPR RI'（原档案 mpr_ri 为旧账号，已依现行官方账号更正）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "mprgoid",
+      "url": "https://www.instagram.com/mprgoid/",
+      "source": "official_website; Instagram bio self-declared 'Akun Resmi MPR RI'（原档案 mpr_ri 为旧账号，已更正）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "mprgoid",
+      "url": "https://www.facebook.com/mprgoid/",
+      "source": "official_website; Facebook 官方页（转发 mpr.go.id 新闻）（原档案 mprri 为旧页，已更正）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "MPR RI",
+      "url": "https://www.youtube.com/c/MPRRIofficial",
+      "source": "official_website"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "mprgoid",
+      "url": "https://www.tiktok.com/@mprgoid",
+      "source": "TikTok bio self-declared 'Akun TikTok Resmi MPR RI'"
     }
   ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "官网（法规、新闻与议会机构信息）",
+      "url": "https://mpr.go.id/",
+      "description": "website",
+      "source": "official_website"
+    },
+    {
+      "name": "四项共识文件库（Arsip Ketetapan MPR）",
+      "url": "https://mpr.go.id/ketetapan",
+      "description": "database",
+      "source": "official_website"
+    },
+    {
+      "name": "秘书处网站（Setjen MPR RI：机构人事与行政信息）",
+      "url": "https://setjen.mpr.go.id/",
+      "description": "website",
+      "source": "https://setjen.mpr.go.id/profilePejabat"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000730",
+      "name": "艾哈迈德·穆扎尼 (Ahmad Muzani)",
+      "title": "人民协商会议议长",
+      "title_description": "2024年10月3日当选2024-2029任期人民协商会议议长",
+      "description": "印尼大运动党（Gerindra）政治家，曾任该党总书记及2019-2024任期人协副主席，2024年10月经联席会议选举出任人协议长。"
+    },
+    {
+      "person_id": "ID-PERSON-000661",
+      "name": "鲁斯迪·基拉纳 (Rusdi Kirana)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一",
+      "description": "民族复兴党（PKB）系议员，Lion Air 集团创始人，曾任印尼驻马来西亚大使，2024年10月3日起任人协副主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000662",
+      "name": "班邦·武里扬托 (Bambang Wuryanto)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一",
+      "description": "斗争民主党（PDI-P）系议员，2024年10月3日起任人协副主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000663",
+      "name": "卡哈尔·穆扎基尔 (Kahar Muzakir)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一",
+      "description": "专业集团党（Partai Golkar）系议员，2024年10月3日起任人协副主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000664",
+      "name": "莱斯塔里·穆尔迪亚特 (Lestari Moerdijat)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一（自2019年10月3日起连任该职）",
+      "description": "国民民主党（NasDem）系议员（原档案误记为民族复兴党系，现依人协派系名单更正），2019年起连任人协副主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000665",
+      "name": "希达亚特·努尔·瓦希德 (Hidayat Nur Wahid)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一（自2014年10月8日起多届连任）",
+      "description": "公正福利党（PKS）系议员，2014年起多届担任人协副主席，是现任领导层中任职时间最长者。"
+    },
+    {
+      "person_id": null,
+      "name": "埃迪·苏帕尔诺 (Eddy Soeparno)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一",
+      "description": "国民授权党（Partai Amanat Nasional / PAN）系议员，2024年10月3日就任人协副主席（数据集内无对应人物档案，person_id 置空）。"
+    },
+    {
+      "person_id": "ID-PERSON-000722",
+      "name": "埃迪·巴斯克罗·尤多约诺 (Edhie Baskoro Yudhoyono)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一",
+      "description": "民主党（Partai Demokrat）系议员，前总统苏西洛之幼子，曾任民主党秘书长，2024年10月3日就任人协副主席。"
+    },
+    {
+      "person_id": null,
+      "name": "阿布坎德拉·阿克巴尔·苏普拉特曼 (Abcandra Akbar Supratman)",
+      "title": "人民协商会议副主席",
+      "title_description": "2024-2029任期人协副主席之一",
+      "description": "无党派（Independen）人士，出身地方代表理事会（DPD）议员，代表 DPD 群组（Kelompok Anggota）出任人协副主席（数据集内无对应人物档案，person_id 置空）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-029-DEPT-001",
+      "name": "人民协商会议领导层 (Pimpinan MPR RI)",
+      "head": "艾哈迈德·穆扎尼 (Ahmad Muzani)",
+      "description": "由1名议长和8名副主席共9人组成（原档案记为9名副主席，现依 MPR 官网与多家媒体更正为8名），副主席按各议会派系及 DPD 群组分配，主持全体会议并领导机构工作。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-029-DEPT-002",
+      "name": "特设委员会 (Panitia Ad Hoc / PAH MPR)",
+      "head": null,
+      "description": "由领导层与不少于5%、不多于10%的成员组成，构成比例反映各派系与 DPD 群组；负责特定宪政议程（如宪法修正草案）的拟订与审议，修宪须由至少1/3成员提出提案。",
+      "parent_dept_id": "ID-GOV-029-DEPT-001"
+    },
+    {
+      "dept_id": "ID-GOV-029-DEPT-003",
+      "name": "秘书处 (Sekretariat Jenderal MPR RI / Setjen MPR)",
+      "head": "西蒂·法齐娅 (Siti Fauziah)",
+      "description": "依2019年第45号总统条例设置的国家机构秘书处，由秘书长领导并对人协领导层负责，负责日常行政、财政、会务（含年度会议保障）等支持工作；人协2023年度预算拨款约8,221亿印尼盾。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-029-DEPT-004",
+      "name": "研究机构 (Badan Pengkajian MPR)",
+      "head": "亚索纳·劳利 (Yasonna Laoly)",
+      "description": "人协内部研究机构，负责重大宪政课题研究，当前主持《国家基本方针》（PPHN）草案的研拟工作。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-029-DEPT-005",
+      "name": "国家研究委员会 (Komisi Kajian Ketatanegaraan MPR / K3)",
+      "head": "陶菲克·巴沙里 (Taufik Basari)",
+      "description": "专责宪政研究的委员会，参与起草 PPHN 草案，并研究 MPR、DPR、DPD 职权重叠问题及2014年第17号法律（MD3 法）之外另立 MPR 法的必要性。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-10-01",
+      "title": "732名成员宣誓就职，2024-2029届人协正式成立",
+      "description": "由580名人民代表会议（DPR）议员与152名地方代表理事会（DPD）成员共732名新一届人协成员在雅加达议会综合体集体宣誓就职，仪式由最高法院院长穆罕默德·沙里福丁主持（原档案误记成立日期为2024-04-13，现依 CNN Indonesia、detik 等多来源更正为2024-10-01）。",
+      "impact": "2024年大选后新一届人协正式履职，启动本任期宪法职能议程。",
+      "source": "https://www.cnnindonesia.com/nasional/20241001114203-32-1150275/732-anggota-mpr-ri-periode-2024-2029-resmi-dilantik"
+    },
+    {
+      "date": "2024-10-03",
+      "title": "艾哈迈德·穆扎尼当选2024-2029任期人协议长",
+      "description": "人协举行第三次全体会议（Sidang Paripurna ke-III），确定由大运动党（Gerindra）秘书长艾哈迈德·穆扎尼出任议长，并产生由1名议长和8名副主席组成的领导层，接替班邦·苏萨蒂约；原档案称9名副主席，现依官网与多家媒体更正为8名。",
+      "impact": "完成2024年大选后国家立法机构领导层换届。",
+      "source": "https://www.mpr.go.id/berita/Pimpinan-MPR-Periode-2024-2029-Resmi-Dilantik-Dalam-Sidang-Paripurna-Ke-III-MPR-Tahun-2024"
+    },
+    {
+      "date": "2024-12-09",
+      "title": "西蒂·法齐娅出任人协秘书长",
+      "description": "议长艾哈迈德·穆扎尼在雅加达议会综合体主持高级公职人员宣誓就职仪式，西蒂·法齐娅（Siti Fauziah）正式就任2024-2029任期人协秘书长。",
+      "impact": "完成人协常设行政机构（秘书处）主要负责人更替。",
+      "source": "https://gerindra.id/2024/12/09/ahmad-muzani-lantik-siti-fauziah-sebagai-sekretaris-jenderal-mpr-ri/"
+    },
+    {
+      "date": "2025-08-15",
+      "title": "举行2025年度人协会议，普拉博沃首次发表国情演说",
+      "description": "2025年度人协会议（Sidang Tahunan MPR）及 DPR-DPD 联席会议提前至8月15日在雅加达努山塔拉大厦举行，总统普拉博沃·苏比安托发表就任后首次国情演说，并提交2026年度国家收支预算案（RUU APBN 2026）及财政说明。",
+      "impact": "确立总统每年在人协年度会议发表国情演说并提交预算案的宪政惯例在新政府下的延续。",
+      "source": "https://www.mpr.go.id/berita/mpr-ri-siap-gelar-sidang-tahunan-mpr-tahun-2025"
+    },
+    {
+      "date": "2025-08-21",
+      "title": "宪法日研讨会：人协表明对第五次修宪持开放但不仓促立场",
+      "description": "议长穆扎尼在议会综合体主持宪法日（8月18日，纪念1945年8月18日颁布宪法）系列研讨会「宪法的辩证：1945年宪法走向修宪25周年的反思」，表示作为唯一有权修宪的机构，人协将广泛听取学界与社会对修宪的意见，但既不关门也不贸然开闸。",
+      "impact": "为2025年底启动的第五次修宪与 PPHN 议程定下审慎基调。",
+      "source": "https://www.antaranews.com/berita/5054949/muzani-mpr-tak-tutup-rapat-sekaligus-buka-lebar-amendemen-uud"
+    },
+    {
+      "date": "2025-12-04",
+      "title": "普拉博沃要求修宪讨论勿操之过急",
+      "description": "议长穆扎尼透露12月2日拜会总统普拉博沃，总统要求宪法第五次修正案的讨论不要仓促行事，并将另行约见人协深入商谈；人协研究机构负责人亚索纳·劳利与国家研究委员会主席陶菲克·巴沙里主张修宪须经自下而上的广泛社会参与，并评估 PPHN 及 MPR 机构地位（涉及对 MD3 法的检讨）。",
+      "impact": "修宪议程进入总统与人协协调阶段，节奏放缓、以研究为先。",
+      "source": "https://www.kompas.id/artikel/muzani-presiden-minta-pembahasan-amandemen-konstitusi-tidak-terburu-buru"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "举行2026年度人协会议，普拉博沃发表国情演说并提交2027年度预算案",
+      "description": "2026年度人协会议及 DPR-DPD 联席会议于8月14日（周五）在雅加达努山塔拉大厦举行，总统普拉博沃为纪念独立81周年发表国情演说，并同时发表2027年度财政说明与国家收支预算草案。",
+      "impact": "人协年度宪政职能如期履行；政府施政方针与下年度预算经人协平台向社会公布。",
+      "source": "https://presidenri.go.id/siaran-pers/presiden-prabowo-sampaikan-pidato-kenegaraan-dalam-sidang-tahunan-mpr-serta-sidang-bersama-dpr-dan-dpd-ri-tahun-2026/"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "人协向公众开放《国家基本方针》（PPHN）草案征求意见",
+      "description": "人协领导层与研究机构、国家研究委员会8月28日议定，自8月29日16时起在官网公开 PPHN 草案全文，征集学界与社会各界意见；PPHN 定位为跨政府任期的国家发展哲学与方针基础（类似改革前 GBHN 的功能），总统已委托人协将其打造为跨届治国纲领，目标2027年成为法律产品。",
+      "impact": "人协在修宪之外推进 PPHN 立法化的关键公开步骤，强化公众参与。",
+      "source": "https://www.antaranews.com/berita/5715669/mpr-buka-akses-draf-pphn-kepada-publik-mulai-sabtu"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "举办宪法档案展览，展示建国以来制宪历程",
+      "description": "人协举办宪法档案展（Pameran Arsip Konstitusi），展出独立以来国家制宪与修宪的历史档案，配合 PPHN 草案公开与四大支柱宣传教育。",
+      "impact": "履行宪法与国家意识形态普及职能，服务 PPHN 社会化议程。",
+      "source": "https://www.antaranews.com/berita/5721580/mpr-pameran-arsip-konstitusi-ungkap-perjalanan-bangsa-sejak-merdeka"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-GOV-028",
+      "org_name": "人民代表会议 (Dewan Perwakilan Rakyat / DPR RI)",
+      "org_type": "GOV",
+      "org_description": "印度尼西亚下议院（立法机关），其580名议员同时为人协成员，人协派系即按 DPR 各政党党团划分。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "地方代表理事会 (Dewan Perwakilan Daerah / DPD RI)",
+      "org_type": "GOV",
+      "org_description": "印度尼西亚上议院性质机构，152名省级选举产生的代表同时为人协成员并组成人协内的「成员群组」（Kelompok Anggota）；数据集内无对应组织档案，org_id 置空。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "ID-PARTY-008",
+      "org_name": "大运动党 (Partai Gerakan Indonesia Raya / Gerindra)",
+      "org_type": "PARTY",
+      "org_description": "现任议长艾哈迈德·穆扎尼所属政党（穆扎尼曾任该党秘书长），该党在2024-2029届人协派系有86席。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "ID-GOV-032",
+      "org_name": "印度尼西亚共和国宪法法院 (Mahkamah Konstitusi Republik Indonesia)",
+      "org_type": "GOV",
+      "org_description": "宪法解释与违宪审查机关：人协审议总统/副总统弹劾案须以宪法法院裁决为前提；两机构在宪法职权上互补（人协修宪、宪法法院释宪）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-033",
+      "org_name": "印度尼西亚共和国选举委员会 (Komisi Pemilihan Umum / KPU)",
+      "org_type": "GOV",
+      "org_description": "全国选举管理机构，负责组织大选，选举产生组成人协的580名 DPR 议员与152名 DPD 成员。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-PARTY-009",
+      "org_name": "斗争民主党 (Partai Demokrasi Indonesia Perjuangan / PDI-P)",
+      "org_type": "PARTY",
+      "org_description": "现任人协副主席班邦·武里扬托所属政党，2024-2029届人协派系第一大党团（110席）。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "印度尼西亚共和国人民协商会议（印尼语缩写 MPR，简称人协）是依据1945年宪法设立的宪政机关，与人民代表会议（DPR）、地方代表理事会（DPD）、总统、最高法院、宪法法院等并列为国家机关。其前身可追溯至独立初期的人民代表会议核心委员会（KNIP），1959年7月5日总统令后组建临时人民协商会议（MPRS），1999至2002年四阶段宪法修正后，人协由修宪前的「最高国家机构」（曾负责选举总统、制定国家大政方针 GBHN）转型为与其他国家机关平权的宪政机关，自2004年起总统、副总统改由全民直选产生。人协实行两院结构，由 DPR 全体议员与 DPD 全体成员共同组成，2024-2029届共732名成员（DPR 580席、DPD 152席），内部按9个政党派系与 DPD 成员群组运作。人协的法定职权包括：修改和制定1945年宪法（须至少1/3成员提案、全体成员过半数通过，且不得触及宪法序言与单一制国家形态）、在总统就职典礼上任命正副总统、依据宪法法院裁决审议 DPR 提出的总统/副总统罢免案（须3/4成员出席、出席者2/3赞成）、以及在正副总统职位同时出缺时从上届大选得票前两组候选人中补选继任者。人协设议长1名、副主席8名，现任议长为艾哈迈德·穆扎尼（2024年10月就任），另设秘书处及特设委员会、研究机构、国家研究委员会等内部机关，2023年度预算拨款约8,221亿印尼盾。人协还负有向全社会宣讲「四大支柱」（潘查希拉、1945年宪法、印度尼西亚统一共和国、多样性中的统一）的法定职责，近年主导起草作为跨任期治国纲领的《国家基本方针》（PPHN）。会址位于雅加达议会综合体（Gedung DPR/MPR），中长期规划迁往努山塔拉新首都。",
+  "industries": [
+    "legislative"
+  ],
+  "apec_stance": "人民协商会议作为印尼国家宪政机构，本身不直接参与 APEC 框架下的经贸谈判；涉经贸立法与审议职能主要由人民代表会议（国会）相关委员会承担。印尼作为 APEC 创始成员和2020年 APEC 东道主（视频系列会议），其立法机构对区域经贸合作相关国内法律程序提供支持。对华关系方面，印尼奉行一个中国政策，两国立法机构保持友好交流。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_corrected_qid",
-    "completeness_score": 50,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q818711"
+      "https://gerindra.id/2024/10/02/ahmad-muzani-disepakati-jadi-ketua-mpr-ri-2024-2029/",
+      "https://gerindra.id/2024/12/09/ahmad-muzani-lantik-siti-fauziah-sebagai-sekretaris-jenderal-mpr-ri/",
+      "https://id.wikipedia.org/wiki/Ahmad_Muzani",
+      "https://id.wikipedia.org/wiki/Majelis_Permusyawaratan_Rakyat",
+      "https://mpr.go.id/",
+      "https://mpr.go.id/alat-kelengkapan/pimpinan-mpr-ri",
+      "https://presidenri.go.id/siaran-pers/presiden-prabowo-sampaikan-pidato-kenegaraan-dalam-sidang-tahunan-mpr-serta-sidang-bersama-dpr-dan-dpd-ri-tahun-2026/",
+      "https://setjen.mpr.go.id/",
+      "https://www.antaranews.com/berita/5054949/muzani-mpr-tak-tutup-rapat-sekaligus-buka-lebar-amendemen-uud",
+      "https://www.antaranews.com/berita/5715669/mpr-buka-akses-draf-pphn-kepada-publik-mulai-sabtu",
+      "https://www.antaranews.com/berita/5721580/mpr-pameran-arsip-konstitusi-ungkap-perjalanan-bangsa-sejak-merdeka",
+      "https://www.cnnindonesia.com/nasional/20241001114203-32-1150275/732-anggota-mpr-ri-periode-2024-2029-resmi-dilantik",
+      "https://www.kompas.id/artikel/muzani-presiden-minta-pembahasan-amandemen-konstitusi-tidak-terburu-buru",
+      "https://www.mpr.go.id/berita/Pimpinan-MPR-Periode-2024-2029-Resmi-Dilantik-Dalam-Sidang-Paripurna-Ke-III-MPR-Tahun-2024",
+      "https://www.mpr.go.id/berita/mpr-ri-siap-gelar-sidang-tahunan-mpr-tahun-2025",
+      "https://www.tiktok.com/@mprgoid",
+      "https://x.com/mprgoid"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q254841; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "MPR RI 官网：Pimpinan MPR RI（领导层名单）",
+        "url": "https://mpr.go.id/alat-kelengkapan/pimpinan-mpr-ri"
+      },
+      {
+        "title": "Wikipedia bahasa Indonesia: Ahmad Muzani（2024-10-03 就任议长）",
+        "url": "https://id.wikipedia.org/wiki/Ahmad_Muzani"
+      },
+      {
+        "title": "Wikipedia bahasa Indonesia: Majelis Permusyawaratan Rakyat",
+        "url": "https://id.wikipedia.org/wiki/Majelis_Permusyawaratan_Rakyat"
+      },
+      {
+        "title": "Gerindra 官网：Ahmad Muzani Disepakati Jadi Ketua MPR RI 2024-2029",
+        "url": "https://gerindra.id/2024/10/02/ahmad-muzani-disepakati-jadi-ketua-mpr-ri-2024-2029/"
+      },
+      {
+        "title": "MPR RI 官网：Pimpinan MPR Periode 2024-2029 Resmi Dilantik（1议长+8副主席）",
+        "url": "https://www.mpr.go.id/berita/Pimpinan-MPR-Periode-2024-2029-Resmi-Dilantik-Dalam-Sidang-Paripurna-Ke-III-MPR-Tahun-2024"
+      },
+      {
+        "title": "CNN Indonesia：732 Anggota MPR RI Periode 2024-2029 Resmi Dilantik（2024-10-01）",
+        "url": "https://www.cnnindonesia.com/nasional/20241001114203-32-1150275/732-anggota-mpr-ri-periode-2024-2029-resmi-dilantik"
+      },
+      {
+        "title": "Presiden RI 官网：Prabowo 在2026年度人协会议发表国情演说（2026-08-14）",
+        "url": "https://presidenri.go.id/siaran-pers/presiden-prabowo-sampaikan-pidato-kenegaraan-dalam-sidang-tahunan-mpr-serta-sidang-bersama-dpr-dan-dpd-ri-tahun-2026/"
+      },
+      {
+        "title": "ANTARA：MPR buka akses draf PPHN kepada publik mulai Sabtu（2026-08-28）",
+        "url": "https://www.antaranews.com/berita/5715669/mpr-buka-akses-draf-pphn-kepada-publik-mulai-sabtu"
+      },
+      {
+        "title": "Kompas.id：Muzani — 总统要求修宪讨论勿操之过急（2025-12-04）",
+        "url": "https://www.kompas.id/artikel/muzani-presiden-minta-pembahasan-amandemen-konstitusi-tidak-terburu-buru"
+      }
+    ],
+    "notes": "P3 enriched (2026-09-17)。本次更正：领导层为1议长+8副主席（原误记9名，依 mpr.go.id/Wikipedia/Kompas 交叉确认）；Lestari Moerdijat 所属政党更正为 NasDem；新一届人协成立日期更正为2024-10-01（原误记2024-04-13）；官方社媒账号更正为 @mprgoid 并新增 TikTok（原 mpr_ri/mprri 为旧账号）。新增副主席 Eddy Soeparno（null）、Edhie Baskoro Yudhoyono（ID-PERSON-000722）、Abcandra Akbar Supratman（null）；部门新增研究机构（Badan Pengkajian，负责人 Yasonna Laoly）与国家研究委员会（K3，负责人 Taufik Basari），秘书处负责人 Siti Fauziah（索引未命中，head 为自由文本）。recent_events 增补2024-12-09、2025-08-15、2025-08-21、2025-12-04、2026-08-14、2026-08-28、2026-09-01 共7条（含 PPHN 草案公开、年度会议、修宪讨论）。related_entities 重构为 schema 字段并新增 DPD（null）、宪法法院（ID-GOV-032）、选委会（ID-GOV-033）、PDI-P（ID-PARTY-009）。strict 下 person_id/org_id 置空属数据集已知系统性豁免。；[schema修复并档] ；high"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/MPR_RI_2024%E2%80%932029.svg/250px-MPR_RI_2024%E2%80%932029.svg.png",
+    "local_path": null
   }
 }

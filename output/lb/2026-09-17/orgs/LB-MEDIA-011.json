@@ -1,0 +1,145 @@
+{
+  "org_id": "LB-MEDIA-011",
+  "basic_info": {
+    "name_original": "صوت لبنان",
+    "name_zh": "黎巴嫩之声电台",
+    "name_en": "Voice of Lebanon (VDL 100.3/100.5)",
+    "aliases": [
+      "La Voix du Liban",
+      "صوت الحرية والكرامة",
+      "VDL",
+      "vdl24"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "broadcaster",
+    "country_iso3": "LBN",
+    "hq_country_iso3": "LBN",
+    "founded_date": "1975-10-13",
+    "website": "https://www.vdl.me/",
+    "wikidata_qid": "Q3562509"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "VDL radio station 100.5 - إذاعة صوت لبنان",
+      "url": "https://www.facebook.com/p/VDL-radio-station-1005-%D8%A5%D8%B0%D8%A7%D8%B9%D8%A9-%D8%B5%D9%88%D8%AA-%D9%84%D8%A8%D9%86%D8%A7%D9%86-100066581889630/",
+      "source": "Facebook 官方页（搜索结果确认）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "黎巴嫩之声官方网站 vdl.me",
+      "url": "https://www.vdl.me/",
+      "description": "电台官网，含新闻、节目表与在线直播（音频/视频）。",
+      "source": "https://www.vdl.me/"
+    },
+    {
+      "name": "vdl24 数字新闻平台",
+      "url": "https://www.vdl.me/",
+      "description": "电台旗下 24 小时数字新闻平台（官网自述）。",
+      "source": "官网 about 页搜索摘要"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "LB-PERSON-000257",
+      "name": "约瑟夫·阿布·哈利勒 (جوزيف أبو خليل)",
+      "title": "联合创始人",
+      "title_description": "电台创办的主要推动者",
+      "description": "长枪党出身的政治人物，1958 年黎巴嫩危机期间参与创办黎巴嫩之声（英语维基百科 Voice of Lebanon 条目）。"
+    },
+    {
+      "person_id": "LB-PERSON-000277",
+      "name": "易卜拉欣·库尔耶 (إبراهيم الخوري)",
+      "title": "前董事长",
+      "title_description": "1975 年复播时期的主导者",
+      "description": "英语维基百科记载其为 1975 年电台复播的主要负责人之一（与前董事长职务以维基表述 ex-chairman 为准）。"
+    },
+    {
+      "person_id": "LB-PERSON-000314",
+      "name": "约瑟夫·哈希姆 (جوزيف الهاشم)",
+      "title": "复播时期管理者",
+      "title_description": null,
+      "description": "英语维基百科记载的 1975 年复播关键人物之一。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑室 (News Room)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责新闻快报、时政谈话节目与特别报道的制作（官网栏目与 Streema 台介绍）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2010-12-01",
+      "title": "「黎巴嫩之声」双台同名纠纷爆发",
+      "description": "自 2010 年 12 月 1 日起，两家电台同时使用「黎巴嫩之声」呼号运营：长枪党经 Société Nouvelle d'Information S.A.L. 运营 100.3/100.5 MHz（阿什拉斐耶播出），独立运营方以 93.3 MHz 使用同一名称，引发诉讼。",
+      "impact": "名称归属之争持续近十年，成为黎巴嫩媒体行业标志性的品牌权纠纷。",
+      "source": "https://en.wikipedia.org/wiki/Voice_of_Lebanon"
+    },
+    {
+      "date": "2020-01-01",
+      "title": "法院判决归还呼号，长枪党收回「黎巴嫩之声」",
+      "description": "经法院裁决，长枪党收回「黎巴嫩之声」名称使用权；93.3 的独立电台更名为「全黎巴嫩之声」(Sawt kul Lubnan) 以作区分（仅知年份，月份未获可靠来源）。",
+      "impact": "品牌权归属落定，100.3/100.5 成为唯一合法使用「黎巴嫩之声」名称的电台。",
+      "source": "https://en.wikipedia.org/wiki/Voice_of_Lebanon"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "LB-PARTY-005",
+      "org_name": "长枪党 (الكتائب اللبنانية)",
+      "org_type": "PARTY",
+      "org_description": "黎巴嫩主要基督教政党，1958 年创办该电台并于 2020 年经法院判决收回呼号所有权。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "LB-MEDIA-005",
+      "org_name": "新信息公司 (Société Nouvelle d'Information S.A.L.)",
+      "org_type": "CORP",
+      "org_description": "运营 100.3/100.5 频率的持牌公司（英语维基百科记载）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "LB-MEDIA-030",
+      "org_name": "全黎巴嫩之声 (صوت كل لبنان)",
+      "org_type": "MEDIA",
+      "org_description": "原 93.3 MHz 的同名竞争电台，败诉后更名以示区分。",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "黎巴嫩之声（Voice of Lebanon，VDL）是总部位于贝鲁特阿什拉斐耶区的私营国家性调频电台，频率为 100.3/100.5 MHz，旗下另有数字新闻平台 vdl24。该台由长枪党于 1958 年黎巴嫩危机期间创办，首任主要推动者约瑟夫·阿布·哈利勒，早期仅播出数月即中断；1975 年 10 月 13 日黎巴嫩内战爆发之际复播，由易卜拉欣·库尔耶等人主导，先以中波播出后扩展至调频。节目形态以新闻快报、时政谈话、直播报道及社会文化类内容为主，口号为「自由与尊严之声」（صوت الحرية والكرامة）。2010 年 12 月起因双台同名纠纷陷入近十年诉讼，2020 年经法院判决收回名称。现行定位为面向黎巴嫩全社会各阶层的综合性新闻时政电台，通过官网 vdl.me、在线直播与移动应用分发内容。",
+  "industries": [
+    "broadcasting"
+  ],
+  "apec_stance": null,
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "web_search"
+    ],
+    "completeness_score": 57,
+    "notes": "由主会话直接整理（该实体两次派发子代理均触发平台内容过滤）。来源：英语维基百科 Voice of Lebanon（Q3562509，含双台纠纷与 2020 判决）、官网 vdl.me 搜索摘要（1958 首播/1975-10-13 复播/频率 100.3+100.5/vdl24）、Facebook 官方页、Streema 台介绍。官网 about 页遭 Cloudflare 拦截未直接读取，正文事实取自其搜索摘要并与维基交叉。现任管理层未能确认，未硬凑；founded_date 采用官网复播日期 1975-10-13，1958 年首次试播写入沿革描述。",
+    "quotes": [
+      {
+        "title": "Voice of Lebanon - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Voice_of_Lebanon"
+      },
+      {
+        "title": "Voice of Lebanon - صوت لبنان (official site)",
+        "url": "https://www.vdl.me/"
+      },
+      {
+        "title": "من نحن – Voice of Lebanon (about page, via search snapshot)",
+        "url": "https://www.vdl.me/about-us/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "org_id": "CD-MEDIA-002",
+  "basic_info": {
+    "name_original": "Radio Okapi",
+    "name_zh": "奥卡皮电台",
+    "name_en": "Radio Okapi",
+    "aliases": [
+      "Radio Okapi",
+      "La Frequence de la Paix"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "broadcaster",
+    "country_iso3": "COD",
+    "hq_country_iso3": "COD",
+    "founded_date": "2002-02-25",
+    "website": "http://www.radiookapi.net/",
+    "wikidata_qid": "Q668151"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "radiookapi",
+      "url": "https://twitter.com/radiookapi",
+      "source": "official_website_footer"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "radiookapi",
+      "url": "https://www.facebook.com/radiookapi",
+      "source": "official_website_footer"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官方网站（新闻门户）",
+      "url": "http://www.radiookapi.net/",
+      "description": "电台新闻门户网站，以法语为主，设政治、经济、社会、文化、环境、体育、媒体评论等频道并提供五语种新闻音频；MONUSCO 官网称该网站每月访问量超过200万人次。",
+      "source": "official_website"
+    },
+    {
+      "name": "网络在线直播页",
+      "url": "https://www.radiookapi.net/page/ecouter-radio-okapi-en-ligne",
+      "description": "提供电台全天24小时网络直播流在线收听，服务刚果（金）国内及海外侨民听众。",
+      "source": "official_website"
+    },
+    {
+      "name": "少儿频道在线直播",
+      "url": "https://www.radiookapi.net/page/ecouter-radio-okapi-enfant-en-direct",
+      "description": "Radio Okapi Enfant（奥卡皮少儿电台）网络直播页，面向儿童听众播出教育类节目。",
+      "source": "official_website"
+    },
+    {
+      "name": "新闻RSS订阅源",
+      "url": "https://feeds.feedburner.com/radiookapi/actu?format=xml",
+      "description": "官网新闻聚合订阅源（Feedburner），提供最新新闻稿件的RSS推送。",
+      "source": "official_website"
+    },
+    {
+      "name": "TuneIn网络收听频道",
+      "url": "https://tunein.com/radio/Radio-Okapi-1035-s9667/",
+      "description": "电台在Tunein平台上的官方频道（金沙萨103.5），供全球听众在线收听。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CD-PERSON-000320",
+      "name": "乔伊斯·费尔南德斯·德皮纳（Joyce Christine Fernandes de Pina）",
+      "title": "台长（Chef/Directrice de Radio Okapi）",
+      "title_description": "主持电台全面工作，行政上隶属联刚稳定团公共信息部门，职称同时为联合国高级公共信息干事",
+      "description": "联合国维和系统官员，以联刚稳定团（MONUSCO）高级公共信息干事身份执掌电台。2024年2月世界无线电日以台长身份接受联合国新闻专访，谈电台面向普通民众的定位；MONUSCO官网2026年1月29日更新的联系人页面仍以其为电台负责人。任内正值MONUSCO缩编撤出进程，其任务是维持电台全国播出并确保向独立公共电台过渡。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑部（Redaction centrale）",
+      "dept_id": "CD-MEDIA-002-DEPT-001",
+      "head": "",
+      "description": "设于金沙萨总部的中央编辑部，统筹全台新闻采编，以法语及林加拉语、斯瓦希里语、基刚果语（Kituba）、奇卢巴语四种国家语言制作全天候新闻节目和《刚果人对话》《听众之声》《今日嘉宾》等旗舰栏目。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "戈马地区台（Antenne de Goma）",
+      "dept_id": "CD-MEDIA-002-DEPT-002",
+      "head": "",
+      "description": "电台六大区域工作室之一，负责北基伍省采访报道。2025年1月戈马被AFC/M23武装占领后运作严重受限；2025年11月14日，戈马信号在因技术故障中断三天后恢复，电台并澄清并非叛军人为切断。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "布卡武地区台（Antenne de Bukavu）",
+      "dept_id": "CD-MEDIA-002-DEPT-003",
+      "head": "",
+      "description": "电台六大区域工作室之一，负责南基伍省报道。2007年记者塞尔日·马埃谢在此遇害；2024年5月2日，随MONUSCO从南基伍省撤出，布卡武站正式关闭。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "卡南加地区台（Antenne de Kananga）",
+      "dept_id": "CD-MEDIA-002-DEPT-004",
+      "head": "",
+      "description": "电台六大区域工作室之一，负责开赛地区的采访报道与区域新闻供给。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-27",
+      "title": "戈马被AFC/M23攻占，电台东部新闻采编遭遇危机",
+      "description": "2025年1月27日，AFC/M23武装攻占北基伍省首府戈马，当地媒体被迫噤声、记者无法正常报道。无国界记者（RSF）1月29日发表声明，警告北基伍的信息权面临严重危险；奥卡皮电台在戈马的采编与播出受到严重冲击。",
+      "impact": "电台在东部占领区的采访与信号传输受阻，对东部省份的报道重心转移至金沙萨总部与网络平台；此后电台持续成为M23方面施压的对象。",
+      "source": "https://rsf.org/en/crisis-drc-north-kivu-right-information-grave-danger"
+    },
+    {
+      "date": "2025-02-25",
+      "title": "奥卡皮电台成立23周年",
+      "description": "电台迎来首播23周年（2002年2月25日首播）。电台以对抗党派化、偏袒性信息为主题回顾23年历程，并播出《听众之声》23周年特别节目，听众来电肯定其作为联合国电台在刚果（金）信息生态中的公信力。",
+      "impact": "在东部危机背景下强化了电台作为刚果（金）最受信任媒体之一的公共形象与编辑独立定位。",
+      "source": "https://www.radiookapi.net/2025/02/26/actualite/societe/radio-okapi-23-ans-de-lutte-contre-les-informations-partisanes-et-de"
+    },
+    {
+      "date": "2025-06-05",
+      "title": "电台首位刚果籍总编辑莱昂纳尔·穆兰巴·卡拉拉去世",
+      "description": "莱昂纳尔·穆兰巴·卡拉拉（Leonard Mulamba Kalala）6月5日在金沙萨去世。他2002年建台时加入电台，从编辑部秘书做起，成为首位刚果籍总编辑，服务近20年；6月20日安葬于金沙萨，电台播出多期追思节目。",
+      "impact": "创台一代本地新闻骨干的谢幕，电台借悼念活动重申其职业标准与本地人才培养传统。",
+      "source": "https://www.radiookapi.net/2025/06/05/actualite/societe/deces-de-leonard-mulamba-premier-redacteur-en-chef-congolais-de-radio"
+    },
+    {
+      "date": "2025-11-08",
+      "title": "M23指认电台传播虚假信息并威胁在其控制区停播",
+      "description": "M23发言人劳伦斯·坎尤卡（Lawrence Kanyuka）公开指责奥卡皮电台传播涉叛军的虚假信息；大湖新闻等媒体报道指出，坎尤卡此前已威胁在叛军控制的戈马、布卡武等地区暂停奥卡皮电台的广播。",
+      "impact": "电台编辑独立性与记者安全在东部占领区面临直接压力，成为2025年刚果（金）新闻自由状况恶化的代表性事件之一。",
+      "source": "https://www.grandslacsnews.com/posts/rdc-le-m23-s-en-prend-a-la-radio-okapi-et-l-accuse-de-relayer-une-fausse-information-a-son-encontre-10536?author=69&page=1013"
+    },
+    {
+      "date": "2025-11-14",
+      "title": "戈马信号中断三天后恢复",
+      "description": "奥卡皮电台官方宣布，戈马地区的信号于11月14日（周五）早间恢复；此前信号中断约三天。电台澄清中断原因为技术故障，并非M23叛军人为切断。",
+      "impact": "在M23占领区维持播出的能力得到恢复，缓解了听众对电台被彻底切断的担忧。",
+      "source": "https://www.facebook.com/radiookapi/posts/radio-okapi-est-de-nouveau-accessible-depuis-ce-vendredi-14-novembre-matin-le-si/1266309905526032/"
+    },
+    {
+      "date": "2025-12-19",
+      "title": "安理会第2808号决议延长MONUSCO任期一年，电台运营框架得以延续",
+      "description": "联合国安理会于2025年12月19日一致通过第2808（2025）号决议，将MONUSCO任期延长至2026年12月20日，维持11,500名军人的授权上限。作为MONUSCO管理和供资的电台，奥卡皮电台2026年的运营与经费框架随之延续。",
+      "impact": "缓解了MONUSCO撤出背景下电台资金断档的近期风险；中长期仍需落实向独立公共电台过渡的可持续资金安排。",
+      "source": "https://www.radiookapi.net/2025/12/20/actualite/politique/le-mandat-de-la-monusco-prolonge-jusquau-20-decembre-2026"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "奥卡皮电台成立24周年",
+      "description": "电台庆祝开播24周年，官方社交媒体以和平频率（La frequence de la paix）为题回顾历程；电台报道援引业界人士评价，称其24年来坚持提供经过核实的信息，在虚假信息泛滥的环境中保持公信力。",
+      "impact": "在MONUSCO任期延长后的新阶段，电台以周年活动重申其向国家公共信息机构过渡的长期使命。",
+      "source": "https://www.radiookapi.net/2026/02/25/actualite/societe/24-ans-apres-sa-creation-radio-okapi-diffuse-une-information-verifiee"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CD-INTL-006",
+      "org_name": "联合国刚果（金）稳定特派团（MONUSCO）",
+      "org_type": "国际组织",
+      "org_description": "联合国安理会授权的驻刚果（金）维和特派团（2000年2月24日第1291号决议设立，时称MONUC），奥卡皮电台的创建者、所有者与直接管理方，负责电台运营经费、编制与人事。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CD-INTL-028",
+      "org_name": "联合国（United Nations）",
+      "org_type": "国际组织",
+      "org_description": "奥卡皮电台隶属于联合国体系，被称为联合国在刚果（金）的电台（la radio des Nations unies en RDC），依托安理会维和授权框架设立并运作。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CD-非营利组织-002",
+      "org_name": "伊隆代勒基金会（Fondation Hirondelle）",
+      "org_type": "非营利组织",
+      "org_description": "瑞士专注危机地区媒体建设的非政府组织。2001年12月2日与MONUC签署谅解备忘录，共同设计并创办奥卡皮电台；2002年至2014年12月依据该备忘录与MONUSCO共同管理电台，其后仍长期为刚果（金）媒体提供培训等支持。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-GOV-009",
+      "org_name": "视听和传播最高委员会（Conseil Superieur de l'Audiovisuel et de la Communication）",
+      "org_type": "政府机构",
+      "org_description": "刚果（金）视听与媒体行业监管机构，对包括奥卡皮电台在内的广播媒体行使监管权。2012年12月1日其曾以技术理由暂停电台在金沙萨的广播，外界普遍解读为针对电台采访M23政治领导人让-马里·鲁尼加的报复。",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "奥卡皮电台是由联合国刚果（金）稳定特派团（MONUSCO）管理、面向刚果（金）全国广播的新闻电台，自称和平频率（La frequence de la paix）。电台以法语和林加拉语、斯瓦希里语、基刚果语（Kituba）、奇卢巴语四种国家语言全天24小时播出，内容涵盖新闻、公民教育、人权、人道主义信息、文化、体育与娱乐，旗舰栏目包括《刚果人对话》（Dialogue entre Congolais）、《听众之声》（Parole aux auditeurs）、《今日嘉宾》（L'invite du jour）、《奥卡皮体育》（Okapi Sport）等。播出网络以金沙萨总部为龙头，在布尼亚、贝尼、布滕博、戈马、布卡武、卡南加等地设有区域工作室，通过数十个自有FM转播台和约20家合作社区电台覆盖全国绝大部分地区，并经短波、卫星与互联网面向海外刚果侨民播出；MONUSCO官网称其网站每月访问量超过200万人次。电台章程强调对政治与经济权力的编辑独立，早期资料称其年预算约450万美元、员工约200人。电台设计的初衷是在MONUSCO撤出后作为独立公共电台继续存在，自2002年开播以来被《经济学人》等视为刚果（金）乃至非洲公信力最高的媒体之一。",
+  "industries": [
+    "broadcasting"
+  ],
+  "apec_stance": "刚果民主共和国（刚果金）不是亚太经合组织（APEC）成员。APEC现有21个成员经济体，均为亚太地区经济体，截至目前没有任何非洲国家加入APEC。奥卡皮电台是联合国与刚果（金）合作运营的广播机构，业务集中于刚果（金）国内新闻广播与公民教育，与APEC框架不存在隶属或合作关系，亦未曾就APEC事务发布过立场文件或声明。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Radio_Okapi_Station%2C_Goma_PHOTO_DU_JOUR_DU_JEUDI_16_SEPTEMBRE_2021.jpg/330px-Radio_Okapi_Station%2C_Goma_PHOTO_DU_JOUR_DU_JEUDI_16_SEPTEMBRE_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "wikipedia_en",
+      "official_website (radiookapi.net)",
+      "monusco.unmissions.org",
+      "un.org (ONU Info/联合国新闻)",
+      "rsf.org (无国界记者)",
+      "grandslacsnews.com",
+      "radiookapi官方Facebook",
+      "安理会第2808(2025)号决议相关报道"
+    ],
+    "quotes": [
+      {
+        "title": "MONUSCO官网Radio Okapi页面（含台长Joyce Fernandes de Pina联系方式、5个区域台41个FM转播台等，2026-01-29更新）",
+        "url": "https://monusco.unmissions.org/fr/radio-okapi"
+      },
+      {
+        "title": "奥卡皮电台官网关于页（2002-2014年由MONUSCO与Hirondelle依2001-12-02谅解备忘录共管；6个区域工作室、33个自有FM转播台、约20家合作电台）",
+        "url": "https://www.radiookapi.net/page/propos"
+      },
+      {
+        "title": "联合国新闻：世界无线电日专访台长Joyce Fernandes de Pina与社区电台关系负责人Therese Kanku（2024-02-13）",
+        "url": "https://news.un.org/fr/audio/2024/02/1143147"
+      },
+      {
+        "title": "奥卡皮电台：成立24周年报道（2026-02-25）",
+        "url": "https://www.radiookapi.net/2026/02/25/actualite/societe/24-ans-apres-sa-creation-radio-okapi-diffuse-une-information-verifiee"
+      },
+      {
+        "title": "无国界记者：刚果（金）危机——北基伍信息权面临严重危险（2025-01-29）",
+        "url": "https://rsf.org/en/crisis-drc-north-kivu-right-information-grave-danger"
+      },
+      {
+        "title": "奥卡皮电台：安理会第2808号决议将MONUSCO任期延长至2026-12-20（2025-12-20）",
+        "url": "https://www.radiookapi.net/2025/12/20/actualite/politique/le-mandat-de-la-monusco-prolonge-jusquau-20-decembre-2026"
+      },
+      {
+        "title": "法语维基百科Radio Okapi条目（创办背景、2012年CSAC停播事件、代表性记者名单）",
+        "url": "https://fr.wikipedia.org/wiki/Radio_Okapi"
+      }
+    ],
+    "completeness_score": 79,
+    "notes": "phase3 enrichment (2026-10-06): 补充官网、MONUSCO官网、联合国新闻、RSF及2025-2026年新闻报道。现任台长Joyce Christine Fernandes de Pina经MONUSCO官网(2026-01-29更新)、LinkedIn与联合国新闻(2024-02-13)交叉确认；现任总编辑等编辑部具体负责人姓名未能从公开来源核实，相关字段留空。早期预算(450万美元)与员工数(约200人)为英文维基百科所载历史数据，与官网关于页(100余名员工)存在时期差异，已在core_business中注明。Fondation Hirondelle不在_name_index中，org_id置空。"
+  }
+}

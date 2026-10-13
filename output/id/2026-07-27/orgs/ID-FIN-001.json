@@ -1,63 +1,145 @@
 {
   "org_id": "ID-FIN-001",
+  "wikidata_qid": "Q105954690",
   "basic_info": {
     "org_id": "ID-FIN-001",
-    "wikidata_qid": "Q105954690",
-    "name_en": "Bank BNI Bandar Buat",
-    "name_zh": "银行 BNI Bandar Buat",
-    "name_local": "Bank BNI Bandar Buat",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "FIN",
-    "org_subtype": "central_bank",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://bni.co.id/id-id/",
-    "official_website": "https://bni.co.id/id-id/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Bank BNI Bandar Buat",
+    "name_zh": "印尼国家银行万达布阿特分行",
+    "name_en": "Bank BNI Bandar Buat Branch",
+    "founded_date": null,
     "country_iso3": "IDN",
-    "name_original": "Bank BNI Bandar Buat"
+    "hq_country_iso3": "IDN",
+    "website": "https://bni.co.id/",
+    "org_type": "FIN",
+    "org_subtype": "commercial_bank",
+    "aliases": [
+      "BNI KCP Bandar Buat",
+      "Bank BNI KCP Bandar Buat",
+      "BANDAR BUAT D/H TELUK BAYUR"
+    ]
   },
-  "description": "办公室 银行 in West 苏门答腊",
-  "brief": "办公室 银行 in West 苏门答腊",
-  "mission": null,
-  "core_business": "办公室 银行 in West 苏门答腊",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": null,
+      "url": "https://www.facebook.com/102946167868903",
+      "source": "Bni Cabang Bandar Buat"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "BNI Experience 分行定位页（编码132：BANDAR BUAT D/H TELUK BAYUR）",
+      "url": "https://bniexperience.bni.co.id/lokasi/cabang/132",
+      "description": "branch_locator_page",
+      "source": null
+    }
+  ],
   "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "departments": [
+    {
+      "dept_id": "ID-FIN-001-DEPT-001",
+      "name": "客户服务部 (Layanan Nasabah)",
+      "head": null,
+      "description": "负责分行零售客户的开户、存款、转账等柜面与电子渠道服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-001-DEPT-002",
+      "name": "中小企业信贷部 (Kredit UMKM)",
+      "head": null,
+      "description": "为巴东及周边地区中小企业和商户提供贷款与融资服务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-11-27",
+      "title": "BNI 向巴东洪水泥石流灾区提供紧急援助（母行救灾行动覆盖本网点经营区域）",
+      "description": "2025年11月24日起，巴东市 Koto Tangah、Pauh 等区遭遇洪水泥石流灾害。11月26-27日，BNI 通过「BNI Berbagi」公益项目（属 TJSL 社会与环境责任计划）向巴东灾区提供紧急救援物资，包括大米、方便面、鸡蛋、即食米饭及婴幼用品，由西苏门答腊区域负责人 Risnaldi 与巴东分行行长 Andreas 移交巴东市政府，由市长 Fadly Amran 接收，惠及约2000户受灾家庭；另向北苏门答腊省锡博尔加（Sibolga）灾区初期拨款2500万印尼盾用于一周应急响应。信息经 BNI 官方新闻稿与 Koran Jakarta、Bloomberg Technoz 等多家媒体交叉确认。",
+      "impact": "母行层面的救灾行动覆盖本网点所在的巴东经营区域，体现 BNI 巴东地区网点体系的应急响应能力与社会责任履行",
+      "source": "https://www.bni.co.id/id-id/beranda/kabar-bni/berita/articleid/25709/bni-salurkan-bantuan-tanggap-darurat-untuk-korban-banjir-bandang-di-padang-dan-sibolga"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-SOE-006",
+      "org_name": "印尼国家银行 (PT Bank Negara Indonesia (Persero) Tbk / BNI)",
+      "org_type": "FIN",
+      "org_description": "母行，印尼国有商业银行",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "金融服务管理局 (Otoritas Jasa Keuangan / OJK)",
+      "org_type": "GOV",
+      "org_description": "印尼金融服务行业监管机构",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "ID-FIN-002",
+      "org_name": "印度尼西亚银行 (Bank Indonesia)",
+      "org_type": "FIN",
+      "org_description": "印尼中央银行，与 OJK 共同对 BNI 及其网点体系履行监管职责（BNI 官方网点页脚注：berizin dan diawasi oleh OJK & Bank Indonesia）",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "印尼国家银行（BNI）万达布阿特分行是BNI在西苏门答腊省巴东市（Kota Padang, Sumatera Barat）的营业网点，位于Jl. Raya Padang-Indarung Rimbo Datar No.16-18，前身为Teluk Bayur（直落湾渔）办事处，分行编码132，联系电话 (0751) 71777（地理坐标约 -0.949448, 100.432746）。作为国有商业银行的基层经营单位，该分行主要面向巴东及周边地区提供零售存取款、转账汇兑、中小企业信贷（UMKM）、外币兑换（KLN）等常规银行业务，并配备ATM自助服务，服务当地居民、商户及港口工业区客户。分行按总行统一的产品、风控与合规体系运营，受印尼金融服务管理局（OJK）与印度尼西亚银行监管，客户存款由LPS提供担保。印尼为APEC成员经济体，BNI作为国有银行网络的一部分参与支持区域贸易结算与金融服务。",
+  "industries": [
+    "banking",
+    "financial_services"
+  ],
+  "apec_stance": "印尼为APEC创始成员经济体之一。本机构作为BNI分行，其APEC相关职能体现为通过母行网络支持印尼与亚太地区之间的贸易融资、汇兑结算与普惠金融服务，服务区域经贸往来中的基层金融需求。无独立涉外立场表述。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q105954690"
+      "https://bniexperience.bni.co.id/lokasi/cabang/132",
+      "https://www.wikidata.org/wiki/Q105954690",
+      "https://www.facebook.com/102946167868903",
+      "https://www.daftarperusahaan.com/bank/bank-bni-kcp-bandar-buat",
+      "https://alamatpenting.com/daftar-alamat-bank-bni-di-padang/",
+      "https://www.bni.co.id/id-id/beranda/kabar-bni/berita/articleid/25709/bni-salurkan-bantuan-tanggap-darurat-untuk-korban-banjir-bandang-di-padang-dan-sibolga",
+      "https://koran-jakarta.com/2025-11-28/bni-berikan-bantuan-ke-korban-banjir-bandang-di-padang-dan-sibolga",
+      "https://www.bloombergtechnoz.com/detail-news/91721/bni-salurkan-bantuan-untuk-korban-banjir-di-padang-dan-sibolga",
+      "https://news.detik.com/berita/d-8231647/bni-salurkan-bantuan-darurat-bagi-korban-banjir-bandang-di-padang-sibolga",
+      "https://www.wikidata.org/wiki/Special:EntityData/Q105954690.json",
+      "https://www.waze.com/live-map/directions/bank-bni-bandar-buat-jalan-raya-indarung-padang"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q105954690; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 45,
+    "quotes": [
+      {
+        "title": "BNI Experience 官方分行定位页 — BANDAR BUAT D/H TELUK BAYUR（Jl. Raya Padang-Indarung Rimbo Datar No.16-18 Bandar Buat Padang）",
+        "url": "https://bniexperience.bni.co.id/lokasi/cabang/132"
+      },
+      {
+        "title": "Wikidata Q105954690 — Bank BNI Bandar Buat（西苏门答腊巴东市银行网点）",
+        "url": "https://www.wikidata.org/wiki/Q105954690"
+      },
+      {
+        "title": "Daftarperusahaan.com — Bank BNI KCP BANDAR BUAT, JL. RAYA PADANG NO.16-18 PADANG, Sumatera Barat",
+        "url": "https://www.daftarperusahaan.com/bank/bank-bni-kcp-bandar-buat"
+      },
+      {
+        "title": "BNI 官方新闻稿：BNI Salurkan Bantuan Tanggap Darurat untuk Korban Banjir Bandang di Padang dan Sibolga（2025-11-27）",
+        "url": "https://www.bni.co.id/id-id/beranda/kabar-bni/berita/articleid/25709/bni-salurkan-bantuan-tanggap-darurat-untuk-korban-banjir-bandang-di-padang-dan-sibolga"
+      },
+      {
+        "title": "Koran Jakarta（2025-11-28）：BNI Berikan Bantuan ke Korban Banjir Bandang di Padang dan Sibolga（援助移交巴东市政府，惠及约2000户）",
+        "url": "https://koran-jakarta.com/2025-11-28/bni-berikan-bantuan-ke-korban-banjir-bandang-di-padang-dan-sibolga"
+      },
+      {
+        "title": "Bloomberg Technoz：BNI Salurkan Bantuan untuk Korban Banjir di Padang dan Sibolga（西苏门答腊区域负责人 Risnaldi 与巴东分行行长 Andreas 交接）",
+        "url": "https://www.bloombergtechnoz.com/detail-news/91721/bni-salurkan-bantuan-untuk-korban-banjir-di-padang-dan-sibolga"
+      },
+      {
+        "title": "Wikidata Q105954690 实体数据（P1329 电话 075171777、P625 坐标 -0.949448/100.432746）",
+        "url": "https://www.wikidata.org/wiki/Special:EntityData/Q105954690.json"
+      },
+      {
+        "title": "Waze 地点页：Bank BNI Bandar Buat, Jalan Raya Indarung, Padang（网点地址交叉佐证）",
+        "url": "https://www.waze.com/live-map/directions/bank-bni-bandar-buat-jalan-raya-indarung-padang"
+      }
+    ],
+    "notes": "分支机构按职能建档：无独立财务与领导人披露，key_people留空（不硬凑）；核心信息来自BNI官方分行定位页与第三方商户目录交叉确认。 ｜2026-09-15：related_entities重建，母行关联指向新设档案 ID-SOE-006（支行级实体，公开信息有限，建议后续与母行档案体系合并管理）。 ｜2026-09-17：P3收尾增补。电话 (0751) 71777 经 Wikidata P1329 与 Daftarperusahaan 目录双源交叉确认；坐标取自 Wikidata P625；新增2025-11巴东洪灾 BNI 救灾事件（官方新闻稿+两家媒体交叉确认）；related_entities 增补 Bank Indonesia（ID-FIN-002，依据 BNI 官方网点页「berizin dan diawasi oleh OJK & Bank Indonesia」脚注）；别名含网点原名 TELUK BAYUR。支行级负责人无公开披露，key_people 保持留空；Facebook 页面（Bni Cabang Bandar Buat, Padang）经检索确认存在，页面内容需登录无法读取。"
   }
 }

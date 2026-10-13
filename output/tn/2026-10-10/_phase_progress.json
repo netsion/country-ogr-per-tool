@@ -1,0 +1,191 @@
+{
+  "phase": "P4_person_enrichment_completed",
+  "scope": "selected_100",
+  "concurrency": 4,
+  "started_at": "2026-10-10T18:32:48",
+  "last_updated": "2026-10-11T03:15:31",
+  "completed": [
+    "TN-PERSON-000001",
+    "TN-PERSON-000006",
+    "TN-PERSON-000002",
+    "TN-PERSON-000004",
+    "TN-PERSON-000016",
+    "TN-PERSON-000013",
+    "TN-PERSON-000008",
+    "TN-PERSON-000030",
+    "TN-PERSON-000084",
+    "TN-PERSON-000087",
+    "TN-PERSON-000121",
+    "TN-PERSON-000119",
+    "TN-PERSON-000126",
+    "TN-PERSON-000140",
+    "TN-PERSON-000128",
+    "TN-PERSON-000137",
+    "TN-PERSON-000146",
+    "TN-PERSON-000159",
+    "TN-PERSON-000157",
+    "TN-PERSON-000162",
+    "TN-PERSON-000173",
+    "TN-PERSON-000160",
+    "TN-PERSON-000186",
+    "TN-PERSON-000158",
+    "TN-PERSON-000196",
+    "TN-PERSON-000206",
+    "TN-PERSON-000014",
+    "TN-PERSON-000015",
+    "TN-PERSON-000018",
+    "TN-PERSON-000021",
+    "TN-PERSON-000022",
+    "TN-PERSON-000025",
+    "TN-PERSON-000029",
+    "TN-PERSON-000028",
+    "TN-PERSON-000031",
+    "TN-PERSON-000032",
+    "TN-PERSON-000035",
+    "TN-PERSON-000034",
+    "TN-PERSON-000039",
+    "TN-PERSON-000041",
+    "TN-PERSON-000044",
+    "TN-PERSON-000040",
+    "TN-PERSON-000047",
+    "TN-PERSON-000052",
+    "TN-PERSON-000054",
+    "TN-PERSON-000050",
+    "TN-PERSON-000061",
+    "TN-PERSON-000057",
+    "TN-PERSON-000060",
+    "TN-PERSON-000058",
+    "TN-PERSON-000065",
+    "TN-PERSON-000062",
+    "TN-PERSON-000066",
+    "TN-PERSON-000070",
+    "TN-PERSON-000072",
+    "TN-PERSON-000068",
+    "TN-PERSON-000076",
+    "TN-PERSON-000079",
+    "TN-PERSON-000053",
+    "TN-PERSON-000081",
+    "TN-PERSON-000085",
+    "TN-PERSON-000086",
+    "TN-PERSON-000088",
+    "TN-PERSON-000089",
+    "TN-PERSON-000094",
+    "TN-PERSON-000100",
+    "TN-PERSON-000095",
+    "TN-PERSON-000098",
+    "TN-PERSON-000043",
+    "TN-PERSON-000101",
+    "TN-PERSON-000106",
+    "TN-PERSON-000108",
+    "TN-PERSON-000105",
+    "TN-PERSON-000107",
+    "TN-PERSON-000114",
+    "TN-PERSON-000125",
+    "TN-PERSON-000118",
+    "TN-PERSON-000127",
+    "TN-PERSON-000135",
+    "TN-PERSON-000143",
+    "TN-PERSON-000145",
+    "TN-PERSON-000163",
+    "TN-PERSON-000174",
+    "TN-PERSON-000176",
+    "TN-PERSON-000190",
+    "TN-PERSON-000194",
+    "TN-PERSON-000209",
+    "TN-PERSON-000201",
+    "TN-PERSON-000213",
+    "TN-PERSON-000216",
+    "TN-PERSON-000220",
+    "TN-PERSON-000221",
+    "TN-PERSON-000229",
+    "TN-PERSON-000245",
+    "TN-PERSON-000230",
+    "TN-PERSON-000228",
+    "TN-PERSON-000234",
+    "TN-PERSON-000256",
+    "TN-PERSON-000246",
+    "TN-PERSON-000203",
+    "TN-PERSON-000252",
+    "TN-PERSON-000251",
+    "TN-PERSON-000227"
+  ],
+  "remaining": [],
+  "current": [],
+  "failed": [],
+  "retries": {
+    "TN-PERSON-000158": {
+      "attempt": 3,
+      "reason": "1301 again (context poisoned by original prompt); fresh-context retry with clean Maya Jribi prompt",
+      "at": "2026-10-10T20:12:58"
+    },
+    "TN-PERSON-000145": {
+      "attempt": 2,
+      "reason": "1301 content-filter",
+      "at": "2026-10-11T01:19:05"
+    }
+  },
+  "score_limited": [
+    {
+      "person_id": "TN-PERSON-000157",
+      "score": 59,
+      "reason": "公开渠道无出生/学历/家庭/社媒数据，可填字段已到顶（铁律禁止编造）"
+    },
+    {
+      "person_id": "TN-PERSON-000098",
+      "score": 64,
+      "reason": "在职法官公开渠道无出生/教育/家庭/社媒/Wikidata 数据，可填字段已到顶"
+    },
+    {
+      "person_id": "TN-PERSON-000106",
+      "score": 60,
+      "reason": "教育/社媒/家庭/出生确无公开来源，已填字段达评分上限"
+    },
+    {
+      "person_id": "TN-PERSON-000108",
+      "score": 68,
+      "reason": "出生/学历/家庭/联系方式公开渠道零记录，JORT 政府令核实的医生履历已入档"
+    },
+    {
+      "person_id": "TN-PERSON-000105",
+      "score": 54,
+      "reason": "教育/社媒/家庭/出生/Wikidata 均无来源；姓名核正 Fehmi Guezmir；新增 CPCL 总经理履历链"
+    },
+    {
+      "person_id": "TN-PERSON-000107",
+      "score": 54,
+      "reason": "低公开度专家型人物（UGTT 社保专家达赫曼），教育/社媒/家庭/出生无来源，54 为诚实上限"
+    },
+    {
+      "person_id": "TN-PERSON-000163",
+      "score": 49,
+      "reason": "2019-06 后从公开报道消失，出生/学历/家庭/社媒客观无数据，49 为诚实上限"
+    },
+    {
+      "person_id": "TN-PERSON-000209",
+      "score": 65,
+      "reason": "出生/教育/家庭/社媒/Wikidata 无公开来源，任命绕开 HAICA 咨询并起诉总理新发现"
+    },
+    {
+      "person_id": "TN-PERSON-000221",
+      "score": 59,
+      "reason": "媒体人物公开渠道信息有限，出生/社媒/家庭/教育无来源"
+    },
+    {
+      "person_id": "TN-PERSON-000228",
+      "score": 63,
+      "reason": "黎明报主编之一（非社长，ID已按 _name_index 纠正为 000228）；无Wikidata/出生/学历/家庭/社媒"
+    },
+    {
+      "person_id": "TN-PERSON-000234",
+      "score": 60,
+      "reason": "流亡低调、教育/社媒/出生/Wikidata 无来源；EU 除名令原文直取"
+    },
+    {
+      "person_id": "TN-PERSON-000203",
+      "score": 58,
+      "reason": "现役军官无公开个人数据（出生/教育/家庭/社媒均无），身份经锚定档案纠偏为海军准将加拉·阿里"
+    }
+  ],
+  "remaining_note": "全部派发完毕，等待在飞完成",
+  "completed_at": "2026-10-11T03:15:31"
+}

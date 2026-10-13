@@ -1,0 +1,56 @@
+{
+  "person_id": "BF-PERSON-000045",
+  "wikidata_qid": null,
+  "name": "Amadou Onadja",
+  "name_en": "Amadou Onadja",
+  "name_zh": "阿马杜·奥纳贾",
+  "nationality": "BF",
+  "gender": "male",
+  "birth_date": null,
+  "birth_place": null,
+  "work_experience": [
+    {
+      "organization": "民主新时期党 (Nouveau temps pour la démocratie, NTD)",
+      "org_id": "BF-PARTY-006",
+      "position": "财务主管 (Trésorier；leFaso.net 称「NTD财务主管」，24heures.bf 与 Wakatsera 称「司库总书记 (secrétaire général de la trésorerie)」；可查证的最后一次以该身份公开露面为2023年6月27日出庭作证)",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "BF-PERSON-000016",
+      "person_name": "文森特·达比古 (Vincent Dabilgou)",
+      "relationship_type": "superior",
+      "description": "达比古为民主新时期党（NTD）创始人兼党主席，奥南贾任该党财务主管，居于其领导之下；2023年6月27日奥南贾在达比古挪用公款案庭审中作证称，涉案的8,000万西非法郎系由达比古本人转交给他，摩托车亦为达比古个人出资。"
+    }
+  ],
+  "biography_summary": "阿马杜·奥南贾（Amadou Onadja，未见通行中文标准译名，「奥南贾」为叙述用音译），布基纳法索政治人物，公开资料极为有限，已知身份为民主新时期党（Nouveau temps pour la démocratie，NTD）全国财务主管。NTD系前交通部长文森特·达比古于2015年3月13日创立的政党，长期属总统多数派，2020年立法选举后成为国民议会第三大政治力量，2026年1月29日随布基纳法索政府解散全国所有政党的法令而终止。奥南贾的公开曝光几乎全部来自2023年达比古挪用公款案的司法程序：2023年6月27日，他以NTD财务主管身份在瓦加杜古第一高等法院（TGI Ouaga 1）就「达比古及另外六人」案出庭作证，说明达比古所称从总统多数派政党联盟（APMP）收取的8,000万西非法郎的来源与使用。他称该党经费来源于党员党费、捐款及党内负责人出资；这8,000万现金系在2020年总统与立法选举竞选开始前由达比古转交，已分发给该党在各省的首席候选人；摩托车并非党的资金购置，而是达比古的个人出资。但其此前在反贪机构ASCE-LC调查中曾称仅收到500万西非法郎支票，庭审中解释为记错并致歉；检察机关指出其证词前后矛盾、且与APMP协调人Clément Sawadogo「分两笔（2020年9月与11月）交付」的版本不一致，对其证词表示「严重怀疑」。除上述庭审报道外，未见关于其出生日期、学历、职业经历及家庭的其他可靠公开资料。",
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase4_person_profile",
+    "data_sources": [
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 26,
+    "notes": "小党财务主管，公开资料极稀缺：全网可核实的公开活动仅2023年6月27日在NTD主席达比古挪用公款案（TGI Ouaga 1，「达比古及另外六人」案）庭审中作为党财务主管出庭作证一事，三个独立媒体全文来源（leFaso.net、24heures.bf、Wakatsera）交叉印证，细节一致。职务表述依来源略有差异：leFaso.net作「trésorier du NTD（NTD财务主管）」，24heures.bf作「secrétaire de la trésorerie」，Wakatsera作「secrétaire général de la trésorerie（司库总书记）」并交替使用「trésorier」，与NTD党条目（BF-PARTY-006 key_people）已核定的「财务主管（Trésorier）」一致，采用之并在position中注明差异。财务主管任期起止无任何来源记载（start/end留空）；性别male依据法语报道一致使用「M. Onadja」及阳性动词变位。NTD建党（2015-03-13）、2020年选举13席、党主席2023年一审及2024年上诉判决、2026-01-29政党解散等时间线取自本库BF-PARTY-006及BF-PERSON-000016已核实条目，未新增未核实事实。社媒site:检索：LinkedIn同名账号（Trusting Consulting Group运营经理、毕业于Institut supérieur de génie électrique du Burkina Faso）及数个Facebook同名账号，均无任何信息与NTD财务主管身份关联，属常见姓名重名，为避免错误归属一律不写入social_accounts。name_zh：未检索到任何中文媒体对该人物的报道或标准译名，按要求留null，传记中「奥南贾」仅为叙述音译。无学历、家庭、个人政治立场、个人成就的可靠来源，相应数组不写，宁缺毋滥。 | 【字段优化2026-09-19】current_positions 为显示字段，已按 work_experience 补显；完整履历见该字段。",
+    "quotes": [
+      {
+        "title": "Procès Vincent Dabilgou : Le trésorier du NTD entendu sur la gestion des 80 millions reçus de l'APMP — LeFaso.net（2023-06-28，全文已读）",
+        "url": "https://lefaso.net/spip.php?article122514"
+      },
+      {
+        "title": "Burkina Faso/Affaire Vincent Dabilgou : le trésorier du NTD titube à la barre — 24heures.bf（2023-06-27，全文已读）",
+        "url": "https://www.24heures.bf/burkina-faso-affaire-vincent-dabilgou-le-tresorier-du-ntd-titube-a-la-barre/"
+      },
+      {
+        "title": "Procès Dabilgou : des «doutes» sur les 80 millions FCFA de l'APMP — Wakatsera（Siaka Cissé，全文已读）",
+        "url": "https://www.wakatsera.com/proces-dabilgou-des-doutes-sur-les-80-millions-fcfa-de-lapmp/"
+      }
+    ]
+  },
+  "current_positions": [
+    "民主新时期党财务主管"
+  ]
+}

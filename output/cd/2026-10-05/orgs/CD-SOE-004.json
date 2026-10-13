@@ -1,0 +1,261 @@
+{
+  "org_id": "CD-SOE-004",
+  "basic_info": {
+    "name_original": "Société Nationale des Chemins de fer du Congo",
+    "name_zh": "刚果国家铁路公司",
+    "name_en": "National Railway Company of the Congo",
+    "aliases": [
+      "Société Nationale des Chemins de fer du Congo",
+      "SNCC",
+      "SNCC SA"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "COD",
+    "hq_country_iso3": "COD",
+    "founded_date": "1889-07-31",
+    "website": "https://www.snccsa.com/",
+    "wikidata_qid": "Q1481581"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "SNCC SA 官方网站",
+      "url": "https://www.snccsa.com/",
+      "description": "现行官网（法语），发布企业新闻、旅客运输信息、招标采购公告与招聘公告；2026-10-06 实测可正常访问。",
+      "source": "法语维基百科信息框 + 官网实测（HTTP 200）"
+    },
+    {
+      "name": "旧官网域名 www.sncc.cd",
+      "url": "http://www.sncc.cd/",
+      "description": "曾长期作为 SNCC 官网被维基百科等来源收录，2026-10-06 实测返回 404，已停止解析/停用，由 snccsa.com 取代。",
+      "source": "实测（HTTP 404）+ 法语维基百科外部链接"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CD-PERSON-000203",
+      "name": "法比安·穆通布·坎卡托 (Fabien Mutomb Kan Kato)",
+      "title": "总经理 (Directeur Général)",
+      "title_description": "公司最高经营管理负责人",
+      "description": "2019 年起出任 SNCC SA 总经理，主导公司自救式轨道修复与改革。2025 年 4 月披露在 3641 公里路网中以自有资金修复 100 公里；2026 年 1 月出席滕科 RR2 铁路改线竣工揭幕；2026 年 7 月公开回应 4151 名退休职工申诉、否认挪用 1.5 亿美元养老金的指控，并宣布以 450 万美元安排 255 名员工离职的 restructuring 计划。（VUKA 集团演讲者简历称其 2019 年起任总经理；ACP、actualite.cd、mediacongo.net 等多方佐证）"
+    },
+    {
+      "person_id": "CD-PERSON-000204",
+      "name": "让·拉迪斯拉斯·乌姆巴·卢南盖 (Jean Ladislas Umba Lungange)",
+      "title": "董事会主席 (Président du Conseil d'Administration)",
+      "title_description": "公司董事会负责人",
+      "description": "2022 年 8 月经董事会决议接替安托万·加布里埃尔·昆古·瓦·库姆万扎（Antoine Gabriel Kyungu wa Kumwanza）出任 SNCC SA 董事会主席（PCA），其后至少至 2024 年 7 月仍在任（ACP 报道其以 PCA 身份就 SNCC 土地被侵占问题表态）；另为刚果联合联邦党（UNAFEC）主席。2024 年 3 月出席 5 台新机车接收仪式。（来源：snccsa.com 2022-08-22/23、acp.cd 2024-07-19、ecomine.cd 2024-03-12）"
+    },
+    {
+      "person_id": "CD-PERSON-000206",
+      "name": "卡肖塔·穆通博 (Kashota Mutombo)",
+      "title": "铁路基础设施部总监 (Directeur des Infrastructures Ferroviaires, DIF)",
+      "title_description": "负责铁路网基础设施与维护",
+      "description": "主管 SNCC 铁路基础设施（轨道、桥隧、限界）的维护与修复；作为 TF M 出资的 Fungurume-Kwatebala RR2 改线项目指导委员会成员参与协调，2023 年 11 月出现在官方通报中。（来源：snccsa.com 2023-11-13）"
+    },
+    {
+      "person_id": "CD-PERSON-000207",
+      "name": "维克托·卡卢伊拉·穆泽姆贝 (Victor Kaluila Muzembe)",
+      "title": "规划总监 (Directeur de la Planification)",
+      "title_description": "负责企业规划与改革方案",
+      "description": "2024 年 4 月以规划总监身份接受 Railways Africa 采访，介绍 SNCC 运输改革、路网修复与洛比托走廊对接规划。（来源：railways.africa / YouTube 2024-04-10）"
+    }
+  ],
+  "departments": [
+    {
+      "name": "铁路基础设施部 (Direction des Infrastructures Ferroviaires, DIF)",
+      "dept_id": "CD-SOE-004-DEPT-001",
+      "head": "卡肖塔·穆通博 (Kashota Mutombo)",
+      "description": "负责全国铁路路网、轨道与桥隧基础设施的维护、修复和改造工程，参与矿业公司出资的改线工程协调（如 RR2 改线项目）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "中央客运部 MOBIRAIL (Direction Centrale MOBIRAIL)",
+      "dept_id": "CD-SOE-004-DEPT-002",
+      "head": null,
+      "description": "原'铁路移动性'(Mobilité par rail) 部门，2023 年 11 月更名，统筹全国客运列车运营，包括'燕号'(Hirondelle) 长途列车、Express 列车及各城际客运产品。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "南部运营区 (Région Sud)",
+      "dept_id": "CD-SOE-004-DEPT-003",
+      "head": null,
+      "description": "驻地利卡西 (Likasi)，管辖上加丹加矿区核心干线（卢本巴希—萨卡尼亚、滕科—迪洛洛方向），为铜钴矿产外运的主战场。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "中部运营区 (Région Centre)",
+      "dept_id": "CD-SOE-004-DEPT-004",
+      "head": null,
+      "description": "驻地卡米纳 (Kamina)，管辖卡米纳枢纽及卢本巴希—伊莱博干线中段。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "北部运营区 (Région Nord)",
+      "dept_id": "CD-SOE-004-DEPT-005",
+      "head": null,
+      "description": "驻地卡南加 (Kananga)，管辖开赛地区路网及通往伊莱博方向的粮食与一般物资运输。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "东部运营区 (Région Est)",
+      "dept_id": "CD-SOE-004-DEPT-006",
+      "head": null,
+      "description": "驻地卡莱米 (Kalemie)，管辖卡巴洛—卡莱米铁路及坦噶尼喀湖湖区航运网络（连接赞比亚、坦桑尼亚、布隆迪）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "东北部运营区 (Région Nord-Est)",
+      "dept_id": "CD-SOE-004-DEPT-007",
+      "head": null,
+      "description": "驻地金杜 (Kindu)，管辖马尼埃马省路网及金杜—乌本杜内河航线接驳（通往基桑加尼方向的通道）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-17",
+      "title": "基桑加尼—乌本杜段铁路客运已停运五年",
+      "description": "Radio Okapi 报道，乔波省基桑加尼—乌本杜 (Kisangani-Ubundu) 线路铁路客运自 2019 年起停运至今；线路养护不足使该段商业货运一度降至每月一班往返，沿线居民出行与物资流通受阻。",
+      "impact": "东北走廊运输通道持续萎缩，加剧乔波省交通隔离，公司客运网络进一步收缩。",
+      "source": "https://www.congoquotidien.com/2025/04/17/actualite-rdc-suspension-transport-ferroviaire-sncc-kisangani-tshopo/"
+    },
+    {
+      "date": "2025-04-25",
+      "title": "SNCC 自筹资金仅修复 3641 公里路网中的 100 公里",
+      "description": "总经理穆通布在卢本巴希'Expo Béton'论坛上表示，公司在 3641 公里铁路网中仅凭自有资源及中央政府支持修复了 100 公里轨道，更换殖民时期铺设的老旧钢轨是公司最大挑战。",
+      "impact": "凸显公司资金匮乏与路网严重老化，铁路运输竞争力持续下降，外界对洛比托走廊刚果段可靠性的担忧上升。",
+      "source": "https://www.radiookapi.net/2025/04/25/emissions/echos-deconomie/delabrement-tres-avance-du-reseau-ferroviaire-de-la-societe"
+    },
+    {
+      "date": "2025-12-04",
+      "title": "美刚战略伙伴关系协议将 SNCC 迪洛洛—萨卡尼亚铁路列为关键资产",
+      "description": "美国与刚果（金）签署战略伙伴关系协议，协议将 SNCC 运营的迪洛洛—萨卡尼亚 (Dilolo-Sakania) 铁路线定义为'SNCC rail line'，作为洛比托走廊跨境铁路基础设施的一部分，涉及美方对矿产物流走廊的投资与合作安排。",
+      "impact": "SNCC 资产被正式纳入美国主导的洛比托走廊矿产出口战略框架，公司在走廊竞合中的地位提升，同时面临更多国际协调与合规要求。",
+      "source": "https://www.state.gov/strategic-partnership-agreement-between-the-government-of-the-united-states-of-america-and-the-government-of-the-democratic-republic-of-the-congo"
+    },
+    {
+      "date": "2026-01-20",
+      "title": "TFM 出资的 RR2 铁路改线工程（3.7 公里）在滕科竣工揭幕",
+      "description": "副总理兼交通、通信与开放的交通部长让-皮埃尔·本巴 (Jean-Pierre Bemba) 在卢阿拉巴省滕科 (Tenke) 主持揭幕：该 3.7 公里改线由腾科丰谷鲁美矿业 (TFM，中国洛钼集团 CMOC 与 Gécamines 合资) 全额出资、SNCC SA 协调、GAZEBO 承建，2021 年开工，用于释放 TFM 新矿区；改线属滕科—科尔韦齐—迪洛洛段（约 520 公里，洛比托走廊组成部分）。州长菲菲·马苏卡、TFM 首席执行官李雷仲、SNCC 总经理穆通布出席。",
+      "impact": "保障矿业开发与铁路运输'和谐共生'，维护滕科—科尔韦齐—迪洛洛矿运干线连续性，是私营矿业资金反哺国有铁路的标志性项目。",
+      "source": "https://geopolismagazine.org/du-renouveau-a-la-sncc-sa-une-nouvelle-voie-ferree-financee-par-tfm-pour-assurer-la-continuite-de-lexploitation-miniere/"
+    },
+    {
+      "date": "2026-02-23",
+      "title": "5 台新型交流传动内燃机车经赞比亚过境运抵萨卡尼亚",
+      "description": "SNCC 接收 5 台为窄轨 (1067mm) 设计的交流传动柴油机车，2026 年 2 月经赞比亚过境陆续运抵萨卡尼亚 (Sakania)，用于加丹加矿区干线牵引能力升级（2 月 9 日至 23 日多家刚果媒体相继报道运输与到货）。",
+      "impact": "提升铜钴矿产品出口运输的牵引能力与可靠性，支撑洛比托走廊及南部通道运量增长。",
+      "source": "https://www.facebook.com/lecentremedia/videos/1975039580555370"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "总经理回应 4151 名退休职工申诉，否认挪用养老金指控并启动 restructuring",
+      "description": "总经理穆通布 7 月 23 日就 2014-2024 年间退休的 4151 名职工的申诉作出澄清，否认'挪用政府为退休职工拨付的 1.5 亿美元'的指控，称负债系历史遗留；宣布改革方案：以 450 万美元自有资金安排 255 名员工离职并招聘 55 名青年员工，政府已批准设立铁路社会基金，后续拟安排约 2500 名员工退休并承诺'体面退休'待遇。",
+      "impact": "历史人员包袱与养老金负债成为改革核心矛盾，劳资关系承压，但瘦身计划被视为 SNCC 复兴和洛比托走廊运力恢复的前置条件。",
+      "source": "https://www.mediacongo.net/article-actualite-165901_sncc_fabien_mutomb_repond_aux_plaintes_de_4_151_retraites.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CD-GOV-001",
+      "org_name": "刚果民主共和国政府 (Gouvernement de la République Démocratique du Congo)",
+      "org_type": "GOV",
+      "org_description": "刚果（金）中央政府。SNCC 为国家独资公营企业（entreprise publique unipersonnelle），刚果（金）国家为其唯一股东。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "CD-GOV-020",
+      "org_name": "交通、通信与开放部 (Ministère des Transports, Voies de Communication et Désenclavement)",
+      "org_type": "GOV",
+      "org_description": "SNCC 的行业主管部门，负责铁路行业监管、改线工程令与指导委员会设立；2025 年 8 月起由副总理让-皮埃尔·本巴执掌，曾主持 RR2 改线揭幕。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "CD-SOE-005",
+      "org_name": "运输与港口贸易公司 (Société Commerciale des Transports et des Ports, SCTP，前 ONATRA)",
+      "org_type": "SOE",
+      "org_description": "刚果（金）另一家国有多式联运企业，主要负责国家西部和北部的铁路、河运与港口业务，与 SNCC（东部和南部）同属国家运输国企体系。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CD-SOE-001",
+      "org_name": "刚果矿业总公司 (Gécamines / La Générale des carrières et des mines)",
+      "org_type": "SOE",
+      "org_description": "刚果（金）国家矿业公司，铜钴矿产品为 SNCC 最核心货种，双方同处矿产出口物流链；Gécamines 亦为 TFM 矿业合资方。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-015",
+      "org_name": "腾科丰谷鲁美矿业公司 (Tenke Fungurume Mining, TFM)",
+      "org_type": "CORP",
+      "org_description": "中国洛钼集团 (CMOC) 控股与 Gécamines 合资的特大型铜钴矿。全额出资 SNCC 滕科段 RR2 铁路改线工程（3.7 公里，2026 年 1 月揭幕），其矿产出口长期经 SNCC 铁路外运。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-022",
+      "org_name": "下刚果—加丹加铁路公司 (Compagnie du chemin de fer du bas-Congo au Katanga, BCK)",
+      "org_type": "CORP",
+      "org_description": "1906 年设立的殖民时期铁路公司（1961 年分为比利时法系与刚果法系两家），为 SNCC 的主要历史前身之一，其资产与业务经 1970 年 KDL 接管、1974 年并入扎伊尔国家铁路公司 (SNCZ)，最终由 1997 年成立的 SNCC 承接。",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "刚果国家铁路公司（SNCC SA）是刚果（金）国家独资的公营多式联运企业，总部位于上加丹加省卢本巴希，业务集中于国家东部和南部。主营业务包括：（1）铁路货运与客运——运营约 3641 公里 1067 毫米窄轨路网（其中约 858 公里电气化），主要干线有卢本巴希—萨卡尼亚、卢本巴希—伊莱博、卡米纳—金杜、滕科—迪洛洛、卡巴洛—卡莱米、金杜—乌本杜等，核心收入来自加丹加铜钴带的矿产品外运，兼营一般货运与集装箱运输；（2）湖区与内河航运——坦噶尼喀湖湖区航线约 1531 公里（联通赞比亚、坦桑尼亚、布隆迪）、基伍湖航线（布卡武—戈马方向）及金杜—乌本杜、孔戈洛—马伦巴恩库卢等内河航线约 700 公里，并经营伊莱博、卡莱米、布卡武等河港/湖港；（3）公路短驳约 128 公里（目前未实际运营）。公司服务全国 26 省中的 12 省，业务分为出口、进口、国内运输及客运行李四大类。公司沿革可追溯至 1889 年刚果铁路公司（CCFC）、1902 年加丹加铁路公司（CFK）与白湖铁路公司、1906 年下刚果—加丹加铁路公司（BCK）、1927 年 LKD 等，1974 年合并为扎伊尔国家铁路公司（SNCZ），1995 年 SNCZ 解散，1997 年 SNCC 正式承接全部铁路资产与运营。",
+  "industries": [
+    "railway",
+    "transportation",
+    "logistics_warehousing",
+    "port_operations"
+  ],
+  "apec_stance": "刚果民主共和国不是亚太经合组织（APEC）成员。APEC 现有 21 个成员经济体，全部位于亚太地区，目前没有任何非洲国家加入，因此 SNCC 及其母国不参与 APEC 框架下的任何议程，也不存在针对 APEC 的官方立场。SNCC 实际参与的国际合作主要包括：（1）洛比托走廊——与美国、欧盟支持的洛比托大西洋铁路 (LAR) 项目对接，其迪洛洛—萨卡尼亚线被写入 2025 年 12 月美刚战略伙伴关系协议；（2）对华合作——中国洛钼集团 (CMOC) 控股的腾科丰谷鲁美矿业 (TFM) 全额出资为 SNCC 建设滕科段 RR2 改线工程，中车 (CRRC) 曾派团洽谈机车车辆维护，2026 年 2 月 5 台新型交流传动内燃机车经赞比亚运抵；（3）区域联运——与赞比亚（萨卡尼亚—恩多拉接驳）、坦桑尼亚（经卡莱米的中央走廊）和布隆迪开展湖区及铁路跨境运输。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Central_Railway_Station%2C_Lubumbashi.jpg/330px-Central_Railway_Station%2C_Lubumbashi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-06",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "official_website",
+      "news_search",
+      "state.gov",
+      "radiookapi",
+      "local_media"
+    ],
+    "quotes": [
+      {
+        "title": "Société nationale des chemins de fer du Congo — Wikipédia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_nationale_des_chemins_de_fer_du_Congo"
+      },
+      {
+        "title": "Du renouveau à la SNCC SA : une nouvelle voie ferrée financée par TFM (Geopolis Magazine, 2026-01-23)",
+        "url": "https://geopolismagazine.org/du-renouveau-a-la-sncc-sa-une-nouvelle-voie-ferree-financee-par-tfm-pour-assurer-la-continuite-de-lexploitation-miniere/"
+      },
+      {
+        "title": "Délabrement très avancé du réseau ferroviaire de la SNCC — Radio Okapi (2025-04-25)",
+        "url": "https://www.radiookapi.net/2025/04/25/emissions/echos-deconomie/delabrement-tres-avance-du-reseau-ferroviaire-de-la-societe"
+      },
+      {
+        "title": "Strategic Partnership Agreement between the United States and the DRC (2025-12-04, 'SNCC rail line')",
+        "url": "https://www.state.gov/strategic-partnership-agreement-between-the-government-of-the-united-states-of-america-and-the-government-of-the-democratic-republic-of-the-congo"
+      },
+      {
+        "title": "SNCC : Fabien Mutomb répond aux plaintes de 4 151 retraités — MediaCongo (2026-07-24)",
+        "url": "https://www.mediacongo.net/article-actualite-165901_sncc_fabien_mutomb_repond_aux_plaintes_de_4_151_retraites.html"
+      },
+      {
+        "title": "SNCC : Umba Lungange, le nouveau PCA — snccsa.com (2022-08-22)",
+        "url": "https://www.snccsa.com/2022/08/22/sncc-umba-lungange-le-nouveau-pca/"
+      },
+      {
+        "title": "La SNCC : société par actions dont l'État congolais est l'unique actionnaire — RAFEACongo",
+        "url": "http://www.rafea-congo.com/pages/lecture1.php?id_article=108"
+      }
+    ],
+    "completeness_score": 84,
+    "notes": "Phase3 enrichment: leadership (DG Fabien Mutomb Kan Kato since 2019, PCA Jean Ladislas Umba Lungange since 2022-08) verified via snccsa.com + ACP + mediacongo + VUKA bio (multi-source). Website: old sncc.cd dead (404, tested 2026-10-06), current official site snccsa.com (200). Events 2025-2026 from Radio Okapi, state.gov, Geopolis Magazine, MediaCongo/actualite.cd/enquete.cd, Congolese media. Social accounts: no verified official accounts found (Facebook pages found are unofficial) - left empty per no-fabrication rule. Network figures: 3641 km rail (858 km electrified), 1531 km lake, 700 km river per SNCC SA 2026 self-report; older Wikipedia figures 4007/5033 km."
+  }
+}

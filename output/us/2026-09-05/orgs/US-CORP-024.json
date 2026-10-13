@@ -1,0 +1,425 @@
+{
+  "org_id": "US-CORP-024",
+  "basic_info": {
+    "name_original": "Nvidia",
+    "name_zh": "英伟达",
+    "name_en": "Nvidia",
+    "aliases": [
+      "nVidia",
+      "NVIDIA",
+      "輝達",
+      "NVIDIA Corporation"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "1993-04-05",
+    "website": "https://www.nvidia.com/",
+    "wikidata_qid": "Q182477"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "nvidia",
+      "url": "https://twitter.com/nvidia",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "NVIDIA",
+      "url": "https://facebook.com/NVIDIA",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "NVIDIA",
+      "url": "https://youtube.com/channel/UCHuiy8bXnmK5nisYHUd1J5g",
+      "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "NVIDIA",
+      "url": "https://www.linkedin.com/company/nvidia",
+      "source": "official_website"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "nvidia",
+      "url": "https://www.instagram.com/nvidia/",
+      "source": "official_website"
+    },
+    {
+      "platform": "github",
+      "account_name": "NVIDIA",
+      "url": "https://github.com/NVIDIA",
+      "source": "wikipedia"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "CUDA统一计算架构 (CUDA)",
+      "url": "https://developer.nvidia.com/cuda-toolkit",
+      "description": "英伟达开发的并行计算平台与编程模型，投入超10亿美元打造，是GPU加速计算与AI开发生态的核心软件资产。",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "name": "GeForce NOW云游戏服务 (GeForce NOW)",
+      "url": "https://www.nvidia.com/en-us/geforce-now/",
+      "description": "英伟达运营的云游戏串流服务，用户可在云端GPU上串流游玩PC游戏，已扩展至Linux PC与Amazon Fire TV等平台。",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "name": "Omniverse工业数字化平台 (NVIDIA Omniverse)",
+      "url": "https://www.nvidia.com/en-us/omniverse/",
+      "description": "面向工业数字化与元宇宙应用的3D设计协作与实时仿真平台，支持构建大规模数字孪生。",
+      "source": "https://www.nvidia.com/en-us/about-nvidia/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000097",
+      "name": "黄仁勋 (Jensen Huang)",
+      "title": "创始人、总裁兼首席执行官 (Founder, President & CEO)",
+      "title_description": "1993年联合创立英伟达并一直担任总裁兼CEO",
+      "description": "台湾裔美国电气工程师，创业前曾任LSI Logic Coreware总监及AMD微处理器设计师。带领英伟达从游戏GPU设计公司转型为全球AI计算龙头，2026年公司成为全球首家市值突破5万亿美元的企业。"
+    },
+    {
+      "person_id": null,
+      "name": "科莱特·克雷斯 (Colette Kress)",
+      "title": "执行副总裁兼首席财务官 (EVP & CFO)",
+      "title_description": "负责公司财务、投资者关系并主持季度财报电话会议",
+      "description": "长期担任英伟达CFO，多次就数据中心业务增长及美国对华芯片出口管制对业绩的影响作出说明。"
+    },
+    {
+      "person_id": "US-PERSON-000521",
+      "name": "克里斯·马拉科夫斯基 (Chris Malachowsky)",
+      "title": "联合创始人、NVIDIA院士 (Co-founder, NVIDIA Fellow)",
+      "title_description": "1993年与黄仁勋、普里姆共同创立公司",
+      "description": "出身Sun Microsystems的工程师，英伟达三位创始人之一，现任公司院士。"
+    },
+    {
+      "person_id": null,
+      "name": "比尔·达利 (Bill Dally)",
+      "title": "首席科学家 (Chief Scientist)",
+      "title_description": "掌管公司研究方向",
+      "description": "斯坦福大学教授出身的计算机科学家，负责英伟达研究团队与长期技术路线。"
+    },
+    {
+      "person_id": null,
+      "name": "史蒂芬·尼尔 (Stephen Neal)",
+      "title": "首席独立董事 (Lead Independent Director)",
+      "title_description": "董事会首席独立董事",
+      "description": "Cooley律师事务所前CEO兼名誉主席。截至2026年1月，董事会成员还包括黄仁勋以及Tench Coxe、John Dabiri、Dawn Hudson、Harvey C. Jones、Melissa B. Lora、Brooke Seawell、Aarti Shah、Mark Stevens。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "计算与网络 (Compute & Networking)",
+      "dept_id": "US-CORP-024-DEPT-001",
+      "head": null,
+      "description": "公司两大可报告业务分部之一，涵盖数据中心加速计算平台与AI方案、网络互联（Mellanox InfiniBand与以太网）、自动驾驶DRIVE平台、Jetson机器人与嵌入式平台及NVIDIA AI Enterprise；2025财年收入1162亿美元，约占公司总收入89%。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "图形 (Graphics)",
+      "dept_id": "US-CORP-024-DEPT-002",
+      "head": null,
+      "description": "公司两大可报告业务分部之一，涵盖GeForce游戏GPU、GeForce NOW云游戏、RTX专业图形产品、虚拟GPU及Omniverse软件；2025财年收入143亿美元，约占公司总收入11%。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数据中心业务 (Data Center)",
+      "dept_id": "US-CORP-024-DEPT-003",
+      "head": null,
+      "description": "面向AI训练与推理的数据中心平台业务（HGX/DGX系统、Grace CPU、BlueField DPU、NVLink与Spectrum-X网络等），为公司最大收入来源；2027财年第二季度收入890亿美元，同比增长117%。",
+      "parent_dept_id": "US-CORP-024-DEPT-001"
+    },
+    {
+      "name": "游戏业务 (Gaming)",
+      "dept_id": "US-CORP-024-DEPT-004",
+      "head": null,
+      "description": "GeForce消费级游戏GPU产品线（GeForce RTX 50系列等）及GeForce NOW云游戏服务，是公司起家的传统核心业务。",
+      "parent_dept_id": "US-CORP-024-DEPT-002"
+    },
+    {
+      "name": "专业可视化 (Professional Visualization)",
+      "dept_id": "US-CORP-024-DEPT-005",
+      "head": null,
+      "description": "面向工作站与企业用户的NVIDIA RTX专业图形产品及Omniverse协作仿真平台，服务设计、制造、媒体等行业。",
+      "parent_dept_id": "US-CORP-024-DEPT-002"
+    },
+    {
+      "name": "汽车业务 (Automotive)",
+      "dept_id": "US-CORP-024-DEPT-006",
+      "head": null,
+      "description": "基于DRIVE平台的自动驾驶与智能座舱全栈方案，客户与合作伙伴包括梅赛德斯-奔驰、丰田等；CES 2026发布开源自动驾驶推理模型家族Alpamayo，首个搭载车型为梅赛德斯-奔驰CLA。",
+      "parent_dept_id": "US-CORP-024-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-27",
+      "title": "DeepSeek冲击引发美股史上最大单日市值蒸发",
+      "description": "中国AI初创公司深度求索（DeepSeek）以更低算力成本推出高性能模型并登顶美国App Store免费榜，引发市场对AI算力需求的担忧，英伟达单日市值蒸发约6000亿美元，创美国公司史上最大单日市值跌幅。",
+      "impact": "暴露AI算力需求预期风险，但英伟达当年数据中心业务仍持续高速增长。",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "美国政府限制H20芯片对华出口，后于7月恢复并达成15%收入分成安排",
+      "description": "美国政府于2025年4月15日要求英伟达H20对华出口需经许可，实质暂停对华供应，公司计提大额存货损失；2025年7月恢复供应后，英伟达与超威半导体（AMD）同意按对华相关芯片销售收入的15%向美国政府缴纳以换取出口许可。7月31日中国网信办就H20「追踪定位」功能存在的安全风险约谈英伟达。9月17日，中国网信部门要求字节跳动、阿里巴巴等企业停购为中国特供的RTX Pro 6000D芯片。",
+      "impact": "对华业务高度受中美科技博弈左右，中国市场收入占比明显收缩。",
+      "source": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E4%BC%9F%E8%BE%BE"
+    },
+    {
+      "date": "2025-07-10",
+      "title": "成为全球首家收盘市值突破4万亿美元的公司",
+      "description": "英伟达股价当日收涨，市值首次收于4万亿美元上方，超过英国全部上市公司市值总和；7月29日公司因腾讯、阿里巴巴等中国客户需求强劲，向台积电追加订购30万颗H20芯片。",
+      "impact": "巩固全球市值第一地位，凸显AI芯片需求的空前规模。",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "date": "2025-09-18",
+      "title": "宣布向英特尔投资50亿美元",
+      "description": "英伟达宣布对陷入困境的美国芯片制造商英特尔投资50亿美元，新股发行完成后将持有约4%股份；双方将合作在英特尔x86架构上推出基于Blackwell GPU的GB300数据中心服务器，该交易发生在白宫促成联邦政府入股英特尔之后数周。",
+      "impact": "强化美国本土半导体产业联盟，拓展x86生态合作。",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "date": "2025-09-22",
+      "title": "与OpenAI签署至多1000亿美元投资与合作谅解备忘录",
+      "description": "英伟达与OpenAI宣布谅解备忘录：英伟达拟逐步向OpenAI投资至多1000亿美元，OpenAI将采用英伟达系统建设至少10吉瓦装机规模的AI数据中心（相当于超过4座胡佛大坝的发电量）。截至2026年1月，谈判仍处早期阶段，双方重新评估合作结构。",
+      "impact": "史上最大规模AI基础设施投资计划之一，但「循环投资」模式引发市场争议。",
+      "source": "https://en.wikipedia.org/wiki/Nvidia"
+    },
+    {
+      "date": "2025-10-29",
+      "title": "全球首家市值突破5万亿美元的公司",
+      "description": "英伟达股价上涨推动市值历史性突破5万亿美元，成为人类历史上首家达到该规模的公司；11月11日软银集团出清其所持58亿美元英伟达股份转投OpenAI。",
+      "impact": "从芯片制造商跃升为「行业缔造者」，成为全球资本市场AI行情的核心标的。",
+      "source": "https://www.reuters.com/business/nvidia-poised-record-5-trillion-market-valuation-2025-10-29/"
+    },
+    {
+      "date": "2026-01-05",
+      "title": "CES 2026发布Vera Rubin平台全面投产与Alpamayo开源自动驾驶模型",
+      "description": "黄仁勋在拉斯维加斯CES 2026主题演讲上宣布新一代Vera Rubin平台（公司首个六芯片极致协同设计平台：Rubin GPU、Vera CPU、NVLink 6、Spectrum-X光子以太网、ConnectX-9超级网卡与BlueField-4 DPU）已全面投产，AI token生成成本降至上一代约十分之一；同时发布面向L4级自动驾驶的开源推理模型家族Alpamayo，首搭车型为梅赛德斯-奔驰CLA；禾赛（Hesai）成为其激光雷达合作伙伴。同年3月GTC大会上进一步宣布Vera Rubin为Blackwell的继任平台。",
+      "impact": "确立未来数年AI计算平台代际优势，加速物理AI与自动驾驶落地。",
+      "source": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "FY2026第四季度及全年营收创纪录",
+      "description": "第四季度（截至2026年1月25日）营收681亿美元，同比增长73%、环比增长20%，超指引约30亿美元；GAAP净利润约430亿美元，同比增长94%；全年营收2159亿美元，同比增长65%，全年净利润约1201亿美元。公司对2027财年第一季度给出780亿美元营收指引；黄仁勋称「算力即收入」，云厂商资本开支接近每年7000亿美元。",
+      "impact": "代理式AI（agentic AI）大规模落地驱动业绩持续超预期。",
+      "source": "http://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "市值再度突破5万亿美元并创收盘新高",
+      "description": "英伟达股价上涨4.3%收于创纪录的208.27美元，市值重新站上5万亿美元；5月13日盘中市值一度达到约5.5万亿美元，为史上首家。",
+      "impact": "持续为全球市值最高公司，2026年与美光合计贡献标普500盈利增长约三分之一。",
+      "source": "https://www.cnbc.com/2026/04/24/nvidia-stock-closes-at-record-pushing-market-cap-past-5-trillion.html"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "FY2027第一季度营收816亿美元再创纪录",
+      "description": "第一季度（截至2026年4月26日）营收816亿美元，环比增长20%；数据中心收入752亿美元，同比增长92%。",
+      "impact": "连续多季刷新纪录，AI基础设施需求未见放缓。",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "宣布设立台湾总部，每年在台投入约1500亿美元",
+      "description": "黄仁勋在台北宣布英伟达将建设台湾总部「NVIDIA Constellation」，预计2026年动工、2030年启用、雇佣4000人；称台湾是「AI革命的震中」，公司每年在台采购与支出将由五年前的100亿至150亿美元增至约1500亿美元，并与台积电、鸿海、纬创、广达等伙伴深化合作。黄仁勋此前于5月初随美国总统特朗普的商界代表团赴北京出席美中峰会。",
+      "impact": "进一步绑定台湾作为全球AI硬件制造枢纽，深化亚太供应链布局。",
+      "source": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-says-taiwan-is-epicentre-ai-revolution-2026-05-27/"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "与台积电合作将AI引入晶圆厂",
+      "description": "英伟达与台积电宣布深化长期合作，将英伟达加速计算与AI平台引入台积电芯片设计与制造流程，推进半导体设计与制造智能化；6月1日发布RTX Spark笔记本芯片。",
+      "impact": "以AI反向赋能核心代工伙伴，巩固双方共生关系。",
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing/default.aspx"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "FY2027第二季度营收962亿美元、同比增长106%",
+      "description": "第二季度营收962亿美元，较上年同期的467亿美元增长106%；数据中心收入890亿美元，同比增长117%，均创纪录。",
+      "impact": "印证AI算力需求的持续爆发，英伟达在AI芯片市场保持绝对主导。",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "向联发科投资35亿美元可转债并深化AI平台合作",
+      "description": "英伟达宣布向台湾芯片设计公司联发科（MediaTek）发行的35亿美元可转换债券进行投资，并将NVLink Fusion技术开放给联发科，双方将共同打造面向边缘到云端的AI计算平台与定制芯片；联发科股价次日大涨10%。",
+      "impact": "以资本与技术双绑定深化与台湾半导体生态的合作，切入定制ASIC芯片市场。",
+      "source": "https://www.reuters.com/world/asia-pacific/nvidia-invests-35-billion-mediatek-convertible-bonds-2026-08-31/"
+    },
+    {
+      "date": "2026-09-03",
+      "title": "宣布以约129亿美元收购Hugging Face",
+      "description": "英伟达官方宣布同意以约129.3亿美元收购开源AI模型社区平台Hugging Face。该平台拥有超过1800万开发者、300多万个模型、50万个数据集和100万个应用；英伟达承诺平台将保持开放，支持多云与多加速器部署，不强制使用英伟达算力。英伟达目前是Hugging Face上开放模型与数据集的最大贡献者。",
+      "impact": "补齐AI软件生态与开发者社区版图，强化在开源AI领域的领导地位，预计将接受反垄断审查。",
+      "source": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "US-CORP-017",
+      "org_name": "台积电 (TSMC)",
+      "org_type": "company",
+      "org_description": "台湾半导体制造公司，全球最大晶圆代工厂。 英伟达最重要的晶圆代工伙伴，所有芯片以外包方式由台积电等代工；2025年7月追加订购30万颗H20，2026年6月共同将AI引入晶圆厂。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "US-company-001",
+      "org_name": "鸿海精密工业 (Hon Hai / Foxconn)",
+      "org_type": "company",
+      "org_description": "台湾电子制造服务巨头（富士康母公司）。 英伟达AI服务器机柜与GPU板卡的主要组装制造伙伴之一，并在AI工厂建设中合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-CORP-014",
+      "org_name": "OpenAI",
+      "org_type": "company",
+      "org_description": "美国生成式AI公司，ChatGPT开发商。 2025年9月签署谅解备忘录，英伟达拟投资至多1000亿美元，OpenAI以英伟达系统建设至少10吉瓦AI数据中心；截至2026年1月谈判仍处早期。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "US-company-002",
+      "org_name": "联发科技 (MediaTek)",
+      "org_type": "company",
+      "org_description": "台湾无晶圆厂芯片设计公司，全球智能手机芯片龙头之一。 2026年8月英伟达投资35亿美元可转债，开放NVLink Fusion并共建端边云AI计算平台。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-CORP-023",
+      "org_name": "英特尔 (Intel)",
+      "org_type": "company",
+      "org_description": "美国半导体公司，全球PC与服务器CPU巨头。 2025年9月英伟达宣布投资50亿美元，新股发行后持股约4%，并合作开发GB300（x86+Blackwell）数据中心产品。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "US-company-003",
+      "org_name": "迈络思 (Mellanox Technologies)",
+      "org_type": "company",
+      "org_description": "以色列高性能计算与数据中心网络互联公司（InfiniBand/以太网）。 英伟达于2020年4月以约70亿美元完成收购，构成其网络互联业务（Quantum InfiniBand、Spectrum以太网、BlueField DPU）的基础。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "US-CORP-004",
+      "org_name": "微软 (Microsoft)",
+      "org_type": "company",
+      "org_description": "美国跨国科技公司，Azure云与Windows操作系统厂商。 Azure为英伟达GPU最大云客户之一；双方合作开发面向Windows on ARM的CPU，历史上微软Xbox亦采用英伟达图形方案。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "US-GOV-007",
+      "org_name": "美国商务部 (U.S. Department of Commerce)",
+      "org_type": "government_agency",
+      "org_description": "美国联邦行政部门，其工业与安全局（BIS）负责出口管制。 自2022年10月起对英伟达先进AI芯片对华出口实施许可管制（A100/H100、A800/H800、H20先后受限），2025年与英伟达、AMD达成15%对华销售收入分成换取出口许可的安排。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "US-FIN-013",
+      "org_name": "贝莱德 (BlackRock)",
+      "org_type": "company",
+      "org_description": "全球最大资产管理公司。 截至2026年初持有英伟达约7.92%股份，为第二大股东；先锋领航（Vanguard，9.33%）为第一大股东但未在实体索引中建档。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "US-FIN-015",
+      "org_name": "纳斯达克 (Nasdaq)",
+      "org_type": "stock_exchange",
+      "org_description": "美国证券交易所，全球科技股核心上市地。 英伟达以代码NVDA在纳斯达克上市（1999年1月IPO），为纳斯达克100、标普500及道琼斯工业平均指数成分股。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "英伟达（NVIDIA）是全球领先的加速计算平台公司，1993年以设计图形处理器（GPU）起家，现已发展为面向「AI工厂」的全栈计算方案提供商。硬件产品涵盖GeForce游戏GPU、面向数据中心训练与推理的GPU（Hopper、Blackwell及新一代Rubin架构）、Grace ARM架构CPU、BlueField数据处理器（DPU）、DGX/HGX AI超级计算机以及Mellanox InfiniBand与Spectrum-X以太网网络互联；软件与平台资产包括CUDA并行计算生态、Omniverse工业数字化平台、GeForce NOW云游戏服务、NVIDIA AI Enterprise及Clara、Earth-2、Nemotron、Cosmos、GR00T、Alpamayo等开源模型家族。公司采用无晶圆厂（fabless）模式，晶圆制造、封装与测试外包给台积电等伙伴，自身专注芯片设计、系统与软件生态。截至2025年第一季度，英伟达占全球独立桌面与笔记本GPU市场约92%份额、AI训练与推理GPU市场80%以上份额，并为超过75%的全球TOP500超级计算机提供芯片。2026财年（截至2026年1月25日）营收2159亿美元、净利润约1201亿美元，数据中心贡献约九成收入；2027财年上半年连续两季营收创纪录（Q1为816亿、Q2为962亿美元），按区域计美国占2025财年收入46.9%，新加坡18.2%、台湾15.8%、中国13.1%。公司同时是标普500、纳斯达克100与道琼斯工业平均指数成分股，2025年10月成为全球首家市值突破5万亿美元的公司。",
+  "industries": [
+    "semiconductors",
+    "information_technology",
+    "cloud_computing",
+    "consumer_electronics",
+    "software",
+    "gaming",
+    "automotive"
+  ],
+  "apec_stance": "英伟达的供应链与市场高度扎根亚太地区：所有旗舰芯片由台积电在台湾及亚利桑那州的晶圆厂代工，AI服务器由鸿海（富士康）、纬创、广达等台湾与亚洲伙伴组装。2026年5月27日黄仁勋在台北宣布将设立台湾总部「NVIDIA Constellation」（2026年动工、2030年启用、雇佣4000人），公司每年在台采购与支出将增至约1500亿美元，并称台湾是「AI革命的震中」；同年8月底再向联发科投资35亿美元可转债。中国市场业务则受中美科技博弈深度影响：美国商务部自2022年起对先进AI芯片对华出口设限，H20于2025年4月被禁、7月恢复并与AMD共同接受15%对华销售收入分成安排；2024年12月中国国家市场监管总局对其启动涉迈络思案的反垄断调查，2025年9月网信部门要求中国企业停购中国特供的RTX Pro 6000D芯片。在区域合作层面，公司2025财年收入按开票地区计新加坡占18.2%、台湾占15.8%、中国占13.1%，并与日本软银（曾推动安谋收购案）、印尼（2026年8月与Universitas Gadjah Mada及Indosat共建该国首个大学AI中心）等亚太经济体开展AI基建与人才培养合作；同时黄仁勋2026年5月随特朗普政府商界代表团出席北京美中峰会，公司亦配合美国制造业回流政策在亚利桑那州与本土扩建产能。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/330px-2788-2888_San_Tomas_Expwy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "investor_relations",
+      "news_media",
+      "wikidata"
+    ],
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Nvidia - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Nvidia"
+      },
+      {
+        "title": "英伟达 - 维基百科（中文）",
+        "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E4%BC%9F%E8%BE%BE"
+      },
+      {
+        "title": "About NVIDIA - Official Website",
+        "url": "https://www.nvidia.com/en-us/about-nvidia/"
+      },
+      {
+        "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 (NVIDIA Newsroom)",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+      },
+      {
+        "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026 (NVIDIA Newsroom)",
+        "url": "http://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026"
+      },
+      {
+        "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027 (NVIDIA Newsroom)",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027"
+      },
+      {
+        "title": "Nvidia to spend $150 billion a year in Taiwan, epicentre of AI revolution, says CEO (Reuters)",
+        "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-says-taiwan-is-epicentre-ai-revolution-2026-05-27/"
+      },
+      {
+        "title": "Nvidia invests $3.5 billion in MediaTek convertible bonds (Reuters)",
+        "url": "https://www.reuters.com/world/asia-pacific/nvidia-invests-35-billion-mediatek-convertible-bonds-2026-08-31/"
+      },
+      {
+        "title": "Nvidia hits $5 trillion valuation as AI boom powers meteoric rise (Reuters)",
+        "url": "https://www.reuters.com/business/nvidia-poised-record-5-trillion-market-valuation-2025-10-29/"
+      },
+      {
+        "title": "Nvidia stock closes at record, pushing market cap past $5 trillion (CNBC)",
+        "url": "https://www.cnbc.com/2026/04/24/nvidia-stock-closes-at-record-pushing-market-cap-past-5-trillion.html"
+      },
+      {
+        "title": "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES (NVIDIA Blog)",
+        "url": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+      },
+      {
+        "title": "NVIDIA to Acquire Hugging Face (NVIDIA Blog)",
+        "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+      },
+      {
+        "title": "NVIDIA and TSMC Bring AI Into Fabs (NVIDIA Investor Relations)",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing/default.aspx"
+      },
+      {
+        "title": "Connect with NVIDIA on Official Social Media Channels",
+        "url": "https://www.nvidia.com/en-us/contact/social/"
+      }
+    ],
+    "notes": "Phase 3 enriched profile: key people/board, segments and business lines, 15 dated 2025-2026 events (earnings records, $4T/$5T market cap milestones, Intel/OpenAI/MediaTek/Hugging Face deals, China export controls, Taiwan HQ), APEC supply-chain stance. Cross-verified with Wikipedia (EN/ZH), NVIDIA newsroom/investor relations, Reuters, CNBC and NVIDIA blog."
+  }
+}

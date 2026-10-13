@@ -1,71 +1,353 @@
 {
   "org_id": "ID-GOV-035",
+  "wikidata_qid": "Q3273955",
   "basic_info": {
     "org_id": "ID-GOV-035",
-    "wikidata_qid": "Q3273955",
+    "name_original": "Komisi Pemberantasan Korupsi",
+    "name_zh": "印度尼西亚反腐败委员会",
     "name_en": "Corruption Eradication Commission",
-    "name_zh": "肃贪委员会",
-    "name_local": "Komisi Pemberantasan Korupsi",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": 2003,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "",
-    "official_website": "",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "founded_date": "2003-12-29",
     "country_iso3": "IDN",
-    "name_original": "Komisi Pemberantasan Korupsi"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.kpk.go.id/",
+    "org_type": "GOV",
+    "org_subtype": "independent_organ"
   },
-  "description": "印度尼西亚 state 机构",
-  "brief": "印度尼西亚 state 机构",
-  "mission": null,
-  "core_business": "印度尼西亚 state 机构",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@KPK_RI",
+      "url": "https://x.com/KPK_RI",
+      "source": "账号简介自述由KPK公共关系局（Biro Humas）管理"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@official.kpk",
+      "url": "https://www.instagram.com/official.kpk/",
+      "source": "YouTube官方频道链接页与KPK官方澄清声明交叉确认（约100万粉丝）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "KPK RI",
+      "url": "https://www.youtube.com/@kpkri",
+      "source": "YouTube频道About页自述为KPK公共关系局官方账号（频道ID UCs-1JLKHaqkxSvCqJiFd1eA）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Komisi Pemberantasan Korupsi",
+      "url": "https://www.facebook.com/KomisiPemberantasanKorupsi/",
+      "source": "YouTube官方频道链接页交叉确认"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官方网站",
+      "url": "https://www.kpk.go.id/",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "涉嫌腐败人员追踪系统",
+      "url": "https://pelacakkpk.kpk.go.id/",
+      "description": "database",
+      "source": null
+    },
+    {
+      "name": "法规与文件数据库（JDIH KPK）",
+      "url": "https://jdih.kpk.go.id/",
+      "description": "database",
+      "source": null
+    }
+  ],
   "key_people": [
     {
       "person_id": "ID-PERSON-000422",
-      "name": "Taufiequrachman Ruki",
-      "title": "高管（来源：Wikidata 领导层声明）",
-      "title_description": "",
-      "description": ""
+      "name": "陶菲库拉赫曼·鲁基 (Taufiequrachman Ruki)",
+      "title": "首任主席（2003-2007年在任）",
+      "title_description": "KPK首任主席，警察学院1971届出身",
+      "description": "2003年12月16日宣誓就任KPK首任主席，任内确立KPK作为廉洁治理催化剂的定位，推动反腐败执法机构的初创建设。"
+    },
+    {
+      "person_id": "ID-PERSON-000690",
+      "name": "塞蒂约·布迪扬托 (Setyo Budiyanto)",
+      "title": "主席",
+      "title_description": "现任KPK主席（2024年起）",
+      "description": "2024年12月经国会选举并经总统任命出任KPK主席，与四名副主席组成五人领导层。"
+    },
+    {
+      "person_id": "ID-PERSON-000691",
+      "name": "菲特罗·罗查希延托 (Fitroh Rohcahyanto)",
+      "title": "副主席",
+      "title_description": "KPK领导层成员",
+      "description": "2024年起担任KPK副主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000692",
+      "name": "约翰尼斯·塔纳克 (Johanis Tanak)",
+      "title": "副主席",
+      "title_description": "KPK领导层成员",
+      "description": "2024年起担任KPK副主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000693",
+      "name": "阿古斯·约科·普拉莫诺 (Agus Joko Pramono)",
+      "title": "副主席",
+      "title_description": "KPK领导层成员",
+      "description": "审计领域出身的KPK领导层成员，2024年起担任副主席。"
+    },
+    {
+      "person_id": null,
+      "name": "伊布努·巴苏基·维多多 (Ibnu Basuki Widodo)",
+      "title": "副主席",
+      "title_description": "KPK领导层成员（2024-2029届）",
+      "description": "2024年12月起担任KPK副主席，与主席及另外三名副主席组成五人合议领导层。"
     }
   ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-035-DEPT-001",
+      "name": "秘书长厅 (Sekretariat Jenderal)",
+      "head": "查亚·哈尔迪安托·哈雷法 (Cahya Hardianto Harefa)",
+      "description": "负责机构行政、人事与财政管理。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-002",
+      "name": "预防与监督局 (Deputi Bidang Pencegahan dan Monitoring)",
+      "head": "阿米努丁 (Aminudin)（暂任/Plt.）",
+      "description": "负责腐败预防、制度审计与政府治理监测。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-003",
+      "name": "执法与执行局 (Deputi Bidang Penindakan dan Eksekusi)",
+      "head": "阿塞普·古恩图尔·拉哈尤 (Asep Guntur Rahayu)（暂任/Plt.）",
+      "description": "负责腐败案件的调查、侦查、起诉与判决执行。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-004",
+      "name": "信息与数据局 (Deputi Bidang Informasi dan Data)",
+      "head": "埃科·马尔约诺 (Eko Marjono)",
+      "description": "负责案件信息管理、资产追踪与数据分析。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-005",
+      "name": "协调与督导局 (Deputi Bidang Koordinasi dan Supervisi)",
+      "head": "阿贡·尤达·维博沃 (Agung Yudha Wibowo)（暂任/Plt.）",
+      "description": "负责与其他反腐败执法机构的协调与督导。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-006",
+      "name": "教育与社会参与局 (Deputi Bidang Pendidikan dan Peran Serta Masyarakat)",
+      "head": "瓦万·瓦尔迪亚纳 (Wawan Wardiana)",
+      "description": "负责反腐败公众教育与社会参与推动。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-007",
+      "name": "监察室 (Inspektorat)",
+      "head": "苏布罗托 (Subroto)",
+      "description": "负责机构内部监督。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-008",
+      "name": "战略规划中心 (Pusat Perencanaan Strategis Pemberantasan Korupsi)",
+      "head": null,
+      "description": "负责反腐败战略规划与研究。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-035-DEPT-009",
+      "name": "监察委员会 (Dewan Pengawas)",
+      "head": null,
+      "description": "依据2019年第19号法律（KPK法修订）设立的独立监督机构，负责监督KPK运行并事先审批窃听等侦查措施；2024-2029届五名委员为古斯里扎尔 (Gusrizal)、贝尼·约祖阿·马莫托 (Benny Jozua Mamoto)、奇斯卡·米拉瓦蒂 (Chisca Mirawati)、维斯努·巴罗托 (Wisnu Baroto)、苏姆佩诺 (Sumpeno)。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-15",
+      "title": "KPK在土地事务与空间规划部实施抓捕行动",
+      "description": "2026年9月15日，KPK就涉嫌受贿与非法收受案在土地事务与空间规划部/国家土地局（ATR/BPN）开展现场抓捕行动（OTT）并锁定嫌疑人。",
+      "impact": "显示KPK对土地管理领域腐败的执法保持高压态势。",
+      "source": "https://www.kpk.go.id/id/ruang-informasi/berita/kpk-tangkap-tangan-tersangka-dugaan-suap-dan-penerimaan-lainnya-di-kementerian-atrbpn"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "KPK向三个部委移交价值156.8亿印尼盾的扣押资产",
+      "description": "KPK将价值156.8亿印尼盾的腐败案件扣押资产（barang rampasan）移交给三个部委管理使用。",
+      "impact": "通过罚没资产的移交再利用提升腐败治理的经济追偿成效。",
+      "source": "https://www.kpk.go.id/id/ruang-informasi/berita/kpk-serahkan-barang-rampasan-negara-rp1568-miliar-kepada-tiga-kementerian"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "KPK向国会第三委员会报告2026年度预算执行情况",
+      "description": "KPK主席塞蒂约·布迪扬托在国会第三委员会工作会议上披露：截至2026年8月26日，KPK年度预算总额1.408万亿印尼盾已执行1.033万亿（73.4%），其中预防与执法项目预算2084.9亿盾已使用1289亿盾。",
+      "impact": "预算执行进度数据为国会审议KPK治理成效与资源配置提供依据。",
+      "source": "https://jogja.antaranews.com/berita/851371/kpk-telah-pakai-rp1289-m-anggaran-2026-buat-pencegahan-dan-penindakan"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "前副部级官员西尔米·卡里姆因外国人居留许可案接受首次讯问",
+      "description": "2026年6月8日，KPK调查人员在雅加达红白大厦对前移民与惩教部副部长西尔米·卡里姆 (Silmy Karim) 进行首次讯问，其被列为涉嫌在为外国公民办理居留许可过程中腐败案的嫌疑人。",
+      "impact": "KPK执法覆盖移民管理领域并触及前副部长级官员，显示案件侦办未受机构改组影响。",
+      "source": "https://jogja.antaranews.com/berita/851371/kpk-telah-pakai-rp1289-m-anggaran-2026-buat-pencegahan-dan-penindakan"
+    },
+    {
+      "date": "2026-04-02",
+      "title": "KPK高层访问警方腐败犯罪 corps 协调案件侦办",
+      "description": "KPK执法与执行局副局长阿塞普·古恩图尔·拉哈尤 (Asep Guntur Rahayu) 与调查主任特萨·马哈尔迪卡·苏吉亚托 (Tessa Mahardhika Sugiarto) 访问国家警察腐败犯罪 corps（Kortas Tipikor），就多起在办腐败案件进行协调；警方方面由Kortas负责人托托克·苏哈里扬托 (Totok Suharyanto) 接洽。",
+      "impact": "体现KPK与警方在腐败案件侦办中的机构间协调机制持续运转。",
+      "source": "https://www.cnnindonesia.com/nasional/20260402170812-12-1343788/petinggi-kpk-datangi-kortas-tipikor-polri-bongkar-kasus-korupsi-baru"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "KPK在财政部海关与消费税总局开展大规模抓捕行动",
+      "description": "2026年2月4日，KPK在雅加达与楠榜同步实施抓捕行动（OTT），共抓捕17人，其中12人为财政部海关与消费税总局（DJBC）工作人员；2月5日其中6人被列为涉嫌受贿与收受馈赠的嫌疑人，案情涉及进口通关环节的参数操纵与贿赂，KPK并就相关人员洗钱转移资金线索展开调查。",
+      "impact": "为近年来海关系统规模最大的执法行动之一，引发对通关制度改革与结构性反腐的公共讨论。",
+      "source": "https://nasional.kompas.com/read/2026/02/05/16573141/kpk-tangkap-12-pegawai-ditjen-bea-cukai-dalam-ott-di-jakarta"
+    },
+    {
+      "date": "2026-01-28",
+      "title": "KPK公布2025年度绩效：11次抓捕行动、追回资产1.531万亿印尼盾",
+      "description": "KPK主席塞蒂约·布迪扬托在国会第三委员会工作会议上报告2025年度绩效：全年开展11次抓捕行动（OTT）、列名118名嫌疑人，办理116起侦查、70起调查、115起起诉与78起执行，87件案件获得终审；追回国家资产1.531万亿印尼盾（同比增长107%，为五年最高），并推动挽救地方资产122.1万亿盾。副主席菲特罗·罗查希延托提出数字资产与加密货币等新型腐败挑战。KPK同时宣布执行新刑法与刑事诉讼法、不再在新闻发布会上示众嫌疑人。",
+      "impact": "现任领导层执法成效获国会肯定，机构工作重心向资产追回与数字犯罪应对扩展。",
+      "source": "https://www.kpk.go.id/id/ruang-informasi/berita/rekor-baru-kpk-2025-pulihkan-aset-negara-rp15-triliun-hingga-implementasi-kuhp-kuhap"
+    },
+    {
+      "date": "2024-12-16",
+      "title": "KPK新一届领导层宣誓就任",
+      "description": "2024年12月16日，塞蒂约·布迪扬托在雅加达国家宫宣誓就任KPK主席（2024-2029届），与副主席菲特罗·罗查希延托、约翰尼斯·塔纳克、阿古斯·约科·普拉莫诺、伊布努·巴苏基·维多多组成五人合议领导层；其人选由国会第三委员会于2024年11月21日全体会议选定。",
+      "impact": "完成领导层交接，延续KPK依据法律行使的协调、监督、侦查与预防职能。",
+      "source": "https://id.wikipedia.org/wiki/Setyo_Budiyanto"
+    },
+    {
+      "date": "2021-05-31",
+      "title": "KPK全体雇员依修订法宣誓转为国家公务员",
+      "description": "依据2019年修订后的KPK法，KPK全体雇员须接受民族主义测试并转为国家公务员（ASN），2021年5月31日举行集体宣誓；75人未通过测试，资深调查员诺韦尔·巴斯韦丹 (Novel Baswedan) 等58人于同年9月30日被解职。",
+      "impact": "雇员身份转换与人员清洗引发对机构独立性的广泛争议，是2019年修法争议的延续节点。",
+      "source": "https://en.wikipedia.org/wiki/Corruption_Eradication_Commission"
+    },
+    {
+      "date": "2019-09-17",
+      "title": "国会通过KPK法修订",
+      "description": "2019年9月17日，国会通过关于修订2002年第30号KPK法的2019年第19号法律，将KPK定位为行政权力体系内的国家机构、设立监察委员会并要求侦查措施（含窃听）事先获批、雇员转为公务员。修法在国会仅用12天完成审议，KPK声明未受邀参与讨论。",
+      "impact": "修订后的法律重塑KPK治理架构与侦查启动机制，引发2019年9月23日起全国大规模学生抗议。",
+      "source": "https://id.wikipedia.org/wiki/Komisi_Pemberantasan_Korupsi_Republik_Indonesia"
+    },
+    {
+      "date": "2003-12-29",
+      "title": "KPK正式成立",
+      "description": "依据2002年第30号法律《关于肃清腐败犯罪委员会的法律》，KPK于2003年12月29日正式成立，12月16日首任领导层由总统任命宣誓就职，首任主席为警察学院1971届出身的陶菲库拉赫曼·鲁基。",
+      "impact": "建立了独立于既有执法体系的专门反腐败机构，统一行使腐败犯罪协调、监督、侦查与预防职能。",
+      "source": "https://id.wikipedia.org/wiki/Komisi_Pemberantasan_Korupsi_Republik_Indonesia"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-GOV-005",
+      "org_name": "总检察院 (Kejaksaan Agung)",
+      "org_type": "GOV",
+      "org_description": "印尼最高检察机关，KPK法定腐败案件治理的协调、监督与案件移办对象。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚国家警察 (Kepolisian Negara Republik Indonesia)",
+      "org_type": "GOV",
+      "org_description": "国家治安与刑事侦查机构，与KPK在腐败案件侦查、抓捕行动执行及案件移办上互为协调对象；KPK高层定期与其腐败犯罪 corps（Kortas Tipikor）开展工作协调。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-031",
+      "org_name": "最高法院 (Mahkamah Agung)",
+      "org_type": "GOV",
+      "org_description": "印尼最高审判机关，KPK起诉的腐败案件经各级贪污犯罪法院（Tipikor）审理后可上诉至最高法院终审。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-022",
+      "org_name": "金融交易报告和分析中心 (Pusat Pelaporan dan Analisis Transaksi Keuangan, PPATK)",
+      "org_type": "GOV",
+      "org_description": "国家金融情报机构，向KPK提供可疑金融交易报告，支持腐败案件资金链与洗钱线索分析。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-034",
+      "org_name": "审计署 (Badan Pemeriksa Keuangan, BPK)",
+      "org_type": "GOV",
+      "org_description": "国家外部审计机构，KPK定期向其提交工作报告，并接收其移交的涉嫌腐败线索。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "印度尼西亚反腐败委员会（Komisi Pemberantasan Korupsi，简称KPK）是依据2002年第30号法律于2003年12月29日成立的独立国家机构，宗旨是提升腐败犯罪治理的效率与成效。KPK独立行使职权，不受其他任何权力机构影响，实行五人集体合议制领导（一名主席兼任委员、四名副主席兼任委员），任期四年、可连任一次，对公众负责并定期向总统、国会和审计署提交公开报告。其法定任务包括五项：与有权机关协调腐败犯罪治理、监督相关执法机构、直接进行腐败犯罪的调查侦查与起诉、开展腐败预防、监测国家行政运行；具体职权涵盖批准窃听、实施旅行禁令、调取嫌疑人金融信息、冻结金融交易以及提请其他执法机关协助等。KPK以教育、预防和执法三大策略开展工作，遵循法律确定性、公开性、问责性、公共利益与相称性五项原则。其建制可上溯至1950年代以来的历届肃贪机构（如1959-1962年国家机构活动监督署、1967-1970年肃贪工作队、1970年四层委员会、1999-2002年国家公务人员财产审查委员会等）。2024年机构雇员约1,711人，2025年度预算约1.02万亿印尼盾（含2025年财政效率削减约2,010亿盾）。总部位于雅加达南部塞蒂亚布迪区红白大厦（Gedung Merah Putih，Jl. Kuningan Persada Kav. K4），设198热线受理公众举报，并运行涉嫌腐败人员追踪、法规数据库等公开系统。作为东盟内部受广泛关注的专业反腐败机构，KPK与多国及国际反腐败组织开展资产追回与执法合作。",
+  "industries": [
+    "regulatory",
+    "internal_security"
+  ],
+  "apec_stance": "KPK为印尼国家反腐败执法机构，不直接参与APEC经贸议程。印尼是APEC成员经济体，KPK通过《联合国反腐败公约》框架及与APEC经济体执法部门的反腐败执法合作、跨境资产追回与信息共享，服务于区域营商环境的廉洁建设，其公开报告制度亦为包括中国企业在内的外国投资者了解印尼合规环境提供参考。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_corrected_qid",
-    "completeness_score": 50,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q3273955"
+      "https://www.kpk.go.id/",
+      "https://id.wikipedia.org/wiki/Komisi_Pemberantasan_Korupsi_Republik_Indonesia",
+      "https://www.setneg.go.id/baca/index/pelantikan_pimpinan_baru_kpk",
+      "https://www.kpk.go.id/id/tentang-kpk/profil-pimpinan",
+      "https://www.kpk.go.id/id/ruang-informasi/berita/rekor-baru-kpk-2025-pulihkan-aset-negara-rp15-triliun-hingga-implementasi-kuhp-kuhap",
+      "https://en.wikipedia.org/wiki/Corruption_Eradication_Commission",
+      "https://www.cnnindonesia.com/nasional/20260402170812-12-1343788/petinggi-kpk-datangi-kortas-tipikor-polri-bongkar-kasus-korupsi-baru",
+      "https://jogja.antaranews.com/berita/851371/kpk-telah-pakai-rp1289-m-anggaran-2026-buat-pencegahan-dan-penindakan",
+      "https://nasional.kompas.com/read/2026/02/05/16573141/kpk-tangkap-12-pegawai-ditjen-bea-cukai-dalam-ott-di-jakarta",
+      "https://id.wikipedia.org/wiki/Setyo_Budiyanto"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q5088068; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 97,
+    "quotes": [
+      {
+        "title": "Komisi Pemberantasan Korupsi Republik Indonesia - Wikipedia Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Komisi_Pemberantasan_Korupsi_Republik_Indonesia"
+      },
+      {
+        "title": "Situs Resmi KPK",
+        "url": "https://www.kpk.go.id/"
+      },
+      {
+        "title": "Pelantikan Pimpinan Baru KPK - Sekretariat Negara RI",
+        "url": "https://www.setneg.go.id/baca/index/pelantikan_pimpinan_baru_kpk"
+      },
+      {
+        "title": "Profil Pimpinan KPK 2024-2029 - Situs Resmi KPK",
+        "url": "https://www.kpk.go.id/id/tentang-kpk/profil-pimpinan"
+      },
+      {
+        "title": "Rekor Baru KPK 2025: Pulihkan Aset Negara Rp1,5 Triliun (KPK Siaran Pers)",
+        "url": "https://www.kpk.go.id/id/ruang-informasi/berita/rekor-baru-kpk-2025-pulihkan-aset-negara-rp15-triliun-hingga-implementasi-kuhp-kuhap"
+      },
+      {
+        "title": "Petinggi KPK Datangi Kortas Tipikor Polri - CNN Indonesia",
+        "url": "https://www.cnnindonesia.com/nasional/20260402170812-12-1343788/petinggi-kpk-datangi-kortas-tipikor-polri-bongkar-kasus-korupsi-baru"
+      },
+      {
+        "title": "KPK telah pakai Rp128,9 M anggaran 2026 - ANTARA News",
+        "url": "https://jogja.antaranews.com/berita/851371/kpk-telah-pakai-rp1289-m-anggaran-2026-buat-pencegahan-dan-penindakan"
+      },
+      {
+        "title": "KPK Tangkap 12 Pegawai Ditjen Bea Cukai dalam OTT di Jakarta - KOMPAS",
+        "url": "https://nasional.kompas.com/read/2026/02/05/16573141/kpk-tangkap-12-pegawai-ditjen-bea-cukai-dalam-ott-di-jakarta"
+      },
+      {
+        "title": "Corruption Eradication Commission - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Corruption_Eradication_Commission"
+      },
+      {
+        "title": "Setyo Budiyanto - Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Setyo_Budiyanto"
+      }
+    ],
+    "notes": "P3 deep enrichment 2026-09-17: current leadership (Setyo Budiyanto + 4 vice chairs) verified on kpk.go.id official profile page and Indonesian Wikipedia; 4th vice chair Ibnu Basuki Widodo added with person_id null pending central assignment; department heads and Dewan Pengawas from Indonesian Wikipedia infobox. Social accounts corrected to officially confirmed ones (@official.kpk Instagram, facebook.com/KomisiPemberantasanKorupsi) cross-verified via official YouTube channel links and KPK clarification statement. recent_events rebuilt with sourced 2025-2026 enforcement and budget items from kpk.go.id press releases, CNN Indonesia, ANTARA and Kompas; cases reported factually from official/state sources only. Inauguration date corrected 2024-12-06 -> 2024-12-16 per Indonesian Wikipedia (Setyo Budiyanto). December 2021 Perpres number could not be verified against sources and was therefore omitted; the sourced 2021-05-31 civil-servant swearing-in event is used instead. Police (Polri) not present in _name_index so related_entities org_id written as null; Kejaksaan Agung=ID-GOV-005, Mahkamah Agung=ID-GOV-031, PPATK=ID-GOV-022, BPK=ID-GOV-034 resolved from index. Taufiequrachman Ruki and other existing person_ids preserved.；[schema修复并档] ；high"
   }
 }

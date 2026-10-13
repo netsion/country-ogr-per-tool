@@ -1,0 +1,201 @@
+{
+  "org_id": "CM-MIL-006",
+  "wikidata_qid": "Q25378388",
+  "basic_info": {
+    "name_original": "Bataillon d'Intervention Rapide",
+    "name_zh": "快速干预营",
+    "name_en": "Rapid Intervention Battalion (BIR)",
+    "aliases": [
+      "BIR",
+      "Rapid Intervention Brigade",
+      "Brigade d'Intervention Rapide",
+      "Bataillon léger d'intervention (BLI)",
+      "Light Intervention Battalion"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "CMR",
+    "hq_country_iso3": "CMR",
+    "founded_date": "1999-01-01",
+    "website": null
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": "CM-PERSON-000001",
+      "name": "Paul Biya",
+      "title": "喀麦隆总统、武装部队总司令",
+      "title_description": "BIR 的指挥结构绕过武装部队总参谋长与国防部长，BIR 指挥官及总协调官直接向总统府负责",
+      "description": "英文维基百科记载，自 BIR 扩编以来，Biya 多次直接下令将 BIR 营部署至不同地区以应对内外威胁；BIR 的全部预算由喀麦隆国家石油公司提供，独立于正规军预算。"
+    },
+    {
+      "person_id": "CM-PERSON-000096",
+      "name": "Avi Sivan (Abraham Sivan)",
+      "title": "首任指挥官、BIR 缔造者",
+      "title_description": "1999 年创建轻干预营（BLI），2001 年主导其扩编为 BIR 并执掌指挥权",
+      "description": "以色列退役上校、时任驻喀麦隆国防武官。1999 年受命创建轻干预营（Bataillon léger d'intervention, BLI）以应对北部公路匪患；2001 年 BLI 扩编为 BIR 后继续指挥，直至 2010 年死于直升机坠机事故。"
+    },
+    {
+      "person_id": "CM-PERSON-000097",
+      "name": "Mayer Heres",
+      "title": "指挥官",
+      "title_description": "2010 年起接掌 BIR 指挥权",
+      "description": "以色列将军，2010 年 Avi Sivan 身故后接替指挥 BIR；据英文维基百科记载，至 2017 年前后其将日常指挥权移交喀麦隆籍副手，但本人据报仍具影响力。"
+    },
+    {
+      "person_id": "CM-PERSON-000098",
+      "name": "Bouba Dobékréo",
+      "title": "准将、指挥官",
+      "title_description": "BIR 首位喀麦隆籍指挥官（2017 年前后接掌）",
+      "description": "喀麦隆籍军官，原任 Mayer Heres 副手；据英文维基百科记载，至 2017 年前后接管 BIR 日常指挥权。"
+    },
+    {
+      "person_id": "CM-PERSON-000099",
+      "name": "Pelene Francois",
+      "title": "准将、BIR 总协调官（General Coordinator）",
+      "title_description": "截至 2025 年 10 月执掌 BIR",
+      "description": "喀麦隆籍军官，具有反土匪及反博科圣地行动履历；喀麦隆新闻社（CNA）与国家广播电视台（CRTV）报道显示其多次以 BIR 总协调官身份主持新兵结业及西北大区指挥所启用等活动。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CM-MIL-006-DEPT-001",
+      "name": "BIR 旅指挥部 (État-major, Bafoussam)",
+      "head": null,
+      "description": "旅部驻西部大区巴富萨姆（Bafoussam）；据英、法文维基百科武装部队条目，BIR 三个主要营分驻蒂科、库塔巴与杜阿拉。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-MIL-006-DEPT-002",
+      "name": "特种两栖营 (Bataillon Spécial Amphibie, BSA)",
+      "head": null,
+      "description": "驻西南大区蒂科（Tiko）；参照法国特种部队模式组建，承担两栖作战任务。",
+      "parent_dept_id": "CM-MIL-006-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-006-DEPT-003",
+      "name": "空降兵营 (Bataillon des Troupes Aéroportées, BTAP)",
+      "head": null,
+      "description": "驻西部大区库塔巴（Koutaba），承担空降与空中机动任务。",
+      "parent_dept_id": "CM-MIL-006-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-006-DEPT-004",
+      "name": "装甲侦察营 (Bataillon Blindé de Reconnaissance, BBR)",
+      "head": null,
+      "description": "驻滨海大区（Littoral）杜阿拉（Douala）；据英文维基百科武装部队条目，装备自中国采购的 Type 07P 步兵战车与 PTL-02 突击炮。",
+      "parent_dept_id": "CM-MIL-006-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-006-DEPT-005",
+      "name": "「阿尔法行动」指挥部 (Opération Alpha, Salak)",
+      "head": null,
+      "description": "驻极北大区萨拉基（Salak），为 2014 年发起的打击博科圣地「阿尔法行动」前线指挥部；据国际特赦组织称该基地另设有拘留设施。",
+      "parent_dept_id": "CM-MIL-006-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2012-01-01",
+      "title": "部署布巴恩吉达国家公园执行反盗猎任务",
+      "description": "2012 年，在 300 头大象遭苏丹盗猎团伙杀害后，BIR 派出 600 名士兵及一架直升机部署至喀麦隆北部布巴恩吉达国家公园，宣布将长期驻存以协助公园巡护员对抗持军用武器的跨境盗猎团伙；世界自然基金会（WWF）及英文维基百科记载，据报此次部署后盗猎活动有所减少。",
+      "impact": "BIR 任务范围从传统边境安全扩展至生态保护领域，此后在该公园保持长期存在。",
+      "source": "https://en.wikipedia.org/wiki/Rapid_Intervention_Battalion"
+    },
+    {
+      "date": "2014-05-01",
+      "title": "发起「阿尔法行动」（Opération Alpha）反恐战役",
+      "description": "2014 年 5 月博科圣地袭击中国水电集团（Sinohydro）施工现场后，BIR 发起「阿尔法行动」，获国际支持，成为喀麦隆及乍得湖地区打击博科圣地行动的核心组成部分；行动指挥部设于极北大区萨拉基，2014 年约 1000 名 BIR 士兵部署于尼日利亚边境地带。",
+      "impact": "BIR 约占喀麦隆对博科圣地作战兵力的三分之一，并在 Amchide、Fotokol 等地新设基地。",
+      "source": "https://en.wikipedia.org/wiki/Rapid_Intervention_Battalion"
+    },
+    {
+      "date": "2016-01-01",
+      "title": "依多国联合特遣队授权在尼日利亚境内执行「箭」行动",
+      "description": "喀麦隆于 2015 年 10 月加入乍得湖多国联合特遣队（MNJTF）后，BIR 部队依其授权以「箭」（Arrow）行动代号进入尼日利亚境内作战；据英文维基百科记载，2015 年 11 月至 2016 年 5 月间共执行八次「箭」行动，摧毁博科圣地两处主要训练基地，据报击毙 200 余名武装分子，并参与攻占尼日利亚边境城镇 Kumshe。",
+      "impact": "BIR 成为喀麦隆跨境反恐作战的主力单元，但 MNJTF 司令部对 BIR 并无指挥权，二者仅为协同关系。",
+      "source": "https://en.wikipedia.org/wiki/Rapid_Intervention_Battalion"
+    },
+    {
+      "date": "2018-01-01",
+      "title": "部署西南大区参与英语区危机军事行动",
+      "description": "2018 年，BIR 被部署至喀麦隆西南大区打击分离主义武装；同年 BBC《Africa Eye》栏目公布的视频显示身着 BIR 制服的士兵在西南大区 Azi 村焚烧民房，与 Bellingcat 相关调查人员及国际特赦组织联合开展的开放来源调查将 BIR 与 Mayo-Tsanaga 地区妇女儿童遇害事件相联系；喀麦隆传播部长 Issa Tchiroma Bakary 否认涉事者为 BIR 士兵。",
+      "impact": "该营在英语区危机中的角色及人权指控引发国际关注，相关事件被多家人权组织记录。",
+      "source": "https://en.wikipedia.org/wiki/Rapid_Intervention_Battalion"
+    },
+    {
+      "date": "2019-01-01",
+      "title": "美国因人权指控削减约 1700 万美元安全援助",
+      "description": "据英文维基百科记载，因国际特赦组织公布 BIR 虐待被拘押人员的视频指控，美国国务院于 2019 年削减约 1700 万美元对喀安全援助；此前 2017 年美军非洲司令部司令 Thomas Waldhauser 将军曾要求就相关酷刑指控启动调查。",
+      "impact": "BIR 与美国军事合作受到审视，但美方与该营的协作并未完全中止。",
+      "source": "https://en.wikipedia.org/wiki/Rapid_Intervention_Battalion"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CM-MIL-001",
+      "org_name": "Cameroon Armed Forces (Forces armées camerounaises)",
+      "org_type": "MIL",
+      "org_description": "喀麦隆武装部队，1960 年建立，辖陆军、空军、海军及宪兵",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "CM-GOV-001",
+      "org_name": "Presidency of the Republic of Cameroon (Présidence de la République du Cameroun)",
+      "org_type": "GOV",
+      "org_description": "喀麦隆共和国总统府",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CM-GOV-009",
+      "org_name": "Ministry of Defence (Ministère de la Défense)",
+      "org_type": "GOV",
+      "org_description": "喀麦隆国防部",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "快速干预营（BIR，又称快速干预旅）是喀麦隆武装部队序列内的精锐轻型步兵与合成兵种旅级单位，规模约 5000 至 7000 人，编为五至六个营，基本战术单元为约千人规模、可编入装甲、炮兵、情报与航空分队的联合轻干预单元（UIL）。该营 1999 年以轻干预营（BLI）名义创立，初衷为协助警方应对与中非共和国、乍得和尼日利亚接壤边境地带日趋严重的武装劫掠；2001 年扩编为 BIR，下辖三个分驻喀麦隆常规军区的精锐快速干预营。其任务包括反叛乱、反恐、反土匪作战、控制非法武器流通及保卫边境，2012 年起亦承担北部国家公园反盗猎任务。BIR 的指挥结构绕过武装部队总参谋长与国防部长，其指挥官及总协调官直接向共和国总统府负责；预算由喀麦隆国家石油公司单列提供，独立于正规军预算，装备、训练与薪给优于普通陆军部队。自 2000 年代中期起，该营获得美国与以色列的装备与训练支持，2014 年起在极北大区主导「阿尔法行动」打击博科圣地，2015 年起依多国联合特遣队授权在尼日利亚境内执行「箭」行动，2018 年起参与英语区危机的军事行动。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": "喀麦隆不是APEC成员经济体，该组织与APEC无直接关联。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Cameroon_military_deployed_in_Bamenda%2C_July_21%2C_2019.jpg/330px-Cameroon_military_deployed_in_Bamenda%2C_July_21%2C_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 79,
+    "notes": "主要来源为英文维基百科 BIR 条目、英/法文维基百科武装部队条目，辅以 WWF、The New Humanitarian 及喀麦隆媒体报道的搜索结果交叉验证。成立年份冲突已解决：1999 年以轻干预营（BLI）名义创立（Wikidata 口径），2001 年扩编为 BIR（The New Humanitarian 媒体口径），founded_date 取 1999-01-01 并在 core_business 与备注中说明两个口径。直属总统府（指挥链绕过总参谋长与国防部长、预算来自国家石油公司）已经英文维基 BIR 条目确认。指挥官沿革：Avi Sivan（1999-2010，2010 年坠机身亡）→ Mayer Heres（2010 年起，约 2017 年移交日常指挥）→ Bouba Dobékréo（约 2017 年起）→ Pelene Francois（截至 2025 年 10 月任总协调官，经喀麦隆新闻社与 CRTV 报道交叉印证）。营级编制（BSA 蒂科、BTAP 库塔巴、BBR 杜阿拉、旅部巴富萨姆）经英/法文维基武装部队条目双重确认；法语维基 BIR 专页访问失败（502）已跳过。基本战术单元 UIL、「阿尔法行动」萨拉基指挥部及征兵条件等据英文维基 BIR 条目记入。org_subtype 固定为 armed_forces；country_iso3 由骨架文件的 CMP 修正为 ISO 3166-1 alpha-3 标准代码 CMR。广泛报道的人权指控仅以中性转述方式记入 recent_events，来源为维基百科记载的 BBC Africa Eye、国际特赦组织及美方调查事实。；收尾勘误(2026-09-20)：本注释所述\"沿用CMP\"为更正前状态，骨架代码 CMP 已全局更正为标准 CMR",
+    "quotes": [
+      {
+        "title": "Rapid Intervention Battalion (Rapid Intervention Brigade) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rapid_Intervention_Battalion"
+      },
+      {
+        "title": "Cameroon Armed Forces - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cameroon_Armed_Forces"
+      },
+      {
+        "title": "Forces armées camerounaises - Wikipédia",
+        "url": "https://fr.wikipedia.org/wiki/Forces_arm%C3%A9es_camerounaises"
+      },
+      {
+        "title": "Cameroon: Rapid intervention military unit strays from its mission - The New Humanitarian",
+        "url": "https://www.thenewhumanitarian.org/report/80065/cameroon-rapid-intervention-military-unit-strays-its-mission"
+      },
+      {
+        "title": "Cameroon mobilizes 600 elite soldiers to defend country from poachers - WWF",
+        "url": "https://wwf.panda.org/es/?207114/Cameroon-mobilizes-600-elite-soldiers-to-defend-country-from-poachers"
+      }
+    ]
+  }
+}

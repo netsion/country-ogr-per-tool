@@ -3,61 +3,209 @@
   "basic_info": {
     "org_id": "ID-FIN-007",
     "wikidata_qid": "Q105954642",
-    "name_en": "Kantor Bank BNI Solok",
-    "name_zh": "Kantor 银行 BNI Solok",
-    "name_local": "Kantor Bank BNI Solok",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "FIN",
-    "org_subtype": "central_bank",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://bni.co.id/id-id/",
-    "official_website": "https://bni.co.id/id-id/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
-    "country_iso3": "IDN",
-    "name_original": "Kantor Bank BNI Solok"
-  },
-  "description": "办公室 银行 in West 苏门答腊",
-  "brief": "办公室 银行 in West 苏门答腊",
-  "mission": null,
-  "core_business": "办公室 银行 in West 苏门答腊",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
-  "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
-    "data_sources": [
-      "https://www.wikidata.org/wiki/Q105954642"
+    "name_original": "Kantor Bank BNI Solok",
+    "name_zh": "印尼国家银行索洛克分行",
+    "name_en": "Bank BNI Solok Branch Office",
+    "aliases": [
+      "BNI Cabang Solok",
+      "BNI KC Solok",
+      "Kantor Cabang BNI Solok"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q105954642; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "acronym": "BNI Solok",
+    "country_iso3": "IDN",
+    "hq_country_iso3": "IDN",
+    "founded_date": null,
+    "website": "https://bniexperience.bni.co.id/lokasi/cabang/164",
+    "org_type": "FIN",
+    "org_subtype": "subsidiary",
+    "headquarters": "Jl. K.H. Ahmad Dahlan No. 99, Kelurahan Pasar Pandan Air Mati, Kecamatan Tanjung Harapan, Kota Solok, Sumatera Barat 27322",
+    "phone": "(0755) 22815"
+  },
+  "social_accounts": [
+    {
+      "platform": "instagram",
+      "account_name": "himovers.solok",
+      "url": "https://www.instagram.com/himovers.solok/",
+      "source": "instagram；[]BNI 第02区域（西苏门答腊/廖内群岛）员工社区账号，发布包括索洛克分行在内的区域网点动态，非支行官方账号"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "BNI Experience 网点定位页（索洛克分行）",
+      "url": null,
+      "description": "BNI 官方网点查询系统中索洛克分行的地址与服务信息页面",
+      "source": null
+    },
+    {
+      "name": "BNI 官网网点查询（bni.co.id）",
+      "url": null,
+      "description": "印尼国家银行官网的分支行定位与联系方式查询平台",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000567",
+      "name": "罗西·迪亚娜 (Rosi Diana)",
+      "title": "分行行长",
+      "title_description": "BNI 索洛克分行负责人（Pimpinan Cabang）",
+      "description": "2026年7月以 BNI 索洛克分行行长身份出席索洛克市政府无车日小贩协会成立暨 QRIS 数字支付推广活动，负责分行零售与普惠金融业务。；[]Rosi Diana"
+    },
+    {
+      "person_id": "ID-PERSON-000568",
+      "name": "尤迪·瓦尔拉·约萨 (Yudi Varla Yosa)",
+      "title": "前行长",
+      "title_description": "BNI 索洛克分行行长（2024年在任）",
+      "description": "2024年8月以 PT BNI 索洛克分行行长（Kepala Cabang）身份出席当地公开活动，其后由罗西·迪亚娜接任。；[]Yudi Varla Yosa"
+    },
+    {
+      "person_id": "ID-PERSON-000773",
+      "name": "梅奇·汉达雅尼 (Mechy Handayani)",
+      "title": "前行长",
+      "title_description": "BNI 索洛克分行行长（2019年在任，后调任巴东分行行长）",
+      "description": "2019年5月以 BNI 索洛克分行行长（Pemimpin Cabang）身份主持斋月企业社会责任活动，向索洛克市及邻近县份困难群体发放250份生活必需品包；不迟于2021年1月出任 BNI 巴东分行行长。；[]Mechy Handayani"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-FIN-007-DEPT-001",
+      "name": "零售业务部 (Segmen Retail)",
+      "head": null,
+      "description": "面向个人客户的存贷款、银行卡与财富管理服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-007-DEPT-002",
+      "name": "小微企业金融部 (Segmen UMKM)",
+      "head": null,
+      "description": "面向中小微企业的信贷、QRIS 数字支付与普惠金融服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-007-DEPT-003",
+      "name": "运营与柜台服务部 (Operasional & Teller)",
+      "head": null,
+      "description": "柜台存取款、转账与日常运营支持",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-07-24",
+      "title": "与索洛克市政府合作推广小贩数字支付",
+      "description": "BNI 索洛克分行与索洛克市贸易合作社与中小企业局（DPKUKM）合作，在无车日（CFD）区域推动非现金交易，成立小贩协会并向约40名商户代表推广 QRIS 数字支付。",
+      "impact": "提升当地小微商户数字金融普及率，强化 BNI 在索洛克地区的普惠金融布局。",
+      "source": "https://infopublik.solokkota.go.id/artikel/perkuat-ekosistem-umkm-dpkukm-kota-solok-fasilitasi-pembentukan-asosiasi-pkl-cfd-dan-gandeng-bank-bni"
+    },
+    {
+      "date": "2024-08-01",
+      "title": "分行管理层出席地方公开活动",
+      "description": "时任行长尤迪·瓦尔拉·约萨率分行管理层出席索洛克当地活动，显示分行与地方社区的联系。",
+      "impact": "分行在地方商业网络中保持可见度。",
+      "source": "https://www.instagram.com/p/C-PayhgpT4o/"
+    },
+    {
+      "date": "2025-03-20",
+      "title": "斋月社区援助：联合市社会局发放80份生活必需品包",
+      "description": "BNI 索洛克分行与索洛克市社会局（Dinas Sosial）在市社会局大厅举行斋月物资交接仪式，向全市13个村的困难居民发放80份生活必需品包（每份价值约21万印尼盾，含大米、食油、白糖、沙丁鱼罐头、方便面、开斋糕点与糖浆）。索洛克市长拉马丹尼·基拉纳·普特拉（Ramadhani Kirana Putra）、社会局局长赫尔曼（Herman）出席，分行营销与业务主管爱德华·伊姆兰（Edward Imran）代表分行致辞，营销部主管法特玛瓦蒂（Fatmawati）同行。",
+      "impact": "巩固分行与索洛克市政府的公共服务合作关系，提升其在地方普惠金融与社区公益中的可见度。",
+      "source": "https://rri.co.id/index.php/daerah/1420695/bni-cabang-solok-salurkan-bantuan-sembako-untuk-warga"
+    },
+    {
+      "date": "2024-01-30",
+      "title": "前员工伪造国家债券（SUN）凭证诈骗客户资金案（约90亿印尼盾）",
+      "description": "西苏门答腊警方侦破 BNI 索洛克分行一名员工（缩写SDS，39岁）伪造国家债券（Surat Utang Negara）凭证、在约6年间诈骗客户资金约90亿印尼盾的案件并逮捕嫌疑人。时任分行行长尤迪·瓦尔拉·约萨（Yudi Varla Yosa）表示案件系个别员工行为、与银行机构无关，管理层对欺诈零容忍，并确认客户资金安全、已获赔付。",
+      "impact": "案件暴露基层网点凭证管理与内控风险，促使分行强化客户资金操作监督；银行声誉与客户信任受一定影响。",
+      "source": "https://padek.jawapos.com/hukum/2401300041/polisi-berhasil-ungkap-pemalsuan-sun-senilai-rp9-miliar"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-SOE-006",
+      "org_name": "印尼国家银行 (PT Bank Negara Indonesia (Persero) Tbk / BNI)",
+      "org_type": "FIN",
+      "org_description": "母行，印尼国有商业银行",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "金融服务管理局 (Otoritas Jasa Keuangan / OJK)",
+      "org_type": "GOV",
+      "org_description": "印尼金融服务行业监管机构，BNI 及其各分行均受其许可与监管",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "ID-FIN-002",
+      "org_name": "印度尼西亚银行 (Bank Indonesia)",
+      "org_type": "FIN",
+      "org_description": "印尼央行，负责支付系统（含 QRIS）监管",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "索洛克市贸易合作社与中小企业局 (DPKUKM Kota Solok)",
+      "org_type": null,
+      "org_description": "2026年7月与分行合作开展小贩协会组建与 QRIS 推广",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "BNI 索洛克分行是印尼国家银行（PT Bank Negara Indonesia (Persero) Tbk，国有控股上市银行，IDX 代码 BBNI）在西苏门答腊省索洛克市（Kota Solok）设立的分支机构，位于 Jl. K.H. Ahmad Dahlan No. 99。作为基层营业网点，该分行主要面向索洛克市及周边地区提供零售存贷款、小微企业信贷、银行卡、转账汇款及 QRIS 数字支付等商业银行服务，并承担总行在地方市场的普惠金融与金融素养推广职能。分行受印尼金融服务监管局（OJK）与印尼央行（BI）双重监管，隶属 BNI 第02区域（Wilayah 02）管理序列。2026年7月，分行与索洛克市政府合作推动无车日商户数字支付转型，体现其在地方数字经济生态中的角色。2025年3月，分行与市社会局联合开展斋月困难群众物资援助，持续承担总行公益与普惠金融推广在地方的基层执行角色。",
+  "industries": [
+    "banking",
+    "financial_services"
+  ],
+  "apec_stance": "作为印尼国有四大银行之一 BNI 的分支机构，索洛克分行通过母行的贸易融资与跨境支付网络间接服务亚太区域经贸往来。母行 BNI 为印尼主要的贸易融资与代理行服务提供者之一，支持印尼与 APEC 成员经济体之间的贸易结算。分行本身为地方零售网点，无独立的国际立场表述，其涉外职能主要体现在服务当地商户的 QRIS 跨境支付标准（印尼标准与东盟区域支付互联安排衔接）推广上。",
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "https://bniexperience.bni.co.id/lokasi/cabang/164",
+      "https://www.bni.co.id/id-id/bantuan-dukungan/pencari-lokasi/cabang",
+      "https://infopublik.solokkota.go.id/artikel/perkuat-ekosistem-umkm-dpkukm-kota-solok-fasilitasi-pembentukan-asosiasi-pkl-cfd-dan-gandeng-bank-bni",
+      "https://www.instagram.com/himovers.solok/",
+      "https://www.daftarperusahaan.com/bank/bank-bni-kc-solok",
+      "https://rri.co.id/index.php/daerah/1420695/bni-cabang-solok-salurkan-bantuan-sembako-untuk-warga",
+      "https://padek.jawapos.com/hukum/2401300041/polisi-berhasil-ungkap-pemalsuan-sun-senilai-rp9-miliar",
+      "https://posmetropadang.co.id/bni-cabang-solok-lipat-gandakan-kebaikan-43925/",
+      "https://sumbar.antaranews.com/berita/408148/sales-volume-meningkat-merchant-banjir-hadiah",
+      "https://bni.co.id/Portals/1/xNews/uploads/2020/12/16/DaftarOutletOperasionalTerbatasTanggal31Desember2020.pdf",
+      "https://klikpositif.com/berbagi-kebahagiaan-bni-cabang-solok-serahkan-80-paket-sembako/"
+    ],
+    "completeness_score": 75,
+    "quotes": [
+      {
+        "title": "BNI Experience - Lokasi Kantor Cabang SOLOK（官网网点信息）",
+        "url": "https://bniexperience.bni.co.id/lokasi/cabang/164"
+      },
+      {
+        "title": "InfoPublik Solok：DPKUKM Kota Solok 与 Bank BNI 合作推动 UMKM 数字化（2026-07-24，含分行行长 Rosi Diana）",
+        "url": "https://infopublik.solokkota.go.id/artikel/perkuat-ekosistem-umkm-dpkukm-kota-solok-fasilitasi-pembentukan-asosiasi-pkl-cfd-dan-gandeng-bank-bni"
+      },
+      {
+        "title": "BNI 官网网点查询",
+        "url": "https://www.bni.co.id/id-id/bantuan-dukungan/pencari-lokasi/cabang"
+      },
+      {
+        "title": "RRI Padang：BNI Cabang Solok Salurkan Bantuan Sembako untuk Warga（2025-03-27，80份物资，Edward Imran 代表分行）",
+        "url": "https://rri.co.id/index.php/daerah/1420695/bni-cabang-solok-salurkan-bantuan-sembako-untuk-warga"
+      },
+      {
+        "title": "Padang Ekspres：Polisi Berhasil Ungkap Pemalsuan SUN Senilai Rp9 Miliar（2024-01-30，含时任行长 Yudi Varla Yosa 回应）",
+        "url": "https://padek.jawapos.com/hukum/2401300041/polisi-berhasil-ungkap-pemalsuan-sun-senilai-rp9-miliar"
+      },
+      {
+        "title": "Posmetro Padang：BNI Cabang Solok Lipat Gandakan Kebaikan（2019-05-29，时任行长 Mechy Handayani）",
+        "url": "https://posmetropadang.co.id/bni-cabang-solok-lipat-gandakan-kebaikan-43925/"
+      },
+      {
+        "title": "ANTARA Sumbar：Sales volume meningkat, merchant banjir hadiah（2021-01-05，Mechy Handayani 时任巴东分行行长）",
+        "url": "https://sumbar.antaranews.com/berita/408148/sales-volume-meningkat-merchant-banjir-hadiah"
+      },
+      {
+        "title": "Daftarperusahaan：Bank BNI KC SOLOK 地址与电话（(0755)22815）",
+        "url": "https://www.daftarperusahaan.com/bank/bank-bni-kc-solok"
+      }
+    ],
+    "notes": "微型网点档案：BNI 索洛克分行无独立法人地位与公开财务数据，按职能建档。成立日期无公开来源，留空。人物均无既有 person_id，按规则填 null。 ｜2026-09-15：related_entities重建，母行关联指向新设档案 ID-SOE-006（支行级实体，公开信息有限，建议后续与母行档案体系合并管理）。 ｜2026-09-17：P3收尾——地址电话核实（BNI官方2020网点名录PDF与Daftarperusahaan双源确认(0755)22815）；新增2025-03-20斋月援助、2024-01-30前员工伪造SUN诈骗案两起事件（均附来源）；新增前行长梅奇·汉达雅尼（2019在任，后调任巴东分行行长）并建档ID-PERSON-000773；Bank Indonesia关联挂接已注册档案ID-FIN-002；合并重复的OJK条目；Instagram账号标注为区域员工社区账号（非支行官方）。；[schema修复并档] ；high"
   }
 }

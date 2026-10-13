@@ -3,76 +3,386 @@
   "basic_info": {
     "org_id": "ID-SOE-003",
     "wikidata_qid": "Q2305438",
-    "name_en": "Telkom Indonesia",
+    "name_original": "Telkom Indonesia",
     "name_zh": "印尼电信",
-    "name_local": "Telkom Indonesia",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": 1884,
-    "dissolved_year": null,
-    "org_type": "SOE",
-    "org_subtype": "state_owned_enterprise",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://www.telkom.co.id/sites",
-    "official_website": "https://www.telkom.co.id/sites",
-    "parent_org": "wikidata:Q131299051",
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_en": "PT Telkom Indonesia (Persero) Tbk",
+    "founded_date": "1884-10-23",
     "country_iso3": "IDN",
-    "name_original": "Telkom Indonesia"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.telkom.co.id/sites",
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise"
   },
-  "description": "state-owned telecommunication 公司 in Indonesia",
-  "brief": "state-owned telecommunication 公司 in Indonesia",
-  "mission": null,
-  "core_business": "state-owned telecommunication 公司 in Indonesia",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [
-    {
-      "person_id": "ID-PERSON-000424",
-      "name": "Alex Sinaga",
-      "title": "高管（来源：Wikidata 领导层声明）",
-      "title_description": "",
-      "description": ""
-    }
-  ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "facebook",
       "url": "https://facebook.com/TelkomIndonesia",
-      "source": "wikidata",
-      "account_name": "TelkomIndonesia"
+      "account_name": "TelkomIndonesia",
+      "source": "wikidata"
+    },
+    {
+      "platform": "twitter_x",
+      "url": "https://twitter.com/TelkomIndonesia",
+      "account_name": "TelkomIndonesia",
+      "source": "official website"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/telkomindonesia/",
+      "account_name": "telkomindonesia",
+      "source": "official website"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@TelkomIndonesia",
+      "account_name": "Telkom Indonesia",
+      "source": "official website"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/company/telekomunikasi-indonesia",
+      "account_name": "Telkom Indonesia",
+      "source": "web_search"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "官方网站 (Situs Resmi Telkom Indonesia)",
+      "url": "https://www.telkom.co.id/sites",
+      "description": "公司官方网站，含公司简介、董事会与监事会名单、业务介绍与新闻发布",
+      "source": "official website"
+    },
+    {
+      "name": "董事会页面 (Direksi)",
+      "url": "https://www.telkom.co.id/sites/profil-telkom/id_ID/page/direksi-189",
+      "description": "现任董事会（董事会成员）官方名单页面",
+      "source": "official website"
+    },
+    {
+      "name": "监事会页面 (Dewan Komisaris)",
+      "url": "https://www.telkom.co.id/sites/profil-telkom/id_ID/page/dewan-komisaris-197",
+      "description": "现任监事会（专员）官方名单页面",
+      "source": "official website"
+    },
+    {
+      "name": "Indibiz 企业与中小企业数字业务门户 (Indibiz by Telkom Indonesia)",
+      "url": "https://indibiz.co.id",
+      "description": "公司面向企业与中小企业（B2B/B2SME）的数字解决方案与生态系统门户",
+      "source": "web_search"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000745",
+      "name": "迪安·西斯瓦里尼 (Dian Siswarini)",
+      "title": "总裁董事 (Direktur Utama)",
+      "title_description": "2025年5月27日年度股东大会（RUPST）任命、2026年6月8日 RUPST 确认留任的公司首席执行官",
+      "description": "此前曾任 XL Axiata 总裁董事兼首席执行官（至 XLSmart 合并前），2025年5月27日 RUPST 出任 Telkom Indonesia 总裁董事，接替里里克·阿德里安西亚；主导 TLKM 30 中期转型战略"
+    },
+    {
+      "person_id": "ID-PERSON-000746",
+      "name": "安加·拉卡·普拉博沃 (Angga Raka Prabowo)",
+      "title": "监事会主席 (Komisaris Utama)",
+      "title_description": "2025年9月16日股东特别大会（RUPSLB）出任监事会主席，2026年6月年度股东大会后留任",
+      "description": "印尼公民，2025年9月起担任 Telkom Indonesia 监事会主席"
+    },
+    {
+      "person_id": "ID-PERSON-000747",
+      "name": "阿瑟·安杰洛·赛伦德拉 (Arthur Angelo Syailendra)",
+      "title": "财务与风险管理董事 (Direktur Keuangan & Manajemen Risiko)",
+      "title_description": "分管公司财务、预算与风险管理体系",
+      "description": "2025年出任现职，2026年6月8日 RUPST 公开的现任董事会名单确认在任"
+    },
+    {
+      "person_id": "ID-PERSON-000748",
+      "name": "维拉妮塔·约瑟芬 (Veranita Yosephine)",
+      "title": "企业与业务服务董事 (Direktur Enterprise & Business Service)",
+      "title_description": "分管面向企业客户（B2B）的电信与数字业务",
+      "description": "2025年出任现职，2026年6月8日 RUPST 公开的现任董事会名单确认在任"
+    },
+    {
+      "person_id": "ID-PERSON-000424",
+      "name": "阿列克斯·辛纳加 (A. Alex Sinaga)",
+      "title": "前总裁董事（2017–2019年任职）",
+      "title_description": "曾于2017年12月至2019年担任 Telkom Indonesia 总裁董事",
+      "description": "来源：Wikidata 领导层声明（曾任该公司负责人，P1086/CEO 关系）"
+    },
+    {
+      "person_id": null,
+      "name": "威利·萨埃兰 (Willy Saelan)",
+      "title": "人力资本管理董事 (Direktur Human Capital Management)",
+      "title_description": "2025年9月 RUPSLB 后出任现职",
+      "description": "分管人力资本管理，2026年6月8日 RUPST 公开的现任董事会名单确认在任"
+    },
+    {
+      "person_id": null,
+      "name": "纳南·亨达尔诺 (Nanang Hendarno)",
+      "title": "网络董事 (Direktur Network)",
+      "title_description": "分管全国光纤网络、海缆与基站等电信基础设施",
+      "description": "2026年6月8日 RUPST 公开的现任董事会名单确认在任，兼任网络与基础设施业务线负责人"
+    },
+    {
+      "person_id": null,
+      "name": "塞诺·苏马吉 (Seno Soemadji)",
+      "title": "战略业务发展与投资组合董事 (Direktur Strategic Business Development & Portfolio)",
+      "title_description": "分管战略业务发展与投资组合管理",
+      "description": "2026年6月8日 RUPST 公开的现任董事会名单确认在任"
+    },
+    {
+      "person_id": null,
+      "name": "布迪·萨特里亚·达尔玛·普尔巴 (Budi Satria Dharma Purba)",
+      "title": "批发与国际业务董事 (Direktur Wholesale & International Service)",
+      "title_description": "分管国际电信、海缆合作与批发业务（通过子公司 Telin 运营）",
+      "description": "2026年 RUPS 后出任现职，2026年6月8日 RUPST 名单确认在任，兼任批发与国际业务线负责人"
+    },
+    {
+      "person_id": null,
+      "name": "法伊扎尔·罗赫马德·朱马迪 (Faizal Rochmad Djoemadi)",
+      "title": "IT与数字董事 (Direktur IT Digital)",
+      "title_description": "分管信息技术与数字化转型",
+      "description": "2026年6月8日 RUPST 公开的现任董事会名单确认在任"
+    },
+    {
+      "person_id": null,
+      "name": "安迪·克拉纳 (Andy Kelana)",
+      "title": "法律与合规董事 (Direktur Legal & Compliance)",
+      "title_description": "分管法律事务与合规体系",
+      "description": "2026年6月8日 RUPST 公开的现任董事会名单确认在任"
+    },
+    {
+      "person_id": null,
+      "name": "博吉·维贾克索诺 (Bogi Witjaksono)",
+      "title": "前批发与国际业务董事（2021–2025年任职）",
+      "title_description": "曾于2021年5月至2025年5月担任批发与国际业务董事",
+      "description": "此前曾任企业与业务服务董事（2019年起）；2025年5月27日 RUPST 后卸任，由 Honesti Basyir 接任。经官网与媒体多源核实，其未出任公司总裁董事，现任总裁董事为迪安·西斯瓦里尼"
+    },
+    {
+      "person_id": null,
+      "name": "埃德温·希达亚特·阿卜杜拉 (Edwin Hidayat Abdullah)",
+      "title": "监事 (Komisaris)",
+      "title_description": "2026年6月8日 RUPST 出任监事，接替 Rionald Silaban",
+      "description": "2026年年度股东大会任命的公司监事，以强化转型议程的监督"
+    },
+    {
+      "person_id": null,
+      "name": "安东尼·利昂 (Anthony Leong)",
+      "title": "独立监事 (Komisaris Independen)",
+      "title_description": "2026年6月8日 RUPST 出任独立监事，接替 Silmy Karim",
+      "description": "2026年年度股东大会任命的公司独立监事"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-SOE-003-DEPT-001",
+      "name": "董事会 (Direksi)",
+      "head": "迪安·西斯瓦里尼 (Dian Siswarini)",
+      "description": "公司执行管理层，设总裁董事及法律合规、财务与风险管理、网络、企业与业务服务、战略业务发展与组合、人力资本、IT数字化、批发与国际业务等分管董事共9人",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-SOE-003-DEPT-002",
+      "name": "监事会 (Dewan Komisaris)",
+      "head": "安加·拉卡·普拉博沃 (Angga Raka Prabowo)",
+      "description": "公司治理监督机构，设监事会主席1人、监事4人及独立监事4人",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-SOE-003-DEPT-003",
+      "name": "网络与基础设施业务线 (Direktorat Network)",
+      "head": "纳南·亨达尔诺 (Nanang Hendarno)",
+      "description": "负责全国光纤网络、海底电缆、基站等电信基础设施的规划与运营",
+      "parent_dept_id": "ID-SOE-003-DEPT-001"
+    },
+    {
+      "dept_id": "ID-SOE-003-DEPT-004",
+      "name": "批发与国际业务线 (Direktorat Wholesale & International Service)",
+      "head": "布迪·萨特里亚·达尔玛·普尔巴 (Budi Satria Dharma Purba)",
+      "description": "负责国际电信业务、海缆合作与批发业务，通过子公司 Telin 运营",
+      "parent_dept_id": "ID-SOE-003-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-07-31",
+      "title": "发布2026年上半年财报：TLKM 30 转型加速",
+      "description": "上半年合并收入75.9万亿印尼盾（同比+3.9%）、EBITDA 37.5万亿印尼盾（+3.8%，利润率49.4%）、净利润10.6万亿印尼盾（+1.4%）、常态化净利润11.3万亿印尼盾（+6.2%）、经营现金流34.9万亿印尼盾（+7.0%）；Telkomsel 收入55.6万亿印尼盾（+3.3%），移动 ARPU 升至45,600印尼盾（+9.0%），IndiHome 固定宽带用户约950万、半年 ARPU 约20.7万印尼盾、固移融合率升至65%；完成10家集团实体精简，InfraNexia 二期光纤资产移交目标2026年下半年完成。",
+      "impact": "移动业务复苏带动常态化盈利增长，向战略控股转型按计划推进",
+      "source": "https://www.telkom.co.id/sites/berita/id_ID/news/laporan-keuangan-telkom-semester-i-2026-akselerasi-transformasi-tlkm-30-pendapatan-ebitda-dan-laba-bersih-normalisasi-telkom-tumbuh-kuat-di-paruh-pertama-2026-3861"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "RUPST 改组监事会：埃德温·希达亚特·阿卜杜拉与安东尼·利昂出任监事",
+      "description": "2026年年度股东大会任命 Edwin Hidayat Abdullah 为监事、Anthony Leong 为独立监事，接替 Rionald Silaban 与 Silmy Karim；董事会无变动，迪安·西斯瓦里尼留任总裁董事；会议同时批准2026-2030年长期计划（RJPP）与2027年度预算（RKAP）。",
+      "impact": "监督层换人以强化转型监督，执行管理层保持稳定",
+      "source": "https://www.cnbcindonesia.com/market/20260608171004-17-741138/hasil-rups-telkom-edwin-hidayat-anthony-leong-jadi-komisaris"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "批准2025财年分红约21.9万亿印尼盾及最高4万亿印尼盾新回购",
+      "description": "股东大会批准2025财年现金分红总额约21.9万亿印尼盾（其中17.8万亿印尼盾来自2025年净利润、约4.2万亿来自留存收益），股权登记日2026年6月19日、最迟2026年7月10日派付；并批准新一轮最高4万亿印尼盾的股票回购（2026年6月9日至2027年6月8日，期限最长12个月）。",
+      "impact": "延续高派息与回购组合的股东回报政策",
+      "source": "https://www.liputan6.com/tekno/read/7803878/hasil-rups-telkom-tunjuk-dua-komisaris-baru-dan-tebar-dividen-rp-219-triliun"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "发布2026年一季度财报",
+      "description": "一季度合并收入37.2万亿印尼盾（同比+1.5%）、EBITDA 18.0万亿印尼盾（利润率48.3%）、净利润4.3万亿印尼盾（同比降约21.7%，常态化净利润5.1万亿印尼盾）、经营现金流17.3万亿印尼盾（+3.1%）；盈利承压主要源于治理重置下的加速折旧，属过渡性、非现金影响。",
+      "impact": "过渡性盈利承压，现金流与常态化盈利保持稳健",
+      "source": "https://www.telkom.co.id/sites/berita/id_ID/news/laporan-keuangan-telkom-kuartal-i-2026-awali-tahun-2026-dengan-kinerja-solid-telkom-buktikan-komitmen-disiplin-operasional-dan-eksekusi-transformasi-3787"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "发布2025财年全年财报：TSR 达35.7%",
+      "description": "2025财年合并收入146.7万亿印尼盾、EBITDA 72.2万亿印尼盾（利润率49.2%）、净利润17.8万亿印尼盾（同比-9.5%，常态化净利润22.7万亿、利润率15.4%）；落实 Danantara Indonesia 治理全面重置（total governance reset）要求调整会计政策，并对2023、2024财年报表重述；Telkomsel 收入109.2万亿印尼盾，Mitratel 收入9.5万亿印尼盾（4.02万座铁塔，东南亚最大铁塔公司），批发与国际业务收入10.7万亿印尼盾（Telin 已参与27个国际海缆系统）；AdMedika 与 TelkoMedika 签署出售协议（CSPA）。",
+      "impact": "盈利短期承压但基本面稳固，2025年股东总回报（TSR）达35.7%",
+      "source": "https://www.telkom.co.id/sites/berita/id_ID/news/laporan-keuangan-telkom-tahun-buku-2025-telkom-telkom-bukukan-kinerja-fy25-resilience-perkuat-fundamental-dan-hasilkan-total-shareholder-return-357-3767"
+    },
+    {
+      "date": "2025-10-21",
+      "title": "签约向子公司 InfraNexia 剥离批发光纤连接业务",
+      "description": "与子公司 Telkom Infrastruktur Indonesia（品牌 InfraNexia）签署有条件剥离协议（CSA），将批发光纤连接（Wholesale Fiber Connectivity）业务与资产作价约35.8万亿印尼盾（约21.6亿美元）分两阶段剥离；第一阶段已于2026年1月完成（移交约50%光纤资产），第二阶段估值约28亿美元、目标2026年下半年完成。",
+      "impact": "公司由运营控股转向战略控股、释放光纤资产价值的关键一步",
+      "source": "https://www.reuters.com/business/media-telecom/telkom-indonesia-spin-off-wholesale-fibre-connectivity-business-216-billion-deal-2025-10-21/"
+    },
+    {
+      "date": "2025-09-16",
+      "title": "RUPSLB 撤销副总裁董事职位并改组监事会",
+      "description": "股东特别大会撤销副总裁董事（Wadirut）职位，Muhammad Awaluddin 离任；安加·拉卡·普拉博沃出任监事会主席，Willy Saelan 出任人力资本管理董事。",
+      "impact": "董事会架构扁平化为9人，治理监督层完成换届",
+      "source": "https://www.telkom.co.id/sites/berita/id_ID/news/rupslb-telkom-2025-tetapkan-perubahan-pengurus-perseroan-3281"
+    },
+    {
+      "date": "2025-05-27",
+      "title": "RUPST 任命迪安·西斯瓦里尼为总裁董事",
+      "description": "2025年年度股东大会任命前 XL Axiata 总裁董事迪安·西斯瓦里尼出任总裁董事，接替里里克·阿德里安西亚；同期批准2024财年分红21.04万亿印尼盾（派息率89%）及最高3万亿印尼盾股票回购；公司已加入 Danantara 运营控股体系。",
+      "impact": "完成公司最高管理层交接",
+      "source": "https://market.bisnis.com/read/20250527/192/1880488/daftar-lengkap-jajaran-direksi-telkom-tlkm-hasil-rups-hari-ini-275"
+    },
+    {
+      "date": "2025-03-24",
+      "title": "国有股权划转至 Danantara 资产管理公司",
+      "description": "依据政府重组国有企业控股体系的安排，印尼政府将所持 Telkom 多数股权（52.09%）划转至 Danantara Asset Management（由印尼船级社 Biro Klasifikasi Indonesia 更名而来）统一持有。",
+      "impact": "公司控股股东由财政部序列划入 Danantara 国家投资控股体系",
+      "source": "https://id.wikipedia.org/wiki/Telkom_Indonesia"
+    },
+    {
+      "date": "2026-01-06",
+      "title": "部分国有股份转由 BP BUMN 持有",
+      "description": "根据2025年第16号《国有企业法》实施安排，Danantara Asset Management 将 5.16 亿股 B 系列股份（约0.52%）转予国有企业监管机构（BP BUMN），转为双色（Dwiwarna）A 系列股份；Danantara 持股降至51.57%，国家持股总额不变。",
+      "impact": "公司治理结构适配新国企监管法律框架",
+      "source": "https://id.wikipedia.org/wiki/Telkom_Indonesia"
+    },
+    {
+      "date": "2021-05-24",
+      "title": "旗下 Telkomsel 率先在印尼推出5G商用服务",
+      "description": "通过子公司 Telkomsel，公司成为印尼首家提供5G商用服务的运营商；公司此前已于2014年在印尼率先提供4G LTE服务。",
+      "impact": "巩固公司在印尼移动通信市场的技术领先地位",
+      "source": "https://id.wikipedia.org/wiki/Telkom_Indonesia"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印尼电信移动通信公司 (Telkomsel)",
+      "org_type": "CORP",
+      "org_description": "公司旗下移动通信子公司（B2C板块运营公司），印尼最大移动运营商，1995年设立；IndiHome 固定宽带业务并入其运营，2025财年收入109.2万亿印尼盾，2026年年中移动 ARPU 约45,600印尼盾、固移融合率65%",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼电信国际公司 (Telin)",
+      "org_type": "CORP",
+      "org_description": "公司国际业务子公司，负责国际语音、数据与海缆业务；截至2025年已参与27个国际海底光缆系统（含 SEA-ME-WE 6 等）",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼电信基础设施公司 (Telkom Infrastruktur Indonesia)",
+      "org_type": "CORP",
+      "org_description": "承接公司光纤基础设施资产运营的子公司（品牌 InfraNexia）；2025年10月签约承接批发光纤连接业务剥离（估值约35.8万亿印尼盾/21.6亿美元，分两阶段，一期约50%光纤资产已于2026年1月完成移交）",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼铁塔公司 (Mitratel)",
+      "org_type": "CORP",
+      "org_description": "公司旗下电信铁塔子公司，2021年底在印尼证券交易所上市（IDX: MTEL）；持有约40,230座铁塔，为东南亚最大铁塔公司，2025财年收入9.5万亿印尼盾、EBITDA 利润率82.2%",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-GOV-015",
+      "org_name": "印度尼西亚努山塔拉未来力量投资管理局（Danantara Indonesia）",
+      "org_type": "GOV",
+      "org_description": "印尼国家投资管理机构；其旗下 Danantara Asset Management（由印尼船级社 Biro Klasifikasi Indonesia 更名）自2025年3月起持有公司51.57%股份（另0.52%由 BP BUMN 持有），并主导公司治理全面重置（total governance reset）",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "万隆电信大学 (Universitas Telkom)",
+      "org_type": "ACAD",
+      "org_description": "由公司关联的教育基金会（Yayasan Pendidikan Telkom）创办的大学",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "PT Telkom Indonesia (Persero) Tbk（印尼电信）是印度尼西亚最大的国有信息与通信技术（ICT）企业，也是印尼首家电信运营商，历史可追溯至1856年荷属东印度时期的第一条电报线路（法定登记沿革起于1884年），1965年组建国营电信企业（PN Telekomunikasi），1991年改制为有限公司（Persero），1995年在雅加达与苏腊巴亚证交所上市并登陆纽约证交所（代码 TLK，IDX 代码 TLKM），2020年更名为现名。公司业务涵盖固定宽带（IndiHome 品牌已并入 Telkomsel 运营，2026年年中用户约950万、固移融合率65%）、移动通信（通过 Telkomsel）、IPTV、视频点播、数据中心（NeutraDC 品牌：芝加朗与新加坡2座超大规模设施、Serpong/泗水/Sentul 3座企业级设施、新加坡2座托管设施及28座 NeuCentrIX 边缘数据中心）、基站与光纤网络（骨干光纤超21万公里）、物联网、大数据与卫星（Palapa 系列、Telkom-1/2/3S/4 等），并通过子公司 Telin 参与27个国际海缆系统；另提供金融服务代理、业务流程外包、托管服务、数字广告、物业管理与投资等业务。公司正实施 TLKM 30 中期转型战略（卓越运营与服务、非核心业务精简、价值释放、由运营控股转向战略控股），业务划分为 B2C、B2B 基础设施、B2B ICT 与国际业务四大板块。2025财年合并收入约146.7万亿印尼盾、EBITDA 约72.2万亿印尼盾（利润率49.2%）、净利润约17.8万亿印尼盾（常态化净利润约22.7万亿印尼盾，因治理重置加速折旧同比下降9.5%）、资本开支约27.5万亿印尼盾，2025年股东总回报（TSR）达35.7%；2023年末总资产约287.04万亿印尼盾（2023、2024财年报表已按新会计政策重述），员工约2.4万人（2026年上半年实施提前退休计划优化人力成本）。注册办公地位于万隆，运营总部设于雅加达 The Telkom Hub。截至2026年1月，国家持股通过 Danantara Asset Management（51.57%）与 BP BUMN（0.52%）合计52.09%，其余47.91%为公众流通股。",
+  "industries": [
+    "telecommunications",
+    "information_technology"
+  ],
+  "apec_stance": "公司作为印尼国有电信运营商，积极参与亚太区域数字基础设施互联互通：通过子公司 Telin 参与东南亚—中东—西欧6号（SEA-ME-WE 6）等跨区域海底光缆联盟，建成连接印尼与美国西海岸的 SEA-US 海缆及印尼全球门户（IGG）海缆系统；在新加坡、中国香港、美国等APEC成员经济体设有分支机构，为区域内企业提供国际带宽与数据服务，服务于印尼数字经济的对外互联互通目标。截至2025年，公司通过 Telin 已参与27个国际海底光缆系统；旗下 NeutraDC 在新加坡运营超大规模与托管数据中心设施，服务区域企业客户的云网与数据基础设施需求。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/id/thumb/c/c4/Telkom_Indonesia_2013.svg/250px-Telkom_Indonesia_2013.svg.png",
+    "local_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_corrected_qid",
-    "completeness_score": 50,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2305438"
+      "news_media",
+      "official_website",
+      "web_search",
+      "wikidata",
+      "wikipedia"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q1146871; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Telkom Indonesia 官方网站",
+        "url": "https://www.telkom.co.id/sites"
+      },
+      {
+        "title": "Telkom 官方：RUPSLB Telkom 2025 Tetapkan Perubahan Pengurus Perseroan",
+        "url": "https://www.telkom.co.id/sites/berita/id_ID/news/rupslb-telkom-2025-tetapkan-perubahan-pengurus-perseroan-3281"
+      },
+      {
+        "title": "Telkom 官方：Dewan Komisaris（监事会名单）",
+        "url": "https://www.telkom.co.id/sites/profil-telkom/id_ID/page/dewan-komisaris-197"
+      },
+      {
+        "title": "印尼语维基百科：Telkom Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Telkom_Indonesia"
+      },
+      {
+        "title": "Telkom 官方：2025财年全年业绩（FY25 Resilience，TSR 35.7%）",
+        "url": "https://www.telkom.co.id/sites/berita/id_ID/news/laporan-keuangan-telkom-tahun-buku-2025-telkom-telkom-bukukan-kinerja-fy25-resilience-perkuat-fundamental-dan-hasilkan-total-shareholder-return-357-3767"
+      },
+      {
+        "title": "Telkom 官方：2026年上半年财报（Akselerasi Transformasi TLKM 30）",
+        "url": "https://www.telkom.co.id/sites/berita/id_ID/news/laporan-keuangan-telkom-semester-i-2026-akselerasi-transformasi-tlkm-30-pendapatan-ebitda-dan-laba-bersih-normalisasi-telkom-tumbuh-kuat-di-paruh-pertama-2026-3861"
+      },
+      {
+        "title": "CNBC Indonesia：Hasil RUPS Telkom 2026 — Edwin Hidayat & Anthony Leong Jadi Komisaris",
+        "url": "https://www.cnbcindonesia.com/market/20260608171004-17-741138/hasil-rups-telkom-edwin-hidayat-anthony-leong-jadi-komisaris"
+      },
+      {
+        "title": "Bisnis.com：Daftar Lengkap Jajaran Direksi Telkom (TLKM) Hasil RUPS 27 Mei 2025",
+        "url": "https://market.bisnis.com/read/20250527/192/1880488/daftar-lengkap-jajaran-direksi-telkom-tlkm-hasil-rups-hari-ini-275"
+      },
+      {
+        "title": "Reuters：Telkom Indonesia to spin off wholesale fibre connectivity business in $2.16 billion deal",
+        "url": "https://www.reuters.com/business/media-telecom/telkom-indonesia-spin-off-wholesale-fibre-connectivity-business-216-billion-deal-2025-10-21/"
+      }
+    ],
+    "notes": "P3深度收尾（2026-09-17）：官网财报新闻（FY25、Q1-26、H1-26）+ CNBC Indonesia + Bisnis.com + Liputan6 + Reuters 多源交叉核实；确认现任总裁董事为迪安·西斯瓦里尼（2025-05-27 RUPST 任命、2026-06-08 RUPST 留任），其履历修正为前 XL Axiata 总裁董事；补齐9人董事会名单与2026年监事会换届（Edwin Hidayat Abdullah、Anthony Leong）；修正原2025-03-27 RUPSLB 任命条目日期；补充 FY2025 财报、FY2025 分红21.9万亿印尼盾与4万亿回购、InfraNexia 光纤剥离（2025-10-21，35.8万亿印尼盾）等2025-2026事件至11条；Danantara 关联实体命中索引改用 ID-GOV-015；新增人物及 Telkomsel/Telin/Mitratel/TII 均未命中索引，person_id/org_id 置 null 待主会话分配。"
   }
 }

@@ -1,0 +1,366 @@
+{
+  "org_id": "US-GOV-024",
+  "basic_info": {
+    "name_original": "National Aeronautics and Space Administration",
+    "name_zh": "美国国家航空航天局",
+    "name_en": "National Aeronautics and Space Administration",
+    "aliases": [
+      "NASA",
+      "美国宇航局",
+      "美国太空总署",
+      "美国国家航空暨太空总署"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "independent_organ",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "1958-10-01",
+    "website": "https://www.nasa.gov",
+    "wikidata_qid": "Q23548"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@NASA",
+      "url": "https://x.com/NASA",
+      "source": "https://www.nasa.gov/socialmedia/"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "NASA",
+      "url": "https://facebook.com/NASA",
+      "source": "https://www.nasa.gov/socialmedia/"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@NASA",
+      "url": "https://instagram.com/NASA",
+      "source": "https://www.nasa.gov/socialmedia/"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "NASA",
+      "url": "https://linkedin.com/company/NASA",
+      "source": "https://www.nasa.gov/socialmedia/"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "NASA+ 流媒体平台",
+      "url": "https://plus.nasa.gov",
+      "description": "NASA官方流媒体服务，提供火箭发射直播、任务纪实、纪录片与原创科普内容，无需订阅付费。",
+      "source": "https://www.nasa.gov"
+    },
+    {
+      "name": "NASA 每日图片 (Image of the Day)",
+      "url": "https://www.nasa.gov/image-of-the-day/",
+      "description": "每日发布天文影像与任务图片，并设有哈勃、韦伯等大型天文台图片库供公众检索。",
+      "source": "https://www.nasa.gov"
+    },
+    {
+      "name": "NASA Eyes 三维可视化工具",
+      "url": "https://eyes.nasa.gov",
+      "description": "交互式三维可视化平台，实时展示航天器轨道、行星探测任务与地球科学数据。",
+      "source": "https://www.nasa.gov"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000287",
+      "name": "贾里德·艾萨克曼 (Jared Isaacman)",
+      "title": "美国国家航空航天局局长 (NASA Administrator)",
+      "title_description": "美国第15任NASA局长，2025年12月17日获参议院以67比30票确认，12月18日宣誓就职。",
+      "description": "企业家兼资深飞行员，支付技术公司Shift4创始人；曾指挥2021年Inspiration4任务——人类首次全平民轨道飞行，并于2024年「北极星黎明」(Polaris Dawn)任务中完成首次商业太空行走。任内主导阿耳忒弥斯计划架构重构（取消月球门户、调整Artemis III任务），并支持白宫对NASA的预算改革与商业化转型。"
+    },
+    {
+      "person_id": "US-PERSON-000288",
+      "name": "马特·安德森 (Matt Anderson)",
+      "title": "美国国家航空航天局副局长 (NASA Deputy Administrator)",
+      "title_description": "现任NASA副局长，局长首席副手。",
+      "description": "空军退役功勋指挥飞行员，拥有逾5,000飞行小时（含650余小时战斗飞行）；在24年空军生涯中曾在多个高级参谋岗位任职并多次担任指挥职务，2021年退役。"
+    },
+    {
+      "person_id": "US-PERSON-000289",
+      "name": "阿米特·克沙特里亚 (Amit Kshatriya)",
+      "title": "美国国家航空航天局首席副局长 (NASA Associate Administrator)",
+      "title_description": "NASA最高级别职业文官，主持机构日常运转。",
+      "description": "作为机构最高级别文职官员出任局长高级顾问，统管全美10个航天中心主任及华盛顿总部各任务指挥部的副局长级官员；此前长期负责「月球到火星」计划。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "NASA总部 (Mary W. Jackson NASA Headquarters)",
+      "dept_id": "US-GOV-024-DEPT-001",
+      "head": null,
+      "description": "位于华盛顿特区，机构最高管理机构，各任务指挥部与职能部门所在地，大楼以首位黑人女工程师玛丽·杰克逊命名。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "人类航天任务指挥部 (Human Spaceflight Mission Directorate)",
+      "dept_id": "US-GOV-024-DEPT-002",
+      "head": null,
+      "description": "负责国际空间站运营、商业载人/商业补给计划、阿耳忒弥斯登月计划及「月球到火星」探索战略，统筹猎户座飞船与太空发射系统(SLS)。",
+      "parent_dept_id": "US-GOV-024-DEPT-001"
+    },
+    {
+      "name": "科学任务指挥部 (Science Mission Directorate)",
+      "dept_id": "US-GOV-024-DEPT-003",
+      "head": null,
+      "description": "负责天体物理学、行星科学、地球科学与太阳物理学科研任务，管理哈勃、詹姆斯·韦伯、罗曼太空望远镜及毅力号火星车、欧罗巴快船等探测任务。",
+      "parent_dept_id": "US-GOV-024-DEPT-001"
+    },
+    {
+      "name": "研究与技术任务指挥部 (Research and Technology Mission Directorate)",
+      "dept_id": "US-GOV-024-DEPT-004",
+      "head": null,
+      "description": "负责航空学研究与颠覆性技术验证，主导X-59静音超音速验证机(QueSST)等项目。",
+      "parent_dept_id": "US-GOV-024-DEPT-001"
+    },
+    {
+      "name": "肯尼迪航天中心 (Kennedy Space Center)",
+      "dept_id": "US-GOV-024-DEPT-005",
+      "head": null,
+      "description": "位于佛罗里达州，NASA首要航天发射场，SLS/阿耳忒弥斯任务与罗曼太空望远镜等科学发射的起点，设第39A/39B等著名发射工位。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "约翰逊航天中心 (Johnson Space Center)",
+      "dept_id": "US-GOV-024-DEPT-006",
+      "head": null,
+      "description": "位于得克萨斯州休斯敦，载人航天任务控制中心（ mission control）所在地，负责宇航员训练、飞船研发与轨道任务运营。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "马歇尔航天飞行中心 (Marshall Space Flight Center)",
+      "dept_id": "US-GOV-024-DEPT-007",
+      "head": null,
+      "description": "位于亚拉巴马州亨茨维尔，推进系统研发重镇，太空发射系统(SLS)火箭主研单位，前身即冯·布劳恩团队所在的陆军弹道导弹局。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "戈达德航天飞行中心 (Goddard Space Flight Center)",
+      "dept_id": "US-GOV-024-DEPT-008",
+      "head": null,
+      "description": "位于马里兰州格林贝尔特，美国最大的科学卫星研制与运营中心，管理哈勃望远镜、探索者计划及近地网络通信设施。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "喷气推进实验室 (Jet Propulsion Laboratory, JPL)",
+      "dept_id": "US-GOV-024-DEPT-009",
+      "head": null,
+      "description": "位于加州帕萨迪纳，由加州理工学院按联邦资助研发中心(FFRDC)模式运营的承包设施，NASA深空机器人探测核心单位，负责毅力号、旅行者、欧罗巴快船及深空网络。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "艾姆斯研究中心 (Ames Research Center)",
+      "dept_id": "US-GOV-024-DEPT-010",
+      "head": null,
+      "description": "位于加州硅谷莫菲特场，专长航空计算、人工智能、生命科学与小型卫星任务（如SPHEREx）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "兰利研究中心 (Langley Research Center)",
+      "dept_id": "US-GOV-024-DEPT-011",
+      "head": null,
+      "description": "位于弗吉尼亚州汉普顿，NASA创立时继承的三大实验室之一，专注航空空气动力学、结构与大气科学研究。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "格伦研究中心 (Glenn Research Center)",
+      "dept_id": "US-GOV-024-DEPT-012",
+      "head": null,
+      "description": "位于俄亥俄州克利夫兰，专注推进系统、电力与空间通信技术研发，前身为刘易斯飞行推进实验室。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "阿姆斯特朗飞行研究中心 (Armstrong Flight Research Center)",
+      "dept_id": "US-GOV-024-DEPT-013",
+      "head": null,
+      "description": "位于加州爱德华兹空军基地，NASA主力飞行研究机构，承担X-59静音超音速验证机等先进飞行器试飞。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "斯坦尼斯航天中心 (Stennis Space Center)",
+      "dept_id": "US-GOV-024-DEPT-014",
+      "head": null,
+      "description": "位于密西西比州，美国最大的火箭推进试验基地，负责SLS芯级及RS-25发动机点火试验。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-17",
+      "title": "参议院确认贾里德·艾萨克曼出任NASA第15任局长",
+      "description": "美国参议院以67比30票确认贾里德·艾萨克曼为NASA局长（PN650提名案），结束了特朗普总统曾提名又撤回、再次提名的漫长人事波折；艾萨克曼于12月18日宣誓就职。",
+      "impact": "商业航天背景的企业家首次执掌NASA，机构随后启动阿耳忒弥斯架构重构、预算优先级调整与深度商业化转型。",
+      "source": "https://spacenews.com/senate-confirms-isaacman-as-nasa-administrator/"
+    },
+    {
+      "date": "2026-02-27",
+      "title": "NASA重构阿耳忒弥斯任务序列：Artemis III改为近地轨道任务",
+      "description": "NASA宣布调整阿耳忒弥斯飞行序列：原定载人登月的Artemis III（推迟至2027年）改为在近地轨道演示猎户座飞船与载人着陆系统对接，载人登月推迟至Artemis IV（计划2028年初）。",
+      "impact": "载人登月时间表再度推迟，引发国会与科学界对登月路线、SLS与星际飞船着陆器进度的激烈讨论。",
+      "source": "https://en.wikipedia.org/wiki/Artemis_III"
+    },
+    {
+      "date": "2026-03-24",
+      "title": "NASA取消「月球门户」环月空间站，转向建设月球基地",
+      "description": "NASA宣布取消环月小空间站「月球门户」(Lunar Gateway)项目，改以利用Gateway已研制部件建造月球表面基地，作为阿耳忒弥斯计划的新核心架构。",
+      "impact": "影响欧空局、日本、加拿大等国际伙伴的原有硬件贡献安排，象征NASA深空战略从轨道平台转向月面驻留。",
+      "source": "https://www.reuters.com/science/nasa-cancel-orbiting-lunar-station-build-moon-base-instead-2026-03-24/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Artemis II发射成功——1972年以来首次载人月球任务",
+      "description": "太空发射系统(SLS)搭载猎户座飞船与4名航天员自肯尼迪航天中心发射（任务历时9天1小时32分），4月6日完成载人绕月飞越，4月10日在太平洋溅落，为阿波罗17号（1972年）以来人类首次飞抵月球。",
+      "impact": "验证了猎户座载人系统与SLS火箭的深空能力，为Artemis III近地轨道对接试验及后续载人登月奠定基础；局长艾萨克曼随后在国会作证并宣传后续规划。",
+      "source": "https://www.nasa.gov/mission/artemis-ii/"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "南希·格蕾丝·罗曼太空望远镜发射成功",
+      "description": "罗曼太空望远镜(Nancy Grace Roman Space Telescope)于美东时间8月30日7时26分自肯尼迪航天中心发射升空，将以全景深场巡天革新对宇宙的认识，接续哈勃与韦伯的观测使命。",
+      "impact": "强化NASA在天体物理学领域的旗舰能力，支持暗能量、系外行星与星系演化等前沿研究。",
+      "source": "https://www.nasa.gov/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "US-MIL-004",
+      "org_name": "美国太空军 (United States Space Force)",
+      "org_type": "GOV",
+      "org_description": "美国军方太空力量，负责军事航天行动与发射场（卡纳维拉尔角、范登堡）运营。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-CORP-017",
+      "org_name": "波音 (Boeing)",
+      "org_type": "CORP",
+      "org_description": "美国航空与航天主承包商，NASA商业载人「星际客机」(Starliner)飞船与SLS火箭芯级的主承包商。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "US-CORP-019",
+      "org_name": "洛克希德·马丁 (Lockheed Martin)",
+      "org_type": "CORP",
+      "org_description": "美国最大军工企业之一，阿耳忒弥斯计划猎户座(Orion)载人飞船主承包商。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "US-CORP-021",
+      "org_name": "诺斯洛普·格鲁门 (Northrop Grumman)",
+      "org_type": "CORP",
+      "org_description": "美国军工与航天企业，SLS固体助推器主承包商，运营「天鹅座」(Cygnus)货运飞船执行商业补给任务。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "US-CORP-026",
+      "org_name": "太空探索技术公司 (SpaceX)",
+      "org_type": "CORP",
+      "org_description": "美国商业航天企业，NASA商业载人「龙」飞船、商业补给及「星际飞船」载人着陆系统(HLS)承包商。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "US-GOV-019",
+      "org_name": "欧洲空间局 (European Space Agency, ESA)",
+      "org_type": "GOV",
+      "org_description": "欧洲多国联合航天机构，国际空间站与阿耳忒弥斯计划重要伙伴（猎户座服务舱、I-Hab舱段等）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-GOV-020",
+      "org_name": "日本宇宙航空研究开发机构 (JAXA)",
+      "org_type": "GOV",
+      "org_description": "日本国家航天机构，国际空间站「希望」号实验舱提供方，参与阿耳忒弥斯载人任务与月球车合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-GOV-021",
+      "org_name": "加拿大航天局 (Canadian Space Agency, CSA)",
+      "org_type": "GOV",
+      "org_description": "加拿大国家航天机构，国际空间站机械臂(Canadarm)提供方，参与阿耳忒弥斯任务并获得航天员席位。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-GOV-022",
+      "org_name": "俄罗斯国家航天集团 (Roscosmos)",
+      "org_type": "GOV",
+      "org_description": "俄罗斯联邦航天机构，国际空间站俄方舱段运营方，与NASA长期开展乘组互换与联合运营。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "美国国家航空航天局（NASA）是美国联邦政府独立机构，负责美国民用航天计划以及航空学与空间科学研究，总部位于华盛顿特区玛丽·W·杰克逊NASA总部大楼。核心业务包括：（1）载人航天——运营国际空间站（与俄罗斯、日本、欧洲、加拿大合作至2030年前后），实施商业载人（SpaceX龙飞船、波音星际客机）与商业补给计划，推进阿耳忒弥斯重返月球计划（SLS火箭、猎户座飞船、SpaceX星际飞船着陆器），并规划月球表面基地与2030年代载人火星探索；（2）空间科学——天体物理学（哈勃、詹姆斯·韦伯、钱德拉及2026年发射的罗曼太空望远镜）、行星科学（毅力号火星车、欧罗巴快船、蜻蜓号）、地球科学（Landsat、地球观测系统）与太阳物理学（帕克太阳探测器），并执行探索者、发现、新疆界等竞争性任务遴选框架；（3）航空研究——X-59静音超音速验证机等先进航空技术；（4）空间基础设施——深空网络与近地网络通信系统、发射服务计划及NASA+公众传播平台。2026财年授权预算244亿美元，文职雇员逾万人，在全美设有10个中心，下设人类航天、科学、研究与技术三大任务指挥部，并通过商业月球载荷服务(CLPS)、商业近地轨道开发等计划培育商业航天生态。",
+  "industries": [
+    "aerospace_defense"
+  ],
+  "apec_stance": "NASA并非APEC经济合作机制的直接参与方，官方文件中未发布针对APEC的具体政策立场。其在亚太地区的合作通过以下渠道展开：一是主导《阿尔忒弥斯协定》(Artemis Accords)，已有约50个签约方，其中包括日本、澳大利亚、韩国、新加坡、印度等亚太经济体，构建月球与深空资源和平利用的规则联盟；二是与日本JAXA在国际空间站与阿耳忒弥斯任务上深度合作，与美国澳大利亚签署航空与航天合作框架协定，澳大利亚同时承担阿耳忒弥斯任务的深空测控支持；三是通过亚太地区空间机构论坛(APRSAF)等多边机制参与区域交流。总体上，NASA支持开放、和平、以规则为基础的国际民用航天合作，欢迎商业伙伴与国际伙伴参与其深空探索计划，同时在大国竞争背景下倾向于与亚太盟友构建排他性技术同盟。",
+  "profile": {
+    "source_url": "https://www.nasa.gov",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "web_search",
+      "news_media",
+      "congress_gov",
+      "space_industry_media"
+    ],
+    "completeness_score": 92,
+    "quotes": [
+      {
+        "title": "NASA - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/NASA"
+      },
+      {
+        "title": "美国国家航空航天局 - 维基百科 (中文)",
+        "url": "https://zh.wikipedia.org/wiki/美国国家航空航天局"
+      },
+      {
+        "title": "NASA - Official Website",
+        "url": "https://www.nasa.gov"
+      },
+      {
+        "title": "NASA Leadership - Official Website",
+        "url": "https://www.nasa.gov/leadership/"
+      },
+      {
+        "title": "NASA Social Media - Official Website",
+        "url": "https://www.nasa.gov/socialmedia/"
+      },
+      {
+        "title": "Artemis II - NASA Mission Page",
+        "url": "https://www.nasa.gov/mission/artemis-ii/"
+      },
+      {
+        "title": "Artemis III - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Artemis_III"
+      },
+      {
+        "title": "Senate confirms Isaacman as NASA administrator - SpaceNews",
+        "url": "https://spacenews.com/senate-confirms-isaacman-as-nasa-administrator/"
+      },
+      {
+        "title": "PN650 - Nomination of Jared Isaacman - Congress.gov",
+        "url": "https://www.congress.gov/nomination/119th-congress/650"
+      },
+      {
+        "title": "NASA to cancel orbiting lunar station, build moon base instead - Reuters",
+        "url": "https://www.reuters.com/science/nasa-cancel-orbiting-lunar-station-build-moon-base-instead-2026-03-24/"
+      },
+      {
+        "title": "NASA cancels Lunar Gateway space station to focus on Moon base - AeroTime",
+        "url": "https://www.aerotime.aero/articles/nasa-cancels-lunar-gateway-space-station-moon-base"
+      },
+      {
+        "title": "Artemis II: NASA's First Crewed Lunar Flyby in 50 Years - NPR",
+        "url": "https://www.npr.org/2026/04/06/nx-s1-5773187/nasa-artemis-ii-moon-lunar-flyby"
+      }
+    ],
+    "notes": "Phase3 enrichment 2026-09-05: key_people (Isaacman cabinet confirmed 2025-12-17), 3 mission directorates + 10 field centers, social accounts from official socialmedia page, 5 dated recent events 2025-12 to 2026-08 (Isaacman confirmation, Artemis III repurpose, Gateway cancellation, Artemis II crewed lunar flyby, Roman Space Telescope launch). Center director names not verified and left null. Isaacman/Matt Anderson/Amit Kshatriya, SpaceX, ESA, JAXA, CSA, Roscosmos not present in _name_index.json, org_id/person_id left null per rules."
+  }
+}

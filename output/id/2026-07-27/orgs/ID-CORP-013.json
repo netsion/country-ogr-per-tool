@@ -1,63 +1,403 @@
 {
   "org_id": "ID-CORP-013",
+  "wikidata_qid": "Q12472074",
   "basic_info": {
     "org_id": "ID-CORP-013",
-    "wikidata_qid": "Q12472074",
-    "name_en": "Aneka Tambang",
-    "name_zh": "安塔卡矿业",
-    "name_local": "Aneka Tambang",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "CORP",
-    "org_subtype": "publicly_listed",
-    "industry": "gold",
-    "sector": null,
-    "headquarters": "Jakarta",
-    "address": null,
-    "website": "http://www.antam.com/",
-    "official_website": "http://www.antam.com/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Aneka Tambang",
+    "name_zh": "安塔姆矿业（印尼多元矿业公司）",
+    "name_en": "PT Aneka Tambang Tbk (ANTAM)",
+    "founded_date": "1968-07-05",
     "country_iso3": "IDN",
-    "name_original": "Aneka Tambang"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.antam.com/",
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed"
   },
-  "description": "government 矿业公司 in Indonesia",
-  "brief": "government 矿业公司 in Indonesia",
-  "mission": null,
-  "core_business": "government 矿业公司 in Indonesia",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "Official ANTAM (@OfficialAntam)",
+      "url": "https://x.com/OfficialAntam",
+      "source": "https://www.antam.com/en；[]followers=18000"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "official.antam",
+      "url": "https://www.instagram.com/official.antam/",
+      "source": "https://www.antam.com/en；[]"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Official ANTAM",
+      "url": "https://www.facebook.com/OfficialAntam",
+      "source": "https://www.antam.com/en；[]"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Official ANTAM",
+      "url": "https://www.youtube.com/@OfficialANTAM",
+      "source": "https://www.antam.com/en；[]"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "PT ANTAM Tbk",
+      "url": "https://www.linkedin.com/company/antam/",
+      "source": "https://www.antam.com/en；[]followers=180187"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": null,
+      "url": "https://www.antam.com/",
+      "description": "官方网站，含公司简介、新闻、投资者关系与可持续发展报告；[]official_website",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://www.idx.co.id/id/perusahaan-tercatat/profil-perusahaan-tercatat/ANTM",
+      "description": "印尼证券交易所（IDX）上市公司档案页（代码ANTM）；[]other",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://www.logammulia.com/",
+      "description": "旗下UBPP Logam Mulia贵金属品牌官方网站，提供金银条线上购买与实时金价；[]official_website",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://emasantam.id/",
+      "description": "子公司PT Emas Antam Indonesia黄金零售电商网站，运营Butik Emas ANTAM与COD Emas渠道；[]other",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000512",
+      "name": "温通·布迪哈尔托 (Untung Budiharto)",
+      "title": "总裁董事 (Direktur Utama)",
+      "title_description": "现任总裁董事，2025年10月28日临时股东大会获任命、12月15日RUPSLB核准接替仅任职约5个月的Achmad Ardianto",
+      "description": "印度尼西亚陆军退役中将（曾任雅加达军区司令、国家搜救局运营董事、TransJakarta首席监事），任内公司2025财年创历史最佳业绩并派发5.04万亿印尼盾股息，持续推进镍下游化与电池生态合作。"
+    },
+    {
+      "person_id": null,
+      "name": "伊尔万迪·阿里夫 (Irwandy Arif)",
+      "title": "监事会主席兼独立监事 (Komisaris Utama merangkap Komisaris Independen)",
+      "title_description": "2025年12月15日RUPSLB获任监事会主席，接替被停职的Rauf Purnama；此前2025年6月12日AGMS起任公司监事",
+      "description": "万隆理工大学（ITB）采矿工程荣誉教授、前Bukit Asam监事会主席（2020-2025）、前能源与矿产资源部（ESDM）部长特别参谋（2019-2024）、印尼矿业专家协会（PERHAPI）前主席。"
+    },
+    {
+      "person_id": null,
+      "name": "阿里安托·萨布托努格罗·鲁吉托 (Arianto Sabtonugroho Rudjito)",
+      "title": "财务与风险管理董事 (Direktur Keuangan dan Manajemen Risiko)",
+      "title_description": "现任财务与风险管理董事，主持公司财务、融资与风险管理",
+      "description": "主导与CATL系CBL合资的东哈马黑拉FHT RKEF镍铁冶炼厂项目资金安排与投资者沟通，曾获评最佳CFO（Best CFO）奖项。"
+    },
+    {
+      "person_id": null,
+      "name": "伊·德瓦·维兰塔亚 (I Dewa Wirantaya)",
+      "title": "业务发展董事 (Direktur Pengembangan Usaha)",
+      "title_description": "2025年12月19日就任业务发展董事，RUPSLB管理层改组新闻发布会主讲人",
+      "description": "负责公司业务开发与战略项目协调，牵头电池生态合资布局的对外沟通。"
+    },
+    {
+      "person_id": "ID-PERSON-000557",
+      "name": "穆罕默德·鲁迪·萨拉胡丁 (M. Rudy Salahuddin Ramto)",
+      "title": "监事 (Komisaris)",
+      "title_description": "2025年12月19日就任公司监事",
+      "description": "印度尼西亚资深财经官员，曾任财政部副部长、投资与下游化部/投资协调委员会秘书长、哥伦打洛省代省长，代表国有股东参与公司治理监督。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-CORP-013-DEPT-001",
+      "name": "贵金属事业部 (UBPP Logam Mulia)",
+      "head": null,
+      "description": "负责黄金与白银业务，运营万隆Logam Mulia精炼厂，生产金银条与首饰产品。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-013-DEPT-002",
+      "name": "镍铁事业部 (Pomalaa镍铁厂)",
+      "head": null,
+      "description": "位于东南苏拉威西科拉卡Pomalaa的镍铁冶炼厂，共四条生产线，2015年Line 4投产。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-013-DEPT-003",
+      "name": "北马鲁古镍铁事业部 (Halmahera Timur镍铁厂)",
+      "head": null,
+      "description": "东哈马黑拉镍铁冶炼厂，2023年7月投入商业运营。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-013-DEPT-004",
+      "name": "铝土矿与氧化铝事业部 (Tayan CGA)",
+      "head": null,
+      "description": "西加里曼丹Tayan化学级氧化铝（CGA）厂及铝土矿开采，2013年投产。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-013-DEPT-005",
+      "name": "黄金矿山事业部 (Pongkor/Cibaliung金矿)",
+      "head": null,
+      "description": "运营西爪哇Pongkor金矿（1994年投产）与万丹Cibaliung金矿（2009年收购，800万美元）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-29",
+      "title": "2026年上半年净利6.91万亿印尼盾，同比增长34%",
+      "description": "ANTAM公布2026年一季度至二季度业绩：净利润6.91万亿印尼盾（同比增长34%）、营业收入62.71万亿盾（增长6%）、EBITDA 9.62万亿盾（增长35%）、总资产61.27万亿盾（增长27%）；黄金产品贡献约80%的销售（50.39万亿盾，销量18,080公斤），镍板块销售10.41万亿盾（增长32%），期末现金及等价物9.23万亿盾。总裁董事温通·布迪哈尔托称业绩受益于运营强化与营运资金、现金流及流动性管理纪律。",
+      "impact": "金价上行与镍销售增长驱动盈利连续创同期新高，支撑下游项目投资能力。",
+      "source": "https://market.bisnis.com/read/20260829/192/1999700/aneka-tambang-antm-cetak-laba-bersih-rp691-triliun-semester-i2026"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "派发2025财年股息5.04万亿印尼盾",
+      "description": "ANTAM实施2025财年股息派发，总额5.04万亿印尼盾，每股209.98867印尼盾（相当于每单位CDI 1,049.94335印尼盾），公司表示将坚持可持续价值创造并继续支持镍下游化与电动汽车电池生态建设。",
+      "impact": "高股息回报强化投资者信心与国有矿业旗舰形象。",
+      "source": "https://foto.bisnis.com/view/20260610/1980430/antam-bagikan-dividen-rp504-triliun-siap-perkuat-hilirisasi-nikel-dan-ekosistem-baterai-ev"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "与IBC、华友钴业及EVE能源财团（HYD）签署60亿美元一体化电池生态框架协议",
+      "description": "1月30日在雅加达，IBC与ANTAM同HYD投资公司（由浙江华友钴业与EVE能源牵头、含PT Daaz Bara Lestari的财团）签署框架协议，推进位于东哈马黑拉FHT工业园、总值约60亿美元的一体化电池生态项目，覆盖镍矿开采、火法/湿法冶炼、电池原材料、电芯组装到回收全链条，ANTAM在上游部分环节持有多数股权。官网于1月29日发布相关公告。",
+      "impact": "深化与中国APEC经济体企业的电池产业链绑定，推进公司从镍原料供应商向电池材料生态核心参与者转型。",
+      "source": "https://news.metal.com/newscontent/103753383-pln-supports-ibcs-6b-battery-project-boosting-indonesias-ev-ecosystem-with-antam-and-hyd-consortium"
+    },
+    {
+      "date": "2025-12-15",
+      "title": "RUPSLB大改组：温通·布迪哈尔托任总裁董事、伊尔万迪·阿里夫任监事会主席",
+      "description": "临时股东大会接受Achmad Ardianto辞去总裁董事（2025年6月12日AGMS上任、任职仅约5个月，其前任为Nicolas D. Kanter），任命退役陆军中将温通·布迪哈尔托为新总裁董事；任命Irwandy Arif为监事会主席兼独立监事接替Rauf Purnama；I Dewa Wirantaya出任业务发展董事（12月19日生效），监事会新增M. Rudy Salahuddin Ramto（12月19日生效）等成员。",
+      "impact": "印尼国有资本体系对旗舰矿业公司管理层的新一轮布局；确立2025年10月以来实际主持工作的温通·布迪哈尔托的正式地位。",
+      "source": "https://www.cnbcindonesia.com/market/20251215175404-17-694406/ganti-dirut-dan-komut-ini-susunan-manajemen-baru-antam--antm-"
+    },
+    {
+      "date": "2025-09-11",
+      "title": "与CATL系CBL合资的FHT RKEF镍铁冶炼厂启动建设",
+      "description": "在9月11日公开说明会上，财务与风险管理董事Arianto S. Rudjito表示，公司与宁德时代（CATL）通过Ningbo Contemporary Brunp Lygend（CBL）合资建设的东哈马黑拉FHT工业园区RKEF镍铁冶炼厂拟于9月底或10月开工，投资额14亿美元，产能88,000吨NPI/年，ANTM持有项目公司PT Feni Haltim 40%股权；工程计划2026年底建成、2027年投产，属CBL与IBC'Dragon'电池一体化投资项目（总投资约60亿美元）的上游环节。",
+      "impact": "公司镍下游化战略的关键落地项目，将新增高附加值镍铁产能并服务电池材料供应链。",
+      "source": "https://indonesiaminer.com/news/detail/construction-of-antam-catl-rkef-smelter-to-begin-in-late-september-2025"
+    },
+    {
+      "date": "2025-08-07",
+      "title": "2025年上半年净利5.14万亿盾（同比增约240%），黄金销量29.3吨创同期纪录",
+      "description": "ANTAM公布2025年上半年业绩：净利润5.14万亿印尼盾，同比增长约240%；黄金销量达29,305公斤（约942,178金衡盎司），创历史同期最高，镍矿生产与销售亦保持增长，金价高企与运营强化共同驱动业绩。",
+      "impact": "业绩强劲反弹为全年创纪录表现与高股息奠定基础。",
+      "source": "https://money.kompas.com/read/2025/08/07/073800826/rekor-baru-antam-penjualan-emas-dan-nikel-tembus-level-tertinggi"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "惠誉上调母公司MIND ID评级，ANTAM镍投资获正面评价",
+      "description": "惠誉将母公司PT Mineral Industri Indonesia (MIND ID)评级上调至BBB（展望负面），报告指出其子公司ANTAM正持续投资镍冶炼下游化项目。",
+      "impact": "提升集团融资能力与ANTAM下游镍项目推进的确定性。",
+      "source": "https://www.fitchratings.com/research/international-public-finance/fitch-upgrades-mineral-industri-indonesia-to-bbb-outlook-negative-20-05-2026"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "2025财年业绩创历史最佳：营收84.64万亿盾、净利7.92万亿盾",
+      "description": "ANTAM公布2025财年（FY25）业绩：营业收入84.64万亿印尼盾（同比增长22%）、净利润7.92万亿印尼盾（同比增长106%），每股收益299.98印尼盾（增长98%），营收与净利均创公司历史最高纪录，主要受金价高企带动黄金销售与镍产品销售增长的推动。",
+      "impact": "巩固其作为印尼国有矿业旗舰上市公司的市场地位，为2026年5.04万亿盾股息派发提供基础。",
+      "source": "https://www.antam.com/en/news-and-events/strong-performance-in-2025-antam-recorded-all-time-high-revenue-and-net-profit"
+    },
+    {
+      "date": "2025-03-11",
+      "title": "母公司MIND ID董事会改组",
+      "description": "印尼政府改组矿业控股公司MIND ID董事会，任命Maroef Sjamsoeddin为总裁董事，ANTAM作为其核心子公司随集团战略协同调整。",
+      "impact": "强化国有矿业控股集团对ANTAM的战略管理。",
+      "source": "http://www.indonesiaminer.com/news/detail/2025-03-11152917-mind-id-reshuffles-board-of-commissioners-and-directors"
+    },
+    {
+      "date": "2024-10-01",
+      "title": "收购Gag岛镍冶炼厂30%股权",
+      "description": "ANTAM收购PT Jiu Long Metal Industry 30%股权，该公司在Gag岛拥有一座镍冶炼厂。",
+      "impact": "扩展公司在北马鲁古的镍下游加工布局。",
+      "source": "https://id.wikipedia.org/wiki/Aneka_Tambang"
+    },
+    {
+      "date": "2023-07-01",
+      "title": "东哈马黑拉镍铁厂投入商业运营",
+      "description": "2017年动工的Halmahera Timur镍铁厂于2023年7月开始商业运营。",
+      "impact": "显著提升镍铁产能，支撑印尼镍矿下游化政策。",
+      "source": "https://id.wikipedia.org/wiki/Aneka_Tambang"
+    },
+    {
+      "date": "2022-12-01",
+      "title": "控股股权转归MIND ID",
+      "description": "政府将ANTAM多数股权从印尼阿萨汉铝业（Inalum）划转至新成立的矿业控股公司PT Mineral Industri Indonesia (MIND ID)。",
+      "impact": "确立MIND ID（持股65%）作为国有矿业控股母公司的架构。",
+      "source": "https://id.wikipedia.org/wiki/Aneka_Tambang"
+    },
+    {
+      "date": "1997-11-01",
+      "title": "雅加达与泗水证券交易所上市",
+      "description": "ANTAM在雅加达与泗水证券交易所（现IDX，代码ANTM）挂牌上市，1999年起以CDI形式在澳大利亚证券交易所（ASX: ATM）上市交易。",
+      "impact": "成为印尼首批国有矿业上市公司之一。",
+      "source": "https://id.wikipedia.org/wiki/Aneka_Tambang"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印尼矿业工业控股公司 (PT Mineral Industri Indonesia / MIND ID)",
+      "org_type": "SOE",
+      "org_description": "印尼政府全资矿业控股公司（Wikidata: Q109237452），2025年5月获惠誉上调长期发行人违约评级至BBB（展望负面）。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼阿萨汉铝业 (PT Indonesia Asahan Aluminium / Inalum)",
+      "org_type": "SOE",
+      "org_description": "2017-2022年间作为国有控股主体持有ANTAM多数股权，2022年12月股权划转至MIND ID。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼电池工业公司 (Indonesia Battery Corporation / IBC)",
+      "org_type": "SOE",
+      "org_description": "印尼国有电池财团（国家石油、电力、矿业等国企共同设立），与ANTAM同为电池生态核心成员，2026年1月共同与HYD财团签署60亿美元框架协议。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "宁德时代 (Contemporary Amperex Technology / CATL)",
+      "org_type": "CORP",
+      "org_description": "全球最大动力电池制造商，通过旗下Ningbo Contemporary Brunp Lygend（CBL）与ANTAM合资推进FHT RKEF冶炼、SDA镍矿等项目。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "浙江华友钴业 (Zhejiang Huayou Cobalt)",
+      "org_type": "CORP",
+      "org_description": "中国电池材料龙头企业，HYD投资公司（含EVE能源）牵头方，2026年1月与ANTAM、IBC签署东哈马黑拉一体化电池生态框架协议。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "芬尼东哈马黑拉公司 (PT Feni Haltim / FHT)",
+      "org_type": "CORP",
+      "org_description": "ANTM持股40%、CBL持股60%的RKEF镍铁冶炼与工业园区合资公司（东哈马黑拉FHT工业园），投资14亿美元、产能88,000吨NPI/年。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿林多资源公司 (PT Sumber Daya Arindo / SDA)",
+      "org_type": "CORP",
+      "org_description": "ANTM持股51%、香港CBL（Hongkong CBL Limited）持股49%的镍矿开采合资公司，为'Dragon'电池一体化项目供应镍矿。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "九龙金属工业公司 (PT Jiu Long Metal Industry)",
+      "org_type": "CORP",
+      "org_description": "在Gag岛运营镍冶炼厂的企业，ANTM于2024年10月收购其30%股权。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼化学氧化铝公司 (PT Indonesia Chemical Alumina)",
+      "org_type": "CORP",
+      "org_description": "西加里曼丹Tayan化学级氧化铝（CGA）项目公司，2018年起成为ANTAM全资子公司。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "芝巴利翁资源公司 (PT Cibaliung Sumberdaya)",
+      "org_type": "CORP",
+      "org_description": "2009年以800万美元收购的子公司，持有万丹Cibaliung金矿。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "安塔姆黄金公司 (PT Emas Antam Indonesia)",
+      "org_type": "CORP",
+      "org_description": "ANTAM旗下黄金零售子公司，运营Butik Emas ANTAM门店、COD Emas与emasantam.id线上渠道。",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "PT Aneka Tambang Tbk（ANTAM，安塔姆矿业）是印度尼西亚垂直一体化、出口导向的多元化国有矿业与金属公司，1968年7月5日依1968年第22号政府条例由多家国营矿业实体合并成立为国营公司PN Aneka Tambang，1974年改制为有限公司，总部位于雅加达TB Simatupang。公司主营镍矿与镍铁、黄金、白银、铝土矿与化学级氧化铝、煤炭等矿种的勘探、开采、冶炼、精炼与营销，是印尼最大的镍生产商与铝土矿生产商、主要黄金生产商之一。核心资产包括东南苏拉威西Pomalaa镍铁厂（4条产线）、东哈马黑拉镍铁厂（2023年投产）、西爪哇Pongkor金矿、万丹Cibaliung金矿、万隆Logam Mulia贵金属精炼厂及西加里曼丹Tayan氧化铝厂；并与宁德时代（CATL）旗下CBL合资推进东哈马黑拉RKEF镍铁冶炼厂（88,000吨NPI/年，2027年投产）与SDA镍矿等电池一体化项目。公司1997年在印尼证交所上市（IDX: ANTM），1999年起以CDI形式在澳交所交易（ASX: ATM），为LQ45成分股。2025财年营收84.64万亿印尼盾（同比增长22%）、净利润7.92万亿印尼盾（同比增长106%），均创历史新高；2026年上半年净利6.91万亿盾（增长34%），黄金产品约占销售额80%。母公司MIND ID（印尼政府矿业控股平台）持股约65%。",
+  "industries": [
+    "mining",
+    "metal_mining"
+  ],
+  "apec_stance": "ANTAM是印尼（APEC成员）国有矿业旗舰上市公司，产品出口面向日本、中国、澳大利亚等APEC经济体（2017年首次对日出口黄金产品，镍产品长期销往东亚市场），并以CDI形式在澳大利亚证券交易所（ASX: ATM）上市，是少数在两个APEC经济体资本市场双重上市的印尼国企。公司镍下游化战略与亚太电动车电池供应链深度关联：与宁德时代（CATL）通过CBL合资建设FHT RKEF冶炼厂与SDA镍矿项目，2026年1月又与IBC及华友钴业、EVE能源财团（HYD）签署约60亿美元一体化电池生态框架协议，深化与中国这一APEC经济体新能源产业链的绑定。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q12472074"
+      "https://ekonomi.republika.co.id/berita/tgfd88522/antam-bagikan-dividen-rp-504-triliun-dari-laba-rekor-2025",
+      "https://emasantam.id/",
+      "https://en.wikipedia.org/wiki/Antam",
+      "https://foto.bisnis.com/view/20260610/1980430/antam-bagikan-dividen-rp504-triliun-siap-perkuat-hilirisasi-nikel-dan-ekosistem-baterai-ev",
+      "https://id.wikipedia.org/wiki/Aneka_Tambang",
+      "https://indonesiaminer.com/news/detail/construction-of-antam-catl-rkef-smelter-to-begin-in-late-september-2025",
+      "https://katadata.co.id/finansial/bursa/693ff721efd79/antm-rombak-jajaran-manajemen-ini-susunan-lengkap-direksi-dan-komisaris",
+      "https://market.bisnis.com/read/20260829/192/1999700/aneka-tambang-antm-cetak-laba-bersih-rp691-triliun-semester-i2026",
+      "https://mind.id/en",
+      "https://money.kompas.com/read/2025/08/07/073800826/rekor-baru-antam-penjualan-emas-dan-nikel-tembus-level-tertinggi",
+      "https://news.metal.com/newscontent/103753383-pln-supports-ibcs-6b-battery-project-boosting-indonesias-ev-ecosystem-with-antam-and-hyd-consortium",
+      "https://www.antam.com/en",
+      "https://www.antam.com/en/news-and-events/antam-distributes-dividends-records-the-highest-performance-in-the-company-history",
+      "https://www.antam.com/en/news-and-events/antam-ibc-and-huayou-strengthen-national-integrated-battery-ecosystem-through-global-strategic-collaboration",
+      "https://www.antam.com/en/news-and-events/strong-performance-in-2025-antam-recorded-all-time-high-revenue-and-net-profit",
+      "https://www.cnbcindonesia.com/market/20251215175404-17-694406/ganti-dirut-dan-komut-ini-susunan-manajemen-baru-antam--antm-",
+      "https://www.fitchratings.com/research/international-public-finance/fitch-upgrades-mineral-industri-indonesia-to-bbb-outlook-negative-20-05-2026",
+      "https://www.logammulia.com/",
+      "https://www.wikidata.org/wiki/Special:EntityData/Q12472074.json"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q12472074; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Aneka Tambang - Wikipedia Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Aneka_Tambang"
+      },
+      {
+        "title": "Antam - Wikipedia English",
+        "url": "https://en.wikipedia.org/wiki/Antam"
+      },
+      {
+        "title": "ANTAM Distributes Dividends, Records the Highest Performance - antam.com",
+        "url": "https://www.antam.com/en/news-and-events/antam-distributes-dividends-records-the-highest-performance-in-the-company-history"
+      },
+      {
+        "title": "Fitch Upgrades Mineral Industri Indonesia to 'BBB' - Fitch Ratings",
+        "url": "https://www.fitchratings.com/research/international-public-finance/fitch-upgrades-mineral-industri-indonesia-to-bbb-outlook-negative-20-05-2026"
+      },
+      {
+        "title": "Ganti Dirut dan Komut, Ini Susunan Manajemen Baru Antam (ANTM) - CNBC Indonesia",
+        "url": "https://www.cnbcindonesia.com/market/20251215175404-17-694406/ganti-dirut-dan-komut-ini-susunan-manajemen-baru-antam--antm-"
+      },
+      {
+        "title": "ANTM Rombak Jajaran Manajemen, Ini Susunan Lengkap Direksi dan Komisaris - Katadata",
+        "url": "https://katadata.co.id/finansial/bursa/693ff721efd79/antm-rombak-jajaran-manajemen-ini-susunan-lengkap-direksi-dan-komisaris"
+      },
+      {
+        "title": "Aneka Tambang (ANTM) Cetak Laba Bersih Rp6,91 Triliun Semester I/2026 - Bisnis.com",
+        "url": "https://market.bisnis.com/read/20260829/192/1999700/aneka-tambang-antm-cetak-laba-bersih-rp691-triliun-semester-i2026"
+      },
+      {
+        "title": "Rekor Baru Antam, Penjualan Emas dan Nikel Tembus Level Tertinggi - Kompas",
+        "url": "https://money.kompas.com/read/2025/08/07/073800826/rekor-baru-antam-penjualan-emas-dan-nikel-tembus-level-tertinggi"
+      },
+      {
+        "title": "Construction of Antam-CATL RKEF Smelter to Begin in Late September 2025 - Indonesia Miner",
+        "url": "https://indonesiaminer.com/news/detail/construction-of-antam-catl-rkef-smelter-to-begin-in-late-september-2025"
+      },
+      {
+        "title": "IBC signs framework agreement with ANTAM and HYD consortium (Huayou & EVE Energy) - SMM metal.com",
+        "url": "https://news.metal.com/newscontent/103753383-pln-supports-ibcs-6b-battery-project-boosting-indonesias-ev-ecosystem-with-antam-and-hyd-consortium"
+      },
+      {
+        "title": "ANTAM Bagikan Dividen Rp 5,04 Triliun dari Laba Rekor 2025 - Republika",
+        "url": "https://ekonomi.republika.co.id/berita/tgfd88522/antam-bagikan-dividen-rp-504-triliun-dari-laba-rekor-2025"
+      }
+    ],
+    "notes": "P3二次丰富（2026-09-17）：①现任董事会按2025-12-15 RUPSLB结果全面核对（CNBC Indonesia+Katadata双源）——原档案key_people中'Rauf Utama'系Rauf Purnama之误记，且其已于2025年10月被停职、12月正式去职，已替换为现任监事会主席Irwandy Arif；Untung Budiharto为2025年新任（非续任）总裁董事，title_description已更正。②新增监事M. Rudy Salahuddin Ramto（索引命中ID-PERSON-000557）。③recent_events统一source字段并新增6条2025-2026事件（H1'26业绩、FY25业绩、股息派发、IBC/Huayou框架协议、RUPSLB改组、FHT RKEF开工、H1'25业绩）。④related_entities改为org_id|org_name|org_type|org_description|relationship_type规范结构，新增IBC、CATL、华友钴业、FHT、SDA、Emas Antam等11个实体（均未命中_id索引，org_id=null待主会话分配）。⑤social_accounts改用platform|account_name|url|source规范字段（保留followers）。⑥新增digital_assets（logammulia.com、emasantam.id）与profile（Wikimedia总部照片）。⑦Wikidata Q12472074核对：成立1968-07-05、总部雅加达、母公司MIND ID（Q109237452）一致。strict模式下未命中索引的person_id/org_id=null属已知系统性豁免。"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/PT_Antam_Tbk%2C_TB_Simatupang%2C_Jakarta_Selatan_-_panoramio.jpg/500px-PT_Antam_Tbk%2C_TB_Simatupang%2C_Jakarta_Selatan_-_panoramio.jpg",
+    "local_path": null
   }
 }

@@ -1,0 +1,380 @@
+{
+  "org_id": "PH-MIL-006",
+  "basic_info": {
+    "name_original": "Philippine Coast Guard",
+    "name_zh": "菲律宾海巡署",
+    "name_en": "Philippine Coast Guard",
+    "aliases": [
+      "PCG",
+      "Tanod Baybayin ng Pilipinas",
+      "菲律宾海岸警卫队"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "PHL",
+    "hq_country_iso3": "PHL",
+    "founded_date": "1967-10-10",
+    "website": "https://coastguard.gov.ph",
+    "wikidata_qid": "Q7185007"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Philippine Coast Guard (coastguardph)",
+      "url": "https://www.facebook.com/coastguardph",
+      "source": "PCG官方Facebook页（政府FOI文件与官网均指向该账号）；2024年4月曾被短暂盗号后恢复"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@coastguardph",
+      "url": "https://x.com/coastguardph",
+      "source": "PCG官方X账号（2024年2月曾公告账号被盗用，后恢复控制）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Philippine Coast Guard",
+      "url": "https://www.youtube.com/@coastguardph",
+      "source": "YouTube官方频道，频道简介\"Serving the nation by ensuring safe, secure, and clean PHL maritime domain\""
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "菲律宾海巡署官方网站",
+      "url": "https://coastguard.gov.ph",
+      "description": "发布新闻稿、公告、招标信息、各区警卫队联系方式及透明度合规文件（站点设有Cloudflare人机验证）",
+      "source": "https://coastguard.gov.ph"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "PH-PERSON-000336",
+      "name": "罗尼·吉尔·加万 (Ronnie Gil L. Gavan)",
+      "title": "司令",
+      "title_description": "海岸警卫队司令（Commandant, PCG），2023年10月20日就任；依2025年2月18日签署的RA 12122享有三年固定任期，2026年9月仍在任",
+      "description": "菲律宾海巡署最高指挥官；曾以PCG领导身份主持西菲律宾海海上存在行动，2026年6月22日获法国国家功绩勋章军官级勋位，2026年7月出席环太平洋演习（RIMPAC 2026）期间访问美国太平洋舰队司令部"
+    },
+    {
+      "person_id": "PH-PERSON-000337",
+      "name": "奥斯蒂略·阿图罗·科内利奥 (Hostillo Arturo E. Cornelio)",
+      "title": "副司令（行政）",
+      "title_description": "海岸警卫队行政副司令（Deputy Commandant for Administration），海军中将（CG VADM）",
+      "description": "负责PCG人事、后勤、教育与训练等行政条线的副司令"
+    },
+    {
+      "person_id": "PH-PERSON-000338",
+      "name": "埃德加·伊瓦涅斯 (Edgar L. Ybañez)",
+      "title": "副司令（作战）",
+      "title_description": "海岸警卫队作战副司令（Deputy Commandant for Operations），海军中将（CG VADM）",
+      "description": "负责PCG海上行动、搜救与执法作战条线的副司令"
+    },
+    {
+      "person_id": "PH-PERSON-000339",
+      "name": "格莱德·吉恩·玛丽·桑蒂利亚诺萨 (Glide Gene Mary G. Sontillanosa)",
+      "title": "参谋长",
+      "title_description": "海岸警卫队参谋长（Chief of Coast Guard Staff, CoCGS），海军少将（CG RADM）",
+      "description": "统筹PCG参谋各部（N1-N9）日常运作的参谋长"
+    },
+    {
+      "person_id": "PH-PERSON-000340",
+      "name": "诺埃米·吉劳-卡亚比亚布 (Noemie Guirao-Cayabyab)",
+      "title": "发言人",
+      "title_description": "海巡署发言人（PCG Spokesperson），海军准将（Commodore）",
+      "description": "PCG官方发言人，定期就西菲律宾海态势、搜救行动与机构动态向媒体通报"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "PH-MIL-006-DEPT-001",
+      "name": "海事安全服务司令部 (Maritime Safety Services Command, MSSC)",
+      "head": null,
+      "description": "负责海事安全职能：船舶检验与注册、航标与 aids to navigation 管理、海上通信、船舶交通管理（VTS）与 port state control 等",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-002",
+      "name": "海洋环境保护司令部 (Marine Environmental Protection Command, MEPCOM)",
+      "head": null,
+      "description": "负责海洋污染预防、监测、取证与响应，油污及有害物质事故处置",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-003",
+      "name": "海事安全与执法司令部 (Marine Security and Law Enforcement Command, MARSLEC)",
+      "head": null,
+      "description": "统筹海上执法与海上安全行动，包括西菲律宾海的海上存在行动与海事领域感知部署",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-004",
+      "name": "海岸警卫队航空部队 (Coast Guard Aviation Force)",
+      "head": null,
+      "description": "运营固定翼与旋翼机队（含现役BN-2 Islander与即将列装的3架\"空中国王\"B300/C-12U），执行海上巡逻、搜救与MDA飞行",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-005",
+      "name": "海岸警卫队K9部队 (Coast Guard K9 Force)",
+      "head": null,
+      "description": "缉毒、爆炸物与违禁品嗅探犬稽查部队，部署于各港口与码头",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-006",
+      "name": "东北吕宋海岸警卫区 (Coast Guard District Northeastern Luzon, CGD NELZ)",
+      "head": null,
+      "description": "管辖吕宋岛北端及东北部海域的海上安全与搜救",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-007",
+      "name": "西北吕宋海岸警卫区 (Coast Guard District Northwestern Luzon, CGD NWLZ)",
+      "head": null,
+      "description": "管辖吕宋岛西北部（伊罗戈等）海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-008",
+      "name": "国家首都区-中吕宋海岸警卫区 (Coast Guard District NCR-Central Luzon, CGD NCR-CL)",
+      "head": null,
+      "description": "管辖马尼拉湾及国家首都区、中吕宋港口密集海域，总部辖区含马尼拉港区分部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-009",
+      "name": "南他加禄海岸警卫区 (Coast Guard District Southern Tagalog, CGD STL)",
+      "head": null,
+      "description": "管辖卡拉巴松（Calabarzon）与民都洛-马林杜克-龙布隆（Mimaropa）以外南他加禄海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-010",
+      "name": "巴拉望海岸警卫区 (Coast Guard District Palawan, CGD PLWN)",
+      "head": null,
+      "description": "管辖巴拉望岛周边海域，为面向南海与苏禄海的前沿警卫区之一",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-011",
+      "name": "卡拉延群岛海岸警卫区 (Coast Guard District Kalayaan Island Group, CGD KIG)",
+      "head": null,
+      "description": "2026年4月9日由原卡拉延群岛警卫站升级激活，驻中业岛（Pag-asa/Thitu），辖区约6.8万平方公里，负责南海菲控岛礁周边海上安全、渔业执法与搜救，指挥官为准将军衔",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-012",
+      "name": "比科尔海岸警卫区 (Coast Guard District Bicol, CGD BCL)",
+      "head": null,
+      "description": "管辖比科尔半岛东侧太平洋沿岸海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-013",
+      "name": "东米萨鄢海岸警卫区 (Coast Guard District Eastern Visayas, CGD EVS)",
+      "head": null,
+      "description": "管辖萨马、莱特等东米萨鄢海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-014",
+      "name": "西米萨鄢海岸警卫区 (Coast Guard District Western Visayas, CGD WVS)",
+      "head": null,
+      "description": "管辖班乃、内格罗斯西部与吉马拉斯海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-015",
+      "name": "中米萨鄢海岸警卫区 (Coast Guard District Central Visayas, CGD CVS)",
+      "head": null,
+      "description": "管辖宿务、保和、锡基霍尔海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-016",
+      "name": "南米萨鄢海岸警卫区 (Coast Guard District Southern Visayas, CGD SVS)",
+      "head": null,
+      "description": "管辖内格罗斯东南部、宿务西侧与苏里高海峡以西米萨鄢海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-017",
+      "name": "北棉兰老海岸警卫区 (Coast Guard District Northern Mindanao, CGD NM)",
+      "head": null,
+      "description": "管辖棉兰老岛北岸（卡加延德奥罗等）海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-018",
+      "name": "东北棉兰老海岸警卫区 (Coast Guard District Northeastern Mindanao, CGD NEM)",
+      "head": null,
+      "description": "管辖苏里高与棉兰老东北部海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-019",
+      "name": "东南棉兰老海岸警卫区 (Coast Guard District Southeastern Mindanao, CGD SEM)",
+      "head": null,
+      "description": "管辖达沃湾及棉兰老东南部海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-020",
+      "name": "西南棉兰老海岸警卫区 (Coast Guard District Southwestern Mindanao, CGD SWM)",
+      "head": null,
+      "description": "管辖三宝颜半岛与巴西兰海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-021",
+      "name": "南棉兰老海岸警卫区 (Coast Guard District Southern Mindanao, CGD SM)",
+      "head": null,
+      "description": "管辖棉兰老岛南部（南达沃、萨兰加尼等）海域",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-MIL-006-DEPT-022",
+      "name": "邦萨摩洛海岸警卫区 (Coast Guard District BARMM, CGD BARMM)",
+      "head": null,
+      "description": "管辖邦萨摩洛穆斯林棉兰老自治区海域（苏禄群岛、拉瑙湖等）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-07",
+      "title": "PCG飞机在卡拉延群岛上空执行MDA飞行时遭多枚信号弹照射",
+      "description": "9月7日一架不携带武器的PCG飞机在卡拉延群岛（KIG）上空执行例行海上领域感知（MDA）飞行时，遭驻守被占岛礁（渚碧礁、美济礁方向）的对方部队多次发射信号弹；PCG于9月10日公布记录并表示将继续\"不受阻挠\"地在西菲律宾海执行MDA飞行、记录并曝光相关行为",
+      "impact": "南海海上紧张态势持续，PCG\"前沿存在+记录曝光\"执法策略延续，MDA飞行照常进行",
+      "source": "https://www.pna.gov.ph/articles/1283778"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "三菱造船启动5艘新型97米级巡逻舰详细设计",
+      "description": "三菱造船正式启动为PCG建造5艘约97米多用途响应舰（MRRV）的详细设计，属日本资助的海上安全能力改善项目（MSCIP）第三期合同（2024年5月签约，约293亿比索），计划2027-2028年交付；该级舰以日本海上保安厅国头级（Kunigami级）巡逻舰为蓝本，首两艘\"特蕾莎·马格巴努亚\"号与\"梅尔乔拉·阿基诺\"号已服役",
+      "impact": "PCG大型远海巡逻舰规模将由2艘97米级扩至7艘，远程海上存在与执法能力显著提升",
+      "source": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/detail-design-work-begins-on-large-patrol-vessels-for-philippine-coast-guard"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "司令加万获法国国家功绩勋章（军官级）",
+      "description": "法国驻菲大使玛丽·方塔内尔（Marie Fontanel）在马加智市举行的仪式上，向海巡署司令罗尼·吉尔·加万授予法国国家功绩勋章（Ordre national du Mérite）军官级勋位，表彰其杰出公共服务与法菲海事合作贡献；加万代表全体PCG人员致谢",
+      "impact": "反映PCG与欧洲国家海事合作不断深化，其国际化形象获外部认可",
+      "source": "https://www.pna.gov.ph/articles/1277983"
+    },
+    {
+      "date": "2026-04-09",
+      "title": "PCG与交通部联合激活卡拉延群岛海岸警卫区（CGD KIG）",
+      "description": "2026年4月9日（勇士日）PCG与交通部在中业岛（Pag-asa/Thitu）举行仪式，将原卡拉延群岛海岸警卫站升级为海岸警卫区（Coast Guard District Kalayaan Island Group），由准将军衔指挥官领导，负责约6.8万平方公里海域的海上安全、执法与搜救；数小时后一架PCG飞机在附近空域执行飞行任务时遭信号弹干扰",
+      "impact": "菲在南海的常态海上执法存在制度化，PCG成为在前沿岛礁设警卫区的首个菲执法机构",
+      "source": "https://www.gmanetwork.com/news/topstories/regions/983220/pcg-activates-coast-guard-district-kalayaan-island-group-in-wps/story/"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "美国向PCG移交3架\"空中国王\"海上侦察机（LOA签署）",
+      "description": "2026年2月16日PCG与美国签署接受函（LOA），获3架比奇\"空中国王\"（1架B300 MDA侦察构型、2架C-12U）海上监视飞机，2月17日对外公布；将扩充现役仅2架BN-2 Islander的航空力量，用于海上领域感知与搜救；美国同期还宣布向PCG移交2艘\"海洋保护者\"级巡逻艇",
+      "impact": "PCG空中监视能力大幅跃升，美菲海岸警卫队合作进入装备层面",
+      "source": "https://www.navalnews.com/naval-news/2026/02/philippine-coast-guard-to-acquire-3-king-air-aircraft-from-us/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "PH-GOV-024",
+      "org_name": "交通部 (Department of Transportation)",
+      "org_type": "GOV",
+      "org_description": "PCG自2016年3月起挂靠的上级文官部门，负责PCG预算、政策与现代化项目（如MSCIP巡逻舰采购由DOTr主导）",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "PH-MIL-003",
+      "org_name": "菲律宾海军 (Philippine Navy)",
+      "org_type": "MIL",
+      "org_description": "与PCG分工协作的军种海上力量，双方在南海海上存在行动、搜救与联合演习中密切配合；PCG为文官控制下的第三支武装制服部队",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "PH-GOV-018",
+      "org_name": "国防部 (Department of National Defense)",
+      "org_type": "GOV",
+      "org_description": "菲律宾武装部队的上级部门；PCG虽隶属交通部，但在国家海上安全架构（国家海岸监视体系等）中与DND及其军方所属机构协同行动",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "PH-GOV-015",
+      "org_name": "外交部 (Department of Foreign Affairs)",
+      "org_type": "GOV",
+      "org_description": "主管海洋争端外交交涉的部门；PCG在前线的记录取证为其外交抗议提供证据支撑，双方在西菲律宾海议题上密切配合",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "菲律宾海巡署（PCG，他加禄语 Tanod Baybayin ng Pilipinas）是菲律宾负责海上安全、海上执法与海洋环境保护的第三支武装制服部队，行政上挂靠交通部（2016年3月至今），总统为最高统帅，总部位于马尼拉港区分部。其法定依据为2009年第9993号共和国法（RA 9993），前身为1901年设立的海岸警卫与运输局，1967年10月10日依RA 5173正式激活。核心职能涵盖：海事安全（船舶检验注册、航标管理、海上通信与船舶交通管理）、海上搜救、海洋环境保护与污染响应、海事执法（打击走私、偷渡、非法捕捞及海上犯罪）、海上领域感知（MDA）与海事调查等，并承担战时海军辅助任务。现有约3.6万名现役人员，2026年预算约425.1亿比索（参议院审议中还为新增巡逻舰追加拨款）。组织上设17个海岸警卫区（含2026年4月新设的卡拉延群岛警卫区）、54个警卫站及190余个分站，另有海事安全服务、海洋环境保护、海事安全与执法三大功能司令部及航空部队、K9部队。近年聚焦现代化：日本建造的97米级\"特蕾莎·马格巴努亚\"级巡逻舰已服役2艘并增购5艘，法国OCEA承接40艘35米快速巡逻艇，美国移交3架\"空中国王\"侦察机，并在西菲律宾海持续开展\"存在+记录曝光\"式执法行动。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": "PCG为海上执法与安全机构，不直接参与贸易政策制定，但其使命\"确保菲律宾海域安全、保安与清洁\"直接服务APEC供应链互联互通：保障国际航运通道与港口安全是其支持APEC经贸议程的主要方式。2015年马尼拉APEC领导人会议期间，PCG与武装部队、国家警察等联合部署安保力量，承担马尼拉湾水域警戒、会场水道封控与领导人海上通道护卫；其倡导的航行自由、基于规则的海上秩序与飞行/航行安全，与APEC区域贸易畅通议题存在直接关联。母部门交通部代表菲方参与APEC运输工作组。2026年11月APEC峰会将在中国深圳举行，PCG预计按惯例在国内层面承担相关海事安保支持角色。（来源：APEC 2015马尼拉峰会安保报道；PCG官网使命陈述；navalnews 2026-02-17）",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Philippine_Coast_Guard_%28PCG%29.svg/330px-Philippine_Coast_Guard_%28PCG%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-20",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media"
+    ],
+    "completeness_score": 95,
+    "notes": "Phase 3 enrichment: 司令 Ronnie Gil L. Gavan（2023-10-20就任，依RA 12122三年固定任期）经2026年6-9月报道确认仍在任（PNA 2026-06-24授勋、2026-09-10声明均以其司令身份署名）；副司令行政条线 Cornelio、作战条线 Ybañez、参谋长 Sontillanosa、发言人 Guirao-Cayabyab 取自Wikipedia机构条目现任名单。卡拉延群岛警卫区 2026-04-09 激活（GMA/PNA/Tribune）。官网 coastguard.gov.ph 有Cloudflare验证无法直抓，社交账号经FOI文件与检索交叉确认。新注册人物 PH-PERSON-000336..000340。",
+    "quotes": [
+      {
+        "title": "Philippine Coast Guard - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Philippine_Coast_Guard"
+      },
+      {
+        "title": "Ronnie Gil Gavan - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ronnie_Gil_Gavan"
+      },
+      {
+        "title": "PCG activates Coast Guard District Kalayaan Island Group in WPS - GMA News (2026-04-09)",
+        "url": "https://www.gmanetwork.com/news/topstories/regions/983220/pcg-activates-coast-guard-district-kalayaan-island-group-in-wps/story/"
+      },
+      {
+        "title": "PCG activates major command post in Kalayaan Island on Day of Valour - PNA (2026-04-10)",
+        "url": "https://www.pna.gov.ph/articles/1272614"
+      },
+      {
+        "title": "DOTr, PCG activate Coast Guard District in KIG - Daily Tribune (2026-04-09)",
+        "url": "https://tribune.net.ph/2026/04/09/dotr-pcg-activate-coast-guard-district-in-kig"
+      },
+      {
+        "title": "Philippine Coast Guard to acquire 3 King Air aircraft from US - Naval News (2026-02-17)",
+        "url": "https://www.navalnews.com/naval-news/2026/02/philippine-coast-guard-to-acquire-3-king-air-aircraft-from-us/"
+      },
+      {
+        "title": "U.S. to Transfer Maritime Reconnaissance Aircraft, Patrol Vessels to Philippine Coast Guard - USNI News (2026-02-18)",
+        "url": "https://news.usni.org/2026/02/18/u-s-to-transfer-maritime-reconnaissance-aircraft-patrol-vessels-to-philippine-coast-guard"
+      },
+      {
+        "title": "France honors PCG chief Gavan with National Order of Merit - PNA (2026-06-24)",
+        "url": "https://www.pna.gov.ph/articles/1277983"
+      },
+      {
+        "title": "Admiral Ronnie Gil Gavan named Officer of the National Order of Merit - French Embassy in the Philippines (2026-06-22)",
+        "url": "https://ph.diplomatie.gouv.fr/en/admiral-ronnie-gil-gavan-named-officer-national-order-merit-june-22-2026"
+      },
+      {
+        "title": "China's PLA fires flares at PCG aircraft over Kalayaan Island Group - PNA (2026-09-10)",
+        "url": "https://www.pna.gov.ph/articles/1283778"
+      },
+      {
+        "title": "Detail design work begins on patrol vessels for Philippine Coast Guard - Baird Maritime (2026-09)",
+        "url": "https://www.bairdmaritime.com/security/non-naval-security/coast-guard/detail-design-work-begins-on-large-patrol-vessels-for-philippine-coast-guard"
+      },
+      {
+        "title": "Philippines and Japan Finalize Largest Coast Guard Project to Date - Naval News (2024-05)",
+        "url": "https://www.navalnews.com/naval-news/2024/05/philippines-and-japan-finalize-largest-coast-guard-project-to-date/"
+      }
+    ]
+  }
+}

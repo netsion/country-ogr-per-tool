@@ -1,0 +1,507 @@
+{
+  "phase": "P4_person_enrichment",
+  "country": "CM",
+  "concurrency": 4,
+  "mode": "rolling",
+  "started_at": "2026-09-18",
+  "completed": [
+    "CM-PERSON-000003",
+    "CM-PERSON-000006",
+    "CM-PERSON-000009",
+    "CM-PERSON-000010",
+    "CM-PERSON-000011",
+    "CM-PERSON-000012",
+    "CM-PERSON-000013",
+    "CM-PERSON-000014",
+    "CM-PERSON-000017",
+    "CM-PERSON-000018",
+    "CM-PERSON-000019",
+    "CM-PERSON-000020",
+    "CM-PERSON-000022",
+    "CM-PERSON-000024",
+    "CM-PERSON-000025",
+    "CM-PERSON-000028",
+    "CM-PERSON-000034",
+    "CM-PERSON-000041",
+    "CM-PERSON-000042",
+    "CM-PERSON-000043",
+    "CM-PERSON-000044",
+    "CM-PERSON-000045",
+    "CM-PERSON-000046",
+    "CM-PERSON-000047",
+    "CM-PERSON-000050",
+    "CM-PERSON-000051",
+    "CM-PERSON-000048",
+    "CM-PERSON-000049",
+    "CM-PERSON-000054",
+    "CM-PERSON-000055",
+    "CM-PERSON-000053",
+    "CM-PERSON-000052",
+    "CM-PERSON-000061",
+    "CM-PERSON-000058",
+    "CM-PERSON-000063",
+    "CM-PERSON-000067",
+    "CM-PERSON-000064",
+    "CM-PERSON-000072",
+    "CM-PERSON-000076",
+    "CM-PERSON-000078",
+    "CM-PERSON-000084",
+    "CM-PERSON-000087",
+    "CM-PERSON-000089",
+    "CM-PERSON-000090",
+    "CM-PERSON-000086",
+    "CM-PERSON-000099",
+    "CM-PERSON-000100",
+    "CM-PERSON-000102",
+    "CM-PERSON-000101",
+    "CM-PERSON-000103",
+    "CM-PERSON-000105",
+    "CM-PERSON-000104",
+    "CM-PERSON-000106",
+    "CM-PERSON-000110",
+    "CM-PERSON-000111",
+    "CM-PERSON-000113",
+    "CM-PERSON-000112",
+    "CM-PERSON-000002",
+    "CM-PERSON-000005",
+    "CM-PERSON-000008",
+    "CM-PERSON-000007",
+    "CM-PERSON-000004",
+    "CM-PERSON-000015",
+    "CM-PERSON-000016",
+    "CM-PERSON-000021",
+    "CM-PERSON-000023",
+    "CM-PERSON-000026",
+    "CM-PERSON-000029",
+    "CM-PERSON-000031",
+    "CM-PERSON-000027",
+    "CM-PERSON-000030",
+    "CM-PERSON-000035",
+    "CM-PERSON-000036",
+    "CM-PERSON-000032",
+    "CM-PERSON-000033",
+    "CM-PERSON-000037",
+    "CM-PERSON-000038",
+    "CM-PERSON-000039",
+    "CM-PERSON-000056",
+    "CM-PERSON-000040",
+    "CM-PERSON-000059",
+    "CM-PERSON-000060",
+    "CM-PERSON-000062",
+    "CM-PERSON-000057",
+    "CM-PERSON-000065",
+    "CM-PERSON-000069",
+    "CM-PERSON-000068",
+    "CM-PERSON-000066",
+    "CM-PERSON-000070",
+    "CM-PERSON-000071",
+    "CM-PERSON-000073",
+    "CM-PERSON-000074",
+    "CM-PERSON-000075",
+    "CM-PERSON-000079",
+    "CM-PERSON-000080",
+    "CM-PERSON-000077",
+    "CM-PERSON-000081",
+    "CM-PERSON-000085",
+    "CM-PERSON-000082",
+    "CM-PERSON-000083",
+    "CM-PERSON-000088",
+    "CM-PERSON-000091",
+    "CM-PERSON-000093",
+    "CM-PERSON-000092",
+    "CM-PERSON-000094",
+    "CM-PERSON-000095",
+    "CM-PERSON-000096",
+    "CM-PERSON-000097",
+    "CM-PERSON-000107",
+    "CM-PERSON-000098",
+    "CM-PERSON-000108",
+    "CM-PERSON-000109",
+    "CM-PERSON-000114",
+    "CM-PERSON-000115",
+    "CM-PERSON-000116",
+    "CM-PERSON-000117",
+    "CM-PERSON-000119",
+    "CM-PERSON-000120",
+    "CM-PERSON-000121",
+    "CM-PERSON-000118",
+    "CM-PERSON-000001"
+  ],
+  "remaining": [],
+  "current": [],
+  "failed": [],
+  "dispatch_log": {
+    "CM-PERSON-000001": {
+      "status": "done",
+      "note": "原始人物档案已由主会话补建并通过 schema 校验。"
+    },
+    "CM-PERSON-000003": {
+      "status": "done"
+    },
+    "CM-PERSON-000006": {
+      "status": "done"
+    },
+    "CM-PERSON-000009": {
+      "agent": "agent_196fc519",
+      "status": "done"
+    },
+    "CM-PERSON-000013": {
+      "status": "done"
+    },
+    "CM-PERSON-000010": {
+      "status": "done"
+    },
+    "CM-PERSON-000011": {
+      "status": "done"
+    },
+    "CM-PERSON-000012": {
+      "status": "done"
+    },
+    "CM-PERSON-000014": {
+      "status": "done"
+    },
+    "CM-PERSON-000017": {
+      "status": "done"
+    },
+    "CM-PERSON-000018": {
+      "status": "done"
+    },
+    "CM-PERSON-000019": {
+      "status": "done"
+    },
+    "CM-PERSON-000020": {
+      "status": "done"
+    },
+    "CM-PERSON-000022": {
+      "status": "done"
+    },
+    "CM-PERSON-000024": {
+      "status": "done"
+    },
+    "CM-PERSON-000025": {
+      "status": "done"
+    },
+    "CM-PERSON-000028": {
+      "status": "done"
+    },
+    "CM-PERSON-000034": {
+      "status": "done"
+    },
+    "CM-PERSON-000041": {
+      "status": "done"
+    },
+    "CM-PERSON-000042": {
+      "status": "done"
+    },
+    "CM-PERSON-000043": {
+      "status": "done"
+    },
+    "CM-PERSON-000044": {
+      "status": "done"
+    },
+    "CM-PERSON-000045": {
+      "status": "done"
+    },
+    "CM-PERSON-000046": {
+      "status": "done"
+    },
+    "CM-PERSON-000047": {
+      "status": "done"
+    },
+    "CM-PERSON-000048": {
+      "status": "done"
+    },
+    "CM-PERSON-000049": {
+      "status": "done"
+    },
+    "CM-PERSON-000050": {
+      "status": "done"
+    },
+    "CM-PERSON-000051": {
+      "status": "done"
+    },
+    "CM-PERSON-000052": {
+      "status": "done"
+    },
+    "CM-PERSON-000053": {
+      "status": "done"
+    },
+    "CM-PERSON-000054": {
+      "status": "done"
+    },
+    "CM-PERSON-000055": {
+      "status": "done"
+    },
+    "CM-PERSON-000058": {
+      "status": "done"
+    },
+    "CM-PERSON-000061": {
+      "status": "done"
+    },
+    "CM-PERSON-000063": {
+      "status": "done"
+    },
+    "CM-PERSON-000064": {
+      "status": "done"
+    },
+    "CM-PERSON-000067": {
+      "status": "done"
+    },
+    "CM-PERSON-000072": {
+      "status": "done"
+    },
+    "CM-PERSON-000076": {
+      "status": "done"
+    },
+    "CM-PERSON-000078": {
+      "status": "done"
+    },
+    "CM-PERSON-000084": {
+      "status": "done"
+    },
+    "CM-PERSON-000086": {
+      "status": "done"
+    },
+    "CM-PERSON-000087": {
+      "status": "done"
+    },
+    "CM-PERSON-000089": {
+      "status": "done"
+    },
+    "CM-PERSON-000090": {
+      "status": "done"
+    },
+    "CM-PERSON-000099": {
+      "status": "done"
+    },
+    "CM-PERSON-000100": {
+      "status": "done"
+    },
+    "CM-PERSON-000101": {
+      "status": "done"
+    },
+    "CM-PERSON-000102": {
+      "status": "done"
+    },
+    "CM-PERSON-000103": {
+      "status": "done"
+    },
+    "CM-PERSON-000104": {
+      "status": "done"
+    },
+    "CM-PERSON-000105": {
+      "status": "done"
+    },
+    "CM-PERSON-000106": {
+      "status": "done"
+    },
+    "CM-PERSON-000110": {
+      "status": "done"
+    },
+    "CM-PERSON-000111": {
+      "status": "done"
+    },
+    "CM-PERSON-000112": {
+      "status": "done"
+    },
+    "CM-PERSON-000113": {
+      "status": "done"
+    },
+    "CM-PERSON-000002": {
+      "status": "done"
+    },
+    "CM-PERSON-000004": {
+      "status": "done"
+    },
+    "CM-PERSON-000005": {
+      "status": "done"
+    },
+    "CM-PERSON-000007": {
+      "status": "done"
+    },
+    "CM-PERSON-000008": {
+      "status": "done"
+    },
+    "CM-PERSON-000015": {
+      "status": "done"
+    },
+    "CM-PERSON-000016": {
+      "status": "done"
+    },
+    "CM-PERSON-000021": {
+      "status": "done"
+    },
+    "CM-PERSON-000023": {
+      "status": "done"
+    },
+    "CM-PERSON-000026": {
+      "status": "done"
+    },
+    "CM-PERSON-000027": {
+      "status": "done"
+    },
+    "CM-PERSON-000029": {
+      "status": "done"
+    },
+    "CM-PERSON-000030": {
+      "status": "done"
+    },
+    "CM-PERSON-000031": {
+      "status": "done"
+    },
+    "CM-PERSON-000032": {
+      "status": "done"
+    },
+    "CM-PERSON-000033": {
+      "status": "done"
+    },
+    "CM-PERSON-000035": {
+      "status": "done"
+    },
+    "CM-PERSON-000036": {
+      "status": "done"
+    },
+    "CM-PERSON-000037": {
+      "status": "done"
+    },
+    "CM-PERSON-000038": {
+      "status": "done"
+    },
+    "CM-PERSON-000039": {
+      "status": "done"
+    },
+    "CM-PERSON-000040": {
+      "status": "done"
+    },
+    "CM-PERSON-000056": {
+      "status": "done"
+    },
+    "CM-PERSON-000057": {
+      "status": "done"
+    },
+    "CM-PERSON-000059": {
+      "status": "done"
+    },
+    "CM-PERSON-000060": {
+      "status": "done"
+    },
+    "CM-PERSON-000062": {
+      "status": "done"
+    },
+    "CM-PERSON-000065": {
+      "status": "done"
+    },
+    "CM-PERSON-000066": {
+      "status": "done"
+    },
+    "CM-PERSON-000068": {
+      "status": "done"
+    },
+    "CM-PERSON-000069": {
+      "status": "done"
+    },
+    "CM-PERSON-000070": {
+      "status": "done"
+    },
+    "CM-PERSON-000071": {
+      "status": "done"
+    },
+    "CM-PERSON-000073": {
+      "status": "done"
+    },
+    "CM-PERSON-000074": {
+      "status": "done"
+    },
+    "CM-PERSON-000075": {
+      "status": "done"
+    },
+    "CM-PERSON-000077": {
+      "status": "done"
+    },
+    "CM-PERSON-000079": {
+      "status": "done"
+    },
+    "CM-PERSON-000080": {
+      "status": "done"
+    },
+    "CM-PERSON-000081": {
+      "status": "done"
+    },
+    "CM-PERSON-000082": {
+      "status": "done"
+    },
+    "CM-PERSON-000083": {
+      "status": "done"
+    },
+    "CM-PERSON-000085": {
+      "status": "done"
+    },
+    "CM-PERSON-000088": {
+      "status": "done"
+    },
+    "CM-PERSON-000091": {
+      "status": "done"
+    },
+    "CM-PERSON-000092": {
+      "status": "done"
+    },
+    "CM-PERSON-000093": {
+      "status": "done"
+    },
+    "CM-PERSON-000094": {
+      "status": "done"
+    },
+    "CM-PERSON-000095": {
+      "status": "done"
+    },
+    "CM-PERSON-000096": {
+      "status": "done"
+    },
+    "CM-PERSON-000097": {
+      "status": "done"
+    },
+    "CM-PERSON-000098": {
+      "status": "done"
+    },
+    "CM-PERSON-000107": {
+      "status": "done"
+    },
+    "CM-PERSON-000108": {
+      "status": "done"
+    },
+    "CM-PERSON-000109": {
+      "status": "done"
+    },
+    "CM-PERSON-000114": {
+      "status": "done"
+    },
+    "CM-PERSON-000115": {
+      "status": "done"
+    },
+    "CM-PERSON-000116": {
+      "status": "done"
+    },
+    "CM-PERSON-000117": {
+      "status": "done"
+    },
+    "CM-PERSON-000118": {
+      "status": "done"
+    },
+    "CM-PERSON-000119": {
+      "status": "done"
+    },
+    "CM-PERSON-000120": {
+      "status": "done"
+    },
+    "CM-PERSON-000121": {
+      "status": "done"
+    }
+  },
+  "skipped": [],
+  "last_updated": "2026-09-20",
+  "notes": [
+    "2026-09-19 current_positions 字段统一优化：19个空缺补显（用户指定跳过 000014；000001 档案已由用户移除），2条过长条目提炼，000031/000086 经隐藏履历核查细化；复扫 empty=1(即000014跳过项) / >40字条目=0。",
+    "2026-09-19 用户决策：CM-PERSON-000001（保罗·比亚）档案移除后，7个org的key_people悬挂绑定保留现状不作处理（CM-GOV-001/003、CM-MIL-001/002/003/006、CM-PARTY-001），cross-ref 相应7个ERR为已知状态。",
+    "2026-09-19 人名规范：65个缺失 name_zh 补简体译名（新华社法/英语音译惯例），13个 name_en 剥离变音符；name=法语/英语官方拼写保持不变（000096 希伯来语原生名保留）。跳过 000001/000014。"
+  ]
+}

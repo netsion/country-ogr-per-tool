@@ -1,0 +1,227 @@
+{
+  "org_id": "CD-MEDIA-006",
+  "basic_info": {
+    "name_original": "Le Potentiel",
+    "name_zh": "潜力报",
+    "name_en": "Le Potentiel",
+    "aliases": [
+      "Le Potentiel RDC",
+      "Le Potentiel journal",
+      "lepotentiel.cd",
+      "Potentiel"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "newspaper",
+    "country_iso3": "COD",
+    "hq_country_iso3": "COD",
+    "founded_date": "1982-10-12",
+    "website": "https://lepotentiel.cd/",
+    "wikidata_qid": "Q3225834"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "LePotentiel (potentiel.cd)",
+      "url": "https://www.facebook.com/potentiel.cd",
+      "source": "lepotentiel.cd 官网页脚链接"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Lepotentiel TV (@LepotentielTV-3xb)",
+      "url": "https://www.youtube.com/@LepotentielTV-3xb",
+      "source": "lepotentiel.cd 官网页脚链接"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@LePotentiel_rdc",
+      "url": "https://x.com/LePotentiel_rdc",
+      "source": "X 平台检索；账号简介标注\"Quotidien d'actualités/informations générales en RDC\"及联系方式 +243 813 532 983 / contact@lepotentiel.cd，并持续推送 lepotentiel.cd 稿件"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "LePotentiel.cd 新闻网站",
+      "url": "https://lepotentiel.cd/",
+      "description": "该报数字主平台，设政治、经济、司法、国家、省际、安全、社会、体育、卫生、非洲等栏目及\"A haute voix\"评论专区与\"Le fil\"实时快讯流，口号为\"L'essence de l'actualité congolaise à votre portée\"；2024年纸媒停刊后持续更新至今。",
+      "source": "官方网站首页与栏目页"
+    },
+    {
+      "name": "《潜力报》电子报PDF档案（Journal）",
+      "url": "https://lepotentiel.cd/journal/",
+      "description": "纸质版《潜力报》的电子档案库，提供往期报纸版面PDF下载（如2021年8月11日第8136期），是研究刚果（金）近40年政治经济史的一手报刊史料。",
+      "source": "官方网站Journal栏目"
+    },
+    {
+      "name": "LePotentiel TV 视频频道",
+      "url": "https://www.youtube.com/@LepotentielTV-3xb",
+      "description": "报社官方YouTube频道，发布新闻视频内容，与图文网站构成\"纸质+数字\"（First et Digital）采编体系的一部分。",
+      "source": "lepotentiel.cd 官网页脚链接"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CD-PERSON-000336",
+      "name": "莫德斯特·穆廷加·穆图沙伊（Modeste Mutinga Mutuishayi）",
+      "title": "创始人兼社长（Président fondateur）",
+      "title_description": "该报创办人及最高负责人，现仍以专栏作者身份参与笔政",
+      "description": "记者出身，早年任职于《Demain l'Afrique》周刊，1982年10月12日获官方许可（N°04/00015/DI/82）创办《潜力报》。该报1990年代初成为金沙萨最大日报后，他成为刚果（金）最具影响力的媒体人之一；因批评蒙博托与老卡比拉政权、拒绝透露消息源而多次遭威胁和拘捕，甚至一度被判处15年监禁，1992年报社办公室遭爆炸袭击。2000年获保护记者委员会（CPJ）国际新闻自由奖。2006年大选前出任媒体最高管理局（HAM）主席，2007年当选参议员（后任参议院报告人）并将笔政交予弗雷迪·穆伦巴。2021年4月12日至2024年5月28日任社会事务、人道主义行动与国家团结部长。2025年10月仍以本名在该报发表专栏。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CD-MEDIA-006-DEPT-001",
+      "name": "编辑部（Rédaction）",
+      "head": null,
+      "description": "统筹全报政治、经济、社会、司法、安全等各条线的采访与编辑工作；官网称编辑团队由专注政治、经济、社会及国际议题的记者组成，强调独立、严谨、负责的职业新闻准则。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CD-MEDIA-006-DEPT-002",
+      "name": "政治新闻组（Politique）",
+      "head": null,
+      "description": "负责总统府、议会、政府、政党及国家机构报道与政治决策解读，是该报自1990年代转向政治报道以来的传统优势条线（官网该栏目累计稿件2000余篇）。",
+      "parent_dept_id": "CD-MEDIA-006-DEPT-001"
+    },
+    {
+      "dept_id": "CD-MEDIA-006-DEPT-003",
+      "name": "经济新闻组（Économie）",
+      "head": null,
+      "description": "跟踪财政、矿业、能源、金融与商业新闻；该报1982年创刊时即以经济报道立身，经济条线为其历史根基（官网栏目累计稿件1200余篇）。",
+      "parent_dept_id": "CD-MEDIA-006-DEPT-001"
+    },
+    {
+      "dept_id": "CD-MEDIA-006-DEPT-004",
+      "name": "社会与司法新闻组（Société/Justice）",
+      "head": null,
+      "description": "负责社会民生、司法案件与安全新闻，对应官网Société（3000余篇）、Province（2400余篇）、Justice（420余篇）、Sécurité（390余篇）等栏目。",
+      "parent_dept_id": "CD-MEDIA-006-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-10-05",
+      "title": "发布金沙萨Mont-Ngafula\"千套住房\"项目调查报道：已支出5400万美元却未交付任何住房",
+      "description": "《潜力报》刊发调查报道，指出2022年金萨萨致命洪灾受害者安置项目\"1000 maisons\"启动27个月后，5400万美元预算已支出却无一所住房交付，质询项目资金流向与执行部门责任。",
+      "impact": "体现该报停刊风波后恢复的调查报道能力，对政府住房安置项目形成舆论监督压力。",
+      "source": "https://lepotentiel.cd/2025/10/05/projet-des-1000-maisons-a-mont-ngafula-54-millions-usd-depenses-aucun-logement-livre/"
+    },
+    {
+      "date": "2025-10-17",
+      "title": "创始人穆廷加发表专栏《战争预算与议会责任》，介入东部战事财政辩论",
+      "description": "自2025年9月15日议会就战争预算展开辩论以来，创始人兼前部长莫德斯特·穆廷加以本名在《潜力报》发表专栏，论述战争预算背后的议会监督责任；此前10月10日他亦发表社论呼吁组建全国大联合政府对话。",
+      "impact": "显示创始人在停刊风波后仍以专栏作者身份主导该报舆论议程，报纸在东部冲突议题上保持独立发声。",
+      "source": "https://lepotentiel.cd/2025/10/17/budget-de-guerre-et-responsabilite-du-parlement-tribune-de-modeste-mutinga/"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "刊发刚果（金）—卢旺达协议深度分析《以八大支柱架构走出危机》",
+      "description": "针对2025年华盛顿和平进程签署后的落实阶段，《潜力报》刊发分析文章，系统梳理两国协议的安全、经济、难民回归等八大支柱架构及其执行前景。",
+      "impact": "在刚果（金）—卢旺达关系这一年度最大外交议题上提供本土纸媒的深度解读，被读者与业界作为政策分析参考。",
+      "source": "https://lepotentiel.cd/2025/11/15/accord-rdc-rwanda-une-architecture-en-huit-piliers-pour-sortir-de-la-crise/"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "报道刚果（金）审计法院发布2024—2025年度公共报告，重申问责要求",
+      "description": "《潜力报》报道刚果（金）审计法院（Cour des comptes）在公开庭审中发布2024—2025财政年度国家预算执行公共报告，强调国家财政透明度与问责机制。",
+      "impact": "延续该报自创刊以来对公共财政议题的关注传统，为国会与舆论监督提供信息基础。",
+      "source": "https://lepotentiel.cd/2026/03/03/rdc-la-cour-des-comptes-devoile-son-rapport-2024-2025-et-reaffirme-lexigence-de-redevabilite/"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Radio Okapi早间报评重点引述该报关于参议院将召开特别会议的报道",
+      "description": "联合国刚果（金）稳定特派团电台Radio Okapi在其每日报评中，以《潜力报》头条开篇：该报独家报道参议院将于7月10日前召开特别会议（6月23日会议主席团会议宣布），并详细转述其关于省级议会议员欠薪、财政部资金短缺及内政部干预省级议会自治争议的报道。",
+      "impact": "表明该报在2024年停刊危机、恢复数字发行后仍被金沙萨主流媒体视为权威引用源，保有其老牌独立纸媒的议程设置地位。",
+      "source": "https://www.radiookapi.net/2026/06/25/actualite/revue-de-presse/le-potentiel-senat-de-la-rdc-vers-une-reponse-urgente-aux"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CD-CORP-042",
+      "org_name": "媒体7集团（Groupe Média 7）",
+      "org_type": "MEDIA",
+      "org_description": "由莫德斯特·穆廷加创办的刚果（金）私营传媒集团，旗下拥有《潜力报》、Radio 7电台和Télé 7电视台；2024年1月集团旗下媒体普遍陷入财务困境。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CD-MEDIA-012",
+      "org_name": "第七电台（Radio 7）",
+      "org_type": "MEDIA",
+      "org_description": "媒体7集团旗下广播电台，与《潜力报》同属一个报业集团；据2024年1月报道，与电视台一同处于破产状态。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CD-MEDIA-001",
+      "org_name": "第七电视台（Télé 7）",
+      "org_type": "MEDIA",
+      "org_description": "媒体7集团旗下电视台，与《潜力报》同属一个报业集团；据2024年1月报道，与电台一同处于破产状态。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CD-GOV-041",
+      "org_name": "刚果国家档案馆（Institut National des Archives du Congo, INACO）",
+      "org_type": "GOV",
+      "org_description": "刚果（金）国家档案机构；2022年10月《潜力报》40周年之际，该报将创刊40年来的全部档案无偿移交其保存，以服务国家历史研究。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-MEDIA-007",
+      "org_name": "Info27新闻网（Infos27.cd）",
+      "org_type": "MEDIA",
+      "org_description": "2024年1月11日《潜力报》停刊时，由原协调人皮舒·穆伦巴宣布携全体原《潜力报》员工创办的新闻网站，与该报人事渊源深厚。",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "《潜力报》（Le Potentiel）是刚果（金）历史最悠久的独立法语综合性日报之一，1982年10月12日获官方许可（N°04/00015/DI/82）在金沙萨创刊，创办人为莫德斯特·穆廷加。创刊初期为以经济报道为主的小报，1990年蒙博托开放多党制后转向政治报道，1990年代初一度成为金沙萨发行量最大的日报（历史期发量约2500份），以独立批评立场著称：创始人多次因报道入狱，报社1992年遭爆炸袭击。该报隶属穆廷加创办的媒体7集团（Groupe Média 7，旗下另有Radio 7电台与Télé 7电视台）。2022年10月40周年之际宣布全面数字化转型求生存，并将40年档案无偿移交刚果国家档案馆（INACO）。2024年1月11日因财政困难宣布纸质版及线上版停刊，集团电台电视台亦濒临破产；此后数字平台lepotentiel.cd恢复并持续更新至今，现为\"纸质+数字\"（First et Digital）的综合新闻媒体与在线平台，设政治、经济、司法、国家安全、省际、社会、体育、卫生、非洲等栏目，提供PDF电子报存档及LePotentiel TV视频频道。运营主体为LE POTENTIEL SARL（注册资本27,901,666刚果法郎，RCCM号14-B-01760），社址金沙萨贡贝区（Gombe）正义大道44号，联系方式+243 (0) 823 538 803 / contact@lepotentiel.cd。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "刚果民主共和国（刚果（金））不是亚太经合组织（APEC）成员。APEC现有21个成员经济体，均为太平洋沿岸国家和地区，目前没有任何非洲国家加入。《潜力报》作为刚果（金）本土媒体，其报道议程集中于刚果（金）国内政治、经济、安全及大湖地区事务，不涉及APEC框架内议题；该国参与的区域经济合作主要通过南部非洲发展共同体（SADC）、东部和南部非洲共同市场（COMESA）及中部非洲国家经济共同体（ECCAS）等非洲区域组织展开。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/95/Logo_-_Le_Potentiel.png/250px-Logo_-_Le_Potentiel.png",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "wikipedia_en",
+      "official_website",
+      "radio_okapi",
+      "actualite_cd",
+      "depeche_cd",
+      "cpj",
+      "web_search_fr"
+    ],
+    "completeness_score": 81,
+    "quotes": [
+      {
+        "title": "Le Potentiel — Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/Le_Potentiel"
+      },
+      {
+        "title": "Modeste Mutinga Mutushayi — Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/Modeste_Mutinga_Mutushayi"
+      },
+      {
+        "title": "RDC-Média : Le journal « Le potentiel » ferme ses portes pour des contraintes financières — Dépêche.cd, 2024-01-11",
+        "url": "https://depeche.cd/2024/01/11/rdc-media-le-journal-le-potentiel-ferme-ses-portes-pour-des-contraintes-financieres/"
+      },
+      {
+        "title": "À propos de LePotentiel.cd（官方网站：LE POTENTIEL SARL注册信息、创始人、协调人）",
+        "url": "https://lepotentiel.cd/apropos"
+      },
+      {
+        "title": "Revue de presse du jeudi 25 juin 2026 — Radio Okapi（引述《潜力报》参议院特别会议报道）",
+        "url": "https://www.radiookapi.net/2026/06/25/actualite/revue-de-presse/le-potentiel-senat-de-la-rdc-vers-une-reponse-urgente-aux"
+      },
+      {
+        "title": "RDC : 40 ans après, le journal « le Potentiel » entend désormais se concentrer sur la numérisation — Actualite.cd, 2022-10-18",
+        "url": "https://actualite.cd/index.php/2022/10/18/rdc-40-ans-apres-le-journal-le-potentiel-entend-desormais-se-concentrer-sur-la"
+      }
+    ],
+    "notes": "Phase3 enrichment. 创刊日期采用官网许可号N°04/00015/DI/82所载1982-10-12（与Actualite.cd\"created 12 octobre 1982\"及40周年纪念一致；法文维基创始人条目中\"1985年创办\"为少数异说，已弃用）。2024-01-11纸媒停刊后数字平台lepotentiel.cd恢复运营（2024年2月起有连续存档，2025-2026年持续更新）。关键人物Modeste Mutinga、Pitshou Mulumba、Freddy Mulumba均未收录入人名索引，person_id置空。"
+  }
+}

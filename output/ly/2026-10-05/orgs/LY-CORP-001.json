@@ -1,0 +1,274 @@
+{
+  "org_id": "LY-CORP-001",
+  "basic_info": {
+    "name_original": "طيران البراق",
+    "name_zh": "布拉克航空",
+    "name_en": "Buraq Air",
+    "aliases": [
+      "Buraq Air",
+      "El-Buraq Air Transport Inc",
+      "براق للطيران"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "private_company",
+    "country_iso3": "LBY",
+    "hq_country_iso3": "LBY",
+    "founded_date": "2000-10-22",
+    "website": "http://www.buraq.aero/",
+    "wikidata_qid": "Q1982661"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "طيران البراق - Buraq Air",
+      "url": "https://www.facebook.com/Buraqair/",
+      "source": "Facebook 主页自述为「الصفحة الرسمية لشركة طيران البراق（布拉克航空公司官方页面）」，总部标注 Tripoli，约 30.7 万关注者；本次检索中该页多条帖文（2025-05 E190 项目、2026-09 亚历山大航线）与官网、新闻媒体交叉印证，确认为官方信息渠道"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Buraq 手机应用（Google Play）",
+      "url": "https://play.google.com/store/apps/details?id=com.buraq.booking",
+      "description": "官方 Android 应用，支持航班预订、既有订单管理与在线值机；公司 Facebook 帖文提及应用同步上架 App Store 与 Google Play。",
+      "source": "Google Play 商店页面；公司 Facebook 帖文（2025-08）交叉印证"
+    },
+    {
+      "name": "官网在线航班时刻与预订系统",
+      "url": "https://buraq.aero/ar/flights-schedule/",
+      "description": "官网航班时刻查询模块，实时显示国内国际航班号、起降时刻与运行状态（如 UZ0001 班加西—的黎波里、UZ0200 的黎波里—开罗、UZ0206 的黎波里—亚历山大等），并支持在线购票与订单管理。本次抓取（2026-10-05）显示 10 月 5-7 日三日均有多班「在模块定 (في موعدها)」航班。",
+      "source": "官网 https://buraq.aero（2026-10-05 抓取验证，英语版与阿拉伯语版均成功读取）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "LY-PERSON-000167",
+      "name": "穆罕默德·布贝达 (Mohamed Bubeida)",
+      "title": "董事长兼首席执行官",
+      "title_description": "机长出身的现任董事长兼 CEO (Chairman and CEO)。",
+      "description": "英文维基百科（2026 年检索版本）记载其现任布拉克航空董事长兼首席执行官，本人同时是在职航空公司飞行员；早期航空档案（CAPA、en-academic 词条）亦以其为公司董事长。该人事信息暂未获阿拉伯语来源二次印证。"
+    },
+    {
+      "person_id": "LY-PERSON-000168",
+      "name": "福齐·米卡利赫 (Fouzi Almiqalh)",
+      "title": "股东大会主席",
+      "title_description": "General Assembly President，2025 年 11 月代表公司与空客签署购机谅解备忘录。",
+      "description": "空客官方新闻稿（2025-11-19）、利比亚媒体 Almenassa 与航空媒体 NewsAero 均称其为布拉克航空股东大会主席（President of Buraq Air's General Assembly）；阿拉伯语媒体（AlHadathNAF，2025-11-21）则称其为公司董事会主席（رئيس مجلس إدارة），中英文来源称谓存在差异。他在备忘录签署时表示，此次购机是公司机队现代化与拓展目的地的重要一步，A320neo 平台也将成为与战略伙伴 Medsky Airways 共同提升两航司旅客服务的运营基础。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "飞行运营与航线网络部门",
+      "dept_id": "LY-CORP-001-DEPT-001",
+      "head": null,
+      "description": "负责公司定期客运网络运营：国内干线为的黎波里米提加（MJI）—班加西（BEN，每日多班往返），并覆盖米苏拉塔（MRA）、塞卜哈（SEB）、阿布拉克（LAQ，服务贝达市）等国内航点；国际定期航线通往开罗（CAI）、突尼斯（TUN）与亚历山大（ALY，2026-09-28 开航），另有塞卜哈—亚历山大国际航线（2026-10-02 开航，每周五班次）。官网 2026-10-05 公示的时刻表中已不再显示伊斯坦布尔航线，该航线此前曾为定期航线（英语维基百科仍列为定期目的地），现行定期状态存疑。历史上还曾运营安塔利亚、博德鲁姆、加济帕夏、伊兹密尔、泰基尔达等土耳其休闲包机。依据官网 2026-10-05 时刻表与维基百科目的地列表。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "机队与技术保障部门",
+      "dept_id": "LY-CORP-001-DEPT-002",
+      "head": null,
+      "description": "负责机队管理与维护。据英文维基百科（2025-11 更新），公司机队为 7 架：空客 A320-200 四架、波音 737-400 一架、737-800 一架及利比亚首架巴航工业 E190（5A-BAF），另有 10 架 A320neo 订单（预计 2031-2032 年交付）。2026 年动态：3 月新进一架 A320-232；6 月初湿租一架 A321-200 扩充运力（ch-aviation），同期一架原属公司的 B737-400 被 Libyan Express 收购（ch-aviation 2026-06-08）；德国 AFG 收购一架 2014 年出厂 A320 租赁给公司（Airfinance Global）。Planespotters（2026-09）统计为 6 架，阿拉伯语维基百科（更新较早）统计为 4 架，各来源口径不一。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-02-19",
+      "title": "新一架空客 A320 抵达米提加机场加入机队",
+      "description": "据公司官网新闻（2025-02-19）与利比亚先驱报 2025 年 2 月报道，布拉克航空新接收的一架空客 A320 顺利降落的黎波里米提加国际机场；当年 4 月公司又接收另一架空客 A320，机队 A320 系列数量持续扩充。",
+      "impact": "支撑其后国内航线（塞卜哈、阿布拉克）恢复与国际航线加密；与官网现行 A320 机队规模信息相互印证。",
+      "source": "https://buraq.aero/ar/al-buraq-launches-its-first-flights-to-sabha/"
+    },
+    {
+      "date": "2025-04-28",
+      "title": "恢复飞往阿布拉克国际机场（LAQ）的国内定期航线",
+      "description": "据利比亚官方通讯社（WAL，lana.gov.ly）报道，公司当日自米提加国际机场恢复执飞至阿布拉克国际机场的国内航线首航；公司各部门经理及合作方 Jisr 航空服务公司（الجسر لخدمات الطيران）管理层出席首航仪式。公司称此举系持续扩大服务、强化国内航线网络的一部分。",
+      "impact": "国内网络延伸至东部贝达地区，促进利比亚城市间经济与旅游往来；与官网现行时刻表 UZ0080/0081 米提加—阿布拉克航线相互印证。",
+      "source": "https://lana.gov.ly/post.php?lang=ar&id=331543"
+    },
+    {
+      "date": "2025-05-16",
+      "title": "官方宣布「布拉克快捷航空 (Buraq Express)」新项目并预告引入 E190",
+      "description": "公司官方 Facebook（2025-05-16）宣布启动「براق إكسبريس – Buraq Express」新项目，预告即将加入一架巴航工业 E190，称该项目旨在强化利比亚城市间航空连接，提供更快、更高效的旅行体验；公司配套 Instagram 帖文同步发布。",
+      "impact": "公司品牌与业务延伸的先导信号，为同年 11 月利比亚首架 E190 交付并编入 Buraq Express 运营铺路（与 ch-aviation 2025-05-21 报道交叉印证）。",
+      "source": "https://www.facebook.com/Buraqair/posts/1218469906737331/"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "利比亚首架巴航工业 E190（5A-BAF）交付抵达班加西",
+      "description": "从葡萄牙调机而来的巴航工业 E190（注册号 5A-BAF，序列号 19000568）降落在班加西国际机场，成为利比亚境内首架投入运营的该型号飞机。该机 2012 年交付巴西矿企 Vale 作 VIP 配置使用，2023 年 3 月停场，2025 年 10 月转至葡萄牙阿尔韦卡改装为 100 座全经济舱布局后交付（据 Air Data News）。",
+      "impact": "公司成为利比亚首家运营 E190 的航司，该机编入新设子公司「布拉克快捷航空 (Buraq Express)」运营（ch-aviation 2025-11-19 称其为「利比亚新创航司 Buraq Express 接收首架 E190」），用于支线与包机市场，提升区域市场运营灵活性。",
+      "source": "https://www.airdatanews.com/buraq-air-takes-delivery-of-the-first-registered-embraer-e190-in-libya/"
+    },
+    {
+      "date": "2025-11-19",
+      "title": "迪拜航展与空客签署 10 架 A320neo 购买谅解备忘录",
+      "description": "公司股东大会主席福齐·米卡利赫 (Fouzi Almiqalh) 与空客商用飞机业务销售执行副总裁博诺瓦·德·圣埃克苏佩里在迪拜航展签署谅解备忘录 (MoU)，购买 10 架 A320neo 系列飞机，公司由此成为空客新客户。这是利比亚航司自 2011 年以来最大的购机订单（利比亚媒体 Almenassa 称其为「十年来最大飞机订单」），空客、ch-aviation、AirInsight、NewsAero 等多源报道。",
+      "impact": "据空客新闻稿与 ch-aviation（2025-12-03），新机预计 2031-2032 年起交付，将使公司机队规模扩大三倍以上；A320neo 平台同时作为战略伙伴 Medsky Airways 的共同运营平台，公司计划据此拓展非洲与亚洲航线网络。",
+      "source": "https://www.airbus.com/en/newsroom/press-releases/2025-11-buraq-air-to-become-new-airbus-customer-with-a-commitment-for-10-a320neo-family"
+    },
+    {
+      "date": "2026-03-12",
+      "title": "新接收一架 A320-232（带翼梢小翼）抵达米提加机场",
+      "description": "公司于周四（3 月 12 日）宣布新接收一架带翼梢小翼的空客 A320-232 抵达的黎波里米提加机场，称此举是按既定战略稳步扩充机队、提升运营效率并为旅客提供更优出行体验的一部分（据利比亚先驱报 2026-03-14 报道）。",
+      "impact": "A320 系列机队进一步扩充；据 Planespotters（2026-09）公司机队达 6 架，支撑国内国际航线持续加密。",
+      "source": "https://libyaherald.com/2026/03/buraq-airlines-receives-its-new-airbus-a320-232-aircraft-at-mitiga-airport"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "湿租一架 A321-200 扩充运力，一架 B737-400 售予 Libyan Express",
+      "description": "据 ch-aviation 报道（2026-06-02），公司湿租一架空客 A321-200 以增加运力；6 月 8 日 ch-aviation 再报道 Libyan Express 收购一架原属布拉克航空的 B737-400。另据 Airfinance Global 情报（ishkaairfinance 转载，2026 年），德国 Aircraft Finance Germany (AFG) 收购一架 2014 年出厂、曾由 Jetstar 与 Vueling 运营的 A320 并租赁给公司。",
+      "impact": "通过湿租与租赁灵活扩充运力、处置老旧机型，反映利比亚航空出行需求回升背景下私营航司的扩张策略；公司由此与利比亚其他私营及国有航司在运力市场形成更直接的竞争。",
+      "source": "https://www.ch-aviation.com/news/167837-libyas-buraq-air-wet-leases-a321-200"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "开通米提加—亚历山大（勃格阿拉伯机场）定期航线",
+      "description": "公司官方 Facebook 宣布自 2026-09-28 起开通的黎波里米提加国际机场 (MJI) 至亚历山大勃格阿拉伯国际机场 (ALY) 的首航，称这是「的黎波里与亚历山大之间的新目的地与新连接」；官网 2026-10-05 时刻表已显示 UZ0206/0207 米提加—亚历山大往返航班正常排班（当日 19:30 起飞）。",
+      "impact": "恢复中断多年的利比亚—亚历山大空中通道（该航线在 2011 年战前曾运营后停飞），加密利比亚至埃及市场运力；公司自称是「利比亚各地飞往埃及航班的第一承运人」。",
+      "source": "https://www.facebook.com/Buraqair/posts/1630643225519995/"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "开通塞卜哈—亚历山大国际航线（每周一班）",
+      "description": "据利比亚官方通讯社（LANA/lananews，2026-10-02）及 Akhbar Libya 24、Almustaqbal 等多家利比亚媒体报道，塞卜哈国际机场当日（周五）举行两条直达航线开通仪式：布拉克航空执飞塞卜哈—亚历山大线，伯尼奎航空 (Berniq Airways) 执飞赴沙特「圣地」朝觐包机（载 170 名朝觐者）；塞卜哈市长、公司代表与机场管理层出席。公司官方 Facebook 称该线自 2026-10-02 起每周五执飞一班。",
+      "impact": "利比亚南部地区首次获得直飞埃及的固定国际航线，缓解南部居民须长途前往北部机场乘机的负担；与公司「以埃及航线为核心」的扩张策略一致，官网时刻表显示其国内塞卜哈航线（UZ0070/0071）同步运营。",
+      "source": "https://www.lananews.com/ar/?p=507549"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "LY-CORP-014",
+      "org_name": "布拉克快捷航空 (Buraq Express)",
+      "org_type": "CORP",
+      "org_description": "布拉克航空 2025 年新设立的子公司/支线运营品牌（ch-aviation 称其为「利比亚新创航司」），运营巴航工业 E190，2025 年 11 月接收利比亚首架 E190（5A-BAF），面向支线与包机市场；公司官方 Facebook 于 2025-05-16 公开预告该项目。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "LY-CORP-015",
+      "org_name": "Medsky 航空 (Medsky Airways)",
+      "org_type": "CORP",
+      "org_description": "利比亚私营航空公司，布拉克航空的关键战略伙伴；据空客新闻稿，两航司将共用 A320neo 机型平台，协同提升双方网络的旅客服务与产品一致性。",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": "LY-SOE-013",
+      "org_name": "利比亚航空 (Libyan Airlines)",
+      "org_type": "SOE",
+      "org_description": "利比亚国有航空公司，与私营的布拉克航空同为利比亚国内及区域航线主要承运人，两者构成国营与私营并存的竞争与互补格局（布拉克长期运营米提加—班加西等国内干线及突尼斯、开罗等国际航线）。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "LY-CORP-016",
+      "org_name": "CHC 直升机公司 (CHC Helicopter)",
+      "org_type": "CORP",
+      "org_description": "据 CAPA 航司档案与英文维基百科，布拉克航空依据与 CHC 的合作（joint venture）为利比亚石油行业提供客运与货运包机支持。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "LY-CORP-017",
+      "org_name": "空客公司 (Airbus)",
+      "org_type": "CORP",
+      "org_description": "欧洲民机制造商。2025 年 11 月 19 日在迪拜航展与布拉克航空签署 10 架 A320neo 系列购买谅解备忘录，布拉克航空成为空客新客户，新机预计 2031-2032 年起交付。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "LY-CORP-018",
+      "org_name": "利比亚快捷航空 (Libyan Express)",
+      "org_type": "CORP",
+      "org_description": "利比亚私营航空公司。据 ch-aviation（2026-06-08）报道，其于 2026 年 6 月上旬收购一架原属布拉克航空的波音 737-400，构成利比亚私营航司间的二手飞机交易关系。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "LY-CORP-019",
+      "org_name": "Jisr 航空服务公司 (الجسر لخدمات الطيران)",
+      "org_type": "CORP",
+      "org_description": "利比亚地面/航空服务公司。据利比亚官方通讯社 WAL（2025-04-28），其管理层出席布拉克航空米提加—阿布拉克航线复航首航仪式，为该航线的地面服务合作方。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "布拉克航空 (Buraq Air，全称 El-Buraq Air Transport Inc) 成立于 2000 年 10 月 22 日、2001 年 11 月 15 日开始运营，是利比亚历史上第一家私营航空公司，总部设于的黎波里米提加国际机场（因的黎波里国际机场自 2014 年武装冲突后多年停运，米提加成为其实际运营基地）。公司以定期客运为根本业务：国内网络覆盖的黎波里—班加西黄金干线（每日多班）及米苏拉塔、塞卜哈、阿布拉克（LAQ，服务贝达市）等航点；国际定期航线通往开罗、突尼斯，并于 2026 年 9 月 28 日新开的黎波里—亚历山大（勃格阿拉伯机场）航线、10 月 2 日新开塞卜哈—亚历山大航线（每周一班），公司自称是「利比亚各地飞往埃及航班的第一承运人」；伊斯坦布尔航线曾为定期航线，但官网 2026 年 10 月时刻表已不再显示。同时经营面向土耳其多地（安塔利亚、博德鲁姆、加济帕夏、伊兹密尔、泰基尔达）的休闲包机，并依据与 CHC 的合作为利比亚石油行业提供客货运包机支持。机队以空客 A320 系列为主力（含 2026 年 3 月新进 A320-232、6 月湿租 A321-200），辅以波音 737-800 和利比亚首架巴航工业 E190（5A-BAF），截至 2026 年 9 月约运营 6-7 架飞机（各数据源口径 6 至 7 架不等；原 B737-400 已于 2026 年 6 月售予 Libyan Express）。2025 年公司设立子公司布拉克快捷航空 (Buraq Express) 运营 E190 支线业务；同年 11 月在迪拜航展与空客签署 10 架 A320neo 购买谅解备忘录（预计 2031-2032 年起交付，为公司成立以来首笔直接空客订单），并计划拓展非洲与亚洲市场。截至 2026 年 10 月 5 日，公司处于正常运营状态，官网时刻表显示当日多个国内国际航班正常排班，并非停运状态。",
+  "industries": [
+    "aviation",
+    "transportation",
+    "tourism"
+  ],
+  "apec_stance": "利比亚不是亚太经合组织 (APEC) 成员经济体，公开检索未发现布拉克航空有任何涉及 APEC 的立场声明或活动记录；公司业务集中于利比亚国内及地中海、北非区域航线，与 APEC 议程无直接交集。此字段如实记录为「未检索到相关信息」，不代表公司有任何倾向性立场。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Buraq_Air_with_old_registration_%28N593DL%29_before_re-registered_as_5A-BAA.jpg/330px-Buraq_Air_with_old_registration_%28N593DL%29_before_re-registered_as_5A-BAA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-05",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Buraq Air - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Buraq_Air"
+      },
+      {
+        "title": "طيران البراق - ويكيبيديا (Arabic Wikipedia)",
+        "url": "https://ar.wikipedia.org/wiki/%D8%B7%D9%8A%D8%B1%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D9%82"
+      },
+      {
+        "title": "Buraq Air 官网首页（航班时刻表，2026-10-05 抓取）",
+        "url": "https://buraq.aero/"
+      },
+      {
+        "title": "Buraq Air to become new Airbus customer with a commitment for 10 A320neo Family (Airbus press release, 2025-11-19)",
+        "url": "https://www.airbus.com/en/newsroom/press-releases/2025-11-buraq-air-to-become-new-airbus-customer-with-a-commitment-for-10-a320neo-family"
+      },
+      {
+        "title": "طيران البراق تستأنف رحلاتها الداخلية إلى مطار الأبرق (WAL 利比亚官方通讯社, 2025-04-28)",
+        "url": "https://lana.gov.ly/post.php?lang=ar&id=331543"
+      },
+      {
+        "title": "تدشين رحلتين جويتين من مطار سبها الدولي إلى مصر والسعودية (LANA 利比亚通讯社, 2026-10-02)",
+        "url": "https://www.lananews.com/ar/?p=507549"
+      },
+      {
+        "title": "الإسكندرية… أقرب مع البراق! 公司官方 Facebook 宣布 2026-09-28 开航米提加—亚历山大",
+        "url": "https://www.facebook.com/Buraqair/posts/1630643225519995/"
+      },
+      {
+        "title": "Buraq Air takes delivery of the first registered Embraer E190 in Libya (Air Data News, 2025-11-14)",
+        "url": "https://www.airdatanews.com/buraq-air-takes-delivery-of-the-first-registered-embraer-e190-in-libya/"
+      },
+      {
+        "title": "Libya's Buraq Air wet leases A321-200 (ch-aviation, 2026-06-02)",
+        "url": "https://www.ch-aviation.com/news/167837-libyas-buraq-air-wet-leases-a321-200"
+      },
+      {
+        "title": "Libyan Express acquires ex-Buraq Air B737-400 (ch-aviation, 2026-06-08)",
+        "url": "https://www.ch-aviation.com/news/168009-libyan-express-acquires-ex-buraq-air-b737-400"
+      },
+      {
+        "title": "Libya's Buraq Air eyes Asia expansion with A320neo order (ch-aviation, 2025-12-03)",
+        "url": "https://www.ch-aviation.com/news/161258-libyas-buraq-air-eyes-asia-expansion-with-a320neo-order"
+      },
+      {
+        "title": "Al-Buraq Air Make Biggest Aircraft Order in a Decade (Almenassa, 2025-12-06)",
+        "url": "https://almenassa.ly/en/2025/12/06/al-buraq-air-make-biggest-aircraft-order-in-a-decade/"
+      },
+      {
+        "title": "(DAS25) Libya's Buraq Air commits to 10 Airbus A320neo (NewsAero, 2025-11)",
+        "url": "https://newsaero.info/airlines/das25-libyas-buraq-air-commits-to-10-airbus-a320neo"
+      },
+      {
+        "title": "Buraq Airlines Launches Its Inaugural Flight Today from Mitiga Airport to Labraq Airport (官网新闻, 2025-04-28)",
+        "url": "https://buraq.aero/al-buraq-launches-its-first-flights-to-sabha-2/"
+      }
+    ],
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media",
+      "aviation_trade_press",
+      "state_news_agency"
+    ],
+    "completeness_score": 77,
+    "notes": "Phase 3 丰富（本次从头完整执行）：来源包括英语/阿拉伯语维基百科、官网 https://buraq.aero（http 版经读取工具返回 502，改以 https 英语/阿语版抓取成功）、空客官方新闻稿、利比亚官方通讯社 WAL/LANA、Libya Herald、ch-aviation、Air Data News、NewsAero、Almenassa、Akhbar Libya 24、Planespotters、公司官方 Facebook 主页等约 14 个来源。关键事实交叉确认：A320neo 备忘录（空客+ch-aviation+NewsAero+Almenassa+AirInsight 等）、E190 交付（Air Data News+ch-aviation）、Buraq Express 项目（官方 Facebook+Instagram+ch-aviation）、米提加—亚历山大开航（官方 Facebook+官网时刻表 UZ0206/0207）、塞卜哈—亚历山大开航（LANA+官方 Facebook+Akhbar Libya 24 等多家）。公司当前正常运营（官网 2026-10-05 时刻表活跃），非停运状态；伊斯坦布尔定期航线在官网 2026-10 时刻表已不显示，已如实记录为状态存疑。org_subtype 保持 private_company。key_people 的 person_id 及 Buraq Express/Medsky/CHC/Airbus/Libyan Express/Jisr 的 org_id 在 _name_index.json 中未命中，置 null（索引仅收录 Buraq Air 本体与其余预算内实体）。"
+  }
+}

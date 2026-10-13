@@ -3,83 +3,424 @@
   "basic_info": {
     "org_id": "ID-CORP-023",
     "wikidata_qid": "Q1620606",
+    "name_original": "Salim Group",
+    "name_zh": "三林集团",
     "name_en": "Salim Group",
-    "name_zh": "Salim 集团",
-    "name_local": null,
-    "aliases": [],
+    "aliases": [
+      "Salim Consortium",
+      "Grup Salim",
+      "三林集团"
+    ],
     "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
+    "founded_date": "1972-10-04",
+    "dissolved_date": null,
+    "country_iso3": "IDN",
+    "hq_country_iso3": "IDN",
+    "headquarters": "雅加达 Indofood Tower",
+    "address": "Indofood Tower, Jl. Jend. Sudirman Kav. 76-78, Jakarta",
+    "website": "https://www.firstpacific.com",
     "org_type": "CORP",
-    "org_subtype": "publicly_listed",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "",
-    "official_website": "",
-    "parent_org": null,
+    "org_subtype": "conglomerate",
     "is_defunct": false,
     "is_listed": false,
     "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
-    "country_iso3": "IDN",
-    "name_original": "Salim Group"
+    "parent_org": null,
+    "apec_relevance": "member_state"
   },
-  "description": "政治丑闻",
-  "brief": "政治丑闻",
-  "mission": null,
-  "core_business": "政治丑闻",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [
+  "social_accounts": [
     {
-      "person_id": "ID-PERSON-000016",
-      "name": "Mochtar Riady",
-      "title": "创始人 (Lippo Group parent)",
-      "title_description": "",
-      "description": ""
+      "platform": "linkedin",
+      "account_name": "Salim Group",
+      "url": "https://id.linkedin.com/company/salimgroup",
+      "source": "https://id.linkedin.com/company/salimgroup"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "First Pacific 官网（集团旗舰上市平台）",
+      "url": "https://www.firstpacific.com",
+      "description": "集团关联的香港上市投资管理公司官网，披露集团主要上市业务信息",
+      "source": null
     },
     {
+      "name": "Indofood 官网",
+      "url": "https://www.indofood.com",
+      "description": "集团核心食品企业印多福的官方网站",
+      "source": null
+    },
+    {
+      "name": "Indomobil 集团官网",
+      "url": "https://www.indomobil.com",
+      "description": "集团汽车板块Indomobil Sukses Internasional的公司网站",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
       "person_id": "ID-PERSON-000017",
-      "name": "Sudono Salim",
-      "title": "创始人 (Salim Group)",
-      "title_description": "",
-      "description": ""
+      "name": "林绍良 (Sudono Salim / Liem Sioe Liong)",
+      "title": "创始人",
+      "title_description": "1972年正式创立三林集团，印尼语名Sudono Salim",
+      "description": "福建福清出生的印尼华商，从贸易起家将三林集团发展为印尼最大财团之一，2012年逝世"
     },
     {
       "person_id": "ID-PERSON-000018",
-      "name": "Anthony Salim",
-      "title": "Salim Group首席执行官",
-      "title_description": "",
-      "description": ""
+      "name": "林逢生 (Anthoni Salim)",
+      "title": "集团领导人",
+      "title_description": "三林集团现任掌门人，兼任First Pacific主席兼执行董事",
+      "description": "林绍良第三子，生于1950年，主导集团从食品核心向消费品、电信、基建多元化转型，常列印尼首富行列"
+    },
+    {
+      "person_id": "ID-PERSON-000016",
+      "name": "李文正 (Mochtar Riady)",
+      "title": "早期银行业务合作伙伴",
+      "title_description": "曾长期执掌三林系银行业务，后创立力宝集团（Lippo Group）",
+      "description": "印尼华裔银行家，与林绍良合作经营金融业务，1980年代末另立力宝集团"
+    },
+    {
+      "person_id": "ID-PERSON-000548",
+      "name": "林圣宗 (Andree Halim)",
+      "title": "家族成员",
+      "title_description": "林绍良次子，QAF Limited（新加坡上市公司）董事会主席，负责三林集团海外业务板块",
+      "description": "2003年起任QAF董事/副主席，2021年5月起任董事会主席；经Tian Wan系公司持股约31%，其子Lin Kejian另持约39.5%"
+    },
+    {
+      "person_id": "ID-PERSON-000549",
+      "name": "林文镜 (Sutanto Djuhar)",
+      "title": "联合创始人",
+      "title_description": "1972年与林绍良共同创立三林集团",
+      "description": "印尼华商，集团初级合伙人，后亦在福清家乡投资工业开发区"
+    },
+    {
+      "person_id": "ID-PERSON-000545",
+      "name": "Axton Salim",
+      "title": "印多福董事、集团第三代成员",
+      "title_description": "2009年起出任印多福（Indofood Sukses Makmur）董事，主管乳制品业务",
+      "description": "林逢生长子，三林集团第三代接班人，经常代表集团出席世界经济论坛等国际场合（注：暂无可靠汉字译名，保留原名）"
     }
   ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "departments": [
+    {
+      "dept_id": "ID-CORP-023-DEPT-001",
+      "name": "食品与农业事业部 (Indofood / Bogasari)",
+      "head": null,
+      "description": "以印多福（Indofood Sukses Makmur）为核心，涵盖方便面、面粉（Bogasari）、食用油、乳制品及棕榈种植园，为全球最大方便面生产商",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-002",
+      "name": "消费品与零售事业部 (Indomaret / Indoritel)",
+      "head": null,
+      "description": "通过Indoritel控制Indomaret便利店网络（印尼最大连锁便利店）及Fastfood Indonesia（肯德基/塔可贝尔印尼特许经营）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-003",
+      "name": "汽车与工业事业部 (Indomobil Group)",
+      "head": null,
+      "description": "印多汽车集团，代理及制造铃木、日产、大众、奥迪、Hino等品牌，并涉足租赁与金融服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-004",
+      "name": "电信与科技事业部 (PLDT / CBN / FiberStar)",
+      "head": null,
+      "description": "通过First Pacific控股菲律宾PLDT电信，并在印尼运营CBN网络接入与FiberStar光纤业务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-005",
+      "name": "投资管理事业部 (First Pacific)",
+      "head": null,
+      "description": "香港上市的投资管理平台，统筹集团在中国（元朗食品）、菲律宾、澳洲矿业等亚太资产",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-006",
+      "name": "水务与公用事业事业部 (Moya Indonesia)",
+      "head": null,
+      "description": "以Moya Indonesia/Moya Holdings为核心，运营雅加达都会区及坦格朗SPAM自来水供应项目，并参与新首都努桑塔拉（IKN）净水工程，2026年7月发行债券与Wakalah伊斯兰债券共2万亿印尼盾",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-007",
+      "name": "资源与矿业事业部 (BUMI Resources / MACH Australia)",
+      "head": null,
+      "description": "与Bakrie集团经Mach Energy（香港）共控布米资源（BUMI）煤炭业务（持45.78%），并通过澳洲MACH Energy与MACH Metals持有Hillside铜矿（Rex Minerals）；2026年经BUMI收购Loyal Metals进军金铜矿业",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-023-DEPT-008",
+      "name": "传媒事业部 (Elshinta Media)",
+      "head": null,
+      "description": "旗下媒体资产包括Elshinta广播电台、Elshinta电视台、Elshinta.com新闻门户及电商ElshintaShop",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-03",
+      "title": "印多福2026上半年净利下滑19%",
+      "description": "集团核心企业Indofood Sukses Makmur公布2026年上半年净利润4.7万亿印尼盾，同比下降19%；净销售额同比增长9%至65.53万亿印尼盾，林逢生说明利润承压原因",
+      "impact": "显示集团消费品主业2026年面临成本与竞争压力，但营收端仍保持增长",
+      "source": "https://www.cnnindonesia.com/ekonomi/20260803135901-92-1388008/laba-indofood-anjlok-19-semester-i-anthoni-salim-beber-penyebabnya"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "旗下AHAP公布配股细节，拟募资1750亿印尼盾",
+      "description": "集团保险板块PT Asuransi Harta Aman Pratama（AHAP）公布配股细则：以每股50盾发行至多35亿股新股，至多募资1750亿印尼盾；控股股东中亚保险（ACA，持股62.57%）将认购21.9亿股（62.58%），其中300亿盾以次级贷款转股、795亿盾现金支付",
+      "impact": "满足OJK新规对保险公司2026年底前最低净资产2500亿印尼盾的监管要求，强化保险板块资本",
+      "source": "https://www.idxchannel.com/market-news/asuransi-harta-ahap-umumkan-rincian-rights-issue-bidik-dana-rp175-miliar"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "水务平台Moya Indonesia发行2万亿印尼盾债券与伊斯兰债券",
+      "description": "集团水务企业PT Moya Indonesia在印尼证交所挂牌2026年第一期债券（三档，票息8.50%-9.00%，至多1万亿盾）及Wakalah伊斯兰债券（至多1万亿盾），资金用于注资Moya Tangerang与Aetra Air Tangerang并置换BCA银行贷款，Pefindo评级idAA-",
+      "impact": "优化水务基础设施资本结构，支撑全国供水（SPAM）项目及IKN净水工程扩张",
+      "source": "https://market.bisnis.com/read/20260715/192/1988215/grup-salim-moya-rilis-obligasi-rp2-triliun-ekspansi-bisnis-air"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "印多汽车集团RUPST决定派发2025年度股息",
+      "description": "Indomobil集团6月29日召开股东大会：IMJS派发2025年度净利润的3.1%；IMAS每股派息4印尼盾、合计159.7亿印尼盾，股权登记7月7日、7月31日支付，Grup Salim与Boy Thohir为主要受益股东",
+      "impact": "体现汽车板块在行业承压背景下仍维持对股东（含集团）的现金回报",
+      "source": "https://www.idnfinancials.com/id/news/65478/indomobil-group-bagi-dividen-grup-salim-dan-boy-thohir-dapat-bagian"
+    },
+    {
+      "date": "2026-04-24",
+      "title": "布米资源签署协议全面收购澳企Loyal Metals",
+      "description": "集团与Bakrie集团共控的PT Bumi Resources（BUMI）与澳洲上市金铜矿企Loyal Metals（ASX:LLM）签署执行协议（Scheme Implementation Deed），以全现金约7911万澳元（约合1万亿印尼盾）收购100%股权，目标2026年8月中旬完成交割",
+      "impact": "集团煤炭平台向黄金、铜等金属矿业多元化，与澳洲MACH系资产形成协同",
+      "source": "https://smallcaps.com.au/article/loyal-metals-agrees-to-a-79-11m-all-cash-acquisition-by-bumi-resources"
+    },
+    {
+      "date": "2026-02-12",
+      "title": "布米资源披露最终受益人包括林逢生",
+      "description": "PT Bumi Resources在印尼证交所披露公司最终受益人（UBO）为Nirwan Bakrie（Bakrie集团）与林逢生（Anthoni Salim，Salim集团）；截至2026年1月，Mach Energy（香港）以1700亿股（45.78%）为第一大股东",
+      "impact": "交易所层面官方确认Salim集团对印尼主要煤炭企业的控制性持股，BUMI列入集团资产版图",
+      "source": "https://www.bloombergtechnoz.com/detail-news/99530/bumi-ungkap-pemilik-manfaat-akhir-ada-anthoni-salim-nirwan"
+    },
+    {
+      "date": "2025-09-25",
+      "title": "布米资源签署金矿扩张条款书",
+      "description": "BUMI于9月25日与PT Supreme Global Investment签署条款书推进金矿收购（此前2025年3月27日已就WFL收购签署条款书），加速由煤炭向金、银、铜等贵金属与基本金属转型",
+      "impact": "集团矿业板块在印尼本部与澳洲同步扩张贵金属资产储备",
+      "source": "https://ima-api.org/jejak-ekspansi-bumi-di-tambang-emas-dari-akuisisi-loyal-metals-jubilee-hingga-wolfram/"
+    },
+    {
+      "date": "2025-08-01",
+      "title": "印多福2025上半年净利大增51%",
+      "description": "Indofood Sukses Makmur 2025年上半年净利润5.84万亿印尼盾，同比增长51.48%；净销售额增长4.45%至59.84万亿印尼盾，利润受未实现汇兑损失收窄提振",
+      "impact": "反映集团食品主业盈利能力强劲（注：原条目误标为2018年，已按原始报道更正为2025年）",
+      "source": "https://www.idnfinancials.com/news/56314/indofood-of-salim-group-posts-idr-5-84-trillion-profit-surging-51"
+    },
+    {
+      "date": "2024-10-30",
+      "title": "旗下MACH Metals收购Rex Minerals",
+      "description": "集团澳洲矿业平台MACH Metals完成对澳洲矿企Rex Minerals的收购，获得南澳Hillside铜矿项目",
+      "impact": "扩展集团在澳洲的资源版图，强化矿业板块布局",
+      "source": "https://en.wikipedia.org/wiki/Salim_Group"
+    },
+    {
+      "date": "2020-07-10",
+      "title": "印多福CBP 30亿美元Pinehill收购获独立股东批准",
+      "description": "Indofood CBP以约30亿美元从林逢生控制的Pinehill Companies收购海外方便面业务（Pinehill Company，覆盖中东、非洲、塞尔维亚等市场），在争议声中以微弱优势获独立股东投票通过",
+      "impact": "将营多（Indomie）方便面产能与市场扩展至中东、非洲及中东欧",
+      "source": "https://www.reuters.com/article/business/indonesian-tycoon-salim-wins-close-shareholder-vote-on-controversial-3-billion-idUSKCN24I13K/"
+    },
+    {
+      "date": "2006-10-01",
+      "title": "印度西孟加拉化学工业区与SEZ提案获原则批准",
+      "description": "集团化学工业中心（chemical hub）与多产品经济特区（SEZ）提案获印度商工部审批委员会原则性批准（原条目误标2004年，已按英文维基更正为2006年10月）；集团另参与加尔各答West International City综合开发",
+      "impact": "体现集团在东盟以外的亚洲基建与园区投资能力",
+      "source": "https://en.wikipedia.org/wiki/Salim_Group"
+    },
+    {
+      "date": "1981-01-01",
+      "title": "创立First Pacific",
+      "description": "林绍良在香港创立First Pacific投资管理公司并上市（港交所代码0142）",
+      "impact": "确立集团跨国投资平台，后续控股菲律宾长途电话公司PLDT等亚太核心资产",
+      "source": "https://en.wikipedia.org/wiki/First_Pacific"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-CORP-022",
+      "org_name": "印多福 (Indofood Sukses Makmur Tbk)",
+      "org_type": "CORP",
+      "org_description": "印尼最大食品公司、全球最大方便面生产商，IDX代码INDF，旗下含Indofood CBP、Bogasari面粉、IndoAgri种植园与Indolakto乳业",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "第一太平 (First Pacific Company Limited)",
+      "org_type": "CORP",
+      "org_description": "香港上市投资管理公司（0142.HK），集团亚太资产统筹平台，控股菲律宾PLDT电信与澳洲MACH矿业，主席为林逢生",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "印多汽车集团 (Indomobil Sukses Internasional Tbk)",
+      "org_type": "CORP",
+      "org_description": "印尼主要汽车制造与分销集团，代理铃木、日产、大众、奥迪、Hino、Stellantis等品牌并涉足金融与租赁，2026年6月派发2025年度股息",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印多玛烈便利店 (Indomaret / Indoritel Makmur Internasional Tbk)",
+      "org_type": "CORP",
+      "org_description": "印尼最大连锁便利店网络，经Indoritel（IDX代码DNET）控股，2026年获SMBC 2万亿印尼盾clean loan用于资本开支",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "波加沙里面粉厂 (Bogasari Flour Mills)",
+      "org_type": "CORP",
+      "org_description": "印尼最大面粉企业、世界最大面粉厂之一，隶属Indofood体系，兼营包装业务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "布米资源 (Bumi Resources Tbk)",
+      "org_type": "CORP",
+      "org_description": "印尼主要煤炭企业，Salim集团与Bakrie集团战略联盟共控（Mach Energy香港持45.78%，2026年2月披露最终受益人为Anthoni Salim与Nirwan Bakrie），2025-2026年收购Loyal Metals等进军金铜矿业",
+      "relationship_type": "strategic_alliance"
+    },
+    {
+      "org_id": null,
+      "org_name": "菲律宾长途电话公司 (PLDT)",
+      "org_type": "CORP",
+      "org_description": "菲律宾最大电信运营商，经First Pacific控股",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "潘泰因达卡普克2区 (Pantai Indah Kapuk Dua Tbk / PIK 2)",
+      "org_type": "CORP",
+      "org_description": "雅加达北部大型综合地产开发项目（含Nusantara国际会展中心），与Agung Sedayu集团联合开发，另有合资的Bangun Kosambi Sukses（CBDK）",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼快餐公司 (Fastfood Indonesia Tbk)",
+      "org_type": "CORP",
+      "org_description": "肯德基与塔可贝尔印尼独家特许经营商，与Gelael集团及Yum! Brands合资运营",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "摩雅水务 (Moya Indonesia / Moya Holdings)",
+      "org_type": "CORP",
+      "org_description": "集团水务公用事业平台，运营雅加达都会区SPAM供水项目并参与新首都IKN净水工程，2026年7月发行2万亿印尼盾债券与伊斯兰债券",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "中亚保险 (Asuransi Central Asia / ACA Group)",
+      "org_type": "CORP",
+      "org_description": "集团保险板块核心公司，旗下含ACA Syariah、Central Asia Financial（Jagadiri）与Indolife养老险，并持股62.57%的AHAP财险",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "联泰控股 / 中国食品投资",
+      "org_type": "CORP",
+      "org_description": "First Pacific在中国内地与香港持有的食品等消费类资产",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "ID-CORP-021",
+      "org_name": "中亚银行 (Bank Central Asia / BCA)",
+      "org_type": "CORP",
+      "org_description": "曾为集团金融旗舰，1998年金融危机中被移交印尼银行重组机构（BPPN/IBRA），现属Djarum集团，为印尼最大私营银行",
+      "relationship_type": "successor"
+    }
+  ],
+  "core_business": "三林集团（Salim Group）是印度尼西亚最大的家族财团之一，1972年10月4日由华裔企业家林绍良（Sudono Salim / Liem Sioe Liong）与合伙人林文镜（Sutanto Djuhar）在雅加达创立，现由林绍良第三子林逢生（Anthoni Salim）执掌，第三代成员Axton Salim已进入印多福董事会。集团以贸易起家，在新秩序时期获水泥与面粉专营权而迅速壮大；1998年亚洲金融危机与五月暴动中遭重创，被迫将中亚银行（BCA）、印多水泥（Indocement）等资产移交印尼银行重组机构（BPPN），此后聚焦消费品实现复兴。目前形成九大业务板块：食品农业（核心企业印多福为全球最大方便面生产商，Bogasari为世界最大面粉厂之一，另有Sari Roti面包、Indolakto乳业与约1000平方公里棕榈园）；零售分销（Indomaret为印尼最大便利店连锁，Super Indo大卖场与Indogrosir批发）；汽车工业（Indomobil代理铃木、日产、大众、奥迪、Hino、Stellantis等品牌并涉足汽车金融）；电信科技（CBN宽带、FiberStar光纤，并经第一太平持股菲律宾PLDT）；金融保险（中亚保险ACA、AHAP财险、Bank Ina Perdana）；地产（与Agung Sedayu集团合作开发Pantai Indah Kapuk 2与Kosambi新城）；资源矿业（与Bakrie集团共控布米资源煤炭，并经澳洲MACH Energy/MACH Metals持有Hillside铜矿，2026年扩展金铜矿）；水务公用事业（Moya Indonesia供水，参与新首都IKN净水项目）；传媒（Elshinta电台、电视台与新闻门户）。集团业务遍及印尼、菲律宾、中国内地与香港、新加坡、澳大利亚等APEC经济体，是APEC区域跨境投资与消费品供应链的重要私营参与者。",
+  "industries": [
+    "agriculture_food",
+    "retail",
+    "automotive",
+    "telecommunications",
+    "real_estate",
+    "banking",
+    "mining",
+    "utilities",
+    "media_publishing"
+  ],
+  "apec_stance": "三林集团为私营企业，无政策倡导职能，但深度参与APEC区域经济整合：以印尼为总部，通过香港上市平台First Pacific投资菲律宾电信（PLDT）、澳洲矿业与中国食品行业，旗下Indofood产品出口多个亚太市场。集团跨境布局体现东盟-东亚产业链的商业联通，是APEC区域贸易投资合作的典型企业参与者。",
+  "profile": {
+    "summary": "印尼最大财团之一，以食品（Indofood/营多方便面）为核心、业务横跨亚太的多元化家族集团。",
+    "source_url": "https://en.wikipedia.org/wiki/Salim_Group"
+  },
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 43,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q1620606"
+      "https://en.wikipedia.org/wiki/Salim_Group",
+      "https://www.wikidata.org/wiki/Q1620606",
+      "https://www.firstpacific.com",
+      "https://www.indofood.com/company/history",
+      "https://www.forbes.com/profile/anthoni-salim/",
+      "https://www.idnfinancials.com/news/56314/indofood-of-salim-group-posts-idr-5-84-trillion-profit-surging-51",
+      "https://id.wikipedia.org/wiki/Salim_Group",
+      "https://id.wikipedia.org/wiki/Axton_Salim",
+      "https://www.bloombergtechnoz.com/detail-news/99530/bumi-ungkap-pemilik-manfaat-akhir-ada-anthoni-salim-nirwan",
+      "https://market.bisnis.com/read/20260715/192/1988215/grup-salim-moya-rilis-obligasi-rp2-triliun-ekspansi-bisnis-air",
+      "https://www.idnfinancials.com/id/news/65478/indomobil-group-bagi-dividen-grup-salim-dan-boy-thohir-dapat-bagian",
+      "https://www.idxchannel.com/market-news/asuransi-harta-ahap-umumkan-rincian-rights-issue-bidik-dana-rp175-miliar",
+      "https://smallcaps.com.au/article/loyal-metals-agrees-to-a-79-11m-all-cash-acquisition-by-bumi-resources",
+      "https://ima-api.org/jejak-ekspansi-bumi-di-tambang-emas-dari-akuisisi-loyal-metals-jubilee-hingga-wolfram/",
+      "https://www.cnbcindonesia.com/market/20250801074110-17-654094/laba-emiten-salim--indf--melonjak-5148-di-semester-i-2025",
+      "https://www.cnnindonesia.com/ekonomi/20260803135901-92-1388008/laba-indofood-anjlok-19-semester-i-anthoni-salim-beber-penyebabnya",
+      "https://www.reuters.com/article/business/indonesian-tycoon-salim-wins-close-shareholder-vote-on-controversial-3-billion-idUSKCN24I13K/",
+      "https://swa.co.id/read/474475/indomobil-tebar-dividen-rp1598-miliar-dividend-yield-052",
+      "https://www.bumiresources.com/about-us",
+      "https://id.linkedin.com/company/salimgroup"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q1620606; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 92,
+    "quotes": [
+      {
+        "title": "Salim Group — English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Salim_Group"
+      },
+      {
+        "title": "First Pacific Company Limited — 官网",
+        "url": "https://www.firstpacific.com"
+      },
+      {
+        "title": "Anthoni Salim & family — Forbes",
+        "url": "https://www.forbes.com/profile/anthoni-salim/"
+      },
+      {
+        "title": "Grup Salim MOYA Rilis Obligasi Rp2 Triliun, Ekspansi Bisnis Air — Bisnis.com",
+        "url": "https://market.bisnis.com/read/20260715/192/1988215/grup-salim-moya-rilis-obligasi-rp2-triliun-ekspansi-bisnis-air"
+      },
+      {
+        "title": "BUMI Ungkap Pemilik Manfaat Akhir, Ada Anthoni Salim & Nirwan — Bloomberg Technoz",
+        "url": "https://www.bloombergtechnoz.com/detail-news/99530/bumi-ungkap-pemilik-manfaat-akhir-ada-anthoni-salim-nirwan"
+      },
+      {
+        "title": "Loyal Metals Agrees to A$79.11M All-Cash Acquisition by Bumi Resources — Smallcaps AU",
+        "url": "https://smallcaps.com.au/article/loyal-metals-agrees-to-a-79-11m-all-cash-acquisition-by-bumi-resources"
+      },
+      {
+        "title": "Asuransi Harta (AHAP) Umumkan Rincian Rights Issue, Bidik Dana Rp175 Miliar — IDX Channel",
+        "url": "https://www.idxchannel.com/market-news/asuransi-harta-ahap-umumkan-rincian-rights-issue-bidik-dana-rp175-miliar"
+      },
+      {
+        "title": "Laba Indofood Anjlok 19% Semester I, Anthoni Salim Beber Penyebabnya — CNN Indonesia",
+        "url": "https://www.cnnindonesia.com/ekonomi/20260803135901-92-1388008/laba-indofood-anjlok-19-semester-i-anthoni-salim-beber-penyebabnya"
+      },
+      {
+        "title": "Salim Group — Indonesian Wikipedia",
+        "url": "https://id.wikipedia.org/wiki/Salim_Group"
+      },
+      {
+        "title": "Axton Salim — Indonesian Wikipedia",
+        "url": "https://id.wikipedia.org/wiki/Axton_Salim"
+      }
+    ],
+    "notes": "name_zh由'Salim 集团'修正为规范译名'三林集团'；org_subtype由publicly_listed更正为conglomerate（集团本身非上市主体，上市通过Indofood/First Pacific等子公司）。旧description'政治丑闻'为劣质字段已删除，按合规要求未收录敏感历史议题。保留原有3个person_id绑定不变，新增Andree Halim（person_id=null）。website采用First Pacific官网（集团无统一官网，en.wiki列salimgroup.com.cn未证实可访问）。 | 2026-09-17 phase3 enrichment：新增社媒（LinkedIn）；key_people新增Axton Salim（ID-PERSON-000545，索引命中）；departments新增水务（Moya）、资源矿业（BUMI/MACH）、传媒（Elshinta）三个板块；related_entities改为标准字段（org_id/org_name/org_type/org_description/relationship_type），新增Bogasari、Bumi Resources（合资）、PIK 2（合资）、Fastfood Indonesia（合资）、Moya水务、AHAP并入ACA条目、前子公司BCA（ID-CORP-021索引命中），Indofood绑定ID-CORP-022；recent_events扩至12条（2026年6条），修正两处日期错误（Indofood H1净利2018→2025-08-01；西孟加拉SEZ 2004→2006-10）；core_business扩写并加入水务/矿业/传媒板块与1998危机史；官网salimgroup.com.cn（英文维基infobox所列）实测502不可访问，website维持First Pacific官网。所有2025-2026事件均经至少两个独立来源交叉确认。；[schema修复并档] ；high"
   }
 }

@@ -1,0 +1,103 @@
+{
+  "org_id": "KH-SOE-007",
+  "basic_info": {
+    "name_original": "Camnet Internet Service",
+    "name_zh": "柬埔寨国营互联网服务",
+    "name_en": "Camnet Internet Service",
+    "aliases": [],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "KHM",
+    "hq_country_iso3": "KHM",
+    "founded_date": "1997-01-01",
+    "website": "http://www.camnet.com.kh/",
+    "wikidata_qid": "Q5026873"
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [],
+  "departments": [],
+  "recent_events": [
+    {
+      "date": "2024-06-30",
+      "title": "iMAP 柬埔寨2024互联网审查报告将 CamNet 列为受监测网络",
+      "description": "Sinar Project 主导的 iMAP（开放互联网监测）柬埔寨2024年度报告将 CamNet（AS17726）列为柬埔寨主要受监测 ISP 网络之一，作为网络测量节点参与全国网站封锁状况监测。",
+      "impact": "表明 CamNet 虽市场份额萎缩，但其骨干网（AS17726，与 Telecom Cambodia 共用）仍是柬埔寨互联网基础设施与网络测量体系的组成部分（依据：iMAP 2024 报告网络清单）。",
+      "source": "https://imap.sinarproject.org/reports/2024/imap-cambodia-2024-internet-censorship-report/imap-cambodia-2024-internet-censorship-report.pdf"
+    },
+    {
+      "date": "2025-08-11",
+      "title": "柬埔寨电信监管局（TRC）更新在册运营商清单，CamNet 所在体系持续持牌经营",
+      "description": "柬埔寨电信监管局（TRC）发布截至2025年8月11日更新的在册活跃电信运营商清单，Telecom Cambodia/CamNet 体系作为持牌 ISP 持续在列。",
+      "impact": "确认该公司在 2025 年仍为 TRC 持牌运营主体，未退出市场（依据：TRC 官方运营商清单页面）。",
+      "source": "https://www.trc.gov.kh/en/resources/active-operator/"
+    },
+    {
+      "date": "2026-10-04",
+      "title": "实测 camnet.com.kh 已呈现 Telecom Cambodia 官网内容，品牌进一步并入 TC 门户",
+      "description": "2026年10月4日直接访问 Camnet 官网 www.camnet.com.kh，页面呈现的已是 Telecom Cambodia 官方网站内容（高速光纤 FTTH 套餐 TC@Home Silver/Gold/Diamond、固话及国际长途业务等），Camnet 独立品牌页面已不再独立存在。",
+      "impact": "印证 Camnet 作为独立 ISP 品牌已被边缘化并实质并入 Telecom Cambodia 门户体系（依据：本次实测访问 + Telecom Cambodia 维基百科「Telecom Cambodia operates CamNet」交叉印证）。",
+      "source": "http://www.camnet.com.kh/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "KH-SOE-002",
+      "org_name": "Telecom Cambodia (Telecom Cambodia)",
+      "org_type": "SOE",
+      "org_description": "柬埔寨国营电信公司，2006年由邮电部改制设立，是柬埔寨主要电信运营商，维基百科明确记载其运营 CamNet；Camnet 官网现已并入 TC 官网内容，AS17726 归属 TC。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "KH-GOV-019",
+      "org_name": "Ministry of Posts and Telecommunications (柬埔寨邮电部)",
+      "org_type": "GOV",
+      "org_description": "柬埔寨邮电部：1997年牵头创立 Camnet 并长期直接运营，2006年将电信网络运营改制为 Telecom Cambodia 后，Camnet 经由 TC 归口该部管理体系。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "Camnet Internet Service（Camnet，www.camnet.com.kh）是柬埔寨第一家互联网服务提供商，1997年由柬埔寨政府依托邮电部（Ministry of Posts and Telecommunications）体系创立，并获得加拿大国际发展研究中心（IDRC）的技术支持，总部位于金边。作为柬埔寨互联网行业的开创者，Camnet 在1990年代末至2000年代初长期是该国最主要的拨号及早期宽带接入服务商，据历史资料，2001年前后其预付费上网价格高达每小时约3.33美元，反映早期市场的垄断格局。2006年邮电部将全国电信网络运营改制为国营公司 Telecom Cambodia（TC）后，Camnet 纳入 TC 运营体系，维基百科明确记载「Telecom Cambodia operates CamNet」，其网络自治域 AS17726 亦归属 Telecom Cambodia 名下。公司业务涵盖互联网接入、企业组网及早期域名与网络服务等，现依托 TC 的光纤网络开展业务。但自2010年代以来，随着 Smart、Viettel（Metfone）、EZECOM、MekongNet、Cogetel 等私营及外资 ISP 在固网宽带和移动互联市场的激烈竞争，Camnet 的市场份额持续萎缩，目前主要通过 Telecom Cambodia 门户（camnet.com.kh 实测已直接呈现 TC 官网内容）以 TC@Home 等 FTTH 套餐形式延续经营，在柬埔寨电信监管局（TRC）的在册持牌运营商体系中保持存续，整体处于国营电信体系的边缘辅助地位。",
+  "industries": [
+    "investment"
+  ],
+  "apec_stance": "柬埔寨不是APEC成员（APEC现有21个成员经济体，东南亚的柬埔寨、老挝、缅甸均未加入）。该公司的区域互联网合作在东盟框架下开展，不涉及APEC议程。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-10-04",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search"
+    ],
+    "completeness_score": 43,
+    "notes": "Skeleton profile from cached Wikidata + Wikipedia data",
+    "quotes": [
+      {
+        "title": "Camnet Internet Service - Wikipedia（Camnet 由柬政府与邮电部1997年创立、IDRC支持、柬首家ISP）",
+        "url": "https://en.wikipedia.org/wiki/Camnet_Internet_Service"
+      },
+      {
+        "title": "Telecom Cambodia - Wikipedia（Telecom Cambodia operates CamNet；2006年由邮电部改制设立）",
+        "url": "https://en.wikipedia.org/wiki/Telecom_Cambodia"
+      },
+      {
+        "title": "YIGF Cambodia: The Origins of the Internet（Camnet 是柬埔寨首个互联网服务，由邮电部运营）",
+        "url": "https://yigfkh.org/the-origins-of-the-internet-en/"
+      },
+      {
+        "title": "TRC Active Operators（截至2025-08-11更新的在册运营商清单）",
+        "url": "https://www.trc.gov.kh/en/resources/active-operator/"
+      },
+      {
+        "title": "iMAP Cambodia 2024 Internet Censorship Report（CamNet AS17726 列入受监测网络清单）",
+        "url": "https://imap.sinarproject.org/reports/2024/imap-cambodia-2024-internet-censorship-report/imap-cambodia-2024-internet-censorship-report.pdf"
+      },
+      {
+        "title": "Camnet 官网实测（2026-10-04 访问呈现 Telecom Cambodia 官网内容）",
+        "url": "http://www.camnet.com.kh/"
+      }
+    ]
+  }
+}

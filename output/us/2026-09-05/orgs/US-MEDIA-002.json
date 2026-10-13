@@ -1,0 +1,288 @@
+{
+  "org_id": "US-MEDIA-002",
+  "basic_info": {
+    "name_original": "The Wall Street Journal",
+    "name_zh": "华尔街日报",
+    "name_en": "The Wall Street Journal",
+    "aliases": [
+      "WSJ",
+      "华报",
+      "The Wall Street Journal",
+      "道琼斯旗下华尔街日报"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "newspaper",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "1889-07-08",
+    "website": "https://www.wsj.com",
+    "wikidata_qid": "Q164746",
+    "industries": [
+      "media_publishing",
+      "digital_media",
+      "financial_information"
+    ]
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "WSJ",
+      "url": "https://twitter.com/WSJ",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "wsj",
+      "url": "https://facebook.com/wsj",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "wsj",
+      "url": "https://youtube.com/user/WSJDigitalNetwork",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "wsj",
+      "url": "https://instagram.com/wsj",
+      "source": "web_search"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "wall-street-journal",
+      "url": "https://linkedin.com/company/wall-street-journal",
+      "source": "web_search"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "华尔街日报网站与客户端",
+      "url": "https://www.wsj.com",
+      "description": "核心数字订阅产品。",
+      "source": "https://www.wsj.com"
+    },
+    {
+      "name": "Factiva",
+      "url": "https://www.dowjones.com/products/factiva/",
+      "description": "全球新闻与商业信息数据库。",
+      "source": "https://www.dowjones.com"
+    },
+    {
+      "name": "Risk & Compliance",
+      "url": "https://www.dowjones.com/products/risk-compliance/",
+      "description": "合规风控专业信息服务。",
+      "source": "https://www.dowjones.com"
+    },
+    {
+      "name": "Barron's",
+      "url": "https://www.barrons.com",
+      "description": "同属道琼斯的金融周报兄弟品牌。",
+      "source": "https://www.barrons.com"
+    },
+    {
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com",
+      "description": "同属道琼斯的财经资讯网站。",
+      "source": "https://www.marketwatch.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000330",
+      "name": "埃玛·塔克 (Emma Tucker)",
+      "title": "主编 (Editor in Chief)",
+      "title_description": "2023年2月起任华尔街日报与道琼斯新闻通讯社主编，是该报1889年创刊以来首位女性主编。",
+      "description": "英国记者出身，曾任《星期日泰晤士报》副主编与《电讯报》主编。任内推动受众导向的编辑转型，任内数字订阅增长约三成，2025年获西班牙《世界报》国际新闻奖。"
+    },
+    {
+      "person_id": "US-PERSON-000331",
+      "name": "阿尔马·拉图尔 (Almar Latour)",
+      "title": "道琼斯公司首席执行官兼出版人 (CEO of Dow Jones and Publisher)",
+      "title_description": "负责华尔街日报母公司道琼斯的整体经营，兼任该报出版人。",
+      "description": "长期在道琼斯与新闻集团任职，2020年起执掌道琼斯。任内专业信息服务（Risk & Compliance、Dow Jones Energy等）成为增长引擎，推动道琼斯向年利润10亿美元目标迈进。"
+    },
+    {
+      "person_id": "US-PERSON-000579",
+      "name": "罗伯特·汤姆森 (Robert Thomson)",
+      "title": "新闻集团首席执行官 (CEO of News Corp)",
+      "title_description": "母公司新闻集团CEO，2025年6月续约至2030年，直接管辖道琼斯业务板块。",
+      "description": "澳大利亚记者出身的媒体高管，2013年起任新闻集团CEO。主导集团向AI内容授权与数字收入转型，与OpenAI等AI公司达成内容授权协议。"
+    },
+    {
+      "person_id": "US-PERSON-000332",
+      "name": "拉克兰·默多克 (Lachlan Murdoch)",
+      "title": "新闻集团董事长 (Chair of News Corp)",
+      "title_description": "默多克家族传媒帝国继承人，任母公司董事长。",
+      "description": "鲁伯特·默多克长子，2023年起接任家族传媒资产董事长职务，通过家族信托对新闻集团（含华尔街日报）拥有控制性影响力。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑部 (Newsroom)",
+      "dept_id": "US-MEDIA-002-DEPT-001",
+      "head": "埃玛·塔克 (Emma Tucker)",
+      "description": "全球采编核心，辖美国、欧洲、亚洲三版及财经、科技、调查、评论等版块。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "亚洲版 (WSJ Asia)",
+      "dept_id": "US-MEDIA-002-DEPT-002",
+      "head": null,
+      "description": "驻香港、新加坡等地的亚太采编团队，聚焦亚洲财经与科技报道。",
+      "parent_dept_id": "US-MEDIA-002-DEPT-001"
+    },
+    {
+      "name": "欧洲版 (WSJ Europe)",
+      "dept_id": "US-MEDIA-002-DEPT-003",
+      "head": null,
+      "description": "驻伦敦、布鲁塞尔等地的欧洲采编团队。",
+      "parent_dept_id": "US-MEDIA-002-DEPT-001"
+    },
+    {
+      "name": "道琼斯新闻通讯社 (Dow Jones Newswires)",
+      "dept_id": "US-MEDIA-002-DEPT-004",
+      "head": null,
+      "description": "面向金融市场的实时新闻通讯服务，与该报共用采编资源。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "专业信息服务 (Risk & Compliance / Factiva)",
+      "dept_id": "US-MEDIA-002-DEPT-005",
+      "head": null,
+      "description": "合规数据库、Factiva新闻数据库等专业信息服务，是道琼斯增长最快的数据业务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-22",
+      "title": "母公司新闻集团CEO汤姆森续约至2030年",
+      "description": "News Corp宣布续任罗伯特·汤姆森CEO至2030年。汤姆森任内道琼斯板块（含华尔街日报）营收与利润持续增长，并推动与OpenAI等AI公司的内容授权合作。",
+      "impact": "华尔街日报的经营与编辑战略保持连续性，AI授权收入成为新增利润来源。",
+      "source": "https://www.axios.com/2025/06/22/news-corp-ceo-contract-renewed"
+    },
+    {
+      "date": "2025-08-06",
+      "title": "News Corp 2025财年报：道琼斯板块营收增长4%",
+      "description": "News Corp 2025财年（截至2025年6月30日）总营收84.5亿美元，其中道琼斯板块营收同比增长4%至约23亿美元，专业信息服务增长强劲；道琼斯年利润接近5.88亿美元。",
+      "impact": "华尔街日报及道琼斯成为新闻集团最稳定的利润来源之一。",
+      "source": "https://investors.newscorp.com/static-files/a5bd1537-9b97-4c74-9cc2-e77aaaa90797"
+    },
+    {
+      "date": "2025-11-06",
+      "title": "News Corp 2026财年Q1：道琼斯营收增6%",
+      "description": "News Corp新一季财报显示道琼斯板块营收同比增长6%至5.86亿美元，专业信息业务增长16%，CEO致AI公司的内容保护信函引发行业关注。",
+      "impact": "数字订阅与专业数据业务双引擎驱动，AI授权谈判议价能力增强。",
+      "source": "https://nypost.com/2025/11/06/business/news-corp-reports-higher-revenue-as-ceo-shares-pointed-message-to-ai-firms/"
+    },
+    {
+      "date": "2025-12-18",
+      "title": "主编塔克获国际新闻奖，数字化订阅战略获认可",
+      "description": "主编埃玛·塔克获西班牙《世界报》2025年国际新闻奖；自其2023年上任以来该报数字订阅增长约30%。",
+      "impact": "编辑转型战略获得国际同业认可，读者结构向更年轻群体扩展。",
+      "source": "https://www.dowjones.com/press-room/wsj-emma-tucker-2025-el-mundo-award/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "US-CORP-214",
+      "org_name": "News Corp",
+      "org_type": "CORP",
+      "org_description": "美国传媒集团，通过道琼斯公司全资拥有华尔街日报，实际控制人为默多克家族。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "US-CORP-003",
+      "org_name": "Dow Jones & Company",
+      "org_type": "CORP",
+      "org_description": "华尔街日报的直接母公司，同时运营道琼斯新闻通讯社、Barron's、MarketWatch 等品牌。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "US-GOV-029",
+      "org_name": "Barron's",
+      "org_type": "MEDIA",
+      "org_description": "同属道琼斯的金融周报。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "US-MEDIA-002",
+      "org_name": "MarketWatch",
+      "org_type": "MEDIA",
+      "org_description": "同属道琼斯的财经网站。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "US-CORP-014",
+      "org_name": "OpenAI",
+      "org_type": "CORP",
+      "org_description": "2025年与新闻集团签署内容授权协议的AI公司，授权新闻内容用于AI产品。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "US-CORP-215",
+      "org_name": "Murdoch Family Trust",
+      "org_type": "CORP",
+      "org_description": "默多克家族信托，通过特殊投票权架构控制News Corp。",
+      "relationship_type": "controlling_shareholder"
+    }
+  ],
+  "core_business": "华尔街日报是美国乃至全球最具影响力的财经日报，1889年由道琼斯公司创始人查尔斯·道等创刊，现隶属于传媒集团News Corp旗下的道琼斯公司。报纸以财经与商业报道为核心，内容覆盖美国经济、全球市场、科技产业、华盛顿政治与调查性新闻，分美国、欧洲、亚洲三版出版，工作日发行量长期位居美国报纸前列。除报纸外，其商业模式以数字订阅为支柱，订阅收入占道琼斯消费者业务的大头；同时依托道琼斯的Factiva新闻数据库、Risk & Compliance合规信息服务等B2B专业数据产品，形成「媒体+数据」双轮驱动。2025财年道琼斯板块营收约23亿美元，年利润接近6亿美元，是News Corp体系内最稳定的利润来源。华尔街日报历史上获得过近40次普利策奖，其对硅谷、华尔街与华盛顿的报道深度被视为行业标杆；亚洲版依托香港、新加坡的编辑团队长期深耕亚太财经报道。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "华尔街日报与亚太地区的联系主要体现在报道布局与商业运营两个层面。报道方面，该报设有亚洲版（WSJ Asia），编辑团队长期驻香港与新加坡，在北京、东京、首尔、台北、曼谷、新德里等地派驻记者，深度报道中国、日本、韩国、东南亚及印度等APEC主要经济体的宏观经济、科技产业与供应链动态，其关于亚洲科技产业、区域贸易与地缘经济风险的报道是全球投资者的重要参考。商业方面，该报在亚太拥有可观的数字订阅用户群，并面向区域金融与合规机构销售道琼斯专业数据服务。该报本身不对APEC机制公开表态，但其关于APEC经济体经贸政策的报道（如关税、出口管制、区域供应链重组）持续影响全球商业界的区域预期。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Wall_Street_Journal_July_30%2C_2025.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "sec_filings",
+      "news_search"
+    ],
+    "completeness_score": 92,
+    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | 2026-09-07: 主会话直接完成丰富（子代理通道对该媒体关键词持续误拦）。财务数据来自 News Corp SEC 10-K 与季度财报报道；主编与母公司高管职位经 WSJ 官网及多方报道交叉验证。",
+    "quotes": [
+      {
+        "title": "The Wall Street Journal - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Wall_Street_Journal"
+      },
+      {
+        "title": "华尔街日报 - 中文维基百科",
+        "url": "https://zh.wikipedia.org/wiki/华尔街日报"
+      },
+      {
+        "title": "WSJ 官方网站与关于我们",
+        "url": "https://www.wsj.com/about-us"
+      },
+      {
+        "title": "News Corp 2025财年 10-K（SEC）",
+        "url": "https://investors.newscorp.com/static-files/a5bd1537-9b97-4c74-9cc2-e77aaaa90797"
+      },
+      {
+        "title": "Axios: News Corp CEO Thomson contract renewed",
+        "url": "https://www.axios.com/2025/06/22/news-corp-ceo-contract-renewed"
+      },
+      {
+        "title": "NY Post: News Corp Q1 FY2026 财报报道",
+        "url": "https://nypost.com/2025/11/06/business/news-corp-reports-higher-revenue-as-ceo-shares-pointed-message-to-ai-firms/"
+      },
+      {
+        "title": "Dow Jones: WSJ Editor Emma Tucker 2025 El Mundo Award",
+        "url": "https://www.dowjones.com/press-room/wsj-emma-tucker-2025-el-mundo-award/"
+      },
+      {
+        "title": "Press Gazette: WSJ subscriptions interview",
+        "url": "https://pressgazette.co.uk/news-leaders/wsj-subscriptions-success-not-an-accident-editor-emma-tucker-interview/"
+      }
+    ]
+  }
+}
