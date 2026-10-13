@@ -1,0 +1,189 @@
+{
+  "org_id": "CM-MIL-005",
+  "basic_info": {
+    "name_original": "Gendarmerie nationale camerounaise",
+    "name_zh": "喀麦隆国家宪兵",
+    "name_en": "Cameron National Gendarmerie",
+    "aliases": [
+      "Gendarmerie nationale du Cameroun",
+      "Cameron National Gendarmerie",
+      "National Gendarmerie of Cameroon",
+      "Cameroon National Gendarmerie"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "security_agency",
+    "country_iso3": "CMR",
+    "hq_country_iso3": "CMR",
+    "founded_date": "1960-04-01",
+    "website": "https://mindef.gov.cm/gendarmerie-nationale/",
+    "wikidata_qid": "Q3100405"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Gendarmerie Nationale du Cameroun",
+      "url": "https://www.facebook.com/gendarmerienationaleducameroun/",
+      "source": "维基/搜索中多次出现的官方脸书页面（Gendarmerie Nationale du Cameroun）"
+    }
+  ],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": "CM-PERSON-000053",
+      "name": "Etoga Galax Yves Landry",
+      "title": "Secrétaire d'État auprès du Ministre de la Défense chargé de la Gendarmerie nationale",
+      "title_description": "国防部负责国家宪兵事务的国务秘书（SED），主管国家宪兵的组织与管理事务",
+      "description": "法文维基百科Secrétariat d'État à la Défense (Cameroun)条目记载其自2018年起出任该职；喀麦隆总统府官网协同人员名录亦列其为现任负责国家宪兵事务的国务秘书。"
+    },
+    {
+      "person_id": "CM-PERSON-000094",
+      "name": "Elokobi Daniel Njock",
+      "title": "Général de division, Inspecteur général de la gendarmerie nationale",
+      "title_description": "少将、国家宪兵总监察长，负责宪兵系统的监察与督察事务",
+      "description": "2025年7月15日总统法令（含第2025/310号法令）中由准将晋升少将，出任国家宪兵总监察长；此前担任宪兵中央协调局（direction centrale de la coordination）负责人。2025年8月29日在雅温得主持宪兵中央机关六名新任负责人就职仪式。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CM-MIL-005-DEPT-001",
+      "name": "宪兵区 (Régions de gendarmerie)",
+      "head": null,
+      "description": "宪兵的战区级建制。法文武装部队条目（2018年2月编制）记载每一个联合军事区（RMIA1至RMIA5）对应设一个宪兵区；法文宪兵条目则记载按三个宪兵区组网。2025年报道中可见第一、第三宪兵区等建制及宪兵区司令职务（如第三宪兵区司令比苏埃准将）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-MIL-005-DEPT-002",
+      "name": "宪兵军团 (Légions de gendarmerie)",
+      "head": null,
+      "description": "按大区/省设置的宪兵地方建制，法文宪兵条目记载全国设10个宪兵军团；2025年官方公告中可见中部宪兵军团（Légion de Gendarmerie du Centre）、东部宪兵军团（Légion de Gendarmerie de l'Est）等，军团司令由总统法令任命（如2025/047号法令任命上校Nguele Joseph Désiré为中部宪兵军团司令）。",
+      "parent_dept_id": "CM-MIL-005-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-005-DEPT-003",
+      "name": "领土宪兵群及基层建制 (Groupements de gendarmerie territoriale, compagnies et brigades)",
+      "head": null,
+      "description": "法文宪兵条目记载全国设5个领土宪兵群，下辖71个连和486个宪兵旅，构成覆盖乡村地区的基层治安与司法警务网络。",
+      "parent_dept_id": "CM-MIL-005-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-005-DEPT-004",
+      "name": "道路交通宪兵群 (Groupements de circulation routière)",
+      "head": null,
+      "description": "法文宪兵条目记载全国设3个道路交通宪兵群，辖25个摩托化道路巡逻排，承担道路交通管制与道路安全职能。",
+      "parent_dept_id": "CM-MIL-005-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-005-DEPT-005",
+      "name": "机动警卫部队 (Escadrons de gendarmerie mobile)",
+      "head": null,
+      "description": "承担维持公共秩序任务建制，法文宪兵条目记载编为3个中队群（groupes d'escadrons）、26个中队（escadrons）和115个机动排（pelotons mobiles）。2025年8月总统法令任命Henri Danzabe为国家宪兵干预中队群（groupe d'escadrons d'intervention）指挥官。",
+      "parent_dept_id": "CM-MIL-005-DEPT-001"
+    },
+    {
+      "dept_id": "CM-MIL-005-DEPT-006",
+      "name": "国家宪兵多用途干预群 (Groupement polyvalent d'intervention de la gendarmerie nationale, GPIGN)",
+      "head": null,
+      "description": "1995年由共和国总统法令创设的特种干预单位，主要应对严重恶性犯罪，部署于雅温得、杜阿拉、加鲁阿、马鲁阿、巴门达和贝尔图阿等城市；亦承担安全部队人员的培训与再培训职能。法文条目成文时由Kola中校指挥。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-MIL-005-DEPT-007",
+      "name": "作战支援与训练机构 (COG, CPPJ, CPTMO, EIFORCES)",
+      "head": null,
+      "description": "包括：宪兵作战中心（COG，免费受理固定及移动电话求救呼叫）、司法警察进修中心（CPPJ，培训技术与科学警务人才）、维持公共秩序技术进修中心（CPTMO，面向非洲机动宪兵军官的地区性学校），以及2008年5月在其基础上创设的国际安全部队学院（EIFORCES，培养宪兵与警察维和任务人员）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-15",
+      "title": "总统法令改组宪兵高层：恩乔克升任宪兵总监察长",
+      "description": "2025年7月15日，总统保罗·比亚签署系列法令改组军事高层指挥体系。宪兵系统方面：恩乔克（Elokobi Daniel Njock）准将晋升少将，出任国家宪兵总监察长（Inspecteur général de la gendarmerie nationale）；皮埃尔·卢巴·扎尔（Pierre Louba Zal）将军接任宪兵中央协调局（direction centrale de la coordination）负责人；原任就业与基础设施局副局长比苏埃（Raymond Boum Bissoue）上校晋升准将，出任第三宪兵区司令。",
+      "impact": "2025年10月总统选举前完成宪兵系统高层更新，确立总监察长、最高指挥官等职位的人事格局。",
+      "source": "https://www.stopblablacam.com/politique/1607-14585-securite-du-sang-neuf-dans-haut-commandement-militaire-a-trois-mois-de-la-presidentielle"
+    },
+    {
+      "date": "2025-08-29",
+      "title": "宪兵中央机关六名新任负责人在雅温得就职",
+      "description": "根据2025年8月12日总统法令任命的六名高级军官于8月29日在雅温得正式就职，就职仪式由国家宪兵总监察长恩乔克少将主持。任命包括：菲亚克尔·基西托·阿唐加纳（Fiacre Kisito Atangana）上校出任就业与基础设施局（Emploi et des Structures）局长，阿格里乌斯·罗穆阿尔德·诺阿（Agrius Romuald Noah）、伊西亚卡·恩舒鲁普奥（Issiaka Nchourupouo）、比安韦尼·埃米莉安·维奥龙（Bienvenue Emilienne Viorong）三名校官出任监察官，邦雅曼·帕特里克·姆巴尔加（Benjamin Patrick Mbarga）上校出任负责国家宪兵事务的国防国务秘书技术顾问，亨利·丹扎贝（Henri Danzabe）出任国家宪兵干预中队群指挥官。",
+      "impact": "宪兵中央机关（services centraux）管理层完成补强与轮换。",
+      "source": "https://www.cameroon-tribune.cm/article.html/72574/fr.html/gendarmerie-nationale-de-nouveaux-hommes-aux"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "73名宪兵完成网络犯罪培训结业",
+      "description": "2026年9月11日，国家宪兵在雅温得完成73名宪兵的网络犯罪问题培训。同页报道提及喀麦隆信息通信技术管理局（ANTIC）2025年全年共处理32,500项司法协查请求，反映宪兵与数字治理部门在打击网络犯罪领域的协作。",
+      "impact": "宪兵在网络安全与网络犯罪侦查领域的专业能力建设持续推进。",
+      "source": "https://www.stopblablacam.com/societe/1709-16812-cybercriminalite-73-gendarmes-formes-l-antic-a-traite-32-500-requisitions-judiciaires-en-2025"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CM-MIL-001",
+      "org_name": "喀麦隆武装部队 (Forces armées camerounaises / Cameroon Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "喀麦隆中央军事力量，总司令为共和国总统，总参谋长为勒内·克洛德·梅卡上将，司令部驻雅温得。英文维基记载宪兵为其组成部分（与陆军、空军、海军并列），宪兵约9,000人。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CM-GOV-009",
+      "org_name": "喀麦隆国防部 (Ministère de la Défense)",
+      "org_type": "GOV",
+      "org_description": "国家宪兵的政府主管部门，国防部内设负责国家宪兵事务的国务秘书（SED），宪兵官方网站亦托管于国防部域名（mindef.gov.cm）之下。",
+      "relationship_type": "parent_org"
+    }
+  ],
+  "core_business": "喀麦隆国家宪兵（Gendarmerie nationale camerounaise）是喀麦隆一支具有军事地位的公共安全力量，编入喀麦隆武装部队体系，其任务与组织模式参照法国国家宪兵设置。该部队渊源可追溯至1920年1月4日，1960年4月1日由法国宪兵当地辅助人员与喀麦隆卫队（Garde camerounaise）合并正式组建。据英文维基百科记载其兵力约9,000人；法文条目称2009年约有10,000名宪兵、士官与军官。其任务分三大类：行政警务（约占任务量30%，负责公共安全、安宁与秩序的维持）、司法警务（约占50%，负责侦办刑事案件、搜集证据、查缉作案人并执行司法命令与裁决）和军事警务（承担预防性一般军事警察与军事司法警察职能）。此外，宪兵还是政府多个部门的执行机构，承担经济警务（营业税与价格检查）、缉私、道路交通管制、航空导航与机场及海事监督等职能，并参与情报搜集与动员措施实施；和平时期与国防力量协同，战时参加本土防御。宪兵行动覆盖全国，重点在乡村地区和各条交通线上。编制上设宪兵区、10个宪兵军团、5个领土宪兵群（辖71个连和486个宪兵旅）与3个道路交通宪兵群（辖25个摩托化道路巡逻排），并编有3个中队群、26个中队和115个机动排的机动警卫部队；另辖国家宪兵多用途干预群（GPIGN，1995年设立）等特种单位，以及司法警察进修中心（CPPJ）、维持公共秩序技术进修中心（CPTMO）和国际安全部队学院（EIFORCES，2008年创设）等训练机构。宪兵最高军事指挥职务为宪兵最高指挥官（Haut Commandant）兼军事司法总监，国防部内由负责国家宪兵事务的国务秘书主管其事务。",
+  "industries": [
+    "defence_military",
+    "internal_security"
+  ],
+  "apec_stance": "喀麦隆不是APEC成员经济体，该组织与APEC无直接关联。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "web_search",
+      "news_search"
+    ],
+    "completeness_score": 61,
+    "notes": "全文阅读来源：法文维基Gendarmerie nationale camerounaise（主条目）、英文维基Cameroon Armed Forces、法文维基Forces armées du Cameroun、法文维基Secrétariat d'État à la Défense (Cameroun)、stopblablacam 2025-07-16改组报道全文、Cameroon Tribune 2025-09-01报道（前半全文，后半付费墙）；Wikidata Q3100405实体数据交叉验证。关键发现：(1) 无英文维基独立条目（en.wikipedia请求502），英文名沿用Wikidata英文标签Cameron National Gendarmerie；(2) name_zh定为「喀麦隆国家宪兵」，系据法文原名Gendarmerie nationale camerounaise的通行描述性译法（与CM-MIL-001条目内表述一致），非官方中文名；(3) 1960-04-01正式创建日据法文条目（渊源追溯至1920-01-04）；(4) 兵力数据存在两个口径：英文维基约9,000人、法文维基2009年约10,000人，已并列；(5) 宪兵区数量存在内部矛盾：法文宪兵条目称3个宪兵区，但其GPIGN段落与法文武装部队条目（2018年编制，每个军事区对应一个宪兵区）指向5个宪兵区，2025年报道亦出现第三宪兵区建制，两说并列入库待核；(6) Balla Samoura的宪兵最高指挥官任命具体日期未经第二来源核实，仅据官方脸书公告列名；任务线索「宪兵与国家警察并列为两大全国性警察力量」未在本次读取的维基条目中获得直接文字表述，故未写入正文；GPIGN指挥官（Kola中校）为条目成文时点信息，时效不明。失败来源（按约束跳过未重试）：mindef.gov.cm官网页面（超时）、actucameroun报道（返回空）。country_iso3沿用本数据集既有约定CMP（喀麦隆标准ISO3为CMR），与CM系列文件保持一致。；收尾勘误(2026-09-19)：曾误列 Balla Samoura（实为几内亚宪兵将领，非本机构人物），已移除；收尾勘误(2026-09-20)：本注释所述\"沿用CMP\"为更正前状态，骨架代码 CMP 已全局更正为标准 CMR",
+    "quotes": [
+      {
+        "title": "Gendarmerie nationale camerounaise - Wikipédia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Gendarmerie_nationale_camerounaise"
+      },
+      {
+        "title": "Cameroon Armed Forces - Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Cameroon_Armed_Forces"
+      },
+      {
+        "title": "Forces armées du Cameroun - Wikipédia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Forces_arm%C3%A9es_du_Cameroun"
+      },
+      {
+        "title": "Secrétariat d'État à la Défense (Cameroun) - Wikipédia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Secr%C3%A9tariat_d%E2%80%99%C3%89tat_%C3%A0_la_D%C3%A9fense_(Cameroun)"
+      },
+      {
+        "title": "Q3100405 - Wikidata entity data",
+        "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3100405.json"
+      },
+      {
+        "title": "Sécurité : du sang neuf dans haut commandement militaire à trois mois de la présidentielle - stopblablacam (2025-07-16)",
+        "url": "https://www.stopblablacam.com/politique/1607-14585-securite-du-sang-neuf-dans-haut-commandement-militaire-a-trois-mois-de-la-presidentielle"
+      },
+      {
+        "title": "Gendarmerie nationale : de nouveaux hommes aux commandes - Cameroon Tribune (2025-09-01)",
+        "url": "https://www.cameroon-tribune.cm/article.html/72574/fr.html/gendarmerie-nationale-de-nouveaux-hommes-aux"
+      },
+      {
+        "title": "Cybercriminalité : 73 gendarmes formés, l'ANTIC a traité 32 500 réquisitions judiciaires en 2025 - stopblablacam (2026-09-17)",
+        "url": "https://www.stopblablacam.com/societe/1709-16812-cybercriminalite-73-gendarmes-formes-l-antic-a-traite-32-500-requisitions-judiciaires-en-2025"
+      }
+    ]
+  }
+}

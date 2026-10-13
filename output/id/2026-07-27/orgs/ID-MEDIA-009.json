@@ -1,63 +1,245 @@
 {
   "org_id": "ID-MEDIA-009",
+  "wikidata_qid": "Q132187370",
   "basic_info": {
     "org_id": "ID-MEDIA-009",
-    "wikidata_qid": "Q132187370",
-    "name_en": "Cakra",
-    "name_zh": "查克拉",
-    "name_local": "Cakra",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "MEDIA",
-    "org_subtype": "broadcast_media",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://cakrapublishingoffset.com/",
-    "official_website": "https://cakrapublishingoffset.com/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Cakra",
+    "name_zh": "查克拉出版印刷公司",
+    "name_en": "Penerbit & Percetakan Cakra",
+    "founded_date": null,
     "country_iso3": "IDN",
-    "name_original": "Cakra"
+    "hq_country_iso3": "IDN",
+    "website": "https://cakrapublishingoffset.com/",
+    "org_type": "MEDIA",
+    "org_subtype": "publisher"
   },
-  "description": "印度尼西亚图书出版社",
-  "brief": "印度尼西亚图书出版社",
-  "mission": null,
-  "core_business": "印度尼西亚图书出版社",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Penerbit Percetakan Cakra (@penerbit.cakra)",
+      "url": "https://www.facebook.com/penerbit.cakra/",
+      "source": "Facebook平台检索；账号handle与官网公布邮箱penerbit.cakra@gmail.com前缀一致，且曾以官方WhatsApp号码082115826983在图书印制主题群组发帖"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "Penerbit Cakra (@penerbit_percetakancakra)",
+      "url": "https://www.instagram.com/penerbit_percetakancakra/",
+      "source": "Instagram平台检索；账号名与公司名Penerbit & Percetakan Cakra完全一致（约41条帖文）"
+    },
+    {
+      "platform": "other",
+      "account_name": "WhatsApp +62 821-1582-6983",
+      "url": "https://wa.me/6282115826983",
+      "source": "官网联系页及2019-2020年多本图书版权页均列该WhatsApp号码"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": null,
+      "url": "https://cakrapublishingoffset.com/",
+      "description": "官方网站，含出版社简介、产品目录、出版流程、部门介绍与联系方式；[]official_website",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://cakrapublishingoffset.com/profile/",
+      "description": "官方简介页，说明创立背景与IKAPI会员身份；[]other",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://cakrapublishingoffset.com/kontak/",
+      "description": "官方联系页，含万隆办公室与生产地址；[]other",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "赛夫·巴哈里 (Saeful Bahri, S.E.)",
+      "title": "负责人/业主 (Pemilik / Penanggung Jawab)",
+      "title_description": "公司官网域名WHOIS登记的注册人、管理联系人与技术联系人；作为公司代表出现在对外文件中",
+      "description": "域名WHOIS记录显示其为cakrapublishingoffset.com（2022-08-25注册）的登记注册人/管理/技术联系人，登记组织为Penerbit Percetakan CAKRA，地址（Komplek Bojong Malaka Indah Blok D4 No. 90 Bandung）与电话（+62 821-1582-6983）均与公司官方信息一致；另见第三方文件（Yayasan Insan Mandiri委托函，Scribd收录）列名「Saeful Bahri, SE——Penerbit dan Percetakan CAKRA Bandung」。两独立来源交叉确认；其确切公司职务头衔（如董事/经理）无公开记录。S.E.为经济学学士（Sarjana Ekonomi）学位缩写。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-MEDIA-009-DEPT-001",
+      "name": "编辑部 (Tim Editorial)",
+      "head": null,
+      "description": "负责书稿的编辑加工与出版流程，为高校讲师与职教教材作者提供出版服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-MEDIA-009-DEPT-002",
+      "name": "印刷生产部 (Produksi)",
+      "head": null,
+      "description": "位于万隆Jl. Jatimekar No.01的生产基地，承担图书及各类印刷品印刷",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-MEDIA-009-DEPT-003",
+      "name": "营销与分销部 (Marketing & Distribusi)",
+      "head": null,
+      "description": "官网设独立栏目，负责图书发行、客户订购与市场推广",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-05",
+      "title": "官网域名记录更新并续期至2027年8月",
+      "description": "Verisign注册局WHOIS记录显示，公司域名cakrapublishingoffset.com于2026年8月5日更新注册记录，有效期延至2027年8月25日，注册人仍为Saeful Bahri S.E（Penerbit Percetakan CAKRA），注册服务商为CV. Jogjacamp（idwebhost）。",
+      "impact": "表明公司线上业务渠道持续投入维护，经营状态延续。",
+      "source": "https://www.whois.com/whois/cakrapublishingoffset.com"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "出版《The Coach Book UTBK SNBT 2026》大学入学考试辅导书",
+      "description": "官网产品目录收录面向2026年度印尼国立大学入学考试（UTBK SNBT）的辅导书《The Coach Book UTBK SNBT 2026》，作者Rina Armaini, S.Pd，ISBN 978-623-8641-18-5（具体出版日期无公开记录，以考试年度计）。",
+      "impact": "业务从教材与学术出版延伸至全国性升学考试辅导图书市场。",
+      "source": "https://cakrapublishingoffset.com/produk/buku/the-coach-book-utbk-snbt-2026/"
+    },
+    {
+      "date": "2025-06-09",
+      "title": "官网书目系统后台更新",
+      "description": "官网作者账号（cakrapub/bukucakra2）于2025年6月9日发布书目模板条目，显示官网产品目录与内容系统仍在持续维护更新。",
+      "impact": "线上目录运营保持活跃，支撑图书与印刷业务接单。",
+      "source": "https://cakrapublishingoffset.com/author/cakrapub/"
+    },
+    {
+      "date": "2025-01-01",
+      "title": "持续出版职业教育（SMK）教材系列",
+      "description": "官网产品目录显示出版社持续推出印尼职高课程教材，覆盖计算机网络、地理空间技术、化学分析、建筑施工、影视制作、geomatika等专业方向，并陆续推出各系列「Jilid 2」续册及配套学生活动手册。",
+      "impact": "服务印尼职业教育课程改革（Kurikulum Merdeka）带来的教材需求。",
+      "source": "https://cakrapublishingoffset.com/"
+    },
+    {
+      "date": "2025-01-01",
+      "title": "税法实务系列《Perpajakan Lanjutan》扩充至三部",
+      "description": "产品目录含《Perpajakan Lanjutan》系列三部：PPh 21与e-Bupot PPh 21/26（ISBN 978-623-8641-35-2）、KUP/PPN/税务会计与Tax Planning（ISBN 978-623-8641-34-5，作者Dr. Yuniati、Alvina Yuli Az-Zahra）、PPh Potput系列，均按印尼最新税收法规与电子扣缴制度编写。",
+      "impact": "服务印尼税务合规电子化（e-Bupot）改革带来的职业培训教材需求。",
+      "source": "https://cakrapublishingoffset.com/produk/buku/perpajakan-lanjutan-seri-kup-ppn-akuntansi-pajak-dan-tax-planning/"
+    },
+    {
+      "date": "2023-03-28",
+      "title": "官网内容更新并扩充印刷产品线",
+      "description": "网站页面元数据显示联系方式等页面于2023年3月更新，产品线扩展至证书、徽章、马克杯、横幅、日历、奖牌等定制印刷品。",
+      "impact": "形成出版、印刷、周边定制一体化服务能力。",
+      "source": "https://cakrapublishingoffset.com/kontak/"
+    },
+    {
+      "date": "2022-08-25",
+      "title": "启用现官网域名并上线新网站",
+      "description": "WHOIS记录显示现域名cakrapublishingoffset.com于2022年8月25日注册（注册人Saeful Bahri S.E），网站系统（WordPress）首篇内容发布于2022年8月29日，替代此前使用的旧域名cakraoffset.co.id（该域名现已失效）。",
+      "impact": "完善线上展示与订购渠道，便于高校与学校客户接洽。",
+      "source": "https://www.whois.com/whois/cakrapublishingoffset.com"
+    },
+    {
+      "date": "2020-01-01",
+      "title": "以「CV. Cakra」名义列入2020年印尼出版社名录",
+      "description": "《Direktori Penerbit Buku 2020》收录CV. Cakra，地址Komplek Bojong Malaka Indah D4/90、电话022-85934522，与现行官网信息一致；同期《Cyber Law》等图书版权页标注「CV.Cakra，Bandung: Penerbit Cakra 2020，ANGGOTA IKAPI」并使用旧域名cakraoffset.co.id与邮箱cakrabooks90@yahoo.com。",
+      "impact": "确认公司在2020年时已为IKAPI会员并持续运营。",
+      "source": "https://id.scribd.com/document/677863242/Direktori-Penerbit-2020"
+    },
+    {
+      "date": "2018-01-01",
+      "title": "最早可考出版物于2018年出版",
+      "description": "公开可考的最早出版物为2018年前后出版的法律类图书（如《Asas-Asas Berpikir Logika Dalam Hukum》，版权页标注Bandung: Cakra, 2018），2019年起《Menuju Sukses Menguasai Pelafalan Bahasa Inggris》等多本图书版权页均印有公司现行地址与WhatsApp联系方式。",
+      "impact": "将公司实际经营历史前推至2018年，早于现官网域名注册时间。",
+      "source": "https://id.scribd.com/document/593426431/Buku-Asas-Asas-Berpikir-Logika-Dalam-Hukum"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印尼出版社协会 (IKAPI / Ikatan Penerbit Indonesia)",
+      "org_type": "NGO",
+      "org_description": "印尼全国性出版行业组织；公司官网简介及《Cyber Law》（2020）等多本图书版权页均标注Anggota IKAPI（IKAPI会员）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "Velocity Developer",
+      "org_type": "CORP",
+      "org_description": "印尼网站建设与域名服务商；官网页脚标注Designed by Velocity Developer，WHOIS记录显示官网域名注册服务由其提供",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": null,
+      "org_name": "CV. Jogjacamp (idwebhost)",
+      "org_type": "CORP",
+      "org_description": "印尼域名注册商（IANA ID 1478）；公司官网域名cakrapublishingoffset.com经其注册",
+      "relationship_type": "supplier"
+    }
+  ],
+  "profile": {
+    "source_url": "https://cakrapublishingoffset.com/profile/",
+    "summary": "印尼西爪哇省万隆市的出版与印刷一体经营企业（商业实体CV. Cakra），印尼出版社协会（IKAPI）会员，登记负责人为Saeful Bahri, S.E.；专注高校讲师与职业教育（SMK）教材出版，兼营印刷定制与本地及进口图书销售，可考出版活动最早始于2018年。"
+  },
+  "core_business": "Penerbit & Percetakan CAKRA（查克拉）是总部位于西爪哇省万隆市的出版与印刷一体经营企业，商业实体形式为CV（Commanditaire Vennootschap，有限合伙），为印尼出版社协会（IKAPI）会员，公开可考的出版活动最早可追溯至2018年，域名WHOIS登记负责人为Saeful Bahri, S.E.。其创立初衷是帮助有写作能力但缺乏对口出版渠道的高校讲师出版专著，并弥补医学、护理与健康类图书的供给不足。业务分为三大板块：一是图书出版，重点出版高校教材与学术专著（覆盖护理、助产、公共卫生、法学、经济学、税务、密码学、心理学等领域）以及高中/职业学校（SMA/SMK）教材，使用978-623-6868、978-623-8641等ISBN出版者号，累计出版图书数百种；二是印刷服务，自营位于万隆Jl. Jatimekar No.01的生产基地，承印图书、期刊、杂志、宣传册，以及证书、徽章、日历、奖牌、横幅等周边定制品；三是本地与进口图书销售，奉行全面客户满意（Total Customer Service Satisfaction）的服务承诺。办公室位于万隆Bojong Malaka Indah小区D4栋90号，通过官网、电话（022-85934522）、WhatsApp（+62 821-1582-6983）及Facebook、Instagram等渠道直接服务高校、学校与机构客户；2022年8月起启用现域名cakrapublishingoffset.com（旧域名cakraoffset.co.id已停用）。",
+  "industries": [
+    "media_publishing",
+    "education"
+  ],
+  "apec_stance": "印尼（APEC成员）本土小型出版印刷企业，业务完全集中于国内教育出版与印刷服务，无跨境业务或APEC相关事务的公开记录；其经营状况反映了印尼职业教育扩张带动的国内出版市场需求。该公司无集团公司结构，亦未被列入印尼国企或上市公司序列，与APEC经济体间的出版合作、版权贸易或印刷外包均无公开记录。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q132187370"
+      "https://cakrapublishingoffset.com/",
+      "https://cakrapublishingoffset.com/profile/",
+      "https://cakrapublishingoffset.com/profile/visi-misi/",
+      "https://cakrapublishingoffset.com/kontak/",
+      "https://cakrapublishingoffset.com/departemen-cakra/",
+      "https://cakrapublishingoffset.com/author/cakrapub/",
+      "https://cakrapublishingoffset.com/produk/buku/the-coach-book-utbk-snbt-2026/",
+      "https://cakrapublishingoffset.com/produk/buku/perpajakan-lanjutan-seri-kup-ppn-akuntansi-pajak-dan-tax-planning/",
+      "https://cakrapublishingoffset.com/produk/buku/stres/",
+      "https://www.whois.com/whois/cakrapublishingoffset.com",
+      "https://www.wikidata.org/wiki/Q132187370",
+      "https://www.facebook.com/penerbit.cakra/",
+      "https://www.instagram.com/penerbit_percetakancakra/",
+      "https://elibrary.unikom.ac.id/id/eprint/4445/1/BAHAN%20AJAR%20CYBER%20LAW1.pdf",
+      "https://id.scribd.com/document/677863242/Direktori-Penerbit-2020",
+      "https://www.scribd.com/document/764054938/Kop-Surat-Yayasan-Insan-Mandiri",
+      "https://id.scribd.com/document/593426431/Buku-Asas-Asas-Berpikir-Logika-Dalam-Hukum"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q132187370; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 77,
+    "quotes": [
+      {
+        "title": "WHOIS注册人记录：Saeful Bahri S.E / Penerbit Percetakan CAKRA（地址与电话与官网一致）",
+        "url": "https://www.whois.com/whois/cakrapublishingoffset.com"
+      },
+      {
+        "title": "Yayasan Insan Mandiri委托函（Scribd）：Saeful Bahri, SE任职于Penerbit dan Percetakan CAKRA Bandung",
+        "url": "https://www.scribd.com/document/764054938/Kop-Surat-Yayasan-Insan-Mandiri"
+      },
+      {
+        "title": "《The Coach Book UTBK SNBT 2026》产品页（ISBN 978-623-8641-18-5）",
+        "url": "https://cakrapublishingoffset.com/produk/buku/the-coach-book-utbk-snbt-2026/"
+      },
+      {
+        "title": "Direktori Penerbit Buku 2020：CV. Cakra，Bojong Malaka Indah D4/90，02285934522",
+        "url": "https://id.scribd.com/document/677863242/Direktori-Penerbit-2020"
+      },
+      {
+        "title": "《Cyber Law》版权页（UNIKOM机构库）：CV.Cakra 2020，ANGGOTA IKAPI，cakraoffset.co.id",
+        "url": "https://elibrary.unikom.ac.id/id/eprint/4445/1/BAHAN%20AJAR%20CYBER%20LAW1.pdf"
+      },
+      {
+        "title": "Wikidata Q132187370：publishing house，地址Bojongmalaka, Baleendah, Kabupaten Bandung 40375",
+        "url": "https://www.wikidata.org/wiki/Q132187370"
+      },
+      {
+        "title": "Facebook官方账号 @penerbit.cakra",
+        "url": "https://www.facebook.com/penerbit.cakra/"
+      },
+      {
+        "title": "Instagram官方账号 @penerbit_percetakancakra",
+        "url": "https://www.instagram.com/penerbit_percetakancakra/"
+      }
+    ],
+    "notes": "P3二次丰富（2026-09-17）：新增负责人Saeful Bahri, S.E.（WHOIS注册人记录+第三方委托函双源交叉确认，因人物未建档案且不在index，person_id按规则写null，strict模式对该null会报ironrule提示，属规则预期而非数据缺陷）；新增Facebook/Instagram官方账号；recent_events由5条扩至9条（含2026年WHOIS续期、2026年UTBK辅导书、2020年出版社名录、2018年最早可考出版物）；related_entities按schema字段规范化并新增Velocity Developer与CV. Jogjacamp两家供应商。成立精确年份、员工规模、除负责人外的高管团队均无公开记录，保持留空；未发现任何第三方新闻媒体报道（小型万隆出版印刷企业），recent_events以官网、WHOIS、图书版权页及名录等可溯源来源为准，无编造。"
   }
 }

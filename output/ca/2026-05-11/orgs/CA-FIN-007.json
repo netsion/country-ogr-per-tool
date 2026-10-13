@@ -1,7 +1,5 @@
 {
   "org_id": "CA-FIN-007",
-  "org_type": "FIN",
-  "org_subtype": "Credit Union",
   "basic_info": {
     "name_original": "Mouvement Desjardins",
     "name_en": "Desjardins Group",
@@ -10,7 +8,11 @@
     "founded_date": "1900-12-06",
     "headquarters": "Levis, Quebec, Canada",
     "country": "CA",
-    "website": "https://www.desjardins.com/"
+    "website": "https://www.desjardins.com/",
+    "org_type": "FIN",
+    "org_subtype": "holding_company",
+    "country_iso3": "CAN",
+    "hq_country_iso3": "CAN"
   },
   "key_people": [
     {
@@ -335,7 +337,6 @@
   ],
   "core_business": "加鼎集团（Desjardins Group）是北美最大的合作制金融服务集团，由阿尔方斯·德雅尔丹于1900年在魁北克利维创立。集团以信用合作社联邦制运作，旗下210余家地方信用合作社（caisses populaires）在魁北克和安大略省运营超过669个服务网点，服务超过1000万社员和客户。核心业务覆盖五大板块：零售银行（储蓄、信贷、支付）、财产与意外保险（汽车、房屋、商业保险，通过Desjardins General Insurance Group运营）、人寿与健康保险（通过Desjardins Financial Security运营）、财富管理与证券经纪（通过Desjardins Securities及Desjardins Global Asset Management运营，2026年完成对Guardian Capital的收购后资产管理规模约2800亿加元）以及商业金融服务。此外，集团通过加鼎国际开发组织（DID）在30余个发展中国家开展普惠金融项目。2025财年集团总资产达5102亿加元，净利润163亿加元，一级资本充足率23.7%，是全球第八大合作金融机构，也是魁北克省最大的私营部门雇主。",
   "apec_stance": "加鼎集团作为加拿大最大的合作制金融机构，未直接参与APEC框架活动，但通过以下路径与亚太地区产生关联：（1）加拿大为APEC成员经济体，加鼎集团作为系统重要性金融机构受加拿大亚太经济政策影响；（2）集团旗下的加鼎国际开发组织（DID）在亚太地区发展中国家开展普惠金融和技术援助项目；（3）集团资产管理业务通过收购Guardian Capital Group拓展全球布局，可能涉及亚太市场投资配置；（4）加鼎集团关注亚太地区金融科技发展和ESG投资趋势，以保持在全球金融合作中的竞争力。作为加拿大金融体系的重要组成部分，加鼎集团间接受益于APEC推动的贸易自由化和投资便利化政策。",
-  "contacts": [],
   "collection_meta": {
     "phase": "phase3_enriched",
     "collection_date": "2026-05-11",
@@ -397,6 +398,7 @@
         "url": "https://www.bnnbloomberg.ca/business/2026/02/24/desjardins-reports-revenue-earnings-up-as-assets-top-510-billion/"
       }
     ],
-    "wikidata_qid": "Q2933350"
+    "wikidata_qid": "Q2933350",
+    "notes": "；收尾补全(2026-09-20)：basic_info 补 org_type/org_subtype/country_iso3(CAN)/hq_country_iso3，清理顶层错位字段（org_subtype 用 holding_company：Desjardins 为合作社联合会/控股结构，schema 无 credit_union 枚举，取最贴近合法值）"
   }
 }

@@ -1,88 +1,505 @@
 {
   "org_id": "ID-GOV-020",
+  "wikidata_qid": "Q3909179",
   "basic_info": {
     "org_id": "ID-GOV-020",
     "wikidata_qid": "Q3909179",
+    "name_original": "Direktorat Jenderal Pajak",
+    "name_zh": "印尼税务总司",
     "name_en": "Directorate General of Taxes of Indonesia",
-    "name_zh": "印尼税务总局",
-    "name_local": "Direktorat Jenderal Pajak, Kementerian Keuangan",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://pajak.go.id/",
-    "official_website": "https://pajak.go.id/",
-    "parent_org": "Ministry of Finance of Indonesia",
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "founded_date": "1966-11-16",
     "country_iso3": "IDN",
-    "name_original": "Direktorat Jenderal Pajak, Kementerian Keuangan"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.pajak.go.id/",
+    "org_type": "GOV",
+    "org_subtype": "gov_department"
   },
-  "description": "印度尼西亚 政府机构",
-  "brief": "印度尼西亚 政府机构",
-  "mission": null,
-  "core_business": "印度尼西亚 政府机构",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "twitter_x",
+      "account_name": "DitjenPajakRI",
       "url": "https://twitter.com/DitjenPajakRI",
-      "source": "wikidata",
-      "account_name": "DitjenPajakRI"
+      "source": "wikidata; 官网活动公告确认 @ditjenpajakri 为官方 X 账号"
     },
     {
       "platform": "instagram",
+      "account_name": "ditjenpajakri",
       "url": "https://instagram.com/ditjenpajakri",
-      "source": "wikidata",
-      "account_name": "ditjenpajakri"
+      "source": "wikidata; Instagram 官方认证账号（简介注明官网 pajak.go.id）"
     },
     {
       "platform": "facebook",
+      "account_name": "DitjenPajakRI",
       "url": "https://facebook.com/DitjenPajakRI",
-      "source": "wikidata",
-      "account_name": "DitjenPajakRI"
+      "source": "wikidata; Facebook 官方账号（注明官网仅 pajak.go.id）"
     },
     {
       "platform": "youtube",
-      "url": "https://www.youtube.com/channel/UC_43SIyUJtVelGIPR5U3inQ",
-      "source": "wikidata",
-      "account_name": "UC_43SIyUJtVelGIPR5U3inQ"
+      "account_name": "DitjenPajakRI",
+      "url": "https://www.youtube.com/@DitjenPajakRI",
+      "source": "official website / YouTube 官方频道（含 Coretax 官方教程）"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "ditjenpajakri",
+      "url": "https://www.tiktok.com/@ditjenpajakri",
+      "source": "官网 Lomba Artikel Perpajakan 2026 公告列明官方 TikTok 账号"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Direktorat Jenderal Pajak",
+      "url": "https://id.linkedin.com/company/ditjenpajakri",
+      "source": "LinkedIn 官方公司主页（链接 pajak.go.id）"
+    },
+    {
+      "platform": "threads",
+      "account_name": "ditjenpajakri",
+      "url": "https://www.threads.com/@ditjenpajakri",
+      "source": "Threads 官方账号（约 8.3 万粉丝，2026-09 检索）"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "DJP Online (核心税务服务门户)",
+      "url": "https://djponline.pajak.go.id/",
+      "description": "电子申报(e-Filing)、电子纳税(e-Payment)、纳税人信息等在线税务服务平台",
+      "source": null
+    },
+    {
+      "name": "Aplikasi DJP (移动应用)",
+      "url": "https://www.pajak.go.id/",
+      "description": "官方移动应用，提供纳税人(NPWP)身份电子卡、报税与缴税等功能",
+      "source": null
+    },
+    {
+      "name": "Coretax DJP（核心税务管理系统）",
+      "url": "https://www.pajak.go.id/reformdjp/Coretax/",
+      "description": "整合纳税人注册、申报（SPT）、缴款、发票管理等核心行政流程的国家税务核心系统，2025-01-01 起分阶段启用，2026 年 7 月起承接全部税务行政；配套推出 Coretax Form 与 Coretax Mobile（2026-02-25）",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000628",
+      "name": "比莫·维贾扬托 (Bimo Wijayanto)",
+      "title": "税务总司总司长",
+      "title_description": "Direktur Jenderal Pajak，2025-05-23 由财政部长 Sri Mulyani 正式任命",
+      "description": "现任总司长（官网在任确认至 2026-09）。获 UGM 会计经济学学士（2000）、昆士兰大学 MBA（2005）、堪培拉大学经济学博士（2015）。2002 年 12 月自财政部入职 DJP，历任宏观政策影响科科长、总统幕僚厅首席专家（2016-2020）、海洋与投资统筹部战略投资助理副部长（2020-2024）、经济统筹部经济与投资合作副职秘书（2024-2025），2025 年 5 月 23 日就任现职。曾获澳大利亚领导力奖学金、Hadi Soesastro Prize 等。"
+    },
+    {
+      "person_id": "ID-PERSON-000629",
+      "name": "努尔巴埃蒂·穆纳瓦罗 (Nurbaeti Munawaroh)",
+      "title": "总司秘书长",
+      "title_description": "Sekretaris Direktorat Jenderal",
+      "description": "负责协调总司内部行政与跨司局事务（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": "ID-PERSON-000630",
+      "name": "埃乌雷卡·普特拉 (Eureka Putra)",
+      "title": "潜力、合规与税收司司长",
+      "title_description": "Direktur Potensi, Kepatuhan, dan Penerimaan",
+      "description": "分管税收潜力挖掘、纳税人合规与收入管理（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": "ID-PERSON-000631",
+      "name": "德维·阿斯图蒂 (Dwi Astuti)",
+      "title": "国际税务司司长",
+      "title_description": "Direktur Perpajakan Internasional",
+      "description": "分管国际税收事务，包括避免双重征税协定网络、AEOI-CRS 跨境信息交换与跨境税源管理（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": "ID-PERSON-000632",
+      "name": "萨明贡 (Samingun)",
+      "title": "执法司司长",
+      "title_description": "Direktur Penegakan Hukum",
+      "description": "分管涉税案件刑事调查后续执法事务（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": null,
+      "name": "尼尔马尔德林·努尔 (Neilmaldrin Noor)",
+      "title": "税务情报司司长",
+      "title_description": "Direktur Intelijen Perpajakan",
+      "description": "分管税务情报收集与风险分析，主导对高净值人群与地下经济的情报监管（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": null,
+      "name": "埃迪·瓦尤迪 (Eddi Wahyudi)",
+      "title": "税务数据与信息司司长",
+      "title_description": "Direktur Data dan Informasi Perpajakan",
+      "description": "分管税务数据治理与信息系统；2025 年 10 月曾以雅加达中央大区税务局局长（Kepala Kanwil DJP Jakarta Pusat）身份推动与 PPATK/BPKP 数据协同（据印尼语维基 2026-09 组织表及官网新闻稿）。"
+    },
+    {
+      "person_id": null,
+      "name": "汉特里奥诺·约科·苏西洛 (Hantriono Joko Susilo)",
+      "title": "信息技术与通信司司长",
+      "title_description": "Direktur Teknologi Informasi dan Komunikasi",
+      "description": "分管税务信息化基础设施建设与运维，为 Coretax 核心系统的技术支撑部门负责人（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": null,
+      "name": "英格·迪安娜·里斯马瓦蒂 (Inge Diana Rismawati)",
+      "title": "宣传、服务与公共关系司司长",
+      "title_description": "Direktur Penyuluhan, Pelayanan, dan Hubungan Masyarakat",
+      "description": "分管纳税宣传、纳税服务标准与公众沟通（据印尼语维基 2026-09 组织表）。"
+    },
+    {
+      "person_id": null,
+      "name": "埃蒂·拉赫米扬蒂 (Etty Rachmiyanthi)",
+      "title": "异议与上诉司司长",
+      "title_description": "Direktur Keberatan dan Banding",
+      "description": "分管纳税人异议审查与税务争议处理（据印尼语维基 2026-09 组织表）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-020-DEPT-001",
+      "name": "总司秘书处 (Sekretariat Direktorat Jenderal)",
+      "head": "努尔巴埃蒂·穆纳瓦罗 (Nurbaeti Munawaroh)",
+      "description": "负责总司内部行政管理、财务与人力资源协调",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-002",
+      "name": "税收法规一司 (Direktorat Peraturan Perpajakan I)",
+      "head": "罗斯毛利 (Rosmauli)",
+      "description": "负责直接税等税收法规的政策制定",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-003",
+      "name": "税收法规二司 (Direktorat Peraturan Perpajakan II)",
+      "head": "赫里·库斯万托 (Heri Kuswanto)",
+      "description": "负责间接税及其他税收法规的政策制定",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-004",
+      "name": "稽查与追缴司 (Direktorat Pemeriksaan dan Penagihan)",
+      "head": "伊尔万 (Irawan)",
+      "description": "负责税务稽查与欠税追缴",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-005",
+      "name": "扩展与评估司 (Direktorat Ekstensifikasi dan Penilaian)",
+      "head": "苏帕尔诺 (Suparno)",
+      "description": "负责扩大纳税人基数与资产评估",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-006",
+      "name": "异议与上诉司 (Direktorat Keberatan dan Banding)",
+      "head": "埃蒂·拉赫米扬蒂 (Etty Rachmiyanthi)",
+      "description": "处理纳税人异议与税务上诉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-007",
+      "name": "潜力、合规与税收司 (Direktorat Potensi, Kepatuhan, dan Penerimaan)",
+      "head": "埃乌雷卡·普特拉 (Eureka Putra)",
+      "description": "负责税收潜力分析、纳税人合规与收入管理",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-008",
+      "name": "宣传、服务与公共关系司 (Direktorat Penyuluhan, Pelayanan, dan Hubungan Masyarakat)",
+      "head": "英格·迪安娜·里斯马瓦蒂 (Inge Diana Rismawati)",
+      "description": "负责纳税宣传、纳税服务与公众沟通",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-009",
+      "name": "税务数据与信息司 (Direktorat Data dan Informasi Perpajakan)",
+      "head": "埃迪·瓦尤迪 (Eddi Wahyudi)",
+      "description": "负责税务数据治理与信息系统",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-010",
+      "name": "信息技术与通信司 (Direktorat Teknologi Informasi dan Komunikasi)",
+      "head": "汉特里奥诺·约科·苏西洛 (Hantriono Joko Susilo)",
+      "description": "负责税务信息化基础设施建设与运维",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-011",
+      "name": "业务流程转型司 (Direktorat Transformasi Proses Bisnis)",
+      "head": "穆罕默德·费萨尔·阿尔强 (Mukhammad Faisal Artjan)",
+      "description": "推动税务管理业务流程数字化再造",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-012",
+      "name": "内部合规与人事转型司 (Direktorat Kepatuhan Internal dan Transformasi Sumber Daya Aparatur)",
+      "head": "赫鲁·纳尔万塔 (Heru Narwanta)",
+      "description": "负责内部监督合规与公务员队伍建设",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-013",
+      "name": "税务情报司 (Direktorat Intelijen Perpajakan)",
+      "head": "尼尔马尔德林·努尔 (Neilmaldrin Noor)",
+      "description": "负责税务情报收集与风险分析",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-014",
+      "name": "执法司 (Direktorat Penegakan Hukum)",
+      "head": "萨明贡 (Samingun)",
+      "description": "负责涉税案件执法",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-015",
+      "name": "国际税务司 (Direktorat Perpajakan Internasional)",
+      "head": "德维·阿斯图蒂 (Dwi Astuti)",
+      "description": "负责国际税收协定、跨境税源与反避税事务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-020-DEPT-016",
+      "name": "税务数据与文件处理中心 (Pusat Pengolahan Data dan Dokumen Perpajakan)",
+      "head": null,
+      "description": "集中处理税务数据与纳税人文件",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2021-03-01",
+      "title": "总司组织架构改组为 14 个司",
+      "description": "2021 年总部架构调整为 1 个秘书处、14 个司和 1 个数据处理中心，强化数据治理、业务流程转型与国际税务职能。",
+      "impact": "支撑税务现代化与数字化管理",
+      "source": "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Pajak"
+    },
+    {
+      "date": "2025-01-01",
+      "title": "核心税务管理系统 Coretax 正式启用",
+      "description": "Coretax 作为整合纳税人注册、申报、缴款与发票管理的国家税务核心系统于 2025 年 1 月 1 日起分阶段启用，初期系统不稳定引发纳税人集中投诉，成为其后持续优化的重点。",
+      "impact": "税务行政核心流程整体迁移至新系统，暴露系统稳定性与适配问题",
+      "source": "https://www.pajak.go.id/reformdjp/Coretax/"
+    },
+    {
+      "date": "2025-01-10",
+      "title": "发布 2025-2029 战略规划 (Renstra DJP)",
+      "description": "依据 KEPMEN KEP-252/PJ/2025 制定中期战略规划，对接 RPJMN 2025-2029「强化转型基础」主题，包含对高净值人群更公平的税收监管方向。",
+      "impact": "确立五年税务改革路线图",
+      "source": "https://perpajakan.ddtc.co.id/id/sumber-hukum/peraturan-pusat/keputusan-direktur-jenderal-pajak-kep-252pj2025"
+    },
+    {
+      "date": "2025-05-23",
+      "title": "Bimo Wijayanto 就任税务总司总司长",
+      "description": "财政部长 Sri Mulyani 任命 Bimo Wijayanto 为新任税务总司总司长，接替 2019 年 11 月起任职的 Suryo Utomo；同期就任的还有秘书长 Djaka 员额等新领导班子。",
+      "impact": "新领导层推进税务管理数字化转型延续",
+      "source": "https://www.pajak.go.id/id/direktur-jenderal-pajak"
+    },
+    {
+      "date": "2025-05-31",
+      "title": "2025 年税收收入完成预算目标 31.2%",
+      "description": "截至 2025 年 5 月 31 日累计税收收入 683.3 万亿印尼盾，完成全年 APBN 目标的 31.2%。",
+      "impact": "税收收入进度符合国家预算时序",
+      "source": "https://www.instagram.com/reel/DLEvEqGyDWS/"
+    },
+    {
+      "date": "2025-10-09",
+      "title": "DJP 与 PPATK、BPKP 签署两项合作协议",
+      "description": "DJP 分别与金融交易报告与分析中心（PPATK）、财政监察机构（BPKP）签署合作协定，建立联合稽查（joint audit）、数据交换与战略案件协助机制；据 DJP 数据，2020-2025 年运用 PPATK 分析报告（LHA）累计贡献国家收入 18.47 万亿盾。",
+      "impact": "跨机构数据协同强化税收监管与执法",
+      "source": "https://www.pajak.go.id/id/siaran-pers/sinergi-djp-ppatk-dan-bpkp-perkuat-pengawasan-penerimaan-negara-dan-penegakan-hukum-di"
+    },
+    {
+      "date": "2026-01-08",
+      "title": "公布 2025 年税收收入缺口 271.7 万亿盾",
+      "description": "财政部长 Purbaya Yudhi Sadewa 在 APBN Kita 记者会公布：2025 年全年税收实现 1,917.6 万亿盾，仅为 APBN 2025 目标 2,189.3 万亿盾的 87.6%，缺口 271.7 万亿盾，较 2024 年（1,931.6 万亿盾）收缩 0.72%；增值税及奢侈品税收入 790.2 万亿盾（同比 -4.6%）。",
+      "impact": "2026 年收入压力陡增，成为组织与征管改革加强的直接动因",
+      "source": "https://news.ddtc.co.id/berita/nasional/1816448/shortfall-pajak-2025-capai-rp2717-triliun"
+    },
+    {
+      "date": "2026-01-11",
+      "title": "KPK 在 DJP 税务稽查环节实施逮捕行动",
+      "description": "KPK 就 2021-2026 年间北雅加达 Madya 税务服务办公室（KPP Madya Jakarta Utara）PBB 稽查受贿案逮捕 5 名嫌疑人（含 KPP 主任、监管咨询科科长、评估员及纳税企业人员），涉案企业 75 亿盾潜在欠税被以约 23 亿盾「打包」处理并支付 40 亿盾好处费，现场查获现金、新加坡元及贵金属共 63.8 亿盾。",
+      "impact": "暴露基层稽查廉洁风险，推动 DJP 内部合规与监督改革",
+      "source": "https://www.kpk.go.id/id/ruang-informasi/berita/kpk-tangkap-tangan-suap-pemeriksaan-pajak-di-direktorat-jenderal-pajak"
+    },
+    {
+      "date": "2026-01-20",
+      "title": "AEOI-CRS 交换网络扩至 117 个辖区",
+      "description": "总司长 Bimo Wijayanto 签署 PENG-1/PJ/2026 公告，将参与金融账户信息自动交换（AEOI-CRS）的辖区由 115 个增至 117 个，申报目的辖区由 89 个增至 92 个，覆盖新加坡、瑞士、香港等主要金融中心。",
+      "impact": "压缩离岸藏匿空间，强化跨境税源数据比对监管",
+      "source": "https://ikpi.or.id/articles/djp-perluas-jaringan-aeoi-crs-kini-117-negara-sepakat-tukar-data-keuangan-untuk-pajak"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "推出 Coretax Form 与 Coretax Mobile",
+      "description": "为承接 2026 报税季（2025 年度个人所得税年度申报全面经 Coretax 办理），DJP 于 2 月 25 日起面向符合条件个人纳税人启用 Coretax Form 简化申报界面，并同步推出 Coretax Mobile 移动端。",
+      "impact": "年度申报全面切换至 Coretax，申报量持续增长",
+      "source": "https://www.pajak.go.id/id/siaran-pers/pelaporan-spt-tahunan-terus-meningkat-djp-luncurkan-coretax-form-dan-coretax-mobile"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "2026 年上半年税收增长 24.6%",
+      "description": "财政部长在国会预算委员会上半年 APBN 报告中公布：2026 年上半年税收实现 1,035.7 万亿盾，同比增长 24.6%，完成 APBN 2026 目标 2,357.7 万亿盾的 43.9%；其中增值税与奢侈品税 380 万亿盾（+42.2%），企业所得税 196.1 万亿盾（+28.6%）。",
+      "impact": "Coretax 数据集中与加强征管初步显效，但全年目标仍需下半年高增长",
+      "source": "https://news.ddtc.co.id/berita/nasional/1820651/penerimaan-pajak-semester-i2026-melonjak-246-ini-detailnya"
+    },
+    {
+      "date": "2026-07-13",
+      "title": "全部税务行政切换至 Coretax",
+      "description": "总司长 Bimo Wijayanto 宣布自 2026 年 7 月起 Coretax 成为 DJP 全部税务行政流程的核心系统，原有 DJP Online 各项服务全面并轨。",
+      "impact": "单一核心系统承载全部征管流程，结束双系统并行过渡期",
+      "source": "https://money.kompas.com/read/2026/07/13/150400326/dirjen-pajak--seluruh-administrasi-perpajakan-beralih-ke-coretax-mulai-juli"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "与雅加达首都警察破获非法印花税票网络",
+      "description": "DJP 联合 Polda Metro Jaya（6 月 24 日至 7 月 2 日行动）捣毁假印花税票生产翻新网络，查获逾 340 万枚非法印花票及制版设备，查实已售出约 400.7 万枚，估计避免国家收入损失约 1 万亿盾。",
+      "impact": "印花税票防伪与市场秩序执法力度加大",
+      "source": "https://www.pajak.go.id/id/siaran-pers/djp-dan-polda-metro-jaya-bongkar-jaringan-meterai-ilegal-cegah-potensi-kerugian-negara"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "实施境外数字交易增值税代扣系统 SPP-TDLN",
+      "description": "依据 2025 年第 68 号总统条例，DJP 于 9 月 10 日起实施 SPP-TDLN 系统，对境外数字商品与服务交易征收 11% 增值税，由国营企业子公司 PT Jalin Pembayaran Nusantara 负责开发运营、银行端代扣。",
+      "impact": "数字经济税基扩展，跨境平台交易纳入征管",
+      "source": "https://news.ddtc.co.id/berita/nasional/1822259/siap-siap-ditjen-pajak-akan-terapkan-spp-tdln-mulai-10-september-2026"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "财政部长大规模改组财政部官员（含 DJP）",
+      "description": "财政部长 Purbaya Yudhi Sadewa 依据 12 项财政部长决定（KMK），在财政部（含 DJP）集中任命数百名司级、处级及非司级官员与附属机构董事，强调提升税收征管与支出效率、加快业务流程整改。",
+      "impact": "DJP 中高层人事调整，为征管改革与 2026 年收入目标服务",
+      "source": "https://news.ddtc.co.id/berita/nasional/1822346/purbaya-rombak-ratusan-pejabat-kemenkeu-termasuk-di-djp"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "财政部长更迭：Suahasil Nazara 接任",
+      "description": "Suahasil Nazara（原财政部副部长）正式就任财政部长，接替 Purbaya Yudhi Sadewa，强调 APBN 健康可信与财政连续性，DJP 作为其下属税务主管机关面临 2026 年收入目标的持续压力。",
+      "impact": "上级主管部门换帅，税收征管优先级预计延续",
+      "source": "https://news.ddtc.co.id/berita/nasional/1822439/suahasil-gantikan-purbaya-sebagai-menteri-keuangan-simak-profilnya"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚财政部 (Kementerian Keuangan Republik Indonesia)",
+      "org_type": "GOV",
+      "org_description": "DJP 的上级主管部门，依据 PMK 184/PMK.01/2010 履行税务政策制定与执行职能；现任部长 Suahasil Nazara（2026-09-14 就任，接替 Purbaya Yudhi Sadewa）",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "ID-GOV-017",
+      "org_name": "印度尼西亚财政部海关与消费税总司 (Direktorat Jenderal Bea dan Cukai)",
+      "org_type": "GOV",
+      "org_description": "同属财政部的税收征管姊妹机构，分管关税与消费税，历史上曾与 DJP 同源（1945 年前同属荷属财政部门税务系统）",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "ID-FIN-002",
+      "org_name": "印度尼西亚银行 (Bank Indonesia)",
+      "org_type": "FIN",
+      "org_description": "中央银行；税务缴款经由国家收支国库与支付系统结算，DJP 追缴环节需银行配合执行账户冻结与资金划转",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-022",
+      "org_name": "金融交易报告与分析中心 (Pusat Pelaporan dan Analisis Transaksi Keuangan, PPATK)",
+      "org_type": "GOV",
+      "org_description": "金融情报机构；2025-10-09 与 DJP 签署合作协议，提供可疑金融交易分析报告（LHA）用于税收稽查，2020-2025 年累计助力国家收入 18.47 万亿盾",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "印度尼西亚税务总司（Ditjen Pajak，DJP）是财政部下属的职能执行机构，依据财政部长第 184/PMK.01/2010 号条例负责税收政策的制定与执行、税收规范标准程序制定、技术指导与评估以及总司行政管理。其组织渊源可追溯至荷属东印度时期 1924 年设立的税务机构（Staatsblad 1924 No.576），1966 年正式定名为税务总司，此后历经 1983 年第一轮税改（引入自我申报制）、2000 年第二轮税改与 2002 年官僚现代化改革。DJP 征收的税收约占国家预算（APBN）收入的 80%，管理个人所得税、企业所得税、增值税及奢侈品销售税、土地建筑税（PBB）与印花税等税种，截至 2020 年底在全国设有352 个税务服务办公室（KPP）及大区办公室（Kanwil）网络。数字化方面，DJP 通过 DJP Online 提供电子申报与缴税，并于 2025 年 1 月起分阶段启用核心税务管理系统 Coretax，2026 年 7 月起全部税务行政切换至该系统，同步推出 Coretax Form 与 Coretax Mobile。总司还依据 2025-2029 战略规划推进数据治理与合规强化：将 AEOI-CRS 金融账户信息自动交换网络扩展至 117 个辖区（2026 年 1 月），自 2026 年 9 月起实施境外数字交易增值税代扣系统 SPP-TDLN（Perpres 68/2025），并与 PPATK、BPKP、KPK 等机构建立数据协同与廉洁监督机制。",
+  "industries": [
+    "public_administration",
+    "regulatory"
+  ],
+  "apec_stance": "印尼为 APEC 成员经济体，税务总司作为国家税务主管机构不直接参与 APEC 框架谈判，但通过国际税务司执行税收协定网络与 OECD 包容性框架下的 BEPS 行动，与 APEC 各经济体税务机关保持跨境税收合作与情报交换，服务区域贸易投资便利化。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 58,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q3909179"
+      "https://id.linkedin.com/company/ditjenpajakri",
+      "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Pajak",
+      "https://ikpi.or.id/articles/djp-perluas-jaringan-aeoi-crs-kini-117-negara-sepakat-tukar-data-keuangan-untuk-pajak",
+      "https://money.kompas.com/read/2026/07/13/150400326/dirjen-pajak--seluruh-administrasi-perpajakan-beralih-ke-coretax-mulai-juli",
+      "https://news.ddtc.co.id/berita/nasional/1816448/shortfall-pajak-2025-capai-rp2717-triliun",
+      "https://news.ddtc.co.id/berita/nasional/1820651/penerimaan-pajak-semester-i2026-melonjak-246-ini-detailnya",
+      "https://news.ddtc.co.id/berita/nasional/1822259/siap-siap-ditjen-pajak-akan-terapkan-spp-tdln-mulai-10-september-2026",
+      "https://news.ddtc.co.id/berita/nasional/1822346/purbaya-rombak-ratusan-pejabat-kemenkeu-termasuk-di-djp",
+      "https://perpajakan.ddtc.co.id/id/sumber-hukum/peraturan-pusat/keputusan-direktur-jenderal-pajak-kep-252pj2025",
+      "https://www.kpk.go.id/id/ruang-informasi/berita/kpk-tangkap-tangan-suap-pemeriksaan-pajak-di-direktorat-jenderal-pajak",
+      "https://www.pajak.go.id/",
+      "https://www.pajak.go.id/id/direktur-jenderal-pajak",
+      "https://www.pajak.go.id/id/siaran-pers/djp-dan-polda-metro-jaya-bongkar-jaringan-meterai-ilegal-cegah-potensi-kerugian-negara",
+      "https://www.pajak.go.id/id/siaran-pers/pelaporan-spt-tahunan-terus-meningkat-djp-luncurkan-coretax-form-dan-coretax-mobile",
+      "https://www.pajak.go.id/id/siaran-pers/sinergi-djp-ppatk-dan-bpkp-perkuat-pengawasan-penerimaan-negara-dan-penegakan-hukum-di",
+      "https://www.pajak.go.id/reformdjp/Coretax/",
+      "https://www.tiktok.com/@ditjenpajakri"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q3909179; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Direktorat Jenderal Pajak — Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Pajak"
+      },
+      {
+        "title": "Direktur Jenderal Pajak — 官网领导页",
+        "url": "https://www.pajak.go.id/id/direktur-jenderal-pajak"
+      },
+      {
+        "title": "Daftar Pejabat — 官网官员名录",
+        "url": "https://www.pajak.go.id/id/daftar-pejabat-page"
+      },
+      {
+        "title": "KEP-252/PJ/2025 Renstra DJP 2025-2029 — DDTC",
+        "url": "https://perpajakan.ddtc.co.id/id/sumber-hukum/peraturan-pusat/keputusan-direktur-jenderal-pajak-kep-252pj2025"
+      },
+      {
+        "title": "Penerimaan Pajak Semester I/2026 Melonjak 24,6% — DDTCNews",
+        "url": "https://news.ddtc.co.id/berita/nasional/1820651/penerimaan-pajak-semester-i2026-melonjak-246-ini-detailnya"
+      },
+      {
+        "title": "Shortfall Pajak 2025 Capai Rp271,7 Triliun — DDTCNews",
+        "url": "https://news.ddtc.co.id/berita/nasional/1816448/shortfall-pajak-2025-capai-rp2717-triliun"
+      },
+      {
+        "title": "KPK Tangkap Tangan Suap Pemeriksaan Pajak di Ditjen Pajak — KPK 官方新闻稿",
+        "url": "https://www.kpk.go.id/id/ruang-informasi/berita/kpk-tangkap-tangan-suap-pemeriksaan-pajak-di-direktorat-jenderal-pajak"
+      },
+      {
+        "title": "DJP Perluas Jaringan AEOI-CRS, Kini 117 Negara — IKPI",
+        "url": "https://ikpi.or.id/articles/djp-perluas-jaringan-aeoi-crs-kini-117-negara-sepakat-tukar-data-keuangan-untuk-pajak"
+      },
+      {
+        "title": "Pelaporan SPT Tahunan Terus Meningkat, DJP Luncurkan Coretax Form dan Coretax Mobile — 官网新闻稿",
+        "url": "https://www.pajak.go.id/id/siaran-pers/pelaporan-spt-tahunan-terus-meningkat-djp-luncurkan-coretax-form-dan-coretax-mobile"
+      },
+      {
+        "title": "Seluruh Administrasi Perpajakan Beralih ke Coretax Mulai Juli 2026 — Kompas",
+        "url": "https://money.kompas.com/read/2026/07/13/150400326/dirjen-pajak--seluruh-administrasi-perpajakan-beralih-ke-coretax-mulai-juli"
+      },
+      {
+        "title": "DJP dan Polda Metro Jaya Bongkar Jaringan Meterai Ilegal — 官网新闻稿",
+        "url": "https://www.pajak.go.id/id/siaran-pers/djp-dan-polda-metro-jaya-bongkar-jaringan-meterai-ilegal-cegah-potensi-kerugian-negara"
+      },
+      {
+        "title": "Sinergi DJP, PPATK, dan BPKP Perkuat Pengawasan Penerimaan Negara — 官网新闻稿",
+        "url": "https://www.pajak.go.id/id/siaran-pers/sinergi-djp-ppatk-dan-bpkp-perkuat-pengawasan-penerimaan-negara-dan-penegakan-hukum-di"
+      },
+      {
+        "title": "Siap-Siap! Ditjen Pajak Akan Terapkan SPP-TDLN Mulai 10 September 2026 — DDTCNews",
+        "url": "https://news.ddtc.co.id/berita/nasional/1822259/siap-siap-ditjen-pajak-akan-terapkan-spp-tdln-mulai-10-september-2026"
+      },
+      {
+        "title": "Purbaya Rombak Ratusan Pejabat Kemenkeu, Termasuk di DJP — DDTCNews",
+        "url": "https://news.ddtc.co.id/berita/nasional/1822346/purbaya-rombak-ratusan-pejabat-kemenkeu-termasuk-di-djp"
+      }
+    ],
+    "notes": "P3 重跑（2026-09-17）：确认总司长 Bimo Wijayanto 在任（官网简历页 + 2026-09 媒体报道交叉验证），就任日期修正为 2025-05-23。14 司现任司长名单依印尼语维基 2026-09 组织表补全（新增 key_people 的 person_id 为 null 待主会话分配）。related_entities 改为 schema 字段（relationship_type 枚举）：财政部 org_id 置 null（索引中「Kementerian Keuangan」别名命中 ID-GOV-017，但该 ID 实为海关与消费税总司，为避免错链不作引用）；海关总司 ID-GOV-017、央行 ID-FIN-002、PPATK ID-GOV-022 均按索引命中填 ID。新增 2025-2026 年 11 条事件（2025 收入缺口、KPK 执法、AEOI 扩容、Coretax Form/全面切换、SPP-TDLN、非法印花票案、部长更迭等），全部带来源；补充 TikTok/LinkedIn/Threads 官方社媒账号。 ｜2026-09-17：name_original 去除 Ministry of Finance 后缀（上级部委关系见 related_entities），修复名称索引别名冲突。"
+  },
+  "profile": {
+    "source_url": "https://www.pajak.go.id/",
+    "summary": "印尼财政部税务总司，国家税务主管机关，征收约 80% 的国家预算收入；2025 年起总司长为 Bimo Wijayanto，正推进 Coretax 核心系统全面落地与跨境税收数据交换扩容。",
+    "local_path": null
   }
 }

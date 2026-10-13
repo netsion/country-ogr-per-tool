@@ -1,63 +1,416 @@
 {
   "org_id": "ID-GOV-034",
+  "wikidata_qid": "Q2826588",
   "basic_info": {
     "org_id": "ID-GOV-034",
-    "wikidata_qid": "Q2826588",
-    "name_en": "Audit Board of Indonesia",
-    "name_zh": "印度尼西亚审计委员会",
-    "name_local": "Badan Pemeriksa Keuangan",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "",
-    "official_website": "",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Badan Pemeriksa Keuangan",
+    "name_zh": "印度尼西亚审计署",
+    "name_en": "Audit Board of the Republic of Indonesia",
+    "founded_date": "1947-01-01",
     "country_iso3": "IDN",
-    "name_original": "Badan Pemeriksa Keuangan"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.bpk.go.id/",
+    "org_type": "GOV",
+    "org_subtype": "independent_organ"
   },
-  "description": "印度尼西亚 政府机构",
-  "brief": "印度尼西亚 政府机构",
-  "mission": null,
-  "core_business": "印度尼西亚 政府机构",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@bpkri",
+      "url": "https://x.com/bpkri",
+      "source": "BPK 官方 Instagram 平台清单帖及官网页脚"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "bpkriofficial",
+      "url": "https://www.instagram.com/bpkriofficial/",
+      "source": "BPK 官方 Instagram 平台清单帖及官网页脚"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "humasbpkri.official",
+      "url": "https://www.facebook.com/humasbpkri.official/",
+      "source": "BPK 官方 Instagram 平台清单帖及官网页脚"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "BPK RI Official",
+      "url": "https://www.youtube.com/@BPKRIOfficial",
+      "source": "YouTube 频道自述「kanal resmi Badan Pemeriksa Keuangan RI」及 BPK 官方 Instagram 平台清单帖双源核实"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "BPK RI 官网",
+      "url": "https://www.bpk.go.id/",
+      "description": "官方门户网站（含组织概况、新闻、法规与审计报告）",
+      "source": "official website"
+    },
+    {
+      "name": "BPK 新闻与公告",
+      "url": "https://www.bpk.go.id/news",
+      "description": "官方新闻稿与公告发布页",
+      "source": "official website"
+    },
+    {
+      "name": "半年度审计结果概览（IHPS）发布页",
+      "url": "https://www.bpk.go.id/ihps",
+      "description": "Ikhtisar Hasil Pemeriksaan Semester 各期（含 IHPS I/II 2025）官方下载页",
+      "source": "official website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000681",
+      "name": "伊斯玛·亚通 (Isma Yatun)",
+      "title": "审计长（主席）",
+      "title_description": "2017年4月起任审计署成员，2022年4月起任审计长",
+      "description": "拥有 CSFA、CFrA 专业资格，领导审计署全面工作"
+    },
+    {
+      "person_id": "ID-PERSON-000682",
+      "name": "布迪·普里约诺 (Budi Prijono)",
+      "title": "副审计长",
+      "title_description": "2024年10月起任副审计长",
+      "description": "2024-2029届成员"
+    },
+    {
+      "person_id": "ID-PERSON-000683",
+      "name": "尼约曼·阿迪·苏尔亚德尼亚纳 (Nyoman Adhi Suryadnyana)",
+      "title": "成员一（Anggota I）",
+      "title_description": "2022年4月起任职",
+      "description": "2024-2029届成员"
+    },
+    {
+      "person_id": "ID-PERSON-000684",
+      "name": "丹尼尔·隆班·托宾 (Daniel Lumban Tobing)",
+      "title": "成员二（Anggota II）",
+      "title_description": "2019年10月起任职",
+      "description": "连续任职两届的成员"
+    },
+    {
+      "person_id": "ID-PERSON-000685",
+      "name": "阿克萨努·哈克 (Akhsanul Khaq)",
+      "title": "成员三（Anggota III）",
+      "title_description": "2024年10月起任职",
+      "description": "2024-2029届成员"
+    },
+    {
+      "person_id": "ID-PERSON-000686",
+      "name": "博比·阿迪蒂奥·里扎尔迪 (Bobby Adhityo Rizaldi)",
+      "title": "成员五（Anggota V）",
+      "title_description": "2024年10月起任职",
+      "description": "2024-2029届成员；其前专家顾问人员涉 Muara Enim 审计受贿案，其住所于2026年7月13-14日遭 KPK 搜查并扣押电子物证，其本人于7月16日作为证人接受询问（未被列为嫌疑人）"
+    },
+    {
+      "person_id": "ID-PERSON-000687",
+      "name": "法坦·苏布基 (Fathan Subchi)",
+      "title": "成员六（Anggota VI）",
+      "title_description": "2024年10月起任职",
+      "description": "2024-2029届成员"
+    },
+    {
+      "person_id": "ID-PERSON-000688",
+      "name": "斯拉梅特·埃迪·普尔诺莫 (Slamet Edy Purnomo)",
+      "title": "成员七（Anggota VII）",
+      "title_description": "2023年8月起任职",
+      "description": "2024-2029届成员"
+    },
+    {
+      "person_id": "ID-PERSON-000689",
+      "name": "巴赫蒂亚尔·阿里夫 (Bahtiar Arif)",
+      "title": "代理秘书长",
+      "title_description": "代理秘书处负责人，负责审计署日常行政运转",
+      "description": "2024年12月由审计长正式任命"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-034-DEPT-001",
+      "name": "秘书处 (Sekretariat Jenderal)",
+      "head": "巴赫蒂亚尔·阿里夫 (Bahtiar Arif)（代理）",
+      "description": "负责行政、人力与财务等支撑职能；现任秘书长由 Bahtiar Arif 代理（Plt.）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-002",
+      "name": "监察总局 (Inspektorat Jenderal)",
+      "head": "苏瓦尔妮·迪亚·塞蒂亚宁吉赫 (Suwarni Dyah Setyaningsih)",
+      "description": "负责内部监督、审计质量保证与廉政建设；下设审计质量保证、内部监察与机构质量、廉政建设三个监察局及秘书处",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-003",
+      "name": "审计规划评估与政策机构 (Badan Perencanaan, Evaluasi, dan Kebijakan Pemeriksaan Keuangan Negara)",
+      "head": null,
+      "description": "负责审计规划、评估与政策制定",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-004",
+      "name": "审计法律发展与指导机构 (Badan Pembinaan dan Pengembangan Hukum Pemeriksaan Keuangan Negara)",
+      "head": null,
+      "description": "负责审计相关法律事务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-005",
+      "name": "审计教育培训机构 (Badan Pendidikan dan Pelatihan Pemeriksaan Keuangan Negara)",
+      "head": null,
+      "description": "负责审计人员教育培训",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-006",
+      "name": "国家财务审计一至八总局 (Direktorat Jenderal Pemeriksaan Keuangan Negara I-VIII)",
+      "head": null,
+      "description": "按对象和地域划分的八大专审计总局：第五总局对口西部区域代表处、第六总局对口东部区域代表处，第八总局兼管国际组织审计；2026年能源韧性国家主题审计由第四总局牵头实施",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-007",
+      "name": "法证审计总局 (Direktorat Jenderal Pemeriksaan Investigasi)",
+      "head": null,
+      "description": "负责 investigative 审计与稽查",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-008",
+      "name": "省级代表处 (Perwakilan BPK)",
+      "head": null,
+      "description": "在印尼全国38个省设代表处，负责地方政府财务审计",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-034-DEPT-009",
+      "name": "专家顾问组 (Staf Ahli)",
+      "head": null,
+      "description": "依据 BPK 条例第1/2023号设置的五领域专家顾问：中央政府财务、地方政府财务、国企（BUMN/BUMD）与国家资产、环境与可持续发展、稽查性审计",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-16",
+      "title": "KPK 就 Muara Enim 审计受贿案持续询问 BPK 各级官员",
+      "description": "KPK 传唤中爪哇省代表处负责人 Ahmad Luthfi H. Rahmatullah 及两名 BPK 职员就 Muara Enim 县涉嫌行贿以「条件化」BPK 审计结果案作证；9月14-15日已询问 BPK 总署法律咨询与国家损失书记处负责人 Etty Herawati、政策分析中心负责人、第六检查管理局长及亚齐、廖内省代表处负责人等",
+      "impact": "BPK 独立性与内部廉政承受压力，审计质量与人员监督机制面临改革要求；KPK 对 BPK 的执法审视持续",
+      "source": "https://www.antaranews.com/berita/5743875/kpk-periksa-kepala-bpk-jateng-terkait-kasus-suap-muara-enim"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "BPK 启动 2026 年能源韧性国家主题审计（聚焦关键矿产）",
+      "description": "BPK 第四审计总局（Ditjen PKN IV）与中苏拉威西省政府召开进场会议，对矿产资源管理开展绩效审计，聚焦能源与矿产资源部，以中苏拉威西、北马鲁古为样本地区，计划走访莫罗瓦利工业园（IMIP），预计持续至2026年12月；该主题审计共覆盖59家实体，涉及镍、铜、铝土矿等关键矿产",
+      "impact": "直指印尼镍下游化战略的治理与国家收入风险，审计结果可能影响矿业政策与国企监管",
+      "source": "https://www.antaranews.com/berita/5739897/bpk-periksa-tata-kelola-sektor-nikel-di-sulawesi-tengah"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "BPK 正式就任联合国审计委员会成员",
+      "description": "据联合国官网，印尼最高审计机关 BPK RI 于2026年7月1日加入联合国审计委员会（UN Board of Auditors），接替中国国家审计署成为亚太地区代表，任期2026-2032年，参与对联合国各组织与基金的账目外部审计",
+      "impact": "印尼首次进入联合国核心外部审计机构，显著提升 BPK 的国际地位与全球财经治理参与度",
+      "source": "https://www.un.org/en/united-nations-board-auditors"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "LKPP 2025 获无保留意见（WTP）",
+      "description": "审计长伊斯玛·亚通在 DPR 全会公布：基于对97个部委/机构财务报告和国家总出纳报告（LKBUN）的审计，2025财年中央政府财务报告（LKPP 2025）获 WTP；国家粮食署（Bapanas）获保留意见（WDP）但不影响整体意见；BPK 同步提出11项发现与23项建议，并提示国企改制（2025年第1、16号法律）后的治理框架与全国社会经济单数据（DTSEN）建设需持续强化",
+      "impact": "中央政府财务报告连续获得 WTP；审计建议指向国企治理与数据治理两大战略领域",
+      "source": "https://www.antaranews.com/berita/5628557/bpk-beri-opini-wajar-tanpa-pengecualian-atas-lkpp-2025"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "KPK 将 BPK 职员列为 Muara Enim 审计受贿案嫌疑人",
+      "description": "KPK 在6月7-8日逮捕行动（含 Muara Enim 县长 Edison）并于6月10日追加逮捕一名 BPK 职员后，6月11日将5人列为嫌疑人，其中包括曾任南苏门答腊省代表处审计组长的 BPK 职员 Titin Rita Lestari，案件涉及涉嫌收受贿赂以影响 BPK 对 Muara Enim 县政府2025财年审计结果",
+      "impact": "地方审计结果被指遭权钱交易干预，暴露基层审计廉政风险",
+      "source": "https://www.antaranews.com/berita/5743875/kpk-periksa-kepala-bpk-jateng-terkait-kasus-suap-muara-enim"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "成员四 Haerul Saleh 逝世，成员席位空缺",
+      "description": "BPK 成员四（Anggota IV）Haerul Saleh 于当日上午在雅加达因住宅火灾罹难，享年44岁；BPK 领导层发布讣告致哀并褒扬其贡献。其 2024-2029 届成员席位自此空缺（Anggota IV 现为空缺状态），待国会选举新成员",
+      "impact": "九人成员建制出现空缺，相关分管审计事务需重新安排",
+      "source": "https://megapolitan.antaranews.com/berita/528476/bpk-berikan-penghormatan-atas-pengabdian-almarhum-haerul-saleh"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "向国会提交 IHPS II-2025：支撑挽回国家资金 42.87 万亿盾",
+      "description": "审计长伊斯玛·亚通在 DPR 提交2025年下半年审计结果概览（IHPS II-2025），汇总685份审计报告（LHP），披露损失与收入缺口18.53万亿盾、低效低效应支出24.34万亿盾，合计支撑挽回国家资金42.87万亿盾；稽查性审计揭示国家损失迹象2746亿盾、测算国家损失6.80万亿盾，并揭示1.71万亿盾非法采油被计入油气成本回收",
+      "impact": "主题审计覆盖粮食安全（2025年稻米产量增13.36%至3471万吨）、人类发展与油气能源韧性等跨部门议题",
+      "source": "https://investortrust.id/macro/100766/paparkan-hasil-pemeriksaan-semester-ii-2025-bpk-selamatkan-keuangan-negara-rp-42-87-t"
+    },
+    {
+      "date": "2025-11-13",
+      "title": "审计长出席第八届东盟审计组织（ASEANSAI）峰会",
+      "description": "审计长伊斯玛·亚通出席在新加坡举办的第八届 ASEANSAI 峰会",
+      "impact": "深化印尼在东盟最高审计机关合作中的参与",
+      "source": "https://x.com/bpkri/status/1976142764875415884"
+    },
+    {
+      "date": "2025-11-07",
+      "title": "BPK 当选联合国审计委员会成员（2026-2032）",
+      "description": "在纽约举行的联合国大会第五委员会会议上，印尼（由 BPK 代表）以鼓掌方式当选联合国审计委员会（UN Board of Auditors）成员，接替中国国家审计署出任亚太地区代表，任期六年（2026-2032）",
+      "impact": "BPK 继 INTOSAI、ASEANSAI 之后再获多边审计平台席位",
+      "source": "https://kemlu.go.id/berita/berita/resmi-bertugas-sebagai-auditor-pbb-indonesia-siap-mengawal-akuntabilitas-dan-reformasi-tata-kelola-global?type=publication"
+    },
+    {
+      "date": "2025-05-27",
+      "title": "LKPP 2024 获无保留意见（WTP）",
+      "description": "BPK 基于 LKBUN 及84份部委/机构财务报告的审计意见，向 DPR 提交 LKPP 2024 审计结果并出具 WTP；国家土地署（BPN）与检疫机构获保留意见（WDP）但未影响整体意见。政府于2025年3月21日提交未经审计的 LKPP 2024",
+      "impact": "连续多年获得 WTP 意见，反映政府财务报告合规性提升",
+      "source": "https://www.bpk.go.id/news/bpk-berikan-opini-wtp-untuk-lkpp-tahun-2024-berdasarkan-opini-lkbun-dan-84-lkkl"
+    },
+    {
+      "date": "2024-12-05",
+      "title": "任命第八总局与国际组织新局长",
+      "description": "审计长伊斯玛·亚通正式任命 Bahtiar Arif 为第八总局（兼管国际组织）局长",
+      "impact": "强化对国际组织资助项目的审计能力",
+      "source": "https://www.bpk.go.id/news/bpk-lantik-dirjen-pkn-viii-dan-organisasi-internasional"
+    },
+    {
+      "date": "2024-10-17",
+      "title": "2024-2029届五名新成员宣誓就职",
+      "description": "最高法院副院长主持宣誓，Akhsanul Khaq、Bobby Adhityo Rizaldi、Budi Prijono、Daniel Lumban Tobing、Fathan Subchi 五人就任审计署成员",
+      "impact": "完成审计署成员换届，Budi Prijono 随后当选副审计长",
+      "source": "https://id.wikipedia.org/wiki/Badan_Pemeriksa_Keuangan_Republik_Indonesia"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-GOV-028",
+      "org_name": "印度尼西亚共和国人民代表会议 (DPR RI)",
+      "org_type": "GOV",
+      "org_description": "印尼立法机关：依 UUD 1945 第23E条与 UU 15/2006 选举产生 BPK 成员（并考虑地方代表理事会意见），BPK 的半年度审计结果概览（IHPS）与 LKPP 审计意见均提交其全体会议审议，第十一委员会（Komisi XI）为对口监督机构",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "ID-GOV-029",
+      "org_name": "印度尼西亚共和国人民协商会议 (MPR RI)",
+      "org_type": "GOV",
+      "org_description": "通过第三次修宪将 BPK 职权写入 UUD 1945 第八章A（第23E-23G条）；2002年第 VI/MPR/2002 号决议确立 BPK 作为唯一国家财务外部审计机关的独立与专业地位；近年公开表彰 BPK 推动无保留意见（WTP）覆盖面扩大的成效",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "ID-GOV-035",
+      "org_name": "印度尼西亚反腐败委员会 (KPK)",
+      "org_type": "GOV",
+      "org_description": "反腐败执法机构：接收 BPK 稽查性审计（pemeriksaan investigasi）中发现的涉嫌犯罪线索并定期接收其工作报告；2026年6月起就 Muara Enim 县涉嫌行贿以影响 BPK 审计结果案立案侦查，多名 BPK 现职或前职人员被列为嫌疑人或作为证人接受询问",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "财政审计监督署 (BPKP, Badan Pengawasan Keuangan dan Pembangunan)",
+      "org_type": "GOV",
+      "org_description": "总统直属的政府内部监督机构，主管政府内部审计师（APIP）体系，与 BPK 构成内部审计与外部审计的宪法分工；BPK 曾建议强化 APIP/BPKP 的复核职能以提升地方政府财务报告审计意见水平。数据集内无对应组织档案，org_id 置空",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-017",
+      "org_name": "印尼财政部 (Kementerian Keuangan)",
+      "org_type": "GOV",
+      "org_description": "中央政府财务报告（LKPP）的编制单位与主要被审计对象，历年审计意见公布后由财政部长作出官方回应",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-FIN-002",
+      "org_name": "印度尼西亚银行 (Bank Indonesia)",
+      "org_type": "FIN",
+      "org_description": "印尼中央银行，依 UUD 1945 第23F条与 UU 17/2003 属 BPK 法定审计对象",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界审计组织 (INTOSAI)",
+      "org_type": "INTL",
+      "org_description": "全球最高审计机关联合组织，BPK 为其成员并代表印尼参与国际审计准则制定与能力建设合作。数据集内无对应组织档案，org_id 置空",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "东盟审计组织 (ASEANSAI)",
+      "org_type": "INTL",
+      "org_description": "东盟最高审计机关区域组织，BPK 为创始与活跃成员，审计长出席历届峰会（第八届2025年11月于新加坡举行）。数据集内无对应组织档案，org_id 置空",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "印度尼西亚审计署（BPK RI，旧缩写 BEPEKA）是印尼宪法规定的独立国家机关，依据1945年宪法第八章A（第23E-23G条）行使国家财政管理问责的外部审计权，为宪法规定的唯一国家财务外部审计机关。其于1947年1月1日依据1946年12月28日政府通告第11/OEM号在马格朗成立，首任主席为 R. Soerasno，初创时仅9名职员；1949-1950年印尼联邦制时期曾改组为财政监督委员会（Dewan Pengawas Keuangan），1950年8月17日恢复单一共和国后合并回审计署，1959年7月5日总统令恢复1945年宪法框架后沿用至今；2002年人协第 VI/MPR/2002 号决议确立其独立、专业的唯一外部审计地位，成员由国会选举并考虑地方代表理事会意见、总统任命，任期5年可连任一次。其法定任务是对中央与地方政府、其他国家机关、印度尼西亚银行、国有企业（BUMN）、地方国有企业（BUMD）、公共服务机构（BLU）及其他管理国家资金的机构进行审计，有权确定审计对象、时间与方法，制定国家财务审计标准与审计师职业道德准则，并就政府会计标准与内部控制系统草案提出意见；审计意见分为无保留意见（WTP）、保留意见、否定意见和拒绝表示意见四类，结果提交国会。机构由9名成员（1名主席、1名副主席兼成员、7名成员）领导，下设秘书处、监察总局、8个国家财务审计总局（第五总局对口西部区域、第六总局对口东部区域代表处，第八总局兼管国际组织审计）、法证审计总局、审计法律发展与教育培训机构及全国38个省代表处，并依据 BPK 第1/2023号条例设五领域专家顾问组。2025年预算约6.15万亿印尼盾，经效率化调整后约4.77万亿盾；2025年11月当选并于2026年7月1日正式加入联合国审计委员会（UN Board of Auditors，任期2026-2032），接替中国国家审计署代表亚太地区承担联合国账目外部审计职责。",
+  "industries": [
+    "public_administration",
+    "civil_service",
+    "judicial"
+  ],
+  "apec_stance": "审计署作为印尼国家最高审计机关，是印尼参与国际与区域审计治理的核心平台：为世界审计组织（INTOSAI）成员和东盟审计组织（ASEANSAI）创始成员，2025年11月审计长伊斯玛·亚通出席在新加坡举行的第八届 ASEANSAI 峰会；2025年11月7日经联大第五委员会以鼓掌方式当选联合国审计委员会（UN Board of Auditors）成员，2026年7月1日正式就任，接替中国国家审计署代表亚太地区，任期2026-2032年，直接参与联合国组织与基金的外部审计及全球财经治理。其第八审计总局专责国际组织相关审计，对印尼政府接受国际组织及外国（含 APEC 成员经济体）资助项目的资金使用履行外部审计职责，并通过 INTOSAI/ASEANSAI 框架与包括 APEC 成员在内的各经济体最高审计机关开展准则对接与能力建设合作。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_corrected_qid",
-    "completeness_score": 50,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2826588"
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search",
+      "social_media",
+      "government_registry",
+      "other"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q4121217; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "BPK RI 官方领导层简介",
+        "url": "https://www.bpk.go.id/menu/profil_bpk"
+      },
+      {
+        "title": "Badan Pemeriksa Keuangan Republik Indonesia - 印尼语维基百科",
+        "url": "https://id.wikipedia.org/wiki/Badan_Pemeriksa_Keuangan_Republik_Indonesia"
+      },
+      {
+        "title": "BPK 任命第八总局与国际组织局长",
+        "url": "https://www.bpk.go.id/news/bpk-lantik-dirjen-pkn-viii-dan-organisasi-internasional"
+      },
+      {
+        "title": "印尼财政部就 LKPP 审计意见发布新闻稿",
+        "url": "https://www.kemenkeu.go.id/informasi-publik/publikasi/siaran-pers/Menkeu-Apresiasi-Capaian-Opini"
+      },
+      {
+        "title": "印尼外交部：正式担任联合国审计委员会成员（2025-11-07当选）",
+        "url": "https://kemlu.go.id/berita/berita/resmi-bertugas-sebagai-auditor-pbb-indonesia-siap-mengawal-akuntabilitas-dan-reformasi-tata-kelola-global?type=publication"
+      },
+      {
+        "title": "联合国审计委员会官网（BPK RI 于2026-07-01加入，接替中国国家审计署）",
+        "url": "https://www.un.org/en/united-nations-board-auditors"
+      },
+      {
+        "title": "Antara：BPK 就 LKPP 2025 出具 WTP 意见",
+        "url": "https://www.antaranews.com/berita/5628557/bpk-beri-opini-wajar-tanpa-pengecualian-atas-lkpp-2025"
+      },
+      {
+        "title": "BPK 官网：LKPP 2024 获 WTP 意见（2025-05-27）",
+        "url": "https://www.bpk.go.id/news/bpk-berikan-opini-wtp-untuk-lkpp-tahun-2024-berdasarkan-opini-lkbun-dan-84-lkkl"
+      },
+      {
+        "title": "InvestorTrust：BPK 向国会提交 IHPS II-2025，支撑挽回国家资金42.87万亿盾",
+        "url": "https://investortrust.id/macro/100766/paparkan-hasil-pemeriksaan-semester-ii-2025-bpk-selamatkan-keuangan-negara-rp-42-87-t"
+      },
+      {
+        "title": "Antara：KPK 就 Muara Enim 审计受贿案询问 BPK 相关官员",
+        "url": "https://www.antaranews.com/berita/5743875/kpk-periksa-kepala-bpk-jateng-terkait-kasus-suap-muara-enim"
+      },
+      {
+        "title": "Antara：BPK 启动中苏拉威西矿产资源治理主题审计",
+        "url": "https://www.antaranews.com/berita/5739897/bpk-periksa-tata-kelola-sektor-nikel-di-sulawesi-tengah"
+      },
+      {
+        "title": "Antara：BPK 悼念成员四 Haerul Saleh（2026-05-08）",
+        "url": "https://megapolitan.antaranews.com/berita/528476/bpk-berikan-penghormatan-atas-pengabdian-almarhum-haerul-saleh"
+      },
+      {
+        "title": "BPK RI Official 官方 YouTube 频道",
+        "url": "https://www.youtube.com/@BPKRIOfficial"
+      }
+    ],
+    "notes": "P3 深度丰富（2026-09-17）：核实现任领导与2024-2029届成员架构（成员四 Haerul Saleh 于2026-05-08逝世，席位空缺，与维基 lowong 标注一致）；recent_events 扩充至12条（2026年含 LKPP 2025 WTP、IHPS II-2025、UN Board of Auditors 当选与就任、能源韧性主题审计、Muara Enim 案 KPK 侦查动态）；related_entities 补 MPR/KPK/BPKP 并统一为 schema 枚举字段；官方 YouTube 频道经频道自述与 BPK 官方 Instagram 平台清单双源核实；历史沿革（1947年马格朗创立、首任主席 R. Soerasno、旧称 BEPEKA、1950/1959年体制变迁）与预算（2025年6.15万亿盾、效率化后约4.77万亿盾）据印尼语维基与官网补充；修正 LKPP 2024 意见日期为2025-05-27（原2025-05-16 有误）。仅记录可交叉验证的事实，Muara Enim 案相关人物均按嫌疑人/证人身份如实标注。"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/BPK_insignia.svg/250px-BPK_insignia.svg.png",
+    "local_path": null
   }
 }

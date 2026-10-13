@@ -1,0 +1,257 @@
+{
+  "org_id": "CM-GOV-009",
+  "basic_info": {
+    "name_original": "Ministère de la Défense",
+    "name_zh": "喀麦隆国防部",
+    "name_en": "Ministry of Defence",
+    "aliases": [
+      "Ministère de la Défense du Cameroun",
+      "MINDEF Cameroun",
+      "Ministry of Defence Cameroon"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "CMR",
+    "hq_country_iso3": "CMR",
+    "founded_date": "1985-01-01",
+    "website": "https://mindef.gov.cm/",
+    "wikidata_qid": "Q116080964"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@mindefcm",
+      "url": "https://x.com/mindefcm",
+      "source": "国防部官方X账号，多次出现在官方活动通报搜索结果中"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Ministère de la Défense du Cameroun",
+      "url": "https://www.facebook.com/mindefcm",
+      "source": "国防部官方Facebook页面，发布防务协定签署等官方通报"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CM-PERSON-000018",
+      "name": "Joseph Beti Assomo",
+      "name_en": "Joseph Beti Assomo",
+      "title": "国防部长级代表（总统府辖）",
+      "title_description": "Ministre délégué à la Présidence chargé de la Défense，2015年10月2日就任至今，负责研究制定国防计划、实施国家防务政策、协调与监督防务力量、组织军事法庭运作及跟进军事合作",
+      "description": "1959年8月17日生于喀麦隆中部区尼永-埃富穆县阿约斯，行政总管（ENAM毕业），历任南部区省长办公厅主任、县级长官、Mfoundi县 prefect、大北部区省长（2010-2012）与滨海区省长（2012-2015），2015年10月2日接替Edgar Alain Mebe Ngo'o出任现职；被《青年非洲》杂志称为「博科圣地的敌人」"
+    },
+    {
+      "person_id": "CM-PERSON-000051",
+      "name": "René Claude Meka",
+      "name_en": "René Claude Meka",
+      "title": "军队总参谋长（Chef d'État-Major des Armées）",
+      "title_description": "上将军衔（Général de corps d'armée），2001年起执掌军队总参谋部，负责喀麦隆各军种的作战指挥，2025年11月及2026年8月媒体报道显示仍在任",
+      "description": "1939年2月2日生于南部区埃博洛瓦附近的恩昂加尔，2015年曾被指定指挥打击博科圣地的「Logone 2015」行动"
+    },
+    {
+      "person_id": "CM-PERSON-000052",
+      "name": "Koumpa Issa",
+      "name_en": "Koumpa Issa",
+      "title": "负责退伍军人与战争受害者事务的国防部长级国务秘书",
+      "title_description": "Secrétaire d'État auprès du Ministre de la Défense chargé des Anciens Combattants et Victimes de Guerre，协助部长处理退伍军人与战争受害者事务",
+      "description": "现政府内阁成员，由总理府官网政府名录确认任职"
+    },
+    {
+      "person_id": "CM-PERSON-000053",
+      "name": "Etoga Galax Yves Landry",
+      "name_en": "Etoga Galax Yves Landry",
+      "title": "负责国家宪兵事务的国防部长级国务秘书",
+      "title_description": "Secrétaire d'État auprès du Ministre de la Défense chargé de la Gendarmerie Nationale，协助部长处理国家宪兵事务",
+      "description": "现政府内阁成员，由总理府官网政府名录确认任职"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CM-GOV-009-DEPT-001",
+      "name": "陆军部队（Forces de l'Armée de terre）",
+      "head": null,
+      "description": "国防部统辖的四大防务力量之一，即喀麦隆陆军",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-GOV-009-DEPT-002",
+      "name": "空军部队（Forces de l'Armée de l'air）",
+      "head": null,
+      "description": "国防部统辖的四大防务力量之一，即喀麦隆空军",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-GOV-009-DEPT-003",
+      "name": "海军部队（Forces de la Marine nationale）",
+      "head": null,
+      "description": "国防部统辖的四大防务力量之一，即喀麦隆海军",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-GOV-009-DEPT-004",
+      "name": "国家宪兵部队（Forces de la Gendarmerie nationale）",
+      "head": null,
+      "description": "国防部统辖的四大防务力量之一，即喀麦隆国家宪兵",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-GOV-009-DEPT-005",
+      "name": "退伍军人与战争受害者国务秘书处（Secrétariat d'État chargé des Anciens Combattants et Victimes de Guerre）",
+      "head": "Koumpa Issa",
+      "description": "协助国防部长处理退伍军人与战争受害者事务的国务秘书机构",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CM-GOV-009-DEPT-006",
+      "name": "国家宪兵国务秘书处（Secrétariat d'État chargé de la Gendarmerie Nationale）",
+      "head": "Etoga Galax Yves Landry",
+      "description": "协助国防部长处理国家宪兵事务的国务秘书机构",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-23",
+      "title": "喀麦隆与乍得签署防务伙伴关系协定",
+      "description": "2025年9月23日（星期二），喀麦隆与乍得在雅温得签署防务伙伴关系协定，由国防部长级代表约瑟夫·贝蒂·阿索莫与乍得国防部长伊萨卡·马卢阿·贾穆斯（Issaka Maloua Djamous）共同签署，旨在规范和加强两国军队协作，共同应对博科圣地等地区安全威胁",
+      "impact": "强化喀乍双边军事合作，为极北地区跨境反恐行动提供法律框架",
+      "source": "https://www.agenceecofin.com/actualites/2609-131810-le-cameroun-signe-un-accord-de-cooperation-militaire-avec-le-tchad"
+    },
+    {
+      "date": "2025-06-11",
+      "title": "会见到访的法国国家宪兵负责人",
+      "description": "2025年6月11日报道，国防部长级代表贝蒂·阿索莫与自6月9日起对喀麦隆进行正式访问的法国国家宪兵负责人举行会谈，就双边安全与宪兵合作交换意见",
+      "impact": "延续喀法安全合作传统，涉及宪兵培训与装备合作议题",
+      "source": "https://actucameroun.com/2025/06/11/mindef-joseph-beti-assomo-echange-avec-le-patron-de-la-gendarmerie-francaise/"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "主持第11批特遣队军旗归还仪式",
+      "description": "据国防部官方X账号通报，2026年1月30日，贝蒂·阿索莫在雅温得总司令部旅（Brigade du Quartier Général）主持第11批特遣队军旗归还仪式",
+      "impact": "对外任务部队轮换归建的例行军方礼仪活动",
+      "source": "https://x.com/i/status/2017569268712321342"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "向三名法国军人授勋",
+      "description": "据国防部官方X账号通报，2026年6月12日（星期五），贝蒂·阿索莫在雅温得向三名法国军人授予喀麦隆国家荣誉勋章",
+      "impact": "体现喀麦隆与法国之间的持续军事合作关系",
+      "source": "https://x.com/mindefcm/status/2065514857114313104"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CM-GOV-001",
+      "org_name": "Presidency of the Republic of Cameroon",
+      "org_type": "GOV",
+      "org_description": "喀麦隆共和国总统府；1985年军队改革后国防部置于总统府直接主管之下，现任部长为总统府辖部长级代表",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CM-GOV-003",
+      "org_name": "Government of Cameroon",
+      "org_type": "GOV",
+      "org_description": "喀麦隆中央政府（内阁），国防部为其组成部门",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "CM-MIL-001",
+      "org_name": "Cameroon Armed Forces",
+      "org_type": "MIL",
+      "org_description": "喀麦隆武装部队，为国防部负责管理和协调的总体军事力量",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CM-MIL-002",
+      "org_name": "Cameroon Army",
+      "org_type": "MIL",
+      "org_description": "喀麦隆陆军（Armée de terre），国防部统辖的四大防务力量之一",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CM-MIL-003",
+      "org_name": "Cameroon Air Force",
+      "org_type": "MIL",
+      "org_description": "喀麦隆空军（Armée de l'air），国防部统辖的四大防务力量之一",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CM-MIL-004",
+      "org_name": "Cameroonian Navy",
+      "org_type": "MIL",
+      "org_description": "喀麦隆海军（Marine nationale），国防部统辖的四大防务力量之一",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "CM-MIL-005",
+      "org_name": "National Gendarmerie of Cameroon",
+      "org_type": "MIL",
+      "org_description": "喀麦隆国家宪兵（Gendarmerie nationale），国防部统辖的四大防务力量之一，另设国务秘书专责其事务",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "喀麦隆国防部（Ministère de la Défense）是喀麦隆政府中负责国家军事与防务事务的行政部门，前身为1960年独立时设立的武装部队部（Ministère des Forces Armées），1985年军队改革后改用现名，并自此置于共和国总统府直接主管之下，部址设于首都雅温得总司令部。该部由总统府辖国防部长级代表主持，辅以两名国务秘书，核心职能包括：研究制定国防计划，组织实施国家防务政策，协调与监督各防务力量，组织和运作军事法庭，以及跟进对外军事合作。其统辖的防务力量涵盖陆军、空军、海军与国家宪兵四大体系。近年该部的工作重点包括在极北地区打击博科圣地叛乱活动、应对英语区危机相关的安全行动，以及推进与乍得等邻国签署双边防务合作协定；据媒体报道，其向国民议会提出的2026财年部门预算约为3823.33亿中非法郎。",
+  "industries": [
+    "public_administration",
+    "defence_military",
+    "internal_security"
+  ],
+  "apec_stance": "喀麦隆不是APEC成员经济体，该组织与APEC无直接关联。",
+  "profile": {
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat_of_arms_of_Cameroon.svg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia_en",
+      "wikipedia_fr",
+      "spm_gov_cm_official",
+      "mindef_gov_cm",
+      "news_media",
+      "official_social_media",
+      "search_results"
+    ],
+    "quotes": [
+      {
+        "title": "Ministry of Defence - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Defence_(Cameroon)"
+      },
+      {
+        "title": "Ministère de la Défense (Cameroun) - Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/Minist%C3%A8re_de_la_D%C3%A9fense_(Cameroun)"
+      },
+      {
+        "title": "Joseph Beti Assomo - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Beti_Assomo"
+      },
+      {
+        "title": "Joseph Beti Assomo - Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/Joseph_Beti_Assomo"
+      },
+      {
+        "title": "BETI ASSOMO Joseph - Services du Premier Ministre (总理府官网政府名录)",
+        "url": "https://www.spm.gov.cm/site/?q=en/content/beti-assomo-joseph"
+      },
+      {
+        "title": "Le Cameroun signe un accord de coopération militaire avec le Tchad - Agence Ecofin",
+        "url": "https://www.agenceecofin.com/actualites/2609-131810-le-cameroun-signe-un-accord-de-cooperation-militaire-avec-le-tchad"
+      },
+      {
+        "title": "Le Cameroun et le Tchad renforcent leur coopération militaire - Xinhua",
+        "url": "https://french.xinhuanet.com/20250924/7f8c4e1a3d04409fba77ebd8227f14b9/c.html"
+      },
+      {
+        "title": "Ministère de la Défense du Cameroun on X - étendard du 11e contingent",
+        "url": "https://x.com/i/status/2017569268712321342"
+      },
+      {
+        "title": "Ministère de la Défense du Cameroun on X - décoration de militaires français",
+        "url": "https://x.com/mindefcm/status/2065514857114313104"
+      }
+    ],
+    "completeness_score": 80,
+    "notes": "已完整读取5个独立来源页面：英文与法文Wikipedia国防部条目、英文与法文Wikipedia贝蒂·阿索莫条目、喀麦隆总理府官网（spm.gov.cm）部长职责页。官网mindef.gov.cm首页及部长页访问失败（502/超时/空内容），按约束跳过未重试，其网址经英文Wikipedia信息框及搜索结果交叉确认。关键事实交叉验证：贝蒂·阿索莫自2015年10月2日起任总统府辖国防部长级代表（英法Wikipedia与总理府官网一致）；军队总参谋长René Claude Meka（2001年起任职，1939年生）经2025年11月及2026年8月多家媒体报道确认仍在任，未列入姓名索引故person_id为null；2025年7月15日总统令任命Hippolyte Ebaka为军队总军士长（major-général des armées），未见更换总参谋长的报道。近期待办：官网社媒账号仅确认X与Facebook，未逐一核验其余平台。country_iso3沿用骨架数据集统一代码CMP（喀麦隆标准ISO3为CMR，如需全局订正应由主会话决定）。；收尾勘误(2026-09-20)：本注释所述\"沿用CMP\"为更正前状态，骨架代码 CMP 已全局更正为标准 CMR"
+  }
+}

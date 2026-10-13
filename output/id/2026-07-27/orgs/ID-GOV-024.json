@@ -1,63 +1,436 @@
 {
   "org_id": "ID-GOV-024",
+  "wikidata_qid": "Q65049088",
   "basic_info": {
     "org_id": "ID-GOV-024",
-    "wikidata_qid": "Q65049088",
+    "name_original": "Badan Pengawas Pemilihan Umum",
+    "name_zh": "大选监督委员会",
     "name_en": "General Election Supervisory Agency",
-    "name_zh": "选举监督委员会",
-    "name_local": "Badan Pengawas Pemilihan Umum",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://www.bawaslu.go.id",
-    "official_website": "https://www.bawaslu.go.id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "founded_date": "2008-04-08",
     "country_iso3": "IDN",
-    "name_original": "Badan Pengawas Pemilihan Umum"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.bawaslu.go.id",
+    "org_type": "GOV",
+    "org_subtype": "independent_organ"
   },
-  "description": "印度尼西亚 election supervisory 机构",
-  "brief": "印度尼西亚 election supervisory 机构",
-  "mission": null,
-  "core_business": "印度尼西亚 election supervisory 机构",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@bawaslu_RI",
+      "url": "https://x.com/bawaslu_RI",
+      "source": "https://www.bawaslu.go.id"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@bawaslu_ri",
+      "url": "https://www.instagram.com/bawaslu_ri/",
+      "source": "https://www.bawaslu.go.id"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Bawaslu RI",
+      "url": "https://www.youtube.com/@bawasluri",
+      "source": "https://www.bawaslu.go.id"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Bawaslu RI",
+      "url": "https://www.facebook.com/BawasluRI",
+      "source": "https://www.bawaslu.go.id"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "@bawaslu_ri",
+      "url": "https://www.tiktok.com/@bawaslu_ri",
+      "source": "https://www.bawaslu.go.id"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Bawaslu RI",
+      "url": "https://www.linkedin.com/company/bawaslu-ri",
+      "source": "https://www.linkedin.com/company/bawaslu-ri"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Bawaslu官方网站",
+      "url": "https://www.bawaslu.go.id",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "组织结构页面（Struktur Organisasi）",
+      "url": "https://www.bawaslu.go.id/id/profil/struktur-organisasi",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "Bawaslu法规数据库（Peraturan Bawaslu）",
+      "url": "https://peraturan.bawaslu.go.id",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "Bawaslu公共信息开放门户（PPID Bawaslu）",
+      "url": "https://eppid.bawaslu.go.id/",
+      "description": "website",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000643",
+      "name": "拉赫马特·巴贾 (Rahmat Bagja)",
+      "title": "主席（Ketua Bawaslu）",
+      "title_description": "2022-2027任期内当选主席，此前2017-2022任期曾任纠纷解决部门成员",
+      "description": "法学学士（S.H.）、法学硕士（LL.M.），2022年4月12日由佐科总统任命为Bawaslu成员并当选主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000644",
+      "name": "普阿迪 (Puadi)",
+      "title": "委员（违纪处理与数据信息部门）",
+      "title_description": "主管选举违纪处理及数据信息事务",
+      "description": "教育学士、管理学硕士，2022-2027任期委员。"
+    },
+    {
+      "person_id": "ID-PERSON-000645",
+      "name": "托托克·哈里约诺 (Totok Hariyono)",
+      "title": "委员（法律与纠纷解决部门）",
+      "title_description": "主管法律事务与选举纠纷解决",
+      "description": "法学学士（S.H.），2022-2027任期委员。"
+    },
+    {
+      "person_id": "ID-PERSON-000646",
+      "name": "赫尔温·马隆达 (Herwyn J. H. Malonda)",
+      "title": "委员（人力资源、组织与培训部门）",
+      "title_description": "主管人力资源、组织事务与培训",
+      "description": "教育学博士，拥有教育学与法学双硕士学历，2022-2027任期委员。"
+    },
+    {
+      "person_id": "ID-PERSON-000647",
+      "name": "洛莉·苏亨蒂 (Lolly Suhenty)",
+      "title": "委员（预防、社会参与与公共关系部门）",
+      "title_description": "主管选举违纪预防、社会参与及公共关系",
+      "description": "社会科学学士、法学硕士，2022-2027任期委员。"
+    },
+    {
+      "person_id": "ID-PERSON-000648",
+      "name": "费迪南德·蒂亚尔·西赖特 (Ferdinand Eskol Tiar Sirait)",
+      "title": "秘书长（Sekretaris Jenderal）",
+      "title_description": "领导秘书处，向Bawaslu主席负责，提供行政与技术运营支持",
+      "description": "Drs.，拥有法学、经济学与行政学多项硕士学位，现任秘书处秘书长。"
+    },
+    {
+      "person_id": null,
+      "name": "拉巴约尼 (La Bayoni)",
+      "title": "行政事务副部长（Deputi Bidang Administrasi）",
+      "title_description": "2025年10月底经秘书处高级官员（pejabat tinggi madya）任命出任，主管行政支撑体系",
+      "description": "拥有博士学位（Dr.）及政府学学士（S.IP.）与社会科学硕士（M.Si.）学位，出生于马鲁古（Maluku）。2025年10月底出任Bawaslu秘书处行政事务副部长，主持2029年大选阶段前的秘书处辅导、评估与预算纪律督导。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-024-DEPT-001",
+      "name": "秘书处 (Sekretariat Jenderal)",
+      "head": "费迪南德·蒂亚尔·西赖特 (Ferdinand Eskol Tiar Sirait)",
+      "description": "依2011年第15号法令设立，向主席负责，为委员会提供行政与技术运营支持，下设多个司局",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-024-DEPT-002",
+      "name": "违纪处理与数据信息部门 (Divisi Penanganan Pelanggaran dan Data dan Informasi)",
+      "head": "普阿迪 (Puadi)",
+      "description": "主管选举违纪处理及数据信息事务，由委员Puadi分管",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-024-DEPT-003",
+      "name": "法律与纠纷解决部门 (Divisi Hukum dan Penyelesaian Sengketa)",
+      "head": "托托克·哈里约诺 (Totok Hariyono)",
+      "description": "主管法律事务与选举纠纷解决，由委员Totok Hariyono分管",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-024-DEPT-004",
+      "name": "人力资源、组织与培训部门 (Divisi Sumber Daya Manusia, Organisasi, dan Diklat)",
+      "head": "赫尔温·马隆达 (Herwyn J. H. Malonda)",
+      "description": "主管人力资源、组织事务与培训，由委员Herwyn Malonda分管",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-024-DEPT-005",
+      "name": "预防、社会参与与公共关系部门 (Divisi Pencegahan, Partisipasi Masyarakat, dan Hubungan Masyarakat)",
+      "head": "洛莉·苏亨蒂 (Lolly Suhenty)",
+      "description": "主管选举违纪预防、社会参与及公共关系，由委员Lolly Suhenty分管",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-024-DEPT-006",
+      "name": "行政事务副部（Deputi Bidang Administrasi）",
+      "head": "拉巴约尼 (La Bayoni)",
+      "description": "秘书处内设副部长级单位，负责行政支持、预算管理与工作标准，向秘书长负责；2025年10月由拉巴约尼出任首任（据现有公开报道）副部长",
+      "parent_dept_id": "ID-GOV-024-DEPT-001"
+    },
+    {
+      "dept_id": "ID-GOV-024-DEPT-007",
+      "name": "技术支持副部（Deputi Bidang Dukungan Teknis）",
+      "head": "尤斯蒂·埃尔莉娜 (Yusti Erlina, S.H., M.H.)",
+      "description": "秘书处内设副部长级单位，负责技术支持事务，向秘书长负责；与行政事务副部同批于2025年10月任命",
+      "parent_dept_id": "ID-GOV-024-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-14",
+      "title": "为2029年大选预置电子投票监督框架",
+      "description": "委员洛莉·苏亨蒂在选举与社会民主研究所（Perludem）于雅加达举办的\"衡量电子投票在印尼的合宪性\"研讨会上表示，针对2029年大选拟推行的电子投票（e-voting），Bawaslu已绘制三支柱监督矩阵：投票前由独立机构开展审计与认证（未达标地区禁止实施）、投票日设网络异常快速上报渠道、以及强制纸质打印凭证并由无利益关联的非供应商机构再认证；若系统故障将冻结流程并回退人工投票。其依据2017年第7号法令第89条与第93条，Bawaslu有权监督任何选举投票方式。",
+      "impact": "若2029年大选采用电子投票，监督标准与3T边远地区及残障群体投票权保障框架已提前布局",
+      "source": "https://www.bawaslu.go.id/id/berita/gagas-e-voting-bawaslu-siapkan-instrumen-pengawasan-hak-pilih-masyarakat-rentan"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "秘书处启动2029年大选阶段前整备",
+      "description": "行政事务副部长拉巴约尼依秘书长指示，主持行政副部级辅导、评估与监测会议，要求中央与地方秘书处系统总结2024年大选中的问题。其说明2029年大选阶段将于2027年启动（预计自当年6月展开），秘书处须利用非阶段期完成整备，确保预算使用与实体绩效相符。",
+      "impact": "明确2027年年中进入2029年大选阶段的时间表，机构转入非阶段期整备模式",
+      "source": "https://www.bawaslu.go.id/id/berita/jelang-tahapan-pemilu-2029-la-bayoni-ajak-sekretariat-bahas-permasalahan-di-pemilu-2024"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "与KPU联袂向国会申请2027年追加预算约8510亿盾",
+      "description": "Bawaslu与KPU在国会第二委员会2027年度工作计划听证会上一致申请追加2027年预算合计约8510.4亿印尼盾，其中Bawaslu申请约7727.4亿盾、KPU申请783亿盾，用于2029年大选初期阶段准备（含机构与选区监督规划）；2029年大选阶段将于2027年启动。国会第二委员会议员表态支持，并建议部分资金用于电子投票转型。",
+      "impact": "2029年大选监督经费保障进入国会审批程序，Bawaslu获增资方向获议员背书",
+      "source": "https://nasional.kompas.com/read/2026/08/31/17364921/kpu-bawaslu-kompak-minta-tambahan-anggaran-2027-untuk-persiapan-pemilu-2029"
+    },
+    {
+      "date": "2025-10-31",
+      "title": "拉巴约尼出任行政事务副部长",
+      "description": "经秘书处高级官员任命，Dr. La Bayoni出任行政事务副部长（Deputi Bidang Administrasi），同期尤斯蒂·埃尔莉娜（Yusti Erlina, S.H., M.H.）出任技术支持副部长（Deputi Bidang Dukungan Teknis），两地部级单位隶属秘书长；各地Bawaslu分支机构连日致贺。",
+      "impact": "秘书处形成行政与技术支持两位副部的支撑架构，为2029年大选阶段做组织准备",
+      "source": "https://lambar.bawaslu.go.id/index.php/berita/bawaslu-lampung-barat-ucapkan-selamat-atas-pelantikan-dr-la-bayoni-sebagai-deputi-bidang"
+    },
+    {
+      "date": "2025-07-30",
+      "title": "宪法法院第104/PUU-XXIII/2025号裁决强化Bawaslu职权",
+      "description": "宪法法院就地方选举法第139条违宪审查作出第104/PUU-XXIII/2025号裁决：将Bawaslu对地方选举（pilkada）行政违规处理的\"建议\"（rekomendasi）改为\"裁决\"（putusan），KPU由\"审查并裁决\"改为\"须执行Bawaslu裁决\"，省、县市两级Bawaslu地位与职权同步强化，处理结果终局且具约束力。",
+      "impact": "Bawaslu与KPU在选举治理中的地位趋于对等，地方选举行政违规处理的法律确定性与效率显著提升",
+      "source": "https://florestimur.bawaslu.go.id/berita/putusan-nomor-104puu-xxiii2025-menjadi-tonggak-baru-penegakan-hukum-administrasi-pemilu"
+    },
+    {
+      "date": "2025-07-24",
+      "title": "DKPP就西爪哇涉毒案举行对主席拉赫马特·巴贾的伦理听证",
+      "description": "选举组织者荣誉委员会（DKPP）就第169-PKE-DKPP/VI/2025号伦理投诉举行听证：西爪哇西万隆县Bawaslu主席Riza Nasrul Falah因涉毒被警方逮捕（OTT），投诉方指控主席拉赫马特·巴贾（被诉第二人）仅作暂时停职、未及时将其举报至DKPP，存在放任；巴贾否认指控，称其已下令核查、组织全员尿检并要求将案件呈报DKPP，永久撤职属DKPP职权。听证由院长Heddy Lugito主持。",
+      "impact": "主席面临伦理审查但未被停职、继续履职；案件暴露违规处理与道德机构衔接的程序争议",
+      "source": "https://dkpp.go.id/dkpp-periksa-dua-pengawas-pemilu-terkait-penyalahgunaan-narkoba/"
+    },
+    {
+      "date": "2025-07-07",
+      "title": "向国会汇报2024年预算执行并提出2026年预算1.98万亿盾",
+      "description": "主席拉赫马特·巴贾在国会第二委员会听证会上汇报2024财年预算执行率87.24%，机构连续9年获得国家审计署（BPK）无例外意见（WTP）；提出2026年度指示性预算（pagu indikatif）1.98万亿盾，用于新公务员招聘、监督人员能力建设、2025-2029年战略计划社会宣传、监督数字化转型与机构强化。其援引Kompas调查研究中心数据称，2024年大选后民众对Bawaslu信任度达81.6%。",
+      "impact": "2026年预算框架与机构优先事项确定，财务公信力与民意信任指标向好",
+      "source": "https://www.bawaslu.go.id/index.php/id/berita/bawaslu-usulkan-optimalisasi-anggaran-dan-evaluasi-regulasi-untuk-pemilu-berkualitas"
+    },
+    {
+      "date": "2025-02-12",
+      "title": "执行总统效率指示，2025年预算削减约40%",
+      "description": "根据总统2025年第1号预算效率指示，Bawaslu的2025年预算由原2.416万亿印尼盾削减9550亿盾（约40%）至约1.462万亿盾。主席拉赫马特·巴贾表示将通过压缩商品与资本支出落实效率，监督职能不因削减受到根本影响。",
+      "impact": "非选举年机构运转经费显著收紧，部分地方机构公务车辆等资产被要求交还国家",
+      "source": "https://www.cnnindonesia.com/nasional/20250212115914-32-1197363/kpu-potong-anggaran-rp843-m-imbas-efisiensi-bawaslu-hampir-rp1-t"
+    },
+    {
+      "date": "2022-04-12",
+      "title": "2022-2027任期委员就职",
+      "description": "五名新一届Bawaslu委员在总统府由佐科总统主持宣誓就职，Rahmat Bagja当选主席。",
+      "impact": "现任领导层开始五年任期，负责监督2024年大选及地方选举",
+      "source": "https://id.wikipedia.org/wiki/Badan_Pengawas_Pemilihan_Umum"
+    },
+    {
+      "date": "2017-04-06",
+      "title": "2017-2022任期委员获国会批准",
+      "description": "国会于2017年4月6日批准Abhan、Ratna Dewi Pettalolo、Mochammad Afifuddin、Rahmat Bagja、Fritz Edward Siregar五人为2017-2022任期委员。",
+      "impact": "完成机构换届，监督了2019年大选与2020年地方选举",
+      "source": "https://id.wikipedia.org/wiki/Badan_Pengawas_Pemilihan_Umum"
+    },
+    {
+      "date": "2011-11-15",
+      "title": "依据第15号法令强化法律地位",
+      "description": "2011年第15号《选举组织法》将选举监督机构确立为常设机构，在省级设立省选举监督委员会（Bawaslu Provinsi），秘书处升格为一级单位（秘书处），并赋予其处理选举纠纷职权。",
+      "impact": "机构法律地位与职权显著强化，形成中央-省-县市三级监督体系",
+      "source": "https://id.wikipedia.org/wiki/Badan_Pengawas_Pemilihan_Umum"
+    },
+    {
+      "date": "2008-04-08",
+      "title": "Bawaslu成立",
+      "description": "依据2007年第22号《选举组织法》设立的常设选举监督机构正式成立，取代此前的临时性选举监督委员会（Panwaslu）体系。",
+      "impact": "印尼首次设立常设独立的全国选举监督机构",
+      "source": "https://id.wikipedia.org/wiki/Badan_Pengawas_Pemilihan_Umum"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-GOV-033",
+      "org_name": "大选委员会 (Komisi Pemilihan Umum, KPU)",
+      "org_type": "GOV",
+      "org_description": "全国选举组织者，Bawaslu对其选举各阶段准备工作（选民事宜更新、候选人确定、竞选、后勤、计票与汇总等）实施监督并定期报告；2025年宪法法院104号裁决后，KPU须执行Bawaslu对地方选举行政违规的裁决，两机构地位趋于对等",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "选举组织者荣誉委员会 (Dewan Kehormatan Penyelenggara Pemilu, DKPP)",
+      "org_type": "GOV",
+      "org_description": "同为选举组织机构，负责处理选举组织者道德伦理投诉；Bawaslu负责监督DKPP裁决的执行，其官员亦受DKPP伦理审查（如2025年7月对主席拉赫马特·巴贾的听证）",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "ID-GOV-028",
+      "org_name": "国会 (Dewan Perwakilan Rakyat, DPR RI)",
+      "org_type": "GOV",
+      "org_description": "依2011年第15号法令行使Bawaslu委员的遴选与批准职权，并通过第二委员会审议Bawaslu年度预算与追加预算（如2026年8月2027年度追加预算听证）",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "总统 (Presiden Republik Indonesia)",
+      "org_type": "GOV",
+      "org_description": "总统主持Bawaslu委员宣誓就职；Bawaslu须向总统提交监督结果报告；总统颁布的预算效率指示直接影响机构年度预算",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "省选举监督委员会 (Bawaslu Provinsi)",
+      "org_type": "GOV",
+      "org_description": "由Bawaslu设立并任免成员（每届5或7名），在各省首府履职，监督省级选举事务；2025年宪法法院104号裁决后其行政违规处理意见升格为终局裁决；亚齐省由Panwaslih Aceh承担相应职能",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "县市选举监督委员会 (Bawaslu Kabupaten/Kota)",
+      "org_type": "GOV",
+      "org_description": "由Bawaslu设立的县市级监督机构，每届3或5名成员，监督县市选举事务；亚齐省市县由Panwaslih kabupaten/kota承担相应职能",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-GOV-035",
+      "org_name": "肃贪委员会 (Komisi Pemberantasan Korupsi, KPK)",
+      "org_type": "GOV",
+      "org_description": "选举刑事违规由警察、检察与肃贪等有权执法机关侦办，Bawaslu受理举报、研究后移送有权机关并监督后续处理；两机构在选举舞弊、政治金钱等执法领域协同",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-005",
+      "org_name": "总检察长办公室 (Kejaksaan Agung)",
+      "org_type": "GOV",
+      "org_description": "选举刑事违规的法定侦办机关之一，Bawaslu将涉刑举报研究后移送检察机关跟进侦办，并监控案件后续处理",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-032",
+      "org_name": "宪法法院 (Mahkamah Konstitusi RI)",
+      "org_type": "GOV",
+      "org_description": "通过违宪审查与选举争议裁决塑造Bawaslu职权边界：早年的司法审查使监督人员招聘权完全归属Bawaslu，2025年第104/PUU-XXIII/2025号裁决更将其对地方选举行政违规的\"建议\"升格为终局具约束力的\"裁决\"",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "ID-GOV-034",
+      "org_name": "审计署 (Badan Pemeriksa Keuangan, BPK)",
+      "org_type": "GOV",
+      "org_description": "对Bawaslu财务实施年度审计，Bawaslu连续9年获得无例外意见（WTP），为机构财务公信力的核心外部监督者",
+      "relationship_type": "regulated_by"
+    }
+  ],
+  "core_business": "大选监督委员会（Badan Pengawas Pemilihan Umum，简称Bawaslu）是依据2007年第22号《选举组织者法》设立、并经2011年第15号《选举组织者法》强化的印尼独立常设选举监督机构，2008年4月8日成立，总部位于雅加达中区M.H. Thamrin路14号。其建制渊源可追溯至1982年大选设立的选举执行监督委员会（Panwaslak Pemilu），改革时代改为临时性 Panwaslu 体系（2003年第12号法），2007年起升格为常设机构；经其提起的宪法法院司法审查，监督人员招聘权完全归属Bawaslu。2011年第15号法确立其处理选举纠纷职权并设省级Bawaslu Provinsi，秘书处升格为一级单位。2025年7月30日宪法法院第104/PUU-XXIII/2025号裁决将Bawaslu对地方选举行政违规的\"建议\"升格为终局且具约束力的\"裁决\"，KPU须予执行，两机构地位趋于对等。其法定职能为在全国范围监督选举组织工作并预防、查处违纪：监督选举准备阶段（日程安排、后勤采购、选区与议席划定、宣传）与实施阶段（选民名册更新、参选者确定、竞选、投票与计票、选票流转与汇总等）；受理违法举报并研究后向有权机关提出建议；处理选举纠纷；制定各级监督工作标准；评估监督工作并向总统、国会和KPU提交报告。委员会由5名成员（主席兼委员及4名委员）组成，任期5年，成员互选产生主席；下设秘书处提供行政与技术支持，2025年10月起秘书处内设行政事务副部与技术支持副部两地部级单位；在省、县市设Bawaslu Provinsi与Bawaslu Kabupaten/Kota，监督网络延伸至乡镇与村社级（亚齐由Panwaslih承担）。现行2022-2027任期成员为拉赫马特·巴贾（Rahmat Bagja，主席）、普阿迪（Puadi）、托托克·哈里约诺（Totok Hariyono）、赫尔温·马隆达（Herwyn Malonda）、洛莉·苏亨蒂（Lolly Suhenty），秘书长为费迪南德·蒂亚尔·西赖特（Ferdinand Eskol Tiar Sirait）。财务方面：2025年原预算2.416万亿印尼盾，经总统效率指示削减9550亿盾至约1.462万亿盾；2026年指示性预算1.98万亿盾；并就2027年（2029年大选阶段启动年）向国会申请追加约7727.4亿盾。机构连续9年获国家审计署无例外意见（WTP），2024年大选后民调信任度81.6%；正为2027年启动的2029年大选阶段整备，并预研电子投票（e-voting）监督工具。",
+  "industries": [
+    "public_administration",
+    "regulatory",
+    "civil_service"
+  ],
+  "apec_stance": "Bawaslu为印尼国家选举监督机构，属国内治理职能机构，不直接参与APEC经贸合作议程。其与亚太区域的往来主要体现在选举管理与监督领域的国际交流：通过东盟框架及与各国选举管理机构的双边交流分享选举监督经验，参与选举管理国际论坛（如支持印尼举办的全球选举组织交流活动），并在区域内推广选举监督透明化实践。作为印尼国家机构，其对外交往遵循印尼以东盟为中心的外交政策框架，服务于一中政策下的国家立场。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q65049088"
+      "https://dkpp.go.id/dkpp-periksa-dua-pengawas-pemilu-terkait-penyalahgunaan-narkoba/",
+      "https://dkpp.go.id/ratna-dewi-pettalolo-putusan-mk-104-tonggak-baru-demokrasi-berkualitas/",
+      "https://florestimur.bawaslu.go.id/berita/putusan-nomor-104puu-xxiii2025-menjadi-tonggak-baru-penegakan-hukum-administrasi-pemilu",
+      "https://id.wikipedia.org/wiki/Badan_Pengawas_Pemilihan_Umum",
+      "https://lambar.bawaslu.go.id/index.php/berita/bawaslu-lampung-barat-ucapkan-selamat-atas-pelantikan-dr-la-bayoni-sebagai-deputi-bidang",
+      "https://nasional.kompas.com/read/2026/08/31/17364921/kpu-bawaslu-kompak-minta-tambahan-anggaran-2027-untuk-persiapan-pemilu-2029",
+      "https://www.bawaslu.go.id",
+      "https://www.bawaslu.go.id/id/berita/gagas-e-voting-bawaslu-siapkan-instrumen-pengawasan-hak-pilih-masyarakat-rentan",
+      "https://www.bawaslu.go.id/id/berita/jelang-tahapan-pemilu-2029-la-bayoni-ajak-sekretariat-bahas-permasalahan-di-pemilu-2024",
+      "https://www.bawaslu.go.id/id/profil/struktur-organisasi",
+      "https://www.bawaslu.go.id/index.php/id/berita/bawaslu-usulkan-optimalisasi-anggaran-dan-evaluasi-regulasi-untuk-pemilu-berkualitas",
+      "https://www.cnnindonesia.com/nasional/20250212115914-32-1197363/kpu-potong-anggaran-rp843-m-imbas-efisiensi-bawaslu-hampir-rp1-t",
+      "https://www.linkedin.com/company/bawaslu-ri",
+      "https://www.mkri.id/berita/pemilu-maupun-pilkada,-rekomendasi-bawaslu-harus-dimaknai-sebagai-putusan-yang-mengikat-23555",
+      "https://x.com/bawaslu_RI"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q65049088; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Badan Pengawas Pemilihan Umum - 印尼语维基百科",
+        "url": "https://id.wikipedia.org/wiki/Badan_Pengawas_Pemilihan_Umum"
+      },
+      {
+        "title": "Bawaslu官方网站",
+        "url": "https://www.bawaslu.go.id"
+      },
+      {
+        "title": "Bawaslu组织结构页面",
+        "url": "https://www.bawaslu.go.id/id/profil/struktur-organisasi"
+      },
+      {
+        "title": "Bawaslu RI 官方X账号",
+        "url": "https://x.com/bawaslu_RI"
+      },
+      {
+        "title": "Kompas.com: KPU-Bawaslu Kompak Minta Tambahan Anggaran 2027 untuk Persiapan Pemilu 2029 (2026-08-31)",
+        "url": "https://nasional.kompas.com/read/2026/08/31/17364921/kpu-bawaslu-kompak-minta-tambahan-anggaran-2027-untuk-persiapan-pemilu-2029"
+      },
+      {
+        "title": "Bawaslu: Gagas E-Voting, Bawaslu Siapkan Instrumen Pengawasan Hak Pilih Masyarakat Rentan (2026-09-14)",
+        "url": "https://www.bawaslu.go.id/id/berita/gagas-e-voting-bawaslu-siapkan-instrumen-pengawasan-hak-pilih-masyarakat-rentan"
+      },
+      {
+        "title": "Bawaslu: Jelang Tahapan Pemilu 2029, La Bayoni Ajak Sekretariat Bahas Permasalahan di Pemilu 2024 (2026-09-14)",
+        "url": "https://www.bawaslu.go.id/id/berita/jelang-tahapan-pemilu-2029-la-bayoni-ajak-sekretariat-bahas-permasalahan-di-pemilu-2024"
+      },
+      {
+        "title": "Bawaslu: Bawaslu Usulkan Optimalisasi Anggaran dan Evaluasi Regulasi untuk Pemilu Berkualitas (2025-07-07)",
+        "url": "https://www.bawaslu.go.id/index.php/id/berita/bawaslu-usulkan-optimalisasi-anggaran-dan-evaluasi-regulasi-untuk-pemilu-berkualitas"
+      },
+      {
+        "title": "Bawaslu Flores Timur: Putusan Nomor 104/PUU-XXIII/2025 Menjadi Tonggak Baru Penegakan Hukum Administrasi Pemilu (2025-07-30)",
+        "url": "https://florestimur.bawaslu.go.id/berita/putusan-nomor-104puu-xxiii2025-menjadi-tonggak-baru-penegakan-hukum-administrasi-pemilu"
+      },
+      {
+        "title": "DKPP: Ratna Dewi Pettalolo - Putusan MK 104 Tonggak Baru Demokrasi Berkualitas (2026-04-11)",
+        "url": "https://dkpp.go.id/ratna-dewi-pettalolo-putusan-mk-104-tonggak-baru-demokrasi-berkualitas/"
+      },
+      {
+        "title": "DKPP: DKPP Periksa Dua Pengawas Pemilu Terkait Penyalahgunaan Narkoba (2025-07-24)",
+        "url": "https://dkpp.go.id/dkpp-periksa-dua-pengawas-pemilu-terkait-penyalahgunaan-narkoba/"
+      },
+      {
+        "title": "CNN Indonesia: KPU Potong Anggaran Rp843 M Imbas Efisiensi, Bawaslu Hampir Rp1 T (2025-02-12)",
+        "url": "https://www.cnnindonesia.com/nasional/20250212115914-32-1197363/kpu-potong-anggaran-rp843-m-imbas-efisiensi-bawaslu-hampir-rp1-t"
+      },
+      {
+        "title": "Bawaslu Lampung Barat: Selamat Atas Pelantikan Dr. La Bayoni sebagai Deputi Bidang Administrasi (2025-11-03)",
+        "url": "https://lambar.bawaslu.go.id/index.php/berita/bawaslu-lampung-barat-ucapkan-selamat-atas-pelantikan-dr-la-bayoni-sebagai-deputi-bidang"
+      },
+      {
+        "title": "Mahkamah Konstitusi RI: Rekomendasi Bawaslu Harus Dimaknai Sebagai Putusan yang Mengikat",
+        "url": "https://www.mkri.id/berita/pemilu-maupun-pilkada,-rekomendasi-bawaslu-harus-dimaknai-sebagai-putusan-yang-mengikat-23555"
+      },
+      {
+        "title": "Bawaslu RI LinkedIn 官方主页",
+        "url": "https://www.linkedin.com/company/bawaslu-ri"
+      }
+    ],
+    "notes": "P3深度丰富（2026-09-17）：官网+印尼语维基+Kompas/CNN/DKPP/MKRI等多源交叉核实。确认现任主席Rahmat Bagja及2022-2027任期五名委员、秘书长均在任；新增行政事务副部长La Bayoni与技术支持副部长Yusti Erlina（2025年10月任命，person_id留null待主会话分配）。新增2025-2026年8条近期事件：2025年预算效率削减（2.416万亿→1.462万亿盾）、国会预算听证与2026年指示性预算1.98万亿盾、DKPP伦理听证（2025-07-24）、宪法法院104/PUU-XXIII/2025号裁决（2025-07-30，Bawaslu对地方选举行政违规意见升格为终局裁决）、副部长任命（2025-10-31）、2027年追加预算8510.4亿盾申请（2026-08-31，Bawaslu份额7727.4亿盾）、2029年大选阶段前整备与电子投票监督框架（2026-09-14）。related_entities按schema字段重构并补入KPK(ID-GOV-035)、总检察长办公室(ID-GOV-005)、宪法法院(ID-GOV-032)、审计署(ID-GOV-034)，KPU(ID-GOV-033)与国会(ID-GOV-028)命中索引。纯事实记录法定职能与架构，伦理案件仅陈述听证事实不作定性。"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Logo_Bawaslu.png/250px-Logo_Bawaslu.png",
+    "local_path": null
   }
 }

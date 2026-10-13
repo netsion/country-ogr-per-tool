@@ -1,70 +1,404 @@
 {
   "org_id": "ID-ACAD-004",
+  "wikidata_qid": "Q12523335",
   "basic_info": {
     "org_id": "ID-ACAD-004",
     "wikidata_qid": "Q12523335",
+    "name_original": "Universitas Islam Al-Azhar Mataram",
+    "name_zh": "马塔兰阿兹哈伊斯兰大学",
     "name_en": "Al-Azhar Islamic University of Mataram",
-    "name_zh": "Al-Azhar Islamic 大学 of Mataram",
-    "name_local": "Universitas Islam Al-Azhar Mataram",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "ACAD",
-    "org_subtype": "university",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "http://www.unizar.ac.id",
-    "official_website": "http://www.unizar.ac.id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "founded_date": "1981-05-10",
     "country_iso3": "IDN",
-    "name_original": "Universitas Islam Al-Azhar Mataram"
+    "hq_country_iso3": "IDN",
+    "website": "https://unizar.ac.id/",
+    "org_type": "ACAD",
+    "org_subtype": "university"
   },
-  "description": "高等教育机构 in 马塔兰, Indonesia",
-  "brief": "高等教育机构 in 马塔兰, Indonesia",
-  "mission": null,
-  "core_business": "高等教育机构 in 马塔兰, Indonesia",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "twitter_x",
+      "account_name": "MataramUnizar",
       "url": "https://twitter.com/MataramUnizar",
-      "source": "wikidata",
-      "account_name": "MataramUnizar"
+      "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "officialunizarmataram",
+      "url": "https://www.instagram.com/officialunizarmataram/",
+      "source": "instagram_official_page"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "officialunizarmataram",
+      "url": "https://www.facebook.com/officialunizarmataram/",
+      "source": "facebook_official_page"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UNIZARChannel",
+      "url": "https://www.youtube.com/c/UNIZARChannel",
+      "source": "unizar.ac_id_website_footer"
+    },
+    {
+      "platform": "threads",
+      "account_name": "officialunizarmataram",
+      "url": "https://www.threads.com/@officialunizarmataram",
+      "source": "threads_official_page"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "Universitas Islam Al-Azhar Mataram 官方网站",
+      "url": "https://unizar.ac.id/",
+      "description": "official_website",
+      "source": null
+    },
+    {
+      "name": "UNIZAR 新生招生系统 (PMB)",
+      "url": "https://pmb.unizar.ac.id/",
+      "description": "admissions_portal",
+      "source": null
+    },
+    {
+      "name": "UNIZAR 电子期刊平台 (e-journal)",
+      "url": "https://e-journal.unizar.ac.id/",
+      "description": "journal_platform",
+      "source": null
+    },
+    {
+      "name": "UNIZAR 医学院官方网站 (FK UNIZAR)",
+      "url": "https://fk.unizar.ac.id/",
+      "description": "faculty_website",
+      "source": null
+    },
+    {
+      "name": "UNIZAR 法学院官方网站 (FH UNIZAR)",
+      "url": "https://fhunizar.ac.id/",
+      "description": "faculty_website",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000436",
+      "name": "穆罕默德·安西亚尔 (Dr. Ir. Muh. Ansyar, M.P.)",
+      "title": "校长 (Rektor)",
+      "title_description": "现任校长，Dr.Ir.、M.P.学位",
+      "description": "主持大学行政与学术事务；印尼语维基百科及官网2024-2026年多则报道（副校长就职、KP2MI/BP2MI谅解备忘录、2026年度大会）均以其为现任校长。具体就任年份无可验证来源。"
+    },
+    {
+      "person_id": "ID-PERSON-000437",
+      "name": "阿卜杜拉希姆 (H. Abdurrahim, SH)",
+      "title": "创始人、首任校长",
+      "title_description": "律师出身的大学创始人，1981年创设本大学",
+      "description": "1981年5月10日依据Yayasan Pesantren Luhur Al-Azhar基金会第01/YPLA/1981号决定书创立本大学并兼任首任校长（\"三时代人物\"），其后推动医学院筹建（据印尼语维基百科）。"
+    },
+    {
+      "person_id": null,
+      "name": "伊因 (Dr. dr. Iing, M.Erg.)",
+      "title": "副校长IV，分管规划、发展、法律与总务 (Wakil Rektor IV)",
+      "title_description": "2024-05-31由校长Muh. Ansyar颁授任命书；西爪哇Subang人，乌达雅纳大学校友（2012级硕士及博士，工作人体工学方向）",
+      "description": "下辖规划与发展、法律与总务两局，主导大学总体规划（RIP）修订并逐级分解为校级与院系战略规划；任职后多次代表大学出席活动（2025年医学院年度工作会议、GOU 2025等）。官网、Instagram及kilasnusa.com多源交叉确认。"
+    },
+    {
+      "person_id": null,
+      "name": "法图拉赫曼 (Fathurrahman, S.E., M.Ak)",
+      "title": "副校长III (Wakil Rektor III)",
+      "title_description": "分管学生事务与校友（据2024年官网医师宣誓报道列名）",
+      "description": "2024年7月30日第43批32名新医师宣誓仪式上以副校长III身份列席（官网报道），为现任校级领导之一。"
+    },
+    {
+      "person_id": null,
+      "name": "罗丝迪亚娜·纳齐尔教授 (Prof. dr. Rosdiana Natzir, Ph.D., Sp.Biok.)",
+      "title": "医学院院长 (Dekan Fakultas Kedokteran)",
+      "title_description": "2024-2028任期；生物化学教授，曾任哈山努丁大学医学院教授（Google Scholar/SINTA收录）",
+      "description": "任内推动医学院2025版OBE（成果导向教育）新课程与LAM-PTKes优秀认证目标；医学院官网、官网主站、Instagram及suarantb.com多源交叉确认。"
+    },
+    {
+      "person_id": null,
+      "name": "纳南·萨莫德拉·库苏马·阿卜杜拉希姆 (Dr. Ir. H. Nanang Samodra Kusuma Abdurrahim, M.Sc)",
+      "title": "举办基金会主席 (Ketua Yayasan Pesantren Luhur Al-Azhar)",
+      "title_description": "大学举办方YPLA基金会现任主席",
+      "description": "出席并主持2026年9月年度大会（Raker/RTM），宣布大学2028年优秀（Unggul）认证目标；曾代表基金会接待马来西亚国际代表团（官网报道）。与创始人同属Abdurrahim姓氏，具体亲缘关系无来源佐证，不作断言。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-ACAD-004-DEPT-001",
+      "name": "医学院 (Fakultas Kedokteran)",
+      "head": "罗丝迪亚娜·纳齐尔教授 (Prof. dr. Rosdiana Natzir, Ph.D., Sp.Biok.)",
+      "description": "设医学本科（S1 Kedokteran）与医师职业教育（Profesi Dokter）项目；2004-06-17获高等教育总司第2100/D/T/2004号开办许可。2024-2028任期院长为Rosdiana Natzir教授，辖独立官网fk.unizar.ac.id；2025年发布基于OBE的2025版新课程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-ACAD-004-DEPT-002",
+      "name": "法学院 (Fakultas Hukum)",
+      "head": null,
+      "description": "建校四院之一（1981-05-10由YPLA基金会创设），初设民法与刑法方向，1993年按国家法学教育改革并入单一法学（Ilmu Hukum）课程；出版学术期刊Unizar Recht Journal，辖独立网站fhunizar.ac.id；2026年9月学生获NTB省法律与人权局\"最活跃法律援助奖\"（Hari Pengayoman 2026）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-ACAD-004-DEPT-003",
+      "name": "工程学院 (Fakultas Teknik)",
+      "head": null,
+      "description": "建校四院之一，设土木工程（Teknik Sipil）本科项目；2025年4月学生经MBKM框架参加国际KKN社区服务项目。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-ACAD-004-DEPT-004",
+      "name": "经济学院 (Fakultas Ekonomi / Fakultas Ekonomi dan Bisnis)",
+      "head": null,
+      "description": "建校四院之一，设发展经济学（Ekonomi Pembangunan）本科项目；2025年4月RRI报道显示现以\"经济与商学院\"名义运行并增设会计（Akuntansi）本科项目。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-ACAD-004-DEPT-005",
+      "name": "农业学院 (Fakultas Pertanian)",
+      "head": null,
+      "description": "建校四院之一，初设社会经济与发展方向；2025年4月RRI报道其本科项目为农业生态技术（Agroekoteknologi），此前维基百科记载为农业综合经营（Agrobisnis）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-ACAD-004-DEPT-006",
+      "name": "数学与自然科学学院 (Fakultas MIPA)",
+      "head": null,
+      "description": "1990年以生物学院名义筹建、后按Kopertis VIII建议改设，1992年4月28日获生物学科S1项目登记地位（第154/DIKTI/Kep/1992号），被视为医学院的前身；现设生物学（Biologi）本科项目，2026年9月学生在NTB省卫生实验室开展实训。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "1981-05-10",
+      "title": "大学创立",
+      "description": "Yayasan Pesantren Luhur Al-Azhar基金会依据第01/YPLA/1981号决定书在西努沙登加拉省创立Universitas Islam Al-Azhar，初设法律、农业、工程、经济四学院。",
+      "impact": "成为西努沙登加拉省早期私立伊斯兰高等院校之一。",
+      "source": "https://id.wikipedia.org/wiki/Universitas_Islam_Al-Azhar_Mataram"
+    },
+    {
+      "date": "1984-08-18",
+      "title": "四学院获国家登记地位",
+      "description": "教育与文化部长Nugroho Notosanto签发第0378/0/1984号决定书，授予法、农、工、经四学院及其学科国家登记（Terdaftar）地位。",
+      "impact": "初始学历项目获得国家承认。",
+      "source": "https://id.wikipedia.org/wiki/Universitas_Islam_Al-Azhar_Mataram"
+    },
+    {
+      "date": "1992-04-28",
+      "title": "数学与自然科学学院获登记地位",
+      "description": "高等教育总司第154/DIKTI/Kep/1992号决定书授予MIPA学院生物学科S1项目登记地位。",
+      "impact": "理科教育布局完成，并为医学院设立铺垫。",
+      "source": "https://id.wikipedia.org/wiki/Universitas_Islam_Al-Azhar_Mataram"
+    },
+    {
+      "date": "2004-06-17",
+      "title": "获准开设医学教育项目",
+      "description": "高等教育总司签发第2100/D/T/2004号许可，批准本大学开设医学本科教育项目（Pendidikan Dokter）。",
+      "impact": "完成创办人筹建医学院的设想，院系结构扩至六院。",
+      "source": "https://id.wikipedia.org/wiki/Universitas_Islam_Al-Azhar_Mataram"
+    },
+    {
+      "date": "2024-05-31",
+      "title": "副校长IV就职并启动战略规划更新",
+      "description": "校长Muh. Ansyar在校长楼GA8会议室向Dr. dr. Iing, M.Erg.颁发副校长IV（规划、发展、法律与总务）任命书；Iing主导大学总体规划（RIP）更新，并逐级分解为校级战略规划与院系战略及运营规划。",
+      "impact": "补齐校级领导架构，确立\"立足国内竞争、迈向国际化\"的组织路线。",
+      "source": "https://unizar.ac.id/pelantikan-wakil-rektor-iv-dan-rencana-strategis-pengembangan/"
+    },
+    {
+      "date": "2024-07-30",
+      "title": "32名新医师集体宣誓",
+      "description": "医学院32名毕业生在马塔兰Golden Palace酒店Garuda Ballroom举行宣誓就职；校长、副校长III Fathurrahman、副校长IV Iing、时任医学院院长Mutiara Budi Azhar及NTB省卫生厅长、IDI NTB主席等出席。",
+      "impact": "医学教育人才培养持续产出，深化与省卫生系统联系。",
+      "source": "https://unizar.ac.id/32-dokter-baru-unizar-resmi-diambil-sumpah-siap-mengabdi-untuk-bangsa/"
+    },
+    {
+      "date": "2025-04-30",
+      "title": "10名学生参加2025年国际KKN社区服务",
+      "description": "来自农业、经济与商业、法学、工程四学院的10名学生经MBKM\"建设乡村\"（P3MD）主题参与国际共建项目，与Politeknik Medica Farma Husada Mataram联合举办，马来西亚国民大学（UKM）学生共同参与；开展公共卫生教育、数字素养培训与小微企业赋能。LPPM负责人dr. Halia Wanadiatri, M.Si.评价该项目为学生课堂外学习与实质贡献的平台。",
+      "impact": "地方私立大学的国际化社区服务实践获国家电台RRI报道。",
+      "source": "https://rri.co.id/iptek/1489286/mahasiswa-unizar-ikuti-kkn-internasional-2025"
+    },
+    {
+      "date": "2025-06-19",
+      "title": "与南加里曼丹巴朗安县政府签署\"1000名学士\"奖学金MoU",
+      "description": "与巴朗安县政府（Pemkab Balangan）签署谅解备忘录，设立面向巴朗安子弟的\"Beasiswa 1.000 Sarjana\"奖学金项目；同年7月双方举行后续会议落实执行协议，县政府助理Hj. Ernawati等到访大学。",
+      "impact": "拓展省外生源与政府合作渠道，服务地方人才振兴。",
+      "source": "https://unizar.ac.id/unizar-dan-pemkab-balangan-teken-kerja-sama-beasiswa-dorongan-kemanusiaan-jadi-landasan-visi-pendidikan/"
+    },
+    {
+      "date": "2025-09-04",
+      "title": "医学院召开2025年度工作会议，部署国际化与OBE新课程",
+      "description": "医学院在Aula Abdurrahim召开年度工作会议，主题\"Bersinergi dalam Inovasi Menuju Pendidikan Kedokteran yang Unggul\"；校长要求对标LAM-PTKes优秀认证标准并响应新规Permen 39/2025的国际化导向，发布2025版OBE（成果导向教育）新课程；NTB省市卫生部门、IDI、AIPKI、教学医院等外部利益相关方参与。",
+      "impact": "医学教育向国际化与成果导向转型，为2028年优秀认证目标奠基。",
+      "source": "https://suarantb.com/2025/09/07/fakultas-kedokteran-unizar-gelar-rapat-kerja-2025-bahas-permen-39-tahun-2025-dengan-penekanan-pada-internasionalisasi/"
+    },
+    {
+      "date": "2025-12-15",
+      "title": "与KP2MI/BP2MI签署移民工人保护合作MoU",
+      "description": "在雅加达KP2MI/BP2MI大楼K.H. Abdurrahman Wahid礼堂签署谅解备忘录，校长Muh. Ansyar代表签约；移民工人保护部长兼BP2MI负责人穆赫塔尔丁（Mukhtarudin）、通信与数字部长梅蒂亚·维亚达·哈菲德（Meutya Viada Hafid）等出席。合作围绕教育、科研、社区服务三支柱（Tri Dharma）开展移民工人保护、职业培训与人力资源能力建设，并纳入\"Kampus Berdampak\"（有影响力的校园）框架。",
+      "impact": "与中央政府建立移民工人保护合作机制；西努沙登加拉为印尼劳工输出主要省份之一，地缘意义突出。",
+      "source": "https://unizar.ac.id/unizar-perkuat-peran-tridharma-teken-mou-dengan-kp2mi-bp2mi-untuk-pelindungan-pekerja-migran-indonesia/"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "医学院学生参加FIMA Student Camp 2026国际学生营",
+      "description": "医学院学生参加2026年8月1-5日在中爪哇省Karanganyar Agrowisata Amanah举办的FIMA Student Camp 2026，将全球视角带回校园（印尼高等教育、科学与技术部官网报道）。",
+      "impact": "学生国际交流活动获部委官网报道，佐证大学国际化布局。",
+      "source": "https://dikti.kemdiktisaintek.go.id/publikasi/berita/mahasiswa-fk-unizar-bawa-pulang-perspektif-global-dari-fima-camp-2026"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "医学生获茂物疼痛科学会议（BPSM）海报展示全国一等奖",
+      "description": "医学院第七学期学生I Made Putra Biantara以神经病理性疼痛四种筛查工具（DN4、LANSS、S-LANSS、PainDETECT）诊断准确性的系统综述与网络Meta分析研究，在茂物Harris酒店举行的Bogor Pain Scientific Meeting海报展示组别获一等奖；现场参赛者多为UI、UGM、UNSOED等高校从业者与全科医师。",
+      "impact": "地方私立大学学生击败名校与临床从业者获全国性科研竞赛一等奖。",
+      "source": "https://unizar.ac.id/tembus-juara-1-nasional-mahasiswa-fk-unizar-adu-riset-nyeri-neuropatik-di-bogor/"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "召开2026年度工作会议与管理评审，锁定2028年优秀认证目标",
+      "description": "9月15-17日在校园Aula Abdurrahman举行为期三天的年度工作会议（Raker）与管理层评审（RTM），主题\"BerSATU, Bermutu, Berdampak\"；校长Muh. Ansyar与基金会主席Nanang Samodra提出2028年院校与专业双\"优秀（Unggul）\"认证目标，部署OBE课程对标SN-Dikti、师资博士化与 publikasi 任务及认证专项工作组。",
+      "impact": "确立未来两年质量保障与机构升级路线图。",
+      "source": "https://unizar.ac.id/unizar-targetkan-akreditasi-unggul-2028-raker-dan-rtm-2026-perkuat-budaya-mutu/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿兹哈高等寄宿基金会 (Yayasan Pesantren Luhur Al-Azhar, YPLA)",
+      "org_type": "NGO",
+      "org_description": "大学的举办基金会，1979年成立，注册地址与大学校园同址（Jl. Unizar No.20, Turida, Mataram）；现任主席Dr. Ir. H. Nanang Samodra Kusuma Abdurrahim, M.Sc；1981年第01/YPLA/1981号决定书创设本大学。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "ID-GOV-037",
+      "org_name": "印尼高等教育、科学与技术部 (Kementerian Pendidikan Tinggi, Sains, dan Teknologi / Kemdiktisaintek)",
+      "org_type": "GOV",
+      "org_description": "印尼高等教育主管部门（原高等教育总司Direktorat Jenderal Pendidikan Tinggi所隶属体系），先后授予本大学各学院登记地位及医学院开办许可；其官网2026年报道本校医学生参加FIMA国际学生营。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "第八区高等教育协调机构 (Kopertis Wilayah VIII，现LLDIKTI Wilayah VIII)",
+      "org_type": "GOV",
+      "org_description": "负责东印尼（含西努沙登加拉）高校协调监管的区域机构，1990年代曾指导本校MIPA学院的设立与命名。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "巴朗安县政府 (Pemerintah Kabupaten Balangan)",
+      "org_type": "GOV",
+      "org_description": "南加里曼丹省县级政府；2025-06-19与本校签署\"Beasiswa 1.000 Sarjana\"奖学金谅解备忘录并持续落实执行。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼移民工人保护委员会/局 (KP2MI/BP2MI)",
+      "org_type": "GOV",
+      "org_description": "印尼移民工人保护主管机构；2025-12-15与本校签署MoU，围绕三支柱开展移民工人保护、职业培训与能力建设合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "西努沙登加拉伊斯兰银行 (PT Bank NTB Syariah)",
+      "org_type": "FIN",
+      "org_description": "西努沙登加拉省伊斯兰银行；据satondanews.id报道与本校建立战略合作以强化高等教育三支柱（报道未载明签约日期）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "望加锡加扎利伊斯兰大学 (Universitas Islam Makassar Al-Gazali, UIM)",
+      "org_type": "ACAD",
+      "org_description": "南苏拉威西省私立伊斯兰大学；校长Muh. Ansyar公开表示将其选为studi banding（对标学习）伙伴（据uim-makassar.ac.id报道）。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "Universitas Islam Al-Azhar（UNIZAR，马塔兰阿兹哈伊斯兰大学）是1979年成立的Yayasan Pesantren Luhur Al-Azhar（YPLA）基金会于1981年5月10日在西努沙登加拉省马塔兰市创办的私立伊斯兰大学，创始人为H. Abdurrahim, SH，现任校长Dr. Ir. Muh. Ansyar, M.P.，副校长III为Fathurrahman、副校长IV为Dr. dr. Iing, M.Erg.。现设医学、法学、工程、经济（经济与商业）、农业、数学与自然科学六个学院，校园位于马塔兰市Sandubay区Turida村Jl. Unizar No.20，在校学生逾999人。近年战略聚焦质量提升与国际化：2025年医学院发布OBE新课程并响应Permen 39/2025的国际化导向，2026年9月校董联席会议确立2028年院校与专业\"优秀（Unggul）\"认证目标；对外与南加里曼丹巴朗安县政府（\"1000名学士\"奖学金）、印尼移民工人保护委员会/局（KP2MI/BP2MI，2025年12月）、西努沙登加拉伊斯兰银行等建立合作，并通过国际KKN、FIMA学生营及茂物疼痛科学会议全国一等奖等成果推进学生国际化。运营招生系统（pmb.unizar.ac.id）、电子期刊平台（e-journal.unizar.ac.id）及法学院（fhunizar.ac.id）、医学院（fk.unizar.ac.id）子站，并获Sevima最具创新力数字化大学奖项。本条目为纯事实记录。",
+  "industries": [
+    "higher_education"
+  ],
+  "apec_stance": "作为西努沙登加拉省地方私立大学，无直接APEC事务参与记录；其对外交流以国内高校体系及Kopertis VIII区域协调为主，未见涉APEC或东盟经贸框架的活动记录。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 58,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q12523335"
+      "https://id.wikipedia.org/wiki/Universitas_Islam_Al-Azhar_Mataram",
+      "https://unizar.ac.id/",
+      "https://unizar.ac.id/profil/",
+      "https://pmb.unizar.ac.id/",
+      "https://e-journal.unizar.ac.id/",
+      "https://www.instagram.com/officialunizarmataram/",
+      "https://unizar.ac.id/pelantikan-wakil-rektor-iv-dan-rencana-strategis-pengembangan/",
+      "https://unizar.ac.id/32-dokter-baru-unizar-resmi-diambil-sumpah-siap-mengabdi-untuk-bangsa/",
+      "https://unizar.ac.id/unizar-dan-pemkab-balangan-teken-kerja-sama-beasiswa-dorongan-kemanusiaan-jadi-landasan-visi-pendidikan/",
+      "https://unizar.ac.id/unizar-perkuat-peran-tridharma-teken-mou-dengan-kp2mi-bp2mi-untuk-pelindungan-pekerja-migran-indonesia/",
+      "https://unizar.ac.id/tembus-juara-1-nasional-mahasiswa-fk-unizar-adu-riset-nyeri-neuropatik-di-bogor/",
+      "https://unizar.ac.id/unizar-targetkan-akreditasi-unggul-2028-raker-dan-rtm-2026-perkuat-budaya-mutu/",
+      "https://rri.co.id/iptek/1489286/mahasiswa-unizar-ikuti-kkn-internasional-2025",
+      "https://suarantb.com/2025/09/07/fakultas-kedokteran-unizar-gelar-rapat-kerja-2025-bahas-permen-39-tahun-2025-dengan-penekanan-pada-internasionalisasi/",
+      "https://dikti.kemdiktisaintek.go.id/publikasi/berita/mahasiswa-fk-unizar-bawa-pulang-perspektif-global-dari-fima-camp-2026",
+      "https://kilasnusa.com/2024/06/04/pelantikan-wakil-rektor-iv-unizar-dan-rencana-strategis-pengembangan/",
+      "https://fk.unizar.ac.id/profile-officers.html",
+      "https://fhunizar.ac.id/sejarah-fh-unizar/",
+      "https://www.metrokalimantan.com/2025/07/pemkab-balangan-gandeng-unizar-mataram.html",
+      "https://infopublik.id/kategori/nusantara/928008/pemkab-balangan-perkuat-program-1-000-sarjana-lewat-kerja-sama-unizar-mataram",
+      "https://uim-makassar.ac.id/tag/mataram/",
+      "https://satondanews.id/perkuat-tridharma-perguruan-tinggi-pt-bank-ntb-syariah-dan-universitas-islam-al-azhar-jalin-kerja-sama-strategis/",
+      "https://www.threads.com/@officialunizarmataram",
+      "https://www.youtube.com/c/UNIZARChannel"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q12523335; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 95,
+    "quotes": [
+      {
+        "title": "Universitas Islam Al-Azhar Mataram - 印尼语维基百科",
+        "url": "https://id.wikipedia.org/wiki/Universitas_Islam_Al-Azhar_Mataram"
+      },
+      {
+        "title": "UNIZAR 官方网站",
+        "url": "https://unizar.ac.id/"
+      },
+      {
+        "title": "UNIZAR 官方网站 - Profil 页",
+        "url": "https://unizar.ac.id/profil/"
+      },
+      {
+        "title": "UNIZAR 官方 Instagram",
+        "url": "https://www.instagram.com/officialunizarmataram/"
+      },
+      {
+        "title": "Pelantikan Wakil Rektor IV dan Rencana Strategis Pengembangan（副校长IV就职，2024-05-31）",
+        "url": "https://unizar.ac.id/pelantikan-wakil-rektor-iv-dan-rencana-strategis-pengembangan/"
+      },
+      {
+        "title": "Mahasiswa UNIZAR Ikuti KKN Internasional 2025（RRI，2025-04-30）",
+        "url": "https://rri.co.id/iptek/1489286/mahasiswa-unizar-ikuti-kkn-internasional-2025"
+      },
+      {
+        "title": "UNIZAR dan Pemkab Balangan Teken Kerja Sama Beasiswa（2025-06-19 MoU）",
+        "url": "https://unizar.ac.id/unizar-dan-pemkab-balangan-teken-kerja-sama-beasiswa-dorongan-kemanusiaan-jadi-landasan-visi-pendidikan/"
+      },
+      {
+        "title": "Fakultas Kedokteran Unizar Gelar Rapat Kerja 2025（suarantb，2025-09-04活动）",
+        "url": "https://suarantb.com/2025/09/07/fakultas-kedokteran-unizar-gelar-rapat-kerja-2025-bahas-permen-39-tahun-2025-dengan-penekanan-pada-internasionalisasi/"
+      },
+      {
+        "title": "UNIZAR Teken MoU dengan KP2MI/BP2MI（2025-12-15）",
+        "url": "https://unizar.ac.id/unizar-perkuat-peran-tridharma-teken-mou-dengan-kp2mi-bp2mi-untuk-pelindungan-pekerja-migran-indonesia/"
+      },
+      {
+        "title": "Mahasiswa FK UNIZAR Bawa Pulang Perspektif Global dari FIMA Camp 2026（Kemdiktisaintek官网）",
+        "url": "https://dikti.kemdiktisaintek.go.id/publikasi/berita/mahasiswa-fk-unizar-bawa-pulang-perspektif-global-dari-fima-camp-2026"
+      },
+      {
+        "title": "Tembus Juara 1 Nasional, Mahasiswa FK UNIZAR Adu Riset Nyeri Neuropatik di Bogor（2026-09-12）",
+        "url": "https://unizar.ac.id/tembus-juara-1-nasional-mahasiswa-fk-unizar-adu-riset-nyeri-neuropatik-di-bogor/"
+      },
+      {
+        "title": "UNIZAR Targetkan Akreditasi Unggul 2028, Raker dan RTM 2026（2026-09-15）",
+        "url": "https://unizar.ac.id/unizar-targetkan-akreditasi-unggul-2028-raker-dan-rtm-2026-perkuat-budaya-mutu/"
+      },
+      {
+        "title": "Pimpinan & Pejabat - FK UNIZAR（医学院院长现任信息）",
+        "url": "https://fk.unizar.ac.id/profile-officers.html"
+      }
+    ],
+    "notes": "2026-09-17 P3深度丰富。①基金会核实：UNIZAR举办方为YPLA（Yayasan Pesantren Luhur Al-Azhar，1979年成立，地址与校园同址，主席Nanang Samodra Kusuma Abdurrahim），与雅加达运营UAI（ID-ACAD-003）的Yayasan Pesantren Islam Al Azhar（YPI）为名称相近但相互独立的两个基金会，无正式隶属关系之可靠来源，故未在related_entities中添加UAI关联；同时修正旧档中\"在雅加达YPLA决议下创立\"的未经证实表述。②新增4名key_people（副校长IV Iing、副校长III Fathurrahman、医学院院长Rosdiana Natzir、基金会主席Nanang Samodra，均非索引命中，person_id留null待主会话分配），key_people字段规范化为person_id|name|title|title_description|description，原since字段信息并入描述。③recent_events由4条历史事件扩充至13条（新增2024-2026年9条，含2026年3条）。④related_entities重构为org_id|org_name|org_type|org_description|relationship_type格式，ID-GOV-037（Kemdiktisaintek）与ID-ACAD系列命中索引，其余null。⑤社媒补youtube（官网页脚）与threads；数字资产补医学院、法学院子站。⑥Bank NTB Syariah合作仅获satondanews标题佐证，日期未载明，已作保守表述。⑦农业学院本科项目现名Agroekoteknologi（RRI 2025），与维基所载Agrobisnis并存记录。校长具体就任年份无可验证来源故不填。宗教属性仅作中立事实记录，宗教争议不收录。；[schema修复并档] ；high"
   }
 }

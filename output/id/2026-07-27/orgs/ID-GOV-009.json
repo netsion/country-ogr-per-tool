@@ -1,63 +1,361 @@
 {
   "org_id": "ID-GOV-009",
+  "wikidata_qid": "Q16775672",
   "basic_info": {
     "org_id": "ID-GOV-009",
-    "wikidata_qid": "Q16775672",
-    "name_en": "Balai Penelitian Ternak",
-    "name_zh": "畜牧业研究所",
-    "name_local": "Balai Penelitian Ternak",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "http://balitnak.litbang.pertanian.go.id",
-    "official_website": "http://balitnak.litbang.pertanian.go.id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Balai Penelitian Ternak",
+    "name_zh": "畜牧研究所",
+    "name_en": "Balai Penelitian Ternak (Livestock Research Institute, Balitnak); successor unit: Balai Perakitan dan Pengujian Unggas dan Aneka Ternak (BRMP Unggas)",
+    "founded_date": "1981-01-01",
     "country_iso3": "IDN",
-    "name_original": "Balai Penelitian Ternak"
+    "hq_country_iso3": "IDN",
+    "website": "https://unggas.brmp.pertanian.go.id/",
+    "org_type": "GOV",
+    "org_subtype": "research_institute"
   },
-  "description": "研究所 in Indonesia",
-  "brief": "研究所 in Indonesia",
-  "mission": null,
-  "core_business": "研究所 in Indonesia",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "BRMP Unggas Aneka Ternak (@BRMPUNGGAS)",
+      "url": "https://www.facebook.com/BRMPUNGGAS/",
+      "source": "现机构官方Facebook主页（官网页脚Link Facebook指向）；机构新闻与活动均同步发布"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@brmpuat",
+      "url": "https://www.instagram.com/brmpuat/",
+      "source": "现机构官方Instagram（原账号名@brmpunggasdanakternak，随BSIP改组为BRMP后更名）"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@BRMPUnggas",
+      "url": "https://x.com/BRMPUnggas",
+      "source": "官方X（Twitter）账号，官网页脚Link Twitter指向；2025年7月4日发布KUB Janaka与Narayana Agrinak品系推广内容"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "@brmp_unggas",
+      "url": "https://www.tiktok.com/@brmp_unggas",
+      "source": "机构官方TikTok账号，发布实验室检测、品种科普与活动视频"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "@brmpuat",
+      "url": "https://www.youtube.com/@brmpuat",
+      "source": "机构官方YouTube频道（发布2025年机构形象片'Profil BRMP Unggas 2025'及品种介绍视频）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "BALITNAK Ciawi-Bogor（历史页面）",
+      "url": "https://www.facebook.com/pages/BALITNAK-balai-penelitian-ternak-ciawi-bogor/218620718224173",
+      "source": "Balitnak时期的历史Facebook主页（Balitbangtan时代，现已不活跃）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Balitnak旧官网（balitnak.litbang.pertanian.go.id，已停止更新）",
+      "url": "http://balitnak.litbang.pertanian.go.id",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "现机构官网：BRMP Unggas dan Aneka Ternak",
+      "url": "https://unggas.brmp.pertanian.go.id/",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "BRMP畜牧工作单元介绍页（Balai Perakitan dan Pengujian Unggas dan Aneka Ternak，含所长简历与联系方式）",
+      "url": "https://unggas.brmp.pertanian.go.id/satuan-kerja/balai-perakitan-dan-pengujian-unggas-dan-aneka-ternak",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "BRMP畜牧与动物卫生中心（Pusat Perakitan dan Modernisasi Peternakan dan Kesehatan Hewan）所长档案页",
+      "url": "https://peternakankeswan.brmp.pertanian.go.id/profil/kepala-balai-perakitan-dan-pengujian-unggas-dan-aneka-ternak",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "印尼畜禽遗传资源（plasma nutfah）保种与研究数据（机构职能性资产）",
+      "url": "https://unggas.brmp.pertanian.go.id/",
+      "description": "database",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000588",
+      "name": "安迪·萨纳布 (Dr. Ir. Andi Saenab, M.Si.)",
+      "title": "所长 (Kepala Balai)",
+      "title_description": "现任所长（Balai Perakitan dan Pengujian Unggas dan Aneka Ternak，原Balitnak职能承接单元）",
+      "description": "出生于望加锡（Ujung Pandang），1992年获哈桑丁大学（Unhas）畜牧学学士，现任BRMP体系下禽类与多种畜禽装配及测试研究所所长（官网及BRMP畜牧与动物卫生中心页面交叉确认）。2026年8月20-21日仍以所长身份在Ciawi主持与哈桑丁大学的家禽技术战略合作活动。"
+    },
+    {
+      "person_id": "ID-PERSON-000589",
+      "name": "安迪·巴绍·隆彭恩·伊沙克 (Dr. Andi Baso Lompengeng Ishak, S.Pt.)",
+      "title": "前所长 (Kepala Balitnak)",
+      "title_description": "曾任Balitnak所长（2022年前后在任）",
+      "description": "畜牧学者，曾任Balai Penelitian Ternak所长，任内推进机构面向BSIP/BRMP体系的转型，2022年8月仍以机构负责人身份推动KUB鸡种源推广活动。"
+    },
+    {
+      "person_id": "ID-PERSON-000570",
+      "name": "法杰里·朱弗里 (Prof. Dr. Ir. Fadjry Djufry, M.Si.)",
+      "title": "上级机构局长 (Kepala Badan Perakitan dan Modernisasi Pertanian, BRMP)",
+      "title_description": "农业部农业装配与现代化局局长，为Balitnak继承单元（BRMP Unggas）的直接上级主管",
+      "description": "2025年3月26日就任BRMP局长（BRMP官网确认），主管包括禽类与多种畜禽装配及测试研究所在内的全国农业装配、测试与推广体系。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-009-DEPT-001",
+      "name": "行政处 (Kepala Sub Tata Usaha)",
+      "head": null,
+      "description": "负责机构行政、财务与人事事务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-009-DEPT-002",
+      "name": "研究服务与测试科 (Seksi Jasa Penelitian)",
+      "head": null,
+      "description": "负责畜禽装配、测试与技术服务的组织协调，向养殖户与研究伙伴提供种源与检测服务；现承接参观研习、实习（magang/PKL）、技术指导（bimtek）、信息与咨询及图书馆等对外服务职能",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-009-DEPT-003",
+      "name": "畜禽遗传资源研究组 (Peneliti Plasma Nutfah Ternak)",
+      "head": null,
+      "description": "负责印尼本地鸡种（如KUB鸡、Cemani鸡、Sentul鸡）、鸭、山羊等畜禽遗传资源的收集、保种与选育研究",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-009-DEPT-004",
+      "name": "种源生产与孵化单元 (UPBS)",
+      "head": null,
+      "description": "负责KUB鸡、SenSi鸡、GaoSi鸡等自主品牌品系的纯系保种、种蛋孵化与DOC（雏禽）生产，向全国养殖户、地方政府和推广员发送种源",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-009-DEPT-005",
+      "name": "检测实验室单元 (Laboratorium Pengujian)",
+      "head": null,
+      "description": "运营获印尼国家认可委员会（KAN）认可的检测实验室，提供化学分析等认可检测及非认可分析服务，支撑品种测试与养殖投入品质量评价",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-21",
+      "title": "与哈桑丁大学开展家禽技术战略合作（8月20-21日）",
+      "description": "2026年8月20-21日，禽类与多种畜禽装配及测试研究所（BRMP Unggas）在Ciawi与哈桑丁大学（Universitas Hasanuddin, Unhas）举行战略合作活动，包括工作访问与合作会谈；跨机构合作被定位为支持家禽领域国家粮食安全加速计划的实际行动，所长Andi Saenab（Unhas校友）接待Unhas代表团。",
+      "impact": "打通与Unhas畜牧学院在品种、技术与学生交流方面的合作渠道，强化家禽科研的国家协作网络",
+      "source": "https://unggas.brmp.pertanian.go.id/berita/kolaborasi-perkuat-teknologi-perunggasan-nasional"
+    },
+    {
+      "date": "2026-03-03",
+      "title": "南苏拉威西Luwu县议会第二委员会工作访问",
+      "description": "2026年3月3日，Luwu县地方议会（DPRD）第二委员会代表团到访Ciawi的BRMP Unggas，考察装配与测试成果；机构人员接待并介绍优良畜禽品种与技术服务。",
+      "impact": "促进机构选育品种在南苏拉威西等畜牧重点产区的采纳与推广",
+      "source": "https://www.facebook.com/BRMPUNGGAS/videos/1671120367380974/"
+    },
+    {
+      "date": "2026-01-26",
+      "title": "印尼中央信息委员会（KIP）工作访问",
+      "description": "2026年1月26日，印尼共和国中央信息委员会（Komisi Informasi Pusat RI）代表团到访Ciawi，考察KUB Janaka鸡、KUB Narayana、Sensi Agrinak及多种畜禽（兔、鸭等）等装配与测试成果。",
+      "impact": "向政府机构展示机构品种品牌与公共服务职能，提升机构能见度",
+      "source": "https://www.facebook.com/BRMPUNGGAS/posts/2078333896288113/"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "国会第四委员会专题工作访问中展示KUB鸡",
+      "description": "2026年1月22日（周四），人民代表会议（DPR RI）第四委员会赴BRMP园艺研究所开展专题工作访问，BRMP Unggas在活动中展出Kampung Unggul Balitbangtan（Ayam KUB）鸡作为机构代表性装配成果之一。",
+      "impact": "KUB鸡品牌获得国会农业事务主管委员会关注，支撑机构在国家畜牧现代议事中的地位",
+      "source": "https://unggas.brmp.pertanian.go.id/berita/brmp-unggas-tampilkan-ayam-kub-saat-kunjungan-kerja-spesifik-komisi-iv-ke-brmp-hortikultura"
+    },
+    {
+      "date": "2025-03-26",
+      "title": "Fadjry Djufry就任农业装配与现代化局（BRMP）局长",
+      "description": "Prof. Dr. Ir. Fadjry Djufry, M.Si.于2025年3月26日宣誓就任农业部农业装配与现代化局（Badan Perakitan dan Modernisasi Pertanian, BRMP）局长，成为Balitnak继承单元的直接上级主管，并提出以'从想法到技术、从技术到产品'推动农业现代化。",
+      "impact": "上级机构领导层确立，机构科研与装配测试工作纳入BRMP现代化议程",
+      "source": "https://brmp.pertanian.go.id/"
+    },
+    {
+      "date": "2024-11-08",
+      "title": "BRMP设立：BSIP更名，Balitnak继承单元划入BRMP体系",
+      "description": "2024年11月8日，总统普拉博沃签署2024年第192号总统条例（关于农业部），农业标准化与仪器局（BSIP）更名/改组为农业装配与现代化局（Badan Perakitan dan Modernisasi Pertanian, BRMP）；其技术执行单位（UPT）组织后经2025年第10号农业部长条例及第39号第二次修正条例确定。Balitnak原职能由BRMP下属禽类与多种畜禽装配及测试研究所（Balai Perakitan dan Pengujian Unggas dan Aneka Ternak）承接，驻地仍为西爪哇茂物县Ciawi（Jl. Raya Veteran III）。",
+      "impact": "机构隶属与名称在农业部内完成新一轮重组，研究装配与测试职能延续",
+      "source": "https://id.wikipedia.org/wiki/Badan_Perakitan_dan_Modernisasi_Pertanian"
+    },
+    {
+      "date": "2022-12-16",
+      "title": "Balitbangtan转型为农业标准化与仪器局（BSIP）",
+      "description": "依据2022年第117号总统条例，农业部长Syahrul Yasin Limpo于2022年12月16日正式启用农业标准化与仪器局（Badan Standardisasi Instrumen Pertanian, BSIP），接替被撤销的Balitbangtan；农业研究活动与研究人员大部并入国家研究创新署（BRIN），BSIP承接农业标准化、装配与测试职能。Ciawi畜牧单元随之更名为禽类与多种畜禽装配及测试研究所（BPSIUAT），UPT组织经2023年第13号农业部长条例确定。",
+      "impact": "Balitnak建制名称告一段落，保种选育与品种推广职能以BPSIUAT名义延续",
+      "source": "https://makassar.antaranews.com/berita/451370/kementan-membentuk-badan-standardisasi-instrumen-pertanian-pengganti-balitbangtan"
+    },
+    {
+      "date": "2021-08-23",
+      "title": "BRIN成立，国家农业科研体系开始多轮改组",
+      "description": "2021年第33号总统条例及同年8月23日生效的第78号总统条例确立国家研究创新署（BRIN）为全国唯一研究机构，各部委研发活动限期两年内整合入BRIN，Balitbangtan此后被撤销。过渡期内（2022年8月）Ciawi畜牧单元仍以Balitnak身份开展KUB鸡种源推广活动，机构对外技术服务未中断。",
+      "impact": "Balitnak进入BSIP过渡阶段，品种推广与技术服务保持连续",
+      "source": "https://peraturan.bpk.go.id/Details/178084/perpresno-"
+    },
+    {
+      "date": "2019-05-15",
+      "title": "农业部长视察Ciawi园区",
+      "description": "农业部长Andi Amran Sulaiman于2019年5月视察位于茂物Ciawi的Balitnak，与研究人员就畜牧研究成果推广举行座谈。",
+      "impact": "提升机构研究的政策能见度",
+      "source": "https://www.facebook.com/brmpkementan/videos/1016663965193373/"
+    },
+    {
+      "date": "1981-01-01",
+      "title": "两所畜牧研究机构合并组建Balitnak",
+      "description": "1981年，位于茂物的畜牧研究所（Lembaga Penelitian Peternakan，LPP）与畜牧业研究中心（Pusat Penelitian dan Pengembangan Peternakan）的畜牧研究单元合并，组建Balai Penelitian Ternak（Balitnak），隶属农业部研究与开发局（Balitbangtan），所址位于西爪哇茂物县Ciawi（Jl. Raya Veteran III）。",
+      "impact": "形成印尼统一的国家级畜牧综合研究机构",
+      "source": "https://id.scribd.com/document/448265876/SEJARAH-BALITNAK"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚农业部 (Kementerian Pertanian)",
+      "org_type": "GOV",
+      "org_description": "主管部委，Balitnak为其研究与开发体系下的国家级畜牧研究所，驻地西爪哇Ciawi",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "农业装配与现代化局 (Badan Perakitan dan Modernisasi Pertanian, BRMP)",
+      "org_type": "GOV",
+      "org_description": "依据2024年第192号总统条例于2024年11月8日设立的农业部支撑机构（BSIP的更名承接方），局长Fadjry Djufry（2025年3月26日就任）；Balitnak职能现由其下属禽类与多种畜禽装配及测试研究所承接",
+      "relationship_type": "successor"
+    },
+    {
+      "org_id": null,
+      "org_name": "农业标准化与仪器局 (Badan Standardisasi Instrumen Pertanian, BSIP)",
+      "org_type": "GOV",
+      "org_description": "2022年12月16日至2024/2025年间农业部的过渡性机构（依据2022年第117号总统条例），承接Balitbangtan的标准化与装配测试职能；Balitnak以BPSIUAT名义隶属其间，后随其更名为BRMP",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "ID-GOV-001",
+      "org_name": "农业研究与发展局 (Badan Penelitian dan Pengembangan Pertanian, Balitbangtan)",
+      "org_type": "GOV",
+      "org_description": "1981-2022年间Balitnak的直接上级研究管理机构；2021-2022年其研究职能并入BRIN，机构于2022年12月转型为BSIP",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "畜牧装配现代化与动物卫生中心 (Pusat Perakitan dan Modernisasi Peternakan dan Kesehatan Hewan)",
+      "org_type": "GOV",
+      "org_description": "BRMP内直接管理Balitnak继承单元（BRMP Unggas）的畜牧口中心（peternakankeswan.brmp.pertanian.go.id），主任Dr. drh. Agus Susanto, M.Si.",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "ID-GOV-016",
+      "org_name": "畜牧与动物卫生总司 (Direktorat Jenderal Peternakan dan Kesehatan Hewan)",
+      "org_type": "GOV",
+      "org_description": "农业部内主管畜牧业行政与动物卫生监管的总司，是机构装配成果（品种、检测技术）的下游应用与推广渠道，双方同处农业部体系",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "ID-GOV-037",
+      "org_name": "高等教育、科学与技术部 (Kementerian Pendidikan Tinggi, Sains, dan Teknologi)",
+      "org_type": "GOV",
+      "org_description": "主管全国高等教育与科技政策的部门；机构面向高校学生的实习（magang/PKL）与学术合作项目（如家禽研究领域的大学协作）在其科技政策框架下运行",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼国家研究创新署 (Badan Riset dan Inovasi Nasional, BRIN)",
+      "org_type": "GOV",
+      "org_description": "2021年成立的全国唯一国家研究机构；Balitbangtan研究职能并入BRIN后，Ciawi装配测试单元保留在农业部体系，双方在畜禽遗传资源与BSIP-BRIN协同框架下存在业务关联",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "茂物农业大学 (Institut Pertanian Bogor)",
+      "org_type": "ACAD",
+      "org_description": "长期合作开展畜牧科研与人才培养的学术伙伴",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "哈桑丁大学 (Universitas Hasanuddin)",
+      "org_type": "ACAD",
+      "org_description": "2026年8月20-21日与机构开展家禽技术战略合作的伙伴高校，同时也是所长Andi Saenab的本科母校（1992年畜牧学学士）",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "畜牧研究所（Balai Penelitian Ternak，简称Balitnak）是印度尼西亚农业部所属的国家级畜牧研究机构，1981年由畜牧研究所（LPP）与畜牧业研究中心相关单元合并组建，所址位于西爪哇茂物县Ciawi（Jl. Raya Veteran III）。2021年起印尼国家科研体系经历多轮改组：2022年12月农业部研究与发展局（Balitbangtan）转型为农业标准化与仪器局（BSIP），研究职能大部并入国家研究创新署（BRIN）；2024年11月依据2024年第192号总统条例，BSIP更名/改组为农业装配与现代化局（Badan Perakitan dan Modernisasi Pertanian, BRMP），Balitnak现职能由其下属禽类与多种畜禽装配及测试研究所（Balai Perakitan dan Pengujian Unggas dan Aneka Ternak, BRMP Unggas）承接，现任所长为Andi Saenab。机构核心业务包括：（1）畜禽遗传资源（plasma nutfah）的收集、保种与选育，代表性成果为Kampung Unggul Balitnak（KUB）鸡——由本地土鸡经六世代母系纯种选育而成的高产蛋肉兼用型品种，并发展出KUB-2 Janaka（肉用型）与KUB-2 Narayana Agrinak（蛋用型，年产蛋约200枚）两个专门化品系；另有SenSi鸡、GaoSi-1 Agrinak鸡（源自Gaok土鸡）、Mojosari鸭、Haila与Haikol兔等品牌品系；（2）种源生产与推广，经UPBS单元向全国养殖户、地方政府与农业推广员发放KUB等品系的DOC（雏禽）与种蛋；（3）标准化检测服务，运营获印尼国家认可委员会（KAN）认可的实验室，提供化学分析等认可检测与非认可分析服务；（4）面向公众的信息咨询、参观研习、学生实习（magang/PKL）、技术指导（bimtek）与图书馆服务。机构在近期公众满意度调查（IKM）中获91.11分（'很好'类别），长期承担印尼粮食自给与畜牧现代化政策的技术支撑职能，其KUB鸡等自主品牌在全国小农户中广泛推广。",
+  "industries": [
+    "agriculture_food",
+    "research_development"
+  ],
+  "apec_stance": "Balitnak为印尼农业部下属研究机构，不直接参与APEC机制。其研究职能与APEC粮食安全、农业技术合作议程相关：机构选育推广的KUB鸡等本地品种技术面向亚太热带地区小农户养殖模式，相关畜禽遗传资源研究与国际学术合作（如国际家畜研究所合作渠道）与APEC农业技术合作工作组（ATCWG）关注的粮食安全议题方向一致。印尼为APEC创始成员，机构的国际科研合作遵循印尼国家农业与科技合作政策框架。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q16775672"
+      "http://kontraberita.blogspot.com/2012/05/sejarah-penelitian-pertanian-di.html",
+      "https://brmp.pertanian.go.id/",
+      "https://brmp.pertanian.go.id/organisasi/overview",
+      "https://id.scribd.com/document/448265876/SEJARAH-BALITNAK",
+      "https://id.wikipedia.org/wiki/Badan_Perakitan_dan_Modernisasi_Pertanian",
+      "https://makassar.antaranews.com/berita/451370/kementan-membentuk-badan-standardisasi-instrumen-pertanian-pengganti-balitbangtan",
+      "https://peraturan.bpk.go.id/Details/178084/perpresno-",
+      "https://peternakankeswan.brmp.pertanian.go.id/profil/kepala-balai-perakitan-dan-pengujian-unggas-dan-aneka-ternak",
+      "https://unggas.brmp.pertanian.go.id/",
+      "https://unggas.brmp.pertanian.go.id/berita/brmp-unggas-tampilkan-ayam-kub-saat-kunjungan-kerja-spesifik-komisi-iv-ke-brmp-hortikultura",
+      "https://unggas.brmp.pertanian.go.id/berita/kolaborasi-perkuat-teknologi-perunggasan-nasional",
+      "https://unggas.brmp.pertanian.go.id/satuan-kerja/balai-perakitan-dan-pengujian-unggas-dan-aneka-ternak",
+      "https://www.bio-conferences.org/articles/bioconf/abs/2021/05/bioconf_icavess2021_01001/bioconf_icavess2021_01001.html",
+      "https://www.facebook.com/BRMPUNGGAS/",
+      "https://www.instagram.com/brmpuat/",
+      "https://www.pertanian.go.id/?show=news&act=view&id=5171",
+      "https://www.tiktok.com/@brmp_unggas",
+      "https://www.youtube.com/@brmpuat",
+      "https://x.com/BRMPUnggas"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q16775672; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 89,
+    "quotes": [
+      {
+        "title": "Sejarah dan Fungsi Balai Penelitian Ternak - 1981年合并沿革（Scribd档案文献）",
+        "url": "https://id.scribd.com/document/448265876/SEJARAH-BALITNAK"
+      },
+      {
+        "title": "印尼农业研究史编年 - 1981年LPP与Puslitbangnak合并（Syahyuti）",
+        "url": "http://kontraberita.blogspot.com/2012/05/sejarah-penelitian-pertanian-di.html"
+      },
+      {
+        "title": "BRMP Unggas dan Aneka Ternak - 现机构官方页面（含所长Andi Saenab简历）",
+        "url": "https://unggas.brmp.pertanian.go.id/satuan-kerja/balai-perakitan-dan-pengujian-unggas-dan-aneka-ternak"
+      },
+      {
+        "title": "Bio-Conferences - Cemani鸡遗传资源研究（Balitnak保种事实）",
+        "url": "https://www.bio-conferences.org/articles/bioconf/abs/2021/05/bioconf_icavess2021_01001/bioconf_icavess2021_01001.html"
+      },
+      {
+        "title": "Kolaborasi Perkuat Teknologi Perunggasan Nasional - BRMP Unggas与哈桑丁大学战略合作（2026年8月20-21日）",
+        "url": "https://unggas.brmp.pertanian.go.id/berita/kolaborasi-perkuat-teknologi-perunggasan-nasional"
+      },
+      {
+        "title": "BRMP Unggas Tampilkan Ayam KUB saat Kunjungan Kerja Spesifik Komisi IV ke BRMP Hortikultura（2026年1月22日）",
+        "url": "https://unggas.brmp.pertanian.go.id/berita/brmp-unggas-tampilkan-ayam-kub-saat-kunjungan-kerja-spesifik-komisi-iv-ke-brmp-hortikultura"
+      },
+      {
+        "title": "Badan Perakitan dan Modernisasi Pertanian - 维基百科印尼语版（BRMP沿革：Balitbangtan→BSIP→BRMP，2024年第192号总统条例）",
+        "url": "https://id.wikipedia.org/wiki/Badan_Perakitan_dan_Modernisasi_Pertanian"
+      },
+      {
+        "title": "Kementan membentuk BSIP pengganti Balitbangtan - Antara Makassar（BSIP于2022年12月16日启用）",
+        "url": "https://makassar.antaranews.com/berita/451370/kementan-membentuk-badan-standardisasi-instrumen-pertanian-pengganti-balitbangtan"
+      },
+      {
+        "title": "BRMP官网：Fadjry Djufry于2025年3月26日就任BRMP局长",
+        "url": "https://brmp.pertanian.go.id/"
+      }
+    ],
+    "notes": "P3深度丰富（2026-09-17）。重要修正：（1）BRMP全称为Badan Perakitan dan Modernisasi Pertanian（农业装配与现代化局），此前档案误写为'Badan Riset dan Modernisasi Pertanian/研究与现代化局'，已按维基百科与brmp.pertanian.go.id官网修正；（2）补全沿革链条：Balitbangtan（至2022）→BSIP（2022-12-16启用，2022年第117号总统条例）→BRMP（2024-11-08，2024年第192号总统条例；UPT组织经Permentan 10/2025及39/2025确定），Balitnak职能由Balai Perakitan dan Pengujian Unggas dan Aneka Ternak承接，驻地仍为Ciawi；（3）现任所长Andi Saenab经官网与BRMP畜牧与动物卫生中心页面交叉确认在任（2026年8月仍主持活动）；新增上级主管Fadjry Djufry（索引命中ID-PERSON-000570）。近期事件含2026年4条（Unhas合作、DPRD Luwu访问、KIP访问、DPR Komisi IV访问），来源为官网新闻、官方Facebook/Instagram/TikTok；新增社媒账号X（@BRMPUnggas）、TikTok（@brmp_unggas）、YouTube（@brmpuat）均经官网页脚或官方账号交叉确认。IKM公众满意度91.11分见官网新闻标题，具体调查季度未注明故未单列事件。founded_date仅有年份（1981），按schema格式记为1981-01-01。"
   }
 }

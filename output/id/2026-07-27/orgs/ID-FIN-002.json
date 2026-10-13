@@ -1,103 +1,379 @@
 {
   "org_id": "ID-FIN-002",
   "basic_info": {
-    "org_id": "ID-FIN-002",
-    "wikidata_qid": "Q1906161",
-    "name_en": "Bank Indonesia",
+    "name_original": "Bank Indonesia",
     "name_zh": "印度尼西亚银行",
-    "name_local": "Bank Indonesia",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
+    "name_en": "Bank Indonesia",
+    "aliases": [
+      "BI",
+      "印尼央行",
+      "印度尼西亚中央银行"
+    ],
     "org_type": "FIN",
-    "org_subtype": "central_bank",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "http://www.bi.go.id/",
-    "official_website": "http://www.bi.go.id/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "org_subtype": "independent_organ",
     "country_iso3": "IDN",
-    "name_original": "Bank Indonesia"
+    "hq_country_iso3": "IDN",
+    "founded_date": "1953-07-01",
+    "website": "https://www.bi.go.id/",
+    "wikidata_qid": "Q1906161"
   },
-  "description": "印尼的中央銀行",
-  "brief": "印尼的中央銀行",
-  "mission": null,
-  "core_business": "印度尼西亚银行 是印度尼西亚共和国的中央银行，成立于1953年，总部位于首都雅加达。印尼银行依法系作为一个独立的公共法人实体以及国家机构的地位去处理自身的法定事务。现任行长是于2013年5月24日接替前行长达尔敏·纳苏蒂安上任的前财政部长阿古斯·玛多瓦多约。\n",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [
-    {
-      "person_id": null,
-      "name": "Perry Warjiyo",
-      "title": "主席",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "ID-PERSON-000139",
-      "name": "Agus Martowardojo",
-      "title": "印度尼西亚银行行长",
-      "title_description": "",
-      "description": ""
-    }
-  ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "twitter_x",
+      "account_name": "bank_indonesia",
       "url": "https://twitter.com/bank_indonesia",
-      "source": "wikidata",
-      "account_name": "bank_indonesia"
+      "source": "wikidata; 官方X账号活跃（2026年发帖祝贺新任副行长就职）"
     },
     {
       "platform": "instagram",
+      "account_name": "bank_indonesia",
       "url": "https://instagram.com/bank_indonesia",
-      "source": "wikidata",
-      "account_name": "bank_indonesia"
+      "source": "wikidata"
     },
     {
       "platform": "facebook",
+      "account_name": "BankIndonesiaOfficial",
       "url": "https://facebook.com/BankIndonesiaOfficial",
-      "source": "wikidata",
-      "account_name": "BankIndonesiaOfficial"
+      "source": "wikidata"
     },
     {
       "platform": "youtube",
+      "account_name": "Bank Indonesia",
       "url": "https://www.youtube.com/channel/UCV7sYsOlkpbHybdIWt7gZbg",
-      "source": "wikidata",
-      "account_name": "UCV7sYsOlkpbHybdIWt7gZbg"
+      "source": "wikidata"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "@bank_indonesia",
+      "url": "https://www.tiktok.com/@bank_indonesia",
+      "source": "TikTok平台认证Official Account"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Central Bank of Indonesia",
+      "url": "https://www.linkedin.com/company/central-bank-of-indonesia",
+      "source": "LinkedIn官方公司主页（8.8万+关注者）"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "QRIS 印尼标准二维码支付 (QRIS)",
+      "url": null,
+      "description": "印尼标准二维码支付体系，由央行主导建设，实现跨行跨钱包扫码支付互通，覆盖数千万微型与中小商户；已与马来西亚、泰国、新加坡实现跨境互联，2026年4月30日起与中国实现跨境QRIS互联互通，成为东盟零售支付一体化的核心基础设施",
+      "source": null
+    },
+    {
+      "name": "BI-FAST 实时支付系统",
+      "url": null,
+      "description": "印尼央行建设的7×24小时零售实时支付清算基础设施，取代传统清算体系，支持端到端数字化、低成本的银行间资金转账",
+      "source": null
+    },
+    {
+      "name": "印尼央行数字卢比 (Rupiah Digital / Project Garuda)",
+      "url": null,
+      "description": "央行数字货币（CBDC）研发项目，2022年11月30日发布白皮书，分批发型与零售型三阶段推进；批发型数字卢比记账层（Wholesale Cash Ledger）已完成概念验证（PoC），并就设计方案开展公开咨询",
+      "source": null
+    },
+    {
+      "name": "BI-RTGS 大额支付系统",
+      "url": null,
+      "description": "央行运营的实时全额结算（RTGS）大额银行间支付基础设施，保障系统性重要资金转账的顺畅与安全",
+      "source": null
+    },
+    {
+      "name": "SRBI 印尼卢比央行证券 (Sekuritas Rupiah Bank Indonesia)",
+      "url": null,
+      "description": "央行为公开市场操作与汇率稳定发行的卢比计价证券，2026年成为吸引外资流入、稳定印尼盾的重要货币政策工具",
+      "source": null
+    },
+    {
+      "name": "BI 州长年度报告与统计数据库",
+      "url": null,
+      "description": "官网提供年度报告、货币政策报告（TKM）、支付系统统计与宏观经济数据公开检索",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000550",
+      "name": "德丝特里·达玛扬蒂 (Destry Damayanti)",
+      "title": "行长（第17任，2026-2031）",
+      "title_description": "2026年9月2日宣誓就任，任期至2031年；印尼央行史上首位正式女性行长",
+      "description": "1963年12月16日生于雅加达，印尼大学经济学学士、美国康奈尔大学理学硕士。曾历任哈佛国际发展研究所研究助理、花旗银行印尼经济学家（1997-2000）、英国驻印尼大使高级经济顾问（2000-2003）、曼迪里证券首席经济学家（2005-2011）、曼迪里银行首席经济学家（2011-2015）；2015年任存款保险机构（LPS）专员；2019年8月7日起任央行高级副行长（2019-2026）。2026年7月27日佩里辞职后出任代行长，9月2日在最高法院院长主持下宣誓就任第17任行长，强调维护宏观经济稳定与政策协同。"
+    },
+    {
+      "person_id": "ID-PERSON-000551",
+      "name": "艾达·S·布迪曼 (Aida S. Budiman)",
+      "title": "高级副行长 (Deputi Gubernur Senior)",
+      "title_description": "2026-2031年任期内任央行高级副行长，佐科-普拉博沃时代任命的首位女性高级副行长之一",
+      "description": "1965年生于茂物，农业社会经济（农商业）方向学历背景；1991年以通胀分析与经济预测分析员身份加入央行，拥有逾35年央行职业生涯，历任多个战略岗位，晋升前为分管货币政策战略等事务的行长助理（Asisten Gubernur）；2026年8月经国会第十一委员会资格审查（fit-and-proper test）确定为高级副行长人选，9月2日依据第92/P号总统令在最高法院宣誓就任。"
+    },
+    {
+      "person_id": "ID-PERSON-000552",
+      "name": "索利金·M·朱赫罗 (Solikin M. Juhro)",
+      "title": "副行长 (Deputi Gubernur)",
+      "title_description": "2026-2031年任期内任央行副行长",
+      "description": "1967年10月10日出生的印尼经济学家，长期在央行系统从事宏观经济与货币政策研究；经国会第十一委员会遴选，依据第92/P号总统令任命，2026年9月2日在最高法院宣誓就任央行副行长（任期2026-2031）。"
+    },
+    {
+      "person_id": "ID-PERSON-000553",
+      "name": "佩里·瓦尔吉约 (Perry Warjiyo)",
+      "title": "前行长（2018-2026年在任）",
+      "title_description": "2018年起连任行长，2026年7月25日提交辞呈、7月27日正式卸任",
+      "description": "1959年2月25日出生的经济学家，2013年起任央行副行长，2018年起任行长并获连任；任内推动QRIS与BI-FAST支付基础设施建设。2026年7月25日以个人原因自愿提交辞呈，7月27日在央行总部记者会正式公布卸任，系印尼央行历史上首位自愿辞职的行长；BBC等媒体指出其辞职发生在央行连续加息、印尼盾承压的敏感时期。"
+    },
+    {
+      "person_id": "ID-PERSON-000139",
+      "name": "阿古斯·玛尔多瓦多约 (Agus Martowardojo)",
+      "title": "前行长（2013-2018年在任）",
+      "title_description": "曾任印度尼西亚银行行长",
+      "description": "印尼资深金融官员，曾任财政部长，2013-2018年担任印度尼西亚银行行长。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-FIN-002-DEPT-001",
+      "name": "行长理事会 (Dewan Gubernur)",
+      "head": null,
+      "description": "由行长、高级副行长和若干副行长组成的最高决策机构，负责货币政策与支付系统重大决策",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-002-DEPT-002",
+      "name": "货币政策部 (Direktorat Kebijakan Moneter)",
+      "head": null,
+      "description": "负责利率决策、公开市场操作与汇率政策的研究与执行部门",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-002-DEPT-003",
+      "name": "支付系统政策部 (Direktorat Sistem Pembayaran)",
+      "head": null,
+      "description": "负责支付系统监管、QRIS/BI-FAST等支付基础设施建设与数字卢比研发",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-002-DEPT-004",
+      "name": "金融稳定与银行监管部 (Direktorat Stabilitas Sistem Keuangan & Perbankan)",
+      "head": null,
+      "description": "负责宏观审慎政策、金融稳定监测与银行监管协同",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-FIN-002-DEPT-005",
+      "name": "货币政策委员会会议 (Rapat Dewan Gubernur)",
+      "head": null,
+      "description": "定期召开的全理事会会议，对外发布基准利率等货币政策决定",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-17",
+      "title": "RDG降息25个基点至4.75%",
+      "description": "2025年9月16-17日行长理事会（RDG）决定下调BI-Rate 25个基点至4.75%，存款便利利率下调50个基点至3.75%，贷款便利利率上调25个基点，并确认2026年通胀目标2.5±1%。",
+      "impact": "宽松周期延续，为本币融资成本下行与2026年经济增长创造条件",
+      "source": "https://perbanas.org/publikasi/infografis-statistik/update-bi-rate-september-2025"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "RDG维持BI-Rate 4.75%不变",
+      "description": "2026年3月16-17日RDG决定维持BI-Rate 4.75%、存款便利3.75%；同期印尼盾兑美元于3-4月持续走弱，4月一度突破17,000/美元关口（达17,252），汇率压力明显积聚。",
+      "impact": "按兵不动下汇率贬值压力上升，为随后转入加息周期埋下伏笔",
+      "source": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_286526.aspx"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "印尼-中国跨境QRIS支付正式上线",
+      "description": "印尼央行与中国人民银行合作的跨境二维码支付互联互通正式落地，两国用户可使用本币扫描QRIS二维码完成零售支付；至此QRIS跨境网络已覆盖中国、马来西亚、泰国、新加坡等国，跨境二维码交易额此前同比大增约380%至2.71万亿印尼盾。",
+      "impact": "扩大本币结算、降低对美元中介的依赖，直接服务双边贸易、旅游与中小微商户",
+      "source": "https://fintechnews.id/109836/payments/indonesia-china-qris-cross-border-payment/"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "加息50个基点至5.25%捍卫印尼盾",
+      "description": "2026年5月19-20日RDG决定加息50个基点至5.25%；5月19日印尼盾兑美元收报17,700，较4月末贬值2.20%。央行同步采取提高SRBI收益率、汇市干预等稳汇措施。",
+      "impact": "本轮紧缩周期启动，旨在遏制汇率贬值预期与资本外流压力",
+      "source": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2810726.aspx"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "BI-Rate累计上调100个基点至5.75%",
+      "description": "继5月加息后，央行于6月17-18日RDG再加息25个基点至5.75%，自4月的4.75%累计上调100个基点；加息后印尼盾升值动能仍显不足，市场关注外资流入SBN国债与SRBI的支撑作用。",
+      "impact": "政策重心阶段性转向汇率与通胀稳定，增长与稳定之间面临权衡",
+      "source": "https://investasi.kontan.co.id/news/rupiah-masih-sulit-bangkit-meski-bi-rate-naik-100-bps-ini-faktor-pemberatnya"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "行长佩里·瓦尔吉约任内辞职",
+      "description": "行长佩里·瓦尔吉约于7月25日以个人原因自愿提交辞呈，7月27日在央行总部记者会正式公布；系印尼央行历史上首位自愿辞职的行长。高级副行长德丝特里·达玛扬蒂随即出任代行长，政府随即启动新行长任命程序。",
+      "impact": "消息引发市场短期波动与央行独立性讨论，9月2日完成领导层交接后市场趋稳",
+      "source": "https://makassar.antaranews.com/berita/635013/perry-warjiyo-mundur-sebagai-gubernur-bi-karena-alasan-pribadi"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "RDG连续第三次维持BI-Rate 5.75%",
+      "description": "2026年8月18-19日RDG决定维持BI-Rate 5.75%、存款便利4.75%、贷款便利6.50%，强调在全球不确定性上升背景下巩固通胀与汇率稳定、支持经济可持续增长。",
+      "impact": "利率进入观望期，为下游传导与新领导层上任后的政策评估留出空间",
+      "source": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2816226.aspx"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "8月末外汇储备回升至1465亿美元",
+      "description": "央行公布印尼8月末外汇储备1465亿美元，较7月末的1453亿美元增加约12亿美元，相当于5.4个月进口或5.3个月『进口+外债偿付』支出，高于约3个月国际充足性标准；此前政府已修订出口收入留存（DHE）政策以补充外储。",
+      "impact": "外储缓冲增厚，增强央行汇市干预能力与市场信心",
+      "source": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2818126.aspx"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "国会第十一委员会确定新一届央行领导层人选",
+      "description": "国会第十一委员会（金融事务）对候选人完成资格审查（fit-and-proper test），确定德丝特里·达玛扬蒂为行长（2026-2031）、艾达·S·布迪曼为高级副行长、索利金·M·朱赫罗为副行长，接替7月辞职的佩里·瓦尔吉约。",
+      "impact": "完成法定任命程序，为9月2日最高法院主持宣誓就任铺平道路",
+      "source": "https://money.kompas.com/read/2026/08/27/193257226/profil-aida-s-budiman-35-tahun-karier-di-bi-hingga-jadi-deputi-gubernur-senior"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "德丝特里·达玛扬蒂宣誓就任第17任行长",
+      "description": "德丝特里·达玛扬蒂在最高法院院长主持下宣誓就任印尼央行第17任行长（2026-2031），成为央行史上首位正式女性行长；同日艾达·S·布迪曼就任高级副行长、索利金·M·朱赫罗就任副行长（Keppres 92/P/2026）。新行长就任后强调维护宏观经济稳定、加强财政-货币政策协同。",
+      "impact": "完成央行领导层交接，政策连续性与央行独立性成为市场关注焦点",
+      "source": "https://money.kompas.com/read/2026/09/02/172910426/ma-lantik-aida-budiman-dan-solikin-juhro-jadi-deputi-gubernur-bi"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-GOV-017",
+      "org_name": "印度尼西亚财政部 (Kementerian Keuangan)",
+      "org_type": "GOV",
+      "org_description": "负责国家财政预算（APBN）、税收与国库管理的政府部门，财政部长为金融体系稳定协调论坛（KSSK）成员",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-015",
+      "org_name": "印度尼西亚努山塔拉未来力量投资管理局 (Danantara Indonesia)",
+      "org_type": "GOV",
+      "org_description": "统筹国有企业资产的国家投资管理机构，其国企分红上缴、资金运作与宏观流动性管理同央行货币政策及金融稳定职能密切关联",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "金融服务管理局 (Otoritas Jasa Keuangan, OJK)",
+      "org_type": "GOV",
+      "org_description": "银行业与资本市场的微观审慎监管机构（2011年底起承接央行微观监管职能）；与央行在宏观审慎、金融稳定与支付监管上分工协作，同为KSSK成员",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "存款保险机构 (Lembaga Penjamin Simpanan, LPS)",
+      "org_type": "FIN",
+      "org_description": "存款保险机构，与财政部、央行、OJK共同构成印尼金融安全网（KSSK）；现任行长德丝特里·达玛扬蒂曾于2015年起任LPS专员",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚共和国政府 (Pemerintah RI)",
+      "org_type": "GOV",
+      "org_description": "央行依法独立于政府运作；行长与副行长人选经总统提名、国会批准后由总统任命（Keppres），央行在法律框架下与政府协同宏观政策",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "东南亚国家央行合作机制 (ASEAN Central Banks)",
+      "org_type": "INTL",
+      "org_description": "东盟十国央行区域合作机制，推进本币结算（LCS）与跨境支付互联互通（QRIS跨境互联等）；印尼央行为核心参与方",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "ID-FIN-003",
+      "org_name": "曼迪里银行 (Bank Mandiri)",
+      "org_type": "FIN",
+      "org_description": "印尼资产规模最大的国有商业银行（系统重要性银行）；央行对其行使宏观审慎管理与支付系统监督，现任行长德丝特里·达玛扬蒂曾任其首席经济学家（2011-2015）",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "印度尼西亚银行（Bank Indonesia，简称BI）是印度尼西亚共和国的中央银行，总部设于雅加达。其前身是1828年1月24日依荷兰国王威廉一世特许（Oktrooi）设立的爪哇银行（De Javasche Bank），日占时期（1942年起）曾被改组为日本军政当局的南方开发金库（Nanpo Kaihatsu Ginko），1951年12月印尼政府依据第24号法律完成对爪哇银行的国有化，1953年依据第11号《印度尼西亚银行法》将其改组为国家中央银行，该法生效日1953年7月1日被定为央行成立日。依据1999年5月17日生效的第23号《印度尼西亚银行法》（先后经2004年修订、2008年紧急状态政府条例及2009年第6号法律完善）和1945年宪法第23D条，央行作为独立的国家机构运作，不受政府或其他任何方面干预，其唯一法定目标是实现并维持卢比（印尼盾）币值稳定，涵盖对内物价稳定（通胀）与对外汇率稳定两个维度；三大职能为：制定并执行货币政策、维护支付系统顺畅运转、维护金融体系稳定（2011年底微观审慎监管职能移交OJK后，央行保留宏观审慎职能）。治理上实行行长理事会制（Dewan Gubernur），由行长1名、高级副行长1名及副行长4-7名组成，行长任期5年、最多连任三届，利率等货币政策由每月至少一次的行长理事会会议（RDG）决策。央行是印尼唯一有权发行与回笼卢比现钞的机构，运营BI-RTGS大额支付系统、BI-FAST零售实时支付系统与QRIS国家二维码支付标准，推进『加鲁达计划』（Project Garuda）数字卢比研发，并通过SRBI等工具开展公开市场操作，同时持有与管理国家外汇储备（2026年8月末约1465亿美元）。现任行长为德丝特里·达玛扬蒂（第17任，2026-2031年任期），系印尼央行史上首位正式女性行长。",
+  "industries": [
+    "monetary_policy",
+    "banking",
+    "payment_services",
+    "financial_services"
+  ],
+  "apec_stance": "印尼为APEC成员经济体。印尼央行不直接参与APEC议程，但作为成员国中央银行通过维持物价与汇率稳定、建设跨境支付互联互通（如与马来西亚、泰国、新加坡、中国等实现QRIS跨境互联及本币结算合作）支持区域贸易投资便利化，与APEC推进的区域经济一体化方向一致。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 73,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
+      "https://english.news.cn/20260501/c2088fcc36984ef3bc839604f9fc53f5/c.html",
+      "https://finance.detik.com/moneter/d-8591554/alasan-perry-warjiyo-mundur-dari-gubernur-bi",
+      "https://fintechnews.id/109836/payments/indonesia-china-qris-cross-border-payment/",
+      "https://id.wikipedia.org/wiki/Bank_Indonesia",
+      "https://id.wikipedia.org/wiki/Destry_Damayanti",
+      "https://investasi.kontan.co.id/news/rupiah-masih-sulit-bangkit-meski-bi-rate-naik-100-bps-ini-faktor-pemberatnya",
+      "https://makassar.antaranews.com/berita/635013/perry-warjiyo-mundur-sebagai-gubernur-bi-karena-alasan-pribadi",
+      "https://money.kompas.com/read/2026/08/27/193257226/profil-aida-s-budiman-35-tahun-karier-di-bi-hingga-jadi-deputi-gubernur-senior",
+      "https://money.kompas.com/read/2026/09/02/172910426/ma-lantik-aida-budiman-dan-solikin-juhro-jadi-deputi-gubernur-bi",
+      "https://perbanas.org/publikasi/infografis-statistik/update-bi-rate-september-2025",
+      "https://tirto.id/destry-damayanti-resmi-menjabat-gubernur-bi-periode-2026-2031-hCd4",
+      "https://www.antaranews.com/berita/5722495/destry-damayanti-resmi-dilantik-jadi-gubernur-bank-indonesia",
+      "https://www.bbc.com/indonesia/articles/cly5q7w4350o",
+      "https://www.bi.go.id/",
+      "https://www.bi.go.id/en/tentang-bi/profil/details.aspx?id=33",
+      "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2810726.aspx",
+      "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2816226.aspx",
+      "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2818126.aspx",
+      "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_286526.aspx",
+      "https://www.bi.go.id/id/rupiah/digital-rupiah/default.aspx",
+      "https://www.linkedin.com/company/central-bank-of-indonesia",
+      "https://www.reuters.com/world/asia-pacific/analysts-reaction-bank-indonesia-governor-perry-warjiyo-stepping-down-2026-07-27/",
+      "https://www.tiktok.com/@bank_indonesia",
       "https://www.wikidata.org/wiki/Q1906161"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q1906161; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 97,
+    "quotes": [
+      {
+        "title": "Bank Indonesia 官方网站 - Profile",
+        "url": "https://www.bi.go.id/en/tentang-bi/profil/details.aspx?id=33"
+      },
+      {
+        "title": "Antara News - Destry Damayanti resmi dilantik jadi Gubernur Bank Indonesia",
+        "url": "https://www.antaranews.com/berita/5722495/destry-damayanti-resmi-dilantik-jadi-gubernur-bank-indonesia"
+      },
+      {
+        "title": "Reuters - Bank Indonesia governor Perry Warjiyo steps down",
+        "url": "https://www.reuters.com/world/asia-pacific/analysts-reaction-bank-indonesia-governor-perry-warjiyo-stepping-down-2026-07-27/"
+      },
+      {
+        "title": "Tirto - Destry Damayanti Resmi Menjabat Gubernur BI Periode 2026-2031",
+        "url": "https://tirto.id/destry-damayanti-resmi-menjabat-gubernur-bi-periode-2026-2031-hCd4"
+      },
+      {
+        "title": "BI-Rate Naik 50 bps menjadi 5,25% (RDG 19-20 Mei 2026, 印尼央行官方新闻稿)",
+        "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2810726.aspx"
+      },
+      {
+        "title": "BI-Rate Tetap 5,75% (RDG 18-19 Agustus 2026, 印尼央行官方新闻稿)",
+        "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2816226.aspx"
+      },
+      {
+        "title": "Cadangan Devisa Agustus 2026 Tetap Terjaga (印尼央行官方新闻稿)",
+        "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2818126.aspx"
+      },
+      {
+        "title": "Fintech News Indonesia - Indonesia Launches QRIS Cross-Border Payments With China",
+        "url": "https://fintechnews.id/109836/payments/indonesia-china-qris-cross-border-payment/"
+      },
+      {
+        "title": "BBC Indonesia - Gubernur BI Perry Warjiyo mundur, Bagaimana rekam jejaknya?",
+        "url": "https://www.bbc.com/indonesia/articles/cly5q7w4350o"
+      },
+      {
+        "title": "Kompas - MA Lantik Aida Budiman dan Solikin Juhro Jadi Deputi Gubernur BI",
+        "url": "https://money.kompas.com/read/2026/09/02/172910426/ma-lantik-aida-budiman-dan-solikin-juhro-jadi-deputi-gubernur-bi"
+      },
+      {
+        "title": "Wikipedia (id) - Destry Damayanti",
+        "url": "https://id.wikipedia.org/wiki/Destry_Damayanti"
+      }
+    ],
+    "notes": "P3深度丰富（2026-09-17）：补全2025-09至2026-09货币政策时间线（降息至4.75%→2026年5-6月累计加息100基点至5.75%）、2026-04-30印尼-中国跨境QRIS上线、8月末外储1465亿美元、佩里·瓦尔吉约辞职细节（7月25日辞呈、央行史上首次自愿辞职）与新领导层任命程序（国会Komisi XI fit-and-proper→Keppres 92/P/2026→9月2日最高法院宣誓）；Destry Damayanti确认为第17任行长、央行史上首位正式女性行长。key_people全部person_id经_name_index核验命中（550/551/552/553/139）；related_entities中Danantara=ID-GOV-015、财政部=ID-GOV-017、Bank Mandiri=ID-FIN-003命中索引，OJK/LPS/政府/东盟央行机制未命中索引按规则写null。社媒新增TikTok与LinkedIn官方账号。2026年9月中旬RDG决议截至采集时点尚未检索到公开结果，未收录。央行按合规要求仅作事实性记录。"
   }
 }

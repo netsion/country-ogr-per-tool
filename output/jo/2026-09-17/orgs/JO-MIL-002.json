@@ -1,0 +1,374 @@
+{
+  "org_id": "JO-MIL-002",
+  "basic_info": {
+    "name_original": "القوات البرية الملكية الأردنية",
+    "name_zh": "約旦皇家陸軍",
+    "name_en": "Royal Jordanian Army",
+    "aliases": [
+      "Jordanian Land Force",
+      "Jordanian Ground Forces",
+      "Jordanian Army",
+      "Army of Jordan",
+      "ar Jordan"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "JOR",
+    "hq_country_iso3": "JOR",
+    "founded_date": "1920-01-01",
+    "website": "https://www.jaf.mil.jo",
+    "wikidata_qid": "Q4117226"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Jordan Armed Forces القوات المسلحة الاردنية (@ArmedForcesJO)",
+      "url": "https://www.facebook.com/ArmedForcesJO/",
+      "source": "https://www.facebook.com/ArmedForcesJO/"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@ArmedForcesJO（الحساب الرسمي للقوات المسلحة الأردنية - الجيش العربي）",
+      "url": "https://x.com/ArmedForcesJO",
+      "source": "https://x.com/ArmedForcesJO"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "约旦武装部队官方网站（阿拉伯语版，含陆军及各兵种板块）",
+      "url": "https://www.jaf.mil.jo",
+      "description": "约旦武装部队（-阿拉伯陆军-）总司令部官方门户，发布陆军领导层任免、声明、演习与边境安全通报等公开信息；约旦皇家陆军未设独立网站，经由该站发布。",
+      "source": "https://www.jaf.mil.jo"
+    },
+    {
+      "name": "约旦武装部队官方网站（英语版）",
+      "url": "https://www.jaf.mil.jo/Defaulten.aspx",
+      "description": "JAF 总司令部英文版站点，提供司令部结构、参谋长及各兵种司令的公开介绍。",
+      "source": "https://www.jaf.mil.jo/Defaulten.aspx"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "JO-PERSON-000001",
+      "name": "阿卜杜拉二世·本·侯赛因国王 (عبد الله الثاني بن الحسين)",
+      "title": "约旦武装部队最高统帅",
+      "title_description": "Supreme Commander of the Jordanian Armed Forces",
+      "description": "约旦哈希姆王国国王，依据1952年宪法兼任武装部队-阿拉伯陆军-最高统帅，有权任免武装部队高级指挥层并对各军种部队实施指挥控制，四大军区及陆军所有部队最终均归其指挥。"
+    },
+    {
+      "person_id": "JO-PERSON-000037",
+      "name": "马吉迪·哈拉西斯 (مجدي محمد حماد الحراسيس)",
+      "title": "约旦武装部队参谋长（联席参谋长）",
+      "title_description": "Chairman of the Joint Chiefs of Staff of the Jordanian Armed Forces",
+      "description": "1971年出生，2026年9月2日经皇家法令生效出任武装部队参谋长，接替退役的胡奈提；同日由准将晋升少将军衔。曾任军事情报局局长等职务，被视为在地区安全敏感时期执掌约旦军队的将领。"
+    },
+    {
+      "person_id": "JO-PERSON-000208",
+      "name": "优素福·哈纳伊蒂 (يوسف أحمد الحنيطي)",
+      "title": "前约旦武装部队参谋长（2019-2026）",
+      "title_description": "Former Chairman of the Joint Chiefs of Staff (2019-2026)",
+      "description": "2019年起出任约旦武装部队参谋长，任内经历改组与地区局势动荡，2026年9月经皇家法令晋升中将军衔并退役，由哈拉西斯接任。"
+    },
+    {
+      "person_id": "JO-PERSON-000028",
+      "name": "哈布斯·马贾利 (حابس المجالي)",
+      "title": "历史著名将领（前武装部队参谋长）",
+      "title_description": "Notable historical commander; former Chairman of the Joint Chiefs of Staff",
+      "description": "阿拉伯军团出身的约旦陆军历史名将，曾参加1948年战争，后官至约旦武装部队参谋长并两度出任国防大臣，被英文维基百科列为该军种最著名的指挥官之一。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "陆军总司令部（General Headquarters，驻安曼）",
+      "dept_id": "JO-MIL-002-DEPT-001",
+      "head": null,
+      "description": "约旦皇家陆军统帅机关，设于安曼，下辖联合参谋局、联合作战局、战略规划局、军事情报局、皇家医疗服务局、国防采购局、士气指导局等主要业务局。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "北部军区司令部",
+      "dept_id": "JO-MIL-002-DEPT-002",
+      "head": null,
+      "description": "负责叙利亚方向及北部国土防御的军区，公开资料显示编有机械化、步兵、炮兵与防空旅。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "中部军区司令部",
+      "dept_id": "JO-MIL-002-DEPT-003",
+      "head": null,
+      "description": "负责以安曼-扎尔卡为核心的中部国土防御，公开资料显示编有机械化、轻型步兵、炮兵与防空旅。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "东部军区司令部",
+      "dept_id": "JO-MIL-002-DEPT-004",
+      "head": null,
+      "description": "负责伊拉克方向及东部沙漠地带国土防御，公开资料显示编有机械化、炮兵与防空旅。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "南部军区司令部",
+      "dept_id": "JO-MIL-002-DEPT-005",
+      "head": null,
+      "description": "负责沙特方向及亚喀巴以南地区国土防御，公开资料显示编有装甲与步兵旅；亦承担南部边境安全通报任务。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "皇家卫队特别司令部",
+      "dept_id": "JO-MIL-002-DEPT-006",
+      "head": null,
+      "description": "负责王室警卫的精锐司令部，下辖由忠诚于王室的贝都因部落精挑人员组成的皇家卫队部队及特种任务营。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "国王阿卜杜拉二世皇家特种部队司令部",
+      "dept_id": "JO-MIL-002-DEPT-007",
+      "head": null,
+      "description": "陆军序列内的特种作战指挥机构（与索引机构 JO-MIL-008 对应），下辖第71特种营（反恐）、第101特种营等部队，并承担地区特种作战训练合作。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "快速反应部队旅",
+      "dept_id": "JO-MIL-002-DEPT-008",
+      "head": null,
+      "description": "担负快速机动与应急干预任务的旅级单位，下辖第61突击营及第81、第91快反营。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "皇家炮兵司令部",
+      "dept_id": "JO-MIL-002-DEPT-009",
+      "head": null,
+      "description": "陆军炮兵兵种司令部，公开资料显示辖目标侦测营、野战炮兵营及装备WM-120、HIMARS的远程火箭炮营等。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "野战防空司令部",
+      "dept_id": "JO-MIL-002-DEPT-010",
+      "head": null,
+      "description": "陆军野战防空兵种机构，下辖皇家防空学校及各防空营，负责低空防御。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "皇家工兵司令部",
+      "dept_id": "JO-MIL-002-DEPT-011",
+      "head": null,
+      "description": "陆军工兵兵种机构，辖工程机械群、通用支援工兵营、爆炸物处理分队与化学支援群等。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "边境安全司令部",
+      "dept_id": "JO-MIL-002-DEPT-012",
+      "head": null,
+      "description": "统管边防部队的机构，辖电子侦察群与边防训练中心；边防营定期公开发布挫败越境与走私的通报。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "无人系统司令部",
+      "dept_id": "JO-MIL-002-DEPT-013",
+      "head": null,
+      "description": "负责陆军无人机系统作战、训练的机构，公开资料显示辖无人机作战群、第252特种分队与无人机训练中心。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "电子战司令部",
+      "dept_id": "JO-MIL-002-DEPT-014",
+      "head": null,
+      "description": "陆军电子战兵种机构，公开资料显示辖第1、第2电子战营、反无人机电子战群与频谱管理单位等。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "皇家通信部队",
+      "dept_id": "JO-MIL-002-DEPT-015",
+      "head": null,
+      "description": "陆军通信兵种，辖司令部通信群、第7通信营及谢里夫·纳赛尔军事通信学院。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "皇家维修部队",
+      "dept_id": "JO-MIL-002-DEPT-016",
+      "head": null,
+      "description": "陆军装备维修保障兵种，辖费萨尔亲王轮式装备主修厂、侯赛因国王履带装备主修厂及各中心维修厂。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "供应与运输司令部",
+      "dept_id": "JO-MIL-002-DEPT-017",
+      "head": null,
+      "description": "陆军后勤运输兵种机构，辖主运输群与坦克运输群；另设军用仓库司令部与军械司令部负责仓储弹药保障。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "皇家宪兵司令部",
+      "dept_id": "JO-MIL-002-DEPT-018",
+      "head": null,
+      "description": "陆军宪兵指挥机构，辖安曼、北方、中部、南方宪兵群及军事惩戒设施与刑事调查分队。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    },
+    {
+      "name": "第3装甲师（战略预备队）",
+      "dept_id": "JO-MIL-002-DEPT-019",
+      "head": null,
+      "description": "公开资料记载的陆军战略预备队装甲师，在扎尔卡、安曼近郊及卡特拉奈部署，担负战略机动与腹地守备任务。",
+      "parent_dept_id": "JO-MIL-002-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-02",
+      "title": "皇家法令任命马吉迪·哈拉西斯为武装部队参谋长",
+      "description": "约旦皇家法院宣布，国王阿卜杜拉二世颁布皇家法令，任命马吉迪·穆罕默德·哈马德·哈拉西斯少将于2026年9月2日起出任约旦武装部队参谋长，接替执掌军队七年的胡奈提；同期法令将胡奈提晋升中将军衔并安排退役。哈拉西斯曾任军事情报局局长。",
+      "impact": "陆军及整个武装部队最高军职领导层完成更替，新任参谋长在地区安全形势敏感期上任，预计延续对边境安全与对美军事合作的高度重视。",
+      "source": "https://kingabdullah.jo/en/news/royal-decree-appoints-al-harasis-as-chairman-of-joint-chiefs-of-staff-1"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "约旦武装部队在美国启动'雄狮决心2026'（Eager Lion 2026）演习",
+      "description": "美国中央司令部与约旦武装部队在科罗拉多州卡森堡启动Eager Lion 2026演习，200余名约旦等国军事人员参加。该年度多国演习传统上由约旦在安曼等地主办，2026年度在美境内举行。",
+      "impact": "显示约美军事合作关系延续，陆军地面部队通过年度旗舰演习保持与美军及伙伴国的联合训练水平。",
+      "source": "https://www.iranintl.com/en/202609157379"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "陆军宣布挫败北部边境5人越境渗透企图",
+      "description": "约旦武装部队发布通报称，陆军边防部队当日在北部军区辖区挫败5人非法越境进入约旦领土的企图。此类边境安全通报是陆军近年来持续公开发布的常规信息。",
+      "impact": "反映陆军与边防部队持续承担叙利亚方向边境安全任务，防范走私与非法越境。",
+      "source": "https://www.aljazeera.net/news/2026/8/12/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%8A%D8%AD%D8%A8%D8%B7-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%AA%D8%B3%D9%84%D9%84-5-%D8%A3%D8%B4%D8%AE%D8%A7%D8%B5"
+    },
+    {
+      "date": "2026-01-24",
+      "title": "国王下令改组约旦武装部队-阿拉伯陆军",
+      "description": "国王阿卜杜拉二世以武装部队最高统帅身份下令对约旦武装部队-阿拉伯陆军实施改组，相关指令于2026年1月24日经王室官网公布。",
+      "impact": "启动武装力量结构改革，直接影响陆军区划、指挥体制与部队编成调整方向。",
+      "source": "https://kingabdullah.jo/en/news/king-orders-restructuring-of-jordan-armed-forces-arab-army-1"
+    },
+    {
+      "date": "2025-10-24",
+      "title": "美约完成'雄狮决心2026'演习初始规划会议",
+      "description": "美国中央司令部宣布，与约旦武装部队于10月24日前后完成Eager Lion 2026演习的初始规划会议；演习原计划2026年5月在约旦举行，为美约年度最重要的多国联合演习。",
+      "impact": "确认约美年度联合军演机制延续，陆军为演习主要地面参与力量。",
+      "source": "https://www.centcom.mil/MEDIA/NEWS-ARTICLES/News-Article-View/Article/4325870/us-jordan-complete-initial-planning-for-exercise-eager-lion-2026/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "JO-MIL-001",
+      "org_name": "约旦武装部队（القوات المسلحة الأردنية - الجيش العربي）",
+      "org_type": "MIL",
+      "org_description": "约旦武装部队总司令部，约旦皇家陆军为其地面力量分支。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "JO-GOV-014",
+      "org_name": "约旦国防部（وزارة الدفاع）",
+      "org_type": "GOV",
+      "org_description": "负责国防行政事务的政府部门，对武装部队行使行政与预算层面的监管职能。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "JO-GOV-001",
+      "org_name": "约旦君主（哈希姆王国国王）",
+      "org_type": "GOV",
+      "org_description": "国王依据宪法兼任武装部队最高统帅，直接指挥包括陆军在内的各军种。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "JO-MIL-003",
+      "org_name": "约旦皇家空军（سلاح الجو الملكي الأردني）",
+      "org_type": "MIL",
+      "org_description": "约旦武装部队空中力量分支，与陆军同为JAF主要作战军种。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "约旦皇家海军（القوة البحرية الملكية）",
+      "org_type": "MIL",
+      "org_description": "约旦武装部队海上力量分支，负责亚喀巴湾及东部边境水域防务。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "JO-MIL-008",
+      "org_name": "国王阿卜杜拉二世特种部队群（约旦联合特种作战司令部）",
+      "org_type": "MIL",
+      "org_description": "陆军序列内的特种作战精锐部队，负责反恐与特种任务并开展地区训练合作。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "皇家医疗服务局（الخدمات الطبية الملكية）",
+      "org_type": "MIL",
+      "org_description": "武装部队医疗体系，为陆军提供野战医院与医疗保障，下辖6个机动野战医院。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "JO-MIL-007",
+      "org_name": "约旦宪兵部队（قوات الدرك）",
+      "org_type": "MIL",
+      "org_description": "承担国内安全与宪兵职能的武装部队单位，与陆军协同维护内部安全。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "JO-MIL-010",
+      "org_name": "约旦设计与发展局（JODDB）",
+      "org_type": "MIL",
+      "org_description": "约旦国防科技与军工设计机构，为陆军M-60A3、挑战者1等装备升级提供改装方案。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "美国中央司令部（US Central Command, CENTCOM）",
+      "org_type": "INTL",
+      "org_description": "美军负责中东地区的联合作战司令部，与约旦武装部队共同主办年度Eager Lion多国演习，并对约旦提供军事训练与援助。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "约旦皇家陆军是约旦武装部队（-阿拉伯陆军-）的地面力量分支，源流可追溯至1920年代在英国委任统治外约旦时期组建的阿拉伯军团等部队，1920年建军的传统沿用至今。陆军以国王为最高统帅，公开资料显示现役兵力约8.6万人、预备役约6万人，总部驻安曼。其核心职能是国土防御与边境安全：通过北部、中部、东部、南部四大军区司令部及战略预备队（第3装甲师）在叙利亚、伊拉克、沙特、以色列/巴勒斯坦方向组织防御；边防部队与边境安全司令部持续公开通报挫败走私、武器偷运与非法越境活动。陆军编有装甲、步兵、炮兵（含HIMARS与WM-120远程火箭炮营）、野战防空、工兵、通信、维修、供应运输、宪兵等兵种，并辖皇家卫队特别司令部、国王阿卜杜拉二世皇家特种部队司令部与快速反应部队旅等精锐单位；装备以美英系坦克装甲车辆为主（勒克莱尔、M60A3、半人马座等），部分装备由约旦设计与发展局（JODDB）实施升级。陆军长期参与联合国维和行动，派兵赴非洲、阿富汗、海地、东帝汶等地；并以国王阿卜杜拉二世特种作战训练中心（KASOTC）等设施为平台开展国际训练合作，与美国中央司令部年度联合举办'雄狮决心'（Eager Lion）多国演习，同时为多个阿拉伯国家培训特种部队。2026年初国王下令改组武装部队，陆军正朝轻型化、模块化旅级结构转型。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": null,
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Royal_Jordanian_Army_Seal.svg/330px-Royal_Jordanian_Army_Seal.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_en",
+      "wikipedia_ar",
+      "kingabdullah.jo",
+      "jaf.mil.jo",
+      "centcom.mil",
+      "aljazeera.net",
+      "jordantimes.com",
+      "aa.com.tr",
+      "iranintl.com",
+      "x.com"
+    ],
+    "completeness_score": 84,
+    "notes": "Phase 3 enriched profile of the Royal Jordanian Army (ground force branch of JAF). Leadership reflects the 2026-09-02 royal decree appointing Maj. Gen. Majdi Al-Harasis as Chairman of the Joint Chiefs of Staff, succeeding Gen. Yousef Al-Huneiti; King Abdullah II is Supreme Commander (per constitution). Organizational structure (4 regional commands, combat/support/service arms) and size figures from public Wikipedia/JAF sources. Recent events limited to publicly reported appointments, restructuring order, Eager Lion exercise and border security statements. Army publishes via JAF joint official accounts (no separate army-specific social media). | QA身份核验修正：误绑JO-PERSON-000010 → 优素福·哈纳伊蒂 (يوسف أحمد الحنيطي) | QA身份核验修正：误绑000028 → 哈布斯·马贾利 (حابس المجالي)（历史名将为Habes Al-Majali元帅(1914-2001)，非Firas（000028画像代理核实））",
+    "quotes": [
+      {
+        "title": "Royal Decree appoints Al Harasis as chairman of joint chiefs of staff",
+        "url": "https://kingabdullah.jo/en/news/royal-decree-appoints-al-harasis-as-chairman-of-joint-chiefs-of-staff-1"
+      },
+      {
+        "title": "King orders restructuring of Jordan Armed Forces-Arab Army",
+        "url": "https://kingabdullah.jo/en/news/king-orders-restructuring-of-jordan-armed-forces-arab-army-1"
+      },
+      {
+        "title": "U.S.-Jordan Complete Initial Planning for Exercise Eager Lion 2026",
+        "url": "https://www.centcom.mil/MEDIA/NEWS-ARTICLES/News-Article-View/Article/4325870/us-jordan-complete-initial-planning-for-exercise-eager-lion-2026/"
+      },
+      {
+        "title": "الجيش الأردني يحبط محاولة تسلل 5 أشخاص عبر الحدود الشمالية",
+        "url": "https://www.aljazeera.net/news/2026/8/12/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%8A%D8%AD%D8%A8%D8%B7-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%AA%D8%B3%D9%84%D9%84-5-%D8%A3%D8%B4%D8%AE%D8%A7%D8%B5"
+      },
+      {
+        "title": "Royal Jordanian Army - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Royal_Jordanian_Army"
+      }
+    ]
+  }
+}

@@ -3,51 +3,383 @@
   "wikidata_qid": "Q4202141",
   "name": "Sam Ratulangi",
   "name_en": "Sam Ratulangi",
-  "name_local": "Sam Ratulangi",
   "name_zh": "萨姆·拉图兰吉",
-  "name_ms": "Sam Ratulangi",
-  "aliases": [],
+  "aliases": [
+    "Gerungan Saul Samuel Jacob Ratulangi",
+    "G.S.S.J. Ratulangi",
+    "GSSJ Ratulangi",
+    "Ratu Langie",
+    "Dr. Ratulangi"
+  ],
   "nationality": "ID",
   "gender": "male",
   "birth_date": "1890-11-05",
-  "birth_place": null,
+  "birth_place": "印度尼西亚北苏拉威西省通达诺 (Tondano, Sulawesi Utara)",
   "contacts": [],
-  "current_positions": [
-    "北苏拉威西省省长",
-    "人民议会议员（殖民时期）"
-  ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "current_positions": [],
+  "education": [
     {
-      "org_id": "ID-GOV-032",
-      "org_name": "Mahkamah Konstitusi Republik Indonesia",
-      "title": "member of the Volksraad",
-      "relationship": "key_personnel",
-      "source": "manual_curated_binding"
+      "institution": "欧洲低级学校通达诺分校 (Europeesche Lagere School, Tondano)",
+      "degree": "primary",
+      "field": null,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "首长子弟中学 (Hoofden School, Tondano)",
+      "degree": "other",
+      "field": null,
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "威廉明娜女王技术中学 (Koningin Wilhelmina, Batavia)",
+      "degree": "high_school",
+      "field": "技术课程",
+      "start_date": null,
+      "end_date": "1908"
+    },
+    {
+      "institution": "阿姆斯特丹自由大学 (Vrije Universiteit Amsterdam)",
+      "degree": "other",
+      "field": "中学数学教学证书 (Middelbare Acte Wiskunde en Paedagogiek)",
+      "start_date": "1912",
+      "end_date": "1913"
+    },
+    {
+      "institution": "苏黎世大学 (Universität Zürich)",
+      "degree": "doctorate",
+      "field": "数学与自然科学 (Doktor der Natur-Philosophie)",
+      "start_date": null,
+      "end_date": "1919"
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "organization": "普琳塞斯·朱莉安娜学校 (Prinses Juliana School)",
+      "org_id": null,
+      "position": "数学与自然科学教师",
+      "start_date": "1919",
+      "end_date": "1922"
+    },
+    {
+      "organization": "印尼保险公司 (Assurantie Maatschappij Indonesia)",
+      "org_id": null,
+      "position": "共同创办人（与罗兰·通贝拉卡在万隆创办；公司名系「Indonesia」一词首次见于正式文件）",
+      "start_date": "1922",
+      "end_date": null
+    },
+    {
+      "organization": "米纳哈萨议会 (Minahasa Raad)",
+      "org_id": null,
+      "position": "秘书（任内推动殖民政府废除米纳哈萨强迫劳役 Herendiensten）",
+      "start_date": "1924",
+      "end_date": "1927"
+    },
+    {
+      "organization": "荷属东印度人民议会 (Volksraad)",
+      "org_id": null,
+      "position": "议员（米纳哈萨代表，加入穆罕默德·胡斯尼·塔姆林发起的民族主义集团 Fraksi Kebangsaan）",
+      "start_date": "1927",
+      "end_date": "1937"
+    },
+    {
+      "organization": "《国家评论》杂志 (Nationale Commentaren)",
+      "org_id": null,
+      "position": "主编（荷语时政评论杂志）",
+      "start_date": "1938",
+      "end_date": null
+    },
+    {
+      "organization": "日本占领军军政府 (Pemerintah Militer Pendudukan Jepang)",
+      "org_id": null,
+      "position": "顾问（1944 年起调驻望加锡军政府）",
+      "start_date": "1943",
+      "end_date": "1945"
+    },
+    {
+      "organization": "印度尼西亚独立准备委员会 (Panitia Persiapan Kemerdekaan Indonesia, PPKI)",
+      "org_id": null,
+      "position": "委员（苏拉威西代表，出席 1945-08-17 独立宣言仪式）",
+      "start_date": "1945-08",
+      "end_date": null
+    },
+    {
+      "organization": "印度尼西亚共和国苏拉威西省政府 (Pemerintah Daerah Sulawesi)",
+      "org_id": null,
+      "position": "苏拉威西省长（首任）",
+      "start_date": "1945-09-02",
+      "end_date": "1949-06-30"
+    },
+    {
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)",
+      "org_id": null,
+      "position": "政府特别顾问兼对荷谈判代表团成员",
+      "start_date": "1948-03",
+      "end_date": "1949-06-30"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "ID-PERSON-000027",
+      "person_name": "苏加诺 (Soekarno)",
+      "relationship_type": "colleague",
+      "description": "独立运动同僚与上下级：同为 PPKI 委员，1945-08-17 一同出席独立宣言仪式并参与通过宪法；经 PPKI 决议获苏加诺任命为首任苏拉威西省长；1948 年自流放地获释后在日惹受苏加诺设宴接待；1961 年 8 月由苏加诺追授印尼民族英雄称号。"
+    },
+    {
+      "person_id": "ID-PERSON-000026",
+      "person_name": "穆罕默德·哈达 (Mohammad Hatta)",
+      "relationship_type": "colleague",
+      "description": "PPKI 同僚：1945 年 8 月共同出席独立宣言仪式并参与 PPKI 会议，会议确立苏加诺、哈达分任正副总统并通过印尼宪法。"
+    },
+    {
+      "person_id": null,
+      "person_name": "罗兰·通贝拉卡 (Roland Tumbelaka)",
+      "relationship_type": "business_partner",
+      "description": "米纳哈萨同乡、医生；约 1922 年在万隆共同创办印尼保险公司 (Assurantie Maatschappij Indonesia)，1927-08-16 又共同创立米纳哈萨统一党 (Persatuan Minahasa)。"
+    },
+    {
+      "person_id": null,
+      "person_name": "B.W. 拉皮安 (Bernard Wilhelm Lapian)",
+      "relationship_type": "colleague",
+      "description": "北苏拉威西民族运动同侪：1933 年 3 月共同推动创立脱离官办东印度教会的米纳哈萨新教教会联合会 (KGPM)；拉图兰吉 1946 年被荷军拘押后，拉皮安于 1949 年接任苏拉威西省长。"
+    },
+    {
+      "person_id": null,
+      "person_name": "A.A. 马拉米斯 (Alexander Andries Maramis)",
+      "relationship_type": "colleague",
+      "description": "民族运动同工：与拉图兰吉、B.W. 拉皮安同属推动米纳哈萨教会独立 (KGPM，1933) 的教会领袖与民族主义者群体。"
+    },
+    {
+      "person_id": null,
+      "person_name": "穆罕默德·胡斯尼·塔姆林 (Mohammad Husni Thamrin)",
+      "relationship_type": "political_ally",
+      "description": "人民议会 (Volksraad) 内政治盟友：拉图兰吉 1927 年进入议会后加入塔姆林发起的民族主义集团 (Fraksi Kebangsaan)，共同争取平权与印尼民族主义诉求。"
+    },
+    {
+      "person_id": null,
+      "person_name": "西拉斯·帕帕雷 (Silas Papare)",
+      "relationship_type": "associate",
+      "description": "流放塞鲁伊岛期间合作：拉图兰吉任帕帕雷领导的巴布亚印尼独立党 (Partai Kemerdekaan Irian Indonesia, PKII) 顾问。"
+    },
+    {
+      "person_id": null,
+      "person_name": "丽玛·梅拉蒂 (Rima Melati)",
+      "relationship_type": "other",
+      "description": "侄女（印尼著名女演员）。据印尼文 Wikipedia 人物信息框记载，为单源信息，存疑。"
+    }
+  ],
   "social_accounts": [],
-  "biography_summary": "印度尼西亚 政治家 （1890–1949）",
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "约西亚斯·拉图兰吉 (Jozias Ratulangi)",
+      "relationship": "father",
+      "industry_or_organization": "通达诺首长子弟中学 (Hoofden School) 教师，约 1880 年赴荷兰哈勒姆接受师范培训"
+    },
+    {
+      "person_id": null,
+      "name": "奥古斯蒂娜·格伦甘 (Augustina Gerungan)",
+      "relationship": "mother",
+      "industry_or_organization": "通达诺-图良 (Tondano-Touliang) 区长雅各布·格伦甘 (Jacob Gerungan) 之女，1911-11-19 病逝"
+    },
+    {
+      "person_id": null,
+      "name": "埃米莉·苏珊娜·胡特曼 (Emilie Suzanne Houtman)",
+      "relationship": "spouse",
+      "industry_or_organization": "第一任妻子，1926 年离婚；育有子女二人"
+    },
+    {
+      "person_id": null,
+      "name": "玛丽亚·卡塔琳娜·约瑟芬·坦巴永 (Maria Catharina Josephine Tambajong)",
+      "relationship": "spouse",
+      "industry_or_organization": "第二任妻子，1928 年结婚；育有子女三人"
+    },
+    {
+      "person_id": null,
+      "name": "科尔内耶·何塞·阿尔贝特·拉图兰吉 (Corneille Jose Albert 'Odie' Ratulangi)",
+      "relationship": "son",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "埃米莉娅·奥古斯蒂娜·拉图兰吉 (Emilia Augustina 'Zus' Ratulangi)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "米莉娅·玛丽亚·马图兰达·拉图兰吉 (Milia Maria Matulanda 'Milly' Ratulangi)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "埃弗迪娜·奥古斯蒂娜·拉图兰吉 (Everdina Augustina 'Lani' Ratulangi)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "伍兰·鲁吉安·马南皮拉·拉图兰吉 (Wulan Rugian Manampira 'Uki' Ratulangi)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    },
+    {
+      "person_id": null,
+      "name": "伍兰·凯耶斯·蕾切尔·威廉明娜·拉图兰吉 (Wulan Kayes Rachel Wilhelmina Ratulangi)",
+      "relationship": "sister",
+      "industry_or_organization": "1898 年首位通过 klein-ambtenaars 低阶公务员考试的印尼女性，成绩高于同场男性考生"
+    },
+    {
+      "person_id": null,
+      "name": "伍兰·蕾切尔·威廉明娜·玛丽亚·拉图兰吉 (Wulan Rachel Wilhelmina Maria Ratulangi)",
+      "relationship": "sister",
+      "industry_or_organization": "1912 年首位获得 hulpacte 荷语基础教育证书的印尼女性"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "1913",
+      "topic": "反殖民主义与荷属东印度前途",
+      "stance_content": "在《Onze Kolonien》杂志发表〈Sarekat Islam〉一文，介绍伊斯兰联盟的发展并肯定至善社运动，写道「历史上从没有一个被殖民的民族能永被殖民」，期望荷属东印度与荷兰不可避免的分离以和平方式实现、并延续两国文化纽带。",
+      "source": "https://en.wikipedia.org/wiki/Sam_Ratulangi"
+    },
+    {
+      "date": "1936",
+      "topic": "殖民地自治（苏塔尔德乔请愿书）",
+      "stance_content": "作为共同联署人支持《苏塔尔德乔请愿书》(Petisi Soetardjo)，要求十年内实现印尼自治；请愿虽经人民议会通过但遭殖民政府拒绝，此事件直接促成 1939 年印尼政治联合会 (GAPI) 的成立。",
+      "source": "https://en.wikipedia.org/wiki/Sam_Ratulangi"
+    },
+    {
+      "date": "1937-06",
+      "topic": "日本军国主义扩张",
+      "stance_content": "出版著作《Indonesia in de Pacific》，警告日本军事化危险，预测日本可能因自身资源匮乏而入侵印尼群岛，并主张环太平洋的印尼及东南亚国家可发挥与「太平洋=大西洋」相匹敌的主导作用；该书内容被视为极具前瞻性。",
+      "source": "https://en.wikipedia.org/wiki/Sam_Ratulangi"
+    },
+    {
+      "date": "1939",
+      "topic": "印尼政治统一（GAPI）",
+      "stance_content": "其领导的米纳哈萨统一党 (Persatuan Minahasa) 为「印尼全体族群的团结互助」发声，并与 Gerindo、Parindra、Pasundan、PPKI、PSII 等政党共同组建印尼政治联合会 (GAPI)，推动印尼各政治力量联合争取独立。",
+      "source": "https://en.wikipedia.org/wiki/Sam_Ratulangi"
+    },
+    {
+      "date": "1948-11-10",
+      "topic": "东印尼与共和国统一（日惹宣言）",
+      "stance_content": "通过印尼共和国电台 (RRI) 发表《拉图兰吉宣言》/《日惹宣言》(Manifes Ratulangie / Manifes Djokja)，与 I Gusti Ketut Pudja、Sukarjo Wiryopranoto 等共同联署，号召荷占东部印尼人民保持与共和国的团结，坚持全印尼最终完全独立的民族自由与尊严。",
+      "source": "https://id.wikipedia.org/wiki/Sam_Ratulangi"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "1914",
+      "achievement": "留学荷兰期间当选印尼学生会组织——印尼联合会 (Perhimpunan Indonesia / Indische Vereeniging) 主席，邀请范德文特等同情印尼事业的人士演讲；在瑞士又参与亚洲学生会并结识尼赫鲁。",
+      "organization": "印尼联合会 (Perhimpunan Indonesia)"
+    },
+    {
+      "date": "1922",
+      "achievement": "与罗兰·通贝拉卡在万隆创办印尼保险公司 (Assurantie Maatschappij Indonesia)，公司名是「Indonesia」一词首次见于正式文件的已知实例；苏加诺即因该公司名而结识拉图兰吉。",
+      "organization": "印尼保险公司 (Assurantie Maatschappij Indonesia)"
+    },
+    {
+      "date": "1927",
+      "achievement": "任米纳哈萨议会秘书期间，广泛争取米纳哈萨人权利，被普遍认为促成殖民政府废除米纳哈萨的强迫劳役 (Herendiensten)，并推动开辟南米纳哈萨莫多因丁、卡纳罗姆移民区及设立助学基金会。",
+      "organization": "米纳哈萨议会 (Minahasa Raad)"
+    },
+    {
+      "date": "1927-08-16",
+      "achievement": "与罗兰·通贝拉卡共同创立仅限平民成员的米纳哈萨统一党 (Persatuan Minahasa)，以地区政党形式凝聚米纳哈萨认同并服务于全国团结。",
+      "organization": "米纳哈萨统一党 (Persatuan Minahasa)"
+    },
+    {
+      "date": "1933-03",
+      "achievement": "与 B.W. 拉皮安、A.A. 马拉米斯等教会领袖与民族主义者共同推动创立独立于官办东印度教会的米纳哈萨新教教会联合会 (KGPM)。",
+      "organization": "米纳哈萨新教教会联合会 (Kerapatan Gereja Protestan Minahasa)"
+    },
+    {
+      "date": "1937-06",
+      "achievement": "出版前瞻性著作《Indonesia in de Pacific》，预警日本军事化与入侵可能，展望环太平洋东南亚国家的前沿角色。",
+      "organization": null
+    },
+    {
+      "date": "1945-06",
+      "achievement": "在望加锡创立「人民血源」组织 (SUDARA / Sumber Darah Rakyat)，唤醒苏拉威西民族主义情绪，为可能到来的独立做准备。",
+      "organization": "人民血源组织 (Sumber Darah Rakyat, SUDARA)"
+    },
+    {
+      "date": "1945-08",
+      "achievement": "作为苏拉威西代表出任印尼独立准备委员会 (PPKI) 委员，亲历 1945-08-17 独立宣言仪式，参与通过印度尼西亚宪法并确立苏加诺—哈达正副总统及地方行政区划。",
+      "organization": "印度尼西亚独立准备委员会 (Panitia Persiapan Kemerdekaan Indonesia)"
+    },
+    {
+      "date": "1945-09-02",
+      "achievement": "获任命为首任苏拉威西省长：返回望加锡正式宣布独立，与望加锡苏丹国、鲁乌王国等土王争取支持，组建运作九个月的地方政府；1946-04-05 被荷军宪兵逮捕拘禁三个月后流放塞鲁伊岛（巴布亚亚彭群岛），在流放地办学助民并任巴布亚印尼独立党顾问。",
+      "organization": "印度尼西亚共和国苏拉威西省政府 (Pemerintah Daerah Sulawesi)"
+    },
+    {
+      "date": "1948-03-23",
+      "achievement": "《伦维尔协定》签署后获荷兰释放，返回日惹受苏加诺设宴欢迎；1948-11-10 通过印尼共和国电台发表《日惹宣言》，号召荷占东部人民与共和国保持团结。",
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)"
+    },
+    {
+      "date": "1958",
+      "achievement": "被追授游击队之星勋章 (Bintang Gerilya)。",
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)"
+    },
+    {
+      "date": "1960",
+      "achievement": "被追授玛哈普特拉·阿迪普拉纳之星勋章 (Bintang Mahaputera Adipradana)。",
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)"
+    },
+    {
+      "date": "1961-08",
+      "achievement": "被苏加诺追授印尼民族英雄 (Pahlawan Nasional Indonesia) 称号；1961 年另获追授 Satyalancana 勋章。北苏拉威西多地干道、万鸦老国际机场 (Sam Ratulangi Airport) 及 Sam Ratulangi 大学均以其命名。",
+      "organization": "印度尼西亚共和国政府 (Pemerintah Republik Indonesia)"
+    },
+    {
+      "date": "2016",
+      "achievement": "头像被印尼央行印于 2016 年版 20,000 印尼盾纸币正面（2022 年版延续使用），成为国家记忆的象征。",
+      "organization": "印度尼西亚银行 (Bank Indonesia)"
+    }
+  ],
+  "biography_summary": "苏拉威西北部米纳哈萨通达诺人，荷兰殖民时期教育家、数学家、记者与政治家，印尼国家英雄。出身米纳哈萨望族（父约西亚斯为教师、母奥古斯蒂娜为区长之女），1904 年获奖学金赴爪哇，后毕业于巴达维亚威廉明娜女王技术中学（1908）；赴欧后于 1913 年获阿姆斯特丹中学数学教学证书，1919 年获苏黎世大学数学与自然科学博士学位。1914 年任留荷学生组织「印尼联合会」主席，结识尼赫鲁等人。1919 年回国后先在日惹任教，约 1922 年与罗兰·通贝拉卡在万隆创办「印尼保险公司」（「Indonesia」一词首次见于正式文件）；1924-1927 年任米纳哈萨议会秘书，促成废除强迫劳役；1927 年 8 月创立米纳哈萨统一党，同年出任殖民地人民议会 (Volksraad) 议员至 1937 年因政见被捕、囚于万隆苏卡米斯金监狱；1936 年联署《苏塔尔德乔请愿书》，1937 年出版《Indonesia in de Pacific》预警日本南侵，1939 年参与组建 GAPI。日占时期任军政府顾问（1944 年调驻望加锡），1945 年 6 月创立 SUDARA 组织。1945 年 8 月作为苏拉威西代表出任 PPKI 委员并出席独立宣言仪式，1945-09-02 至 1949-06-30 任首任苏拉威西省长；1946-04-05 被荷军逮捕并流放塞鲁伊岛，1948-03-23 获释后任政府特别顾问，1948-11-10 发表《日惹宣言》号召东部印尼人与共和国团结。1948-12-25 再度被荷军扣押，1949-01-12 转押雅加达软禁，1949-06-30 病逝于雅加达，享年 58 岁，后归葬通达诺。1958 年、1960 年先后被追授游击队之星与玛哈普特拉·阿迪普拉纳之星勋章，1961 年 8 月被苏加诺追授民族英雄称号；其名言「Si tou timou tumou tou」（人之所以为人，在于使他人成其为人）广为传颂，头像见于 2 万盾纸币，万鸦老国际机场与 Sam Ratulangi 大学均以其命名。",
   "profile": {
-    "source_url": "https://www.wikidata.org/wiki/Q4202141",
-    "local_path": null,
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam%20Ratulangi%201962%20Indonesia%20stamp.jpg?width=500",
-    "primary_source": "Wikidata"
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam_Ratulangi_IPPHOS.jpg?width=500",
+    "local_path": "photos/ID-PERSON-000259.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Governor of North Sulawesi",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P4b_expanded",
+    "collection_date": "2026-09-17",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q4202141"
+      "wikipedia",
+      "wikidata",
+      "government_directory",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 45,
-    "notes": "expanded lite profile",
-    "quotes": []
+    "completeness_score": 88,
+    "notes": "已故历史人物（1890-11-05 生于北苏拉威西通达诺，1949-06-30 病逝于雅加达荷方软禁中，享年 58 岁，1949-08-02 归葬通达诺）。出生与逝世日期经英文/印尼文 Wikipedia 全文 + Wikidata Q4202141 (P569/P570/P19/P20) + 布勒伦县政府教育局专文 + SABDA Bio-Kristi 专文 4 方交叉确认；任务线索中「1902-11-05 出生于万鸦老」「1945-08-01 被日军处决（享年 46）」均与全部来源矛盾，已按来源修正为 1890 年通达诺出生、1949-06-30 于雅加达荷方软禁中病逝。教育：苏黎世大学数学与自然科学博士（1919）经英/印尼维基、Wikidata (P69/P512) 与 SABDA 多方确认；布勒伦县教育局专文称「乌得勒支大学博士」系孤例且与其余来源冲突，不采信。阿姆斯特丹就读大学具名为阿姆斯特丹自由大学（Wikidata P69 + SABDA 双源）。存疑日期：中学数学教学证书年份 en/印尼维基作 1913、SABDA 作 1915（取多数 1913）；省长获任命日 SABDA 作 1945-08-22、印尼维基任期栏作 1945-09-02 起（任期栏为准，属就任与任命日之别）。原档案冗余字段 name_local/name_ms/profile.photo_url/profile.primary_source/importance_level/importance_reason 因违反 schema additionalProperties=false 已删除（photo_url 并入 profile.source_url，importance 信息记录于本备注）；原 person_relationships 中对 ID-GOV-032（印尼宪法法院）的绑定经核实系误绑（拉图兰吉关联的是殖民时期 Volksraad 议员身份，已移入 work_experience），已删除并以合规 person_relationships 条目替代。人物索引命中：苏加诺=ID-PERSON-000027、穆罕默德·哈达=ID-PERSON-000026，其余关联人未命中一律 null；组织（Volksraad/PPKI/米纳哈萨议会等）均无 ID 索引命中，org_id 全部 null。社交媒体检索确认其无个人账号（1949 年逝世，现存均为大学/机场/粉丝页），social_accounts 留空。子女第五人姓名拼写两维基略有出入（enwiki: Wulan Rugian Manampira / idwiki: Wularingan Manampira），采用 enwiki 版本；侄女丽玛·梅拉蒂为单源信息，已标注存疑。",
+    "quotes": [
+      {
+        "title": "Sam Ratulangi - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sam_Ratulangi"
+      },
+      {
+        "title": "Sam Ratulangi - Wikipedia bahasa Indonesia, ensiklopedia bebas",
+        "url": "https://id.wikipedia.org/wiki/Sam_Ratulangi"
+      },
+      {
+        "title": "Wikidata EntityData Q4202141 (Sam Ratulangi)",
+        "url": "https://www.wikidata.org/wiki/Special:EntityData/Q4202141.json"
+      },
+      {
+        "title": "Mengenal Sam Ratulangi: Pahlawan Pendidikan yang Harus Kamu Ketahui - Disdikpora Kabupaten Buleleng",
+        "url": "https://disdikpora.bulelengkab.go.id/informasi/detail/artikel/77_mengenal-sam-ratulangi-pahlawan-pendidikan-yang-harus-kamu-ketahui"
+      },
+      {
+        "title": "Sam Ratulangi | Bio-Kristi - SABDA.org",
+        "url": "https://biokristi.sabda.org/sam_ratulangi"
+      }
+    ]
   }
 }

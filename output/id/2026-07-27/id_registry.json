@@ -87,12 +87,6 @@
       "category": "CORP"
     },
     {
-      "org_id": "ID-CORP-003",
-      "wikidata_qid": "Q4646307",
-      "name": "99 Ranch Market",
-      "category": "CORP"
-    },
-    {
       "org_id": "ID-CORP-004",
       "wikidata_qid": "Q19871383",
       "name": "ABC Heinz Indonesia",
@@ -619,29 +613,34 @@
       "wikidata_qid": "Q4273095",
       "name": "Pos Indonesia",
       "category": "SOE"
+    },
+    {
+      "org_id": "ID-SOE-006",
+      "name": "PT Bank Negara Indonesia (Persero) Tbk / BNI",
+      "org_type": "FIN",
+      "status": "auto_registered"
+    },
+    {
+      "org_id": "ID-GOV-037",
+      "name": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+      "org_type": "GOV",
+      "status": "auto_registered"
     }
   ],
   "counters": {
-    "GOV": 34,
+    "GOV": 37,
     "SOE": 7,
-    "CORP": 22,
+    "CORP": 23,
     "ACAD": 12,
     "MEDIA": 10,
     "FIN": 8,
     "PARTY": 10,
     "NGO": 0,
     "MIL": 0,
-    "INTL": 0,
-    "PERSON": 424
+    "INTL": 0
   },
   "person_id_rule": "ID-PERSON-{SEQ:06d}",
   "person_registry": [
-    {
-      "person_id": "ID-PERSON-000001",
-      "wikidata_qid": "Q2107268",
-      "name": "Prabowo Subianto",
-      "importance": "high"
-    },
     {
       "person_id": "ID-PERSON-000002",
       "wikidata_qid": "Q18342893",
@@ -652,12 +651,6 @@
       "person_id": "ID-PERSON-000003",
       "wikidata_qid": "Q3318231",
       "name": "Joko Widodo",
-      "importance": "high"
-    },
-    {
-      "person_id": "ID-PERSON-000004",
-      "wikidata_qid": "Q76179",
-      "name": "Megawati Soekarnoputri",
       "importance": "high"
     },
     {
@@ -700,12 +693,6 @@
       "person_id": "ID-PERSON-000011",
       "wikidata_qid": "Q12521705",
       "name": "Muhammad Tito Karnavian (Tito Karnavian)",
-      "importance": "high"
-    },
-    {
-      "person_id": "ID-PERSON-000012",
-      "wikidata_qid": "Q12471140",
-      "name": "Airlangga Hartarto",
       "importance": "high"
     },
     {
@@ -805,12 +792,6 @@
       "importance": "high"
     },
     {
-      "person_id": "ID-PERSON-000029",
-      "wikidata_qid": "Q76156",
-      "name": "B. J. Habibie",
-      "importance": "high"
-    },
-    {
       "person_id": "ID-PERSON-000030",
       "wikidata_qid": "Q76179",
       "name": "Megawati Soekarnoputri",
@@ -874,18 +855,6 @@
       "person_id": "ID-PERSON-000040",
       "wikidata_qid": "Q44819",
       "name": "Soeharto (Suharto)",
-      "importance": "high"
-    },
-    {
-      "person_id": "ID-PERSON-000041",
-      "wikidata_qid": "Q57405",
-      "name": "Susilo Bambang Yudhoyono",
-      "importance": "high"
-    },
-    {
-      "person_id": "ID-PERSON-000042",
-      "wikidata_qid": "Q76167",
-      "name": "Abdurrahman Wahid",
       "importance": "high"
     },
     {
@@ -1405,12 +1374,6 @@
       "importance": "high"
     },
     {
-      "person_id": "ID-PERSON-000129",
-      "wikidata_qid": "Q3318231",
-      "name": "Joko Widodo",
-      "importance": "high"
-    },
-    {
       "person_id": "ID-PERSON-000130",
       "wikidata_qid": "Q3107476",
       "name": "Juwono Sudarsono",
@@ -1456,12 +1419,6 @@
       "person_id": "ID-PERSON-000137",
       "wikidata_qid": "Q3033048",
       "name": "Djoehana Wiradikarta",
-      "importance": "medium"
-    },
-    {
-      "person_id": "ID-PERSON-000138",
-      "wikidata_qid": "Q3177708",
-      "name": "Sri Mulyani Indrawati",
       "importance": "medium"
     },
     {
@@ -2519,11 +2476,3931 @@
       "wikidata_qid": "Q116046046",
       "name": "Justin Hubner",
       "importance": "low"
+    },
+    {
+      "person_id": "ID-PERSON-000425",
+      "name": "穆罕默德·马迪安 (Muhammad Madyan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000427",
+      "name": "穆罕默德·纳西 (Mohammad Nasih)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000428",
+      "name": "德尔马万·胡塔高尔 (Ir. Dermawan Hutagaol, M.P.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000429",
+      "name": "哈贾·拉赫玛·纳苏蒂安 (Hajjah Rachmah Nasution)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000430",
+      "name": "阿卜杜勒·马南·穆伊斯 (H. Abdul Manan Muis)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000431",
+      "name": "维多多·穆克蒂约 (Widodo Muktiyo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000432",
+      "name": "穆罕默德·祖哈尔 (Muhammad Zuhal)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000433",
+      "name": "陶菲克·卡斯图里 (Taufik Kasturi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000434",
+      "name": "优素福·希达亚特 (Yusup Hidayat)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000435",
+      "name": "阿塞普·赛富丁 (Asep Saefuddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000436",
+      "name": "穆罕默德·安西亚尔 (Muh. Ansyar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000437",
+      "name": "阿卜杜拉希姆 (H. Abdurrahim, SH)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000438",
+      "name": "迪丁·穆哈菲丁 (Prof. Dr. H. Didin Muhafidin, S.IP., M.Si.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000439",
+      "name": "楚楚·鲁希亚特纳·维贾亚 (H. Cucu Ruhiatna Wijaya)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000440",
+      "name": "哈姆丹·朱哈尼斯 (Prof. H. Hamdan Juhannis, M.A., Ph.D.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000441",
+      "name": "卡马鲁丁·阿布纳瓦斯 (Prof. Dr. H. Kamaluddin Abunawas, M.Ag.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000442",
+      "name": "安迪·阿德鲁斯 (Prof. Dr. H. Andi Aderus, Lc., M.Ag.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000443",
+      "name": "穆罕默德·哈利法 (Prof. Dr. Muhammad Khalifa, M.Pd.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000444",
+      "name": "穆罕默德·阿姆里 (Prof. Dr. H. Muhammad Amri, Lc., M.Ag.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000445",
+      "name": "达迪·迈鲁胡 (Dady Mairuhu)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000446",
+      "name": "洛里·马库斯·帕雷拉 (Lory Marcus Parera)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000447",
+      "name": "斯特利·罗纳尔多·蒂蒂奥卡 (Stenly Ronaldo Titioka)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000448",
+      "name": "莱奥诺拉·勒赫里 (Lenora Leuhery)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000449",
+      "name": "埃法·约内迪 (Efa Yonnedi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000450",
+      "name": "苏克里·阿里夫 (Syukri Arief)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000451",
+      "name": "赫弗里扎尔·汉德拉 (Hefrizal Handra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000452",
+      "name": "库尔尼亚·瓦尔曼 (Kurnia Warman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000453",
+      "name": "亨迈迪 (Henmaidi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000454",
+      "name": "费布林·阿纳斯·伊斯梅尔 (Febrin Anas Ismail)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000455",
+      "name": "戈德利夫·F·内奥努法 (Prof. Dr. Ir. Godlief F. Neonufa, M.T.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000456",
+      "name": "克里斯蒂安·D·马努 (Dr. Christian D. Manu, S.E., M.Sc.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000457",
+      "name": "尤达·图拉纳 (Yuda Turana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000025",
+      "name": "伊格内修斯·苏哈约枢机 (Ignatius Kardinal Suharyo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000459",
+      "name": "利努斯·M·塞蒂亚迪 (Linus M. Setiadi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000460",
+      "name": "阿古斯提努斯·普拉塞蒂安托科 (Agustinus Prasetyantoko)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000461",
+      "name": "雷特诺·德维玛尔瓦蒂 (Retno Dwimarwati)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000462",
+      "name": "塔塔奇普塔·迪尔甘塔拉 (Tatacipta Dirgantara)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000463",
+      "name": "布迪·古纳迪·萨迪金 (Budi Gunadi Sadikin)",
+      "wikidata_qid": "Q85989277",
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000464",
+      "name": "伊格纳修斯·乔南 (Ignasius Jonan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000465",
+      "name": "苏尔约·苏赫尔曼 (Suryo Suherman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000466",
+      "name": "翁基·瓦纳贾蒂·达南 (Ongki Wanadjati Danan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000467",
+      "name": "苏德维卡特莫诺 (Sudwikatmono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000468",
+      "name": "本尼·苏赫尔曼 (Benny Suherman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000469",
+      "name": "哈里斯·莱斯马纳 (Harris Lesmana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000470",
+      "name": "汉迪·桑托索 (Handy Santoso)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000471",
+      "name": "约纳坦·努格罗霍 (Yonathan Nugroho)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000472",
+      "name": "埃芬迪·维贾亚 (Effendy Widjaja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000473",
+      "name": "因德拉瓦蒂·维贾亚 (Indrawati Widjaja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000474",
+      "name": "亚明·维贾亚 (Yamin Widjaja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000475",
+      "name": "陈丽丝 (Alice Chen)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000476",
+      "name": "陈乔森 (Jonson Chen)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000477",
+      "name": "陈河源 (Roger H. Chen)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000478",
+      "name": "詹德拉·佐约内戈罗 (Chandra Djojonegoro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000479",
+      "name": "胡赛因·佐约内戈罗 (Husain Djojonegoro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000480",
+      "name": "维什努·普拉穆吉 (Wishnu Pramuji)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000481",
+      "name": "伊尔万迪·古斯塔里 (Irvandi Gustari)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000482",
+      "name": "苏吉托 (Sugito)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000483",
+      "name": "阿尔杰·温弗里德·帕卡西 (Arjey Winfried Pakasi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000484",
+      "name": "哈迪 (Hardi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000485",
+      "name": "沙菲克·穆格尼 (Syafiq A. Mughni)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000486",
+      "name": "阿曼·赫尔马万 (Armand Hermawan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000487",
+      "name": "菲·哈里亚蒂·普拉梅什瓦里 (Fey Haryati Prameshwari)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000488",
+      "name": "陶菲克·库尔尼亚万 (Taufik Kurniawan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000489",
+      "name": "拉吉夫·塞西 (Rajeev Sethi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000490",
+      "name": "阿尔斯贾德·拉希德 (Arsjad Rasjid)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000491",
+      "name": "埃里克·阿斯 (Erik Aas)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000492",
+      "name": "穆哈尔迈因·泽因·查尼亚戈 (Moeharmein Zein Chaniago)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000493",
+      "name": "多迪·乌索多·哈尔戈苏塞诺 (Dody Usodo Hargosuseno)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000494",
+      "name": "哈里马万 (Harimawan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000495",
+      "name": "扬·阿里安托 (Yan Arianto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000496",
+      "name": "阿米莉亚·特特里亚纳 (Amelia Tetriana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000497",
+      "name": "贝尼·古纳万 (Beni Gunawan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000498",
+      "name": "伊尔凡·塞蒂亚普特拉 (Irfan Setiaputra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000499",
+      "name": "鲁利扬托 (Rullyanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000500",
+      "name": "布迪扬托 (Budiyanto Djoko Susanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000501",
+      "name": "赫鲁·萨尔沃诺 (Heru Sarwono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000502",
+      "name": "阿利姆·马库斯 (Alim Markus)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000503",
+      "name": "韦利·穆利亚万·列 (Welly Muliawan Lie)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000504",
+      "name": "阿利姆·穆利亚·萨斯特拉 (Alim Mulia Sastra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000505",
+      "name": "阿利姆·普拉卡萨 (Alim Prakasa)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000506",
+      "name": "苏菲安托 (Soefianto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000507",
+      "name": "特库·萨希尔·夏哈里 (Teuku Sahir Syahali)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000508",
+      "name": "勒内·苏哈多诺·卡诺内奥 (Rene Suhardono Canoneo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000509",
+      "name": "威纳尔多 (Winarto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000510",
+      "name": "埃迪·普拉斯蒂约 (Eddy Prastiyo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000511",
+      "name": "卡约·普拉科索 (Cahyo Prakoso)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000512",
+      "name": "温通·布迪哈尔托 (Untung Budiharto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-013"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000513",
+      "name": "拉乌夫·乌塔马 (Rauf Utama)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-013"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000514",
+      "name": "本尼·西加·布塔尔布塔尔 (Benny Siga Butarbutar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000515",
+      "name": "阿赫马德·穆尼尔 (Akhmad Munir)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000516",
+      "name": "约翰内斯·苏尔约科 (Johannes Soerjoko)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000517",
+      "name": "查尔斯·E·布鲁克菲尔德 (Charles E. Brookfield)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000518",
+      "name": "约翰·M·弗拉德 (John M. Flood)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000519",
+      "name": "朱尔斯·布鲁克菲尔德 (Jules Brookfield)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000520",
+      "name": "克里斯·莱加斯皮 (Chris Legaspi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000521",
+      "name": "赫鲁·普尔沃诺 (Heru Purwono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000522",
+      "name": "托马斯·瓦尤·卡拉伊 (Thomas Wahyu Kalaij)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000523",
+      "name": "维达尔索诺 (Widarsono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000524",
+      "name": "朱纳迪·维加亚 (Djoenaedy Widjaja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000525",
+      "name": "汉弗雷 (Humprey)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000526",
+      "name": "尼古拉斯 (The Nicholas)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000527",
+      "name": "特宁金 (The Ning King)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000528",
+      "name": "亨利·F·尤素夫 (Henry F. Jusuf)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000529",
+      "name": "英格丽 (Inggrid)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000530",
+      "name": "耶雷米·文森修 (Yeremy Vincentius)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000531",
+      "name": "连天温 (Tsun Tien Wen Lie)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000532",
+      "name": "陈诗美 (Chan Shih Mei)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000533",
+      "name": "鲁迪 (Rudy)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000534",
+      "name": "普里约诺·苏吉亚尔托 (Prijono Sugiarto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000535",
+      "name": "乔尼·布纳尔托·琼德罗 (Djony Bunarto Tjondro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000536",
+      "name": "威廉·苏里亚贾贾 (William Soerjadjaya)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000537",
+      "name": "恰·建蒂 (Tjia Kian Tie)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000538",
+      "name": "亨德拉·伦邦 (Gregory Hendra Lembong)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000539",
+      "name": "贾赫贾·塞蒂亚特马贾 (Jahja Setiaatmadja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000540",
+      "name": "尤金·基思·加尔布雷思 (Eugene Keith Galbraith)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000541",
+      "name": "罗伯特·布迪·哈托诺 (Robert Budi Hartono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000542",
+      "name": "迈克尔·班邦·哈托诺 (Michael Bambang Hartono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000018",
+      "name": "安东尼·萨利姆 (Anthoni Salim)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000544",
+      "name": "弗朗西库斯·维里朗 (Franciscus Welirang)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000545",
+      "name": "阿克斯顿·萨利姆 (Axton Salim)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000546",
+      "name": "谢子惠 (Tjhie Tje Fie)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000547",
+      "name": "陶菲克·维拉特马贾 (Taufik Wiraatmadja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000548",
+      "name": "林万安 (Andree Halim)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-023"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000549",
+      "name": "林文镜 (Sutanto Djuhar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-CORP-023"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000550",
+      "name": "德丝特里·达玛扬蒂 (Destry Damayanti)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000551",
+      "name": "艾达·S·布迪曼 (Aida S. Budiman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000552",
+      "name": "索利金·M·朱赫罗 (Solikin M. Juhro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000553",
+      "name": "佩里·瓦尔吉约 (Perry Warjiyo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000554",
+      "name": "里杜安 (Riduan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000555",
+      "name": "亨利·潘贾伊坦 (Henry Panjaitan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000556",
+      "name": "祖尔基弗利·扎伊尼 (Zulkifli Zaini)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000557",
+      "name": "鲁迪·萨拉胡丁·拉姆托 (M. Rudy Salahuddin Ramto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000558",
+      "name": "达尔马万·朱奈迪 (Darmawan Junaidi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000559",
+      "name": "弗伦基·蒂尔托维约约 (Frenky Tirtowijoyo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000560",
+      "name": "珍德拉瓦蒂·维加贾 (Tjendrawati Widjaja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000561",
+      "name": "萨米·克里斯塔穆尔贾纳 (Sammy Kristamuljana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000562",
+      "name": "拉斯明 (Rusmin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000563",
+      "name": "米科·安迪加贾 (Miko Andidjaja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000564",
+      "name": "埃卡加雅·翁尼·普特拉 (Ekajaya Ongny Putra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000565",
+      "name": "恩尼·卡马尔 (Enny Kamal)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000566",
+      "name": "阿曼达利娅·约翰内斯 (Amandalia Johanes)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000567",
+      "name": "罗西·迪亚娜 (Rosi Diana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000568",
+      "name": "尤迪·瓦尔拉·约萨 (Yudi Varla Yosa)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000569",
+      "name": "罗伊克·图马哈斯 (Royke Tumajas)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-FIN-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000570",
+      "name": "法杰里·朱弗里 (Fadjry Djufry)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000571",
+      "name": "哈菲兹·穆赫辛 (Hafidz Muhsin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000572",
+      "name": "达当·苏宁德纳 (Dadang Sunendar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000573",
+      "name": "甘贾尔·哈里曼夏 (Ganjar Harimansyah)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000574",
+      "name": "哈马姆·里扎 (Hammam Riza)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000575",
+      "name": "达丹·穆赫·努尔贾曼 (Dadan Moh. Nurjaman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000576",
+      "name": "萨特里奥·苏马尼斯托·布罗约内戈罗 (Satryo Soemanisto Brodjonegoro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000577",
+      "name": "海鲁尔·穆纳迪 (Khairul Munadi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000578",
+      "name": "法乌赞·阿兹曼 (Mohammad Fauzan Adziman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000579",
+      "name": "艾哈迈德·纳吉布·布尔哈尼 (Ahmad Najib Burhani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000580",
+      "name": "萨尼蒂亚尔·布尔汉努丁 (Sanitiar Burhanuddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000581",
+      "name": "阿塞普·纳纳·穆利亚纳 (Asep Nana Mulyana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000582",
+      "name": "普里亚蒂·普佐瓦斯基托 (Prihati Pujowaskito)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000583",
+      "name": "斯特瓦努斯·阿德里安托·帕萨特 (Stevanus Adrianto Passat)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000584",
+      "name": "扎伊纳尔·阿里芬 (Zainal Arifin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000585",
+      "name": "穆罕默德·里德万 (Mohammad Ridwan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000586",
+      "name": "哈恩德拉·苏贝克蒂 (Haendra Subekti)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000587",
+      "name": "朱利亚迪 (Juliadi, S.S., M.Sc.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000588",
+      "name": "安迪·萨纳布 (Dr. Ir. Andi Saenab, M.Si.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000589",
+      "name": "安迪·巴绍·隆彭恩·伊沙克 (Dr. Andi Baso Lompengeng Ishak, S.Pt.)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000590",
+      "name": "雷扎·马赫努尔 (Reza Mahnur)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000591",
+      "name": "萨尤蒂·阿布巴卡 (Sayuti Abubakar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000592",
+      "name": "特迪·因德拉·维贾亚 (Teddy Indra Wijaya)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000593",
+      "name": "法德兰夏·卢比斯 (Fadlansyah Lubis)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000594",
+      "name": "普尔诺莫·苏西普托 (Purnomo Sucipto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000595",
+      "name": "萨特亚·巴蒂·帕里克西特 (Satya Bhakti Parikesit)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000596",
+      "name": "迈拉尼·安佩拉万 (Mailani Amperawan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000597",
+      "name": "迪亚·潘卡宁鲁姆 (Dyah Pancaningrum)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-011"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000598",
+      "name": "斯特菲·扬切·努胡贾南 (Stefie Jantje Nuhujanan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000599",
+      "name": "努格罗霍·诺托苏桑托 (Nugroho Notosusanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000600",
+      "name": "穆罕默德·阿迪布·阿卜杜肖马德 (Muhammad Adib Abdushomad)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-013"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000601",
+      "name": "尤斯里尔·伊赫扎·马亨德拉 (Yusril Ihza Mahendra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000602",
+      "name": "奥托·哈西布安 (Otto Hasibuan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000603",
+      "name": "R. 安迪卡·德维·普拉塞蒂亚 (R. Andika Dwi Prasetya)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000604",
+      "name": "诺夫利 (Nofli)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000605",
+      "name": "伊布努·丘尔敦 (Ibnu Chuldun)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000606",
+      "name": "罗桑·鲁斯拉尼 (Rosan Roeslani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000607",
+      "name": "潘杜·帕特里亚·夏赫里尔 (Pandu Patria Sjahrir)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000608",
+      "name": "东尼·奥斯卡利亚 (Dony Oskaria)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000609",
+      "name": "阿贡·苏甘达 (Agung Suganda)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000610",
+      "name": "努尔亚尼·扎因努丁 (Nuryani Zainuddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000611",
+      "name": "亨德拉·维巴瓦 (Hendra Wibawa)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000612",
+      "name": "哈里·苏哈达 (Hary Suhada)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000613",
+      "name": "特里·梅拉萨里 (Tri Melasari)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-016"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000614",
+      "name": "贾卡·布迪·乌塔马 (Djaka Budi Utama)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000615",
+      "name": "阿斯科拉尼 (Askolani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000616",
+      "name": "赫鲁·潘布迪 (Heru Pambudi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-017"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000617",
+      "name": "亨达尔萨姆·马兰托科 (Hendarsam Marantoko)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000618",
+      "name": "桑迪·安达里亚迪 (Sandi Andaryadi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000619",
+      "name": "尤尔迪·优斯曼 (Yuldi Yusman)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000620",
+      "name": "埃科·布迪安托 (Eko Budianto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000621",
+      "name": "苏亨德拉 (Suhendra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-018"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000622",
+      "name": "阿兰·坦迪奥诺 (Allan Tandiono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-019"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000623",
+      "name": "阿明·胡达亚 (Amin Hudaya)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-019"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000624",
+      "name": "阿里夫·安瓦尔 (Arif Anwar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-019"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000625",
+      "name": "贾图尔·维查克索诺 (Catur Wicaksono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-019"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000626",
+      "name": "穆哈马德·安迪·哈里·穆尔蒂 (Mochamad Andi Hary Murti)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-019"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000627",
+      "name": "朱马迪 (Jumardi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-019"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000628",
+      "name": "比莫·维贾扬托 (Bimo Wijayanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000629",
+      "name": "努尔巴埃蒂·穆纳瓦罗 (Nurbaeti Munawaroh)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000630",
+      "name": "埃乌雷卡·普特拉 (Eureka Putra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000631",
+      "name": "德维·阿斯图蒂 (Dwi Astuti)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000632",
+      "name": "萨明贡 (Samingun)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-020"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000633",
+      "name": "纳斯瓦尔迪 (Naswardi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000634",
+      "name": "诺尔卡·M·马萨尔迪 (Noorca M. Massardi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000635",
+      "name": "蒂蒂克·乌米·库尔尼亚瓦蒂 (Titik Umi Kurniawati)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000636",
+      "name": "哈迪·阿尔托莫 (Hadi Artomo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000637",
+      "name": "努桑塔拉·HK·穆尔坎 (Nusantara HK Mulkan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-021"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000638",
+      "name": "伊万·尤斯蒂亚万达纳 (Ivan Yustiavandana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000639",
+      "name": "迪安·埃迪亚纳·拉埃 (Dian Ediana Rae)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000640",
+      "name": "基阿古斯·艾哈迈德·巴达鲁丁 (Kiagus Ahmad Badaruddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000641",
+      "name": "尤努斯·侯赛因 (Yunus Husein)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-022"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000642",
+      "name": "巴尤·梅甘塔拉 (Bayu Meghantara)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-023"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000643",
+      "name": "拉赫马特·巴贾 (Rahmat Bagja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-024"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000644",
+      "name": "普阿迪 (Puadi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-024"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000645",
+      "name": "托托克·哈里约诺 (Totok Hariyono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-024"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000646",
+      "name": "赫尔温·马隆达 (Herwyn J. H. Malonda)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-024"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000647",
+      "name": "洛莉·苏亨蒂 (Lolly Suhenty)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-024"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000648",
+      "name": "费迪南德·蒂亚尔·西赖特 (Ferdinand Eskol Tiar Sirait)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-024"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000649",
+      "name": "穆赫·阿里斯·马尔法伊 (Muh Aris Marfai)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-025"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000650",
+      "name": "贝琳达·阿鲁纳拉瓦蒂·马尔戈诺 (RA. Belinda Arunarwati Margono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-025"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000651",
+      "name": "穆罕默德·阿里夫·西亚菲 (Mohamad Arief Syafi'i)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-025"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000652",
+      "name": "安东尼乌斯·班邦·维贾南托 (Antonius Bambang Wijanarto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-025"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000653",
+      "name": "伊布努·索菲安 (Ibnu Sofian)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-025"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000654",
+      "name": "苏吉奥诺 (Sugiono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-027"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000655",
+      "name": "普尔巴亚·尤迪·萨德瓦 (Purbaya Yudhi Sadewa)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-027"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000656",
+      "name": "阿古斯·哈里穆尔蒂·尤多约诺 (Agus Harimurti Yudhoyono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-027"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000657",
+      "name": "苏夫米·达斯科·阿赫马德 (Sufmi Dasco Ahmad)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-028"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000658",
+      "name": "萨安·穆斯塔帕 (Saan Mustopa)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-028"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000659",
+      "name": "阿迪斯·卡迪尔 (Adies Kadir)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-028"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000660",
+      "name": "楚琼·艾哈迈德·西亚苏里贾尔 (Cucun Ahmad Syamsurijal)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-028"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000661",
+      "name": "鲁斯迪·基拉纳 (Rusdi Kirana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-029"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000662",
+      "name": "班邦·武里扬托 (Bambang Wuryanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-029"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000663",
+      "name": "卡哈尔·穆扎基尔 (Kahar Muzakir)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-029"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000664",
+      "name": "莱斯塔里·穆尔迪亚特 (Lestari Moerdijat)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-029"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000665",
+      "name": "希达亚特·努尔·瓦希德 (Hidayat Nur Wahid)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-029"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000666",
+      "name": "苏纳尔托 (Sunarto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-031"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000667",
+      "name": "迪维亚索·布迪·桑蒂亚尔托 (Dwiarso Budi Santiarto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-031"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000668",
+      "name": "穆罕默德·沙拉夫丁 (Muhammad Syarifuddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-031"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000669",
+      "name": "苏哈尔托约 (Suhartoyo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-032"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000670",
+      "name": "萨勒迪·伊斯拉 (Saldi Isra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-032"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000671",
+      "name": "穆·贡图尔·哈姆扎 (M. Guntur Hamzah)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-032"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000672",
+      "name": "阿尔苏勒·萨尼 (Arsul Sani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-032"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000673",
+      "name": "穆罕默德·阿菲富丁 (Mochammad Afifuddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000674",
+      "name": "奥古斯特·梅拉兹 (August Mellaz)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000675",
+      "name": "贝蒂·艾普西隆·伊德鲁斯 (Betty Epsilon Idroos)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000676",
+      "name": "伊德哈姆·霍利克 (Idham Holik)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000677",
+      "name": "尤利安托·苏德拉贾特 (Yulianto Sudrajat)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000678",
+      "name": "帕尔萨丹·哈拉哈普 (Parsadaan Harahap)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000679",
+      "name": "伊法·罗西塔 (Iffa Rosita)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000680",
+      "name": "苏里亚迪 (Suryadi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-033"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000681",
+      "name": "伊斯玛·亚通 (Isma Yatun)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000682",
+      "name": "布迪·普里约诺 (Budi Prijono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000683",
+      "name": "尼约曼·阿迪·苏尔亚德尼亚纳 (Nyoman Adhi Suryadnyana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000684",
+      "name": "丹尼尔·隆班·托宾 (Daniel Lumban Tobing)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000685",
+      "name": "阿克萨努·哈克 (Akhsanul Khaq)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000686",
+      "name": "博比·阿迪蒂奥·里扎尔迪 (Bobby Adhityo Rizaldi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000687",
+      "name": "法坦·苏布基 (Fathan Subchi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000688",
+      "name": "斯拉梅特·埃迪·普尔诺莫 (Slamet Edy Purnomo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000689",
+      "name": "巴赫蒂亚尔·阿里夫 (Bahtiar Arif)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-034"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000690",
+      "name": "塞蒂约·布迪扬托 (Setyo Budiyanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-035"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000691",
+      "name": "菲特罗·罗查希延托 (Fitroh Rohcahyanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-035"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000692",
+      "name": "约翰尼斯·塔纳克 (Johanis Tanak)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-035"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000693",
+      "name": "阿古斯·约科·普拉莫诺 (Agus Joko Pramono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-035"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000694",
+      "name": "赫里·苏珊托 (Hery Susanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-036"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000695",
+      "name": "拉赫马迪·因德拉·泰克托纳 (Rahmadi Indra Tektona)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-036"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000696",
+      "name": "达丹·苏哈马维加亚 (Dadan S. Suharmawijaya)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-036"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000697",
+      "name": "罗伯特·纳·恩迪·贾翁 (Robert Na Endi Jaweng)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-036"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000698",
+      "name": "乌斯马尔·伊斯梅尔 (Usmar Ismail)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000699",
+      "name": "大卫·莱昂·比尔斯马 (David Leon Bijlsma)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000700",
+      "name": "法雷尔·拉拉萨蒂 (Farel Larasati)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000701",
+      "name": "马尤丁·阿尔·穆德拉 (Mahyudin Al Mudra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000702",
+      "name": "艾曼·维特贾克索诺 (Aiman Witjaksono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000703",
+      "name": "阿赫马德·法赫罗吉 (Achmad Fachrodji)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000704",
+      "name": "瑙菲尔·伊斯蒂卡里 (Naufil Istikhari)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000705",
+      "name": "哈里·塔努索埃迪布佐 (Hary Tanoesoedibjo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000706",
+      "name": "安杰拉·赫尔利阿尼·塔努索埃迪布佐 (Angela Herliani Tanoesoedibjo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-MEDIA-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000707",
+      "name": "穆扎基尔·马纳夫 (Muzakir Manaf)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000708",
+      "name": "艾尤布·阿巴斯 (Aiyub Abbas)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000709",
+      "name": "朱弗里·哈桑丁 (Jufri Hasanuddin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000710",
+      "name": "马利克·马哈茂德 (Malik Mahmud Al-Haythar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000711",
+      "name": "法赫米·切尔利 (Fahmi Cherly)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000712",
+      "name": "穆奇迪·普尔沃普拉诺 (Muchdi Purwoprandjono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000713",
+      "name": "穆罕默德·阿尔卡菲·特里·达勒 (Muhammad Alkahfi Try Dalle)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000714",
+      "name": "M·鲁斯兰·达赫兰 (M. Ruslan Dahlan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000715",
+      "name": "内嫩·A·图蒂 (Neneng A. Tuty)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000716",
+      "name": "艾哈迈德·里达·萨巴纳 (Ahmad Ridha Sabana)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000717",
+      "name": "伊尔桑·贾乌哈里 (Ihsan Jauhari)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000718",
+      "name": "阿卜杜拉·曼苏里 (Abdullah Mansyuri)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000719",
+      "name": "苏比安托罗·苏曼托罗 (Soebiantoro Soemantoro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000720",
+      "name": "哈莫科 (Harmoko)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000721",
+      "name": "赫尔曼·卡埃龙 (Herman Khaeron)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000722",
+      "name": "埃迪·巴斯克罗·尤多约诺 (Edhie Baskoro Yudhoyono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000723",
+      "name": "文斯·鲁芒康 (Vence Rumangkang)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000724",
+      "name": "哈桑努丁·穆罕默德·霍利勒 (Hasannudin M. Kholil)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000725",
+      "name": "阿吉·埃尔朗加·玛尔塔维雷贾 (Aji Erlangga Martawireja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000726",
+      "name": "阿迪·萨索诺 (Adi Sasono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000727",
+      "name": "罗斯马维·哈桑 (Rosmawi Hasan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000728",
+      "name": "穆罕默德·萨尔穆吉 (Muhammad Sarmuji)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000729",
+      "name": "布迪·吉万多诺 (Budi Djiwandono)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000730",
+      "name": "艾哈迈德·穆扎尼 (Ahmad Muzani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-008"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000731",
+      "name": "哈斯托·克里斯蒂延托 (Hasto Kristiyanto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000732",
+      "name": "奥利·东多坎贝 (Olly Dondokambey)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000733",
+      "name": "努尔·罗希德·穆尔塔多 (Nur Rosyid Murtadho)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000734",
+      "name": "莉卡·费布里亚尼 (Rika Febriyani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000735",
+      "name": "埃尔温·费布里安·苏哈达 (Erwin Febrian Syuhada)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000736",
+      "name": "迪米特里·德维·普特拉 (Dimitri Dwi Putra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000737",
+      "name": "维迪亚特莫科 (Widyatmoko)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-PARTY-010"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000738",
+      "name": "西蒙·阿洛伊修斯·曼蒂里 (Simon Aloysius Mantiri)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000739",
+      "name": "伊万·布勒 (Iwan Bule)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000740",
+      "name": "奥基·穆拉扎 (Oki Muraza)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000741",
+      "name": "妮克·维达瓦蒂 (Nicke Widyawati)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-001"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000742",
+      "name": "达尔马万·普拉索乔 (Darmawan Prasodjo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000743",
+      "name": "尤素夫·迪迪·塞蒂亚托 (Yusuf Didi Setiarto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000744",
+      "name": "布尔哈努丁·阿卜杜拉 (Burhanuddin Abdullah)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000745",
+      "name": "迪安·西斯瓦里尼 (Dian Siswarini)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000746",
+      "name": "安加·拉卡·普拉博沃 (Angga Raka Prabowo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000747",
+      "name": "阿瑟·安杰洛·赛伦德拉 (Arthur Angelo Syailendra)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000748",
+      "name": "维拉妮塔·约瑟芬 (Veranita Yosephine)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000749",
+      "name": "格伦尼·凯鲁潘 (Glenny Kairupan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000750",
+      "name": "托马斯·苏吉亚托·翁托罗 (Thomas Sugiarto Oentoro)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000751",
+      "name": "查拉尔·丹绒 (Chairal Tanjung)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-004"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000752",
+      "name": "赫里·古纳迪 (Hery Gunardi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000753",
+      "name": "卡尔蒂卡·维尔约阿特莫佐 (Kartika Wirjoatmodjo)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000754",
+      "name": "薇薇安娜·达雅·阿尤·雷特诺·库马拉萨里 (Viviana Dyah Ayu Retno Kumalasari)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000755",
+      "name": "帕尔曼·纳塔阿特马贾 (Parman Nataatmadja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000756",
+      "name": "拉登·贝·阿里亚·维尔贾阿特马贾 (Raden Bei Aria Wirjaatmadja)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000757",
+      "name": "普特拉马·瓦赫朱·塞蒂亚万 (Putrama Wahju Setyawan)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000758",
+      "name": "亚历山德拉·阿斯坎达尔 (Alexandra Askandar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000759",
+      "name": "奥马尔·夏瓦尔迪·安瓦尔 (Omar Sjawaldy Anwar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000760",
+      "name": "特迪·巴拉塔 (Tedi Bharata)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000761",
+      "name": "侯赛因·保罗·卡尔塔朱梅纳 (Hussein Paolo Kartadjoemena)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000762",
+      "name": "科琳娜·莱拉·卡纳利斯 (Corina Leyla Karnalies)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000763",
+      "name": "大卫·皮尔扎达 (David Pirzada)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000764",
+      "name": "阿布·桑托萨·苏德拉贾特 (Abu Santosa Sudradjat)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000765",
+      "name": "穆罕默德·伊斯坎达尔 (Muhammad Iskandar / M. Iskandar Kunaefi)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000766",
+      "name": "穆罕默德·布迪·贾特米科 (Muhammad Budi Djatmiko)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000767",
+      "name": "罗斯玛·汉达亚尼 (Rosma Handayani)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000768",
+      "name": "法赫德尔·阿克巴尔 (Fahdel Akbar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000769",
+      "name": "法图尔·安瓦尔 (Fathul Anwar)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-SOE-009"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000770",
+      "name": "苏哈托法官 (Suharto)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "ID-GOV-031"
+      ],
+      "notes": "与 ID-PERSON-000040（前总统苏哈托）同名不同人——2021年就任的现任大法官"
+    },
+    {
+      "person_id": "ID-PERSON-000316",
+      "name": "西蒂·努尔巴亚 (Siti Nurbaya Bakar)",
+      "wikidata_qid": "Q18421248",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000317",
+      "name": "艾达·福兹耶 (Ida Fauziyah)",
+      "wikidata_qid": "Q17410595",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000318",
+      "name": "布迪·阿里·塞蒂亚迪 (Budi Arie Setiadi)",
+      "wikidata_qid": "Q56416296",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000319",
+      "name": "祖尔基弗利·哈桑 (Zulkifli Hasan)",
+      "wikidata_qid": "Q4260406",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000320",
+      "name": "苏哈索·莫诺阿尔法 (Suharso Monoarfa)",
+      "wikidata_qid": "Q12516581",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000321",
+      "name": "亚西尔利 (Yassierli)",
+      "wikidata_qid": "Q114450773",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000322",
+      "name": "沙克蒂·瓦尤·特伦戈诺 (Wahyu Sakti Trenggono)",
+      "wikidata_qid": "Q73854259",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000323",
+      "name": "穆海明·伊斯坎德尔 (Muhaimin Iskandar)",
+      "wikidata_qid": "Q12499327",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000324",
+      "name": "哈希姆·佐约哈迪库苏莫 (ᮠᮞ᮪ᮠᮤᮙ᮪ ᮏᮧᮚᮧᮠᮓᮤᮊᮥᮞᮥᮙᮧ)",
+      "wikidata_qid": "Q12485398",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000325",
+      "name": "西蒂·赫迪亚蒂·哈里亚迪 (Titiek Soeharto)",
+      "wikidata_qid": "Q12515517",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000326",
+      "name": "汤米·苏哈托 (Tommy Soeharto)",
+      "wikidata_qid": "Q3177695",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-PARTY-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000327",
+      "name": "马尔祖基 (Marzuki Alie)",
+      "wikidata_qid": "Q7384733",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000328",
+      "name": "阿克峇尔·丹绒 (Akbar Tanjung)",
+      "wikidata_qid": "Q2581168",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000329",
+      "name": "陈江和 (Sukanto Tanoto)",
+      "wikidata_qid": "Q7635720",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000330",
+      "name": "刘德光 (Low Tuck Kwong)",
+      "wikidata_qid": "Q1659240",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000331",
+      "name": "徐振焕 (Ciputra)",
+      "wikidata_qid": "Q5121325",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000332",
+      "name": "黄奕聪 (Eka Tjipta Widjaja)",
+      "wikidata_qid": "Q1322162",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000333",
+      "name": "李白 (James Tjahaja Riady)",
+      "wikidata_qid": "Q6069896",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000335",
+      "name": "哈迪·苏里亚 (Hadi Surya)",
+      "wikidata_qid": "Q123866516",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000336",
+      "name": "西奥多·佩尔马迪·拉赫马特 (Theodore Permadi Rachmat)",
+      "wikidata_qid": "Q19744150",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000337",
+      "name": "彭云鹏 (Prajogo Pangestu)",
+      "wikidata_qid": "Q7238152",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000338",
+      "name": "凯鲁·丹绒 (Chairul Tanjung)",
+      "wikidata_qid": "Q5068119",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000339",
+      "name": "谢重生 (Tjia Han Poen)",
+      "wikidata_qid": "Q5346832",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000340",
+      "name": "普特拉·三宝垄 (Liem Tien Hie)",
+      "wikidata_qid": "Q7262188",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000341",
+      "name": "迈克尔·约瑟夫·三宝垄 (Michael Sampoerna)",
+      "wikidata_qid": "Q6831744",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000342",
+      "name": "林益建 (Bachtiar Karim)",
+      "wikidata_qid": "Q19724086",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000344",
+      "name": "苏迪尔曼·赛义德 (Sudirman Said)",
+      "wikidata_qid": "Q18421410",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000345",
+      "name": "苏蒂亚吉 (Sutiaji)",
+      "wikidata_qid": "Q56391433",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000346",
+      "name": "穆尔多科 (Moeldoko)",
+      "wikidata_qid": "Q12498731",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000347",
+      "name": "阿古斯·苏比扬托 (Agus Subiyanto)",
+      "wikidata_qid": "Q56399696",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000348",
+      "name": "杜东·阿卜杜拉赫曼 (Dudung Abdurachman)",
+      "wikidata_qid": "Q107001110",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000349",
+      "name": "尤多·马戈诺 (Yudo Margono)",
+      "wikidata_qid": "Q49252573",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000350",
+      "name": "里斯迪约·希吉特·普拉博沃 (Listyo Sigit Prabowo)",
+      "wikidata_qid": "Q28723955",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000351",
+      "name": "伊达姆·阿齐斯 (Idham Azis)",
+      "wikidata_qid": "Q12486250",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000352",
+      "name": "布迪·古纳万 (Budi Gunawan)",
+      "wikidata_qid": "Q12477379",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000353",
+      "name": "巴德罗丁·海地 (Badrodin Haiti)",
+      "wikidata_qid": "Q12473234",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000354",
+      "name": "叶海亚·霍利勒·斯塔库夫 (Yahya Cholil Staquf)",
+      "wikidata_qid": "Q109724697",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000355",
+      "name": "扎伊努特·陶希德·萨阿迪 (Zainut Tauhid Sa'adi)",
+      "wikidata_qid": "Q17411758",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000356",
+      "name": "穆罕默德·纳西金 (Mohammad Nasikin)",
+      "wikidata_qid": "Q114351746",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000357",
+      "name": "雷纳尔德·卡萨利 (Rhenald Kasali)",
+      "wikidata_qid": "Q7320387",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000358",
+      "name": "里扎尔·拉姆利 (Rizal Ramli)",
+      "wikidata_qid": "Q12508773",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000359",
+      "name": "昆托罗·曼库苏布罗托 (Kuntoro Mangkusubroto)",
+      "wikidata_qid": "Q12492968",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-ACAD-012",
+        "ID-GOV-005"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000360",
+      "name": "罗西亚娜·西拉拉希 (Rosiana Silalahi)",
+      "wikidata_qid": "Q12508934",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000361",
+      "name": "赫尔米·叶海亚 (Helmy Yahya)",
+      "wikidata_qid": "Q7475771",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000362",
+      "name": "普特拉·纳巴班 (Putra Nababan)",
+      "wikidata_qid": "Q7262402",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000363",
+      "name": "通托维·艾哈迈德 (Tontowi Ahmad)",
+      "wikidata_qid": "Q506333",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000364",
+      "name": "格雷西娅·波利 (Greysia Polii)",
+      "wikidata_qid": "Q468506",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000365",
+      "name": "凯文·桑加亚·苏卡穆约 (Kevin Sanjaya Sukamuljo)",
+      "wikidata_qid": "Q15229725",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000366",
+      "name": "马库斯·费尔纳尔迪·吉德翁 (Marcus Fernaldi Gideon)",
+      "wikidata_qid": "Q1523130",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000367",
+      "name": "亨德拉·塞蒂亚万 (Hendra Setiawan)",
+      "wikidata_qid": "Q561701",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000368",
+      "name": "穆罕默德·阿赫桑 (Mohammad Ahsan)",
+      "wikidata_qid": "Q185282",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000369",
+      "name": "安东尼·西尼苏卡·金廷 (Anthony Sinisuka Ginting)",
+      "wikidata_qid": "Q16724324",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000370",
+      "name": "普拉文·乔丹 (Praveen Jordan)",
+      "wikidata_qid": "Q868611",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000371",
+      "name": "卢克曼·萨尔迪 (Lukman Sardi)",
+      "wikidata_qid": "Q12495554",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000372",
+      "name": "尼古拉斯·萨普特拉 (Nicholas Saputra)",
+      "wikidata_qid": "Q5263767",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000373",
+      "name": "迪安·萨斯特劳沃德约 (Dian Sastrowardoyo)",
+      "wikidata_qid": "Q2746623",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000374",
+      "name": "劳拉·巴苏基 (Laura Basuki)",
+      "wikidata_qid": "Q4259893",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000375",
+      "name": "加林·努格罗和 (Garin Nugroho)",
+      "wikidata_qid": "Q2669336",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000376",
+      "name": "米拉·勒斯玛娜 (Mira Lesmana)",
+      "wikidata_qid": "Q1993617",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000377",
+      "name": "里里·里萨 (Riri Riza)",
+      "wikidata_qid": "Q2370267",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000378",
+      "name": "桑科特·马尔祖基 (Sangkot Marzuki)",
+      "wikidata_qid": "Q12512050",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000379",
+      "name": "翁诺·W·普尔博 (Onno W. Purbo)",
+      "wikidata_qid": "Q12501375",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000380",
+      "name": "约翰内斯·苏里亚 (Yohanes Surya)",
+      "wikidata_qid": "Q8054455",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000381",
+      "name": "萨马恩·萨马迪昆 (Samaun Samadikun)",
+      "wikidata_qid": "Q7408911",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-ACAD-012"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000382",
+      "name": "托东·穆利亚·卢比斯 (Todung Mulya Lubis)",
+      "wikidata_qid": "Q17411596",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000383",
+      "name": "哈里斯·阿兹哈尔 (Haris Azhar)",
+      "wikidata_qid": "Q97307136",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000384",
+      "name": "乌斯曼·哈米德 (Usman Hamid)",
+      "wikidata_qid": "Q97228259",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000385",
+      "name": "苏里亚·帕洛 (Surya Paloh)",
+      "wikidata_qid": "Q7647367",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000386",
+      "name": "塔尔米齐·塔赫尔 (Tarmizi Taher)",
+      "wikidata_qid": "Q12520011",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000388",
+      "name": "许立文 (Boenjamin Setiawan)",
+      "wikidata_qid": "Q19724364",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000389",
+      "name": "黄一君 (Kuncoro Wibowo)",
+      "wikidata_qid": "Q19728079",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000390",
+      "name": "哈迪·贾詹托 (Hadi Tjahjanto)",
+      "wikidata_qid": "Q25469937",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000391",
+      "name": "法贾尔·普拉塞蒂奥 (Fadjar Prasetyo)",
+      "wikidata_qid": "Q28723957",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000392",
+      "name": "苏塔尔曼 (Sutarman)",
+      "wikidata_qid": "Q12518235",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000394",
+      "name": "利利亚纳·纳西尔 (Liliyana Natsir)",
+      "wikidata_qid": "Q464630",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000395",
+      "name": "阿普里亚尼·拉哈育 (Apriyani Rahayu)",
+      "wikidata_qid": "Q23723804",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000396",
+      "name": "乔纳坦·克里斯蒂 (Leonardus Jonatan Christie)",
+      "wikidata_qid": "Q14978306",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000397",
+      "name": "雷萨·拉哈迪安 (Reza Rahadian)",
+      "wikidata_qid": "Q3793280",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000398",
+      "name": "安德里·哈迪 (Andri Hadi)",
+      "wikidata_qid": "Q114243829",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000399",
+      "name": "奥马尔·哈迪 (Umar Hadi)",
+      "wikidata_qid": "Q123713543",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000400",
+      "name": "穆赫塔尔·汤波 (Mukhtar Tompo)",
+      "wikidata_qid": "Q108895933",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000402",
+      "name": "霍菲法·因达尔·帕拉万萨 (Khofifah Indar Parawansa)",
+      "wikidata_qid": "Q12491600",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000403",
+      "name": "帕库·阿拉姆亲王 (Wijoseno Hario Bimo)",
+      "wikidata_qid": "Q22007292",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000404",
+      "name": "祖尔基夫利曼夏 (Zulkieflimansyah)",
+      "wikidata_qid": "Q49255869",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000405",
+      "name": "穆罕默德·卢克曼·埃迪 (Muhammad Lukman Edy)",
+      "wikidata_qid": "Q12499367",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000406",
+      "name": "伊丽亚娜 (Iriana)",
+      "wikidata_qid": "Q17410605",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000407",
+      "name": "塞尔维·阿南达 (Selvi Ananda)",
+      "wikidata_qid": "Q98969839",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000408",
+      "name": "拉特娜·莎伦帕特 (Ratna Sarumpaet)",
+      "wikidata_qid": "Q3420121",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000409",
+      "name": "苏米特罗·佐约哈迪库苏莫 (Soemitro Djojohadikoesoemo)",
+      "wikidata_qid": "Q7553510",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000410",
+      "name": "哈迪·普拉诺托 (Hadi Pranoto)",
+      "wikidata_qid": "Q123883484",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000411",
+      "name": "布迪·桑托索 (Budi Santoso)",
+      "wikidata_qid": "Q1001420",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000412",
+      "name": "维乔约·尼蒂萨斯特罗 (Widjojo Nitisastro)",
+      "wikidata_qid": "Q4261785",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-014"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000413",
+      "name": "埃米尔·萨利姆 (Emil Salim)",
+      "wikidata_qid": "Q123883081",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000414",
+      "name": "苏布罗托 (Subroto)",
+      "wikidata_qid": "Q109699021",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000415",
+      "name": "阿里·瓦尔达纳 (Ali Wardhana)",
+      "wikidata_qid": "Q13091528",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000416",
+      "name": "拉赫马特·萨利赫 (Rachmat Saleh)",
+      "wikidata_qid": "Q12507599",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000417",
+      "name": "阿德里安托 (Adriyanto)",
+      "wikidata_qid": "Q109450685",
+      "status": "profiled",
+      "source_orgs": []
+    },
+    {
+      "person_id": "ID-PERSON-000418",
+      "name": "穆罕默德·阿尔-阿里夫 (Mohamad Al-Arief)",
+      "wikidata_qid": "Q138145051",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000419",
+      "name": "桑杰·纳赖因达斯·巴尔瓦尼 (Sanjay Naraindas Bharwani)",
+      "wikidata_qid": "Q138145372",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000420",
+      "name": "西吉特·普吉·桑托萨 (Sigit Puji Santosa)",
+      "wikidata_qid": "Q138144888",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-015"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000422",
+      "name": "陶菲库拉赫曼·鲁基 (Taufiequrachman Ruki)",
+      "wikidata_qid": "Q12520108",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-035"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000423",
+      "name": "恩当·阿米努丁·阿齐兹 (Endang Aminudin Aziz)",
+      "wikidata_qid": "Q107550278",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-GOV-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000424",
+      "name": "亚历克斯·西纳加 (Alex Sinaga)",
+      "wikidata_qid": "Q19723855",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-SOE-003"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000771",
+      "name": "尤尔赫弗里斯 (Yulhefris)",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "source_orgs": [
+        "ID-FIN-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000772",
+      "name": "耶恩迪·德尔维安 (Yendi Delvian)",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "source_orgs": [
+        "ID-FIN-006"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000773",
+      "wikidata_qid": null,
+      "name": "梅奇·汉达雅尼 (Mechy Handayani)",
+      "status": "profiled",
+      "source_orgs": [
+        "ID-FIN-007"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000774",
+      "name": "扎赫鲁尔 (Zahrul)",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "source_orgs": [
+        "ID-PARTY-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000775",
+      "name": "尤利·埃尔米安西亚·普特拉 (Juli Ermiansyah Putra)",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "source_orgs": [
+        "ID-PARTY-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000776",
+      "name": "斯里·瓦尤尼 (Sri Wahyuni)",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "source_orgs": [
+        "ID-PARTY-002"
+      ]
+    },
+    {
+      "person_id": "ID-PERSON-000777",
+      "name": "M·沙拉胡丁 (M Shalahuddin)",
+      "wikidata_qid": null,
+      "status": "profiled",
+      "source_orgs": [
+        "ID-PARTY-002"
+      ]
     }
   ],
   "person_counters": {
-    "ID-PERSON": 314
+    "ID-PERSON": 777
   },
-  "orgs_count": 103,
-  "persons_count": 424
+  "orgs_count": 104,
+  "persons_count": 761,
+  "country": "ID"
 }

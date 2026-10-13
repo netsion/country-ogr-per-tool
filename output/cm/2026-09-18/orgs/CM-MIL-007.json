@@ -1,0 +1,168 @@
+{
+  "org_id": "CM-MIL-007",
+  "basic_info": {
+    "name_original": "Direction Générale de la Recherche Extérieure",
+    "name_zh": "对外情报总局",
+    "name_en": "General Directorate for External Research",
+    "aliases": [
+      "DGRE",
+      "direction générale de la Recherche extérieure",
+      "Directorate General of External Research",
+      "DGER",
+      "国家境外研究总局",
+      "对外研究总局"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "intelligence_agency",
+    "country_iso3": "CMR",
+    "hq_country_iso3": "CMR",
+    "founded_date": null,
+    "website": null,
+    "wikidata_qid": "Q39074935"
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": "CM-PERSON-000101",
+      "name": "Jean-Pierre Robins Ghoumo",
+      "name_en": "Jean-Pierre Robins Ghoumo",
+      "title": "Directeur Général（总局长）",
+      "title_description": "DGRE最高负责人，主持对外情报工作全面事务，由总统令直接任命",
+      "description": "据总统府官网公报，2023年12月19日第2023/572号总统令任命DGRE新任总局长；据Jeune Afrique报道及总统府官网「总统府合作者」人员名录（CM-GOV-001档案DEPT-010，名录中作Ghoumo Jean Pierre Robins），现任总局长为Jean-Pierre Robins Ghoumo。在任总局长与该任命令的对应关系系多来源综合推断。2025年6月底至7月初曾公开出席经济情报高级培训开班与结业活动，表示该局传统监测预警职能须全面纳入经济情报维度，并宣布将依托CAVIE技术支持筹建国家经济与战略情报中心（CNIES）。"
+    },
+    {
+      "person_id": "CM-PERSON-000102",
+      "name": "Emmanuel Sako Eseye",
+      "name_en": "Emmanuel Sako Eseye",
+      "title": "Directeur des Opérations（行动局长）",
+      "title_description": "负责DGRE对外行动事务",
+      "description": "据Jeune Afrique报道，Emmanuel Sako Eseye被低调任命为DGRE行动局长（directeur des opérations），接替James Elong Lobe；该报道以Martinez Zogo案后续为主题，具体任免日期未见公开。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CM-MIL-007-DEPT-001",
+      "name": "行动部门（Direction des Opérations，据Jeune Afrique人事报道）",
+      "head": "Emmanuel Sako Eseye（局长，接替James Elong Lobe）",
+      "description": "对外行动主管岗位。DGRE内部完整组织结构与人员规模未公开，本条仅基于Jeune Afrique对人事任命的报道，单位正式建制名称未经官方文件证实。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-12-19",
+      "title": "总统令第2023/572号任命DGRE总局长，第2023/573号任命副总局长",
+      "description": "2023年12月19日，喀麦隆总统签署第2023/572号法令，为对外情报总局（DGRE）任命新任总局长；同日第2023/573号法令任命一名副总局长。两份法令均在总统府官网公报栏公布并提供PDF下载。结合Jeune Afrique后续报道与总统府人员名录，新任总局长为Jean-Pierre Robins Ghoumo。",
+      "impact": "DGRE完成高层人事更替；此后该局公开活动有所增加（如2025年经济情报培训）。",
+      "source": "https://www.prc.cm/fr/actualites/actes/decrets/6993-decret-n-2023-572-du-19-decembre-2023-portant-nomination-d-un-directeur-general-a-la-direction-generale-de-la-recherche-exterieure"
+    },
+    {
+      "date": "2025-06-30",
+      "title": "DGRE举办经济情报高级培训，宣布筹建国家经济与战略情报中心（CNIES）",
+      "description": "2025年6月30日至7月初（Financial Afrik称至7月6日，Vitrine du Cameroun称至7月4日），DGRE举办高级经济情报培训，邀请非洲经济情报与监测中心（CAVIE）主任Guy Gweth为50名情报专业人员授课，内容涵盖经济攻势分析、360度战略监测与决策支持产品制作。DGRE总局长在开班与结业场合公开表示，该局作为国家情报服务机构，传统监测预警职能须全面纳入经济情报维度，并希望CAVIE支持「国家经济与战略情报中心」（CNIES）的筹建。",
+      "impact": "标志该局从传统政治与安全情报向经济情报领域扩展职能，是近年来罕见的公开活动。",
+      "source": "https://www.financialafrik.com/2025/07/06/au-cameroun-les-espions-de-la-dgre-sarment-pour-la-guerre-economique/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CM-GOV-001",
+      "org_name": "喀麦隆共和国总统府 (Présidence de la République du Cameroun)",
+      "org_type": "GOV",
+      "org_description": "DGRE在总统府官网「总统府合作者」人员名录中列为总统府直属情报部门（CM-GOV-001档案DEPT-010），总局长与副总局长由总统令直接任命。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "CM-GOV-009",
+      "org_name": "喀麦隆国防部 (Ministère de la Défense)",
+      "org_type": "GOV",
+      "org_description": "同属国防与安全体系。现有公开资料显示DGRE隶属总统府而非国防部，与国防部为国防情报领域的协作关系。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "CM-MIL-001",
+      "org_name": "喀麦隆武装部队 (Forces armées du Cameroun)",
+      "org_type": "MIL",
+      "org_description": "喀麦隆武装部队档案（CM-MIL-001）将DGRE列为affiliated关联机构，描述其为「喀麦隆对外情报机构，与武装部队体系关联」。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家领土安全总代表团（Délégation Générale à la Sûreté Nationale, DGSN）",
+      "org_type": "GOV",
+      "org_description": "总统府直属的国内安全与警政情报机构（见CM-GOV-001档案DEPT-009，现任总代表Martin Mbarga Nguele）；与DGRE分别侧重对内与对外情报事务。",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "对外情报总局（DGRE）是喀麦隆的对外情报机关。据法语维基百科，其为「喀麦隆情报机构之一」；据actucameroun援引其组织章程的报道，DGRE在组织文本中被定位为「致力于对外情报的公共服务机构」，职能是为共和国总统与国家决策层提供境外情报支持；据Financial Afrik表述，其为「喀麦隆对外情报的臂膀」。据总统府官网人员名录与媒体报道，该局隶属共和国总统府，总部设于雅温得，正、副总局长的任免由总统令决定。该局传统上以政治与安全情报的监测预警见长（据Vitrine du Cameroun），内部组织结构、人员规模与预算均未公开。2025年年中起，据Financial Afrik与Vitrine du Cameroun报道，该局开始将职能扩展至经济情报领域：2025年6月底至7月初举办高级经济情报培训，由CAVIE主任Guy Gweth为50名情报专业人员授课，总局负责人公开表示传统监测预警职能须纳入经济情报维度，并筹划依托CAVIE技术支持设立国家经济与战略情报中心（CNIES）。",
+  "industries": [
+    "defence_military",
+    "intelligence_security"
+  ],
+  "apec_stance": "喀麦隆不是APEC成员经济体，该组织与APEC无直接关联。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "web_search",
+      "news_search"
+    ],
+    "completeness_score": 51,
+    "notes": "2026-09-18由phase2骨架丰富。完整读取3个来源页面：PRC.cm总统令第2023/572号公报页、Financial Afrik（2025-07-06）、Vitrine du Cameroun（2025-07）；另有本地Wikidata缓存（Q39074935）与Google检索摘要（fr.wikipedia、Jeune Afrique、actucameroun、Africa Intelligence）交叉验证，关键事实均有2个以上独立来源。fr.wikipedia目标条目因网络受限无法抓取全文（curl/WebFetch/read_url多次尝试均失败，按规则未重试），仅采用其检索摘要「DGRE是喀麦隆情报机构之一」。存疑处理：（1）founded_date未获可靠来源，网络流传的2010年说法未经验证，置null；（2）在任总局长Ghoumo与2023-12-19任命令的对应关系系官方任命令+在任报道+总统府名录三方信息综合推断；（3）Martinez Zogo案相关报道（Jeune Afrique）因付费墙未能读取全文，仅保留报道标题佐证「DGRE受该案波及」，未采信具体人事与日期；（4）行动局长人事更替（Sako Eseye接替James Elong Lobe）来自Jeune Afrique摘要，具体日期不详；（5）总部雅温得有Jeune Afrique摘要与本地Wikidata缓存两个来源；（6）中文名采用任务指定译名「对外情报总局」，本数据集内另有「国家境外研究总局」「对外研究总局」等译法，已列入aliases；（7）country_iso3沿用数据集既有值CMP；（8）搜索工具当日部分受限（内置web_search与web_reader配额耗尽），实际完成2次中性检索并以可用工具读取3个全文页面。评分51：情报机构公开资料天然稀缺，关键人事与近期活动已有多源支撑，但成立日期、内部结构、人员规模均无公开来源，未作推测。；收尾勘误(2026-09-20)：本注释所述\"沿用CMP\"为更正前状态，骨架代码 CMP 已全局更正为标准 CMR",
+    "quotes": [
+      {
+        "title": "Direction générale de la Recherche extérieure — Wikipédia (fr)",
+        "url": "https://fr.wikipedia.org/wiki/Direction_g%C3%A9n%C3%A9rale_de_la_Recherche_ext%C3%A9rieure"
+      },
+      {
+        "title": "Décret N°2023/572 du 19 décembre 2023 portant nomination d'un Directeur Général à la Direction Générale de la Recherche Extérieure — PRC.cm（总统府官网）",
+        "url": "https://www.prc.cm/fr/actualites/actes/decrets/6993-decret-n-2023-572-du-19-decembre-2023-portant-nomination-d-un-directeur-general-a-la-direction-generale-de-la-recherche-exterieure"
+      },
+      {
+        "title": "Décret N°2023/573 du 19 décembre 2023 portant nomination d'un Directeur Général Adjoint à la Direction Générale de la Recherche Extérieure — PRC.cm（总统府官网）",
+        "url": "https://www.prc.cm/fr/actualites/actes/decrets/6994-decret-n-2023-573-du-19-decembre-2023-portant-nomination-d-un-directeur-general-adjoint-a-la-direction-generale-de-la-recherche-exterieure"
+      },
+      {
+        "title": "Collaborateurs du Chef de l'Etat — PRC.cm（总统府官网人员名录，含DGRE总局长）",
+        "url": "https://www.prc.cm/fr/la-presidence/collaborateurs-du-chef-de-etat"
+      },
+      {
+        "title": "Au Cameroun, la DGRE tente de tourner la page Martinez Zogo — Jeune Afrique",
+        "url": "https://www.jeuneafrique.com/1538620/politique/au-cameroun-la-dgre-tente-de-tourner-la-page-martinez-zogo/"
+      },
+      {
+        "title": "Au Cameroun, comment la guerre des clans autour de Paul Biya a fracturé les services de renseignements — Jeune Afrique",
+        "url": "https://www.jeuneafrique.com/1842875/politique/au-cameroun-comment-la-guerre-des-clans-autour-de-paul-biya-a-fracture-les-services-de-renseignements/"
+      },
+      {
+        "title": "Au Cameroun, les espions de la DGRE s'arment pour la guerre économique — Financial Afrik（全文已读）",
+        "url": "https://www.financialafrik.com/2025/07/06/au-cameroun-les-espions-de-la-dgre-sarment-pour-la-guerre-economique/"
+      },
+      {
+        "title": "Intelligence économique à la DGRE : la discrète révolution des services secrets camerounais — Vitrine du Cameroun（全文已读）",
+        "url": "https://vitrineducameroun.com/2025/07/intelligence-economique-a-la-dgre-la-discrete-revolution-des-services-secrets-camerounais/"
+      },
+      {
+        "title": "Rôle et missions de la Direction générale de la recherche extérieure — ActuCamEROUN",
+        "url": "https://actucameroun.com/2023/03/09/questionnement-a-quoi-sert-veritablement-la-direction-generale-de-la-recherche-exterieure/"
+      },
+      {
+        "title": "Direction générale de la recherche extérieure — Africa Intelligence（人物标签页）",
+        "url": "https://www.africaintelligence.fr/tags/direction-generale-de-la-recherche-exterieure"
+      },
+      {
+        "title": "Au Cameroun, la DGRE… rivalités de clan au palais d'Etoudi（总局长Jean-Pierre Robins Ghoumo）— Jeune Afrique (Facebook)",
+        "url": "https://www.facebook.com/jeuneafrique1/posts/la-direction-g%C3%A9n%C3%A9rale-de-la-recherche-ext%C3%A9rieure-est-au-c%C5%93ur-des-rivalit%C3%A9s-de-cl/1380298867478460/"
+      },
+      {
+        "title": "Wikidata Q39074935（direction générale de la Recherche extérieure，本地缓存）",
+        "url": "https://www.wikidata.org/wiki/Q39074935"
+      }
+    ]
+  }
+}

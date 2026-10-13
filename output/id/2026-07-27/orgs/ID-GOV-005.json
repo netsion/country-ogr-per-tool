@@ -3,90 +3,450 @@
   "basic_info": {
     "org_id": "ID-GOV-005",
     "wikidata_qid": "Q12490460",
-    "name_en": "Attorney General's Office of Indonesia",
-    "name_zh": "印度尼西亚总检察长办公室",
-    "name_local": "Kejaksaan Agung Indonesia",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "http://kejaksaan.go.id/index.php",
-    "official_website": "http://kejaksaan.go.id/index.php",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Kejaksaan Agung Indonesia",
+    "name_zh": "印度尼西亚总检察院",
+    "name_en": "Attorney General's Office of the Republic of Indonesia",
+    "founded_date": "1945-08-19",
     "country_iso3": "IDN",
-    "name_original": "Kejaksaan Agung Indonesia"
+    "hq_country_iso3": "IDN",
+    "website": "https://kejaksaan.go.id/",
+    "org_type": "GOV",
+    "org_subtype": "gov_department"
   },
-  "description": "维基媒体列表条目",
-  "brief": "维基媒体列表条目",
-  "mission": null,
-  "core_business": "维基媒体列表条目",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "KejaksaanRI",
+      "url": "https://x.com/KejaksaanRI",
+      "source": "official_social"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "kejaksaan.ri",
+      "url": "https://www.instagram.com/kejaksaan.ri/",
+      "source": "official_social"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Kejaksaan RI",
+      "url": "https://www.youtube.com/c/KejaksaanRI",
+      "source": "official_social"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Kejaksaan RI",
+      "url": "https://www.facebook.com/p/Kejaksaan-RI-100064391933878/",
+      "source": "official_social"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "kejaksaan.ri",
+      "url": "https://www.tiktok.com/@kejaksaan.ri",
+      "source": "official_social"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": null,
+      "url": "https://kejaksaan.go.id/",
+      "description": "总检察院官方网站，发布机构职能、新闻公告与法律资料；[]official_website",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://kejaksaan.go.id/conference/news",
+      "description": "法律宣传中心（Puspenkum）新闻公告栏目，发布官方新闻稿与案件进展；[]official_news_portal",
+      "source": null
+    },
+    {
+      "name": null,
+      "url": "https://badiklat.kejaksaan.go.id/",
+      "description": "教育与培训机构（Badiklat）官方网站，发布检察官培训与院方新闻；[]official_training_portal",
+      "source": null
+    }
+  ],
   "key_people": [
     {
+      "person_id": "ID-PERSON-000580",
+      "name": "萨尼蒂亚尔·布尔汉努丁 (Sanitiar Burhanuddin)",
+      "title": "总检察长 (Jaksa Agung)",
+      "title_description": "印度尼西亚总检察院总检察长（Jaksa Agung），国家官员，总检察院最高领导人，由总统任免并直接对总统负责，任期2024-2029",
+      "description": "1954年7月17日生于西爪哇省马贾伦加县。2019年10月23日首次出任总检察长，2024年10月21日获总统普拉博沃依据《2024年第135/P号总统决定书》（Keppres No. 135/P Tahun 2024）在雅加达国家宫重新任命，任期2024-2029。"
+    },
+    {
+      "person_id": "ID-PERSON-000581",
+      "name": "阿塞普·纳纳·穆利亚纳 (Asep Nana Mulyana)",
+      "title": "副总检察长 (Wakil Jaksa Agung)",
+      "title_description": "印度尼西亚总检察院副总检察长（Wakil Jaksa Agung），与总检察长共同构成院内领导层",
+      "description": "2026年7月24日在总检察院高层改组中经总检察长布尔汉努丁正式宣誓就任副总检察长，协助总检察长管理院内事务。"
+    },
+    {
       "person_id": "ID-PERSON-000070",
-      "name": "Ali Said",
-      "title": "印度尼西亚总检察长",
-      "title_description": "",
-      "description": ""
+      "name": "阿里·赛义德 (Ali Said)",
+      "title": "前总检察长",
+      "title_description": "印度尼西亚前总检察长（1973年4月4日至1981年2月18日在任）",
+      "description": "1973年4月4日至1981年2月18日领导总检察院，是印尼任职时间较长的总检察长之一。"
     },
     {
       "person_id": "ID-PERSON-000071",
-      "name": "Andi Muhammad Ghalib",
-      "title": "印度尼西亚总检察长",
-      "title_description": "",
-      "description": ""
+      "name": "安迪·穆罕默德·加利布 (Andi Muhammad Ghalib)",
+      "title": "前总检察长",
+      "title_description": "印度尼西亚前总检察长（1998年6月17日至1999年6月14日在任）",
+      "description": "1998年6月17日至1999年6月14日领导总检察院，历经印尼民主转型时期。"
     },
     {
       "person_id": "ID-PERSON-000161",
-      "name": "Basrief Arief",
-      "title": "印度尼西亚总检察长",
-      "title_description": "",
-      "description": ""
+      "name": "巴斯里夫·阿里夫 (Basrief Arief)",
+      "title": "前总检察长",
+      "title_description": "印度尼西亚前总检察长（2010年11月26日至2014年10月20日在任）",
+      "description": "2010年11月26日至2014年10月20日领导总检察院。"
     },
     {
       "person_id": "ID-PERSON-000359",
-      "name": "Kuntoro Mangkusubroto",
+      "name": "昆托罗·曼库苏布罗托 (Kuntoro Mangkusubroto)",
       "title": "总统办公厅顾问",
-      "title_description": "",
-      "description": ""
+      "title_description": "总统办公厅顾问",
+      "description": "曾任总统府顾问职务。"
+    },
+    {
+      "person_id": null,
+      "name": "昆塔迪 (Kuntadi)",
+      "title": "特别刑事事务副总检察长 (Jaksa Agung Muda Tindak Pidana Khusus)",
+      "title_description": "主管腐败等特别刑事案件侦查与公诉的副总检察长级官员（JAM Pidsus）",
+      "description": "2026年7月24日在高层改组中就任特别刑事事务副总检察长，接替因涉腐辞职的费布里·阿德里安夏（Febrie Adriansyah）。"
+    },
+    {
+      "person_id": null,
+      "name": "伦纳德·埃本·埃泽·西曼琼塔克 (Leonard Eben Ezer Simanjuntak)",
+      "title": "普通刑事事务副总检察长 (Jaksa Agung Muda Tindak Pidana Umum)",
+      "title_description": "主管普通刑事案件公诉事务的副总检察长级官员（JAM Pidum）",
+      "description": "2026年7月24日在高层改组中就任普通刑事事务副总检察长。"
+    },
+    {
+      "person_id": null,
+      "name": "费布里·阿德里安夏 (Febrie Adriansyah)",
+      "title": "前特别刑事事务副总检察长 (前Jaksa Agung Muda Tindak Pidana Khusus)",
+      "title_description": "原特别刑事事务副总检察长，2026年7月因涉腐辞职",
+      "description": "任内通报2020-2026年期间经特别刑事程序为国家挽回131.5万亿印尼盾损失。2026年7月11日被警方列为腐败与洗钱案嫌疑人，同日辞去职务并被总检察长暂停检察官资格，7月24日被总检察院正式羁押。"
+    },
+    {
+      "person_id": null,
+      "name": "鲁迪·马尔戈诺 (Rudi Margono)",
+      "title": "监督事务副总检察长 (Jaksa Agung Muda Pengawasan)",
+      "title_description": "主管内部监督事务的副总检察长级官员（Jamwas）",
+      "description": "现任监督事务副总检察长，领导三个督察局与三个财务督察局开展内部监督。"
     }
   ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-005-DEPT-001",
+      "name": "总检察院领导层 (Unsur Pimpinan)",
+      "head": "萨尼蒂亚尔·布尔汉努丁 (Sanitiar Burhanuddin)",
+      "description": "由总检察长与副总检察长组成，为院内最高领导机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-002",
+      "name": "指导事务副总检察长办公室 (Jamintel / Pembinaan)",
+      "head": "亨德罗·德万托 (Hendro Dewanto)",
+      "description": "下设秘书处与规划、总务、人事、财务、装备、法律与对外关系等局，负责机构行政与对外法律事务。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-003",
+      "name": "情报事务副总检察长办公室 (Jamintelijen)",
+      "head": "雷达·曼托瓦尼 (Reda Manthovani)",
+      "description": "下设五个业务 Directorate，负责检察情报工作。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-004",
+      "name": "普通刑事事务副总检察长办公室 (Jampidum)",
+      "head": "伦纳德·埃本·埃泽·西曼琼塔克 (Leonard Eben Ezer Simanjuntak)",
+      "description": "下设五个业务 Directorate，负责普通刑事案件的公诉事务。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-005",
+      "name": "特别刑事事务副总检察长办公室 (Jampidsus)",
+      "head": "昆塔迪 (Kuntadi)",
+      "description": "下设侦查、公诉、非常法律救济与执行、严重侵犯人权、行动监控等 Directorate，负责贪腐等特别刑事案件。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-006",
+      "name": "民事与国家行政事务副总检察长办公室 (Jamdatun)",
+      "head": "R. 纳伦德拉·贾特纳 (R. Narendra Jatna)",
+      "description": "下设民事、国家行政、法律意见等 Directorate，以国家律师身份代表政府参与民事与行政诉讼。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-007",
+      "name": "军事刑事事务副总检察长办公室 (Jampilmil)",
+      "head": "M. 阿里·里多 (M. Ali Ridho)",
+      "description": "下设处置、公诉、执行与非常法律救济等 Directorate，负责军事刑事案件。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-008",
+      "name": "监督事务副总检察长办公室 (Jamwas)",
+      "head": "鲁迪·马尔戈诺 (Rudi Margono)",
+      "description": "下设三个督察局与三个财务督察局，负责内部监督。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-009",
+      "name": "教育与培训机构 (Badiklat)",
+      "head": "哈利·西雷加尔 (Harli Siregar)",
+      "description": "下设秘书处、领导力培训中心与技术职能培训中心，负责检察官培训。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-010",
+      "name": "资产追回局 (Badan Pemulihan Aset)",
+      "head": null,
+      "description": "下设资产管理、追踪与没收中心及资产处置中心，负责犯罪资产追缴。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-011",
+      "name": "省级高等检察院与县级检察院 (Kejaksaan Tinggi / Kejaksaan Negeri)",
+      "head": null,
+      "description": "在各省设高等检察院（Kejati）、各县市设检察院（Kejari），部分设分支机构，构成全国三级检察体系。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-012",
+      "name": "总检察长专家顾问团 (Staf Ahli Jaksa Agung)",
+      "head": null,
+      "description": "设问责与公共信息、政治安全与执法、组织与官僚制及信息技术、法律考量与发展、经济社会与文化等五名专家顾问，辅佐总检察长决策。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-013",
+      "name": "直属中心 (Pusat)",
+      "head": null,
+      "description": "包括执法政策战略中心、法律宣传中心（Puspenkum，管理官方社媒与新闻发布）、数据刑事统计与信息技术中心、司法健康中心等直属机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-005-DEPT-014",
+      "name": "总检察长助理 (Asisten Jaksa Agung)",
+      "head": null,
+      "description": "设总检察长一般事务助理与特别事务助理，处理总检察长交办事务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-10",
+      "title": "受理林区种植园腐案1.003万亿盾国家损失款",
+      "description": "特别刑事事务副总检察长（JAM Pidsus）侦查组受理并公开展示PT PSMI（利用伊努塔尼五号林区/Inhutani V经营种植园）腐败案的国家损失暂存款1.003万亿印尼盾，为近年单笔金额最大的资产追缴展示之一。",
+      "impact": "展示了资产追回局与特别刑事部门追缴腐败资产的执行能力。",
+      "source": "https://www.kejaksaan.go.id/"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "侦破PT CNI镍矿治理腐败案",
+      "description": "总检察院侦破2017-2020年PT Ceria Nugraha Indotama（CNI）镍矿治理腐败案，查明为满足出口要求操纵镍品位，国家损失达4016.5亿印尼盾；侦查组查封并由PT CNI退缴同额款项，多名责任人被列为嫌疑人继续侦办。",
+      "impact": "涉镍资源出口治理的重大案件，直接关联镍下游产业合规与国家矿产资源收益。",
+      "source": "https://nasional.kompas.com/read/2026/08/31/14533091/kejagung-bongkar-korupsi-tata-kelola-nikel-pt-cni-negara-rugi-rp-401-miliar"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "高层改组：五名高级官员就职并羁押前官员费布里",
+      "description": "总检察长布尔汉努丁主持改组，宣誓就职五名一级高级官员：阿塞普·纳纳·穆利亚纳任副总检察长、昆塔迪任特别刑事事务副总检察长、伦纳德·埃本·埃泽·西曼琼塔克任普通刑事事务副总检察长等；同日总检察院正式羁押因涉腐被查的前特别刑事事务副总检察长费布里·阿德里安夏。",
+      "impact": "领导层更替，意在整肃内部并回应外界对检察院反腐公正性的质疑。",
+      "source": "https://nasional.kompas.com/read/2026/07/24/11475771/asep-nana-mulyana-hingga-kuntadi-resmi-dilantik-kejagung-janji-perkuat"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "特别刑事副总检察长费布里涉腐辞职被停职",
+      "description": "警方将时任特别刑事事务副总检察长费布里·阿德里安夏列为腐败（《反腐败法》第12B、12D条）与洗钱（《洗钱法》第3、4条）案嫌疑人；其同日递交辞呈，总检察长接受辞职并暂停其检察官资格，其后在至少三起案件中受总检察院侦查。",
+      "impact": "总检察院史上罕见的高级官员涉腐被查事件，引发对检察系统内部治理的广泛讨论。",
+      "source": "https://jambi.antaranews.com/berita/663223/jaksa-agung-berhentikan-sementara-status-jaksa-febrie-adriansyah"
+    },
+    {
+      "date": "2026-06-24",
+      "title": "通报2020-2026年挽回国家损失131.5万亿印尼盾",
+      "description": "时任特别刑事事务副总检察长费布里·阿德里安夏通报，2020-2026年经特别刑事程序（含锡、棕榈油等重大腐案判决与和解）共挽回国家损失约131.5万亿印尼盾，其中2026年达40.5万亿盾为最高。",
+      "impact": "体现总检察院在腐败资产追缴方面的整体绩效。",
+      "source": "https://nasional.kompas.com/read/2026/06/24/19145201/jampidsus-kejagung-pamer-selamatkan-rp-1315-triliun-dalam-6-tahun-terakhir"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "SIRI特别任务组逮捕挪用公款通缉犯",
+      "description": "负责引渡、遣返与国际刑警事务的SIRI特别任务组逮捕一名泗水检察院挪用公款案在逃通缉对象（DPO）。",
+      "impact": "体现检察院系统内部贪腐清理与跨境追逃机制运作。",
+      "source": "https://kejaksaan.go.id/conference/news/12614/read"
+    },
+    {
+      "date": "2025-07-10",
+      "title": "原油治理腐败案：里扎·查利德等7人被列为嫌疑人",
+      "description": "总检察院将商人里扎·查利德（M. Riza Chalid）等7人列为原油（Pertamina体系）采购与治理腐败案嫌疑人，次日其再被列为洗钱嫌疑人；其后查利德外逃被列入通缉名单，国际刑警组织对其发布红色通报，相关资产（含外币）遭查封。",
+      "impact": "印尼能源领域反腐标志性案件，涉国家燃油采购成本与国有企业治理。",
+      "source": "https://www.cnbcindonesia.com/news/20250804173309-4-654976/sudah-dipanggil-kejagung-3x-riza-chalid-masih-buron"
+    },
+    {
+      "date": "2025-06-25",
+      "title": "锡矿贸易腐败案三审维持20年徒刑",
+      "description": "最高法院驳回哈维·莫伊斯（Harvey Moeis）等锡矿贸易腐败案被告的三审上诉，维持20年徒刑（一审6.5年、二审加重至20年）。该案由总检察院特别刑事部门侦办公诉，起诉指控国家损失最初达300万亿印尼盾（最高法院后修正为逾271万亿盾），为印尼史上涉案金额最大的腐败案件之一。",
+      "impact": "确立总检察院在超大金额资源领域腐案公诉中的核心角色，并推动刑期与资产追缴标准讨论。",
+      "source": "https://bengkulu.antaranews.com/berita/422081/kasasi-ditolak-harvey-moeis-tetap-dihukum-20-tahun-penjara-dalam-kasus-korupsi-timah"
+    },
+    {
+      "date": "2024-10-21",
+      "title": "新任总检察长就任",
+      "description": "总统普拉博沃在雅加达国家宫依据《2024年第135/P号总统决定书》宣誓就职萨尼蒂亚尔·布尔汉努丁为总检察长（任期2024-2029），组建新一届领导班子。",
+      "impact": "完成总检察院领导层换届。",
+      "source": "https://www.setneg.go.id/baca/index/presiden_prabowo_lantik_sejumlah_pejabat_setingkat_menteri_di_istana_negara"
+    },
+    {
+      "date": "2021-11-02",
+      "title": "新版检察院法生效",
+      "description": "《2021年第11号法律》（关于检察院的第二次修正案）颁布施行，构成现行机构法律基础。",
+      "impact": "为机构组织与职权提供最新法律依据。",
+      "source": "https://id.wikipedia.org/wiki/Kejaksaan_Agung_Republik_Indonesia"
+    },
+    {
+      "date": "2004-11-08",
+      "title": "检察院法改革",
+      "description": "《2004年第16号检察院法》取代《1991年第5号法律》，确立检察院独立行使检察权、免受政府及其他权力干预的法律地位。",
+      "impact": "成为改革时代检察院制度的重要法律里程碑。",
+      "source": "https://id.wikipedia.org/wiki/Kejaksaan_Agung_Republik_Indonesia"
+    },
+    {
+      "date": "1961-07-22",
+      "title": "检察日设立",
+      "description": "《1961年第15号检察院基本法》于1961年6月30日获批准，7月22日被定为印尼检察日（Hari Bhakti Adhyaksa）。",
+      "impact": "确立检察院作为国家公诉机关的法定地位。",
+      "source": "https://indonesiabaik.id/infografis/kejaksaan-indonesia-dari-masa-ke-masa"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚共和国总统 (Presiden Republik Indonesia)",
+      "org_type": "GOV",
+      "org_description": "国家元首兼政府首脑，行政权核心，现任总统普拉博沃·苏比安托（Prabowo Subianto）",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "ID-GOV-031",
+      "org_name": "印度尼西亚最高法院 (Mahkamah Agung)",
+      "org_type": "GOV",
+      "org_description": "国家最高司法机关，民事、刑事与国家行政案件的终审法院",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚国家警察 (Kepolisian Negara Republik Indonesia / Polri)",
+      "org_type": "GOV",
+      "org_description": "国家执法机关，负责多数刑事案件的侦查，现任国家警察长里斯迪约·希吉特·普拉博沃",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-035",
+      "org_name": "肃贪委员会 (Komisi Pemberantasan Korupsi / KPK)",
+      "org_type": "GOV",
+      "org_description": "反腐败独立国家机构，负责腐败犯罪侦查与公诉",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-022",
+      "org_name": "金融交易报告与分析中心 (PPATK)",
+      "org_type": "GOV",
+      "org_description": "国家金融情报机构，负责可疑金融交易报告与资金流向分析",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-028",
+      "org_name": "印度尼西亚共和国人民代表会议 (DPR)",
+      "org_type": "GOV",
+      "org_description": "国会下院，其第三委员会负责法务领域立法与监督，并审批总检察院预算",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "省高等检察院与县市检察院 (Kejaksaan Tinggi / Kejaksaan Negeri)",
+      "org_type": "GOV",
+      "org_description": "全国三级检察体系中的地方层级机关，受总检察院垂直领导",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "印度尼西亚总检察院（Kejaksaan Agung RI）是行使国家检察权的政府机构，依据《2004年第16号检察院法》（经《2021年第11号法律》修订）独立履行职务。其法定职权包括：在刑事领域进行公诉（penuntutan）、执行法院生效判决（executive ambtenaar，为唯一刑罚执行机构）、监督缓刑与假释、对特定犯罪依法侦查，并在移送法院前补充完善案卷（Dominus Litis，即唯一有权决定案件是否起诉至法院的机构）；总检察长还有权为国家利益向最高法院提出再审、向最高法院提供技术法律意见，并可禁止涉案人员出入境；在民事与国家行政领域以国家律师（Jaksa Pengacara Negara）身份代表国家和政府出庭或庭外行事；此外还承担法律宣传、刑法政策保障等维护公共秩序职能。2021年修法后设立资产追回局（Badan Pemulihan Aset），专门负责犯罪资产的追踪、管理与处置，近年成为追缴腐败资产的核心部门。机构格言为Satya Adhi Wicaksana，院训为Tri Krama Adhyaksa。总部位于雅加达南区苏丹哈桑努丁路1号（Jalan Sultan Hasanuddin No. 1, Kebayoran Baru），体系由总检察院、省高等检察院（Kejati）和县市检察院（Kejari，部分设分支）三级构成，设置七名副总检察长级职能官员（JAM）分管指导、情报、普通刑事、特别刑事、民事与国家行政、军事刑事与内部监督。据印尼语维基百科名录，自1945年以来已历经多任总检察长（不同统计口径为22至25任不等），检察职能可追溯至独立初期：1945年8月19日PPKI会议确立共和国检察体制，7月22日为检察日（Hari Bhakti Adhyaksa）。",
+  "industries": [
+    "judicial",
+    "legal_services",
+    "public_administration"
+  ],
+  "apec_stance": "总检察院是印尼刑事司法系统的核心机关之一，不直接参与APEC经贸议题谈判，但通过法律与对外关系局（Biro Hukum dan Hubungan Luar Negeri）开展司法领域国际合作，包括跨境犯罪、资产追回与司法协助等事务，为印度尼西亚作为APEC与东盟成员参与区域执法合作提供检察支持。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q12490460"
+      "https://id.wikipedia.org/wiki/Kejaksaan_Agung_Republik_Indonesia",
+      "https://kejaksaan.go.id/",
+      "https://indonesiabaik.id/infografis/kejaksaan-indonesia-dari-masa-ke-masa",
+      "https://www.wikidata.org/wiki/Q12490460",
+      "https://id.wikipedia.org/wiki/Daftar_Jaksa_Agung_Indonesia",
+      "https://www.setneg.go.id/baca/index/presiden_prabowo_lantik_sejumlah_pejabat_setingkat_menteri_di_istana_negara",
+      "https://nasional.kompas.com/read/2026/07/24/11475771/asep-nana-mulyana-hingga-kuntadi-resmi-dilantik-kejagung-janji-perkuat",
+      "https://nasional.kompas.com/read/2026/06/24/19145201/jampidsus-kejagung-pamer-selamatkan-rp-1315-triliun-dalam-6-tahun-terakhir",
+      "https://nasional.kompas.com/read/2026/08/31/14533091/kejagung-bongkar-korupsi-tata-kelola-nikel-pt-cni-negara-rugi-rp-401-miliar",
+      "https://www.cnbcindonesia.com/news/20250804173309-4-654976/sudah-dipanggil-kejagung-3x-riza-chalid-masih-buron",
+      "https://bengkulu.antaranews.com/berita/422081/kasasi-ditolak-harvey-moeis-tetap-dihukum-20-tahun-penjara-dalam-kasus-korupsi-timah",
+      "https://jambi.antaranews.com/berita/663223/jaksa-agung-berhentikan-sementara-status-jaksa-febrie-adriansyah",
+      "https://kejaksaan.go.id/conference/news/12614/read",
+      "https://www.tiktok.com/@kejaksaan.ri"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q12490460; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 97,
+    "quotes": [
+      {
+        "title": "Kejaksaan Agung Republik Indonesia - Wikipedia Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Kejaksaan_Agung_Republik_Indonesia"
+      },
+      {
+        "title": "Kejaksaan Indonesia Dari Masa Ke Masa - Indonesiabaik.id",
+        "url": "https://indonesiabaik.id/infografis/kejaksaan-indonesia-dari-masa-ke-masa"
+      },
+      {
+        "title": "Situs Resmi Kejaksaan Agung RI",
+        "url": "https://kejaksaan.go.id/"
+      },
+      {
+        "title": "Presiden Prabowo Lantik Sejumlah Pejabat Setingkat Menteri di Istana Negara - Sekretariat Kabinet RI",
+        "url": "https://www.setneg.go.id/baca/index/presiden_prabowo_lantik_sejumlah_pejabat_setingkat_menteri_di_istana_negara"
+      },
+      {
+        "title": "Asep Nana Mulyana hingga Kuntadi Resmi Dilantik, Kejagung Janji Perkuat Sinergi - Kompas.com",
+        "url": "https://nasional.kompas.com/read/2026/07/24/11475771/asep-nana-mulyana-hingga-kuntadi-resmi-dilantik-kejagung-janji-perkuat"
+      },
+      {
+        "title": "Kejagung Bongkar Korupsi Tata Kelola Nikel PT CNI, Negara Rugi Rp 401 Miliar - Kompas.com",
+        "url": "https://nasional.kompas.com/read/2026/08/31/14533091/kejagung-bongkar-korupsi-tata-kelola-nikel-pt-cni-negara-rugi-rp-401-miliar"
+      },
+      {
+        "title": "Jampidsus Kejagung Pamer Selamatkan Rp 131,5 Triliun dalam 6 Tahun Terakhir - Kompas.com",
+        "url": "https://nasional.kompas.com/read/2026/06/24/19145201/jampidsus-kejagung-pamer-selamatkan-rp-1315-triliun-dalam-6-tahun-terakhir"
+      },
+      {
+        "title": "Jaksa Agung berhentikan sementara status jaksa Febrie Adriansyah - Antara Jambi",
+        "url": "https://jambi.antaranews.com/berita/663223/jaksa-agung-berhentikan-sementara-status-jaksa-febrie-adriansyah"
+      },
+      {
+        "title": "Kasasi ditolak, Harvey Moeis tetap dihukum 20 tahun penjara dalam kasus korupsi timah - Antara Bengkulu",
+        "url": "https://bengkulu.antaranews.com/berita/422081/kasasi-ditolak-harvey-moeis-tetap-dihukum-20-tahun-penjara-dalam-kasus-korupsi-timah"
+      },
+      {
+        "title": "Sudah Dipanggil Kejagung 3x, Riza Chalid Masih Buron - CNBC Indonesia",
+        "url": "https://www.cnbcindonesia.com/news/20250804173309-4-654976/sudah-dipanggil-kejagung-3x-riza-chalid-masih-buron"
+      },
+      {
+        "title": "Daftar Jaksa Agung Indonesia - Wikipedia Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Daftar_Jaksa_Agung_Indonesia"
+      }
+    ],
+    "notes": "P3二次深化（2026-09-17）：核实现任总检察长Sanitiar Burhanuddin（2024-10-21经Keppres 135/P/2024由Prabowo任命，任期2024-2029）与副总检察长Asep Nana Mulyana（2026-07-24改组就任）均在任；补充Kuntadi、Leonard Eben Ezer Simanjuntak、Febrie Adriansyah、Rudi Margono等现任/前任高级官员（索引未命中，person_id写null）。新增2025-2026年事件8项（原油腐案Riza Chalid、锡案三审维持20年、2026年高层改组与Febrie涉腐案、PT CNI镍腐案、Inhutani V林区1.003万亿盾追缴、Rp131.5万亿绩效通报、SIRI追逃等），全部事件补source字段。related_entities改用org_id/org_type/org_description/relationship_type新结构（KPK=ID-GOV-035、最高法院=ID-GOV-031、PPATK=ID-GOV-022、DPR=ID-GOV-028命中索引；警方与总统府未命中写null）。社媒核实并补充Facebook/TikTok官方账号，Instagram更正为@kejaksaan.ri。总检察长历史任期数存在22-25任的不同统计口径，core_business按多口径表述。关键信息均经至少两个独立来源交叉核实。；[schema修复并档] ；high"
   }
 }

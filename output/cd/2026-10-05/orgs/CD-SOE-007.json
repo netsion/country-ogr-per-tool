@@ -1,0 +1,317 @@
+{
+  "org_id": "CD-SOE-007",
+  "basic_info": {
+    "name_original": "Société Aurifère du Kivu et du Maniema",
+    "name_zh": "基伍-马涅马黄金矿业公司",
+    "name_en": "Société Aurifère du Kivu et du Maniema",
+    "aliases": [
+      "SAKIMA",
+      "SAKIMA SA",
+      "SAKIMA SARL"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "COD",
+    "hq_country_iso3": "COD",
+    "founded_date": "1997-01-01",
+    "website": "http://sakima.cd/",
+    "wikidata_qid": "Q115815794"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "SAKIMA 官方网站",
+      "url": "http://sakima.cd/",
+      "description": "公司官网域名，为英文维基百科条目与刚果（金）企业信息平台 Congomines 收录；2026-10-06 采集时检测连接失败、无法访问。",
+      "source": "en.wikipedia.org; congomines.org"
+    },
+    {
+      "name": "刚果（金）矿业数据仓库企业档案页",
+      "url": "https://datawarehouse.cd/emine/operateur/7870/all",
+      "description": "矿业部矿业数据仓库（Mining Datawarehouse）中 SAKIMA SA（运营商编号 7870）的官方档案：开采许可、部长令（arretes）、生产、出口与财务义务数据。",
+      "source": "datawarehouse.cd"
+    },
+    {
+      "name": "Congomines 企业登记详情页",
+      "url": "https://congomines.org/fr/company-detail/?id=51",
+      "description": "刚果（金）企业信息平台 Congomines 收录的 SAKIMA 公司详情：注册地址为金沙萨贡贝区卢库萨中校大道 316 号（316, avenue Lt Col LUKUSA, Kinshasa Gombe），官网 sakima.cd。",
+      "source": "congomines.org"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CD-PERSON-000215",
+      "name": "居伊·罗贝尔·卢卡马 (Guy Robert Lukama)",
+      "title": "总经理 (Directeur Général)",
+      "title_description": "主持公司日常经营，统筹 2024 年启动的技术、社会与财务振兴计划的执行。",
+      "description": "2026-02-23 经国家电视台宣读的总统令任命，接替菲代勒·巴拉·万杜。银行家出身，曾在刚果（金）和比利时从业，长期深耕矿业领域；2023 年 2 月至 2026 年 2 月任刚果国家矿业总公司（Gécamines）董事长。"
+    },
+    {
+      "person_id": "CD-PERSON-000216",
+      "name": "莫科洛·卡穆埃纳·卡纳纳 (Mokolo Kamuena Kanana)",
+      "title": "董事长 (Président du Conseil d'Administration)",
+      "title_description": "主持公司董事会，负责战略监督与对国家（唯一股东）的治理问责。",
+      "description": "2022-11-15 总统令首次出任董事长（时拼写 Makolo Kamuena，与菲代勒·巴拉同时获任），2026-02-23 总统令再度执掌董事会。"
+    },
+    {
+      "person_id": "CD-PERSON-000219",
+      "name": "路易·卡尼基·奇宾迪 (Louis Kaniki Tshibindi)",
+      "title": "参股管理总监 (Directeur des Participations)",
+      "title_description": "管理公司对外参股与合资合作，并代表总经理执行特使任务。",
+      "description": "2025 年 10 月作为总经理巴拉·万杜的特使，率团拜会马涅马省长并主持 MONAZITE 独居石项目卢布图启动仪式，提出逐步实现月产 500 吨独居石的工业化目标。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "CD-SOE-007-DEPT-001",
+      "name": "总经理办公室（金沙萨总部）",
+      "head": "居伊·罗贝尔·卢卡马 (Guy Robert Lukama)",
+      "description": "公司决策与行政中枢，执行董事会决议，统筹 2024 年启动的振兴计划；注册办事处位于金沙萨贡贝区卢库萨中校大道 316 号。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CD-SOE-007-DEPT-002",
+      "name": "参股管理部 (Direction des Participations)",
+      "head": "路易·卡尼基·奇宾迪 (Louis Kaniki Tshibindi)",
+      "description": "管理对外合资参股（刚果公平矿业公司 CFM、Punia Kasese Mining、MONAZITE 项目等）及合作伙伴关系。",
+      "parent_dept_id": "CD-SOE-007-DEPT-001"
+    },
+    {
+      "dept_id": "CD-SOE-007-DEPT-003",
+      "name": "卡利马矿区 (Site de Kalima)",
+      "head": null,
+      "description": "公司实际作业中心（马涅马省卡利马镇）：金矿运营、矿石收购柜台（如 Umoja）及公司拥有的水电站所在基地，电力通过 SNEL 销售；2025-2026 年因欠薪罢工多次停摆。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CD-SOE-007-DEPT-004",
+      "name": "普尼亚作业区 (SAKIMA-Punia)",
+      "head": "约瑟夫·恩贾莱·拉马扎尼 (Joseph Ndjale Ramazani)",
+      "description": "马涅马省普尼亚的前线作业队伍，与 Umoja Wetu 团队联合运营 MMR 独居石处理设施。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "CD-SOE-007-DEPT-005",
+      "name": "协调委员会 (Comité de coordination)",
+      "head": null,
+      "description": "卡利马工人 2026 年罢工中要求撤销的内部管理机构，具体职能与成员构成未公开（Radio Okapi 2026-10-02）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-10",
+      "title": "卡利马工人罢工索要 31.5 个月欠薪，持续月余未解",
+      "description": "SAKIMA 卡利马（Kalima）矿区工人自 9 月 10 日起罢工，要求支付累计 31 个半月（2 年 7 个月）欠薪，指管理层未履行 2023 年 9 月在省政府调解下达成的协议；并要求撤销其质疑的协调委员会、将部分矿区收入（含 Umoja 柜台月约 6 万美元及 SNEL 售电收入）直接支付至卡利马站点账户、停止 CGX、Umoja、KMC 等合作伙伴在其矿界内的开采与收购活动，并指控国家安全局（ANR）任意拘捕维权工人。基层工会代表团长恩德瓦尼·基邦热·里戈贝尔（Ndwani Kibonge Rigobert）提出上述诉求；截至 Radio Okapi 10 月 2 日报道，管理层未予回应。",
+      "impact": "矿区生产与售电持续中断，劳资矛盾集中暴露，直接考验 2026 年 2 月上任的新领导层重组公信力。",
+      "source": "https://www.radiookapi.net/2026/10/02/actualite/societe/les-travailleurs-de-la-sakima-en-greve-pour-reclamer-plus-de-31-mois"
+    },
+    {
+      "date": "2026-02-23",
+      "title": "总统令改组领导班子：卢卡马出任总经理",
+      "description": "2 月 23 日国家电视台宣读总统令：居伊·罗贝尔·卢卡马（Guy Robert Lukama）出任 SAKIMA 总经理，接替菲代勒·巴拉·万杜（Fidèle Babala Wandu）；莫科洛·卡穆埃纳·卡纳纳（Mokolo Kamuena Kanana）任董事长，泰奥多尔·恩瓜马（Théodore Ngwama）留任副总经理。卢卡马为银行家出身，此前自 2023 年 2 月起任 Gécamines 董事长。此次换帅与 Gécamines、Sokimo 同日进行，公司继续推进 2024 年启动的技术、社会与财务重组（持有三省 47 项开采许可与 5 座水电站）。",
+      "impact": "作为刚果（金）国企换帅潮的一部分，新管理层同时承接振兴计划落地与鲁巴亚许可争议两大课题。",
+      "source": "https://bankable.africa/fr/tetes-daffiches/2402-2454-secteur-minier-gecamines-sakima-et-sokimo-changent-de-dirigeants"
+    },
+    {
+      "date": "2025-12-04",
+      "title": "刚美战略矿产伙伴协议将鲁巴亚钽矿列入对美开放资产清单",
+      "description": "刚果（金）与美国签署聚焦关键矿产的战略伙伴协议；据路透社披露的初步清单，北基伍鲁巴亚（Rubaya）钶钽铁矿位列向美国投资者提供的 25 项资产之中，工业化开发估计需 5000 万至 1.5 亿美元。刚果矿业登记册显示 SAKIMA 为该区块许可持有人，但矿区自 2024 年 4 月起由 AFC/M23 武装控制，且许可归属仍受 SAKIMA 与刚果公平矿业公司（CFM）诉讼争议影响；彭博社报道瑞士 Mercuria 与美国 TechMet 等正考虑参与开发。",
+      "impact": "若安全与法律障碍解除，鲁巴亚产业化或成为公司最重要的资产变现机会；争议不决则可能拖累协议落地。",
+      "source": "https://bankable.africa/en/mining/0603-2527-security-legal-disputes-complicate-plans-to-develop-rubaya-coltan-mine"
+    },
+    {
+      "date": "2025-10-17",
+      "title": "启动 MONAZITE 独居石（稀土）项目",
+      "description": "SAKIMA 与 Mining Minerals Resources（MMR）合作正式启动 MONAZITE 独居石（稀土）项目，覆盖马涅马省普尼亚（Punia）、卢布图（Lubutu）与北基伍省瓦利卡莱（Walikale）三地。10 月 17 日公司代表团（参股管理总监路易·卡尼基·奇宾迪以总经理巴拉·万杜特使身份率队）在马涅马省督府拜会省长莫伊兹·穆萨·卡布万库比（Moïse Moussa Kabwankubi），随后在卢布图举行启动仪式。MMR 普尼亚现有装置月产约 40 吨独居石，公司提出逐步达到月产 500 吨的工业化目标；项目所用矿床全部位于 SAKIMA 矿权范围内。",
+      "impact": "公司业务首次规模化延伸至稀土领域，是复产与多元化战略的标志性一步。",
+      "source": "https://congoprofond.net/monazite-la-sakima-lance-un-projet-minier-strategique-entre-le-maniema-et-le-nord-kivu-pour-industrialiser-les-terres-rares-congolaises111/"
+    },
+    {
+      "date": "2025-10-06",
+      "title": "卡利马因欠薪罢工再度停电",
+      "description": "马涅马省卡利马镇因 SAKIMA 工人罢工再度陷入黑暗，工人索要 20 余个月欠薪。此前 2025 年 2 月该公司员工罢工已导致其所有的鲁丘鲁库鲁水电站停摆、全省停电十余天，欠薪问题贯穿 2025 年全年。",
+      "impact": "运营停摆叠加地方供电中断，持续削弱公司运营能力与公共服务保障。",
+      "source": "https://kinpressactu.cd/2025/10/06/maniema-kalima-plongee-dans-le-noir-suite-a-une-greve-des-agents-de-la-sakima-reclamant-20-mois-darrieres-de-salaire/"
+    },
+    {
+      "date": "2025-09-04",
+      "title": "国家行政法院再度就鲁巴亚许可争议作出裁决",
+      "description": "刚果（金）最高行政法院（Conseil d'Etat）继 4 月 30 日裁决后，于 9 月 4 日再次裁决，撤销/中止三项将鲁巴亚（Rubaya）特许从刚果公平矿业公司（CFM）所持较大许可中分离的部长令。CFM（被美制裁的 CDMC 持股 70%、SAKIMA 持股 30%；转让协议 2021-03-11 签署、2022-05-20 完成登记）据此主张独家所有权，而矿业登记册仍登记 SAKIMA 为许可持有人。彭博社 10 月 1 日报道，时任矿业部长路易·瓦图姆·卡班巴（Louis Watum Kabamba）认为 SAKIMA 的权利人地位相当明确，并计划召集各方协商。",
+      "impact": "公司旗舰钽矿资产的法律归属悬置；叠加 CDMC 于 2025-08-12 受美国 OFAC 制裁，权益格局高度不确定。",
+      "source": "https://www.miningweekly.com/article/congo-court-ruling-risks-snarling-trumps-critical-mineral-goals-2025-10-01"
+    },
+    {
+      "date": "2025-03-12",
+      "title": "获颁新的 PE16159 开采许可",
+      "description": "矿业部长令 00071/CAB.MIN/MINES/01/2025（2025 年 3 月 12 日）批准将 PE76 开采许可拆分转换为多项许可，并向 SAKIMA SA 授予其中编号 16159 的开采许可。此前公司 2020-12-17 获多项许可续期，2021-11-20 有 5 项许可（PE74、75、77、79、80）被注销。",
+      "impact": "矿权组合在整顿后重新扩容，为复产与对外合作提供法定基础。",
+      "source": "https://datawarehouse.cd/emine/operateur/arretes/7870/all"
+    },
+    {
+      "date": "2025-02-28",
+      "title": "卡利马罢工致马涅马全省停电",
+      "description": "SAKIMA 卡利马站点员工因数月欠薪罢工十余天，公司所有的鲁丘鲁库鲁（Rutchurukuru）水电站（由刚果国家电力公司 SNEL 运营）随之停摆，马涅马省陷入黑暗。Radio Okapi《经济回声》节目 2 月 28 日报道。",
+      "impact": "暴露公司现金流危机与治理问题；停电波及全省民生，凸显 SAKIMA 在马涅马能源供应中的系统性角色。",
+      "source": "https://www.radiookapi.net/2025/02/28/emissions/echos-deconomie/sakima-la-greve-qui-plonge-le-maniema-dans-le-noir"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CD-GOV-001",
+      "org_name": "刚果民主共和国政府 (Gouvernement de la République Démocratique du Congo)",
+      "org_type": "GOV",
+      "org_description": "刚果（金）中央政府，SAKIMA 的唯一股东。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "CD-GOV-019",
+      "org_name": "刚果民主共和国矿业部 (Ministère des Mines)",
+      "org_type": "GOV",
+      "org_description": "矿业主管部门，负责开采许可的授予、续期与注销及矿业合同审查。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "CD-SOE-002",
+      "org_name": "基伍矿业工业公司 (Société Minière et Industrielle du Kivu, SOMINKI)",
+      "org_type": "CORP",
+      "org_description": "1974-05-31 成立的私营矿业公司（Empain 集团 72%、扎伊尔政府 28%），承接 1923 年创立的比利时殖民地金矿公司矿业资源大湖公司（MGL）等企业资产，经营南基伍金锡矿至 1997-03-29 清算。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "CD-CORP-026",
+      "org_name": "班罗公司 (Banro Resource Corporation / Banro Corporation)",
+      "org_type": "CORP",
+      "org_description": "加拿大矿业公司，1996-1997 年通过子公司收购 SOMINKI 私有股，1997 年 SAKIMA 成立时持股 93%（政府持 7%）。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "CD-CORP-027",
+      "org_name": "刚果公平矿业公司 (Congo Fair Mining, CFM)",
+      "org_type": "CORP",
+      "org_description": "2020 年由 SAKIMA 与 CDMC 组建的合资企业（CDMC 70%、SAKIMA 30%），2021-03-11 签署鲁巴亚开采许可转让协议并于 2022-05-20 完成登记；现与 SAKIMA 就北基伍鲁巴亚钽矿许可归属激烈争讼。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "CD-GOV-013",
+      "org_name": "刚果手工采矿者合作社 (Coopérative des Artisanaux Miniers du Congo, CDMC)",
+      "org_type": "CORP",
+      "org_description": "经营鲁巴亚矿区手工采矿的合作社，CFM 的 70% 股东；2025-08-12 被美国财政部 OFAC 制裁（涉嫌涉 PARECO-FF 武装组织控制区矿产交易），其否认违规并称自己是受害者。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-028",
+      "org_name": "多特服务公司 (Dott Services Ltd)",
+      "org_type": "CORP",
+      "org_description": "乌干达工程与建筑企业，2020 年与 SAKIMA 就马涅马矿区组建合资企业 Punia Kasese Mining（PKM，Dott 70%、SAKIMA 30%）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-029",
+      "org_name": "采矿矿产资源公司 (Mining Minerals Resources, MMR)",
+      "org_type": "CORP",
+      "org_description": "与 SAKIMA 合作运营 MONAZITE 独居石（稀土）项目的伙伴企业，在普尼亚拥有月产约 40 吨独居石的处理装置。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-030",
+      "org_name": "迪瑟公司 (Dither Ltd)",
+      "org_type": "CORP",
+      "org_description": "卢旺达贵金属精炼企业；2021-06-26 在齐塞克迪与卡加梅见证下与 SAKIMA 签署金矿精炼合作协议，2022 年 6 月因 M23 再次攻势被刚果（金）方面撤销。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-SOE-002",
+      "org_name": "刚果国家电力公司 (Société Nationale d'Électricité, SNEL)",
+      "org_type": "SOE",
+      "org_description": "刚果（金）国有电力公司，受托运营 SAKIMA 拥有的鲁丘鲁库鲁（Rutchurukuru）水电站并向卡利马地区供电；2025-2026 年 SAKIMA 罢工期间连带停摆。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-SOE-001",
+      "org_name": "刚果国家矿业总公司 (La Générale des Carrières et des Mines, Gécamines)",
+      "org_type": "SOE",
+      "org_description": "刚果（金）最大国有矿业企业（加丹加铜钴）。2026-02-23 两公司同日换帅：原 Gécamines 董事长居伊·罗贝尔·卢卡马转任 SAKIMA 总经理。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CD-SOE-006",
+      "org_name": "巴宽加矿业公司 (Société Minière de Bakwanga, MIBA)",
+      "org_type": "SOE",
+      "org_description": "刚果（金）国有钻石矿业公司，与 SAKIMA 同属国家控股矿业国企序列。",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "SAKIMA（Société Aurifère du Kivu et du Maniema SA，又作 SAKIMA SARL）是刚果民主共和国政府全资所有的国有矿业公司，主营基伍-马涅马地区金、锡石（锡）、钶钽铁矿（钽）、钨及独居石（稀土）等多金属矿权的持有、勘探与开采运营，并从事矿石收购、贸易出口与电力销售。公司注册办事处位于金沙萨贡贝区卢库萨中校大道 316 号，实际作业中心为马涅马省卡利马（Kalima）矿区；据 2026 年 2 月官方通报，公司持有马涅马、北基伍、南基伍三省共 47 项开采许可和 5 座水电站（其中鲁丘鲁库鲁大坝由国有 SNEL 运营售电）。公司沿革可追溯至 1923 年比利时投资人（含 Empain 男爵）创立的矿业资源大湖公司（MGL）及 1974 年组建的 SOMINKI；1997 年承接其资产后，历经与加拿大 Banro 的股权纠纷、1998 年被卡比拉政府没收转交 SOMICO、2002 年 4 月和解后恢复为纯国有。2024 年起在振兴计划框架下推进技术、社会与财务重组，2025 年启动 MONAZITE 稀土项目；北基伍鲁巴亚（Rubaya）钽矿许可归属之争（SAKIMA 对 CFM）是其当前最重大的资产权益事项，该矿区自 2024 年 4 月起由 AFC/M23 武装实际控制。",
+  "industries": [
+    "mining",
+    "metal_mining",
+    "electricity_gas"
+  ],
+  "apec_stance": "刚果民主共和国不是亚太经合组织（APEC）成员。APEC 现有 21 个成员经济体，均位于亚太地区，至今没有任何非洲国家加入；SAKIMA 作为刚果（金）国有矿业企业，与 APEC 机制及其议程不存在成员关系、官方合作或公开立场记录。本画像不包含任何 APEC 相关内容。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-10-06",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search",
+      "government_registry",
+      "other"
+    ],
+    "completeness_score": 79,
+    "notes": "官网 sakima.cd 在采集日连接失败无法访问，但系英文维基百科与 Congomines 收录的官方域名，故予保留并注明；未发现 SAKIMA 官方社交媒体账号，social_accounts 留空；Wikidata Q115815794 无标志图片（P18 缺失），profile 留空；法语维基百科无 SAKIMA 专条，沿革以英文维基百科及其引用文献为准；founded_date 精确日无文献记载（1997 年初设立、1997-02 与扎伊尔政府签署公约，Wikidata 精度为年），沿用 1997-01-01 惯例并在此说明；鲁巴亚矿区 2024-04 起由 AFC/M23 控制，公司无法实际进入经营；相关 ID 引用：CD-GOV-001、CD-GOV-019、CD-SOE-001、CD-SOE-002、CD-SOE-006 均取自 _name_index.json。",
+    "quotes": [
+      {
+        "title": "Société Aurifère du Kivu et du Maniema - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_Aurif%C3%A8re_du_Kivu_et_du_Maniema"
+      },
+      {
+        "title": "Société Minière et Industrielle du Kivu - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_Mini%C3%A8re_et_Industrielle_du_Kivu"
+      },
+      {
+        "title": "Secteur minier : Gécamines, Sakima et Sokimo changent de dirigeants (Bankable, 2026-02-24)",
+        "url": "https://bankable.africa/fr/tetes-daffiches/2402-2454-secteur-minier-gecamines-sakima-et-sokimo-changent-de-dirigeants"
+      },
+      {
+        "title": "DRC Reshuffles Leadership at Gécamines, Sakima and Sokimo (Bankable EN, 2026-02-24)",
+        "url": "https://bankable.africa/en/headliners/2402-2455-drc-reshuffles-leadership-at-gecamines-sakima-and-sokimo"
+      },
+      {
+        "title": "Les travailleurs de la SAKIMA en grève pour réclamer plus de 31 mois d'arriérés de salaire au Maniema (Radio Okapi, 2026-10-02)",
+        "url": "https://www.radiookapi.net/2026/10/02/actualite/societe/les-travailleurs-de-la-sakima-en-greve-pour-reclamer-plus-de-31-mois"
+      },
+      {
+        "title": "Sakima : la grève qui plonge le Maniema dans le noir (Radio Okapi, 2025-02-28)",
+        "url": "https://www.radiookapi.net/2025/02/28/emissions/echos-deconomie/sakima-la-greve-qui-plonge-le-maniema-dans-le-noir"
+      },
+      {
+        "title": "Congo court ruling risks snarling Trump's critical mineral goals (Bloomberg via Mining Weekly, 2025-10-01)",
+        "url": "https://www.miningweekly.com/article/congo-court-ruling-risks-snarling-trumps-critical-mineral-goals-2025-10-01"
+      },
+      {
+        "title": "Security, legal disputes complicate plans to develop Rubaya coltan mine (Bankable, 2026-03-09)",
+        "url": "https://bankable.africa/en/mining/0603-2527-security-legal-disputes-complicate-plans-to-develop-rubaya-coltan-mine"
+      },
+      {
+        "title": "Monazite : La SAKIMA lance un projet minier stratégique entre le Maniema et le Nord-Kivu (CONGOPROFOND)",
+        "url": "https://congoprofond.net/monazite-la-sakima-lance-un-projet-minier-strategique-entre-le-maniema-et-le-nord-kivu-pour-industrialiser-les-terres-rares-congolaises111/"
+      },
+      {
+        "title": "RDC : de nouvelles nominations à la tête des établissements publics (Radio Okapi, 2022-11-16)",
+        "url": "https://www.radiookapi.net/2022/11/16/actualite/politique/rdc-de-nouvelles-nominations-la-tete-des-etablissements-publics"
+      },
+      {
+        "title": "SOCIETE AURIFERE DU KIVU ET DU MANIEMA SA - Arrêtés (Mining Datawarehouse)",
+        "url": "https://datawarehouse.cd/emine/operateur/arretes/7870/all"
+      },
+      {
+        "title": "Maniema : Kalima plongée dans le noir suite à une grève des agents de la SAKIMA (KinPressActu, 2025-10-06)",
+        "url": "https://kinpressactu.cd/2025/10/06/maniema-kalima-plongee-dans-le-noir-suite-a-une-greve-des-agents-de-la-sakima-reclamant-20-mois-darrieres-de-salaire/"
+      }
+    ]
+  }
+}

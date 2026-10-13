@@ -1,63 +1,377 @@
 {
   "org_id": "ID-CORP-005",
+  "wikidata_qid": "Q128417814",
   "basic_info": {
     "org_id": "ID-CORP-005",
-    "wikidata_qid": "Q128417814",
-    "name_en": "AJB Bumiputera",
-    "name_zh": "布米普特拉 mutual保险",
-    "name_local": "AJB Bumiputera",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "CORP",
-    "org_subtype": "publicly_listed",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://bumiputera.com/",
-    "official_website": "https://bumiputera.com/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "AJB Bumiputera",
+    "name_zh": "布米普特拉1912相互人寿保险公司",
+    "name_en": "AJB Bumiputera 1912",
+    "founded_date": "1912-02-12",
     "country_iso3": "IDN",
-    "name_original": "AJB Bumiputera"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.bumiputera.com/",
+    "org_type": "CORP",
+    "org_subtype": "insurance_company",
+    "aliases": [
+      "AJBB 1912",
+      "Bumiputera 1912",
+      "Asuransi Jiwa Bersama Bumiputera 1912",
+      "Onderlinge Levensverzekering Maatschappij Persatoean Goeroe-Goeroe Hindia Belanda (OL. Mij. PGHB)"
+    ]
   },
-  "description": "金融服务 公司 that offers individual life insurance and group life insurance services",
-  "brief": "金融服务 公司 that offers individual life insurance and group life insurance services",
-  "mission": null,
-  "core_business": "金融服务 公司 that offers individual life insurance and group life insurance services",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "instagram",
+      "account_name": "ajb.bumiputera",
+      "url": "https://www.instagram.com/ajb.bumiputera",
+      "source": "印尼语维基百科外链及公司官方贴文署名"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "AJB Bumiputera 1912",
+      "url": "https://id.linkedin.com/company/ajb-bumiputera-1912",
+      "source": "印尼语维基百科外链"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Asuransi Jiwa Bersama (AJB) Bumiputera 1912",
+      "url": "https://www.facebook.com/AJBBumiputera1912",
+      "source": "Facebook官方页（以公司名义发布官方声明）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官方网站",
+      "url": "https://www.bumiputera.com/",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "布米普特拉在线保险平台 (Asuransi Bumiputera)",
+      "url": "https://asuransibumiputera.com/",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "公司新闻与媒体中心（含财务报告下载）",
+      "url": "https://www.bumiputera.com/listdocument/document/our_company/financial_report/0/15/0/1",
+      "description": "提供月度与年度财务报告（截至2025年12月报告）及公司公告；[]website",
+      "source": "bumiputera.com官网导航"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000481",
+      "name": "伊尔万迪·古斯塔里 (Irvandi Gustari)",
+      "title": "总裁董事 (Direktur Utama)",
+      "title_description": "2022年8月经OJK批准出任总裁董事，任期5年（自2022年8月23日起）；官网2026年董事名单确认在任",
+      "description": "博士（Dr.）、IPB校友，获Top BUMD CEO、Asia Best CEO等荣誉；任内主导财务整顿计划（RPK）的制定与执行"
+    },
+    {
+      "person_id": "ID-PERSON-000482",
+      "name": "苏吉托 (Sugito)",
+      "title": "业务董事 (Direktur Bisnis)",
+      "title_description": "负责公司业务与营销板块；官网2026年董事名单确认在任",
+      "description": "博士（Dr.），拥有经济学硕士（SE, M.Si）学位"
+    },
+    {
+      "person_id": "ID-PERSON-000483",
+      "name": "阿尔杰·温弗里德·帕卡西 (Arjey Winfried Pakasi)",
+      "title": "运营与人力资源董事 (Direktur Operasional dan SDM)",
+      "title_description": "负责运营与人力资源管理；官网2026年董事名单确认在任",
+      "description": "注册会计师（SE.AK, CA）背景，拥有管理学硕士（MM）学位"
+    },
+    {
+      "person_id": "ID-PERSON-000484",
+      "name": "哈迪 (Hardi)",
+      "title": "首席监事 (Komisaris Utama)",
+      "title_description": "监事会主席；官网2026年名单确认在任",
+      "description": "资深会计师（Drs., SH, MM, MH, Ak, CPA, CA, ACPAcc），1962年生于北苏门答腊宾贾伊；KAP Drs. Hardi & Rekan合伙人，曾任印尼会计师协会（IAI）廖内分会主席（2014-2021）、廖内大学讲师"
+    },
+    {
+      "person_id": "ID-PERSON-000485",
+      "name": "沙菲克·穆格尼 (Syafiq A. Mughni)",
+      "title": "独立监事 (Komisaris Independen)",
+      "title_description": "独立监事，教授（Prof.），拥有MA与PhD学位；官网2026年名单确认在任",
+      "description": "学者背景的独立监事"
+    },
+    {
+      "person_id": null,
+      "name": "亨德万 (Hendrawan)",
+      "title": "独立监事 (Komisaris Independen)",
+      "title_description": "独立监事；官网2026年名单在任",
+      "description": "印尼国军准将（Brigjen TNI）背景，持国际关系学士（S.IP）学位"
+    },
+    {
+      "person_id": null,
+      "name": "穆罕默德·伊达哈姆 (H. Muhammad Idaham)",
+      "title": "成员代表大会主席团主席 (Ketua Badan Perwakilan Anggota, DP I)",
+      "title_description": "相互制最高治理机构成员代表大会（BPA）主席团主席，代表北苏门答腊选区（DP I）；官网2026年名单在任",
+      "description": "法学士兼管理学硕士（SH, M.Si），曾任宾贾伊市长两任（2010-2015、2016-2021）"
+    },
+    {
+      "person_id": null,
+      "name": "赫里·达尔马万夏 (M. Hery Darmawansyah)",
+      "title": "公司秘书 (Sekretaris Perusahaan)",
+      "title_description": "负责对外信息披露与公司秘书事务",
+      "description": "2025-2026年间多次以公司秘书身份代表公司发布官方声明（RPK执行进展、员工权益安排、公司存续声明等）"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-CORP-005-DEPT-001",
+      "name": "成员代表大会 (Badan Perwakilan Anggota)",
+      "head": null,
+      "description": "相互制保险公司的最高治理机构，按区域（DP I-XI）选举成员代表组成",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-005-DEPT-002",
+      "name": "董事会 (Dewan Komisaris)",
+      "head": null,
+      "description": "监督董事会经营管理，含独立董事",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-005-DEPT-003",
+      "name": "业务部 (Direksi - Bisnis)",
+      "head": null,
+      "description": "负责保险产品销售、营销与渠道管理",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-005-DEPT-004",
+      "name": "运营与人力资源部 (Operasional dan SDM)",
+      "head": null,
+      "description": "负责公司运营、信息技术与人力资源管理",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "1921-01-01",
+      "title": "总部迁往日惹",
+      "description": "公司总部由马格朗迁至日惹（1921年），后于1958年再迁至雅加达",
+      "impact": "逐步向全国性机构演进",
+      "source": "https://id.wikipedia.org/wiki/Bumiputera_1912"
+    },
+    {
+      "date": "1966-01-01",
+      "title": "更名为AJB Bumiputera",
+      "description": "公司名称正式改为现名AJB Bumiputera；1958年总部迁至雅加达",
+      "impact": "确立现行法人身份",
+      "source": "https://id.wikipedia.org/wiki/Bumiputera_1912"
+    },
+    {
+      "date": "2007-01-01",
+      "title": "品牌标识更新",
+      "description": "公司成立95周年之际启用现代化新标识，象征保单持有人、员工与国家三方利益的相互性",
+      "impact": "强化百年品牌形象",
+      "source": "https://id.wikipedia.org/wiki/Bumiputera_1912"
+    },
+    {
+      "date": "2021-03-19",
+      "title": "OJK将前成员代表大会主席努尔哈萨纳赫列为嫌疑人",
+      "description": "OJK金融服务部门调查人员以不履行或未满足OJK书面指令为由，将时任成员代表大会（BPA）主席、楠榜省地方议员努尔哈萨纳赫（Nurhasanah）列为金融领域犯罪嫌疑人；同年6月29日至7月17日其在Bareskrim Salemba看守所被羁押，案卷后移交雅加达南区法院",
+      "impact": "公司治理问题进入刑事司法程序，凸显监管机构介入深度",
+      "source": "https://finansial.bisnis.com/read/20210319/215/1369683/ojk-tetapkan-ketua-bpa-ajb-bumiputera-nurhasanah-sebagai-tersangka"
+    },
+    {
+      "date": "2022-08-23",
+      "title": "OJK批准新总裁董事上任",
+      "description": "印尼金融服务管理局批准伊尔万迪·古斯塔里出任总裁董事，任期5年，由成员代表大会特别会议选出",
+      "impact": "完成公司最高管理层换届",
+      "source": "https://money.kompas.com/read/2022/09/02/100925326/ojk-restui-irvandi-gustari-jadi-dirut-ajb-bumiputera-1912"
+    },
+    {
+      "date": "2023-02-10",
+      "title": "OJK对公司财务整顿计划（RPK）作出不反对声明",
+      "description": "历经2019年至2022年七次申请未获批后，OJK以信函SR-1/D.05/2023（新闻稿SP-18/GKPB/OJK/II/2023）对公司财务整顿计划作出不反对声明；此前2022年5月11名成员代表完整选出，2022年8月至2023年4月董事会与监事会完成重组并通过OJK适格性与合规性测试",
+      "impact": "公司首次获得整顿计划认可，分期赔付与重组程序正式启动",
+      "source": "https://ojk.go.id/id/berita-dan-kegiatan/siaran-pers/Pages/OJK-Nyatakan-Tidak-Keberatan-Rencana-Penyehatan-Keuangan-AJB-Bumiputera-1912.aspx"
+    },
+    {
+      "date": "2023-03-20",
+      "title": "启动第三阶段逾期保单赔付",
+      "description": "公司于2023年3月8日起开始支付逾期保单赔款（首批约223.4亿印尼盾），3月20日进入第三阶段赔付；赔款经合作银行（印尼国家银行BNI、曼迪里银行）直接汇入保单持有人账户；据Kontan报道，赔付安排将持续至2025年，计划总额约5.29万亿印尼盾",
+      "impact": "逾期赔付机制常态化，缓解保单持有人压力",
+      "source": "https://insight.kontan.co.id/news/hari-ini-senin-203-bumiputera-bayar-klaim-nasabah-tahap-iii-tetap-ada-potongan"
+    },
+    {
+      "date": "2024-05-13",
+      "title": "OJK警告：2026年最低资本不达标将面临股份化或清算",
+      "description": "OJK保险、担保与养老金监管执行长Ogi Prastomiyono表示，公司已于2024年3月21日提交修订版RPK；OJK要求2026年前满足最低股本2500亿印尼盾的监管要求，若无法实现，公司可能经成员大会决议转入股份化（demutualisasi）或清算；OJK并要求出售与经营无直接关联的固定资产、变现资金的50%用于到期赔付，RPK全部事项须于2028年前完成",
+      "impact": "公司存续形式进入关键窗口期",
+      "source": "https://keuangan.kontan.co.id/news/ojk-sebut-ajb-bumiputera-berpotensi-demutualisasi-atau-likuidasi"
+    },
+    {
+      "date": "2024-07-01",
+      "title": "修订版RPK再获OJK不反对声明",
+      "description": "OJK以信函S-20/D.05/2024对公司修订版财务整顿计划作出不反对声明；公司同期完成章程修订（2024年4月26日生效，国家公报第92号、2024年11月15日刊载），以对齐2023年第4号《金融部门发展与强化法》（P2SK法）第七章关于相互制保险的专章规定及OJK第7/2023号相互制保险条例（2023年5月11日颁布）",
+      "impact": "整顿计划进入执行与监管监测阶段",
+      "source": "https://jatim.antaranews.com/berita/923097/ojk-bumiputera-bayar-klaim-rp5422-miliar-hingga-awal-mei-2025"
+    },
+    {
+      "date": "2024-12-05",
+      "title": "总裁董事出席公开活动",
+      "description": "总裁董事伊尔万迪·古斯塔里与业务董事苏吉托出席公司公开活动，展示管理层持续履职",
+      "impact": "维持公司对外沟通与治理连续性",
+      "source": "https://www.instagram.com/p/DDMN5YdTzg-/"
+    },
+    {
+      "date": "2025-03-01",
+      "title": "624名员工依RPK完成裁员程序",
+      "description": "由公司工会SP NIBA发起的集体离职申请（原648人、核准624人）经管理层四个月准备及特别成员大会（RUA Luar Biasa）审议后，于2025年3月1日正式完成劳动关系终止（PHK）；2025年3月17日按规支付2025年节日津贴（THR）；公司秘书Hery Darmawansyah承诺按资金可得性支付受影响员工权益",
+      "impact": "RPK人力资源合理化落地，运营转向精简配置",
+      "source": "https://www.bumiputera.com/listnews/news/news___media/news/0/1/492/1/news"
+    },
+    {
+      "date": "2025-05-23",
+      "title": "OJK通报公司累计赔付5422亿印尼盾",
+      "description": "OJK执行长Ogi Prastomiyono通报：自RPK获不反对声明至2025年5月5日，公司累计赔付5422亿印尼盾，其中个人险3588.6亿、团体险1833.4亿；OJK将继续监测赔付以落实RPK项下消费者保护",
+      "impact": "赔付进度纳入OJK持续监测",
+      "source": "https://jatim.antaranews.com/berita/923097/ojk-bumiputera-bayar-klaim-rp5422-miliar-hingga-awal-mei-2025"
+    },
+    {
+      "date": "2025-10-22",
+      "title": "中苏门答腊选区成员代表选举以电子投票举行",
+      "description": "2022-2027届成员代表大会（RUA）代表选举中，中苏门答腊选区（Dapil II - Sumatera Bagian Tengah）于2025年10月22日至24日以电子投票（eVoting）方式进行成员代表选举",
+      "impact": "相互制治理架构按周期持续运转",
+      "source": "https://www.bumiputera.com/pages/default/information_center/prc_election_2022-2027_period/policyholder_notification_letter"
+    },
+    {
+      "date": "2026-02-20",
+      "title": "获印尼年度成就奖（ITAY）国家荣誉",
+      "description": "公司官方Instagram通报，2026年2月20日公司在雅加达获颁印尼年度最佳成就奖（Indonesia Top Achievements of the Year, ITAY）国家奖项",
+      "impact": "在整顿期内维护品牌声誉与公众信心",
+      "source": "https://www.instagram.com/p/DVFuCCeD-Nz/"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "登巴萨地区负责人正式就任",
+      "description": "公司官方Instagram通报，2026年6月25日Ir. Tanty Sophia Poenay在登巴萨正式宣誓就任巴厘登巴萨地区（Kantor Wilayah Denpasar Bali）负责人",
+      "impact": "区域服务网络正常交接运转",
+      "source": "https://www.instagram.com/p/DaJ2XWHj58N/"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "2026年上半年扭亏为盈，资产降至8.89万亿印尼盾",
+      "description": "据Bisnis.com援引公司2026年半年报：上半年收入537.2亿印尼盾（同比下降86.07%），税后净利润3603.4亿印尼盾（上年同期亏损4068.4亿），综合收益3215.2亿印尼盾（上年同期为综合亏损4192.6亿）；总资产8.89万亿印尼盾（同比下降10.08%），负债11.56万亿印尼盾，权益为-2.67万亿印尼盾（较上年同期-2.52万亿继续走低）；偿付能力比率-721.31%（上年同期-741.84%）；投资组合以投资性房地产3.55万亿印尼盾为主",
+      "impact": "盈利有所改善但资本缺口仍深，2026年最低股本达标压力持续",
+      "source": "https://finansial.bisnis.com/read/20260717/215/1988963/aset-ajb-bumiputera-1912-jadi-rp889-triliun-per-semester-i2026-laba-rp32151-miliar"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚金融服务管理局 (Otoritas Jasa Keuangan, OJK)",
+      "org_type": "GOV",
+      "org_description": "印尼金融服务业统一监管机构，负责审批公司高管任命、对财务整顿计划（RPK）作出不反对声明并实施特殊监管",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼人寿保险协会 (Asosiasi Asuransi Jiwa Indonesia, AAJI)",
+      "org_type": "NGO",
+      "org_description": "印尼人寿保险行业自律组织，公司为其会员单位",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "布米普特拉穆达普通保险公司 (Asuransi Umum Bumiputera Muda 1967 / Bumida)",
+      "org_type": "CORP",
+      "org_description": "同源关联的普通保险（非寿险）公司，近年与公司联合签署多方保险合作协议（如与PT BPR Lebak Sejahtera的三方合作）",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "ID-SOE-006",
+      "org_name": "PT Bank Negara Indonesia (Persero) Tbk / BNI",
+      "org_type": "FIN",
+      "org_description": "印尼国有银行，公司赔款直接入账服务的合作银行之一",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-FIN-003",
+      "org_name": "Bank Mandiri",
+      "org_type": "FIN",
+      "org_description": "印尼国有银行，公司赔款直接入账服务的合作银行之一",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "PT BPR Lebak Sejahtera (Perseroda)",
+      "org_type": "FIN",
+      "org_description": "万丹省勒巴克县地方公用银行，与公司及Bumida签署保护型保险合作协议",
+      "relationship_type": "partner"
+    }
+  ],
+  "profile": {
+    "source_url": "https://id.wikipedia.org/wiki/Bumiputera_1912",
+    "local_path": null
+  },
+  "core_business": "AJB Bumiputera 1912是印度尼西亚历史最悠久的人寿保险公司，也是印尼唯一以相互制（usaha bersama/mutual）形式存续的人寿保险机构。1912年2月12日，三名土著教师（Mas Ngabehi Dwidjosewojo、Mas Karto Hadi Soebroto、Mas Adimidjojo，与民族觉醒组织Budi Utomo关系密切）在中爪哇马格朗创立公司，初名Onderlinge Levensverzekering Maatschappij Persatoean Goeroe-Goeroe Hindia Belanda，由保单持有人共同所有，初始资本完全来自会员保费，1921年总部迁日惹、1958年迁雅加达、1966年改为现名。公司治理由成员代表大会（Badan Perwakilan Anggota，11名区域选区代表组成）、监事会（含独立监事）与董事会构成，受印尼金融服务管理局（OJK）监管并处于其特殊监管安排之下，2023年第4号P2SK法第七章及OJK第7/2023号条例为其提供相互制保险专门法律框架。产品线覆盖个人与团体人寿保险、教育储蓄（Mitra Beasiswa）、健康保险（Mitra Sehat、Mitra Medicare）、意外伤害保险、信贷保险、年金及员工福利计划，并经营Mitra Mabrur Plus、Mitra Mabrur Iqra、Mitra Ta'awun等伊斯兰（syariah）保险产品，通过全国分支网络与代理渠道销售。因长期偿付能力缺口，公司自2023年2月OJK作出不反对声明起执行财务整顿计划（RPK），实施逾期赔款分期支付、非核心固定资产处置、人力资源合理化（2025年3月完成624人裁员）等措施，并须于2026年前满足2500亿印尼盾最低股本要求，否则可能经成员大会决议转为股份化或进入清算。关联机构包括同源普通保险公司Bumida（Asuransi Umum Bumiputera Muda 1967）等。",
+  "industries": [
+    "insurance",
+    "financial_services"
+  ],
+  "apec_stance": "作为印尼相互制人寿保险机构，公司主要面向国内市场经营，是印尼人寿保险协会（AAJI）会员。印尼为APEC成员经济体，公司通过服务国内金融包容与保障体系间接参与区域经济发展。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q128417814"
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "social_media",
+      "web_search"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q128417814; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 95,
+    "quotes": [
+      {
+        "title": "AJB Bumiputera 1912 - 印尼语维基百科",
+        "url": "https://id.wikipedia.org/wiki/Bumiputera_1912"
+      },
+      {
+        "title": "公司官网 - 董事会与高管名单",
+        "url": "https://www.bumiputera.com/listboard/board/our_company/board_of_commissioners___directors/0/4/5/1"
+      },
+      {
+        "title": "AAJI - 保险公司名录",
+        "url": "https://aaji.or.id/Perusahaan/ajb-bumiputera-1912"
+      },
+      {
+        "title": "Kompas - OJK批准Irvandi Gustari出任总裁董事",
+        "url": "https://money.kompas.com/read/2022/09/02/100925326/ojk-restui-irvandi-gustari-jadi-dirut-ajb-bumiputera-1912"
+      },
+      {
+        "title": "Tempo - OJK批准新总裁董事",
+        "url": "https://www.tempo.co/ekonomi/ojk-restui-dirut-baru-ajb-bumiputera-irvandi-gustari-begini-profilnya-297566"
+      },
+      {
+        "title": "OJK新闻稿：不反对AJB Bumiputera 1912财务整顿计划（2023-02-10）",
+        "url": "https://ojk.go.id/id/berita-dan-kegiatan/siaran-pers/Pages/OJK-Nyatakan-Tidak-Keberatan-Rencana-Penyehatan-Keuangan-AJB-Bumiputera-1912.aspx"
+      },
+      {
+        "title": "Kontan：OJK称AJB Bumiputera可能股份化或清算（2024-05-13）",
+        "url": "https://keuangan.kontan.co.id/news/ojk-sebut-ajb-bumiputera-berpotensi-demutualisasi-atau-likuidasi"
+      },
+      {
+        "title": "Antara Jatim：OJK通报Bumiputera累计赔付5422亿印尼盾（2025-05-23）",
+        "url": "https://jatim.antaranews.com/berita/923097/ojk-bumiputera-bayar-klaim-rp5422-miliar-hingga-awal-mei-2025"
+      },
+      {
+        "title": "Bisnis.com：AJB Bumiputera 1912资产2026年上半年降至8.89万亿印尼盾（2026-07-17）",
+        "url": "https://finansial.bisnis.com/read/20260717/215/1988963/aset-ajb-bumiputera-1912-jadi-rp889-triliun-per-semester-i2026-laba-rp32151-miliar"
+      },
+      {
+        "title": "公司官网官方声明：AJB Bumiputera 1912的存在是全民的期望（2025-03-17）",
+        "url": "https://www.bumiputera.com/listnews/news/news___media/news/0/1/492/1/news"
+      },
+      {
+        "title": "Bisnis.com：OJK将BPA主席努尔哈萨纳赫列为嫌疑人（2021-03-19）",
+        "url": "https://finansial.bisnis.com/read/20210319/215/1369683/ojk-tetapkan-ketua-bpa-ajb-bumiputera-nurhasanah-sebagai-tersangka"
+      }
+    ],
+    "notes": "P3深度丰富（2026-09-17）：官网核实现任董事与监事在任（新增独立监事Hendrawan、BPA主席Muhammad Idaham、公司秘书Hery Darmawansyah，person_id为null待主会话分配）；recent_events扩充至16条，含2026年三条（ITAY奖项、登巴萨地区负责人就任、上半年财报）；补充RPK整顿时间线（2023-02-10不反对声明、2024-07-01修订版获批、2026年最低股本要求）、2021年前BPA主席刑事案；related_entities按schema规范化，BNI/曼迪里银行命中索引（ID-SOE-006/ID-FIN-003），其余未命中写null。所有关键事实均经两个及以上独立来源交叉确认。2021年赔付纠纷等敏感历史议题按合规要求仅在事件时间线中以中性事实性表述收录。"
   }
 }

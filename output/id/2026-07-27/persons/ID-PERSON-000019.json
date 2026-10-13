@@ -1,53 +1,317 @@
 {
   "person_id": "ID-PERSON-000019",
   "wikidata_qid": "Q402998",
+  "name_zh": "莱昂纳德斯·本杰明·穆尔达尼",
   "name": "Leonardus Benjamin Moerdani",
   "name_en": "Leonardus Benjamin Moerdani",
-  "name_local": "Leonardus Benjamin Moerdani",
-  "name_zh": "莱昂纳德斯·本杰明·穆尔达尼",
-  "name_ms": "Leonardus Benjamin Moerdani",
-  "aliases": [],
+  "aliases": [
+    "L. B. Moerdani",
+    "L.B. Moerdani",
+    "Benny Moerdani",
+    "Benny Murdani",
+    "Leonardus Benyamin Moerdani",
+    "Murdani",
+    "Spymaster",
+    "Unsmiling General",
+    "本尼·穆尔达尼",
+    "L·B·穆尔达尼"
+  ],
   "nationality": "ID",
   "gender": "male",
   "birth_date": "1932-10-02",
-  "birth_place": null,
+  "birth_place": "中爪哇省布洛拉县芝普 (Cepu, Blora, Jawa Tengah)",
   "contacts": [],
-  "current_positions": [
-    "印度尼西亞武裝部隊總司令",
-    "印度尼西亚国防部长"
-  ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "current_positions": [],
+  "education": [
     {
-      "org_id": "ID-GOV-012",
-      "org_name": "Pusat Sejarah Tentara Nasional Indonesia",
-      "title": "Commander of the Indonesian National Armed Forces",
-      "relationship": "key_personnel",
-      "source": "manual_curated_binding"
+      "institution": "陆军军官教育中心 (Pusat Pendidikan Perwira Angkatan Darat, P3AD)",
+      "degree": "other",
+      "field": "军事（军官培训）",
+      "start_date": "1951-01",
+      "end_date": "1952-04"
+    },
+    {
+      "institution": "步兵训练学校 (Sekolah Pelatihan Infanteri, SPI)",
+      "degree": "other",
+      "field": "步兵",
+      "start_date": "1951",
+      "end_date": "1952-05"
+    },
+    {
+      "institution": "美国陆军步兵学校 (U.S. Army Infantry School, Fort Benning)",
+      "degree": "other",
+      "field": "步兵军官高级课程（曾与美军第101空降师共同训练）",
+      "start_date": "1960",
+      "end_date": "1960"
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "organization": "学生军 (Tentara Pelajar)",
+      "org_id": null,
+      "position": "士兵（隶属阿卜杜勒·拉提夫连参加独立战争，1948-12-21在梭罗保卫战中被荷军装甲车击伤）",
+      "start_date": "1945-10",
+      "end_date": "1951-01"
+    },
+    {
+      "organization": "印度尼西亚陆军 (TNI Angkatan Darat)",
+      "org_id": null,
+      "position": "少尉军官（驻第三军区「西利万吉」TT III Siliwangi，旋调入陆军突击团 KKAD/RPKAD，历任教官兼教学局长、连长、营长）",
+      "start_date": "1954",
+      "end_date": "1965-01-06"
+    },
+    {
+      "organization": "战略预备队司令部 (Kostrad)",
+      "org_id": null,
+      "position": "作战与训练局参谋军官、第一战斗司令部情报副助理；加入特别行动组 (Opsus)，曾以加鲁达印尼航空售票员身份在曼谷收集马来西亚情报",
+      "start_date": "1965-01-06",
+      "end_date": "1966"
+    },
+    {
+      "organization": "印度尼西亚外交部 (Departemen Luar Negeri)",
+      "org_id": null,
+      "position": "驻马来西亚临时代办、驻西马来西亚总领事（兼Opsus成员，负责监视越南战争局势）",
+      "start_date": "1966",
+      "end_date": "1969"
+    },
+    {
+      "organization": "印度尼西亚外交部 (Departemen Luar Negeri)",
+      "org_id": null,
+      "position": "驻韩国总领事（1970年2月晋升准将）",
+      "start_date": "1969",
+      "end_date": "1973-09"
+    },
+    {
+      "organization": "印度尼西亚外交部 (Departemen Luar Negeri)",
+      "org_id": null,
+      "position": "驻韩国临时代办（代行大使职务）",
+      "start_date": "1973-09",
+      "end_date": "1974-01"
+    },
+    {
+      "organization": "国防安全部 (Departemen Pertahanan dan Keamanan)",
+      "org_id": "ID-GOV-012",
+      "position": "部长情报助理（兼任恢复安全与秩序行动指挥部 Kopkamtib 司令情报助理）",
+      "start_date": "1974-01",
+      "end_date": "1983-03"
+    },
+    {
+      "organization": "战略情报中心／战略情报局 (Pusintelstrat／BAIS-ABRI)",
+      "org_id": null,
+      "position": "主任（1983年Pusintelstrat改组为ABRI战略情报局BAIS后留任）",
+      "start_date": "1974-01",
+      "end_date": null
+    },
+    {
+      "organization": "国家情报协调署 (Badan Koordinasi Intelijen Negara, Bakin)",
+      "org_id": null,
+      "position": "副主任",
+      "start_date": "1974-01",
+      "end_date": null
+    },
+    {
+      "organization": "印度尼西亚武装部队 (Angkatan Bersenjata Republik Indonesia, ABRI)",
+      "org_id": null,
+      "position": "总司令（第8任，任职期间晋升四星上将）",
+      "start_date": "1983-03-28",
+      "end_date": "1988-02-27"
+    },
+    {
+      "organization": "恢复安全与秩序行动指挥部 (Kopkamtib)",
+      "org_id": null,
+      "position": "司令（第6任，末任；1988-09-05该机构撤销）",
+      "start_date": "1983-03-29",
+      "end_date": "1988-09-05"
+    },
+    {
+      "organization": "印度尼西亚国防安全部 (Departemen Pertahanan dan Keamanan)",
+      "org_id": "ID-GOV-012",
+      "position": "部长（第17任，第五届建设内阁；1993年组建第六届内阁时未获留任）",
+      "start_date": "1988-03-23",
+      "end_date": "1993-03-17"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "ID-PERSON-000040",
+      "person_name": "苏哈托 (Soeharto)",
+      "relationship_type": "superior",
+      "description": "苏哈托于1983年3月任命其为ABRI总司令并亲自为其挂上肩章，1988年3月任命其为国防安全部长；1974年「一·一五」事件后即获苏哈托信任执掌军事情报体系。1980年代后期两人关系恶化：穆尔达尼当面批评政权腐败与苏哈托子女从商，并在1988年人民协商会议上消极对待苏达尔莫诺的副总统提名；1993年未再入阁，政治生涯终结。"
+    },
+    {
+      "person_id": "ID-PERSON-000035",
+      "person_name": "特里·苏特里斯诺 (Try Sutrisno)",
+      "relationship_type": "subordinate",
+      "description": "1984年坦仲普里克事件中，时任雅加达第五军区司令的特里与穆尔达尼共同下令对伊斯兰示威者采取强硬行动；1988年2月27日特里接替其出任ABRI总司令；1993年穆尔达尼被视为ABRI抢先预提名特里为副总统的幕后操盘者。"
+    },
+    {
+      "person_id": "ID-PERSON-000034",
+      "person_name": "苏达尔莫诺 (Sudharmono)",
+      "relationship_type": "political_rival",
+      "description": "1988年人民协商会议年会前，穆尔达尼对ABRI党团提名苏达尔莫诺为副总统消极拖延并表达保留意见；普遍认为易卜拉欣·萨利赫准将攻击苏达尔莫诺、建设团结党总主席贾拉尼·纳罗半途自荐竞逐等风波系其幕后操作，但苏达尔莫诺最终仍当选副总统。"
+    },
+    {
+      "person_id": "ID-PERSON-000128",
+      "person_name": "普拉博沃·苏比延多 (Prabowo Subianto)",
+      "relationship_type": "political_rival",
+      "description": "1980年代末穆尔达尼与苏哈托的女婿普拉博沃结怨，成为军内对立的两股势力代表。"
+    },
+    {
+      "person_id": null,
+      "person_name": "阿里·穆尔托波 (Ali Murtopo)",
+      "relationship_type": "mentor",
+      "description": "1965年时任Kostrad第一战斗司令部情报助理的阿里·穆尔托波发现穆尔达尼的潜力，招募其为情报副助理并吸纳其加入特别行动组 (Opsus)，是其情报与政治生涯的引路人。"
+    },
+    {
+      "person_id": "ID-PERSON-000027",
+      "person_name": "苏加诺 (Soekarno)",
+      "relationship_type": "associate",
+      "description": "1964年西伊里安战役中的表现获苏加诺赏识，苏加诺欲将其招为副官并将其女儿许配给他，遭穆尔达尼拒绝。"
+    }
+  ],
   "social_accounts": [],
-  "biography_summary": "印度尼西亚 军人 （1932–2004）",
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "R·G·穆尔达尼·索斯罗迪尔佐 (R. G. Moerdani Sosrodirjo)",
+      "relationship": "father",
+      "industry_or_organization": "铁路工人（穆斯林）"
+    },
+    {
+      "person_id": null,
+      "name": "珍妮·罗赫 (Jeanne Roech)",
+      "relationship": "mother",
+      "industry_or_organization": "印欧混血家庭主妇（具一半德国血统，天主教徒）"
+    },
+    {
+      "person_id": null,
+      "name": "哈尔蒂妮 (Hartini Moerdani)",
+      "relationship": "spouse",
+      "industry_or_organization": "加鲁达印尼航空空乘（1964-12-12结婚）"
+    },
+    {
+      "person_id": null,
+      "name": "莉娅·穆尔达尼 (Ria Moerdani)",
+      "relationship": "daughter",
+      "industry_or_organization": null
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "1975",
+      "topic": "东帝汶问题",
+      "stance_content": "主张以军事手段解决东帝汶去殖民化危机：1975年8月起以「志愿者」名义派兵渗透东帝汶，11月东帝汶独立革命阵线 (Fretilin) 宣布独立后，情报行动转为军事行动，穆尔达尼主导策划「萨罗加行动」(Operasi Seroja)，被媒体视为印尼1975年入侵并吞并东帝汶的主要设计者。",
+      "source": "https://en.wikipedia.org/wiki/L._B._Moerdani"
+    },
+    {
+      "date": "1984",
+      "topic": "坦仲普里克事件（伊斯兰政治与安全政策）",
+      "stance_content": "1984年与雅加达第五军区司令特里·苏特里斯诺共同下令对丹戎不碌港区的伊斯兰示威者采取强硬镇压行动，造成人员死亡；其辩称示威者受挑衅、已无法和平控制，并坚称无意迫害穆斯林，事后走访爪哇各地伊斯兰学校修复形象。该事件使其长期被批评对穆斯林社群与政治伊斯兰持敌视立场。",
+      "source": "https://en.wikipedia.org/wiki/L._B._Moerdani"
+    },
+    {
+      "date": "1988",
+      "topic": "反腐败与限制总统家族商业活动",
+      "stance_content": "虽忠于苏哈托，但敢于当面批评其政权的腐败与裙带作风，指民众普遍不满苏哈托子女广泛涉足商业；据金融时报讣闻，正因敦促苏哈托约束子女的商业活动，1988年被解除武装部队总司令职务、改任国防部长。",
+      "source": "https://etan.org/et2004/september/01-07/00genben.htm"
+    },
+    {
+      "date": "1988",
+      "topic": "1988年副总统人选之争",
+      "stance_content": "在1988年人民协商会议年会前对苏达尔莫诺的副总统提名消极拖延，一度暗示支持特里·苏特里斯诺出线，但被其他将领说服后接受ABRI党团提名苏达尔莫诺；其后围绕提名的争议使其被普遍视为苏达尔莫诺的幕后反对者。",
+      "source": "https://en.wikipedia.org/wiki/L._B._Moerdani"
+    },
+    {
+      "date": "1993",
+      "topic": "1993年副总统预提名",
+      "stance_content": "被视为ABRI抢先预提名特里·苏特里斯诺为副总统的操盘者；苏哈托对此不悦、勉强接受，并在组建第六届建设内阁时未再列入穆尔达尼，其政治生涯就此终结。",
+      "source": "https://en.wikipedia.org/wiki/L._B._Moerdani"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "1958-04-17",
+      "achievement": "参与「八·一七行动」(Operasi 17 Agustus) 平定PRRI叛乱：3月先行空降至北干巴鲁与棉兰敌后为反攻铺路，4月17日参与总攻；随后赴苏拉威西为平定Permesta叛乱奠定基础（叛军于1958年6月投降）。",
+      "organization": "印度尼西亚陆军伞兵突击团 (RPKAD)"
+    },
+    {
+      "date": "1962-05",
+      "achievement": "在西伊里安行动中受命指挥RPKAD与Kostrad联合伞降，6月底着陆西伊里安后率部与荷兰海军陆战队交战；停火后统辖西伊里安全部游击部队。",
+      "organization": "印度尼西亚陆军伞兵突击团 (RPKAD)"
+    },
+    {
+      "date": "1966-08-11",
+      "achievement": "作为特别行动组 (Opsus) 成员推动印尼马（来西亚）秘密谈判，促成两国签署关系正常化协定，结束马印对抗 (Konfrontasi)。",
+      "organization": "印度尼西亚武装部队特别行动组 (Opsus)"
+    },
+    {
+      "date": "1975",
+      "achievement": "策划「萨罗加行动」(Operasi Seroja)，主导1975年12月入侵东帝汶的军事行动，被视为印尼吞并东帝汶的主要设计者。",
+      "organization": "印度尼西亚武装部队 (ABRI)"
+    },
+    {
+      "date": "1981-03-31",
+      "achievement": "「沃伊拉行动」(Operasi Woyla)：加鲁达GA206航班被劫持至曼谷后，获苏哈托授权并亲自率Kopassandha突击队强攻飞机，击毙劫机者、救出全部人质。",
+      "organization": "陆军特种部队 (Kopassandha)"
+    },
+    {
+      "date": "1983-03-28",
+      "achievement": "获苏哈托任命为印度尼西亚武装部队 (ABRI) 第8任总司令并晋升四星上将；以从未担任过军区司令 (Kodam) 和陆军参谋长的资历打破晋升惯例。",
+      "organization": "印度尼西亚武装部队 (ABRI)"
+    },
+    {
+      "date": "1985",
+      "achievement": "推动ABRI重大改组：武装部队脱离国防部的作战指挥、改直属总统；撤销防区司令部 (Kowilhan) 与国家战略司令部 (Kostranas)；陆军军区由16个整编为10个、海军8个区域司令部整编为2个舰队司令部、空军8个区域司令部整编为2个作战司令部；并倡议创办培养军队人才的 Taruna Nusantara 高中（设于马格朗军事学院旁）。",
+      "organization": "印度尼西亚武装部队 (ABRI)"
+    },
+    {
+      "date": "1963-02-19",
+      "achievement": "获颁「萨克蒂勋章」(Bintang Sakti)。",
+      "organization": "印度尼西亚共和国政府"
+    },
+    {
+      "date": "1987-08-10",
+      "achievement": "获颁「玛哈普特拉·阿迪普拉达纳勋章」(Bintang Mahaputera Adipradana)。",
+      "organization": "印度尼西亚共和国政府"
+    }
+  ],
+  "biography_summary": "莱昂纳德斯·本杰明·穆尔达尼 (Leonardus Benjamin Moerdani，通称 L. B. Moerdani、「本尼·穆尔达尼」Benny Moerdani，外国媒体多拼作 Murdani；1932-10-02生于中爪哇省布洛拉县芝普，2004-08-29约凌晨1时卒于雅加达RSPAD Gatot Subroto陆军医院)，印度尼西亚武装部队 (ABRI) 第8任总司令（1983-03-28至1988-02-27）、恢复安全与秩序行动指挥部 (Kopkamtib) 末任司令（1983-1988）、第17任国防安全部长（1988-1993），绰号「间谍大王」(Spymaster) 与「不笑将军」(Unsmiling General)，是印尼政治强人苏哈托时代权势仅次于总统的军界铁腕人物，也是穆斯林占多数的印尼罕见的天主教高级将领。其父为铁路工人、其母为具一半德国血统的印欧混血天主教徒，他在11个兄弟姐妹中排行第三。13岁即参加独立战争，加入学生军并参加梭罗保卫战（1948年负伤）；1951年入陆军军官教育中心 (P3AD) 与步兵训练学校 (SPI)，1954年授少尉后调入陆军突击团 KKAD/RPKAD，历经平定PRRI、Permesta叛乱、西伊里安行动与马印对抗；1965年转入战略预备队 (Kostrad) 后被阿里·穆尔托波吸纳进特别行动组 (Opsus)，以加鲁达航空售票员身份在曼谷从事情报工作，参与推动1966年结束马印对抗；此后转任驻马来西亚、驻韩国外交官。1974年「一·一五」事件后奉调回国，执掌战略情报中心 (Pusintelstrat，后改组为战略情报局 BAIS) 等情报要职近二十年，1975年策划入侵东帝汶的「萨罗加行动」，1981年亲率突击队在曼谷解救被劫持的加鲁达GA206航班人质。1983年出任ABRI总司令后大刀阔斧整编三军指挥体系，1985年使武装部队脱离国防部建制直属总统，并倡议创办 Taruna Nusantara 高中。1984年与特里·苏特里斯诺共同制造坦仲普里克镇压事件。1988年因批评苏哈托家族腐败干政而调任国防安全部长，1993年未再入阁；2004-08-29因中风并发肺部感染病逝，安葬于雅加达卡利巴达国家英雄陵园。",
   "profile": {
-    "source_url": "https://www.wikidata.org/wiki/Q402998",
-    "local_path": null,
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardus%20Benyamin%20Moerdani.jpg?width=500",
-    "primary_source": "Wikidata"
+    "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardus%20Benyamin%20Moerdani.jpg?width=500",
+    "local_path": "photos/ID-PERSON-000019.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Commander of the Indonesian National Armed Forces",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P4_person_lite",
+    "collection_date": "2026-09-17",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q402998"
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile from Wikidata; multi-lang names + avatar + positions + social.",
-    "quotes": []
+    "completeness_score": 85,
+    "notes": "已故历史人物（1932-10-02生于中爪哇省布洛拉县芝普；2004-08-29约01:00-01:15 WIB于雅加达RSPAD Gatot Subroto陆军医院因中风并发肺部感染病逝，2004-07-07起住院、去世前一日陷入昏迷；当日13:45以军礼安葬于雅加达卡利巴达国家英雄陵园，葬礼检阅官为TNI总司令恩德里亚托诺·苏塔尔托，遗体告别由陆军参谋长里亚米扎尔德·里亚库杜主持；身后遗孀哈尔蒂妮、独生女莉娅及五名孙辈——schema无death_date字段，逝世信息记录于本notes与biography_summary）。current_positions已清空（原「ABRI总司令」「国防部长」为历史职务，移入work_experience）。原lite档案非规范字段处理：name_local/name_ms并入aliases；profile.photo_url并入profile.source_url；importance_level（medium；派生自ABRI总司令职位）及importance_reason移入本notes后删除。存疑与勘误： Wikidata存在2004-08-20的重复死亡日期声明，与两语维基百科及雅加达邮报/金融时报讣闻（均为2004-08-29）矛盾，判为错误弃用； 国防安全部长就任日期英文维基作1988-03-21、印尼文维基作1988-03-23，采用1988-03-23（与第五届建设内阁就职日一致）； ABRI总司令卸任日期依两语维基信息框作1988-02-27，印尼文正文另作1988-02-10； 战略情报局 (BAIS) 主任与国家情报协调署 (Bakin) 副主任的任期终点无来源确认，end_date留空。身份要点：长期执掌军事情报体系（1974年起掌Pusintelstrat，1983年改组为BAIS）的天主教将领，新秩序时代实际上的第二号政治强人。",
+    "quotes": [
+      {
+        "title": "L. B. Moerdani - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/L._B._Moerdani"
+      },
+      {
+        "title": "Leonardus Benjamin Moerdani - Wikipedia Bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Leonardus_Benjamin_Moerdani"
+      },
+      {
+        "title": "Gen. Benny dies, laid to rest - The Jakarta Post (2004-08-30, via ETAN)",
+        "url": "https://etan.org/et2004/september/01-07/00genben.htm"
+      },
+      {
+        "title": "Brains behind Indonesian invasion of East Timor - Financial Times (2004-08-30, via ETAN)",
+        "url": "https://etan.org/et2004/september/01-07/00genben.htm"
+      },
+      {
+        "title": "Leonardus Benjamin Moerdani (Q402998) - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q402998"
+      }
+    ]
   }
 }

@@ -1,90 +1,373 @@
 {
   "org_id": "ID-PARTY-008",
+  "wikidata_qid": "Q4261459",
   "basic_info": {
     "org_id": "ID-PARTY-008",
     "wikidata_qid": "Q4261459",
-    "name_en": "Great Indonesia Movement Party",
-    "name_zh": "印度尼西亚大运动党",
-    "name_local": "Partai Gerakan Indonesia Raya",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "PARTY",
-    "org_subtype": "political_party",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://partaigerindra.id/",
-    "official_website": "https://partaigerindra.id/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Partai Gerakan Indonesia Raya",
+    "name_zh": "大印尼运动党",
+    "name_en": "Great Indonesia Movement Party (Gerindra)",
+    "founded_date": "2008-02-06",
     "country_iso3": "IDN",
-    "name_original": "Partai Gerakan Indonesia Raya"
+    "hq_country_iso3": "IDN",
+    "website": "https://gerindra.id/",
+    "org_type": "PARTY",
+    "org_subtype": "ruling_party"
   },
-  "description": "政党 in Indonesia",
-  "brief": "政党 in Indonesia",
-  "mission": null,
-  "core_business": "大印尼運動黨，印度尼西亞民粹主義政黨，於2008年2月6日由原陸軍特種部隊司令、陸軍戰略後備部隊司令普拉博沃·蘇比延多成立，總部位於南雅加達。這個政黨奉行印尼的基本國策——建國五項原則，同時主張民族主義和民粹主義，以「小人物的代表」自居。普拉博沃曾經代表大印尼運動黨參加2009年、2014年、2019年總統選舉，但是都不成功，之後他加入佐科·維多多總統領導的內閣，擔任國防部長，加入執政聯盟，並於2024年當選總統。\n",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [
-    {
-      "person_id": "ID-PERSON-000128",
-      "name": "Prabowo Subianto",
-      "title": "主席",
-      "title_description": "",
-      "description": ""
-    }
-  ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "twitter_x",
+      "account_name": "gerindra",
       "url": "https://twitter.com/gerindra",
-      "source": "wikidata",
-      "account_name": "gerindra"
+      "source": "wikidata"
     },
     {
       "platform": "instagram",
+      "account_name": "gerindra",
       "url": "https://instagram.com/gerindra",
-      "source": "wikidata",
-      "account_name": "gerindra"
+      "source": "wikidata"
     },
     {
       "platform": "facebook",
+      "account_name": "gerindra",
       "url": "https://facebook.com/gerindra",
-      "source": "wikidata",
-      "account_name": "gerindra"
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "GerindraTV",
+      "url": "https://www.youtube.com/c/GerindraTV",
+      "source": "official_website"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "partaigerindra",
+      "url": "https://www.tiktok.com/@partaigerindra",
+      "source": "official_tiktok"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "大印尼运动党官网 (gerindra.id)",
+      "url": "https://gerindra.id/",
+      "description": "发布党史、党章、领导层、竞选纲领与新闻通告的官方门户",
+      "source": null
+    },
+    {
+      "name": "国会党团官网 (fraksigerindra.id)",
+      "url": "https://www.fraksigerindra.id/",
+      "description": "大印尼运动党在人民代表会议（国会）党团的官方网站，公布立法议程与议员活动",
+      "source": null
+    },
+    {
+      "name": "Kita Gerindra 官方移动应用",
+      "url": "https://play.google.com/store/apps/details?id=id.gerindra.app",
+      "description": "大印尼运动党官方移动应用，提供党务新闻、党员数字服务与信息获取渠道",
+      "source": "https://play.google.com/store/apps/details?id=id.gerindra.app"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000128",
+      "name": "普拉博沃·苏比延多 (Prabowo Subianto)",
+      "title": "总主席",
+      "title_description": "Ketua Umum sekaligus Ketua Dewan Pembina DPP Partai Gerindra periode 2025-2030",
+      "description": "党创始人，2008年建党时首任监事会（Dewan Pembina）主席；首任总主席苏哈尔迪2014年8月去世后，于2014年9月20日当选总主席，此后连任至今。2024年2月当选印度尼西亚第8任总统，同年10月20日就任；2025年8月1日签署2025-2030届中央领导委员会架构，继续兼任总主席与监事会主席。"
+    },
+    {
+      "person_id": "ID-PERSON-000657",
+      "name": "苏夫米·达斯科·阿赫马德 (Sufmi Dasco Ahmad)",
+      "title": "常务主席",
+      "title_description": "Ketua Harian DPP Partai Gerindra periode 2025-2030",
+      "description": "党创始人之一，2020-2025届曾任副总主席（组织、干部与选举事务），2025年8月1日起出任常务主席，主持日常党务；现任人民代表会议（DPR RI）副议长，多次代表党主持地方协调会议并部署2029年选举备战。"
+    },
+    {
+      "person_id": "ID-PERSON-000654",
+      "name": "苏吉奥诺 (Sugiono)",
+      "title": "秘书长",
+      "title_description": "Sekretaris Jenderal DPP Partai Gerindra periode 2025-2030",
+      "description": "2025年8月1日接替任职17年的艾哈迈德·穆扎尼出任秘书长；此前任副总主席（意识形态、政治、政府事务领域）。2024年10月起兼任普拉博沃内阁外交部长（红白内阁）。"
+    },
+    {
+      "person_id": "ID-PERSON-000730",
+      "name": "艾哈迈德·穆扎尼 (Ahmad Muzani)",
+      "title": "荣誉委员会主席",
+      "title_description": "Ketua Dewan Kehormatan sekaligus Sekretaris Dewan Pembina Partai Gerindra",
+      "description": "建党元老，2008年2月至2025年8月连任秘书长17年，2025年8月1日转任荣誉委员会主席兼监事会秘书；现任人民协商会议（MPR RI）主席（2024年10月就任，任期2024-2029）。"
+    },
+    {
+      "person_id": "ID-PERSON-000729",
+      "name": "布迪·吉万多诺 (Budi Djiwandono)",
+      "title": "国会党团主席",
+      "title_description": "Ketua Fraksi Partai Gerindra di DPR RI periode 2024-2029",
+      "description": "大印尼运动党在人民代表会议（国会）党团主席，党的当选国会议员；2020-2025届曾任党副总主席（经济与环境领域）。"
+    },
+    {
+      "person_id": "ID-PERSON-000177",
+      "name": "法德利·宗 (Fadli Zon)",
+      "title": "党主席团成员",
+      "title_description": "Ketua DPP Partai Gerindra",
+      "description": "党创始人之一，2008年建党元老，曾任党副主席（副总主席，外事领域）；2024年10月21日起出任普拉博沃内阁文化部长（红白内阁）。"
+    },
+    {
+      "person_id": null,
+      "name": "萨特里奥·迪马斯·阿迪约奥 (Satrio Dimas Adityo)",
+      "title": "总司库",
+      "title_description": "Bendahara Umum DPP Partai Gerindra periode 2025-2030",
+      "description": "2025年8月1日公布的2025-2030届中央领导委员会架构中出任总司库。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-PARTY-008-DEPT-001",
+      "name": "中央领导委员会 (Dewan Pimpinan Pusat, DPP)",
+      "head": null,
+      "description": "党的最高执行机构。2025-2030届架构（2025年8月1日签署）：总主席兼监事会主席普拉博沃·苏比延多、常务主席苏夫米·达斯科·阿赫马德、秘书长苏吉奥诺、总司库萨特里奥·迪马斯·阿迪约奥，下设各领域副总主席与主席团成员",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-PARTY-008-DEPT-002",
+      "name": "监事会 (Dewan Pembina)",
+      "head": null,
+      "description": "党的咨询监督机构，由总主席普拉博沃·苏比延多兼任主席，艾哈迈德·穆扎尼任监事会秘书，对党务方针提供指导",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-PARTY-008-DEPT-003",
+      "name": "国会党团 (Fraksi Partai Gerindra di DPR RI)",
+      "head": null,
+      "description": "2024-2029年届期在580席国会中占86席，为第三大党团，由布迪·吉万多诺任党团主席，负责立法审议、预算监督与议会党团协调",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-PARTY-008-DEPT-004",
+      "name": "地方支部体系 (DPD/DPD/DPW/DPC)",
+      "head": null,
+      "description": "按省（DPW）、县市级（DPD）及基层支部（DPC）层层设置的基层组织网络，负责党员发展与地方选举动员；2026年起由常务主席达斯科巡回主持各省区域协调大会（Rakorda）并刷新基层人事",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-PARTY-008-DEPT-005",
+      "name": "荣誉委员会 (Dewan Kehormatan)",
+      "head": null,
+      "description": "负责党纪与荣誉事务的党内机构，2025-2030届由任职17年的前秘书长艾哈迈德·穆扎尼出任主席",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2008-02-06",
+      "title": "政党成立",
+      "description": "由普拉博沃·苏比延多与哈希姆·佐约哈迪库苏莫、法德利·宗、首任总主席苏哈尔迪等人创立，2008年2月6日完成注册，总部设于南雅加达拉古南（Jl. Harsono RM No. 54）。",
+      "impact": "为普拉博沃此后参加2009、2014、2019、2024年历次总统选举提供组织平台",
+      "source": "https://gerindra.id/sejarah-partai-gerindra/"
+    },
+    {
+      "date": "2014-09-20",
+      "title": "普拉博沃首次出任总主席",
+      "description": "首任总主席苏哈尔迪2014年8月28日去世后，普拉博沃·苏比延多于2014年9月20日当选党总主席，此前2008-2014年他担任党监事会主席。",
+      "impact": "开启普拉博沃对党超过十年的主导地位",
+      "source": "https://id.wikipedia.org/wiki/Partai_Gerakan_Indonesia_Raya"
+    },
+    {
+      "date": "2019-10-23",
+      "title": "加入执政联盟",
+      "description": "2019年总统选举后，该党加入佐科·维多多内阁（印尼前进内阁）执政联盟，普拉博沃出任国防部长（2019-2024）。",
+      "impact": "实现从反对党到执政党的转变，为2024年胜选积累执政资源",
+      "source": "https://id.wikipedia.org/wiki/Partai_Gerakan_Indonesia_Raya"
+    },
+    {
+      "date": "2024-02-14",
+      "title": "2024年立法选举获86席",
+      "description": "在2024年立法选举中获20,071,708票（约13.22%），在人民代表会议580席中获86席，为国会第三大党团（次于印尼民主斗争党110席与专业集团党102席）。",
+      "impact": "奠定执政联盟第一大参政基础",
+      "source": "https://rumahpemilu.or.id/kpu-tetapkan-580-kursi-dpr-periode-2024-2029/"
+    },
+    {
+      "date": "2024-08-31",
+      "title": "全国协调会议挽留普拉博沃继续担任总主席",
+      "description": "党全国协调会议（Rapimnas）在雅加达印度尼西亚体育馆（Indonesia Arena）闭幕，干部一致请求已当选总统的普拉博沃继续担任总主席并领导政党，秘书长穆扎尼宣布会议共识。",
+      "impact": "确立其\"政党-政府\"双轨领导架构，避免党的领导层真空",
+      "source": "https://investortrust.id/national/39249/rapimnas-minta-prabowo-kembali-pimpin-partai-gerindra"
+    },
+    {
+      "date": "2024-10-20",
+      "title": "党总主席普拉博沃就任印尼总统",
+      "description": "创始人兼总主席普拉博沃·苏比延多在2024年2月总统选举中以约58.59%得票率获胜（与纪布兰·拉卡布明·拉卡搭档），2024年10月20日宣誓就任印度尼西亚第8任总统。",
+      "impact": "该党由议会政党转为执政核心党，牵头组建红白内阁联合政府",
+      "source": "https://id.wikipedia.org/wiki/Partai_Gerakan_Indonesia_Raya"
+    },
+    {
+      "date": "2024-10-21",
+      "title": "红白内阁就职，多名干部入阁",
+      "description": "普拉博沃内阁（红白内阁）在国家宫就职：党秘书长苏吉奥诺出任外交部长，党创始人法德利·宗出任文化部长，多名干部进入内阁及副部级岗位。",
+      "impact": "党进入全面执政期，党内精英在国家行政体系中获得关键职位",
+      "source": "https://setkab.go.id/presiden-prabowo-subianto-umumkan-susunan-kabinet-merah-putih-di-istana-merdeka-jakarta/"
+    },
+    {
+      "date": "2024-11-27",
+      "title": "地方同步选举中党干部赢得关键省长职位",
+      "description": "在2024年地方同步选举中，党干部迪迪·穆利亚迪（Dedi Mulyadi，党监事会副主席）以约62%得票当选西爪哇省长；支持普拉博沃阵营的候选人在多个省份胜出。",
+      "impact": "党在地方执政版图显著扩张，为2029年选举积累地方政治资源",
+      "source": "https://www.tempo.co/politik/hasil-quick-count-pilkada-2024-cagub-jagoan-jokowi-unggul-hampir-di-semua-provinsi-kecuali-jakarta-1174071"
+    },
+    {
+      "date": "2025-02-18",
+      "title": "支持将KIM Plus建设为永久执政联盟",
+      "description": "党领导层（党主席团成员拉哈尤·萨拉斯瓦蒂等）公开响应总统提议，支持由该党领衔的\"印尼前进联盟加\"（KIM Plus）转型为支持政府至2029年的永久性政治联盟。",
+      "impact": "为2029年总统选举提前锁定联盟架构，强化党在联盟中的核心地位",
+      "source": "https://gerindra.id/2025/02/18/rahayu-saraswati-djojohadikusumo-koalisi-permanen-kim-plus-harapan-untuk-persatuan-elite-politik/"
+    },
+    {
+      "date": "2025-08-01",
+      "title": "公布2025-2030届中央领导委员会新架构，秘书长换任",
+      "description": "总主席普拉博沃在茂物汉巴朗加鲁达宅邸签署2025-2030届DPP架构：其自任总主席兼监事会主席，苏夫米·达斯科·阿赫马德任常务主席，苏吉奥诺接替任职17年（2008-2025）的艾哈迈德·穆扎尼出任秘书长，萨特里奥·迪马斯·阿迪约奥任总司库；穆扎尼转任荣誉委员会主席兼监事会秘书。",
+      "impact": "完成普拉博沃就任总统后的党内权力布局与代际交替，日常党务移交常务主席",
+      "source": "https://nasional.kompas.com/read/2025/08/01/16334591/sah-ahmad-muzani-umumkan-sugiono-jadi-sekjen-baru-gerindra"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "建党18周年庆典",
+      "description": "党在雅加达国会（Senayan）建筑群举行建党18周年（HUT ke-18）庆典，常务主席达斯科发表讲话，强调保持干部培养、贴近民众，并提出\"团结、行动、有影响力\"（Kompak, Bergerak, Berdampak）主题。",
+      "impact": "巩固干部凝聚力，党正式进入2029年选举备战周期",
+      "source": "https://www.fraksigerindra.id/sufmi-dasco-di-hut-ke-18-gerindra-tantangan-ke-depan-lebih-berat-kader-harus-tetap-bersama-rakyat/"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "南苏拉威西区域协调大会启动全国2029年选举备战",
+      "description": "常务主席达斯科在望加锡主持南苏拉威西区域协调大会（Rakorda），约2000名省、县市及基层干部与会；党明确目标为赢得2029年立法选举并支持普拉博沃连任2029-2034，同时部署干部在网络空间反击虚假信息、储备2029年立法候选人（拒绝\"速成候选人\"），并刷新七县市基层支部人事。",
+      "impact": "开启2029年选举周期的全国性组织动员，强化数字化政治传播管控",
+      "source": "https://gerindra.id/2026/08/05/dasco-instruksikan-kader-gerindra-lawan-hoaks-dan-perkuat-konsolidasi-menuju-2029/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚共和国总统府 (Presiden Republik Indonesia)",
+      "org_type": "GOV",
+      "org_description": "国家元首与政府首脑机构，普拉博沃自2024年10月20日起任印尼第8任总统",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "人民代表会议 (DPR RI)",
+      "org_type": "GOV",
+      "org_description": "印尼国会，2024-2029年届期共580席，该党占86席为第三大党团，党团主席为布迪·吉万多诺，常务主席达斯科兼任国会副议长",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "ID-GOV-029",
+      "org_name": "人民协商会议 (MPR RI)",
+      "org_type": "GOV",
+      "org_description": "印尼人协（修宪与就职机构），党元老、荣誉委员会主席艾哈迈德·穆扎尼自2024年10月起任主席",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "ID-PARTY-007",
+      "org_name": "专业集团党 (Partai Golongan Karya, Golkar)",
+      "org_type": "PARTY",
+      "org_description": "印尼老牌执政党，2024年立法选举获102席居第二；\"印尼前进联盟\"（KIM）原始成员，现同属红白内阁执政联盟",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-PARTY-005",
+      "org_name": "民主党 (Partai Demokrat)",
+      "org_type": "PARTY",
+      "org_description": "印尼中型政党，2024年大选期间加入KIM Plus支持普拉博沃-纪布兰正副总统组合",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "建设团结党 (Partai Persatuan Pembangunan, PPP)",
+      "org_type": "PARTY",
+      "org_description": "伊斯兰背景政党，KIM Plus中表态支持普拉博沃政府的联盟党派之一，与该党多次结成竞选与执政联盟",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "大印尼运动党（Partai Gerakan Indonesia Raya，简称 Gerindra）是印度尼西亚注册政党，2008年2月6日由普拉博沃·苏比延多联合其弟哈希姆·佐约哈迪库苏莫、法德利·宗及首任总主席苏哈尔迪等人创立，总部位于南雅加达拉古南（Jl. Harsono RM No. 54），以建国五项原则（潘查希拉）和印尼统一的民族主义为意识形态基础，自我定位为代表农民、渔民等中下阶层的民族主义民粹政党，主张经济民族主义、粮食与能源自主及反对国企私有化。2011年2月改革之星党（PBR）并入该党。政党以参加立法选举与总统选举为主要政治活动：2009年获约4.5%选票与26席，2014年获11.81%选票与73席，2019年获12.57%选票与78席，2024年获13.22%选票（20,071,708票）与86席，为国会第三大党团；另在2024年省级地方议会（DPRD I）获323席、县市级（DPRD II）获2,120席，2024年党员登记数约49.57万人。党下设青年团（TIDAR）、妇女组织（PIRA）、穆斯林组织（GEMIRA）、基督徒组织（GEKIRA）、印度教-佛教徒组织（Gema Sadhana）、劳工组织（SEGARA）等外围组织。首任总主席苏哈尔迪2014年8月去世后，普拉博沃自2014年9月20日起任总主席至今；2024年其当选总统并于10月20日就任，该党成为红白内阁执政联盟核心党，秘书长苏吉奥诺出任外交部长、创党元老法德利·宗出任文化部长；2025年8月1日起由常务主席苏夫米·达斯科·阿赫马德主持日常党务，秘书长由苏吉奥诺担任，前秘书长穆扎尼转任荣誉委员会主席并兼任国会议长级的人民协商会议主席。2024年大选中的执政联盟为\"印尼前进联盟加\"（KIM Plus），除该党外还包括专业集团党、民主党、国民使命党、团结建设党等；党正推动将其固化为延续至2029年的永久性执政联盟，并以赢得2029年大选、支持普拉博沃连任为当前首要目标。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "作为印尼执政联盟核心政党，其政策立场通过国家层面体现。印尼为APEC创始成员（1989年）及1994年茂物APEC领导人非正式会议东道主，该党支持印尼参与APEC、东盟等区域经济合作框架，其竞选纲领强调经济自主、粮食与能源安全及下游产业化等经贸议题，与APEC区域贸易投资自由化进程并行不悖。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 73,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q4261459"
+      "https://gerindra.id/",
+      "https://gerindra.id/sejarah-partai-gerindra/",
+      "https://id.wikipedia.org/wiki/Partai_Gerakan_Indonesia_Raya",
+      "https://www.wikidata.org/wiki/Q4261459",
+      "https://rumahpemilu.or.id/kpu-tetapkan-580-kursi-dpr-periode-2024-2029/",
+      "https://news.detik.com/pemilu/d-7507862/kpu-tetapkan-hasil-pileg-dpr-ri-2024-pdip-raih-110-kursi-gerindra-86",
+      "https://www.fraksigerindra.id/tentang-fraksi/",
+      "https://nasional.kompas.com/read/2025/08/01/16334591/sah-ahmad-muzani-umumkan-sugiono-jadi-sekjen-baru-gerindra",
+      "https://jambi.antaranews.com/berita/624317/prabowo-tetapkan-struktur-kepengurusan-dpp-partai-gerindra-2025-2030",
+      "https://setkab.go.id/presiden-prabowo-subianto-umumkan-susunan-kabinet-merah-putih-di-istana-merdeka-jakarta/",
+      "https://investortrust.id/national/39249/rapimnas-minta-prabowo-kembali-pimpin-partai-gerindra",
+      "https://www.tempo.co/politik/hasil-quick-count-pilkada-2024-cagub-jagoan-jokowi-unggul-hampir-di-semua-provinsi-kecuali-jakarta-1174071",
+      "https://gerindra.id/2025/02/18/rahayu-saraswati-djojohadikusumo-koalisi-permanen-kim-plus-harapan-untuk-persatuan-elite-politik/",
+      "https://gerindra.id/2026/08/05/dasco-instruksikan-kader-gerindra-lawan-hoaks-dan-perkuat-konsolidasi-menuju-2029/",
+      "https://www.fraksigerindra.id/sufmi-dasco-di-hut-ke-18-gerindra-tantangan-ke-depan-lebih-berat-kader-harus-tetap-bersama-rakyat/",
+      "https://www.antaranews.com/berita/4649737/prabowo-minta-kim-plus-jadi-koalisi-permanen-sampai-2029",
+      "https://id.wikipedia.org/wiki/Koalisi_Indonesia_Maju_Plus",
+      "https://www.tiktok.com/@partaigerindra",
+      "https://play.google.com/store/apps/details?id=id.gerindra.app"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q4261459; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Sejarah Partai Gerindra - 官网党史",
+        "url": "https://gerindra.id/sejarah-partai-gerindra/"
+      },
+      {
+        "title": "Partai Gerakan Indonesia Raya - 印尼语维基百科",
+        "url": "https://id.wikipedia.org/wiki/Partai_Gerakan_Indonesia_Raya"
+      },
+      {
+        "title": "KPU Tetapkan 580 Kursi DPR Periode 2024-2029 - Rumah Pemilu",
+        "url": "https://rumahpemilu.or.id/kpu-tetapkan-580-kursi-dpr-periode-2024-2029/"
+      },
+      {
+        "title": "Tentang Fraksi Gerindra - 国会党团官网",
+        "url": "https://www.fraksigerindra.id/tentang-fraksi/"
+      },
+      {
+        "title": "Sah! Ahmad Muzani Umumkan Sugiono Jadi Sekjen Baru Gerindra - Kompas.com",
+        "url": "https://nasional.kompas.com/read/2025/08/01/16334591/sah-ahmad-muzani-umumkan-sugiono-jadi-sekjen-baru-gerindra"
+      },
+      {
+        "title": "Prabowo tetapkan struktur kepengurusan DPP Partai Gerindra 2025-2030 - ANTARA",
+        "url": "https://jambi.antaranews.com/berita/624317/prabowo-tetapkan-struktur-kepengurusan-dpp-partai-gerindra-2025-2030"
+      },
+      {
+        "title": "Dasco Instruksikan Kader Gerindra Lawan Hoaks dan Perkuat Konsolidasi Menuju 2029 - gerindra.id",
+        "url": "https://gerindra.id/2026/08/05/dasco-instruksikan-kader-gerindra-lawan-hoaks-dan-perkuat-konsolidasi-menuju-2029/"
+      },
+      {
+        "title": "Sufmi Dasco di HUT ke-18 Gerindra: Tantangan ke Depan Lebih Berat - Fraksigerindra.id",
+        "url": "https://www.fraksigerindra.id/sufmi-dasco-di-hut-ke-18-gerindra-tantangan-ke-depan-lebih-berat-kader-harus-tetap-bersama-rakyat/"
+      },
+      {
+        "title": "Presiden Prabowo Subianto Umumkan Susunan Kabinet Merah Putih - Sekretariat Kabinet RI",
+        "url": "https://setkab.go.id/presiden-prabowo-subianto-umumkan-susunan-kabinet-merah-putih-di-istana-merdeka-jakarta/"
+      },
+      {
+        "title": "Rapimnas Minta Prabowo Kembali Pimpin Partai Gerindra - InvestorTrust",
+        "url": "https://investortrust.id/national/39249/rapimnas-minta-prabowo-kembali-pimpin-partai-gerindra"
+      },
+      {
+        "title": "Hasil Quick Count Pilkada 2024 - Tempo.com",
+        "url": "https://www.tempo.co/politik/hasil-quick-count-pilkada-2024-cagub-jagoan-jokowi-unggul-hampir-di-semua-provinsi-kecuali-jakarta-1174071"
+      },
+      {
+        "title": "Prabowo minta KIM Plus jadi koalisi permanen sampai 2029 - ANTARA",
+        "url": "https://www.antaranews.com/berita/4649737/prabowo-minta-kim-plus-jadi-koalisi-permanen-sampai-2029"
+      }
+    ],
+    "notes": "P3深度丰富（2026-09-17）：核实并更新2025-2030届DPP架构（2025-08-01 SK：Prabowo连任总主席兼监事会主席，Dasco任常务主席，Sugiono接替Muzani任秘书长，Satrio Dimas Adityo任总司库，Muzani转任荣誉委员会主席）；补充2024 Rapimnas、红白内阁入阁、2024地方选举、KIM Plus永久联盟、建党18周年、2026 Rakorda备战2029等8条新事件；related_entities 迁移为新schema格式并挂接ID（Golkar=ID-PARTY-007、Demokrat=ID-PARTY-005、MPR=ID-GOV-029），未命中索引用null；修正2024年席位排名表述（86席为第三大党团）；org_subtype 更正为 ruling_party；新增TikTok官方账号@partaigerindra、Kita Gerindra官方应用与党徽图片来源。key_people 中 Satrio Dimas Adityo 无人物档案，person_id=null 待主会话分配（strict模式已知豁免项）。"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/id/thumb/9/9b/Lambang_Partai_Gerakan_Indonesia_Raya.svg/250px-Lambang_Partai_Gerakan_Indonesia_Raya.svg.png",
+    "local_path": null
   }
 }

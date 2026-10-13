@@ -1388,11 +1388,12 @@
     },
     {
       "person_id": "HK-PERSON-000045",
-      "name": "何俊仁 (Albert Ho)",
+      "name": "何俊仁 (Albert Ho Chun-yan)",
       "wikidata_qid": "Q23626",
       "source_orgs": [
         "HK-PARTY-004"
-      ]
+      ],
+      "status": "profiled"
     },
     {
       "person_id": "HK-PERSON-000046",
@@ -7614,7 +7615,7 @@
       "org_ids": [
         "HK-PARTY-004"
       ],
-      "status": "skipped_by_user"
+      "status": "merged_into:HK-PERSON-000045"
     },
     {
       "person_id": "HK-PERSON-001455",
@@ -7776,6 +7777,13 @@
       "org_ids": [
         "HK-NGO-003"
       ]
+    },
+    {
+      "person_id": "HK-PERSON-001475",
+      "name": "邹幸彤 (Chow Hang-tung)",
+      "wikidata_qid": "Q105718403",
+      "source_orgs": [],
+      "status": "profiled"
     }
   ],
   "person_counters": {
@@ -7783,6 +7791,7 @@
     "profiled": 552,
     "removed": 2,
     "stub": 1,
-    "HK-PERSON": 1453
-  }
+    "HK-PERSON": 1475
+  },
+  "country": "HK"
 }

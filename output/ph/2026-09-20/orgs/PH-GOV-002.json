@@ -1,0 +1,270 @@
+{
+  "org_id": "PH-GOV-002",
+  "basic_info": {
+    "name_original": "Vice President of the Philippines",
+    "name_zh": "菲律宾副总统",
+    "name_en": "Vice President of the Philippines",
+    "aliases": [
+      "OVP",
+      "Office of the Vice President",
+      "Tanggapan ng Pangalawang Pangulo",
+      "Pangalawang Pangulo ng Pilipinas",
+      "副总统办公室"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "gov_department",
+    "country_iso3": "PHL",
+    "hq_country_iso3": "PHL",
+    "founded_date": "1935-11-15",
+    "website": "https://www.ovp.gov.ph",
+    "wikidata_qid": "Q2723485"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@indaysara（副总统莎拉·杜特尔特个人认证账号，OVP 官方声明指定的官方渠道之一）",
+      "url": "https://twitter.com/indaysara",
+      "source": "official_website（OVP 2022-07-12 官方声明）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@indaysaraduterte（副总统个人认证账号，OVP 官方声明指定的官方渠道之一）",
+      "url": "https://www.instagram.com/indaysaraduterte/",
+      "source": "official_website（OVP 2022-07-12 官方声明）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "菲律宾副总统办公室官方网站（OVP.gov.ph）",
+      "url": "https://www.ovp.gov.ph",
+      "description": "OVP 官方网站：发布新闻公报、公务活动、公共服务信息与官方声明",
+      "source": "official_website"
+    },
+    {
+      "name": "菲律宾电子信息公开平台 OVP 专区（eFOI）",
+      "url": "https://www.foi.gov.ph/agencies/ovp/",
+      "description": "政府电子信息公开（eFOI）门户下的 OVP 页面，公众可在线提交信息公开请求",
+      "source": "government_registry"
+    },
+    {
+      "name": "OVP 官方声明：社交媒体账号澄清（2022-07-12）",
+      "url": "https://www.ovp.gov.ph/post/official-statement-july-12-2022",
+      "description": "OVP 官方声明：OVP 机构本身无 Facebook 账号，并指明副总统官方 X（@indaysara）与 Instagram（@indaysaraduterte）账号；2026年3月10日 OVP 再次发布类似防伪公告",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "PH-PERSON-000005",
+      "name": "萨拉·杜特尔特 (Sara Duterte)",
+      "title": "副总统",
+      "title_description": "菲律宾第15任副总统，2022年6月30日就任；截至2026-09-20职务保留，正受参议院弹劾法庭审理（2026年7月6日开庭，判决未下）",
+      "description": "全名莎拉·齐默尔曼·杜特尔特-卡皮奥（Sara Zimmerman Duterte-Carpio），前总统罗德里戈·杜特尔特之女；曾任教育部部长（2022-2024，受马科斯总统任命兼任）、达沃市市长；2025年2月5日首次遭众议院弹劾，2026年5月11日再遭弹劾，成为菲律宾史上首位被弹劾两次的副总统"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "PH-GOV-002-DEPT-001",
+      "name": "幕僚长办公室 (Office of the Chief of Staff)",
+      "head": "苏莱卡·洛佩斯 (Zuleika Lopez)",
+      "description": "统筹副总统办公室整体行政、政策与人事运作；洛佩斯于2026年8月弹劾审判听证中出庭作证",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "PH-GOV-002-DEPT-002",
+      "name": "行政与财务服务处 (Administrative and Financial Services)",
+      "head": "罗莎琳·桑切斯 (Rosalynne Sanchez)",
+      "description": "负责机构人事、采购、预算执行与财务管理",
+      "parent_dept_id": "PH-GOV-002-DEPT-001"
+    },
+    {
+      "dept_id": "PH-GOV-002-DEPT-003",
+      "name": "战略管理办公室 (Strategy Management Office)",
+      "head": "桑夏恩·查丽·法哈尔达 (Sunshine Charry Fajarda)",
+      "description": "负责机构战略规划、项目监测与绩效评估",
+      "parent_dept_id": "PH-GOV-002-DEPT-001"
+    },
+    {
+      "dept_id": "PH-GOV-002-DEPT-004",
+      "name": "运营处 (Operations Division)",
+      "head": "诺曼·巴洛罗 (Norman Baloro)",
+      "description": "负责外勤服务与各项民生援助项目的组织实施",
+      "parent_dept_id": "PH-GOV-002-DEPT-001"
+    },
+    {
+      "dept_id": "PH-GOV-002-DEPT-005",
+      "name": "公共援助处 (Public Assistance Division)",
+      "head": "温妮·达耶戈 (Winnie Dayego)",
+      "description": "通过求助渠道与各卫星办公室受理医疗、教育、丧葬等公共援助申请",
+      "parent_dept_id": "PH-GOV-002-DEPT-001"
+    },
+    {
+      "dept_id": "PH-GOV-002-DEPT-006",
+      "name": "卫星办公室 (Satellite Offices)",
+      "head": null,
+      "description": "2022年7月起 OVP 首次在全国设立卫星办公室，初期覆盖达古潘、宿务、塔克洛班、三宝颜、达沃、坦达格六市，后扩展至巴科洛德、伊莎贝拉、BARMM、卡拉加、第五区等地，为地方民众提供一站式援助服务",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-02-02",
+      "title": "众议院启动对副总统的第二次弹劾努力",
+      "description": "在最高法院2025年7月25日裁定首次弹劾条款违反宪法一年期限制而无效后，众议院于2026年2月2日重启针对副总统莎拉·杜特尔特的第二次弹劾努力",
+      "impact": "为2026年5月的二次弹劾奠定程序基础，副总统去留问题重回国会日程",
+      "source": "https://en.wikipedia.org/wiki/Second_impeachment_of_Sara_Duterte"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "众议院二次弹劾副总统莎拉·杜特尔特",
+      "description": "215名众议员签署第二份弹劾条款，莎拉·杜特尔特成为菲律宾历史上首位被弹劾两次的副总统；5月12日众议院选举11名检察官，5月13日将弹劾条款（众议院决议第989号）正式送交参议院",
+      "impact": "弹劾程序正式重启，副总统职务及2028年总统参选资格面临重大不确定性",
+      "source": "https://en.wikipedia.org/wiki/Second_impeachment_of_Sara_Duterte"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "参议院弹劾法庭正式开庭审理副总统弹劾案",
+      "description": "参议院作为弹劾法庭开庭审理莎拉·杜特尔特弹劾案，前参议院议长埃斯库德罗以12-8票当选主审官；定罪需24名参议员中至少16票，指控罪名包括贪腐与贿赂、背叛公众信任、违宪及涉嫌谋刺总统等",
+      "impact": "菲律宾历史上首次副总统弹劾审判进入实体审理阶段",
+      "source": "https://en.wikipedia.org/wiki/Impeachment_trial_of_Sara_Duterte"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "OVP 机密资金使用成为庭审焦点，副幕僚长出庭作证",
+      "description": "弹劾审判中 OVP 副幕僚长出庭作证；证人称2022年底1.25亿比索机密资金在11天内动用，用于'上个月已发生的应付款项'，机密资金使用的合法性成为定罪关键争点",
+      "impact": "机密资金丑闻相关证词直接关系弹劾判决走向，OVP 财务管理持续受到审查",
+      "source": "https://www.abs-cbn.com/news/nation/2026/8/25/ovp-confidential-funds-spend-in-11-days-for-obligations-from-previous-months-witness-1624"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "OVP 2027年拟议预算连续第三年不含机密资金",
+      "description": "OVP 提交的2027年拟议预算不含机密与情报资金，为莎拉·杜特尔特任副总统以来连续第三年获零机密资金安排",
+      "impact": "机构资金安排透明度提高，但外勤与项目经费进一步受限",
+      "source": "https://tribune.net.ph/2026/09/02/ovp-budget-without-confidential-funds"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "弹劾审判进入第26天，四名退休最高法院大法官出庭作证",
+      "description": "参议院弹劾法庭在审判第26天听取四名退休最高法院大法官就弹劾程序与证据问题发表证词；参议院方面表示判决仍有可能在2026年12月前作出",
+      "impact": "判决时间表渐趋明朗，结果将决定副总统去留并影响2028年总统选举格局",
+      "source": "https://newsinfo.inquirer.net/2306555/highlights-day-26-of-sara-duterte-impeachment-trial-sept-16-2026"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "PH-GOV-001",
+      "org_name": "菲律宾总统办公室 (Office of the President of the Philippines)",
+      "org_type": "GOV",
+      "org_description": "国家元首与行政首脑的办事机构；副总统为总统继任顺序的第一顺位",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "PH-GOV-020",
+      "org_name": "教育部 (Department of Education)",
+      "org_type": "GOV",
+      "org_description": "副总统莎拉·杜特尔特2022-2024年受总统任命兼任教育部部长，期间两机构存在人事与预算联动",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "PH-GOV-005",
+      "org_name": "菲律宾众议院 (House of Representatives of the Philippines)",
+      "org_type": "GOV",
+      "org_description": "2025年2月5日和2026年5月11日两次通过弹劾副总统案，并在参议院审判中担任控方",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "PH-GOV-004",
+      "org_name": "菲律宾参议院 (Senate of the Philippines)",
+      "org_type": "GOV",
+      "org_description": "作为弹劾法庭自2026年7月6日起审理副总统弹劾案，对副总统职务行使宪法裁决权",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "PH-GOV-006",
+      "org_name": "菲律宾最高法院 (Supreme Court of the Philippines)",
+      "org_type": "GOV",
+      "org_description": "2025年7月25日裁定首次弹劾条款违宪并宣告无效、其后驳回复议申请，其裁定直接塑造弹劾进程",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "PH-GOV-011",
+      "org_name": "菲律宾审计委员会 (Commission on Audit)",
+      "org_type": "GOV",
+      "org_description": "对 OVP 资金使用进行审计监督，其审计报告中的违规认定是弹劾案的核心证据来源之一",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "菲律宾副总统是宪法设立的国家第二高级行职位，为总统继任顺序的第一顺位，并可受总统任命兼任内阁职务。其常设办事机构副总统办公室（OVP）为辅助性机构，负责为副总统履职提供行政、政策与外勤支持，核心职能包括：（1）履行国家礼仪与象征性职能，在总统出访或缺位期间受托代行职务；（2）依托马尼拉大都会曼达卢永总部及全国卫星办公室网络，向民众提供医疗、教育、丧葬等公共援助与民生项目；（3）编制并执行年度预算，接受审计委员会审计并向公众披露。2022年以来，OVP 因机密与情报资金使用争议受到国会与审计部门持续审查；2025-2026年副总统先后两次遭众议院弹劾、参议院弹劾法庭于2026年7月开庭审理，机构运作与公信力成为菲律宾政治焦点。",
+  "industries": [
+    "public_administration",
+    "social_services"
+  ],
+  "apec_stance": "菲律宾副总统办公室不直接主管 APEC 事务，APEC 政策由总统府、外交部、贸易和工业部及 APEC 国家秘书处主导。副总统的 APEC 相关角色以礼节性与继任安排为主：2023年11月马科斯总统赴美国旧金山出席 APEC 领导人非正式会议期间，副总统莎拉·杜特尔特依惯例受托担任国内事务留守负责人。2025年马科斯与杜特尔特两大政治阵营公开决裂后，副总统未再参与 APEC 相关活动；2026年（中国主办 APEC）以来，因弹劾审判进行中，OVP 未发布任何 APEC 相关立场文件或公开表态。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Seal_of_the_Vice_President_of_the_Republic_of_the_Philippines.svg/330px-Seal_of_the_Vice_President_of_the_Republic_of_the_Philippines.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-20",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 79,
+    "notes": "弹劾案核实（2026-09-20）：莎拉·杜特尔特现任状态为'在任但受弹劾审判中'——2025-02-05首次遭众议院弹劾，2025-07-25最高法院裁定该次弹劾违宪，2026-05-11众议院二次弹劾，2026-07-06参议院弹劾法庭开庭，截至2026-09-16（第26天）仍在审理、判决未下，副总统职务保留。OVP机构本身无官方社交媒体账号（OVP 2022-07-12官方声明并于2026-03-10再次澄清），social_accounts登记为副总统个人官方认证账号。幕僚长等官员无注册人物ID，依ID纪律置于departments.head（person_id留空）。OVP官网有反爬验证，官网信息经维基百科条目、OVP官方声明存档页面及主流媒体报道交叉核实。",
+    "quotes": [
+      {
+        "title": "Vice President of the Philippines - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vice_President_of_the_Philippines"
+      },
+      {
+        "title": "Office of the Vice President of the Philippines - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Office_of_the_Vice_President_of_the_Philippines"
+      },
+      {
+        "title": "Impeachment trial of Sara Duterte - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Impeachment_trial_of_Sara_Duterte"
+      },
+      {
+        "title": "Second impeachment of Sara Duterte - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Second_impeachment_of_Sara_Duterte"
+      },
+      {
+        "title": "Sara Duterte confidential funds controversy - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sara_Duterte_confidential_funds_controversy"
+      },
+      {
+        "title": "Pangalawang Pangulo ng Pilipinas - Wikipedia (Filipino)",
+        "url": "https://tl.wikipedia.org/wiki/Pangalawang_Pangulo_ng_Pilipinas"
+      },
+      {
+        "title": "Highlights: Day 26 of Sara Duterte impeachment trial | Sept. 16, 2026 - INQUIRER.net",
+        "url": "https://newsinfo.inquirer.net/2306555/highlights-day-26-of-sara-duterte-impeachment-trial-sept-16-2026"
+      },
+      {
+        "title": "OVP budget without confidential funds - Daily Tribune (2026-09-02)",
+        "url": "https://tribune.net.ph/2026/09/02/ovp-budget-without-confidential-funds"
+      },
+      {
+        "title": "OVP confidential funds spent in 11 days for 'obligations from previous months' - witness | ABS-CBN News (2026-08-25)",
+        "url": "https://www.abs-cbn.com/news/nation/2026/8/25/ovp-confidential-funds-spend-in-11-days-for-obligations-from-previous-months-witness-1624"
+      },
+      {
+        "title": "Gatchalian: Sara impeachment verdict still possible before December | Philippine News Agency",
+        "url": "https://www.pna.gov.ph/articles/1283659"
+      },
+      {
+        "title": "VP Sara opens satellite offices | Philippine News Agency (2022)",
+        "url": "https://www.pna.gov.ph/articles/1178122"
+      },
+      {
+        "title": "Official Statement - July 12, 2022 | Office of the Vice President",
+        "url": "https://www.ovp.gov.ph/post/official-statement-july-12-2022"
+      }
+    ]
+  }
+}

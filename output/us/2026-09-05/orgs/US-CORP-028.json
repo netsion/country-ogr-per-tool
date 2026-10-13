@@ -1,0 +1,311 @@
+{
+  "org_id": "US-CORP-028",
+  "basic_info": {
+    "name_original": "Oracle Corporation",
+    "name_zh": "甲骨文公司",
+    "name_en": "Oracle Corporation",
+    "aliases": [
+      "ORCL",
+      "甲骨文",
+      "Oracle",
+      "Oracle Systems Corporation"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "publicly_listed",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "1977-06-16",
+    "website": "https://www.oracle.com",
+    "wikidata_qid": "Q19900",
+    "industries": [
+      "software",
+      "cloud_computing",
+      "information_technology",
+      "semiconductors"
+    ]
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "Oracle",
+      "url": "https://twitter.com/Oracle",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Oracle",
+      "url": "https://facebook.com/Oracle",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Oracle",
+      "url": "https://youtube.com/oracle",
+      "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "oracle",
+      "url": "https://www.linkedin.com/company/oracle",
+      "source": "web_search"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "oracle",
+      "url": "https://www.instagram.com/oracle",
+      "source": "web_search"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Oracle Cloud 控制台",
+      "url": "https://cloud.oracle.com",
+      "description": "OCI云服务管理控制台，供企业管理云资源。",
+      "source": "https://www.oracle.com"
+    },
+    {
+      "name": "甲骨文投资者关系网站",
+      "url": "https://investor.oracle.com",
+      "description": "发布财报、新闻稿与投资者活动信息。",
+      "source": "https://investor.oracle.com"
+    },
+    {
+      "name": "Oracle Live",
+      "url": "https://www.oracle.com/news/",
+      "description": "公司新闻与产品发布官方渠道。",
+      "source": "https://www.oracle.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000112",
+      "name": "拉里·埃里森 (Larry Ellison)",
+      "title": "董事长兼首席技术官 (Chairman and Chief Technology Officer)",
+      "title_description": "公司创始人，1977年联合创立甲骨文，现任董事长并担任首席技术官，主导技术与产品战略。",
+      "description": "1944年生，美国企业家。1977年与他人共同创立软件开发实验室（甲骨文前身），长期担任CEO，2014年转任董事长兼CTO。是公司最大个人股东之一，在AI数据中心扩建战略中扮演核心决策角色。"
+    },
+    {
+      "person_id": "US-PERSON-000113",
+      "name": "萨弗拉·卡兹 (Safra Catz)",
+      "title": "董事会执行副主席 (Executive Vice Chair of the Board)",
+      "title_description": "2025年9月卸任CEO后转任董事会执行副主席，此前担任CEO长达11年。",
+      "description": "1961年生，1999年加入甲骨文，2004年起任CFO，2014年起任CEO，主导了多轮大型并购（含Cerner收购）。2025年9月卸任CEO改任执行副主席。"
+    },
+    {
+      "person_id": "US-PERSON-000518",
+      "name": "克莱·马古尔克 (Clay Magouyrk)",
+      "title": "联席首席执行官 (Co-CEO)",
+      "title_description": "原云基础设施总裁，2025年9月晋升为联席CEO，分管云基础设施业务。",
+      "description": "OCI云基础设施业务的关键缔造者之一，在其领导下OCI实现了多季度高速增长，并与主要AI客户建立了大额算力合同。2025年9月与Mike Sicilia共同被任命为联席CEO。"
+    },
+    {
+      "person_id": "US-PERSON-000546",
+      "name": "迈克·西西利亚 (Mike Sicilia)",
+      "title": "联席首席执行官 (Co-CEO)",
+      "title_description": "原行业业务总裁，2025年9月晋升为联席CEO，分管行业应用与垂直业务。",
+      "description": "长期负责甲骨文行业应用与垂直市场业务，2025年9月与Clay Magouyrk共同出任联席CEO，接替卸任的Safra Catz。"
+    },
+    {
+      "person_id": null,
+      "name": "道格·凯林 (Doug Kehring)",
+      "title": "首席财务官 (Chief Financial Officer)",
+      "title_description": "公司财务负责人。",
+      "description": "长期在甲骨文担任财务高管，接替转任的Safra Catz体系负责公司财务管理。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "云基础设施 (Oracle Cloud Infrastructure)",
+      "dept_id": "US-CORP-028-DEPT-001",
+      "head": "克莱·马古尔克 (Clay Magouyrk)",
+      "description": "OCI云基础设施业务，提供计算、存储、网络与AI训练服务，FY2026云基础设施收入增速达两位数百分比（Q4同比+93%），是公司增长引擎。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "云应用软件 (Cloud Applications)",
+      "dept_id": "US-CORP-028-DEPT-002",
+      "head": null,
+      "description": "包括Fusion云ERP、NetSuite、行业云应用（Cerner医疗健康等），FY2026云应用收入保持稳定增长。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数据库与许可业务 (Database and License Business)",
+      "dept_id": "US-CORP-028-DEPT-003",
+      "head": null,
+      "description": "传统数据库（含Oracle Database 23ai）、Java、中间件的许可与支持业务，是公司现金牛业务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-10",
+      "title": "与OpenAI签署3000亿美元五年云计算合同",
+      "description": "据《华尔街日报》等媒体报道，OpenAI与甲骨文签署约3000亿美元、为期五年（自2027年起）的算力采购合同，为史上最大云计算合同之一，与星际之门（Stargate）项目相关。",
+      "impact": "该合同推动甲骨文剩余履约义务（RPO）大幅跃升，市场对其AI算力供应商地位重新定价，但也引发对客户集中度与资本开支风险的讨论。",
+      "source": "https://www.wsj.com/business/openai-oracle-sign-300-billion-computing-deal-among-biggest-in-history-ff27c8fe"
+    },
+    {
+      "date": "2025-09-22",
+      "title": "管理层调整：马古尔克与西西利亚出任联席CEO",
+      "description": "甲骨文宣布晋升Clay Magouyrk（原云基础设施总裁）和Mike Sicilia（原行业业务总裁）为联席CEO，Safra Catz转任董事会执行副主席，结束其11年CEO任期。",
+      "impact": "管理层世代交替，两位新CEO分别掌管云基础设施与行业应用，公司战略延续云与AI优先路线。",
+      "source": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Corporation-Announces-Promotion-of-Clay-Magouyrk-and-Mike-Sicilia-to-CEOs-Safra-Catz-Appointed-Executive-Vice-Chair-of-the-Board-of-Directors/default.aspx"
+    },
+    {
+      "date": "2025-12-26",
+      "title": "股价季度承压，市场担忧AI资本开支回报",
+      "description": "据CNBC报道，受AI相关资本开支高企与债务融资担忧影响，甲骨文股价当季累计下跌约30%，创2001年以来最差季度表现。",
+      "impact": "公司面临向市场证明巨额数据中心投资可以转化为现金流与利润的压力。",
+      "source": "https://www.cnbc.com/2025/12/26/oracle-stock-on-pace-for-worst-quarter-since-2001-ai-concerns.html"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "发布FY2026第三季度财报",
+      "description": "甲骨文发布2026财年第三季度财务业绩，云业务延续增长态势。",
+      "impact": "云基础设施与应用收入增长支撑全年业绩预期。",
+      "source": "https://investor.oracle.com/home/default.aspx"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "发布FY2026第四季度及全年财报：营收创纪录",
+      "description": "FY2026全年营收674亿美元（同比+17%），其中云收入340亿美元（+39%）；Q4营收191.8亿美元，云基础设施收入同比+93%；剩余履约义务（RPO）从5530亿增至6380亿美元；全年经营现金流320亿美元（+54%）。Q4新签AI基础设施合同约670亿美元。",
+      "impact": "确认甲骨文成为头部AI算力供应商，但自由现金流为负，高资本开支与债务扩张成为市场关注焦点。",
+      "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "US-CORP-014",
+      "org_name": "OpenAI",
+      "org_type": "CORP",
+      "org_description": "美国人工智能公司，ChatGPT开发者，与甲骨文签署巨额五年云计算合同。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "US-CORP-004",
+      "org_name": "微软 (Microsoft)",
+      "org_type": "CORP",
+      "org_description": "美国科技公司，双方在云互连与企业应用领域长期合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "US-CORP-024",
+      "org_name": "英伟达 (Nvidia)",
+      "org_type": "CORP",
+      "org_description": "AI芯片供应商，与甲骨文在OCI数据中心GPU部署上深度合作。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": "US-FIN-013",
+      "org_name": "贝莱德 (BlackRock)",
+      "org_type": "FIN",
+      "org_description": "全球最大资产管理公司，甲骨文重要机构股东。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "US-FIN-012",
+      "org_name": "道富 (State Street Corporation)",
+      "org_type": "FIN",
+      "org_description": "美国资产管理与托管银行，甲骨文重要机构股东。",
+      "relationship_type": "minority_shareholder"
+    },
+    {
+      "org_id": "US-GOV-029",
+      "org_name": "美国证券交易委员会 (U.S. Securities and Exchange Commission)",
+      "org_type": "GOV",
+      "org_description": "美国证券监管机构，甲骨文作为上市公司受其监管。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "US-CORP-136",
+      "org_name": "Cerner Corporation",
+      "org_type": "CORP",
+      "org_description": "电子病历公司，2022年被甲骨文以约283亿美元收购，现为其医疗健康业务基础。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "US-CORP-137",
+      "org_name": "NetSuite",
+      "org_type": "CORP",
+      "org_description": "云ERP公司，2016年被甲骨文收购，现为其中小企业云应用主力。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "US-CORP-138",
+      "org_name": "Sun Microsystems",
+      "org_type": "CORP",
+      "org_description": "硬件与Java公司，2010年被甲骨文收购，Java成为其核心资产。",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "甲骨文公司是全球领先的企业级软件与云服务供应商，总部位于得克萨斯州奥斯汀。公司业务分为三大板块：一是云与许可业务，包括全球第二大云基础设施服务OCI（Oracle Cloud Infrastructure），提供计算、存储、网络与AI训练算力服务，以及Oracle Database数据库、Java、中间件等核心软件的许可与支持；二是云应用业务，涵盖Fusion云ERP、NetSuite、人力资本管理及Cerner医疗健康等行业云应用；三是硬件与服务业务。公司由拉里·埃里森等人于1977年创立，最初以关系型数据库起家，历经40余年发展，通过自研与并购（PeopleSoft、Sun Microsystems、NetSuite、Cerner等）构建了覆盖数据库、中间件、应用与基础设施的完整企业IT产品体系。近年公司战略全面转向AI算力基础设施，FY2026营收674亿美元，其中云收入340亿美元，剩余履约义务达6380亿美元，成为全球AI云算力主要供应商之一。",
+  "industries": [
+    "software",
+    "cloud_computing",
+    "information_technology"
+  ],
+  "apec_stance": "甲骨文在亚太地区布局广泛而深入：其APAC业务覆盖日本、韩国、中国、印度、东南亚、澳大利亚与新西兰等主要APEC经济体，亚太公共云区域数量达十余个。公司在新加坡设有南亚太区域总部并开设两个云区域，2024年10月宣布投资逾65亿美元在马来西亚建设首个公共云区域，以承接东南亚AI与云需求；此外在印度、日本、韩国、澳大利亚运营多个云区域，并向印尼等市场扩展。公司首席执行官之一Clay Magouyrk主导的OCI扩张以亚太数据中心为重点方向之一，服务的AI与云客户遍及APEC经济体。作为企业软件与云服务商，甲骨文未公开表述针对APEC机制的正式立场，但通过区域投资、数据本地化合规与本地伙伴生态深度参与亚太数字经济。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Oracle_Campus_in_Austin_2018.jpg/330px-Oracle_Campus_in_Austin_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "investor_relations",
+      "news_search"
+    ],
+    "completeness_score": 100,
+    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | 2026-09-07: 主会话直接完成丰富（子代理通道对该组织关键词持续误拦）。核心事实（财报数字、CEO更迭、OpenAI合同、马来西亚投资）均经官方新闻稿+主流媒体双源交叉验证。OpenAI合同金额3000亿美元为媒体报道口径（WSJ），公司未在财报中单独确认客户名称。",
+    "quotes": [
+      {
+        "title": "Oracle Corporation - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+      },
+      {
+        "title": "甲骨文公司 - 中文维基百科",
+        "url": "https://zh.wikipedia.org/wiki/甲骨文公司"
+      },
+      {
+        "title": "Oracle 官方网站",
+        "url": "https://www.oracle.com"
+      },
+      {
+        "title": "Oracle Investor Relations",
+        "url": "https://investor.oracle.com/home/default.aspx"
+      },
+      {
+        "title": "Oracle Announces Record Q4 and FY 2026 Results",
+        "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+      },
+      {
+        "title": "Oracle Announces Promotion of Clay Magouyrk and Mike Sicilia to CEOs",
+        "url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Corporation-Announces-Promotion-of-Clay-Magouyrk-and-Mike-Sicilia-to-CEOs-Safra-Catz-Appointed-Executive-Vice-Chair-of-the-Board-of-Directors/default.aspx"
+      },
+      {
+        "title": "WSJ: Oracle, OpenAI Sign $300 Billion Cloud Deal",
+        "url": "https://www.wsj.com/business/openai-oracle-sign-300-billion-computing-deal-among-biggest-in-history-ff27c8fe"
+      },
+      {
+        "title": "CNBC: Oracle stock worst quarter since 2001",
+        "url": "https://www.cnbc.com/2025/12/26/oracle-stock-on-pace-for-worst-quarter-since-2001-ai-concerns.html"
+      },
+      {
+        "title": "Oracle News: Malaysia AI and Cloud Investment",
+        "url": "https://www.oracle.com/news/announcement/oracle-to-invest-in-ai-and-cloud-computing-in-malaysia-2024-10-02/"
+      },
+      {
+        "title": "Reuters: Oracle to invest $6.5 billion in Malaysia",
+        "url": "https://www.reuters.com/technology/oracle-invest-65-billion-set-up-cloud-facilities-malaysia-2024-10-02/"
+      },
+      {
+        "title": "Oracle 在亚太（官方页）",
+        "url": "https://www.oracle.com/in/corporate/citizenship/asia-pacific/"
+      }
+    ]
+  }
+}

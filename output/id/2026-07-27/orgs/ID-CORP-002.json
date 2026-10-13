@@ -1,76 +1,265 @@
 {
   "org_id": "ID-CORP-002",
   "basic_info": {
-    "org_id": "ID-CORP-002",
-    "wikidata_qid": "Q4636285",
-    "name_en": "3D Entertainment",
+    "name_original": "3D Entertainment",
     "name_zh": "3D娱乐",
-    "name_local": "3D Entertainment",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
+    "name_en": "3D Entertainment",
+    "aliases": [
+      "3D Ent",
+      "3DEnt"
+    ],
     "org_type": "CORP",
-    "org_subtype": "publicly_listed",
-    "industry": "music industry",
-    "sector": null,
-    "headquarters": "Jakarta",
-    "address": null,
-    "website": "https://trinityproduction.com/id",
-    "official_website": "https://trinityproduction.com/id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "org_subtype": "subsidiary",
     "country_iso3": "IDN",
-    "name_original": "3D Entertainment"
+    "hq_country_iso3": "IDN",
+    "founded_date": "2016-12-31",
+    "website": "https://www.trinityproduction.com/"
   },
-  "description": "印度尼西亚 唱片公司",
-  "brief": "印度尼西亚 唱片公司",
-  "mission": null,
-  "core_business": "印度尼西亚 唱片公司",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "instagram",
-      "url": "https://instagram.com/3dent_id",
-      "source": "wikidata",
-      "account_name": "3dent_id"
+      "account_name": "3dent_id",
+      "url": "https://www.instagram.com/3dent_id/",
+      "source": "id.wikipedia.org/wiki/3D_Entertainment"
     },
     {
       "platform": "youtube",
+      "account_name": "3D Entertainment",
       "url": "https://www.youtube.com/channel/UCE0laCY30f_ky80J0BxD3dA",
-      "source": "wikidata",
-      "account_name": "UCE0laCY30f_ky80J0BxD3dA"
+      "source": "wikidata.org/wiki/Q4636285"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "3DEntertainmentOfficial",
+      "url": "https://www.facebook.com/3dentertainmentOfficial/",
+      "source": "facebook.com/3dentertainmentOfficial"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "3dent_id",
+      "url": "https://www.tiktok.com/@3dent_id",
+      "source": "facebook.com/3dentertainmentOfficial 及官方 YouTube 视频页脚（官方公示账号）"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
-  "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 58,
-    "data_sources": [
-      "https://www.wikidata.org/wiki/Q4636285"
+  "digital_assets": [
+    {
+      "name": "Trinity Optima Production 官网（含 3D Entertainment 品牌页）",
+      "url": "https://www.trinityproduction.com/",
+      "description": "母公司 Trinity Optima Production 官网，其 Services 页面介绍 3D Entertainment 为旗下 dangdut 音乐子厂牌。",
+      "source": "trinityproduction.com"
+    },
+    {
+      "name": "3D Entertainment 官方 YouTube 频道（@3DEnt_id）",
+      "url": "https://www.youtube.com/@3DEnt_id",
+      "description": "厂牌官方 YouTube 频道，是旗下艺人官方 MV 与歌词视频（Official Lyric Video）的主发布平台，多支 MV 播放量达数百万级。",
+      "source": "youtube.com/@3DEnt_id"
+    },
+    {
+      "name": "3D Entertainment 官方 TikTok 账号（@3dent_id）",
+      "url": "https://www.tiktok.com/@3dent_id",
+      "description": "厂牌官方 TikTok 账号，用于单曲宣发短视频与艺人内容运营，配合母公司 Trinity Optima Production 的数字分发体系。",
+      "source": "tiktok.com/@3dent_id"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000470",
+      "name": "汉迪·桑托索 (Handy Santoso)",
+      "title": "董事总经理",
+      "title_description": "3D Entertainment 负责人（Direktur Utama）",
+      "description": "印尼语维基百科（2026 年 9 月核对）记载的公司现任董事总经理（Direktur Utama），仍在任；他同时是母公司 Trinity Optima Production 的四位创始人之一（该词条中拼写为 Handi Santoso）。"
+    },
+    {
+      "person_id": "ID-PERSON-000471",
+      "name": "约纳坦·努格罗霍 (Yonathan Nugroho)",
+      "title": "联合创始人",
+      "title_description": "3D Entertainment 创始人之一",
+      "description": "印尼语维基百科记载的公司四位创始人之一；他同时是母公司 Trinity Optima Production 的四位创始人之一，3D Entertainment 即在其执掌下于 2016 年底设立。"
+    },
+    {
+      "person_id": "ID-PERSON-000472",
+      "name": "埃芬迪·维贾亚 (Effendy Widjaja)",
+      "title": "联合创始人",
+      "title_description": "3D Entertainment 创始人之一",
+      "description": "印尼语维基百科记载的公司四位创始人之一；他同时是母公司 Trinity Optima Production 的四位创始人之一（母公司前身为 1973 年创立的 Prosound/Dian Records）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-CORP-002-DEPT-001",
+      "name": "艺人管理与经纪 (Artist Management)",
+      "head": null,
+      "description": "负责旗下 dangdut 歌手的签约、演艺经纪与推广。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-002-DEPT-002",
+      "name": "音乐制作与发行 (Music Production & Distribution)",
+      "head": null,
+      "description": "负责唱片录制、数字发行与版权运营。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2016-12-31",
+      "title": "3D Entertainment 成立",
+      "description": "2016 年底，印尼主要唱片与艺人经纪公司 Trinity Optima Production（成立于 2003 年）设立子厂牌 3D Entertainment，与 Surya Citra Media（Indosiar 母公司）合作，专门运营从 Indosiar 选秀节目（如 D'Academy、Liga Dangdut Indonesia、Bintang Pantura）出道的 dangdut 音乐人才。",
+      "impact": "成为印尼 dangdut 音乐领域主要的商业化厂牌之一，旗下艺人包括 Lesti Kejora、Jirayut、Selfi Yamma 等。",
+      "source": "https://id.wikipedia.org/wiki/3D_Entertainment"
+    },
+    {
+      "date": "2025-06-25",
+      "title": "旗下头牌艺人 Lesti Kejora 发行单曲《Dilema》",
+      "description": "在 3D Entertainment（厂牌）与 STREAM Entertainment（艺人管理）合作框架下，Lesti Kejora 于 2025 年 6 月 25 日发行单曲《Dilema》，歌曲由其丈夫 Rizky Billar 创作并执导官方 MV，同步登陆 Spotify、Apple Music、YouTube Music、TikTok、Facebook Music 等数字平台，MV 在 3D Entertainment 官方 YouTube 频道首播。",
+      "impact": "巩固厂牌在 dangdut 主流市场的头部产品力；该曲随后为 Lesti Kejora 赢得 AMI Awards 2025 最佳 Dangdut 女歌手奖。",
+      "source": "https://rri.co.id/jakarta/hiburan/1608399/about.html"
+    },
+    {
+      "date": "2025-11-19",
+      "title": "Lesti Kejora 凭《Dilema》获 AMI Awards 2025 最佳 Dangdut 女歌手奖",
+      "description": "在 AMI Awards 2025 颁奖之夜，Lesti Kejora 凭借由 3D Entertainment 发行的单曲《Dilema》获得 Dangdut 领域 Artis Solo Wanita Dangdut Terbaik（最佳 Dangdut 女歌手）奖项，厂牌官方 TikTok 与 Facebook 账号亦发布祝贺。该奖项另有 CNN Indonesia、kapanlagi 等多家媒体报道交叉证实。",
+      "impact": "厂牌发行作品获印尼音乐产业权威奖项认可，直接提升旗下艺人与厂牌品牌的商业价值。",
+      "source": "https://www.cnnindonesia.com/hiburan/20251119171411-227-1297213/daftar-lengkap-pemenang-ami-awards-2025"
+    },
+    {
+      "date": "2026-01-20",
+      "title": "Dangdut Academy 7 冠军 Tasya DA7 发行出道单曲《Teman Jadi Nyaman》",
+      "description": "Indosiar 选秀节目 Dangdut Academy 7 冠军 Tasya DA7（Tasya Allesia）作为夺冠奖励的单曲《Teman Jadi Nyaman》于 2026 年 1 月 20 日通过 3D Entertainment 发行，先上线官方歌词视频，随后由 3D Entertainment 制作、STREAM Entertainment 协助支持的官方 MV 在厂牌 YouTube 频道发布，播放量达数百万级；Discogs 与印尼语维基百科均收录该 2026 年发行记录。",
+      "impact": "延续并验证了厂牌\"电视选秀冠军—厂牌出道—数字发行\"的核心商业闭环。",
+      "source": "https://id.wikipedia.org/wiki/Teman_Jadi_Nyaman"
+    },
+    {
+      "date": "2026-03-31",
+      "title": "推出新人组合 D4rA Muda 并发行首支单曲《Alasan》",
+      "description": "由 Dangdut Academy 7 集训（karantina）期间结识的成员 Chantika、Della、Dinda 等组成的新组合 D4rA Muda，于 2026 年 3 月 31 日 Dangdut Academy 音乐会上正式亮相，在 3D Entertainment 厂牌与 STREAM Entertainment 艺人管理下发行首支单曲《Alasan》官方 MV，厂牌官方 Facebook 账号发布宣发内容（RDI 电台账号亦有报道交叉印证）。",
+      "impact": "标志厂牌产品线从个人歌手向团体组合延伸，继续依托 Indosiar 选秀 IP 供给新人。",
+      "source": "https://www.facebook.com/3dentertainmentOfficial/videos/d4ra-muda-alasan-official-music-videomengawali-kedekatan-sejak-menjalani-masa-ka/4655186731472483/"
+    },
+    {
+      "date": "2026-07-09",
+      "title": "April DA7 发行单曲《Menyala》官方 MV",
+      "description": "旗下艺人 April DA7 于 2026 年 7 月 9 日通过 3D Entertainment 官方 YouTube 频道发行单曲《Menyala》官方 MV，厂牌官方 TikTok/Facebook 同步预热宣发。",
+      "impact": "保持厂牌 2026 年高频单曲发行节奏，持续运营 D'Academy 系选秀出造林艺人。",
+      "source": "https://www.youtube.com/watch?v=iekt5SvEoTI"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "特里尼蒂奥普蒂玛制作公司 (PT Trinity Optima Production)",
+      "org_type": "CORP",
+      "org_description": "印尼大型唱片公司与艺人经纪公司，成立于 2003 年，3D Entertainment 的母公司。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "苏里亚奇特拉媒体公司 (PT Surya Citra Media Tbk)",
+      "org_type": "CORP",
+      "org_description": "印尼电视与媒体集团（Indosiar、SCTV 母公司），与 Trinity Optima Production 合作运营选秀出道艺人的厂牌合作伙伴。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印多希尔电视台 (Indosiar)",
+      "org_type": "MEDIA",
+      "org_description": "印尼免费电视台，播出 D'Academy、Liga Dangdut Indonesia 等选秀节目，是 3D Entertainment 主要艺人来源渠道。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "斯特里姆娱乐公司 (Stream Entertainment)",
+      "org_type": "CORP",
+      "org_description": "艺人管理公司，负责 3D Entertainment 旗下 Indosiar 选秀出造林歌手的经纪管理；据印尼语维基百科，它同时是母公司 Trinity Optima Production 旗下的子公司之一。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "3D Entertainment 是印度尼西亚雅加达的 dangdut（当嘟）音乐子厂牌，由印尼主要唱片及艺人经纪公司 Trinity Optima Production 于 2016 年底设立。母公司前身为 1973 年创立的 Prosound/Dian Records，2003 年改组为 Trinity Optima Production，3D Entertainment 是其专门面向 dangdut 市场的子厂牌，并与传媒集团 Emtek 旗下的 Surya Citra Media（Indosiar、SCTV 母公司）合作运营。厂牌专门签约、制作和推广 Indosiar 电视选秀节目（D'Academy/Dangdut Academy、Liga Dangdut Indonesia、Bintang Pantura、Band Academy、The Icon Indonesia 等）出身的 dangdut 歌手，当选秀艺人的经纪管理由关联公司 Stream Entertainment 承担。业务涵盖唱片制作与发行、数字音乐分发（Spotify、Apple Music、YouTube Music、TikTok、Facebook Music 等平台）、官方 MV 与歌词视频制作（主发布渠道为厂牌官方 YouTube 频道）、艺人经纪与演艺推广。旗下艺人阵容包括 Lesti Kejora、Jirayut、Selfi Yamma、Meli Nuryani、Ridwan Naibaho、Hari Putra、Ahmad Afan Khadafy、Sridevi DA5、Eby DA5、Tasya DA7、April DA7、Mila DA7、Achmad Valen Akbar，以及母公司花名册中列示的 Fildan Rahayu、Lady Rara、Gunawan Muharjan 等。凭借\"选秀冠军—厂牌出道—数字发行—获奖反哺\"的完整链条（如 Dangdut Academy 7 冠军 Tasya DA7 于 2026 年出道、Lesti Kejora 凭《Dilema》获 AMI Awards 2025 最佳 Dangdut 女歌手奖），公司已成为印尼流行音乐市场中 dangdut 细分领域的主要商业厂牌之一。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "3D Entertainment 为印尼私营音乐娱乐子厂牌，无直接的 APEC 政策立场或官方参与记录；其业务依托印尼国内音乐市场与数字分发平台（YouTube、Instagram 等）开展，属于 APEC 成员经济体印尼创意经济与娱乐产业的组成部分。",
+  "profile": {
+    "headquarters": "Jl. Hayam Wuruk No. 58, Jakarta, Indonesia",
+    "founded": "2016",
+    "founders": [
+      "Yonathan Nugroho",
+      "Effendy Widjaja",
+      "Indrawati Widjaja",
+      "Yamin Widjaja"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q4636285; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "genre_focus": "Dangdut（印尼流行民谣舞曲）",
+    "parent_company": "Trinity Optima Production",
+    "signature_artists": [
+      "Lesti Kejora",
+      "Jirayut",
+      "Selfi Yamma",
+      "Meli Nuryani",
+      "Ridwan Naibaho",
+      "Hari Putra",
+      "Sridevi DA5",
+      "Eby DA5",
+      "Tasya DA7",
+      "April DA7",
+      "Mila DA7",
+      "Ahmad Afan Khadafy",
+      "Achmad Valen Akbar",
+      "Fildan Rahayu",
+      "Lady Rara",
+      "Gunawan Muharjan"
+    ],
+    "source_url": "https://id.wikipedia.org/wiki/3D_Entertainment"
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "https://id.wikipedia.org/wiki/3D_Entertainment",
+      "https://www.trinityproduction.com/services",
+      "https://www.wikidata.org/wiki/Q4636285",
+      "https://id.wikipedia.org/wiki/Trinity_Optima_Production",
+      "https://rri.co.id/jakarta/hiburan/1608399/about.html",
+      "https://www.cnnindonesia.com/hiburan/20251119171411-227-1297213/daftar-lengkap-pemenang-ami-awards-2025",
+      "https://id.wikipedia.org/wiki/Teman_Jadi_Nyaman",
+      "https://www.youtube.com/watch?v=iekt5SvEoTI",
+      "https://www.tiktok.com/@3dent_id"
+    ],
+    "completeness_score": 91,
+    "notes": "P3 enriched from Indonesian Wikipedia, Trinity Optima Production official site and Wikidata. Small dangdut sub-label; public information limited, details on financials/organizational structure unavailable. Existing lite fields migrated (online_presence → digital_assets; description → core_business) and lite-only fields removed. | 2026-09-04 复核：移除 000473/000474（Indrawati/Yamin Widjaja）——经多源核实为 Musica Studio's 录音家族成员，与 2016 年成立的 3D 娱乐无关联（Yamin 已于 1979 年逝世）；其人物档案中的 3D 娱乐条目保留但标注存疑 | 2026-09-17 P3 深度复富化：核对 3 名 key_people 现任状态（Handy Santoso 仍任董事总经理，三人均同时为母公司 Trinity 创始人）；social_accounts 增补官方 TikTok，digital_assets 增补官方 YouTube 频道与 TikTok；recent_events 增补 2025-2026 年 5 条（Lesti《Dilema》发行、AMI Awards 2025 获奖、Tasya DA7《Teman Jadi Nyaman》出道、D4rA Muda 组合出道、April DA7《Menyala》发行），重要事件均经官方渠道与独立媒体交叉证实；related_entities 增补 Stream Entertainment（未命中索引，org_id=null）；艺人阵容按 2026 年印尼语维基百科与母公司官网 Services 页更新。；[schema修复并档] ；high",
+    "quotes": [
+      {
+        "title": "3D Entertainment - Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/3D_Entertainment"
+      },
+      {
+        "title": "Services - Trinity Optima Production (official site)",
+        "url": "https://www.trinityproduction.com/services"
+      },
+      {
+        "title": "3D Entertainment - Wikidata (Q4636285)",
+        "url": "https://www.wikidata.org/wiki/Q4636285"
+      },
+      {
+        "title": "Daftar Lengkap Pemenang AMI Awards 2025 - CNN Indonesia",
+        "url": "https://www.cnnindonesia.com/hiburan/20251119171411-227-1297213/daftar-lengkap-pemenang-ami-awards-2025"
+      },
+      {
+        "title": "Lesti Kejora Rilis Single Berjudul Dilema - RRI.co.id",
+        "url": "https://rri.co.id/jakarta/hiburan/1608399/about.html"
+      },
+      {
+        "title": "Teman Jadi Nyaman - Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Teman_Jadi_Nyaman"
+      },
+      {
+        "title": "Trinity Optima Production - Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/Trinity_Optima_Production"
+      },
+      {
+        "title": "April DA7 - Menyala | 9 Juli 2026 - YouTube (official channel)",
+        "url": "https://www.youtube.com/watch?v=iekt5SvEoTI"
+      }
+    ]
   }
 }

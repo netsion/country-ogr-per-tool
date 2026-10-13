@@ -3,61 +3,348 @@
   "basic_info": {
     "org_id": "ID-CORP-007",
     "wikidata_qid": "Q4262919",
-    "name_en": "AXIS",
+    "name_original": "AXIS",
     "name_zh": "AXIS电信",
-    "name_local": "AXIS",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "CORP",
-    "org_subtype": "publicly_listed",
-    "industry": "telecommunications",
-    "sector": null,
-    "headquarters": "Jakarta",
-    "address": null,
-    "website": "http://www.axisworld.co.id/",
-    "official_website": "http://www.axisworld.co.id/",
-    "parent_org": "Q1535171",
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
-    "country_iso3": "IDN",
-    "name_original": "AXIS"
-  },
-  "description": "蜂窝通信服务 in Indonesia",
-  "brief": "蜂窝通信服务 in Indonesia",
-  "mission": null,
-  "core_business": "蜂窝通信服务 in Indonesia",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
-  "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
-    "data_sources": [
-      "https://www.wikidata.org/wiki/Q4262919"
+    "name_en": "AXIS",
+    "aliases": [
+      "PT Axis Telekom Indonesia",
+      "PT Natrindo Telepon Seluler",
+      "Lippo Telecom",
+      "NTS"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q4262919; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "org_type": "CORP",
+    "org_subtype": "subsidiary",
+    "country_iso3": "IDN",
+    "hq_country_iso3": "IDN",
+    "founded_date": "2008-02-27",
+    "website": "https://www.axis.co.id/"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "ask_AXIS",
+      "url": "https://x.com/ask_AXIS",
+      "source": "official"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "axis_id",
+      "url": "https://www.instagram.com/axis_id/",
+      "source": "official"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "AXISgsm",
+      "url": "https://www.facebook.com/AXISgsm",
+      "source": "official"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "axis.id",
+      "url": "https://www.tiktok.com/@axis.id",
+      "source": "official"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "AXISGSM",
+      "url": "https://www.youtube.com/@AXISGSM",
+      "source": "official"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "AXIS 官网",
+      "url": "https://www.axis.co.id/",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "AXISnet (自助服务应用)",
+      "url": "https://www.axis.co.id/",
+      "description": "app",
+      "source": null
+    },
+    {
+      "name": "AXIS 官方在线商店 (Kartu Perdana 销售门户)",
+      "url": "https://store.axis.co.id/",
+      "description": "website",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000489",
+      "name": "拉吉夫·塞西 (Rajeev Sethi)",
+      "title": "母公司 XLSMART 总裁董事兼CEO",
+      "title_description": "兼任 AXIS 品牌所属母公司 PT XLSMART Telecom Sejahtera Tbk 总裁董事与首席执行官",
+      "description": "曾任 Axiata 集团高管，2025年XLSMART合并成立后出任总裁董事兼CEO，负责包括AXIS在内的多品牌运营。"
+    },
+    {
+      "person_id": "ID-PERSON-000490",
+      "name": "阿尔斯贾德·拉希德 (Arsjad Rasjid)",
+      "title": "母公司 XLSMART 总裁专员",
+      "title_description": "PT XLSMART Telecom Sejahtera Tbk 总裁专员（董事长层）",
+      "description": "印尼知名企业家，2025年XLSMART成立时获委任为总裁专员，代表Sinar Mas一方股东。"
+    },
+    {
+      "person_id": "ID-PERSON-000491",
+      "name": "埃里克·阿斯 (Erik Aas)",
+      "title": "PT Axis Telekom Indonesia 末任总裁董事（历史人物）",
+      "title_description": "2013年被收购前 PT Axis Telekom Indonesia 的总裁董事",
+      "description": "曾任孟加拉Grameenphone负责人，2007年起出任Natrindo/AXIS总裁董事，主导AXIS品牌全国扩展，直至2013-2014年被XL Axiata收购合并。"
+    },
+    {
+      "person_id": null,
+      "name": "阿泽尔·贾维德 (Azher Javid)",
+      "title": "XLSMART 青年业务群负责人 (Group Head Youth Segment)",
+      "title_description": "PT XLSMART Telecom Sejahtera Tbk 青年客群负责人，主管AXIS品牌面向年轻用户的营销与电竞布局",
+      "description": "主导AXIS CUP 2026全国电竞赛事（覆盖88个城市、Free Fire与Mobile Legends两个项目）及AXIS青年营销战略，推动AXIS在电竞与青年数字文化领域的品牌建设。"
+    },
+    {
+      "person_id": null,
+      "name": "阿尔丰斯·埃里克·博施·桑萨 (Alfons Eric Bosch Sansa)",
+      "title": "XLSMART 首席营销官 (Chief Marketing Officer)",
+      "title_description": "PT XLSMART Telecom Sejahtera Tbk 首席营销官，统筹XL、AXIS、XL SATU等旗下品牌的市场营销",
+      "description": "负责XLSMART多品牌营销策略，主导2026年斋月跨品牌促销（含AXIS #RamadanKitaBeda系列套餐）等活动，服务集团7300万以上用户。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-CORP-007-DEPT-001",
+      "name": "品牌与市场部 (Brand & Marketing)",
+      "head": null,
+      "description": "负责AXIS品牌定位、 youth/大众市场推广及'Iritology'等营销企划。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-007-DEPT-002",
+      "name": "客户服务部 (AXIS Care)",
+      "head": null,
+      "description": "通过AXISnet应用、@ask_AXIS社交媒体及XL Center网络提供客户支持。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-007-DEPT-003",
+      "name": "网络运营部 (Network Operations)",
+      "head": null,
+      "description": "依托XLSMART共享网络（原XL与AXIS网络整合）运营2G/4G/5G服务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2013-12-26",
+      "title": "XL Axiata 签约收购 AXIS",
+      "description": "XL Axiata与Saudi Telecom Company及Maxis签署附条件买卖协议，以约8.65亿美元收购PT Axis Telekom Indonesia 95%股权（含承接债务）。",
+      "impact": "开启印尼电信业整合，AXIS由独立运营商转为XL Axiata旗下品牌。",
+      "source": "https://id.wikipedia.org/wiki/AXIS"
+    },
+    {
+      "date": "2014-04-08",
+      "title": "PT Axis Telekom Indonesia 并入 XL Axiata",
+      "description": "两家公司正式完成合并，PT Axis Telekom Indonesia为被吸收方，AXIS保留为产品品牌。",
+      "impact": "合并后XL Axiata用户达约6500万，市场份额约21%；AXIS品牌运营成本据称下降约70%。",
+      "source": "https://id.wikipedia.org/wiki/AXIS"
+    },
+    {
+      "date": "2015-03-30",
+      "title": "AXIS 品牌以新形象重新推出",
+      "description": "XL Axiata决定保留AXIS为第二品牌，定位年轻及价格敏感用户，推出'Iritology（省钱生活方式）'营销概念。",
+      "impact": "AXIS定位于中低收入与青年市场，与XL主品牌差异化互补。",
+      "source": "https://id.wikipedia.org/wiki/AXIS"
+    },
+    {
+      "date": "2023-11-14",
+      "title": "推出 AXIS 用户迁移至 XL 的服务",
+      "description": "XL Axiata通过myXL和AXISnet应用提供运营商迁移服务，用户可在保留原号码与套餐的情况下转网至XL。",
+      "impact": "为双品牌用户融合与网络整合铺路。",
+      "source": "https://id.wikipedia.org/wiki/AXIS"
+    },
+    {
+      "date": "2025-04-17",
+      "title": "XLSMART 正式运营，AXIS 并入新集团品牌矩阵",
+      "description": "XL Axiata与Smartfren的合并于2025年4月16日完成全部法律程序（官方FAQ口径），4月17日PT XLSMART Telecom Sejahtera Tbk（IDX: EXCL）正式开始运营，AXIS与XL、Smartfren一同作为其核心移动服务品牌。",
+      "impact": "AXIS成为印尼用户规模领先的电信集团XLSMART多品牌战略中的预付费青年/大众市场品牌。",
+      "source": "https://www.xl.co.id/bantuan/xl-smart/xl-smart/merger-berlaku"
+    },
+    {
+      "date": "2025-07-08",
+      "title": "XLSMART 确认 XL、AXIS、Smartfren 三品牌独立（freestanding）运营",
+      "description": "XLSMART管理层表示合并后三大品牌采取freestanding模式，各自保留品牌政策、目标市场与客户服务体系；AXIS继续服务青年与价格敏感客群。",
+      "impact": "AXIS品牌地位得到官方确认，保留独立的品牌定位、套餐体系与客户服务，不与XL、Smartfren合并。",
+      "source": "https://www.antaranews.com/berita/4952661/xlsmart-xl-axis-dan-smartfren-tetap-jalankan-layanan-terpisah"
+    },
+    {
+      "date": "2025-10-11",
+      "title": "AXIS Nation Cup 2025 全国学生五人制足球赛总决赛举行",
+      "description": "AXIS第三届AXIS Nation Cup（ANC）2025总决赛在雅加达Istora Senayan体育馆举行，赛事覆盖40个城市，总奖金最高达9.5亿印尼盾，为印尼最大规模学生五人制足球锦标赛，并实施零废弃（zero waste）绿色办赛。",
+      "impact": "AXIS持续通过学生体育社群深耕青年市场，强化品牌在校园场景的渗透与好感度。",
+      "source": "https://pasardana.id/news/2025/10/7/hadiah-ratusan-juta-ribuan-suporter-grand-final-axis-nation-cup-2025-jadi-panggung-futsal-terbesar-pelajar-indonesia"
+    },
+    {
+      "date": "2025-12-09",
+      "title": "XLSMART 为2025圣诞与2026新年部署3倍网络容量",
+      "description": "为应对节日出行带来的流量高峰，XLSMART将网络容量提升至平日3倍，并同步推出节日促销（含Smartfren无限量套餐加量等），AXIS用户共享扩容后的网络资源。",
+      "impact": "AXIS用户在节日高峰期获得更稳定的网络体验，体现并入XLSMART后的网络协同红利。",
+      "source": "https://www.suara.com/tekno/2025/12/09/102534/jelang-nataru-2026-xlsmart-siapkan-jaringan-3-kali-lebih-tangguh-untuk-antisipasi-lonjakan-trafik"
+    },
+    {
+      "date": "2026-02-24",
+      "title": "AXIS 推出斋月主题促销 #RamadanKitaBeda",
+      "description": "AXIS面向千禧一代与Z世代推出斋月套餐：分时段包ANTI BATAL（含Sahur晨封与Bedug开斋时段加速包，起价约6千盾）、MABAR开黑包（WARNET 3GB起约1.1万盾并赠ROBUX或游戏券）、Convert to Pulsa Pahala话费捐（余额可转为赠予其他AXIS用户的流量），并在Roblox平台开设INDO CHAT、INDO VOICE主题地图，活动期2026年2月18日至3月9日。",
+      "impact": "以场景化、社群化营销强化AXIS在年轻穆斯林用户中的品牌活力，配合集团应对斋月流量高峰。",
+      "source": "https://industri.kontan.co.id/news/sambut-ramadan-xlsmart-excl-hadirkan-beragam-promo-spesial-xl-axis-dan-xl-satu"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "XLSMART 一周年庆：AXIS 等全线品牌推出感恩促销",
+      "description": "PT XLSMART Telecom Sejahtera Tbk迎来挂牌运营一周年，面向旗下XL、AXIS、Smartfren及家庭宽带XL SATU用户推出系列回馈：AXIS针对青年群体提供平价大额流量与限时无限量套餐，并升级积分忠诚度计划；集团重申将为7300万用户持续提升5G与光纤网络质量。",
+      "impact": "巩固AXIS青年平价品牌形象，借集团周年节点提升用户黏性与拉新。",
+      "source": "https://www.suara.com/tekno/2026/04/17/155219/promo-ulang-tahun-xlsmart-beri-diskon-paket-data-xl-axis-hingga-smartfren"
+    },
+    {
+      "date": "2026-05-16",
+      "title": "AXIS CUP 2026 全国电竞锦标赛启动，覆盖88城",
+      "description": "XLSMART通过AXIS品牌重启AXIS CUP 2026全国休闲电竞赛事，2026年4月至10月在88个城市（78个网吧社区赛场+10个购物中心嘉年华赛场）举办，设Free Fire与Mobile Legends: Bang Bang两个项目及女子组别，由AXIS 5G AF网络提供低时延支持，总奖金最高约9亿盾，冠军可获通往Free Fire全国系列赛（FFNS）的外卡资格。",
+      "impact": "AXIS以电竞生态持续绑定Z世代用户，同时借赛事路演推广AXIS 5G网络能力。",
+      "source": "https://jabar.pojoksatu.id/tekhnologi/2026/05/16/axis-cup-2026-digelar-di-88-kota-axis-5g-af-siap-dorong-ekosistem-esports-anak-muda/"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "XLSMART 明确 AXIS 与 XL、Smartfren 共享同一5G网络",
+      "description": "XLSMART在2026媒体沟通会上表示，AXIS与XL、Smartfren三个品牌共享同一张5G网络，质量、覆盖、稳定性与资费一视同仁；首席技术官Shurish Subbramaniam披露5G扩张使用2.3GHz（40MHz）与2.6GHz（50MHz）合计90MHz频谱，700/850MHz继续保障4G体验不降级。",
+      "impact": "AXIS用户获得与主品牌XL同等的5G网络体验，消除合并后对'偏袒'子品牌的担忧，提升AXIS网络竞争力。",
+      "source": "https://www.antaranews.com/berita/5726365/xlsmart-pastikan-konektivitas-5g-stabil-di-tiga-merek-opselnya"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "XLSMART 电信 (PT XLSMART Telecom Sejahtera Tbk)",
+      "org_type": "CORP",
+      "org_description": "2025年由XL Axiata与Smartfren合并而成，现为AXIS品牌的运营主体，IDX代码EXCL。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "金务大集团/亚通集团 (Axiata Group Berhad)",
+      "org_type": "CORP",
+      "org_description": "马来西亚上市电信集团，为XLSMART主要股东之一，AXIS由此成为其间接旗下品牌。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "三林集团 (Sinar Mas)",
+      "org_type": "CORP",
+      "org_description": "印尼金光/Sinar Mas集团（通过Smartfren一方）为XLSMART共同主要股东。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "沙特电信公司 (Saudi Telecom Company)",
+      "org_type": "CORP",
+      "org_description": "2007-2014年为PT Axis Telekom Indonesia控股股东（80.1%），2014年将股权出售给XL Axiata。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "XL (XL Axiata)",
+      "org_type": "CORP",
+      "org_description": "同属XLSMART的高端主品牌，与AXIS差异化定位并共享网络基础设施。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "Smartfren (PT Smartfren Telecom)",
+      "org_type": "CORP",
+      "org_description": "印尼电信运营商，2025年与XL Axiata合并进入XLSMART；其品牌与AXIS、XL并列，主打无限量套餐客群。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "Maxis Communications",
+      "org_type": "CORP",
+      "org_description": "马来西亚电信集团（Ananda Krishnan旗下），2005年起入股Natrindo，2007年取得95%控股权，2013-2014年与沙特电信一同将AXIS股权售予XL Axiata。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "Lippo Group (力宝集团)",
+      "org_type": "CORP",
+      "org_description": "印尼力宝集团，AXIS前身Natrindo的创始股东，2001年4月以Lippo Telecom品牌在东爪哇开通印尼首个GSM 1800网络，2005-2007年陆续退出。",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "AXIS是印尼移动通信市场的预付费青年/大众品牌，现为PT XLSMART Telecom Sejahtera Tbk（IDX: EXCL）旗下三大移动服务品牌之一（与XL、Smartfren并列），不再作为独立法人存在。品牌于2008年2月27日推出，前身为力宝集团旗下Natrindo（曾用名Lippo Telecom、NTS），2014年并入XL Axiata，2025年随XL与Smartfren合并进入XLSMART，并以freestanding模式保持独立品牌运营。AXIS定位于年轻用户、电竞与内容社群用户及价格敏感的中低收入群体，以'简单、透明、省钱'为卖点（现用口号#EmangKitaBeda），提供2G/4G/5G移动语音、短信与数据服务，主力套餐包括OWSEM、Bronet（支持剩余流量Rollover结转）、Suka-Suka（含本地流量）、Warnet Unlimited日包及Kartu Perdana新卡，用户可通过AXISnet应用自助充值、购买套餐并累积AXIS Coin积分兑换权益。服务覆盖印尼400多个城市（覆盖约80%人口），网络依托XLSMART共享基础设施：集团2026年披露以2.3GHz+2.6GHz合计90MHz频谱扩张5G，AXIS与XL、Smartfren共享同一5G网络且质量一致。品牌长期通过AXIS CUP（2026年覆盖88城的全国电竞赛）与AXIS Nation Cup（学生五人制足球赛）深耕青年市场，客户服务由AXIS Care、AXISnet及XL Center门店网络承担。",
+  "industries": [
+    "mobile_telecommunications",
+    "telecommunications"
+  ],
+  "apec_stance": "AXIS为商业电信品牌，无独立对外政策立场。其运营主体XLSMART是印尼（APEC成员经济体）主要的移动运营商与数字基础设施提供者之一，通过扩大4G/5G覆盖与平价数据套餐支持印尼数字经济发展，服务APEC区域内的互联互通与数字经济合作议程。",
+  "collection_meta": {
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "https://id.wikipedia.org/wiki/AXIS",
+      "https://www.axis.co.id/",
+      "https://www.xlsmart.co.id/en/about-xlsmart",
+      "https://en.wikipedia.org/wiki/Axis_Telecom",
+      "https://www.xl.co.id/bantuan/xl-smart/xl-smart/merger-berlaku",
+      "https://www.antaranews.com/berita/4952661/xlsmart-xl-axis-dan-smartfren-tetap-jalankan-layanan-terpisah",
+      "https://www.antaranews.com/berita/5726365/xlsmart-pastikan-konektivitas-5g-stabil-di-tiga-merek-opselnya",
+      "https://industri.kontan.co.id/news/sambut-ramadan-xlsmart-excl-hadirkan-beragam-promo-spesial-xl-axis-dan-xl-satu",
+      "https://www.suara.com/tekno/2026/04/17/155219/promo-ulang-tahun-xlsmart-beri-diskon-paket-data-xl-axis-hingga-smartfren",
+      "https://jabar.pojoksatu.id/tekhnologi/2026/05/16/axis-cup-2026-digelar-di-88-kota-axis-5g-af-siap-dorong-ekosistem-esports-anak-muda/",
+      "https://pasardana.id/news/2025/10/7/hadiah-ratusan-juta-ribuan-suporter-grand-final-axis-nation-cup-2025-jadi-panggung-futsal-terbesar-pelajar-indonesia",
+      "https://www.youtube.com/@AXISGSM"
+    ],
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "AXIS - Wikipedia bahasa Indonesia",
+        "url": "https://id.wikipedia.org/wiki/AXIS"
+      },
+      {
+        "title": "XLSMART About - 官方介绍（含2025年合并与品牌矩阵）",
+        "url": "https://www.xlsmart.co.id/en/about-xlsmart"
+      },
+      {
+        "title": "AXIS 官方网站",
+        "url": "https://www.axis.co.id/"
+      },
+      {
+        "title": "XLSmart: XL, Axis, dan Smartfren tetap jalankan layanan terpisah - ANTARA News",
+        "url": "https://www.antaranews.com/berita/4952661/xlsmart-xl-axis-dan-smartfren-tetap-jalankan-layanan-terpisah"
+      },
+      {
+        "title": "Sambut Ramadan, XLSMART (EXCL) Hadirkan Beragam Promo Spesial XL, AXIS dan XL Satu - Kontan",
+        "url": "https://industri.kontan.co.id/news/sambut-ramadan-xlsmart-excl-hadirkan-beragam-promo-spesial-xl-axis-dan-xl-satu"
+      },
+      {
+        "title": "Promo Ulang Tahun XLSMART Beri Diskon Paket Data XL, AXIS, hingga Smartfren - Suara.com",
+        "url": "https://www.suara.com/tekno/2026/04/17/155219/promo-ulang-tahun-xlsmart-beri-diskon-paket-data-xl-axis-hingga-smartfren"
+      },
+      {
+        "title": "AXIS CUP 2026 Digelar di 88 Kota, AXIS 5G AF Siap Dorong Ekosistem Esports Anak Muda - Pojok Jabar",
+        "url": "https://jabar.pojoksatu.id/tekhnologi/2026/05/16/axis-cup-2026-digelar-di-88-kota-axis-5g-af-siap-dorong-ekosistem-esports-anak-muda/"
+      },
+      {
+        "title": "XLSmart pastikan konektivitas 5G stabil di tiga merek opselnya - ANTARA News",
+        "url": "https://www.antaranews.com/berita/5726365/xlsmart-pastikan-konektivitas-5g-stabil-di-tiga-merek-opselnya"
+      },
+      {
+        "title": "XLSmart siap Nataru 2026: Kapasitas Naik 3x & Promo Menarik - DetikInet",
+        "url": "https://inet.detik.com/telecommunication/d-8249812/xlsmart-siap-nataru-2026-kapasitas-naik-3x-promo-menarik"
+      },
+      {
+        "title": "AXIS (@AXISGSM) - YouTube 官方频道",
+        "url": "https://www.youtube.com/@AXISGSM"
+      }
+    ],
+    "notes": "P3二次丰富（2026-09-17）：核实AXIS为XLSMART旗下品牌（非独立法人）的表述无误；修正XLSMART正式运营日期为2025-04-16法律生效/04-17运营（xl.co.id官方FAQ+Liputan6交叉确认）；新增2025-07三品牌freestanding运营、2025-10 ANC 2025总决赛、2025-12节日3倍容量、2026-02斋月促销、2026-04集团一周年促销、2026-05 AXIS CUP 2026（88城）、2026-09三品牌共享5G（90MHz频谱）等事件并补齐全部事件source；related_entities字段规范化为org_description并新增Smartfren/Maxis/Lippo Group；新增XLSMART青年业务负责人Azher Javid与CMO Alfons Sansa（索引未收录，person_id置null）；补充YouTube官方频道@AXISGSM与官方商店store.axis.co.id。"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Axis_logo_2015.svg/250px-Axis_logo_2015.svg.png",
+    "local_path": null
   }
 }

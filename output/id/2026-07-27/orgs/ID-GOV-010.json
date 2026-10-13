@@ -1,70 +1,375 @@
 {
   "org_id": "ID-GOV-010",
+  "wikidata_qid": "Q17361119",
   "basic_info": {
     "org_id": "ID-GOV-010",
-    "wikidata_qid": "Q17361119",
-    "name_en": "Bappeda lhokseumawe",
-    "name_zh": "吕宋沙马韦市规划局",
-    "name_local": "Bappeda Lhokseumawe",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
+    "name_original": "Bappeda Lhokseumawe",
+    "name_zh": "洛克瑟马韦市区域发展规划局",
+    "name_en": "Regional Development Planning Board of Lhokseumawe City",
+    "founded_date": null,
+    "country_iso3": "IDN",
+    "hq_country_iso3": "IDN",
+    "website": "https://bappeda.lhokseumawekota.go.id",
     "org_type": "GOV",
     "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://bappeda.lhokseumawekota.go.id",
-    "official_website": "https://bappeda.lhokseumawekota.go.id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
-    "country_iso3": "IDN",
-    "name_original": "Bappeda Lhokseumawe"
+    "aliases": [
+      "Bappeda Kota Lhokseumawe",
+      "Badan Perencanaan Pembangunan Daerah Kota Lhokseumawe",
+      "Bappeda Lhokseumawe"
+    ]
   },
-  "description": "吕宋沙马韦市区域发展规划局",
-  "brief": "吕宋沙马韦市区域发展规划局",
-  "mission": null,
-  "core_business": "吕宋沙马韦市区域发展规划局",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "facebook",
-      "url": "https://facebook.com/bappedalhokseumawe",
-      "source": "wikidata",
-      "account_name": "bappedalhokseumawe"
+      "account_name": "Bappeda Kota Lhokseumawe",
+      "url": "https://www.facebook.com/137491743012744",
+      "source": "Facebook 搜索验证（官方政府组织主页，活跃度较低）；官网页脚未挂载"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@bappedakotalhokseumawe",
+      "url": "https://www.instagram.com/bappedakotalhokseumawe/",
+      "source": "官网 https://bappeda.lhokseumawekota.go.id 页眉与页脚挂载（2026-09 验证，488 粉丝、377 帖）"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "Bappeda Kota Lhokseumawe 官网",
+      "url": "https://bappeda.lhokseumawekota.go.id",
+      "description": "官方网站，发布新闻（Berita）、规划文件（Informasi）、领导名录（Profil）与办事服务",
+      "source": "org website"
+    },
+    {
+      "name": "市长条例第5号（2017年）关于BAPPEDA组织架构 (Perwal No. 5 Tahun 2017)",
+      "url": "https://bappeda.lhokseumawekota.go.id/assets/upload/docs/Perwal_No_5_Tahun_2017_tentang_BAPPEDA.pdf",
+      "description": "早期组织架构法规文件；现行架构已由2024年第3号市长条例规范",
+      "source": "官网资产目录"
+    },
+    {
+      "name": "RKPK Lhokseumawe Tahun 2026（2026年度市政府工作计划定案文件）",
+      "url": "https://bappeda.lhokseumawekota.go.id/assets/upload/docs/RKPK_Lhokseumawe_2026_tap.pdf",
+      "description": "官网 Informasi 栏目公开的年度规划法定文件",
+      "source": "https://bappeda.lhokseumawekota.go.id/informasi/read/rkpk-lhokseumawe-202607271785123970"
+    },
+    {
+      "name": "RKPK Lhokseumawe Tahun 2027（2027年度市政府工作计划文件，市数据门户）",
+      "url": "https://data.lhokseumawekota.go.id/dataset/8e2c214e-de42-456d-b520-90d0155e3114/resource/b68c482b-6d1d-479e-ae28-90cf4077b08c/download/rkpk-lhokseumawe-2027_c.pdf",
+      "description": "洛克瑟马韦市开放数据门户提供的2027年度规划文件（RKPK列表最新年度）",
+      "source": "https://bappeda.lhokseumawekota.go.id/informasi/read/rkpk-lhokseumawe-202607271785123970"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000590",
+      "name": "雷扎·马赫努尔 (Reza Mahnur)",
+      "title": "局长 (Kepala Bappeda Kota Lhokseumawe)",
+      "title_description": "2025年9月1日由市长Sayuti Abubakar任命出任局长，此前曾任市政府秘书长",
+      "description": "主持全市发展规划编制与统筹工作，向市长负责；公务员编号NIP 198505162003121001，职级Pembina Tk. I / IV.b；官网《结构职务名录》2026年2月12日更新版确认在任"
+    },
+    {
+      "person_id": "ID-PERSON-000591",
+      "name": "萨尤蒂·阿布巴卡 (Sayuti Abubakar)",
+      "title": "洛克瑟马韦市长 (Wali Kota Lhokseumawe)",
+      "title_description": "市长为地方自治政府首长，Bappeda在其领导下开展工作",
+      "description": "领导市政府确定发展战略方向，审定规划文件；2025年4月与7月先后主持RPJMK 2025-2029公众咨询论坛与Musrenbang协商会议，提出\"智慧宜居城市\"愿景及五项施政使命"
+    },
+    {
+      "person_id": null,
+      "name": "菲尔道斯 (Firdaus, SE)",
+      "title": "秘书长 (Sekretaris Bappeda Kota Lhokseumawe)",
+      "title_description": "秘书处主管，协助局长管理行政、总务、人事、财务与法务事务",
+      "description": "公务员编号NIP 197006102005041002，职级Pembina Tk. I / IV.b（官网结构职务名录，2026年2月更新）"
+    },
+    {
+      "person_id": null,
+      "name": "肯妮塔·祖尔卡维亚 (Khennita Zulqavia, SP)",
+      "title": "政府管理、亚齐特殊性与人类发展规划处处长 (Kepala Bidang Perencanaan Pembangunan Pemerintahan, Keistimewaan Aceh dan Pembangunan Manusia)",
+      "title_description": "负责人力资源开发、宗教、教育、卫生、文化、旅游、青年体育、宗教学校(dayah)、妇女儿童保护与社会福利领域的发展规划协调",
+      "description": "公务员编号NIP 197810302006042013，职级Pembina / IV.a（官网结构职务名录，2026年2月更新）"
+    },
+    {
+      "person_id": null,
+      "name": "努嫩·玛丽亚妮 (Nunung Mariani, S.Si)",
+      "title": "经济与自然资源规划处处长 (Kepala Bidang Perencanaan Pembangunan Perekonomian dan Sumber Daya Alam)",
+      "title_description": "负责粮食安全、工业贸易旅游、地方财政与投资领域发展规划，及扶贫加速专项协调",
+      "description": "公务员编号NIP 197710162001122004，职级Pembina / IV.a；2026年9月主持2026年度部门工作计划(Renja)变更文件协助活动（官网新闻，2026-09-10）"
+    },
+    {
+      "person_id": null,
+      "name": "德西·尤利安蒂 (Desi Julianti, S.ST., M.S.M)",
+      "title": "基础设施与区域规划处处长 (Kepala Bidang Perencanaan Pembangunan Infrastruktur dan Kewilayahan)",
+      "title_description": "负责基础设施与区域设施、住房定居点、交通、土地、灾害、跨区域合作、测绘、矿产能源与环境领域发展规划",
+      "description": "公务员编号NIP 197812302002122002，职级Pembina / IV.a；2026年9月主持亚齐地区水文气象灾后重建加速监测评估活动（官网新闻，2026-09-08）"
+    },
+    {
+      "person_id": null,
+      "name": "M·法伊萨尔 (M. Faisal, S.T., M.T.)",
+      "title": "区域研究与创新处处长 (Kepala Bidang Riset dan Inovasi Daerah)",
+      "title_description": "负责区域发展研究(Kelitbangan)：法规政策识别评估、战略议题研究、跨部门协调与政府绩效监测",
+      "description": "公务员编号NIP 197703302008011002，职级Penata Tk. I / III.d（官网结构职务名录，2026年2月更新）"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-010-DEPT-001",
+      "name": "秘书处 (Sekretariat)",
+      "head": "菲尔道斯 (Firdaus, SE)",
+      "description": "局长辅助机构，负责行政管理、总务、人事、财务、法务、规划项目编制、数据信息、公共关系与监测报告；下设综合与人事股、规划项目与报告股",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-007",
+      "name": "综合与人事股 (Sub Bagian Umum dan Kepegawaian)",
+      "head": "M·赫尔米·苏汉达 (M. Helmi Suhanda, S.Tr.IP)",
+      "description": "负责局内总务、装备、后勤与人事管理事务",
+      "parent_dept_id": "ID-GOV-010-DEPT-001"
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-008",
+      "name": "规划项目与报告股 (Sub Bagian Program dan Pelaporan)",
+      "head": "伊斯瓦娜·阿德拉 (Iswana Adela, S.T., M.Sc)",
+      "description": "负责规划项目编制管理与监测报告事务",
+      "parent_dept_id": "ID-GOV-010-DEPT-001"
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-005",
+      "name": "规划、控制与评估处 (Bidang Perencanaan, Pengendalian dan Evaluasi Pembangunan Daerah)",
+      "head": null,
+      "description": "协助局长制定规划政策、编制市级规划文件与建设资金安排、管理规划数据信息并评估洛克瑟马韦市发展规划实施；处长职位官网名录暂列空缺",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-004",
+      "name": "政府管理、亚齐特殊性与人类发展规划处 (Bidang Perencanaan Pembangunan Pemerintahan, Keistimewaan Aceh dan Pembangunan Manusia)",
+      "head": "肯妮塔·祖尔卡维亚 (Khennita Zulqavia, SP)",
+      "description": "负责人力资源开发、宗教、教育、卫生、社区赋权、妇女与儿童保护、宗教学校(dayah)、文化、旅游、青年体育、机构发展与人口和社会福利领域的规划协调；由2024年第3号市长条例对原\"社会文化福利规划处\"改组更名而来",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-002",
+      "name": "经济与自然资源规划处 (Bidang Perencanaan Pembangunan Perekonomian dan Sumber Daya Alam)",
+      "head": "努嫩·玛丽亚妮 (Nunung Mariani, S.Si)",
+      "description": "负责粮食安全、工业、贸易与旅游发展、地方财政与投资领域的规划协调，承担扶贫加速协调、极端贫困数据核对及2026年度部门工作计划(Renja)变更协助等工作",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-003",
+      "name": "基础设施与区域规划处 (Bidang Perencanaan Pembangunan Infrastruktur dan Kewilayahan)",
+      "head": "德西·尤利安蒂 (Desi Julianti, S.ST., M.S.M)",
+      "description": "负责基础设施与区域设施、住房与定居点、交通、科学技术与信息通信、区域发展、土地、灾害治理、跨区域发展合作、区域测绘、矿产、能源与环境领域的规划协调与评估；2026年9月承担亚齐水文气象灾后重建加速监测评估",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-010-DEPT-006",
+      "name": "区域研究与创新处 (Bidang Riset dan Inovasi Daerah)",
+      "head": "M·法伊萨尔 (M. Faisal, S.T., M.T.)",
+      "description": "负责区域发展研究(Kelitbangan)：法规与政策识别评估、战略议题与公共服务需求研究、中央政策实施研究与政府综合监测评估",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-01-04",
+      "title": "举办RPJPD 2025-2045初始草案公众咨询论坛",
+      "description": "Bappeda在市政府礼堂举办洛克瑟马韦市《2025-2045长期发展规划(RPJPD)》初始草案公众咨询论坛，代市长A. Hanan出席并要求广泛吸收利益相关方意见；规划编制自2023年初启动，遵循国家RPJPN、亚齐省RPJP与可持续发展目标(SDGs)框架，为市-省-中央规划同步(2025年起同步实施)奠定基础（InfoPublik亚齐通讯员报道）",
+      "impact": "开启2025-2045长期规划法定编制程序，其后续定稿为RPJMK 2025-2029的第一阶段依据",
+      "source": "https://infopublik.id/kategori/nusantara/813833/index.html"
+    },
+    {
+      "date": "2025-04-10",
+      "title": "市长主持RPJMK 2025-2029初始草案公众咨询论坛暨2026年度Musrenbang",
+      "description": "市长Sayuti Abubakar在市政府礼堂主持《市级中期发展规划(RPJMK) 2025-2029》初始草案公众咨询论坛与2026年度市政府工作计划(RKPK)发展协商会议(Musrenbang)，公布\"智慧宜居城市\"愿景与15项中期优先计划（垃圾管理、防洪、净水网络、滨海区整治、伊斯兰中心建设、人力资源、公共服务数字化、青年创意空间、贫困老人补助、优秀学生奖学金、渔业与现代农业赋权等），并配备手语翻译保障残障人士参与；DPD RI委员、Forkopimda、亚齐省Bappeda局长、印尼央行洛克瑟马韦分行、BPS及高校等出席",
+      "impact": "确立2025-2029规划周期的政策方向与优先项目清单，为后续RPJMK定稿和年度RKPK编制奠定公众参与基础",
+      "source": "https://www.juangnews.com/2025/04/wali-kota-lhokseumawe-buka-forum.html"
+    },
+    {
+      "date": "2025-07-31",
+      "title": "举行RPJMK 2025-2029发展协商会议（Musrenbang）",
+      "description": "Bappeda在市政府礼堂主办洛克瑟马韦市RPJMK 2025-2029发展协商会议，市长Sayuti Abubakar亲自开幕；市议会议长与各委员会、亚齐省Bappeda局长、Forkopimda Plus、市政府各部门、印尼央行洛克瑟马韦分行、BPS、高校学者与社区领袖等出席",
+      "impact": "完成RPJMK 2025-2029多方协商定稿程序，为2025-2029年市级预算与发展项目提供法定规划依据",
+      "source": "https://bappeda.lhokseumawekota.go.id/berita/read/musrenbang-rpjmk-lhokseumawe-tahun-2025-2029-202508011754022465"
+    },
+    {
+      "date": "2025-09-01",
+      "title": "新任局长就职",
+      "description": "市长Sayuti Abubakar任命Reza Mahnur（S.STP., M.Kesos）为Bappeda局长，此前其担任市政府秘书长；官网《结构职务名录》2026年2月12日更新版仍列其为现任局长",
+      "impact": "规划局领导层换届，延续2025-2029届期规划编制工作",
+      "source": "https://www.lhokseumawekota.go.id/berita-VG4sUg=="
+    },
+    {
+      "date": "2026-02-11",
+      "title": "参与阿伦-洛克瑟马韦经济特区发展专题讨论",
+      "description": "市长Sayuti Abubakar出席在雅加达Mubadala Energy办公室（Menara Astra）举行的阿伦-洛克瑟马韦经济特区(KEK Arun Lhokseumawe)发展焦点小组讨论(FGD)，该活动由Mubadala Energy发起，市长代表市政府表达全力支持；Bappeda作为市级规划统筹部门参与特区相关规划协调",
+      "impact": "加强市级规划与国家级经济特区（依据2017年第5号政府条例设立）发展的衔接，吸引能源产业投资方参与特区开发",
+      "source": "https://setdako.lhokseumawekota.go.id/berita/read/wali-kota-lhokseumawe-hadiri-fgd-pengembangan-kek-arun-tegaskan-dukungan-penuh-pemko-202602111770775501"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "参加2026年亚齐扶贫加速协调会议并开展扶贫资金发放监测",
+      "description": "经济与自然资源规划处开展亚齐省扶贫资金发放监测及极端贫困人口目标数据移交与核对工作",
+      "impact": "落实国家极端贫困消除计划在市一级的数据与项目协调（日期为2026年度活动近似值）",
+      "source": "https://www.instagram.com/bappedakotalhokseumawe/"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "开展经济中心区发展评估",
+      "description": "基础设施与区域规划处实施市级经济中心区发展评估工作，支撑空间布局与投资促进决策",
+      "impact": "为马六甲海峡沿线市级产业空间规划提供依据（日期为活动期近似值）",
+      "source": "https://www.instagram.com/bappedakotalhokseumawe/"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "与亚齐省Bappeda联合开展2026年度RKPD变更协调（P-RKPD）",
+      "description": "Bappeda Kota Lhokseumawe与亚齐省Bappeda举行2026年度市政府工作计划变更(P-RKPD)协调会，就变更文本中的计划、活动、绩效指标与目标进行逐项对齐和审查，确保市级调整与省级发展优先方向一致",
+      "impact": "保障《2026年度RKPD变更》文本合规定稿，维系市-省规划体系的纵向同步",
+      "source": "https://bappeda.lhokseumawekota.go.id/berita/read/bappeda-lhokseumawe-laksanakan-fasilitasi-perubahan-rkpd-tahun-2026-bersama-bappeda-aceh-202609011788280983"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "召开2026年度部门工作计划变更（P-Renja）内部核查会议",
+      "description": "Bappeda召开内部会议，对市政府各部门提交的2026年度工作计划变更(P-Renja)文件进行核查校验，政府管理与人类发展规划处等相关处室参与",
+      "impact": "把住年度预算规划文本质量关，为后续P-RKPD定稿与市议会审议提供基础",
+      "source": "https://bappeda.lhokseumawekota.go.id/berita/read/bappeda-lhokseumawe-laksanakan-rapat-internal-verifikasi-p-renja-tahun-2026-202609071788755129"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "开展亚齐地区水文气象灾后重建加速监测评估并商议受灾民众永久住房援助",
+      "description": "基础设施与区域规划处开展亚齐地区水文气象灾害灾后修复重建(Rehab Rekon)加速监测评估(Monev)，讨论灾后处理进展、需求与后续步骤；同日与相关方商议受灾民众永久住房建设援助事宜，强调住房、基础设施与基本服务恢复",
+      "impact": "推动市级规划对灾害响应的适应性调整，加快受灾社区住房与基础设施恢复",
+      "source": "https://bappeda.lhokseumawekota.go.id/berita/read/bappeda-kota-lhokseumawe-laksanakan-monev-percepatan-rehab-rekon-pascabencana-hidrometeorologi-wilayah-aceh-202609111789140142"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "经济与自然资源规划处开展2026年度部门工作计划变更文件协助",
+      "description": "Bappeda通过经济与自然资源规划处(P3SDA)实施2026年度部门工作计划(Renja)变更文件协助活动，进行部门间协调与口径统一",
+      "impact": "保障经济与自然资源领域年度计划调整与全市规划目标一致",
+      "source": "https://bappeda.lhokseumawekota.go.id/berita/read/bidang-p3sda-bappeda-kota-lhokseumawe-laksanakan-asistensi-dokumen-perubahan-renja-perangkat-daerah-tahun-2026-202609111789141185"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "洛克瑟马韦市政府 (Pemerintah Kota Lhokseumawe)",
+      "org_type": "GOV",
+      "org_description": "洛克瑟马韦市地方自治政府，市长Sayuti Abubakar领导；Bappeda为其组成机构",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚齐省区域发展规划局 (Bappeda Aceh)",
+      "org_type": "GOV",
+      "org_description": "亚齐省政府省级规划机构，在RPJPD 2025-2045等省级规划中指导并协同市级规划；2026年8月31日联合开展市级RKPD变更协调",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿伦-洛克瑟马韦经济特区 (KEK Arun Lhokseumawe)",
+      "org_type": "GOV",
+      "org_description": "依据2017年第5号政府条例设立的国家级经济特区，横跨北亚齐县与洛克瑟马韦市，重点发展能源、石化、物流与农工产业",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚国家发展规划署 (Bappenas)",
+      "org_type": "GOV",
+      "org_description": "国家规划主管部门；地方规划遵循其统筹的国家发展规划体系（RPJPN/RPJMN）框架",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "洛克瑟马韦市地方议会 (DPRD Kota Lhokseumawe)",
+      "org_type": "GOV",
+      "org_description": "市级立法机构；RPJPD/RPJMK等规划文件须经其讨论批准，并接受其监督",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚齐省投资与一站式服务局 (DPMPTSP Aceh)",
+      "org_type": "GOV",
+      "org_description": "亚齐省投资审批服务机构；在KEK Arun Lhokseumawe招商引资与产业空间布局方面与市级规划协同",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "洛克瑟马韦市区域发展规划局（Bappeda Kota Lhokseumawe，全称Badan Perencanaan Pembangunan Daerah Kota Lhokseumawe）是印尼亚齐特别自治区洛克瑟马韦市政府的区域发展规划机构，现组织架构依据2024年第3号市长条例（Peraturan Wali Kota Nomor 3 Tahun 2024）规范。该局承担规划、控制与评估市级发展事务的政府支撑职能，协助市长编制与统筹市级规划体系：包括市级长期发展规划（RPJP/RPJPK 2025-2045）、市级中期发展规划（RPJMK 2025-2029，愿景为\"建成智慧宜居城市\"并落实垃圾治理、防洪、净水网络、滨海整治、伊斯兰中心、公共服务数字化等15项中期优先计划）、年度市政府工作计划（RKPK/RKPD）及部门工作计划（Renstra/Renja），组织发展协商会议（Musrenbang，含e-Musrenbang数字化提案系统），协调跨部门发展计划，开展规划实施监测评估与区域发展研究（Kelitbangan），并承担扶贫加速、极端贫困数据处理、灾后重建监测评估等专项协调。现设局长1人、秘书长1人，下设秘书处（含综合人事、规划报告两股）及规划控制评估、政府与亚齐特殊性和人类发展、经济与自然资源、基础设施与区域、区域研究与创新等5个处。洛克瑟马韦市2001年6月21日依据第2号法律由北亚齐县分设，濒临马六甲海峡，历史上为印尼重要液化天然气（\"石油美元城市\"）工业基地，现参与阿伦-洛克瑟马韦国家级经济特区（KEK，2017年设立，重点发展能源、石化、物流与农工产业）的规划衔接。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "作为印尼地方政府规划机构，Bappeda不直接参与APEC事务，但通过编制市级发展规划支持印尼参与区域经济合作的国内落地：洛克瑟马韦市地处马六甲海峡国际航运通道沿线，其规划工作衔接阿伦-洛克瑟马韦国家级经济特区（能源、石化、物流产业）的发展布局，并配合国家与亚齐省在东盟经济共同体框架下的区域联通与投资便利化议程。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 58,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q17361119"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search",
+      "social_media",
+      "government_registry"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q17361119; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "quotes": [
+      {
+        "title": "Bappeda Kota Lhokseumawe 官网新闻列表（规划处职能活动）",
+        "url": "https://bappeda.lhokseumawekota.go.id/berita"
+      },
+      {
+        "title": "Bappeda - Wikipedia (Regional Development Planning Board)",
+        "url": "https://en.wikipedia.org/wiki/Bappeda_kota_lhokseumawe"
+      },
+      {
+        "title": "市长条例第5号/2017关于Bappeda组织架构（官方PDF）",
+        "url": "https://bappeda.lhokseumawekota.go.id/assets/upload/docs/Perwal_No_5_Tahun_2017_tentang_BAPPEDA.pdf"
+      },
+      {
+        "title": "市长任命Reza Mahnur为Bappeda局长 - 洛克瑟马韦市政府官网",
+        "url": "https://www.lhokseumawekota.go.id/berita-VG4sUg=="
+      },
+      {
+        "title": "Pejabat Struktural 结构职务名录（2026年2月12日更新，局长/秘书长/各处处长在任名单）",
+        "url": "https://bappeda.lhokseumawekota.go.id/profil/read/pejabat-struktural-202602121770881326"
+      },
+      {
+        "title": "Tugas 任务与职能页（依据2024年第3号市长条例的处室设置）",
+        "url": "https://bappeda.lhokseumawekota.go.id/profil/read/tugas-202509261758876062"
+      },
+      {
+        "title": "Musrenbang RPJMK Lhokseumawe Tahun 2025-2029（官网新闻，2025-07-31）",
+        "url": "https://bappeda.lhokseumawekota.go.id/berita/read/musrenbang-rpjmk-lhokseumawe-tahun-2025-2029-202508011754022465"
+      },
+      {
+        "title": "Bappeda Lhokseumawe Laksanakan Fasilitasi Perubahan RKPD Tahun 2026 Bersama Bappeda Aceh（官网新闻，2026-08-31）",
+        "url": "https://bappeda.lhokseumawekota.go.id/berita/read/bappeda-lhokseumawe-laksanakan-fasilitasi-perubahan-rkpd-tahun-2026-bersama-bappeda-aceh-202609011788280983"
+      },
+      {
+        "title": "Bappeda Kota Lhokseumawe Laksanakan Monev Percepatan Rehab Rekon Pascabencana Hidrometeorologi Wilayah Aceh（官网新闻，2026-09-08）",
+        "url": "https://bappeda.lhokseumawekota.go.id/berita/read/bappeda-kota-lhokseumawe-laksanakan-monev-percepatan-rehab-rekon-pascabencana-hidrometeorologi-wilayah-aceh-202609111789140142"
+      },
+      {
+        "title": "Bidang P3SDA Laksanakan Asistensi Dokumen Perubahan Renja Perangkat Daerah Tahun 2026（官网新闻，2026-09-10）",
+        "url": "https://bappeda.lhokseumawekota.go.id/berita/read/bidang-p3sda-bappeda-kota-lhokseumawe-laksanakan-asistensi-dokumen-perubahan-renja-perangkat-daerah-tahun-2026-202609111789141185"
+      },
+      {
+        "title": "Wali Kota Lhokseumawe Buka Forum Konsultasi Publik RPJMK 2025-2029 dan Musrenbang RKPK 2026（Juang News，2025-04-10）",
+        "url": "https://www.juangnews.com/2025/04/wali-kota-lhokseumawe-buka-forum.html"
+      },
+      {
+        "title": "RKPK Lhokseumawe 规划文件列表（2019-2027年度下载）",
+        "url": "https://bappeda.lhokseumawekota.go.id/informasi/read/rkpk-lhokseumawe-202607271785123970"
+      },
+      {
+        "title": "Bappeda Kota Lhokseumawe Instagram 官方账号（488粉丝，Jl. H. Ramli Ridwan No. 2, Mon Geudong, Banda Sakti）",
+        "url": "https://www.instagram.com/bappedakotalhokseumawe/"
+      },
+      {
+        "title": "Wali Kota Lhokseumawe Hadiri FGD Pengembangan KEK Arun（市政府秘书处官网，2026-02-11）",
+        "url": "https://setdako.lhokseumawekota.go.id/berita/read/wali-kota-lhokseumawe-hadiri-fgd-pengembangan-kek-arun-tegaskan-dukungan-penuh-pemko-202602111770775501"
+      },
+      {
+        "title": "RPJPD 2025-2045初始草案公众咨询（InfoPublik，2024-01-04）",
+        "url": "https://infopublik.id/kategori/nusantara/813833/index.html"
+      }
+    ],
+    "notes": "地方规划机构公开资料有限，成立年份无从查证故留null。组织架构依据2024年第3号市长条例（官网Tugas/Struktur页面，2024-05发布）：5个处+秘书处；规划、控制与评估处处长官网名录暂空缺，head留null；Reza Mahnur（ID-PERSON-000590）经官网2026-02-12更新名录确认在任。RPJMK完成日期已由官网Musrenbang新闻确认为2025-07-31。2026-04-01（扶贫）、2026-06-01（经济中心区评估）两条source以官方Instagram账号主页为追溯入口（账号分别发布过2026年度扶贫加速协调会议与经济中心区评估活动帖）、2026-02-11（KEK讨论）为年度活动近似日期。Instagram简介含办公地址：Jl. H. Ramli Ridwan No. 2, Mon Geudong, Kecamatan Banda Sakti, 邮编24351；Facebook官方页（ID 137491743012744）活跃度低（3赞），官网页脚仅挂载Instagram。新增局长以下官员（Firdaus、Khennita Zulqavia、Nunung Mariani、Desi Julianti、M. Faisal、M. Helmi Suhanda、Iswana Adela）person_id均为null待主会话分配；related_entities除本局与两人外其余org_id未命中索引写null。纯事实记录，无争议内容。",
+    "completeness_score": 91
   }
 }

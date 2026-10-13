@@ -1,70 +1,453 @@
 {
   "org_id": "ID-CORP-009",
+  "wikidata_qid": "Q4688506",
   "basic_info": {
     "org_id": "ID-CORP-009",
-    "wikidata_qid": "Q4688506",
-    "name_en": "Aerowisata",
-    "name_zh": "阿埃罗维斯塔",
-    "name_local": "Aerowisata",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "CORP",
-    "org_subtype": "publicly_listed",
-    "industry": "tourism",
-    "sector": null,
-    "headquarters": "Jakarta",
-    "address": null,
-    "website": "http://www.aerowisata.com/",
-    "official_website": "http://www.aerowisata.com/",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Aerowisata",
+    "name_zh": "印尼航空旅游集团",
+    "name_en": "Aerowisata (PT Aero Wisata)",
+    "founded_date": "1973-06-30",
     "country_iso3": "IDN",
-    "name_original": "Aerowisata"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.aerowisata.com/",
+    "org_type": "CORP",
+    "org_subtype": "subsidiary",
+    "aliases": [
+      "Aerowisata Group",
+      "Aero Wisata"
+    ]
   },
-  "description": "印度尼西亚 酒店业公司",
-  "brief": "印度尼西亚 酒店业公司",
-  "mission": null,
-  "core_business": "印度尼西亚 酒店业公司",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
+      "platform": "instagram",
+      "account_name": "@aerowisata_ (Aerowisata)",
+      "url": "https://www.instagram.com/aerowisata_/",
+      "source": "官网首页页脚 Ikuti Kami di Instagram 栏目"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@aerofoodacsindo (Aerofood ACS)",
+      "url": "https://www.instagram.com/aerofoodacsindo/",
+      "source": "官网首页页脚 Ikuti Kami di Instagram 栏目"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@aerowisatahotels (Aerowisata Hotels)",
+      "url": "https://www.instagram.com/aerowisatahotels/",
+      "source": "官网首页页脚 Ikuti Kami di Instagram 栏目"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@aeroglobeindonesia (AeroGlobe 旅行)",
+      "url": "https://www.instagram.com/aeroglobeindonesia/",
+      "source": "官网首页页脚 Ikuti Kami di Instagram 栏目"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@aerotransid (Aerotrans 交通)",
+      "url": "https://www.instagram.com/aerotransid/",
+      "source": "官网首页页脚 Ikuti Kami di Instagram 栏目"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@kirimaja_id (KirimAja 物流)",
+      "url": "https://www.instagram.com/kirimaja_id/",
+      "source": "官网首页页脚 Ikuti Kami di Instagram 栏目"
+    },
+    {
       "platform": "facebook",
+      "account_name": "aero.wisata.7",
       "url": "https://facebook.com/aero.wisata.7",
-      "source": "wikidata",
-      "account_name": "aero.wisata.7"
+      "source": "阶段2采集，本轮未在官网页脚复核，待查证"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Aerowisata",
+      "url": "https://www.linkedin.com/company/aerowisata",
+      "source": "LinkedIn 检索确认（2026年1月管理层帖文发布账号）"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "Aerowisata 官网",
+      "url": "https://www.aerowisata.com/",
+      "description": "集团官网，展示13家公司、5大业务线与52年历史；[]website",
+      "source": "官方"
+    },
+    {
+      "name": "Aerowisata Hotels & Resorts 酒店品牌站",
+      "url": "https://www.aerowisatahotels.com/",
+      "description": "旗下酒店板块品牌站（1974年建成首家酒店）；[]website",
+      "source": "官方"
+    },
+    {
+      "name": "公司历史页 (Sejarah Perusahaan)",
+      "url": "https://www.aerowisata.com/id/sejarah-perusahaan/",
+      "description": "1973年成立沿革；[]website",
+      "source": "官方"
+    },
+    {
+      "name": "Aerofood ACS 官网",
+      "url": "https://aerowisatafood.com/",
+      "description": "航空配餐子公司官网（注册地址：Aerowisata Building, Jl. Prajurit KKO Usman dan Harun No. 32, Jakarta）；[]website",
+      "source": "官方"
+    },
+    {
+      "name": "官网董事会与子公司管理层页 (Susunan Direksi)",
+      "url": "https://www.aerowisata.com/id/board/",
+      "description": "现任监事会、董事会及子公司董事名录；[]website",
+      "source": "官方"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "汉迪·B·沙里夫 (Handi B. Syarif)",
+      "title": "总裁董事 (Direktur Utama)",
+      "title_description": "PT Aero Wisata总裁董事（首席执行官），主持集团五大业务线经营",
+      "description": "2026年1月接替贝尼·古纳万出任总裁董事（集团LinkedIn官方账号于2026年1月10日前后发布对其就任的祝贺及对前任2020-2026年任期的致谢帖；2026年1月15日开展对子公司的首次工作视察），并于2026年7月15日RUPSLB后续任。航空物流与农业综合企业背景：曾任鹰航货运副总裁（Vice President Cargo，约2008-2013年）、PT Austindo Nusantara Jaya (ANJ Tbk)旗下ANJ Agri Papua首席执行官等职务（其LinkedIn履历）。2026年1月上任"
+    },
+    {
+      "person_id": null,
+      "name": "伊·尼奥曼·苏尼亚·桑贾亚 (I Nyoman Sunia Sanjaya)",
+      "title": "财务与人力资源董事 (Direktur Keuangan dan SDM)",
+      "title_description": "分管集团财务与人力资源",
+      "description": "2026年7月15日RUPSLB任命的新任董事（官网7月16日公告），此前已任子公司Aerofood Indonesia财务与人力资源董事，改组后继续兼任。2026年7月15日就任"
+    },
+    {
+      "person_id": null,
+      "name": "扬蒂·赫里娜·R·西雷加尔 (Yanti Herlina R. Siregar)",
+      "title": "商务与运营董事 (Direktur Niaga dan Operasi)",
+      "title_description": "分管集团商务与运营",
+      "description": "2026年7月15日RUPSLB任命的新任董事（官网7月16日公告），此前任Aerofood ACS运营董事并曾以代理总裁董事身份于2025年12月3日代集团领取BBMA 2025金奖。2026年7月15日就任"
+    },
+    {
+      "person_id": null,
+      "name": "M·毛鲁丁 (M. Mauludin)",
+      "title": "监事 (Komisaris)",
+      "title_description": "监事会成员，监督董事会履职",
+      "description": "官网董事会页现任监事会成员"
+    },
+    {
+      "person_id": null,
+      "name": "雷南达·巴赫塔尔 (Renanda Bachtar)",
+      "title": "监事 (Komisaris)",
+      "title_description": "监事会成员，监督董事会履职",
+      "description": "官网董事会页现任监事会成员"
+    },
+    {
+      "person_id": "ID-PERSON-000497",
+      "name": "贝尼·古纳万 (Beni Gunawan)",
+      "title": "前总裁董事 (Direktur Utama 2020-2026)",
+      "title_description": "曾任PT Aero Wisata总裁董事（首席执行官）",
+      "description": "任期2020-2026，2026年1月卸任，由汉迪·B·沙里夫接任（集团LinkedIn官方账号致谢帖及官网董事会页交叉确认）"
+    },
+    {
+      "person_id": "ID-PERSON-000498",
+      "name": "伊尔凡·塞蒂亚普特拉 (Irfan Setiaputra)",
+      "title": "前董事长 (Komisaris Utama, 已离任)",
+      "title_description": "曾任PT Aero Wisata董事长（监事会主席）",
+      "description": "原兼任Aerowisata董事长与母公司鹰航总裁董事；2024年11月RUPSLB决定解除其鹰航总裁董事职务、由瓦米尔丹·查尼·潘贾伊坦接任（Tempo、Aviation Week等多家媒体报道），此后官网董事会页监事会仅列M. Mauludin与Renanda Bachtar，其不再在任"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-CORP-009-DEPT-001",
+      "name": "董事会与经营层 (Direksi & Komisaris)",
+      "head": "Handi B. Syarif",
+      "description": "总裁董事领导的经营管理层及监事会；2026年7月15日RUPSLB后董事会由总裁董事、财务与人力资源董事、商务与运营董事三人组成",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-009-DEPT-002",
+      "name": "酒店管理部 (Aero Hotel Management)",
+      "head": null,
+      "description": "通过子公司PT Aero Hotel Management运营Prama（五星）、Kila（四星）、Asana（三星）三品牌酒店；截至2026年在管酒店为巴厘岛Prama Sanur Beach、比亚克Asana Biak Papua、雅加达Cengkareng机组宿舍型Asana Sincerity Dorm三家",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-009-DEPT-003",
+      "name": "航空与机构配餐部 (Aerofood ACS)",
+      "head": "Christopher Supit (PT Aerofood Indonesia 总裁董事，2026年7月就任)",
+      "description": "通过子公司PT Aerofood Indonesia运营航空配餐及厨房设施，为40余条国内国际航线供餐，并承接总统府国宴、总统专机、亚残运会等大型活动配餐",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-009-DEPT-004",
+      "name": "旅游与交通服务部 (Aero Travel & Aerotrans)",
+      "head": "Ferry Toga (PT Aero Globe Indonesia 董事)",
+      "description": "经营旅行代理（PT Aero Globe Indonesia/Aerotravel、AeroMICE会奖、Aerohajj朝觐服务，系IATA/PATA/AFTA/JATA/ASITA成员）及陆路交通租赁（Aerotrans/AeroExpress，总裁董事Kadek Bayu Temaja）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-CORP-009-DEPT-005",
+      "name": "物流货运部 (Aerojasa Cargo / KirimAja)",
+      "head": "Kadek Bayu Temaja (PT Aerojasa Cargo 董事)",
+      "description": "通过PT Aerojasa Cargo提供货运与物流服务，并运营KirimAja快递品牌（覆盖印尼国内及国际寄递）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-01",
+      "title": "集团协同亮相GATF与GUTF 2026旅游展",
+      "description": "8月28-30日在雅加达会议中心（JICC）举行的Garuda Indonesia Travel Fair与Garuda Umrah Travel Fair 2026（主题Where Every Journey Begins）上，集团推出Prama Sanur Beach Bali百万元盾起酒店套餐、Aerotrans巴士租赁9折、KirimAja寄递9折、Aerofood ACS主题GUTF Café（Fly With Meals）及200万盾起旅行套餐；总裁董事Handi B. Syarif与商务与运营董事Yanti Herlina R. Siregar出席开幕",
+      "impact": "强化集团五大业务线协同营销与B2C直销能力",
+      "source": "https://www.aerowisata.com/aerowisata-group-meriahkan-gatf-dan-gutf-2026-hadirkan-beragam-penawaran-dan-kolaborasi/"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Aerofood ACS服务独立81周年总统府庆典",
+      "description": "旗下Aerofood ACS于坦格朗/雅加达参与2026年8月17日印尼独立81周年总统府庆典相关餐饮保障",
+      "impact": "延续其国宴级配餐保障能力（继2025年8月17日独立80周年庆典后连续第二年服务）",
+      "source": "https://aerowisatafood.com/en/home/"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "完成Aero Globe Indonesia与Aerojasa Cargo董事交接",
+      "description": "总裁董事Handi B. Syarif以两大子公司股东身份主持PT Aero Globe Indonesia与PT Aerojasa Cargo董事交接（Sertijab）",
+      "impact": "旅行与物流板块治理层调整，延续集团治理强化进程",
+      "source": "https://www.aerowisata.com/id/serah-terima-jabatan-direksi-pt-aero-globe-indonesia-dan-pt-aerojasa-cargo/"
+    },
+    {
+      "date": "2026-07-15",
+      "title": "RUPSLB改组母公司层面董事会",
+      "description": "7月15日在Cengkareng鹰航管理大楼War Room举行的股东特别大会（RUPSLB）批准任命I Nyoman Sunia Sanjaya为财务与人力资源董事、Yanti Herlina R. Siregar为商务与运营董事，Handi B. Syarif续任总裁董事（官网7月16日公告）",
+      "impact": "董事会自此由三名董事构成，商务与财务分管明确化",
+      "source": "https://www.aerowisata.com/id/perubahan-susunan-pengurus-perseroan-pt-aero-wisata/"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "子公司Aerofood Indonesia董事会改组",
+      "description": "在母公司主导下，Christopher Supit出任PT Aerofood Indonesia总裁董事（接替转任战略与商务董事的Lisa Listyani Winolo），Vindex Valentino Tengker出任运营董事（接替升任集团商务与运营董事的Yanti Herlina R. Siregar）；监事会由Mohamad Reza Yunardi（监事长）、N. Nila Oktaviany与Agus M. Santoso（独立监事）组成；交接于7月10日在Aerowisata总部举行，官网7月13日报道",
+      "impact": "核心配餐板块高管更替，官网董事会页显示新班子已就位",
+      "source": "https://www.aerowisata.com/id/serah-terima-jabatan-direksi-pt-aerofood-indonesia-3/"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Aerofood ACS承接白俄罗斯总统专机配餐",
+      "description": "在白俄罗斯总统卢卡申科7月1-2日对印尼进行国事访问期间，Aerofood ACS获信任承接总统专机（Kepresidenan）航空配餐服务",
+      "impact": "体现其专机与国事活动配餐能力，服务印尼主场外交",
+      "source": "https://aerowisatafood.com/en/news/2026/07/aerofood-acs-supports-presidential-aircraft-catering-services-for-the-president-of-belarus-visit-to-indonesia/"
+    },
+    {
+      "date": "2026-02-18",
+      "title": "与清真寺管理机构签署战略合作备忘录",
+      "description": "2月18日Aerowisata Group与宗教事务部长纳萨鲁丁·乌马尔领衔的清真寺管理委员会（BPMI）签署集团史上首个合作备忘录（官网2月23日报道）：Aerofood ACS负责开斋餐供餐与菜单规划、Aero Hotel Management管理Safar Transit过境住宿设施、Aero Globe Indonesia提供整合朝觐副朝服务，交通与物流列为后续合作方向；鹰航总裁董事Glenny Kairupan与宗教部长共同签署，Handi B. Syarif等出席",
+      "impact": "切入宗教旅游、机构餐饮与过境住宿市场，扩大非航收入来源",
+      "source": "https://www.aerowisata.com/id/sambut-ramadhan-garuda-indonesia-group-melalui-aerowisata-gandeng-masjid-istiqlal/"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "管理层换届：Handi B. Syarif出任总裁董事",
+      "description": "贝尼·古纳万（任期2020-2026）卸任总裁董事，汉迪·B·沙里夫接任；集团Instagram官方账号1月15日发布其对子公司开展首次工作视察（集团LinkedIn账号同期发布致谢前任与祝贺新任帖文）",
+      "impact": "完成五年一次管理层更替，2025年卓越经营业绩（BBMA金奖、鹰航风险成熟度最进步奖）成为交接背景",
+      "source": "https://www.instagram.com/reel/DThnI0OiZ6t/"
+    },
+    {
+      "date": "2025-12-03",
+      "title": "获第13届BUMN品牌与营销大奖金奖",
+      "description": "12月3日在雅加达Hotel Borobudur举行的第13届BUMN Branding and Marketing Award（BBMA）2025上，集团获Global Branding & Marketing Impact on Indonesia类金奖（74家国企及子公司参评）；获奖归功于Aerofood ACS总统府独立庆典配餐、为TNI-POLRI派驻黎巴嫩部队提供旅行服务、物流单元成功转运红毛猩猩Dodo等贡献；由时任Aerofood ACS代理总裁董事Yanti Herlina Siregar领奖（官网12月5日报道）",
+      "impact": "品牌影响力获国企系统权威认可；另获鹰航颁发的风险成熟度指数最进步奖",
+      "source": "https://www.aerowisata.com/id/aerowisata-raih-penghargaan-impact-on-indonesia-di-bumn-branding-marketing-award-bbma-2025/"
+    },
+    {
+      "date": "2025-10-20",
+      "title": "集团协同参与Garuda Indonesia Travel Fair 2025",
+      "description": "旗下酒店、配餐、旅行、交通、物流各单元在鹰航旅游展（GATF 2025）中协同推出联合促销（官网10月20日报道）",
+      "impact": "延续集团B2C协同营销节奏，为2026年GATF/GUTF参展奠定模式",
+      "source": "https://www.aerowisata.com/id/category/berita-id/"
+    },
+    {
+      "date": "2025-06-30",
+      "title": "迎52周年司庆",
+      "description": "公司迎来成立52周年（1973年6月30日鹰航设立）；官网发布周年报道，首页以13家公司、52年经验、5大业务线概括集团现状",
+      "impact": "佐证1973-06-30成立日期，52年连续运营凸显行业地位",
+      "source": "https://www.aerowisata.com/id/"
+    },
+    {
+      "date": "2025-03-21",
+      "title": "开斋节高峰季：酒店入住率预期73%、日供5.8万份航空餐",
+      "description": "3月21日至4月14日开斋节高峰期间，Aerowisata Hotels & Resorts预期平均入住率达73%（巴厘、巴布亚等目的地国内客源旺盛）；Aerofood ACS日产航空餐提量30%至5.8万份（2024年同期43,383份）；Aerotrans投入5辆巴士支持政府国企免费返乡计划（服务220名旅客）",
+      "impact": "显示国内旅游与航空配餐需求双旺，多业务线协同应对季节性高峰",
+      "source": "https://www.aerowisata.com/id/aerowisata-group-siap-sambut-peak-season-lebaran-2025/"
+    },
+    {
+      "date": "2021-06-01",
+      "title": "向Wika Realty移交一家酒店",
+      "description": "作为政府整合国有企业酒店资产努力的一部分，公司于2021年6月正式将旗下一家酒店移交给Wika Realty",
+      "impact": "反映印尼国企酒店资产向Hotel Indonesia Natour等主体集中的政策方向",
+      "source": "https://id.wikipedia.org/wiki/Aerowisata"
+    },
+    {
+      "date": "2019-01-01",
+      "title": "与Citilink成立包机合资公司",
+      "description": "与同为鹰航集团的Citilink成立合资公司PT Garuda Indonesia Air Charter（GIA Charter），提供飞机租赁/包机服务",
+      "impact": "拓展航空包机业务版图",
+      "source": "https://id.wikipedia.org/wiki/Aerowisata"
+    },
+    {
+      "date": "2018-01-01",
+      "title": "成为2018年亚残运会运动员餐饮供应商",
+      "description": "旗下Aerofood ACS被指定为在印尼举办的2018年Asian Para Games参会运动员餐饮供应商，并在芝勒贡、Jatake、芝卡朗开设三处卫星厨房",
+      "impact": "体现其大型活动配餐保障能力",
+      "source": "https://id.wikipedia.org/wiki/Aerowisata"
+    },
+    {
+      "date": "2017-01-01",
+      "title": "在成都设立Garuda Orient Holidays China",
+      "description": "公司开设Garuda Orient Holidays China作为在中国成都的旅游套餐销售机构",
+      "impact": "深化面向中国出境游客的旅游分销布局",
+      "source": "https://id.wikipedia.org/wiki/Aerowisata"
+    },
+    {
+      "date": "2005-01-01",
+      "title": "成立货运子公司Aerojasa Cargo",
+      "description": "成立PT Aerojasa Cargo提供货运发送服务",
+      "impact": "将物流确立为公司五大业务板块之一",
+      "source": "https://id.wikipedia.org/wiki/Aerowisata"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-SOE-004",
+      "org_name": "印尼鹰航 (PT Garuda Indonesia (Persero) Tbk)",
+      "org_type": "SOE",
+      "org_description": "印尼国有旗舰航空公司，1973年设立本公司；2026年2月由总裁董事Glenny Kairupan代表股东方签署与BPMI的合作备忘录",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼航空食品有限公司 (PT Aerofood Indonesia)",
+      "org_type": "CORP",
+      "org_description": "航空配餐子公司（Aerofood ACS），为40余条国内国际航线供餐并承接总统专机、国宴与大型活动配餐；2026年7月总裁董事由Christopher Supit接任",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼航空酒店管理公司 (PT Aero Hotel Management)",
+      "org_type": "CORP",
+      "org_description": "酒店管理子公司，运营Prama、Kila、Asana三品牌；截至2026年管理Prama Sanur Beach Bali、Asana Biak Papua、Asana Sincerity Dorm三家酒店",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼航空旅游公司 (PT Aero Globe Indonesia)",
+      "org_type": "CORP",
+      "org_description": "旅行与票务子公司，前身为鹰航1974年设立的Biro Perjalanan Wisata Satriavi（2008年更名），经营Aerotravel、AeroMICE、Aerohajj及Garuda Orient Holidays海外网点；现任董事Ferry Toga",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼航空运输服务公司 (PT Aerotrans Services Indonesia)",
+      "org_type": "CORP",
+      "org_description": "陆路交通与车辆租赁子公司（前身1988年设立的PT Mandira Erajasa Wahana），经营Aerotrans/AeroExpress；现任董事Kadek Bayu Temaja",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼航空货运公司 (PT Aerojasa Cargo)",
+      "org_type": "CORP",
+      "org_description": "货运物流子公司，成立于2005年，运营KirimAja快递品牌；2026年8月完成董事交接",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "米塔萨里酒店开发公司 (PT Mirtasari Hotel Development)",
+      "org_type": "CORP",
+      "org_description": "酒店资产持有子公司，1980年被收购（旗下巴厘岛Sanur海滩酒店，现Prama Sanur Beach Bali）；现任董事Rizkan Hasana",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "连城航空 (Citilink)",
+      "org_type": "CORP",
+      "org_description": "同属鹰航集团的低成本航空，2019年与本公司共同成立GIA Charter包机合资公司",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "维卡房地产 (Wika Realty)",
+      "org_type": "CORP",
+      "org_description": "国企Wika旗下房地产企业，2021年按国企酒店资产整合政策接收Aerowisata一家酒店",
+      "relationship_type": "partner"
+    }
+  ],
+  "profile": {
+    "source_url": "https://id.wikipedia.org/wiki/Aerowisata",
+    "local_path": null
+  },
+  "core_business": "PT Aero Wisata（品牌名Aerowisata）是印尼国有旗舰航空鹰航（Garuda Indonesia）旗下专注旅游与物流的子公司，1973年6月30日由鹰航设立，2025年迎来52周年司庆，是印尼酒店与航空服务业的先行者。官网显示集团整合13家公司、五大业务线：一是餐饮服务（PT Aerofood Indonesia，品牌Aerofood ACS，沿革可溯至1974年与香港怡和合营的Aero Garuda Dairy Farm，为40余条国内国际航线的航班提供配餐，并承接总统府国宴、总统专机、亚残运会等大型活动餐饮）；二是酒店（PT Aero Hotel Management，运营Prama五星、Kila四星、Asana三星三品牌，截至2026年管理巴厘岛Prama Sanur Beach、比亚克Asana Biak Papua、雅加达Asana Sincerity Dorm三家酒店，2016年国企酒店整合前曾管理七家）；三是旅行服务（PT Aero Globe Indonesia/Aerotravel，含AeroMICE会奖与Aerohajj朝觐，为IATA、PATA、AFTA、JATA、ASITA成员，海外设Garuda Orient Holidays悉尼、奥克兰、洛杉矶、首尔、东京及中国成都等网点）；四是陆路交通（Aerotrans/AeroExpress，1988年以Mandira Erajasa Wahana起步，经营车辆巴士租赁与Starbeng维修车间）；五是物流（PT Aerojasa Cargo，快递品牌KirimAja，覆盖国内外寄递）。2019年营收3.34万亿印尼盾、净利润1001.2亿盾、总资产4.107万亿盾、员工10,975人；2019年与兄弟公司Citilink合资成立PT Garuda Indonesia Air Charter经营包机；2025年获BUMN品牌与营销大奖金奖。公司实际控制人为印尼政府（经鹰航间接持有）。",
+  "industries": [
+    "hospitality_tourism",
+    "tourism",
+    "food_beverage",
+    "logistics_warehousing",
+    "transportation"
+  ],
+  "apec_stance": "Aerowisata作为印尼国企鹰航集团成员，业务网络广泛覆盖APEC经济体：旗下Garuda Orient Holidays自1981年起先后在澳大利亚悉尼（1981）、新西兰奥克兰与美国洛杉矶（1986）设点，2008-2010年增设韩国首尔、日本东京/大阪网点，2017年在中国成都设立Garuda Orient Holidays China，销售赴印尼旅游产品，直接服务APEC区域人员往来与旅游产业合作。其航空配餐（Aerofood ACS）、包机（GIA Charter）与旅游业务支撑印尼作为APEC成员的旅游业与航空服务经济；2026年承接白俄罗斯总统访印尼专机配餐、连续服务独立日国宴等，体现其在国际政要接待链条中的作用；并参与服务2018年亚残运会等区域大型活动，与 region 内航空、酒店、旅游企业形成供应链协作。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 58,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q4688506"
+      "official_website",
+      "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q4688506; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Aerowisata - 印尼语维基百科",
+        "url": "https://id.wikipedia.org/wiki/Aerowisata"
+      },
+      {
+        "title": "Aerowisata官网 - 公司历史",
+        "url": "https://www.aerowisata.com/id/sejarah-perusahaan/"
+      },
+      {
+        "title": "Aerowisata官网首页（13家公司/5大业务线/52年/页脚社媒）",
+        "url": "https://www.aerowisata.com/id/"
+      },
+      {
+        "title": "Aerowisata Hotels & Resorts - About",
+        "url": "https://www.aerowisatahotels.com/about"
+      },
+      {
+        "title": "Aerowisata官网 - 现任董事会与子公司管理层 (Susunan Direksi)",
+        "url": "https://www.aerowisata.com/id/board/"
+      },
+      {
+        "title": "Aerowisata官网 - RUPSLB管理层变更公告（2026-07-16）",
+        "url": "https://www.aerowisata.com/id/perubahan-susunan-pengurus-perseroan-pt-aero-wisata/"
+      },
+      {
+        "title": "Aerowisata官网新闻 - 获BBMA 2025金奖（2025-12-05）",
+        "url": "https://www.aerowisata.com/id/aerowisata-raih-penghargaan-impact-on-indonesia-di-bumn-branding-marketing-award-bbma-2025/"
+      },
+      {
+        "title": "Aerowisata官网新闻 - GATF与GUTF 2026参展（2026-09-01）",
+        "url": "https://www.aerowisata.com/aerowisata-group-meriahkan-gatf-dan-gutf-2026-hadirkan-beragam-penawaran-dan-kolaborasi/"
+      },
+      {
+        "title": "Aerowisata官网新闻 - 与BPMI签署合作备忘录（2026-02-23）",
+        "url": "https://www.aerowisata.com/id/sambut-ramadhan-garuda-indonesia-group-melalui-aerowisata-gandeng-masjid-istiqlal/"
+      },
+      {
+        "title": "Aerowisata官网新闻 - Aerofood Indonesia董事交接（2026-07-13）",
+        "url": "https://www.aerowisata.com/id/serah-terima-jabatan-direksi-pt-aerofood-indonesia-3/"
+      },
+      {
+        "title": "Aerofood ACS官网 - 白俄罗斯总统专机配餐（2026-07-02）",
+        "url": "https://aerowisatafood.com/en/news/2026/07/aerofood-acs-supports-presidential-aircraft-catering-services-for-the-president-of-belarus-visit-to-indonesia/"
+      },
+      {
+        "title": "Aerowisata官网新闻 - 开斋节高峰季备战（2025）",
+        "url": "https://www.aerowisata.com/id/aerowisata-group-siap-sambut-peak-season-lebaran-2025/"
+      }
+    ],
+    "notes": "P3深度丰富（2026-09-17）：官网董事会页确认现任总裁董事已由Beni Gunawan（任期2020-2026，2026年1月卸任）更替为Handi B. Syarif，原董事长Irfan Setiaputra（2024年11月卸任鹰航总裁董事后）不再列入监事会，二人改为前职条目；新增现任董事与监事5人（新发现人员person_id写null待主会话分配）。新增2025-2026年recent_events 12条（官网新闻列表、Aerofood官网、Instagram/LinkedIn官方账号交叉核实，含2026年6条）。related_entities迁移为schema标准字段：鹰航命中索引ID-SOE-004，Citilink/Wika Realty/各子公司未命中写null；新增Aero Globe Indonesia与Mirtasari Hotel Development两家子公司。data_sources由URL列表改为schema枚举值。成立日期1973-06-30以官网52周年司庆（2025-06-30）三重确认。Facebook账号aero.wisata.7本轮未能在官网页脚复核，标注待查证。"
   }
 }

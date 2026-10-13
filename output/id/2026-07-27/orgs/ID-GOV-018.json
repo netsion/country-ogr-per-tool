@@ -3,86 +3,458 @@
   "basic_info": {
     "org_id": "ID-GOV-018",
     "wikidata_qid": "Q3957044",
+    "name_original": "Direktorat Jenderal Imigrasi Kementerian Imigrasi dan Pemasyarakatan Republik Indonesia",
+    "name_zh": "移民总局",
     "name_en": "Directorate General of Immigration",
-    "name_zh": "移民总署",
-    "name_local": "Direktorat Jenderal Imigrasi Kementerian Hukum dan HAM Indonesia",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://www.imigrasi.go.id",
-    "official_website": "https://www.imigrasi.go.id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "founded_date": "1950-01-26",
     "country_iso3": "IDN",
-    "name_original": "Direktorat Jenderal Imigrasi Kementerian Hukum dan HAM Indonesia"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.imigrasi.go.id",
+    "org_type": "GOV",
+    "org_subtype": "gov_department"
   },
-  "description": "印度尼西亚 政府机构",
-  "brief": "印度尼西亚 政府机构",
-  "mission": null,
-  "core_business": "印度尼西亚 政府机构",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "twitter_x",
+      "account_name": "ditjen_imigrasi",
       "url": "https://twitter.com/ditjen_imigrasi",
-      "source": "wikidata",
-      "account_name": "ditjen_imigrasi"
+      "source": "wikidata"
     },
     {
       "platform": "instagram",
+      "account_name": "ditjen_imigrasi",
       "url": "https://instagram.com/ditjen_imigrasi",
-      "source": "wikidata",
-      "account_name": "ditjen_imigrasi"
+      "source": "wikidata; instagram官方账号页（2026-09核查在线）"
     },
     {
       "platform": "facebook",
+      "account_name": "DitjenImigrasi",
       "url": "https://facebook.com/DitjenImigrasi",
-      "source": "wikidata",
-      "account_name": "DitjenImigrasi"
+      "source": "wikidata; facebook账号页自述'Akun resmi Direktorat Jenderal Imigrasi'（2026-09核查）"
     },
     {
       "platform": "youtube",
-      "url": "https://www.youtube.com/channel/UCgBMrLLtuI2ULWvWQ4CTYOw",
-      "source": "wikidata",
-      "account_name": "UCgBMrLLtuI2ULWvWQ4CTYOw"
+      "account_name": "DitjenImigrasiYoutube",
+      "url": "https://www.youtube.com/c/ditjenimigrasiyoutube",
+      "source": "youtube频道页（@DitjenImigrasiYoutube，公共传播司运营，2026-09核查）"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "ditjen_imigrasi",
+      "url": "https://www.tiktok.com/@ditjen_imigrasi",
+      "source": "TikTok认证账号；移民总局系统'事实核查'页面确认其为唯一官方TikTok账号（2026-09核查）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "dirjenimigrasi",
+      "url": "https://www.instagram.com/dirjenimigrasi",
+      "source": "instagram账号页'Direktur Jenderal Imigrasi (@dirjenimigrasi)'（总司长个人公务账号，2026-09核查）"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "M-Paspor（在线护照申请系统）",
+      "url": "https://m-paspor.imigrasi.go.id",
+      "description": "全国统一的护照在线预约与申请平台",
+      "source": null
+    },
+    {
+      "name": "e-Visa（在线签证申请系统）",
+      "url": "https://evisa.imigrasi.go.id",
+      "description": "印尼签证在线申请与审批系统，含签证申请、缴费（SIMPONI/万事达/Visa）与停留许可在线办理",
+      "source": null
+    },
+    {
+      "name": "E-Visa on Arrival（电子落地签证）",
+      "url": "https://evisa.imigrasi.go.id/web/application_bvk",
+      "description": "落地签证（VoA/BVK）在线预申请渠道，适用于适用国家和地区的旅客入境前在线办理",
+      "source": null
+    },
+    {
+      "name": "SIMKIM 移民管理信息系统",
+      "url": null,
+      "description": "全国移民办公室联网的实时数据库系统，用于护照签发与出入境数据管理，并与iAPI舱单系统对接",
+      "source": null
+    },
+    {
+      "name": "APOA（外国人申报应用，Aplikasi Pelaporan Orang Asing）",
+      "url": "https://apoa.imigrasi.go.id",
+      "description": "外国人居住申报与住宿经营者数据核验应用，为外国人监管行动（如巴厘Dharma Dewata行动）提供数据支撑",
+      "source": null
+    },
+    {
+      "name": "All Indonesia（一体化入境申报系统）",
+      "url": "https://allindonesia.imigrasi.go.id",
+      "description": "入境旅客集成电子申报系统，2026年与iAPI、e-Visa共同构成口岸数字化通关体系",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000617",
+      "name": "亨达尔萨姆·马兰托科 (Hendarsam Marantoko)",
+      "title": "总司长",
+      "title_description": "移民总局局长（Direktur Jenderal Imigrasi），2026年4月1日就任",
+      "description": "2026年3月11日获总统普拉博沃·苏比安托任命为移民总局总司长，同年4月1日由移民与惩戒部部长阿古斯·安德里安托主持就职，接替代理职务的尤尔迪·优斯曼。上任后多次亲赴一线主持外国人监管行动（如2026年8月巴厘岛Dharma Dewata行动），主导移民服务创新（移民服务大厅进商场）并推动在马来西亚的印尼公民遣返工作。官网2026年6月2日官员名录在列。"
+    },
+    {
+      "person_id": "ID-PERSON-000618",
+      "name": "桑迪·安达里亚迪 (Sandi Andaryadi)",
+      "title": "总司秘书",
+      "title_description": "移民总局秘书（Sekretaris Direktorat Jenderal Imigrasi）",
+      "description": "负责总局行政管理与内部协调，官网2026年6月2日官员名录在列。"
+    },
+    {
+      "person_id": "ID-PERSON-000619",
+      "name": "尤尔迪·优斯曼 (Yuldi Yusman)",
+      "title": "移民监管与执法司司长",
+      "title_description": "移民监管与执法司司长（Direktur Pengawasan dan Penindakan Keimigrasian），2025年4月23日至2026年4月1日曾任代理总司长",
+      "description": "2025年4月23日接替萨法尔·M·戈达姆出任代理总司长，任期内移民非税收入创纪录；2026年4月1日亨达尔萨姆·马兰托科正式就任后回任移民监管与执法司司长。"
+    },
+    {
+      "person_id": "ID-PERSON-000620",
+      "name": "埃科·布迪安托 (Eko Budianto)",
+      "title": "签证与旅行证件司司长",
+      "title_description": "签证与旅行证件司司长（Direktur Visa dan Dokumen Perjalanan）",
+      "description": "负责签证政策（含2025年签证分类简化）与护照等旅行证件管理，官网2026年6月2日官员名录在列。"
+    },
+    {
+      "person_id": "ID-PERSON-000621",
+      "name": "苏亨德拉 (Suhendra)",
+      "title": "移民检查场所司司长",
+      "title_description": "移民检查场所司司长（Direktur Tempat Pemeriksaan Imigrasi）",
+      "description": "负责口岸移民检查事务；2026年8月主持与72家中外航空公司推进iAPI实时旅客数据交换系统，并推动All Indonesia一体化申报落地；任内雅加达苏加诺-哈达机场移民服务获2025年、2026年Skytrax全球机场移民服务第10名。"
+    },
+    {
+      "person_id": null,
+      "name": "伊斯·埃迪·埃科·普特拉 (Is Edy Eko Putranto)",
+      "title": "居留许可与移民身份司司长",
+      "title_description": "居留许可与移民身份司司长（Direktur Izin Tinggal dan Status Keimigrasian）",
+      "description": "官网2026年6月2日官员名录在列；其前任贾亚·萨普特拉（Jaya Saputra）调任西爪哇省移民局局长后，于2026年6月被反腐败委员会列为外国人居留许可勒索案嫌疑人。"
+    },
+    {
+      "person_id": null,
+      "name": "阿里夫·穆南达尔 (Arief Munandar)",
+      "title": "移民国际合作与驻外机构管理司司长",
+      "title_description": "移民国际合作与驻外机构管理司司长（Direktur Kerja Sama Keimigrasian dan Bina Perwakilan）",
+      "description": "负责移民领域国际合作与驻外移民专员（Atase Imigrasi）管理，官网2026年6月2日官员名录在列。"
+    },
+    {
+      "person_id": null,
+      "name": "阿古斯·瓦卢约 (Agus Waluyo)",
+      "title": "移民情报司司长",
+      "title_description": "移民情报司司长（Direktur Intelijen Keimigrasian）",
+      "description": "负责移民情报收集分析，为外国人监管与口岸执法提供情报支持，官网2026年6月2日官员名录在列。"
+    },
+    {
+      "person_id": null,
+      "name": "克里兹·普拉塔马 (Qriz Pratama)",
+      "title": "内部合规司司长",
+      "title_description": "内部合规司司长（Direktur Kepatuhan Internal）",
+      "description": "负责总局内部合规与廉政监督，官网2026年6月2日官员名录在列；2026年总司系统腐败案后内部合规职能备受关注。"
+    },
+    {
+      "person_id": null,
+      "name": "奇科·艾哈迈德·穆塔金 (Chicco Ahmad Muttaqin)",
+      "title": "移民信息技术司司长",
+      "title_description": "移民信息技术司司长（Direktur Teknologi Informasi Keimigrasian）",
+      "description": "负责移民信息系统（SIMKIM、e-Visa、M-Paspor、APOA、iAPI对接等）建设与运维，官网2026年6月2日官员名录在列。"
+    },
+    {
+      "person_id": null,
+      "name": "西尔米·卡里姆 (Silmy Karim)",
+      "title": "原总司长（2023-2024）",
+      "title_description": "移民总局前总司长（Direktur Jenderal Imigrasi 2023-2024），后任移民与惩戒部副部长（2024年10月-2026年，现停职）",
+      "description": "生于1974年11月19日，依2022年第165号总统令获任移民总局总司长（2023年就任），任内推动电子签证改革并于2024年7月配合总统推出黄金签证；2024年10月21日改任新设的移民与惩戒部首任副部长。2026年6月3日反腐败委员会（KPK）在西雅加达移民局实施收网行动（OTT）后于当晚向KPK归案，6月4日被列为外国人居留许可勒索案嫌疑人并停止职务，羁押于KPK拘留所候审；案件尚在司法程序中，本人否认有关指控细节未经法院认定。"
+    },
+    {
+      "person_id": null,
+      "name": "萨法尔·M·戈达姆 (Saffar M. Godam)",
+      "title": "原代理总司长（2024-2025）",
+      "title_description": "移民总局代理总司长（Plt. Direktur Jenderal Imigrasi，2024年-2025年4月）",
+      "description": "2024年起任移民总局代理总司长，2025年4月23日由尤尔迪·优斯曼接任；2026年6月4日被反腐败委员会列为外国人居留许可勒索案八名嫌疑人之一，案件尚在司法程序中。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-018-DEPT-001",
+      "name": "总司秘书处 (Sekretariat Direktorat Jenderal)",
+      "head": "桑迪·安达里亚迪 (Sandi Andaryadi)",
+      "description": "负责总局行政管理、财务与人力资源",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-002",
+      "name": "签证与旅行证件司 (Direktorat Visa dan Dokumen Perjalanan)",
+      "head": "埃科·布迪安托 (Eko Budianto)",
+      "description": "负责签证政策与护照等旅行证件的签发管理；2025年6月主导将全国签证类别自133项指数精简为110项",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-003",
+      "name": "移民监管与执法司 (Direktorat Pengawasan dan Penindakan Keimigrasian)",
+      "head": "尤尔迪·优斯曼 (Yuldi Yusman)",
+      "description": "负责外国人监管与移民违法行为执法，主导BSD数据中心工地检查、巴厘Dharma Dewata等外国人监管行动",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-004",
+      "name": "移民国际合作与驻外机构管理司 (Direktorat Kerja Sama Keimigrasian dan Bina Perwakilan)",
+      "head": "阿里夫·穆南达尔 (Arief Munandar)",
+      "description": "负责移民领域国际合作及驻外移民专员（Atase Imigrasi）管理",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-005",
+      "name": "移民情报司 (Direktorat Intelijen Keimigrasian)",
+      "head": "阿古斯·瓦卢约 (Agus Waluyo)",
+      "description": "负责移民情报收集与分析",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-006",
+      "name": "居留许可与移民身份司 (Direktorat Izin Tinggal dan Status Keimigrasian)",
+      "head": "伊斯·埃迪·埃科·普特拉 (Is Edy Eko Putranto)",
+      "description": "负责外国人居留许可与移民身份管理；2026年6月其前任职官员涉居留许可腐败案后处于整改关注焦点",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-007",
+      "name": "移民信息技术司 (Direktorat Teknologi Informasi Keimigrasian)",
+      "head": "奇科·艾哈迈德·穆塔金 (Chicco Ahmad Muttaqin)",
+      "description": "负责移民信息系统建设与运维",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-008",
+      "name": "内部合规司 (Direktorat Kepatuhan Internal)",
+      "head": "克里兹·普拉塔马 (Qriz Pratama)",
+      "description": "负责内部合规与监督",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-018-DEPT-009",
+      "name": "移民检查场所司 (Direktorat Tempat Pemeriksaan Imigrasi)",
+      "head": "苏亨德拉 (Suhendra)",
+      "description": "负责机场、港口等口岸移民检查，推进iAPI与SIMKIM系统对接及All Indonesia一体化申报",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-12",
+      "title": "82名印尼公民自马来西亚移民拘留营遣返回国",
+      "description": "移民与惩戒部通过驻吉隆坡使馆移民专员，自马来西亚森美兰州Semenyih和Beranang移民拘留营分三批次接回82名手续完备的印尼公民（51人自Semenyih、31人自Beranang），此为9月4日部长阿古斯·安德里安托与总司长亨达尔萨姆·马兰托科视察Semenyih拘留营后一周内的落实行动",
+      "impact": "体现总司驻外移民专员体系与马来西亚移民局的协作能力，强化对海外遇困印尼公民的领事-移民保护",
+      "source": "https://www.imigrasi.go.id/siaran_pers/menteri-imipas-penuhin-janji-82-wni-dipulangkan-dari-malaysia"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "总司在万丹BSD数据中心工地查处55名涉违规中国籍人员",
+      "description": "总司调查人员经网络巡逻发现线索后，于9月3日在坦格朗BSD数据城（Sinarmas Plus数据中心及Galeri Smartfren项目）工地开展监管行动，查明55名涉嫌滥用居留许可务工的中国公民：17人被拘留于雅加达移民拘留所，34人被采取护照扣留等行政措施，4人被列入重点关注对象名单；总司长亨达尔萨姆·马兰托科表示监管行动将常态化",
+      "impact": "展示新领导层强化外国人居留合规执法的姿态，回应公众对特定行业外籍劳务违规的关切",
+      "source": "https://www.imigrasi.go.id/siaran_pers/imigrasi-amankan-55-wn-tiongkok-dalam-operasi-pengawasan-di-bsd"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "总司长亲赴巴厘主持Dharma Dewata外国人监管行动",
+      "description": "总司长亨达尔萨姆·马兰托科率队在巴厘岛长谷地区开展夜间外国人巡查，查获5名逾期停留外国人；该专项行动队（Satgas Dharma Dewata）于2026年4月15日正式组建，第一期行动（7月17-30日）查处问题外国人62名，第二期（7月15日-8月16日）查处66名，主要涉及扰乱公共秩序、滥用居留许可与逾期停留，行动与军警、地方治安人员及APOA申报系统联动",
+      "impact": "以旅游重镇为重点的外国人监管常态化，提升旅游区安全指标，同时强化对住宿经营者的申报合规要求",
+      "source": "https://www.imigrasi.go.id/siaran_pers/dirjen-imigrasi-pimpin-langsung-operasi-pengawasan-orang-asing-dharma-dewata-di-bali-lima-wna-diamankan"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "推进iAPI实时旅客数据交换系统并获Skytrax全球十佳",
+      "description": "总司在2026年口岸移民检查战略议题社会化活动中，与72家中外航空公司讨论实施iAPI（Interactive Advance Passenger Information）实时旅客数据交换，与SIMKIM系统对接实现起飞前电子核验与ok/not-ok to board反馈，并同步推进All Indonesia一体化入境申报；雅加达苏加诺-哈达机场移民服务在2025年和2026年Skytrax世界机场奖中位列全球机场移民服务第10名",
+      "impact": "口岸通关数字化与风险前置拦截能力提升，国际服务水准获第三方认可",
+      "source": "https://www.imigrasi.go.id/siaran_pers/pertukaran-data-penumpang-real-time-dengan-maskapai-dukung-pemeriksaan-keimigrasian-lebih-cepat-dan-efisien"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "KPK将前副部长兼前总司长西尔米·卡里姆等8名官员列为外国人居留许可案嫌疑人",
+      "description": "反腐败委员会（KPK）6月3日在西雅加达移民局实施收网行动（OTT）并带回17人后，6月4日宣布将8人列为嫌疑人，包括停职副部长、前总司长西尔米·卡里姆（Silmy Karim）、前代理总司长萨法尔·M·戈达姆及居留许可司系统多名现前任官员，西尔米于6月3日晚归案。KPK指称2022-2026年间总司及部级系统人员经'配额'分成收受外国人（WNA）居留许可办理好处费至少1455亿印尼盾，金融交易报告与分析中心（PPATK）追溯2019-2025年35名部级系统员工96个账户共3667亿盾异常流水；嫌疑人已羁押于KPK拘留所，依《反腐败法》第12条e款等追诉",
+      "impact": "移民总局居留许可管理系统公信力严重受损，多名前现任官员被停职收押；总局进入系统整改与流程电子化重估期，内部合规司职能承压",
+      "source": "https://nasional.kompas.com/read/2026/06/04/17114431/kpk-silmy-karim-minta-jatah-pengurusan-izin-tinggal-wna（另见BBC印尼文版：https://www.bbc.com/indonesia/articles/cpvp93xyr8go）"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "亨达尔萨姆·马兰托科正式就任移民总局总司长",
+      "description": "移民与惩戒部部长阿古斯·安德里安托在雅加达主持就职典礼，亨达尔萨姆·马兰托科正式出任移民总局总司长（2026年3月11日获总统普拉博沃任命），接替自2025年4月起代理职务的尤尔迪·优斯曼；同场就职的还有部长公共服务与法律改革专家顾问伊万·桑托索",
+      "impact": "结束近一年的代理总司长状态，领导层稳定后随即展开外国人居留合规整治与服务体系重塑",
+      "source": "https://atambua.imigrasi.go.id/berita-utama/menteri-imipas-lantik-dirjen-imigrasi-serta-staf-ahli-menteri-bidang-pelayanan-publik-dan-reformasi-hukum-wajah-baru-kepemimpinan-dorong-perubahan（另见Tempo：https://www.tempo.co/hukum/dirjen-imigrasi-baru-hendarsam-marantoko-dilantik-1-april-2122793）"
+    },
+    {
+      "date": "2025-06-13",
+      "title": "签证分类体系改革：类别自133项精简为110项",
+      "description": "总司宣布实施新签证分类政策，将印尼签证从133项指数精简重组为110项（以C系列访问签证、E系列有限停留签证为主体，含E23、E28A、E33等子类），统一经evisa.imigrasi.go.id在线受理；该分类后经2025年第M.IP-08.GR.01.01号移民与惩戒部部长令固化",
+      "impact": "签证体系透明度与办理效率提升，为投资、数字人才与旅游签证便利化奠定框架",
+      "source": "https://www.imigrasi.go.id/siaran_pers/2025/06/13/ditjen-imigrasi-terapkan-kebijakan-terbaru-tentang-klasifikasi-visa（另见detikcom：https://news.detik.com/berita/d-7965759/ditjen-imigrasi-sederhanakan-klasifikasi-visa-ri-untuk-optimalkan-pelayanan）"
+    },
+    {
+      "date": "2025-04-23",
+      "title": "尤尔迪·优斯曼出任代理总司长",
+      "description": "原任移民监管与执法司司长的尤尔迪·优斯曼接替萨法尔·M·戈达姆出任代理总司长，任期内非税收入创下纪录",
+      "impact": "领导层更替期间保持移民服务与执法工作连续性",
+      "source": "https://www.imigrasi.go.id/siaran_pers/yuldi-yusman-gantikan-saffar-m-godam-sebagai-plt-dirjen-imigrasi"
+    },
+    {
+      "date": "2024-10-21",
+      "title": "随新内阁改组划入新成立的移民与惩戒部",
+      "description": "根据2024年第157号总统条例，印尼成立移民与惩戒部（Kementerian Imigrasi dan Pemasyarakatan），移民总局由法律与人权部划归该部领导；原总司长西尔米·卡里姆改任该部副部长",
+      "impact": "移民事务升格为独立部会管辖，移民总局成为其一级行政单元",
+      "source": "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Imigrasi"
+    },
+    {
+      "date": "2024-07-25",
+      "title": "黄金签证（Golden Visa）正式推出",
+      "description": "总统佐科·维多多在雅加达正式发布由移民总局运营的黄金签证，面向投资者、全球人才、数字游牧者、研究者与侨民群体提供5-10年长期居留便利，时任总司长西尔米·卡里姆主持项目说明",
+      "impact": "以居留便利吸引长期资本与人才，成为总司居留许可产品体系的高端线",
+      "source": "https://www.imigrasi.go.id/siaran_pers/2024/07/25/golden-visa-resmi-diluncurkan-presiden-ri-privilese-emas-bagi-warga-dunia-berkualitas（另见总统秘书处：https://www.setkab.go.id/presiden-tegaskan-golden-visa-untuk-mudahkan-wna-berinvestasi-di-indonesia/）"
+    },
+    {
+      "date": "2016-00-00",
+      "title": "对169个国家实施免签政策",
+      "description": "依据2016年第21号总统条例等法规，印尼对169个国家和地区的游客实施短期访问免签，并推出多次入境访问签证",
+      "impact": "显著便利国际旅客入境，支撑旅游业与经贸人员往来",
+      "source": "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Imigrasi"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ID-GOV-014",
+      "org_name": "印度尼西亚法律、人权、移民与惩戒事务统筹部 (Kemenko Kumham Imipas)",
+      "org_type": "GOV",
+      "org_description": "依据2024年第142号总统条例设立的内阁级统筹部门，统筹法律部、人权部与移民与惩戒部三个部委的政策协同",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚移民与惩戒部 (Kementerian Imigrasi dan Pemasyarakatan)",
+      "org_type": "GOV",
+      "org_description": "2024年第157号总统条例设立的部委，移民总局的直接上级机关，部长阿古斯·安德里安托（Agus Andrianto），副部长西尔米·卡里姆2026年6月被停职",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚法律与人权部 (Kementerian Hukum dan HAM)",
+      "org_type": "GOV",
+      "org_description": "移民总局2024年机构改革前的原上级主管部委，改革后拆分为法律部、人权部与移民与惩戒部",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "移民理工学院/移民学院 (Politeknik Imigrasi / Akademi Imigrasi)",
+      "org_type": "GOV",
+      "org_description": "移民系统内官员培养培训机构（官网关联站点列示Politeknik Imigrasi，维基百科参见条目列有移民学院AIM）",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚外交部 (Kementerian Luar Negeri)",
+      "org_type": "GOV",
+      "org_description": "驻外使领馆承担签证签发，总司在全球派驻23名移民专员（Atase Imigrasi），包括驻北京使馆及驻广州、驻香港总领馆",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "印度尼西亚国民警察 (Polri)",
+      "org_type": "GOV",
+      "org_description": "在外国人监管联合行动（如巴厘Dharma Dewata行动与地方外国人巡查）中与总司及军警系统协同执法",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-035",
+      "org_name": "印度尼西亚反腐败委员会 (Komisi Pemberantasan Korupsi)",
+      "org_type": "GOV",
+      "org_description": "独立反腐败执法机构；2026年6月对总司系统外国人居留许可勒索案立案侦办，多名前现任官员被列为嫌疑人，总司配合调查与整改",
+      "relationship_type": "regulated_by"
+    }
+  ],
+  "core_business": "印度尼西亚移民总局（Direktorat Jenderal Imigrasi，简称Ditjen Imigrasi）是印尼主管移民事务的中央行政机构，渊源可追溯至1913年荷属东印度政府设立的移民委员会秘书处，1950年1月26日自荷兰殖民当局正式移交印尼政府，1966年11月3日升格为总司级机构，现依据2024年第157号总统条例隶属移民与惩戒部，在法律、人权、移民与惩戒事务统筹部的政策协调框架下运行，总部位于雅加达南部库宁冈H.R. Rasuna Said大道Kav.X-6。其法定职能为制定并执行移民领域政策与技术标准，涵盖：签发印尼护照与APEC商务旅行卡等旅行证件、签证审批与免签政策执行（含黄金签证、全球公民服务等居留产品）、外国人居留许可与身份管理、移民情报与执法、出入境口岸检查、移民国际合作与驻外机构管理。总司下设总司秘书处及签证与旅行证件、移民监管与执法、国际合作与驻外机构管理、移民情报、居留许可与移民身份、移民信息技术、内部合规、移民检查场所等9个司局，全国设有33个省级移民处、151个移民办公室和13个移民拘留所，并在包括中国（驻北京使馆及广州、香港总领馆）在内的14个国家和地区派驻23名移民专员。总司运营SIMKIM移民管理信息系统实现全国业务实时联网，通过M-Paspor、e-Visa、电子落地签、APOA外国人申报、All Indonesia一体化入境申报等平台提供全流程数字服务，并与航空公司推进iAPI实时旅客数据交换；2025年6月将签证类别从133项精简为110项，2025与2026年雅加达苏加诺-哈达机场移民服务连续获Skytrax全球机场移民服务第10名。",
+  "industries": [
+    "civil_service"
+  ],
+  "apec_stance": "印尼是APEC成员经济体，移民总局作为其移民主管机关直接经办APEC商务旅行卡（Kartu Perjalanan Bisnis APEC）的申请与签发，为区域内商务人员往来提供多次入境便利；同时通过169国免签、电子签证与电子落地签等政策服务APEC区域旅客，并以黄金签证、E系列居留签证吸引区域投资与数字人才。总司亦在东盟框架下参与人员流动便利化合作，并与包括中国在内的APEC经济体开展移民双边合作（在北京使馆及广州、香港总领馆派驻移民专员），2026年以来通过iAPI舱单系统与口岸数字化建设强化区域旅行安全与通关效率。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 58,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
+      "https://atambua.imigrasi.go.id/berita-utama/menteri-imipas-lantik-dirjen-imigrasi-serta-staf-ahli-menteri-bidang-pelayanan-publik-dan-reformasi-hukum-wajah-baru-kepemimpinan-dorong-perubahan",
+      "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Imigrasi",
+      "https://kemenimipas.go.id/profil/pimpinan-unit-utama/direktorat-jenderal-imigrasi",
+      "https://nasional.kompas.com/read/2026/06/04/17114431/kpk-silmy-karim-minta-jatah-pengurusan-izin-tinggal-wna",
+      "https://news.detik.com/berita/d-7965759/ditjen-imigrasi-sederhanakan-klasifikasi-visa-ri-untuk-optimalkan-pelayanan",
+      "https://www.bbc.com/indonesia/articles/cpvp93xyr8go",
+      "https://www.imigrasi.go.id/",
+      "https://www.imigrasi.go.id/pejabat",
+      "https://www.imigrasi.go.id/profile/tugas-dan-fungsi",
+      "https://www.imigrasi.go.id/siaran_pers/2024/07/25/golden-visa-resmi-diluncurkan-presiden-ri-privilese-emas-bagi-warga-dunia-berkualitas",
+      "https://www.imigrasi.go.id/siaran_pers/2025/06/13/ditjen-imigrasi-terapkan-kebijakan-terbaru-tentang-klasifikasi-visa",
+      "https://www.imigrasi.go.id/siaran_pers/dirjen-imigrasi-pimpin-langsung-operasi-pengawasan-orang-asing-dharma-dewata-di-bali-lima-wna-diamankan",
+      "https://www.imigrasi.go.id/siaran_pers/imigrasi-amankan-55-wn-tiongkok-dalam-operasi-pengawasan-di-bsd",
+      "https://www.imigrasi.go.id/siaran_pers/menteri-imipas-penuhin-janji-82-wni-dipulangkan-dari-malaysia",
+      "https://www.imigrasi.go.id/siaran_pers/pertukaran-data-penumpang-real-time-dengan-maskapai-dukung-pemeriksaan-keimigrasian-lebih-cepat-dan-efisien",
+      "https://www.imigrasi.go.id/siaran_pers/yuldi-yusman-gantikan-saffar-m-godam-sebagai-plt-dirjen-imigrasi",
+      "https://www.setkab.go.id/presiden-tegaskan-golden-visa-untuk-mudahkan-wna-berinvestasi-di-indonesia/",
+      "https://www.tempo.co/hukum/dirjen-imigrasi-baru-hendarsam-marantoko-dilantik-1-april-2122793",
+      "https://www.tiktok.com/@ditjen_imigrasi",
       "https://www.wikidata.org/wiki/Q3957044"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q3957044; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Profil Pejabat – Direktorat Jenderal Imigrasi（官网现任领导人名录，2026-06-02更新）",
+        "url": "https://www.imigrasi.go.id/pejabat"
+      },
+      {
+        "title": "Tugas dan Fungsi – Direktorat Jenderal Imigrasi（官网职能说明）",
+        "url": "https://www.imigrasi.go.id/profile/tugas-dan-fungsi"
+      },
+      {
+        "title": "Direktorat Jenderal Imigrasi – Wikipedia bahasa Indonesia（历史沿革与组织架构）",
+        "url": "https://id.wikipedia.org/wiki/Direktorat_Jenderal_Imigrasi"
+      },
+      {
+        "title": "Yuldi Yusman Gantikan Saffar M. Godam sebagai Plt. Dirjen Imigrasi（官网新闻稿）",
+        "url": "https://www.imigrasi.go.id/siaran_pers/yuldi-yusman-gantikan-saffar-m-godam-sebagai-plt-dirjen-imigrasi"
+      },
+      {
+        "title": "KPK: Silmy Karim Minta Jatah Pengurusan Izin Tinggal WNA（Kompas.com，2026-06-04，KPK新闻发布会报道）",
+        "url": "https://nasional.kompas.com/read/2026/06/04/17114431/kpk-silmy-karim-minta-jatah-pengurusan-izin-tinggal-wna"
+      },
+      {
+        "title": "Wamen Imigrasi Silmy Karim jadi tersangka, KPK ungkap modus pemerasan hingga Rp366 miliar（BBC News Indonesia，2026-06-04）",
+        "url": "https://www.bbc.com/indonesia/articles/cpvp93xyr8go"
+      },
+      {
+        "title": "Dirjen Imigrasi Baru Hendarsam Marantoko Dilantik 1 April（Tempo.co，2026-03-11报道总统任命）",
+        "url": "https://www.tempo.co/hukum/dirjen-imigrasi-baru-hendarsam-marantoko-dilantik-1-april-2122793"
+      },
+      {
+        "title": "Menteri Imipas Lantik Dirjen Imigrasi serta Staf Ahli Menteri Bidang Pelayanan Publik dan Reformasi Hukum（移民总局阿坦布阿分局官网转载，2026-04-01就职）",
+        "url": "https://atambua.imigrasi.go.id/berita-utama/menteri-imipas-lantik-dirjen-imigrasi-serta-staf-ahli-menteri-bidang-pelayanan-publik-dan-reformasi-hukum-wajah-baru-kepemimpinan-dorong-perubahan"
+      },
+      {
+        "title": "Imigrasi Amankan 55 WN Tiongkok Dalam Operasi Pengawasan di BSD（移民总局官网新闻稿，2026-09-04）",
+        "url": "https://www.imigrasi.go.id/siaran_pers/imigrasi-amankan-55-wn-tiongkok-dalam-operasi-pengawasan-di-bsd"
+      },
+      {
+        "title": "Ditjen Imigrasi Terapkan Kebijakan Terbaru tentang Klasifikasi Visa（移民总局官网新闻稿，2025-06-13，签证类别133→110项）",
+        "url": "https://www.imigrasi.go.id/siaran_pers/2025/06/13/ditjen-imigrasi-terapkan-kebijakan-terbaru-tentang-klasifikasi-visa"
+      },
+      {
+        "title": "Golden Visa Resmi Diluncurkan, Presiden RI: Privilese Emas bagi Warga Dunia Berkualitas（移民总局官网新闻稿，2024-07-25）",
+        "url": "https://www.imigrasi.go.id/siaran_pers/2024/07/25/golden-visa-resmi-diluncurkan-presiden-ri-privilese-emas-bagi-warga-dunia-berkualitas"
+      },
+      {
+        "title": "Direktorat Jenderal Imigrasi – Kementerian Imigrasi dan Pemasyarakatan（部委官网总司领导与组织页面）",
+        "url": "https://kemenimipas.go.id/profil/pimpinan-unit-utama/direktorat-jenderal-imigrasi"
+      }
+    ],
+    "notes": "P3二次丰富（2026-09-17）：①领导层核实结论——现任总司长为亨达尔萨姆·马兰托科（2026年3月11日总统任命、4月1日就任），官网官员名录（2026-06-02更新）与2026年8-9月官方新闻稿一致；西尔米·卡里姆并非现任总司长，其2023-2024年任总司长、2024年10月21日起任移民与惩戒部副部长，2026年6月3-4日被KPK列为外国人居留许可勒索案嫌疑人并停职（Kompas与BBC双源交叉），相关事件作为机构治理事件收录，遵循无罪推定表述，未收录普通执法个案细节。②key_people扩充至12人：新增5名在任司长（居留许可、国际合作、情报、内部合规、信息技术，均查无既有person_id置null）及前总司长西尔米·卡里姆、前代理总司长萨法尔·戈达姆；原有5人沿用索引命中ID-PERSON-000617~000621；strict模式不再允许appointment_date/source字段，相关信息并入description。③departments补齐9个司局的head（官网名录），related_entities改写为schema格式：ID-GOV-014（统筹部，索引命中）、ID-GOV-035（KPK，索引命中）命中ID，移民与惩戒部/法律人权部/移民学院/外交部/国民警察索引未命中置null（系统性豁免）。④recent_events由3条扩充至11条（2026年6条），social_accounts新增TikTok认证账号与总司长Instagram公务账号并更新YouTube句柄，digital_assets新增APOA、All Indonesia、E-VOA。⑤name_original更新为现隶属表述（Kemenimipas）；新增profile.logo（Wikimedia）。⑥core_business与apec_stance重写扩充，补入总部地址、编制数据（33省级处/151办公室/13拘留所/23驻外专员）、APEC商务旅行卡经办职能及2025-2026年数字化进展。全部关键事实（总司任命、KPK案件、签证改革、黄金签证）均经2个独立来源交叉确认。"
+  },
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Logo_Ditjen_Imigrasi.webp/250px-Logo_Ditjen_Imigrasi.webp",
+    "local_path": null
   }
 }

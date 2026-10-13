@@ -1,63 +1,412 @@
 {
   "org_id": "ID-GOV-007",
+  "wikidata_qid": "Q4121196",
   "basic_info": {
     "org_id": "ID-GOV-007",
-    "wikidata_qid": "Q4121196",
-    "name_en": "Badan Pengawas Tenaga Nuklir",
-    "name_zh": "核能监管局",
-    "name_local": "Badan Pengawas Tenaga Nuklir",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "http://www.bapeten.go.id",
-    "official_website": "http://www.bapeten.go.id",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Badan Pengawas Tenaga Nuklir",
+    "name_zh": "印度尼西亚核能监管机构",
+    "name_en": "Nuclear Energy Regulatory Agency of Indonesia (BAPETEN)",
+    "founded_date": "1998-05-08",
     "country_iso3": "IDN",
-    "name_original": "Badan Pengawas Tenaga Nuklir"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.bapeten.go.id",
+    "org_type": "GOV",
+    "org_subtype": "regulatory_agency"
   },
-  "description": "印度尼西亚非部委政府机构",
-  "brief": "印度尼西亚非部委政府机构",
-  "mission": null,
-  "core_business": "印度尼西亚非部委政府机构",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
-  "social_accounts": [],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "@bapetenRI",
+      "url": "https://x.com/bapetenRI",
+      "source": "官方 X 账号，发布与官网一致的机构新闻（官网页脚 Ikuti Kami 链接）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "@bapeten",
+      "url": "https://www.instagram.com/bapeten/",
+      "source": "官方 Instagram 账号，发布机构活动与科普内容"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "bapeten",
+      "url": "https://www.facebook.com/bapeten/",
+      "source": "官方 Facebook 主页，与官网新闻同步发布"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "BAPETEN RI",
+      "url": "https://www.youtube.com/@bapeten",
+      "source": "官方 YouTube 频道（BAPETEN），发布机构官方视频"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "BAPETEN",
+      "url": "https://www.linkedin.com/company/bapeten",
+      "source": "LinkedIn 公司主页（约 1500 名关注者），机构介绍为非部委政府机构（LPNK）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "BAPETEN 官网",
+      "url": "https://www.bapeten.go.id",
+      "description": "website",
+      "source": null
+    },
+    {
+      "name": "BAPETEN 法规数据库（BPK 国家法规系统）",
+      "url": "https://peraturan.bpk.go.id",
+      "description": "database",
+      "source": null
+    },
+    {
+      "name": "BAPETEN 法规文档管理系统（JDIH BAPETEN）",
+      "url": "https://jdih.bapeten.go.id",
+      "description": "database",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000584",
+      "name": "扎伊纳尔·阿里芬 (Zainal Arifin)",
+      "title": "代理主席 (Plt. Kepala BAPETEN)",
+      "title_description": "现任核能监管机构代理主席，兼任许可与检查司副手",
+      "description": "物理学家出身，拥有 MT 学位，长期任许可与检查司副手（Deputi Bidang Perizinan dan Inspeksi）；据印尼维基百科领导人年表，2025 年 10 月起接替 Sugeng Sumbarjo 以代理主席（Plt.）身份主持机构工作。2026 年 2 月就 Cikande 铯-137 事件出席国会第十二委员会听证，6 月代表机构与新加坡国家环境局签署合作备忘录，并主持 2026 年度核安全检查员年会，提出以监管转型支撑「黄金印尼 2045」。曾代表印尼出席国际原子能机构核安全知识管理技术会议。"
+    },
+    {
+      "person_id": "ID-PERSON-000585",
+      "name": "穆罕默德·里德万 (Mohammad Ridwan)",
+      "title": "总秘书 (Sekretaris Utama)",
+      "title_description": "机构最高行政职务，负责秘书处日常运营",
+      "description": "拥有 S.T.、M.Eng. 学位，系国家人事局（BKN）全国人才流动项目输送的高级公务员，任命前为 BKN ASN 能力评估中心主任（Kepala Pusat Penilaian Kompetensi ASN），2026 年 8 月 4 日正式就任 BAPETEN 总秘书（JPT Madya，BKN 官网报道）。注意：与 BAPETEN 首任主席（1999-2003 在任）Mohammad Ridwan 博士为同名不同人。"
+    },
+    {
+      "person_id": "ID-PERSON-000586",
+      "name": "哈恩德拉·苏贝克蒂 (Haendra Subekti)",
+      "title": "核安全评估副手 (Deputi Bidang Pengkajian Keselamatan Nuklir)",
+      "title_description": "负责核安全与辐射防护技术评估",
+      "description": "自 2023 年 12 月起任核安全评估副手，分管放射性物质使用与核设施的安全审查评估；总秘书职位空缺期间兼任总秘书日常执行（Plh. Sekretaris Utama），主持 JPT 选聘委员会，直至 2026 年 8 月新任总秘书就任。曾多次就 Cikande 铯-137 残留处理、核电人力资源准备等议题公开表态。"
+    },
+    {
+      "person_id": null,
+      "name": "卢克曼·哈基姆 (Lukman Hakim)",
+      "title": "核设施与核材料检查司司长 (Direktur Inspeksi Instalasi dan Bahan Nuklir)",
+      "title_description": "负责核设施与核材料的现场检查与监管执行",
+      "description": "在 2026 年 2 月 BAPETEN 年度核安全检查员会议上代表检查系统作年度工作报告，强调通过人力资源与数字化建设推进可持续监管转型。"
+    },
+    {
+      "person_id": null,
+      "name": "维里约诺 (Wiryono)",
+      "title": "核设施与核材料许可司司长 (Direktur Perizinan Instalasi dan Bahan Nuklir)",
+      "title_description": "负责核设施与核材料的许可审批",
+      "description": "在 2026 年度核安全检查员会议上分享日惹、万隆核设施退役（pembongkaran）监管的经验教训，参与核电许可监管政策实施。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-007-DEPT-001",
+      "name": "总秘书处 (Sekretariat Utama)",
+      "head": null,
+      "description": "负责机构行政协调、人事、财务与一般事务支持；依据机构条例下设规划、信息与财务局（Biro Perencanaan, Informasi, dan Keuangan）、法律、合作与公共传播局（Biro Hukum, Kerja Sama, dan Komunikasi Publik）及组织与总务局（Biro Organisasi dan Umum）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-002",
+      "name": "许可与检查司 (Deputi Bidang Perizinan dan Inspeksi)",
+      "head": null,
+      "description": "负责核能利用活动的许可证审批（perizinan）与现场检查（inspeksi），覆盖医疗、工业、研究等领域放射性物质使用。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-003",
+      "name": "核安全评估司 (Deputi Bidang Pengkajian Keselamatan Nuklir)",
+      "head": null,
+      "description": "负责核安全与辐射防护的技术评估，为许可决定提供安全审查依据。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-004",
+      "name": "监察室 (Inspektorat)",
+      "head": null,
+      "description": "依据 2020 年第 9 号机构条例（Peraturan BAPETEN No. 9/2020）设立的内部监督单位，负责机构内部审计与合规监督。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-005",
+      "name": "放射性设施与放射性物质许可司 (Direktorat Perizinan Fasilitas Radiasi dan Zat Radioaktif)",
+      "head": null,
+      "description": "负责医疗、工业、研究等领域放射性与放射性物质利用设施的许可证审批，属许可与检查司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-002"
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-006",
+      "name": "核设施与核材料许可司 (Direktorat Perizinan Instalasi dan Bahan Nuklir)",
+      "head": "维里约诺 (Wiryono)",
+      "description": "负责核反应堆等核设施与核材料的许可审批，包括 RDE 实验堆与商用核电站的场址、建设、运行各阶段许可，属许可与检查司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-002"
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-007",
+      "name": "放射性设施与放射性物质检查司 (Direktorat Inspeksi Fasilitas RZR)",
+      "head": null,
+      "description": "负责放射性设施与放射性物质使用活动的现场检查与合规监督，属许可与检查司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-002"
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-008",
+      "name": "核设施与核材料检查司 (Direktorat Inspeksi Instalasi dan Bahan Nuklir)",
+      "head": "卢克曼·哈基姆 (Lukman Hakim)",
+      "description": "负责核设施与核材料的现场检查、检查员能力建设与监管数字化，属许可与检查司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-002"
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-009",
+      "name": "核工程技术与应急准备司 (Direktorat Keteknikan dan Kesiapsiagaan Nuklir)",
+      "head": null,
+      "description": "负责核工程技术审查与核应急准备协调职能，属许可与检查司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-002"
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-010",
+      "name": "放射性设施监管体系与技术评估中心 (Pusat Pengkajian Sistem dan Teknologi Pengawasan Fasilitas RZR)",
+      "head": null,
+      "description": "对放射性设施监管开展安全分析与技术评估，支撑放射安全法规与许可决定，属核安全评估司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-003"
+    },
+    {
+      "dept_id": "ID-GOV-007-DEPT-011",
+      "name": "核设施监管体系与技术评估中心 (Pusat Pengkajian Sistem dan Teknologi Pengawasan IBN)",
+      "head": null,
+      "description": "对核设施与核材料监管开展安全分析、审查评估与监管技术研究，属核安全评估司。",
+      "parent_dept_id": "ID-GOV-007-DEPT-003"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-05-20",
+      "title": "保障破产企业放射性废物安全",
+      "description": "针对一家破产企业遗留的放射性物质，BAPETEN 公开确认相关放射性废物处于安全监管之下。",
+      "impact": "展示其在放射源全生命周期监管中的职能履行。",
+      "source": "https://www.antaranews.com/berita/5723320/bapeten-jamin-keselamatan-limbah-radioaktif-dari-perusahaan-pailit"
+    },
+    {
+      "date": "2025-06-30",
+      "title": "发布 2025-2029 年战略计划",
+      "description": "通过《BAPETEN 2025 年第 3 号条例》发布机构 2025-2029 年战略计划（Renstra），规划核能监管的中期目标与绩效指标。",
+      "impact": "为未来五年核能与辐射安全监管提供制度框架。",
+      "source": "https://peraturan.bpk.go.id/Details/331654/peraturan-bapeten-no-3-tahun-2025"
+    },
+    {
+      "date": "2025-07-30",
+      "title": "批准 Thorcon 核电厂场址评价（印尼首座核电站场址许可里程碑）",
+      "description": "经对邦加勿里洞省 Kelasa 岛拟建核电厂（PT Thorcon Power Indonesia，500 MWt 熔盐堆方案）的场址评价，BAPETEN 发布《主席决定书》第 00003.556.1.300725 号（2025 年 7 月 30 日），批准该场址评价，允许项目方继续开展场址研究与监测。",
+      "impact": "印尼核电许可进程的关键节点：首座商用核电站场址评价获批，为后续建设许可奠基。",
+      "source": "https://www.antaranews.com/berita/5021869/bapeten-setujui-evaluasi-tapak-pltn-di-bangka-belitung"
+    },
+    {
+      "date": "2025-10-17",
+      "title": "主持万丹省 Cikande 工业区铯-137 污染去污并解除辐射警示",
+      "description": "10 月 13-17 日对西冷县 Cikande 现代工业区实施 Cs-137 污染源去污行动，第 5 日（17 日）拆除多处点位辐射污染警示牌，监测确认辐射水平已低于本底；受影响的 22 家工厂中 20 家通过「clear and clean」确认，同步开展放射性废物登记、屏蔽与水泥固化、运输车辆监测等处置。该污染源于进口受污染废金属熔炼，由食品统筹部长牵头的全国 Cs-137 处理工作组统筹、BAPETEN 提供技术监管。",
+      "impact": "印尼首例大规模进口废金属放射性污染事件的监管应对，暴露进口放射源管控短板，推动出口放射性和进口检验制度改革。",
+      "source": "https://www.bapeten.go.id/berita/supervisi-dekontaminasi-sumber-cs137-di-kawasan-industri-modern-cikande-banten--hari-ke5-pencabutan-plang-tanda-kontaminasi-radiasi-235419"
+    },
+    {
+      "date": "2025-12-08",
+      "title": "出席 IAEA 核协调与标准化倡议（N-HANS）全体会议",
+      "description": "BAPETEN 代表团由代理主席 Zainal Arifin 率领，出席国际原子能机构第四届 N-HANS 全体会议，会议讨论核监管标准协调进展。",
+      "impact": "体现印尼在核监管国际标准协调中的参与。",
+      "source": "https://www.bapeten.go.id/berita/delegasi-bapeten-hadiri-4th-iaea-nuclear-harmonization-and-standardization-initiative-plenary-meeting-083548"
+    },
+    {
+      "date": "2025-12-20",
+      "title": "举行 Executive Meeting 与 Anugerah BAPETEN 2025 颁奖",
+      "description": "BAPETEN 召开年度工作大会并举行机构颁奖，代理主席 Zainal Arifin 在开幕致辞中提及印尼实现净零排放目标中的核能监管角色。",
+      "impact": "强化机构内部绩效文化与监管能力建设。",
+      "source": "https://www.bapeten.go.id/berita/executive-meeting-dan-anugerah-bapeten-2025-083153?lang=id"
+    },
+    {
+      "date": "2026-01-19",
+      "title": "颁布第 1/2026 号核设施与核材料实体防护体系条例",
+      "description": "《Peraturan BAPETEN Nomor 1 Tahun 2026 tentang Sistem Proteksi Fisik Instalasi Nuklir dan Bahan Nuklir》于 2026 年 1 月 19 日生效，规定核设施全寿期内及核材料运输过程中的实体防护体系要求。",
+      "impact": "衔接《核材料实体保护公约》修订案国际义务，为核电时代核安保监管提供法规基础。",
+      "source": "https://peraturan.bpk.go.id/Details/344440/peraturan-bapeten-no-1-tahun-2026"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "就 Cikande 铯-137 事件出席国会第十二委员会听证",
+      "description": "代理主席 Zainal Arifin 在与国会第十二委员会（Komisi XII DPR RI）的工作听证会上说明：污染源于进口受污染金属在 Cikande 熔炼；已建议受污染货物退运原产国，24 个来自菲律宾的集装箱已退回菲律宾、9 个退回安哥拉；BAPETEN 同时协助虾类与香料出口应对美国 FDA 进口警报所需的免污染认证。",
+      "impact": "国会层面的事件问责与善后；直接处置跨境受污染货物并修复出口贸易影响。",
+      "source": "https://www.cnbcindonesia.com/news/20260210181606-4-709964/badan-nuklir-ri-buka-suara-soal-paparan-cesium-137-di-cikande"
+    },
+    {
+      "date": "2026-02-26",
+      "title": "召开 2026 年度核安全检查员年会",
+      "description": "2 月 25-26 日在雅加达举行，主题为「支撑黄金印尼 2045 的可持续、协同核监管体系转型」。会议讨论第 5/2025 号机构条例实施机制、医疗/工业/辐射防护人员领域许可政策、日惹与万隆核设施退役监管经验、核电站候选场址环境本底监测等；代理主席在开幕致辞中强调安全、安保与保障（safeguards）优先。机构现有检查员约 178 名。",
+      "impact": "检查员队伍能力建设与监管数字化转型，为核电监管扩容做准备。",
+      "source": "https://www.bapeten.go.id/berita/bapeten-dorong-transformasi-pengawasan-berkelanjutan-dalam-pertemuan-tahunan-inspektur-keselamatan-nuklir-ta-2026-145009"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "接受国有检测控股集团 PT IDSurvey 听证，商讨组建技术支持组织（TSO）",
+      "description": "PT IDSurvey（Persero）（旗下含 SUCOFINDO、Surveyor Indonesia、Biro Klasifikasi Indonesia）到访 BAPETEN，就建设独立、胜任的技术支持组织（TSO）支持核电站监管进行接洽，涉及设计评估、测试认证、安全分析等合作方向；BAPETEN 强调合作不得损害监管独立性。",
+      "impact": "为核电监管扩容培育国内技术支撑力量，探索「监管机构+TSO」模式。",
+      "source": "https://www.bapeten.go.id/berita/bapeten-dan-pt-idsurvey-bahas-penguatan-technical-support-organization-untuk-mendukung-pengawasan-pltn-113741"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "与新加坡国家环境局（NEA）签署核监管合作谅解备忘录",
+      "description": "BAPETEN 与新加坡国家环境局（National Environment Agency, NEA）在雅加达 BAPETEN 总部签署为期 5 年的谅解备忘录，由代理主席 Zainal Arifin 与 NEA 行政总裁 Benjamin Koh 代表签署，新加坡可持续发展与环境部长傅海燕（Grace Fu）与新加坡驻印尼大使 Kwok Fook Seng 出席见证。合作涵盖核监管政策、辐射与核能利用监督、放射与核应急准备、环境辐射监测，并将衔接 ASEANTOM（东盟原子能监管机构网络）等区域机制。",
+      "impact": "强化区域核监管合作网络，服务双方各自核电潜力评估与放射安全治理。",
+      "source": "http://www.ogindonesia.com/2026/06/bapeten-dan-nea-singapura-teken-mou.html"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "穆罕默德·里德万正式就任总秘书",
+      "description": "原 BKN ASN 能力评估中心主任 Mohammad Ridwan（S.T., M.Eng.）经 BKN 人才流动项目于 2026 年 8 月 4 日正式就任 BAPETEN 总秘书（JPT Madya），填补总秘书空缺（此前由核安全评估副手 Haendra Subekti 兼任日常执行）。",
+      "impact": "机构最高行政职位补实，高层「代理/兼任」状态结束，人事架构趋于完整。",
+      "source": "https://www.bkn.go.id/bagian-dari-talenta-terbaik-bkn-mohammad-ridwan-jabat-sestama-bapeten/"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "国会第十二委员会批准 BAPETEN 2027 年度预算（RKA-K/L）",
+      "description": "国会第十二委员会批准 BAPETEN 2027 财政年度工作计划与预算（RKA-K/L TA 2027），为机构核电监管能力建设提供资金保障。",
+      "impact": "2027 年度监管工作与核电准备期经费获立法机构确认。",
+      "source": "https://www.bapeten.go.id/berita/komisi-xii-dpr-ri-sahkan-rkakl-bapeten-ta-2027-175334"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "国家研究与创新署 (Badan Riset dan Inovasi Nasional / BRIN)",
+      "org_type": "GOV",
+      "org_description": "2021 年整合原国家原子能机构（BATAN）等研究机构成立，其核能研究组织（ORTN）为印尼核能研发与核设施运营的执行主体",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际原子能机构 (International Atomic Energy Agency / IAEA)",
+      "org_type": "INTL",
+      "org_description": "印尼为其成员国；BAPETEN 作为国家核监管机构接受其 2015 年 IRRS 综合监管评审并参与后续活动，长期在技术合作、培训与标准协调框架下合作",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ID-GOV-028",
+      "org_name": "印度尼西亚人民代表会议 (Dewan Perwakilan Rakyat / DPR RI)",
+      "org_type": "GOV",
+      "org_description": "印尼立法机构；其第十二委员会（Komisi XII）具体负责对 BAPETEN 的预算审批与政策监督，2026 年 2 月就 Cikande 事件举行听证、9 月批准 TA 2027 年度预算",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "新加坡国家环境局 (National Environment Agency / NEA Singapore)",
+      "org_type": "GOV",
+      "org_description": "新加坡辐射安全与核监管主管部门，2026 年 6 月 30 日与 BAPETEN 签署为期 5 年的核监管合作谅解备忘录",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家行政与机构改革部 (Kementerian PANRB)",
+      "org_type": "GOV",
+      "org_description": "负责机构改革与人事事务协调的政府部门",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家能源委员会 (Dewan Energi Nasional / DEN)",
+      "org_type": "GOV",
+      "org_description": "由总统主持的国家能源政策机构，负责国家能源政策（KEN）与能源统筹；BAPETEN 多次出席其核电（PLTN）专题会议，核电已纳入国家能源政策与电力总体规划",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "巴龙邦电力公司 (PT Thorcon Power Indonesia)",
+      "org_type": "CORP",
+      "org_description": "拟在邦加勿里洞省 Kelasa 岛建设 500 MWt 熔盐堆示范核电厂的企业，2025 年 7 月获 BAPETEN 场址评价批准",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼检验控股集团 (PT IDSurvey (Persero))",
+      "org_type": "SOE",
+      "org_description": "2021 年组建的国有检验检测认证（TIC）服务控股集团（旗下 SUCOFINDO、Surveyor Indonesia、Biro Klasifikasi Indonesia），2026 年 6 月就组建核监管技术支持组织（TSO）与 BAPETEN 接洽",
+      "relationship_type": "partner"
+    }
+  ],
+  "profile": {
+    "source_url": "https://www.bapeten.go.id",
+    "summary": "BAPETEN 是印尼总统直属的核能监管非部委机构，1998 年依《核能法》成立，负责核能利用的法规制定、许可审批与检查；现任代理主席 Zainal Arifin，2026 年批准首座核电站（Thorcon，Kelasa 岛）场址评价、处置 Cikande 铯-137 污染事件并与新加坡国家环境局签署合作备忘录。"
+  },
+  "core_business": "BAPETEN（Badan Pengawas Tenaga Nuklir）是印度尼西亚总统直属的非部委政府机构（LPNK），依据 1997 年第 10 号《核能法》及 1998 年第 76 号总统令于 1998 年 5 月 8 日成立、1999 年 1 月 4 日正式运作，总部位于雅加达中区 Gajah Mada 路 8 号。其监管职能可上溯至 1954 年设立的放射性调查国家委员会、1958 年原子能委员会及 1964 年后隶属国家原子能机构（BATAN）的原子能监督局（BPTA），1997 年《核能法》确立监管与运营分离原则后独立建制。法定职能是对印尼境内一切核能利用活动实施监管，涵盖法规制定、许可审批与现场检查三大环节，业务范围包括：放射性与放射性物质利用（医疗、工业、研究、农业）许可与检查；核反应堆设施（含研究堆、实验堆与商用核电站）的场址、建设、运行、退役各阶段许可与监督；放射源与放射性废物全生命周期安全监管；核安保与实体防护；核应急准备与响应协调；以及保障（safeguards）相关职责。机构由一名主席（Kepala）领导，下设总秘书处、许可与检查司（辖放射性与放射性物质许可/检查、核设施与核材料许可/检查、核工程技术与应急准备共 5 个司级单位）与核安全评估司（辖 2 个监管体系与技术评估中心），并设监察室负责内部监督，现有核安全检查员约 178 名。作为国际原子能机构成员国监管机构，BAPETEN 于 2015 年接受 IRRS 综合监管评审，经费列入国家预算（2025 年度预算约 1567 亿印尼盾）。",
+  "industries": [
+    "nuclear_energy"
+  ],
+  "apec_stance": "作为印尼国家核监管机构，BAPETEN 的国际参与以国际原子能机构（IAEA）框架下的核安全与监管标准协调为主，曾出席 IAEA 核协调与标准化倡议（N-HANS）全体会议，并在东盟原子能监管机构网络（ASEANTOM）框架下开展区域合作。2026 年 6 月与新加坡国家环境局（NEA）签署为期 5 年的核监管合作谅解备忘录，同月就俄罗斯浮动式核电机组的监管准备与相关方进行协调，并与亚太经济体开展双边核监管技术交流。印尼是 APEC 成员，BAPETEN 的监管职能客观上服务于区内核能与辐射安全技术规范的联通，但其本身不直接参与 APEC 经贸谈判事务。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 48,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q4121196"
+      "http://www.ogindonesia.com/2026/06/bapeten-dan-nea-singapura-teken-mou.html",
+      "https://id.wikipedia.org/wiki/Badan_Pengawas_Tenaga_Nuklir",
+      "https://id.wikipedia.org/wiki/Daftar_Susunan_Organisasi_Lembaga_Pemerintah_Non_Kementerian",
+      "https://id.wikipedia.org/wiki/Kepala_Badan_Pengawas_Tenaga_Nuklir",
+      "https://peraturan.bpk.go.id/Details/331654/peraturan-bapeten-no-3-tahun-2025",
+      "https://peraturan.bpk.go.id/Details/344440/peraturan-bapeten-no-1-tahun-2026",
+      "https://www.antaranews.com/berita/5021869/bapeten-setujui-evaluasi-tapak-pltn-di-bangka-belitung",
+      "https://www.antaranews.com/berita/5723320/bapeten-jamin-keselamatan-limbah-radioaktif-dari-perusahaan-pailit",
+      "https://www.bapeten.go.id",
+      "https://www.bapeten.go.id/berita/bapeten-dan-pt-idsurvey-bahas-penguatan-technical-support-organization-untuk-mendukung-pengawasan-pltn-113741",
+      "https://www.bapeten.go.id/berita/bapeten-dorong-transformasi-pengawasan-berkelanjutan-dalam-pertemuan-tahunan-inspektur-keselamatan-nuklir-ta-2026-145009",
+      "https://www.bapeten.go.id/berita/komisi-xii-dpr-ri-sahkan-rkakl-bapeten-ta-2027-175334",
+      "https://www.bapeten.go.id/berita/struktur-organisasi-bapeten-114017",
+      "https://www.bapeten.go.id/berita/supervisi-dekontaminasi-sumber-cs137-di-kawasan-industri-modern-cikande-banten--hari-ke5-pencabutan-plang-tanda-kontaminasi-radiasi-235419",
+      "https://www.bkn.go.id/bagian-dari-talenta-terbaik-bkn-mohammad-ridwan-jabat-sestama-bapeten/",
+      "https://www.cnbcindonesia.com/news/20260210181606-4-709964/badan-nuklir-ri-buka-suara-soal-paparan-cesium-137-di-cikande",
+      "https://www.linkedin.com/company/bapeten",
+      "https://www.menpan.go.id/site/berita-foto/audiensi-plt-kepala-bapeten-1"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q4121196; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "BAPETEN — 印尼语维基百科（成立日期、法律依据、组织架构）",
+        "url": "https://id.wikipedia.org/wiki/Badan_Pengawas_Tenaga_Nuklir"
+      },
+      {
+        "title": "BAPETEN 官网 — 组织结构与领导简介",
+        "url": "https://www.bapeten.go.id/berita/struktur-organisasi-bapeten-114017"
+      },
+      {
+        "title": "Peraturan BAPETEN No. 3 Tahun 2025（2025-2029 战略计划）",
+        "url": "https://peraturan.bpk.go.id/Details/331654/peraturan-bapeten-no-3-tahun-2025"
+      },
+      {
+        "title": "Antara News — BAPETEN 保障破产企业放射性废物安全报道",
+        "url": "https://www.antaranews.com/berita/5723320/bapeten-jamin-keselamatan-limbah-radioaktif-dari-perusahaan-pailit"
+      },
+      {
+        "title": "Antara News — BAPETEN 批准 Thorcon PLTN 场址评价（2025-07-30 主席决定书）",
+        "url": "https://www.antaranews.com/berita/5021869/bapeten-setujui-evaluasi-tapak-pltn-di-bangka-belitung"
+      },
+      {
+        "title": "BAPETEN 官网 — Cikande 铯-137 去污监督第 5 日：拆除辐射污染警示牌（2025-10-17）",
+        "url": "https://www.bapeten.go.id/berita/supervisi-dekontaminasi-sumber-cs137-di-kawasan-industri-modern-cikande-banten--hari-ke5-pencabutan-plang-tanda-kontaminasi-radiasi-235419"
+      },
+      {
+        "title": "CNBC Indonesia — BAPETEN 就 Cikande 铯-137 事件出席国会第十二委员会听证（2026-02-10）",
+        "url": "https://www.cnbcindonesia.com/news/20260210181606-4-709964/badan-nuklir-ri-buka-suara-soal-paparan-cesium-137-di-cikande"
+      },
+      {
+        "title": "OG Indonesia — BAPETEN 与新加坡国家环境局（NEA）签署 MoU（2026-06-30，签约日期与双方代表）",
+        "url": "http://www.ogindonesia.com/2026/06/bapeten-dan-nea-singapura-teken-mou.html"
+      },
+      {
+        "title": "BKN 官网 — Mohammad Ridwan 于 2026-08-04 就任 BAPETEN 总秘书",
+        "url": "https://www.bkn.go.id/bagian-dari-talenta-terbaik-bkn-mohammad-ridwan-jabat-sestama-bapeten/"
+      },
+      {
+        "title": "Peraturan BAPETEN No. 1 Tahun 2026（核设施与核材料实体防护体系，2026-01-19 生效）",
+        "url": "https://peraturan.bpk.go.id/Details/344440/peraturan-bapeten-no-1-tahun-2026"
+      }
+    ],
+    "notes": "P3 深度丰富：修正新加坡 MoU 对象名称（核能管理局→国家环境局 NEA）与签署日期（2026-06-30）；补充总秘书 Mohammad Ridwan 2026-08-04 就任（BKN 人才流动，与 1999-2003 年首任主席同名不同人，已在描述中消歧）；新增 Thorcon 场址评价批准、Cikande 铯-137 事件处置、PerBAPETEN 1/2026、检查员年会、RKA 2027 预算批准等事件；按 PerBAPETEN 9/2020 补全 7 个司/中心级部门（含 parent_dept_id）；related_entities 迁移至 relationship_type 枚举格式。新任司长级人物（Lukman Hakim、Wiryono）暂无独立档案，person_id 写 null 待主会话统一分配。"
   }
 }

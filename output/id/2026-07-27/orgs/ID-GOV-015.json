@@ -1,99 +1,615 @@
 {
   "org_id": "ID-GOV-015",
+  "wikidata_qid": "Q131299051",
   "basic_info": {
     "org_id": "ID-GOV-015",
     "wikidata_qid": "Q131299051",
-    "name_en": "Daya Anagata Nusantara Investment Management Agency",
-    "name_zh": "Daya Anagata Nusantara 投资 Management 机构",
-    "name_local": "Badan Pengelola Investasi Daya Anagata Nusantara",
-    "aliases": [],
-    "acronym": null,
-    "country": "ID",
-    "country_name": "Indonesia",
-    "founded_year": null,
-    "dissolved_year": null,
-    "org_type": "GOV",
-    "org_subtype": "statutory_board",
-    "industry": "",
-    "sector": null,
-    "headquarters": "",
-    "address": null,
-    "website": "https://www.danantaraindonesia.com",
-    "official_website": "https://www.danantaraindonesia.com",
-    "parent_org": null,
-    "is_defunct": false,
-    "is_listed": false,
-    "stock_ticker": null,
-    "tax_id": null,
-    "registration_number": null,
-    "apec_membership_status": null,
-    "apec_relevance": "member_state",
+    "name_original": "Badan Pengelola Investasi Daya Anagata Nusantara",
+    "name_zh": "印度尼西亚努山塔拉未来力量投资管理局（Danantara Indonesia）",
+    "name_en": "Daya Anagata Nusantara Investment Management Agency (Danantara Indonesia)",
+    "founded_date": "2025-02-24",
     "country_iso3": "IDN",
-    "name_original": "Badan Pengelola Investasi Daya Anagata Nusantara"
+    "hq_country_iso3": "IDN",
+    "website": "https://www.danantaraindonesia.co.id",
+    "org_type": "GOV",
+    "org_subtype": "independent_organ"
   },
-  "description": "印度尼西亚主权财富基金",
-  "brief": "印度尼西亚主权财富基金",
-  "mission": null,
-  "core_business": "印度尼西亚主权财富基金",
-  "history": null,
-  "major_products": [],
-  "key_metrics": {},
-  "leadership_history": [],
-  "key_people": [
-    {
-      "person_id": null,
-      "name": "Rosan Roeslani",
-      "title": "首席执行官/负责人",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "ID-PERSON-000418",
-      "name": "Mohamad Al-Arief",
-      "title": "高管（来源：Wikidata 领导层声明）",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "ID-PERSON-000419",
-      "name": "Sanjay Naraindas Bharwani",
-      "title": "高管（来源：Wikidata 领导层声明）",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "ID-PERSON-000420",
-      "name": "Sigit Puji Santosa",
-      "title": "高管（来源：Wikidata 领导层声明）",
-      "title_description": "",
-      "description": ""
-    }
-  ],
-  "org_structure": {},
-  "subsidiaries": [],
-  "notable_members": [],
   "social_accounts": [
     {
       "platform": "instagram",
+      "account_name": "danantara.indonesia",
       "url": "https://instagram.com/danantara.indonesia",
-      "source": "wikidata",
-      "account_name": "danantara.indonesia"
+      "source": "wikidata"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Danantara Indonesia",
+      "url": "https://www.linkedin.com/company/danantara-indonesia",
+      "source": "official_website"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@Danantara_ri",
+      "url": "https://x.com/Danantara_ri",
+      "source": "official_x_profile"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Danantara Indonesia",
+      "url": "https://www.youtube.com/@Danantara.Indonesia",
+      "source": "official_youtube_channel"
     }
   ],
-  "online_presence": {},
-  "controversies": [],
-  "relationships": [],
-  "last_audit_date": null,
-  "data_sources": [],
+  "digital_assets": [
+    {
+      "name": "Danantara Indonesia 官网",
+      "url": "https://www.danantaraindonesia.co.id",
+      "description": "official_website",
+      "source": null
+    },
+    {
+      "name": "Danantara Investment Management 人员结构页",
+      "url": "https://www.danantaraindonesia.co.id/about/our-people/danantara-investment-managementx",
+      "description": "subsidiary_website",
+      "source": null
+    },
+    {
+      "name": "Danantara Indonesia 新闻稿中心",
+      "url": "https://www.danantaraindonesia.co.id/media-center/press-releases",
+      "description": "official_website",
+      "source": null
+    },
+    {
+      "name": "Danantara Asset Management (DAM) 官网页面",
+      "url": "https://www.danantaraindonesia.co.id/dam",
+      "description": "subsidiary_website",
+      "source": null
+    },
+    {
+      "name": "Danantara Development Management Fund (DDMF) 官网页面",
+      "url": "https://www.danantaraindonesia.co.id/ddmf",
+      "description": "subsidiary_website",
+      "source": null
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ID-PERSON-000606",
+      "name": "罗桑·鲁斯拉尼 (Rosan Roeslani)",
+      "title": "首席执行官（CEO）/ 管理局负责人",
+      "title_description": "兼任投资与产业下游化部长，主持Danantara全面工作",
+      "description": "2025年2月机构成立起出任CEO并延续至2026年（官网及2026年2月公开活动确认）；兼任投资与产业下游化部长，主导2026年国家投资计划发布。"
+    },
+    {
+      "person_id": "ID-PERSON-000607",
+      "name": "潘杜·帕特里亚·夏赫里尔 (Pandu Patria Sjahrir)",
+      "title": "首席投资官（CIO）",
+      "title_description": "负责投资控股板块（Investment Holding）",
+      "description": "官网管理层页面与维基百科确认；2026年1月达沃斯世界经济论坛期间对外披露年度投资部署与第二期债券发行计划。"
+    },
+    {
+      "person_id": "ID-PERSON-000608",
+      "name": "东尼·奥斯卡利亚 (Dony Oskaria)",
+      "title": "首席运营官（COO）",
+      "title_description": "负责运营控股板块（Holding Operations）",
+      "description": "官网管理层页面与维基百科确认；分管运营控股板块，2025年政府向该板块划转52家国企股份。"
+    },
+    {
+      "person_id": "ID-PERSON-000013",
+      "name": "埃里克·托希尔 (Erick Thohir)",
+      "title": "监事会主席",
+      "title_description": "Danantara Supervisory Board 主席",
+      "description": "官网监事会页面与维基百科确认其监事会主席职务；副主席为Muliaman Darmansyah Hadad，成员包括财政部长及多位统筹部长。"
+    },
+    {
+      "person_id": "ID-PERSON-000418",
+      "name": "穆罕默德·阿尔-阿里夫 (Mohamad Al-Arief)",
+      "title": "执行董事（全球关系与治理方向）",
+      "title_description": "Managing Director Global Relations and Governance",
+      "description": "官网管理层名单确认；分管全球关系与治理方向（Managing Director, Global Relations and Governance）。"
+    },
+    {
+      "person_id": "ID-PERSON-000419",
+      "name": "桑贾伊·巴尔瓦尼 (Sanjay Naraindas Bharwani)",
+      "title": "执行董事（人力资源方向）",
+      "title_description": "Managing Director Human Resources",
+      "description": "官网管理层名单确认；分管人力资源方向（Managing Director, Human Resources）。"
+    },
+    {
+      "person_id": "ID-PERSON-000420",
+      "name": "西吉特·普吉·桑托萨 (Sigit Puji Santosa)",
+      "title": "执行董事（技术与创新方向）",
+      "title_description": "Managing Director Technology and Innovation",
+      "description": "官网管理层名单确认；分管技术与创新方向（Managing Director, Technology and Innovation）。"
+    },
+    {
+      "person_id": null,
+      "name": "穆利亚曼·达尔曼西亚·哈达德 (Muliaman Darmansyah Hadad)",
+      "title": "监事会副主席",
+      "title_description": "Danantara Supervisory Board 副主席",
+      "description": "官网监事会页面确认；曾任印尼金融服务管理局（OJK）首任主席。"
+    },
+    {
+      "person_id": null,
+      "name": "贾马里的·恰尼亚戈 (Djamari Chaniago)",
+      "title": "监事会成员",
+      "title_description": "以政治与安全统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员；2025年9月内阁改组后出任政治与安全统筹部长。"
+    },
+    {
+      "person_id": "ID-PERSON-000601",
+      "name": "尤斯里尔·伊赫扎·马亨德拉 (Yusril Ihza Mahendra)",
+      "title": "监事会成员",
+      "title_description": "以法律、人权、移民与惩治统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员。"
+    },
+    {
+      "person_id": "ID-PERSON-000077",
+      "name": "艾尔朗加·哈尔塔托 (Airlangga Hartarto)",
+      "title": "监事会成员",
+      "title_description": "以经济统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员。"
+    },
+    {
+      "person_id": null,
+      "name": "普拉蒂克诺 (Pratikno)",
+      "title": "监事会成员",
+      "title_description": "以人类发展与文化统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员。"
+    },
+    {
+      "person_id": "ID-PERSON-000656",
+      "name": "阿古斯·哈里穆尔蒂·尤多约诺 (Agus Harimurti Yudhoyono)",
+      "title": "监事会成员",
+      "title_description": "以基础设施与区域发展统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员；2025年9月内阁改组后任基础设施与区域发展统筹部长。"
+    },
+    {
+      "person_id": "ID-PERSON-000323",
+      "name": "阿卜杜勒·穆海明·伊斯坎德尔 (Abdul Muhaimin Iskandar)",
+      "title": "监事会成员",
+      "title_description": "以社会赋权统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员。"
+    },
+    {
+      "person_id": "ID-PERSON-000319",
+      "name": "祖尔基弗利·哈桑 (Zulkifli Hasan)",
+      "title": "监事会成员",
+      "title_description": "以粮食统筹部长身份任当然成员",
+      "description": "官网监事会页面列名成员。"
+    },
+    {
+      "person_id": "ID-PERSON-000655",
+      "name": "普尔巴亚·尤迪·萨德瓦 (Purbaya Yudhi Sadewa)",
+      "title": "监事会成员",
+      "title_description": "以财政部长身份任当然成员（2025年9月就任财长）",
+      "description": "官网监事会页面列名成员；2026年9月14日被免去财长职务、由副财长Suahasil Nazara接任（The Jakarta Post、Kompas报道），监事会财长席位随之更替。"
+    },
+    {
+      "person_id": null,
+      "name": "普拉塞蒂约·哈迪 (Prasetyo Hadi)",
+      "title": "监事会成员",
+      "title_description": "以国务部长（Menteri Sekretaris Negara）身份任当然成员",
+      "description": "官网监事会页面列名成员。"
+    },
+    {
+      "person_id": null,
+      "name": "瑞·达利欧 (Ray Dalio)",
+      "title": "咨询委员会主席",
+      "title_description": "Danantara Advisory Board 主席",
+      "description": "英文维基百科机构结构栏列其为咨询委员会主席；桥水基金创始人。"
+    },
+    {
+      "person_id": null,
+      "name": "赫尔曼·西托杭 (Helman Sitohang)",
+      "title": "咨询委员会成员",
+      "title_description": "Danantara Advisory Board 成员",
+      "description": "英文维基百科机构结构栏列名；曾任瑞士信贷亚太区首席执行官。"
+    },
+    {
+      "person_id": null,
+      "name": "杰弗里·萨克斯 (Jeffrey Sachs)",
+      "title": "咨询委员会成员",
+      "title_description": "Danantara Advisory Board 成员",
+      "description": "英文维基百科机构结构栏列名；美国经济学家。"
+    },
+    {
+      "person_id": null,
+      "name": "他信·西那瓦 (Thaksin Shinawatra)",
+      "title": "咨询委员会成员",
+      "title_description": "Danantara Advisory Board 成员",
+      "description": "英文维基百科记载其于2025年3月24日获任咨询委员会成员；泰国前总理。该任命曾因其本人涉泰国国内丑闻而引发争议。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "ID-GOV-015-DEPT-001",
+      "name": "投资控股板块 (Danantara Investment Holding)",
+      "head": "潘杜·帕特里亚·夏赫里尔 (Pandu Patria Sjahrir)",
+      "description": "由CIO领导，负责投资组合与资金配置；旗下执行董事包括财务Djamal Attamimi、法务Bono Daru Adji、投资Stefanus Ade Hadiwidjaja（英文维基百科机构结构栏）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-002",
+      "name": "运营控股板块 (Operational Holding)",
+      "head": "东尼·奥斯卡利亚 (Dony Oskaria)",
+      "description": "由COO领导，负责旗下国企控股运营管理；2025年依据政府条例GR 15/2025承接52家国企股份划转；旗下执行董事包括Agus Dwi Handaya、Febriany Eddy、Riko Banardi（英文维基百科机构结构栏）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-003",
+      "name": "风险管理委员会 (Risk Management Committee)",
+      "head": "John Prasetio",
+      "description": "负责人John Prasetio。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-004",
+      "name": "投资与组合委员会 (Investment and Portfolio Committee)",
+      "head": "Yup Kim",
+      "description": "负责人Yup Kim。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-005",
+      "name": "内部审计 (Internal Audit)",
+      "head": "Ahmad Hidayat",
+      "description": "执行董事级内审职能，负责人Ahmad Hidayat。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-006",
+      "name": "监事会 (Supervisory Board)",
+      "head": "埃里克·托希尔 (Erick Thohir)",
+      "description": "主席Erick Thohir、副主席Muliaman Darmansyah Hadad，成员由财政部长、多位统筹部长及国务部长等当然担任（官网监事会页面）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-007",
+      "name": "指导委员会 (Coordination Committee)",
+      "head": null,
+      "description": "由第六任总统苏西洛（SBY）与第七任总统佐科（Jokowi）出任成员，为机构提供前总统级别的指导（英文维基百科机构结构栏）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-008",
+      "name": "咨询委员会 (Advisory Board)",
+      "head": "瑞·达利欧 (Ray Dalio)",
+      "description": "成员包括Helman Sitohang、Jeffrey Sachs、他信·西那瓦等国际知名人士（英文维基百科机构结构栏）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-009",
+      "name": "监督与问责委员会 (Supervisory and Accountability Committee)",
+      "head": null,
+      "description": "由金融交易报告与分析中心（PPATK）、肃贪委（KPK）、财政与发展监督署（BPKP）、审计署（BPK）负责人及国家警察总长、总检察长等组成（英文维基百科机构结构栏）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "ID-GOV-015-DEPT-010",
+      "name": "执行管理层 (Managing Board)",
+      "head": "罗桑·鲁斯拉尼 (Rosan Roeslani)",
+      "description": "以CEO为首，设法务（Robertus Billitea）、风险与可持续（Lieng-Seng Wee）、财务（Arief Budiman）、司库（Ali Setiawan）、全球关系与治理（Mohamad Al-Arief）、利益相关方管理（Rohan Hafas）、内部审计（Ahmad Hidayat）、人力资源（Sanjay Bharwani）、首席经济学家（Reza Yamora Siregar）、办公室主任（Ivy Santoso）、技术与创新（Sigit Puji Santosa）等执行董事岗位（英文维基百科机构结构栏）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-02-24",
+      "title": "Danantara Indonesia 正式成立",
+      "description": "印尼总统普拉博沃主持成立仪式，作为印尼第二家主权财富基金（继INA之后），初始注入七大国企股权，管理资产规模宣称超9000亿美元；机构依据2025年第1号法律（国企法修订）设立并直属总统。当事人引语：『我们的一切资源都必须最大限度地用于人民的利益与繁荣』——普拉博沃。",
+      "impact": "印尼国企资产管理体系重构，成立之初预计可调用资金约320万亿印尼盾（约200亿美元），用于启动约20个战略项目。",
+      "source": "https://en.wikipedia.org/wiki/Danantara"
+    },
+    {
+      "date": "2025-04-15",
+      "title": "与卡塔尔投资局（QIA）设立40亿美元联合投资基金",
+      "description": "在多哈宣布与QIA共同管理规模40亿美元的联合投资基金，双方各出资20亿美元，投向印尼绿色能源、数字化与基础设施等领域。",
+      "impact": "机构成立后首笔重大国际主权基金合作，为后续累计约450亿美元的国际伙伴关系奠定基础。",
+      "source": "https://www.reuters.com/business/finance/indonesia-qatar-create-4-bln-joint-fund-investing-indonesia-2025-04-15/"
+    },
+    {
+      "date": "2025-04-28",
+      "title": "政府启动国企股份向Danantara划转",
+      "description": "依据2025年第15号政府条例（GR 15/2025），政府将国有企业国家股（B系列/C系列）划转至Danantara体系；上市国企B系列股份于4月底完成过户（如BRI 53.19%股份划转），2025年全年累计52家国企股份划入其运营控股。",
+      "impact": "Danantara正式取得国企股权持有人地位，控股运营架构落地。",
+      "source": "https://www.pwc.com/id/en/media-centre/infrastructure-news/april-2025/soe-holding-danantaras-increasingly-agile-actions.html"
+    },
+    {
+      "date": "2025-06-19",
+      "title": "与俄罗斯直接投资基金（RDIF）达成合作协议",
+      "description": "在2025年圣彼得堡国际经济论坛期间与RDIF签署协议，共同设立规模20亿欧元（约23-29亿美元）的联合投资平台。",
+      "impact": "拓展跨境联合投资渠道。",
+      "source": "https://en.antaranews.com/news/360649/indonesia-russia-launch-2-billion-euro-joint-investment-platform"
+    },
+    {
+      "date": "2025-07-01",
+      "title": "发布禁止国企监事（Commissioner）绩效薪酬的指令",
+      "description": "Danantara发布S-063/DI-BP/VII/2025号函，禁止国企及其子公司监事会成员领取与业绩挂钩的奖金、激励或其他收入；董事激励在真实可持续业绩基础上仍可发放。",
+      "impact": "强化国企治理与薪酬规范。",
+      "source": "https://en.wikipedia.org/wiki/Danantara"
+    },
+    {
+      "date": "2025-08-01",
+      "title": "发起『爱国债券』（Patriot Bond）融资计划",
+      "description": "拟募集50万亿印尼盾用于垃圾发电等项目建设；因2%的利率显著低于同期政府债券近6%的市场水平，被分析师与舆论质疑为面向商界精英的政治动员工具而非商业产品，数名富豪被报道各承诺认购2-3万亿印尼盾。",
+      "impact": "为国家优先项目开辟新的融资渠道，但低利率定价引发机构商业独立性的争议。",
+      "source": "https://en.wikipedia.org/wiki/Danantara"
+    },
+    {
+      "date": "2025-08-26",
+      "title": "与中国格林美（GEM）合作开发镍加工枢纽",
+      "description": "宣布与中国电池材料回收企业格林美（GEM）合作在印尼投资开发镍加工枢纽项目。",
+      "impact": "机构首次进入镍下游加工领域投资，配合印尼矿产下游化战略。",
+      "source": "https://www.reuters.com/markets/asia/danantara-chinas-gem-develop-nickel-processing-hub-indonesia-2025-08-26/"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "国企分红改道Danantara致国家非税收入下降",
+      "description": "依据2025年第1号法律，全部国企分红由原来直接缴入国家非税收入（PNBP）改为转入Danantara；截至2025年10月国家非税收入402.4万亿印尼盾，同比下降15.57%。",
+      "impact": "确认分红机制切换的财政影响，Danantara成为国企分红归集平台。",
+      "source": "https://www.cnbcindonesia.com/news/20251124155015-4-688057/efek-dividen-bumn-pindah-ke-danantara-setoran-pnbp-susut-jadi-rp402-t"
+    },
+    {
+      "date": "2025-12-11",
+      "title": "与约旦投资基金（JIF）签署战略谅解备忘录",
+      "description": "CIO潘杜·帕特里亚·夏赫里尔在安曼与约旦投资基金CEO Zaher Al Qatarneh签署MoU，探讨在基础设施、能源转型与数字领域开展联合投资。",
+      "impact": "扩大中东主权资本合作网络。",
+      "source": "https://en.antaranews.com/news/396136/danantara-jordan-investment-fund-to-explore-investment-opportunities"
+    },
+    {
+      "date": "2026-01-23",
+      "title": "达沃斯披露：2026年拟部署至多140亿美元、获惠誉BBB评级",
+      "description": "CIO夏赫里尔在世界经济论坛期间表示2025年已承诺投资约80亿美元，2026年将部署至多140亿美元（约半数投向以印尼为主的公开市场，并评估中国、印度、日本、韩国与欧洲机会）；机构获与印尼主权评级一致的惠誉BBB评级，并已与其他主权基金建立合计约450亿美元的伙伴关系；计划一至两个月内发行规模更小的第二期『爱国债券』。",
+      "impact": "机构由组建期转入规模化投资部署期，国际信用评级与募资安排明确。",
+      "source": "https://www.thejakartapost.com/business/2026/01/23/danantara-to-deploy-up-to-14-billion-this-year-cio-says"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "一期六大下游产业项目动工（70亿美元）",
+      "description": "在全国13个地区为一期六个下游项目动工，总价值约70亿美元（约110万亿印尼盾），包括两个合计约30亿美元的铝土矿下游项目以及生物航煤、生物乙醇、盐业开发与一体化养殖项目。",
+      "impact": "机构投资从财务配置转入实体项目执行阶段。",
+      "source": "https://en.antaranews.com/news/403434/danantara-breaks-ground-on-us7-bln-indonesia-downstream-projects"
+    },
+    {
+      "date": "2026-02-13",
+      "title": "发布2026年202.4万亿印尼盾（131亿美元）四大优先项目计划",
+      "description": "CEO罗桑在印尼经济展望2026论坛公布2026年四大优先项目：Wamena（33城垃圾发电，840万亿盾）、Cordova（烧碱厂，13.4万亿盾）、Fukuoka（携手全球运营商的数据中心平台，21万亿盾）、Johor（农业投资，840万亿盾）；另宣布新增14个项目、总值190亿美元。",
+      "impact": "明确垃圾发电、数据中心、化工与农业为本年度投资主线，匹配其2026年最高140亿美元的部署目标。",
+      "source": "https://en.antaranews.com/news/404398/indonesias-danantara-unveils-us131b-investment-plan-for-2026"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "评估增持GoTo股份",
+      "description": "CIO确认机构此前已通过证券市场买入科技公司GoTo（Gojek Tokopedia）股份（现持股不足1%），正基于公司基本面与长期前景评估增持规模，暂未确定目标持股比例。",
+      "impact": "机构公开市场科技板块投资动向受市场关注。",
+      "source": "https://www.thejakartapost.com/business/2026/05/12/danantara-eyes-bigger-stake-in-goto"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "子公司Danantara Investment Management首单美元债募集15亿美元",
+      "description": "DIM发行5年期与10年期各7.5亿美元美元债，票息收益率分别为5.35%与5.95%，订单簿峰值约46亿美元；美国、欧洲中东非洲、亚洲投资者分别占5年期订单的38%、41%、21%；花旗、星展、汇丰、Mandiri Securities与渣打担任联席主承销。",
+      "impact": "在国际市场动荡、印尼股市年内跌逾30%的背景下成功定价，被视为全球投资者对印尼资产的信心测试。",
+      "source": "https://www.businesstimes.com.sg/international/asean/indonesias-danantara-unit-raises-us1-5-billion-debut-us-dollar-bond-draws-strong-demand"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "合并七家物流国企",
+      "description": "在雅加达签署股东协议（SHA）与合并契约，将七家物流类国企整合以提升效率、削减成本。",
+      "impact": "落实『将逾千家国企精简整合』的重组路线。",
+      "source": "https://en.antaranews.com/news/420965/danantara-merges-seven-logistics-soes-to-boost-efficiency-cut-costs"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "与新任财长苏阿哈西尔讨论向2026年国家预算缴纳120万亿盾分红",
+      "description": "普尔巴亚财长任内已宣布Danantara将向2026年国家收支预算（APBN）缴纳约120万亿印尼盾分红（高于此前国企分红每年约90万亿盾的水平）；2026年9月财长易人后，CEO罗桑表示将与新任财长Suahasil Nazara继续讨论缴纳方案。",
+      "impact": "Danantara分红成为2026年国家财政收入的重要补充与预算赤字管控工具。",
+      "source": "https://money.kompas.com/read/2026/09/15/062345126/danantara-akan-bahas-lagi-setoran-dividen-rp-120-triliun-ke-apbn-dengan"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "印尼投资局 (Indonesia Investment Authority / INA)",
+      "org_type": "FIN",
+      "org_description": "印尼第一家主权财富基金。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼国有企业部 (Kementerian BUMN)",
+      "org_type": "GOV",
+      "org_description": "原主管国企的政府部门，Danantara成立后其部分国有资产管理职能被承接。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "ID-FIN-003",
+      "org_name": "印尼国家银行 (Bank Mandiri)",
+      "org_type": "FIN",
+      "org_description": "印尼最大国有银行，总部位于Danantara总部所在地Wisma Danantara（原Plaza Mandiri）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-SOE-001",
+      "org_name": "印尼国家石油公司 (Pertamina)",
+      "org_type": "SOE",
+      "org_description": "印尼国家石油天然气公司，初始注入Danantara的七大国企之一。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-SOE-002",
+      "org_name": "印尼国家电力公司 (PLN)",
+      "org_type": "SOE",
+      "org_description": "印尼国家电力公司，初始注入Danantara的七大国企之一。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-SOE-003",
+      "org_name": "印尼电信公司 (Telkom Indonesia)",
+      "org_type": "SOE",
+      "org_description": "印尼国有电信运营商，初始注入Danantara的七大国企之一。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-SOE-005",
+      "org_name": "印尼人民银行 (Bank Rakyat Indonesia / BRI)",
+      "org_type": "FIN",
+      "org_description": "印尼国有银行，初始注入Danantara的七大国企之一，2025年4月政府向Danantara划转其53.19%的B系列股份。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-SOE-006",
+      "org_name": "印尼国家银行 (Bank Negara Indonesia / BNI)",
+      "org_type": "FIN",
+      "org_description": "印尼国有银行，初始注入Danantara的七大国企之一。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "印尼矿业工业公司 (MIND ID / Mineral Industri Indonesia)",
+      "org_type": "SOE",
+      "org_description": "印尼国有矿业控股公司，初始注入Danantara的七大国企之一。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "ID-SOE-004",
+      "org_name": "印尼鹰航 (Garuda Indonesia)",
+      "org_type": "SOE",
+      "org_description": "印尼国家航空公司，2025年国企股份划转后置于Danantara所有权与监督框架之下。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "PT Danantara Asset Management (DAM)",
+      "org_type": "CORP",
+      "org_description": "Danantara两大运营支柱之一，定位『打造世界级、高绩效的国有企业』，2025年收购四家国企投资管理公司（合计管理规模约170万亿印尼盾）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "PT Danantara Investment Management (DIM)",
+      "org_type": "CORP",
+      "org_description": "Danantara两大运营支柱之一，定位『投资于高影响力国家优先领域』，2026年6月以首单15亿美元美元债完成国际资本市场亮相。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Danantara Development Management Fund (DDMF)",
+      "org_type": "FIN",
+      "org_description": "Danantara生态第三支柱，定位『为国家发展与关键公共基础设施融资』，由总统以总统令形式批准设立。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "俄罗斯直接投资基金 (RDIF)",
+      "org_type": "FIN",
+      "org_description": "2025年6月与Danantara签署共同设立20亿欧元联合投资平台的协议。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔投资局 (Qatar Investment Authority / QIA)",
+      "org_type": "FIN",
+      "org_description": "2025年4月与Danantara共同管理规模40亿美元的联合投资基金（各出资20亿美元）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "约旦投资基金 (Jordan Investment Fund / JIF)",
+      "org_type": "FIN",
+      "org_description": "2025年12月与Danantara签署MoU，探讨基础设施、能源转型与数字领域联合投资。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "格林美 (GEM Co., Ltd.)",
+      "org_type": "CORP",
+      "org_description": "中国电池材料与回收企业，2025年8月与Danantara合作在印尼开发镍加工枢纽。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "GoTo Gojek Tokopedia (PT GoTo Gojek Tokopedia Tbk)",
+      "org_type": "CORP",
+      "org_description": "印尼科技巨头；Danantara 2026年初通过证券市场购入其不足1%股份并评估增持。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "Badan Pengelola Investasi Daya Anagata Nusantara（简称Danantara Indonesia）是印度尼西亚政府于2025年2月24日成立的第二家主权财富基金机构，依据2025年第1号法律（国企法修订）设立并直属总统，定位为整合国有企业资产与国家资本联合投资的战略投资管理平台，模式对标马来西亚Khazanah与新加坡Temasek。成立之初，Bank Mandiri、BNI、BRI、Pertamina、PLN、Telkom、MIND ID七大国企股权划入其管理；依据2025年第15号政府条例，2025年全年共52家国企的国有股份划入其运营控股，全面运营后印尼千余家国企置于其所有权与监督之下，宣称管理资产规模超1.472万万亿印尼盾（约9000亿美元）。自2025年第1号法律生效起，全部国企分红改道归集至Danantara，并计划向2026年国家收支预算缴纳约120万亿印尼盾。机构实行双子公司加发展基金架构：PT Danantara Asset Management（国企运营优化）、PT Danantara Investment Management（优先领域投资）及Danantara Development Management Fund（国家发展与公共基础设施融资）。治理结构包括监事会（主席Erick Thohir）、指导委员会（第六任总统苏西洛与第七任总统佐科）、咨询委员会（主席Ray Dalio）及监督问责委员会（由肃贪委、审计署、金融交易报告分析中心等负责人组成）。2025-2026年其投资动作密集：与QIA设立40亿美元联合基金、与RDIF共建20亿欧元平台、动工70亿美元下游项目、发布2026年131亿美元四大优先项目计划（垃圾发电、烧碱、数据中心、农业），子公司DIM于2026年6月完成首单15亿美元国际美元债发行，机构获惠誉BBB评级并与其他主权基金建立合计约450亿美元的伙伴关系。总部位于雅加达中区Wisma Danantara（原Plaza Mandiri）。",
+  "industries": [
+    "investment",
+    "financial_services",
+    "public_administration"
+  ],
+  "apec_stance": "印尼为APEC成员，Danantara作为国家主权投资平台，其跨境投资合作（与QIA、RDIF、约旦投资基金等设立联合基金或谅解安排）与面向美欧亚投资者的国际债券发行，直接参与亚太区域资本流动与投资合作议题；其对国企的整合重组与治理改革亦为印尼改善区域营商环境提供支撑。其本身不直接承担APEC框架内职能。",
   "collection_meta": {
-    "collection_date": "2026-07-27",
-    "phase": "P3_enriched",
-    "completeness_score": 73,
+    "collection_date": "2026-09-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q131299051"
+      "https://en.wikipedia.org/wiki/Danantara",
+      "https://www.danantaraindonesia.co.id/about",
+      "https://www.danantaraindonesia.co.id/about/our-people/supervisory-board",
+      "https://www.danantaraindonesia.co.id/",
+      "https://www.danantaraindonesia.co.id/media-center/press-releases",
+      "https://globalswf.com/fund/DANAN",
+      "https://en.antaranews.com/news/404398/indonesias-danantara-unveils-us131b-investment-plan-for-2026",
+      "https://en.antaranews.com/news/403434/danantara-breaks-ground-on-us7-bln-indonesia-downstream-projects",
+      "https://en.antaranews.com/news/396136/danantara-jordan-investment-fund-to-explore-investment-opportunities",
+      "https://en.antaranews.com/news/360649/indonesia-russia-launch-2-billion-euro-joint-investment-platform",
+      "https://en.antaranews.com/news/420965/danantara-merges-seven-logistics-soes-to-boost-efficiency-cut-costs",
+      "https://www.thejakartapost.com/business/2026/01/23/danantara-to-deploy-up-to-14-billion-this-year-cio-says",
+      "https://www.thejakartapost.com/business/2026/05/12/danantara-eyes-bigger-stake-in-goto",
+      "https://www.businesstimes.com.sg/international/asean/indonesias-danantara-unit-raises-us1-5-billion-debut-us-dollar-bond-draws-strong-demand",
+      "https://www.reuters.com/business/finance/indonesia-qatar-create-4-bln-joint-fund-investing-indonesia-2025-04-15/",
+      "https://www.reuters.com/markets/asia/danantara-chinas-gem-develop-nickel-processing-hub-indonesia-2025-08-26/",
+      "https://www.pwc.com/id/en/media-centre/infrastructure-news/april-2025/soe-holding-danantaras-increasingly-agile-actions.html",
+      "https://www.cnbcindonesia.com/news/20251124155015-4-688057/efek-dividen-bumn-pindah-ke-danantara-setoran-pnbp-susut-jadi-rp402-t",
+      "https://money.kompas.com/read/2026/09/15/062345126/danantara-akan-bahas-lagi-setoran-dividen-rp-120-triliun-ke-apbn-dengan",
+      "https://eastasiaforum.org/2026/08/27/indonesias-sovereign-wealth-fund-faces-an-impossible-trinity/"
     ],
-    "notes": "P2 skeleton from Wikidata QID Q131299051; awaiting P3 enrichment.",
-    "quotes": [],
-    "confidence_level": "medium"
+    "completeness_score": 97,
+    "quotes": [
+      {
+        "title": "Danantara — English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Danantara"
+      },
+      {
+        "title": "About Danantara Indonesia — 官网",
+        "url": "https://www.danantaraindonesia.co.id/about"
+      },
+      {
+        "title": "Struktur BPI Danantara — 官网管理层页面",
+        "url": "https://www.danantaraindonesia.co.id/id/about/our-people/bpi-danantaras"
+      },
+      {
+        "title": "Danantara Fund Profile — Global SWF",
+        "url": "https://globalswf.com/fund/DANAN"
+      },
+      {
+        "title": "Supervisory Board — Danantara Indonesia 官网",
+        "url": "https://www.danantaraindonesia.co.id/about/our-people/supervisory-board"
+      },
+      {
+        "title": "Danantara to deploy up to $14 billion this year, CIO says — The Jakarta Post/Reuters（达沃斯，2026-01-23）",
+        "url": "https://www.thejakartapost.com/business/2026/01/23/danantara-to-deploy-up-to-14-billion-this-year-cio-says"
+      },
+      {
+        "title": "Indonesia's Danantara unveils US$13.1B investment plan for 2026 — ANTARA（2026-02-13）",
+        "url": "https://en.antaranews.com/news/404398/indonesias-danantara-unveils-us131b-investment-plan-for-2026"
+      },
+      {
+        "title": "Indonesia's Danantara unit raises US$1.5 billion as debut US dollar bond draws strong demand — Business Times/Reuters（2026-06-12）",
+        "url": "https://www.businesstimes.com.sg/international/asean/indonesias-danantara-unit-raises-us1-5-billion-debut-us-dollar-bond-draws-strong-demand"
+      },
+      {
+        "title": "Indonesia, Qatar to create $4 bln joint fund — Reuters（2025-04-15）",
+        "url": "https://www.reuters.com/business/finance/indonesia-qatar-create-4-bln-joint-fund-investing-indonesia-2025-04-15/"
+      },
+      {
+        "title": "SOE holding: Danantara's increasingly agile actions — PwC（GR 15/2025，52家国企股份划转）",
+        "url": "https://www.pwc.com/id/en/media-centre/infrastructure-news/april-2025/soe-holding-danantaras-increasingly-agile-actions.html"
+      }
+    ],
+    "notes": "P3丰富（2026-09-17）：以官网（About、监事会页面、首页时间线与新闻稿）、英文维基、Reuters/Jakarta Post/ANTARA/Business Times/Kompas/CNBC Indonesia/PwC/East Asia Forum等多源交叉补充。现任管理层核对：CEO Rosan Roeslani、CIO Pandu Patria Sjahrir、COO Dony Oskaria截至2026年仍在任（官网+2026年新闻确认）；监事会成员按官网2026-09页面列示，其中财长当然成员Purbaya Yudhi Sadewa已于2026-09-14被免职（JP/Kompas报道，官网页面尚未更新），由Suahasil Nazara接任。RDIF协议日期依ANTARA/Sputnik修正为2025-06-19（原2025-06-01）。related_entities已改为org_id|org_name|org_type|org_description|relationship_type严格字段，索引命中者已填ID（Bank Mandiri=ID-FIN-003、Pertamina=ID-SOE-001、PLN=ID-SOE-002、Telkom=ID-SOE-003、鹰航=ID-SOE-004、BRI=ID-SOE-005、BNI=ID-SOE-006），未命中者（INA、国企部、MIND ID、RDIF、QIA、JIF、GEM、GoTo、DAM/DIM/DDMF）org_id=null。新增监事会成员7人命中索引ID（000601/000077/000656/000323/000319/000655等），其余人物未命中索引写null；Moeharmein Zein Chaniago(ID-PERSON-000492)与Djamari Chaniago非同一人，未误配。纯事实记录：Patriot Bond低利率争议、财务报告透明度批评等均按报道事实中性转述。"
   }
 }

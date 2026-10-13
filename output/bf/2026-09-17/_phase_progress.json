@@ -1,0 +1,550 @@
+{
+  "phase": "P4_round2_complete",
+  "concurrency": 4,
+  "mode": "rolling (dispatch next immediately when one finishes)",
+  "started_at": "2026-09-18",
+  "last_updated": "2026-09-18",
+  "completed": [
+    "BF-PERSON-000001",
+    "BF-PERSON-000004",
+    "BF-PERSON-000003",
+    "BF-PERSON-000002",
+    "BF-PERSON-000006",
+    "BF-PERSON-000007",
+    "BF-PERSON-000005",
+    "BF-PERSON-000008",
+    "BF-PERSON-000009",
+    "BF-PERSON-000010",
+    "BF-PERSON-000011",
+    "BF-PERSON-000012",
+    "BF-PERSON-000013",
+    "BF-PERSON-000015",
+    "BF-PERSON-000014",
+    "BF-PERSON-000016",
+    "BF-PERSON-000017",
+    "BF-PERSON-000018",
+    "BF-PERSON-000019",
+    "BF-PERSON-000020",
+    "BF-PERSON-000023",
+    "BF-PERSON-000022",
+    "BF-PERSON-000021",
+    "BF-PERSON-000024",
+    "BF-PERSON-000025",
+    "BF-PERSON-000027",
+    "BF-PERSON-000026",
+    "BF-PERSON-000028",
+    "BF-PERSON-000029",
+    "BF-PERSON-000030",
+    "BF-PERSON-000032",
+    "BF-PERSON-000098",
+    "BF-PERSON-000033",
+    "BF-PERSON-000034",
+    "BF-PERSON-000036",
+    "BF-PERSON-000035",
+    "BF-PERSON-000038",
+    "BF-PERSON-000037",
+    "BF-PERSON-000039",
+    "BF-PERSON-000041",
+    "BF-PERSON-000040",
+    "BF-PERSON-000045",
+    "BF-PERSON-000042",
+    "BF-PERSON-000043",
+    "BF-PERSON-000044",
+    "BF-PERSON-000046",
+    "BF-PERSON-000047",
+    "BF-PERSON-000048",
+    "BF-PERSON-000049",
+    "BF-PERSON-000052",
+    "BF-PERSON-000051",
+    "BF-PERSON-000053",
+    "BF-PERSON-000054",
+    "BF-PERSON-000055",
+    "BF-PERSON-000056",
+    "BF-PERSON-000057",
+    "BF-PERSON-000058",
+    "BF-PERSON-000059",
+    "BF-PERSON-000081",
+    "BF-PERSON-000031",
+    "BF-PERSON-000060",
+    "BF-PERSON-000082",
+    "BF-PERSON-000050",
+    "BF-PERSON-000061",
+    "BF-PERSON-000063",
+    "BF-PERSON-000062",
+    "BF-PERSON-000064",
+    "BF-PERSON-000065",
+    "BF-PERSON-000066",
+    "BF-PERSON-000067",
+    "BF-PERSON-000068",
+    "BF-PERSON-000070",
+    "BF-PERSON-000069",
+    "BF-PERSON-000071",
+    "BF-PERSON-000072",
+    "BF-PERSON-000073",
+    "BF-PERSON-000075",
+    "BF-PERSON-000074",
+    "BF-PERSON-000078",
+    "BF-PERSON-000077",
+    "BF-PERSON-000079",
+    "BF-PERSON-000080",
+    "BF-PERSON-000084",
+    "BF-PERSON-000083",
+    "BF-PERSON-000076",
+    "BF-PERSON-000093",
+    "BF-PERSON-000089",
+    "BF-PERSON-000090",
+    "BF-PERSON-000088",
+    "BF-PERSON-000102",
+    "BF-PERSON-000104",
+    "BF-PERSON-000100",
+    "BF-PERSON-000103",
+    "BF-PERSON-000099",
+    "BF-PERSON-000106",
+    "BF-PERSON-000087",
+    "BF-PERSON-000094",
+    "BF-PERSON-000095",
+    "BF-PERSON-000096",
+    "BF-PERSON-000097",
+    "BF-PERSON-000105",
+    "BF-PERSON-000101"
+  ],
+  "remaining": [],
+  "current": [],
+  "failed": [],
+  "dispatch_log": {
+    "BF-PERSON-000001": {
+      "agent": "agent_1b5ea46a-4664-4e3d-8aef-1589353b6045",
+      "status": "done"
+    },
+    "BF-PERSON-000002": {
+      "agent": "agent_55f9ac5d-7197-408e-be62-a25793324001",
+      "status": "done",
+      "retries": 1,
+      "note": "wiki-first neutral retry"
+    },
+    "BF-PERSON-000003": {
+      "agent": "agent_9fb2778a-5cce-4bd6-82a1-1089cf2aa55f",
+      "status": "done"
+    },
+    "BF-PERSON-000004": {
+      "agent": "agent_1e67caaf-aa11-45f7-96b9-6881204698e8",
+      "status": "done"
+    },
+    "BF-PERSON-000006": {
+      "agent": "agent_629b2a0b-c4ed-4abc-b98b-b613a8063c5d",
+      "status": "done"
+    },
+    "BF-PERSON-000007": {
+      "agent": "agent_2d2f7feb-7f4f-46c7-9623-d1b2ac24f43a",
+      "status": "done"
+    },
+    "BF-PERSON-000008": {
+      "agent": "agent_74d6cb4b-b2dc-4c41-8852-89e9926f34c5",
+      "status": "done"
+    },
+    "BF-PERSON-000009": {
+      "agent": "agent_7f10a31b-1d60-46bb-a238-1151f4d4bec9",
+      "status": "done"
+    },
+    "BF-PERSON-000010": {
+      "agent": "agent_0583a47f-4850-45c8-97a3-3bf509feedd7",
+      "status": "done"
+    },
+    "BF-PERSON-000005": {
+      "agent": "agent_ed2068ec-0621-4c11-802c-d2de8a4048d8",
+      "status": "done"
+    },
+    "BF-PERSON-000011": {
+      "agent": "agent_7b4a2d29-75dd-47e3-91a7-781cc432a453",
+      "status": "done"
+    },
+    "BF-PERSON-000012": {
+      "agent": "agent_0d775b15-dfaf-444e-94fd-8e38089c5895",
+      "status": "done"
+    },
+    "BF-PERSON-000013": {
+      "agent": "agent_81533425-3e84-47a3-bef7-d989785c61f9",
+      "status": "done"
+    },
+    "BF-PERSON-000014": {
+      "agent": "agent_4deb5cfc-f4ea-4607-b43e-f9631708dd13",
+      "status": "done"
+    },
+    "BF-PERSON-000015": {
+      "agent": "agent_32ce28b8-0ee1-45dc-816f-a414794a73bb",
+      "status": "done"
+    },
+    "BF-PERSON-000016": {
+      "agent": "agent_def0f984-248c-4bd0-a4c5-2e992fb8be0f",
+      "status": "done"
+    },
+    "BF-PERSON-000017": {
+      "agent": "agent_ff47db11-e4a9-4295-bfff-a9dede734b22",
+      "status": "done"
+    },
+    "BF-PERSON-000018": {
+      "agent": "agent_b8093620-df2e-4d3d-b6f6-ff1b1ab446cc",
+      "status": "done",
+      "retries": 1,
+      "note": "wiki-first neutral retry"
+    },
+    "BF-PERSON-000019": {
+      "agent": "agent_df453184-196b-49f0-a10c-2f38bd6bac68",
+      "status": "done"
+    },
+    "BF-PERSON-000020": {
+      "agent": "agent_e18fb2c9-a9dc-440e-ab29-de1e7e56dac8",
+      "status": "done"
+    },
+    "BF-PERSON-000021": {
+      "agent": "agent_33f632c9-bfae-4934-bf1f-fbc015229212",
+      "status": "done"
+    },
+    "BF-PERSON-000022": {
+      "agent": "agent_9871ff3e-084e-48ae-8abb-d04c6bb23163",
+      "status": "done"
+    },
+    "BF-PERSON-000023": {
+      "agent": "agent_88e1d444-f2d1-48cc-acd0-16ece288b9d1",
+      "status": "done"
+    },
+    "BF-PERSON-000024": {
+      "agent": "agent_39700bd4-a42d-4673-8a4d-9ff2cea6d3e7",
+      "status": "done"
+    },
+    "BF-PERSON-000025": {
+      "agent": "agent_29c05b0f-2498-4804-95c5-67b8a4befeab",
+      "status": "done"
+    },
+    "BF-PERSON-000026": {
+      "agent": "agent_e0ec2576-927e-459c-9b40-933f8e896c2b",
+      "status": "done"
+    },
+    "BF-PERSON-000027": {
+      "agent": "agent_f76b1a6c-520f-42df-8849-3bf53e90e304",
+      "status": "done"
+    },
+    "BF-PERSON-000028": {
+      "agent": "agent_6915e588-5b31-453f-a4db-41868582ec04",
+      "status": "done"
+    },
+    "BF-PERSON-000098": {
+      "agent": "main_session",
+      "status": "done",
+      "note": "built directly after 2x content filter trips"
+    },
+    "BF-PERSON-000029": {
+      "agent": "agent_f9d0c24c-5b0c-48e1-a86e-836ede011405",
+      "status": "done"
+    },
+    "BF-PERSON-000030": {
+      "agent": "agent_f79f2220-f292-4de7-9669-89d9e4b21209",
+      "status": "done"
+    },
+    "BF-PERSON-000031": {
+      "status": "done"
+    },
+    "BF-PERSON-000032": {
+      "agent": "agent_56516fea-d71a-4d8d-bba6-7813e5a49e8e",
+      "status": "done"
+    },
+    "BF-PERSON-000033": {
+      "agent": "agent_7cced334-0d01-429d-ae86-cb484abc3601",
+      "status": "done"
+    },
+    "BF-PERSON-000034": {
+      "agent": "agent_f2ae401d-7bbe-4b1d-b18c-d59e3539adef",
+      "status": "done"
+    },
+    "BF-PERSON-000035": {
+      "agent": "agent_32623045-1163-47bb-9937-8ba27e80910e",
+      "status": "done"
+    },
+    "BF-PERSON-000036": {
+      "agent": "agent_4b3de280-9b3a-44cb-ae6f-45c92ea52215",
+      "status": "done"
+    },
+    "BF-PERSON-000037": {
+      "agent": "agent_8b305a33-56c2-46e4-a59f-ed425b08472f",
+      "status": "done"
+    },
+    "BF-PERSON-000039": {
+      "agent": "agent_f92f76ec-3a65-447d-b0d2-fc14e38b11c5",
+      "status": "done"
+    },
+    "BF-PERSON-000038": {
+      "agent": "agent_fbfd3ceb-0036-4ec1-a75e-f2220d4a2c49",
+      "status": "done"
+    },
+    "BF-PERSON-000041": {
+      "agent": "agent_a1a712ea-c8c5-471f-9834-b2e40d64e242",
+      "status": "done"
+    },
+    "BF-PERSON-000040": {
+      "agent": "main_session",
+      "status": "done",
+      "note": "built directly after 2x content filter trips"
+    },
+    "BF-PERSON-000043": {
+      "agent": "agent_deaed61d-7ee0-49b1-9f14-e2780769908a",
+      "status": "done"
+    },
+    "BF-PERSON-000044": {
+      "agent": "agent_fa8f915a",
+      "status": "done"
+    },
+    "BF-PERSON-000045": {
+      "agent": "agent_68ce1bdd-f653-4565-ab81-885be312a0b6",
+      "status": "done"
+    },
+    "BF-PERSON-000042": {
+      "agent": "agent_15eb59d7",
+      "status": "done"
+    },
+    "BF-PERSON-000046": {
+      "agent": "agent_9502969e",
+      "status": "done"
+    },
+    "BF-PERSON-000048": {
+      "agent": "agent_fcd718e3",
+      "status": "done"
+    },
+    "BF-PERSON-000047": {
+      "status": "done"
+    },
+    "BF-PERSON-000049": {
+      "agent": "agent_da489d59",
+      "status": "done"
+    },
+    "BF-PERSON-000051": {
+      "agent": "agent_34369416",
+      "status": "done"
+    },
+    "BF-PERSON-000052": {
+      "agent": "agent_5fbf666d",
+      "status": "done"
+    },
+    "BF-PERSON-000053": {
+      "agent": "agent_edcfbd0c",
+      "status": "done"
+    },
+    "BF-PERSON-000054": {
+      "agent": "agent_2593bb9d",
+      "status": "done"
+    },
+    "BF-PERSON-000055": {
+      "agent": "agent_7c29ccce",
+      "status": "done"
+    },
+    "BF-PERSON-000056": {
+      "agent": "agent_30920b58",
+      "status": "done"
+    },
+    "BF-PERSON-000057": {
+      "agent": "agent_bb2c3b01",
+      "status": "done"
+    },
+    "BF-PERSON-000058": {
+      "agent": "agent_0dfa4a19",
+      "status": "done"
+    },
+    "BF-PERSON-000059": {
+      "agent": "agent_c77b2650",
+      "status": "done"
+    },
+    "BF-PERSON-000081": {
+      "agent": "agent_2263f833",
+      "status": "done"
+    },
+    "BF-PERSON-000082": {
+      "status": "done"
+    },
+    "BF-PERSON-000050": {
+      "agent": "agent_0e4a293c",
+      "status": "done"
+    },
+    "BF-PERSON-000060": {
+      "agent": "agent_a01101bc",
+      "status": "done"
+    },
+    "BF-PERSON-000061": {
+      "agent": "agent_67dac595",
+      "status": "done"
+    },
+    "BF-PERSON-000062": {
+      "agent": "agent_fe1106f1",
+      "status": "done"
+    },
+    "BF-PERSON-000063": {
+      "agent": "agent_81ed9d6b",
+      "status": "done"
+    },
+    "BF-PERSON-000064": {
+      "agent": "agent_20bfcc52",
+      "status": "done"
+    },
+    "BF-PERSON-000065": {
+      "agent": "agent_76173e4e",
+      "status": "done"
+    },
+    "BF-PERSON-000066": {
+      "agent": "agent_7105428c",
+      "status": "done"
+    },
+    "BF-PERSON-000067": {
+      "agent": "agent_678453c9",
+      "status": "done"
+    },
+    "BF-PERSON-000068": {
+      "agent": "agent_4a61a8cc",
+      "status": "done"
+    },
+    "BF-PERSON-000069": {
+      "agent": "agent_ee19c5fc",
+      "status": "done"
+    },
+    "BF-PERSON-000070": {
+      "agent": "agent_abd6b17c",
+      "status": "done"
+    },
+    "BF-PERSON-000071": {
+      "agent": "agent_10723111",
+      "status": "done"
+    },
+    "BF-PERSON-000072": {
+      "agent": "agent_8b2fddc8",
+      "status": "done"
+    },
+    "BF-PERSON-000073": {
+      "agent": "agent_3d2084a0",
+      "status": "done"
+    },
+    "BF-PERSON-000074": {
+      "agent": "agent_5600e9dc",
+      "status": "done"
+    },
+    "BF-PERSON-000075": {
+      "agent": "agent_fc3c152a",
+      "status": "done"
+    },
+    "BF-PERSON-000077": {
+      "agent": "agent_127eb04e",
+      "status": "done"
+    },
+    "BF-PERSON-000078": {
+      "agent": "agent_050bd46a",
+      "status": "done"
+    },
+    "BF-PERSON-000079": {
+      "agent": "agent_46ccf896",
+      "status": "done"
+    },
+    "BF-PERSON-000080": {
+      "agent": "agent_aca90d48",
+      "status": "done"
+    },
+    "BF-PERSON-000083": {
+      "agent": "agent_11e58364",
+      "status": "done"
+    },
+    "BF-PERSON-000084": {
+      "agent": "agent_e2265209",
+      "status": "done"
+    },
+    "BF-PERSON-000076": {
+      "agent": "agent_23aa3d0f",
+      "status": "done"
+    },
+    "BF-PERSON-000089": {
+      "agent": "agent_8efab4ec",
+      "status": "done"
+    },
+    "BF-PERSON-000088": {
+      "agent": "agent_8a048c0b",
+      "status": "done"
+    },
+    "BF-PERSON-000093": {
+      "agent": "agent_8c5ae1ca",
+      "status": "done"
+    },
+    "BF-PERSON-000090": {
+      "agent": "agent_5a56ca9b",
+      "status": "done"
+    },
+    "BF-PERSON-000100": {
+      "agent": "agent_2fad5931",
+      "status": "done"
+    },
+    "BF-PERSON-000104": {
+      "agent": "agent_c940a902",
+      "status": "done"
+    },
+    "BF-PERSON-000102": {
+      "agent": "agent_cc505df2",
+      "status": "done"
+    },
+    "BF-PERSON-000103": {
+      "agent": "agent_3cf9a0f5",
+      "status": "done"
+    },
+    "BF-PERSON-000106": {
+      "agent": "agent_6c2dee75",
+      "status": "done"
+    },
+    "BF-PERSON-000087": {
+      "agent": "agent_aae9eafd",
+      "status": "done"
+    },
+    "BF-PERSON-000099": {
+      "agent": "agent_4b80120a",
+      "status": "done"
+    },
+    "BF-PERSON-000094": {
+      "agent": "agent_5d9a0e78",
+      "status": "done"
+    },
+    "BF-PERSON-000095": {
+      "agent": "agent_de6555bd",
+      "status": "done"
+    },
+    "BF-PERSON-000096": {
+      "agent": "agent_d2002218",
+      "status": "done"
+    },
+    "BF-PERSON-000101": {
+      "agent": "agent_b0d7c5ce",
+      "status": "done"
+    },
+    "BF-PERSON-000097": {
+      "agent": "agent_def3242a",
+      "status": "done"
+    },
+    "BF-PERSON-000105": {
+      "agent": "agent_93e43be6",
+      "status": "done"
+    }
+  },
+  "round2": [
+    "BF-PERSON-000089",
+    "BF-PERSON-000088",
+    "BF-PERSON-000093",
+    "BF-PERSON-000090",
+    "BF-PERSON-000100",
+    "BF-PERSON-000102",
+    "BF-PERSON-000104",
+    "BF-PERSON-000099",
+    "BF-PERSON-000103",
+    "BF-PERSON-000106",
+    "BF-PERSON-000087",
+    "BF-PERSON-000094",
+    "BF-PERSON-000095",
+    "BF-PERSON-000096",
+    "BF-PERSON-000097",
+    "BF-PERSON-000101",
+    "BF-PERSON-000105"
+  ],
+  "notes": [
+    "2026-09-19 current_positions 字段统一优化：35个空缺全部补显显示职务（含000041桑瓦多戈三任部长/000102纳塔马宪兵参谋长两例隐藏履历核查后细化）；复扫 empty=0 / >40字条目=0。",
+    "2026-09-19 人名规范：71个缺失 name_zh 补简体译名（新华社非洲名音译惯例），52个 name_en 剥离变音符；name=法语官方拼写保持不变。"
+  ]
+}

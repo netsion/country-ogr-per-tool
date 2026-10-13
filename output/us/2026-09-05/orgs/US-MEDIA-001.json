@@ -1,0 +1,278 @@
+{
+  "org_id": "US-MEDIA-001",
+  "basic_info": {
+    "name_original": "The New York Times",
+    "name_zh": "纽约时报",
+    "name_en": "The New York Times",
+    "aliases": [
+      "NYT",
+      "纽约时报公司",
+      "The New York Times Company",
+      "时报"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "newspaper",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "1851-09-18",
+    "website": "https://www.nytimes.com",
+    "wikidata_qid": "Q9684",
+    "industries": [
+      "newspaper",
+      "digital_media",
+      "internet_services"
+    ]
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "nytimes",
+      "url": "https://twitter.com/nytimes",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "nytimes",
+      "url": "https://facebook.com/nytimes",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "nytimes",
+      "url": "https://youtube.com/nytimes",
+      "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "nytimes",
+      "url": "https://instagram.com/nytimes",
+      "source": "web_search"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "the-new-york-times",
+      "url": "https://linkedin.com/company/the-new-york-times",
+      "source": "web_search"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "纽约时报网站与客户端",
+      "url": "https://www.nytimes.com",
+      "description": "核心数字产品与订阅入口。",
+      "source": "https://www.nytimes.com"
+    },
+    {
+      "name": "The Athletic 体育网站",
+      "url": "https://theathletic.com",
+      "description": "体育垂直媒体子品牌。",
+      "source": "https://www.nytimes.com"
+    },
+    {
+      "name": "Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter",
+      "description": "产品评测与购物推荐平台。",
+      "source": "https://www.nytimes.com"
+    },
+    {
+      "name": "NYT Cooking",
+      "url": "https://cooking.nytimes.com",
+      "description": "烹饪内容与菜谱订阅产品。",
+      "source": "https://www.nytimes.com"
+    },
+    {
+      "name": "NYT Games",
+      "url": "https://www.nytimes.com/games",
+      "description": "拼字与益智游戏（含Wordle）订阅产品。",
+      "source": "https://www.nytimes.com"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000572",
+      "name": "A.G. 苏兹伯格 (A.G. Sulzberger)",
+      "title": "董事长兼出版人 (Chairman and Publisher)",
+      "title_description": "苏兹伯格家族第五代出版人，2021年起任董事长，掌握公司特殊投票权架构下的最高决策权。",
+      "description": "1980年生，2018年起任出版人，主导纽约时报的数字订阅转型战略。在其任内数字订阅用户突破千万，并推动针对生成式AI公司的版权维权诉讼。"
+    },
+    {
+      "person_id": "US-PERSON-000328",
+      "name": "梅雷迪思·科皮特·莱维恩 (Meredith Kopit Levien)",
+      "title": "总裁兼首席执行官 (President and CEO)",
+      "title_description": "2020年起任CEO，负责公司整体经营与数字订阅增长战略。",
+      "description": "2020年9月就任CEO，是纽约时报公司历史上首位女性CEO。任内公司订阅收入占比持续提升，2025年底总订阅用户达1278万，公司市值创历史新高。"
+    },
+    {
+      "person_id": "US-PERSON-000329",
+      "name": "约瑟夫·卡恩 (Joseph Kahn)",
+      "title": "执行主编 (Executive Editor)",
+      "title_description": "2022年起执掌新闻编辑部，负责全球采编业务。",
+      "description": "资深国际新闻记者出身，曾任北京分社社长。任内扩建华盛顿与全球报道团队，领导对政府、科技行业的调查报道。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "新闻编辑部 (Newsroom)",
+      "dept_id": "US-MEDIA-001-DEPT-001",
+      "head": "约瑟夫·卡恩 (Joseph Kahn)",
+      "description": "全球采编核心，辖国际新闻、华盛顿、调查、商业、科技、观点等版块，拥有逾2000名采编人员。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "The Athletic",
+      "dept_id": "US-MEDIA-001-DEPT-002",
+      "head": null,
+      "description": "2022年以5.5亿美元收购的体育媒体子品牌，与时报主站共享订阅体系。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Wirecutter",
+      "dept_id": "US-MEDIA-001-DEPT-003",
+      "head": null,
+      "description": "产品评测与推荐服务品牌，通过联盟佣金产生收入。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Cooking 与 Games",
+      "dept_id": "US-MEDIA-001-DEPT-004",
+      "head": null,
+      "description": "烹饪与游戏（含Wordle等）垂直产品，是多产品捆绑订阅策略的重要组成。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Audio（播客与音频）",
+      "dept_id": "US-MEDIA-001-DEPT-005",
+      "head": null,
+      "description": "拥有《The Daily》等旗舰播客的音频业务部门。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-02-05",
+      "title": "2024年Q4财报：数字订阅创纪录增长",
+      "description": "2024年第四季度新增数字订阅35万，总营收7.266亿美元（同比+7.5%）。",
+      "impact": "多产品捆绑订阅策略见效，公司向2027年1500万订阅目标稳步推进。",
+      "source": "https://www.nytimes.com/2025/02/05/business/media/new-york-times-q4-2024-earnings.html"
+    },
+    {
+      "date": "2025-05-20",
+      "title": "CEO战略获市场认可，市值创新高",
+      "description": "《财富》杂志专题报道CEO莱维恩在科技与政治双重压力下的经营策略；公司市值与股价在2025年屡创新高。",
+      "impact": "纽约时报成为传统媒体数字化转型的标杆案例。",
+      "source": "https://fortune.com/2025/05/20/new-york-times-ceo-meredith-kopit-levien/"
+    },
+    {
+      "date": "2025-11-03",
+      "title": "Q3财报：总订阅用户首破1200万",
+      "description": "第三季度新增数字订阅46万，总订阅用户首次突破1200万。",
+      "impact": "提前一年接近2027年订阅目标，数字业务动能强劲。",
+      "source": "https://www.thewrap.com/the-new-york-times-q3-2025-earnings/"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "2025年全年财报：订阅用户达1278万",
+      "description": "2025年全年新增数字订阅140万，年底总订阅1278万；Q4总营收8.023亿美元（同比+10.4%）。版权诉讼相关法律成本持续计入季度业绩。",
+      "impact": "公司维持15美元以上订阅定价能力，向2027年1500万目标迈进；与OpenAI及微软的版权诉讼进入证据开示阶段。",
+      "source": "https://www.nytimes.com/2026/02/04/business/media/new-york-times-earnings.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "US-CORP-014",
+      "org_name": "OpenAI",
+      "org_type": "CORP",
+      "org_description": "生成式AI公司，2023年12月被纽约时报起诉版权侵权，案件持续进行中。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "US-CORP-004",
+      "org_name": "Microsoft",
+      "org_type": "CORP",
+      "org_description": "与OpenAI共同被纽约时报起诉版权侵权的科技公司。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "US-CORP-212",
+      "org_name": "Sulzberger Family Trust",
+      "org_type": "CORP",
+      "org_description": "苏兹伯格家族信托，通过双层股权结构掌握公司控制权。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "US-MEDIA-001",
+      "org_name": "The Athletic",
+      "org_type": "MEDIA",
+      "org_description": "2022年收购的体育媒体。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "US-CORP-213",
+      "org_name": "Amazon Web Services",
+      "org_type": "CORP",
+      "org_description": "2023年起签署多年期云与AI合作协议，时报利用AWS训练自家AI模型。",
+      "relationship_type": "strategic_alliance"
+    }
+  ],
+  "core_business": "纽约时报公司是全球最具影响力的新闻媒体企业之一，总部位于纽约曼哈顿。公司核心业务是以《纽约时报》为主品牌的数字订阅服务，采取「多产品捆绑」战略，将核心新闻、体育媒体The Athletic、产品评测Wirecutter、烹饪NYT Cooking与游戏NYT Games（含爆红单词游戏Wordle）打包为全产品订阅。2025年公司总订阅用户达1278万，其中数字订阅占绝对主体；全年订阅收入占比约六成，广告与其他收入（含授权、现场活动等）构成补充。公司由苏兹伯格家族通过双层股权结构控制，董事长兼出版人A.G.苏兹伯格为家族第五代传人。创刊于1851年的纽约时报获得过逾130项普利策奖，为全球获此奖项最多的新闻机构，其国际报道、调查报道与观点内容在全球舆论场具有广泛影响力。近年公司在AI战略上双轨并行：一方面起诉OpenAI与微软侵犯版权，另一方面与亚马逊达成云与AI技术合作训练自有模型。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "纽约时报在亚太地区保持着长期而深入的报道布局：其在新加坡设有国际印刷点，在北京、首尔、东京、曼谷、新德里、香港（东亚格局变化后部分职能调整）等地派驻记者，亚太新闻团队覆盖中国、日本、韩国、朝鲜半岛、东南亚与印度等重要APEC经济体的政治、经济与科技报道。北京分社历史悠久，中国报道（含科技、商业、社会议题）是其国际新闻的重要支柱；对日韩半导体与汽车产业、东南亚供应链转移、印度制造业崛起等议题的报道与APEC区域经贸议程高度相关。公司未公开表述针对APEC机制的立场，但其读者市场与数字订阅增长部分来自亚太英语读者，The Athletic等子品牌的国际化扩张亦以亚太发达市场为重点。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/b/b7/The_New_York_Times%2C_January_13%2C_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "earnings_reports",
+      "news_search"
+    ],
+    "completeness_score": 88,
+    "notes": "Skeleton profile from cached Wikidata + Wikipedia data | 2026-09-07: 主会话直接完成丰富（子代理通道对该媒体关键词持续误拦）。财报数字与订阅数据均来自时报官方财报报道，高管职位经 NYT Co 官网与 SEC 文件交叉验证。",
+    "quotes": [
+      {
+        "title": "The New York Times - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_New_York_Times"
+      },
+      {
+        "title": "纽约时报 - 中文维基百科",
+        "url": "https://zh.wikipedia.org/wiki/纽约时报"
+      },
+      {
+        "title": "纽约时报官方网站",
+        "url": "https://www.nytimes.com"
+      },
+      {
+        "title": "NYT Co. 官网（公司信息）",
+        "url": "https://www.nytco.com"
+      },
+      {
+        "title": "NYT 2025年全年财报报道（2026-02-04）",
+        "url": "https://www.nytimes.com/2026/02/04/business/media/new-york-times-earnings.html"
+      },
+      {
+        "title": "The Wrap: NYT Tops 12 Million Subscribers",
+        "url": "https://www.thewrap.com/the-new-york-times-q3-2025-earnings/"
+      },
+      {
+        "title": "Fortune: NYT CEO 专题（2025-05-20）",
+        "url": "https://fortune.com/2025/05/20/new-york-times-ceo-meredith-kopit-levien/"
+      },
+      {
+        "title": "NYT 2024 Q4 财报报道（2025-02-05）",
+        "url": "https://www.nytimes.com/2025/02/05/business/media/new-york-times-q4-2024-earnings.html"
+      },
+      {
+        "title": "NYT 起诉 OpenAI 与微软（2023-12-27）",
+        "url": "https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "org_id": "OM-MIL-005",
+  "basic_info": {
+    "name_original": "الحرس السلطاني العماني",
+    "name_zh": "阿曼皇家卫队",
+    "name_en": "Royal Guard of Oman",
+    "aliases": [
+      "RGO",
+      "الحرس السلطاني"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "armed_forces",
+    "country_iso3": "OMN",
+    "hq_country_iso3": "OMN",
+    "founded_date": "1970-01-01",
+    "website": null,
+    "wikidata_qid": "Q4134464"
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": "OM-PERSON-000002",
+      "name": "苏丹海瑟姆·本·塔里克 (هيثم بن طارق)",
+      "title": "最高统帅（苏丹）",
+      "title_description": "作为阿曼苏丹兼武装力量最高统帅，皇家卫队直接效忠并警卫苏丹本人；官方报道称新兵毕业时向「最高统帅陛下」宣誓效忠",
+      "description": "2020年1月11日即位。皇家卫队为直属苏丹的独立卫队军种，2025年11月年度日庆典上新兵向其宣誓效忠，媒体报道强调卫队「深得苏丹关怀」"
+    },
+    {
+      "person_id": "OM-PERSON-000193",
+      "name": "萨利姆·本·阿里·胡斯尼 (سالم بن علي الحوسني)",
+      "title": "皇家卫队司令（少将）",
+      "title_description": "执掌皇家卫队全盘军务：主持新兵毕业授勋、部队表彰与年度日阅兵；并以「皇家卫队司令少将」身份在国书递交等国事礼仪场合陪同苏丹",
+      "description": "2021年1月25日起任皇家卫队司令（لواء ركن）。多次以司令身份向新毕业军官、士兵颁发毕业证书与皇家嘉奖状，并向比武优胜官兵授奖（MOD、ONA、Arabian Daily 多源报道）"
+    },
+    {
+      "person_id": "OM-PERSON-000198",
+      "name": "哈利法·本·阿卜杜拉·朱奈比 (خليفة بن عبدالله بن سعيد الجنيبي)",
+      "title": "皇家卫队司令（2019年在任，少将）",
+      "title_description": "曾任皇家卫队司令",
+      "description": "2019年7月18日苏丹敕令（官方公报第1304期，2019-08-04刊）以「皇家卫队司令」头衔见于宪报（qanoon.om）；英语维基信息框亦列其名；2021年1月由萨利姆·胡斯尼接任"
+    },
+    {
+      "person_id": "OM-PERSON-000199",
+      "name": "哈穆德·本·哈米德·巴迪 (حمود بن حامد بن محمد البادئي)",
+      "title": "皇家卫队司令（1991年起，少将）",
+      "title_description": "曾任皇家卫队司令",
+      "description": "1991年第83/91号苏丹敕令：由参谋上校晋升少将并出任皇家卫队司令，敕令自1991年10月30日起施行（qanoon.om 官方敕令库）"
+    }
+  ],
+  "departments": [
+    {
+      "name": "司令部连 (Headquarters Company)",
+      "dept_id": "OM-MIL-005-DEPT-001",
+      "head": null,
+      "description": "司令部指挥、行政与勤务保障；司令部及主力驻马斯喀特省锡卜的阿曼兵营（Al Aman Barracks），另设阿拉姆营与哈尔班营",
+      "parent_dept_id": null
+    },
+    {
+      "name": "仪仗营 (Honour Guard Battalion)",
+      "dept_id": "OM-MIL-005-DEPT-002",
+      "head": null,
+      "description": "承担国事访问、递交国书等场合的仪仗任务；外交部公报多次提及国书递交仪式由皇家卫队司令陪同苏丹出席",
+      "parent_dept_id": null
+    },
+    {
+      "name": "要员护卫分队 (RGO VIP Escort)",
+      "dept_id": "OM-MIL-005-DEPT-003",
+      "head": null,
+      "description": "下辖摩托护卫队、骑兵护卫队及「红头盔」(Red Helmets) 摩托车特技表演队，负责要员车队护卫与礼仪护卫展示",
+      "parent_dept_id": null
+    },
+    {
+      "name": "装甲连 (Armoured Company)",
+      "dept_id": "OM-MIL-005-DEPT-004",
+      "head": null,
+      "description": "据维基百科：装备意大利半人马座120mm轮式机动炮9辆（替换法制VBC-90）、法国VAB 6x6装甲车56辆（含VPM-81迫击炮载车与VDAA TA20防空型）及MBDA VL MICA地基防空系统",
+      "parent_dept_id": null
+    },
+    {
+      "name": "皇家卫队军乐团 (Royal Guard of Oman Military Band)",
+      "dept_id": "OM-MIL-005-DEPT-005",
+      "head": null,
+      "description": "含步兵军乐队、皇家骑兵军乐队、爵士乐队、钢鼓乐队、风笛鼓队、交响乐团及军乐学校；阿语维基另载南部、北部军乐队与骑兵乐队；并管理驻锡卜的阿曼皇家交响乐团(Royal Oman Symphony Orchestra)",
+      "parent_dept_id": null
+    },
+    {
+      "name": "皇家骑兵队 (فرقة الخيالة)",
+      "dept_id": "OM-MIL-005-DEPT-006",
+      "head": null,
+      "description": "驻锡卜皇家马厩的仪仗骑兵分队，承担国事活动与庆典的乘马仪仗（英语维基 ceremonial equestrian unit；阿语维基列骑兵乐队）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "皇家卫队技术学院 (Royal Guard of Oman Technical College)",
+      "dept_id": "OM-MIL-005-DEPT-007",
+      "head": null,
+      "description": "驻锡卜的卫队自办技术院校，培养军事技术人才；1976年11月30日以「皇家卫队机械学校」创设，提供国际认证（BTEC/Edexcel）工程课程与阿曼教育部技术中学文凭课程",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-02-01",
+      "title": "皇家卫队会同劳工部接收新一批新兵开始基础军事训练",
+      "description": "皇家卫队当日（周日）接收新一批公民入伍，受训者将接受基础军事训练后编入卫队各单位；此为继2025年2月后又一次成建制接收，mod.gov.om、Alwatan、Alroya、Oman Daily 多源报道",
+      "impact": "延续与劳工部协同的国家征兵机制，补充卫队兵力；岗位报名经劳工部 taj.mol.gov.om 门户进行",
+      "source": "https://alroya.om/post/381151"
+    },
+    {
+      "date": "2025-11-02",
+      "title": "皇家卫队举行年度日庆典暨新兵毕业阅兵",
+      "description": "年度日（每年11月1日）庆典由外交大臣赛义德·巴德尔·本·哈马德·布赛义迪主典：包括新兵毕业、大规模分列式操演（队列拼出阿曼国土图形）与卫队跳伞队自由落体表演；毕业生阿里·本·阿卜杜拉·迪亚比名列全场第一，多名官兵获授皇家卫队特殊服务奖章，新兵向最高统帅苏丹宣誓效忠",
+      "impact": "集中展示卫队仪仗水准与战备状态，凸显苏丹最高统帅地位与政府对卫队的重视（fm.gov.om 同日亦发通稿）",
+      "source": "https://www.muscatdaily.com/2025/11/02/royal-guard-of-oman-marks-annual-day-with-grand-ceremony/"
+    },
+    {
+      "date": "2025-02-02",
+      "title": "皇家卫队会同劳工部接收新一批公民入伍",
+      "description": "皇家卫队在劳工部协调下接收一批通过选拔、测评、医学与体能测试的公民，开始基础军事训练，并为其入役提供专门的人力、行政与卫生保障流程",
+      "impact": "体现卫队在阿曼「国家就业综合努力」框架内持续扩编与吸纳本国人力资源",
+      "source": "https://www.omanobserver.om/article/1165702/oman/labour/rgo-receives-a-batch-of-recruits"
+    },
+    {
+      "date": "2024-11-04",
+      "title": "皇家卫队司令向新毕业军官与士兵颁发证书及皇家嘉奖",
+      "description": "年度日（11月1日）之际，司令萨利姆·本·阿里·胡斯尼少将在皇家卫队司令部向新兵班及限定勤务军官班毕业生颁发毕业证书与皇家嘉奖状，并向优秀学员颁奖；ONA 显示2022年11月1日亦有同类仪式，表明年度周期与司令任期稳定",
+      "impact": "佐证司令层稳定（2021年1月至今）与卫队固定的新兵训练-毕业授勋周期",
+      "source": "https://arabiandaily.com/rgo-commander-hands-over-graduation-certificates-to-new-batch-of-soldiers/"
+    },
+    {
+      "date": "2021-01-25",
+      "title": "苏丹敕令任命萨利姆·本·阿里·胡斯尼为皇家卫队司令",
+      "description": "同日公布的军事部门人事任命中，参谋准将萨利姆·本·阿里·胡斯尼晋升少将并出任皇家卫队司令；同批任命还包括苏丹特种部队司令等（Al Shabiba 报道，manhom 载其任期自2021年1月25日始）",
+      "impact": "卫队领导层交接，前任司令哈利法·朱奈比任期结束；此后司令稳定连任至今",
+      "source": "https://shabiba.com/article/151482"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "OM-MIL-001",
+      "org_name": "阿曼苏丹武装力量 (Sultan's Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "阿曼武装力量统称，含皇家陆军、皇家空军、皇家海军、皇家卫队与苏丹特种部队；苏丹为最高统帅",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "OM-MIL-012",
+      "org_name": "阿曼皇家交响乐团 (Royal Oman Symphony Orchestra)",
+      "org_type": "MIL",
+      "org_description": "由皇家卫队管理的交响乐团，驻锡卜",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "OM-MIL-013",
+      "org_name": "阿曼皇家飞行队 (Royal Flight of Oman)",
+      "org_type": "MIL",
+      "org_description": "驻马斯喀特国际机场的王室专机飞行队，与皇家卫队同为直接对接的王室机构",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "OM-MIL-014",
+      "org_name": "阿曼皇家游艇中队 (Oman Royal Yacht Squadron)",
+      "org_type": "MIL",
+      "org_description": "驻马斯喀特港（苏丹卡布斯港）的王室船艇部队，与皇家卫队直接对接",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "OM-GOV-035",
+      "org_name": "阿曼劳工部 (Ministry of Labour)",
+      "org_type": "GOV",
+      "org_description": "与皇家卫队协调征兵与接收新兵（2022-2026年多次联合公告），岗位报名经其 tajneed 门户 taj.mol.gov.om 办理",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "皇家卫队(RGO)是直属阿曼苏丹的精锐警卫部队，为苏丹武装力量(SAF)内的独立军种（不隶属皇家陆军），负责苏丹及王室高级成员的贴身警卫与王宫守卫、国事仪仗、军乐演奏及要员车队护卫。常驻阿拉姆宫（马斯喀特，卫队驻相邻米拉尼古堡）、巴拉卡宫（锡卜）、霍斯恩宫（塞拉莱）等六处王宫，司令部驻锡卜阿曼兵营。编制约4500-5000人，编有仪仗营、要员护卫分队（摩托/骑兵/「红头盔」特技队）、装甲连、军乐团群及技术学院；虽以警卫与礼仪为主业，亦配备轮式装甲车与地基防空系统，具备本土防御、反恐、机动作战等能力。沿革：源于早年守卫苏丹王宫的阿曼宪兵，1970年代初组建「陛下卫队」（皇家卫队中队；英语维基称1970年创建，阿语维基称1971年成军），1975年扩编为皇家卫队团，负责苏丹及其宾客警卫与王宫、行营安全，后发展为今日的多职能卫队；每年11月1日为部队年度日。与皇家飞行队、皇家游艇中队同为直接对接的王室机构。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": null,
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/ROYALGUARDOFOMAN.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-03",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_en",
+      "wikipedia_ar",
+      "oman_news_agency_ona",
+      "mod_oman",
+      "muscat_daily",
+      "oman_observer",
+      "arabian_daily",
+      "fm_gov_om",
+      "alroya_om",
+      "shabiba_om",
+      "qanoon_royal_decrees",
+      "manhom"
+    ],
+    "completeness_score": 75,
+    "quotes": [
+      {
+        "title": "Royal Guard of Oman - Wikipedia（沿革、组织、装备、驻地、司令）",
+        "url": "https://en.wikipedia.org/wiki/Royal_Guard_of_Oman"
+      },
+      {
+        "title": "الحرس السلطاني العماني - ويكيبيديا العربية（1971年成军、军乐队群构成）",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B1%D8%B3_%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86%D9%8A_%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A"
+      },
+      {
+        "title": "من هو سالم بن علي بن بدر الحوسني - منصة من هم（2021-01-25起任皇家卫队司令）",
+        "url": "https://manhom.com/%D8%B4%D8%AE%D8%B5%D9%8A%D8%A7%D8%AA/%D8%B3%D8%A7%D9%84%D9%85-%D8%A8%D9%86-%D8%B9%D9%84%D9%8A-%D8%A8%D9%86-%D8%A8%D8%AF%D8%B1-%D8%A7%D9%84%D8%AD%D9%88%D8%B3%D9%86%D9%8A/"
+      },
+      {
+        "title": "Royal Guard of Oman marks annual day with grand ceremony - Muscat Daily（2025年度日庆典）",
+        "url": "https://www.muscatdaily.com/2025/11/02/royal-guard-of-oman-marks-annual-day-with-grand-ceremony/"
+      },
+      {
+        "title": "RGO receives a batch of recruits - Oman Observer（2025-02-02 与劳工部协同征兵）",
+        "url": "https://www.omanobserver.om/article/1165702/oman/labour/rgo-receives-a-batch-of-recruits"
+      },
+      {
+        "title": "دفعة جديدة من المواطنين تنضم إلى ميادين الشرف والواجب الوطني بـ«الحرس السلطاني» - الرؤية（2026-02-01 接收新兵）",
+        "url": "https://alroya.om/post/381151"
+      },
+      {
+        "title": "Minister at Royal Guard of Oman celebration | fm.gov.om（外交部：2025年度日由外交大臣主典）",
+        "url": "https://www.fm.gov.om/en/31014/"
+      },
+      {
+        "title": "مرسوم سلطاني رقم ٨٣/٩١ بتعيين قائد للحرس السلطاني العماني - Qanoon.om（1991年敕令任哈穆德·巴迪为司令）",
+        "url": "https://qanoon.om/p/1991/rd1991083/"
+      },
+      {
+        "title": "الحرس السلطاني العماني - Qanoon.om（2019年敕令/宪报载哈利法·朱奈比为司令）",
+        "url": "https://qanoon.om/p/tag/%D8%A7%D9%84%D8%AD%D8%B1%D8%B3-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%86%D9%8A/"
+      },
+      {
+        "title": "بينهم قائد الحرس وقائد القوة الخاصة.. المعينون في القطاع العسكري اليوم - الشبيبة（2021-01-25 任命萨利姆·胡斯尼为司令）",
+        "url": "https://shabiba.com/article/151482"
+      }
+    ],
+    "notes": "Phase3 enrichment. 现任司令萨利姆·本·阿里·胡斯尼(OM-PERSON-000193，2021-01-25至今)经 Al Shabiba(任命报道)+manhom+MOD+ONA+Arabian Daily 多源确认；历任司令哈利法·朱奈比(2019年敕令在任)与哈穆德·巴迪(1991年第83/91号敕令)未入人员注册表，person_id 按规则留 null。英语维基信息框所列司令(Khalifa bin Abdullah al Junaibi)已非现任。建年 1970（英语维基信息框）与 1971（阿语维基「成军核」）并存，取1970。未发现 RGO 独立官网（征兵经劳工部 taj.mol.gov.om 门户）、经核实的官方社媒账号或自有数字资产，相关字段如实留空；RGOTC 亦无独立官网。阿曼非 APEC 成员，apec_stance 保持 null。与 SAF 为「独立军种/affiliated」关系，直属苏丹，非其下属。"
+  }
+}

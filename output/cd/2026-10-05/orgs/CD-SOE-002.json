@@ -1,0 +1,305 @@
+{
+  "org_id": "CD-SOE-002",
+  "basic_info": {
+    "name_original": "Société nationale d'électricité",
+    "name_zh": "刚果国家电力公司",
+    "name_en": "Société Nationale d'Électricité (SNEL)",
+    "aliases": [
+      "SNEL",
+      "SNEL SA",
+      "Snel SA"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "COD",
+    "hq_country_iso3": "COD",
+    "founded_date": "1970-05-16",
+    "website": "https://www.snel.cd/",
+    "wikidata_qid": "Q3488513"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "Snel_Officiel",
+      "url": "https://x.com/Snel_Officiel",
+      "source": "x.com 官方账号（2019年11月注册，约3.6万关注者）"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "SNELrdc",
+      "url": "https://x.com/SNELrdc",
+      "source": "x.com（账号简介注明 Société Nationale d'Electricité SA de la République Démocratique du Congo）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Société Nationale d'Électricité Sa",
+      "url": "https://cd.linkedin.com/company/soci%C3%A9t%C3%A9-nationale-d-%C3%A9lectricit%C3%A9",
+      "source": "linkedin.com 公司主页（总部标注 Kinshasa/Gombe）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "SNEL RDC - Société Nationale d'Électricité",
+      "url": "https://www.facebook.com/p/SNEL-RDC-Soci%C3%A9t%C3%A9-Nationale-d%C3%89lectricit%C3%A9-61570959030189/",
+      "source": "facebook.com（页面自述 Page officielle de la SNEL RDC）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "Espace Client（客户自助服务门户）",
+      "url": "https://www.snel.cd/espace-client",
+      "description": "在线受理合法接电申请、投诉与建议，并提供客户账单查询等服务。",
+      "source": "snel.cd 官网"
+    },
+    {
+      "name": "Indicateurs 2025（年度关键指标页）",
+      "url": "https://www.snel.cd/indicateurs-2025",
+      "description": "官网发布的截至2025年12月31日经营关键指标（装机、线路、客户数等）。",
+      "source": "snel.cd 官网"
+    },
+    {
+      "name": "Actualités（官网新闻中心）",
+      "url": "https://www.snel.cd/actualites",
+      "description": "发布公司公告、领导活动与供电动态的官方新闻栏目。",
+      "source": "snel.cd 官网"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "CD-PERSON-000197",
+      "name": "泰迪·卢万巴·穆巴（Teddy Lwamba Muba）",
+      "title": "总经理（Directeur Général, DG）",
+      "title_description": "公司日常经营与全国电力业务最高负责人",
+      "description": "教授级电气工程博士（Prof. Dr. Ir.），曾任刚果（金）水资源与电力部长，出任总经理前为 SNEL 副总经理。2025年9月20日经总统令任命为总经理并经国家广播宣读生效，接替法布里斯·卢辛德（Fabrice Lusinde）。上任后提出'CAP 2030'战略，推动世界银行合作、公司重组研究与全国供电改善督导。"
+    },
+    {
+      "person_id": "CD-PERSON-000198",
+      "name": "卢克·巴迪班加·姆万扎（Luc Badibanga Mwanza）",
+      "title": "董事会主席（Président du Conseil d'Administration, PCA）",
+      "title_description": "董事会负责人，主持公司治理与战略监督",
+      "description": "2024年4月11日由总统令任命为 SNEL SA 董事会主席，4月16日正式就职，接替阿方斯·基索洛凯莱（Alphonse Kisolokele）。此前长期执掌英美烟草在刚果（金）的子公司刚果烟草公司（TABACONGO），并曾任英美烟草（BAT）刚果公司董事总经理。2026年仍在任（官网'领导团队'页列名）。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "董事会（Conseil d'Administration）",
+      "dept_id": "CD-SOE-002-DEPT-001",
+      "head": "卢克·巴迪班加·姆万扎（Luc Badibanga Mwanza）",
+      "description": "公司最高治理机构，由董事会主席与7名董事组成，负责战略决策、重大投资审批和对总经理层的监督。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "总经理部（Direction Générale）",
+      "dept_id": "CD-SOE-002-DEPT-002",
+      "head": "泰迪·卢万巴·穆巴（Teddy Lwamba Muba）",
+      "description": "负责公司日常经营，统筹发电、输电、配电与售电四大业务板块及全国各区运营；现任管理层下设副总经理职，并提出'CAP 2030'转型战略。",
+      "parent_dept_id": "CD-SOE-002-DEPT-001"
+    },
+    {
+      "name": "商业部（Direction Commerciale）",
+      "dept_id": "CD-SOE-002-DEPT-003",
+      "head": null,
+      "description": "负责客户服务与售电业务：受理高压（HT）大客户、工业与机构用户的接电申请和购售电合同管理；全国各销售与服务中心（Centres des Ventes et Services, CVS）办理低/中压客户的接电、抄表、计费、缴费与投诉业务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-20",
+      "title": "泰迪·卢万巴·穆巴获任总经理",
+      "description": "总统令于2025年9月20日宣读生效，任命前水资源与电力部长、时任副总经理泰迪·卢万巴·穆巴为 SNEL SA 总经理，接替法布里斯·卢辛德；此时公司正面临发电不足与频繁限电的严峻局面。",
+      "impact": "领导层更替，新一届管理层随后提出'CAP 2030'战略并启动公司改革与对世界银行的再对接。",
+      "source": "https://actualite.cd/2025/09/20/rdc-teddy-lwamba-nomme-directeur-general-de-la-snel"
+    },
+    {
+      "date": "2025-11-11",
+      "title": "总经理率世界银行代表团考察英加站址，推进英加三级前期工作",
+      "description": "总经理泰迪·卢万巴在下刚果省英加水电枢纽接待世界银行代表团（含世行非洲地区业务局局长阿尔贝·泽费克及七国集团驻刚果（金）七国使馆代表），启动英加三级（Inga 3）项目备选方案研究。项目目标为到2030年将全国通电率从21%提升至60%以上。",
+      "impact": "英加三级这一刚果（金）史上最大能源项目重启取得实质进展，SNEL 为项目业主方。",
+      "source": "https://africamonde.net/actualite/Inga-3--la-SNEL-et-la-Banque-mondiale-posent-les-bases-du-plus-grand-projet-energetique-de-la-RDC"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "重启与南部非洲电力池（SAPP）及赞比亚电网的接触",
+      "description": "SNEL 代表团赴赞比亚会见南部非洲电力池（SAPP）执行秘书与赞比亚供电公司（ZESCO）总经理，在约八年僵局后重新推动区域电力互联与电力贸易议题。",
+      "impact": "为英加电力对南部非洲出口和区域一体化铺路。",
+      "source": "https://liberalinfo.net/rdc-zambie-la-snel-engage-une-offensive-strategique-apres-8-ans-dimpasse"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "世界银行春季会议期间华盛顿磋商 SNEL 重组与英加计划",
+      "description": "财政部长杜杜·宽巴（Doudou Fwamba）与掌管国有企业部（Portefeuille）部长朱莉·希库（Julie Shiku）率团，偕总经理泰迪·卢万巴、人力资源总监及工会代表与世界银行技术团队举行工作会谈，议题涵盖电力、水务与英加计划；咨询机构 Petratec 提交了包括'覆盖全价值链的一体化公司'在内的五种 SNEL 重组情景，近期立法修订已纳入'企业统一体'逻辑。",
+      "impact": "SNEL'重建/重组'（refondation）进入政策议程，世界银行资金与技术支持路径逐步明确。",
+      "source": "https://www.snel.cd/actualite/26050510025767952569f9c051a5e6f"
+    },
+    {
+      "date": "2026-05-05",
+      "title": "SNEL 启动向基奎特（Kikwit）供电",
+      "description": "公司官网宣布向奎卢省首府基奎特启动供电，官方称之为'历史性时刻'，系公司扩展西部电网覆盖、提升全国通电率的举措之一。",
+      "impact": "营业区域向此前依赖热电与自备电源的城市延伸。",
+      "source": "https://www.snel.cd/actualite/26050509591970000469f9bf77aae6b"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "枯水期致可用出力骤降，宣布限电与检修计划",
+      "description": "刚果河进入枯水期，英加一级水电站与宗戈二级（Zongo II）电站可用出力合计减少约205兆瓦，英加电站部分机组停运；公司发布枯水预警，呼吁合理用电，并宣布实施轮停限电、机组检修与复建工程。",
+      "impact": "金沙萨及西部、南部电网限电加剧，用户强烈不满，公司以检修复建与增补电源应对。",
+      "source": "https://bankable.africa/fr/actualites/2007-3339-inga-i-et-zongo-ii-letiage-reduit-de-205-mw-la-puissance-disponible-de-la-snel"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "与纳米比亚 NamPower 合作推进英加电力出口变现",
+      "description": "SNEL 与纳米比亚电力公司（NamPower）加强能源合作，双方依托南部非洲电力池（SAPP）加快区域一体化，为英加电站电力出口变现做准备；该进程由总经理泰迪·卢万巴推动。",
+      "impact": "拓展区域电力贸易伙伴，为英加电站富余电力寻找出口市场。",
+      "source": "https://www.africanewsrdc.net/actu/la-snel-et-la-namibienne-nampower-misent-sur-la-sapp-pour-monetiser-inga/"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "与土耳其 Karpowership 达成135兆瓦浮动电站部署合作",
+      "description": "9月30日土耳其浮动电站运营商 Karpowership 代表拜会总经理泰迪·卢万巴；10月1日双方就在下刚果省马塔迪部署一座130-135兆瓦浮动电站（驳船电站）达成协议，以补充枯水期缺口、改善金沙萨供电。",
+      "impact": "公司首次通过浮动电站补充水电为主的电源结构，缓解西部电网约200兆瓦量级缺口。",
+      "source": "https://decrypt-eco.net/2026/10/01/rdc-la-snel-etudie-avec-karpowership-une-centrale-flottante-pouvant-atteindre-135-mw/"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "启动金沙萨欠费强制追缴行动",
+      "description": "总经理办公9月30日发布公告，10月1日起对欠费客户开展强制与集中追缴：欠费持续将立即断电，复电须缴清全部欠费及复电费；缴费仅限公司窗口并出具电脑收据。行动背景是首都多个街区限电持续、用户在社交媒体集中投诉服务质量。",
+      "impact": "公司试图改善现金流与缴费纪律，但与限电叠加引发用户与公司关系紧张。",
+      "source": "https://www.radiookapi.net/2026/10/01/actualite/societe/la-snel-lance-le-recouvrement-force-des-factures-impayees-kinshasa-des"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "CD-GOV-001",
+      "org_name": "刚果民主共和国政府（Gouvernement de la République Démocratique du Congo）",
+      "org_type": "GOV",
+      "org_description": "国家最高行政机关。SNEL SA 注册资本6,384,108,500,000刚果法郎、共10,000记名股，刚果（金）国家为唯一股东。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "CD-GOV-011",
+      "org_name": "水资源与电力部（Ministère des Ressources en Eau et Électricité）",
+      "org_type": "GOV",
+      "org_description": "能源行业技术主管部委，对公司行使技术监管；另一监管方为掌管国有企业部（Ministère du Portefeuille，行政与财务监管），形成'双元监管'格局。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "CD-SOE-001",
+      "org_name": "加丹加矿业公司（La Générale des Carrières et des Mines, Gécamines）",
+      "org_type": "SOE",
+      "org_description": "刚果（金）国有矿业旗舰企业，总部位于加丹加，是 SNEL 南部电网的重要工业用电客户之一。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CD-SOE-003",
+      "org_name": "刚果水务公司（Régie de Distribution d'Eau, Regideso）",
+      "org_type": "SOE",
+      "org_description": "国有供水公用事业公司。1979年国家将其散布全国约30座热电厂移交 SNEL 管理，由此奠定 SNEL 行业事实垄断地位。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "CD-FIN-014",
+      "org_name": "世界银行（World Bank）",
+      "org_type": "INTL",
+      "org_description": "多边开发银行。2025-2026年与 SNEL 就英加三级项目备选方案研究、电力部门改革与 SNEL 重组密集互动，为项目与改革的主要外部融资与技术伙伴。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-INTL-029",
+      "org_name": "南部非洲电力池（Southern African Power Pool, SAPP）",
+      "org_type": "INTL",
+      "org_description": "南部非洲区域电力互联与交易平台。SNEL 为其成员公用事业公司，2026年重新激活参与，与赞比亚 ZESCO、纳米比亚 NamPower 推进互联与出口。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "CD-CORP-019",
+      "org_name": "卡尔珀船舶电力公司（Karpowership）",
+      "org_type": "CORP",
+      "org_description": "土耳其浮动电站运营商。2026年10月与 SNEL 达成在马塔迪部署130-135兆瓦浮动电站的协议。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-020",
+      "org_name": "中国长江三峡集团（China Three Gorges Corporation）",
+      "org_type": "CORP",
+      "org_description": "中国水电开发企业。2015年起曾牵头并（与西班牙 ACS 组建联合体）推进英加三级项目开发合作，是该项目建设权沿革中的重要历史合作方；项目重启后合作格局已调整。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "CD-CORP-021",
+      "org_name": "赞比亚供电公司（ZESCO）",
+      "org_type": "CORP",
+      "org_description": "赞比亚国家电力公司。2026年3月 SNEL 代表团与其总经理重启双边接触，讨论区域互联与电力贸易。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "刚果国家电力公司（SNEL SA）是刚果（金）主要电力运营商，业务覆盖发电、输电、配电与售电全价值链。公司运营刚果河下游英加（Inga）水电枢纽：英加一级电站（351兆瓦，1972年11月24日投产）与英加二级电站（1,424兆瓦，1982年投产），全网水电装机约2,585.94兆瓦，另有少量热电（约43.88兆瓦）与马诺诺1兆瓦峰光伏，约98%可用出力来自水电。输电网包括7,273.8公里高压线路（500千伏直流及400/220/132/70/50千伏交流），中低压配电网约2.97万公里、5,610座配电房，服务客户约93.5万户。业务约97%集中于西部与南部走廊（金沙萨、下刚果、加丹加等地），并向加丹加矿业带及矿业企业供电，同时通过南部非洲电力池开展区域电力贸易。公司正推进'CAP 2030'战略与'一体化企业'重组研究，核心工程为英加三级（Inga 3）水电项目（规划数吉瓦级），并拟以浮动电站等补充电源。",
+  "industries": [
+    "electricity_gas",
+    "energy_renewable",
+    "utilities"
+  ],
+  "apec_stance": "刚果民主共和国不是亚太经合组织（APEC）成员。APEC 现有21个成员经济体，均为环太平洋国家和地区，目前没有任何非洲国家加入，因此 SNEL 及其母国不涉及任何 APEC 议题，亦无相关立场。在实际能源合作方面，SNEL 的主要对外伙伴为：世界银行（2025-2026年推动英加三级项目前期研究与 SNEL 重组磋商）、南部非洲电力池（SAPP，SNEL 为成员，2026年与赞比亚 ZESCO、纳米比亚 NamPower 重启互联与出口合作）、土耳其 Karpowership（2026年10月协议在马塔迪部署135兆瓦浮动电站）；历史上，中国长江三峡集团自2015年起曾与西班牙 ACS 组建联合体参与英加三级开发合作，后项目重启、合作格局调整。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/99/Logo-snel_ombre.svg/330px-Logo-snel_ombre.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-05",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "snel.cd 官网（/historique、/equipe-dirigeante、/actualites、首页指标）",
+      "radiookapi.net",
+      "actualite.cd",
+      "tele50.cd",
+      "digitalcongo.org",
+      "africamonde.net",
+      "infos27.cd",
+      "bankable.africa",
+      "ouragan.cd",
+      "africanewsrdc.net",
+      "decrypt-eco.net",
+      "miningandbusiness.com",
+      "liberalinfo.net",
+      "ucmenergie-rdc.com",
+      "memoireonline.com",
+      "devex.com",
+      "x.com",
+      "linkedin.com",
+      "facebook.com"
+    ],
+    "quotes": [
+      {
+        "title": "Snel SA | Historique et transformation（官网历史沿革页：1970年5月16日第70/033号法令创建，2014年改制为国有独资股份公司）",
+        "url": "https://www.snel.cd/historique"
+      },
+      {
+        "title": "SNEL SA | Equipe Dirigeante（官网领导团队页：PCA Luc Badibanga Mwanza、DG Teddy Lwamba Muba、DGA Bienvenue Monyango）",
+        "url": "https://www.snel.cd/equipe-dirigeante"
+      },
+      {
+        "title": "RDC : Teddy Lwamba nommé directeur général de la SNEL（2025-09-20）",
+        "url": "https://actualite.cd/2025/09/20/rdc-teddy-lwamba-nomme-directeur-general-de-la-snel"
+      },
+      {
+        "title": "Inga 3 : la SNEL et la Banque mondiale posent les bases du plus grand projet énergétique de la RDC（2025-11-11世行代表团考察英加）",
+        "url": "https://africamonde.net/actualite/Inga-3--la-SNEL-et-la-Banque-mondiale-posent-les-bases-du-plus-grand-projet-energetique-de-la-RDC"
+      },
+      {
+        "title": "La SNEL lance le recouvrement forcé des factures impayées à Kinshasa dès ce 1er octobre 2026（Radio Okapi）",
+        "url": "https://www.radiookapi.net/2026/10/01/actualite/societe/la-snel-lance-le-recouvrement-force-des-factures-impayees-kinshasa-des"
+      },
+      {
+        "title": "Inga I et Zongo II : l'étiage réduit de 205 MW la puissance disponible de la SNEL（2026-07-20）",
+        "url": "https://bankable.africa/fr/actualites/2007-3339-inga-i-et-zongo-ii-letiage-reduit-de-205-mw-la-puissance-disponible-de-la-snel"
+      },
+      {
+        "title": "RDC : la SNEL étudie avec Karpowership une centrale flottante pouvant atteindre 135 MW（2026-10-01）",
+        "url": "https://decrypt-eco.net/2026/10/01/rdc-la-snel-etudie-avec-karpowership-une-centrale-flottante-pouvant-atteindre-135-mw/"
+      }
+    ],
+    "completeness_score": 88,
+    "notes": "Phase3 enriched: 领导层（2024/2025年总统令任命）经官网+多家媒体交叉核实；成立日期采官网口径1970-05-16（Ordonnance loi n°70/033；1967-09-23为政府启动英加工程决策，Wikidata 1967 系此口径）；近期事件9条（2025-09至2026-10）。官网 snel.cd 可访问，无需替代来源。"
+  }
+}

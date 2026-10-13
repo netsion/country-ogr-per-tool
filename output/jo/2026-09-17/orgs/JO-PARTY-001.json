@@ -1,0 +1,171 @@
+{
+  "org_id": "JO-PARTY-001",
+  "basic_info": {
+    "name_original": "حزب جبهة العمل الإسلامي",
+    "name_zh": "伊斯兰行动阵线",
+    "name_en": "Islamic Action Front",
+    "aliases": [
+      "جبهة العمل الإسلامي",
+      "Islamic Action Front",
+      "IAF"
+    ],
+    "org_type": "PARTY",
+    "org_subtype": "opposition_party",
+    "country_iso3": "JOR",
+    "hq_country_iso3": "JOR",
+    "founded_date": "1992-12-08",
+    "website": "https://jabha-jo.com",
+    "wikidata_qid": "Q1674114"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "官方网站",
+      "url": "https://jabha-jo.com",
+      "description": "该党官方网站（Wikidata P856 记录）",
+      "source": "https://www.wikidata.org/wiki/Q1674114"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "JO-PERSON-000064",
+      "name": "瓦伊勒·杰拉伊沙 (وائل جرايشه)",
+      "title": "党总书记",
+      "title_description": "2024年起任总书记",
+      "description": "阿拉伯语维基百科记载的现任总书记，2024年就任。"
+    },
+    {
+      "person_id": "JO-PERSON-000065",
+      "name": "穆拉德·阿代拉 (مراد العضايلة)",
+      "title": "前总书记",
+      "title_description": "2016-2024年任总书记",
+      "description": "任内该党主导的竞选名单在2024年9月众议院选举中获得31席，成为议会第一大政治党团。"
+    },
+    {
+      "person_id": "JO-PERSON-000066",
+      "name": "哈姆扎·曼苏尔 (حمزة منصور)",
+      "title": "前总书记",
+      "title_description": "2002-2006年、2010-2014年两度出任总书记",
+      "description": "该党历史上任职时间最长的总书记之一。"
+    },
+    {
+      "person_id": "JO-PERSON-000067",
+      "name": "伊沙克·法尔汉 (إسحاق الفرحان)",
+      "title": "首任总书记",
+      "title_description": "1993-1998年任首任总书记，2009-2010年再任",
+      "description": "该党1992年成立后的第一任总书记。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "JO-PARTY-001-DEPT-001",
+      "name": "协商会议 (مجلس الشورى)",
+      "head": null,
+      "description": "党的最高决策机构，由120名成员组成，经党代表大会选举产生。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "JO-PARTY-001-DEPT-002",
+      "name": "执行局 (المكتب التنفيذي)",
+      "head": null,
+      "description": "负责日常事务，并下设各中央专项委员会。",
+      "parent_dept_id": "JO-PARTY-001-DEPT-001"
+    },
+    {
+      "dept_id": "JO-PARTY-001-DEPT-003",
+      "name": "省支部 (الفروع)",
+      "head": null,
+      "description": "1993年1月开放时设17个支部，现发展为全国24个省支部。",
+      "parent_dept_id": "JO-PARTY-001-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-09-10",
+      "title": "主导竞选名单在第20届众议院选举中获31席",
+      "description": "该党主导的竞选联盟在2024年9月10日举行的约旦第20届众议院选举中获得138席中的31席，成为议会第一大政治党团。",
+      "impact": "该党由历史上多次抵制选举转向议会政治，成为第20届议会内最大的有组织力量。",
+      "source": "https://www.reuters.com/world/middle-east/jordans-islamists-buoyed-by-anger-over-gaza-seek-shake-up-parliament-polls-2024-09-09/"
+    },
+    {
+      "date": "2025-04-23",
+      "title": "政府解散穆斯林兄弟会组织后该党申明独立运作",
+      "description": "2025年4月约旦政府宣布解散穆斯林兄弟会组织并接管其资产；该党作为依《政党法》注册的独立政党继续运作，并公开申明自身独立性。",
+      "impact": "该党在官方层面与被解散组织脱钩，其注册政党地位得以保留，但政治处境受到关注。",
+      "source": "https://www.nytimes.com/2025/04/23/world/middleeast/jordan-muslim-brotherhood.html"
+    },
+    {
+      "date": "2026-02-26",
+      "title": "独立选举委员会要求该党更名",
+      "description": "约旦独立选举委员会指示该党更改党名以去除名称中的宗教指涉并修订章程；该党表示拒绝，认为该决定缺乏法律依据。",
+      "impact": "党名与注册资格问题成为2026年约旦政党政治的焦点议题之一。",
+      "source": "https://www.middleeastmonitor.com/20260226-jordan-orders-islamic-action-front-party-to-remove-religious-references-from-name/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "JO-GOV-021",
+      "org_name": "政治与议会事务部 (وزارة الشؤون السياسية والبرلمانية)",
+      "org_type": "GOV",
+      "org_description": "主管政党事务与议会协调的政府部门",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "独立选举委员会 (الهيئة المستقلة للانتخاب)",
+      "org_type": "GOV",
+      "org_description": "依据2022年政党法负责政党注册与监管的独立机构",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "JO-GOV-004",
+      "org_name": "众议院 (مجلس النواب)",
+      "org_type": "GOV",
+      "org_description": "约旦议会下院，该党在第20届拥有31个议席",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "伊斯兰行动阵线是1992年12月8日成立的约旦注册政党，被视为约旦国内规模最大、影响力最强的反对党，与约旦穆斯林兄弟会存在思想渊源关系。党的最高机构为由120名成员组成的协商会议，下设执行局和覆盖全国的24个省支部，经费来源包括党费、捐赠以及依法获得的政府政党资助。历史上该党多次参加众议院选举：第12届与第14届各获17席，2007年第15届获6席，并曾于1997年与2010年两次抵制选举；同时参与市政、行业协会和学生选举。该党曾是「最高反对派协调委员会」的核心成员，与国内多个反对党协调立场。2024年9月，该党主导的竞选名单在众议院选举中获得31席，成为议会第一大政治党团。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": null,
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/7/73/Islamic_Action_Front.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-09-18",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 67,
+    "notes": "主会话降级丰富：两次子代理派发均因平台内容过滤中断（错误1301）。数据基于阿拉伯语维基百科全文（总书记世系、成立日期、组织结构、历届选举席位）、Wikidata Q1674114（P571成立日期、P856官网）及路透社/纽约时报/MEMO公开报道交叉核实。官方社媒账号未能核实到稳定主页URL，social_accounts如实留空。",
+    "quotes": [
+      {
+        "title": "جبهة العمل الإسلامي (الأردن) - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/جبهة_العمل_الإسلامي_(الأردن)"
+      },
+      {
+        "title": "Q1674114 Islamic Action Front - Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1674114"
+      },
+      {
+        "title": "Jordan's Islamists, buoyed by anger over Gaza, seek to shake up parliament - Reuters",
+        "url": "https://www.reuters.com/world/middle-east/jordans-islamists-buoyed-by-anger-over-gaza-seek-shake-up-parliament-polls-2024-09-09/"
+      },
+      {
+        "title": "Jordan Cracks Down on Muslim Brotherhood - The New York Times",
+        "url": "https://www.nytimes.com/2025/04/23/world/middleeast/jordan-muslim-brotherhood.html"
+      },
+      {
+        "title": "Jordan orders Islamic Action Front Party to remove religious references from name - Middle East Monitor",
+        "url": "https://www.middleeastmonitor.com/20260226-jordan-orders-islamic-action-front-party-to-remove-religious-references-from-name/"
+      }
+    ]
+  }
+}
