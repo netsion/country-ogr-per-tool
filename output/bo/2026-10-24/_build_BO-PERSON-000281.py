@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+"""Build person profile BO-PERSON-000281 (Nercy Palenque Mercado, Nexocorp/Farmacorp HR Director)."""
+import json
+import os
+
+OUT = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000281.json"
+
+profile = {
+    "person_id": "BO-PERSON-000281",
+    "wikidata_qid": None,
+    "name_zh": None,
+    "name": "Nercy Palenque Mercado",
+    "name_en": "Nercy Palenque Mercado",
+    "aliases": ["Nelsy Palenque", "Nercy Palenque"],
+    "aliases_note": "任务参数给定的「Nelsy Palenque」未见任何来源支持；CAINCO 首届 ICC Bolivia Labor & Talent Forum 官方网页、玻利维亚媒体（Economy.com.bo、Jornada、eju.tv）及其本人 LinkedIn、Instagram 档案均一致写作「Nercy Palenque Mercado」，判定「Nelsy」为拼写误差，正式姓名采信「Nercy Palenque Mercado」，任务给定拼写保留于 aliases。",
+    "nationality": "BO",
+    "gender": "female",
+    "birth_date": None,
+    "birth_place": None,
+    "current_positions": [
+        "Nexocorp 集团人力资源与发展总监（Directora de Desarrollo Humano / Talento Humano）"
+    ],
+    "education": [
+        {
+            "institution": "玻利维亚天主教大学 (Universidad Católica Boliviana)",
+            "degree": "bachelor",
+            "field": "心理学",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "Next 国际商学院 (Next International Business School)",
+            "degree": "master",
+            "field": "商业智能与大数据 (Business Intelligence y Big Data)",
+            "start_date": "2018",
+            "end_date": "2019"
+        }
+    ],
+    "work_experience": [
+        {
+            "organization": "Nexocorp 集团 / Farmacorp (Corporación Nexocorp / Farmacias Farmacorp S.A.)",
+            "org_id": "BO-CORP-003",
+            "position": "人力资源与发展总监 (Directora de Desarrollo Humano)",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000278",
+            "person_name": "罗萨里奥·帕斯·古铁雷斯 (Rosario Paz Gutiérrez)",
+            "relationship_type": "superior",
+            "description": "帕斯·古铁雷斯为 Farmacorp 执行主席（Presidenta Ejecutiva）兼 Nexocorp 集团总裁，是帕伦克·梅卡多的直接上级；2025年3月25日 Empleador Líder 2024 排名颁奖典礼上，两人分别以总裁与人力资源与发展总监身份同台致辞领奖。"
+        },
+        {
+            "person_id": None,
+            "person_name": "保拉·克雷哈苏·帕切科 (Paola Querejazu Pacheco)",
+            "relationship_type": "colleague",
+            "description": "玻利维亚人力资源界资深同行（现任 Laboratorios Bagó de Bolivia 人员管理经理），同为 2026 年 10 月 23 日首届 ICC Bolivia Labor & Talent Forum 演讲嘉宾，2024 年 8 月还曾与帕伦克在乌尔塔多组织的活动中共同出席「Cultiva liderazgo para impactar en las personas」主题交流。"
+        },
+        {
+            "person_id": None,
+            "person_name": "德妮丝·乌尔塔多·卡斯特多 (Denise Hurtado Castedo)",
+            "relationship_type": "associate",
+            "description": "BPO Center 与 Human Value（Empleador Líder 职场排名主办方）首席执行官。2022 年其主办的 Employer Branding 活动邀请帕伦克主讲「Bienestar y Salud Mental como parte de Experiencia del Colaborador」；2024 年 8 月两人共同参与领导力主题活动；2025 年 7 月乌尔塔多拜访 Farmacorp 时公开感谢帕伦克团队的接待与经验分享。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Nercy Palenque Mercado",
+            "url": "https://bo.linkedin.com/in/nercy-palenque-mercado",
+            "source": "LinkedIn 公开档案（搜索引擎索引摘要）；另有旧式镜像 URL linkedin.com/in/nercy-palenque-mercado-9750a555 指向同一人"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "@palenquenercy",
+            "url": "https://www.instagram.com/palenquenercy/",
+            "source": "Instagram 公开档案（约457名关注者、171条帖子），账户简介与本人 LinkedIn 职业头衔逐字一致，确认同属一人"
+        }
+    ],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2025-03",
+            "achievement": "作为人力资源与发展总监，代表拥有 2800 余名员工的 Nexocorp 集团在 Human Value（Grupo BPO Center）「Empleador Líder 2024」排名中获评玻利维亚「大企业（Gran Empresa）类 Empleador Líder 第 1 名」（2025年3月25日颁奖，员工满意度 83.2%–83.9%，超 18800 名员工参与调查），并发表「我们如同大树，根系深厚、亲如一家」获奖感言。",
+            "organization": "Nexocorp 集团 (Corporación Nexocorp)"
+        },
+        {
+            "date": "2026-10-23",
+            "achievement": "受邀在圣克鲁斯 Cainco 会议中心举行的首届 ICC Bolivia Labor & Talent Forum（主题「Gestión que evoluciona. Empresas que crecen」）担任 Speaker，主讲「Growth Story: Crecer con las personas: el rol del talento en la evolución empresarial」，分享 Nexocorp 人员在企业成长、转型与多元化各阶段的管理经验，同场嘉宾包括劳动部长巴斯科佩等政企人士。",
+            "organization": "国际商会玻利维亚分会／圣克鲁斯工业、商业、服务业与旅游业商会 (ICC Bolivia / Cainco)"
+        }
+    ],
+    "biography_summary": "内尔西·帕伦克·梅卡多（Nercy Palenque Mercado）是玻利维亚人力资源领域的资深管理者，现任 Nexocorp 集团人力资源与发展总监（Directora de Desarrollo Humano，媒体亦称 Directora de Talento Humano）；该集团为玻利维亚最大药品零售连锁 Farmacorp 的母公司品牌，旗下还涵盖 Amarket 超市、Farmacias Dr. Osvaldo、Pizza Hut 玻利维亚等业务。她为心理学家出身，毕业于玻利维亚天主教大学心理学专业（LinkedIn 档案显示 1992 年前后），2018 至 2019 年在 Next 国际商学院攻读商业智能与大数据硕士。公开报道称其职业轨迹超过 25 年、司龄超过 20 年，至少自 2021 年 3 月起即以总监身份代表公司公开露面。她主导的人本管理与雇主品牌战略使 Nexocorp 在 Human Value「Empleador Líder」职场排名中长期领先：自 2013 年起稳居前列，并在 2024 年度排名中夺得玻利维亚大企业类第 1 名（2025 年 3 月颁奖）。2026 年 10 月，她作为演讲嘉宾出席在圣克鲁斯举行的首届 ICC Bolivia Labor & Talent Forum，分享集团人员管理经验；她还是人力资源管理书籍《peRHsonas》的合著者。其出生日期、家庭情况及公开联系方式未见披露。",
+    "profile": {
+        "source_url": "https://www.cainco.org.bo/wp-content/uploads/2026/10/Nercy-Palenque-768x768.png",
+        "local_path": "photos/BO-PERSON-000281.png"
+    },
+    "profile_note": "本人照片取自 1st ICC Bolivia Labor & Talent Forum 主办方 CAINCO 官方网页的讲师头像（alt 标注「Nercy Palenque」，2026年10月），来源权威可靠。",
+    "name_note": "姓 Palenque（父姓）+ Mercado（母姓），西班牙语双语名惯例；名字正式拼写为「Nercy」。",
+    "education_note": "心理学本科（Licenciatura en Psicología）来自 LinkedIn 档案（搜索引擎索引摘要），档案标注年份 1992（起止年不详，故未填具体日期）；硕士（Maestría en Business Intelligence y Big Data，2018-2019，Next International Business School）由 RocketReach 数据页给出并与 LinkedIn 教育栏所列院校互证。",
+    "work_note": "现任职务由至少 4 个独立来源交叉确认：CAINCO 官方论坛页（2026）、Economy.com.bo（2025-05-05）、Jornada（2025-03-27）、Buenvivir/Farmacorp（2021-03-08）；媒体称谓「Directora de Desarrollo Humano」与「Directora de Talento Humano」并存，指向同一职位。2022 年 Gente Motivando Gente 报道称其司龄超过 20 年，故任职起始年份早于可查证的首个公开露面（2021 年 3 月），start_date 留空以避免编造。org_id 采用库内 Farmacorp 实体（BO-CORP-003），Nexocorp 为同一组织的集团品牌名。",
+    "position_note": "任务参数所给职务「Directora de Talento Humano」（人力资源总监）与官方口径「Directora de Desarrollo Humano」（人力资源与发展总监）在 2021-2026 年媒体报道中交替使用，为同一职位的不同表述。",
+    "social_accounts_note": "社交媒体 6 项扫描完成：LinkedIn（确认）、Instagram（确认）；Facebook、X/Twitter、TikTok、YouTube 未发现可核实的本人账号——facebook.com/JL.Palenque 等同名账户无法确认身份，YouTube 频道「@nercy」与他人相关，均未采信。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "notes": "关键事实核证：①全名核证为「Nercy Palenque Mercado」——CAINCO 首届 ICC Bolivia Labor & Talent Forum 官方网页、Economy.com.bo（2025-05-05）、Jornada（2025-03-27）、eju.tv（2026-10-17）及本人 LinkedIn/Instagram 一致；任务参数给定「Nelsy Palenque」无来源支持，判定为拼写误差并保留于 aliases。②现任职务（Nexocorp/Farmacorp 人力资源与发展总监）由 ≥4 个独立来源交叉确认，媒体称谓「Desarrollo Humano／Talento Humano」并存。③教育背景：本科（玻利维亚天主教大学，心理学）来自 LinkedIn 档案；硕士（Next International Business School，商业智能与大数据，2018-2019）来自 RocketReach 并与 LinkedIn 教育栏互证。④出生日期、出生地、家庭成员、联系方式均无公开信息，按规则留空；西语/英文/中文媒体均未检出其中文译名，name_zh 置 null。社交媒体 6 项扫描完成：LinkedIn、Instagram 已确认，Facebook/X/TikTok/YouTube 无可核实账号。本次精读独立来源全文 4 个（cainco.org.bo 官方论坛页、eju.tv、jornada.com.bo、economy.com.bo）。本人为企业中层高管，公开信息以行业新闻稿为主：出生日期、家庭、联系方式、中文译名、维基数据条目等均客观不可得（已穷尽西/英/中三语检索），故 completeness_score 客观受限（评分权重中 work_experience 历史、family_members、contacts、political_stances 等大量空项）。本人照片已存 photos/BO-PERSON-000281.png（CAINCO 官方讲师头像）。",
+        "quotes": [
+            {
+                "title": "ICCForum - CAINCO（1st ICC Bolivia Labor & Talent Forum 官方议程与讲师页）",
+                "url": "https://www.cainco.org.bo/iccforum/"
+            },
+            {
+                "title": "Nexocorp, el Empleador Líder N°1 en Bolivia, reafirma su compromiso con el bienestar laboral - Economy.com.bo（2025-05-05）",
+                "url": "https://www.economy.com.bo/articulo/branding-y-rse/nexocorp-empleador-lider-n-1-bolivia-reafirma-compromiso-bienestar-laboral/20250505100517018198.html"
+            },
+            {
+                "title": "Nexocorp obtiene el primer lugar en la categoría Gran Empresa del ranking Empleador Líder - Jornada.com.bo（2025-03-27）",
+                "url": "https://jornada.com.bo/nexocorp-obtiene-el-primer-lugar-en-la-categoria-gran-empresa-del-ranking-empleador-lider"
+            },
+            {
+                "title": "Cainco e ICC Bolivia alistan el primer Foro del Trabajo y el Talento - eju.tv（2026-10-17）",
+                "url": "https://eju.tv/2026/10/cainco-e-icc-bolivia-alistan-el-primer-foro-del-trabajo-y-el-talento/"
+            },
+            {
+                "title": "Nercy Palenque Mercado - LinkedIn（玻利维亚）",
+                "url": "https://bo.linkedin.com/in/nercy-palenque-mercado"
+            },
+            {
+                "title": "Nercy Palenque (@palenquenercy) - Instagram",
+                "url": "https://www.instagram.com/palenquenercy/"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT)
+print("bytes:", os.path.getsize(OUT))

@@ -1,0 +1,149 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000405 (Reynaldo Vega Gareca) person profile JSON."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000405.json")
+
+person = {
+    "person_id": "BO-PERSON-000405",
+    "wikidata_qid": None,
+    "name_zh": None,
+    "name": "Reynaldo Vega Gareca",
+    "name_en": "Reynaldo Vega Gareca",
+    "aliases": ["Reynaldo Vega", "VEGA GARECA REYNALDO"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [
+        {
+            "type": "email",
+            "value": "reynaldo.vega@boliviatv.bo",
+            "source": "Bolivia TV官网联系页（2026-10-26直取，官方公示的职务邮箱）",
+        }
+    ],
+    "current_positions": ["玻利维亚电视台节目与推广总监"],
+    "education": [],
+    "work_experience": [
+        {
+            "start_date": "2015",
+            "end_date": None,
+            "organization": "玻利维亚电视台 (Bolivia TV)",
+            "org_id": "BO-MEDIA-012",
+            "position": "节目与制作协调负责人",
+        },
+        {
+            "start_date": "2016",
+            "end_date": None,
+            "organization": "玻利维亚电视台 (Bolivia TV)",
+            "org_id": "BO-MEDIA-012",
+            "position": "节目与发行协调负责人",
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚电视台 (Bolivia TV)",
+            "org_id": "BO-MEDIA-012",
+            "position": "节目与推广负责人（直属总经理）",
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚电视台 (Bolivia TV)",
+            "org_id": "BO-MEDIA-012",
+            "position": "节目与推广总监",
+        },
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000398",
+            "person_name": "路易斯·卡洛斯·比利亚松·马丁内斯 (Luis Carlos Villazón Martínez)",
+            "relationship_type": "superior",
+            "description": "现任玻利维亚电视台总经理（2026-01-07就任），Vega所在的节目与推广部门隶属其管理层架构，二人同列于官网联系页现任管理层名录",
+        },
+        {
+            "person_id": None,
+            "person_name": "恩佐·毛里西奥·巴尔加斯·阿尔科塞尔 (Enzo Mauricio Vargas Alcocer)",
+            "relationship_type": "colleague",
+            "description": "2015年官方文件显示Vega以节目与制作协调负责人身份通过时任节目与推广总监Vargas向总经理提交报告；2022年内部审计报告中Vega就2019年11月停播事件作证，指认停播系时任总监Vargas口头指示；2026年官网联系页显示Vargas转任制作负责人，两人仍在同台任职",
+        },
+        {
+            "person_id": "BO-PERSON-000399",
+            "person_name": "阿尔瓦罗·伊鲁斯塔·贝尔纳尔 (Álvaro Irusta Bernal)",
+            "relationship_type": "colleague",
+            "description": "玻利维亚电视台新闻总经理，与Vega同列于官网联系页现任管理层名录",
+        },
+    ],
+    "social_accounts": [
+        {
+            "platform": "other",
+            "account_name": "Sleggar Therion (Steam，真实姓名栏：Reynaldo Vega Gareca)",
+            "url": "https://steamcommunity.com/id/sleggar",
+            "source": "Steam社区公开档案，真实姓名栏与所在地（La Paz, Bolivia）均与本人一致，属高度疑似个人账号，未经第二来源证实",
+        }
+    ],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2025-09",
+            "achievement": "以节目与推广负责人身份编制并提交《节目与推广程序手册》第三版（Manual de Procedimientos para la Programación y Promoción V03），手册签署页盖有其本人职务印章，经行政决议62/2025批准于2025-09-25生效",
+            "organization": "玻利维亚电视台 (Bolivia TV)",
+        }
+    ],
+    "biography_summary": "雷纳尔多·维加·加雷卡是玻利维亚国家电视台（Bolivia TV，Canal 7）的资深节目管理人士，在台任职已逾十年。可查履历显示：2015年8月他任节目与制作协调负责人；2016年官方协议及2020年8月员工名册显示其转任节目与发行协调负责人，编制状态为代理（interino）。2019年11月玻利维亚政治危机期间国家台停播约92小时，台内审计部门2022年报告记录他以当事工作人员身份就停播事件作证。2025年9月，他以直属总经理的节目与推广负责人身份主持修订《节目与推广程序手册》第三版，经行政决议62/2025批准生效。截至2026年10月26日，官网联系页将其列为节目与推广总监，成为2026年1月7日上任的总经理路易斯·卡洛斯·比利亚松管理团队成员，主管全台节目编排与推广事务。其出生日期、出生地、学历与家庭等个人信息均无公开资料；与玻利维亚警察上校约翰尼·雷纳尔多·维加·加雷卡及阿根廷足球教练里卡多·加雷卡并无关联证据，检索时需注意区分。",
+    "position_note": "职务沿革（均出自官方文件）：2015-08-05官方协议称其为「Encargado de Programas y Coordinación de Producción」（节目与制作协调负责人，西语原名备考）；2016年官方协议及2020-08-17员工名册称「Encargado de Programas y Coordinación de Distribución」（节目与发行协调负责人）；2025-09-25《节目与推广程序手册》V03签署页显示其时职务为直属总经理的「Responsable de Programación y Promoción」（节目与推广负责人）；官网联系页（2026-10-26直取）现列其为「Director de Programación y Promoción」（节目与推广总监）。就任现职的确切日期未见公开资料。",
+    "work_note": "无落款日期的官方《Nomina del personal》名册将「VEGA GARECA REYNALDO」列于节目与推广单元（Unidad de Programación y Promoción），职级为PROFESIONAL I TÉCNICO I（专业I/技术I级）；2020-08-17《Lista de Personal》名册显示其性别M、编制状态INTERINO（代理编制）。名册职级与联系页职务头衔存在差异，系玻利维亚国企「职级」与「岗位头衔」双轨所致。",
+    "identity_note": "注意区分：①玻利维亚警察上校Jhonny Reynaldo Vega Gareca（曾令FELCV拉巴斯分局负责人）系同名近似的另一人，非本人；②阿根廷足球教练Ricardo Gareca与本人仅姓氏相同，无亲属关系证据；③Steam平台账号「Sleggar Therion」（真实姓名栏Reynaldo Vega Gareca，所在地拉巴斯）疑似本人，未经证实。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": ["official_website", "web_search", "social_media"],
+        "notes": "关键发现：系玻利维亚国家电视台（Bolivia TV，BO-MEDIA-012）节目与推广线的资深内部提拔官员，公开足迹全部集中于Bolivia TV官方文件。职务链证据完整：2015年官方协议（直取PDF）→2016年官方协议（官方域名搜索快照，直取失败）→2020-08-17官方员工名册（直取PDF，性别M、INTERINO）→2022年内部审计报告BTV/UAI/INF.REL.001/2022（直取扫描件并逐页目验，证实其在2019年11月停播事件中作证、时任总监为Enzo Vargas Alcocer）→2025-09-25程序手册V03签署页（直取扫描件目验，编制人印章Reynaldo Vega Gareca/Responsable de Programación y Promoción）→官网联系页（2026-10-26直取，现任Director de Programación y Promoción及官方邮箱）。2025-11政府换届后仍留任：新任总经理Villazón（BO-PERSON-000398，2026-01-07就任）管理团队官网名录含Vega，未发现免职报道。资料局限：出生日期/地点、学历、家庭、个人社交账号均无公开信息；无Wikidata/Wikipedia条目；name_zh无玻利维亚华文媒体既有译名，按规则置null（文中「雷纳尔多·维加·加雷卡」仅为叙述用音译）；Steam账号高度疑似但无法二次证实，仅存疑记录。completeness_score约48系中层管理岗公开个人生平信息客观有限所致（缺生卒/学历/家庭/wikidata/照片类字段），职务与履历核心事实均有2个以上独立来源（官网联系页+多份官方PDF）。",
+        "quotes": [
+            {
+                "title": "Contacto - Bolivia TV（官网联系页：Director de Programación y Promoción Reynaldo Vega Gareca，reynaldo.vega@boliviatv.bo）",
+                "url": "https://www.boliviatv.bo/principal/contactos.php",
+            },
+            {
+                "title": "Nomina del personal - Bolivia TV（官方员工名册：VEGA GARECA REYNALDO，节目与推广单元，PROFESIONAL I TÉCNICO I）",
+                "url": "https://www.boliviatv.bo/principal/viewdocs.php?tipo=12&file=049a9d_Nomina%20del%20personal.pdf",
+            },
+            {
+                "title": "Lista de Personal - Bolivia TV（2020-08-17官方员工名册：VEGA GARECA REYNALDO，M，INTERINO）",
+                "url": "https://www.boliviatv.bo/principal/viewdocs.php?tipo=12&file=88e270_Lista%20de%20Personal.pdf",
+            },
+            {
+                "title": "Resumen Ejecutivo BTV/UAI/INF.REL. Nº 001/2022（内部审计报告：2019年11月停播事件，Reynaldo Vega Gareca作证，时任总监Enzo Vargas Alcocer口头指示）",
+                "url": "https://www.boliviatv.bo/principal/viewdocs.php?tipo=2&file=867741_RESUMEN%20EJECUTIVO%20BTV%20UAI%20INF%20REL%20N%BA%20001_2022.pdf",
+            },
+            {
+                "title": "Convenio Nº 059-15 Bolivia TV - Festival Autóctono Compi Tauca 2015（2015-08-05：Encargado de Programas y Coordinación de Producción Reynaldo Vega Gareca）",
+                "url": "https://www.boliviatv.bo/principal/viewdocs.php?tipo=13&file=979c66_N%C2%BA%20059-15%20CONVENIO%20DE%20COOPERACION%20INTERINSTITUCIONAL%20ENTRE%20BOLIVIA%20TV%20Y%20FESTIVAL%20AUTOCTONO%20COMPI%20TAUCA%202015.pdf",
+            },
+            {
+                "title": "Convenio 018-2016 Bolivia TV - Asociación de Automovilismo de Pucarani（2016：Encargado de Programas y Coordinación de Distribución；官方域名搜索快照，直取失败）",
+                "url": "https://www.boliviatv.bo/principal/viewdocs.php?tipo=13&file=896bbf_CONVENIO%20018-2016%20ASOCIACIO%CC%81N%20DE%20AUTOMOVILISMO%20DE%20PUCARANI.pdf",
+            },
+            {
+                "title": "Manual de Procedimientos para la Programación y Promoción V03 - Bolivia TV（2025-09：编制人印章Reynaldo Vega Gareca，Responsable de Programación y Promoción；行政决议62/2025批准）",
+                "url": "https://www.boliviatv.bo/principal/viewdocs.php?tipo=6&file=0bb0b5_MANUAL_DE_PROCEDIMIENTOS_PARA_LA_PROG_Y_PROMOCION_v03.pdf",
+            },
+            {
+                "title": "Steam Community: Sleggar Therion（真实姓名栏Reynaldo Vega Gareca，所在地拉巴斯；疑似个人账号，存疑未证实）",
+                "url": "https://steamcommunity.com/id/sleggar",
+            },
+            {
+                "title": "Facebook - Comando Departamental de Policía La Paz（同名近似者辨析：警察上校Jhonny Reynaldo Vega Gareca，非本人）",
+                "url": "https://www.facebook.com/100064799706577/photos/1357651758140167",
+            },
+        ],
+    },
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(person, f, ensure_ascii=False, indent=2)
+print("written:", OUT)
+print("bio length:", len(person["biography_summary"]))

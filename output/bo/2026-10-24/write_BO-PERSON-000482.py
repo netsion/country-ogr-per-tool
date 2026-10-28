@@ -1,0 +1,270 @@
+# -*- coding: utf-8 -*-
+"""Write person profile JSON for BO-PERSON-000482 (Grover García Carballo)."""
+import json
+import os
+
+profile = {
+    "person_id": "BO-PERSON-000482",
+    "wikidata_qid": None,
+    "name": "Grover García Carballo",
+    "name_en": "Grover García",
+    "name_zh": "格罗弗·加西亚",
+    "aliases": ["Grover García", "Gróver García"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_date_note": "公开报道未披露其出生日期；La Razón 人物专访亦未提及年龄或出生年份",
+    "birth_place": "科梅尔科查社区 (Comercocha)，玻利维亚科恰班巴省蒂拉克市 (Tiraque, Cochabamba)",
+    "current_positions": [
+        "争取社会主义运动（MAS-IPSP）全国主席（获宪法法院与最高选举法院承认）",
+        "科恰班巴省立法议会主席（2026-2027年度）",
+        "科恰班巴省议会议员（A-UPP联盟当选）"
+    ],
+    "position_note": "「MAS全国主席」职务存在党内法律争议：2024年5月TSE曾驳回arcista党代会决议，2024年11月26-27日依多民族宪法法院（TCP）第0776/2024-S4号判决，以TSE-RSP 22/2024号决定正式承认加西亚为MAS-IPSP全国主席，埃沃·莫拉莱斯派对此不予承认",
+    "education": [
+        {
+            "institution": "市立圣西蒙大学 (Universidad Mayor de San Simón)",
+            "field": None
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": "2010",
+            "end_date": "2015",
+            "organization": "蒂拉克自治市政府 (Gobierno Autónomo Municipal de Tiraque)",
+            "org_id": None,
+            "position": "市长 (Alcalde)"
+        },
+        {
+            "start_date": "2015",
+            "end_date": "2017",
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)",
+            "org_id": "BO-PARTY-001",
+            "position": "科恰班巴省级负责人 (dirigente departamental del MAS en Cochabamba)"
+        },
+        {
+            "start_date": "2017",
+            "end_date": "2019",
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)",
+            "org_id": "BO-PARTY-001",
+            "position": "科恰班巴省主席 (presidente departamental del MAS en Cochabamba)"
+        },
+        {
+            "organization": "玻利维亚统一农民工工会联合会 (Confederación Sindical Única de Trabajadores Campesinos de Bolivia)",
+            "org_id": None,
+            "position": "科恰班巴省代表负责人 (representante de la CSUTCB Cochabamba)"
+        },
+        {
+            "start_date": "2022",
+            "end_date": "2024-05-03",
+            "organization": "玻利维亚农村发展与土地部 (Ministerio de Desarrollo Rural y Tierras)",
+            "org_id": "BO-GOV-018",
+            "position": "渔业与水产养殖公共分权机构 (IPD-PACU) 主任"
+        },
+        {
+            "start_date": "2024-05-05",
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)",
+            "org_id": "BO-PARTY-001",
+            "position": "全国主席 (presidente nacional del MAS-IPSP)"
+        },
+        {
+            "start_date": "2026",
+            "organization": "科恰班巴省立法议会 (Asamblea Legislativa Departamental de Cochabamba)",
+            "org_id": None,
+            "position": "省议会议员 (asambleísta departamental，A-UPP联盟首席当选人)"
+        },
+        {
+            "start_date": "2026-05-02",
+            "organization": "科恰班巴省立法议会 (Asamblea Legislativa Departamental de Cochabamba)",
+            "org_id": None,
+            "position": "省立法议会主席 (presidente de la ALD Cochabamba, 2026-2027)"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000483",
+            "person_name": "埃沃·莫拉莱斯 (Evo Morales)",
+            "relationship_type": "political_rival",
+            "description": "2008-2010年间与莫拉莱斯有机构性工作联系并一度关系密切；2024年5月arcista党代会取代莫拉莱斯出任MAS全国主席，同年11月获TSE正式承认后莫拉莱斯失去党内权力，2025年2月莫拉莱斯退党另组EVO Pueblo党；2026年加西亚又与莫拉莱斯派（evismo）在省级层面和解，共同组建A-UPP联盟参加地方选举"
+        },
+        {
+            "person_id": "BO-PERSON-000484",
+            "person_name": "路易斯·阿尔塞 (Luis Arce)",
+            "relationship_type": "political_ally",
+            "description": "arcismo（阿尔塞派）核心人物，2024-2025年坚定支持阿尔塞政府并力推其连任提名；2025年10月起公开疏远，要求调查针对阿尔塞及其家人的指控（「不能保护也不能掩盖」），称已无法进入总统府；2025年12月就阿尔塞因原住民基金案被拘留表态「如果有罪应受最高刑罚」"
+        },
+        {
+            "person_id": None,
+            "person_name": "胡莉娅·拉莫斯 (Julia Ramos)",
+            "relationship_type": "colleague",
+            "description": "MAS全国领导层（arcista）副主席，前莫拉莱斯政府部长，与加西亚同期当选进入全国领导层"
+        },
+        {
+            "person_id": None,
+            "person_name": "菲德尔·苏尔科 (Fidel Surco)",
+            "relationship_type": "colleague",
+            "description": "MAS全国领导层（arcista）成员，前参议员，2024年5月与加西亚同期进入全国领导层（国际关系书记）"
+        },
+        {
+            "person_id": None,
+            "person_name": "莱昂纳多·洛萨 (Leonardo Loza)",
+            "relationship_type": "political_ally",
+            "description": "同为农民工运动出身的MAS人物；2026年地方选举中加西亚所在的A-UPP阵营助力洛萨当选科恰班巴省省长，二人在省议会与省政府层面协作"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "Grover García",
+            "url": "https://www.facebook.com/p/Grover-Garc%C3%ADa-100064036092225/",
+            "source": "本人政治人物主页（约9800余赞），帖文署名 Ing. Grover García Carballo，发布其当选ALD主席等动态"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "Grover García Carballo (@GroverGarciaC)",
+            "url": "https://x.com/GroverGarciaC",
+            "source": "X账号，2024年5月注册，显示名与本人全名一致"
+        }
+    ],
+    "social_accounts_note": "6项平台扫描：Facebook个人政治主页与X账号（@GroverGarciaC）经本人身份印证；Instagram、TikTok、LinkedIn、YouTube未发现经证实的个人账号（相关内容均为媒体账号发布的关于其活动的报道）",
+    "family_members": [],
+    "family_note": "公开报道未检索到其配偶、子女等家庭成员信息",
+    "political_stances": [
+        {
+            "date": "2024-05-05",
+            "topic": "支持阿尔塞政府与党内改革",
+            "stance_content": "就任MAS全国主席时表示「将与团结公约（Pacto de Unidad）携手合作，支持路易斯·阿尔塞兄弟的政府」，并宣称终结党内「一言堂」（dedocracia）、恩荫政治与强制服从",
+            "source": "ANF/Noticias Fides: https://www.noticiasfides.com/nacional/politica/congreso-arcista-elige-a-grover-garcia-como-nuevo-presidente-del-mas-y-desplaza-a-evo"
+        },
+        {
+            "date": "2025-02",
+            "topic": "2025年大选党内提名",
+            "stance_content": "宣布现任总统路易斯·阿尔塞为MAS参加2025年大选的总统「预备候选人」",
+            "source": "南美侨报网（据EFE）: https://www.br-cn.com/static/content/news/nm_news/2025-02-19/1341871154860690854.html"
+        },
+        {
+            "date": "2025-10",
+            "topic": "2025年总统决选中立",
+            "stance_content": "在帕斯-拉拉与基罗加的对决中宣布MAS-IPSP保持中立，重申不支持任何候选人，与党内部分支持帕斯的派系划清界限",
+            "source": "Instantáneas (2025-08-21): https://www.instantaneas.org.bo/2025/08/21/politica/sectores-arcistas-apoyan-paz-lara-balotaje-bolivia；Tele Estrella (2025-10-15)"
+        },
+        {
+            "date": "2025-10-17",
+            "topic": "阿尔塞家族腐败指控",
+            "stance_content": "就针对阿尔塞总统及其家人的指控表示「必须调查」「不能保护也不能掩盖」（No se puede proteger ni tapar），标志其与阿尔塞阵营公开拉开距离",
+            "source": "Bolivisión (YouTube): https://www.youtube.com/watch?v=DBl2U21xB50；同见 https://x.com/redbolivision/status/1979259204125774071"
+        },
+        {
+            "date": "2025-12-12",
+            "topic": "阿尔塞被捕（原住民基金案）",
+            "stance_content": "就前总统阿尔塞因原住民基金（Fondo Indígena）案被拘留表态：「如果阿尔塞有罪，就应受到最高刑罚制裁」（Si Arce es culpable debe ser sancionado con la pena máxima）",
+            "source": "El Deber (Instagram): https://www.instagram.com/reel/DSLGkkWgcYa/"
+        },
+        {
+            "date": "2026",
+            "topic": "与evismo和解及A-UPP联盟",
+            "stance_content": "面对MAS党籍注册（法人资格）可能丧失的风险，选择和解路线，将MAS注册提供给与莫拉莱斯派（evismo）组建的「人民团结联盟」（Alianza Unidos por los Pueblos, A-UPP）参加2026年地方选举，终结旧怨",
+            "source": "El Deber (2026-04-30): https://eldeber.com.bo/cochabamba/jefe-grover-garcia-listo-presidir-asamblea-departamental-cochabamba_1777590117"
+        },
+        {
+            "date": "2026-05",
+            "topic": "对帕斯中央政府的批评",
+            "stance_content": "出任科恰班巴省立法议会主席前后公开质疑罗德里戈·帕斯总统的治理，并将玻利维亚国内社会动荡归咎于中央政府",
+            "source": "Instagram reel (2026-04-28): https://www.instagram.com/reel/DXrseRLgJVx/；YouTube新闻 (2026-05-19): https://www.youtube.com/shorts/IoRvUzNjstQ"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2024-05-05",
+            "achievement": "在埃尔阿尔托举行的MAS第十次党代会（arcista派）当选全国主席，接替执掌该党近30年的埃沃·莫拉莱斯，成为阿尔塞派领袖",
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)"
+        },
+        {
+            "date": "2024-11-27",
+            "achievement": "获多民族选举法院（TSE）依多民族宪法法院第0776/2024-S4号判决，以第TSE-RSP 22/2024号决定正式承认为MAS-IPSP全国主席，结束莫拉莱斯对党籍的掌控",
+            "organization": "玻利维亚多民族选举机构 (Órgano Electoral Plurinacional)"
+        },
+        {
+            "date": "2026",
+            "achievement": "以「人民团结联盟」（A-UPP）候选人在2026年地方选举中当选科恰班巴省议会议员（联盟首席当选人）",
+            "organization": "科恰班巴省立法议会 (Asamblea Legislativa Departamental de Cochabamba)"
+        },
+        {
+            "date": "2026-05-02",
+            "achievement": "获26票赞成、1票反对、6票弃权，当选科恰班巴省立法议会主席（2026-2027年度）",
+            "organization": "科恰班巴省立法议会 (Asamblea Legislativa Departamental de Cochabamba)"
+        }
+    ],
+    "biography_summary": "格罗弗·加西亚·卡瓦略（Grover García Carballo），玻利维亚左翼政治人物、农民工运动领袖，现任争取社会主义运动（MAS-IPSP）全国主席（获宪法法院与最高选举法院承认的领导层）及科恰班巴省立法议会主席（2026-2027年度）。他出生于科恰班巴省蒂拉克市的农村社区科梅尔科查，毕业于市立圣西蒙大学（UMSS）。2010至2015年任蒂拉克市市长，此后历任MAS科恰班巴省级负责人（2015-2017）、省主席（2017-2019），并曾在农村发展与土地部下属渔业与水产养殖公共分权机构（IPD-PACU）任职约两年，于2024年5月3日辞职。2024年5月5日，他作为玻利维亚统一农民工工会联合会（CSUTCB）科恰班巴代表，在arcista（阿尔塞派）于埃尔阿尔托召开的MAS第十次党代会上当选全国主席，接替埃沃·莫拉莱斯；同月TSE一度驳回党代会决议，同年11月27日依据宪法法院第0776/2024-S4号判决获TSE以第TSE-RSP 22/2024号决定正式承认。任内与莫拉莱斯的evismo派决裂，2025年8月大选中MAS惨败（得票约3.2%），失去执政地位；同年10-12月又与阿尔塞阵营公开疏远，要求调查其家族指控。2026年面对党籍注册丧失风险，与evismo和解并以MAS注册组建「人民团结联盟」（A-UPP）参加地方选举，当选科恰班巴省议员，并于5月2日以26票赞成当选省立法议会主席。",
+    "profile": {
+        "source_url": "https://www.la-razon.com/wp-content/uploads/2024/05/07/13/grover_garcia.jpg",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["news_search", "web_search", "wikipedia", "social_media"],
+        "quotes": [
+            {
+                "title": "¿Quién es Grover García? Conozca al nuevo jefe del MAS que desplazó a Evo Morales — La Razón",
+                "url": "https://hemeroteca.larazon.bo/nacional/2024/11/27/quien-es-grover-garcia-conozca-al-nueve-jefe-del-mas-que-desplazo-a-evo-morales/"
+            },
+            {
+                "title": "¿Quién es Grover García?（La Razón 2024-11-27 全文，OEP/SIFDE 监测系统存档）",
+                "url": "https://sisin.oep.org.bo/medios_digitales/138214/detalle"
+            },
+            {
+                "title": "Congreso arcista elige a Grover García como nuevo presidente del MAS y desplaza a Evo — ANF Noticias Fides",
+                "url": "https://www.noticiasfides.com/nacional/politica/congreso-arcista-elige-a-grover-garcia-como-nuevo-presidente-del-mas-y-desplaza-a-evo"
+            },
+            {
+                "title": "Cochabamba: Grover García es elegido presidente de la Asamblea para la gestión 2026-2027 — Urgente.bo",
+                "url": "https://www.urgente.bo/noticia/cochabamba-grover-garcia-es-elegido-presidente-de-la-asamblea-para-la-gestion-2026-2027"
+            },
+            {
+                "title": "Cochabamba: García es elegido presidente de la Asamblea para la gestión 2026-2027 — Opinión",
+                "url": "https://www.opinion.com.bo/cochabamba/cochabamba-grover-garcia-es-elegido-presidente-asamblea-gestion-2026-2027/20260502211307990993.html"
+            },
+            {
+                "title": "Nuevo presidente del MAS era funcionario; renunció el día de la apertura del congreso arcista — Correo del Sur",
+                "url": "https://correodelsur.com/politica/20240507/nuevo-presidente-del-mas-era-funcionario-renuncio-el-dia-de-la-apertura-del-congreso-arcista.html"
+            },
+            {
+                "title": "Jefe del MAS, Grover García, listo para presidir la Asamblea Departamental de Cochabamba — El Deber",
+                "url": "https://eldeber.com.bo/cochabamba/jefe-grover-garcia-listo-presidir-asamblea-departamental-cochabamba_1777590117"
+            },
+            {
+                "title": "Movimiento al Socialismo — Wikipedia (English)",
+                "url": "https://en.wikipedia.org/wiki/Movimiento_al_Socialismo"
+            },
+            {
+                "title": "Tribunal Electoral de Bolivia reconoce a Grover García como nuevo dirigente de partido gobernante MAS — Xinhua西班牙语",
+                "url": "http://spanish.xinhuanet.com/20241128/913a439910bf43d08662cea5bc7bd061/c.html"
+            },
+            {
+                "title": "No se puede proteger ni tapar — Bolivisión (YouTube)",
+                "url": "https://www.youtube.com/watch?v=DBl2U21xB50"
+            },
+            {
+                "title": "玻利维亚执政党推出总统「预备候选人」：现任总统阿尔塞 — 南美侨报网",
+                "url": "https://www.br-cn.com/static/content/news/nm_news/2025-02-19/1341871154860690854.html"
+            }
+        ],
+        "notes": "关键事实均经2个以上独立来源确认：全名Grover García Carballo（Opinión、本人Facebook署名、X账号、TeleEstrella/TikTok报道）、MAS全国主席职务及TSE承认（ANF、La Razón、Xinhua、Correo del Sur、英文维基）、2026年5月当选科恰班巴省立法议会主席（Opinión、Urgente.bo）。出生日期与家庭成员未见公开报道，相应字段留空。出生地（Comercocha，Tiraque市）与UMSS学历来自La Razón人物专访（2024-11-27，并经OEP选举机构SIFDE监测系统存档交叉核对）。IPD-PACU任职起始年2022系据本人『任职两年』访谈陈述推算，精确起始月份未见报道。X与Facebook账号经身份印证（帖文署名全名、发布当选动态）；Instagram/TikTok/LinkedIn/YouTube未发现个人账号。中文名「格罗弗·加西亚」见于中文维基百科MAS条目与南美侨报网报道，与既有写法一致（商务部国别指南另作「格罗威尔·加尔西亚」，属少数写法）。2025年8月大选后MAS失去执政地位，2026年加西亚将党籍注册提供给A-UPP联盟（含evismo力量）参加地方选举。"
+    }
+}
+
+out_path = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000482.json"
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", out_path)
+print("top-level keys:", len(profile.keys()))
+print("work_experience:", len(profile["work_experience"]))
+print("political_stances:", len(profile["political_stances"]))
+print("person_relationships:", len(profile["person_relationships"]))
+print("major_achievements:", len(profile["major_achievements"]))
+print("social_accounts:", len(profile["social_accounts"]))
+print("education:", len(profile["education"]))
+print("family_members:", len(profile["family_members"]))
+print("quotes:", len(profile["collection_meta"]["quotes"]))

@@ -1,0 +1,225 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000047 (René Gonzalo Rivera Méndez) person profile JSON."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000047.json")
+
+data = {
+    "person_id": "BO-PERSON-000047",
+    "wikidata_qid": None,
+    "name_zh": None,
+    "name": "René Gonzalo Rivera Méndez",
+    "name_en": "René Gonzalo Rivera Méndez",
+    "aliases": [
+        "René Rivera Méndez"
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1969-06-21",
+    "birth_place": None,
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://modernizacion.presidencia.gob.bo",
+            "source": "所属机构：总统府部协调、战略规划与国家现代化副部长办公室官方网站"
+        }
+    ],
+    "current_positions": [
+        "总统府部协调、战略规划与国家现代化副部长"
+    ],
+    "education": [
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "bachelor",
+            "field": "企业管理 (Administración de Empresas)",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "玻利维亚圣保罗天主教大学—哈佛国际发展中心 (Universidad Católica Boliviana – Harvard International Development Center)",
+            "degree": "master",
+            "field": "管理与公共政策 (Gestión y Políticas Públicas)",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": "2026-08-26",
+            "end_date": None,
+            "organization": "总统府部 (Ministerio de la Presidencia)",
+            "org_id": "BO-GOV-006",
+            "position": "协调、战略规划与国家现代化副部长"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "德国国际合作机构 (GIZ)",
+            "org_id": None,
+            "position": "协调员、顾问、咨询专家"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "联合国开发计划署 (PNUD)",
+            "org_id": None,
+            "position": "协调员、顾问、咨询专家"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "联合国儿童基金会 (UNICEF)",
+            "org_id": None,
+            "position": "协调员、顾问、咨询专家"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "国际劳工组织 (OIT)",
+            "org_id": None,
+            "position": "协调员、顾问、咨询专家"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "org_id": "BO-ACAD-001",
+            "position": "研究生课程教师"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚私立大学 (Universidad Privada Boliviana)",
+            "org_id": "BO-ACAD-009",
+            "position": "研究生课程教师"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000003",
+            "person_name": "费尔南多·乌戈·阿拉马约·卡拉斯科 (Fernando Hugo Aramayo Carrasco)",
+            "relationship_type": "superior",
+            "description": "总统府部部长（Ministro de la Presidencia），为其直属上级；2026年8月26日主持里维拉·门德斯的副部长就职仪式。"
+        },
+        {
+            "person_id": None,
+            "person_name": "胡利奥·埃克托尔·利纳雷斯 (Julio Héctor Linares)",
+            "relationship_type": "other",
+            "description": "其前任；因机构原因于2026年8月26日辞去协调、战略规划与国家现代化副部长职务（辞呈不可撤回），由里维拉·门德斯接任。"
+        },
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统。里维拉·门德斯在其政府中依据2026年8月26日颁布的第5675号最高法令（行政机关重组）获任现职。"
+        }
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2026-09",
+            "topic": "国家现代化与行政简化",
+            "stance_content": "与美洲开发银行（BID）代表举行工作会议，评估政府中心（CENGOB）的落实与巩固及「Tranca Cero」计划进展，主张放宽管制、简化流程、减少官僚主义，强化透明度与反腐败，推动建设更现代、更高效、更贴近公民的国家。",
+            "source": "eju.tv（2026-09-03）"
+        },
+        {
+            "date": "2026-10",
+            "topic": "公共服务改革（「Tranca Cero」计划）",
+            "stance_content": "在「Tranca Cero」计划面向公务员的首期培训班上，重申致力于建设一个敏捷、透明的国家，倡导「更多同理心、更好服务、更少障碍」的行政服务理念。",
+            "source": "副部长办公室官方 Facebook（vicemincgg，2026-10-12）"
+        },
+        {
+            "date": "2026-10",
+            "topic": "监管改善与行政简化国际合作",
+            "stance_content": "作为国际专家出席在多米尼加共和国举行的第15届伊比利亚美洲及加勒比监管改善网络例行会议，参与行政简化、监管周期、人工智能在监管改善中的应用等议题的区域经验交流，体现其对监管改善议程的推动。",
+            "source": "El Politico RD / De Interés Diario（2026-10）"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2026-08-26",
+            "achievement": "在第5675号最高法令重组行政机关、总统府部设五大副部长架构后，正式就任协调、战略规划与国家现代化副部长，接替同日辞职的胡利奥·埃克托尔·利纳雷斯",
+            "organization": "总统府部 (Ministerio de la Presidencia)"
+        },
+        {
+            "date": "2026-09-23",
+            "achievement": "以战略规划副部长身份出席在圣克鲁斯 FEXPOCRUZ 展会期间举行的「玻利维亚—巴西一体化联盟」联合意向声明签署仪式，与联合国开发计划署、巴西 SEBRAE 及两国企业界代表共同推动将3400公里边境转型为发展走廊的倡议",
+            "organization": "联合国开发计划署 (PNUD)"
+        },
+        {
+            "date": "2026-10-06",
+            "achievement": "与总统府部团队共同同联合国开发计划署（PNUD）技术团队举行协调会议，推进政府与国际多边机构在规划与现代化领域的合作对接（据总统府部官方账号发布）",
+            "organization": "总统府部 (Ministerio de la Presidencia)"
+        },
+        {
+            "date": "2026-10-15",
+            "achievement": "作为国际专家赴多米尼加共和国圣多明各出席第15届伊比利亚美洲及加勒比监管改善网络例行会议（10月15-16日，PUCMM 大学），与20多个国家及 BID、OECD 代表交流监管改善与行政简化经验",
+            "organization": "伊比利亚美洲及加勒比监管改善网络 (Red Iberoamericana y del Caribe de Mejora Regulatoria)"
+        }
+    ],
+    "biography_summary": "雷内·冈萨洛·里维拉·门德斯（René Gonzalo Rivera Méndez），1969年6月21日出生，玻利维亚现任总统府部协调、战略规划与国家现代化副部长。毕业于圣安德烈斯大学（UMSA）获企业管理学士学位，后在玻利维亚圣保罗天主教大学与哈佛国际发展中心合办项目中获管理与公共政策硕士学位。长期深耕战略规划、结果导向公共管理与治理领域，并有相关领域著述；曾在德国国际合作机构（GIZ）、联合国开发计划署（PNUD）、联合国儿童基金会（UNICEF）、国际劳工组织（OIT）等国际合作机构及公民社会组织担任协调员、顾问，并在圣安德烈斯大学和玻利维亚私立大学担任研究生课程教师。2026年8月26日，依据第5675号最高法令对行政机关的重组，经总统府部部长费尔南多·阿拉马约主持宣誓，接替辞职的胡利奥·利纳雷斯出任现职。就任后积极推动国家现代化议程：与美洲开发银行会晤评估政府中心（CENGOB）建设、启动面向公务员的「Tranca Cero」行政简化培训、出席玻利维亚—巴西一体化联盟签署仪式，并代表玻利维亚参加伊比利亚美洲及加勒比监管改善网络第15届例行会议。",
+    "profile": {
+        "source_url": "https://modernizacion.presidencia.gob.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-18-at-10.34.34-1024x576.jpeg",
+        "local_path": None
+    },
+    "education_note": "硕士学位由玻利维亚圣保罗天主教大学（UCB）与哈佛国际发展中心（Harvard International Development Center）合办项目授予；官方简历将两机构并列载明，education 条目据此合并表述。两段学历的就读起止年份官方未披露。",
+    "social_accounts_note": "六项平台扫描（facebook / X / linkedin / instagram / tiktok / youtube）均未发现本人个人账号；仅见总统府部（MinPresidencia、min.presidencia）、副部长办公室（vicemincgg）等机构账号发布其相关消息，故 social_accounts 留空。",
+    "family_note": "无任何公开资料涉及其家庭成员，family_members 留空。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "government_directory",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "notes": "全名与出生日期（1969-06-21）经总统府部官网新闻稿（2026-08-31）与现代化副部长办公室官方专页双重确认，另有 ANF/Noticias Fides、Opinión/ERBOL、ABI、Abya Yala TV 等多家媒体交叉印证；就任事实（2026-08-26，依据最高法令5675接替辞职的胡利奥·埃克托尔·利纳雷斯）有4个以上独立来源。数据限制：①就任时间短（2026-08），官方未披露国际合作机构任职及任教的起止年份、出生地与家庭信息，相应字段留空；②GIZ、PNUD、UNICEF、OIT 经历官方原文为例举式表述（「如 GIZ、PNUD、UNICEF 和 OIT」），work_experience 据此分列4条、职务统一为协调员/顾问/咨询专家；③六项社交媒体扫描未发现本人个人账号（仅机构账号发布其消息），social_accounts 留空；④name_zh 查证：中文媒体（新华社、商务部、百度百科等）仅有关于总统罗德里戈·帕斯等人的报道，未见本人物既有中文译名，置 null；⑤Wikidata 检索无条目，wikidata_qid 置 null；⑥org_id 经 _name_index.json 核查：总统府部=BO-GOV-006、圣安德烈斯大学=BO-ACAD-001、玻利维亚私立大学=BO-ACAD-009；关联人物阿拉马约=BO-PERSON-000003、帕斯=BO-PERSON-000001，前任利纳雷斯未命中索引置 null；⑦官方照片位于副部长办公室官网（profile.source_url），因网络受限未能下载本地副本，local_path 置 null。completeness_score 未达85系客观信息稀缺所致（无个人社交媒体、无家庭公开资料、无中文译名与出生地披露、无 Wikidata 条目），已达人物公开信息有限情形下的合理水平。",
+        "quotes": [
+            {
+                "title": "Reestructuración del Estado: Ministerio de la Presidencia posesiona y ratifica a cinco viceministros para fortalecer la gestión - Ministerio de la Presidencia (Gob.bo)",
+                "url": "https://presidencia.gob.bo/index.php/nota_prensa/reestructuracion-del-estado-ministerio-de-la-presidencia-posesiona-y-ratifica-a-cinco-viceministros-para-fortalecer-la-gestion/"
+            },
+            {
+                "title": "Viceministro de Coordinación, Planificación Estratégica y Modernización del Estado - Gob.bo（副部长办公室官方专页）",
+                "url": "https://modernizacion.presidencia.gob.bo/index.php/ministro-de-la-presidencia/"
+            },
+            {
+                "title": "Aramayo ratifica a todos sus viceministros y posesiona a René Rivera como nuevo viceministro de Modernización - ANF / Noticias Fides",
+                "url": "https://www.noticiasfides.com/nacional/politica/aramayo-ratifica-a-todos-sus-viceministros-y-posesiona-a-rene-rivera-como-nuevo-viceministro-de-modernizacion"
+            },
+            {
+                "title": "Aramayo ratifica a cuatro viceministros y posesiona a uno nuevo para Coordinación y Planificación - Opinión / ERBOL",
+                "url": "https://www.opinion.com.bo/pais/aramayo-ratifica-cuatro-viceministros-posesiona-uno-nuevo-coordinacion-planificacion/20260826142358995289.html"
+            },
+            {
+                "title": "Ministro de la Presidencia ratifica a cuatro viceministros y posesiona a uno nuevo - ABI（玻利维亚国家通讯社）",
+                "url": "https://abi.bo/ministro-de-la-presidencia-ratifica-a-cuatro-viceministros-y-posesiona-a-uno-nuevo/"
+            },
+            {
+                "title": "Gobierno intensifica contactos con el BID y el Banco Mundial mientras aguarda el aval de la Asamblea al acuerdo con el FMI - eju.tv",
+                "url": "https://eju.tv/2026/09/gobierno-intensifica-contactos-con-el-bid-y-el-banco-mundial-mientras-aguarda-el-aval-de-la-asamblea-al-acuerdo-con-el-fmi/"
+            },
+            {
+                "title": "Alianza multisectorial impulsará la integración económica y el desarrollo en la frontera Bolivia-Brasil - PNUD Bolivia",
+                "url": "https://www.undp.org/es/bolivia/noticias/alianza-multisectorial-impulsara-la-integracion-economica-y-el-desarrollo-en-la-frontera-bolivia-brasil"
+            },
+            {
+                "title": "RD será sede del XV Encuentro Ordinario de la Red Iberoamericana y del Caribe de Mejora Regulatoria - El Politico RD",
+                "url": "https://elpoliticord.com/rd-sera-sede-del-xv-encuentro-ordinario-de-la-red-iberoamericana-y-del-caribe-de-mejora-regulatoria/"
+            },
+            {
+                "title": "Conoce más sobre René Rivera Méndez, Viceministro de Coordinación, Planificación Estratégica y Modernización del Estado - Ministerio de la Presidencia (X)",
+                "url": "https://x.com/MinPresidencia/status/2092723048935792737"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT, os.path.getsize(OUT), "bytes")

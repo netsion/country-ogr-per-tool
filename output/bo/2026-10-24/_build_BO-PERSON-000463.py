@@ -1,0 +1,142 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000463 (Rosario Moreno, World Vision Bolivia) person profile."""
+import json
+import os
+
+OUT = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000463.json"
+
+person = {
+    "person_id": "BO-PERSON-000463",
+    "wikidata_qid": None,
+    "name": "Rosario Moreno",
+    "name_en": "Rosario Moreno",
+    "name_zh": None,
+    "aliases": [],
+    "nationality": "BO",
+    "gender": "female",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [],
+    "current_positions": [
+        "世界宣明会玻利维亚分会行政与财务总监"
+    ],
+    "education": [],
+    "work_experience": [
+        {
+            "start_date": "2023",
+            "organization": "世界宣明会玻利维亚分会 (World Vision Bolivia)",
+            "org_id": "BO-NGO-009",
+            "position": "行政与财务总监 (Directora de Administración y Finanzas)",
+            "end_date": None,
+            "is_current": "true",
+            "location": "拉巴斯 (La Paz)",
+            "description": "机构六人管理团队（Equipo Directivo）成员，统管世界宣明会玻利维亚分会行政与财务条线；2024年度报告所示职权范围覆盖世界宣明会南美区「安第斯板块集群」（Cluster Bloque Andino），与厄瓜多尔、玻利维亚两国办公室共享服务架构并行（同期营销传播与筹资总监、人员与文化经理等职务均标注「Para Ecuador y Bolivia」）。机构注册法律名称为 ONG Visión Mundial Bolivia，总部位于拉巴斯奥布拉热斯区阿南多·西莱斯大道6023号。",
+            "source": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf",
+            "note": "机构官方 LinkedIn（2023年国际妇女节专题帖）职衔作「Gerente de Administración y Finanzas」；2024年度报告（2025年6月发布）职衔作「Directora de Administración y Finanzas」，实为同一职务的两种表述。机构官网未公布各部门负责人姓名，其个人任职起始日期无公开来源；截至2026-10检索未见其卸任或职务变动的来源，2024报告期后在任情况未经独立更新来源确认。任职与职衔由机构2024年度报告（Memoria institucional 2024）第9页「EQUIPO DIRECTIVO」名单直接确认；机构官方 LinkedIn 贴文信息自 BO-NGO-009 组织档案 phase3 富化记录（2026-10-24 采集）转引，本次检索时 LinkedIn 登录墙无法直接复核原帖。",
+            "start_date_note": "记为「不迟于2023年」：机构官方 LinkedIn 国际妇女节专题帖（2023年发布）已以其为行政与财务总监介绍，确切任命日期无公开来源。"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000461",
+            "person_name": "胡安·卡洛斯·拉米雷斯 (Juan Carlos Ramírez)",
+            "relationship_type": "superior",
+            "description": "世界宣明会玻利维亚分会国家主任（Director País），行政与财务条线的直接上级；两人同列机构2024年度报告第9页六人管理团队（Equipo Directivo）名单前两位。2024年度报告版面将国家主任姓名印作「Juan Carlo Ramírez」，与索引及组织档案所用「Juan Carlos Ramírez」为同一人。",
+            "source": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf"
+        },
+        {
+            "person_id": None,
+            "person_name": "奥斯卡·蒙特斯 (Oscar Montes)",
+            "relationship_type": "colleague",
+            "description": "世界宣明会玻利维亚分会项目质量总监（Director de Calidad Programática），与 Moreno 同列机构2024年度报告六人管理团队名单。",
+            "source": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf"
+        },
+        {
+            "person_id": None,
+            "person_name": "贝罗尼卡·普罗阿尼奥 (Verónica Proaño)",
+            "relationship_type": "colleague",
+            "description": "世界宣明会玻利维亚分会营销、传播与筹资总监（Directora de Marketing, Comunicación y Fundraising），职务标注「Para Ecuador y Bolivia」（服务于厄瓜多尔与玻利维亚），与 Moreno 同列机构2024年度报告六人管理团队名单。",
+            "source": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf"
+        },
+        {
+            "person_id": None,
+            "person_name": "埃丽卡·亚历杭德拉·托雷斯 (Erika Alejandra Torres)",
+            "relationship_type": "colleague",
+            "description": "世界宣明会玻利维亚分会资助项目获取总监（Directora de Grants Acquisition），职务标注「Para Sudamérica」（服务于南美区），与 Moreno 同列机构2024年度报告六人管理团队名单。",
+            "source": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf"
+        },
+        {
+            "person_id": None,
+            "person_name": "罗西奥·拉克尔·佩尼亚洛萨 (Rocío Raquel Peñaloza)",
+            "relationship_type": "colleague",
+            "description": "世界宣明会玻利维亚分会人员与文化经理（Gerente de Gente y Cultura），与 Moreno 同列机构2024年度报告六人管理团队名单。",
+            "source": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf"
+        }
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2024",
+            "achievement": "以行政与财务总监（Directora de Administración y Finanzas）身份入选世界宣明会玻利维亚分会2024年度报告（Memoria institucional 2024）公布的六人管理团队（Equipo Directivo），为该机构公开渠道披露的少数核心管理职务之一。",
+            "organization": "世界宣明会玻利维亚分会 (World Vision Bolivia)"
+        }
+    ],
+    "public_activities": [
+        "2024-03-07，YouTube 频道「Gente Motivando Gente」发布世界宣明会玻利维亚分会官方呈现的励志故事视频《World Vision Bolivia presenta una historia inspiradora en la voz de Rosario Moreno》，以 Moreno 为讲述人，时值国际妇女节专题期间（累计观看约106次）。"
+    ],
+    "biography_summary": "罗萨里奥·莫雷诺（Rosario Moreno），女性，玻利维亚籍，现任世界宣明会玻利维亚分会（World Vision Bolivia，注册法律名称 ONG Visión Mundial Bolivia，总部拉巴斯）行政与财务总监（西语职衔 Directora de Administración y Finanzas，机构官方 LinkedIn 2023年国际妇女节专题亦作 Gerente de Administración y Finanzas），2024年度报告（2025年6月发布）所示职权范围覆盖世界宣明会南美区「安第斯板块集群」（Cluster Bloque Andino）。世界宣明会为全球最大基督教儿童救助公益机构之一，玻利维亚分会创立于1983年，2026年2月庆祝在玻服务43周年。Moreno 是该机构公开渠道披露的少数核心管理职务之一：与国家主任胡安·卡洛斯·拉米雷斯（行政与财务条线的直接上级）、项目质量总监奥斯卡·蒙特斯、营销传播与筹资总监贝罗尼卡·普罗阿尼奥、资助项目获取总监埃丽卡·亚历杭德拉·托雷斯、人员与文化经理罗西奥·拉克尔·佩尼亚洛萨共同构成机构2024年度报告第9页公布的六人管理团队（Equipo Directivo）。2024年3月7日国际妇女节前后，YouTube 频道「Gente Motivando Gente」发布世界宣明会玻利维亚分会官方呈现的励志故事视频，以其为讲述人。除上述机构自属载体外，未见玻利维亚媒体对其个人的独立报道，出生日期、出生地、学历、家庭与个人社交账号均无公开可靠来源。同名甄别：YouTube 上「Rosario Moreno Justiniano：领导力教练」访谈、墨西哥阿卡普尔科 DIF 前局长 María del Rosario Moreno de la Cruz、古巴裔模特 Rosario Moreno、西班牙帕布洛·德奥拉维德大学拉丁语教授 Rosario Moreno 均经核实为不同人，未采信。",
+    "profile": {
+        "source_url": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf",
+        "local_path": "photos/BO-PERSON-000463.jpg"
+    },
+    "position_note": "同一职务存在两种官方表述：机构官方 LinkedIn 2023年国际妇女节专题帖作「Gerente de Administración y Finanzas」（自 BO-NGO-009 组织档案 phase3 记录转引，本次 LinkedIn 登录墙无法直接复核原帖）；机构2024年度报告第9页管理团队名单作「Directora de Administración y Finanzas」并附职掌范围「Cluster Bloque Andino」。以2024年度报告为最新直接证据；2024报告期后是否有职务变动，截至2026-10无更新来源。",
+    "work_note": "任职证据链：①机构官方 LinkedIn 2023年国际妇女节专题帖（Gerente de Administración y Finanzas，转引自 BO-NGO-009 组织档案2026-10-24采集记录）；②机构2024年度报告 Memoria institucional 2024（PDF 2025-06-17生成、2025-10-17修订，第9页 EQUIPO DIRECTIVO 名单，实测下载并全文检索，照片经版面裁切核验为女性）；③机构官网 equipo directivo 相关页面（现版及2024-07/2024-10/2025-06三次 Internet Archive 快照）均仅列捐赠热线人员、不列管理团队，无补充信息。官网未公布行政与财务条线的起始日期，任职起始不详。",
+    "education_note": "无任何公开来源披露其教育背景，留空。",
+    "social_accounts_note": "已完成 6 平台扫描：LinkedIn——登录墙拦截（直取 HTTP 999、jina reader 跳登录页），其个人主页无法定位，仅机构官方公司页 linkedin.com/company/worldvisionbolivia 在档（BO-NGO-009 已收录）；Facebook（机构页 WorldVisionBO 实测抓取，未提及本人）；Instagram（机构号 @worldvisionbolivia 实测抓取，无本人信息）；X/Twitter（机构号 @WorldVisionbo，syndication 接口无可读内容）；YouTube（机构频道 UC71NkmLJEJx4-AZT39IigzA 检索无本人出镜视频；讲述视频出自第三方频道「Gente Motivando Gente」）；TikTok（机构号 @worldvisionbo 实测抓取，无本人信息）。无任何可确证为本人的个人社交账号，social_accounts 留空。",
+    "name_note": "玻利维亚人名惯例为「名+父姓+母姓」，官方来源仅公布「Rosario Moreno」（名+单一姓氏），其完整父姓/母姓结构无法核实，按官方公布形式建档。Moreno 为西语世界最常见姓氏之一，同名甄别情况见 collection_meta.notes。",
+    "gender_note": "2024年度报告职衔「Directora」为阴性词形，且年报第9页官方肖像（已裁切存档至 photos/BO-PERSON-000463.jpg）为女性，判定 female。",
+    "nationality_note": "无公开证件类来源直接证实其国籍；依据其任职于玻利维亚注册 NGO（ONG Visión Mundial Bolivia）核心管理层、西语姓名、机构所在地拉巴斯及玻利维亚业务语境，按任务参数记 BO，待核实。",
+    "name_zh_note": "未检索到任何中文媒体对其的报道或既有译名（WebSearch 与 web_reader MCP 配额耗尽，Google News RSS 各语种检索均无中文名），name_zh 置 null；本档案叙述按通行音译暂作「罗萨里奥·莫雷诺」，不作为正式译名。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "annual_report",
+            "social_media",
+            "news_search",
+            "web_search"
+        ],
+        "completeness_score": 37,
+        "notes": "行政与财务总监职务的直接证据为机构2024年度报告（MemoriaWV2024.pdf，实测下载，第9页 EQUIPO DIRECTIVO 名单：Rosario Moreno — Directora de Administración y Finanzas — Cluster Bloque Andino，版面裁切照片核验为女性）；机构官方 LinkedIn 2023年国际妇女节专题帖（Gerente de Administración y Finanzas）作为第二来源自 BO-NGO-009 组织档案 phase3 记录（2026-10-24采集）转引——本次检索 LinkedIn 登录墙无法直接复核原帖，已在 position_note 与 work_note 中如实标注转引链路。关键发现：Moreno 为机构公开披露的六人管理团队（Equipo Directivo）成员之一，职掌范围覆盖世界宣明会南美区「安第斯板块集群」（Cluster Bloque Andino），与厄瓜多尔办公室共享服务架构并行。同名甄别（重点，Moreno 为高频姓氏）：YouTube「Entrevista a Rosario Moreno Justiniano: Coach de Líderes」为领导力教练访谈，无 World Vision 关联；Google News RSS 命中的墨西哥阿卡普尔科 DIF 前局长 María del Rosario Moreno de la Cruz（2022-2023贪腐案报道）、古巴裔模特 Rosario Moreno（讣闻）、西班牙 UPO 大学拉丁语教授 Rosario Moreno 均经标题与摘要核实为不同人；官网及年报全文检索仅命中本条，无混入。检索环境受限：WebSearch 与 web_reader MCP 周配额耗尽（2026-11-19重置），Bing（国际版/RSS端点）对精确短语去引号返回无关结果，DuckDuckGo/Mojeek/SearX/Brave/Ecosia/Startpage/Yandex/Google 网页端均反爬或验证码，LinkedIn HTTP 999，浏览器自动化 MCP 未挂载；实际可用渠道为官网直取（worldvision.bo，官方域名，wvi.org/bolivia 301而至）、机构年报 PDF 直取、Internet Archive CDX 与快照、Google News RSS、YouTube 结果页/oembed/watch 页直取、Instagram/TikTok 公开页直取。中层行政岗公开足迹仅限机构年报与官方社媒，出生/学历/家庭/个人社交/媒体独立报道均客观缺失，相应数组依「查不到留空、禁止编造」铁律留空；completeness_score 由 validate_schema.py --score 计算约41分，未达85分目标已在任务授权（中层行政岗≥40即可并说明）范围内。",
+        "quotes": [
+            {
+                "title": "Memoria institucional 2024 — World Vision Bolivia（机构2024年度报告PDF，第9页 EQUIPO DIRECTIVO 名单：Rosario Moreno, Directora de Administración y Finanzas, Cluster Bloque Andino，附官方肖像）",
+                "url": "https://www.worldvision.bo/hubfs/BOLIVIA/BO-Descargables/MemoriaWV2024.pdf"
+            },
+            {
+                "title": "World Vision Bolivia 官方 LinkedIn 公司页（2023年国际妇女节专题帖以 Gerente de Administración y Finanzas 介绍 Rosario Moreno；本档案经 BO-NGO-009 组织档案 phase3 记录转引，登录墙无法直取原帖）",
+                "url": "https://www.linkedin.com/company/worldvisionbolivia"
+            },
+            {
+                "title": "World Vision Bolivia presenta una historia inspiradora en la voz de Rosario Moreno（YouTube，2024-03-07首播，频道 Gente Motivando Gente，实测抓取观看页元数据）",
+                "url": "https://www.youtube.com/watch?v=JUt7Br1B8x8"
+            },
+            {
+                "title": "World Vision Bolivia 官网首页（机构法律名称 ONG Visión Mundial Bolivia、拉巴斯总部地址、bolivia@wvi.org 联系方式及 Memorias anuales 下载区，实测抓取）",
+                "url": "https://www.worldvision.bo/"
+            },
+            {
+                "title": "Nuestro Equipo — World Vision Bolivia（官网团队页现版及2024-07-25/2024-10-13/2025-06-21三次 Internet Archive 快照，均仅列捐赠热线人员、不列管理团队，佐证年报为唯一管理名单来源）",
+                "url": "https://www.worldvision.bo/nuestro-equipo"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(person, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT, os.path.getsize(OUT), "bytes")

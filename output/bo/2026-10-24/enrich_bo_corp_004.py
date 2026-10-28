@@ -1,0 +1,278 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-CORP-004 (Hipermaxi) to phase3_enriched."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-CORP-004.json")
+
+with open(OUT, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_zh"] = None  # 无可靠中文译名，禁止机械音译
+data["basic_info"]["name_en"] = "Hipermaxi"
+data["basic_info"]["aliases"] = ["Hipermaxi S.A.", "HIPERMAXI SA", "Farmacias Hipermaxi"]
+data["basic_info"]["website"] = "https://www.hipermaxi.com/"
+data["industries"] = ["retail", "ecommerce", "food_beverage"]
+
+data["social_accounts"] = [
+    {
+        "platform": "facebook",
+        "account_name": "HipermaxiSC",
+        "url": "https://facebook.com/HipermaxiSC",
+        "source": "wikidata"
+    },
+    {
+        "platform": "youtube",
+        "account_name": "UCDw3oYhT6y2JGJKpV3AjLqA",
+        "url": "https://youtube.com/channel/UCDw3oYhT6y2JGJKpV3AjLqA",
+        "source": "wikidata"
+    },
+    {
+        "platform": "instagram",
+        "account_name": "hipermaxi_lpz_cbb",
+        "url": "https://www.instagram.com/hipermaxi_lpz_cbb/",
+        "source": "instagram (官方拉巴斯与科恰班巴区域账号，经搜索核实)"
+    },
+    {
+        "platform": "tiktok",
+        "account_name": "hipermaxisantacruz",
+        "url": "https://www.tiktok.com/@hipermaxisantacruz",
+        "source": "tiktok (发布App更新等官方信息，经搜索核实)"
+    },
+    {
+        "platform": "facebook",
+        "account_name": "Farmacias Hipermaxi",
+        "url": "https://www.facebook.com/profile.php?id=100066773342780",
+        "source": "facebook (药房业务官方主页，发布药房开业信息)"
+    }
+]
+
+data["digital_assets"] = [
+    {
+        "name": "Hipermaxi 线上商城",
+        "url": "https://www.hipermaxi.com/",
+        "description": "官方电商网站，支持按分店在线下单并送货上门（Delivery）。公司2021年推出在线应用与QR码功能，2024年正式推出电商平台；2026年网页底部版权信息显示为 Hipermaxi SA。",
+        "source": "https://www.hipermaxi.com/ ; en.wikipedia.org/wiki/Hipermaxi"
+    },
+    {
+        "name": "Hipermaxi App (Android)",
+        "url": "https://play.google.com/store/apps/details?id=com.hipermaxi",
+        "description": "Google Play 官方购物应用（2021年5月上线，后持续更新至2.2.1等版本），提供在线选购、购物车与送货到家功能。",
+        "source": "https://play.google.com/store/apps/details?id=com.hipermaxi ; eju.tv (2021-05-03)"
+    },
+    {
+        "name": "Hipermaxi App (iOS)",
+        "url": "https://apps.apple.com/bo/app/hipermaxi/id1543545683",
+        "description": "App Store 官方购物应用，卖家（开发者主体）为 Hipermaxi S.A.，需 iOS 17.0 及以上。",
+        "source": "https://apps.apple.com/bo/app/hipermaxi/id1543545683"
+    },
+    {
+        "name": "Hipermaxi 电子发票查询平台",
+        "url": "http://facturas.hipermaxi.com",
+        "description": "官方电子发票查询系统（Buscar Factura），供顾客查询购物发票。",
+        "source": "https://informacion.hipermaxi.com/quienes-somos/"
+    }
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "Tomislav Kuljis Füchtner (Tomislav Kuljis Füchtner)",
+        "title": "董事会主席兼创始人 (Presidente de Directorio y Fundador)",
+        "title_description": "Hipermaxi S.A. 董事会主席，公司创始人",
+        "description": "1994年3月4日在圣克鲁斯创立 Hipermaxi 并任董事会主席（Presidente de Directorio），2025年12月多家媒体报道其以该身份出席拉巴斯伊尔帕维（Irpavi）第40家门店开业；曾长期担任拉美超市协会（ALAS）主席，其妻 Alicia 共同创业经营。"
+    },
+    {
+        "person_id": None,
+        "name": "Alicia de Kuljiš (Alicia de Kuljiš)",
+        "title": "联合创始人 (Cofundadora)",
+        "title_description": "Hipermaxi 创始人、所有者家族成员",
+        "description": "与丈夫 Tomislav Kuljiš（两人结婚逾41年）共同创立并经营 Hipermaxi，玻利维亚媒体 Urgente.bo 称其为共同所有者（Dueños de Hipermaxi）；2025年12月共同出席拉巴斯第40家分店开业仪式。"
+    },
+    {
+        "person_id": "BO-PERSON-000264",
+        "name": "Ivo Mateo Kuljis Füchtner (Ivo Mateo Kuljiš Füchtner)",
+        "title": "所有者 / Kuljis 集团掌门人 (Propietario)",
+        "title_description": "Kuljis 家族集团创始人，Hipermaxi 所有者",
+        "description": "玻利维亚克罗地亚裔企业家（1953年生于圣克鲁斯），创办 Kuljis 集团，旗下拥有 Hipermaxi 连锁超市、Red Uno 电视台和经济银行（Banco Económico）等；据西语维基百科其为 Hipermaxi 的所有者。2025年入选玻利维亚“40 BEST CEOs 2025”榜单企业家类第三位（Grupo Kuljis - Hipermaxi）。"
+    }
+]
+
+data["departments"] = [
+    {
+        "name": "超市业务 (Supermercados Hipermaxi)",
+        "dept_id": "BO-CORP-004-DEPT-001",
+        "head": None,
+        "description": "核心业务板块。据2021年官方口径为37家卖场，2025年12月全国超市门店达到40家，实行低价策略（口号：永远最低价格），经营国产与进口食品及日用品，大型门店商品逾2.8万种。",
+        "parent_dept_id": None
+    },
+    {
+        "name": "药房业务 (Farmacias Hipermaxi)",
+        "dept_id": "BO-CORP-004-DEPT-002",
+        "head": None,
+        "description": "2008年开设第一家药房，销售药品、皮肤护理（dermo-cosmética）与营养品等；2025年12月全国第52家药房在科恰班巴市中心开业，2026年1月开设全国第60家连锁门店（含新药房）。",
+        "parent_dept_id": None
+    },
+    {
+        "name": "食品加工厂 (Fábrica Hipermaxi)",
+        "dept_id": "BO-CORP-004-DEPT-003",
+        "head": None,
+        "description": "2000年投产的自有食品制造板块，拥有20多年熟食香肠（fiambres y embutidos）生产历史，生产自有品牌香肠、潘妮托妮（panettone）等食品，同时为零售板块供货。",
+        "parent_dept_id": None
+    },
+    {
+        "name": "圣克鲁斯区域门店群 (Santa Cruz)",
+        "dept_id": "BO-CORP-004-DEPT-004",
+        "head": None,
+        "description": "总部所在地及发家市场。2000年起在圣克鲁斯南部（zona sur）与中心城区扩张，2026年1月开设全国第60家门店（Luján 新药房）；蒙特罗（Montero，属圣克鲁斯省）亦设有门店。",
+        "parent_dept_id": "BO-CORP-004-DEPT-001"
+    },
+    {
+        "name": "拉巴斯-埃尔阿尔托区域门店群 (La Paz - El Alto)",
+        "dept_id": "BO-CORP-004-DEPT-005",
+        "head": "Luis Fernando Solís",
+        "description": "2025年12月开设拉巴斯伊尔帕维（Irpavi）门店（3200平方米，拉巴斯最大卖场）；2026年7月在 Sopocachi 区开设新药房；埃尔阿尔托（El Alto）、阿丘马尼（Achumani）等地设有门店。注：Luis Fernando Solís 系 Farmacias Hipermaxi 拉巴斯大区经理（gerente regional），据2026年8月开业报道。",
+        "parent_dept_id": "BO-CORP-004-DEPT-001"
+    },
+    {
+        "name": "科恰班巴区域门店群 (Cochabamba)",
+        "dept_id": "BO-CORP-004-DEPT-006",
+        "head": None,
+        "description": "2008年随首店扩张进入科恰班巴市，此后在 Blanco Galindo 大道、Circunvalación 大道等地开设多家门店，并在萨卡瓦（Sacaba）设有卖场；2025年12月全国第52家药房在科恰班巴市中心（25 de Mayo 街）开业。",
+        "parent_dept_id": "BO-CORP-004-DEPT-001"
+    }
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-05-31",
+        "title": "Ivo Kuljis 入选玻利维亚“40 BEST CEOs 2025”榜单第三位",
+        "description": "在玻利维亚高管圈层评选的“40 BEST CEOs 2025”榜单中，Kuljis 集团（Grupo Kuljis - Hipermaxi）掌门人 Ivo Kuljis 位列企业家类第三名，此前其还获 Bolivian Business 等机构表彰。",
+        "impact": "提升了 Kuljis 家族集团及 Hipermaxi 品牌在玻利维亚商界的声誉与影响力。",
+        "source": "https://www.instagram.com/reel/DKU52ogRggU/"
+    },
+    {
+        "date": "2025-12-16",
+        "title": "第40家超市门店在拉巴斯伊尔帕维开业，为拉巴斯最大卖场",
+        "description": "Hipermaxi 开设全国第40家超市分店，位于拉巴斯市伊尔帕维（Irpavi）区，销售面积3200平方米，商品逾2.8万种，营业时间07:30-22:30。创始人夫妇 Tomislav Kuljiš（董事会主席）与 Alicia de Kuljiš 共同出席开业仪式。",
+        "impact": "巩固其在拉巴斯及高原城市市场的领先地位，全国超市门店数增至40家；公司计划每年最多新开3家门店。",
+        "source": "https://www.urgente.bo/noticia/alicia-y-tomislav-un-matrimonio-que-trabaja-en-equipo-inaugura-la-sucursal-40-de-hipermaxi"
+    },
+    {
+        "date": "2026-01-28",
+        "title": "开设全国第60家连锁门店（Luján 新药房，圣克鲁斯）",
+        "description": "据哥伦比亚零售行业媒体 ColombiaRetail 援引玻利维亚 Asuntos Centrales 报道，Hipermaxi 于2026年1月28日在圣克鲁斯开设 Luján 新药房，为其全国第60家连锁门店，每天07:00-23:00营业，是其持续扩张进程的一部分。",
+        "impact": "药房网络持续加密，体现公司2026年初在圣克鲁斯本土市场的扩张势头。",
+        "source": "https://colombiaretail.com/bolivia-hipermaxi-inaugura-su-sucursal-60-con-una-nueva-farmacia-en-santa-cruz-asuntos-centrales/"
+    },
+    {
+        "date": "2026-07-29",
+        "title": "拉巴斯 Sopocachi 区新药房开业",
+        "description": "据玻利维亚 Bolivisión 电视台报道，Farmacias Hipermaxi 在拉巴斯市中心 Sopocachi 区开设新的药房门店。",
+        "impact": "药房业务进一步加密拉巴斯中心城区布点，贴近城市核心消费人群。",
+        "source": "https://www.facebook.com/red.bolivision/videos/2062468254344873/"
+    },
+    {
+        "date": "2026-08-06",
+        "title": "拉巴斯再开新门店，区域经理强调持续扩张",
+        "description": "Hipermaxi 在拉巴斯开设新门店，Farmacias Hipermaxi 拉巴斯大区经理 Luis Fernando Solís 透过官方 Instagram 介绍此次开业并强调其为市民带来的便利与就业机会。",
+        "impact": "延续2026年在拉巴斯市场的开店节奏，巩固其在玻利维亚零售业的领先地位。",
+        "source": "https://www.instagram.com/reel/Dbt4ImYOdsD/"
+    }
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-MEDIA-010",
+        "org_name": "Red Uno de Bolivia",
+        "org_type": "MEDIA",
+        "org_description": "玻利维亚全国性电视网，1984年由 Ivo Kuljis 创办（前身 PROTEL）。",
+        "relationship_type": "sibling"
+    },
+    {
+        "org_id": "BO-FIN-012",
+        "org_name": "Banco Económico",
+        "org_type": "FIN",
+        "org_description": "玻利维亚私营银行，1989年由 Ivo Kuljis 创立（1991年2月7日开始营业），Ivo Kuljis 现任其董事会主席。",
+        "relationship_type": "sibling"
+    },
+    {
+        "org_id": "BO-MEDIA-006",
+        "org_name": "El Mundo (玻利维亚《世界报》)",
+        "org_type": "MEDIA",
+        "org_description": "玻利维亚圣克鲁斯发行的报纸，1978年创刊，系玻利维亚第一份彩色日报。",
+        "relationship_type": "affiliated"
+    },
+    {
+        "org_id": "BO-ACAD-010",
+        "org_name": "Universidad Privada de Santa Cruz de la Sierra (UPSA)",
+        "org_type": "ACAD",
+        "org_description": "玻利维亚圣克鲁斯私立大学，1984年由 Ivo Kuljis 创办。",
+        "relationship_type": "affiliated"
+    }
+]
+
+data["core_business"] = (
+    "Hipermaxi S.A. 是玻利维亚最大的连锁超市企业，总部位于圣克鲁斯市，1994年3月4日由 Tomislav "
+    "Kuljis Füchtner 创立，隶属 Kuljis 家族商业集团，以“永远最低价格”（Siempre los precios más "
+    "bajos）为经营口号。业务分三大板块：一是超市零售，官方口径2021年为37家卖场，2025年12月全国超市"
+    "门店达40家，覆盖圣克鲁斯、拉巴斯、埃尔阿尔托、科恰班巴、萨卡瓦、蒙特罗等城市，经营国产与进口食品"
+    "及日用品，大型门店商品逾2.8万种；二是药房业务（Farmacias Hipermaxi），2008年开出首店，销售药品、"
+    "皮肤护理与营养品，2025年底全国药房达52家；三是自有食品制造（Fábrica），拥有20余年历史的熟食香肠"
+    "工厂，生产自有品牌香肠、潘妮托妮等食品。公司还运营线上商城与手机App（Android/iOS）并提供送货上门"
+    "服务，2024年正式推出电商平台；2023年起引进克罗地亚 Podravka 等进口食品。员工超过4000人（2024年），"
+    "计划每年新开最多3家门店持续扩张。"
+)
+
+data["apec_stance"] = "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。"
+
+data["collection_meta"] = {
+    "collection_date": "2026-10-24",
+    "phase": "phase3_enriched",
+    "data_sources": [
+        "wikidata",
+        "wikipedia (en/es)",
+        "official_website (hipermaxi.com / informacion.hipermaxi.com)",
+        "urgente.bo",
+        "colombiaretail.com",
+        "bolivision (Facebook)",
+        "management magazine bolivia (Facebook)",
+        "google_play",
+        "app_store",
+        "instagram",
+        "tiktok"
+    ],
+    "quotes": [
+        {
+            "title": "Alicia y Tomislav, un matrimonio que trabaja en equipo, inaugura la sucursal 40 de Hipermaxi | Urgente.bo",
+            "url": "https://www.urgente.bo/noticia/alicia-y-tomislav-un-matrimonio-que-trabaja-en-equipo-inaugura-la-sucursal-40-de-hipermaxi"
+        },
+        {
+            "title": "BOLIVIA - Hipermaxi inaugura su sucursal 60 con una nueva farmacia en Santa Cruz - ColombiaRetail",
+            "url": "https://colombiaretail.com/bolivia-hipermaxi-inaugura-su-sucursal-60-con-una-nueva-farmacia-en-santa-cruz-asuntos-centrales/"
+        },
+        {
+            "title": "¿Quiénes Somos? - HIPERMAXI (官方企业介绍)",
+            "url": "https://informacion.hipermaxi.com/quienes-somos/"
+        },
+        {
+            "title": "Hipermaxi - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hipermaxi"
+        },
+        {
+            "title": "Ivo Kuljis - Wikipedia, la enciclopedia libre",
+            "url": "https://es.wikipedia.org/wiki/Ivo_Kuljis"
+        },
+        {
+            "title": "Tomislav Kuljis, Presidente de Directorio de Hipermaxi, celebra la apertura de la sucursal más grande de La Paz - Management Magazine Bolivia",
+            "url": "https://www.facebook.com/MANAGEMENMAGAZINEBOLIVIA/photos/tomislav-kuljis-presidente-de-directorio-de-hipermaxi-celebra-la-apertura-de-la-/1347707144035658/"
+        }
+    ],
+    "completeness_score": 19,
+    "notes": "Phase3 enriched: verified leadership (Tomislav Kuljis Füchtner as Presidente de Directorio; Ivo Kuljis as owner via Grupo Kuljis), business lines (supermarkets/pharmacies/factory), 2025-2026 expansion events, digital assets and social accounts. No reliable Chinese name exists; name_zh kept null. Bolivia is not an APEC member."
+}
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("WROTE", OUT)

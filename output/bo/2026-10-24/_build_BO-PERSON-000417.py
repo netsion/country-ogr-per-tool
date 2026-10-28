@@ -1,0 +1,146 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000417 (Juan Antonio Lopez, interim director of Radio Illimani / Red Patria Nueva, 2020-11)."""
+import json
+
+OUT = "D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000417.json"
+
+person = {
+    "person_id": "BO-PERSON-000417",
+    "wikidata_qid": None,
+    "name": "Juan Antonio López",
+    "name_en": "Juan Antonio Lopez",
+    "name_zh": None,
+    "aliases": ["Juan Antonio López Thompson", "Juan López Thompson"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [],
+    "current_positions": [],
+    "education": [],
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": "2020-11",
+            "organization": "新祖国广播网（伊利亚马尼电台）(Radio Illimani - Red Patria Nueva)",
+            "org_id": "BO-MEDIA-016",
+            "position": "新闻负责人"
+        },
+        {
+            "start_date": "2020-11-30",
+            "end_date": None,
+            "organization": "新祖国广播网（伊利亚马尼电台）(Radio Illimani - Red Patria Nueva)",
+            "org_id": "BO-MEDIA-016",
+            "position": "临时台长"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": None,
+            "person_name": "加夫列拉·阿尔孔 (Gabriela Alcón)",
+            "relationship_type": "superior",
+            "description": "阿尔塞政府通讯部副部长，2020年11月30日主持洛佩斯等五位国家媒体负责人的就职宣誓，要求以「多元、公平、公正」方针重组国家媒体，为其直接上级。"
+        },
+        {
+            "person_id": "BO-PERSON-000484",
+            "person_name": "路易斯·阿尔塞 (Luis Arce)",
+            "relationship_type": "superior",
+            "description": "阿尔塞2020年11月8日就任总统约三周后，其政府于11月30日完成本轮国家媒体负责人任命，洛佩斯获任国营电台临时台长；属政府层级上下级关系，非直接任命人。"
+        },
+        {
+            "person_id": "BO-PERSON-000418",
+            "person_name": "伊莎贝尔·特拉萨斯 (Isabel Terrazas)",
+            "relationship_type": "other",
+            "description": "后任台长：2023年7月15日电台90周年台庆报道中已以台长身份活动，说明洛佩斯此时已离任；两人交接确切日期不详。"
+        },
+        {
+            "person_id": None,
+            "person_name": "迭戈·蒙塔尼奥 (Diego Montaño)",
+            "relationship_type": "colleague",
+            "description": "2020年11月30日同日获任命的国家媒体负责人之一（Bolivia TV总经理），同属阿尔塞政府新组建的国家媒体领导班子。"
+        }
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2020-11-30",
+            "topic": "国家媒体编辑路线与「变革进程」立场",
+            "stance_content": "就任临时台长时公开表示：「我们从未离开，始终在我们所处的斗争壕沟里与人民站在一起……我们靠玻利维亚人民的意愿收复了民主，因此我们的承诺就在这里」，并称「我们与新祖国广播网的伙伴们同在，我们是一个大家庭」，公开自认属于「变革进程」（proceso de cambio）阵营；ANF电稿将同批任命概括为「变革进程」拥护者接管国家媒体，其获授的办台方针为「多元、公平、公正」。",
+            "source": "eju.tv 2020-12-01报道 https://eju.tv/2020/12/medios-estatales-en-manos-de-defensores-del-proceso"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2020-11-30",
+            "achievement": "被阿尔塞政府任命为玻利维亚国营国家广播电台（时名Radio Illimani，2006-2019年称Red Patria Nueva）临时台长，为同日获任命掌管五家国家媒体的负责人之一。",
+            "organization": "新祖国广播网（伊利亚马尼电台）(Radio Illimani - Red Patria Nueva)"
+        }
+    ],
+    "biography_summary": "胡安·安东尼奥·洛佩斯（Juan Antonio López，部分媒体记载全名为Juan Antonio López Thompson），玻利维亚新闻工作者，长期在国营广播系统任职。2020年11月30日，即阿尔塞政府上台约三周后，通讯部副部长加夫列拉·阿尔孔主持国家媒体新一届负责人就职仪式，洛佩斯获任伊利亚马尼电台（Radio Illimani，即新祖国广播网Red Patria Nueva）临时台长，与Bolivia TV总经理迭戈·蒙塔尼奥、《玻利维亚报》负责人马尔科·桑蒂瓦涅斯、ABI通讯社负责人恩里克·波马尔及原住民电台网负责人何塞·阿拉马约同日就任，媒体称这批任命使国家媒体重回「变革进程」阵营手中。出任临时台长前，他已在同一电台担任新闻负责人（responsable de prensa）。就职时他宣称「我们从未离开，始终在斗争壕沟里与人民同在」，并称电台团队是「大家庭」。其离任确切日期无公开记载，至迟于2023年7月电台90周年台庆时台长已换为伊莎贝尔·特拉萨斯。2020年之后未见以其为主角的公开报道或活动，后续去向不明。",
+    "birth_date_note": "公开资料未记载其出生日期，未检到任何含生年或年龄的报道。",
+    "birth_place_note": "公开资料未记载其出生地。",
+    "nationality_note": "玻利维亚籍推断依据：玻利维亚国家媒体在职负责人，任命与报道均为玻利维亚官方及本地媒体，无相反信息。",
+    "gender_note": "ERBOL报道标题「SON TODOS VARONES」及正文「Se trata de cinco varones」确认同批五名负责人均为男性；maes_bolivia数据集标注其性别为Hombre。",
+    "name_note": "ERBOL、Página Siete、ANF电稿及maes_bolivia数据集均作Juan Antonio López；eju.tv与InfoDiez记载全名Juan Antonio López Thompson，已收为别名。",
+    "name_zh_note": "未检索到含标准译名的中文来源（玻利维亚华文媒体无相关报道），按规则置null。",
+    "position_note": "职务头衔原文为director interino（ERBOL）、responsable interino（InfoDiez）、responsable a.i.（eju.tv），均为临时/代理性质；离任日期不详，2023-07-15台庆报道中在任台长已为Isabel Terrazas。",
+    "work_note": "据eju.tv（2020-12-01），出任临时台长前为同一电台新闻负责人（responsable de prensa）；2020-11-30与Montaño、Santiváñez、Pomar、Aramayo同日获任命，ANF电稿称五人均为「变革进程」的坚定拥护者。",
+    "education_note": "多平台、多来源检索均未提及教育背景，education置空。",
+    "family_note": "公开资料未检到其婚姻、家庭或亲属信息，family_members置空。",
+    "social_accounts_note": "按规则完成6平台扫描（facebook/twitter_x/linkedin/instagram/tiktok/youtube）：未发现可归属于本人的个人账号；facebook上的Página Siete、InfoDiez帖及Red Bolivisión帖下评论均为他人提及，@RadioIllimani与@PatriaNuevaBo为电台机构账号而非其个人账号。",
+    "identity_note": "身份锚定：2020-11-30国家媒体人事任命中的Radio Illimani临时台长Juan Antonio López，ERBOL（全文直读）、eju.tv（全文直读）、ANF电稿（转载全文）、maes_bolivia数据集四源一致。「Juan Antonio López」为西语高频姓名，除该职务窗口期（2020年11月起）外无法将其与任何其他同名者记录唯一关联，故生年、学历、家庭等字段从缺，宁缺毋滥。",
+    "status_note": "该职务为临时性质且已卸任：2024-2025年电台因政府财政问题大幅收缩，2025年11月帕斯政府上台后国有媒体进一步重组，原台长职务建制已变动；本人2020年后无后续公开活动记录。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": ["news_search", "web_search", "social_media", "other"],
+        "notes": "本画像基于2026-10-26多语言检索（西语为主）：4个独立来源全文直读（ERBOL任命报道2020-11-30、eju.tv深度报道2020-12-01、ANF电稿转载2020-12-17、La Voz de Tarija台庆报道2023-07-15），另有State Media Monitor 2026-07专文全文及Página Siete/InfoDiez脸书帖、maes_bolivia公务员数据集佐证。核心事实（2020-11-30获任临时台长、全名变体López Thompson、此前任该台新闻负责人、同批五人均为男性）均有≥2独立来源确认。存疑与缺口：离任日期不详（区间2020-12至2023-07）、生年/学历/家庭无公开记录、无个人社交账号、2020年后无公开活动、Wikidata无条目。completeness_score偏低属客观信息稀缺（临时任命的媒体机构负责人，公开足迹极有限），已按「查不到留空」原则处理，无编造内容。",
+        "quotes": [
+            {
+                "title": "Posesionan a cinco nuevos directivos de medios estatales | Erbol (2020-11-30)",
+                "url": "https://erbol.com.bo/nacional/posesionan-cinco-nuevos-directivos-de-medios-estatales"
+            },
+            {
+                "title": "Medios estatales en manos de defensores del «proceso» | eju.tv (2020-12-01)",
+                "url": "https://eju.tv/2020/12/medios-estatales-en-manos-de-defensores-del-proceso"
+            },
+            {
+                "title": "BOLIVIA: Asumieron las nuevas autoridades de Radio Illimani y demás medios públicos | ANF via Grupo Radioescucha Argentino (2020-12-17)",
+                "url": "https://gruporadioescuchaargentino.wordpress.com/2020/12/17/bolivia-asumieron-las-nuevas-autoridades-de-radio-illimani-y-demas-medios-publicos/"
+            },
+            {
+                "title": "Radio Illimani – Red Patria Nueva, pionera de la radiodifusión en Bolivia, celebra sus 90 años | La Voz de Tarija (2023-07-15)",
+                "url": "https://lavozdetarija.com/2023/07/15/radio-illimani-red-patria-nueva-pionera-de-la-radiodifusion-en-bolivia-celebra-sus-90-anos/"
+            },
+            {
+                "title": "Red Patria Nueva-Radio Illimani | State Media Monitor (2026-07)",
+                "url": "https://statemediamonitor.com/2026/07/red-patria-nueva-radio-illimani/"
+            },
+            {
+                "title": "maes_bolivia.csv（玻利维亚公职任命数据集，2020-11-30条目：Juan Antonio López, Responsable Interino de Radio Illimani）| GitHub Gist",
+                "url": "https://gist.github.com/mauforonda/b4dc8695a99b60178b60d72badd353f5"
+            },
+            {
+                "title": "Página Siete #P7Informa: Viceministra Alcón posesionó a Juan Antonio López como director interino de Radio Illimani - Red Patria Nueva (Facebook)",
+                "url": "https://www.facebook.com/paginasiete/posts/4048777628499946"
+            },
+            {
+                "title": "Infodiez.com: Viceministra Alcón posesiona a Juan López Thompson como responsable interino de Radio Illimani – Red Patria Nueva (Facebook)",
+                "url": "https://www.facebook.com/infodiez/posts/2845177285584587"
+            }
+        ]
+    }
+}
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(person, f, ensure_ascii=False, indent=2)
+
+# quick self-check
+with open(OUT, encoding="utf-8") as f:
+    chk = json.load(f)
+print("written OK:", OUT)
+print("bio length:", len(chk["biography_summary"]))
+print("quotes:", len(chk["collection_meta"]["quotes"]))
+print("work_experience:", len(chk["work_experience"]), "| relationships:", len(chk["person_relationships"]),
+      "| stances:", len(chk["political_stances"]), "| achievements:", len(chk["major_achievements"]))

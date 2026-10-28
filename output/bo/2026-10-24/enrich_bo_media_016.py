@@ -1,0 +1,241 @@
+# -*- coding: utf-8 -*-
+"""Phase3 enrichment for BO-MEDIA-016 (Radio Illimani / Red Patria Nueva)."""
+import json
+
+path = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-MEDIA-016.json"
+
+data = {
+    "org_id": "BO-MEDIA-016",
+    "basic_info": {
+        "name_original": "Radio Illimani",
+        "name_zh": "新祖国广播网（伊利亚马尼电台）",
+        "name_en": "Radio Illimani (Red Patria Nueva)",
+        "aliases": ["Red Patria Nueva", "Radio Patria Nueva", "Patria Nueva FM", "La voz de Bolivia"],
+        "org_type": "MEDIA",
+        "org_subtype": "broadcaster",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1933-07-15",
+        "website": "https://www.redpatrianueva.bo/",
+        "wikidata_qid": "Q17333677"
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "RadioIllimaniOficial",
+            "url": "https://www.facebook.com/RadioIllimaniOficial/",
+            "source": "web_search 2026-10（页面名 Red Patria Nueva - Radio Illimani，2026年7月仍在更新）"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "PatriaNuevaFM",
+            "url": "https://x.com/PatriaNuevaFM",
+            "source": "web_search 2026-10（2026年1月及4月均有发帖）"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "radioillimanioficial",
+            "url": "https://www.instagram.com/radioillimanioficial/",
+            "source": "web_search 2026-10（2026年2月至10月均有内容）"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "radioillimani",
+            "url": "https://www.tiktok.com/@radioillimani",
+            "source": "web_search 2026-10（账号简介自称 Radio Illimani - Red Patria Nueva 官方账号）"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "patrianuevabo",
+            "url": "https://twitter.com/patrianuevabo",
+            "source": "wikidata"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "UClkKRfaJiSxM22cRXvNmqXA",
+            "url": "https://youtube.com/channel/UClkKRfaJiSxM22cRXvNmqXA",
+            "source": "wikidata（2026年3月至7月有直播节目视频）"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "官方网站 Red Patria Nueva",
+            "url": "https://www.redpatrianueva.bo/",
+            "description": "官方新闻门户，设政治、经济、卫生、社会、治安、国际、体育等栏目，并设 Con Aire Fresco、Contragolpe、Zambacanuta、Viva Santa Cruz、Bolivia Informa、Reportajes 等节目与播客页面；页脚地址为拉巴斯 Camacho 大道1485号 La Urbana 大厦5层。",
+            "source": "web_reader 2026-10 直读官网"
+        },
+        {
+            "name": "YouTube 官方频道（直播新闻节目）",
+            "url": "https://youtube.com/channel/UClkKRfaJiSxM22cRXvNmqXA",
+            "description": "以 RADIO ILLIMANI - RED PATRIA NUEVA 名义直播新闻节目，2026年3月22日、4月14日、4月30日、6月24日、7月10日等日期均有直播视频记录，台标频率为拉巴斯94.3 FM。",
+            "source": "web_search（YouTube 视频列表）"
+        },
+        {
+            "name": "网络直播流（第三方平台托管）",
+            "url": "https://zeno.fm/radio/red-patria-nueva/",
+            "description": "通过 Zeno.FM、TuneIn、Online Radio Box、radios-bolivia.com 等第三方平台提供24小时西语网络直播，内容以新闻、谈话和综合节目为主。",
+            "source": "web_search 2026-10"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Juan Antonio López",
+            "name_en": "Juan Antonio López",
+            "title": "台长（临时，2020年11月在任）",
+            "title_description": "临时政府时期任命的 Radio Illimani 临时台长（历史信息，非现任）",
+            "description": "2020年11月30日，过渡政府在向国家媒体任命新一届负责人时，Juan Antonio López 被任命为 Radio Illimani（Red Patria Nueva）临时台长；部分媒体报道其全名为 Juan Antonio López Thompson。2025年11月罗德里戈·帕斯政府上台后的现任负责人暂无可核实信息。"
+        },
+        {
+            "person_id": None,
+            "name": "Isabel Terrazas",
+            "name_en": "Isabel Terrazas",
+            "title": "台长（2023年7月在任）",
+            "title_description": "阿尔塞政府时期在任的电台台长（历史信息，非现任）",
+            "description": "据拉巴斯媒体 La Voz de Tarija 2023年7月15日报道，时值电台90周年台庆，台长 Isabel Terrazas 回顾了电台1933年查科战争期间的创台历史。2025年11月政府更替后是否换任暂无可核实信息。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "拉巴斯中央台（Radio Illimani 总台）",
+            "dept_id": None,
+            "head": None,
+            "description": "网络核心与总编辑部，位于拉巴斯，向拉巴斯市与埃尔阿尔托市覆盖 1020 AM 与 94.3 FM 双频段，并通过 6025 kHz 短波向全国边远地区发射；1020 AM 信号还覆盖拉巴斯省 Laja、Achacachi、Palca 及 Larecaja、Sud Yungas 等省份。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "科恰班巴转播台",
+            "dept_id": None,
+            "head": None,
+            "description": "覆盖科恰班巴都会区，频率 93.7 FM（此前曾使用 93.5 FM）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "全国转播网",
+            "dept_id": None,
+            "head": None,
+            "description": "在奥鲁罗、苏克雷、波托西、塔里哈、圣克鲁斯、特里尼达、科维哈、蒙特罗、亚库伊瓦、里韦拉尔塔等城市以 94.3 FM 等频率转播中央台信号，形成全国性国营广播网络。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2025-11-08",
+            "title": "罗德里戈·帕斯政府就职，国家广播电台移交新政府且台名未再更改",
+            "description": "帕斯在2025年10月大选决选中获胜、结束争取社会主义运动（MAS）长期执政后于11月8日宣誓就职，Red Patria Nueva - Radio Illimani 连同其他国家媒体转入新政府管辖。与2019-2020年临时政府时期一度改回 Radio Illimani 台名不同，此次电台保留 Red Patria Nueva 名称；研究机构 State Media Monitor 2026年7月仍将其归类为国家控制（State-Controlled）媒体，直接隶属总统府部。",
+            "impact": "高：电台行政归属与编辑方针随执政者更替调整，但机构建制、台名与全国广播网络保持连续；国家媒体改革问题进入新政府议事日程。",
+            "source": "https://statemediamonitor.com/2026/07/red-patria-nueva-radio-illimani/"
+        },
+        {
+            "date": "2025-11-24",
+            "title": "调查节目指 BTV 与 Radio Illimani（Patria Nueva）长期处于 MAS/阿尔塞阵营掌控之下",
+            "description": "玻利维亚调查类节目 Encontrados 发布报道，称玻利维亚电视台（Bolivia TV）与 Radio Illimani - Patria Nueva 截至2025年11月下旬仍处于 MAS 阿尔塞派系的同一班底掌控之下，引发公众对国家媒体人事清理与编辑独立性的讨论。",
+            "impact": "中：将国家媒体治理问题推向舆论中心，成为新政府清理国家机构叙事的一部分。",
+            "source": "https://www.facebook.com/encontradosodec/videos/2058658881530716/"
+        },
+        {
+            "date": "2026-04-08",
+            "title": "台方 X 账号转发帕斯总统讲话，编辑立场转向新政府",
+            "description": "电台 X 账号 @PatriaNuevaFM 发布帕斯总统讲话内容（称过去20年一个政治组织把贫困变成控制工具等），显示政府更替后电台编辑方向已转向为帕斯政府作宣传，与 State Media Monitor 关于其编辑路线随执政者更替的判断一致。",
+            "impact": "中：印证该台作为国家控制媒体的属性延续，编辑自主性未因政府更替而增强。",
+            "source": "https://x.com/PatriaNuevaFM/status/2041948692068938108"
+        },
+        {
+            "date": "2026-07-10",
+            "title": "政府更替后保持每日新闻直播，运营连续性获确认",
+            "description": "电台 YouTube 频道以 RADIO ILLIMANI - RED PATRIA NUEVA 名义在2026年3月22日、4月14日、4月30日、6月24日、7月10日等日期持续直播新闻节目，官网亦于2026年3月更新内容；官方 Instagram 账号至2026年10月仍在发布，证实帕斯政府执政下电台未停播、未更名。",
+            "impact": "中：确认国家广播体系在政府更替后保持运转，转轨采取人员与编辑调整而非关停模式。",
+            "source": "https://youtube.com/channel/UClkKRfaJiSxM22cRXvNmqXA"
+        },
+        {
+            "date": "2026-07-15",
+            "title": "电台庆祝93周年台庆，彰显国营广播历史象征地位",
+            "description": "电台官方 Facebook 页面发布93周年纪念内容，回顾其1933年7月15日查科战争期间开播、1937年设备移交国家的历史，自述为玻利维亚历史最悠久的广播电台；同月 State Media Monitor 发布机构专文确认其持续运营。",
+            "impact": "低：品牌与国家广播历史象征意义强化；机构在政府更替后运营连续性得到确认。",
+            "source": "https://www.facebook.com/RadioIllimaniOficial/videos/1483394503595669/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-006",
+            "org_name": "Ministerio de la Presidencia（总统府部）",
+            "org_type": "GOV",
+            "org_description": "玻利维亚总统府部，直接向总统报告；Red Patria Nueva - Radio Illimani 由该部直接管理，无独立于行政机构的治理结构。",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": "BO-MEDIA-012",
+            "org_name": "Bolivia TV（玻利维亚电视台）",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚国家电视台（7频道），与 Red Patria Nueva 同属国家媒体体系；西语维基百科信息框将其列为该台关联机构，2025年11月调查报道曾将两者并列为 MAS 阵营掌控的国家媒体。",
+            "relationship_type": "sibling"
+        },
+        {
+            "org_id": "BO-MEDIA-017",
+            "org_name": "Agencia Boliviana de Información（玻利维亚国家通讯社）",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚官方通讯社，与 Red Patria Nueva 同受总统府部监督的国家媒体体系成员。",
+            "relationship_type": "sibling"
+        },
+        {
+            "org_id": "BO-GOV-032",
+            "org_name": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes（ATT，电信与交通运输监管审计局）",
+            "org_type": "GOV",
+            "org_description": "玻利维亚电信与交通运输监管机构，负责广播频率许可与行业监管；Red Patria Nueva 作为持牌广播机构受其监管。",
+            "relationship_type": "regulated_by"
+        }
+    ],
+    "core_business": "Red Patria Nueva - Radio Illimani 是玻利维亚的国营国家广播电台，也是玻利维亚历史最悠久的广播电台：1933年7月15日查科战争期间作为私营电台开播，以战时报道闻名，1937年设备移交国家后转为国家电台。台名随执政者更迭多次变化（2006年起称 Red Patria Nueva，2019-2020年临时政府时期一度改回 Radio Illimani，2020年后沿用 Red Patria Nueva 至今）。业务上以拉巴斯中央台（1020 AM、94.3 FM，短波6025 kHz）为核心，通过科恰班巴（93.7 FM）及全国十余个城市转播台构成覆盖全国的广播网，全天候播出新闻、时政评论、文化、体育、娱乐及面向原住民的语言文化节目。电台隶属总统府部，经费依赖国家拨款（2021-2023年年度预算约220万至247万玻利维亚诺），辅以少量广告收入；同时运营官方网站、YouTube 直播和多平台社交账号。其编辑路线长期随执政政府调整，被学术界和研究机构列为国家控制型媒体，历史上曾被指为执政党（MAS）宣传工具，政府更替后转向为新政府代言。",
+    "industries": [
+        "broadcasting"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。作为南美洲内陆国家，玻利维亚参与的区域一体化框架主要为安第斯共同体（CAN），并推进加入南方共同市场（Mercosur）的进程，与亚太经合组织不存在成员关系。就本机构而言，Red Patria Nueva 为玻利维亚国营广播电台，业务聚焦国内广播与政府传播，公开资料中亦未见其就APEC相关议题发表立场的记录。",
+    "profile": {
+        "summary": "玻利维亚国营国家广播电台，1933年7月15日创办于查科战争期间（初名 Radio Illimani），1937年收归国有；2006年莫拉莱斯政府时期改组为 Red Patria Nueva 全国广播网，台名随政府更迭两次反复后沿用至今。隶属总统府部，编辑路线随执政者更替，被 State Media Monitor 持续归类为国家控制（State-Controlled）媒体。以拉巴斯总部（1020 AM/94.3 FM、短波6025 kHz）为核心，覆盖科恰班巴及全国十余城市。2025年11月罗德里戈·帕斯政府上台后机构保留原名并持续运营，2026年7月庆祝93周年台庆；现任台长暂无可核实信息，2020年临时台长为 Juan Antonio López，2023年在任台长为 Isabel Terrazas。",
+        "source_url": "https://statemediamonitor.com/2026/07/red-patria-nueva-radio-illimani/"
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "official_website",
+            "wikipedia_es (Radio Illimani 条目)",
+            "statemediamonitor.com（2026年7月机构专文）",
+            "web_search（Facebook/Instagram/X/TikTok/YouTube 官方账号与活动）",
+            "erbol.com.bo（2020年国家媒体人事任命）",
+            "lavozdetarija.com（2023年90周年台庆报道）"
+        ],
+        "completeness_score": 16,
+        "notes": "Phase3 enrichment 2026-10：修正 Wikipedia 消歧义错误（正条目为 es.wikipedia.org/wiki/Radio_Illimani）。创始人记录为 Simón Iturri Patiño（维基百科）。2025年11月帕斯政府上台后台名保留 Red Patria Nueva、机构持续运营（State Media Monitor 2026-07 及官方账号 2026 年活动双源印证）；现任台长在政府更替后无可核实信息，key_people 记录 2020/2023 两任历史负责人并明确标注非现任。预算数据（2021-2023 年约 B$220-247 万）来自 State Media Monitor 引述的媒体报道。"
+    }
+}
+
+# collection_meta.quotes (>=3)
+data["collection_meta"]["quotes"] = [
+    {
+        "title": "Radio Illimani - Wikipedia, la enciclopedia libre",
+        "url": "https://es.wikipedia.org/wiki/Radio_Illimani"
+    },
+    {
+        "title": "Red Patria Nueva - Radio Illimani | State Media Monitor (2026-07)",
+        "url": "https://statemediamonitor.com/2026/07/red-patria-nueva-radio-illimani/"
+    },
+    {
+        "title": "Red Patria Nueva（官方网站首页）",
+        "url": "https://www.redpatrianueva.bo/"
+    },
+    {
+        "title": "Radio Illimani - Red Patria Nueva, pionera de la radiodifusión en Bolivia, celebra sus 90 años | La Voz de Tarija (2023-07-15)",
+        "url": "https://lavozdetarija.com/2023/07/15/radio-illimani-red-patria-nueva-pionera-de-la-radiodifusion-en-bolivia-celebra-sus-90-anos/"
+    },
+    {
+        "title": "Posesionan a cinco nuevos directivos de medios estatales | Erbol (2020-11-30)",
+        "url": "https://erbol.com.bo/nacional/posesionan-cinco-nuevos-directivos-de-medios-estatales"
+    }
+]
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written:", path)

@@ -1,0 +1,316 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-MIL-001 Fuerzas Armadas de Bolivia -> phase3_enriched"""
+import json, os
+
+FP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-MIL-001.json")
+with open(FP, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["org_subtype"] = "armed_forces"
+data["basic_info"]["website"] = "https://www.mindef.gob.bo/"
+
+data["social_accounts"] = [
+    {
+        "platform": "facebook",
+        "account_name": "Comando en Jefe de las Fuerzas Armadas de Bolivia",
+        "url": "https://www.facebook.com/comanjefeffaa/",
+        "source": "Facebook官方主页（武装力量总司令部）"
+    },
+    {
+        "platform": "twitter_x",
+        "account_name": "@comanjefe",
+        "url": "https://x.com/comanjefe",
+        "source": "X平台（COMANDO EN JEFE DE LAS FUERZAS ARMADAS DE BOLIVIA）"
+    },
+    {
+        "platform": "facebook",
+        "account_name": "Ministerio de Defensa - Bolivia",
+        "url": "https://www.facebook.com/MinisterioDeDefensa.Bolivia/",
+        "source": "Facebook官方主页（玻利维亚国防部）"
+    },
+    {
+        "platform": "twitter_x",
+        "account_name": "@mindefbolivia",
+        "url": "https://x.com/mindefbolivia",
+        "source": "X平台（玻利维亚国防部）"
+    },
+    {
+        "platform": "facebook",
+        "account_name": "Ejercito de Bolivia - Forjador de la Patria",
+        "url": "https://www.facebook.com/ejercitodeboliviaforjadordelapatria/",
+        "source": "Facebook官方主页（玻利维亚陆军）"
+    },
+    {
+        "platform": "facebook",
+        "account_name": "Armada Boliviana (La Armada en Accion)",
+        "url": "https://www.facebook.com/laarmada.enaccion/",
+        "source": "Facebook官方主页（玻利维亚海军）"
+    }
+]
+
+data["digital_assets"] = [
+    {
+        "name": "玻利维亚国防部官网（含武装力量板块与武装力量组织法LOFA）",
+        "url": "https://www.mindef.gob.bo/",
+        "description": "国防部官方网站，发布国防政策、武装力量公告及每周国防摘要（Resumen Semanal），为武装力量的官方信息渠道",
+        "source": "es.wikipedia.org信息框及mindef.gob.bo检索"
+    },
+    {
+        "name": "玻利维亚陆军官网",
+        "url": "http://www.ejercito.mil.bo",
+        "description": "玻利维亚陆军（Ejercito de Bolivia）官方网站",
+        "source": "es.wikipedia.org外部链接"
+    },
+    {
+        "name": "玻利维亚海军官网",
+        "url": "https://armada.mil.bo",
+        "description": "玻利维亚海军（Armada Boliviana）官方网站，发布条令文件与新闻（2026年可访问）",
+        "source": "armada.mil.bo检索确认"
+    }
+]
+
+data["key_people"] = [
+    {
+        "person_id": "BO-PERSON-000001",
+        "name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+        "title": "武装力量最高统帅（Capitan General，总统兼任）",
+        "title_description": "依宪法以总统身份兼任武装力量最高统帅（Capitan General de las Fuerzas Armadas）",
+        "description": "2025年11月8日就任玻利维亚总统后兼任武装力量最高统帅；同年11月13日主持新一届军事高层就职宣誓，提出武装力量现代化、国内安全与社会职能、条令与人才发展三大改革轴线，并于2026年6月18日以第5632号总统令确认军事高层。"
+    },
+    {
+        "person_id": None,
+        "name": "Víctor Hugo Balderrama Quezada",
+        "title": "三军总司令（Comandante en Jefe de las Fuerzas Armadas）",
+        "title_description": "武装力量最高军事指挥官，陆军将军（General de Ejército）",
+        "description": "2025年11月13日被帕斯总统任命为三军总司令，2026年6月18日经第5632号总统令确认并晋升陆军将军；任内指挥军方在全国道路封锁危机中执行燃料运输护航等任务，代表军方承诺支持政府宪政使命。"
+    },
+    {
+        "person_id": None,
+        "name": "Gonzalo Edwin Ruiz Cisneros",
+        "title": "总司令部参谋长（Jefe de Estado Mayor del Comando en Jefe）",
+        "title_description": "三军总司令部参谋长，空军将军（General de Fuerza Aérea）",
+        "description": "2026年6月经第5632号总统令确认为总司令部参谋长（2025年11月新高层设立之初该职位由José Wilson Sánchez Velázques担任）。"
+    },
+    {
+        "person_id": None,
+        "name": "Héctor Alejandro Alarcón Antezana",
+        "title": "陆军总司令（Comandante General del Ejército）",
+        "title_description": "玻利维亚陆军总司令，陆军师长将军（General de División）",
+        "description": "2025年11月13日以准将衔被任命为陆军总司令，2026年6月晋升师长将军并经第5632号总统令确认留任。"
+    },
+    {
+        "person_id": None,
+        "name": "Sergio Fernando Lora Araoz",
+        "title": "空军总司令（Comandante General de la Fuerza Aérea Boliviana）",
+        "title_description": "玻利维亚空军总司令，空军师长将军（General de División Aérea）",
+        "description": "2025年11月13日以空军准将衔被任命为空军总司令，2026年6月晋升空军师长将军并经第5632号总统令确认留任。"
+    },
+    {
+        "person_id": None,
+        "name": "Ernesto Adalid Alfaro Palma",
+        "title": "海军总司令（Comandante General de la Armada Boliviana）",
+        "title_description": "玻利维亚海军总司令，海军中将（Vicealmirante）",
+        "description": "2025年11月13日以海军上校/准将衔被任命为海军总司令，2026年6月晋升海军中将并经第5632号总统令确认留任。"
+    },
+    {
+        "person_id": None,
+        "name": "Ernesto Justiniano Urenda",
+        "title": "国防部长（Ministro de Defensa）",
+        "title_description": "文职国防部长，主管国防政策并对武装力量行使行政监管",
+        "description": "1969年生于圣克鲁斯的文职人士，2026年6月3日经总统帕斯任命就任国防部长，接替辞职的马塞洛·萨利纳斯（Marcelo Salinas）；任内推动军队依法参与打击跨国有组织犯罪与禁毒恐怖主义的立法，并主导玻利维亚时隔20余年重返Fuerzas Comando国际军事竞赛。"
+    }
+]
+
+data["departments"] = [
+    {
+        "name": "三军总司令部（Comando en Jefe de las Fuerzas Armadas）",
+        "dept_id": "BO-MIL-001-DEPT-001",
+        "head": "Víctor Hugo Balderrama Quezada",
+        "description": "武装力量最高军事指挥机关，由三军总司令领导，下设总参谋部、总监察室，并统辖全国七个联合司令部（亚马逊、马莫雷、拉普拉塔、查科、安第斯、奇查斯、中部）",
+        "parent_dept_id": None
+    },
+    {
+        "name": "总参谋部（Estado Mayor General del Comando en Jefe）",
+        "dept_id": "BO-MIL-001-DEPT-002",
+        "head": "Gonzalo Edwin Ruiz Cisneros",
+        "description": "三军总司令部的参谋与计划机构，协助总司令统筹三军联合作战、条令与人事",
+        "parent_dept_id": None
+    },
+    {
+        "name": "陆军总司令部（Comando General del Ejército）",
+        "dept_id": None,
+        "head": "Héctor Alejandro Alarcón Antezana",
+        "description": "陆军（Ejército de Bolivia，对应组织条目BO-MIL-002）为武装力量最大军种，规模约3.7万人，承担陆地防御、内部安全支援与发展职能，其下设有军事院校系统（军事学校、军事工程学院EMI等）",
+        "parent_dept_id": "BO-MIL-001"
+    },
+    {
+        "name": "空军总司令部（Comando General de la Fuerza Aérea Boliviana）",
+        "dept_id": None,
+        "head": "Sergio Fernando Lora Araoz",
+        "description": "空军（Fuerza Aérea Boliviana, FAB，对应组织条目BO-MIL-004）规模约8000人，承担领空防御、航空运输（军用航空运输TAM）及搜索救援（SAR-FAB）等任务",
+        "parent_dept_id": "BO-MIL-001"
+    },
+    {
+        "name": "海军总司令部（Comando General de la Armada Boliviana）",
+        "dept_id": None,
+        "head": "Ernesto Adalid Alfaro Palma",
+        "description": "玻利维亚为内陆国，海军（Armada Boliviana，对应组织条目BO-MIL-003）为内河与湖泊水上力量，规模约5000人，负责内河巡逻、边境水域管控与搜寻救援（SBRAB）",
+        "parent_dept_id": "BO-MIL-001"
+    },
+    {
+        "name": "国防发展公司（COFADENA - Corporación de las Fuerzas Armadas para el Desarrollo Nacional）",
+        "dept_id": "BO-MIL-001-DEPT-003",
+        "head": None,
+        "description": "三军所属国防工业企业，为武装力量主要国内装备与军需供应方，承担军工生产与国防发展项目",
+        "parent_dept_id": "BO-MIL-001"
+    }
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-11-13",
+        "title": "新任总统帕斯宣誓就任新一届军事高层，巴尔德拉马出任三军总司令",
+        "description": "帕斯政府就职5天后在拉巴斯主持新军事高层就职：巴尔德拉马（Víctor Hugo Balderrama Quezada）任三军总司令，阿拉尔孔（Héctor Alejandro Alarcón Antezana）、罗拉（Sergio Fernando Lora Araoz）、阿达利德（Ernesto Adalid Alfaro Palma）分任陆、空、海军总司令，全面更换阿尔塞政府末期的军方高层；帕斯宣布武装力量进入「新时代」，提出使其依靠自身流程与财源、以现代化、国内安全与社会职能、条令与人才为三大改革轴线。",
+        "impact": "军队领导层全面换血，确立新政府对军方的领导关系，启动机构重建进程",
+        "source": "Infodefensa（2025-11-17）；El Deber（2025-11-13）；Red Uno、ERBOL（2025-11-13）"
+    },
+    {
+        "date": "2026-06-03",
+        "title": "埃内斯托·胡斯蒂尼亚诺·乌伦达出任国防部长",
+        "description": "总统帕斯任命文职人士Ernesto Justiniano Urenda（1969年生于圣克鲁斯）为新任国防部长，接替辞职的马塞洛·萨利纳斯（Marcelo Salinas）；其表示首要任务是恢复国家正常状态，并强调尊重军人职业发展。",
+        "impact": "新政府任内国防部长更替，文职长官主导后续军队改革与立法",
+        "source": "ABI（2026-06-03）；Montero Noticias（2026-06-03）；defensa.com（2026-06-04）"
+    },
+    {
+        "date": "2026-06-18",
+        "title": "第5632号总统令在晋升后正式确认军事高层",
+        "description": "在国会批准军内晋升（旅级升师级、师级升至军种将军）后，帕斯总统颁布第5632号总统令，正式确认巴尔德拉马留任三军总司令（晋升陆军将军），Ruiz Cisneros任总司令部参谋长，阿拉尔孔、罗拉、阿达利德分任陆海空总司令；时值玻利维亚工人中央（COB）发起的总罢工与道路封锁进入第50天的全国性危机。",
+        "impact": "在全国封锁危机背景下巩固军队指挥体系，军方持续执行燃料运输护航等危机应对任务",
+        "source": "Correo del Sur（2026-06-19）；El Deber（2026-06-19）；Red Uno、La Razón（2026-06-19）"
+    },
+    {
+        "date": "2026-07-17",
+        "title": "「6·26」未遂政变案主犯、前陆军总司令苏尼加获准居家监禁",
+        "description": "2024年6月26日未遂政变（asonada militar）主嫌、前三军总司令兼陆军总司令胡安·何塞·苏尼加（Juan José Zúñiga）在被预防性羁押近两年后获法院批准改处居家监禁，7月17日离开圣佩德罗监狱；其案件庭审于2026年8月重开后进入决定性阶段，前官员德尔·卡斯蒂略（Eduardo del Castillo）与阿吉莱拉（Aguilera）等被列为辩方证人。",
+        "impact": "未遂政变后续审判进入收尾阶段，军队高层涉案问题持续牵动军民关系",
+        "source": "Infobae（2026-07-15）；Opinion（2026-07-17）；La Razón（2026-10-05）；Oxígeno（2026-10-07）"
+    },
+    {
+        "date": "2026-08-24",
+        "title": "玻利维亚时隔20余年重返Fuerzas Comando国际特种部队竞赛",
+        "description": "国防部长胡斯蒂尼亚诺8月22日宣布，玻利维亚精英部队「第10部队」（Fuerza 10）参加8月24日至28日举行的第20届Fuerzas Comando 2026竞赛（17国参赛），系玻利维亚20多年来首次回归该赛事；部长称此举意在恢复国际训练与合作空间。",
+        "impact": "军队对外军事交流恢复的标志性事件，显示新政府重塑对外防务合作的取向",
+        "source": "玻利维亚国防部Facebook（2026-08-24）；NotiBolivia/DTV（2026-08-22）；Correo del Sur（2026-08-22）"
+    },
+    {
+        "date": "2026-10-07",
+        "title": "最高国防委员会批准四项法案，拟允许军队参与打击有组织犯罪",
+        "description": "政府最高国防委员会（Consejo Supremo de Defensa）批准四项法律草案，授权武装力量以「例外、临时、补充」方式参与打击跨国有组织犯罪和「禁毒恐怖主义」（narcoterrorismo），后续送交国会审议；帕斯总统并公开主张扩大军队在国内安全中的作用。",
+        "impact": "若获国会通过将显著扩展武装力量对内职能，是军队角色自2024年政变风波后最重要的制度性调整",
+        "source": "ABI（2026-10-07）；Nodal（2026-10-08）；Infodefensa（2026-10-13）；La Patria（2026-10-07）"
+    },
+    {
+        "date": "2026-10-21",
+        "title": "参议院闭门会议批准军警将领晋升名单",
+        "description": "多民族立法大会参议院经闭门会议（sesión reservada）并以秘密表决方式批准武装力量与警察共至少145人的将领晋升名单，审议过程中曾对部分人事档案提出质疑并引发争议；名单将报请行政当局公布。",
+        "impact": "完成帕斯政府任内首次全军性晋升审批，直接影响未来军队高层格局",
+        "source": "ABI（2026-10-21）；Opinion（2026-10-21）；Correo del Sur（2026-10-22）；Red Uno（2026-10-22）"
+    }
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-GOV-004",
+        "org_name": "玻利维亚国防部 (Ministerio de Defensa)",
+        "org_type": "GOV",
+        "org_description": "主管国防政策与武装力量行政监管的政府部门，武装力量依宪法及武装力量组织法隶属于国防部",
+        "relationship_type": "parent_org"
+    },
+    {
+        "org_id": "BO-MIL-002",
+        "org_name": "玻利维亚陆军 (Ejército de Bolivia)",
+        "org_type": "MIL",
+        "org_description": "武装力量的地面军种，规模约3.7万人，为三军中最大军种",
+        "relationship_type": "subsidiary"
+    },
+    {
+        "org_id": "BO-MIL-003",
+        "org_name": "玻利维亚海军 (Armada Boliviana)",
+        "org_type": "MIL",
+        "org_description": "武装力量的水上军种（内河海军），规模约5000人",
+        "relationship_type": "subsidiary"
+    },
+    {
+        "org_id": "BO-MIL-004",
+        "org_name": "玻利维亚空军 (Fuerza Aérea Boliviana)",
+        "org_type": "MIL",
+        "org_description": "武装力量的空中军种，规模约8000人",
+        "relationship_type": "subsidiary"
+    },
+    {
+        "org_id": "BO-MIL-005",
+        "org_name": "玻利维亚国家警察 (Policía Nacional de Bolivia)",
+        "org_type": "MIL",
+        "org_description": "和平时期隶属政府部的国内治安力量；依武装力量组织法属于武装力量预备役组成，2026年10月政府更推动军队与警察在打击有组织犯罪中的协同立法",
+        "relationship_type": "affiliated"
+    },
+    {
+        "org_id": "BO-INTL-001",
+        "org_name": "联合国 (Organización de las Naciones Unidas)",
+        "org_type": "INTL",
+        "org_description": "玻利维亚武装力量长期参与联合国维和行动（蓝色头盔部队）",
+        "relationship_type": "partner"
+    }
+]
+
+data["core_business"] = ("玻利维亚武装力量是多民族玻利维亚国的正规军事力量，由三军总司令部（Comando en Jefe）及陆军、空军、海军三个军种组成，"
+    "依宪法和《武装力量组织法》（Ley Orgánica de las Fuerzas Armadas）隶属于国防部，总统以最高统帅（Capitán General）身份执掌最高军权。"
+    "其宪法使命为保卫国家独立、主权与领土完整，维护宪法秩序与合法政府的稳定，并参与国家综合发展。全军现役约5万人（陆军约3.7万、空军约8000、海军约5000），"
+    "实行17至22岁男性一年期义务兵役制（2017年起女性可志愿服役），全国设亚马逊、马莫雷、拉普拉塔、查科、安第斯、奇查斯与中部七个联合司令部；"
+    "国防工业由三军所属国防发展公司（COFADENA）承担军需生产。除国防外，武装力量长期承担自然灾害救援、边境与内河水域管控、禁毒支援、"
+    "危机中燃料等战略物资运输护航等国内职能，并参与联合国维和行动；2026年在新政府主导下正推进现代化改革并准备有限度参与打击跨国有组织犯罪。")
+
+data["apec_stance"] = ("玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入），因此不存在针对APEC事务的官方立场。"
+    "其实际国际军事合作主要面向多边与双边框架：长期参与联合国维和行动；2026年8月时隔20余年重返由美国发起的Fuerzas Comando 2026国际特种部队竞赛（17国参赛），"
+    "国防部长胡斯蒂尼亚诺称此举旨在恢复国际训练与合作空间；2026年10月政府推动立法授权军队以例外、临时、补充方式参与打击跨国有组织犯罪与禁毒恐怖主义。")
+
+cm = data["collection_meta"]
+cm["phase"] = "phase3_enriched"
+cm["collection_date"] = "2026-10-24"
+cm["data_sources"] = ["wikipedia", "official_website", "news_search", "web_search", "social_media"]
+cm["notes"] = ("Phase3 enrichment 2026-10-24: current high command per Decreto Presidencial 5632 (2026-06-18, Correo del Sur/El Deber) "
+               "and Nov 2025 appointment (Infodefensa); official social accounts via Facebook/X verification; recent events from ABI, El Deber, "
+               "Correo del Sur, Opinion, Infobae, Infodefensa, Nodal (2025-11 to 2026-10). Person IDs only for names present in _name_index.json; "
+               "current Defense Minister is Ernesto Justiniano Urenda (no registry match -> null).")
+cm["quotes"] = [
+    {
+        "title": "Presidente promulga decreto que oficializa nuevo alto mando militar tras ascensos",
+        "url": "https://correodelsur.com/politica/20260619/presidente-promulga-decreto-que-oficializa-nuevo-alto-mando-militar-tras-ascensos.html"
+    },
+    {
+        "title": "El presidente Rodrigo Paz posiciona al nuevo Alto Mando de las FFAA de Bolivia",
+        "url": "https://www.infodefensa.com/texto-diario/mostrar/5668892/presidente-rodrigo-paz-posiciona-nuevo-alto-mando-fuerzas-armadas-bolivia"
+    },
+    {
+        "title": "En medio de la crisis en Bolivia, Rodrigo Paz ratifica al Alto Mando Militar",
+        "url": "https://eldeber.com.bo/pais/medio-crisis-bolivia-rodrigo-paz-ratifica-alto-mando-militar_1781869705"
+    },
+    {
+        "title": "Consejo Supremo de Defensa aprueba cuatro normas para fortalecer la seguridad y enfrentar el crimen organizado",
+        "url": "https://abi.bo/consejo-supremo-de-defensa-aprueba-cuatro-normas-para-fortalecer-la-seguridad-y-enfrentar-el-crimen-organizado/"
+    },
+    {
+        "title": "Senado aprueba listas de ascensos de las FFAA y la Policía",
+        "url": "https://www.opinion.com.bo/pais/senado-aprueba-listas-ascensos-ffaa-policia/20261021224057997998.html"
+    }
+]
+
+cm["completeness_score"] = 90
+
+with open(FP, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+    f.write("\n")
+print("written", FP)
+print("key_people:", len(data["key_people"]), "events:", len(data["recent_events"]),
+      "depts:", len(data["departments"]), "social:", len(data["social_accounts"]),
+      "related:", len(data["related_entities"]), "assets:", len(data["digital_assets"]))

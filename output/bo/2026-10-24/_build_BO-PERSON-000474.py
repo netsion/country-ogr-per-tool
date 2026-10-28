@@ -1,0 +1,130 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000474 (Jorge Arando Taboada, PRODENA) person profile."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000474.json")
+
+data = {
+    "person_id": "BO-PERSON-000474",
+    "wikidata_qid": None,
+    "name": "Jorge Arando Taboada",
+    "name_en": "Jorge Arando Taboada",
+    "name_zh": None,
+    "aliases": ["Jorge Arando", "Arando Taboada, Jorge"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [
+        {"type": "email", "value": "asociacionprodena@gmail.com", "source": "PRODENA官网团队页（机构联系邮箱，非个人直邮）"},
+        {"type": "email", "value": "contacto@prodena.org.bo", "source": "PRODENA官网团队页（机构联系邮箱，非个人直邮）"},
+        {"type": "phone", "value": "+591-2-2236867", "source": "PRODENA官网团队页（机构电话）"},
+        {"type": "phone", "value": "+591-74414579", "source": "PRODENA官网团队页（机构电话）"},
+        {"type": "website", "value": "https://prodena.org.bo", "source": "PRODENA官网"}
+    ],
+    "current_positions": [
+        "玻利维亚自然保护协会（PRODENA）执行主任兼董事会主席"
+    ],
+    "education": [],
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚自然保护协会 (Asociación Boliviana Pro Defensa de la Naturaleza – PRODENA)",
+            "org_id": "BO-NGO-014",
+            "position": "执行主任兼董事会主席"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": None,
+            "person_name": "胡利奥·萨利纳斯·巴利比安 (Julio Salinas Ballivián)",
+            "relationship_type": "associate",
+            "description": "科里帕塔自治市市长；2025年1月21日塔博阿达以PRODENA主任身份与其签署机构间协议，合作实施Huayrapata市政苗圃与农林复合项目（PRODENA官网2025-10-01新闻）"
+        },
+        {
+            "person_id": "BO-PERSON-000475",
+            "person_name": "伊万·卡斯蒂略·丘基米亚 (Iván Castillo Chuquimia)",
+            "relationship_type": "colleague",
+            "description": "PRODENA协同农林业（SAF Sintrópicos）项目负责人，与塔博阿达同列官网团队页组织架构"
+        },
+        {
+            "person_id": "BO-PERSON-000476",
+            "person_name": "阿古斯丁·乔克·蒂科纳 (Agustín Choque Ticona)",
+            "relationship_type": "colleague",
+            "description": "PRODENA农业生态生产负责人，与塔博阿达同列官网团队页组织架构"
+        },
+        {
+            "person_id": "BO-PERSON-000477",
+            "person_name": "马塞洛·埃斯科瓦尔 (Marcelo Escobar)",
+            "relationship_type": "colleague",
+            "description": "PRODENA环境立法事务负责人，与塔博阿达同列官网团队页组织架构"
+        },
+        {
+            "person_id": "BO-PERSON-000478",
+            "person_name": "法比奥拉·古铁雷斯 (Fabiola Gutiérrez)",
+            "relationship_type": "colleague",
+            "description": "PRODENA行政负责人，与塔博阿达同列官网团队页组织架构"
+        },
+        {
+            "person_id": "BO-PERSON-000479",
+            "person_name": "特雷莎·弗洛雷斯·贝德雷加尔 (Teresa Flores Bedregal)",
+            "relationship_type": "other",
+            "description": "PRODENA前任会长（LIDEMA刊物《Hábitat》No.70载其自2003年起任会长），为塔博阿达之前的机构领导人；现官网团队页未再列名"
+        }
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2025-01-21",
+            "achievement": "以PRODENA主任身份与科里帕塔自治市政府（市长胡利奥·萨利纳斯·巴利比安）签署机构间协议，启动第二阶段合作：在Huayrapata社区建设市政苗圃（土地以不少于10年用益权方式提供），预计年产2万至3万株果树、花卉与林木苗木，支持150公顷再造林，参与社区约30个、惠及6,000余户家庭",
+            "organization": "玻利维亚自然保护协会 (PRODENA)"
+        },
+        {
+            "date": "2016-12",
+            "achievement": "作为共同作者（与Freddy Tejada Miranda、Marisabel Paz Céspedes等）参与撰写玻利维亚环境保卫联盟（LIDEMA）「气候脆弱性减缓计划（PRV，2012-2016，瑞典大使馆支持）」两份出版物：《气候适应项目可复制性与脆弱性降低水平确定方法指南》（29页）和《综合干预模式：挑战、成果与行动者》（72页，后者收录PRODENA在拉巴斯省普卡拉尼市伊基亚卡社区水土管理气候适应项目的系统记录，执行资金近198万玻利维亚诺）",
+            "organization": "玻利维亚环境保卫联盟 (LIDEMA)"
+        }
+    ],
+    "biography_summary": "豪尔赫·阿兰多·塔博阿达（Jorge Arando Taboada，父姓阿兰多、母姓塔博阿达）是玻利维亚环保工作者，公开报道中使用「Ing.」（ingeniero，工程师）称谓，现任玻利维亚历史最悠久的环保组织之一——玻利维亚自然保护协会（PRODENA，1979年成立于拉巴斯）执行主任兼董事会主席，并任机构法定代表人（瑞士团结基金会玻利维亚办公室2024年10月机构名录亦如此登记）。其公开活动集中于气候适应与乡村可持续生计：2025年1月他以PRODENA主任身份与拉巴斯省科里帕塔市政府签署机构间协议，推动Huayrapata市政苗圃与「九社区农林业促粮食安全」项目；更早的2016年12月曾作为共同作者参与环境保卫联盟（LIDEMA）两份气候变化适应出版物（方法指南与综合干预模式案例集，后者收录PRODENA普卡拉尼水土管理项目）的编写。出生日期、学历等个人信息暂无可核实的公开资料。",
+    "profile": {
+        "source_url": "https://prodena.org.bo/wp-content/uploads/2025/03/Per__0001_DIRECTOR.jpg",
+        "local_path": "photos/BO-PERSON-000474.jpg"
+    },
+    "name_spelling_note": "全名「Jorge Arando Taboada」经三处独立来源交叉确认：PRODENA官网团队页（PRESIDENTE DE DIRECTORIO）、官网2025-10-01新闻（「Ing. Jorge Arando Taboada」全称与「Ing. Jorge Arando」简称并用）、LIDEMA 2016年出版物版权页（「Jorge Arando Taboada」）；BIVICA书目著录为「Arando Taboada, Jorge」（父姓在前），证实Arando为父姓、Taboada为母姓，任务清单所疑「Arrando/Arandia拼写变体」不成立。",
+    "name_zh_note": "未找到任何独立中文媒体或权威出版物的既有中译名，故name_zh置null；项目名称索引与PRODENA机构档案（BO-NGO-014）内部拟用音译「豪尔赫·阿兰多·塔博阿达」，仅供参考。",
+    "gender_note": "官网新闻中对其使用阳性称谓与动词变位（「El Ing. Jorge Arando, director de PRODENA, explicó」「destacó Arando」）。",
+    "birth_date_note": "公开资料未载出生日期与出生地。",
+    "education_note": "PRODENA官网新闻使用「Ing.」（ingeniero，工程师）称谓，提示其具工程类专业背景，但院校、学位、毕业年份均无可核实来源，education留空。",
+    "position_note": "「董事会主席（Presidente de Directorio）」见PRODENA官网团队页组织架构（2025-03-20 Wayback快照与2026年10月现行页一致）；「主任（Director）」见官网2025-10-01科里帕塔新闻（协议签署于2025-01-21）；「法定代表人」另见Solidar Suiza玻利维亚办公室机构名录（2024-10，BO-NGO-014机构档案已核录，本次复查该页返回403无法再直取）。三个职衔互为印证。",
+    "work_note": "任职起始时间无可核实来源：可确认的最早职衔证据为Solidar Suiza名录（2024-10）与官网团队页2025-03存档；2023-12的团队页存档尚为空白占位页。2016年LIDEMA出版物署名者「Jorge Arando Taboada」与现任主任姓名完全一致且同属玻利维亚环保领域（LIDEMA成员机构网络、拉巴斯），判断为同一人，但出版物版权页未注明其当时所属机构，故未据此增设work_experience条目。",
+    "identity_note": "同名辨析：(1) YouTube频道「Jorge Taboada」(@jorgetaboada6500，简介为College Algebra微积分教学内容)为无关人员，未收录；(2) BIVICA检索命中的第三条文献（id/1550）作者为「Taboada, Reyna」（玻利维亚众议院，2000年），非同一人；(3) 玻利维亚足坛营销公司「PRODENA」相关新闻与本项目PRODENA环保组织无关。",
+    "family_note": "无公开家庭成员资料。",
+    "social_accounts_note": "六平台扫描（2026-10-26）：Facebook公共目录搜索页返回HTTP 400、机构页Prodena Bolivia（@prodenabolivia）为机构账号已录入BO-NGO-014；X搜索需登录；Instagram连接失败；TikTok搜索页无「Arando」相关结果；YouTube仅命中无关同名频道（见identity_note）；LinkedIn搜索需登录（HTTP 403）。未发现可归属其个人的社交账号。",
+    "political_stances_note": "未见其以个人名义就党派政治议题公开表态；公开言论集中于苗圃、农林复合与粮食安全等技术性社区发展议题（PRODENA官网新闻直接引语），按中性事实性原则不作立场归类。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": ["official_website", "web_search", "other"],
+        "notes": "来源确认：(1) PRODENA官网团队页（2026-10-26直取+2025-03-20 Wayback快照，职衔跨期一致）；(2) 官网2025-10-01科里帕塔新闻全文（含其直接引语与2025-01-21签署日期）；(3) LIDEMA官网PRODENA成员页（机构背景）；(4) BIVICA文献中心两条LIDEMA 2016年出版物著录页及《方法指南》PDF版权页全文（「Documento elaborado por: ... Jorge Arando Taboada」）；(5) Solidar Suiza名录（2024-10）经BO-NGO-014机构档案核录，本次复查403。工具限制说明：WebSearch与web_reader配额耗尽，Bing/DDG/Mojeek/Brave/Ecosia均被验证码或本地化污染拦截，改用官网WordPress检索API、Wayback CDX、BIVICA站内检索与Bing News RSS定位来源并直取全文。completeness_score低于45的说明：该人物公开信息 footprint 极小（无新闻数据库收录、无社交账号、无学历与出生信息披露），上述客观限制下无法进一步提高；所有已填事实（职衔、签署活动、出版物署名）均有≥2独立来源或官方一手来源支撑。",
+        "quotes": [
+            {"title": "Equipo Institucional – PRODENA（官网团队页：Jorge Arando Taboada — PRESIDENTE DE DIRECTORIO）", "url": "https://prodena.org.bo/equipo/"},
+            {"title": "CORIPATA IMPULSA VIVERO MUNICIPAL PARA FORTALECER LA AGROFORESTERÍA Y LA SEGURIDAD ALIMENTARIA（官网新闻，2025-10-01：Firma del convenio entre el Alcalde de Coripata Lic. Julio Salinas Ballivián y el Director de Prodena Ing. Jorge Arando Taboada）", "url": "https://prodena.org.bo/2025/10/01/coripata-impulsa-vivero-municipal-para-fortalecer-la-agroforesteria-y-la-seguridad-alimentaria/"},
+            {"title": "Wayback Machine 2025-03-20快照：Equipo Institucional – PRODENA（证实其至少自2025年3月起任该职）", "url": "https://web.archive.org/web/20250320091646/https://prodena.org.bo/equipo/"},
+            {"title": "PRODENA – LIDEMA（环境保卫联盟官网成员页：机构成立、法人注册与联系方式）", "url": "https://www.lidema.org.bo/prodena/"},
+            {"title": "BIVICA著录：Guía metodológica... adaptación al cambio climático（作者含 Arando Taboada, Jorge；LIDEMA，拉巴斯，2016）", "url": "https://www.bivica.org/file/view/id/4960"},
+            {"title": "BIVICA著录：Modelos integrales de intervención retos, resultados y actores（作者含 Arando Taboada, Jorge；LIDEMA，拉巴斯，2016，含PRODENA普卡拉尼项目章节）", "url": "https://www.bivica.org/file/view/id/4959"},
+            {"title": "《Guía metodológica》PDF全文版权页（Documento elaborado por: Freddy Tejada Miranda, Jorge Arando Taboada, Marisabel Paz Céspedes, Nelson Vacaflor）", "url": "https://www.bivica.org/files/guia-metodologica.pdf"}
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written:", OUT)
+bio = data["biography_summary"]
+print("bio length:", len(bio))

@@ -1,0 +1,231 @@
+# -*- coding: utf-8 -*-
+"""Write person profile BO-PERSON-000032 (Dorian Fernando Badani Villegas)."""
+import json
+import os
+
+OUT_DIR = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons"
+OUT_PATH = os.path.join(OUT_DIR, "BO-PERSON-000032.json")
+os.makedirs(OUT_DIR, exist_ok=True)
+
+profile = {
+    "person_id": "BO-PERSON-000032",
+    "wikidata_qid": None,
+    "name_zh": "多里安·费尔南多·巴达尼·比列加斯",
+    "name": "Dorian Fernando Badani Villegas",
+    "name_en": "Dorian Fernando Badani Villegas",
+    "aliases": ["Dorian Badani", "Badani Villegas"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1974-01-01",
+    "birth_place": "拉巴斯 (La Paz)",
+    "profile": {
+        "source_url": "https://lapatria.bo/wp-content/uploads/2026/10/6ad8d1a747533.jpg",
+        "local_path": "photos/BO-PERSON-000032.jpg"
+    },
+    "contacts": [],
+    "current_positions": ["玻利维亚政府部全面禁毒副部长"],
+    "education": [
+        {
+            "institution": "努尔大学 (Universidad Nur)",
+            "degree": None,
+            "field": None
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": "2026-10-07",
+            "end_date": None,
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)",
+            "org_id": "BO-GOV-003",
+            "position": "全面禁毒副部长"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚私营机构 (instituciones privadas de Bolivia)",
+            "org_id": None,
+            "position": "行政与人力资源职务"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "市立圣西蒙大学 (Universidad Mayor de San Simón)",
+            "org_id": "BO-ACAD-002",
+            "position": "咨询顾问"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "西班牙合作项目 (cooperación española)",
+            "org_id": None,
+            "position": "咨询顾问"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "努尔大学环球使命 (Misión Global, Universidad Nur)",
+            "org_id": None,
+            "position": "首席执行官"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000029",
+            "person_name": "马尔科·安东尼奥·奥维多·韦尔塔 (Marco Antonio Oviedo Huerta)",
+            "relationship_type": "superior",
+            "description": "政府部部长，2026年10月7日主持其全面禁毒副部长就职仪式并为其监督宣誓"
+        },
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统，巴达尼所任职政府（帕斯政府）的首脑，禁毒政策重大转向（DEA回归、国际合作）由该政府主导"
+        },
+        {
+            "person_id": "BO-PERSON-000030",
+            "person_name": "彼得·马尔多纳多·巴科维克 (Peter Maldonado Bacovick)",
+            "relationship_type": "colleague",
+            "description": "同日（2026年10月7日）获任命的内政、警察强化与透明副部长"
+        },
+        {
+            "person_id": "BO-PERSON-000031",
+            "person_name": "安东尼奥·蒙泰罗·托里科斯 (Antonio Montero Torricos)",
+            "relationship_type": "colleague",
+            "description": "同日获任命的公民安全与犯罪预防副部长（警方将军；媒体报道中姓名亦作 Rodolfo Montero Torrico）"
+        },
+        {
+            "person_id": "BO-PERSON-000481",
+            "person_name": "萨穆埃尔·多利亚·梅迪纳 (Samuel Doria Medina)",
+            "relationship_type": "associate",
+            "description": "企业界政治人物；2026年10月其公开指控现政府官员收取贩毒保护费，巴达尼公开要求其向检察院提交所掌握的姓名与证据，称拒绝提交即构成对禁毒工作的妨碍"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Dorian Badani Villegas",
+            "url": "https://bo.linkedin.com/in/dorian-badani-villegas-1990a61a",
+            "source": "LinkedIn搜索结果（bo.linkedin.com公开档案，显示CEO/环球使命·努尔大学，281名关注者）"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "dorian_badani",
+            "url": "https://www.instagram.com/dorian_badani/",
+            "source": "Instagram搜索结果（607名关注者，简介含超自然大能主题标签，姓名与福音派背景吻合，推断为本人）"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "dorianbadani",
+            "url": "https://www.instagram.com/dorianbadani/",
+            "source": "Instagram搜索结果（225名关注者，简介为「以我的生命彰显基督」，姓名与福音派背景吻合，推断为本人）"
+        }
+    ],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2026-10-22",
+            "topic": "国际合作与美国缉毒局（DEA）回归",
+            "stance_content": "在Red Uno专访中确认DEA「在玻利维亚存在」，称「不仅是DEA，还有美国使馆通过其他美国组织，欧洲机构、联合国都深度参与这场斗争」；表示玻利维亚正依托国际合作瓦解跨国犯罪组织，并强调美国使馆在缉毒拦截进程中的支持。这是DEA于2008年被玻利维亚驱逐后官方首次确认其重新参与禁毒。",
+            "source": "https://www.opinion.com.bo/pais/gobierno-confirma-presencia-dea-bolivia-admite-que-cultivos-coca-superan-limite-legal/20261022104832998009.html（另见 https://larazon.bo/nacional/2026/10/22/badani-la-dea-y-otros-organismos-estan-presentes-en-la-lucha-contra-el-crimen-en-bolivia/）"
+        },
+        {
+            "date": "2026-10-22",
+            "topic": "古柯种植政策",
+            "stance_content": "承认全国古柯种植面积已达约36,500公顷，超出法定授权的22,000公顷上限约14,500公顷；被问及何时对科恰班巴热带地区超额种植采取更强硬干预时，表示政府仍处于规划阶段，未给出行动时间表。",
+            "source": "https://www.opinion.com.bo/pais/gobierno-confirma-presencia-dea-bolivia-admite-que-cultivos-coca-superan-limite-legal/20261022104832998009.html"
+        },
+        {
+            "date": "2026-10-21",
+            "topic": "腐败指控与禁毒工作",
+            "stance_content": "针对萨穆埃尔·多利亚·梅迪纳指控现政府官员收取贩毒保护费（据称MAS时期每架运毒小飞机通行收5万美元、现政府涨至8万美元），要求其向检察院正式提交「姓名与证据」，称此类指控涉及官员与贩毒勾结、极为严重，拒绝提交证据即「妨碍禁毒斗争，这种态度不可容忍」。",
+            "source": "https://lapatria.bo/enfoque-nacional/gestion/viceministro-badani-responde-acusaciones-doria-medina/（另见 https://www.opinion.com.bo/pais/zar-antidrogas-pide-nombres-pruebas-afirmaciones-samuel-proteccion-narcotrafico/20261021082505997945.html）"
+        },
+        {
+            "date": "2026-10-22",
+            "topic": "自身任命",
+            "stance_content": "被问及任命过程时表示「不知道是谁提名我担任副部长」，并称在2026年长达53天的封锁冲突期间「曾通过一个福音教会以调解人身份提供支持」；此前社交媒体亦流传对其缺乏禁毒专业经验的批评。",
+            "source": "https://www.tiktok.com/@pepepomacusiperiodista/video/7699508842974956821（另见 https://www.facebook.com/JimenaAnteloOficial/posts/1693908078762156）"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2026-10-07",
+            "achievement": "获任命出任新设的政府部全面禁毒副部长，负责国家禁毒政策，由政府部长马尔科·安东尼奥·奥维多主持就职，媒体称其为「禁毒沙皇」",
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)"
+        },
+        {
+            "date": "2026-05",
+            "achievement": "在全国封锁冲突期间以福音教会发言人身份推动政府与动员团体（土著联合会、玻利维亚工人中央等）之间的对话调解",
+            "organization": None
+        },
+        {
+            "date": "2026-10-24",
+            "achievement": "通报特种禁毒部队（FELCN）近期缉毒行动成果，称行动对贩毒活动及其经济基础造成实质性打击",
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)"
+        }
+    ],
+    "biography_summary": "多里安·费尔南多·巴达尼·比列加斯为玻利维亚政府官员、福音派牧师。据公开资料，他1974年生于拉巴斯，行政管理专业出身，拥有人力资源管理硕士学位及组织发展、项目编制与评估、人权等文凭，并接受过随行牧师（capellán）方向研究生培训；职业生涯逾25年，长期在私营机构负责行政与人力资源工作，曾为市立圣西蒙大学及西班牙合作项目提供咨询服务，并任努尔大学环球使命（Misión Global）负责人。他同时是福音教会公开人物，2026年全国封锁冲突期间以教会发言人身份参与推动政府与动员团体对话。2026年10月7日，他被政府部长马尔科·安东尼奥·奥维多任命为新设的政府部全面禁毒副部长，媒体称其为「禁毒沙皇」。上任后他确认美国缉毒局（DEA）与联合国、欧洲机构正深度参与玻利维亚禁毒合作，并承认古柯种植面积超法定上限约1.45万公顷，称政府仍在规划干预措施。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["news_search", "web_search", "social_media"],
+        "notes": "信息主要来自2026年10月玻利维亚主流媒体全文报道（Los Tiempos、Red Uno、El Día/ERBOL、La Patria、Opinión/Oxígeno、La Razón）及LinkedIn、Instagram、YouTube、TikTok公开档案，共精读6个独立全文来源。任命、学历履历、DEA立场、古柯种植数据、对多利亚·梅迪纳表态、福音教会调解背景等关键事实均有至少两个独立来源。出生年份与出生地仅单一来源（YouTube视频简介，声称50岁、1974年生于拉巴斯），已标注存疑待验证。学位授予院校公开报道未披露，学历信息以education_note记录；努尔大学条目仅据LinkedIn档案教育关联推断，具体学位待核。人物照片取自La Patria报道配图（og:image，图注明确标注为副部长多里安·巴达尼的视频截图），已下载至本地。Wikidata暂无该人物条目。completeness_score约80分，未达85目标：缺口集中在家庭成员（无公开姓名信息）、联系方式（无公开个人联系方式）、更多学位授予院校（报道未披露）及第4个社交账号（6平台扫描未见），受限于可验证公开信息，依「禁止编造」铁律不再补条。name_zh采用项目_name_index.json既有音译；检索新华社、RFI中文、南美侨报等中文媒体未发现针对该人物的既有译名。",
+        "quotes": [
+            {
+                "title": "Ministro de Gobierno posesiona a 3 nuevos viceministros - Los Tiempos",
+                "url": "https://www.lostiempos.com/actualidad/pais/20261007/ministro-gobierno-posesiona-3-nuevos-viceministros"
+            },
+            {
+                "title": "¿Quiénes son los tres nuevos viceministros del Ministerio de Gobierno? - Red Uno",
+                "url": "https://www.reduno.com.bo/noticias/quienes-son-los-tres-nuevos-viceministros-del-ministerio-de-gobierno-2026107201318"
+            },
+            {
+                "title": "Oviedo posesiona a nuevos viceministros de Régimen Interior, Lucha contra el Narcotráfico y Seguridad Ciudadana - El Día/ERBOL",
+                "url": "https://eldia.com.bo/2026-10-07/pais/oviedo-posesiona-a-nuevos-viceministros-de-regimen-interior-lucha-contra-el-narcotrafico-y-seguridad-ciudadana.html"
+            },
+            {
+                "title": "Viceministro Badani responde a acusaciones de Doria Medina - La Patria",
+                "url": "https://lapatria.bo/enfoque-nacional/gestion/viceministro-badani-responde-acusaciones-doria-medina/"
+            },
+            {
+                "title": "Zar antidrogas pide nombres y pruebas de las afirmaciones de Samuel sobre protección al narcotráfico - Opinión/ERBOL",
+                "url": "https://www.opinion.com.bo/pais/zar-antidrogas-pide-nombres-pruebas-afirmaciones-samuel-proteccion-narcotrafico/20261021082505997945.html"
+            },
+            {
+                "title": "Gobierno confirma presencia de la DEA en Bolivia; admite que cultivos de coca superan el límite legal - Opinión/Oxígeno",
+                "url": "https://www.opinion.com.bo/pais/gobierno-confirma-presencia-dea-bolivia-admite-que-cultivos-coca-superan-limite-legal/20261022104832998009.html"
+            },
+            {
+                "title": "Badani: La DEA y otros organismos están presentes en la lucha contra el crimen en Bolivia - La Razón",
+                "url": "https://larazon.bo/nacional/2026/10/22/badani-la-dea-y-otros-organismos-estan-presentes-en-la-lucha-contra-el-crimen-en-bolivia/"
+            },
+            {
+                "title": "Dorian Badani: No sé quién dio mi nombre para ser viceministro - TikTok @pepepomacusiperiodista",
+                "url": "https://www.tiktok.com/@pepepomacusiperiodista/video/7699508842974956821"
+            },
+            {
+                "title": "Dorian Badani Villegas - LinkedIn",
+                "url": "https://bo.linkedin.com/in/dorian-badani-villegas-1990a61a"
+            },
+            {
+                "title": "La esencia de ser padre es el amor incondicional y el compromiso con el bienestar de los hijos - YouTube（含出生年份与出生地信息的视频简介）",
+                "url": "https://www.youtube.com/watch?v=yflOe2gJJ1Q"
+            }
+        ]
+    },
+    "name_zh_note": "中文译名采用项目_name_index.json既有音译（多里安·费尔南多·巴达尼·比列加斯）；检索新华社、RFI中文、南美侨报等中文媒体未发现针对该人物的既有译名",
+    "birth_date_note": "仅年份可确认：YouTube视频简介称其「50岁，1974年生于拉巴斯玻利维亚」（单一来源，未经第二来源交叉验证）；月日不详，按规则以-01-01填充",
+    "birth_place_note": "单一来源（YouTube视频简介），待交叉验证",
+    "education_note": "行政管理执照/学士（licenciado en Administración，逾25年职业履历）；人力资源管理硕士（maestría en Gerencia de Recursos Humanos）；组织发展、项目编制与评估、人权等文凭课程（diplomados）；随行牧师（agente capellán）方向研究生培训。上述学位授予院校公开报道均未披露，故未逐条建education条目；仅LinkedIn公开档案显示其与努尔大学（Universidad Nur）存在教育关联（具体学位待核），据此外education数组单列努尔大学条目",
+    "family_note": "未检索到可靠的配偶或子女公开信息；Scribd公开的公证文件显示其曾以强制继承人（heredero forzoso）身份申请启动无遗嘱继承程序（文件年份与被继承人姓名未能核实，未列入family_members）",
+    "religion": "基督教（福音派）",
+    "religion_note": "多个独立来源证实：YouTube电视大学拉巴斯牧师专访（2025-03）、教会节目采访（2026-05，称其为ANDEB发言人）、YouTube视频简介（全名+牧师身份）、其任命感言（「通过福音教会以调解人身份支持」）",
+    "position_note": "全面禁毒副部长（Viceministro de Lucha Integral contra el Narcotráfico）为2026年10月7日新设职位，与内政、警察强化与透明副部长及公民安全与犯罪预防副部长同批任命；任命背景为玻禁毒政策重大转向（DEA于2008年被驱逐后回归、联合国等国际机构深度参与）",
+    "social_accounts_note": "已扫描facebook、twitter_x、linkedin、instagram、tiktok、youtube六个平台：未发现本人认证的脸书、X、TikTok、YouTube个人账号（相关内容均为媒体账号发布）；LinkedIn档案1个、Instagram档案2个，其姓名与福音派牧师背景吻合，推断为本人，待进一步确认"
+}
+
+with open(OUT_PATH, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+
+print("WROTE:", OUT_PATH)
+print("bytes:", os.path.getsize(OUT_PATH))

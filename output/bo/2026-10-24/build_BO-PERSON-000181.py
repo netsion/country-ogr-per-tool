@@ -1,0 +1,260 @@
+# -*- coding: utf-8 -*-
+"""Build person profile JSON for BO-PERSON-000181 (Sebastian Daroca Oller)."""
+import json
+import os
+
+YPFB = "玻利维亚国家石油公司 (Yacimientos Petrolíferos Fiscales Bolivianos)"
+
+profile = {
+    "person_id": "BO-PERSON-000181",
+    "wikidata_qid": None,
+    "name_zh": "塞巴斯蒂安·达罗卡",
+    "name": "Sebastián Daroca Oller",
+    "name_en": "Sebastian Daroca Oller",
+    "aliases": ["Sebastian Daroca"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "current_positions": [
+        "玻利维亚国家石油公司代理执行总裁"
+    ],
+    "work_experience": [
+        {
+            "organization": YPFB,
+            "org_id": "BO-SOE-001",
+            "position": "代理执行总裁",
+            "start_date": "2026-04-23",
+            "end_date": None
+        },
+        {
+            "organization": YPFB,
+            "org_id": "BO-SOE-001",
+            "position": "全国运营副总裁",
+            "start_date": "2026-02",
+            "end_date": "2026-04"
+        },
+        {
+            "organization": "塔里哈省政府 (Gobernación de Tarija)",
+            "org_id": None,
+            "position": "碳氢化合物与能源事务秘书",
+            "start_date": "2008",
+            "end_date": "2010"
+        },
+        {
+            "organization": "玻利维亚公路管理局 (Administradora Boliviana de Carreteras)",
+            "org_id": None,
+            "position": "总经理",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "智利公共工程与交通部 (Ministerio de Obras Públicas y Transportes de Chile)",
+            "org_id": None,
+            "position": "项目协调与主管职务",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "玻利维亚经济发展部 (Ministerio de Desarrollo Económico)",
+            "org_id": None,
+            "position": "公路基础设施项目技术团队成员",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "达罗卡联合建筑公司 (Daroca y Asociados SRL)",
+            "org_id": None,
+            "position": "总经理",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "科佩萨公司 (Copesa)",
+            "org_id": None,
+            "position": "高管",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "education": [
+        {
+            "institution": "智利大学 (Universidad de Chile)",
+            "degree": "bachelor",
+            "field": "土木工程"
+        },
+        {
+            "institution": "ESADE商学院 (ESADE Business School)",
+            "degree": "master",
+            "field": "工商管理"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统。2026年4月23日深夜主持达罗卡就职仪式，任命其为YPFB代理执行总裁，并称许其有勇气与侵蚀玻利维亚人钱包的腐败作斗争。"
+        },
+        {
+            "person_id": "BO-PERSON-000080",
+            "person_name": "马塞洛·布兰科·金塔尼利亚 (Marcelo Blanco Quintanilla)",
+            "relationship_type": "superior",
+            "description": "碳氢化合物与能源部长（2026年4月接替被解职的毛里西奥·梅迪纳塞利），为主管YPFB的政府部门首长；2026年9月主导依据第5697号最高法令对YPFB实施国家特别干预，并宣布YPFB将逐步退出燃料销售环节。"
+        },
+        {
+            "person_id": None,
+            "person_name": "克劳迪娅·克罗嫩博尔德 (Claudia Cronenbold)",
+            "relationship_type": "colleague",
+            "description": "YPFB前任执行总裁。2026年2月她邀请达罗卡出任YPFB全国运营副总裁；她本人就任约20天后于2026年4月22日以公司状况「显著恶化」为由宣布不可撤销辞职，达罗卡次日接任其职务。"
+        },
+        {
+            "person_id": "BO-PERSON-000081",
+            "person_name": "塔蒂亚娜·赫努西奥·帕齐 (Tatiana Genucio Pazzi)",
+            "relationship_type": "colleague",
+            "description": "玻利维亚碳氢化合物副部长。世界石油理事会（WPC Energy）会长佩德罗·米拉斯·萨拉萨尔曾同时会见时任YPFB运营副总裁达罗卡与副部长赫努西奥。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "Sebastián Daroca (@SebastianYPFB)",
+            "url": "https://x.com/SebastianYPFB",
+            "source": "X平台搜索，账号简介为「Presidente ejecutivo de YPFB」，与本人职务一致"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "Sebastian Daroca",
+            "url": "https://bo.linkedin.com/in/sebastian-daroca-1274ba92",
+            "source": "LinkedIn搜索结果，履历（Daroca y Asociados总经理、ESADE商学院）与本人公开履历一致"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "sebasdaroca",
+            "url": "https://www.instagram.com/sebasdaroca/",
+            "source": "Instagram搜索结果，账号显示名与本人全名Sebastian Daroca Oller一致（低活跃度个人账号，仅1条帖子）"
+        }
+    ],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2026-04-24",
+            "topic": "燃油危机处置与YPFB结构性改革",
+            "stance_content": "就职时承诺：彻底解决「不稳定汽油」问题、保证燃油质量、确保燃料供应并加快向受损车主赔付；保证不上调既定燃油价格；宣布已建立从港口出运、入境、储罐进出至加油站的全程燃油质量控制体系，并推动对YPFB进行「彻底、真实和结构性」的变革。",
+            "source": "YPFB官网新闻稿 https://www.ypfb.gob.bo/node/510"
+        },
+        {
+            "date": "2026-04-24",
+            "topic": "能源危机与天然气进口风险",
+            "stance_content": "警告玻利维亚已处在能源危机门口：若天然气储量与产量下滑趋势得不到扭转，四到五年内国家将被迫进口天然气；称YPFB需要重组并改变运营模式，呼吁制定新的碳氢化合物法、消除监管障碍。",
+            "source": "Nova Vox Noticias https://novavoxnoticias.com/index.php/2026/04/24/daroca-advierte-riesgo-de-crisis-energetica-y-posible-importacion-de-gas/"
+        },
+        {
+            "date": "2026-04-24",
+            "topic": "燃油物流体系与监管框架批评",
+            "stance_content": "称燃料物流与营销体系「高度脆弱」，储油能力不足以保障供应自主；指出过去20年燃料商业化、储运与批发配送领域投资不足，燃料质量检验与控制系统「几乎不存在」。",
+            "source": "ANF / Agencia de Noticias Fides https://www.noticiasfides.com/economia/vicepresidente-de-operaciones-de-ypfb-es-posesionado-como-maxima-autoridad-de-la-petrolera-estatal"
+        },
+        {
+            "date": "2026-06-28",
+            "topic": "汽油质量危机宣告解决",
+            "stance_content": "宣布汽油质量危机已解决：在近7万起登记的汽油质量不稳定索赔中，超过3.6万名车主已获得经济补偿；称已强化各环节管控，避免车辆再度受损。",
+            "source": "南美侨报网 https://www.br-cn.com/static/content/news/nm_news/2026-06-30/1521530109541097515.html"
+        },
+        {
+            "date": "2026-08-18",
+            "topic": "公司财政与国家注资",
+            "stance_content": "披露YPFB已连续约三周获得国家财政部（TGN）资金注入用于采购燃料，以缓解财政紧张下的燃油进口与供应压力。",
+            "source": "La Razón https://larazon.bo/economia-y-empresa/2026/08/18/ypfb-recibe-inyeccion-financiera-del-tgn-para-comprar-combustibles-daroca/"
+        },
+        {
+            "date": "2026-09-02",
+            "topic": "国家特别干预与配合审计",
+            "stance_content": "政府依第5697号最高法令对YPFB实施「国家特别干预」后，确认留任总裁、公司运营正常；管理层表示将向干预委员会提供全部所需信息与文件，干预重点为燃料营销、物流、进口、分销与可追溯性，并可建议技术审计以查明不当行为和责任。",
+            "source": "Erbol https://erbol.com.bo/nacional/intervenida-ypfb-aclara-que-daroca-sigue-como-presidente-y-mantiene-normal-sus-operaciones"
+        },
+        {
+            "date": "2026-10",
+            "topic": "液化石油气进口预警",
+            "stance_content": "承认玻利维亚可能被迫于2027年进口液化石油气（GLP）以满足国内市场需求。",
+            "source": "Instagram新闻帖转述 https://www.instagram.com/p/DesM5jfmx6t/"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2026-04-23",
+            "achievement": "受总统帕斯任命接任YPFB代理执行总裁，成为帕斯政府执政五个月内的第三任YPFB掌门人，在燃油危机之中承诺推动公司结构性改革。",
+            "organization": "玻利维亚国家石油公司 (YPFB)"
+        },
+        {
+            "date": "2026-04-30",
+            "achievement": "发布YPFB及子公司2026年6.008亿美元投资计划，重点投向碳氢化合物勘探与生产领域。",
+            "organization": "玻利维亚国家石油公司 (YPFB)"
+        },
+        {
+            "date": "2026-06",
+            "achievement": "主导处置汽油质量危机：建立全链条油品质量控制体系，推动3.6万余名受损车主获得经济补偿，并宣告危机解除。",
+            "organization": "玻利维亚国家石油公司 (YPFB)"
+        },
+        {
+            "date": "2026-09",
+            "achievement": "在国家特别干预框架下推动内部审计，查明燃料系统、物流与分销环节存在违规行为并对涉事员工作出停职处理。",
+            "organization": "玻利维亚国家石油公司 (YPFB)"
+        }
+    ],
+    "biography_summary": "塞巴斯蒂安·达罗卡·奥列尔（Sebastián Daroca Oller），玻利维亚塔里哈人，土木工程师，现任玻利维亚国家石油公司（YPFB）代理执行总裁。2026年4月23日深夜，总统罗德里戈·帕斯在燃油危机之中主持其就职仪式，他成为帕斯政府执政五个月内的第三任YPFB总裁，接替上任约二十天即辞职的克劳迪娅·克罗嫩博尔德。达罗卡以最高荣誉毕业于智利大学土木工程专业，获西班牙ESADE商学院工商管理硕士（MBA），并在玻利维亚、荷兰、俄罗斯修读油气工程与天然气战略课程，拥有二十余年行业经验。曾任YPFB全国运营副总裁（2026年2月起）、塔里哈省碳氢化合物与能源事务秘书（2008-2010）、玻利维亚公路管理局总经理，并曾在智利公共工程与交通部及私营工程建筑企业Daroca y Asociados、Copesa任职。任内建立从出港到加油站的全程油品质量控制体系，推动3.6万余名受损车主获赔，发布2026年6.008亿美元投资计划，并多次警告国家可能在2027年进口液化石油气、四五年内被迫进口天然气。2026年9月政府依第5697号最高法令对YPFB实施国家特别干预，他留任并配合审计，同年10月政府与德勤启动YPFB重组。已婚，育有两名子女。",
+    "birth_date_note": "公开资料未披露其出生日期，故留空。",
+    "birth_place_note": "YPFB官方通稿称其为「tarijeño」（塔里哈人），但未明确披露出生地，故birth_place留空。",
+    "family_note": "据YPFB官方通稿（2026-04-24）：已婚，育有两名子女；家庭成员姓名未公开，故family_members留空。",
+    "education_note": "另据YPFB官方通稿：拥有运营与物流专业进修经历，在玻利维亚修读油气工程研究生课程，并在荷兰和俄罗斯研修天然气战略；具体院校未披露，故未单列条目。",
+    "position_note": "职务为代理性质（Presidente Ejecutivo interino），2026-04-23夜由总统帕斯主持就职；YPFB官网及2026年9-10月多家媒体报道确认其截至2026年10月仍在任。",
+    "work_note": "据ANF报道，其于2026年2月（就任总裁前约两个月）应时任总裁克罗嫩博尔德之邀出任YPFB全国运营副总裁，任务是诊断并解决燃油供应与质量问题。2026-09-02政府依第5697号最高法令对YPFB实施国家特别干预，达罗卡确认留任并配合干预委员会；2026-10政府与德勤启动YPFB重组进程（Bloomberg Tax报道）。",
+    "collection_meta": {
+        "phase": "phase4_person_profile",
+        "collection_date": "2026-10-25",
+        "data_sources": ["official_website", "news_search", "web_search", "social_media", "wikipedia"],
+        "notes": "数据来源：YPFB官网新闻稿、ABI（经eju.tv转载）、ANF/Fides、Infobae、Brújula Digital、Erbol、Nova Vox、南美侨报网（中文译名来源）等8个全文精读来源及Reuters/Upstream/La Razón/El Deber等搜索摘要交叉验证。核心事实（就任日期、代理职务、教育背景、履历、婚姻子女）均有2个以上独立来源。存疑字段：出生日期与出生地未披露（留空）；家庭成员姓名未公开（留空）；无Wikidata条目；name_zh采用玻利维亚华文媒体南美侨报网译名「塞巴斯蒂安·达罗卡」（两篇报道使用）。注意：搜索中出现的「Santiago Daroca Oller」为同名研究学者，非本人，已排除。Facebook/TikTok/YouTube未发现本人账号（均为媒体账号发布的涉其报道）。",
+        "quotes": [
+            {
+                "title": "Sebastian Daroca asume la presidencia ejecutiva de YPFB（YPFB官网新闻稿）",
+                "url": "https://www.ypfb.gob.bo/node/510"
+            },
+            {
+                "title": "¿Quién es Sebastián Daroca?, el nuevo presidente interino de YPFB（ABI，经eju.tv转载）",
+                "url": "https://eju.tv/2026/04/quien-es-sebastian-daroca-el-nuevo-presidente-interino-de-ypfb/"
+            },
+            {
+                "title": "Vicepresidente de Operaciones de YPFB es posesionado como máxima autoridad de la petrolera estatal（ANF）",
+                "url": "https://www.noticiasfides.com/economia/vicepresidente-de-operaciones-de-ypfb-es-posesionado-como-maxima-autoridad-de-la-petrolera-estatal"
+            },
+            {
+                "title": "Tercer presidente de YPFB en cinco meses: Rodrigo Paz posesiona a Sebastián Daroca en pleno conflicto por el combustible（Infobae）",
+                "url": "https://www.infobae.com/america/america-latina/2026/04/24/tercer-presidente-de-ypfb-en-cinco-meses-rodrigo-paz-posesiona-a-sebastian-daroca-en-pleno-conflicto-por-el-combustible/"
+            },
+            {
+                "title": "Sebastián Daroca asume la presidencia ejecutiva de YPFB（Brújula Digital）",
+                "url": "https://brujuladigital.net/economia/2026/04/24/sebastian-daroca-asume-la-presidencia-ejecutiva-de-ypfb-59885"
+            },
+            {
+                "title": "Intervenida, YPFB aclara que Daroca sigue como presidente y mantiene normal sus operaciones（Erbol）",
+                "url": "https://erbol.com.bo/nacional/intervenida-ypfb-aclara-que-daroca-sigue-como-presidente-y-mantiene-normal-sus-operaciones"
+            },
+            {
+                "title": "Daroca advierte riesgo de crisis energética y posible importación de gas（Nova Vox Noticias）",
+                "url": "https://novavoxnoticias.com/index.php/2026/04/24/daroca-advierte-riesgo-de-crisis-energetica-y-posible-importacion-de-gas/"
+            },
+            {
+                "title": "让位私企保供应 玻利维亚国家石油公司将逐步退出燃料销售（南美侨报网，name_zh译名来源）",
+                "url": "https://www.br-cn.com/static/content/news/nm_news/2026-09-04/1545512526802985592.html"
+            }
+        ]
+    }
+}
+
+out_dir = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons"
+os.makedirs(out_dir, exist_ok=True)
+out_path = os.path.join(out_dir, "BO-PERSON-000181.json")
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", out_path)
+print("bio_len:", len(profile["biography_summary"]))

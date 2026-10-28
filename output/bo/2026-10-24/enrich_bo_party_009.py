@@ -1,0 +1,265 @@
+# -*- coding: utf-8 -*-
+"""Phase3 enrichment for BO-PARTY-009 (Movimiento Demócrata Social / Demócratas)."""
+import json
+import io
+
+PATH = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\orgs\BO-PARTY-009.json"
+
+with io.open(PATH, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"] = {
+    "name_original": "Movimiento Demócrata Social",
+    "name_zh": "民主社会运动",
+    "name_en": "Democrat Social Movement",
+    "aliases": ["Demócratas", "MDS", "Democrats"],
+    "org_type": "PARTY",
+    "org_subtype": "opposition_party",
+    "country_iso3": "BOL",
+    "hq_country_iso3": "BOL",
+    "founded_date": "2013-12-15",
+    "website": "http://www.democratas.bo",
+    "wikidata_qid": "Q3021809",
+}
+
+data["social_accounts"] = [
+    {
+        "platform": "twitter_x",
+        "account_name": "Demócratas Bolivia (@DemocratasBo)",
+        "url": "https://x.com/DemocratasBo",
+        "source": "X平台搜索核实（账号名Demócratas Bolivia，发布党的原则与投票策略声明，2026-10在用）",
+    }
+]
+
+data["digital_assets"] = [
+    {
+        "name": "官方网站 democratas.bo",
+        "url": "http://www.democratas.bo",
+        "description": "西语Wikipedia信息框所列党的官方网站；2026-10实测未能访问，站点可能已停用（Web Archive存有2019年前后快照）。",
+        "source": "es.wikipedia.org (Movimiento Demócrata Social)；web.archive.org存档链接",
+    },
+    {
+        "name": "X官方账号 @DemocratasBo",
+        "url": "https://x.com/DemocratasBo",
+        "description": "党的官方社交媒体发声渠道，以党的名义发布原则声明与选举投票策略立场（如支持阻止MAS回归的投票策略）。",
+        "source": "x.com/DemocratasBo（搜索核实，2026-10）",
+    },
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "鲁文·科斯塔斯 (Rubén Costas)",
+        "name_en": "Rubén Costas",
+        "title": "建党人、党的领袖/全国主席 (Fundador; Jefe y Presidente del partido)",
+        "title_description": "西语Wikipedia信息框列其为党主席与主要领袖（2026年在任口径）；2026-01-07亲自为本党圣克鲁斯州长候选人马林科维奇站台造势（El Deber）。",
+        "description": "圣克鲁斯东部自治运动的旗帜人物，曾长期主政圣克鲁斯（2006-2015年任州长），此前曾任圣克鲁斯市长。2011年起整合共识人民(CP)、真理与社会民主(Verdes)、贝尼优先(Primero el Beni)等组织筹建政党，2013-12-15在科恰班巴建党大会上被推举为党的领导人与总统候选人。2025-10-25宣布该党参加2026年地方选举（不排除单独或联盟参选），并表态支持帕斯政府的治理稳定；2026年1月主持确定该党在圣克鲁斯的竞选名单。未见于_name_index.json，person_id留空。",
+    },
+    {
+        "person_id": "BO-PERSON-000091",
+        "name": "布兰科·马林科维奇 (Branko Marinković)",
+        "name_en": "Branko Marinković",
+        "title": "参议员、2026年圣克鲁斯州长候选人 (Senador; Candidato a Gobernador de Santa Cruz 2026)",
+        "title_description": "2025年经自由(Libre)联盟名单当选圣克鲁斯籍参议员（2025-08-18初步计票确认）；2026-01-07在圣克鲁斯选举法院注册为民主社会运动州长候选人。",
+        "description": "圣克鲁斯企业家出身（克罗地亚-黑山裔），党内重要领导人。2026-03-22州长选举首轮获约5.9%落败（初步计票），其后表示尊重结果、留任参议员；2026-08-13与埃内斯托·苏亚雷斯、卡蒂娅·基罗加共同公开与基罗加的政治领导层保持距离，重申民主社会运动党员身份并否认跳党(transfuguismo)指控。",
+    },
+    {
+        "person_id": None,
+        "name": "埃内斯托·苏亚雷斯 (Ernesto Suárez)",
+        "name_en": "Ernesto Suárez",
+        "title": "参议员、党的历史联合领导人 (Senador; dirigente histórico del partido)",
+        "title_description": "西语Wikipedia信息框将其与科斯塔斯并列为党的主要领袖；2026-2027届参议院中为该党自有党团三名参议员之一。",
+        "description": "贝尼前州长，2014年曾作为民主团结(Unidad Demócrata)联盟副总统候选人（搭档多利亚·梅迪纳）；贝尼是该党传统重镇之一。2026-08-13与马林科维奇、卡蒂娅·基罗加共同声明与基罗加领导层保持距离、重申党员身份。未见于_name_index.json，person_id留空。",
+    },
+    {
+        "person_id": None,
+        "name": "Kathia Quiroga",
+        "name_en": "Kathia Quiroga",
+        "title": "参议员 (Senadora)",
+        "title_description": "民主社会运动2026-2027届参议院自有党团三名参议员之一（与马林科维奇、苏亚雷斯并列，El Deber 2026-08-13）。",
+        "description": "2025年经自由(Libre)联盟名单当选参议员；2026-08-13与马林科维奇、苏亚雷斯共同发表声明，与基罗加的政治领导保持距离，重申民主社会运动成员身份，否认跳党指控。未查到可靠中文译名，保留西语原名；未见于_name_index.json，person_id留空。",
+    },
+]
+
+data["departments"] = [
+    {
+        "name": "全国执行委员会 (Comité Ejecutivo Nacional)",
+        "dept_id": "BO-PARTY-009-DEPT-001",
+        "head": "鲁文·科斯塔斯 (Rubén Costas)",
+        "description": "党的最高领导与决策机构，2013-12-15科恰班巴建党大会选出首届委员会；总部设于圣克鲁斯德拉谢拉（Av. Mutualista 90 esq. Calle 16）。建党初期即在全国各州设立民主之家(casas demócratas)地方网络。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "参议院党团 (Bancada de Senadores)",
+        "dept_id": "BO-PARTY-009-DEPT-002",
+        "head": None,
+        "description": "多民族立法大会参议院中的党团：自有席位3/36，自由(Libre)联盟口径合计12/36；三名自有参议员为马林科维奇、埃内斯托·苏亚雷斯与卡蒂娅·基罗加，2026-08起公开与联盟领袖基罗加拉开距离。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "众议院党团 (Bancada de Diputados)",
+        "dept_id": "BO-PARTY-009-DEPT-003",
+        "head": None,
+        "description": "多民族立法大会众议院中的党团：自有席位17/130，自由(Libre)联盟口径合计39/130（2025年大选全国得票26.80%、居第二）。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "州级组织与市镇网络 (Direcciones Departamentales y Municipales)",
+        "dept_id": "BO-PARTY-009-DEPT-004",
+        "head": None,
+        "description": "按州设立的党组织与市镇网络，传统强势地区为圣克鲁斯，其后为科恰班巴、塔里哈与奥鲁罗；2026年地方选举后持14/340个市长职位、9个州议会议席、0/9个州长职位；2025年登记党员238,002人。",
+        "parent_dept_id": None,
+    },
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-08-17",
+        "title": "作为自由(Libre)联盟成员党参加大选，首轮26.80%居第二",
+        "description": "民主社会运动以成员党身份加入豪尔赫·基罗加(Jorge Tuto Quiroga)领衔的自由联盟参加2025年大选；基罗加-贝拉斯科组合首轮获1,430,176票（26.80%）居第二，进入决选。",
+        "impact": "该党在MAS崩溃后的政治重组中重回全国第二梯队，议会席位大幅回升，但政党标识被联盟旗号部分稀释。",
+        "source": "https://es.wikipedia.org/wiki/Movimiento_Dem%C3%B3crata_Social",
+    },
+    {
+        "date": "2025-10-19",
+        "title": "决选败于帕斯；按联盟口径获参议院12席、众议院39席",
+        "description": "2025-10-19决选中基罗加以45.04%败于罗德里戈·帕斯（2025-11-08就任总统）；民主社会运动按自由联盟口径获参议院12/36席（自有党团3席）、众议院39/130席（自有党团17席）。",
+        "impact": "该党成为新国会的第二大自然人党来源，但与执政阵营的关系从一开始即存在张力。",
+        "source": "https://es.wikipedia.org/wiki/Movimiento_Dem%C3%B3crata_Social",
+    },
+    {
+        "date": "2025-10-25",
+        "title": "科斯塔斯宣布该党参加2026年地方选举，表态支持帕斯政府治理稳定",
+        "description": "党的领袖鲁文·科斯塔斯宣布民主社会运动将参加2026年地方选举，尚在评估单独以本党标识参选还是结盟；同时表示该党将支持当选总统帕斯的治理稳定(gobernabilidad)。",
+        "impact": "确认该党以独立于自由联盟的路径投入地方选举，为2026年与卡马乔阵营在圣克鲁斯的正面竞争埋下伏笔。",
+        "source": "https://www.reduno.com.bo/noticias/ruben-costas-democratas-participaran-en-subnacionales-y-analizan-si-iran-en-alianza-o-con-sigla-propia-20251025163142",
+    },
+    {
+        "date": "2026-01-07",
+        "title": "马林科维奇注册为该党圣克鲁斯州长候选人",
+        "description": "参议员布兰科·马林科维奇赴圣克鲁斯选举法院正式注册为民主社会运动州长候选人，党的领袖科斯塔斯亲自出席推介，该党就此关闭圣克鲁斯竞选名单（La Razón、El Deber 2026-01-07）。",
+        "impact": "该党在传统大本营圣克鲁斯与Creemos（卡马乔寻求连任）形成正面对决格局。",
+        "source": "https://larazon.bo/nacional/2026/01/07/marinkovic-se-registra-como-candidato-a-gobernador-en-santa-cruz/",
+    },
+    {
+        "date": "2026-03-22",
+        "title": "2026年地方选举：马林科维奇首轮约5.9%落败，全党获14个市长职位",
+        "description": "2026-03-22地方选举（圣克鲁斯州长首轮）中，马林科维奇获约5.9%（初步计票），远落后于进入04-19决选的自由联盟候选人贝拉斯科与第一圣克鲁斯党候选人里特；马林科维奇表示尊重结果并留任参议员。全党口径：0/9州长、14/340市长、9个州议会议席。",
+        "impact": "该党在圣克鲁斯大本营被Creemos与自由联盟进一步挤压，地方存在收窄至市镇与州议会层面；但保住了全国性政党地位与参议院自有党团。",
+        "source": "https://www.opinion.com.bo/pais/santa-cruz-velasco-ritter-perfilan-segunda-vuelta-gobernacion-mamen-gana-alcaldia/20260322231551990465.html",
+    },
+    {
+        "date": "2026-08-13",
+        "title": "三名自有参议员公开与基罗加领导层保持距离，否认跳党指控",
+        "description": "2026-08-12起，民主社会运动与左翼阵线(FRI)议员公开质疑基罗加对自由联盟的领导（Red Uno 08-12）；08-13马林科维奇、埃内斯托·苏亚雷斯、卡蒂娅·基罗加三名参议员发表声明，与基罗加的政治领导保持距离，重申民主社会运动党员身份，并否认自由党（Partido Libre）方面提出的跳党、收买与私下政治交易指控。",
+        "impact": "该党与自由联盟关系公开恶化，联盟执政版图（国会第二大力量的凝聚力）出现裂痕。",
+        "source": "https://eldeber.com.bo/pais/tres-senadores-desmarcan-tuto-ahonda-division-libre_1786617977",
+    },
+    {
+        "date": "2026-10-14",
+        "title": "自由联盟成立一周年：该党质疑基罗加同时执掌联盟与政党",
+        "description": "自由联盟成立一周年之际，民主社会运动与FRI方面质疑基罗加同时担任联盟与自由党(Partido Libre)两职的合规性；媒体盘点指出该党在立法机构首个会期内已明显与联盟拉开距离。",
+        "impact": "制度层面的分歧（联盟与政党双重领导）浮出水面，为2026-2027立法会期的联盟运作增加不确定性。",
+        "source": "https://www.noticiasfides.com/nacional/politica/en-primer-aniversario-de-libre-cuestionan-que-tuto-quiroga-ejerza-las-presidencias-de-la-alianza-y-del-partido",
+    },
+    {
+        "date": "2026-10-20",
+        "title": "自由联盟党团分裂，出现参众两院双重党团领导；该党参议员站队异见派",
+        "description": "自由联盟众议院党团分裂为图托派与异见派，并衍生参众两院双重党团领导（图托派选出何塞·桑切斯、莉萨·克拉罗斯）；民主社会运动参议员拒绝跳党指控，站队异见派阵营（支持现任参议长连任），并重申2025年竞选联盟系多党组织共同组建（El Día、El Post、El Diario 2026-10-20/22）。",
+        "impact": "该党在国会中以独立于基罗加的位置行事，2026-2027会期执政阵营在参议院的多数协调更趋复杂。",
+        "source": "https://eldia.com.bo/2026-10-20/politica/division-en-la-alianza-libre-deriva-en-una-doble-jefatura-de-bancada.html",
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-PARTY-005",
+        "org_name": "自由 (玻利维亚) (Libre)",
+        "org_type": "PARTY",
+        "org_description": "豪尔赫·基罗加阵营2025年组建的保守派选举联盟，民主社会运动为其成员党；2025年大选联盟获26.80%（决选45.04%败于帕斯），按联盟口径该党获参议院12席、众议院39席。2026-08起该党参议员公开与基罗加领导层保持距离，联盟内部陷入图托派与异见派的分裂。",
+        "relationship_type": "member_of",
+    },
+    {
+        "org_id": "BO-PARTY-004",
+        "org_name": "我们相信 (Creemos)",
+        "org_type": "PARTY",
+        "org_description": "卡马乔2019-2020年在圣克鲁斯组建的政治组织，与该党同源于圣克鲁斯右翼：2020年Juntos联盟解体时多名该党成员转入Creemos；2020-12该党领导人奥斯卡·奥尔蒂斯与弗拉基米尔·佩尼亚因反对与卡马乔结盟路线退党（Red Uno 2020-12-21）；2021年科斯塔斯及党内地方势力支持卡马乔当选圣克鲁斯州长；2026年州长选举中两党分别推举马林科维奇与卡马乔，正面竞争。",
+        "relationship_type": "affiliated",
+    },
+    {
+        "org_id": None,
+        "org_name": "国际民主联盟 (International Democrat Union, IDU)",
+        "org_type": "INTL",
+        "org_description": "全球中右政党国际联合组织；西语Wikipedia信息框列该党为其国际成员（地区归属为自由与民主集团 Grupo Libertad y Democracia）。",
+        "relationship_type": "member_of",
+    },
+    {
+        "org_id": None,
+        "org_name": "拉丁美洲政党联盟 (Unión de Partidos Latinoamericanos, UPLA)",
+        "org_type": "INTL",
+        "org_description": "拉美中右政党地区联盟；西语Wikipedia信息框列该党为其成员。",
+        "relationship_type": "member_of",
+    },
+]
+
+data["core_business"] = (
+    "民主社会运动（Movimiento Demócrata Social，通称Demócratas/MDS）是2013年由圣克鲁斯前州长鲁文·科斯塔斯创建的保守自由主义政党：2011年起由共识人民(CP)、真理与社会民主(Verdes)、贝尼优先(Primero el Beni)、更新自由与民主(LIDER)等地方组织融合筹建，2013-12-15在科恰班巴举行五千人建党大会正式成立并选出首届全国执行委员会，2022-09-05获多民族选举机构批准由公民团体升格为全国性政党。党部设于圣克鲁斯德拉谢拉（Av. Mutualista 90 esq. Calle 16），2025年登记党员约23.8万人。意识形态上以自由保守主义为主体，兼有联邦主义、东部自治/区域主义取向，自称中间派、外界普遍视其为中右翼；国际层面为国际民主联盟(IDU)与拉美政党联盟(UPLA)成员。核心业务是选举政治与议会政治：2014年与全国团结党组成民主团结联盟（24.23%，第一大反对党）；2019年以玻利维亚说不(BDN)联盟参选（4.24%）；2019-2020年政治危机中党员珍妮娜·阿涅斯(Jeanine Áñez)出任临时总统；2020年Juntos联盟中途退选；2025年作为自由(Libre)联盟成员党参选，首轮26.80%居第二、决选45.04%败于帕斯，按联盟口径获参议院12席（自有3席）、众议院39席（自有17席）。2026年地方选举以本党名义参选，获0/9州长、14/340市长与9个州议会议席。该党与卡马乔的Creemos渊源深厚：2020年多名党员转入Creemos，2020-12奥尔蒂斯、佩尼亚因反对与卡马乔结盟退党，2021年科斯塔斯阵营支持卡马乔竞选圣克鲁斯州长；2026-08起该党三名自有参议员与自由联盟领袖基罗加拉开距离，党正处于联盟关系重构与大本营受挤压的双重调整期。"
+)
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入），因此本组织不存在针对APEC的直接官方立场。可参照的间接背景：民主社会运动持自由保守主义与市场经济立场，主张对外开放、吸引投资与融入国际市场（其国际民主联盟成员党身份亦反映亲市场经济取向），且在2025年表态支持帕斯政府的治理稳定；但该党没有公开的涉APEC政策文件或表态，上述内容不构成其对APEC框架的特定立场。"
+)
+
+data["collection_meta"] = {
+    "collection_date": "2026-10-25",
+    "phase": "phase3_enriched",
+    "data_sources": [
+        "wikidata",
+        "wikipedia",
+        "official_website",
+        "news_search",
+        "web_search",
+        "social_media",
+    ],
+    "completeness_score": 87,
+    "quotes": [
+        {
+            "title": "Movimiento Demócrata Social — Wikipedia en español (infobox: fundación, líder Rubén Costas, bancadas 2025-2026, Libre desde 2025)",
+            "url": "https://es.wikipedia.org/wiki/Movimiento_Dem%C3%B3crata_Social",
+        },
+        {
+            "title": "Tres senadores se desmarcan de Tuto y se ahonda división en Libre — El Deber (2026-08-13, Marinkovic/Suárez/K. Quiroga)",
+            "url": "https://eldeber.com.bo/pais/tres-senadores-desmarcan-tuto-ahonda-division-libre_1786617977",
+        },
+        {
+            "title": "Demócratas y FRI se distancian de Tuto Quiroga y niegan transfuguismo — Red Uno (2026-08-12)",
+            "url": "https://www.reduno.com.bo/noticias/democratas-y-fri-se-distancian-de-tuto-quiroga-y-niegan-transfuguismo-2026812123417",
+        },
+        {
+            "title": "Marinkovic se registra como candidato a gobernador en Santa Cruz — La Razón (2026-01-07)",
+            "url": "https://larazon.bo/nacional/2026/01/07/marinkovic-se-registra-como-candidato-a-gobernador-en-santa-cruz/",
+        },
+        {
+            "title": "Rubén Costas: Demócratas participarán en subnacionales y analizan si irán en alianza o con sigla propia — Red Uno (2025-10-25)",
+            "url": "https://www.reduno.com.bo/noticias/ruben-costas-democratas-participaran-en-subnacionales-y-analizan-si-iran-en-alianza-o-con-sigla-propia-20251025163142",
+        },
+        {
+            "title": "Santa Cruz: Velasco y Ritter, a segunda vuelta por Gobernación; Mamen gana alcaldía — Opinión (2026-03-22)",
+            "url": "https://www.opinion.com.bo/pais/santa-cruz-velasco-ritter-perfilan-segunda-vuelta-gobernacion-mamen-gana-alcaldia/20260322231551990465.html",
+        },
+        {
+            "title": "En primer aniversario de Libre, cuestionan que Tuto Quiroga ejerza las presidencias de la alianza y del partido — Noticias Fides (2026-10-14)",
+            "url": "https://www.noticiasfides.com/nacional/politica/en-primer-aniversario-de-libre-cuestionan-que-tuto-quiroga-ejerza-las-presidencias-de-la-alianza-y-del-partido",
+        },
+        {
+            "title": "División en la Alianza Libre deriva en una doble jefatura de bancada — El Día (2026-10-20)",
+            "url": "https://eldia.com.bo/2026-10-20/politica/division-en-la-alianza-libre-deriva-en-una-doble-jefatura-de-bancada.html",
+        },
+    ],
+    "notes": "Phase3富集（2026-10）。重大勘误：任务背景中'MDS由Camacho创立、2019年脱离Creemos后成立'与来源不符——西语Wikipedia及2025-2026年多家媒体一致显示MDS由鲁文·科斯塔斯(Rubén Costas)于2013年创建（2013-12-15建党大会；2022-09-05升格为政党），Camacho的Creemos系2019-2020年另立、吸收多名MDS成员（与BO-PARTY-004画像互证），背景中的'Creemos de Centro'标签未见任何来源支持，未采用。关键核实：党的现任领袖为科斯塔斯（2026-01 El Deber称'jefe del partido'，2025-10 Red Uno称'líder'）；自有参议员3人（马林科维奇/苏亚雷斯/卡蒂娅·基罗加）与自有众议员17人均在Libre联盟12/39席口径内。近期主线：2025大选（Libre联盟，26.80%/45.04%）→2026-03-22地方选举（马林科维奇5.9%落败、全党14市长）→2026-08/10与基罗加及自由联盟公开决裂。不确定性：官网democratas.bo 2026-10实测无法访问（以X账号@DemocratasBo为主要官方渠道）；Facebook/Instagram/YouTube官方账号未能核实，未列入；科斯塔斯、埃内斯托·苏亚雷斯、卡蒂娅·基罗加未见于_name_index.json，person_id按规则留空；马林科维奇是否曾任帕斯政府经济部长未能双重核实，未写入。",
+}
+
+with io.open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("WROTE", PATH)

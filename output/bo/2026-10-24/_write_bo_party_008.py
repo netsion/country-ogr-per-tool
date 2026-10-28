@@ -1,0 +1,236 @@
+# -*- coding: utf-8 -*-
+"""临时脚本：写入 BO-PARTY-008 (Unidad Cívica Solidaridad) 富化画像"""
+import json
+
+OUT = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-PARTY-008.json"
+
+data = {
+    "org_id": "BO-PARTY-008",
+    "basic_info": {
+        "name_original": "Unidad Cívica Solidaridad",
+        "name_zh": "团结公民运动",
+        "name_en": "Solidarity Civic Unity",
+        "aliases": [
+            "Unidad Cívica Solidaridad",
+            "UCS",
+            "Unidad Civica Solidaridad"
+        ],
+        "org_type": "PARTY",
+        "org_subtype": "opposition_party",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1989-08-15",
+        "website": None,
+        "wikidata_qid": "Q5124336"
+    },
+    "social_accounts": [],
+    "digital_assets": [
+        {
+            "name": "多民族选举机构（OEP/TSE）官方政党注册信息页——Unidad Cívica Solidaridad – UCS",
+            "url": "https://web.oep.org.bo/organizaciones/unidad-civica-solidaridad-ucs/",
+            "description": "玻利维亚官方选举机构网站上的 UCS 注册组织页面，载有法人资格沿革（1989年9月4日马克斯·费尔南德斯申请承认、国家选举法院第100/89号决议批准）、章程与意识形态原则文件及历年财务稽核报告清单（最新为2025年编号248/2025的2024年度初步稽核报告）。党自身官网及官方社交账号未检索到（该党已于2026年1月被取缔）。",
+            "source": "web.oep.org.bo"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "约翰尼·费尔南德斯（Max Jhonny Fernández Saucedo）",
+            "title": "国家领袖（Jefe Nacional，1996-2026）；最后一任圣克鲁斯-德拉谢拉市长（2021-2026）",
+            "title_description": "创始人马克斯·费尔南德斯之子，自1996年3月15日起执掌 UCS 至2026年1月党被取缔；2025年大选“人民力量”联盟总统候选人",
+            "description": "1964年3月21日生于圣克鲁斯-德拉谢拉，企业家出身，1995-2002年任玻利维亚国家啤酒公司（CBN）总裁，2000年将从父亲处继承的 CBN 股份出售给阿根廷 Quilmes 集团以切割党企关系。两度出任圣克鲁斯-德拉谢拉市长（1995-2002、2021-2026），2025年大选代表 UCS 领导的“人民力量”联盟参选获1.67%（第七名）。2026年1月党被 TSE 取缔后，2月24日因“幽灵铺路案”（已付款未施工的市政工程）被捕，2月26日被裁定预防性拘押100天关押于帕尔马索拉监狱，3月13日获准居家软禁（并处50万玻利维亚诺罚款）履职至2026年5月4日卸任；截至2026年10月仍有4起司法程序在身并处于居家羁押（arraigo）状态。"
+        },
+        {
+            "person_id": None,
+            "name": "马克斯·费尔南德斯（Max Fernández Rojas）",
+            "title": "创始人（1989-1995）",
+            "title_description": "UCS 创始人、首任党魁，玻利维亚国家啤酒公司（CBN）总裁",
+            "description": "企业家，曾任玻利维亚信贷银行（BCP）前身“秘鲁大众银行”及 Cervecería Boliviana Nacional 的执行负责人，并以 CBN 主要股东身份经营啤酒帝国。1989年因与社会主义长枪党（FSB）在议员名单上决裂退选后，于1989年8月15日创立 UCS。以啤酒业利润兴办医院、学校、球场等社会工程，赢得工人与中下层选民，形成“啤酒+民粹”票仓。1993年大选获13.77%（第四名）成为议会第三力量，1995年在任内去世。"
+        },
+        {
+            "person_id": None,
+            "name": "罗莎·万卡·佩雷斯（Rosa Huanca Pérez）",
+            "title": "2025年大选副总统候选人（La Fuerza del Pueblo 联盟）",
+            "title_description": "2025年8月作为约翰尼·费尔南德斯的竞选搭档公布",
+            "description": "2025年8月13日公布为 UCS 主导的“人民力量”联盟副总统候选人，形成“东部领袖+西部搭档”的组合；联盟在8月17日大选中获1.67%选票，未能跨过3%法定门槛。"
+        },
+        {
+            "person_id": None,
+            "name": "维克托·乌戈·卡德纳斯（Víctor Hugo Cárdenas）",
+            "title": "2019年大选总统候选人（UCS 提名）",
+            "title_description": "前玻利维亚副总统（1993-1997），2018年11月14日获 UCS 提名",
+            "description": "艾马拉族教育家、前副总统，2018年11月获 UCS 提名为2019年大选总统候选人（搭档温贝托·佩尼亚多），在被取消资格的2019年大选中仅获0.41%。2020年 UCS 转而加入 Creemos 联盟。"
+        },
+        {
+            "person_id": None,
+            "name": "罗伯托·费尔南德斯（Roberto Fernández Saucedo）",
+            "title": "圣克鲁斯-德拉谢拉市长（2002年1月就任）；2015年 UCS 该市市长候选人",
+            "title_description": "党魁约翰尼·费尔南德斯之弟，马克斯·费尔南德斯之子",
+            "description": "2002年1月10日接替其兄约翰尼·费尔南德斯出任圣克鲁斯-德拉谢拉市长（UCS 籍）。2015年地方选举中作为 UCS 候选人再度竞选该市市长未果，但助党以168,718票赢得市议会3席（含其兄约翰尼·费尔南德斯）。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "全国领导机构（Jefatura Nacional）",
+            "dept_id": None,
+            "head": "约翰尼·费尔南德斯（Max Jhonny Fernández Saucedo）",
+            "description": "党的最高机构，负责人头衔为“国家领袖”（Jefe Nacional）。约翰尼·费尔南德斯自1996年3月15日起执掌至2026年1月28日 TSE 取消党的法人资格为止。党部（sede）设于圣克鲁斯-德拉谢拉。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "圣克鲁斯市议会党团（Concejales de UCS en el Concejo Municipal de Santa Cruz de la Sierra）",
+            "dept_id": None,
+            "head": None,
+            "description": "UCS 在其大本营圣克鲁斯-德拉谢拉的市政立法阵地：2015年地方选举以168,718票赢得市议会3席（含约翰尼·费尔南德斯本人，其弟罗伯托·费尔南德斯为该党市长候选人）；2021-2026年任期内约翰尼之子路易斯·米格尔·费尔南德斯任市议员。2026年1月党被取缔后该党团随之失去党籍依托。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "国会党团（Bancada Parlamentaria，1993-2002）",
+            "dept_id": None,
+            "head": None,
+            "description": "UCS 在国会（多民族立法大会前身）的立法党团：1993-1997年拥有20名众议员和1名参议员，1997-2002年拥有21名众议员和2名参议员，为1990年代国会第三大党团；曾投票支持桑切斯·德洛萨达就任总统（1993）并加入支持班塞尔政府的执政联盟（1997-2001）。2002年后 UCS 再未获得国会席位。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2025-04-18",
+            "title": "UCS 向 TSE 注册2025年大选联盟“人民力量”（La Fuerza del Pueblo）",
+            "description": "2025年4月18日，UCS 与公民团体 MOP（Movimiento Originario Popular，ANF 亦写作 Movimiento de Organización Popular）组成的选举联盟“人民力量”在多民族选举机构（TSE）完成注册，成为当年第5个注册的联盟；党魁约翰尼·费尔南德斯出任总统候选人。",
+            "impact": "使 UCS 得以参加2025年8月17日大选，是该党维持法人资格、延续政治存续的关键一搏。",
+            "source": "https://www.facebook.com/storyfedbolivia/posts/1237454481720267/"
+        },
+        {
+            "date": "2025-08-17",
+            "title": "2025年大选：费尔南德斯获1.67%（89,253票）列第七，未达3%门槛",
+            "description": "约翰尼·费尔南德斯与副总统候选人罗莎·万卡·佩雷斯搭档代表“人民力量”联盟参选，得票89,253张（1.67%），列第七；参众两院均未获任何席位。得票低于《政治组织法》规定的3%存续门槛，依法自动触发法人资格丧失程序。",
+            "impact": "该党自1990年代鼎盛期以来最严重的选举溃败，直接导致2026年1月被 TSE 取缔；费尔南德斯仅得以圣克鲁斯市长身份延续政治生命。",
+            "source": "https://es.wikipedia.org/wiki/Unidad_C%C3%ADvica_Solidaridad"
+        },
+        {
+            "date": "2026-01-23",
+            "title": "多民族宪法法院驳回 UCS 违宪之诉，为取缔扫清法律障碍",
+            "description": "宪法法院（TCP）准入委员会驳回约翰尼·费尔南德斯就《政治组织法》中“未获3%选票即丧失法人资格”条款提出的具体违宪审查申请；1月26日 El Deber 报道称此举“终结了 UCS 的法律生命”。数周前同类的 ADN 亦被取缔。",
+            "impact": "司法救济途径穷尽，TSE 随即召开全体会议启动取消程序，党进入解散倒计时。",
+            "source": "https://www.opinion.com.bo/pais/tcp-rechaza-dos-recursos-ucs-define-cancelacion-personeria-juridica/20260123142817987498.html"
+        },
+        {
+            "date": "2026-01-28",
+            "title": "TSE 全体会议取消 UCS 法人资格，存续36年的政党正式解散",
+            "description": "TSE 全体会议决议取消 UCS 及 MOP 的法人资格（明确“不可复审、不可逆转”），同时废止2025年12月17日第555/2025号决议批准的“新思想”（Nuevas Ideas）联盟（UCS+Poder del Pueblo）。所有已登记的2026年3月22日地方选举候选人失格，含拉巴斯省长候选人拉斐尔“塔塔”·基斯佩、塔里哈市长候选人罗德里戈·卡斯蒂略等；候选人被禁止转投其他政党参选。",
+            "impact": "UCS 作为政党正式终结；圣克鲁斯市长约翰尼·费尔南德斯失去党籍依托，其子（市议员）、其女（候补参议员）等家族政治网络失去组织载体。",
+            "source": "https://www.noticiasfides.com/nacional/politica/tse-cancela-la-personeria-juridica-de-ucs-y-mop-y-sus-candidatos-quedan-fuera-de-carrera-electoral"
+        },
+        {
+            "date": "2026-02-24",
+            "title": "党魁费尔南德斯因“幽灵铺路案”被捕",
+            "description": "时任圣克鲁斯市长的约翰尼·费尔南德斯就已付款未施工的铺路工程（“pavimento fantasma”/幽灵铺路案）向打击腐败特别局（Delcc）陈述后被捕，因健康原因先在诊所受警方看管；2月26日法官裁定预防性拘押100天，关押于帕尔马索拉监狱 PC-6 监区，涉嫌玩忽职守、经济行为不当与不当影响等罪名。",
+            "impact": "党被取缔后党魁个人陷入司法危机，UCS 政治遗产与费尔南德斯家族声誉遭受重创。",
+            "source": "https://bolpress.com/2026/02/24/alcalde-de-santa-cruz-aprehendido-por-pavimento-fantasma-permanece-en-clinica-bajo-custodia-policial/"
+        },
+        {
+            "date": "2026-03-13",
+            "title": "费尔南德斯获改居家软禁，履职至2026年5月4日卸任",
+            "description": "3月13日法院准予其居家软禁并处50万玻利维亚诺罚款，可继续以市长身份履职至任期结束。2026年5月4日市长任期届满，由马门·萨阿维德拉（Mamen Saavedra）接任，费尔南德斯时代对圣克鲁斯市政的掌控（2021-2026）结束。",
+            "impact": "UCS 系政治力量退出圣克鲁斯市政权力核心，仅余个人司法缠身的前党魁。",
+            "source": "https://es.wikipedia.org/wiki/Jhonny_Fern%C3%A1ndez"
+        },
+        {
+            "date": "2026-10-22",
+            "title": "卸任后案件升级：涉1.91亿玻利维亚诺、17项未完工工程听证延期",
+            "description": "前市长约翰尼·费尔南德斯因17项未完工市政工程涉嫌挪用1.91亿玻利维亚诺出席听证；10月22日听证延期至11月9日，检方拟申请180天预防性拘押。其目前处于居家羁押（arraigo）状态，共有4起司法程序在身。",
+            "impact": "UCS 虽已解散，其核心人物的司法风险持续发酵，短期内无以该党名义复出的制度空间。",
+            "source": "https://eldeber.com.bo/santa-cruz/malversacion-bs-191-millones-jhonny-fernandez-enfrenta-audiencia-este-jueves-17-obras-inconclusas_1792674302"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-CORP-001",
+            "org_name": "Cervecería Boliviana Nacional（玻利维亚国家啤酒公司，CBN）",
+            "org_type": "CORP",
+            "org_description": "玻利维亚最大啤酒企业。创始人马克斯·费尔南德斯曾任 CBN 执行负责人及主要股东，其子约翰尼·费尔南德斯1995-2002年任 CBN 总裁，2000年将继承股份售予阿根廷 Quilmes 集团。党的选票基础即脱胎于 CBN 的商业网络与社会慈善工程。",
+            "relationship_type": "affiliated"
+        },
+        {
+            "org_id": "BO-PARTY-004",
+            "org_name": "Creemos（我们相信）",
+            "org_type": "PARTY",
+            "org_description": "路易斯·费尔南多·卡马乔创立的圣克鲁斯公民组织/政党。UCS 于2020年大选加入该联盟支持卡马乔（获14%选票、议会第三力量），2021年地方选举继续合作（含圣克鲁斯省长与多个市长职位）， Wikipedia 记载联盟关系存续至2025年，2020年底 Creemos 一度宣布联盟“终止”。",
+            "relationship_type": "strategic_alliance"
+        },
+        {
+            "org_id": None,
+            "org_name": "Falange Socialista Boliviana（玻利维亚社会主义长枪党，FSB）",
+            "org_type": "PARTY",
+            "org_description": "1937年创立的老牌政党。1989年马克斯·费尔南德斯因 FSB 排斥其盟友、把持议员名单而愤然退选，随即自立 UCS，故 UCS 系自 FSB“分裂”而出；2002年两党又曾组成 UCS-FSB 联盟参选（获5.51%）。",
+            "relationship_type": "predecessor"
+        },
+        {
+            "org_id": None,
+            "org_name": "La Fuerza del Pueblo（“人民力量”联盟）",
+            "org_type": "ALLIANCE",
+            "org_description": "2025年4月18日在 TSE 注册的选举联盟，由 UCS 与公民团体 MOP（Movimiento Originario Popular / Movimiento de Organización Popular）组成，推举约翰尼·费尔南德斯为总统候选人，2025年8月17日大选中仅获1.67%，是 UCS 随后被取缔的直接导火索。",
+            "relationship_type": "strategic_alliance"
+        },
+        {
+            "org_id": None,
+            "org_name": "Poder del Pueblo（“人民权力”公民团体）",
+            "org_type": "PARTY",
+            "org_description": "2025年12月17日（TSE 第555/2025号决议）与 UCS 组成“新思想”（Nuevas Ideas）联盟参加2026年3月22日地方选举；2026年1月28日随 UCS 法人资格被取消，该联盟同被废止，全体候选人失格。",
+            "relationship_type": "strategic_alliance"
+        }
+    ],
+    "core_business": "团结公民运动（UCS）是玻利维亚一个已解散的中派（自称）／中右翼民粹主义政党，1989年8月15日由啤酒业巨头、玻利维亚国家啤酒公司（CBN）总裁马克斯·费尔南德斯创立，意识形态兼容社会自由主义、跨界民粹主义（transversalismo）与社会正义诉求，国际层面曾隶属“自由与民主集团”。其票仓根基源于费尔南德斯家族借助 CBN 商业财富开展的社会工程——修建医院、学校、球场、路灯等慈善事业——从而赢得的工人与中下层消费者选民，地域大本营位于圣克鲁斯-德拉谢拉及东部低地。党的核心业务是组织选举：提名总统、议员及市政候选人，组建和参与竞选联盟并参与议会合纵连横——1993年首度参选即获13.77%成为议会第三力量并支持桑切斯·德洛萨达上台；1990年代后期加入支持班塞尔政府的“超级联盟”；2002年与 FSB 联盟参选；2019年独立参选惨败后于2020年加入 Creemos 联盟；2025年自组“人民力量”联盟仅获1.67%。党在地方长期经营圣克鲁斯市政，约翰尼·费尔南德斯两度出任该市市长（1995-2002、2021-2026）。因2025年大选未达3%法定门槛，TSE 于2026年1月28日取消其法人资格，政党正式消亡。",
+    "industries": [
+        "public_administration"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。玻利维亚的区域经贸参与主要通过安第斯共同体（CAN）、南方共同市场（Mercosur）及拉美一体化协会（ALADI）等区域机制展开。UCS为已解散的玻利维亚国内政党，其存续期间（1989-2026）从未执掌中央政权，无已知的针对APEC事务的公开官方立场记录。",
+    "profile": {
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Unidad_civica_solidaridad_ucs.jpg/330px-Unidad_civica_solidaridad_ucs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia_es (Unidad Cívica Solidaridad; Jhonny Fernández; Max Fernández)",
+            "noticiasfides.com (ANF)",
+            "eldeber.com.bo",
+            "opinion.com.bo",
+            "bolpress.com",
+            "web.oep.org.bo (Órgano Electoral Plurinacional 注册页)",
+            "redes sociales de medios bolivianos (Unitel, Bolivisión, Grupo EL DEBER, TSE Bolivia)"
+        ],
+        "completeness_score": 85,
+        "quotes": [
+            {
+                "title": "TSE cancela la personería jurídica de UCS y MOP y sus candidatos quedan fuera de carrera electoral - ANF",
+                "url": "https://www.noticiasfides.com/nacional/politica/tse-cancela-la-personeria-juridica-de-ucs-y-mop-y-sus-candidatos-quedan-fuera-de-carrera-electoral"
+            },
+            {
+                "title": "TSE aprueba cancelación de personería jurídica de UCS - El Deber",
+                "url": "https://eldeber.com.bo/pais/elecciones-subnacionales-tse-aprueba-cancelacion-personeria-juridica-ucs_1769640047"
+            },
+            {
+                "title": "¿Malversación de Bs 191 millones? Jhonny Fernández enfrenta audiencia este jueves por 17 obras inconclusas - El Deber",
+                "url": "https://eldeber.com.bo/santa-cruz/malversacion-bs-191-millones-jhonny-fernandez-enfrenta-audiencia-este-jueves-17-obras-inconclusas_1792674302"
+            },
+            {
+                "title": "Alcalde de Santa Cruz aprehendido por “pavimento fantasma” permanece en clínica bajo custodia policial - Bolpress",
+                "url": "https://bolpress.com/2026/02/24/alcalde-de-santa-cruz-aprehendido-por-pavimento-fantasma-permanece-en-clinica-bajo-custodia-policial/"
+            },
+            {
+                "title": "El TCP rechaza dos recursos de UCS y define la cancelación de su personería jurídica - Opinión",
+                "url": "https://www.opinion.com.bo/pais/tcp-rechaza-dos-recursos-ucs-define-cancelacion-personeria-juridica/20260123142817987498.html"
+            }
+        ],
+        "notes": "核心事实（2026-01-28 TSE 取消法人资格、不可逆转；2025-08-17 大选获1.67%未达3%门槛；领导人约翰尼·费尔南德斯2026年2月因‘幽灵铺路案’被捕后获居家软禁）均有≥2个独立来源（ANF、El Deber、Opinión、Bolpress、维基百科、OEP 官网）。党自身官网及官方社交账号未检索到，social_accounts 留空；digital_assets 收录 OEP 官方注册信息页。ID 映射：CBN=BO-CORP-001、Creemos=BO-PARTY-004；FSB、La Fuerza del Pueblo、Poder del Pueblo 及全部关键人物在 _name_index.json 中无对应 ID，置 null。"
+    }
+}
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written:", OUT)
+print("core_business length:", len(data["core_business"]))

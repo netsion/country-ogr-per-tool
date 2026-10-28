@@ -1,0 +1,216 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Phase3 enrichment for BO-ACAD-002 (Universidad Mayor de San Simón)."""
+import json
+import os
+
+PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-ACAD-002.json")
+
+with open(PATH, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_original"] = "Universidad Mayor de San Simón"
+data["basic_info"]["name_en"] = "University of San Simón"
+data["basic_info"]["website"] = "https://www.umss.edu.bo"
+data["basic_info"]["aliases"] = [
+    "University of San Simon",
+    "Universidad Mayor de San Simón",
+    "University of Cochabamba",
+    "UMSS",
+    "Sansi",
+    "Casa Superior de Estudios",
+]
+
+data["social_accounts"] = [
+    {"platform": "facebook", "account_name": "UmssBolOficial", "url": "https://www.facebook.com/UmssBolOficial/", "source": "official_website footer"},
+    {"platform": "instagram", "account_name": "umssboloficial", "url": "https://www.instagram.com/umssboloficial/", "source": "official_website footer"},
+    {"platform": "twitter_x", "account_name": "UmssBolOficial", "url": "https://twitter.com/UmssBolOficial", "source": "official_website footer"},
+    {"platform": "youtube", "account_name": "Universidad Mayór de San Simón Oficial", "url": "https://www.youtube.com/c/UniversidadMayordeSanSimonOficial", "source": "official_website footer"},
+    {"platform": "linkedin", "account_name": "Universidad Mayor de San Simón", "url": "https://www.linkedin.com/school/universidad-mayor-de-san-simon/", "source": "official_website footer"},
+    {"platform": "telegram", "account_name": "UmssBolOficial", "url": "https://t.me/UmssBolOficial", "source": "official_website footer"},
+    {"platform": "other", "account_name": "WhatsApp Channel UMSS", "url": "https://whatsapp.com/channel/0029Va7V4SJInlqZXvNQq412", "source": "official_website footer"},
+]
+
+data["digital_assets"] = [
+    {"name": "Radio San Simón（圣西蒙广播电台，FM 102.4）", "url": "https://radiosansimon.umss.edu.bo/", "description": "UMSS官方广播电台，位于大学主校区（Av. Oquendo），兼为该校社会传播专业的实践教学平台，FM 102.4与网络同步播出。", "source": "https://radiosansimon.umss.edu.bo/"},
+    {"name": "Periódico Digital Oficial de la UMSS（UMSS官方数字报）", "url": "https://www.umss.edu.bo/noticias/", "description": "UMSS官方网站的数字新闻门户，持续发布大学学术、管理与校园动态。", "source": "https://www.umss.edu.bo/"},
+    {"name": "Universidad Virtual Inteligente de la UMSS（UMSS智能虚拟大学平台）", "url": "https://www.umss.edu.bo/universidad-virtual-inteligente/", "description": "UMSS线上教学与预报名平台，2026年开设入学引导课程，支撑远程与混合教学。", "source": "https://www.umss.edu.bo/"},
+    {"name": "Posgrado UMSS（研究生教育门户）", "url": "https://www.umss.edu.bo/posgrado/", "description": "UMSS研究生（硕士、博士）项目官方门户，统筹研究生招生与培养信息。", "source": "https://www.umss.edu.bo/"},
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "Boris Marcelo Calancha Navia",
+        "title": "校长（Rector）",
+        "title_description": "现任校长，2024年11月代表\"Proyecto X\"名单以53%得票当选，2024年11月29日就职，任期2024-2028",
+        "description": "工程师（Ing.）。2024年11月22日在大学选举中以53%的得票率当选UMSS校长（据《Los Tiempos》），同年11月29日与副校长Greby Rioja一同在科恰班巴正式就职，任期至2028年（据《Opinión》）。任内提出以机构稳定与学术卓越为导向的施政方向，2026年10月公开通报大学预算争取取得重要进展。身份经UMSS官网Rectorado专页（gestión 2024-2028）与多家媒体交叉证实。"
+    },
+    {
+        "person_id": None,
+        "name": "Greby Uriel Rioja Montaño",
+        "title": "副校长（Vicerrector）",
+        "title_description": "现任副校长，2024年与校长同届当选，2024年11月29日就职，任期2024-2028",
+        "description": "博士（Dr.）。2024年11月29日经正式仪式就任UMSS副校长，与校长Boris Marcelo Calancha Navia搭档主持校务至2028年。身份经UMSS官网Vicerrectorado专页与西语维基百科UMSS条目交叉证实。"
+    },
+]
+
+data["departments"] = [
+    {"name": "法律与政治科学学院（Facultad de Ciencias Jurídicas y Políticas）", "dept_id": None, "head": None, "description": "源于1832年建校法令同步设立的法学实践者学院（Academia de Practicantes Juristas），1834-1835年授予全国最早的法学博士学位，是UMSS历史最悠久的教学单位之一。", "parent_dept_id": None},
+    {"name": "医学院（Facultad de Medicina）", "dept_id": None, "head": None, "description": "1863年初创、1892年经最高法令恢复办学，是玻利维亚重要的医师培养基地，与大学医院及大学生社会保险体系（SSU）关联紧密。", "parent_dept_id": None},
+    {"name": "经济科学学院（Facultad de Ciencias Económicas）", "dept_id": None, "head": None, "description": "培养经济、会计、金融与商业管理人才，设有独立站点fce.umss.edu.bo。", "parent_dept_id": None},
+    {"name": "科学与技术学院（Facultad de Ciencias y Tecnología, FCYT）", "dept_id": None, "head": None, "description": "涵盖数学、物理、计算机与工程基础学科，设有信息学与系统专业（cs.umss.edu.bo）及MEMI多学科项目。", "parent_dept_id": None},
+    {"name": "人文与教育科学学院（Facultad de Humanidades y Ciencias de la Educación）", "dept_id": None, "head": None, "description": "培养教师与人文社科研究者，设有人类学、语言学、教育科学等专业。", "parent_dept_id": None},
+    {"name": "建筑与人居科学学院（Facultad de Arquitectura y Ciencias del Hábitat）", "dept_id": None, "head": None, "description": "从事建筑学、城市规划与人居环境领域的教学与研究。", "parent_dept_id": None},
+    {"name": "农业与畜牧科学学院（Facultad de Ciencias Agrícolas y Pecuarias）", "dept_id": None, "head": None, "description": "农学与畜牧教学科研单位；2026年3月该校通过引进高遗传性能jersey奶牛强化其奶畜群。", "parent_dept_id": None},
+    {"name": "牙科学院（Facultad de Odontología）", "dept_id": None, "head": None, "description": "口腔医学教学与临床实践单位。", "parent_dept_id": None},
+    {"name": "生物化学与制药科学学院（Facultad de Ciencias Bioquímicas y Farmacéuticas）", "dept_id": None, "head": None, "description": "生物化学、药学与实验室科学领域的教学科研单位。", "parent_dept_id": None},
+    {"name": "谷地阿尔托理工学院（Facultad Politécnica del Valle Alto）", "dept_id": None, "head": None, "description": "位于科恰班巴谷地阿尔托（Valle Alto）地区的理工类学部（原IPU理工学院）。", "parent_dept_id": None},
+    {"name": "社会科学学院（Facultad de Ciencias Sociales）", "dept_id": None, "head": None, "description": "含社会学、社会传播等专业，其社会传播专业运营圣西蒙广播电台。", "parent_dept_id": None},
+    {"name": "农村发展与领土学院（Facultad de Desarrollo Rural y Territorial）", "dept_id": None, "head": None, "description": "面向农村发展与领土治理的应用型学部。", "parent_dept_id": None},
+    {"name": "林学院（Escuela Forestal）", "dept_id": None, "head": None, "description": "林业科学与森林资源管理的教学单位。", "parent_dept_id": None},
+    {"name": "护理学院（Facultad de Enfermería）", "dept_id": None, "head": None, "description": "护理学专业人才培养单位。", "parent_dept_id": None},
+    {"name": "兽医科学学院（Facultad de Ciencias Veterinarias）", "dept_id": None, "head": None, "description": "兽医学教学与动物健康研究单位。", "parent_dept_id": None},
+    {"name": "萨克塔谷分散教学部（Unidad Desconcentrada del Valle de Sacta）", "dept_id": None, "head": None, "description": "位于科恰班巴省萨克塔谷地（Valle de Sacta）的跨学科分散办学点，服务热带地区农业与农村社区。", "parent_dept_id": None},
+    {"name": "大学研究生院（Escuela Universitaria de Posgrado）", "dept_id": None, "head": None, "description": "统筹全校硕士、博士及第二专业研修项目的研究生管理机构。", "parent_dept_id": None},
+]
+
+data["recent_events"] = [
+    {
+        "date": "2024-11-22",
+        "title": "Boris Calancha以53%得票当选UMSS校长",
+        "description": "在UMSS大学选举中，代表\"Proyecto X\"名单的Boris Calancha以53%的得票率当选校长，与Greby Rioja（副校长）组成2024-2028届领导团队。",
+        "impact": "UMSS完成领导层换届，进入新一届治理周期，为后续预算争取与学术改革奠定治理基础。",
+        "source": "https://www.lostiempos.com/actualidad/cochabamba/20241122/boris-calancha-es-nuevo-rector-umss"
+    },
+    {
+        "date": "2024-11-29",
+        "title": "Calancha与Rioja正式就职，任期至2028年",
+        "description": "Boris Marcelo Calancha Navia与Greby Uriel Rioja Montaño在科恰班巴正式宣誓就任校长与副校长；UMSS另于2024年12月9日举行新任当局隆重就职仪式。",
+        "impact": "2024-2028届校领导正式履职，UMSS治理架构恢复稳定。",
+        "source": "https://www.opinion.com.bo/cochabamba/calancha-rioja-inician-gestion-rectorado-vicerrectorado-2028/20241129000021961445.html"
+    },
+    {
+        "date": "2026-04-30",
+        "title": "UMSS举行面向第十四届全国大学代表大会（XIV Congreso Nacional de Universidades）的代表选举",
+        "description": "玻利维亚大学体系将于2026年在潘多省科维哈（Cobija, Pando）召开第十四届全国大学代表大会（CNU），UMSS于2026年4月底组织相关代表选举，参与确定该体系最高决策机构的代表构成。",
+        "impact": "影响UMSS在玻利维亚公立大学体系（CEUB/CNU）中的话语权与政策立场。",
+        "source": "https://www.umss.edu.bo/elecciones-rumbo-al-xiv-congreso-nacional-de-universidades-cobija-pando-2026/"
+    },
+    {
+        "date": "2026-08-10",
+        "title": "UMSS承办全国大学学术大会（Congreso Nacional Académico de Universidades）",
+        "description": "UMSS及其大学地方联合会（FUL）于2026年7-8月宣布并在科恰班巴主校区承办全国大学学术大会，接待全国各公立大学的学生与学者代表。",
+        "impact": "提升UMSS在玻利维亚全国学术界的组织地位与影响力。",
+        "source": "https://www.facebook.com/ful2527/videos/congreso-nacional-acad%C3%A9mico-de-universidades-cochabamba-2026/1610389457089494/"
+    },
+    {
+        "date": "2026-09-18",
+        "title": "UMSS启动2026年度Google Career Launchpad奖学金",
+        "description": "UMSS通过其数字报发布2026年Google Career Launchpad奖学金公开招募通知，为学生提供数字技能课程与职业认证资源。",
+        "impact": "推动UMSS学生数字能力建设，加强与谷歌公司的教育合作。",
+        "source": "https://www.umss.edu.bo/convocatoria-abierta-2026-becas-google-career-launchpad/"
+    },
+    {
+        "date": "2026-10-13",
+        "title": "校长Calancha通报大学预算争取取得重要进展",
+        "description": "校长Boris Calancha通过媒体确认，UMSS在预算争取方面取得重要进展（gestiones presupuestarias），涉及学校财政运行与发展的资金保障。",
+        "impact": "关系UMSS教学、基建与日常运营的资金稳定性，缓解公立大学经费压力。",
+        "source": "https://www.instagram.com/reel/DecDRXUEiIf/"
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-GOV-008",
+        "org_name": "Ministry of Education (Ministerio de Educación)",
+        "org_type": "GOV",
+        "org_description": "玻利维亚教育部，主管全国教育政策与高等教育事务；玻利维亚公立大学依法自治，但在教育法规框架下与教育部保持监管协调关系。",
+        "relationship_type": "regulated_by"
+    },
+    {
+        "org_id": "BO-ACAD-001",
+        "org_name": "Universidad Mayor de San Andrés (UMSA)",
+        "org_type": "ACAD",
+        "org_description": "位于拉巴斯的玻利维亚第二所公立大学（1830年建校），与UMSS同为玻利维亚公立大学体系（Sistema de la Universidad Boliviana）的核心成员。",
+        "relationship_type": "sibling"
+    },
+    {
+        "org_id": "BO-ACAD-004",
+        "org_name": "Universidad Mayor, Real y Pontificia San Francisco Xavier de Chuquisaca",
+        "org_type": "ACAD",
+        "org_description": "玻利维亚最古老的大学（1624年建于苏克雷）；UMSS是全国继该校和UMSA之后建立的第三所大学。",
+        "relationship_type": "sibling"
+    },
+    {
+        "org_id": None,
+        "org_name": "Comité Ejecutivo de la Universidad Boliviana (CEUB)",
+        "org_type": "ACAD",
+        "org_description": "玻利维亚大学体系的执行协调机构，UMSS是其成员大学，参与全国大学代表大会（CNU）及体系事务（2026年将参加第十四届CNU）。",
+        "relationship_type": "member_of"
+    },
+    {
+        "org_id": None,
+        "org_name": "Instituto Confucio de la Universidad Mayor de San Simón（UMSS孔子学院）",
+        "org_type": "ACAD",
+        "org_description": "设在UMSS的孔子学院，开展中文教学与中国文化交流，据圣西蒙广播电台报道已运行多个教学周期（新一轮周期于2026年前后启动）。",
+        "relationship_type": "affiliated"
+    },
+    {
+        "org_id": None,
+        "org_name": "Televisión Universitaria UMSS (TVU)",
+        "org_type": "MEDIA",
+        "org_description": "UMSS所属的大学电视台，演播室位于科恰班巴5月25日街（25 de Mayo）哥伦比亚街角与埃罗伊纳斯街之间，直播多样的文化与信息服务节目。",
+        "relationship_type": "affiliated"
+    },
+]
+
+data["core_business"] = (
+    "圣西蒙大学（UMSS）是玻利维亚科恰班巴市规模最大、历史最悠久的公立综合性大学，依据1832年11月5日法令由总统安德烈斯·德·圣克鲁斯（Andrés de Santa Cruz）推动创建，"
+    "是玻利维亚继圣弗朗西斯科·哈维尔大学（1624年）和圣安德烈斯大学（1830年）之后建立的第三所大学，1931年起依据宪法确立大学自治地位。学校以本科、研究生（硕士/博士）及第二专业教育为主业，"
+    "设有约17个学部（学院），覆盖医学、法律与政治、经济科学、科学与技术、建筑与人居、农业与畜牧、兽医、护理、牙科、生物化学与制药、人文与教育、社会科学及农村发展等领域；"
+    "拥有约12.9万名学生（2020年）、2500余名专职教师和近千名助教，其大学医院与大学生社会保险体系（SSU）覆盖8万余名师生员工。校内另设科学与技术研究中心（DICYT）、"
+    "研究生院、国际关系与合作处、大学博物馆、圣西蒙广播电台（FM 102.4）、大学电视台（TVU）及孔子学院等科研、传播与国际交流机构。在Webometrics世界大学网络排名中，"
+    "UMSS曾于2018年位列玻利维亚公立大学第一（全球第2879位），2021年列为全国第二，是玻利维亚大学体系（CEUB协调）的核心成员，生源遍及全国及阿根廷、巴西、智利、秘鲁等邻国。"
+)
+
+data["industries"] = ["higher_education", "research_development"]
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。作为玻利维亚公立大学，UMSS不参与APEC框架下的经贸合作及大学合作机制，"
+    "其国际学术合作主要面向拉丁美洲邻国（阿根廷、巴西、智利、秘鲁等），并通过孔子学院等平台开展与中国的教育文化交流。"
+)
+
+data["profile"] = {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Marca_Vertical_Universidad_Mayor_de_San_Sim%C3%B3n_Cochabamba_Bolivia.png",
+    "local_path": None
+}
+
+data["collection_meta"] = {
+    "collection_date": "2026-10-24",
+    "phase": "phase3_enriched",
+    "data_sources": ["wikidata", "wikipedia", "official_website", "news_search", "social_media"],
+    "completeness_score": 0,
+    "notes": (
+        "Phase3 enrichment (2026-10-24). Rector Boris Marcelo Calancha Navia (gestión 2024-2028, elected 2024-11-22 with 53%, sworn in 2024-11-29) and "
+        "Vicerrector Greby Uriel Rioja Montaño verified via UMSS official website (rectorado/vicerrectorado pages) + es.wikipedia + Los Tiempos + Opinión. "
+        "Faculties list from es.wikipedia; social accounts (7 platforms incl. WhatsApp channel) from official site footer; Radio San Simón site verified "
+        "(radiosansimon.umss.edu.bo). key_people person_id and departments dept_id left null: no matching entries in _name_index.json (no fabricated IDs). "
+        "related_entities use index-matched IDs (BO-GOV-008, BO-ACAD-001, BO-ACAD-004); CEUB, Confucius Institute UMSS and TVU not in index hence org_id null. "
+        "apec_stance: Bolivia is not an APEC member. quotes list added for traceability."
+    ),
+    "quotes": [
+        {"title": "Boris Calancha es el nuevo Rector de la UMSS - Los Tiempos", "url": "https://www.lostiempos.com/actualidad/cochabamba/20241122/boris-calancha-es-nuevo-rector-umss"},
+        {"title": "Calancha y Rioja inician gestión en Rectorado y Vicerrectorado hasta 2028 - Opinión", "url": "https://www.opinion.com.bo/cochabamba/calancha-rioja-inician-gestion-rectorado-vicerrectorado-2028/20241129000021961445.html"},
+        {"title": "Rectorado | Universidad Mayor de San Simón (sitio oficial)", "url": "https://www.umss.edu.bo/rectorado/"},
+        {"title": "Universidad Mayor de San Simón - Wikipedia (es)", "url": "https://es.wikipedia.org/wiki/Universidad_Mayor_de_San_Sim%C3%B3n"},
+        {"title": "Elecciones Rumbo al XIV Congreso Nacional de Universidades – Cobija, Pando 2026 (UMSS)", "url": "https://www.umss.edu.bo/elecciones-rumbo-al-xiv-congreso-nacional-de-universidades-cobija-pando-2026/"},
+        {"title": "Convocatoria Abierta 2026 – Becas Google Career Launchpad (UMSS)", "url": "https://www.umss.edu.bo/convocatoria-abierta-2026-becas-google-career-launchpad/"}
+    ]
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written", PATH)
+print("core_business chars:", len(data["core_business"]))

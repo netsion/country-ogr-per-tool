@@ -1,0 +1,367 @@
+# -*- coding: utf-8 -*-
+"""Build person profile BO-PERSON-000056 (Iván Manolo Lima Magne)."""
+import json
+import os
+
+OUT = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000056.json"
+
+profile = {
+    "person_id": "BO-PERSON-000056",
+    "wikidata_qid": "Q101466811",
+    "name": "Iván Manolo Lima Magne",
+    "name_en": "Iván Manolo Lima Magne",
+    "name_zh": "伊万·马诺洛·利马·马涅",
+    "aliases": [
+        "Iván Lima",
+        "Iván Lima Magne",
+        "Ivan Lima Magne",
+        "Ivan Manolo Lima Magne",
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1974-03-21",
+    "birth_place": "拉巴斯 (La Paz)",
+    "political_party": None,
+    "current_positions": ["民族革新运动（Morena）竞选主管"],
+    "contacts": [],
+    "education": [
+        {
+            "institution": "玻利维亚天主教圣巴勃罗大学 (Universidad Católica Boliviana San Pablo)",
+            "degree": "bachelor",
+            "field": "法律 (Derecho)",
+            "start_date": None,
+            "end_date": "1997",
+        },
+        {
+            "institution": "玻利维亚司法官学院 (Instituto de la Judicatura de Bolivia)",
+            "degree": "master",
+            "field": "司法审判·职业法官 (Derecho Judicial)",
+            "start_date": None,
+            "end_date": "2002",
+        },
+        {
+            "institution": "南方大学 (Universidad Austral，布宜诺斯艾利斯)",
+            "degree": "other",
+            "field": "法理论与法律论证 (Teoría del Derecho y Argumentación Jurídica) 研究生文凭课程",
+            "start_date": None,
+            "end_date": None,
+        },
+    ],
+    "work_experience": [
+        {
+            "start_date": "1996",
+            "end_date": "1997",
+            "organization": "玻利维亚司法部 (Ministerio de Justicia)",
+            "org_id": "BO-GOV-009",
+            "position": "刑事法律秩序改革委员会研究员兼助理",
+            "description": "在布拉特曼（René Blattmann）任司法部长期间（1996-1997），以研究员和助理身份参与司法部刑事法律秩序改革委员会工作，该委员会的成果是刑法典（Código Penal）的通过与刑事诉讼法典草案的起草。",
+            "source": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+        },
+        {
+            "start_date": "1999",
+            "end_date": "2000",
+            "organization": "玻利维亚武装部队总司令部 (Comando en Jefe de las Fuerzas Armadas)",
+            "org_id": None,
+            "position": "法律顾问",
+            "description": "1999-2000年任武装部队总监察署与总司令部法律顾问，主导提交军事刑法改革方案，获埃杜阿尔多·阿瓦罗阿骑士级勋章（Condecoración Eduardo Abaroa en Grado de Caballero）及名誉少尉军衔（Subteniente h）；西班牙文维基百科称其获名誉「平民中尉」军衔。",
+            "source": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+        },
+        {
+            "start_date": "2003",
+            "end_date": "2004",
+            "organization": "玻利维亚司法部 (Ministerio de Justicia)",
+            "org_id": "BO-GOV-009",
+            "position": "国家刑事政策司司长（首任）",
+            "description": "2003年经MSD/USAID项目聘用，出任司法部司法副部长辖下国家刑事政策司首任司长；2022年10月众议员门多萨曾以其曾主持USAID项目为由要求其辞职。西班牙文维基百科称其曾任「刑事政策总司长」。",
+            "source": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+        },
+        {
+            "start_date": "2004",
+            "end_date": None,
+            "organization": "玻利维亚司法部 (Ministerio de Justicia)",
+            "org_id": "BO-GOV-009",
+            "position": "全国公设辩护署署长",
+            "description": "2004年起任全国公设辩护署署长，推动公设辩护制度的改革与建制化；西班牙文维基百科称其任「公设辩护与人权总司长」。",
+            "source": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "利马律师事务所 (Lima & Asociados)",
+            "org_id": None,
+            "position": "创始合伙人兼总监",
+            "description": "自行创办并以本姓氏命名的律师事务所（laesa.com.bo），专注于诉讼业务，曾被Chambers and Partners评为玻利维亚顶级诉讼律所之一，客户包括花旗银行玻利维亚分行、英国燃气（British Gas）、国营电信Entel等，并为玻利维亚主教会议提供无偿法律服务；本人为英国特许仲裁员学会（CIArb）会员。2023年8月莫拉莱斯指控其兄弟管理该所（未获本人证实）。",
+            "source": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+        },
+        {
+            "start_date": "1997",
+            "end_date": None,
+            "organization": "玻利维亚天主教圣巴勃罗大学 (Universidad Católica Boliviana San Pablo)",
+            "org_id": None,
+            "position": "法学讲师·教授（刑法一、刑法二、宪法）",
+            "description": "1997年起凭优秀成绩（1997年以优异成绩毕业）受聘执教刑法一、刑法二；2016年任圣巴勃罗校区宪法讲席教授，并在该校人权、民主与和平文化硕士项目中任研究生导师。",
+            "source": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "拉巴斯圣母大学 (Universidad Nuestra Señora de La Paz)",
+            "org_id": None,
+            "position": "法学讲师（刑法）",
+            "description": "在拉巴斯圣母大学法学院讲授刑法课程（起止年份未见公开记载）。",
+            "source": "https://es.wikipedia.org/wiki/Iv%C3%A1n_Lima",
+        },
+        {
+            "start_date": "2014-04-28",
+            "end_date": "2016-01-03",
+            "organization": "玻利维亚最高法院 (Tribunal Supremo de Justicia)",
+            "org_id": "BO-GOV-022",
+            "position": "大法官（清算刑事法庭庭长）",
+            "description": "2011年司法选举中获16.7万票当选最高法院替补大法官；2014年4月28日因阿拉维（William Alave）辞职而经选举法庭全体会议决递补就职，在总统莫拉莱斯主持下于政府宫宣誓，任清算刑事法庭（Sala Penal Liquidadora）大法官并作为资历最深者主持该庭。任内优先审理侵害生命权、杀人、贩毒与腐败案件，依职权以诉讼合理期限为由裁定消灭刑事责任以化解积案，统一判例，并对宪法法庭4名大法官提起责任审判程序。任内无任何投诉记录。2024年9月乌尔基迪亚·阿尔塞政府司法部长任内媒体（Los Tiempos）称其法官任期延至2019年（司法机构任期延长所致）。",
+            "source": "https://www.noticiasfides.com/nacional/politica/ivan-lima-magne-fue-posesionado-como-magistrado-suplente-del-tribunal-supremo-341895",
+        },
+        {
+            "start_date": "2020-11-09",
+            "end_date": "2024-09-26",
+            "organization": "玻利维亚司法与机构透明部 (Ministerio de Justicia y Transparencia Institucional)",
+            "org_id": "BO-GOV-009",
+            "position": "司法与机构透明部长",
+            "description": "2020年11月9日由总统路易斯·阿尔塞任命就任（接替阿尔瓦罗·科英布拉），为阿尔塞政府任期近四年（3年10个月17天）中唯一一位司法与机构透明部长。任内主管司法改革（2021年提出司法改革方案未获国会通过）、ABC国道受贿案、森卡塔案等重大案件司法事务，与「埃沃派」冲突不断。2024年9月26日在MAS党内斗争（莫拉莱斯发出24小时改组内阁最后通牒）背景下提交不可撤销辞呈并经X（推特）公布，总统当晚接受并由塞萨尔·西莱斯接任。政府副部长托里科称辞职系因健康与个人原因；本人否认与莫拉莱斯最后通牒有关，称系为给政府让出治理空间、且与国会关系「非常糟糕」；反对派一度猜测其将经最高法令出任国家总检察长（其本人公开否认）。官方公报见司法部官网2020年11月9日新闻。",
+            "source": "https://www.infobae.com/america/america-latina/2024/09/27/renuncio-ivan-lima-el-ministro-de-justicia-considerado-una-autoridad-clave-del-gobierno-de-luis-arce-en-bolivia/",
+        },
+        {
+            "start_date": "2025-05-26",
+            "end_date": None,
+            "organization": "民族革新运动 (Movimiento de Renovación Nacional, Morena)",
+            "org_id": None,
+            "position": "竞选主管（兼顾问）",
+            "description": "2025年5月26日公开亮相出任埃娃·科帕（Eva Copa）总统竞选阵营的竞选主管（jefe de campaña）并任该党顾问，负责党内组织架构、党内民主与政治委员会；明确表示不谋求国会议员候选人资格。2026年9月仍以Morena竞选主管身份活动（排除莫拉莱斯加入该党名单）。",
+            "source": "https://correodelsur.com/politica/20250526/ivan-lima-reaparece-como-jefe-de-campana-de-morena-y-arremete-contra-la-vieja-politica-de-evo.html",
+        },
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000484",
+            "person_name": "路易斯·阿尔塞 (Luis Arce)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统（2020-2025）。2020年11月9日任命其为司法与机构透明部长，2024年9月26日接受其辞呈并在西莱斯就职仪式上称其离任「是暂时的（transitoriamente）」「你始终是团队的一员」。两人在卸任后仍时有互动（阿尔塞上台后司法与机构透明部于2025年11月20日被撤销）。",
+        },
+        {
+            "person_id": "BO-PERSON-000483",
+            "person_name": "埃沃·莫拉莱斯 (Evo Morales)",
+            "relationship_type": "political_rival",
+            "description": "MAS前总统、「埃沃派」领袖。自2023年起多次要求利马辞职，2023年8月指控利马通过其律所代理一家向国家索赔3500万美元的私企（并称其兄弟管理该律所），双方隔空交锋不断；2024年9月莫拉莱斯发出24小时改组内阁最后通牒后数日利马辞职。2025年3月利马在YouTube节目「Entre Caníbales」中承认「我们本不该与埃沃对抗，那是我们的错误」。2025年5月加入Morena后又抨击莫拉莱斯代表「旧政治」，2026年9月主持将莫拉莱斯排除在Morena名单之外。",
+        },
+        {
+            "person_id": None,
+            "person_name": "塞萨尔·西莱斯·巴桑 (César Siles Bazán)",
+            "relationship_type": "other",
+            "description": "继任者：2024年9月26日晚接替其出任司法与机构透明部长（此前为国家检察官）。2025年西莱斯因「联盟案」（caso Consorcio）录音丑闻辞职并被预防性拘押后，利马于2025年6月26日经公告传唤、6月27日以证人身份在该案中作证（该案调查涉嫌经由司法裁判更换最高法院大法官科阿基拉的计划），但拒绝透露细节。",
+        },
+        {
+            "person_id": None,
+            "person_name": "埃娃·科帕 (Eva Copa)",
+            "relationship_type": "political_ally",
+            "description": "埃尔阿尔托市长、民族革新运动（Morena）2025年总统候选人。利马自2025年5月26日起出任其竞选主管，主导「革新、包容与和解」竞选主线；2025年7月曾表示若左翼达成团结、Morena可能退出选举（最终未退出，科帕参选但得票甚微）；2026年9月仍为其阵营核心操盘手。",
+        },
+        {
+            "person_id": None,
+            "person_name": "费利佩·桑迪 (Felipe Sandy)",
+            "relationship_type": "other",
+            "description": "ABC国道受贿案（Bs1860万索贿丑闻）受保护证人。据「埃沃派」众议员埃克托·阿塞（Héctor Arce）举报：2023年3月21日时任司法部长利马公开披露了桑迪的受保护证人身份，桑迪其后在美国死亡；2025年10月9日阿塞提交刑事举报，检方以「不当交易罪」与「泄露职业秘密罪」受理并对利马立案调查（举报方并要求对利马采取边境预警等措施、重启ABC案调查）。",
+        },
+    ],
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "ivanlimamagne",
+            "url": "https://x.com/ivanlimamagne",
+            "source": "X平台检索确认（账号简介：Abogado, ex Ministro de Justicia y Transparencia Institucional, ex Magistrado Tribunal Supremo de Justicia. Bolivia. Born March 21. Joined October 2020）；其辞职信亦经该账号公布（ANF、infobae报道）",
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "Ivan Lima Magne",
+            "url": "https://bo.linkedin.com/in/ivan-lima-magne-91539a29b",
+            "source": "搜索引擎收录的LinkedIn玻利维亚站档案快照（职业Abogado、地点La Paz，姓名全称与本人一致、稀姓Magne吻合）；档案较简略（仅3个联系人、职业经历标注Profesional Independiente），LinkedIn页面需登录无法直接核验，归属判断基于姓名+职业+地点三要素一致",
+        },
+    ],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2024-09-26",
+            "topic": "MAS内斗与内阁反腐",
+            "stance_content": "告别演说中为阿尔塞内阁辩护，称「我的17位部长同僚中，没有一个是腐败分子、毒贩、瘾君子或诸如此类」，并宣布将以律师身份「对伤害玻利维亚人民的人提起诉讼」；表示「不是告别，是后会有期」，同时明确否认将以总统法令方式出任国家总检察长。",
+            "source": "https://noticiasfides.com/nacional/politica/lima-se-va-del-gobierno-anunciando-procesos-contra-gente-que-le-ha-hecho-dano-al-pueblo",
+        },
+        {
+            "date": "2024-09-27",
+            "topic": "莫拉莱斯参选资格与燃油补贴公投",
+            "stance_content": "任内坚定捍卫政府对莫拉莱斯被取消2025年总统参选资格的立场；与阿尔塞共同推动就取消燃油补贴及重新界定总统连任规则举行全民公投（至其辞职时公投未有明确进展）。",
+            "source": "https://www.infobae.com/america/america-latina/2024/09/27/renuncio-ivan-lima-el-ministro-de-justicia-considerado-una-autoridad-clave-del-gobierno-de-luis-arce-en-bolivia/",
+        },
+        {
+            "date": "2025-01-20",
+            "topic": " bicentennial民族和解·大赦",
+            "stance_content": "在建国二百周年之际提议为谋求国家和解与和平，应研究对部分在押人员实行大赦或特赦，对象包括前总统珍妮娜·阿涅斯、圣克鲁斯省长卡马乔及波托西前公民领袖普马里。",
+            "source": "https://www.lostiempos.com/actualidad/pais/20250120/exministro-lima-plantea-dar-indulto-anez-pumari-camacho-buscar-paz-pais",
+        },
+        {
+            "date": "2025-03-14",
+            "topic": "MAS分裂的反思（mea culpa）",
+            "stance_content": "承认与政府部长德尔·卡斯蒂略一道「本不该与埃沃对抗」，称那是他们的错误，并称若两人早些辞职MAS的分裂本可避免、「一切恢复常态」。",
+            "source": "https://eju.tv/2025/03/el-exministro-ivan-lima-hace-un-mea-culpa-y-reconoce-que-con-su-renuncia-y-la-de-del-castillo-volvia-la-calma-al-mas/",
+        },
+        {
+            "date": "2025-05-26",
+            "topic": "「新政治」与司法改革主张",
+            "stance_content": "以Morena竞选主管身份抨击莫拉莱斯及「租借政党」的罗德里格斯代表「旧政治」，主张超越「非敌即友」的对抗逻辑、以「革新、包容与和解」为纲；重申其2021年司法改革方案（削除宪法法庭「超级权力」、改变大法官产生方式）当年「因为埃沃不愿意」而搁浅；声明不谋求国会议员席位。",
+            "source": "https://correodelsur.com/politica/20250526/ivan-lima-reaparece-como-jefe-de-campana-de-morena-y-arremete-contra-la-vieja-politica-de-evo.html",
+        },
+        {
+            "date": "2025-07-16",
+            "topic": "左翼团结与Morena退选可能",
+            "stance_content": "不排除若左翼无法实现团结，Morena（科帕阵营）将退出2025年大选；后又表示「埃沃主义」人士可加入Morena但莫拉莱斯本人不列入名单。",
+            "source": "https://brujuladigital.net/politica/2025/07/17/ivan-lima-no-descarta-que-morena-se-retire-de-las-elecciones-si-no-hay-unidad-en-la-izquierda-48727",
+        },
+        {
+            "date": "2025-02-27",
+            "topic": "对「恐怖主义罪」条款的批评",
+            "stance_content": "批评刑法中恐怖主义罪被滥用于卡马乔及「埃沃派」领导人等案件，称「国家公信力（la fe del Estado）已岌岌可危」。",
+            "source": "https://larazon.bo/tags/ivan-lima/",
+        },
+    ],
+    "major_achievements": [
+        {
+            "date": "1996",
+            "organization": "玻利维亚司法部 (Ministerio de Justicia)",
+            "achievement": "以研究员身份参与司法部刑事法律秩序改革委员会，委员会成果为1997年新刑法典的通过与刑事诉讼法典草案的拟定。",
+        },
+        {
+            "date": "1999",
+            "organization": "玻利维亚武装部队总司令部 (Comando en Jefe de las Fuerzas Armadas)",
+            "achievement": "任武装部队法律顾问期间主导军事刑法改革方案并获采纳，获埃杜阿尔多·阿瓦罗阿骑士级勋章及名誉少尉军衔。",
+        },
+        {
+            "date": "2003",
+            "organization": "玻利维亚司法部 (Ministerio de Justicia)",
+            "achievement": "出任司法部国家刑事政策司首任司长，次年主持全国公设辩护署的改革与建制化，被视为玻利维亚刑事政策与公设辩护制度的早期设计者之一。",
+        },
+        {
+            "date": "2014-04-28",
+            "organization": "玻利维亚最高法院 (Tribunal Supremo de Justicia)",
+            "achievement": "就任最高法院大法官并主持清算刑事法庭：依职权以「诉讼合理期限」裁定消灭刑事责任化解积案、统一刑事判例，并对宪法法庭4名大法官提起责任审判程序，任内零投诉。",
+        },
+        {
+            "date": "2020-11-09",
+            "organization": "玻利维亚司法与机构透明部 (Ministerio de Justicia y Transparencia Institucional)",
+            "achievement": "出任阿尔塞政府首任且为唯一一任司法与机构透明部长，任期3年10个月（2020-11-09至2024-09-26），主导16项法案提交国会（均遭搁置）及司法改革方案，为阿尔塞政府任职时间最长的内阁成员之一。",
+        },
+        {
+            "date": "2025-05-26",
+            "organization": "民族革新运动 (Movimiento de Renovación Nacional, Morena)",
+            "achievement": "卸任部长后复出政坛，出任Morena党竞选主管，主导埃娃·科帕2025年总统竞选的党内组织与「新政治」叙事。",
+        },
+    ],
+    "biography_summary": "伊万·马诺洛·利马·马涅（Iván Manolo Lima Magne），1974年3月21日生于玻利维亚拉巴斯，律师、法学教授与政治人物。1991年完成中学学业，1997年以满分（100/100）荣誉毕业于玻利维亚天主教圣巴勃罗大学法律系，后获司法官学院职业法官硕士（35/35满分，2002年）及阿根廷南方大学法理论与法律论证研究生文凭。1996-1997年在司法部刑事法律秩序改革委员会参与刑法典修订，1999-2000年任武装部队总司令部法律顾问（获阿瓦罗阿勋章），2003-2004年出任司法部首任国家刑事政策司司长及全国公设辩护署署长，并创办利马律师事务所，1997年起在多所大学执教刑法。2011年以16.7万票当选最高法院替补大法官，2014年4月28日递补就职并主持清算刑事法庭至2016年1月。2020年11月9日以非MAS党员身份被阿尔塞任命为司法与机构透明部长，为该政府任期近四年的唯一司法部长。2024年9月26日，在莫拉莱斯派系逼宫、MAS党内大分裂背景下以「健康与个人原因」提交不可撤销辞呈，本人称系为政府让渡治理空间。卸任后转入媒体评论与法律实务，2025年5月26日复出出任埃娃·科帕Morena阵营竞选主管至今。其卸任后司法争议缠身：2025年6月就「联盟案」以证人身份作证，2025年10月检方受理「泄露ABC案受保护证人身份」举报并立案调查。",
+    "profile": {
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ministro_de_Justicia_Ivan_Lima.jpg",
+        "local_path": None,
+    },
+    "birth_note": "出生日期1974年3月21日经多来源交叉确认：全国选举机构（OEP）2017年司法选举官方履历（21/3/1974）、英文与西班牙文维基百科、其X账号简介（Born March 21）。出生地拉巴斯见英、西文维基百科及OEP（La Paz/La Paz）。",
+    "position_note": "截至采集日（2026-10-25）无政府公职：司法与机构透明部长任期至2024-09-26（该部其后于2025年11月20日在帕斯政府中被撤销）；现职为民族革新运动（Morena）竞选主管（2025-05-26起，2026年9月仍在任）。",
+    "education_note": "UCB法律系1997年毕业（成绩100/100，honores，Los Tiempos与OEP交叉确认）；司法官学院「职业法官」硕士2002年获证（成绩35/35满分，Los Tiempos；OEP称其为该院第二届、2001年）；西班牙文维基百科载其1991年取得中学毕业（bachiller）但母校名称不详，故不设中学条目；阿根廷南方大学研究生文凭课程起止年份未见记载。",
+    "work_note": "2017年司法选举中其曾为最高法院大法官候选人（OEP官方候选人履历页）；2024年8月国家总检察长遴选中其出现在24名报名者之列（Urgentebo，时仍在部长任内），同年9月26日其公开否认将以总统法令出任总检察长。",
+    "family_note": "无可靠公开资料证实其配偶、子女或兄弟的姓名。2023年8月莫拉莱斯曾声称「其兄弟管理其律所」（ANF报道，无姓名、未经证实）；2024年10月有YouTube自媒体称其曾与一名17岁少女结婚，无任何主流媒体佐证，均不采信。故family_members按规则留空。",
+    "social_accounts_note": "2026-10-25对facebook、x/twitter、linkedin、instagram、tiktok、youtube六个平台进行检索扫描：X（twitter_x）检索到可核实归属其本人的账号@ivanlimamagne（简介与姓名、履历吻合，且其为辞职信公布渠道）；LinkedIn检索到姓名、职业（律师）、地点（拉巴斯）均吻合的个人档案（bo.linkedin.com/in/ivan-lima-magne-91539a29b，页面需登录无法直读，档案简略，归属判断基于三要素一致并已在source中注明核实限度）；facebook检索到的均为其任部长期间经司法部（MinJusticiaBol/TransparenciaBol）及媒体账号发布的内容，未发现本人公开账号；instagram、tiktok、youtube未发现本人账号（YouTube上大量访谈均为Radio Fides等媒体频道内容）。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "wikipedia",
+            "wikidata",
+            "government_registry",
+            "government_directory",
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media",
+        ],
+        "notes": "2026-10-25完成西/英/中多语种检索，全文精读10个独立来源：英文维基、西班牙文维基（含Wikidata Q101466811）、OEP官方候选人履历（出生日期、司法与公职履历、律所、教职）、ANF三篇（2014大法官就职、2024-09-26辞职告别演说、2025-10-15检方受理ABC证人身份举报）、infobae辞职报道、Los Tiempos两篇（2024-09-27生平特稿「Quién fue Iván Lima」及人物聚合页含2025-01-20特赦提议）、Correo del Sur Morena任命报道（2025-05-26）、eju.tv两篇（2024-09-27辞职综述、2025-03-14 mea culpa）、urgente.bo总检察长报名报道、La Razón人物标签页（web_reader，2025年2月-10月动向时间线）、fmbolivia（2026-09-05仍任Morena竞选主管）、X账号主页简介。关键事实（出生日期、学历、TSJ任期、部长任期2020-11-09至2024-09-26、Morena任命）均有≥2独立来源。重要核查结论：（1）任务背景所称「因涉嫌向承包商索贿的录音丑闻辞职」未获主流来源支持——政府方（副部长托里科）称系健康与个人原因，ANF当日报道辞职原因不明，Los Tiempos报道其自述为让出治理空间且与国会关系恶劣，背景是MAS内斗与莫拉莱斯最后通牒；与「录音」相关的2025年「联盟案」（caso Consorcio）主角为其继任者西莱斯（因相关录音辞职并被拘押），利马在该案中仅以证人身份被传唤作证；玻利维亚事实核查网站Bolivia Verifica并曾辟谣涉其辞职的虚假信息。故本画像按已证实事实记述辞职原因，索贿录音说在notes中存疑说明。（2）任务背景所称「此后曾竞选中视访谈栏目主持人」经多轮西语/英语检索未发现任何来源支持，无法核实，未写入任何字段。（3）党籍存在来源冲突：英文维基列MAS-IPSP、西班牙文维基列「独立人士」、Los Tiempos明确其「非MAS党员」，故political_party置null并在notes说明。（4）name_zh沿用既有译名「伊万·马诺洛·利马·马涅」（_name_index.json既有条目）。（5）家庭信息无可核实姓名，family_members留空。（6）未发现个人公开联系方式与更多社交账号。（7）社交账号共2条：X账号@ivanlimamagne（强归属证据）与LinkedIn档案（姓名/职业/地点三要素一致但页面需登录无法直读，归属证据较弱，已在source与social_accounts_note中如实注明核实限度）。",
+        "quotes": [
+            {
+                "title": "Iván Lima - Wikipedia (英文维基百科)",
+                "url": "https://en.wikipedia.org/wiki/Iv%C3%A1n_Lima",
+            },
+            {
+                "title": "Iván Lima - Wikipedia en español (西班牙文维基百科)",
+                "url": "https://es.wikipedia.org/wiki/Iv%C3%A1n_Lima",
+            },
+            {
+                "title": "Ivan Manolo Lima Magne | Órgano Electoral Plurinacional (2017司法选举官方候选人履历)",
+                "url": "https://web.oep.org.bo/elecciones-judiciales-2017/ivan-manolo-lima-magne/",
+            },
+            {
+                "title": "Iván Lima Magne fue posesionado como Magistrado suplente del Tribunal Supremo (ANF, 2014-04-28)",
+                "url": "https://www.noticiasfides.com/nacional/politica/ivan-lima-magne-fue-posesionado-como-magistrado-suplente-del-tribunal-supremo-341895",
+            },
+            {
+                "title": "Iván Lima Magne es posesionado como Ministro de Justicia y Transparencia Institucional (MJyTI官网, 2020-11-09)",
+                "url": "https://www.justicia.gob.bo/portal/noticia.php?new=oIGt",
+            },
+            {
+                "title": "Lima se va del gobierno anunciando procesos contra gente que le ha hecho daño al pueblo (ANF, 2024-09-26)",
+                "url": "https://noticiasfides.com/nacional/politica/lima-se-va-del-gobierno-anunciando-procesos-contra-gente-que-le-ha-hecho-dano-al-pueblo",
+            },
+            {
+                "title": "Renunció Iván Lima, el ministro de Justicia considerado una autoridad clave del gobierno de Luis Arce en Bolivia (Infobae, 2024-09-27)",
+                "url": "https://www.infobae.com/america/america-latina/2024/09/27/renuncio-ivan-lima-el-ministro-de-justicia-considerado-una-autoridad-clave-del-gobierno-de-luis-arce-en-bolivia/",
+            },
+            {
+                "title": "Quién fue Iván Lima, el exministro de Justicia de Luis Arce (Los Tiempos, 2024-09-27)",
+                "url": "https://www.lostiempos.com/actualidad/pais/20240927/quien-fue-ivan-lima-exministro-justicia-luis-arce",
+            },
+            {
+                "title": "Lima se fue para dar gobernabilidad a Arce; tenía una relación muy mala con el Legislativo (Los Tiempos, 2024-09-28)",
+                "url": "https://www.lostiempos.com/actualidad/pais/20240928/lima-se-fue-dar-gobernabilidad-arce-tenia-relacion-muy-mala-legislativo",
+            },
+            {
+                "title": "Exministro Lima plantea dar indulto a Añez, Pumari y Camacho para buscar la paz en el país (Los Tiempos, 2025-01-20)",
+                "url": "https://www.lostiempos.com/actualidad/pais/20250120/exministro-lima-plantea-dar-indulto-anez-pumari-camacho-buscar-paz-pais",
+            },
+            {
+                "title": "El exministro Iván Lima hace un mea culpa y reconoce que con su renuncia y la de Del Castillo volvía la calma al MAS (eju.tv, 2025-03-14)",
+                "url": "https://eju.tv/2025/03/el-exministro-ivan-lima-hace-un-mea-culpa-y-reconoce-que-con-su-renuncia-y-la-de-del-castillo-volvia-la-calma-al-mas/",
+            },
+            {
+                "title": "Iván Lima reaparece como jefe de campaña de Morena y arremete contra la vieja política de Evo (Correo del Sur, 2025-05-26)",
+                "url": "https://correodelsur.com/politica/20250526/ivan-lima-reaparece-como-jefe-de-campana-de-morena-y-arremete-contra-la-vieja-politica-de-evo.html",
+            },
+            {
+                "title": "Fiscalía admite denuncia contra Iván Lima por revelar identidad del testigo protegido en caso coimas en la ABC (ANF, 2025-10-15)",
+                "url": "https://www.noticiasfides.com/nacional/seguridad/fiscalia-admite-denuncia-contra-ivan-lima-por-revelar-identidad-del-testigo-protegido-en-caso-coimas-en-la-abc",
+            },
+            {
+                "title": "Iván Lima Archives - La Razón (人物标签页，2025年动向时间线)",
+                "url": "https://larazon.bo/tags/ivan-lima/",
+            },
+            {
+                "title": "Iván Lima cierra la puerta a Evo Morales en Morena (FmBolivia, 2026-09-05)",
+                "url": "https://fmbolivia.com.bo/nacional/ivan-lima-cierra-la-puerta-a-evo-morales-en-morena-no-va-en-nuestras-listas-pero-el-evismo-puede-sumarse-18152",
+            },
+            {
+                "title": "Ivan Lima Magne (@ivanlimamagne) / X",
+                "url": "https://x.com/ivanlimamagne",
+            },
+            {
+                "title": "Ivan Lima Magne - Abogado - LinkedIn (玻利维亚站个人档案，搜索引擎快照)",
+                "url": "https://bo.linkedin.com/in/ivan-lima-magne-91539a29b",
+            },
+        ],
+    },
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("written:", OUT)
+print("top-level keys:", list(profile.keys()))

@@ -1,0 +1,284 @@
+# -*- coding: utf-8 -*-
+"""Build person profile BO-PERSON-000156 (José Gabriel Espinoza) per person_profile_schema.json + person_collection_rules.md."""
+import json, os
+
+data = {
+    "person_id": "BO-PERSON-000156",
+    "wikidata_qid": "Q136754201",
+    "name": "José Gabriel Espinoza",
+    "name_en": "José Gabriel Espinoza",
+    "name_zh": "何塞·加夫列尔·埃斯皮诺萨",
+    "aliases": ["José Gabriel Espinoza Yáñez", "Gabriel Espinoza", "Jose Gabriel Espinoza Yanez"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1981-06-01",
+    "birth_place": "拉巴斯 (La Paz)",
+    "birth_date_note": "出生日期取自法语维基百科（1981年6月1日，拉巴斯）；Wikidata（Q136754201）记为1981年。La Razón 2025-11-09报道称其时年42岁，与1981年出生（时年44岁）存在出入，暂以1981-06-01为准。",
+    "current_positions": [],
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://economiabolivia.blogspot.com",
+            "source": "X个人主页简介（x.com/g_espinoza）"
+        }
+    ],
+    "education": [
+        {
+            "institution": "国立科尔多瓦大学 (Universidad Nacional de Córdoba)",
+            "degree": None,
+            "field": "机械工程",
+            "start_date": None,
+            "end_date": "2002"
+        },
+        {
+            "institution": "玻利维亚天主教大学「圣巴勃罗」 (Universidad Católica Boliviana San Pablo)",
+            "degree": "bachelor",
+            "field": "经济学",
+            "start_date": "2002",
+            "end_date": None
+        },
+        {
+            "institution": "玻利维亚天主教大学「圣巴勃罗」 (Universidad Católica Boliviana San Pablo)",
+            "degree": "master",
+            "field": "经济发展",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "education_note": "早年在阿根廷国立科尔多瓦大学攻读机械工程约四年未毕业，2002年返玻后进入玻利维亚天主教大学（UCB）改学经济学；后获该校经济发展硕士（Correo del Sur、Urgente.bo、AMCHAM多源印证）。其LinkedIn另显示安第斯西蒙·玻利瓦尔大学（UASB拉巴斯）经历，细节未获证实，未单列条目。",
+    "work_experience": [
+        {
+            "start_date": "2025-11-09",
+            "end_date": "2026-08-21",
+            "organization": "玻利维亚经济与公共财政部 (Ministerio de Economía y Finanzas Públicas)",
+            "org_id": "BO-GOV-005",
+            "position": "经济与公共财政部长"
+        },
+        {
+            "start_date": "2025-08",
+            "end_date": "2025-11",
+            "organization": "罗德里戈·帕斯竞选阵营 (Equipo económico de Rodrigo Paz)",
+            "org_id": None,
+            "position": "经济团队负责人之一"
+        },
+        {
+            "start_date": "2025",
+            "end_date": "2025-08-17",
+            "organization": "统一联盟 (Alianza Unidad)",
+            "org_id": "BO-PARTY-002",
+            "position": "经济团队负责人"
+        },
+        {
+            "start_date": "2020",
+            "end_date": None,
+            "organization": "玻利维亚中央银行 (Banco Central de Bolivia)",
+            "org_id": "BO-FIN-001",
+            "position": "董事会董事"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "全国商会 (Cámara Nacional de Comercio de Bolivia)",
+            "org_id": None,
+            "position": "经济学家"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚私营企业家联合会 (Confederación de Empresarios Privados de Bolivia)",
+            "org_id": "BO-NGO-002",
+            "position": "经济学家"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "千禧年基金会 (Fundación Milenio)",
+            "org_id": None,
+            "position": "研究员"
+        }
+    ],
+    "work_note": "技术官僚出身，无政党公职履历。任务简报所称「原国库与公共信贷副部长」未获任何独立来源证实——已核实来源（Correo del Sur、Urgente.bo、AMCHAM、法语维基）显示其任部长前的经历为：央行董事（2020）、全国商会与CEPB经济学家、千禧年基金会研究员及独立经济顾问（为玻、秘、阿企业工会提供咨询）；该副职经历与其继任者Christian Morales Burgos（2025-11至2026-08在任）一致，疑为混淆，故未写入work_experience。另据APG 2026年4月报道，阿尔塞政府曾就2020年4月10日央行相关决定起诉前经济部长帕拉达、央行行长阿蓬特等前官员，Espinoza Yáñez与Erwin Walter Morales Carrasco获判无罪。",
+    "position_note": "2025-11-09就任经济与公共财政部长（Paz政府首位经济部长，接替MAS政府末任部长马塞洛·蒙特内格罗），11月12日组建副部长班子。2026-08-18因未出席国会质询，多民族立法大会以91票赞成、34票反对、4票弃权通过问责动议（其改期申请被81:43否决），系Paz内阁首位被问责部长；政府以未达全体166席三分之二（111票）为由拒绝承认。08-21帕斯以政令免职并任命奥斯卡·胡斯蒂尼亚诺为临时部长；08-24埃斯皮诺萨撤回向宪法法院提起的保护令上诉；08-25克里斯蒂安·莫拉莱斯正式接任。",
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统。2025年11月9日任命其为经济与公共财政部长；2026年8月问责风波中先拒绝承认问责效力，08-21又以政令将其免职，离任时公开感谢其工作。"
+        },
+        {
+            "person_id": "BO-PERSON-000036",
+            "person_name": "克里斯蒂安·安德烈斯·莫拉莱斯·布尔戈斯 (Christian Andrés Morales Burgos)",
+            "relationship_type": "subordinate",
+            "description": "2025年11月12日被其任命为国库与公共信贷副部长；2026年8月25日接替其出任经济与公共财政部长。"
+        },
+        {
+            "person_id": "BO-PERSON-000481",
+            "person_name": "萨穆埃尔·多利亚·梅迪纳 (Samuel Doria Medina)",
+            "relationship_type": "political_ally",
+            "description": "2025年大选初轮期间任其「统一」联盟（Alianza Unidad）经济团队负责人；初轮落败后转而加入帕斯阵营，2026年8月帕斯政府与多利亚·梅迪纳阵营联盟破裂。"
+        },
+        {
+            "person_id": "BO-PERSON-000072",
+            "person_name": "奥斯卡·马里奥·胡斯蒂尼亚诺·平托 (Óscar Mario Justiniano Pinto)",
+            "relationship_type": "colleague",
+            "description": "2026年8月21日被任命为临时经济与公共财政部长，在其去职过程中短暂代掌经济部，直至8月25日正式部长就任。"
+        },
+        {
+            "person_id": "BO-PERSON-000002",
+            "person_name": "埃德曼·拉拉·蒙塔尼奥 (Edman Lara Montaño)",
+            "relationship_type": "political_rival",
+            "description": "玻利维亚副总统兼多民族立法大会主席。2026年就其以低于市场价申报购买奥迪Q4 e-tron电动车一事提起刑事控告（其归因于手续失误），并主持了2026年8月18日对其的问责表决。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "José Gabriel Espinoza Y.",
+            "url": "https://x.com/g_espinoza",
+            "source": "搜索引擎结果及Instagram简介互链确认"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "Jose Gabriel Espinoza Yañez",
+            "url": "https://www.facebook.com/jose.espinozayanez/",
+            "source": "搜索结果，页面头衔「Economista - Ministro de Economía y Finanzas Públicas de Bolivia」，约1万关注"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "Jose Gabriel Espinoza Yañez",
+            "url": "https://www.instagram.com/jg_espinoza/",
+            "source": "搜索结果，简介自述经济学家并互链X账号@g_espinoza，约1479关注"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "Jose Gabriel Espinoza Yañez",
+            "url": "https://bo.linkedin.com/in/jose-gabriel-espinoza-ya%C3%B1ez-b778ab25",
+            "source": "搜索结果，职务「Ministro de Economía y Finanzas」，约1.4万关注"
+        }
+    ],
+    "social_accounts_note": "六平台扫描（facebook/x/linkedin/instagram/tiktok/youtube）：X、Instagram、Facebook、LinkedIn确认为本人账号（Instagram简介互链X账号；Facebook与LinkedIn头衔与部长职务一致）；TikTok与YouTube未发现个人官方账号，仅有Explainer、El Deber等媒体账号发布的相关视频。",
+    "family_members": [
+        {
+            "person_id": None,
+            "name": "费尔南多·埃斯皮诺萨 (Fernando Espinoza)",
+            "relationship": "father",
+            "industry_or_organization": "法律行业（律师，原籍波托西）"
+        },
+        {
+            "person_id": None,
+            "name": "黛西·亚涅斯 (Daisy Yañez)",
+            "relationship": "mother",
+            "industry_or_organization": "私营企业（前企业家）"
+        }
+    ],
+    "family_note": "据法语维基百科：其父费尔南多·埃斯皮诺萨为原籍波托西的律师，在当事人家中约五岁时去世；其母黛西·亚涅斯曾为企业家。2024年5月一场访谈节目介绍称其育有三名子女（姓名未公开）。",
+    "spouse_note": "未检索到配偶的公开信息。",
+    "children_note": "据2024年5月访谈节目简介（YouTube视频yLdwMiNcAdI）自述，其育有三名子女并饲养三条狗；子女姓名未公开。",
+    "political_stances": [
+        {
+            "date": "2025-11-09",
+            "topic": "对MAS经济政策的评价",
+            "stance_content": "长期批评「争取社会主义运动」（MAS）经济政策，多次称路易斯·阿尔塞政府为「史上最差政府」，主张必须改变经济战略以避免经济进一步恶化。",
+            "source": "Correo del Sur 2025-11-09: https://correodelsur.com/politica/20251109/jose-gabriel-espinoza-el-nuevo-responsable-economico-del-pais.html"
+        },
+        {
+            "date": "2025-11-10",
+            "topic": "经济稳定与紧缩调整",
+            "stance_content": "就任之初为经济调整辩护，称「不是恶化，而是调整」（「No es deterioro, es el ajuste」），主张以技术型、现代化管理应对通胀与物资短缺。",
+            "source": "Instagram 2025-11-10: https://www.instagram.com/p/DQ43ubvgVu3/"
+        },
+        {
+            "date": "2026-02-03",
+            "topic": "锂资源国际合作审查",
+            "stance_content": "向俄罗斯卫星通讯社表示，政府将研究与俄罗斯（铀壹集团Uranium One Group）及中国香港CBC公司于2024年9月签署的锂工厂投资协议，以确保其符合所有规范和新法律规则。",
+            "source": "俄罗斯卫星通讯社（转引自百度百科词条，2026-02-03）: https://baike.baidu.com/item/%E4%BD%95%E5%A1%9E%C2%B7%E5%8A%A0%E5%A4%AB%E5%88%97%E5%B0%94%C2%B7%E5%9F%83%E6%96%AF%E7%9A%AE%E8%AF%BA%E8%90%A8/67072393"
+        },
+        {
+            "date": "2026-06-27",
+            "topic": "燃料价格政策",
+            "stance_content": "公开表示不会上调燃料价格，以稳定通胀预期。",
+            "source": "Instagram（El Deber转播）2026-06-27: https://www.instagram.com/p/DaGn4IbEpfW/"
+        },
+        {
+            "date": "2026-06-28",
+            "topic": "汇率与外汇管理",
+            "stance_content": "主张实行单一汇率并推进弹性汇率机制（cambio flexible）；称央行约有8亿美元可用外汇，市场风险已下降，央行将继续介入外汇市场。",
+            "source": "Instagram（El Deber专访）2026-06-28: https://www.instagram.com/reel/DaJoynRM0ou/"
+        },
+        {
+            "date": "2026-07-26",
+            "topic": "新《投资法》与《油气法》修改",
+            "stance_content": "表示政府正在制定的新《投资法》将通过完善法律保障机制、提高国有化和征收成本（补偿评估将纳入知识产权、技术、创新等无形资产）来增强投资者信心；同时修改《油气法》，为私人资本以多种合同模式参与油气勘探开发提供更清晰法律框架。",
+            "source": "中国商务部驻玻利维亚使馆经商处编译（转引玻《责任报》）2026-07-26: https://www.mofcom.gov.cn/zwjg/scdy/md/art/2026/art_696ceb9c4d284b7cbaeb58dac9a265c7.html"
+        },
+        {
+            "date": "2026-08-18",
+            "topic": "国会问责与宪法争议",
+            "stance_content": "以需赴圣克鲁斯和巴西出差为由申请改期质询被拒后未出席国会问责，遭91票问责后拒绝辞职，称问责程序违宪（宪法第158条应需全体166名议员的三分之二即111票），并向宪法法院提起保护令上诉；08-24庭审前撤回上诉并确认去职，称「我平静地离开」（「Me voy con tranquilidad」）。",
+            "source": "El Post 2026-08-19: https://elpost.com.bo/2026/08/19/censura-a-espinoza-la-interpretacion-por-los-dos-tercios-deja-su-destitucion-en-suspenso/；ANF 2026-08-18: https://www.noticiasfides.com/nacional/politica/con-91-votos-en-su-contra-ministro-de-economia-es-censurado-en-la-asamblea-legislativa-y-debera-ser-destituido"
+        },
+        {
+            "date": "2026-10-09",
+            "topic": "卸任后表态",
+            "stance_content": "公开澄清其去职并非因与总统帕斯存在分歧，重申与帕斯的紧密关系；此时帕斯政府与多利亚·梅迪纳阵营的分歧正不断加深。",
+            "source": "Asuntos Centrales（Facebook）2026-10-09: https://www.facebook.com/AsuntosCentrales/posts/1728304289295754"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2020",
+            "achievement": "在让尼娜·阿涅斯过渡政府时期出任玻利维亚中央银行董事",
+            "organization": "玻利维亚中央银行 (Banco Central de Bolivia)"
+        },
+        {
+            "date": "2025-08",
+            "achievement": "2025年大选初轮后获罗德里戈·帕斯延揽，成为其竞选阵营经济团队负责人之一（此前任多利亚·梅迪纳「统一」联盟经济纲领负责人），参与制定过渡与执政经济方案",
+            "organization": "罗德里戈·帕斯竞选阵营 (Equipo económico de Rodrigo Paz)"
+        },
+        {
+            "date": "2025-11-09",
+            "achievement": "被总统罗德里戈·帕斯任命为经济与公共财政部长并宣誓就职，成为帕斯政府经济政策主责阁员，接替MAS政府末任部长马塞洛·蒙特内格罗；任内主导应对恶性通胀及燃料、美元短缺危机",
+            "organization": "玻利维亚经济与公共财政部 (Ministerio de Economía y Finanzas Públicas)"
+        },
+        {
+            "date": "2026-07",
+            "achievement": "任内推动制定新《投资法》草案（提高国有化与征收补偿标准、将无形资产纳入补偿评估）并推动修改《油气法》，为私人资本参与油气勘探开发提供多种合同模式",
+            "organization": "玻利维亚经济与公共财政部 (Ministerio de Economía y Finanzas Públicas)"
+        }
+    ],
+    "status": "已卸任（2026年8月去职经济与公共财政部长）。卸任后以经济学家、评论人身份公开活动（2026年10月接受El Deber等媒体采访）；Urgente.bo曾援引消息称其或成为帕斯总统身边「两条臂膀」之一，另有报道称其可能留任新部长顾问，均未获官方确认。",
+    "biography_summary": "何塞·加夫列尔·埃斯皮诺萨（José Gabriel Espinoza Yáñez），玻利维亚经济学家，1981年6月1日生于拉巴斯。父亲费尔南多·埃斯皮诺萨为原籍波托西的律师，在其约五岁时去世；母亲黛西·亚涅斯曾为企业家。早年在阿根廷国立科尔多瓦大学攻读机械工程约四年，2002年返回玻利维亚，入玻利维亚天主教大学（UCB）改学经济学，并获该校经济发展硕士。长期从事经济分析与咨询，曾为玻利维亚、秘鲁、阿根廷的企业和工会提供顾问服务，历任全国商会经济学家、玻利维亚私营企业家联合会（CEPB）经济学家、千禧年基金会研究员，因常年在媒体发表批判性经济评论而知名。2020年任玻利维亚中央银行董事（阿涅斯过渡政府时期）。2025年大选初轮任多利亚·梅迪纳「统一」联盟经济纲领负责人，初轮后转投罗德里戈·帕斯阵营，成为其经济团队负责人之一。2025年11月9日就任经济与公共财政部长，主导应对恶性通胀与燃料、美元短缺危机，推动弹性汇率、燃料进口开放和新《投资法》制定。2026年8月18日因未出席国会质询被多民族立法大会以91票通过问责，8月21日被帕斯以政令免职，8月25日由其原国库与公共信贷副部长克里斯蒂安·莫拉莱斯接任。卸任后仍以经济学家身份公开活动。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["web_search", "news_search", "wikipedia", "wikidata", "social_media", "government_directory"],
+        "quotes": [
+            {"title": "José Gabriel Espinoza, el nuevo responsable económico del país — Correo del Sur (2025-11-09)", "url": "https://correodelsur.com/politica/20251109/jose-gabriel-espinoza-el-nuevo-responsable-economico-del-pais.html"},
+            {"title": "José Gabriel Espinoza — Wikipédia (français)", "url": "https://fr.wikipedia.org/wiki/Jos%C3%A9_Gabriel_Espinoza"},
+            {"title": "Wikidata Q136754201 — José Gabriel Espinoza", "url": "https://www.wikidata.org/wiki/Q136754201"},
+            {"title": "Con 91 votos en su contra, ministro de Economía es censurado en la Asamblea Legislativa — ANF (2026-08-18)", "url": "https://www.noticiasfides.com/nacional/politica/con-91-votos-en-su-contra-ministro-de-economia-es-censurado-en-la-asamblea-legislativa-y-debera-ser-destituido"},
+            {"title": "Censura a Espinoza: la interpretación por los dos tercios deja su destitución en suspenso — El Post (2026-08-19)", "url": "https://elpost.com.bo/2026/08/19/censura-a-espinoza-la-interpretacion-por-los-dos-tercios-deja-su-destitucion-en-suspenso/"},
+            {"title": "La Asamblea Legislativa censura al ministro de Economía José Gabriel Espinoza — El Deber (2026-08-18)", "url": "https://eldeber.com.bo/pais/asamblea-legislativa-censura-ministro-economia-jose-gabriel-espinoza_1787078462"},
+            {"title": "Viceministro del Tesoro asume como ministro de Economía y Finanzas Públicas en Bolivia — Swissinfo/EFE (2026-08-26)", "url": "https://www.swissinfo.ch/spa/viceministro-del-tesoro-asume-como-ministro-de-econom%C3%ADa-y-finanzas-p%C3%BAblicas-en-bolivia/91954389"},
+            {"title": "José Gabriel Espinoza es uno de los líderes del equipo económico de Rodrigo Paz — Urgente.bo (2025-08-27)", "url": "https://www.urgente.bo/noticia/jose-gabriel-espinoza-es-uno-de-los-lideres-del-equipo-economico-de-rodrigo-paz"},
+            {"title": "玻利维亚总统任命新内阁成员 — 新华网 (2025-11-10)", "url": "http://www.news.cn/20251110/1425bebf206c44b992edc4c115f9aaa9/c.html"},
+            {"title": "何塞·加夫列尔·埃斯皮诺萨 — 百度百科", "url": "https://baike.baidu.com/item/%E4%BD%95%E5%A1%9E%C2%B7%E5%8A%A0%E5%A4%AB%E5%88%97%E5%B0%94%C2%B7%E5%9F%83%E6%96%AF%E7%9A%AE%E8%AF%BA%E8%90%A8/67072393"},
+            {"title": "玻利维亚经济部长称新《投资法》将强化投资保护机制 — 中国商务部驻玻使馆经商处 (2026-07-26)", "url": "https://www.mofcom.gov.cn/zwjg/scdy/md/art/2026/art_696ceb9c4d284b7cbaeb58dac9a265c7.html"},
+            {"title": "驻玻利维亚大使王亮拜会玻新任经财部部长埃斯皮诺萨 — 中国—拉共体论坛 (2026-01-13)", "url": "https://www.chinacelacforum.org/zgtlmjlbgjgx/202601/t20260113_11811769.htm"},
+            {"title": "经济危机之际玻利维亚总统被迫撤换经济部长 — RFI中文 (2026-08-22)", "url": "https://www.rfi.fr/cn/国际报道/20260822-经济危机之际-玻利维亚总统被迫撤换经济部长"},
+            {"title": "Jose Gabriel Espinoza Yañez (@jose.espinozayanez) — Facebook", "url": "https://www.facebook.com/jose.espinozayanez/"},
+            {"title": "Jose Gabriel Espinoza Yañez (@jg_espinoza) — Instagram", "url": "https://www.instagram.com/jg_espinoza/"},
+            {"title": "José Gabriel Espinoza Y. (@g_espinoza) — X", "url": "https://x.com/g_espinoza"},
+            {"title": "Jose Gabriel Espinoza Yañez — LinkedIn", "url": "https://bo.linkedin.com/in/jose-gabriel-espinoza-ya%C3%B1ez-b778ab25"}
+        ],
+        "notes": "中文名核证：采用新华社、中国商务部、中国—拉共体论坛、百度百科通行译名「何塞·加夫列尔·埃斯皮诺萨」；项目_name_index.json中记录为「何塞·加布里埃尔·埃斯皮诺萨」（Gabriel音译变体），RFI中文用「艾斯皮诺萨」。出生日期存在出入：法语维基与Wikidata记1981年（维基给出6月1日），La Razón 2025-11-09称时年42岁，暂取1981-06-01并已注明。任务简报所称「原国库与公共信贷副部长」未获任何来源证实，疑与继任者Christian Morales Burgos混淆，未写入履历（详见work_note）。问责去职时间线（08-18问责→08-21政令免职→08-24撤回上诉→08-25新部长就任）经ANF、El Post、El Deber、法语维基、EFE/Swissinfo交叉验证。关键事实（教育、央行董事、2020刑案无罪、问责票数）均有≥2独立来源。全文精读独立来源7个（Correo del Sur、法语维基、ANF、El Post、Urgente.bo、商务部、百度百科），另引用20余条搜索摘要线索。"
+    }
+}
+
+out_path = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000156.json"
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("WROTE", out_path)
+print("bio_len", len(data["biography_summary"]))

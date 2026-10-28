@@ -1,0 +1,251 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000192 person profile JSON (Jorge Francisco Del Solar Bueno)."""
+import json
+import os
+
+profile = {
+    "person_id": "BO-PERSON-000192",
+    "wikidata_qid": None,
+    "name": "Jorge Francisco Del Solar Bueno",
+    "name_en": "Jorge Francisco Del Solar Bueno",
+    "name_zh": None,
+    "name_zh_note": "经西语、英语、中文多轮检索，未发现中文媒体既有标准译名，亦无Wikidata中文标签，按规则置 null。",
+    "aliases": ["Jorge Del Solar", "Jorge Del Solar Bueno", "Jorge Francisco del Solar"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "birth_date_note": "公开报道未提供可核证的出生日期，置空。",
+    "contacts": [],
+    "current_positions": ["玻利维亚国家电信公司总经理"],
+    "education": [
+        {
+            "institution": "圣安德鲁斯学校 (Colegio Saint Andrews)",
+            "degree": "high_school",
+            "field": None,
+            "start_date": None,
+            "end_date": None,
+            "location": "拉巴斯 (La Paz)",
+            "source": "本人LinkedIn资料（自述）",
+            "note": "仅见本人LinkedIn教育栏记载，未见其他独立来源交叉核证。"
+        }
+    ],
+    "work_experience": [
+        {
+            "organization": "玻利维亚国家电信公司 (Entel S.A.)",
+            "org_id": "BO-SOE-004",
+            "position": "总经理",
+            "start_date": "2025-11-13",
+            "end_date": None,
+            "is_current": "true",
+            "location": "拉巴斯 (La Paz)",
+            "description": "Entel董事会2025-11-13决议任命其为总经理并即日生效，接替同日被免职的罗克·罗伊·门德斯·索莱托；2025-11-18在帕斯政府官员见证下正式就职；2026-03-20董事会决议留任。任职信息已在玻利维亚金融监管局（ASFI）登记。",
+            "source": "ASFI登记卡；Entel官方新闻稿（2025-11-18）"
+        },
+        {
+            "organization": "玻利瓦尔俱乐部 (Club Bolívar)",
+            "org_id": None,
+            "position": "副主席兼体育总监",
+            "start_date": "2020",
+            "end_date": None,
+            "is_current": "true",
+            "location": "拉巴斯 (La Paz)",
+            "description": "2020年随马塞洛·克劳雷（Marcelo Claure）团队进入俱乐部领导层，不到两年内出任俱乐部副主席，并长期主管体育事务（引援与球队组建）。2025年11月就任Entel总经理后卸去体育总监职责，但保留副主席职务。",
+            "source": "Vision360（2025-11-19）；El Deber（2025-11-19）；Urgente.bo（2025-11-18）",
+            "note": "其LinkedIn将副主席兼体育总监起始时间记为2016年1月，与媒体报道的2020年入职领导层存在出入，此处采信两家独立媒体报道的2020年。"
+        },
+        {
+            "organization": "Leader Global Solutions LLC",
+            "org_id": None,
+            "position": "并购业务顾问",
+            "start_date": "2012-06",
+            "end_date": None,
+            "is_current": "true",
+            "description": "LinkedIn职位名称为「Brooker」，从事并购撮合/顾问类业务。",
+            "source": "本人LinkedIn资料（自述）"
+        },
+        {
+            "organization": "玻利瓦尔俱乐部管理公司 (BAISA SRL)",
+            "org_id": None,
+            "position": "高管",
+            "start_date": None,
+            "end_date": None,
+            "description": "媒体报道其曾在负责玻利瓦尔俱乐部商业化运营的BAISA SRL担任多个高管职务，具体职务与起止时间未公开。",
+            "source": "Urgente.bo（2025-11-18）"
+        },
+        {
+            "organization": "国际足联 (FIFA)",
+            "org_id": None,
+            "position": "审计与合规委员会成员",
+            "start_date": None,
+            "end_date": None,
+            "description": "LinkedIn列有FIFA审计与合规委员会（comisión de Auditoría y Conformidad）成员经历，起始显示为某年2月（年份未完整展示），任期无法核实。",
+            "source": "本人LinkedIn资料（自述）"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统。2025年11月帕斯政府执政后，Del Solar获其信任出任国营Entel总经理，就职致辞中感谢总统的信任。",
+            "source": "Entel官方新闻稿（2025-11-18）；noticiasfides.com"
+        },
+        {
+            "person_id": None,
+            "person_name": "马塞洛·克劳雷 (Marcelo Claure)",
+            "relationship_type": "associate",
+            "description": "玻利维亚企业家、Club Bolívar主席及俱乐部运营公司BAISA负责人。Del Solar 2020年随克劳雷团队进入俱乐部领导层，媒体称其为克劳雷身边的核心人物，与克劳雷关系密切。",
+            "source": "Vision360（2025-11-19）；Facebook/VictorHugoBolivia（2025-11-19）"
+        },
+        {
+            "person_id": None,
+            "person_name": "阿尔瓦罗·里卡多·巴桑·奥萨 (Álvaro Ricardo Bazán Auza)",
+            "relationship_type": "colleague",
+            "description": "Entel董事会主席，与Del Solar共同主持公司重要活动（如2025年11月新董事会亮相、2026年9月公开展示组织架构）。",
+            "source": "MOPSV/oopp.gob.bo（2025-11-25）；ticenbolivia.blogspot.com（2026-09）"
+        },
+        {
+            "person_id": None,
+            "person_name": "罗克·罗伊·门德斯·索莱托 (Roque Roy Méndez Soleto)",
+            "relationship_type": "other",
+            "description": "Del Solar的前任Entel总经理（马斯政府时期任命），2025-11-13被董事会免职，由Del Solar接任。2026年10月报道称政府对马斯时期前Entel管理层提起指控。",
+            "source": "ASFI登记卡；YouTube/Unitel（2026-10-06）"
+        },
+        {
+            "person_id": None,
+            "person_name": "克劳迪娅·马查多 (Claudia Machado)",
+            "relationship_type": "superior",
+            "description": "公共工程、服务与住房部部长（Entel主管部门），出席Del Solar就职仪式；2025-11-25主持公布Entel新董事会。",
+            "source": "Entel官方新闻稿（2025-11-18）；MOPSV新闻稿（2025-11-25）"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Jorge Del Solar Bueno",
+            "url": "https://bo.linkedin.com/in/jorge-del-solar-bueno-573465237",
+            "source": "LinkedIn（玻利维亚站），500+联系人，定位拉巴斯"
+        }
+    ],
+    "social_accounts_note": "六项平台扫描结果：Facebook/X(Twitter)/Instagram/TikTok/YouTube/Telegram均未发现本人认证或可确认的个人账号，相关内容均为Entel官方账号或媒体账号对其的报道；仅LinkedIn存在本人资料页。",
+    "family_members": [],
+    "family_note": "公开报道未披露其家庭成员信息，无可核实的配偶、子女等记录，留空。",
+    "political_stances": [
+        {
+            "date": "2025-11-18",
+            "topic": "Entel公司治理与机构强化",
+            "stance_content": "就任总经理时承诺推进公司现代化、透明化与机构强化，呼吁员工以「我们都是Entel」（Somos Todos Entel）的口号团队协作，并表示视此职位为重大挑战，以其35年私营部门经验为支撑。",
+            "source": "Entel官方新闻稿（2025-11-18）；Red Uno（2025-11-18）"
+        },
+        {
+            "date": "2026-02-09",
+            "topic": "星链合作与数字鸿沟",
+            "stance_content": "主导Entel与Starlink达成合作，称结盟的主要目标是缩小玻利维亚数字鸿沟、连接无服务人群，并表示「Entel非常高兴能成为Starlink的战略伙伴」；随后推动约300座星链天线落地El Alto等项目，并宣布为5000所学校提供联网的计划。",
+            "source": "MOPSV/oopp.gob.bo（2026-02-09）；El Deber；CTV La Paz（2026-07）"
+        },
+        {
+            "date": "2026-07-08",
+            "topic": "企业国际化与技术走廊",
+            "stance_content": "率团赴美国与Starlink、思科（Cisco）、Tektrade等企业会晤，称此行旨在推动Entel国际化、将玻利维亚打造成技术走廊，并与拉美主要苹果分销商洽谈；此行程遭反对派议员质疑并要求调查，其为行程必要性辩护。",
+            "source": "MOPSV/CTV La Paz（2026-07-08）；El Popular/X（2026-07-08）；brujuladigital"
+        },
+        {
+            "date": "2026-08-20",
+            "topic": "网络安全",
+            "stance_content": "公开强调Entel为国家网络安全作出贡献，介绍公司在网络安全服务与防护能力方面的投入，将网络安全列为企业对外服务与公共责任的一部分。",
+            "source": "brujuladigital（2026-08-20，Entel总经理谈网络安全贡献）"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2025-11-13",
+            "achievement": "获玻利维亚总统罗德里戈·帕斯政府信任，经Entel董事会决议出任国营电信公司总经理，成为帕斯政府国企人事布局的重要一环。",
+            "organization": "玻利维亚国家电信公司 (Entel S.A.)"
+        },
+        {
+            "date": "2026-02-09",
+            "achievement": "推动Entel与星链（Starlink）达成战略联盟，引入卫星互联网服务以扩大数字覆盖、缩小历史性数字鸿沟。",
+            "organization": "玻利维亚国家电信公司 (Entel S.A.)"
+        },
+        {
+            "date": "2025-12",
+            "achievement": "上任初期主导地区管理层重组，先后任命Saúl Francisco Paniagua为圣克鲁斯地区经理（2025-12-04）、José Eduardo Galindo Ávila为科恰班巴地区经理，作为公司现代化战略的一部分。",
+            "organization": "玻利维亚国家电信公司 (Entel S.A.)"
+        }
+    ],
+    "biography_summary": "豪尔赫·弗朗西斯科·德尔·索拉尔·布埃诺（Jorge Francisco Del Solar Bueno）是玻利维亚企业家，现任玻利维亚国家电信公司（Entel S.A.）总经理，国籍玻利维亚，常居拉巴斯。他在私营部门拥有约35年从业经历，曾在国内外企业担任管理及顾问职务，并在本人LinkedIn中列有国际足联（FIFA）审计与合规委员会成员经历。他长期活跃于玻利维亚著名足球俱乐部玻利瓦尔（Club Bolívar）的领导层：2020年随企业家马塞洛·克劳雷（Marcelo Claure）团队进入俱乐部，出任副主席兼体育总监，亦在负责俱乐部运营的BAISA SRL担任高管，媒体视其为克劳雷圈子的核心人物之一。2025年11月罗德里戈·帕斯（Rodrigo Paz）政府执政后，Entel董事会于11月13日决议任命其为总经理，接替同日被免职的罗克·门德斯（Roque Méndez），11月18日正式就职，2026年3月20日获董事会留任确认，任职信息已在玻利维亚金融监管局（ASFI）登记。上任后他提出「我们都是Entel」（Somos Todos Entel）口号，承诺推进公司现代化、透明化与机构强化；2026年2月主导Entel与星链（Starlink）合作以缩小数字鸿沟，同年7月赴美与Starlink、思科等企业洽谈国际化合作并宣布为5000所学校联网的计划，其间曾遭反对派议员要求调查其赴美行程。",
+    "profile": {
+        "source_url": "https://www.urgente.bo/sites/default/files/styles/thumb_600x465/public/1_12_677.jpg",
+        "local_path": "photos/BO-PERSON-000192.jpg"
+    },
+    "collection_meta": {
+        "phase": "phase4_person_profile",
+        "collection_date": "2026-10-25",
+        "data_sources": [
+            "official_website",
+            "government_registry",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "quotes": [
+            {
+                "title": "JORGE FRANCISCO DEL SOLAR BUENO ASUME LA GERENCIA GENERAL DE ENTEL S.A.（Entel官方新闻稿）",
+                "url": "https://institucional.entel.bo/inicio3.0/index.php/sala-de-prensa/item/6560-jorge-francisco-del-solar-bueno-asume-la-gerencia-general-de-entel-s-a"
+            },
+            {
+                "title": "ASFI Registro de Valores y Intermediarios — Tarjeta ENTEL S.A.（经理任命与登记）",
+                "url": "https://appweb.asfi.gob.bo/Reportes_asp/rmi/tarjeta.asp?c=51816&t=2"
+            },
+            {
+                "title": "Jorge Francisco Del Solar Bueno asume la Gerencia General de Entel SA（Vision360）",
+                "url": "https://www.vision360.bo/noticias/2025/11/18/35535-jorge-francisco-del-solar-bueno-asume-la-gerencia-general-de-entel-sa"
+            },
+            {
+                "title": "Jorge del Solar, uno de los hombres fuertes de Bolívar, deja la dirección deportiva（Vision360）",
+                "url": "https://www.vision360.bo/noticias/2025/11/19/35585-jorge-del-solar-uno-de-los-hombres-fuertes-de-bolivar-deja-la-direccion-deportiva"
+            },
+            {
+                "title": "Del Solar deja el cargo de director deportivo de Bolívar para incursionar en función pública（El Deber）",
+                "url": "https://eldeber.com.bo/futbol/solar-deja-cargo-director-deportivo-bolivar-incursionar-funcion-publica_1763591081"
+            },
+            {
+                "title": "Jorge Del Solar asume como nuevo gerente general de Entel（Urgente.bo）",
+                "url": "https://www.urgente.bo/noticia/jorge-del-solar-asume-como-nuevo-gerente-general-de-entel"
+            },
+            {
+                "title": "ENTEL y Starlink se alían para ampliar cobertura digital y cerrar brechas históricas（MOPSV/oopp.gob.bo）",
+                "url": "https://www.oopp.gob.bo/nota_prensa/entel-y-starlink-se-alian-para-ampliar-cobertura-digital-y-cerrar-brechas-historicas/"
+            },
+            {
+                "title": "Jorge Francisco Del Solar Bueno asume la Gerencia General de Entel S.A. y anuncia compromiso con el fortalecimiento institucional（Red Uno）",
+                "url": "https://www.reduno.com.bo/noticias/jorge-francisco-del-solar-bueno-asume-la-gerencia-general-de-entel-s-a-y-anuncia-compromiso-con-el-fortalecimiento-institucional-20251118192424"
+            },
+            {
+                "title": "Jorge Del Solar Bueno asume como gerente general de Entel（Unitel）",
+                "url": "https://unitel.bo/noticias/politica/jorge-del-solar-bueno-asume-como-gerente-general-de-entel-CL18203717"
+            },
+            {
+                "title": "Jorge Del Solar Bueno — LinkedIn（本人资料页）",
+                "url": "https://bo.linkedin.com/in/jorge-del-solar-bueno-573465237"
+            },
+            {
+                "title": "Otro alto exdirectivo de Bolívar se pone al frente de una empresa estatal estratégica（Agencia Fides）",
+                "url": "https://www.noticiasfides.com/economia/otro-alto-exdirectivo-de-bolivar-se-pone-al-frente-de-una-empresa-estatal-estrategica-primero-entel-y-ahora-boa"
+            },
+            {
+                "title": "Dos exdirectivos del Club Bolívar asumen la dirección de Entel y BoA（Instantáneas）",
+                "url": "https://www.instantaneas.org.bo/2026/04/15/gobierno/exdirectivos-club-bolivar-dirigen-entel-boa"
+            }
+        ],
+        "notes": "数据来源与核证说明：(1) 任命与任职信息以Entel官方新闻稿和ASFI登记卡为准（董事会2025-11-13决议任命、2026-03-20留任、前任Méndez免职），超过两家独立来源交叉确认；(2) Club Bolívar副主席兼体育总监履历由Vision360与El Deber独立报道确认，其LinkedIn记载的起始时间（2016-01）与媒体（2020年）不一致，已采信媒体并在字段note中说明；(3) 出生日期、出生地、家庭成员未见于可靠公开报道，全部留空不编造；(4) 大学学历未能核证，教育经历仅保留本人LinkedIn自述的圣安德鲁斯学校（中学）；(5) FIFA审计与合规委员会成员经历仅见LinkedIn自述且年份不完整，已如实标注；(6) name_zh经多语言检索无既有译名，置null；(7) 社交媒体六项扫描仅发现LinkedIn本人资料页；(8) 主要立场为履职表态（公司治理、Starlink合作、国际化），非党派政治立场。"
+    }
+}
+
+out_dir = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons"
+os.makedirs(out_dir, exist_ok=True)
+out_path = os.path.join(out_dir, "BO-PERSON-000192.json")
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("written:", out_path)

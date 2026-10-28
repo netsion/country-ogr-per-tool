@@ -1,0 +1,213 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000304 Rodrigo Agreda Gomez profile."""
+import json
+import os
+
+OUT = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000304.json"
+
+profile = {
+    "person_id": "BO-PERSON-000304",
+    "wikidata_qid": None,
+    "name": "Rodrigo Ágreda Gómez",
+    "name_en": "Rodrigo Agreda",
+    "name_zh": None,
+    "aliases": [
+        "Rodrigo Agreda Gomez",
+        "Rodrigo AGREDA",
+        "Rodrigo Ágreda Gómez"
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [
+        {
+            "type": "email",
+            "value": "rodrigo.agreda@minerasancristobal.com",
+            "source": "AmCham Bolivia会员名录2024（Calameo载MSC条目；经多次搜索引擎快照一致显示，未能直接读取名录全文，使用前建议二次确认）"
+        }
+    ],
+    "current_positions": [
+        "圣克里斯托瓦尔矿业公司公司事务总经理"
+    ],
+    "education": [],
+    "work_experience": [
+        {
+            "organization": "圣克里斯托瓦尔矿业公司 (Minera San Cristóbal S.A.)",
+            "org_id": "BO-CORP-007",
+            "position": "公司事务总经理（Gerente Corporativo）",
+            "start_date": None,
+            "end_date": None,
+            "is_current": "true",
+            "start_date_note": "2023-09-30批准的MSC内部组织架构图（Rev.10）已将其列为公司事务总经理，实际任职开始时间不详（不晚于2023年9月）",
+            "description": "常驻拉巴斯的公司事务高管。2023年组织架构图中隶属公司事务副总经理（Vicepresidente Corporativo）Javier Díez de Medina分管板块，与人力资源、环境、工业安全、社区关系等总经理并列；EITI协会成员名册中其英文职衔为Corporate Manager。作为公司面向政府、行业协会与国际机构的主要代表之一：2026年4月随高管团队会见玻利维亚矿业部长，2026年6月被登记为MSC在EITI的公司代表，2025年10月赴智利Mejillones港考察矿产品出口物流",
+            "source": "MSC内部组织架构图A04（2023-09-30, Rev.10, Scribd存档）；EITI协会成员名册（2026-06-30）；玻利维亚矿业与冶金部新闻稿（2026-04-30）"
+        },
+        {
+            "organization": "玻利维亚私营企业联合会 (Confederación de Empresarios Privados de Bolivia)",
+            "org_id": "BO-NGO-002",
+            "position": "执行主任（Director Ejecutivo）",
+            "start_date": None,
+            "end_date": "2023-10",
+            "start_date_note": "任职起始时间不详；2023年4月Unitel报道其在任，CEPB官网2016年12月即有其页面",
+            "end_date_note": "CEPB 2023年度报告（官方PDF）：执行主任任期至2023年10月（hasta octubre 2023），自2023年10月起由Viviana Caro Hinojosa接任",
+            "description": "玻利维亚私营企业最高联合会体的执行主任（专职机构负责人）。任内代表私营部门参与高层经济对话：2023年4月随CEPB主席巴贝里等出席与时任总统阿尔塞在人民大厦（Casa Grande del Pueblo）的会晤",
+            "source": "CEPB 2023年度报告（cepb.org.bo官方PDF）；Unitel新闻报道（2023-04）"
+        },
+        {
+            "organization": "玻利维亚国家海关署 (Aduana Nacional de Bolivia)",
+            "org_id": None,
+            "position": "临时署长（Presidente Interino）",
+            "start_date": "2004-09",
+            "end_date": None,
+            "start_date_note": "2004年9月4日由总统卡洛斯·梅萨（Carlos Mesa）任命，接替Renán Arce Muñoz",
+            "end_date_note": "任期结束时间不详（临时/interino任职）",
+            "description": "任内以整固边境管控与打击走私为紧急任务；据ANF/Fides报道，新班子到任头8天即查获约50万美元走私商品",
+            "source": "Noticias Fides（ANF）报道两则（2004-09-04、2004-09-18）"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000303",
+            "person_name": "哈维尔·迭斯·德·梅迪纳 (Javier Díez de Medina Romero)",
+            "relationship_type": "superior",
+            "description": "MSC公司事务副总经理（Vicepresidente Corporativo），2023-09-30组织架构图中为Ágreda所在公司事务板块的直接上级；2026年4月30日共同出席玻利维亚矿业部长与MSC高管团队的会晤"
+        },
+        {
+            "person_id": "BO-PERSON-000299",
+            "person_name": "昆顿·托德·亨尼希 (Quinton Todd Hennigh)",
+            "relationship_type": "colleague",
+            "description": "MSC董事会主席；2026年4月30日与Ágreda同席出席玻利维亚矿业部与MSC高管会晤（亨尼希以董事会主席身份、Ágreda以公司事务总经理身份）"
+        },
+        {
+            "person_id": "BO-PERSON-000301",
+            "person_name": "克里斯托弗·麦戈德里克 (Christopher McGoldrick)",
+            "relationship_type": "colleague",
+            "description": "MSC执行总裁（Presidente Ejecutivo，2026年5月起），与Ágreda同属MSC公司高管层"
+        },
+        {
+            "person_id": None,
+            "person_name": "何塞·大卫·阿塞尔斯 (Joseph David Assels)",
+            "relationship_type": "colleague",
+            "description": "2023年9月时任MSC执行总裁（2023-09-30组织架构图批准人），Ágreda同期任公司事务总经理"
+        },
+        {
+            "person_id": "BO-PERSON-000432",
+            "person_name": "路易斯·费尔南多·巴尔韦里·帕斯 (Luis Fernando Barbery Paz)",
+            "relationship_type": "superior",
+            "description": "玻利维亚私营企业联合会（CEPB）主席（2023年度报告时期）；Ágreda担任CEPB执行主任期间在其领导之下，2023年4月共同出席与总统阿尔塞的会晤"
+        },
+        {
+            "person_id": "BO-PERSON-000433",
+            "person_name": "维维安娜·卡罗·伊诺霍萨 (Viviana Caro Hinojosa)",
+            "relationship_type": "other",
+            "description": "CEPB执行主任职位接任者：CEPB 2023年度报告记载Ágreda任期至2023年10月，卡罗自2023年10月起接任该职"
+        }
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2024-12",
+            "achievement": "代表MSC出席『Industrias con Impacto 2024』颁奖礼并领取两项大奖（Negocios con Inversión Verde绿色投资商业类；Innovación y Tecnología y Género/Inclusión创新技术与性别/包容类），MSC以沼气利用、SAG磨机钢球声控、女性非传统岗位平等机会三个项目参评获奖",
+            "organization": "圣克里斯托瓦尔矿业公司 (Minera San Cristóbal S.A.)"
+        },
+        {
+            "date": "2004-09",
+            "achievement": "获总统卡洛斯·梅萨任命为玻利维亚国家海关署临时署长，主导边境管控与打击走私，到任头8天主持查获约50万美元走私商品",
+            "organization": "玻利维亚国家海关署 (Aduana Nacional de Bolivia)"
+        },
+        {
+            "date": "2026",
+            "achievement": "以公司事务总经理（Corporate Manager）身份被列入采掘业透明度倡议（EITI）协会成员名册，担任MSC在EITI的公司代表",
+            "organization": "采掘业透明度倡议 (EITI)"
+        }
+    ],
+    "biography_summary": "罗德里戈·阿格雷达·戈麦斯（Rodrigo Ágreda Gómez）是玻利维亚资深企业管理与公共事务人士，现任圣克里斯托瓦尔矿业公司（Minera San Cristóbal S.A.，MSC）公司事务总经理（Gerente Corporativo），至迟自2023年9月起在任至今。MSC为玻利维亚主要银锌铅精矿生产商（矿区位于波托西省诺尔·利佩斯），2023年起隶属加拿大San Cristóbal Mining Inc.；阿格雷达常驻拉巴斯，是公司面向政府、行业协会与国际机构的主要代表之一：2026年4月随董事会主席亨尼希等高管在拉巴斯会见玻利维亚矿业部长，讨论PDAC 2026后的矿业投资议程；2026年6月被列入采掘业透明度倡议（EITI）协会成员名册担任MSC公司代表；2025年10月赴智利Mejillones港首次考察矿产品出口物流；2024年12月代表MSC领取『Industrias con Impacto』两项大奖。此前他长期担任玻利维亚私营企业联合会（CEPB）执行主任，任期至2023年10月，由维维安娜·卡罗接替；任内曾代表私营部门出席与时任总统阿尔塞的高层会晤（2023年4月）。更早的2004年9月，他被总统卡洛斯·梅萨任命为玻利维亚国家海关署临时署长，主导打击走私。其职业轨迹横跨公职、行业协会与大型矿业企业，是玻利维亚工商界与政府关系领域的知名人物。",
+    "profile": {
+        "source_url": "https://www.cepb.org.bo/wp-content/uploads/2016/12/RODRIGO-AGREDA.png",
+        "local_path": "photos/BO-PERSON-000304.png"
+    },
+    "public_activities": [
+        "2023-04：以CEPB执行主任身份参加私营部门与时任总统路易斯·阿尔塞在拉巴斯人民大厦（Casa Grande del Pueblo）的会晤（Unitel报道）",
+        "2024-12：代表MSC出席『Industrias con Impacto 2024』颁奖礼并领奖（InfoRSE报道）",
+        "2025-10：以MSC公司事务总经理身份首次访问智利Mejillones港，考察矿产品出口物流并会晤港方管理层（Puerto Mejillones官方领英帖文，2025-10-14）",
+        "2026-04-30：随MSC高管团队（董事会主席亨尼希、副总裁特雷巴尔、公司事务副总经理迭斯·德·梅迪纳等）在拉巴斯会见矿业与冶金部长卡尔德龙·德拉·巴尔卡，讨论PDAC 2026后的矿业投资议程（矿业部新闻稿）"
+    ],
+    "nationality_note": "未找到明确记载其国籍的公开声明，判定为玻利维亚（BO）：其全部公开职业生涯均在玻利维亚（2004年国家海关署临时署长、CEPB执行主任至2023年10月、MSC公司事务总经理至今），且以玻利维亚常见双姓全名（Ágreda Gómez）见载于玻利维亚官方文件与媒体",
+    "position_note": "「Gerente Corporativo」为MSC特有高管职衔，EITI名册对应英文为Corporate Manager；据2023-09-30 MSC组织架构图（Rev.10），该职位于公司事务副总经理（Vicepresidente Corporativo，时为Javier Díez de Medina）之下，与人力资源、环境、工业安全、社区关系等总经理并列，同属公司事务板块；其公开活动均为公司对外事务（政府关系、行业协会、出口物流、企业社会责任领奖）。AmCham 2024名录并以MSC主要行政负责人/法定代表身份列名（名录全文未能直接读取，此点经搜索快照核对）",
+    "work_note": "职业轨迹（均有直接来源）：2004年9月获卡洛斯·梅萨总统任命为玻利维亚国家海关署临时署长（Fides/ANF两则报道）；后长期任玻利维亚私营企业联合会（CEPB）执行主任，至2023年10月卸任（CEPB 2023年度官方报告；2023年4月Unitel报道其在任）；至迟2023年9月起任MSC公司事务总经理并延续至今（MSC 2023-09-30组织架构图、2025-10领英帖文、2026-04矿业部新闻稿、2026-06-30 EITI名册四点相互印证）",
+    "identity_note": "同一性判断说明：CEPB执行主任「Rodrigo Ágreda Gómez」（CEPB官方年度报告+Unitel）与MSC公司事务总经理「Rodrigo Agreda Gomez」（MSC内部组织架构图）全名（含父姓Ágreda与母姓Gómez）完全一致，且时间紧密衔接（CEPB任期至2023年10月，MSC组织架构图2023-09-30已列任）；2004年国家海关署临时署长亦为同名「Rodrigo Agreda Gómez」。三段经历基于全名一致与时间线连贯判定为同一人，未见单一来源明确串联合述，置信度高但特此说明。另注意区分同名异人：Carlos Alberto Agreda Lema（玻利维亚ATT局长，BO-PERSON-000158）、Oscar Abel Ágreda Nogales（UNIFRANZ大学校长）、Rodrigo Agreda Chavez等",
+    "name_zh_note": "未检索到玻利维亚华文媒体或中文权威来源对其的既有译名，name_zh置null；传记摘要中采用音译「罗德里戈·阿格雷达·戈麦斯」仅为行文方便",
+    "social_accounts_note": "社交媒体6项扫描（LinkedIn/Facebook/Instagram/X/TikTok/YouTube）均未发现可确认归属本人的账号：LinkedIn仅有第三方帖文提及（Puerto Mejillones官方号、Patricia Dalence Rojas转发）；Facebook/Instagram存在同名账号（@agreda.rodrigo、@rodrigo_agreda等）但为私密且无法确认身份，故不予收录",
+    "profile_note": "照片取自CEPB官网Comité Ejecutivo栏rodrigo-agreda页面（2016年上传，150x150），依据其CEPB执行主任身份归属本人物；该页为旧版CMS页面，仅作参考",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "news_search",
+            "web_search",
+            "social_media",
+            "annual_report",
+            "other"
+        ],
+        "notes": "核心事实均经≥2独立来源或官方一手文件确认：①现任MSC公司事务总经理——MSC内部组织架构图（2023-09-30）+矿业部新闻稿（2026-04-30）+EITI名册（2026-06-30）+Puerto Mejillones领英帖（2025-10）；②前CEPB执行主任至2023年10月——CEPB 2023年度官方报告+Unitel（2023-04）；③2004年国家海关署临时署长——Fides/ANF两则报道。存疑与限制：出生日期/出生地/学历/家庭信息均未见于公开来源，置空；国籍为职业轨迹推断（见nationality_note）；三段职业的同一性判断依据全名一致+时间衔接（见identity_note）；email来自AmCham名录但未能直读全文（见contacts.source）；MSC官网Equipo Ejecutivo页仅列董事会成员，不含Ágreda，故官网直接佐证缺失；CEPB官网comite-ejecutivo/rodrigo-agreda为2016年旧版CMS页面（无职衔文字），仅作辅证。completeness_score说明：本人物为企业管理层而非政治人物，出生日期/地点、学历、家庭成员、政治立场、个人社交账号等公开信息经多轮多语种检索（西语/英语，含6项社交媒体扫描）客观上不存在或不可确认，相应计分项无法填充，得分为公开可得信息下的实际上限",
+        "quotes": [
+            {
+                "title": "Encuentro con Minera San Cristóbal refuerza la agenda de inversión minera tras el PDAC 2026 — Ministerio de Minería y Metalurgia (2026-04-30)",
+                "url": "https://www.mineria.gob.bo/index.php/nota_prensa/encuentro-con-minera-san-cristobal-refuerza-la-agenda-de-inversion-minera-tras-el-pdac-2026"
+            },
+            {
+                "title": "Minera San Cristóbal promueve una minería responsable y con principios... — InfoRSE (2024-12-16)",
+                "url": "https://www.inforse.com.bo/2024/12/16/minera-san-cristobal-promueve-una-mineria-responsable-y-con-principios-enfocada-en-la-responsabilidad-social-ambiental-y-economica"
+            },
+            {
+                "title": "EITI Association – Members' Registry as of 30 June 2026 (eiti.org官方PDF)",
+                "url": "https://eiti.org/sites/default/files/EITI%20members%20registry%20as%20of%2030_June_2026_2.pdf"
+            },
+            {
+                "title": "Organigrama Minera San Cristóbal A04 - Vicepresidencia Corporativa（Rev.10, 2023-09-30, Scribd存档内部文件）",
+                "url": "https://es.scribd.com/document/811204552/A04-Vicepresidencia-Corporativa"
+            },
+            {
+                "title": "Memoria 2023 CEPB（玻利维亚私营企业联合会2023年度报告官方PDF：Director Ejecutivo Rodrigo Ágreda Gómez hasta octubre 2023）",
+                "url": "https://www.cepb.org.bo/wp-content/uploads/2024/03/MEMORIA-2023-CEPB22.pdf"
+            },
+            {
+                "title": "Arce y empresarios privados hablan de un trabajo coordinado tras reunión en la Casa Grande del Pueblo — Unitel (2023-04)",
+                "url": "https://noticias.unitel.bo/economia/arce-y-empresarios-privados-hablan-de-un-trabajo-coordinado-tras-reunion-en-la-casa-grande-del-pueblo-JF7153803"
+            },
+            {
+                "title": "Nuevo interino de ANB resguardará fronteras y luchará al contrabando — Noticias Fides/ANF (2004-09-04)",
+                "url": "https://www.noticiasfides.com/economia/nuevo-interino-de-anb-resguardara-fronteras-y-luchara-al-contrabando-140697"
+            },
+            {
+                "title": "Aduana pide al Gobierno y a los empresarios ayuda contra el delito — Noticias Fides/ANF (2004-09-18)",
+                "url": "https://www.noticiasfides.com/economia/aduana-pide-al-gobierno-y-a-los-empresarios-ayuda-contra-el-delito-147517"
+            },
+            {
+                "title": "Puerto Mejillones LinkedIn帖文：MSC公司事务总经理Rodrigo Agreda首次到访 (2025-10-14)",
+                "url": "https://es.linkedin.com/posts/puerto-de-mejillones_puertomejillones-visita-relaciones-activity-7383963897143169024-kkXq"
+            },
+            {
+                "title": "Patricia Dalence Rojas LinkedIn帖文：Rodrigo Agreda代表MSC领取Industrias con Impacto奖",
+                "url": "https://es.linkedin.com/posts/patricia-dalence-rojas_minera-san-crist%C3%B3bal-sa-industrias-con-activity-7283076213458235392-TfSO"
+            },
+            {
+                "title": "rodrigo-agreda — CEPB Comité Ejecutivo（2016年旧版页面，辅证）",
+                "url": "https://www.cepb.org.bo/comite-ejecutivo/rodrigo-agreda"
+            },
+            {
+                "title": "Directorio Amcham 2024 — Calameo（MSC条目：Rodrigo Ágreda Gómez）",
+                "url": "https://www.calameo.com/books/0049938305a5f9fe30a79"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("written:", OUT)
+print("bytes:", os.path.getsize(OUT))

@@ -1,0 +1,361 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-ACAD-007 (Universidad Autónoma Juan Misael Saracho) profile."""
+import json
+
+path = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-ACAD-007.json"
+
+data = {
+    "org_id": "BO-ACAD-007",
+    "basic_info": {
+        "name_original": "Universidad Autónoma Juan Misael Saracho",
+        "name_zh": "胡安·米萨埃尔·萨拉乔自治大学",
+        "name_en": "Juan Misael Saracho University",
+        "aliases": [
+            "UAJMS",
+            "Universidad Juan Misael Saracho",
+            "Juan Misael Saracho University"
+        ],
+        "org_type": "ACAD",
+        "org_subtype": "university",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1946-10-20",
+        "website": "https://www.uajms.edu.bo",
+        "wikidata_qid": "Q30294055"
+    },
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "UAJMS",
+            "url": "https://x.com/uajms",
+            "source": "official_website (twitter:site metadata) + x.com"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "UAJMS - Universidad Autónoma Juan Misael Saracho",
+            "url": "https://www.facebook.com/UAJMS/",
+            "source": "facebook.com (官方页面，约6.4万关注)"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "uajms",
+            "url": "https://www.instagram.com/uajms/",
+            "source": "instagram.com"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "UAJMS - Universidad Autónoma Juan Misael Saracho",
+            "url": "https://www.youtube.com/@uajms",
+            "source": "youtube.com"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "TVU Televisión Universitaria (TVU Noticias)",
+            "url": "https://www.uajms.edu.bo/tvu",
+            "description": "大学电视台（Televisión Universitaria）及其新闻栏目TVU Noticias的官方页面。",
+            "source": "official_website"
+        },
+        {
+            "name": "Radio 92.5 FM (radio925)",
+            "url": "https://www.uajms.edu.bo/radio925",
+            "description": "大学官方广播电台（官网标识radio925）页面，为学校文化传播机构之一。",
+            "source": "official_website"
+        },
+        {
+            "name": "Boletín Astro-Información",
+            "url": "https://www.uajms.edu.bo/astroinformacion/",
+            "description": "由大学天文机构（BAA-UDA）编发的月度天文简报专栏。",
+            "source": "official_website"
+        },
+        {
+            "name": "Tariquia App",
+            "url": "https://www.uajms.edu.bo",
+            "description": "学校官方移动应用《Tariquia》，官网首页提供下载入口。",
+            "source": "official_website"
+        },
+        {
+            "name": "SICAM",
+            "url": "https://www.uajms.edu.bo/sicam",
+            "description": "官网导航中的SICAM在线系统入口（面向学校师生的学术管理系统）。",
+            "source": "official_website"
+        },
+        {
+            "name": "UAbierta",
+            "url": "https://www.uajms.edu.bo/uabierta",
+            "description": "UAJMS《开放大学》（UAbierta）在线平台入口。",
+            "source": "official_website"
+        },
+        {
+            "name": "Posgrado UAJMS",
+            "url": "https://posgrado.uajms.edu.bo",
+            "description": "研究生院（Posgrado）官方网站。",
+            "source": "official_website"
+        },
+        {
+            "name": "DICyt",
+            "url": "https://www.uajms.edu.bo/dicyt",
+            "description": "科学与技术研究方向（Dirección de Investigación Científica y Tecnológica）页面。",
+            "source": "official_website"
+        },
+        {
+            "name": "CEANID",
+            "url": "https://ceanid.uajms.edu.bo",
+            "description": "官网导航中的CEANID平台（大学下属支持中心）网站。",
+            "source": "official_website"
+        },
+        {
+            "name": "PECAP",
+            "url": "https://pecap.uajms.edu.bo",
+            "description": "官网导航中的PECAP项目平台网站。",
+            "source": "official_website"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "何塞·路易斯·纳尔瓦埃斯 (José Luis Narváez)",
+            "title": "Rector interino",
+            "title_description": "代理校长",
+            "description": "2026年8月4日就任UAJMS代理校长，任期至下届大学选举产生新校长时止；就任时承诺保障透明选举、维护大学自治，并表示当前治理的核心任务之一是推动校长选举进程。其代理校长身份经La Voz de Tarija（2026-08-04）与El País玻利维亚版（2026-10-15）双重报道确认。"
+        },
+        {
+            "person_id": None,
+            "name": "爱德华多·科尔特斯 (Eduardo Cortéz)",
+            "title": "Rector 2022-2026 (renunció)",
+            "title_description": "前任校长（已辞职）",
+            "description": "2022年8月4日经第二轮投票当选并就任校长（任期2022-2026），与副校长海梅·孔多里搭档。2026年5月21日向大学社区告别并宣布辞职，以参加新一届校长选举（repostulación）。任职期间主要应对学校财政危机。"
+        },
+        {
+            "person_id": None,
+            "name": "海梅·孔多里 (Jaime Condori)",
+            "title": "Vicerrector / Rector interino (2026)",
+            "title_description": "副校长（2022-2026），2026年6-8月代理校长",
+            "description": "2022年8月4日就任副校长（任期2022-2026）。2026年6月17日校长科尔特斯辞职后以临时校长身份接掌学校，承诺延续基础设施项目与行政事务；任职期间通报学校预算缺口并处理校长选举推迟事宜，直至2026年8月初何塞·路易斯·纳尔瓦埃斯接任代理校长。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "Facultad de Ciencias y Tecnología",
+            "dept_id": None,
+            "head": None,
+            "description": "科技学部（塔里哈校区），培养工程与技术领域专业人才（含土木、化工、工业、信息、食品工程及建筑等专业方向）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Económicas y Financieras",
+            "dept_id": None,
+            "head": None,
+            "description": "经济与金融学部（塔里哈校区），培养经济、金融与商业领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Jurídicas y Políticas",
+            "dept_id": None,
+            "head": None,
+            "description": "法律与政治学部（塔里哈校区），培养法律与政治领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Humanidades",
+            "dept_id": None,
+            "head": None,
+            "description": "人文学部（塔里哈校区），培养教育、人文社科领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Odontología",
+            "dept_id": None,
+            "head": None,
+            "description": "牙科学部（塔里哈校区），培养口腔医学专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Agrícolas y Forestales",
+            "dept_id": None,
+            "head": None,
+            "description": "农学与林学学部（塔里哈校区），培养农业与林业领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Medicina",
+            "dept_id": None,
+            "head": None,
+            "description": "医学部（塔里哈校区），培养临床医学专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias de la Enfermería",
+            "dept_id": None,
+            "head": None,
+            "description": "护理学部（塔里哈校区），培养护理领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Químico Farmacéuticas y Bioquímicas",
+            "dept_id": None,
+            "head": None,
+            "description": "化学制药与生化学部（塔里哈校区），培养药学与生物化学领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Empresariales",
+            "dept_id": None,
+            "head": None,
+            "description": "商业科学学部（亚库伊巴Yacuiba校区），培养商业与管理领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ingeniería, Recursos Naturales y Tecnología",
+            "dept_id": None,
+            "head": None,
+            "description": "工程、自然资源与技术学部（亚库伊巴Yacuiba校区），培养工程与自然资源领域专业人才。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Integradas de Bermejo",
+            "dept_id": None,
+            "head": None,
+            "description": "综合科学学部（贝尔梅霍Bermejo校区），为该地区提供高等教育。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Facultad de Ciencias Integradas de Villa Montes",
+            "dept_id": None,
+            "head": None,
+            "description": "综合科学学部（比利亚蒙特斯Villa Montes校区），为该地区提供高等教育。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-05-21",
+            "title": "校长爱德华多·科尔特斯辞职并宣布竞选连任",
+            "description": "UAJMS校长Eduardo Cortéz向大学社区告别，宣布辞去校长职务，以便参加新一届大学校长选举（其2022-2026任期尚未结束）。",
+            "impact": "校长职位空缺，学校治理进入代理接任状态，并触发新一轮校长选举进程。",
+            "source": "La Voz de Tarija (2026-05-21): https://lavozdetarija.com/2026/05/21/eduardo-cortez-deja-la-uajms-de-tarija-y-anuncia-su-repostulacion-al-rectorado/"
+        },
+        {
+            "date": "2026-06-17",
+            "title": "副校长海梅·孔多里接任临时校长",
+            "description": "科尔特斯辞职后，副校长Jaime Condori接任临时校长，承诺延续在建基础设施项目与行政事务，直至举行大学选举。",
+            "impact": "学校由副校长临时主政，保障了管理连续性，但治理合法性依赖新选举结果。",
+            "source": "El País Bolivia (2026-06-17): https://elpais.bo/tarija/20260617_tras-la-renuncia-de-cortez-condori-toma-las-riendas-de-la-uajms-hasta-las-elecciones.html"
+        },
+        {
+            "date": "2026-07-01",
+            "title": "UAJMS财政吃紧：需追加约1300万玻利维亚诺预算",
+            "description": "临时校长Jaime Condori通报，学校面临财政困难，现有预算约仅能保障至2026年11月，完成2026学年收尾工作需追加约1300万玻利维亚诺（Bs）资金。",
+            "impact": "学校运营与学年收尾存在资金风险，反映玻利维亚公立大学普遍面临的财政压力。",
+            "source": "La Voz de Tarija (2026-07-01): https://lavozdetarija.com/2026/07/01/uajms-requiere-bs-13-millones-adicionales-para-garantizar-el-cierre-de-la-gestion-2026-informa-el-rector-jaime-condori/"
+        },
+        {
+            "date": "2026-08-04",
+            "title": "何塞·路易斯·纳尔瓦埃斯就任代理校长",
+            "description": "原定2026年7月17日举行的校长、副校长及学部部长选举因6月全国进入例外状态（estado de excepción）等原因陷入停滞并被临时叫停后，José Luis Narváez于8月4日就任代理校长，任期至新校长选出时止；他承诺保障透明选举、维护大学自治。",
+            "impact": "学校领导层再度更替，治理持续处于过渡状态；新选举日期悬而未决。",
+            "source": "La Voz de Tarija (2026-08-04): https://lavozdetarija.com/2026/08/04/jose-luis-narvaez-asume-como-rector-interino-de-la-uajms-de-tarija-y-convoca-a-garantizar-elecciones-transparentes/"
+        },
+        {
+            "date": "2026-10-15",
+            "title": "校务委员会将确定新选举日期，学生联合会要求推迟至2027年",
+            "description": "UAJMS校务委员会（Consejo Universitario）定于10月16日开会确定新选举日期；地方学生联合会（FUL，主席Carlos Burgos）通过决议要求将校长选举推迟至2027年上半年，理由包括临近学年结束、要求修改选举条例、暂停2026年选举开支并将资金转用于食堂奖学金（becas comedor）、防范教师施压学生投票；校长候选人Carlos Salinas对推迟表示担忧。",
+            "impact": "新校长选举时间仍不确定，可能推迟至2027年上半年，学校治理正常化进程延后。",
+            "source": "El País Bolivia (2026-10-15): https://elpais.bo/tarija/20261015_consejo-de-la-uajms-fijara-fecha-de-elecciones-a-rector.html ; La Voz de Tarija (2026-10-15): https://lavozdetarija.com/2026/10/15/ful-de-la-uajms-de-tarija-pide-elecciones-a-rector-en-2027-para-evitar-presiones-sobre-estudiantes/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-008",
+            "org_name": "Ministry of Education (Ministerio de Educación, 玻利维亚教育部)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚国家教育主管部门。",
+            "relationship_type": "regulator"
+        },
+        {
+            "org_id": "BO-ACAD-001",
+            "org_name": "Universidad Mayor de San Andrés (圣安德烈斯大学, UMSA)",
+            "org_type": "ACAD",
+            "org_description": "位于拉巴斯的玻利维亚主要公立自治大学。",
+            "relationship_type": "sibling"
+        },
+        {
+            "org_id": "BO-GOV-003",
+            "org_name": "Ministry of Government (Ministerio de Gobierno, 玻利维亚政府部)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚内政主管部委。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "Unión de Universidades de América Latina y el Caribe (UDUAL, 拉丁美洲和加勒比大学联盟)",
+            "org_type": "ACAD",
+            "org_description": "拉丁美洲和加勒比地区大学联盟（国际高校协会），UAJMS为其成员。",
+            "relationship_type": "member_of"
+        },
+        {
+            "org_id": None,
+            "org_name": "Casa Dorada / Casa de la Cultura de Tarija (金色之家·塔里哈文化中心)",
+            "org_type": "ACAD",
+            "org_description": "塔里哈国家纪念建筑，作为塔里哈文化之家运营，隶属UAJMS；其董事会由省长、市长和UAJMS校长组成，并主办《四月节》（Festival Abril en Tarija）等文化活动。",
+            "relationship_type": "subsidiary"
+        }
+    ],
+    "core_business": "胡安·米萨埃尔·萨拉乔自治大学（UAJMS）是玻利维亚塔里哈省最主要的公立自治大学，以玻利维亚记者、政治家胡安·米萨埃尔·萨拉乔命名，创立于1946年，校训为《La Universidad piloto en la educación de Bolivia》（玻利维亚教育试点大学）及拉丁文格言《Sapientia et justitia inmortales sunt》（知识与正义不朽）。学校依据玻利维亚宪法确立的大学自治原则办学，办学资格受玻利维亚教育部认可。截至2026年，学校在塔里哈、亚库伊巴（Yacuiba）、比利亚蒙特斯（Villa Montes）、贝尔梅霍（Bermejo）和恩特雷里奥斯（Entre Ríos）五个校区设有13个学部，学科覆盖工程与技术、经济与金融、法律与政治、人文、农学与林学、医学、护理、化学制药与生化、牙科、商业科学、自然资源工程等领域，并提供研究生（Posgrado）教育及各类培训项目；2021年Webometrics世界大学排名中位列玻利维亚第10位。学校通过科学与技术研究方向（DICyt）、CEANID、PECAP等平台开展科研与学术支持，同时运营大学电视台（TVU Noticias）、大学广播电台（92.5 FM）、天文馆及月度天文简报《Astro-Información》，并主管塔里哈文化中心《金色之家》（Casa Dorada）等文化机构；拥有官方移动应用《Tariquia》及SICAM、UAbierta等在线学术平台。学校是拉丁美洲和加勒比大学联盟（UDUAL）成员，并通过大学广播、电视、出版等渠道长期服务塔里哈地区的社会文化生活。",
+    "industries": [
+        "higher_education"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。",
+    "profile": "UAJMS成立于1946年，是玻利维亚塔里哈省最主要的公立自治大学，2026年时在5个校区设有13个学部，为当地高等教育、科研与文化事业的核心机构，2021年Webometrics排名居玻利维亚第10位。2022-2026任期校长爱德华多·科尔特斯于2026年5月辞职以竞选连任，学校治理先后由副校长海梅·孔多里（2026年6月17日起）和代理校长何塞·路易斯·纳尔瓦埃斯（2026年8月4日起）接掌；原定2026年7月17日举行的新一届校长选举因6月全国例外状态等原因推迟，截至2026年10月中旬校务委员会仍在确定新选举日期，学生联合会（FUL）要求推迟至2027年上半年。学校同时面临财政压力：2026年7月校方通报需追加约1300万玻利维亚诺预算方能完成当年学年。该校为拉丁美洲和加勒比大学联盟（UDUAL）成员，办学资格受玻利维亚教育部认可。",
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "es.wikipedia.org",
+            "www.uajms.edu.bo",
+            "lavozdetarija.com",
+            "elpais.bo",
+            "eju.tv",
+            "todonoticiastarija.com.bo",
+            "x.com",
+            "facebook.com",
+            "instagram.com",
+            "youtube.com",
+            "unirank.org"
+        ],
+        "quotes": [
+            {
+                "title": "Universidad Autónoma Juan Misael Saracho - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Universidad_Aut%C3%B3noma_Juan_Misael_Saracho"
+            },
+            {
+                "title": "Inicio 2026 - UAJMS » Universidad Autónoma Juan Misael Saracho (官方网站)",
+                "url": "https://www.uajms.edu.bo"
+            },
+            {
+                "title": "José Luis Narváez asume como rector interino de la UAJMS de Tarija y convoca a garantizar elecciones transparentes - La Voz de Tarija (2026-08-04)",
+                "url": "https://lavozdetarija.com/2026/08/04/jose-luis-narvaez-asume-como-rector-interino-de-la-uajms-de-tarija-y-convoca-a-garantizar-elecciones-transparentes/"
+            },
+            {
+                "title": "Consejo de la UAJMS fijará fecha de elecciones a rector - El País Bolivia (2026-10-15)",
+                "url": "https://elpais.bo/tarija/20261015_consejo-de-la-uajms-fijara-fecha-de-elecciones-a-rector.html"
+            },
+            {
+                "title": "Tras la renuncia de Cortez, Condori toma las riendas de la UAJMS hasta las elecciones - El País Bolivia (2026-06-17)",
+                "url": "https://elpais.bo/tarija/20260617_tras-la-renuncia-de-cortez-condori-toma-las-riendas-de-la-uajms-hasta-las-elecciones.html"
+            },
+            {
+                "title": "UAJMS requiere Bs 13 millones adicionales para garantizar el cierre de la gestión 2026 - La Voz de Tarija (2026-07-01)",
+                "url": "https://lavozdetarija.com/2026/07/01/uajms-requiere-bs-13-millones-adicionales-para-garantizar-el-cierre-de-la-gestion-2026-informa-el-rector-jaime-condori/"
+            }
+        ],
+        "completeness_score": 13,
+        "notes": "Phase3 enrichment via Wikipedia (ES), official site (uajms.edu.bo) and 2026 local press (La Voz de Tarija, El País Bolivia). Current leadership (2026): rector interino José Luis Narváez since 2026-08-04, after resignations/transitions of rector Eduardo Cortéz (2026-05) and vicerrector Jaime Condori (acting 2026-06). Wikipedia infobox rector 'Freedy Gonzalo Gandarillas Martinez' judged outdated and not used. 13 faculties across 5 campuses per official site (2026)."
+    }
+}
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written", path)

@@ -1,0 +1,267 @@
+# -*- coding: utf-8 -*-
+"""Write person profile BO-PERSON-000500 (Juan Pablo Velasco Dalence)."""
+import json
+import os
+
+OUT = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000500.json"
+
+profile = {
+    "person_id": "BO-PERSON-000500",
+    "wikidata_qid": "Q136479325",
+    "name": "Juan Pablo Velasco Dalence",
+    "name_en": "Juan Pablo Velasco",
+    "name_zh": "胡安·巴勃罗·贝拉斯科",
+    "aliases": ["JP Velasco", "Juan Pablo Velasco Dalence"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1987-04-09",
+    "birth_place": "圣克鲁斯-德拉谢拉 (Santa Cruz de la Sierra)",
+    "contacts": [],
+    "current_positions": ["圣克鲁斯省省长"],
+    "education": [
+        {
+            "institution": "贝尔格拉诺大学 (Universidad de Belgrano)",
+            "degree": "bachelor",
+            "field": "工商管理 (Administración de Empresas)",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": "2015",
+            "end_date": "2018",
+            "organization": "Netcomidas (Netcomidas)",
+            "org_id": None,
+            "position": "联合创始人（玻利维亚首个外卖配送平台）"
+        },
+        {
+            "start_date": "2022",
+            "end_date": "2025",
+            "organization": "Yango Bolivia (Yango Bolivia)",
+            "org_id": None,
+            "position": "国家经理（Country Manager）"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "MOBI Latam (MOBI Latam)",
+            "org_id": None,
+            "position": "创始人（清洁能源与城市微出行初创企业）"
+        },
+        {
+            "start_date": "2026-05-04",
+            "end_date": None,
+            "organization": "圣克鲁斯省政府 (Gobernación de Santa Cruz)",
+            "org_id": None,
+            "position": "省长"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000018",
+            "person_name": "豪尔赫·基罗加 (Jorge Quiroga)",
+            "relationship_type": "political_ally",
+            "description": "前总统。2025年大选Libre联盟总统候选人，贝拉斯科为其副总统竞选搭档，两人组合进入次轮后败于帕斯组合。"
+        },
+        {
+            "person_id": "BO-PERSON-000002",
+            "person_name": "埃德曼·拉拉 (Edman Lara Montaño)",
+            "relationship_type": "political_rival",
+            "description": "2025年大选PDC副总统候选人、次轮对手。曾在副总统辩论中指控贝拉斯科从法西尔银行（Banco Fassil）舞弊案中获利（称其收取364,850玻利维亚诺支票）并宣布刑事控告；贝拉斯科否认。"
+        },
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯 (Rodrigo Paz)",
+            "relationship_type": "political_rival",
+            "description": "2025年大选次轮对手、现任玻利维亚总统。贝拉斯科当选省长后表态支持帕斯中央政府，同时强调捍卫圣克鲁斯省自治权益。"
+        },
+        {
+            "person_id": None,
+            "person_name": "奥托·里特 (Otto Ritter)",
+            "relationship_type": "political_rival",
+            "description": "2026年圣克鲁斯省长选举次轮对手，获约43%选票败于贝拉斯科。"
+        },
+        {
+            "person_id": None,
+            "person_name": "葆拉·阿吉雷 (Paola Aguirre)",
+            "relationship_type": "colleague",
+            "description": "律师、前省议会议员，2026年作为贝拉斯科竞选搭档当选并就任圣克鲁斯省副省长。"
+        },
+        {
+            "person_id": "BO-PERSON-000491",
+            "person_name": "路易斯·费尔南多·卡马乔 (Luis Fernando Camacho)",
+            "relationship_type": "political_rival",
+            "description": "时任圣克鲁斯省长，2026年地方选举中与总统帕斯结盟寻求连任，位列第三；贝拉斯科胜选后接替其省长职位。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "JP Velasco",
+            "url": "https://www.facebook.com/JPVelascoBo/",
+            "source": "官方页面，约13.2万粉丝，简介「Gobernador de Santa Cruz」"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "jp_velasco2",
+            "url": "https://www.instagram.com/jp_velasco2/",
+            "source": "官方账号，约3.71万粉丝，简介列有 peso.latam、yango_bolivia、presto.latam、mobi.lat、netcomidas、pedidosya"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "jpvelasco29",
+            "url": "https://www.tiktok.com/@jpvelasco29",
+            "source": "官方账号，约28.9万粉丝、380万点赞，简介「Gobernador de Santa Cruz」"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "JP Velasco",
+            "url": "https://bo.linkedin.com/in/juanvelasco2",
+            "source": "本人账号，约1.2万关注者，现任单位显示为圣克鲁斯省政府，教育背景显示贝尔格拉诺大学"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "Jpvel",
+            "url": "https://x.com/Jpvel",
+            "source": "2025年竞选期间在玻利维亚最高选举法院登记的官方X账号；核查机构Bolivia Verifica与Chequea Bolivia证实其归属，并指该账号2010-2012年发布涉西部居民歧视性言论；其团队随后否认发帖并称将调查账号被删一事，贝拉斯科称相关帖子系伪造"
+        }
+    ],
+    "family_members": [
+        {
+            "person_id": None,
+            "name": "帕特里夏·帕拉达·多伊奇 (Patricia Parada Deutsch)",
+            "relationship": "spouse",
+            "industry_or_organization": None
+        },
+        {
+            "person_id": None,
+            "name": "阿尔瓦罗·贝拉斯科 (Álvaro Velasco)",
+            "relationship": "father",
+            "industry_or_organization": "玻利维亚法西尔银行 (Banco Fassil)"
+        }
+    ],
+    "political_stances": [
+        {
+            "date": "2025-09-17",
+            "topic": "法西尔银行（Banco Fassil）舞弊案指控",
+            "stance_content": "公开否认个人与法西尔银行有任何关联，称家族持股不足1.5%、本人从未在该行任职或被传唤作证，其个人信贷均在其他银行；表示「我不能为我没有做过的事情负责」，并挑战所有竞选对手接受境内外100%资产扫描。",
+            "source": "https://erbol.com.bo/nacional/jp-responde-las-acusaciones-por-el-banco-fassil-%E2%80%98yo-no-puedo-hacerme-cargo-por-algo-que-no"
+        },
+        {
+            "date": "2025-05",
+            "topic": "国家数字化与青年参政",
+            "stance_content": "作为副总统候选人主打「国家数字化」议程，主张以技术和效率革新公共部门，称其角色是吸引年轻人加入国家项目、「让在政府工作重新变得有吸引力（sexy）」。",
+            "source": "https://www.vision360.bo/noticias/2025/09/01/30885-a-los-38-anos-velasco-busca-iniciar-carrera-politica-en-la-vicepresidencia"
+        },
+        {
+            "date": "2026-04",
+            "topic": "省财政自治与投资模式",
+            "stance_content": "竞选省长时提出深化圣克鲁斯财政与税收自治、推动新的省际财政契约（pacto fiscal）使省内生成并自管更多资源；主张以公私合营（PPP）模式吸引投资，并承诺医疗、公路与互联互通项目（含一条约50公里、设14站、宣称19分钟跑完的城铁计划）。",
+            "source": "https://www.infobae.com/america/america-latina/2026/04/20/juan-pablo-velasco-el-emprendedor-tecnologico-que-se-convertira-en-gobernador-de-santa-cruz/"
+        },
+        {
+            "date": "2026-04",
+            "topic": "与帕斯中央政府的关系",
+            "stance_content": "当选省长后表示支持罗德里戈·帕斯总统的中央政府，但同时强调将捍卫圣克鲁斯省的自治地位与省权益，在中央-地方关系上保持自主立场。",
+            "source": "https://www.instagram.com/p/DXhJuakl4r9/"
+        },
+        {
+            "date": "2026-09",
+            "topic": "中央-地方税收「五五分成」",
+            "stance_content": "在全国省长会议上要求中央政府与各省实行税收「50-50」分成，先赴科维哈（Cobija、Pando）后赴拉巴斯与中央政府及其他省长谈判，为圣克鲁斯争取更多财政资源。",
+            "source": "https://x.com/GobSantaCruz/status/2105304561925697818"
+        },
+        {
+            "date": "2026-10",
+            "topic": "治安与监狱政策",
+            "stance_content": "宣布推动筹建参照萨尔瓦多模式的高度安全监狱，并率团出访欧洲（马德里等地）寻求融资，与欧洲企业洽谈投资合作。",
+            "source": "https://www.instagram.com/p/De2sq1Olc9_/"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2015",
+            "achievement": "联合创办玻利维亚首个外卖配送平台Netcomidas。",
+            "organization": "Netcomidas (Netcomidas)"
+        },
+        {
+            "date": "2018",
+            "achievement": "Netcomidas被拉美外卖巨头PedidosYa收购，被称为玻利维亚科技行业规模最大的商业交易；同年7月推动PedidosYa正式落地玻利维亚市场。",
+            "organization": "PedidosYa (PedidosYa)"
+        },
+        {
+            "date": "2022",
+            "achievement": "引入并执掌Yango玻利维亚业务，三年间推动该平台在玻扩张并带动大量就业与外资；Yango成为玻利维亚首个在电信监管局（ATT）正式注册的网约车应用。",
+            "organization": "Yango Bolivia (Yango Bolivia)"
+        },
+        {
+            "date": "2025-08-17",
+            "achievement": "作为Libre联盟副总统候选人（搭档豪尔赫·基罗加），首轮获约143万票（26.7%）以第二位进入次轮；10月19日次轮以约45.3%得票败于帕斯-拉拉组合。",
+            "organization": "自由 (玻利维亚) (Libre)"
+        },
+        {
+            "date": "2026-04-19",
+            "achievement": "在圣克鲁斯省长选举次轮以904,132票、约57.08%的得票率击败奥托·里特当选省长（首轮28.57%居首），2026年5月4日宣誓就职，接替路易斯·费尔南多·卡马乔。",
+            "organization": "圣克鲁斯省政府 (Gobernación de Santa Cruz)"
+        }
+    ],
+    "biography_summary": "胡安·巴勃罗·贝拉斯科·达伦斯（Juan Pablo Velasco Dalence），昵称「JP」，1987年4月9日生于玻利维亚圣克鲁斯-德拉谢拉，科技企业家出身的政治人物，现任圣克鲁斯省省长（2026年5月4日就任）。少年时期主要由祖父母南希（Nancy）与豪尔赫（Jorge）抚养，17岁离家，18岁赴阿根廷求学，在布宜诺斯艾利斯贝尔格拉诺大学攻读工商管理并在跨国企业任职，2013年返回玻利维亚投身科技与创新行业。2015年联合创办玻利维亚首个外卖平台Netcomidas，2018年被PedidosYa收购，被视为玻利维亚科技业最大交易；后任Yango玻利维亚国家经理至2025年，并创办清洁能源与城市微出行初创企业MOBI Latam。2025年5月获前总统豪尔赫·「图托」·基罗加选为Libre联盟副总统候选人，次轮败于帕斯组合；同年12月宣布竞选圣克鲁斯省长，2026年4月19日次轮以约57%得票率击败奥托·里特当选。政纲主打省财政自治、国家数字化、公私合营投资与「五五分成」税制。妻子帕特里夏·帕拉达，育有一子，2026年9月宣布将再添一女。其家族曾持法西尔银行不足1.5%股份，2025年竞选期间遭对手借该行舞弊案攻击，他本人否认任何不当行为；早年X账号歧视性言论经核查机构证实其账号归属，他称相关帖子系伪造。",
+    "profile": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Juan_Pablo_Velasco_Dalence.png",
+        "local_path": None
+    },
+    "identity_note": "就任日期：西语维基、Infobae与Unitel均记载2026年5月4日（周一）宣誓就任省长；英文维基信息框写5月3日，采用多数来源的5月4日。2025年大选次轮得票率：西语维基选举表为45.27%（2,872,190票），任务背景称45.4%，未找到官方最终数，画像中采用约45.3%表述。",
+    "family_note": "与妻子帕特里夏·帕拉达育有一子（2025年9月自述）；2026年9月22日在省议会荣誉会议演讲中宣布妻子怀上女儿。祖父母Nancy与Jorge在其青少年时期抚养他（姓氏未公开，故不列条目）。父亲阿尔瓦罗·贝拉斯科系法西尔银行前高管、因该行舞弊案被定罪（据eju.tv转引阿根廷《Perfil》报道）；贝拉斯科自述与父亲并非「功能性婚姻」家庭关系、少年时随祖父母生活，现因孙辈与父亲保持良好关系。",
+    "work_note": "自述18年科技行业经历（2008年前后入行）。Instagram官方账号简介列有关联商业账号：peso.latam（金融科技Peso）、presto.latam、mobi.lat、netcomidas、pedidosya，其在Peso与Presto的具体职务未获独立来源证实，故未列入工作经历。2025年8月发帖宣布数月前已卸任Yango玻利维亚国家经理以专注竞选。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["wikipedia", "wikidata", "news_search", "web_search", "social_media"],
+        "notes": "来源：西语/英语维基百科、Infobae人物特稿（2026-04-20）、vision360人物简介（2025-09-01）、Erbol专访（2025-09-17）、本人LinkedIn公开页及帖子、TikTok/Instagram/Facebook官方账号页、El Deber与Gobernación de Santa Cruz的X帖、Bolivia Verifica核查报告。关键事实（出生日期、全名、Netcomidas-PedidosYa交易、Yango经历、副总统候选人、省长当选与就任）均有2个以上独立来源。存疑项：英文维基就任日期（5月3日）与多数来源（5月4日）不一致；2025年次轮最终得票率未获官方数字；MOBI Latam创办时间不详；Peso/Presto Latam职务未经证实；「该省史上最年轻省长」之说仅见单一社媒来源未采信；父亲姓名来自eju.tv转引Perfile报道，指控本身有政治对立背景且本人否认。",
+        "quotes": [
+            {
+                "title": "Juan Pablo Velasco - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Juan_Pablo_Velasco"
+            },
+            {
+                "title": "Juan Pablo Velasco - Wikipedia (English)",
+                "url": "https://en.wikipedia.org/wiki/Juan_Pablo_Velasco"
+            },
+            {
+                "title": "Juan Pablo Velasco, el emprendedor tecnológico que se convertirá en gobernador de Santa Cruz - Infobae",
+                "url": "https://www.infobae.com/america/america-latina/2026/04/20/juan-pablo-velasco-el-emprendedor-tecnologico-que-se-convertira-en-gobernador-de-santa-cruz/"
+            },
+            {
+                "title": "A los 38 años, Velasco busca iniciar carrera política en la Vicepresidencia - Visión 360",
+                "url": "https://www.vision360.bo/noticias/2025/09/01/30885-a-los-38-anos-velasco-busca-iniciar-carrera-politica-en-la-vicepresidencia"
+            },
+            {
+                "title": "JP responde a las acusaciones por el Banco Fassil: 'Yo no puedo hacerme cargo por algo que no hice' - Erbol",
+                "url": "https://erbol.com.bo/nacional/jp-responde-las-acusaciones-por-el-banco-fassil-%E2%80%98yo-no-puedo-hacerme-cargo-por-algo-que-no"
+            },
+            {
+                "title": "JP Velasco - Gobernador de Santa Cruz | LinkedIn",
+                "url": "https://bo.linkedin.com/in/juanvelasco2"
+            },
+            {
+                "title": "Desde la cuenta de JP Velasco en X se lanzaron dichos racistas hace 15 años - Bolivia Verifica",
+                "url": "https://boliviaverifica.bo/desde-la-cuenta-de-jp-velasco-en-x-se-lanzaron-dichos-racistas-hace-15-anos/"
+            },
+            {
+                "title": "EL DEBER on X: Juan Pablo Velasco es el ganador de la segunda vuelta (57,08%)",
+                "url": "https://x.com/grupoeldeber/status/2045993934518632741"
+            },
+            {
+                "title": "JP Velasco (@jpvelasco29) - TikTok",
+                "url": "https://www.tiktok.com/@jpvelasco29"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE:", OUT)
+print("bytes:", os.path.getsize(OUT))

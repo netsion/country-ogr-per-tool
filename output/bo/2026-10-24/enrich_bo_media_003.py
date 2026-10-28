@@ -1,0 +1,302 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-MEDIA-003 (La Razón, Bolivia) — phase3_enriched. Sources: es.wikipedia, larazon.bo, correodelsur, latamjournalismreview, vision360.bo, lostiempos, larazon.bo articles, Wikidata Q6464783, Facebook/Instagram/TikTok posts."""
+import json
+
+path = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-MEDIA-003.json"
+
+data = {
+    "org_id": "BO-MEDIA-003",
+    "basic_info": {
+        "name_original": "La Razón",
+        "name_zh": "理性报",
+        "name_en": "La Razón",
+        "aliases": ["La Razón Digital", "La Razón Digital Bolivia", "La Razón Noticias Bolivia"],
+        "org_type": "MEDIA",
+        "org_subtype": "newspaper",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1990-03-01",
+        "website": "https://larazon.bo/",
+        "wikidata_qid": "Q6464783"
+    },
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "@LaRazon_Bolivia",
+            "url": "https://twitter.com/LaRazon_Bolivia",
+            "source": "larazon.bo 页面 meta（twitter:site）+ Wikidata Q6464783（P2002 认证账号，2009-06-03 开通，约64万关注）"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "La Razón Noticias Bolivia",
+            "url": "https://www.facebook.com/larazonnoticiasbolivia",
+            "source": "Facebook 2026 年帖子（如 2026-10-14 Piedra Papel y Tinta 直播预告）；Wikidata 记录旧用户名 LaRazonBolivia"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "@larazonbolivia",
+            "url": "https://www.instagram.com/larazonbolivia/",
+            "source": "Instagram 官方账号帖子（2025-03、2026-10 活跃）；larazon.bo 页脚列出 Instagram"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "@larazondigital",
+            "url": "https://www.tiktok.com/@larazondigital",
+            "source": "TikTok 官方账号 2025-06-07 创刊35周年头版帖；larazon.bo 页脚列出 TikTok"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "La Razón Digital Bolivia",
+            "url": "https://www.youtube.com/channel/UCXArTu9W9kIu1Z9IQn_Bz7g",
+            "source": "Wikidata Q6464783（YouTube 频道 ID，订阅约3.5万，2025-06-07）；官方 YouTube 直播 La Razón Radio"
+        },
+        {
+            "platform": "other",
+            "account_name": "WhatsApp 新闻热线 (+591 71025813/71025814)",
+            "url": "https://wa.me/59171025813",
+            "source": "larazon.bo 页脚（新闻报料 WhatsApp 号码）"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "La Razón Digital 门户网站（larazon.bo）",
+            "url": "https://larazon.bo/",
+            "description": "2024年9月停印纸质版后启用的数字新闻门户（替代旧域名 la-razon.com），自称'玻利维亚领先的全平台数字媒体'，设国内、经济、国际、城市、社会、评论等频道。",
+            "source": "https://larazon.bo/（2026-10 实读）"
+        },
+        {
+            "name": "La Razón E-Paper 每日电子报",
+            "url": "https://epaper.la-razon.com/",
+            "description": "传统版面的数字复刻电子报平台，2024年停印后延续'每日一份报纸'形态（如 2025-04-06 版可在线阅读），读者经 go.la-razon.com 短链跳转。",
+            "source": "epaper.la-razon.com（2025-04-06 版）+ 官方 Facebook/Instagram 2026 年帖"
+        },
+        {
+            "name": "数字专题副刊（Energías & Negocios / Animal Político / Marcas / Escape / Zona Auto / Extra）",
+            "url": "https://larazon.bo/",
+            "description": "六条专题内容线：能源与商业、政治分析、品牌、生活方式、汽车及社会新闻副刊，构成数字广告产品矩阵。",
+            "source": "larazon.bo 导航栏'Nuestros productos'"
+        },
+        {
+            "name": "La Razón Plus 流媒体节目（Piedra, Papel y Tinta / Enfoque Breve / La Razón Radio 等）",
+            "url": "https://larazon.bo/",
+            "description": "2020-2021年数字转型期上线的视频播客/直播节目矩阵，经官网、YouTube 与 Facebook 直播分发，含时政访谈（Piedra, Papel y Tinta）等栏目。",
+            "source": "larazon.bo 页脚 + es.wikipedia + 官方 Facebook 2026-10-14 直播预告"
+        },
+        {
+            "name": "RSS 全站订阅源",
+            "url": "https://larazon.bo/feed/",
+            "description": "新门户的 RSS 输出接口，供第三方聚合订阅。",
+            "source": "larazon.bo 页面 head（iCal/RSS feed 引用）"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Eduardo Silva（爱德华多·席尔瓦）",
+            "title": "社长/主编（Director）",
+            "title_description": "2025年3月25日起出任 La Razón 社长，接替辞职的 Claudia Benavente；西语维基百科信息框（2025年后更新）将其列为现任 Director。",
+            "description": "玻利维亚传播界人士（comunicador）。2025年3月25日，任职近15年的社长 Claudia Benavente 宣布辞职，Los Tiempos 等多家媒体报道由 Eduardo Silva 接任，领导层交接发生在该报全面数字化转型初期（2024年9月停印之后约半年）。"
+        },
+        {
+            "person_id": None,
+            "name": "Rubén Atahuichi（鲁文·阿塔乌伊奇）",
+            "title": "编辑（Editor）",
+            "title_description": "西语维基百科信息框列为该报 Editor；2025-2026 年 larazon.bo 多篇报道图片仍以其署名（Foto: Rubén Atahuichi），显示仍在职。",
+            "description": "La Razón 资深新闻工作者/摄影记者，长期负责该报图文报道，停印转型后继续为数字门户供图供稿。"
+        },
+        {
+            "person_id": None,
+            "name": "Claudia Benavente（克劳迪娅·贝纳文特）",
+            "title": "前社长（Directora，2010年10月-2025年3月）",
+            "title_description": "2010年10月被任命为社长，任职近15年，为该报历史上任职时间最长的社长之一；2025年3月25日辞职。",
+            "description": "叙事学博士（doctora en narratología）。任内主导该报应对2019年社会危机与新冠疫情的数字化转型，推出 La Razón Radio 等四档数字节目；2024年主持纸质版停刊、全面转向数字媒体。2025年4月获法国政府授予高级荣誉勋章（prensa-latina.cu、larazon.bo 2025-04-28/30 报道）。"
+        },
+        {
+            "person_id": None,
+            "name": "Jorge Canelas（豪尔赫·卡内拉斯）",
+            "title": "联合创始人（1990年，历史人物）",
+            "title_description": "西语维基百科列为1990年创刊发起人之一；曾列名历任负责人（gerentes/directores）名单首位之一。",
+            "description": "玻利维亚记者/媒体企业家，1990年与 Mario Frías 联手10名私人投资者创办 La Razón（出版公司 Comunicaciones El País）；该报发展第一阶段即'Comunicaciones El País 与 Canelas、Garáfulic 企业集团合作时期'。"
+        },
+        {
+            "person_id": None,
+            "name": "Mario Frías Infante（马里奥·弗里亚斯·因凡特）",
+            "title": "联合创始人（1990年，历史人物）",
+            "title_description": "西语维基百科信息框列为该报创始人（fundador）之一。",
+            "description": "玻利维亚记者，1990年3月与 Jorge Canelas 共同创办 La Razón，首期于同年5月16日出刊（24页黑白版），创刊宣言自称'独立、自由的日报'。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "Nacional（国内新闻部）",
+            "dept_id": None,
+            "head": None,
+            "description": "玻利维亚国内政治与公共事务报道，覆盖政府、立法、选举等（如2026年4月TSE选举改革系列报道），为该报旗舰版面。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Economía y Empresa（经济与企业部）",
+            "dept_id": None,
+            "head": None,
+            "description": "宏观经济、财政、产业与企业报道，配合 Energías & Negocios、Espacio Empresarial 等商业内容线开展企业赞助型专题（如2026年独立201周年特刊即由 Espacio Empresarial 出品）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Mundo（国际新闻部）",
+            "dept_id": None,
+            "head": None,
+            "description": "国际时政报道，大量采用 AFP 等国际通讯社通稿并结合本区域（拉美）视角。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Ciudades（城市新闻部）",
+            "dept_id": None,
+            "head": None,
+            "description": "以拉巴斯/埃尔阿尔托都会区为主的地方市政、治安与服务新闻。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Opinión（评论部）",
+            "dept_id": None,
+            "head": None,
+            "description": "社论、专栏与读者来信版面，汇聚玻利维亚各界评论作者，是该报影响政策讨论的核心版面（2025年3月27日曾刊文回顾社长的舆论角色）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Sociedad / Sociales / La Revista（社会与杂志版块）",
+            "dept_id": None,
+            "head": None,
+            "description": "社会新闻、人物社交动态与生活方式杂志内容，含 Extra 副刊与图片报道。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2024-08-23",
+            "title": "官宣停出纸质版：因巨额债务与广告危机，宣布9月1日起停止印刷版发行",
+            "description": "多家玻利维亚媒体（Correo del Sur、Brujula Digital、eju.tv 等）及拉美新闻评论平台 LatAm Journalism Review 证实：拉巴斯主流日报 La Razón 因'积欠的巨额债务与广告收入锐减'，将于2024年9月1日起停止纸质版发行，8月20日传闻首见报端、23日正式确认。",
+            "impact": "结束该报34年纸质发行史，成为玻利维亚全国性大报中又一因财务危机告别纸媒的案例，被视为玻利维亚报业危机的标志性事件。",
+            "source": "https://correodelsur.com/sociedad/20240823/confirmado-la-razon-deja-de-salir-en-edicion-de-papel.html；https://latamjournalismreview.org/es/news/periodico-boliviano-la-razon-dejara-de-circular-en-su-edicion-impresa-a-partir-del-1-de-septiembre-dicen-medios-bolivianos/"
+        },
+        {
+            "date": "2024-09-01",
+            "title": "纸质版正式停发，全面转型纯数字媒体（La Razón Digital）",
+            "description": "该报以玻利维亚经济危机为由停止实体版销售，宣布今后 exclusively digital（纯数字）运营；此后启用新数字门户 larazon.bo（'La Razón Digital Bolivia'），保留 epaper.la-razon.com 每日电子报形态，并通过 Facebook、X、Instagram、TikTok、YouTube、WhatsApp 全平台分发。",
+            "impact": "从传统日报转型为全平台数字媒体，维持全国性新闻影响力；版权署名方为 Comunicaciones El País S.A.（网站 © 2021-2025）。",
+            "source": "https://www.vision360.bo/noticias/2024/08/31/11033-la-razon-cierra-el-impreso-y-argumenta-que-el-motivo-es-la-crisis-economica-boliviana；https://larazon.bo/"
+        },
+        {
+            "date": "2025-03-25",
+            "title": "社长换任：Claudia Benavente 辞职（任职近15年），Eduardo Silva 接任",
+            "description": "2025年3月25日，自2010年10月起执掌该报的社长 Claudia Benavente 宣布辞职；多家媒体报道由传播界人士 Eduardo Silva 接任社长。次月（4月底）法国政府向 Benavente 授予高级荣誉勋章。",
+            "impact": "数字化转型初期的重要领导层更替；西语维基百科信息框已更新现任社长为 Eduardo Silva。",
+            "source": "https://www.lostiempos.com/actualidad/pais/20250325/claudia-benavente-renuncia-razon-reemplazara-eduardo-silva；https://larazon.bo/opinion/2025/03/27/directora/"
+        },
+        {
+            "date": "2025-06-07",
+            "title": "创刊35周年：以纯数字媒体身份迎来里程碑",
+            "description": "该报刊发《Superando desafíos e innovando, La Razón cumple 35 años》专题，回顾1990年创刊（首期24页黑白版）至2024年停印转型的历程，并同步在 TikTok（@larazondigital）发布35周年头版内容。",
+            "impact": "品牌延续性获得确认：停印一周年之际仍以'La Razón'品牌运营并举办周年纪念，未如外界担忧彻底消失。",
+            "source": "https://larazon.bo/sociedad/2025/06/07/superando-desafios-e-innovando-la-razon-cumple-35-anos/；https://www.tiktok.com/@larazondigital/photo/7513197241314643205"
+        },
+        {
+            "date": "2026-08-04",
+            "title": "推出玻利维亚独立201周年92页特刊",
+            "description": "该报 Espacio Empresarial 版块推出独立201周年特别版，超92页，涵盖历史、教育、旅游与娱乐内容（玻利维亚1825年独立，2026年为独立第201年）。",
+            "impact": "证明纯数字运营下该报仍具备大型专题策划与企业赞助内容（branded content）的商业制作能力。",
+            "source": "https://larazon.bo/espacio-empresarial/2026/08/04/la-razon-lanza-una-edicion-especial-por-los-201-anos-de-bolivia/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": None,
+            "org_name": "Inversiones Grupo Prensa IGMC S.A.",
+            "org_type": "CORP",
+            "org_description": "玻利维亚媒体投资公司；西语维基百科信息框（2025年后版本）将其列为 La Razón 现所有者（Propietario）。",
+            "relationship_type": "controlling_shareholder"
+        },
+        {
+            "org_id": None,
+            "org_name": "Comunicaciones El País S.A.",
+            "org_type": "CORP",
+            "org_description": "1990年创办 La Razón 的出版公司（casa editora）；现 larazon.bo 网站版权仍署名'© 2021-2025 COMUNICACIONES EL PAÍS S.A'（联合开发方 Arcadia SRL）。",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": None,
+            "org_name": "Grupo Prisa（西班牙普里萨传媒集团）",
+            "org_type": "MEDIA",
+            "org_description": "西班牙最大传媒集团之一，在拉美媒体有大量投资；西语维基百科称该报发展第二阶段（时间未注明）曾归入 Prisa 旗下，后退出进入第三阶段（Sunstripes Investments 集团时期，Claudia Benavente 执掌）。",
+            "relationship_type": "controlling_shareholder"
+        },
+        {
+            "org_id": None,
+            "org_name": "The New York Times（《纽约时报》）",
+            "org_type": "MEDIA",
+            "org_description": "美国报纸；据西语维基百科，La Razón 是唯一与其合作、每周六分发其西语周刊副刊（suplemento semanal en español）的玻利维亚媒体。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "Sociedad Interamericana de Prensa (SIP / IAPA，美洲新闻协会)",
+            "org_type": "NGO",
+            "org_description": "西半球报纸行业组织；Wikidata Q6464783 记载 La Razón 为其成员（引 sipiapa.org 各国成员名单，2020-03-13 存档）。",
+            "relationship_type": "member_of"
+        }
+    ],
+    "core_business": "《理性报》（La Razón）是玻利维亚拉巴斯的主流西语日报，1990年3月1日创刊（首期同年5月16日出刊），与《日报》（El Diario）并称拉巴斯两大报，发行覆盖全国，同圣克鲁斯《任务报》（El Deber）、科恰班巴《时代报》（Los Tiempos）构成玻利维亚全国性大报梯队，社址位于拉巴斯南区 Alto Auquisamaña（Colinas de Santa Rita），政治立场偏中左。核心业务为西语新闻采编与多平台分发：设国内、经济与企业、国际、城市、社会、评论等频道，另有 Energías & Negocios、Animal Político、Marcas、Escape、Zona Auto、Extra 六条专题副刊产品线，以及 Piedra, Papel y Tinta、Enfoque Breve、La Razón Radio 等流媒体节目；该报还是唯一与《纽约时报》合作、每周六分发其西语周刊副刊的玻利维亚媒体，并为美洲新闻协会（SIP/IAPA）成员报。2024年9月1日起因债务与广告危机停出纸质版（发行34年），转型纯数字媒体：新门户 larazon.bo 加每日电子报（epaper.la-razon.com），收入依赖数字广告、订阅与赞助型专题（如2026年独立201周年特刊）。据该报自述，2017年有记者约70人、员工约200人；2020年印刷版读者约15万人次、网站用户超140万；2018年一项学术研究曾将其列为玻利维亚社交媒体上最具影响力的报纸。",
+    "industries": ["media_publishing", "digital_media"],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。因此《理性报》作为玻利维亚媒体，不存在作为成员经济体媒体的APEC相关官方立场；其涉亚太内容以日常新闻报道为主，检索未发现该报就APEC事务发表过系统性官方立场的记录。",
+    "profile": {
+        "source_url": "https://es.wikipedia.org/wiki/La_Raz%C3%B3n_(Bolivia)",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikipedia (es.wikipedia.org/wiki/La_Razón_(Bolivia))",
+            "wikidata Q6464783（修正骨架误用的 Q20134758；提供 Twitter/YouTube/Facebook 账号与 SIP 成员关系）",
+            "larazon.bo 官网（web_reader 2026-10 实读：页脚社媒、产品线、版权、联系方式）",
+            "epaper.la-razon.com（2025-04-06 电子版）",
+            "correodelsur.com（2024-08-23 停印确认）",
+            "latamjournalismreview.org（2024-08-23）",
+            "brujuladigital.net（2024-08-20）",
+            "vision360.bo（2024-08-31 停印生效与纯数字转型）",
+            "lostiempos.com（2025-03-25 社长换任）",
+            "larazon.bo 文章（2025-03-27、2025-04-30、2025-06-07、2026-08-04）",
+            "prensa-latina.cu（2025-04-28 Benavente 获法国勋章）",
+            "facebook.com/larazonnoticiasbolivia（2026-07/2026-10 帖子）",
+            "instagram.com/larazonbolivia（2024-2026 帖子）",
+            "tiktok.com/@larazondigital（2025-06-07 35周年帖）"
+        ],
+        "quotes": [
+            {
+                "title": "Confirmado: La Razón deja de salir en edición de papel（Correo del Sur, 2024-08-23）",
+                "url": "https://correodelsur.com/sociedad/20240823/confirmado-la-razon-deja-de-salir-en-edicion-de-papel.html"
+            },
+            {
+                "title": "Claudia Benavente renuncia a La Razón; la reemplazará Eduardo Silva（Los Tiempos, 2025-03-25）",
+                "url": "https://www.lostiempos.com/actualidad/pais/20250325/claudia-benavente-renuncia-razon-reemplazara-eduardo-silva"
+            },
+            {
+                "title": "Superando desafíos e innovando, La Razón cumple 35 años（La Razón, 2025-06-07）",
+                "url": "https://larazon.bo/sociedad/2025/06/07/superando-desafios-e-innovando-la-razon-cumple-35-anos/"
+            },
+            {
+                "title": "La Razón cierra el impreso y argumenta que el motivo es la crisis económica boliviana（Visión360, 2024-08-31）",
+                "url": "https://www.vision360.bo/noticias/2024/08/31/11033-la-razon-cierra-el-impreso-y-argumenta-que-el-motivo-es-la-crisis-economica-boliviana"
+            },
+            {
+                "title": "La Razón lanza una edición especial por los 201 años de Bolivia（La Razón, 2026-08-04）",
+                "url": "https://larazon.bo/espacio-empresarial/2026/08/04/la-razon-lanza-una-edicion-especial-por-los-201-anos-de-bolivia/"
+            }
+        ],
+        "completeness_score": 0,
+        "notes": "Phase3 enrichment for BO-MEDIA-003. 关键核实：(1) 2024-09-01 停止纸质版、转型纯数字（≥3独立来源）；(2) 现任社长 Eduardo Silva（2025-03-25 接任，Los Tiempos+eswiki 双源），前任 Claudia Benavente（2010.10-2025.03）列入 key_people 并标注'前'；(3) Wikidata QID 由骨架 Q20134758 修正为 Q6464783（eswiki 'Datos' 链接 + Wikidata 实体核实）。人名均未命中 _name_index.json → person_id 置空，未自创 ID。竞对关系（El Deber/Los Tiempos/El Diario）因 relationship_type 枚举无 competitor 而写入 core_business 文字描述。所有者信息存在双署名（eswiki: Inversiones Grupo Prensa IGMC S.A.；官网版权：Comunicaciones El País S.A.），已分别列为 controlling_shareholder 与 parent_org 并注明来源，未做取舍推断。"
+    }
+}
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written:", path)

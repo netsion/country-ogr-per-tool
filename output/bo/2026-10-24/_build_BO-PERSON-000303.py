@@ -1,0 +1,257 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000303 Javier Díez de Medina Romero person profile."""
+import json
+import os
+
+OUT = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000303.json"
+
+data = {
+    "person_id": "BO-PERSON-000303",
+    "wikidata_qid": None,
+    "name": "Javier Díez de Medina Romero",
+    "name_en": "Javier Diez de Medina Romero",
+    "name_zh": None,
+    "aliases": [
+        "Javier Diez de Medina",
+        "Javier Díez de Medina",
+        "Diez de Medina"
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "nationality_note": "所有公开来源均未直接声明其国籍/公民身份。判定为玻利维亚（BO）的依据：(1) LinkedIn驻地为玻利维亚拉巴斯（bo.linkedin.com域名）；(2) 自2019-2020年起代表玻利维亚本国行业协会ANMM出席玻利维亚私营企业主联合会（CEPB）活动，2026年4月当选ANMM主席；(3) 玻利维亚主流媒体（El Deber、Correo del Sur、Instantáneas）均以其为本国企业高管身份采访。其高等教育（罗马第一大学经济学及经济学与商学博士）在意大利完成，是否具有意大利国籍或长期居留背景未查到任何记录，存疑。",
+    "position_note": "现任职务「企业副总裁（Vicepresidente Corporativo / Vice President Corporate）」经多个独立来源证实：LinkedIn公开档案、2025-11-11 El Deber专访、2025-12-15 Correo del Sur报道、2026-04-30玻利维亚矿业与冶金部（Ministerio de Minería y Metalurgia）PDAC 2026后会见新闻稿、MSC官方X/Facebook帖文。Instantáneas（2025-12-21）称其为「企业事务副总裁（vicepresidente de Asuntos Corporativos）」，应为同一职务的另一种表述。其2016、2018年报道中职务为企业事务经理（Gerente de Asuntos Corporativos）。注意：MSC官网「Equipo Ejecutivo」董事名录页仅列加拿大母公司董事会成员（Hennigh/Tretbar/McGoldrick/Sabo-Walsh），未列其名；他属于玻利维亚本地管理团队。",
+    "work_note": "时间线以多来源交叉构建：El Deber专访称其2006年加入MSC、2009年曾短暂中断；ZoomInfo/LinkedIn档案显示其2006-2019年在MSC任职、2022年3月-2023年9月任Xtryada srl所有人兼总经理、2023年起任MSC企业副总裁（即2019-2022年间存在离职间隙，与El Deber「仅2009年短暂中断」的表述存在出入，两说并存待证）。2018年1月MSC官网转载其以「MSC企业事务经理」身份受访（原文直读核实）；早年曾为玻利维亚国家与私营部门提供矿业咨询并在Inti Raymi矿业公司任职（El Deber，具体年份与职务未披露，故未单列条目）。ANMM副主席任职起点未查明：CEPB 2019年度Memoria（2020-03发布）已列其为ANMM代表，2020年电视访谈及2025年11月报道均称其为ANMM副主席，2026年4月改选为主席（2026-2028届）。",
+    "education_note": "教育信息来自2025-11-11 El Deber专访（「罗马第一大学经济学家，并在该校攻读经济学与商学博士（doctorado en Economía y Comercio）」），单一定性来源；LinkedIn检索摘要亦显示其教育经历为Sapienza Università di Roma，可交叉印证就读该校，但学位层级细节（本科专业名称、博士答辩年份）无更多来源。",
+    "social_accounts_note": "社交媒体六项扫描（linkedin/facebook/x/instagram/tiktok/youtube）：仅LinkedIn可确认为本人（头衔、雇主Minera San Cristobal S.A.、驻地La Paz、教育Sapienza Università di Roma与本人其他档案一致）；X/Instagram/TikTok/YouTube无本人个人账号记录，MSC公司账号（@MinSanCristobal）多次发帖提及他。Facebook命中同名档案（javier.diezdemedina，自称「战略管理与应用伦理独立顾问」，教育背景Colegio Alemán Mariscal Braun/Universidad Católica）与已核实履历（罗马第一大学）明显不符，且玻利维亚另有专栏作家Javier Díez de Medina Valle同名，身份无法确认，不予收录。LinkedIn完整履历页受反爬限制未能直读，档案细节来自检索摘要及AeroLeads/ZoomInfo同步数据。",
+    "identity_note": "同名者区分（重要）：玻利维亚至少另有两名公开人物与「Javier Díez de Medina」同名：(1) Javier Díez de Medina Valle，企业管理者、Página Siete专栏作家（专栏「Consciencia ciudadana」「La democracia pisoteada」，2019），并被记载为PROBOLSA前董事——与本档案人物第二姓氏（Romero）不同，非同一人；(2) 曾任玻利维亚国家警察司令、Frontier Latin America前董事、前大使的同名者（La Razón 2016年报道，法国人Julien Brault-Charmet案语境）——非同一人。本档案人物全名Javier Díez de Medina Romero，由El Deber专访及ANMM 2026-2028届理事名单（PRESIDENTE: JAVIER DIEZ DE MEDINA ROMERO）双重确认。",
+    "current_positions": [
+        "圣克里斯托瓦尔矿业公司企业副总裁",
+        "玻利维亚全国中型矿业协会主席"
+    ],
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://www.minerasancristobal.com",
+            "source": "Minera San Cristóbal S.A. 官网（其任企业副总裁的公司网站，非个人直联方式）"
+        }
+    ],
+    "education": [
+        {
+            "institution": "罗马第一大学 (Sapienza Università di Roma)",
+            "degree": "bachelor",
+            "field": "经济学",
+            "note": "El Deber专访称其为「经济学家（Economista）」，曾就读于罗马第一大学；具体学位名称与年份未披露"
+        },
+        {
+            "institution": "罗马第一大学 (Sapienza Università di Roma)",
+            "degree": "doctorate",
+            "field": "经济学与商学",
+            "note": "El Deber专访：在罗马第一大学攻读经济学与商学博士（doctorado en Economía y Comercio）"
+        }
+    ],
+    "work_experience": [
+        {
+            "organization": "圣克里斯托瓦尔矿业公司 (Minera San Cristóbal S.A.)",
+            "org_id": "BO-CORP-007",
+            "position": "企业副总裁 (Vicepresidente Corporativo / Vice President Corporate)",
+            "start_date": "2023",
+            "end_date": None,
+            "note": "ZoomInfo/LinkedIn档案显示2023年起任现职；2025-11 El Deber专访、2025-12 Correo del Sur、2026-04-30玻利维亚矿业部新闻稿及MSC官方社媒均确认；Instantáneas（2025-12-21）称其为「企业事务副总裁（vicepresidente de Asuntos Corporativos）」，为同一职务的另一表述"
+        },
+        {
+            "organization": "特里亚达公司 (Xtryada srl)",
+            "org_id": None,
+            "position": "所有人兼总经理 (Owner and General Manager)",
+            "start_date": "2022-03",
+            "end_date": "2023-09",
+            "note": "ZoomInfo/LinkedIn档案（约2022年3月至2023年9月，驻地拉巴斯）；该公司业务性质详情未查证"
+        },
+        {
+            "organization": "玻利维亚全国中型矿业协会 (Asociación Nacional de Mineros Medianos, ANMM)",
+            "org_id": None,
+            "position": "副主席 (Vicepresidente)",
+            "start_date": None,
+            "end_date": "2026-04",
+            "note": "任职起点未查明：CEPB 2019年度Memoria（2020-03发布）已列其为ANMM代表，2020年11月电视访谈（La Palabra del Bosque）及2025年11月ANMM新闻稿均称其为副主席；2026年4月当选主席后卸任副主席"
+        },
+        {
+            "organization": "玻利维亚全国中型矿业协会 (Asociación Nacional de Mineros Medianos, ANMM)",
+            "org_id": None,
+            "position": "主席 (Presidente)",
+            "start_date": "2026-04",
+            "end_date": None,
+            "note": "ANMM官网2026-04-09公布2026-2028届新理事会，PRESIDENTE: JAVIER DIEZ DE MEDINA ROMERO；玻利维亚私营企业主联合会（CEPB）亦发文祝贺其当选主席"
+        },
+        {
+            "organization": "圣克里斯托瓦尔矿业公司 (Minera San Cristóbal S.A.)",
+            "org_id": "BO-CORP-007",
+            "position": "企业事务经理 (Gerente de Asuntos Corporativos)",
+            "start_date": "2006",
+            "end_date": "2019",
+            "note": "El Deber专访称其2006年加入MSC（2009年曾短暂中断）；2018年1月MSC官网转载报道原文直读核实其当时职务为「MSC企业事务经理（gerente de Asuntos Corporativos de MSC）」；ZoomInfo档案显示2006-2019年在MSC任职；加入时的初始职务不详"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000299",
+            "person_name": "昆顿·托德·亨尼希 (Quinton Todd Hennigh)",
+            "relationship_type": "colleague",
+            "description": "同僚。亨尼希任母公司San Cristobal Mining Inc.首席执行官兼MSC董事局主席；2026年4月30日玻利维亚矿业部PDAC 2026后会见新闻稿中，二人同列MSC高管名单（亨尼希为MSC董事局主席，迪斯·德·梅迪纳为企业副总裁）"
+        },
+        {
+            "person_id": "BO-PERSON-000300",
+            "person_name": "大卫·特雷特巴 (David Tretbar)",
+            "relationship_type": "colleague",
+            "description": "同僚。特雷特巴任MSC董事局副主席（vicepresidente）；2026年4月30日玻利维亚矿业部新闻稿中二人同列MSC高管名单"
+        },
+        {
+            "person_id": "BO-PERSON-000302",
+            "person_name": "罗南·萨博-沃尔什 (Ronan Sabo-Walsh)",
+            "relationship_type": "colleague",
+            "description": "同僚。矿业部2026-04-30新闻稿称「Ronan Sabo, Chief Financial Officer de San Cristóbal Mining」（母公司首席财务官），与迪斯·德·梅迪纳同列会见名单"
+        },
+        {
+            "person_id": None,
+            "person_name": "罗德里戈·阿格雷达 (Rodrigo Ágreda)",
+            "relationship_type": "colleague",
+            "description": "同僚。阿格雷达任MSC企业总经理（gerente corporativo），2026年4月30日玻利维亚矿业部新闻稿中与迪斯·德·梅迪纳同列MSC高管名单；此人未建库"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Javier Diez de Medina",
+            "url": "https://bo.linkedin.com/in/javier-diez-de-medina-b3883a7",
+            "source": "LinkedIn公开档案（头衔Vice President Corporate、雇主Minera San Cristobal S.A.、驻地La Paz、教育Sapienza Università di Roma，与本人其他档案一致，确认为本人；完整履历页反爬未能直读，细节来自检索摘要与AeroLeads/ZoomInfo同步档案）"
+        }
+    ],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2025-11",
+            "topic": "经济开放与投资法律保障",
+            "stance_content": "主张「玻利维亚需要向世界开放」，认为吸引投资的关键是提供法律保障（seguridad jurídica）；对新任总统罗德里戈·帕斯宣布的政策方向表示乐观",
+            "source": "El Deber专访（2025-11-11）"
+        },
+        {
+            "date": "2025-12",
+            "topic": "矿业合作社正规化",
+            "stance_content": "提议短期内容许大型矿业公司与矿业合作社签订技术与安全保障合同（称现行法律禁止、违者恐失矿权），以转移技术、工业安全与环境管理经验，短期内使合作社产量翻倍并推动其正规化",
+            "source": "Instantáneas/Metadiario（2025-12-21）"
+        },
+        {
+            "date": "2025-12",
+            "topic": "矿业税制与法律修改",
+            "stance_content": "指出MSC的政府分成（Government Take）超过62%、缺乏竞争力，在秘鲁、智利或阿根廷投资更为容易；主张中期深度改革（含法律保障与减税、修改矿业法中权利金相关条款），长期修改国家政治宪法（CPE）",
+            "source": "Instantáneas/Metadiario（2025-12-21）、El Deber（2025-11-11）"
+        },
+        {
+            "date": "2025-12",
+            "topic": "世界级矿业的社会与环境标准",
+            "stance_content": "在TEDx演讲中称世界级采矿成功基于四要素：相互尊重、与社区合作、爱护环境、女性积极参与；援引数据称矿业占玻利维亚出口57%、GDP约8%，世界级矿业贡献全国每100玻利维亚诺产值中的10-12诺；MSC运营18年缴税逾33亿美元、99%员工为玻利维亚人",
+            "source": "Correo del Sur（2025-12-15，塔里亚私立大学TEDx活动）"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2026-04",
+            "achievement": "当选玻利维亚全国中型矿业协会（ANMM）2026-2028届主席，代表中型矿业企业参与行业政策对话",
+            "organization": "玻利维亚全国中型矿业协会 (Asociación Nacional de Mineros Medianos, ANMM)"
+        },
+        {
+            "date": "2023",
+            "achievement": "在母公司易主加拿大San Cristobal Mining Inc.（2023年2月完成收购）后出任（重返）圣克里斯托瓦尔矿业公司企业副总裁，主管政府关系与对外事务",
+            "organization": "圣克里斯托瓦尔矿业公司 (Minera San Cristóbal S.A.)"
+        },
+        {
+            "date": "2006",
+            "achievement": "加入圣克里斯托瓦尔矿业公司，长期担任企业事务经理，作为公司发言人就国际大宗商品危机、露天锌矿产量与出口物流等议题接受玻利维亚主流媒体采访",
+            "organization": "圣克里斯托瓦尔矿业公司 (Minera San Cristóbal S.A.)"
+        },
+        {
+            "date": "2025-12",
+            "achievement": "受邀在塔里亚私立大学的TEDx（TEDxUPDS Tarija）活动演讲，阐述世界级采矿的四项可持续原则及矿业对玻利维亚经济的贡献",
+            "organization": "TEDxUPDS Tarija"
+        }
+    ],
+    "biography_summary": "哈维尔·迪斯·德·梅迪纳·罗梅罗（Javier Díez de Medina Romero）是玻利维亚矿业界资深高管，现任玻利维亚最大在产银锌铅矿企业之一圣克里斯托瓦尔矿业公司（Minera San Cristóbal S.A.，MSC）企业副总裁（Vicepresidente Corporativo），并自2026年4月起出任玻利维亚全国中型矿业协会（ANMM）2026-2028届主席。他毕业于意大利罗马第一大学，为经济学家，并在该校获经济学与商学博士学位；早年曾为玻利维亚国家与私营部门提供矿业咨询，并在Inti Raymi矿业公司任职。2006年加入MSC（2009年曾短暂中断），长期担任企业事务经理，作为公司发言人就国际大宗商品危机、锌产量与出口物流等议题在玻利维亚主流媒体发声；据ZoomInfo与LinkedIn档案，其在MSC任职至2019年前后，2022-2023年在拉巴斯自营Xtryada srl咨询公司，2023年重返MSC出任企业副总裁。2025-2026年间，他代表公司和ANMM高频公开表态：主张玻利维亚向世界开放、为投资提供法律保障，推动矿业合作社正规化与「大矿-合作社」技术合同，中期修改矿业法（称MSC政府分成超62%、缺乏竞争力），长期修改宪法；并援引数据称矿业占玻利维亚出口57%、GDP约8%，世界级矿业贡献全国每100诺产值中的10-12诺，MSC运营18年缴税逾33亿美元、99%员工为玻利维亚人。注意区分同名者：玻利维亚另有Página Siete专栏作家Javier Díez de Medina Valle及前国家警察司令同名人物，均非本档案人物。",
+    "profile": {
+        "source_url": None,
+        "local_path": None
+    },
+    "collection_meta": {
+        "phase": "phase4_person_profile",
+        "collection_date": "2026-10-26",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media",
+            "government_directory",
+            "other"
+        ],
+        "notes": "核心身份（全名Javier Díez de Medina Romero、现任MSC企业副总裁）经El Deber专访（2025-11-11，全文直读）、玻利维亚矿业与冶金部新闻稿（2026-04-30，官网直读）、Correo del Sur（2025-12-15，全文直读）、Instantáneas/Metadiario（2025-12-21，全文直读）、MSC官网2016/2018年转载报道（2018年原文直读核实其时任企业事务经理）及LinkedIn/ZoomInfo/AeroLeads档案交叉证实；ANMM主席职务由ANMM官网2026-04-09理事名单（检索快照：PRESIDENTE: JAVIER DIEZ DE MEDINA ROMERO）与CEPB祝贺帖双重印证，ANMM官网原页在本环境404未能直读。教育（罗马第一大学经济学与商学博士）与早年经历（Inti Raymi、2006年加入MSC）目前仅El Deber专访单一定性来源。国籍无来源明确声明，按驻地/行业协会/本国媒体身份综合判定为玻利维亚（BO）并在nationality_note标注；出生日期、家庭、直联方式无公开记录，相应字段留空；Wikidata检索无结果，wikidata_qid置null；name_zh经中文检索无既有标准译名，置null。时间线出入（El Deber称2006年起在MSC仅2009年短暂中断 vs ZoomInfo显示2019年离开、2023年回归）已在work_note说明。出生日期/家庭等个人生平类信息公开信息极少，completeness_score客观受限。",
+        "completeness_score": 74,
+        "quotes": [
+            {
+                "title": "Javier Díez de Medina: 「Bolivia necesita abrirse al mundo, requiere seguridad jurídica」 – El Deber（2025-11-11专访：教育、Inti Raymi、2006年加入MSC、企业副总裁）",
+                "url": "https://eldeber.com.bo/economia/javier-diez-medina-bolivia-necesita-abrirse-mundo-requiere-seguridad-juridica_1762881327"
+            },
+            {
+                "title": "Encuentro con Minera San Cristóbal refuerza la agenda de inversión minera tras el PDAC 2026 – Ministerio de Minería y Metalurgia（2026-04-30：矿业部新闻稿列其为企业副总裁，同列Hennigh/Tretbar/Sabo/Ágreda）",
+                "url": "https://www.mineria.gob.bo/index.php/nota_prensa/encuentro-con-minera-san-cristobal-refuerza-la-agenda-de-inversion-minera-tras-el-pdac-2026"
+            },
+            {
+                "title": "La minería de clase mundial aporta hasta 12 de cada 100 Bs generados en el país, según Javier Diez de Medina – Correo del Sur（2025-12-15：TEDx演讲四要素、矿业占出口57%、MSC缴税33亿美元）",
+                "url": "https://correodelsur.com/economia/20251215/la-mineria-de-clase-mundial-aporta-hasta-12-de-cada-100-bs-generados-en-el-pais-segun-javier-diez-de-medina.html"
+            },
+            {
+                "title": "Minera San Cristóbal propone formalizar a cooperativas para impulsar producción a corto plazo – Instantáneas/Metadiario（2025-12-21：企业事务副总裁头衔、Government Take超62%、合作社合同提案）",
+                "url": "https://www.instantaneas.org.bo/2025/12/21/politica/minera-san-cristobal-formalizacion-cooperativas-produccion"
+            },
+            {
+                "title": "EL DEBER – Javier Díez de Medina: 「La crisis internacional ha sido un balde de agua fría」 – Minera San Cristóbal S.A.官网（2016-10-31转载：时任公司发言人受访）",
+                "url": "https://www.minerasancristobal.com/v3/es/2016/10/31/el-deber-javier-diez-de-medina-la-crisis-internacional-ha-sido-un-balde-de-agua-fria"
+            },
+            {
+                "title": "MSC posiciona a Bolivia 「como el cuarto país más productivo en minas de zinc a cielo abierto en el mundo」 – Minera San Cristóbal S.A.官网（2018-01-10：原文直读核实其时任「gerente de Asuntos Corporativos de MSC」）",
+                "url": "https://www.minerasancristobal.com/v3/es/2018/01/10/msc-posiciona-a-bolivia-como-el-cuarto-pais-mas-productivo-en-minas-de-zinc-a-cielo-abierto-en-el-mundo"
+            },
+            {
+                "title": "ANMM conforma nueva mesa directiva para la gestión 2026-2028 – Asociación Nacional de Mineros Medianos（2026-04-09：PRESIDENTE: JAVIER DIEZ DE MEDINA ROMERO；原页现404，据搜索索引快照）",
+                "url": "https://www.anmm.com.bo/noticias/anmm-conforma-nueva-mesa-directiva-para-la-gestion-2026-2028"
+            },
+            {
+                "title": "Javier Diez de Medina - Vicepresidente Corporativo – LinkedIn（公开档案：Vice President Corporate、Minera San Cristobal S.A.、La Paz、Sapienza Università di Roma）",
+                "url": "https://bo.linkedin.com/in/javier-diez-de-medina-b3883a7"
+            },
+            {
+                "title": "Javier de Medina - Vice President Corporate at Minera San Cristobal – ZoomInfo（Xtryada srl Owner/GM 2022-2023、2006-2019任职、2023年起任现职）",
+                "url": "https://www.zoominfo.com/p/Javier-De-medina/1714774203"
+            },
+            {
+                "title": "Memoria CEPB 2019 – Confederación de Empresarios Privados de Bolivia（2020-03发布：Javier Diez de Medina Romero列为ANMM代表）",
+                "url": "https://www.cepb.org.bo/wp-content/uploads/2020/03/Memoria-CEPB-2019-FINAL.pdf"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT)
+
+# quick self-check
+with open(OUT, encoding="utf-8") as f:
+    d = json.load(f)
+print("person_id:", d["person_id"])
+print("name:", d["name"])
+print("nationality:", d["nationality"], "| gender:", d["gender"])
+print("bio len:", len(d["biography_summary"]))
+print("work:", len(d["work_experience"]), "| edu:", len(d["education"]),
+      "| rel:", len(d["person_relationships"]), "| stances:", len(d["political_stances"]),
+      "| achv:", len(d["major_achievements"]), "| social:", len(d["social_accounts"]),
+      "| quotes:", len(d["collection_meta"]["quotes"]))

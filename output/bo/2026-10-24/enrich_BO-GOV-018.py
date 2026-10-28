@@ -1,0 +1,482 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-GOV-018 (Ministerio de Desarrollo Rural y Tierras) -> phase3_enriched."""
+import json
+
+PATH = "D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-GOV-018.json"
+
+with open(PATH, encoding="utf-8") as f:
+    d = json.load(f)
+
+d["basic_info"]["name_original"] = "Ministerio de Desarrollo Rural y Tierras"
+d["basic_info"]["name_zh"] = "玻利维亚农村发展与土地部"
+d["basic_info"]["name_en"] = "Ministry of Rural Development and Lands"
+d["basic_info"]["aliases"] = [
+    "MDRyT",
+    "Ministerio de Desarrollo Rural y Tierras",
+    "农村发展与土地部",
+]
+d["basic_info"]["website"] = None  # 原官网 www.ruralytierras.gob.bo 已无法访问，见 digital_assets/notes
+d["basic_info"]["industries"] = ["public_administration", "agriculture_food"]
+
+d["profile"] = (
+    "农村发展与土地部（MDRyT）曾是玻利维亚主管农村发展、农牧生产与土地事务的内阁部委，"
+    "下辖土地、农牧发展、古柯与整体发展三个副部长办公室，并管理INRA（国家土地改革研究所）、"
+    "SENASAG（国家农牧卫生与食品安全局）、INIAF（国家农牧林业创新研究所）等机构。"
+    "帕斯政府2025-11-18重组内阁时将本部裁撤：农牧板块并入生产发展、农村与水部（MDPRyA，2026-08-13更名为"
+    "生产可持续、环境与水部MPSMAyA），土地板块（含INRA）整体划归总统府部（BO-GOV-006）。"
+    "本词条按裁撤前建制记录，并追踪其职能承继与末任人员。"
+)
+
+d["core_business"] = (
+    "本部是玻利维亚主管农村发展与土地事务的内阁部委（西语简称MDRyT），2009年2月起以现名运行，"
+    "2025-11-18被帕斯政府裁撤前为农村与农地领域的最高行政机关，核心职能分四大板块："
+    "(1)土地板块——设土地副部长办公室，主管农地权属清理（saneamiento）、土地再分配与产权证（títulos agrarios）"
+    "发放，执行1996年第1715号法（INRA法）确立的土地制度与2006年第3545号法（社区土地重新界定），"
+    "下辖国家土地改革研究所（INRA）；"
+    "(2)农牧板块——设农牧发展副部长办公室，主管农牧生产政策、家庭农业扶持与粮食主权（soberanía alimentaria）议程，"
+    "管理SENASAG（国家农牧卫生与食品安全局，掌唯一官方卫生注册）与INIAF（国家农牧林业创新研究所）；"
+    "(3)古柯板块——设古柯与整体发展副部长办公室，主管古柯种植限额管理、自愿减种与替代发展政策；"
+    "(4)信息服务——2025年创设农牧环境与生产观测所（OAP），统一发布农牧业统计与监测数据。"
+    "裁撤后，农牧板块并入生产发展、农村与水部（后更名生产可持续、环境与水部），"
+    "土地板块连同INRA划归总统府部，2026年起由总统府部推进INRA积压产权证清理发放。"
+)
+
+d["key_people"] = [
+    {
+        "person_id": None,
+        "name": "胡安·亚米尔·弗洛雷斯·拉索（Juan Yamil Flores Lazo）",
+        "title": "末任实职部长（ministro，2024-08-12至2025-11-08）",
+        "title_description": "阿尔塞政府末任部长，本部被裁撤前最后一位实任部长",
+        "description": (
+            "2024-08-12经最高法令第5192号接替桑托斯·孔多里出任部长（西语维基百科部长表）。"
+            "任内推动设立农牧环境与生产观测所（2025-07-11宣布、2025-10-23新版门户上线），"
+            "并以生物技术成果、蜂农支持等政策扶持农牧部门；"
+            "2025-10-29（帕斯胜选后）公开批评新政府拟裁并本部是『巨大的错误』（error enorme）。"
+            "2025-11-08阿尔塞政府结束去职，次日（11-09）职位由临时部长何塞·路易斯·卢波接替。"
+            "来源：es.wikipedia本部条目部长表及José Luis Lupo条目；Bolivia TV官方Facebook（2025-10-29）；MDRyT官方Facebook（2025-07-11、2025-10-23）。"
+        ),
+    },
+    {
+        "person_id": None,
+        "name": "何塞·路易斯·卢波·弗洛雷斯（José Luis Lupo Flores）",
+        "title": "临时部长（ministro interino，2025-11-09至2025-11-16）",
+        "title_description": "帕斯政府过渡期临时执掌本部，任内完成本部裁撤重组",
+        "description": (
+            "经济学家（1961年生于圣克鲁斯山谷镇），曾任发展经济、财政、总统府、政府等五任部长（班泽尔、基罗加政府），"
+            "历任安第斯开发公司（CAF）首席经济学家、美洲开发银行（BID）多国代表，2025年以萨莫拉·梅迪纳竞选搭档身份参选副总统。"
+            "2025-11-09被总统罗德里戈·帕斯任命为总统府部部长并兼任本部临时部长，"
+            "2025-11-18内阁重组中本部被裁撤：农牧职能并入生产发展、农村与水部，土地副部长单位划归其同时执掌的总统府部。"
+            "来源：es.wikipedia『José Luis Lupo』条目（任期2025-11-09至11-16）；es.wikipedia本部条目信息框。"
+        ),
+    },
+    {
+        "person_id": "BO-PERSON-000072",
+        "name": "奥斯卡·马里奥·胡斯蒂尼亚诺·平托（Óscar Mario Justiniano Pinto）",
+        "title": "承继部门现任部长（2026年8月起任生产可持续、环境与水部部长）",
+        "title_description": "本部农牧板块的现职承接者，非本部任职人员，列作职能承继对照",
+        "description": (
+            "圣克鲁斯农牧业企业家，2025-11-09起任环境与水资源部部长并兼任生产力发展与多元经济部临时部长，"
+            "2025-11-18三部合并后任生产发展、农村与水部部长，2026-08-13第5675号最高法令更名后任生产可持续、环境与水部部长，"
+            "本部农牧发展与粮食主权职能由其主管（下设农牧与农林发展副部长办公室）。"
+            "2026-10-15率团出席罗马FAO世界粮食论坛推介1.213亿美元农村生产转型项目计划。"
+            "来源：BO-GOV-012词条（含produccion.gob.bo官方新闻稿）；与本部无直接任职关系，仅供知识图谱关联。"
+        ),
+    },
+    {
+        "person_id": None,
+        "name": "雷米·鲁文·冈萨莱斯·阿蒂拉（Remmy Rubén Gonzales Atila）",
+        "title": "部长（ministro，2021-04-20至2024-03-05）",
+        "title_description": "阿尔塞政府任期最长的本部部长",
+        "description": (
+            "曾任本部农牧发展副部长（2008年），2021-04-20经最高法令第4488号出任部长，"
+            "任内经历疫情后农牧业复苏与化肥供应紧张等挑战，任职近三年，为阿尔塞政府任期最长的本部部长。"
+            "来源：es.wikipedia本部条目部长表；es.wikipedia『Remmy Gonzáles』条目。"
+        ),
+    },
+    {
+        "person_id": None,
+        "name": "塞萨尔·乌戈·科卡里科·亚纳（César Hugo Cocarico Yana）",
+        "title": "部长（ministro，2015-08-31至2019-11-10）",
+        "title_description": "莫拉莱斯政府第二任期的长期部长，后任拉巴斯省长",
+        "description": (
+            "2015-08-31经最高法令第2501号出任部长，任职逾四年（2015-2019），"
+            "为莫拉莱斯政府后期本部主政者，主管土地权属清理与古柯限额政策执行；"
+            "2019年11月莫拉莱斯政府倒台后去职，后当选拉巴斯省省长。"
+            "来源：es.wikipedia本部条目部长表；es.wikipedia『César Cocarico』条目。"
+        ),
+    },
+    {
+        "person_id": None,
+        "name": "内梅西娅·阿查科略·托拉（Nemesia Achacollo Tola）",
+        "title": "部长（ministra，2010-01-23至2015-08-31）",
+        "title_description": "本部史上任职时间最长的部长",
+        "description": (
+            "2010-01-23经最高法令第407号出任部长，连续任职五年七个月（2010-2015），"
+            "为本部史上任期最长的部长，任内推行家庭农业（Agricultura Familiar Campesina）扶持与土地权属清理。"
+            "来源：es.wikipedia本部条目部长表。"
+        ),
+    },
+]
+
+d["departments"] = [
+    {
+        "name": "Viceministerio de Tierras（土地副部长办公室）",
+        "dept_id": None,
+        "head": None,
+        "description": (
+            "主管土地政策与土地管理：农地权属清理（saneamiento）、土地再分配、产权证发放与地籍管理，"
+            "下辖INRA。2025-11-18本部裁撤时整体划归总统府部（BO-GOV-006）——为该轮重组中最受关注的调整之一"
+            "（urgente.bo、El País Tarija、Opinión、Visión 360报道）。"
+            "划转后副部长人事：奥尔曼多·瓦卡·迪埃斯·希门内斯（Hormando Vaca Díez Jiménez，2026-01就任，"
+            "主打土地重新秩序化与打击土地投机），2026年年中内阁动荡后由阿德里安·奥利瓦·阿尔卡萨尔"
+            "（Adrián Oliva Alcázar）接任（2026-08，据总统府部官方账号及媒体帖文）。"
+        ),
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Viceministerio de Desarrollo Rural y Agropecuario（农牧发展副部长办公室）",
+        "dept_id": None,
+        "head": "阿尔瓦罗·莫利内多·卡塔里（Álvaro Mollinedo Catari，2020-11-17起任职至本部裁撤）",
+        "description": (
+            "主管农牧生产政策：家庭农业与农牧民经济扶持、粮食主权与食品安全议程、生产性项目投放"
+            "（如2025年生物技术推广、蜂产业支持包）。2025-11-18随本部裁撤并入生产发展、农村与水部，"
+            "改组为『农牧与整体发展副部长办公室』（Viceministerio de Desarrollo Agropecuario y Desarrollo Integral）。"
+            "来源：es.wikipedia本部条目（副部长表）；urgente.bo（2025-11-18重组结构）。"
+        ),
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Viceministerio de la Coca y Desarrollo Integral（古柯与整体发展副部长办公室）",
+        "dept_id": None,
+        "head": None,
+        "description": (
+            "主管古柯种植政策：合法种植限额管理、自愿减种与替代发展、古柯种植区综合发展项目。"
+            "玻利维亚古柯种植面积2025年达36,400公顷（同比+7%，UNODC第23期监测报告），"
+            "限额政策与‘社会用途古柯’目标承压。2025-11-18随本部裁撤并入承继部门体系。"
+            "来源：es.wikipedia本部条目；UNODC/AP（2026-09-08）。"
+        ),
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Instituto Nacional de Reforma Agraria（INRA，国家土地改革研究所）",
+        "dept_id": None,
+        "head": None,
+        "description": (
+            "依1996年第1715号法设立的执行机构，隶属本部，负责土地权属清理、产权证发放与农地登记。"
+            "2025-11-18随土地副部长办公室划归总统府部；2026-04帕斯政府颁布第157号法调整INRA土地产权处理权限，"
+            "2026-07-15总统帕斯宣布集中清理发放INRA积压的8.9万余份土地产权证。"
+            "来源：urgente.bo、El País Tarija、Opinión（2025-11）；Bolivia TV（2026-07-15）；Bolivia TV/RKM Noticias（2026-04-08）。"
+        ),
+        "parent_dept_id": None,
+    },
+    {
+        "name": "SENASAG（Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria，国家农牧卫生与食品安全局）",
+        "dept_id": None,
+        "head": None,
+        "description": (
+            "本部下属农牧卫生技术机构：动植物检疫、农牧投入品监管与唯一官方卫生注册（registro sanitario）的实施与管理。"
+            "本部官方账号2025-10-16世界粮食日帖文仍以其职能作机构介绍；本部裁撤后随农牧板块归属承继部门体系。"
+            "来源：MDRyT官方Facebook（2025-10-16）。"
+        ),
+        "parent_dept_id": None,
+    },
+    {
+        "name": "INIAF（Instituto Nacional de Innovación Agropecuaria y Forestal，国家农牧林业创新研究所）",
+        "dept_id": None,
+        "head": None,
+        "description": (
+            "本部下属农牧林业科研创新机构（种子、生物技术与林业研究）。2026年10月其官网页眉列于"
+            "生产可持续、环境与水部（承继部门）实体体系（另列国家农业保险研究所INSA、EMPODERAR、OAP等）。"
+            "来源：https://iniaf.gob.bo/（2026-10直接检索）。"
+        ),
+        "parent_dept_id": None,
+    },
+]
+
+d["social_accounts"] = [
+    {
+        "platform": "facebook",
+        "account_name": "Ministerio de Desarrollo Rural y Tierras (MDRyT)",
+        "url": "https://www.facebook.com/MinisteriodeDesarrolloRuralyTierras",
+        "source": "官方页（2025年7-10月仍活跃发布部长活动，本部裁撤后停止更新）",
+    },
+    {
+        "platform": "twitter_x",
+        "account_name": "@MDRyTOficial",
+        "url": "https://x.com/MDRyTOficial",
+        "source": "MDRyT官方Facebook账号2020-12-10公告『encuéntranos como @MDRyTOficial』；账号现况未单独核实",
+    },
+]
+
+d["digital_assets"] = [
+    {
+        "name": "农牧环境与生产观测所门户（OAP，oap.produccion.gob.bo）",
+        "url": "https://oap.produccion.gob.bo/",
+        "description": (
+            "本部2025年创设的技术机构OAP的官方门户（2025-10-23发布新版），统一发布农牧业统计、监测与生产信息系统；"
+            "本部裁撤后现挂承继部门produccion.gob.bo域名运行。"
+        ),
+        "source": "https://oap.produccion.gob.bo/sistemas/（2026-10检索）；MDRyT官方Facebook（2025-10-23）",
+    },
+    {
+        "name": "原官网 www.ruralytierras.gob.bo（已失效）",
+        "url": "http://www.ruralytierras.gob.bo/",
+        "description": (
+            "西语维基百科本部条目信息框记载的官方网站域名；2026-10验证无法访问（本部2025-11-18裁撤后停用），"
+            "相关职能内容由承继部门官网produccion.gob.bo承继。"
+        ),
+        "source": "es.wikipedia本部条目信息框；2026-10直接访问失败验证",
+    },
+    {
+        "name": "INIAF官方门户（iniaf.gob.bo）",
+        "url": "https://iniaf.gob.bo/",
+        "description": (
+            "原本部下属国家农牧林业创新研究所门户网站，页眉现列承继部门（生产可持续、环境与水部）及其下属实体"
+            "（INSA、EMPODERAR、OAP），是本部机构体系存续的在线痕迹之一。"
+        ),
+        "source": "https://iniaf.gob.bo/（2026-10直接检索）",
+    },
+]
+
+d["recent_events"] = [
+    {
+        "date": "2025-10-29",
+        "title": "末任部长弗洛雷斯抨击新政府拟裁并本部为『巨大的错误』",
+        "description": (
+            "帕斯胜选并放话精简内阁后，部长亚米尔·弗洛雷斯公开表示裁撤农村发展与土地部是"
+            "『巨大的错误』（error enorme），强调该部对农牧生产与农村民生不可或缺；此前其任期内的"
+            "农牧环境与生产观测所（OAP）刚于10月23日上线新门户。"
+        ),
+        "impact": "本部在政府换届中沦为精简对象，约三周后被正式裁并；农牧与土地两大板块被拆分归属不同部门。",
+        "source": "https://www.facebook.com/BTVCanalOficial/posts/-el-ministro-de-desarrollo-rural-y-tierras-yamil-flores-calific%C3%B3-de-error-enorme/122301492812055018/; https://www.facebook.com/patboliviahd/posts/1256670973158663",
+    },
+    {
+        "date": "2025-11-09",
+        "title": "帕斯就任总统：任命总统府部长卢波兼任本部临时部长",
+        "description": (
+            "罗德里戈·帕斯·佩雷拉就任总统（2025-11-08）次日，任命何塞·路易斯·卢波为总统府部部长"
+            "并兼任本部临时部长（2025-11-09至11-16），末任实职部长弗洛雷斯同日去职；"
+            "同期奥斯卡·胡斯蒂尼亚诺被任为环境与水资源部部长兼生产力发展部临时部长，为三部合并铺路。"
+        ),
+        "impact": "本部进入过渡托管状态，部长职位由总统府部长兼任，预示土地职能将向总统府集中。",
+        "source": "https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Lupo; https://es.wikipedia.org/wiki/Ministerio_de_Desarrollo_Rural_y_Tierras",
+    },
+    {
+        "date": "2025-11-18",
+        "title": "本部被裁撤：农牧板块并入生产发展、农村与水部，土地板块划归总统府部",
+        "description": (
+            "帕斯政府依修改第4857号最高法令的重组法令重构内阁（17部缩至15部，副部长58个缩至37个）："
+            "本部与生产力发展与多元经济部、环境与水资源部合并为生产发展、农村与水部（MDPRyA），"
+            "农牧发展与整体发展职能并入其中；土地副部长办公室则整体划归总统府部，INRA随迁。"
+            "末任临时部长卢波以总统府部长身份完成这一交接。"
+        ),
+        "impact": "运行逾16年的MDRyT建制终结；玻利维亚土地政策与农地审批自此由总统府部直接掌控，"
+                "农牧政策与生产政策首次同部；本条目后续事件均涉及承继机构。",
+        "source": "https://www.urgente.bo/noticia/paz-ya-definio-la-estructura-del-ejecutivo-tendra-15-ministerios-y-37-viceministerios; https://elpais.bo/nacional/20251119_el-ministerio-de-la-presidencia-crea-dos-viceministerios.html; https://www.vision360.bo/noticias/2025/11/19/35587-divididos-y-fusionados-asi-quedan-conformados-los-15-ministerios-de-rodrigo-paz; https://www.opinion.com.bo/pais/presidencia-suma-dos-nuevos-viceministerios-ministro-jose-luis-lupo-asume-mas-poder/20251125000015984176.html",
+    },
+    {
+        "date": "2026-07-15",
+        "title": "总统府部/INRA体系宣布集中发放8.9万余份积压土地产权证",
+        "description": (
+            "总统帕斯宣布将集中清理发放国家土地改革研究所（INRA）在全国积压的逾8.9万份土地产权证"
+            "（títulos de tierra），优先解决农地权属悬置问题；此前2026-04-08帕斯已颁布第157号法律"
+            "调整INRA土地产权处理权限。"
+        ),
+        "impact": "原属本部（现属总统府部）的土地确权流程转为政治优先议程，数十万农户权属预期受影响；"
+                "亦被分析为政府巩固农村支持的动作。",
+        "source": "https://x.com/Canal_BoliviaTV/status/2077420987163840625; https://www.facebook.com/BTVCanalOficial/videos/1336760295307408/",
+    },
+    {
+        "date": "2026-08-13",
+        "title": "DS 5675内阁再重组：承继部更名『生产可持续、环境与水部』，内阁缩至12部",
+        "description": (
+            "帕斯政府颁布第5675号最高法令（Organización del Órgano Ejecutivo），撤销发展规划部与旅游部，"
+            "内阁缩至12个部；本部农牧职能所在的承继部生产发展、农村与水部更名为"
+            "生产可持续、环境与水部（MPSMAyA），奥斯卡·胡斯蒂尼亚诺留任部长。"
+        ),
+        "impact": "本部农牧板块的归属最终定型于MPSMAyA；土地板块继续留在总统府部，本部职能格局至此稳定。",
+        "source": "https://brujuladigital.net/politica/2026/08/14/gobierno-publica-decreto-con-la-nueva-organizacion-del-ejecutivo-conozca-que-paso-con-planificacion-y-turismo-64986; https://erbol.com.bo/nacional/decreto-formaliza-estructura-de-12-ministerios-turismo-y-culturas-configuran-un; https://abi.bo/gobierno-aprueba-el-decreto-supremo-5675-y-reestructura-la-organizacion-del-organo-ejecutivo/",
+    },
+    {
+        "date": "2026-09-08",
+        "title": "UNODC监测报告：2025年玻利维亚古柯种植面积增7%至36,400公顷",
+        "description": (
+            "联合国毒品和犯罪问题办公室发布第23期玻利维亚古柯种植监测报告：2025年古柯种植面积36,400公顷，"
+            "较2024年（34,000公顷）增长7%，古柯叶价格最高上涨82%；报告在联合国驻玻利维亚系统渠道发布。"
+        ),
+        "impact": "原由本部古柯与整体发展副部长办公室主管的限额与减种政策在承继部门体系内承压，"
+                "古柯扩种与替代发展矛盾成为农村政策最棘手议题之一。",
+        "source": "https://bolivia.un.org/es/322372-informe-de-monitoreo-de-cultivos-de-coca-2025; https://apnews.com/article/bolivia-coca-excendentaria-unodc-informe-d9cc34cefbb2842471e08413d8557501",
+    },
+]
+
+d["related_entities"] = [
+    {
+        "org_id": "BO-GOV-012",
+        "org_name": "Ministerio de Desarrollo Productivo y Economía Plural（生产力发展与多元经济部，现为承继部）",
+        "org_type": "GOV",
+        "org_description": (
+            "2025-11-18与本部及环境与水资源部合并为生产发展、农村与水部（MDPRyA），"
+            "2026-08-13经DS 5675更名生产可持续、环境与水部（MPSMAyA）；承接本部农牧发展、"
+            "古柯与整体发展、农牧卫生与科研板块，现任部长奥斯卡·胡斯蒂尼亚诺（BO-PERSON-000072）。"
+        ),
+        "relationship_type": "successor",
+    },
+    {
+        "org_id": "BO-GOV-006",
+        "org_name": "Ministerio de la Presidencia（总统府部）",
+        "org_type": "GOV",
+        "org_description": (
+            "2025-11-18内阁重组中承接本部土地板块：土地副部长办公室与INRA整体划入，"
+            "并新设土地副部长（先后由瓦卡·迪埃斯、奥利瓦出任）；临时部长卢波交接期间同时执掌两部。"
+        ),
+        "relationship_type": "successor",
+    },
+    {
+        "org_id": "BO-GOV-016",
+        "org_name": "Ministerio de Medio Ambiente y Agua（环境与水资源部）",
+        "org_type": "GOV",
+        "org_description": (
+            "与本部同批（2025-11-18）被裁撤合并的兄弟部委：其水务职能并入生产发展、农村与水部，"
+            "环境职能临时划入发展规划与环境部（2026年8月起归MPSMAyA）。"
+        ),
+        "relationship_type": "sibling",
+    },
+    {
+        "org_id": None,
+        "org_name": "Instituto Nacional de Reforma Agraria（INRA，国家土地改革研究所）",
+        "org_type": "GOV",
+        "org_description": (
+            "依1996年第1715号法设立的土地改革执行机构，裁撤前为本部核心下属机构；"
+            "2025-11-18随土地副部长办公室划归总统府部，2026年承担积压产权证清理发放。ID索引未收录，org_id为空。"
+        ),
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "Servicio Nacional de Sanidad Agropecuaria e Inocuidad Alimentaria（SENASAG，国家农牧卫生与食品安全局）",
+        "org_type": "GOV",
+        "org_description": (
+            "本部下属农牧卫生与食品安全监管机构（动植物检疫、官方卫生注册）；本部裁撤后随农牧板块归属承继部门体系。"
+            "ID索引未收录，org_id为空。"
+        ),
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "Instituto Nacional de Innovación Agropecuaria y Forestal（INIAF，国家农牧林业创新研究所）",
+        "org_type": "GOV",
+        "org_description": (
+            "本部下属农牧林业科研创新机构；2026年10月其官网页眉列于承继部门MPSMAyA实体体系。"
+            "ID索引未收录，org_id为空。"
+        ),
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-GOV-024",
+        "org_name": "Tribunal Agroambiental（农牧环境法庭）",
+        "org_type": "GOV",
+        "org_description": (
+            "玻利维亚主管农地、水与林业环境司法的专门法院，受理土地权属与农牧环境案件，"
+            "与本部土地管理职能直接衔接；本部裁撤后其案件行政对应方转为承继部门与总统府部土地板块。"
+        ),
+        "relationship_type": "affiliated",
+    },
+    {
+        "org_id": "BO-SOE-008",
+        "org_name": "Empresa de Apoyo a la Producción de Alimentos（EMAPA/EMPODERAR，食品生产支持公司）",
+        "org_type": "SOE",
+        "org_description": (
+            "依第29230号最高法令（2008-08-15）设立的国有粮食生产与采购企业（2019年曾更名EMPODERAR），"
+            "长期归属农牧主管部门体系；2026年10月与INIAF、INSA、OAP并列于承继部门MPSMAyA官网实体清单（iniaf.gob.bo页眉）。"
+        ),
+        "relationship_type": "affiliated",
+    },
+]
+
+d["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入），本部及承继机构与APEC不存在直接互动。"
+    "农村发展与土地管理领域的国际合作主要依托联合国粮农组织（FAO）等多边渠道："
+    "2026-10-15承继部门（生产可持续、环境与水部）部长胡斯蒂尼亚诺率团出席罗马FAO世界粮食论坛，"
+    "推介总额1.213亿美元的农村生产转型项目计划并会晤FAO总干事推动农业投资"
+    "（来源：produccion.gob.bo官方新闻稿，2026-10-15）。"
+)
+
+d["collection_meta"] = {
+    "collection_date": "2026-10-25",
+    "phase": "phase3_enriched",
+    "data_sources": [
+        "wikipedia",
+        "wikidata",
+        "wikipedia_es_ministerio_desarrollo_rural_y_tierras",
+        "wikipedia_es_jose_luis_lupo",
+        "urgente_bo",
+        "elpais_bo_tarija",
+        "vision360_bo",
+        "opinion_com_bo",
+        "brujuladigital_net",
+        "erbol_com_bo",
+        "abi_bo",
+        "gaceta_oficial_de_bolivia_ds_5675",
+        "produccion_gob_bo",
+        "oap_produccion_gob_bo",
+        "iniaf_gob_bo",
+        "bolivia_tv_x_facebook",
+        "unodc_bolivia_ap_news",
+        "facebook_official_pages_mdryt",
+        "web_search",
+    ],
+    "completeness_score": 86,
+    "quotes": [
+        {
+            "title": "Ministerio de Desarrollo Rural y Tierras（es.wikipedia，含部长沿革与三副部长结构）",
+            "url": "https://es.wikipedia.org/wiki/Ministerio_de_Desarrollo_Rural_y_Tierras",
+        },
+        {
+            "title": "Paz ya definió la estructura del Ejecutivo, tendrá 15 ministerios y 37 viceministerios（Urgente.bo，2025-11-15/18）",
+            "url": "https://www.urgente.bo/noticia/paz-ya-definio-la-estructura-del-ejecutivo-tendra-15-ministerios-y-37-viceministerios",
+        },
+        {
+            "title": "El Ministerio de la Presidencia crea dos viceministerios（El País Tarija，2025-11-19，土地副部长划转）",
+            "url": "https://elpais.bo/nacional/20251119_el-ministerio-de-la-presidencia-crea-dos-viceministerios.html",
+        },
+        {
+            "title": "José Luis Lupo（es.wikipedia，临时部长任期2025-11-09至11-16）",
+            "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Lupo",
+        },
+        {
+            "title": "Gobierno publica decreto con la nueva organización del Ejecutivo（Brújula Digital，2026-08-14，DS 5675）",
+            "url": "https://brujuladigital.net/politica/2026/08/14/gobierno-publica-decreto-con-la-nueva-organizacion-del-ejecutivo-conozca-que-paso-con-planificacion-y-turismo-64986",
+        },
+        {
+            "title": "El presidente Rodrigo Paz anunció la entrega de más de 89 mil títulos de tierras pendientes del INRA（Bolivia TV，2026-07-15）",
+            "url": "https://x.com/Canal_BoliviaTV/status/2077420987163840625",
+        },
+        {
+            "title": "Aumenta un 7% los cultivos de coca en Bolivia en 2025, según la UNODC（AP News，2026-09-08）",
+            "url": "https://apnews.com/article/bolivia-coca-excendentaria-unodc-informe-d9cc34cefbb2842471e08413d8557501",
+        },
+    ],
+    "notes": (
+        "现状核实（2025-2026多源交叉）：本部已于2025-11-18被帕斯政府裁撤，非存续机构。西语维基百科本部条目首句已改用过去时"
+        "『fue un ministerio』。职能去向两路：(1)农牧板块并入生产发展、农村与水部（MDPRyA，与BO-GOV-012合并），"
+        "2026-08-13 DS 5675更名生产可持续、环境与水部（MPSMAyA，12部架构，source: brujuladigital/erbol/ABI/Unitel DS 5675原文PDF）；"
+        "(2)土地板块（土地副部长办公室+INRA）整体划归总统府部（BO-GOV-006，source: urgente.bo 2025-11-18、El País Tarija 2025-11-19、"
+        "Opinión 2025-11-25、Visión 360 2025-11-19）。注意：es.wikipedia『Anexo:Ministerios de Bolivia』当前版本同时列出"
+        "『Desarrollo Rural y Agua｜José Luis Lupo(interino)』行，与2025-11-09至11-18过渡期人事（Lupo兼任本部临时部长）吻合，"
+        "非2026年10月现状，未采信为新部存续依据。末任人员：末任实职部长胡安·亚米尔·弗洛雷斯·拉索（2024-08-12至2025-11-08，"
+        "DS 5192就任）；临时部长何塞·路易斯·卢波（2025-11-09至11-16，兼总统府部长，来源其维基条目）。裁撤前长期任职者"
+        "内梅西娅·阿查科略（2010-2015）、塞萨尔·科卡里科（2015-2019）、雷米·冈萨莱斯（2021-2024）据维基部长表收录。"
+        "不确定性：founded_date留空——部名始于2009年2月（胡莉娅·拉莫斯为首位以现名就任的部长，2009-02-08，据维基部长表），"
+        "维基表将沿革上溯至2006-01-23（农牧民事务部时期），未获设立法令一手文献故不填；"
+        "wikidata_qid保留骨架值Q105752851，西语维基本部条目另关联Q56321944，未核实两者合并关系。"
+        "土地副部长在2026年的人事（瓦卡·迪埃斯2026-01就任、奥利瓦2026-08就任）主要依据总统府部官方账号帖文与媒体转述，"
+        "head字段因此留空仅写入描述。原官网ruralytierras.gob.bo于2026-10验证无法访问，website置空。"
+        "ID规则：INRA/SENASAG/INIAF未收录于_name_index.json，org_id按规则置null；未改动id_registry.json。"
+    ),
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(d, f, ensure_ascii=False, indent=2)
+
+print("written OK:", PATH)

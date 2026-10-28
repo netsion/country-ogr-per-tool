@@ -1,0 +1,254 @@
+# -*- coding: utf-8 -*-
+"""Write person profile BO-PERSON-000492 (Efraín Suárez, Creemos VP)."""
+import json
+import os
+
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUT_PATH = os.path.join(OUT_DIR, "persons", "BO-PERSON-000492.json")
+os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+
+profile = {
+    "person_id": "BO-PERSON-000492",
+    "wikidata_qid": None,
+    "name": "Efraín Freddy Suárez Chávez",
+    "name_en": "Efrain Freddy Suarez Chavez",
+    "name_zh": "埃弗拉因·苏亚雷斯",
+    "aliases": [
+        "Efraín Suárez Chávez",
+        "Efraín Suárez",
+        "Efrain Suarez",
+        "Efraín Freddy Suárez Chávez"
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1986-04-29",
+    "birth_date_note": "出生日期1986年4月29日出自Unitel 2021-05-03卡马乔首任内阁名单报道（截至目前为单一来源）；出生地特里尼达（贝尼省首府）同见该报道。",
+    "birth_place": "特里尼达，贝尼省 (Trinidad, Beni)",
+    "contacts": [],
+    "current_positions": [
+        "我们相信（Creemos）公民组织副主席",
+        "Unidad反对派联盟中Creemos党代表",
+        "路易斯·费尔南多·卡马乔的个人律师与辩护律师"
+    ],
+    "education": [
+        {
+            "institution": "圣克鲁斯私立大学 (Universidad Privada de Santa Cruz)",
+            "degree": "bachelor",
+            "field": "法学 (Derecho)",
+            "note": "获Licenciatura en Derecho（法学士学位）；报道未给出就读年份。",
+            "source": "Unitel 2021-05-03内阁名单报道"
+        },
+        {
+            "institution": "加夫列尔·雷内·莫雷诺自治大学 (Universidad Autónoma Gabriel René Moreno) 与西班牙瓦伦西亚大学 (Universidad de Valencia) 联合项目",
+            "degree": "master",
+            "field": "民法与民事诉讼法 (Derecho Civil y Procesal Civil)",
+            "note": "硕士（Maestría）为UAGRM与西班牙瓦伦西亚大学联合培养项目。",
+            "source": "Unitel 2021-05-03内阁名单报道"
+        },
+        {
+            "institution": "库布雷大学 (Universidad Cumbre)",
+            "degree": "other",
+            "field": "高等教育学 (Educación Superior)",
+            "note": "高等教育部文凭课程（Diplomado en Educación Superior）。",
+            "source": "Unitel 2021-05-03内阁名单报道"
+        }
+    ],
+    "work_experience": [
+        {
+            "organization": "圣克鲁斯省政府 (Gobernación de Santa Cruz)",
+            "org_id": None,
+            "position": "法律事务部长 (Secretario Jurídico，后称司法部长Secretario de Justicia)",
+            "start_date": "2021-05-03",
+            "end_date": None,
+            "description": "2021年5月3日晚被卡马乔省长任命就任，为其首任内阁八名秘书（部长）之一，主管法律事务；该职位其后以「司法部长（Secretario de Justicia）」名义见诸报道。确切卸任日期未查到，2022年9月起已以「省长管理顾问」身份活动。",
+            "source": "Unitel 2021-05-03 (noticias.unitel.bo)；Gobernación de Santa Cruz官方Facebook 2021-10-01"
+        },
+        {
+            "organization": "圣克鲁斯省政府 (Gobernación de Santa Cruz)",
+            "org_id": None,
+            "position": "省长顾问 (Asesor de Gestión / Asesor Institucional)",
+            "start_date": None,
+            "end_date": "2024-01-26",
+            "description": "卡马乔自2022年12月起被羁押于Chonchocoro监狱期间，苏亚雷斯作为其核心顾问参与省府事务（包括卡马乔在狱中签署法律和决议的相关安排）。2024年1月26日宪法法庭裁定副省长马里奥·阿吉莱拉（Mario Aguilera）代行省长职务，苏亚雷斯同日辞职离任。",
+            "source": "El Deber 2024-02-06 (eldeber.com.bo_355871)；eju.tv 2024-05-29；X用户@PepePomacusi 2024-01-26"
+        },
+        {
+            "organization": "我们相信 (Creemos)",
+            "org_id": "BO-PARTY-004",
+            "position": "副主席 (Vicepresidente)",
+            "start_date": None,
+            "end_date": None,
+            "description": "至少自2024年年中起即以Creemos副主席身份公开活动（2024年8月报道已用此头衔），并长期兼任该组织及卡马乔的发言人（vocero）；西班牙语维基百科Creemos条目infobox列其为副主席。确切就任时间未查到。",
+            "source": "es.wikipedia.org/wiki/Creemos；infodiez.com 2024-08-03；本人Facebook页面简介"
+        },
+        {
+            "organization": "圣克鲁斯当地多家律师事务所 (estudios jurídicos locales de Santa Cruz)",
+            "org_id": None,
+            "position": "执业律师 (Abogado)",
+            "start_date": None,
+            "end_date": None,
+            "description": "进入省府工作前在当地多家律师事务所执业，具有丰富的法律实务经验。",
+            "source": "Unitel 2021-05-03内阁名单报道"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000491",
+            "person_name": "路易斯·费尔南多·卡马乔 (Luis Fernando Camacho)",
+            "relationship_type": "political_ally",
+            "description": "Creemos创始人与主席、圣克鲁斯省长。苏亚雷斯是其最核心亲信之一：任其省府法律事务部长、省长顾问、政党副主席及发言人，并在「Golpe de Estado I」案中担任其辩护律师，被玻利维亚媒体称为卡马乔的「左右手（mano derecha）」。2024年底起在反对派协调中代表卡马乔。",
+            "source": "Vision360 2025-01-03；Unitel 2021-05-03；El Deber 2024-02-06"
+        },
+        {
+            "person_id": "BO-PERSON-000147",
+            "person_name": "何塞·阿曼多·乌里奥斯特·维耶拉 (José Armando Urioste Viera)",
+            "relationship_type": "uncle_aunt",
+            "description": "三级姻亲关系：Urioste之妻是苏亚雷斯父亲的姊妹（即苏亚雷斯的姑母），Urioste为苏亚雷斯的姑父。2026年10月Urioste当选玻利维亚代理总检察长后，该亲属关系被曝光并引发利益关联质疑（前众议员Tomás Monasterio要求说明），Urioste否认存在直接影响，承认其妻与苏亚雷斯有亲属关系；苏亚雷斯本人出席了议会选举Urioste的会议。",
+            "source": "El Mamoré 2026-10-05 (el-mamore.com)"
+        },
+        {
+            "person_id": None,
+            "person_name": "马里奥·阿吉莱拉 (Mario Aguilera)",
+            "relationship_type": "political_rival",
+            "description": "Creemos籍圣克鲁斯省副省长。2024年1月26日代行省长职权后，苏亚雷斯辞去省府职务；阿吉莱拉政府其后就「公证案」对苏亚雷斯扩大刑事指控（指控其越权），并称不会让「偷走电脑信息」者逍遥。苏亚雷斯称阿吉莱拉「走着一条与我们完全不同的路线」，要求以审计而非「报复」方式处理省政交接。",
+            "source": "El Deber 2024-02-06 (eldeber.com.bo_355871)；eju.tv 2024-05-29"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "Efraín Suárez Chávez (@EfraSuarezC)",
+            "url": "https://www.facebook.com/EfraSuarezC/",
+            "source": "Facebook检索；页面简介自述「Creemos副主席，民主与自由的捍卫者」，与本人身份一致（约1019名关注者）"
+        }
+    ],
+    "social_accounts_note": "六平台扫描结果：Facebook确认1个本人账号；X(Twitter)/Instagram/LinkedIn/TikTok/YouTube未发现可确认的本人账号（同名足球运动员@esuarez_27、哥伦比亚外科医生@EFRAINSUAREZMD、洪都拉斯央行经济学家Efraín Suárez Torres及多名美国同名者均已排除；其多次电视访谈见于Unitel/El Deber等媒体频道，非本人频道）。",
+    "family_members": [],
+    "family_note": "未见公开具名的配偶、子女等家庭成员信息。据2026年10月报道，其父为时任代理总检察长José Armando Urioste Viera妻子的兄弟（即苏亚雷斯与Urioste为三级姻亲），父亲姓名未见于公开报道。",
+    "political_stances": [
+        {
+            "date": "2024-02-06",
+            "topic": "省政审计与「政治犯」",
+            "stance_content": "支持对卡马乔执政时期的省府管理进行技术审计以划清与代省长阿吉莱拉管理的界限，但反对在审计前预设结论、将其作为对卡马乔团队的「报复」；自称将坚持为「我们的政治犯」的自由而战，不放弃民主与自治斗争。",
+            "source": "El Deber 2024-02-06 (eldeber.com.bo/santa-cruz/efrain-suarez-espera-auditorias-a-la-gestion-de-camacho-en-la-gobernacion-no-venganza_355871)"
+        },
+        {
+            "date": "2024-12-31",
+            "topic": "针对其自身的刑事起诉",
+            "stance_content": "就「公证案」中被以越权罪正式起诉一事，指其为MAS（争取社会主义运动）集团对反对派的政治迫害，旨在破坏反对派「团结阵营」、扰乱2025年大选前的政治格局。",
+            "source": "Red Uno 2024-12-31 (reduno.com.bo/noticias/efrain-suarez-denuncia-persecucion-politica-por-imputacion-2024123121035)；La Razón 2024-12-30"
+        },
+        {
+            "date": "2025-08-21",
+            "topic": "2025年大选反对派联盟",
+            "stance_content": "确认Creemos与国家团结党（Unidad Nacional）等组成「Unidad」联盟，支持单一反对派候选人萨穆埃尔·多利亚·梅迪纳（Samuel Doria Medina）竞选总统；苏亚雷斯任该联盟圣克鲁斯竞选负责人。",
+            "source": "Asuntos Centrales Facebook 2025-08-21；eju.tv/媒体2025-07-16报道（jefe de campaña de Unidad en Santa Cruz）"
+        },
+        {
+            "date": "2025-08-28",
+            "topic": "卡马乔获释与省政回归",
+            "stance_content": "宣布正在办理卡马乔转为居家监禁后的放行手续，并组织其返回圣克鲁斯；称卡马乔抵达后将重新就任省长（「Ni bien llegue a Santa Cruz, Camacho asume la Gobernación」）。",
+            "source": "El Deber YouTube访谈 2025-08-28 (youtube.com/watch?v=tZR5vggtMGs)；Unitel Facebook 2025-08-25/28"
+        },
+        {
+            "date": "2026-05-19",
+            "topic": "紧急状态与社会抗议",
+            "stance_content": "面对全国抗议浪潮，认为政府尚不宜采取紧急状态（Estado de excepción）这一量级的措施，各行业领导层应反思并坐下来与政府对话；政府不应与游行民众对抗。",
+            "source": "CCB 2026-05-23 (ccb.com.bo/politica/noticia/659)"
+        },
+        {
+            "date": "2026-02-20",
+            "topic": "Creemos-Patria地方选举联盟与执政联盟关系",
+            "stance_content": "作为「Creemos-Patria」联盟（2026年地方选举名义）发言人表示，距竞选结束尚余一个月，并认为与国家政府（罗德里戈·帕斯政府）结盟有利于圣克鲁斯的发展。",
+            "source": "Unitel Facebook视频 2026-02-20 (facebook.com/unitelbolivia/videos/1617709035905248)"
+        },
+        {
+            "date": "2026-07",
+            "topic": "2026年地方选举反对派统一候选人",
+            "stance_content": "作为Creemos代表出席「Unidad」联盟全体会议；2026年10月联署反对派协议，推动在2026年次国家选举中形成对抗MAS的统一候选人。另有报道称2026年2月其代表卡马乔不排除Camacho角逐总统职位的可能性。",
+            "source": "La Razón Facebook 2026-07-27；Sin Mordaza Facebook 2026-02-27"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2021-05-03",
+            "achievement": "获任命进入卡马乔省长首任内阁，出任圣克鲁斯省政府法律事务部长（Secretario Jurídico），为内阁八名部长之一。",
+            "organization": "圣克鲁斯省政府 (Gobernación de Santa Cruz)"
+        },
+        {
+            "date": "2024-12",
+            "achievement": "代表被羁押的卡马乔参与组建反对派「团结阵营」（Bloque de Unidad），签署争取2025年大选单一反对派候选人的协议，该阵营其后发展为Unidad联盟。",
+            "organization": "团结阵营 (Bloque de Unidad)"
+        },
+        {
+            "date": "2025-04-09",
+            "achievement": "作为「团结阵营」代表在新闻发布会上正式宣布阵营决定，推举萨穆埃尔·多利亚·梅迪纳为2025年大选唯一反对派总统候选人（该阵营随即注册为Unidad联盟）。",
+            "organization": "团结阵营 (Bloque de Unidad)"
+        },
+        {
+            "date": "2025-09-05",
+            "achievement": "「公证案」中获检察院下达不予起诉决定（sobreseimiento，检方认定指控其越权罪的证据不足），结束约一年的刑事追诉。",
+            "organization": "玻利维亚检察院 (Ministerio Público)"
+        }
+    ],
+    "biography_summary": "埃弗拉因·弗雷迪·苏亚雷斯·查韦斯（Efraín Freddy Suárez Chávez）是玻利维亚律师、右翼公民组织「我们相信」（Creemos）副主席，圣克鲁斯省长路易斯·费尔南多·卡马乔的核心亲信、发言人与辩护律师，被玻利维亚媒体称为卡马乔的「左右手」。他1986年4月29日生于贝尼省首府特里尼达，毕业于圣克鲁斯私立大学法律专业，获加夫列尔·雷内·莫雷诺自治大学与西班牙瓦伦西亚大学联合项目民商法硕士学位，曾在圣克鲁斯多家律所执业。2021年5月出任圣克鲁斯省政府法律事务部长（后称司法部长），卡马乔入狱后转任省长顾问，2024年1月26日副省长阿吉莱拉代行省长职务时辞职。2024年8月他因「公证案」（涉嫌在卡马乔服刑期间代其办理委托书公证）被透明部举报、同年12月30日被以越权罪正式起诉，他指其为对反对派的政治迫害；2025年9月5日检察院以证据不足对其不予起诉。2024年底他代表卡马乔参与组建反对派「团结阵营」，2025年发展为支持多利亚·梅迪纳竞选总统的Unidad联盟，他任联盟圣克鲁斯竞选负责人；Creemos其后加入罗德里戈·帕斯执政联盟。2026年他继续作为Creemos代表参与反对派协调，推动2026年地方选举统一候选人；同年10月其与代理总检察长Urioste的三级姻亲关系引发关注。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "news_search",
+            "web_search",
+            "wikipedia",
+            "social_media"
+        ],
+        "notes": "数据来源确认情况：核心身份信息（法定全名Efraín Freddy Suárez Chávez、1986-04-29生于特里尼达、UPSA法学学士、UAGRM-瓦伦西亚大学民商法硕士）出自Unitel 2021-05-03内阁名单及Correo del Sur 2025-09-05引述的检察院结案决议，主要事实均有≥2独立来源交叉验证。关键发现：①「公证案」已于2025-09-05获不予起诉（sobreseimiento），此前2024-12-30的起诉不再是待决状态；②2026年10月其与代理总检察长Urioste的三级姻亲关系经El Mamoré详细报道；③2025年大选Creemos先加入Unidad联盟（多利亚·梅迪纳），后成为罗德里戈·帕斯执政联盟成员。存疑/留空说明：Creemos副主席就任起始时间未查到；配偶子女信息未查到；birth_date为单一来源（Unitel）；X/Instagram/LinkedIn/TikTok/YouTube无本人确认账号。排重说明：2021年EDRM选举文件中的MAS候选人「Efraín Suárez Flores」为同姓名他人；贝尼省前省长Ernesto Suárez（BO-PERSON-000505）与本人未见亲缘关系证据，不作关联。name_zh沿用既有译名「埃弗拉因·苏亚雷斯」，未查到玻利维亚华文媒体更权威全名译法。",
+        "quotes": [
+            {
+                "title": "¿Quién es quién en el primer gabinete del gobernador Camacho? - Unitel",
+                "url": "https://noticias.unitel.bo/politica/quien-es-quien-en-el-primer-gabinete-del-gobernador-camacho-FFUN147561"
+            },
+            {
+                "title": "Fiscalía decide cerrar el caso \"Notaría\" contra Camacho al no encontrar pruebas suficientes - Correo del Sur",
+                "url": "https://correodelsur.com/seguridad/20250905/fiscalia-decide-cerrar-el-caso-notaria-contra-camacho-al-no-encontrar-pruebas-suficientes.html"
+            },
+            {
+                "title": "Fiscalía cierra el \"caso notaría\" donde Luis Fernando Camacho y Efraín Suárez eran investigados - El Deber",
+                "url": "https://eldeber.com.bo/santa-cruz/fiscalia-cierra-el-caso-notaria-donde-luis-fernando-camacho-y-efrain-suarez-eran-investigados_529053/"
+            },
+            {
+                "title": "Notifican a Efraín Suárez, la \"mano derecha\" de Camacho, para declarar por el caso Notaría - Visión 360",
+                "url": "https://www.vision360.bo/noticias/2025/01/03/17787-notifican-a-efrain-suarez-la-mano-derecha-de-camacho-para-declarar-por-el-caso-notaria"
+            },
+            {
+                "title": "Efraín Suárez espera auditorías a la gestión de Camacho en la Gobernación, no venganza - El Deber",
+                "url": "https://eldeber.com.bo/santa-cruz/efrain-suarez-espera-auditorias-a-la-gestion-de-camacho-en-la-gobernacion-no-venganza_355871/"
+            },
+            {
+                "title": "El vicepresidente de CREEMOS dice que no es tiempo de pensar en un estado de excepción - CCB",
+                "url": "https://www.ccb.com.bo/politica/noticia/659/el-vicepresidente-de-creemos-dice-que-no-es-tiempo-de-pensar-en-un-estado-de-excepcion"
+            },
+            {
+                "title": "Urioste niega ser tío político de Suárez, pero el vínculo familiar es de tercer grado - El Mamoré",
+                "url": "https://el-mamore.com/urioste-niega-ser-tio-politico-de-suarez-pero-el-vinculo-familiar-es-de-tercer-grado/"
+            },
+            {
+                "title": "Creemos - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Creemos"
+            },
+            {
+                "title": "Efraín Suárez Chávez (@EfraSuarezC) - Facebook",
+                "url": "https://www.facebook.com/EfraSuarezC/"
+            },
+            {
+                "title": "Gobernación amplía la denuncia contra Efraín Suárez por supuesta firma falsa de Camacho - eju.tv",
+                "url": "https://eju.tv/2024/05/gobernacion-amplia-la-denuncia-contra-efrain-suarez-por-supuesta-firma-falsa-de-camacho/"
+            }
+        ]
+    }
+}
+
+with open(OUT_PATH, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+
+print("WROTE:", OUT_PATH)
+print("bytes:", os.path.getsize(OUT_PATH))

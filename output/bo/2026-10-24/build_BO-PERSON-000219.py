@@ -1,0 +1,146 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000219 Rossembert Laime Martínez person profile JSON."""
+import json
+import os
+
+profile = {
+    "person_id": "BO-PERSON-000219",
+    "wikidata_qid": None,
+    "name": "Rossembert Laime Martínez",
+    "name_zh": "罗森贝特·莱梅·马丁内斯",
+    "name_en": "Rossembert Laime Martinez",
+    "aliases": [],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "gender_note": "依据西语姓名形式（Rossembert为男性名）及其本人CV中男性职业称谓（ingeniero petrolero）判断，未见出生证明类直接文件。",
+    "name_zh_note": "沿用项目既有译名「罗森贝特·莱梅·马丁内斯」；未检索到中文媒体报道，维基百科无中文条目，无可比对译名。",
+    "contacts": [
+        {
+            "type": "email",
+            "value": "gps@esm.gob.bo",
+            "source": "ESM官网透明度与人力资源页面（esm.gob.bo/transparencia.php）公开职务邮箱"
+        }
+    ],
+    "current_positions": ["穆通钢铁公司钢铁厂总经理"],
+    "education": [
+        {
+            "institution": "圣克鲁斯加夫列尔·雷内·莫雷诺自治大学 (Universidad Autónoma Gabriel René Moreno)",
+            "degree": "bachelor",
+            "field": "石油工程",
+            "start_date": None,
+            "end_date": "2014"
+        }
+    ],
+    "education_note": "UAGRM教育信息来自其两条LinkedIn档案摘要（均列该校、地点圣克鲁斯）；石油工程专业与2014年大学毕业来自其本人上传至Scribd的CV，均属本人自述材料，未见独立第三方佐证，就读起止年份不详。",
+    "languages": "西班牙语（母语）、英语（中级）、葡萄牙语（基础）",
+    "languages_note": "语言能力来自其本人上传的CV（Scribd）。",
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "穆通钢铁公司 (Empresa Siderúrgica del Mutún)",
+            "org_id": "BO-SOE-009",
+            "position": "钢铁项目设备维护管理负责人"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "穆通钢铁公司 (Empresa Siderúrgica del Mutún)",
+            "org_id": "BO-SOE-009",
+            "position": "钢铁厂总经理"
+        }
+    ],
+    "work_note": "2025年1月经ESM月度活动报告（FISC-CO-INF-013-2025）确认为穆通钢铁项目设备维护管理负责人（Responsable de Gestión de Mantenimiento de Equipos del Proyecto Siderúrgico del Mutún）；截至2026年10月经ESM官网现行管理名单确认为钢铁厂总经理（Gerente de Planta Siderúrgica，业务条线EJECUTIVO层级）。两项职务的起任具体日期均未见报道。其本人CV自述早年从事焊工助理（ayudante de soldador）、机械装配（armador mecánico）及工业安装（montajes industriales）等现场工程工作，具体单位与时间不详，故未单列work_experience条目。",
+    "position_note": "ESM官网现行名单（2026-10-25在线核验）中「Gerente de Planta Siderúrgica」列于EJECUTIVO（业务条线）层级，与规划总经理、矿山技术总经理、行财总经理并列；PRESIDENCIA层级为代理执行总裁特赫里纳。玻利维亚媒体未单独报道其任命。",
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000215",
+            "person_name": "阿尔瓦罗·特赫里纳·奥利维拉 (Álvaro Tejerina Olivera)",
+            "relationship_type": "superior",
+            "description": "2026年1月起任ESM代理执行总裁，为莱梅在公司管理层中的上级；两人同列ESM官网现行管理名单（2026年10月核验）。"
+        },
+        {
+            "person_id": None,
+            "person_name": "豪尔赫·阿尔瓦拉多·里瓦斯 (Jorge Alvarado Rivas)",
+            "relationship_type": "superior",
+            "description": "2021年7月至2026年1月任ESM执行总裁；莱梅2025年1月在其任内担任穆通钢铁项目设备维护管理负责人。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Rossembert Laime Martinez",
+            "url": "https://bo.linkedin.com/in/rossembert-laime-martinez-b04255213",
+            "source": "LinkedIn（搜索索引摘要显示教育背景UAGRM、地点圣克鲁斯；直接访问被反爬拦截）"
+        },
+        {
+            "platform": "other",
+            "account_name": "rossembertm",
+            "url": "https://www.scribd.com/rossembertm",
+            "source": "Scribd个人主页（上传本人CV与工程类文档，含C.V.ROSSEMBERT LAIME MARTINEZ）"
+        }
+    ],
+    "social_accounts_note": "另存在同名个人Facebook账号（2020-2024年间在玻经济部、新闻副部（Viceministerio de Comunicación）等官方页面留言，并点赞ESM、玻利维亚碳氢化合物流源商会等帖子），因未能获取其个人主页URL确认身份，未收录为social_accounts条目；LinkedIn另有一条疑似重复档案（https://bo.linkedin.com/in/rossembert-laime-martinez-466155213，仅1位关注者）；Instagram、TikTok、YouTube未发现同名账号。",
+    "family_members": [],
+    "family_note": "配偶、子女等家庭信息未见任何公开报道，故family_members留空。",
+    "political_stances": [],
+    "political_stances_note": "同名Facebook账号曾在2020年6月玻经济部官方帖文下留言，为MAS政府时期信贷政策辩护、批评阿涅斯临时政府「全民红利」（Bono Universal），2021年11月留言「De la mano de Arce saldremos de esta（与阿尔塞一起我们将走出困境）」表达对阿尔塞政府的支持；因无法获取该账号个人主页URL核实与本人身份的唯一对应关系，依据「重要信息需两个独立来源」的铁律，不作为political_stances正式条目收录，仅在此备注。",
+    "major_achievements": [
+        {
+            "date": "2025-01",
+            "achievement": "在穆通钢铁项目设备维护管理负责人任内负责钢铁项目设备维护管理，该钢铁厂于2025年2月正式落成投产",
+            "organization": "穆通钢铁公司 (Empresa Siderúrgica del Mutún)"
+        },
+        {
+            "date": "2026",
+            "achievement": "出任穆通钢铁公司钢铁厂总经理（Gerente de Planta Siderúrgica），截至2026年10月列名ESM官网现行管理名单，跻身公司业务条线负责人之列",
+            "organization": "穆通钢铁公司 (Empresa Siderúrgica del Mutún)"
+        }
+    ],
+    "biography_summary": "罗森贝特·莱梅·马丁内斯（Rossembert Laime Martínez），玻利维亚工程师，现任国有企业穆通钢铁公司（Empresa Siderúrgica del Mutún，ESM）钢铁厂总经理（Gerente de Planta Siderúrgica），主管位于圣克鲁斯省苏亚雷斯港的穆通钢铁厂运营，公务邮箱为gps@esm.gob.bo。据其本人简历，他是圣克鲁斯人，石油工程专业出身，2014年大学毕业，早年从事焊工助理、机械装配与工业安装等现场工程工作，通中级英语和基础葡萄牙语。2025年1月，他在ESM任穆通钢铁项目设备维护管理负责人，同年2月该钢铁厂正式落成投产。此后他升任钢铁厂总经理：截至2026年10月，ESM官网现行管理名单中，他与2026年1月就职的代理执行总裁阿尔瓦罗·特赫里纳·奥利维拉分列总裁与业务条线负责人，公司当时正值罗德里戈·帕斯政府矿业整顿期。其公开信息有限，出生日期、家庭等个人资料未见公开报道。",
+    "profile": {
+        "source_url": None,
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["official_website", "news_search", "web_search", "social_media", "other"],
+        "notes": "数据来源与确认情况：现任职务与官方邮箱经ESM官网Transparencia页直接核验（2026-10-25在线）；教育背景（UAGRM、地点圣克鲁斯）来自LinkedIn搜索索引摘要；石油工程师与2014年毕业信息来自其本人上传Scribd的CV（自述材料）；2025年1月任设备维护管理负责人来自ESM月度活动报告（FISC-CO-INF-013-2025，经Scribd公开）。关键发现：其职业生涯由基层现场工程（焊工助理、机械装配）成长为玻利维亚旗舰国有钢铁项目的厂级负责人。存疑与未收录项：就任钢铁厂总经理的具体日期未见报道；出生日期、出生地、家庭信息未公开；Wikidata无本人条目；同名Facebook账号的政治言论因身份无法唯一确认未收录（详见political_stances_note）。completeness_score客观受限（约47）：该人物公开信息极为有限，无出生/家庭/政治立场/百科条目/照片可用，依据「禁止编造、查不到留空」铁律不以占位条目充数。",
+        "quotes": [
+            {
+                "title": "Transparencia y Recursos Humanos - Empresa Siderúrgica del Mutún",
+                "url": "https://esm.gob.bo/transparencia.php"
+            },
+            {
+                "title": "C.V. ROSSEMBERT LAIME MARTINEZ - Scribd",
+                "url": "https://www.scribd.com/document/573744730/C-V-ROSSEMBERT-LAIME-MARTINEZ"
+            },
+            {
+                "title": "ESM FISC-CO-INF-013-2025 Informe Mensual de Actividades Enero 2025 (Rossembert Laime) - Scribd",
+                "url": "https://www.scribd.com/document/1035803653/Esm-Fisc-Co-Inf-013-2025-a-Esm-Informe-Mensual-de-Actividades-Enero-2025-Rossembert-Laime"
+            },
+            {
+                "title": "Rossembert Laime Martinez | LinkedIn",
+                "url": "https://bo.linkedin.com/in/rossembert-laime-martinez-b04255213"
+            },
+            {
+                "title": "Rossembert Laime Martinez (rossembertm) | Scribd",
+                "url": "https://www.scribd.com/rossembertm"
+            },
+            {
+                "title": "Posesionan a Álvaro Tejerina como presidente interino de la Siderúrgica del Mutún - El Deber",
+                "url": "https://eldeber.com.bo/economia/posesionan-alvaro-tejerina-presidente-interino-siderurgica-mutun_1767396446"
+            }
+        ]
+    }
+}
+
+out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000219.json")
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("written:", out_path)
+print("bio_len:", len(profile["biography_summary"]))

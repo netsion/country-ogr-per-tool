@@ -1,0 +1,316 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-GOV-032 (ATT Bolivia) - phase3_enriched, built from web sources (no Wikidata entry)."""
+import json
+
+PATH = "D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-GOV-032.json"
+
+data = {
+    "org_id": "BO-GOV-032",
+    "basic_info": {
+        "name_original": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
+        "name_zh": "玻利维亚电信与交通运输监管审计局",
+        "name_en": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
+        "aliases": ["ATT", "ATT Bolivia"],
+        "org_type": "GOV",
+        "org_subtype": "regulatory_agency",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "2009-04-09",
+        "website": "https://www.att.gob.bo",
+        "wikidata_qid": None
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "ATT Bolivia",
+            "url": "https://www.facebook.com/BoliviaATT/",
+            "source": "https://www.att.gob.bo/ 官网页脚"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "@ATTBolivia",
+            "url": "https://x.com/attbolivia",
+            "source": "https://www.att.gob.bo/ 官网页脚"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "att.bolivia",
+            "url": "https://www.instagram.com/att.bolivia/",
+            "source": "https://www.att.gob.bo/ 官网页脚"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "@att.bolivia",
+            "url": "https://www.youtube.com/@att.bolivia",
+            "source": "https://www.att.gob.bo/ 官网页脚"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
+            "url": "https://bo.linkedin.com/company/y-fiscalizaci%C3%B3n-de-telecomunicaciones-y-transportes",
+            "source": "LinkedIn 检索结果（玻利维亚区公司主页）"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "RUL 许可与登记查询平台（Registro Único de Licencias）",
+            "url": "https://plataformas.att.gob.bo/index.php/Rul",
+            "description": "ATT 电信许可及运营商登记信息综合查询系统，公众可查询持牌运营商与许可状态。",
+            "source": "https://www.att.gob.bo/ 官网导航（Consultas generales）"
+        },
+        {
+            "name": "设备型式认可注册系统（Homologación）",
+            "url": "https://plataformas.att.gob.bo/index.php/homoregistro/",
+            "description": "电信与TIC设备型式认可（homologación）注册与查询系统，依据 Ley 164 第14条对入网设备进行认可管理。",
+            "source": "https://www.att.gob.bo/ 官网导航"
+        },
+        {
+            "name": "号码携带系统（Portabilidad）",
+            "url": "https://portabilidad.att.gob.bo/",
+            "description": "用户携号转网（portabilidad numérica）办理与查询门户。",
+            "source": "https://www.att.gob.bo/ 官网导航"
+        },
+        {
+            "name": "行业信息系统（SIS, Sistema de Información Sectorial）",
+            "url": "https://sis.att.gob.bo/",
+            "description": "电信、TIC 与邮政行业统计数据、变量与指标在线发布系统，依据 Ley 164 第15条建立并维护。",
+            "source": "https://www.att.gob.bo/ 官网导航"
+        },
+        {
+            "name": "邮政寄递追踪（Ubica tu Envío）",
+            "url": "https://ubicatuenvio.att.gob.bo/",
+            "description": "邮政服务寄递状态查询系统，用户可按单号查询包裹位置。",
+            "source": "https://x.com/attbolivia 官方账号简介及官网导航"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "卡洛斯·阿尔韦托·阿格雷达·莱马 (Carlos Alberto Agreda Lema)",
+            "name_en": "Carlos Alberto Agreda Lema",
+            "title": "Director Ejecutivo",
+            "title_description": "执行局长，ATT 最高行政负责人",
+            "description": "2025年11月21日在拉巴斯由公共工程、服务与住房部长正式任命为执行局长，接替2025年4月上任的 Cristian Mamani；系2025年11月玻利维亚政府更替（罗德里戈·帕斯政府）后执掌 ATT 的最高负责人。上任后主导向星链（Starlink）发放卫星互联网实验许可、移动频谱公开招标筹备及与城际交通工会的资费带协商。"
+        },
+        {
+            "person_id": None,
+            "name": "古斯塔沃·莱安德罗·波索·巴尔加斯 (Gustavo Leandro Pozo Vargas)",
+            "name_en": "Gustavo Leandro Pozo Vargas",
+            "title": "Director Técnico Sectorial de Telecomunicaciones y TIC",
+            "title_description": "电信与信息通信技术行业技术局局长",
+            "description": "负责电信与TIC行业技术监管条线（频谱、许可、互联互通、设备认可、服务质量等）的部门负责人。"
+        },
+        {
+            "person_id": None,
+            "name": "卡洛斯·毛里西奥·纳瓦罗·班泽尔 (Carlos Mauricio Navarro Banzer)",
+            "name_en": "Carlos Mauricio Navarro Banzer",
+            "title": "Director Técnico Sectorial de Transportes y Servicio Postal",
+            "title_description": "交通运输与邮政行业技术局局长",
+            "description": "负责陆路、航空、水路运输服务及邮政快递市场监管条线的部门负责人。"
+        },
+        {
+            "person_id": None,
+            "name": "拉米罗·赫苏斯·巴斯克斯·基尼奥内斯 (Ramiro Jesús Vásquez Quiñones)",
+            "name_en": "Ramiro Jesús Vásquez Quiñones",
+            "title": "Director de Fiscalización y Control",
+            "title_description": "监督与控制局局长",
+            "description": "负责对持牌运营商及运输、邮政经营者实施稽查、违规查处与合规监督的部门负责人。"
+        },
+        {
+            "person_id": None,
+            "name": "塞尔希奥·伊万·塔皮亚·克雷斯波 (Sergio Iván Tapia Crespo)",
+            "name_en": "Sergio Iván Tapia Crespo",
+            "title": "Director Jurídico",
+            "title_description": "法务局局长",
+            "description": "负责机构法律事务、行政法规与行政复议及诉讼应对的部门负责人。"
+        },
+        {
+            "person_id": None,
+            "name": "罗尼·恩里克·特哈达·查韦斯 (Ronnie Enrique Tejada Chavez)",
+            "name_en": "Ronnie Enrique Tejada Chavez",
+            "title": "Director Administrativo Financiero",
+            "title_description": "行政财务局局长",
+            "description": "负责机构财务管理、行政运营与人力资源支持的部门负责人。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "电信与信息通信技术行业技术局 (Dirección Técnica Sectorial de Telecomunicaciones y TIC)",
+            "dept_id": None,
+            "head": "Gustavo Leandro Pozo Vargas",
+            "description": "主管电信与TIC行业技术监管：无线电频谱分配与管理、运营许可授予、网络互联互通审批、资费测算、设备型式认可、编号资源（含IMEI）管理、服务质量监测与用户投诉协调，下设技术经济监管、信息技术监管等业务单元。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "交通运输与邮政行业技术局 (Dirección Técnica Sectorial de Transportes y Servicio Postal)",
+            "dept_id": None,
+            "head": "Carlos Mauricio Navarro Banzer",
+            "description": "主管运输与邮政市场监管：陆路（城际客运、货运、铁路）、航空、水路运输服务及邮政快递业务的许可、票价核定与运营监察，下设航空与水运、陆路与铁路运输、邮政服务等业务单元。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "监督与控制局 (Dirección de Fiscalización y Control)",
+            "dept_id": None,
+            "head": "Ramiro Jesús Vásquez Quiñones",
+            "description": "对持牌运营商和运输邮政经营者开展现场稽查、频谱监测与违规查处，行使 Ley 164 赋予的监督处罚职能。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "法务局 (Dirección Jurídica)",
+            "dept_id": None,
+            "head": "Sergio Iván Tapia Crespo",
+            "description": "负责行政法规起草审查、行政复议与诉讼应对、行政资源与法律程序管理等法律事务。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "行政财务局 (Dirección Administrativa Financiera)",
+            "dept_id": None,
+            "head": "Ronnie Enrique Tejada Chavez",
+            "description": "负责机构预算财务、行政后勤与人力资源等内部管理支持职能。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2025-11-21",
+            "title": "政府更替后任命新任执行局长：卡洛斯·阿格雷达·莱马",
+            "description": "2025年11月玻利维亚政府更替（罗德里戈·帕斯就任总统）后，公共工程、服务与住房部长在拉巴斯正式任命 Carlos Alberto Agreda Lema 为 ATT 执行局长，接替2025年4月上任的 Cristian Mamani，强调重建机构技术性、自主性与用户权益导向（来源：ATT 官网新闻稿、La Razón、OOpp.gob.bo）。",
+            "impact": "标志新政府对电信监管机构的整肃与重建，ATT 治理层随政府更替全面换血，此后监管议程（星链准入、频谱拍卖、交通资费）明显转向市场化。",
+            "source": "https://www.att.gob.bo/en/el-ministro-de-obras-publicas-posesiona-al-nuevo-director-ejecutivo-de-la-att-lic-carlos-alberto"
+        },
+        {
+            "date": "2026-01-09",
+            "title": "公布移动频谱公开招标时间表",
+            "description": "ATT 确认玻利维亚将推进移动频谱公开招标：计划2026年2月23日发布招标文件（pliegos），2026年3月30日开标；并拟对部分地区的900MHz、2.5GHz、5.2GHz 频段区块进行招标（此前2025年11月26日已确定2026年新4G频谱招标日程，Entel 市场份额约58%，Tigo 与 Viva 各约25%-32%）。",
+            "impact": "若如期落地将是玻利维亚多年来最重要的移动频谱市场化配置，直接关系 Entel、Tigo、Viva 三家运营商的4G/5G扩容与市场竞争格局。",
+            "source": "https://www.bnamericas.com/es/noticias/bolivia-planea-para-marzo-de-espectro-movil"
+        },
+        {
+            "date": "2026-02-03",
+            "title": "向 SpaceX 星链发放卫星互联网实验许可（DS 5509）",
+            "description": "继2026年1月2日 ATT 确认收到星链卫星互联网运营申请后，帕斯政府通过第5509号最高法令（DS 5509）开放卫星互联网市场，ATT 向 SpaceX（Starlink）Bolivia 发放实验许可，允许在农村及偏远地区提供高速卫星互联网接入；2026年2月19日 ATT 新闻稿予以确认，并披露 Amazon（Kuiper）与 Hispasat 亦对进入玻利维亚市场表示兴趣。",
+            "impact": "结束玻利维亚卫星互联网市场封闭状态，显著改善农村与边远地区连接；星链实验运营后 Entel 评估以中介/代理方式合作，行业竞争与技术路线面临重构。",
+            "source": "https://www.att.gob.bo/en/att-consolida-avances-clave-en-regulacion-fiscalizacion-conectividad-y-proteccion-al-usuario"
+        },
+        {
+            "date": "2026-10-15",
+            "title": "与城际客运工会达成资费带协议（最高浮动35%）",
+            "description": "ATT（代表中央政府）与城际联邦运输工会谈判后达成资费带（banda tarifaria）协议：维持现行最低票价不变，允许按地区、运营主体与时段最高上浮35%，明确为设上限的浮动机制而非普遍涨价；此前10月10日谈判一度无果，ATT 曾提出临时上浮40%方案。",
+            "impact": "在通胀与燃油压力下以监管协调方式化解运输行业票价争端，体现 ATT 对陆路城际客运票价的直接定价监管职能。",
+            "source": "https://www.att.gob.bo/index.php/en/gobierno-y-choferes-acuerdan-banda-tarifaria-con-un-tope-maximo-de-hasta-el-35"
+        },
+        {
+            "date": "2026-10-21",
+            "title": "通报并跟踪 Entel 大范围服务中断",
+            "description": "2026年10月21日国有运营商 Entel 通信服务在全国范围出现中断，ATT 确认中断情况并表示将持续跟踪核查、视核查结果采取相应措施（La Razón、Red Pat 等报道 ATT 局长阿格雷达的表态）。",
+            "impact": "凸显 ATT 对服务质量与业务连续性的监督职能，或推动对国有运营商 Entel 网络稳定性与投资的问责整改。",
+            "source": "https://www.facebook.com/larazonnoticiasbolivia/posts/ciudades-la-autoridad-de-regulaci%C3%B3n-y-fiscalizaci%C3%B3n-de-telecomunicaciones-y-tran/1911182589853333/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-013",
+            "org_name": "公共工程、服务与住房部 (Ministerio de Obras Públicas, Servicios y Vivienda, MOPSV)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚电信、运输与邮政行业政策主管部门，ATT 的上级管辖部委（tuición）；执行局长由该部部长任命，行业政策与《国家频率规划》由其牵头制定。",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": "BO-SOE-004",
+            "org_name": "玻利维亚国家电信公司 (Entel Bolivia)",
+            "org_type": "SOE",
+            "org_description": "玻利维亚国有电信运营商，移动市场份额领先（约58%）；ATT 的主要被监管对象之一，2026年10月其全国性服务中断事件由 ATT 通报并跟踪。",
+            "relationship_type": "regulated_by"
+        },
+        {
+            "org_id": "BO-CORP-008",
+            "org_name": "Tigo 玻利维亚 (Tigo Bolivia)",
+            "org_type": "CORP",
+            "org_description": "Millicom 旗下玻利维亚最大私营电信运营商（移动份额约25%-32%），ATT 移动频谱招标与资费监管的主要被监管对象。",
+            "relationship_type": "regulated_by"
+        },
+        {
+            "org_id": "BO-CORP-009",
+            "org_name": "Viva (Nuevatel PCS de Bolivia)",
+            "org_type": "CORP",
+            "org_description": "玻利维亚第三大移动运营商，ATT 频谱分配、互联互通与资费监管的被监管对象。",
+            "relationship_type": "regulated_by"
+        },
+        {
+            "org_id": "BO-SOE-005",
+            "org_name": "玻利维亚航空 (Boliviana de Aviación, BoA)",
+            "org_type": "SOE",
+            "org_description": "玻利维亚国有航空公司；ATT 依据《交通运输法》对航空运输服务（含票价与营运行为）实施监管。",
+            "relationship_type": "regulated_by"
+        },
+        {
+            "org_id": "BO-SOE-007",
+            "org_name": "米 teleférico 城市缆车公司 (Mi Teleférico)",
+            "org_type": "SOE",
+            "org_description": "拉巴斯-埃尔阿尔托国有城市缆车公共交通运营商，ATT 监管的公共交通服务运营主体之一。",
+            "relationship_type": "regulated_by"
+        },
+        {
+            "org_id": "BO-GOV-035",
+            "org_name": "玻利维亚航天局 (Agencia Boliviana Espacial, ABE)",
+            "org_type": "GOV",
+            "org_description": "依据 Ley 164 第17条，国家登记的轨道-频谱资源（ROE）优先分配给 ABE 用于图帕克·卡塔里通信卫星计划，ATT 负责向 ABE 授予相应使用授权并实施频谱监管。",
+            "relationship_type": "partner"
+        }
+    ],
+    "core_business": "玻利维亚电信与交通运输监管审计局（ATT）是玻利维亚主管电信、信息通信技术（TIC）、交通运输及邮政服务的国家行业监管与审计机构：2009年4月9日依据第071号最高法令（D.S. 071）设立（初名 Autoridad de Fiscalización y Control Social de Telecomunicaciones y Transportes），2011年8月8日《第164号电信、信息技术与通信总法》（Ley 164）及2013年11月第1793号最高法令确立其现名与职能。核心职责包括：授权、规范并监督全国固定/移动电话及其他电信与TIC网络服务；制定并公布电信与邮政资费总则并监测执行；依法分配、管理、授权、监督无线电频谱（含卫星网络轨道-频谱资源）并查处有害干扰与非法发射；对电信与TIC设备实施型式认可（homologación）；管理编号资源（含IMEI核验）与号码携带；审批网络互联互通协议；监督服务质量、保护用户权益并受理投诉；发放、变更与注销运营许可（许可信息发布于RUL查询系统）；同时依据《第165号交通运输法》（Ley 165）监管陆路（城际客运、货运、铁路）、航空、水路运输服务与邮政快递市场，建立网约车等数字客运平台国家登记制度，并与运输工会协商城际客运票价区间（如2026年10月资费带协议）。机构经费来自监管规费，归属公共工程、服务与住房部（MOPSV）管辖，执行局长由部长任命；总部设在拉巴斯（Calacoto），并在圣克鲁斯/贝尼、科恰班巴/奥鲁罗、塔里哈/丘基萨卡/波托西设有地区办事处。",
+    "industries": ["telecommunications", "transportation", "broadcasting", "internet_services", "public_administration"],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。在国际电信治理方面，ATT 深度参与拉美监管机构合作：系拉丁美洲电信监管机构论坛（REGULATEL）成员机构，2023年12月8日玻利维亚（由 ATT 代表）经23个成员国全票当选该论坛2024年度轮值主席；依据 Ley 164 第14条，ATT 还承担玻利维亚在国际电信联盟（ITU）框架下的相关义务（含缴纳会费）。未检索到该机构参与美洲国家电信委员会（CITEL）活动的直接来源，故不作认定。",
+    "profile": {
+        "source_url": "https://www.att.gob.bo/",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "web_search",
+            "official_website (www.att.gob.bo)",
+            "ATT Nómina de Autoridades (www.att.gob.bo/en/autoridades-att)",
+            "ATT press releases 2025-2026 (notas de prensa)",
+            "ATT Manual de Puestos 2017 (official PDF, estructura organizacional)",
+            "Ley 164 de Telecomunicaciones TIC (LexiVox)",
+            "DS 1793 / DS 071 references (LexiVox, BCB, ATT)",
+            "BNamericas",
+            "mobiletime.la",
+            "La Razón (larazon.bo)",
+            "Red Uno (reduno.com.bo)",
+            "Opinion (opinion.com.bo)",
+            "REGULATEL (regulatel.org)",
+            "official social media accounts (Facebook/X/Instagram/YouTube/LinkedIn)"
+        ],
+        "completeness_score": 97,
+        "quotes": [
+            {
+                "title": "El Ministro de Obras Públicas posesiona al nuevo Director Ejecutivo de la ATT, Lic. Carlos Alberto Agreda Lema (ATT, 2025-11-21)",
+                "url": "https://www.att.gob.bo/en/el-ministro-de-obras-publicas-posesiona-al-nuevo-director-ejecutivo-de-la-att-lic-carlos-alberto"
+            },
+            {
+                "title": "ATT CONSOLIDA AVANCES CLAVE EN REGULACIÓN, FISCALIZACIÓN, CONECTIVIDAD Y PROTECCIÓN AL USUARIO (ATT, 2026-02-19)",
+                "url": "https://www.att.gob.bo/en/att-consolida-avances-clave-en-regulacion-fiscalizacion-conectividad-y-proteccion-al-usuario"
+            },
+            {
+                "title": "GOBIERNO Y CHOFERES ACUERDAN BANDA TARIFARIA CON UN TOPE MÁXIMO DE HASTA EL 35% (ATT, 2026-10-15)",
+                "url": "https://www.att.gob.bo/index.php/en/gobierno-y-choferes-acuerdan-banda-tarifaria-con-un-tope-maximo-de-hasta-el-35"
+            },
+            {
+                "title": "Bolivia planea para marzo subasta de espectro móvil (BNamericas, 2026-01-09)",
+                "url": "https://www.bnamericas.com/es/noticias/bolivia-planea-para-marzo-de-espectro-movil"
+            },
+            {
+                "title": "Carlos Ágreda es designado director de la ATT (La Razón, 2025-11-21)",
+                "url": "https://larazon.bo/economia-y-empresa/2025/11/21/carlos-agreda-es-designado-director-de-la-att/"
+            }
+        ],
+        "notes": "Wikidata 无条目（无QID），画像完全基于 Web 来源从零构建。现任领导层经 ATT 官网 Nómina de Autoridades 核实（含6名现任负责人，执行局长 Carlos Alberto Agreda Lema 于2025-11-21任命、2026-10仍在任，多来源交叉验证）。成立日期 2009-04-09（D.S. 071）经 ATT 官方文件与 LexiVox 双来源确认。机构隶属 MOPSV（非总统府部），依据任命公告与 Ley 165/Ley 164 框架确认。频谱拍卖截至2026-01为计划口径（2026-03-30开标），未检索到开标结果，故按计划事件记录。"
+    }
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written:", PATH)

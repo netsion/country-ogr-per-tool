@@ -1,0 +1,155 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000185 person profile JSON (Eliodoro Augusto Pereyra Martínez)."""
+import json
+import os
+
+OUT = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000185.json"
+
+data = {
+    "person_id": "BO-PERSON-000185",
+    "wikidata_qid": None,
+    "name": "Eliodoro Augusto Pereyra Martínez",
+    "name_en": "Eliodoro Augusto Pereyra Martinez",
+    "name_zh": "埃利奥多罗·奥古斯托·佩雷拉·马丁内斯",
+    "aliases": [
+        "Eliodoro Pereyra",
+        "Eliodoro Pereyra Martínez",
+        "Eliodoro Augusto Pereyra"
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [],
+    "current_positions": [
+        "玻利维亚国家矿业公司行政与财务总经理"
+    ],
+    "education": [],
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚国家矿业公司 (Corporación Minera de Bolivia, COMIBOL)",
+            "org_id": "BO-SOE-002",
+            "position": "行政与财务总经理 (Gerente Administrativo Financiero)",
+            "is_current": "true",
+            "start_date_note": "具体任命日期未见公布：2025年12月8日矿业与冶金部部长马尔科·安东尼奥·卡尔德龙集中改组矿业部门并任命COMIBOL临时执行总裁科尔多瓦等新领导层（新闻报道未逐一点名各总经理）；2025年COMIBOL透明度人员名单中无此人，2026年1月28日已以其名义签发INSTRUCTIVO UNC-040/2026、2026年2月COMIBOL官方《中央行政执行人员》名录正式列其为行政与财务总经理，推断其于2025年12月至2026年1月间的矿业整顿改组中获任",
+            "source": "COMIBOL官网PERSONAL EJECUTIVO ADMINISTRACIÓN CENTRAL 2026.pdf；SICOES采购公告（Infosiscon转载）；Scribd INSTRUCTIVO UNC-040/2026"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000183",
+            "person_name": "何塞·费尔南多·科尔多瓦·埃吉瓦尔 (José Fernando Córdova Eguivar)",
+            "relationship_type": "superior",
+            "description": "玻利维亚国家矿业公司（COMIBOL）临时执行总裁，2025年12月8日由矿业部长任命，是佩雷拉在COMIBOL中央管理层的直接上级；两人同属帕斯政府矿业整顿期的公司新领导层（2026年2月官方执行人员名录同列）"
+        },
+        {
+            "person_id": "BO-PERSON-000068",
+            "person_name": "马尔科·安东尼奥·卡尔德龙·德拉巴尔卡·金塔尼利亚 (Marco Antonio Calderón de la Barca Quintanilla)",
+            "relationship_type": "superior",
+            "description": "玻利维亚矿业与冶金部部长，主持2025年12月8日矿业部门（含COMIBOL）领导层集中任命与整顿，佩雷拉出任行政与财务总经理即处于这一部长主导的改组框架之内"
+        },
+        {
+            "person_id": "BO-PERSON-000184",
+            "person_name": "卡洛斯·赫伯特·列拉·基利巴尔达 (Carlos Hebert Riera Kilibarda)",
+            "relationship_type": "colleague",
+            "description": "COMIBOL技术与运营总经理，与佩雷拉同列2026年2月COMIBOL《中央行政执行人员》名录，同属中央办公室（Oficina Central）高管团队"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Eliodoro Pereyra Martinez",
+            "url": "https://www.linkedin.com/pub/dir/+/Pereyra+Martinez",
+            "source": "领英公开名录检索显示姓名与地区（Bolivia）完全匹配的档案条目；名录页未展示职务详情，是否本人未经官方验证，谨慎采信"
+        }
+    ],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2026-02",
+            "achievement": "作为行政与财务总经理正式列入COMIBOL官网发布的2026年2月《中央行政执行人员》名录，为COMIBOL中央办公室（Oficina Central）核心高管之一",
+            "organization": "玻利维亚国家矿业公司 (Corporación Minera de Bolivia)"
+        },
+        {
+            "date": "2026-01-28",
+            "achievement": "以行政与财务总经理名义向各区域公司（Gerencias Regionales）签发INSTRUCTIVO UNC-040/2026指示文件，行使COMIBOL行政与财务管理职权",
+            "organization": "玻利维亚国家矿业公司 (Corporación Minera de Bolivia)"
+        },
+        {
+            "date": "2026-05-09",
+            "achievement": "代表COMIBOL出席拉巴斯物理安全营（Batallón de Seguridad Física La Paz）创建40周年中央庆祝活动并向该营颁发 recognition（COMIBOL官方脸书账号发布）",
+            "organization": "玻利维亚国家矿业公司 (Corporación Minera de Bolivia)"
+        },
+        {
+            "date": "2026-07",
+            "achievement": "2026年7月至10月间在玻利维亚国家采购系统（SICOES）多份COMIBOL采购文件中担任采购程序负责人（Responsable del Proceso de Contratación），主持波拉卡约工业冶炼厂、阿马亚潘帕和卡拉科勒斯矿业生产单位及总部办公用品等物资采购",
+            "organization": "玻利维亚国家矿业公司 (Corporación Minera de Bolivia)"
+        }
+    ],
+    "biography_summary": "埃利奥多罗·奥古斯托·佩雷拉·马丁内斯是玻利维亚国家矿业公司（COMIBOL）行政与财务总经理，总部位于拉巴斯中央办公室。COMIBOL系玻利维亚统辖国有矿业生产与行政的国家级战略国企。2025年12月8日，罗德里戈·帕斯政府矿业与冶金部部长马尔科·安东尼奥·卡尔德龙对矿业部门实施「现代化与机构整顿」集中改组，任命何塞·费尔南多·科尔多瓦·埃吉瓦尔为COMIBOL临时执行总裁；佩雷拉的行政与财务总经理任命即处于这轮改组期内——2025年COMIBOL官方透明度人员名单中尚无此人，2026年1月28日他已以「Lic.」（大学学位持有人）名义向各区域公司签发INSTRUCTIVO UNC-040/2026，并在2026年2月COMIBOL官网发布的《中央行政执行人员》名录中被正式列为行政与财务总经理，与技术与运营总经理列拉、临时总裁科尔多瓦同列中央高管团队。2026年2月26日玻利维亚经济与公共财政部下发部委指示文件亦由其以该职务签署。2026年5月9日他代表公司出席拉巴斯物理安全营创建40周年庆典；2026年7月至10月，他在国家采购系统（SICOES）波拉卡约冶炼厂、阿马亚潘帕与卡拉科勒斯矿业单位等多份采购文件中登记为采购程序负责人，负责公司物资采购与行政财务管理。其出生日期、学历背景、家庭情况及个人社交媒体均无公开报道，本轮检索未获可靠信息。",
+    "position_note": [
+        "Gerente Administrativo Financiero 直译为「行政与财务经理/总经理」，为COMIBOL中央办公室高管职位，统管公司行政、财务与国家采购事务（SICOES采购文件中以其为采购程序负责人）；玻方新闻多聚焦临时执行总裁与副部长层任命，未见对其个人的专门任命报道"
+    ],
+    "social_accounts_note": [
+        "六平台扫描结果：facebook仅见COMIBOL官方账号2026-05-09帖文提及本人（非其个人账号，评论区称其「lic. Eliodoro Pereyra」）；linkedin仅见公开名录同名条目（无职务详情，未验证）；twitter_x、instagram、tiktok、youtube均未发现本人账号"
+    ],
+    "name_zh_note": [
+        "沿用本数据库既有译名（西语姓名音译）；未检索到中文媒体对该人物的既定译名"
+    ],
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "government_registry",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "completeness_score": 42,
+        "notes": "数据来源确认：①COMIBOL官网2026年2月《中央行政执行人员》名录PDF（直取全文，官方确认职务，来源1）；②SICOES国家采购系统多份COMIBOL采购文件（经Infosiscon转载页直取2份+搜索索引8份，2026年7-10月，来源2）；③COMIBOL官方脸书2026-05-09帖文（直取标题+搜索索引正文，来源3）；④经济与公共财政部INSTRUCTIVO PP-DP-INS-002-2026（2026-02-26，Scribd搜索索引）；⑤INSTRUCTIVO UNC-040/2026（2026-01-28，Scribd搜索索引，证实其2026年1月已在任且持Lic.学位头衔）；⑥eju.tv与La Razón 2025-12-08改组报道（直取全文，背景，未逐一点名本人）；⑦COMIBOL 2025年人员名单与2024年7月执行人员名录（直取，均为反证：改组前不在册）。存疑字段：出生日期、出生地、学历、家庭、政党立场均无公开信息留空；LinkedIn名录条目未验证为本人；具体任命日期未见公布（推断为2025-12至2026-01间）。completeness_score受客观公开信息限制（中基层国企高管，媒体曝光极少），无法达到70分阈值，已尽力补全可核实条目。",
+        "quotes": [
+            {
+                "title": "PERSONAL EJECUTIVO ADMINISTRACIÓN CENTRAL (COMIBOL) - FEBRERO 2026 (COMIBOL官网)",
+                "url": "https://www.comibol.gob.bo/images/noticias/PERSONAL%20EJECUTIVO%20ADMINISTRACION%20CENTRAL%202026.pdf"
+            },
+            {
+                "title": "Adquisición de repuestos para el parque automotor - COMIBOL DBC (SICOES/Infosiscon)",
+                "url": "https://infosiscon.com/licitacion/corporacion-minera-de-bolivia-comibol/adquisicion-de-repuestos-para-el-parque-automotor-para-vagoneta-6329-bes-y-camioneta-3848-spx/nacional/803953/form-110.html"
+            },
+            {
+                "title": "COMIBOL entregó reconocimiento al Batallón de Seguridad Física La Paz en su XL aniversario (@comibol.oficial)",
+                "url": "https://www.facebook.com/comibol.oficial/posts/comibol-entreg%C3%B3-reconocimiento-al-batall%C3%B3n-de-seguridad-f%C3%ADsica-la-paz-en-su-xl-a/122202587564505738/"
+            },
+            {
+                "title": "En Minería designan a dos viceministros y a ejecutivos de Comibol, Vinto y Sergeomin (eju.tv, 2025-12-08)",
+                "url": "https://eju.tv/2025/12/en-mineria-designan-a-dos-viceministros-y-a-ejecutivos-de-comibol-vinto-y-sergeomin/"
+            },
+            {
+                "title": "Ministro de Minería posesiona nuevos viceministros y autoridades del sector (La Razón, 2025-12-08)",
+                "url": "https://larazon.bo/economia-y-empresa/2025/12/08/ministro-de-mineria-posesiona-nuevos-viceministros-y-autoridades-del-sector/"
+            },
+            {
+                "title": "INSTRUCTIVO UNC-040/2026 firmado por Lic. Eliodoro Augusto Pereyra Martinez (Scribd, 2026-01-28)",
+                "url": "https://www.scribd.com/document/1019584153/CamScanner-28-01-2026-12-05"
+            },
+            {
+                "title": "Instructivo PP DP INS 002-2026 - Ministerio de Economía y Finanzas Públicas (Scribd, 2026-02-26)",
+                "url": "https://www.scribd.com/document/1030800947/Instructivo-Pp-Dp-Ins-002-2026"
+            },
+            {
+                "title": "LinkedIn公开名录：Eliodoro Pereyra Martinez (Bolivia)",
+                "url": "https://www.linkedin.com/pub/dir/+/Pereyra+Martinez"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written:", OUT)
+print("bio len:", len(data["biography_summary"]))

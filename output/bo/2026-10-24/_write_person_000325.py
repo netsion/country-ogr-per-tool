@@ -1,0 +1,300 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000325 P. Jose Fuentes Cano profile (UCB Rector Nacional)."""
+import json
+import os
+
+OUT = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000325.json"
+
+UCB_ZH = "玻利维亚圣保罗天主教大学 (Universidad Católica Boliviana «San Pablo»)"
+CEB_ZH = "玻利维亚主教大会 (Conferencia Episcopal Boliviana)"
+
+SRC_NUEVO_RECTOR = "https://www.ucb.edu.bo/jose-fuentes-cano-nuevo-rector-nacional-de-la-universidad-catolica-boliviana/"
+SRC_RENOVACION = "https://www.ucb.edu.bo/obispos-de-bolivia-renuevan-al-p-jose-fuentes-cano-como-rector-nacional-de-la-u-c-b-para-los-proximos-4-anos/"
+SRC_MERITO = "https://www.ucb.edu.bo/el-rey-felipe-vi-condecora-al-rector-nacional-de-la-u-c-b-con-la-cruz-oficial-de-la-orden-del-merito-civil/"
+SRC_NANOSAT = "https://www.ucb.edu.bo/hito-historico-la-u-c-b-pondra-en-orbita-el-primer-nanosatelite-boliviano-en-noviembre-de-2028/"
+SRC_CENTELLAS = "https://www.ucb.edu.bo/en-memoria-de-nuestro-gran-canciller-mons-ricardo-centellas-1962-2026/"
+SRC_BLANCA = "https://blanca.es/nuevaweb/el-ayuntamiento-de-blanca-rinde-homenaje-al-padre-pepe-fuentes-poniendo-su-nombre-a-la-calle-donde-nacio/"
+SRC_CEB_CALLE = "https://ceb.bo/2026/03/rinden-homenaje-al-padre-pepe-fuentes-una-calle-en-espana-ahora-lleva-su-nombre/"
+SRC_CEB_60 = "https://ceb.bo/2026/05/el-rector-nacional-de-la-ucb-padre-jose-fuentes-cano-destaca-los-logros-de-la-universidad-en-su-60-aniversario-de-vida-institucional/"
+SRC_CEB_PAZ = "https://ceb.bo/2024/09/p-jose-fuentes-la-paz-es-don-y-deseo-de-dios-para-la-humanidad/"
+
+data = {
+    "person_id": "BO-PERSON-000325",
+    "wikidata_qid": None,
+    "name_zh": "何塞·富恩特斯·卡诺",
+    "name": "José Fuentes Cano",
+    "name_en": "Jose Fuentes Cano",
+    "aliases": [
+        "P. José Fuentes Cano",
+        "R.P. José Fuentes Cano",
+        "Padre Pepe Fuentes",
+        "Padre Pepe",
+        "Padre José Fuentes Cano",
+    ],
+    "nationality": "ES",
+    "gender": "male",
+    "birth_date": "1961-02-22",
+    "birth_place": "西班牙穆尔西亚自治区布兰卡 (Blanca, Murcia, España)",
+    "religion": "天主教（罗马天主教司铎）",
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://www.ucb.edu.bo/rectorado/",
+            "source": "UCB官网Rectorado Nacional（校长办公室）页面，含其官方简介",
+        },
+        {
+            "type": "website",
+            "value": "https://www.ucb.edu.bo",
+            "source": "UCB官网（其以国家校长身份主理的机构网站）",
+        }
+    ],
+    "current_positions": [
+        "玻利维亚圣保罗天主教大学（UCB）国家校长 (Rector Nacional de la U.C.B. «San Pablo»，2021-2025任期，2025-05获连任至2029)"
+    ],
+    "education": [
+        {
+            "institution": "圣何塞小修院 (Seminario Menor «San José», Murcia)",
+            "degree": "high_school",
+            "field": None,
+            "start_date": None,
+            "end_date": None,
+            "location": "穆西亚 (Murcia), 西班牙",
+            "country": "ES",
+            "description": "在家乡穆西亚的圣何塞小修院完成中学（bachillerato）学业，圣召自此萌芽。",
+            "source": SRC_BLANCA,
+        },
+        {
+            "institution": "圣富尔亨西奥大修院 (Seminario Mayor «San Fulgencio»)",
+            "degree": "other",
+            "field": "天主教神学 (Teología)",
+            "start_date": None,
+            "end_date": None,
+            "location": "穆西亚 (Murcia), 西班牙",
+            "country": "ES",
+            "description": "在圣富尔亨西奥大修院完成司铎培育的神学（教会学）学业。",
+            "source": SRC_RENOVACION,
+        },
+        {
+            "institution": "西班牙国立远程教育大学 (Universidad Nacional de Educación a Distancia, UNED)",
+            "degree": "master",
+            "field": "哲学 (Filosofía)",
+            "start_date": None,
+            "end_date": None,
+            "country": "ES",
+            "description": "获哲学Licenciatura学位（西班牙旧制本硕连读学位，硕士层级）。",
+            "source": SRC_RENOVACION,
+        },
+        {
+            "institution": "玻利维亚销售大学 (Universidad Salesiana de Bolivia)",
+            "degree": "master",
+            "field": "教育学 (Ciencias de la Educación)",
+            "start_date": None,
+            "end_date": None,
+            "country": "BO",
+            "description": "获教育科学Licenciatura学位。",
+            "source": SRC_RENOVACION,
+        },
+    ],
+    "work_experience": [
+        {
+            "organization": UCB_ZH,
+            "org_id": "BO-ACAD-008",
+            "position": "国家校长 (Rector Nacional)",
+            "start_date": "2021-04",
+            "end_date": None,
+            "is_current": "true",
+            "description": "2021年4月在玻利维亚主教大会第108届大会（CVIII Asamblea）上由玻利维亚主教们任命为UCB国家校长，接替任职八年的马科·安东尼奥·费尔南德斯（Marco Antonio Fernández）；2021年5月14日（建校55周年纪念日）在Gran Canciller蒙斯·奥斯卡·阿帕里西奥主持的就职典礼上接受校长勋章正式就职。2025年5月5日于科恰班巴举行的主教大会第116届大会上获连任四年（至2029年），并提交2021-2024年度管理报告《一所带有教会面容的大学》(«Una Universidad con Rostro de Iglesia»)：任内学生规模自1.3万增至逾1.5万、毕业生2014-2024增长45%、约45%学生获奖助学金折扣，新设护理、牙科、营养、医学（医学已覆盖全部六个校区）等专业，新开苏克雷与奥鲁罗校区及Sacaca学术单位。2026年10月13日代表UCB与玻利维亚航天局签署机构间合作协议，主导玻利维亚首颗大学纳米卫星Waskiri Sat项目（拟2028年11月发射）并推动国家空间法学术倡议。",
+            "source": SRC_RENOVACION,
+        },
+        {
+            "organization": CEB_ZH,
+            "org_id": None,
+            "position": "副秘书长 (Secretario General Adjunto)",
+            "start_date": "2012",
+            "end_date": "2021-04",
+            "description": "牧灵秘书任期（2010-2012）结束后接任主教大会副秘书长，任职至2021年4月出任UCB国家校长。起始年份2012系据前一职务任期推断。",
+            "source": SRC_RENOVACION,
+        },
+        {
+            "organization": CEB_ZH,
+            "org_id": None,
+            "position": "牧灵秘书 (Secretario para la Pastoral)",
+            "start_date": "2010",
+            "end_date": "2012",
+            "description": "2010年应玻利维亚主教们邀请加入玻利维亚主教大会，出任牧灵秘书。",
+            "source": SRC_MERITO,
+        },
+        {
+            "organization": "耶稣工人堂区 (Parroquia «Jesús Obrero», El Alto)",
+            "org_id": None,
+            "position": "本堂神父 (Párroco)",
+            "start_date": "1991",
+            "end_date": None,
+            "description": "应埃尔阿尔托主教蒙斯·赫苏斯·华雷斯（Mons. Jesús Juárez）之邀赴玻利维亚，自1991年起长期担任埃尔阿尔托耶稣工人堂区本堂神父；任内创立「播种希望基金会」（Fundación Sembrando Esperanza, FUNDASE，设儿童保育、医疗与社区培训中心）、推动创办两所「信仰与喜悦」（Fe y Alegría）学校，堂区并孕育出「销售传教会」（Comunidad de Salesianas Misioneras）与「基督善牧传教会」（Comunidad Misionera de Cristo Pastor）两个传教团体。2026年3月CEB报道仍以其堂区牧灵服务为现职描述。",
+            "source": SRC_RENOVACION,
+        },
+        {
+            "organization": "穆西亚教区 (Diócesis de Cartagena-Murcia)",
+            "org_id": None,
+            "position": "修士培育者兼副本堂 (Formador y vicario)",
+            "start_date": None,
+            "end_date": "1991",
+            "description": "1986年晋铎后在母教区（西班牙穆西亚）担任修士培育者（formador）与副本堂（vicario），直至1991年赴玻利维亚。",
+            "source": SRC_BLANCA,
+        },
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000326",
+            "person_name": "莫妮卡·达萨 (Mónica Daza)",
+            "relationship_type": "colleague",
+            "description": "UCB国家学术副校长（Vicerrectora Académica Nacional，博士），2025年8月曾以该身份与Fuentes Cano同属UCB全国领导层出席官方活动；注意：UCB官网Rectorado Nacional页面（2026年10月检索）现任国家学术副校长显示为Susan Lourdes Leliss Santillan Butron，二者任职更替情况未获进一步核实。",
+            "source": "UCB官网/BO-ACAD-008组织档案（leadership栏）+ ucb.edu.bo/rectorado/",
+        },
+        {
+            "person_id": "BO-PERSON-000327",
+            "person_name": "希梅娜·佩雷斯·阿雷纳斯 (Ximena Peres Arenas)",
+            "relationship_type": "subordinate",
+            "description": "UCB拉巴斯校区校长（2025年6月就任），在其统辖的UCB全国校区体系（拉巴斯、科恰班巴、圣克鲁斯、塔里哈等）内任职，向国家校长层级负责。",
+            "source": "UCB官网/BO-ACAD-008组织档案（leadership栏）",
+        },
+        {
+            "person_id": None,
+            "person_name": "里卡多·森特利亚斯 (Mons. Ricardo Centellas)",
+            "relationship_type": "superior",
+            "description": "苏克雷大主教、UCB大校长（Gran Canciller，教会治理体系中国家校长之上）。2024年11月当选，2026年9月24日在奥鲁罗逝世；其逝世讣告由Fuentes Cano以国家校长身份联署发布并向大学社区致哀。",
+            "source": SRC_CENTELLAS,
+        },
+        {
+            "person_id": None,
+            "person_name": "马科·安东尼奥·费尔南德斯 (Marco Antonio Fernández)",
+            "relationship_type": "other",
+            "description": "UCB前任国家校长（任职八年），2021年5月14日在Fuentes Cano就职典礼上完成交接。",
+            "source": SRC_NUEVO_RECTOR,
+        },
+        {
+            "person_id": None,
+            "person_name": "哈维尔·阿萨格拉·拉比亚诺 (Mons. Javier Azagra Labiano)",
+            "relationship_type": "other",
+            "description": "时任穆西亚主教，1986年为Fuentes Cano主持司铎晋铎礼。",
+            "source": SRC_BLANCA,
+        },
+        {
+            "person_id": None,
+            "person_name": "赫苏斯·华雷斯 (Mons. Jesús Juárez)",
+            "relationship_type": "associate",
+            "description": "埃尔阿尔托主教，邀其赴玻利维亚服务，由此开启其在埃尔阿尔托耶稣工人堂区三十余年的牧灵与社会工作。",
+            "source": SRC_RENOVACION,
+        },
+        {
+            "person_id": None,
+            "person_name": "埃芙琳·贝尔纳莱斯·富恩特斯 (Hna. Evelyn Bernales Fuentes)",
+            "relationship_type": "associate",
+            "description": "修女（Hermana），与其共同创立「播种希望基金会」（FUNDASE），在西班牙驻拉巴斯大使馆授勋仪式上被其作为重要合作者提及。",
+            "source": SRC_MERITO,
+        },
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2026-10-13",
+            "topic": "国家空间立法",
+            "stance_content": "在与玻利维亚航天局（ABE）签署机构间合作协议及谅解备忘录时表示，所签署的文件将助力「一部玻利维亚空间法的制定与巩固」(«la formulación y consolidación de una ley boliviana del espacio»)，推动玻利维亚首部《空间法》立法进程，并主导首颗大学纳米卫星Waskiri Sat项目（拟2028年11月发射）。",
+            "source": SRC_NANOSAT,
+        },
+        {
+            "date": "2026-10-13",
+            "topic": "科技与社会（科技伦理）",
+            "stance_content": "引用教宗通谕《愿祢受赞颂》（Laudato Si'）表示「科学与技术必须服务于人」(«la ciencia y la tecnología deben estar al servicio de las personas»)；称纳米卫星项目让学生「应用知识、解决真实问题、学会严谨地工作」，主张高等教育应培养能解决国家现实问题的专业人才。",
+            "source": SRC_NANOSAT,
+        },
+        {
+            "date": "2026-05-13",
+            "topic": "高等教育政策",
+            "stance_content": "在UCB建校60周年之际（接受CEB专访）表示「大学的挑战总是很多，因为要真正达到时代对我们的要求」；强调全体系学生已逾2.7万人（本科较上年增逾千人、各校区总体增长22%）、45%学生获得奖学金或折扣资助，主张大学须与玻利维亚社会现实保持贴近，培养参与社会项目与企业实践的「变革推动者」。",
+            "source": SRC_CEB_60,
+        },
+        {
+            "date": "2024-09-19",
+            "topic": "和平与国家对话",
+            "stance_content": "在玻利维亚宗教间对话组织「分享普世价值，迈向和平」线上圆桌会上代表天主教会发言：称「和平是上帝的恩赐，也是上帝对人类的愿望」「和平是个人与自然、与他人、与上帝保持良好关系而产生的和谐」，并援引《众位弟兄》通谕指「一切战争都让世界比被发现时更糟糕」、《论教会在现代世界》牧职宪章称和平是正义的成果，强调和平「是每个人的任务」——此表态处于玻利维亚社会政治紧张时期，具有全国性舆论影响。",
+            "source": SRC_CEB_PAZ,
+        },
+    ],
+    "major_achievements": [
+        {
+            "date": "2001",
+            "organization": "布兰卡市政府 (Ayuntamiento de Blanca)",
+            "achievement": "获家乡西班牙布兰卡市授予「荣誉之子」（Hijo Predilecto）称号（UCB官网Rectorado Nacional其官方简介载明；2026年3月市政府再以其名字命名其出生地所在街道）。",
+        },
+        {
+            "date": "2026-10-13",
+            "organization": UCB_ZH,
+            "achievement": "代表UCB与玻利维亚航天局（ABE）在埃尔阿尔托Amachuma地面站签署机构间合作协议及谅解备忘录：ABE提供地面段基础设施与专业人员，UCB主导玻利维亚首颗大学纳米卫星Waskiri Sat（由拉巴斯校区机电一体化毕业生与在校生建造，用于地球观测、环境研究与自然灾害预防，拟2028年11月发射）的设计与项目管理，并共同推动玻利维亚首部《空间法》制定——玻利维亚高等教育与航天科技领域里程碑。",
+        },
+        {
+            "date": "2025-10-22",
+            "organization": "西班牙王国政府 (Gobierno de España)",
+            "achievement": "获西班牙国王费利佩六世授予民事功绩勋章十字勋章（Cruz Oficial de la Orden del Mérito Civil，2025年9月6日宣布），表彰其服务社会、增进西班牙与玻利维亚两国纽带的模范贡献；授勋仪式于10月22日在西班牙驻拉巴斯大使馆举行。",
+        },
+        {
+            "date": "2025-05-05",
+            "organization": CEB_ZH,
+            "achievement": "在科恰班巴举行的玻利维亚主教大会第116届大会上获连任UCB国家校长四年（至2029年），并提交2021-2024年度管理报告《一所带有教会面容的大学》：学生规模自1.3万增至逾1.5万、毕业生五年增长45%、约45%学生获奖助学金、新开苏克雷与奥鲁罗校区、医学专业覆盖全部六个校区、修订章程强化教会在大学治理中的存在。",
+        },
+        {
+            "date": "2026-03-19",
+            "organization": "布兰卡市政府 (Ayuntamiento de Blanca)",
+            "achievement": "家乡西班牙穆西亚自治区布兰卡市政府举行致敬仪式，以其名字命名其出生地所在街道并揭幕纪念牌（牌面含其姓名、伊伊马尼雪山剪影及其创立传教团体纹章），市长称其「一位值得家乡骄傲之子」。",
+        },
+        {
+            "date": "2021-04",
+            "organization": UCB_ZH,
+            "achievement": "在玻利维亚主教大会第108届大会上被任命为UCB（玻利维亚排名最高的私立大学）国家校长，2021年5月14日就职；就任时表示「我以惊喜之心接受任命，但以服从之心接受」，提出制定机构战略规划「一个有圣神的计划」(«un plan con Espíritu»)。",
+        },
+    ],
+    "biography_summary": "何塞·富恩特斯·卡诺神父（昵称Padre Pepe），1961年2月22日生于西班牙穆尔西亚自治区布兰卡市，罗马天主教教区司铎（埃尔阿尔托教区），现任玻利维亚排名最高的私立大学——玻利维亚圣保罗天主教大学（UCB）国家校长。他在穆西亚圣何塞小修院完成中学学业，于圣富尔亨西奥大修院修读神学，1986年由穆西亚主教阿萨格拉·拉比亚诺晋铎，曾在母教区任修士培育者与副本堂。1991年应邀赴玻利维亚，长期担任埃尔阿尔托耶稣工人堂区本堂神父，创立「播种希望基金会」（FUNDASE）、推动两所「信仰与喜悦」学校，并催生两个传教团体。2010-2012年任玻利维亚主教大会牧灵秘书，后任副秘书长至2021年。2021年4月经主教大会第108届大会任命为UCB国家校长（5月14日就职，接任马科·安东尼奥·费尔南德斯），2025年5月获连任至2029年；任内学生规模自1.3万增至逾1.5万（2026年全体系逾2.7万）、医学专业覆盖全部六个校区、新设苏克雷与奥鲁罗校区，并主导与玻利维亚航天局合作研制首颗大学纳米卫星Waskiri Sat（拟2028年发射）及玻利维亚首部空间法学术倡议。2025年10月获西班牙国王费利佩六世授予民事功绩勋章十字勋章；2026年3月家乡布兰卡市以其名字命名其出生地所在街道。就教育政策、国家和平对话、科技伦理与空间立法等议题的公开表态在玻利维亚具有全国影响力。",
+    "nationality_note": "1961年生于西班牙穆尔西亚自治区布兰卡市，西班牙裔——UCB官网2021年任命报道明确称其为「español de origen」（西班牙裔）；1991年起在玻利维亚服务至今（2025年10月UCB官网称其旅玻34年）。未发现其加入玻利维亚国籍的公开记录，故国籍按可核实事实记为ES（任务参数原预设BO，与核实结果不符，以实际为准）。",
+    "birth_date_note": "1961-02-22见UCB官网2025-05-05连任报道与西班牙布兰卡市政府2026-03-19致敬公告，两独立来源一致。",
+    "religion_note": "教区司铎（埃尔阿尔托教区），非耶稣会士——各来源均明确其圣召路径为穆西亚教区修院→1986年晋铎→埃尔阿尔托堂区服务；「P.」为Padre（神父）缩写。",
+    "identity_note": "消歧注意：玻利维亚2026年9月涉「西班牙神父」的Colonia Piraí虐待/性侵案报道（Urgentebo、Opinión）涉及其它西班牙籍神职人员（Claretian会等），与本档案人物（UCB国家校长José Fuentes Cano）无关，检索同名时勿混淆；另与UCB国家学术副校长Mónica Daza（BO-PERSON-000326）分属不同职务。",
+    "family_note": "天主教司铎按教会法实行独身，无配偶、无子女，family_members 按任务要求置空（不可编造）。直系亲属（据UCB官网Rectorado Nacional其官方简介）：父José Fuentes Box，母Candelaria Cano Rojo，三子女中为长子兼独子；其母于2025年10月（授勋仪式约12天前）去世（UCB官网2025-10-23授勋报道，该报道未载其名，姓名以Rectorado简介为准）。",
+    "social_accounts_note": "6项平台扫描（2026-10-26）：YouTube相关视频均发布于UCB官方频道「Universidad Católica Boliviana San Pablo」(UCCsTcWeaifOi2tqN-m9ksxA)，未发现个人频道；X与TikTok搜索无个人账号命中；LinkedIn被反爬墙拦截（HTTP 999）；Facebook公共目录与Instagram API不可访问或无可核验个人条目。结论：无可验证的个人社交媒体账号，social_accounts 置空。",
+    "work_note": "主教大会副秘书长起始年份2012系据其牧灵秘书任期（2010-2012）推断；FUNDASE基金会创立具体年份公开来源未载，故不入 work_experience/major_achievements 精确条目，仅在传记与堂区任职描述中说明。UCB建校年份：任务背景称1947年，但UCB官方60周年（2026-05）及本库BO-ACAD-008组织档案（Wikidata Q2495675）均载1966年创办，本档案采用官方1966年口径。",
+    "education_note": "UNED哲学与玻利维亚销售大学教育科学两项均为Licenciatura学位（西语国家旧制本硕连读，对应硕士层级），故 degree 记为 master；小修院bachillerato记为 high_school；大修院神学培育非世俗学位，记为 other。教育与传记事实均以UCB官网2025连任报道与布兰卡市政府2026公告双源核实。",
+    "profile": {
+        "source_url": "https://www.ucb.edu.bo/wp-content/uploads/2025/05/portada-1-scaled.jpg",
+        "local_path": "photos/BO-PERSON-000325.jpg"
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "government_directory",
+            "news_search",
+            "web_search",
+            "social_media",
+            "other"
+        ],
+        "notes": "数据来源与核实情况：出生日期、晋铎、学历、赴玻经历、堂区与CEB任职经UCB官网（2025连任文）与西班牙布兰卡市政府（2026-03致敬公告）双独立来源全文核实；CEB官网（主教大会，UCB主管机构）三篇报道独立佐证（街道致敬、60周年专访、2024和平表态）；2021任命经UCB官网任命文+ANF通讯社2021-04-15标题佐证；民事功绩勋章经UCB官网全文+布兰卡市政府公告佐证；纳米卫星协议经UCB官网全文+玻国家通讯社ABI/El Potosí/Urgentebo 2026-10-13报道标题（Bing News/Google News RSS检索确证）佐证。父母姓名与2001「荣誉之子」称号系UCB官网Rectorado Nacional官方简介补充（单一官方来源，已注）。WebSearch后端配额耗尽（429至2026-11-19），按规则降级为Google News RSS/Bing News RSS检索+直取原文页，检索引擎结果页仅用于发现URL。社交媒体6平台扫描无个人账号。存疑字段：副秘书长起始年份为推断（已注）；学术副校长Daza/Leliss任职更替未核实（已注）；Wikidata无此人实体（QID=null）；无中文媒体既有独立译名，沿用本库既定译名。头像为UCB官网2025-05连任报道题图（已下载至photos/）。",
+        "quotes": [
+            {"title": "José Fuentes Cano, nuevo Rector Nacional de la Universidad Católica Boliviana (UCB, 2021-05-16)", "url": SRC_NUEVO_RECTOR},
+            {"title": "Obispos de Bolivia renuevan al P. José Fuentes Cano como Rector Nacional de la U.C.B. para los próximos 4 años (UCB, 2025-05-05)", "url": SRC_RENOVACION},
+            {"title": "El Rey Felipe VI condecora al Rector Nacional de la U.C.B. con la Cruz Oficial de la Orden del Mérito Civil (UCB, 2025-10-23)", "url": SRC_MERITO},
+            {"title": "¡Hito Histórico! La U.C.B. pondrá en órbita el primer nanosatélite boliviano en noviembre de 2028 (UCB, 2026-10-14)", "url": SRC_NANOSAT},
+            {"title": "Rectorado Nacional - Universidad Católica Boliviana San Pablo (UCB官网校长办公室页)", "url": "https://www.ucb.edu.bo/rectorado/"},
+            {"title": "El Ayuntamiento de Blanca rinde homenaje al padre Pepe Fuentes poniendo su nombre a la calle donde nació (blanca.es, 2026-03-19)", "url": SRC_BLANCA},
+            {"title": "Rinden homenaje al Padre Pepe Fuentes: Una calle en España, ahora lleva su nombre (CEB, 2026-03-19)", "url": SRC_CEB_CALLE},
+            {"title": "El rector nacional de la UCB, padre José Fuentes Cano, destaca los logros de la universidad en su 60 aniversario (CEB, 2026-05-13)", "url": SRC_CEB_60},
+            {"title": "P. José Fuentes: «La paz es don y deseo de Dios para la humanidad» (CEB, 2024-09-19)", "url": SRC_CEB_PAZ},
+            {"title": "En memoria de nuestro Gran Canciller: Mons. Ricardo Centellas (1962-2026) (UCB, 2026-09-24)", "url": SRC_CENTELLAS},
+        ],
+    },
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written", OUT, os.path.getsize(OUT), "bytes")

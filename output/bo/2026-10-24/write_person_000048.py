@@ -1,0 +1,254 @@
+# -*- coding: utf-8 -*-
+"""Generate BO-PERSON-000048 person profile JSON (Marcelo Yamil Garcia Delfin)."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000048.json")
+
+profile = {
+    "person_id": "BO-PERSON-000048",
+    "wikidata_qid": None,
+    "name_zh": "马塞洛·亚米尔·加西亚·德尔芬",
+    "name": "Marcelo Yamil García Delfín",
+    "name_en": "Marcelo Yamil García Delfín",
+    "aliases": ["Yamil García", "Marcelo Yamil García", "Yamil García Delfín"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1982-07-08",
+    "birth_place": "塔里哈 (Tarija)",
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://presidencia.gob.bo/",
+            "source": "其所在部（总统府部）官方网站，副部长办公室无独立网站"
+        },
+        {
+            "type": "email",
+            "value": "minpres@presidencia.gob.bo",
+            "source": "总统府部官网公示的部本级联络邮箱（非个人邮箱）"
+        }
+    ],
+    "current_positions": [
+        "玻利维亚总统府部透明、反腐、公共诚信与司法副部长",
+        "玻利维亚政府透明、反腐、公共诚信与司法事务政府代表"
+    ],
+    "education": [],
+    "education_note": "据ANA通讯社报道，其为法学士（licenciado en Derecho），并曾修读宪法学、教育学、国际法等研究生课程，但就读院校未见公开报道，故 education 暂无条目。另有一则报道段落提及在西班牙萨拉戈萨 CESTE 攻读犯罪学与刑事侦查硕士（2025年完成），因原文行文紧邻另一名官员（Jorge Franz García Pinto）段落、归属存疑，未予采信。",
+    "work_experience": [
+        {
+            "start_date": "2025-11-24",
+            "end_date": None,
+            "organization": "玻利维亚总统府部 (Ministerio de la Presidencia)",
+            "org_id": "BO-GOV-006",
+            "position": "透明、反腐、公共诚信与司法副部长",
+            "description": "2025年11月24日由总统罗德里戈·帕斯在拉巴斯 Casa Grande del Pueblo 主持宣誓就任「透明、司法安全与人权副部长」（Viceministro de Transparencia, Seguridad Jurídica y Derechos Humanos），承接被裁撤的司法部（Ministerio de Justicia）部分职能；2026年8月第5675号最高法令（DS 5675，2026-08-13签署）重组总统府部后，8月26日由部长费尔南多·阿拉马约主持再次宣誓确认，职衔为「透明、司法安全与公共诚信副部长」；2026年9月14日第5706号最高法令（DS 5706「零腐败、彻底透明与国家廉政」）将机构更名为「透明、反腐、公共诚信与司法副部长办公室」（Viceministerio de Transparencia, Lucha Contra la Corrupción, Integridad Pública y Justicia），并依该令第三条出任政府「透明、反腐、公共诚信与司法事务政府代表」。任内负责司法改革协调、公共透明、反腐举报与调查启动等事务。",
+            "source": "opinion.com.bo / eju.tv / presidencia.gob.bo / lapatria.bo",
+            "is_current": "true",
+            "org_id_note": "总统府部 ID 取自项目 _name_index.json（BO-GOV-006）"
+        },
+        {
+            "start_date": "2021",
+            "end_date": None,
+            "organization": "加西亚·德尔芬律师事务所 (García Delfín & Asociados)",
+            "org_id": None,
+            "position": "律师事务所主任",
+            "description": "执掌位于塔里哈的 García Delfín & Asociados 律师事务所（报道称自2021年起任主任；其 LinkedIn 档案亦显示为该所律师）。专长行政法、宪法与刑法，参与法律审计及涉公共职能事务。",
+            "source": "expediente.com.bo / bo.linkedin.com（公开档案） / Garcia Delfin & Asociados 官方 Facebook 页",
+            "org_id_note": "私人律所，无项目组织 ID"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚圣保罗天主教大学 (Universidad Católica Boliviana San Pablo)",
+            "org_id": "BO-ACAD-008",
+            "position": "法律顾问",
+            "description": "曾任玻利维亚圣保罗天主教大学（UCB）法律顾问（Asesor Legal）。",
+            "source": "ANA（anabolivia.org / sumandovoces.com.bo 转载），单一来源"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "塔里哈省政府 (Gobernación de Tarija)",
+            "org_id": None,
+            "position": "安全、司法与人权省务秘书",
+            "description": "曾任塔里哈省政府（Gobernación de Tarija）安全、司法与人权省务秘书（Secretario Departamental de Seguridad, Justicia y Derechos Humanos）。",
+            "source": "ANA（anabolivia.org / sumandovoces.com.bo 转载），单一来源"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "塔里哈省政府 (Gobernación de Tarija)",
+            "org_id": None,
+            "position": "省府顾问",
+            "description": "曾任塔里哈省府（Prefectura de Tarija，Gobernación 前身）顾问（Asesor）。",
+            "source": "ANA（anabolivia.org / sumandovoces.com.bo 转载），单一来源"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚司法机关 (Órgano Judicial)",
+            "org_id": None,
+            "position": "国家法律组负责人",
+            "description": "曾任司法机关「国家法律组」（Unidad Nacional Jurídica）负责人（Jefe）。",
+            "source": "ANA（anabolivia.org / sumandovoces.com.bo 转载），单一来源"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统。2025年11月24日在 Casa Grande del Pueblo 主持其就任透明、司法安全与人权副部长宣誓，并称「司法部已死」、嘱其主管玻利维亚法律安全事务。",
+            "source": "opinion.com.bo / eju.tv / ciudadprensa.com"
+        },
+        {
+            "person_id": "BO-PERSON-000003",
+            "person_name": "费尔南多·阿拉马约 (Fernando Hugo Aramayo Carrasco)",
+            "relationship_type": "superior",
+            "description": "总统府部部长（其直接上级）。2026年8月26日主持其在 DS 5675 重组后的再次宣誓与职务确认。",
+            "source": "MinPresidencia 官方 Facebook / X（2026-08-26）"
+        }
+    ],
+    "profile": {
+        "source_url": "https://presidencia.gob.bo/wp-content/uploads/2026/01/d9ad049d-78b3-4039-93cc-a4349b832e14.jpg",
+        "local_path": None
+    },
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Marcelo Yamil García Delfín",
+            "url": "https://bo.linkedin.com/in/marcelo-yamil-garc%C3%ADa-delf%C3%ADn-293614150",
+            "source": "LinkedIn 公开档案（玻利维亚，职业为 García Delfín & Asociados 律师，姓名与律所均与本人一致，推断为本人档案）"
+        }
+    ],
+    "social_accounts_note": "6 平台扫描结果：LinkedIn 命中上述档案（推断为本人）；Facebook 命中其律师事务所官方页 Garcia Delfin & Asociados（Tarija，非个人账号）；X/Twitter、Instagram、TikTok、YouTube 未发现个人账号，相关内容均为总统府部官方账号（@MinPresidencia）及媒体报道。",
+    "family_members": [],
+    "family_note": "未见关于其配偶、子女等家庭成员的公开报道。",
+    "political_stances": [
+        {
+            "date": "2025-11-24",
+            "topic": "司法独立与司法改革",
+            "stance_content": "就任宣誓时承诺以「独立取代干预」，表示「部长或部委密谋反对法官与 magistrados 的时代已经结束」，将致力于恢复司法机关的独立（含财政与预算独立），推动透明化，「把多年来处于黑暗中的一切放到台前」，并为所有玻利维亚人建立清晰规则、终结「随意行事」（meterle nomás）的旧逻辑。",
+            "source": "opinion.com.bo / eju.tv / eldeber.com.bo"
+        },
+        {
+            "date": "2026-09-14",
+            "topic": "反腐败政策",
+            "stance_content": "支持并负责执行总统帕斯颁布的第5706号最高法令（DS 5706「零腐败、彻底透明与国家廉政」），该法令宣布反腐为国家优先事项，将其职掌机构更名并确立其政府反腐代表地位，负责行政机构内外透明、反腐、公共诚信与司法议题的协调与联络。",
+            "source": "lapatria.bo / reduno.com.bo / correodelsur.com"
+        },
+        {
+            "date": "2026-09",
+            "topic": "国有石油公司（YPFB）透明度",
+            "stance_content": "公开指出国家石油公司（YPFB）系统此前缺乏透明度，加剧了燃料供应困难，并通报政府已对 YPFB 启动干预，表示将推动相关进程公开透明。",
+            "source": "YouTube（玻媒体短视频，2026-09-14）/ x.com/MinPresidencia"
+        },
+        {
+            "date": "2026-10",
+            "topic": "针对官员与总统家人的威胁事件",
+            "stance_content": "就近期针对高级官员及总统帕斯家人的威胁指控公开表态，确认相关刑事举报已向检察院正式立案，并强调其办公室可基于具体数据启动调查、以证据为基础通过司法渠道处理。",
+            "source": "instagram.com（媒体帖，2026-10-20前后）/ facebook.com/BTVCanalOficial / x.com/grupoeldeber"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2025-11-24",
+            "achievement": "被总统罗德里戈·帕斯任命为总统府部首任透明、司法安全与人权副部长，参与承接被裁撤司法部的透明、法律安全与人权职能，成为帕斯政府司法重组与反腐议程的核心官员之一。",
+            "organization": "玻利维亚总统府部 (Ministerio de la Presidencia)"
+        },
+        {
+            "date": "2026-09-14",
+            "achievement": "依据 DS 5706，其所在机构更名为「透明、反腐、公共诚信与司法副部长办公室」，其本人出任政府「透明、反腐、公共诚信与司法事务政府代表」，集中行使全国反腐政策的政府代表与跨机构协调职能。",
+            "organization": "玻利维亚总统府部 (Ministerio de la Presidencia)"
+        },
+        {
+            "date": "2026-10-22",
+            "achievement": "主持公布并正式向检察院举报两起腐败案：波托西地区海关（涉48辆货车非法通行的敲诈收贿、三名前官员不明财产逾55万玻诺）与国家纺织局 Senatex（两名前官员将国库资金转入个人账户，合计逾460万玻诺），两案合计涉案金额超过500万玻利维亚诺。",
+            "organization": "玻利维亚总统府部 (Ministerio de la Presidencia)"
+        },
+        {
+            "date": "2026-10",
+            "achievement": "就针对总统帕斯家人及高级官员的威胁指控，确认刑事举报已正式向检察院立案，并宣布依据具体数据启动相应调查。",
+            "organization": "玻利维亚总统府部 (Ministerio de la Presidencia)"
+        }
+    ],
+    "biography_summary": "马塞洛·亚米尔·加西亚·德尔芬（Marcelo Yamil García Delfín），1982年7月8日出生于玻利维亚塔里哈，律师，专长行政法、宪法与刑法。据ANA通讯社报道，其拥有约19年公共管理领域法律执业经验，曾任塔里哈省府顾问、塔里哈省政府安全、司法与人权省务秘书、玻利维亚圣保罗天主教大学法律顾问及司法机关国家法律组负责人，2021年起执掌塔里哈 García Delfín & Asociados 律师事务所。2025年11月24日，总统罗德里戈·帕斯在拉巴斯 Casa Grande del Pueblo 主持其宣誓，出任总统府部透明、司法安全与人权副部长，承接被裁撤的司法部部分职能；2026年8月经第5675号最高法令重组后由部长阿拉马约主持再次宣誓确认；同年9月14日第5706号最高法令将机构更名为透明、反腐、公共诚信与司法副部长办公室，其负责人同时出任政府反腐代表。任内主导多起反腐行动，包括2026年10月公布波托西海关与国家纺织局合计逾500万玻诺的腐败线索并正式向检察院举报，并就针对总统帕斯家人的威胁指控立案调查。",
+    "position_note": "职衔沿革：2025-11-24 就任「透明、司法安全与人权副部长」（Viceministro de Transparencia, Seguridad Jurídica y Derechos Humanos）；DS 5675（2026-08-13签署，2026-08-26 由部长主持再次宣誓）后为「透明、司法安全与公共诚信副部长」（Viceministro de Transparencia, Seguridad Jurídica e Integridad Pública）；DS 5706（2026-09-14 颁布）后为「透明、反腐、公共诚信与司法副部长」（Viceministro de Transparencia, Lucha Contra la Corrupción, Integridad Pública y Justicia）并兼任政府反腐代表。ANA 报道称其就任日期为2025-11-25，与 Opinión、El Deber、Los Tiempos 等多数媒体（2025-11-24，周一）不符，本档案采用2025-11-24。",
+    "birth_date_note": "出生日期（1982-07-08）与出生地（塔里哈）据 ANA 通讯社报道及总统府部2026-08-26官方新闻稿（Semblanza，经多家媒体转载）交叉确认。",
+    "name_note": "姓名通常以简称 Yamil García（或 Marcelo Yamil García）见于媒体报道；全名 Marcelo Yamil García Delfín 由 ANA 通稿与总统府部官方新闻稿确认。",
+    "work_note": "塔里哈省府顾问、省务秘书、UCB 法律顾问、司法机关国家法律组负责人等履历细节目前仅见于 ANA 通讯社单一来源报道，日期未公开。",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "notes": "全名核实为 Marcelo Yamil García Delfín（García 为父姓、Delfín 为母姓），西语媒体亦常简称 Yamil García。核心事实（任命、职衔沿革、DS 5675/5706、反腐举报）有总统府部官网新闻稿及多家独立媒体（Opinión、El Deber、eju.tv、Ciudad Prensa、La Patria、Correodelsur 等）交叉确认；出生信息有 ANA 通稿与官方新闻稿两个独立来源。履历细节（省府顾问、省务秘书、UCB 法律顾问、司法机关法律组负责人）仅 ANA 单一来源，日期未公开；CESTE 犯罪学硕士因归属存疑未采信；教育机构未知故 education 为空。LinkedIn 档案经姓名与律所双匹配推断为本人。name_zh 沿用项目 _name_index.json 中同名全名条目（BO-PERSON-000057「马塞洛·亚米尔·加西亚·德尔芬」）的既有音译；中文媒体（新华网、外交部网站等）未见对该人物的独立译名。未发现 Wikidata 条目，wikidata_qid 置 null。家属信息无公开报道。照片取自总统府部官网其记者会相册（公网可访问）；contacts 为所在机构公开联络渠道而非个人联系方式。项目索引中 BO-PERSON-000048（Marcelo Yamil García）与 BO-PERSON-000057（Marcelo Yamil García Delfín）疑为同一人的重复登记，本档案为 000048。",
+        "quotes": [
+            {
+                "title": "Paz posesiona a Marcelo García como nuevo viceministro de Transparencia - Opinión",
+                "url": "https://www.opinion.com.bo/pais/paz-posesiona-marcelo-garcia-como-nuevo-viceministro-transparencia/20251124165817984130.html"
+            },
+            {
+                "title": "Yamil García asume el cargo de viceministro de Transparencia, Seguridad Jurídica y Derechos Humanos - eju.tv",
+                "url": "https://eju.tv/2025/11/yamil-garcia-asume-cargo-de-viceministro-de-transparencia-seguridad-juridica-y-derechos-humanos/"
+            },
+            {
+                "title": "Paz posesiona a Marcelo Yamil García como viceministro de Transparencia - Ciudad Prensa",
+                "url": "https://ciudadprensa.com/nacional/paz-posesiona-a-marcelo-yamil-garcia-como-viceministro-de-transparencia/"
+            },
+            {
+                "title": "Presidencia tiene nuevo viceministerio y se convierte en superministerio - El Deber",
+                "url": "https://eldeber.com.bo/pais/presidencia-tiene-nuevo-viceministerio-convierte-superministerio_1764017753"
+            },
+            {
+                "title": "Transparencia denuncia corrupción y daño millonario en la Aduana de Potosí y el Senatex - Ministerio de la Presidencia (官方新闻稿)",
+                "url": "https://presidencia.gob.bo/index.php/nota_prensa/transparencia-denuncia-corrupcion-y-dano-millonario-en-la-aduana-de-potosi-y-el-senatex/"
+            },
+            {
+                "title": "Ejecutivo designa a Yamil García como representante anticorrupción - La Patria",
+                "url": "https://lapatria.bo/enfoque-nacional/gestion/ejecutivo-designa-yamil-garcia-como/"
+            },
+            {
+                "title": "Transparencia: Al menos de siete viceministros no figura su Declaración Jurada después de asumir el cargo - ANA Bolivia",
+                "url": "https://anabolivia.org/transparencia-al-menos-de-siete-viceministros-no-figura-su-declaracion-jurada-antes-de-asumir-el-cargo/"
+            },
+            {
+                "title": "Seis viceministros asumieron funciones sin registrar su Declaración Jurada de Bienes - Sumando Voces",
+                "url": "https://sumandovoces.com.bo/seis-viceministros-asumieron-funciones-sin-registrar-su-declaracion-jurada-de-bienes/"
+            },
+            {
+                "title": "De Tarija a la Casa Grande, Marcelo García Delfín asume la lucha contra la corrupción - Expediente",
+                "url": "https://expediente.com.bo/de-tarija-a-la-casa-grande-marcelo-garcia-delfin-asume-la-lucha-contra-la-corrupcion/"
+            },
+            {
+                "title": "Marcelo Yamil García Delfín - LinkedIn 公开档案",
+                "url": "https://bo.linkedin.com/in/marcelo-yamil-garc%C3%ADa-delf%C3%ADn-293614150"
+            },
+            {
+                "title": "Yamil García: \"Lack of transparency at YPFB was harming supply\" - YouTube（玻媒体短视频）",
+                "url": "https://www.youtube.com/shorts/6IyaNW61FXM"
+            },
+            {
+                "title": "YAMIL GARCÍA FORMALIZA DENUNCIA POR AMENAZAS CONTRA LA FAMILIA DE RODRIGO PAZ - Instagram（媒体帖）",
+                "url": "https://www.instagram.com/p/DeuveucASEl/"
+            },
+            {
+                "title": "Ministerio de la Presidencia - X（官方账号，威胁事件与YPFB干预通报）",
+                "url": "https://x.com/MinPresidencia/status/2112594532995138005"
+            },
+            {
+                "title": "Nómina de Autoridades 2026 - Ministerio de la Presidencia（官方在任名录）",
+                "url": "https://presidencia.gob.bo/index.php/nomina-de-autoridades/"
+            }
+        ]
+    }
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT)

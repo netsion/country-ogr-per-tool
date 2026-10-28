@@ -1,0 +1,323 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000410 (Sergio Montes Rondon, S.J.) person profile JSON."""
+import json
+import os
+
+PROFILE = {
+    "person_id": "BO-PERSON-000410",
+    "wikidata_qid": None,
+    "name": "Sergio Montes Rondón",
+    "name_en": "Sergio Montes Rondón",
+    "aliases": [
+        "Sergio Montes",
+        "Padre Sergio Montes",
+        "P. Sergio Montes SJ",
+        "Sergio Montes SJ",
+        "Sergio Montes, S.J."
+    ],
+    "aliases_note": "SJ 为耶稣会（Society of Jesus / Compañía de Jesús）会士标示，非名字组成部分；全名 Sergio Montes Rondón 见耶稣会玻利维亚省官方公告。",
+    "nationality": "BO",
+    "nationality_note": "玻利维亚人，耶稣会玻利维亚省会士；省官方公告载其生于拉巴斯。",
+    "gender": "male",
+    "birth_date": None,
+    "birth_date_note": "耶稣会玻利维亚省官方公告（2024-12-23）载其1977年生于拉巴斯；未检索到精确出生月日。",
+    "birth_place": "拉巴斯 (La Paz)",
+    "name_zh": None,
+    "name_zh_note": "查无玻利维亚华文媒体对其的既有标准译名（Zcode/谷歌检索无中文报道命中），按规则置 null；内部清单拟定译名「塞尔希奥·蒙特斯」仅为索引用途，未采信为既有译名。",
+    "identity_note": "本条目为玻利维亚耶稣会士、Radio Fides 台长 Sergio Montes（Sergio Montes Rondón, SJ）；与西班牙、秘鲁等地同名政治人物非同一人。同集团新闻总监 Nancy Vacaflor 为另一人（BO-PERSON-000411），John Arandia 为 BO-PERSON-000412，均不混淆。",
+    "religion": "天主教 (Iglesia Católica)",
+    "religious_order": "耶稣会 (Compañía de Jesús / Society of Jesus)",
+    "ordination_date": "2006",
+    "is_deceased": False,
+    "contacts": [
+        {
+            "type": "website",
+            "value": "http://radiofides.com",
+            "source": "所属电台官网（机构渠道，非个人联系方式）"
+        }
+    ],
+    "current_positions": [
+        "玻利维亚耶稣会电台（Radio Fides）台长",
+        "菲德斯传媒集团（Grupo Fides）总监"
+    ],
+    "education": [
+        {
+            "institution": "圣卡利斯托学校 (Colegio San Calixto)",
+            "degree": "high_school",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "玻利维亚天主教大学 (Universidad Católica Boliviana)",
+            "field": "哲学、神学、政治学",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "纳瓦拉大学 (Universidad de Navarra)",
+            "field": "政治学",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": "2013-04",
+            "end_date": None,
+            "organization": "菲德斯通讯社 (Agencia de Noticias Fides, ANF)",
+            "org_id": "BO-MEDIA-018",
+            "position": "社长 (Director)"
+        },
+        {
+            "start_date": "2024-12-23",
+            "end_date": None,
+            "organization": "菲德斯电台 (Radio Fides Bolivia)",
+            "org_id": "BO-MEDIA-014",
+            "position": "台长 (Director)"
+        },
+        {
+            "start_date": "2024-12",
+            "end_date": None,
+            "organization": "菲德斯集团 (Grupo Fides)",
+            "org_id": "BO-MEDIA-014",
+            "position": "总监 (Director General)"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "《Cuarto Intermedio》杂志 (revista Cuarto Intermedio)",
+            "org_id": None,
+            "position": "总监 (Director)"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "菲德斯电台圣克鲁斯台 (Radio Santa Cruz)",
+            "org_id": None,
+            "position": "台长 (Director)"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "耶稣会玻利维亚省 (Compañía de Jesús, Provincia de Bolivia)",
+            "org_id": None,
+            "position": "发言人 (Portavoz)"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "耶稣会玻利维亚省 (Compañía de Jesús, Provincia de Bolivia)",
+            "org_id": None,
+            "position": "青年与圣召协调员 (Coordinador de Juventud y Vocaciones)"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "玻利维亚全国新闻协会 (Asociación Nacional de la Prensa, ANP)",
+            "org_id": None,
+            "position": "理事兼副主席 (Vocal y Vicepresidente)"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000411",
+            "person_name": "南希·瓦卡弗洛尔 (Nancy Vacaflor)",
+            "relationship_type": "colleague",
+            "description": "菲德斯集团新闻总监（directora informativa）。2025年12月蒙特斯获拉巴斯记者协会奖章时因不在拉巴斯，由其代表领奖。"
+        },
+        {
+            "person_id": "BO-PERSON-000412",
+            "person_name": "约翰·阿兰迪亚 (John Arandia)",
+            "relationship_type": "colleague",
+            "description": "同属菲德斯集团的资深新闻人；2025年12月两人一同获拉巴斯记者协会（APLP）表彰。"
+        },
+        {
+            "person_id": "BO-PERSON-000420",
+            "person_name": "何塞·格拉蒙特·德·莫拉加斯 (José Gramunt de Moragas, S.J.)",
+            "relationship_type": "colleague",
+            "description": "菲德斯通讯社（ANF）创始社长。2013年蒙特斯获耶稣会省长任命接替格拉蒙特出任ANF社长。"
+        },
+        {
+            "person_id": None,
+            "person_name": "贝尔纳多·梅尔卡多 (Bernardo Mercado, S.J.)",
+            "relationship_type": "superior",
+            "description": "耶稣会玻利维亚省省长（修会体制中的上级）。2024年12月23日任命蒙特斯为菲德斯电台（Radio Fides）台长。"
+        },
+        {
+            "person_id": None,
+            "person_name": "雷内·卡尔多索 (René Cardozo, S.J.)",
+            "relationship_type": "superior",
+            "description": "时任耶稣会玻利维亚省省长，2013年任命蒙特斯为菲德斯通讯社（ANF）社长。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "Sergio Montes (@SergioMR.SJ)",
+            "url": "https://www.facebook.com/SergioMR.SJ",
+            "source": "网络检索识别；该账号帖文话题（菲德斯集团、圣克鲁斯电台等）与其身份吻合，页面受登录墙限制未直接读取"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "sergio montes rondon sj (@smrSJ)",
+            "url": "https://x.com/smrSJ",
+            "source": "经他人转推及学术文献引用交叉确认（显示名 sergio montes rondon sj）"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "@sergiomr.sj",
+            "url": "https://www.instagram.com/sergiomr.sj/",
+            "source": "网络检索识别（检索结果标题显示 Photos by Sergio Montes (@sergiomr.sj)）"
+        },
+        {
+            "platform": "threads",
+            "account_name": "@sergiomr.sj",
+            "url": "https://www.threads.com/@sergiomr.sj",
+            "source": "网络检索识别；内容为拉巴斯、伊利亚马尼雪峰、天文观测等，与其身份吻合"
+        }
+    ],
+    "social_accounts_note": "集团官方账号 @GrupoFides、@noticiasfides（X）及 ANF/Radio Fides Facebook 页为机构账号，未计入其个人社交账户。",
+    "family_members": [],
+    "family_note": "耶稣会神父，依修会独身愿无配偶子女（不可编造家庭成员）；公开资料亦未载其他家庭成员信息。",
+    "political_stances": [
+        {
+            "date": "2016-06",
+            "topic": "新闻自由（回应副总统加西亚·利内拉攻击媒体）",
+            "stance_content": "副总统加西亚·利内拉称媒体台长与所有人为「懦夫」，蒙特斯以菲德斯通讯社（ANF）社长身份发表声明拒绝此类「攻击性言论」，反对政治权力对独立媒体施压。",
+            "source": "https://www.noticiasfides.com/nacional/politica/vicepresidente-llama-cobardes-a-directores-y-duenos-de-medios-y-anf-rechaza-afirmaciones-agresivas-367151-367053"
+        },
+        {
+            "date": "2016-06",
+            "topic": "耶稣会对国家的贡献（回应总统埃沃·莫拉莱斯）",
+            "stance_content": "总统莫拉莱斯在记者会上发表针对耶稣会的言论后，蒙特斯以ANF社长身份公开回应，称愿向总统解释耶稣会如何服务玻利维亚「乃至伴随着迫害与牺牲」，为耶稣会在玻利维亚的历史服务辩护。",
+            "source": "https://www.noticiasfides.com/nacional/politica/director-de-anf-quisiera-explicarle-a-evo-como-sirven-los-jesuitas-al-pais-incluso-con-persecucion-y-muerte-de-por-medio--367553-367455"
+        },
+        {
+            "date": "2016-06-21",
+            "topic": "请求联合国派驻新闻自由观察员",
+            "stance_content": "针对执政环境下媒体与记者持续遭骚扰，蒙特斯与《Página Siete》报社负责人联合请求联合国派遣新闻自由国际观察员（veedor）。",
+            "source": "https://www.opinion.com.bo/articulo/el-pais/2-medios-2-periodistas-piden-veedor-onu/20160621200100553304.html"
+        },
+        {
+            "date": "2018",
+            "topic": "社会伦理与共同善",
+            "stance_content": "在面向大学社群的反思活动中表示「我们似乎正在习惯于不再有伦理质疑」，批评玻利维亚公共生活中共同善意识的缺席。",
+            "source": "https://www.noticiasfides.com/iglesia/padre-sergio-montes-34pareciera-que-nos-estamos-acostumbrando-a-no-tener-cuestionamientos-eticos-34"
+        },
+        {
+            "date": "2018-08",
+            "topic": "军人虐待报道女记者事件",
+            "stance_content": "在政府宫新楼启用报道中女记者遭军人咆哮羞辱（涉事军人称「我是军人，我就是大喊」）后，蒙特斯以ANF社长身份向总统府部长阿尔弗雷多·拉达提出正式抗议。",
+            "source": "https://www.noticiasfides.com/nacional/politica/la-anp-protesta-por-maltrato-a-periodistas-en-la-cobertura-del-nuevo-palacio-390296"
+        },
+        {
+            "date": "2021-10",
+            "topic": "司法部长利用教宗讯息攻击媒体",
+            "stance_content": "司法部长利马借教宗方济各讯息抨击六家媒体，蒙特斯指出「引人注意的是，部长对（教宗）讯息中某一点加以利用」，反对此类断章取义攻击媒体的行径。",
+            "source": "https://www.noticiasfides.com/nacional/sociedad/anp-rechaza-nuevo-ataque-del-ministro-de-justicia-contra-seis-medios-usando-un-mensaje-del-papa"
+        },
+        {
+            "date": "2023-08",
+            "topic": "支持独立新闻业（ANF创社60周年）",
+            "stance_content": "在菲德斯通讯社成立60周年之际，蒙特斯呼吁玻利维亚社会支持独立媒体，指出独立新闻业面临经济与政治双重压力，并通报通讯社多轮重组与数字化转型成果。",
+            "source": "https://www.noticiasfides.com/nacional/sociedad/anf-cumple-60-anos-su-director-hace-un-llamado-a-la-sociedad-a-apoyar-a-la-prensa-independiente"
+        },
+        {
+            "date": "2024-04",
+            "topic": "耶稣会Alfonso Pedrajas性侵案的处理",
+            "stance_content": "作为耶稣会玻利维亚省发言人，蒙特斯承认修会在Pedrajas神父（「Pica」）性侵指控曝光后未严格执行举报协议，同时修会否认机构层面的包庇责任，并介绍设立「倾听通道」（Canal de Escucha）与「健康安全环境代表团」等应对机制。",
+            "source": "https://www.aciprensa.com/noticias/104042/un-ano-del-caso-alfonso-pedrajas-asi-marchan-las-investigaciones-en-bolivia"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2013-04",
+            "achievement": "出任菲德斯通讯社（ANF）社长，接替创社社长格拉蒙特神父；此后主持2014-2015、2017-2018、2019年多轮机构重组并推动数字化转型，使ANF社交平台关注量由约1万增至约85万。",
+            "organization": "菲德斯通讯社 (Agencia de Noticias Fides, ANF)"
+        },
+        {
+            "date": "2023-08-05",
+            "achievement": "任内迎来ANF创社60周年，公开回顾通讯社发展历程并呼吁社会支持独立媒体。",
+            "organization": "菲德斯通讯社 (Agencia de Noticias Fides, ANF)"
+        },
+        {
+            "date": "2024-12-23",
+            "achievement": "获耶稣会玻利维亚省省长梅尔卡多神父任命为菲德斯电台（Radio Fides）台长兼菲德斯集团总监，执掌这家有近90年历史的耶稣会广播机构。",
+            "organization": "菲德斯电台 (Radio Fides Bolivia)"
+        },
+        {
+            "date": "2025-12",
+            "achievement": "获拉巴斯记者协会（APLP）颁发「埃杜阿多·佩雷斯·伊里瓦内神父奖章」，表彰其在媒体创新与管理方面的杰出表现（本人不在拉巴斯，由集团新闻总监瓦卡弗洛尔代领）。",
+            "organization": "拉巴斯记者协会 (Asociación de Periodistas de La Paz)"
+        }
+    ],
+    "biography_summary": "塞尔希奥·蒙特斯（Sergio Montes Rondón，SJ为耶稣会士标示），1977年生于拉巴斯，玻利维亚耶稣会神父、宗教媒体管理者。中学就读拉巴斯圣卡利斯托学校，1995年入军事神学院，2001年进入耶稣会初学，先后就读于玻利维亚天主教大学、圣安德烈斯大学与西班牙纳瓦拉大学，研习哲学、神学、语言学与政治学，2006年在拉巴斯晋铎。初学期曾在科恰班巴圣维拉克鲁斯堂区、蒂拉克堂区及《Cuarto Intermedio》中心服务，后任耶稣会青年与圣召协调员，并曾任《Cuarto Intermedio》杂志总监、菲德斯电台圣克鲁斯台台长及玻利维亚全国新闻协会（ANP）理事兼副主席。2013年4月出任菲德斯通讯社（ANF）社长，任职约11年，主持多轮重组与数字化转型，使社交关注量由约1万增至约85万；其间兼任耶稣会玻利维亚省发言人，应对2023至2024年Pedrajas神父性侵案危机。2024年12月23日获省长梅尔卡多任命为耶稣会电台Radio Fides台长兼菲德斯集团总监；2025年12月获拉巴斯记者协会奖章。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "notes": "基于2026-10-26西语/英语多轮检索、10余个独立页面全文精读构建。核验要点：①全名Sergio Montes Rondón、1977年生于拉巴斯、2006年晋铎等生平以耶稣会玻利维亚省官方公告（2024-12-23）为准；②ANF社长（2013-04起，接替José Gramunt）与2024-12-23出任Radio Fides台长/集团总监有jesuitas.org.bo、radiofides.com、noticiasfides.com多源印证；③2025-12获拉巴斯记者协会「佩雷斯·伊里瓦内神父奖章」，由Nancy Vacaflor（BO-PERSON-000411）代领；④社交账号（X @smrSJ、Facebook SergioMR.SJ、Instagram/Threads sergiomr.sj）经检索内容交叉确认，个人页受登录墙/反爬限制未直接读取，归属置信度较高、建议后续登录态复核；⑤name_zh查无玻利维亚华文媒体既有译名，按规则置null；⑥宗教人士，family_members依规留空；⑦political_stances均为其以ANF社长/耶稣会发言人身份的公开言论。存疑：ANF社长任期是否于2024年12月结束无明确报道（end_date留空）；ANP理事兼副主席、《Cuarto Intermedio》杂志总监及Radio Santa Cruz台长的任职年份未获确切日期。与同名政要（西班牙/秘鲁等）非同一人。",
+        "quotes": [
+            {
+                "title": "Provincial de la Compañía de Jesús nombra al P. Sergio Montes, SJ director de radio Fides Bolivia | Jesuitas Bolivia (2024-12-23)",
+                "url": "https://www.jesuitas.org.bo/noticias/provincial-de-la-compania-de-jesus-nombra-al-p-sergio-montes-sj-director-de-radio-fides-bolivia"
+            },
+            {
+                "title": "Provincial de la Compañía de Jesús nombra al P. Sergio Montes, SJ director de Radio Fides Bolivia | Radio Fides (2024-12-23)",
+                "url": "https://radiofides.com/nacional/provincial-de-la-compania-de-jesus-nombra-al-p-sergio-montes-sj-director-de-radio-fides-bolivia"
+            },
+            {
+                "title": "Sergio Montes y John Arandia del Grupo Fides fueron distinguidos por la Asociación de Periodistas de La Paz | ANF (2025-12-05)",
+                "url": "https://www.noticiasfides.com/democracia/sergio-montes-y-john-arandia-del-grupo-fides-fueron-distinguidos-por-la-asociacion-de-periodistas-de-la-paz"
+            },
+            {
+                "title": "Amalia Pando es Premio Nacional de Periodismo 2025 | ANF (2025-12-03)",
+                "url": "https://www.noticiasfides.com/democracia/amalia-pando-es-premio-nacional-de-periodismo-2025"
+            },
+            {
+                "title": "ANF cumple 60 años, su director hace un llamado a la sociedad a apoyar a la prensa independiente | ANF (2023-08-05)",
+                "url": "https://www.noticiasfides.com/nacional/sociedad/anf-cumple-60-anos-su-director-hace-un-llamado-a-la-sociedad-a-apoyar-a-la-prensa-independiente"
+            },
+            {
+                "title": "El sacerdote Sergio Montes, nuevo director de la Agencia Fides | ANF (2013-05)",
+                "url": "https://www.noticiasfides.com/nacional/sociedad/el-sacerdote-sergio-montes-nuevo-director-de-la-agencia-fides-330266-330253"
+            },
+            {
+                "title": "Director de ANF quisiera explicarle a Evo cómo sirven los jesuitas al país incluso con persecución y muerte de por medio | ANF (2016-06)",
+                "url": "https://www.noticiasfides.com/nacional/politica/director-de-anf-quisiera-explicarle-a-evo-como-sirven-los-jesuitas-al-pais-incluso-con-persecucion-y-muerte-de-por-medio--367553-367455"
+            },
+            {
+                "title": "Padre Sergio Montes: 「Lo fundamental es dejarse tocar por el amor de Dios」 | Bolivia Misionera (2024-11-26)",
+                "url": "https://boliviamisionera.com/2024/11/26/padre-sergio-montes-lo-fundamental-es-dejarse-tocar-por-el-amor-de-dios"
+            },
+            {
+                "title": "Radio Fides, 87 años haciendo historia desde el micrófono | Jesuitas Bolivia (2026-02)",
+                "url": "https://www.jesuitas.org.bo/noticias/radio-fides-87-anos-haciendo-historia-desde-el-microfono"
+            },
+            {
+                "title": "A un año del caso del 「Padre Pica」: ¿En qué quedó la crisis de abusos en Bolivia? | ACI Prensa (2024-04-17)",
+                "url": "https://www.aciprensa.com/noticias/104042/un-ano-del-caso-alfonso-pedrajas-asi-marchan-las-investigaciones-en-bolivia"
+            },
+            {
+                "title": "Padre Sergio Montes: 「pareciera que nos estamos acostumbrando a no tener cuestionamientos éticos」 | ANF (2018)",
+                "url": "https://www.noticiasfides.com/iglesia/padre-sergio-montes-34pareciera-que-nos-estamos-acostumbrando-a-no-tener-cuestionamientos-eticos-34"
+            }
+        ]
+    }
+}
+
+OUT = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons\BO-PERSON-000410.json"
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(PROFILE, f, ensure_ascii=False, indent=2)
+print("written:", OUT)

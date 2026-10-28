@@ -1,0 +1,266 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-MEDIA-004 (El Diario, Bolivia) - phase3_enriched. Temp script, safe to delete."""
+import json
+
+PATH = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-MEDIA-004.json"
+
+data = {
+    "org_id": "BO-MEDIA-004",
+    "basic_info": {
+        "name_original": "El Diario",
+        "name_zh": "日报",
+        "name_en": "El Diario",
+        "aliases": [
+            "El Diario Bolivia",
+            "玻利维亚《日报》",
+            "EL DIARIO",
+            "Decano de la Prensa Nacional"
+        ],
+        "org_type": "MEDIA",
+        "org_subtype": "newspaper",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1904-04-05",
+        "website": "https://www.eldiario.net/",
+        "wikidata_qid": "Q1324064"
+    },
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "eldiario_net",
+            "url": "https://twitter.com/eldiario_net",
+            "source": "https://x.com/eldiario_net"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "eldiario.bolivia",
+            "url": "https://www.facebook.com/eldiario.bolivia/",
+            "source": "https://www.facebook.com/eldiario.bolivia/"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "eldiariobolivia",
+            "url": "https://www.instagram.com/eldiariobolivia/",
+            "source": "https://www.instagram.com/eldiariobolivia/"
+        },
+        {
+            "platform": "threads",
+            "account_name": "eldiariobolivia",
+            "url": "https://www.threads.com/@eldiariobolivia",
+            "source": "https://www.threads.com/@eldiariobolivia"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "eldiariobolivia54788",
+            "url": "https://www.tiktok.com/@eldiariobolivia54788",
+            "source": "https://www.tiktok.com/discover/periodico-el-diario-la-paz-bolivia"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "El Diario 新闻门户（eldiario.net）",
+            "url": "https://www.eldiario.net/",
+            "description": "官方新闻网站（portal），2026 年 10 月仍每日更新，提供社论、政治、经济、社会、国内、国际、文化、体育等全部版面的数字内容。",
+            "source": "https://www.eldiario.net/"
+        },
+        {
+            "name": "往期报纸数字档案（Ediciones pasadas）",
+            "url": None,
+            "description": "官网导航提供的往期报纸电子版查阅入口，可回溯历史版面，是玻利维亚连续出版时间最长的报纸档案之一。",
+            "source": "https://www.eldiario.net/"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Antonio Carrasco Guzmán",
+            "title": "台长（Director de EL DIARIO）",
+            "title_description": "官网 2026-04-19 报道以“DIRECTOR”身份报道其出席 122 周年致敬酒会；西语维基百科台长名录记载其自 2002 年起任台长（2002-2015）；D&B 企业档案将其列为 El Diario S.A. 关键负责人；官网 2026-04-05 报道确认其与总经理共同领导报社至今。",
+            "description": "Carrasco 家族第五代成员，2002 年起执掌玻利维亚最古老日报的编辑业务，主持社论方向；2002 年 5 月其业主父亲（时任业主 Jorge Carrasco Jahnsen）被拘押期间曾被媒体称为“业主幼子”；2016 年 1 月父亲去世后与 Jorge Carrasco Guzmán 共同延续家族经营；2026 年 4 月代表报社出席 122 周年纪念酒会。"
+        },
+        {
+            "person_id": None,
+            "name": "Jorge Carrasco Guzmán",
+            "title": "总经理（Gerente General de EL DIARIO）兼玻利维亚全国新闻协会（ANP）主席",
+            "title_description": "官网 2026-04-19 报道称其为 GERENTE GENERAL DE EL DIARIO；2025-02-25 官网报道及 El Día、El Potosí、FM Bolivia 报道其连任 ANP 主席（2025-2026 届）；2023-02 起首次出任 ANP 主席。",
+            "description": "Carrasco 家族第五代成员，主持报社经营与行政；2023 年 2 月当选玻利维亚全国新闻协会（ANP，由全国主要日报组成）主席，2025 年 2 月获连任（任期至 2026），任内代表玻利维亚主要印刷日报发声维护新闻自由。"
+        },
+        {
+            "person_id": None,
+            "name": "José Carrasco Torrico",
+            "title": "创办人（Fundador，1904 年）",
+            "title_description": "西语维基百科信息框记载其为创办人；官网 2025-04-05 周年社评称报社“忠于 don José Carrasco Torrico 于 1904 年 4 月 5 日确立的办报方针”。",
+            "description": "玻利维亚政治家、宪法学者，1904 年 4 月 5 日在拉巴斯创办 El Diario；该报由其家族（Carrasco 家族）连续经营超过 120 年，现已延续至家族第五代。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "新闻编辑部（Redacción）",
+            "dept_id": "BO-MEDIA-004-DEPT-001",
+            "head": None,
+            "description": "统筹印刷日报与新闻门户 eldiario.net 的采编业务，下设政治（Política）、经济（Economía/Eco$com）、社会与治安（Sociedad–Seguridad）、国内（Nacional）、国际（Internacional）、体育（Deportes）、社会新闻（Sociales）等条线（据官网栏目设置）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "社论与观点部（Editorial / Opinión）",
+            "dept_id": "BO-MEDIA-004-DEPT-002",
+            "head": None,
+            "description": "撰写每日社论并编辑观点版；该报编辑立场传统上偏保守，与其创始人及 Carrasco 家族的立场一脉相承。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "副刊与特刊部（Suplementos）",
+            "dept_id": "BO-MEDIA-004-DEPT-003",
+            "head": None,
+            "description": "编辑随报出版的专题副刊，包括 Femenina、Ciencia y Computación、Nuevos Horizontes、La Guía、El Lustra、Cine Mundo、De Salud+vida、Corso infantil 等（据官网栏目设置）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "广告与讣告部（Avisos）",
+            "dept_id": "BO-MEDIA-004-DEPT-004",
+            "head": None,
+            "description": "经营分类广告、商业广告与讣告（necrológicos）刊载业务，为报社传统收入来源之一。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-04-05",
+            "title": "El Diario 迎来创刊 122 周年，政界、企业界与学界致敬",
+            "description": "2026 年 4 月 5 日 El Diario 创刊 122 周年，官网连续刊发系列纪念报道；玻利维亚政界、企业界与学界人士称其为玻利维亚新闻业的“标志（ícono）”与“支柱（pilar del periodismo）”，并赞其为“自由的能量”“国民认同的缔造者”与主权立场的捍卫者。",
+            "impact": "巩固其“国家报业元老”（Decano de la Prensa Nacional）品牌地位，在玻利维亚政治过渡期强化公信力背书。",
+            "source": "https://www.eldiario.net/portal/2026/04/05/el-diario-en-sus-122-anos-es-icono-y-pilar-del-periodismo-en-bolivia/"
+        },
+        {
+            "date": "2026-04-19",
+            "title": "举办 122 周年致敬酒会，台长与总经理共同重申办报承诺",
+            "description": "报社举行 122 周年纪念荣誉酒会（brindis de honor），台长 Antonio Carrasco Guzmán 与总经理 Jorge Carrasco Guzmán 共同出席，宣布“焕新对玻利维亚历史的承诺”；同期报道确认报社自 2002 年起由 Carrasco 家族第五代领导至今。",
+            "impact": "确认家族第五代（Antonio 与 Jorge Carrasco Guzmán）领导格局稳定，编辑部与经营层延续家族共治模式。",
+            "source": "https://www.eldiario.net/portal/2026/04/19/el-diario-cumple-122-anos-y-renueva-su-compromiso-con-la-historia-de-bolivia/"
+        },
+        {
+            "date": "2026-04-10",
+            "title": "拉巴斯读书俱乐部“Prócer P. Domingo Murillo”向报社致敬",
+            "description": "拉巴斯读书俱乐部“Prócer P. Domingo Murillo”就 El Diario 创刊 122 周年举行致敬活动，俱乐部主席 Amparo Loayza Leonardini 表示此举是对该报历史贡献应尽的敬意。",
+            "impact": "获得拉巴斯文化界背书，强化其作为国家历史见证者与文化机构的社会形象。",
+            "source": "https://www.eldiario.net/portal/2026/04/10/homenaje-del-club-del-libro-procer-p-domingo-murillo-a-el-diario/"
+        },
+        {
+            "date": "2025-04-05",
+            "title": "创刊 121 周年：多民族立法大会议员公开表彰",
+            "description": "El Diario 迎来创刊 121 周年，多位多民族立法大会（ALP）议员及拉巴斯市政界人士公开表彰其“在玻利维亚民主关键时刻”的坚持，称其为抵抗与新闻独立的象征；官网同步刊发系列周年专题。",
+            "impact": "在 2025 年大选前政治动荡背景下彰显其全国性主流大报地位与跨党派认可。",
+            "source": "https://www.eldiario.net/portal/2025/04/05/legisladores-destacan-labor-del-decano-de-la-prensa-nacional/"
+        },
+        {
+            "date": "2025-02-25",
+            "title": "总经理 Jorge Carrasco Guzmán 连任全国新闻协会（ANP）主席",
+            "description": "在 ANP 成立 55 周年之际，El Diario 总经理 Jorge Carrasco Guzmán 获连任协会主席（任期 2025-2026）；ANP 由玻利维亚主要日报（El Diario、Los Tiempos、El Deber 等）组成，代表行业维护新闻自由。",
+            "impact": "El Diario 掌舵全国报业行业组织，在行业游说、新闻自由倡导与政府交涉中居于枢纽地位。",
+            "source": "https://www.eldiario.net/portal/2025/02/25/anp-reelige-a-su-directorio-presidido-por-jorge-carrasco-guzman/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": None,
+            "org_name": "Asociación Nacional de la Prensa de Bolivia (ANP)",
+            "org_type": "NGO",
+            "org_description": "玻利维亚全国新闻（报业）协会，1970 年 2 月 24 日成立，由全国主要印刷日报（El Diario、Los Tiempos、El Deber、Hoy、Última Hora、Presencia、Jornada、Correo del Sur 等）组成，维护新闻自由与行业权益；El Diario 为成员报，其总经理 Jorge Carrasco Guzmán 自 2023 年起任协会主席并于 2025 年 2 月连任（2025-2026）。",
+            "relationship_type": "member_of"
+        },
+        {
+            "org_id": None,
+            "org_name": "El Diario S.A.",
+            "org_type": "CORP",
+            "org_description": "El Diario 的出版公司，注册于拉巴斯（D&B 企业档案登记，关键负责人 Antonio Carrasco Guzmán）；报纸由创始家族 Carrasco 家族持有并经营（西语维基百科信息框记载业主为 Familia Carrasco）。",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": "BO-MEDIA-001",
+            "org_name": "El Deber",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚圣克鲁斯主流日报，同为玻利维亚全国新闻协会（ANP）成员，与 El Diario 同属全国主要日报行列。",
+            "relationship_type": "affiliated"
+        },
+        {
+            "org_id": "BO-MEDIA-002",
+            "org_name": "Los Tiempos",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚科恰班巴主流日报，同为玻利维亚全国新闻协会（ANP）成员（FM Bolivia 2025-02 报道的协会成员名单含 El Diario 与 Los Tiempos）。",
+            "relationship_type": "affiliated"
+        }
+    ],
+    "core_business": "El Diario（玻利维亚《日报》）是玻利维亚历史最悠久的日报，1904 年 4 月 5 日由政治家、宪法学者 José Carrasco Torrico 创刊于拉巴斯，被尊为“国家报业元老”（Decano de la Prensa Nacional），编辑部位于拉巴斯 Loayza 街 118 号，由创始家族 Carrasco 家族持有，现为家族第五代经营（台长 Antonio Carrasco Guzmán、总经理 Jorge Carrasco Guzmán，约自 2002 年起）。核心业务为每日印刷版报纸（周一至周六 4 玻利维亚诺、周日 5 玻利维亚诺，全国发行）与新闻门户 eldiario.net 的数字新闻服务。内容版面涵盖社论、观点、政治、经济（Eco$com）、社会与治安、国内、国际、文化、体育及社会新闻，并出版 Femenina、Ciencia y Computación、Nuevos Horizontes、La Guía、El Lustra、Cine Mundo、De Salud+vida 等周刊副刊，同时经营分类广告与讣告（Avisos）业务。该报编辑立场传统上偏保守，是玻利维亚全国新闻协会（ANP）成员，并通过 Facebook、X、Instagram、Threads、TikTok 等社交平台分发内容。1970-1971 年曾被军政府强占停刊；1999 年获玻利维亚政府授予“西蒙·玻利瓦尔民事功绩大十字勋章”。",
+    "industries": [
+        "media_publishing",
+        "digital_media"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。因此不存在El Diario对APEC的官方立场；作为玻利维亚商业日报，其对APEC及亚太区域合作议题仅作一般性新闻报道，无专门的公开立场文件。",
+    "profile": {
+        "source_url": "https://es.wikipedia.org/wiki/El_Diario_(Bolivia)",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikipedia (es.wikipedia.org/wiki/El_Diario_(Bolivia))",
+            "official_website (www.eldiario.net 首页)",
+            "eldiario.net articles (2025-02-25, 2025-03-12, 2025-04-05, 2026-04-05, 2026-04-10, 2026-04-19)",
+            "eldia.com.bo (2025-02-24)",
+            "elpotosi.net (2016-01-19, 2025-02-25)",
+            "fmbolivia.com.bo (2025-02-24)",
+            "puertosbolivia.com (2023-02-08)",
+            "dnb.com (El Diario S.A. company profile)",
+            "facebook.com/eldiario.bolivia",
+            "instagram.com/eldiariobolivia",
+            "threads.com/@eldiariobolivia",
+            "x.com/eldiario_net",
+            "tiktok.com/discover/periodico-el-diario-la-paz-bolivia"
+        ],
+        "quotes": [
+            {
+                "title": "El Diario (Bolivia) - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/El_Diario_(Bolivia)"
+            },
+            {
+                "title": "Inicio - El Diario - Bolivia（官网首页，2026-10 仍在每日更新）",
+                "url": "https://www.eldiario.net/"
+            },
+            {
+                "title": "EL DIARIO en sus 122 años es “ícono” y “pilar del periodismo” en Bolivia (2026-04-05)",
+                "url": "https://www.eldiario.net/portal/2026/04/05/el-diario-en-sus-122-anos-es-icono-y-pilar-del-periodismo-en-bolivia/"
+            },
+            {
+                "title": "El Diario cumple 122 años y renueva su compromiso con la historia de Bolivia (2026-04-19)",
+                "url": "https://www.eldiario.net/portal/2026/04/19/el-diario-cumple-122-anos-y-renueva-su-compromiso-con-la-historia-de-bolivia/"
+            },
+            {
+                "title": "El tiempo pasa, Bolivia queda y nosotros la contamos（2026-04-05，家族第五代领导 24 年）",
+                "url": "https://www.eldiario.net/portal/2026/04/05/el-tiempo-pasa-bolivia-queda-y-nosotros-la-contamos/"
+            },
+            {
+                "title": "ANP reelige a su Directorio presidido por Jorge Carrasco Guzmán (2025-02-25)",
+                "url": "https://www.eldiario.net/portal/2025/02/25/anp-reelige-a-su-directorio-presidido-por-jorge-carrasco-guzman/"
+            },
+            {
+                "title": "Jorge Carrasco es reelegido y dirigirá la ANP hasta 2026 (El Potosí, 2025-02-25)",
+                "url": "https://elpotosi.net/nacional/20250225_jorge-carrasco-es-reelegido-y-dirigira-la-anp-hasta-2026.html"
+            },
+            {
+                "title": "Legisladores destacan labor del Decano de la Prensa Nacional (2025-04-05)",
+                "url": "https://www.eldiario.net/portal/2025/04/05/legisladores-destacan-labor-del-decano-de-la-prensa-nacional/"
+            },
+            {
+                "title": "Muere Jorge Carrasco, dueño del decano nacional El Diario (El Potosí, 2016-01-19)",
+                "url": "https://elpotosi.net/nacional/20160119_muere-jorge-carrasco-dueno-del-decano-nacional-el-diario.html"
+            }
+        ],
+        "completeness_score": 0,
+        "notes": "Phase3 enrichment 2026-10-24。现任领导层（台长 Antonio Carrasco Guzmán、总经理 Jorge Carrasco Guzmán）经官网 2026-04-05/04-19 报道、El Día/El Potosí/FM Bolivia 2025-02 报道及 D&B 企业档案多源核实；西语维基百科台长名录止于 2002-2015（Antonio Carrasco Guzmán），2026 年报道确认其仍在任。key_people 三人均未命中 _name_index.json（person_id 置 null；索引内 Demetrio Canelas 为 Los Tiempos 创办人、René Ballivián Calderón 与本报关联无法可靠确认，均未采用）；ANP 与出版公司 El Diario S.A. 未命中索引（org_id 置 null，未沿用其他档案中 ANP=BO-INTL-004 的可疑映射）；关联媒体 BO-MEDIA-001/BO-MEDIA-002 命中索引。TikTok 账号经官网导航（列有 TikTok 入口）与 TikTok discover 页（账号 bio 与官网一致）交叉确认，handle 为 eldiariobolivia54788。2026-10 官网首页仍显示当日更新内容，纸版+数字版并行出版。搜索来源共 7 次检索 + 3 次页面读取；未修改 id_registry.json。"
+    }
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written:", PATH)

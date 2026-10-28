@@ -1,0 +1,249 @@
+# -*- coding: utf-8 -*-
+"""Phase3 enrichment for BO-NGO-013 Observatorio San Calixto."""
+import json
+
+PATH = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-NGO-013.json"
+
+data = {
+    "org_id": "BO-NGO-013",
+    "basic_info": {
+        "name_original": "Observatorio San Calixto",
+        "name_zh": "圣卡利斯托天文台",
+        "name_en": "Observatorio San Calixto (San Calixto Observatory)",
+        "aliases": [
+            "Fundación Privada de Fieles Observatorio San Calixto",
+            "OSC",
+            "San Calixto Observatory",
+        ],
+        "org_type": "NGO",
+        "org_subtype": "research_institute",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1913-05-01",
+        "website": "https://www.osc.org.bo/",
+        "wikidata_qid": "Q30293536",
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "Observatorio San Calixto",
+            "url": "https://www.facebook.com/ObservatorioSanCalixto/",
+            "source": "Facebook官方机构主页（La Paz，约2.19万粉丝，2026-10检索确认）",
+        },
+        {
+            "platform": "youtube",
+            "account_name": "Observatorio San Calixto - Bolivia",
+            "url": "https://www.youtube.com/playlist?list=PL4kumOz7hXHW3pL0Sn1ko8RI2Nb3k4tLJ",
+            "source": "YouTube官方频道（经频道播放列表检索确认，2026-10）",
+        },
+    ],
+    "digital_assets": [
+        {
+            "name": "官网实时地震公报（www.osc.org.bo 首页）",
+            "url": "https://www.osc.org.bo/",
+            "description": "官网首页实时滚动发布全国最新地震参数（日期、地方时、经纬度、深度、震级、所在省区），2026年10月24日仍在持续更新，是全国唯一的官方实时地震公报源。",
+            "source": "official website",
+        },
+        {
+            "name": "Educientistas 防震教育移动应用（Android）",
+            "url": "https://www.osc.org.bo/index.php/es/cultura/app",
+            "description": "机构自研的免费安卓防震科普应用，内含家庭应急计划制定指导等内容，下载后不消耗流量可离线使用，2025年9月经官方发布。",
+            "source": "official website / ABI (2025-09-03)",
+        },
+        {
+            "name": "地震报告与公报库（Informes y Reportes Sísmicos）",
+            "url": "https://www.osc.org.bo/index.php/es/sismicidad/inforepor",
+            "description": "机构发布的正式地震报告、月度统计公报等资料的官方下载页面。",
+            "source": "official website",
+        },
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "贡萨洛·安东尼奥·费尔南德斯（Gonzalo Antonio Fernández）",
+            "title": "台长（Director del Observatorio San Calixto）",
+            "title_description": "机构最高负责人，对外代表OSC就全国地震活动形势与防震减灾发声",
+            "description": "至少自2025年起担任台长（2025-09-03玻利维亚通讯社ABI报道其以台长身份推介防震措施），2026年仍在任（El Deber、Red Uno、TikTok等多家媒体持续以台长身份采访报道）。任内主导发布免费防震教育应用Educientistas，并多次就玻利维亚中部（科恰班巴、北丘基萨卡、圣克鲁斯部分地区）地壳变形加剧、1998年Aiquile-Totora 6.6级地震前车之鉴等震情作出权威解读；以机构名义参与推动2023年11月颁布的《玻利维亚抗震设计规范》（第271号决议）。国际地震中心（ISC）2021年玻利维亚国家地震、次声与强震动台网报告署名作者之一（署名Gonzalo A. Fernández M）。未在_name_index.json中命中，person_id置空。",
+        },
+        {
+            "person_id": None,
+            "name": "瓦尔特·阿塞（Wálter Arce）",
+            "title": "地震分析师（Analista del Observatorio San Calixto）",
+            "title_description": "台网分析人员，常以专家身份向媒体解释震情与地质风险",
+            "description": "OSC地震分析师，多次代表机构接受El Deber等主流媒体采访，讲解玻利维亚各地震风险区分布与震源机制（2026年多篇报道）；国际地震中心（ISC）2021年玻利维亚国家台网运行报告署名作者之一。未在_name_index.json中命中，person_id置空。",
+        },
+    ],
+    "departments": [
+        {
+            "dept_id": "BO-NGO-013-DEPT-001",
+            "name": "地震监测部（Sismología / Red Sismológica del OSC）",
+            "head": None,
+            "description": "核心业务部门，运营覆盖全国的地震台网（RS-OSC）：2016年起建成4座三分量宽频带地震台与2座三分量加速度台以改善定位方位角空区，官网口径全国在运行台站12座；全天候定位地震事件并发布实时公报与正式报告，负责全国震情统计（如2026年1月全国212次地震事件的月度通报）。部门负责人未公开，head留空。",
+            "parent_dept_id": None,
+        },
+        {
+            "dept_id": "BO-NGO-013-DEPT-002",
+            "name": "次声监测台阵（Infrasonido / 台阵 I08BO）",
+            "head": None,
+            "description": "1998年依《全面禁止核试验条约》（TPCEN/CTBTO）与法国原子能委员会（CEA）合作建立的次声台阵，位于拉巴斯省的的的喀喀湖附近（Peñas），用于监测大气层核爆，属国际监测系统（IMS）认证台站I08BO。",
+            "parent_dept_id": None,
+        },
+        {
+            "dept_id": "BO-NGO-013-DEPT-003",
+            "name": "国家数据中心（Centro Nacional de Datos, NDC）",
+            "head": None,
+            "description": "依据2002年7月30日第26731号最高法令（D.S. 26731），玻政府指定OSC为CTBTO国家数据中心（NDC）的执行与协调单位，向维也纳国际数据中心报送数据；运营3座认证台站：主地震台LPAZ-PS06、辅助地震台SIV-AS08（圣伊格纳西奥·德·贝拉斯科）与次声台I08BO（Peñas）。1998年玻外交部即已承认OSC为国家数据中心。",
+            "parent_dept_id": None,
+        },
+        {
+            "dept_id": "BO-NGO-013-DEPT-004",
+            "name": "地震博物馆（Museo Sismológico Pierre Marie Descotes S.J.）",
+            "head": None,
+            "description": "设于拉巴斯Indaburo街944号一座历史保护建筑（曾属苏克雷元帅后裔的祖宅）内的地震学博物馆，以创始人文稿命名，陈列历史地震仪器（双丝地震仪等）及1922-1985年间用于提供玻利维亚官方时间的天文钟。",
+            "parent_dept_id": None,
+        },
+        {
+            "dept_id": "BO-NGO-013-DEPT-005",
+            "name": "地震文化与教育部（Cultura Sísmica / Educientistas）",
+            "head": None,
+            "description": "自2021年起主导面向学校与公众的地震预防教育项目，普及地震科普与家庭应急计划；2025年9月发布自研免费安卓应用Educientistas，并同大学合作开发地震模拟培训装置，与耶稣会玻利维亚会省媒体渠道联动开展宣传。",
+            "parent_dept_id": None,
+        },
+    ],
+    "recent_events": [
+        {
+            "date": "2025-09-03",
+            "title": "台长费尔南德斯推介防震准备并发布免费防震应用Educientistas",
+            "description": "玻利维亚通讯社ABI报道：台长贡萨洛·费尔南德斯提醒地震无法预测但可以准备，呼吁家庭与机构制定应急计划、识别安全区域、检查房屋结构；同期发布国产免费安卓应用Educientistas（含家庭应急计划指导，离线可用）。报道同时回顾OSC与公共工程部、大学及工程师协会共同推动的《玻利维亚抗震设计规范》（2023年11月第271号决议），要求各市政对新建筑执行该规范。另据耶稣会玻利维亚会省官网，其地震预防教育项目自2021年起持续运行。",
+            "impact": "强化全国防震文化与家庭应急准备；Educientistas成为机构面向公众的核心科普工具，抗震设计规范进入市政执行阶段，凸显OSC在玻利维亚减灾政策中的技术权威地位。",
+            "source": "https://historico.abi.bo/index.php/noticias/internacional/38-notas/noticias/seguridad/68224-observatorio-san-calixto-fortalece-cultura-sismica-y-lanza-app-gratuita-para-prevenir-riesgos-ante-terremotos",
+        },
+        {
+            "date": "2026-02-06",
+            "title": "发布月度震情统计：2026年1月全国记录212次地震事件，科恰班巴当日连发三次地震",
+            "description": "机构通报：2026年1月全国共记录212次地震事件，其中波托西省148次居首，科恰班巴26次、拉巴斯16次、奥鲁罗15次、圣克鲁斯6次、丘基萨卡1次；同日通报科恰班巴省José Carrasco凌晨发生3.5级、震源深度23.2公里的中等地震，并为当日第三次连续地震（El Diario、ANF/Redes等报道）。",
+            "impact": "作为玻利维亚唯一专业地震监测机构提供全国震情权威统计；波托西深源中强震活动集中与科恰班巴连续发震引发公众关注，机构通报被各地方媒体广泛转载。",
+            "source": "https://jms.com.bo/mediamonitor/2026/02/06/en-el-primer-mes-de-2026-se-registraron-212-eventos-sismicos-en-el-pais/",
+        },
+        {
+            "date": "2026-06-27",
+            "title": "台长警告玻利维亚中部地壳变形加剧、不排除大震，援引1998年Aiquile-Totora 6.6级地震",
+            "description": "在委内瑞拉连发7.2级、7.5级地震引发区域关注之际，台长贡萨洛·费尔南德斯接受El Deber《Qué Semana》节目采访（eju.tv等转载，2026年6月下旬）：玻利维亚地震活动性低于邻国但并非免疫大震；科恰班巴、北丘基萨卡与圣克鲁斯部分交汇的中部地带地壳变形明显，并援引1998年Aiquile-Totora 6.6级地震（河流系统活化致灾）为前车之鉴；东部Chiquitania与贝尼因巴西克拉通地质稳定而风险较低；全国几乎每天发生2-2.9级微小地震。",
+            "impact": "在区域强震背景下为全国地震风险认知定调，其关于中部构造变形带的判断被多家媒体转载，成为2026年玻利维亚防震减灾讨论的权威依据。",
+            "source": "https://eju.tv/2026/06/observatorio-san-calixto-bolivia-no-esta-exenta-de-sufrir-sismos-de-magnitud/",
+        },
+        {
+            "date": "2026-09-13",
+            "title": "速报科恰班巴Cercado省3.2级浅源地震",
+            "description": "OSC台网速报：当日凌晨（午夜后）科恰班巴省Cercado发生3.2级地震，震源深度仅5公里（La Razón、eju.tv等据OSC通报报道）。",
+            "impact": "浅源地震虽震级不大但体感明显，OSC作为全国唯一地震速报源第一时间向公众与媒体发布参数，巩固其权威信息渠道地位。",
+            "source": "https://eju.tv/2026/09/observatorio-san-calixto-registro-un-sismo-de-magnitud-32-en-cochabamba-la-madrugada-de-este-domingo/",
+        },
+        {
+            "date": "2026-10-17",
+            "title": "官网实时公报记录波托西Nor Lípez 4.9级深源地震等连发震情",
+            "description": "OSC官网首页实时地震公报（2026-10-24查阅）显示：10月17日12:52（地方时）波托西省Nor Lípez发生4.9级、震源深度约191.6公里的中深源地震，为当月最强事件之一；同期公报还记录10月22日Sud Lípez 4.3级（深234.6公里）、10月9日Sud Lípez 4.3级（深182.6公里）等事件，波托西省Lípez地区深源中强震活动持续集中。",
+            "impact": "体现机构台网全天候连续运行与全国唯一公开实时地震公报的功能；深源地震对地面影响有限，但高频通报为公众与工程界提供持续震情参考。",
+            "source": "https://www.osc.org.bo/",
+        },
+    ],
+    "related_entities": [
+        {
+            "org_id": None,
+            "org_name": "Compañía de Jesús（Sociedad de Jesús，耶稣会玻利维亚会省）",
+            "org_type": "religious_org",
+            "org_description": "天主耶稣会修会，其在玻利维亚的教育与科学事业网络（含Colegio San Calixto、Radio Fides、Fe y Alegría等）的主管体系；OSC官网自述为其旗下事业（obras）之一。",
+            "relationship_type": "parent_org",
+        },
+        {
+            "org_id": None,
+            "org_name": "Colegio San Calixto",
+            "org_type": "school",
+            "org_description": "拉巴斯耶稣会学校，OSC的发源地：玻利维亚首座地震台（台站代码LPZ）1913-1964年设于该校地下室；同属耶稣会事业体系。",
+            "relationship_type": "affiliated",
+        },
+        {
+            "org_id": "BO-GOV-013",
+            "org_name": "Ministerio de Obras Públicas, Servicios y Vivienda（公共工程、服务与住房部）",
+            "org_type": "GOV",
+            "org_description": "主管公共工程与建筑规范的政府部门，2023年11月与OSC、多所大学及工程师协会共同发布《玻利维亚抗震设计规范》（第271号决议）。",
+            "relationship_type": "partner",
+        },
+        {
+            "org_id": "BO-ACAD-001",
+            "org_name": "Universidad Mayor de San Andrés（圣安德烈斯大学, UMSA）",
+            "org_type": "ACAD",
+            "org_description": "拉巴斯公立大学：UMSA机构知识库收录的工程项目为OSC设计地震模拟培训装置；OSC地震预防教育项目与大学师生合作开展（如Educientistas应用设计者之一为大学生），《玻利维亚抗震设计规范》制定亦有大学参与。",
+            "relationship_type": "partner",
+        },
+        {
+            "org_id": None,
+            "org_name": "CTBTO Preparatory Commission（全面禁止核试验条约组织筹备委员会）",
+            "org_type": "INTL",
+            "org_description": "总部设于维也纳的国际条约组织：其国际监测系统（IMS）认证OSC的三座台站（主地震台LPAZ-PS06、辅助地震台SIV-AS08、次声台I08BO），OSC依D.S. 26731担任玻利维亚国家数据中心并向其报送数据。",
+            "relationship_type": "partner",
+        },
+        {
+            "org_id": "BO-GOV-002",
+            "org_name": "Ministerio de Relaciones Exteriores（玻利维亚外交部）",
+            "org_type": "GOV",
+            "org_description": "1998年外交部承认OSC为玻利维亚国家数据中心（Centro Nacional de Datos），为其承担CTBTO国际义务的政府对口部门（台长2022年6月接受Opinión采访时所述）。",
+            "relationship_type": "partner",
+        },
+    ],
+    "core_business": "Observatorio San Calixto（OSC，圣卡利斯托天文台）是玻利维亚唯一的专业地震监测与科研机构，全称'信徒私人基金会 Observatorio San Calixto'（Fundación Privada de Fieles Observatorio San Calixto），隶属耶稣会（Compañía de Jesús）事业体系，1913年5月1日由耶稣会士Pierre Marie Descotes创建于拉巴斯。其核心业务为：运营覆盖全国的地震台网（含宽频带与强震动台站12座）与次声台阵，全天候监测、定位并向社会实时发布地震参数与正式震情报告；依第26731号最高法令担任《全面禁止核试验条约》玻利维亚国家数据中心（NDC），维护LPAZ-PS06、SIV-AS08、I08BO三座国际认证台站，向维也纳国际数据中心报送数据；开展地震危害性与区域地震构造研究，参与制定《玻利维亚抗震设计规范》（2023年第271号决议）；同时运营地震博物馆并开展面向学校和公众的地震文化教育（Educientistas应用）。机构历史上还开创了玻利维亚的气象观测、天文学、大地测量与无线电通信业务，并于1922-1985年承担国家官方时间服务。其技术经费主要依赖国际合作（CTBTO、法国CEA、美洲开发银行BID等），而非政府常规拨款。",
+    "industries": ["nonprofit", "research_development"],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入），因此 Observatorio San Calixto 不存在针对APEC的官方立场。该机构是玻利维亚国内的地震监测科研机构，其国际合作集中于地震学与全面禁止核试验条约（CTBTO）监测体系，业务范围不涉及APEC的贸易投资议程；截至本资料收集时（2026年10月），未检索到该机构就APEC相关事务发表任何公开声明。",
+    "profile": None,
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "osc.org.bo (official website: homepage live bulletin, /observatorio/historia, /about-us mision, /observatorio/ndc, /cultura/app, /sismicidad/inforepor)",
+            "es.wikipedia.org (Observatorio San Calixto)",
+            "wikidata.org Special:EntityData/Q30293536 (GRID grid.440351.7 / ROR 03w0prb16)",
+            "historico.abi.bo (ABI 2025-09-03, Educientistas app + Norma Boliviana de Diseño Sísmico)",
+            "jesuitas.org.bo (educational prevention project since 2021)",
+            "eldeber.com.bo via eju.tv (2026-06 central-zone seismic warning interview)",
+            "jms.com.bo / eldiario.net / deredes.tv-ANF (2026-02-06 monthly seismic report + Cochabamba swarm)",
+            "eju.tv / larazon.bo (2026-09-13 M3.2 Cochabamba report)",
+            "opinion.com.bo (2022-06-28 interview: 1998 NDC recognition by Cancillería)",
+            "isc.ac.uk (100 years of the Observatory of San Calixto) / researchgate.net (ISC 2021 network report, staff authors)",
+            "facebook.com/ObservatorioSanCalixto + youtube.com (official social accounts)",
+            "repositorio.umsa.bo (UMSA seismic-simulator project for OSC)",
+        ],
+        "quotes": [
+            {
+                "title": "Historia - Observatorio San Calixto (official website)",
+                "url": "https://www.osc.org.bo/index.php/es/observatorio/historia",
+            },
+            {
+                "title": "Observatorio San Calixto - Wikipedia (es)",
+                "url": "https://es.wikipedia.org/wiki/Observatorio_San_Calixto",
+            },
+            {
+                "title": "Observatorio San Calixto fortalece cultura sísmica y lanza app gratuita (ABI, 2025-09-03)",
+                "url": "https://historico.abi.bo/index.php/noticias/internacional/38-notas/noticias/seguridad/68224-observatorio-san-calixto-fortalece-cultura-sismica-y-lanza-app-gratuita-para-prevenir-riesgos-ante-terremotos",
+            },
+            {
+                "title": "Observatorio San Calixto: Bolivia no está exenta de sufrir sismos de magnitud (El Deber via eju.tv, 2026-06)",
+                "url": "https://eju.tv/2026/06/observatorio-san-calixto-bolivia-no-esta-exenta-de-sufrir-sismos-de-magnitud/",
+            },
+            {
+                "title": "En el primer mes de 2026 se registraron 212 eventos sísmicos en el país (2026-02-06)",
+                "url": "https://jms.com.bo/mediamonitor/2026/02/06/en-el-primer-mes-de-2026-se-registraron-212-eventos-sismicos-en-el-pais/",
+            },
+            {
+                "title": "Centro Nacional de Datos - osc.org.bo (D.S. 26731, IMS certified stations)",
+                "url": "https://www.osc.org.bo/index.php/es/observatorio/ndc",
+            },
+        ],
+        "completeness_score": 88,
+        "notes": "Phase3 enrichment (2026-10). Director verified as Gonzalo (Antonio) Fernández via ABI (2025-09-03), El Deber/eju.tv (2026-06), Red Uno (2026) and El Deber social video; Wálter Arce confirmed as analyst via El Deber social posts and ISC 2021 network report author list. Both key people absent from _name_index.json, person_id null; no department heads publicly listed (head null). No official X/Twitter or Instagram account found - only Facebook and YouTube verified. Org_subtype changed think_tank -> research_institute (scientific monitoring institute). Wikidata Q30293536 confirmed as OSC (GRID grid.440351.7, ROR 03w0prb16); note es.wikipedia article carries a second item Q65164702 - kept skeleton QID which matches the organization entity. Founded 1913-05-01 (official history + es.wikipedia + ISC). Hq address Indaburo 944, La Paz (official museum/history pages + IPGH historical paper). APEC stance boilerplate applied (Bolivia not an APEC member).",
+    },
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written", PATH)

@@ -1,0 +1,245 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-GOV-014 Ministerio de Minería y Metalurgia (Bolivia) -> phase3_enriched."""
+import json
+
+path = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-GOV-014.json"
+with open(path, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"].update({
+    "name_original": "Ministerio de Minería y Metalurgia",
+    "name_zh": "玻利维亚矿业与冶金部",
+    "name_en": "Ministry of Mining and Metallurgy",
+    "aliases": ["Ministerio de Minería y Metalurgia (MMM)", "MMM Bolivia", "Minminería Bolivia"],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "BOL",
+    "hq_country_iso3": "BOL",
+    "founded_date": None,
+    "website": "http://www.mineria.gob.bo/",
+    "wikidata_qid": "Q62005843",
+})
+
+data["social_accounts"] = [
+    {"platform": "facebook", "account_name": "Ministerio de Minería y Metalurgia Bolivia (@minmineriabol)", "url": "https://www.facebook.com/minmineriabol", "source": "official_website footer"},
+    {"platform": "twitter_x", "account_name": "@minmineriabo", "url": "https://x.com/minmineriabo", "source": "official_website footer"},
+    {"platform": "instagram", "account_name": "@ministeriodemineriabolivia", "url": "https://www.instagram.com/ministeriodemineriabolivia/", "source": "official_website footer"},
+    {"platform": "youtube", "account_name": "Ministerio de Minería y Metalurgia", "url": "https://www.youtube.com/channel/UC3avDHxuYOiv56hspVueXrg", "source": "official_website footer"},
+    {"platform": "tiktok", "account_name": "@ministeriodemineria", "url": "https://www.tiktok.com/@ministeriodemineria", "source": "official_website footer"},
+    {"platform": "linkedin", "account_name": "Ministerio de Minería y Metalurgia de Bolivia", "url": "https://www.linkedin.com/company/ministerio-de-miner%C3%ADa-y-metalurgia-de-bolivia", "source": "official_website footer"},
+]
+
+data["digital_assets"] = [
+    {"name": "Histórico de Cotizaciones Minerales（国际矿产品价格历史行情库）", "url": "https://www.mineria.gob.bo/index.php/historico-cotizaciones-minerales/", "description": "官网发布的国际矿产品价格历史行情数据栏目，逐日更新锌、锡、银、铅、金等玻利维亚主要出口矿产的国际报价。", "source": "official_website"},
+    {"name": "Cumbre Nacional Minera（全国矿业峰会专题站）", "url": "http://cumbre.mineria.gob.bo", "description": "2026年全国矿业峰会官方专题站点，发布峰会安排、六大主题磋商桌资料及新矿业法典社会磋商进展。", "source": "official_website"},
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "马尔科·安东尼奥·卡尔德龙·德拉巴尔卡·金塔尼利亚 (Marco Antonio Calderón de la Barca Quintanilla)",
+        "title": "矿业与冶金部长 (Ministro de Minería y Metalurgia)",
+        "title_description": "2025年11月17日由总统罗德里戈·帕斯·佩雷拉任命就职",
+        "description": "矿业咨询专家，任部长前为SCOPE SRL咨询公司总经理，专长流程再造、矿业、环境与安全领域咨询；就任后于2025年12月8日改组副部长层及COMIBOL、Vinto、SERGEOMIN等国企领导层，2026年起主导新矿业法典起草与2026年全国矿业峰会，并代表玻方与智利签署地质勘探矿业合作协议",
+    },
+    {
+        "person_id": None,
+        "name": "沃尔特·路易斯·兰迪瓦尔·卡斯特多 (Walter Luis Landívar Castedo)",
+        "title": "矿业政策、监管与监察副部长 (Viceministro de Política Minera, Regulación y Fiscalización)",
+        "title_description": "2025年12月8日由部长任命就职，官网组织架构现任",
+        "description": "主管国家矿业政策制定、矿业法规与监管监察体系，负责矿业权管理与行业规范执行；代表该部参与新矿业法典政策框架设计",
+    },
+    {
+        "person_id": None,
+        "name": "潘菲洛·马尔卡·尼娜 (Pánfilo Marca Nina)",
+        "title": "矿业合作社副部长 (Viceministro de Cooperativas Mineras)",
+        "title_description": "2025年12月8日由部长任命就职，官网组织架构现任",
+        "description": "主管全国规模庞大的矿业合作社部门事务，负责合作社矿工培训、技术援助与机构能力建设；多次代表该部与全国矿业合作社联合会（FENCOMIN）等协调，并参与新矿业法典中涉合作社条款的磋商",
+    },
+    {
+        "person_id": None,
+        "name": "卡洛斯·利桑德罗·埃尔格塔·伊达尔戈 (Carlos Lizandro Ergueta Idalgo)",
+        "title": "矿业冶金生产发展与投资副部长 (Viceministro de Desarrollo Productivo Minero Metalúrgico e Inversiones)",
+        "title_description": "官网组织架构及2026年9月该部通报现任",
+        "description": "主管矿业冶金生产发展与投资促进，下设环境与磋商总局及投资、战略与关键矿物总局；2026年随政府代表团出访韩国推介矿业投资合作，并牵头关键矿物议题研究",
+    },
+]
+
+data["departments"] = [
+    {
+        "name": "矿业政策、监管与监察副部级单位 (Viceministerio de Política Minera, Regulación y Fiscalización)",
+        "dept_id": "BO-GOV-014-DEPT-001",
+        "head": "Walter Luis Landívar Castedo",
+        "description": "制定国家矿业政策与法规框架，负责矿业权登记管理、行业监管与监察执法，下设矿业政策监管监察总局及战略管理与机构跟踪、控制与监察单位。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "矿业合作社副部级单位 (Viceministerio de Cooperativas Mineras)",
+        "dept_id": "BO-GOV-014-DEPT-002",
+        "head": "Pánfilo Marca Nina",
+        "description": "专责全国矿业合作社部门，提供技术援助与机构能力建设，下设矿业合作社总局；玻利维亚矿业合作社矿工数量庞大，是矿业就业与社会稳定的重要板块。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "矿业冶金生产发展与投资副部级单位 (Viceministerio de Desarrollo Productivo Minero Metalúrgico e Inversiones)",
+        "dept_id": "BO-GOV-014-DEPT-003",
+        "head": "Carlos Lizandro Ergueta Idalgo",
+        "description": "依2026年8月最高法令5675由原\"技术矿物与生产发展副部级单位\"更名设立，主管矿业冶金生产发展与投资促进、环境管理与法定磋商、战略及关键矿物事务，下设环境与磋商总局、投资战略与关键矿物总局。",
+        "parent_dept_id": None,
+    },
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-11-17",
+        "title": "帕斯总统任命马尔科·卡尔德龙·德拉巴尔卡为新矿业与冶金部长",
+        "description": "罗德里戈·帕斯2025年11月8日就任总统并精简内阁后，11月17日任命矿业咨询专家马尔科·安东尼奥·卡尔德龙·德拉巴尔卡·金塔尼利亚为矿业与冶金部长；矿业作为玻利维亚支柱产业，该部在机构精简改革中得以保留并延续运作。",
+        "impact": "矿业主管机构保持完整建制，政策导向转向市场化与吸引投资",
+        "source": "https://es.wikipedia.org/wiki/Ministerio_de_Miner%C3%ADa_y_Metalurgia",
+    },
+    {
+        "date": "2025-12-08",
+        "title": "部长集体任命两名副部长及矿业国企负责人",
+        "description": "部长卡尔德龙·德拉巴尔卡任命沃尔特·兰迪瓦尔为矿业政策监管监察副部长、潘菲洛·马尔卡·尼娜为矿业合作社副部长；同时任命何塞·费尔南多·科尔多瓦·埃吉瓦尔为玻利维亚国家矿业公司（COMIBOL）临时总裁、乌戈·阿萨贝为国家冶金公司（Vinto）总经理、豪尔赫·贝略特为国家地质矿业服务局（SERGEOMIN）执行局长。",
+        "impact": "该部及国有矿业体系领导层完成换届，为政策落地铺平人事基础",
+        "source": "https://www.elalteno.com.bo/bolivia/20251208/ministro-de-mineria-posesiona-dos-viceministros-y-tres-autoridades-del-sector",
+    },
+    {
+        "date": "2026-07-22",
+        "title": "2026年全国矿业峰会在阿乔卡利亚举行（7月22-24日）",
+        "description": "峰会聚集国有、私营、合作社矿业界与学界代表，围绕六大主题磋商桌讨论矿业治理议题；部长卡尔德龙·德拉巴尔卡肯定会议进展，峰会结论与提案作为起草新矿业法典和更新行业监管框架的基础。",
+        "impact": "开启全国性矿业政策对话，直接输出新矿业法典的社会磋商基础",
+        "source": "https://correodelsur.com/politica/20260709/cumbre-minera-2026-se-realizara-en-la-paz-y-busca-trazar-una-nueva-agenda-para-el-sector.html",
+    },
+    {
+        "date": "2026-08-18",
+        "title": "最高法令5675重组部内架构为三大副部级单位",
+        "description": "依最高法令5675，原\"技术矿物与生产发展副部级单位\"更名为\"矿业冶金生产发展与投资副部级单位\"，与矿业政策监管监察、矿业合作社两个副部级单位构成新的三大板块架构，该部官网组织架构及媒体确认新结构（2026年8月21日La Razón报道）。",
+        "impact": "机构架构向投资促进与关键矿物方向倾斜，强化三线分工",
+        "source": "https://larazon.bo/economia-y-empresa/2026/08/21/mineria-reorganiza-su-estructura-en-tres-viceministerios/",
+    },
+    {
+        "date": "2026-10-17",
+        "title": "玻利维亚与智利签署地质勘探与地质学合作文件",
+        "description": "智利总统卡斯特访玻期间，矿业部长卡尔德龙·德拉巴尔卡与智利外长佩雷斯·马肯纳签署两国地质勘查与地质学合作路线文件；同期两国还签署经济互补协定现代化及洪堡生物海洋光缆等项目，为两国70余年来首次在玻利维亚举行的元首会晤成果之一。",
+        "impact": "矿业地质勘探国际合作突破，改善外资与技术引进环境",
+        "source": "https://cancilleria.gob.bo/mre/2026/10/17/26515/",
+    },
+    {
+        "date": "2026-10-22",
+        "title": "新矿业法典草案披露\"去国家中心化\"导向，进入第四阶段起草",
+        "description": "部长卡尔德龙·德拉巴尔卡宣布新矿业法典将摒弃\"纯国家主义\"哲学，给予私营与合作社矿业更大参与空间，同时保留国营矿业；起草工作自2025年12月启动，由12名专家执笔、140余名技术人员参与，现已进入第四阶段审议，将纳入数字化流程、新机构架构、差异化合同与严格环保保护等要点。",
+        "impact": "或重构玻利维亚矿业投资规则，为私营与外资参与打开制度空间",
+        "source": "https://lapatria.bo/enfoque-nacional/gestion/nuevo-codigo-minero-busca-integrar-mineria-estatal-privada/",
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-SOE-002",
+        "org_name": "玻利维亚国家矿业公司 (Corporación Minera de Bolivia, COMIBOL)",
+        "org_type": "SOE",
+        "org_description": "国家大型国有矿业运营实体，管理国有矿区与冶炼资产，官网列为该部下属机构；2025年12月8日何塞·费尔南多·科尔多瓦·埃吉瓦尔出任临时总裁。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-GOV-040",
+        "org_name": "国家地质矿业服务局 (Servicio Geológico Minero, SERGEOMIN)",
+        "org_type": "GOV",
+        "org_description": "负责全国地质勘查、矿业地质信息与技术服务的事业性机构，官网列为该部下属机构；2025年12月8日豪尔赫·雷内·贝略特·拉·托雷出任执行局长。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-SOE-006",
+        "org_name": "玻利维亚锂业公司 (Yacimientos de Litio Bolivianos, YLB)",
+        "org_type": "SOE",
+        "org_description": "国家锂资源开发国企（乌尤尼等盐湖锂钾项目），行政上隶属能源碳氢化合物部，但在战略与关键矿物开发上与该部政策协调。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": "BO-SOE-009",
+        "org_name": "穆通钢铁公司 (Siderúrgica del Mutún, ESM)",
+        "org_type": "SOE",
+        "org_description": "依托圣克鲁斯省El Mutún铁矿的国有钢铁联合企业，官网列为该部下属机构。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "矿业行政管辖与监督局 (Autoridad Jurisdiccional Administrativa Minera, AJAM)",
+        "org_type": "GOV",
+        "org_description": "全国矿业行政管辖与许可权管理机构，负责矿业权（CEOM等）授予、登记与行政监管，隶属该部主管。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "国家矿物金属贸易登记管制服务局 (Servicio Nacional de Registro y Control de la Comercialización de Minerales y Metales, SENARECOM)",
+        "org_type": "GOV",
+        "org_description": "负责矿物与金属国内贸易登记、出口管制与打击非法矿业贸易的专门机构，官网列为该部下属机构。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "矿业融资基金 (Fondo de Financiamiento para la Minería, FOFIM)",
+        "org_type": "FIN",
+        "org_description": "面向矿业部门提供融资支持的公共基金，官网列为该部下属机构。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "温托国家冶金公司 (Empresa Metalúrgica Vinto, EMV)",
+        "org_type": "SOE",
+        "org_description": "位于奥鲁罗的国有锡冶炼企业，拉美地区重要锡冶炼厂，官网列为该部下属机构；2025年12月8日乌戈·马塞洛·阿萨贝·巴斯克斯出任总经理。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "国家黄金生产与销售公司 (Empresa Estatal de Producción y Comercialización del Oro, EPCORO)",
+        "org_type": "SOE",
+        "org_description": "国有黄金生产与商业化企业，官网列为该部关联机构（依托COMIBOL体系运作）。",
+        "relationship_type": "affiliated",
+    },
+]
+
+data["core_business"] = (
+    "玻利维亚矿业与冶金部（Ministerio de Minería y Metalurgia, MMM）是多民族玻利维亚国主管矿业与冶金行业的中央政府部门，"
+    "总部位于拉巴斯。核心职能包括：制定并执行国家矿业与冶金政策、法律法规及监管框架；通过矿业政策监管监察体系管理矿业权授予与登记，"
+    "并主管矿业行政管辖与监督局（AJAM）实施行业监管；通过国家地质矿业服务局（SERGEOMIN）推动地质勘查与矿业信息建设；"
+    "主管国有矿业体系，包括玻利维亚国家矿业公司（COMIBOL）、温托锡冶炼公司、穆通钢铁公司、国家黄金公司（EPCORO）、"
+    "矿物贸易管制机构（SENARECOM）及矿业融资基金（FOFIM）；专设矿业合作社副部级单位服务规模庞大的合作社矿工群体；"
+    "同时促进私营矿业投资与锂、锡、银、锌、铅、金、铁等矿产开发，监督矿业环境管理与原住民法定磋商程序。"
+    "矿业是玻利维亚支柱出口产业和外汇与财政重要来源。2026年起该部主导起草新矿业法典，政策导向从国家中心主义转向政企社三方并举、吸引投资的市场化方向。"
+)
+
+data["industries"] = ["public_administration", "mining"]
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。该部的国际合作以双边与区域安排为主："
+    "2026年10月17日与智利签署地质勘查与地质学合作文件；与秘鲁就参与2026年世界矿业大会（WMC）协调立场（据该部官网新闻）；"
+    "2026年9月派生产发展与投资副部长随政府代表团访问韩国推介矿业投资合作（据该部社交媒体通报）；"
+    "历史上玻利维亚矿业国际合作还包括与中俄企业在锂产业上的合作探讨。玻利维亚实际参与的多边框架为联合国、CAN、Mercosur（联系国）、CELAC、金砖伙伴国等。"
+)
+
+data["profile"] = {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ministerio_de_Metalurgia_y_Mineria_de_Bolivia.png",
+    "local_path": None,
+}
+
+data["collection_meta"] = {
+    "collection_date": "2026-10-25",
+    "phase": "phase3_enriched",
+    "data_sources": ["official_website", "wikipedia", "news_search", "social_media", "web_search"],
+    "completeness_score": 0,
+    "notes": "phase3富集：现任部长Marco Antonio Calderón de la Barca（2025-11-17任命）经Wikipedia+部官网+媒体多源核实；2026年8月DS5675三副部架构、2026全国矿业峰会、新矿业法典、玻智矿业合作等近期事件均取自2025-2026年来源；部长及副部长person_id在索引中无对应条目置null；founded_date无可靠来源留空",
+    "quotes": [
+        {"title": "Ministerio de Minería y Metalurgia - Wikipedia, la enciclopedia libre", "url": "https://es.wikipedia.org/wiki/Ministerio_de_Miner%C3%ADa_y_Metalurgia"},
+        {"title": "Ministro de Minería posesiona a dos viceministros y tres autoridades del sector", "url": "https://www.elalteno.com.bo/bolivia/20251208/ministro-de-mineria-posesiona-dos-viceministros-y-tres-autoridades-del-sector"},
+        {"title": "Nuevo Código Minero busca integrar minería estatal, cooperativa y privada", "url": "https://lapatria.bo/enfoque-nacional/gestion/nuevo-codigo-minero-busca-integrar-mineria-estatal-privada/"},
+        {"title": "Cancillería: Bolivia y Chile sellan acuerdos de integración económica, energética... (2026-10-17)", "url": "https://cancilleria.gob.bo/mre/2026/10/17/26515/"},
+        {"title": "Minería reorganiza su estructura en tres viceministerios - La Razón", "url": "https://larazon.bo/economia-y-empresa/2026/08/21/mineria-reorganiza-su-estructura-en-tres-viceministerios/"},
+        {"title": "Cumbre Minera 2026 se realizará en La Paz y busca trazar una nueva agenda para el sector - Correo del Sur", "url": "https://correodelsur.com/politica/20260709/cumbre-minera-2026-se-realizara-en-la-paz-y-busca-trazar-una-nueva-agenda-para-el-sector.html"},
+    ],
+}
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written", path)

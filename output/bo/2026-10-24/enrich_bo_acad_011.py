@@ -1,0 +1,324 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-ACAD-011 (Universidad Privada del Valle / Univalle Bolivia)."""
+import json
+
+org = {
+    "org_id": "BO-ACAD-011",
+    "basic_info": {
+        "name_original": "Universidad Privada del Valle",
+        "name_zh": "山谷私立大学",
+        "name_en": "Universidad Privada del Valle",
+        "aliases": ["Univalle", "UNIVALLE", "Univalle Bolivia", "Universidad Privada del Valle S.A."],
+        "org_type": "ACAD",
+        "org_subtype": "university",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1988-10-04",
+        "website": "https://www.univalle.edu/",
+        "wikidata_qid": "Q9091606"
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "UnivalleBolivia",
+            "url": "https://facebook.com/UnivalleBolivia",
+            "source": "wikidata; official website footer; facebook"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "@univallebolivia",
+            "url": "https://x.com/univallebolivia",
+            "source": "x.com（自述为 Universidad del Valle 官方账号）"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "Univalle Bolivia (@univallebolivia)",
+            "url": "https://www.youtube.com/channel/UC9pX1SrYqkZriM2KmxgZqng",
+            "source": "wikipedia_es; youtube"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "Universidad del Valle (BO)",
+            "url": "https://bo.linkedin.com/school/universidad-del-valle-bo-/",
+            "source": "linkedin"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "@univallelapaz（拉巴斯校区账号）",
+            "url": "https://www.tiktok.com/@univallelapaz",
+            "source": "tiktok"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "SIU 学生服务平台（Enlace Univalle）",
+            "url": "https://enlace.univalle.edu/san/webform/PAutenticar.aspx",
+            "description": "学生自助服务系统（SIU），用于注册、选课与学业管理，官网首页直达入口。",
+            "source": "official_website"
+        },
+        {
+            "name": "Portal de Posgrado（研究生院门户）",
+            "url": "https://www.univalle.edu/?page_id=20104",
+            "description": "Univalle 研究生（Postgrado）课程与项目官方门户。",
+            "source": "official_website"
+        },
+        {
+            "name": "Plataforma Graduados（校友平台）",
+            "url": "https://www.univalle.edu/?page_id=20058",
+            "description": "面向毕业生（Alumni）的官方校友联络与服务平台。",
+            "source": "official_website"
+        },
+        {
+            "name": "UNIVALLE NEXT+ 数字学习生态系统",
+            "url": "https://www.univalle.edu/",
+            "description": "2026年9月发布的数字化教育生态系统，整合先进学习平台、模拟器、虚拟实验室、数字资源、自学工具与语言学习，入口集成于官网；媒体称其为无边界数字生态。",
+            "source": "opinion.com.bo; official_website"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "贡萨洛·比森特·鲁伊斯·奥斯特里亚（Gonzalo Vicente Ruiz Ostria）",
+            "title": "校长（Rector）",
+            "title_description": "大学最高学术与行政负责人",
+            "description": "在 Univalle 任职逾25年，历任大学福利（Bienestar Universitario）与行政管理等部门负责人；现任校长，西语维基百科及 LinkedIn 均记载其校长身份，2026年3月以校长身份接受 Economy 专访，阐述 NEXT+ 数字化战略、国际化（MARCA 计划交流占比全国领先）与校区扩张规划。"
+        },
+        {
+            "person_id": None,
+            "name": "贡萨洛·鲁伊斯·马丁内斯（Gonzalo Ruiz Martínez）",
+            "title": "创始人（Fundador）",
+            "title_description": "大学创办人，官网刊有创始人欢迎辞",
+            "description": "1988年10月4日创立 Universidad Privada del Valle，在创始文件与章程中确立校训 La Respuesta Científica al Futuro（对未来的科学回答）；2026年4月获 Dr. hc 荣誉表彰，Univalle 官方社交账号发文致贺。"
+        },
+        {
+            "person_id": None,
+            "name": "迭戈·阿隆索·比列加斯·萨莫拉（Diego Alonso Villegas Zamora）",
+            "title": "学术副校长（Vicerrector Académico）",
+            "title_description": "主管全校本科教学与学术事务",
+            "description": "Ph.D.，Univalle 学术副校长（官网当局页）。"
+        },
+        {
+            "person_id": None,
+            "name": "桑德拉·马塞拉·鲁伊斯·奥斯特里亚（Sandra Marcela Ruiz Ostria）",
+            "title": "社会互动副校长（Vicerrectora Interacción Social）",
+            "title_description": "主管社会互动与文化传播职能（四联模型之一）",
+            "description": "Lic. M.Sc.，Univalle 社会互动副校长（官网当局页）。"
+        },
+        {
+            "person_id": None,
+            "name": "桑德罗·格雷罗·莫拉莱斯（Sandro Guerrero Morales）",
+            "title": "研究生副校长（Vicerrector de Postgrado）",
+            "title_description": "主管研究生教育与继续教育",
+            "description": "Ph.D.，Univalle 研究生副校长（官网当局页）。"
+        },
+        {
+            "person_id": None,
+            "name": "帕梅拉·希尔·达维拉（Pamela Gil Dávila）",
+            "title": "圣克鲁斯校区学术副校长（Vicerrectora Sede Académica Santa Cruz）",
+            "title_description": "主管圣克鲁斯 Eco-Smart 校区学术事务",
+            "description": "Lic. M.Sc.，圣克鲁斯校区学术副校长（官网当局页）；该校区为学校近年最大投资，现有学生3000余人。"
+        },
+        {
+            "person_id": None,
+            "name": "卡洛斯·托里科斯（Carlos Torricos）",
+            "title": "苏克雷校区副校长（Vicerrector Sede Académica Sucre）",
+            "title_description": "主管苏克雷校区学术事务",
+            "description": "Lic. MBA.，苏克雷校区副校长（官网当局页）。"
+        },
+        {
+            "person_id": None,
+            "name": "富兰克林·内斯托尔·拉达（Franklin Néstor Rada）",
+            "title": "拉巴斯校区副校长（Vicerrector Sede Académica La Paz）",
+            "title_description": "主管拉巴斯校区学术事务",
+            "description": "Ing. M.Sc.，拉巴斯校区副校长（官网当局页）；该校区正推进健康科学校区（Campus Ciencias de la Salud）建设。"
+        },
+        {
+            "person_id": None,
+            "name": "玛尔塔·梅希亚·法耶尔·德·罗萨斯（Martha Mejía Fayer de Rosas）",
+            "title": "特立尼达校区副校长（Vicerrectora Sede Académica Trinidad）",
+            "title_description": "主管特立尼达（贝尼省）校区学术事务",
+            "description": "Dra.，特立尼达校区副校长（官网当局页）。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "Sede Cochabamba（科恰班巴主校区）",
+            "dept_id": None,
+            "head": None,
+            "description": "主校区，位于科恰班巴近郊蒂基帕亚（Tiquipaya，距市中心约10公里），占地103,671.80平方米，设50个实验室、9间医学教室、2个计算中心、图书馆与闭路体育馆；市区另有 Polifuncional Univalle 多功能楼（含 Canal 39 Univalle 电视台演播室、牙科诊所）及位于 Cala Cala 的 America 多功能楼（43个实验室、36间教室、口头辩论庭）；2018年6月28日启用学术塔与 Hospital Univalle 大学医院。校长办公室设于主校区。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Sede La Paz（拉巴斯校区）",
+            "dept_id": None,
+            "head": "富兰克林·内斯托尔·拉达（Franklin Néstor Rada，副校长）",
+            "description": "1996年设立，位于拉巴斯 Miraflores 住宅区，含两栋教学楼及 Tejada Sorzano 大道体育园区（五人制足球、篮球场地等）；官网称其为世界海拔最高的大学校区之一，并正建设健康科学校区（Campus Ciencias de la Salud）。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Sede Sucre（苏克雷校区）",
+            "dept_id": None,
+            "head": "卡洛斯·托里科斯（Carlos Torricos，副校长）",
+            "description": "1994年设立，位于玻利维亚法定首都苏克雷，拥有 Las Delicias 校园（Bajo Delicias 区，建筑面积4,599平方米）；据西语维基百科，其为该市学生规模第二的高校。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Sede Trinidad（特立尼达校区）",
+            "dept_id": None,
+            "head": "玛尔塔·梅希亚·法耶尔·德·罗萨斯（Martha Mejía Fayer de Rosas，副校长）",
+            "description": "1994年设立，位于贝尼省首府特立尼达东北部，建筑面积5,022.26平方米，是亚马逊地区重要的高等教育据点；2026年10月在校区举办 VALLMUN 2026 模拟联合国会议。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Sede Santa Cruz（圣克鲁斯校区）",
+            "dept_id": None,
+            "head": "帕梅拉·希尔·达维拉（Pamela Gil Dávila，副校长）",
+            "description": "位于圣克鲁斯-德拉谢拉 Satélite Norte 的 Campus Eco-Smart 生态智慧校区，一期约60,000平方米，以140米连续环形（O形）连廊串联各楼宇；为学校近五年最大投资，现有学生3000余人，并规划在建研究与创新实验楼 M8。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-09-18",
+            "title": "UNIVALLE 发布 NEXT+ 数字教育生态系统",
+            "description": "Univalle 推出 UNIVALLE NEXT+，定位为无边界数字学习生态，整合学习平台、模拟器、虚拟实验室、数字资源、自学工具与语言培训，并与传统本科教学衔接；官网科恰班巴校区页面以《UNIVALLE REVOLUCIONA LA EDUCACIÓN CON EL LANZAMIENTO DE UNIVALLE NEXT+》为题报道（2026-09-22）。",
+            "impact": "巩固其作为玻利维亚高等教育数字化转型先行者的定位，支撑微证书与终身学习体系。",
+            "source": "https://www.opinion.com.bo/cochabamba/univalle-next-plus-transforma-formacion-universitaria-ecosistema-digital-limites/20260918123030996312.html"
+        },
+        {
+            "date": "2026-09-04",
+            "title": "作为唯一参展大学亮相 La Paz Expone 2026",
+            "description": "Univalle 拉巴斯校区官方账号宣布其为 La Paz Expone 2026 展会中唯一参展的大学，展示学校课程与项目。",
+            "impact": "提升在拉巴斯地区的品牌曝光与招生影响力。",
+            "source": "https://www.facebook.com/univallelpz/posts/-univalle-hace-historia-en-la-paz-expone-2026-como-la-%C3%BAnica-universidad-presente/1548098020693864/"
+        },
+        {
+            "date": "2026-03-03",
+            "title": "校长专访披露国际化与数字化关键指标",
+            "description": "Economy 月刊刊发校长贡萨洛·比森特·鲁伊斯·奥斯特里亚专访：累计培养逾24,000名毕业生；已建成超177,000平方米校舍；学生国际流动逾1,000人次；上一年度开展209个班级镜像（clases espejo）与22门 COIL 课程、惠及逾9,000名中外学生；并已实施区块链学位文凭与数字证书；正推进拉巴斯健康科学校区、科恰班巴 Chorrillos 技术校区与圣克鲁斯 M8 研究楼。",
+            "impact": "为评估该校国际化程度、数字化水平与基建扩张提供权威量化依据。",
+            "source": "https://www.economy.com.bo/articulo/branding-y-rse/univalle-aseguramos-formacion-calidad-proyeccion-global/20260303143918021883.html"
+        },
+        {
+            "date": "2025-12-08",
+            "title": "医学专业宣布自2026年起实施新课程体系",
+            "description": "医学专业主任 Antonio Alba 博士宣布自2026年起实施更新的医学课程体系（nueva malla curricular），并开放招生。",
+            "impact": "强化其获 MERCOSUR 认证的医学专业竞争力，影响医学类招生与培养质量。",
+            "source": "https://www.youtube.com/watch?v=jYq2jf0K1bw"
+        },
+        {
+            "date": "2025-12-05",
+            "title": "全面更新本科培养方案，引入面向未来的现代学术模型",
+            "description": "Univalle 发布重新设计的本科培养方案（官网称32个专业全部完成重构，官网首页统计本科项目为34个），采用新的教师角色定位与现代化课程模型。",
+            "impact": "为2026学年招生与教学质量改革奠定基础，系其核心学术战略动作。",
+            "source": "https://www.economy.com.bo/articulo/branding-y-rse/univalle-actualiza-planes-estudio-incorpora-modelo-academico-moderno-orientado-futuro/20251205150827021241.html"
+        },
+        {
+            "date": "2025-10-29",
+            "title": "首次赴秘鲁塔克纳推介学位项目，拓展国际市场",
+            "description": "Univalle 首次对秘鲁塔克纳市进行官方访问，向当地学生推介其本科与研究生课程，系该校面向秘鲁市场的国际招生拓展行动。",
+            "impact": "标志其区域国际化（面向秘鲁南部）扩张的开端。",
+            "source": "https://radiouno.pe/noticias/257213/univalle-de-bolivia-llega-a-tacna-para-presentar-su-oferta-academica/"
+        },
+        {
+            "date": "2025-10-03",
+            "title": "庆祝建校37周年",
+            "description": "Univalle 各校区官方账号发文庆祝建校37周年（1988-10-04建校）；官网首页亦以37年办学历程作为核心统计口径，并披露已累计向7,000名学生提供经济资助。",
+            "impact": "凸显其作为玻利维亚主要私立大学之一的持续运营能力与社会资助投入。",
+            "source": "https://www.facebook.com/univallelpz/posts/-univalle-celebra-37-a%C3%B1os-de-vida-institucional-en-la-universidad-privada-del-va/1256491043187898/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-008",
+            "org_name": "Ministry of Education (Ministerio de Educación)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚教育部，负责全国高等教育机构监管；1988年以最高决议第205336号授予 Univalle 法人资格，2001年7月依私立大学通用条例向其颁发 Universidad Plena（完全大学）认证。",
+            "relationship_type": "regulator"
+        },
+        {
+            "org_id": "BO-ACAD-009",
+            "org_name": "Universidad Privada Boliviana (UPB)",
+            "org_type": "ACAD",
+            "org_description": "玻利维亚知名私立大学（科恰班巴、拉巴斯、圣克鲁斯设校区），与 Univalle 无隶属关系，同属玻利维亚私立高等教育体系的主要同行院校，在 MERCOSUR 课程认证与招生市场互为同类/同级机构。",
+            "relationship_type": "sibling"
+        },
+        {
+            "org_id": "BO-ACAD-008",
+            "org_name": "Universidad Católica Boliviana San Pablo",
+            "org_type": "ACAD",
+            "org_description": "玻利维亚天主教会背景的私立大学，在拉巴斯、科恰班巴、塔里哈、圣克鲁斯设分校；与 Univalle 无隶属关系，同为玻利维亚主要私立大学（同类/同级院校）。",
+            "relationship_type": "sibling"
+        },
+        {
+            "org_id": "BO-INTL-007",
+            "org_name": "Mercosur（南方共同市场）",
+            "org_type": "INTL",
+            "org_description": "南美区域一体化组织；其大学课程区域认证机制（ARCUSUR/MARCA 计划）与 Univalle 关系密切：Univalle 是玻利维亚获 MERCOSUR 认证最多的私立大学（医学、牙科、土木工程、电子工程、机电一体化、建筑与城市规划），并在 MARCA 学生交流计划各认证专业网络中交流占比最高、承担多项总协调角色。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "Hospital Univalle（Univalle 大学医院）",
+            "org_type": "CORP",
+            "org_description": "Univalle 在科恰班巴运营的两所三级大学附属医院，配备多间手术室并覆盖各内外科专科及辅助医疗服务，2018年6月28日与学术塔同日落成，其医疗服务质量曾获认证。",
+            "relationship_type": "subsidiary"
+        },
+        {
+            "org_id": None,
+            "org_name": "Canal 39 Univalle Televisión（Univalle 大学电视台）",
+            "org_type": "MEDIA",
+            "org_description": "Univalle 运营的大学电视频道（39频道），演播室设于科恰班巴市中心 Polifuncional Univalle 多功能大楼内，兼具传播学（Comunicación y Medios Digitales）专业实践教学功能。",
+            "relationship_type": "subsidiary"
+        }
+    ],
+    "core_business": "Univalle（Universidad Privada del Valle，山谷私立大学）是玻利维亚领先的私立综合性大学之一，1988年10月4日经最高决议第205336号取得法人资格（1993年经第23527号最高法令确认），总部位于科恰班巴省蒂基帕亚，并在拉巴斯、圣克鲁斯、苏克雷、特立尼达设四个分校区，形成覆盖全国五大区域的国家高等教育系统。学校遵循四联模型（教学—研究—社会互动—生产），设6个学部、34个本科专业及研究生课程，累计培养逾2.4万名毕业生，并向7,000余名学生提供经济资助；另运营两所三级大学附属医院（Hospital Univalle）与 Canal 39 大学电视台。其医学、牙科、土木工程、电子工程、机电一体化、建筑与城市规划等专业获南方共同市场（MERCOSUR/ARCUSUR）认证，是玻利维亚获该认证最多的私立大学；学校为北美大学注册与招生官员协会（AACRAO）成员，医学院隶属泛美医学教育联合会（FEPAFEM），并与全球300余所大学开展学生交换（近五年450余人参与）。2004年签署玻利维亚首个大学—微软合作协议，近年推行区块链文凭与数字证书，2026年发布 NEXT+ 数字教育生态，推进虚拟实验室、模拟器与微证书等数字化教学。",
+    "industries": ["higher_education", "healthcare", "research_development"],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。因此 Univalle 作为玻利维亚高校不涉及 APEC 相关立场表态，其国际合作重点为南方共同市场（MERCOSUR）区域认证与学术交流网络。",
+    "profile": "Univalle 由工程师贡萨洛·鲁伊斯·马丁内斯于1988年10月4日在科恰班巴创立，校训为 La Respuesta Científica al Futuro（对未来的科学回答），现由校长贡萨洛·比森特·鲁伊斯·奥斯特里亚主持，设学术、研究生、社会互动三名专职副校长及四名分校区副校长。学校总部设于蒂基帕亚主校区，另有拉巴斯（1996）、苏克雷与特立尼达（1994）校区，并新建圣克鲁斯 Eco-Smart 生态智慧校区；2001年获教育部 Universidad Plena（完全大学）认证。学校以四联模型（教学、研究、社会互动、生产）为办学框架，拥有逾177,000平方米校舍、50个主校区实验室、两所三级大学附属医院和大学电视台，正推进拉巴斯健康科学校区、科恰班巴 Chorrillos 技术校区与圣克鲁斯 M8 研究楼等项目。2006年在校生统计为12,543人（西语维基百科），圣克鲁斯校区现有学生3000余人。学校国际化程度居玻利维亚高校前列：与全球300余所大学有交换协议，参与 MERCOSUR MARCA 交流计划并承担多项网络总协调，2025年首次赴秘鲁塔克纳拓展招生。2026年9月发布 NEXT+ 数字教育生态系统，推行区块链文凭、微证书与虚拟实验室，定位为面向未来的数字化大学。",
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "official_website",
+            "wikipedia_es",
+            "economy.com.bo",
+            "opinion.com.bo",
+            "radiouno.pe",
+            "linkedin",
+            "x.com",
+            "youtube",
+            "facebook"
+        ],
+        "completeness_score": 13,
+        "notes": "Phase3 enrichment 2026-10-24: rector verified via 3 independent sources (es.wikipedia, economy.com.bo 2026-03, LinkedIn); authorities list from official site; NEXT+ launch, curriculum reform, Tacna expansion sourced from media. Departments limited to 5 sede campuses (6 faculty names not published on site, left blank). Instagram main handle unconfirmed, omitted.",
+        "quotes": [
+            {
+                "title": "UNIVALLE: Aseguramos una formación de calidad con proyección global — 校长 Gonzalo Vicente Ruiz Ostria 专访（Economy）",
+                "url": "https://www.economy.com.bo/articulo/branding-y-rse/univalle-aseguramos-formacion-calidad-proyeccion-global/20260303143918021883.html"
+            },
+            {
+                "title": "Univalle Next Plus transforma la formación universitaria con un ecosistema digital sin límites（Opinión）",
+                "url": "https://www.opinion.com.bo/cochabamba/univalle-next-plus-transforma-formacion-universitaria-ecosistema-digital-limites/20260918123030996312.html"
+            },
+            {
+                "title": "Universidad Privada del Valle — Wikipedia en español（校长、创始人、校区与 MERCOSUR 认证）",
+                "url": "https://es.wikipedia.org/wiki/Universidad_Privada_del_Valle"
+            },
+            {
+                "title": "Sobre Univalle — 官网机构页（创始人欢迎辞、使命愿景、当局与四联模型）",
+                "url": "https://www.univalle.edu/?page_id=20038"
+            },
+            {
+                "title": "Univalle de Bolivia llega a Tacna para presentar su oferta académica（Radio Uno）",
+                "url": "https://radiouno.pe/noticias/257213/univalle-de-bolivia-llega-a-tacna-para-presentar-su-oferta-academica/"
+            }
+        ]
+    }
+}
+
+out = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-ACAD-011.json"
+with open(out, "w", encoding="utf-8") as f:
+    json.dump(org, f, ensure_ascii=False, indent=2)
+print("written:", out)

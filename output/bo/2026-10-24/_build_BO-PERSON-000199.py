@@ -1,0 +1,205 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000199 Estanislao Luis Finfera Brun person profile."""
+import json
+import os
+
+data = {
+    "person_id": "BO-PERSON-000199",
+    "wikidata_qid": None,
+    "name": "Estanislao Luis Finfera Brun",
+    "name_en": "Estanislao Luis Finfera Brun",
+    "name_zh": None,
+    "aliases": ["Comandante Estanislao Finfera"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "birth_date_note": "公开来源未披露其出生日期与出生地；据公共工程部官方通报，其拥有40余年军民航空从业经历",
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://www.boa.gob.bo/nomina-de-autoridades/",
+            "source": "BoA官网权威名录页（官方列名其总经理职务）"
+        }
+    ],
+    "current_positions": ["玻利维亚航空总经理"],
+    "education": [
+        {
+            "institution": "玻利维亚空军 (Fuerza Aérea Boliviana)",
+            "degree": "other",
+            "field": "军事航空飞行训练"
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": "2026-07-23",
+            "organization": "玻利维亚航空 (Boliviana de Aviación)",
+            "org_id": "BO-SOE-005",
+            "position": "总经理"
+        },
+        {
+            "organization": "玻利维亚航空 (Boliviana de Aviación)",
+            "org_id": "BO-SOE-005",
+            "position": "运营经理兼机长教员"
+        },
+        {
+            "organization": "玻利维亚国家航空局 (Dirección General de Aeronáutica Civil)",
+            "org_id": "BO-GOV-034",
+            "position": "运营安全总监"
+        },
+        {
+            "organization": "玻利维亚空军 (Fuerza Aérea Boliviana)",
+            "org_id": "BO-MIL-004",
+            "position": "中队指挥官兼飞行教官"
+        },
+        {
+            "organization": "玻利维亚劳埃德航空 (Lloyd Aéreo Boliviano)",
+            "org_id": None,
+            "position": "机长兼教官"
+        },
+        {
+            "organization": "玻利维亚南方航空 (AeroSur)",
+            "org_id": None,
+            "position": "机长"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000064",
+            "person_name": "毛里西奥·萨莫拉·利伯斯 (Mauricio Zamora Liebers)",
+            "relationship_type": "superior",
+            "description": "玻利维亚公共工程部长。2026年7月23日在BoA客机舱内、当着乘客的面主持Finfera宣誓就任BoA总经理；Finfera上任后提出的BoA混合制改制项目将提交给该部长审议。"
+        },
+        {
+            "person_id": None,
+            "person_name": "爱德华多·巴尔德维亚 (Eduardo Valdivia)",
+            "relationship_type": "colleague",
+            "description": "BoA总经理职务前任：巴尔德维亚于2026年4月就任、同年7月被免职后，Finfera经公开选拔程序接任该职。"
+        },
+        {
+            "person_id": "BO-PERSON-000001",
+            "person_name": "罗德里戈·帕斯·佩雷拉 (Rodrigo Paz Pereira)",
+            "relationship_type": "superior",
+            "description": "玻利维亚总统。2026年7月BoA总经理公开选拔系其总统任内的决定，由公共工程部具体实施，Finfera为该选拔过程的当选者。"
+        },
+        {
+            "person_id": None,
+            "person_name": "胡安·何塞·加尔瓦罗·雷克纳 (Juan José Galvarro Requena)",
+            "relationship_type": "colleague",
+            "description": "BoA总经理职位更前一任（2025年11月就任），Finfera为同一职位继任链条上的现任者（加尔瓦罗→巴尔德维亚→Finfera）。"
+        }
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2026-10-20",
+            "topic": "BoA企业改制（混合制公司）",
+            "stance_content": "提议将国营玻利维亚航空由100%国有企业转为「战略混合制企业」，引入战略合作伙伴与私人资本，使公司获得行政与财务自主权；称改制研究已完成，将提交公司董事会与公共工程部长，并认为在当前环境下完全依赖国家的航空公司难以为继。",
+            "source": "https://eju.tv/2026/10/gerente-de-boa-presentara-al-organo-ejecutivo-un-proyecto-para-convertir-la-aerolinea-en-empresa-mixta/"
+        },
+        {
+            "date": "2026-09-28",
+            "topic": "航空公司财政自主与机队重建",
+            "stance_content": "将其施政优先事项列为：恢复停场维修飞机投入运营、争取自主管理公司票款及货运收入（摆脱经由Banco Unión统一账户CUT上缴经济部的制度）、通过租赁引进巴航工业E190/E195客机并逐步更新机队；批评统一账户制度导致企业资金回流缓慢，公司可用机队一度仅剩9至11架。",
+            "source": "https://www.lostiempos.com/oh/actualidad/20260928/piloto-gerente-general-boa-estanislao-finfera-impulsa-gestion-sostenible"
+        },
+        {
+            "date": "2026-09-28",
+            "topic": "机票超售治理",
+            "stance_content": "认为航空业中「超售」（sobrevendido）现象本不应存在，指出BoA在超售的情况下航班上仍有空座的反常现象，公司正对出票环节实施严格管控并展开调查，以查明运作失灵的原因。",
+            "source": "https://www.lostiempos.com/oh/actualidad/20260928/piloto-gerente-general-boa-estanislao-finfera-impulsa-gestion-sostenible"
+        },
+        {
+            "date": "2026-09-28",
+            "topic": "航空燃油供应保障",
+            "stance_content": "指出航空燃油（jet fuel）供应缩减风险是当时玻利维亚航空业面临的重大不确定因素，并肯定其所属部委（公共工程部）与萨莫拉部长已就此进行相应交涉，称燃油保障对国家至关重要。",
+            "source": "https://www.lostiempos.com/oh/actualidad/20260928/piloto-gerente-general-boa-estanislao-finfera-impulsa-gestion-sostenible"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2026-07-23",
+            "achievement": "在数十名航空专业人士应聘的公开、透明公开选拔中，凭借资历、管理经验和商业航空知识胜出，被玻利维亚政府选定为国营玻利维亚航空总经理，系该公司八个月内第三任总经理",
+            "organization": "玻利维亚航空 (Boliviana de Aviación)"
+        },
+        {
+            "date": "2026-08",
+            "achievement": "据其向媒体通报，执掌BoA后公司于2026年8月录得盈利7,904,424玻利维亚诺，为连续数月亏损后首次转正（9月因一架飞机在巴西出现故障，盈利降至1,866.57玻利维亚诺）",
+            "organization": "玻利维亚航空 (Boliviana de Aviación)"
+        },
+        {
+            "date": "2026-10",
+            "achievement": "主导完成BoA改制研究并向公司董事会及公共工程部提交将玻利维亚航空转为「战略混合制企业」的改制方案",
+            "organization": "玻利维亚航空 (Boliviana de Aviación)"
+        },
+        {
+            "date": "2026-03",
+            "achievement": "作为资深航空专家就2026年2月27日埃尔阿尔托C-130坠机事故应邀在Posdata电视台节目中对事故提供技术评估分析",
+            "organization": "Posdata电视台 (Posdata TV)"
+        }
+    ],
+    "biography_summary": "埃斯塔尼斯劳·路易斯·芬费拉·布伦（Estanislao Luis Finfera Brun），玻利维亚空军出身的资深飞行员、航空业高管。2026年7月23日，经玻利维亚总统罗德里戈·帕斯推动、公共工程部实施的公开选拔程序，出任国营玻利维亚航空（BoA）总经理，由公共工程部长毛里西奥·萨莫拉在BoA客机舱内、当着乘客的面主持宣誓，接替被免职的巴尔德维亚，系该公司八个月内第三任总经理。他拥有40余年民航与军事航空经验，累计飞行18,301小时（其中13,538小时为机长时间），是波音767/300与波音737机型的高级机长兼教员，曾驾驶波音727、C-130大力神、福克F-27、Electra L-188、Convair CV-580、IAI Arava等机型。其职业生涯历任玻利维亚劳埃德航空（LAB）机长兼教官、AeroSur机长、BoA运营经理兼飞行教官、民航总局（DGAC）运营安全总监，并在玻利维亚空军任中队指挥官与飞行教官；曾连续六年入选参加NAS/DEA国际任务并参与安哥拉等国际任务，因成功处置C-130紧急着陆挽救全员生命获空军总司令部嘉奖，并两获航空功绩勋章。上任后他提出将BoA改制为混合制企业、恢复停场飞机并引进巴航工业客机等主张。",
+    "profile": {
+        "source_url": "https://www.oopp.gob.bo/wp-content/uploads/2026/07/Finfe-2.jpeg",
+        "local_path": "photos/BO-PERSON-000199.jpg"
+    },
+    "honors": "获玻利维亚空军总司令部官方嘉奖（表彰其在Hércules C-130运输机紧急着陆中展现的技术、挽救乘客与机组生命）；获「航空功绩勋章·军官级」（Condecoración al Mérito Aeronáutico «Oficial de la Orden»）与「航空功绩勋章·骑士级」（«Caballero de la Orden»）两枚勋章；连续六年入选参加NAS/DEA国际任务；在军航与民航领域培养逾20个机组（tripulaciones）",
+    "professional_certifications": "波音767/300与波音737高级机长兼教员（Piloto Comandante e Instructor Senior）资格；累计飞行18,301小时，其中13,538小时为机长时间；曾执飞波音727、C-130 Hércules、福克F-27、Electra L-188、Convair CV-580、IAI Arava等机型；民航领域运营安全专家（OACI/ICAO标准）",
+    "position_note": "2026年7月23日经公开选拔就任BoA总经理，接替被免职的Eduardo Valdivia（更早一任为Juan José Galvarro）；宣誓仪式由公共工程部长Mauricio Zamora在客机舱内主持，为BoA八个月内第三任总经理。",
+    "education_note": "媒体披露其为空军毕业生（egresado de la Fuerza Aérea）；其他学历教育信息未见公开披露。",
+    "family_note": "公开来源未查到其家庭成员（配偶、子女等）信息。",
+    "social_accounts_note": "对facebook、X(twitter)、instagram、linkedin、tiktok、youtube六个平台扫描，未发现可确认属其本人的社交账号；相关内容均为媒体报道页面（Explainer Noticias、Los Tiempos、Red Uno、RTP、El Deber、Bolivia TV、Posdata TV等）。",
+    "name_zh_note": "查证无既有中文译名：无Wikidata/中文维基条目，玻利维亚华文媒体亦未见使用译名，故name_zh置null；小传中的人名中文为音译描述。",
+    "collection_meta": {
+        "phase": "phase4_person_profile",
+        "collection_date": "2026-10-25",
+        "data_sources": [
+            "official_website",
+            "government_directory",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "quotes": [
+            {
+                "title": "Gobierno elige a Estanislao Finfera como nuevo Gerente General de BoA tras convocatoria abierta (MOPSV/OOPP官方通稿, 2026-07-23)",
+                "url": "https://www.oopp.gob.bo/nota_prensa/gobierno-elige-a-estanislao-finfera-como-nuevo-gerente-general-de-boa-tras-convocatoria-abierta/"
+            },
+            {
+                "title": "¿Quién es el nuevo gerente general de BoA? (Opinión, 2026-07-24)",
+                "url": "https://www.opinion.com.bo/pais/quien-es-nuevo-gerente-general-boa/20260724082926993788.html"
+            },
+            {
+                "title": "Estanislao Finfera juró como gerente de BoA a bordo de una aeronave y frente a pasajeros (Opinión, 2026-07-23)",
+                "url": "https://www.opinion.com.bo/pais/estanislao-finfera-juro-como-gerente-boa-bordo-aeronave-frente-pasajeros/20260723220544993784.html"
+            },
+            {
+                "title": "El piloto y gerente general de BoA, Estanislao Finfera, impulsa una gestión sostenible (Los Tiempos专访, 2026-09-28)",
+                "url": "https://www.lostiempos.com/oh/actualidad/20260928/piloto-gerente-general-boa-estanislao-finfera-impulsa-gestion-sostenible"
+            },
+            {
+                "title": "Gerente de BoA presentará al Órgano Ejecutivo un proyecto para convertir la aerolínea en empresa mixta (eju.tv, 2026-10-20)",
+                "url": "https://eju.tv/2026/10/gerente-de-boa-presentara-al-organo-ejecutivo-un-proyecto-para-convertir-la-aerolinea-en-empresa-mixta/"
+            },
+            {
+                "title": "El Gobierno de Bolivia y los trabajadores de BoA forman una comisión mixta y descartan la privatización (Aviaciónline, 2026-10-23)",
+                "url": "https://www.aviacionline.com/espanol/aviacion-comercial/latinoamerica-y-el-caribe/bolivia/el-gobierno-de-bolivia-y-los-trabajadores-de-boa-forman-una-comision-mixta-y-descartan-la-privatizacion_a6adbaebdbf5b0cd3a075c632"
+            },
+            {
+                "title": "Nómina de Autoridades de BoA (BoA官网名录页，列名总经理Estanislao Luis Finfera Brun)",
+                "url": "https://www.boa.gob.bo/nomina-de-autoridades/"
+            }
+        ],
+        "notes": "全名Estanislao Luis Finfera Brun及核心履历（40余年军民航空经验、18,301飞行小时、波音767/300与737高级机长教员、DGAC运营安全总监）以公共工程部（MOPSV）官方通稿为基准，Opinión、Los Tiempos独立交叉印证。就任细节（2026-07-23机舱宣誓、公开选拔、接替Valdivia）有官方通稿与Opinión两来源。2026年10月混合制改制主张经eju.tv与Los Tiempos两个独立来源确认。出生日期/出生地/家庭成员/个人社交账号均未查到公开信息，相应字段留空并加注。无Wikidata条目，无既有中文译名，name_zh置null。BoA官网名录页boa.gob.bo直读时502超时，但搜索摘要确认其总经理列名，与官方通稿一致；La Razón报道页因502/403未能直读全文。关联组织ID：BoA=BO-SOE-005、DGAC=BO-GOV-034、玻利维亚空军=BO-MIL-004、公共工程部长Mauricio Zamora=BO-PERSON-000064（均查自_name_index.json）；LAB与AeroSur未命中索引，org_id置null。"
+    }
+}
+
+out_dir = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons"
+os.makedirs(out_dir, exist_ok=True)
+out_path = os.path.join(out_dir, "BO-PERSON-000199.json")
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("WROTE", out_path)
+bio = data["biography_summary"]
+print("biography_summary length:", len(bio))

@@ -1,0 +1,309 @@
+# -*- coding: utf-8 -*-
+"""Write enriched profile for BO-MEDIA-005 (Opinión, Cochabamba). Phase3."""
+import json
+import io
+import sys
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+PATH = 'D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-MEDIA-005.json'
+
+data = {
+    "org_id": "BO-MEDIA-005",
+    "wikidata_qid": "Q7098285",
+    "basic_info": {
+        "name_original": "Opinión",
+        "name_zh": "意见报",
+        "name_en": "Opinión",
+        "aliases": [
+            "Opinion",
+            "opinion.com.bo",
+            "Diario Opinión",
+            "Opinión Bolivia",
+            "Matutino de la Integración（晨报别称）"
+        ],
+        "org_type": "MEDIA",
+        "org_subtype": "newspaper",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1985-01-13",
+        "website": "https://www.opinion.com.bo/"
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "DiarioOpinion",
+            "url": "https://www.facebook.com/DiarioOpinion/",
+            "source": "https://www.facebook.com/DiarioOpinion/（2026-10 检索，约 96 万点赞）"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "Opinion_Bolivia",
+            "url": "https://x.com/Opinion_Bolivia",
+            "source": "https://x.com/Opinion_Bolivia；官网页面 meta 标签（twitter:site=@Opinion_Bolivia，2026-10-24 读取）"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "opinionbolivia",
+            "url": "https://www.instagram.com/opinionbolivia/",
+            "source": "https://www.instagram.com/opinionbolivia/（2026-10 检索，约 3.6 万粉丝）"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "Opinión Bolivia",
+            "url": "https://www.youtube.com/channel/UCE1G7_nb9sf9csjz7j3gC5g",
+            "source": "https://www.youtube.com/channel/UCE1G7_nb9sf9csjz7j3gC5g（2026-10 检索）"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "Opinión Bolivia 新闻网站（opinion.com.bo）",
+            "url": "https://www.opinion.com.bo/",
+            "description": "报社官方网站与数字日报（Diario Digital）平台，设科恰班巴（Cochabamba）、国内（El País）、警闻（Policiales）、国际（Mundo）、体育（Deportes）、文化（Cultura）、趋势（Tendencias）、评论（Opiniones）、多媒体（Multimedia/Vídeos/Galerías）等频道；2026 年 3 月纸质版停刊后网站仍在更新（2026-10-24 仍可访问），除自有采编外整合 ABI、ERBOL、URGENTE.BO、El País、BBC 等稿件。",
+            "source": "https://www.opinion.com.bo/（2026-10-24 读取首页及导航）"
+        },
+        {
+            "name": "RSS 全站订阅源",
+            "url": "https://www.opinion.com.bo/rss/",
+            "description": "官网提供的 RSS 内容订阅接口（application/rss+xml），供第三方聚合与转载。",
+            "source": "官网页面 head 元数据（2026-10-24 读取）"
+        },
+        {
+            "name": "《意见报》历史档案（纸质及数字，1985-2026）",
+            "url": None,
+            "description": "报社停业后，员工促成报社历史档案保全：14,000 余份报纸及大量数字档案由玻利维亚国家档案图书馆（ABNB）与市立圣西蒙大学（UMSS）接管保存，覆盖 1985-2026 年科恰班巴及玻利维亚地方史，累计出版日报 15,055 期。",
+            "source": "https://lapatria.bo/enfoque-nacional/cierre-del-diario-opinion-un-legado-de-41-anos-en-bolivia/；https://www.redpat.tv/detalle/adios-a-opinion-cochabamba-otro-gigante-del-periodismo-boliviano-cae"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "布伦达·莫利纳（Brenda Molina）",
+            "title": "末任社长（Directora，2025 年至 2026 年 3 月停刊）",
+            "title_description": "西语与英语维基百科均记载 2025 年报社社长（directora）为 Brenda Molina；La Patria 2026 年停业回顾文章称其为危机末期的最后一任社长（Última directora durante la crisis final）。",
+            "description": "玻利维亚记者、编辑与调查报道员，毕业于科恰班巴市立圣西蒙大学（UMSS）社会传播专业。长期供职《意见报》，官网作者页标注其身份为报社记者、编辑与调查员（Periodista, redactora e investigadora），第三方商业名录记录其曾负责国内版（El País）等版面编辑工作；2021 年其经济新闻报道获首届玻利维亚经济新闻奖表彰（eju.tv 报道）。2025 年出任报社社长，任内报社因经营危机长期欠薪，2026 年 3 月 31 日全体员工接受间接解雇、报社永久停业，其成为末任社长。"
+        },
+        {
+            "person_id": None,
+            "name": "埃德温·塔皮亚·丰塔尼利亚（Edwin Tapia Frontanilla）",
+            "title": "创始人、首任社长（Director fundador，执掌 28 年）",
+            "title_description": "官网 41 周年专文（2026-01-13）与西语维基百科均记载其为报纸创办人及首任社长（primer director / fundador y otrora director）；La Patria 记载其执掌报社 28 年。",
+            "description": "玻利维亚新闻工作者，《意见报》创办人。1985-01-13 主持日报创刊，并在创刊号撰文提出办报使命（Misión），留下名言：不能只报道信息，还须收集人民的思想与情感（No basta informar, debemos recoger ideas y sentimientos del pueblo）。任内经历 1987-06-05 报社遭手榴弹袭击事件，率采编团队于废墟中照常出版次日报纸；执掌报社 28 年，为该报历史上任职时间最长的社长。"
+        },
+        {
+            "person_id": None,
+            "name": "费德里科·萨瓦特·拉腊（Federico Sabat Lara）",
+            "title": "联合创办人、前社长（Codirector fundador；Director，2015）",
+            "title_description": "官网 41 周年专文记载其为创刊团队联合主编（codirección）；西语维基百科记载 2015 年其任报社社长（director）；La Patria 称其于 2015 年推动报纸视觉现代化改版。",
+            "description": "玻利维亚新闻工作者，《意见报》创始团队成员，1985 年与 Edwin Tapia Frontanilla 共同主持日报创刊（联合主编）。2015 年出任报社社长并推动版面与视觉现代化改版，期间报社迎来创刊 30 周年（Fides 通讯社曾报道）。此后任职情况公开资料有限。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "新闻编辑部（Redacción）",
+            "dept_id": "BO-MEDIA-005-DEPT-001",
+            "head": None,
+            "description": "报社核心采编部门，统筹日报与新闻网站内容生产，团队由记者、摄影记者（fotoperiodistas）、图文设计（gráficos）及行政支持人员组成；1985 年创刊时首任编辑部主任（jefe de redacción）为 Óscar Terrazas Ayala。",
+            "parent_dept_id": None
+        },
+        {
+            "name": "本地新闻部（Cochabamba）",
+            "dept_id": "BO-MEDIA-005-DEPT-002",
+            "head": None,
+            "description": "科恰班巴本地新闻条线，为官网首页重点频道，覆盖市政、社会与民生议题，是报社立足科恰班巴的看家版面。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "国内新闻部（El País）",
+            "dept_id": "BO-MEDIA-005-DEPT-003",
+            "head": None,
+            "description": "玻利维亚全国政治与公共事务报道条线，官网对应 El País 频道。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "警法新闻条线（Policiales）",
+            "dept_id": "BO-MEDIA-005-DEPT-004",
+            "head": None,
+            "description": "治安、司法与案件报道条线，官网对应 Policiales 频道。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "国际新闻部（Mundo）",
+            "dept_id": "BO-MEDIA-005-DEPT-005",
+            "head": None,
+            "description": "国际新闻条线，历史上曾详尽报道柏林墙倒塌（1989）、9·11 事件（2001）等，近年整合 El País（西班牙）、BBC 等国际媒体稿件。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "体育新闻部（Deportes）",
+            "dept_id": "BO-MEDIA-005-DEPT-006",
+            "head": None,
+            "description": "体育新闻条线，覆盖玻利维亚足球联赛及科恰班巴本地体育。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "文化新闻部（Cultura / La Ramona）",
+            "dept_id": "BO-MEDIA-005-DEPT-007",
+            "head": None,
+            "description": "文化报道条线；2005 年创办文化副刊《La Ramona》（得名于 Los Fabulosos Cadillacs 乐队的歌曲），成为玻利维亚文学批评、影评与思想随笔的重要阵地，曾扶持 Edmundo Paz Soldán、Liliana Colanzi 等作家，2019 年前后随报社经营收缩式微。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "评论与专栏部（Opiniones）",
+            "dept_id": "BO-MEDIA-005-DEPT-008",
+            "head": None,
+            "description": "评论、专栏与读者来信条线；创刊号起即设专栏（José Gordillo、Hugo Gonzales Rioja、Adolfo Mendoza Leigue、Osvaldo Terrazas、José Gramunt de Moragas 等），报社报名即取自其开放言论空间的定位。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "多媒体部（Multimedia）",
+            "dept_id": "BO-MEDIA-005-DEPT-009",
+            "head": None,
+            "description": "图片、视频、图集与多媒体叙事条线，运营官网 Vídeos/Galerías 频道及 YouTube 频道；2018 年多媒体报道（如 Vivir con Cáncer en Cochabamba）获数字新闻奖项荣誉提名。",
+            "parent_dept_id": "BO-MEDIA-005-DEPT-001"
+        },
+        {
+            "name": "行政与经营管理部（Administración）",
+            "dept_id": "BO-MEDIA-005-DEPT-010",
+            "head": None,
+            "description": "负责发行、广告、财务与人事；1985 年创刊时由 Alfonso Rojas Moncayo 主持。末期因国家广告收缩、纸价上涨与母体 COBOCE 受压等因素陷入欠薪危机，2025 年劳资纠纷进入司法程序，最终于 2026 年 3 月全员离职。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-03-31",
+            "title": "《意见报》全员接受间接解雇，报社永久停业",
+            "description": "在数月拖欠工资、社保福利欠缴及对数字业务前景不确定的背景下，报社全体员工（含 Mariela Cossío、Melissa Revollo 等资深记者）发布告别视频，宣布集体接受间接解雇（despido indirecto），报社于当日永久关闭，结束 41 年 2 个月 18 天、累计 15,055 期日报的历史。全国新闻协会（ANP）此前即指出历届政府将国家广告投放用作压制该报的工具，并在停业后发表声明抨击这是恐惧与制度性冷漠的胜利。",
+            "impact": "科恰班巴失去最具代表性的历史日报，玻利维亚地方新闻多元性与调查报道力量受重创；被视为玻利维亚报业危机（此前已有 Página Siete、La Razón 等停刊或收缩）的标志性事件。",
+            "source": "https://lapatria.bo/enfoque-nacional/cierre-del-diario-opinion-un-legado-de-41-anos-en-bolivia/；https://www.redpat.tv/detalle/adios-a-opinion-cochabamba-otro-gigante-del-periodismo-boliviano-cae"
+        },
+        {
+            "date": "2026-03-22",
+            "title": "出版最后一期纸质日报",
+            "description": "3 月 22 日《意见报》出版最后一期纸质版，此后停止印刷发行，仅保留网站更新。",
+            "impact": "报纸印刷发行业务终结，科恰班巴自 1943 年（Los Tiempos 创刊）以来双日报并存的报业格局瓦解。",
+            "source": "https://lapatria.bo/enfoque-nacional/cierre-del-diario-opinion-un-legado-de-41-anos-en-bolivia/"
+        },
+        {
+            "date": "2026-01-13",
+            "title": "创刊 41 周年，官网刊发纪念专文",
+            "description": "报社于 1 月 13 日迎来创刊 41 周年，官网刊发长篇纪念专文，回顾 1985-01-13 日报创刊（首期 44 版、约 100 家机构刊登贺词）、创始团队、1987-06-05 手榴弹袭击等历史，并强调其调查新闻与合作运动价值观传统。此时报社已欠薪数月，纪念文章成为该报最后的官方历史自述之一。",
+            "impact": "为报社沿革（创刊日、创始团队、母体 COBOCE）提供了权威的一手史料。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/diario-opinion-mas-cuatro-decadas-informando-trincheras/20260113105536986936.html"
+        },
+        {
+            "date": "2026-04-02",
+            "title": "历史档案由 ABNB 与 UMSS 接管保存（据当日报道）",
+            "description": "据 RED PAT 电视台 4 月 2 日报道及 La Patria 回顾，报社停业前后，员工促成历史档案保全安排：14,000 余份报纸及大量数字档案由玻利维亚国家档案图书馆（ABNB）与市立圣西蒙大学（UMSS）接管保存；同时报告指出虽然网站或可短期延续，但采编团队已解散，数字业务存续存疑。",
+            "impact": "报社 1985-2026 年地方史记录得以留存；网站此后虽仍更新，但已无自有采编团队（内容多为通讯社及合作媒体稿件）。",
+            "source": "https://www.redpat.tv/detalle/adios-a-opinion-cochabamba-otro-gigante-del-periodismo-boliviano-cae；https://lapatria.bo/enfoque-nacional/cierre-del-diario-opinion-un-legado-de-41-anos-en-bolivia/"
+        },
+        {
+            "date": "2025-03-14",
+            "title": "新闻界声援遭欠薪七个月的《意见报》记者",
+            "description": "玻利维亚新闻界发起对《意见报》被拖欠工资达七个月的记者的声援行动（Cabildeo Digital 2025-03-14 报道，西语维基百科引用）。同年报社劳资冲突升级并进入司法程序（维基百科记载 2025 年劳动纠纷使报社被诉至法庭）。",
+            "impact": "报社经营危机公开化，成为 2026 年 3 月全员离职与停业的直接前奏。",
+            "source": "Cabildeo Digital（2025-03-14，经 es.wikipedia Opinión (Bolivia) 条目引用）；https://es.wikipedia.org/wiki/Opini%C3%B3n_(Bolivia)"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": None,
+            "org_name": "COBOCE Ltda.（Cooperativa Boliviana de Cemento, Industrias y Servicios）",
+            "org_type": "CORP",
+            "org_description": "玻利维亚科恰班巴的水泥、工业与服务合作社。《意见报》系其 1985 年创办的信息喉舌，至 2025 年仍为其母体机构（casa matriz）；末期合作社被指受到要求其与报社切割的压力，加速报社经营崩溃。",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": None,
+            "org_name": "Asociación Nacional de la Prensa de Bolivia (ANP)",
+            "org_type": "NGO",
+            "org_description": "玻利维亚全国新闻（报业）协会。2024 年《意见报》为其成员日报，报社代表曾任协会司库（tesorera）；2026 年报社停业后 ANP 发表声明，指国家广告投放长期被用作压制该报的武器。",
+            "relationship_type": "member_of"
+        },
+        {
+            "org_id": "BO-ACAD-002",
+            "org_name": "Universidad Mayor de San Simón（市立圣西蒙大学）",
+            "org_type": "ACAD",
+            "org_description": "科恰班巴市立圣西蒙大学。2026 年报社停业后与国家档案图书馆共同接管保存《意见报》14,000 余份报纸及数字档案；末任社长 Brenda Molina 亦毕业于该校社会传播专业。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "Archivo y Biblioteca Nacional de Bolivia (ABNB)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚国家档案图书馆。2026 年与 UMSS 共同接管保存《意见报》历史报纸与数字档案。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": "BO-MEDIA-017",
+            "org_name": "Agencia Boliviana de Información (ABI)",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚国家通讯社。2026 年纸质版停刊后，官网多篇稿件署名来源 ABI，为其停业后的重要稿源之一。",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": "BO-MEDIA-013",
+            "org_name": "ERBOL",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚全国性广播新闻网络。2026 年纸质版停刊后，官网多篇稿件署名来源 ERBOL，为其停业后的重要稿源之一。",
+            "relationship_type": "partner"
+        }
+    ],
+    "core_business": "《意见报》（Opinión）是玻利维亚科恰班巴的西班牙语日报，1985 年 1 月 13 日由水泥合作社 COBOCE Ltda. 创办（1983 年 2 月先以周刊形式运作），号称科恰班巴晨报（Matutino de la Integración）。主营业务为日报的采编、出版与发行，版块涵盖科恰班巴本地、国内（El País）、警闻、国际、体育、文化、趋势与评论专栏；以调查性新闻（涉腐败、缉毒等敏感议题）和文化副刊《La Ramona》（2005 年创办）著称，并以此确立其在科恰班巴与全国的影响力。经营上依托 COBOCE 合作社体系与广告、发行收入，2020 年向多民族选举机构声明为全国发行报纸，2024 年为全国新闻协会（ANP）成员。2010 年代起数字化转型为 Diario Digital 网站（OpenNemas 平台），运营 RSS、Facebook（约 96 万粉丝）、X、Instagram、YouTube 等数字矩阵。因国家广告收缩、纸价上涨及母体受压致长期欠薪，2026 年 3 月 22 日出版最后一期纸质版，3 月 31 日全员接受间接解雇、报社永久停业，共出版 15,055 期；历史档案移交 ABNB 与 UMSS 保存。停刊后网站仍以整合通讯社（ABI、ERBOL 等）稿件的形式延续数字存在。曾获 2012 年全国新闻奖、2013-2014 年 Eduardo Abaroa 奖及 2018 年数字新闻荣誉提名。",
+    "industries": [
+        "media_publishing",
+        "digital_media"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。",
+    "profile": "《意见报》（Opinión）是玻利维亚科恰班巴的历史性西语日报，1985 年 1 月 13 日由水泥合作社 COBOCE Ltda. 创办，与《时报》（Los Tiempos）并称科恰班巴两大日报。该报以调查性新闻（1987 年曾因此遭手榴弹袭击）和文化副刊《La Ramona》闻名，系全国新闻协会（ANP）成员，末任社长为布伦达·莫利纳（Brenda Molina，2025 年上任）。受国家广告收缩、纸价上涨与长期欠薪冲击，2026 年 3 月 22 日出版最后一期纸质版，3 月 31 日全体员工接受间接解雇、报社永久停业，结束 41 年历史；14,000 余份历史档案由玻利维亚国家档案图书馆（ABNB）与市立圣西蒙大学（UMSS）保全。其网站 opinion.com.bo 截至 2026 年 10 月仍以整合通讯社稿件的形式在线。",
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia（es/en: Opinión (Bolivia)）",
+            "official_website（opinion.com.bo 首页、导航与 head 元数据，2026-10-24）",
+            "opinion.com.bo 41 周年纪念专文（2026-01-13）",
+            "lapatria.bo 停业回顾（2026-03/04）",
+            "redpat.tv（2026-04-02）",
+            "facebook.com/DiarioOpinion",
+            "x.com/Opinion_Bolivia",
+            "instagram.com/opinionbolivia",
+            "youtube.com 频道 UCE1G7_nb9sf9csjz7j3gC5g",
+            "eju.tv（2021 经济新闻奖）"
+        ],
+        "quotes": [
+            {
+                "title": "Opinión (Bolivia) - Wikipedia, la enciclopedia libre（创刊、母体 COBOCE、历任社长、ANP 成员）",
+                "url": "https://es.wikipedia.org/wiki/Opini%C3%B3n_(Bolivia)"
+            },
+            {
+                "title": "Diario OPINIÓN: más de cuatro décadas informando desde las trincheras（官网，2026-01-13，创刊 41 周年专文：1985-01-13 创刊、创始团队、1987 袭击）",
+                "url": "https://www.opinion.com.bo/articulo/cochabamba/diario-opinion-mas-cuatro-decadas-informando-trincheras/20260113105536986936.html"
+            },
+            {
+                "title": "Cierre del diario Opinión: un legado de 41 años en Bolivia（La Patria：2026-03-31 停业、末任社长 Brenda Molina、档案保全、ANP 表态）",
+                "url": "https://lapatria.bo/enfoque-nacional/cierre-del-diario-opinion-un-legado-de-41-anos-en-bolivia/"
+            },
+            {
+                "title": "Adiós a Opinión Cochabamba: otro gigante del periodismo boliviano cae（RED PAT，2026-04-02：全员间接解雇、档案移交 UMSS/国家档案馆）",
+                "url": "https://www.redpat.tv/detalle/adios-a-opinion-cochabamba-otro-gigante-del-periodismo-boliviano-cae"
+            }
+        ],
+        "completeness_score": 90,
+        "notes": "Phase3 enrichment 2026-10-24。founded_date 修正为 1985-01-13（官网 41 周年专文 + La Patria 双源一致；任务简报所引 1991 与来源不符，未采用；维基百科记为 1985 年 1 月，一致）。重大事实：报社已于 2026-03-31 永久停业（lapatria.bo + redpat.tv 双独立源确认），官网 2026-10-24 仍以整合通讯社稿件形式在线。末任社长 Brenda Molina（维基百科 es/en + La Patria 双源）；创始人 Edwin Tapia Frontanilla 与 2015 年社长 Federico Sabat Lara 均双源以上。三人及 COBOCE、ANP、ABNB 均未命中 _name_index.json，org_id/person_id 置 null；UMSS 命中 BO-ACAD-002、ABI 命中 BO-MEDIA-017、ERBOL 命中 BO-MEDIA-013；未修改 id_registry.json。注意：BO-MEDIA-001 曾将 ANP 关联至 BO-INTL-004（该 ID 实为拉美一体化协会 ALADI），经核对索引确认为错误映射，本文件 ANP 的 org_id 置 null。搜索 5 次检索 + 5 次页面读取（西语维基、官网首页、官网 41 周年专文、La Patria、RedPAT）。"
+    }
+}
+
+with open(PATH, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print('written:', PATH)
+d = json.load(open(PATH, encoding='utf-8'))
+print('org_id:', d['org_id'])
+print('kp:', len(d['key_people']), '| dept:', len(d['departments']), '| events:', len(d['recent_events']),
+      '| rel:', len(d['related_entities']), '| social:', len(d['social_accounts']),
+      '| digital:', len(d['digital_assets']), '| quotes:', len(d['collection_meta']['quotes']))
+print('core_business len:', len(d['core_business']))

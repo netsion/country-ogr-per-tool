@@ -73,7 +73,11 @@ ISO2_TO_ISO3 = {
     "AE": "ARE", "BF": "BFA", "JO": "JOR", "KG": "KGZ", "KH": "KHM",
     "KW": "KWT", "KZ": "KAZ", "LA": "LAO", "LY": "LBY", "MA": "MAR",
     "MO": "MAC", "OM": "OMN", "QA": "QAT", "TJ": "TJK", "TM": "TKM",
-    "UZ": "UZB",
+    "UZ": "UZB", "TN": "TUN", "DZ": "DZA", "TR": "TUR",
+    "TD": "TCD", "NE": "NER", "ML": "MLI", "MR": "MRT", "SD": "SDN",
+    "CF": "CAF", "CM": "CMR", "SO": "SOM", "BI": "BDI", "RW": "RWA",
+    "BO": "BOL", "PY": "PRY", "EC": "ECU", "VE": "VEN", "UY": "URY",
+    "NI": "NIC", "GT": "GTM", "HN": "HND", "SV": "SLV", "CR": "CRI", "PA": "PAN",
 }
 
 

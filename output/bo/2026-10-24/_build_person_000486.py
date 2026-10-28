@@ -1,0 +1,297 @@
+# -*- coding: utf-8 -*-
+"""Build person profile BO-PERSON-000486 Eduardo del Castillo."""
+import json
+import os
+
+PROFILE = {
+    "person_id": "BO-PERSON-000486",
+    "wikidata_qid": "Q104804128",
+    "name": "Carlos Eduardo del Castillo del Carpio",
+    "name_en": "Eduardo del Castillo",
+    "name_zh": "爱德华多·德尔·卡斯蒂略",
+    "aliases": ["Carlos Eduardo Del Castillo Del Carpio", "Eduardo Del Castillo"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1988-12-27",
+    "birth_place": "圣克鲁斯-德拉谢拉 (Santa Cruz de la Sierra)",
+    "current_positions": [],
+    "education": [
+        {
+            "institution": "科利塔斯中学 (Colegio Caritas)",
+            "degree": "high_school",
+            "field": None,
+            "start_date": None,
+            "end_date": "2006"
+        },
+        {
+            "institution": "加夫列尔·雷内·莫雷诺自治大学 (Universidad Autónoma Gabriel René Moreno)",
+            "degree": "bachelor",
+            "field": "法学（获律师资格）",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "高等法学院 (Escuela Superior de Leyes)",
+            "degree": "master",
+            "field": "税法与金融法（优等）",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "doctorate",
+            "field": "宪法学（博士候选人，尚未完成）",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "other",
+            "field": "高等教育与跨文化（文凭课程）",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "布宜诺斯艾利斯大学 (Universidad de Buenos Aires)",
+            "degree": "other",
+            "field": "经济、社会与文化权利（远程文凭课程）",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "work_experience": [
+        {
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)",
+            "org_id": "BO-GOV-003",
+            "position": "政府部长",
+            "start_date": "2020-11-09",
+            "end_date": "2025-05-20"
+        },
+        {
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)",
+            "org_id": "BO-PARTY-001",
+            "position": "总统候选人（MAS-IPSP，副总统候选人为米连·贝尔纳）",
+            "start_date": "2025-05-16",
+            "end_date": "2025-08-17"
+        },
+        {
+            "organization": "玻利维亚多民族立法大会参议院 (Cámara de Senadores)",
+            "org_id": "BO-GOV-021",
+            "position": "参议院办公厅主任",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "玻利维亚多民族立法大会参议院 (Cámara de Senadores)",
+            "org_id": "BO-GOV-021",
+            "position": "司法多元、检察机关与国家法律辩护委员会技术秘书兼顾问；宪法、立法与立法解释及宪法解释委员会顾问",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "玻利维亚政府部移民局圣克鲁斯办事处 (Dirección de Migración)",
+            "org_id": "BO-GOV-003",
+            "position": "法律顾问",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "玻利维亚国家税务总局 (Servicio de Impuestos Nacionales)",
+            "org_id": "BO-GOV-031",
+            "position": "律师",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "玻利维亚检察署 (Ministerio Público)",
+            "org_id": "BO-GOV-029",
+            "position": "律师（圣克鲁斯）",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "organization": "波龙戈市政府 (Municipio de Porongo)",
+            "org_id": None,
+            "position": "法律事务经理",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000484",
+            "person_name": "路易斯·阿尔塞 (Luis Arce)",
+            "relationship_type": "superior",
+            "description": "2020年11月阿尔塞将其任命为政府部长（当时内阁最年轻成员）；2025年5月阿尔塞放弃连任后，德尔·卡斯蒂略获阿尔塞阵营支持代表MAS出选总统，并于同年5月20日辞去部长职务参选。"
+        },
+        {
+            "person_id": "BO-PERSON-000483",
+            "person_name": "埃沃·莫拉莱斯 (Evo Morales)",
+            "relationship_type": "political_rival",
+            "description": "自2021年MAS大会起莫拉莱斯一派公开要求其辞去政府部长职务，并指控其与美国缉毒局（DEA）协调；其留任被视为莫拉莱斯与阿尔塞政府决裂的原因之一。2025年莫拉莱斯反对其代表MAS出选总统。"
+        },
+        {
+            "person_id": "BO-PERSON-000482",
+            "person_name": "格罗弗·加西亚 (Grover García)",
+            "relationship_type": "political_ally",
+            "description": "阿尔塞派系（arcismo）盟友。加西亚作为MAS党主席于2025年5月16日代表党宣布德尔·卡斯蒂略为该党总统候选人；两人同属在与莫拉莱斯派（evismo）争夺MAS控制权中支持阿尔塞的一翼。"
+        },
+        {
+            "person_id": None,
+            "person_name": "米连·贝尔纳 (Milán Berna)",
+            "relationship_type": "associate",
+            "description": "玻利维亚农民统一工会联合会（CSUTCB）领导人，2025年大选MAS-IPSP副总统候选人，与德尔·卡斯蒂略组成正副总统竞选搭档。"
+        },
+        {
+            "person_id": "BO-PERSON-000546",
+            "person_name": "罗伯托·里奥斯·桑希内斯 (Roberto Ríos Sanjinés)",
+            "relationship_type": "other",
+            "description": "前政府部副部长，2025年5月20日接替辞职参选的德尔·卡斯蒂略出任政府部长。"
+        },
+        {
+            "person_id": None,
+            "person_name": "塞巴斯蒂安·马塞特 (Sebastián Marset)",
+            "relationship_type": "other",
+            "description": "乌拉圭籍大毒枭。2026年流传的录音/视频指称其曾每月向德尔·卡斯蒂略支付约50万美元以换取保护，成为2026年10月马里亚卡案调查与通缉的直接诱因；相关指控尚在司法程序中，未经法院判决认定。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "instagram",
+            "account_name": "edelcastillodc",
+            "url": "https://www.instagram.com/edelcastillodc/",
+            "source": "Instagram个人账号，简介为「Ex Candidato a la presidencia. Papá de Victoria y Emilia. Exministro de Gobierno」，与本人身份吻合"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "@eduardodelcastillod",
+            "url": "https://www.tiktok.com/@eduardodelcastillod",
+            "source": "TikTok认证名「Eduardo Del Castillo Oficial」，简介「Ex Candidato a la Presidencia de Bolivia, Exministro de Gobierno」"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "@eduardodelcastillod",
+            "url": "https://www.youtube.com/@eduardodelcastillod",
+            "source": "YouTube频道，内容为其2025年竞选宣传视频"
+        }
+    ],
+    "family_members": [
+        {
+            "person_id": None,
+            "name": "阿德里亚娜·保拉·奥蒙特·塔梅斯 (Adriana Paola Omonte Tames)",
+            "relationship": "spouse",
+            "industry_or_organization": None
+        }
+    ],
+    "political_stances": [
+        {
+            "date": "2024-06-27",
+            "topic": "2024年未遂政变与民主体制",
+            "stance_content": "未遂政变发生后主导安全整肃，证实已逮捕17名参与策划和发动政变的人员（含前陆军司令苏尼加、前海军司令阿内斯及1名平民），并称警方调查显示政变策划自当年5月即已开始。",
+            "source": "上海观察转引新华社 (2024-06-28): https://www.shobserver.cn/wx/detail.do?id=765989 ；BBC (2024-06-27): https://www.bbc.co.uk/news/articles/ck5gje7gyygo"
+        },
+        {
+            "date": "2025-05-16",
+            "topic": "治安与经济危机",
+            "stance_content": "获MAS提名后提出「玻利维亚人民正在要求秩序」，认为恢复秩序是解决当前经济等问题的前提，并称「我们已经证明青年有能力承担国家的任何职务」。",
+            "source": "DW/埃菲社 (2025-05-17): https://www.dw.com/es/bolivia-mas-elige-como-candidato-al-ministro-de-gobernaci%C3%B3n/a-72572828"
+        },
+        {
+            "date": "2025-08-17",
+            "topic": "选举与社会抗议",
+            "stance_content": "投票日呼吁选民不受压力自由投票、防止MAS被取消参选资格，并表示「玻利维亚的问题不能靠封锁和暴力解决」。",
+            "source": "Infobae (2025-08-17): https://www.infobae.com/america/america-latina/2025/08/17/el-candidato-del-mas-eduardo-del-castillo-llamo-a-votar-sin-presiones-en-bolivia-e-impedir-que-el-partido-quede-inhabilitado/"
+        },
+        {
+            "date": "2023-08",
+            "topic": "毒品犯罪与安全政策",
+            "stance_content": "任政府部长期间指认2018至2020年间前几届政府为乌拉圭毒枭马塞特「提供庇护」，使其在玻利维亚获得身份证件并策划非法活动。",
+            "source": "南美侨报网 (2023-08-09): https://www.br-cn.com/static/content/news/nm_news/2023-08-09/1138891722824123481.html"
+        },
+        {
+            "date": "2026-09",
+            "topic": "选后政局评价",
+            "stance_content": "2025年败选后表示「人们怀念以前的生活」（La gente añora cómo estaba viviendo antes），暗指新政府执政后民生状况恶化。",
+            "source": "ERBOL via Facebook (2026-09-11): https://www.facebook.com/ErbolDigital/posts/1522832356550485/"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2020-11-09",
+            "achievement": "31岁出任政府部长，为阿尔塞内阁最年轻成员，连续任职逾四年半（2020年11月至2025年5月）。",
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)"
+        },
+        {
+            "date": "2021-03",
+            "achievement": "主导并经社交媒体公开宣布逮捕玻利维亚前临时总统让娜·阿涅斯（涉2019年政局变动相关案件）。",
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)"
+        },
+        {
+            "date": "2024-06-27",
+            "achievement": "2024年6月26日未遂政变后主导安全行动，证实逮捕17名涉案人员（含前陆军司令苏尼加、前海军司令阿内斯），稳定阿尔塞政府。",
+            "organization": "玻利维亚政府部 (Ministerio de Gobierno)"
+        },
+        {
+            "date": "2025-08-17",
+            "achievement": "在MAS严重分裂的2025年大选中以约3.16%的得票率越过3%法定门槛，保住MAS-IPSP的政党登记资格（自诩「拯救了MAS」）。",
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)"
+        }
+    ],
+    "biography_summary": "卡洛斯·爱德华多·德尔·卡斯蒂略·德尔·卡皮奥，1988年12月27日生于玻利维亚圣克鲁斯-德拉谢拉，律师、政治人物，争取社会主义运动（MAS）「阿尔塞派」重要人物。2006年在科利塔斯中学完成学业，后获加夫列尔·雷内·莫雷诺自治大学法学学位，拥有高等法学院税法与金融法硕士学位（优等），并为圣安德烈斯大学宪法学博士候选人。长期任职公共部门：曾任参议院办公厅主任、多届参议院委员会技术秘书兼顾问，并在政府部移民局、国家税务总局、检察署及波龙戈市政府等机构任职。2020年11月9日被总统阿尔塞任命为政府部长，时年31岁、为内阁最年轻成员，主导2021年前临时总统阿涅斯被捕案和2024年未遂政变后的整肃；2023年6月因失窃车辆案遭国会谴责但旋即被重新任命。2021年起遭前总统莫拉莱斯一派持续攻击，成为党内arcismo与evismo斗争的焦点人物。2025年5月16日由党主席格罗弗·加西亚宣布为MAS总统候选人（搭档米连·贝尔纳），同月20日辞职参选；8月17日大选获约3.16%选票居第六位，但保住MAS-IPSP政党登记资格。2026年10月，因前总检察长马里亚卡涉毒案被检方列为贩毒与犯罪组织案调查对象，Interpol红色通报与国内逮捕令生效，截至2026年10月中旬仍被警方搜捕在逃。",
+    "work_note": "2026年10月起因前总检察长罗赫尔·马里亚卡（Róger Mariaca）涉贩毒与犯罪组织案被玻利维亚检方列为调查对象，Interpol红色通报与国内逮捕令生效；政府部长马尔科·奥维耶多确认截至2026年10月9日其仍在逃、警方持续搜捕，并已实施出入境布控。另据La Razón报道（其律师透露），2026年10月7日拉巴斯刑事判决法院还因其缺席2024年6月26日穆里略广场未遂政变案庭审而对其发出逮捕令。上述案件均在司法程序中，指控未经法院判决认定。",
+    "children_note": "据El Deber报道其育有两女；其Instagram账号简介提及女儿名为Victoria和Emilia（全名未公开，故不单列条目）。",
+    "education_note": "圣安德烈斯大学宪法学为博士候选人（candidato a doctor）身份，尚未取得学位；另持有UMSA高等教育与跨文化文凭及布宜诺斯艾利斯大学经济、社会与文化权利远程文凭。",
+    "name_zh_note": "中文维基百科作「爱德华多·德尔卡斯蒂略」；新华社系中文媒体（新华网、人民网、上观、财联社等）作「爱德华多·德尔·卡斯蒂略」，沿用后者（与既有索引写法一致）。",
+    "status": "2026年10月起因涉毒与犯罪组织案被玻利维亚检方调查，逮捕令与Interpol红色通报生效，截至2026-10-09确认仍在逃",
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["wikipedia", "wikidata", "news_search", "web_search", "social_media"],
+        "notes": "主要来源：西语/英语维基百科（交叉验证出生日期、任期、教育、配偶）、DW/埃菲社（提名过程）、El Deber（学历与家庭）、eju.tv与urgente.bo（2026年10月马里亚卡案通缉状态，两独立来源）、La Razón（未遂政变案逮捕令）。选举得票率各来源在3.16%-3.17%之间（初计159,769票、终计169,887票），采约3.16%。社交媒体完成6平台扫描：Instagram/TikTok/YouTube官方账号已确认，Facebook个人主页与LinkedIn未找到可确认属于本人的账号，Twitter/X未检索到经证实的账号。2026年10月下旬个别社媒帖称其在拉巴斯被捕，但未能获得可靠全文来源证实（10月1日曾有类似误报并被政府否认），故status截至10月中旬口径。Marset相关指控与未遂政变案逮捕令均为司法程序中的指控，未经判决认定，画像仅作事实性记录。",
+        "quotes": [
+            {
+                "title": "Eduardo Del Castillo - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Eduardo_Del_Castillo"
+            },
+            {
+                "title": "Eduardo del Castillo - Wikipedia (English)",
+                "url": "https://en.wikipedia.org/wiki/Eduardo_del_Castillo"
+            },
+            {
+                "title": "Bolivia: MAS elige como candidato al ministro de Gobernación (DW/EFE)",
+                "url": "https://www.dw.com/es/bolivia-mas-elige-como-candidato-al-ministro-de-gobernaci%C3%B3n/a-72572828"
+            },
+            {
+                "title": "Eduardo Del Castillo, ¿quién es el ministro al que Evo Morales no puede tumbar? (El Deber)",
+                "url": "https://eldeber.com.bo/pais/eduardo-del-castillo-quien-es-el-ministro-al-que-evo-morales-no-puede-tumbar_280168/"
+            },
+            {
+                "title": "La orden de captura contra el exministro Eduardo del Castillo está vigente; la Policía lo busca (eju.tv)",
+                "url": "https://eju.tv/2026/10/la-orden-de-captura-contra-el-exministro-eduardo-del-castillo-esta-vigente-la-policia-lo-busca/"
+            },
+            {
+                "title": "Fiscalía incluye a Del Castillo en el caso de narcotráfico y organización criminal (Urgente.bo)",
+                "url": "https://www.urgente.bo/noticia/fiscalia-incluye-del-castillo-en-el-caso-de-narcotrafico-y-organizacion-criminal-junto"
+            },
+            {
+                "title": "Ordenan la aprehensión de Del Castillo, según abogado (La Razón)",
+                "url": "https://larazon.bo/nacional/2026/10/07/ordenan-la-aprehension-de-del-castillo-segun-abogado/"
+            },
+            {
+                "title": "爱德华多·德尔卡斯蒂略 - 维基百科（中文）",
+                "url": "https://zh.wikipedia.org/zh-hans/%E7%88%B1%E5%BE%B7%E5%8D%8E%E5%A4%9A%C2%B7%E5%BE%B7%E5%B0%94%E5%8D%A1%E6%96%AF%E8%92%82%E7%95%A5"
+            },
+            {
+                "title": "Detienen en La Paz a exministro de Gobierno Eduardo del Castillo por nexos con el narco (Vilas Radio, 2026-10-01)",
+                "url": "https://vilasradio.cl/detienen-en-la-paz-a-exministro-de-gobierno-eduardo-del-castillo-por-nexos-con-el-narco/"
+            }
+        ]
+    }
+}
+
+OUT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUT_PATH = os.path.join(OUT_DIR, "persons", "BO-PERSON-000486.json")
+os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+with open(OUT_PATH, "w", encoding="utf-8") as f:
+    json.dump(PROFILE, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT_PATH)

@@ -1,0 +1,238 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Enrich BO-MEDIA-017 (Agencia Boliviana de Información / ABI)."""
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8")
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-MEDIA-017.json")
+
+with open(OUT, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_zh"] = "玻利维亚通讯社"
+data["basic_info"]["aliases"] = [
+    "Agencia Boliviana de Informacion",
+    "ABI",
+    "玻利维亚信息社",
+    "玻利维亚国家新闻社",
+]
+data["basic_info"]["founded_date"] = "1996-02-06"
+data["basic_info"]["website"] = "https://abi.bo/"
+data["industries"] = ["media_publishing", "digital_media"]
+
+data["social_accounts"] = [
+    {
+        "platform": "twitter_x",
+        "account_name": "abi_bolivia",
+        "url": "https://x.com/abi_bolivia",
+        "source": "x_profile_2026; wikipedia; wikidata",
+    },
+    {
+        "platform": "facebook",
+        "account_name": "ABI.Bolivia",
+        "url": "https://www.facebook.com/ABI.Bolivia/",
+        "source": "x_bio_2026 (官方X账号简介注明); facebook_active_posts_2026",
+    },
+    {
+        "platform": "youtube",
+        "account_name": "Agencia Boliviana de Información (@agenciabolivianadeinformac7189)",
+        "url": "https://www.youtube.com/channel/UC0ohdC9b6Kzq_WVn8yuKHtw",
+        "source": "youtube_channel_2026; wikidata",
+    },
+    {
+        "platform": "instagram",
+        "account_name": "abi.bolivia",
+        "url": "https://www.instagram.com/abi.bolivia/",
+        "source": "instagram_profile_2026",
+    },
+]
+
+data["digital_assets"] = [
+    {
+        "name": "ABI 官方新闻门户网站（abi.bo）",
+        "url": "https://abi.bo/",
+        "description": "官方新闻门户（Joomla 架构），设政治、经济、安全、社会、体育、文化、国际等新闻栏目，并含照片图库（Galería fotográfica）与在线直播（Transmisiones en vivo）板块；官方脸书账号公告称出于网络安全考虑将门户域名更新为 abi.bo。",
+        "source": "official_website; facebook.com/ABI.Bolivia 公告",
+    },
+    {
+        "name": "RSS/联合供稿服务（Feeds）",
+        "url": "https://abi.bo/",
+        "description": "面向其他媒体与机构免费提供的官方内容联合供稿（RSS/syndication）服务，网站设 Feeds 栏目，是 ABI 作为国家通讯社的核心分发渠道之一。",
+        "source": "State Media Monitor (2026-07); official_website",
+    },
+]
+
+data["key_people"] = [
+    {
+        "person_id": "BO-PERSON-000419",
+        "name": "Ximena Galarza Lora",
+        "title": "国家战略传播单位（UCE）总执行局长（Directora General Ejecutiva de la Unidad de Comunicación Estratégica del Estado）",
+        "title_description": "依据 2026-03-02 最高法令 5566，UCE 为统辖国家传播事务与国家媒体（含 ABI、Radio Illimani–Red Patria Nueva、报纸 Ahora El Pueblo）的上级机构，不设董事会，局长由总统以最高决议任命，是 ABI 现行体制下的实际最高主管。",
+        "description": "记者、政治学者。2025-11-28 由总统府部部长何塞·路易斯·卢波·弗洛雷斯（José Luis Lupo Flores，BO-PERSON-000094）任命就任国家战略传播总局长；2026-08 仍以 UCE 负责人身份公开活动（ABI 自身报道并经 La Voz de Tarija 转引）。注：西语维基百科信息框曾记载 ABI 社长为 Antonio Erick Ortega Pérez，但其现任性无法以 2025-2026 年来源证实，故未列入本表。",
+    },
+]
+
+data["departments"] = [
+    {
+        "dept_id": None,
+        "name": "拉巴斯中央编辑部（Redacción Central, La Paz）",
+        "head": None,
+        "description": "总部设于拉巴斯，负责全国范围文字与图片通稿的采集、编辑、签发与分发，并在全国各省派驻通讯员网络（corresponsales en todo el país）；内部具体部门设置无公开详尽资料。",
+        "parent_dept_id": None,
+    },
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-11-24",
+        "title": "罗德里戈·帕斯政府宣布 ABI 暂停运营，进入“重新规划”阶段",
+        "description": "2025 年 10 月大选变天后，新政府重组国家媒体：总统发言人 Carla Faval 宣布 ABI 暂停运营、待重新规划其走向（“replanteada”），同时国家报纸《Ahora El Pueblo》停止印刷、转为仅数字版，以削减公共开支。当日 ABI 官方 Instagram 亦确认“运营暂停”。",
+        "impact": "国家通讯社自 1996 年创社以来首次全面停摆，全国媒体失去官方通稿来源，是 2025 年政府更替后国家媒体体系重组的标志性事件。",
+        "source": "https://www.opinion.com.bo/articulo/pais/ahora-pueblo-periodico-estatal-dejara-imprimirse-abi-suspende-operaciones/20251124110219984120.html",
+    },
+    {
+        "date": "2025-11-28",
+        "title": "记者 Ximena Galarza Lora 就任国家战略传播总局长，统管国家媒体",
+        "description": "总统府部部长 José Luis Lupo Flores 任命记者、政治学者 Ximena Galarza Lora 为国家战略传播总局长（Directora General de Comunicación Estratégica del Estado），负责统管国家媒体并主导含 ABI 在内的国家传播体系重组，其表示将推动国家广告投放“无排他性”。",
+        "impact": "确立新政府时期 ABI 的上级主管与重组方向；Galarza 此后持续执掌该体系（2026-03 起机构建制为 UCE）。",
+        "source": "https://correodelsur.com/sociedad/20251128/ximena-galarza-asume-la-direccion-general-de-comunicacion-estrategica-del-estado.html",
+    },
+    {
+        "date": "2026-03-02",
+        "title": "最高法令 5566 创设国家战略传播单位（UCE），ABI 划入其管理",
+        "description": "帕斯政府颁布最高法令 5566（2026-03-02），设立多民族玻利维亚国国家战略传播单位（Unidad de Comunicación Estratégica del Estado, UCE）为隶属总统府部的分散化公共实体：不设董事会，由总统以最高决议任命的总执行局长领导；玻利维亚媒体报道确认 ABI 与 Radio Illimani–Red Patria Nueva、报纸 Ahora El Pueblo 同由该单位管理，法令并规定其可由国库等公共资源供资。",
+        "impact": "ABI 获得正式的机构建制归属（2026 年 3 月起）；同期政府不再单设传播事务部，国家传播政策集中由 UCE 统筹。",
+        "source": "https://bolivia.infoleyes.com/articulo/109022",
+    },
+    {
+        "date": "2026-07-01",
+        "title": "State Media Monitor 确认 ABI 已恢复发稿，分类仍为“国家控制”",
+        "description": "独立研究项目 State Media Monitor（MJRC）2026 年 7 月更新 ABI 专条：该社在 2025 年 11 月停摆后，已于 2026 年通过官网及社交平台等官方渠道恢复发布，报道重点转向帕斯总统与政府机构活动；因属国家出资、高管由行政任命且无编辑独立保障，其 2022-2026 各年度分类均为“国家控制（State-Controlled）”。并引 RSF 2026 新闻自由指数：玻利维亚列第 91/180 位。",
+        "impact": "由第三方独立确认 ABI 停摆结束、恢复常态运转，且机构属性在政府更替后未变。",
+        "source": "https://statemediamonitor.com/2026/07/bolivian-information-agency-agencia-boliviana-de-informacion-abi/",
+    },
+    {
+        "date": "2026-10-07",
+        "title": "ABI 常态运转：现场报道总统罗德里戈·帕斯主持 2026 农业普查启动仪式",
+        "description": "ABI 官方脸书账号以 #AHORA 标签直播报道总统帕斯主持的 2026 年全国农业普查（Censo Agropecuario 2026）启动仪式；此前 9 月亦全程报道“Paz Expone 2026”博览会开幕式，2026 年全年持续发布政府与全国事务通稿（X 账号 2026-07-24、2026-09-24 等均有更新）。",
+        "impact": "印证 ABI 复刊后至 2026 年 10 月保持常态化新闻采编与官方报道职能。",
+        "source": "https://www.facebook.com/ABI.Bolivia/posts/ahora-presidente-rodrigo-paz-lanzamiento-del-censo-agropecuario-2026/1715586603903314/",
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": None,
+        "org_name": "Unidad de Comunicación Estratégica del Estado Plurinacional de Bolivia（国家战略传播单位，UCE）",
+        "org_type": "GOV",
+        "org_description": "依据最高法令 5566（2026-03-02）设立的分散化公共实体，隶属总统府部，不设董事会，总执行局长由总统任命；负责国家传播事务、官方渠道与国家媒体政策，ABI 为其管理的国家媒体之一。",
+        "relationship_type": "parent_org",
+    },
+    {
+        "org_id": "BO-GOV-006",
+        "org_name": "Ministerio de la Presidencia（玻利维亚总统府部）",
+        "org_type": "GOV",
+        "org_description": "直接对总统负责的部委；ABI 历史上长期在总统府部传播架构下运行，2026 年起经 UCE（受其管辖）继续保持这一隶属链条，2025-11-28 的主管任命亦由该部部长主持。",
+        "relationship_type": "affiliated",
+    },
+    {
+        "org_id": "BO-MEDIA-012",
+        "org_name": "Bolivia TV（玻利维亚电视台，Canal 7）",
+        "org_type": "MEDIA",
+        "org_description": "国营国家电视台，与 ABI 同属玻利维亚国家公共媒体体系，服务于官方信息传播职能。",
+        "relationship_type": "sibling",
+    },
+    {
+        "org_id": "BO-MEDIA-016",
+        "org_name": "Radio Illimani – Red Patria Nueva（伊利亚马尼电台/新祖国广播网）",
+        "org_type": "MEDIA",
+        "org_description": "国营广播电台；最高法令 5566 相关报道确认其与 ABI 同由国家战略传播单位（UCE）管理。",
+        "relationship_type": "sibling",
+    },
+    {
+        "org_id": None,
+        "org_name": "Ahora El Pueblo（国家报纸《现在人民报》）",
+        "org_type": "MEDIA",
+        "org_description": "国营报纸；2025-11 随 ABI 停摆同批重组、停止印刷转为仅数字版，现与 ABI 同由国家战略传播单位（UCE）管理。",
+        "relationship_type": "sibling",
+    },
+]
+
+data["core_business"] = (
+    "玻利维亚通讯社（ABI）是多民族玻利维亚国的官方国家通讯社，1996 年 2 月 6 日开始发稿，总部设于拉巴斯，"
+    "并在全国各省派驻通讯员。其核心业务为采集、制作并以文字和图片形式免费向全国报刊、电台、电视台及各类机构提供官方新闻通稿，"
+    "报道范围涵盖政府活动、政治、经济、安全、社会、体育、文化与国际新闻；内容通过门户网站 abi.bo、各社交平台账号"
+    "以及面向其他媒体的 RSS/联合供稿服务分发，不承接商业广告、不向用户收费，经费由国家财政拨付。"
+    "作为政府传播体系的一环，其报道重点随执政当局更替而调整：2025 年 11 月 24 日曾因罗德里戈·帕斯新政府重组国家媒体而暂停运营，"
+    "2026 年 3 月 2 日依最高法令 5566 并入隶属总统府部的国家战略传播单位（UCE），2026 年起恢复常态化发稿，"
+    "当前通稿以帕斯政府与国家机构活动为主要内容。"
+)
+
+data["apec_stance"] = "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。"
+
+data["profile"] = {
+    "source_url": "https://www.abi.bo/images/logos/logo-2026.png",
+    "local_path": None,
+}
+
+meta = data["collection_meta"]
+meta["collection_date"] = "2026-10-25"
+meta["phase"] = "phase3_enriched"
+meta["data_sources"] = [
+    "wikidata",
+    "wikipedia",
+    "official_website",
+    "news_search",
+    "web_search",
+    "social_media",
+    "other",
+]
+meta["notes"] = (
+    "ABI 为小型国家通讯社，2025-11 政府更替后经历停摆与重组（2026-03-02 最高法令 5566 并入 UCE，2026 年复刊）。"
+    "关键缺口：复刊后 ABI 自身社长未单独公布，现由国家战略传播单位（UCE）总执行局长 Ximena Galarza Lora 统管"
+    "（2026-08 双源确认在任）；西语维基百科信息框所载社长 Antonio Erick Ortega Pérez 的现任性未经 2025-2026 年来源证实，"
+    "故未列入 key_people。内部部门设置无公开详尽资料，仅按可查证事实记录拉巴斯中央编辑部与全国通讯员网络。"
+    "中文名采用中文媒体通行译名“玻利维亚通讯社”。主要来源：State Media Monitor 2026-07 专条、Opinión/La Razón/Correo del Sur/"
+    "Infoleyes（法令原文）及 ABI 官网与官方社媒。"
+)
+meta["quotes"] = [
+    {
+        "title": "State Media Monitor – Agencia Boliviana de Información (ABI)（2026-07 专条）",
+        "url": "https://statemediamonitor.com/2026/07/bolivian-information-agency-agencia-boliviana-de-informacion-abi/",
+    },
+    {
+        "title": "Opinión：'Ahora el Pueblo' dejará de imprimirse y ABI suspende operaciones（2025-11-24）",
+        "url": "https://www.opinion.com.bo/articulo/pais/ahora-pueblo-periodico-estatal-dejara-imprimirse-abi-suspende-operaciones/20251124110219984120.html",
+    },
+    {
+        "title": "Correo del Sur：Ximena Galarza asume la Dirección General de Comunicación Estratégica del Estado（2025-11-28）",
+        "url": "https://correodelsur.com/sociedad/20251128/ximena-galarza-asume-la-direccion-general-de-comunicacion-estrategica-del-estado.html",
+    },
+    {
+        "title": "La Razón：Gobierno crea la Unidad de Comunicación y deja atrás el Ministerio del área（2026-03-04）",
+        "url": "https://hemeroteca.larazon.bo/nacional/2026/03/04/gobierno-crea-la-unidad-de-comunicacion-y-deja-atras-el-ministerio-del-area/",
+    },
+    {
+        "title": "Infoleyes：Decreto Supremo 5566（2026-03-02，法令原文）",
+        "url": "https://bolivia.infoleyes.com/articulo/109022",
+    },
+    {
+        "title": "ABI：Galarza defiende la libertad de expresión…（2026-08-26，复刊后自身报道）",
+        "url": "https://abi.bo/galarza-defiende-la-libertad-de-expresion-y-niega-que-cerimedo-sea-funcionario-estatal/",
+    },
+    {
+        "title": "Wikipedia (es)：Agencia Boliviana de Información",
+        "url": "https://es.wikipedia.org/wiki/Agencia_Boliviana_de_Informaci%C3%B3n",
+    },
+]
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("WROTE", OUT)
+print("key_people:", len(data["key_people"]), "| events:", len(data["recent_events"]),
+      "| related:", len(data["related_entities"]), "| socials:", len(data["social_accounts"]),
+      "| assets:", len(data["digital_assets"]), "| depts:", len(data["departments"]))

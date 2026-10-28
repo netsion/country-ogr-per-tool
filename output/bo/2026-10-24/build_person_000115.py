@@ -1,0 +1,340 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000115 Paola Verónica Prudencio Candia person profile JSON."""
+import json
+import os
+
+data = {
+    "person_id": "BO-PERSON-000115",
+    "wikidata_qid": None,
+    "name": "Paola Verónica Prudencio Candia",
+    "name_zh": "保拉·普鲁登西奥",
+    "name_en": "Paola Verónica Prudencio Candia",
+    "aliases": [
+        "Paola Prudencio",
+        "Paola Prudencio Candia",
+        "Dra. Paola Verónica Prudencio Candia"
+    ],
+    "nationality": "BO",
+    "gender": "female",
+    "birth_date": "1979-05-03",
+    "birth_date_note": "奥鲁罗省选举机构（TED Oruro）候选人登记页载「Fecha de nacimiento: 3/5/1979」，按玻利维亚惯用日/月/年格式即1979年5月3日；多民族宪法法院、司法法官事务委员会及农业环境法院官方账号均于2026年5月上旬发布其生日祝贺，佐证生日在5月上旬",
+    "birth_place": "奥鲁罗 (Oruro)",
+    "birth_place_note": "《祖国报》(La Patria) 2026-05-31 报道「Nacida en Oruro」；TCP官网传记同载其出生于奥鲁罗",
+    "name_zh_note": "「保拉·普鲁登西奥」见中国驻多民族玻利维亚大使馆《玻利维亚国家概况》页（2026-07更新）；其全名音译无通行华文媒体标准",
+    "contacts": [
+        {
+            "type": "email",
+            "value": "veronicap@gmail.com",
+            "source": "学术论文作者栏（Revista Simón Rodríguez 2022年刊载其论文 PDF 原文）"
+        },
+        {
+            "type": "other",
+            "value": "https://orcid.org/0009-0008-3352-7040",
+            "source": "ORCID 学术作者档案（同上论文作者栏）"
+        },
+        {
+            "type": "website",
+            "value": "https://tcpbolivia.bo/institucional/",
+            "source": "多民族宪法法院官网机构介绍页（载其官方传记，机构页面）"
+        }
+    ],
+    "current_positions": [
+        "多民族宪法法院院长",
+        "多民族宪法法院法官"
+    ],
+    "education": [
+        {
+            "institution": "奥鲁罗技术大学 (Universidad Técnica de Oruro)",
+            "degree": "bachelor",
+            "field": "法学",
+            "end_date": "2005",
+            "country": "BO",
+            "source": "2019年TSE遴选简历（Coordinadora de la Mujer汇编）；TCP官网传记"
+        },
+        {
+            "institution": "奥鲁罗技术大学 (Universidad Técnica de Oruro)",
+            "degree": "other",
+            "field": "税法与市政程序",
+            "end_date": "2007",
+            "country": "BO",
+            "note": "研究生文凭课程（diplomado）",
+            "source": "2019年TSE遴选简历"
+        },
+        {
+            "institution": "奥鲁罗私立大学 (Universidad Privada de Oruro)",
+            "degree": "other",
+            "field": "民事口头诉讼程序",
+            "end_date": "2008",
+            "country": "BO",
+            "note": "研究生文凭课程（diplomado）",
+            "source": "2019年TSE遴选简历"
+        },
+        {
+            "institution": "奥鲁罗技术大学 (Universidad Técnica de Oruro)",
+            "degree": "other",
+            "field": "高等教育科学",
+            "end_date": "2009",
+            "country": "BO",
+            "note": "研究生文凭课程（diplomado）",
+            "source": "2019年TSE遴选简历"
+        },
+        {
+            "institution": "奥鲁罗技术大学 (Universidad Técnica de Oruro)",
+            "degree": "other",
+            "field": "宪法与人权",
+            "end_date": "2017",
+            "country": "BO",
+            "note": "研究生文凭课程（diplomado）",
+            "source": "2019年TSE遴选简历"
+        },
+        {
+            "institution": "圣弗朗西斯科·哈维尔大学 (Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca)",
+            "degree": "master",
+            "field": "司法行政",
+            "country": "BO",
+            "note": "2019年简历载「在读」；TCP官网传记确认已完成司法行政硕士",
+            "source": "2019年TSE遴选简历；TCP官网传记"
+        },
+        {
+            "institution": "贝尼自治大学 (Universidad Autónoma del Beni)",
+            "degree": "master",
+            "field": "宪法、环境与人权法",
+            "country": "BO",
+            "note": "2019年简历载「在读」；TCP官网传记确认已完成",
+            "source": "2019年TSE遴选简历；TCP官网传记"
+        },
+        {
+            "institution": "埃尔阿尔托公立大学 (Universidad Pública de El Alto)",
+            "degree": "doctorate",
+            "field": "高等教育学",
+            "country": "BO",
+            "note": "2019年简历载「在读」；《祖国报》2026年报道与TCP官网传记确认已获高等教育学博士学位",
+            "source": "2019年TSE遴选简历；《祖国报》2026-05-31"
+        }
+    ],
+    "education_note": "另据TCP官网传记与《祖国报》报道，其还拥有第二个博士学位——宪法与行政法博士（Derecho Constitucional y Administrativo），授予院校未见公开披露",
+    "work_experience": [
+        {
+            "start_date": "2006",
+            "end_date": "2011",
+            "organization": "奥鲁罗司法区高等法院 (Corte Superior del Distrito Judicial de Oruro)",
+            "org_id": None,
+            "position": "公设辩护处秘书",
+            "description": "在高等法院公设辩护办公室（Defensoría de oficio）任秘书",
+            "source": "2019年TSE遴选简历"
+        },
+        {
+            "start_date": "2011",
+            "end_date": "2012",
+            "organization": "奥鲁罗技术大学 (Universidad Técnica de Oruro)",
+            "org_id": "BO-ACAD-005",
+            "position": "大学教师（法学）",
+            "description": "《祖国报》称其累计有逾15年大学执教经历",
+            "source": "2019年TSE遴选简历；《祖国报》2026-05-31"
+        },
+        {
+            "start_date": "2013",
+            "end_date": "2017",
+            "organization": "SOAT赔偿基金 (Fondo de Indemnización del SOAT)",
+            "org_id": None,
+            "position": "法定代表人",
+            "source": "2019年TSE遴选简历"
+        },
+        {
+            "start_date": "2018",
+            "end_date": "2025-01",
+            "organization": "多民族宪法法院 (Tribunal Constitucional Plurinacional)",
+            "org_id": "BO-GOV-023",
+            "position": "顾问兼助理律师",
+            "description": "当选法官前在宪法法院任顾问与助理律师（consultora y asistente）",
+            "source": "2019年TSE遴选简历；《祖国报》2026-05-31（载其曾任TCP助理律师）"
+        },
+        {
+            "start_date": "2025-01-02",
+            "organization": "多民族宪法法院 (Tribunal Constitucional Plurinacional)",
+            "org_id": "BO-GOV-023",
+            "position": "法官（奥鲁罗省代表）",
+            "description": "2024-12-15司法选举当选，2025-01-02由总统阿尔塞在拉巴斯大树宫主持宣誓就职，任期六年（至2031年）",
+            "source": "Montero Noticias 2025-01-03；Radio Ancestro/BTV/RTP（2025-01-02宣誓）"
+        },
+        {
+            "start_date": "2025-11-25",
+            "organization": "多民族宪法法院 (Tribunal Constitucional Plurinacional)",
+            "org_id": "BO-GOV-023",
+            "position": "院长",
+            "description": "五名「自延任」法官停止职务当日，经全体会议（四名在任法官）一致推选就任，为该院历史上首位女性院长",
+            "source": "Opinion 2025-11-25；Visión360 2025-11-25"
+        }
+    ],
+    "work_note": "《祖国报》另载其职业生涯还包括司法书记员（actuaria）、司法秘书（secretaria judicial）、法律分析师、公证人（notaria de fe pública）及执业律师等经历",
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000117",
+            "person_name": "阿玛莉亚·劳拉·比利亚卡 (Amalia Laura Villca)",
+            "relationship_type": "colleague",
+            "description": "同届（2024年司法选举）当选的多民族宪法法院法官；2025年11月两人共同推动对五名「自延任」原法官的刑事控告，2025-11-25共同参与推举普鲁登西奥任院长",
+            "source": "Red Uno 2025-11-21；Opinion 2025-11-25"
+        },
+        {
+            "person_id": "BO-PERSON-000118",
+            "person_name": "安赫尔·埃德森·达瓦洛斯·罗哈斯 (Ángel Edson Dávalos Rojas)",
+            "relationship_type": "colleague",
+            "description": "同届当选的多民族宪法法院法官，2025-11-25全体会议参与一致推举普鲁登西奥任院长",
+            "source": "Opinion 2025-11-25；Visión360 2025-11-25"
+        },
+        {
+            "person_id": "BO-PERSON-000116",
+            "person_name": "鲍里斯·威尔逊·阿里亚斯·洛佩斯 (Boris Wilson Arias López)",
+            "relationship_type": "colleague",
+            "description": "同届当选的多民族宪法法院法官，2025-11-25全体会议参与一致推举普鲁登西奥任院长",
+            "source": "Opinion 2025-11-25；Visión360 2025-11-25"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "Paola Veronica Prudencio Candia (@paolaveronica.prudenciocandia)",
+            "url": "https://www.facebook.com/paolaveronica.prudenciocandia/",
+            "source": "Facebook个人主页（自介：宪法律师、人权/动物权利与大地母亲权利捍卫者、宪法与程序法教师）"
+        }
+    ],
+    "social_accounts_note": "六平台扫描结果：仅发现Facebook个人页；X/Twitter、Instagram、LinkedIn、TikTok、YouTube未发现其本人认证账号（相关检索结果均为媒体或机构账号）",
+    "family_members": [],
+    "family_note": "无公开的配偶、子女等家庭成员信息",
+    "political_stances": [
+        {
+            "date": "2025-11-25",
+            "topic": "司法机构任期与「自延任」问题",
+            "stance_content": "明确反对法官在任期届满后自行延长任职，就任院长当日宣布「自延任时代已经结束」，并表示将审计相关期间的法院运作、恢复宪法至上",
+            "source": "Opinion.com.bo 2025-11-25（就任演讲）"
+        },
+        {
+            "date": "2026-06-23",
+            "topic": "司法独立",
+            "stance_content": "公开声明宪法法院「我们的工作不欠任何政治团体」，法院不作施压或迫害工具，在仅四名法官在任的情况下坚持依法运作",
+            "source": "Unitel、Liberación Radio 2026-06-23"
+        },
+        {
+            "date": "2026-06-25",
+            "topic": "司法改革",
+            "stance_content": "呼吁朝野两党就司法改革达成跨党派共识，主张司法体系应以问责制为基础重建公信力",
+            "source": "QNMP 节目 2026-06-25"
+        },
+        {
+            "date": "2026-10-15",
+            "topic": "宪法判决的拘束力",
+            "stance_content": "强调宪法法院判决具有强制执行力、必须得到遵守，重申判决对公权力机关与私主体的约束作用",
+            "source": "Agencia de Noticias Fides 2026-10-15"
+        }
+    ],
+    "political_stances_note": "司法人物：上述条目均为其可查证的公开声明，属司法独立与法治等制度性议题立场，非党派政治立场",
+    "major_achievements": [
+        {
+            "date": "2024-12-15",
+            "achievement": "在2024年司法选举中当选多民族宪法法院法官（奥鲁罗省代表，任期六年），2025年1月2日宣誓就职",
+            "organization": "多民族宪法法院 (Tribunal Constitucional Plurinacional)"
+        },
+        {
+            "date": "2025-11-25",
+            "achievement": "经全体会议一致推选就任多民族宪法法院院长，成为该院历史上首位女性院长；当日终结五名原法官「自延任」危机，宣布恢复法院法定运作并启动内部审计",
+            "organization": "多民族宪法法院 (Tribunal Constitucional Plurinacional)"
+        },
+        {
+            "date": "2026-05-29",
+            "achievement": "获颁「奥鲁罗骄傲奖2026」（Premio Orgullo Orureño 2026），表彰其对玻利维亚司法与学术领域的贡献",
+            "organization": "《祖国报》 (La Patria)"
+        }
+    ],
+    "public_activities": [
+        "2025-01-02：与另外18名新任司法机构负责人一同在拉巴斯大树宫（Casa Grande del Pueblo）由总统阿尔塞主持宣誓就任，副总统乔克万卡呼吁新法官「不成为惩罚工具」",
+        "2025-11-21：其与比利亚卡对五名「自延任」原宪法法院法官提起的刑事控告获检察院正式受理（Red Uno）",
+        "2025-11-25：就任院长当日宣布「自延任时代已经结束」「法院不再是迫害工具」，承诺公开抽签分案、统一司法判例、合并审理以减轻案负、内部审计与预算紧缩（Opinion、Visión360）",
+        "2026-01-06：在苏克雷自由之家主持2026多民族宪法年开幕式，宣布预算紧缩与强化预算监管政策（TCP官网）",
+        "2026-06-23：公开宣示宪法法院独立性——「我们的工作不欠任何政治团体」，并说明法院在仅四名法官在任情况下的运作安排（Unitel、Liberación Radio）",
+        "2026-06-25：呼吁朝野两党合作推进以问责为基础的司法改革（QNMP 节目）",
+        "2026-07-06：出席《任务报》(El Deber) ED24「玻利维亚司法改革」论坛并发言",
+        "2026-10-15：通过Fides通讯社提醒：宪法法院判决具有强制约束力，公私机构均须遵守"
+    ],
+    "works": [
+        "《担任司法调解人的法律训练要求》(La formación legal como requisito para ser conciliador judicial)，Episteme 出版社（TCP官网传记）",
+        "《依〈家庭法典与家庭程序法〉第603号法律将调解作为离婚程序纠纷解决方式》(La conciliación como medio de resolución de conflictos en los procesos de divorcio conforme a la Ley N° 603...)，Episteme 出版社（TCP官网传记）",
+        "《奥鲁罗技术大学「San Agustín」法学院课程再设计提案》(Propuesta de rediseño curricular para la Carrera de Derecho «San Agustín» de la UTO)，Episteme 出版社（TCP官网传记）",
+        "《玻利维亚家庭制度中的财产分割》(La separación de bienes en el Régimen Familiar Boliviano)，Episteme 出版社（TCP官网传记）",
+        "《对原住民农耕民族与社群（NPIOC）的事先协商》(La Consulta Previa a las Naciones y Pueblos Indígenas Originarios Campesinos)，Episteme 出版社（TCP官网传记）",
+        "《通过基于能力的培养改革法学专业课程设计提案》(Propuesta de rediseño curricular para la carrera de Derecho, mediante la formación basada en competencias)，Revista Simón Rodríguez 第2卷第3期，2022年2月，DOI: 10.62319/simonrodriguez.v.2i3.12（原文PDF已核）"
+    ],
+    "honors": [
+        "教学功绩奖章 (Medalla al Mérito Docente)：表彰逾15年大学法学教学（TCP官网传记）",
+        "奥鲁罗技术大学法律专业及法学、政治学与社会科学学院成绩第一名荣誉文凭 (Diplomas de Honor)，并以杰出毕业生身份获任该学院教师评估委员会成员（TCP官网传记）",
+        "「奥鲁罗骄傲奖2026」(Premio Orgullo Orureño 2026)，2026-05-29颁授（La Patria）"
+    ],
+    "biography_summary": "保拉·普鲁登西奥（Paola Verónica Prudencio Candia），1979年5月3日生于玻利维亚奥鲁罗，宪法学者、法官，现任多民族宪法法院院长，为该院历史上首位女性院长。2005年毕业于奥鲁罗技术大学（UTO）法学专业，先后修读税法与市政程序、高等教育科学、宪法与人权等文凭课程，并获司法行政、宪法与环境及人权法硕士学位，后获高等教育学博士及宪法与行政法博士，有逾15年大学执教经历。早年历任奥鲁罗司法区高等法院公设辩护处秘书（2006-2011）、UTO大学教师（2011-2012）、SOAT赔偿基金法定代表人（2013-2017），2018年起任多民族宪法法院顾问兼助理律师，并发表宪法、调解与高等教育领域论著。2024年12月15日经司法选举当选多民族宪法法院法官（奥鲁罗省代表），2025年1月2日宣誓就职，任期至2031年。2025年11月25日，在五名「自延任」法官被裁定停止职务当日，经全体会议一致推选就任院长；上任后推动内部审计、公开抽签分案、判例统一与预算紧缩，并多次公开宣示法院独立于任何政治团体。2026年5月获「奥鲁罗骄傲奖」表彰。",
+    "profile": {
+        "source_url": "https://i0.wp.com/lapatria.bo/wp-content/uploads/2026/06/8-16.jpg?resize=696%2C464&ssl=1",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "government_directory",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "notes": "关键事实核验情况：①当选与就任时间线（2024-12-15选举、2025-01-02宣誓、2025-11-25任院长）有≥2独立来源；②出生日期1979-05-03依据奥鲁罗省选举机构候选人登记页（3/5/1979，日/月/年），并与三家官方机构2026年5月上旬生日帖相印证，月份置信度高；③教育与早期履历主要依据2019年TSE遴选简历PDF（直取原文），与TCP官网传记、《祖国报》交叉一致；④第二个博士学位（宪法与行政法）授予院校未公开；⑤中文译名采用中国驻玻大使馆官方页面用法；⑥无Wikidata条目（wikidata_qid留空）；⑦家庭信息无公开资料，family_members留空；⑧未发现其本人X/Instagram/LinkedIn/TikTok/YouTube账号；⑨TCP官网与OEP页面直接抓取不稳定，传记内容经web_reader多次成功获取",
+        "quotes": [
+            {
+                "title": "Institucional - Tribunal Constitucional Plurinacional（TCP官网·院长官方传记）",
+                "url": "https://tcpbolivia.bo/institucional/"
+            },
+            {
+                "title": "Paola Verónica Prudencio Candia - Elecciones Judiciales 2024 - Tribunal Electoral Departamental de Oruro（候选人登记：出生日期等）",
+                "url": "https://oruro.oep.org.bo/procesos-electorales-y-consultas/democracia-representativa/elecciones-judiciales/elecciones_judiciales_2024/paola-veronica-prudencio-candia-elecciones-judiciales-2024/"
+            },
+            {
+                "title": "Paola Prudencio es posesionada como presidenta del TCP - Opinión（2025-11-25）",
+                "url": "https://www.opinion.com.bo/pais/paola-prudencio-es-posesionada-como-presidenta-tcp/20251125203220984220.html"
+            },
+            {
+                "title": "Magistrada Paola Verónica Prudencio asume la presidencia del TCP - Visión360（2025-11-25）",
+                "url": "https://www.vision360.bo/noticias/2025/11/25/35962-magistrada-paola-veronica-prudencio-asume-la-presidencia-del-tribunal-constitucional-plurinacional"
+            },
+            {
+                "title": "Paola Verónica Prudencio recibe el Premio Orgullo Orureño 2026 - La Patria（2026-05-31）",
+                "url": "https://lapatria.bo/cultura-viva/paola-veronica-prudencio-recibe-el-premio-orgullo-orureno-2026/"
+            },
+            {
+                "title": "Arce exhorta a nuevas autoridades judiciales... - Montero Noticias（2025-01就任报道）",
+                "url": "https://monteronoticias.com/2025/01/03/arce-exhorta-a-nuevas-autoridades-judiciales-a-garantizar-una-justicia-transparente-e-independiente/"
+            },
+            {
+                "title": "玻利维亚国家概况 - 中华人民共和国驻多民族玻利维亚国大使馆（中文译名依据）",
+                "url": "https://bo.china-embassy.gov.cn/chn/zbgx_0/blwygk/"
+            },
+            {
+                "title": "Fiscalía admite denuncia contra cinco magistrados autoprorrogados - Red Uno（2025-11-21，其与Villca共同控告）",
+                "url": "https://www.reduno.com.bo/noticias/fiscalia-admite-denuncia-contra-cinco-magistrados-autoprorrogados-20251121133431"
+            },
+            {
+                "title": "Designación de Vocales del TSE - Coordinadora de la Mujer（2019年参选简历PDF：教育、任职、论文）",
+                "url": "http://www.coordinadoradelamujer.org.bo/protagonistas/archivos/novedades/SeparatapostulantesTSE_42.pdf"
+            },
+            {
+                "title": "Propuesta de rediseño curricular... - Revista Simón Rodríguez（论文原文PDF：ORCID、邮箱、UTO隶属）",
+                "url": "https://revistasimonrodriguez.org/article/download/45/42/84"
+            },
+            {
+                "title": "TCP inaugura el Año Constitucional Plurinacional 2026 - TCP官网博客（2026-01-06）",
+                "url": "https://tcpbolivia.bo/2026/01/06/tribunal-constitucional-plurinacional-inaugura-el-ano-constitucional-plurinacional-2026-en-la-casa-de-la-libertad/"
+            }
+        ]
+    }
+}
+
+out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000115.json")
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("WROTE", out_path, os.path.getsize(out_path), "bytes")

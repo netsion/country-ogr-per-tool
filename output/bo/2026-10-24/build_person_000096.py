@@ -1,0 +1,287 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000096 (César Hugo Cocarico Yana) person profile JSON."""
+import json
+import os
+
+OUT_DIR = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24"
+PERSONS_DIR = os.path.join(OUT_DIR, "persons")
+OUT_PATH = os.path.join(PERSONS_DIR, "BO-PERSON-000096.json")
+
+profile = {
+    "person_id": "BO-PERSON-000096",
+    "wikidata_qid": "Q16298445",
+    "name": "César Hugo Cocarico Yana",
+    "name_en": "César Hugo Cocarico Yana",
+    "name_zh": "塞萨尔·乌戈·科卡里科·亚纳",
+    "aliases": ["Cututu"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1969-07-01",
+    "birth_date_note": "出生日期1969-07-01据西语维基百科、Los Tiempos、ANF与eabolivia等多来源；historia.com.bo记为1969年6月，以多数来源为准。",
+    "birth_place": "Escoma, Camacho Province, La Paz Department, Bolivia",
+    "religion": "天主教",
+    "political_party": "争取社会主义运动 (Movimiento al Socialismo)",
+    "is_deceased": False,
+    "current_positions": [],
+    "contacts": [],
+    "education": [
+        {
+            "institution": "埃斯科马国立混合学校 (Colegio Nacional Mixto Escoma)",
+            "degree": "high_school",
+            "field": None
+        },
+        {
+            "institution": "高等体育师范学院 (Instituto Normal Superior de Educación Física, INSEF)",
+            "degree": "other",
+            "field": "体育教育"
+        },
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "bachelor",
+            "field": "法学"
+        },
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "master",
+            "field": "宪法"
+        }
+    ],
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "卡马乔省基层工会与农民组织 (organizaciones sindicales y agrarias de la Provincia Camacho)",
+            "org_id": None,
+            "position": "基层工会与农民运动领导人"
+        },
+        {
+            "start_date": "2006",
+            "end_date": "2007",
+            "organization": "玻利维亚制宪大会 (Asamblea Constituyente de Bolivia)",
+            "org_id": None,
+            "position": "制宪大会代表"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "争取社会主义运动 (Movimiento al Socialismo)",
+            "org_id": "BO-PARTY-001",
+            "position": "拉巴斯政治协调员"
+        },
+        {
+            "start_date": "2010-05-31",
+            "end_date": "2015-05-31",
+            "organization": "拉巴斯省政府 (Gobernación del Departamento de La Paz)",
+            "org_id": None,
+            "position": "省长"
+        },
+        {
+            "start_date": "2015-08-31",
+            "end_date": "2019-11-10",
+            "organization": "玻利维亚农村发展与土地部 (Ministerio de Desarrollo Rural y Tierras)",
+            "org_id": "BO-GOV-018",
+            "position": "部长"
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000483",
+            "person_name": "埃沃·莫拉莱斯 (Evo Morales)",
+            "relationship_type": "superior",
+            "description": "科卡里科在莫拉莱斯政府内先后任拉巴斯省省长（2010-2015）与农村发展与土地部部长（2015-2019）；卸任后仍公开力挺莫拉莱斯，2021年9月发声支持其参加2025年总统大选。"
+        },
+        {
+            "person_id": "BO-PERSON-000097",
+            "person_name": "内梅西娅·阿查科略·托拉 (Nemesia Achacollo Tola)",
+            "relationship_type": "colleague",
+            "description": "2015年8月31日科卡里科接替因原住民发展基金（Fondioc）丑闻辞职的阿查科略，出任农村发展与土地部部长。"
+        },
+        {
+            "person_id": "BO-PERSON-000022",
+            "person_name": "费利克斯·帕茨 (Félix Patzi)",
+            "relationship_type": "colleague",
+            "description": "2010年帕茨原为MAS籍拉巴斯省长候选人，后由科卡里科替补参选并胜出；2015年5月帕茨当选省长，接替科卡里科。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "César Cocarico Yana",
+            "url": "https://www.facebook.com/CeCocarico/",
+            "source": "本人公开主页，认证为公众人物页面，约1.7万关注"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "@CeCocarico",
+            "url": "https://x.com/CeCocarico",
+            "source": "Wikidata Q16298445关联账号与X平台主页"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "Cesar Hugo Cocarico Yana (@cesar.cocarico)",
+            "url": "https://www.tiktok.com/@cesar.cocarico",
+            "source": "TikTok平台主页，约1.24万粉丝、9.6万点赞；其脸书亦转发该账号视频"
+        }
+    ],
+    "family_members": [
+        {
+            "person_id": None,
+            "name": "罗赫尔·卡洛斯·科卡里科·亚纳 (Rogelio Carlos Cocarico Yana)",
+            "relationship": "brother",
+            "industry_or_organization": None
+        }
+    ],
+    "political_stances": [
+        {
+            "date": "2015-08-31",
+            "topic": "变革进程与施政承诺",
+            "stance_content": "就任农村发展与土地部部长时表示，莫拉莱斯委任其为部长「是我的荣幸」，将尽全力使「变革进程」惠及民众，以「美好生活」（vivir bien）为宗旨开展工作；就职致辞以西语、艾马拉语、克丘亚语三种语言发表。",
+            "source": "https://www.lostiempos.com/actualidad/economia/20150831/cesar-cocarico-es-nuevo-ministro-desarrollo-rural"
+        },
+        {
+            "date": "2018-03",
+            "topic": "玻中农业合作",
+            "stance_content": "会见中国农业农村部副部长于康震时表示，完全赞同中方意见建议，玻利维亚钦佩中国农业发展取得的巨大成就，愿学习借鉴中国农业发展经验，与中国一道推动两国农业合作。",
+            "source": "https://gjs.moa.gov.cn/gzdt/201904/t20190418_6184126.htm"
+        },
+        {
+            "date": "2020-12-16",
+            "topic": "过渡政府司法追诉",
+            "stance_content": "接受ERBOL专访时指控阿涅斯过渡政府对其进行「政治迫害」、将司法当作武器使用（包括以错误地址张贴传票后将其逮捕）；称针对其三起案件中两起已被检方驳回（「平行ADEPCOCA」案与裙带关系案），第三起（INRA任命案）亦将不了了之；并称其遭追诉的真正原因是他当时担任MAS在拉巴斯的政治协调人。",
+            "source": "https://erbol.com.bo/seguridad/cocarico-afirma-que-dos-procesos-en-su-contra-fueron-rechazados-y-un-tercero-tambi%C3%A9n"
+        },
+        {
+            "date": "2021-09-25",
+            "topic": "2025年大选与莫拉莱斯参选资格",
+            "stance_content": "在其脸书主页发布视频称「埃沃·莫拉莱斯是右翼的目标」，并认为尽管有司法障碍，莫拉莱斯参选2025年大选的「所有大门依然敞开」，为其参选辩护。",
+            "source": "https://www.facebook.com/CeCocarico/videos/206987078205519/"
+        },
+        {
+            "date": "2026-01",
+            "topic": "玻利维亚政局与农村政策",
+            "stance_content": "2026年1月起在其脸书主页持续发布视频评论政局，称「政府面临的冲突正趋于复杂化」，批评罗德里戈·帕斯政府；并在其TikTok发布视频批评现政府「农村社区再次被边缘化：既没有资金，也没有意愿」。2025年9-10月曾公开评估参加2026年拉巴斯省长选举并权衡以哪一政党名义参选，但2026年3月公布的正式候选人名单中未见其名。",
+            "source": "https://www.facebook.com/CeCocarico/；https://www.tiktok.com/@cesar.cocarico"
+        }
+    ],
+    "major_achievements": [
+        {
+            "date": "2006",
+            "achievement": "代表MAS-IPSP当选制宪大会代表，参与制定2009年新宪法；据其传记资料，在制宪大会期间曾主持立法委员会工作并参与设计多民族立法大会架构。",
+            "organization": "玻利维亚制宪大会 (Asamblea Constituyente de Bolivia)"
+        },
+        {
+            "date": "2010-05",
+            "achievement": "在2010年地方选举中以50.0%得票率（534,563票）当选拉巴斯省省长，任职至2015年5月31日，未寻求连任；任内曾推动就拉巴斯、埃尔阿尔托等市镇边界争议举行公投的提议。",
+            "organization": "拉巴斯省政府 (Gobernación del Departamento de La Paz)"
+        },
+        {
+            "date": "2018-06-19",
+            "achievement": "在中国国家主席习近平与玻利维亚总统莫拉莱斯见证下，与中国海关总署署长倪岳峰签署玻中海关合作协议。",
+            "organization": "玻利维亚农村发展与土地部 (Ministerio de Desarrollo Rural y Tierras)"
+        },
+        {
+            "date": "2015-08",
+            "achievement": "受莫拉莱斯任命出任农村发展与土地部部长，任职四年余（2015-08-31至2019-11-10），历经Fondioc丑闻善后与土地管理改革议题，为莫拉莱斯政府末任该部部长。",
+            "organization": "玻利维亚农村发展与土地部 (Ministerio de Desarrollo Rural y Tierras)"
+        }
+    ],
+    "family_note": "据2018年10月RTP报道，反对派议员阿米尔卡·巴拉尔（Amílcar Barral）指控科卡里科存在「科卡里科-亚纳家族犯罪集团」，并提及配偶为罗莎·马马尼（Rosa Mamani）、育有三子一女——配偶与子女信息仅有此单一指控性来源，未获第二独立来源确认，故不列入family_members正式字段。其兄弟罗赫尔·卡洛斯·科卡里科·亚纳2018年10月因涉嫌诈骗门诺社区约60万美元换取土地地契被送入圣克鲁斯帕尔马索拉监狱（ANF报道，属指控、未见定罪后续报道）；另一兄弟路易斯·科卡里科·亚纳（Luis Cocarico Yana）被指在塔里哈涉嫌违规收取社区15万玻利维亚诺，均系反对派议员指控。",
+    "biography_summary": "塞萨尔·乌戈·科卡里科·亚纳，玻利维亚政治人物、律师、体育教师，艾马拉裔农民运动出身，1969年7月1日生于拉巴斯省卡马乔省埃斯科马。早年在家乡从事基层工会与农民组织工作，与农民工会力量关系密切，获CSUTCB等农民组织支持。2006年当选制宪大会代表，参与制定2009年新宪法；2010年代表争取社会主义运动（MAS）替补参选并当选拉巴斯省省长（2010-2015，得票50.0%）；2015年8月31日被总统莫拉莱斯任命为农村发展与土地部部长，接替因原住民发展基金（Fondioc）丑闻辞职的内梅西娅·阿查科略，任至2019年11月10日莫拉莱斯政府垮台。任内2018年曾代表玻方与中国签署海关合作协议。2019年政局剧变后遭过渡政府追诉：2020年2月因涉嫌违规任命国家土地改革研究所（INRA）所长被捕，在圣佩德罗监狱羁押约三个月后改居家羁押；截至2020年12月两案被检方驳回、第三起尚在调查，其本人坚称遭「政治迫害」。卸任后任MAS拉巴斯政治协调人，2025年曾评估参选拉巴斯省长，2025至2026年在脸书与TikTok持续就政局及农村社区政策发声，批评帕斯政府。",
+    "profile": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%A9sar_Cocarico_Yana_en_agosto_de_2017.png",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "wikipedia",
+            "wikidata",
+            "news_search",
+            "web_search",
+            "social_media",
+            "government_directory"
+        ],
+        "notes": "数据确认情况：（1）生卒、教育、省长与部长任期由西语维基百科、Los Tiempos、ANF/Fides、eabolivia、historia.com.bo等多来源交叉验证；2020年司法案件由DW、El Deber、Correo del Sur、ERBOL多来源确认。（2）name_zh采「塞萨尔·乌戈·科卡里科·亚纳」：百度百科与中国河北国际贸易单一窗口用此全译，中国海关总署（2018-06）与农业农村部国际合作司（2018/2019）官方网页用「科卡里科」「塞萨尔·科卡里科」，与项目_name_index.json既有条目一致。（3）存疑项：出生月份7月为多数来源（historia.com.bo记6月）；制宪大会当选年份es.wikipedia与Los Tiempos记2008、historia.com.bo记2006，因制宪大会2006-2007年运作，采2006；省长就任日采维基信息框2010-05-31（正文另记2010-04-04选举日）。（4）家庭信息：配偶罗莎·马马尼及三子一女仅见于2018年反对派议员指控报道，未双源确认，记于family_note；兄弟罗赫尔入狱为ANF直接报道。（5）社交媒体6项扫描结果：facebook、twitter_x、tiktok确认为本人账号；linkedin、instagram、youtube未发现本人账号。（6）2026年新矿业法/土地政策：查遍西语报道，玻新矿业法系帕斯政府2026年矿业峰会推动，未发现科卡里科参与的可靠报道，相关字段留空，不编造；其2026年公开表态限于社媒批评现政府与农村社区政策。（7）2025年9-10月其评估参选拉巴斯省长（CTV、Red América TV报道），但2026年3月正式候选人名单（19人）未见其名。",
+        "quotes": [
+            {
+                "title": "César Cocarico - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/C%C3%A9sar_Cocarico"
+            },
+            {
+                "title": "Cesar Cocarico Yana / Biografía - Un día en la historia de Bolivia",
+                "url": "https://www.historia.com.bo/biografia/cesar-cocarico-yana"
+            },
+            {
+                "title": "César Cocarico es el nuevo ministro de Desarrollo Rural - Los Tiempos",
+                "url": "https://www.lostiempos.com/actualidad/economia/20150831/cesar-cocarico-es-nuevo-ministro-desarrollo-rural"
+            },
+            {
+                "title": "Cocarico hace un discurso en tres idiomas al aceptar ser nuevo ministro de Desarrollo Rural - ANF",
+                "url": "https://www.noticiasfides.com/nacional/politica/cocarico-hace-un-discurso-en-tres-idiomas-al-aceptar-ser-nuevo-ministro-de-desarrollo-rural-356290-356244"
+            },
+            {
+                "title": "Segundo ministro de Evo Morales enviado a prisión preventiva - DW",
+                "url": "https://www.dw.com/es/exministro-boliviano-de-desarrollo-rural-enviado-a-prisi%C3%B3n-preventiva/a-52489540"
+            },
+            {
+                "title": "Cocarico afirma que dos procesos en su contra fueron rechazados y un tercero también saldrá a su favor - ERBOL",
+                "url": "https://erbol.com.bo/seguridad/cocarico-afirma-que-dos-procesos-en-su-contra-fueron-rechazados-y-un-tercero-tambi%C3%A9n"
+            },
+            {
+                "title": "Campesinos quieren que Cocarico o Rojas sustituya a Achacollo - ERBOL (archivo)",
+                "url": "https://anteriorportal.erbol.com.bo/noticia/indigenas/31082015/campesinos_quieren_que_cocarico_o_rojas_sustituya_achacollo"
+            },
+            {
+                "title": "Ministro Cocarico calla sobre presunto «clan familiar» dedicado al tráfico de tierras y extorsión - ANF",
+                "url": "https://www.noticiasfides.com/economia/ministro-cocarico-calla-sobre-presunto-clan-familiar-dedicado-al-trafico-de-tierras-y-extorsion-"
+            },
+            {
+                "title": "Biografia de Cesar Cocarico Gobernador de La Paz Bolivia - eabolivia.com",
+                "url": "https://www.eabolivia.com/bolivia/5686-biografia-de-cesar-cocarico-gobernador-de-la-paz-bolivia.html"
+            },
+            {
+                "title": "倪岳峰与玻利维亚农村发展和土地部部长科卡里科签署海关合作协议 - 中国海关总署",
+                "url": "http://www.customs.gov.cn/customs/2018-06/21/article_2025122911170480047.html"
+            },
+            {
+                "title": "于康震会见玻利维亚农村发展和土地部部长塞萨尔•科卡里科 - 农业农村部国际合作司",
+                "url": "https://gjs.moa.gov.cn/gzdt/201904/t20190418_6184126.htm"
+            },
+            {
+                "title": "César Hugo Cocarico Yana (@CeCocarico) / X",
+                "url": "https://x.com/CeCocarico"
+            },
+            {
+                "title": "Cesar Hugo Cocarico Yana - TikTok (@cesar.cocarico)",
+                "url": "https://www.tiktok.com/@cesar.cocarico"
+            },
+            {
+                "title": "César Cocarico Yana - Facebook (@CeCocarico)",
+                "url": "https://www.facebook.com/CeCocarico/"
+            },
+            {
+                "title": "César Cocarico y su futuro político en Bolivia - CTV Red Nacional Bolivia (TikTok, 2025-09-25)",
+                "url": "https://www.tiktok.com/@ctvbolivia/video/7554154839660367116"
+            },
+            {
+                "title": "El exgobernador de La Paz, César Cocarico, informó que evalúa la posibilidad de participar en las próximas elecciones - Red América TV (2025-10-07)",
+                "url": "https://www.facebook.com/RedAmericaTV/videos/1810151106262120/"
+            },
+            {
+                "title": "塞萨尔·乌戈·科卡里科·亚纳 - 百度百科",
+                "url": "https://baike.baidu.com/item/%E5%A1%9E%E8%90%A8%E5%B0%94%C2%B7%E4%B9%8C%E6%88%88%C2%B7%E7%A7%91%E5%8D%A1%E9%87%8C%E7%A7%91%C2%B7%E4%BA%9A%E7%BA%B3/23431101"
+            },
+            {
+                "title": "盖茨捐赠母鸡遭拒 玻总统怒斥其「太无礼」 - 人民网",
+                "url": "http://world.people.com.cn/GB/n1/2016/0618/c1002-28455207.html"
+            }
+        ]
+    }
+}
+
+os.makedirs(PERSONS_DIR, exist_ok=True)
+with open(OUT_PATH, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT_PATH)
+print("biography_summary length:", len(profile["biography_summary"]))

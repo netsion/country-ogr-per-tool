@@ -1,0 +1,340 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-GOV-008 (Ministerio de Educación, Bolivia) to phase3_enriched."""
+import json
+
+PATH = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\orgs\BO-GOV-008.json"
+
+with open(PATH, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_original"] = "Ministerio de Educación"
+data["basic_info"]["name_zh"] = "玻利维亚教育部"
+data["basic_info"]["name_en"] = "Ministry of Education"
+data["basic_info"]["aliases"] = [
+    "Minedu",
+    "Ministerio de Educación de Bolivia",
+    "Ministerio de Educación del Estado Plurinacional de Bolivia",
+]
+data["basic_info"]["website"] = "https://www.minedu.gob.bo/"
+data["basic_info"]["founded_date"] = None  # 无可靠来源，留空
+
+data["social_accounts"] = [
+    {
+        "platform": "twitter_x",
+        "account_name": "minedubol",
+        "url": "https://twitter.com/minedubol",
+        "source": "官网 Redes Sociales 页 + Wikidata P2002",
+    },
+    {
+        "platform": "facebook",
+        "account_name": "minedubol",
+        "url": "https://www.facebook.com/minedubol",
+        "source": "官网 Redes Sociales 页",
+    },
+    {
+        "platform": "instagram",
+        "account_name": "minedu_bol",
+        "url": "https://www.instagram.com/minedu_bol",
+        "source": "官网 Redes Sociales 页",
+    },
+    {
+        "platform": "tiktok",
+        "account_name": "min_edubolivia",
+        "url": "https://www.tiktok.com/@min_edubolivia",
+        "source": "官网 Centro de Contacto 列出 TikTok 短链 vm.tiktok.com/ZMN6eHsP4；TikTok 账号自述为教育部官方账号",
+    },
+    {
+        "platform": "youtube",
+        "account_name": "MinEduBol",
+        "url": "https://www.youtube.com/@MinEduBol",
+        "source": "YouTube 频道自述为教育部官方页面并链接 minedu.gob.bo（约16.3万订阅）",
+    },
+]
+
+data["digital_assets"] = [
+    {
+        "name": "Telegram 官方频道群（SIE Bolivia、EducaInnova、DGTIC、UGPSEP 等）",
+        "url": "https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=604&Itemid=780",
+        "description": "官网“社交网络”页收录的十余个官方 Telegram 频道/群组，覆盖教育信息系统(SIE)、教育创新、教育技术司、高等教育司等业务条线。",
+        "source": "官网 Redes Sociales 页",
+    },
+    {
+        "name": "Programa Aulas Conectadas（联网教室计划）/ 玻利维亚教育数字化战略",
+        "url": "https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=8498&catid=182&Itemid=854",
+        "description": "2026-10-20 启动：总统帕斯与部长桑希内斯向拉巴斯省 85 个市镇交付协议，在学校安装星链(Starlink)天线，旨在缩小城乡教育数字鸿沟。",
+        "source": "官网新闻稿 2026-10-20",
+    },
+    {
+        "name": "Programa Inglés para Todos（人人英语计划）",
+        "url": "https://www.minedu.gob.bo/",
+        "description": "官网首页重点推介的 2026 年度英语学习计划。",
+        "source": "官网首页",
+    },
+    {
+        "name": "Estrategia Nacional de Fortalecimiento de Logros de Aprendizajes（国家学习成果强化战略）",
+        "url": "https://www.minedu.gob.bo/files/publicaciones/ver/dges/EstrategiasDGES/2026/ESTRATEGIAS_DE_FORTALECIMIENTO_DE_LOGRO_DE_APRENDIZAJES_-_2026.pdf",
+        "description": "2026 年发布的教学策略文件，覆盖各学段语文与数学学习成果强化方案。",
+        "source": "官网文件库",
+    },
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "里卡多·埃里克·桑希内斯·查韦斯 (Ricardo Erick Sanjinés Chávez)",
+        "title": "教育部长",
+        "title_description": "Ministro de Educación",
+        "description": "经济学家，拥有项目设计与评估、高等教育两个硕士学位。曾任玻利维亚阿基诺大学(UDABOL)研究及研究生副校长、全国副校长，出任部长前为教育部总顾问。2026-06-10 由总统罗德里戈·帕斯任命就任，接替辞职的贝亚特丽斯·加西亚；上任后声明不推行教育私有化，并推进教育数字化与教育权力下放议题。",
+    },
+    {
+        "person_id": None,
+        "name": "亚历杭德拉·博尼法斯·贝列尔 (Alejandra Bonifaz Beller)",
+        "title": "替代教育与特殊教育副部长（现称：教育替代、特殊与人才发展副部长）",
+        "title_description": "Viceministra de Educación Alternativa, Especial y Desarrollo de Talento Humano",
+        "description": "小学教育暨经济学士，国际教育发展硕士。2026-08-03 由部长桑希内斯任命就任；2026-10 代表玻利维亚教育部出席在布宜诺斯艾利斯举行的伊比利亚美洲国家组织(OEI)第十五届大会，并任玻利维亚联合国教科文组织全国合作委员会(COMINABOL)特设秘书。",
+    },
+    {
+        "person_id": None,
+        "name": "胡安·卡洛斯·皮门特尔 (Juan Carlos Pimentel)",
+        "title": "正规教育副部长",
+        "title_description": "Viceministro de Educación Regular",
+        "description": "资深教师、教育学专家，曾任教师工会代表及教育部前官员；2025-11-13 由时任部长贝亚特丽斯·加西亚任命，负责学前至中学正规教育体系，任内推进 2026 学年国家学习成果强化战略与教师晋升考核事务。",
+    },
+    {
+        "person_id": None,
+        "name": "安娜·卡德纳斯·安古洛 (Ana Cárdenas Angulo)",
+        "title": "高等教育与职业培训副部长",
+        "title_description": "Viceministra de Educación Superior y Formación Profesional",
+        "description": "2025-11-13 由时任部长贝亚特丽斯·加西亚任命，负责师范大学、高等技术与职业培训体系（含技术理工学院 ITT），强调将高等教育与国家发展需求对接。",
+    },
+]
+
+data["departments"] = [
+    {
+        "name": "正规教育副部（Viceministerio de Educación Regular）",
+        "dept_id": None,
+        "head": "胡安·卡洛斯·皮门特尔 (Juan Carlos Pimentel)",
+        "description": "负责学前教育、小学与中学正规教育体系的课程、教学与质量管理，主管 2026 学年学习成果强化战略、教师晋升考试等事务。",
+        "parent_dept_id": "BO-GOV-008",
+    },
+    {
+        "name": "替代教育与特殊教育副部（Viceministerio de Educación Alternativa y Especial）",
+        "dept_id": None,
+        "head": "亚历杭德拉·博尼法斯·贝列尔 (Alejandra Bonifaz Beller)",
+        "description": "负责成人教育与扫盲、替代教育、特殊(融合)教育及人才发展；2026-10 官方新闻中其职能名称为“教育替代、特殊与人才发展副部”，主导包容性教育、Bolivia Lee 阅读计划及 UNESCO 相关协调事务。",
+        "parent_dept_id": "BO-GOV-008",
+    },
+    {
+        "name": "高等教育与职业培训副部（Viceministerio de Educación Superior y Formación Profesional）",
+        "dept_id": None,
+        "head": "安娜·卡德纳斯·安古洛 (Ana Cárdenas Angulo)",
+        "description": "负责师范大学与高等技术职业培训体系（含技术理工学院 ITT），组织教育系统岗位公开遴选（如 CONVOCATORIA 001/2026 岗位建制化进程）。",
+        "parent_dept_id": "BO-GOV-008",
+    },
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-11-09",
+        "title": "帕斯新政府首任教育部长贝亚特丽斯·加西亚就任",
+        "description": "2025-11-08 就任的总统罗德里戈·帕斯完成组阁，任命经济学家、大学教师 Beatriz García（Beatriz García de Achá）为教育部长；11-13 她任命胡安·卡洛斯·皮门特尔（正规教育）、安娜·卡德纳斯（高等教育）、丹妮埃拉·加西亚（替代与特殊教育）三位副部长，并提出“教育是国家政策而非权宜之计”。",
+        "impact": "教育部完成政权交替，新旧教育政策进入衔接期。",
+        "source": "minedu.gob.bo 新闻稿 2025-11-13；教育部官方 Facebook 2025-11-09",
+    },
+    {
+        "date": "2026-05-11",
+        "title": "城市与农村教师全国大罢工：要求涨薪、反对教育下放",
+        "description": "玻利维亚城市教育工人工会(CTEUB)与 33 个农村教师联合会举行全国罢工游行，要求按家庭基本消费篮子涨薪、100% 退休金、反对教育权力下放、尊重自动晋升，并要求新教育法经行业协商制定；教育部邀请农村教师次日在科恰班巴对话。",
+        "impact": "教师劳资议题贯穿 2026 全年，9-10 月在国家紧急状态背景下持续发酵。",
+        "source": "Agencia de Noticias Fides (ANF) 2026-05-11",
+    },
+    {
+        "date": "2026-06-02",
+        "title": "教育部长贝亚特丽斯·加西亚辞职",
+        "description": "在全国范围反对帕斯政府的抗议与社会政治危机中，加西亚于 6 月 2 日提出辞职，成为帕斯内阁中又一位去职的高级别官员。",
+        "impact": "教育部领导层空缺约一周，政策延续性承压。",
+        "source": "El Deber 2026-06-02；La Razón 2026-06-02",
+    },
+    {
+        "date": "2026-06-10",
+        "title": "里卡多·埃里克·桑希内斯·查韦斯出任教育部长",
+        "description": "总统帕斯任命前 UDABOL 副校长、教育部总顾问桑希内斯为教育部长；其被媒体定位为技术型官员，承诺平稳过渡、延续既有改革与运营方案，避免行政停摆。",
+        "impact": "教育部重归技术官僚主导，其后推进教育数字化与教育下放议题。",
+        "source": "ABI 2026-06-10；Red Uno 2026-06-10；Unitel 2026-06-10",
+    },
+    {
+        "date": "2026-08-03",
+        "title": "亚历杭德拉·博尼法斯就任替代与特殊教育副部长",
+        "description": "部长桑希内斯任命博尼法斯为替代与特殊教育副部长，接替 2025-11 任命的丹妮埃拉·加西亚，工作目标为巩固教育包容性。",
+        "impact": "帕斯政府教育部副部级团队更替完成。",
+        "source": "minedu.gob.bo 2026-08-03；Correo del Sur 2026-08-03；Opinión(ABI) 2026-08-03",
+    },
+    {
+        "date": "2026-10-14",
+        "title": "教师晋升考试及格线由 51 分降至 40 分",
+        "description": "教育部将教师晋升(ascenso)考试及格线从 51 分下调至 40 分，教师工会领导人报告通过率略高于 50%。",
+        "impact": "缓解教师晋升压力，但引发对职业资格标准的讨论。",
+        "source": "Agencia de Noticias Fides (ANF) 2026-10-14",
+    },
+    {
+        "date": "2026-10-17",
+        "title": "副部长博尼法斯出席伊比利亚美洲国家组织(OEI)第十五届大会",
+        "description": "博尼法斯代表玻利维亚教育部赴布宜诺斯艾利斯出席 OEI 第十五届大会；教育部同期与 OEI 联合推进 Bolivia Lee 阅读计划。",
+        "impact": "维持区域教育多边合作与参与。",
+        "source": "minedu.gob.bo 新闻稿 2026-10-17",
+    },
+    {
+        "date": "2026-10-20",
+        "title": "启动“联网教室”计划：拉巴斯省 85 个市镇学校部署星链",
+        "description": "帕斯总统与部长桑希内斯向拉巴斯省 85 个市镇市长交付协议，在学校安装星链(Starlink)天线，作为“玻利维亚教育数字化战略”首批实施内容，旨在缩小城乡教育差距。",
+        "impact": "教育数字化提速，形成教育部与市镇协作的新模式。",
+        "source": "minedu.gob.bo 新闻稿 2026-10-20",
+    },
+    {
+        "date": "2026-10-22",
+        "title": "城市教师 48 小时全国罢工抗议教育下放，政府称其为“政治措施”",
+        "description": "玻利维亚城市教师联合会 10-20 宣布 10-22/23 举行 48 小时全国罢工，反对教育权力下放并要求涨薪；教育部宣布将对罢工教师扣发工资，部长坚称不会私有化教育；抗议中出现焚烧部长模拟像事件。同期（10-21）自治副部邀请农村教师联合会(CONMERB)自 10-22 起就《技术与技术学院法》草案举行技术圆桌。",
+        "impact": "城乡教师立场分化：农村教师进入对话，城市教师继续施压；教育职能下放立法成为核心争点。",
+        "source": "Resumen Latinoamericano 2026-10-20；La Razón 2026-10-23；minedu.gob.bo 2026-10-21；Bolivisión 2026-10-23",
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-GOV-001",
+        "org_name": "玻利维亚总统 (Presidente de Bolivia)",
+        "org_type": "GOV",
+        "org_description": "国家元首与政府首脑；教育部长由总统任免（现任部长桑希内斯于 2026-06-10 由总统帕斯任命）。",
+        "relationship_type": "parent_org",
+    },
+    {
+        "org_id": "BO-INTL-008",
+        "org_name": "联合国教育、科学及文化组织 (UNESCO)",
+        "org_type": "INTL",
+        "org_description": "玻利维亚设 UNESCO 全国合作委员会(COMINABOL)，由教育部协调；2026 年第 0243 号部长决议指定副部长博尼法斯任特设秘书。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": None,
+        "org_name": "伊比利亚美洲国家组织 (Organización de Estados Iberoamericanos, OEI)",
+        "org_type": "INTL",
+        "org_description": "教育部 2026-10 派副部长出席其在布宜诺斯艾利斯的第十五届大会，并合作实施 Bolivia Lee 阅读计划。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": None,
+        "org_name": "联合国儿童基金会玻利维亚办事处 (UNICEF Bolivia)",
+        "org_type": "INTL",
+        "org_description": "与教育部合作推进早期教育强化及师范教育包容性实践（2026-10 官网新闻）。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": "BO-GOV-010",
+        "org_name": "玻利维亚劳动、就业和社会保障部 (Ministerio de Trabajo, Empleo y Previsión Social)",
+        "org_type": "GOV",
+        "org_description": "与教育部联合举办青年就业能力博览会（2026-10-15）。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": "BO-GOV-019",
+        "org_name": "玻利维亚自治部 (Ministerio de Autonomías)",
+        "org_type": "GOV",
+        "org_description": "其自治副部牵头邀请农村教师联合会(CONMERB)就《技术与技术学院法》草案举行技术圆桌（2026-10-22 起），涉及教育职能向省市级下放，与教育部业务交叉。",
+        "relationship_type": "partner",
+    },
+]
+
+data["core_business"] = (
+    "玻利维亚教育部（Ministerio de Educación，简称 Minedu）是多民族玻利维亚国主管全国公共教育体系的部级机关，"
+    "总部设于拉巴斯市 Arce 大道 2147 号。其法定职责为对全国系统性教育实施管理、促进与监督，保障全民享有面向劳动、"
+    "社区化且优质的教育；依据 2010 年《阿韦利诺·西尼亚尼—埃利萨尔多·佩雷斯教育法》(Ley 070) 制定并实施公平、"
+    "跨文化、多语种、科学技术导向的教育政策，编制各级公立与私立学校适用的教育计划、规划与项目。部内设正规教育、"
+    "替代与特殊教育、高等教育与职业培训三个副部级单位，并在全国九个省设省级教育指导处(DDE)；业务涵盖学前至中学"
+    "正规教育、成人扫盲与特殊教育、师范院校与高等技术职业培训、教师任免与晋升考核、教育信息系统(SIE)建设，"
+    "以及“联网教室”、人人英语计划等教育数字化项目，并与 OEI、UNESCO、UNICEF 等国际组织开展合作。"
+)
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。其教育领域国际合作主要面向伊比利亚美洲与"
+    "多边机制：教育部 2026 年 10 月派副部长出席在布宜诺斯艾利斯举行的伊比利亚美洲国家组织(OEI)第十五届大会，并与其"
+    "联合实施 Bolivia Lee 阅读计划；同时通过 UNESCO 全国合作委员会(COMINABOL)协调对联合国教科文组织事务的参与，"
+    "并与 UNICEF 合作推进早期教育与包容性师范教育。"
+)
+
+data["profile"] = (
+    "玻利维亚教育部是拉巴斯中央政府主管全国教育事务的部级机构。2025-11-08 罗德里戈·帕斯·佩雷拉就任总统并精简改组"
+    "内阁后，教育部得以保留：经济学家贝亚特丽斯·加西亚出任新政府首任教育部长（2025-11-09），2026-06-02 在全国抗议潮中"
+    "辞职，6-10 由前 UDABOL 副校长、教育部总顾问里卡多·埃里克·桑希内斯·查韦斯接任。现行架构下设正规教育、替代与特殊"
+    "教育、高等教育与职业培训三个副部级单位及九个省级教育指导处（西语维基百科所载旧架构中的科学技术副部未再出现于现官网"
+    "导航，疑随新政府机构调整而变动）。当前工作重心包括：2026 学年国家学习成果强化战略、“联网教室”教育数字化计划（与"
+    "拉巴斯省 85 个市镇合作部署星链）、教师薪资与晋升制度改革，以及争议中的教育权力下放（技术理工学院移交省市）立法进程。"
+)
+
+data["collection_meta"]["collection_date"] = "2026-10-25"
+data["collection_meta"]["phase"] = "phase3_enriched"
+data["collection_meta"]["data_sources"] = [
+    "wikidata (Q25414135)",
+    "es.wikipedia.org (Ministerio de Educación (Bolivia))",
+    "official_website: minedu.gob.bo (首页/Redes Sociales/新闻稿 2025-11-13、2026-08-03、2026-10-17、2026-10-20、2026-10-21)",
+    "ABI (abi.bo) 2026-06-10",
+    "Red Uno 2026-06-10 / 2026-06-02",
+    "El Deber 2026-06-02",
+    "La Razón 2026-06-02 / 2026-10-23",
+    "Correo del Sur / Opinión(ABI) 2026-08-03",
+    "Agencia de Noticias Fides (ANF) 2026-05-11 / 2026-10-14",
+    "Resumen Latinoamericano 2026-10-20",
+    "Unitel 2026-06-10",
+    "Bolivisión (Facebook) 2026-10-23",
+]
+data["collection_meta"]["notes"] = (
+    "Phase 3 enriched 2026-10. 现任部长经 ABI/Unitel/Red Uno/官网多源核实（2026-06-10 就任）；三位副部长均经官网新闻稿核实。"
+    "founded_date 无可靠来源故留空；TikTok 官方账号经官网 Centro de Contacto 短链与账号自述双重确认。"
+    "教育下放(ITT 立法)与教师罢工为 2026 年核心争议。"
+)
+data["collection_meta"]["quotes"] = [
+    {
+        "title": "¿Quién es Ricardo Erick Sanjinés Chávez, el nuevo ministro de Educación? (ABI)",
+        "url": "https://abi.bo/quien-es-ricardo-erick-sanjines-chavez-el-nuevo-ministro-de-educacion/",
+    },
+    {
+        "title": "Renuncia la ministra de Educación, Beatriz García (El Deber)",
+        "url": "https://eldeber.com.bo/pais/renuncia-ministra-educacion-beatriz-garcia_1780445766",
+    },
+    {
+        "title": "Ministra de Educación fortalece su equipo con tres nuevos viceministros (minedu.gob.bo)",
+        "url": "https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=8203:ministra-de-educacion-fortalece-su-equipo-con-tres-nuevos-viceministros&catid=182&Itemid=854",
+    },
+    {
+        "title": "Ministro de Educación posesiona a Alejandra Bonifaz como nueva Viceministra de Educación Alternativa y Especial (minedu.gob.bo)",
+        "url": "https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=8425:ministro-de-educacion-posesiona-a-alejandra-bonifaz-como-nueva-viceministra-de-educacion-alternativa-y-especial&catid=182:noticias&Itemid=854",
+    },
+    {
+        "title": "Bolivia. Maestros urbanos convocan paro nacional de 48 horas (Resumen Latinoamericano)",
+        "url": "https://www.resumenlatinoamericano.org/2026/10/20/bolivia-maestros-urbanos-convocan-paro-nacional-de-48-horas/",
+    },
+    {
+        "title": "Maestros ejecutan paro de 24 horas por aumento salarial, ascenso automático y otros pedidos (ANF)",
+        "url": "https://www.noticiasfides.com/nacional/sociedad/maestros-ejecutan-paro-de-24-horas-por-aumento-salarial-ascenso-automatico-y-otros-pedidos",
+    },
+    {
+        "title": "Ministros de Educación y Trabajo participaron en la Feria de Empleabilidad Juvenil (minedu.gob.bo)",
+        "url": "https://www.minedu.gob.bo/index.php?option=com_content&view=article&id=8493&catid=182&Itemid=854",
+    },
+]
+
+def _sanitize(obj):
+    """Replace Unicode smart quotes with ASCII quotes to satisfy schema lint."""
+    if isinstance(obj, dict):
+        return {k: _sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize(v) for v in obj]
+    if isinstance(obj, str):
+        return obj.replace("\u201c", '"').replace("\u201d", '"')
+    return obj
+
+data = _sanitize(data)
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("OK: BO-GOV-008 written, phase =", data["collection_meta"]["phase"])

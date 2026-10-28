@@ -1,0 +1,134 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000218 person profile JSON."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000218.json")
+
+profile = {
+    "person_id": "BO-PERSON-000218",
+    "wikidata_qid": None,
+    "name": "Fabricio Jorge Adolfo Bonadona Quiroga",
+    "name_zh": "法布里西奥·豪尔赫·阿道夫·博纳多纳·基罗加",
+    "name_en": "Fabricio Jorge Adolfo Bonadona Quiroga",
+    "aliases": ["Fabrizio Bonadona", "Fabrizio Bonadona Quiroga"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_date_note": "出生日期未见公开报道。",
+    "birth_place": None,
+    "contacts": [
+        {
+            "type": "email",
+            "value": "gaf@esm.gob.bo",
+            "source": "ESM官网透明度与人力资源页面（行政财务总经理职务邮箱）",
+        }
+    ],
+    "current_positions": ["穆通钢铁公司行政财务总经理"],
+    "education": [],
+    "education_note": "学历、毕业院校与专业均未见公开报道，education不写条目。",
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "穆通钢铁公司 (Empresa Siderúrgica del Mutún)",
+            "org_id": "BO-SOE-009",
+            "position": "行政财务总经理",
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000215",
+            "person_name": "阿尔瓦罗·特赫里纳·奥利维拉 (Álvaro Tejerina Olivera)",
+            "relationship_type": "superior",
+            "description": "穆通钢铁公司代理执行总裁（presidente ejecutivo interino），2025年12月31日由矿业与冶金部长卡尔德龙·德拉巴尔卡依据第32186号最高决议主持就职；2026年以来与博纳多纳多次共同代表ESM接待来访高校师生并出席公开活动，为其直接上级。",
+        },
+        {
+            "person_id": None,
+            "person_name": "玛丽亚·埃斯特·伊诺霍萨·加西亚 (María Esther Hinojosa García)",
+            "relationship_type": "colleague",
+            "description": "穆通钢铁公司规划总经理（Gerente de Planificación），与博纳多纳同列ESM执行管理层名录（ESM官网透明度与人力资源页面）。",
+        },
+        {
+            "person_id": None,
+            "person_name": "大卫·米兰达·萨伊瓜 (David Miranda Saigua)",
+            "relationship_type": "colleague",
+            "description": "穆通钢铁公司矿山技术总经理（Gerente Técnico de Mina），与博纳多纳同列ESM执行管理层名录（ESM官网透明度与人力资源页面）。",
+        },
+        {
+            "person_id": None,
+            "person_name": "加布里埃拉·桑切斯·萨拉斯 (Gabriela Sánchez Salas)",
+            "relationship_type": "colleague",
+            "description": "穆通钢铁公司总监察长（Fiscal General），与博纳多纳同列ESM执行管理层名录（ESM官网透明度与人力资源页面）。",
+        },
+        {
+            "person_id": None,
+            "person_name": "罗森贝特·莱梅·马丁内斯 (Rossembert Laime Martínez)",
+            "relationship_type": "colleague",
+            "description": "穆通钢铁公司钢铁厂总经理（Gerente de Planta Siderúrgica），与博纳多纳同列ESM执行管理层名录（ESM官网透明度与人力资源页面）。",
+        },
+    ],
+    "social_accounts": [],
+    "social_accounts_note": "对facebook、twitter_x、linkedin、instagram、tiktok、youtube六个平台进行系统扫描：facebook存在名为「Fabrizio Bonadona」(@fabricio.bonadona) 的个人主页，但页面内容无法核实与本人身份的对应关系，故不录入；ESM公司官方Facebook、Instagram账号及YouTube频道2026年多个帖文/视频提及本人及其职务（属公司账号而非其个人账号）；linkedin检索到的「Jorge Bonadona Quiroga」档案（Mi Teleférico工作经历、玻利维亚天主教大学教育背景）经核实属于另一人Andrei Jorge Bonadona Quiroga（2019-2020年曾任国营Mi Teleférico执行总经理），非本人物；twitter_x、tiktok未发现本人账号。",
+    "family_members": [],
+    "family_note": "家庭成员与婚姻状况未见公开报道。",
+    "political_stances": [],
+    "major_achievements": [],
+    "biography_summary": "法布里西奥·豪尔赫·阿道夫·博纳多纳·基罗加（Fabricio Jorge Adolfo Bonadona Quiroga）为玻利维亚国有企业穆通钢铁公司（Empresa Siderúrgica del Mutún，ESM）现任行政财务总经理（Gerente Administrativo Financiero），位列公司执行管理层，主管行政与财务事务，并作为招标事项负责人（Rpa）出现在玻利维亚国家采购系统公示中。该职务由ESM官网透明度与人力资源页面、SICOES采购公示文件及ESM官方社交媒体多个2026年帖文交叉确认。在罗德里戈·帕斯政府整顿矿业与国有企业的大背景下，ESM于2025年12月31日由矿业与冶金部长卡尔德龙·德拉巴尔卡主持就任阿尔瓦罗·特赫里纳·奥利维拉为代理执行总裁，博纳多纳与特赫里纳同批进入新管理层，但具体就任日期未见公开报道。2026年以来，他多次与特赫里纳共同代表ESM接待来访高校师生团体，并出席公司周年纪念等公开活动。穆通钢铁联合企业位于圣克鲁斯省苏亚雷斯港市，2025年2月建成投产，投资约5.46亿美元，设计年产约20万吨螺纹钢与线材。其出生日期、学历、早年经历与家庭情况均未见公开报道。",
+    "position_note": "现任职务由多个独立来源交叉确认：①ESM官网透明度与人力资源页面列明其为行政财务总经理；②玻利维亚国家采购系统（SICOES）2026年8月14日公示的轮胎采购文件（CUCE 26-0573-00-1681111-1-1）中列为招标事项负责人（Rpa）；③ESM官方Facebook、Instagram、YouTube账号及地方媒体账号2026年6-10月多个帖文/视频均称其为Gerente Administrativo Financiero。",
+    "work_note": "具体就任日期未见公开报道：罗德里戈·帕斯政府上任后整顿矿业与国企管理层，ESM代理执行总裁特赫里纳于2025年12月31日就职（第32186号最高决议），据任务背景博纳多纳与特赫里纳同批获任，但未检索到直接报道其任命的新闻，故start_date留空。另注：2010年阿根廷萨尔瓦多大学一篇关于玻利维亚锂资源开发的学士论文致谢部分出现同名者「Fabrizio Bonadona Quiroga」（时任玻利维亚立法机构国际政策委员会顾问），疑为本人早期履历，但仅单一来源且原文PDF为部分开放、无法完整核实，故不纳入正式工作经历。",
+    "name_zh_note": "玻利维亚华文媒体无相关报道，中文译名沿用数据库既有写法。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "government_registry",
+            "news_search",
+            "social_media",
+            "web_search",
+        ],
+        "notes": "公开信息有限的玻利维亚国企高管。数据来源确认情况：①ESM官网transparencia.php（官方网站名录：全名+职务+职务邮箱，及其执行层同僚名单）；②SICOES国家采购系统公示镜像infosiscon.com（2026-08-14轮胎采购文件：全名+职务+Rpa）；③El Deber、eju.tv等媒体报道（ESM代理执行总裁特赫里纳2025-12-31就职背景，第32186号最高决议，矿业部长主持）；④ESM官方Facebook/Instagram/YouTube及Radio y TV Cultura等2026年6-10月帖文（多次确认其行政财务总经理身份）。关键发现：ESM官方社交账号将其名拼写为「Fabrizio Bonadona」，官网名录为「FABRICIO」，两种拼写并存且均出自公司官方渠道，已将Fabrizio变体列入aliases。存疑与甄别：LinkedIn「Jorge Bonadona Quiroga」档案属另一人Andrei Jorge Bonadona Quiroga（2019年曾任Mi Teleférico执行总经理），非本人物，已排除；facebook个人主页@fabricio.bonadona存在但无法核实归属，未录入；2010年USAL论文致谢中同名者疑为本人早期经历，单一来源未采信。中文名沿用数据库既有译名。六个社交平台扫描均未发现可确证归属的本人账号。因人物公开信息客观有限，出生日期、学历、家庭、政治立场、个人成就、社交账号等字段无可靠数据可填，completeness_score受此客观限制（约35分），远低于70分目标；所有已填字段均有≥2独立来源支撑或为官网名录直接记载，未作任何编造。",
+        "quotes": [
+            {
+                "title": "Transparencia y Recursos Humanos - Empresa Siderúrgica del Mutún（ESM官网名录：FABRICIO JORGE ADOLFO BONADONA QUIROGA, GERENTE ADMINISTRATIVO FINANCIERO）",
+                "url": "https://esm.gob.bo/transparencia.php",
+            },
+            {
+                "title": "Adquisición de neumáticos destinado la flota de equipos pesados de mina Mutún（SICOES采购公示，Bonadona Quiroga Fabricio Jorge Adolfo列为Rpa）",
+                "url": "https://infosiscon.com/adquisicion-de-neumaticos-destinado-la-flota-de-equipos-pesados-de-mina-mutun-lct790321.html",
+            },
+            {
+                "title": "Posesionan a Álvaro Tejerina como presidente interino de la Siderúrgica Mutún - El Deber",
+                "url": "https://eldeber.com.bo/economia/posesionan-alvaro-tejerina-presidente-interino-siderurgica-mutun_1767396446",
+            },
+            {
+                "title": "Exministro de Áñez jura como presidente de la Empresa Siderúrgica del Mutún - eju.tv",
+                "url": "https://eju.tv/2025/12/exministro-de-anez-jura-como-presidente-de-la-empresa-siderurgica-del-mutun/",
+            },
+            {
+                "title": "Estudiantes y docentes de la FINOR-UAGRM visitaron la E.S.M.（ESM官方Facebook：Gerente Administrativo Financiero, Fabrizio Bonadona）",
+                "url": "https://www.facebook.com/EmpresaSiderurgicaDelMutun/videos/estudiantes-y-docentes-de-la-facultad-integral-del-norte-finor-de-la-uagrm-visit/2170683523500266/",
+            },
+            {
+                "title": "EMPRESA SIDERURGICA DEL MUTUN on Instagram（官方Instagram帖文确认其职务）",
+                "url": "https://www.instagram.com/p/DaIXIPyDpef/",
+            },
+            {
+                "title": "Visita de las Candidatas a Miss Puerto Suarez a la Empresa Siderúrgica del Mutún（ESM YouTube频道：Gerente Administrativo Financiero, Fabricio Bonadona）",
+                "url": "https://www.youtube.com/watch?v=eq7qNx6K78c",
+            },
+            {
+                "title": "Explotación del litio en Bolivia: escenarios futuros - RACIMO Universidad del Salvador（致谢中出现同名者Fabrizio Bonadona Quiroga，存疑线索）",
+                "url": "https://racimo.usal.edu.ar/6687/",
+            },
+        ],
+    },
+}
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("written:", OUT)
+print("bytes:", os.path.getsize(OUT))
+print("bio_len:", len(profile["biography_summary"]))

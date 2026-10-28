@@ -1,0 +1,287 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-GOV-010 (Ministerio de Trabajo, Empleo y Previsión Social) profile."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-GOV-010.json")
+
+with open(OUT, encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_original"] = "Ministerio de Trabajo, Empleo y Previsión Social"
+data["basic_info"]["name_zh"] = "玻利维亚劳动、就业与社会保障部"
+data["basic_info"]["name_en"] = "Ministry of Work, Employment, and Social Security"
+data["basic_info"]["aliases"] = [
+    "MTEPS",
+    "MIN-TEPS",
+    "Ministerio de Trabajo de Bolivia",
+]
+
+data["social_accounts"] = [
+    {
+        "platform": "facebook",
+        "account_name": "Ministerio de Trabajo Bolivia MTEPS (@MinTrabajoBo)",
+        "url": "https://www.facebook.com/MinTrabajoBo/",
+        "source": "https://boliviaverifica.bo/es-falso-que-el-ministerio-de-trabajo-entregue-contratos-laborales-por-telegram-para-hacer-tareas-digitales/",
+    },
+    {
+        "platform": "instagram",
+        "account_name": "@mintrabajobo",
+        "url": "https://www.instagram.com/mintrabajobo/",
+        "source": "https://boliviaverifica.bo/es-falso-que-el-ministerio-de-trabajo-entregue-contratos-laborales-por-telegram-para-hacer-tareas-digitales/",
+    },
+    {
+        "platform": "tiktok",
+        "account_name": "@mintrabajobo",
+        "url": "https://www.tiktok.com/@mintrabajobo",
+        "source": "https://boliviaverifica.bo/es-falso-que-el-ministerio-de-trabajo-entregue-contratos-laborales-por-telegram-para-hacer-tareas-digitales/",
+    },
+    {
+        "platform": "twitter_x",
+        "account_name": "@MinTrabajoBol",
+        "url": "https://x.com/MinTrabajoBol",
+        "source": "https://boliviaverifica.bo/es-falso-que-el-ministerio-de-trabajo-entregue-contratos-laborales-por-telegram-para-hacer-tareas-digitales/",
+    },
+    {
+        "platform": "youtube",
+        "account_name": "MinTrabajoBol",
+        "url": "https://www.youtube.com/@MinTrabajoBol",
+        "source": "https://boliviaverifica.bo/es-falso-que-el-ministerio-de-trabajo-entregue-contratos-laborales-por-telegram-para-hacer-tareas-digitales/",
+    },
+]
+
+data["digital_assets"] = [
+    {
+        "name": "Oficina Virtual de Trámites (OVT)",
+        "url": "https://ovt.mintrabajo.gob.bo/",
+        "description": "线上办事大厅，雇主与劳动者在线办理工资单申报（月度/季度/奖金）等劳动手续。",
+        "source": "https://www.mintrabajo.gob.bo/",
+    },
+    {
+        "name": "Plataforma Digital de Atención de Trámites D-TICKET",
+        "url": "https://dticket.mintrabajo.gob.bo/",
+        "description": "电子取号与流程跟踪平台，用于现场及线上办事预约与排队管理。",
+        "source": "https://www.mintrabajo.gob.bo/",
+    },
+    {
+        "name": "Plataforma de Registro y Reporte de Agencias Privadas de Empleo (RRAPE)",
+        "url": "https://rrape.mintrabajo.gob.bo/",
+        "description": "私营职业介绍所注册与报告平台，用于监管私营就业中介机构。",
+        "source": "https://www.mintrabajo.gob.bo/",
+    },
+    {
+        "name": "Plataforma Plurinacional de Información de Personas con Discapacidad «Eustaquio Moto Méndez»",
+        "url": "https://motomendez.gob.bo/",
+        "description": "全国残疾人信息集中平台，为重度及极重度残疾人按月发放250玻利维亚诺补助金提供数据支撑。",
+        "source": "https://www.mintrabajo.gob.bo/",
+    },
+    {
+        "name": "Programas de Gestión de Seguridad y Salud en el Trabajo (PSST)",
+        "url": "https://psst.mintrabajo.gob.bo/loginPsst",
+        "description": "职业安全与卫生管理计划在线申报系统，雇主须在线提交并更新安全管理计划。",
+        "source": "https://www.mintrabajo.gob.bo/",
+    },
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "Williams José Bascopé Laruta",
+        "title": "Ministro de Trabajo, Empleo y Previsión Social",
+        "title_description": "劳动、就业与社会保障部部长（2026年5月21日就任至今）",
+        "description": "宪法律师，出生于拉巴斯省卡马乔县圣地亚哥-奥科拉社区。2026年5月21日由总统罗德里戈·帕斯任命接替辞职的埃德加·莫拉莱斯，上任时强调以对话化解劳动冲突。",
+    },
+    {
+        "person_id": None,
+        "name": "Edgar Morales Mamani",
+        "title": "Exministro de Trabajo, Empleo y Previsión Social",
+        "title_description": "劳动、就业与社会保障部前部长（2025年11月9日—2026年5月21日）",
+        "description": "艾马拉裔政治人物、玻利维亚空军退役军士长，政治组织“直接民主”（Democracia Directa）领导人；2025年大选前曾为基督教民主党总统候选人，后退选支持罗德里戈·帕斯。2026年5月在劳动冲突背景下请辞。",
+    },
+]
+
+data["departments"] = [
+    {
+        "name": "Viceministerio de Trabajo, Empleo, Servicio Civil y Previsión Social",
+        "dept_id": None,
+        "head": None,
+        "description": "唯一副部级单位。2026年4月14日第5604号最高法令（DS 5604）将原“劳动与社会保障副部”与“就业、公职与合作社副部”合并设立，统管劳动关系、就业、公职与社会保障事务。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Dirección General de Trabajo, Higiene y Seguridad Ocupacional (DGTHSO)",
+        "dept_id": None,
+        "head": None,
+        "description": "劳动、职业卫生与安全总局，负责全国劳动监察、劳动技术检查、职业病与工伤预防监管，并通过各省劳动厅（JDT）执行现场监察。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Dirección General de Empleo y Previsión Social",
+        "dept_id": None,
+        "head": None,
+        "description": "就业与社会保障总局，负责就业服务、失业劳动者社会保障款项托管监管、私营职业介绍所登记及合作社相关事务。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Dirección General de Servicio Civil",
+        "dept_id": None,
+        "head": None,
+        "description": "公职总局，负责公职人员（servicio civil）制度管理与规范。",
+        "parent_dept_id": None,
+    },
+    {
+        "name": "Jefaturas Departamentales de Trabajo (JDT)",
+        "dept_id": None,
+        "head": None,
+        "description": "派驻全国九省的省劳动厅，负责属地劳动监察、集体协议登记、离职职工社会保障款项托管授权等一线业务。",
+        "parent_dept_id": None,
+    },
+]
+
+data["recent_events"] = [
+    {
+        "date": "2026-01-13",
+        "title": "DS 5516 颁布：全国最低工资上调20%至3300玻利维亚诺",
+        "description": "帕斯政府一揽子经济社会法令DS 5516于2026年1月13日在官方公报公布，将全国最低工资（SMN）定为每月3300玻利维亚诺，自2026年1月1日起追溯生效，同时冻结教育等公共部门工资；劳动部于1月22日发布第088/26号部长决议予以规范。",
+        "impact": "打破此前“最低工资+普遍百分比调薪”模式，仅上调最低工资，其余工资交由劳资双方自行谈判，为全年劳资关系定下基调。",
+        "source": "https://eldeber.com.bo/pais/decreto-5516-combustibles-bonos-salarios-ademas-creditos-asi-nuevo-paquete-economico-social-gobierno_1768332770",
+    },
+    {
+        "date": "2026-04-14",
+        "title": "DS 5604 部内重组：两个副部合并为一，总局由6个减至3个",
+        "description": "依据DS 5516第22条的人员合理化要求，劳动部颁布DS 5604实施内部重组：原“劳动与社会保障副部”与“就业、公职与合作社副部”合并为唯一的“劳动、就业、公职与社会保障副部”，总局由6个精简为3个（劳动、职业卫生与安全；就业与社会保障；公职）。",
+        "impact": "机构大幅精简、裁减职位以“消除‘拦路国家’官僚程序”，但保留原机构全部职能；是2025年11月新政府部委精简政策在劳动部的落地。",
+        "source": "https://www.vision360.bo/noticias/2026/04/14/43204-el-ministerio-de-trabajo-fusiona-dos-viceministerios-y-reduce-direcciones-para-racionalizar-personal-y-eliminar-la-burocracia",
+    },
+    {
+        "date": "2026-04-22",
+        "title": "玻利维亚工人中央工会（COB）因拒绝新工资政策召集全国紧急扩大会议",
+        "description": "政府指出DS 5516已将最低工资上调20%至3300玻利维亚诺、其余工资交由劳资谈判；COB拒绝该模式并召集紧急扩大会议商讨对策，企业家一方则援引同一法令主张个人或集体工资谈判权。",
+        "impact": "主要工会与政府在新工资政策上公开对立，成为2026年劳动冲突的重要源头之一。",
+        "source": "https://larazon.bo/economia-y-empresa/2026/04/22/cob-convoca-a-ampliado-de-emergencia-por-rechazo-al-incremento-salarial/",
+    },
+    {
+        "date": "2026-05-21",
+        "title": "部长更替：埃德加·莫拉莱斯辞职，威廉斯·巴斯克斯佩就职",
+        "description": "在社会冲突加剧背景下，部长埃德加·莫拉莱斯（Edgar Morales Mamani）向总统帕斯递交辞呈；同日总统任命宪法律师威廉斯·何塞·巴斯克斯佩·拉鲁塔（Williams José Bascopé Laruta）为新部长，新部长表示将“通过对话”处理劳动事务。",
+        "impact": "劳动部主官在任仅半年即更替，新部长以社会对话为主线，负责平息全国性抗议与封锁期间的劳动关系。",
+        "source": "https://www.noticiasfides.com/nacional/politica/williams-bascope-asume-como-ministro-de-trabajo-en-medio-de-los-conflictos",
+    },
+    {
+        "date": "2026-10-08",
+        "title": "COB 提出最低工资7000玻利维亚诺及基本工资上调10%诉求，政府回应正在评估",
+        "description": "COB领导人奥克塔维奥·乌尔基索（Octavio Urquizo）称因生活必需篮子价格飙升，将把最低工资提高至7000玻利维亚诺、基本工资（haber básico）上调10%列入2027年劳工资诉；部长巴斯克斯佩回应称将研究购买力、通胀、汇率、进出口、就业等七项指标后再定调薪幅度，政府另排除7000玻最低工资的可行性。",
+        "impact": "开启2027年度工资谈判博弈，政府坚持“实际可行”原则，工会与政府立场差距显著。",
+        "source": "https://oxigeno.bo/gobierno-aun-analiza-si-habra-incremento-salarial-la-cob-pide-aumentar-10-al-basico-y-un-salario-minimo-de-bs-7-000/",
+    },
+    {
+        "date": "2026-10-23",
+        "title": "劳动部赴巴拿马参加伊比利亚美洲劳动监察网络第五届全体会议",
+        "description": "劳动部代表团在巴拿马出席伊比利亚美洲劳动监察网络（Red Iberoamericana de Inspección del Trabajo）第五届全体会议，与区域成员国交流劳动监察经验；同月还推动与西班牙在社会经济与合作社领域、与智利的双边劳动合作。",
+        "impact": "强化玻利维亚在区域劳动监察合作网络中的参与，为国内劳动监察现代化取经。",
+        "source": "https://mintrabajo.gob.bo/index.php/nota_prensa/ministerio-de-trabajo-participa-en-el-v-encuentro-plenario-de-la-red-iberoamericana-de-inspeccion-del-trabajo-en-panama/",
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-NGO-001",
+        "org_name": "Central Obrera Boliviana (COB)",
+        "org_type": "NGO",
+        "org_description": "玻利维亚全国性工会联合会，劳动部在最低工资与劳动政策上最主要的劳工对话方。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": "BO-NGO-002",
+        "org_name": "Confederación de Empresarios Privados de Bolivia (CEPB)",
+        "org_type": "NGO",
+        "org_description": "玻利维亚私营企业家联合会，工资谈判中企业界的主要代表与劳动部对话方。",
+        "relationship_type": "partner",
+    },
+    {
+        "org_id": "BO-GOV-001",
+        "org_name": "Presidencia del Estado Plurinacional de Bolivia",
+        "org_type": "GOV",
+        "org_description": "玻利维亚总统府/中央政府，劳动部的上级机关，部长由总统任免；2025年11月帕斯政府上台后推动部委精简与部内重组。",
+        "relationship_type": "parent_org",
+    },
+    {
+        "org_id": None,
+        "org_name": "Red Iberoamericana de Inspección del Trabajo",
+        "org_type": "INTL",
+        "org_description": "伊比利亚美洲劳动监察网络；劳动部为其成员机构，2026年10月派员赴巴拿马参加第五届全体会议。",
+        "relationship_type": "member_of",
+    },
+]
+
+data["core_business"] = (
+    "玻利维亚劳动、就业与社会保障部（MTEPS）是多民族国中央政府主管劳动事务的部门，其渊源可追溯至1936年设立的劳动部。"
+    "核心职能包括：监督《劳动总法》（Ley General del Trabajo）执行与劳资关系，受理并调解劳动纠纷；依托劳动、职业卫生与安全总局（DGTHSO）及全国九省劳动厅（JDT）开展劳动技术监察，查处违反劳动法规行为；"
+    "制定并公布全国最低工资（2026年经DS 5516定为每月3300玻利维亚诺）并监管雇主工资单申报；审批青少年工作许可，防范童工与青少年劳动风险；"
+    "管理公共就业服务与私营职业介绍所登记（RRAPE平台），推动青年就业（如Nanaka就业平台）；负责公职人员（servicio civil）制度管理；"
+    "协调社会保障与预支金（previsión social）事务，托管并监管离职劳动者社会保障款项，管理重度残疾人每月250玻利维亚诺补助（Eustaquio Moto Méndez平台）；"
+    "监管雇主职业安全与卫生管理计划（PSST平台）；并与工人中央工会（COB）、私营企业家联合会（CEPB）开展工资与社会对话。"
+    "2026年4月DS 5604改革后，部内整合为唯一副部级单位和三个总局，机构与编制大幅精简。"
+)
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。在劳动领域，玻利维亚的国际合作主要通过伊比利亚美洲区域机制开展，"
+    "例如2026年10月劳动部派员赴巴拿马参加伊比利亚美洲劳动监察网络第五届全体会议，并于同月与西班牙加强社会经济与合作社领域的双边劳动合作。"
+)
+
+data["collection_meta"] = {
+    "collection_date": "2026-10-24",
+    "phase": "phase3_enriched",
+    "data_sources": [
+        "wikidata",
+        "wikipedia",
+        "official_website",
+        "news_media",
+        "fact_check_media",
+    ],
+    "quotes": [
+        {
+            "title": "Williams Bascopé asume como ministro de Trabajo en medio de los conflictos (ANF/Fides, 2026-05-21)",
+            "url": "https://www.noticiasfides.com/nacional/politica/williams-bascope-asume-como-ministro-de-trabajo-en-medio-de-los-conflictos",
+        },
+        {
+            "title": "Williams Bascopé es nuevo ministro de Trabajo tras la renuncia de Edgar Morales (La Razón, 2026-05-21)",
+            "url": "https://larazon.bo/nacional/2026/05/21/williams-bascope-asume-la-cartera-de-trabajo/",
+        },
+        {
+            "title": "El Ministerio de Trabajo fusiona dos viceministerios y reduce direcciones para racionalizar personal y eliminar la burocracia (Visión 360, 2026-04-14)",
+            "url": "https://www.vision360.bo/noticias/2026/04/14/43204-el-ministerio-de-trabajo-fusiona-dos-viceministerios-y-reduce-direcciones-para-racionalizar-personal-y-eliminar-la-burocracia",
+        },
+        {
+            "title": "COB convoca a ampliado de emergencia por rechazo al incremento salarial (La Razón, 2026-04-22)",
+            "url": "https://larazon.bo/economia-y-empresa/2026/04/22/cob-convoca-a-ampliado-de-emergencia-por-rechazo-al-incremento-salarial/",
+        },
+        {
+            "title": "Gobierno aún analiza si habrá incremento salarial; la COB pide aumentar 10% al básico y un salario mínimo de Bs 7.000 (Oxígeno, 2026-10-08)",
+            "url": "https://oxigeno.bo/gobierno-aun-analiza-si-habra-incremento-salarial-la-cob-pide-aumentar-10-al-basico-y-un-salario-minimo-de-bs-7-000/",
+        },
+        {
+            "title": "El salario mínimo de Bs 3.300 rige desde el 1 de enero de 2026 (Unitel, 2026-01-30)",
+            "url": "https://unitel.bo/noticias/economia/el-salario-minimo-de-bs-3300-rige-desde-el-1-de-enero-de-2026-estas-son-las-9-claves-de-su-reglamento-FI19116012",
+        },
+        {
+            "title": "Ministerio de Trabajo participa en el V Encuentro Plenario de la Red Iberoamericana de Inspección del Trabajo en Panamá (MTEPS, 2026-10-23)",
+            "url": "https://mintrabajo.gob.bo/index.php/nota_prensa/ministerio-de-trabajo-participa-en-el-v-encuentro-plenario-de-la-red-iberoamericana-de-inspeccion-del-trabajo-en-panama/",
+        },
+        {
+            "title": "¿Quién es Williams Bascopé, el nuevo ministro de Trabajo de Bolivia? (ATB, 2026-06-17)",
+            "url": "https://www.atb.com.bo/2026/06/17/quien-es-williams-bascope-el-nuevo-ministro-de-trabajo-de-bolivia/",
+        },
+        {
+            "title": "Edgar Morales Mamani (Wikipedia en español)",
+            "url": "https://es.wikipedia.org/wiki/Edgar_Morales_Mamani",
+        },
+    ],
+    "completeness_score": 13,
+    "notes": "Phase 3 enrichment: verified current minister (Williams Bascopé, sworn in 2026-05-21), 2026 DS 5516/DS 5604 restructuring and wage events, official digital platforms and social accounts (per Bolivia Verifica official-channel list, Nov 2025). Bolivia is not an APEC member.",
+}
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written:", OUT)

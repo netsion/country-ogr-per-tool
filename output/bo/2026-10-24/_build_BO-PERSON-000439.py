@@ -1,0 +1,152 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000439 Eufronio Toro Vaca person profile."""
+import json
+
+PATH = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000439.json"
+
+CIPCA_ORG = "玻利维亚农民促进研究中心 (Centro de Investigación y Promoción del Campesinado)"
+
+data = {
+    "person_id": "BO-PERSON-000439",
+    "wikidata_qid": None,
+    "name": "Eufronio Toro Vaca",
+    "name_en": "Eufronio Toro Vaca",
+    "name_zh": None,
+    "aliases": ["Toro, Eufronio", "欧弗罗尼奥·托罗·瓦卡"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [],
+    "current_positions": ["玻利维亚农民促进研究中心会员大会主席"],
+    "education": [],
+    "work_experience": [
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": CIPCA_ORG,
+            "org_id": "BO-NGO-003",
+            "position": "会员大会主席",
+            "description": "CIPCA最高治理机构会员大会（Asamblea de Asociados）的负责人。CIPCA治理链条为会员大会→董事会（Directorio）→总干事（Dirección General）→区域主任，会员大会居顶端，行使总干事任免等最高治理职权（CIPCA官网组织架构图）。2024-07-12在拉巴斯以大会主席身份主持新任总干事Marco Antonio Albornoz Castro的就任仪式（posesión）；同场仪式上董事会主席Mauricio Peñarrieta致欢迎辞、大会董事会成员Carmen Beatriz Ruiz向离任总干事Pamela Cartagena Ticona颁发致敬。其就任大会主席的确切起始时间及此后是否连任无公开资料。",
+            "source": "CIPCA官网新闻 Marco Antonio Albornoz, posesionado como nuevo director general del CIPCA（2024-07-13）；CIPCA官网 quienes-somos/estructura-organizacional",
+        },
+        {
+            "start_date": "2013",
+            "end_date": "2015",
+            "organization": CIPCA_ORG,
+            "org_id": "BO-NGO-003",
+            "position": "政治行动部土地与林业政策技术员",
+            "description": "CIPCA年度报告《Memoria-Informe》2013、2014、2015三册连续以署名「Toro, Eufronio」收录其在政治行动部（Unidad de Acción Política, UAP）圣克鲁斯办公室的工作成果：研究土地在大豆种植与畜牧业部门的集中和外资化问题（载CIPCA《Mundos Rurales》期刊第8期，2013-03，署地圣克鲁斯）；在《Página Siete》IDEAS版发表农业市场与农村政策专栏（2013-2014）；与国家林业局（ABT）合作编写《Directriz Técnica 250/2013方法指南与337号法》培训教材（96页）及《森林与土地综合管理计划（PGIBT）》社区宣传指南；并代表UAP参与原住民农民领地林业规程修订建议（与林业商会、ABT、CIDOB、AFIN、CEJIS、SNV、FAN联合署名，2014）。报告署名未含第二姓Vaca，同一性判断详见identity_note。",
+            "source": "CIPCA Memoria-Informe 2013/2014/2015「Producción documental」章节（cipca.org.bo年报PDF）",
+        },
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000437",
+            "person_name": "马尔科·安东尼奥·阿尔博诺斯·卡斯特罗 (Marco Antonio Albornoz Castro)",
+            "relationship_type": "colleague",
+            "description": "CIPCA治理与执行层关系：2024-07-12托罗·瓦卡以会员大会主席身份在拉巴斯主持阿尔博诺斯·卡斯特罗就任CIPCA总干事的仪式（由其完成正式就任posesión）；大会主席与总干事分属最高治理机构与执行层两条线。",
+            "source": "CIPCA官网新闻（2024-07-13）",
+        },
+        {
+            "person_id": "BO-PERSON-000438",
+            "person_name": "毛里西奥·佩尼亚里埃塔 (Mauricio Peñarrieta)",
+            "relationship_type": "colleague",
+            "description": "CIPCA同机构治理架构同事：佩尼亚里埃塔任董事会主席（Directorio负责人），托罗·瓦卡任会员大会主席，分属董事会与会员大会两个治理机构；2024-07-12总干事交接仪式上佩尼亚里埃塔致欢迎辞并主持致敬晚宴，托罗·瓦卡主持就任环节。",
+            "source": "CIPCA官网新闻（2024-07-13）",
+        },
+        {
+            "person_id": "BO-PERSON-000773",
+            "person_name": "卡门·贝阿特丽斯·鲁伊斯 (Carmen Beatriz Ruiz)",
+            "relationship_type": "colleague",
+            "description": "CIPCA大会治理层同事：鲁伊斯以大会董事会（directorio de la Asamblea）成员身份出席2024-07-12总干事交接仪式，向离任总干事颁发致敬；托罗·瓦卡为同一仪式的大会主席。",
+            "source": "CIPCA官网新闻（2024-07-13）",
+        },
+        {
+            "person_id": "BO-PERSON-000440",
+            "person_name": "帕梅拉·卡塔赫纳·蒂科纳 (Pamela Cartagena Ticona)",
+            "relationship_type": "colleague",
+            "description": "CIPCA治理交接关系：卡塔赫纳·蒂科纳2016-2024年任CIPCA总干事，其卸任与新任总干事就任仪式（2024-07-12）由托罗·瓦卡以大会主席身份主持。",
+            "source": "CIPCA官网新闻（2024-07-13）",
+        },
+    ],
+    "social_accounts": [],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2013",
+            "achievement": "发表研究文章《土地在大豆与畜牧业部门的集中与外资化》（Concentración y extranjerización de la tierra en el sector soyero y ganadero），刊于CIPCA《Mundos Rurales》期刊第8期（2013年3月，圣克鲁斯），系统分析东方谷地土地集中与外资控制问题。",
+            "organization": "玻利维亚农民促进研究中心 (CIPCA)",
+        },
+        {
+            "date": "2013",
+            "achievement": "在玻利维亚《七页报》（Página Siete）IDEAS版发表农业政策专栏：《稻米：投机还是减产？》（2013-05-19）、《农业保险与小生产者》（2013-07-21），翌年再发《玻利维亚多地发布旱涝预警》（2014），文章同步刊于CIPCA官网。",
+            "organization": "七页报 (Página Siete)",
+        },
+        {
+            "date": "2014",
+            "achievement": "与玻利维亚国家林业局（ABT）合作编写《Directriz Técnica 250/2013方法指南与337号法》培训教材（96页）及《森林与土地综合管理计划（PGIBT）》社区宣传指南（2014、2015两版），用于农民与原住民社区的土地林业管理能力建设。",
+            "organization": "玻利维亚农民促进研究中心 (CIPCA)",
+        },
+        {
+            "date": "2024-07-12",
+            "achievement": "以CIPCA会员大会主席身份在拉巴斯主持新任总干事马科·安东尼奥·阿尔博诺斯·卡斯特罗的就任仪式，完成该机构2016-2028周期的领导层换届。",
+            "organization": "玻利维亚农民促进研究中心 (CIPCA)",
+        },
+    ],
+    "biography_summary": "欧弗罗尼奥·托罗·瓦卡（Eufronio Toro Vaca）是玻利维亚农村发展与农民议题领域的资深人物，现任玻利维亚农民促进研究中心（CIPCA）会员大会主席。CIPCA由耶稣会士于1971年创立，是玻利维亚最具影响力的农村发展非政府组织之一，其会员大会（Asamblea de Asociados）为最高治理机构，负责任免总干事并审议机构重大事项；会员中既有专业人士，也吸纳农民与原住民社区代表，托罗·瓦卡正属于在CIPCA内部成长起来的治理人物。2024年7月12日，他在拉巴斯以大会主席身份主持马科·安东尼奥·阿尔博诺斯·卡斯特罗就任总干事的交接仪式，与董事会主席毛里西奥·佩尼亚里埃塔分掌治理与执行两条线。此前他于2013至2015年在CIPCA政治行动部（UAP）圣克鲁斯办公室从事土地与林业政策工作，研究大豆部门土地集中与外资化问题，参与337号法配套规程和森林与土地综合管理计划（PGIBT）的社区培训材料编写，并在《七页报》IDEAS版发表多篇农业政策专栏。其出生、教育及家庭背景无公开资料。",
+    "profile": None,
+    "birth_date_note": "无公开资料记载出生日期。",
+    "family_note": "公开资料未查到家庭成员信息。",
+    "social_accounts_note": "已扫描Facebook、Twitter/X、LinkedIn、Instagram、TikTok、YouTube六平台：CIPCA机构官方账号存在（Facebook页面CIPCA_Bolivia、Twitter @CIPCA_Bolivia、YouTube频道，见官网页脚），未发现托罗·瓦卡的个人社交账号；Facebook公共人物名录页受登录墙限制无法核验，2024-07就任新闻未见个人社交账号引用。",
+    "position_note": "会员大会主席（Presidente de la Asamblea）即会员大会（Asamblea de Asociados）负责人，为CIPCA治理架构最高层；确认其2024-07-12以该身份公开活动（主持总干事就任），就任起始时间及当前是否在任无公开资料。",
+    "work_note": "2013-2015年CIPCA政治行动部（UAP）圣克鲁斯经历依据机构年度报告的文献产出名录（署名Toro, Eufronio）重构，报告未记载其具体职衔，「土地与林业政策技术员」为依据其工作内容（政策分析、培训教材编写）所作的概括性表述。",
+    "name_zh_note": "查证中文媒体与库内资料，未发现既有标准中文译名，name_zh置null；「欧弗罗尼奥·托罗·瓦卡」为本库通用音译（与BO-PERSON-000438档案一致），仅用于行文。",
+    "gender_note": "性别依据西语男性教名Eufronio及公开报道语境（presidente阳性冠词）推断，未见明示性别的表述。",
+    "identity_note": "同一性说明：CIPCA年度报告2013-2015的作者署名为「Toro, Eufronio」（不含第二姓Vaca），与本档案人物Eufronio Toro Vaca的关联基于：Eufronio为玻利维亚极罕见教名（搜索引擎无任何同名公众人物记录）、姓氏Toro一致、两处均属CIPCA体系。判断为同一人，置信度中高；若后续资料证伪，应删除work_experience[1]及相应major_achievements条目。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": ["official_website", "annual_report", "web_search"],
+        "notes": "数据来源确认：①大会主席身份来自CIPCA官网2024-07-13新闻，为机构自身公告（权威一手来源）但属单源——本轮检索中外部搜索引擎（Bing、DuckDuckGo、Brave、Yandex、Mojeek、SearXNG）对该环境全线反爬（验证码或投毒结果），Internet Archive间歇离线，玻利维亚媒体站内检索（ERBOL、eju.tv、El Deber等）无命中，无法获得第三方独立报道佐证；重要信息≥2独立来源的要求对该字段客观无法满足，已在position_note标注。②2013-2015年UAP圣克鲁斯履历来自CIPCA《Memoria-Informe》2013/2014/2015三册年度报告PDF（相互独立的三个年度文献），署名「Toro, Eufronio」，同一性判断见identity_note。③出生、教育、家庭、社媒账号均无公开资料，相应字段置空；wikidata无条目（Wikipedia API检索0命中）。④关联人物ID经_name_index.json命中：000437（Albornoz）、000438（Peñarrieta）、000773（Ruiz）、000440（Cartagena）。⑤当日多次尝试Wayback CDX仅部分成功，未获得新增佐证。",
+        "quotes": [
+            {
+                "title": "Marco Antonio Albornoz, posesionado como nuevo director general del CIPCA — CIPCA官网（2024-07-13，明确记载Eufronio Toro Vaca为presidente de la Asamblea del CIPCA并主持就任）",
+                "url": "https://www.cipca.org.bo/noticias/marco-antonio-albornoz-nuevo-director-general-del-cipca",
+            },
+            {
+                "title": "Estructura organizacional | CIPCA官网（治理架构图：Asamblea de Asociados→Directorio→Dirección General→Regionales）",
+                "url": "https://cipca.org.bo/quienes-somos/estructura-organizacional",
+            },
+            {
+                "title": "Quiénes somos | CIPCA官网（机构定位、NIT、地址等背景信息）",
+                "url": "https://cipca.org.bo/quienes-somos",
+            },
+            {
+                "title": "Historia | CIPCA官网（1970年耶稣会士创校、1994年自治化历程）",
+                "url": "https://cipca.org.bo/quienes-somos/historia",
+            },
+            {
+                "title": "Memoria-Informe de la Gestión 2015 | CIPCA年度报告（Producción documental章节：Toro, Eufronio两条培训文献）",
+                "url": "https://cipca.org.bo/publicaciones-e-investigaciones/memorias-institucionales/memoria-2015",
+            },
+            {
+                "title": "Memoria-Informe de la Gestión 2014 | CIPCA年度报告（Toro, Eufronio专栏文章、PGIBT文章及林业规程建议）",
+                "url": "https://cipca.org.bo/publicaciones-e-investigaciones/memorias-institucionales/memoria-2014",
+            },
+            {
+                "title": "Memoria-Informe de la Gestión 2013 | CIPCA年度报告（Toro, Eufronio soyero土地集中研究及两篇Página Siete专栏）",
+                "url": "https://cipca.org.bo/publicaciones-e-investigaciones/memorias-institucionales/memoria-2013",
+            },
+            {
+                "title": "Memoria Informe Anual 2025 | CIPCA年度报告（2026-04-24会员大会审批记录，佐证会员大会现仍运作）",
+                "url": "https://cipca.org.bo/publicaciones-e-investigaciones/memorias-institucionales/memoria-informe-anual-2025",
+            },
+        ],
+    },
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("written", PATH)

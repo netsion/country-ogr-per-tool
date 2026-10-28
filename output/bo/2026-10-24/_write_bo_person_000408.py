@@ -1,0 +1,260 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000408 María Renee Duchén Cuéllar person profile."""
+import json
+import os
+
+profile = {
+    "person_id": "BO-PERSON-000408",
+    "wikidata_qid": "Q6003640",
+    "name": "María Renee Duchén Cuéllar",
+    "name_en": "Maria Renee Duchen Cuellar",
+    "name_zh": None,
+    "aliases": [
+        "María Rene Duchén Cuéllar",
+        "María René Duchén",
+        "María Rene Duchén",
+        "María René Duchen",
+        "Maria Renee Duchen",
+        "María Duchen",
+    ],
+    "nationality": "BO",
+    "gender": "female",
+    "birth_date": "1965-08-02",
+    "birth_place": "La Paz, Bolivia",
+    "contacts": [],
+    "current_positions": [
+        "ATB电视台拉巴斯与全国新闻网络新闻部主任",
+    ],
+    "education": [
+        {
+            "institution": "拉巴斯美洲学院 (Instituto Americano de La Paz)",
+            "degree": "high_school",
+            "field": None,
+            "start_date": None,
+            "end_date": None,
+        },
+        {
+            "institution": "玻利维亚天主教大学 (Universidad Católica Boliviana)",
+            "degree": "bachelor",
+            "field": "社会传播",
+            "start_date": None,
+            "end_date": None,
+        },
+    ],
+    "work_experience": [
+        {
+            "start_date": "1990",
+            "end_date": None,
+            "organization": "玻利维亚ATB电视台 (Red ATB)",
+            "org_id": "BO-MEDIA-011",
+            "position": "新闻主播（第一阶段）",
+        },
+        {
+            "start_date": "2005",
+            "end_date": "2005",
+            "organization": "社会民主力量党 (Poder Democrático Social, PODEMOS)",
+            "org_id": None,
+            "position": "副总统候选人",
+        },
+        {
+            "start_date": "2006-03",
+            "end_date": "2017-01",
+            "organization": "杜亨传播咨询公司 (Duchén & Asociados)",
+            "org_id": None,
+            "position": "总监",
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "红PAT电视台 (Red PAT)",
+            "org_id": None,
+            "position": "新闻主播",
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "拉巴斯Láser 98电台 (Radio Láser 98)",
+            "org_id": None,
+            "position": "记者、节目主持人",
+        },
+        {
+            "start_date": None,
+            "end_date": "2016-11",
+            "organization": "Cadena A电视台 (Cadena A)",
+            "org_id": None,
+            "position": "晚间新闻主播",
+        },
+        {
+            "start_date": "2016-10",
+            "end_date": None,
+            "organization": "玻利维亚ATB电视台 (Red ATB)",
+            "org_id": "BO-MEDIA-011",
+            "position": "新闻主播兼节目主持人（第二阶段）",
+        },
+        {
+            "start_date": "2026-06",
+            "end_date": None,
+            "organization": "玻利维亚ATB电视台 (Red ATB)",
+            "org_id": "BO-MEDIA-011",
+            "position": "拉巴斯与全国新闻网络新闻部主任",
+        },
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000407",
+            "person_name": "阿米尔卡·托里科 (Amílcar Torrico)",
+            "relationship_type": "superior",
+            "description": "托里科2026年1月起任ATB总经理并主导品牌重塑与新闻改组；杜亨2026年6月以全国新闻负责人身份回归ATB执掌全台新闻采编，为其新闻条线下属，两人同列ATB西语维基百科条目「关键人物」",
+        },
+        {
+            "person_id": "BO-PERSON-000409",
+            "person_name": "海梅·「吉米」·伊图里·萨尔蒙 (Jaime 'Jimmy' Iturri Salmón)",
+            "relationship_type": "superior",
+            "description": "伊图里2014年入主ATB，任内（2016年）促成杜亨以王牌栏目《Anoticiando》主持人身份回归该台，当时伊图里为台方实际控制人兼总经理；2025年12月伊图里因欠薪与养老金危机被新董事会解职",
+        },
+        {
+            "person_id": "BO-PERSON-000018",
+            "person_name": "豪尔赫·基罗加 (Jorge Quiroga)",
+            "relationship_type": "political_ally",
+            "description": "2005年大选中基罗加（「图托」基罗加，PODEMOS党总统候选人、前总统）邀请杜亨出任其副总统竞选搭档，二人组合全国得票28.59%、位列第二",
+        },
+        {
+            "person_id": None,
+            "person_name": "安赫莉卡·拉萨尔特 (Angélica Lazarte)",
+            "relationship_type": "colleague",
+            "description": "2005年杜亨投身政坛离开ATB后，拉萨尔特接替其在ATB的新闻职务，现任ATB科恰班巴新闻部主任（信息来自ATB官方脸书账号历史帖，单一来源）",
+        },
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "María Rene Duchén",
+            "url": "https://bo.linkedin.com/in/mar%C3%ADa-rene-duch%C3%A9n-a6257935",
+            "source": "搜索引擎收录的LinkedIn公开档案快照（标题「María Rene Duchén - Strategic Communication & Journalism」，含Duchén & Asociados 2006年3月至2017年1月经历，与维基百科记载互证；档案位于登录墙内，未直接核验）",
+        },
+        {
+            "platform": "facebook",
+            "account_name": "AnoticiandoATBBolivia",
+            "url": "https://www.facebook.com/AnoticiandoATBBolivia",
+            "source": "Wikidata P2013属性与西语维基百科外部链接均将其与《Anoticiando》节目脸书主页关联（系其长期主持的节目主页，而非个人账号）",
+        },
+    ],
+    "family_members": [
+        {
+            "person_id": None,
+            "name": "雷内·佩德罗·杜亨 (Rene Pedro Duchén)",
+            "relationship": "father",
+            "industry_or_organization": None,
+        },
+        {
+            "person_id": None,
+            "name": "玛丽亚·埃莱娜·科尔多瓦 (María Elena Córdova)",
+            "relationship": "mother",
+            "industry_or_organization": "新闻界",
+        },
+    ],
+    "political_stances": [
+        {
+            "date": "2005",
+            "topic": "2005年玻利维亚大选",
+            "stance_content": "应前总统豪尔赫·「图托」·基罗加之邀，作为中右翼社会民主力量党（PODEMOS）副总统候选人参选，与基罗加组合全国得票28.59%、位列第二；选后淡出政坛回归新闻界，此后无政党职务记录",
+            "source": "西语维基百科；Bolivia.com转载《La Razón》(2005)；eju.tv转载《El Deber》(2014)",
+        },
+    ],
+    "major_achievements": [
+        {
+            "date": "2005",
+            "achievement": "作为PODEMOS党副总统候选人与豪尔赫·基罗加搭档参加玻利维亚大选，全国得票28.59%、位列第二",
+            "organization": "社会民主力量党 (Poder Democrático Social, PODEMOS)",
+        },
+        {
+            "date": "2017",
+            "achievement": "获2017年度玛雅奖·玻利维亚（Premio Maya Bolivia）媒体生涯成就奖",
+            "organization": "玛雅奖玻利维亚评委会 (Premio Maya Bolivia)",
+        },
+        {
+            "date": "2018",
+            "achievement": "获2018年度路易斯·埃斯皮纳尔·坎普斯奖（Premio Luis Espinal Camps）",
+            "organization": "多民族立法大会 (Asamblea Legislativa Plurinacional)",
+        },
+        {
+            "date": "2019",
+            "achievement": "获2019年度的的喀喀奖（Galardón Titicaca）新闻生涯成就奖",
+            "organization": "的的喀喀奖评委会 (Galardón Titicaca)",
+        },
+    ],
+    "biography_summary": "玛丽亚·雷内·杜亨·奎利亚尔（María Renee Duchén Cuéllar，1965年8月2日生于拉巴斯）是玻利维亚资深电视新闻主播与媒体管理者，现任ATB电视台（Red ATB）拉巴斯与全国新闻网络新闻部主任（Jefa de Prensa de La Paz y Red Nacional，部分报道亦称全国新闻总经理Gerente Nacional de Prensa）。她1990年以新闻主播身份在Red ATB出道成名，此后历经Red PAT、Láser 98电台、Cadena A等玻利维亚主流媒体，主持过《ATB Noticias》《Anoticiando》《Tele A Noticias》《Revista Láser》《Estudio Abierto》等栏目，被玻利维亚舆论视为最具代表性的电视新闻面孔之一。2005年她应社会民主力量党（PODEMOS）之邀出任前总统豪尔赫·「图托」·基罗加的副总统竞选搭档，以28.59%得票位列全国第二；选后一度遭媒体界冷遇，转而创办传播咨询公司Duchén & Asociados并任总监（2006-2017）。2016年10月她重返ATB主持《Anoticiando》等王牌节目，2017至2019年接连荣获玛雅奖、路易斯·埃斯皮纳尔·坎普斯奖、的的喀喀奖三项行业大奖。2026年6月，在托里科新管理层主导全台改组背景下，她再度回归ATB执掌拉巴斯总部与全国新闻采编网络。另据ChequeaBolivia核查，2025年6月曾有不法分子用AI伪造其形象在脸书投放投资诈骗广告，已被辟谣。",
+    "political_party": "PODEMOS (Poder Democrático Social)（2005年）",
+    "name_spelling_note": "姓名拼写存在多种公开变体：其本人西语维基百科条目与2014年《El Deber》专访（eju.tv转载，明确注明「sin acento」）均作「María Rene Duchén Cuéllar」（Rene无重音）；ATB电视台西语维基百科条目信息框与ATB官方脸书评论则作「María Renee Duchén Cuéllar」；Wikidata曾用名作「María René Duchen」。本档案采用任务清单与ATB条目的「Renee」拼写，其余变体收录于aliases。",
+    "name_zh_note": "玻利维亚无本地华文媒体标准译名可考；Wikidata无中文标签，中文维基百科无对应条目。「玛丽亚·雷内·杜亨·奎利亚尔」系项目清单内部拟定音译，非既有可靠译名，故name_zh置null。",
+    "birth_note": "其父Rene Pedro Duchén为波托西（Potosí）人，祖母来自科查班巴（Cochabamba），母系有圣克鲁斯（cruceña）血统（西语维基百科）。",
+    "children_note": "西语维基百科信息框与2014年《El Deber》专访均证实其育有2名子女，姓名未公开，故不单列family_members条目。",
+    "education_note": "西语维基百科另载其持有「传播法、微型金融、微观经济与竞争力」研究生进修文凭（diplomados）并称出自「哈佛研究生院」，该说法仅此单一来源、无第二独立来源佐证，故未单列education条目。",
+    "work_note": "西语维基百科另载其曾在可口可乐公司短暂任职（单一来源，未单列）。其离开Red PAT的时间记载存在矛盾：西语维基百科记为2009年，但所述「以美剧《Lost》剧照冒充马来西亚航空坠机画面」的播出事故实为2014年7月MH17事件报道事故；Fides通讯社称其2016年11月离开Cadena A时已有「逾六年」司龄（即2010年前后入职），而《El Deber》2014年6月专访称其「时隔四年」经Cadena A重返荧屏，两说并存，故Cadena A起始日期、Red PAT及Láser 98任职起止均无法可靠确定而留空。",
+    "position_note": "现任职务存在两种公开表述：Telebolivia与Posdata（2026年6月）报道其回归职务为「Gerente Nacional de Prensa」（全国新闻总经理），ATB西语维基百科条目信息框则列其为「Jefe de Prensa de La Paz y Red Nacional」（拉巴斯与全国新闻网络新闻部主任），系同一职位的不同表述，本档案采用后者与任务口径一致。",
+    "social_accounts_note": "六平台扫描未检索到其个人X/Twitter、Instagram、TikTok或YouTube账号；Wikidata关联的Facebook账号「AnoticiandoATBBolivia」实为其主持的节目主页而非个人账号；LinkedIn档案位于登录墙内、仅经搜索引擎快照核验。",
+    "political_stances_note": "已收录其2005年以PODEMOS副总统候选人参选的政党立场；除此之外未检索到其就具体政策议题发表的可核实公开表态，故不再增设条目。",
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "wikipedia",
+            "wikidata",
+            "news_search",
+            "web_search",
+            "social_media",
+        ],
+        "completeness_score": 0,
+        "notes": "核心人物（玻利维亚资深新闻主播、现任ATB拉巴斯与全国新闻网络新闻部主任）。姓名、出生日期（1965-08-02拉巴斯）、家族、教育、1990年以来跨ATB/PAT/Cadena A/Láser 98的职业生涯、2005年PODEMOS副总统候选人经历、2017-2019三项行业大奖、2026年6月以新闻负责人身份回归ATB等关键事实均有≥2独立来源交叉验证（西语维基百科+Wikidata+eju.tv转载《El Deber》专访+Fides通讯社+bolivia.com转载《La Razón》+ATB维基条目+Telebolivia/Posdata报道+LinkedIn档案）。存疑点：哈佛进修文凭仅单一来源；离开PAT年份（维基记2009，实为2014 MH17事故）与Cadena A入职年份存在来源矛盾，已如实留空并在work_note说明。2025年6月曾为AI伪造诈骗视频受害者（ChequeaBolivia辟谣）。注意勿与同姓（Duchén）其他玻利维亚人士混淆。completeness_score约77分、未达85分系公开信息客观限制：name_zh查无既有可靠译名按规则置null（-1项）、六平台扫描无个人X/Instagram/TikTok/YouTube账号、无公开个人联系方式（contacts留空）、家庭成员仅父母有真实全名（2/3）、可核实的独立政治立场仅2005年参选一项（1/4）、Wikidata无本人照片（profile缺photo），以上均为查证后如实留空而非遗漏。",
+        "quotes": [
+            {
+                "title": "María Duchén - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Duch%C3%A9n",
+            },
+            {
+                "title": "Wikidata Q6003640 (María Duchen)",
+                "url": "https://www.wikidata.org/wiki/Q6003640",
+            },
+            {
+                "title": "María Rene Duchén: «Nadie me daba trabajo; era radiactiva» (El Deber vía eju.tv, 2014)",
+                "url": "https://eju.tv/2014/06/mara-rene-duchnnadie-me-daba-trabajo-era-radiactiva",
+            },
+            {
+                "title": "María René Duchén, del periodismo a la política (La Razón vía Bolivia.com, 2005)",
+                "url": "https://www.bolivia.com/noticias/autonoticias/detallenoticia29917.asp",
+            },
+            {
+                "title": "María René Duchen deja Cadena A tras más de seis años de trabajo (ANF/Fides, 2016)",
+                "url": "https://www.noticiasfides.com/nacional/sociedad/maria-rene-duchen-deja-cadena-a-tras-mas-de-seis-anos-de-trabajo--370773-370666",
+            },
+            {
+                "title": "María René Duchén vuelve a trabajar en ATB (El Deber vía eju.tv, 2016-10)",
+                "url": "https://eju.tv/2016/10/maria-rene-duchen-vuelve-a-trabajar-en-atb",
+            },
+            {
+                "title": "Telebolivia: ¡MARÍA RENE DUCHEN VUELVE A ATB! como Gerente Nacional de Prensa (Threads, 2026-06-03)",
+                "url": "https://www.threads.com/@telebolivia/post/DZGmU-DEbMd",
+            },
+            {
+                "title": "ATB (canal de televisión) - Wikipedia（信息框列其为Jefe de Prensa de La Paz y Red Nacional）",
+                "url": "https://es.wikipedia.org/wiki/ATB_(canal_de_televisi%C3%B3n)",
+            },
+            {
+                "title": "ChequeaBolivia: Video de QD Show y Maria René Duchén pidiendo inversiones de 1700 bolivianos es falso (2025-06-20)",
+                "url": "https://chequeabolivia.bo/video-de-qd-show-y-maria-rene-duchen-pidiendo-inversiones-de-1700-bolivianos-es-falso",
+            },
+            {
+                "title": "María Rene Duchén - Strategic Communication & Journalism (LinkedIn)",
+                "url": "https://bo.linkedin.com/in/mar%C3%ADa-rene-duch%C3%A9n-a6257935",
+            },
+        ],
+    },
+}
+
+out_path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000408.json"
+)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", out_path)
+print("bytes:", os.path.getsize(out_path))

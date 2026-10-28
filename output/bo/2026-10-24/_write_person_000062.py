@@ -1,0 +1,265 @@
+# -*- coding: utf-8 -*-
+"""Write BO-PERSON-000062 Sumaya Cecilia Rosa Prado Vasquez person profile."""
+import json
+
+OUT = "D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000062.json"
+
+profile = {
+    "person_id": "BO-PERSON-000062",
+    "wikidata_qid": None,
+    "name": "Sumaya Cecilia Rosa Prado Vasquez",
+    "name_en": "Sumaya Cecilia Rosa Prado Vasquez",
+    "name_zh": "苏马亚·普拉多",
+    "aliases": [
+        "Sumaya Prado",
+        "Sumaya Cecilia Prado Vásquez",
+        "苏玛雅·普拉多",
+    ],
+    "aliases_note": "官方就职报道（Opinion Bolivia，2025-11-26）作全名「Sumaya Cecilia Rosa Prado Vasquez」；总统府及该部官方社交账号作「Sumaya Cecilia Prado Vásquez」（无Rosa、Vásquez带重音符）；媒体普遍简称「Sumaya Prado」。中文既有译名两种：南美侨报网（2024-11-28）作「苏马亚·普拉多」，世界食品网/网易转玻利维亚《真理报》（2025-12-19）作「苏玛雅·普拉多」，本档案采用前者（南美地区华文媒体译名，且与项目索引转写选字一致）。",
+    "nationality": "BO",
+    "gender": "female",
+    "birth_date": None,
+    "birth_place": None,
+    "birth_note": "截至2026-10-25，公开报道未查到其出生日期与出生地。",
+    "current_positions": [],
+    "position_note": "2025-11-26宣誓就任玻利维亚历史上首位美食副部长（Viceministra de Gastronomía，亦为全球首个该类副部职位，由罗德里戈·帕斯政府创设）。2026-07-08上级部长辛西娅·亚涅斯因健康原因辞职（据报道由外交部临时接管部务）；2026-08-05其本人向ABI国家通讯社确认美食副部机构结束（官方称该部改组为国家旅游、民俗与美食局），任期随之终止。截至2026-10-25未见其新职务的公开报道，故现任职务留空。",
+    "education": [
+        {
+            "institution": "玻利维亚天主教大学 (Universidad Católica Boliviana)",
+            "degree": "bachelor",
+            "field": "社会传播",
+            "start_date": None,
+            "end_date": None,
+            "source": "Enfoque Digital.bo Facebook人物简介帖（2025-11-28）：Licenciatura en Comunicación Social de la Universidad Católica Boliviana (UCB)；玻利维亚Facebook群组帖（2025-11-26）同载其就读UCB传播学专业",
+            "note": "毕业年份不详；官方就职公报仅称其为「comunicadora social（传播专业人士）」",
+        }
+    ],
+    "education_note": "学历信息来自其就职前后Facebook流传的人物简介帖（两则独立帖文相互印证），未见官方学历文件确认，故谨慎采信。",
+    "work_experience": [
+        {
+            "organization": "玻利维亚旅游可持续、文化、民俗与美食部 (Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía)",
+            "org_id": "BO-GOV-011",
+            "position": "美食副部长",
+            "start_date": "2025-11-26",
+            "end_date": "2026-08-05",
+            "is_current": "false",
+            "description": "2025-11-26由部长辛西娅·亚涅斯主持宣誓就职，为玻利维亚历史上首位美食副部长；任内推动国家美食立法草案、美食旅游质量认证计划、国家美食研究与文献中心及国家美食观察站规划、UNESCO饮食传统数字化记录等政策。2026-07-08部长亚涅斯辞职（据报道外交部临时接管部务），2026-08-05其确认美食副部机构随部改组（改为国家旅游、民俗与美食局）而结束，任期终止。",
+            "org_name_note": "项目机构档案（BO-GOV-011）登记中文名「玻利维亚文化与旅游部」为沿革名；其任内该部官方名称为Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía。",
+            "source": "部官网公报（2025-11-26）；Opinion Bolivia（2025-11-26）；ABI（2026-08-05）",
+        },
+        {
+            "organization": "古斯图餐厅 (Gustu / Gustu Gastronomía S.A.)",
+            "org_id": None,
+            "position": "总经理",
+            "start_date": "2023",
+            "end_date": "2025-11",
+            "is_current": "false",
+            "description": "官方公报称其自2023年起任玻利维亚国际知名度最高的餐厅之一Gustu的总经理；自述在Gustu工作「14年，是我的家」（自2013年创店前后即参与项目）。任内该餐厅稳居「拉丁美洲50最佳餐厅」榜单（2024-11累计第7次入选）。2025-11-26其就任副部长当日，由主厨科拉尔·阿约罗亚接任总经理。",
+            "source": "部官网公报（2025-11-26）；Urgente.bo（2025-11-26）；comino.cl专访（2026-05-17）；南美侨报网（2024-11-28）",
+        },
+        {
+            "organization": "玻利维亚大熔炉基金会 (Melting Pot Bolivia)",
+            "org_id": None,
+            "position": "传播与公共关系总监",
+            "start_date": None,
+            "end_date": None,
+            "is_current": "false",
+            "description": "官方公报称其出任副部长前任Melting Pot Bolivia传播与公共关系总监。该基金会由丹麦名厨克劳斯·迈耶（Noma联合创始人）于2012年创立，为Gustu餐厅的母体机构；她在此期间参与Gustu、Tambo、Manq'a、Suma Phayata、Sabores Silvestres、Ñam Bolivia等项目与活动的传播战略与形象工作。另据官方公报，其此前还有酒店业工作经历。",
+            "source": "部官网公报（2025-11-26）；comino.cl专访（2026-05-17）",
+        },
+    ],
+    "work_note": "comino.cl称其在玻利维亚美食行业工作逾20年；Enfoque Digital.bo人物简介称其职业生涯「逾三十年」（两说可并存：总职业生涯逾30年、其中美食行业逾20年）。LinkedIn自我定位为「美食副部长／社会传播者／传播、声誉与品牌战略专家」，常居拉巴斯。",
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://www.turismoyculturas.gob.bo/",
+            "source": "其曾主管的美食副部所属部委（玻利维亚旅游可持续、文化、民俗与美食部）官方网站；未查到其个人公开邮箱或电话",
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000060",
+            "person_name": "辛西娅·亚涅斯·埃德 (Cinthya Martha Yáñez Eid)",
+            "relationship_type": "superior",
+            "description": "时任玻利维亚旅游可持续、文化、民俗与美食部部长，2025-11-26主持其美食副部长就职仪式；2026-07-08因健康原因辞职，普拉多的副部职位延至2026-08-05随机构改组结束。",
+            "source": "部官网公报（2025-11-26）；ABI（2026-07-08、2026-08-05）",
+        },
+        {
+            "person_id": None,
+            "person_name": "克劳斯·迈耶 (Claus Meyer)",
+            "relationship_type": "mentor",
+            "description": "丹麦名厨、Noma餐厅联合创始人，2012年通过基金会Melting Pot Bolivia在拉巴斯创办Gustu餐厅；Urgente.bo报道称迈耶是普拉多的导师（mentor），并称她自项目创始之初即参与，深受丹麦「新北欧菜」以美食带动发展模式影响。",
+            "source": "Urgente.bo（2025-11-26）；comino.cl专访（2026-05-17）",
+        },
+        {
+            "person_id": None,
+            "person_name": "科拉尔·阿约罗亚 (Coral Ayoroa)",
+            "relationship_type": "associate",
+            "description": "玻利维亚主厨，2025-11-26接替普拉多出任Gustu餐厅总经理；Gustu官方公告肯定普拉多任内工作并欢迎阿约罗亚接棒。",
+            "source": "Urgente.bo（2025-11-26）",
+        },
+        {
+            "person_id": None,
+            "person_name": "达里奥·安德烈斯·萨拉蒂·切瓦里亚 (Dario Andrés Zaratti Chevarría)",
+            "relationship_type": "colleague",
+            "description": "同日（2025-11-26）由部长亚涅斯就职的文化与民俗副部长，两人在同届部领导班子共事；据媒体报道其于2026年8月中旬提出不可撤销辞职。",
+            "source": "Opinion Bolivia（2025-11-26）；部官网公报（2025-11-26）；Facebook媒体帖（2026-08-12/13）",
+        },
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Sumaya Prado",
+            "url": "https://bo.linkedin.com/in/sumaya-prado-7a0041100",
+            "source": "LinkedIn检索结果；comino.cl专访对其账号的引用",
+        },
+        {
+            "platform": "instagram",
+            "account_name": "@pradosumaya",
+            "url": "https://www.instagram.com/pradosumaya/",
+            "source": "comino.cl专访（2026-05-17）明示其Instagram账号为@pradosumaya",
+        },
+    ],
+    "social_accounts_note": "X/Twitter、Facebook、TikTok、YouTube未发现可确证为本人运营的账号；相关内容均为媒体及机构账号（@ctvbolivia、@larazondigital、Red Uno、ERBOL、美食副部官方页等）对其的报道或转发。",
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2025-11-27",
+            "topic": "美食与国家发展战略",
+            "stance_content": "主张将玻利维亚打造为国际美食目的地，把美食视为国家发展引擎与软实力工具而非单纯服务行业，称「美食是社区与国家最强大的发展工具」。",
+            "source": "La Razón（2025-11-27）；comino.cl专访（2026-05-17）；Urgente.bo（2025-11-26）",
+        },
+        {
+            "date": "2026-07-07",
+            "topic": "拉巴斯7月16日法定假日",
+            "stance_content": "公开表示不建议延长拉巴斯7月16日（建省纪念）假日，并排除将假日移至周五的方案。",
+            "source": "La Razón（2026-07-07）；CTV等媒体社媒帖（2026-07-07）",
+        },
+        {
+            "date": "2026-07-07",
+            "topic": "美食业封锁损失与行业救助",
+            "stance_content": "通报全国道路封锁致美食业损失逾3.5亿玻利维亚诺、逾10万个就业岗位流失，并宣布推动面向美食行业的救助计划（plan de salvataje），主持建立全国受影响美食企业登记。",
+            "source": "El Día（2026-07-05）；ERBOL（2026-07-01）；Noches Sin Tregua（2026-07-07）",
+        },
+        {
+            "date": "2026-05-17",
+            "topic": "美食文化政策理念",
+            "stance_content": "主张玻利维亚「不设标志性菜肴，我们的标志是多样性」，将美食视为覆盖生产者到餐馆全环节的价值链，推动饮食遗产纳入国家文化遗产保护体系，并保留本土物产与原住民饮食知识。",
+            "source": "comino.cl专访（2026-05-17）",
+        },
+    ],
+    "major_achievements": [
+        {
+            "date": "2025-11-26",
+            "achievement": "就任玻利维亚历史上首位美食副部长，该职位为全球首个美食副部级建制（Viceministerio de Gastronomía由罗德里戈·帕斯政府于2025年11月创设）。",
+            "organization": "玻利维亚旅游可持续、文化、民俗与美食部 (Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía)",
+        },
+        {
+            "date": "2024-11",
+            "achievement": "任Gustu餐厅总经理期间，该餐厅入选「拉丁美洲50最佳餐厅」（据南美侨报网报道为累计第7次入选），保持玻利维亚餐厅最高国际排名。",
+            "organization": "古斯图餐厅 (Gustu / Gustu Gastronomía S.A.)",
+        },
+        {
+            "date": "2025-12",
+            "achievement": "会见联合国教科文组织项目协调员，推动玻利维亚4种代表性饮食传统（apthapi社区共享聚餐、丘基萨卡山谷辣椒与花生烹饪、瓦列格兰德手工烈酒、维恩哈耶克传统捕鱼技艺）入选「国际饮食传统数字图鉴与平台」项目。",
+            "organization": "玻利维亚旅游可持续、文化、民俗与美食部 (Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía)",
+        },
+        {
+            "date": "2026",
+            "achievement": "主导编制《美食生产链、遗产与美食景观国家保护、促进与增值法》草案并赴特里尼达德等地全国宣介；同期规划设立国家美食研究与文献中心和国家美食观察站。",
+            "organization": "玻利维亚旅游可持续、文化、民俗与美食部 (Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía)",
+        },
+        {
+            "date": "2026",
+            "achievement": "推动国家美食旅游质量认证计划落地：首个培训认证周期奥鲁罗28家、随后苏克雷44家餐饮企业获得质量认证。",
+            "organization": "玻利维亚旅游可持续、文化、民俗与美食部 (Ministerio de Turismo Sostenible, Culturas, Folklore y Gastronomía)",
+        },
+    ],
+    "biography_summary": "苏马亚·塞西莉亚·罗莎·普拉多·巴斯克斯（Sumaya Cecilia Rosa Prado Vasquez）是玻利维亚社会传播专业人士与美食行业管理者，玻利维亚历史上、亦是全球首位美食副部长。她毕业于玻利维亚天主教大学社会传播专业，总职业生涯逾30年，其中在美食行业逾20年。2013年前后起参与丹麦名厨克劳斯·迈耶在拉巴斯创办的Gustu餐厅及其母体「玻利维亚大熔炉基金会」（Melting Pot Bolivia），历任基金会传播与公共关系总监，2023年起出任Gustu Gastronomía S.A.总经理，任内该餐厅累计第7次入选「拉丁美洲50最佳餐厅」。2025年11月26日，她在帕斯政府首任旅游可持续、文化、民俗与美食部部长辛西娅·亚涅斯主持下宣誓就任美食副部长，推动国家美食立法草案、美食旅游质量认证、UNESCO饮食传统数字化记录等政策，并因应道路封锁危机评估行业损失、推动救助计划。2026年7月8日亚涅斯辞职、8月5日该副部机构确认随部改组（改为国家旅游、民俗与美食局）而结束，其任期随之终止，此后公开去向暂未见报道。",
+    "collection_meta": {
+        "phase": "phase4_person_profile",
+        "collection_date": "2026-10-25",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media"
+        ],
+        "completeness_score": 70,
+        "notes": "关键事实均≥2独立来源：全名（Opinion/总统府及该部官方社媒/任务参数）、任职起止（部官网公报2025-11-26、ABI 2026-08-05）、Gustu总经理（部官网、Urgente.bo、comino.cl、南美侨报网）、Melting Pot传播总监（部官网公报）、克劳斯·迈耶导师关系（Urgente.bo、comino.cl）。学历（UCB社会传播学士）来自两则Facebook人物简介帖，未见官方文件，谨慎采信。出生日期/地、家庭成员、个人联系方式均未公开，留空。Wikidata经API检索无本人条目（wikidata_qid=null）。社交媒体仅LinkedIn与Instagram（@pradosumaya）可确认本人。该部2026-08改组有两种表述：ABI称改为国家旅游、民俗与美食局（2026-08-03宣布），ERBOL称部长辞职后由外交部临时接管（2026-07-08），两说并存已注明；其个人去向截至2026-10-25未见报道。urgente.bo新闻配图为Gustu双人合影、无法确认哪位系本人，故未设profile照片字段。",
+        "quotes": [
+            {
+                "title": "La Ministra Cinthya Yañez posesionó a los viceministros de Culturas y Folklore, Gastronomía y Turismo Sostenible（玻利维亚旅游可持续、文化、民俗与美食部官网公报）",
+                "url": "https://www.turismoyculturas.gob.bo/nota_prensa/la-ministra-cinthya-yanez-posesiono-a-los-viceministros-de-culturas-y-folklore-gastronomia-y-turismo-sostenible/",
+            },
+            {
+                "title": "Prado confirma que el Viceministerio de Gastronomía cierra su ciclo y pide seguir visibilizando el trabajo del sector（ABI国家通讯社）",
+                "url": "https://abi.bo/prado-confirma-que-el-viceministerio-de-gastronomia-cierra-su-ciclo-y-pide-seguir-visibilizando-el-trabajo-del-sector/",
+            },
+            {
+                "title": "Sumaya Prado, Viceministra de Gastronomía de Bolivia y los desafíos que trae la política（Guía Comino专访）",
+                "url": "https://comino.cl/sumaya-prado-viceministra-de-gastronomia-de-bolivia-y-la-construccion-de-una-politica-gastronomica-en-bolivia/",
+            },
+            {
+                "title": "Sumaya Prado dirige el Viceministerio de Gastronomía y entrega la posta de Gustu a Coral Ayoroa（Urgente.bo）",
+                "url": "https://www.urgente.bo/noticia/sumaya-prado-dirige-el-viceministerio-de-gastronomia-y-entrega-la-posta-de-gustu-coral",
+            },
+            {
+                "title": "Ministra de Turismo Sostenible, Culturas, Folklore y Gastronomía posesiona a 3 viceministros（Opinion Bolivia，载全名Sumaya Cecilia Rosa Prado Vasquez）",
+                "url": "https://www.opinion.com.bo/pais/cartera-turismo-tiene-viceministros-culturas-folklore-gastronomia-turismo-sostenible/20251126115007984270.html",
+            },
+            {
+                "title": "从山谷烹饪到河畔捕鱼 玻利维亚4种饮食传统入选联合国数字图鉴（网易号·世界食品网，载中文名苏玛雅·普拉多）",
+                "url": "https://www.163.com/dy/article/KH5435KT0514EAHV.html",
+            },
+            {
+                "title": "玻利维亚餐厅「Gustu」入选「拉美50佳」（南美侨报网，载中文名苏马亚·普拉多）",
+                "url": "https://www.br-cn.com/static/content/news/nm_news/2024-11-28/1311788983302768111.html",
+            },
+            {
+                "title": "Viceministra Prado dice que 'no es recomendable' alargar el feriado del 16 de julio（La Razón）",
+                "url": "https://larazon.bo/sociedad/2026/07/07/viceministra-prado-dice-que-no-es-recomendable-alargar-el-feriado-del-16-de-julio/",
+            },
+            {
+                "title": "Gastronomía reporta pérdidas por más de Bs 350 millones a causa de los conflictos（El Día）",
+                "url": "https://eldia.com.bo/2026-07-05/economia/gastronomia-reporta-perdidas-por-mas-de-bs-350-millones-a-causa-de-los-conflictos.html",
+            },
+            {
+                "title": "La viceministra de Gastronomía, Sumaya Prado, reporta que los bloqueos provocaron la pérdida de más de 100.000 fuentes de trabajo（ERBOL via X）",
+                "url": "https://x.com/ErbolDigital/status/2072405932739330113",
+            },
+            {
+                "title": "Sumaya Prado - Viceministra de Gastronomía / Comunicadora social（LinkedIn）",
+                "url": "https://bo.linkedin.com/in/sumaya-prado-7a0041100",
+            },
+            {
+                "title": "La trayectoria de Sumaya Cecilia Prado Vásquez abarca más de tres décadas（Enfoque Digital.bo Facebook，载UCB学历）",
+                "url": "https://www.facebook.com/EnfoqueDigital.BO/posts/la-trayectoria-de-sumaya-cecilia-prado-v%C3%A1squez-abarca-m%C3%A1s-de-tres-d%C3%A9cadas-y-se-c/1423023543162683/",
+            },
+            {
+                "title": "Cinthya Yáñez renuncia al Ministerio de Turismo y Culturas por motivos personales（ABI）",
+                "url": "https://abi.bo/cinthya-yanez-renuncia-al-ministerio-de-turismo-y-culturas-por-motivos-personales/",
+            },
+            {
+                "title": "Cinthia Yañez deja el Ministerio de Turismo y Cancillería asumirá el interinato（ERBOL）",
+                "url": "https://erbol.com.bo/gente/cinthya-ya%C3%B1ez-deja-el-ministerio-de-turismo-y-canciller%C3%ADa-asumir%C3%A1-el-interinato",
+            },
+        ],
+    },
+}
+
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+
+# verify round-trip
+with open(OUT, encoding="utf-8") as f:
+    d = json.load(f)
+print("written OK:", OUT)
+print("person_id:", d["person_id"])
+print("name:", d["name"])
+print("name_zh:", d["name_zh"])
+print("bio len:", len(d["biography_summary"]))
+print("work:", len(d["work_experience"]), "| edu:", len(d["education"]),
+      "| rel:", len(d["person_relationships"]), "| stances:", len(d["political_stances"]),
+      "| ach:", len(d["major_achievements"]), "| social:", len(d["social_accounts"]),
+      "| quotes:", len(d["collection_meta"]["quotes"]))

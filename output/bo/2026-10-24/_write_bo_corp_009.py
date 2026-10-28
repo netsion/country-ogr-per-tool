@@ -1,0 +1,262 @@
+# -*- coding: utf-8 -*-
+"""Phase 3 enrichment for BO-CORP-009 (Viva / Nuevatel PCS de Bolivia S.A.)."""
+import json
+
+PATH = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-CORP-009.json"
+
+data = {
+    "org_id": "BO-CORP-009",
+    "basic_info": {
+        "name_original": "Viva (Bolivia)",
+        "name_zh": "维瓦电信",
+        "name_en": "Viva (Bolivia)",
+        "aliases": [
+            "VIVA",
+            "Nuevatel PCS de Bolivia S.A.",
+            "Empresa de Telecomunicaciones Nuevatel PCS de Bolivia S.A.",
+            "Nuevatel"
+        ],
+        "org_type": "CORP",
+        "org_subtype": "private_company",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1999-11-11",
+        "website": "https://www.viva.com.bo",
+        "wikidata_qid": "Q56015581"
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "vivabo",
+            "url": "https://www.facebook.com/vivabo",
+            "source": "https://www.viva.com.bo（官网页脚链接）"
+        },
+        {
+            "platform": "instagram",
+            "account_name": "vivabo",
+            "url": "https://www.instagram.com/vivabo/",
+            "source": "https://www.viva.com.bo（官网页脚链接）"
+        },
+        {
+            "platform": "twitter_x",
+            "account_name": "vivabo",
+            "url": "https://twitter.com/vivabo",
+            "source": "https://www.viva.com.bo（官网页脚链接）"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "VIVA Bolivia",
+            "url": "https://www.linkedin.com/company/viva-bolivia",
+            "source": "https://www.viva.com.bo（官网页脚链接）"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "VIVANuevatel",
+            "url": "https://www.youtube.com/user/VIVANuevatel",
+            "source": "https://www.viva.com.bo（官网页脚链接）"
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "viva.bo",
+            "url": "https://www.tiktok.com/@viva.bo",
+            "source": "https://www.tiktok.com/@viva.bo（官方账号发布内容核实）"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "VIVA APP（Super App）",
+            "url": "https://play.google.com/store/apps/details?id=com.nuevatel.vivaapp",
+            "description": "玻利维亚首个电信Super App，2025年基于ALVA平台升级推出，集成自助查询/缴费、Bonus Club积分、购物、娱乐及零费率（0-rating）导航；iOS与Android双平台。",
+            "source": "https://www.viva.com.bo；Google Play"
+        },
+        {
+            "name": "$VIVA 数字代币",
+            "url": "https://www.viva.com.bo",
+            "description": "官网宣称玻利维亚首家整合自有数字代币（$VIVA token）的移动运营商，用于其数字生态激励。",
+            "source": "https://www.viva.com.bo"
+        },
+        {
+            "name": "VIVA Wi-Fi / FTTH 光纤宽带",
+            "url": "https://www.viva.com.bo",
+            "description": "家庭互联网业务：LTE固定无线接入（VIVA Wi-Fi，覆盖170多个市镇）与FTTH光纤入户，截至2026年光纤部署里程逾2043公里。",
+            "source": "https://www.telesemana.com；https://www.viva.com.bo"
+        },
+        {
+            "name": "Ayuda VIVA 在线帮助中心",
+            "url": "https://ayuda.viva.com.bo",
+            "description": "官方客户自助帮助门户，提供套餐、充值、VIVA APP使用指南等支持内容。",
+            "source": "https://ayuda.viva.com.bo"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Ryan Alvarez",
+            "title": "首席执行官（CEO / Director General）",
+            "title_description": "VIVA（Nuevatel PCS de Bolivia S.A.）最高负责人，全面主持公司战略与经营。",
+            "description": "2024年6月被任命为VIVA首席执行官，为商业与数字战略专家。任内主导公司由传统电信运营商（Telco）向科技公司（Techco）转型：2025年推出玻利维亚首个电信Super App；2026年先后促成与Rakuten Symphony的网络现代化战略联盟、引入Totogi AI平台、与VOX Solutions联合发布True Signal数据变现平台。其CEO身份经2026年1月及10月行业媒体与新闻稿多方确认。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "División Corporativa（企业事业部）",
+            "dept_id": None,
+            "head": None,
+            "description": "面向企业、机构和中小企业的B2B部门，提供直效营销（SMS/邮件/推送）、企业专线互联网、CRM SaaS云平台、企业VPN及集团移动套餐等解决方案。",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-10-02",
+            "title": "VIVA引入Totogi AI平台，统一网络与经营数据",
+            "description": "VIVA宣布采用AI电信软件公司Totogi的平台，把网络数据与商业/计费数据打通整合，实时评估每项产品与资费的真实盈利能力，成为Totogi在拉美市场的早期客户之一。CEO Ryan Alvarez称该平台是公司由Telco向Techco转型的关键支柱。",
+            "impact": "提升数据驱动的经营决策与收入管理能力，加速网络与IT系统云化、AI化进程。",
+            "source": "https://www.telesemana.com/blog/2026/10/02/viva-bolivia-integrara-datos-de-red-y-de-negocio-mediante-la-implementacion-de-tecnologia-de-totogi/"
+        },
+        {
+            "date": "2026-08-27",
+            "title": "VIVA与Rakuten Symphony建立战略联盟，推进网络现代化",
+            "description": "VIVA与Rakuten Symphony探索战略联盟并签署合作备忘录，评估采用Open RAN、云化核心网/OSS与AI运维对全国移动网络实施现代化改造；8月下旬双方正式官宣，VIVA成为玻利维亚首家引入该合作模式的电信运营商。",
+            "impact": "为4G网络扩容升级及未来5G部署铺路，有望降低网络建设与运维成本、改善用户体验。",
+            "source": "https://mobiletime.la/noticias/27/08/2026/viva-bolivia-modernizar-su-red/"
+        },
+        {
+            "date": "2026-01-21",
+            "title": "VIVA联合VOX Solutions发布True Signal平台，开启电信数据变现",
+            "description": "VIVA选用VOX Solutions的True Signal平台，将经用户授权的一方电信数据通过AI模型转化为可投放受众分段，经由SMS+、RCS和App推送等清洁信道开展性能广告与联盟营销变现。CEO Ryan Alvarez表示此举旨在把VIVA从Telco转变为Techco，开辟全新收入来源；公司同期宣布已拓展至墨西哥市场。",
+            "impact": "在玻利维亚首创基于电信网络数据的广告变现模式，形成移动业务之外的第二增长曲线。",
+            "source": "https://voxsolutions.co/es/viva-bolivia-y-vox-solutions-lanzan-true-signal-pionero-en-el-primer-modelo-de-rendimiento-impulsado-por-las-telecomunicaciones/"
+        },
+        {
+            "date": "2025-07-30",
+            "title": "VIVA牵头设立玻利维亚首个可持续发展AI工作组",
+            "description": "在联合国全球契约（Pacto Global）框架下，由VIVA（Nuevatel）牵头的人工智能与数字化促进可持续发展工作组（Mesa de Trabajo de Inteligencia Artificial y Digitalización para el Desarrollo Sostenible）正式设立，为玻利维亚首个此类跨机构平台。",
+            "impact": "确立VIVA在玻利维亚AI治理与数字化转型公共议程中的牵头企业地位。",
+            "source": "https://www.facebook.com/inforsenoticias/posts/1189341436543925/；https://es.wikipedia.org/wiki/Viva_(Bolivia)"
+        },
+        {
+            "date": "2024-06-10",
+            "title": "Ryan Alvarez出任VIVA首席执行官",
+            "description": "商业与数字战略专家Ryan Alvarez被任命为Nuevatel-VIVA新任CEO，接棒领导这家玻利维亚第三大移动运营商，此后主导了公司向Techco转型、Super App及多项战略合作。",
+            "impact": "管理层更替后公司战略转向数字化转型、收入多元化与网络现代化。",
+            "source": "https://www.facebook.com/BolivianBusiness/posts/982487267212081/"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-032",
+            "org_name": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes (ATT)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚电信与交通运输监管审计局，国家电信行业监管机构。VIVA官网声明其受ATT监管与审计；历史上曾向ATT支付逾2.1亿玻利维亚诺以续签移动、互联网及1900MHz频谱经营许可。",
+            "relationship_type": "regulator"
+        },
+        {
+            "org_id": None,
+            "org_name": "Balesia Technologies, Inc.",
+            "org_type": "CORP",
+            "org_description": "国际电信科技投资集团。2021年9月收购Western Wireless International Bolivia旗下控股实体，成为VIVA的最终母公司，并推动其技术现代化、数字扩张与品牌重塑。",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": None,
+            "org_name": "Western Wireless International Bolivia LLC",
+            "org_type": "CORP",
+            "org_description": "注册于美国的控股实体，VIVA创始股东Western Wireless International的继受者，现持有Nuevatel PCS de Bolivia约71.52%股份的控股股东，2021年起隶属Balesia Technologies体系。",
+            "relationship_type": "controlling_shareholder"
+        },
+        {
+            "org_id": None,
+            "org_name": "COMTECO (Cooperativa de Telecomunicaciones y Servicios Cochabamba Ltda)",
+            "org_type": "CORP",
+            "org_description": "科恰班巴电信服务合作社，1999年与Western Wireless International联合创立Nuevatel（VIVA），现持股约28.47%的少数股东。",
+            "relationship_type": "minority_shareholder"
+        },
+        {
+            "org_id": None,
+            "org_name": "Fundación VIVA",
+            "org_type": "NGO",
+            "org_description": "VIVA设立的企业基金会，负责企业社会责任与社区项目，在CEO Ryan Alvarez任内持续开展社会影响计划。",
+            "relationship_type": "subsidiary"
+        },
+        {
+            "org_id": None,
+            "org_name": "Rakuten Symphony",
+            "org_type": "CORP",
+            "org_description": "乐天集团旗下国际电信软件与云化网络服务商。2026年8月与VIVA签署合作备忘录/战略联盟，评估以Open RAN、云化OSS与AI运维现代化其全国移动网络。",
+            "relationship_type": "strategic_alliance"
+        },
+        {
+            "org_id": None,
+            "org_name": "VOX Solutions",
+            "org_type": "CORP",
+            "org_description": "总部位于香港的TelcoTech公司，专注电信数据变现与广告技术。2026年1月VIVA选用其True Signal平台作为数据广告变现的战略平台。",
+            "relationship_type": "supplier"
+        },
+        {
+            "org_id": None,
+            "org_name": "GSMA",
+            "org_type": "INTL",
+            "org_description": "全球移动通信系统协会。Nuevatel PCS de Bolivia S.A.（VIVA）为其正式会员。",
+            "relationship_type": "member_of"
+        }
+    ],
+    "core_business": "VIVA（Nuevatel PCS de Bolivia S.A.）是玻利维亚第三大移动运营商和主要电信企业之一，1999年11月由美国Western Wireless International与科恰班巴电信合作社COMTECO合资成立，2000年以VIVA品牌投入商用，总部设于圣克鲁斯。核心业务包括：移动通信（预付费套餐及后付费WOW套餐，含Paramount+权益）；移动上网与数据（3G/4G LTE，持1900MHz频谱使用权，曾获Ookla测速奖）；家庭宽带（VIVA Wi-Fi固定无线接入及FTTH光纤入户，光纤部署逾2043公里）；面向企业与机构的B2B企业事业部（直效营销、企业专线、CRM SaaS、企业VPN、集团套餐）。2025年公司推出玻利维亚首个电信Super App（基于ALVA平台），集成自助服务、购物、娱乐、金融服务与零费率导航，并率先发行运营商自有数字代币$VIVA。据2026年行业报道与监管数据，VIVA用户约250万，规模居国营Entel与Tigo之后；员工约469人（2026年），并通过Fundación VIVA开展社会责任项目。",
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。APEC成员限于亚太地区经济体，玻利维亚不属于其中任何一方，也未参与该组织框架下的经贸技术合作；其区域一体化参与集中于拉美机制，例如作为安第斯共同体成员国及南方共同市场联系国开展合作。",
+    "profile": {
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/VIVA2020.png/330px-VIVA2020.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "es.wikipedia.org (Viva (Bolivia))",
+            "www.viva.com.bo (官网首页/EN页/页脚社媒链接)",
+            "telesemana.com (2026-10-02 Totogi)",
+            "mobiletime.la (2026-08-27 Rakuten Symphony)",
+            "voxsolutions.co (2026-01-21 True Signal新闻稿)",
+            "facebook.com/BolivianBusiness (2024-06-10 CEO任命)",
+            "facebook.com/inforsenoticias (2025-07 AI工作组)",
+            "gsma.com (会员名录)",
+            "Google Play (VIVA APP)",
+            "TikTok @viva.bo (官方账号)"
+        ],
+        "completeness_score": 81,
+        "quotes": [
+            {
+                "title": "Viva Bolivia integrará datos de red y de negocio mediante la implementación de tecnología de Totogi",
+                "url": "https://www.telesemana.com/blog/2026/10/02/viva-bolivia-integrara-datos-de-red-y-de-negocio-mediante-la-implementacion-de-tecnologia-de-totogi/"
+            },
+            {
+                "title": "VIVA Bolivia explora alianza con Rakuten para modernizar su red",
+                "url": "https://mobiletime.la/noticias/27/08/2026/viva-bolivia-modernizar-su-red/"
+            },
+            {
+                "title": "VIVA Bolivia y VOX Solutions Lanzan True Signal - Pioneros del Primer Modelo de Performance para Telcos",
+                "url": "https://voxsolutions.co/es/viva-bolivia-y-vox-solutions-lanzan-true-signal-pionero-en-el-primer-modelo-de-rendimiento-impulsado-por-las-telecomunicaciones/"
+            },
+            {
+                "title": "VIVA - Home（VIVA APP la primer SuperApp de Bolivia；$VIVA token）",
+                "url": "https://www.viva.com.bo/en/"
+            },
+            {
+                "title": "Viva (Bolivia) - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Viva_(Bolivia)"
+            }
+        ],
+        "notes": "Phase3 enrichment（2026-10-24）。现任CEO Ryan Alvarez经TeleSemana（2026-10）、VOX Solutions新闻稿（2026-01）及2024-06任命报道三重核实；Ryan Alvarez及各股东/合作方均未命中_name_index，person_id/org_id置空（未改动id_registry）。玻利维亚非APEC成员，apec_stance按事实填写。缺口说明：除CEO外的现任高管（如CFO/CTO）及公司内部部门架构缺乏2025-2026可核实公开来源，key_people与departments从紧填写；Entel（BO-SOE-004）、Tigo（BO-CORP-008）为竞争对手，因relationship_type枚举无competitor值未列入related_entities。股东结构与雇员数来自西语Wikipedia信息框（与官网/GSMA/新闻稿交叉印证）。",
+    "phase_note": None
+    }
+}
+
+# cleanup None placeholders that are not valid schema fields
+data["collection_meta"].pop("phase_note", None)
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written:", PATH)
+print("core_business length:", len(data["core_business"]))
+print("apec_stance length:", len(data["apec_stance"]))

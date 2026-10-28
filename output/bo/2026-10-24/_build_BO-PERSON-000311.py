@@ -1,0 +1,230 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000311 (Greby Uriel Rioja Montaño) person profile JSON."""
+import json
+
+PROFILE = {
+    "person_id": "BO-PERSON-000311",
+    "wikidata_qid": None,
+    "name": "Greby Uriel Rioja Montaño",
+    "name_en": "Greby Uriel Rioja Montano",
+    "name_zh": "格雷比·里奥哈·蒙塔尼奥",
+    "aliases": [
+        "Greby Rioja",
+        "Greby Rioja Montaño",
+        "Greby Uriel Rioja",
+        "Greby Rioja Montano",
+    ],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://www.umss.edu.bo/vicerrectorado/",
+            "source": "UMSS官网Vicerrectorado页（副校长办公室官方页面，载其姓名与2024-2028任期）",
+        },
+        {
+            "type": "other",
+            "value": "https://orcid.org/0000-0002-4906-9039",
+            "source": "ORCID公开记录（2021-01注册，姓名Greby Uriel Rioja Montaño）与OpenAlex作者档案A5068319820交叉核实",
+        },
+    ],
+    "current_positions": [
+        "圣西蒙大学副校长",
+    ],
+    "education": [
+        {
+            "institution": "瓦伦西亚理工大学 (Universitat Politècnica de València)",
+            "degree": "doctorate",
+            "field": "文化遗产保护与修复 (Conservación y Restauración de Bienes Culturales)",
+            "start_date": None,
+            "end_date": "2018",
+        }
+    ],
+    "work_experience": [
+        {
+            "organization": "圣西蒙大学 (Universidad Mayor de San Simón)",
+            "org_id": "BO-ACAD-002",
+            "position": "副校长 (Vicerrector)",
+            "start_date": "2024-11",
+            "end_date": None,
+        },
+        {
+            "organization": "圣西蒙大学 (Universidad Mayor de San Simón)",
+            "org_id": "BO-ACAD-002",
+            "position": "人文与教育科学学院院长 (Decano de la Facultad de Humanidades y Ciencias de la Educación)",
+            "start_date": None,
+            "end_date": None,
+        },
+        {
+            "organization": "圣西蒙大学 (Universidad Mayor de San Simón)",
+            "org_id": "BO-ACAD-002",
+            "position": "教育科学专业主任 (Director de la carrera de Ciencias de la Educación)",
+            "start_date": None,
+            "end_date": None,
+        },
+        {
+            "organization": "圣西蒙大学 (Universidad Mayor de San Simón)",
+            "org_id": "BO-ACAD-002",
+            "position": "社会传播专业教师 (Docente de la carrera de Comunicación Social)",
+            "start_date": None,
+            "end_date": None,
+        },
+    ],
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000310",
+            "person_name": "博里斯·马塞洛·卡兰查·纳维亚 (Boris Marcelo Calancha Navia)",
+            "relationship_type": "colleague",
+            "description": "2024年UMSS大学选举「Proyecto X」同榜搭档：Calancha 当选校长、Rioja 当选副校长，第二轮（2024-11-22）以53.2%对46.7%击败 Alianza Universitaria；两人于2024-11-28同日就职，任期2024-2028。按大学章程，副校长在校长临时缺位时代行其职。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/calancha-rioja-inician-gestion-rectorado-vicerrectorado-2028/20241129000021961445.html",
+        },
+        {
+            "person_id": None,
+            "person_name": "胡安·特拉萨斯 (Juan Terrazas)",
+            "relationship_type": "political_rival",
+            "description": "2024年UMSS校长选举中「Alianza Universitaria」（大学联盟）阵营的校长候选人；11-22第二轮以46.7%得票败于 Calancha-Rioja 阵营。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/proyecto-x-alianza-universitaria-van-segunda-vuelta-rectorado-umss/20241113000021960220.html",
+        },
+        {
+            "person_id": None,
+            "person_name": "米格尔·安赫尔·德尔加多 (Miguel Ángel Delgado)",
+            "relationship_type": "political_rival",
+            "description": "2024年UMSS校长选举中「Alianza Universitaria」阵营的副校长候选人，与 Rioja 竞选同一职位；第二轮该阵营获46.7%选票落败。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/proyecto-x-alianza-universitaria-van-segunda-vuelta-rectorado-umss/20241113000021960220.html",
+        },
+        {
+            "person_id": None,
+            "person_name": "希梅纳·萨利纳斯 (Jimena Salinas)",
+            "relationship_type": "colleague",
+            "description": "2022年3月任UMSS人文与教育科学学院学术主任，与时任院长 Greby Rioja 共同出席附属学校 CENDI 的学生选举活动。",
+            "source": "https://www.umss.edu.bo/autoridades-de-la-facultad-de-humanidades-de-la-universidad-mayor-de-san-simon-inauguran-elecciones-de-mesas-directivas-en-el-cendi/",
+        },
+        {
+            "person_id": None,
+            "person_name": "贡纳尔·萨帕塔·苏里塔 (Gunnar Zapata Zurita)",
+            "relationship_type": "colleague",
+            "description": "现任UMSS人文与教育科学学院院长（Ph.D.）；Rioja 曾两度出任该院院长并至今保持教授编制，2026-10 该院与阿根廷 UNJu 人文与社会科学学院签署合作意向书。",
+            "source": "https://noticias.unju.edu.ar/noticia.php?id=4789",
+        },
+    ],
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "grebyrioja",
+            "url": "https://x.com/grebyrioja",
+            "source": "publish.twitter.com oembed 确认账号存在且句柄即「grebyrioja」；Bing 新闻索引曾以「Greby Rioja」为条目标题指向该账号（2016年收录）。姓名与本人高度一致，但受X登录墙限制未能核实账号内容，归属判定为高概率、未做内容级复核",
+        }
+    ],
+    "family_members": [],
+    "political_stances": [
+        {
+            "date": "2024-12-01",
+            "topic": "教师编制化",
+            "stance_content": "宣布将把2025年定为「教师编制化年」（año de la titularización docente），认为此举将保障教育质量；与校长 Calancha 的议程一致，即在2025年完成大规模业务考试与竞聘编制化、2026年召开新的大学生代表大会制定新章程。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/resolver-crisis-titularizar-docentes-son-parte-promesas-umss/20241201000025961618.html",
+        },
+        {
+            "date": "2024-12-01",
+            "topic": "大学科研定位与教育模式改革",
+            "stance_content": "提出「科研将是大学的心脏」：不仅要培养专业人才，更要产生创新，「我们将推动以本地区需求为导向的应用科学研究」；同时批评现行教育模式陈旧、与本地区及世界现实「脱节」，称「学术体系已经落后」。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/resolver-crisis-titularizar-docentes-son-parte-promesas-umss/20241201000025961618.html",
+        },
+        {
+            "date": "2024-12-01",
+            "topic": "反腐、审计与透明治理",
+            "stance_content": "宣布将发布决议废止大学近期签订的全部合同（「这无疑是对我们机构的严重放血」），并对副校长辖下的全部决议进行专项审计以确认合规；承诺使机构管理「更敏捷、高效、透明」，重组行政流程、简化手续、改进决策。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/resolver-crisis-titularizar-docentes-son-parte-promesas-umss/20241201000025961618.html",
+        },
+        {
+            "date": "2024-11-29",
+            "topic": "施政优先事项",
+            "stance_content": "就职时表示大学将开启新航向，首要任务之一是更新与制定新的教育计划：「工作量很大，但这是我们要做的第一批事情。2025年，我们将宣布教师编制化年」。",
+            "source": "https://www.opinion.com.bo/articulo/cochabamba/calancha-rioja-inician-gestion-rectorado-vicerrectorado-2028/20241129000021961445.html",
+        },
+    ],
+    "major_achievements": [
+        {
+            "date": "2024-11-22",
+            "achievement": "作为「Proyecto X」阵营副校长候选人，在UMSS校长选举第二轮投票中以53.2%的得票率（对 Alianza Universitaria 的46.7%）当选副校长，任期2024-2028。",
+            "organization": "圣西蒙大学 (Universidad Mayor de San Simón)",
+        },
+        {
+            "date": "2024-11-28",
+            "achievement": "正式就任副校长（佩戴绶带并签署就职文书；12月9日在经济科学学院「Ramiro Pérez Llanos」礼堂举行庄严就职典礼），执掌UMSS学术事务；提出任期三大支柱：教师编制化、应用科研、课程创新。",
+            "organization": "圣西蒙大学 (Universidad Mayor de San Simón)",
+        },
+    ],
+    "biography_summary": "格雷比·乌里埃尔·里奥哈·蒙塔尼奥（Greby Uriel Rioja Montaño）是玻利维亚科恰班巴圣西蒙大学（UMSS）现任副校长，任期2024-2028。他拥有西班牙瓦伦西亚理工大学博士学位（2018年提交博士论文，研究安第斯土著书写系统与文化遗产保护），长期在UMSS担任正教授（docente titular）与研究人员，专攻文化财产保护与修复及高等教育创新，并持续发表关于安第斯古文字的论文（2021年、2025年）。曾任教育科学专业主任、社会传播专业教师，并两度出任人文与教育科学学院院长（2022年3月在任佐证）。2024年11月，他作为「Proyecto X」阵营搭档与校长候选人卡兰查联袂参选，第二轮以53.2%得票当选副校长，11月28日就职，12月9日举行正式就职典礼。主管学术的他就任后力推「教师编制化年」（2025）、应用科研、课程与教学现代化、国际化合作，并宣布废止前任时期合同、开展副校长辖域全面审计。无公开出生日期、出生地及家庭信息。",
+    "profile": {
+        "source_url": "https://www.umss.edu.bo/wp-content/uploads/2026/06/GrevyRioja_boceto.webp",
+        "local_path": "photos/BO-PERSON-000311.webp",
+    },
+    "name_zh_note": "西语媒体与中文媒体均无既有中文译名；「格雷比·里奥哈·蒙塔尼奥」为本数据集在组织阶段（BO-PERSON-000821，_name_index.json）已建立的音译，且 BO-PERSON-000310 档案人物关系中也使用同一译名，故沿用以保持数据集内部一致。",
+    "birth_date_note": "UMSS官网、Opinión、Los Tiempos/eju.tv 等来源均未公开其出生日期与出生地。",
+    "position_note": "UMSS官网Vicerrectorado页载「Nuestro Vicerrector Greby Uriel Rioja Montaño, Vicerrector de la UMSS (Gestión 2024-2028)」；2024-11-22第二轮当选（53.2%），2024-11-28正式就职（Opinión 2024-11-29「ayer posesionados」及2024-12-01「El 28 de noviembre, ambos fueron posesionados」），2024-12-09举行庄严就职典礼（UMSS官网），故 start_date 记为 2024-11。",
+    "education_note": "博士学位由UMSS官网Vicerrectorado页「Greby Uriel Rioja, Ph.D.」及UMSS 2022-03-28新闻「PhD. Greby Rioja」双重印证；具体学位机构经Crossref（DOI 10.4995/thesis/10251/114023，type=dissertation，publisher=Universitat Politecnica de Valencia）与OpenAlex（2018）核实：其博士论文《Sistemas escriturarios indígenas en torno a los catecismos pictográficos y signográficos aimaras y quechuas en cuero y papel. Análisis histórico, iconográfico, estado de conservación y puesta en valor》存于瓦伦西亚理工大学RiUNet知识库，论文主题（历史-图像志分析、保存状态与价值提升）与UMSS官网所述其专攻「Conservación y Restauración de Bienes Culturales」一致；2018为论文库存储/OpenAlex著录年份，精确答辩日期未核实（RiUNet页面被Anubis反爬拦截）。另据eju.tv（转Los Tiempos）：其「修读过多门研究生课程（cursos de posgrado）」，因院校归属未明示，未单列条目。",
+    "work_note": "副院长职务前的校内履历（教育科学专业主任、两度出任人文学院院长、社会传播专业教师）来源为eju.tv 2024-11-24（转Los Tiempos，记者Melvy Ruiz）；其中「时任人文与教育科学学院院长」另经UMSS官网2022-03-28新闻独立印证（「El Decano, Greby Rioja」），各职务具体起止年份未公开，故 start/end 留空。UMSS官网Vicerrectorado页另载其为「docente titular e investigador」，学术方向为文化遗产保护修复与高等教育创新。",
+    "social_accounts_note": "已按清单扫描六个平台：①X(Twitter)：x.com/grebyrioja 经oembed确认存在、句柄与姓名一致、Bing新闻2016年索引佐证，收录（未做内容级复核）；②YouTube：站内搜索「Greby Rioja」无任何视频/频道结果；③Facebook、④Instagram、⑤TikTok、⑥LinkedIn：直接访问分别遭遇登录墙(400)、反爬空白页、泛化页与999拒绝，无法核实是否存在本人实名账号。UMSS机构账号（Facebook「UmssBolOficial」等）为机构账号不计入。",
+    "collection_meta": {
+        "collection_date": "2026-10-27",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media",
+            "other"
+        ],
+        "notes": "数据来源：①UMSS官网Vicerrectorado页（姓名全称、Ph.D.、docente titular、研究方向、2024-2028任期、施政支柱与原话）；②UMSS官网2024-12-09庄严就职典礼新闻（副手身份、典礼细节）；③UMSS官网2022-03-28 FHCE CENDI新闻（时任院长佐证）；④Opinión 2024-11-29/12-01/11-17/11-13（全名、53.2%对46.7%、11-28就职、11-11首轮未过半、对手阵营、施政原话与反腐承诺）；⑤eju.tv 2024-11-24转Los Tiempos（此前校内履历与学术背景）；⑥OpenAlex作者档案A5068319820+ORCID 0000-0002-4906-9039+Crossref博士论文DOI（学位机构与研究著述）。检索过程：WebSearch与web-reader MCP配额耗尽，Bing/DDG/Brave/Ecosia/SearXNG/Mojeek均被反爬拦截，改用Google News RSS（西语，gl=BO）+发布站sitemap（opinion.com.bo 2024年11-12月归档）+站内WP REST API直取原文。⚠️ID去重提示：本库存在同人双ID——BO-PERSON-000311（本次建档）与BO-PERSON-000821（组织阶段已建索引并曾被BO-PERSON-000310的人物关系引用），两者指向同一人，建议主会话合并或保留000311为主档。存疑项：出生日期/出生地/家庭成员未公开留空；X账号内容未复核；博士答辩精确日期未核实。重要事实（当选、就职、学历、履历、立场）均有≥2独立来源或官方+媒体交叉印证。completeness_score=69（<85）为客观信息上限所致：出生日期、出生地、家庭成员、Wikidata条目经多渠道检索确认不存在公开数据，education因仅能核实1个学位机构、social_accounts仅1个可核实账号而未达容量上限；其余可核实字段均已填写。",
+        "quotes": [
+            {
+                "title": "UMSS Vicerrectorado - Nuestro Vicerrector Greby Uriel Rioja Montaño (Gestión 2024-2028)",
+                "url": "https://www.umss.edu.bo/vicerrectorado/"
+            },
+            {
+                "title": "SOLEMNE CEREMONIA DE POSESIÓN: Boris Calancha y Greby Rioja asumen como Rector y Vicerrector de la UMSS (2024-12-09)",
+                "url": "https://www.umss.edu.bo/solemne-ceremonia-de-posesion-de-las-nuevas-autoridades-boris-calancha-y-greby-rioja-asumen-como-rector-y-vicerrector-de-la-umss/"
+            },
+            {
+                "title": "Calancha y Rioja inician gestión en Rectorado y Vicerrectorado hasta 2028 (Opinión, 2024-11-29)",
+                "url": "https://www.opinion.com.bo/articulo/cochabamba/calancha-rioja-inician-gestion-rectorado-vicerrectorado-2028/20241129000021961445.html"
+            },
+            {
+                "title": "Resolver crisis y titularizar docentes son parte de promesas en la UMSS (Opinión, 2024-12-01)",
+                "url": "https://www.opinion.com.bo/articulo/cochabamba/resolver-crisis-titularizar-docentes-son-parte-promesas-umss/20241201000025961618.html"
+            },
+            {
+                "title": "10 datos sobre la renovación de autoridades y desafíos de la UMSS (Opinión, 2024-11-17)",
+                "url": "https://www.opinion.com.bo/articulo/cochabamba/10-datos-renovacion-autoridades-desafios-umss/20241117000041960552.html"
+            },
+            {
+                "title": "Proyecto X y Alianza Universitaria van a segunda vuelta por el Rectorado de la UMSS (Opinión, 2024-11-13)",
+                "url": "https://www.opinion.com.bo/articulo/cochabamba/proyecto-x-alianza-universitaria-van-segunda-vuelta-rectorado-umss/20241113000021960220.html"
+            },
+            {
+                "title": "Nuevas autoridades de la UMSS asumen con reto de obtener fondos para sueldos (eju.tv, fuente Los Tiempos, 2024-11-24)",
+                "url": "https://eju.tv/2024/11/nuevas-autoridades-de-la-umss-asumen-con-reto-de-obtener-fondos-para-sueldos/"
+            },
+            {
+                "title": "AUTORIDADES DE LA FACULTAD DE HUMANIDADES ... CENDI (UMSS, 2022-03-28, 时任院长Greby Rioja)",
+                "url": "https://www.umss.edu.bo/autoridades-de-la-facultad-de-humanidades-de-la-universidad-mayor-de-san-simon-inauguran-elecciones-de-mesas-directivas-en-el-cendi/"
+            },
+            {
+                "title": "OpenAlex author A5068319820 - Greby Uriel Rioja Montaño (ORCID 0000-0002-4906-9039)",
+                "url": "https://openalex.org/A5068319820"
+            },
+            {
+                "title": "Crossref dissertation DOI 10.4995/thesis/10251/114023 - Universitat Politècnica de València",
+                "url": "https://doi.org/10.4995/thesis/10251/114023"
+            }
+        ],
+        "completeness_score": 0
+    }
+}
+
+OUT = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/persons/BO-PERSON-000311.json"
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(PROFILE, f, ensure_ascii=False, indent=2)
+print("written", OUT)

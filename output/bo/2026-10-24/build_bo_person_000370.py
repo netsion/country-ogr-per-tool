@@ -1,0 +1,206 @@
+# -*- coding: utf-8 -*-
+"""Build BO-PERSON-000370 (José María Reyes García) person profile JSON."""
+import json
+import os
+
+profile = {
+    "person_id": "BO-PERSON-000370",
+    "wikidata_qid": None,
+    "name": "José María Reyes García",
+    "name_en": "Jose Maria Reyes Garcia",
+    "name_zh": None,
+    "aliases": ["José María Reyes", "Jose Maria Reyes Garcia"],
+    "nationality": "BO",
+    "nationality_note": "任务参数登记国籍为玻利维亚（BO）；但两个独立来源证实其为西班牙籍：El Tercerojo（2026-02）报道「Español」，Unifranz 官网（2022-10）介绍「José María Reyes García de nacionalidad española」。其长期在玻利维亚工作，LinkedIn 档案所在地为圣克鲁斯德拉谢拉。",
+    "gender": "male",
+    "birth_date": None,
+    "birth_place": None,
+    "birth_date_note": "公开来源未查到出生日期。",
+    "contacts": [
+        {
+            "type": "website",
+            "value": "https://www.lostiempos.com",
+            "source": "其任董事会主席的《时报》官网（机构级公开联系方式，非个人联系方式）",
+        },
+        {
+            "type": "email",
+            "value": "lostiempos@lostiempos-bolivia.com",
+            "source": "《时报》官网 Staff 页 masthead 公布的报社公共邮箱（机构级，非个人邮箱）",
+        },
+    ],
+    "current_positions": [
+        "《时报》报社董事会主席",
+        "圣克鲁斯丽笙酒店总经理",
+    ],
+    "work_experience": [
+        {
+            "organization": "《时报》报社 (Los Tiempos)",
+            "org_id": "BO-MEDIA-002",
+            "position": "董事会主席",
+            "start_date": "2023-11-28",
+            "end_date": None,
+            "is_current": "true",
+            "description": "2023年11月，Grupo Empresarial Valdivia 收购《时报》母公司 Editorial Canelas S.A. 全部股份后组建新管理委员会，José María Reyes García 出任董事会主席（presidente del directorio）。同日与 Ghilda Rosario Veizaga Moldes、Giovanna Lilian Paz Soldán Ramos 一道被任命为董事会成员（El Tercerojo 报道）。《时报》1943年9月16日由 Demetrio Canelas 创刊于科恰班巴，系玻利维亚主要大报，为美洲报业协会（SIP）和玻利维亚全国报业协会（ANP）成员。",
+            "source": "https://www.lostiempos.com/staff",
+            "start_date_note": "2023-11-28 新管理委员会接管（Los Tiempos 创刊82周年社史报道与 El Tercerojo 报道一致）。",
+        },
+        {
+            "organization": "圣克鲁斯丽笙酒店 (Radisson Hotel Santa Cruz)",
+            "org_id": None,
+            "position": "总经理",
+            "start_date": "2019",
+            "end_date": None,
+            "is_current": "true",
+            "description": "西班牙籍酒店业者，2019年起出任玻利维亚圣克鲁斯丽笙酒店总经理（酒店由 Nulife Hoteles 运营）。2020年1月曾代表酒店方公开说明股权结构（约95%股份由酒店共有人持有），并澄清胡安·瓦尔迪维亚（Juan Valdivia）收购的是运营公司 Nulife 50% 股份（约200万美元）而非酒店本身。其 LinkedIn 档案现仍显示为 Radisson Hotel Group Americas 总经理。",
+            "source": "https://eju.tv/2020/01/radisson-admite-deuda-de-bs-45-millones-con-sus-proveedores",
+            "start_date_note": "2019年出任（El Deber 2019年报道《Radisson cambia administración y anuncia reingeniería》，该页反爬无法直取全文）；eju.tv 2020年1月报道确认其时已在任。Unifranz 官网（2022-10）另证实其为「Radisson Golf&Spa Santa Cruz de la Sierra」总经理。",
+        },
+        {
+            "organization": "卡内拉斯报业公司 (Editorial Canelas S.A.)",
+            "org_id": None,
+            "position": "总经理",
+            "start_date": "2023",
+            "end_date": None,
+            "is_current": "true",
+            "description": "《时报》母公司 Editorial Canelas S.A. 的公司总经理（与报纸编辑端总经理 Miguel Díaz Cossío 为不同职务）。《时报》Anuario 2023（2023年11月新管理层接管后出版） masthead 名录列明其为「Presidente del Directorio y Gerente General de Editorial Canelas S.A.」，即同时担任母公司董事会主席与总经理。",
+            "source": "https://www.lostiempos.com/sites/default/files/edicion_online/anuario_2023_web_0.pdf",
+            "start_date_note": "Anuario 2023 已列其任此职；推定自2023年11月新管理层接管起任，故记为2023年。",
+        },
+    ],
+    "education": [
+        {
+            "institution": "马德里康普顿斯大学 (Universidad Complutense de Madrid)",
+            "field": None,
+            "country": "ES",
+            "description": "LinkedIn 档案列出的教育经历；具体学位、专业与就读年份未公开。其自述为专注旅游与酒店管理、新项目开发与落地的酒店业专业人士。",
+            "source": "https://bo.linkedin.com/in/jose-maria-reyes-garcia-668ab129",
+        }
+    ],
+    "person_relationships": [
+        {
+            "person_id": None,
+            "person_name": "爱德华多·瓦尔迪维亚·桑布拉纳 (Eduardo Valdivia Zambrana)",
+            "relationship_type": "superior",
+            "description": "玻利维亚企业集团 Grupo Empresarial Valdivia 领导人、《时报》现任所有者（propietario del diario）。2025年4月劳工纠纷报道中与 Reyes García 同被点名为报社管理层的拥有者；其家族2023年11月收购 Editorial Canelas S.A. 全部股份。",
+            "source": "https://brujuladigital.net/sociedad/2025/04/14/trabajadores-del-periodico-los-tiempos-denuncian-precarizacion-laboral-y-exigen-intervencion-urgente-45315",
+        },
+        {
+            "person_id": None,
+            "person_name": "胡安·瓦尔迪维亚·阿尔曼萨 (Juan Valdivia Almanza)",
+            "relationship_type": "associate",
+            "description": "玻利维亚前众议员（2006-2010）、爱德华多·瓦尔迪维亚之父，企业资本与丽笙酒店体系关联人物（2020年收购丽笙运营方 Nulife 50% 股份）。其家族为 Reyes García 所任职的《时报》与丽笙酒店提供资本背景。",
+            "source": "https://eltercerojobolivia.com.bo/cochabamba-aprehenden-a-representante-legal-del-periodico-los-tiempos-por-deudas-laborales",
+        },
+        {
+            "person_id": None,
+            "person_name": "希尔达·罗萨里奥·贝萨加·莫尔德斯 (Ghilda Rosario Veizaga Moldes)",
+            "relationship_type": "colleague",
+            "description": "《时报》母公司 Editorial Canelas S.A. 法定代表。2026年2月5日因报社拖欠13个月工资、养老金与福利被科恰班巴劳动法院下令拘捕，送圣塞巴斯蒂安女子监狱；同案对 Reyes García 亦发出拘捕令。",
+            "source": "https://eltercerojobolivia.com.bo/cochabamba-aprehenden-a-representante-legal-del-periodico-los-tiempos-por-deudas-laborales",
+        },
+        {
+            "person_id": None,
+            "person_name": "乔万娜·莉莲·帕斯·索尔丹·拉莫斯 (Giovanna Lilian Paz Soldán Ramos)",
+            "relationship_type": "colleague",
+            "description": "2023年11月28日与 Reyes García 同日被任命为 Editorial Canelas S.A.（Los Tiempos 母公司）董事会成员。",
+            "source": "https://eltercerojobolivia.com.bo/cochabamba-aprehenden-a-representante-legal-del-periodico-los-tiempos-por-deudas-laborales",
+        },
+        {
+            "person_id": None,
+            "person_name": "米格尔·迪亚斯·科西奥 (Miguel Díaz Cossío)",
+            "relationship_type": "colleague",
+            "description": "《时报》总经理（gerente general），与 Reyes García（董事会主席）、Eduardo Valdivia Zambrana（所有者）同属2025年4月报社员工劳工权益抗议所指的管理层。",
+            "source": "https://brujuladigital.net/sociedad/2025/04/14/trabajadores-del-periodico-los-tiempos-denuncian-precarizacion-laboral-y-exigen-intervencion-urgente-45315",
+        },
+    ],
+    "social_accounts": [
+        {
+            "platform": "linkedin",
+            "account_name": "Jose Maria Reyes Garcia",
+            "url": "https://bo.linkedin.com/in/jose-maria-reyes-garcia-668ab129",
+            "source": "LinkedIn 公开档案（玻利维亚站），自述 Radisson Hotel Group Americas 总经理、酒店业专业人士",
+        }
+    ],
+    "family_members": [],
+    "political_stances": [],
+    "major_achievements": [
+        {
+            "date": "2023-11-28",
+            "achievement": "在 Grupo Empresarial Valdivia 收购玻利维亚科恰班巴主流大报《时报》（1943年创刊）母公司 Editorial Canelas S.A. 全部股份后，出任该报董事会主席，领导新管理委员会延续报社运营。",
+            "organization": "《时报》报社 (Los Tiempos)",
+        },
+        {
+            "date": "2019",
+            "achievement": "出任圣克鲁斯丽笙酒店总经理，主导酒店管理权变更后的运营重组，并多次代表酒店方公开回应股权、债务等敏感问题。",
+            "organization": "圣克鲁斯丽笙酒店 (Radisson Hotel Santa Cruz)",
+        },
+        {
+            "date": "2024",
+            "achievement": "任内推动《时报》以 Los Tiempos、La Prensa 与 El Alteño 组成的 Grupo Multimedia 名义重新加入美洲报业协会（SIP），并参加在阿根廷科尔多瓦举行的 SIP 第80届全体大会，恢复该报的国际报业组织成员地位。",
+            "organization": "《时报》报社 (Los Tiempos)",
+        },
+    ],
+    "biography_summary": "何塞·玛丽亚·雷耶斯·加西亚（José María Reyes García）是长期在玻利维亚工作的西班牙籍酒店业与媒体企业管理者。自2019年起担任圣克鲁斯丽笙酒店（Radisson Hotel Santa Cruz，由 Nulife Hoteles 运营）总经理，期间代表酒店方公开说明股权结构及与瓦尔迪维亚（Valdivia）家族资本的关联。2023年11月，Grupo Empresarial Valdivia 收购玻利维亚科恰班巴主流大报《时报》（Los Tiempos，1943年创刊）母公司 Editorial Canelas S.A. 的全部股份；同年11月28日新管理委员会接管，他被任命为董事会成员并出任董事会主席（presidente del directorio），此职务见于《时报》官网 Staff 名录。任内报社爆发严重劳资纠纷：2025年4月员工公开抗议欠薪与社保断缴（自2024年9月起未缴养老金与 Cordes 医保）；2026年2月，科恰班巴劳动法院因拖欠13个月工资等债务拘捕报社法定代表，并向雷耶斯·加西亚发出拘捕令，报道称其时居于由瓦尔迪维亚家族管理的拉巴斯丽笙酒店内。其 LinkedIn 档案教育背景为马德里康普顿斯大学。",
+    "profile": None,
+    "collection_meta": {
+        "collection_date": "2026-10-26",
+        "phase": "phase4_person_profile",
+        "data_sources": [
+            "official_website",
+            "news_search",
+            "web_search",
+            "social_media",
+            "annual_report",
+            "other",
+        ],
+        "completeness_score": 56,
+        "notes": "关键结论与来源：(1) 董事会主席身份由三个独立来源确认——《时报》官网 Staff 页「Presidente del Directorio José María Reyes García」、该报2025-09-21创刊82周年报道「La nueva administración integrada por José María Reyes García, como presidente del directorio」、Brújula Digital（2025-04-14）；《时报》Anuario 2023（PDF 直读）另列其为「Presidente del Directorio y Gerente General de Editorial Canelas S.A.」。(2) 与总编辑/社长已区分：报社编辑端总经理（gerente general）为 Miguel Díaz Cossío，主编（jefa de redacción）为 Katiuska Vásquez；Reyes García 任董事会主席并兼任母公司 Editorial Canelas S.A. 总经理。(3) 同名消歧：玻利维亚同名者多，本画像将其与圣克鲁斯丽笙酒店西班牙籍总经理认定为同一人，依据：El Tercerojo（2026-02）称 Los Tiempos 董事 Reyes García 为西班牙籍、被发出拘捕令且居于瓦尔迪维亚家族管理的拉巴斯丽笙酒店；eju.tv（2020-01）与 Unifranz 官网（2022-10）分别证实丽笙圣克鲁斯总经理 José María (Reyes) García 身份及其与瓦尔迪维亚资本关联；姓名全名与 LinkedIn 档案一致。此合并判断置信度高但非文件级铁证，已在 work_experience 备注标明。(4) 国籍：El Tercerojo 与 Unifranz 两个独立来源均称西班牙籍；任务参数登记 BO，已在 nationality_note 说明。(5) 中文名：检索维基百科/华文媒体未发现标准译名，name_zh 置 null，biography_summary 中采用音译仅作行文之用。(6) 出生日期、出生地、家庭成员、政治立场、个人联系方式均未查到，相应字段留空或置 null；contacts 仅收录机构级公开联系方式并已标注。(7) 社媒六项扫描：仅 LinkedIn 命中；Facebook/X/Instagram/TikTok/YouTube 无可确认账号。(8) 共精读9个独立来源全文（Los Tiempos 官网4项含 Anuario 2023 PDF、Brújula Digital、El Tercerojo、eju.tv、Unifranz 官网、LinkedIn）。(9) completeness_score 约56（<85）：缺失项为出生日期/出生地（scalar 7项仅4项有值）、家庭成员、政治立场、Wikidata 条目与人像照片，属公开信息客观稀缺所致，非收集疏漏；若仅以可查证公开信息论已接近该人物画像上限。",
+        "quotes": [
+            {
+                "title": "Staff | Los Tiempos（官网编辑名录：Presidente del Directorio José María Reyes García）",
+                "url": "https://www.lostiempos.com/staff",
+            },
+            {
+                "title": "Los Tiempos, 82 años de innovaciones en el periodismo | Los Tiempos（2025-09-21，确认2023-11-28新管理委员会及其任董事会主席）",
+                "url": "https://www.lostiempos.com/actualidad/cochabamba/20250921/tiempos-82-anos-innovaciones-periodismo",
+            },
+            {
+                "title": "Grupo Valdivia compra el diario Los Tiempos | Los Tiempos（2023-11-29，收购100% Editorial Canelas S.A. 股份）",
+                "url": "https://www.lostiempos.com/actualidad/pais/20231129/grupo-valdivia-compra-diario-tiempos",
+            },
+            {
+                "title": "Trabajadores del periódico Los Tiempos denuncian precarización laboral y exigen intervención urgente | Brújula Digital（2025-04-14，三人管理层分工）",
+                "url": "https://brujuladigital.net/sociedad/2025/04/14/trabajadores-del-periodico-los-tiempos-denuncian-precarizacion-laboral-y-exigen-intervencion-urgente-45315",
+            },
+            {
+                "title": "Cochabamba: Aprehenden a representante legal del periódico Los Tiempos por deudas laborales | El Tercerojo Bolivia（2026-02，拘捕令与西班牙籍表述）",
+                "url": "https://eltercerojobolivia.com.bo/cochabamba-aprehenden-a-representante-legal-del-periodico-los-tiempos-por-deudas-laborales",
+            },
+            {
+                "title": "Radisson admite deuda de Bs 4,5 millones con sus proveedores | eju.tv（2020-01，丽笙圣克鲁斯总经理身份）",
+                "url": "https://eju.tv/2020/01/radisson-admite-deuda-de-bs-45-millones-con-sus-proveedores",
+            },
+            {
+                "title": "Jose Maria Reyes Garcia - General Manager en Radisson Hotel Group Americas | LinkedIn",
+                "url": "https://bo.linkedin.com/in/jose-maria-reyes-garcia-668ab129",
+            },
+            {
+                "title": "Anuario 2023 | Los Tiempos（PDF 第3页 masthead：Presidente del Directorio y Gerente General de Editorial Canelas S.A.）",
+                "url": "https://www.lostiempos.com/sites/default/files/edicion_online/anuario_2023_web_0.pdf",
+            },
+            {
+                "title": "Bolivia será sede del Congreso Internacional de Liderazgo y Coaching | Unifranz（2022-10，「de nacionalidad española…Gerente General de Radisson Golf&Spa Santa Cruz de la Sierra」）",
+                "url": "https://unifranz.edu.bo/blog/bolivia-sera-sede-del-congreso-internacional-de-liderazgo-y-coaching-para-promover-lideres-con-cultura-de-innovacion",
+            },
+        ],
+    },
+}
+
+out_path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "persons", "BO-PERSON-000370.json"
+)
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("written:", out_path)
+print("size:", os.path.getsize(out_path))

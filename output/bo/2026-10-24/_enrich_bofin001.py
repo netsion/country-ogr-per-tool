@@ -1,0 +1,289 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-FIN-001 (Banco Central de Bolivia) - phase3_enriched."""
+import json
+
+PATH = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-FIN-001.json"
+
+BCB_SITE = "https://www.bcb.gob.bo/"
+
+with open(PATH, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_original"] = "Banco Central de Bolivia"
+data["basic_info"]["name_en"] = "Central Bank of Bolivia"
+data["basic_info"]["aliases"] = [
+    "Bank of the Bolivian Nation",
+    "Bolivian Central Bank",
+    "BCB",
+    "Banco Central de la Nación Boliviana（1928-1929年旧称）",
+    "Banco de la Nación Boliviana（1911-1928年前身机构）",
+]
+data["basic_info"]["org_subtype"] = "regulatory_agency"
+data["basic_info"]["website"] = "https://www.bcb.gob.bo"
+
+data["social_accounts"] = [
+    {"platform": "facebook", "account_name": "Banco Central de Bolivia (@BancoCentralBO)",
+     "url": "https://www.facebook.com/BancoCentralBO/", "source": BCB_SITE},
+    {"platform": "twitter_x", "account_name": "@BancoCentralBO (X/Twitter)",
+     "url": "https://x.com/BancoCentralBO", "source": BCB_SITE},
+    {"platform": "instagram", "account_name": "@bancocentralbo",
+     "url": "https://www.instagram.com/bancocentralbo/", "source": BCB_SITE},
+    {"platform": "linkedin", "account_name": "Banco Central de Bolivia",
+     "url": "https://www.linkedin.com/company/bancocentralbo", "source": BCB_SITE},
+    {"platform": "tiktok", "account_name": "@bancocentralbo",
+     "url": "https://www.tiktok.com/@bancocentralbo", "source": BCB_SITE},
+    {"platform": "youtube", "account_name": "BancoCentralBO",
+     "url": "https://www.youtube.com/c/BancoCentralBO", "source": BCB_SITE},
+    {"platform": "other", "account_name": "Canal oficial del BCB (WhatsApp Channel)",
+     "url": "https://whatsapp.com/channel/0029Vb6BQ3m4yltUtDtIO61l", "source": BCB_SITE},
+]
+
+data["digital_assets"] = [
+    {"name": "Estadísticas Semanales / Panel Interactivo（周度统计交互面板）",
+     "url": "https://www.bcb.gob.bo/bcb_estadisticas/index.php",
+     "description": "BCB官方统计数据库交互面板，发布货币、汇率、国际储备、货币总量等周度统计数据序列；2025年12月起恢复停发近三年的周度统计，2026年3月起新增数千个公开数据序列。",
+     "source": BCB_SITE},
+    {"name": "Tipo de Cambio Oficial del Dólar Estadounidense（美元官方汇率及时间序列/微数据）",
+     "url": "https://www.bcb.gob.bo/?q=content/tipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense-serie-de-tiempo",
+     "description": "美元官方汇率（TCO）每日发布页及其历史时间序列微数据接口，为弹性汇率制下汇率形成机制的官方数据源（2026年10月下旬TCO约11.88玻利维亚诺/美元）。",
+     "source": BCB_SITE},
+    {"name": "Datos estadísticos de la UFV（住房指数化单位UFV统计数据）",
+     "url": "https://www.bcb.gob.bo/?q=servicios/ufv/datos_estadisticos",
+     "description": "住房指数化单位（Unidad de Fomento de Vivienda, UFV）官方数值与历史数据查询服务。",
+     "source": BCB_SITE},
+    {"name": "Memoria Institucional（机构年度报告）",
+     "url": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+     "description": "BCB历年机构年度报告（Memoria Institucional）在线发布库。",
+     "source": BCB_SITE},
+    {"name": "Reporte de Inflación y Política Monetaria (RIPoM)（通胀与货币政策报告）",
+     "url": "https://www.bcb.gob.bo/?q=content/reporte-de-inflaci%C3%B3n-y-pol%C3%ADtica-monetaria",
+     "description": "BCB季度性通胀与货币政策报告，2026年8月17日首次发布，为透明化货币政策的旗舰出版物；配套出版物还包括货币政策会议纪要（Minuta）与《2026年货币计划》。",
+     "source": BCB_SITE},
+    {"name": "Reporte Estadístico de Sistema de Pagos（支付系统统计报告）",
+     "url": "https://www.bcb.gob.bo/?q=reporte-estadistico",
+     "description": "BCB支付体系统计报告，另提供公开市场操作日报、外债统计、国际收支报告等系列出版物。",
+     "source": BCB_SITE},
+]
+
+data["key_people"] = [
+    {"person_id": None,
+     "name": "戴维·埃斯皮诺萨·托里科（David Iván Espinoza Torrico）",
+     "title": "行长（Presidente del BCB，第58任）",
+     "title_description": "央行最高负责人暨董事会主席，主持货币政策、汇率政策与国际储备管理",
+     "description": "玻利维亚经济学家，1986年毕业于圣安德烈斯大学（UMSA）经济学专业，后获玻利维亚天主教大学圣巴勃罗分校（UCB San Pablo）企业金融硕士学位。1987年进入BCB，拥有38年央行任职经历，曾任国际业务司司长，并在Guillermo Aponte任内担任总管理处负责人。2025-11-13由总统罗德里戈·帕斯在克马多宫宣誓就任第58任行长（临时/interino身份），同时任命4名新董事；上任后主导2025年12月外汇市场统一和2026年6月弹性汇率制转型，主张财政纪律以重建市场信心。（来源：西语维基百科；La Razón 2025-11-13；Noticias Fides 2025-11-13）"},
+    {"person_id": None,
+     "name": "Walter Orellana Rocha",
+     "title": "董事（Director del Directorio del BCB）",
+     "title_description": "央行董事会成员",
+     "description": "2025-11-13与新行长同时获帕斯总统任命的BCB董事会成员。（来源：La Razón 2025-11-13）"},
+    {"person_id": None,
+     "name": "Álvaro Romero",
+     "title": "董事（Director del Directorio del BCB）",
+     "title_description": "央行董事会成员",
+     "description": "2025-11-13与新行长同时获帕斯总统任命的BCB董事会成员。（来源：La Razón 2025-11-13）"},
+    {"person_id": None,
+     "name": "Denis Alarcón",
+     "title": "董事（Director del Directorio del BCB）",
+     "title_description": "央行董事会成员",
+     "description": "2025-11-13与新行长同时获帕斯总统任命的BCB董事会成员。（来源：La Razón 2025-11-13）"},
+    {"person_id": None,
+     "name": "Claudia Pacheco",
+     "title": "董事（Director del Directorio del BCB）",
+     "title_description": "央行董事会成员",
+     "description": "2025-11-13与新行长同时获帕斯总统任命的BCB董事会成员。（来源：La Razón 2025-11-13）"},
+]
+
+data["departments"] = [
+    {"name": "Directorio（董事会）", "dept_id": None,
+     "head": "David Iván Espinoza Torrico（董事会主席）",
+     "description": "最高治理机构，由行长（任董事会主席）及董事组成，负责货币政策与汇率政策最高决策；2025-11-13由帕斯政府整体重组。", "parent_dept_id": None},
+    {"name": "Presidencia（行长）", "dept_id": None, "head": "David Iván Espinoza Torrico",
+     "description": "行长为银行法定代表人，钞票须由行长与总经理联名签署；领导货币政策、汇率政策的制定与执行。", "parent_dept_id": None},
+    {"name": "Gerencia General（总管理处）", "dept_id": None, "head": None,
+     "description": "负责全行日常运营管理，统辖货币业务、国际业务、金融机构、国库、法律、行政财务、人力资源、信息系统等各业务司局。", "parent_dept_id": None},
+    {"name": "Gerencia de Auditoría Interna（内部审计司）", "dept_id": None, "head": None,
+     "description": "直属董事会的内部审计机构，下设实质业务审计子司与行政业务审计子司。", "parent_dept_id": None},
+    {"name": "Asesoría de Política Económica（经济政策顾问处）", "dept_id": None, "head": None,
+     "description": "经济政策智囊机构，下设货币政策/汇率与经济研究子司、经济统计子司，负责货币计划编制、经济模型与景气分析、对外部门与国际收支统计；发布通胀与货币政策报告（RIPoM）。", "parent_dept_id": None},
+    {"name": "Gerencia de Operaciones Monetarias（货币业务司）", "dept_id": None, "head": None,
+     "description": "负责公开市场操作（OMA）与公共部门业务，管理法定准备金（encaje legal）相关的流动性调节操作。", "parent_dept_id": None},
+    {"name": "Gerencia de Operaciones Internacionales（国际业务司）", "dept_id": None, "head": None,
+     "description": "负责外汇业务与国际协定执行、国际储备投资管理、外债登记与对外投资谈判。", "parent_dept_id": None},
+    {"name": "Gerencia de Entidades Financieras（金融机构司）", "dept_id": None, "head": None,
+     "description": "负责金融体系分析监测、支付系统与金融服务监管、金融信息归集，配合履行最后贷款人职能。", "parent_dept_id": None},
+    {"name": "Gerencia de Tesorería（国库司）", "dept_id": None, "head": None,
+     "description": "负责货币材料（纸币与硬币）的分析编程与运营管理，含货币发行与回笼的实物操作。", "parent_dept_id": None},
+    {"name": "Gerencia de Asuntos Legales（法律事务司）", "dept_id": None, "head": None,
+     "description": "负责法律咨询、中央银行法与金融规范分析、诉讼与法律风险管理，下设法律事务子司与规范分析子司。", "parent_dept_id": None},
+    {"name": "Gerencia de Administración y Finanzas（行政与财务司）", "dept_id": None, "head": None,
+     "description": "负责会计、采购与合同、资产与服务、文档与图书馆、设备及基础设施维护等行政后勤职能。", "parent_dept_id": None},
+    {"name": "Gerencia de Recursos Humanos（人力资源司）", "dept_id": None, "head": None,
+     "description": "负责人员招聘评估、薪酬与登记、人才发展等人力资源管理。", "parent_dept_id": None},
+    {"name": "Gerencia de Sistemas（信息系统司）", "dept_id": None, "head": None,
+     "description": "负责IT基础设施、信息系统、数据库与通信、软件创新开发与验证、信息安全与业务连续性。", "parent_dept_id": None},
+    {"name": "Subgerencia de Comunicación y Relacionamiento Institucional（传播与机构关系处）", "dept_id": None, "head": None,
+     "description": "负责对内对外传播、媒体关系与机构间协调，直属行长办公室序列。", "parent_dept_id": None},
+]
+
+data["recent_events"] = [
+    {"date": "2025-11-13",
+     "title": "罗德里戈·帕斯政府任命BCB新领导层，David Espinoza Torrico就任第58任行长",
+     "description": "新总统罗德里戈·帕斯在克马多宫宣誓David Iván Espinoza Torrico为BCB行长（临时身份），并任命Walter Orellana Rocha、Álvaro Romero、Denis Alarcón、Claudia Pacheco四名新董事。Espinoza表示央行“不再是小金库”，须以技术贡献应对陷入严重困境的经济。",
+     "impact": "结束MAS时期央行领导层，开启货币政策与汇率政策全面转向，为后续外汇市场统一和弹性汇率改革奠定人事基础",
+     "source": "La Razón: https://larazon.bo/economia-y-empresa/2025/11/13/paz-pereira-posesiona-a-david-espinoza-como-nuevo-presidente-del-bcb/ ; Correo del Sur: https://correodelsur.com/politica/20251113/rodrigo-paz-posesiona-a-nuevas-autoridades-interinas-del-banco-central-de-bolivia.html"},
+    {"date": "2025-12-01",
+     "title": "BCB与经济财政部决定统一外汇市场",
+     "description": "BCB董事会与经济财政部（MEFP）联合决定实施外汇市场统一（unificación del mercado cambiario），终结官方固定汇率（6.96玻利维亚诺/美元）与平行市场长期并存的格局；同期恢复停发近三年的周度统计数据发布，并于12月底建立数据预发布日历（CAD）、以公开市场操作巩固单一货币信号。",
+     "impact": "结束长期钉住汇率制，汇率形成机制启动市场化，是玻利维亚外汇危机处置的标志性转折",
+     "source": "BCB官网新闻时间线: https://www.bcb.gob.bo/"},
+    {"date": "2026-03-23",
+     "title": "BCB首次公开发布《2026年货币计划》并大规模开放统计数据",
+     "description": "2026年3月23日BCB首次公开年度货币计划（Programa Monetario 2026），3月27日向公众开放7,667个关键经济数据序列，4月13日发布首份货币政策会议纪要（Minuta de Política Monetaria），4月20日发布新版住房价格指数（IPV），并接受IMF关于国际流量统计的技术援助。",
+     "impact": "央行决策透明度显著提升，为市场信任修复和IMF等国际融资谈判铺路",
+     "source": "BCB官网新闻时间线: https://www.bcb.gob.bo/"},
+    {"date": "2026-06-29",
+     "title": "弹性汇率制（tipo de cambio flexible）正式生效",
+     "description": "6月26日BCB完成全面退出固定汇率制的制度整合并颁布新《外汇头寸条例》，6月28-29日起弹性汇率制全面实施，美元官方汇率（TCO）改由市场供需决定；至2026年10月下旬TCO约11.88玻利维亚诺/美元。行长Espinoza称过渡“有序且在预期之内”，并预计通胀保持个位数。",
+     "impact": "结束近14年固定汇率时代，玻利维亚诺对美元贬值后进入有序浮动阶段，汇率并轨完成",
+     "source": "El Deber: https://eldeber.com.bo/economia/bcb-establece-partir-lunes-29-junio-entra-vigencia-tipo-cambio-flexible_1782520030 ; La Patria: https://lapatria.bo/dinero-negocios/economia/bcb-defiende-dolar-flexible-descarta-devaluacion/"},
+    {"date": "2026-07-29",
+     "title": "IMF与玻利维亚达成技术层面协议：36个月EFF约19亿美元",
+     "description": "IMF宣布与玻利维亚当局就36个月扩展基金设施（EFF）达成工作人员层面（staff-level）协议，规模约19亿美元（SDR 13.69亿，约合配额570%），尚待IMF管理层与执董会批准；BCB与经济财政部为玻方核心技术团队。",
+     "impact": "为玻利维亚外汇危机提供大规模外部融资预期，支撑国际储备重建与宏观调整计划",
+     "source": "IMF新闻稿PR26/268: https://www.imf.org/es/news/articles/2026/07/29/pr26268-bolivia-imf-reaches-staff-level-agreement-on-an-extended-fund-facility-arrangement ; El País: https://elpais.com/america/2026-07-31/bolivia-cierra-un-acuerdo-con-el-fmi-por-1900-millones-de-dolares-para-afrontar-la-crisis-economica.html"},
+    {"date": "2026-07-30",
+     "title": "BCB颁布《美元买卖条例》，建立弹性汇率下的干预框架",
+     "description": "行长Espinoza宣布《美元买卖条例》（RD 117/2026）生效，授权BCB在TCO出现“过度反应”（sobrerreacción）或市场操纵时进场干预，保障外汇市场自由运行、抑制投机；并强调“我们不捍卫任何特定汇率水平”，同期通过直接操作自金融体系购入美元补充储备。",
+     "impact": "确立弹性汇率制下有管理的干预边界，缓解汇率超调与投机压力",
+     "source": "BCB新闻公报NP15/2026: https://www.bcb.gob.bo/webdocs/files_noticias/NP15-30%20JULIO.pdf ; Opinión: https://www.opinion.com.bo/articulo/pais/bcb-lanza-reglamento-dolar-flexible-intervenir-cuando-haya-sobrerreaccion/20260731083208994106.html"},
+    {"date": "2026-09-25",
+     "title": "BCB设立“扩大货币储备”冲销9月流动性投放",
+     "description": "为吸收9月9日起向金融中介机构出售美元所形成的流动性投放，BCB设立“Reserva Monetaria Ampliada”（扩大货币储备）进行冲销；9月21日发布2026年7月期《金融稳定报告》。",
+     "impact": "稳定货币总量与金融体系流动性，配合汇率市场化与通胀调控",
+     "source": "BCB官网新闻: https://www.bcb.gob.bo/"},
+    {"date": "2026-10-14",
+     "title": "BCB完成2025年三笔黄金远期业务全部履约",
+     "description": "BCB宣布已履行2025年（6月17日起）签订的三笔黄金远期/质押（pignoración）业务的全部义务并结清；2026年1-4月BCB另从国内市场购入黄金2.3吨（约3.35亿美元）以强化储备，一季度黄金持仓价值增加3.298亿美元。",
+     "impact": "清理2025年危机期间形成的黄金质押负担，恢复以黄金为支撑的储备运作空间",
+     "source": "BCB官网新闻: https://www.bcb.gob.bo/ ; BCB黄金储备业务报告: https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20ene-abr%2026.pdf"},
+    {"date": "2026-10-23",
+     "title": "净国际储备回升至39.78亿美元，黄金为最大构成",
+     "description": "据BCB数据，截至2026年10月16日净国际储备（RIN）达39.78亿美元，较上一报告期增加近2亿美元，黄金为最主要储备构成；弹性汇率实施后储备止跌回升，而2026年初RIN尚不足15亿美元量级（2024年1月约14.4亿美元）。",
+     "impact": "外汇危机后储备重建取得初步成效，增强央行干预与对外支付能力",
+     "source": "Asuntos Centrales: https://asuntoscentrales.com/las-reservas-internacionales-llegan-a-us-3-978-millones-con-el-oro-como-principal-componente/ ; Innovapress: https://innovapressnoticias.com/las-reservas-de-bolivia-llegan-a-us-3-978-mm-con-el-oro-como-el-principal-soporte/"},
+]
+
+data["related_entities"] = [
+    {"org_id": "BO-GOV-005",
+     "org_name": "Ministerio de Economía y Finanzas Públicas（玻利维亚经济与公共财政部，MEFP）",
+     "org_type": "GOV",
+     "org_description": "经济财政主管部门，与BCB共同决定并协调“财政金融计划”（Programa Fiscal Financiero）的执行；现任部长为José Gabriel Espinoza Yáñez（2025年11月帕斯政府任命）。BCB独立执行货币政策，但汇率制度转轨由两机构联合推进。",
+     "relationship_type": "partner"},
+    {"org_id": "BO-FIN-002",
+     "org_name": "Autoridad de Supervisión del Sistema Financiero（玻利维亚金融体系监管局，ASFI）",
+     "org_type": "FIN",
+     "org_description": "银行及金融机构审慎监管机构；与BCB形成分工——ASFI负责金融机构监管，BCB负责支付体系监管、货币政策与最后贷款人职能。",
+     "relationship_type": "partner"},
+    {"org_id": "BO-GOV-001",
+     "org_name": "Presidencia del Estado Plurinacional de Bolivia（玻利维亚总统府）",
+     "org_type": "GOV",
+     "org_description": "总统依法提名并任免BCB行长与董事会成员；2025-11-13总统罗德里戈·帕斯任命新行长及4名董事，实现央行领导层更替。",
+     "relationship_type": "parent_org"},
+    {"org_id": None,
+     "org_name": "Fondo Monetario Internacional（国际货币基金组织，IMF）",
+     "org_type": "INTL",
+     "org_description": "玻利维亚为IMF成员，BCB代表玻利维亚参与IMF事务并在IMF持有出资（储备构成之一）；2026-07-29玻利维亚与IMF就36个月、约19亿美元的扩展基金设施（EFF）达成技术层面协议。",
+     "relationship_type": "member_of"},
+    {"org_id": None,
+     "org_name": "Banco Mundial（世界银行）",
+     "org_type": "INTL",
+     "org_description": "BCB代表玻利维亚与世界银行等国际金融机构开展业务对接与合作。",
+     "relationship_type": "member_of"},
+    {"org_id": None,
+     "org_name": "Banco del Sur（南方银行）",
+     "org_type": "INTL",
+     "org_description": "BCB代表玻利维亚参与南方银行事务并持有出资份额，相关出资构成国际储备的组成部分。",
+     "relationship_type": "member_of"},
+    {"org_id": None,
+     "org_name": "Fundación Cultural del Banco Central de Bolivia（BCB文化基金会，FCBCB）",
+     "org_type": "OTHER",
+     "org_description": "依据1995-10-31第1670号法律设立、1997年起运作的附属文化机构，负责管理BCB辖下的国家档案库与文化中心（含货币博物馆等），由BCB监管。",
+     "relationship_type": "affiliated"},
+]
+
+data["core_business"] = (
+    "玻利维亚中央银行（BCB）是玻利维亚的中央银行和国家货币当局，总部位于拉巴斯，依据1928年7月20日第632号法律创建"
+    "（1929年7月1日正式运营，前身为1911年设立的玻利维亚国家银行），1995年第1670号法律确立其自主地位。核心职能包括："
+    "确定并执行货币政策、执行汇率政策、规范支付体系、授权发行本国货币玻利维亚诺（BOB）、管理国际储备（实物黄金、外汇、"
+    "特别提款权及在IMF等国际金融机构的出资），并担任金融体系的最后贷款人；同时作为国家财政代理人，登记公私外债，"
+    "代表玻利维亚参与IMF、世界银行、南方银行等国际金融组织事务。2025年底以来，BCB主导了玻利维亚外汇危机下的货币与"
+    "汇率制度转型：2025年12月统一外汇市场、2026年6月底全面转向弹性汇率制（由市场决定美元官方汇率TCO），并通过向"
+    "金融体系出售美元、从国内市场购入黄金（2026年1-4月购入2.3吨）、公开货币计划与统计数据、设立扩大货币储备等措施，"
+    "推动市场信心修复与国际储备重建；2026年7月与IMF达成约19亿美元扩展基金设施（EFF）技术层面协议。"
+)
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入），因此不存在BCB对APEC事务的官方立场。"
+    "玻利维亚央行实际参与的国际金融合作为：作为IMF与世界银行成员，BCB代表玻利维亚参与相关事务，2026年7月29日"
+    "玻利维亚与IMF就36个月、约19亿美元的扩展基金设施（EFF）达成工作人员层面协议以应对外汇危机；BCB亦代表玻方"
+    "参与南方银行（Banco del Sur）事务。玻利维亚国家层面为安第斯共同体（CAN）、拉美一体化协会（ALADI）成员。"
+    "（来源：IMF新闻稿PR26/268，2026-07-29；西语维基百科BCB条目）"
+)
+
+data["industries"] = ["financial_services", "monetary_policy", "banking"]
+
+cm = data["collection_meta"]
+cm["phase"] = "phase3_enriched"
+cm["collection_date"] = "2026-10-25"
+cm["data_sources"] = [
+    "wikidata",
+    "wikipedia (es.wikipedia.org: Banco Central de Bolivia; David Espinoza Torrico; FCBCB)",
+    "official_website (https://www.bcb.gob.bo/ : 首页新闻时间线、官方汇率、组织架构图PDF R.D. N°17/2026、统计面板、页脚社交账号)",
+    "imf.org (PR26/268, 2026-07-29)",
+    "elpais.com (2026-07-31)",
+    "larazon.bo (2025-11-13)",
+    "correodelsur.com (2025-11-13)",
+    "eldeber.com.bo (2026-06)",
+    "lapatria.bo (2026-07/08)",
+    "opinion.com.bo (2026-07-31)",
+    "asuntoscentrales.com / innovapressnoticias.com (2026-10-23)",
+    "presidencia.gob.bo / economiayfinanzas.gob.bo",
+]
+cm["quotes"] = [
+    {"title": "Paz Pereira posesiona a David Espinoza como nuevo presidente del BCB (La Razón, 2025-11-13)",
+     "url": "https://larazon.bo/economia-y-empresa/2025/11/13/paz-pereira-posesiona-a-david-espinoza-como-nuevo-presidente-del-bcb/"},
+    {"title": "El FMI alcanza un acuerdo a nivel del personal técnico con Bolivia sobre un SAF de ~US$1.900 millones (IMF PR26/268, 2026-07-29)",
+     "url": "https://www.imf.org/es/news/articles/2026/07/29/pr26268-bolivia-imf-reaches-staff-level-agreement-on-an-extended-fund-facility-arrangement"},
+    {"title": "Bolivia cierra un acuerdo con el FMI por 1.900 millones de dólares para afrontar la crisis económica (El País, 2026-07-31)",
+     "url": "https://elpais.com/america/2026-07-31/bolivia-cierra-un-acuerdo-con-el-fmi-por-1900-millones-de-dolares-para-afrontar-la-crisis-economica.html"},
+    {"title": "Nota de Prensa NP15/2026: Reglamento de Compra y Venta de Dólares (BCB, 2026-07-30)",
+     "url": "https://www.bcb.gob.bo/webdocs/files_noticias/NP15-30%20JULIO.pdf"},
+    {"title": "Las reservas internacionales llegan a $us 3.978 millones, con el oro como principal componente (Asuntos Centrales, 2026-10)",
+     "url": "https://asuntoscentrales.com/las-reservas-internacionales-llegan-a-us-3-978-millones-con-el-oro-como-principal-componente/"},
+    {"title": "El BCB establece que a partir del lunes 29 de junio entra en vigencia tipo de cambio flexible (El Deber, 2026-06)",
+     "url": "https://eldeber.com.bo/economia/bcb-establece-partir-lunes-29-junio-entra-vigencia-tipo-cambio-flexible_1782520030"},
+]
+cm["completeness_score"] = 88
+cm["notes"] = (
+    "phase3 enrichment: 现任行长David Espinoza Torrico（2025-11-13就任，第58任）经维基百科+La Razón+Correo del Sur+总统府多源核实；"
+    "4名董事名单来自La Razón；14个部门条目来自官网2026-02-18组织架构图（R.D. N°17/2026）；7个社交账号来自官网页脚；"
+    "9条近期事件覆盖政府更替人事变动、2025-12外汇市场统一、2026-06弹性汇率制生效、2026-07 IMF EFF技术协议、"
+    "《美元买卖条例》、黄金远期履约与储备回升，均有官方或主流媒体来源。IMF/Banco Mundial/Banco del Sur/FCBCB未在_name_index中命中，org_id置null。"
+    "玻利维亚非APEC成员，apec_stance仅陈述事实及实际IMF合作。"
+)
+
+def _dequote(o):
+    if isinstance(o, str):
+        return o.replace("\u201c", '"').replace("\u201d", '"')
+    if isinstance(o, list):
+        return [_dequote(x) for x in o]
+    if isinstance(o, dict):
+        return {k: _dequote(v) for k, v in o.items()}
+    return o
+
+data = _dequote(data)
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("OK - written", PATH)

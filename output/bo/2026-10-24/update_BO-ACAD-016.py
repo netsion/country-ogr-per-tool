@@ -1,0 +1,298 @@
+# -*- coding: utf-8 -*-
+"""Update BO-ACAD-016 (Academia Nacional de Ciencias de Bolivia) to phase3_enriched."""
+import json
+
+PATH = 'D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-ACAD-016.json'
+
+with open(PATH, encoding='utf-8') as f:
+    data = json.load(f)
+
+# --- basic_info corrections (multi-source verified) ---
+data['basic_info']['founded_date'] = '1860-05-08'  # 首建日(何塞·玛丽亚·利纳雷斯总统)；1960-09-23依最高法令5582重建；1827年为前身国立研究所设立年
+data['basic_info']['website'] = 'https://aciencias.gob.bo/'  # 官网现托管于政府 gob.bo 平台
+data['basic_info']['aliases'] = [
+    'Bolivian National Academy of Sciences',
+    'ANCB',
+    'ANC',
+    'National Academy of Sciences (Bolivia)',
+    'National Academy of Sciences of Bolivia',
+    'aciencias.org.bo',
+    'aciencias.gob.bo',
+]
+
+# --- social_accounts ---
+data['social_accounts'] = [
+    {
+        'platform': 'facebook',
+        'account_name': 'Academia Nacional de Ciencias',
+        'url': 'https://www.facebook.com/academiadeciencias.bolivia/',
+        'source': 'official website menu; Facebook 认证主页（发布官方公告与活动照片，活跃至2026年）',
+    },
+    {
+        'platform': 'twitter_x',
+        'account_name': 'ANC_Bolivia',
+        'url': 'https://x.com/ANC_Bolivia',
+        'source': 'wikidata; 国际科学理事会(ISC)成员页引用; 账号活跃至2026年（发布AD Scientific Index 2026等公告）',
+    },
+    {
+        'platform': 'youtube',
+        'account_name': 'Academia Nacional de Ciencias - Bolivia',
+        'url': 'https://www.youtube.com/channel/UClgBcFfjfT4sc38gJHZNHqg',
+        'source': 'wikidata; 官网导航栏含 YouTube 链接',
+    },
+]
+
+# --- digital_assets ---
+data['digital_assets'] = [
+    {
+        'name': 'Premio Marie Curie（玛丽·居里奖）',
+        'url': 'https://aciencias.gob.bo/index.php/premio-marie-curie/',
+        'description': '科学院2012年创设的旗舰奖项，每两年颁发，表彰玻利维亚女性科学家及青年研究者，设科学、人文与青年研究者等类别；2026年9月宣布新一届评选。',
+        'source': '官网栏目页; La Razón 2026-09-21 报道',
+    },
+    {
+        'name': 'Boletines de la ANC（科学院简报）',
+        'url': 'https://aciencias.gob.bo/wp-content/uploads/2026/03/boletin7.pdf',
+        'description': '科学院定期出版的机构简报（PDF 系列，如2026年3月上传的第7期），记录院士入职、荣誉全会与学术活动。',
+        'source': '官网 wp-content 附件',
+    },
+    {
+        'name': 'Estatuto de la ANC（科学院章程）',
+        'url': 'https://aciencias.gob.bo/index.php/estatuto/',
+        'description': '科学院章程文件，规定院士类别、理事会架构与机构运行规则。',
+        'source': '官网栏目页',
+    },
+    {
+        'name': 'gob.bo 机构门户页',
+        'url': 'https://www.gob.bo/entidades/academia-nacional-de-ciencias',
+        'description': '玻利维亚政府统一门户上的科学院机构页，载明总部地址（拉巴斯16 de Julio大道1732号）等官方信息。',
+        'source': 'gob.bo 官方门户',
+    },
+]
+
+# --- key_people ---
+data['key_people'] = [
+    {
+        'person_id': None,
+        'name': '曼努埃尔·阿雷利亚诺·拉米雷斯 (Manuel Arellano Ramírez)',
+        'title': '院长 (Presidente)',
+        'title_description': '科学院最高负责人，主持理事会(Directorio)、荣誉全会及对外代表机构。',
+        'description': '玻利维亚正式院士（纯科学学部，持"F"席）。至迟于2024年8月已任院长（《El Diario》专访）；2025年9月主持65周年庆典，2026年3月出席亚马逊保护对话会，2026年9月23日主持66周年庆典暨首届全国会议（ABI、UPSA、官网等多来源确认）。',
+    },
+    {
+        'person_id': None,
+        'name': '马科斯·米歇尔 (Marcos Michel)',
+        'title': '学术秘书长 (Secretario General Académico)',
+        'title_description': '理事会成员，负责学术事务与院士管理。',
+        'description': '2026年9月23日66周年荣誉全会上作为学术秘书长介绍新一代院士入选情况（官网新闻稿）。',
+    },
+    {
+        'person_id': None,
+        'name': '卡洛斯·阿吉雷 (Carlos Aguirre)',
+        'title': '前院长、资深院士 (Ex Presidente, Académico de Número)',
+        'title_description': '曾任科学院院长，现为资历最深的在任院士之一。',
+        'description': '1974年入选科学院院士，曾主编《玻利维亚科学史文集》(Contribuciones a la Historia de la Ciencia en Bolivia)；2026年9月23日在66周年荣誉全会上获"50年会员"表彰（ResearchGate 院士名录、官网新闻稿）。',
+    },
+]
+
+# --- departments ---
+data['departments'] = [
+    {
+        'name': 'Directorio（理事会）',
+        'dept_id': None,
+        'head': '曼努埃尔·阿雷利亚诺·拉米雷斯 (Manuel Arellano Ramírez)',
+        'description': '全国领导机构，由院长主持，成员包括学术秘书长及院士代表，主持院士遴选、奖项评定与对外事务。',
+        'parent_dept_id': None,
+    },
+    {
+        'name': 'División de Ciencias Puras（纯科学学部）',
+        'dept_id': None,
+        'head': None,
+        'description': '依1960年第5582号最高法令设立，设10个终身院士席位，涵盖数学、物理、化学等基础学科。',
+        'parent_dept_id': None,
+    },
+    {
+        'name': 'División de Ciencias de la Naturaleza（自然科学学部）',
+        'dept_id': None,
+        'head': None,
+        'description': '设12个终身院士席位，为三学部中规模最大，涵盖生物、生态、农学、医药等自然科学领域。',
+        'parent_dept_id': None,
+    },
+    {
+        'name': 'División de Ciencias de la Cultura（文化科学学部）',
+        'dept_id': None,
+        'head': None,
+        'description': '设10个终身院士席位，涵盖历史、人类学、社会科学与人文领域。',
+        'parent_dept_id': None,
+    },
+    {
+        'name': 'Consejo de Investigaciones de la ANCB（研究理事会）',
+        'dept_id': None,
+        'head': None,
+        'description': '科学院协调全国高校科研合作的平台，设全国主任及各省分理事会；埃斯登卡·佩雷斯(Esdenka Pérez)曾任全国主任（2020年来源），2025年起圣克鲁斯等分会陆续吸纳私立大学加入。',
+        'parent_dept_id': None,
+    },
+    {
+        'name': 'Consejo Departamental Santa Cruz（圣克鲁斯分会）',
+        'dept_id': None,
+        'head': '加斯东·梅希亚·布朗 (Gastón Mejía Brown)',
+        'description': '科学院在圣克鲁斯的省级分会（ANCB-SC），与圣克鲁斯私立大学(UPSA)通过机构间协议合作运作；2026年7月分会主席主持了蒂莫西·基伦的院士入职仪式。',
+        'parent_dept_id': None,
+    },
+    {
+        'name': 'Biblioteca（图书馆）',
+        'dept_id': None,
+        'head': None,
+        'description': '科学院图书馆为世界银行参考图书馆，并加入联合国教科文组织(UNESCO)图书馆网络，面向公众提供科学文献服务。',
+        'parent_dept_id': None,
+    },
+]
+
+# --- recent_events ---
+data['recent_events'] = [
+    {
+        'date': '2026-09-23',
+        'title': '庆祝成立66周年并举办首届全国会议与荣誉全会',
+        'description': '在圣克鲁斯私立大学(UPSA)大礼堂举行"科学院首届全国会议"(Primera Conferencia Nacional)及荣誉全会(Sesión de Honor)：日间举行学术报告会并发布新书《对自然的先祖性诠释在农牧业管理中的应用》(Interpretaciones Ancestrales de la Naturaleza Para la Gestión Agropecuaria)；晚间全会上院长曼努埃尔·阿雷利亚诺致开幕辞，向前院长卡洛斯·阿吉雷授予"50年会员"表彰，向热带生态研究中心(CENETROP)、水与可持续发展综合研究委员会(CIAGUA)、新技术研究委员会(CINTI)、农技术研究委员会(CIAT)、圣西蒙大学文化研究所(CUI-UMSS)、苏克雷医学研究所等机构颁发"科学之路·机构贡献"奖，并宣布玛丽·居里奖、安东尼奥·甘达里亚斯奖与温贝托·甘达里亚斯奖评选启动。UPSA校长奥斯卡·奥尔蒂斯·安特洛出席。',
+        'impact': '巩固科学院作为全国最高科学荣誉机构的地位；首次全国会议标志其向全国性科学协作平台扩展。',
+        'source': 'https://abi.bo/academia-nacional-de-ciencias-de-bolivia-celebra-su-66-aniversario-con-jornada-de-investigacion-y-reconocimientos/',
+    },
+    {
+        'date': '2026-07-02',
+        'title': '生态学家蒂莫西·基伦入选正式院士',
+        'description': '在圣克鲁斯UPSA大礼堂举行入职仪式，蒂莫西·约翰·基伦(Timothy John Killeen)博士因在生物多样性、生态学与可持续发展领域的贡献（发表近200篇论文、曾推动诺埃尔·肯普夫·梅尔卡多自然历史博物馆发展）获授正式院士(Académico de Número)称号，仪式含拨袍与佩戴院士奖章；圣克鲁斯分会主席加斯东·梅希亚·布朗致辞，院士马里奥·苏亚雷斯·里格洛斯介绍其科学生涯。',
+        'impact': '强化科学院在环境与可持续发展领域的院士阵容，深化与圣克鲁斯学术界的联系。',
+        'source': 'https://www.upsa.edu.bo/dr-timothy-killeen-ingresa-como-academico-de-numero-de-la-academia-nacional-de-ciencias-de-bolivia/',
+    },
+    {
+        'date': '2026-03-17',
+        'title': '院长出席"为亚马逊发声"保护对话活动',
+        'description': '据美洲亚马逊保护倡议网站2026年3月17日报道，一场呼吁保护亚马逊的对话活动在玻利维亚举行，科学院院长曼努埃尔·阿雷利亚诺·拉米雷斯与野生动物保护协会(WCS)玻利维亚主任莉莲·佩因特(Lilian Painter)等科学界与环保组织代表出席。',
+        'impact': '体现科学院在环境与亚马逊保护政策议程中的公共参与。',
+        'source': 'https://www.sp-amazon.org/es/noticias/spabolivia',
+    },
+    {
+        'date': '2025-11-19',
+        'title': '圣克鲁斯分会研究理事会扩容吸纳新成员高校',
+        'description': '科学院圣克鲁斯分会(ANCB-SC)举行研究理事会新任理事机构就职典礼，圣克鲁斯发展大学(UPDS)等高校加入该理事会；该分会依据科学院与UPSA的机构间协议运作，此前已于2025年3月吸纳首批新成员。',
+        'impact': '扩大科学院研究理事会网络对圣克鲁斯私立高校的覆盖，促进区域科研协作。',
+        'source': 'https://www.upds.edu.bo/autoridades-de-la-upds-se-integraron-al-consejo-de-investigaciones-de-la-academia-nacional-de-ciencias-de-bolivia-capitulo-santa-cruz/',
+    },
+]
+
+# --- related_entities ---
+data['related_entities'] = [
+    {
+        'org_id': 'BO-ACAD-010',
+        'org_name': '圣克鲁斯私立大学 (Universidad Privada de Santa Cruz de la Sierra, UPSA)',
+        'org_type': 'ACAD',
+        'org_description': '玻利维亚圣克鲁斯知名私立大学。',
+        'relationship_type': 'partner',
+    },
+    {
+        'org_id': 'BO-ACAD-001',
+        'org_name': '圣安德烈斯大学 (Universidad Mayor de San Andrés, UMSA)',
+        'org_type': 'ACAD',
+        'org_description': '玻利维亚拉巴斯最大的公立大学，多名科学院院士与UMSA有学术渊源，其校办电台长期报道科学院活动。',
+        'relationship_type': 'affiliated',
+    },
+    {
+        'org_id': 'BO-ACAD-002',
+        'org_name': '圣西蒙市立大学 (Universidad Mayor de San Simón, UMSS)',
+        'org_type': 'ACAD',
+        'org_description': '科恰班巴主要公立大学；其文化研究所(CUI-UMSS)于2026年9月获科学院"科学之路·机构贡献"表彰。',
+        'relationship_type': 'affiliated',
+    },
+    {
+        'org_id': None,
+        'org_name': '国际科学理事会 (International Science Council, ISC)',
+        'org_type': 'INTL',
+        'org_description': '全球最大的国际科学组织联合会。',
+        'relationship_type': 'member_of',
+    },
+    {
+        'org_id': None,
+        'org_name': '美洲科学院网络 (InterAmerican Network of Academies of Sciences, IANAS)',
+        'org_type': 'INTL',
+        'org_description': '美洲各国科学院组成的区域性科学合作网络。',
+        'relationship_type': 'member_of',
+    },
+    {
+        'org_id': None,
+        'org_name': '国际学术伙伴组织 (InterAcademy Partnership, IAP)',
+        'org_type': 'INTL',
+        'org_description': '全球国家和区域性科学院/医学科学院的联合组织。',
+        'relationship_type': 'member_of',
+    },
+]
+
+# --- core_business / profile / apec ---
+data['core_business'] = ('玻利维亚国家科学院是玻利维亚全国最高科学荣誉与学术机构，依据1960年9月23日第5582号最高法令重建，法定使命为"促进科学研究、提升科学家地位并传播科学成果"。'
+    '全院设32个终身院士席位，分为纯科学（10席）、自然科学（12席）、文化科学（10席）三个学部，另设通讯院士与荣誉院士等类别。'
+    '主要业务包括：遴选并接纳正式院士（如2026年接纳生态学家蒂莫西·基伦）；颁设玛丽·居里奖（2012年创设，表彰玻利维亚女性科学家与青年研究者）、安东尼奥·甘达里亚斯奖、温贝托·甘达里亚斯青年藜麦研究者奖及"科学之路·机构贡献"奖；'
+    '出版学术简报（Boletines）与专著，举办全国学术会议与年度荣誉全会；运营图书馆（世界银行参考图书馆、UNESCO图书馆网络成员）；'
+    '通过研究理事会（Consejo de Investigaciones）及圣克鲁斯等省级分会与全国高校共建科研协作网络；并代表玻利维亚参与美洲科学院网络（IANAS）、国际科学理事会（ISC）与国际学术伙伴组织（IAP）。'
+    '总部位于拉巴斯16 de Julio大道1732号。其前身为1827年设立的国立研究所，1860年5月8日由总统何塞·玛丽亚·利纳雷斯首次创建科学院。')
+
+data['profile'] = ('小规模精英型国家科学院：正式院士仅32名（终身制），总部设于拉巴斯，现任院长曼努埃尔·阿雷利亚诺·拉米雷斯（至迟2024年8月在任，2026年9月连任主持66周年庆典）。'
+    '机构虽小但国际联系广泛（IANAS、ISC、IAP成员），并通过圣克鲁斯分会和高校研究理事会网络扩展影响；与圣克鲁斯私立大学（UPSA）合作密切，2026年的院士入职仪式与66周年全国会议均由该校承办。'
+    '主要收入与运营依赖政府法令授权与社会合作，官网现托管于政府gob.bo统一平台。该机构是玻利维亚科学界荣誉体系与科研协作的枢纽，可在科技政策、环境议题（亚马逊保护）和高校科研合作中发挥影响力。')
+
+data['apec_stance'] = '玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。'
+
+data['industries'] = ['higher_education', 'research_development']
+
+# --- collection_meta ---
+data['collection_meta'] = {
+    'collection_date': '2026-10-24',
+    'phase': 'phase3_enriched',
+    'data_sources': [
+        'official_website',
+        'wikipedia',
+        'wikidata',
+        'news_search',
+        'web_search',
+        'social_media',
+        'government_directory',
+        'other',
+    ],
+    'completeness_score': 17,  # placeholder; recomputed by validate_schema.py --score
+    'notes': ('Phase3 enriched 2026-10-24. 现任院长曼努埃尔·阿雷利亚诺·拉米雷斯(Manuel Arellano Ramírez)经ABI、UPSA、El Diario、官网通讯及官方Facebook等多来源交叉核实（至迟2024年8月在任）。'
+        'founded_date由骨架的1827-01-01修正为1860-05-08（西语Wikipedia及bolivia.com确认1860年利纳雷斯总统首建；1827年为前身国立研究所设立年，1960-09-23依DS 5582重建），官网域名由aciencias.org.bo更新为aciencias.gob.bo。'
+        '该机构规模小、官网页面多为动态加载，理事全名单未能获取，departments按法令三学部+理事会+研究理事会+分会+图书馆结构记录；院士个人词条(person_id)在index中无对应记录，均为null。'),
+    'quotes': [
+        {
+            'title': 'Academia Nacional de Ciencias de Bolivia celebra su 66 aniversario con jornada de investigación y reconocimientos — ABI（玻利维亚国家通讯社）',
+            'url': 'https://abi.bo/academia-nacional-de-ciencias-de-bolivia-celebra-su-66-aniversario-con-jornada-de-investigacion-y-reconocimientos/',
+        },
+        {
+            'title': 'SESENTA Y SEIS AÑOS CONTRIBUYENDO AL DESARROLLO CIENTÍFICO DEL PAÍS — ANC官网新闻稿',
+            'url': 'https://aciencias.gob.bo/index.php/nota_prensa/sesenta-y-seis-anos-contribuyendo-al-desarrollo-cientifico-del-pais/',
+        },
+        {
+            'title': 'La Academia Nacional de Ciencias cumple 66 años — La Razón',
+            'url': 'https://larazon.bo/sociedad/2026/09/21/la-academia-nacional-de-ciencias-cumple-66-anos/',
+        },
+        {
+            'title': 'Dr. Timothy Killeen ingresa como Académico de Número de la Academia Nacional de Ciencias de Bolivia — UPSA',
+            'url': 'https://www.upsa.edu.bo/dr-timothy-killeen-ingresa-como-academico-de-numero-de-la-academia-nacional-de-ciencias-de-bolivia/',
+        },
+        {
+            'title': 'Breve historia o reseña sobre la creación y evolución de la entidad — ANC官网',
+            'url': 'https://aciencias.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/',
+        },
+        {
+            'title': 'Academia Nacional de Ciencias de Bolivia — Wikipedia (español)',
+            'url': 'https://es.wikipedia.org/wiki/Academia_Nacional_de_Ciencias_de_Bolivia',
+        },
+        {
+            'title': 'Academia Nacional de Ciencias de Bolivia conmemora su 66 aniversario con una sesión de honor en la UPSA — UPSA',
+            'url': 'https://www.upsa.edu.bo/academia-nacional-de-ciencias-de-bolivia-conmemora-su-66-aniversario-con-una-sesion-de-honor-en-la-upsa/',
+        },
+    ],
+}
+
+with open(PATH, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print('OK: BO-ACAD-016 updated to phase3_enriched')

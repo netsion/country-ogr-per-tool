@@ -1,0 +1,306 @@
+# -*- coding: utf-8 -*-
+"""Phase3 enrichment for BO-GOV-007 Ministerio de Salud y Deportes (Bolivia)."""
+import json
+import io
+import os
+import sys
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+
+PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-GOV-007.json")
+
+data = {
+    "org_id": "BO-GOV-007",
+    "basic_info": {
+        "name_original": "Ministerio de Salud y Deportes",
+        "name_zh": "玻利维亚卫生与体育部",
+        "name_en": "Ministry of Health and Sports",
+        "aliases": [
+            "Ministerio de Salud y Deportes (Bolivia)",
+            "Ministry of Health and Sports (Bolivia)",
+            "MSD",
+            "Ministerio de Salud (旧称)",
+            "Ministry of Health (旧称)"
+        ],
+        "org_type": "GOV",
+        "org_subtype": "ministry",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1938-08-22",
+        "website": "https://www.minsalud.gob.bo/",
+        "wikidata_qid": "Q44225411"
+    },
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "SaludDeportesBo",
+            "url": "https://twitter.com/SaludDeportesBo",
+            "source": "official_website footer (verified 2026-10); X 简介自称 'Cuenta Oficial del Ministerio de Salud y Deportes'; 骨架中原 @MinSaludBolivia 为旧账号，官网页脚现指向 @SaludDeportesBo"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "SaludDeportesBo",
+            "url": "https://www.facebook.com/SaludDeportesBo/",
+            "source": "official_website footer (verified 2026-10)"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "Ministerio de Salud y Deportes Bolivia",
+            "url": "https://www.youtube.com/channel/UCV2d2cUn4DPcsam_MAm5n6w",
+            "source": "official_website footer (verified 2026-10)"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "统一卫生体系(SUS)注册门户 sus.minsalud.gob.bo",
+            "url": "https://sus.minsalud.gob.bo/",
+            "description": "国家统一卫生体系(Sistema Único de Salud)用户注册/附加服务门户，官网页脚链接",
+            "source": "official_website footer (verified 2026-10)"
+        },
+        {
+            "name": "国家卫生信息系统 SNIS (snis.minsalud.gob.bo)",
+            "url": "https://snis.minsalud.gob.bo",
+            "description": "国家卫生信息系统(Sistema Nacional de Información en Salud)数据门户，官网页脚链接",
+            "source": "official_website footer (verified 2026-10)"
+        },
+        {
+            "name": "国家免疫计划 PAI 门户 (pai.minsalud.gob.bo)",
+            "url": "https://pai.minsalud.gob.bo",
+            "description": "扩大免疫计划(Programa Ampliado de Inmunizaciones)门户；同类业务子域还包括远程医疗 ts.minsalud.gob.bo、卫生专业人员注册 sirepro.minsalud.gob.bo、传统医学 sismet.minsalud.gob.bo 等",
+            "source": "official_website footer (verified 2026-10)"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Marcela Tatiana Flores Zambrana",
+            "title": "Ministra de Salud y Deportes",
+            "title_description": "卫生与体育部部长，2025年11月上旬经总统罗德里戈·帕斯·佩雷拉任命，为帕斯政府首任卫生与体育部长",
+            "description": "拉巴斯出身的公共卫生专家，拥有公共卫生学博士(PhD)学位，发展管理与公共政策博士(PhD c.)，公共卫生硕士；30余年公共卫生管理经验，长期任职拉巴斯省卫生服务局(SEDES La Paz)规划与组织发展部门(2001-2020)，COVID-19疫情期间(2020-2021)任SEDES拉巴斯大都市区协调员并强化流行病学控制，2021-2022年任联合国开发计划署(PNUD)技术分析员；曾获日本JICA卫生系统管理奖学金(2007)及西班牙米格尔·埃尔南德斯大学卫生规划进修。2025-11-09前后就任部长，任内主导《2026-2030年国家卫生计划》编制与发布。来源：卫生部官网 Nómina de Autoridades 页、ORAS CONHU、English Wikipedia (Marcela Flores)、El Deber (2026-10-14)。"
+        },
+        {
+            "person_id": None,
+            "name": "José Luis Ríos Cambeses",
+            "title": "Viceministro de Gestión del Sistema Nacional de Salud",
+            "title_description": "国家卫生体系管理副部长",
+            "description": "拉巴斯出生的内科医生(圣安德烈斯大学UMSA)，公共卫生硕士(卫生管理方向)，兼有圣巴勃罗玻利维亚天主教大学(UCB)法学学习经历及高等教育、医疗调解与仲裁研究生课程；35年教学、研究与公共管理经验，曾任埃尔阿尔托市卫生局长兼卫生体育市政书记、拉巴斯市长府管理与控制跟踪部门协调员及顾问，并任泛美卫生组织(PAHO/OMS)拉巴斯卫生单位顾问、美国CDC/USAID儿童与社区卫生项目研究员。来源：卫生部官网 Nómina de Autoridades 页。"
+        },
+        {
+            "person_id": None,
+            "name": "Roxana Elizabeth Salamanca Kacic",
+            "title": "Viceministra de Promoción, Vigilancia Epidemiológica y Medicina Tradicional",
+            "title_description": "促进、流行病学监测与传统医学副部长",
+            "description": "奥鲁罗出生内科医生，流行病学与传染病专家，公共卫生硕士(流行病学方向，UMSA)，巴塞罗那ESTHER项目艾滋病临床管理硕士；25年以上公共卫生经验，曾任卫生部艾滋病项目协调员、全国性病/艾滋与结核顾问、疾病预防与控制部门负责人，与PAHO/OMS、PNUD、UNICEF、ONUSIDA、UNFPA、USAID、瑞士合作署等机构有广泛项目合作，参与多国多中心流行病学研究。来源：卫生部官网 Nómina de Autoridades 页。"
+        },
+        {
+            "person_id": None,
+            "name": "Roberto Bustamante Ponce",
+            "title": "Viceministro de Deportes",
+            "title_description": "体育副部长",
+            "description": "科恰班巴出生，牙医学专业出身；青年时代为玻利维亚足球预选队及科恰班巴选拔队成员；后长期定居塔里哈从事体育管理：任塔里哈自治市体育局长并主持起草市体育法、推动理疗科建设与市体育协会预算分配规程，任塔里哈省网球协会主席8年、玻利维亚网球联合会总书记4年。来源：卫生部官网 Nómina de Autoridades 页。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "Viceministerio de Gestión del Sistema Nacional de Salud（国家卫生体系管理副部长单位）",
+            "dept_id": None,
+            "head": "José Luis Ríos Cambeses",
+            "description": "主管国家卫生体系的组织、管理与治理：涵盖卫生服务网络与医院管理、卫生保险与统一卫生体系(SUS)管理（业务门户含 sus.minsalud.gob.bo 注册系统、seguros.minsalud.gob.bo 等）；《2026-2030年国家卫生计划》中拟以强制性政府间管理协议约束省府与SEDES，并推进50/50中央-市政共筹机制",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Viceministerio de Promoción, Vigilancia Epidemiológica y Medicina Tradicional（促进、流行病学监测与传统医学副部长单位）",
+            "dept_id": None,
+            "head": "Roxana Elizabeth Salamanca Kacic",
+            "description": "主管健康促进、流行病学监测与传染病预防控制、传统医学与跨文化卫生；具体业务覆盖国家免疫规划(PAI)、全国疫苗接种传播战略、登革热/基孔肯雅热等蚊媒病与狂犬病等人兽共患病防控，管理 pai.minsalud.gob.bo、rnve.minsalud.gob.bo（接种登记）、sismet.minsalud.gob.bo（传统医学）等系统",
+            "parent_dept_id": None
+        },
+        {
+            "name": "Viceministerio de Deportes（体育副部长单位）",
+            "dept_id": None,
+            "head": "Roberto Bustamante Ponce",
+            "description": "主管全国体育政策与体育体系发展（群众体育、竞技体育与体育基础设施），统筹2029年拉巴斯第21届玻利瓦尔运动会(COBOLAP 2029)组织委员会框架下的国内筹备工作；2020年11月原独立体育部职能并入本部后为部内三大副部长单位之一",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-03-13",
+            "title": "启动《2026-2030年卫生部门计划》全国磋商进程",
+            "description": "卫生部召开全国磋商研讨会(National Consultation Workshop)，启动《2026-2030年国家卫生部门计划》编制进程，部长Marcela Flores Zambrana与联合国开发计划署(UNDP)、联合国人口基金(UNFPA)等驻玻机构协作推进，为帕斯政府卫生改革框架奠基",
+            "impact": "确立新政府卫生政策的顶层设计进程：以全国磋商+联合国系统技术协作方式制定五年卫生部门规划，替代前政府卫生议程",
+            "source": "https://www.undp.org/es/bolivia/noticias/bolivia-inicia-el-proceso-para-el-diseno-del-plan-sectorial-de-salud-2026-2030"
+        },
+        {
+            "date": "2026-08-04",
+            "title": "与联合国驻玻系统确定2030年卫生体系转型战略路线",
+            "description": "卫生部举行协调会议，与泛美卫生组织/世卫组织(PAHO/WHO)及联合国驻玻利维亚系统共同确定'2030年卫生体系转型'战略路线图，作为《2026-2030年国家卫生计划》的基础",
+            "impact": "新政府卫生改革获得联合国系统技术背书，多边合作成为改革设计与推进的主要外部支撑",
+            "source": "https://bolivia.un.org/es/320585-bolivia-avanza-en-la-definici%C3%B3n-de-la-ruta-estrat%C3%A9gica-para-transformar-el-sistema-de-salud"
+        },
+        {
+            "date": "2026-09-03",
+            "title": "部长在巴西利亚泛美卫生组织会议发布《2026-2030年国家卫生计划》路线图",
+            "description": "部长Marcela Flores Zambrana在PAHO于巴西利亚举行的区域网络联席会议(RedFESP-REFSA-IMPULSA-RISS)'国家经验'全会上发布新计划：五轴为①监管与治理（推动新《卫生总法》及与省府、SEDES的强制性管理协议）②数字转型（统一卫生信息系统SUIS、跨公私与社保体系的统一数字病历、'零排队'与电子处方）③一体化卫生服务网络RISS（基层24/7解决80%就医需求并纳入传统医学）④卫生职业制度（全部领导与基础岗位公开竞聘）⑤透明行政（中央-市政50/50共筹、与95%以上疫苗覆盖率等绩效挂钩）；2030年目标孕产妇死亡率降至每10万活产106例以下",
+            "impact": "帕斯政府卫生改革的总体规划：将推动新的《卫生总法》立法，重构中央-省-市三级卫生治理与财政关系，并以数字化和基层网络建设缓解家庭自付负担与体系碎片化",
+            "source": "https://www.paho.org/es/noticias/3-9-2026-bolivia-presenta-brasilia-su-plan-nacional-salud-2026-2030-enfocado-reingenieria; https://erbol.com.bo/nacional/gobierno-proyecta-nueva-ley-de-salud-historia-cl%C3%ADnica-%C3%BAnica-digital-y-atenci%C3%B3n-247; https://www.reduno.com.bo/nacional/presidente-paz-destaca-nuevo-plan-de-salud-con-cinco-reformas-para-2030-20269412311"
+        },
+        {
+            "date": "2026-09-30",
+            "title": "玻利维亚加入《安第斯卫生与气候变化计划2026-2031》",
+            "description": "部长Flores Zambrana代表玻利维亚加入安第斯区域卫生与气候变化计划(Plan Andino de Salud y Cambio Climático 2026-2031)；同期在拉巴斯与玻利维亚医学会(Colegio Médico de Bolivia)会晤，医学会向部长提交行动计划",
+            "impact": "卫生议题正式纳入安第斯区域气候议程；确立卫生部与全国医师行业组织的制度化对话渠道",
+            "source": "https://www.facebook.com/SaludDeportesBo/posts/%EF%B8%8F-bolivia-se-suma-al-plan-andino-de-salud-y-cambio-clim%C3%A1tico-20262031la-ministra/1622100933293515/"
+        },
+        {
+            "date": "2026-10-22",
+            "title": "'2026蚊子周'：强化登革热与基孔肯雅热防控",
+            "description": "10月19-30日在全国流行地区开展'蚊子周'(Semana del Mosquito 2026)行动，主题'我的家庭防登革热和基孔肯雅热：预防在我们手中！'；针对玻利维亚基孔肯雅热病例上升，卫生部联合9个省级卫生服务局(SEDES)与自治市政府入户开展健康促进与病媒防控",
+            "impact": "回应2026年基孔肯雅热疫情上升，蚊媒传染病防控成为当前公共卫生优先事项；检验中央-SEDES-市政三级联合动员机制",
+            "source": "https://www.minsalud.gob.bo/9603-semana-del-mosquito-2026-salud-intensifica-acciones-de-prevencion-contra-el-dengue-y-la-chikungunya-en-municipios-endemicos"
+        },
+        {
+            "date": "2026-10-23",
+            "title": "启动全国狂犬病强制免疫运动：投放超300万剂、动员2.2万支小队",
+            "description": "卫生部自塔里哈启动2026年犬猫抗狂犬病全国强制免疫运动(Campaña Nacional de Vacunación Obligatoria contra la Rabia)，10月24-25日在全国铺开：投放超过300万剂疫苗与配套耗材，动员2.2万支小队入户接种并在广场、公园、市场、卫生中心设固定接种点",
+            "impact": "常规人兽共患病防控大规模运作，是统一数字病历/接种登记体系之外检验基层动员与中央-省级协同能力的年度重点行动",
+            "source": "https://www.minsalud.gob.bo/9605-con-mas-de-3-millones-de-dosis-ministerio-de-salud-lanza-desde-tarija-la-campana-nacional-contra-la-rabia"
+        },
+        {
+            "date": "2026-10-23",
+            "title": "2029年拉巴斯玻利瓦尔运动会组委会(COBOLAP 2029)正式组建",
+            "description": "第21届玻利瓦尔运动会(拉巴斯2029)组织委员会(COBOLAP 2029)正式成立并启动运行，总统罗德里戈·帕斯·佩雷拉出席并强调体育的国家转型意义；体育事务由卫生与体育部统筹，组委会将规划基础设施、物流与运动员综合保障",
+            "impact": "大型国际赛事筹备成为该部体育板块中心任务，将带动体育基础设施投资与区域一体化议题",
+            "source": "https://www.minsalud.gob.bo/9607-gobierno-nacional-asume-liderazgo-hacia-los-xxi-juegos-bolivarianos-la-paz-2029"
+        },
+        {
+            "date": "2026-10-23",
+            "title": "联合UNICEF启动全国疫苗接种传播战略'Confía, Protege, Hazlo Vacunar'",
+            "description": "卫生部与9个省级卫生服务局(SEDES)及联合国儿童基金会(UNICEF)合作启动全国疫苗接种传播战略，主题'相信、保护、带TA接种疫苗'，将卫生传播定为跨领域优先工作以建立公众信任、打击错误信息；10月24日世界脊髓灰质炎日之际，卫生部宣布玻利维亚已40年无脊灰病例、47年无脊灰暴发",
+            "impact": "疫苗接种覆盖率（国家计划设定95%以上目标）成为改革核心绩效指标；儿童免疫与公众信任建设为当前公共卫生传播工作重心",
+            "source": "https://www.minsalud.gob.bo/9608-ministerio-de-salud-articula-estrategia-nacional-de-comunicacion-con-sedes-para-fortalecer-la-vacunacion; https://www.minsalud.gob.bo/9609-vacunacion-infantil-al-dia-para-mantener-a-bolivia-libre-de-poliomielitis"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-001",
+            "org_name": "玻利维亚总统 (Presidente de Bolivia)",
+            "org_type": "GOV",
+            "org_description": "国家元首兼政府首脑；现由罗德里戈·帕斯·佩雷拉(Rodrigo Paz Pereira, 2025-11-08就任)担任。部长由总统任命（Marcela Flores Zambrana于2025年11月上旬获任命），总统直接主持部际议程（如2029玻利瓦尔运动会组委会成立）",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": "BO-GOV-020",
+            "org_name": "Ministry of Sports of Bolivia (Ministerio de Deportes)",
+            "org_type": "GOV",
+            "org_description": "原独立设置的体育部；自2020-11-09阿尔塞政府设立'卫生与体育部'(Decreto 4389起部长头衔即为 Ministro de Salud y Deportes)后，体育职能并入本部，现部内设体育副部长单位（现任副部长Roberto Bustamante Ponce）",
+            "relationship_type": "predecessor"
+        },
+        {
+            "org_id": None,
+            "org_name": "Servicios Departamentales de Salud (SEDES，省级卫生服务局)",
+            "org_type": "GOV",
+            "org_description": "全国9个分权化省级卫生执行机构，负责各省卫生服务网络运行；卫生部通过其落实免疫运动、蚊媒防控与基层医疗设备投放(如BID-5376项目)，新《国家卫生计划》拟与之签订强制性政府间管理协议",
+            "relationship_type": "subsidiary"
+        },
+        {
+            "org_id": None,
+            "org_name": "Pan American Health Organization / World Health Organization (OPS/OMS，泛美卫生组织/世卫组织)",
+            "org_type": "INTL",
+            "org_description": "最重要多边技术合作伙伴：国家卫生计划以PAHO基本公共卫生职能(FESP)为监管框架，2026-09-03部长在PAHO巴西利亚区域会议发布《2026-2030年国家卫生计划》，并在PAHO初级卫生保健区域联盟论坛开展合作",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "United Nations Children's Fund (UNICEF，联合国儿童基金会)",
+            "org_type": "INTL",
+            "org_description": "2026-10与卫生部及9个SEDES联合启动全国疫苗接种传播战略'Confía, Protege, Hazlo Vacunar'，支持儿童免疫覆盖与公众信任建设",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "United Nations Development Programme (PNUD，联合国开发计划署)",
+            "org_type": "INTL",
+            "org_description": "参与《2026-2030年卫生部门计划》编制（2026-03全国磋商研讨会合作方）；现任部长2021-2022年曾任职于PNUD",
+            "relationship_type": "partner"
+        },
+        {
+            "org_id": None,
+            "org_name": "Colegio Médico de Bolivia (玻利维亚医学会)",
+            "org_type": "NGO",
+            "org_description": "全国医师行业组织；2026-09-30在拉巴斯向部长Flores Zambrana提交行动计划，就卫生体系改革与医师权益保持制度化对话",
+            "relationship_type": "partner"
+        }
+    ],
+    "core_business": "玻利维亚卫生与体育部（Ministerio de Salud y Deportes，简称MSD）是多民族国家政府主管全国公共卫生与体育事务的内阁部门，为国家卫生体系的最高监管机构（rector en salud），部址位于拉巴斯。核心职能包括：制定并执行国家卫生政策与《国家卫生计划》（现行为2026-2030年计划，以新《卫生总法》、统一数字病历、一体化基层服务网络、卫生职业公开竞聘与50/50共筹透明管理为五大改革轴心）；监管统一卫生体系(SUS)与卫生保险；运行国家卫生信息系统(SNIS)并建设统一数字病历；组织国家免疫规划（狂犬病、脊髓灰质炎、麻疹等疫苗接种与接种登记RNVE）；开展流行病学监测与登革热、基孔肯雅热等传染病防控；促进传统医学与跨文化卫生服务（SISMET系统）；管理卫生专业人员注册（SIREPRO）、远程医疗（Telesalud）及特定人群计划（Juana Azurduy孕产妇津贴、SAFCI母婴计划、强化食品质量监管SICCAF等）；同时主管全国体育政策、群众与竞技体育发展及国际赛事筹备（2029年拉巴斯玻利瓦尔运动会）。该部1938年设部（初名卫生与清洁部，首任部长Alfredo Mollinedo），几经撤并后1997年恢复为卫生部，2020年11月起与体育合并为现名；现设国家卫生体系管理、促进/流行病学监测与传统医学、体育三个副部长单位，并通过9个省级卫生服务局(SEDES)与市级政府实施全国卫生服务网络。",
+    "industries": [
+        "public_administration",
+        "public_health",
+        "sports"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。该部实际的国际卫生合作框架包括：（1）泛美卫生组织/世界卫生组织（PAHO/WHO）——最重要多边技术伙伴，2026-09-03部长在巴西利亚PAHO区域网络联席会议发布《2026-2030年国家卫生计划》，并依据PAHO基本公共卫生职能(FESP)构建国家监管体系（来源：paho.org）；（2）联合国驻玻系统——UNICEF合作开展全国疫苗接种传播战略（2026-10），UNDP/UNFPA参与卫生部门计划设计（2026-03起，来源：undp.org、bolivia.un.org、minsalud.gob.bo）；（3）安第斯区域卫生合作——2026-09-30加入《安第斯卫生与气候变化计划2026-2031》（安第斯卫生协定组织ORAS CONHU框架，部长履历亦刊于该组织官网，来源：facebook.com/SaludDeportesBo、orasconhu.org）；（4）国际金融机构项目——美洲开发银行(IDB)BID-5376计划支持基层卫生机构设备（2026-10，来源：minsalud.gob.bo）。",
+    "profile": {
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ministerio_de_Salud_y_Deporte.png/330px-Ministerio_de_Salud_y_Deporte.png",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia (es: Ministerio de Salud y Deportes (Bolivia); en: Marcela Flores; es: Archivo:Ministerio de Salud y Deporte.png)",
+            "official_website (minsalud.gob.bo: homepage UCOM news 2026-10, Nómina de Autoridades, footer social & portal links)",
+            "paho.org (Plan Nacional de Salud 2026-2030 presentation, 2026-09-03)",
+            "bolivia.un.org (health system transformation route, 2026-08-04)",
+            "undp.org (Plan Sectorial 2026-2030 consultation, 2026-03-13)",
+            "erbol.com.bo (new health law / digital record / 24-7 care, 2026-09-04)",
+            "reduno.com.bo (President Paz on five reforms, 2026-09-04)",
+            "x.com/@SaludDeportesBo (official account bio)",
+            "facebook.com/SaludDeportesBo (Andean health & climate plan 2026-09-30; El Deber interview posts 2026-10-14)",
+            "orasconhu.org (minister bio)",
+            "commons.wikimedia.org (ministry logo, CC BY-SA 4.0)"
+        ],
+        "completeness_score": 93,
+        "notes": "Phase3 enrichment: verified current ministry name 'Ministerio de Salud y Deportes' (health & sports merged since 2020-11-09 under Arce, structure kept under Paz government) and current minister Marcela Tatiana Flores Zambrana (appointed early Nov 2025 by President Rodrigo Paz) via es.wikipedia, ORAS CONHU, official Nómina de Autoridades page and Oct 2026 El Deber posts — skeleton's 'Ministry of Health' name updated to current merged entity while keeping QID Q44225411. Skeleton social account @MinSaludBolivia replaced by officially confirmed @SaludDeportesBo (X + Facebook) and official YouTube channel per site footer. 3 vice-ministries mapped from official authorities page; 8 recent events 2026-03 to 2026-10 (Plan Nacional de Salud 2026-2030 five-axis reform, UN/UNICEF/UNDP cooperation, dengue/chikungunya and rabies campaigns, COBOLAP 2029); apec_stance states Bolivia is not an APEC member with actual international health cooperation frameworks. Person IDs left null where not present in _name_index.json per ID rules; no departments registered in id_registry.",
+        "quotes": [
+            {
+                "title": "Ministerio de Salud y Deportes (Bolivia) - Wikipedia (es)",
+                "url": "https://es.wikipedia.org/wiki/Ministerio_de_Salud_y_Deportes_(Bolivia)"
+            },
+            {
+                "title": "Autoridades del Ministerio de Salud y Deportes (Nómina de Autoridades, minsalud.gob.bo)",
+                "url": "https://www.minsalud.gob.bo/recursos-humanos/estructura-organizacional/nomina-de-autoridades"
+            },
+            {
+                "title": "Bolivia presenta en Brasilia su Plan Nacional de Salud 2026-2030, enfocado en reingeniería (PAHO/OPS)",
+                "url": "https://www.paho.org/es/noticias/3-9-2026-bolivia-presenta-brasilia-su-plan-nacional-salud-2026-2030-enfocado-reingenieria"
+            },
+            {
+                "title": "Gobierno proyecta nueva Ley de Salud, historia clínica única digital y atención 24/7 (ERBOL)",
+                "url": "https://erbol.com.bo/nacional/gobierno-proyecta-nueva-ley-de-salud-historia-cl%C3%ADnica-%C3%BAnica-digital-y-atenci%C3%B3n-247"
+            },
+            {
+                "title": "Presidente Paz destaca nuevo plan de salud con cinco reformas para 2030 (Red Uno)",
+                "url": "https://www.reduno.com.bo/nacional/presidente-paz-destaca-nuevo-plan-de-salud-con-cinco-reformas-para-2030-20269412311"
+            },
+            {
+                "title": "Dra. Marcela Tatiana Flores Zambrana (ORAS CONHU)",
+                "url": "https://www.orasconhu.org/dra-marcela-tatiana-flores-zambrana"
+            },
+            {
+                "title": "Ministerio de Salud y Deportes Bolivia (@SaludDeportesBo) - X (official account)",
+                "url": "https://x.com/SaludDeportesBo"
+            },
+            {
+                "title": "Bolivia inicia el proceso para el diseño del Plan Sectorial de Salud 2026-2030 (UNDP)",
+                "url": "https://www.undp.org/es/bolivia/noticias/bolivia-inicia-el-proceso-para-el-diseno-del-plan-sectorial-de-salud-2026-2030"
+            }
+        ]
+    }
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("written:", PATH)
+print("bytes:", os.path.getsize(PATH))

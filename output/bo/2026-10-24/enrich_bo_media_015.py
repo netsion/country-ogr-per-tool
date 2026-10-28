@@ -1,0 +1,297 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-MEDIA-015 Radio Panamericana (Bolivia) — phase3_enriched.
+Replaces erroneous skeleton data (Brazilian Jovem Pan, Wikidata Q10358223)
+with verified Radio Panamericana (La Paz, Bolivia) data."""
+import json
+import os
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "orgs", "BO-MEDIA-015.json")
+
+profile = {
+    "org_id": "BO-MEDIA-015",
+    "wikidata_qid": "Q20015623",
+    "basic_info": {
+        "name_original": "Radio Panamericana",
+        "name_zh": "玻利维亚泛美电台",
+        "name_en": "Radio Panamericana",
+        "aliases": [
+            "Panamericana",
+            "Panamericana Noticias",
+            "Radio Panamericana de Bolivia",
+        ],
+        "org_type": "MEDIA",
+        "org_subtype": "broadcaster",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "1972-07-17",
+        "website": "https://www.panamericana.bo/",
+    },
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "@RadPanamericana",
+            "url": "https://x.com/RadPanamericana",
+            "source": "官网HTML元数据及X主页（'Radio Panamericana Oficial Bolivia'，2015年7月加入，La Paz）",
+        },
+        {
+            "platform": "facebook",
+            "account_name": "NoticiasPanamericana",
+            "url": "https://www.facebook.com/NoticiasPanamericana",
+            "source": "官网页脚链接及Facebook主页（'Panamericana Noticias'）",
+        },
+        {
+            "platform": "youtube",
+            "account_name": "@radio.panamericana",
+            "url": "https://www.youtube.com/@radio.panamericana",
+            "source": "YouTube频道（约9,600订阅、548个视频，含每日PANAMERICANA DIGITAL NEWS简报）",
+        },
+        {
+            "platform": "tiktok",
+            "account_name": "@panamericanaradio",
+            "url": "https://www.tiktok.com/@panamericanaradio",
+            "source": "TikTok主页（简介'Las noticias de Bolivia y el mundo desde una perspectiva clara y neutral'）",
+        },
+    ],
+    "digital_assets": [
+        {
+            "name": "Señal EN VIVO（官网在线直播）",
+            "url": "https://www.panamericana.bo/estaticas/senal-en-vivo.html",
+            "description": "官网直播页面，提供96.1 FM（拉巴斯）、106.3 FM（全国）、580 kHz AM、6105 kHz短波信号的在线收听。",
+            "source": "官网导航栏'Señal EN VIVO'",
+        },
+        {
+            "name": "RSS订阅源",
+            "url": "https://www.panamericana.bo/rss/",
+            "description": "数字报纸panamericana.bo全站RSS输出。",
+            "source": "官网HTML源码（alternate链接）",
+        },
+        {
+            "name": "Radio Panamericana de Bolivia（Android应用）",
+            "url": "https://play.google.com/store/apps/details?id=play.radio.panamericana.bolivia",
+            "description": "Google Play商店的电台应用（2026-09-02更新），提供直播流与国内要闻；Wikidata（Q20015623）另记录应用ID com.tumoonapp.radiopanamericana。",
+            "source": "Google Play商店及Wikidata Q20015623",
+        },
+        {
+            "name": "Confidencias de Panamericana（Spotify播客）",
+            "url": "https://open.spotify.com/show/1QTTOh0O10SEFHW9XbXOOf",
+            "description": "电台幽默节目《Confidencias de Panamericana》的Spotify播客，2026年7月仍有单集更新。",
+            "source": "Spotify节目页",
+        },
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Sergio Dueri",
+            "title": "执行台长（Director Ejecutivo）",
+            "title_description": "主持电台经营与全面工作，并主管数字业务（Panamericana Digital）",
+            "description": "杜埃里（Dueri）家族成员。其LinkedIn显示为Radio Panamericana（Media Group S.A.）执行董事；电台官网2025-11-21报道其以执行台长身份于2025-11-20获拉巴斯私营企业家联合会（FEPLP）'2025拉巴斯企业家杰出奖'；2026年9月社交媒体报道称其为'台长（Director General）'。官网《Quiénes Somos》载明数字版（Panamericana Noticias）由其主持，官网页脚技术元数据亦署名sergio.dueri。",
+        },
+        {
+            "person_id": None,
+            "name": "Henry Dueri",
+            "title": "总经理（Gerente）",
+            "title_description": "家族管理层代表，负责电台经营管理",
+            "description": "创始人Miguel Dueri家族后人。2017年曾以'业主总经理（Gerente Propietario）'身份接受45周年台庆采访；2025-07-11代表电台管理层就前台长Daniel Sánchez Rocha去世发表声明，承诺'像保存创始人Miguel Dueri的形象一样保存其遗产'。",
+        },
+        {
+            "person_id": None,
+            "name": "Daniel Sánchez Rocha",
+            "title": "前台长（Director，已故）",
+            "title_description": "长期主持电台编辑与新闻业务（任期至2025年7月去世）",
+            "description": "玻利维亚标志性广播新闻人，执掌泛美电台数十年并培养多代记者，从事新闻工作逾60年；2022年获玻利维亚国家新闻奖（Premio Nacional de Periodismo）最高奖。2025-07-11在拉巴斯去世，电台当天在节目中确认，全国新闻界广泛悼念。",
+        },
+        {
+            "person_id": None,
+            "name": "Johnny Dueri",
+            "title": "技术总监（Responsable del Departamento Técnico）",
+            "title_description": "负责广播发射、卫星与音频传输等技术系统",
+            "description": "工程师（Ing.）。官网《Quiénes Somos》页面载明技术部由其主持（该页未注明更新日期，内容约成于2022年50周年台庆前后）。",
+        },
+    ],
+    "departments": [
+        {
+            "dept_id": None,
+            "name": "技术部（Departamento Técnico）",
+            "head": "Johnny Dueri",
+            "description": "负责广播发射机、卫星系统、AM/FM/短波传输、网络音频流及数字播出设备的技术保障。",
+            "parent_dept_id": None,
+        },
+        {
+            "dept_id": None,
+            "name": "行政与销售部（Administración y Ventas）",
+            "head": "Cecilia Dueri、Germán Núñez、Mabel Pasten",
+            "description": "负责财务行政、经营管理与广告销售等商业事务，官网《Quiénes Somos》载明由三位经理共同负责。",
+            "parent_dept_id": None,
+        },
+        {
+            "dept_id": None,
+            "name": "数字媒体部（Panamericana Digital / Panamericana Noticias）",
+            "head": "Sergio Dueri",
+            "description": "运营数字报纸panamericana.bo、社交平台账号、播客、移动应用及YouTube每日新闻简报等数字化业务。",
+            "parent_dept_id": None,
+        },
+    ],
+    "recent_events": [
+        {
+            "date": "2026-07-17",
+            "title": "电台54周年台庆，总统Rodrigo Paz到台参加特别节目并接受专访",
+            "description": "泛美电台在拉巴斯庆祝开播54周年，玻利维亚总统罗德里戈·帕斯（Rodrigo Paz）到台参加特别节目，祝贺台庆并称赞电台面向信息与政治分析的节目定位；专访中总统就所谓'narcomadera'案的使用政治化问题及玻利维亚国际形象等议题表态。多家媒体（ABI国家通讯社、La Octava、Prensa Latina等）作了报道。",
+            "impact": "凸显该台作为'玻利维亚旗帜电台'的政治影响力，新政府将其作为面向公众的重要发声平台。",
+            "source": "https://abi.bo/presidente-paz-participa-en-la-programacion-especial-por-el-54-aniversario-de-radio-panamericana/",
+        },
+        {
+            "date": "2025-11-20",
+            "title": "执行台长Sergio Dueri获FEPLP'2025拉巴斯企业家杰出奖'",
+            "description": "拉巴斯私营企业家联合会（FEPLP）在'Distinción Empresarial Paceña 2025'评选中表彰执行台长Sergio Dueri，肯定其执掌该国最具影响力媒体之一的履历，以及对准确、公正、可信信息传播的承诺；颁奖典礼在拉巴斯举行。",
+            "impact": "体现玻利维亚商界对电台公信力与新闻专业度的认可。",
+            "source": "https://www.panamericana.bo/articulo/nacional/panamericana-recibe-premio-feplp-2025/20251121114449014468.html",
+        },
+        {
+            "date": "2025-07-11",
+            "title": "前台长Daniel Sánchez Rocha去世",
+            "description": "执掌电台数十年的台长、玻利维亚标志性新闻人Daniel Sánchez Rocha在拉巴斯去世（去世前一天恰逢其生日），电台当天在节目中确认消息；拉巴斯市长Iván Arias、全国记者协会主席Zulema Alanes等各界人士表达哀悼，杜埃里家族管理层承诺保存其遗产。",
+            "impact": "电台失去标志性领导人，编辑传承交由管理层与数字团队延续；玻利维亚广播新闻界普遍视为'一个时代的结束'。",
+            "source": "https://www.noticiasfides.com/nacional/sociedad/fallece-daniel-sanchez-director-de-radio-panamericana",
+        },
+        {
+            "date": "2025-07-18",
+            "title": "玻利维亚新闻界追思致敬Daniel Sánchez Rocha",
+            "description": "去世一周后，《El Diario》等媒体刊发追思致敬报道，缅怀这位泛美电台台长、玻利维亚广播新闻的奠基性人物与记者培养者。",
+            "impact": "巩固其作为玻利维亚新闻界标杆的地位，电台借此强化'传承其遗产'的公共叙事。",
+            "source": "https://www.eldiario.net/portal/2025/07/18/homenaje-postumo-a-daniel-sanchez-rocha/",
+        },
+        {
+            "date": "2026-09-02",
+            "title": "官方安卓应用持续更新，数字化传播矩阵保持活跃",
+            "description": "Google Play商店的'Radio Panamericana de Bolivia'应用于2026年9月2日更新，提供直播流与国内要闻推送；同期电台保持YouTube每日'PANAMERICANA DIGITAL NEWS'简报（10月23日等）与Facebook每日'Informativo Digital'更新，Spotify播客2026年7月仍有单集上线。",
+            "impact": "维持移动端与多平台触达能力，巩固其数字化转型成果。",
+            "source": "https://play.google.com/store/apps/details?id=play.radio.panamericana.bolivia",
+        },
+    ],
+    "related_entities": [
+        {
+            "org_id": "BO-GOV-032",
+            "org_name": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes (ATT)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚电信与交通运输监管总局（ATT），负责电信与广播频谱管理、广播电台执照审批与监管。",
+            "relationship_type": "regulator",
+        },
+        {
+            "org_id": None,
+            "org_name": "Grupo Dueri / Sociedad Mercantil de Radiodifusión Ltda.",
+            "org_type": "CORP",
+            "org_description": "杜埃里（Dueri）家族所有的广播企业；西语维基百科载电台所有者为Sociedad Mercantil de Radiodifusión Ltda.、隶属Grupo Dueri，由实业家Miguel Dueri于1972年创办（该实体未建库，无org_id）。",
+            "relationship_type": "controlling_shareholder",
+        },
+        {
+            "org_id": "BO-MEDIA-013",
+            "org_name": "Erbolaspis (ERBOL)",
+            "org_type": "MEDIA",
+            "org_description": "玻利维亚全国性广播网、拉巴斯主要新闻电台之一，与泛美电台同为玻利维亚最具影响力的广播媒体（同业）。",
+            "relationship_type": "affiliated",
+        },
+        {
+            "org_id": "BO-MEDIA-014",
+            "org_name": "Radio Fides",
+            "org_type": "MEDIA",
+            "org_description": "拉巴斯老牌新闻广播电台（Grupo Fides旗下），与泛美电台同为玻利维亚传统广播同业，常被并列为全国主要电台。",
+            "relationship_type": "affiliated",
+        },
+    ],
+    "core_business": "泛美电台（Radio Panamericana）是玻利维亚历史最悠久、影响力最大的商业新闻广播电台之一，1972年7月17日开播，总部设于拉巴斯，隶属杜埃里家族（Grupo Dueri）旗下的Sociedad Mercantil de Radiodifusión Ltda.。电台为综合型（generalista）广播机构，以新闻与时政报道为核心，内容涵盖国内国际新闻、政治经济分析、访谈、体育、音乐与娱乐节目，以'清晰与中立'（clara y neutral）为编辑方针，自称'玻利维亚的旗帜电台'（la radio bandera de Bolivia）。信号覆盖全国：拉巴斯96.1 FM、全国106.3 FM、580 kHz AM及6105 kHz短波，并通过卫星、官网在线直播、Android应用与数字报纸panamericana.bo实现全天候多平台传播；同时运营X、Facebook、YouTube、TikTok账号及Spotify播客《Confidencias de Panamericana》。下设新闻、技术、行政销售与数字媒体等部门，收入以广告与商业合作为主。",
+    "industries": ["broadcasting", "digital_media"],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。Radio Panamericana为玻利维亚国内广播媒体，业务以国内新闻与时政广播为主，其官网及公开报道中暂未发现该台就APEC或亚太区域经贸合作议题的专门立场表述。",
+    "profile": {
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Radiopanamericanabolivia.png",
+        "local_path": None,
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia",
+            "official_website",
+            "web_search",
+            "news_search",
+            "social_media",
+        ],
+        "completeness_score": 21,
+        "notes": "初版骨架误用巴西Jovem Pan（Wikidata Q10358223）数据，本次富化已全部替换为玻利维亚Radio Panamericana（拉巴斯，96.1 FM）的核实信息：1972-07-17开播，隶属杜埃里家族。现任执行台长Sergio Dueri经LinkedIn、电台官网（2025-11-21报道）及2026年9月报道多源核实；前台长Daniel Sánchez Rocha于2025-07-11去世。官网《Quiénes Somos》未注明更新日期，其中部门负责人（Johnny Dueri等）信息可能滞后。玻利维亚非APEC成员。",
+        "quotes": [
+            {
+                "title": "Quiénes Somos - Radio Panamericana（官网关于我们：1972年创办、Daniel Sánchez/杜埃里家族分工）",
+                "url": "https://www.panamericana.bo/estaticas/quienes-somos.html",
+            },
+            {
+                "title": "Radio Panamericana (Bolivia) - Wikipedia, la enciclopedia libre（频率、所有者、Grupo Dueri、Q20015623）",
+                "url": "https://es.wikipedia.org/wiki/Radio_Panamericana_(Bolivia)",
+            },
+            {
+                "title": "Fallece Daniel Sánchez, director de Radio Panamericana - ANF Agencia de Noticias Fides（2025-07-11）",
+                "url": "https://www.noticiasfides.com/nacional/sociedad/fallece-daniel-sanchez-director-de-radio-panamericana",
+            },
+            {
+                "title": "Presidente Paz participa en la programación especial por el 54 aniversario de Radio Panamericana - ABI（2026-07-17）",
+                "url": "https://abi.bo/presidente-paz-participa-en-la-programacion-especial-por-el-54-aniversario-de-radio-panamericana/",
+            },
+            {
+                "title": "Panamericana recibe distinción al periodismo por la FEPLP 2025（官网，2025-11-21）",
+                "url": "https://www.panamericana.bo/articulo/nacional/panamericana-recibe-premio-feplp-2025/20251121114449014468.html",
+            },
+            {
+                "title": "Sergio Dueri - Executive Director at Radio Panamericana | LinkedIn",
+                "url": "https://bo.linkedin.com/in/sergiodueri",
+            },
+            {
+                "title": "Radio Panamericana celebra 54 años con la participación del Presidente Paz - La Octava Bolivia（2026-07-17）",
+                "url": "https://laoctavabo.com/2026/07/17/radio-panamericana-celebra-54-anos-con-la-participacion-del-presidente-paz/",
+            },
+        ],
+    },
+}
+
+profile["collection_meta"]["completeness_score"] = None  # placeholder, set below
+
+
+def calc_score(d):
+    filled = 0
+    total = 0
+    bi = d.get("basic_info", {})
+    for f in ["name_original", "name_en", "name_zh", "website",
+              "founded_date", "country_iso3", "hq_country_iso3", "org_type", "org_subtype"]:
+        total += 1
+        if bi.get(f):
+            filled += 1
+    for field, weight, cap in [
+        ("key_people", 3, 5),
+        ("social_accounts", 2, 4),
+        ("recent_events", 3, 5),
+        ("related_entities", 2, 4),
+        ("departments", 1, 3),
+        ("digital_assets", 1, 3),
+    ]:
+        items = d.get(field, [])
+        total += weight * cap
+        filled += weight * min(len([x for x in items if x]), cap)
+    for field, weight in [("core_business", 8), ("apec_stance", 4)]:
+        total += weight
+        val = d.get(field)
+        if val and isinstance(val, str):
+            filled += weight if len(val) >= 100 else weight // 2
+    total += 2
+    prof = d.get("profile")
+    if isinstance(prof, dict) and prof.get("source_url"):
+        filled += 2
+    return min(round(filled / total * 100), 100) if total > 0 else 0
+
+
+profile["collection_meta"]["completeness_score"] = calc_score(profile)
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, "w", encoding="utf-8") as f:
+    json.dump(profile, f, ensure_ascii=False, indent=2)
+print("WROTE", OUT)
+print("completeness_score =", profile["collection_meta"]["completeness_score"])
+print("core_business len =", len(profile["core_business"]))
+print("apec_stance len =", len(profile["apec_stance"]))

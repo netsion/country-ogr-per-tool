@@ -1,0 +1,305 @@
+# -*- coding: utf-8 -*-
+"""Write enriched profile for BO-CORP-007 (Minera San Cristobal S.A.)"""
+import json
+
+PATH = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\orgs\BO-CORP-007.json"
+
+data = {
+    "org_id": "BO-CORP-007",
+    "basic_info": {
+        "name_original": "Minera San Cristóbal S.A.",
+        "name_zh": "圣克里斯托瓦尔矿业公司",
+        "name_en": "Minera San Cristóbal S.A.",
+        "aliases": [
+            "San Cristóbal mine",
+            "San Cristobal mine",
+            "MSC",
+            "Minera San Cristobal S.A.",
+            "圣克里斯托瓦尔矿"
+        ],
+        "org_type": "CORP",
+        "org_subtype": "private_company",
+        "country_iso3": "BOL",
+        "hq_country_iso3": "BOL",
+        "founded_date": "2000-01-01",
+        "website": "https://www.minerasancristobal.com/",
+        "wikidata_qid": "Q5555501"
+    },
+    "social_accounts": [
+        {
+            "platform": "facebook",
+            "account_name": "Minera San Cristóbal S.A.",
+            "url": "https://www.facebook.com/minerasancristobal/",
+            "source": "Facebook官方主页，ChequeaBolivia 2021年事实核查确认为官方账号"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "Minera San Cristóbal S.A.",
+            "url": "https://bo.linkedin.com/company/minerasancristobal",
+            "source": "LinkedIn官方公司页（玻利维亚站点）"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "Minera San Cristóbal S.A.",
+            "url": "https://www.youtube.com/channel/UCOWuXIO5bawVPBhkd2vNEOg",
+            "source": "YouTube官方频道"
+        }
+    ],
+    "digital_assets": [
+        {
+            "name": "官方网站",
+            "url": "https://www.minerasancristobal.com/",
+            "description": "公司官网（西班牙语/英语双语），发布企业介绍、运营、可持续发展、供应商与就业信息",
+            "source": "官网首页及站内导航"
+        },
+        {
+            "name": "官方移动应用（Android）",
+            "url": "https://play.google.com/store/apps/details?id=com.minerasancristobal.app",
+            "description": "Google Play上架的MSC官方应用，提供机构信息和公司新闻",
+            "source": "Google Play应用商店页面"
+        },
+        {
+            "name": "可持续发展报告库",
+            "url": "https://www.minerasancristobal.com/v3/es/inicio/noticias-publicaciones/",
+            "description": "在线发布2015-2025年度GRI标准可持续发展报告及新闻公报",
+            "source": "官网新闻与出版物栏目、西语维基百科出版物列表"
+        }
+    ],
+    "key_people": [
+        {
+            "person_id": None,
+            "name": "Quinton Todd Hennigh",
+            "title": "董事会主席（Presidente del Directorio）",
+            "title_description": "Minera San Cristóbal S.A. 董事会主席",
+            "description": "2026年4月30日代表MSC与玻利维亚矿业与冶金部部长卡尔德龙·德拉巴尔卡举行会谈（矿业部新闻稿）。中文译名无可靠公开来源，保留西语原名。"
+        },
+        {
+            "person_id": None,
+            "name": "David Tretbar",
+            "title": "副董事长（Vicepresidente）",
+            "title_description": "Minera San Cristóbal S.A. 董事会副主席",
+            "description": "官网高管页及2026年4月矿业部新闻稿均确认为董事会副主席。中文译名无可靠公开来源，保留西语原名。"
+        },
+        {
+            "person_id": None,
+            "name": "Christopher McGoldrick",
+            "title": "执行总裁（Presidente Ejecutivo）兼董事会秘书（Secretario）",
+            "title_description": "Minera San Cristóbal S.A. 执行总裁（CEO），兼任董事会秘书",
+            "description": "官网高管页列其为MSC执行总裁及董事会秘书。中文译名无可靠公开来源，保留西语原名。"
+        },
+        {
+            "person_id": None,
+            "name": "Ronan Sabo-Walsh",
+            "title": "董事会候补董事（Suplente）；母公司首席财务官",
+            "title_description": "MSC董事会候补董事，San Cristóbal Mining Inc.首席财务官（Chief Financial Officer）",
+            "description": "官网高管页列为董事会候补董事；2026年4月矿业部新闻稿以San Cristóbal Mining首席财务官身份出席会谈。中文译名无可靠公开来源，保留西语原名。"
+        },
+        {
+            "person_id": None,
+            "name": "Javier Díez de Medina",
+            "title": "公司副总裁（Vicepresidente Corporativo）",
+            "title_description": "Minera San Cristóbal S.A. 公司副总裁",
+            "description": "2026年4月30日矿业部新闻稿确认其以MSC公司副总裁身份出席与矿业部长的会谈。中文译名无可靠公开来源，保留西语原名。"
+        },
+        {
+            "person_id": None,
+            "name": "Rodrigo Ágreda",
+            "title": "公司总经理（Gerente Corporativo）",
+            "title_description": "Minera San Cristóbal S.A. 公司总经理",
+            "description": "2026年4月30日矿业部新闻稿确认其以MSC公司总经理身份出席与矿业部长的会谈。中文译名无可靠公开来源，保留西语原名。"
+        }
+    ],
+    "departments": [
+        {
+            "name": "露天采矿场（Tajo abierto）",
+            "dept_id": None,
+            "head": None,
+            "description": "对低品位、大吨位银锌铅矿体进行台阶式露天开采，使用200吨级矿用卡车，借助MineSight三维建模软件和矿山控制中心（GPS）统筹穿孔、爆破、采装与运输",
+            "parent_dept_id": None
+        },
+        {
+            "name": "选矿厂（Planta concentradora）",
+            "dept_id": None,
+            "head": None,
+            "description": "日处理能力约5.2万吨，破碎后矿石经1.7公里皮带输送入厂，经SAG磨矿与浮选产出锌银精矿和铅银精矿；2024年处理矿石1813万吨，作业利用率97%",
+            "parent_dept_id": None
+        },
+        {
+            "name": "铁路专用线（Ramal ferroviario）",
+            "dept_id": None,
+            "head": None,
+            "description": "约65公里精矿与物资运输专用铁路支线，连接乌尤尼至阿巴罗阿公路走廊及国家铁路网；2005年完成最终设计并获铁路环境许可",
+            "parent_dept_id": None
+        },
+        {
+            "name": "文蒂利亚机场（Aeropuerto de Ventilla）",
+            "dept_id": None,
+            "head": None,
+            "description": "服务圣克里斯托瓦尔矿的高原机场（ICAO代码SLTL），配套公司自有航空队，航空运行获IS-BAO认证及OMA No.006维修组织认证",
+            "parent_dept_id": None
+        },
+        {
+            "name": "托尔多斯营区（Campamento Toldos）",
+            "dept_id": None,
+            "head": None,
+            "description": "位于诺尔利佩斯省的公司主营地及注册通讯地址，另在波托西市和拉巴斯设有办事处",
+            "parent_dept_id": None
+        }
+    ],
+    "recent_events": [
+        {
+            "date": "2026-10-16",
+            "title": "获玻利维亚全国工业商会与infoRSE颁发的Industrias con Impacto 2026奖项",
+            "description": "玻利维亚全国工业商会（CNI）与infoRSE杂志（联合欧盟）评出24家领先企业并授予该奖项，MSC位列其中，表彰其在可持续发展和企业社会责任方面的实践",
+            "impact": "强化公司在玻利维亚产业界的ESG声誉，巩固其可持续矿业标杆形象",
+            "source": "https://www.cni.bo/noticias/noticias/716"
+        },
+        {
+            "date": "2026-08-20",
+            "title": "加拿大Labrador Gold宣布完成对母公司San Cristobal Mining Inc.的投资",
+            "description": "Labrador Gold Corp.以约141万美元通过二级市场购入San Cristobal Mining Inc.（持有MSC 100%股权）普通股；新闻稿援引白银协会《World Silver Survey 2026》称，按2025年产量该矿为全球第四大白银生产矿山，年产银约1760万盎司、锌18.4万吨、铅5万吨，选厂日处理能力约5.2万吨",
+            "impact": "母公司股权结构小幅多元化，第三方投资印证矿山全球级资产地位；SCM同时推进矿区银氧化物开发项目评估",
+            "source": "https://www.bnnbloomberg.ca/press-releases/2026/08/20/labrador-gold-announces-investment-in-san-cristobal-mining/"
+        },
+        {
+            "date": "2026-07-08",
+            "title": "发布《2025年可持续发展报告》",
+            "description": "报告经德勤独立核验、符合GRI标准与ICMM原则：2025年缴纳税款、特许权使用费与权利金超过3.14亿美元；生产锌银精矿34.5万吨、铅银精矿8.9万吨，港口发运精矿43.73万吨；采购支出超4.69亿美元惠及1248家供应商；社区投资超91.8万美元；全年无工亡事故，累计近300万小时安全运行；矿区内及相邻区域的钻探与勘探工作已延长矿山寿命",
+            "impact": "以可核查数据支撑其模范矿业定位，为2026年与政府的投资议程提供依据",
+            "source": "https://correodelsur.com/ecos/20260705/minera-san-cristobal-sostenibilidad-con-resultados.html"
+        },
+        {
+            "date": "2026-04-30",
+            "title": "与玻利维亚矿业与冶金部部长会晤，强化PDAC 2026后的矿业投资议程",
+            "description": "矿业与冶金部部长马科·安东尼奥·卡尔德龙·德拉巴尔卡在PDAC 2026大会后与MSC高管会晤，出席者包括董事长昆顿·亨尼希、副董事长戴维·特雷特巴、母公司SCM首席财务官罗南·萨博、公司副总裁哈维尔·迭斯·德·梅迪纳和公司总经理罗德里戈·阿格雷达，双方讨论促进矿业投资、技术创新与就业",
+            "impact": "巩固公司与矿业监管当局的关系，为矿山延寿和矿区新项目投资铺路",
+            "source": "https://www.mineria.gob.bo/index.php/nota_prensa/encuentro-con-minera-san-cristobal-refuerza-la-agenda-de-inversion-minera-tras-el-pdac-2026/"
+        },
+        {
+            "date": "2026-02-11",
+            "title": "获Top Employer认证，评为玻利维亚2026年最佳雇主之一",
+            "description": "MSC宣布被Top Employer认证为2026年玻利维亚最佳雇主之一，其人力资源管理实践获国际验证（公司现有自有员工约1344人、承包商员工约2886人）",
+            "impact": "提升雇主品牌与人才吸引力，佐证其人力资源管理水平",
+            "source": "https://www.inforse.com.bo/2026/02/11/minera-san-cristobal-s-a-reconocida-como-uno-de-los-mejores-empleadores-de-2026-en-bolivia/"
+        },
+        {
+            "date": "2023-02-13",
+            "title": "San Cristóbal Mining Inc.完成对MSC全部股权的收购",
+            "description": "加拿大私营公司San Cristóbal Mining Inc.依股份购买协议从住友商事收购MSC全部已发行股份（通过收购Comercial Metales Blancos AB与SC Minerals Bolivia S.R.L.实现），并完成配套股权与债务融资；住友商事2006年购入35%股权、2009年3月起全资持有后退出",
+            "impact": "公司控制权由日本住友商事转移至加拿大San Cristóbal Mining Inc.，开启储量更新与扩产评估新阶段",
+            "source": "https://financialpost.com/globe-newswire/san-cristobal-mining-inc-completes-acquisition-of-minera-san-cristobal-s-a"
+        }
+    ],
+    "related_entities": [
+        {
+            "org_id": None,
+            "org_name": "San Cristóbal Mining Inc.",
+            "org_type": "CORP",
+            "org_description": "加拿大私营矿业公司，总部位于多伦多，持有MSC 100%股权；愿景是成为全球首要白银生产商",
+            "relationship_type": "parent_org"
+        },
+        {
+            "org_id": None,
+            "org_name": "住友商事 (Sumitomo Corporation)",
+            "org_type": "CORP",
+            "org_description": "日本大型综合商社，2006年从Apex Silver Mines购入MSC 35%股份，2009年3月成为全资股东，2023年2月将全部股权出售给San Cristóbal Mining Inc.",
+            "relationship_type": "predecessor"
+        },
+        {
+            "org_id": None,
+            "org_name": "Apex Silver Mines",
+            "org_type": "CORP",
+            "org_description": "1996年创立的白银矿业公司，1996年起推进圣克里斯托瓦尔项目勘探与开发，2007年矿山投产，系项目原开发方和控股股东（2006年前）",
+            "relationship_type": "predecessor"
+        },
+        {
+            "org_id": "BO-GOV-014",
+            "org_name": "玻利维亚矿业与冶金部 (Ministerio de Minería y Metalurgia)",
+            "org_type": "GOV",
+            "org_description": "玻利维亚主管矿业投资与行业监管的政府部门；2026年4月30日部长卡尔德龙·德拉巴尔卡会见MSC高管，强化PDAC 2026后的投资议程",
+            "relationship_type": "regulator"
+        },
+        {
+            "org_id": None,
+            "org_name": "国际金属与矿业理事会 (ICMM)",
+            "org_type": "NGO",
+            "org_description": "国际矿业行业责任标准组织；2018年5月17日MSC获准加入，成为首家加入该理事会的玻利维亚矿业公司，其可持续发展报告按ICMM原则接受独立核验",
+            "relationship_type": "member_of"
+        },
+        {
+            "org_id": None,
+            "org_name": "联合国人口基金 (UNFPA)",
+            "org_type": "INTL",
+            "org_description": "2025年与MSC合作在科尔查卡市执行青少年与女性健康、权利与赋权项目，并在圣克里斯托瓦尔和里奥格兰德卫生中心设立青少年综合服务认证",
+            "relationship_type": "partner"
+        }
+    ],
+    "core_business": "Minera San Cristóbal S.A.（MSC）是玻利维亚最重要的矿业公司，在波托西州诺尔利佩斯省科尔查卡市运营世界级银-锌-铅多金属露天矿。矿床呈细脉状与浸染状、低品位大吨位特征，采用台阶式露天开采，选矿厂日处理能力约5.2万吨，生产锌银精矿与铅银精矿，并依托约65公里铁路专用线和172公里输电线路等自建基础设施出口。2025年生产锌银精矿约34.5万吨、铅银精矿8.9万吨，白银产量约1760万盎司，为全球第四大白银生产矿山；同年向玻利维亚政府缴纳税费、特许权使用费与权利金超过3.14亿美元。公司现为加拿大San Cristóbal Mining Inc.全资子公司，项目累计投资约18亿美元，自有员工约1344人（含承包商合计约4230人），2018年成为首家加入国际金属与矿业理事会（ICMM）的玻利维亚矿企，并通过矿区内外的钻探勘探持续延长矿山寿命。",
+    "industries": [
+        "mining",
+        "metal_mining"
+    ],
+    "apec_stance": "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。",
+    "profile": {
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bolivia_Map.jpg/330px-Bolivia_Map.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "local_path": None
+    },
+    "collection_meta": {
+        "collection_date": "2026-10-24",
+        "phase": "phase3_enriched",
+        "data_sources": [
+            "wikidata",
+            "wikipedia_es",
+            "official_website",
+            "mineria.gob.bo（矿业与冶金部新闻稿2026-04-30）",
+            "bnnbloomberg.ca/GlobeNewswire（Labrador Gold新闻稿2026-08-20）",
+            "correodelsur.com（2026-07-08可持续发展报道）",
+            "cni.bo（CNI获奖公告2026-10-16）",
+            "inforse.com.bo（Top Employer 2026报道2026-02-11）",
+            "financialpost.com/GlobeNewswire（SCM收购完成公告2023-02-13）",
+            "prnewswire.com（ICMM入会新闻稿2018-05-17）",
+            "facebook/linkedin/youtube官方账号"
+        ],
+        "completeness_score": 15,
+        "quotes": [
+            {
+                "title": "Minera San Cristóbal - Wikipedia, la enciclopedia libre",
+                "url": "https://es.wikipedia.org/wiki/Minera_San_Crist%C3%B3bal"
+            },
+            {
+                "title": "Equipo Ejecutivo – Minera San Cristóbal S.A.（官网高管团队页）",
+                "url": "https://www.minerasancristobal.com/v3/es/inicio/nuestra-empresa/equipo-ejecutivo/"
+            },
+            {
+                "title": "Encuentro con Minera San Cristóbal refuerza la agenda de inversión minera tras el PDAC 2026（矿业与冶金部）",
+                "url": "https://www.mineria.gob.bo/index.php/nota_prensa/encuentro-con-minera-san-cristobal-refuerza-la-agenda-de-inversion-minera-tras-el-pdac-2026/"
+            },
+            {
+                "title": "Labrador Gold Announces Investment in San Cristobal Mining（GlobeNewswire via BNN Bloomberg）",
+                "url": "https://www.bnnbloomberg.ca/press-releases/2026/08/20/labrador-gold-announces-investment-in-san-cristobal-mining/"
+            },
+            {
+                "title": "Minera San Cristóbal: Sostenibilidad con resultados（Correo del Sur）",
+                "url": "https://correodelsur.com/ecos/20260705/minera-san-cristobal-sostenibilidad-con-resultados.html"
+            },
+            {
+                "title": "24 empresas son reconocidas como industrias con impacto 2026（CNI）",
+                "url": "https://www.cni.bo/noticias/noticias/716"
+            }
+        ],
+        "notes": "phase3 enrichment (2026-10-24): 领导层经官网高管页与矿业部新闻稿双重核实（人名无可靠中文译名，保留西语原名）；2025-2026年近事6条均有来源URL；股权沿革（Apex Silver-住友商事-SCM）经维基百科与新闻稿交叉核实。玻利维亚非APEC成员，apec_stance按事实填写。Nor Lípez社区对玻利维亚政府的ICSID仲裁案及历史社区冲突（如2010年封锁）因本次检索未能获得足量独立可靠来源，未单列相关实体。id_registry未改动。"
+    }
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Written:", PATH)
+
+# sanity check
+with open(PATH, encoding="utf-8") as f:
+    chk = json.load(f)
+print("org_id:", chk["org_id"], "| key_people:", len(chk["key_people"]),
+      "| events:", len(chk["recent_events"]), "| related:", len(chk["related_entities"]),
+      "| depts:", len(chk["departments"]), "| social:", len(chk["social_accounts"]),
+      "| digital:", len(chk["digital_assets"]))

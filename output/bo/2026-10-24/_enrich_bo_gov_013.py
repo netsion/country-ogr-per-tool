@@ -1,0 +1,393 @@
+# -*- coding: utf-8 -*-
+"""Enrich BO-GOV-013 (Ministerio de Obras Publicas, Servicios y Vivienda)."""
+import json
+
+PATH = r"D:/claude-workspace/apec-osint-tool/output/bo/2026-10-24/orgs/BO-GOV-013.json"
+
+with open(PATH, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+data["basic_info"]["name_original"] = "Ministerio de Obras Públicas, Servicios y Vivienda"
+data["basic_info"]["name_zh"] = "玻利维亚公共工程、服务与住房部"
+data["basic_info"]["name_en"] = "Ministry of Public Works, Services, and Housing"
+data["basic_info"]["aliases"] = ["MOPSV", "Ministerio de Obras Públicas"]
+data["basic_info"]["founded_date"] = "2006-01-22"
+data["basic_info"]["website"] = "https://www.oopp.gob.bo"
+data["basic_info"]["wikidata_qid"] = "Q42331387"
+
+data["social_accounts"] = [
+    {
+        "platform": "facebook",
+        "account_name": "mopsv.bolivia",
+        "url": "https://www.facebook.com/mopsv.bolivia",
+        "source": "官方网站页脚 https://www.oopp.gob.bo（2026-10-24 访问核实）",
+    },
+    {
+        "platform": "twitter_x",
+        "account_name": "@mopsv_bolivia",
+        "url": "https://x.com/mopsv_bolivia",
+        "source": "官方网站页脚 https://www.oopp.gob.bo（2026-10-24 访问核实）",
+    },
+    {
+        "platform": "instagram",
+        "account_name": "@mopsv_bolivia",
+        "url": "https://www.instagram.com/mopsv_bolivia",
+        "source": "官方网站页脚 https://www.oopp.gob.bo（2026-10-24 访问核实）",
+    },
+    {
+        "platform": "youtube",
+        "account_name": "Ministerio de Obras Públicas BO",
+        "url": "https://www.youtube.com/@MinisteriodeObrasPublicasBO",
+        "source": "官方网站页脚 https://www.oopp.gob.bo（2026-10-24 访问核实）",
+    },
+    {
+        "platform": "tiktok",
+        "account_name": "@minobraspublicasbolivia",
+        "url": "https://www.tiktok.com/@minobraspublicasbolivia",
+        "source": "官方网站页脚 https://www.oopp.gob.bo（2026-10-24 访问核实）",
+    },
+]
+
+data["digital_assets"] = [
+    {
+        "name": "机构门户网站（oopp.gob.bo）",
+        "url": "https://www.oopp.gob.bo",
+        "description": "官方网站：发布新闻稿、公告、公开账户报告（rendición de cuentas）及下属机构导航",
+        "source": "官方网站（2026-10-24 访问核实）",
+    },
+    {
+        "name": "Tranca Cero 数字货运称重平台",
+        "url": "https://trancacero.gob.bo",
+        "description": "玻利维亚道路货运车辆称重与管控数字平台（官网页脚提供的登录入口）",
+        "source": "官方网站页脚（2026-10-24 访问核实）",
+    },
+]
+
+data["key_people"] = [
+    {
+        "person_id": None,
+        "name": "毛里西奥·萨莫拉·利伯斯（Mauricio Zamora Liebers）",
+        "title": "Ministro de Obras Públicas, Servicios y Vivienda（公共工程、服务与住房部部长）",
+        "title_description": "现任部长，2025年11月罗德里戈·帕斯新政府组阁后出任",
+        "description": '圣克鲁斯企业家出身，在圣克鲁斯和拉巴斯经营"Tinto""Morada"餐厅，涉足葡萄酒与酒店业，无大学学历背景。2025年11月9日随帕斯总统内阁宣誓就任（官网新闻稿11月19日发布）。任内先后被任命兼任生产发展临时部长（2026年7月）、经济与公共财政临时部长（2026年9月30日，公报第2109NEC期）、可持续生产、环境与水临时部长（2026年10月10日，最高法令第5743号），反映新政府精简内阁、一人多岗的特点。',
+    },
+    {
+        "person_id": None,
+        "name": "威尔伯·萨尔瓦多·弗洛雷斯·布斯蒂略斯（Wilber Salvador Flores Bustillos）",
+        "title": "Viceministro de Telecomunicaciones（电信副部长）",
+        "title_description": "现任电信副部长，2025年11月21日就任",
+        "description": "2025年11月21日由部长萨莫拉任命就任电信副部长，负责电信与信息社会政策监管，主管ATT、Entel、玻利维亚邮政局、ABE、Prontis 等机构事务。",
+    },
+    {
+        "person_id": None,
+        "name": "乌戈·克里亚莱斯·胡拉多（Hugo Criales Jurado）",
+        "title": "Viceministro de Transportes（交通副部长）",
+        "title_description": "现任交通副部长，2025年12月16日就任",
+        "description": "拉巴斯省人，时年49岁。2025年12月16日由部长萨莫拉任命就任交通副部长，优先推动国家公路网养护、与自由运输联合会等运输部门协调对话，并多次赴现场督导桥梁道路工程。",
+    },
+    {
+        "person_id": None,
+        "name": "乔舒亚·阿尔弗雷多·贝略特·萨恩斯（Joshua Alfredo Bellott Sáenz）",
+        "title": "Viceministro de Vivienda y Urbanismo（住房与城市副部长）",
+        "title_description": "现任住房与城市副部长，2025年11月21日就任",
+        "description": "2025年11月21日由部长萨莫拉任命就任住房与城市副部长，负责住房政策、城市主义及产权规范化登记（PROREVI）、国家住房署（AEVIVIENDA）等下属项目机构事务。",
+    },
+]
+
+data["departments"] = [
+    {
+        "name": "交通副部长办公室（Viceministerio de Transportes）",
+        "dept_id": None,
+        "head": "乌戈·克里亚莱斯·胡拉多（Hugo Criales Jurado）",
+        "description": "负责公路、铁路、航空与多式联运的政策制定与监管，主管玻利维亚公路管理局（ABC）、玻利维亚航空（BoA）、民航总局（DGAC）、玻利维亚国家建筑公司（EBC）、Mi Teleférico 索道公司、机场与空管公司（NAABOL）及 Vías Bolivia 等机构。",
+        "parent_dept_id": "BO-GOV-013",
+    },
+    {
+        "name": "电信副部长办公室（Viceministerio de Telecomunicaciones）",
+        "dept_id": None,
+        "head": "威尔伯·萨尔瓦多·弗洛雷斯·布斯蒂略斯（Wilber Salvador Flores Bustillos）",
+        "description": "负责电信与信息社会发展政策及监管，主管电信与运输监管局（ATT）、国家电信公司（Entel）、玻利维亚邮政局、玻利维亚航天局（ABE）及国家电信社会包容计划（Prontis）等机构。",
+        "parent_dept_id": "BO-GOV-013",
+    },
+    {
+        "name": "住房与城市副部长办公室（Viceministerio de Vivienda y Urbanismo）",
+        "dept_id": None,
+        "head": "乔舒亚·阿尔弗雷多·贝略特·萨恩斯（Joshua Alfredo Bellott Sáenz）",
+        "description": "负责国家住房政策与城市主义，主管国家住房署（AEVIVIENDA）、住房产权规范化计划（PROREVI）、拉巴斯通信中心（CCLP）及产权登记执行单元（Unidad Ejecutora de Titulación）等机构。",
+        "parent_dept_id": "BO-GOV-013",
+    },
+]
+
+data["recent_events"] = [
+    {
+        "date": "2025-11-09",
+        "title": "毛里西奥·萨莫拉就任公共工程、服务与住房部部长",
+        "description": "罗德里戈·帕斯·佩雷拉11月8日就任总统后组建新内阁，企业家萨莫拉·利伯斯11月9日随内阁宣誓就任部长（官网新闻稿2025年11月19日发布确认）。原部长埃德加·蒙塔尼奥（Edgar Montaño，阿尔塞政府）卸任。",
+        "impact": "部门领导层更替，政策转向新政府'玻利维亚优先'施政路线，人事与项目优先级全面调整。",
+        "source": "https://www.oopp.gob.bo/nota_prensa/mauricio-zamora-nuevo-ministro-de-obras-publicas-servicios-y-vivienda/",
+    },
+    {
+        "date": "2025-11-21",
+        "title": "部长萨莫拉任命电信、住房两位副部长及多家战略机构负责人",
+        "description": "威尔伯·弗洛雷斯·布斯蒂略斯就任电信副部长，乔舒亚·贝略特·萨恩斯就任住房与城市副部长；同批任命包括塔里哈人埃内斯托·法尔凡（Ernesto Farfán）出任ABC公路管理局执行主席等战略机构领导。",
+        "impact": "新政府完成部门中层架构与下属战略机构人事布局，为后续项目推进铺路。",
+        "source": "https://www.oopp.gob.bo/nota_prensa/posesionan-a-los-viceministros-de-telecomunicaciones-y-de-vivienda-y-urbanismo/",
+    },
+    {
+        "date": "2025-12-16",
+        "title": "乌戈·克里亚莱斯就任交通副部长",
+        "description": "克里亚莱斯·胡拉多由部长萨莫拉任命就任交通副部长，承诺'以不同方式做事'，优先处理公路养护和与运输行业的沟通协调。",
+        "impact": "交通口领导到位，随即与自由运输联合会等协调养护事宜，回应因燃油和汇率问题引发的行业紧张。",
+        "source": "https://www.oopp.gob.bo/nota_prensa/hugo-criales-jurado-es-el-nuevo-viceministro-de-transporte/",
+    },
+    {
+        "date": "2026-05-25",
+        "title": "全国道路封锁冲突期间部长呼吁避免对抗并尝试人道主义通道",
+        "description": "反对派及多个社会部门发动封锁抗议之际，萨莫拉呼吁避免与封锁者发生冲突，并透露政府尝试开辟人道主义通道；5月5日他曾警告存在'去稳定化进程'并指称抗议背后有资金动员。",
+        "impact": "全国公路运输和物流受阻，部门公路养护与施工项目进度受到影响，政府与抗议部门的对话空间受限。",
+        "source": "https://www.instantaneas.org.bo/2026/05/25/politica/zamora-evitar-enfrentamientos-bloqueadores-bolivia",
+    },
+    {
+        "date": "2026-07-09",
+        "title": "公共工程部与ABC、CAF推进公路项目提升全国互联互通",
+        "description": "公共工程部与玻利维亚公路管理局（ABC）同拉美开发银行（CAF）举行会议，推动公路项目融资与技术合作，以加强国家公路网'超连通'（hiperconectividad）。",
+        "impact": "为新政府公路投资计划争取多边融资支持，强化与国际开发银行的合作关系。",
+        "source": "https://abi.bo/obras-publicas-abc-y-caf-impulsan-proyectos-viales-para-fortalecer-la-hiperconectividad-en-el-pais/",
+    },
+    {
+        "date": "2026-09-10",
+        "title": "政府宣布22亿玻利维亚诺圣克鲁斯道路建设与修复历史性一揽子计划",
+        "description": "政府宣布规模达22亿玻利维亚诺（Bs 2.200 millones）的圣克鲁斯省道路建设与修复一揽子计划，并推进约5500万美元项目的可行性。",
+        "impact": "圣克鲁斯作为经济重心获得大规模公路投资，改善东部农产品出口运输条件并带动建筑业。",
+        "source": "https://www.instagram.com/p/DdIId4mjfai/",
+    },
+    {
+        "date": "2026-10-09",
+        "title": "拉巴斯-科恰班巴新公路（Río Abajo 线）前两个路段研究更新启动",
+        "description": "部长萨莫拉宣布新拉巴斯-科恰班巴公路（经 Río Abajo）项目通过更新前两个路段的可行性研究迈出实质步伐。",
+        "impact": "连接全国两大城市的新通道进入前期实施阶段，有望分流现有高速并提升两地通行能力。",
+        "source": "https://www.oopp.gob.bo/nota_prensa/ministro-zamora-nueva-via-la-paz-cochabamba-por-rio-abajo-comienza-a-hacerse-realidad-con-la-actualizacion-de-estudios-de-sus-dos-primeros-tramos/",
+    },
+    {
+        "date": "2026-10-10",
+        "title": "萨莫拉获任第三个临时部长职务（可持续生产、环境与水部）",
+        "description": "最高法令第5743号任命萨莫拉兼任可持续生产、环境与水部临时部长；此前9月30日公报已任命其为临时经济与公共财政部长，7月曾兼任生产发展临时部长。",
+        "impact": "部长一人身兼四部，显示新政府内阁精简但治理压力集中，或影响公共工程主责部门的精力分配。",
+        "source": "https://www.pixilegal.com/normativa/decreto-5743-2026-10-10",
+    },
+    {
+        "date": "2026-10-13",
+        "title": "部长在 Urupabol 展会推动水道（Hidrovía）与布希港项目",
+        "description": "萨莫拉在圣克鲁斯 Urupabol 国际展表示将推动巴拉圭-巴拉那水道及布希港（Puerto Busch）项目，目标使布希港成为玻利维亚通往大西洋的战略出海口。",
+        "impact": "强化东部出海口战略与区域互联互通布局，为农牧业出口提供替代通道，需与巴西、巴拉圭协调。",
+        "source": "https://test2.larazon.bo/economia-y-empresa/2026/10/13/zamora-impulsara-proyectos-de-hidrovia-y-puerto-busch-en-urupabol/",
+    },
+    {
+        "date": "2026-10-23",
+        "title": "部长与玻利维亚航空（BoA）工人达成协议，排除飞机运营风险",
+        "description": "萨莫拉在科恰班巴与 BoA 工人代表会晤后达成协议，官方通报称'飞机不存在运营风险'，劳资争议暂告化解；同日官网还通报了埃尔阿尔托气瓶检修、Mi Teleférico 黄线延伸至8区等项目进展。",
+        "impact": "旗舰国有航空公司运营恢复稳定，避免机队停飞对国内航空联通的冲击。",
+        "source": "https://www.oopp.gob.bo/notas-de-prensa/",
+    },
+]
+
+data["related_entities"] = [
+    {
+        "org_id": "BO-GOV-001",
+        "org_name": "玻利维亚总统（Presidencia del Estado Plurinacional de Bolivia）",
+        "org_type": "GOV",
+        "org_description": "国家元首与行政首脑，部长由总统任命，部门向总统负责。",
+        "relationship_type": "parent_org",
+    },
+    {
+        "org_id": "BO-GOV-037",
+        "org_name": "玻利维亚公路管理局（Administradora Boliviana de Carreteras, ABC）",
+        "org_type": "GOV",
+        "org_description": "国家公路网建设、养护与特许经营管理的执行机构，隶属交通副部长办公室；2025年11月起执行主席为埃内斯托·法尔凡（Ernesto Farfán）。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-GOV-032",
+        "org_name": "电信与运输监管局（ATT）",
+        "org_type": "GOV",
+        "org_description": "电信与运输行业的监管与审计机构，隶属电信副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-GOV-034",
+        "org_name": "民航总局（DGAC）",
+        "org_type": "GOV",
+        "org_description": "民用航空的行业管理与安全监管机构，隶属交通副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-GOV-035",
+        "org_name": "玻利维亚航天局（ABE）",
+        "org_type": "GOV",
+        "org_description": "国家航天与卫星事务机构（Tupac Katari 卫星运营方），隶属电信副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-SOE-004",
+        "org_name": "国家电信公司（Entel Bolivia）",
+        "org_type": "SOE",
+        "org_description": "国有电信运营商，隶属电信副部长办公室管辖的国有关联企业。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-SOE-005",
+        "org_name": "玻利维亚航空（Boliviana de Aviación, BoA）",
+        "org_type": "SOE",
+        "org_description": "国有旗舰航空公司，隶属交通副部长办公室；2026年10月劳资协议后运营恢复稳定。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-SOE-007",
+        "org_name": "Mi Teleférico（拉巴斯-埃尔阿尔托索道公司）",
+        "org_type": "SOE",
+        "org_description": "国有城市索道运营商，隶属交通副部长办公室；正推进黄线向埃尔阿尔托8区延伸项目。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "玻利维亚邮政局（Agencia Boliviana de Correos）",
+        "org_type": "GOV",
+        "org_description": "国家邮政公共服务机构，隶属电信副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "国家住房署（AEVIVIENDA）",
+        "org_type": "GOV",
+        "org_description": "国家住房保障与社会保障房建设执行机构，隶属住房与城市副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "玻利维亚国家建筑公司（EBC）",
+        "org_type": "SOE",
+        "org_description": "国有建筑企业，承担公共工程项目建设，隶属交通副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "玻利维亚机场与空管公司（NAABOL）",
+        "org_type": "SOE",
+        "org_description": "国有机场运营与空中导航服务公司，隶属交通副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "Vías Bolivia",
+        "org_type": "GOV",
+        "org_description": "道路特许经营与公路基础设施管理机构，隶属交通副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "Mi Tren（国家铁路公司）",
+        "org_type": "SOE",
+        "org_description": "国有铁路项目公司，负责城市及区域铁路（如科恰班巴城铁）建设运营。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": None,
+        "org_name": "国家电信社会包容计划（Prontis）",
+        "org_type": "GOV",
+        "org_description": "推动农村及偏远地区电信普遍服务的国家计划，隶属电信副部长办公室。",
+        "relationship_type": "subsidiary",
+    },
+    {
+        "org_id": "BO-INTL-005",
+        "org_name": "拉丁美洲和加勒比开发银行（CAF）",
+        "org_type": "INTL",
+        "org_description": "区域多边开发银行，2026年与公共工程部及ABC合作推进国家公路网'超连通'项目融资。",
+        "relationship_type": "partner",
+    },
+]
+
+data["core_business"] = (
+    "公共工程、服务与住房部（MOPSV）是玻利维亚主管公共工程、交通运输、电信服务与住房城市事务的内阁部门，"
+    "核心职能为规划、建设、促进和管理全国公共工程与基础设施：制定并执行国家公路网建设与养护政策，通过下属机构管理"
+    "公路（ABC、Vías Bolivia）、航空（BoA、DGAC、NAABOL）、铁路与城市索道（Mi Tren、Mi Teleférico）、国有建筑（EBC）"
+    "等运输基础设施；通过电信副部长办公室和电信与运输监管局（ATT）承担电信与运输行业监管职能，推动电信普遍服务"
+    "（Prontis）、邮政服务与航天卫星事务（ABE）；在住房领域负责住房与城市政策、产权规范化登记（PROREVI）及国家住房署"
+    "（AEVIVIENDA）保障房项目。部门还推动柴油车改天然气（GNV）、道路安全与数字称重管控（Tranca Cero）、水道与布希港"
+    "大西洋出海口等重点项目，并代表国家参与南美洲区域基础设施一体化合作（IIRSA/COSIPLAN）。总部位于拉巴斯马里斯卡尔·"
+    "圣克鲁斯大道通信中心大楼。"
+)
+
+data["industries"] = [
+    "public_administration",
+    "construction",
+    "transportation",
+    "telecommunications",
+    "real_estate",
+]
+
+data["apec_stance"] = (
+    "玻利维亚不是APEC成员（APEC现有21个成员经济体，玻利维亚未加入）。在区域基础设施合作方面，玻利维亚是南美洲基础设施"
+    "一体化倡议（IIRSA）及南美洲基础设施与规划理事会（COSIPLAN）的12个南美成员国之一（来源：IIRSA官网成员国页面），"
+    "国家协调机制负责对接区域一体化基础设施议程；公共工程、服务与住房部是对接该议程的主要执行部门——2026年部长萨莫拉"
+    "提出建设'现代化、超连通的玻利维亚'五大支柱（含道路联通），并推动巴拉圭-巴拉那水道及布希港（Puerto Busch）通往"
+    "大西洋的出海口项目，与巴西、巴拉圭等邻国开展跨境互联互通合作（来源：MOPSV官网新闻稿；ABI 2026-07-09；La Razón "
+    "2026-10-13）。"
+)
+
+data["profile"] = (
+    "玻利维亚公共工程、服务与住房部（MOPSV）总部设于拉巴斯马里斯卡尔·圣克鲁斯大道与奥鲁罗街交界的通信中心大楼，"
+    "下设电信、交通、住房与城市三个副部长办公室，管理ABC、ATT、ABE、DGAC、Entel、BoA、Mi Teleférico、NAABOL、EBC、"
+    "Vías Bolivia、Mi Tren 等十余家下属机构。现行建制的MOPSV名称自2006年起沿用（前身可追溯至2001年住房与基础服务部、"
+    "2003年服务与公共工程部）。2025年11月罗德里戈·帕斯新政府上台后，圣克鲁斯企业家毛里西奥·萨莫拉·利伯斯出任部长，"
+    "并先后兼任生产发展、经济与公共财政、环境与水等部临时部长。部门当前施政重点包括国家公路网养护与扩建、拉巴斯-"
+    "科恰班巴新公路、圣克鲁斯22亿玻利维亚诺道路计划、水道与布希港出海口战略、GNV车辆改装及住房保障，并与CAF等区域"
+    "开发银行保持融资合作。"
+)
+
+data["collection_meta"] = {
+    "collection_date": "2026-10-24",
+    "phase": "phase3_enriched",
+    "data_sources": [
+        "wikidata",
+        "wikipedia",
+        "official_website",
+        "web_search",
+        "news_media",
+        "gaceta_oficial_de_bolivia",
+        "abi.bo",
+        "iirsa.org",
+    ],
+    "completeness_score": 85,
+    "notes": "现任部长及三位副部长均经官网新闻稿与多家独立媒体（Opinión、El Alteño、La Voz de Tarija、instantaneas）交叉核实。founded_date 2006-01-22 指现行 MOPSV 建制首任部长就任日（es.wikipedia 部长名录）。apec_stance 中 IIRSA/COSIPLAN 成员身份来自 iirsa.org。相关实体 org_id 均来自 _name_index.json，未命中者为 null。",
+    "quotes": [
+        {
+            "title": "Mauricio Zamora, nuevo ministro de Obras Públicas, Servicios y Vivienda",
+            "url": "https://www.oopp.gob.bo/nota_prensa/mauricio-zamora-nuevo-ministro-de-obras-publicas-servicios-y-vivienda/",
+        },
+        {
+            "title": "Posesionan a los viceministros de Telecomunicaciones y de Vivienda y Urbanismo",
+            "url": "https://www.oopp.gob.bo/nota_prensa/posesionan-a-los-viceministros-de-telecomunicaciones-y-de-vivienda-y-urbanismo/",
+        },
+        {
+            "title": "Ministro Zamora: Nueva vía La Paz-Cochabamba por Río Abajo comienza a hacerse realidad",
+            "url": "https://www.oopp.gob.bo/nota_prensa/ministro-zamora-nueva-via-la-paz-cochabamba-por-rio-abajo-comienza-a-hacerse-realidad-con-la-actualizacion-de-estudios-de-sus-dos-primeros-tramos/",
+        },
+        {
+            "title": "Obras Públicas, ABC y CAF impulsan proyectos viales para fortalecer la hiperconectividad en el país",
+            "url": "https://abi.bo/obras-publicas-abc-y-caf-impulsan-proyectos-viales-para-fortalecer-la-hiperconectividad-en-el-pais/",
+        },
+        {
+            "title": "Zamora impulsará proyectos de Hidrovía y Puerto Busch en Urupabol",
+            "url": "https://test2.larazon.bo/economia-y-empresa/2026/10/13/zamora-impulsara-proyectos-de-hidrovia-y-puerto-busch-en-urupabol/",
+        },
+        {
+            "title": "Ministro Zamora pide evitar enfrentamientos con bloqueadores en Bolivia",
+            "url": "https://www.instantaneas.org.bo/2026/05/25/politica/zamora-evitar-enfrentamientos-bloqueadores-bolivia",
+        },
+    ],
+}
+
+with open(PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("OK - BO-GOV-013 enriched, written to", PATH)

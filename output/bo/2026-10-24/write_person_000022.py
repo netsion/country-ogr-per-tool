@@ -1,0 +1,286 @@
+# -*- coding: utf-8 -*-
+"""Write person profile BO-PERSON-000022 (Félix Patzi Paco) as UTF-8 JSON."""
+import json
+import os
+
+OUT_DIR = r"D:\claude-workspace\apec-osint-tool\output\bo\2026-10-24\persons"
+OUT_PATH = os.path.join(OUT_DIR, "BO-PERSON-000022.json")
+os.makedirs(OUT_DIR, exist_ok=True)
+
+data = {
+    "person_id": "BO-PERSON-000022",
+    "wikidata_qid": "Q5511626",
+    "name": "Félix Patzi Paco",
+    "name_en": "Félix Patzi Paco",
+    "name_zh": "费利克斯·帕齐",
+    "aliases": ["Félix Patzi", "Felix Patzi", "Patzi Paco"],
+    "nationality": "BO",
+    "gender": "male",
+    "birth_date": "1967-02-21",
+    "birth_place": "玻利维亚拉巴斯省阿罗马县科伦查 (Colquencha, Aroma, La Paz, Bolivia)",
+    "birth_place_note": "出生于拉巴斯省阿罗马县科伦查镇的圣地亚哥·德拉亚瓜社区（Santiago de Llallagua），资料见其本人简历及英/西语维基百科；Wikidata（P19）则记载出生地为拉巴斯市。",
+    "name_zh_note": "Wikidata 无中文标签，无中文维基百科条目，玻利维亚华文媒体及中国大陆媒体均查无权威译名。「费利克斯·帕齐」为本项目内通行音译写法，予以沿用并在此注明。",
+    "religion": "安第斯宇宙观 (Cosmovisión andina)",
+    "languages": ["西班牙语", "艾马拉语（母语）"],
+    "current_positions": [
+        "第三体系运动党主席（全国领袖）",
+        "人民联盟主席",
+        "圣安德烈斯大学社会学与教育学科系荣休教授"
+    ],
+    "education": [
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "bachelor",
+            "field": "社会学",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "圣安德烈斯大学发展研究高等学院 (CIDES-UMSA)",
+            "degree": "master",
+            "field": "农业发展",
+            "start_date": None,
+            "end_date": None
+        },
+        {
+            "institution": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "degree": "doctorate",
+            "field": "发展科学",
+            "start_date": None,
+            "end_date": None
+        }
+    ],
+    "education_note": "本人简历及2015年《El Diario》访谈自述：「我学的是社会学，拥有农业发展硕士学位和发展科学博士学位（Ph.D.）」。Instagram 上的MTS竞选视频亦提到其硕士（农业发展方向）修读于CIDES-UMSA并完成发展科学博士课程。另据西语维基百科信息框，还拥有社会学硕士学位（单一来源，未采信为主条目）。攻读社会学学士学位的时间未查到。",
+    "work_experience": [
+        {
+            "start_date": "1993",
+            "end_date": None,
+            "organization": "圣安德烈斯大学 (Universidad Mayor de San Andrés)",
+            "org_id": "BO-ACAD-001",
+            "position": "社会学与教育学科系专任教授（现为荣休教授）",
+            "is_current": "true"
+        },
+        {
+            "start_date": "2006-01-23",
+            "end_date": "2007-01-23",
+            "organization": "玻利维亚教育部 (Ministerio de Educación de Bolivia)",
+            "org_id": "BO-GOV-008",
+            "position": "教育部长",
+            "is_current": "false"
+        },
+        {
+            "start_date": None,
+            "end_date": None,
+            "organization": "拉巴斯省政府 (Prefectura de La Paz)",
+            "org_id": None,
+            "position": "省政府秘书长",
+            "is_current": "false"
+        },
+        {
+            "start_date": "2010-03-21",
+            "end_date": None,
+            "organization": "第三体系运动 (Movimiento Tercer Sistema)",
+            "org_id": "BO-PARTY-012",
+            "position": "党主席（全国领袖）",
+            "is_current": "true"
+        },
+        {
+            "start_date": "2015-05-31",
+            "end_date": "2021-05-03",
+            "organization": "拉巴斯省政府 (Gobernación del Departamento de La Paz)",
+            "org_id": None,
+            "position": "省长",
+            "is_current": "false"
+        },
+        {
+            "start_date": "2025-04-17",
+            "end_date": None,
+            "organization": "人民联盟 (Alianza Popular)",
+            "org_id": "BO-PARTY-014",
+            "position": "主席",
+            "is_current": "true"
+        }
+    ],
+    "work_note": "党籍沿革：MAS-IPSP（2006-2010）→ 竞选联盟SOL.bo（2010-2015）→ IPC/MTS（2010年创党至今）→ 2025年起隶属人民联盟。2009年任拉巴斯省政府秘书长（省长Pablo Ramos Sánchez任内，2009年7月在任，起止月不详）；2010年2月曾获提名为MAS拉巴斯省长候选人，因醉驾事件被撤换。1993年起在UMSA任教至今（本人简历称「docente titular emérito」）。2026年3月地方子选举中再次以MTS身份竞选拉巴斯省长。",
+    "position_note": "2021年3月地方子选举竞选连任拉巴斯省长失利，2021年5月3日卸任；2026年地方子选举中再度竞选拉巴斯省长，得票121,674张（约8.78%）名列第三，未能当选（据西语维基百科MTS条目选举表）。",
+    "person_relationships": [
+        {
+            "person_id": "BO-PERSON-000487",
+            "person_name": "安德罗尼科·罗德里格斯 (Andrónico Rodríguez)",
+            "relationship_type": "political_ally",
+            "description": "2025年4月帕齐领导的MTS牵头组建人民联盟，并宣布推举参议员罗德里格斯领衔该联盟竞选2025年总统（搭档玛丽安娜·普拉多），最终得票8.51%居第四；帕齐任联盟主席，罗德里格斯为联盟领袖。"
+        },
+        {
+            "person_id": "BO-PERSON-000483",
+            "person_name": "埃沃·莫拉莱斯 (Evo Morales)",
+            "relationship_type": "superior",
+            "description": "2006-2007年在莫拉莱斯首届政府中出任教育部长；2010年2月其MAS拉巴斯省长候选人资格因醉驾事件被撤销（由塞萨尔·科卡里科顶替），此后脱离MAS自立门户，与MAS分道扬镳。"
+        },
+        {
+            "person_id": "BO-PERSON-000096",
+            "person_name": "塞萨尔·乌戈·科卡里科·亚纳 (César Hugo Cocarico Yana)",
+            "relationship_type": "political_rival",
+            "description": "2010年帕齐被撤销MAS拉巴斯省长候选人资格后，科卡里科取而代之成为MAS候选人并当选省长；同时科卡里科也是帕齐2015年卸任省长的前任。"
+        },
+        {
+            "person_id": None,
+            "person_name": "路易斯·雷维利亚 (Luis Revilla)",
+            "relationship_type": "associate",
+            "description": "2015年地方选举中与拉巴斯市长雷维利亚创立的「主权与自由」(SOL.bo) 联盟参选拉巴斯省长并当选，成为SOL.bo阵营职位最高的民选官员。"
+        },
+        {
+            "person_id": None,
+            "person_name": "桑托斯·基斯佩·基斯佩 (Santos Quispe Quispe)",
+            "relationship_type": "political_rival",
+            "description": "2021年地方子选举中击败寻求连任的帕齐当选拉巴斯省长，终结其第二任期。"
+        },
+        {
+            "person_id": "BO-PERSON-000092",
+            "person_name": "玛丽亚娜·普拉多 (Mariana Prado)",
+            "relationship_type": "political_ally",
+            "description": "2025年总统选举中作为人民联盟副总统候选人与罗德里格斯搭档参选（帕齐任该联盟主席）。"
+        }
+    ],
+    "social_accounts": [
+        {
+            "platform": "twitter_x",
+            "account_name": "@felixpatzi",
+            "url": "https://x.com/felixpatzi",
+            "source": "Wikidata P2002（账号ID 558939177，2012年4月创建）"
+        },
+        {
+            "platform": "facebook",
+            "account_name": "felixpatzibo",
+            "url": "https://www.facebook.com/felixpatzibo",
+            "source": "Wikidata P2013；另有个人页 facebook.com/felix.patzi 发布本人简历"
+        },
+        {
+            "platform": "linkedin",
+            "account_name": "felix-patzi-b5a784102",
+            "url": "https://bo.linkedin.com/in/felix-patzi-b5a784102",
+            "source": "LinkedIn 搜索结果（玻利维亚区，自述任拉巴斯省长）"
+        },
+        {
+            "platform": "youtube",
+            "account_name": "Felix Patzi Lider Indigena",
+            "url": "https://www.youtube.com/@felixpatziliderindigena8649",
+            "source": "YouTube频道自述为帕齐（时任省长）官方宣传频道"
+        }
+    ],
+    "social_accounts_note": "六项扫描结果：X/Twitter、Facebook、LinkedIn、YouTube 有经证实的账号；Instagram、TikTok 未找到其个人认证账号（相关内容出自政党账号 patbolivia 或媒体账号 @pov.bolivia 等）。",
+    "family_members": [
+        {
+            "person_id": None,
+            "name": "马西埃尔·特拉萨斯 (Maciel Terrazas)",
+            "relationship": "spouse",
+            "industry_or_organization": None
+        }
+    ],
+    "family_note": "前妻马西埃尔·特拉萨斯（Maciel Terrazas），两人已离异（据西语维基百科信息框）；育有6名子女。",
+    "children_note": "据西语维基百科信息框记载育有6名子女，具体姓名未公开，故不列为独立条目。",
+    "political_stances": [
+        {
+            "date": "2019-09-02",
+            "topic": "司法与卫生治理及「公社体系」理念",
+            "stance_content": "主张司法和卫生事业应由社会各部门而非政府官僚体系管理；长期倡导以社区民主的「公社体系」(Sistema Comunal) 取代自由主义代议制，作为介于国家主义与新自由主义之间的第三条道路。",
+            "source": "https://verdadcontinta.com/2019/09/02/patzi-que-la-justicia-y-la-salud-sean-administradas-por-los-sectores-sociales/"
+        },
+        {
+            "date": "2024-11-27",
+            "topic": "2025年总统选举参选意向",
+            "stance_content": "在MTS全国扩大会议后宣布「目前而言：帕齐竞选2025年总统」是其党内基础组织的共识，同时表态开放与其他政治力量结盟；2025年4-5月最终转而推举安德罗尼科·罗德里格斯出选。",
+            "source": "https://erbol.com.bo/nacional/patzi-afirma-que-por-el-momento-es-el-candidato-presidencial-del-mts-y-se-abre-hacer"
+        },
+        {
+            "date": "2025-05-18",
+            "topic": "人民联盟总统候选人推举",
+            "stance_content": "以MTS党魁身份宣布参议员安德罗尼科·罗德里格斯领衔人民联盟（MTS+PSR+MATE）参加2025年总统选举，MTS为联盟主导政党；联盟于2025年4月17日在多民族选举机构完成登记。",
+            "source": "https://sisin.oep.org.bo/medios_digitales/141650/detalle"
+        },
+        {
+            "date": "2026-03-04",
+            "topic": "拉巴斯省经济振兴纲领",
+            "stance_content": "发布竞选政纲，提出建设旱港、太阳能电站、各省水坝、垃圾工业化处理与发展旅游，主张让拉巴斯「从生存经济转向积累经济」，涵盖经济发展、社会福祉与环境平衡三大支柱。",
+            "source": "https://abi.bo/plan-de-gobierno-felix-patzi-propone-industrializacion-represas-energia-solar-y-turismo-para-reactivar-la-paz/"
+        },
+        {
+            "date": "2026-10",
+            "topic": "对罗德里戈·帕斯政府的态度",
+            "stance_content": "公开批评罗德里戈·帕斯政府「软弱、其推行的政策未获多数民众认可」，并就总统家人收到安全威胁一事称「无辜者不会平白受到威胁」，暗示背后可能存在清算动机。（注：此条依赖单一媒体脸书转述，见notes）",
+            "source": "https://www.facebook.com/reddtvbolivia8.1/posts/1575406247963707"
+        }
+    ],
+    "political_stances_note": "帕齐政治定位为中左翼「第三条道路」：既反对新自由主义，也区别于MAS的国家主义路线，主张公社民主、多元主义与原住民主义。2026年10月表态条目仅有Red DTV Bolivia媒体脸书单源，采信度较低。",
+    "major_achievements": [
+        {
+            "date": "2006",
+            "achievement": "在埃沃·莫拉莱斯首届政府中出任玻利维亚教育部长（2006年1月23日至2007年1月23日），此前长期从事原住民运动与社会学研究。",
+            "organization": "玻利维亚教育部 (Ministerio de Educación de Bolivia)"
+        },
+        {
+            "date": "2010-03-21",
+            "achievement": "脱离MAS后创立政治组织「变革一体化」(IPC)，该组织后发展为全国性政党第三体系运动（MTS）。",
+            "organization": "第三体系运动 (Movimiento Tercer Sistema)"
+        },
+        {
+            "date": "2015-03-29",
+            "achievement": "以SOL.bo联盟候选人身份在地方子选举中以逾五成得票（673,244票）击败MAS候选人费利帕·万卡，当选拉巴斯省长，5月31日就职，任至2021年5月3日。",
+            "organization": "拉巴斯省政府 (Gobernación del Departamento de La Paz)"
+        },
+        {
+            "date": "2018-10-30",
+            "achievement": "领导MTS以131,132个签名完成全国性政党合法登记（TSE-RSP-ADM第0513/2018号决议），成为可全国参政的正式政党。",
+            "organization": "第三体系运动 (Movimiento Tercer Sistema)"
+        },
+        {
+            "date": "2025-04-17",
+            "achievement": "牵头组建并登记「人民联盟」（MTS与PSR、MATE组成），推举安德罗尼科·罗德里格斯竞选总统；该联盟在2025年大选中获456,002票（8.51%）居第四，赢得8个众议院席位。",
+            "organization": "人民联盟 (Alianza Popular)"
+        }
+    ],
+    "works": [
+        "《公社体系：自由主义体系的替代方案》(Sistema comunal: una propuesta alternativa al sistema liberal)",
+        "《国家族群吞噬：现代象征暴力形式》(Etnofagía estatal: modernas formas de violencia simbólica)"
+    ],
+    "works_note": "两部代表作出版年份在各类引文中不一致（Sistema comunal 有2003年初版/2007年再版等不同标注），故仅列书名不标注年份。",
+    "biography_summary": "费利克斯·帕齐·帕科（Félix Patzi Paco），1967年2月21日出生于玻利维亚拉巴斯省阿罗马县科伦查镇，艾马拉裔社会学家、大学教授和政治家，现任第三体系运动（MTS）党主席和人民联盟主席。他母语为艾马拉语，自1993年起在圣安德烈斯大学教授社会学，拥有农业发展硕士和发展科学博士学位，学术上主张以社区民主的「公社体系」取代自由主义代议制，走介于MAS与新自由主义之间的第三条道路。2006-2007年在莫拉莱斯首届政府出任教育部长；2010年因醉驾事件被MAS撤销拉巴斯省长候选人资格后脱党，同年创立IPC（后发展为MTS）。2015年与SOL.bo联盟当选拉巴斯省长（得票逾五成、673,244票），任至2021年5月，竞选连任失利。此后转向全国政治：2019年曾代表MTS竞选总统（该次选举结果被废除），2024年11月宣布角逐2025年总统选举，后转而推举安德罗尼科·罗德里格斯，并牵头组建人民联盟（2025年4月17日登记，帕齐任主席），该联盟获8.51%选票。2026年3月再度竞选拉巴斯省长，以约8.78%得票列第三落败。",
+    "profile": {
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Felix_patzi.jpg",
+        "local_path": None
+    },
+    "contacts": [
+        {
+            "type": "website",
+            "value": "http://www.felixpatzi.com/",
+            "source": "Wikidata P856"
+        }
+    ],
+    "collection_meta": {
+        "collection_date": "2026-10-25",
+        "phase": "phase4_person_profile",
+        "data_sources": ["wikipedia", "wikidata", "news_search", "web_search", "social_media"],
+        "quotes": [
+            {"title": "Félix Patzi - Wikipedia, la enciclopedia libre", "url": "https://es.wikipedia.org/wiki/F%C3%A9lix_Patzi"},
+            {"title": "Félix Patzi - Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/F%C3%A9lix_Patzi"},
+            {"title": "Movimiento Tercer Sistema (Bolivia) - Wikipedia, la enciclopedia libre", "url": "https://es.wikipedia.org/wiki/Movimiento_Tercer_Sistema_(Bolivia)"},
+            {"title": "Alianza Popular (Bolivia) - Wikipedia, la enciclopedia libre", "url": "https://es.wikipedia.org/wiki/Alianza_Popular_(Bolivia)"},
+            {"title": "Plan de gobierno: Félix Patzi propone industrialización, represas, energía solar y turismo para reactivar La Paz - ABI", "url": "https://abi.bo/plan-de-gobierno-felix-patzi-propone-industrializacion-represas-energia-solar-y-turismo-para-reactivar-la-paz/"},
+            {"title": "Félix Patzi - El Diario (interview, 2015-03-15)", "url": "https://www.pub.eldiario.net/noticias/2015/2015_03/nt150315/laguia.php?n=21&-felix-patzi"},
+            {"title": "Patzi afirma que por el momento es el candidato presidencial del MTS y se abre a hacer alianzas - ERBOL (2024-11-27)", "url": "https://erbol.com.bo/nacional/patzi-afirma-que-por-el-momento-es-el-candidato-presidencial-del-mts-y-se-abre-hacer"},
+            {"title": "Patzi: Que la justicia y la salud sean administradas por los sectores sociales - Verdad Continta (2019-09-02)", "url": "https://verdadcontinta.com/2019/09/02/patzi-que-la-justicia-y-la-salud-sean-administradas-por-los-sectores-sociales/"},
+            {"title": "Félix Patzi anuncia a Andrónico Rodríguez como candidato - Registro de Medios OEP (2025-05-18)", "url": "https://sisin.oep.org.bo/medios_digitales/141650/detalle"},
+            {"title": "Félix Patzi (Q5511626) - Wikidata", "url": "https://www.wikidata.org/wiki/Q5511626"}
+        ],
+        "notes": "数据来源：西语/英语维基百科全文精读、MTS与人民联盟维基条目、Wikidata（Q5511626，含X/Facebook账号与官方网址）、ABI官方通讯社报道全文、ERBOL/OEP媒体登记等新闻检索，共10个引用来源、6个全文精读来源。关键事实（出生日期、教育部长任期、省长任期、MTS沿革、人民联盟组建）均有≥2独立来源交叉验证。存疑事项：1) 任务背景所述「2024年4月连任党主席」未检索到独立公开报道，其现任党魁身份由维基百科MTS条目及2024年11月被宣布为党内总统候选人等事实佐证，工龄起始采用2010年创党日期；2) 发展科学博士学位来源为其本人简历与2015年访谈自述，授予机构未明确点名（推断为UMSA/CIDES-UMSA体系）；3) 2015年省长得票率各来源在50.09%-52%间不一致，采用「逾五成+673,244票」表述；4) 2026年10月对帕斯政府表态依赖单一媒体脸书转述；5) name_zh 无权威既有译名，沿用项目内通行写法「费利克斯·帕齐」。"
+    }
+}
+
+with open(OUT_PATH, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Written:", OUT_PATH)
+print("size:", os.path.getsize(OUT_PATH), "bytes")
+# quick sanity re-load
+with open(OUT_PATH, "r", encoding="utf-8") as f:
+    check = json.load(f)
+print("reload OK, name =", check["name"], "| keys:", len(check.keys()))
