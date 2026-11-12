@@ -41,3 +41,13 @@ upload_state.json
 
 # Avatar pipeline working state / trash (regenerable)
 output/_avatar_audit/
+
+# No dataset images in git (canonical image store is minio-store/, ignored above)
+output/**/*.jpg
+output/**/*.jpeg
+output/**/*.png
+output/**/*.gif
+output/**/*.webp
+output/**/*.svg
+output/**/*.avif
+output/**/*.ico
