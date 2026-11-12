@@ -78,8 +78,17 @@ ALLOWED = {"platform", "account_name", "url", "source", "source_note",
            "nickname", "username", "user_id"}
 
 
+HOST_CANON = {
+    "twitter.com": "x.com", "mobile.twitter.com": "x.com",
+    "m.facebook.com": "facebook.com", "web.facebook.com": "facebook.com",
+    "fb.com": "facebook.com", "m.instagram.com": "instagram.com",
+    "threads.net": "threads.com", "m.youtube.com": "youtube.com",
+    "m.tiktok.com": "tiktok.com",
+}
+
+
 def norm_url(u):
-    """Normalized URL key for matching: strip scheme/www/trailing slash, decode."""
+    """Normalized URL key for matching: host-alias canonical, strip scheme/www/trailing slash."""
     if not isinstance(u, str):
         return None
     u = u.strip()
@@ -89,7 +98,9 @@ def norm_url(u):
     for pre in ("https://", "http://", "www."):
         if u.lower().startswith(pre):
             u = u[len(pre):]
-    return u.rstrip("/").lower()
+    host, sep, path = u.partition("/")
+    host = HOST_CANON.get(host.lower(), host.lower())
+    return ((host + sep + path).rstrip("/")).lower()
 
 
 def save_json(f, d):
