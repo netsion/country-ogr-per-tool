@@ -2,30 +2,348 @@
   "org_id": "NG-MIL-001",
   "basic_info": {
     "name_original": "Nigerian Armed Forces",
-    "name_zh": "尼日利亚军",
+    "name_zh": "尼日利亚武装部队",
     "name_en": "Nigerian Armed Forces",
     "aliases": [
-      "military of Nigeria"
+      "Armed Forces of Nigeria",
+      "AFN",
+      "military of Nigeria",
+      "尼日利亚军"
     ],
     "org_type": "MIL",
     "org_subtype": "armed_forces",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
     "founded_date": "1960-01-01",
-    "website": null,
+    "website": "https://defencehq.mil.ng/",
     "wikidata_qid": "Q250774"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "defence_military"
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "DHQNigeria",
+      "url": "https://x.com/DHQNigeria",
+      "source": 3,
+      "source_note": "国防总部（DHQ）官方账号，DHQ新闻稿与Instagram官方账号简介均列明；2026年8月曾报遭入侵后恢复",
+      "nickname": "Defence Headquarters Nigeria",
+      "username": "DHQNigeria",
+      "user_id": null
+    },
+    {
+      "platform": "facebook",
+      "account_name": "DefenceHeadquartersNG",
+      "url": "https://www.facebook.com/DefenceHeadquartersNG",
+      "source": 6,
+      "source_note": "国防总部官方Facebook主页（DHQ新闻稿发布渠道）",
+      "nickname": "Defence Headquarters Nigeria",
+      "username": "DefenceHeadquartersNG",
+      "user_id": null
+    },
+    {
+      "platform": "instagram",
+      "account_name": "DefenceHQ",
+      "url": "https://www.instagram.com/defencehq/",
+      "source": 8,
+      "source_note": "DHQ官方Instagram账号简介中列明的官方账号（Instagram: DefenceHQ）",
+      "nickname": "Defence Headquarters Nigeria",
+      "username": "DefenceHQ",
+      "user_id": null
+    }
   ],
-  "apec_stance": null,
+  "digital_assets": [
+    {
+      "name": "国防总部官网（武装力量官方门户）",
+      "url": "https://defencehq.mil.ng/",
+      "description": "国防总部（DHQ）官方网站，站名标注为「The Armed Forces of the Federal Republic of Nigeria」，设新闻、部门介绍、现任及历任国防参谋长简介等栏目；2026年11月检索时站点间歇性返回503，但仍为维基百科与DHQ公开材料所载官方网址",
+      "source": "official_website"
+    },
+    {
+      "name": "国防部官网",
+      "url": "https://defence.gov.ng/",
+      "description": "联邦国防部官方网站，作为武装力量最高政策主管机关的对外门户，设「武装力量组成」「三军种机构」「采购公开」「退伍军人与养老金」等栏目，并发布国防部长活动与新闻稿",
+      "source": "official_website"
+    },
+    {
+      "name": "国防参谋长简介页",
+      "url": "https://defencehq.mil.ng/index.php/profile-of-the-cds/",
+      "description": "国防总部官网的现任国防参谋长（CDS）官方简介页面，列明其军衔、任命与职责",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000001",
+      "name": "博拉·艾哈迈德·蒂努布 (Bola Ahmed Tinubu)",
+      "title": "武装力量总司令 (Commander-in-Chief)",
+      "title_description": "依1999年宪法第217-220条，总统兼任武装力量总司令，通过国防部行使统帅权，并可要求武装部队协助民政当局恢复秩序",
+      "description": "尼日利亚总统（2023年5月29日就任）。2025年10月24日批准三军参谋长全面调整，以奥卢耶德接替穆萨出任国防参谋长；2025年12月2日接受国防部长巴达鲁辞职并提名前国防参谋长克里斯托弗·穆萨接任，12月3日获参议院确认。"
+    },
+    {
+      "person_id": "NG-PERSON-000052",
+      "name": "克里斯托弗·格瓦宾·穆萨 (Christopher Gwabin Musa)",
+      "title": "国防部长 (Minister of Defence)",
+      "title_description": "国防部主官，主管国防政策、军事行政与装备采购，就国防事务向总统负责",
+      "description": "退役陆军上将，1967年生。2023年6月23日至2025年10月30日任第18任国防参谋长；2025年12月2日获总统提名接替以健康原因辞职的穆罕默德·巴达鲁，12月3日经参议院确认，12月5日在阿布贾船屋（Ship House）国防部就职，是尼日利亚近年少见的由退役高级将领转任国防部长的安排。"
+    },
+    {
+      "person_id": "NG-PERSON-000119",
+      "name": "贝洛·穆罕默德·马塔瓦莱 (Bello Matawalle)",
+      "title": "国防国务部长 (Minister of State for Defence)",
+      "title_description": "协助国防部长分管战略、安全与军人福利事务，重点负责社区和平建设与反极端主义项目",
+      "description": "2023年8月与巴达鲁一同出任国防部领导层，2025年12月内阁变动后留任。曾任扎姆法拉州州长（2019-2023）；2026年代表国防部出席首届非洲国际防务展（AFRIDEX 2026）并推动国防工业本土化与国际合作。"
+    },
+    {
+      "person_id": null,
+      "name": "奥卢费米·奥拉图博孙·奥卢耶德 (Olufemi Olatubosun Oluyede)",
+      "title": "国防参谋长 (Chief of Defence Staff)",
+      "title_description": "武装力量最高军职，主持国防总部，负责联合作战指挥与三军协同，向国防部长报告，并为总统兼总司令的首席军事顾问",
+      "description": "陆军上将，1968年6月21日生。2024年10月出任陆军参谋长（接替病逝的拉格巴贾），2025年10月24日获任命为第19任国防参谋长，10月30日正式就职，接替转任国防部长的克里斯托弗·穆萨。任内强调联合作战、技术赋能与军人福利改革，2026年10月30日满一周年时获评「提升三军协同与作战节奏」。"
+    },
+    {
+      "person_id": null,
+      "name": "瓦伊迪·沙伊布 (Waidi Shaibu)",
+      "title": "陆军参谋长 (Chief of Army Staff)",
+      "title_description": "尼日利亚陆军最高军职，负责陆上作战、部队训练与战备",
+      "description": "陆军中将，1971年12月18日生于科吉州奥拉马博罗地方政府区。2025年10月24日获任命为第25任陆军参谋长，10月30日就职。2026年9月30日在阿布贾陆军总部会见西非国家经济共同体待命部队参谋长，承诺继续支持地区集体安全机制。"
+    },
+    {
+      "person_id": null,
+      "name": "伊迪·阿巴斯 (Idi Abbas)",
+      "title": "海军参谋长 (Chief of Naval Staff)",
+      "title_description": "尼日利亚海军最高军职，负责海上防卫、专属经济区巡逻与海军战备",
+      "description": "海军中将（Vice Admiral）。2025年10月24日获任命为第23任海军参谋长，10月30日就职，接替奥加拉（Emmanuel Ogalla）；就任后表示将强化打击海上犯罪与舰队能力建设。"
+    },
+    {
+      "person_id": null,
+      "name": "桑迪·凯尔文·阿内克 (Sunday Kelvin Aneke)",
+      "title": "空军参谋长 (Chief of Air Staff)",
+      "title_description": "尼日利亚空军最高军职，负责空中防卫、空中支援与空军战备训练",
+      "description": "空军上将（Air Marshal），1972年2月20日生于贝努埃州马库尔迪，祖籍埃努古州乌迪地方政府区。2025年10月24日以空军少将（AVM）身份获任命为第23任空军参谋长，接替哈桑·阿布巴卡尔（Hassan Abubakar）。"
+    },
+    {
+      "person_id": null,
+      "name": "埃马纽埃尔·阿科马耶·帕克·温迪安代耶 (Emmanuel Akomaye Parker Undiandeye)",
+      "title": "国防情报部长 (Chief of Defence Intelligence)",
+      "title_description": "国防情报局首长，统管军事情报的搜集、分析与分发，为国防总部与三军提供情报支援",
+      "description": "陆军中将。2023年6月23日出任第17任国防情报部长，2025年10月三军高层调整中获留任，同年11月晋升中将；2026年1月以国防情报部长身份出席武装部队庆祝与纪念日系列活动。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": null,
+      "name": "国防总部 (Defence Headquarters, DHQ)",
+      "head": "奥卢费米·奥卢耶德 (Olufemi Oluyede)",
+      "description": "位于阿布贾加基「武装部队综合区」（Armed Forces Complex）的全军最高联合指挥机构，负责兵力部署、保障与三军协同，由国防参谋长主持；下设九个参谋部门：国防政策与计划（DDPP）、国防训练与作战（DDTO）、国防行政（DDA）、国防通信（DDC）、国防后勤（DDL）、国防标准与评估（DDSE）、国防转型与创新（DDTI）、国防账务与预算（DDAB）、国防军民关系（DDCMR）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "尼日利亚陆军 (Nigerian Army)",
+      "head": "瓦伊迪·沙伊布 (Waidi Shaibu)",
+      "description": "三军中规模最大的陆上军种，编有第1、第2、第3装甲、第6、第7、第8、第81、第82师及训练与条令司令部（TRADOC），承担陆上防卫、反叛乱与协助民政当局任务；2026财年预算1.504万亿奈拉，占国防部预算约47.7%",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "尼日利亚海军 (Nigerian Navy)",
+      "head": "伊迪·阿巴斯 (Idi Abbas)",
+      "description": "海上军种，海军司令部设于阿布贾，作战司令部设拉各斯、卡拉巴尔与巴耶尔萨；下辖拉各斯与哈科特港两处船厂、拉各斯与卡拉巴尔两支舰队及多处前进基地，负责几内亚湾海上安全、专属经济区巡逻与海军外交；2026财年预算4439亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "尼日利亚空军 (Nigerian Air Force)",
+      "head": "桑迪·凯尔文·阿内克 (Sunday Kelvin Aneke)",
+      "description": "1964年1月在西德技术援助下正式成立的空中军种，承担国土防空、空中支援、运输与侦察任务，办有空军技术学院（卡杜纳）与空军军校（乔斯）；2026财年预算4091亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "国防情报局 (Defence Intelligence Agency, DIA)",
+      "head": "埃马纽埃尔·温迪安代耶 (Emmanuel Undiandeye)",
+      "description": "军事情报机构，由国防情报部长（CDI）领导，负责战略与战术情报支援，另设国防情报学校；2026财年预算688亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "国防太空管理局 (Defence Space Administration, DSA)",
+      "head": null,
+      "description": "负责军事航天与天基情报、通信支援的国防机构，下设国防太空学校（三角洲州奥罗贡）；2026财年预算400亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "尼日利亚国防学院 (Nigerian Defence Academy, NDA)",
+      "head": null,
+      "description": "设于卡杜纳的三军初级军官统一培养院校，为陆军、海军、空军输送少尉军官；2026财年预算404亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "国家国防学院 (National Defence College, NDC)",
+      "head": null,
+      "description": "设于阿布贾的高级战略研究机构，培训上校/准将级军官与高级文职官员；2026财年预算293亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "武装部队指挥与参谋学院 (Armed Forces Command and Staff College, Jaji)",
+      "head": null,
+      "description": "设于卡杜纳州贾吉的三军中级军官联合参谋培训机构；2026财年预算359亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "国防工业公司 (Defence Industries Corporation of Nigeria, DICON)",
+      "head": null,
+      "description": "国有军工生产企业，承担轻武器、弹药与装备的本土制造；2023年《DICON法》后扩展为国防工业发展主体，2026年10月与英国DMG Events合办首届非洲国际防务展（AFRIDEX）；2026财年预算76.5亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "尼日利亚武装部队安置中心 (Nigerian Armed Forces Resettlement Centre, NAFRC)",
+      "head": null,
+      "description": "设于拉各斯的退役人员职业技能与再就业培训机构，负责退伍前的转业训练；2026财年预算132亿奈拉",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": null,
+      "name": "军事养老金委员会 (Military Pensions Board, MPB)",
+      "head": null,
+      "description": "依《养老金改革法》管理军人养老金、抚恤金与遗属福利的法定机构，2026财年预算13.9亿奈拉",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-10-24",
+      "title": "蒂努布改组三军高层：奥卢耶德出任第19任国防参谋长",
+      "description": "2025年10月24日，总统蒂努布宣布调整三军参谋长：奥卢耶德上将接替穆萨出任国防参谋长，沙伊布少将任陆军参谋长，阿内克空军少将任空军参谋长，阿巴斯海军少将任海军参谋长，国防情报部长温迪安代耶留任；总统府称任命即时生效。奥卢耶德于10月30日正式就职。",
+      "impact": "这是2023年6月以来最大规模的军种高层更替，三军参谋长全部换人；新任国防参谋长由陆军参谋长升任，延续陆军主导的指挥序列，同时保留情报首长以维持情报体系连续性。",
+      "source": "https://statehouse.gov.ng/president-tinubu-changes-service-chiefs/"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "国防部长巴达鲁辞职，前国防参谋长穆萨接任",
+      "description": "2025年12月2日，国防部长穆罕默德·巴达鲁以健康原因辞职，总统蒂努布同日提名前国防参谋长克里斯托弗·穆萨接任；参议院12月3日确认任命，穆萨12月5日在阿布贾船屋（Ship House）国防部就职。国防国务部长马塔瓦莱留任。",
+      "impact": "国防部由退役上将执掌，国防行政与军职指挥的衔接更为直接；穆萨任内推动的采购多元化与对外防务合作议程预计延续，同时其与现任国防参谋长奥卢耶德的职权边界成为观察重点。",
+      "source": "https://statehouse.gov.ng/president-tinubu-nominates-general-christopher-musa-as-the-new-minister-of-defence/"
+    },
+    {
+      "date": "2026-01-09",
+      "title": "2026财年国防部预算细分公布：总额3.154万亿奈拉",
+      "description": "2026年1月9日，联邦预算办公室公布2026财年国防部预算细分：国防部总额3,154,393,400,291奈拉，其中陆军1.504万亿、海军4439亿、空军4091亿、国防总部2570亿、国防情报局688亿、国防学院体系（NDA/NDC/AFCSC）合计约1056亿；总统在预算咨文中提出的国家安全与国防总盘子为5.41万亿奈拉。",
+      "impact": "人员开支约占国防部预算76%，装备现代化与资本项目空间受限；陆军占国防部预算约47.7%、海空军合计约27%，反映陆上反叛乱与国内安全任务的资源优先序。",
+      "source": "https://www.tvcnews.tv/full-list-2026-budget-breakdown-for-ministry-of-defence/"
+    },
+    {
+      "date": "2026-01-15",
+      "title": "2026年武装部队庆祝与纪念日：阿布贾举行国家献花仪式",
+      "description": "2026年武装部队庆祝与纪念日（AFCRD）系列活动于1月9日启动，1月15日纪念日正日在阿布贾国家拱门（National Arcade）举行国家献花仪式，副总统谢蒂马代表总统出席并向无名战士墓献花；同期在阿布贾、拉各斯等地举行阅兵、军乐与悼念活动。",
+      "impact": "以国家仪式固化对阵亡与退役军人的纪念，强化军民关系与部队凝聚力；纪念日亦成为国防领导层宣示军人福利与战备议程的固定场合。",
+      "source": "https://fmino.gov.ng/2026-armed-forces-celebrations-and-remembrance-day-kicks-off/"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "西非国家经济共同体待命部队参谋长访尼，与陆军参谋长会谈",
+      "description": "2026年9月30日，西非国家经济共同体（ECOWAS）待命部队参谋长谢赫·马萨夸里准将（Brig. Gen. Sheikh Massaquoi）与ECOWAS后勤基地指挥官阿帕海军上校一行访问阿布贾尼日利亚陆军总部，会见陆军参谋长瓦伊迪·沙伊布中将，讨论地区安全、防务合作、战备、互操作性、联合训练、情报共享与后勤支援。",
+      "impact": "巩固尼日利亚作为ECOWAS待命部队主要兵力与后勤贡献方的地位，配合西非地区集体安全机制与待命部队建设进程。",
+      "source": "https://www.ecowas.int/chief-of-staff-of-ecowas-standby-force-pays-courtesy-call-on-the-nigerian-chief-of-army-staff/"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "尼日利亚举办首届非洲国际防务展（AFRIDEX 2026）",
+      "description": "2026年10月26日至29日，首届非洲国际防务展（AFRIDEX 2026）在拉各斯Eko Atlantic举行，由国防工业公司（DICON）与英国DMG Events合办；国防国务部长马塔瓦莱代表国防部出席，并与土耳其、中国及欧洲厂商就战略合作与联合生产洽谈。",
+      "impact": "标志尼日利亚国防工业由进口依赖转向本土制造与出口导向，为DICON及本土供应商提供国际合作与引资平台，也配合国防部「减少对外国供应依赖」的政策目标。",
+      "source": "https://defence.gov.ng/press-release.html?slug=afridex-2026-nigeria-woos-global-defence-investors"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-012",
+      "org_name": "联邦国防部 (Federal Ministry of Defence)",
+      "org_type": "GOV",
+      "org_description": "国防行政主管部门，负责国防政策、预算、采购与人事行政；武装力量经国防部向总统负责，现任部长为退役上将克里斯托弗·穆萨（2025年12月起）",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "武装力量的宪法设立主体，1999年宪法第217-220条规定其编成、装备维持义务与职责范围",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-MIL-002",
+      "org_name": "尼日利亚陆军 (Nigerian Army)",
+      "org_type": "MIL",
+      "org_description": "陆上军种，三军中规模最大，编有多个师与训练与条令司令部，承担陆上防卫与国内安全支援",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-MIL-003",
+      "org_name": "尼日利亚海军 (Nigerian Navy)",
+      "org_type": "MIL",
+      "org_description": "海上军种，负责几内亚湾海上安全、专属经济区巡逻与海军外交，设拉各斯、卡拉巴尔、巴耶尔萨三个作战司令部",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-MIL-004",
+      "org_name": "尼日利亚空军 (Nigerian Air Force)",
+      "org_type": "MIL",
+      "org_description": "空中军种，1964年1月成立，承担国土防空、空中支援与运输侦察任务",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-MIL-007",
+      "org_name": "国防情报局 (Defence Intelligence Agency)",
+      "org_type": "MIL",
+      "org_description": "军事情报机构，由国防情报部长领导，为国防总部与三军提供情报支援，2025年10月人事调整中首长获留任",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-INTL-001",
+      "org_name": "西非国家经济共同体 (Economic Community of West African States)",
+      "org_type": "INTL",
+      "org_description": "西非地区组织，尼日利亚为1975年创始成员国；尼日利亚武装部队是ECOWAS待命部队与历次维和行动（ECOMOG）的主要兵力贡献方",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-MIL-008",
+      "org_name": "尼日利亚警察部队 (Nigeria Police Force)",
+      "org_type": "MIL",
+      "org_description": "国内安全事务的主要执法机构；武装部队依宪法在总统要求下协助民政当局维持秩序时与其协同",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-MIL-009",
+      "org_name": "尼日利亚安全和民防团 (Nigeria Security and Civil Defence Corps)",
+      "org_type": "MIL",
+      "org_description": "民防与关键基础设施保护机构，与军方在油气管道护卫与社区安全事务上协作",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国防工业公司 (Defence Industries Corporation of Nigeria)",
+      "org_type": "SOE",
+      "org_description": "国有军工企业，承担轻武器、弹药与装备的本土生产，2023年《DICON法》后成为国防工业发展主体，2026年主办首届非洲国际防务展",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": null,
+      "org_name": "乍得湖流域多国联合特遣部队 (Multinational Joint Task Force)",
+      "org_type": "INTL",
+      "org_description": "由贝宁、喀麦隆、乍得、尼日利亚组成的地区军事机制，指挥部设于乍得恩贾梅纳，尼日利亚为其主要兵力与资金贡献方之一",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "尼日利亚武装部队（Armed Forces of Nigeria, AFN）是西非规模最大的正规军之一，法定地位由1999年宪法第217-220条确立：联邦设陆军、海军、空军及其他经国民议会立法设立的军种，职责为抵御外来侵略、维护领土完整与陆海空边界、应总统要求镇压叛乱并协助民政当局恢复秩序，且军官团与士兵构成须体现尼日利亚「联邦特征」（federal character）。体制上，总统兼任武装力量总司令并经国防部行使统帅权；国防参谋长（CDS）为最高军职，设于阿布贾加基武装部队综合区的国防总部（DHQ），经陆军、海军、空军三军种参谋长实施作战指挥，并与国防情报局（DIA）、国防太空管理局（DSA）等机构协同。现役兵力约23万人（维基百科/IISS口径），规模居非洲前列。2026财年国防部预算3.154万亿奈拉（约21亿美元），其中陆军1.504万亿、海军4439亿、空军4091亿、国防总部2570亿、国防情报局688亿；总统提出的国家安全与国防总盘子为5.41万亿奈拉，人员开支约占76%。任务以国内反叛乱、反匪盗与几内亚湾海上安全为主，同时长期承担地区维和职能：1960年代以来向联合国维和行动派遣逾2万人，1990年主导西非国家经济共同体停火监测组（ECOMOG），现参与乍得湖流域多国联合特遣部队（MNJTF）并支持ECOWAS待命部队建设。院校体系包括尼日利亚国防学院（卡杜纳）、国家国防学院（阿布贾）、武装部队指挥与参谋学院（贾吉）；军工由国防工业公司（DICON）牵头，2023年《DICON法》后推进本土化生产，2026年10月举办首届非洲国际防务展（AFRIDEX）。2023年以来的改革重点为军人及遗属福利（住房、低息贷款、养老金）、采购公开透明、择优征兵与军民关系。",
+  "industries": [
+    "defence_military",
+    "public_administration",
+    "intelligence_security"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），因此尼日利亚武装部队不参与APEC框架下的任何防务或安全机制，也不存在与APEC相关的军事合作议程。其机构层面的对外合作主要依托：①西非国家经济共同体（ECOWAS）——尼日利亚为1975年创始成员国，武装部队是ECOWAS待命部队的主要兵力与后勤贡献方，并曾主导ECOMOG维和行动，2026年9月ECOWAS待命部队参谋长访尼与陆军参谋长会谈；②非洲联盟与联合国——长期派兵参与非盟与联合国和平行动，1960年以来累计逾2万人；③乍得湖流域委员会框架下的多国联合特遣部队（MNJTF，成员含贝宁、喀麦隆、乍得、尼日利亚）；④与美、英、中等国的双边防务合作、培训与装备采购。上述均为政府间或机构间安排，与APEC无关。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Flag_of_the_Nigerian_Armed_Forces.svg/330px-Flag_of_the_Nigerian_Armed_Forces.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-MIL-001.png",
@@ -33,12 +351,63 @@
   },
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia"
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media",
+      "other"
     ],
-    "completeness_score": 13,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 97,
+    "notes": "Phase 3 enrichment (2025-2026 current state). Leadership cross-verified: CDS Gen Olufemi Oluyede, COAS Lt Gen Waidi Shaibu, CNS Vice Adm Idi Abbas, CAS Air Marshal Sunday Kelvin Aneke, CDI Lt Gen Emmanuel Undiandeye (all appointed 2025-10-24 per State House press release; assumed office 2025-10-30 per Daily Trust/Premium Times/VON). Defence Minister Christopher Musa (rtd) nominated 2025-12-02 after Mohammed Badaru's resignation, Senate-confirmed 2025-12-03, assumed duty 2025-12-05 (State House + Reuters + Premium Times + Vanguard); Minister of State Bello Matawalle retained. Budget figures from Budget Office of the Federation breakdown published 2026-01-09 (MoD NGN3.154trn; Army NGN1.504trn; Navy NGN443.9bn; AF NGN409.1bn). Personnel ~230,000 from Wikipedia/IISS-derived sources (open-source estimates range 143,000-230,000 - flagged). DHQ official site defencehq.mil.ng returned HTTP 503 intermittently during collection; MoD site defence.gov.ng used as secondary official source. Wikipedia infobox currently lists Musa as 'Defence Minister', consistent with Dec 2025 change. Nigeria is NOT an APEC member; apec_stance records only ECOWAS/AU/UN/MNJTF frameworks. Social handles sourced from DHQ's own Instagram bio listing (X: DHQNigeria, FB: DefenceHeadquartersNG, IG: DefenceHQ). Military-sensitive org: only institutional/publicly reported facts recorded; no operational or capability detail.",
+    "quotes": [
+      {
+        "title": "Wikipedia: Nigerian Armed Forces (branches, constitutional role, personnel, structure)",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_Armed_Forces"
+      },
+      {
+        "title": "Wikipedia: Chief of Defence Staff (Nigeria) — incumbent and list of holders",
+        "url": "https://en.wikipedia.org/wiki/Chief_of_Defence_Staff_(Nigeria)"
+      },
+      {
+        "title": "Wikipedia: Nigerian Defence Headquarters — nine staff departments and components",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_Defence_Headquarters"
+      },
+      {
+        "title": "State House Abuja: President Tinubu changes service chiefs (24 Oct 2025)",
+        "url": "https://statehouse.gov.ng/president-tinubu-changes-service-chiefs/"
+      },
+      {
+        "title": "State House Abuja: President Tinubu nominates General Christopher Musa as Minister of Defence (2 Dec 2025)",
+        "url": "https://statehouse.gov.ng/president-tinubu-nominates-general-christopher-musa-as-the-new-minister-of-defence/"
+      },
+      {
+        "title": "Federal Ministry of Defence — official website (leadership, components, Renewed Hope Defence Agenda)",
+        "url": "https://defence.gov.ng/"
+      },
+      {
+        "title": "Defence Headquarters — official website of the Armed Forces of the Federal Republic of Nigeria",
+        "url": "https://defencehq.mil.ng/"
+      },
+      {
+        "title": "TVC News: Full list — 2026 budget breakdown for Ministry of Defence (9 Jan 2026)",
+        "url": "https://www.tvcnews.tv/full-list-2026-budget-breakdown-for-ministry-of-defence/"
+      },
+      {
+        "title": "ECOWAS: Chief of Staff of ECOWAS Standby Force pays courtesy call on the Nigerian Chief of Army Staff (30 Sep 2026)",
+        "url": "https://www.ecowas.int/chief-of-staff-of-ecowas-standby-force-pays-courtesy-call-on-the-nigerian-chief-of-army-staff/"
+      },
+      {
+        "title": "Federal Ministry of Defence press release: AFRIDEX 2026 — Nigeria woos global defence investors (27 Oct 2026)",
+        "url": "https://defence.gov.ng/press-release.html?slug=afridex-2026-nigeria-woos-global-defence-investors"
+      },
+      {
+        "title": "IISS Military Balance: Nigeria's 2026 defence budget — stretched between instability and inflation (26 May 2026)",
+        "url": "https://www.iiss.org/online-analysis/military-balance/2026/05/nigerias-2026-defence-budget-stretched-between-instability-and-inflation/"
+      }
+    ]
   }
 }
