@@ -1,0 +1,377 @@
+{
+  "org_id": "NG-GOV-001",
+  "basic_info": {
+    "name_original": "Federal Government of Nigeria",
+    "name_zh": "尼日利亚联邦政府",
+    "name_en": "Federal Government of Nigeria",
+    "aliases": [
+      "FGN",
+      "Government of Nigeria",
+      "尼日利亚联邦政府"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "gov_department",
+    "country_iso3": "NGA",
+    "hq_country_iso3": "NGA",
+    "founded_date": "1963-10-01",
+    "website": "http://www.nigeria.gov.ng/",
+    "wikidata_qid": "Q13140995"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "NigeriaGov",
+      "url": "https://x.com/NigeriaGov",
+      "source": "Wikidata P2002; verified on x.com (Government of Nigeria official account)"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "nigeriagov",
+      "url": "https://www.instagram.com/nigeriagov/",
+      "source": "Instagram official account, bio references @NigeriaGov and facebook.com/TheAsoVilla"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "TheAsoVilla",
+      "url": "https://facebook.com/TheAsoVilla",
+      "source": "Facebook page referenced in the bio of the official Instagram account (State House page)"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "尼日利亚国家信息门户（Nigerian Information Portal）",
+      "url": "https://nigeria.gov.ng/",
+      "description": "联邦共和国国家门户，聚合联邦政府机构入口、公共服务与国家信息，由联邦信息和国家导向部维护。",
+      "source": "Wikidata P856 official website"
+    },
+    {
+      "name": "尼日利亚总统府官网（The State House, Abuja）",
+      "url": "https://statehouse.gov.ng/",
+      "description": "总统府（阿索岩总统别墅）官方网站，发布总统讲话、人事任命与联邦政府新闻稿。",
+      "source": "国家门户链接；2026年预算签署等新闻稿来源"
+    },
+    {
+      "name": "政府一站式服务门户（services.gov.ng）",
+      "url": "https://services.gov.ng/",
+      "description": "联邦政府在线公共服务聚合门户，提供总统、副总统、各部委与机构的服务入口。",
+      "source": "政府服务门户检索结果（services.gov.ng/about/government）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000034",
+      "name": "博拉·蒂努布 (Bola Tinubu)",
+      "title": "总统 (President)",
+      "title_description": "国家元首兼政府首脑、武装部队总司令",
+      "description": "全体进步大会党（APC）成员，2023年5月29日就任尼日利亚第16任总统，任期四年；依惯例兼任联邦石油资源部长，2026年起谋求2027年连任。"
+    },
+    {
+      "person_id": "NG-PERSON-000041",
+      "name": "卡希姆·谢蒂马 (Kashim Shettima)",
+      "title": "副总统 (Vice President)",
+      "title_description": "联邦行政分支第二号人物",
+      "description": "前博尔诺州州长，2023年5月起与提努布搭档出任副总统。"
+    },
+    {
+      "person_id": "NG-PERSON-000042",
+      "name": "戈德斯威尔·阿克帕比奥 (Godswill Akpabio)",
+      "title": "参议院议长 (President of the Senate)",
+      "title_description": "国民议会参议院主持人、联邦立法分支首脑之一",
+      "description": "APC籍参议员，曾任联邦部长，2023年6月起主持第10届国民议会参议院。"
+    },
+    {
+      "person_id": "NG-PERSON-000043",
+      "name": "塔朱丁·阿巴斯 (Tajudeen Abbas)",
+      "title": "众议院议长 (Speaker of the House of Representatives)",
+      "title_description": "国民议会众议院主持人",
+      "description": "卡杜纳州APC籍众议员，2011年进入众议院，2023年6月当选议长。"
+    },
+    {
+      "person_id": "NG-PERSON-000044",
+      "name": "库迪拉特·凯凯雷-埃昆 (Kudirat Kekere-Ekun)",
+      "title": "首席大法官 (Chief Justice of Nigeria)",
+      "title_description": "联邦最高法院首席大法官、联邦司法系统首长",
+      "description": "2024年8月就任首席大法官，为尼日利亚第二位女性首席大法官，主持联邦最高法院终审。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "总统府 (The Presidency)",
+      "dept_id": "NG-GOV-001-DEPT-001",
+      "head": "博拉·蒂努布 (Bola Tinubu)",
+      "description": "联邦行政权核心，总统兼任国家元首、政府首脑和武装部队总司令；副总统、联邦秘书处（SGF）和联邦公务员首长办公室隶属其下，办公地点为阿布贾阿索岩总统别墅。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "联邦执行委员会（内阁）(Federal Executive Council)",
+      "dept_id": "NG-GOV-001-DEPT-002",
+      "head": "博拉·蒂努布 (Bola Tinubu)",
+      "description": "由总统主持的联邦内阁，由各联邦部长组成，宪法要求内阁至少涵盖36个州各1名成员；部长人选经参议院批准后由总统任命。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国民议会 (National Assembly)",
+      "dept_id": "NG-GOV-001-DEPT-003",
+      "head": "戈德斯威尔·阿克帕比奥 (Godswill Akpabio)",
+      "description": "两院制联邦立法机关，由109席参议院和360席众议院组成，行使联邦立法权、预算审批权和行政监督权，会址位于阿布贾国民议会大厦。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "联邦最高法院 (Supreme Court of Nigeria)",
+      "dept_id": "NG-GOV-001-DEPT-004",
+      "head": "库迪拉特·凯凯雷-埃昆 (Kudirat Kekere-Ekun)",
+      "description": "联邦司法体系最高审判机关，由首席大法官和不超过21名大法官组成，对上诉法院判决拥有终审管辖权，并受理州与联邦之间的宪法争议。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "联邦财政部 (Federal Ministry of Finance)",
+      "dept_id": "NG-GOV-001-DEPT-005",
+      "head": "泰沃·奥耶德莱 (Taiwo Oyedele)",
+      "description": "主管联邦财政、预算执行与公共债务管理，部长兼任经济统筹部长；2026年4月奥耶德莱接替因健康原因辞职的瓦莱·埃杜恩出任部长。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦外交部 (Ministry of Foreign Affairs)",
+      "dept_id": "NG-GOV-001-DEPT-006",
+      "head": "尤素福·塔加尔 (Yusuf Tuggar)",
+      "description": "主管外交事务与驻外使团，负责联合国、非盟、西共体、英联邦等多边框架下的外交。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦国防部 (Federal Ministry of Defence)",
+      "dept_id": "NG-GOV-001-DEPT-007",
+      "head": "克里斯托弗·穆萨 (Christopher Musa)",
+      "description": "主管国防事务，统辖陆海空三军；2025年12月前国防参谋长穆萨将军接替辞职的巴达鲁·阿布巴卡尔出任部长并于12月4日宣誓就职。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦司法部 (Federal Ministry of Justice)",
+      "dept_id": "NG-GOV-001-DEPT-008",
+      "head": "拉蒂夫·法格贝米 (Lateef Fagbemi)",
+      "description": "部长由联邦总检察长（Attorney-General of the Federation）兼任，主管联邦法律事务、检察与政府法律顾问工作。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦石油资源部 (Federal Ministry of Petroleum Resources)",
+      "dept_id": "NG-GOV-001-DEPT-009",
+      "head": "博拉·蒂努布 (Bola Tinubu)",
+      "description": "主管石油与天然气资源，总统依本届政府惯例亲自兼任石油资源部长，监管尼日利亚国家石油公司（NNPC）等国有石油企业。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦卫生部 (Federal Ministry of Health)",
+      "dept_id": "NG-GOV-001-DEPT-010",
+      "head": "穆罕默德·阿里·帕特 (Muhammad Ali Pate)",
+      "description": "主管国家卫生政策、疾病控制（NCDC）、食品药品监管（NAFDAC）与国家健康保险体系。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦农业和粮食安全部 (Federal Ministry of Agriculture and Food Security)",
+      "dept_id": "NG-GOV-001-DEPT-011",
+      "head": "阿布巴卡尔·基亚里 (Abubakar Kyari)",
+      "description": "主管联邦农业政策、粮食安全与农产品自给战略。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦信息和国家导向部 (Federal Ministry of Information and National Orientation)",
+      "dept_id": "NG-GOV-001-DEPT-012",
+      "head": "穆罕默德·伊德里斯 (Mohammed Idris)",
+      "description": "主管政府信息发布与国家价值导向宣传，管理尼日利亚电视台（NTA）、联邦广播公司（FRCN）和新闻社（NAN）等官媒。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦通信、创新和数字经济部 (Federal Ministry of Communication and Digital Economy)",
+      "dept_id": "NG-GOV-001-DEPT-013",
+      "head": "博森·蒂贾尼 (Bosun Tijani)",
+      "description": "主管通信产业、数字经济与国家宽带及技术创新战略。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦海事和蓝色经济部 (Federal Ministry of Marine and Blue Economy)",
+      "dept_id": "NG-GOV-001-DEPT-014",
+      "head": "阿德格博耶加·奥耶托拉 (Adegboyega Oyetola)",
+      "description": "主管港口、海运与蓝色经济，监管尼日利亚港务局（NPA）和海事管理与安全局（NIMASA）。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    },
+    {
+      "name": "联邦预算和经济计划部 (Federal Ministry of Budget and Economic Planning)",
+      "dept_id": "NG-GOV-001-DEPT-015",
+      "head": "阿布巴卡尔·阿蒂库·巴古杜 (Abubakar Atiku Bagudu)",
+      "description": "主管联邦预算编制与国家中长期经济规划，与财政部协同管理财政政策。",
+      "parent_dept_id": "NG-GOV-001-DEPT-002"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-03-18",
+      "title": "蒂努布宣布河流州进入紧急状态",
+      "description": "因油气管道破坏与州内政治危机加剧，总统蒂努布宣布河流州进入紧急状态，暂停州长西米纳拉伊·福巴拉、副州长及州议员职务六个月，由联邦任命的行政长官接管州政。",
+      "impact": "联邦行政权深度介入州级治理，引发法律界违宪争议，成为2025年联邦与州关系最具争议的事件；紧急状态于2025年9月17日解除。",
+      "source": "https://www.reuters.com/world/africa/nigerian-president-declares-state-emergency-oil-producing-rivers-state-2025-03-18/"
+    },
+    {
+      "date": "2025-06-26",
+      "title": "签署四项税制改革法案",
+      "description": "总统蒂努布签署《尼日利亚税收法》《尼日利亚税收管理法》等四项税改法案，为尼日利亚数十年来规模最大的税收改革，自2026年1月1日起施行，并设立尼日利亚税务局（Nigeria Revenue Service）。",
+      "impact": "重构联邦与州政府税收征管与分配格局，旨在提升非石油收入和财政可持续性，被视为本届政府最重要的经济立法。",
+      "source": "https://www.pwc.com/ng/en/publications/the-nigerian-tax-reform-acts.html"
+    },
+    {
+      "date": "2025-09-17",
+      "title": "解除河流州紧急状态",
+      "description": "总统宣布自午夜起结束在河流州实施的六个月紧急统治，恢复州长福巴拉、副州长奥杜及州议会的职务，要求其自9月18日起复职。",
+      "impact": "缓和联邦与尼日尔三角洲产油州的政治对立，稳定产油区局势，为2027年选举周期的政党博弈铺路。",
+      "source": "https://www.reuters.com/world/africa/nigerias-tinubu-lifts-emergency-rule-oil-rich-rivers-state-2025-09-17/"
+    },
+    {
+      "date": "2025-11-01",
+      "title": "美国威胁军事干预，联邦政府否认宗教迫害指控",
+      "description": "美国总统特朗普威胁若尼日利亚政府不制止针对基督徒的暴力将中止援助并可能采取军事行动；联邦政府断然否认基督徒遭系统性迫害的指控，强调宪法保障宗教自由，并启动对美外交沟通。",
+      "impact": "尼美关系骤然紧张，联邦政府派高级别官员赴华盛顿斡旋，安全与援助合作面临不确定性。",
+      "source": "https://www.foxnews.com/politics/trump-threatens-halt-all-us-aid-conduct-vicious-military-attack-nigeria-over-christian-persecution"
+    },
+    {
+      "date": "2025-12-02",
+      "title": "国防部长辞职，前国防参谋长克里斯托弗·穆萨获提名接任",
+      "description": "在全国绑架事件频发、安全危机加剧背景下，国防部长穆罕默德·巴达鲁·阿布巴卡尔辞职；总统蒂努布提名前国防参谋长克里斯托弗·古瓦宾·穆萨将军接任，穆萨于12月4日宣誓就职。",
+      "impact": "联邦安全架构高层调整，政府强化以军事手段应对恐怖主义与绑架犯罪的主导地位。",
+      "source": "https://www.reuters.com/world/africa/nigerias-defence-minister-quits-government-faces-rising-violence-2025-12-02/"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "签署2026年拨款法案，总支出68.32万亿奈拉",
+      "description": "总统蒂努布签署2026年拨款法案，规定联邦总支出68.32万亿奈拉（预估收入36.87万亿奈拉、赤字约31.46万亿奈拉），同时签署2025年预算延长法案。",
+      "impact": "2026年联邦预算重点投向基础设施、安全与人力资本，赤字依赖举债弥补，并为11月提出的新对外借款计划铺垫。",
+      "source": "https://statehouse.gov.ng/president-tinubu-assents-to-2026-appropriation-bill-and-2025-budget-extension/"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "内阁改组：泰沃·奥耶德莱出任财政部长",
+      "description": "财政部长兼经济统筹部长瓦莱·埃杜恩于4月20日辞职；总统蒂努布任命曾任国务部长级财政部长、并主持总统财税改革委员会的泰沃·奥耶德莱为新任财政部长兼经济统筹部长。",
+      "impact": "税改主要设计者执掌联邦财政，表明政府延续增收与财政整固路线；同轮小型改组中住房与城市发展部长亦去职。",
+      "source": "https://www.reuters.com/world/africa/nigerias-president-names-taiwo-oyedele-new-finance-minister-2026-04-21/"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "向国民议会提出77亿美元对外借款计划",
+      "description": "总统致函国民议会，请求批准新的77.07亿美元（约10.8万亿奈拉）对外借款以资助2026年预算项目和计划，同时撤回此前总额205亿美元的借款请求。",
+      "impact": "联邦政府重新校准债务战略与外部融资规模，市场关注奈拉汇率与公共债务可持续性。",
+      "source": "https://www.reuters.com/world/africa/nigerias-tinubu-seeks-new-77-billion-borrowing-replaces-earlier-205-billion-2026-11-04/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-002",
+      "org_name": "尼日利亚总统 (President of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦行政首长职位，现任总统博拉·蒂努布自2023年5月起任职，兼任武装部队总司令。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-GOV-003",
+      "org_name": "联邦执行委员会（内阁）(Cabinet of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "由总统主持的联邦内阁，各联邦部长组成，为联邦政府行政决策核心。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-GOV-004",
+      "org_name": "国民议会 (National Assembly of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "两院制联邦立法机关（参议院与众议院），负责联邦立法、预算审批与行政监督。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-GOV-007",
+      "org_name": "尼日利亚最高法院 (Supreme Court of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦司法体系最高审判机关，行使终审权与宪法解释权。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-PARTY-001",
+      "org_name": "全体进步大会党 (All Progressives Congress)",
+      "org_type": "PARTY",
+      "org_description": "执政党，2023年起控制联邦总统职位并在国民议会两院占多数。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-MIL-001",
+      "org_name": "尼日利亚军 (Nigerian Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "联邦武装力量（陆、海、空三军），由总统任总司令。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-FIN-001",
+      "org_name": "尼日利亚中央银行 (Central Bank of Nigeria)",
+      "org_type": "FIN",
+      "org_description": "联邦中央银行，主管货币政策、汇率与金融监管。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-SOE-001",
+      "org_name": "尼日利亚国家石油公司 (Nigerian National Petroleum Corporation)",
+      "org_type": "SOE",
+      "org_description": "联邦政府全资控股的国家石油公司，受联邦石油资源部监管。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-INTL-001",
+      "org_name": "西非国家经济共同体 (Economic Community of West African States)",
+      "org_type": "INTL",
+      "org_description": "西非区域经济组织，尼日利亚为其创始成员和最大经济体，联邦政府参与其首脑会议与决策。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "尼日利亚联邦政府是尼日利亚联邦共和国的中央政府，依据1999年《尼日利亚联邦共和国宪法》行使联邦权力，由行政、立法、司法三个平行的分支机构组成，实行联邦总统制与三权分立。行政权由总统掌握，总统兼任国家元首、政府首脑和武装部队总司令，与副总统经全民直选产生，任期四年、可连任一次；总统主持联邦执行委员会（内阁），下设24个联邦部委以及独立国家选举委员会、经济和金融犯罪委员会等大量联邦机构，并监管尼日利亚国家石油公司等国有企业。立法权属于两院制国民议会，由109席的参议院和360席的众议院组成，负责联邦立法、预算审批与行政监督。司法系统以联邦最高法院为最高审判机关，之下设上诉法院、联邦高等法院等，法律体系融合英国普通法、本土习惯法与北部部分州的伊斯兰教法。联邦政府负责国防、外交、货币与海关、移民、联邦税收、石油资源等专属事项，与36个州、联邦首都区及774个地方政府区实行分权治理，政府所在地为首都阿布贾。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），亦无加入APEC的进程。尼日利亚联邦政府实际参与的国际合作框架主要包括：西非国家经济共同体（ECOWAS，创始成员和西非最大经济体，总统提努布曾任西共体轮值主席）、非洲联盟（AU，尼日利亚在非盟和平与安全理事会任职）、联合国（尼日利亚谋求安理会改革后的常任席位）、英联邦（1960年独立后加入，1995至1999年军政府期间成员资格曾被中止）以及石油输出国组织（OPEC，尼日利亚作为非洲主要产油国长期为其成员）。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_Nigeria.svg/330px-Coat_of_arms_of_Nigeria.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": "minio-store/default/popular-org-profile/ng/NG-GOV-001.png",
+    "minio_path": "default/popular-org-profile/ng/NG-GOV-001.png"
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-10",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "statehouse_press_release",
+      "reuters",
+      "bbc_news",
+      "fox_news",
+      "pwc_tax_publication",
+      "chinese_mfa_country_profile",
+      "web_search"
+    ],
+    "completeness_score": 97,
+    "quotes": [
+      {
+        "title": "Politics of Nigeria - Wikipedia (structure of the federal government: executive, legislative, judicial)",
+        "url": "https://en.wikipedia.org/wiki/Politics_of_Nigeria"
+      },
+      {
+        "title": "Welcome to Nigeria - Nigerian Information Portal (official national portal)",
+        "url": "https://nigeria.gov.ng/"
+      },
+      {
+        "title": "State House Abuja - President Tinubu assents to 2026 Appropriation Bill and 2025 budget extension (2026-04-17)",
+        "url": "https://statehouse.gov.ng/president-tinubu-assents-to-2026-appropriation-bill-and-2025-budget-extension/"
+      },
+      {
+        "title": "Reuters - Nigeria's Tinubu seeks new $7.7 billion borrowing, replaces earlier $20.5 billion request (2026-11-04)",
+        "url": "https://www.reuters.com/world/africa/nigerias-tinubu-seeks-new-77-billion-borrowing-replaces-earlier-205-billion-2026-11-04/"
+      },
+      {
+        "title": "中华人民共和国外交部 - 尼日利亚国家概况（提努布总统兼任石油资源部长等）",
+        "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/fz_677316/1206_678356/"
+      }
+    ],
+    "notes": "Phase 3 enrichment (2026-11-11): Wikipedia Politics of Nigeria + official national portal + State House press releases + Reuters/BBC/Fox news 2025-2026 + Chinese MFA profile. Cabinet status verified for 2026: Finance Minister Taiwo Oyedele (since 2026-04-21, replacing Wale Edun), Defence Minister Christopher Musa (since 2025-12-04), Justice Minister/AGF Lateef Fagbemi (incumbent, verified Nov 2026). founded_date 1963-10-01 per Wikipedia infobox (First Republic formation); Wikidata P571 states year 1963. org_subtype uses gov_department per enum (central government value not in enum; follows AE-GOV-001 precedent). Nigeria is not an APEC member; international frameworks noted instead."
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "org_id": "TD-GOV-011",
+  "basic_info": {
+    "name_original": "Ministère des Finances, du Budget, de l'Économie, du Plan et de la Coopération Internationale",
+    "name_zh": "乍得财政部",
+    "name_en": "Ministry of Finance, Budget, Economy, Planning and International Cooperation",
+    "aliases": [
+      "Ministère des Finances et du Budget",
+      "MFBEPCI",
+      "Ministry of Finance and Budget (Chad)"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "TCD",
+    "hq_country_iso3": "TCD",
+    "founded_date": null,
+    "website": "http://www.finances.gouv.td",
+    "wikidata_qid": null,
+    "source_unavailable": "qid_removed_wrong_entity: P17=中非共和国(Q929)，疑为同名 CAR 部委，非乍得财政部；经核实原key_people中Hervé Ndoba(TD-PERSON-000012)系中非共和国财政与预算部长（2021年6月起在任），与乍得无关，已移除；官网finances.gouv.td于2026-10探测显示OVH「Site not installed」停放页，当前不可达（域名真实性由法语维基百科多篇条目引注确认）"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "官方网站（finances.gouv.td）",
+      "url": "http://www.finances.gouv.td",
+      "description": "乍得财政部官网域名，法语维基百科「Abdoulaye Sabre Fadoul」「Mbogo Ngabo Seli」等条目均引注其为该部官方站点；2026-10-15直接访问返回OVHcloud「Site not installed」停放页，网站当前不可用",
+      "source": "fr.wikipedia.org引注 + 本次直接探测"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "TD-PERSON-000020",
+      "name": "塔希尔·哈米德·恩吉兰 (Tahir Hamid Nguilin)",
+      "title": "国务部长兼财政、预算、经济、计划与国际合作部长 (Ministre d'État)",
+      "title_description": "在Halina III政府（2026-04-01改组，总理阿拉-马耶·哈利纳留任）中任国务部长并执掌财政；属爱国拯救运动（MPS）",
+      "description": "1975/1976年生，喀麦隆中非天主教大学会计与金融专业毕业；曾任Sotel Tchad总经理（2009-2010）、中非国家银行（BEAC）副行长（2010-2016）、乍得国家石油公司（SHT）总经理（2016-2018）；2019年6月起任财政与预算部长，历经多次内阁更迭留任，2024年5月起任国务部长并兼经济与合作，2025-02-06在Halina II政府中加兼计划与国际合作，2026年4月Halina III政府中继续留任"
+    },
+    {
+      "person_id": "TD-PERSON-000050",
+      "name": "萨利赫·布尔马 (Saleh Bourma)",
+      "title": "财政部部级代表，主管经济、计划与国际合作 (Ministre délégué)",
+      "title_description": "2026-04-01在Halina III政府中获任命，协助国务部长主管经济、计划与国际合作事务；属争取共和联盟（MUR）",
+      "description": null
+    },
+    {
+      "person_id": "TD-PERSON-000051",
+      "name": "阿里·贾达·坎帕尔 (Ali Djadda Kampard)",
+      "title": "财政与预算部国务秘书 (Secrétaire d'État aux Finances et au Budget)",
+      "title_description": "2026-04-01在Halina III政府中获任命，属民主与进步大会（RDP）",
+      "description": "2026年4月1日主持税务总司（DGI）与国库暨公共会计总司（DGTCP）数据交换协议签署仪式并致辞，称其为「具有高度政治与战略意义的举措」"
+    },
+    {
+      "person_id": "TD-PERSON-000052",
+      "name": "萨利赫·阿巴卡尔·泽内 (Saleh Abakar Zène)",
+      "title": "预算与信息化副总司长 (Directeur général adjoint du Budget et de l'Informatisation)",
+      "title_description": "财政部预算口副总司长兼信息化负责人（部分报道亦称「预算与信息副总司长」）",
+      "description": "2026年4月29-30日在恩贾梅纳主持SIGFiP预算执行培训，提出建设「更高效、更数字化、更透明、更注重结果」的公共行政，称预算管理数字化「已不是选项而是时代要求」"
+    }
+  ],
+  "departments": [
+    {
+      "name": "税务总司 (Direction Générale des Impôts, DGI)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责国家税收征管与税务行政管理；运营e-tax电子税务申报缴纳平台、标准化电子发票（FEN）、e-conservation、e-notaire等数字化系统；2026-04-01与DGTCP签署数据实时交换协议，实现税务开票、入库、欠缴与支付信息互通",
+      "parent_dept_id": "TD-GOV-011"
+    },
+    {
+      "name": "国库暨公共会计总司 (Direction Générale du Trésor et de la Comptabilité Publique, DGTCP)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责国库管理、公共会计与国家财务信息；在恩贾梅纳推行国库单一账户（compte unique du Trésor，该部2024-10发布公告说明）；2026-04与DGI签署数据交换协议，负责公共会计师相关法规（status、cautionnement等）修订工作",
+      "parent_dept_id": "TD-GOV-011"
+    },
+    {
+      "name": "预算总司 (Direction Générale du Budget)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责国家预算编制与执行监控；依托公共财政综合管理系统（SIGFiP）组织支出链条（承诺、清算、支付令、监控与报告）数字化，2026年4月面向恩贾梅纳市镇、宪法机构、各部委支出管理员开展培训；现任副总司长为萨利赫·阿巴卡尔·泽内",
+      "parent_dept_id": "TD-GOV-011"
+    },
+    {
+      "name": "海关总司 (Direction Générale des Douanes)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责关税征收、打击走私与假冒商品、过境货物管理；在喀麦隆杜阿拉设有乍得海关杜阿拉办事处（Antenne des douanes tchadiennes à Douala），2026年6月被部长以通函「保守性暂停」以进行重组",
+      "parent_dept_id": "TD-GOV-011"
+    },
+    {
+      "name": "财政监察总司 (Inspection Générale des Finances, IGF)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责财政监督检查；2025-2026年对Nguéli口岸与杜阿拉海关办事处开展核查，发现海关单证、进口接管、过境单证追踪等方面的违规问题，促成杜阿拉海关办事处暂停整肃",
+      "parent_dept_id": "TD-GOV-011"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-17",
+      "title": "国民议会通过2026年财政预算法：22750亿中非法郎，规模缩减6%",
+      "description": "12月17日，国民议会议长阿里·科洛图·柴米主持全体会议，国务部长兼财政部长塔希尔·哈米德·恩吉兰出席，以159票赞成、0票反对、9票弃权通过2026年国家总预算：总收入22750亿中非法郎，较2025年的24208亿减少1458亿（-6%）；12月27日参议院以多数票通过该法案。部长称预算立足于「Tchad Connexion 2030」国家发展计划的实施",
+      "impact": "乍得连续多年首次显著收缩预算规模，重点投向教育、卫生、农业、能源与基础设施；分析依据：部长称预算已考虑国际承诺且宏观经济前景有利，显示财政整固取向",
+      "source": "https://tchadinfos.com/2025/12/18/projet-de-loi-de-finances-2026-lassemblee-nationale-donne-son-aval/"
+    },
+    {
+      "date": "2026-04-01",
+      "title": "税务总司与国库暨公共会计总司签署数据交换协议",
+      "description": "DGI与DGTCP于4月1日在国库总司总部签署数据交换协定，国务秘书阿里·贾达·坎帕尔主持仪式；协议依托SIGFIP、E-tax、标准化电子发票（FEN）、e-conservation、e-notaire等工具，使税务开票、入库、欠缴与支付信息实时安全共享，并服务于「TchadConnexion2030」发展计划的国内资源动员",
+      "impact": "打破两局间长期数据不通的瓶颈，被视为「静默但决定性的革命」，提升国家收入动员、财政透明度与数字化水平",
+      "source": "https://tchadinfos.com/2026/04/01/la-direction-generale-des-impots-et-celle-du-tresor-et-de-la-comptabilite-signent-un-protocole-dechange-de-donnees/"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "财政部举办SIGFiP预算执行培训，推进公共财政数字化",
+      "description": "4月29-30日在恩贾梅纳举办SIGFiP（公共财政综合管理系统）预算执行培训，面向恩贾梅纳市镇、宪法机构、各部委及受监管机构预算单位的支出管理员，内容涵盖承诺、清算、支付令、额度监控与报告流程；预算与信息化副总司长萨利赫·阿巴卡尔·泽内主持",
+      "impact": "承接公共收入机关数字化进展（据Africa24 TV 2026-03-03报道，乍得80%的财政收入机关已数字化），推动公共支出链条全程数字化、可追溯与预算纪律",
+      "source": "https://tchadinfos.com/2026/04/29/digitalisation-des-finances-publiques-le-ministere-des-finances-renforce-les-capacites-des-administrateurs-de-credits/"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "财政部长暂停乍得驻杜阿拉海关办事处并整肃过境链",
+      "description": "财政部以通函形式强化海关程序：禁止修改过境单证、要求出示必备单证、暂停过境商临时资质，并将乍得海关杜阿拉办事处「保守性暂停」以进行行政、运营与功能重组；此前财政监察总司对Nguéli与杜阿拉的核查发现单证可受理性、进口接管、过境单证追踪及货物放行等多类违规；该通函补充2025-09-01第007/MFBEPCI/CAB/2025号通函",
+      "impact": "显示部领导整肃海关与转运链条、打击舞弊的决心；杜阿拉港为乍得主要出海中转通道，重组短期内或影响清关时效",
+      "source": "https://tchadinfos.com/2026/06/02/tchad-le-ministre-des-finances-suspend-lantenne-des-douanes-tchadiennes-a-douala/"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "总统就2027年预算法案（PLF 2027）下达方针指引",
+      "description": "总统马哈马特·伊德里斯·代比向总理、各大机构负责人及政府成员下发2027年预算法案方针指引，明确三大轴线：优先保障国防与安全力量、加强教育卫生饮水等社会部门、推进公路能源农业等基础设施与经济多元化以降低石油依赖；同时要求扩大非石油收入（拓宽税基、打击欺诈、改善国企治理）、控制工资总额与经常性支出，并告诫避免「复制粘贴」往年财政法案",
+      "impact": "财政部据此编制2027年预算，延续预算整固与结构性改革路线；2026-09-01国民议会开启2026年第二次常规例会，2027年预算为会议议程核心",
+      "source": "https://tchadinfos.com/2026/08/04/tchad-le-president-fixe-les-orientations-du-projet-de-loi-de-finances-2027/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "TD-GOV-001",
+      "org_name": "乍得政府 (Gouvernement de la République du Tchad)",
+      "org_type": "GOV",
+      "org_description": "乍得共和国中央政府，由总理阿拉-马耶·哈利纳领导；财政部为其组成部门",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "TD-GOV-002",
+      "org_name": "哈利纳三世政府 (Gouvernement Halina III)",
+      "org_type": "GOV",
+      "org_description": "2026-04-01总统马哈马特·伊德里斯·代比改组内阁后组建的现任政府，共36名成员，含反对派与社会人士；现任部长团队均出自该届政府",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "TD-GOV-003",
+      "org_name": "乍得总统 (Présidence de la République du Tchad)",
+      "org_type": "GOV",
+      "org_description": "总统为国家元首并主导预算方针，2026-08-04向总理与政府下达2027年预算法案方针指引",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "TD-FIN-001",
+      "org_name": "中非国家银行 (Banque des États de l'Afrique Centrale, BEAC)",
+      "org_type": "FIN",
+      "org_description": "中非经货共同体（CEMAC）六国共同央行，负责中非法郎货币发行与货币政策；现任国务部长恩吉兰2010-2016年曾任该行副行长",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "TD-SOE-004",
+      "org_name": "乍得国家碳氢化合物公司 (Société des Hydrocarbures du Tchad, SHT)",
+      "org_type": "SOE",
+      "org_description": "乍得国家石油公司，为最大财政收入来源企业之一（2015年约占国家收入75%）；现任国务部长恩吉兰2016-2018年任其总经理",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界银行 (Banque mondiale)",
+      "org_type": "INTL",
+      "org_description": "乍得国际发展伙伴之一；2026年7月发布报告呼吁乍得释放中小微企业潜力以促进增长与就业",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "TD-NGO-013",
+      "org_name": "非洲开发银行 (Banque africaine de développement, BAD)",
+      "org_type": "INTL",
+      "org_description": "乍得国际发展伙伴之一；2025年与乍得签署近4500万美元赠款，用于Kyabé-Mayo段公路沥青铺设",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "TD-NGO-013",
+      "org_name": "法国开发署 (Agence Française de Développement, AFD)",
+      "org_type": "INTL",
+      "org_description": "乍得预算支持伙伴之一；2025年2月与乍得签署1500万欧元预算支持协定（据Alwihda Info报道）",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "乍得财政部（现全称「财政、预算、经济、计划与国际合作部」，缩写MFBEPCI）是乍得主管国家公共财政与经济政策的核心部委，总部驻恩贾梅纳。主要职责：编制并执行国家总预算、起草年度财政法案（2026年预算22750亿中非法郎）；通过税务总司（DGI）组织税收征管，运营e-tax电子税务、标准化电子发票（FEN）等系统；通过海关总司管理关税、过境与打击走私，含驻喀麦隆杜阿拉海关办事处；通过国库暨公共会计总司（DGTCP）管理国库单一账户与公共会计；通过预算总司依托SIGFiP系统监控预算执行；另设财政监察总司（IGF）负责财政监督核查。2025年2月起该部并入经济、计划与国际合作职能，统筹「Tchad Connexion 2030」国家发展计划的经济规划事务、国际合作谈判与国家债务及现金管理，并主导公共财政全链条数字化（SIGFIP、E-tax、e-conservation等）改革。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "乍得不是APEC成员。APEC的21个成员经济体均为环太平洋国家或地区，乍得是非洲中部的内陆国家，不在其中，因此该部不存在任何APEC相关的立场、承诺或活动。该部实际参与的国际合作框架包括：中非经济与货币共同体（CEMAC）与中非国家银行（BEAC）货币联盟（中非法郎区）的财政与关税协调；与世界银行、非洲开发银行（BAD）等国际金融机构的发展合作（如BAD近4500万美元公路赠款）；与法国开发署（AFD）的1500万欧元预算支持合作；以及配合「Tchad Connexion 2030」国家发展计划开展的财政与预算改革对话。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-10-15",
+    "phase": "phase3_enriched",
+    "quotes": [
+      {
+        "title": "Gouvernement Halina III — Wikipédia francophone（组成表：Ministre d'État, Ministre des Finances, du Budget, de l'Économie, du Plan et de la Coopération internationale : Tahir Hamid Nguilin；Ministre délégué : Saleh Bourma；Secrétaire d'État : Ali Djadda Kampard）",
+        "url": "https://fr.wikipedia.org/wiki/Gouvernement_Halina_III"
+      },
+      {
+        "title": "Tahir Hamid Nguilin — Wikipédia francophone（履历：BEAC副行长2010-2016、SHT总经理、2019年6月起任财政与预算部长、2025-02-06 Halina II政府加兼计划与国际合作）",
+        "url": "https://fr.wikipedia.org/wiki/Tahir_Hamid_Nguilin"
+      },
+      {
+        "title": "Tchad : le ministre des Finances suspend l'Antenne des douanes tchadiennes à Douala — Tchadinfos（2026-06-02，含部名「ministère des Finances, du Budget, de l'Économie, du Plan et de la Coopération Internationale」与通函编号007/MFBEPCI/CAB/2025）",
+        "url": "https://tchadinfos.com/2026/06/02/tchad-le-ministre-des-finances-suspend-lantenne-des-douanes-tchadiennes-a-douala/"
+      },
+      {
+        "title": "Projet de loi de finances 2026 : l'Assemblée nationale donne son aval — Tchadinfos（2025-12-18，预算22750亿FCFA、159票通过、恩吉兰出席）",
+        "url": "https://tchadinfos.com/2025/12/18/projet-de-loi-de-finances-2026-lassemblee-nationale-donne-son-aval/"
+      },
+      {
+        "title": "La Direction générale des Impôts et celle du Trésor et de la Comptabilité signent un protocole d'échange de données — Tchadinfos（2026-04-01，DGI/DGTCP机构名、国务秘书坎帕尔主持、SIGFIP/E-tax/FEN等系统）",
+        "url": "https://tchadinfos.com/2026/04/01/la-direction-generale-des-impots-et-celle-du-tresor-et-de-la-comptabilite-signent-un-protocole-dechange-de-donnees/"
+      },
+      {
+        "title": "Tchad : le président fixe les orientations du projet de loi de finances 2027 — Tchadinfos（2026-08-04，PLF 2027三大轴线与非石油收入动员）",
+        "url": "https://tchadinfos.com/2026/08/04/tchad-le-president-fixe-les-orientations-du-projet-de-loi-de-finances-2027/"
+      }
+    ],
+    "data_sources": [
+      "wikipedia",
+      "google_news_rss",
+      "news_search",
+      "official_website_probe"
+    ],
+    "completeness_score": 79,
+    "notes": "phase3重建：原Wikidata QID属中非共和国同名部委已清除，wikidata_qid维持null；key_people中原Hervé Ndoba经核实为中非共和国财政部长（Gouvernement Moloua I/Dondra成员），已移除。全称以2026-04-01 Halina III政府组成表及tchadinfos通函报道为准（MFBEPCI）。官网finances.gouv.td当前返回OVH停放页不可达，域名真实性由fr.wikipedia引注确认。社交账号未检索到可靠来源，留空。现任部长经fr.wikipedia（Halina III表）、tchadinfos（2025-12-18、2026-04-01报道）及Google News索引（Africa24 TV 2026-07-15访谈、Jeune Afrique 2026-08-25报道）多源交叉确认。"
+  }
+}

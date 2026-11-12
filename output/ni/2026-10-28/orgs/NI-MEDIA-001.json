@@ -1,0 +1,219 @@
+{
+  "org_id": "NI-MEDIA-001",
+  "basic_info": {
+    "name_original": "La Prensa",
+    "name_zh": "拉普伦萨",
+    "name_en": "La Prensa",
+    "aliases": [
+      "El Diario de los Nicaragüenses",
+      "La República de Papel"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "newspaper",
+    "country_iso3": "NIC",
+    "hq_country_iso3": "NIC",
+    "founded_date": "1926-03-02",
+    "website": "https://www.laprensani.com/",
+    "wikidata_qid": "Q3211909"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "laprensa",
+      "url": "https://twitter.com/laprensa",
+      "source": "wikidata"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "laprensanicaragua",
+      "url": "https://facebook.com/laprensanicaragua",
+      "source": "wikidata"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UCc3cBMPnUvyP4-pz_nYuXGg",
+      "url": "https://youtube.com/channel/UCc3cBMPnUvyP4-pz_nYuXGg",
+      "source": "wikidata"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "laprensani",
+      "url": "https://www.instagram.com/laprensani/",
+      "source": "web_search"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官方网站 laprensani.com",
+      "url": "https://www.laprensani.com/",
+      "description": "报社流亡后的主要数字出版平台，提供每日新闻、政治、经济、体育内容及周日数字副刊（La Prensa Domingo）等栏目。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "爱德华多·恩里克斯 (Eduardo Enríquez)",
+      "title": "主编 (Editor en Jefe)",
+      "title_description": "报社最高编辑负责人；在流亡架构下主持全部编辑工作，西语媒体亦称其为 editor general / director。",
+      "description": "拉普伦萨资深编辑，2021年社址被查封后遭当局迫害，2022年流亡哥斯达黎加圣何塞，此后以流亡编辑团队负责人身份远程主持报社的数字出版，多次代表报社接受国际媒体与新闻自由组织访谈（西语Wikipedia信息框、Confidencial 2024年5月及哥斯达黎加《民族报》2026年3月报道交叉确认）。"
+    },
+    {
+      "person_id": null,
+      "name": "克里斯蒂安娜·查莫罗·巴里奥斯 (Cristiana Chamorro Barrios)",
+      "title": "前董事长 (Ex Presidenta del Consejo de Administración)",
+      "title_description": "被捕前担任拉普伦萨董事会主席，并曾任 Violeta Barrios de Chamorro 基金会负责人。",
+      "description": "查莫罗家族成员、标志性主编佩德罗·华金·查莫罗之女；2021年6月2日被当局拘捕（后改为居家软禁），被取消2021年总统初选参选资格，2022年3月被判8年监禁；2023年2月9日随222名在押反对派一起获释并被驱逐至美国，国籍被吊销。"
+    },
+    {
+      "person_id": "NI-PERSON-000135",
+      "name": "胡安·洛伦索·奥尔曼·查莫罗 (Juan Lorenzo Holmann Chamorro)",
+      "title": "前总经理 (Ex Gerente General)",
+      "title_description": "被捕前担任报社总经理（gerente general），亦为董事会成员。",
+      "description": "2021年8月13日社址被查封后不久被捕并关押约18个月；2023年2月9日随222名政治犯获释、被驱逐至美国并被吊销国籍，此后在美国继续就尼加拉瓜新闻自由议题发声（CPJ、威尔逊中心、美洲对话等多来源确认）。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "编辑部 (Dirección Editorial / Redacción)",
+      "dept_id": "NI-MEDIA-001-DEPT-001",
+      "head": "爱德华多·恩里克斯 (Eduardo Enríquez)",
+      "description": "报社核心采编部门，设主编负责制；2021年社址被警方查封后随管理层流亡哥斯达黎加圣何塞，以远程方式维持每日数字新闻出版。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "印务部 (Talleres Gráficos / 印刷车间)",
+      "dept_id": "NI-MEDIA-001-DEPT-002",
+      "head": null,
+      "description": "源自1926年创社实体「拉普伦萨图形车间公司」，长期负责纸媒排版与印刷；2021年8月12日纸媒停印后停摆，印刷设备随社址于2022年被当局没收。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "数字运营部 (Edición Digital)",
+      "dept_id": "NI-MEDIA-001-DEPT-003",
+      "head": null,
+      "description": "负责运营 laprensani.com 官网及各社交平台账号；纸媒停印后成为报社最主要的出版渠道。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "文化副刊部 (La Prensa Literaria)",
+      "dept_id": "NI-MEDIA-001-DEPT-004",
+      "head": null,
+      "description": "由作家巴勃罗·安东尼奥·夸德拉创立的著名文化副刊，是报社内容架构的历史组成部分；2020年另一周刊副刊《El Azote》因纸张封锁被取消。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-02-09",
+      "title": "前董事长与前总经理获释并流亡美国",
+      "description": "尼加拉瓜政府释放222名在押反对派人士并将其驱逐至美国，其中包括拉普伦萨前董事会主席克里斯蒂安娜·查莫罗·巴里奥斯、前总经理胡安·洛伦索·奥尔曼；获释人员国籍被吊销。",
+      "impact": "报社原管理层全部流亡，2021年后形成的「国内社址被占、领导层流亡海外」的组织结构固化；获释人员继续在美国及国际场合代表报社发声。",
+      "source": "https://www.bbc.com/mundo/noticias-america-latina-64587463"
+    },
+    {
+      "date": "2025-05-04",
+      "title": "获2025年UNESCO/吉列尔莫·卡诺世界新闻自由奖",
+      "description": "联合国教科文组织宣布拉普伦萨获得2025年度UNESCO/吉列尔莫·卡诺世界新闻自由奖，以表彰其在压制与流亡状态下坚守独立新闻；尼加拉瓜政府随即宣布退出UNESCO，外长瓦尔达克·延茨克公开指责该报「亲美」。",
+      "impact": "报社的国际认可度显著提升，流亡运作获得全球新闻自由界声援；尼加拉瓜与UNESCO关系因此破裂，报社议题进一步国际化。",
+      "source": "https://www.unesco.org/en/articles/nicaraguan-newspaper-la-prensa-wins-unesco/guillermo-cano-world-press-freedom-prize-2025"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "创刊100周年，在流亡中迎来百年社庆",
+      "description": "拉普伦萨迎来创刊一百周年；在编辑部流亡哥斯达黎加、社址被占、纸媒停印的情况下，报社以数字版持续出版，并推出百年纪念特刊、专题及纪念书籍，拉美与国际媒体广泛报道其「百年流亡」历程。",
+      "impact": "百年社庆强化了报社作为尼加拉瓜历史最悠久报纸及流亡独立媒体象征的地位，为其国际募款与影响力维护提供支撑。",
+      "source": "https://www.laprensani.com/2026/03/02/opinion/3640698-retos-superados-en-el-camino-de-los-100-anos"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "被没收社址与资产的处置持续引发关注",
+      "description": "据2026年6月国际媒体报道，拉普伦萨被没收的社址与设备仍由政府方面占有使用：社址自2022年8月被接管后被改建为「何塞·科罗内尔·乌尔特乔文化与理工中心」，成为尼加拉瓜大规模没收私人资产案例中的标志性事件。",
+      "impact": "报社资产归还问题悬而未决；流亡管理层持续在国际场合主张对社址与设备的所有权，资产处置仍是报社与政府争议的核心议题之一。",
+      "source": "https://www.infobae.com/nicaragua/2026/06/20/estado-ladron-el-regimen-de-ortega-utiliza-las-confiscaciones-como-un-arma-de-represion-y-recaudacion-en-nicaragua/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NI-CORP-001",
+      "org_name": "埃尔查莫罗工业集团 (E Chamorro Industrial / Grupo El Chamorro)",
+      "org_type": "CORP",
+      "org_description": "查莫罗家族控制的尼加拉瓜企业集团；拉普伦萨由查莫罗家族后代为主要股东的「Grupo Editorial La Prensa」（LA PRENSA, S.A.，1961年组建）持有，与该集团同属查莫罗家族商业与媒体网络。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NI-GOV-006",
+      "org_name": "尼加拉瓜财政信贷部 (Ministerio de Hacienda y Crédito Público de Nicaragua)",
+      "org_type": "GOV",
+      "org_description": "尼加拉瓜政府财政与海关主管部门；其下属海关总局（DGA）在2018至2020年间多次扣押报社的纸张与油墨等物资（累计约500天），并于2021年8月13日会同国家警察对报社实施司法稽查。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "NI-MEDIA-002",
+      "org_name": "新日报 (El Nuevo Diario)",
+      "org_type": "MEDIA",
+      "org_description": "1980年由因编辑路线分歧出走拉普伦萨的前主编哈维尔·查莫罗·卡德纳尔及约八成员工创办的另一家反对派日报，2019年停刊；其停刊使拉普伦萨成为尼加拉瓜最后一份纸质反对派日报。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "拉美联合日报协会 (Periódicos Asociados Latinoamericanos, PAL)",
+      "org_type": "MEDIA",
+      "org_description": "拉美主要报社组成的专业协会；拉普伦萨自2009年起为其成员。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "拉普伦萨（La Prensa，通称尼加拉瓜《新闻报》）创刊于1926年3月2日，由加夫里·里瓦斯与恩里克·贝利、佩德罗·贝利共同创办；1932年起由佩德罗·华金·查莫罗·塞拉亚购得，逐步成为查莫罗家族控股的家族报社（1961年组建LA PRENSA, S.A.），素有「纸面共和国」（La República de Papel）之称，是尼加拉瓜历史最悠久、发行量最大的日报之一，2021年前纸媒发行量约4.2万份。其内容覆盖时政、经济、社会、体育与观点评论，并设有文化副刊《La Prensa Literaria》，长期站在反对派与保守主义传统一边：曾强烈反对索摩查家族独裁（标志性主编佩德罗·华金·查莫罗·卡德纳尔1978年遇刺），1980年因编辑路线分歧发生分裂，哈维尔·查莫罗率多数员工出走创办《新日报》；2009年加入拉美联合日报协会（PAL）。2018年尼加拉瓜危机后，报社与政府冲突加剧：海关扣押纸张油墨累计约500天，2021年8月12日被迫停止纸媒印刷，次日社址被国家警察查封（政府方面指控其涉嫌海关欺诈与洗钱，报社方面否认），2022年8月23日社址与资产被政府实际接管并改建为文化中心；编辑部流亡哥斯达黎加圣何塞，转为以 laprensani.com 为核心的纯数字出版并运营至今，2026年3月在流亡状态中迎来创刊一百周年。\nhttps://upload.wikimedia.org/wikipedia/commons/0/04/La_Prensa_NI.png",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "尼加拉瓜不是APEC成员（APEC现有21个成员经济体），拉普伦萨作为尼加拉瓜媒体机构不参与APEC事务，无公开的APEC相关立场记录。尼加拉瓜实际参与的区域经贸框架主要包括中美洲一体化体系（SICA）、《多米尼加共和国—中美洲自由贸易协定》（CAFTA-DR）以及2023年签署、2024年生效的尼加拉瓜—中国自由贸易协定等；作为流亡独立媒体，拉普伦萨对尼加拉瓜政府的经贸与外交政策总体持批评报道立场。",
+  "profile": {
+    "source_url": null,
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-28",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 83,
+    "notes": "Phase 3 enrichment: 基于 Wikidata 骨架补充西语/英语Wikipedia、官网及2023-2026年西语国际新闻交叉验证；关键人物（主编Eduardo Enríquez、前董事长Cristiana Chamorro、前总经理Juan Lorenzo Holmann）均经至少两个独立来源确认；纸媒停印、社址查封与没收、UNESCO获奖及百年社庆等事件以多来源核实。原 skeleton industries 字段 broadcasting 与报社业务不符，已更正为 media_publishing/digital_media。",
+    "quotes": [
+      {
+        "title": "La Prensa (Nicaragua) - Wikipedia (español)",
+        "url": "https://es.wikipedia.org/wiki/La_Prensa_(Nicaragua)"
+      },
+      {
+        "title": "Nicaraguan newspaper La Prensa wins UNESCO/Guillermo Cano World Press Freedom Prize 2025 (UNESCO)",
+        "url": "https://www.unesco.org/en/articles/nicaraguan-newspaper-la-prensa-wins-unesco/guillermo-cano-world-press-freedom-prize-2025"
+      },
+      {
+        "title": "Nicaragua leaves UNESCO after exiled newspaper wins award (DW)",
+        "url": "https://www.dw.com/en/nicaragua-leaves-unesco-after-exiled-newspaper-wins-award/a-72431357"
+      },
+      {
+        "title": "Nicaragua libera a 222 opositores presos, los deporta a EE.UU. y les retira la nacionalidad (BBC Mundo)",
+        "url": "https://www.bbc.com/mundo/noticias-america-latina-64587463"
+      },
+      {
+        "title": "Juan Lorenzo Holmann de La Prensa: \"Me di la vuelta y me despedí de Nicaragua\" (CPJ)",
+        "url": "https://cpj.org/es/2023/02/juan-lorenzo-holmann-de-la-prensa-me-di-la-vuelta-y-me-despedi-de-nicaragua/"
+      },
+      {
+        "title": "Retos superados en el camino de los 100 años (La Prensa, 2026-03-02)",
+        "url": "https://www.laprensani.com/2026/03/02/opinion/3640698-retos-superados-en-el-camino-de-los-100-anos"
+      },
+      {
+        "title": "«Estado ladrón»: el régimen de Ortega utiliza las confiscaciones como un arma de represión y recaudación en Nicaragua (Infobae, 2026-06-20)",
+        "url": "https://www.infobae.com/nicaragua/2026/06/20/estado-ladron-el-regimen-de-ortega-utiliza-las-confiscaciones-como-un-arma-de-represion-y-recaudacion-en-nicaragua/"
+      }
+    ]
+  }
+}

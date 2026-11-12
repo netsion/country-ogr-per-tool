@@ -1,0 +1,238 @@
+{
+  "org_id": "NI-MIL-002",
+  "basic_info": {
+    "name_original": "Policía Nacional de Nicaragua",
+    "name_zh": "尼加拉瓜國家警察",
+    "name_en": "National Police of Nicaragua",
+    "aliases": [
+      "Policía Orteguista",
+      "PN",
+      "Policía Nacional Nicaragüense"
+    ],
+    "org_type": "MIL",
+    "org_subtype": "security_agency",
+    "country_iso3": "NIC",
+    "hq_country_iso3": "NIC",
+    "founded_date": "1979-08-22",
+    "website": "http://www.policia.gob.ni/",
+    "wikidata_qid": "Q6974974"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "PNNicaragua",
+      "url": "https://www.facebook.com/PNNicaragua/",
+      "source": "https://www.policia.gob.ni/"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "pnnicaragua",
+      "url": "https://www.instagram.com/pnnicaragua/",
+      "source": "https://www.policia.gob.ni/"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "vppolicial",
+      "url": "https://twitter.com/vppolicial",
+      "source": "https://www.policia.gob.ni/"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Policía Nacional de Nicaragua",
+      "url": "https://www.youtube.com/channel/UCSvvIDSEhgHbHbaeXd8w3RA",
+      "source": "https://www.policia.gob.ni/"
+    },
+    {
+      "platform": "telegram",
+      "account_name": "VPolicial",
+      "url": "https://t.me/VPolicial",
+      "source": "https://www.policia.gob.ni/"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "警务在线办事大厅（Trámites en Línea）",
+      "url": "https://tramitesenlinea.policia.gob.ni/",
+      "description": "国家警察官方在线政务服务门户，提供交通及证件等警务事项的在线申办渠道。",
+      "source": "https://www.policia.gob.ni/"
+    },
+    {
+      "name": "警察文献中心（Centro de Documentación）",
+      "url": "http://www.policia.gob.ni/cedoc/",
+      "description": "汇集《国家警察法》（228号法）等法律法规及规章文献的官方资料库。",
+      "source": "http://www.policia.gob.ni/cedoc/sector/bl/sa/fbl2.htm"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NI-PERSON-000156",
+      "name": "弗朗西斯科·哈维尔·迪亚斯·马德里兹 (Francisco Javier Díaz Madriz)",
+      "title": "总局长 (Director General)",
+      "title_description": "警衔为第一总警监（Primer Comisionado），2018年起出任国家警察总局长，为警察部队两位联合首长之一。",
+      "description": "总统奥尔特加与穆里诺的姻亲（consuegro），2018年抗议镇压期间起执掌警察，曾被美国依《马格尼茨基全球人权问责法》制裁；2025年8月宪改后与鲁伊斯实行双首长制，2026年1月公开为双首长制辩护。"
+    },
+    {
+      "person_id": "NI-PERSON-000157",
+      "name": "胡安·维克托里亚诺·鲁伊斯·乌尔维纳 (Juan Victoriano Ruiz Urbina)",
+      "title": "警察部队联合首长 (Cojefe de las Fuerzas Policiales)",
+      "title_description": "警衔为总警监（Comisionado General），2025年8月29日经总统令126-2025任命，与总局长迪亚斯共同领导国家警察。",
+      "description": "此前于2023年9月起任国家司法协助局（DAJ）局长；被流亡媒体称为镇压行动的「沉默操盘手」，2026年3月以联合首长身份通报佩尼亚斯布兰卡斯边境缉毒行动。"
+    },
+    {
+      "person_id": "NI-PERSON-000158",
+      "name": "费尔南多·哈维尔·奥孔 (Fernando Javier Ocón)",
+      "title": "副总局长 (Subdirector General)",
+      "title_description": "2026年1月22日经总统令任命为国家警察副总局长，任命刊载于当日《官方公报》（La Gaceta）。",
+      "description": "曾任国家警察经济侦查局联合负责人（cojefe），2025年9月晋升总警监（Comisionado General）；其任命接替被解职的舒科夫·塞拉诺·佩雷斯。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "国家总指挥部 (Jefatura Nacional)",
+      "dept_id": "NI-MIL-002-DEPT-001",
+      "head": "弗朗西斯科·哈维尔·迪亚斯·马德里兹 (Francisco Javier Díaz Madriz)",
+      "description": "依据《国家警察法》（228号法）第11条，总指挥部由总局长、三名副总局长和总督察组成，三名副总局长分别主管侦查、预防和管理工作；2025年8月宪法与警察法改革后增设双首长制。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国家司法协助局 (Dirección de Auxilio Judicial, DAJ)",
+      "dept_id": "NI-MIL-002-DEPT-002",
+      "head": null,
+      "description": "负责司法协助职能（羁押、押解等），与司法系统协作；维克托里亚诺·鲁伊斯曾于2023年9月至2025年8月执掌该局。",
+      "parent_dept_id": "NI-MIL-002-DEPT-001"
+    },
+    {
+      "name": "国家交通安全局 (Dirección de Seguridad de Tránsito Nacional, DSTN)",
+      "dept_id": "NI-MIL-002-DEPT-003",
+      "head": null,
+      "description": "负责全国交通管理与道路安全、驾照及车辆相关政务服务，官网设「Trámites DSTN」在线办事窗口，并对机动车技术检验场进行授权监管。",
+      "parent_dept_id": "NI-MIL-002-DEPT-001"
+    },
+    {
+      "name": "警察情报侦查局 (Dirección de Investigación e Inteligencia Policial)",
+      "dept_id": "NI-MIL-002-DEPT-004",
+      "head": null,
+      "description": "负责警务情报与刑事侦查工作；前负责人舒科夫·塞拉诺·佩雷斯于2026年1月被解职，将被外派为警务武官。",
+      "parent_dept_id": "NI-MIL-002-DEPT-001"
+    },
+    {
+      "name": "经济侦查局 (Dirección de Investigaciones Económicas)",
+      "dept_id": "NI-MIL-002-DEPT-005",
+      "head": null,
+      "description": "负责经济与金融领域犯罪调查；现任副总局长费尔南多·哈维尔·奥孔在晋升前曾担任该局联合负责人（cojefe）。",
+      "parent_dept_id": "NI-MIL-002-DEPT-001"
+    },
+    {
+      "name": "国家警察学院「沃尔特·门多萨」(Academia de Policía Walter Mendoza)",
+      "dept_id": "NI-MIL-002-DEPT-006",
+      "head": null,
+      "description": "警察教育与培训机构，前身为1979年设立的「基础军事训练学校」，现为「沃尔特·门多萨」警察学院（高等研究学院），负责新警员培训与警员职业发展。",
+      "parent_dept_id": "NI-MIL-002-DEPT-001"
+    },
+    {
+      "name": "省级警察代表团 (Delegaciones Departamentales de Policía)",
+      "dept_id": "NI-MIL-002-DEPT-007",
+      "head": null,
+      "description": "依据228号法在全国省级行政区及马那瓜市各区设立的基层警务机构，负责辖区治安、犯罪预防与社区警务，其负责人参与国家警察全国委员会。",
+      "parent_dept_id": "NI-MIL-002-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-03",
+      "title": "联合国人权专家报告点名54名官员，警察高层在列",
+      "description": "联合国尼加拉瓜人权问题专家小组（GHREN）在日内瓦发布234页报告，首次系统确认54名政府、军队及执政党官员对系统性、广泛镇压及反人类罪负有责任；据独立媒体证实，国家警察副总局长兼警察情报负责人舒科夫·塞拉诺·佩雷斯位列其中。",
+      "impact": "报告被称为未来国际司法追责的「路线图」；但被点名的警察高层任职未受影响，其后数月内仍在体制内获晋升或调整。",
+      "source": "https://news.un.org/es/story/2025/04/1537736"
+    },
+    {
+      "date": "2025-08-29",
+      "title": "警察改行双首长制，鲁伊斯出任联合首长",
+      "description": "在宪法及警察法改革创设警察部队双首长制后，总统令126-2025于8月29日刊载《官方公报》，任命总警监胡安·维克托里亚诺·鲁伊斯·乌尔维纳为国家警察联合首长（cojefe），与总局长弗朗西斯科·迪亚斯共同领导；鲁伊斯原任国家司法协助局（DAJ）局长。",
+      "impact": "双首长制在实际运作中被认为稀释了迪亚斯的单独指挥权；「联合总统」奥尔特加与穆里诺进一步强化对警察最高层的直接人事控制。",
+      "source": "https://confidencial.digital/politica/nombran-a-victoriano-ruiz-como-cojefe-de-las-fuerzas-policiales-de-nicaragua/"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "副总局长人事更替，奥孔接替塞拉诺",
+      "description": "总统令于1月22日刊载《官方公报》，任命总警监费尔南多·哈维尔·奥孔为国家警察副总局长；原副总局长兼警察情报负责人舒科夫·塞拉诺·佩雷斯被解职，据独立媒体报道将被外派为驻友邦警务武官。",
+      "impact": "警察最高层再度洗牌，显示权力核心内部持续调整；新任副总局长奥孔于2025年9月刚晋升总警监，晋升路径与最高领导层意向密切关联。",
+      "source": "https://confidencial.digital/nacion/cae-el-subdirector-policial-zhukov-serrano-por-ordenes-de-rosario-murillo/"
+    },
+    {
+      "date": "2026-03-30",
+      "title": "佩尼亚斯布兰卡斯边境查获1.3吨可卡因",
+      "description": "国家警察在里瓦斯省卡德纳斯市佩尼亚斯布兰卡斯边境口岸查获1312公斤可卡因，逮捕危地马拉籍货车司机胡安·何塞·里奥斯·特鲁希略；毒品藏于自哥斯达黎加入境、拟运往危地马拉的货柜挂车内。警察部队联合首长维克托里亚诺·鲁伊斯通报案情，行动隶属「遏制之墙计划」（Plan Muro de Contención）。",
+      "impact": "系该年度迄今规模最大的单次缉毒行动之一，显示边境缉毒与跨国贩运拦截仍是该机构当前执法重点。",
+      "source": "https://www.policia.gob.ni/?p=145603"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NI-GOV-009",
+      "org_name": "尼加拉瓜内政部 (Ministerio del Interior de Nicaragua)",
+      "org_type": "GOV",
+      "org_description": "尼加拉瓜政府部委，主管内政、警务与民事事务；依据228号法第12条，内政部长通过警察总局长行使对警察的领导权。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NI-GOV-001",
+      "org_name": "尼加拉瓜共和国总统府（联合总统府）(Presidencia de la República de Nicaragua)",
+      "org_type": "GOV",
+      "org_description": "国家元首机关；国家警察为隶属总统的武装机构，其总局长、联合首长与副总局长均以总统令任命并刊载《官方公报》。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NI-MIL-001",
+      "org_name": "尼加拉瓜军队 (Ejército de Nicaragua)",
+      "org_type": "MIL",
+      "org_description": "尼加拉瓜国家武装力量；国家警察在执行任务时与军队协同行动，但两者编制分立、适用各自规范。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "尼加拉瓜国家警察是尼加拉瓜负责国内治安与公共秩序的武装警察机构，隶属内政部（Ministerio de Gobernación），内政部长通过总局长行使领导权，其正副领导由总统令任命并刊载《官方公报》。依据《国家警察组织、职能、职业与特别社会保障制度法》（228号法），其核心职能包括：维护公共秩序与国内安全、预防和打击普通犯罪与有组织犯罪、开展刑事侦查与警务情报工作、管理全国交通与道路安全（驾照、车辆登记、事故处理与机动车技术检验监管）、履行羁押押解等司法协助职责，以及承担边境口岸缉毒禁毒任务，并负责警察教育训练。全机构现有警力约1.6万至1.7万人（2024年），年度预算约1.267亿美元，警员中女性比例约30%，位居世界前列。其座右铭为「荣誉、安全、服务」（Honor, Seguridad, Servicio）。2018年以来，该机构因在镇压反政府抗议中的角色而受到美国制裁并被联合国人权专家报告点名；近年其工作重点转向「公民安全与乡村计划」「遏制之墙计划」（Plan Muro de Contención）等治安行动，强化边境缉毒与社区警务，并持续开展每周犯罪与交通事故通报。",
+  "industries": [
+    "defence_military"
+  ],
+  "apec_stance": "尼加拉瓜不是APEC成员（APEC现有21个成员经济体），国家警察作为国内执法与安全机构不涉及APEC议程，不存在针对APEC的正式立场。尼加拉瓜实际参与的多边框架主要为中美洲一体化体系（SICA）等区域机制，其警务国际合作主要在中美洲区域层面及双边警务合作协定下开展。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Directorate-General_of_National_Police_of_Nicaragua_1990-2014_%28Emblem%29.svg/330px-Directorate-General_of_National_Police_of_Nicaragua_1990-2014_%28Emblem%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": "minio-store/default/popular-org-profile/ni/NI-MIL-002.png",
+    "minio_path": "default/popular-org-profile/ni/NI-MIL-002.png"
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-28",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 84,
+    "quotes": [
+      {
+        "title": "Policía Nacional de Nicaragua - Wikipedia (es)",
+        "url": "https://es.wikipedia.org/wiki/Polic%C3%ADa_Nacional_de_Nicaragua"
+      },
+      {
+        "title": "Confirman a Victoriano Ruiz como cojefe de la Policía en Nicaragua - Confidencial",
+        "url": "https://confidencial.digital/politica/nombran-a-victoriano-ruiz-como-cojefe-de-las-fuerzas-policiales-de-nicaragua/"
+      },
+      {
+        "title": "Cae el subdirector policial Zhukov Serrano, uno de los anillos del poder, por órdenes de Murillo - Confidencial",
+        "url": "https://confidencial.digital/nacion/cae-el-subdirector-policial-zhukov-serrano-por-ordenes-de-rosario-murillo/"
+      },
+      {
+        "title": "Expertos de la ONU publican informe que identifica a 54 funcionarios - ONU News",
+        "url": "https://news.un.org/es/story/2025/04/1537736"
+      },
+      {
+        "title": "Policía incautó más de una tonelada de cocaína - Policía Nacional de Nicaragua",
+        "url": "https://www.policia.gob.ni/?p=145603"
+      }
+    ],
+    "notes": "Phase 3 enrichment: Spanish/English Wikipedia, official site policia.gob.ni (homepage, Tránsito page, law text, official news), Confidencial/La Prensa/100 Noticias/UN News 2025-2026. Leadership verified via La Gaceta presidential decrees (Acuerdo 126-2025 of 2025-08-29; subdirector appointment of 2026-01-22) as reported by multiple independent outlets."
+  }
+}

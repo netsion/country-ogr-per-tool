@@ -1,0 +1,220 @@
+{
+  "org_id": "UG-CORP-007",
+  "basic_info": {
+    "name_original": "Uganda Tea Corporation",
+    "name_zh": "乌干达茶叶公司",
+    "name_en": "Uganda Tea Corporation",
+    "aliases": [
+      "UTCL",
+      "Uganda Tea Corporation Ltd",
+      "Uganda Tea Corporation Limited"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "private_company",
+    "country_iso3": "UGA",
+    "hq_country_iso3": "UGA",
+    "founded_date": null,
+    "website": "https://www.ugandateacl.com",
+    "wikidata_qid": null
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Uganda Tea Corporation Ltd, Kasaku Tea factory, Lugazi Uganda",
+      "url": "https://www.facebook.com/pages/Uganda-Tea-Corporation-Ltd-Kasaku-Tea-factory-Lugazi-Uganda/372935176141248",
+      "source": "facebook平台自动生成的地名页（搜索引擎检索发现；官网页脚无任何社交媒体图标链接，该页非官方认证账号，仅供参考）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "UTCL官方网站 (UTCL Official Website)",
+      "url": "https://www.ugandateacl.com",
+      "description": "公司唯一官方网络窗口（React单页应用）：首页披露40余年从业经验、年产茶300万公斤以上、占乌干达全国茶产量5-8%、出口率约90%，以及质量、诚信、创新、可持续四大价值观；设About、Estates、Products、Leadership、CSR、Contact等栏目，页面内容经/content/*.json接口加载。",
+      "source": "official_website（直接抓取HTML meta与内容JSON确认）"
+    },
+    {
+      "name": "UTCL领导团队专页 (Leadership Page)",
+      "url": "https://www.ugandateacl.com/leadership",
+      "description": "官网董事会介绍页（内容文件/content/leadership.json），完整披露执行主席伊冯娜·D·梅塔（Yvonne D Mehta）与董事M·J·特劳顿（M.J Troughton）的职位与履历，为该公司管理层最权威公开来源。",
+      "source": "official_website（官网JS分块Leadership-CGQ1UZtI.js及其内容JSON）"
+    },
+    {
+      "name": "UTCL茶园专页 (Estates Page)",
+      "url": "https://www.ugandateacl.com/estates",
+      "description": "官网三大庄园（卡萨库Kasaku、卢瓦拉Luwala、萨拉马Salama）图文介绍页，披露各庄园所在区（布维克区/穆科诺区）、土壤与气候条件、加工厂及工人社区设施等运营细节。",
+      "source": "official_website（官网JS分块Estates-B86Derco.js）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "伊冯娜·D·梅塔 (Yvonne D Mehta)",
+      "title": "执行主席 (Executive Chairman)",
+      "title_description": "公司董事会掌门人，同时担任梅塔（Mehta）家族体系内Ecta集团主席",
+      "description": "官网领导团队页披露的现任执行主席：英国籍，与东非国家渊源深厚；除掌管乌干达茶叶公司外，同时担任Ecta集团（Ecta Group，主营汽车经销、汽车配件与贸易）主席；热衷汽车拉力运动，曾参加多项国际拉力赛；被官网描述为具战略、规划、行政管理专长与丰富商业经验的资深专业人士。其姓氏与1994年5月收回公司经营的梅塔集团（Metha/Mehta Group）同宗，与该集团在乌干达的长期农业投资网络（Lugazi糖业等）相印证。"
+    },
+    {
+      "person_id": null,
+      "name": "M·J·特劳顿 (M.J Troughton)",
+      "title": "董事 (Director)",
+      "title_description": "董事会成员",
+      "description": "官网领导团队页披露的董事会成员：英国籍，拥有深厚工程背景与30年扎实行业经验及专业资格与行业联系；官网称其在较短时间内为公司政策与战略的制定作出了重要贡献。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "卡萨库庄园（总部园区） (Kasaku Estate, Headquarters)",
+      "dept_id": "UG-CORP-007-DEPT-001",
+      "head": null,
+      "description": "公司总部与核心园区，位于布维克区卢加齐（Lugazi）附近、坎帕拉-金贾公路沿线（距坎帕拉约48公里、金贾约40公里）；设卡萨库茶叶加工厂（Kasaku Tea Factory，官网称配备最先进的茶叶加工设备）与工厂直销店（factory outlet，周一至周六8:00-17:00营业），并提供庄园与加工设施导览参观。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "卢瓦拉庄园 (Luwala Estate)",
+      "dept_id": "UG-CORP-007-DEPT-002",
+      "head": null,
+      "description": "官网披露的三大庄园之一，位于布维克区（Buikwe District），土壤条件优越，主打优质茶叶生产：拥有大面积茶树种植园、实行可持续耕作、专注于高品质鲜叶（green leaf）生产；三庄园均为雨养（rain-fed）且彼此在75公里半径内。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "萨拉马庄园 (Salama Estate)",
+      "dept_id": "UG-CORP-007-DEPT-003",
+      "head": null,
+      "description": "官网披露的三大庄园之一，位于穆科诺区（Mukono District），土壤肥沃、气候适宜，除种植优质茶外还种植咖啡与可可；设工人住房与社区设施、可持续水资源管理系统及茶叶咖啡种植培训中心，是公司多元化农业的主要载体。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "工厂与工程部 (Factory & Engineering)",
+      "dept_id": "UG-CORP-007-DEPT-004",
+      "head": null,
+      "description": "据公司2026年6月工厂经理招聘启事披露的职能部门：统筹端到端茶叶加工制造运营，涵盖生产效率与产出优化、国际茶叶质量标准合规、工厂预算与成本控制、设备维保与停机时间削减、健康安全环境标准执行及精益生产改进；该部门经理统辖生产、工程、财务、物流与质量保证等跨职能团队。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "销售部 (Sales Department)",
+      "dept_id": "UG-CORP-007-DEPT-005",
+      "head": null,
+      "description": "官网FAQ提及的对外业务部门：负责SUN品牌产品的本地分销渠道（全国主要超市与零售点）管理、授权分销商招募与合作洽谈（欢迎意向方提交公司资料与分销方案）、工厂直销店及出口客户关系；公司出口约占产量80-90%，主要经蒙巴萨茶叶拍卖行成交。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-10-28",
+      "title": "乌干达议会批准提出《国家茶叶法案》：本土拍卖与强制出口增值将重塑公司出口模式",
+      "description": "乌干达议会批准伊加拉县西区议员科恩·阿曼亚（Cohen Amanya）提出《国家茶叶法案》（National Tea Bill）：拟强制出口商在境内完成混合、包装、分级、品牌化等增值环节并取得合规证书方可出口，违者面临重罚、吊销执照乃至扣押货物；同时建立乌干达本土茶叶拍卖体系。背景是目前约90%的乌干达茶叶经肯尼亚蒙巴萨茶叶拍卖行出售（乌干达茶叶公司约80-90%产品出口同样主要依赖该通道），行业2024年出口收入约5400万美元、被认为可通过提质增值翻倍至1.2亿美元；法案还拟由农业部与地方政府对全产业链实行注册许可与定期检查。该法案获跨党派议员广泛支持（乌干达议会官网2026-10-28发布，Pan African Visions同日报道）。",
+      "impact": "公司作为蒙巴萨拍卖通道的重度使用者，出口合规成本与本土增值（混配、包装、品牌）投资要求将上升；若本土拍卖落地，公司有望减少对蒙巴萨市场的依赖并改善成交价格，同时需适应农业部归口的新监管框架。",
+      "source": "https://www.ugandaonline.net/news/2026-10-28--parliament-moves-to-introduce-national-tea-bill-to-boost-value-addition--597e9b4fedb8/"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "UTCL全球招聘工厂经理，招聘启事披露最新运营数据：年产茶超350万公斤、约占全国产量10%",
+      "description": "乌干达招聘平台EmployUganda于2026年6月14日发布乌干达茶叶公司工厂经理（Factory Manager，隶属工厂与工程部Factory & Engineering）招聘（截止2026年7月12日，工作地点卢加齐），职责涵盖茶叶加工全流程管理、国际出口标准合规、预算成本控制与精益生产；启事同步披露公司运营现状：年产成品茶超过350万公斤、约占乌干达全国茶叶产量10%，出口占80%（经蒙巴萨茶叶拍卖）、本地销售占20%，并经营造林项目及咖啡、可可、香蕉等多元化农业。公司招聘邮箱recruitment@ugandateacl.org，电话(070)489-2919/(075)816-4536。",
+      "impact": "显示公司处于运营团队扩充与代际交接期（同期另招聘总经理执行助理等岗位）；多元化（咖啡、可可、香蕉、造林）战略与经蒙巴萨出口的依赖结构获得招聘文本的直接印证。",
+      "source": "https://employuganda.com/jobs/view.php?id=711"
+    },
+    {
+      "date": "2026-01-22",
+      "title": "UTCL首次被录入NBD全球贸易商数据库，出口活跃度获第三方贸易数据佐证",
+      "description": "据NBD Trade Data平台，乌干达茶叶公司（登记地址：布维克区卢加齐市卡沃洛分区Kasaku茶园）于2026年1月22日被首次录入其全球贸易商数据库，成为该公司进出口活动的第三方贸易数据记录（平台显示2026年8月13日数据刷新）。",
+      "impact": "第三方贸易数据库收录为公司出口业务的连续性与真实性提供独立佐证，有助于提升国际买家信任与贸易可追溯性。",
+      "source": "https://en.nbd.ltd/trader/info/MCNBD137939034"
+    },
+    {
+      "date": "2024-11-19",
+      "title": "Tendata贸易数据库收录UTCL出口档案（6条贸易记录）",
+      "description": "据Tendata贸易数据平台2024年11月19日页面，出口商乌干达茶叶公司（Buikwe区卢加齐Kasaku茶园）名下已有6条贸易数据记录，为国际买家与供应商提供贸易往来参考。",
+      "impact": "与2026年NBD首次收录相衔接，显示公司出口业务在2024-2026年间保持活跃并持续留痕于国际海关贸易数据库。",
+      "source": "https://www.tendata.com/en/buyer/uganda-tea-corporation-ltd-buikwe-lugazi-municipality-kawolo-division-lugazi-kasaku-tea-estates-0-0-buikwe-UGAN9e224d964f4ec6ca8c85073602c96b67.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "梅塔集团 (Mehta Group)",
+      "org_type": "CORP",
+      "org_description": "由南吉·卡利达斯·梅塔（Nanji Kalidas Mehta，1887-1969）创立的跨国集团：1900年13岁移居乌干达起家，首项业务即茶叶种植园，其后拓展棉花、甘蔗与糖厂；现总部位于印度甘地讷格尔，董事长杰·梅塔（Jay Mehta），资产超21亿美元（2024年）、全球雇员5.5万以上；在乌干达拥有乌干达糖业公司（SCOUL，Lugazi）、卢加齐电站、乌干达电缆公司等企业。1972年阿明驱逐亚洲人时其在乌资产被移交国营体系，1979年后受邀回归并逐步收回；乌干达《每日观察报》记载1994年5月乌干达茶叶公司由梅塔集团收回经营。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "UG-GOV-013",
+      "org_name": "乌干达农业、畜牧业和渔业部 (Ministry of Agriculture, Animal Industry and Fisheries)",
+      "org_type": "GOV",
+      "org_description": "乌干达主管农业政策与行业监管的政府部门；拟议中的《国家茶叶法案》（2026年10月）规定由该部会同地方政府对茶园、茶厂及全产业链主体实行注册、许可与定期检查，为乌干达茶业（含本公司）的归口监管方。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "UG-SOE-008",
+      "org_name": "乌干达发展公司 (Uganda Development Corporation)",
+      "org_type": "SOE",
+      "org_description": "乌干达国营投资开发公司；据Mehta集团维基史料，1972年阿明政府将梅塔集团在乌资产（含茶园、糖厂等）移交给政府控制的该公司，1979年政权更迭后梅塔家族受邀回归、1994年5月乌干达茶叶公司在私有化进程中由梅塔集团收回经营——该公司（国营体系）为这一资产承接链条中的历史相关方。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃克塔集团 (Ecta Group)",
+      "org_type": "CORP",
+      "org_description": "主营汽车经销（Automobile Distributorship）、汽车配件（Auto Ancillaries and Parts）与贸易的企业集团；据公司官网董事会简介，公司执行主席伊冯娜·D·梅塔（Yvonne D Mehta）同时担任该集团主席，两公司为同一掌门人关联企业。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "乌干达茶叶有限公司（Uganda Tea Corporation Ltd，UTCL）是乌干达领先的私营茶叶种植、加工与出口商，总部（含卡萨库茶叶加工厂与工厂直销店）位于布维克区卢加齐（Lugazi）附近的卡萨库（Kasaku），地处坎帕拉-金贾公路沿线（距坎帕拉约48公里、金贾约40公里）。公司运营卡萨库、卢瓦拉、萨拉马三座雨养庄园（位于中部区布维克、穆科诺等区，彼此相距75公里半径内），年产成品茶超过300万公斤（2026年招聘资料称超350万公斤），约占乌干达全国茶叶产量的5-8%（2026年招聘启事称约10%）；出口约占产量80-90%，主要经肯尼亚蒙巴萨茶叶拍卖行销往国际市场，为国家赚取外汇。主产品为CTC红碎茶，70%以上为初级档次，主导级别为BP1、PF1、PD与D1，本地市场以自有SUN品牌经各大超市与零售点销售，并在卡萨库设工厂直销店。公司正推进产品多元化：已种植约450公顷咖啡（拟用于出口），并经营可可、香蕉种植及造林（afforestation）项目。公司历史脉络：梅塔集团创始人N.K.梅塔1900年起即在乌干达经营茶园，1972年阿明政府将其在乌资产移交国营体系，1994年5月乌干达茶叶公司在私有化进程中由梅塔集团收回经营，官网自称领先茶商逾40年并称公司定位可追溯至1990年。公司宣扬质量、诚信、创新、可持续的核心价值观，官网明确声明反对腐败（denounce corruption）。此外公司设有工厂直销店并面向教育及特殊兴趣团体提供庄园与加工设施导览服务。",
+  "industries": [
+    "agriculture_food",
+    "food_beverage",
+    "international_trade"
+  ],
+  "apec_stance": "乌干达不是APEC成员（APEC现有21个成员经济体，均为环太平洋国家/地区，乌干达为东非国家），因此乌干达茶叶公司与APEC不存在任何关联，亦无任何涉APEC的立场、活动或合作安排。该公司实际依托的国际与区域合作框架包括：（1）国际出口市场体系：约80-90%产品出口，主要经肯尼亚蒙巴萨茶叶拍卖行销往国际市场（2026年10月乌干达议会推进《国家茶叶法案》，拟建立本土拍卖并强制出口增值，或将改变其出口通道结构）；（2）区域经济一体化：依托乌干达的东非共同体（EAC）、东南非共同市场（COMESA）与非洲大陆自贸区（AfCFTA）成员地位开展区域内贸易；（3）印侨资本与集团网络：公司为印度裔梅塔（Mehta）集团体系企业（1994年5月私有化中由该集团收回经营，集团创始人1900年即在乌干达开办茶园），执行主席伊冯娜·D·梅塔兼任Ecta集团主席，体现乌干达印侨资本跨农业、汽车等行业的长期投资网络；（4）国内政企关系：作为占全国茶产量5-10%的头部私营茶商，公司经营受乌干达农业、畜牧业和渔业部监管，并将受拟议《国家茶叶法案》的全产业链注册、许可与检查制度约束。上述合作均不涉及APEC框架。",
+  "profile": {
+    "source_url": "https://ugandatea.org/og-image.jpg",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "official_website",
+      "web_search",
+      "news_media",
+      "job_board",
+      "trade_database",
+      "wikipedia"
+    ],
+    "quotes": [
+      {
+        "title": "UTCL Official Website - Leadership Team / content JSON (Board of Directors: Yvonne D Mehta, M.J Troughton)",
+        "url": "https://www.ugandateacl.com/content/leadership.json"
+      },
+      {
+        "title": "UTCL Official Website - Home content JSON (stats: 40+ years, 3M+ kg/yr, 5-8% national output, 90% export; SUN brand; 450ha coffee)",
+        "url": "https://www.ugandateacl.com/content/home.json"
+      },
+      {
+        "title": "Parliament of Uganda - Tea Bill to blend domestic auction, value addition (2026-10-28)",
+        "url": "https://www.parliament.go.ug/index.php/news/4695/tea-bill-blend-domestic-auction-value-addition"
+      },
+      {
+        "title": "Uganda Online - Parliament Moves to Introduce National Tea Bill to Boost Value Addition (2026-10-28)",
+        "url": "https://www.ugandaonline.net/news/2026-10-28--parliament-moves-to-introduce-national-tea-bill-to-boost-value-addition--597e9b4fedb8/"
+      },
+      {
+        "title": "EmployUganda - Factory Manager, Uganda Tea Corporation Ltd (posted 2026-06-14, deadline 2026-07-12)",
+        "url": "https://employuganda.com/jobs/view.php?id=711"
+      },
+      {
+        "title": "Daily Monitor - Deconstructing the sale of 146 Obote-Amin parastatals (In May 1994, Uganda Tea Corporation was repossessed by Metha Group)",
+        "url": "https://www.monitor.co.ug/uganda/special-reports/deconstructing-the-sale-of-146-obote-amin-parastatals-3420918"
+      },
+      {
+        "title": "NBD Trade Data - UGANDA TEA CORPORATION LTD (included 2026-01-22)",
+        "url": "https://en.nbd.ltd/trader/info/MCNBD137939034"
+      },
+      {
+        "title": "Wikipedia - Mehta Group (founder N.K. Mehta started tea plantation in Uganda from 1900; assets surrendered to UDC in 1972)",
+        "url": "https://en.wikipedia.org/wiki/Mehta_Group"
+      }
+    ],
+    "completeness_score": 75,
+    "notes": "Phase3 enrichment (2026-10-29): 官网ugandateacl.com为React SPA，正文经/content/*.json接口抓取（home/about/contact/leadership），官网自述40余年历史、Since 1990，但成立精确日期不可考（Daily Monitor记载1994年5月私有化中由Mehta集团收回），founded_date如实留空。乌干达无Wikidata QID。官网页脚无官方社交媒体图标，facebook收录项为平台自动生成地名页（非官方认证，已标注）。公司近年自身新闻极少（区域性私营茶商，媒体覆盖有限），recent_events第1条为直接波及公司出口模式的行业立法事件（双源：ugandaonline+panafricanvisions，均2026-10-28，原始出处乌干达议会官网），第2条为公司2026年6月招聘事件（含运营数据），第3-4条为第三方贸易数据库收录记录。monitor.co.ug与marketinsidedata.com、theugandanjobline.com访问受Cloudflare质询限制（source_blocked_cloudflare），其中Monitor关于1994年私有化的记载引自其搜索索引片段。Key_people仅官网公开的2名董事；General Manager姓名未公开（2026年10月另在招聘其执行助理，来源页受Cloudflare限制）。产量口径差异（官网3M+/5-8%/90%出口 vs 2026年招聘启事3.5M+/约10%/80%出口）均如实并列。"
+  }
+}

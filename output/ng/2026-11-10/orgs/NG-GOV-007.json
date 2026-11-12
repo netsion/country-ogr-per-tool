@@ -1,0 +1,454 @@
+{
+  "org_id": "NG-GOV-007",
+  "basic_info": {
+    "name_original": "Supreme Court of Nigeria",
+    "name_zh": "尼日利亚最高法院",
+    "name_en": "Supreme Court of Nigeria",
+    "aliases": [
+      "SCN",
+      "Kotun Koli Ta Najeriya",
+      "Judiciary of Niger"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "judiciary",
+    "country_iso3": "NGA",
+    "hq_country_iso3": "NGA",
+    "founded_date": "1963-10-01",
+    "website": "https://supremecourt.gov.ng/",
+    "wikidata_qid": "Q3509369"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "supremeCourtNg",
+      "url": "https://x.com/supremeCourtNg",
+      "source": "official_website (footer link and site bundle), confirmed on X profile as the official handle"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Supreme Court of Nigeria Media",
+      "url": "https://www.youtube.com/channel/UC_qMUonSzx_xRCfx3edHZSA",
+      "source": "official_website (footer link and site bundle); channel name per Wikidata P1810"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "尼日利亚案件管理系统电子立案平台 (NCMS E-Filing Platform)",
+      "url": "https://efiling.courts.gov.ng/",
+      "description": "尼日利亚案件管理系统(NCMS)电子立案入口，2026年起向最高法院等上级法院提交诉讼文书的官方网关，由2026年7月启动的司法数字化改革推出。",
+      "source": "NCMS launch press release and search index of efiling.courts.gov.ng"
+    },
+    {
+      "name": "NCMS案件管理专题页",
+      "url": "https://supremecourt.gov.ng/nigeria/case/management-system",
+      "description": "官网发布的NCMS与电子立案改革专题页面，配套《2026年最高法院强制上传电子诉讼文书实践指令》使用。",
+      "source": "official press release PDF (CJN launches NCMS & E-Filing, 2026-07-03)"
+    },
+    {
+      "name": "判决书检索数据库 (Judgments)",
+      "url": "https://www.supremecourt.gov.ng/judgment-delivered",
+      "description": "官网提供的最高法院已决案件检索栏目，可按年份查询案件并下载判决书PDF（如INEC诉ZLP案SC/CV/495/2026判决书）。",
+      "source": "official_website (judgment-delivered pages indexed with CMS judgment API data)"
+    },
+    {
+      "name": "案件日程表 (Daily Cause List)",
+      "url": "https://www.supremecourt.gov.ng/daily-causelist",
+      "description": "官网每日/每周开庭日程与案卷目录栏目，发布开庭安排、案件日记(Case Diary)及历史归档查询。",
+      "source": "official_website (site bundle route definitions and cause-list CMS API endpoints)"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000080",
+      "name": "库迪拉·莫托姆莫里·奥拉托昆博·凯凯雷-埃昆 (Kudirat Motonmori Olatokunbo Kekere-Ekun)",
+      "title": "首席大法官 (Chief Justice of Nigeria)",
+      "title_description": "尼日利亚最高法院院长、司法系统首脑，2024年8月22日就任",
+      "description": "1958年5月7日生于英国伦敦，父亲为参议员哈桑·阿迪萨·巴巴通德·法辛罗。1980年获拉各斯大学法学学士(LL.B)，1983年获伦敦政治经济学院(LSE)法学硕士(LL.M)，1981年获尼日利亚律师资格。曾从事私人执业并任拉各斯州地方法官，后任拉各斯州高等法院法官及上诉法院法官。2013年7月就任最高法院大法官，2024年8月22日宣誓就任首席大法官，是继阿拉马·穆赫塔尔之后尼日利亚第二位女性首席大法官。任内推动司法数字化，主导上线NCMS案件管理与电子立案系统。"
+    },
+    {
+      "person_id": "NG-PERSON-000081",
+      "name": "约翰·因扬·奥科罗 (John Inyang Okoro)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1959年7月生，2013年11月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000082",
+      "name": "乌瓦尼·穆萨·阿巴·阿吉 (Uwani Musa Abba Aji)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1956年11月生，2019年1月就任最高法院大法官，此前任上诉法院法官，为法院资深女性大法官之一。"
+    },
+    {
+      "person_id": "NG-PERSON-000083",
+      "name": "穆罕默德·劳瓦尔·加尔巴 (Mohammed Lawal Garba)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1958年11月生，2020年11月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000084",
+      "name": "海伦·莫龙凯吉·奥贡武米茹 (Helen Moronkeji Ogunwumiju)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1957年3月生，2020年11月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000085",
+      "name": "阿达穆·贾乌罗 (Adamu Jauro)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1959年6月生，2020年11月6日宣誓就任最高法院大法官；曾主审2026年INEC诉ZLP选举法上诉案合议庭。"
+    },
+    {
+      "person_id": "NG-PERSON-000086",
+      "name": "蒂贾尼·阿布巴卡尔 (Tijjani Abubakar)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1960年生，2020年就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000087",
+      "name": "埃马纽埃尔·阿科马耶·阿吉姆 (Emmanuel Akomaye Agim)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1960年4月生，2020年11月就任最高法院大法官，此前任上诉法院法官，多次担任重要上诉案主审法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000088",
+      "name": "朱迈·汉娜图·桑基 (Jummai Hannatu Sankey)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1959年1月生，2024年2月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000089",
+      "name": "奇迪埃贝雷·恩瓦奥马·乌瓦 (Chidiebere Nwaoma Uwa)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1958年10月生，2024年2月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000090",
+      "name": "奇奥马·埃贡杜·恩沃苏-伊赫梅 (Chioma Egondu Nwosu-Iheme)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1959年2月生，2024年2月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000091",
+      "name": "哈鲁纳·西蒙·察马尼 (Haruna Simon Tsammani)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "包奇州人，2024年2月就任最高法院大法官；此前任上诉法院法官，并于2023年担任总统选举上诉法庭(PEPT)五人合议庭主席。"
+    },
+    {
+      "person_id": "NG-PERSON-000092",
+      "name": "摩尔·阿塞莫·亚伯拉罕·阿杜明 (Moore Aseimo Abraham Adumein)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1964年5月生，2024年2月26日宣誓就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000093",
+      "name": "奥班德·费斯图斯·奥格布因亚 (Obande Festus Ogbuinya)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "2024年2月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000094",
+      "name": "斯蒂芬·约拿·阿达 (Stephen Jonah Adah)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1957年7月生，2024年2月就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000095",
+      "name": "哈比布·阿德瓦莱·奥卢穆伊瓦·阿比鲁 (Habeeb Adewale Olumuyiwa Abiru)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1964年10月生，2024年就任最高法院大法官，此前任拉各斯州高等法院法官及上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000096",
+      "name": "贾米卢·亚马马·图库尔 (Jamilu Yammama Tukur)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1960年4月生，2024年就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000097",
+      "name": "阿布巴卡尔·萨迪克·乌马尔 (Abubakar Sadiq Umar)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1960年2月生，2024年2月宣誓就任最高法院大法官，此前任上诉法院法官。"
+    },
+    {
+      "person_id": "NG-PERSON-000098",
+      "name": "穆罕默德·巴巴·伊德里斯 (Mohammed Baba Idris)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "1970年10月生，2024年就任最高法院大法官，为法院目前最年轻的大法官之一。"
+    },
+    {
+      "person_id": "NG-PERSON-000099",
+      "name": "约瑟夫·奥卢布米·卡约德·奥耶沃莱 (Joseph Olubunmi Kayode Oyewole)",
+      "title": "大法官 (Justice of the Supreme Court)",
+      "title_description": "最高法院在职大法官",
+      "description": "2026年1月获国家司法委员会推荐、经总统提名并参议院确认后，于2026年2月25日由首席大法官凯凯雷-埃昆监誓就任最高法院大法官，此前任上诉法院埃努古分区首席法官(Presiding Justice)。"
+    },
+    {
+      "person_id": "NG-PERSON-000100",
+      "name": "卡比尔·埃尼奥拉·阿坎比 (Kabir Eniola Akanbi)",
+      "title": "首席登记官 (Chief Registrar)",
+      "title_description": "最高法院行政首长，2025年4月获任实质首席登记官",
+      "description": "负责最高法院登记、案卷记录与法院行政事务；在NCMS电子立案改革中作为 chief registrar 参与推动实施。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "行政部 (Administration Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责人力资源、员工福利与安保，统筹人员招聘、晋升、纪律、养老金及医疗保险(NHIS)、住房基金等福利事务，并负责法院建筑群和官邸的安全保障。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "培训部 (Training Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责全体法院人员的持续职业发展，与国家司法学院(NJI)及国际机构合作设计培训项目，并通过电子学习和虚拟培训推进数字化转型。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "诉讼部 (Litigation Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "司法运行核心部门，管理立案、庭审程序与法律文书，协调各登记处、处理案件记录并发布判决，同时通过调解中心监管替代性纠纷解决(ADR)。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "法律程序与档案部 (Legal Process & Archives Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责法院涉诉事务的法律起草、出庭代理与外部律师协作，并管理法律研究、档案与文书，确保记录准确。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "财务与会计部 (Finance & Accounts Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责预算编制、工资发放、收入归集与财务报告，确保符合财务法规，并管理员工养老金、薪酬及法院运营支出。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "规划、研究与统计部 (Planning, Research & Statistics Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "通过收集分析法院统计数据支持数据驱动决策，监督项目实施与研究工作，并为预算编制和资源配置提供支撑。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "采购部 (Procurement Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "依据《公共采购法》保障法院货物、服务与基础设施采购合规，评估供应商合同、管理供应关系并确保资金效益。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "维修部 (Maintenance Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责法院基础设施维护，保障电气、机械与不动产系统运转，开展预防性维护、维修与设施管理。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "图书馆 (Library Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "面向大法官、律师及法院官员的法律研究枢纽，馆藏法律报告、案卷与数字数据库，近期完成自动化、在线访问与机电书架升级。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "医疗部 (Medical Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "为大法官、法院员工及其家属提供医疗服务，含普通门诊、应急响应、牙科、药房与诊断实验室，并推动职场健康与预防保健。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "预算部 (Budget Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责财务规划与资源配置，编制并监控预算、确保合规，并提供数据分析支持法院运营。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "信息与公共关系部 (Information & Public Relations Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "管理公共传播、媒体关系与法院活动报道，运营法院用户信息单元处理访客咨询，下设《信息自由法》(FOI)处理单元，并负责数字媒体、新闻稿发布与声誉管理。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "特别事务部 (Special Duties Department)",
+      "dept_id": null,
+      "head": null,
+      "description": "统筹最高法院礼仪性事务，包括宣誓就职仪式、告别庭审与官方活动，负责法官袍服、护照签证办理、外交机构联络及差旅后勤。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-06",
+      "title": "前首席大法官穆罕默德·劳瓦尔·乌瓦伊斯逝世，享年89岁",
+      "description": "前首席大法官乌瓦伊斯(Mohammed Lawal Uwais，1995-2006年在任，为在任时间第二长的首席大法官)于2025年6月6日在阿布贾去世；总统蒂努布发表悼念声明，称其为杰出的法学家与政治家。最高法院官网后续发布悼念新闻稿。",
+      "impact": "司法界广泛哀悼；乌瓦伊斯曾主持选举改革委员会(Uwais委员会)，其去世被视为尼日利亚司法界重大损失。",
+      "source": "https://www.channelstv.com/2025/06/06/ex-cjn-mohammed-uwais-dies-at-89/"
+    },
+    {
+      "date": "2025-09-29",
+      "title": "最高法院开启2025/2026法律年并为57名新资深律师(SAN)授职",
+      "description": "首席大法官凯凯雷-埃昆于2025年9月29日在最高法院主法庭为57名新资深律师(Senior Advocate of Nigeria)监誓授职，并在特别开庭中发表司法状况演说，正式开启2025/2026法律年；联邦总检察长、资深律师团体(BOSAN)及尼日利亚律师协会(NBA)负责人出席致辞。",
+      "impact": "新法律年度启动；法院在2024/2025法律年表现获肯定后继续推进积案治理。",
+      "source": "https://supremecourt.gov.ng/press-release"
+    },
+    {
+      "date": "2025-12-16",
+      "title": "第17任首席大法官易卜拉欣·坦科·穆罕默德逝世",
+      "description": "前首席大法官易卜拉欣·穆罕默德·坦科(Ibrahim Muhammad Tanko，2019-2022年在任)于2025年12月16日凌晨在沙特阿拉伯逝世，享年71岁。最高法院当日发布官方讣告，总统蒂努布亦发表悼念声明。",
+      "impact": "全国司法界哀悼；其任内推动上诉系统与程序效率改革、司法人员专业发展及司法透明度建设。",
+      "source": "https://statehouse.gov.ng/president-tinubu-mourns-former-cjn-justice-tanko-muhammad/"
+    },
+    {
+      "date": "2026-02-25",
+      "title": "奥耶沃莱宣誓就任最高法院大法官",
+      "description": "经国家司法委员会(NJC)2026年1月推荐、总统蒂努布提名并经参议院确认，前上诉法院埃努古分区首席法官约瑟夫·奥卢布米·卡约德·奥耶沃莱于2026年2月25日由首席大法官凯凯雷-埃昆监誓，就任最高法院大法官。",
+      "impact": "补充最高法院审判力量，缓解案件积压；使法院编制更接近21名大法官的宪法上限。",
+      "source": "https://supremecourt.gov.ng/gallery-details/36"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "首席大法官启动NCMS案件管理系统与强制电子立案改革",
+      "description": "凯凯雷-埃昆于2026年7月1日在最高法院法院二庭正式启动尼日利亚案件管理系统(NCMS)及《2026年最高法院强制上传电子诉讼文书、上诉记录卷等事项实践指令》：第一阶段自即日起对2026年9-12月排期开庭的上诉强制电子上传，之后按季度推进至全部未决上诉；第二阶段将实现全面电子立案。",
+      "impact": "尼日利亚司法数字化里程碑，旨在减少纸质流程、保障卷宗安全并提升审判效率与公众信心，为全国其他法院提供改革样板。",
+      "source": "https://supremecourt.gov.ng/press-release"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "最高法院终审确认《2026年选举法》关键条款合宪",
+      "description": "在独立国家选举委员会(INEC)诉泽尼思劳工党(Zenith Labour Party)案(SC/CV/495/2026)中，最高法院七人合议庭(成员包括贾乌罗、阿吉姆、察马尼、阿杜明、阿达、乌马尔、奥耶沃莱)裁定《选举法2026》第77(5)、77(6)、77(7)及84条关于政党党员名册与候选人提名方式的规定不违反1999年宪法，撤销上诉法院2026年7月16日有利于ZLP的判决，恢复联邦高等法院原判，并判ZLP承担200万奈拉费用；同日驳回社民党(SDP)上诉、因逾期裁定青年党(Youth Party)上诉不予受理。",
+      "impact": "为2027年大选前政党初选、党员名册合规提供权威司法标准，对选举争议走向具有重大影响。",
+      "source": "https://www.tvcnews.tv/supreme-court-upholds-inec-appeal-says-electoral-act-provisions-constitutional/"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "2026/2027法律年开庭：年度审结411项判决",
+      "description": "首席大法官凯凯雷-埃昆在2026/2027法律年特别开庭仪式上通报：2025/2026法律年最高法院共受理2456项事项、作出411项判决(上一法律年为2280项事项、369项判决)，其中上诉676件(一般民事433、刑事212、政治19、伊斯兰法12等)；电子日程办公室已为2026年3月23日至12月17日的常规庭审排期1385项事项。",
+      "impact": "显示法院持续清理积案、推进案件排期管理现代化；政治类上诉的处理对2027年选举周期具有指标意义。",
+      "source": "https://punchng.com/supreme-court-delivered-411-judgments-in-one-year-cjn/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦层级政府，由行政、立法、司法三大分支依1999年宪法构成三权分立架构。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-GOV-008",
+      "org_name": "尼日利亚上诉法院 (Court of Appeal of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "依据宪法设立的全国性上诉法院，受理各州高等法院上诉；行政上独立于最高法院，但为最高法院的下位审级。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-009",
+      "org_name": "尼日利亚联邦高等法院 (Federal High Court of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦层面的一般管辖一审法院；其案件经上诉法院上诉后可由最高法院终审。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-004",
+      "org_name": "尼日利亚国民议会 (National Assembly of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦立法机关，由参众两院组成；其参议院负责确认总统提名的最高法院大法官人选，并为法院拨款立法。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-002",
+      "org_name": "尼日利亚总统 (President of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦行政首脑；依据宪法根据国家司法委员会(NJC)推荐提名最高法院首席大法官与大法官人选。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家司法委员会 (National Judicial Council, NJC)",
+      "org_type": "GOV",
+      "org_description": "依据1999年宪法第三附表设立的联邦司法管理与纪律机关，负责向总统推荐法官人选、处理司法纪律事务；最高法院大法官任命须先经其推荐。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-GOV-013",
+      "org_name": "尼日利亚联邦司法部 (Federal Ministry of Justice)",
+      "org_type": "GOV",
+      "org_description": "联邦法律事务主管部门，联邦总检察长兼任司法部长；作为政府首席法律顾问在新法律年开庭等最高法院活动中致辞并代表联邦政府参与诉讼。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-GOV-039",
+      "org_name": "尼日利亚独立国家选举委员会 (Independent National Electoral Commission, INEC)",
+      "org_type": "GOV",
+      "org_description": "负责组织联邦与州选举的独立机构；常为最高法院选举上诉案件的当事方，如2026年INEC诉ZLP选举法合宪性案(SC/CV/495/2026)。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "尼日利亚最高法院(SCN)是尼日利亚司法体系的最高审判机关，依据1999年宪法第230条设立，院址位于阿布贾三权区(Three Arms Zone)，毗邻总统府与国民议会。核心职能包括：（1）终审上诉管辖：依宪法第233条专属受理来自上诉法院的上诉，覆盖一般民事、刑事、政治及伊斯兰法(Sharia)等类别，其判决对所有尼日利亚法院具有拘束力（对本院自身除外）；（2）原始管辖：依宪法第232条专属受理联邦与州之间或州际涉及法律权利的法律争议，并经2002年《附加原始管辖权法》扩展至国民议会与总统、州政府及州议会之间的争议；（3）选举争议终审：对总统、州长与议会选举相关上诉作出终局裁决，2023年及2027年选举周期中的政治上诉案件数量显著；（4）宪法解释与违宪审查：解释宪法条款并裁定法律合宪性，如2026年确认《选举法2026》关键条款合宪；（5）司法行政与规则制定：管理13个职能部门，制定法院规则与实践指令，发布判决书数据库、案件日程表等公开文书，并自2026年7月起运行NCMS案件管理系统与强制电子立案。法院由首席大法官与不超过21名大法官组成，法官由总统根据国家司法委员会(NJC)推荐提名、经参议院确认任命，实行70岁强制退休制度。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），最高法院不存在与APEC相关的官方立场。作为国家最高审判机关，其职能集中于司法审判与司法行政，不涉及APEC经贸合作议程。尼日利亚司法体系实际参与的国际司法合作框架主要包括：英联邦(Commonwealth，尼日利亚为成员国，司法界开展普通法传统下的判例借鉴与司法交流)；非洲联盟(AU)司法与人权机制（个人在用尽国内救济后可诉诸非洲人权与民族权法院）；西非国家经济共同体(ECOWAS，尼日利亚为成员国，个人可就成员国违反共同体法的行为诉至ECOWAS法院)等区域安排。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/d/dc/Supreme_Court_of_Nigeria_seal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": "minio-store/default/popular-org-profile/ng/NG-GOV-007.png",
+    "minio_path": "default/popular-org-profile/ng/NG-GOV-007.png"
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-10",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "official_website_cms_api",
+      "official_press_release",
+      "news_media",
+      "search_index"
+    ],
+    "completeness_score": 95,
+    "notes": "Phase 3 enrichment: justices roster, CJN profile and 13 departments from official CMS API (supreme-cms.supremecourt.gov.ng); 7 recent events cross-validated between official press releases/judgment records and news media (Punch, Guardian, TVC, Channels TV, State House); social accounts confirmed from official site footer links.",
+    "quotes": [
+      {
+        "title": "Supreme Court of Nigeria - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_Nigeria"
+      },
+      {
+        "title": "Supreme Court of Nigeria official website - Justices",
+        "url": "https://supremecourt.gov.ng/justices"
+      },
+      {
+        "title": "Supreme Court delivered 411 judgments in one year - CJN (The Punch)",
+        "url": "https://punchng.com/supreme-court-delivered-411-judgments-in-one-year-cjn/"
+      },
+      {
+        "title": "Supreme Court Upholds INEC Appeal, Says Electoral Act Provisions Constitutional (TVC News)",
+        "url": "https://www.tvcnews.tv/supreme-court-upholds-inec-appeal-says-electoral-act-provisions-constitutional/"
+      }
+    ]
+  }
+}

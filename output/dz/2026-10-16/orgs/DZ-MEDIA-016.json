@@ -1,0 +1,189 @@
+{
+  "org_id": "DZ-MEDIA-016",
+  "basic_info": {
+    "name_original": "El Acil (الأصيل)",
+    "name_zh": "阿西勒报",
+    "name_en": "El Acil",
+    "aliases": [
+      "الأصيل",
+      "L'Authentique"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "newspaper",
+    "country_iso3": "DZA",
+    "hq_country_iso3": "DZA",
+    "founded_date": "1993-01-01",
+    "website": "http://www.elacil.com/",
+    "wikidata_qid": "Q3049680"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "官方网站 elacil.com（已停运）",
+      "url": "http://www.elacil.com/",
+      "description": "该报官网约2003年上线（互联网档案馆最早快照为2003年2月），设有 Une（头版）、Actualités（新闻）、Sport（体育）、Culture（文化）、Service（服务）等版面频道，并提供纸质版PDF下载（如 Elacil_31_12_2014.pdf）与 Calaméo 在线电子版入口；2019年3月15日快照仍为完整首页（约6KB），2019年4月2日快照已缩至约700字节空壳，2024-2025年快照仅剩约170字节空白响应。2026-10-17核验：访问该域名现302跳转至 HugeDomains 域名待售页，官网已实质停运。",
+      "source": "http://web.archive.org/web/20150103080934/http://www.elacil.com/"
+    },
+    {
+      "name": "Calaméo 在线电子版（历史，现状未验证）",
+      "url": "http://fr.calameo.com/read/00126853802c8a70c9dbe",
+      "description": "该报曾在 Calaméo 平台（发布方账号编号001268538）发布报纸在线翻页电子版，2015年1月存档的官网首页一次链接了30余期电子版；平台账户及内容现状未能核验，仅作历史数字资产记录。",
+      "source": "http://web.archive.org/web/20150103080934/http://www.elacil.com/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "DZ-PERSON-000390",
+      "name": "纳赛尔·塔夫拉维 (Nacer Tafraoui)",
+      "title": "创始人 (fondateur)",
+      "title_description": "法语维基百科信息框记载的该报创始人。",
+      "description": "法语维基百科信息框「fondateur」栏列其为该报创始人（报纸1993年创刊，历史沿革节另记1992年，与出版实体 EURL Inter-Med-Info 关联设立于君士坦丁）。阿拉伯语原文拼写未经独立来源确认，故仅列法语名；未检索到其后续公开活动报道，是否仍与报社有关无法确认。信息时间点：法语维基百科2025年1月19日修订版。"
+    },
+    {
+      "person_id": "DZ-PERSON-000391",
+      "name": "赫利布·杰布尔 (Ghelib Djebourr)",
+      "title": "编辑部主任 (directeur de la rédaction)",
+      "title_description": "法语维基百科信息框所列编辑部主任。",
+      "description": "法语维基百科信息框「directeur de rédaction」栏所列人名。该职位信息为单一来源，未能经第二来源交叉确认，也无法确认是否仍现任；法语维基百科该条目内容主要反映2010年代该报情况（2025年1月19日最后一次修订）。"
+    },
+    {
+      "person_id": "DZ-PERSON-000392",
+      "name": "阿卜杜勒卡里姆·泽尔祖里 (Abdelkarim Zerzouri)",
+      "title": "主编 (rédacteur en chef)",
+      "title_description": "法语维基百科信息框所列主编。",
+      "description": "法语维基百科信息框「rédacteur en chef」栏所列人名。该职位信息为单一来源，未能经第二来源交叉确认，也无法确认是否仍现任；信息时间点为法语维基百科2025年1月19日修订版。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "编辑部 (Rédaction)",
+      "dept_id": "DZ-MEDIA-016-DEPT-001",
+      "head": "赫利布·杰布尔 (Ghelib Djebourr)",
+      "description": "综合采编部门，负责日报版面的新闻生产；覆盖君士坦丁地区（Constantinois，阿尔及利亚东北部）地方新闻及国内、国际报道。负责人信息据法语维基百科信息框（单一来源，是否现任未确认，信息时间点2025年1月修订版）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "新闻版块 (Actualités)",
+      "dept_id": "DZ-MEDIA-016-DEPT-002",
+      "head": null,
+      "description": "官网（2015年1月存档）导航列出的新闻频道，刊载地方与国内时政、社会、经济类报道，存档首页可见地方政务、民生、金融等选题。",
+      "parent_dept_id": "DZ-MEDIA-016-DEPT-001"
+    },
+    {
+      "name": "体育版块 (Sport)",
+      "dept_id": "DZ-MEDIA-016-DEPT-003",
+      "head": null,
+      "description": "官网导航列出的体育频道，报道本地及全国体育新闻。",
+      "parent_dept_id": "DZ-MEDIA-016-DEPT-001"
+    },
+    {
+      "name": "文化版块 (Culture)",
+      "dept_id": "DZ-MEDIA-016-DEPT-004",
+      "head": null,
+      "description": "官网导航列出的文化频道，报道君士坦丁及东部地区文化活动（存档首页可见君士坦丁2015阿拉伯文化之都相关报道）。",
+      "parent_dept_id": "DZ-MEDIA-016-DEPT-001"
+    },
+    {
+      "name": "服务版块 (Service)",
+      "dept_id": "DZ-MEDIA-016-DEPT-005",
+      "head": null,
+      "description": "官网导航列出的服务/读者联络频道，含「Contactez Nous（联系我们）」入口及实用信息类内容。",
+      "parent_dept_id": "DZ-MEDIA-016-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-19",
+      "title": "法语维基百科记载发行量已萎缩至不足5000份",
+      "description": "法语维基百科该报条目（2025年1月19日修订版）记载：发行量1993年创刊时约50300份，2007年约50000份，如今（条目修订时）已不超过5000份。",
+      "impact": "若维基百科数据属实，该报已从君士坦丁地区主要日报跌入微型发行行列，广告收入与采编能力将进一步收缩；该数据为维基百科单一来源，未经官方发行量认证交叉验证。",
+      "source": "https://fr.wikipedia.org/wiki/El_Acil"
+    },
+    {
+      "date": "2019-04-01",
+      "title": "官网停止更新并逐步失效，数字传播渠道中断",
+      "description": "互联网档案馆快照序列显示：elacil.com 首页2019年3月15日仍为约6KB的完整版面页，2019年4月2日骤降至约700字节空壳页，此后（2021-2025年快照）仅剩约170字节空白响应，网站实质停更。2026-10-17核验：该域名现跳转 HugeDomains 域名待售页，官网已不可访问。",
+      "impact": "该报失去唯一的数字化传播与存档渠道，退回纯纸质发行；其历史电子版（PDF、Calaméo）随之不可得。日期以2019年4月2日快照为界取2019-04-01（仅知年月）。",
+      "source": "http://web.archive.org/web/20190402085018/http://www.elacil.com/"
+    },
+    {
+      "date": "2009-01-06",
+      "title": "存档显示 elacil.com 域名2008-2009年间曾被第三方内容占用",
+      "description": "互联网档案馆2008年9月至2009年4月的快照显示，elacil.com 域名当时解析至美国保守派政治评论聚合类页面（URL形如 0,2821,111392-conservative-articles,00.html，另有 disclaimer_us.htm 等美式页面），并非该报官网；2003年及2013年以后的快照则为该报阿尔及利亚内容。据此推断域名在该时期曾易主或被停放，2010年代初回归该报使用。",
+      "impact": "提示该域名历史上存在所有权变动期，情报检索中引用 elacil.com 历史存档时须按时间甄别内容归属，避免将第三方内容误记为该报言论。",
+      "source": "http://web.archive.org/web/20090106125347/http://www.elacil.com/0,2821,111392-conservative-articles,00.html"
+    },
+    {
+      "date": "1993-01-01",
+      "title": "由 EURL Inter-Med-Info 在君士坦丁创刊",
+      "description": "该报为私营法语日报，由出版实体 EURL Inter-Med-Info（单人有限责任公司）在阿尔及利亚东北部城市君士坦丁创办，信息框记1993年创刊（历史沿革节另记1992年），创办人 Nacer Tafraoui；报纸定位为覆盖君士坦丁地区（Constantinois）的区域性日报，编辑立场为左翼或中左翼（据法语维基百科）。",
+      "impact": "成为君士坦丁地区具有代表性的私营法语区域日报，创刊初期发行量约5万份；Wikidata（Q3049680）亦载其1993年设立及法语语种属性。",
+      "source": "https://fr.wikipedia.org/wiki/El_Acil"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "Inter-Med-Info 出版公司 (EURL Inter-Med-Info)",
+      "org_type": "CORP",
+      "org_description": "在君士坦丁注册的阿尔及利亚私营出版实体（EURL，单人有限责任公司），法语维基百科信息框将其列为该报的所有者（propriétaire）与创办者（fondé par）；公开资料极少，未检索到其注册号、财务或人事信息。",
+      "relationship_type": "parent_org"
+    }
+  ],
+  "core_business": "《阿西勒报》（El Acil，阿拉伯语名「الأصيل」，意为「纯正的」，法语语境意译为 L'Authentique）是阿尔及利亚私营法语日报，1993年（一说1992年）由出版实体 EURL Inter-Med-Info 在东部大城市君士坦丁创办，是君士坦丁地区（Constantinois，阿尔及利亚东北部）具有代表性的区域型日报，报道覆盖当地政治、经济、社会、体育与文化新闻。据法语维基百科，其编辑立场为左翼或中左翼。经营模式以报纸销售与广告为主；2000-2010年代曾通过官网 elacil.com（约2003年上线）提供各版面新闻、纸质版PDF下载及 Calaméo 在线电子版。发行量从创刊初期的约5万份（1993年约50300份，2007年约5万份）持续萎缩，据法语维基百科2025年1月修订版已不足5000份。官网于2019年前后停止更新并失效，域名现停放待售，当前数字传播渠道基本中断，报纸是否仍正常出版缺乏可核验的公开信息。",
+  "industries": [
+    "media_publishing"
+  ],
+  "apec_stance": "阿尔及利亚不是亚太经合组织（APEC）成员（APEC现有21个成员经济体均位于亚太地区，阿尔及利亚地处北非马格里布地区，非亚太经济体），因此该报不存在任何针对APEC的立场或议程参与。截至2026-10-17的检索（Google News法语新闻源、维基百科多语种条目、官网历史存档）中，未发现 El Acil 报道APEC事务或参与任何国际组织、国际合作机制的公开记录；该报为君士坦丁区域性日报，报道范围以阿尔及利亚东北部本地新闻为主，国际合作信息阙如。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/El_Acil.jpg/330px-El_Acil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": "minio-store/default/popular-org-profile/dz/DZ-MEDIA-016.jpg",
+    "minio_path": "default/popular-org-profile/dz/DZ-MEDIA-016.jpg"
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-16",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "french_wikipedia",
+      "arabic_wikipedia",
+      "official_website_archive",
+      "web_archive_cdx",
+      "google_news",
+      "live_domain_check",
+      "peer_press_search"
+    ],
+    "completeness_score": 68,
+    "quotes": [
+      {
+        "title": "El Acil — Wikipédia (français)：信息框（fondateur Nacer Tafraoui、directeur de rédaction Ghelib Djebourr、rédacteur en chef Abdelkarim Zerzouri、propriétaire EURL Inter-Med-Info、diffusion 50000/2007）及正文（法语日报、君士坦丁、Constantinois、左翼/中左翼、1992/1993年创刊、1993年50300份、现不足5000份）",
+        "url": "https://fr.wikipedia.org/wiki/El_Acil"
+      },
+      {
+        "title": "Wikidata Q3049680：阿拉伯语标签「الأصيل」、描述「Algerian French-language newspaper」、P571设立年份1993、P407语种法语（Q150）、官网P856",
+        "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3049680.json"
+      },
+      {
+        "title": "elacil.com 官网2015年1月3日存档首页：Une/Actualités/Sport/Culture/Service 版面导航、PDF版（Elacil_31_12_2014.pdf）与 Calaméo 电子版（账号001268538）链接",
+        "url": "http://web.archive.org/web/20150103080934/http://www.elacil.com/"
+      },
+      {
+        "title": "Wayback Machine CDX 快照索引：2019-03-15首页6129字节→2019-04-02骤降至689字节→2024-2025年约170字节空白（官网停更证据链）",
+        "url": "http://web.archive.org/cdx/search/cdx?url=elacil.com/&output=json&collapse=timestamp:6&filter=statuscode:200&from=2016&to=2024&fl=timestamp,length,mimetype"
+      },
+      {
+        "title": "HugeDomains 域名交易页（d=elacil.com）：2026-10-17核验原官网域名现停放待售",
+        "url": "https://www.hugedomains.com/domain_profile.cfm?d=elacil.com"
+      },
+      {
+        "title": "Wayback 2009-01-06 快照：elacil.com 当时解析至美国保守派政治评论聚合页（域名曾被第三方占用）",
+        "url": "http://web.archive.org/web/20090106125347/http://www.elacil.com/0,2821,111392-conservative-articles,00.html"
+      },
+      {
+        "title": "阿拉伯语维基百科「الأصيل」消歧义页：阿语维基无该报独立条目（仅 Wikidata 阿语标签可证阿语名）",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D8%B5%D9%8A%D9%84"
+      }
+    ],
+    "notes": "Phase 3 enrichment (2026-10-17): 弱数据实体，官网已停运（域名停放待售），以法语维基百科+Wikidata+Wayback存档为主要来源。修正industries为media_publishing（原broadcasting与法语印刷日报属性不符）；name_zh按主会话指示补「阿西勒报」，阿语名الأصيل经法语维基百科明确意为L'Authentique（纯正的）而非「联系/链」。key_people三人（创始人/编辑部主任/主编）均为法语维基信息框单一来源，无法确认现任，已在description注明时间点；person_id按规则置null（未注册）。新闻检索（Google News法语源）中「El Acil」近年命中均为同名协会（Koléa音乐协会El Fen El Acil、Tiaret道路事故援助协会）而非该报；Constantine资深记者Boubakeur Hamidechi（2025-10-12讣告，Le Matin d'Algérie全文核阅）与Kamel Allouache（El Watan 2024-08-08悼文，正文未能读取）与该报的关联均无法确认，故未收录为key_people或事件。剩余缺口：现任编辑部成员、社交账号（未检索到任何经核验的官方账号）、发行量第三方认证数据、当前是否仍出版。"
+  }
+}

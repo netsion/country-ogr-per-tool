@@ -1,0 +1,308 @@
+{
+  "org_id": "NG-GOV-010",
+  "basic_info": {
+    "name_original": "Ministry of Finance",
+    "name_zh": "联邦财政部",
+    "name_en": "Ministry of Finance",
+    "aliases": [
+      "Federal Ministry of Finance"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "NGA",
+    "hq_country_iso3": "NGA",
+    "founded_date": null,
+    "website": "https://www.finance.gov.ng",
+    "wikidata_qid": "Q6866944"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter_x",
+      "account_name": "FinMinNigeria",
+      "url": "https://x.com/FinMinNigeria",
+      "source": "wikidata P2002；x.com官方账号简介自述为联邦财政部官方账号（持续更新至2026年11月）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "联邦财政部官方网站",
+      "url": "https://www.finance.gov.ng",
+      "description": "发布部新闻、政策声明及宏观经济数据看板，涵盖GDP增速、通胀率、FAAC收入、外汇储备、官方汇率与公共债务等指标",
+      "source": "official_website"
+    },
+    {
+      "name": "联邦国库公开门户",
+      "url": "https://opentreasury.gov.ng",
+      "description": "联邦总会计师办公室（OAGF）运营的政府支出公开门户，2019年12月启用，公布联邦各部门每日收支明细；2026年6月有媒体报道该门户SSL证书过期、维护不善",
+      "source": "news_search"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000110",
+      "name": "泰沃·奥耶德莱 (Taiwo Oyedele)",
+      "title": "财政部长兼经济统筹部长 (Minister of Finance and Coordinating Minister of the Economy)",
+      "title_description": "联邦财政政策最高负责人、内阁成员，全面主管联邦收支管理、财政政策制定与国际财经合作",
+      "description": "尼日利亚特许税务师与特许会计师，普华永道前合伙人，曾任总统财政政策与税收改革委员会主席、财政国务部长；2026年4月21日获蒂努布总统任命接替瓦莱·埃敦出任现职，4月23日完成交接正式就职，承诺延续并深化财政经济改革"
+    },
+    {
+      "person_id": "NG-PERSON-000111",
+      "name": "多丽丝·乌佐卡-阿尼特 (Doris Uzoka-Anite)",
+      "title": "财政国务部长 (Minister of State for Finance)",
+      "title_description": "协助财政部长分管部内具体业务、预算实施宣介与国际交往",
+      "description": "医生出身的银行家，曾任工业、贸易和投资部长，后调任财政国务部长；2026年曾代表联邦政府就2026年预算实施作出承诺"
+    },
+    {
+      "person_id": "NG-PERSON-000112",
+      "name": "雷蒙德·奥马奇 (Raymond Omachi)",
+      "title": "常务秘书（财政） (Permanent Secretary, Finance)",
+      "title_description": "部首席会计官，负责呈报部长文件的真实性核验、财务管理与日常行政运转",
+      "description": "职业文官，2026年4月新任财政部长奥耶德莱就职仪式上以财政部常务秘书身份致欢迎并承诺全力配合"
+    },
+    {
+      "person_id": "NG-PERSON-000113",
+      "name": "穆罕默德·萨努西·丹朱马 (Mohammed Sanusi Danjuma)",
+      "title": "常务秘书（特别事务） (Permanent Secretary, Special Duties)",
+      "title_description": "分管特别事务、绩效管理制度与机构改革等专项工作",
+      "description": "职业文官，与常务秘书（财政）共同构成财政部文官管理层，2026年4月参与新部长就职迎接"
+    },
+    {
+      "person_id": "NG-PERSON-000114",
+      "name": "瓦莱·埃敦 (Wale Edun)",
+      "title": "前财政部长兼经济统筹部长 (Former Minister of Finance and Coordinating Minister of the Economy)",
+      "title_description": "2023年8月至2026年4月执掌联邦财政部",
+      "description": "经济学家、投资银行家，任内主导取消燃油补贴、统一外汇市场、偿还央行垫款（ways and means）等宏观改革并推动四项税改法案立法；2026年4月21日内阁改组中去职，由泰沃·奥耶德莱接任"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "NG-GOV-010-DEPT-001",
+      "name": "国内财务司 (Home Finance Department)",
+      "head": null,
+      "description": "负责联邦、州与地方政府间财政关系，为联邦账户分配委员会（FAAC）法定秘书处；下设贸易关系、银行与金融机构、州财政与公共投资三个处",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "NG-GOV-010-DEPT-002",
+      "name": "现金管理司 (Cash Management Department)",
+      "head": null,
+      "description": "管理政府现金流，办理支出授权令（Warrant）与年度执行概算（AIE）的签发，编制拨款计划并管理部门通用拨款（Service Wide Votes）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "NG-GOV-010-DEPT-003",
+      "name": "财务与会计司 (Finance and Accounts Department)",
+      "head": null,
+      "description": "监督、协调并评估部内各部门及附属机构提交的预算提案，确保与联邦财政优先事项一致，管理部内财务会计事务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "NG-GOV-010-DEPT-004",
+      "name": "国际经济关系司 (International Economic Relations Department)",
+      "head": null,
+      "description": "归口管理对外经济金融交往，包括双边与多边财经合作、国际债务谈判及国际援助协调",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "NG-GOV-010-DEPT-005",
+      "name": "经济研究与政策管理司 (Economic Research and Policy Management Department)",
+      "head": null,
+      "description": "为政府政策举措提供经济分析支持，评估政府经济战略并监测实施情况，应对油价波动等财政风险",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "NG-GOV-010-DEPT-006",
+      "name": "综合服务司 (General Services Department)",
+      "head": null,
+      "description": "2013年设立，负责采购、设施管理等后勤与行政支持，保障部职能运转",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-26",
+      "title": "蒂努布总统签署四项税收改革法案",
+      "description": "总统签署尼日利亚税收法、税收征管法、税务局设立法及联合税收委员会设立法四项法案，重构联邦税制；联邦税务局（FIRS）自2026年1月起改组为尼日利亚税务局（NRS），财政部为该改革的主要推动与执行部门",
+      "impact": "税制统一并简化征管，目标提升税收占GDP比重；财政部监管下的联邦税收征管格局重塑",
+      "source": "https://statehouse.gov.ng/president-tinubu-new-tax-laws-the-way-forward-for-nigerias-prosperity/"
+    },
+    {
+      "date": "2025-12-19",
+      "title": "联邦执行委员会批准58.47万亿奈拉2026年预算案",
+      "description": "联邦执行委员会召开紧急会议批准2026财年预算总额58.47万亿奈拉（较2025年增长约6%），并修订中期支出框架（MTEF），同日蒂努布总统向国民议会联席会议提交该预算案",
+      "impact": "确定新财年支出与赤字框架，财政部作为预算执行与资金拨付核心部门面临更高举债与偿付压力",
+      "source": "https://www.channelstv.com/2025/12/19/fec-approves-upward-review-of-2026-budget/"
+    },
+    {
+      "date": "2026-04-17",
+      "title": "蒂努布签署68.32万亿奈拉2026年预算成为法律",
+      "description": "国民议会上调预算总额后，总统签署2026年拨款法，批准总支出68.32万亿奈拉（含法定转移支付4.799万亿、债务偿付15.8万亿奈拉），同日批准将2025年预算执行期延长至2026年6月30日",
+      "impact": "创纪录支出规模加大财政部收支平衡、债务管理与支出纪律压力",
+      "source": "https://www.thisdaylive.com/2026/04/17/tinubu-signs-n68-32trn-2026-appropriation-bill-into-law/"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "蒂努布任命泰沃·奥耶德莱为新任财政部长",
+      "description": "总统在内阁改组中免去瓦莱·埃敦职务，任命原财政国务部长、税务专家泰沃·奥耶德莱为财政部长兼经济统筹部长，由联邦政府秘书处处长乔治·阿库梅发布任命备忘录",
+      "impact": "财政政策领导层更迭，市场与外交伙伴关注改革连续性与经济重整方向",
+      "source": "https://www.reuters.com/world/africa/nigerias-president-names-taiwo-oyedele-new-finance-minister-2026-04-21/"
+    },
+    {
+      "date": "2026-04-23",
+      "title": "奥耶德莱正式就职并承诺延续改革势头",
+      "description": "原部长瓦莱·埃敦完成工作交接，奥耶德莱正式就任财政部长兼经济统筹部长，感谢埃敦的贡献，承诺深化经济改革、坚持财政纪律并聚焦可衡量成果；常务秘书雷蒙德·奥马奇与特别事务常务秘书穆罕默德·萨努西·丹朱马到场迎接",
+      "impact": "财政部领导层交接完成，财政改革议程保持连续，重点转向深化既有改革并强化执行",
+      "source": "https://fmino.gov.ng/oyedele-assumes-office-as-finance-minister-and-coordinating-minister-of-the-economy-commits-to-sustaining-reform-momentum/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦级政府，财政部为其组成部门，负责管理联邦政府财政",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-GOV-003",
+      "org_name": "尼日利亚内阁 (Cabinet of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦最高行政决策机构，财政部长与财政国务部长均为其成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "NG-GOV-035",
+      "org_name": "联邦预算与经济规划部 (Federal Ministry of Budget and Economic Planning)",
+      "org_type": "GOV",
+      "org_description": "主管联邦预算编制与经济规划，其下属联邦预算办公室与财政部在预算执行和财政政策上密切协同",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-FIN-001",
+      "org_name": "尼日利亚中央银行 (Central Bank of Nigeria)",
+      "org_type": "FIN",
+      "org_description": "国家货币当局，独立运作，与财政部开展财政货币政策协调；维基百科在财政部关联机构中亦予列举",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-GOV-043",
+      "org_name": "联邦国内税务局 (Federal Inland Revenue Service)",
+      "org_type": "GOV",
+      "org_description": "联邦税收征管机构，依2026年1月生效的尼日利亚税务局（设立）法改组为尼日利亚税务局（NRS），财政部对其行使政策监管",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-GOV-041",
+      "org_name": "尼日利亚海关总署 (Nigerian Customs Service)",
+      "org_type": "GOV",
+      "org_description": "负责关税征收、贸易便利与边境执法，接受财政部政策指导，财政部国内财务司在其董事会派有代表；2025年9月曾依财政部指令暂停征收4%离岸价（FOB）附加税",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-FIN-015",
+      "org_name": "尼日利亚证券交易委员会 (Securities and Exchange Commission (Nigeria))",
+      "org_type": "FIN",
+      "org_description": "资本市场监管机构，依据投资与证券法监管证券交易所与投资计划，财政部对其行使监管督导",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-FIN-014",
+      "org_name": "尼日利亚存款保险公司 (Nigeria Deposit Insurance Corporation)",
+      "org_type": "FIN",
+      "org_description": "银行存款保险与问题金融机构处置机构，维护金融体系稳定，财政部在董事会派有代表",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "NG-FIN-013",
+      "org_name": "尼日利亚进出口银行 (Nigerian Export-Import Bank)",
+      "org_type": "FIN",
+      "org_description": "出口信贷与贸易融资政策性银行，维基百科列为财政部附属机构",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "债务管理办公室 (Debt Management Office)",
+      "org_type": "GOV",
+      "org_description": "2000年10月4日设立，统一制定并执行联邦内外债政策、维护债务记录并开展债务可持续性分析，隶属财政部监管",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "联邦总会计师办公室 (Office of the Accountant General of the Federation)",
+      "org_type": "GOV",
+      "org_description": "联邦国库行政首脑机构，运营财政单一账户（TSA）、编制并公布联邦合并财务报表、管理联邦账户与统一收入基金，现任联邦总会计师为沙姆塞尔丁·B·奥贡吉米 (Shamseldeen B. Ogunjimi)",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "尼日利亚主权投资局 (Nigeria Sovereign Investment Authority)",
+      "org_type": "GOV",
+      "org_description": "2011年依法设立的主权财富基金管理机构，管理稳定基金、未来世代基金与尼日利亚基础设施基金三个组合，财政部参与其治理监督",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家保险委员会 (National Insurance Commission)",
+      "org_type": "GOV",
+      "org_description": "保险业监管机构（NAICOM），负责保险公司偿付能力与保单持有人保护，财政部派员进入其董事会",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际货币基金组织 (International Monetary Fund)",
+      "org_type": "INTL",
+      "org_description": "与尼日利亚定期举行第四条款磋商并评估其宏观改革进展，财政部为尼方主要对口部门之一",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "尼日利亚联邦财政部是联邦政府管理国家财政的核心部门，依据官网职能表述，负责管理、控制和监督联邦政府的收入与支出，并支持财政政策制定、资源动员、政府间财政关系及尼日利亚对外经济关系。具体职能包括：制定年度收支预算参数与中期支出框架（MTEF）供联邦执行委员会和国民议会决策；通过债务管理办公室统筹内外债务发行、偿付与可持续性管理；依托联邦总会计师办公室运营财政单一账户（TSA）和政府集成财务管理信息系统（GIFMIS），管理联邦现金流与支出合规；其国内财务司担任联邦账户分配委员会（FAAC）秘书处，负责联邦、州、地方三级政府间收入分配；对联邦税务局（2026年1月起改组为尼日利亚税务局）、海关总署、证券交易委员会、国家保险委员会、存款保险公司、进出口银行等附属机构行使政策监管。该部还负责落实财政责任法关于赤字与债务的约束，推动税制改革以提高税收占GDP比重，并在国际货币基金组织、世界银行、非洲开发银行等多边框架下管理对尼融资与经济合作事务。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），联邦财政部不涉及任何APEC事务。尼日利亚实际参与的国际财经合作框架包括：与国际货币基金组织（IMF）定期举行第四条款磋商并接受其宏观改革评估；与世界银行、非洲开发银行（AfDB）开展发展融资与经济改革合作，尼日利亚是非洲开发银行的最大股东国；作为西非国家经济共同体（ECOWAS）成员参与西非区域经济一体化与货币合作；作为非洲大陆自由贸易区（AfCFTA）缔约方推动非洲内部贸易自由化。财政部对外财经合作事务由其国际经济关系司归口管理，近年与多边机构的合作重点包括宏观经济稳定、税制改革、债务可持续性与反洗钱金融治理。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-11-10",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media"
+    ],
+    "completeness_score": 87,
+    "quotes": [
+      {
+        "title": "Federal Ministry of Finance (Nigeria) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Federal_Ministry_of_Finance_(Nigeria)"
+      },
+      {
+        "title": "About | Federal Ministry of Finance (Mandate)",
+        "url": "https://finance.gov.ng/about"
+      },
+      {
+        "title": "Nigeria's president names Taiwo Oyedele as new finance minister - Reuters",
+        "url": "https://www.reuters.com/world/africa/nigerias-president-names-taiwo-oyedele-new-finance-minister-2026-04-21/"
+      },
+      {
+        "title": "Oyedele Assumes Office as Finance Minister and Coordinating Minister of the Economy - Federal Ministry of Finance release",
+        "url": "https://fmino.gov.ng/oyedele-assumes-office-as-finance-minister-and-coordinating-minister-of-the-economy-commits-to-sustaining-reform-momentum/"
+      },
+      {
+        "title": "FEC Approves Upward Review Of 2026 Budget - Channels Television",
+        "url": "https://www.channelstv.com/2025/12/19/fec-approves-upward-review-of-2026-budget/"
+      },
+      {
+        "title": "Tinubu Signs N68.32trn 2026 Appropriation Bill into Law - ThisDay Live",
+        "url": "https://www.thisdaylive.com/2026/04/17/tinubu-signs-n68-32trn-2026-appropriation-bill-into-law/"
+      },
+      {
+        "title": "President Tinubu: New Tax Laws, the way Forward for Nigeria's Prosperity - State House",
+        "url": "https://statehouse.gov.ng/president-tinubu-new-tax-laws-the-way-forward-for-nigerias-prosperity/"
+      }
+    ],
+    "notes": "Phase3 enrichment: 官网finance.gov.ng核实；现任财长以2026年4月改组后为准（奥耶德莱接替埃敦）；founded_date因来源冲突（维基百科1960年 vs 其他资料1957年）留空；profile图片字段因无经验证的官方标识图URL留空"
+  }
+}

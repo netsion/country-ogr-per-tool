@@ -1,0 +1,242 @@
+{
+  "org_id": "NI-SOE-001",
+  "wikidata_qid": "Q117749818",
+  "basic_info": {
+    "name_original": "Empresa Nicaragüense de Electricidad",
+    "name_zh": "尼加拉瓜电力公司",
+    "name_en": "Nicaraguan Electricity Company",
+    "aliases": [
+      "ENEL"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "NIC",
+    "hq_country_iso3": "NIC",
+    "founded_date": "1994-11-01",
+    "website": "https://enel.gob.ni",
+    "wikidata_qid": "Q117749818"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Empresa Nicaragüense de Electricidad",
+      "url": "https://www.facebook.com/Empresa-Nicarag%C3%BCense-de-Electricidad-109273871586854",
+      "source": "https://enel.gob.ni/ 官网页脚"
+    },
+    {
+      "platform": "twitter_x",
+      "account_name": "@ENELNI",
+      "url": "https://x.com/ENELNI",
+      "source": "https://enel.gob.ni/ 官网页脚（twitter.com/ENELNI）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Empresa Nicaragüense de Electricidad - ENEL",
+      "url": "https://www.youtube.com/channel/UCZqPOouiFfSGjvcy60UX9Ig",
+      "source": "https://enel.gob.ni/ 官网页脚"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "财务报告（Informes Financieros）",
+      "url": "https://enel.gob.ni/informes-financieros/",
+      "description": "ENEL 定期发布的财务报告与审计信息，供公众查阅。",
+      "source": "https://enel.gob.ni/"
+    },
+    {
+      "name": "水电项目组合（Cartera de Proyectos Hidroeléctricos）",
+      "url": "https://enel.gob.ni/cartera-de-proyectos-hidroelectricos/",
+      "description": "ENEL 水电项目储备与各阶段开发计划的官方介绍页。",
+      "source": "https://enel.gob.ni/"
+    },
+    {
+      "name": "能源潜能地图（Mapa de Potenciales）",
+      "url": "https://enel.gob.ni/mapa-de-potenciales/",
+      "description": "尼加拉瓜水电、地热等可再生能源潜能分布的官方地图。",
+      "source": "https://enel.gob.ni/"
+    },
+    {
+      "name": "机构简报（Boletín Informativo）",
+      "url": "https://enel.gob.ni/boletin-informativo/",
+      "description": "ENEL 定期发布的机构新闻简报。",
+      "source": "https://enel.gob.ni/"
+    },
+    {
+      "name": "法律框架（Marco Legal）",
+      "url": "https://enel.gob.ni/marco-legal/",
+      "description": "规范尼加拉瓜电力行业的法律与法令汇编，含第272号《电力工业法》、第532号《可再生能源发电促进法》等。",
+      "source": "https://enel.gob.ni/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NI-PERSON-000191",
+      "name": "埃内斯托·何塞·马蒂内斯·蒂费尔 (Ernesto José Martínez Tiffer)",
+      "title": "执行总裁 (Presidente Ejecutivo)",
+      "title_description": "ENEL 最高行政负责人，依据第46-94号法令第14条行使法定代表权，主持公司日常经营管理，向董事会（Junta Directiva）负责；董事会与执行总裁均由共和国总统任命",
+      "description": "工程师出身，至迟自2015年（官方公报第74期，2015-04-23）起即以执行总裁身份代表ENEL签署文件，2025年3月仍以该职务代表公司签署集体劳动协议（尼加拉瓜劳工部公告355），为尼加拉瓜任职时间最长的国企负责人之一；任内推动中美洲水电站（PCA）大修、Momotombo地热监测与马那瓜火电厂现代化等工程"
+    }
+  ],
+  "departments": [
+    {
+      "name": "董事会 (Junta Directiva)",
+      "dept_id": "NI-SOE-001-DEPT-001",
+      "head": null,
+      "description": "依据第747号法律行使公司治理权：批准年度经营与投资预算、财务报表、对外借款与债券发行、与配电公司的购售电合同，并提请审计法院任命内部审计员；成员由共和国总统任命",
+      "parent_dept_id": null
+    },
+    {
+      "name": "执行总裁办公室 (Presidencia Ejecutiva)",
+      "dept_id": "NI-SOE-001-DEPT-002",
+      "head": "埃内斯托·何塞·马蒂内斯·蒂费尔 (Ernesto José Martínez Tiffer)",
+      "description": "公司行政中枢，对内对外代表ENEL，执行董事会决议，编制年度经营计划、预算与财务报告，并管理内部组织架构",
+      "parent_dept_id": "NI-SOE-001-DEPT-001"
+    },
+    {
+      "name": "发电总局 (División General de Generación)",
+      "dept_id": "NI-SOE-001-DEPT-003",
+      "head": null,
+      "description": "核心业务部门，负责公司水电（中美洲、卡洛斯·丰塞卡电站）、地热（Momotombo）与火电（马那瓜、拉斯布里萨斯电厂）机组的运行、维护、检修及所产电力的销售，并参与全国及区域电力市场的购售电合同谈判",
+      "parent_dept_id": "NI-SOE-001-DEPT-002"
+    },
+    {
+      "name": "项目总局 (Dirección General de Proyectos)",
+      "dept_id": "NI-SOE-001-DEPT-004",
+      "head": null,
+      "description": "负责水电与地热项目从构想、预可行性到可行性研究及实施的项目全周期管理，维护公司项目储备并面向国内外投资者推介，项目组合须与能源矿业部（MEM）编制的发电扩张指导规划相衔接",
+      "parent_dept_id": "NI-SOE-001-DEPT-002"
+    },
+    {
+      "name": "孤立系统运营局 (Dirección de Operación de los Sistemas Aislados, DOSA)",
+      "dept_id": "NI-SOE-001-DEPT-005",
+      "head": null,
+      "description": "负责未纳入国家配电特许经营的孤立地区（主要为加勒比沿岸）的发电、配电与售电业务，管理当地电厂、配电网及与私营发电机的购电合同",
+      "parent_dept_id": "NI-SOE-001-DEPT-002"
+    },
+    {
+      "name": "行政财务总局 (División General Administrativa Financiera)",
+      "dept_id": "NI-SOE-001-DEPT-006",
+      "head": null,
+      "description": "负责预算、会计、出纳、采购、资产管理与电价委员会事务，对接财政信贷部（MHCP）预算规范，并协同项目总局管理国际金融机构贷款与捐赠资金",
+      "parent_dept_id": "NI-SOE-001-DEPT-002"
+    },
+    {
+      "name": "内部审计组 (Auditoría Interna)",
+      "dept_id": "NI-SOE-001-DEPT-007",
+      "head": null,
+      "description": "由尼加拉瓜审计法院任命的内部审计单位，负责公司财务、运营、工程与采购的合规审计及内部控制体系建设",
+      "parent_dept_id": "NI-SOE-001-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-10",
+      "title": "中美洲区域电网故障引发多国停电，尼加拉瓜供电一度受波及",
+      "description": "2026年9月10日11时47分，中美洲区域互联系统发生故障，导致危地马拉、洪都拉斯、萨尔瓦多和尼加拉瓜四国部分地区供电中断；区域调度机构随即启动逐步恢复程序，约13时系统恢复正常运行",
+      "impact": "该事件凸显SIEPAC区域互联的故障传导风险；ENEL作为尼加拉瓜国家主要发电国企，其机组的及时调度与应急备用能力（如马那瓜应急备用电厂）是本国系统恢复的重要支撑（分析依据：ENEL为国家互联系统主要国有发电企业及应急备用电源运营方）",
+      "source": "https://www.elheraldo.hn/honduras/corte-regional-energia-afecta-honduras-guatemala-nicaragua-el-salvador-falla-PC31990168"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "马那瓜电厂4、5号机组声学封装工程完成",
+      "description": "ENEL宣布完成历时约11个月的马那瓜电厂（Planta Managua）4号、5号机组声学封装工程，通过多层隔音结构、高密度石膏板与吸声材料降低发电噪声；该厂现装2台瓦锡兰6.4兆瓦机组（1995、1998年投运），承担国家互联系统应急备用职能，保障医院、水泵系统等关键设施供电",
+      "impact": "改善厂区周边（卡雷特拉诺尔特沿线）居民声环境与员工作业条件，巩固该厂作为国家电网应急备用电源的战略地位",
+      "source": "https://enel.gob.ni/proyecto-de-encapsulamiento-acustico/"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "ENEL引入大坝安全实时监测技术",
+      "description": "ENEL在所属水电大坝安装安全观测（auscultación）与实时监测设备，加强对水库大坝渗流、变形等结构安全指标的在线监控与预警能力",
+      "impact": "提升阿帕纳斯（Apanás）等水库梯级水电站在雨季与极端天气下的运行安全，降低溃坝与供电中断风险",
+      "source": "https://enel.gob.ni/enel-tecnologia-monitoreo-seguridad-presas/"
+    },
+    {
+      "date": "2025-12-30",
+      "title": "ENEL以可再生能源业绩收官2025年",
+      "description": "据拉美社援引官方消息，ENEL在2025年对战略水电站实施大修，水电出力约占全国电力需求的13%，助力尼加拉瓜可再生能源发电占比超过80%；同期公司升级地球化学实验室（服务Momotombo等地热田监测），获日本国际协力机构（JICA）自动滴定仪、浊度计等设备捐赠；官方估计全国地热潜能达1500至2500兆瓦",
+      "impact": "巩固尼加拉瓜在中美洲的清洁能源结构与能源自主，为后续地热与水电扩建提供技术与数据基础",
+      "source": "https://www.prensa-latina.cu/2025/12/30/enel-cierra-2025-como-pilar-de-la-transicion-energetica-de-nicaragua/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NI-GOV-013",
+      "org_name": "尼加拉瓜能源矿业部 (Ministerio de Energía y Minas, MEM)",
+      "org_type": "GOV",
+      "org_description": "2007年依据第612号法律设立的能源主管部门，负责全国能源政策制定与发电扩张指导规划编制；ENEL的项目储备与开发方向须与MEM的扩张规划相衔接",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NI-SOE-004",
+      "org_name": "尼加拉瓜国家电力传输公司 (Empresa Nacional de Transmisión Eléctrica, ENATREL)",
+      "org_type": "SOE",
+      "org_description": "国有输电企业，运营国家互联系统（SIN）全部输电资产并负责系统调度，与ENEL同属1998年第272号《电力工业法》改革后分立的国家电力体系",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NI-GOV-001",
+      "org_name": "尼加拉瓜共和国总统府 (Presidencia de la República de Nicaragua)",
+      "org_type": "GOV",
+      "org_description": "依据创建ENEL的第46-94号法令，共和国总统任命ENEL董事会成员与执行总裁，国家经由总统行使出资人控制权",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "北南方电力公司 (Disnorte-Dissur)",
+      "org_type": "CORP",
+      "org_description": "尼加拉瓜主要配电公司（Disnorte与Dissur），持有全国太平洋及中部地区的独家配电特许合同，从批发电力市场购电后向终端用户售电；历史上曾由西班牙联合费诺萨（Unión Fenosa）及TSK-Melfosur财团控股，2020年该财团宣布退出",
+      "relationship_type": "customer"
+    }
+  ],
+  "core_business": "ENEL是尼加拉瓜国家级国有发电企业，1994年11月1日依据第46-94号法令（《官方公报》第204期）设立，最初承担发电、输电、配电与售电全链条业务；1998年第272号《电力工业法》改革后，输电业务划归国家电力传输公司（ENATREL）、主要城市配售电业务划归Disnorte-Dissur经营，ENEL遂转型为以发电为核心的国家电力集团。目前ENEL运营的发电资产包括：水电——中美洲水电站（PCA，位于希诺特加省，依托阿帕纳斯水库及Mancotal、El Quebradón、El Dorado大坝构成的Tuma—Matagalpa—Viejo梯级开发系统）与卡洛斯·丰塞卡水电站（PCF，依托La Virgen水库）；地热——Momotombo地热电站及地热田（含地球化学实验室）；火电——马那瓜电厂（2台瓦锡兰6.4兆瓦机组，承担国家互联系统应急备用供电）与拉斯布里萨斯电厂（燃气轮机机组，目前两台机组均停运）。此外，公司通过孤立系统运营局（DOSA）在未纳入配电特许经营的地区（主要为加勒比沿岸）经营发电、配电与售电。ENEL所发电力售入国家批发电力市场（MEN）及区域电力市场（MER），由各配电公司购电后零售；2025年公司水电出力约占全国电力需求的13%，是尼加拉瓜实现可再生能源发电占比超过80%能源结构的支柱国企之一。公司同时持有水电（如Larreynaga水电站）与地热项目储备，按照能源矿业部的发电扩张规划推进新项目开发，并接受其项目组合与投资方向上的行业管理。",
+  "industries": [
+    "electricity_gas",
+    "energy_renewable",
+    "utilities"
+  ],
+  "apec_stance": "尼加拉瓜不是APEC成员（APEC现有21个成员经济体），ENEL不存在参与APEC框架下能源合作或就APEC议题公开表态的记录。尼加拉瓜实际参与的区域与双边经贸能源框架包括：中美洲一体化体系（SICA）下的中美洲区域电力市场（MER）与SIEPAC跨国电网互联工程；2024年1月生效的尼加拉瓜—中国自由贸易协定；以及与世界银行、美洲开发银行（IDB）、中美洲经济一体化银行（BCIE）、日本国际协力机构（JICA）等机构在电力项目上的融资与技术合作（如JICA向ENEL地热地球化学实验室捐赠监测设备）。作为国家发电企业，ENEL的对外能源合作主要通过上述多边金融机构与技术援助渠道展开。",
+  "profile": {
+    "source_url": "https://enel.gob.ni/wp-content/uploads/2021/10/LOGOENEL.png",
+    "local_path": "minio-store/default/popular-org-profile/ni/NI-SOE-001.png",
+    "minio_path": "default/popular-org-profile/ni/NI-SOE-001.png"
+  },
+  "collection_meta": {
+    "collection_date": "2026-10-28",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 77,
+    "notes": "P3 enriched: 依据第46-94号法令（《官方公报》1994-11-01第204期）核定成立日期；组织架构、发电资产与社交账号取自官网；执行总裁Ernesto José Martínez Tiffer经官方采购名录、官方公报（2015、2020）与劳工部2025年公告交叉确认；停电事件经El Heraldo/EFE多源确认；2025年可再生能源数据来自Prensa Latina。Disnorte-Dissur未注册org_id，按规则留null。",
+    "quotes": [
+      {
+        "title": "DEPENDENCIAS ORGANIZATIVAS — Empresa Nicaragüense de Electricidad (Decreto Legislativo No. 46-94, La Gaceta del uno de noviembre de 1994)",
+        "url": "https://enel.gob.ni/dependencias-organizativas/"
+      },
+      {
+        "title": "ENEL cierra 2025 como pilar de la transición energética de Nicaragua — Prensa Latina",
+        "url": "https://www.prensa-latina.cu/2025/12/30/enel-cierra-2025-como-pilar-de-la-transicion-energetica-de-nicaragua/"
+      },
+      {
+        "title": "Planta Managua reduce impacto sonoro: Gobierno por medio de ENEL ejecuta proyecto de encapsulamiento acústico — ENEL官网",
+        "url": "https://enel.gob.ni/proyecto-de-encapsulamiento-acustico/"
+      },
+      {
+        "title": "Falla regional afecta suministro eléctrico en Honduras y el resto de Centroamérica — El Heraldo",
+        "url": "https://www.elheraldo.hn/honduras/corte-regional-energia-afecta-honduras-guatemala-nicaragua-el-salvador-falla-PC31990168"
+      },
+      {
+        "title": "Electricity sector in Nicaragua — Wikipedia（ENEL 1994年设立与1998年行业分拆背景）",
+        "url": "https://en.wikipedia.org/wiki/Electricity_sector_in_Nicaragua"
+      },
+      {
+        "title": "Empresa Nicaragüense de Electricidad (Enel) — BNamericas company profile",
+        "url": "https://www.bnamericas.com/es/perfil-empresa/empresa-nicaraguense-de-electricidad"
+      }
+    ]
+  }
+}
