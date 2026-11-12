@@ -2,28 +2,165 @@
   "org_id": "NG-MIL-007",
   "basic_info": {
     "name_original": "Defence Intelligence Agency",
-    "name_zh": null,
+    "name_zh": "国防情报局",
     "name_en": "Defence Intelligence Agency",
-    "aliases": [],
+    "aliases": [
+      "DIA"
+    ],
     "org_type": "MIL",
     "org_subtype": "intelligence_agency",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
-    "founded_date": "1986-01-01",
+    "founded_date": "1986-06-05",
     "website": "http://www.dia.gov.ng/",
     "wikidata_qid": "Q5251207"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "defence_military"
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "DIA_Nigeria",
+      "url": "https://www.facebook.com/DefenceIntelligenceAgency/",
+      "source": 6,
+      "source_note": "经搜索引擎三轮独立检索确认存在Facebook主页\"DIA_Nigeria\"（账号DefenceIntelligenceAgency），页面简介自述为尼日利亚国防情报局并链接官方域名dia.gov.ng与官方邮箱info@dia.gov.ng；机构官网当前无法访问（502），未能登录平台直接核验，账号官方身份建议后续以官方渠道确认。",
+      "nickname": null,
+      "username": null,
+      "user_id": null
+    }
   ],
-  "apec_stance": null,
+  "digital_assets": [
+    {
+      "name": "国防情报学院（DIC）官方网站",
+      "url": "https://dic.gov.ng/",
+      "description": "DIA培训部门国防情报学院（Defence Intelligence College）的官方网站，提供情报与安全专业培训课程信息；DIC依据1986年第19号法令设立，为西非国家经济共同体（ECOWAS）区域卓越中心。",
+      "source": "https://dic.gov.ng/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": null,
+      "name": "埃马纽埃尔·阿科马耶·帕克·翁迪安德耶 (Lieutenant General Emmanuel Akomaye Parker Undiandeye)",
+      "title": "国防情报参谋长 (Chief of Defence Intelligence, CDI)",
+      "title_description": "DIA最高负责人，由总统任命、向国防部长报告，统领全军国防情报的搜集、分析与协调，为总统和国防决策层提供战略情报支持。",
+      "description": "第17任国防情报参谋长，1968年9月2日生于克罗斯河州奥布杜地方政府区的贝迪亚；2023年6月23日就任，2025年10月24日获总统蒂努布留任并晋升中将。曾任DIA对外联络局局长、国防总部心理战局局长、陆军情报军团总部参谋长、武装部队安置中心副指挥官、马丁·卢瑟·阿格瓦国际领导力与维和中心指挥官，并曾任联合国利比里亚特派团副首席行动官、联合国总部评估副主管等职；先后就读尼日利亚国防学院、桑德赫斯特皇家军事学院，毕业于美国国防大学与阿布贾国家国防学院（获伊巴丹大学硕士学位），持有历史学（荣誉）学士与战略安全研究硕士学位，为美国国防大学国际反恐研究员。"
+    },
+    {
+      "person_id": null,
+      "name": "奥乔格巴内·阿德格贝 (Brigadier General Ojogbane Adegbe)",
+      "title": "对外联络局局长 (Director of Foreign Liaison)",
+      "title_description": "负责DIA对外联络事务，包括面向外国驻尼国防顾问/武官的安全形势通报与情报交流协调。",
+      "description": "2025年6月4日以DIA对外联络局局长身份主持面向外国国防顾问/武官的2025年第一、二季度行动简报会，介绍尼日利亚及萨赫勒地区安全形势（来源：尼日利亚通讯社NAN 2025-06-04报道）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "NG-MIL-007-DEPT-001",
+      "name": "国防情报学院 (Defence Intelligence College)",
+      "head": null,
+      "description": "DIA培训部门，依据1986年第19号法令设立，负责情报专业人才培训；已发展为西非国家经济共同体（ECOWAS）区域卓越中心，设有独立官方网站dic.gov.ng。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "NG-MIL-007-DEPT-002",
+      "name": "对外联络局 (Directorate of Foreign Liaison)",
+      "head": "奥乔格巴内·阿德格贝准将 (Brigadier General Ojogbane Adegbe)",
+      "description": "负责DIA与外国驻尼国防顾问/武官及盟国防务机构的联络、通报与情报交流；2025年6月主持面向30余国驻尼武官的季度行动简报会。现任CDI翁迪安德耶早年亦曾执掌该局。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-04",
+      "title": "DIA举行2025年第一、二季度驻尼外国国防顾问/武官行动简报会",
+      "description": "DIA在阿布贾举行2025年第一、二季度行动简报会，面向30余国驻尼外国国防顾问/武官通报尼日利亚及萨赫勒地区安全形势；CDI翁迪安德耶少将表示东北、西北、北中、南南等地区安全状况显著改善，东北暴力活动已大体得到控制；对外联络局局长阿德格贝准将介绍简报旨在向盟国提供官方安全通报与交流平台。",
+      "impact": "系统展示尼国防情报评估成果，强化与驻尼武官团及盟国的情报交流与互信。",
+      "source": "https://nannews.ng/nigeria-winning-war-against-insecurity-intelligence-chief/"
+    },
+    {
+      "date": "2025-10-24",
+      "title": "翁迪安德耶在总统重组军队高层中获留任国防情报参谋长并晋升中将",
+      "description": "总统博拉·蒂努布宣布调整军队高层，更换国防参谋长及陆、海、空参谋长，国防情报参谋长（CDI）埃马纽埃尔·翁迪安德耶获留任，随后晋升中将军衔；总统府同步发布新任军种首长及CDI官方履历。媒体分析认为此番调整凸显DIA在国家安全架构中地位上升。",
+      "impact": "CDI成为本轮军队高层调整中获留任的核心安全首长之一，巩固了DIA在尼情报体系中的地位。",
+      "source": "https://von.gov.ng/profile-akomaye-parker-undiandeye-nigerias-chief-of-defence-intelligence/"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "《ThisDay》发表分析文章：DIA在据称政变阴谋调查中的角色受关注",
+      "description": "尼日利亚《ThisDay》报刊发分析文章称，DIA深度介入围绕针对蒂努布总统的据称政变阴谋的调查，相关传闻牵涉国家安全顾问办公室（ONSA）下属国家反恐中心（NCTC）等机构人员；文章同时指出政变指控细节多源自匿名信源、官方未公开证实，并回顾了DIA自1986年设立以来历任负责人低调行事的机构历史。",
+      "impact": "反映DIA的国内政治情报角色受到前所未有的公众关注；相关政变指控属媒体报道，未经官方证实，需审慎看待。",
+      "source": "https://www.thisdaylive.com/2025/11/10/the-rise-of-dia/"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "2025年国防情报参谋长（CDI）年度会议在阿布贾举行",
+      "description": "以\"复杂国家安全生态系统中的多源情报创新\"为主题的2025年国防情报参谋长年度会议在阿布贾举行，高级国防情报官员、国防顾问/武官、地区主管与州协调员与会；CDI翁迪安德耶中将主张将技术情报与人力情报深度融合，发展数据分析与人工智能应用，推动跨机构情报共享，构建统一的国家情报框架。",
+      "impact": "确立DIA向多源情报融合与技术赋能转型的方向；会议汇集国防情报体系各层级负责人，有助于统一情报标准与流程。",
+      "source": "https://von.gov.ng/dia-chief-advocates-technology-human-intelligence-for-national-security/"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "国防部常任秘书理查德·菲兰瓦视察DIA总部",
+      "description": "国防部常任秘书理查德·菲兰瓦在阿布贾视察DIA并会见领导层，肯定其在反恐、打击土匪行动中情报搜集、情报共享与跨机构协作方面的作用，鼓励采用前沿技术并加强人员培训与福利；CDI翁迪安德耶表示DIA以主动预防并消除国家威胁为使命，为武装部队和安全机构提供早期预警，并披露两年内培训情报及相关人员1300余名，将培训、技术与预防性情报列为优先事项。",
+      "impact": "体现国防部对DIA能力建设的支持承诺；DIA罕见地公开披露训练规模与技术融合成效。",
+      "source": "https://fmino.gov.ng/permanent-secretary-ministry-of-defence-visits-dia/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-012",
+      "org_name": "联邦国防部 (Federal Ministry of Defence)",
+      "org_type": "GOV",
+      "org_description": "联邦国防主管部门。CDI由总统任命、向国防部长报告；国防部常任秘书于2026年3月视察DIA总部并承诺强化其能力建设。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-GOV-002",
+      "org_name": "尼日利亚总统 (President of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "国家元首兼武装部队总司令。国防情报参谋长（CDI）由总统任命；1986年设立时DIA与SSS、NIA同置于国家安全协调员办公室之下（Wikipedia机构信息框亦载总统为机构负责人之一）。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "DIA为尼日利亚联邦政府的组成机构，管辖权属联邦政府，依据1986年《国家安全机构法》（第19号法令）设立。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-MIL-001",
+      "org_name": "尼日利亚军 (Nigerian Armed Forces)",
+      "org_type": "MIL",
+      "org_description": "DIA设立的直接服务对象：为武装力量提供军事情报保障，并通过派驻使馆的国防武官体系开展对外军事情报工作；CDI由各军种军官出任。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-MIL-005",
+      "org_name": "国家安全局 (State Security Service)",
+      "org_type": "MIL",
+      "org_description": "负责国内情报的兄弟机构；与DIA同为1986年解散国家安全组织（NSO）后依据第19号法令拆分设立的三大情报机构之一。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-MIL-006",
+      "org_name": "国家情报局 (National Intelligence Agency)",
+      "org_type": "MIL",
+      "org_description": "负责对外情报与反情报的兄弟机构；与DIA同为1986年NSO拆分产物，依据第19号法令同时设立。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家安全组织 (National Security Organization)",
+      "org_type": "GOV",
+      "org_description": "1986年6月被第19号法令解散的原综合情报机构，其国内情报、对外情报与军事情报职能分别由SSS、NIA、DIA继承；DIA为其后继机构之一。",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "国防情报局（DIA）是尼日利亚主要军事情报机构，1986年6月5日依据《国家安全机构法》（第19号法令）在解散原国家安全组织（NSO）后设立，负责为尼日利亚武装力量和联邦国防部提供高效的军事情报保障。其主要职能包括：在尼日利亚境内外开展军事相关情报的搜集、分析与评估，推动尼日利亚国防政策的落实，促进与其他国家的军事合作与情报交流，并通过向武装部队和安全机构提供预警与威胁评估来保护尼日利亚公民生命安全、维护国家领土完整。DIA由国防情报参谋长（CDI）执掌，由总统任命、向国防部长报告，为总统和国防决策层提供战略情报支持；人员规模与年度预算均属机密。机构下设国防情报学院（DIC）作为培训部门，该学院已成为西非国家经济共同体（ECOWAS）区域内的卓越训练中心；对外联络部门负责与外国驻尼国防顾问/武官的情报通报与交流。DIA参与多国联合特遣部队（MNJTF）等区域安全合作，并通过派驻各国使馆的国防武官开展对外军事情报工作。2025年以来，机构公开强调技术情报与人力情报融合、数据分析与人工智能应用、跨机构情报共享及预防性情报等发展方向。",
+  "industries": [
+    "defence_military",
+    "intelligence_security"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），DIA不涉及任何APEC事务，无公开的相关立场。机构层面的实际国际合作框架：以双边国防情报合作与武官交流机制为主，2025年6月DIA曾面向30余国驻尼国防顾问/武官举行季度行动简报；参与西非国家经济共同体（ECOWAS）区域安全合作（其培训部门国防情报学院为ECOWAS区域卓越中心）、多国联合特遣部队（MNJTF）反恐行动，并通过派驻各国使馆的国防武官网络与联合国维和情报体系开展协作（现任CDI曾任联合国利比里亚特派团副首席行动官、联合国总部评估副主管）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Nigerian_Defence_Intelligence_Agency_seal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-MIL-007.png",
@@ -31,13 +168,58 @@
   },
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 13,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 76,
+    "notes": "Phase 3 enrichment: 英语Wikipedia（机构沿革、职能定位、1986年设立背景与国防情报学院）、国防情报参谋长Wikipedia条目（历任CDI名单）、总统府新任军种首长履历公告（State House，2025-10-24，含CDI官方履历）、Voice of Nigeria（CDI人物稿与2025年CDI年度会议报道）、尼日利亚通讯社（2025年6月对外武官简报）、联邦信息和国家导向部网站（2026年3月国防部常任秘书视察DIA）、ThisDay（2025-11-10分析文章，涉政变阴谋传闻，文中自述未经官方证实）。官网dia.gov.ng采集时返回502无法访问，域名仍为Wikipedia与Facebook主页记载的官方网址；经三轮检索未发现X/Instagram等其它官方社交账号，仅发现Facebook主页（页面简介自述链接官网域名与官方邮箱，已收录于social_accounts并附核验限制说明）；军事情报机构保密性高，内部机构设置仅公开国防情报学院与对外联络局两项，其余如实留空；中文维基百科无对应条目。",
+    "quotes": [
+      {
+        "title": "Defence Intelligence Agency (Nigeria) - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Defence_Intelligence_Agency_(Nigeria)"
+      },
+      {
+        "title": "Chief of Defence Intelligence (Nigeria) - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Chief_of_Defence_Intelligence_(Nigeria)"
+      },
+      {
+        "title": "CURRICULUM VITAE OF NEW SERVICE CHIEFS - State House Abuja",
+        "url": "https://statehouse.gov.ng/curriculum-vitae-of-new-service-chiefs/"
+      },
+      {
+        "title": "Profile: Akomaye Parker Undiandeye, Nigeria's Chief of Defence Intelligence - Voice of Nigeria",
+        "url": "https://von.gov.ng/profile-akomaye-parker-undiandeye-nigerias-chief-of-defence-intelligence/"
+      },
+      {
+        "title": "Nigeria Winning War Against Insecurity - Intelligence Chief - News Agency of Nigeria",
+        "url": "https://nannews.ng/nigeria-winning-war-against-insecurity-intelligence-chief/"
+      },
+      {
+        "title": "DIA Chief Advocates Technology, Human Intelligence For National Security - Voice of Nigeria",
+        "url": "https://von.gov.ng/dia-chief-advocates-technology-human-intelligence-for-national-security/"
+      },
+      {
+        "title": "Permanent Secretary, Ministry Of Defence Visits DIA - Federal Ministry of Information and National Orientation",
+        "url": "https://fmino.gov.ng/permanent-secretary-ministry-of-defence-visits-dia/"
+      },
+      {
+        "title": "The Rise of DIA - THISDAY",
+        "url": "https://www.thisdaylive.com/2025/11/10/the-rise-of-dia/"
+      },
+      {
+        "title": "DIA_Nigeria - Facebook (账号DefenceIntelligenceAgency)",
+        "url": "https://www.facebook.com/DefenceIntelligenceAgency/"
+      },
+      {
+        "title": "Defence Intelligence College Karu, Abuja - DIC Nigeria",
+        "url": "https://dic.gov.ng/"
+      }
+    ]
   }
 }

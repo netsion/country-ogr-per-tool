@@ -158,6 +158,22 @@ def _cjk_region_rules_apply():
     return DATASET_ISO in CJK_RULE_REGIONS
 
 
+# --- Language-convention policy (2026-11-12, all datasets) ---
+# Datasets where the person `name` field may legitimately be pure Chinese
+# (ethnic-Chinese officials; per person_collection_rules.md policy 4).
+ETHNIC_CN_OK_CC = {"my", "sg", "bn"}
+# Latin middle-initial pattern in name_zh is tolerated (e.g. 贾斯汀·G·库珀).
+LATIN_INITIAL = re.compile(r"(?:^|[·\s])[A-Za-z](?=\.|$)")
+
+
+def _name_zh_pure_violation(zh):
+    """True if name_zh contains Latin that is NOT a tolerated middle initial."""
+    if not zh:
+        return False
+    stripped = LATIN_INITIAL.sub("", zh)
+    return bool(re.search(r"[A-Za-z]", stripped))
+
+
 class ValidationResult:
     def __init__(self, filepath):
         self.filepath = filepath
@@ -690,6 +706,40 @@ def validate_person_profile(data, filepath):
     for f in ["name", "name_en", "nationality", "gender"]:
         if not data.get(f):
             r.error(f"missing required field: {f}")
+
+    # --- Language-convention checks (all datasets; warnings) ---
+    _lang_cc = (os.path.normpath(filepath).replace(os.sep, "/").split("/"))[-4]
+    _lname = data.get("name") or ""
+    _lzh = data.get("name_zh") or ""
+    _len_ = data.get("name_en") or ""
+    if _lang_cc not in CJK_RULE_REGIONS and _lang_cc != "jp" and _lname \
+            and _has_cjk(_lname) and _lang_cc not in ETHNIC_CN_OK_CC:
+        r.warn(f"language: name '{_lname}' contains Chinese (native name should be in "
+               f"official language; ethnic-Chinese MY/SG/BN names are legal)")
+    if not _lzh:
+        r.warn("language: name_zh is empty")
+    elif _name_zh_pure_violation(_lzh):
+        r.warn(f"language: name_zh '{_lzh}' contains non-initial Latin/other-script")
+    if _len_ and _has_cjk(_len_):
+        r.warn(f"language: name_en '{_len_}' contains Chinese")
+    if _lang_cc == "kr" and _lname and not re.search(r"[\uac00-\ud7af]", _lname):
+        r.warn(f"language: KR name '{_lname}' lacks Hangul")
+    for _arr, _key in [("person_relationships", "person_name"),
+                       ("family_members", "name"),
+                       ("work_experience", "organization"),
+                       ("education", "institution")]:
+        for _i, _it in enumerate(data.get(_arr) or []):
+            if not isinstance(_it, dict):
+                continue
+            _v = _it.get(_key) or ""
+            if not _v:
+                continue
+            if _bracket_reversed(_v):
+                r.warn(f"language: {_arr}[{_i}].{_key} bracket order reversed "
+                       f"(expected 中文(原文))")
+            elif _lang_cc not in CJK_RULE_REGIONS and not _has_cjk(_v):
+                r.warn(f"language: {_arr}[{_i}].{_key} lacks Chinese "
+                       f"(brand exemption OK if no established name)")
 
     nat = data.get("nationality")
     if nat and not ISO2_RE.match(nat):

@@ -197,3 +197,15 @@
 
 - 禁止编造信息，搜索不到则留空
 - 重要信息至少 2 个独立来源确认
+
+## 语言规范政策（2026-11-12 全库语言审查后确立，validator 已按此实施 language 警告）
+
+1. **品牌类组织豁免**：无通行中文名的品牌/组织（IBM、G42、XRG 类）在 work_experience.organization / education.institution 中保留原文，不强造中文译名（validator 对缺中文仅 warn）。
+2. **name_zh 拉丁中缀首字母豁免**：中文译名中的首字母缩写（如「贾斯汀·G·库珀」「P.翁尼克里希南」）为通行写法，不算违规；validator 只拦「非首字母的拉丁词」。
+3. **亲属/关系人/任职/院校的纯外文名必须补中文**，统一格式「中文(原文)」；品牌豁免除外。
+4. **马来西亚/新加坡/文莱华人合法**：这些国家的 name 字段用中文名（如「刘镇东」）是官方常用写法，不算违规。
+5. **KR 姓名必须有 Hangul**：name 字段用韩文（如 조국），原中文进 name_zh、罗马字进 name_en、旧写法进 aliases。
+6. **进行中数据集**： 标记保护（详见 workspace-hygiene.md §6）。
+
+validator 对应检查（validate_person_profile 内，全部 warn 级）：name 中文混入（非 CJK 区域且非 MY/SG/BN）、name_zh 空/含非首字母拉丁、name_en 含中文、KR 无 Hangul、括号顺序反序（全区域）、结构化字段缺中文（非 CJK 区域，品牌豁免除外）。
+
