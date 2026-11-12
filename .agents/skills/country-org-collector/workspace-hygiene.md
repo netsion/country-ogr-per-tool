@@ -32,6 +32,13 @@
 - 本地正本唯一位置：`minio-store/default/…`（gitignore）
 - 数据集 photos 目录已废弃，不再使用
 
+### 6. 进行中数据集保护（in-flight，最高优先级）
+- 仍在采集/充实中的数据集，在 `output/<cc>/<date>/` 放置 **`.inflight`** 标记文件
+- **任何清理脚本遇 `.inflight` 必须跳过该数据集整体**（包括 _tmp/、证据散件、队列 json）
+- 队列/进度类文件（`*_queue.json`、`remaining_persons.json`、`*_progress*.json`、
+  `_missing_persons*`）即使无标记也**默认保留**，不得按"散件"清理
+- 收尾后删除 `.inflight` 标记，数据集才进入可清理范围
+
 ## gitignore 兜底
 `.gitignore` 已按上述规则拦截（`output/**/_tmp/`、根目录抓取后缀等），
 被拦 ≠ 可以乱放——磁盘整洁与 git 整洁是两回事。
