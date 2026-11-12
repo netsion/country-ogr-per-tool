@@ -27,7 +27,7 @@ TODAY = str(date.today())
 
 # Wikidata property mappings
 SOCIAL_PROPS = {
-    "P2002": ("twitter_x", "https://twitter.com/"),
+    "P2002": ("twitter", "https://twitter.com/"),
     "P2013": ("facebook", "https://facebook.com/"),
     "P2397": ("youtube", "https://youtube.com/channel/"),
     "P2387": ("instagram", "https://instagram.com/"),

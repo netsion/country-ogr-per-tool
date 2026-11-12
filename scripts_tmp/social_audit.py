@@ -11,7 +11,6 @@ sys.stdout.reconfigure(encoding="utf-8")
 HOSTS = {
     "facebook": ("facebook.com", "fb.com"),
     "instagram": ("instagram.com",),
-    "twitter_x": ("x.com", "twitter.com"),
     "twitter": ("x.com", "twitter.com"),
     "linkedin": ("linkedin.com",),
     "youtube": ("youtube.com", "youtu.be", "yt.be"),

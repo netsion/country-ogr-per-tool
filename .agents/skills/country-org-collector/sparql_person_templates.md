@@ -103,7 +103,7 @@ curl --proxy "http://127.0.0.1:7897" -s -L -H "User-Agent: Mozilla/5.0" \
 | P6411 | 政党成员 | current_positions 补充 |
 | P102 | 政党 | current_positions 补充 |
 | P856 | 官方网站 | contacts (website) |
-| P2002 | Twitter ID | social_accounts (twitter_x) |
+| P2002 | Twitter ID | social_accounts (twitter) |
 | P2013 | Facebook ID | social_accounts (facebook) |
 | P2397 | YouTube channel | social_accounts (youtube) |
 | P4264 | Instagram username | social_accounts (instagram) |

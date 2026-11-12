@@ -390,24 +390,34 @@ All JSON keys and enum values use **English only**. This file provides Chinese t
 
 ## Enum: social_platform / 社交平台
 
-| Value | 中文 |
-|-------|------|
-| twitter_x | Twitter/X |
-| facebook | Facebook |
-| linkedin | LinkedIn |
-| youtube | YouTube |
-| instagram | Instagram |
-| telegram | Telegram |
-| tiktok | TikTok |
-| threads | Threads |
-| mastodon | Mastodon |
-| wechat | 微信 |
-| weibo | 微博 |
-| github | GitHub |
-| gitlab | GitLab |
-| medium | Medium |
-| substack | Substack |
-| other | 其他 |
+> 2026-11-12 起：全小写；twitter_x 已废除（X/Twitter 一律 `twitter`）；
+> `source` 字段填右侧数字编码，无编码平台为 null。
+
+| Value | 中文 | source 码 |
+|-------|------|-----------|
+| twitter | Twitter/X | 3 |
+| facebook | Facebook | 6 |
+| instagram | Instagram | 8 |
+| youtube | YouTube | 9 |
+| odnoklassniki | Odnoklassniki | 10 |
+| vkontakte | VK（VKontakte） | 11 |
+| weibo | 微博 | 14 |
+| reddit | Reddit | 15 |
+| tumblr | Tumblr | 16 |
+| linkedin | LinkedIn | 17 |
+| telegram | Telegram | 19 |
+| whatsapp | WhatsApp | 20 |
+| line | LINE | 21 |
+| wechat | 微信 | 23 |
+| threads | Threads | 24 |
+| snapchat | Snapchat | 25 |
+| tiktok | TikTok | 29 |
+| mastodon | Mastodon | — |
+| github | GitHub | — |
+| gitlab | GitLab | — |
+| medium | Medium | — |
+| substack | Substack | — |
+| other | 其他 | — |
 
 ---
 
