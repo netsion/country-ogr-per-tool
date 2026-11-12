@@ -30,3 +30,14 @@ remaining_persons.json
 
 # Claude settings (local)
 .claude/settings.local.json
+
+# Avatar image store (2.2GB local mirror of MinIO bucket; keys tracked in profile.minio_path)
+minio-store/
+
+# MinIO upload kit artifacts (transfer-only, not source)
+minio-upload-kit.tar
+minio-increment-20.tar
+upload_state.json
+
+# Avatar pipeline working state / trash (regenerable)
+output/_avatar_audit/

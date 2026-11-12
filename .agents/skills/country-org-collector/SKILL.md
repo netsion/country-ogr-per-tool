@@ -246,7 +246,7 @@ P4（人物收集）：主会话构建含执行步骤的 prompt（~800字符）�
 
 ## §9 快速启动
 
-**执行前必做**：确认代理可用 `curl --proxy "http://127.0.0.1:7890" -s "https://en.wikipedia.org" | head -1`，或设置环境变量 `export https_proxy=http://127.0.0.1:7890`
+**执行前必做**：确认代理可用 `curl --proxy "http://127.0.0.1:7897" -s "https://en.wikipedia.org" | head -1`，或设置环境变量 `export https_proxy=http://127.0.0.1:7897`
 
 **"收集{某国}的组织信息"** → Phase 1 → Phase 2 → Phase 3
 
@@ -432,7 +432,7 @@ Schema 文件：.agents/skills/country-org-collector/org_list_schema.json
 
 步骤 1 — Wikidata 结构化查询（按 scope 选择模板）：
   端点：https://query.wikidata.org/sparql
-  调用方式：本地 curl + 代理 `--proxy "http://127.0.0.1:7890"`
+  调用方式：本地 curl + 代理 `--proxy "http://127.0.0.1:7897"`
   限速：请求间隔 ≥12 秒，每分钟 ≤5 次
   SPARQL 模板详见：.agents/skills/country-org-collector/sparql_org_templates.md
   重要：避免 wdt:P31/wdt:P279*（传递子类），改用 wdt:P31 + VALUES 列表

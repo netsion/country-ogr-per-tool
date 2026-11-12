@@ -66,7 +66,7 @@
     }
   ],
   "social_accounts": [],
-  "social_accounts_note": "经多渠道检索（2026-10-08）：Google News RSS、Bing（网页/新闻/RSS端点）、DuckDuckGo（html与lite端点，遭反爬拦截）、Mojeek、Brave（拦截）、Searx（验证码）及Facebook公共目录（HTTP 400）等均未能返回可核实的本人实名社媒账号；期间遭遇搜索引擎配额耗尽与本地网络中断。NCB官方Facebook/YouTube/Instagram/LinkedIn账号均为机构账号（见LY-FIN-005档案），未发现以其个人名义运营的账号。社媒字段留空，待后续补查。",
+  "social_accounts_note": "经多渠道检索（2026-10-08）：Google News RSS、Bing（网页/新闻/RSS端点）、DuckDuckGo（html与lite端点，遭反爬拦截）、Mojeek、Brave（拦截）、Searx（验证码）及Facebook公共目录（HTTP 400）等均未能返回可核实的本人实名社媒账号；期间遭遇搜索引擎配额耗尽与本地网络中断。NCB官方Facebook/YouTube/Instagram/LinkedIn账号均为机构账号（见LY-FIN-005档案），未发现以其个人名义运营的账号。社媒字段留空，待后续补查。；2026-10-14 社媒补查：WebSearch 与 web_reader 配额耗尽，Bing/Mojeek/Searx/Yandex 均验证码或跳转拦截，Google News RSS 检索无社媒线索，未发现新增可核实账号，social_accounts 维持空数组。",
   "political_stances": [
     {
       "date": "2025",
@@ -136,5 +136,10 @@
         "url": "https://web.archive.org/web/20170126074017/http://www.ncb.ly/Board_of_Directors.aspx"
       }
     ]
+  },
+  "profile": {
+    "source_url": "https://services.ncb.ly/resources/images/chair-man-new-2_27a43f45-c5b5-09db-af43-bc5c53c62cd9.webp",
+    "local_path": "minio-store/default/popular-person-profile/ly/LY-PERSON-000202.jpg",
+    "minio_path": "default/popular-person-profile/ly/LY-PERSON-000202.jpg"
   }
 }

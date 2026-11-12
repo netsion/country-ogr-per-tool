@@ -1,0 +1,13 @@
+# MinIO 上传配置（复制本文件为 minio.conf 并填写）
+# 格式 host:port，不带 http:// 前缀，例：10.1.2.3:9000
+MINIO_ENDPOINT=
+MINIO_ACCESS_KEY=
+MINIO_SECRET_KEY=
+# https=1（默认）；内网 http 端点填 0
+MINIO_SECURE=0
+# 桶名（默认 default）
+MINIO_BUCKET=default
+# 区域（默认 us-east-1，MinIO 一般不用改）
+MINIO_REGION=us-east-1
+# https 自签证书时填 1 跳过校验
+MINIO_INSECURE=0

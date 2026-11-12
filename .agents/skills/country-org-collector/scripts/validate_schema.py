@@ -498,6 +498,12 @@ def calc_person_score(data):
 def validate_org_profile(data, filepath):
     r = ValidationResult(filepath)
 
+    # profile must be a dict (avatar ref) or null — never a bare string
+    pv = data.get("profile")
+    if pv is not None and not isinstance(pv, dict):
+        r.error(f"profile must be an object or null, got {type(pv).__name__} "
+                f"(avatar ref: source_url/local_path; org description belongs in core_business)")
+
     org_id = data.get("org_id", "")
     if not org_id:
         r.error("missing org_id")
@@ -627,6 +633,12 @@ def validate_org_profile(data, filepath):
 
 def validate_person_profile(data, filepath):
     r = ValidationResult(filepath)
+
+    # profile must be a dict (avatar ref) or null — never a bare string
+    pv = data.get("profile")
+    if pv is not None and not isinstance(pv, dict):
+        r.error(f"profile must be an object or null, got {type(pv).__name__} "
+                f"(avatar ref: source_url/local_path)")
 
     pid = data.get("person_id", "")
     if not pid:

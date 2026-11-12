@@ -232,7 +232,8 @@
   "name_en_note": "官方英文名以朝觐与副朝部官网人物页「Ms. Hidaya bint Waleed Bakhurji」为准；官方运动视频英文字幕及本人LinkedIn/X/Instagram/YouTube账号拼写均为「Hedaya Bakhorji」；两种拼写并存（同一人不同转写），本档采用官网拼法，Bakhorji列入aliases。",
   "profile": {
     "source_url": "https://haj.gov.sa/-/media/Project/HAJJ/IMAGES/About-The-Ministry/ministry-leaderships/Ms-Hidaya-bint-Waleed-Bakhurji.png",
-    "local_path": "photos/SA-PERSON-000295.png"
+    "local_path": "minio-store/default/popular-person-profile/sa/SA-PERSON-000295.png",
+    "minio_path": "default/popular-person-profile/sa/SA-PERSON-000295.png"
   },
   "profile_note": "官方肖像自部官网媒体库直取（2313x1192 PNG，555KB，2026-10-02经代理下载并本地保存），经查视为其领导页官方肖像。",
   "notes": "来源等级：正式建档级（非降档）。直读全文来源≥5个独立页面：①部官网人物页阿语版（curl+代理127.0.0.1:7890直取，228KB）②同页英语版（直取，220KB）③部官网领导页（直取，268KB）④《麦加报》第1626695期全文（直取）⑤Saudia Hajj & Umrah官方运动YouTube视频页（直取，阿英双语说明含其职务全称）。SPA N2440607经read_url取得标题＋搜索摘要（正文JS动态加载），佐证2025-11-10在任。工具实测：mcp__search-read__search配额正常（共8次调用成功，1次超时）；mcp__search-read__read_url对haj.gov.sa/makkahnewspaper/linkedin返回502、SPA仅返回标题；r.jina.ai超时不可用（HTTP 000）；Wayback无其LinkedIn快照；Wikidata wbsearchentities「Bakhurji」无命中（wikidata_qid=null，Q12250979为沙特司法部，无关）。官方任务线索纠错三处：「بالنيابة」实为「المكلف」；英文姓非Bukhari/Bukhariji而系Bakhurji/Bakhorji；其此前背景为财务/共享服务行政序列（CGMA/ACMA持证），非金融业从业。",

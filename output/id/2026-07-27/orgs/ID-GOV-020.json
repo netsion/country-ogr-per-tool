@@ -498,8 +498,9 @@
     "notes": "P3 重跑（2026-09-17）：确认总司长 Bimo Wijayanto 在任（官网简历页 + 2026-09 媒体报道交叉验证），就任日期修正为 2025-05-23。14 司现任司长名单依印尼语维基 2026-09 组织表补全（新增 key_people 的 person_id 为 null 待主会话分配）。related_entities 改为 schema 字段（relationship_type 枚举）：财政部 org_id 置 null（索引中「Kementerian Keuangan」别名命中 ID-GOV-017，但该 ID 实为海关与消费税总司，为避免错链不作引用）；海关总司 ID-GOV-017、央行 ID-FIN-002、PPATK ID-GOV-022 均按索引命中填 ID。新增 2025-2026 年 11 条事件（2025 收入缺口、KPK 执法、AEOI 扩容、Coretax Form/全面切换、SPP-TDLN、非法印花票案、部长更迭等），全部带来源；补充 TikTok/LinkedIn/Threads 官方社媒账号。 ｜2026-09-17：name_original 去除 Ministry of Finance 后缀（上级部委关系见 related_entities），修复名称索引别名冲突。"
   },
   "profile": {
-    "source_url": "https://www.pajak.go.id/",
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_djp.svg/250px-Logo_djp.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "summary": "印尼财政部税务总司，国家税务主管机关，征收约 80% 的国家预算收入；2025 年起总司长为 Bimo Wijayanto，正推进 Coretax 核心系统全面落地与跨境税收数据交换扩容。",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/id/ID-GOV-020.png",
+    "minio_path": "default/popular-org-profile/id/ID-GOV-020.png"
   }
 }

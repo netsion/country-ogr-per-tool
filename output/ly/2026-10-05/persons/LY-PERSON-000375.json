@@ -145,5 +145,11 @@
       }
     ],
     "notes": "Phase4人物画像（重派补档，正式ID：LY-PERSON-000375）。本人物在派发清单中缺失、注册表登记信息极少（仅登记名与importance=low），按任务指示以可查证的最小事实集建档，未作任何推断性补充。核心事实均出自IANA/ICANN原始文件与注册局官网（nic.ly），关键节点（2004年移交、2007年问责框架签署、2011/2015年IANA联系人记录、2025年移交GACI）各有至少两份文件互证；共完整读取8个来源页面/PDF。处理说明：1）name采用注册表登记的阿语拼写مروان مقهور（标准转写与外部来源Marwan K. Maghur一致），阿语原文未经独立外部来源复核（WebSearch配额耗尽，Bing引号检索失效、DDG/Mojeek遇验证码、Google被拦，阿语媒体检索不可行），已在aliases并注；2）中间名首字母「K.」出自IANA记录，无法展开；3）性别male出自各文件「Mr.」称谓与签署身份；4）联系方式为IANA根区数据库公开发布的历史职务联系方式（2011/2015年），时效性存疑、仅作记录；5）Facebook同名主页无法核实身份未收录，社媒核查详情见social_accounts_note；6）教育、家庭、出生、政治立场均无来源，相应数组留空；7）与Khaled Esheh、AbdulNasir A. Al-Tubuly、Paul Twomey的关系均为文件可证的职务关系，person_id一律置null（三人未在库内注册）。completeness_score为自评，待校验器--score复算。"
-  }
+  },
+  "profile": {
+    "source_url": "https://www.icann.org/sites/default/files/unmanaged/photos/meetings/lisbon/dot-ly-signing/cerf-maghur-twomey-one-s.jpg",
+    "local_path": "minio-store/default/popular-person-profile/ly/LY-PERSON-000375.jpg",
+    "minio_path": "default/popular-person-profile/ly/LY-PERSON-000375.jpg"
+  },
+  "profile_note": "2026-10-14头像补采：ICANN官方2007-03-25公告配图（.LY问责框架签署仪式，里斯本），图片说明「文顿·瑟夫、马万·马古尔、保罗·特沃米（左至右）」，中座者即马古尔本人；本地文件系自原图（三人合影450x300）裁取中座者竖幅（160x300）所得，source_url为ICANN官网原始图片直链。原图仅450px宽的-s版可访问，全尺寸版（cerf-maghur-twomey-one.jpg）官网已404。"
 }

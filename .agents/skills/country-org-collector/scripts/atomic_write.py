@@ -13,19 +13,19 @@ import tempfile
 import ssl
 import urllib.request
 
-PROXY_PRIMARY = "http://127.0.0.1:7890"
-PROXY_FALLBACK = "http://10.11.204.68:8081"
+PROXY_PRIMARY = os.environ.get("OSINT_PROXY") or "http://127.0.0.1:7897"
+PROXY_FALLBACK = None  # 旧备用端口 7890 已停用；主代理不通时回退直连
 
 
 def setup_proxy(primary=None, fallback=None):
     """Configure HTTP proxy with automatic fallback.
 
-    Tries primary proxy → fallback proxy → direct connection (no proxy).
+    Tries primary proxy → fallback proxy (if any) → direct connection (no proxy).
     """
     primary = primary or PROXY_PRIMARY
-    fallback = fallback or PROXY_FALLBACK
+    fallback = fallback if fallback is not None else PROXY_FALLBACK
 
-    proxy_url = _test_proxy(primary) or _test_proxy(fallback)
+    proxy_url = _test_proxy(primary) or (fallback and _test_proxy(fallback))
 
     if proxy_url:
         if proxy_url != primary:
@@ -47,29 +47,35 @@ def setup_proxy(primary=None, fallback=None):
     print(f"  Proxy configured: {proxy_url or 'DIRECT'}")
 
 
-def _test_proxy(proxy_url, timeout=15):
-    """Test if a proxy is reachable. Returns proxy_url on success, None on failure."""
-    try:
-        proxy_handler = urllib.request.ProxyHandler({
-            'http': proxy_url,
-            'https': proxy_url,
-        })
-        ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
-        opener = urllib.request.build_opener(
-            proxy_handler,
-            urllib.request.HTTPSHandler(context=ctx),
-        )
-        req = urllib.request.Request(
-            "https://www.wikidata.org/w/api.php?action=query&meta=siteinfo&format=json",
-            headers={"User-Agent": "ApecOsintTool/1.0 (proxy-test)"},
-        )
-        with opener.open(req, timeout=timeout) as resp:
-            if resp.status == 200:
-                return proxy_url
-    except Exception:
-        pass
+def _test_proxy(proxy_url, timeout=15, tries=3):
+    """Test if a proxy is reachable. Returns proxy_url on success, None on failure.
+
+    AnitCloud 节点偶发瞬时限流（约 1/3 概率），单次探测会误判，故重试 3 次。
+    """
+    import time
+    for i in range(tries):
+        try:
+            proxy_handler = urllib.request.ProxyHandler({
+                'http': proxy_url,
+                'https': proxy_url,
+            })
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            opener = urllib.request.build_opener(
+                proxy_handler,
+                urllib.request.HTTPSHandler(context=ctx),
+            )
+            req = urllib.request.Request(
+                "https://www.wikidata.org/w/api.php?action=query&meta=siteinfo&format=json",
+                headers={"User-Agent": "ApecOsintTool/1.0 (proxy-test)"},
+            )
+            with opener.open(req, timeout=timeout) as resp:
+                if resp.status == 200:
+                    return proxy_url
+        except Exception:
+            if i < tries - 1:
+                time.sleep(2 + i * 2)
     return None
 
 

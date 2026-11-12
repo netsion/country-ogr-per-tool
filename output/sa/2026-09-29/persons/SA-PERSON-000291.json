@@ -216,7 +216,8 @@
   "name_en_note": "官方英文拼写以朝觐与副朝部官网「Dr. Al-Hassan bin Yahya Al-Manakhrah」为准；媒体另有Alhassan Yehia Almanakhra（Arab News）、Al-Hassan Al-Manakhra（Saudipedia）等转写。",
   "profile": {
     "source_url": "https://haj.gov.sa/s-core/-/media/Project/HAJJ/IMAGES/About-The-Ministry/ministry-leaderships/Dr-Al-Hassan-bin-Yahya-Al-Manakhrah.png",
-    "local_path": "photos/SA-PERSON-000291.png"
+    "local_path": "minio-store/default/popular-person-profile/sa/SA-PERSON-000291.png",
+    "minio_path": "default/popular-person-profile/sa/SA-PERSON-000291.png"
   },
   "profile_note": "未获取可用官方肖像（部官网人物页图片经JS动态加载，未取得稳定直链），留空。",
   "notes": "来源等级：正式建档级（非降档）。直读全文来源≥5个独立页面：①朝觐与副朝部官网人物页阿语版（curl+代理直取全文，223KB）②同页英语版（直取全文）③沙特百科Saudipedia阿语版（read_url全文）④Saudipedia英语版（read_url全文）⑤《中东报》2026-05-25专访全文（nabd镜像curl直取）⑥Alsarah公司新闻页（curl直取全文）。工具实测：mcp__search-read__search配额正常；mcp__search-read__read_url对haj.gov.sa/manhom/arabnews返回502（按降级链以curl+代理127.0.0.1:7890直取成功；manhom 403、arabnews 307未取得正文，其独有信息未采信）；r.jina.ai超时不可用；Wikidata wbsearchentities阿英两查询均无命中（wikidata_qid=null）。 SPA N2551511（2026-04-02）经搜索摘要佐证现任职务，页面正文JS动态加载未直取成功。",

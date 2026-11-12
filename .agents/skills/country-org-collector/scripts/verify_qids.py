@@ -204,8 +204,15 @@ def main():
         print(f"[{i+1}/{len(targets)}] OK: {name_en} -> {entity['en']} [sim={sim:.2f}]")
         time.sleep(RATE_LIMIT)
 
-    # Save updated targets
-    save_json(targets_file, targets)
+    # Save updated targets (opt-in): fixes are name-similarity matches WITHOUT a
+    # country filter and have mis-assigned foreign same-name entities before
+    # (e.g. Guinea ministries -> Canada/Tunisia/Quebec ministries). Default is
+    # report-only; pass --write to apply.
+    if "--write" in sys.argv:
+        save_json(targets_file, targets)
+        print("  Changes written to", targets_file)
+    else:
+        print("  Report-only mode: no changes written (use --write to apply, after manual review)")
 
     print(f"\n=== Verification Complete ===")
     print(f"  OK: {ok}")

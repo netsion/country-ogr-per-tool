@@ -78,6 +78,12 @@
 | top-level 多余字段 | 仅 schema 定义字段 | photo_url, importance_level, party |
 | person name 格式 | `"이재명"`（本国官方语言） | `"李在明 (이재명)"`（中文开头） |
 
+## 头像字段（profile）
+
+- `profile.source_url` — 原图 URL，只接受图片直链（Wikipedia/Wikidata 等）；禁止 wiki `File:` 描述页、社交主页、QID 页
+- `profile.local_path` — 本地图片路径，**相对项目根**，形如 `minio-store/default/popular-person-profile/{cc}/<ID>.<ext>`（MinIO 镜像目录；2026-11-12 起全库统一此布局）
+- `profile.minio_path` — MinIO 对象 key（无前导斜杠）：`{bucket}/{folder}/{cc}/<ID>.<ext>`，如 `default/popular-person-profile/sg/SG-PERSON-000005.jpg`；采集阶段留 null，由上传管线写入，不做格式校验
+
 ## 必填字段规则（无法填写则删除整条，不要写空壳条目）
 
 - `family_members[].name` — 必须是真实全名。无效占位符（`未公开`/`不详`/`配偶`/`长子`/`李氏`/`（一子）`等）→ 删除该条
@@ -130,7 +136,7 @@
 - 仅当首选工具实测报错/超时/返回空时，才按以下阶梯降级：
   1. `mcp__search-read__search`（keyword 参数）搜索 → `mcp__search-read__read_url`（url 参数）读全文
   2. WebSearch（query 参数）搜索 → `mcp__web_reader__webReader`（url 参数）读全文
-  3. WebFetch 检索引擎结果页 + curl/requests 直取原文页（需带 User-Agent，走代理 http://127.0.0.1:7890）
+  3. WebFetch 检索引擎结果页 + curl/requests 直取原文页（需带 User-Agent，走代理 http://127.0.0.1:7897）
 - 检索引擎结果页（bing/brave/ddg）只用于发现 URL，**引用事实必须来自直取的原文页**
 
 多语言搜索按此顺序：目标国语言 → 英语 → 中文

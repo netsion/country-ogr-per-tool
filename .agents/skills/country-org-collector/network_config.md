@@ -4,17 +4,17 @@
 
 本机网络环境需要通过代理访问 Wikipedia / Wikidata 等境外站点。
 
-- **主代理**：`http://127.0.0.1:7890`
-- **备用代理**：`http://10.11.204.68:8081`
+- **主代理**：`http://127.0.0.1:7897`（AnitCloud 混合端口，2026-11 实测；可用环境变量 `OSINT_PROXY` 覆盖）
+- ~~备用代理 `http://127.0.0.1:7890`~~：旧端口已停用，勿再使用
 
-所有批处理脚本（`atomic_write.py` 中的 `setup_proxy()`）自动执行主备切换：先尝试主代理，不通则回退到备用代理。
+批处理脚本（`atomic_write.py` 中的 `setup_proxy()`）自动执行主备切换：先尝试主代理，不通则回退直连（2026-11 实测本机可直连 Wikimedia API，直连受网络波动影响时请回退代理）。
 
 所有本地 HTTP 请求（curl / Python urllib）**必须配置代理**，否则会被网络层重置连接（`WinError 10054` / `curl:35 SSL connect error`）。浏览器通过 PAC 文件自动走代理，但命令行工具不会。
 
 ### curl 使用代理
 
 ```bash
-curl -L --proxy "http://127.0.0.1:7890" "https://query.wikidata.org/sparql?..."
+curl -L --proxy "http://127.0.0.1:7897" "https://query.wikidata.org/sparql?..."
 ```
 
 > **注意**：所有 curl 调用建议加 `-L` 参数（follow redirects）。Wikidata EntityData 等端点可能返回 HTTP redirect，缺少 `-L` 会保存 HTML 而非 JSON。
@@ -31,8 +31,8 @@ setup_proxy()  # 自动主备切换
 ```python
 import urllib.request
 proxy = urllib.request.ProxyHandler({
-    'https': 'http://127.0.0.1:7890',
-    'http': 'http://127.0.0.1:7890'
+    'https': 'http://127.0.0.1:7897',
+    'http': 'http://127.0.0.1:7897'
 })
 opener = urllib.request.build_opener(proxy)
 # 注意：需同时设置 User-Agent，否则 Wikipedia REST API 返回 403
@@ -44,8 +44,8 @@ with opener.open(req, timeout=30) as resp:
 ### 设置环境变量（推荐，一次生效全局）
 
 ```bash
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7897
+export https_proxy=http://127.0.0.1:7897
 ```
 
 ## Windows 编码注意事项
@@ -102,4 +102,20 @@ print(f"OK: {verified['org_id']} score={verified['collection_meta']['completenes
 3. **DBpedia SPARQL** — 仅本地 curl（MCP 工具对含 OPTIONAL/FILTER 的复杂查询会静默失败）
 4. **普通网页** — `mcp__search-read__read_url` 优先，失败时用 `mcp__web_reader__webReader`
 5. **本地 curl/Python 执行前** — 始终确认已设置代理
-6. **Cloudflare JS Challenge** — 遇到 Cloudflare 防护（返回"Just a moment..."质询页）时，直接跳过该来源，改用 Wikipedia / 新闻搜索等其他数据源获取信息
+6. **Cloudflare JS Challenge** — 遇到 Cloudflare 防护（返回"Just a moment..."质询页时），直接跳过该来源，改用 Wikipedia / 新闻搜索等其他数据源获取信息
+
+## Wikimedia 批量取图规范（2026-11 实战沉淀，头像/图片下载必读）
+
+**铁律：批量取图一律走 `Special:FilePath` API 路由，禁直连 upload/thumb 域名。**
+
+| 通道 | URL 形态 | 说明 |
+|---|---|---|
+| ✅ **首选** | `https://commons.wikimedia.org/wiki/Special:FilePath/<文件名>?width=250` | 官方批量友好路由，实测 25-30 张/分钟不触发限流 |
+| ✅ 多语言 wiki | `https://<lang>.wikipedia.org/wiki/Special:FilePath/<文件名>?width=250` | ar/ru 等语言站本地文件不在 commons，必须换 host |
+| ❌ 禁用 | `upload.wikimedia.org/...`、`thumb.wikimedia.org/...` 直取 | 并发即触发 "robot policy" 429 封锁（封的是出口 IP，分钟级波动，两通道同封） |
+
+**要点**：
+- 任何 wikimedia URL（原图/thumb）都可机械转换成 FilePath 形态：取文件名（thumb 去掉 `250px-` 前缀段）拼到对应 wiki 的 `Special:FilePath/` 下
+- 双通道轮询（28081 图片代理优先，AnitCloud 兜底）+ 每请求重试 + 429 长退避（20/35/50s）
+- 下载后**魔数嗅探**（JPEG/PNG/GIF/WEBP/SVG），HTML 错误页一律丢弃——Wikimedia 的错误页会伪装成 200
+- 现成实现：`scripts_tmp/a6_download.py`（含 URL 转换、双通道、断点、直接写 minio-store 布局）

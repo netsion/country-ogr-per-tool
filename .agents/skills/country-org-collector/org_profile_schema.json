@@ -126,7 +126,8 @@
       "description": "Logo or photo image reference",
       "properties": {
         "source_url": { "type": ["string", "null"], "description": "Original image URL (e.g. Wikipedia/Wikidata logo)" },
-        "local_path": { "type": ["string", "null"], "description": "Local downloaded path relative to output dir, e.g. photos/SG-GOV-001.png" }
+        "local_path": { "type": ["string", "null"], "description": "Local image path relative to PROJECT ROOT, e.g. minio-store/default/popular-org-profile/sg/SG-GOV-001.png" },
+        "minio_path": { "type": ["string", "null"], "description": "MinIO object key (no leading slash): {bucket}/{folder}/{cc}/<ID>.<ext>, e.g. default/popular-org-profile/sg/SG-GOV-001.png; written by the upload pipeline" }
       }
     },
     "collection_meta": {

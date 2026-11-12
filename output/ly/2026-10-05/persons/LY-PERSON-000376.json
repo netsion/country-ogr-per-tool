@@ -177,5 +177,11 @@
     ],
     "completeness_score": 48,
     "notes": "Phase4人物画像。与组织档案LY-SOE-010.json（利比亚电信科技公司key_people/recent_events）交叉一致并互补。身份澄清：任务将此人描述为「LPTIC（利比亚邮电控股）董事长」，但所有可查证据（Tanasuh专访2023-12-31、LTT官方X播客2026-04-22、ARABSAT签约报道2026-08、判决报道2026-09）一致显示其职务为LTT（LPTIC旗下子公司）董事长，未见其出任控股母公司LPTIC职务的报道，故work_experience按LTT登记（org_id=LY-SOE-010；LPTIC在_name_index中登记为LY-SOE-028，本档案未使用）。完整阅读来源7个以上（Mobile Europe、Libya Herald、akhbarlibya24、lywitness、Al-Mada、Libya Update、Libya Observer英/阿语版、X@LibyaTT直取），关键事实交叉情况：两度出任董事长与2024-08塔尔哈接任（Libya Observer英/阿+Libya Al-Ahrar+LJ+利比亚全景多源）；2026-09-09判决（Al-Mada、akhbarlibya24、الشاهد、Libya Akhbar、البوصلة、صدى、libyapress X等多源）；购地案8000万/2000万细节（akhbarlibya24与الشاهد两独立来源一致）；ARABSAT签约及其致辞（Mobile Europe署名引语+Libya Herald）。存疑与处理：1）两届董事长任期的起止精确日期与任命程序均无公开报道，start_date留null并加注；2）职务现状存在「董事长/前董事长」口径分歧（见position_note），is_current按公司官方口径记true；3）Libya Update 2025-11-27「前董事长被羁押」报道未点名，按情节吻合关联处理并注明张力；4）2025年5月起社交媒体流传的LNET 5G合同与公司合并指控仅单一来源、未采信（记入work_note）；5）LinkedIn为唯一可核社交账号、直取被拦，收录并加注；6）出生日期/地点、家庭信息无可靠来源，相应字段留空；7）教育仅LinkedIn自述院校（单一来源），不作学位认定；8）libyaakhbar.com、tanasuh.tv、LinkedIn、contactout直取遭502/拦截，相关事实经检索摘要+多 outlet 同稿并读确认并在quotes中注明。completeness_score为自评，待校验器复算。"
-  }
+  },
+  "profile": {
+    "source_url": "https://almadanews.ly/uploads/news/cx2tpvwxu3.jpg",
+    "local_path": "minio-store/default/popular-person-profile/ly/LY-PERSON-000376.jpg",
+    "minio_path": "default/popular-person-profile/ly/LY-PERSON-000376.jpg"
+  },
+  "profile_note": "2026-10-14头像补采：利比亚《中间报》（Al-Mada）2026-09-09判决报道（ headline 即「LTT董事长被判5年」）配图，单一人物照，媒体惯例为报道对象本人资料照；人物戴眼镜、深色西装等外貌特征与2026-08-06 ARABSAT签约仪式合影（techafricanews.com/2026/08/07/文中配图，LTT方签字者为Al-Bouzaidi）中LTT方签字人相符。本地文件系去除原图两侧灰色边栏及底部标题条后的中央人像区域裁切（840x890），source_url为Al-Mada原始图片直链。"
 }
