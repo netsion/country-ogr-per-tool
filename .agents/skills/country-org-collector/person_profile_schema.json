@@ -806,21 +806,28 @@
     "social_platform_enum": {
       "type": "string",
       "enum": [
-        "twitter_x",
+        "twitter",
         "facebook",
-        "linkedin",
-        "youtube",
         "instagram",
+        "youtube",
+        "linkedin",
         "telegram",
         "tiktok",
         "threads",
-        "mastodon",
         "wechat",
         "weibo",
         "github",
         "gitlab",
         "medium",
         "substack",
+        "mastodon",
+        "whatsapp",
+        "line",
+        "snapchat",
+        "tumblr",
+        "odnoklassniki",
+        "vkontakte",
+        "reddit",
         "other"
       ]
     },
@@ -1201,16 +1208,47 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "description": "Display name or @handle on the platform"
         },
         "url": {
-          "type": "string"
+          "type": "string",
+          "format": "uri"
         },
         "source": {
           "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Platform source code (short). Map: twitter=3 facebook=6 instagram=8 youtube=9 odnoklassniki=10 vkontakte=11 weibo=14 reddit=15 tumblr=16 linkedin=17 telegram=19 whatsapp=20 line=21 wechat=23 threads=24 snapchat=25 tiktok=29. Null when platform has no code"
+        },
+        "source_note": {
+          "type": [
             "string",
             "null"
-          ]
+          ],
+          "description": "Where this account was discovered (provenance description, e.g. official website footer)"
+        },
+        "nickname": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Platform display nickname; filled by dedicated enrichment flow, null during collection"
+        },
+        "username": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Platform @handle/username; filled by dedicated enrichment flow, null during collection"
+        },
+        "user_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Platform numeric/prefixed account ID; filled by dedicated enrichment flow, null during collection"
         }
       }
     },

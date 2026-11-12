@@ -53,7 +53,9 @@
 
 ## 枚举值速查
 
-- social_accounts[].platform: `twitter_x` | `facebook` | `instagram` | `youtube` | `linkedin` | `telegram` | `tiktok` | `threads` | `mastodon` | `wechat` | `weibo` | `github` | `gitlab` | `medium` | `substack` | `other`
+- social_accounts[].platform: `twitter` | `facebook` | `instagram` | `youtube` | `linkedin` | `telegram` | `tiktok` | `threads` | `wechat` | `weibo` | `github` | `gitlab` | `medium` | `substack` | `mastodon` | `whatsapp` | `line` | `snapchat` | `tumblr` | `odnoklassniki` | `vkontakte` | `reddit` | `other`（全小写；twitter_x 已废除，X/Twitter 一律 twitter）
+- social_accounts[].source: 整数平台编码（twitter=3 facebook=6 instagram=8 youtube=9 odnoklassniki=10 vkontakte=11 weibo=14 reddit=15 tumblr=16 linkedin=17 telegram=19 whatsapp=20 line=21 wechat=23 threads=24 snapchat=25 tiktok=29），平台无编码则为 null
+- social_accounts[].source_note: 来源说明（长文本）；nickname/username/user_id: 采集阶段可不写（null），由专用流程回填
 - family_members[].relationship: `spouse` | `father` | `mother` | `son` | `daughter` | `brother` | `sister` | `grandfather` | `grandmother` | `uncle` | `aunt` | `cousin` | `other`
 - person_relationships[].relationship_type: `spouse` | `parent` | `child` | `sibling` | `mentor` | `mentee` | `colleague` | `superior` | `subordinate` | `political_ally` | `political_rival` | `associate` | `other`
 - education[].degree: `primary` | `high_school` | `associate` | `bachelor` | `master` | `doctorate` | `professional` | `other` | `null`
@@ -67,7 +69,7 @@
 | political_stances[] 立场内容 | `stance_content` | stance, position, content |
 | major_achievements[] 成就描述 | `achievement` | description, title, content |
 | person_relationships[] 关系类型 | `relationship_type` | relationship |
-| social_accounts[] 平台 | `twitter_x`（小写英文） | "Facebook", "X (Twitter)" |
+| social_accounts[] 平台 | `twitter`（小写英文；X/Twitter 一律 twitter） | "Facebook", "X (Twitter)", "twitter_x" |
 | family_members[] 关系 | `spouse`（英文 enum） | "妻子", "配偶", "儿子" |
 | degree 非标准值 | `"bachelor"` / `null` | "学士", "학사", "undergraduate" |
 | platform 大写 | `"facebook"` | "Facebook", "Naver Blog" |

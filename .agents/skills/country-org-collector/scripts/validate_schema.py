@@ -110,6 +110,27 @@ ORG_TYPES = ENUMS.get("org_type_enum", set())
 ORG_SUBTYPES = ENUMS.get("org_subtype_enum", set())
 RELATIONSHIP_TYPES = ENUMS.get("relationship_type_enum", set())
 SOCIAL_PLATFORMS = ENUMS.get("social_platform_enum", set())
+
+SOCIAL_ACCT_ALLOWED_KEYS = {"platform", "account_name", "url", "source",
+                            "source_note", "nickname", "username", "user_id"}
+
+
+def _check_social_entry(r, i, sa, kind):
+    """Shared social_accounts entry checks (source code map + extra keys)."""
+    if not isinstance(sa, dict):
+        return
+    src = sa.get("source")
+    if src is not None:
+        if not isinstance(src, int) or isinstance(src, bool):
+            r.error(f"social_accounts[{i}].source must be an integer code or null, "
+                    f"got {type(src).__name__}")
+        elif src not in PLATFORM_SOURCE_CODES.values():
+            r.error(f"social_accounts[{i}].source {src} not in platform code map")
+    extra = set(sa.keys()) - SOCIAL_ACCT_ALLOWED_KEYS
+    if extra:
+        r.error(f"social_accounts[{i}] extra fields {sorted(extra)} "
+                f"(allowed: platform/account_name/url/source/source_note/"
+                f"nickname/username/user_id)")
 INDUSTRIES = ENUMS.get("industry_enum", set())
 GENDERS = ENUMS.get("gender_enum", set())
 CONTACT_TYPES = ENUMS.get("contact_type_enum", set())
@@ -222,11 +243,30 @@ DEGREE_NORMALIZE = {
 
 PLATFORM_NORMALIZE = {
     'Facebook': 'facebook', 'Instagram': 'instagram', 'YouTube': 'youtube',
-    'Twitter': 'twitter_x', 'X (Twitter)': 'twitter_x', 'X/Twitter': 'twitter_x',
-    'Twitter/X': 'twitter_x', 'X': 'twitter_x', 'LinkedIn': 'linkedin',
+    'Twitter': 'twitter', 'X (Twitter)': 'twitter', 'X/Twitter': 'twitter',
+    'Twitter/X': 'twitter', 'X': 'twitter', 'x': 'twitter',
+    'twitter_x': 'twitter', 'LinkedIn': 'linkedin',
     'TikTok': 'tiktok', 'Telegram': 'telegram', 'Threads': 'threads',
     'Naver Blog': 'other', 'Naver blog': 'other', 'Blog': 'other',
     'KakaoTalk': 'other', 'Kakao': 'other',
+    'bluesky': 'other', 'Google Scholar': 'other', 'researchgate': 'other',
+    'orcid': 'other', 'Linktree': 'other', 'blogspot': 'other',
+    'WordPress': 'other', 'blog': 'other',
+}
+
+# numeric source codes per platform (user-defined mapping, 2026-11-12)
+PLATFORM_SOURCE_CODES = {
+    'twitter': 3, 'facebook': 6, 'instagram': 8, 'youtube': 9,
+    'odnoklassniki': 10, 'vkontakte': 11, 'weibo': 14, 'reddit': 15,
+    'tumblr': 16, 'linkedin': 17, 'telegram': 19, 'whatsapp': 20,
+    'line': 21, 'wechat': 23, 'threads': 24, 'snapchat': 25, 'tiktok': 29,
+}
+
+SOCIAL_PLATFORM_ENUM = {
+    'twitter', 'facebook', 'instagram', 'youtube', 'linkedin', 'telegram',
+    'tiktok', 'threads', 'wechat', 'weibo', 'github', 'gitlab', 'medium',
+    'substack', 'mastodon', 'whatsapp', 'line', 'snapchat', 'tumblr',
+    'odnoklassniki', 'vkontakte', 'reddit', 'other',
 }
 
 CONTACT_TYPE_NORMALIZE = {
@@ -540,6 +580,7 @@ def validate_org_profile(data, filepath):
             r.error(f"social_accounts[{i}].platform '{sa['platform']}' not valid")
         if not sa.get("url"):
             r.warn(f"social_accounts[{i}].url is empty")
+        _check_social_entry(r, i, sa, "org")
 
     for i, kp in enumerate(data.get("key_people", [])):
         if not kp.get("name"):
@@ -690,6 +731,7 @@ def validate_person_profile(data, filepath):
             r.error(f"social_accounts[{i}].platform '{sa['platform']}' not valid")
         if not sa.get("url"):
             r.warn(f"social_accounts[{i}].url is empty")
+        _check_social_entry(r, i, sa, "person")
 
     for i, rel in enumerate(data.get("person_relationships", [])):
         if not rel.get("person_name"):
