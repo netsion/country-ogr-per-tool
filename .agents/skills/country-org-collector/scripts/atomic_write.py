@@ -11,6 +11,7 @@ import json
 import os
 import tempfile
 import ssl
+import unicodedata
 import urllib.request
 
 PROXY_PRIMARY = os.environ.get("OSINT_PROXY") or "http://127.0.0.1:7897"
@@ -90,9 +91,15 @@ def decompose_name(raw_name):
       "李在明 (이재명 / Lee Jae-myung)" → ["李在明", "이재명", "Lee Jae-myung", ...]
       "이재명" → ["이재명"]
       "余仁亨 (Yeo In-hyung)" → ["余仁亨", "Yeo In-hyung", "yeo in-hyung", "yeoinhyung"]
+
+    Accents are stripped BEFORE tokenisation so "Cámara" is not split into
+    "C" + "mara" (the root cause of the MX-FIN-010 mis-binding).
     """
     if not raw_name:
         return []
+
+    raw_name = unicodedata.normalize("NFKD", str(raw_name))
+    raw_name = "".join(c for c in raw_name if not unicodedata.combining(c))
 
     results = []
     seen = set()

@@ -77,12 +77,26 @@ class Guardrails:
         self.registry_log.append((kind, new_id, name))
 
 
+def _safe_component(component):
+    c = (component or "").strip()
+    if not c:
+        return False
+    has_cjk = any("一" <= ch <= "鿿" for ch in c)
+    has_hangul = any("가" <= ch <= "힯" for ch in c)
+    if has_cjk or has_hangul:
+        return len(c) >= 3
+    return len(c) >= 4 and any(ch.isalpha() for ch in c)
+
+
 def lookup_name(name, index, kind=None):
     """Look up a name in the index, trying exact match first then decomposed components.
 
     kind: "org" or "person" — restricts the result to the matching ID pattern and
     disables decomposed matching for persons (Arabic patronymic fragments like
     「本」/「阿卜杜勒」 over-match across different people, causing wrong-ID pollution).
+
+    Decomposed matches must be UNIQUE: if different components resolve to different
+    IDs, the lookup is ambiguous and returns None (never "first hit wins").
 
     Returns (id_or_None, method_str).
     """
@@ -98,14 +112,19 @@ def lookup_name(name, index, kind=None):
     if kind == "person":
         # persons: exact match only — decomposed fragments are unsafe
         return None, None
+    found_ids = set()
     for component in decompose_name(name):
+        if not _safe_component(component):
+            continue
         if component in index:
             found = index[component]
             if re.match(person_re, found):
                 continue
-            _decompose_hits["decomposed"] += 1
-            return found, "decomposed"
-    return None, None
+            found_ids.add(found)
+    if len(found_ids) == 1:
+        _decompose_hits["decomposed"] += 1
+        return next(iter(found_ids)), "decomposed"
+    return None, ("ambiguous" if len(found_ids) > 1 else None)
 
 
 def load_json_safe(path):

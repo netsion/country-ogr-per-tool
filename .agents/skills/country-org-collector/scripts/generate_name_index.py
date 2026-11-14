@@ -31,6 +31,22 @@ import glob
 sys.path.insert(0, os.path.dirname(__file__))
 from atomic_write import decompose_name
 
+DEAD_STATUS = {"trimmed", "merged", "removed", "duplicate", "excluded",
+               "deprecated_broken_id", "archived", "pruned"}
+
+
+def _safe_component(component, target_id):
+    """Reject single letters / tiny fragments that poison the index."""
+    c = (component or "").strip()
+    if not c:
+        return False
+    has_cjk = any("一" <= ch <= "鿿" for ch in c)
+    has_hangul = any("가" <= ch <= "힯" for ch in c)
+    if has_cjk or has_hangul:
+        return len(c) >= 3
+    # Latin / other: require at least 4 characters and a letter
+    return len(c) >= 4 and any(ch.isalpha() for ch in c)
+
 
 def extract_names_from_org(profile):
     """从组织画像提取所有名称变体。"""
@@ -90,10 +106,14 @@ def build_index(output_dir):
             org_id = entry.get("org_id")
             if not org_id:
                 continue
-            # 已裁剪(trimmed)的组织不进入索引，防止子代理误引用已移除的 ID
-            if entry.get("status") == "trimmed":
+            # 人物行误混入组织 registry 时不得进入索引（防止人物名→org_id 污染）
+            if entry.get("person_id"):
+                continue
+            # 已裁剪/合并/移除的组织不进入索引，防止子代理误引用废弃 ID
+            if entry.get("status") in DEAD_STATUS:
                 continue
             for name in extract_names_from_registry_entry(entry):
+                name = (name or "").strip()
                 if name and name not in index:
                     index[name] = org_id
 
@@ -101,10 +121,11 @@ def build_index(output_dir):
             person_id = entry.get("person_id")
             if not person_id:
                 continue
-            # 已合并(merged)的人物不进入索引，防止子代理引用已废弃的 ID
-            if entry.get("status") in ("merged", "trimmed"):
+            # 已合并/裁剪/移除的人物不进入索引，防止子代理引用已废弃的 ID
+            if entry.get("status") in DEAD_STATUS:
                 continue
             for name in extract_names_from_registry_entry(entry):
+                name = (name or "").strip()
                 if name and name not in index:
                     index[name] = person_id
 
@@ -144,16 +165,30 @@ def build_index(output_dir):
 
     # 4. Decomposition pass: break composite names into components
     decomposed_added = 0
+    ambiguous = set()
     keys_snapshot = list(index.keys())
     for key_name in keys_snapshot:
         target_id = index[key_name]
         for component in decompose_name(key_name):
+            component = (component or "").strip()
             # 人物目标的单键分解（仅名或仅姓）歧义过大，曾致同名不同人误并，不入索引
             if "-PERSON-" in target_id and " " not in component:
                 continue
-            if component not in index:
-                index[component] = target_id
-                decomposed_added += 1
+            if not _safe_component(component, target_id):
+                continue
+            if component in index:
+                if index[component] != target_id:
+                    # same fragment maps to multiple identities → ambiguity
+                    ambiguous.add(component)
+                continue
+            index[component] = target_id
+            decomposed_added += 1
+    for key in ambiguous:
+        index.pop(key, None)
+    # single-character keys are never safe (aliases/fragments like "T", "Ъ", "汗")
+    for key in list(index.keys()):
+        if len(str(key).strip()) <= 1:
+            index.pop(key, None)
 
     # 5. 写入
     out_path = os.path.join(output_dir, "_name_index.json")

@@ -20,9 +20,17 @@ import os
 import re
 import glob
 import argparse
+from collections import defaultdict
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SKILL_DIR = os.path.dirname(SCRIPT_DIR)
+
+try:
+    from atomic_write import decompose_name, normalize_name
+except Exception:  # pragma: no cover - standalone fallback
+    decompose_name = None
+    def normalize_name(x):
+        return (x or "").strip().lower()
 
 # --- ID Patterns ---
 ORG_ID_RE = re.compile(r'^[A-Z]{2}-[A-Z]+-[0-9]{3}$')
@@ -31,6 +39,7 @@ DEPT_ID_RE = re.compile(r'^[A-Z]{2}-[A-Z]+-[0-9]{3}-DEPT-[0-9]{3}$')
 QID_RE = re.compile(r'^Q[0-9]+$')
 ISO3_RE = re.compile(r'^[A-Z]{3}$')
 ISO2_RE = re.compile(r'^[A-Z]{2}$')
+PLACEHOLDER_ID_RE = re.compile(r'(UNKNOWN|^unknown$|REL-|EXT-|000000|^N/?A$)', re.I)
 STRICT_DATE_RE = re.compile(r'^[0-9]{4}-[0-9]{2}-[0-9]{2}$')
 
 # Official ISO 3166-1 alpha-3 codes. *_iso3 fields must be in this set —
@@ -958,6 +967,36 @@ def process_file(fpath, is_org, fix=False, score=False, normalize=False):
 
 # --- Cross-reference Validation ---
 
+def _name_tokens(value):
+    """Normalized name tokens for overlap checks (accent-safe)."""
+    if not value:
+        return set()
+    vals = decompose_name(value) if decompose_name else [value]
+    out = set()
+    for v in vals:
+        n = normalize_name(v)
+        if n:
+            out.add(n)
+    return out
+
+
+def _names_overlap(a, b):
+    """True if two name strings share a normalized token, or one CJK name
+    contains the other (length >= 5). Used for ID→name consistency warnings."""
+    ta, tb = _name_tokens(a), _name_tokens(b)
+    if ta & tb:
+        return True
+    for x in ta:
+        for y in tb:
+            if len(x) >= 5 and len(y) >= 5 and (x in y or y in x):
+                return True
+    return False
+
+
+def _target_names(values):
+    return [v for v in (values or []) if isinstance(v, str) and v.strip()]
+
+
 def validate_cross_refs(base_dir):
     """Check cross-file references: org key_people→persons, person work_experience→orgs, related_entities→registry."""
     orgs_dir = os.path.join(base_dir, "orgs")
@@ -974,7 +1013,8 @@ def validate_cross_refs(base_dir):
     registry_person_ids = set()
     org_data_map = {}      # org_id -> profile data
     person_data_map = {}   # person_id -> profile data
-    org_name_map = {}      # org_id -> (name_zh, name_en)
+    org_name_map = {}      # org_id -> names/aliases
+    person_name_map = {}   # person_id -> names/aliases
 
     if os.path.isdir(orgs_dir):
         for fpath in glob.glob(os.path.join(orgs_dir, "*.json")):
@@ -986,8 +1026,9 @@ def validate_cross_refs(base_dir):
                 org_ids_in_files.add(oid)
                 org_data_map[oid] = data
                 bi = data.get("basic_info") or {}
-                org_name_map[oid] = ((bi.get("name_zh") or "").strip(),
-                                     (bi.get("name_en") or "").strip())
+                org_name_map[oid] = _target_names(
+                    [bi.get("name_zh"), bi.get("name_en"), bi.get("name_original")]
+                    + (bi.get("aliases") or []))
             except Exception:
                 pass
 
@@ -1000,6 +1041,9 @@ def validate_cross_refs(base_dir):
                 pid = data.get("person_id")
                 person_ids_in_files.add(pid)
                 person_data_map[pid] = data
+                person_name_map[pid] = _target_names(
+                    [data.get("name"), data.get("name_en"), data.get("name_zh")]
+                    + (data.get("aliases") or []))
             except Exception:
                 pass
 
@@ -1009,6 +1053,24 @@ def validate_cross_refs(base_dir):
             registry_org_ids.add(r.get("org_id"))
         for p in reg.get("person_registry", []):
             registry_person_ids.add(p.get("person_id"))
+        # Duplicate-ID identities: same ID carrying different names is the root
+        # cause of "click SpaceX -> Cisco" collisions.
+        for kind, entries, idkey in [
+            ("org", reg.get("registry", []), "org_id"),
+            ("person", reg.get("person_registry", []), "person_id"),
+        ]:
+            by_id = defaultdict(list)
+            for e in entries:
+                i = e.get(idkey)
+                if i:
+                    by_id[i].append(e.get("name") or e.get("name_en") or e.get("name_zh") or "")
+            for i, names in by_id.items():
+                distinct = {normalize_name(n) for n in names if n}
+                if len(distinct) > 1:
+                    sev = "ERR" if STRICT else "WRN"
+                    print(f"  {sev}: registry {kind} id '{i}' has multiple identities: {sorted(distinct)[:4]}")
+                    if STRICT: errors += 1
+                    else: warnings += 1
 
     print(f"\n=== Cross-Reference Validation ===")
     print(f"  Org files: {len(org_ids_in_files)}, Person files: {len(person_ids_in_files)}")
@@ -1027,6 +1089,14 @@ def validate_cross_refs(base_dir):
             for i, kp in enumerate(data.get("key_people", [])):
                 pid = kp.get("person_id")
                 if not pid:
+                    continue
+                if ORG_ID_RE.match(str(pid)):
+                    print(f"  ERR: {fname} key_people[{i}].person_id '{pid}' is an ORG id")
+                    errors += 1
+                    continue
+                if PLACEHOLDER_ID_RE.search(str(pid)):
+                    print(f"  ERR: {fname} key_people[{i}].person_id '{pid}' is a placeholder id")
+                    errors += 1
                     continue
                 if pid not in person_ids_in_files and pid not in registry_person_ids:
                     sev = "ERR" if STRICT else "WRN"
@@ -1047,26 +1117,46 @@ def validate_cross_refs(base_dir):
                     # surname/fuzzy-match mis-bindings.
                     pdata = person_data_map.get(pid)
                     if pdata is not None:
-                        org_zh, org_en = org_name_map.get(data.get("org_id"), ("", ""))
+                        org_names = org_name_map.get(data.get("org_id"), [])
                         hay = [((w.get("org_id") or ""), (w.get("organization") or ""))
                                for w in (pdata.get("work_experience") or [])]
                         hit = any(oid == data.get("org_id") for oid, _ in hay)
-                        if not hit and org_zh:
-                            hit = any(org_zh in nm for _, nm in hay)
-                        if not hit and org_en:
-                            oe = org_en.lower()
-                            hit = any(oe and oe in nm.lower() for _, nm in hay)
+                        if not hit:
+                            hit = any(x and x in nm for x in org_names for _, nm in hay)
                         if not hit:
                             print(f"  WRN(strict): {fname} key_people[{i}] '{kp.get('name')}' -> {pid}: "
                                   f"no trace of this org in person's work_experience (possible mis-binding)")
                             warnings += 1
+                    ref = kp.get("name") or kp.get("name_en") or ""
+                    if ref and person_name_map.get(pid) and not _names_overlap(ref, " / ".join(person_name_map[pid])):
+                        print(f"  WRN(strict): {fname} key_people[{i}] '{ref}' -> {pid}: ID target name mismatch")
+                        warnings += 1
             for i, re_ in enumerate(data.get("related_entities", [])):
                 oid = re_.get("org_id")
                 if not oid:
                     continue
-                if oid not in registry_org_ids:
-                    print(f"  ERR: {fname} related_entities[{i}].org_id '{oid}' not in id_registry.json")
+                if PERSON_ID_RE.match(str(oid)):
+                    print(f"  ERR: {fname} related_entities[{i}].org_id '{oid}' is a PERSON id")
                     errors += 1
+                    continue
+                if PLACEHOLDER_ID_RE.search(str(oid)):
+                    print(f"  ERR: {fname} related_entities[{i}].org_id '{oid}' is a placeholder id")
+                    errors += 1
+                    continue
+                if oid not in registry_org_ids:
+                    if ORG_ID_RE.match(str(oid)) and str(oid)[:2].upper() != (DATASET_ISO or "").upper():
+                        print(f"  WRN: {fname} related_entities[{i}].org_id '{oid}' is cross-country (not in local registry)")
+                        warnings += 1
+                    else:
+                        print(f"  ERR: {fname} related_entities[{i}].org_id '{oid}' not in id_registry.json")
+                        errors += 1
+                elif oid in org_ids_in_files:
+                    ref = re_.get("org_name") or re_.get("name") or ""
+                    if ref and org_name_map.get(oid) and not _names_overlap(ref, " / ".join(org_name_map[oid])):
+                        sev = "ERR" if STRICT else "WRN"
+                        print(f"  {sev}: {fname} related_entities[{i}] '{ref}' -> {oid}: ID target name mismatch")
+                        if STRICT: errors += 1
+                        else: warnings += 1
 
     # Check person → org references
     if os.path.isdir(persons_dir):
@@ -1082,16 +1172,46 @@ def validate_cross_refs(base_dir):
                 oid = we.get("org_id")
                 if not oid:
                     continue
+                if PERSON_ID_RE.match(str(oid)):
+                    print(f"  ERR: {fname} work_experience[{i}].org_id '{oid}' is a PERSON id")
+                    errors += 1
+                    continue
+                if PLACEHOLDER_ID_RE.search(str(oid)):
+                    print(f"  ERR: {fname} work_experience[{i}].org_id '{oid}' is a placeholder id")
+                    errors += 1
+                    continue
                 if oid not in org_ids_in_files and oid not in registry_org_ids:
                     print(f"  WRN: {fname} work_experience[{i}].org_id '{oid}' not found in orgs/ or registry")
                     warnings += 1
+                elif oid in org_ids_in_files:
+                    ref = we.get("organization") or we.get("org_name") or ""
+                    if ref and org_name_map.get(oid) and not _names_overlap(ref, " / ".join(org_name_map[oid])):
+                        sev = "ERR" if STRICT else "WRN"
+                        print(f"  {sev}: {fname} work_experience[{i}] '{ref}' -> {oid}: ID target name mismatch")
+                        if STRICT: errors += 1
+                        else: warnings += 1
             for i, rel in enumerate(data.get("person_relationships", [])):
                 pid = rel.get("person_id")
                 if not pid:
                     continue
+                if ORG_ID_RE.match(str(pid)):
+                    print(f"  ERR: {fname} person_relationships[{i}].person_id '{pid}' is an ORG id")
+                    errors += 1
+                    continue
+                if PLACEHOLDER_ID_RE.search(str(pid)):
+                    print(f"  ERR: {fname} person_relationships[{i}].person_id '{pid}' is a placeholder id")
+                    errors += 1
+                    continue
                 if pid not in person_ids_in_files and pid not in registry_person_ids:
                     print(f"  WRN: {fname} person_relationships[{i}].person_id '{pid}' not found")
                     warnings += 1
+                elif pid in person_ids_in_files:
+                    ref = rel.get("person_name") or rel.get("name") or ""
+                    if ref and person_name_map.get(pid) and not _names_overlap(ref, " / ".join(person_name_map[pid])):
+                        sev = "ERR" if STRICT else "WRN"
+                        print(f"  {sev}: {fname} person_relationships[{i}] '{ref}' -> {pid}: ID target name mismatch")
+                        if STRICT: errors += 1
+                        else: warnings += 1
 
     # Check registry → file consistency
     for oid in registry_org_ids:
@@ -1111,6 +1231,29 @@ def validate_cross_refs(base_dir):
                 print(f"  {sev}: registry person '{prid}' (status={status}) has no file in persons/")
                 if STRICT: errors += 1
                 else: warnings += 1
+
+    # Name-index sanity: single-character keys and stale target IDs
+    nidx = os.path.join(base_dir, "_name_index.json")
+    if os.path.exists(nidx):
+        try:
+            idx = load_json_file(nidx)
+            if isinstance(idx, dict):
+                single = sum(1 for k in idx if len(str(k).strip()) <= 1)
+                valid_ids = (org_ids_in_files | person_ids_in_files
+                             | registry_org_ids | registry_person_ids)
+                stale = sum(1 for v in idx.values() if v and v not in valid_ids)
+                if single:
+                    sev = "ERR" if STRICT else "WRN"
+                    print(f"  {sev}: _name_index.json has {single} single-character keys")
+                    if STRICT: errors += 1
+                    else: warnings += 1
+                if stale:
+                    sev = "ERR" if STRICT else "WRN"
+                    print(f"  {sev}: _name_index.json has {stale} values not in profiles/registry")
+                    if STRICT: errors += 1
+                    else: warnings += 1
+        except Exception:
+            pass
 
     print(f"  Cross-ref errors: {errors}, warnings: {warnings}")
     return errors, warnings
