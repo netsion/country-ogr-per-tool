@@ -1,26 +1,16 @@
 {
   "org_id": "TW-MEDIA-012",
   "wikidata_qid": "Q10847025",
-  "name": "ETtoday新聞雲",
   "basic_info": {
-    "org_id": "TW-MEDIA-012",
-    "wikidata_qid": "Q10847025",
     "name_en": "ETtoday.net",
-    "name_local": "ETtoday新聞雲",
     "name_zh": "ETtoday新闻云",
     "org_type": "MEDIA",
-    "country": "TW",
-    "founded_year": 2011,
     "website": "http://www.ettoday.net",
-    "official_website": "http://www.ettoday.net",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "ETtoday新聞雲"
+    "name_original": "ETtoday新聞雲",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "臺灣新聞網站",
-  "brief": "臺灣新聞網站",
   "core_business": "臺灣新聞網站",
   "industries": [],
   "key_people": [],
@@ -73,17 +63,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q10847025"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: ETtoday (corrected)",
-    "quotes": []
+    "notes": "hint: ETtoday (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q10847025"
+      }
+    ]
   }
 }

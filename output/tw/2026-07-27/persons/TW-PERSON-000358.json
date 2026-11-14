@@ -3,9 +3,10 @@
   "wikidata_qid": "Q702527",
   "name": "陈乔恩",
   "name_en": "Joe Chen",
-  "name_local": "陳喬恩",
   "name_zh": "陈乔恩",
-  "aliases": [],
+  "aliases": [
+    "陳喬恩"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1979-04-04",
@@ -53,20 +54,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/20130531_%E9%99%88%E4%B9%94%E6%81%A9%E6%88%90%E9%83%BD%E3%80%8A%E4%B9%94%E8%A7%81%E7%8C%AB%E3%80%8B%E7%AD%BE%E5%94%AE%E4%BC%9A.jpg/250px-20130531_%E9%99%88%E4%B9%94%E6%81%A9%E6%88%90%E9%83%BD%E3%80%8A%E4%B9%94%E8%A7%81%E7%8C%AB%E3%80%8B%E7%AD%BE%E5%94%AE%E4%BC%9A.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000358.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130531%20%E9%99%88%E4%B9%94%E6%81%A9%E6%88%90%E9%83%BD%E3%80%8A%E4%B9%94%E8%A7%81%E7%8C%AB%E3%80%8B%E7%AD%BE%E5%94%AE%E4%BC%9A.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000358.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Actor",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q702527"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q702527"
+      }
+    ]
   }
 }

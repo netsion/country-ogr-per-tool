@@ -1,52 +1,193 @@
 {
   "person_id": "TW-PERSON-000001",
   "wikidata_qid": "Q3847080",
-  "name": "赖清德",
+  "name": "賴清德",
   "name_en": "Lai Ching-te",
-  "name_local": "賴清德",
   "name_zh": "赖清德",
-  "aliases": [],
+  "aliases": [
+    "賴清德",
+    "赖清德"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1959-10-06",
-  "birth_place": null,
+  "birth_place": "台湾新北万里",
   "contacts": [],
   "current_positions": [
-    "立法委员",
-    "台南市长",
-    "行政院院长",
-    "国民大会代表",
-    "中华民国副总统",
-    "民主进步党主席",
-    "中华民国总统"
+    "台湾地区领导人",
+    "民主进步党主席"
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "education": [
     {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
+      "institution": "台湾大学（國立臺灣大學）",
+      "degree": "bachelor",
+      "field": "复健医学",
+      "start_date": null,
+      "end_date": null
     },
     {
-      "org_id": "TW-PARTY-012",
-      "org_name": "民主進步黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
+      "institution": "成功大学（國立成功大學）",
+      "degree": "professional",
+      "field": "学士后医学",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "哈佛大学（Harvard University）",
+      "degree": "master",
+      "field": "公共卫生",
+      "start_date": null,
+      "end_date": null
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": "1996",
+      "end_date": "1999",
+      "organization": "国民大会（國民大會）",
+      "position": "国民大会代表",
+      "org_id": null
+    },
+    {
+      "start_date": "1999",
+      "end_date": "2010",
+      "organization": "立法院",
+      "position": "立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2010",
+      "end_date": "2017",
+      "organization": "台南市政府（臺南市政府）",
+      "position": "市长",
+      "org_id": null
+    },
+    {
+      "start_date": "2017",
+      "end_date": "2019",
+      "organization": "行政院",
+      "position": "院长",
+      "org_id": "TW-GOV-019"
+    },
+    {
+      "start_date": "2020-05-20",
+      "end_date": "2024-05-20",
+      "organization": "总统府（總統府）",
+      "position": "台湾地区副领导人",
+      "org_id": "TW-GOV-023"
+    },
+    {
+      "start_date": "2023-01-18",
+      "end_date": null,
+      "organization": "民主进步党（民主進步黨）",
+      "position": "主席",
+      "org_id": "TW-PARTY-012"
+    },
+    {
+      "start_date": "2024-05-20",
+      "end_date": null,
+      "organization": "总统府（總統府）",
+      "position": "台湾地区领导人",
+      "org_id": "TW-GOV-023"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000012",
+      "person_name": "萧美琴（蕭美琴）",
+      "relationship_type": "colleague",
+      "description": "2024年共同组成选举搭档并于5月20日就任正副领导人，是有公开选举及就职记录的工作搭档，不推断私人亲疏。 交叉证据：https://www.president.gov.tw/NEWS/28424 ；https://www.cna.com.tw/news/aipl/202401140007.aspx",
+      "source": "https://www.president.gov.tw/NEWS/28424",
+      "corroborating_sources": "https://www.cna.com.tw/news/aipl/202401140007.aspx"
+    },
+    {
+      "person_id": "TW-PERSON-000002",
+      "person_name": "蔡英文",
+      "relationship_type": "superior",
+      "description": "历史工作关系：2020年至2024年赖清德担任副领导人期间，蔡英文任领导人；2024年完成交接。枚举superior表示该历史任期的职务关系，并非现任上下级。 交叉证据：https://www.president.gov.tw/Page/694 ；https://www.cna.com.tw/news/firstnews/202005205002.aspx",
+      "source": "https://www.president.gov.tw/Page/694",
+      "corroborating_sources": "https://www.cna.com.tw/news/firstnews/202005205002.aspx"
+    },
+    {
+      "person_id": "TW-PERSON-000018",
+      "person_name": "卓荣泰（卓榮泰）",
+      "relationship_type": "subordinate",
+      "description": "2024年5月20日赖清德签署任命卓荣泰为行政院院长，构成明确任命和施政合作关系；不扩张推断同党盟友或私人关系。 交叉证据：https://www.president.gov.tw/Page/294/49484 ；https://www.cna.com.tw/news/aipl/202404105002.aspx",
+      "source": "https://www.president.gov.tw/Page/294/49484",
+      "corroborating_sources": "https://www.cna.com.tw/news/aipl/202404105002.aspx"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "吴玫如（吳玫如）",
+      "relationship": "spouse",
+      "industry_or_organization": null,
+      "source": "https://www.cna.com.tw/news/aipl/202312270278.aspx",
+      "description": "公开配偶身份由中央社与联合报独立报道交叉确认；仅保留姓名及关系。第二来源：https://udn.com/news/story/6656/9345949"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2026-09-28",
+      "topic": "无人机产业与供应链",
+      "stance_content": "在民雄航太暨无人机产业园区动土活动中主张持续投入资源，并与民主伙伴合作建设更安全、更有韧性的无人机供应链。",
+      "source": "https://www.president.gov.tw/Page/694"
+    },
+    {
+      "date": "2024-05-20",
+      "topic": "两岸对话与维持现状",
+      "stance_content": "在就职演说中主张维持现状，并提出在对等与尊严原则下以对话代替对抗、恢复交流。此为本人政治主张的记录，不代表事实认定。",
+      "source": "https://www.president.gov.tw/Page/700"
+    },
+    {
+      "date": "2024-05-20",
+      "topic": "国防与经济安全",
+      "stance_content": "在就职演说提出和平四大支柱方案，涵盖强化防卫、经济安全、两岸关系及价值外交，以提升威慑能力。",
+      "source": "https://www.president.gov.tw/Page/700"
+    },
+    {
+      "date": "2024-05-20",
+      "topic": "产业创新与民生",
+      "stance_content": "在就职演说主张政府和产业界合作，推动智慧永续、全球布局及产业发展，并以健康、照顾与社会支持回应民生需要；此为政策方向而非完成成果。",
+      "source": "https://www.president.gov.tw/Page/700"
+    },
+    {
+      "date": "2024-08-22",
+      "topic": "公共卫生与医疗平权",
+      "stance_content": "主持健康台湾推委会首次会议时主张整合区域医疗资源，改善医事人员工作环境，并培育人才、发展智慧医疗以提升健康照护。",
+      "source": "https://www.president.gov.tw/NEWS/28673"
+    },
+    {
+      "date": "2026-11-02",
+      "topic": "能源管理与净零转型",
+      "stance_content": "接见企业环保奖代表时主张结合产业与社会力量推进2050净零转型，并规划碳边境调节与碳排放交易制度以衔接国际；不把规划写为已实施。",
+      "source": "https://www.president.gov.tw/NEWS/40465"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2024-01-13",
+      "achievement": "与萧美琴搭档赢得2024年台湾地区领导人选举，获5,586,019票，得票率40.05%。",
+      "organization": "总统府（總統府）"
+    },
+    {
+      "date": "2018-06-25",
+      "achievement": "担任行政院长期间，其行政团队推动的空气污染防制法修正案经立法院三读通过，纳入空品维护区授权与不法利得追缴等制度。属于行政、立法共同完成的制度成果，不归为个人独立功绩。",
+      "organization": "行政院、立法院"
+    },
+    {
+      "date": "2024-08-22",
+      "achievement": "以召集人身份主持健康台湾推动委员会首次会议，启动跨领域健康政策沟通机制；记录已经举行的制度运作，不把预期寿命或癌症死亡率目标视作达成。",
+      "organization": "总统府（總統府）"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "twitter",
       "url": "https://twitter.com/ChingteLai",
       "account_name": "ChingteLai",
-      "source_note": "wikidata",
+      "source_note": "原Wikidata档案保留；本轮搜索见X ChingteLai及其Facebook chingte互链摘要，其他账号及平台ID未重新核验。",
       "source": 3,
       "user_id": "1224953820716945408",
       "username": "ChingteLai",
@@ -56,7 +197,7 @@
       "platform": "instagram",
       "url": "https://instagram.com/william_chingte",
       "account_name": "william_chingte",
-      "source_note": "wikidata",
+      "source_note": "原Wikidata档案保留；本轮搜索见X ChingteLai及其Facebook chingte互链摘要，其他账号及平台ID未重新核验。",
       "source": 8,
       "user_id": "instagram#12978778195",
       "username": "william_chingte",
@@ -66,7 +207,7 @@
       "platform": "facebook",
       "url": "https://facebook.com/chingte",
       "account_name": "chingte",
-      "source_note": "wikidata",
+      "source_note": "原Wikidata档案保留；本轮搜索见X ChingteLai及其Facebook chingte互链摘要，其他账号及平台ID未重新核验。",
       "source": 6,
       "user_id": "fb#RHINO#152472278103133",
       "username": "chingte",
@@ -76,31 +217,95 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCoeqttsITEaaPG2z78J00ZA",
       "account_name": "UCoeqttsITEaaPG2z78J00ZA",
-      "source_note": "wikidata",
+      "source_note": "原Wikidata档案保留；本轮搜索见X ChingteLai及其Facebook chingte互链摘要，其他账号及平台ID未重新核验。",
       "source": 9,
       "user_id": "youtube#UCoeqttsITEaaPG2z78J00ZA",
       "username": "Chingte_Taiwan",
       "nickname": "Lai Ching-te"
     }
   ],
-  "biography_summary": "中華民國第16任總統、第15任副總統、台灣政治人物、民主進步黨主席、醫師",
+  "biography_summary": "赖清德，1959年出生于台湾新北万里，具有医师及公共卫生教育背景。先后就读台湾大学复健医学系、成功大学学士后医学系，并取得哈佛大学公共卫生硕士学位。早年从事医疗工作，1994年参与公共事务，1996年当选国民大会代表，随后转入民意代表工作，1999年至2010年担任立法委员，关注卫生与社会福利议题。2010年当选台南市升格后的首任市长，2014年连任；2017年至2019年担任行政院院长。2020年起担任台湾地区副领导人，2023年出任民主进步党主席。2024年与萧美琴搭档参加选举并当选，5月20日就任台湾地区领导人。其公开施政议题涉及公共卫生、产业发展、能源转型与防卫韧性。本档将历史任职从现职栏分离，履历日期仅保留已确认精度。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/%E8%B3%B4%E6%B8%85%E5%BE%B7%E7%B8%BD%E7%B5%B1_1.jpg/250px-%E8%B3%B4%E6%B8%85%E5%BE%B7%E7%B8%BD%E7%B5%B1_1.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000001.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%B3%B4%E6%B8%85%E5%BE%B7%E7%B8%BD%E7%B5%B1%201.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000001.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "collection_date": "2026-11-13",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q3847080"
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "本轮新核实：官方履历与中央社人物专题交叉核对教育、出生地和历任职务；官方页面、Wikipedia及中央社交叉核对领导人身份，选举结果以中央社原文和官方履历确认。三个独立机构来源为总统府、Wikipedia、中央社。学校起止年未知留空；履历多数日期按官方年精度，主席就任日参考Wikipedia。社交搜索覆盖Facebook、X、Instagram、LinkedIn、TikTok、YouTube；仅X及Facebook互链摘要有结果，未将摘要当全文核实，保留原账号、头像和ID但未声称本轮复核。未重新核验家庭信息。TIME目标URL返回不相关PMI内容，排除其作为证据。来源页面可见2026年9月至11月内容，现职按采集时页面表述记录。\n2026-11-13四数组专项补采：政策新增两岸、国防、产业民生、公共卫生与净零主题，旧无人机政策保留。空污修法为团队与立法机关共同成果，健康委员会议为已启动机制，不宣称目标已经实现。成就证据：2018空污修法 https://www.ey.gov.tw/Page/9277F759E41CCD91/f5fe1246-f8a3-48ef-97cc-1a74a1889bc4 与 https://www.cna.com.tw/news/firstnews/201806255005.aspx；健康委员会 https://www.president.gov.tw/NEWS/28673 与 https://www.cna.com.tw/news/aipl/202408220397.aspx。家庭逐项映射：吴玫如=配偶，以中央社独立采访 https://www.cna.com.tw/news/aipl/202312270278.aspx 与联合报记者独立申报报道 https://udn.com/news/story/6656/9345949 交叉确认；仅采姓名及配偶关系，未提取报道中的财产、住址或金融信息，职业未复核留空。人物关系逐项证据已写各description：萧美琴=选举与执政搭档，蔡英文=历史正副任职，卓荣泰=明确任命关系，均有官方与独立中央社来源，不以同党推断盟友。未采未成年子女及非公众亲属敏感详情，未建立未知亲属ID。",
+    "quotes": [
+      {
+        "title": "总统府：赖清德简介",
+        "url": "https://www.president.gov.tw/Page/694"
+      },
+      {
+        "title": "Lai Ching-te — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lai_Ching-te"
+      },
+      {
+        "title": "中央社：赖清德人物专题",
+        "url": "https://www.cna.com.tw/topic/newstopic/4282.aspx"
+      },
+      {
+        "title": "中央社：赖萧配当选",
+        "url": "https://www.cna.com.tw/news/aipl/202401140007.aspx"
+      },
+      {
+        "title": "赖清德2024就职演说",
+        "url": "https://www.president.gov.tw/Page/700"
+      },
+      {
+        "title": "赖清德2026年11月2日绿色转型讲话",
+        "url": "https://www.president.gov.tw/NEWS/40465"
+      },
+      {
+        "title": "健康台湾委员会首次会议",
+        "url": "https://www.president.gov.tw/NEWS/28673"
+      },
+      {
+        "title": "中央社：首次健康台湾委员会",
+        "url": "https://www.cna.com.tw/news/aipl/202408220397.aspx"
+      },
+      {
+        "title": "行政院：2018空污法修法",
+        "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/f5fe1246-f8a3-48ef-97cc-1a74a1889bc4"
+      },
+      {
+        "title": "中央社：空污法三读",
+        "url": "https://www.cna.com.tw/news/firstnews/201806255005.aspx"
+      },
+      {
+        "title": "中央社：赖清德配偶吴玫如",
+        "url": "https://www.cna.com.tw/news/aipl/202312270278.aspx"
+      },
+      {
+        "title": "联合报：赖清德与配偶吴玫如公开申报报道",
+        "url": "https://udn.com/news/story/6656/9345949"
+      },
+      {
+        "title": "2024年5月20日任命公报",
+        "url": "https://www.president.gov.tw/Page/294/49484"
+      },
+      {
+        "title": "中央社：卓荣泰等内阁任命",
+        "url": "https://www.cna.com.tw/news/aipl/202404105002.aspx"
+      },
+      {
+        "title": "2024年就职典礼",
+        "url": "https://www.president.gov.tw/NEWS/28424"
+      },
+      {
+        "title": "中央社：蔡英文赖清德2020就职",
+        "url": "https://www.cna.com.tw/news/firstnews/202005205002.aspx"
+      }
+    ],
+    "completeness_score": 88
   }
 }

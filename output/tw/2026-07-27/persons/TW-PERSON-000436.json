@@ -3,9 +3,10 @@
   "wikidata_qid": "Q334086",
   "name": "林语堂",
   "name_en": "Lin Yutang",
-  "name_local": "林語堂",
   "name_zh": "林语堂",
-  "aliases": [],
+  "aliases": [
+    "林語堂"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1895-10-10",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Linyutang.jpg/250px-Linyutang.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000436.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Linyutang.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000436.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Writer",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q334086"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q334086"
+      }
+    ]
   }
 }

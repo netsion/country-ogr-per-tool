@@ -3,9 +3,10 @@
   "wikidata_qid": "Q711466",
   "name": "陈若曦",
   "name_en": "Chen Ruoxi",
-  "name_local": "陳若曦",
   "name_zh": "陈若曦",
-  "aliases": [],
+  "aliases": [
+    "陳若曦"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1938-11-15",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Chen_Mei-hsiu_writing_Chuntie_at_TRA_Taipei_Station_20130126.jpg/250px-Chen_Mei-hsiu_writing_Chuntie_at_TRA_Taipei_Station_20130126.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000445.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen%20Mei-hsiu%20writing%20Chuntie%20at%20TRA%20Taipei%20Station%2020130126.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000445.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Writer",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q711466"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q711466"
+      }
+    ]
   }
 }

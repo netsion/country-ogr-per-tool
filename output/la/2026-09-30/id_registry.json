@@ -425,7 +425,7 @@
     },
     {
       "org_id": "LA-FIN-006",
-      "name": "None (Lao-Viet Bank)",
+      "name": "Lao-Viet Bank",
       "org_type": "FIN",
       "org_subtype": null,
       "wikidata_qid": "Q10800285",
@@ -1051,12 +1051,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "LA-INTL-008",
-      "name": "世界卫生组织 (World Health Organization)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "LA-GOV-035",
       "name": "老挝社会保障组织 (ອົງການປະກັນສັງຄົມແຫ່ງຊາດ)",
       "org_type": "GOV",
@@ -1084,7 +1078,7 @@
       "org_id": "LA-CORP-007",
       "name": "星电信公司/Unitel (Star Telecom)",
       "org_type": "CORP",
-      "status": "auto_registered"
+      "status": "profiled"
     },
     {
       "org_id": "LA-GOV-037",
@@ -3806,5 +3800,15 @@
   "person_counters": {
     "LA": 4,
     "LA-PERSON": 347
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "LA-INTL-008",
+      "name": "世界卫生组织 (World Health Organization)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    }
+  ]
 }

@@ -237,7 +237,7 @@
     },
     {
       "org_id": "CD-GOV-027",
-      "name": "None (Assemblée Provinciale du Lomami)",
+      "name": "Assemblée Provinciale du Lomami",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q131639209",
@@ -583,7 +583,7 @@
     },
     {
       "org_id": "CD-MEDIA-009",
-      "name": "None (Digital Congo)",
+      "name": "Digital Congo",
       "org_type": "MEDIA",
       "org_subtype": null,
       "wikidata_qid": "Q3027799",
@@ -717,7 +717,7 @@
     },
     {
       "org_id": "CD-FIN-013",
-      "name": "None (Solidaire Banque)",
+      "name": "Solidaire Banque",
       "org_type": "FIN",
       "org_subtype": null,
       "wikidata_qid": "Q132145179",
@@ -1035,12 +1035,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "CD-INTL-010",
-      "name": "联合国开发计划署 (UNDP / PNUD)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "CD-INTL-011",
       "name": "欧洲联盟 (Union européenne)",
       "org_type": "INTL",
@@ -1097,12 +1091,6 @@
     {
       "org_id": "CD-INTL-015",
       "name": "东南非反洗钱组织（Eastern and Southern Africa Anti-Money Laundering Group, ESAAMLG）",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "CD-INTL-016",
-      "name": "世界卫生组织（Organisation mondiale de la Santé, OMS/WHO）",
       "org_type": "INTL",
       "status": "auto_registered"
     },
@@ -1668,12 +1656,6 @@
       "org_id": "CD-NGO-015",
       "name": "格拉本大学诊所（Cliniques Universitaires du Graben）",
       "org_type": "NGO",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "CD-INTL-034",
-      "name": "联合国儿童基金会 (UNICEF)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -5802,5 +5784,32 @@
   "person_counters": {
     "CD": 28,
     "CD-PERSON": 604
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "CD-INTL-034",
+      "name": "联合国儿童基金会 (UNICEF)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-023",
+      "notes": "；合并到 US-INTL-023",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "org_id": "CD-INTL-016",
+      "name": "世界卫生组织（Organisation mondiale de la Santé, OMS/WHO）",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    },
+    {
+      "org_id": "CD-INTL-010",
+      "name": "联合国开发计划署 (UNDP / PNUD)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-024",
+      "deprecated_reason": "global UNDP normalization"
+    }
+  ]
 }

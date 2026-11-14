@@ -3,7 +3,6 @@
   "wikidata_qid": "Q708903",
   "name": "胡宗南",
   "name_en": "Hu Zongnan",
-  "name_local": "胡宗南",
   "name_zh": "胡宗南",
   "aliases": [],
   "nationality": "TW",
@@ -25,20 +24,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Hu_Zongnan.jpg/250px-Hu_Zongnan.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000080.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hu%20Zongnan.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000080.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Politician",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q708903"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q708903"
+      }
+    ]
   }
 }

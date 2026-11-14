@@ -182,7 +182,7 @@
     },
     {
       "org_id": "KW-GOV-021",
-      "name": "None (State Audit Bureau (Kuwait))",
+      "name": "State Audit Bureau (Kuwait)",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q12212561",
@@ -371,7 +371,7 @@
     },
     {
       "org_id": "KW-SOE-004",
-      "name": "None (Kuwait Petroleum International)",
+      "name": "Kuwait Petroleum International",
       "org_type": "SOE",
       "org_subtype": null,
       "wikidata_qid": "Q4119207",
@@ -389,7 +389,7 @@
     },
     {
       "org_id": "KW-SOE-006",
-      "name": "None (Oil Sector Services Company)",
+      "name": "Oil Sector Services Company",
       "org_type": "SOE",
       "org_subtype": null,
       "wikidata_qid": "Q12218662",
@@ -1069,12 +1069,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "KW-INTL-005",
-      "name": "联合国开发计划署 (UNDP)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "KW-INTL-006",
       "name": "海湾标准组织 (هيئة التقييس لدول مجلس التعاون لدول الخليج العربية)",
       "org_type": "INTL",
@@ -1432,12 +1426,6 @@
       "org_id": "KW-跨国汽车制造商-001",
       "name": "通用汽车 (General Motors)",
       "org_type": "跨国汽车制造商",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "KW-航天与卫星通信企业-001",
-      "name": "太空探索技术公司/星链 (SpaceX / Starlink)",
-      "org_type": "航天与卫星通信企业",
       "status": "auto_registered"
     },
     {
@@ -5112,5 +5100,23 @@
   "person_counters": {
     "KW": 408,
     "KW-PERSON": 519
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "KW-INTL-005",
+      "name": "联合国开发计划署 (UNDP)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-024",
+      "deprecated_reason": "global UNDP normalization"
+    },
+    {
+      "org_id": "KW-航天与卫星通信企业-001",
+      "name": "太空探索技术公司/星链 (SpaceX / Starlink)",
+      "org_type": "航天与卫星通信企业",
+      "status": "merged",
+      "merged_into": "US-CORP-252",
+      "deprecated_reason": "global starlink normalization"
+    }
+  ]
 }

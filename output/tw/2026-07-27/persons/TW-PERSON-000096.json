@@ -3,7 +3,6 @@
   "wikidata_qid": "Q716782",
   "name": "彭明敏",
   "name_en": "Peng Ming-min",
-  "name_local": "彭明敏",
   "name_zh": "彭明敏",
   "aliases": [],
   "nationality": "TW",
@@ -16,15 +15,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-019",
-      "org_name": "國立臺灣大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -33,20 +24,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%E5%BD%AD%E6%98%8E%E6%95%8F%E5%87%BA%E5%B8%AD%E8%91%97%E4%BD%9C%E7%B0%BD%E6%9B%B8%E5%88%86%E4%BA%AB%E6%9C%83.jpg/250px-%E5%BD%AD%E6%98%8E%E6%95%8F%E5%87%BA%E5%B8%AD%E8%91%97%E4%BD%9C%E7%B0%BD%E6%9B%B8%E5%88%86%E4%BA%AB%E6%9C%83.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000096.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%BD%AD%E6%98%8E%E6%95%8F%E5%87%BA%E5%B8%AD%E8%91%97%E4%BD%9C%E7%B0%BD%E6%9B%B8%E5%88%86%E4%BA%AB%E6%9C%83.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000096.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自职位: Taiwanese activist (1923–2022)",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q716782"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q716782"
+      }
+    ]
   }
 }

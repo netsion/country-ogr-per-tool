@@ -3,7 +3,6 @@
   "wikidata_qid": "Q160726",
   "name": "李安",
   "name_en": "Ang Lee",
-  "name_local": "李安",
   "name_zh": "李安",
   "aliases": [],
   "nationality": "TW",
@@ -27,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Ang_Lee_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg/250px-Ang_Lee_-_66%C3%A8me_Festival_de_Venise_%28Mostra%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000433.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ang%20Lee%20-%2066%C3%A8me%20Festival%20de%20Venise%20%28Mostra%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000433.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自简介: University Leader",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q160726"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q160726"
+      }
+    ]
   }
 }

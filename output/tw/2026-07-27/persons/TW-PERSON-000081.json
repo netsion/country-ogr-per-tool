@@ -3,7 +3,6 @@
   "wikidata_qid": "Q709030",
   "name": "李元簇",
   "name_en": "Li Yuan-tsu",
-  "name_local": "李元簇",
   "name_zh": "李元簇",
   "aliases": [],
   "nationality": "TW",
@@ -17,15 +16,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-015",
-      "org_name": "國立政治大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -34,20 +25,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/VicePresident-large-06_%28cropped%29.jpg/250px-VicePresident-large-06_%28cropped%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000081.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/VicePresident-large-06%20%28cropped%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000081.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Vice President of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q709030"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q709030"
+      }
+    ]
   }
 }

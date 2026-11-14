@@ -1,0 +1,67 @@
+{
+  "org_id": "US-CORP-251",
+  "basic_info": {
+    "name_original": "Space Exploration Technologies Corp.",
+    "name_zh": "太空探索技术公司",
+    "name_en": "SpaceX",
+    "aliases": [
+      "SpaceX",
+      "Space Exploration Technologies",
+      "太空探索技术公司（SpaceX）"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "private_company",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "2002-03-14",
+    "website": "https://www.spacex.com/",
+    "wikidata_qid": "Q193701"
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000058",
+      "name": "伊隆·马斯克 (Elon Musk)",
+      "title": "创始人、首席执行官兼首席工程师",
+      "title_description": "SpaceX 创始人及最高管理者",
+      "description": "2002 年创立 SpaceX，主导猎鹰火箭、龙飞船与星舰项目，并推动星链卫星互联网商业化。"
+    }
+  ],
+  "departments": [],
+  "recent_events": [],
+  "related_entities": [
+    {
+      "org_id": "US-CORP-252",
+      "org_name": "星链 (Starlink)",
+      "org_type": "CORP",
+      "org_description": "SpaceX 旗下低轨卫星互联网业务与品牌。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "US-CORP-069",
+      "org_name": "xAI",
+      "org_type": "CORP",
+      "org_description": "2026 年成为 SpaceX 子公司的人工智能公司，开发 Grok 大模型。",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "美国航天制造与发射服务公司，开发猎鹰火箭、龙飞船、星舰及星链卫星网络。",
+  "industries": [
+    "aerospace_defense",
+    "space"
+  ],
+  "apec_stance": null,
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-11-13",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "official_website",
+      "wikidata"
+    ],
+    "completeness_score": 55,
+    "notes": "全球归一补建；合并重复自动注册项及 US-CORP-026 下的 SpaceX 影子项。",
+    "quotes": []
+  }
+}

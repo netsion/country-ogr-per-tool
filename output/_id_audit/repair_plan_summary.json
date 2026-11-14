@@ -1,0 +1,468 @@
+{
+ "generated_at": "2026-11-13",
+ "actions": {
+  "keep": 121778,
+  "replace_profile": 1298,
+  "keep_registered": 18537,
+  "null_collision": 19366,
+  "replace_registered": 1240,
+  "null_absent": 3410,
+  "review_ambiguous": 1964
+ },
+ "by_cat": {
+  "work_org": {
+   "keep": 52856,
+   "keep_registered": 4851,
+   "null_collision": 13529,
+   "replace_registered": 939,
+   "null_absent": 1161,
+   "replace_profile": 340,
+   "review_ambiguous": 834
+  },
+  "person_rel": {
+   "replace_profile": 446,
+   "keep": 32318,
+   "null_collision": 2722,
+   "keep_registered": 5268,
+   "replace_registered": 76,
+   "null_absent": 775,
+   "review_ambiguous": 413
+  },
+  "family": {
+   "keep": 1627,
+   "replace_profile": 23,
+   "keep_registered": 137,
+   "null_collision": 46,
+   "review_ambiguous": 12,
+   "null_absent": 24
+  },
+  "key_people": {
+   "keep": 17877,
+   "keep_registered": 3521,
+   "replace_profile": 124,
+   "null_absent": 1066,
+   "review_ambiguous": 115,
+   "null_collision": 322,
+   "replace_registered": 37
+  },
+  "related_org": {
+   "keep": 17100,
+   "keep_registered": 4760,
+   "replace_profile": 365,
+   "null_collision": 2747,
+   "null_absent": 384,
+   "review_ambiguous": 590,
+   "replace_registered": 188
+  }
+ },
+ "null_fill": {
+  "org_null_fill_unique": 2439,
+  "org_null_ambiguous": 947,
+  "family_null_ambiguous": 376,
+  "family_null_fill_unique": 620,
+  "person_rel_null_ambiguous": 112,
+  "person_rel_null_fill_unique": 637
+ },
+ "top_missing_names": [
+  [
+   "iq",
+   "穆斯塔法·卡迪米 (مصطفى الكاظمي)",
+   17
+  ],
+  [
+   "td",
+   "萨利赫·凯布扎博 (Saleh Kebzabo)",
+   17
+  ],
+  [
+   "ma",
+   "萨阿德丁·奥斯曼尼 (Saad-Eddine El Othmani)",
+   14
+  ],
+  [
+   "iq",
+   "穆克塔达·萨德尔 (مقتدى الصدر)",
+   12
+  ],
+  [
+   "jp",
+   "大和房屋工业株式会社 (大和ハウス工業株式会社)",
+   12
+  ],
+  [
+   "iq",
+   "阿卜杜勒·阿米尔·拉希德·亚拉拉 (عبد الأمير رشيد يارالله)",
+   11
+  ],
+  [
+   "jp",
+   "东日本电信电话株式会社 (NTT東日本株式会社)",
+   9
+  ],
+  [
+   "cl",
+   "VTR 环球通信 (VTR Global Com)",
+   8
+  ],
+  [
+   "ci",
+   "达维德·比永 (David Billon)",
+   7
+  ],
+  [
+   "iq",
+   "阿迪勒·阿卜杜勒-迈赫迪 (عادل عبد المهدي)",
+   7
+  ],
+  [
+   "mx",
+   "墨西哥全国运输业者联合会 (Confederación Nacional de Transportistas Mexicanos A.C., CONATRAM)",
+   7
+  ],
+  [
+   "iq",
+   "伊亚德·阿拉维 (إياد علاوي)",
+   6
+  ],
+  [
+   "iq",
+   "穆罕默德·巴基尔·萨德尔 (محمد باقر الصدر)",
+   6
+  ],
+  [
+   "ci",
+   "费利克斯·乌弗埃-博瓦尼 (Félix Houphouët-Boigny)",
+   5
+  ],
+  [
+   "ci",
+   "达尼埃尔·卡布兰·邓肯 (Daniel Kablan Duncan)",
+   5
+  ],
+  [
+   "ci",
+   "吕西·巴里-塔努斯 (Lucie Barry-Tannous)",
+   5
+  ],
+  [
+   "iq",
+   "马赞·西尔万·巴尔扎尼 (مازن سيروان بارزاني)",
+   5
+  ],
+  [
+   "ma",
+   "阿巴斯·法西 (Abbas El Fassi)",
+   5
+  ],
+  [
+   "ma",
+   "阿卜杜拉希姆·布阿比德 (Abderrahim Bouabid)",
+   5
+  ],
+  [
+   "ma",
+   "沙基卜·拉勒吉 (Chakib Alj)",
+   5
+  ],
+  [
+   "mx",
+   "全国教育工作者工会全国执行委员会 (Comité Ejecutivo Nacional del SNTE)",
+   5
+  ],
+  [
+   "ph",
+   "菲律宾海外就业署 (Philippine Overseas Employment Administration)",
+   5
+  ],
+  [
+   "ph",
+   "奇特·埃斯特拉 (Chit Estella)",
+   5
+  ],
+  [
+   "ph",
+   "大赦国际 (Amnesty International，伦敦国际秘书处)",
+   5
+  ],
+  [
+   "sa",
+   "阿卜杜勒卡里姆·本·阿卜杜拉赫曼·阿吉勒 (عبد الكريم بن عبد الرحمن العقيل)",
+   5
+  ],
+  [
+   "vn",
+   "越共中央办公厅(越南民主党 (Central Office of the Communist Party (Van phong Trung uong Dang)))",
+   5
+  ],
+  [
+   "ci",
+   "哈米德·巴卡约科 (Hamed Bakayoko)",
+   4
+  ],
+  [
+   "ci",
+   "库阿西·科贝南·阿朱马尼 (Kouassi Kobenan Adjoumani)",
+   4
+  ],
+  [
+   "ci",
+   "易卜拉希马·巴孔戈·西塞 (Ibrahima Bacongo Cissé)",
+   4
+  ],
+  [
+   "ci",
+   "马马杜·桑加雷 (Mamadou Sangaré)",
+   4
+  ],
+  [
+   "ci",
+   "桑托什·皮莱 (Santosh Pillai)",
+   4
+  ],
+  [
+   "cl",
+   "圣丽塔酒庄 (Viña Santa Rita)",
+   4
+  ],
+  [
+   "iq",
+   "巴尔哈姆·萨利赫 (برهم صالح)",
+   4
+  ],
+  [
+   "iq",
+   "伊德里斯·内奇尔万·巴尔扎尼 (Idris Nechirvan Barzani)",
+   4
+  ],
+  [
+   "iq",
+   "法伊克·齐丹 (فائق زيدان)",
+   4
+  ],
+  [
+   "iq",
+   "欧戴·詹迪勒 (عدي الجنديل)",
+   4
+  ],
+  [
+   "iq",
+   "伊马德·尤赫纳 (عماد يوخنا)",
+   4
+  ],
+  [
+   "iq",
+   "阿斯万·奇尔达尼 (أسوان الكلداني)",
+   4
+  ],
+  [
+   "iq",
+   "萨拉赫丁·巴布克尔 (صلاح الدين بابكر)",
+   4
+  ],
+  [
+   "iq",
+   "泽尔内克·法鲁克·穆斯塔法·拉苏尔 (زرنك فاروق مصطفى رسول)",
+   4
+  ],
+  [
+   "jp",
+   "观光厅 (観光庁)",
+   4
+  ],
+  [
+   "kz",
+   "哈萨克斯坦数字发展、创新与航空航天工业部 (Министерство цифрового развития, инноваций и аэрокосмической промышленности РК)",
+   4
+  ],
+  [
+   "ma",
+   "哈立德·萨菲尔 (Khalid Safir)",
+   4
+  ],
+  [
+   "ma",
+   "穆罕默德·塞迪基 (Mohamed Sadiki)",
+   4
+  ],
+  [
+   "ma",
+   "德里斯·巴斯里 (Driss Basri)",
+   4
+  ],
+  [
+   "mx",
+   "墨西哥电话公司 (Telmex)",
+   4
+  ],
+  [
+   "mx",
+   "革命制度党全国执行委员会 (Comité Ejecutivo Nacional del PRI)",
+   4
+  ],
+  [
+   "om",
+   "阿曼农业与渔业部 (وزارة الثروة الزراعية والسمكية)",
+   4
+  ],
+  [
+   "ph",
+   "菲律宾民航局 (Civil Aviation Authority of the Philippines)",
+   4
+  ],
+  [
+   "ph",
+   "菲律宾旅游署 (Philippine Tourism Authority, PTA，现TIEZA)",
+   4
+  ],
+  [
+   "sg",
+   "经济发展局 (Economic Development Board)",
+   4
+  ],
+  [
+   "vn",
+   "工兵军官学校",
+   4
+  ],
+  [
+   "ae",
+   "阿布扎比酋长国 (إمارة أبوظبي)",
+   3
+  ],
+  [
+   "cd",
+   "天主教马塔迪教区 (Diocèse de Matadi)",
+   3
+  ],
+  [
+   "ci",
+   "罗贝尔·盖伊 (Robert Guéï)",
+   3
+  ],
+  [
+   "ci",
+   "阿卜杜拉马内·桑加雷 (Aboudramane Sangaré)",
+   3
+  ],
+  [
+   "ci",
+   "阿比让国家统计与应用经济高等学院 (École Nationale Supérieure de Statistique et d'Économie Appliquée, ENSEA)",
+   3
+  ],
+  [
+   "ci",
+   "亨·西·雅库巴 (Hien Yacouba Sié)",
+   3
+  ],
+  [
+   "ci",
+   "谢里夫·奥斯曼 (Chérif Ousmane)",
+   3
+  ],
+  [
+   "ci",
+   "布里斯·奥布莱 (Brice Oble)",
+   3
+  ],
+  [
+   "ci",
+   "伊马内·拉耶斯 (Imane Rayess)",
+   3
+  ],
+  [
+   "ci",
+   "谢克·伊瓦纳 (Cheick Yvhane)",
+   3
+  ],
+  [
+   "ci",
+   "杰尼·科比纳 (Djéni Kobina)",
+   3
+  ],
+  [
+   "cl",
+   "瓦尔帕莱索矿业公司 (Minera Valparaíso S.A.)",
+   3
+  ],
+  [
+   "cl",
+   "麦哲伦大学 (Universidad de Magallanes)",
+   3
+  ],
+  [
+   "gn",
+   "乌马尔·西拉 (Oumar Sylla, dit Foniké Mengué)",
+   3
+  ],
+  [
+   "iq",
+   "胡萨姆·侯赛尼 (حسام الحسني)",
+   3
+  ],
+  [
+   "iq",
+   "萨阿德丁·阿尔凯吉 (سعد الدين أركيج)",
+   3
+  ],
+  [
+   "iq",
+   "马纳夫·阿卜杜勒-穆奈姆 (مناف عبد المنعم)",
+   3
+  ],
+  [
+   "iq",
+   "比拉勒·哈姆达尼 (بلال الحمداني)",
+   3
+  ],
+  [
+   "iq",
+   "艾哈迈德·塔赫辛·马阿拉 (أحمد تحسين المعله)",
+   3
+  ],
+  [
+   "iq",
+   "瓦迪·努里·汉达勒 (وديع نوري الحنظل)",
+   3
+  ],
+  [
+   "iq",
+   "艾哈迈德·阿卜杜勒-哈立克·伊斯梅尔 (احمد عبد الخالق اسماعيل)",
+   3
+  ],
+  [
+   "iq",
+   "巴西勒·达希 (باسل الضاحي)",
+   3
+  ],
+  [
+   "iq",
+   "巴韦尔·塔哈·穆罕默德 (باوەر طه محمد)",
+   3
+  ],
+  [
+   "iq",
+   "加齐·哈桑·穆罕默德·谢里夫 (د. غازي حسن محمد شریف)",
+   3
+  ],
+  [
+   "iq",
+   "海德尔·扎卡里亚·萨利赫 (حيدر زكريا صالح)",
+   3
+  ],
+  [
+   "iq",
+   "扎基·侯赛因·卡迪尔 (د. زكي حسين قادر)",
+   3
+  ],
+  [
+   "iq",
+   "萨尔达尔·卡凯·阿明·阿齐兹 (د. سردار كاكه أمين عزيز)",
+   3
+  ],
+  [
+   "iq",
+   "阿马尔·托马·阿卜杜勒-阿巴斯 (عمار طعمة عبد عباس)",
+   3
+  ]
+ ]
+}

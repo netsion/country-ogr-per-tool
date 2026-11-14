@@ -3,9 +3,10 @@
   "wikidata_qid": "Q701020",
   "name": "蒋纬国",
   "name_en": "Chiang Wei-kuo",
-  "name_local": "蔣緯國",
   "name_zh": "蒋纬国",
-  "aliases": [],
+  "aliases": [
+    "蔣緯國"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1916-10-06",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Chiang_Weikuo_in_Wehrmachtsuniform.jpg/250px-Chiang_Weikuo_in_Wehrmachtsuniform.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000055.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang%20Weikuo%20in%20Wehrmachtsuniform.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000055.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自职位: senior advisor",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4b_retry",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q701020"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "retry pass",
-    "quotes": []
+    "notes": "retry pass；仅Schema规范化，旧phase=P4b_retry；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q701020"
+      }
+    ]
   }
 }

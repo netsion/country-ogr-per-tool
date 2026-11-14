@@ -308,7 +308,7 @@
     },
     {
       "org_id": "PE-SOE-006",
-      "name": "None (Activos Mineros S.A.C.)",
+      "name": "Activos Mineros S.A.C.",
       "org_type": "SOE",
       "org_subtype": null,
       "wikidata_qid": "Q130997575",
@@ -1582,12 +1582,6 @@
     {
       "org_id": "PE-CORP-037",
       "name": "恩特尔智利集团 (Entel Chile)",
-      "org_type": "CORP",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "PE-CORP-038",
-      "name": "星链 (Starlink)",
       "org_type": "CORP",
       "status": "auto_registered"
     },
@@ -3200,13 +3194,6 @@
     {
       "person_id": "PE-PERSON-000170",
       "name_en": "恩里克·佩雷斯·巴尔巴 (Enrique Pérez Barba)",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "profiled"
-    },
-    {
-      "person_id": "PE-PERSON-000171",
-      "name_en": "阿尔图罗·古铁雷斯·埃尔南德斯 (Arturo Gutiérrez Hernández)",
       "importance_level": "low",
       "org_ids": [],
       "status": "profiled"
@@ -5897,5 +5884,26 @@
   "person_counters": {
     "PE": 18,
     "PE-PERSON": 610
-  }
+  },
+  "deprecated_person_registry": [
+    {
+      "person_id": "PE-PERSON-000171",
+      "name_en": "阿尔图罗·古铁雷斯·埃尔南德斯 (Arturo Gutiérrez Hernández)",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "MX-PERSON-000126",
+      "deprecated_reason": "duplicate person profile merge"
+    }
+  ],
+  "deprecated_registry": [
+    {
+      "org_id": "PE-CORP-038",
+      "name": "星链 (Starlink)",
+      "org_type": "CORP",
+      "status": "merged",
+      "merged_into": "US-CORP-252",
+      "deprecated_reason": "global starlink normalization"
+    }
+  ]
 }

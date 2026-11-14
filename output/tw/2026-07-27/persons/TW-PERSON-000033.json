@@ -3,9 +3,10 @@
   "wikidata_qid": "Q24572281",
   "name": "林万亿",
   "name_en": "Lin Wan-i",
-  "name_local": "林萬億",
   "name_zh": "林万亿",
-  "aliases": [],
+  "aliases": [
+    "林萬億"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1952-00-00",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lin_Wan-yi_%28cropped%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000033.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lin%20Wan-yi%20%28cropped%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000033.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Politician",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q24572281"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q24572281"
+      }
+    ]
   }
 }

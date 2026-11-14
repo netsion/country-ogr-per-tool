@@ -3,6 +3,7 @@
   "wikidata_qid": "Q140991719",
   "name_zh": "素查·特拉功卡森素",
   "name": "สุชาติ ตระกูลเกษมสุข",
+  "name_th": "สุชาติ ตระกูลเกษมสุข",
   "name_en": "Suchat Trakulkasemsuk",
   "aliases": [
     "Suchart Trakulkasemsuk",
@@ -12,9 +13,21 @@
   ],
   "nationality": "TH",
   "gender": "male",
-  "birth_date": null,
+  "birth_date": "1962-01-01",
+  "birth_date_note": "出生年份据多家媒体年龄报道推定：2020年8月报道其58岁、2025年2月报道其62岁，两区间交集为1962年2月至8月，故确定为1962年；具体月日未公开，按 schema 惯例以01-01占位。",
   "birth_place": null,
-  "contacts": [],
+  "contacts": [
+    {
+      "type": "website",
+      "value": "https://www.nacc.go.th/board",
+      "source": "国家反贪委员会官网「คณะกรรมการ ป.ป.ช.」页面，列明其为现任主席"
+    },
+    {
+      "type": "other",
+      "value": "361 ถนนสนามบินน้ำ ตำบลท่าทราย อำเภอเมืองนนทบุรี จังหวัดนนทบุรี 11000（国家反贪委员会总部办公楼）",
+      "source": "https://th.wikipedia.org/wiki/คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ"
+    }
+  ],
   "current_positions": [
     "国家反贪委员会主席"
   ],
@@ -27,25 +40,39 @@
       "end_date": "1984"
     },
     {
-      "institution": "泰国律师协会 (เนติบัณฑิตไทย)",
+      "institution": "泰国律师院 (เนติบัณฑิตยสภา)",
       "degree": "professional",
-      "field": "律师职业课程（泰式律师文凭）",
+      "field": "律师职业资格（เนติบัณฑิตไทย）",
       "start_date": null,
       "end_date": "1985"
     },
     {
-      "institution": "泰国商会大学 (มหาวิทยาลัยหอการค้าไทย)",
+      "institution": "泰国博仁大学 (มหาวิทยาลัยธุรกิจบัณฑิตย์)",
       "degree": "master",
       "field": "法学",
       "start_date": null,
       "end_date": "1999"
     },
     {
-      "institution": "泰国国防学院 (โรงเรียนเสนาบดี)",
+      "institution": "泰国司法部 (กระทรวงยุติธรรม)",
       "degree": "other",
-      "field": "国防安全战略课程（第58期）",
+      "field": "高级司法行政管理课程（第1期）",
+      "start_date": null,
+      "end_date": "2008"
+    },
+    {
+      "institution": "泰国国防学院 (วิทยาลัยป้องกันราชอาณาจักร)",
+      "degree": "other",
+      "field": "国防课程（第58期）",
       "start_date": null,
       "end_date": "2016"
+    },
+    {
+      "institution": "泰国司法学院 (วิทยาลัยการยุติธรรม)",
+      "degree": "other",
+      "field": "高级司法程序管理课程（第23期）",
+      "start_date": null,
+      "end_date": "2019"
     }
   ],
   "work_experience": [
@@ -82,11 +109,11 @@
       "end_date": "2019",
       "organization": "泰国上诉法院 (ศาลอุทธรณ์)",
       "org_id": "TH-GOV-066",
-      "position": "上诉法院法官（2018年起任专案资深审判长）"
+      "position": "上诉法院法官（2018年起任专案审判长）"
     },
     {
-      "start_date": "2014",
-      "end_date": null,
+      "start_date": "2016-10-11",
+      "end_date": "2019",
       "organization": "国家立法议会 (สภานิติบัญญัติแห่งชาติ)",
       "org_id": null,
       "position": "任命议员"
@@ -118,123 +145,165 @@
       "person_id": "TH-PERSON-000048",
       "person_name": "瓦差蓬·帕沙叻吉 (พล.ต.อ. วัชรพล ประสารราชกิจ)",
       "relationship_type": "colleague",
-      "description": "前任国家反贪委员会主席；素查为其任内同届委员，2025年2月接替因年满70岁卸任的瓦差蓬出任主席"
+      "description": "前任国家反贪委员会主席；素查在其任内出任同届委员，2025年2月接替因年满70岁卸任的瓦差蓬出任主席"
     },
     {
       "person_id": "TH-PERSON-000123",
       "person_name": "埃甲威·瓦察挽谷 (เอกวิทย์ วัชชวัลคุ)",
       "relationship_type": "colleague",
       "description": "同为现任 NACC 委员；2025年2月5日主席遴选秘密投票中埃甲威获2票，素查以5:2当选"
+    },
+    {
+      "person_id": "TH-PERSON-000130",
+      "person_name": "素拉蓬·因他它温 (สุรพงษ์ อินทรถาวร)",
+      "relationship_type": "subordinate",
+      "description": "NACC 秘书长（2025年10月1日起代理秘书长，2026年1月获御令正式任命），为素查主持下的 NACC 行政首长与官方发言人，2026年7月代表 NACC 说明地方考试舞弊案调查安排"
+    },
+    {
+      "person_id": null,
+      "person_name": "素拉切·哈帕恩 (สุรเชษฐ์ หักพาล)",
+      "relationship_type": "political_rival",
+      "description": "前警察副总监（绰号「大笑话」Big Joke）；2024年4月向 NACC 递交文件反对素查参与涉己案件，2025年2月与国会主席密谈录音外泄事件中被指为牵线人，2025年10月14日向宪法法院提出素查任职资格争议申诉"
     }
   ],
   "social_accounts": [],
   "family_members": [],
   "political_stances": [
     {
-      "date": "2025-07-14",
-      "topic": "总理佩通坦「洪森通话」案",
-      "stance_content": "在其主持下 NACC 全体一致表决对已被宪法法院停职的总理佩通坦·钦那瓦正式立案调查，认定其涉嫌违反从政人员道德标准并成立调查小组，与宪法法院罢免审理并行推进",
-      "source": "https://thediplomat.com/2025/07/thailand-anti-graft-body-says-it-will-probe-suspended-pm-over-leaked-call/"
+      "date": "2020-08-21",
+      "topic": "反贪机构公信力与司法诚信",
+      "stance_content": "就任 NACC 委员时提出司法公信四要素——当事人诚实、证据真实、各环节官员廉洁、法律适用诚实，承诺「NACC 必将成为人民可以依靠的机构」，主张结案后公开高关注案件的调查细节、反对办案拖延（「拖延即是不义」）",
+      "source": "https://www.ryt9.com/s/iq02/3152993"
     },
     {
-      "date": "2020-07",
-      "topic": "反贪机构公信力与司法诚信",
-      "stance_content": "就任委员时提出司法公信四要素（当事人诚实、证据真实、各环节官员廉洁、法律适用诚实），承诺「NACC 必将成为人民可以依靠的机构」，主张结案后公开高关注案件调查细节、反对办案拖延（「拖延即是不义」）",
-      "source": "https://www.ryt9.com/s/iq02/3152993"
+      "date": "2025-03-07",
+      "topic": "资产申报中的「配偶」定义（未登记同居伴侣）",
+      "stance_content": "以 NACC 主席身份签署公告（2025年3月7日刊宪、溯及2025年1月22日生效），把未登记结婚但对外以配偶身份共同生活者（包括依婚姻平权法认定的同性伴侣）纳入「配偶」定义，要求一并申报资产，防止借隐匿亲密关系规避财产审查",
+      "source": "https://www.senate.go.th/view/386/News/จันทราLaw/290/TH-TH"
+    },
+    {
+      "date": "2025-07-18",
+      "topic": "总理佩通坦「洪森通话」案调查",
+      "stance_content": "确认 NACC 已就总理佩通坦与柬埔寨参议院主席洪森通话录音案成立调查委员会，由全体委员组成、本人任主席并与委员帕帕·孔耶局共同担任案件负责人；主张对公众关注的重要案件提速办理、设定明确时限（法定为2+1年），并表示自身长期处理政治案件「并无压力」",
+      "source": "https://www.thaipbs.or.th/news/content/354375"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "地方行政考试舞弊案",
+      "stance_content": "NACC 一致决议将2025年地方行政公务员考试舞弊案列为特别案件，本人任案件负责人并主持调查委员会；认定该案符合 NACC 2026年3月26日公告的特别案件标准——属网络化作案、影响广泛、可能动摇公共行政体系稳定，主张对「给分者与收分者」全链条追查（被指控人共6,014名）",
+      "source": "https://www.posttoday.com/politics/domestic/745127"
     }
   ],
   "major_achievements": [
     {
       "date": "2020-07-10",
-      "achievement": "经参议院批准（2020年5月26日表决通过）获御令任命为国家反贪委员会（ป.ป.ช.）委员，任期至2027年7月9日；此前因曾任国家立法议会议员遭资格异议，遴选委员会于2020年6月裁定立法议会议员不属法律排除的议员/参议员情形，维持其候选资格",
+      "achievement": "经参议院2020年5月26日表决（219票赞成、12票反对、8票弃权）获御令任命为国家反贪委员会委员，任期至2027年7月；此前因曾任国家立法议会议员遭资格异议，遴选委员会于2020年6月9日裁定立法议会议员不属法律排除的议员/参议员情形，维持其候选资格",
       "organization": "国家反贪委员会 (คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ)"
     },
     {
       "date": "2025-02-11",
-      "achievement": "经委员会5:2秘密投票推选并获御令任命出任 NACC 主席（2025年2月11日公告生效、2月12日刊宪），接替年满70岁卸任的瓦差蓬·帕沙叻吉",
+      "achievement": "经委员会2025年2月5日5:2秘密投票推选，2月11日获御令任命出任 NACC 主席（2月12日刊宪生效），接替年满70岁卸任的瓦差蓬·帕沙叻吉，任期至2027年7月9日",
       "organization": "国家反贪委员会 (คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ)"
     },
     {
-      "date": "2025-07-14",
-      "achievement": "任内推动 NACC 就总理佩通坦与柬埔寨参议院主席洪森通话泄露案一致表决正式立案调查，成为2025年泰国政局动荡的关键司法环节",
+      "date": "2025-07",
+      "achievement": "任内推动 NACC 就总理佩通坦与柬埔寨参议院主席洪森通话录音泄露案正式立案，成立由全体委员组成的调查委员会并亲任主席，成为2025年泰国政局动荡中的关键司法环节",
       "organization": "国家反贪委员会 (คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ)"
     },
     {
-      "date": "2026-01-14",
-      "achievement": "任内公示佩通坦卸任总理后本人及配偶、未成年子女的资产负债申报（合计资产约113.2亿泰铢、负债约44.4亿泰铢），履行高官资产核查与公示职能",
+      "date": "2026-07-08",
+      "achievement": "推动 NACC 一致决议将2025年地方行政公务员考试舞弊案列为特别案件，亲任案件负责人及调查委员会主席，调查范围覆盖6,014名被指控人（含22名政府官员、33名中介与改分者、5,959名受益考生），并协调警方与 DSI 派员协助调查",
       "organization": "国家反贪委员会 (คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ)"
     }
   ],
-  "biography_summary": "素查·特拉功卡森素（สุชาติ ตระกูลเกษมสุข），泰国资深司法界人士，约1962年生（2025年2月报道其62岁）。1984年获兰甘亨大学法学士学位，1985年结业泰国律师协会律师课程，1999年获泰国商会大学法学硕士，2016年入国防学院第58期。司法生涯历任助理法官（第29期）、四色菊府法院法官、素可泰府法院少年与家庭庭首席法官（2002年）、中央劳动法院副院长（2008年）、上诉法院法官（2011年起，后任专案资深审判长），2019年出任民武里民事法院首席法官；2014年曾获任命为国家立法议会议员。2020年7月10日经参议院批准获御令出任国家反贪委员会（ป.ป.ช.）委员，此前因立法议员经历引发资格争议并最终过关。2025年2月5日经委员会5:2秘密投票推选、2月11日御令就任 NACC 主席，任期至2027年7月9日。任内主导对总理佩通坦「洪森通话」案立案调查并公示其百亿泰铢家族资产申报，推动委员会人事与架构整顿；2020年就任委员时即以「重建反腐机构公信力」为号召。需注意：The Standard 等部分媒体冠其「พล.ต.อ.（警察上将）」衔称，但 Thai PBS、isranews、TOPNEWS、Thai Post、RYT9 等详载履历的来源均显示其为文职法官出身，警察衔称谓应为误植；其与现任皇家泰国海军副司令素查·塔玛匹沙威（สุชาติ ธรรมพิทักษ์เวช）亦为同名不同人。",
+  "biography_summary": "素查·特拉功卡森素（สุชาติ ตระกูลเกษมสุข），1962年生，泰国文职法官出身的反腐官员。1984年获兰甘亨大学法学士，1985年取得泰国律师院律师资格（เนติบัณฑิตไทย），1999年获泰国博仁大学法学硕士，2016年修毕泰国国防学院第58期国防课程。司法生涯自助理法官（第29期）起步，历任四色菊府法院法官、素可泰府法院少年与家庭案件庭首席法官（2002年）、中央劳动法院副院长（2008年）、上诉法院法官（2011年，2018年任专案审判长）、民武里民事法院首席法官（2019年）；2016年10月11日获任命为国家立法议会议员，至2019年卸任。2020年7月10日获御令出任国家反贪委员会（ป.ป.ช.）委员，此前因立法议员经历引发资格争议，遴选委员会裁定立法议员不属法律排除情形。2025年2月5日经委员会5:2秘密投票推选，2月11日获御令出任主席，任期至2027年7月9日。任内主导对总理佩通坦「洪森通话」案立案调查、将地方行政考试舞弊案列为特别案件并亲任调查委员会主席，并签署公告把未登记同居伴侣纳入「配偶」定义以强化资产申报。其主席任内亦伴随争议：前警察副总监素拉切多次就其资格提出申诉，2025年2月与国会主席万穆罕默德诺·马塔（วันมูหะมัดนอร์ มะทา）的密谈录音外泄引发反对党免职联署，2025年9月 NACC 决定不受理萨克桑·奇特乔布隐匿股份案亦受批评。需注意部分媒体误冠其「พล.ต.อ.（警察上将）」衔，实为文职法官；与皇家泰国海军副司令素查·塔玛匹沙威为同名不同人。",
+  "profile": {
+    "source_url": "https://recruit.senate.go.th/storage/uploads/1755585855--%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B8%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%20%E0%B8%95%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B9%E0%B8%A5%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82.png",
+    "local_path": null,
+    "minio_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-09-26",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikidata",
+      "wikipedia",
       "official_website",
+      "government_directory",
       "news_search",
       "web_search"
     ],
-    "completeness_score": 70,
-    "notes": "身份核实结论：工作列表中「皇家泰国海军副司令」职务经海军官网领导层页（navy.mi.th/leadership/48）及海军官方社媒确认为海军上将素查·塔玛匹沙威（สุชาติ ธรรมพิทักษ์เวช / Suchat Thammapithakwet，原第三海区司令、海军特别顾问，2025年10月1日就任副司令），与本人物（NACC 主席素查·特拉功卡森素，文职法官出身）为同名不同人，属误关联，已从本档案删除该职务；建议后续将 TH-MIL-007 key_people 中该条 person_id 另挂新人物档案。军衔疑点：The Standard 与泰语维基部分页面冠其「พล.ต.อ.（警察上将）」，但 Thai PBS、isranews、TOPNEWS、Thai Post、RYT9 等详载其履历的报道均为文职法官（至民武里民事法院首席法官），无警察任职记录，「พล.ต.อ.」应为媒体误植，本档案按法官履历记录；Thai Post 单一来源称其曾任最高法院（ศาลฎีกา）法官，未获其他来源印证，未录入 work_experience。出生日期无精确记录：2020年报道58岁（RYT9）、2025年报道62岁（TOPNEWS/isranews），推断约1962年生，birth_date 留 null。name_zh 采库内既有通用音译「素查·特拉功卡森素」（与 _name_index.json 一致）；泰国中文社译作「素差·达拉古赛萨坤」、腾讯新闻转载译作「素查·查鲁盖萨素」，均收入 aliases。家庭成员与个人社媒账号经检索未获（Facebook/LinkedIn 仅有媒体报道页），留空。 controversies：前警察副总监素拉切·哈帕恩（「大笑话」Big Joke）曾向 NACC 递件反对其履职并被裁定无据（Thai PBS/TOPNEWS 报道）。2026年1月19日两名新委员就任后委员会现有8人，素查仍任主席（Next News）。",
+    "completeness_score": 85,
+    "notes": "来源确认：履历以 Thai PBS（2024-04-22）、Thaiger（2025-02-06）、Bangkokbiznews（2025-02-11）、MGR Online（2025-02-05）四方交叉核对一致；2025-2026年动态以 Thai PBS、Post Today、BBC Thai、Thai PBS Policy Watch、Next News、Matichon、The Diplomat 核对。重要更正：1）硕士院校应为泰国博仁大学（มหาวิทยาลัยธุรกิจบัณฑิตย์ / Dhurakij Pundit University，1999年），原档案误作「泰国商会大学」；2）国防课程院校应为泰国国防学院（วิทยาลัยป้องกันราชอาณาจักร，第58期），原档案误作「โรงเรียนเสนาบดี」；3）国家立法议会议员任期应为2016-10-11起（御令任命，见 iLaw 及泰国维基百科），原档案误作2014年；4）删除原「2026-01-14 公示佩通坦资产」成就条目——未获独立来源核实，且属机构日常职能。出生信息：各来源均未公开完整生日，仅能由年龄报道推定1962年（2020年8月58岁、2025年2月62岁），月日以01-01占位并已在 birth_date_note 说明；出生地未获，留空。家庭：配偶与子女姓名未见公开来源，family_members 留空。社媒：未发现本人认证账号，Facebook/LinkedIn 检索结果均为媒体与机构页面，social_accounts 留空。争议记录：2025年2月12日就职前与国会主席万诺密谈录音外泄（Thai PBS 2025-02-13）、反对党征集签名要求免职（Matichon 2025-02-19）、素拉切2025年10月14日向宪法法院提出资格申诉（The Standard）、2025年9月 NACC 两度决议不受理萨克桑·奇特乔布案并于2026年4月引发质疑（Next News 2026-04-27）。数字差异：考试舞弊案被指控人 BBC Thai、Post Today、Policy Watch 均作6,014人，PPTV 作6,012人，本档案采用6,014。机构名录差异：参议院 LIS 数据库记载主席起始日为2025-01-11、任期至2027-07-10，与御令及主流报道（2025-02-11、2027-07-09）不一致，采用后者。头像：使用参议院 LIS 官方人物库的直链 PNG（已验证 HTTP 200 image/png）。同名/军衔说明：The Standard 等曾冠其「พล.ต.อ.」警察上将衔，但详载履历来源均显示为文职法官，属误植；皇家泰国海军副司令素查·塔玛匹沙威（สุชาติ ธรรมพิทักษ์เวช）为同名不同人。",
     "quotes": [
       {
-        "title": "เปิดประวัติ สุชาติ ตระกูลเกษมสุข กรรมการ ป.ป.ช. - Thai PBS News",
+        "title": "เปิดประวัติ \"สุชาติ ตระกูลเกษมสุข\" กรรมการ ป.ป.ช. - Thai PBS News",
         "url": "https://www.thaipbs.or.th/news/content/339269"
-      },
-      {
-        "title": "โปรดเกล้าฯ สุชาติ ตระกูลเกษมสุข นั่งประธาน ป.ป.ช.คนใหม่ - TOPNEWS",
-        "url": "https://www.topnews.co.th/news/1170146"
       },
       {
         "title": "ประวัติ สุชาติ ตระกูลเกษมสุข ประธาน ป.ป.ช. คนใหม่ จากอธิบดีศาล สู่กรรมการ ป.ป.ช. - Thaiger",
         "url": "https://thethaiger.com/th/news/1339808/"
       },
       {
-        "title": "โปรดเกล้าฯ แต่งตั้ง สุชาติ ตระกูลเกษมสุข เป็นประธาน ป.ป.ช. คนใหม่ - THE STANDARD",
-        "url": "https://thestandard.co/suchart-trakulkasemsuk-nacc-president/"
+        "title": "5 ป.ป.ช. ใครเป็นใคร 'ขั้วอำนาจใหม่' วัดฝีมือปราบคอร์รัปชันไทย - กรุงเทพธุรกิจ",
+        "url": "https://www.bangkokbiznews.com/politics/1166194"
       },
       {
-        "title": "โปรดเกล้าฯ แต่งตั้ง สุชาติ ตระกูลเกษมสุข ดำรงตำแหน่ง ประธาน ป.ป.ช. - Thai Post",
-        "url": "https://www.thaipost.net/hi-light/738867/"
+        "title": "มติ 5 ต่อ 2 เลือก \"สุชาติ ตระกูลเกษมสุข\" เป็นประธาน ป.ป.ช.คนใหม่ - MGR Online",
+        "url": "https://mgronline.com/politics/detail/9680000011865"
       },
       {
-        "title": "ลงคะแนนลับ! ป.ป.ช.มติ 5 : 2 เลือก สุชาติ ตระกูลเกษมสุข ปธ.คนใหม่ - isranews",
-        "url": "https://www.isranews.org/article/isranews-news/135453-invesdsdssd-4.html"
+        "title": "อ่านเกมคลิปแอบถ่าย \"วันมูหะมัดนอร์ - สุชาติ\" - Thai PBS News",
+        "url": "https://www.thaipbs.or.th/news/content/349257"
       },
       {
-        "title": "สุชาติ ตระกูลเกษมสุข หวังสร้างภาพลักษณ์ให้ ป.ป.ช. - RYT9",
-        "url": "https://www.ryt9.com/s/iq02/3152993"
+        "title": "\"ประธาน ป.ป.ช.\" เผย \"คดีนายก\" ตั้งคณะกรรมการไต่สวนแล้ว นั่งเป็นประธานเอง - Thai PBS News",
+        "url": "https://www.thaipbs.or.th/news/content/354375"
       },
       {
-        "title": "พลเรือเอก สุชาติ ธรรมพิทักษ์เวช รองผู้บัญชาการทหารเรือ（海军官网领导层页，同名不同人核实依据）",
-        "url": "https://www.navy.mi.th/leadership/48"
+        "title": "เปิดเกณฑ์ใหม่ \"ผู้อยู่กินฉันสามีภริยา โดยไม่จดทะเบียนสมรส\" ให้ถือว่าเป็น \"คู่สมรส\" - สำนักงานเลขาธิการวุฒิสภา",
+        "url": "https://www.senate.go.th/view/386/News/จันทราLaw/290/TH-TH"
+      },
+      {
+        "title": "แมนรัตน์ถอนตัวคดีโกงสอบท้องถิ่น ปมภรรยาติดโผผู้ถูกกล่าวหา - Post Today",
+        "url": "https://www.posttoday.com/politics/domestic/745127"
+      },
+      {
+        "title": "ป.ป.ช.ฟันทั้งขบวนการ \"ผู้ให้-ผู้รับ\" กว่า 6 พันราย รับคดีโกงสอบท้องถิ่นเป็นคดีพิเศษ - Thai PBS Policy Watch",
+        "url": "https://policywatch.thaipbs.or.th/article/government-351"
+      },
+      {
+        "title": "จากจับ 3 ผู้ต้องหาขบวนการ \"โกงสอบท้องถิ่น\" ทางการจะขยายผลไปถึงใครได้อีก? - BBC Thai",
+        "url": "https://www.bbc.com/thai/articles/c1dydwnddqdo"
+      },
+      {
+        "title": "ใครเป็นใคร? ช่วงเวลาป.ป.ช. ตีตกคดี 'ศักดิ์สยาม' เดือน ก.ย. 2 กรณีรวด - Next News",
+        "url": "https://nextnewsth.com/th/investigative/corruption/69ef31905d36ded61332c29d"
+      },
+      {
+        "title": "พรรคปชน. ล่ารายชื่อ ยื่นถอดถอน 'สุชาติ' ประธาน ป.ป.ช. เซ่นคลิปเสียงคุย วันนอร์ - Matichon",
+        "url": "https://www.matichon.co.th/politics/news_5057503"
+      },
+      {
+        "title": "คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ - วิกิพีเดีย",
+        "url": "https://th.wikipedia.org/wiki/คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ"
       },
       {
         "title": "สุชาติ ตระกูลเกษมสุข - Wikidata Q140991719",
         "url": "https://www.wikidata.org/wiki/Q140991719"
       },
       {
+        "title": "ฐานข้อมูลการดำรงตำแหน่ง (Senate LIS, คณะกรรมการ ป.ป.ช.) - สำนักงานเลขาธิการวุฒิสภา",
+        "url": "https://lis.senate.go.th/test/corporate-person.html?id=4"
+      },
+      {
         "title": "Thailand Anti-graft Body Says It Will Probe Suspended PM Over Leaked Call - The Diplomat",
         "url": "https://thediplomat.com/2025/07/thailand-anti-graft-body-says-it-will-probe-suspended-pm-over-leaked-call/"
       },
       {
-        "title": "泰国「瓦查拉」向国家反贪委员会投诉秘书长（中文译名「素差·达拉古赛萨坤」出处）- 泰国中文社",
-        "url": "https://thais.com/news-123151/"
+        "title": "สุชาติ ตระกูลเกษมสุข หวังสร้างภาพลักษณ์ให้ ป.ป.ช. - RYT9",
+        "url": "https://www.ryt9.com/s/iq02/3152993"
       }
-    ],
-    "sources": [
-      "https://www.thaipbs.or.th/news/content/339269",
-      "https://www.topnews.co.th/news/1170146",
-      "https://thethaiger.com/th/news/1339808/",
-      "https://thestandard.co/suchart-trakulkasemsuk-nacc-president/",
-      "https://www.thaipost.net/hi-light/738867/",
-      "https://www.isranews.org/article/isranews-news/135453-invesdsdssd-4.html",
-      "https://www.ryt9.com/s/iq02/3152993",
-      "https://www.navy.mi.th/leadership/48",
-      "https://www.wikidata.org/wiki/Q140991719",
-      "https://thediplomat.com/2025/07/thailand-anti-graft-body-says-it-will-probe-suspended-pm-over-leaked-call/",
-      "https://thais.com/news-123151/"
     ]
   }
 }

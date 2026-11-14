@@ -1,26 +1,16 @@
 {
   "org_id": "TW-FIN-012",
   "wikidata_qid": "Q701540",
-  "name": "合作金庫商業銀行",
   "basic_info": {
-    "org_id": "TW-FIN-012",
-    "wikidata_qid": "Q701540",
     "name_en": "Taiwan Cooperative Bank",
-    "name_local": "合作金庫商業銀行",
     "name_zh": "合作金库商业银行",
     "org_type": "FIN",
-    "country": "TW",
-    "founded_year": 1944,
     "website": "https://www.tcb-bank.com.tw/",
-    "official_website": "https://www.tcb-bank.com.tw/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "合作金庫商業銀行"
+    "name_original": "合作金庫商業銀行",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "臺灣大型商業銀行及傳統八大公股行庫之一",
-  "brief": "臺灣大型商業銀行及傳統八大公股行庫之一",
   "core_business": "臺灣大型商業銀行及傳統八大公股行庫之一",
   "industries": [],
   "key_people": [],
@@ -57,17 +47,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q701540"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: Taiwan Cooperative Bank (corrected)",
-    "quotes": []
+    "notes": "hint: Taiwan Cooperative Bank (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q701540"
+      }
+    ]
   }
 }

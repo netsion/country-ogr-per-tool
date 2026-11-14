@@ -371,7 +371,7 @@
     },
     {
       "org_id": "NI-CORP-008",
-      "name": "None (Nicánima Estudios)",
+      "name": "Nicánima Estudios",
       "org_type": "CORP",
       "org_subtype": null,
       "wikidata_qid": "Q138858461",
@@ -479,7 +479,7 @@
     },
     {
       "org_id": "NI-NGO-002",
-      "name": "None (Asociación Madres de Abril)",
+      "name": "Asociación Madres de Abril",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q138031347",
@@ -1520,14 +1520,6 @@
       "org_ids": []
     },
     {
-      "person_id": "NI-PERSON-000102",
-      "name_en": "萨尔瓦多·曼塞尔·卡斯特里略 (Salvador Mansell Castrillo)",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "merged",
-      "merged_into": "NI-PERSON-000195"
-    },
-    {
       "person_id": "NI-PERSON-000103",
       "name_en": "圣地亚哥·埃尔南·贝穆德斯·塔皮亚 (Santiago Hernán Bermúdez Tapia)",
       "importance_level": "low",
@@ -2096,14 +2088,6 @@
       "name_en": "卡洛斯·阿武尔托 (Carlos Aburto)",
       "importance_level": "low",
       "org_ids": []
-    },
-    {
-      "person_id": "NI-PERSON-000198",
-      "name_en": "温迪·莫拉莱斯 (Wendy Morales)",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "merged",
-      "merged_into": "NI-PERSON-000107"
     },
     {
       "person_id": "NI-PERSON-000199",
@@ -2889,5 +2873,25 @@
   "person_counters": {
     "NI": 9,
     "NI-PERSON": 328
-  }
+  },
+  "deprecated_person_registry": [
+    {
+      "person_id": "NI-PERSON-000102",
+      "name_en": "萨尔瓦多·曼塞尔·卡斯特里略 (Salvador Mansell Castrillo)",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "NI-PERSON-000195",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "NI-PERSON-000198",
+      "name_en": "温迪·莫拉莱斯 (Wendy Morales)",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "NI-PERSON-000107",
+      "deprecated_reason": "A2 merged registry entry"
+    }
+  ]
 }

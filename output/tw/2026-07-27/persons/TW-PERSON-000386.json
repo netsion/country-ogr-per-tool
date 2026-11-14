@@ -3,7 +3,6 @@
   "wikidata_qid": "Q251068",
   "name": "王力宏",
   "name_en": "Wang Leehom",
-  "name_local": "王力宏",
   "name_zh": "王力宏",
   "aliases": [],
   "nationality": "TW",
@@ -70,20 +69,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Wang_Lee_Hom_MTV_Asia_Awards_2006.jpg/250px-Wang_Lee_Hom_MTV_Asia_Awards_2006.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000386.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wang%20Lee%20Hom%20MTV%20Asia%20Awards%202006.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000386.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Writer",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q251068"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q251068"
+      }
+    ]
   }
 }

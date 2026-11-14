@@ -1,0 +1,4135 @@
+{
+ "summary": {
+  "apply": true,
+  "registry_names_fixed": 121,
+  "profiles_named": 6,
+  "profiles_already_named": 0,
+  "index_added": 135,
+  "index_removed": 9,
+  "index_names_fixed": 8,
+  "index_deduped": 0,
+  "index_files_changed": 9,
+  "name_index_rebuilt": 25,
+  "name_index_failed": 0,
+  "qid_groups": 84,
+  "qid_same_name": 53,
+  "qid_review": 31,
+  "name_index_skipped_inflight": 1,
+  "country_indexes_removed": 26,
+  "total_profiles_fixed": 33
+ },
+ "registry_names": [
+  {
+   "file": "output/az/2026-10-30/id_registry.json",
+   "id": "AZ-CORP-006",
+   "old": "None (Gilan Holding)",
+   "new": "Gilan Holding"
+  },
+  {
+   "file": "output/az/2026-10-30/id_registry.json",
+   "id": "AZ-NGO-009",
+   "old": "None (IRELI Public Union)",
+   "new": "IRELI Public Union"
+  },
+  {
+   "file": "output/bh/2026-10-28/id_registry.json",
+   "id": "BH-NGO-006",
+   "old": "None (Bahrain Transparency Society)",
+   "new": "Bahrain Transparency Society"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-GOV-024",
+   "old": "None (Tribunal Agroambiental)",
+   "new": "Tribunal Agroambiental"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-GOV-025",
+   "old": "None (Consejo de la Judicatura)",
+   "new": "Consejo de la Judicatura"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-GOV-027",
+   "old": "None (Contraloría General del Estado)",
+   "new": "Contraloría General del Estado"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-GOV-029",
+   "old": "None (Ministerio Público de Bolivia)",
+   "new": "Ministerio Público de Bolivia"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-NGO-008",
+   "old": "None (Aldeas Infantiles SOS Bolivia)",
+   "new": "Aldeas Infantiles SOS Bolivia"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-NGO-011",
+   "old": "None (WWF Bolivia)",
+   "new": "WWF Bolivia"
+  },
+  {
+   "file": "output/bo/2026-10-24/id_registry.json",
+   "id": "BO-NGO-014",
+   "old": "None (PRODENA)",
+   "new": "PRODENA"
+  },
+  {
+   "file": "output/cd/2026-10-05/id_registry.json",
+   "id": "CD-GOV-027",
+   "old": "None (Assemblée Provinciale du Lomami)",
+   "new": "Assemblée Provinciale du Lomami"
+  },
+  {
+   "file": "output/cd/2026-10-05/id_registry.json",
+   "id": "CD-MEDIA-009",
+   "old": "None (Digital Congo)",
+   "new": "Digital Congo"
+  },
+  {
+   "file": "output/cd/2026-10-05/id_registry.json",
+   "id": "CD-FIN-013",
+   "old": "None (Solidaire Banque)",
+   "new": "Solidaire Banque"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-005",
+   "old": "None (Cour suprême de Côte d'Ivoire)",
+   "new": "Cour suprême de Côte d'Ivoire"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-007",
+   "old": "None (Commission électorale indépendante (CEI))",
+   "new": "Commission électorale indépendante (CEI)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-022",
+   "old": "None (Office national de l'état civil et de l'identification (ONECI))",
+   "new": "Office national de l'état civil et de l'identification (ONECI)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-023",
+   "old": "None (Office national de la protection civile (ONPC))",
+   "new": "Office national de la protection civile (ONPC)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-025",
+   "old": "None (Centre de promotion des investissements en Côte d'Ivoire (CEPICI))",
+   "new": "Centre de promotion des investissements en Côte d'Ivoire (CEPICI)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-026",
+   "old": "None (Conseil du coton et de l'anacarde (CCA))",
+   "new": "Conseil du coton et de l'anacarde (CCA)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-GOV-027",
+   "old": "None (Conseil hévéa-palmier à huile (CHPPH))",
+   "new": "Conseil hévéa-palmier à huile (CHPPH)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-SOE-001",
+   "old": "None (PETROCI Holding)",
+   "new": "PETROCI Holding"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-SOE-003",
+   "old": "None (Société ivoirienne de raffinage (SIR))",
+   "new": "Société ivoirienne de raffinage (SIR)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-SOE-008",
+   "old": "None (Gestoci)",
+   "new": "Gestoci"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-CORP-005",
+   "old": "None (Solibra (Société de limonaderies et de brasseries d'Afrique))",
+   "new": "Solibra (Société de limonaderies et de brasseries d'Afrique)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-CORP-007",
+   "old": "None (Groupe Prosuma)",
+   "new": "Groupe Prosuma"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-CORP-009",
+   "old": "None (Unilever Côte d'Ivoire)",
+   "new": "Unilever Côte d'Ivoire"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-CORP-012",
+   "old": "None (Groupe NSIA)",
+   "new": "Groupe NSIA"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-004",
+   "old": "None (Fondation Children of Africa)",
+   "new": "Fondation Children of Africa"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-005",
+   "old": "None (Fondation Benianh International)",
+   "new": "Fondation Benianh International"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-006",
+   "old": "None (Fondation Franck Kessié)",
+   "new": "Fondation Franck Kessié"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-007",
+   "old": "None (Agence Ivoirienne de Marketing Social (AIMAS))",
+   "new": "Agence Ivoirienne de Marketing Social (AIMAS)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-008",
+   "old": "None (MESAD (Mouvement pour l'Éducation, la Santé et le Développement))",
+   "new": "MESAD (Mouvement pour l'Éducation, la Santé et le Développement)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-009",
+   "old": "None (Actions pour la Protection des Droits de l'Homme (APDH))",
+   "new": "Actions pour la Protection des Droits de l'Homme (APDH)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-011",
+   "old": "None (Woman Leaders)",
+   "new": "Woman Leaders"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-NGO-012",
+   "old": "None (Ligue Ivoirienne des Droits des Femmes (LIDF))",
+   "new": "Ligue Ivoirienne des Droits des Femmes (LIDF)"
+  },
+  {
+   "file": "output/ci/2026-10-06/id_registry.json",
+   "id": "CI-PARTY-010",
+   "old": "None (Congrès Panafricain pour la Justice et l'Égalité des Peuples (COJEP))",
+   "new": "Congrès Panafricain pour la Justice et l'Égalité des Peuples (COJEP)"
+  },
+  {
+   "file": "output/cl/2026-10-02/id_registry.json",
+   "id": "CL-FIN-012",
+   "old": "None (AFP Habitat)",
+   "new": "AFP Habitat"
+  },
+  {
+   "file": "output/dz/2026-10-16/id_registry.json",
+   "id": "DZ-NGO-005",
+   "old": "None (Rassemblement Actions Jeunesse)",
+   "new": "Rassemblement Actions Jeunesse"
+  },
+  {
+   "file": "output/gn/2026-11-10/id_registry.json",
+   "id": "GN-CORP-008",
+   "old": "None (Makity)",
+   "new": "Makity"
+  },
+  {
+   "file": "output/iq/2026-11-02/id_registry.json",
+   "id": "IQ-MEDIA-004",
+   "old": "None (Rudaw Media Network)",
+   "new": "Rudaw Media Network"
+  },
+  {
+   "file": "output/jp/2026-06-09/id_registry.json",
+   "id": "JP-NGO-008",
+   "old": "None (Japan NGO Center for International Cooperation)",
+   "new": "Japan NGO Center for International Cooperation"
+  },
+  {
+   "file": "output/kg/2026-06-21/id_registry.json",
+   "id": "KG-FIN-002",
+   "old": "None (Aiyl Bank)",
+   "new": "Aiyl Bank"
+  },
+  {
+   "file": "output/kg/2026-06-21/id_registry.json",
+   "id": "KG-FIN-003",
+   "old": "None (RSK Bank)",
+   "new": "RSK Bank"
+  },
+  {
+   "file": "output/kg/2026-06-21/id_registry.json",
+   "id": "KG-INTL-003",
+   "old": "None (Transparency International Kyrgyzstan)",
+   "new": "Transparency International Kyrgyzstan"
+  },
+  {
+   "file": "output/kg/2026-06-21/id_registry.json",
+   "id": "KG-INTL-004",
+   "old": "None (SOS Children's Villages Kyrgyzstan)",
+   "new": "SOS Children's Villages Kyrgyzstan"
+  },
+  {
+   "file": "output/kg/2026-06-21/id_registry.json",
+   "id": "KG-MEDIA-002",
+   "old": "None (Kloop Media)",
+   "new": "Kloop Media"
+  },
+  {
+   "file": "output/kh/2026-10-04/id_registry.json",
+   "id": "KH-NGO-007",
+   "old": "None (NGO Forum on Cambodia)",
+   "new": "NGO Forum on Cambodia"
+  },
+  {
+   "file": "output/kh/2026-10-04/id_registry.json",
+   "id": "KH-NGO-012",
+   "old": "None (Transparency International Cambodia)",
+   "new": "Transparency International Cambodia"
+  },
+  {
+   "file": "output/kh/2026-10-04/id_registry.json",
+   "id": "KH-NGO-016",
+   "old": "None (Mlup Baitong)",
+   "new": "Mlup Baitong"
+  },
+  {
+   "file": "output/kh/2026-10-04/id_registry.json",
+   "id": "KH-NGO-019",
+   "old": "None (SOS Children's Villages Cambodia)",
+   "new": "SOS Children's Villages Cambodia"
+  },
+  {
+   "file": "output/kh/2026-10-04/id_registry.json",
+   "id": "KH-NGO-020",
+   "old": "None (ActionAid Cambodia)",
+   "new": "ActionAid Cambodia"
+  },
+  {
+   "file": "output/kw/2026-10-03/id_registry.json",
+   "id": "KW-GOV-021",
+   "old": "None (State Audit Bureau (Kuwait))",
+   "new": "State Audit Bureau (Kuwait)"
+  },
+  {
+   "file": "output/kw/2026-10-03/id_registry.json",
+   "id": "KW-SOE-004",
+   "old": "None (Kuwait Petroleum International)",
+   "new": "Kuwait Petroleum International"
+  },
+  {
+   "file": "output/kw/2026-10-03/id_registry.json",
+   "id": "KW-SOE-006",
+   "old": "None (Oil Sector Services Company)",
+   "new": "Oil Sector Services Company"
+  },
+  {
+   "file": "output/la/2026-09-30/id_registry.json",
+   "id": "LA-FIN-006",
+   "old": "None (Lao-Viet Bank)",
+   "new": "Lao-Viet Bank"
+  },
+  {
+   "file": "output/ly/2026-10-05/id_registry.json",
+   "id": "LY-GOV-007",
+   "old": "None (Supreme Court of Libya)",
+   "new": "Supreme Court of Libya"
+  },
+  {
+   "file": "output/ma/2026-10-05/id_registry.json",
+   "id": "MA-SOE-004",
+   "old": "None (Phosboucraa)",
+   "new": "Phosboucraa"
+  },
+  {
+   "file": "output/ma/2026-10-05/id_registry.json",
+   "id": "MA-CORP-009",
+   "old": "None (Taqa Morocco)",
+   "new": "Taqa Morocco"
+  },
+  {
+   "file": "output/ni/2026-10-28/id_registry.json",
+   "id": "NI-CORP-008",
+   "old": "None (Nicánima Estudios)",
+   "new": "Nicánima Estudios"
+  },
+  {
+   "file": "output/ni/2026-10-28/id_registry.json",
+   "id": "NI-NGO-002",
+   "old": "None (Asociación Madres de Abril)",
+   "new": "Asociación Madres de Abril"
+  },
+  {
+   "file": "output/pe/2026-10-01/id_registry.json",
+   "id": "PE-SOE-006",
+   "old": "None (Activos Mineros S.A.C.)",
+   "new": "Activos Mineros S.A.C."
+  },
+  {
+   "file": "output/sa/2026-09-29/id_registry.json",
+   "id": "SA-GOV-008",
+   "old": "None (Supreme Administrative Court (Saudi Arabia))",
+   "new": "Supreme Administrative Court (Saudi Arabia)"
+  },
+  {
+   "file": "output/sa/2026-09-29/id_registry.json",
+   "id": "SA-GOV-009",
+   "old": "None (Board of Grievances (Saudi Arabia))",
+   "new": "Board of Grievances (Saudi Arabia)"
+  },
+  {
+   "file": "output/sa/2026-09-29/id_registry.json",
+   "id": "SA-GOV-066",
+   "old": "None (General Directorate of Traffic (Saudi Arabia))",
+   "new": "General Directorate of Traffic (Saudi Arabia)"
+  },
+  {
+   "file": "output/sa/2026-09-29/id_registry.json",
+   "id": "SA-FIN-014",
+   "old": "None (Saudi Export-Import Bank (Saudi EXIM))",
+   "new": "Saudi Export-Import Bank (Saudi EXIM)"
+  },
+  {
+   "file": "output/sa/2026-09-29/id_registry.json",
+   "id": "SA-PARTY-003",
+   "old": "None (Hejaz National Party)",
+   "new": "Hejaz National Party"
+  },
+  {
+   "file": "output/sa/2026-09-29/id_registry.json",
+   "id": "SA-PARTY-009",
+   "old": "None (Hejaz Liberal Party)",
+   "new": "Hejaz Liberal Party"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-002",
+   "old": "None (Gouvernement Halina III)",
+   "new": "Gouvernement Halina III"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-007",
+   "old": "None (Cour suprême du Tchad)",
+   "new": "Cour suprême du Tchad"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-011",
+   "old": "None (Ministère des Finances et du Budget)",
+   "new": "Ministère des Finances et du Budget"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-012",
+   "old": "None (Haute Autorité des Médias et de l'Audiovisuel (HAMA))",
+   "new": "Haute Autorité des Médias et de l'Audiovisuel (HAMA)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-013",
+   "old": "None (Agence Nationale de Sécurité Informatique et de Certification Électronique (ANSICE))",
+   "new": "Agence Nationale de Sécurité Informatique et de Certification Électronique (ANSICE)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-015",
+   "old": "None (Office National pour la Promotion de l'Emploi (ONAPE))",
+   "new": "Office National pour la Promotion de l'Emploi (ONAPE)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-GOV-016",
+   "old": "None (Commission Nationale d'Accueil de Réinsertion des Réfugiés (CNARR))",
+   "new": "Commission Nationale d'Accueil de Réinsertion des Réfugiés (CNARR)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-MIL-003",
+   "old": "None (Direction de la Documentation et de la Sécurité (DDS))",
+   "new": "Direction de la Documentation et de la Sécurité (DDS)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-SOE-002",
+   "old": "None (Société Nationale d'Électricité du Tchad (SNE))",
+   "new": "Société Nationale d'Électricité du Tchad (SNE)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-CORP-001",
+   "old": "None (Airtel Tchad)",
+   "new": "Airtel Tchad"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-CORP-002",
+   "old": "None (Compagnie Sucrière du Tchad (CST))",
+   "new": "Compagnie Sucrière du Tchad (CST)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-CORP-004",
+   "old": "None (Manufacture des Cigarettes du Tchad (MCT))",
+   "new": "Manufacture des Cigarettes du Tchad (MCT)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-FIN-002",
+   "old": "None (Ecobank Tchad)",
+   "new": "Ecobank Tchad"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-FIN-003",
+   "old": "None (Orabank Tchad)",
+   "new": "Orabank Tchad"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-FIN-005",
+   "old": "None (Attijari bank Tchad)",
+   "new": "Attijari bank Tchad"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-MEDIA-007",
+   "old": "None (N'Djamena Bi-Hebdo)",
+   "new": "N'Djamena Bi-Hebdo"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-MEDIA-011",
+   "old": "None (Radio FM Liberté)",
+   "new": "Radio FM Liberté"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-MEDIA-013",
+   "old": "None (Maison de la Presse du Tchad)",
+   "new": "Maison de la Presse du Tchad"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-NGO-001",
+   "old": "None (Ligue Tchadienne des Droits de l'Homme (LTDH))",
+   "new": "Ligue Tchadienne des Droits de l'Homme (LTDH)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-NGO-003",
+   "old": "None (Association Femme Aussi)",
+   "new": "Association Femme Aussi"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-NGO-010",
+   "old": "None (ADHET)",
+   "new": "ADHET"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-NGO-011",
+   "old": "None (Bureau d'Appui Santé et Environnement (BASE))",
+   "new": "Bureau d'Appui Santé et Environnement (BASE)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-NGO-013",
+   "old": "None (Agence de Développement Économique et Social (ADES))",
+   "new": "Agence de Développement Économique et Social (ADES)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-NGO-014",
+   "old": "None (Les Ateliers de Toumaï)",
+   "new": "Les Ateliers de Toumaï"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-ACAD-009",
+   "old": "None (Institut National Supérieur des Sciences et Techniques d'Abéché (INSTA))",
+   "new": "Institut National Supérieur des Sciences et Techniques d'Abéché (INSTA)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-ACAD-010",
+   "old": "None (Université Polytechnique de Mongo (UPM))",
+   "new": "Université Polytechnique de Mongo (UPM)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-ACAD-012",
+   "old": "None (Université Virtuelle du Tchad (UVT))",
+   "new": "Université Virtuelle du Tchad (UVT)"
+  },
+  {
+   "file": "output/td/2026-10-15/id_registry.json",
+   "id": "TD-INTL-002",
+   "old": "None (CEBEVIRHA)",
+   "new": "CEBEVIRHA"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-ACAD-016",
+   "old": "None (Tajik Islamic Institute)",
+   "new": "Tajik Islamic Institute"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-CORP-003",
+   "old": "None (VT-Silk)",
+   "new": "VT-Silk"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-FIN-002",
+   "old": "None (Amonatbonk (State Savings Bank))",
+   "new": "Amonatbonk (State Savings Bank)"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-FIN-008",
+   "old": "None (Commercial Bank of Tajikistan (CTB))",
+   "new": "Commercial Bank of Tajikistan (CTB)"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-GOV-026",
+   "old": "None (Committee for Environmental Protection under the Government of the Republic of Tajikistan)",
+   "new": "Committee for Environmental Protection under the Government of the Republic of Tajikistan"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-GOV-027",
+   "old": "None (Supervision Agency for Education and Science under the President of Tajikistan)",
+   "new": "Supervision Agency for Education and Science under the President of Tajikistan"
+  },
+  {
+   "file": "output/tj/2026-09-27/id_registry.json",
+   "id": "TJ-NGO-003",
+   "old": "None (Tajikistan Nature Foundation)",
+   "new": "Tajikistan Nature Foundation"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-GOV-025",
+   "old": "None (Higher Control Chamber of Turkmenistan)",
+   "new": "Higher Control Chamber of Turkmenistan"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-SOE-005",
+   "old": "None (Türkmenhaly State Association)",
+   "new": "Türkmenhaly State Association"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-CORP-001",
+   "old": "None (Gozle)",
+   "new": "Gozle"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-NGO-002",
+   "old": "None (Union of Industrialists and Entrepreneurs of Turkmenistan)",
+   "new": "Union of Industrialists and Entrepreneurs of Turkmenistan"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-ACAD-012",
+   "old": "None (Institute of Engineering-Technical and Transport Communications of Turkmenistan)",
+   "new": "Institute of Engineering-Technical and Transport Communications of Turkmenistan"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-ACAD-013",
+   "old": "None (Institute of History and Archaeology of the Academy of Sciences of Turkmenistan)",
+   "new": "Institute of History and Archaeology of the Academy of Sciences of Turkmenistan"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-FIN-006",
+   "old": "None (Türkmenbaşy Bank)",
+   "new": "Türkmenbaşy Bank"
+  },
+  {
+   "file": "output/tm/2026-10-02/id_registry.json",
+   "id": "TM-FIN-007",
+   "old": "None (Prezidentbank)",
+   "new": "Prezidentbank"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-GOV-031",
+   "old": "None (Court of Auditors (Tunisia))",
+   "new": "Court of Auditors (Tunisia)"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-GOV-034",
+   "old": "None (Tunisian Institute for Strategic Studies)",
+   "new": "Tunisian Institute for Strategic Studies"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-SOE-005",
+   "old": "None (Tunisian Chemical Group (GCT))",
+   "new": "Tunisian Chemical Group (GCT)"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-SOE-017",
+   "old": "None (National Real Estate Company of Tunisia (SNIT))",
+   "new": "National Real Estate Company of Tunisia (SNIT)"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-CORP-006",
+   "old": "None (Carthage Power Company)",
+   "new": "Carthage Power Company"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-MEDIA-011",
+   "old": "None (L'Économiste Maghrébin)",
+   "new": "L'Économiste Maghrébin"
+  },
+  {
+   "file": "output/tn/2026-10-10/id_registry.json",
+   "id": "TN-FIN-017",
+   "old": "None (Banque tuniso-libyenne)",
+   "new": "Banque tuniso-libyenne"
+  },
+  {
+   "file": "output/tz/2026-10-25/id_registry.json",
+   "id": "TZ-MEDIA-007",
+   "old": "None (Habari Leo)",
+   "new": "Habari Leo"
+  },
+  {
+   "file": "output/ug/2026-10-27/id_registry.json",
+   "id": "UG-FIN-008",
+   "old": "None (Housing Finance Bank)",
+   "new": "Housing Finance Bank"
+  },
+  {
+   "file": "output/uz/2026-09-27/id_registry.json",
+   "id": "UZ-FIN-010",
+   "old": "None (Kapitalbank)",
+   "new": "Kapitalbank"
+  },
+  {
+   "file": "output/uz/2026-09-27/id_registry.json",
+   "id": "UZ-NGO-011",
+   "old": "None (Uzbek Forum for Human Rights)",
+   "new": "Uzbek Forum for Human Rights"
+  }
+ ],
+ "profiles": [
+  {
+   "file": "output/dz/2026-10-16/orgs/DZ-NGO-005.json",
+   "id": "DZ-NGO-005",
+   "old": {
+    "name_original": null,
+    "name_en": null,
+    "name_zh": null
+   },
+   "new": {
+    "name_original": "Rassemblement Actions Jeunesse",
+    "name_en": "Rassemblement Actions Jeunesse",
+    "name_zh": null
+   }
+  },
+  {
+   "file": "output/la/2026-09-30/orgs/LA-FIN-006.json",
+   "id": "LA-FIN-006",
+   "old": {
+    "name_original": null,
+    "name_en": null,
+    "name_zh": null
+   },
+   "new": {
+    "name_original": "Lao-Viet Bank",
+    "name_en": "Lao-Viet Bank",
+    "name_zh": null
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-CORP-006.json",
+   "id": "TN-CORP-006",
+   "old": {
+    "name_original": null,
+    "name_en": null,
+    "name_zh": null
+   },
+   "new": {
+    "name_original": "Carthage Power Company",
+    "name_en": "Carthage Power Company",
+    "name_zh": null
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-FIN-017.json",
+   "id": "TN-FIN-017",
+   "old": {
+    "name_original": null,
+    "name_en": null,
+    "name_zh": null
+   },
+   "new": {
+    "name_original": "Banque tuniso-libyenne",
+    "name_en": "Banque tuniso-libyenne",
+    "name_zh": null
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-SOE-005.json",
+   "id": "TN-SOE-005",
+   "old": {
+    "name_original": null,
+    "name_en": null,
+    "name_zh": null
+   },
+   "new": {
+    "name_original": "Tunisian Chemical Group (GCT)",
+    "name_en": "Tunisian Chemical Group (GCT)",
+    "name_zh": null
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-SOE-017.json",
+   "id": "TN-SOE-017",
+   "old": {
+    "name_original": null,
+    "name_en": null,
+    "name_zh": null
+   },
+   "new": {
+    "name_original": "National Real Estate Company of Tunisia (SNIT)",
+    "name_en": "National Real Estate Company of Tunisia (SNIT)",
+    "name_zh": null
+   }
+  }
+ ],
+ "index": [
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\dz\\2026-10-16\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "DZ-NGO-005",
+   "old": "None (None)",
+   "new": "Rassemblement Actions Jeunesse"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\dz\\2026-10-16\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 163,
+   "after": 163
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-001",
+   "entry": {
+    "org_id": "ID-ACAD-001",
+    "name": "爱尔朗加大学 (Airlangga University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-002",
+   "entry": {
+    "org_id": "ID-ACAD-002",
+    "name": "阿尔阿扎尔大学棉兰校区 (Al Azhar University Medan)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 95
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-003",
+   "entry": {
+    "org_id": "ID-ACAD-003",
+    "name": "印度尼西亚阿兹哈大学 (Universitas Al Azhar Indonesia (UAI))",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-004",
+   "entry": {
+    "org_id": "ID-ACAD-004",
+    "name": "马塔兰阿兹哈伊斯兰大学 (Al-Azhar Islamic University of Mataram)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 95
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-005",
+   "entry": {
+    "org_id": "ID-ACAD-005",
+    "name": "阿尔吉法里大学 (Al-Ghifari University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-006",
+   "entry": {
+    "org_id": "ID-ACAD-006",
+    "name": "阿拉乌丁伊斯兰国立大学（望加锡） (Alauddin State Islamic University Makassar)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-007",
+   "entry": {
+    "org_id": "ID-ACAD-007",
+    "name": "安汶国立理工学院 (Ambon State Polytechnic)",
+    "category": "ACAD",
+    "subcategory": "polytechnic",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-008",
+   "entry": {
+    "org_id": "ID-ACAD-008",
+    "name": "安达拉斯大学 (Andalas University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-009",
+   "entry": {
+    "org_id": "ID-ACAD-009",
+    "name": "阿塔瓦卡纳基督教大学 (Artha Wacana Christian University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-010",
+   "entry": {
+    "org_id": "ID-ACAD-010",
+    "name": "阿特玛加雅印度尼西亚天主教大学 (Atma Jaya Catholic University of Indonesia)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-011",
+   "entry": {
+    "org_id": "ID-ACAD-011",
+    "name": "万隆印度尼西亚艺术文化学院 (Bandung Institute of Indonesian Arts and Culture)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-ACAD-012",
+   "entry": {
+    "org_id": "ID-ACAD-012",
+    "name": "万隆理工学院 (Bandung Institute of Technology)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-001",
+   "entry": {
+    "org_id": "ID-CORP-001",
+    "name": "21影院连锁（Cinema21体系） (21 Cineplex (Cinema XXI Group))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-002",
+   "entry": {
+    "org_id": "ID-CORP-002",
+    "name": "3D娱乐 (3D Entertainment)",
+    "category": "CORP",
+    "subcategory": "subsidiary",
+    "completeness": 91
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-004",
+   "entry": {
+    "org_id": "ID-CORP-004",
+    "name": "亨氏ABC印尼公司 (PT Heinz ABC Indonesia)",
+    "category": "CORP",
+    "subcategory": "subsidiary",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-005",
+   "entry": {
+    "org_id": "ID-CORP-005",
+    "name": "布米普特拉1912相互人寿保险公司 (AJB Bumiputera 1912)",
+    "category": "CORP",
+    "subcategory": "insurance_company",
+    "completeness": 95
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-006",
+   "entry": {
+    "org_id": "ID-CORP-006",
+    "name": "联营ATM网络 (ATM Bersama)",
+    "category": "CORP",
+    "subcategory": "payment_institution",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-007",
+   "entry": {
+    "org_id": "ID-CORP-007",
+    "name": "AXIS电信 (AXIS)",
+    "category": "CORP",
+    "subcategory": "subsidiary",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-008",
+   "entry": {
+    "org_id": "ID-CORP-008",
+    "name": "阿迪卡里亚建筑公司 (PT Adhi Karya (Persero) Tbk)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-009",
+   "entry": {
+    "org_id": "ID-CORP-009",
+    "name": "印尼航空旅游集团 (Aerowisata (PT Aero Wisata))",
+    "category": "CORP",
+    "subcategory": "subsidiary",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-010",
+   "entry": {
+    "org_id": "ID-CORP-010",
+    "name": "阿尔法米迪 (Alfamidi (PT Midi Utama Indonesia Tbk))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-011",
+   "entry": {
+    "org_id": "ID-CORP-011",
+    "name": "阿卢明多轻金属工业公司 (Alumindo Light Metal Industry)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-012",
+   "entry": {
+    "org_id": "ID-CORP-012",
+    "name": "安佐梦幻乐园 (Ancol Dreamland)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-013",
+   "entry": {
+    "org_id": "ID-CORP-013",
+    "name": "安塔姆矿业（印尼多元矿业公司） (PT Aneka Tambang Tbk (ANTAM))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-014",
+   "entry": {
+    "org_id": "ID-CORP-014",
+    "name": "安塔拉国家通讯社 (Antara News Agency)",
+    "category": "CORP",
+    "subcategory": "news_agency",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-015",
+   "entry": {
+    "org_id": "ID-CORP-015",
+    "name": "宝瓶座唱片 (Aquarius Musikindo)",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 92
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-016",
+   "entry": {
+    "org_id": "ID-CORP-016",
+    "name": "群岛国际酒店集团 (Archipelago International (Archipelago Hotels))",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-017",
+   "entry": {
+    "org_id": "ID-CORP-017",
+    "name": "阿尔戈潘特斯纺织公司 (PT Argo Pantes Tbk)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-018",
+   "entry": {
+    "org_id": "ID-CORP-018",
+    "name": "阿尔塔维斯特 (PT Arthavest Tbk)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 89
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-020",
+   "entry": {
+    "org_id": "ID-CORP-020",
+    "name": "阿斯特拉国际 (Astra International)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 99
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-021",
+   "entry": {
+    "org_id": "ID-CORP-021",
+    "name": "中亚银行 (Bank Central Asia (BCA))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-022",
+   "entry": {
+    "org_id": "ID-CORP-022",
+    "name": "印多福集团 (PT Indofood Sukses Makmur Tbk (Indofood))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-CORP-023",
+   "entry": {
+    "org_id": "ID-CORP-023",
+    "name": "三林集团 (Salim Group)",
+    "category": "CORP",
+    "subcategory": "conglomerate",
+    "completeness": 92
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-001",
+   "entry": {
+    "org_id": "ID-FIN-001",
+    "name": "印尼国家银行万达布阿特分行 (Bank BNI Bandar Buat Branch)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 45
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-002",
+   "entry": {
+    "org_id": "ID-FIN-002",
+    "name": "印度尼西亚银行 (Bank Indonesia)",
+    "category": "FIN",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-003",
+   "entry": {
+    "org_id": "ID-FIN-003",
+    "name": "曼迪利银行 (Bank Mandiri)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-004",
+   "entry": {
+    "org_id": "ID-FIN-004",
+    "name": "印尼锡纳马斯银行 (Bank Sinarmas (PT Bank Sinarmas Tbk))",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-005",
+   "entry": {
+    "org_id": "ID-FIN-005",
+    "name": "印尼国家银行巴东旁路办事处 (Bank BNI By Pass Padang Branch)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 47
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-006",
+   "entry": {
+    "org_id": "ID-FIN-006",
+    "name": "印尼国家银行穆阿罗锡敦阳办事处 (Bank BNI Muaro Sijunjung Branch Office)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 60
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-007",
+   "entry": {
+    "org_id": "ID-FIN-007",
+    "name": "印尼国家银行索洛克分行 (Bank BNI Solok Branch Office)",
+    "category": "FIN",
+    "subcategory": "subsidiary",
+    "completeness": 75
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-FIN-008",
+   "entry": {
+    "org_id": "ID-FIN-008",
+    "name": "印尼国家银行辛邦利蒙支行 (BNI Simpang Limun Sub-Branch Office)",
+    "category": "FIN",
+    "subcategory": "subsidiary",
+    "completeness": 69
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-001",
+   "entry": {
+    "org_id": "ID-GOV-001",
+    "name": "印度尼西亚农业研究与发展局 (Indonesian Agency for Agricultural Research and Development)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 92
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-002",
+   "entry": {
+    "org_id": "ID-GOV-002",
+    "name": "语言发展与建设局 (Language Development and Fostering Agency)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-003",
+   "entry": {
+    "org_id": "ID-GOV-003",
+    "name": "印尼技术应用研究署 (Agency for the Assessment and Application of Technology)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-004",
+   "entry": {
+    "org_id": "ID-GOV-004",
+    "name": "国家期刊认证（ARJUNA / SINTA 科学期刊索引体系） (National Journal Accreditation (ARJUNA / SINTA))",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 80
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-005",
+   "entry": {
+    "org_id": "ID-GOV-005",
+    "name": "印度尼西亚总检察院 (Attorney General's Office of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-006",
+   "entry": {
+    "org_id": "ID-GOV-006",
+    "name": "印尼健康社会保障管理局 (Health Social Security Agency (BPJS Kesehatan))",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-007",
+   "entry": {
+    "org_id": "ID-GOV-007",
+    "name": "印度尼西亚核能监管机构 (Nuclear Energy Regulatory Agency of Indonesia (BAPETEN))",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-008",
+   "entry": {
+    "org_id": "ID-GOV-008",
+    "name": "第十二区文化遗产保护局 (Balai Pelestarian Kebudayaan Wilayah XII (Institute for Cultural Heritage Preservation Region XII))",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 93
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-009",
+   "entry": {
+    "org_id": "ID-GOV-009",
+    "name": "畜牧研究所 (Balai Penelitian Ternak (Livestock Research Institute, Balitnak); successor unit: Balai Perakitan dan Pengujian Unggas dan Aneka Ternak (BRMP Unggas))",
+    "category": "GOV",
+    "subcategory": "research_institute",
+    "completeness": 89
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-010",
+   "entry": {
+    "org_id": "ID-GOV-010",
+    "name": "洛克瑟马韦市区域发展规划局 (Regional Development Planning Board of Lhokseumawe City)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 91
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-011",
+   "entry": {
+    "org_id": "ID-GOV-011",
+    "name": "内阁秘书处 (Cabinet Secretariat of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-012",
+   "entry": {
+    "org_id": "ID-GOV-012",
+    "name": "印度尼西亚国民军历史中心 (Center for History of the Indonesian National Armed Forces)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-013",
+   "entry": {
+    "org_id": "ID-GOV-013",
+    "name": "宗教和谐中心 (Center for Religious Harmony, Ministry of Religious Affairs)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 87
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-014",
+   "entry": {
+    "org_id": "ID-GOV-014",
+    "name": "印度尼西亚法律、人权、移民与惩戒事务统筹部 (Coordinating Ministry for Legal, Human Rights, Immigration, and Correction)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-015",
+   "entry": {
+    "org_id": "ID-GOV-015",
+    "name": "印度尼西亚努山塔拉未来力量投资管理局（Danantara Indonesia） (Daya Anagata Nusantara Investment Management Agency (Danantara Indonesia))",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-016",
+   "entry": {
+    "org_id": "ID-GOV-016",
+    "name": "畜牧与兽医总司 (Directorate General of Livestock and Animal Health)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-017",
+   "entry": {
+    "org_id": "ID-GOV-017",
+    "name": "印度尼西亚财政部海关与消费税总司 (Directorate General of Customs and Excise)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-018",
+   "entry": {
+    "org_id": "ID-GOV-018",
+    "name": "移民总局 (Directorate General of Immigration)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-019",
+   "entry": {
+    "org_id": "ID-GOV-019",
+    "name": "铁路总局 (Directorate General of Railways)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-020",
+   "entry": {
+    "org_id": "ID-GOV-020",
+    "name": "印尼税务总司 (Directorate General of Taxes of Indonesia)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-021",
+   "entry": {
+    "org_id": "ID-GOV-021",
+    "name": "印度尼西亚电影审查委员会 (Film Censorship Board of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 96
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-022",
+   "entry": {
+    "org_id": "ID-GOV-022",
+    "name": "印度尼西亚金融交易报告与分析中心 (Indonesian Financial Transaction Reports and Analysis Center)",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-023",
+   "entry": {
+    "org_id": "ID-GOV-023",
+    "name": "雅加达消防与救援局 (Jakarta Fire and Rescue Department)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 92
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-024",
+   "entry": {
+    "org_id": "ID-GOV-024",
+    "name": "大选监督委员会 (General Election Supervisory Agency)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-025",
+   "entry": {
+    "org_id": "ID-GOV-025",
+    "name": "印尼地理空间信息局 (Geospatial Information Agency of Indonesia)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-027",
+   "entry": {
+    "org_id": "ID-GOV-027",
+    "name": "印度尼西亚内阁 (Cabinet of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "cabinet",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-028",
+   "entry": {
+    "org_id": "ID-GOV-028",
+    "name": "印度尼西亚共和国人民代表会议 (House of Representatives of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-029",
+   "entry": {
+    "org_id": "ID-GOV-029",
+    "name": "印度尼西亚共和国人民协商会议 (People's Consultative Assembly of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-031",
+   "entry": {
+    "org_id": "ID-GOV-031",
+    "name": "印度尼西亚共和国最高法院 (Supreme Court of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-032",
+   "entry": {
+    "org_id": "ID-GOV-032",
+    "name": "印度尼西亚宪法法院 (Constitutional Court of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-033",
+   "entry": {
+    "org_id": "ID-GOV-033",
+    "name": "印度尼西亚普选委员会 (General Elections Commission of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-034",
+   "entry": {
+    "org_id": "ID-GOV-034",
+    "name": "印度尼西亚审计署 (Audit Board of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-035",
+   "entry": {
+    "org_id": "ID-GOV-035",
+    "name": "印度尼西亚反腐败委员会 (Corruption Eradication Commission)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-036",
+   "entry": {
+    "org_id": "ID-GOV-036",
+    "name": "印度尼西亚监察使公署 (Ombudsman of the Republic of Indonesia)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-GOV-037",
+   "entry": {
+    "org_id": "ID-GOV-037",
+    "name": "高等教育、科学与技术部 (Ministry of Higher Education, Science, and Technology)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-001",
+   "entry": {
+    "org_id": "ID-MEDIA-001",
+    "name": "雅加达阿邦与诺内旅游文化大使评选 (Abang None Jakarta (Jakarta Tourism and Culture Ambassadors Pageant))",
+    "category": "MEDIA",
+    "subcategory": "community_org",
+    "completeness": 99
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-002",
+   "entry": {
+    "org_id": "ID-MEDIA-002",
+    "name": "阿迪奇塔·卡里亚·努萨出版社 (Adicita Karya Nusa)",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 87
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-004",
+   "entry": {
+    "org_id": "ID-MEDIA-004",
+    "name": "《艾曼》调查新闻节目 (Aiman)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 79
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-005",
+   "entry": {
+    "org_id": "ID-MEDIA-005",
+    "name": "安迪出版社 (Andi Publisher)",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 85
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-006",
+   "entry": {
+    "org_id": "ID-MEDIA-006",
+    "name": "巴拉伊·普斯塔卡出版社（印尼国家图书出版社） (PT Balai Pustaka (Persero))",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 88
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-007",
+   "entry": {
+    "org_id": "ID-MEDIA-007",
+    "name": "比纳·奇普塔出版社 (Penerbit Bina Cipta)",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 33
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-008",
+   "entry": {
+    "org_id": "ID-MEDIA-008",
+    "name": "Kompas报图书出版部 (Penerbit Buku Kompas (PBK))",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 80
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-009",
+   "entry": {
+    "org_id": "ID-MEDIA-009",
+    "name": "查克拉出版印刷公司 (Penerbit & Percetakan Cakra)",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 77
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-010",
+   "entry": {
+    "org_id": "ID-MEDIA-010",
+    "name": "坎特里克出版社 (Cantrik Pustaka)",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 85
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-MEDIA-012",
+   "entry": {
+    "org_id": "ID-MEDIA-012",
+    "name": "印度尼西亚鹰记电视台 (RCTI (Rajawali Citra Televisi Indonesia))",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 96
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-001",
+   "entry": {
+    "org_id": "ID-PARTY-001",
+    "name": "亚齐党 (Aceh Party)",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-002",
+   "entry": {
+    "org_id": "ID-PARTY-002",
+    "name": "亚齐绿党 (Atjeh Green Party)",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 89
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-003",
+   "entry": {
+    "org_id": "ID-PARTY-003",
+    "name": "工作党 (Berkarya Party)",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 92
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-004",
+   "entry": {
+    "org_id": "ID-PARTY-004",
+    "name": "印尼变革运动党（印度尼西亚守护共和国党） (Indonesia Change Movement Party (Partai Garuda))",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-005",
+   "entry": {
+    "org_id": "ID-PARTY-005",
+    "name": "印度尼西亚民主党 (Democratic Party (Indonesia))",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-006",
+   "entry": {
+    "org_id": "ID-PARTY-006",
+    "name": "印度尼西亚独立党 (Freedom Party (Indonesia))",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 83
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-007",
+   "entry": {
+    "org_id": "ID-PARTY-007",
+    "name": "专业集团党 (Golkar Party (Party of Functional Groups))",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 99
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-008",
+   "entry": {
+    "org_id": "ID-PARTY-008",
+    "name": "大印尼运动党 (Great Indonesia Movement Party (Gerindra))",
+    "category": "PARTY",
+    "subcategory": "ruling_party",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-009",
+   "entry": {
+    "org_id": "ID-PARTY-009",
+    "name": "印度尼西亚民主斗争党 (Indonesian Democratic Party of Struggle)",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 99
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-PARTY-010",
+   "entry": {
+    "org_id": "ID-PARTY-010",
+    "name": "印度尼西亚绿党 (Green Party of Indonesia)",
+    "category": "PARTY",
+    "subcategory": "advocacy_group",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-001",
+   "entry": {
+    "org_id": "ID-SOE-001",
+    "name": "印尼国家石油公司 (PT Pertamina (Persero))",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 99
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-002",
+   "entry": {
+    "org_id": "ID-SOE-002",
+    "name": "印度尼西亚国家电力公司 (Perusahaan Listrik Negara (PLN))",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 99
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-003",
+   "entry": {
+    "org_id": "ID-SOE-003",
+    "name": "印尼电信 (PT Telkom Indonesia (Persero) Tbk)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-004",
+   "entry": {
+    "org_id": "ID-SOE-004",
+    "name": "印尼鹰航 (Garuda Indonesia)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-005",
+   "entry": {
+    "org_id": "ID-SOE-005",
+    "name": "印度尼西亚人民银行 (Bank Rakyat Indonesia (BRI))",
+    "category": "SOE",
+    "subcategory": "commercial_bank",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-006",
+   "entry": {
+    "org_id": "ID-SOE-006",
+    "name": "印度尼西亚国家银行 (Bank Negara Indonesia (BNI))",
+    "category": "SOE",
+    "subcategory": "commercial_bank",
+    "completeness": 97
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "add",
+   "id": "ID-SOE-009",
+   "entry": {
+    "org_id": "ID-SOE-009",
+    "name": "印尼邮政 (Pos Indonesia)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\id\\2026-07-27\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 0,
+   "after": 103
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\kg\\2026-06-21\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "KG-MEDIA-010",
+   "old": " ()",
+   "new": "斯普特尼克吉尔吉斯斯坦 (Sputnik Kyrgyzstan)"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\kg\\2026-06-21\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 113,
+   "after": 113
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\la\\2026-09-30\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "LA-FIN-006",
+   "old": "None (None)",
+   "new": "Lao-Viet Bank"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\la\\2026-09-30\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 101,
+   "after": 101
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\orgs\\_index.json",
+   "action": "remove",
+   "id": "MO-CORP-002"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\orgs\\_index.json",
+   "action": "remove",
+   "id": "MO-CORP-003"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\orgs\\_index.json",
+   "action": "remove",
+   "id": "MO-CORP-006"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 62,
+   "after": 59
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000001",
+   "entry": {
+    "person_id": "MO-PERSON-000001",
+    "wikidata_qid": "Q735458",
+    "name_en": "Stanley Ho Hung Sun",
+    "name_zh": "何鸿燊",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 56,
+    "file": "MO-PERSON-000001.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000002",
+   "entry": {
+    "person_id": "MO-PERSON-000002",
+    "wikidata_qid": "Q7407632",
+    "name_en": "Sam Hou Fai",
+    "name_zh": "岑浩辉",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 86,
+    "file": "MO-PERSON-000002.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000020",
+   "entry": {
+    "person_id": "MO-PERSON-000020",
+    "wikidata_qid": "Q6526282",
+    "name_en": "Angela Leong On Kei",
+    "name_zh": "梁安琪",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 59,
+    "file": "MO-PERSON-000020.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000057",
+   "entry": {
+    "person_id": "MO-PERSON-000057",
+    "wikidata_qid": null,
+    "name_en": "Niu Jianjun",
+    "name_zh": "牛建军",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 58,
+    "file": "MO-PERSON-000057.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000116",
+   "entry": {
+    "person_id": "MO-PERSON-000116",
+    "wikidata_qid": null,
+    "name_en": "Wong Yee Lam",
+    "name_zh": "黄伊琳",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 68,
+    "file": "MO-PERSON-000116.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000117",
+   "entry": {
+    "person_id": "MO-PERSON-000117",
+    "wikidata_qid": null,
+    "name_en": "Leong Wa Fong",
+    "name_zh": "梁华峰",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 63,
+    "file": "MO-PERSON-000117.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000128",
+   "entry": {
+    "person_id": "MO-PERSON-000128",
+    "wikidata_qid": "Q47674431",
+    "name_en": "Lam Chong",
+    "name_zh": "林昶",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 69,
+    "file": "MO-PERSON-000128.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000129",
+   "entry": {
+    "person_id": "MO-PERSON-000129",
+    "wikidata_qid": null,
+    "name_en": "Zhou Haiyan",
+    "name_zh": "周海燕",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 37,
+    "file": "MO-PERSON-000129.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000135",
+   "entry": {
+    "person_id": "MO-PERSON-000135",
+    "wikidata_qid": null,
+    "name_en": "Chen Wensheng",
+    "name_zh": "陈文胜",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 38,
+    "file": "MO-PERSON-000135.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000136",
+   "entry": {
+    "person_id": "MO-PERSON-000136",
+    "wikidata_qid": null,
+    "name_en": "Lian Wei",
+    "name_zh": "练伟",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 35,
+    "file": "MO-PERSON-000136.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000137",
+   "entry": {
+    "person_id": "MO-PERSON-000137",
+    "wikidata_qid": "Q85885362",
+    "name_en": "Ma Chi Ngai Frederico",
+    "name_zh": "马志毅",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 75,
+    "file": "MO-PERSON-000137.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000165",
+   "entry": {
+    "person_id": "MO-PERSON-000165",
+    "wikidata_qid": "Q112966286",
+    "name_en": "Daisy Ho Chiu-fung",
+    "name_zh": "何超凤",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 75,
+    "file": "MO-PERSON-000165.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000167",
+   "entry": {
+    "person_id": "MO-PERSON-000167",
+    "wikidata_qid": "Q2837795",
+    "name_en": "Allan Zeman",
+    "name_zh": "盛智文",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 83,
+    "file": "MO-PERSON-000167.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000168",
+   "entry": {
+    "person_id": "MO-PERSON-000168",
+    "wikidata_qid": "Q136690531",
+    "name_en": "Linda Chen",
+    "name_zh": "陈志玲",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 68,
+    "file": "MO-PERSON-000168.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000169",
+   "entry": {
+    "person_id": "MO-PERSON-000169",
+    "wikidata_qid": null,
+    "name_en": "Craig S. Billings",
+    "name_zh": "潘国宏",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 68,
+    "file": "MO-PERSON-000169.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000170",
+   "entry": {
+    "person_id": "MO-PERSON-000170",
+    "wikidata_qid": null,
+    "name_en": "Frederic Jean-Luc Luvisutto",
+    "name_zh": "罗伟信",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 62,
+    "file": "MO-PERSON-000170.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000171",
+   "entry": {
+    "person_id": "MO-PERSON-000171",
+    "wikidata_qid": "Q9339894",
+    "name_en": "Nicholas Sallnow-Smith",
+    "name_zh": "苏兆明",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 69,
+    "file": "MO-PERSON-000171.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000172",
+   "entry": {
+    "person_id": "MO-PERSON-000172",
+    "wikidata_qid": null,
+    "name_en": "Kenneth Xiaofeng Feng",
+    "name_zh": "冯小峰",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 63,
+    "file": "MO-PERSON-000172.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000173",
+   "entry": {
+    "person_id": "MO-PERSON-000173",
+    "wikidata_qid": null,
+    "name_en": "Jeny Lau",
+    "name_zh": "刘珍伲",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 65,
+    "file": "MO-PERSON-000173.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000174",
+   "entry": {
+    "person_id": "MO-PERSON-000174",
+    "wikidata_qid": "Q18394947",
+    "name_en": "William Joseph Hornbuckle",
+    "name_zh": "霍恩巴克",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 71,
+    "file": "MO-PERSON-000174.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000175",
+   "entry": {
+    "person_id": "MO-PERSON-000175",
+    "wikidata_qid": null,
+    "name_en": "Fu Jianguo",
+    "name_zh": "傅建国",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 58,
+    "file": "MO-PERSON-000175.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000177",
+   "entry": {
+    "person_id": "MO-PERSON-000177",
+    "wikidata_qid": "Q23418834",
+    "name_en": "Wong Sio Chak",
+    "name_zh": "黄少泽",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 83,
+    "file": "MO-PERSON-000177.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000178",
+   "entry": {
+    "person_id": "MO-PERSON-000178",
+    "wikidata_qid": "Q140410667",
+    "name_en": "Ng Wai Han",
+    "name_zh": "吴惠娴",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 78,
+    "file": "MO-PERSON-000178.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000179",
+   "entry": {
+    "person_id": "MO-PERSON-000179",
+    "wikidata_qid": "Q135232243",
+    "name_en": "Chan Tsz King",
+    "name_zh": "陈子劲",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 82,
+    "file": "MO-PERSON-000179.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000180",
+   "entry": {
+    "person_id": "MO-PERSON-000180",
+    "wikidata_qid": "Q117746993",
+    "name_en": "O Lam",
+    "name_zh": "柯岚",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 74,
+    "file": "MO-PERSON-000180.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "add",
+   "id": "MO-PERSON-000181",
+   "entry": {
+    "person_id": "MO-PERSON-000181",
+    "wikidata_qid": "Q10528355",
+    "name_en": "Tam Vai Man",
+    "name_zh": "谭伟文",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 78,
+    "file": "MO-PERSON-000181.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "remove",
+   "id": "MO-PERSON-000032"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "remove",
+   "id": "MO-PERSON-000058"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "remove",
+   "id": "MO-PERSON-000059"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "remove",
+   "id": "MO-PERSON-000060"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "remove",
+   "id": "MO-PERSON-000061"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "remove",
+   "id": "MO-PERSON-000062"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\mo\\2026-09-11\\persons\\_index.json",
+   "action": "set_total",
+   "before": 149,
+   "after": 169
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\ng\\2026-07-29\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "NG-ACAD-025",
+   "old": "None (Abia State College of Education (Tech), Arochukwu)",
+   "new": "Abia State College of Education (Tech), Arochukwu"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\ng\\2026-07-29\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 141,
+   "after": 141
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tn\\2026-10-10\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "TN-CORP-006",
+   "old": "None (None)",
+   "new": "Carthage Power Company"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tn\\2026-10-10\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "TN-FIN-017",
+   "old": "None (None)",
+   "new": "Banque tuniso-libyenne"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tn\\2026-10-10\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "TN-SOE-005",
+   "old": "None (None)",
+   "new": "Tunisian Chemical Group (GCT)"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tn\\2026-10-10\\orgs\\_index.json",
+   "action": "fix_name",
+   "id": "TN-SOE-017",
+   "old": "None (None)",
+   "new": "National Real Estate Company of Tunisia (SNIT)"
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tn\\2026-10-10\\orgs\\_index.json",
+   "action": "set_total",
+   "before": 146,
+   "after": 146
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "add",
+   "id": "TW-PERSON-000528",
+   "entry": {
+    "person_id": "TW-PERSON-000528",
+    "wikidata_qid": null,
+    "name_en": "Pan Men-an",
+    "name_zh": "潘孟安",
+    "gender": "unknown",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 59,
+    "file": "TW-PERSON-000528.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "add",
+   "id": "TW-PERSON-000529",
+   "entry": {
+    "person_id": "TW-PERSON-000529",
+    "wikidata_qid": null,
+    "name_en": "Chiu Chui-cheng",
+    "name_zh": "邱垂正",
+    "gender": "male",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 56,
+    "file": "TW-PERSON-000529.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "add",
+   "id": "TW-PERSON-000530",
+   "entry": {
+    "person_id": "TW-PERSON-000530",
+    "wikidata_qid": null,
+    "name_en": "Tsai Ming-yen",
+    "name_zh": "蔡明彦",
+    "gender": "unknown",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 57,
+    "file": "TW-PERSON-000530.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "add",
+   "id": "TW-PERSON-000531",
+   "entry": {
+    "person_id": "TW-PERSON-000531",
+    "wikidata_qid": null,
+    "name_en": "Liu Shyh-fang",
+    "name_zh": "刘世芳",
+    "gender": "female",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 59,
+    "file": "TW-PERSON-000531.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "add",
+   "id": "TW-PERSON-000532",
+   "entry": {
+    "person_id": "TW-PERSON-000532",
+    "wikidata_qid": null,
+    "name_en": "Kung Ming-hsin",
+    "name_zh": "龚明鑫",
+    "gender": "unknown",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": 57,
+    "file": "TW-PERSON-000532.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "add",
+   "id": "TW-PERSON-000533",
+   "entry": {
+    "person_id": "TW-PERSON-000533",
+    "wikidata_qid": null,
+    "name_en": "Hou Yu-ih",
+    "name_zh": "侯友宜",
+    "gender": "unknown",
+    "importance_level": null,
+    "current_title": null,
+    "completeness_score": null,
+    "file": "TW-PERSON-000533.json"
+   }
+  },
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\tw\\2026-07-27\\persons\\_index.json",
+   "action": "set_total",
+   "before": 527,
+   "after": 533
+  }
+ ],
+ "name_indexes": [
+  {
+   "dir": "output\\az\\2026-10-30",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\bh\\2026-10-28",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\bo\\2026-10-24",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\cd\\2026-10-05",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\ci\\2026-10-06",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\cl\\2026-10-02",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\dz\\2026-10-16",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\gn\\2026-11-10",
+   "result": "SKIP_INFLIGHT"
+  },
+  {
+   "dir": "output\\iq\\2026-11-02",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\jp\\2026-06-09",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\kg\\2026-06-21",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\kh\\2026-10-04",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\kw\\2026-10-03",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\la\\2026-09-30",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\ly\\2026-10-05",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\ma\\2026-10-05",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\ni\\2026-10-28",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\pe\\2026-10-01",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\sa\\2026-09-29",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\td\\2026-10-15",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\tj\\2026-09-27",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\tm\\2026-10-02",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\tn\\2026-10-10",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\tz\\2026-10-25",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\ug\\2026-10-27",
+   "result": "OK"
+  },
+  {
+   "dir": "output\\uz\\2026-09-27",
+   "result": "OK"
+  }
+ ],
+ "qid_review": [
+  {
+   "kind": "person",
+   "qid": "Q1026465",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "TZ-PERSON-000068|UG-PERSON-000030",
+   "names": "Rebecca Alitwala Kadaga|Rebecca Alitwala Kadaga",
+   "locations": "tz/2026-05-06|ug/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q104829441",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CD-PERSON-000151|GN-PERSON-000013",
+   "names": "Bintou Keita|Bintou Keita",
+   "locations": "cd/2026-05-06|gn/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q105100733",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "AU-PERSON-000135|AU-PERSON-000212",
+   "names": "Sam Mostyn|Sam Mostyn AC",
+   "locations": "au/2026-05-06|au/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q106480141",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000043|PH-PERSON-000010",
+   "names": "神田眞人|神田眞人",
+   "locations": "jp/2026-05-06|ph/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q108884006",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CM-PERSON-000095|GN-PERSON-000224",
+   "names": "Balla Samoura|Balla Samoura",
+   "locations": "cm/2026-05-06|gn/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q108904593",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "SA-PERSON-000264|SA-PERSON-000385",
+   "names": "فهد بن عبد الرحمن الجلاجل|فهد بن عبد الرحمن بن داحس الجلاجل",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q110067674",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "JO-PERSON-000192|SA-PERSON-000507",
+   "names": "أحمد الهناندة|Ahmed Al-Hanandeh",
+   "locations": "jo/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q110132511",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "MY-PERSON-000165|MY-PERSON-000281",
+   "names": "Shamshulkahar bin Mohd Deli|Shamshulkahar Mohd Deli",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q112131017",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000150|AU-PERSON-000555",
+   "names": "Sam Rae|Sam Rae",
+   "locations": "au/2026-05-06|au/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q11610452",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000217|JP-PERSON-000541",
+   "names": "翁百合|翁百合",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q116979907",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000302|CA-PERSON-000047",
+   "names": "Tracy Robinson|Tracy Robinson",
+   "locations": "au/2026-05-06|ca/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q117351806",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000245|JP-PERSON-000263",
+   "names": "内倉浩昭|内倉浩昭",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q126519099",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "SG-PERSON-000127|SG-PERSON-000231",
+   "names": "Peter Seah Lim Huat|Peter Seah",
+   "locations": "sg/2026-05-06|sg/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q127910",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "MY-PERSON-000421|MY-PERSON-000422",
+   "names": "林冠英|阿克马沙烈",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q130464757",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "AU-PERSON-000298|HK-PERSON-000308",
+   "names": "Georges Elhedery|艾橋智",
+   "locations": "au/2026-05-06|hk/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q131766979",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "US-PERSON-000386|US-PERSON-000668",
+   "names": "Troy Edward Meink|Troy E. Meink",
+   "locations": "us/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q134983987",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CL-PERSON-000159|CL-PERSON-000435",
+   "names": "Fernando Cabrera Salazar|Fernando Cabrera Salazar",
+   "locations": "cl/2026-05-06|cl/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q137840663",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CL-PERSON-000004|CL-PERSON-000433",
+   "names": "Fernando Barros Tocornal|Fernando Barros Tocornal",
+   "locations": "cl/2026-05-06|cl/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q141119674",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CL-PERSON-000158|CL-PERSON-000431",
+   "names": "Pedro Raúl Varela Sabando|Pedro Raúl Varela Sabando",
+   "locations": "cl/2026-05-06|cl/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q14538344",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "SA-PERSON-000718|US-PERSON-000810",
+   "names": "Mark A. Weinberger|Mark Weinberger",
+   "locations": "sa/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q15467111",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "MY-PERSON-000003|MY-PERSON-000479",
+   "names": "苏丹阿都拉|苏丹阿都拉",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q1584976",
+   "count": 4,
+   "classification": "different_or_variant_review",
+   "ids": "KG-PERSON-000036|KG-PERSON-000232|KG-PERSON-000239|KG-PERSON-000246",
+   "names": "Камчыбек Ташиев|Камчыбек Кыдыршаевич Ташиев|Камчыбек Кыдыршаевич Ташиев|Камчыбек Ташиев",
+   "locations": "kg/2026-05-06|kg/2026-05-06|kg/2026-05-06|kg/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q16194176",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "KR-PERSON-000047|US-PERSON-000486",
+   "names": "Howard Lutnick|Howard Lutnick",
+   "locations": "kr/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q1648987",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "CL-PERSON-000226|CL-PERSON-000326",
+   "names": "Vivianne Blanlot Soza|Vivianne Amelia Blanlot Soza",
+   "locations": "cl/2026-05-06|cl/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q16732739",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "BH-PERSON-000218|OM-PERSON-000185",
+   "names": "محمد بن محفوظ العارضي|محمد بن محفوظ بن سعد العارضي",
+   "locations": "bh/2026-05-06|om/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q17010425",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "PH-PERSON-000737|PH-PERSON-000780",
+   "names": "Roberto C. Yap|Roberto C. Yap, S.J.",
+   "locations": "ph/2026-05-06|ph/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q18097239",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CI-PERSON-000017|NG-PERSON-000043",
+   "names": "Akinwumi Adesina|Akinwumi Adesina",
+   "locations": "ci/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q18217780",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "MX-PERSON-000362|MX-PERSON-000363",
+   "names": "Alejandro Ismael Murat Hinojosa|Alejandro Murat Hinojosa",
+   "locations": "mx/2026-05-06|mx/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q18647517",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "BH-PERSON-000013|IQ-PERSON-000078",
+   "names": "رشيد محمد المعراج|خالد سلام سعيد شواني",
+   "locations": "bh/2026-05-06|iq/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q19518195",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000108|AU-PERSON-000560",
+   "names": "Daniel Mulino|Daniel Mulino",
+   "locations": "au/2026-05-06|au/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q19841039",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "MY-PERSON-000261|MY-PERSON-000303",
+   "names": "黄基全|黄基全",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q200881",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "KZ-PERSON-000001|RU-PERSON-000325",
+   "names": "Қасым-Жомарт Кемелұлы Тоқаев|Касым-Жомарт Кемелевич Токаев",
+   "locations": "kz/2026-05-06|ru/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q20390281",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SA-PERSON-000337|SA-PERSON-000411",
+   "names": "صالح بن ناصر الجاسر|صالح بن ناصر الجاسر",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q21005151",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AE-PERSON-000075|LB-PERSON-000051",
+   "names": "إلياس بو صعب|إلياس بو صعب",
+   "locations": "ae/2026-05-06|lb/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q2133872",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "PH-PERSON-000015|TH-PERSON-000610",
+   "names": "Juan Edgardo Manalang Angara|Juan Edgardo \"Sonny\" Angara",
+   "locations": "ph/2026-05-06|th/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q25597826",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "KG-PERSON-000001|KG-PERSON-000245",
+   "names": "Садыр Нургожоевич Жапаров|Садыр Нургожоевич Жапаров",
+   "locations": "kg/2026-05-06|kg/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q28018191",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "PG-PERSON-000063|US-PERSON-000050",
+   "names": "Darren Woods|Darren Woods",
+   "locations": "pg/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q28222140",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SA-PERSON-000039|SA-PERSON-000261",
+   "names": "يوسف بن عبد الله البنيان|يوسف بن عبد الله البنيان",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q30082184",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SA-PERSON-000196|SA-PERSON-000254",
+   "names": "خالد بن سلمان بن عبد العزيز آل سعود|خالد بن سلمان بن عبد العزيز آل سعود",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q305177",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "TW-PERSON-000282|US-PERSON-000097",
+   "names": "黄仁勋|Jensen Huang",
+   "locations": "tw/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q3161046",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000016|US-PERSON-000137",
+   "names": "James E. Casey|James E. Casey",
+   "locations": "au/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q3524040",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "MY-PERSON-000028|MY-PERSON-000225",
+   "names": "古拉塞加兰|古拉塞加兰",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q371263",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SA-PERSON-000075|SA-PERSON-000423",
+   "names": "خالد الفيصل بن عبدالعزيز آل سعود|خالد الفيصل بن عبد العزيز آل سعود",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q4259192",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "TH-PERSON-000611|US-PERSON-000318",
+   "names": "Armida Salsiah Alisjahbana|Armida Salsiah Alisjahbana",
+   "locations": "th/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q43274",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "AU-PERSON-000134|CA-PERSON-000143",
+   "names": "King Charles III|Charles III",
+   "locations": "au/2026-05-06|ca/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q4666152",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "BH-PERSON-000003|SA-PERSON-000492",
+   "names": "عبداللطيف بن راشد الزياني|عبداللطيف بن راشد الزياني",
+   "locations": "bh/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q4681470",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-PERSON-000013|US-PERSON-000679",
+   "names": "Adebayo O. Ogunlesi|Adebayo O. Ogunlesi",
+   "locations": "ng/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q4746340",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-PERSON-000073|US-PERSON-000314",
+   "names": "Amina J. Mohammed|Amina J. Mohammed",
+   "locations": "ng/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q47536230",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000009|JP-PERSON-000291",
+   "names": "名和豊春|名和豊春",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q4966734",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000032|AU-PERSON-000236",
+   "names": "Bridget McKenzie|Bridget McKenzie",
+   "locations": "au/2026-05-06|au/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q5115191",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "PH-PERSON-000661|SG-PERSON-000089",
+   "names": "Chua Sock Koong|Chua Sock Koong",
+   "locations": "ph/2026-05-06|sg/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q55196710",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000012|US-PERSON-000134",
+   "names": "David Abney|David Abney",
+   "locations": "au/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q55847774",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "MY-PERSON-000116|MY-PERSON-000360",
+   "names": "威尔逊·乌加|威尔申乌卡",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q56250519",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SA-PERSON-000256|SA-PERSON-000595",
+   "names": "فياض بن حامد الرويلي|فياض بن حامد الرويلي",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q57274",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "TZ-PERSON-000067|UG-PERSON-000001",
+   "names": "Yoweri Kaguta Museveni|Yoweri Kaguta Museveni",
+   "locations": "tz/2026-05-06|ug/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q57352",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "BH-PERSON-000001|SA-PERSON-000493",
+   "names": "حمد بن عيسى آل خليفة|حمد بن عيسى بن سلمان آل خليفة",
+   "locations": "bh/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q57643",
+   "count": 6,
+   "classification": "different_or_variant_review",
+   "ids": "BF-PERSON-000093|JO-PERSON-000007|KH-PERSON-000010|KH-PERSON-000129|PE-PERSON-000001|SG-PERSON-000021",
+   "names": "Thomas Sankara|الحسين بن طلال|ហ៊ុនសែន|ហេង សំរិន|Keiko Fujimori|Lee Hsien Loong",
+   "locations": "bf/2026-05-06|jo/2026-05-06|kh/2026-05-06|kh/2026-05-06|pe/2026-05-06|sg/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q57647",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000051|JP-PERSON-000491",
+   "names": "野田佳彦|野田佳彦",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q6111256",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "MX-PERSON-000021|MX-PERSON-000338",
+   "names": "Rolando Rodrigo Zapata Bello|Rolando Rodrigo Zapata Bello",
+   "locations": "mx/2026-05-06|mx/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q61589",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "SA-PERSON-000068|SA-PERSON-000240",
+   "names": "صالح بن فوزان الفوزان|صالح بن فوزان بن عبد الله الفوزان",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q61755190",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "SA-PERSON-000143|SA-PERSON-000332",
+   "names": "أحمد عقيل الخطيب|أحمد بن عقيل الخطيب",
+   "locations": "sa/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q6243718",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CA-PERSON-000062|US-PERSON-000773",
+   "names": "John L. Thornton|John L. Thornton",
+   "locations": "ca/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q6324008",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SG-PERSON-000098|SG-PERSON-000280",
+   "names": "K. Shanmugam|K. Shanmugam",
+   "locations": "sg/2026-05-06|sg/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q6362240",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "KR-PERSON-000036|US-PERSON-000423",
+   "names": "강경화|Kyung-wha Kang",
+   "locations": "kr/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q6380209",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "AU-PERSON-000033|AU-PERSON-000238",
+   "names": "Kay Hull|Kay Hull",
+   "locations": "au/2026-05-06|au/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q661410",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000135|JP-PERSON-000255",
+   "names": "小泉進次郎|小泉進次郎",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q66622366",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CL-PERSON-000022|CL-PERSON-000442",
+   "names": "Carlos Martín Arrau García-Huidobro|Carlos Martín Arrau García-Huidobro",
+   "locations": "cl/2026-05-06|cl/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q6893312",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "QA-PERSON-000284|RU-PERSON-000454",
+   "names": "محمد بن صالح السادة|محمد بن صالح السادة",
+   "locations": "qa/2026-05-06|ru/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q732142",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "RU-PERSON-000180|RU-PERSON-000398",
+   "names": "Фридман Михаил Маратович|Михаил Маратович Фридман",
+   "locations": "ru/2026-05-06|ru/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q7381144",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "CA-PERSON-000056|CA-PERSON-000078",
+   "names": "Russell Girling|Russ Girling",
+   "locations": "ca/2026-05-06|ca/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q8064320",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "MY-PERSON-000103|MY-PERSON-000412",
+   "names": "东姑·扎夫鲁|东姑扎夫鲁",
+   "locations": "my/2026-05-06|my/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q83475461",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "IQ-PERSON-000469|KW-PERSON-000015",
+   "names": "بدر ناصر الخرافي|بدر ناصر الخرافي",
+   "locations": "iq/2026-05-06|kw/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q926287",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-PERSON-000054|JP-PERSON-000496",
+   "names": "斉藤鉄夫|斉藤鉄夫",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "person",
+   "qid": "Q97291727",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "SG-PERSON-000137|SG-PERSON-000238",
+   "names": "Xie Yaoquan|Xie Yao Quan",
+   "locations": "sg/2026-05-06|sg/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q1065",
+   "count": 3,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "BH-INTL-004|BO-INTL-001|US-INTL-001",
+   "names": "联合国|联合国|联合国",
+   "locations": "bh/2026-05-06|bo/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q11108502",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-CORP-001|NG-CORP-013",
+   "names": "尼日利亚啤酒公司|尼日利亚啤酒厂",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q112577924",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-GOV-004|NG-GOV-028",
+   "names": "Federal Ministry of Water Resources and Sanitation|联邦水资源和环境卫生部",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q11483889",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-GOV-030|JP-SOE-002",
+   "names": "年金积立金管理运用独立行政法人|年金积立金管理运用独立行政法人",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q123759",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "BO-INTL-002|US-INTL-002",
+   "names": "美洲国家组织|美洲国家组织",
+   "locations": "bo/2026-05-06|us/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q1334063",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-SOE-003|NG-SOE-004",
+   "names": "尼日利亚铁路公司|尼日利亚铁路公司",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q1372049",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "JP-CORP-021|JP-SOE-001",
+   "names": "日本邮政|日本邮政控股",
+   "locations": "jp/2026-05-06|jp/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q1551163",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-PARTY-002|NG-PARTY-002",
+   "names": "人民民主党|人民民主党",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q188822",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "JP-INTL-001|PH-INTL-001",
+   "names": "亚洲开发银行|亚洲开发银行",
+   "locations": "jp/2026-05-06|ph/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q193272",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CI-INTL-007|NG-INTL-001",
+   "names": "西非国家经济共同体|西非国家经济共同体",
+   "locations": "ci/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q217172",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "BH-INTL-001|SA-INTL-001",
+   "names": "海湾阿拉伯国家合作委员会|海湾阿拉伯国家合作委员会",
+   "locations": "bh/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q2629881",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "OM-FIN-020|QA-FIN-013",
+   "names": "阿拉伯银行|阿拉伯银行卡塔尔分行",
+   "locations": "om/2026-05-06|qa/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q401034",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-ACAD-023|NG-ACAD-004",
+   "names": "艾哈迈杜·贝洛大学|艾哈迈杜·贝洛大学",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q471690",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "BO-INTL-003|PE-INTL-001",
+   "names": "安第斯共同体|安第斯共同体",
+   "locations": "bo/2026-05-06|pe/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q4729266",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-PARTY-001|NG-PARTY-001",
+   "names": "全体进步大会党|全体进步大会党",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q4729271",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-PARTY-005|NG-PARTY-005",
+   "names": "全体进步大联盟|全进步大联盟",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q47543",
+   "count": 3,
+   "classification": "different_or_variant_review",
+   "ids": "BH-INTL-003|CI-INTL-010|SA-INTL-002",
+   "names": "伊斯兰合作组织|伊斯兰合作组织|伊斯兰合作组织（OIC）",
+   "locations": "bh/2026-05-06|ci/2026-05-06|sa/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q527612",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-MEDIA-012|NG-MEDIA-007",
+   "names": "尼日利亞本天報|今日报",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q5440052",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-GOV-014|NG-GOV-038",
+   "names": "Federal Capital Territory Administration|联邦首都区管理局",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q5446777",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-FIN-007|NG-FIN-007",
+   "names": "尼日利亚 fidelity 银行|富达银行",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q5452342",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-FIN-012|NG-FIN-006",
+   "names": "First Bank of Nigeria|尼日利亚第一银行",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q579747",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-FIN-006|NG-FIN-003",
+   "names": "尼日利亚担保信托银行|担保信托银行",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q5856947",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "BO-NGO-012|NI-NGO-004",
+   "names": "信仰与喜悦教育组织（玻利维亚）|信仰与喜悦（尼加拉瓜）",
+   "locations": "bo/2026-05-06|ni/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q5978240",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-FIN-013|NG-FIN-004",
+   "names": "赞尼特银行|赞尼特银行",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q60143323",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-PARTY-007|NG-PARTY-007",
+   "names": "非洲民主大会党|非洲民主大会党",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q6124318",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-FIN-004|NG-FIN-010",
+   "names": "尼日利亚 jaiz 银行|Jaiz Bank",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q6309678",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-CORP-005|NG-CORP-011",
+   "names": "朱利叶斯·伯格|尤利乌斯·贝格尔尼日利亚公司",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q63434802",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-PARTY-009|NG-PARTY-008",
+   "names": "青年进步党|Young Progressive Party",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q6467449",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-PARTY-003|NG-PARTY-003",
+   "names": "工党|尼日利亚工党",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q6805557",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-MEDIA-007|NG-MEDIA-009",
+   "names": "信任报业集团|每日信托报",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q7032807",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-FIN-008|NG-FIN-014",
+   "names": "尼日利亚存款保险公司|尼日利亚存款保险公司",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q7033005",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-SOE-002|NG-SOE-002",
+   "names": "尼日利亚港务局|尼日利亚港务局",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q7033024",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-MEDIA-014|NG-MEDIA-012",
+   "names": "Nigerian Tribune|尼日利亚论坛报",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q7159",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "CD-INTL-001|CI-INTL-009",
+   "names": "非洲聯盟|非洲聯盟",
+   "locations": "cd/2026-05-06|ci/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q7550561",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-PARTY-006|NG-PARTY-006",
+   "names": "社会民主党|社会民主党",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q7738431",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-MEDIA-016|NG-MEDIA-008",
+   "names": "卫报|卫报",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q838766",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "NG-FIN-011|NG-FIN-017",
+   "names": "尼日利亚证券交易所|尼日利亚证券交易所",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q935878",
+   "count": 2,
+   "classification": "duplicate_profiles_same_name",
+   "ids": "KH-INTL-001|LA-INTL-001",
+   "names": "湄公河委员会|湄公河委员会",
+   "locations": "kh/2026-05-06|la/2026-05-06"
+  },
+  {
+   "kind": "org",
+   "qid": "Q97261663",
+   "count": 2,
+   "classification": "different_or_variant_review",
+   "ids": "NG-FIN-009|NG-FIN-011",
+   "names": "尼日利亚 wema 银行|韦马银行",
+   "locations": "ng/2026-05-06|ng/2026-05-06"
+  }
+ ],
+ "profile_zh_fix": [
+  {
+   "file": "output/dz/2026-10-16/orgs/DZ-NGO-005.json",
+   "id": "DZ-NGO-005",
+   "old": {
+    "name_zh": null,
+    "quotes": null
+   },
+   "new": {
+    "name_zh": "青年行动集会",
+    "quotes": []
+   }
+  },
+  {
+   "file": "output/la/2026-09-30/orgs/LA-FIN-006.json",
+   "id": "LA-FIN-006",
+   "old": {
+    "name_zh": null,
+    "quotes": null
+   },
+   "new": {
+    "name_zh": "老越银行",
+    "quotes": []
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-CORP-006.json",
+   "id": "TN-CORP-006",
+   "old": {
+    "name_zh": null,
+    "quotes": null
+   },
+   "new": {
+    "name_zh": "迦太基电力公司",
+    "quotes": []
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-FIN-017.json",
+   "id": "TN-FIN-017",
+   "old": {
+    "name_zh": null,
+    "quotes": null
+   },
+   "new": {
+    "name_zh": "突尼斯-利比亚银行",
+    "quotes": []
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-SOE-005.json",
+   "id": "TN-SOE-005",
+   "old": {
+    "name_zh": null,
+    "quotes": null
+   },
+   "new": {
+    "name_zh": "突尼斯化学集团",
+    "quotes": []
+   }
+  },
+  {
+   "file": "output/tn/2026-10-10/orgs/TN-SOE-017.json",
+   "id": "TN-SOE-017",
+   "old": {
+    "name_zh": null,
+    "quotes": null
+   },
+   "new": {
+    "name_zh": "突尼斯国家房地产公司",
+    "quotes": []
+   }
+  }
+ ],
+ "country_indexes_removed": [
+  "output/az/_name_index.json",
+  "output/bh/_name_index.json",
+  "output/bo/_name_index.json",
+  "output/cd/_name_index.json",
+  "output/ci/_name_index.json",
+  "output/cl/_name_index.json",
+  "output/dz/_name_index.json",
+  "output/gn/_name_index.json",
+  "output/iq/_name_index.json",
+  "output/jp/_name_index.json",
+  "output/kg/_name_index.json",
+  "output/kh/_name_index.json",
+  "output/kw/_name_index.json",
+  "output/la/_name_index.json",
+  "output/ly/_name_index.json",
+  "output/ma/_name_index.json",
+  "output/ni/_name_index.json",
+  "output/pe/_name_index.json",
+  "output/sa/_name_index.json",
+  "output/td/_name_index.json",
+  "output/tj/_name_index.json",
+  "output/tm/_name_index.json",
+  "output/tn/_name_index.json",
+  "output/tz/_name_index.json",
+  "output/ug/_name_index.json",
+  "output/uz/_name_index.json"
+ ],
+ "note": "P1 metadata cleanup; GN/2026-11-10 registry name was cleaned but its name index was skipped because .inflight exists.",
+ "total_profiles_fix": [
+  {
+   "file": "output/bf/2026-09-17/persons/_index.json",
+   "old": null,
+   "new": 102
+  },
+  {
+   "file": "output/bh/2026-10-28/persons/_index.json",
+   "old": null,
+   "new": 251
+  },
+  {
+   "file": "output/bn/2026-09-27/persons/_index.json",
+   "old": null,
+   "new": 269
+  },
+  {
+   "file": "output/cd/2026-10-05/persons/_index.json",
+   "old": null,
+   "new": 210
+  },
+  {
+   "file": "output/ci/2026-10-06/persons/_index.json",
+   "old": null,
+   "new": 200
+  },
+  {
+   "file": "output/cm/2026-09-18/persons/_index.json",
+   "old": null,
+   "new": 121
+  },
+  {
+   "file": "output/dz/2026-10-16/persons/_index.json",
+   "old": null,
+   "new": 156
+  },
+  {
+   "file": "output/hk/2026-07-24/persons/_index.json",
+   "old": null,
+   "new": 565
+  },
+  {
+   "file": "output/iq/2026-11-02/persons/_index.json",
+   "old": null,
+   "new": 223
+  },
+  {
+   "file": "output/jo/2026-09-17/persons/_index.json",
+   "old": null,
+   "new": 202
+  },
+  {
+   "file": "output/jp/2026-06-09/persons/_index.json",
+   "old": null,
+   "new": 563
+  },
+  {
+   "file": "output/kg/2026-06-21/persons/_index.json",
+   "old": null,
+   "new": 394
+  },
+  {
+   "file": "output/kh/2026-10-04/persons/_index.json",
+   "old": null,
+   "new": 232
+  },
+  {
+   "file": "output/kw/2026-10-03/persons/_index.json",
+   "old": null,
+   "new": 256
+  },
+  {
+   "file": "output/kz/2026-09-25/persons/_index.json",
+   "old": null,
+   "new": 126
+  },
+  {
+   "file": "output/la/2026-09-30/persons/_index.json",
+   "old": null,
+   "new": 183
+  },
+  {
+   "file": "output/lb/2026-09-17/persons/_index.json",
+   "old": null,
+   "new": 288
+  },
+  {
+   "file": "output/ly/2026-10-05/persons/_index.json",
+   "old": null,
+   "new": 244
+  },
+  {
+   "file": "output/ma/2026-10-05/persons/_index.json",
+   "old": null,
+   "new": 212
+  },
+  {
+   "file": "output/ng/2026-07-29/persons/_index.json",
+   "old": null,
+   "new": 200
+  },
+  {
+   "file": "output/ni/2026-10-28/persons/_index.json",
+   "old": null,
+   "new": 185
+  },
+  {
+   "file": "output/ph/2026-09-20/persons/_index.json",
+   "old": null,
+   "new": 843
+  },
+  {
+   "file": "output/qa/2026-07-28/persons/_index.json",
+   "old": null,
+   "new": 550
+  },
+  {
+   "file": "output/ru/2026-05-26/persons/_index.json",
+   "old": null,
+   "new": 504
+  },
+  {
+   "file": "output/sa/2026-09-29/persons/_index.json",
+   "old": null,
+   "new": 459
+  },
+  {
+   "file": "output/sg/2026-04-15/persons/_index.json",
+   "old": null,
+   "new": 291
+  },
+  {
+   "file": "output/td/2026-10-15/persons/_index.json",
+   "old": null,
+   "new": 150
+  },
+  {
+   "file": "output/th/2026-09-25/persons/_index.json",
+   "old": null,
+   "new": 618
+  },
+  {
+   "file": "output/tj/2026-09-27/persons/_index.json",
+   "old": null,
+   "new": 138
+  },
+  {
+   "file": "output/tn/2026-10-10/persons/_index.json",
+   "old": null,
+   "new": 103
+  },
+  {
+   "file": "output/tz/2026-10-25/persons/_index.json",
+   "old": null,
+   "new": 308
+  },
+  {
+   "file": "output/ug/2026-10-27/persons/_index.json",
+   "old": null,
+   "new": 195
+  },
+  {
+   "file": "output/uz/2026-09-27/persons/_index.json",
+   "old": null,
+   "new": 191
+  }
+ ]
+}

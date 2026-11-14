@@ -1,0 +1,7278 @@
+{
+ "generated_at": "2026-11-13",
+ "totals": {
+  "persons": 17679,
+  "orgs": 6054,
+  "countries": 53
+ },
+ "collision_counts": {
+  "org_ids": 0,
+  "person_ids": 0,
+  "org_by_cc": {},
+  "person_by_cc": {}
+ },
+ "reference_classes": {
+  "work_org": {
+   "profile_ok": 60515,
+   "null_id": 63038,
+   "registered_no_profile": 5690,
+   "registry_wrong_name": 829,
+   "profile_wrong": 49,
+   "ghost": 11
+  },
+  "person_rel": {
+   "registered_no_profile": 6595,
+   "null_id": 13908,
+   "profile_ok": 32617,
+   "registry_wrong_name": 93,
+   "ghost": 61,
+   "profile_wrong": 27
+  },
+  "family": {
+   "null_id": 16401,
+   "profile_ok": 1663,
+   "registry_wrong_name": 6,
+   "registered_no_profile": 188,
+   "ghost": 6
+  },
+  "key_people": {
+   "profile_ok": 18047,
+   "registered_no_profile": 4464,
+   "null_id": 2674,
+   "registry_wrong_name": 224,
+   "profile_wrong": 7,
+   "ghost": 26
+  },
+  "related_org": {
+   "profile_ok": 18298,
+   "registered_no_profile": 5467,
+   "null_id": 8634,
+   "registry_wrong_name": 192,
+   "profile_wrong": 139,
+   "ghost": 130
+  }
+ },
+ "per_country": {
+  "ae": {
+   "work_org": {
+    "profile_ok": 771,
+    "null_id": 1203,
+    "registered_no_profile": 22,
+    "registry_wrong_name": 10
+   },
+   "person_rel": {
+    "registered_no_profile": 11,
+    "null_id": 200,
+    "profile_ok": 394,
+    "registry_wrong_name": 5,
+    "ghost": 1
+   },
+   "family": {
+    "null_id": 267,
+    "profile_ok": 59,
+    "registry_wrong_name": 2,
+    "registered_no_profile": 3
+   },
+   "key_people": {
+    "profile_ok": 202,
+    "registered_no_profile": 104,
+    "null_id": 233
+   },
+   "related_org": {
+    "profile_ok": 277,
+    "registered_no_profile": 100,
+    "null_id": 188,
+    "registry_wrong_name": 1
+   }
+  },
+  "au": {
+   "work_org": {
+    "null_id": 1984,
+    "profile_ok": 1655
+   },
+   "person_rel": {
+    "profile_ok": 838,
+    "null_id": 623
+   },
+   "family": {
+    "null_id": 565,
+    "profile_ok": 7
+   },
+   "key_people": {
+    "null_id": 66,
+    "profile_ok": 480,
+    "registered_no_profile": 1
+   },
+   "related_org": {
+    "profile_ok": 277,
+    "null_id": 256,
+    "registered_no_profile": 3
+   }
+  },
+  "az": {
+   "work_org": {
+    "null_id": 302,
+    "profile_ok": 291
+   },
+   "person_rel": {
+    "profile_ok": 86,
+    "null_id": 63,
+    "registered_no_profile": 32,
+    "registry_wrong_name": 2
+   },
+   "family": {
+    "profile_ok": 8,
+    "null_id": 69,
+    "registered_no_profile": 3
+   },
+   "key_people": {
+    "registered_no_profile": 304,
+    "profile_ok": 95,
+    "registry_wrong_name": 3
+   },
+   "related_org": {
+    "profile_ok": 279,
+    "null_id": 143
+   }
+  },
+  "bf": {
+   "work_org": {
+    "profile_ok": 296,
+    "null_id": 376,
+    "registered_no_profile": 10,
+    "registry_wrong_name": 12
+   },
+   "person_rel": {
+    "profile_ok": 243,
+    "registered_no_profile": 8,
+    "null_id": 40
+   },
+   "family": {
+    "profile_ok": 3,
+    "null_id": 27
+   },
+   "key_people": {
+    "profile_ok": 101,
+    "null_id": 14
+   },
+   "related_org": {
+    "profile_ok": 129,
+    "registered_no_profile": 37,
+    "null_id": 6,
+    "registry_wrong_name": 6
+   }
+  },
+  "bh": {
+   "work_org": {
+    "profile_ok": 937,
+    "null_id": 903
+   },
+   "person_rel": {
+    "registered_no_profile": 241,
+    "profile_ok": 471
+   },
+   "family": {
+    "profile_ok": 46,
+    "null_id": 210,
+    "registered_no_profile": 25
+   },
+   "key_people": {
+    "profile_ok": 317,
+    "registered_no_profile": 213,
+    "registry_wrong_name": 2
+   },
+   "related_org": {
+    "profile_ok": 356,
+    "null_id": 260
+   }
+  },
+  "bn": {
+   "work_org": {
+    "profile_ok": 818,
+    "null_id": 406,
+    "registry_wrong_name": 9,
+    "registered_no_profile": 108
+   },
+   "person_rel": {
+    "profile_ok": 776,
+    "null_id": 86
+   },
+   "family": {
+    "profile_ok": 186,
+    "null_id": 242
+   },
+   "key_people": {
+    "profile_ok": 307,
+    "null_id": 1
+   },
+   "related_org": {
+    "profile_ok": 202,
+    "registered_no_profile": 113,
+    "registry_wrong_name": 3,
+    "null_id": 2
+   }
+  },
+  "bo": {
+   "work_org": {
+    "null_id": 523,
+    "profile_ok": 675
+   },
+   "person_rel": {
+    "registered_no_profile": 567,
+    "profile_ok": 489
+   },
+   "family": {
+    "registered_no_profile": 16,
+    "null_id": 106,
+    "profile_ok": 15
+   },
+   "key_people": {
+    "profile_ok": 287,
+    "registered_no_profile": 276
+   },
+   "related_org": {
+    "profile_ok": 445,
+    "null_id": 348
+   }
+  },
+  "ca": {
+   "work_org": {
+    "profile_ok": 1925,
+    "null_id": 2700
+   },
+   "person_rel": {
+    "profile_ok": 582,
+    "null_id": 731
+   },
+   "family": {
+    "null_id": 593,
+    "profile_ok": 3
+   },
+   "key_people": {
+    "profile_ok": 777,
+    "null_id": 2,
+    "profile_wrong": 1
+   },
+   "related_org": {
+    "profile_ok": 375,
+    "registered_no_profile": 156,
+    "null_id": 7
+   }
+  },
+  "cd": {
+   "work_org": {
+    "null_id": 586,
+    "registry_wrong_name": 24,
+    "profile_ok": 691,
+    "registered_no_profile": 30
+   },
+   "person_rel": {
+    "profile_ok": 584,
+    "registered_no_profile": 391,
+    "null_id": 1
+   },
+   "family": {
+    "null_id": 136,
+    "registered_no_profile": 5,
+    "profile_ok": 1
+   },
+   "key_people": {
+    "profile_ok": 250
+   },
+   "related_org": {
+    "profile_ok": 333,
+    "null_id": 63,
+    "registered_no_profile": 218,
+    "registry_wrong_name": 4
+   }
+  },
+  "ci": {
+   "work_org": {
+    "null_id": 613,
+    "profile_ok": 694,
+    "registry_wrong_name": 21,
+    "registered_no_profile": 25
+   },
+   "person_rel": {
+    "profile_ok": 383,
+    "registered_no_profile": 177,
+    "null_id": 64
+   },
+   "family": {
+    "profile_ok": 8,
+    "null_id": 91,
+    "registered_no_profile": 2
+   },
+   "key_people": {
+    "profile_ok": 243,
+    "registered_no_profile": 150
+   },
+   "related_org": {
+    "profile_ok": 323,
+    "null_id": 87,
+    "registered_no_profile": 142,
+    "registry_wrong_name": 17
+   }
+  },
+  "cl": {
+   "work_org": {
+    "null_id": 1722,
+    "profile_ok": 1926,
+    "registry_wrong_name": 110,
+    "registered_no_profile": 160
+   },
+   "person_rel": {
+    "profile_ok": 855,
+    "null_id": 861,
+    "registered_no_profile": 316,
+    "ghost": 2
+   },
+   "family": {
+    "null_id": 703,
+    "profile_ok": 27,
+    "registered_no_profile": 5
+   },
+   "key_people": {
+    "profile_ok": 587,
+    "null_id": 1
+   },
+   "related_org": {
+    "profile_ok": 502,
+    "registry_wrong_name": 36,
+    "registered_no_profile": 500,
+    "null_id": 145
+   }
+  },
+  "cm": {
+   "work_org": {
+    "profile_ok": 386,
+    "null_id": 500,
+    "registered_no_profile": 6,
+    "registry_wrong_name": 8
+   },
+   "person_rel": {
+    "profile_ok": 288,
+    "registered_no_profile": 76,
+    "null_id": 58
+   },
+   "family": {
+    "registered_no_profile": 1,
+    "null_id": 71,
+    "profile_ok": 4
+   },
+   "key_people": {
+    "profile_ok": 146
+   },
+   "related_org": {
+    "profile_ok": 154,
+    "registered_no_profile": 16,
+    "null_id": 15
+   }
+  },
+  "dz": {
+   "work_org": {
+    "null_id": 446,
+    "profile_ok": 551
+   },
+   "person_rel": {
+    "registered_no_profile": 227,
+    "profile_ok": 268,
+    "registry_wrong_name": 3
+   },
+   "family": {
+    "null_id": 32,
+    "registered_no_profile": 2,
+    "profile_ok": 3
+   },
+   "key_people": {
+    "registered_no_profile": 341,
+    "profile_ok": 202,
+    "registry_wrong_name": 7
+   },
+   "related_org": {
+    "profile_ok": 450,
+    "null_id": 466
+   }
+  },
+  "gn": {
+   "work_org": {
+    "null_id": 462,
+    "profile_ok": 349,
+    "profile_wrong": 33
+   },
+   "person_rel": {
+    "profile_ok": 372,
+    "registered_no_profile": 86,
+    "null_id": 114
+   },
+   "family": {
+    "null_id": 36,
+    "registered_no_profile": 3
+   },
+   "key_people": {
+    "registered_no_profile": 354,
+    "profile_ok": 180,
+    "null_id": 2
+   },
+   "related_org": {
+    "profile_ok": 504,
+    "profile_wrong": 119,
+    "null_id": 218
+   }
+  },
+  "hk": {
+   "work_org": {
+    "profile_ok": 1393,
+    "null_id": 1347
+   },
+   "person_rel": {
+    "profile_ok": 399,
+    "registered_no_profile": 47,
+    "null_id": 30
+   },
+   "family": {
+    "profile_ok": 57,
+    "null_id": 254,
+    "registered_no_profile": 7
+   },
+   "key_people": {
+    "profile_ok": 539,
+    "null_id": 1
+   },
+   "related_org": {
+    "profile_ok": 151,
+    "null_id": 353
+   }
+  },
+  "id": {
+   "work_org": {
+    "null_id": 4628,
+    "profile_ok": 1251
+   },
+   "person_rel": {
+    "profile_ok": 1900,
+    "null_id": 1174
+   },
+   "family": {
+    "profile_ok": 141,
+    "null_id": 1910
+   },
+   "key_people": {
+    "profile_ok": 447,
+    "null_id": 258,
+    "profile_wrong": 1
+   },
+   "related_org": {
+    "profile_ok": 175,
+    "null_id": 543
+   }
+  },
+  "iq": {
+   "work_org": {
+    "profile_ok": 732,
+    "null_id": 691
+   },
+   "person_rel": {
+    "profile_ok": 758,
+    "null_id": 238,
+    "registered_no_profile": 219
+   },
+   "family": {
+    "null_id": 131,
+    "profile_ok": 16,
+    "registered_no_profile": 11
+   },
+   "key_people": {
+    "registered_no_profile": 282,
+    "profile_ok": 263,
+    "registry_wrong_name": 3
+   },
+   "related_org": {
+    "profile_ok": 453,
+    "null_id": 256
+   }
+  },
+  "jo": {
+   "work_org": {
+    "null_id": 793,
+    "profile_ok": 714
+   },
+   "person_rel": {
+    "profile_ok": 508,
+    "null_id": 342
+   },
+   "family": {
+    "profile_ok": 17,
+    "null_id": 253
+   },
+   "key_people": {
+    "profile_ok": 295,
+    "null_id": 4,
+    "registered_no_profile": 1
+   },
+   "related_org": {
+    "profile_ok": 188,
+    "null_id": 162
+   }
+  },
+  "jp": {
+   "work_org": {
+    "profile_ok": 3220,
+    "null_id": 1499,
+    "registered_no_profile": 1299,
+    "registry_wrong_name": 125
+   },
+   "person_rel": {
+    "registered_no_profile": 439,
+    "profile_ok": 1018,
+    "null_id": 213,
+    "ghost": 1,
+    "registry_wrong_name": 2
+   },
+   "family": {
+    "null_id": 256,
+    "registered_no_profile": 5,
+    "profile_ok": 11
+   },
+   "key_people": {
+    "profile_ok": 543,
+    "null_id": 79
+   },
+   "related_org": {
+    "profile_ok": 522,
+    "registered_no_profile": 419,
+    "null_id": 148,
+    "registry_wrong_name": 13
+   }
+  },
+  "kg": {
+   "work_org": {
+    "null_id": 2079,
+    "profile_ok": 948
+   },
+   "person_rel": {
+    "null_id": 437,
+    "profile_ok": 357
+   },
+   "family": {
+    "null_id": 257,
+    "profile_ok": 13
+   },
+   "key_people": {
+    "profile_ok": 401,
+    "profile_wrong": 4,
+    "null_id": 119
+   },
+   "related_org": {
+    "profile_ok": 266,
+    "null_id": 621
+   }
+  },
+  "kh": {
+   "work_org": {
+    "profile_ok": 650,
+    "null_id": 402,
+    "registered_no_profile": 37,
+    "registry_wrong_name": 3
+   },
+   "person_rel": {
+    "profile_ok": 621,
+    "registered_no_profile": 188
+   },
+   "family": {
+    "null_id": 124,
+    "registered_no_profile": 4,
+    "profile_ok": 50
+   },
+   "key_people": {
+    "profile_ok": 299,
+    "registered_no_profile": 140,
+    "ghost": 2
+   },
+   "related_org": {
+    "profile_ok": 328,
+    "registered_no_profile": 130,
+    "null_id": 22,
+    "registry_wrong_name": 9
+   }
+  },
+  "kr": {
+   "work_org": {
+    "null_id": 5980,
+    "profile_ok": 5114,
+    "registered_no_profile": 3
+   },
+   "person_rel": {
+    "profile_ok": 1996,
+    "null_id": 664,
+    "profile_wrong": 4
+   },
+   "family": {
+    "null_id": 790,
+    "profile_ok": 96
+   },
+   "key_people": {
+    "profile_ok": 481
+   },
+   "related_org": {
+    "profile_ok": 586,
+    "null_id": 189,
+    "ghost": 129,
+    "registry_wrong_name": 47,
+    "registered_no_profile": 34
+   }
+  },
+  "kw": {
+   "work_org": {
+    "profile_ok": 900,
+    "registered_no_profile": 55,
+    "null_id": 482,
+    "registry_wrong_name": 13
+   },
+   "person_rel": {
+    "registered_no_profile": 200,
+    "profile_ok": 431,
+    "null_id": 2
+   },
+   "family": {
+    "null_id": 124,
+    "profile_ok": 7,
+    "registered_no_profile": 7
+   },
+   "key_people": {
+    "profile_ok": 307,
+    "registered_no_profile": 154,
+    "null_id": 2,
+    "registry_wrong_name": 2
+   },
+   "related_org": {
+    "profile_ok": 380,
+    "registered_no_profile": 146,
+    "null_id": 8
+   }
+  },
+  "kz": {
+   "work_org": {
+    "null_id": 789,
+    "profile_ok": 450,
+    "registry_wrong_name": 55,
+    "registered_no_profile": 54
+   },
+   "person_rel": {
+    "profile_ok": 231,
+    "registry_wrong_name": 19,
+    "registered_no_profile": 112,
+    "null_id": 43
+   },
+   "family": {
+    "null_id": 89,
+    "registered_no_profile": 2
+   },
+   "key_people": {
+    "profile_ok": 176,
+    "registered_no_profile": 172,
+    "null_id": 64,
+    "registry_wrong_name": 19
+   },
+   "related_org": {
+    "profile_ok": 296,
+    "registered_no_profile": 189,
+    "registry_wrong_name": 2,
+    "null_id": 8
+   }
+  },
+  "la": {
+   "work_org": {
+    "profile_ok": 584,
+    "null_id": 186,
+    "registered_no_profile": 55,
+    "registry_wrong_name": 8
+   },
+   "person_rel": {
+    "registered_no_profile": 148,
+    "profile_ok": 460,
+    "null_id": 3
+   },
+   "family": {
+    "registered_no_profile": 4,
+    "profile_ok": 11,
+    "null_id": 31
+   },
+   "key_people": {
+    "profile_ok": 220,
+    "registered_no_profile": 21
+   },
+   "related_org": {
+    "profile_ok": 198,
+    "registered_no_profile": 134,
+    "null_id": 22,
+    "registry_wrong_name": 2
+   }
+  },
+  "lb": {
+   "work_org": {
+    "profile_ok": 787,
+    "null_id": 785,
+    "registered_no_profile": 113,
+    "registry_wrong_name": 1
+   },
+   "person_rel": {
+    "profile_ok": 588,
+    "null_id": 249,
+    "ghost": 1
+   },
+   "family": {
+    "null_id": 464,
+    "profile_ok": 51
+   },
+   "key_people": {
+    "profile_ok": 339,
+    "null_id": 2
+   },
+   "related_org": {
+    "profile_ok": 230,
+    "null_id": 12,
+    "registered_no_profile": 130
+   }
+  },
+  "ly": {
+   "work_org": {
+    "null_id": 328,
+    "profile_ok": 530,
+    "registered_no_profile": 64,
+    "registry_wrong_name": 13
+   },
+   "person_rel": {
+    "profile_ok": 620,
+    "registered_no_profile": 260
+   },
+   "family": {
+    "null_id": 45,
+    "profile_ok": 6,
+    "registered_no_profile": 2
+   },
+   "key_people": {
+    "profile_ok": 267,
+    "registered_no_profile": 143
+   },
+   "related_org": {
+    "profile_ok": 415,
+    "registered_no_profile": 309,
+    "null_id": 9,
+    "registry_wrong_name": 1
+   }
+  },
+  "ma": {
+   "work_org": {
+    "profile_ok": 820,
+    "null_id": 658,
+    "registered_no_profile": 52,
+    "registry_wrong_name": 66
+   },
+   "person_rel": {
+    "profile_ok": 414,
+    "registered_no_profile": 336
+   },
+   "family": {
+    "null_id": 131,
+    "profile_ok": 9,
+    "registered_no_profile": 4
+   },
+   "key_people": {
+    "profile_ok": 290,
+    "registered_no_profile": 283
+   },
+   "related_org": {
+    "profile_ok": 387,
+    "registered_no_profile": 294,
+    "null_id": 144,
+    "registry_wrong_name": 21
+   }
+  },
+  "mo": {
+   "work_org": {
+    "null_id": 525,
+    "profile_ok": 579
+   },
+   "person_rel": {
+    "profile_ok": 416,
+    "null_id": 89
+   },
+   "family": {
+    "null_id": 45,
+    "profile_ok": 11
+   },
+   "key_people": {
+    "profile_ok": 190
+   },
+   "related_org": {
+    "profile_ok": 138,
+    "null_id": 83
+   }
+  },
+  "mx": {
+   "work_org": {
+    "null_id": 1089,
+    "profile_ok": 2162,
+    "registered_no_profile": 1141,
+    "registry_wrong_name": 92
+   },
+   "person_rel": {
+    "profile_ok": 612,
+    "null_id": 699
+   },
+   "family": {
+    "null_id": 645,
+    "profile_ok": 40
+   },
+   "key_people": {
+    "profile_ok": 412,
+    "null_id": 2
+   },
+   "related_org": {
+    "profile_ok": 345,
+    "registered_no_profile": 95,
+    "null_id": 71
+   }
+  },
+  "my": {
+   "work_org": {
+    "null_id": 2355,
+    "profile_ok": 1383,
+    "ghost": 11
+   },
+   "family": {
+    "null_id": 770,
+    "profile_ok": 29,
+    "ghost": 6
+   },
+   "person_rel": {
+    "profile_ok": 368,
+    "ghost": 34,
+    "null_id": 444,
+    "profile_wrong": 1
+   },
+   "key_people": {
+    "profile_ok": 610,
+    "null_id": 98,
+    "ghost": 1
+   },
+   "related_org": {
+    "null_id": 156,
+    "profile_ok": 274,
+    "ghost": 1
+   }
+  },
+  "ng": {
+   "work_org": {
+    "profile_ok": 336,
+    "null_id": 349,
+    "profile_wrong": 6
+   },
+   "person_rel": {
+    "profile_ok": 67,
+    "null_id": 175,
+    "registered_no_profile": 33,
+    "ghost": 5
+   },
+   "family": {
+    "null_id": 138,
+    "registered_no_profile": 6,
+    "profile_ok": 2
+   },
+   "key_people": {
+    "registered_no_profile": 424,
+    "profile_ok": 81,
+    "null_id": 318,
+    "ghost": 19
+   },
+   "related_org": {
+    "profile_ok": 646,
+    "null_id": 476,
+    "profile_wrong": 20
+   }
+  },
+  "ni": {
+   "work_org": {
+    "null_id": 297,
+    "profile_ok": 489
+   },
+   "person_rel": {
+    "profile_ok": 327,
+    "null_id": 203,
+    "ghost": 1
+   },
+   "family": {
+    "profile_ok": 24,
+    "null_id": 141
+   },
+   "key_people": {
+    "profile_ok": 203,
+    "null_id": 85
+   },
+   "related_org": {
+    "profile_ok": 265,
+    "null_id": 185
+   }
+  },
+  "nz": {
+   "work_org": {
+    "profile_ok": 2256,
+    "registered_no_profile": 107,
+    "null_id": 2884,
+    "registry_wrong_name": 24
+   },
+   "person_rel": {
+    "registered_no_profile": 15,
+    "profile_ok": 335,
+    "ghost": 3,
+    "registry_wrong_name": 8,
+    "null_id": 287
+   },
+   "family": {
+    "null_id": 407,
+    "profile_ok": 8
+   },
+   "key_people": {
+    "profile_ok": 700,
+    "null_id": 8,
+    "ghost": 3
+   },
+   "related_org": {
+    "null_id": 393,
+    "profile_ok": 404,
+    "registered_no_profile": 30
+   }
+  },
+  "om": {
+   "work_org": {
+    "profile_ok": 545,
+    "null_id": 513,
+    "registered_no_profile": 112,
+    "registry_wrong_name": 12
+   },
+   "person_rel": {
+    "profile_ok": 357,
+    "registered_no_profile": 181,
+    "null_id": 42,
+    "registry_wrong_name": 1
+   },
+   "family": {
+    "profile_ok": 37,
+    "null_id": 97,
+    "registered_no_profile": 12
+   },
+   "key_people": {
+    "profile_ok": 242,
+    "registered_no_profile": 107,
+    "ghost": 1
+   },
+   "related_org": {
+    "profile_ok": 199,
+    "registered_no_profile": 184,
+    "null_id": 2,
+    "registry_wrong_name": 1
+   }
+  },
+  "pe": {
+   "work_org": {
+    "profile_ok": 939,
+    "null_id": 691,
+    "registry_wrong_name": 14,
+    "registered_no_profile": 50
+   },
+   "person_rel": {
+    "registered_no_profile": 334,
+    "profile_ok": 572,
+    "ghost": 2,
+    "null_id": 62
+   },
+   "family": {
+    "null_id": 194,
+    "profile_ok": 24
+   },
+   "key_people": {
+    "profile_ok": 245,
+    "null_id": 118
+   },
+   "related_org": {
+    "profile_ok": 432,
+    "registered_no_profile": 164,
+    "null_id": 41,
+    "registry_wrong_name": 2
+   }
+  },
+  "pg": {
+   "work_org": {
+    "null_id": 250,
+    "profile_ok": 1117,
+    "registered_no_profile": 623,
+    "registry_wrong_name": 2
+   },
+   "person_rel": {
+    "profile_ok": 632,
+    "null_id": 176,
+    "registered_no_profile": 175
+   },
+   "family": {
+    "null_id": 115,
+    "registered_no_profile": 1
+   },
+   "key_people": {
+    "profile_ok": 301,
+    "null_id": 3
+   },
+   "related_org": {
+    "profile_ok": 397,
+    "null_id": 27,
+    "registered_no_profile": 43
+   }
+  },
+  "ph": {
+   "work_org": {
+    "null_id": 3003,
+    "profile_ok": 3402,
+    "registry_wrong_name": 56,
+    "registered_no_profile": 381
+   },
+   "person_rel": {
+    "profile_ok": 2174,
+    "null_id": 779,
+    "registered_no_profile": 217,
+    "registry_wrong_name": 26
+   },
+   "family": {
+    "null_id": 1204,
+    "profile_ok": 165,
+    "registered_no_profile": 3
+   },
+   "key_people": {
+    "profile_ok": 964
+   },
+   "related_org": {
+    "profile_ok": 665,
+    "registered_no_profile": 429,
+    "null_id": 106,
+    "registry_wrong_name": 5
+   }
+  },
+  "qa": {
+   "work_org": {
+    "profile_ok": 1314,
+    "null_id": 1477
+   },
+   "family": {
+    "profile_ok": 164,
+    "null_id": 291,
+    "registered_no_profile": 1
+   },
+   "person_rel": {
+    "profile_ok": 806,
+    "null_id": 259,
+    "registry_wrong_name": 2,
+    "ghost": 2
+   },
+   "key_people": {
+    "profile_ok": 380,
+    "null_id": 1
+   },
+   "related_org": {
+    "profile_ok": 237,
+    "null_id": 229
+   }
+  },
+  "ru": {
+   "work_org": {
+    "profile_ok": 1474,
+    "null_id": 2276
+   },
+   "person_rel": {
+    "null_id": 690,
+    "profile_ok": 1009
+   },
+   "family": {
+    "null_id": 663,
+    "profile_ok": 26
+   },
+   "key_people": {
+    "profile_ok": 531,
+    "null_id": 50,
+    "registered_no_profile": 3
+   },
+   "related_org": {
+    "profile_ok": 331,
+    "null_id": 372
+   }
+  },
+  "sa": {
+   "work_org": {
+    "null_id": 2083,
+    "profile_ok": 1941,
+    "registered_no_profile": 310,
+    "registry_wrong_name": 41
+   },
+   "person_rel": {
+    "profile_ok": 1004,
+    "null_id": 278,
+    "registry_wrong_name": 8,
+    "registered_no_profile": 231,
+    "ghost": 6
+   },
+   "family": {
+    "null_id": 420,
+    "profile_ok": 84,
+    "registry_wrong_name": 3,
+    "registered_no_profile": 17
+   },
+   "key_people": {
+    "profile_ok": 579,
+    "registered_no_profile": 254,
+    "registry_wrong_name": 2,
+    "null_id": 3
+   },
+   "related_org": {
+    "profile_ok": 670,
+    "registered_no_profile": 289,
+    "null_id": 13,
+    "registry_wrong_name": 1
+   }
+  },
+  "sg": {
+   "work_org": {
+    "profile_ok": 1135,
+    "null_id": 1382,
+    "registered_no_profile": 11,
+    "profile_wrong": 8
+   },
+   "person_rel": {
+    "profile_ok": 527,
+    "null_id": 307
+   },
+   "family": {
+    "null_id": 233,
+    "profile_ok": 6
+   },
+   "key_people": {
+    "profile_ok": 436,
+    "null_id": 1
+   },
+   "related_org": {
+    "profile_ok": 168,
+    "null_id": 128,
+    "registered_no_profile": 21
+   }
+  },
+  "td": {
+   "work_org": {
+    "null_id": 228,
+    "profile_ok": 442,
+    "registry_wrong_name": 1
+   },
+   "person_rel": {
+    "registered_no_profile": 160,
+    "profile_ok": 235,
+    "null_id": 39
+   },
+   "family": {
+    "null_id": 20,
+    "profile_ok": 5,
+    "registered_no_profile": 2
+   },
+   "key_people": {
+    "profile_ok": 175,
+    "registered_no_profile": 135
+   },
+   "related_org": {
+    "null_id": 314,
+    "profile_ok": 323,
+    "registered_no_profile": 4
+   }
+  },
+  "th": {
+   "work_org": {
+    "null_id": 2476,
+    "profile_ok": 2544,
+    "registry_wrong_name": 49,
+    "registered_no_profile": 300,
+    "profile_wrong": 2
+   },
+   "person_rel": {
+    "profile_ok": 1616,
+    "null_id": 655,
+    "registered_no_profile": 302,
+    "registry_wrong_name": 10,
+    "profile_wrong": 22
+   },
+   "family": {
+    "null_id": 997,
+    "registered_no_profile": 8,
+    "profile_ok": 103
+   },
+   "key_people": {
+    "profile_ok": 695,
+    "null_id": 73
+   },
+   "related_org": {
+    "profile_ok": 408,
+    "registered_no_profile": 284,
+    "registry_wrong_name": 5,
+    "null_id": 15
+   }
+  },
+  "tj": {
+   "work_org": {
+    "null_id": 405,
+    "profile_ok": 347,
+    "registered_no_profile": 6
+   },
+   "person_rel": {
+    "profile_ok": 335,
+    "registered_no_profile": 8,
+    "registry_wrong_name": 2,
+    "null_id": 35,
+    "ghost": 2
+   },
+   "family": {
+    "null_id": 31,
+    "profile_ok": 9,
+    "registered_no_profile": 1
+   },
+   "key_people": {
+    "registered_no_profile": 115,
+    "profile_ok": 161,
+    "null_id": 2
+   },
+   "related_org": {
+    "profile_ok": 220,
+    "null_id": 11,
+    "registered_no_profile": 106
+   }
+  },
+  "tm": {
+   "work_org": {
+    "profile_ok": 442,
+    "registered_no_profile": 15,
+    "null_id": 371,
+    "registry_wrong_name": 2
+   },
+   "person_rel": {
+    "profile_ok": 314,
+    "registered_no_profile": 136,
+    "null_id": 1
+   },
+   "family": {
+    "profile_ok": 7,
+    "null_id": 47,
+    "registered_no_profile": 1
+   },
+   "key_people": {
+    "profile_ok": 198,
+    "registered_no_profile": 42
+   },
+   "related_org": {
+    "profile_ok": 365,
+    "registered_no_profile": 56,
+    "null_id": 22
+   }
+  },
+  "tn": {
+   "work_org": {
+    "profile_ok": 320,
+    "null_id": 295
+   },
+   "person_rel": {
+    "profile_ok": 262,
+    "registered_no_profile": 176,
+    "registry_wrong_name": 3
+   },
+   "family": {
+    "null_id": 63,
+    "registered_no_profile": 14,
+    "profile_ok": 4,
+    "registry_wrong_name": 1
+   },
+   "key_people": {
+    "registered_no_profile": 151,
+    "profile_ok": 121,
+    "registry_wrong_name": 1
+   },
+   "related_org": {
+    "profile_ok": 216,
+    "null_id": 167
+   }
+  },
+  "tw": {
+   "work_org": {
+    "null_id": 60,
+    "profile_ok": 62
+   },
+   "person_rel": {
+    "profile_ok": 21,
+    "null_id": 3
+   },
+   "family": {
+    "null_id": 13
+   },
+   "key_people": {
+    "profile_ok": 79
+   }
+  },
+  "tz": {
+   "work_org": {
+    "profile_ok": 1230,
+    "null_id": 854
+   },
+   "person_rel": {
+    "profile_ok": 794,
+    "registered_no_profile": 370,
+    "null_id": 200
+   },
+   "family": {
+    "null_id": 83,
+    "profile_ok": 21,
+    "registered_no_profile": 11
+   },
+   "key_people": {
+    "profile_ok": 386,
+    "registered_no_profile": 108
+   },
+   "related_org": {
+    "profile_ok": 473,
+    "null_id": 287,
+    "registered_no_profile": 8,
+    "registry_wrong_name": 6
+   }
+  },
+  "ug": {
+   "work_org": {
+    "profile_ok": 861,
+    "null_id": 465
+   },
+   "person_rel": {
+    "profile_ok": 602,
+    "null_id": 287,
+    "registered_no_profile": 23
+   },
+   "family": {
+    "profile_ok": 8,
+    "null_id": 210
+   },
+   "key_people": {
+    "profile_ok": 158,
+    "null_id": 749,
+    "registered_no_profile": 42,
+    "registry_wrong_name": 1
+   },
+   "related_org": {
+    "profile_ok": 548,
+    "null_id": 553
+   }
+  },
+  "us": {
+   "work_org": {
+    "profile_ok": 3608,
+    "null_id": 4358,
+    "registered_no_profile": 152,
+    "registry_wrong_name": 7
+   },
+   "person_rel": {
+    "null_id": 1791,
+    "profile_ok": 1809
+   },
+   "family": {
+    "null_id": 1447,
+    "profile_ok": 29
+   },
+   "key_people": {
+    "profile_ok": 694,
+    "null_id": 302,
+    "registered_no_profile": 3
+   },
+   "related_org": {
+    "profile_ok": 691,
+    "null_id": 198,
+    "registered_no_profile": 430
+   }
+  },
+  "uz": {
+   "work_org": {
+    "profile_ok": 657,
+    "null_id": 555,
+    "registered_no_profile": 53,
+    "registry_wrong_name": 18
+   },
+   "person_rel": {
+    "null_id": 61,
+    "profile_ok": 243,
+    "registered_no_profile": 153,
+    "registry_wrong_name": 2,
+    "ghost": 1
+   },
+   "family": {
+    "null_id": 47,
+    "profile_ok": 2
+   },
+   "key_people": {
+    "registry_wrong_name": 184,
+    "registered_no_profile": 141,
+    "profile_ok": 245,
+    "null_id": 10,
+    "profile_wrong": 1
+   },
+   "related_org": {
+    "profile_ok": 418,
+    "registered_no_profile": 217,
+    "registry_wrong_name": 10,
+    "null_id": 21
+   }
+  },
+  "vn": {
+   "work_org": {
+    "profile_ok": 872,
+    "registered_no_profile": 336,
+    "null_id": 424,
+    "registry_wrong_name": 33
+   },
+   "person_rel": {
+    "profile_ok": 250,
+    "null_id": 110
+   },
+   "family": {
+    "null_id": 73
+   },
+   "key_people": {
+    "profile_ok": 220,
+    "null_id": 3
+   },
+   "related_org": {
+    "profile_ok": 284,
+    "null_id": 63,
+    "registered_no_profile": 37
+   }
+  }
+ },
+ "collisions": {
+  "org": {},
+  "person": {}
+ },
+ "shadow_samples": {
+  "person_rel": [
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000020",
+    "ref_name": "沙玛·宾特·苏海勒·法里斯·马兹鲁伊 (شمة بنت سهيل فارس المزروعي)",
+    "id": "AE-PERSON-000065",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000090",
+    "ref_name": "苏丹·本·塔赫农·阿勒纳哈扬 (سلطان بن طحنون آل نهيان)",
+    "id": "AE-PERSON-000057",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000168",
+    "ref_name": "萨格尔·格巴什 (صقر غباش)",
+    "id": "AE-PERSON-000016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000169",
+    "ref_name": "萨格尔·古巴什 (صقر غباش)",
+    "id": "AE-PERSON-000016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000219",
+    "ref_name": "穆罕默德·贾拉勒·阿尔拉伊西 (Mohammed Jalal Al Rayssi)",
+    "id": "AE-PERSON-000029",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "az",
+    "person_id": "AZ-PERSON-000042",
+    "ref_name": "罗夫尚·贾瓦多夫 (Rovşan Cavadov)",
+    "id": "AZ-PERSON-000043",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "az",
+    "person_id": "AZ-PERSON-000042",
+    "ref_name": "巴鲁兹·巴赫拉莫夫 (Behruz Behramov)",
+    "id": "AZ-PERSON-000044",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "person_id": "DZ-PERSON-000081",
+    "ref_name": "阿卜杜勒-哈克·萨伊希 (عبد الحق سايحي)",
+    "id": "DZ-PERSON-000019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "person_id": "DZ-PERSON-000085",
+    "ref_name": "穆罕默德·拉乌拉瓦 (محمد روراوة)",
+    "id": "DZ-PERSON-000025",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "person_id": "DZ-PERSON-000460",
+    "ref_name": "侯赛因·艾特·艾哈迈德 (حسين آيت أحمد)",
+    "id": "DZ-PERSON-000003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "person_id": "JP-PERSON-000293",
+    "ref_name": "大卫·麦克米伦 (David W.C. MacMillan)",
+    "id": "JP-PERSON-000723",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "person_id": "JP-PERSON-000307",
+    "ref_name": "克里斯·梅勒达德利 (Chris Meledandri)",
+    "id": "JP-PERSON-000708",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kr",
+    "person_id": "KR-PERSON-000365",
+    "ref_name": null,
+    "id": "KR-PERSON-000001",
+    "class": "profile_wrong",
+    "current_profile": "이재명"
+   },
+   {
+    "cc": "kr",
+    "person_id": "KR-PERSON-000365",
+    "ref_name": null,
+    "id": "KR-PERSON-000272",
+    "class": "profile_wrong",
+    "current_profile": "박정현"
+   },
+   {
+    "cc": "kr",
+    "person_id": "KR-PERSON-000365",
+    "ref_name": null,
+    "id": "KR-PERSON-000102",
+    "class": "profile_wrong",
+    "current_profile": "조승래"
+   },
+   {
+    "cc": "kr",
+    "person_id": "KR-PERSON-000365",
+    "ref_name": null,
+    "id": "KR-PERSON-000966",
+    "class": "profile_wrong",
+    "current_profile": "이상민"
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000002",
+    "ref_name": "努尔雷别克·纳利巴耶夫 (Нурлыбек Налибаев)",
+    "id": "KZ-PERSON-000003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000002",
+    "ref_name": "卡纳特·博祖姆巴耶夫 (Канат Бозумбаев)",
+    "id": "KZ-PERSON-000004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000015",
+    "ref_name": "加尼·贝森巴耶夫 (Ғани Бейсембаев)",
+    "id": "KZ-PERSON-000162",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000015",
+    "ref_name": "达尼娅·埃斯帕耶娃 (Дания Еспаева)",
+    "id": "KZ-PERSON-000028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000016",
+    "ref_name": "阿斯哈特·艾马甘别托夫 (Асхат Аймагамбетов)",
+    "id": "KZ-PERSON-000064",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000023",
+    "ref_name": "叶尔博拉特·多萨耶夫 (Ерболат Досаев)",
+    "id": "KZ-PERSON-000030",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000035",
+    "ref_name": "达尼亚·耶斯帕耶娃 (Дания Еспаева)",
+    "id": "KZ-PERSON-000028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000039",
+    "ref_name": "谢里克·绍达巴耶夫 (Серик Саудабаев)",
+    "id": "KZ-PERSON-000160",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000040",
+    "ref_name": "艾别克·斯马季亚罗夫 (Айбек Смадияров)",
+    "id": "KZ-PERSON-000269",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000042",
+    "ref_name": "加利姆詹·科伊舍巴耶夫 (Галымжан Койшыбаев)",
+    "id": "KZ-PERSON-000005",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000074",
+    "ref_name": "叶尔金·博塔卡诺夫 (Еркин Ботаканов)",
+    "id": "KZ-PERSON-000247",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000083",
+    "ref_name": "塔季扬娜·萨维利耶娃 (Татьяна Савельева)",
+    "id": "KZ-PERSON-000279",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000096",
+    "ref_name": "阿斯哈特·哈萨诺夫 (Асхат Хасенов)",
+    "id": "KZ-PERSON-000064",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000153",
+    "ref_name": "艾别克·克拉姆巴耶夫 (Aibek Krambayev)",
+    "id": "KZ-PERSON-000269",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000208",
+    "ref_name": "阿斯哈特·卡拉戈伊申 (Асхат Карагойшин)",
+    "id": "KZ-PERSON-000064",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000208",
+    "ref_name": "阿赫梅特卡利·卡拉戈伊申 (Ахметкали Жиенбаевич Карагойшин)",
+    "id": "KZ-PERSON-000111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000210",
+    "ref_name": "努尔让·努尔日吉托夫 (Нуржан Нуржигитов)",
+    "id": "KZ-PERSON-000108",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000234",
+    "ref_name": "卡瑟莫娃·艾然 (Айжан Кассымова)",
+    "id": "KZ-PERSON-000045",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "person_id": "KZ-PERSON-000287",
+    "ref_name": "马克西姆·阿基莫夫 (Максим Акимов)",
+    "id": "KZ-PERSON-000176",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "my",
+    "person_id": "MY-PERSON-000520",
+    "ref_name": "",
+    "id": "MY-PERSON-000510",
+    "class": "profile_wrong",
+    "current_profile": "莫哈末拉菲·马特拉扎里"
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000013",
+    "ref_name": "马克·米切尔(Mark Mitchell)",
+    "id": "NZ-PERSON-000051",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000025",
+    "ref_name": "阿里亚娜·保罗(Ariana Paul)",
+    "id": "NZ-PERSON-000038",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000159",
+    "ref_name": "马克·博戈耶夫斯基(Marko Bogoievski)",
+    "id": "NZ-PERSON-000051",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000159",
+    "ref_name": "马克·图姆(Mark Tume)",
+    "id": "NZ-PERSON-000051",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000209",
+    "ref_name": "弗兰克·吉尔(Frank Gill)",
+    "id": "NZ-PERSON-000252",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000209",
+    "ref_name": "莎拉·马特森(Sarah Mattson)",
+    "id": "NZ-PERSON-000214",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000231",
+    "ref_name": "迈克尔·韦伯斯特(Michael Webster)",
+    "id": "NZ-PERSON-000247",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "nz",
+    "person_id": "NZ-PERSON-000237",
+    "ref_name": "罗杰·麦克莱(Roger McClay)",
+    "id": "NZ-PERSON-000005",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "om",
+    "person_id": "OM-PERSON-000225",
+    "ref_name": "塔里克·萨利姆·穆斯泰希勒·马沙尼 (طارق سالم مستهيل المعشني)",
+    "id": "OM-PERSON-000144",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000236",
+    "ref_name": "尤吉·菲莱蒙·鲁伊斯 (Yogi Filemon Ruiz)",
+    "id": "PH-PERSON-000913",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000273",
+    "ref_name": "杰伊·巴通巴卡尔 (Jay Batongbacal)",
+    "id": "PH-PERSON-000913",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000442",
+    "ref_name": "利托·阿布罗加 (Lito Abrogar)",
+    "id": "PH-PERSON-000979",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000518",
+    "ref_name": "奇特·埃斯特拉 (Chit Estella)",
+    "id": "PH-PERSON-000908",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000519",
+    "ref_name": "奇特·埃斯特拉 (Chit Estella)",
+    "id": "PH-PERSON-000908",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000520",
+    "ref_name": "奇特·埃斯特拉 (Chit Estella)",
+    "id": "PH-PERSON-000908",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000521",
+    "ref_name": "奇特·埃斯特拉 (Chit Estella)",
+    "id": "PH-PERSON-000908",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000522",
+    "ref_name": "奇特·埃斯特拉 (Chit Estella)",
+    "id": "PH-PERSON-000908",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000543",
+    "ref_name": "布莱恩·科 (Bryan Andersen Co)",
+    "id": "PH-PERSON-000930",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000573",
+    "ref_name": "罗多拉·卡迪奥 (Rhodora Cadiao)",
+    "id": "PH-PERSON-001065",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000639",
+    "ref_name": "劳伦斯·李(Lawrence Lee)",
+    "id": "PH-PERSON-000976",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000649",
+    "ref_name": "布莱恩·U·维拉纽瓦 (Bryan U. Villanueva)",
+    "id": "PH-PERSON-000930",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000651",
+    "ref_name": "伊丽莎白·T·施 (Elizabeth T. Sy)",
+    "id": "PH-PERSON-000962",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000658",
+    "ref_name": "杰伊·梁 (Jay Leong)",
+    "id": "PH-PERSON-000913",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000667",
+    "ref_name": "伊丽莎白·余·戈孔威 (Elizabeth Yu Gokongwei)",
+    "id": "PH-PERSON-000962",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000667",
+    "ref_name": "胡安尼塔·马克斯·林 (Juanita Márquez Lim)",
+    "id": "PH-PERSON-000988",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000669",
+    "ref_name": "伊丽莎白·余·戈孔威 (Elizabeth Yu Gokongwei)",
+    "id": "PH-PERSON-000962",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000717",
+    "ref_name": "罗温娜·卡普南 (Rowena Kapunan)",
+    "id": "PH-PERSON-000974",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000841",
+    "ref_name": "奥黛丽·道恩·M·托马达 (Audrey Dawn M. Tomada)",
+    "id": "PH-PERSON-000915",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000844",
+    "ref_name": "杰西卡·卡普里乔 (Jesica Capricho)",
+    "id": "PH-PERSON-001083",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000846",
+    "ref_name": "费·阿霍克 (Fe Ajoc)",
+    "id": "PH-PERSON-001071",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000855",
+    "ref_name": "安杰莉卡·桑托斯 (Angelica Santos)",
+    "id": "PH-PERSON-000919",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000858",
+    "ref_name": "黛西·阿维拉纳 (Daisy Avellana)",
+    "id": "PH-PERSON-000971",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000858",
+    "ref_name": "缪丽尔·杰伊 (Muriel Jay)",
+    "id": "PH-PERSON-000913",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000873",
+    "ref_name": "马尔·泽里·拉米雷斯 (Mar Zeri Ramirez)",
+    "id": "PH-PERSON-000969",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ph",
+    "person_id": "PH-PERSON-000883",
+    "ref_name": "黛西·阿雷尔 (Daisy Arel)",
+    "id": "PH-PERSON-000971",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "qa",
+    "person_id": "QA-PERSON-000338",
+    "ref_name": "塔米姆·本·法哈德·阿勒萨尼 (تميم بن فهد آل ثاني)",
+    "id": "QA-PERSON-000337",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "qa",
+    "person_id": "QA-PERSON-000339",
+    "ref_name": "塔米姆·本·法哈德·阿勒萨尼 (تميم بن فهد آل ثاني)",
+    "id": "QA-PERSON-000337",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000003",
+    "ref_name": "苏尔坦·本·萨勒曼 (سلطان بن سلمان آل سعود)",
+    "id": "SA-PERSON-000008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000004",
+    "ref_name": "苏尔坦·本·萨勒曼 (سلطان بن سلمان آل سعود)",
+    "id": "SA-PERSON-000008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000024",
+    "ref_name": "阿卜杜勒卡里姆·本·阿卜杜拉赫曼·阿吉勒 (عبد الكريم بن عبد الرحمن العقيل)",
+    "id": "SA-PERSON-000023",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000046",
+    "ref_name": "苏尔坦·本·萨勒曼 (سلطان بن سلمان آل سعود)",
+    "id": "SA-PERSON-000008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000096",
+    "ref_name": "阿卜杜勒卡里姆·本·阿卜杜拉赫曼·阿吉勒 (عبد الكريم بن عبد الرحمن العقيل)",
+    "id": "SA-PERSON-000023",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000097",
+    "ref_name": "阿卜杜勒卡里姆·本·阿卜杜拉赫曼·阿吉勒 (عبد الكريم بن عبد الرحمن العقيل)",
+    "id": "SA-PERSON-000023",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000480",
+    "ref_name": "穆特卜·本·穆赫莱夫·卡尼 (متعب بن مخلف القني)",
+    "id": "SA-PERSON-000007",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000481",
+    "ref_name": "穆特卜·本·穆赫莱夫·卡尼 (متعب بن مخلف القني)",
+    "id": "SA-PERSON-000007",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000030",
+    "ref_name": "社尼·巴莫 (หม่อมราชวงศ์เสนีย์ ปราโมช)",
+    "id": "TH-PERSON-000724",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000031",
+    "ref_name": "英拉·钦那瓦 (ยิ่งลักษณ์ ชินวัตร)",
+    "id": "TH-PERSON-000631",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000032",
+    "ref_name": "吉拉旺·旺素帕吉措 (จิตรวรรณ หวังศุภกิจโกศล)",
+    "id": "TH-PERSON-000647",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000039",
+    "ref_name": "吉姆·汤普森 (Jim Thompson)",
+    "id": "TH-PERSON-000708",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000080",
+    "ref_name": "伊沙拉·颂猜 (อิสสระ สมชัย)",
+    "id": "TH-PERSON-000633",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000090",
+    "ref_name": "频苏达·贾亚纳马 (พินทุ์สุดา ชัยนาม)",
+    "id": "TH-PERSON-000678",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000156",
+    "ref_name": "尼温·奇初博 (นิวัฒน์ ชิดชอบ)",
+    "id": "TH-PERSON-000649",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000455",
+    "ref_name": "披猜·猜瓦提 (Pichai Chirathivat)",
+    "id": "TH-PERSON-000659",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000463",
+    "ref_name": "纳龙·谢拉瓦农 (ณรงค์ เจียรวนนท์)",
+    "id": "TH-PERSON-000692",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000519",
+    "ref_name": "彼得·霍尔登 (Peter Holden)",
+    "id": "TH-PERSON-000711",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000557",
+    "ref_name": null,
+    "id": "TH-PERSON-000554",
+    "class": "profile_wrong",
+    "current_profile": "Kasturi Mahkota"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000561",
+    "ref_name": null,
+    "id": "TH-PERSON-000558",
+    "class": "profile_wrong",
+    "current_profile": "Phana Khlaeoplotthuk"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000561",
+    "ref_name": null,
+    "id": "TH-PERSON-000560",
+    "class": "profile_wrong",
+    "current_profile": "Narongrit Khamphira"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000561",
+    "ref_name": null,
+    "id": "TH-PERSON-000562",
+    "class": "profile_wrong",
+    "current_profile": "Sarawut Chaisit"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000569",
+    "ref_name": null,
+    "id": "TH-PERSON-000570",
+    "class": "profile_wrong",
+    "current_profile": "อัสสเดช คงสิริ"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000569",
+    "ref_name": null,
+    "id": "TH-PERSON-000571",
+    "class": "profile_wrong",
+    "current_profile": "พิเชษฐ สิทธิอำนวย"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000576",
+    "ref_name": null,
+    "id": "TH-PERSON-000578",
+    "class": "profile_wrong",
+    "current_profile": "วัชร วัชรพล"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000576",
+    "ref_name": null,
+    "id": "TH-PERSON-000577",
+    "class": "profile_wrong",
+    "current_profile": "จิตสุภา วัชรพล"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000578",
+    "ref_name": null,
+    "id": "TH-PERSON-000577",
+    "class": "profile_wrong",
+    "current_profile": "จิตสุภา วัชรพล"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000587",
+    "ref_name": null,
+    "id": "TH-PERSON-000584",
+    "class": "profile_wrong",
+    "current_profile": "Samran Nuanma"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000589",
+    "ref_name": null,
+    "id": "TH-PERSON-000588",
+    "class": "profile_wrong",
+    "current_profile": "近藤勝則"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000589",
+    "ref_name": null,
+    "id": "TH-PERSON-000590",
+    "class": "profile_wrong",
+    "current_profile": "อารีวรรณ ฮาวรังษี"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000590",
+    "ref_name": null,
+    "id": "TH-PERSON-000588",
+    "class": "profile_wrong",
+    "current_profile": "近藤勝則"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000590",
+    "ref_name": null,
+    "id": "TH-PERSON-000589",
+    "class": "profile_wrong",
+    "current_profile": "Liu Ziping"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000591",
+    "ref_name": null,
+    "id": "TH-PERSON-000588",
+    "class": "profile_wrong",
+    "current_profile": "近藤勝則"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000591",
+    "ref_name": null,
+    "id": "TH-PERSON-000589",
+    "class": "profile_wrong",
+    "current_profile": "Liu Ziping"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000591",
+    "ref_name": null,
+    "id": "TH-PERSON-000590",
+    "class": "profile_wrong",
+    "current_profile": "อารีวรรณ ฮาวรังษี"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000599",
+    "ref_name": null,
+    "id": "TH-PERSON-000598",
+    "class": "profile_wrong",
+    "current_profile": "แผน วรรณเมธี"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000599",
+    "ref_name": null,
+    "id": "TH-PERSON-000597",
+    "class": "profile_wrong",
+    "current_profile": "Kao Kim Hourn"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000599",
+    "ref_name": null,
+    "id": "TH-PERSON-000333",
+    "class": "profile_wrong",
+    "current_profile": "สุรินทร์ พิศสุวรรณ"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000616",
+    "ref_name": null,
+    "id": "TH-PERSON-000615",
+    "class": "profile_wrong",
+    "current_profile": "Rorhing Ahsong"
+   },
+   {
+    "cc": "th",
+    "person_id": "TH-PERSON-000619",
+    "ref_name": null,
+    "id": "TH-PERSON-000615",
+    "class": "profile_wrong",
+    "current_profile": "Rorhing Ahsong"
+   },
+   {
+    "cc": "tj",
+    "person_id": "TJ-PERSON-000002",
+    "ref_name": "哈桑·萨杜洛耶夫 (Хасан Садуллоев / Асадуллозода)",
+    "id": "TJ-PERSON-000206",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "tj",
+    "person_id": "TJ-PERSON-000089",
+    "ref_name": "萨利姆佐达·阿利忠·阿卜杜贾洛尔 (Салимзода Алиҷон Абдудҷалол)",
+    "id": "TJ-PERSON-000091",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "tn",
+    "person_id": "TN-PERSON-000128",
+    "ref_name": "法德尔·阿卜杜勒卡菲 (فاضل عبد الكافي)",
+    "id": "TN-PERSON-000005",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "tn",
+    "person_id": "TN-PERSON-000186",
+    "ref_name": "艾哈迈德·易卜拉欣 (أحمد إبراهيم)",
+    "id": "TN-PERSON-000009",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "tn",
+    "person_id": "TN-PERSON-000234",
+    "ref_name": "宰因·阿比丁·本·阿里 (زين العابدين بن علي)",
+    "id": "TN-PERSON-000012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "person_id": "UZ-PERSON-000036",
+    "ref_name": "萨希·安纳克利切夫 (Annaklichev Saxi Saparmuxamedovich)",
+    "id": "UZ-PERSON-000252",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "person_id": "UZ-PERSON-000191",
+    "ref_name": "约尔多沙利·米尔扎卡里莫夫 (Mirzakarimov Yo'ldoshali Xusanboyevich)",
+    "id": "UZ-PERSON-000193",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   }
+  ],
+  "family": [
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000020",
+    "ref_name": "沙玛·宾特·苏海勒·法里斯·马兹鲁伊 (شمة بنت سهيل فارس المزروعي)",
+    "id": "AE-PERSON-000065",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000090",
+    "ref_name": "苏丹·本·塔赫农·阿勒纳哈扬 (سلطان بن طحنون آل نهيان)",
+    "id": "AE-PERSON-000057",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000004",
+    "ref_name": "苏尔坦·本·萨勒曼 (سلطان بن سلمان آل سعود)",
+    "id": "SA-PERSON-000008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000024",
+    "ref_name": "阿卜杜勒卡里姆·本·阿卜杜拉赫曼·阿吉勒 (عبد الكريم بن عبد الرحمن العقيل)",
+    "id": "SA-PERSON-000023",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "person_id": "SA-PERSON-000046",
+    "ref_name": "苏尔坦·本·萨勒曼 (سلطان بن سلمان آل سعود)",
+    "id": "SA-PERSON-000008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "tn",
+    "person_id": "TN-PERSON-000234",
+    "ref_name": "宰因·阿比丁·本·阿里 (زين العابدين بن علي)",
+    "id": "TN-PERSON-000012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   }
+  ],
+  "work_org": [
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000032",
+    "ref_name": "阿布扎比酋长国 (إمارة أبوظبي)",
+    "id": "AE-GOV-041",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000032",
+    "ref_name": "阿布扎比酋长国 (إمارة أبوظبي)",
+    "id": "AE-GOV-041",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000032",
+    "ref_name": "阿布扎比酋长国 (إمارة أبوظبي)",
+    "id": "AE-GOV-041",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000082",
+    "ref_name": "ADCG（英国）公司 (ADCG (UK) Ltd)",
+    "id": "AE-CORP-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000118",
+    "ref_name": "Salik 公司 (سالك)",
+    "id": "AE-CORP-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000152",
+    "ref_name": "ASAS公司 (ASAS Company)",
+    "id": "AE-CORP-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000158",
+    "ref_name": "美阿商业理事会 (U.S.-U.A.E. Business Council)",
+    "id": "AE-NGO-013",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000202",
+    "ref_name": "Salik公司 (Salik Company PJSC)",
+    "id": "AE-CORP-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000265",
+    "ref_name": "ENEC Operations 公司 (شركة الإمارات للطاقة النووية - العمليات التشغيلية)",
+    "id": "AE-CORP-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ae",
+    "person_id": "AE-PERSON-000265",
+    "ref_name": "ENEC Commercial 公司 (الإمارات للطاقة النووية - الشؤون التجارية)",
+    "id": "AE-CORP-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000007",
+    "ref_name": "非洲国际税务专家网络 (Réseau africain des experts en fiscalité internationale, REAFI)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000020",
+    "ref_name": "国家职业培训学校与中心协调机制 (Coordination des écoles et centres de formation professionnelle de l'État)",
+    "id": "BF-GOV-017",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000025",
+    "ref_name": "布基纳法索中东部大区 (Région du Centre-Est)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000028",
+    "ref_name": "国家经济社会发展计划常设秘书处 (Secrétariat permanent du Plan national de développement économique et social, SP-PNDES)",
+    "id": "BF-INTL-002",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000029",
+    "ref_name": "萨赫勒大学韧性网络 (Réseau des Universités du Sahel pour la Résilience, REUNIR)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000049",
+    "ref_name": "总统安全团 (Régiment de sécurité présidentielle)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000056",
+    "ref_name": "卡雅炮兵团 (Régiment d'artillerie de Kaya)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000056",
+    "ref_name": "上盆地大区 (Région des Hauts-Bassins)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000082",
+    "ref_name": "凯雷律师事务所 (Cabinet Kéré Avocats)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000094",
+    "ref_name": "治理与发展研究所 (Institut pour la gouvernance et le développement, IGD)",
+    "id": "BF-INTL-002",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000099",
+    "ref_name": "布克莱迪穆翁大区 (Région de la Boucle du Mouhoun)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "person_id": "BF-PERSON-000100",
+    "ref_name": "非洲妇女权利促进泛非网络 (WILDAF – Réseau panafricain pour la promotion des droits des femmes)",
+    "id": "BF-GOV-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000002",
+    "ref_name": "文莱2035宏愿最高理事会 (Wawasan Brunei Supreme Council)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000005",
+    "ref_name": "工业与初级资源部 (Ministry of Industry and Primary Resources)",
+    "id": "BN-GOV-024",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000063",
+    "ref_name": "北部湾控股（文莱）有限公司(北部湾控股（文莱）有限公司)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000066",
+    "ref_name": "Makan Ceria 有限公司 (Makan Ceria Sdn Bhd)",
+    "id": "BN-FIN-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000091",
+    "ref_name": "拉贾·伊斯特里·彭吉兰·阿娜克·萨莱哈都东中学 (Sekolah Menengah Raja Isteri Pengiran Anak Saleha Tutong)",
+    "id": "BN-GOV-036",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000137",
+    "ref_name": "文莱-阿曼投资公司 (Oman Brunei Investment Company)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000159",
+    "ref_name": "文莱Women TechMakers (Women TechMakers Brunei)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000183",
+    "ref_name": "文莱AIP律师事务所 (AIP Law，前称Ahmad Isa & Partners)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "person_id": "BN-PERSON-000226",
+    "ref_name": "文莱-穆阿拉区公署 (Brunei-Muara District Office)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000001",
+    "ref_name": "联合国人权事务高级专员办事处 (Haut-Commissariat des Nations unies aux droits de l'homme, HCDH)",
+    "id": "CD-NGO-026",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000005",
+    "ref_name": "联合国大湖区问题特使办公室 (Bureau de l'Envoyé spécial des Nations Unies pour la région des Grands Lacs)",
+    "id": "CD-INTL-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000032",
+    "ref_name": "非洲人权协会 (Association africaine de défense des droits de l'homme, ASADHO)",
+    "id": "CD-NGO-026",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000032",
+    "ref_name": "联合国人权事务高级专员办事处 (Haut-Commissariat des Nations unies aux droits de l'homme, HCDH)",
+    "id": "CD-NGO-026",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000091",
+    "ref_name": "总统军事府 (Maison militaire du Chef de l'État)",
+    "id": "CD-GOV-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000117",
+    "ref_name": "GE 航空金融服务 (GE Capital Aviation Services, GECAS)",
+    "id": "CD-NGO-023",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000128",
+    "ref_name": "Speed Change 公司 (Speed Change)",
+    "id": "CD-CORP-037",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000151",
+    "ref_name": "联合国秘书处维和行动部 (Département des opérations de maintien de la paix, DPO)",
+    "id": "CD-INTL-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000151",
+    "ref_name": "联合国政治和建设和平事务部与维和行动部 (Département des affaires politiques et de la consolidation de la paix et Département des opérations de paix, DPPA-DPO)",
+    "id": "CD-INTL-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000157",
+    "ref_name": "部长办公厅与总统府办公厅 (Cabinets ministériels puis Cabinet du Chef de l'État)",
+    "id": "CD-GOV-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000186",
+    "ref_name": "「50集团」联盟 (Alliance Bloc 50, A/B50)",
+    "id": "CD-CORP-042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000220",
+    "ref_name": "沙勒罗瓦ACEC公司 (ACEC Charleroi)",
+    "id": "CD-CORP-037",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000235",
+    "ref_name": "Orange 集团 (Orange S.A.)",
+    "id": "CD-CORP-042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000235",
+    "ref_name": "Orange 集团 (Orange S.A.)",
+    "id": "CD-CORP-042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000240",
+    "ref_name": "米雷康姆/Tigo(米雷康姆/Tigo (Millicom (Tigo)))",
+    "id": "CD-CORP-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000249",
+    "ref_name": "马里饮料公司 (Bramali – Boissons Rafraîchissantes du Mali)",
+    "id": "CD-CORP-046",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000278",
+    "ref_name": "巴桑库苏教区 (Diocèse de Basankusu)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000282",
+    "ref_name": "天主教马塔迪教区 (Diocèse de Matadi)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000282",
+    "ref_name": "天主教马塔迪教区 (Diocèse de Matadi)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000282",
+    "ref_name": "天主教马塔迪教区 (Diocèse de Matadi)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000282",
+    "ref_name": "瑞士洛桑、日内瓦与弗里堡教区 (Diocèse de Lausanne, Genève et Fribourg, Suisse)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000293",
+    "ref_name": "天主教乌维拉教区 (Diocèse Catholique d'Uvira)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000330",
+    "ref_name": "Five M集团 (Five M Group SARL)",
+    "id": "CD-CORP-042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "person_id": "CD-PERSON-000359",
+    "ref_name": "蓝山教区·AIC 教会 (Diocèse des Monts Bleus, Église AIC)",
+    "id": "CD-NGO-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000008",
+    "ref_name": "非洲联合保险公司 (Union Africaine，UAP 系子公司，UAP 并入 AXA 后属 AXA 集团)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000010",
+    "ref_name": "咖啡可可调节与控制基金 (Fonds de Régulation et de Contrôle café-cacao, FRC)",
+    "id": "CI-GOV-029",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000013",
+    "ref_name": "法国工商信贷银行 (Crédit Industriel et Commercial)",
+    "id": "CI-FIN-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000014",
+    "ref_name": "塞内加尔共和国 (République du Sénégal)",
+    "id": "CI-NGO-018",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000014",
+    "ref_name": "AFRIVAC 基金会 (Fondation AFRIVAC)",
+    "id": "CI-NGO-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000061",
+    "ref_name": "科特迪瓦共和国 (République de Côte d'Ivoire)",
+    "id": "CI-NGO-018",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000068",
+    "ref_name": "阿比让国立统计与应用经济学院 (École nationale supérieure de statistique et d'économie appliquée, ENSSEA)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000071",
+    "ref_name": "SNEDAI集团 (Snedai Group)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000101",
+    "ref_name": "城市基础设施紧急项目 (Projet d'urgence d'infrastructures urbaines, PUIUR)",
+    "id": "CI-GOV-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000101",
+    "ref_name": "市政运作支持项目 (Projet d'appui à la conduite d'opérations municipales, PACOM)",
+    "id": "CI-GOV-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000102",
+    "ref_name": "阿比让国家统计与应用经济高等学院 (École Nationale Supérieure de Statistique et d'Économie Appliquée, ENSEA)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000102",
+    "ref_name": "阿比让国家统计与应用经济高等学院 (École Nationale Supérieure de Statistique et d'Économie Appliquée, ENSEA)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000102",
+    "ref_name": "阿比让国家统计与应用经济高等学院 (École Nationale Supérieure de Statistique et d'Économie Appliquée, ENSEA)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000103",
+    "ref_name": "科特迪瓦评估网络 (Réseau ivoirien de Suivi et d'Évaluation, RISE)",
+    "id": "CI-NGO-018",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000106",
+    "ref_name": "联合国环境规划署 (Programme des Nations unies pour l'environnement, PNUE)",
+    "id": "CI-GOV-033",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000112",
+    "ref_name": "SWEDD 项目区域指导委员会(SWEDD 项目区域指导委员会 (Comité Régional de Pilotage (CRP) du Projet SWEDD))",
+    "id": "CI-NGO-018",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000118",
+    "ref_name": "科特迪瓦装备与道路维护部 (Ministère de l'Équipement et de l'Entretien Routier)",
+    "id": "CI-GOV-035",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000125",
+    "ref_name": "贝雷大区委员会 (Conseil régional du Béré)",
+    "id": "CI-NGO-018",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000179",
+    "ref_name": "Brandon & Mcain 集团 (Groupe Brandon & Mcain)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000181",
+    "ref_name": "SouthBridge集团 (SouthBridge Group)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "person_id": "CI-PERSON-000196",
+    "ref_name": "Ecobank 集团 (Ecobank Group)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000003",
+    "ref_name": "智利养老基金管理公司行业协会 (Asociación Gremial de AFP de Chile)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000010",
+    "ref_name": "首都大区司法援助公司 (Corporación de Asistencia Judicial de la Región Metropolitana)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000030",
+    "ref_name": "圣地亚哥司法援助公司 (Corporación de Asistencia Judicial de San Fernando)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000030",
+    "ref_name": "比尼亚德尔马市政社会发展公司 (Corporación Municipal de Viña del Mar para el Desarrollo Social)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000032",
+    "ref_name": "智利市政协会学校 (Escuela ACHM, Asociación Chilena de Municipalidades)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000040",
+    "ref_name": "圣地亚哥2023泛美运动会组委会 (Corporación Santiago 2023)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000060",
+    "ref_name": "技术准入委员会 (Comité Técnico de Admisibilidad)",
+    "id": "CL-NGO-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000071",
+    "ref_name": "智利安全协会 (Asociación Chilena de Seguridad, ACHS)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000071",
+    "ref_name": "拉斯孔德斯卫生教育公司 (Corporación de Salud y Educación de Las Condes)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000085",
+    "ref_name": "联合国粮食及农业组织 (Organización de las Naciones Unidas para la Alimentación y la Agricultura, FAO)",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000098",
+    "ref_name": "全国卫生服务企业协会 (Asociación Nacional de Empresas de Servicios Sanitarios, Andess)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000105",
+    "ref_name": "数据保护专业人士协会 (Asociación de Profesionales de Protección de Datos)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000106",
+    "ref_name": "全国回收工业协会 (Asociación Nacional de la Industria del Reciclaje, ANIR)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000115",
+    "ref_name": "东区市政安全协会 (Asociación de Municipalidades para la Seguridad de la Zona Oriente)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000115",
+    "ref_name": "冲突与社会凝聚力研究中心 (Centro de Estudios de Conflictos y Cohesión Social, COES)",
+    "id": "CL-GOV-057",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000116",
+    "ref_name": "智利奥希金斯大学 (Universidad de O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000116",
+    "ref_name": "塔尔卡市发展公司 (Corporación de Desarrollo de la Municipalidad de Talca)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000120",
+    "ref_name": "智利大学公共事务研究所 (Instituto de Asuntos Públicos, INAP - Universidad de Chile)",
+    "id": "CL-NGO-021",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000120",
+    "ref_name": "制宪进程参与阶段系统化委员会 (Comité de Sistematización de la etapa participativa del proceso constituyente)",
+    "id": "CL-NGO-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000123",
+    "ref_name": "智利职业足球协会 (Asociación Nacional de Fútbol Profesional, ANFP)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000124",
+    "ref_name": "东区高复杂度与有组织犯罪检察院 (Fiscalía de Alta Complejidad y Crimen Organizado, Fiscalía Regional Metropolitana Oriente)",
+    "id": "CL-GOV-052",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000129",
+    "ref_name": "儿童与青少年保护捍卫者办公室 (Defensoría de la Niñez)",
+    "id": "CL-GOV-060",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000130",
+    "ref_name": "拉斯孔德斯教育与健康公司 (Corporación de Educación y Salud de Las Condes)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000138",
+    "ref_name": "西班牙对外银行智利人寿保险公司 (BBVA Seguros de Vida)",
+    "id": "CL-CORP-099",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000139",
+    "ref_name": "PrimAmérica咨询公司 (PrimAmerica S.A.)",
+    "id": "CL-MEDIA-020",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000148",
+    "ref_name": "托雷斯德尔潘恩酒店与旅游服务协会（Asociación de Hoteles y Servicios Turísticos de Torres del Paine (HYST)）(托雷斯德尔潘恩酒店与旅游服务协会 (Asociación de Hoteles y Servicios Turísticos de Torres del Paine (HYST)))",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000150",
+    "ref_name": "智利旅游企业联合会 (Federación de Empresas de Turismo de Chile, Fedetur)",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000171",
+    "ref_name": "智利养老金管理公司协会 (Asociación de AFP)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000175",
+    "ref_name": "美洲保险企业联合会 (Federación Interamericana de Empresas de Seguros, Fides)",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000175",
+    "ref_name": "智利保险协会 (Asociación de Aseguradores de Chile)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000189",
+    "ref_name": "智利安全协会 (Asociación Chilena de Seguridad)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000189",
+    "ref_name": "智利创业者协会 (Asociación de Emprendedores de Chile, Asech)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000194",
+    "ref_name": "奥希金斯大区政府 (Gobierno Regional del Libertador General Bernardo O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000196",
+    "ref_name": "大都会公共交通管理局 (Directorio de Transporte Público Metropolitano, DTPM)",
+    "id": "CL-GOV-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000212",
+    "ref_name": "奥希金斯林业公司 (Forestal O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000218",
+    "ref_name": "奥希金斯林业公司 (Forestal O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000218",
+    "ref_name": "瓦尔帕莱索矿业公司 (Minera Valparaíso S.A.)",
+    "id": "CL-SOE-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000223",
+    "ref_name": "智利可再生能源与储能协会 (Asociación Chilena de Energías Renovables y Almacenamiento, Acera A.G.)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000224",
+    "ref_name": "瓦尔帕莱索矿业公司 (Minera Valparaíso S.A.)",
+    "id": "CL-SOE-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000224",
+    "ref_name": "瓦尔帕莱索矿业公司 (Minera Valparaíso S.A.)",
+    "id": "CL-SOE-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000230",
+    "ref_name": "佩文切电力公司 (Empresa Eléctrica Pehuenche S.A.)",
+    "id": "CL-CORP-075",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000230",
+    "ref_name": "Enel 集团（意大利总部）(Enel Group, Italy)(Enel 集团（意大利总部） (Enel Group, Italy))",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000234",
+    "ref_name": "Enel 集团（Grupo Enel）及西班牙/意大利私营企业(Enel 集团 (Grupo Enel) 及西班牙/意大利私营企业)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000237",
+    "ref_name": "Enel 集团 (Gruppo Enel)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000238",
+    "ref_name": "Enel 集团 (Enel Group)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000241",
+    "ref_name": "圣丽塔酒庄 (Viña Santa Rita)",
+    "id": "CL-CORP-094",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000241",
+    "ref_name": "海德思哲国际咨询公司 (Heidrick & Struggles International, Inc.)",
+    "id": "CL-CORP-098",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000241",
+    "ref_name": "吉莱特卫星网络公司 (Gilat Satellite Networks, Inc.)",
+    "id": "CL-CORP-098",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000246",
+    "ref_name": "智利大学管理与公共政策硕士项目 (Magíster en Gestión y Políticas Públicas, MGPP)",
+    "id": "CL-GOV-054",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000252",
+    "ref_name": "智利管理学院院长协会 (ASFAE-Chile, Asociación Chilena de Facultades de Administración)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000253",
+    "ref_name": "奥伊金斯大学 (Universidad de O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000268",
+    "ref_name": "Ñuble大区生产发展委员会 (Comité de Desarrollo Productivo Regional de Ñuble)",
+    "id": "CL-NGO-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000283",
+    "ref_name": "智利新闻协会 (Asociación Nacional de la Prensa, ANP)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000287",
+    "ref_name": "电子科学信息获取联盟 (Corporación CINCEL)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000304",
+    "ref_name": "佩乌恩切电力公司 (Empresa Eléctrica Pehuenche，Endesa集团)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000304",
+    "ref_name": "智利养老金管理公司协会 (Asociación de AFP)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000304",
+    "ref_name": "Penta集团（Empresas Penta）旗下多家企业(Penta集团 (Empresas Penta) 旗下多家企业)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000314",
+    "ref_name": "麦哲伦大学 (Universidad de Magallanes)",
+    "id": "CL-ACAD-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000314",
+    "ref_name": "麦哲伦大学 (Universidad de Magallanes)",
+    "id": "CL-ACAD-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000314",
+    "ref_name": "麦哲伦大学 (Universidad de Magallanes)",
+    "id": "CL-ACAD-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000327",
+    "ref_name": "太平洋容器公司 (Envases del Pacífico, Edelpa)",
+    "id": "CL-INTL-004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000331",
+    "ref_name": "3M公司 (3M)",
+    "id": "CL-MEDIA-030",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000346",
+    "ref_name": "VTR通信公司 (VTR Comunicaciones SpA)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000351",
+    "ref_name": "奥希金斯银行 (Banco O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000351",
+    "ref_name": "圣丽塔酒庄 (Viña Santa Rita)",
+    "id": "CL-CORP-094",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000358",
+    "ref_name": "莫兰德酒庄(Viña Morandé S.A.)",
+    "id": "CL-CORP-094",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000372",
+    "ref_name": "智利养老基金管理公司协会 (Asociación de AFP de Chile)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000378",
+    "ref_name": "Siembra集团 (Grupo Siembra，阿根廷)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000384",
+    "ref_name": "爱德华兹银行 (Banco de A. Edwards)",
+    "id": "CL-FIN-007",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000385",
+    "ref_name": "智利全国新闻协会 (Asociación Nacional de la Prensa)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000387",
+    "ref_name": "Proa集团 (Grupo Proa S.A.)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000388",
+    "ref_name": "VTR 环球通信 (VTR Global Com)",
+    "id": "CL-CORP-111",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000395",
+    "ref_name": "Vive 电视台 (Vive TV)",
+    "id": "CL-MEDIA-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000395",
+    "ref_name": "Zona Latina 电视台 (Zona Latina)",
+    "id": "CL-MEDIA-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000396",
+    "ref_name": "Telefe电视台 (Telefe)",
+    "id": "CL-MEDIA-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000396",
+    "ref_name": "特纳拉丁美洲／华纳兄弟探索拉美 (Turner Latinoamérica / Warner Bros. Discovery Latin America)",
+    "id": "CL-MEDIA-020",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000399",
+    "ref_name": "华纳兄弟国际电视制作 (Warner Bros. International Television Production)",
+    "id": "CL-CORP-103",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000405",
+    "ref_name": "奥希金斯银行 (Banco O'Higgins)",
+    "id": "CL-ACAD-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000406",
+    "ref_name": "智利全国电视协会 (Asociación Nacional de Televisión, ANATEL)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000413",
+    "ref_name": "Tele13电台 (Tele13 Radio)",
+    "id": "CL-MEDIA-017",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000425",
+    "ref_name": "智利广播业者协会 (Asociación de Radiodifusores de Chile, ARCHI)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000427",
+    "ref_name": "全国新闻协会 (Asociación Nacional de la Prensa)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000427",
+    "ref_name": "社会传播媒体联合会 (Federación de Medios de Comunicación Social)",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000429",
+    "ref_name": "圣丽塔酒庄 (Viña Santa Rita)",
+    "id": "CL-CORP-094",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000429",
+    "ref_name": "圣丽塔酒庄 (Viña Santa Rita)",
+    "id": "CL-CORP-094",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000430",
+    "ref_name": "渔业工业协会 (Asociación de Industriales Pesqueros, Asipes)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000453",
+    "ref_name": "圣地亚哥面包工业行业协会 (Asociación Gremial de Industriales del Pan de Santiago, Indupan A.G.)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000465",
+    "ref_name": "智利公共空间智库(Espacio Público)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000466",
+    "ref_name": "美洲组织 (Organización de los Estados Americanos, OEA/OAS)",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000467",
+    "ref_name": "Espacio Público 智库",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000471",
+    "ref_name": "《Cooperativa》电台/Cooperativa.cl",
+    "id": "CL-MEDIA-017",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000479",
+    "ref_name": "洛塔妇女之家促进发展公司 (Corporación de promoción y desarrollo de la casa de la mujer en Lota)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000482",
+    "ref_name": "Arica y Parinacota大区政府 (Gobierno Regional de Arica y Parinacota)",
+    "id": "CL-GOV-073",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000485",
+    "ref_name": "智利土地改革公司工人协会 (Asociación de Trabajadores de la CORA)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000486",
+    "ref_name": "社会党国际 (Internacional Socialista)",
+    "id": "CL-INTL-005",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000493",
+    "ref_name": "国家体育学院 (Instituto Nacional del Deporte, IND)",
+    "id": "CL-GOV-089",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000505",
+    "ref_name": "康塞普西翁大学学生联合会 (Federación de Estudiantes de la Universidad de Concepción)",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000505",
+    "ref_name": "比奥比奥大学学生联合会 (Federación de Estudiantes de la Universidad del Biobío)",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000507",
+    "ref_name": "圣佩德罗-德拉帕斯市 (San Pedro de la Paz)",
+    "id": "CL-CORP-094",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000508",
+    "ref_name": "社区组织（圣地亚哥Maipú/Pincoya等地邻里委员会、COSOC等）",
+    "id": "CL-NGO-009",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000523",
+    "ref_name": "智利大学法学院学生中心及智利大学学生联合会(智利大学法学院学生中心 (Centro de Estudiantes de Derecho, CED) 及智利大学学生联合会 (FECh))",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000524",
+    "ref_name": "圣淘玛瓦尔帕莱索天主教大学学生联合会 (Federación de Estudiantes de la PUCV, FEPUCV)",
+    "id": "CL-NGO-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "person_id": "CL-PERSON-000544",
+    "ref_name": "智利渐冻人症协会(Corporación ELA Chile)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000111",
+    "ref_name": "Equinoxe电视台 (Equinoxe Télévision)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000118",
+    "ref_name": "Siantou电台 (Radio Siantou)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000120",
+    "ref_name": "Amplitude FM 电台 (Amplitude FM)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000121",
+    "ref_name": "Radio Reine 电台 (Radio Reine, Yaoundé)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000121",
+    "ref_name": "Radio Aurore 电台 (Radio Aurore)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000121",
+    "ref_name": "Nka FM 电台 (Nka FM, Nguelemendouka)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000121",
+    "ref_name": "Capitale FM 电台 (Capitale FM)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cm",
+    "person_id": "CM-PERSON-000121",
+    "ref_name": "Capitale FM 电台 (Capitale FM)",
+    "id": "CM-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "gn",
+    "person_id": "GN-PERSON-000004",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "person_id": "GN-PERSON-000004",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "person_id": "GN-PERSON-000012",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "person_id": "GN-PERSON-000014",
+    "ref_name": "几内亚政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "person_id": "GN-PERSON-000044",
+    "ref_name": "多兵种军事学校 (École Militaire Interarmes, EMIA)",
+    "id": "GN-MIL-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚武装力量"
+   },
+   {
+    "cc": "gn",
+    "person_id": "GN-PERSON-000051",
+    "ref_name": "总统安全自主营 (Bataillon autonome de la sécurité présidentielle, BASP)",
+    "id": "GN-MIL-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚武装力量"
+   }
+  ],
+  "related_org": [
+   {
+    "cc": "ae",
+    "org_id": "AE-MIL-006",
+    "ref_name": "Presight AI (G42旗下人工智能公司)",
+    "id": "AE-CORP-018",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "org_id": "BF-GOV-010",
+    "ref_name": "最高传播委员会 (Conseil supérieur de la communication, CSC)",
+    "id": "BF-GOV-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "org_id": "BF-MEDIA-001",
+    "ref_name": "布基纳国家电视台 (Télévision nationale du Burkina, TNB，前身)",
+    "id": "BF-MEDIA-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "org_id": "BF-MEDIA-004",
+    "ref_name": "最高传播委员会 (Conseil supérieur de la communication, CSC)",
+    "id": "BF-GOV-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "org_id": "BF-MEDIA-006",
+    "ref_name": "布基纳法索最高传播委员会（Conseil supérieur de la communication, CSC）",
+    "id": "BF-GOV-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "org_id": "BF-MEDIA-007",
+    "ref_name": "布基纳法索传播最高委员会（Conseil supérieur de la communication, CSC）",
+    "id": "BF-GOV-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bf",
+    "org_id": "BF-MEDIA-008",
+    "ref_name": "传播最高委员会（Conseil supérieur de la communication, CSC）",
+    "id": "BF-GOV-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "org_id": "BN-ACAD-005",
+    "ref_name": "恒逸实业（文莱）公司 (Hengyi Industries Sdn Bhd)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "org_id": "BN-FIN-002",
+    "ref_name": "恒逸实业（文莱）(Hengyi Industries)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bn",
+    "org_id": "BN-FIN-005",
+    "ref_name": "文莱-阿曼投资公司 (Oman Brunei Investment Company)",
+    "id": "BN-INTL-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "org_id": "CD-CORP-001",
+    "ref_name": "刚果邮政电信监管局 (Autorité de Régulation de la Poste et des Télécommunications du Congo, ARPTC)",
+    "id": "CD-GOV-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "org_id": "CD-MEDIA-006",
+    "ref_name": "媒体7集团（Groupe Média 7）",
+    "id": "CD-CORP-042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "org_id": "CD-MEDIA-007",
+    "ref_name": "Next Corp 集团（Groupe Next Corp）",
+    "id": "CD-CORP-042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cd",
+    "org_id": "CD-SOE-009",
+    "ref_name": "刚果邮政电信监管局 (Autorité de Régulation de la Poste et des Télécommunications du Congo, ARPTC)",
+    "id": "CD-GOV-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-CORP-002",
+    "ref_name": "MTN集团 (MTN Group)",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-CORP-011",
+    "ref_name": "Yas Sénégal（原 Free Sénégal / Tigo 塞内加尔）",
+    "id": "CI-SOE-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-FIN-005",
+    "ref_name": "科特迪瓦国家社会互助基金 (Caisse Nationale de Prévoyance Sociale, CNPS)",
+    "id": "CI-SOE-011",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-MEDIA-001",
+    "ref_name": "CanalSat Horizons（Canal+集团）",
+    "id": "CI-CORP-031",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-NGO-001",
+    "ref_name": "红十字会与红新月会国际联合会 (IFRC)",
+    "id": "CI-INTL-013",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-NGO-001",
+    "ref_name": "红十字国际委员会 (CICR/ICRC)",
+    "id": "CI-INTL-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-NGO-004",
+    "ref_name": "多米尼克·瓦塔拉母婴医院 (Hôpital Mère-Enfant Dominique Ouattara de Bingerville)",
+    "id": "CI-GOV-039",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-NGO-005",
+    "ref_name": "博多圣让-巴蒂斯特医院 (Hôpital Saint Jean-Baptiste de Bodo)",
+    "id": "CI-GOV-039",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-NGO-008",
+    "ref_name": "SBMK基金会 (Fondation SBMK)",
+    "id": "CI-NGO-019",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-PARTY-003",
+    "ref_name": "社会主义国际 (Socialist International)",
+    "id": "CI-INTL-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-PARTY-011",
+    "ref_name": "大西部伊伏里人民运动 (Mouvement Populaire Ivoire du Grand Ouest, MPIGO)",
+    "id": "CI-PARTY-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-SOE-002",
+    "ref_name": "中国地质矿业总公司 (China National Geological and Mining Corporation)",
+    "id": "CI-CORP-014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-SOE-005",
+    "ref_name": "科特迪瓦码头 (Côte d'Ivoire Terminal)",
+    "id": "CI-CORP-017",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-SOE-005",
+    "ref_name": "阿比让码头 (Abidjan Terminal)",
+    "id": "CI-CORP-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-SOE-005",
+    "ref_name": "西塔铁路公司 (Sitarail)",
+    "id": "CI-CORP-016",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-SOE-005",
+    "ref_name": "西非和中非港口管理协会 (AGPAOC)",
+    "id": "CI-INTL-011",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ci",
+    "org_id": "CI-SOE-005",
+    "ref_name": "国际港口协会 (AIVP)",
+    "id": "CI-INTL-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-ACAD-001",
+    "ref_name": "塔拉帕卡大学 (Universidad de Tarapacá)",
+    "id": "CL-ACAD-015",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-ACAD-001",
+    "ref_name": "洛斯拉戈斯大学 (Universidad de Los Lagos)",
+    "id": "CL-ACAD-013",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-ACAD-003",
+    "ref_name": "康塞普西翁大学体育俱乐部公司 (Corporación Club Deportivo Universidad de Concepción)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-ACAD-003",
+    "ref_name": "比奥比奥工业渔民协会 (Asociación de Industriales Pesqueros del Biobío, ASIPES)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-ACAD-011",
+    "ref_name": "普尔马里跨省公司 (Corporación Interestadual Pulmarí, CIP)",
+    "id": "CL-GOV-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-CORP-008",
+    "ref_name": "阿尔特尔投资公司 (Inversiones Altel Limitada，隶属Almendral集团)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-CORP-009",
+    "ref_name": "Minera Valparaíso S.A. (Grupo Matte / 马特集团矿业瓦尔帕莱索公司)",
+    "id": "CL-SOE-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-CORP-013",
+    "ref_name": "Enel输电智利（Enel Transmisión Chile）",
+    "id": "CL-CORP-012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-CORP-014",
+    "ref_name": "洛斯 Lagos 卫生公司 (ESSAL)",
+    "id": "CL-GOV-073",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-CORP-014",
+    "ref_name": "布因联合运河协会 (Asociación de Canales Unidos de Buin, ACUB)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-CORP-022",
+    "ref_name": "国家电信副秘书处 (Subsecretaría de Telecomunicaciones, Subtel)",
+    "id": "CL-government_agency-001",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-FIN-004",
+    "ref_name": "Security 集团 (Grupo Security)",
+    "id": "CL-CORP-056",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-FIN-010",
+    "ref_name": "Asociación de AFP de Chile (智利养老基金管理公司协会, AAFP)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-017",
+    "ref_name": "公共教育管理局 (Dirección de Educación Pública, DEP)",
+    "id": "CL-government_agency-002",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-021",
+    "ref_name": "公共卫生副部长（Subsecretaría de Salud Pública）",
+    "id": "CL-government_agency-001",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-021",
+    "ref_name": "医疗救助网络副部长（Subsecretaría de Redes Asistenciales）",
+    "id": "CL-government_agency-001",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-021",
+    "ref_name": "卫生部前身各部委（Ministerio de Higiene, Asistencia y Previsión Social 等）",
+    "id": "CL-GOV-057",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-021",
+    "ref_name": "泛美卫生组织（Organización Panamericana de la Salud, OPS/PAHO）",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-027",
+    "ref_name": "智利核能委员会 (Comisión Chilena de Energía Nuclear, CCHEN)",
+    "id": "CL-SOE-011",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-029",
+    "ref_name": "图书馆、档案馆与博物馆管理局（Dirección de Bibliotecas, Archivos y Museos, DIBAM, 1929-2018）",
+    "id": "CL-government_agency-002",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-036",
+    "ref_name": "工业与商业局 (Dirección de Industria y Comercio, DIRINCO)",
+    "id": "CL-government_agency-002",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-037",
+    "ref_name": "世界海关组织 (Organización Mundial de Aduanas, WCO)",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-040",
+    "ref_name": "农业与渔业总局 (Dirección General de Agricultura y Pesca)",
+    "id": "CL-government_agency-002",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-GOV-041",
+    "ref_name": "智利旅游副秘书处（Subsecretaría de Turismo, SUBTURISMO）",
+    "id": "CL-government_agency-001",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-005",
+    "ref_name": "智利全国电视协会 (Asociación Nacional de Televisión, ANATEL)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-006",
+    "ref_name": "智利全国电视协会 (Asociación Nacional de Televisión, Anatel)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-006",
+    "ref_name": "伊比利亚美洲电信组织 (Organización de Telecomunicaciones de Iberoamérica, OTI)",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-007",
+    "ref_name": "国家电视协会 (Asociación Nacional de Televisión, ANATEL)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-007",
+    "ref_name": "伊比美洲电视组织 (Organización de Telecomunicaciones de Iberoamérica, OTI)",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-008",
+    "ref_name": "智利残奥委员会 (Comité Paralímpico de Chile)",
+    "id": "CL-NGO-008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-011",
+    "ref_name": "智利广播电台协会 (Asociación de Radiodifusores de Chile, ARCHI)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-MEDIA-013",
+    "ref_name": "智利全国新闻协会 (Asociación Nacional de la Prensa, ANP)",
+    "id": "CL-NGO-010",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-NGO-003",
+    "ref_name": "保护区保卫联盟 (Alianza por la Defensa de las Áreas Protegidas)",
+    "id": "CL-GOV-082",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-PARTY-002",
+    "ref_name": "美洲基督教民主组织 (Organización Demócrata Cristiana de América, ODCA)",
+    "id": "CL-INTL-003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-PARTY-008",
+    "ref_name": "亚太民主联盟 (Unión Demócrata de Asia Pacífico)",
+    "id": "CL-INTL-004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "cl",
+    "org_id": "CL-SOE-004",
+    "ref_name": "安德烈斯·皮拉佐利铁路运输公司 (Transporte Ferroviario Andrés Pirazzoli S.A., TRANSAP)",
+    "id": "CL-training_academy-001",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-001",
+    "ref_name": "Centre de recherche et de formation en infectiologie de Guinée (CERFIG, 几内亚感染病学研究与培训中心)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-004",
+    "ref_name": "洛美大学 (Université de Lomé，多哥)",
+    "id": "GN-ACAD-001",
+    "class": "profile_wrong",
+    "current_profile": "纳赛尔科纳克里大学"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-004",
+    "ref_name": "卡拉大学 (Université de Kara，多哥)",
+    "id": "GN-ACAD-001",
+    "class": "profile_wrong",
+    "current_profile": "纳赛尔科纳克里大学"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-004",
+    "ref_name": "ESTIA工程师学院 (École supérieure des technologies industrielles avancées，法国)",
+    "id": "GN-CORP-005",
+    "class": "profile_wrong",
+    "current_profile": "Areeba 几内亚公司（原 MTN 几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-006",
+    "ref_name": "非洲与马达加斯加高等教育理事会 (Conseil africain et malgache pour l'enseignement supérieur, CAMES)",
+    "id": "GN-GOV-012",
+    "class": "profile_wrong",
+    "current_profile": "高等教育与科学研究部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-008",
+    "ref_name": "Conseil africain et malgache pour l'enseignement supérieur (CAMES)",
+    "id": "GN-GOV-012",
+    "class": "profile_wrong",
+    "current_profile": "高等教育与科学研究部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-009",
+    "ref_name": "Autorité Nationale d'Assurance Qualité（国家质量保障局，ANAQ-GN）",
+    "id": "GN-GOV-030",
+    "class": "profile_wrong",
+    "current_profile": "邮政与电信监管局（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-009",
+    "ref_name": "Conseil Africain et Malgache pour l'Enseignement Supérieur（非洲与马达加斯加高等教育理事会，CAMES）",
+    "id": "GN-GOV-012",
+    "class": "profile_wrong",
+    "current_profile": "高等教育与科学研究部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-010",
+    "ref_name": "Université Sorbonne（索邦大学，官网原文拼写 Sorbone）",
+    "id": "GN-ACAD-001",
+    "class": "profile_wrong",
+    "current_profile": "纳赛尔科纳克里大学"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-012",
+    "ref_name": "达喀尔谢赫·安达·迪奥普大学 (Université Cheikh Anta Diop de Dakar, UCAD / FASTEF)",
+    "id": "GN-ACAD-001",
+    "class": "profile_wrong",
+    "current_profile": "纳赛尔科纳克里大学"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-012",
+    "ref_name": "国家质量保障局 (Agence Nationale d'Assurance Qualité, ANAQ)",
+    "id": "GN-GOV-028",
+    "class": "profile_wrong",
+    "current_profile": "国家经济社会包容局（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-015",
+    "ref_name": "Chambre Nationale d'Agriculture de Guinée（几内亚全国农业商会 CNA）",
+    "id": "GN-GOV-022",
+    "class": "profile_wrong",
+    "current_profile": "几内亚最高法院"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-018",
+    "ref_name": "Rio Tinto Guinée（力拓几内亚公司）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-020",
+    "ref_name": "Université Aguibou Barry（Aguibou Barry 大学，UAB）",
+    "id": "GN-ACAD-001",
+    "class": "profile_wrong",
+    "current_profile": "纳赛尔科纳克里大学"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-021",
+    "ref_name": "阿图瓦大学 (Université d'Artois，法国)",
+    "id": "GN-ACAD-001",
+    "class": "profile_wrong",
+    "current_profile": "纳赛尔科纳克里大学"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-021",
+    "ref_name": "联合国开发计划署驻几内亚代表处 (PNUD / UNDP Guinée)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-ACAD-021",
+    "ref_name": "上法兰西大区 (Région Hauts-de-France，法国)",
+    "id": "GN-ACAD-020",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家教育科研网络（Gn-REN）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-001",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-003",
+    "ref_name": "几内亚政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-004",
+    "ref_name": "Orange S.A. (Groupe Orange)",
+    "id": "GN-CORP-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚铝业公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-005",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-006",
+    "ref_name": "Telecel 几内亚（前 MTN 几内亚，现以 Areeba 品牌运营）",
+    "id": "GN-CORP-005",
+    "class": "profile_wrong",
+    "current_profile": "Areeba 几内亚公司（原 MTN 几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-006",
+    "ref_name": "Cellcom Telecommunications Ltd（美资 Cellcom 集团，利比里亚）",
+    "id": "GN-CORP-006",
+    "class": "profile_wrong",
+    "current_profile": "Cellcom几内亚（阿弗里塞尔几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-006",
+    "ref_name": "Société Nobel / Groupe SCF（Mohamed Diallo 家族企业）",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-007",
+    "ref_name": "SOBOA (Société de Brasserie de l'Ouest Africain, Dakar)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-007",
+    "ref_name": "Direction Générale des Douanes de Guinée (几内亚海关总局)",
+    "id": "GN-GOV-026",
+    "class": "profile_wrong",
+    "current_profile": "选举总局"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-009",
+    "ref_name": "APNET（非洲出版商网络 / Réseau des éditeurs africains）",
+    "id": "GN-ACAD-020",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家教育科研网络（Gn-REN）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-009",
+    "ref_name": "REPROLIG（几内亚图书从业者网络 / Réseau des professionnels guinéens du livre）",
+    "id": "GN-ACAD-020",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家教育科研网络（Gn-REN）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-009",
+    "ref_name": "UNICEF Guinée（联合国儿童基金会几内亚办事处）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-009",
+    "ref_name": "Centre culturel franco-guinéen（科纳克里法几文化中心，CCFG）",
+    "id": "GN-SOE-009",
+    "class": "profile_wrong",
+    "current_profile": "跨几内亚铁路公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-009",
+    "ref_name": "Fondation Orange Guinée（奥兰治几内亚基金会）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-CORP-010",
+    "ref_name": "L'Harmattan Sénégal",
+    "id": "GN-CORP-010",
+    "class": "profile_wrong",
+    "current_profile": "乐马唐（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-002",
+    "ref_name": "Vista Bank SA（几内亚，原 First International Bank / FIBank Guinée）",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-003",
+    "ref_name": "Société Générale",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-005",
+    "ref_name": "Oragroup S.A.",
+    "id": "GN-CORP-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚铝业公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-006",
+    "ref_name": "CEN-SAD (Communauté des États Sahélo-Sahariens, 萨赫勒-撒哈拉国家联合体)",
+    "id": "GN-FIN-006",
+    "class": "profile_wrong",
+    "current_profile": "萨赫勒-撒哈拉投资与商业银行（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-007",
+    "ref_name": "SOGUIPAH S.A. (Société Guinéenne de Palmiers à Huile et d'Hévéa)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-009",
+    "ref_name": "UBA Sénégal",
+    "id": "GN-GOV-026",
+    "class": "profile_wrong",
+    "current_profile": "选举总局"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-009",
+    "ref_name": "UBA 基金会 (Fondation UBA)",
+    "id": "GN-FIN-009",
+    "class": "profile_wrong",
+    "current_profile": "非洲联合银行几内亚（UBA 几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-011",
+    "ref_name": "GuiM（La Guinéenne de Monétique）",
+    "id": "GN-MEDIA-004",
+    "class": "profile_wrong",
+    "current_profile": "几内亚频率传媒集团"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-012",
+    "ref_name": "Agence Française de Développement（法国开发署，AFD）",
+    "id": "GN-SOE-010",
+    "class": "profile_wrong",
+    "current_profile": "几内亚发展署"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-FIN-014",
+    "ref_name": "NSIA Assurances Guinée（非寿险/IARD）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-008",
+    "ref_name": "几内亚共和国政府（Oury II 政府）",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-009",
+    "ref_name": "几内亚共和国政府（Oury II 政府）",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-009",
+    "ref_name": "几内亚矿业遗产公司 (Société Guinéenne du Patrimoine Minier, SOGUIPAMI)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-010",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-011",
+    "ref_name": "法国开发署 (Agence française de développement, AFD)",
+    "id": "GN-SOE-010",
+    "class": "profile_wrong",
+    "current_profile": "几内亚发展署"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-011",
+    "ref_name": "大学前教育与扫盲部 (Ministère de l'Enseignement pré-universitaire et de l'Alphabétisation, MEPU-A)",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-011",
+    "ref_name": "几内亚教育与研究人员自由工会 (Syndicat libre des enseignants et chercheurs de Guinée, SLECG)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-012",
+    "ref_name": "国家质量保障局 (Autorité Nationale d'Assurance Qualité, ANAQ)",
+    "id": "GN-GOV-030",
+    "class": "profile_wrong",
+    "current_profile": "邮政与电信监管局（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-013",
+    "ref_name": "Ministère de l'Élevage（畜牧部）",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-013",
+    "ref_name": "Société Guinéenne de Palmiers à Huile et d'Hévéas (SOGUIPAH)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-013",
+    "ref_name": "FAO - Bureau de la Guinée（联合国粮农组织驻几内亚）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-014",
+    "ref_name": "道路管理公司（AGEROUTE Guinée S.A.）",
+    "id": "GN-CORP-003",
+    "class": "profile_wrong",
+    "current_profile": "盎格鲁黄金阿散蒂几内亚公司（SAG）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-015",
+    "ref_name": "几内亚民航局 (Autorité guinéenne de l'aviation civile)",
+    "id": "GN-GOV-030",
+    "class": "profile_wrong",
+    "current_profile": "邮政与电信监管局（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-015",
+    "ref_name": "几内亚机场管理运营公司 (Société de gestion et d'exploitation des aéroports de Guinée)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-015",
+    "ref_name": "几内亚国家铁路公司 (Société nationale des chemins de fer de Guinée)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-015",
+    "ref_name": "几内亚道路安全局 (Agence guinéenne de la sécurité routière)",
+    "id": "GN-SOE-010",
+    "class": "profile_wrong",
+    "current_profile": "几内亚发展署"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-016",
+    "ref_name": "几内亚乡村电气化署 (Agence guinéenne d'électrification rurale, AGER)",
+    "id": "GN-SOE-010",
+    "class": "profile_wrong",
+    "current_profile": "几内亚发展署"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-016",
+    "ref_name": "苏阿皮蒂运营管理公司 (Société de gestion et d'exploitation de Souapiti, SOGES)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-017",
+    "ref_name": "几内亚农村电气化署 (Agence Guinéenne d'Électrification Rurale, AGER)",
+    "id": "GN-SOE-010",
+    "class": "profile_wrong",
+    "current_profile": "几内亚发展署"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-018",
+    "ref_name": "国家信息系统安全局 (Agence Nationale de la Sécurité des Systèmes d'Information, ANSSI)",
+    "id": "GN-GOV-027",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家卫生安全局"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-018",
+    "ref_name": "国家电信与数字普遍服务署 (Agence Nationale du Service Universel des Télécommunications et du Numérique, ANSUTEN)",
+    "id": "GN-GOV-030",
+    "class": "profile_wrong",
+    "current_profile": "邮政与电信监管局（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-020",
+    "ref_name": "几内亚政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-024",
+    "ref_name": "几内亚政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-027",
+    "ref_name": "无国界医生（Médecins Sans Frontières, MSF）",
+    "id": "GN-GOV-004",
+    "class": "profile_wrong",
+    "current_profile": "几内亚外交、非洲一体化与海外侨民部（几内亚外交部）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-028",
+    "ref_name": "Ministère de la Femme, de la Famille et des Solidarités（妇女、家庭与团结部）",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-029",
+    "ref_name": "行政现代化与公职部 (Ministère de la Modernisation de l'Administration et de la Fonction Publique, MMAFP)",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-029",
+    "ref_name": "国家信息系统安全局 (Agence Nationale de la Sécurité des Systèmes d'Information, ANSSI Guinée)",
+    "id": "GN-GOV-027",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家卫生安全局"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-029",
+    "ref_name": "世界银行 WARDIP-Guinée 项目 (Western Africa Regional Digital Integration Program)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-030",
+    "ref_name": "Union Internationale des Télécommunications（国际电信联盟，ITU）及万国邮政联盟（UPU）",
+    "id": "GN-GOV-030",
+    "class": "profile_wrong",
+    "current_profile": "邮政与电信监管局（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-GOV-031",
+    "ref_name": "国际女律师网络 (Réseau International des Femmes Avocates, RIFAV)",
+    "id": "GN-ACAD-020",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家教育科研网络（Gn-REN）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-MEDIA-004",
+    "ref_name": "Canal+（几内亚 / Canal+ International）",
+    "id": "GN-CORP-005",
+    "class": "profile_wrong",
+    "current_profile": "Areeba 几内亚公司（原 MTN 几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-MEDIA-009",
+    "ref_name": "CFI Médias (Canal France International)",
+    "id": "GN-MEDIA-004",
+    "class": "profile_wrong",
+    "current_profile": "几内亚频率传媒集团"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-MEDIA-009",
+    "ref_name": "Consortium SMB-Winning",
+    "id": "GN-CORP-001",
+    "class": "profile_wrong",
+    "current_profile": "博凯矿业公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-MEDIA-010",
+    "ref_name": "Guineetime.com",
+    "id": "GN-MEDIA-009",
+    "class": "profile_wrong",
+    "current_profile": "非洲几内亚网（Africa Guinée）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-MEDIA-010",
+    "ref_name": "Guinee7.com",
+    "id": "GN-MEDIA-009",
+    "class": "profile_wrong",
+    "current_profile": "非洲几内亚网（Africa Guinée）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-001",
+    "ref_name": "红十字会与红新月会国际联合会 (Fédération Internationale des Sociétés de la Croix-Rouge et du Croissant-Rouge, IFRC/FICR)",
+    "id": "GN-PARTY-011",
+    "class": "profile_wrong",
+    "current_profile": "全国联盟阵线"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-001",
+    "ref_name": "红十字国际委员会 (Comité international de la Croix-Rouge, CICR/ICRC)",
+    "id": "GN-MIL-002",
+    "class": "profile_wrong",
+    "current_profile": "全国团结和发展委员会"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-002",
+    "ref_name": "Catholic Relief Services (CRS Guinée)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-002",
+    "ref_name": "USAID Guinée",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-003",
+    "ref_name": "PRCM (Programme Régional de Conservation des Ressources Marines et Côtières)",
+    "id": "GN-GOV-004",
+    "class": "profile_wrong",
+    "current_profile": "几内亚外交、非洲一体化与海外侨民部（几内亚外交部）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-004",
+    "ref_name": "Fédération internationale pour les droits humains (FIDH, 国际人权联合会)",
+    "id": "GN-PARTY-011",
+    "class": "profile_wrong",
+    "current_profile": "全国联盟阵线"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-007",
+    "ref_name": "Ambassade du Royaume-Uni en Guinée / FCDO（英国驻几内亚使馆/外交联邦与发展部）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-009",
+    "ref_name": "RENASCEDD（环境与可持续发展公民社会全国网络，Réseau National de la Société Civile pour l'Environnement et le Développement Durable）",
+    "id": "GN-ACAD-020",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家教育科研网络（Gn-REN）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-009",
+    "ref_name": "Ambassade de France en Guinée（法国驻几内亚大使馆）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-009",
+    "ref_name": "Fédération des Parcs naturels régionaux de France（法国大区自然公园联合会）",
+    "id": "GN-PARTY-011",
+    "class": "profile_wrong",
+    "current_profile": "全国联盟阵线"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-010",
+    "ref_name": "Organisation Guinéenne de Défense des Droits de l'Homme et du Citoyen (OGDH)",
+    "id": "GN-SOE-010",
+    "class": "profile_wrong",
+    "current_profile": "几内亚发展署"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-011",
+    "ref_name": "Maison de la Démocratie et des Droits de l'Homme (M2DH, Kindia)",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-011",
+    "ref_name": "ChildFund Guinée",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-011",
+    "ref_name": "Haut-Commissariat des Nations Unies aux droits de l'Homme (OHCHR)",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-012",
+    "ref_name": "Coalition des Acteurs du Numérique (CAN Guinée)",
+    "id": "GN-GOV-018",
+    "class": "profile_wrong",
+    "current_profile": "通信、数字经济与创新部"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-013",
+    "ref_name": "国家被忽视热带病防治规划 (Programme national de lutte contre les maladies tropicales négligées, PNLMTN)",
+    "id": "GN-CORP-005",
+    "class": "profile_wrong",
+    "current_profile": "Areeba 几内亚公司（原 MTN 几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-015",
+    "ref_name": "几内亚社会力量论坛 (Forum des forces sociales de Guinée, FFSG)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-016",
+    "ref_name": "Ministère de l'Industrie et des PME（工业和中小企业部, PRECOP 项目）",
+    "id": "GN-GOV-003",
+    "class": "profile_wrong",
+    "current_profile": "司法与人权部（几内亚）"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-016",
+    "ref_name": "EIT Climate-KIC（CATAL1.5°T 倡议）",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-NGO-016",
+    "ref_name": "美国驻科纳克里大使馆（U.S. Embassy Conakry）",
+    "id": "GN-GOV-021",
+    "class": "profile_wrong",
+    "current_profile": "几内亚参议院"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-001",
+    "ref_name": "几内亚政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-006",
+    "ref_name": "Comité militaire de redressement national (CMRN, 全国复兴军事委员会)",
+    "id": "GN-MIL-002",
+    "class": "profile_wrong",
+    "current_profile": "全国团结和发展委员会"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-007",
+    "ref_name": "几内亚爱国独立人士联盟 (Union Patriotique des Indépendants de Guinée, UPIG)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-012",
+    "ref_name": "Gouvernement de la République de Guinée",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-015",
+    "ref_name": "神圣联盟 (Union Sacrée)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-016",
+    "ref_name": "新民主力量 (Nouvelles Forces Démocratiques, NFD)",
+    "id": "GN-PARTY-003",
+    "class": "profile_wrong",
+    "current_profile": "几内亚民主力量联盟"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-016",
+    "ref_name": "几内亚综合发展联盟 (Rassemblement pour le Développement Intégré de Guinée, RDIG)",
+    "id": "GN-SOE-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚电力公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-017",
+    "ref_name": "Union pour la nouvelle République (UNR)",
+    "id": "GN-ACAD-014",
+    "class": "profile_wrong",
+    "current_profile": "几内亚国家公共卫生学院"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-017",
+    "ref_name": "Parti du renouveau et du progrès (PRP)",
+    "id": "GN-GOV-021",
+    "class": "profile_wrong",
+    "current_profile": "几内亚参议院"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-PARTY-017",
+    "ref_name": "Rassemblement national pour le progrès (RNP)",
+    "id": "GN-GOV-021",
+    "class": "profile_wrong",
+    "current_profile": "几内亚参议院"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-001",
+    "ref_name": "Tè Power",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-002",
+    "ref_name": "欧洲联盟 (Union européenne)",
+    "id": "GN-FIN-008",
+    "class": "profile_wrong",
+    "current_profile": "摩洛哥-几内亚人民银行"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-003",
+    "ref_name": "Eni S.p.A.",
+    "id": "GN-CORP-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚铝业公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-003",
+    "ref_name": "ONAP (Office National d'Administration Pétrolière)",
+    "id": "GN-PARTY-014",
+    "class": "profile_wrong",
+    "current_profile": "繁荣几内亚联盟"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-003",
+    "ref_name": "SONIP (Société Nationale d'Importation des Produits Pétroliers)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-004",
+    "ref_name": "Rusal Guinée（俄铝几内亚）",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-006",
+    "ref_name": "国家骨干网管理有限公司 (Société de Gestion et d'Exploitation du Backbone National, SOGEB)",
+    "id": "GN-SOE-002",
+    "class": "profile_wrong",
+    "current_profile": "几内亚自来水公司"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-007",
+    "ref_name": "几内亚共和国政府 (Gouvernement de la République de Guinée)",
+    "id": "GN-GOV-002",
+    "class": "profile_wrong",
+    "current_profile": "乌里第二届政府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-007",
+    "ref_name": "几内亚矿业商会 (Chambre des Mines de Guinée)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-009",
+    "ref_name": "Simfer Infraco Guinée (Rio Tinto & Chinalco)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-010",
+    "ref_name": "私人投资促进局 (APIP-Guinée)",
+    "id": "GN-GOV-001",
+    "class": "profile_wrong",
+    "current_profile": "几内亚共和国总统府"
+   },
+   {
+    "cc": "gn",
+    "org_id": "GN-SOE-010",
+    "ref_name": "西芒杜战略委员会 (Comité Stratégique de Simandou, CSS)",
+    "id": "GN-MIL-002",
+    "class": "profile_wrong",
+    "current_profile": "全国团结和发展委员会"
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-CORP-001",
+    "ref_name": "爱信（アイシン）",
+    "id": "JP-CORP-209",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-CORP-001",
+    "ref_name": "斯巴鲁（スバル）",
+    "id": "JP-CORP-210",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-CORP-001",
+    "ref_name": "马自达（マツダ）",
+    "id": "JP-CORP-211",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-CORP-001",
+    "ref_name": "铃木（スズキ）",
+    "id": "JP-CORP-212",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-CORP-007",
+    "ref_name": "东日本电信电话（NTT東日本）",
+    "id": "JP-CORP-034",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-CORP-007",
+    "ref_name": "西日本电信电话（NTT西日本）",
+    "id": "JP-CORP-036",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-FIN-002",
+    "ref_name": "Acom (アコム)",
+    "id": "JP-FIN-053",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-GOV-011",
+    "ref_name": "观光厅 (観光庁)",
+    "id": "JP-GOV-914",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-GOV-014",
+    "ref_name": "警视厅 (警視庁)",
+    "id": "JP-GOV-915",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-GOV-016",
+    "ref_name": "消费者厅（消費者庁）",
+    "id": "JP-GOV-916",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-GOV-019",
+    "ref_name": "皇室会议 (皇室会議)",
+    "id": "JP-GOV-917",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-GOV-029",
+    "ref_name": "东洋文库（東洋文庫）",
+    "id": "JP-ACAD-045",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "jp",
+    "org_id": "JP-MEDIA-004",
+    "ref_name": "日经BP（日経BP）",
+    "id": "JP-MEDIA-028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kh",
+    "org_id": "KH-ACAD-018",
+    "ref_name": "帕拉贡教育有限公司 (Paragon Education Co., LTD)",
+    "id": "KH-company-001",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   }
+  ],
+  "key_people": [
+   {
+    "cc": "az",
+    "org_id": "AZ-GOV-003",
+    "ref_name": "Anar Əliyev",
+    "id": "AZ-PERSON-000004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "az",
+    "org_id": "AZ-GOV-024",
+    "ref_name": "阿纳尔·阿利耶夫 (Anar Rəhim oğlu Əliyev)",
+    "id": "AZ-PERSON-000004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "az",
+    "org_id": "AZ-GOV-027",
+    "ref_name": "萨法尔·梅赫季耶夫(Səfər Mehdiyev)",
+    "id": "AZ-PERSON-000020",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bh",
+    "org_id": "BH-ACAD-002",
+    "ref_name": "萨阿德·本·沙特·阿勒富海德 (سعد بن سعود الفهيد)",
+    "id": "BH-PERSON-000012",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "bh",
+    "org_id": "BH-NGO-005",
+    "ref_name": "穆罕默德·马斯卡提 (محمد المسقطي)",
+    "id": "BH-PERSON-000008",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ca",
+    "org_id": "CA-SOE-004",
+    "ref_name": "马里奥·佩洛安 (Mario Peloin)",
+    "id": "CA-PERSON-000312",
+    "class": "profile_wrong",
+    "current_profile": "Mario Péloquin"
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-GOV-012",
+    "ref_name": "萨德克·布塞纳 (Sadek Boussena)",
+    "id": "DZ-PERSON-000049",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-GOV-012",
+    "ref_name": "努尔丁·艾特-劳西内 (Nordine Aït-Laoussine)",
+    "id": "DZ-PERSON-000050",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-NGO-006",
+    "ref_name": "贾希德·阿卜杜勒瓦哈布·泽菲泽夫 (Djahid Abdelwahab Zefizef)",
+    "id": "DZ-PERSON-000030",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-NGO-010",
+    "ref_name": "尤瑟夫·沙克拉 (Youcef Chakra / يوسف شقرة)",
+    "id": "DZ-PERSON-000051",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-NGO-010",
+    "ref_name": "穆罕默德·拉尔比·祖贝里 (Mohamed Larbi Zebiri / محمد العربي الزبيري)",
+    "id": "DZ-PERSON-000052",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-NGO-010",
+    "ref_name": "阿卜杜勒阿齐兹·格尔穆勒 (Abdelaziz Gharmoul / عبد العزيز غرمول)",
+    "id": "DZ-PERSON-000042",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "dz",
+    "org_id": "DZ-SOE-001",
+    "ref_name": "穆罕默德·梅齐亚内 (Mohamed Meziane)",
+    "id": "DZ-PERSON-000053",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "id",
+    "org_id": "ID-GOV-011",
+    "ref_name": "法德兰夏·卢比斯 (Fadlansyah Lubis)",
+    "id": "ID-PERSON-000593",
+    "class": "profile_wrong",
+    "current_profile": "Fadhlansyah Lubis"
+   },
+   {
+    "cc": "iq",
+    "org_id": "IQ-GOV-027",
+    "ref_name": "阿卜杜勒-哈利克·阿扎维 (عبد الخالق العزاوي)",
+    "id": "IQ-PERSON-000004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "iq",
+    "org_id": "IQ-GOV-027",
+    "ref_name": "阿卜杜勒·拉蒂夫·胡迈米 (عبد اللطيف الهميم)",
+    "id": "IQ-PERSON-000003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "iq",
+    "org_id": "IQ-PARTY-015",
+    "ref_name": "奥马尔·赛义德·阿里 (عمر سيد علي)",
+    "id": "IQ-PERSON-000014",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kg",
+    "org_id": "KG-ACAD-016",
+    "ref_name": "乌梅托夫·塔莱别克（Уметов Талайбек）",
+    "id": "KG-PERSON-000085",
+    "class": "profile_wrong",
+    "current_profile": "Уметов Таалайбек Эгембердиевич"
+   },
+   {
+    "cc": "kg",
+    "org_id": "KG-GOV-013",
+    "ref_name": "卡尔曼别克·拜达夫列托夫 (Kaarmanbek Baydavletov)",
+    "id": "KG-PERSON-000216",
+    "class": "profile_wrong",
+    "current_profile": "Каарманбек Кочкорбаевич Байдавлетов"
+   },
+   {
+    "cc": "kg",
+    "org_id": "KG-GOV-014",
+    "ref_name": "别克纳扎尔·巴扎尔利耶夫(Бекназар Базарлиев)",
+    "id": "KG-PERSON-000359",
+    "class": "profile_wrong",
+    "current_profile": "Базаралиев Бекназар Токтосунович"
+   },
+   {
+    "cc": "kg",
+    "org_id": "KG-GOV-015",
+    "ref_name": "奥穆尔别克·杰尼什别科夫(Омуbeck Женишбеков)",
+    "id": "KG-PERSON-000364",
+    "class": "profile_wrong",
+    "current_profile": "Омурбек Жеңишбекович Женишбеков"
+   },
+   {
+    "cc": "kw",
+    "org_id": "KW-MEDIA-008",
+    "ref_name": "布沙尔·萨伊赫 (بشار الصايغ)",
+    "id": "KW-PERSON-000006",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kw",
+    "org_id": "KW-PARTY-001",
+    "ref_name": "布沙尔·萨伊赫 (بشار الصايغ)",
+    "id": "KW-PERSON-000006",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-ACAD-003",
+    "ref_name": "纳兹古莉·艾达尔加莉耶娃 (Назгуль Айдаргалиева / Nazgul Aydargaliyeva)",
+    "id": "KZ-PERSON-000049",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-ACAD-004",
+    "ref_name": "卡瑟莫娃·艾然 (Айжан Кассымова / Aizhan Kassymova)",
+    "id": "KZ-PERSON-000045",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-001",
+    "ref_name": "叶尔博拉特·多萨耶夫 (Ерболат Досаев)",
+    "id": "KZ-PERSON-000030",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-002",
+    "ref_name": "努雷别克·纳利巴耶夫 (Нурлыбек Налибаев)",
+    "id": "KZ-PERSON-000003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-002",
+    "ref_name": "卡纳特·博祖姆巴耶夫 (Канат Бозумбаев)",
+    "id": "KZ-PERSON-000004",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-002",
+    "ref_name": "加雷姆江·科伊谢巴耶夫 (Галымжан Койшыбаев)",
+    "id": "KZ-PERSON-000005",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-003",
+    "ref_name": "加利姆詹·科伊舍巴耶夫 (Галымжан Тельманович Койшыбаев)",
+    "id": "KZ-PERSON-000005",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-004",
+    "ref_name": "达尼亚·耶斯帕耶娃 (Дания Еспаева)",
+    "id": "KZ-PERSON-000028",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-004",
+    "ref_name": "凯拉特·阿依特加诺夫 (Қайрат Айтуғанов)",
+    "id": "KZ-PERSON-000027",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-005",
+    "ref_name": "阿斯卡尔·沙基罗夫 (Асқар Шәкіров)",
+    "id": "KZ-PERSON-000041",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-007",
+    "ref_name": "艾然·扎特坎巴耶娃 (Айжан Жатқанбаева)",
+    "id": "KZ-PERSON-000045",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-009",
+    "ref_name": "叶尔梅克·萨根巴耶夫 (Ермек Сағымбаев)",
+    "id": "KZ-PERSON-000032",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-GOV-010",
+    "ref_name": "阿斯卡尔·扎帕尔 (Жаппар Асқар)",
+    "id": "KZ-PERSON-000041",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-MIL-002",
+    "ref_name": "叶尔梅克·萨吉姆巴耶夫 (Ермек Сағымбаев / Ермек Алдабергенович Сагимбаев)",
+    "id": "KZ-PERSON-000032",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-PARTY-003",
+    "ref_name": "卡伊拉特·艾图加诺夫 (Қайрат Қапарұлы Айтуғанов / Кайрат Капарович Айтуганов)",
+    "id": "KZ-PERSON-000027",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-PARTY-005",
+    "ref_name": "努尔苏丹·绍卡诺夫 (Нұрсұлтан Шоқанов / Нурсултан Нурланович Шоканов)",
+    "id": "KZ-PERSON-000029",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-SOE-002",
+    "ref_name": "阿斯哈特·哈萨诺夫 (Асхат Галимович Хасенов)",
+    "id": "KZ-PERSON-000064",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-SOE-006",
+    "ref_name": "阿米尔让·奥斯帕诺夫 (Амиржан Оспанов)",
+    "id": "KZ-PERSON-000095",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "kz",
+    "org_id": "KZ-SOE-008",
+    "ref_name": "努尔雷别克·纳利巴耶夫 (Нурлыбек Налибаев)",
+    "id": "KZ-PERSON-000003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "org_id": "SA-CORP-004",
+    "ref_name": "阿卜杜勒卡里姆·本·阿卜杜拉赫曼·阿吉勒 (عبد الكريم بن عبد الرحمن العقيل)",
+    "id": "SA-PERSON-000023",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "sa",
+    "org_id": "SA-GOV-067",
+    "ref_name": "穆特卜·本·穆赫莱夫·卡尼 (متعب بن مخلف القني)",
+    "id": "SA-PERSON-000007",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "tn",
+    "org_id": "TN-GOV-002",
+    "ref_name": "谢德利·阿亚里 (الشاذلي العياري)",
+    "id": "TN-PERSON-000003",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "ug",
+    "org_id": "UG-SOE-008",
+    "ref_name": "琳内特·布里奇特·巴贡扎 (Lynette Bridget Bagonza)",
+    "id": "UG-PERSON-000135",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-001",
+    "ref_name": "伊诺姆忠·马吉多夫 (Inomjon Majidov)",
+    "id": "UZ-PERSON-000260",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-001",
+    "ref_name": "瓦利·约德加罗夫 (Vali Yodgarov)",
+    "id": "UZ-PERSON-000261",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "萨德里丁·图拉布贾诺夫 (Sadriddin Turobjonov)",
+    "id": "UZ-PERSON-000262",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "优素福·阿布索托夫 (Yusuf Absoatov)",
+    "id": "UZ-PERSON-000328",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "奥里普忠·扎里波夫 (Oripjon Zaripov)",
+    "id": "UZ-PERSON-000329",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "萨尔多尔·多纳耶夫 (Sardor Donayev)",
+    "id": "UZ-PERSON-000330",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "贾苏尔·穆库莫夫 (Jasur Muqumov)",
+    "id": "UZ-PERSON-000331",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "沙夫卡特·阿济莫夫 (Shavkat Azimov)",
+    "id": "UZ-PERSON-000332",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-003",
+    "ref_name": "纳济里拉·马赫穆多夫 (Nazirila Makhmudov)",
+    "id": "UZ-PERSON-000333",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-004",
+    "ref_name": "多尼约尔·苏尔通巴耶维奇·亚赫希巴耶夫 (Yaxshibayev Doniyor Sultonbayevich)",
+    "id": "UZ-PERSON-000251",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-004",
+    "ref_name": "萨洛希丁·扎伊尼丁诺维奇·托什马托夫 (Toshmatov Salohiddin Zayniddinovich)",
+    "id": "UZ-PERSON-000263",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-006",
+    "ref_name": "伊斯兰别克·鲁斯坦别科夫 (Islambek Rustambekov)",
+    "id": "UZ-PERSON-000265",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-006",
+    "ref_name": "阿赫塔姆·雅库博夫 (Ahtam Yakubov)",
+    "id": "UZ-PERSON-000266",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-006",
+    "ref_name": "阿济祖拉·伊米诺夫 (Azizulla Iminov)",
+    "id": "UZ-PERSON-000267",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-007",
+    "ref_name": "奥依丁·曼诺波娃 (Oydin Mannopova)",
+    "id": "UZ-PERSON-000268",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-008",
+    "ref_name": "巴赫罗姆·米尔卡西莫夫 (Bakhrom Mirkasimov)",
+    "id": "UZ-PERSON-000269",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-008",
+    "ref_name": "尼佐姆·卡迪罗夫 (Nizom Kadirov)",
+    "id": "UZ-PERSON-000147",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-008",
+    "ref_name": "佐希德·阿斯卡罗夫 (Zohid Askarov)",
+    "id": "UZ-PERSON-000270",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-008",
+    "ref_name": "伊克罗姆·里克希博耶夫 (Ikrom Rikhsiboev)",
+    "id": "UZ-PERSON-000271",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-009",
+    "ref_name": "富尔维奥·里纳乌多 (Fulvio Rinaudo)",
+    "id": "UZ-PERSON-000272",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-010",
+    "ref_name": "图尔迪穆拉特·图尔孙穆拉托夫 (Turdimurat Tursunmuratov)",
+    "id": "UZ-PERSON-000273",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-010",
+    "ref_name": "富尔卡特·穆希季诺夫 (Furkat Mukhiddinov)",
+    "id": "UZ-PERSON-000225",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-010",
+    "ref_name": "鲁斯坦别克·卡扎科夫 (Rustambek Kazakov)",
+    "id": "UZ-PERSON-000274",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-017",
+    "ref_name": "沙曼苏尔·萨格杜拉耶夫 (Shamansur Sagdullayev)",
+    "id": "UZ-PERSON-000275",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-017",
+    "ref_name": "沙赫洛洪·图尔迪库洛娃 (Shaxloxon Turdikulova)",
+    "id": "UZ-PERSON-000276",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-017",
+    "ref_name": "阿布杜瓦霍布·阿布杜卡里莫夫 (Abduvaxob Abdukarimov)",
+    "id": "UZ-PERSON-000277",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-019",
+    "ref_name": "伊利哈姆·萨迪科夫 (Ilhom Sadikov)",
+    "id": "UZ-PERSON-000334",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-019",
+    "ref_name": "法赫鲁拉·昆古罗夫 (Fakhrulla Kungurov)",
+    "id": "UZ-PERSON-000335",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-025",
+    "ref_name": "贝尔季亚尔·乔利别科夫 (Jollibekov Berdiyar Baxtiyarovich)",
+    "id": "UZ-PERSON-000278",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-025",
+    "ref_name": "阿赫梅德·雷莫夫 (Reymov Ahmed Mambetkarimovich)",
+    "id": "UZ-PERSON-000279",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-026",
+    "ref_name": "安东·沃尔夫冈·赫尔曼 (Anton Wolfgang Herrmann)",
+    "id": "UZ-PERSON-000280",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-026",
+    "ref_name": "阿济兹别克·马拉希莫夫 (Azizbek Marakhimov)",
+    "id": "UZ-PERSON-000238",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-026",
+    "ref_name": "阿卜杜拉赫蒙·乌马罗夫 (Abdurakhmon Umarov)",
+    "id": "UZ-PERSON-000178",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-ACAD-026",
+    "ref_name": "萨尔瓦尔·奥季洛夫 (Sarvar Odilov)",
+    "id": "UZ-PERSON-000281",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-002",
+    "ref_name": "阿布罗尔·加尼耶夫 (Abror Gʻaniyev)",
+    "id": "UZ-PERSON-000159",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "贾苏尔·朱马耶夫 (Djasur Djumaev)",
+    "id": "UZ-PERSON-000160",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "尼古拉·谢列兹尼奥夫 (Nikolay Seleznev)",
+    "id": "UZ-PERSON-000161",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "罗曼·拉夫连季耶夫 (Roman Lavrentyev)",
+    "id": "UZ-PERSON-000162",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "尼基塔·古利亚耶夫 (Nikita Gulyaev)",
+    "id": "UZ-PERSON-000163",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "谢尔盖·萨利科夫 (Sergey Salikov)",
+    "id": "UZ-PERSON-000139",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "凯文·坎达 (Kevin Khanda)",
+    "id": "UZ-PERSON-000164",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-003",
+    "ref_name": "叶戈尔·阿布拉梅茨 (Egor Abramets)",
+    "id": "UZ-PERSON-000165",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-004",
+    "ref_name": "扎法尔·哈希莫夫 (Zafar Hoshimov)",
+    "id": "UZ-PERSON-000166",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-004",
+    "ref_name": "佩德罗·马丁纽 (Pedro Martinho)",
+    "id": "UZ-PERSON-000173",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-005",
+    "ref_name": "安德烈·希什科夫斯基 (Andrey Shishkovsky)",
+    "id": "UZ-PERSON-000174",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-006",
+    "ref_name": "索比尔·阿里波夫 (Sobir Aripov)",
+    "id": "UZ-PERSON-000175",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-006",
+    "ref_name": "亚库布江·赛达利耶夫 (Yoqubjon Saydaliev)",
+    "id": "UZ-PERSON-000176",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-006",
+    "ref_name": "洛拉·菲拉托娃 (Lola Filatova)",
+    "id": "UZ-PERSON-000177",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-006",
+    "ref_name": "阿卜杜拉赫蒙·阿卜杜拉赫马诺夫 (Abdurakhmon Abdurakhmanov)",
+    "id": "UZ-PERSON-000178",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-006",
+    "ref_name": "巴赫罗姆江·奥尔马托夫 (Bahromjon Olmatov)",
+    "id": "UZ-PERSON-000179",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-006",
+    "ref_name": "萨尔多贝克·塔季耶夫 (Sardorbek Tadzhiev)",
+    "id": "UZ-PERSON-000180",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "帖木尔·加达伊巴耶夫 (Temur Gadaybaev)",
+    "id": "UZ-PERSON-000181",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "帕特里克·尤瑟夫·贝贾尼 (Patrick Youssef Bejjani)",
+    "id": "UZ-PERSON-000182",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "巴赫季耶尔·梅利科夫 (Bakhtier Melikov)",
+    "id": "UZ-PERSON-000183",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "马尔万·塔库什 (Marwan Takkoush)",
+    "id": "UZ-PERSON-000184",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "埃尔杰斯·埃尔曼 (Erjiyes Erman)",
+    "id": "UZ-PERSON-000185",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "艾古丽·比谢诺娃 (Aigul Bissenova)",
+    "id": "UZ-PERSON-000186",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-007",
+    "ref_name": "谢尔盖·克拉索夫斯基 (Sergey Krasovsky)",
+    "id": "UZ-PERSON-000139",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-008",
+    "ref_name": "博比尔洪·苏尔托诺夫 (Bobirxon Sultonov)",
+    "id": "UZ-PERSON-000188",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-008",
+    "ref_name": "安德烈·泰 (Andrey Tey)",
+    "id": "UZ-PERSON-000189",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-008",
+    "ref_name": "里佐·萨迪科夫 (Rizo Sadikov)",
+    "id": "UZ-PERSON-000190",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-011",
+    "ref_name": "约尔多沙利·米尔扎卡里莫夫 (Mirzakarimov Yoʻldoshali Xusanboyevich)",
+    "id": "UZ-PERSON-000193",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-011",
+    "ref_name": "贝赫佐德·穆米诺夫 (Moʻminov Behzod Muratovich)",
+    "id": "UZ-PERSON-000194",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-011",
+    "ref_name": "马赫穆德忠·索伊波夫 (Soipov Maxmudjon Kamilovich)",
+    "id": "UZ-PERSON-000195",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-011",
+    "ref_name": "萨尔多别克·苏尔托诺夫 (Sultonov Sardorbek Shuhratovich)",
+    "id": "UZ-PERSON-000188",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-011",
+    "ref_name": "贾姆希德别克·基尔吉佐夫 (Kirgizov Jamshidbek Bahodirovich)",
+    "id": "UZ-PERSON-000196",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-011",
+    "ref_name": "阿米尔忠·萨法罗夫 (Safarov Amirjon Farhodovich)",
+    "id": "UZ-PERSON-000151",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-012",
+    "ref_name": "因德拉尼尔·马宗达 (Indranil Majumdar)",
+    "id": "UZ-PERSON-000197",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-012",
+    "ref_name": "阿米特·贾因 (Amit Jain)",
+    "id": "UZ-PERSON-000198",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-012",
+    "ref_name": "普拉卡什·凯杰里瓦尔 (Prakash Kejriwal)",
+    "id": "UZ-PERSON-000169",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-012",
+    "ref_name": "阿林丹·班纳吉 (Arindam Banerjee)",
+    "id": "UZ-PERSON-000199",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-012",
+    "ref_name": "欧文·贝里 (Owen Berry)",
+    "id": "UZ-PERSON-000200",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-013",
+    "ref_name": "阿济济洛·古拉姆卡季罗夫 (Azizullo Gulamkadirov)",
+    "id": "UZ-PERSON-000201",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-CORP-013",
+    "ref_name": "阿列克谢·沙季洛夫 (Alexey Shatilov)",
+    "id": "UZ-PERSON-000202",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-001",
+    "ref_name": "努斯拉蒂拉·法济洛夫 (Nusratilla Fazilov)",
+    "id": "UZ-PERSON-000203",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-001",
+    "ref_name": "阿布罗尔·米尔佐·奥利莫夫 (Abror Mirzo Olimov)",
+    "id": "UZ-PERSON-000159",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-001",
+    "ref_name": "阿布罗尔霍贾·图尔达利耶夫 (Abrorkhuja Turdaliev)",
+    "id": "UZ-PERSON-000204",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-001",
+    "ref_name": "尼尚拜·西拉吉季诺夫 (Nishanbay Sirajiddinov)",
+    "id": "UZ-PERSON-000205",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-002",
+    "ref_name": "萨尔多别克·乌斯曼别科夫 (Sardorbek Anarbekovich Usmanbekov)",
+    "id": "UZ-PERSON-000206",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-003",
+    "ref_name": "达夫龙·乌马罗夫 (Davron Shavkatovich Umarov)",
+    "id": "UZ-PERSON-000172",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-003",
+    "ref_name": "叶夫根尼·戈罗霍夫 (Evgeniy Yuryevich Gorokhov)",
+    "id": "UZ-PERSON-000209",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-003",
+    "ref_name": "奥尔索莉娅·埃克勒 (Orsolya Ekler)",
+    "id": "UZ-PERSON-000210",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-003",
+    "ref_name": "谢尔盖·科兹洛夫 (Sergey Aleksandrovich Kozlov)",
+    "id": "UZ-PERSON-000139",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-003",
+    "ref_name": "杜尔别克·萨迪罗夫 (Durbek Meylijonovich Sadirov)",
+    "id": "UZ-PERSON-000211",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-003",
+    "ref_name": "阿博斯·胡贾穆拉托夫 (Abbos Mardanovich Khujamuratov)",
+    "id": "UZ-PERSON-000213",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-004",
+    "ref_name": "埃尔金·卡霍罗夫 (Erkin Kakhorov)",
+    "id": "UZ-PERSON-000214",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-005",
+    "ref_name": "迪尔绍德·库特利耶夫 (Dilshod Kutliyev)",
+    "id": "UZ-PERSON-000215",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-005",
+    "ref_name": "古尔佐达·拉希多娃 (Gulzoda Rashidova)",
+    "id": "UZ-PERSON-000216",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-006",
+    "ref_name": "库德拉提拉·图利亚加诺夫 (Kudratilla Tulyaganov)",
+    "id": "UZ-PERSON-000217",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-008",
+    "ref_name": "亚当·森特佩特里 (Adam Szentpéteri)",
+    "id": "UZ-PERSON-000218",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-008",
+    "ref_name": "埃利约尔·伊诺姆忠诺夫 (Elyor Inomjonov)",
+    "id": "UZ-PERSON-000220",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-008",
+    "ref_name": "诺迪尔别克·拉赫巴罗夫 (Nodirbek Rakhbarov)",
+    "id": "UZ-PERSON-000221",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-010",
+    "ref_name": "基里尔·马耶夫斯基 (Kirill Maevskiy)",
+    "id": "UZ-PERSON-000222",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-010",
+    "ref_name": "康斯坦丁·季扬 (Konstantin Tyan)",
+    "id": "UZ-PERSON-000223",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-010",
+    "ref_name": "叶卡捷琳娜·叶尼基耶娃 (Ekaterina Enikeeva)",
+    "id": "UZ-PERSON-000224",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-010",
+    "ref_name": "富尔卡特·哈萨诺夫 (Furkat Khasanov)",
+    "id": "UZ-PERSON-000225",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-011",
+    "ref_name": "达夫龙·米尔图尔苏诺夫 (Mirtursunov Davron Shavkatovich)",
+    "id": "UZ-PERSON-000172",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-011",
+    "ref_name": "福鲁赫·伊斯哈科夫 (Isxakov Forrux Akzamjonovich)",
+    "id": "UZ-PERSON-000226",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-011",
+    "ref_name": "贾夫哈尔·赛义德卡莫洛夫 (Saidkamolov Javxar Sanjarovich)",
+    "id": "UZ-PERSON-000227",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-011",
+    "ref_name": "赛义达布罗尔·赛义达赫梅多夫 (Saidakhammedov Saidabror)",
+    "id": "UZ-PERSON-000228",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-012",
+    "ref_name": "拉法尔·马尔钦·尤什查克 (Rafał Marcin Juszczak)",
+    "id": "UZ-PERSON-000229",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-012",
+    "ref_name": "沙姆西丁诺夫·赛义德忠·沙姆西丁诺维奇 (Shamsiddinov Saidjon Shamsiddinovich)",
+    "id": "UZ-PERSON-000231",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-012",
+    "ref_name": "马马萨利耶夫·谢尔佐德别克·奥里夫忠诺维奇 (Mamasaliyev Sherzodbek Orifjonovich)",
+    "id": "UZ-PERSON-000232",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-012",
+    "ref_name": "易卜拉伊莫娃·阿济扎·易克拉莫夫娜 (Ibragimova Aziza Ikramovna)",
+    "id": "UZ-PERSON-000233",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "尼科洛兹·库尔迪亚尼 (Nikoloz Kurdiani)",
+    "id": "UZ-PERSON-000234",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "斯帕尔塔克·捷特拉什维利 (Spartak Tetrashvili)",
+    "id": "UZ-PERSON-000235",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "希科亚特·穆拉贾诺娃 (Hikoyat Mullajanova)",
+    "id": "UZ-PERSON-000236",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "西托拉·图利亚加诺娃 (Sitora Tulyaganova)",
+    "id": "UZ-PERSON-000237",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "阿济兹别克·阿舒罗夫 (Azizbek Ashurov)",
+    "id": "UZ-PERSON-000238",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "别尔季别克·艾哈迈多夫 (Berdibek Ahmedov)",
+    "id": "UZ-PERSON-000239",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "索菲·吉博 (Sofi Gibo)",
+    "id": "UZ-PERSON-000240",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "尼诺·马苏拉什维利 (Nino Masurashvili)",
+    "id": "UZ-PERSON-000241",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-013",
+    "ref_name": "亚历山德拉·斯罗卡-克日扎克 (Aleksandra Sroka-Krzyżak)",
+    "id": "UZ-PERSON-000242",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-014",
+    "ref_name": "沃尔坎·古尔杜尔梅兹 (Volkan Guldurmez)",
+    "id": "UZ-PERSON-000243",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-014",
+    "ref_name": "奥伊别克·埃什穆尔扎耶夫 (Oybek Eshmurzayev)",
+    "id": "UZ-PERSON-000244",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-014",
+    "ref_name": "努斯雷廷·埃夫伦·阿尚 (Nusrettin Evren Ashan)",
+    "id": "UZ-PERSON-000245",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-014",
+    "ref_name": "洛克曼·巴赫希 (Lokman Bahshi)",
+    "id": "UZ-PERSON-000246",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-014",
+    "ref_name": "阿赫迈特·阿贾尔 (Ahmet Acar)",
+    "id": "UZ-PERSON-000247",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-016",
+    "ref_name": "贝伊比特·法列耶夫 (Beibit Xamitovich Faleyev)",
+    "id": "UZ-PERSON-000248",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-016",
+    "ref_name": "穆拉特·科舍诺夫 (Murat Uzakbaevich Koshenov)",
+    "id": "UZ-PERSON-000249",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-016",
+    "ref_name": "巴扬·伊玛舍娃 (Bayan Paruxovna Imasheva)",
+    "id": "UZ-PERSON-000250",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-016",
+    "ref_name": "多尼约尔·阿卜杜拉赫曼诺夫 (Doniyor Marselevich Abduraxmanov)",
+    "id": "UZ-PERSON-000251",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-023",
+    "ref_name": "萨希·安纳克利切夫 (Annaklichev Saxi Saparmuxamedovich)",
+    "id": "UZ-PERSON-000252",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-023",
+    "ref_name": "奥伊别克·沃希多夫 (Voxidov Oybek Roziqovich)",
+    "id": "UZ-PERSON-000253",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-024",
+    "ref_name": "安德烈·戈列夫 (Golev Andrey Yurievich)",
+    "id": "UZ-PERSON-000174",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-024",
+    "ref_name": "叶莲娜·科加伊 (Kogay Elena Edikovna)",
+    "id": "UZ-PERSON-000255",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-024",
+    "ref_name": "阿努尔别克·胡达别尔加诺夫 (Khudayberganov Anurbek Samandarovich)",
+    "id": "UZ-PERSON-000256",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-024",
+    "ref_name": "瓦西里·佐博夫 (Zobov Vasily Sergeevich)",
+    "id": "UZ-PERSON-000257",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-FIN-024",
+    "ref_name": "谢拉利·阿布季耶夫 (Abdiev Sherali Narbaevich)",
+    "id": "UZ-PERSON-000258",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-006",
+    "ref_name": "马夫卢达汗·霍贾耶娃 (Mavludaxon Xodjayeva)",
+    "id": "UZ-PERSON-000053",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-009",
+    "ref_name": "阿斯卡尔忠·博伊索维奇·加富罗夫 (Ғафуров Асқаржон Бойисович)",
+    "id": "UZ-PERSON-000057",
+    "class": "profile_wrong",
+    "current_profile": "Asqar Gʻafurov"
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-010",
+    "ref_name": "巴赫里金·瓦利耶夫 (Valiyev Baxriddin Baxadirovich)",
+    "id": "UZ-PERSON-000078",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-010",
+    "ref_name": "伊斯罗伊尔·阿德哈莫夫 (Adxamov Isroil Mirdjamalovich)",
+    "id": "UZ-PERSON-000079",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-010",
+    "ref_name": "萨洛姆·萨马多夫 (Samadov Salom Ismatovich)",
+    "id": "UZ-PERSON-000081",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-011",
+    "ref_name": "巴霍季尔忠·尤努索夫 (Baxodirjalolovich Yunusov)",
+    "id": "UZ-PERSON-000089",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-011",
+    "ref_name": "哈尔穆罕默德·帕卢阿尼亚佐夫 (Xalmuxammed Aitjanovich Paluaniyazov)",
+    "id": "UZ-PERSON-000090",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-GOV-011",
+    "ref_name": "穆赫塔巴尔·胡萨诺娃 (Muxabar Akbarovna Xusanova)",
+    "id": "UZ-PERSON-000091",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-INTL-001",
+    "ref_name": "努尔詹·努尔日吉托夫 (Nurzhan Nurzhigitov)",
+    "id": "UZ-PERSON-000282",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-INTL-001",
+    "ref_name": "季娜拉·齐甘申娜 (Dinara Ziganshina)",
+    "id": "UZ-PERSON-000283",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-INTL-003",
+    "ref_name": "卡瑟姆若马尔特·托卡耶夫 (Kassym-Jomart Tokayev)",
+    "id": "UZ-PERSON-000284",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-INTL-003",
+    "ref_name": "阿斯哈特·奥拉兹拜 (Askhat Orazbay)",
+    "id": "UZ-PERSON-000285",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-MEDIA-005",
+    "ref_name": "苏伦·萨波夫 (Suren Sapov)",
+    "id": "UZ-PERSON-000293",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-MEDIA-005",
+    "ref_name": "埃利娜·萨卡耶娃 (Elina Sakaeva)",
+    "id": "UZ-PERSON-000294",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-MEDIA-011",
+    "ref_name": "尤苏夫琼·哈米多夫 (Yusufjon Hamidov)",
+    "id": "UZ-PERSON-000301",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-001",
+    "ref_name": "卡莫利丁·伊尚霍贾耶夫 (Kamoliddin Ishanxodjayev)",
+    "id": "UZ-PERSON-000306",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-001",
+    "ref_name": "萨曼达尔·伊斯莫伊洛夫 (Samandar Ismoilov)",
+    "id": "UZ-PERSON-000307",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-003",
+    "ref_name": "迪尔绍德别克·乌斯莫诺夫 (Dilshodbek Usmonov)",
+    "id": "UZ-PERSON-000308",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-004",
+    "ref_name": "奥季尔·艾哈迈多夫 (Odil Ahmedov)",
+    "id": "UZ-PERSON-000239",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-004",
+    "ref_name": "阿瓦兹·马克苏莫夫 (Avaz Maksumov)",
+    "id": "UZ-PERSON-000309",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-007",
+    "ref_name": "祖莱霍·马赫卡莫娃 (Zulayxo Mahkamova)",
+    "id": "UZ-PERSON-000310",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-007",
+    "ref_name": "哈莉玛·胡多伊别尔季耶娃 (Halima Xudoyberdiyeva)",
+    "id": "UZ-PERSON-000311",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-008",
+    "ref_name": "伊布拉吉姆忠·多穆拉贾诺夫 (Ibragimjon Domuladjanov)",
+    "id": "UZ-PERSON-000312",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-008",
+    "ref_name": "赛义德拉苏尔·桑吉诺夫 (Saidrasul Sanginov)",
+    "id": "UZ-PERSON-000135",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   },
+   {
+    "cc": "uz",
+    "org_id": "UZ-NGO-008",
+    "ref_name": "阿尔图尔·瓦希托夫 (Artur Vakhitov)",
+    "id": "UZ-PERSON-000313",
+    "class": "registry_wrong_name",
+    "current_profile": null
+   }
+  ]
+ }
+}

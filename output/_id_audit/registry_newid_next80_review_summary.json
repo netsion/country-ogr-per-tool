@@ -1,0 +1,210 @@
+{
+  "review_only": true,
+  "execution_authorized": false,
+  "sample": 80,
+  "conclusions": {
+    "挂起": 28,
+    "不分配": 25,
+    "分配": 25,
+    "改类别后分配": 2
+  },
+  "by_country": {
+    "KR": {
+      "挂起": 15,
+      "不分配": 3,
+      "分配": 2
+    },
+    "MX": {
+      "挂起": 5,
+      "不分配": 12,
+      "分配": 3
+    },
+    "NZ": {
+      "分配": 9,
+      "挂起": 7,
+      "不分配": 3,
+      "改类别后分配": 1
+    },
+    "JP": {
+      "分配": 11,
+      "不分配": 7,
+      "挂起": 1,
+      "改类别后分配": 1
+    }
+  },
+  "no_current_reference_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "person_as_org_rows": [
+    23,
+    28,
+    36,
+    37
+  ],
+  "non_organization_rows": [
+    7,
+    18,
+    44,
+    60
+  ],
+  "occupied_proposed_ids": [],
+  "proposed_ids_already_in_references": {
+    "KR-CORP-035": [
+      {
+        "file": "output/kr/2026-05-04/orgs/KR-CORP-006.json",
+        "pointer": "related_entities[2].org_id",
+        "entry": {
+          "org_id": "KR-CORP-035",
+          "org_name": "浦项制铁 E&C (POSCO E&C)",
+          "org_type": "CORP",
+          "org_description": "工程建设子公司，涉足工厂建设、基础设施、城市开发等领域。2026年Q1营收1.68万亿韩元。",
+          "relationship_type": "subsidiary"
+        }
+      },
+      {
+        "file": "output/kr/2026-05-04/orgs/KR-SOE-003.json",
+        "pointer": "related_entities[4].org_id",
+        "entry": {
+          "org_id": "KR-CORP-035",
+          "org_name": "韩国铁道公社 Retail (코레일유통) (Korail Retail (코레일유통))",
+          "org_type": "CORP",
+          "org_description": "Korail子公司，负责广告管理与Storyway便利店运营",
+          "relationship_type": "subsidiary"
+        }
+      }
+    ],
+    "KR-CORP-036": [
+      {
+        "file": "output/kr/2026-05-04/orgs/KR-CORP-006.json",
+        "pointer": "related_entities[4].org_id",
+        "entry": {
+          "org_id": "KR-CORP-036",
+          "org_name": "浦项制铁 DX (POSCO DX)",
+          "org_type": "CORP",
+          "org_description": "IT与数字化转型子公司，负责集团智能工厂建设及制造AI解决方案开发。",
+          "relationship_type": "subsidiary"
+        }
+      },
+      {
+        "file": "output/kr/2026-05-04/orgs/KR-SOE-003.json",
+        "pointer": "related_entities[6].org_id",
+        "entry": {
+          "org_id": "KR-CORP-036",
+          "org_name": "韩国铁道公社 Logis (코레일로지스) (Korail Logis (코레일로지스))",
+          "org_type": "CORP",
+          "org_description": "Korail子公司，负责铁路物流运输",
+          "relationship_type": "subsidiary"
+        }
+      }
+    ],
+    "KR-ACAD-028": [
+      {
+        "file": "output/kr/2026-05-04/orgs/KR-GOV-007.json",
+        "pointer": "related_entities[7].org_id",
+        "entry": {
+          "org_id": "KR-ACAD-028",
+          "org_name": "统一研究院 (Korea Institute for National Unification)",
+          "org_type": "ACAD",
+          "org_description": "国务总理室出资研究机构，负责朝鲜半岛统一与安全政策研究，前身民族统一研究院",
+          "relationship_type": "affiliated"
+        }
+      }
+    ]
+  },
+  "matching_references_including_compound": 61,
+  "prior_merge_checks": [
+    {
+      "source_id": "KR-ACAD-006",
+      "source_name": "Korea Advanced Institute of Science and Technology",
+      "target_id": "KR-ACAD-026",
+      "registry_file": "output/kr/2026-05-04/id_registry.json",
+      "target_active_registered": true,
+      "profile_exists": false,
+      "current_reference_count": 7,
+      "prior_exec_changed_reference_count": 6
+    },
+    {
+      "source_id": "KR-CORP-030",
+      "source_name": "Amorepacific Corporation",
+      "target_id": "KR-CORP-036",
+      "registry_file": "output/kr/2026-05-04/id_registry.json",
+      "target_active_registered": false,
+      "profile_exists": false,
+      "current_reference_count": 2,
+      "prior_exec_changed_reference_count": 0
+    },
+    {
+      "source_id": "KR-GOV-010",
+      "source_name": "(Ministry of Employment and Labor)",
+      "target_id": "KR-GOV-1158",
+      "registry_file": "output/kr/2026-05-04/id_registry.json",
+      "target_active_registered": true,
+      "profile_exists": false,
+      "current_reference_count": 1,
+      "prior_exec_changed_reference_count": 1
+    },
+    {
+      "source_id": "KR-GOV-157",
+      "source_name": "新千年民主党 (새천년민주당)",
+      "target_id": "KR-GOV-1249",
+      "registry_file": "output/kr/2026-05-04/id_registry.json",
+      "target_active_registered": false,
+      "profile_exists": false,
+      "current_reference_count": 0,
+      "prior_exec_changed_reference_count": 0
+    },
+    {
+      "source_id": "KR-GOV-305",
+      "source_name": "仁川地方检察厅（인천지방검찰청）",
+      "target_id": "KR-GOV-1253",
+      "registry_file": "output/kr/2026-05-04/id_registry.json",
+      "target_active_registered": false,
+      "profile_exists": false,
+      "current_reference_count": 0,
+      "prior_exec_changed_reference_count": 0
+    },
+    {
+      "source_id": "KR-GOV-208",
+      "source_name": "大邱地方法院（대구지방법원）",
+      "target_id": "KR-GOV-1254",
+      "registry_file": "output/kr/2026-05-04/id_registry.json",
+      "target_active_registered": false,
+      "profile_exists": false,
+      "current_reference_count": 0,
+      "prior_exec_changed_reference_count": 0
+    },
+    {
+      "source_id": "NZ-GOV-059",
+      "source_name": "Commerce Commission NZ (新西兰商务委员会)",
+      "target_id": "NZ-GOV-152",
+      "registry_file": "output/nz/2026-06-04/id_registry.json",
+      "target_active_registered": true,
+      "profile_exists": false,
+      "current_reference_count": 7,
+      "prior_exec_changed_reference_count": 7
+    }
+  ],
+  "prior_missing_canonical_count": 4,
+  "source_hashes_checked": 23687,
+  "changed_source_files": [],
+  "input_csv_sha256": "0598d6027303f507015d8f657f5b66aee903e3617dd9ccc8e21c1baf5be96d98"
+}

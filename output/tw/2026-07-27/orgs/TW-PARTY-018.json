@@ -1,26 +1,17 @@
 {
   "org_id": "TW-PARTY-018",
   "wikidata_qid": "Q17500520",
-  "name": "台灣基進",
   "basic_info": {
-    "org_id": "TW-PARTY-018",
-    "wikidata_qid": "Q17500520",
     "name_original": "台灣基進",
     "name_en": "Taiwan Statebuilding Party",
-    "name_local": "台灣基進",
     "name_zh": "台湾基进",
     "org_type": "PARTY",
-    "country": "TW",
     "country_iso3": "TWN",
     "hq_country_iso3": "TWN",
-    "founded_year": 2016,
     "website": "https://statebuilding.tw",
-    "official_website": "https://statebuilding.tw",
-    "is_tw_verified": true,
-    "aliases": []
+    "aliases": [],
+    "org_subtype": ""
   },
-  "description": "台灣基進，簡稱基進黨（TSP），是中華民國政黨，主張依民意討論台灣獨立的務實辦法，定位走「左翼台獨」路線。總部位於高雄市，現任黨主席是王興煥，秘書長是馬依翔。\n",
-  "brief": "台灣基進，簡稱基進黨（TSP），是中華民國政黨，主張依民意討論台灣獨立的務實辦法，定位走「左翼台獨」路線。總部位於高雄市，現任黨主席是王興煥，秘書長是馬依翔。\n",
   "core_business": "台灣基進，簡稱基進黨（TSP），是中華民國政黨，主張依民意討論台灣獨立的務實辦法，定位走「左翼台獨」路線。總部位於高雄市，現任黨主席是王興煥，秘書長是馬依翔。\n",
   "industries": [
     "public_administration"
@@ -57,14 +48,22 @@
   "related_entities": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q17500520",
-      "https://zh.wikipedia.org/wiki/台灣基進",
-      "https://zh.wikipedia.org/wiki/台灣基進"
+      "wikidata",
+      "wikipedia"
     ],
     "completeness_score": 80,
-    "notes": "Major TW political party (Taiwan Statebuilding Party)",
-    "quotes": []
+    "notes": "Major TW political party (Taiwan Statebuilding Party)；仅Schema规范化，旧phase=P3；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q17500520"
+      },
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://zh.wikipedia.org/wiki/台灣基進"
+      }
+    ]
   }
 }

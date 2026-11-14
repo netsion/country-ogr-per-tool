@@ -1,0 +1,81 @@
+﻿status,country,collision_id,owner,shadow,category,new_id,same_identity_new_id,sample_seq,conclusion,note
+defer,kr,KR-ACAD-012,韩国开发研究院国际政策研究生院大学,Hanyang University,ACAD,,,1,挂起,汉阳大学可独立于KDI School，但另有KR-GOV-176汉阳大学、KR-GOV-714汉阳大学校注册项；先归一为一个高校身份，不单独照本行发号。无当前引用不能代替实体去重。 建议编号已存在于业务引用，须先核对这些存量引用主体，不能因registry未登记就当空号。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-ACAD-013,韩国科学技术研究院,Sogang University,ACAD,,,2,挂起,西江大学不是KIST；KR-GOV-695另有同一大学注册项，应合一。KR-GOV-321学生会、455法学院、753社会科学研究所不能仅因包含校名一并合并。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-CORP-021,SK能源,Lotte Group,CORP,,,3,挂起,Lotte Group与SK Energy不同，可建立集团级CORP身份；不要合并到Lotte Insurance或把模糊匹配得到的人物当组织。当前无引用，优先级低于有引用项。 建议编号已存在于业务引用，须先核对这些存量引用主体，不能因registry未登记就当空号。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-CORP-027,SK创新,Amorepacific Corporation,CORP,,,4,挂起,Amorepacific是独立企业，但当前KR-CORP-027实际画像为SK Innovation，registry却另有Amorepacific的profiled记录。上轮将KR-CORP-030影子标merged_into=KR-CORP-036，而036尚未注册；该036已被另两处引用用来表示POSCO DX和Korail Logis，不能再赋给Amorepacific。先修合并闭合性、引用编号占用和registry标签矛盾。 建议编号已存在于业务引用，须先核对这些存量引用主体，不能因registry未登记就当空号。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-013,韩国海洋水产部,"Ministry of Agriculture, Food and Rural Affairs",GOV,,,5,挂起,农林畜产食品部不是海洋水产部；但KR-GOV-112/113已登记同一部，应先并为一个身份。外国同名农业部及仅词元相近的韩国总务处都不可作为目标。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-036,,㈜IBF株式会社（아이비피,CORP,,,6,挂起,株式会社/㈜表明企业，GOV显然不合适；IBF拉丁缩写与아이비피转写还不一致。无原引用、无地址/法人号等证据，不足以确认具体公司后按CORP发号。 本轮仅为复核建议，不授权执行。
+no_assign,kr,KR-GOV-037,,国会议员辅佐官室,GOV,,,7,不分配,“国会议员辅佐官室”没有议员姓名、届次、地点，是职位/办公室通名，不是已识别组织。保留原登记待清理，不为该通名建独立GOV身份。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-039,,总统秘书室（대통령비서실,GOV,,,8,挂起,总统秘书室有KR-GOV-121/192/691等同名或近名注册项，另有金大中政府任期限定项。先定机构持续身份与任期部门的区别再合并，不重复发新的GOV号；现画像空不代表原ID第一条legacy记录是已证实owner。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-041,,自由韩国党（자유한국당,PARTY,,,9,挂起,自由韩国党是历史政党，不能建GOV；KR-GOV-092也登记相同政党，先去重并核与后继政党关系，再只建一个历史PARTY身份。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-042,,总统当选人秘书室（대한민국 대통령당선인비서실,GOV,,,10,挂起,总统当选人秘书室为过渡机构，需明确哪一届当选人及任期；KR-GOV-382另有同名注册项。不是可跨总统任期随意视作单一常设部门的名称。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-043,,庆北大学基础医学研究所（경북대학교 기초의학연구소,ACAD,,,11,挂起,庆北大学基础医学研究所不是大学本体，也不是陆军第三师团。需确认是否独立建研究所画像，或建大学部门；不能直接合到KR-ACAD-004，也不能按GOV发号。 本轮仅为复核建议，不授权执行。
+no_assign,jp,KR-GOV-045,,日本国立医药品食品卫生研究所（NIHS,ACAD,,,12,不分配,否定KR-GOV-1169方案：明确是日本NIHS，不是韩国机构；官网确认其从事医药食品等评价研究。先在日本主实体口径归一，不能根据引用登记分区创造韩国副本。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-046,,地区合作研究中心,GOV,,,13,挂起,“地区合作研究中心”是通名，无原文、主管单位、地点或实际引用，无法确认实体或类别，不发号。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-047,,大邱TechnoPark新技术事业团（대구테크노파크 신기술사업단,GOV,,,14,挂起,源为大邱TechnoPark的新技术事业团，而非整个园区或政府厅。无原引用，不足以判断独立主体、部门层级及存续期；先补机构沿革与主管关系。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-050,,庆尚北道厅（경상북도,GOV,,,15,挂起,庆尚北道厅已有KR-GOV-732等重复登记；KR-GOV-381中文/韩文是庆尚北道，英文却写Gyeonggi（京畿道），需先纠正身份标签，不能按同名无差别合并。 本轮仅为复核建议，不授权执行。
+approved_sample,kr,KR-GOV-051,,大邱庆北经济自由区域厅（대구경북경제자유구역청,GOV,KR-GOV-1163,,16,分配,大邱庆北经济自由区域厅为明确的区域管理机构，不同于原碰撞ID登记的政党；独立GOV身份原则可用。无当前引用，建档优先级低。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-052,,大邱广域市地方分权协议会（대구광역시 지방분권협의회,GOV,,,17,挂起,地方分权协议会名称具体但没有原引用及设立依据，需确认委员会是否单独建档、所属政府及任期；不能只因GOV编号可用即确认。 本轮仅为复核建议，不授权执行。
+no_assign,kr,KR-GOV-054,,第23届行政高等考试合格（제23회 행정고등고시,GOV,,,18,不分配,“第23届行政高等考试合格”是个人考试经历，不是组织。应记教育/资格或履历备注，不分配GOV或其他组织ID；也不自动删除原登记。 本轮仅为复核建议，不授权执行。
+defer,kr,KR-GOV-055,,忠清北道厅（충청북도청,GOV,,,19,挂起,忠清北道厅另有KR-GOV-754（North Chungcheong Provincial Government），应先归为一个机构，不能重复发GOV新身份。 本轮仅为复核建议，不授权执行。
+approved_sample,kr,KR-GOV-057,,忠清北道阴城郡（충청북도 음성군,GOV,KR-GOV-1164,,20,分配,忠清北道阴城郡是明确的地方政府辖区/郡政府，不是文在寅竞选委员会；可按地方政府GOV独立登记，规范名应明确为郡政府，当前无引用。 本轮仅为复核建议，不授权执行。
+defer,mx,MX-ACAD-004,大都会自治大学,耶稣会大学系统 (Sistema Universitario Jesuita / SUJ,ACAD,,,21,挂起,源是墨西哥多所耶稣会大学组成的SUJ网络，不是单独大学。先与上一批AUSJAL统一教育系统/大学联盟分类和建档粒度，不直接把网络当一所学校。 本轮仅为复核建议，不授权执行。
+no_assign,us,MX-ACAD-006,国家人文科学技术委员会（已升格为科学技术人文创新秘书处）,乔治城大学 (Georgetown University,ACAD,,,22,不分配,Georgetown是美国华盛顿的大学，源也明确美国；不按MX-ACAD-023建墨西哥副本。应在美国主实体口径去重后登记。 本轮仅为复核建议，不授权执行。
+no_assign,mx,MX-ACAD-006,国家人文科学技术委员会（已升格为科学技术人文创新秘书处）,罗绍拉·鲁伊斯·古铁雷斯（Rosaura Ruiz Gutiérrez,ACAD,,,23,不分配,源是MX-PERSON-000114的work_experience[0]，把本人姓名写成organization。已有MX-PERSON-000102和114两份同名人物档案，不能再建组织或把自己当雇主。职位指SECIHTI，已有MX-GOV-033可作为组织修正候选；需同时修文字并核任期，不能仅将ID换成人物ID。 本轮仅为复核建议，不授权执行。
+defer,mx,MX-ACAD-007,普埃布拉美洲大学,墨西哥不平等研究所 (INDESIG,ACAD,,,24,挂起,INDESIG官网同时列学术研究、数字行动与政策倡导，主体存在；但不能仅因“研究所”就当大学/学术院校。需按智库/社会倡导机构统一类别口径再分配。 本轮仅为复核建议，不授权执行。
+no_assign,us,MX-CORP-001,美洲移动通信,Talos Energy,CORP,,,25,不分配,不按MX-CORP-062发号：Pemex条目明确Talos为美国油气公司。额外发现Grupo México条目混写América Móvil/Talos，但说明全部指Slim电信企业，不能按Talos关键词将该复合条目一起改走。应先拆/修复文字再单独判引用。 本轮仅为复核建议，不授权执行。
+no_assign,br,MX-CORP-002,沃尔玛墨西哥与中美洲,Braskem,CORP,,,26,不分配,源明确巴西Braskem集团，不是Walmex；否定按MX-CORP新建。还需区分巴西母集团与墨西哥Braskem Idesa合资主体，不能用供应项目所在地替代法人身份。 本轮仅为复核建议，不授权执行。
+no_assign,es,MX-CORP-003,墨西哥经济发展公司 (FEMSA),Iberdrola (伊维尔德罗拉,CORP,,,27,不分配,源明确西班牙Iberdrola，不是FEMSA。否定MX-CORP方案，先核西班牙母集团与墨西哥地方子公司，按具体主体登记。 本轮仅为复核建议，不授权执行。
+no_assign,mx,MX-CORP-003,墨西哥经济发展公司 (FEMSA),José Antonio Fernández Carbajal,CORP,,,28,不分配,源是MX-PERSON-000119的work_experience[0]，把本人姓名当雇主。已有MX-PERSON-000107及119同名档案，不能建CORP或把org_id指到人物；董事长雇主可核FEMSA（MX-CORP-003），但需同时改组织文字、核职务和期间，并处理重复人物档案。 本轮仅为复核建议，不授权执行。
+approved_sample,mx,MX-CORP-004,墨西哥集团 (Grupo México),Telcel (Radiomóvil Dipsa,CORP,MX-CORP-094,,29,分配,源明确Telcel / Radiomóvil Dipsa为América Móvil墨西哥移动运营商，不是Grupo México或电信集团母体。可建立独立运营公司身份。 本轮仅为复核建议，不授权执行。
+defer,mx,MX-CORP-005,宾堡集团 (Grupo Bimbo),Claro,CORP,,,30,挂起,源明确Claro是多国统一品牌，单一名称不能确定国家法人；已有Claro Chile/Perú/Nicaragua画像，不能任选其一，也不能默认墨西哥法人。先明确品牌节点或具体运营公司。 本轮仅为复核建议，不授权执行。
+defer,mx,MX-CORP-007,卡索集团,Bodega Aurrerá,CORP,,,31,挂起,Bodega Aurrerá是Walmex零售连锁品牌，源用subsidiary但未给独立法人。先定品牌是否建组织画像、对应运营公司，而非只换成一个CORP编号。 本轮仅为复核建议，不授权执行。
+defer,mx,MX-CORP-008,阿尔法集团,Bait,CORP,,,32,挂起,标题写“Bait电商平台”，说明却是Walmex移动虚拟运营商；官方确认其为移动连接服务。先纠正文字及品牌/法律运营实体粒度，不能让新ID固化错误标题。 本轮仅为复核建议，不授权执行。
+approved_sample,mx,MX-CORP-011,埃莱克特拉集团,Solistica (索里斯蒂卡物流,CORP,MX-CORP-095,,33,分配,源明确Solistica物流业务，不是Grupo Elektra；可建集团级物流实体。其最新所有权、区域运营法人及FEMSA股权叙述需另核，ID复核不背书旧股东关系。 本轮仅为复核建议，不授权执行。
+no_assign,us,MX-CORP-013,拉拉集团,ASARCO LLC (美国冶炼与精炼公司,CORP,,,34,不分配,源明确ASARCO LLC为美国矿业公司，不是Grupo Lala。否定MX-CORP-084，按美国法人核主ID，母公司Grupo México国别不能覆盖子公司国别。 本轮仅为复核建议，不授权执行。
+approved_sample,mx,MX-CORP-014,金佰利墨西哥,Ferromex (联邦墨西哥铁路,CORP,MX-CORP-096,,35,分配,源明确Ferromex墨西哥铁路货运经营主体，不是Kimberly-Clark México。可以独立CORP；国名不意味着国有，股权比例另核。 本轮仅为复核建议，不授权执行。
+no_assign,mx,MX-CORP-014,金佰利墨西哥,Claudio X. González Laporte,CORP,,,36,不分配,实际是MX-PERSON-000133父亲档案的person_relationships[1].person_id，说明写其子、Marea Rosa及反腐组织活动；影子却给父亲Laporte全名。不能新建CORP，也不能改回133造成自指；需识别儿子Claudio X. González Guajardo，现本国人物主名扫描未见该儿子的独立画像。 本轮仅为复核建议，不授权执行。
+no_assign,mx,MX-CORP-014,金佰利墨西哥,Pablo González Guajardo,CORP,,,37,不分配,实际为父亲MX-PERSON-000133的儿子关系，person_id误用了CORP编号。儿子Pablo Roberto González Guajardo已有MX-PERSON-000134；应走人物改链复核，而不是建新组织。关系说明中的接任年份也有冲突，另核。 本轮仅为复核建议，不授权执行。
+no_assign,us,MX-CORP-015,索里亚纳,Bimbo Bakeries USA,CORP,,,38,不分配,源明确Bimbo Bakeries USA为美国业务子公司，不是Grupo Bimbo母体或Soriana。否定墨西哥新ID方案，核美国经营主体后登记，不能直接合回母集团。 本轮仅为复核建议，不授权执行。
+no_assign,it,MX-FIN-001,墨西哥BBVA银行,Generali (忠利保险,FIN,,,39,不分配,源明确意大利Generali保险集团，不是BBVA México；不按MX-FIN新建。先核意大利母集团主ID及具体墨西哥合资保险公司的区别。 本轮仅为复核建议，不授权执行。
+no_assign,us,MX-FIN-002,北方银行,Inter National Bank,FIN,,,40,不分配,源明确美国得州Inter National Bank，不能指Banorte或任何含International/National的其他银行；不按MX-FIN发号。应核历史银行、后续出售及合并沿革，不能把历史持股表述当成现时子公司。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-009,新西兰卫生部,广播标准局 (Broadcasting Standards Authority,GOV,NZ-GOV-153,,41,分配,明确Broadcasting Standards Authority公共广播内容监管机构，不是卫生部或媒体运营商，保持GOV；与资助机构NZ On Air也不同。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-010,初级产业部,新西兰地理空间办公室 (New Zealand Geospatial Office,GOV,,,42,挂起,源明确LINZ下属地理空间办公室；需确定办公室现/历史名称和部门建档口径，不能与LINZ本体自动合并，也不能把部门当独立法人。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-011,社会发展部,海外投资办公室 (Overseas Investment Office,GOV,NZ-GOV-154,,43,分配,明确海外投资审查办公室，不是社会发展部或投资公司；可作为有明确行政职能的办公室节点，建档时必须记录隶属LINZ，不宣称其为独立法人。 本轮仅为复核建议，不授权执行。
+no_assign,nz,NZ-GOV-015,文化和遺產部,新西兰测量总局长 (Surveyor-General,GOV,,,44,不分配,Surveyor-General是LINZ法定官员职位，源自己也明确为官员岗位。不能把职务新建为组织；应用岗位/部门或具体任职人物表示。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-022,教育审查办公室,新西兰生产力委员会 (New Zealand Productivity Commission,GOV,NZ-GOV-155,,45,分配,可建历史Productivity Commission身份，不是教育审查办公室；财政部资料确认至2024-02-29运作，源“2024年1月撤销”错误。监管部官网明确其未取代委员会，原predecessor关系也需纠正，不能随ID通过而背书。 本轮仅为复核建议，不授权执行。
+no_assign,gb,NZ-GOV-025,奥兰加·塔马里基—儿童部,枢密院司法委员会 (Judicial Committee of the Privy Council,GOV,,,46,不分配,枢密院司法委员会是位于伦敦的司法机构；历史承接新西兰上诉不使其成为新西兰机构。否定NZ-GOV-143，核英国主身份。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-034,新西兰癌症控制署,新西兰消防服务局 (New Zealand Fire Service,GOV,NZ-GOV-156,,47,分配,源明确New Zealand Fire Service，2017年前消防机构；与癌症控制署或现FENZ不同。可保留独立历史身份，并用继承关系连接新机构。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-035,新西兰最高法院,国家农村消防管理局 (National Rural Fire Authority,GOV,NZ-GOV-157,,48,分配,源明确National Rural Fire Authority及2017年整合，不能指新西兰最高法院，也不与FENZ主体直接等同；可建历史GOV身份。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-037,新西兰选举委员会,体育诚信委员会 (Sport Integrity Commission / Te Kahu Raunui,GOV,NZ-GOV-158,,49,分配,明确Sport Integrity Commission / Te Kahu Raunui独立公共机构，不是选举委员会，GOV类别与主体均可确认。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-039,新西兰住房与社区局,毛利咨询小组 (Te Puna / Maori Advisory Group,GOV,,,50,挂起,源限定为Taumata Arowai下Te Puna毛利咨询小组，不是所有同名Te Puna机构；应先定咨询组是否独立组织建档及与董事会的层级关系。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-040,新西兰交通局,新西兰故事集团 (New Zealand Story Group,GOV,,,51,挂起,New Zealand Story Group是政府国际品牌平台/跨机构项目，尚未确认独立行政机关或法人。需核管理主体后定组织/项目节点，不按“Group”或政府背景直接发GOV号。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-041,新西兰贸易发展局,Qualmark新西兰有限公司 (Qualmark New Zealand Limited,GOV,,,52,挂起,源明确Qualmark New Zealand Limited为Tourism NZ旗下公司；不能因母机构为公共部门直接继承GOV。需核公司性质，并与上一批HPSNZ的Crown实体公司规则统一。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-042,新西兰环境保护局,新西兰技能与技术学院 (New Zealand Institute of Skills and Technology / NZIST,ACAD,NZ-ACAD-020,,53,改类别后分配,NZIST是职业高等教育机构/网络，不是政府部委。官方确认其为Te Pūkenga后名称、仍在过渡重组；按教育机构ACAD分配并标明历史及重组状态，不复用GOV提案号。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-043,新西兰海事局,大学入学委员会 (Universities Entrance Board,GOV,NZ-GOV-159,,54,分配,明确Universities Entrance Board是NZQA前身资格机构，不是海事局；可按历史公共考试资格管理机构GOV建档，不能仅因universities改为学校。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-044,新西兰职业安全局,新西兰法律委员会 (New Zealand Law Commission,GOV,NZ-GOV-160,,55,分配,明确独立法律改革咨询委员会，不是WorkSafe，可独立GOV；法律研究职能不等于大学或律师协会。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-045,新西兰消防与应急局,Te Arawhiti—毛利与王室关系办公室 (Office for Māori Crown Relations,GOV,,,56,挂起,源用Te Arawhiti旧名并描述毛利—王室关系职能；官方审计资料确认2025年更名、部分职能转移。须区分旧机构/继任机构及剩余职权，不能当当前机构直接分配后维持旧关系。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-046,卡拉汉创新 (Callaghan Innovation),国家妇女就业咨询委员会 (NACEW,GOV,,,57,挂起,NACEW为妇女就业咨询委员会，不能因名称含妇女与上一批NCWNZ慈善组织合并；需核本委员会存续时段、主管部门及组织级建档口径。 本轮仅为复核建议，不授权执行。
+approved_sample,nz,NZ-GOV-047,自然灾害委员会托卡图阿克 (Natural Hazards Commission Toka Tū Ake),移民局 (Immigration New Zealand,GOV,NZ-GOV-161,,58,分配,明确Immigration New Zealand，不是自然灾害委员会；可建移民行政业务机构节点，必须标隶属MBIE，不宣称为独立政府部。 本轮仅为复核建议，不授权执行。
+defer,nz,NZ-GOV-048,新西兰南极局,航空安保服务 (Aviation Security Service / AvSec,GOV,,,59,挂起,政府目录明确AvSec是CAA的一部分。先定独立服务单元还是CAA部门节点，不能把它当另一家航空监管法人，也不能直接用CAA取代具体安保服务引用。 本轮仅为复核建议，不授权执行。
+no_assign,nz,NZ-GOV-049,能源效率与节约局,民防应急管理小组 (CDEM Groups,GOV,,,60,不分配,CDEM Groups指16个地区应急管理小组，不是单一机构。应选具体地区或保留集合关系，不创建一个虚构全国“民防应急管理小组”画像。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-ACAD-004,東京工業大学,经济产业研究所 (経済産業研究所 / RIETI,ACAD,JP-ACAD-040,,61,分配,RIETI经济产业政策研究所是明确科研智库机构，不是东京工业大学；按科研职能ACAD建独立身份，主管省关系单独表示。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-ACAD-005,东北大学,国立环境研究所 (国立環境研究所,ACAD,JP-ACAD-041,,62,分配,国立环境研究所是环境科研机构，不是东北大学，可独立ACAD并标主管/资助关系。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-ACAD-008,北海道大学,大阪公立大学（大阪公立大学,ACAD,JP-ACAD-042,,63,分配,大阪公立大学为明确大学，不是北海道大学或大阪大学；不能因大阪校名相近而合并。 本轮仅为复核建议，不授权执行。
+no_assign,cn,JP-ACAD-010,防卫省防卫研究所,清华大学 (清华大学 / Tsinghua University,ACAD,,,64,不分配,源为与东京工大合作的中国大陆Tsinghua University；不能建JP-ACAD-035，也不能误连台湾National Tsing Hua University。已有多个未建画像的Tsinghua注册项，需先全球归一，不能再多建一个日本副本。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-ACAD-011,早稻田大学,岐阜大学,ACAD,JP-ACAD-043,,65,分配,明确岐阜大学，不是早稻田大学；同属东海国立大学机构并不意味着等同名古屋大学或该运营法人。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-ACAD-012,庆应义塾大学,九州工业大学,ACAD,JP-ACAD-044,,66,分配,明确九州工业大学，不是庆应义塾或九州大学；可独立ACAD。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-002,索尼集团,日野汽车（日野自動車,CORP,JP-CORP-203,,67,分配,明确日野汽车，不是Sony。可保留运营公司独立身份；源有2026年Archion整合及丰田控股表述，最新所有权与控股母公司须另核，不把合并控股公司与日野本体混同。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-003,三菱商事,丰田通商（トヨタ通商,CORP,JP-CORP-204,,68,分配,明确Toyota Tsusho综合商社，不是三菱商事，可独立CORP；controlling_shareholder关系及持股比例另核。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-004,三井物产,丰田自动织机（トヨタ自動織機,CORP,JP-CORP-205,,69,分配,明确Toyota Industries自动织机公司，不是Mitsui & Co.或Toyota Motor；集团交叉持股不等于同一企业。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-006,日立制作所,捷太格特（ジェイテクト,CORP,JP-CORP-206,,70,分配,明确JTEKT轴承/转向等工业企业，不是Hitachi，可独立CORP。 本轮仅为复核建议，不授权执行。
+defer,jp,JP-CORP-012,乐天集团,丰田中央研发所（トヨタ中央研究所,CORP,,,71,挂起,官网证实丰田中央研发所是独立出资设立的株式会社，以基础研究为主要职能。主体明确，但需统一企业科研公司CORP与研究所ACAD的分类规则，不能仅见“研究所”强改类，也不能与丰田内部研发部门等同。 本轮仅为复核建议，不授权执行。
+no_assign,us,JP-CORP-013,东芝,索尼互动娱乐（ソニー・インタラクティブエンタテインメント / Sony Interactive Entertainment,CORP,,,72,不分配,源明确总部San Mateo的SIE全球业务，不能按JP-CORP-197默认日本主体；官方区分美国LLC与日本Inc.，先按具体实体核定。 本轮仅为复核建议，不授权执行。
+no_assign,us,JP-CORP-014,日本制铁,索尼影视娱乐（ソニー・ピクチャーズエンタテインメント / Sony Pictures Entertainment,CORP,,,73,不分配,Sony Pictures Entertainment为美国影视业务主体，不是日本制铁，也不是Sony母公司；不按JP-CORP发日本副本，应按美国主实体核定。 本轮仅为复核建议，不授权执行。
+no_assign,us,JP-CORP-015,引能仕,索尼音乐集团（ソニー・ミュージックグループ / Sony Music Group,CORP,,,74,不分配,源为全球Sony Music Group（录音及词曲出版），不能按JP-CORP创建日本Sony Music Entertainment副本；先区分全球集团与日本本土音乐公司及具体法律实体。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-016,7&I控股,索尼半导体解决方案（ソニーセミコンダクタソリューション,CORP,JP-CORP-207,,75,分配,明确Sony Semiconductor Solutions独立半导体业务主体，不是Seven & i，可独立CORP；芯片市场份额为旧数据，另核。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-017,永旺,索尼金融集团（ソニーフィナンシャルグループ / Sony Financial Group,FIN,JP-FIN-052,,76,改类别后分配,Sony Financial Group以寿险、财险、银行等金融业务为核心，按FIN金融控股集团建档，不照JP-CORP-201发号；分拆上市日期和Sony持股另核。 本轮仅为复核建议，不授权执行。
+approved_sample,jp,JP-CORP-019,东京电力控股,角川公司（KADOKAWA / 株式会社KADOKAWA,CORP,JP-CORP-208,,77,分配,明确KADOKAWA综合内容集团，不是TEPCO；按综合企业CORP可建独立主体。Sony“最大股东”不当然等于控制股东，源controlling_shareholder关系须另核。 本轮仅为复核建议，不授权执行。
+no_assign,jp,JP-CORP-020,电装,TCL电子（TCL Electronics Holdings Limited,CORP,,,78,不分配,不按JP-CORP发号：TCL Electronics是开曼注册、香港上市并设总部联系地址的公司，不是日本电装，也不宜按母集团名直接归惠州法人。需分开法律注册地、总部、运营地。 本轮仅为复核建议，不授权执行。
+no_assign,us,JP-CORP-021,日本邮政,Crunchyroll,CORP,,,79,不分配,Crunchyroll不是Japan Post。Sony持股不使美国流媒体业务成为日本本土法人；应先区分公司与平台品牌并在美国主实体口径核定，不照JP-CORP-205发号。 本轮仅为复核建议，不授权执行。
+no_assign,id,JP-FIN-002,三菱日联金融集团,Bank Danamon,FIN,,,80,不分配,源明确印尼Bank Danamon，为MUFG子公司，不是日本MUFG母体。否定JP-FIN-046，核印尼主银行ID；历史/拟议分行合并不等于已经与母集团成为同一银行。 本轮仅为复核建议，不授权执行。

@@ -3,7 +3,6 @@
   "wikidata_qid": "Q694809",
   "name": "何凤山",
   "name_en": "Feng-Shan Ho",
-  "name_local": "何凤山",
   "name_zh": "何凤山",
   "aliases": [],
   "nationality": "TW",
@@ -25,20 +24,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ho_Feng-Shan.jpg/250px-Ho_Feng-Shan.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000224.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ho%20Feng-Shan.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000224.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: ambassador",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q694809"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q694809"
+      }
+    ]
   }
 }

@@ -1,42 +1,44 @@
 {
   "org_id": "TW-CORP-014",
-  "wikidata_qid": "Q117262637",
-  "name": "King Yuan Electronics",
+  "wikidata_qid": "Q15908529",
   "basic_info": {
-    "org_id": "TW-CORP-014",
-    "wikidata_qid": "Q117262637",
-    "name_en": "King Yuan Electronics",
-    "name_local": "King Yuan Electronics",
+    "name_en": "Unimicron Technology Corp.",
     "name_zh": "欣兴电子",
     "org_type": "CORP",
-    "country": "TW",
-    "founded_year": null,
-    "website": null,
-    "official_website": null,
-    "hq_location": "Hsinchu City",
-    "parent_org": null,
-    "is_tw_verified": true,
+    "website": "https://www.unimicron.com/",
     "country_iso3": "TWN",
-    "name_original": "欣興電子"
+    "name_original": "欣興電子股份有限公司",
+    "hq_country_iso3": "TWN",
+    "org_subtype": "publicly_listed"
   },
-  "description": "欣兴电子",
-  "brief": "欣兴电子",
   "core_business": "欣興電子股份有限公司，簡稱欣興電子，創立於1990年1月25日，是台灣一家以印刷電路板（PCB）製造起家的電子公司，為聯華電子的責任企業，一度是世界排名第一的印刷电路板（PCB）生产商，現今位居世界排名前五名。總部設於桃園市龜山工業區。\n",
   "industries": [],
   "key_people": [],
   "social_accounts": [],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q117262637"
+      "wikipedia",
+      "wikidata",
+      "official_website"
     ],
     "completeness_score": 30,
-    "notes": "hint: search:King Yuan Electronics",
-    "quotes": []
+    "notes": "hint: search:King Yuan Electronics；仅Schema规范化，旧phase=P3_lite；仍为未研究骨架，不代表深采完成。；本轮核实旧英文King Yuan Electronics属于京元电子，与本档中文名和PCB业务不符，已纠正为Unimicron Technology Corp.，QID由错绑Q117262637改为Q15908529。历史错误链接不作为本轮证据。",
+    "quotes": [
+      {
+        "title": "欣興電子：名称、上市类型与业务",
+        "url": "https://zh.wikipedia.org/wiki/欣興電子"
+      },
+      {
+        "title": "Unimicron Wikidata：QID及中文链接",
+        "url": "https://www.wikidata.org/wiki/Q15908529"
+      },
+      {
+        "title": "京元电子官网：排除King Yuan Electronics误绑",
+        "url": "https://www.kyec.com.tw/zh-tw/About/公司簡介"
+      }
+    ]
   }
 }

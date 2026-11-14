@@ -12,22 +12,7 @@
   "death_date": null,
   "nationality": "TW",
   "country_iso3": "TWN",
-  "political_parties": [
-    {
-      "org_id": "TW-PARTY-017",
-      "role": "臺北市議員"
-    }
-  ],
-  "person_relationships": [
-    {
-      "org_id": "TW-PARTY-017",
-      "org_name": "社會民主黨",
-      "title": "臺北市議員",
-      "relationship": "member",
-      "source": "wikidata",
-      "person_name": "苗博雅"
-    }
-  ],
+  "person_relationships": [],
   "education": [],
   "work_experience": [],
   "political_stances": [],
@@ -36,14 +21,23 @@
   "social_accounts": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q20687753",
-      "https://zh.wikipedia.org/wiki/苗博雅"
+      "wikidata",
+      "wikipedia"
     ],
     "completeness_score": 65,
-    "notes": "Auto-created for TW-PARTY-017",
-    "quotes": []
+    "notes": "Auto-created for TW-PARTY-017；仅Schema规范化，旧phase=P4；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q20687753"
+      },
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://zh.wikipedia.org/wiki/苗博雅"
+      }
+    ]
   },
   "gender": "unknown",
   "profile": {

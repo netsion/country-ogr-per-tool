@@ -1,63 +1,127 @@
 {
   "person_id": "TW-PERSON-000043",
   "wikidata_qid": "Q15899237",
-  "name": "黄国昌",
-  "name_en": "Huang Kuo-chang",
-  "name_local": "黃國昌",
+  "name": "黃國昌",
+  "name_en": "Huang, Kuo-Chang",
   "name_zh": "黄国昌",
-  "aliases": [],
+  "aliases": [
+    "黃國昌",
+    "黄国昌",
+    "Huang Kuo-chang"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1973-08-19",
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    "立法委员",
-    "时代力量党主席",
-    "党主席 the Taiwan People's Party"
+    "台湾民众党主席"
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "education": [
     {
-      "org_id": "TW-ACAD-030",
-      "org_name": "中央研究院",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
+      "institution": "台湾大学（國立臺灣大學）",
+      "degree": "bachelor",
+      "field": "法律",
+      "start_date": null,
+      "end_date": null
     },
     {
-      "org_id": "TW-ACAD-019",
-      "org_name": "國立臺灣大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    },
-    {
-      "org_id": "TW-ACAD-015",
-      "org_name": "國立政治大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    },
-    {
-      "org_id": "TW-PARTY-010",
-      "org_name": "台灣民眾黨",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    },
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
+      "institution": "康奈尔大学（Cornell University）",
+      "degree": "doctorate",
+      "field": "法律",
+      "start_date": null,
+      "end_date": null
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": "2006",
+      "end_date": "2015",
+      "organization": "中央研究院法律学研究所（中央研究院法律學研究所）",
+      "position": "研究人员",
+      "org_id": null
+    },
+    {
+      "start_date": "2015",
+      "end_date": "2019",
+      "organization": "时代力量（時代力量）",
+      "position": "党主席",
+      "org_id": "TW-PARTY-008"
+    },
+    {
+      "start_date": "2016-02-01",
+      "end_date": "2020-01-31",
+      "organization": "立法院",
+      "position": "第9届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2024-02-01",
+      "end_date": "2026-01-31",
+      "organization": "立法院",
+      "position": "第11届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2025-02-15",
+      "end_date": null,
+      "organization": "台湾民众党（臺灣民衆黨）",
+      "position": "主席",
+      "org_id": "TW-PARTY-010"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000199",
+      "person_name": "郑丽文（鄭麗文）",
+      "relationship_type": "associate",
+      "description": "2026年3月14日共同发布跨党政策愿景，限定为有具体事件的职业政治合作，不推断私人亲疏。",
+      "source": "https://www.kmt.org.tw/2026/03/blog-post_50.html",
+      "corroborating_sources": "https://www.cna.com.tw/news/aipl/202603140093.aspx"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "高翔",
+      "relationship": "spouse",
+      "industry_or_organization": null,
+      "description": "TVBS2025年现场采访及知新闻独立报道确认配偶身份，限记录姓名及关系。",
+      "source": "https://news.tvbs.com.tw/politics/2766491"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2026-04-01",
+      "topic": "社区医疗与急重症资源",
+      "stance_content": "提出建立社区家医网及提升偏乡急重症救护量能等医疗政见；属于竞选方案，非已经建成的医疗服务。",
+      "source": "https://www.cna.com.tw/news/aloc/202604010297.aspx"
+    },
+    {
+      "date": "2026-04-01",
+      "topic": "护理人员待遇",
+      "stance_content": "主张以白班、夜班护理加给及偏乡交通津贴留住医护，具体金额为其竞选提案，不视为已实施补助。",
+      "source": "https://www.cna.com.tw/news/aloc/202604010297.aspx"
+    },
+    {
+      "date": "2026-03-14",
+      "topic": "高龄友善居住",
+      "stance_content": "联合政策发布时提出增加可负担、高龄友善社会住宅，融入通用设计和智慧科技，回应年轻及高龄居民需求。",
+      "source": "https://www.cna.com.tw/news/aipl/202603140093.aspx"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2012",
+      "achievement": "获选2012—2013学年度傅尔布莱特资深学者赴美研究奖助学人，中研院官方公告可查；该条是学术获选事实。",
+      "organization": "中央研究院"
+    },
+    {
+      "date": "2025-02-15",
+      "achievement": "民众党主席补选获8903票、得票率96.11%，当选接续主席任期；不将选举结果当施政实绩。",
+      "organization": "台湾民众党（臺灣民衆黨）"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "twitter",
@@ -110,24 +174,64 @@
       "nickname": "黃國昌"
     }
   ],
-  "biography_summary": "建中與台大校友、法學博士、具律師及司法官資格、台大兼任教授、立法委員；現為台灣民眾黨主席。",
+  "biography_summary": "黄国昌是台湾地区政治人物、法律学者与律师，现任台湾民众党主席。立法院保留的官方履历列有台湾大学法律系学士、美国康奈尔大学法学博士，以及中央研究院法律学研究所研究员、大学兼任教师等经历。中研院资料说明他的研究领域包括民事程序、国际诉讼和法律实证研究，并记录其获得傅尔布莱特资深学者赴美研究奖助。他后来投入社会运动与政党政治，曾任时代力量党主席及第9届立法委员，加入民众党后于2024年再任立法委员。2025年2月他在民众党主席补选中当选，接续原任期。2026年因党内两年条款离开立法院，故本档不将立委与党团总召列为现职。其近期政策重点包括社区医疗、护理待遇和高龄友善住宅，也参与与国民党的联合政策发布。这些选举政见与组织倡议不等于已执行的地方治理成果；其学术获奖与党主席选举结果分别按已发生事实记录。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/%E9%BB%83%E5%9C%8B%E6%98%8C%E5%A7%94%E5%93%A1.jpg/250px-%E9%BB%83%E5%9C%8B%E6%98%8C%E5%A7%94%E5%93%A1.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000043.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%83%E5%9C%8B%E6%98%8C%E5%A7%94%E5%93%A1.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000043.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "collection_date": "2026-11-13",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q15899237"
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "quotes": [
+      {
+        "title": "立法院历史履历与官方英文名",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46832"
+      },
+      {
+        "title": "英文人物履历",
+        "url": "https://en.wikipedia.org/wiki/Huang_Kuo-chang"
+      },
+      {
+        "title": "CNA离任立委",
+        "url": "https://www.cna.com.tw/news/aipl/202601300115.aspx"
+      },
+      {
+        "title": "中研院学术获选公告",
+        "url": "https://newsletter.sinica.edu.tw/reviews/news/read_newsacbc.html?nid=6850"
+      },
+      {
+        "title": "公视党主席补选结果",
+        "url": "https://news.pts.org.tw/article/737970"
+      },
+      {
+        "title": "CNA医疗政策原文",
+        "url": "https://www.cna.com.tw/news/aloc/202604010297.aspx"
+      },
+      {
+        "title": "CNA联合政策原文",
+        "url": "https://www.cna.com.tw/news/aipl/202603140093.aspx"
+      },
+      {
+        "title": "国民党联合发布原文",
+        "url": "https://www.kmt.org.tw/2026/03/blog-post_50.html"
+      },
+      {
+        "title": "TVBS配偶现场报道",
+        "url": "https://news.tvbs.com.tw/politics/2766491"
+      },
+      {
+        "title": "知新闻配偶报道",
+        "url": "https://www.knews.com.tw/news/098F58986CCA3905D75B622CD6DF013B"
+      }
+    ],
+    "notes": "已读立法院、中研院、CNA、公视、Wikipedia及配偶两家媒体正文。民众党官网403，现职由近期CNA和其他已读报道支持；立院原履历仍在线不代表当前仍任立委，CNA明确2月1日卸任，履历记录至1月31日。官方英文采用立法院HUANG,KUO-CHANG格式规范化。学术任期及旧党职采用维基年精度，仍可补原始任命。出生日期沿用旧档待更多原始来源。住房交通检索中部分CNA页面仅壳，未将搜索摘要当已读原文；仅录有正文支持的三个政策主题。成果不把竞选承诺当成已落实治理。配偶高翔经TVBS与知新闻两独立全文确认，第二来源https://www.knews.com.tw/news/098F58986CCA3905D75B622CD6DF013B；父母及其他家庭关系检索未有双可靠全名依据，未填。六平台Facebook/X/Instagram/LinkedIn/TikTok/YouTube检索已做，TikTok受robots限制，同名账号未新增；旧头像与社媒含user_id等保持原样但未独立核验。人物/组织ID已按实际档案中文主名及TW国别匹配，不以索引自动填链。",
+    "completeness_score": 74
   }
 }

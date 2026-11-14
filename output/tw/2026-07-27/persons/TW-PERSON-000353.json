@@ -3,9 +3,10 @@
   "wikidata_qid": "Q700792",
   "name": "凤飞飞",
   "name_en": "Feng Fei-fei",
-  "name_local": "鳳飛飛",
   "name_zh": "凤飞飞",
-  "aliases": [],
+  "aliases": [
+    "鳳飛飛"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1953-08-20",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%E9%B3%B3%E9%A3%9B%E9%A3%9B%E4%BA%94%E6%AD%B2%E6%99%82%E5%92%8C%E5%BC%9F%E5%BC%9F%E5%90%88%E5%BD%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000353.jpg",
-    "photo_url": null,
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000353.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Actor",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q700792"
+      "wikidata"
     ],
     "completeness_score": 30,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q700792"
+      }
+    ]
   }
 }

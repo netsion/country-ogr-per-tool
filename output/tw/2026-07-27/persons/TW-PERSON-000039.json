@@ -3,9 +3,10 @@
   "wikidata_qid": "Q6393270",
   "name": "柯建铭",
   "name_en": "Ker Chien-ming",
-  "name_local": "柯建銘",
   "name_zh": "柯建铭",
-  "aliases": [],
+  "aliases": [
+    "柯建銘"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1951-09-08",
@@ -17,22 +18,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-012",
-      "org_name": "民主進步黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -62,20 +48,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1_%E6%9F%AF%E5%BB%BA%E9%8A%98.jpg/250px-%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1_%E6%9F%AF%E5%BB%BA%E9%8A%98.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000039.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%20%E6%9F%AF%E5%BB%BA%E9%8A%98.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000039.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q6393270"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q6393270"
+      }
+    ]
   }
 }

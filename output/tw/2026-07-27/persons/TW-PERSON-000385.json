@@ -3,9 +3,10 @@
   "wikidata_qid": "Q241604",
   "name": "萧亚轩",
   "name_en": "Elva Hsiao",
-  "name_local": "蕭亞軒",
   "name_zh": "萧亚轩",
-  "aliases": [],
+  "aliases": [
+    "蕭亞軒"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1979-08-24",
@@ -83,20 +84,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/%E5%85%88%E7%94%9F%E5%8A%9B%E9%87%8F%E6%BC%94%E5%94%B1%E4%BC%9A_-%E8%90%A7%E4%BA%9A%E8%BD%A9_%282%29_%28cropped%29.jpg/250px-%E5%85%88%E7%94%9F%E5%8A%9B%E9%87%8F%E6%BC%94%E5%94%B1%E4%BC%9A_-%E8%90%A7%E4%BA%9A%E8%BD%A9_%282%29_%28cropped%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000385.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%85%88%E7%94%9F%E5%8A%9B%E9%87%8F%E6%BC%94%E5%94%B1%E4%BC%9A%20-%E8%90%A7%E4%BA%9A%E8%BD%A9%20%282%29%20%28cropped%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000385.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Musician",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q241604"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q241604"
+      }
+    ]
   }
 }

@@ -530,16 +530,6 @@
       "wikidata_qid": "Q7887606",
       "status": "profiled",
       "notes": null
-    },
-    {
-      "org_id": "MO-GOV-026",
-      "name": "司法警察 (Judiciary Police)",
-      "org_type": "GOV",
-      "org_subtype": null,
-      "wikidata_qid": "Q2397164",
-      "status": "merged",
-      "notes": null,
-      "merged_into": "MO-GOV-012"
     }
   ],
   "counters": {
@@ -841,16 +831,6 @@
       "status": "listed"
     },
     {
-      "person_id": "MO-PERSON-000032",
-      "name_en": "何超鳳 (Daisy Ho Chiu-fung)",
-      "importance_level": "low",
-      "org_ids": [
-        "MO-CORP-011"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000165"
-    },
-    {
       "person_id": "MO-PERSON-000033",
       "name_en": "岑康權",
       "importance_level": "low",
@@ -1078,57 +1058,6 @@
       "source_orgs": [
         "MO-FIN-006"
       ]
-    },
-    {
-      "person_id": "MO-PERSON-000058",
-      "name_en": "黃少澤 (Wong Sio Chak)",
-      "importance_level": "low",
-      "org_ids": [
-        "MO-GOV-002"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000177"
-    },
-    {
-      "person_id": "MO-PERSON-000059",
-      "name_en": "吳惠嫻 (Ng Wai Han)",
-      "importance_level": "low",
-      "org_ids": [
-        "MO-GOV-002"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000178"
-    },
-    {
-      "person_id": "MO-PERSON-000060",
-      "name_en": "陳子勁 (Chan Tsz King)",
-      "importance_level": "low",
-      "org_ids": [
-        "MO-GOV-002"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000179"
-    },
-    {
-      "person_id": "MO-PERSON-000061",
-      "name_en": "柯嵐 (O Lam)",
-      "importance_level": "low",
-      "org_ids": [
-        "MO-GOV-002",
-        "MO-GOV-009"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000180"
-    },
-    {
-      "person_id": "MO-PERSON-000062",
-      "name_en": "譚偉文 (Tam Vai Man)",
-      "importance_level": "low",
-      "org_ids": [
-        "MO-GOV-002"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000181"
     },
     {
       "person_id": "MO-PERSON-000063",
@@ -1935,16 +1864,6 @@
       "status": "listed"
     },
     {
-      "person_id": "MO-PERSON-000149",
-      "name_en": "岑浩輝",
-      "importance_level": "high",
-      "org_ids": [
-        "MO-NGO-004"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000002"
-    },
-    {
       "person_id": "MO-PERSON-000150",
       "name_en": "吳志良",
       "importance_level": "high",
@@ -1997,16 +1916,6 @@
         "MO-NGO-005"
       ],
       "status": "listed"
-    },
-    {
-      "person_id": "MO-PERSON-000156",
-      "name_en": "廖澤雲",
-      "importance_level": "high",
-      "org_ids": [
-        "MO-NGO-006"
-      ],
-      "status": "merged",
-      "merged_into": "MO-PERSON-000007"
     },
     {
       "person_id": "MO-PERSON-000157",
@@ -2316,5 +2225,109 @@
     "MO-PERSON": 189,
     "MO": 2
   },
-  "country": "MO"
+  "country": "MO",
+  "deprecated_registry": [
+    {
+      "org_id": "MO-GOV-026",
+      "name": "司法警察 (Judiciary Police)",
+      "org_type": "GOV",
+      "org_subtype": null,
+      "wikidata_qid": "Q2397164",
+      "status": "merged",
+      "notes": null,
+      "merged_into": "MO-GOV-012",
+      "deprecated_reason": "A2 merged registry entry"
+    }
+  ],
+  "deprecated_person_registry": [
+    {
+      "person_id": "MO-PERSON-000032",
+      "name_en": "何超鳳 (Daisy Ho Chiu-fung)",
+      "importance_level": "low",
+      "org_ids": [
+        "MO-CORP-011"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000165",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000058",
+      "name_en": "黃少澤 (Wong Sio Chak)",
+      "importance_level": "low",
+      "org_ids": [
+        "MO-GOV-002"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000177",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000059",
+      "name_en": "吳惠嫻 (Ng Wai Han)",
+      "importance_level": "low",
+      "org_ids": [
+        "MO-GOV-002"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000178",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000060",
+      "name_en": "陳子勁 (Chan Tsz King)",
+      "importance_level": "low",
+      "org_ids": [
+        "MO-GOV-002"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000179",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000061",
+      "name_en": "柯嵐 (O Lam)",
+      "importance_level": "low",
+      "org_ids": [
+        "MO-GOV-002",
+        "MO-GOV-009"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000180",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000062",
+      "name_en": "譚偉文 (Tam Vai Man)",
+      "importance_level": "low",
+      "org_ids": [
+        "MO-GOV-002"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000181",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000149",
+      "name_en": "岑浩輝",
+      "importance_level": "high",
+      "org_ids": [
+        "MO-NGO-004"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000002",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "MO-PERSON-000156",
+      "name_en": "廖澤雲",
+      "importance_level": "high",
+      "org_ids": [
+        "MO-NGO-006"
+      ],
+      "status": "merged",
+      "merged_into": "MO-PERSON-000007",
+      "deprecated_reason": "A2 merged registry entry"
+    }
+  ]
 }

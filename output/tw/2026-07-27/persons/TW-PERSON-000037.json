@@ -3,7 +3,6 @@
   "wikidata_qid": "Q706723",
   "name": "宋楚瑜",
   "name_en": "James Soong",
-  "name_local": "宋楚瑜",
   "name_zh": "宋楚瑜",
   "aliases": [],
   "nationality": "TW",
@@ -17,15 +16,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-PARTY-014",
-      "org_name": "親民黨",
-      "title": "主席",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -55,20 +46,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%E5%AE%8B%E6%A5%9A%E7%91%9C%E4%B8%BB%E5%B8%AD2016.jpg/250px-%E5%AE%8B%E6%A5%9A%E7%91%9C%E4%B8%BB%E5%B8%AD2016.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000037.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%8B%E6%A5%9A%E7%91%9C%E4%B8%BB%E5%B8%AD2016.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000037.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Chairperson of Taiwan Provincial Government",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q706723"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q706723"
+      }
+    ]
   }
 }

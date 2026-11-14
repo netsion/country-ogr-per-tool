@@ -1,26 +1,16 @@
 {
   "org_id": "TW-CORP-037",
   "wikidata_qid": "Q717531",
-  "name": "中華電信",
   "basic_info": {
-    "org_id": "TW-CORP-037",
-    "wikidata_qid": "Q717531",
     "name_en": "Chunghwa Telecom",
-    "name_local": "中華電信",
     "name_zh": "中华电信",
     "org_type": "CORP",
-    "country": "TW",
-    "founded_year": 1996,
     "website": "https://www.cht.com.tw",
-    "official_website": "https://www.cht.com.tw",
-    "hq_location": "Taipei",
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "中華電信"
+    "name_original": "中華電信",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "臺灣電信業者",
-  "brief": "臺灣電信業者",
   "core_business": "臺灣電信業者",
   "industries": [],
   "key_people": [],
@@ -57,17 +47,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q717531"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: search:Chunghwa Telecom",
-    "quotes": []
+    "notes": "hint: search:Chunghwa Telecom；仅Schema规范化，旧phase=P3_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q717531"
+      }
+    ]
   }
 }

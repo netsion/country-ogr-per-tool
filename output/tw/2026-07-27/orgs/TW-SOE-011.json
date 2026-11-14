@@ -1,26 +1,16 @@
 {
   "org_id": "TW-SOE-011",
   "wikidata_qid": "Q698024",
-  "name": "台灣中油",
   "basic_info": {
-    "org_id": "TW-SOE-011",
-    "wikidata_qid": "Q698024",
     "name_en": "CPC Corporation, Taiwan",
-    "name_local": "台灣中油",
     "name_zh": "台湾中油",
     "org_type": "SOE",
-    "country": "TW",
-    "founded_year": 1946,
     "website": "https://www.cpc.com.tw",
-    "official_website": "https://www.cpc.com.tw",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "臺灣中油"
+    "name_original": "臺灣中油",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "台灣的石油公司",
-  "brief": "台灣的石油公司",
   "core_business": "台灣的石油公司",
   "industries": [],
   "key_people": [],
@@ -36,17 +26,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q698024"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: CPC Corporation Taiwan (corrected)",
-    "quotes": []
+    "notes": "hint: CPC Corporation Taiwan (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q698024"
+      }
+    ]
   }
 }

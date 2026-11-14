@@ -3,9 +3,10 @@
   "wikidata_qid": "Q8279815",
   "name": "邱文彦",
   "name_en": "Chiau Wen-Yan",
-  "name_local": "邱文彥",
   "name_zh": "邱文彦",
-  "aliases": [],
+  "aliases": [
+    "邱文彥"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1953-07-17",
@@ -16,22 +17,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-020",
-      "org_name": "國立中山大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    },
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -40,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Chiau_Wen-Yan.jpg/250px-Chiau_Wen-Yan.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000164.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiau%20Wen-Yan.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000164.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8279815"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q8279815"
+      }
+    ]
   }
 }

@@ -3,9 +3,10 @@
   "wikidata_qid": "Q9080179",
   "name": "尹衍梁",
   "name_en": "Samuel Yin",
-  "name_local": "尹衍樑",
   "name_zh": "尹衍梁",
-  "aliases": [],
+  "aliases": [
+    "尹衍樑"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1950-08-16",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Samuel_Yin_2015_%28cropped%29.jpg/250px-Samuel_Yin_2015_%28cropped%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000287.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Yin%202015%20%28cropped%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000287.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自简介: Business Executive",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q9080179"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q9080179"
+      }
+    ]
   }
 }

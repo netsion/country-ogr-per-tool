@@ -3,9 +3,10 @@
   "wikidata_qid": "Q5067753",
   "name": "蔡同荣",
   "name_en": "Chai Trong-rong",
-  "name_local": "蔡同榮",
   "name_zh": "蔡同荣",
-  "aliases": [],
+  "aliases": [
+    "蔡同榮"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1935-06-13",
@@ -18,29 +19,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-MEDIA-014",
-      "org_name": "民間全民電視公司",
-      "title": "Executive (Wikipedia infobox)",
-      "relationship": "key_personnel",
-      "source": "wikipedia_infobox"
-    },
-    {
-      "org_id": "TW-PARTY-012",
-      "org_name": "民主進步黨",
-      "title": "主席",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -49,20 +28,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/2008_CIPFG_Global_Human_Rights_Torch_Relay_in_Taiwan_Taipei_City_Stage_Trong_Tsai.jpg/250px-2008_CIPFG_Global_Human_Rights_Torch_Relay_in_Taiwan_Taipei_City_Stage_Trong_Tsai.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000192.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2008%20CIPFG%20Global%20Human%20Rights%20Torch%20Relay%20in%20Taiwan%20Taipei%20City%20Stage%20Trong%20Tsai.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000192.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Chairperson of the Democratic Progressive Party",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5067753"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q5067753"
+      }
+    ]
   }
 }

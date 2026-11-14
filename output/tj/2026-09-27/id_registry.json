@@ -67,7 +67,7 @@
     },
     {
       "org_id": "TJ-ACAD-016",
-      "name": "None (Tajik Islamic Institute)",
+      "name": "Tajik Islamic Institute",
       "org_type": "ACAD",
       "org_subtype": null,
       "wikidata_qid": "Q6412674",
@@ -112,7 +112,7 @@
     },
     {
       "org_id": "TJ-CORP-003",
-      "name": "None (VT-Silk)",
+      "name": "VT-Silk",
       "org_type": "CORP",
       "org_subtype": null,
       "wikidata_qid": "Q73090541",
@@ -159,7 +159,7 @@
     },
     {
       "org_id": "TJ-FIN-002",
-      "name": "None (Amonatbonk (State Savings Bank))",
+      "name": "Amonatbonk (State Savings Bank)",
       "org_type": "FIN",
       "org_subtype": null,
       "wikidata_qid": "Q13200915",
@@ -213,7 +213,7 @@
     },
     {
       "org_id": "TJ-FIN-008",
-      "name": "None (Commercial Bank of Tajikistan (CTB))",
+      "name": "Commercial Bank of Tajikistan (CTB)",
       "org_type": "FIN",
       "org_subtype": null,
       "wikidata_qid": "Q65301602",
@@ -466,7 +466,7 @@
     },
     {
       "org_id": "TJ-GOV-026",
-      "name": "None (Committee for Environmental Protection under the Government of the Republic of Tajikistan)",
+      "name": "Committee for Environmental Protection under the Government of the Republic of Tajikistan",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q141548071",
@@ -476,7 +476,7 @@
     },
     {
       "org_id": "TJ-GOV-027",
-      "name": "None (Supervision Agency for Education and Science under the President of Tajikistan)",
+      "name": "Supervision Agency for Education and Science under the President of Tajikistan",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q137103754",
@@ -615,7 +615,7 @@
     },
     {
       "org_id": "TJ-NGO-003",
-      "name": "None (Tajikistan Nature Foundation)",
+      "name": "Tajikistan Nature Foundation",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q141547980",
@@ -843,12 +843,6 @@
     {
       "org_id": "TJ-INTL-002",
       "name": "世界银行集团 (World Bank Group)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "TJ-INTL-003",
-      "name": "世界卫生组织 (World Health Organization)",
       "org_type": "INTL",
       "status": "auto_registered"
     },
@@ -1365,12 +1359,6 @@
     {
       "org_id": "TJ-MEDIA-010",
       "name": "贾洪纳莫电视台 (Телевизиони «Ҷаҳоннамо»)",
-      "org_type": "MEDIA",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "TJ-MEDIA-011",
-      "name": "自由欧洲电台/自由电台 (Radio Free Europe/Radio Liberty, RFE/RL)",
       "org_type": "MEDIA",
       "status": "auto_registered"
     },
@@ -4232,6 +4220,25 @@
       "notes": null,
       "excluded_date": "2026-09-27",
       "excluded_reason": "defunct_soe: Tajik Air ceased operations years ago, no current business/personnel; recoverable from _target_orgs if relaunched"
+    }
+  ],
+  "deprecated_registry": [
+    {
+      "org_id": "TJ-MEDIA-011",
+      "name": "自由欧洲电台/自由电台 (Radio Free Europe/Radio Liberty, RFE/RL)",
+      "org_type": "MEDIA",
+      "status": "merged",
+      "merged_into": "US-MEDIA-039",
+      "notes": "；合并到 US-MEDIA-039",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "org_id": "TJ-INTL-003",
+      "name": "世界卫生组织 (World Health Organization)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
     }
   ]
 }

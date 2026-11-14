@@ -1,26 +1,16 @@
 {
   "org_id": "TW-MEDIA-015",
   "wikidata_qid": "Q712020",
-  "name": "公共電視台",
   "basic_info": {
-    "org_id": "TW-MEDIA-015",
-    "wikidata_qid": "Q712020",
     "name_en": "Public Television Service",
-    "name_local": "公共電視台",
     "name_zh": "公共电视台",
     "org_type": "MEDIA",
-    "country": "TW",
-    "founded_year": 1998,
     "website": "https://www.pts.org.tw/",
-    "official_website": "https://www.pts.org.tw/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "公共電視臺"
+    "name_original": "公共電視臺",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "台灣無線電視業者、公共服務性質電視臺",
-  "brief": "台灣無線電視業者、公共服務性質電視臺",
   "core_business": "台灣無線電視業者、公共服務性質電視臺",
   "industries": [],
   "key_people": [],
@@ -57,17 +47,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q712020"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: Public Television Service (corrected)",
-    "quotes": []
+    "notes": "hint: Public Television Service (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q712020"
+      }
+    ]
   }
 }

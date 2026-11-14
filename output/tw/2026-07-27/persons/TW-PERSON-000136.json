@@ -3,9 +3,10 @@
   "wikidata_qid": "Q8273132",
   "name": "张丽善",
   "name_en": "Chang Li-shan",
-  "name_local": "張麗善",
   "name_zh": "张丽善",
-  "aliases": [],
+  "aliases": [
+    "張麗善"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1964-01-01",
@@ -17,15 +18,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -55,20 +48,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%BC%B5%E5%A7%94%E5%93%A1%E9%BA%97%E5%96%84_%28%E7%AC%AC%E4%B9%9D%E5%B1%86%29.jpg/250px-%E5%BC%B5%E5%A7%94%E5%93%A1%E9%BA%97%E5%96%84_%28%E7%AC%AC%E4%B9%9D%E5%B1%86%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000136.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%BC%B5%E5%A7%94%E5%93%A1%E9%BA%97%E5%96%84%20%28%E7%AC%AC%E4%B9%9D%E5%B1%86%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000136.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8273132"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q8273132"
+      }
+    ]
   }
 }

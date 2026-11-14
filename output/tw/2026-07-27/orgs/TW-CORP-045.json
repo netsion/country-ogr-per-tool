@@ -1,26 +1,16 @@
 {
   "org_id": "TW-CORP-045",
   "wikidata_qid": "Q152864",
-  "name": "ASUS",
   "basic_info": {
-    "org_id": "TW-CORP-045",
-    "wikidata_qid": "Q152864",
     "name_en": "ASUS",
-    "name_local": "ASUS",
     "name_zh": "华硕",
     "org_type": "CORP",
-    "country": "TW",
-    "founded_year": 1989,
     "website": "https://www.asus.com/",
-    "official_website": "https://www.asus.com/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "華碩"
+    "name_original": "華碩",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "ASUS，顯卡、主機板、電競筆電市佔均全球前二的知名科技企業，台灣的跨國科技公司",
-  "brief": "ASUS，顯卡、主機板、電競筆電市佔均全球前二的知名科技企業，台灣的跨國科技公司",
   "core_business": "ASUS，顯卡、主機板、電競筆電市佔均全球前二的知名科技企業，台灣的跨國科技公司",
   "industries": [],
   "key_people": [],
@@ -67,17 +57,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q152864"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: ASUS (corrected)",
-    "quotes": []
+    "notes": "hint: ASUS (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q152864"
+      }
+    ]
   }
 }

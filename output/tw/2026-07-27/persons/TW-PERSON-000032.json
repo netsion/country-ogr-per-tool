@@ -1,40 +1,158 @@
 {
   "person_id": "TW-PERSON-000032",
   "wikidata_qid": "Q8351107",
-  "name": "郑丽君",
+  "name": "鄭麗君",
   "name_en": "Cheng Li-chiun",
-  "name_local": "鄭麗君",
   "name_zh": "郑丽君",
-  "aliases": [],
+  "aliases": [
+    "郑丽君"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1969-06-19",
-  "birth_place": null,
+  "birth_place": "台湾台北市",
   "contacts": [],
   "current_positions": [
-    "立法委员",
-    "文化部长"
+    "行政院副院长"
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "education": [
     {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
+      "institution": "台湾大学（國立臺灣大學）",
+      "degree": "bachelor",
+      "field": "哲学",
+      "start_date": "1987-09",
+      "end_date": "1992-06"
+    },
+    {
+      "institution": "巴黎第十大学（Université Paris Nanterre）",
+      "degree": "master",
+      "field": "政治、经济、社会哲学",
+      "start_date": "1994-09",
+      "end_date": "1996-02"
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": "2001-08",
+      "end_date": "2004-05",
+      "organization": "台湾智库（財團法人臺灣智庫）",
+      "position": "办公室主任",
+      "org_id": null
+    },
+    {
+      "start_date": "2004-05",
+      "end_date": "2008-02",
+      "organization": "行政院青年辅导委员会（行政院青年輔導委員會）",
+      "position": "主任委员",
+      "org_id": null
+    },
+    {
+      "start_date": "2008-09",
+      "end_date": "2011-06",
+      "organization": "台湾智库（財團法人臺灣智庫）",
+      "position": "执行长",
+      "org_id": null
+    },
+    {
+      "start_date": "2012-02",
+      "end_date": "2016-05",
+      "organization": "立法院",
+      "position": "第8、9届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2016-05",
+      "end_date": "2020-05",
+      "organization": "文化部",
+      "position": "部长",
+      "org_id": null
+    },
+    {
+      "start_date": "2020-10",
+      "end_date": "2024-05",
+      "organization": "青平台基金会（財團法人青平台基金會）",
+      "position": "董事长兼执行长",
+      "org_id": null
+    },
+    {
+      "start_date": "2024-05-20",
+      "end_date": null,
+      "organization": "行政院",
+      "position": "副院长",
+      "org_id": "TW-GOV-019"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000001",
+      "person_name": "赖清德（賴清德）",
+      "relationship_type": "superior",
+      "description": "2024年5月20日赖清德正式任命其为行政院副院长，记录任命及公职职责关系。",
+      "source": "https://www.president.gov.tw/Page/294/49484",
+      "corroborating_sources": "https://www.cna.com.tw/news/aipl/202404105002.aspx"
+    },
+    {
+      "person_id": "TW-PERSON-000018",
+      "person_name": "卓荣泰（卓榮泰）",
+      "relationship_type": "superior",
+      "description": "同届内阁卓荣泰任院长、郑丽君任副院长，为正式组织职责关系，不由同党推断私人盟友。",
+      "source": "https://www.president.gov.tw/Page/294/49484",
+      "corroborating_sources": "https://www.cna.com.tw/news/aipl/202404105002.aspx"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "沈学荣（沈學榮）",
+      "relationship": "spouse",
+      "industry_or_organization": null,
+      "source": "https://www.cna.com.tw/news/aipl/202004170057.aspx",
+      "description": "中央社独立申报报道与联合报非中央社署名报道交叉确认丈夫身份，仅记录姓名及关系；第二来源：https://udn.com/news/story/12806/9388471"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2026-02-24",
+      "topic": "对美关税与产业竞争",
+      "stance_content": "说明美国关税法律基础变化时，主张在已签协定基础上持续与美方沟通，维护台湾产业相对竞争条件；不把签署等同所有优惠已经生效。",
+      "source": "https://www.ey.gov.tw/Page/9277F759E41CCD91/78a2db55-5808-49d4-952f-f45dc082f238"
+    },
+    {
+      "date": "2018-12-25",
+      "topic": "多元语言与文化平权",
+      "stance_content": "国家语言发展法三读后表示，应保障不同族群及手语等语言的传承与再发展，鼓励以使用母语为荣。",
+      "source": "https://www.cna.com.tw/news/ahel/201812250150.aspx"
+    },
+    {
+      "date": "2017-10-16",
+      "topic": "濒危语言保存与法律定位",
+      "stance_content": "说明国家语言发展法的目标是保存面临传承危机的本土语言，而非规定官方语言，区分文化保存与官方语言制度。",
+      "source": "https://www.cna.com.tw/news/acul/201710160114.aspx"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2025-04-09",
+      "achievement": "中央社报道其获任负责对美对等关税谈判小组，成员涵盖安全、外交及经贸谈判体系；此为承担的公开职责，未将谈判启动等同已取得成果。",
+      "organization": "行政院"
+    },
+    {
+      "date": "2018-12-25",
+      "achievement": "担任文化部长期间推动的国家语言发展法经立法院三读，通过保护多元语言传承、复振与发展的制度；为文化部团队、跨机关及朝野立法共同成果。",
+      "organization": "文化部、立法院"
+    },
+    {
+      "date": "2026-02-12",
+      "achievement": "率跨部会谈判团队完成台美对等贸易协定谈判阶段，并共同见证代表机构签署；该日期为美国当地签署日。记录谈判和签署完成，不将其写为已获立院批准或所有优惠已经实施。",
+      "organization": "行政院"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "facebook",
       "url": "https://facebook.com/love.lichiun",
       "account_name": "love.lichiun",
-      "source_note": "wikidata",
+      "source_note": "原Wikidata档案保留；本轮完成六平台检索但未完成账号归属和平台ID的独立复核。",
       "source": 6,
       "user_id": "fb#RHINO#155724795167",
       "username": "love.lichiun",
@@ -44,31 +162,89 @@
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UC9nuxM7dY69dx8d4cK9P6MA",
       "account_name": "UC9nuxM7dY69dx8d4cK9P6MA",
-      "source_note": "wikidata",
+      "source_note": "原Wikidata档案保留；本轮完成六平台检索但未完成账号归属和平台ID的独立复核。",
       "source": 9,
       "user_id": "youtube#UC9nuxM7dY69dx8d4cK9P6MA",
       "username": "lichiunTW",
       "nickname": "鄭麗君"
     }
   ],
-  "biography_summary": "台灣政治人物",
+  "biography_summary": "郑丽君，1969年生于台北市，具有哲学及公共政策工作背景。她于台湾大学哲学系取得学士学位，赴法国巴黎第十大学研读政治、经济与社会哲学并取得硕士，后继续博士候选阶段研究。官方履历未列取得博士学位，本档未将候选资格写为博士毕业。2001年起担任台湾智库办公室主任，2004年至2008年任行政院青年辅导委员会主任委员，随后回到智库担任执行长。2012年进入立法院，担任第8、9届立法委员，参与教育、文化及修宪相关委员会工作。2016年至2020年担任文化部部长，离任后参与青平台基金会工作。2024年5月20日起担任行政院副院长，2025年受命率领对美关税谈判团队。现职与过去的立法委员、文化部长身份已经分开记录。履历起止日期按官方来源提供的年月精度保留。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Cheng_Li-chiun_from_VOA.jpg/250px-Cheng_Li-chiun_from_VOA.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000032.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheng%20Li-chiun%20from%20VOA.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000032.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "collection_date": "2026-11-13",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8351107"
+      "official_website",
+      "government_directory",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
-  }
+    "notes": "新核实：行政院现任副院长官方履历、立法院历史名录、中央社原文及Wikipedia。来源至少涵盖政府机构、中央社与Wikipedia三个独立发布体系。教育及履历以官方为主；Wikipedia称博士毕业且出生日期正文与信息框不同，均不采该争议表述。原birth_date保留但精确生日本轮未取得两个独立可靠来源，应再核实；出生地有Wikipedia支持。政策立场没有足够直接完整材料，本轮留空，不采用LinkedIn转述的2026贸易政策说法。社交搜索覆盖Facebook、X、Instagram、LinkedIn、TikTok、YouTube，未据同名结果新增账号。头像与两条旧社媒及平台ID保留但未重新核实。\n2026-11-13专项补采：政策以本人关税记者会、文化部长任内发言为依据。文化成果由中央社、公视采访与制定公报交叉确认；2026贸易成就只记录官方明确的谈判/见证签署阶段，不宣称已获立法批准或生效。重要关系：赖清德任命、卓荣泰同内阁职责，正式公报与中央社独立报道相互印证。家庭：沈学荣=配偶，中央社202004170057与联合报9388471原文对应；经济日报9370352实为中央社转载，未把它计作第二独立来源。未提取财产、住址、子女敏感信息，配偶职业未独立核实留空。气候主题本轮检索未取得足够具体本人独立原文，不写泛化立场。原履历、教育、头像、社媒及平台ID不变。",
+    "quotes": [
+      {
+        "title": "行政院：郑丽君副院长",
+        "url": "https://www.ey.gov.tw/Page/B0DDF0F69A75E8DB/8708343d-dd7c-47c0-a3a5-336577da50da"
+      },
+      {
+        "title": "立法院：郑丽君历史名录",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1784"
+      },
+      {
+        "title": "中央社：对等关税谈判小组",
+        "url": "https://www.cna.com.tw/news/aipl/202504090185.aspx"
+      },
+      {
+        "title": "Cheng Li-chiun — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cheng_Li-chun"
+      },
+      {
+        "title": "郑丽君说明关税情势",
+        "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/78a2db55-5808-49d4-952f-f45dc082f238"
+      },
+      {
+        "title": "行政院：台美协定签署",
+        "url": "https://twustariff.ey.gov.tw/page/news/69"
+      },
+      {
+        "title": "中央社：国家语言法三读",
+        "url": "https://www.cna.com.tw/news/ahel/201812250150.aspx"
+      },
+      {
+        "title": "公视：语言法三读",
+        "url": "https://news.pts.org.tw/article/417454"
+      },
+      {
+        "title": "国家语言发展法公布公报",
+        "url": "https://www.president.gov.tw/Page/294/46383"
+      },
+      {
+        "title": "郑丽君谈语言保存",
+        "url": "https://www.cna.com.tw/news/acul/201710160114.aspx"
+      },
+      {
+        "title": "中央社：郑丽君配偶公开报道",
+        "url": "https://www.cna.com.tw/news/aipl/202004170057.aspx"
+      },
+      {
+        "title": "联合报：沈学荣公开身份报道",
+        "url": "https://udn.com/news/story/12806/9388471"
+      },
+      {
+        "title": "2024任命公报",
+        "url": "https://www.president.gov.tw/Page/294/49484"
+      },
+      {
+        "title": "中央社：新内阁名单",
+        "url": "https://www.cna.com.tw/news/aipl/202404105002.aspx"
+      }
+    ],
+    "completeness_score": 75
+  },
+  "education_note": "行政院官方履历另列1996年9月至2000年12月巴黎第十大学博士候选人，未记录为博士学位；Wikipedia对硕士年份和博士是否毕业表述与官方冲突，以官方为准。"
 }

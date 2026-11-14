@@ -1,0 +1,675 @@
+{
+ "summary": {
+  "apply": true,
+  "canonical": {
+   "openai": "US-CORP-249",
+   "anthropic": "US-CORP-250",
+   "spacex": "US-CORP-251",
+   "starlink": "US-CORP-252",
+   "xai": "US-CORP-069"
+  },
+  "shadows_merged": 7,
+  "deprecated_updated": 3,
+  "shadow_not_found": 0,
+  "canonical_added": 4,
+  "canonical_updated": 1,
+  "profiles_created": 5,
+  "profiles_existing": 0,
+  "refs_changed": 35,
+  "refs_already_correct": 6,
+  "refs_by_entity": {
+   "openai": 16,
+   "anthropic": 3,
+   "spacex": 7,
+   "starlink": 8,
+   "xai": 1
+  },
+  "skipped": {
+   "skip_openai_composite": 1
+  }
+ },
+ "registry": {
+  "D:/ai-workspace/apec-osint-tool\\output\\au\\2026-05-08\\id_registry.json": [
+   {
+    "action": "merge_shadow",
+    "id": "AU-CORP-040",
+    "name": "SpaceX/Starlink",
+    "target": "US-CORP-252",
+    "old": {
+     "org_id": "AU-CORP-040",
+     "name": "SpaceX/Starlink",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "AU-CORP-040",
+     "name": "SpaceX/Starlink",
+     "org_type": "CORP",
+     "status": "merged",
+     "merged_into": "US-CORP-252",
+     "deprecated_reason": "global starlink normalization"
+    }
+   },
+   {
+    "action": "merge_shadow",
+    "id": "AU-CORP-087",
+    "name": "SpaceX Starlink",
+    "target": "US-CORP-252",
+    "old": {
+     "org_id": "AU-CORP-087",
+     "name": "SpaceX Starlink",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "AU-CORP-087",
+     "name": "SpaceX Starlink",
+     "org_type": "CORP",
+     "status": "merged",
+     "merged_into": "US-CORP-252",
+     "deprecated_reason": "global starlink normalization"
+    }
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\cl\\2026-10-02\\id_registry.json": [
+   {
+    "action": "merge_shadow",
+    "id": "CL-CORP-071",
+    "name": "星链 (Starlink / SpaceX)",
+    "target": "US-CORP-252",
+    "old": {
+     "org_id": "CL-CORP-071",
+     "name": "星链 (Starlink / SpaceX)",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "CL-CORP-071",
+     "name": "星链 (Starlink / SpaceX)",
+     "org_type": "CORP",
+     "status": "merged",
+     "merged_into": "US-CORP-252",
+     "deprecated_reason": "global starlink normalization"
+    }
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\jp\\2026-06-09\\id_registry.json": [
+   {
+    "action": "merge_shadow",
+    "id": "JP-CORP-059",
+    "name": "OpenAI（OpenAI Global, LLC）",
+    "target": "US-CORP-249",
+    "old": {
+     "org_id": "JP-CORP-059",
+     "name": "OpenAI（OpenAI Global, LLC）",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "JP-CORP-059",
+     "name": "OpenAI（OpenAI Global, LLC）",
+     "org_type": "CORP",
+     "status": "merged",
+     "merged_into": "US-CORP-249",
+     "deprecated_reason": "global openai normalization"
+    }
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\kw\\2026-10-03\\id_registry.json": [
+   {
+    "action": "merge_shadow",
+    "id": "KW-航天与卫星通信企业-001",
+    "name": "太空探索技术公司/星链 (SpaceX / Starlink)",
+    "target": "US-CORP-252",
+    "old": {
+     "org_id": "KW-航天与卫星通信企业-001",
+     "name": "太空探索技术公司/星链 (SpaceX / Starlink)",
+     "org_type": "航天与卫星通信企业",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "KW-航天与卫星通信企业-001",
+     "name": "太空探索技术公司/星链 (SpaceX / Starlink)",
+     "org_type": "航天与卫星通信企业",
+     "status": "merged",
+     "merged_into": "US-CORP-252",
+     "deprecated_reason": "global starlink normalization"
+    }
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\pe\\2026-10-01\\id_registry.json": [
+   {
+    "action": "merge_shadow",
+    "id": "PE-CORP-038",
+    "name": "星链 (Starlink)",
+    "target": "US-CORP-252",
+    "old": {
+     "org_id": "PE-CORP-038",
+     "name": "星链 (Starlink)",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "PE-CORP-038",
+     "name": "星链 (Starlink)",
+     "org_type": "CORP",
+     "status": "merged",
+     "merged_into": "US-CORP-252",
+     "deprecated_reason": "global starlink normalization"
+    }
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\pg\\2026-05-25\\id_registry.json": [
+   {
+    "action": "merge_shadow",
+    "id": "PG-CORP-031",
+    "name": "Starlink（SpaceX）",
+    "target": "US-CORP-252",
+    "old": {
+     "org_id": "PG-CORP-031",
+     "name": "Starlink（SpaceX）",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "PG-CORP-031",
+     "name": "Starlink（SpaceX）",
+     "org_type": "CORP",
+     "status": "merged",
+     "merged_into": "US-CORP-252",
+     "deprecated_reason": "global starlink normalization"
+    }
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\id_registry.json": [
+   {
+    "action": "update_deprecated",
+    "id": "US-CORP-013",
+    "name": "Anthropic",
+    "target": "US-CORP-250",
+    "old": {
+     "org_id": "US-CORP-013",
+     "name": "Anthropic",
+     "org_type": "CORP",
+     "status": "trimmed",
+     "notes": "自动注册冲突条目：该名称非本组织（系早期自动注册把related_entities实体名误挂到已有组织ID），裁剪以防名称索引污染（2026-10-04修复）",
+     "dropped_reason": "A2 safe layer: dead status"
+    }
+   },
+   {
+    "action": "update_deprecated",
+    "id": "US-CORP-014",
+    "name": "OpenAI",
+    "target": "US-CORP-249",
+    "old": {
+     "org_id": "US-CORP-014",
+     "name": "OpenAI",
+     "org_type": "CORP",
+     "status": "trimmed",
+     "notes": "自动注册冲突条目：该名称非本组织（系早期自动注册把related_entities实体名误挂到已有组织ID），裁剪以防名称索引污染（2026-10-04修复）",
+     "dropped_reason": "A2 safe layer: dead status"
+    }
+   },
+   {
+    "action": "update_deprecated",
+    "id": "US-CORP-026",
+    "name": "SpaceX",
+    "target": "US-CORP-251",
+    "old": {
+     "org_id": "US-CORP-026",
+     "name": "SpaceX",
+     "org_type": "CORP",
+     "status": "trimmed",
+     "notes": "自动注册冲突条目：该名称非本组织（系早期自动注册把related_entities实体名误挂到已有组织ID），裁剪以防名称索引污染（2026-10-04修复）",
+     "dropped_reason": "A2 safe layer: dead status"
+    }
+   },
+   {
+    "action": "add_canonical",
+    "id": "US-CORP-249",
+    "new": {
+     "org_id": "US-CORP-249",
+     "name": "OpenAI",
+     "org_type": "CORP",
+     "status": "profiled",
+     "wikidata_qid": "Q21708200",
+     "source": "global AI/space normalization"
+    }
+   },
+   {
+    "action": "add_canonical",
+    "id": "US-CORP-250",
+    "new": {
+     "org_id": "US-CORP-250",
+     "name": "Anthropic",
+     "org_type": "CORP",
+     "status": "profiled",
+     "wikidata_qid": "Q116758847",
+     "source": "global AI/space normalization"
+    }
+   },
+   {
+    "action": "add_canonical",
+    "id": "US-CORP-251",
+    "new": {
+     "org_id": "US-CORP-251",
+     "name": "SpaceX",
+     "org_type": "CORP",
+     "status": "profiled",
+     "wikidata_qid": "Q193701",
+     "source": "global AI/space normalization"
+    }
+   },
+   {
+    "action": "add_canonical",
+    "id": "US-CORP-252",
+    "new": {
+     "org_id": "US-CORP-252",
+     "name": "Starlink",
+     "org_type": "CORP",
+     "status": "profiled",
+     "wikidata_qid": "Q127785902",
+     "source": "global AI/space normalization"
+    }
+   },
+   {
+    "action": "update_canonical",
+    "id": "US-CORP-069",
+    "old": {
+     "org_id": "US-CORP-069",
+     "name": "xAI",
+     "org_type": "CORP",
+     "status": "auto_registered"
+    },
+    "new": {
+     "org_id": "US-CORP-069",
+     "name": "xAI",
+     "org_type": "CORP",
+     "status": "profiled",
+     "wikidata_qid": "Q120599684"
+    }
+   }
+  ]
+ },
+ "refs": [
+  {
+   "file": "output/us/2026-09-05/persons/US-PERSON-000058.json",
+   "array": "work_experience",
+   "index": 2,
+   "field": "org_id",
+   "old": "US-CORP-026",
+   "new": "US-CORP-251",
+   "ref_name": "太空探索技术公司 (SpaceX)",
+   "entity": "spacex"
+  },
+  {
+   "file": "output/us/2026-09-05/persons/US-PERSON-000058.json",
+   "array": "work_experience",
+   "index": 8,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI (OpenAI)",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/persons/US-PERSON-000217.json",
+   "array": "work_experience",
+   "index": 10,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI (OpenAI)",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/persons/US-PERSON-000679.json",
+   "array": "work_experience",
+   "index": 12,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI (OpenAI)",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/persons/US-PERSON-000791.json",
+   "array": "work_experience",
+   "index": 9,
+   "field": "org_id",
+   "old": null,
+   "new": "US-CORP-251",
+   "ref_name": "美国太空探索技术公司 (SpaceX)",
+   "entity": "spacex"
+  },
+  {
+   "file": "output/ae/2026-10-02/orgs/AE-GOV-023.json",
+   "array": "related_entities",
+   "index": 5,
+   "field": "org_id",
+   "old": null,
+   "new": "US-CORP-252",
+   "ref_name": "星链卫星通信公司 (Starlink Satellite Communications LLC)",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/au/2026-05-08/orgs/AU-CORP-007.json",
+   "array": "related_entities",
+   "index": 8,
+   "field": "org_id",
+   "old": null,
+   "new": "US-CORP-252",
+   "ref_name": "SpaceX/Starlink",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/au/2026-05-08/orgs/AU-CORP-008.json",
+   "array": "related_entities",
+   "index": 7,
+   "field": "org_id",
+   "old": "AU-CORP-040",
+   "new": "US-CORP-252",
+   "ref_name": "SpaceX/Starlink",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/au/2026-05-08/orgs/AU-SOE-002.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": null,
+   "new": "US-CORP-252",
+   "ref_name": "SpaceX Starlink",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/cl/2026-10-02/orgs/CL-CORP-008.json",
+   "array": "related_entities",
+   "index": 5,
+   "field": "org_id",
+   "old": "CL-CORP-071",
+   "new": "US-CORP-252",
+   "ref_name": "星链 (Starlink / SpaceX)",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/iq/2026-11-02/orgs/IQ-MEDIA-009.json",
+   "array": "related_entities",
+   "index": 7,
+   "field": "org_id",
+   "old": null,
+   "new": "US-CORP-069",
+   "ref_name": "xAI 公司 (xAI)",
+   "entity": "xai"
+  },
+  {
+   "file": "output/jp/2026-06-09/orgs/JP-CORP-005.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": "JP-CORP-059",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI（OpenAI Global, LLC）",
+   "entity": "openai"
+  },
+  {
+   "file": "output/kr/2026-05-04/orgs/KR-SOE-005.json",
+   "array": "related_entities",
+   "index": 7,
+   "field": "org_id",
+   "old": "KR-CORP-038",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/kw/2026-10-03/orgs/KW-CORP-003.json",
+   "array": "related_entities",
+   "index": 3,
+   "field": "org_id",
+   "old": "KW-航天与卫星通信企业-001",
+   "new": "US-CORP-252",
+   "ref_name": "太空探索技术公司/星链 (SpaceX / Starlink)",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/pe/2026-10-01/orgs/PE-CORP-012.json",
+   "array": "related_entities",
+   "index": 4,
+   "field": "org_id",
+   "old": "PE-CORP-038",
+   "new": "US-CORP-252",
+   "ref_name": "星链 (Starlink)",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/pg/2026-05-25/orgs/PG-SOE-007.json",
+   "array": "related_entities",
+   "index": 5,
+   "field": "org_id",
+   "old": "PG-CORP-031",
+   "new": "US-CORP-252",
+   "ref_name": "Starlink（SpaceX）",
+   "entity": "starlink"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-002.json",
+   "array": "related_entities",
+   "index": 5,
+   "field": "org_id",
+   "old": "US-CORP-013",
+   "new": "US-CORP-250",
+   "ref_name": "Anthropic",
+   "entity": "anthropic"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-002.json",
+   "array": "related_entities",
+   "index": 6,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-004.json",
+   "array": "related_entities",
+   "index": 0,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI (OpenAI)",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-004.json",
+   "array": "related_entities",
+   "index": 1,
+   "field": "org_id",
+   "old": "US-CORP-013",
+   "new": "US-CORP-250",
+   "ref_name": "Anthropic (Anthropic)",
+   "entity": "anthropic"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-005.json",
+   "array": "related_entities",
+   "index": 3,
+   "field": "org_id",
+   "old": "US-CORP-013",
+   "new": "US-CORP-250",
+   "ref_name": "Anthropic",
+   "entity": "anthropic"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-005.json",
+   "array": "related_entities",
+   "index": 4,
+   "field": "org_id",
+   "old": "US-CORP-026",
+   "new": "US-CORP-251",
+   "ref_name": "SpaceX",
+   "entity": "spacex"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-013.json",
+   "array": "related_entities",
+   "index": 9,
+   "field": "org_id",
+   "old": "US-CORP-026",
+   "new": "US-CORP-251",
+   "ref_name": "美国太空探索技术公司 (SpaceX)",
+   "entity": "spacex"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-021.json",
+   "array": "related_entities",
+   "index": 8,
+   "field": "org_id",
+   "old": "US-CORP-026",
+   "new": "US-CORP-251",
+   "ref_name": "SpaceX",
+   "entity": "spacex"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-024.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-027.json",
+   "array": "related_entities",
+   "index": 6,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-028.json",
+   "array": "related_entities",
+   "index": 0,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-CORP-039.json",
+   "array": "related_entities",
+   "index": 12,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-FIN-016.json",
+   "array": "related_entities",
+   "index": 4,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-GOV-024.json",
+   "array": "related_entities",
+   "index": 4,
+   "field": "org_id",
+   "old": "US-CORP-026",
+   "new": "US-CORP-251",
+   "ref_name": "太空探索技术公司 (SpaceX)",
+   "entity": "spacex"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-MEDIA-001.json",
+   "array": "related_entities",
+   "index": 0,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-MEDIA-002.json",
+   "array": "related_entities",
+   "index": 4,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-MEDIA-011.json",
+   "array": "related_entities",
+   "index": 3,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-MEDIA-015.json",
+   "array": "related_entities",
+   "index": 7,
+   "field": "org_id",
+   "old": "US-CORP-014",
+   "new": "US-CORP-249",
+   "ref_name": "OpenAI",
+   "entity": "openai"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-MIL-004.json",
+   "array": "related_entities",
+   "index": 10,
+   "field": "org_id",
+   "old": "US-CORP-026",
+   "new": "US-CORP-251",
+   "ref_name": "SpaceX (Space Exploration Technologies Corp.)",
+   "entity": "spacex"
+  }
+ ],
+ "profiles": [
+  {
+   "id": "US-CORP-249",
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\orgs\\US-CORP-249.json"
+  },
+  {
+   "id": "US-CORP-250",
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\orgs\\US-CORP-250.json"
+  },
+  {
+   "id": "US-CORP-251",
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\orgs\\US-CORP-251.json"
+  },
+  {
+   "id": "US-CORP-252",
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\orgs\\US-CORP-252.json"
+  },
+  {
+   "id": "US-CORP-069",
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\orgs\\US-CORP-069.json"
+  }
+ ],
+ "indexes": [
+  {
+   "path": "D:/ai-workspace/apec-osint-tool\\output\\us\\2026-09-05\\orgs\\_index.json",
+   "old_total": 168,
+   "new_total": 173
+  }
+ ]
+}

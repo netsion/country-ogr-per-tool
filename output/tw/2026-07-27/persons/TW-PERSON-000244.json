@@ -3,7 +3,6 @@
   "wikidata_qid": "Q6163836",
   "name": "袁健生",
   "name_en": "Jason Yuan",
-  "name_local": "袁健生",
   "name_zh": "袁健生",
   "aliases": [],
   "nationality": "TW",
@@ -25,20 +24,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Voa_chinese_china_Jason-Yuan_29oct10_300_m.jpg/250px-Voa_chinese_china_Jason-Yuan_29oct10_300_m.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000244.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Voa%20chinese%20china%20Jason-Yuan%2029oct10%20300%20m.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000244.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自职位: senior advisor",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q6163836"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q6163836"
+      }
+    ]
   }
 }

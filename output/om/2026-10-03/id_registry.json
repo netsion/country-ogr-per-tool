@@ -772,13 +772,14 @@
       "org_id": "OM-FIN-018",
       "name": "阿曼银行(Ahli Bank)",
       "org_type": "FIN",
-      "status": "auto_registered"
+      "status": "profiled"
     },
     {
       "org_id": "OM-FIN-020",
       "name": "阿拉伯银行(Arab Bank plc)",
       "org_type": "FIN",
-      "status": "auto_registered"
+      "status": "profiled",
+      "wikidata_qid": "Q2629881"
     },
     {
       "org_id": "OM-FIN-021",
@@ -943,7 +944,7 @@
       "org_id": "OM-GOV-041",
       "name": "公共广播电视总局(Public Authority for Radio and Television, PART)",
       "org_type": "GOV",
-      "status": "auto_registered"
+      "status": "profiled"
     },
     {
       "org_id": "OM-MEDIA-007",
@@ -1296,12 +1297,6 @@
     {
       "org_id": "OM-INTL-017",
       "name": "联合国教科文组织(اليونسكو)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "OM-INTL-018",
-      "name": "世界卫生组织 (World Health Organization)",
       "org_type": "INTL",
       "status": "auto_registered"
     },
@@ -4191,5 +4186,15 @@
   "person_counters": {
     "OM": 376,
     "OM-PERSON": 440
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "OM-INTL-018",
+      "name": "世界卫生组织 (World Health Organization)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    }
+  ]
 }

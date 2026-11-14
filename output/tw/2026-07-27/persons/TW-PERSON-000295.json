@@ -3,9 +3,10 @@
   "wikidata_qid": "Q5966226",
   "name": "孔垂长",
   "name_en": "Kung Tsui-chang",
-  "name_local": "孔垂長",
   "name_zh": "孔垂长",
-  "aliases": [],
+  "aliases": [
+    "孔垂長"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1975-07-01",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/%E5%AD%94%E5%9E%82%E9%95%B7_%282025%E5%B9%B4%E9%87%8B%E5%A5%A0%E5%85%B8%E7%A6%AE%29.png/250px-%E5%AD%94%E5%9E%82%E9%95%B7_%282025%E5%B9%B4%E9%87%8B%E5%A5%A0%E5%85%B8%E7%A6%AE%29.png",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000295.png",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AD%94%E5%9E%82%E9%95%B7%20%282025%E5%B9%B4%E9%87%8B%E5%A5%A0%E5%85%B8%E7%A6%AE%29.png?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000295.png"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自职位: Sacrificial Official to Confucius",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5966226"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q5966226"
+      }
+    ]
   }
 }

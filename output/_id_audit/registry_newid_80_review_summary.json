@@ -1,0 +1,80 @@
+{
+  "review_only": true,
+  "execution_authorized": false,
+  "total": 80,
+  "by_conclusion": {
+    "挂起": 21,
+    "分配": 51,
+    "改类别后分配": 2,
+    "不分配": 6
+  },
+  "by_country": {
+    "KR": {
+      "挂起": 11,
+      "分配": 9
+    },
+    "MX": {
+      "分配": 13,
+      "改类别后分配": 1,
+      "挂起": 5,
+      "不分配": 1
+    },
+    "NZ": {
+      "分配": 11,
+      "挂起": 4,
+      "不分配": 5
+    },
+    "JP": {
+      "分配": 18,
+      "改类别后分配": 1,
+      "挂起": 1
+    }
+  },
+  "machine_said_assign_but_not_pass": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    18,
+    25,
+    26,
+    27,
+    30,
+    39,
+    46,
+    47,
+    48,
+    53,
+    54,
+    55,
+    56,
+    67
+  ],
+  "sample_reserved_ids": [
+    1,
+    4,
+    5,
+    6,
+    8,
+    11,
+    12,
+    13
+  ],
+  "global_planned_newids": 983,
+  "global_reserved_ids_count": 14,
+  "sample_only_no_extrapolation": true,
+  "files_hash_checked": 23686,
+  "changed_source_files": [],
+  "empty_planned_id_rows": [
+    51,
+    70,
+    79
+  ],
+  "input_csv_sha256": "63d18347edc6ed132f75136ed16ca8d2357197387f86f43d23c446bd333f18e2"
+}

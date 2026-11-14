@@ -3,7 +3,6 @@
   "wikidata_qid": "Q5095186",
   "name": "蒋孝武",
   "name_en": "Chiang Hsiao-wu",
-  "name_local": "蒋孝武",
   "name_zh": "蒋孝武",
   "aliases": [],
   "nationality": "TW",
@@ -25,20 +24,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Chiang_Ching-kuo_family_%28%E8%92%8B%E5%AD%9D%E6%AD%A6%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000200.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chiang%20Ching-kuo%20family%20%28%E8%92%8B%E5%AD%9D%E6%AD%A6%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000200.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Politician",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5095186"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q5095186"
+      }
+    ]
   }
 }

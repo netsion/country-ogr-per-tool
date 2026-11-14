@@ -1,0 +1,2706 @@
+{
+  "review_only": true,
+  "execution_authorized": false,
+  "rows": [
+    {
+      "review_row": 1,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "ACAD",
+      "reason": "汉阳大学可独立于KDI School，但另有KR-GOV-176汉阳大学、KR-GOV-714汉阳大学校注册项；先归一为一个高校身份，不单独照本行发号。无当前引用不能代替实体去重。 建议编号已存在于业务引用，须先核对这些存量引用主体，不能因registry未登记就当空号。",
+      "external_sources": [
+        "https://www.hanyang.ac.kr/web/eng/"
+      ],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-ACAD-012",
+        "现画像": "韩国开发研究院国际政策研究生院大学",
+        "影子名称": "Hanyang University",
+        "计划类别": "ACAD",
+        "建议新ID": "KR-ACAD-028",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 2,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "ACAD",
+      "reason": "西江大学不是KIST；KR-GOV-695另有同一大学注册项，应合一。KR-GOV-321学生会、455法学院、753社会科学研究所不能仅因包含校名一并合并。",
+      "external_sources": [
+        "https://summer.sogang.ac.kr/About/AboutSogangUniversity"
+      ],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-ACAD-013",
+        "现画像": "韩国科学技术研究院",
+        "影子名称": "Sogang University",
+        "计划类别": "ACAD",
+        "建议新ID": "KR-ACAD-029",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 3,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "CORP",
+      "reason": "Lotte Group与SK Energy不同，可建立集团级CORP身份；不要合并到Lotte Insurance或把模糊匹配得到的人物当组织。当前无引用，优先级低于有引用项。 建议编号已存在于业务引用，须先核对这些存量引用主体，不能因registry未登记就当空号。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-CORP-021",
+        "现画像": "SK能源",
+        "影子名称": "Lotte Group",
+        "计划类别": "CORP",
+        "建议新ID": "KR-CORP-035",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 4,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "CORP",
+      "reason": "Amorepacific是独立企业，但当前KR-CORP-027实际画像为SK Innovation，registry却另有Amorepacific的profiled记录。上轮将KR-CORP-030影子标merged_into=KR-CORP-036，而036尚未注册；该036已被另两处引用用来表示POSCO DX和Korail Logis，不能再赋给Amorepacific。先修合并闭合性、引用编号占用和registry标签矛盾。 建议编号已存在于业务引用，须先核对这些存量引用主体，不能因registry未登记就当空号。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-CORP-027",
+        "现画像": "SK创新",
+        "影子名称": "Amorepacific Corporation",
+        "计划类别": "CORP",
+        "建议新ID": "KR-CORP-036",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 5,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "GOV",
+      "reason": "农林畜产食品部不是海洋水产部；但KR-GOV-112/113已登记同一部，应先并为一个身份。外国同名农业部及仅词元相近的韩国总务处都不可作为目标。",
+      "external_sources": [
+        "https://www.mafra.go.kr/english/engIndex.do"
+      ],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-013",
+        "现画像": "韩国海洋水产部",
+        "影子名称": "Ministry of Agriculture, Food and Rural Affairs",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1160",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 6,
+      "conclusion": "挂起",
+      "country": "KR（待核）",
+      "category": "CORP（拟议）",
+      "reason": "株式会社/㈜表明企业，GOV显然不合适；IBF拉丁缩写与아이비피转写还不一致。无原引用、无地址/法人号等证据，不足以确认具体公司后按CORP发号。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-036",
+        "现画像": "",
+        "影子名称": "㈜IBF株式会社（아이비피",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1163",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 7,
+      "conclusion": "不分配",
+      "country": "KR",
+      "category": "不适用：未指明具体办公室",
+      "reason": "“国会议员辅佐官室”没有议员姓名、届次、地点，是职位/办公室通名，不是已识别组织。保留原登记待清理，不为该通名建独立GOV身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-037",
+        "现画像": "",
+        "影子名称": "国会议员辅佐官室",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1164",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 8,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "GOV",
+      "reason": "总统秘书室有KR-GOV-121/192/691等同名或近名注册项，另有金大中政府任期限定项。先定机构持续身份与任期部门的区别再合并，不重复发新的GOV号；现画像空不代表原ID第一条legacy记录是已证实owner。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-039",
+        "现画像": "",
+        "影子名称": "总统秘书室（대통령비서실",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1165",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 9,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "PARTY（确定需改类）",
+      "reason": "自由韩国党是历史政党，不能建GOV；KR-GOV-092也登记相同政党，先去重并核与后继政党关系，再只建一个历史PARTY身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-041",
+        "现画像": "",
+        "影子名称": "自由韩国党（자유한국당",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1166",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 10,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "GOV（临时过渡机构）",
+      "reason": "总统当选人秘书室为过渡机构，需明确哪一届当选人及任期；KR-GOV-382另有同名注册项。不是可跨总统任期随意视作单一常设部门的名称。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-042",
+        "现画像": "",
+        "影子名称": "总统当选人秘书室（대한민국 대통령당선인비서실",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1167",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 11,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "ACAD（大学内设研究所）",
+      "reason": "庆北大学基础医学研究所不是大学本体，也不是陆军第三师团。需确认是否独立建研究所画像，或建大学部门；不能直接合到KR-ACAD-004，也不能按GOV发号。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-043",
+        "现画像": "",
+        "影子名称": "庆北大学基础医学研究所（경북대학교 기초의학연구소",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1168",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 12,
+      "conclusion": "不分配",
+      "country": "JP",
+      "category": "ACAD（科研机构建议）",
+      "reason": "否定KR-GOV-1169方案：明确是日本NIHS，不是韩国机构；官网确认其从事医药食品等评价研究。先在日本主实体口径归一，不能根据引用登记分区创造韩国副本。",
+      "external_sources": [
+        "https://www.nihs.go.jp/"
+      ],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-045",
+        "现画像": "",
+        "影子名称": "日本国立医药品食品卫生研究所（NIHS",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1169",
+        "引用数": "0",
+        "风险提示": "含他国名:jp;无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 13,
+      "conclusion": "挂起",
+      "country": "未知",
+      "category": "待核",
+      "reason": "“地区合作研究中心”是通名，无原文、主管单位、地点或实际引用，无法确认实体或类别，不发号。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-046",
+        "现画像": "",
+        "影子名称": "地区合作研究中心",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1170",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 14,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "待核：TechnoPark内部事业团",
+      "reason": "源为大邱TechnoPark的新技术事业团，而非整个园区或政府厅。无原引用，不足以判断独立主体、部门层级及存续期；先补机构沿革与主管关系。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-047",
+        "现画像": "",
+        "影子名称": "大邱TechnoPark新技术事业团（대구테크노파크 신기술사업단",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1171",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 15,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "GOV",
+      "reason": "庆尚北道厅已有KR-GOV-732等重复登记；KR-GOV-381中文/韩文是庆尚北道，英文却写Gyeonggi（京畿道），需先纠正身份标签，不能按同名无差别合并。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-050",
+        "现画像": "",
+        "影子名称": "庆尚北道厅（경상북도",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1172",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 16,
+      "conclusion": "分配",
+      "country": "KR",
+      "category": "GOV",
+      "reason": "大邱庆北经济自由区域厅为明确的区域管理机构，不同于原碰撞ID登记的政党；独立GOV身份原则可用。无当前引用，建档优先级低。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-051",
+        "现画像": "",
+        "影子名称": "大邱庆北经济自由区域厅（대구경북경제자유구역청",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1173",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 17,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "GOV（咨询委员会；待核）",
+      "reason": "地方分权协议会名称具体但没有原引用及设立依据，需确认委员会是否单独建档、所属政府及任期；不能只因GOV编号可用即确认。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-052",
+        "现画像": "",
+        "影子名称": "大邱广域市地方分权协议会（대구광역시 지방분권협의회",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1174",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 18,
+      "conclusion": "不分配",
+      "country": "KR",
+      "category": "不适用：考试资格/经历",
+      "reason": "“第23届行政高等考试合格”是个人考试经历，不是组织。应记教育/资格或履历备注，不分配GOV或其他组织ID；也不自动删除原登记。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-054",
+        "现画像": "",
+        "影子名称": "第23届行政高等考试合格（제23회 행정고등고시",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1175",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 19,
+      "conclusion": "挂起",
+      "country": "KR",
+      "category": "GOV",
+      "reason": "忠清北道厅另有KR-GOV-754（North Chungcheong Provincial Government），应先归为一个机构，不能重复发GOV新身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-055",
+        "现画像": "",
+        "影子名称": "忠清北道厅（충청북도청",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1176",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 20,
+      "conclusion": "分配",
+      "country": "KR",
+      "category": "GOV",
+      "reason": "忠清北道阴城郡是明确的地方政府辖区/郡政府，不是文在寅竞选委员会；可按地方政府GOV独立登记，规范名应明确为郡政府，当前无引用。",
+      "external_sources": [],
+      "original": {
+        "国家": "KR",
+        "冲突ID": "KR-GOV-057",
+        "现画像": "",
+        "影子名称": "忠清北道阴城郡（충청북도 음성군",
+        "计划类别": "GOV",
+        "建议新ID": "KR-GOV-1177",
+        "引用数": "0",
+        "风险提示": "无引用",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": []
+    },
+    {
+      "review_row": 21,
+      "conclusion": "挂起",
+      "country": "MX",
+      "category": "ACAD/NGO（网络口径待定）",
+      "reason": "源是墨西哥多所耶稣会大学组成的SUJ网络，不是单独大学。先与上一批AUSJAL统一教育系统/大学联盟分类和建档粒度，不直接把网络当一所学校。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-ACAD-004",
+        "现画像": "大都会自治大学",
+        "影子名称": "耶稣会大学系统 (Sistema Universitario Jesuita / SUJ",
+        "计划类别": "ACAD",
+        "建议新ID": "MX-ACAD-018",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-ACAD-008.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "伊比利亚美洲大学",
+          "entry": {
+            "org_id": "MX-ACAD-004",
+            "org_name": "耶稣会大学系统 (Sistema Universitario Jesuita / SUJ)",
+            "org_type": "ACAD",
+            "org_description": "由墨西哥 8 所耶稣会大学组成的网络，IBERO 墨西哥城校区为旗舰机构",
+            "relationship_type": "member_of"
+          },
+          "ref_name": "耶稣会大学系统 (Sistema Universitario Jesuita / SUJ)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 22,
+      "conclusion": "不分配",
+      "country": "US",
+      "category": "ACAD",
+      "reason": "Georgetown是美国华盛顿的大学，源也明确美国；不按MX-ACAD-023建墨西哥副本。应在美国主实体口径去重后登记。",
+      "external_sources": [
+        "https://www.georgetown.edu/about/"
+      ],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-ACAD-006",
+        "现画像": "国家人文科学技术委员会（已升格为科学技术人文创新秘书处）",
+        "影子名称": "乔治城大学 (Georgetown University",
+        "计划类别": "ACAD",
+        "建议新ID": "MX-ACAD-023",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-ACAD-008.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "伊比利亚美洲大学",
+          "entry": {
+            "org_id": "MX-ACAD-006",
+            "org_name": "乔治城大学 (Georgetown University)",
+            "org_type": "ACAD",
+            "org_description": "美国最古老的天主教和耶稣会大学，与 IBERO 保持密切合作关系",
+            "relationship_type": "strategic_alliance"
+          },
+          "ref_name": "乔治城大学 (Georgetown University)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 23,
+      "conclusion": "不分配",
+      "country": "MX",
+      "category": "PERSON（身份已有；本行不是组织）",
+      "reason": "源是MX-PERSON-000114的work_experience[0]，把本人姓名写成organization。已有MX-PERSON-000102和114两份同名人物档案，不能再建组织或把自己当雇主。职位指SECIHTI，已有MX-GOV-033可作为组织修正候选；需同时修文字并核任期，不能仅将ID换成人物ID。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-ACAD-006",
+        "现画像": "国家人文科学技术委员会（已升格为科学技术人文创新秘书处）",
+        "影子名称": "罗绍拉·鲁伊斯·古铁雷斯（Rosaura Ruiz Gutiérrez",
+        "计划类别": "ACAD",
+        "建议新ID": "MX-ACAD-024",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/persons/MX-PERSON-000114.json",
+          "pointer": "work_experience[0].org_id",
+          "kind": "org",
+          "owner": "罗绍拉·鲁伊斯·古铁雷斯",
+          "entry": {
+            "start_date": null,
+            "end_date": null,
+            "organization": "罗绍拉·鲁伊斯·古铁雷斯（Rosaura Ruiz Gutiérrez）",
+            "org_id": "MX-ACAD-006",
+            "position": "科学技术人文创新秘书（Secretaria de Ciencia, Humanidades, Tecnología e Innovación）"
+          },
+          "ref_name": "罗绍拉·鲁伊斯·古铁雷斯（Rosaura Ruiz Gutiérrez）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 24,
+      "conclusion": "挂起",
+      "country": "MX",
+      "category": "ACAD/NGO（研究倡导机构）",
+      "reason": "INDESIG官网同时列学术研究、数字行动与政策倡导，主体存在；但不能仅因“研究所”就当大学/学术院校。需按智库/社会倡导机构统一类别口径再分配。",
+      "external_sources": [
+        "https://www.indesig.org/quienes-somos/"
+      ],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-ACAD-007",
+        "现画像": "普埃布拉美洲大学",
+        "影子名称": "墨西哥不平等研究所 (INDESIG",
+        "计划类别": "ACAD",
+        "建议新ID": "MX-ACAD-026",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-NGO-003.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "乐施会墨西哥",
+          "entry": {
+            "org_id": "MX-ACAD-007",
+            "org_name": "墨西哥不平等研究所 (INDESIG)",
+            "org_type": "ACAD",
+            "org_description": "墨西哥社会不平等研究智库，与Oxfam México联合发布年度不平等分析报告",
+            "relationship_type": "partner"
+          },
+          "ref_name": "墨西哥不平等研究所 (INDESIG)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 25,
+      "conclusion": "不分配",
+      "country": "US",
+      "category": "CORP",
+      "reason": "不按MX-CORP-062发号：Pemex条目明确Talos为美国油气公司。额外发现Grupo México条目混写América Móvil/Talos，但说明全部指Slim电信企业，不能按Talos关键词将该复合条目一起改走。应先拆/修复文字再单独判引用。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-001",
+        "现画像": "美洲移动通信",
+        "影子名称": "Talos Energy",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-062",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-004.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "墨西哥集团 (Grupo México)",
+          "entry": {
+            "org_id": "MX-CORP-001",
+            "org_name": "美洲电信 / 塔洛斯能源 (América Móvil / Talos Energy)",
+            "org_type": "CORP",
+            "org_description": "Carlos Slim旗下电信巨头，2025年被Grupo México超越成为墨西哥最有价值上市公司",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "美洲电信 / 塔洛斯能源 (América Móvil / Talos Energy)",
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-SOE-001.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "墨西哥石油公司",
+          "entry": {
+            "org_id": "MX-CORP-001",
+            "org_name": "塔洛斯能源 (Talos Energy)",
+            "org_type": "CORP",
+            "org_description": "美国油气公司，与Pemex合作开发Zama海上油田项目",
+            "relationship_type": "partner"
+          },
+          "ref_name": "塔洛斯能源 (Talos Energy)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 26,
+      "conclusion": "不分配",
+      "country": "BR",
+      "category": "CORP",
+      "reason": "源明确巴西Braskem集团，不是Walmex；否定按MX-CORP新建。还需区分巴西母集团与墨西哥Braskem Idesa合资主体，不能用供应项目所在地替代法人身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-002",
+        "现画像": "沃尔玛墨西哥与中美洲",
+        "影子名称": "Braskem",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-063",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-SOE-001.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "墨西哥石油公司",
+          "entry": {
+            "org_id": "MX-CORP-002",
+            "org_name": "布拉斯科姆 (Braskem)",
+            "org_type": "CORP",
+            "org_description": "巴西石化巨头，与Pemex签订天然气供应协议并合资建设乙烷终端",
+            "relationship_type": "strategic_alliance"
+          },
+          "ref_name": "布拉斯科姆 (Braskem)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 27,
+      "conclusion": "不分配",
+      "country": "ES",
+      "category": "CORP",
+      "reason": "源明确西班牙Iberdrola，不是FEMSA。否定MX-CORP方案，先核西班牙母集团与墨西哥地方子公司，按具体主体登记。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-003",
+        "现画像": "墨西哥经济发展公司 (FEMSA)",
+        "影子名称": "Iberdrola (伊维尔德罗拉",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-064",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-SOE-002.json",
+          "pointer": "related_entities[5].org_id",
+          "kind": "org",
+          "owner": "联邦电力委员会",
+          "entry": {
+            "org_id": "MX-CORP-003",
+            "org_name": "Iberdrola (伊维尔德罗拉)",
+            "org_type": "CORP",
+            "org_description": "西班牙电力巨头，此前在墨西哥投资多个可再生能源项目，与CFE在电力市场存在竞争与合作并存关系",
+            "relationship_type": "partner"
+          },
+          "ref_name": "Iberdrola (伊维尔德罗拉)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 28,
+      "conclusion": "不分配",
+      "country": "MX",
+      "category": "PERSON（身份已有；本行不是组织）",
+      "reason": "源是MX-PERSON-000119的work_experience[0]，把本人姓名当雇主。已有MX-PERSON-000107及119同名档案，不能建CORP或把org_id指到人物；董事长雇主可核FEMSA（MX-CORP-003），但需同时改组织文字、核职务和期间，并处理重复人物档案。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-003",
+        "现画像": "墨西哥经济发展公司 (FEMSA)",
+        "影子名称": "José Antonio Fernández Carbajal",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-066",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/persons/MX-PERSON-000119.json",
+          "pointer": "work_experience[0].org_id",
+          "kind": "org",
+          "owner": "何塞·安东尼奥·费尔南德斯·卡瓦哈尔",
+          "entry": {
+            "start_date": null,
+            "end_date": null,
+            "organization": "何塞·安东尼奥·费尔南德斯·卡瓦哈尔 (José Antonio Fernández Carbajal)",
+            "org_id": "MX-CORP-003",
+            "position": "董事会主席"
+          },
+          "ref_name": "何塞·安东尼奥·费尔南德斯·卡瓦哈尔 (José Antonio Fernández Carbajal)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 29,
+      "conclusion": "分配",
+      "country": "MX",
+      "category": "CORP",
+      "reason": "源明确Telcel / Radiomóvil Dipsa为América Móvil墨西哥移动运营商，不是Grupo México或电信集团母体。可建立独立运营公司身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-004",
+        "现画像": "墨西哥集团 (Grupo México)",
+        "影子名称": "Telcel (Radiomóvil Dipsa",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-068",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-001.json",
+          "pointer": "related_entities[0].org_id",
+          "kind": "org",
+          "owner": "美洲移动通信",
+          "entry": {
+            "org_id": "MX-CORP-004",
+            "org_name": "特尔塞尔电信 (Telcel / Radiomóvil Dipsa)",
+            "org_type": "CORP",
+            "org_description": "América Móvil旗下墨西哥移动通信运营商，市场份额超70%",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "特尔塞尔电信 (Telcel / Radiomóvil Dipsa)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 30,
+      "conclusion": "挂起",
+      "country": "跨拉美多个国家",
+      "category": "CORP（品牌/集团口径待定）",
+      "reason": "源明确Claro是多国统一品牌，单一名称不能确定国家法人；已有Claro Chile/Perú/Nicaragua画像，不能任选其一，也不能默认墨西哥法人。先明确品牌节点或具体运营公司。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-005",
+        "现画像": "宾堡集团 (Grupo Bimbo)",
+        "影子名称": "Claro",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-070",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-001.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "美洲移动通信",
+          "entry": {
+            "org_id": "MX-CORP-005",
+            "org_name": "克拉罗电信 (Claro)",
+            "org_type": "CORP",
+            "org_description": "América Móvil在拉丁美洲多国的统一电信品牌",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "克拉罗电信 (Claro)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 31,
+      "conclusion": "挂起",
+      "country": "MX",
+      "category": "CORP（品牌/连锁体系；待定）",
+      "reason": "Bodega Aurrerá是Walmex零售连锁品牌，源用subsidiary但未给独立法人。先定品牌是否建组织画像、对应运营公司，而非只换成一个CORP编号。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-007",
+        "现画像": "卡索集团",
+        "影子名称": "Bodega Aurrerá",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-072",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-002.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "沃尔玛墨西哥与中美洲",
+          "entry": {
+            "org_id": "MX-CORP-007",
+            "org_name": "奥雷拉仓库超市 (Bodega Aurrerá)",
+            "org_type": "CORP",
+            "org_description": "Walmex旗下墨西哥最大折扣超市连锁品牌，1958年由西班牙裔商人赫罗尼莫·阿兰戈创立",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "奥雷拉仓库超市 (Bodega Aurrerá)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 32,
+      "conclusion": "挂起",
+      "country": "MX",
+      "category": "CORP（MVNO业务/品牌；待定）",
+      "reason": "标题写“Bait电商平台”，说明却是Walmex移动虚拟运营商；官方确认其为移动连接服务。先纠正文字及品牌/法律运营实体粒度，不能让新ID固化错误标题。",
+      "external_sources": [
+        "https://walmex.mx/nosotros/ecosistema.html",
+        "https://www.walmartmexico.com/sala-de-prensa/2022/12/14/inaugura-walmart-de-mexico-y-centroamerica-los-primeros-centros-de-experiencia-bait"
+      ],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-008",
+        "现画像": "阿尔法集团",
+        "影子名称": "Bait",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-075",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-002.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "沃尔玛墨西哥与中美洲",
+          "entry": {
+            "org_id": "MX-CORP-008",
+            "org_name": "Bait电商平台 (Bait)",
+            "org_type": "CORP",
+            "org_description": "Walmex旗下移动虚拟网络运营商(MVNO)，墨西哥第三大互联网接入提供商",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "Bait电商平台 (Bait)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 33,
+      "conclusion": "分配",
+      "country": "MX（集团登记口径；法律主体另核）",
+      "category": "CORP",
+      "reason": "源明确Solistica物流业务，不是Grupo Elektra；可建集团级物流实体。其最新所有权、区域运营法人及FEMSA股权叙述需另核，ID复核不背书旧股东关系。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-011",
+        "现画像": "埃莱克特拉集团",
+        "影子名称": "Solistica (索里斯蒂卡物流",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-080",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-003.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "墨西哥经济发展公司 (FEMSA)",
+          "entry": {
+            "org_id": "MX-CORP-011",
+            "org_name": "Solistica (索里斯蒂卡物流)",
+            "org_type": "CORP",
+            "org_description": "FEMSA旗下第三方物流公司，为制药、汽车、科技和消费品行业提供物流解决方案",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "Solistica (索里斯蒂卡物流)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 34,
+      "conclusion": "不分配",
+      "country": "US",
+      "category": "CORP",
+      "reason": "源明确ASARCO LLC为美国矿业公司，不是Grupo Lala。否定MX-CORP-084，按美国法人核主ID，母公司Grupo México国别不能覆盖子公司国别。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-013",
+        "现画像": "拉拉集团",
+        "影子名称": "ASARCO LLC (美国冶炼与精炼公司",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-084",
+        "引用数": "1",
+        "风险提示": "含他国名:us",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-004.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "墨西哥集团 (Grupo México)",
+          "entry": {
+            "org_id": "MX-CORP-013",
+            "org_name": "ASARCO LLC (美国冶炼与精炼公司)",
+            "org_type": "CORP",
+            "org_description": "美国矿业公司，Grupo México旗下美国铜矿运营主体，涉及20个EPA超级基金污染场址",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "ASARCO LLC (美国冶炼与精炼公司)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 35,
+      "conclusion": "分配",
+      "country": "MX",
+      "category": "CORP",
+      "reason": "源明确Ferromex墨西哥铁路货运经营主体，不是Kimberly-Clark México。可以独立CORP；国名不意味着国有，股权比例另核。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-014",
+        "现画像": "金佰利墨西哥",
+        "影子名称": "Ferromex (联邦墨西哥铁路",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-087",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-004.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "墨西哥集团 (Grupo México)",
+          "entry": {
+            "org_id": "MX-CORP-014",
+            "org_name": "Ferromex (联邦墨西哥铁路)",
+            "org_type": "CORP",
+            "org_description": "墨西哥最大铁路货运公司，运营9,610公里铁路网，Grupo México持股74%，Union Pacific持股26%",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "Ferromex (联邦墨西哥铁路)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 36,
+      "conclusion": "不分配",
+      "country": "MX",
+      "category": "PERSON（关系对象需另核）",
+      "reason": "实际是MX-PERSON-000133父亲档案的person_relationships[1].person_id，说明写其子、Marea Rosa及反腐组织活动；影子却给父亲Laporte全名。不能新建CORP，也不能改回133造成自指；需识别儿子Claudio X. González Guajardo，现本国人物主名扫描未见该儿子的独立画像。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-014",
+        "现画像": "金佰利墨西哥",
+        "影子名称": "Claudio X. González Laporte",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-088",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/persons/MX-PERSON-000133.json",
+          "pointer": "person_relationships[1].person_id",
+          "kind": "person",
+          "owner": "克劳迪奥·X·冈萨雷斯·拉波特",
+          "entry": {
+            "person_name": "克劳迪奥·X·冈萨雷斯(Claudio X. González)",
+            "person_id": "MX-CORP-014",
+            "relationship": "父子",
+            "description": "其子Claudio X. González为墨西哥知名社会活动家，曾领导'Marea Rosa'运动，联合创立Mexicanos Contra la Corrupción y la Impunidad"
+          },
+          "ref_name": "克劳迪奥·X·冈萨雷斯(Claudio X. González)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 37,
+      "conclusion": "不分配",
+      "country": "MX",
+      "category": "PERSON（已有候选MX-PERSON-000134）",
+      "reason": "实际为父亲MX-PERSON-000133的儿子关系，person_id误用了CORP编号。儿子Pablo Roberto González Guajardo已有MX-PERSON-000134；应走人物改链复核，而不是建新组织。关系说明中的接任年份也有冲突，另核。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-014",
+        "现画像": "金佰利墨西哥",
+        "影子名称": "Pablo González Guajardo",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-089",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/persons/MX-PERSON-000133.json",
+          "pointer": "person_relationships[0].person_id",
+          "kind": "person",
+          "owner": "克劳迪奥·X·冈萨雷斯·拉波特",
+          "entry": {
+            "person_name": "巴勃罗·冈萨雷斯·瓜哈尔多(Pablo González Guajardo)",
+            "person_id": "MX-CORP-014",
+            "relationship": "父子",
+            "description": "其子Pablo González Guajardo于2003年接任金佰利墨西哥首席执行官，现任该公司董事"
+          },
+          "ref_name": "巴勃罗·冈萨雷斯·瓜哈尔多(Pablo González Guajardo)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 38,
+      "conclusion": "不分配",
+      "country": "US",
+      "category": "CORP",
+      "reason": "源明确Bimbo Bakeries USA为美国业务子公司，不是Grupo Bimbo母体或Soriana。否定墨西哥新ID方案，核美国经营主体后登记，不能直接合回母集团。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-CORP-015",
+        "现画像": "索里亚纳",
+        "影子名称": "Bimbo Bakeries USA",
+        "计划类别": "CORP",
+        "建议新ID": "MX-CORP-090",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-CORP-005.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "宾堡集团 (Grupo Bimbo)",
+          "entry": {
+            "org_id": "MX-CORP-015",
+            "org_name": "宾堡美国烘焙 (Bimbo Bakeries USA)",
+            "org_type": "CORP",
+            "org_description": "Grupo Bimbo美国烘焙业务子公司，运营Thomas'、Arnold、Oroweat等品牌，是美国最大烘焙公司之一",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "宾堡美国烘焙 (Bimbo Bakeries USA)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 39,
+      "conclusion": "不分配",
+      "country": "IT",
+      "category": "FIN",
+      "reason": "源明确意大利Generali保险集团，不是BBVA México；不按MX-FIN新建。先核意大利母集团主ID及具体墨西哥合资保险公司的区别。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-FIN-001",
+        "现画像": "墨西哥BBVA银行",
+        "影子名称": "Generali (忠利保险",
+        "计划类别": "FIN",
+        "建议新ID": "MX-FIN-013",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-FIN-002.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "北方银行",
+          "entry": {
+            "org_id": "MX-FIN-001",
+            "org_name": "Generali (忠利保险)",
+            "org_type": "FIN",
+            "org_description": "意大利跨国保险公司，与Banorte合资运营退休基金、保险和养老金业务",
+            "relationship_type": "partner"
+          },
+          "ref_name": "Generali (忠利保险)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 40,
+      "conclusion": "不分配",
+      "country": "US",
+      "category": "FIN（历史银行）",
+      "reason": "源明确美国得州Inter National Bank，不能指Banorte或任何含International/National的其他银行；不按MX-FIN发号。应核历史银行、后续出售及合并沿革，不能把历史持股表述当成现时子公司。",
+      "external_sources": [],
+      "original": {
+        "国家": "MX",
+        "冲突ID": "MX-FIN-002",
+        "现画像": "北方银行",
+        "影子名称": "Inter National Bank",
+        "计划类别": "FIN",
+        "建议新ID": "MX-FIN-016",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/mx/2026-05-11/orgs/MX-FIN-002.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "北方银行",
+          "entry": {
+            "org_id": "MX-FIN-002",
+            "org_name": "国际银行 (Inter National Bank)",
+            "org_type": "FIN",
+            "org_description": "总部位于美国德克萨斯州的银行，2006年被Banorte收购70%股权，2009年完成全资收购",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "国际银行 (Inter National Bank)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 41,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV",
+      "reason": "明确Broadcasting Standards Authority公共广播内容监管机构，不是卫生部或媒体运营商，保持GOV；与资助机构NZ On Air也不同。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-009",
+        "现画像": "新西兰卫生部",
+        "影子名称": "广播标准局 (Broadcasting Standards Authority",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-136",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-015.json",
+          "pointer": "related_entities[16].org_id",
+          "kind": "org",
+          "owner": "文化和遺產部",
+          "entry": {
+            "org_id": "NZ-GOV-009",
+            "org_name": "广播标准局 (Broadcasting Standards Authority)",
+            "org_type": "GOV",
+            "org_description": "广播内容监管机构，由MCH资助和监督",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "广播标准局 (Broadcasting Standards Authority)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 42,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "GOV（LINZ内部单位；待定）",
+      "reason": "源明确LINZ下属地理空间办公室；需确定办公室现/历史名称和部门建档口径，不能与LINZ本体自动合并，也不能把部门当独立法人。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-010",
+        "现画像": "初级产业部",
+        "影子名称": "新西兰地理空间办公室 (New Zealand Geospatial Office",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-137",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-020.json",
+          "pointer": "related_entities[5].org_id",
+          "kind": "org",
+          "owner": "新西兰土地信息局",
+          "entry": {
+            "org_id": "NZ-GOV-010",
+            "org_name": "新西兰地理空间办公室 (New Zealand Geospatial Office)",
+            "org_type": "GOV",
+            "org_description": "LINZ下属机构，负责制定和协调新西兰地理空间数据标准和基础设施，推动政府间地理空间信息共享",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "新西兰地理空间办公室 (New Zealand Geospatial Office)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 43,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV（监管办公室，标parent=LINZ）",
+      "reason": "明确海外投资审查办公室，不是社会发展部或投资公司；可作为有明确行政职能的办公室节点，建档时必须记录隶属LINZ，不宣称其为独立法人。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-011",
+        "现画像": "社会发展部",
+        "影子名称": "海外投资办公室 (Overseas Investment Office",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-138",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-020.json",
+          "pointer": "related_entities[6].org_id",
+          "kind": "org",
+          "owner": "新西兰土地信息局",
+          "entry": {
+            "org_id": "NZ-GOV-011",
+            "org_name": "海外投资办公室 (Overseas Investment Office)",
+            "org_type": "GOV",
+            "org_description": "LINZ下属机构，负责执行《海外投资法2005》，审查和审批外国投资者对新西兰敏感土地、重要业务和渔业配额的投资申请",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "海外投资办公室 (Overseas Investment Office)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 44,
+      "conclusion": "不分配",
+      "country": "NZ",
+      "category": "不适用：法定职务",
+      "reason": "Surveyor-General是LINZ法定官员职位，源自己也明确为官员岗位。不能把职务新建为组织；应用岗位/部门或具体任职人物表示。",
+      "external_sources": [
+        "https://www.linz.govt.nz/our-work/statutory-and-support-roles"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-015",
+        "现画像": "文化和遺產部",
+        "影子名称": "新西兰测量总局长 (Surveyor-General",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-139",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-020.json",
+          "pointer": "related_entities[10].org_id",
+          "kind": "org",
+          "owner": "新西兰土地信息局",
+          "entry": {
+            "org_id": "NZ-GOV-015",
+            "org_name": "新西兰测量总局长 (Surveyor-General)",
+            "org_type": "GOV",
+            "org_description": "LINZ内设法定官员职位，负责制定新西兰测量标准和地理空间参考系统",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "新西兰测量总局长 (Surveyor-General)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 45,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV（已撤销历史机构）",
+      "reason": "可建历史Productivity Commission身份，不是教育审查办公室；财政部资料确认至2024-02-29运作，源“2024年1月撤销”错误。监管部官网明确其未取代委员会，原predecessor关系也需纠正，不能随ID通过而背书。",
+      "external_sources": [
+        "https://www.treasury.govt.nz/publications/annual-report/new-zealand-productivity-commission-annual-report-1-july-2023-29-february-2024",
+        "https://www.regulation.govt.nz/news/building-up-from-establishment-phase/"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-022",
+        "现画像": "教育审查办公室",
+        "影子名称": "新西兰生产力委员会 (New Zealand Productivity Commission",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-141",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-031.json",
+          "pointer": "related_entities[5].org_id",
+          "kind": "org",
+          "owner": "监管部",
+          "entry": {
+            "org_id": "NZ-GOV-022",
+            "org_name": "新西兰生产力委员会 (New Zealand Productivity Commission)",
+            "org_type": "GOV",
+            "org_description": "2024年1月被撤销的政府机构，其资金被转用于成立监管部",
+            "relationship_type": "predecessor"
+          },
+          "ref_name": "新西兰生产力委员会 (New Zealand Productivity Commission)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 46,
+      "conclusion": "不分配",
+      "country": "GB",
+      "category": "GOV",
+      "reason": "枢密院司法委员会是位于伦敦的司法机构；历史承接新西兰上诉不使其成为新西兰机构。否定NZ-GOV-143，核英国主身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-025",
+        "现画像": "奥兰加·塔马里基—儿童部",
+        "影子名称": "枢密院司法委员会 (Judicial Committee of the Privy Council",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-143",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-035.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "新西兰最高法院",
+          "entry": {
+            "org_id": "NZ-GOV-025",
+            "org_name": "枢密院司法委员会 (Judicial Committee of the Privy Council)",
+            "org_type": "GOV",
+            "org_description": "2004年前新西兰最高上诉机构（位于伦敦），最高法院的设立取代了向其上诉的权利",
+            "relationship_type": "predecessor"
+          },
+          "ref_name": "枢密院司法委员会 (Judicial Committee of the Privy Council)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 47,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV（历史机构）",
+      "reason": "源明确New Zealand Fire Service，2017年前消防机构；与癌症控制署或现FENZ不同。可保留独立历史身份，并用继承关系连接新机构。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-034",
+        "现画像": "新西兰癌症控制署",
+        "影子名称": "新西兰消防服务局 (New Zealand Fire Service",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-149",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-045.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "新西兰消防与应急局",
+          "entry": {
+            "org_id": "NZ-GOV-034",
+            "org_name": "新西兰消防服务局 (New Zealand Fire Service)",
+            "org_type": "GOV",
+            "org_description": "新西兰1976年至2017年的主要消防机构，2017年7月1日并入Fire and Emergency New Zealand",
+            "relationship_type": "predecessor"
+          },
+          "ref_name": "新西兰消防服务局 (New Zealand Fire Service)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 48,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV（历史机构）",
+      "reason": "源明确National Rural Fire Authority及2017年整合，不能指新西兰最高法院，也不与FENZ主体直接等同；可建历史GOV身份。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-035",
+        "现画像": "新西兰最高法院",
+        "影子名称": "国家农村消防管理局 (National Rural Fire Authority",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-150",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-045.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "新西兰消防与应急局",
+          "entry": {
+            "org_id": "NZ-GOV-035",
+            "org_name": "国家农村消防管理局 (National Rural Fire Authority)",
+            "org_type": "GOV",
+            "org_description": "原负责新西兰农村消防协调的机构，2017年7月1日与38个农村消防区和地方政府消防部门一并并入FENZ",
+            "relationship_type": "predecessor"
+          },
+          "ref_name": "国家农村消防管理局 (National Rural Fire Authority)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 49,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV",
+      "reason": "明确Sport Integrity Commission / Te Kahu Raunui独立公共机构，不是选举委员会，GOV类别与主体均可确认。",
+      "external_sources": [
+        "https://sportintegrity.nz/news/sport-integrity-commission-te-kahu-raunui-opens-its-doors"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-037",
+        "现画像": "新西兰选举委员会",
+        "影子名称": "体育诚信委员会 (Sport Integrity Commission / Te Kahu Raunui",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-151",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-050.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "新西兰体育局 (Sport New Zealand)",
+          "entry": {
+            "org_id": "NZ-GOV-037",
+            "org_name": "体育诚信委员会 (Sport Integrity Commission / Te Kahu Raunui)",
+            "org_type": "GOV",
+            "org_description": "独立的新西兰皇家实体，专注于维护体育和休闲的诚信，首席执行官为丽贝卡·罗尔斯（Rebecca Rolls）",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "体育诚信委员会 (Sport Integrity Commission / Te Kahu Raunui)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 50,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "GOV（法定咨询组；待定）",
+      "reason": "源限定为Taumata Arowai下Te Puna毛利咨询小组，不是所有同名Te Puna机构；应先定咨询组是否独立组织建档及与董事会的层级关系。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-039",
+        "现画像": "新西兰住房与社区局",
+        "影子名称": "毛利咨询小组 (Te Puna / Maori Advisory Group",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-153",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-051.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "新西兰水务管理局 (Water Services Authority - Taumata Arowai)",
+          "entry": {
+            "org_id": "NZ-GOV-039",
+            "org_name": "毛利咨询小组 (Te Puna / Maori Advisory Group)",
+            "org_type": "GOV",
+            "org_description": "根据《Taumata Arowai-水务监管机构法2020》设立的毛利咨询小组，为水务管理局提供毛利视角的建议，与董事会合作治理",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "毛利咨询小组 (Te Puna / Maori Advisory Group)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 51,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "GOV（政府品牌平台；待定）",
+      "reason": "New Zealand Story Group是政府国际品牌平台/跨机构项目，尚未确认独立行政机关或法人。需核管理主体后定组织/项目节点，不按“Group”或政府背景直接发GOV号。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-040",
+        "现画像": "新西兰交通局",
+        "影子名称": "新西兰故事集团 (New Zealand Story Group",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-154",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-054.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "新西兰旅游局",
+          "entry": {
+            "org_id": "NZ-GOV-040",
+            "org_name": "新西兰故事集团 (New Zealand Story Group)",
+            "org_type": "GOV",
+            "org_description": "为新西兰企业提供统一国际品牌叙事的政府平台，董事会主席Paul Brock同时担任新西兰旅游局主席",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "新西兰故事集团 (New Zealand Story Group)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 52,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "待定：公共机构子公司CORP/SOE口径",
+      "reason": "源明确Qualmark New Zealand Limited为Tourism NZ旗下公司；不能因母机构为公共部门直接继承GOV。需核公司性质，并与上一批HPSNZ的Crown实体公司规则统一。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-041",
+        "现画像": "新西兰贸易发展局",
+        "影子名称": "Qualmark新西兰有限公司 (Qualmark New Zealand Limited",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-155",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-054.json",
+          "pointer": "related_entities[5].org_id",
+          "kind": "org",
+          "owner": "新西兰旅游局",
+          "entry": {
+            "org_id": "NZ-GOV-041",
+            "org_name": "Qualmark新西兰有限公司 (Qualmark New Zealand Limited)",
+            "org_type": "GOV",
+            "org_description": "新西兰旅游局旗下的旅游品质认证机构，提供可持续旅游评级体系",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "Qualmark新西兰有限公司 (Qualmark New Zealand Limited)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 53,
+      "conclusion": "改类别后分配",
+      "country": "NZ",
+      "category": "ACAD",
+      "reason": "NZIST是职业高等教育机构/网络，不是政府部委。官方确认其为Te Pūkenga后名称、仍在过渡重组；按教育机构ACAD分配并标明历史及重组状态，不复用GOV提案号。",
+      "external_sources": [
+        "https://www.tec.govt.nz/strategic-initiatives/vocational-education-system/delivering-vocational-education/new-zealand-institute-of-skills-and-technology",
+        "https://www.nzist.ac.nz/about/faqs"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-042",
+        "现画像": "新西兰环境保护局",
+        "影子名称": "新西兰技能与技术学院 (New Zealand Institute of Skills and Technology / NZIST",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-156",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-055.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "新西兰学历认证局",
+          "entry": {
+            "org_id": "NZ-GOV-042",
+            "org_name": "新西兰技能与技术学院 (New Zealand Institute of Skills and Technology / NZIST)",
+            "org_type": "GOV",
+            "org_description": "新西兰职业教育领域的国立理工学院，受NZQA质量保证监管",
+            "relationship_type": "regulated_by"
+          },
+          "ref_name": "新西兰技能与技术学院 (New Zealand Institute of Skills and Technology / NZIST)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 54,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV（历史资格机构）",
+      "reason": "明确Universities Entrance Board是NZQA前身资格机构，不是海事局；可按历史公共考试资格管理机构GOV建档，不能仅因universities改为学校。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-043",
+        "现画像": "新西兰海事局",
+        "影子名称": "大学入学委员会 (Universities Entrance Board",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-157",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-055.json",
+          "pointer": "related_entities[5].org_id",
+          "kind": "org",
+          "owner": "新西兰学历认证局",
+          "entry": {
+            "org_id": "NZ-GOV-043",
+            "org_name": "大学入学委员会 (Universities Entrance Board)",
+            "org_type": "GOV",
+            "org_description": "NZQA前身之一，1990年其职能并入NZQA",
+            "relationship_type": "predecessor"
+          },
+          "ref_name": "大学入学委员会 (Universities Entrance Board)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 55,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV",
+      "reason": "明确独立法律改革咨询委员会，不是WorkSafe，可独立GOV；法律研究职能不等于大学或律师协会。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-044",
+        "现画像": "新西兰职业安全局",
+        "影子名称": "新西兰法律委员会 (New Zealand Law Commission",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-158",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-059.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "新西兰司法部",
+          "entry": {
+            "org_id": "NZ-GOV-044",
+            "org_name": "新西兰法律委员会 (New Zealand Law Commission)",
+            "org_type": "GOV",
+            "org_description": "独立的法律改革咨询机构，就法律和司法问题向政府提供建议",
+            "relationship_type": "partner"
+          },
+          "ref_name": "新西兰法律委员会 (New Zealand Law Commission)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 56,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "GOV（历史沿革待定）",
+      "reason": "源用Te Arawhiti旧名并描述毛利—王室关系职能；官方审计资料确认2025年更名、部分职能转移。须区分旧机构/继任机构及剩余职权，不能当当前机构直接分配后维持旧关系。",
+      "external_sources": [
+        "https://ao.parliament.nz/2026/engagement-with-maori/part4.htm"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-045",
+        "现画像": "新西兰消防与应急局",
+        "影子名称": "Te Arawhiti—毛利与王室关系办公室 (Office for Māori Crown Relations",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-159",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-059.json",
+          "pointer": "related_entities[7].org_id",
+          "kind": "org",
+          "owner": "新西兰司法部",
+          "entry": {
+            "org_id": "NZ-GOV-045",
+            "org_name": "Te Arawhiti—毛利与王室关系办公室 (Office for Māori Crown Relations)",
+            "org_type": "GOV",
+            "org_description": "负责毛利与王室关系协调的政府机构，隶属于司法部年报",
+            "relationship_type": "regulator"
+          },
+          "ref_name": "Te Arawhiti—毛利与王室关系办公室 (Office for Māori Crown Relations)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 57,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "GOV（咨询委员会；待核）",
+      "reason": "NACEW为妇女就业咨询委员会，不能因名称含妇女与上一批NCWNZ慈善组织合并；需核本委员会存续时段、主管部门及组织级建档口径。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-046",
+        "现画像": "卡拉汉创新 (Callaghan Innovation)",
+        "影子名称": "国家妇女就业咨询委员会 (NACEW",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-160",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-071.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "妇女事务部",
+          "entry": {
+            "org_id": "NZ-GOV-046",
+            "org_name": "国家妇女就业咨询委员会 (NACEW)",
+            "org_type": "GOV",
+            "org_description": "妇女事务部提供支持的咨询机构，专注于妇女就业议题",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "国家妇女就业咨询委员会 (NACEW)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 58,
+      "conclusion": "分配",
+      "country": "NZ",
+      "category": "GOV（行政业务机构，标parent=MBIE）",
+      "reason": "明确Immigration New Zealand，不是自然灾害委员会；可建移民行政业务机构节点，必须标隶属MBIE，不宣称为独立政府部。",
+      "external_sources": [],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-047",
+        "现画像": "自然灾害委员会托卡图阿克 (Natural Hazards Commission Toka Tū Ake)",
+        "影子名称": "移民局 (Immigration New Zealand",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-161",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-023.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "新西兰海关服务局",
+          "entry": {
+            "org_id": "NZ-GOV-047",
+            "org_name": "移民局 (Immigration New Zealand)",
+            "org_type": "GOV",
+            "org_description": "边境管理合作伙伴，负责入境签证和移民管控",
+            "relationship_type": "partner"
+          },
+          "ref_name": "移民局 (Immigration New Zealand)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 59,
+      "conclusion": "挂起",
+      "country": "NZ",
+      "category": "GOV（CAA安保业务单元；待定）",
+      "reason": "政府目录明确AvSec是CAA的一部分。先定独立服务单元还是CAA部门节点，不能把它当另一家航空监管法人，也不能直接用CAA取代具体安保服务引用。",
+      "external_sources": [
+        "https://www.govt.nz/organisations/aviation-security-service/"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-048",
+        "现画像": "新西兰南极局",
+        "影子名称": "航空安保服务 (Aviation Security Service / AvSec",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-162",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-023.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "新西兰海关服务局",
+          "entry": {
+            "org_id": "NZ-GOV-048",
+            "org_name": "航空安保服务 (Aviation Security Service / AvSec)",
+            "org_type": "GOV",
+            "org_description": "新西兰机场安保服务，与海关协同保障航空边境安全",
+            "relationship_type": "partner"
+          },
+          "ref_name": "航空安保服务 (Aviation Security Service / AvSec)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 60,
+      "conclusion": "不分配",
+      "country": "NZ",
+      "category": "不适用：多个组织集合",
+      "reason": "CDEM Groups指16个地区应急管理小组，不是单一机构。应选具体地区或保留集合关系，不创建一个虚构全国“民防应急管理小组”画像。",
+      "external_sources": [
+        "https://www.civildefence.govt.nz/guidance-training/exercises/cdem-exercise-programme"
+      ],
+      "original": {
+        "国家": "NZ",
+        "冲突ID": "NZ-GOV-049",
+        "现画像": "能源效率与节约局",
+        "影子名称": "民防应急管理小组 (CDEM Groups",
+        "计划类别": "GOV",
+        "建议新ID": "NZ-GOV-163",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/nz/2026-06-04/orgs/NZ-GOV-072.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "国家应急管理署",
+          "entry": {
+            "org_id": "NZ-GOV-049",
+            "org_name": "民防应急管理小组 (CDEM Groups)",
+            "org_type": "GOV",
+            "org_description": "新西兰16个区域的民防应急管理小组，负责地方层面的应急规划和响应",
+            "relationship_type": "partner"
+          },
+          "ref_name": "民防应急管理小组 (CDEM Groups)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 61,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "ACAD",
+      "reason": "RIETI经济产业政策研究所是明确科研智库机构，不是东京工业大学；按科研职能ACAD建独立身份，主管省关系单独表示。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-ACAD-004",
+        "现画像": "東京工業大学",
+        "影子名称": "经济产业研究所 (経済産業研究所 / RIETI",
+        "计划类别": "ACAD",
+        "建议新ID": "JP-ACAD-029",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-GOV-010.json",
+          "pointer": "related_entities[7].org_id",
+          "kind": "org",
+          "owner": "經濟產業省",
+          "entry": {
+            "org_id": "JP-ACAD-004",
+            "org_name": "经济产业研究所 (経済産業研究所 / RIETI)",
+            "org_type": "ACAD",
+            "org_description": "经济产业省所管独立行政法人，从事经济政策和产业政策研究",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "经济产业研究所 (経済産業研究所 / RIETI)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 62,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "ACAD",
+      "reason": "国立环境研究所是环境科研机构，不是东北大学，可独立ACAD并标主管/资助关系。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-ACAD-005",
+        "现画像": "东北大学",
+        "影子名称": "国立环境研究所 (国立環境研究所",
+        "计划类别": "ACAD",
+        "建议新ID": "JP-ACAD-030",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-GOV-012.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "环境省",
+          "entry": {
+            "org_id": "JP-ACAD-005",
+            "org_name": "国立环境研究所 (国立環境研究所)",
+            "org_type": "ACAD",
+            "org_description": "环境省主管的国立研究开发法人，从事环境领域综合研究",
+            "relationship_type": "regulated_by"
+          },
+          "ref_name": "国立环境研究所 (国立環境研究所)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 63,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "ACAD",
+      "reason": "大阪公立大学为明确大学，不是北海道大学或大阪大学；不能因大阪校名相近而合并。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-ACAD-008",
+        "现画像": "北海道大学",
+        "影子名称": "大阪公立大学（大阪公立大学",
+        "计划类别": "ACAD",
+        "建议新ID": "JP-ACAD-033",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-ACAD-003.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "大阪大学",
+          "entry": {
+            "org_id": "JP-ACAD-008",
+            "org_name": "大阪公立大学（大阪公立大学）",
+            "org_type": "ACAD",
+            "org_description": "大阪府公立大学，2022年与大阪大学缔结包括连携协定",
+            "relationship_type": "partner"
+          },
+          "ref_name": "大阪公立大学（大阪公立大学）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 64,
+      "conclusion": "不分配",
+      "country": "CN",
+      "category": "ACAD",
+      "reason": "源为与东京工大合作的中国大陆Tsinghua University；不能建JP-ACAD-035，也不能误连台湾National Tsing Hua University。已有多个未建画像的Tsinghua注册项，需先全球归一，不能再多建一个日本副本。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-ACAD-010",
+        "现画像": "防卫省防卫研究所",
+        "影子名称": "清华大学 (清华大学 / Tsinghua University",
+        "计划类别": "ACAD",
+        "建议新ID": "JP-ACAD-035",
+        "引用数": "1",
+        "风险提示": "含他国名:cn",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-ACAD-004.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "東京工業大学",
+          "entry": {
+            "org_id": "JP-ACAD-010",
+            "org_name": "清华大学 (清华大学 / Tsinghua University)",
+            "org_type": "ACAD",
+            "org_description": "2004年起与东京工大建立双硕士学位项目，是日本首个此类项目，培养精通中日两国事务的国际化人才",
+            "relationship_type": "partner"
+          },
+          "ref_name": "清华大学 (清华大学 / Tsinghua University)",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 65,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "ACAD",
+      "reason": "明确岐阜大学，不是早稻田大学；同属东海国立大学机构并不意味着等同名古屋大学或该运营法人。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-ACAD-011",
+        "现画像": "早稻田大学",
+        "影子名称": "岐阜大学",
+        "计划类别": "ACAD",
+        "建议新ID": "JP-ACAD-036",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-ACAD-006.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "名古屋大学",
+          "entry": {
+            "org_id": "JP-ACAD-011",
+            "org_name": "岐阜大学",
+            "org_type": "ACAD",
+            "org_description": "与名古屋大学同属东海国立大学机构运营",
+            "relationship_type": "sibling"
+          },
+          "ref_name": "岐阜大学",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 66,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "ACAD",
+      "reason": "明确九州工业大学，不是庆应义塾或九州大学；可独立ACAD。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-ACAD-012",
+        "现画像": "庆应义塾大学",
+        "影子名称": "九州工业大学",
+        "计划类别": "ACAD",
+        "建议新ID": "JP-ACAD-037",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-ACAD-007.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "九州大学",
+          "entry": {
+            "org_id": "JP-ACAD-012",
+            "org_name": "九州工业大学",
+            "org_type": "ACAD",
+            "org_description": "位于福冈县北九州市的国立大学，与九州大学有产学合作及就业研讨会",
+            "relationship_type": "partner"
+          },
+          "ref_name": "九州工业大学",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 67,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "CORP",
+      "reason": "明确日野汽车，不是Sony。可保留运营公司独立身份；源有2026年Archion整合及丰田控股表述，最新所有权与控股母公司须另核，不把合并控股公司与日野本体混同。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-002",
+        "现画像": "索尼集团",
+        "影子名称": "日野汽车（日野自動車",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-186",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-001.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-002",
+            "org_name": "日野汽车（日野自動車）",
+            "org_type": "CORP",
+            "org_description": "日本商用车制造商，丰田控股子公司，主营卡车和大客车。2026年4月与三菱扶桑合并成立 Archion 控股",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "日野汽车（日野自動車）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 68,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "CORP",
+      "reason": "明确Toyota Tsusho综合商社，不是三菱商事，可独立CORP；controlling_shareholder关系及持股比例另核。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-003",
+        "现画像": "三菱商事",
+        "影子名称": "丰田通商（トヨタ通商",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-187",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-001.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-003",
+            "org_name": "丰田通商（トヨタ通商）",
+            "org_type": "CORP",
+            "org_description": "丰田集团旗下综合商社，负责丰田集团的全球贸易和供应链管理，业务涵盖金属、能源、化工等多个领域",
+            "relationship_type": "controlling_shareholder"
+          },
+          "ref_name": "丰田通商（トヨタ通商）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 69,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "CORP",
+      "reason": "明确Toyota Industries自动织机公司，不是Mitsui & Co.或Toyota Motor；集团交叉持股不等于同一企业。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-004",
+        "现画像": "三井物产",
+        "影子名称": "丰田自动织机（トヨタ自動織機",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-188",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-001.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-004",
+            "org_name": "丰田自动织机（トヨタ自動織機）",
+            "org_type": "CORP",
+            "org_description": "丰田集团创始企业，现主营叉车、纺织机械和汽车零部件，交叉持有丰田汽车约8.28%股份",
+            "relationship_type": "controlling_shareholder"
+          },
+          "ref_name": "丰田自动织机（トヨタ自動織機）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 70,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "CORP",
+      "reason": "明确JTEKT轴承/转向等工业企业，不是Hitachi，可独立CORP。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-006",
+        "现画像": "日立制作所",
+        "影子名称": "捷太格特（ジェイテクト",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-190",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-001.json",
+          "pointer": "related_entities[6].org_id",
+          "kind": "org",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-006",
+            "org_name": "捷太格特（ジェイテクト）",
+            "org_type": "CORP",
+            "org_description": "丰田集团关联企业，主营机床和汽车零部件（轴承、转向系统等）",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "捷太格特（ジェイテクト）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 71,
+      "conclusion": "挂起",
+      "country": "JP",
+      "category": "CORP/ACAD（企业科研机构口径待定）",
+      "reason": "官网证实丰田中央研发所是独立出资设立的株式会社，以基础研究为主要职能。主体明确，但需统一企业科研公司CORP与研究所ACAD的分类规则，不能仅见“研究所”强改类，也不能与丰田内部研发部门等同。",
+      "external_sources": [
+        "https://www.tytlabs.co.jp/en/company/profile.html",
+        "https://global.toyota/en/company/profile/facilities/r-d/"
+      ],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-012",
+        "现画像": "乐天集团",
+        "影子名称": "丰田中央研发所（トヨタ中央研究所",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-196",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-001.json",
+          "pointer": "related_entities[13].org_id",
+          "kind": "org",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-012",
+            "org_name": "丰田中央研发所（トヨタ中央研究所）",
+            "org_type": "CORP",
+            "org_description": "丰田集团基础研究机构，1960年设立，负责为丰田集团各公司提供前沿技术研究和测试",
+            "relationship_type": "affiliated"
+          },
+          "ref_name": "丰田中央研发所（トヨタ中央研究所）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 72,
+      "conclusion": "不分配",
+      "country": "US（全球总部；日本法人另有）",
+      "category": "CORP",
+      "reason": "源明确总部San Mateo的SIE全球业务，不能按JP-CORP-197默认日本主体；官方区分美国LLC与日本Inc.，先按具体实体核定。",
+      "external_sources": [
+        "https://www.playstation.com/en-us/corporate/about-us/",
+        "https://sonyinteractive.com/en/press-releases/sony-computer-entertainment-and-sony-network--entertainment-announce-the-formation-of--sony-interactive-entertainment-llc/"
+      ],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-013",
+        "现画像": "东芝",
+        "影子名称": "索尼互动娱乐（ソニー・インタラクティブエンタテインメント / Sony Interactive Entertainment",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-197",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[0].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-013",
+            "org_name": "索尼互动娱乐（ソニー・インタラクティブエンタテインメント / Sony Interactive Entertainment）",
+            "org_type": "CORP",
+            "org_description": "索尼集团旗下游戏业务核心子公司，负责PlayStation品牌游戏硬件、软件和在线服务的全球运营，总部位于美国加利福尼亚州圣马特奥。",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "索尼互动娱乐（ソニー・インタラクティブエンタテインメント / Sony Interactive Entertainment）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 73,
+      "conclusion": "不分配",
+      "country": "US",
+      "category": "CORP/MEDIA（影视集团口径）",
+      "reason": "Sony Pictures Entertainment为美国影视业务主体，不是日本制铁，也不是Sony母公司；不按JP-CORP发日本副本，应按美国主实体核定。",
+      "external_sources": [
+        "https://www.sony.com/en/SonyInfo/IR/library/FY2020_20F_PDF.pdf"
+      ],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-014",
+        "现画像": "日本制铁",
+        "影子名称": "索尼影视娱乐（ソニー・ピクチャーズエンタテインメント / Sony Pictures Entertainment",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-198",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[1].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-014",
+            "org_name": "索尼影视娱乐（ソニー・ピクチャーズエンタテインメント / Sony Pictures Entertainment）",
+            "org_type": "CORP",
+            "org_description": "索尼集团旗下影视制作发行公司，拥有哥伦比亚影业、三星影业等品牌，是全球主要电影和电视节目制作商之一。",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "索尼影视娱乐（ソニー・ピクチャーズエンタテインメント / Sony Pictures Entertainment）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 74,
+      "conclusion": "不分配",
+      "country": "US（全球音乐集团）",
+      "category": "CORP/MEDIA（音乐集团口径）",
+      "reason": "源为全球Sony Music Group（录音及词曲出版），不能按JP-CORP创建日本Sony Music Entertainment副本；先区分全球集团与日本本土音乐公司及具体法律实体。",
+      "external_sources": [
+        "https://www.sonymusic.com/facts-and-figures/"
+      ],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-015",
+        "现画像": "引能仕",
+        "影子名称": "索尼音乐集团（ソニー・ミュージックグループ / Sony Music Group",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-199",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[2].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-015",
+            "org_name": "索尼音乐集团（ソニー・ミュージックグループ / Sony Music Group）",
+            "org_type": "CORP",
+            "org_description": "全球最大的音乐集团之一，涵盖索尼音乐娱乐（录制音乐）和索尼音乐出版（词曲版权管理），拥有超过400万首曲目的出版权。",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "索尼音乐集团（ソニー・ミュージックグループ / Sony Music Group）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 75,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "CORP",
+      "reason": "明确Sony Semiconductor Solutions独立半导体业务主体，不是Seven & i，可独立CORP；芯片市场份额为旧数据，另核。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-016",
+        "现画像": "7&I控股",
+        "影子名称": "索尼半导体解决方案（ソニーセミコンダクタソリューション",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-200",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[3].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-016",
+            "org_name": "索尼半导体解决方案（ソニーセミコンダクタソリューション）",
+            "org_type": "CORP",
+            "org_description": "全球最大的CMOS图像传感器制造商，2020年全球市场份额约55%，产品广泛应用于智能手机、相机、汽车自动驾驶系统及工业设备。",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "索尼半导体解决方案（ソニーセミコンダクタソリューション）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 76,
+      "conclusion": "改类别后分配",
+      "country": "JP",
+      "category": "FIN",
+      "reason": "Sony Financial Group以寿险、财险、银行等金融业务为核心，按FIN金融控股集团建档，不照JP-CORP-201发号；分拆上市日期和Sony持股另核。",
+      "external_sources": [
+        "https://www.sonyfg.co.jp/en/company/about_us.html",
+        "https://www.sonyfg.co.jp/en/faq.html"
+      ],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-017",
+        "现画像": "永旺",
+        "影子名称": "索尼金融集团（ソニーフィナンシャルグループ / Sony Financial Group",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-201",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[4].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-017",
+            "org_name": "索尼金融集团（ソニーフィナンシャルグループ / Sony Financial Group）",
+            "org_type": "CORP",
+            "org_description": "原为索尼旗下金融业务控股公司，2025年10月在东京证券交易所独立上市。业务涵盖生命保险、损害保险和网络银行。索尼集团保留约20%股权。",
+            "relationship_type": "minority_shareholder"
+          },
+          "ref_name": "索尼金融集团（ソニーフィナンシャルグループ / Sony Financial Group）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 77,
+      "conclusion": "分配",
+      "country": "JP",
+      "category": "CORP",
+      "reason": "明确KADOKAWA综合内容集团，不是TEPCO；按综合企业CORP可建独立主体。Sony“最大股东”不当然等于控制股东，源controlling_shareholder关系须另核。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-019",
+        "现画像": "东京电力控股",
+        "影子名称": "角川公司（KADOKAWA / 株式会社KADOKAWA",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-203",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[6].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-019",
+            "org_name": "角川公司（KADOKAWA / 株式会社KADOKAWA）",
+            "org_type": "CORP",
+            "org_description": "日本大型综合内容企业，业务涵盖出版、动漫、游戏和影视制作。2025年1月索尼以约500亿日元收购其新股，成为最大股东。旗下拥有FromSoftware等重要游戏工作室。",
+            "relationship_type": "controlling_shareholder"
+          },
+          "ref_name": "角川公司（KADOKAWA / 株式会社KADOKAWA）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 78,
+      "conclusion": "不分配",
+      "country": "注册地CYM；总部/上市地HKG",
+      "category": "CORP",
+      "reason": "不按JP-CORP发号：TCL Electronics是开曼注册、香港上市并设总部联系地址的公司，不是日本电装，也不宜按母集团名直接归惠州法人。需分开法律注册地、总部、运营地。",
+      "external_sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0429/2026042900031.pdf",
+        "https://electronics.tcl.com/"
+      ],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-020",
+        "现画像": "电装",
+        "影子名称": "TCL电子（TCL Electronics Holdings Limited",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-204",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[7].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-020",
+            "org_name": "TCL电子（TCL Electronics Holdings Limited）",
+            "org_type": "CORP",
+            "org_description": "中国大型消费电子企业，总部位于广东惠州。2026年1月与索尼签署备忘录，成立合资公司接管索尼电视及家庭音响业务，TCL持股51%。",
+            "relationship_type": "strategic_alliance"
+          },
+          "ref_name": "TCL电子（TCL Electronics Holdings Limited）",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 79,
+      "conclusion": "不分配",
+      "country": "US（法律主体待核）",
+      "category": "CORP/MEDIA（流媒体平台）",
+      "reason": "Crunchyroll不是Japan Post。Sony持股不使美国流媒体业务成为日本本土法人；应先区分公司与平台品牌并在美国主实体口径核定，不照JP-CORP-205发号。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-CORP-021",
+        "现画像": "日本邮政",
+        "影子名称": "Crunchyroll",
+        "计划类别": "CORP",
+        "建议新ID": "JP-CORP-205",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-CORP-002.json",
+          "pointer": "related_entities[8].org_id",
+          "kind": "org",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-021",
+            "org_name": "Crunchyroll",
+            "org_type": "CORP",
+            "org_description": "全球最大的动漫流媒体平台之一，由索尼音乐娱乐（日本）的Aniplex与索尼影视娱乐共同持有。2021年以约11.75亿美元从AT&T收购。",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "Crunchyroll",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 80,
+      "conclusion": "不分配",
+      "country": "ID",
+      "category": "FIN",
+      "reason": "源明确印尼Bank Danamon，为MUFG子公司，不是日本MUFG母体。否定JP-FIN-046，核印尼主银行ID；历史/拟议分行合并不等于已经与母集团成为同一银行。",
+      "external_sources": [],
+      "original": {
+        "国家": "JP",
+        "冲突ID": "JP-FIN-002",
+        "现画像": "三菱日联金融集团",
+        "影子名称": "Bank Danamon",
+        "计划类别": "FIN",
+        "建议新ID": "JP-FIN-046",
+        "引用数": "1",
+        "风险提示": "",
+        "复核结论": "",
+        "备注": ""
+      },
+      "references": [
+        {
+          "file": "output/jp/2026-06-09/orgs/JP-FIN-002.json",
+          "pointer": "related_entities[5].org_id",
+          "kind": "org",
+          "owner": "三菱日联金融集团",
+          "entry": {
+            "org_id": "JP-FIN-002",
+            "org_name": "Bank Danamon",
+            "org_type": "FIN",
+            "org_description": "印尼大型商业银行，MUFG持有92.47%股份，2026年5月与MUFG雅加达分行达成合并协议",
+            "relationship_type": "subsidiary"
+          },
+          "ref_name": "Bank Danamon",
+          "matches_shadow_heuristic": true
+        }
+      ]
+    }
+  ]
+}

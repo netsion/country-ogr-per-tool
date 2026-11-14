@@ -1,26 +1,17 @@
 {
   "org_id": "TW-PARTY-015",
   "wikidata_qid": "Q2284361",
-  "name": "新黨",
   "basic_info": {
-    "org_id": "TW-PARTY-015",
-    "wikidata_qid": "Q2284361",
     "name_original": "新黨",
     "name_en": "New Party",
-    "name_local": "新黨",
     "name_zh": "新党",
     "org_type": "PARTY",
-    "country": "TW",
     "country_iso3": "TWN",
     "hq_country_iso3": "TWN",
-    "founded_year": 1993,
     "website": "http://www.np.org.tw/",
-    "official_website": "http://www.np.org.tw/",
-    "is_tw_verified": true,
-    "aliases": []
+    "aliases": [],
+    "org_subtype": ""
   },
-  "description": "新黨是中華民國的一個政黨，成立於1993年8月10日，前身是中國國民黨的内部團體新國民黨連線。趙少康為首任領袖。新黨在成立之初，核心理念是反台獨反共，秉持孫中山思想。\n",
-  "brief": "新黨是中華民國的一個政黨，成立於1993年8月10日，前身是中國國民黨的内部團體新國民黨連線。趙少康為首任領袖。新黨在成立之初，核心理念是反台獨反共，秉持孫中山思想。\n",
   "core_business": "新黨是中華民國的一個政黨，成立於1993年8月10日，前身是中國國民黨的内部團體新國民黨連線。趙少康為首任領袖。新黨在成立之初，核心理念是反台獨反共，秉持孫中山思想。\n",
   "industries": [
     "public_administration"
@@ -78,14 +69,22 @@
   "related_entities": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q2284361",
-      "https://zh.wikipedia.org/wiki/新黨",
-      "https://zh.wikipedia.org/wiki/新黨"
+      "wikidata",
+      "wikipedia"
     ],
     "completeness_score": 80,
-    "notes": "Major TW political party (New Party)",
-    "quotes": []
+    "notes": "Major TW political party (New Party)；仅Schema规范化，旧phase=P3；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q2284361"
+      },
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://zh.wikipedia.org/wiki/新黨"
+      }
+    ]
   }
 }

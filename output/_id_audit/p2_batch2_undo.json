@@ -1,0 +1,283 @@
+{
+ "summary": {
+  "apply": true,
+  "candidates": 34,
+  "approved_rows": 24,
+  "deferred_rows": 3,
+  "rejected_rows": 7,
+  "refs_changed": 24,
+  "by_direction": {
+   "work_org": 11,
+   "related_org": 12,
+   "person_rel": 1
+  },
+  "position_missing": 0,
+  "position_changed": 0
+ },
+ "changes": [
+  {
+   "file": "output/ae/2026-10-02/orgs/AE-ACAD-003.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": "AE-ACAD-016",
+   "new": "KR-ACAD-026",
+   "ref_name": "韩国科学技术院 (KAIST)",
+   "target_name": "韩国科学技术院",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/bf/2026-09-17/persons/BF-PERSON-000015.json",
+   "array": "work_experience",
+   "index": 7,
+   "field": "org_id",
+   "old": "BF-INTL-002",
+   "new": "US-INTL-024",
+   "ref_name": "联合国开发计划署 (Programme des Nations unies pour le développement, PNUD)",
+   "target_name": "联合国开发计划署",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/bf/2026-09-17/persons/BF-PERSON-000041.json",
+   "array": "work_experience",
+   "index": 12,
+   "field": "org_id",
+   "old": "BF-INTL-002",
+   "new": "US-INTL-024",
+   "ref_name": "联合国开发计划署 (Programme des Nations unies pour le développement, PNUD)",
+   "target_name": "联合国开发计划署",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/bh/2026-10-28/orgs/BH-SOE-004.json",
+   "array": "related_entities",
+   "index": 1,
+   "field": "org_id",
+   "old": "BH-GOV-021",
+   "new": "SA-SOE-005",
+   "ref_name": "沙特矿业公司 (Saudi Arabian Mining Company (Ma'aden))",
+   "target_name": "沙特矿业公司（Ma'aden）",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/ca/2026-05-11/orgs/CA-ACAD-008.json",
+   "array": "related_entities",
+   "index": 5,
+   "field": "org_id",
+   "old": "CA-ACAD-016",
+   "new": "AU-GOV-090",
+   "ref_name": "Curtin University",
+   "target_name": "科廷大学",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/ci/2026-10-06/orgs/CI-GOV-012.json",
+   "array": "related_entities",
+   "index": 5,
+   "field": "org_id",
+   "old": "CI-SOE-007",
+   "new": "US-INTL-024",
+   "ref_name": "联合国开发计划署 (Programme des Nations unies pour le développement, PNUD)",
+   "target_name": "联合国开发计划署",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/cl/2026-10-02/orgs/CL-GOV-035.json",
+   "array": "related_entities",
+   "index": 6,
+   "field": "org_id",
+   "old": "CL-INTL-010",
+   "new": "AU-GOV-543",
+   "ref_name": "经济合作与发展组织 (OCDE/OECD)",
+   "target_name": "经济合作与发展组织",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/cl/2026-10-02/orgs/CL-INTL-001.json",
+   "array": "related_entities",
+   "index": 3,
+   "field": "org_id",
+   "old": "CL-INTL-010",
+   "new": "AU-GOV-543",
+   "ref_name": "经济合作与发展组织 (OCDE/OECD)",
+   "target_name": "经济合作与发展组织",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/jp/2026-06-09/orgs/JP-ACAD-011.json",
+   "array": "related_entities",
+   "index": 3,
+   "field": "org_id",
+   "old": "JP-ACAD-023",
+   "new": "KR-ACAD-024",
+   "ref_name": "高丽大学(高麗大学校)",
+   "target_name": "高丽大学",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/jp/2026-06-09/persons/JP-PERSON-000179.json",
+   "array": "work_experience",
+   "index": 13,
+   "field": "org_id",
+   "old": "JP-GOV-655",
+   "new": "AU-GOV-543",
+   "ref_name": "经济合作与发展组织（経済協力開発機構）",
+   "target_name": "经济合作与发展组织",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/kr/2026-05-04/orgs/KR-GOV-034.json",
+   "array": "related_entities",
+   "index": 3,
+   "field": "org_id",
+   "old": "KR-INTL-006",
+   "new": "US-INTL-005",
+   "ref_name": "世界卫生组织（WHO）",
+   "target_name": "世界卫生组织",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/mx/2026-05-11/persons/MX-PERSON-000013.json",
+   "array": "person_relationships",
+   "index": 4,
+   "field": "person_id",
+   "old": "MX-PERSON-000104",
+   "new": "MX-PERSON-000154",
+   "ref_name": "罗莎·伊塞拉·罗德里格斯 (Rosa Icela Rodríguez)",
+   "target_name": "Rosa Icela Rodríguez Velázquez",
+   "direction": "person_rel"
+  },
+  {
+   "file": "output/mx/2026-05-11/persons/MX-PERSON-000120.json",
+   "array": "work_experience",
+   "index": 1,
+   "field": "org_id",
+   "old": "MX-GOV-247",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡公司 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/mx/2026-05-11/persons/MX-PERSON-000137.json",
+   "array": "work_experience",
+   "index": 0,
+   "field": "org_id",
+   "old": "MX-GOV-269",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡咨询公司 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/pg/2026-05-25/orgs/PG-ACAD-004.json",
+   "array": "related_entities",
+   "index": 1,
+   "field": "org_id",
+   "old": "PG-ACAD-001",
+   "new": "AU-GOV-090",
+   "ref_name": "科廷大学(Curtin University)",
+   "target_name": "科廷大学",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/ph/2026-09-20/orgs/PH-FIN-009.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": "PH-FIN-038",
+   "new": "JP-FIN-050",
+   "ref_name": "Sumitomo Mitsui Banking Corporation (SMBC, 三井住友银行)",
+   "target_name": "三井住友银行",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/ph/2026-09-20/persons/PH-PERSON-000640.json",
+   "array": "work_experience",
+   "index": 5,
+   "field": "org_id",
+   "old": "PH-CORP-004",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡公司 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/ph/2026-09-20/persons/PH-PERSON-000696.json",
+   "array": "work_experience",
+   "index": 5,
+   "field": "org_id",
+   "old": "PH-CORP-004",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡公司 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-ACAD-012.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": "US-university-003",
+   "new": "KR-ACAD-026",
+   "ref_name": "韩国科学技术院 (KAIST)",
+   "target_name": "韩国科学技术院",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/us/2026-09-05/orgs/US-GOV-026.json",
+   "array": "related_entities",
+   "index": 6,
+   "field": "org_id",
+   "old": "US-INTL-007",
+   "new": "AU-GOV-543",
+   "ref_name": "经济合作与发展组织 (Organisation for Economic Co-operation and Development, OECD)",
+   "target_name": "经济合作与发展组织",
+   "direction": "related_org"
+  },
+  {
+   "file": "output/vn/2026-05-06/persons/VN-PERSON-000004.json",
+   "array": "work_experience",
+   "index": 0,
+   "field": "org_id",
+   "old": "VN-GOV-064",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡咨询 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/vn/2026-05-06/persons/VN-PERSON-000004.json",
+   "array": "work_experience",
+   "index": 1,
+   "field": "org_id",
+   "old": "VN-GOV-064",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡咨询 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/vn/2026-05-06/persons/VN-PERSON-000004.json",
+   "array": "work_experience",
+   "index": 2,
+   "field": "org_id",
+   "old": "VN-GOV-064",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡咨询 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  },
+  {
+   "file": "output/vn/2026-05-06/persons/VN-PERSON-000004.json",
+   "array": "work_experience",
+   "index": 3,
+   "field": "org_id",
+   "old": "VN-GOV-064",
+   "new": "AU-GOV-075",
+   "ref_name": "麦肯锡咨询 (McKinsey & Company)",
+   "target_name": "麦肯锡咨询公司",
+   "direction": "work_org"
+  }
+ ]
+}

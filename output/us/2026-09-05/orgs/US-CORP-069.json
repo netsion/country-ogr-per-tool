@@ -1,0 +1,69 @@
+{
+  "org_id": "US-CORP-069",
+  "basic_info": {
+    "name_original": "xAI Corp.",
+    "name_zh": "xAI",
+    "name_en": "xAI",
+    "aliases": [
+      "X.AI",
+      "xAI Corp.",
+      "xAI公司",
+      "SpaceXAI"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "subsidiary",
+    "country_iso3": "USA",
+    "hq_country_iso3": "USA",
+    "founded_date": "2023-07-12",
+    "website": "https://x.ai/",
+    "wikidata_qid": "Q120599684"
+  },
+  "social_accounts": [],
+  "digital_assets": [],
+  "key_people": [
+    {
+      "person_id": "US-PERSON-000058",
+      "name": "伊隆·马斯克 (Elon Musk)",
+      "title": "创始人兼首席执行官",
+      "title_description": "xAI 创始人及最高管理者",
+      "description": "2023 年创立 xAI，主导 Grok 大模型研发；2026 年 xAI 成为 SpaceX 子公司。"
+    }
+  ],
+  "departments": [],
+  "recent_events": [],
+  "related_entities": [
+    {
+      "org_id": "US-CORP-251",
+      "org_name": "太空探索技术公司 (SpaceX)",
+      "org_type": "CORP",
+      "org_description": "xAI 的母公司；2026 年 xAI 成为 SpaceX 子公司。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "US-CORP-013",
+      "org_name": "特斯拉公司 (Tesla, Inc.)",
+      "org_type": "CORP",
+      "org_description": "与 xAI 存在创始人及业务协同关系的关联公司。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "美国人工智能公司，开发 Grok 大模型与 X 平台 AI 能力；2026 年成为 SpaceX 子公司。",
+  "industries": [
+    "information_technology",
+    "software",
+    "research_development"
+  ],
+  "apec_stance": null,
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-11-13",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "official_website",
+      "wikidata"
+    ],
+    "completeness_score": 55,
+    "notes": "沿用既有 US-CORP-069；补建画像并标注 2026 年并入 SpaceX。",
+    "quotes": []
+  }
+}

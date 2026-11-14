@@ -56,7 +56,7 @@
     },
     {
       "org_id": "LY-GOV-007",
-      "name": "None (Supreme Court of Libya)",
+      "name": "Supreme Court of Libya",
       "org_type": "GOV",
       "org_subtype": "judiciary",
       "wikidata_qid": "Q121546554",
@@ -1309,18 +1309,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "LY-INTL-003",
-      "name": "世界卫生组织 (منظمة الصحة العالمية)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "LY-INTL-004",
-      "name": "联合国儿童基金会 (اليونيسف)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "LY-INTL-005",
       "name": "国际国家公共卫生研究院协会 (IANPHI)",
       "org_type": "INTL",
@@ -1384,12 +1372,6 @@
       "org_id": "LY-GOV-047",
       "name": "利比亚认可中心 (المركز الليبي للاعتماد)",
       "org_type": "GOV",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "LY-INTL-022",
-      "name": "联合国开发计划署 (UNDP)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -6480,5 +6462,32 @@
   ],
   "person_counters": {
     "LY-PERSON": 570
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "LY-INTL-004",
+      "name": "联合国儿童基金会 (اليونيسف)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-023",
+      "notes": "；合并到 US-INTL-023",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "org_id": "LY-INTL-003",
+      "name": "世界卫生组织 (منظمة الصحة العالمية)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    },
+    {
+      "org_id": "LY-INTL-022",
+      "name": "联合国开发计划署 (UNDP)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-024",
+      "deprecated_reason": "global UNDP normalization"
+    }
+  ]
 }

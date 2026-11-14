@@ -1025,12 +1025,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "BN-NGO-007",
-      "name": "Projek Bina Ukhwah",
-      "org_type": "NGO",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "BN-NGO-008",
       "name": "Persatuan Kemajuan Insan (KESAN)",
       "org_type": "NGO",
@@ -2992,5 +2986,14 @@
   "person_counters": {
     "BN": 173,
     "BN-PERSON": 309
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "BN-NGO-007",
+      "name": "Projek Bina Ukhwah",
+      "org_type": "NGO",
+      "status": "unresolved_shadow",
+      "deprecated_reason": "826 defer: unresolved entity granularity"
+    }
+  ]
 }

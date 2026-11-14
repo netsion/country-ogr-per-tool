@@ -65,7 +65,7 @@
     },
     {
       "org_id": "SA-GOV-008",
-      "name": "None (Supreme Administrative Court (Saudi Arabia))",
+      "name": "Supreme Administrative Court (Saudi Arabia)",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q20393621",
@@ -74,7 +74,7 @@
     },
     {
       "org_id": "SA-GOV-009",
-      "name": "None (Board of Grievances (Saudi Arabia))",
+      "name": "Board of Grievances (Saudi Arabia)",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q12182845",
@@ -587,7 +587,7 @@
     },
     {
       "org_id": "SA-GOV-066",
-      "name": "None (General Directorate of Traffic (Saudi Arabia))",
+      "name": "General Directorate of Traffic (Saudi Arabia)",
       "org_type": "GOV",
       "org_subtype": null,
       "wikidata_qid": "Q56377062",
@@ -1478,7 +1478,7 @@
     },
     {
       "org_id": "SA-FIN-014",
-      "name": "None (Saudi Export-Import Bank (Saudi EXIM))",
+      "name": "Saudi Export-Import Bank (Saudi EXIM)",
       "org_type": "FIN",
       "org_subtype": null,
       "wikidata_qid": "Q63121562",
@@ -2225,7 +2225,7 @@
     },
     {
       "org_id": "SA-PARTY-003",
-      "name": "None (Hejaz National Party)",
+      "name": "Hejaz National Party",
       "org_type": "PARTY",
       "org_subtype": null,
       "wikidata_qid": "Q6724233",
@@ -2279,7 +2279,7 @@
     },
     {
       "org_id": "SA-PARTY-009",
-      "name": "None (Hejaz Liberal Party)",
+      "name": "Hejaz Liberal Party",
       "org_type": "PARTY",
       "org_subtype": null,
       "wikidata_qid": "Q22931367",
@@ -2350,12 +2350,6 @@
       "org_id": "SA-SOE-030",
       "name": "卫生控股公司 (شركة الصحة القابضة)",
       "org_type": "SOE",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "SA-INTL-009",
-      "name": "世界卫生组织 (منظمة الصحة العالمية)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -3123,12 +3117,6 @@
     {
       "org_id": "SA-INTL-014",
       "name": "联合国训练研究所 (UNITAR)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "SA-INTL-015",
-      "name": "联合国儿童基金会 (UNICEF)",
       "org_type": "INTL",
       "status": "auto_registered"
     },
@@ -9177,5 +9165,24 @@
   "person_counters": {
     "SA": 22,
     "SA-PERSON": 834
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "SA-INTL-015",
+      "name": "联合国儿童基金会 (UNICEF)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-023",
+      "notes": "；合并到 US-INTL-023",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "org_id": "SA-INTL-009",
+      "name": "世界卫生组织 (منظمة الصحة العالمية)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    }
+  ]
 }

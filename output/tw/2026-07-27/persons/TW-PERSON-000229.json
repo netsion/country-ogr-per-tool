@@ -3,7 +3,6 @@
   "wikidata_qid": "Q8273004",
   "name": "程建人",
   "name_en": "Chen Chien-jen",
-  "name_local": "程建人",
   "name_zh": "程建人",
   "aliases": [],
   "nationality": "TW",
@@ -17,15 +16,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -34,20 +25,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/%E7%A8%8B%E5%BB%BA%E4%BA%BA%E9%83%A8%E9%95%B7.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000229.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A8%8B%E5%BB%BA%E4%BA%BA%E9%83%A8%E9%95%B7.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000229.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8273004"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q8273004"
+      }
+    ]
   }
 }

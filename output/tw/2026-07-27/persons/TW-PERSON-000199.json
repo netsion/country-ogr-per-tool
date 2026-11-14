@@ -1,42 +1,135 @@
 {
   "person_id": "TW-PERSON-000199",
   "wikidata_qid": "Q5091239",
-  "name": "郑丽文",
-  "name_en": "Cheng Li-wun",
-  "name_local": "鄭麗文",
+  "name": "鄭麗文",
+  "name_en": "Cheng, Li-Wun",
   "name_zh": "郑丽文",
-  "aliases": [],
+  "aliases": [
+    "鄭麗文",
+    "郑丽文",
+    "Cheng Li-wun"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1969-11-12",
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    "国民大会代表",
-    "立法委员",
-    "中国国民党主席"
+    "中国国民党主席",
+    "革命实践研究院院长"
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "education": [
     {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
+      "institution": "台湾大学（國立臺灣大學）",
+      "degree": "bachelor",
+      "field": "法律",
+      "start_date": null,
+      "end_date": null
     },
     {
-      "org_id": "TW-PARTY-013",
-      "org_name": "中國國民黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
+      "institution": "天普大学（Temple University）",
+      "degree": "master",
+      "field": "法学",
+      "start_date": null,
+      "end_date": null
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": "1996",
+      "end_date": "2000",
+      "organization": "国民大会（國民大會）",
+      "position": "代表",
+      "org_id": null
+    },
+    {
+      "start_date": "2005",
+      "end_date": "2006",
+      "organization": "中国国民党（中國國民黨）",
+      "position": "发言人及文化传播委员会主任委员",
+      "org_id": "TW-PARTY-013"
+    },
+    {
+      "start_date": "2008",
+      "end_date": "2012",
+      "organization": "立法院",
+      "position": "第7届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2012",
+      "end_date": "2014",
+      "organization": "行政院",
+      "position": "发言人",
+      "org_id": "TW-GOV-019"
+    },
+    {
+      "start_date": "2020",
+      "end_date": "2024",
+      "organization": "立法院",
+      "position": "第10届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2025-11-01",
+      "end_date": null,
+      "organization": "中国国民党（中國國民黨）",
+      "position": "主席",
+      "org_id": "TW-PARTY-013"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000043",
+      "person_name": "黄国昌（黃國昌）",
+      "relationship_type": "associate",
+      "description": "2026年3月14日共同主持跨党政策愿景发表，具体合作涵盖四个民生治理领域；不扩写为私人盟友。",
+      "source": "https://www.kmt.org.tw/2026/03/blog-post_50.html",
+      "corroborating_sources": "https://www.cna.com.tw/news/aipl/202603140093.aspx"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "骆武昌（駱武昌）",
+      "relationship": "spouse",
+      "industry_or_organization": null,
+      "source": "https://news.tvbs.com.tw/local/73216",
+      "description": "主会话来源QA已读TVBS2011年现场采访及Newtalk独立自采 https://newtalk.tw/news/view/2026-09-10/1058978 ，交叉确认配偶駱武昌；仅取姓名及婚姻关系，不采报道中的争议指控或财产。"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2026-06-23",
+      "topic": "两岸对话",
+      "stance_content": "主张在九二共识、反对台独的基础上重启交流对话，同时表示没有主张放弃防卫力量与韧性；这是本人的政策判断。",
+      "source": "https://www.cna.com.tw/news/aipl/202606230114.aspx"
+    },
+    {
+      "date": "2026-09-09",
+      "topic": "核能与供电",
+      "stance_content": "支持核能发电，认为有助稳定电价、物价和产业供电；不将其效果判断写为已验证成效。",
+      "source": "https://www.cna.com.tw/news/aipl/202609090237.aspx"
+    },
+    {
+      "date": "2026-03-14",
+      "topic": "联合治理与民生政策",
+      "stance_content": "与黄国昌共同提出社会福利、居住正义、环境永续和AI产业治理等愿景，主张跨党合作回应民生；属于政策倡议。",
+      "source": "https://www.kmt.org.tw/2026/03/blog-post_50.html"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2025-10-18",
+      "achievement": "国民党主席选举获得65122票、有效票得票率50.15%，当选党主席；这是选举结果，不是施政绩效。",
+      "organization": "中国国民党（中國國民黨）"
+    },
+    {
+      "date": "2026-03-14",
+      "achievement": "与民众党共同完成四大领域政策愿景发布，是两党共同组织成果；并不表示各项政策已落地或2028政党轮替目标已实现。",
+      "organization": "中国国民党（中國國民黨）"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "instagram",
@@ -69,24 +162,68 @@
       "nickname": "鄭麗文"
     }
   ],
-  "biography_summary": "中國國民黨主席",
+  "biography_summary": "郑丽文是台湾地区政治人物，现任中国国民党主席，并依国民党官网兼任革命实践研究院院长。她毕业于台湾大学法律学系，取得美国天普大学法学硕士；国民党官方履历另列英国剑桥大学国际关系博士候选人资格，本档不将候选资格视为博士学位。她早年参与学生运动与人权事务，曾任台湾人权促进会秘书长、国民大会代表，后由民进党转入国民党，历任党务发言与文化传播职务、行政院发言人和第7届及第10届立法委员。2025年10月，她在国民党主席选举中获得过半有效票，并于同年11月就任。其近期公开主张包括在九二共识及反对台独的基础上重启两岸对话、支持核能发电，以及与民众党共同提出地方治理政策。她与黄国昌的关系在本档限定为有具体联合政策发布事实的跨党合作，不据此推断私人关系。政策发布和选举当选分别按组织成果与选举事实记录，不视为相关社会政策已经落实。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/2025.11.08_50%E5%B9%B4%E4%BB%A3%E7%99%BD%E8%89%B2%E6%81%90%E6%80%96%E6%94%BF%E6%B2%BB%E5%8F%97%E9%9B%A3%E8%80%85%E8%BF%BD%E6%80%9D%E6%85%B0%E9%9D%88%E5%A4%A7%E6%9C%83_10_%28cropped%29.jpg/250px-2025.11.08_50%E5%B9%B4%E4%BB%A3%E7%99%BD%E8%89%B2%E6%81%90%E6%80%96%E6%94%BF%E6%B2%BB%E5%8F%97%E9%9B%A3%E8%80%85%E8%BF%BD%E6%80%9D%E6%85%B0%E9%9D%88%E5%A4%A7%E6%9C%83_10_%28cropped%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000199.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025.11.08%2050%E5%B9%B4%E4%BB%A3%E7%99%BD%E8%89%B2%E6%81%90%E6%80%96%E6%94%BF%E6%B2%BB%E5%8F%97%E9%9B%A3%E8%80%85%E8%BF%BD%E6%80%9D%E6%85%B0%E9%9D%88%E5%A4%A7%E6%9C%83%2010%20%28cropped%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000199.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: member of the National Assembly of the Republic of China",
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "collection_date": "2026-11-13",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5091239"
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "quotes": [
+      {
+        "title": "国民党官方履历",
+        "url": "https://www1.kmt.org.tw/people.aspx?mid=21&pid=2500"
+      },
+      {
+        "title": "人物历史履历",
+        "url": "https://zh.wikipedia.org/wiki/鄭麗文"
+      },
+      {
+        "title": "中央社党主席选举结果",
+        "url": "https://www.cna.com.tw/news/aipl/202510180204.aspx"
+      },
+      {
+        "title": "中央社联合政策发布",
+        "url": "https://www.cna.com.tw/news/aipl/202603140093.aspx"
+      },
+      {
+        "title": "国民党联合政策原文",
+        "url": "https://www.kmt.org.tw/2026/03/blog-post_50.html"
+      },
+      {
+        "title": "中央社核能主张",
+        "url": "https://www.cna.com.tw/news/aipl/202609090237.aspx"
+      },
+      {
+        "title": "中央社两岸主张",
+        "url": "https://www.cna.com.tw/news/aipl/202606230114.aspx"
+      },
+      {
+        "title": "TVBS婚姻报道",
+        "url": "https://news.tvbs.com.tw/other/73216"
+      },
+      {
+        "title": "联合报公开配偶身份",
+        "url": "https://udn.com/news/story/7324/9835072"
+      },
+      {
+        "title": "配偶身份核验（仅姓名关系）",
+        "url": "https://news.tvbs.com.tw/local/73216"
+      },
+      {
+        "title": "Newtalk配偶身份独立采访",
+        "url": "https://newtalk.tw/news/view/2026-09-10/1058978"
+      }
+    ],
+    "notes": "官方国民党、Wikipedia、中央社及TVBS/联合报正文已读。现职按国民党官网重建，旧国大代表及立委均非当前。学历冲突：维基称双硕士，官方仅明确台湾大学法律、天普法学硕士及剑桥博士候选资格，采用官方、不填博士毕业或无确证剑桥硕士。历史任期按维基，具体日未全面查公报，保留年精度；生日沿用旧值待第二来源。政策充分搜索核能、两岸、民生及合作主题，录3条多主题；成果仅录选举及实际共同发布事件，不将政见承诺当治理实绩。关系与黄国昌有官方及中央社两源。配偶骆武昌两独立来源原文确认，第二来源为https://udn.com/news/story/7324/9835072；父母检索未获双可靠全名证据不填。六平台Facebook/X/Instagram/LinkedIn/TikTok/YouTube已检索，未取得可充分核对本人身份的账号正文；TikTok受robots限制，旧头像与社媒及user_id完整保留但未本轮独立复核。未采私人联系方式住址财产。 复核更正：TVBS与联合报open虽返回页面，但正文在本次抓取内容中不可检索到配偶姓名/登记内容，检索引擎返回的全文样文本不当作成功直读双源；故撤回家庭结构化条目，骆武昌仅作为待复核公开线索。以上较早关于配偶已完成双原文确认的表述以本更正为准。；补充来源QA纠正：前述关于家庭缺第二原文的中间结论已失效。主会话来源QA已读TVBS2011年现场采访及Newtalk独立自采 https://newtalk.tw/news/view/2026-09-10/1058978 ，交叉确认配偶駱武昌；仅取姓名及婚姻关系，不采报道中的争议指控或财产。",
+    "completeness_score": 72
   }
 }

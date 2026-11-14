@@ -3,9 +3,10 @@
   "wikidata_qid": "Q5925475",
   "name": "黄杰",
   "name_en": "Huang Chieh",
-  "name_local": "黃杰",
   "name_zh": "黄杰",
-  "aliases": [],
+  "aliases": [
+    "黃杰"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1902-01-01",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Army_%28ROCA%29_General_Huang_Chieh_%E9%99%B8%E8%BB%8D%E4%B8%8A%E5%B0%87%E9%BB%83%E6%9D%B0.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000213.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Army%20%28ROCA%29%20General%20Huang%20Chieh%20%E9%99%B8%E8%BB%8D%E4%B8%8A%E5%B0%87%E9%BB%83%E6%9D%B0.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000213.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Chairperson of Taiwan Provincial Government",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5925475"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q5925475"
+      }
+    ]
   }
 }

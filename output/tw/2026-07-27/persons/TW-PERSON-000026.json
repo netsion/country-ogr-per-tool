@@ -1,54 +1,241 @@
 {
   "person_id": "TW-PERSON-000026",
   "wikidata_qid": "Q15909081",
-  "name": "顾立雄",
-  "name_en": "Wellington Koo",
-  "name_local": "顧立雄",
+  "name": "顧立雄",
+  "name_en": "Wellington Li-Hsiung Koo",
   "name_zh": "顾立雄",
-  "aliases": [],
+  "aliases": [
+    "顾立雄",
+    "Wellington Koo"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1958-10-31",
-  "birth_place": null,
+  "birth_place": "台湾基隆市",
   "contacts": [],
   "current_positions": [
-    "立法委员",
-    "国民大会代表",
-    "党主席 the Financial Supervisory Commission"
+    "国防部部长"
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [
+  "education": [
     {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
+      "institution": "台湾大学（國立臺灣大學）",
+      "degree": "bachelor",
+      "field": "法律",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "纽约大学（New York University）",
+      "degree": "master",
+      "field": "法律",
+      "start_date": null,
+      "end_date": null
     }
   ],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "万国法律事务所（萬國法律事務所）",
+      "position": "资深合伙律师",
+      "org_id": null
+    },
+    {
+      "start_date": "2003",
+      "end_date": "2005",
+      "organization": "台北律师公会（臺北律師公會）",
+      "position": "理事长",
+      "org_id": null
+    },
+    {
+      "start_date": "2008",
+      "end_date": "2009",
+      "organization": "律师公会全国联合会（中華民國律師公會全國聯合會）",
+      "position": "理事长",
+      "org_id": null
+    },
+    {
+      "start_date": "2016",
+      "end_date": "2016",
+      "organization": "立法院",
+      "position": "立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2016",
+      "end_date": "2017",
+      "organization": "不当党产处理委员会（不當黨產處理委員會）",
+      "position": "主任委员",
+      "org_id": null
+    },
+    {
+      "start_date": "2017",
+      "end_date": "2020",
+      "organization": "金融监督管理委员会（金融監督管理委員會）",
+      "position": "主任委员",
+      "org_id": null
+    },
+    {
+      "start_date": "2020",
+      "end_date": "2024",
+      "organization": "国家安全会议（國家安全會議）",
+      "position": "秘书长",
+      "org_id": null
+    },
+    {
+      "start_date": "2024-05-20",
+      "end_date": null,
+      "organization": "国防部（國防部）",
+      "position": "部长",
+      "org_id": "TW-GOV-025"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000001",
+      "person_name": "赖清德（賴清德）",
+      "relationship_type": "superior",
+      "description": "赖清德于2024年4月25日公布国安人事，选择顾立雄转任国防部长；仅记录公开任命与公务上下级关系，不推断私人盟友。",
+      "source": "https://www.cna.com.tw/news/aipl/202404250171.aspx",
+      "corroborating_sources": "https://news.pts.org.tw/article/692049"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "王美花",
+      "relationship": "spouse",
+      "industry_or_organization": "经济部门公务体系，曾任经济部次长（歷史職位）",
+      "source": "https://www.cna.com.tw/news/firstnews/201606290223.aspx",
+      "description": "中央社可读导言与公视独立质询报道均确认配偶关系及其当时公务员身份；不采私人家庭细节，也不据婚姻关系推断派系。第二来源：https://news.pts.org.tw/article/372961"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2024-05-20",
+      "topic": "国防现代化",
+      "stance_content": "国防部官方部长介绍列出的优先方向包括实战化训练、投资不对称能力、维持作战韧性、后备改革、导入成熟科技及强化战略伙伴关系。",
+      "source": "https://www.mnd.gov.tw/Publication/83001"
+    },
+    {
+      "date": "2024-06-06",
+      "topic": "军队管理与实战训练",
+      "stance_content": "主张用减法检讨不符战训本务的形式主义，取消传统刺枪突刺等表演性项目，并取消官兵休假例行互助回报，改为有事报告。此为本人备询提出的改革立场，不等同基层执行已毫无偏差。",
+      "source": "https://www.cna.com.tw/news/aipl/202406060053.aspx"
+    },
+    {
+      "date": "2025-02-21",
+      "topic": "不对称战力与兵力结构",
+      "stance_content": "要求依防卫任务、后备专长及恢复战力所需时间检讨主战、守备与后备部队编组，强调不对称、机动、敏捷、精准及隐匿等效能；该谈话由军闻社报道、中央社引述，属于官方原始消息链。",
+      "source": "https://www.cna.com.tw/news/aipl/202502210373.aspx"
+    },
+    {
+      "date": "2025-03-03",
+      "topic": "后备动员与统一事权",
+      "stance_content": "在媒体茶叙说明后备指挥部回归全动署统筹是为统一事权，整合军民动员能量及后备旅教召；后备旅战时仍纳入作战区指挥。发言在3月3日，报道发表于3月4日。",
+      "source": "https://www.cna.com.tw/news/aipl/202503040095.aspx"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2024-05-15",
+      "achievement": "获颁一等景星勋章，表彰其在国家安全团队任内的工作。",
+      "organization": "总统府（總統府）"
+    },
+    {
+      "date": "2024-06-05",
+      "achievement": "任国防部长期间宣布各级正副主官留值恢复常态，调整此前正副主官不能同时离营的管理方式。中央社及公视均报道此制度调整；不把同时提出的所有改革承诺视为全面完成，休假回报后续仍出现基层变相执行争议。",
+      "organization": "国防部（國防部）"
+    },
+    {
+      "date": "2025-04-18",
+      "achievement": "任内国军团队完成汉光41号14天13夜电脑辅助指挥所演习，延长时程并纳入灰色地带至全面作战、军民整合及通信中断应处。本人随后主持总检讨；这是已完成演训流程，不代表实战效果获独立验证或个人独力成果。",
+      "organization": "国防部（國防部）"
+    }
+  ],
   "social_accounts": [],
-  "biography_summary": "臺灣律師及政治人物",
+  "biography_summary": "顾立雄，1958年出生于台湾基隆市，具有法律实务、人权与行政管理背景。毕业于台湾大学法律系，取得美国纽约大学法学硕士，长期担任诉讼律师及万国法律事务所资深合伙律师，曾任台北律师公会与律师公会全国联合会理事长，参与司法改革及人权组织工作。2016年进入立法院，随后出任不当党产处理委员会主任委员，2017年至2020年担任金融监督管理委员会主任委员，2020年至2024年担任国家安全会议秘书长。2024年5月20日起担任国防部部长。其官方公开工作重点包括实战化训练、不对称能力、作战韧性、后备力量改革与国际战略伙伴合作。2024年5月获颁一等景星勋章。本档将过去的立委及金融监管等职务从现职栏分离，不把国防部机构社交账号误作个人账号；无法确认的教育和早年执业起止日期保留为空。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Koo_Li-Hsiung-1-by_Ring_Chang_%28cropped%29.JPG/250px-Koo_Li-Hsiung-1-by_Ring_Chang_%28cropped%29.JPG",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000026.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koo%20Li-Hsiung-1-by%20Ring%20Chang%20%28cropped%29.JPG?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000026.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
-    "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "collection_date": "2026-11-13",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q15909081"
+      "official_website",
+      "wikipedia",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 45,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "本轮读取国防部中英文部长介绍、Wikipedia及中央社人物和贈勋原文，独立发布体系至少为国防部、Wikipedia、中央社。现职与2024年5月20日就任日期由国防部确认；学历和主要经历由官方及中央社相互核对。英文采用官方Wellington Li-Hsiung Koo。政策重点来自官方页面；该页发布时间为2024年5月20日，非指所有政策当日发表。原出生精确日保留、待第二独立来源核验。六平台搜索发现LinkedIn同名航运业人士，身份不同不采。没有可靠个人账号证据，social_accounts保持空；旧头像保留未重新核验。法律机构等未有注册ID者留null，早期执业日期未知不推断。\n2026-11-13专项补采：政策由本人备询、媒体茶叙与兵推讲话取多主题；2025-02-21谈话为军闻社原始消息经中央社引述，不能当两独立来源。成就主官留值常态化由CNA202406060053及公视698885确认；同批取消休假回报在CNA202406170096有基层变相回报争议，因此不声称所有改革完全落实。汉光41电脑兵推完成由CNA202504210297及公视747733交叉确认，按CNA记载4月18日结束，公视稿的昨（22）日文字前后不一致，不采其检讨日；军事实效未获独立审计，只记录已完成训练与团队归因。赖清德关系=CNA202404250171及公视692049任命报道。王美花家庭=CNA201606290223可读导言（其余正文过查询时效）+公视372961完整独立报道；只采姓名、配偶关系及当时公开职务，不推断当前职务/派系，不采私人细节，索引无此人故person_id=null。国防部英文简历83001已全文读取。尝试2025国防报告PDF但超工具长度，未据搜索摘要引用。未获得新的法律成果可靠个别归因，不强行增写。原教育履历现职简介头像社媒及user_id保持。",
+    "quotes": [
+      {
+        "title": "国防部：部长英文介绍",
+        "url": "https://www.mnd.gov.tw/Publication/83001"
+      },
+      {
+        "title": "国防部：现任部长",
+        "url": "https://www.mnd.gov.tw//About/Minister/dio"
+      },
+      {
+        "title": "Wellington Koo — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wellington_Koo_(politician,_born_1958)"
+      },
+      {
+        "title": "中央社：顾立雄履历",
+        "url": "https://www.cna.com.tw/news/aipl/202404250074.aspx"
+      },
+      {
+        "title": "中央社：顾立雄获赠勋",
+        "url": "https://www.cna.com.tw/news/aipl/202405150089.aspx"
+      },
+      {
+        "title": "顾立雄备询：减法改革",
+        "url": "https://www.cna.com.tw/news/aipl/202406060053.aspx"
+      },
+      {
+        "title": "公视：军务管理调整",
+        "url": "https://news.pts.org.tw/article/698885"
+      },
+      {
+        "title": "中央社：基层回报执行争议",
+        "url": "https://www.cna.com.tw/news/aipl/202406170096.aspx"
+      },
+      {
+        "title": "顾立雄：不对称战力指导",
+        "url": "https://www.cna.com.tw/news/aipl/202502210373.aspx"
+      },
+      {
+        "title": "顾立雄媒体茶叙：后备统一事权",
+        "url": "https://www.cna.com.tw/news/aipl/202503040095.aspx"
+      },
+      {
+        "title": "汉光41电脑兵推已完成及总检讨",
+        "url": "https://www.cna.com.tw/news/aipl/202504210297.aspx"
+      },
+      {
+        "title": "公视：14天兵推完成",
+        "url": "https://news.pts.org.tw/article/747733"
+      },
+      {
+        "title": "赖清德宣布顾立雄任防长",
+        "url": "https://www.cna.com.tw/news/aipl/202404250171.aspx"
+      },
+      {
+        "title": "公视：国安人事",
+        "url": "https://news.pts.org.tw/article/692049"
+      },
+      {
+        "title": "中央社：王美花配偶身份（可读导言）",
+        "url": "https://www.cna.com.tw/news/firstnews/201606290223.aspx"
+      },
+      {
+        "title": "公视：公开夫妻身份与各自公务职责",
+        "url": "https://news.pts.org.tw/article/372961"
+      }
+    ],
+    "completeness_score": 70
   }
 }

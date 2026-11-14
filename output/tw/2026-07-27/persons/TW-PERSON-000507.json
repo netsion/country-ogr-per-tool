@@ -3,7 +3,6 @@
   "wikidata_qid": "Q11098108",
   "name": "李述德",
   "name_en": "Lee Sush-der",
-  "name_local": "李述德",
   "name_zh": "李述德",
   "aliases": [],
   "nationality": "TW",
@@ -17,15 +16,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-FIN-006",
-      "org_name": "臺灣證券交易所",
-      "title": "Executive (Wikidata leadership claim)",
-      "relationship": "key_personnel",
-      "source": "wikidata_org_leadership"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -34,20 +25,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/ROC-MOF_Lee_Sush-der_20110607.jpg/250px-ROC-MOF_Lee_Sush-der_20110607.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000507.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/ROC-MOF%20Lee%20Sush-der%2020110607.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000507.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Politician",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P5_leaders",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q11098108"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "derived from org leadership",
-    "quotes": []
+    "notes": "derived from org leadership；仅Schema规范化，旧phase=P5_leaders；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q11098108"
+      }
+    ]
   }
 }

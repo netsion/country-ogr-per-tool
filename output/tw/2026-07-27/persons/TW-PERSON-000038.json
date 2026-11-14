@@ -3,7 +3,6 @@
   "wikidata_qid": "Q709142",
   "name": "郝柏村",
   "name_en": "Hau Pei-tsun",
-  "name_local": "郝柏村",
   "name_zh": "郝柏村",
   "aliases": [],
   "nationality": "TW",
@@ -26,20 +25,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Hau_Pei-tsun_from_VOA_%281%29.jpg/250px-Hau_Pei-tsun_from_VOA_%281%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000038.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hau%20Pei-tsun%20from%20VOA%20%281%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000038.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Minister of National Defense of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q709142"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q709142"
+      }
+    ]
   }
 }

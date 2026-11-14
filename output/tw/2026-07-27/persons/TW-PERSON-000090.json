@@ -3,9 +3,10 @@
   "wikidata_qid": "Q715504",
   "name": "黄志芳",
   "name_en": "James C. F. Huang",
-  "name_local": "黃志芳",
   "name_zh": "黄志芳",
-  "aliases": [],
+  "aliases": [
+    "黃志芳"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1958-09-14",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Voa_chinese_James_Huang_1sep06.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000090.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Voa%20chinese%20James%20Huang%201sep06.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000090.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Minister of Foreign Affairs of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q715504"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q715504"
+      }
+    ]
   }
 }

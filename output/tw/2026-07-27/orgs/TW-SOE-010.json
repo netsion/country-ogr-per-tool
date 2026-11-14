@@ -1,32 +1,22 @@
 {
   "org_id": "TW-SOE-010",
   "wikidata_qid": "Q697926",
-  "name": "臺灣鐵路管理局",
   "basic_info": {
-    "org_id": "TW-SOE-010",
-    "wikidata_qid": "Q697926",
     "name_en": "Taiwan Railways Administration",
-    "name_local": "臺灣鐵路管理局",
     "name_zh": "台湾铁路管理局",
     "org_type": "SOE",
-    "country": "TW",
-    "founded_year": 1945,
     "website": "http://www.railway.gov.tw/",
-    "official_website": "http://www.railway.gov.tw/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "臺灣鐵路管理局"
+    "name_original": "臺灣鐵路管理局",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "臺灣傳統鐵路的管理機構",
-  "brief": "臺灣傳統鐵路的管理機構",
   "core_business": "臺灣傳統鐵路的管理機構",
   "industries": [],
   "key_people": [
     {
       "person_id": "TW-PERSON-000498",
-      "name": "Du Wei",
+      "name": "杜微 (Du Wei)",
       "title": "高管 (Wikidata leadership claim)",
       "title_description": "",
       "description": ""
@@ -40,7 +30,7 @@
     },
     {
       "person_id": "TW-PERSON-000502",
-      "name": "Chi Wen-jong",
+      "name": "祁文中 (Chi Wen-jong)",
       "title": "高管 (Wikidata leadership claim)",
       "title_description": "",
       "description": ""
@@ -76,17 +66,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q697926"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: Taiwan Railways Administration",
-    "quotes": []
+    "notes": "hint: Taiwan Railways Administration；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q697926"
+      }
+    ]
   }
 }

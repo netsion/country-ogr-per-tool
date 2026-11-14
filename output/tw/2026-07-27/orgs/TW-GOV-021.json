@@ -1,26 +1,16 @@
 {
   "org_id": "TW-GOV-021",
   "wikidata_qid": "Q31041",
-  "name": "司法院",
   "basic_info": {
-    "org_id": "TW-GOV-021",
-    "wikidata_qid": "Q31041",
     "name_en": "Judicial Yuan",
-    "name_local": "司法院",
     "name_zh": "司法院",
     "org_type": "GOV",
-    "country": "TW",
-    "founded_year": 1928,
     "website": "https://www.judicial.gov.tw/",
-    "official_website": "https://www.judicial.gov.tw/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "司法院"
+    "name_original": "司法院",
+    "hq_country_iso3": "TWN",
+    "org_subtype": "judiciary"
   },
-  "description": "中華民國最高司法機關",
-  "brief": "中華民國最高司法機關",
   "core_business": "中華民國最高司法機關",
   "industries": [],
   "key_people": [],
@@ -47,17 +37,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q31041"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: Judicial Yuan (corrected)",
-    "quotes": []
+    "notes": "hint: Judicial Yuan (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q31041"
+      }
+    ]
   }
 }

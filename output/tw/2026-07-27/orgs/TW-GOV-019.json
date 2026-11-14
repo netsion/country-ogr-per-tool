@@ -1,35 +1,32 @@
 {
   "org_id": "TW-GOV-019",
   "wikidata_qid": "Q715055",
-  "name": "行政院",
   "basic_info": {
-    "org_id": "TW-GOV-019",
-    "wikidata_qid": "Q715055",
     "name_en": "Executive Yuan",
-    "name_local": "行政院",
     "name_zh": "行政院",
     "org_type": "GOV",
-    "country": "TW",
-    "founded_year": 1928,
     "website": "https://www.ey.gov.tw/",
-    "official_website": "https://www.ey.gov.tw/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "行政院"
+    "name_original": "行政院",
+    "hq_country_iso3": "TWN",
+    "org_subtype": "cabinet"
   },
-  "description": "中華民國最高行政機關",
-  "brief": "中華民國最高行政機關",
   "core_business": "中華民國最高行政機關",
   "industries": [],
   "key_people": [
     {
       "person_id": "TW-PERSON-000018",
-      "name": "Cho Jung-tai",
-      "title": "高管 (Wikidata leadership claim)",
-      "title_description": "",
-      "description": ""
+      "name": "卓榮泰",
+      "title": "院长",
+      "title_description": null,
+      "description": "本轮依据人物档案所列官方履历核实；其他旧关键人物记录仍待复核。"
+    },
+    {
+      "person_id": "TW-PERSON-000032",
+      "name": "鄭麗君",
+      "title": "副院长",
+      "title_description": null,
+      "description": "本轮依据人物档案所列官方履历核实；其他旧关键人物记录仍待复核。"
     }
   ],
   "social_accounts": [
@@ -55,17 +52,52 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q715055"
+      "wikidata",
+      "official_website"
     ],
     "completeness_score": 70,
-    "notes": "hint: Executive Yuan (corrected)",
-    "quotes": []
+    "notes": "hint: Executive Yuan (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q715055"
+      },
+      {
+        "title": "行政院：卓荣泰正式上任",
+        "url": "https://www.ey.gov.tw/Page/9277F759E41CCD91/347ac719-9b3d-4bf3-a6e0-191bbd9d3001"
+      },
+      {
+        "title": "中兴大学：第28届杰出校友卓荣泰",
+        "url": "https://alumni.nchu.edu.tw/page-1.php?id=8cdc2a21-8ce8-419f-b6c6-f9a714c7e69b"
+      },
+      {
+        "title": "Cho Jung-tai — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cho_Jung-tai"
+      },
+      {
+        "title": "中央社：卓荣泰人物专题",
+        "url": "https://www.cna.com.tw/topic/newstopic/4491.aspx"
+      },
+      {
+        "title": "行政院：郑丽君副院长",
+        "url": "https://www.ey.gov.tw/Page/B0DDF0F69A75E8DB/8708343d-dd7c-47c0-a3a5-336577da50da"
+      },
+      {
+        "title": "立法院：郑丽君历史名录",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=1784"
+      },
+      {
+        "title": "中央社：对等关税谈判小组",
+        "url": "https://www.cna.com.tw/news/aipl/202504090185.aspx"
+      },
+      {
+        "title": "Cheng Li-chiun — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cheng_Li-chun"
+      }
+    ]
   }
 }

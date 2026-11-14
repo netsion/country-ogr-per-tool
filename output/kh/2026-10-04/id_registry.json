@@ -614,7 +614,7 @@
     },
     {
       "org_id": "KH-NGO-007",
-      "name": "None (NGO Forum on Cambodia)",
+      "name": "NGO Forum on Cambodia",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q141548000",
@@ -659,7 +659,7 @@
     },
     {
       "org_id": "KH-NGO-012",
-      "name": "None (Transparency International Cambodia)",
+      "name": "Transparency International Cambodia",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q137379165",
@@ -695,7 +695,7 @@
     },
     {
       "org_id": "KH-NGO-016",
-      "name": "None (Mlup Baitong)",
+      "name": "Mlup Baitong",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q141547813",
@@ -722,7 +722,7 @@
     },
     {
       "org_id": "KH-NGO-019",
-      "name": "None (SOS Children's Villages Cambodia)",
+      "name": "SOS Children's Villages Cambodia",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q137383424",
@@ -731,7 +731,7 @@
     },
     {
       "org_id": "KH-NGO-020",
-      "name": "None (ActionAid Cambodia)",
+      "name": "ActionAid Cambodia",
       "org_type": "NGO",
       "org_subtype": null,
       "wikidata_qid": "Q132472061",
@@ -1531,12 +1531,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "KH-INTL-005",
-      "name": "联合国 (United Nations)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "KH-INTL-006",
       "name": "联合国儿童基金会 (UNICEF)",
       "org_type": "INTL",
@@ -1567,21 +1561,9 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "KH-INTL-004",
-      "name": "世界银行",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "KH-GOV-045",
       "name": "柬埔寨政府 (Government of Cambodia)",
       "org_type": "GOV",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "KH-INTL-005",
-      "name": "联合国开发计划署 (UNDP)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -1696,12 +1678,6 @@
       "org_id": "KH-GOV-058",
       "name": "俄罗斯联邦总检察院 (Prosecutor General's Office of Russia)",
       "org_type": "GOV",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "KH-INTL-006",
-      "name": "联合国艾滋病规划署 (UNAIDS)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -3194,14 +3170,6 @@
       "org_ids": []
     },
     {
-      "person_id": "KH-PERSON-000106",
-      "name_en": "Keo Rottanak",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "merged",
-      "merged_into": "KH-PERSON-000025"
-    },
-    {
       "person_id": "KH-PERSON-000107",
       "name_en": "Chea Vuthy",
       "importance_level": "low",
@@ -3326,14 +3294,6 @@
       "name_en": "谢提里 (Chea Thyrith)",
       "importance_level": "low",
       "org_ids": []
-    },
-    {
-      "person_id": "KH-PERSON-000128",
-      "name_en": "宁帕卡特拉 (Neth Pheaktra)",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "merged",
-      "merged_into": "KH-PERSON-000027"
     },
     {
       "person_id": "KH-PERSON-000129",
@@ -3936,14 +3896,6 @@
       "org_ids": []
     },
     {
-      "person_id": "KH-PERSON-000229",
-      "name_en": "Meng Leang",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "merged",
-      "merged_into": "KH-PERSON-000210"
-    },
-    {
       "person_id": "KH-PERSON-000230",
       "name_en": "郭速·孟雷 (Mengly Jandy Quach / គួច ម៉េងលី)",
       "importance_level": "low",
@@ -4248,14 +4200,6 @@
       "name_en": "高塔 (Kao Thach)",
       "importance_level": "low",
       "org_ids": []
-    },
-    {
-      "person_id": "KH-PERSON-000281",
-      "name_en": "贺安希 (Hean Sahib / ហ៊ាន សាហ៊ីប)",
-      "importance_level": "low",
-      "org_ids": [],
-      "status": "merged",
-      "merged_into": "KH-PERSON-000084"
     },
     {
       "person_id": "KH-PERSON-000282",
@@ -5653,5 +5597,75 @@
   "person_counters": {
     "KH": 58,
     "KH-PERSON": 513
-  }
+  },
+  "deprecated_person_registry": [
+    {
+      "person_id": "KH-PERSON-000106",
+      "name_en": "Keo Rottanak",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "KH-PERSON-000025",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "KH-PERSON-000128",
+      "name_en": "宁帕卡特拉 (Neth Pheaktra)",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "KH-PERSON-000027",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "KH-PERSON-000229",
+      "name_en": "Meng Leang",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "KH-PERSON-000210",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "person_id": "KH-PERSON-000281",
+      "name_en": "贺安希 (Hean Sahib / ហ៊ាន សាហ៊ីប)",
+      "importance_level": "low",
+      "org_ids": [],
+      "status": "merged",
+      "merged_into": "KH-PERSON-000084",
+      "deprecated_reason": "A2 merged registry entry"
+    }
+  ],
+  "deprecated_registry": [
+    {
+      "org_id": "KH-INTL-005",
+      "name": "联合国 (United Nations)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-024",
+      "deprecated_reason": "global UNDP normalization"
+    },
+    {
+      "org_id": "KH-INTL-005",
+      "name": "联合国开发计划署 (UNDP)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-024",
+      "deprecated_reason": "global UNDP normalization"
+    },
+    {
+      "org_id": "KH-INTL-006",
+      "name": "联合国艾滋病规划署 (UNAIDS)",
+      "org_type": "INTL",
+      "status": "unresolved_shadow",
+      "deprecated_reason": "826 defer: unresolved entity granularity"
+    },
+    {
+      "org_id": "KH-INTL-004",
+      "name": "世界银行",
+      "org_type": "INTL",
+      "status": "unresolved_shadow",
+      "deprecated_reason": "826 defer: unresolved entity granularity"
+    }
+  ]
 }

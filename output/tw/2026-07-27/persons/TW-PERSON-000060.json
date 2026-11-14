@@ -3,9 +3,10 @@
   "wikidata_qid": "Q759889",
   "name": "王云五",
   "name_en": "Wang Yun-wu",
-  "name_local": "王雲五",
   "name_zh": "王云五",
-  "aliases": [],
+  "aliases": [
+    "王雲五"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1888-07-09",
@@ -29,20 +30,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E7%8E%8B%E9%9B%B2%E4%BA%942.jpg/250px-%E7%8E%8B%E9%9B%B2%E4%BA%942.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000060.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%8E%8B%E9%9B%B2%E4%BA%942.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000060.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Vice Premier of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4b_retry",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q759889"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "retry pass",
-    "quotes": []
+    "notes": "retry pass；仅Schema规范化，旧phase=P4b_retry；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q759889"
+      }
+    ]
   }
 }

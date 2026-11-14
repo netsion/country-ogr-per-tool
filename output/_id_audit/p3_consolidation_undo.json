@@ -1,0 +1,2803 @@
+{
+ "created_profiles": [
+  "output/lb/2026-09-17/orgs/LB-MEDIA-041.json",
+  "output/om/2026-10-03/orgs/OM-GOV-041.json",
+  "output/la/2026-09-30/orgs/LA-CORP-007.json",
+  "output/us/2026-09-05/orgs/US-MEDIA-039.json"
+ ],
+ "ref_changes": [
+  {
+   "file": "output/tj/2026-09-27/persons/TJ-PERSON-000178.json",
+   "array": "work_experience",
+   "index": 2,
+   "field": "org_id",
+   "old": "TJ-MEDIA-011",
+   "new": "US-MEDIA-039"
+  },
+  {
+   "file": "output/tj/2026-09-27/orgs/TJ-MEDIA-007.json",
+   "array": "related_entities",
+   "index": 2,
+   "field": "org_id",
+   "old": "TJ-MEDIA-011",
+   "new": "US-MEDIA-039"
+  }
+ ],
+ "registry_old": {
+  "output/lb/2026-09-17/id_registry.json": {
+   "LB-MEDIA-041": {
+    "org_id": "LB-MEDIA-041",
+    "name": "《消息报》(جريدة الأنباء / Al Anbaa)",
+    "org_type": "MEDIA",
+    "status": "auto_registered"
+   }
+  },
+  "output/om/2026-10-03/id_registry.json": {
+   "OM-GOV-041": {
+    "org_id": "OM-GOV-041",
+    "name": "公共广播电视总局(Public Authority for Radio and Television, PART)",
+    "org_type": "GOV",
+    "status": "auto_registered"
+   }
+  },
+  "output/la/2026-09-30/id_registry.json": {
+   "LA-CORP-007": {
+    "org_id": "LA-CORP-007",
+    "name": "星电信公司/Unitel (Star Telecom)",
+    "org_type": "CORP",
+    "status": "auto_registered"
+   }
+  },
+  "output/us/2026-09-05/id_registry.json": {
+   "US-MEDIA-039": {
+    "org_id": "US-MEDIA-039",
+    "name": "自由欧洲电台/自由电台",
+    "org_type": "MEDIA"
+   }
+  },
+  "output/tj/2026-09-27/id_registry.json": {
+   "TJ-MEDIA-011": {
+    "org_id": "TJ-MEDIA-011",
+    "name": "自由欧洲电台/自由电台 (Radio Free Europe/Radio Liberty, RFE/RL)",
+    "org_type": "MEDIA",
+    "status": "auto_registered"
+   }
+  }
+ },
+ "index_old": {
+  "output/lb/2026-09-17/orgs/_index.json": [
+   {
+    "org_id": "LB-GOV-001",
+    "name": "黎巴嫩共和国总统府 (Presidency of the Republic of Lebanon)",
+    "category": "GOV",
+    "subcategory": "head_of_state",
+    "completeness": 83
+   },
+   {
+    "org_id": "LB-GOV-002",
+    "name": "纳瓦夫·萨拉姆内阁 (Cabinet of Nawaf Salam)",
+    "category": "GOV",
+    "subcategory": "cabinet",
+    "completeness": 93
+   },
+   {
+    "org_id": "LB-GOV-003",
+    "name": "黎巴嫩国会 (Parliament of Lebanon)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 87
+   },
+   {
+    "org_id": "LB-GOV-004",
+    "name": "黎巴嫩宪法委员会 (Constitutional Council (Lebanon))",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 81
+   },
+   {
+    "org_id": "LB-GOV-005",
+    "name": "黎巴嫩銀行 (Banque du Liban)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-GOV-006",
+    "name": "黎巴嫩內政和市政部 (Ministry of Interior and Municipalities)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 81
+   },
+   {
+    "org_id": "LB-GOV-007",
+    "name": "黎巴嫩外交部 (Ministry of Foreign Affairs and Emigrants)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 80
+   },
+   {
+    "org_id": "LB-GOV-008",
+    "name": "黎巴嫩財政部 (Ministry of Finance)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 73
+   },
+   {
+    "org_id": "LB-GOV-009",
+    "name": "黎巴嫩國防部 (Ministry of National Defense)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 72
+   },
+   {
+    "org_id": "LB-GOV-010",
+    "name": "司法部 (Ministry of Justice)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 77
+   },
+   {
+    "org_id": "LB-GOV-011",
+    "name": "黎巴嫩公共卫生部 (Ministry of Public Health)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 76
+   },
+   {
+    "org_id": "LB-GOV-012",
+    "name": "黎巴嫩經濟暨貿易部 (Ministry of Economy and Trade)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 71
+   },
+   {
+    "org_id": "LB-GOV-013",
+    "name": "黎巴嫩能源与水资源部 (Ministry of Energy and Water)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 71
+   },
+   {
+    "org_id": "LB-GOV-014",
+    "name": "黎巴嫩教育与高等教育部 (Ministry of Education and Higher Education)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 77
+   },
+   {
+    "org_id": "LB-GOV-015",
+    "name": "黎巴嫩新闻部 (Ministry of Information)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 75
+   },
+   {
+    "org_id": "LB-GOV-016",
+    "name": "黎巴嫩电信监管局 (Telecommunications Regulatory Authority)",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-GOV-017",
+    "name": "黎巴嫩海关总署 (Lebanese Customs Administration)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 77
+   },
+   {
+    "org_id": "LB-GOV-018",
+    "name": "黎巴嫩-巴勒斯坦对话委员会 (Lebanese Palestinian Dialogue Committee)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 92
+   },
+   {
+    "org_id": "LB-GOV-019",
+    "name": "黎巴嫩国家科学研究委员会 (National Council for Scientific Research)",
+    "category": "GOV",
+    "subcategory": "gov_department",
+    "completeness": 91
+   },
+   {
+    "org_id": "LB-GOV-020",
+    "name": "最高法院（翻案法院） (Court of Cassation (Lebanon))",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 73
+   },
+   {
+    "org_id": "LB-GOV-021",
+    "name": "国务委员会（最高行政法院） (State Council of Lebanon (Conseil d'Etat))",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 75
+   },
+   {
+    "org_id": "LB-GOV-022",
+    "name": "最高司法委员会 (Supreme Judicial Council of Lebanon)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 79
+   },
+   {
+    "org_id": "LB-MEDIA-001",
+    "name": "黎巴嫩国际广播公司 (Lebanese Broadcasting Corporation International)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 84
+   },
+   {
+    "org_id": "LB-MEDIA-002",
+    "name": "穆尔电视台 (Murr Television)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 85
+   },
+   {
+    "org_id": "LB-MEDIA-003",
+    "name": "新电视台 (Al Jadeed)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 93
+   },
+   {
+    "org_id": "LB-MEDIA-004",
+    "name": "未来电视台 (Future Television)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 87
+   },
+   {
+    "org_id": "LB-MEDIA-005",
+    "name": "黎巴嫩电视台 (Télé Liban)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-MEDIA-006",
+    "name": "灯塔电视台 (Al-Manar TV)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 92
+   },
+   {
+    "org_id": "LB-MEDIA-007",
+    "name": "OTV电视台 (OTV)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 73
+   },
+   {
+    "org_id": "LB-MEDIA-008",
+    "name": "国家广播网 (National Broadcasting Network)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 89
+   },
+   {
+    "org_id": "LB-MEDIA-009",
+    "name": "广场电视台 (Al Mayadeen)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-MEDIA-010",
+    "name": "黎巴嫩国家广播电台 (Radio Lebanon)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 72
+   },
+   {
+    "org_id": "LB-MEDIA-011",
+    "name": "黎巴嫩之声电台 (Voice of Lebanon (VDL 100.3/100.5))",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 57
+   },
+   {
+    "org_id": "LB-MEDIA-012",
+    "name": "明日之声电台 (Sawt El Ghad)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 80
+   },
+   {
+    "org_id": "LB-MEDIA-013",
+    "name": "灯塔电台 (Al-Nour Radio)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 72
+   },
+   {
+    "org_id": "LB-MEDIA-014",
+    "name": "白天报 (An-Nahar)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-MEDIA-015",
+    "name": "东方日报 (L'Orient-Le Jour)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-MEDIA-016",
+    "name": "消息报 (Al Akhbar)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-MEDIA-017",
+    "name": "纳哈尔网 (Naharnet)",
+    "category": "MEDIA",
+    "subcategory": "digital_media",
+    "completeness": 76
+   },
+   {
+    "org_id": "LB-MEDIA-018",
+    "name": "黎巴嫩国家通讯社 (National News Agency (Lebanon))",
+    "category": "MEDIA",
+    "subcategory": "news_agency",
+    "completeness": 73
+   },
+   {
+    "org_id": "LB-MIL-001",
+    "name": "黎巴嫩武裝部隊 (Lebanese Armed Forces)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-MIL-002",
+    "name": "黎巴嫩空軍 (Lebanese Air Force)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 72
+   },
+   {
+    "org_id": "LB-MIL-003",
+    "name": "黎巴嫩海軍 (Lebanese Navy)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 71
+   },
+   {
+    "org_id": "LB-MIL-004",
+    "name": "国内安全部队 (Internal Security Forces)",
+    "category": "MIL",
+    "subcategory": "security_agency",
+    "completeness": 84
+   },
+   {
+    "org_id": "LB-MIL-005",
+    "name": "大眾安全總局 (General Directorate of General Security)",
+    "category": "MIL",
+    "subcategory": "security_agency",
+    "completeness": 79
+   },
+   {
+    "org_id": "LB-MIL-006",
+    "name": "黎巴嫩国家安全总局 (Lebanese State Security)",
+    "category": "MIL",
+    "subcategory": "intelligence_agency",
+    "completeness": 81
+   },
+   {
+    "org_id": "LB-MIL-007",
+    "name": "圣战委员会 (Jihad Council)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 76
+   },
+   {
+    "org_id": "LB-MIL-008",
+    "name": "黎巴嫩军官学校 (Lebanese Army Military Academy)",
+    "category": "MIL",
+    "subcategory": "military_academy",
+    "completeness": 75
+   },
+   {
+    "org_id": "LB-MIL-009",
+    "name": "军事情报局（第二局） (Directorate of Orientation (Lebanese Army Intelligence))",
+    "category": "MIL",
+    "subcategory": "intelligence_agency",
+    "completeness": 60
+   },
+   {
+    "org_id": "LB-PARTY-001",
+    "name": "真主党 (Hezbollah)",
+    "category": "PARTY",
+    "subcategory": "coalition",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-PARTY-002",
+    "name": "阿邁勒運動 (Amal Movement)",
+    "category": "PARTY",
+    "subcategory": "ruling_party",
+    "completeness": 87
+   },
+   {
+    "org_id": "LB-PARTY-003",
+    "name": "黎巴嫩力量 (Lebanese Forces)",
+    "category": "PARTY",
+    "subcategory": "ruling_party",
+    "completeness": 93
+   },
+   {
+    "org_id": "LB-PARTY-004",
+    "name": "自由愛國運動 (Free Patriotic Movement)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 88
+   },
+   {
+    "org_id": "LB-PARTY-005",
+    "name": "黎巴嫩长枪党 (Kataeb Party)",
+    "category": "PARTY",
+    "subcategory": "coalition",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-PARTY-006",
+    "name": "社會進步黨 (黎巴嫩) (Progressive Socialist Party)",
+    "category": "PARTY",
+    "subcategory": "coalition",
+    "completeness": 89
+   },
+   {
+    "org_id": "LB-PARTY-007",
+    "name": "马拉达运动 (Marada Movement)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 79
+   },
+   {
+    "org_id": "LB-PARTY-008",
+    "name": "未来阵线 (Future Movement)",
+    "category": "PARTY",
+    "subcategory": null,
+    "completeness": 93
+   },
+   {
+    "org_id": "LB-PARTY-009",
+    "name": "敘利亞社會民族主義黨 (Syrian Social Nationalist Party)",
+    "category": "PARTY",
+    "subcategory": null,
+    "completeness": 93
+   },
+   {
+    "org_id": "LB-PARTY-010",
+    "name": "黎巴嫩共产党 (Lebanese Communist Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 95
+   },
+   {
+    "org_id": "LB-PARTY-011",
+    "name": "黎巴嫩亞美尼亞革命聯合會 (Armenian Revolutionary Federation)",
+    "category": "PARTY",
+    "subcategory": "coalition",
+    "completeness": 89
+   },
+   {
+    "org_id": "LB-PARTY-012",
+    "name": "黎巴嫩伊斯兰组织 (Islamic Group)",
+    "category": "PARTY",
+    "subcategory": "coalition",
+    "completeness": 84
+   },
+   {
+    "org_id": "LB-PARTY-013",
+    "name": "阿拉伯社会复兴党黎巴嫩地区分支（通称叙利亚复兴党黎巴嫩分支） (Arab Socialist Ba'ath Party - Lebanon Region)",
+    "category": "PARTY",
+    "subcategory": null,
+    "completeness": 89
+   }
+  ],
+  "output/om/2026-10-03/orgs/_index.json": [
+   {
+    "org_id": "OM-ACAD-001",
+    "name": "卡布斯苏丹大学 (Sultan Qaboos University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-ACAD-002",
+    "name": "尼兹瓦大学 (University of Nizwa)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 91
+   },
+   {
+    "org_id": "OM-ACAD-003",
+    "name": "苏哈尔大学 (Sohar University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 91
+   },
+   {
+    "org_id": "OM-ACAD-004",
+    "name": "阿曼德国工程技术大学 (German University of Technology in Oman)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 93
+   },
+   {
+    "org_id": "OM-ACAD-005",
+    "name": "佐法尔大学 (Dhofar University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 85
+   },
+   {
+    "org_id": "OM-ACAD-006",
+    "name": "阿曼技术与应用科学大学 (University of Technology and Applied Sciences)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 92
+   },
+   {
+    "org_id": "OM-CORP-001",
+    "name": "奥多阿曼 (Ooredoo Oman)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 91
+   },
+   {
+    "org_id": "OM-CORP-002",
+    "name": "奥瓦萨尔 (Awasr)",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-CORP-003",
+    "name": "MB控股公司 (MB Holding)",
+    "category": "CORP",
+    "subcategory": "conglomerate",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-CORP-004",
+    "name": "马哈石油产品销售公司 (Al Maha Petroleum Products Marketing Company (S.A.O.G.))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-001",
+    "name": "阿曼中央银行 (Central Bank of Oman)",
+    "category": "FIN",
+    "subcategory": "regulatory_agency",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-002",
+    "name": "马斯喀特银行 (Bank Muscat)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-003",
+    "name": "阿曼国民银行 (National Bank of Oman)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 88
+   },
+   {
+    "org_id": "OM-FIN-004",
+    "name": "佐法尔银行 (Bank Dhofar)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-005",
+    "name": "阿曼阿拉伯银行 (Oman Arab Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-006",
+    "name": "阿利兹伊斯兰银行 (Alizz Islamic Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-007",
+    "name": "苏哈尔国际银行 (Sohar International Bank SAOG)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-FIN-008",
+    "name": "尼兹瓦银行 (Bank Nizwa)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-FIN-009",
+    "name": "马斯喀特证券交易所 (Muscat Stock Exchange)",
+    "category": "FIN",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-FIN-018",
+    "name": "阿曼阿赫利银行 (Ahli Bank SAOG)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 55
+   },
+   {
+    "org_id": "OM-FIN-020",
+    "name": "阿拉伯银行 (Arab Bank plc)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 55
+   },
+   {
+    "org_id": "OM-GOV-001",
+    "name": "阿曼政府 (Cabinet of Oman)",
+    "category": "GOV",
+    "subcategory": "cabinet",
+    "completeness": 92
+   },
+   {
+    "org_id": "OM-GOV-002",
+    "name": "阿曼委员会 (Council of Oman)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 12
+   },
+   {
+    "org_id": "OM-GOV-003",
+    "name": "阿曼国务委员会 (State Council (Majlis al-Dawla))",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 88
+   },
+   {
+    "org_id": "OM-GOV-004",
+    "name": "阿曼协商会议 (Majlis A'Shura)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-GOV-005",
+    "name": "阿曼最高司法委员会 (Supreme Judicial Council)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-GOV-006",
+    "name": "阿曼最高法院 (Supreme Court of Oman)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 88
+   },
+   {
+    "org_id": "OM-GOV-007",
+    "name": "阿曼外交部 (Ministry of Foreign Affairs)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 85
+   },
+   {
+    "org_id": "OM-GOV-008",
+    "name": "阿曼国防部 (Ministry of Defence)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-GOV-009",
+    "name": "阿曼内政部 (Ministry of Interior)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-GOV-010",
+    "name": "阿曼财政部 (Ministry of Finance)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 91
+   },
+   {
+    "org_id": "OM-GOV-011",
+    "name": "阿曼教育部 (Ministry of Education (Oman))",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 93
+   },
+   {
+    "org_id": "OM-GOV-012",
+    "name": "阿曼卫生部 (Ministry of Health)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 91
+   },
+   {
+    "org_id": "OM-GOV-013",
+    "name": "阿曼商工与投资促进部 (Ministry of Trade, Industry and Investment Promotion)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 85
+   },
+   {
+    "org_id": "OM-GOV-014",
+    "name": "阿曼能源与矿产部 (Ministry of Energy and Minerals)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-GOV-015",
+    "name": "阿曼皇家宫廷办公厅 (Diwan of Royal Court)",
+    "category": "GOV",
+    "subcategory": "head_of_state",
+    "completeness": 68
+   },
+   {
+    "org_id": "OM-MEDIA-001",
+    "name": "阿曼电视台 (Oman TV)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-MEDIA-002",
+    "name": "阿曼通讯社 (Oman News Agency)",
+    "category": "MEDIA",
+    "subcategory": "news_agency",
+    "completeness": 88
+   },
+   {
+    "org_id": "OM-MEDIA-003",
+    "name": "阿曼观察报 (Oman Daily Observer)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-MEDIA-004",
+    "name": "阿曼時報 (Times of Oman)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-MEDIA-005",
+    "name": "阿曼《国家报》 (Alwatan)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 83
+   },
+   {
+    "org_id": "OM-MEDIA-006",
+    "name": "青年报（沙比巴报） (Al Shabiba)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-MIL-001",
+    "name": "阿曼苏丹武装力量 (Sultan's Armed Forces)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-MIL-002",
+    "name": "阿曼皇家陆军 (Royal Army of Oman)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-MIL-003",
+    "name": "阿曼皇家空军 (Royal Air Force of Oman)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 83
+   },
+   {
+    "org_id": "OM-MIL-004",
+    "name": "阿曼皇家海军 (Royal Navy of Oman)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 88
+   },
+   {
+    "org_id": "OM-MIL-005",
+    "name": "阿曼皇家卫队 (Royal Guard of Oman)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 75
+   },
+   {
+    "org_id": "OM-MIL-006",
+    "name": "阿曼皇家警察 (Royal Oman Police)",
+    "category": "MIL",
+    "subcategory": "security_agency",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-MIL-007",
+    "name": "阿曼国内安全局 (Internal Security Service)",
+    "category": "MIL",
+    "subcategory": "intelligence_agency",
+    "completeness": 71
+   },
+   {
+    "org_id": "OM-NGO-001",
+    "name": "阿曼慈善组织 (Oman Charitable Organization)",
+    "category": "NGO",
+    "subcategory": "charity",
+    "completeness": 92
+   },
+   {
+    "org_id": "OM-NGO-002",
+    "name": "达尔阿塔慈善协会 (Dar al Atta'a)",
+    "category": "NGO",
+    "subcategory": "charity",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-NGO-003",
+    "name": "阿曼环境协会 (Environment Society of Oman)",
+    "category": "NGO",
+    "subcategory": "charity",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-NGO-004",
+    "name": "阿曼工商会 (Oman Chamber of Commerce and Industry)",
+    "category": "NGO",
+    "subcategory": "professional_association",
+    "completeness": 91
+   },
+   {
+    "org_id": "OM-SOE-001",
+    "name": "阿曼投资局 (Oman Investment Authority)",
+    "category": "SOE",
+    "subcategory": "sovereign_wealth_fund",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-SOE-002",
+    "name": "阿曼石油開發公司 (Petroleum Development Oman)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-SOE-003",
+    "name": "阿曼国家能源集团 (OQ SAOC)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 93
+   },
+   {
+    "org_id": "OM-SOE-004",
+    "name": "阿曼液化天然气公司 (Oman LNG)",
+    "category": "SOE",
+    "subcategory": "joint_venture",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-SOE-005",
+    "name": "阿曼电信 (Omantel)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 95
+   },
+   {
+    "org_id": "OM-SOE-006",
+    "name": "阿曼航空 (Oman Air)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-SOE-007",
+    "name": "阿曼旅游发展公司 (Oman Tourism Development Company (OMRAN Group))",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 92
+   },
+   {
+    "org_id": "OM-SOE-008",
+    "name": "马达因工业区公署 (Madayn - Public Establishment for Industrial Estates)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 87
+   },
+   {
+    "org_id": "OM-SOE-009",
+    "name": "阿西亚德集团 (Asyad Group)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 92
+   }
+  ],
+  "output/la/2026-09-30/orgs/_index.json": [
+   {
+    "org_id": "LA-ACAD-001",
+    "name": "老挝国家大学 (National University of Laos (NUOL))",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 79
+   },
+   {
+    "org_id": "LA-ACAD-002",
+    "name": "苏发努冯大学 (Souphanouvong University (SU))",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 75
+   },
+   {
+    "org_id": "LA-ACAD-003",
+    "name": "老挝健康科学大学 (Lao University of Health Sciences (UHS))",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 83
+   },
+   {
+    "org_id": "LA-ACAD-004",
+    "name": "占巴塞大学 (Champasak University (CU))",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 77
+   },
+   {
+    "org_id": "LA-ACAD-005",
+    "name": "沙湾拿吉大学 (Savannakhet University (SKU))",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 85
+   },
+   {
+    "org_id": "LA-ACAD-006",
+    "name": "西萨旺·冯大学 (Sisavangvong University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-ACAD-007",
+    "name": "老挝国家科学委员会 (Lao National Science Council (LNSC))",
+    "category": "ACAD",
+    "subcategory": "research_institute",
+    "completeness": 68
+   },
+   {
+    "org_id": "LA-CORP-001",
+    "name": "老挝啤酒公司 (Lao Brewery Company (LBC))",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 69
+   },
+   {
+    "org_id": "LA-CORP-002",
+    "name": "老挝电信公司 (Lao Telecom (LTC))",
+    "category": "CORP",
+    "subcategory": "gov_linked_company",
+    "completeness": 72
+   },
+   {
+    "org_id": "LA-CORP-003",
+    "name": "LVMC控股 (LVMC Holdings)",
+    "category": "CORP",
+    "subcategory": "conglomerate",
+    "completeness": 71
+   },
+   {
+    "org_id": "LA-CORP-004",
+    "name": "老挝天空航空 (Lao Skyway (formerly Lao Air))",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 68
+   },
+   {
+    "org_id": "LA-CORP-005",
+    "name": "南屯2电力公司 (Nam Theun 2 Power Company (NTPC))",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 84
+   },
+   {
+    "org_id": "LA-CORP-006",
+    "name": "None (Indochina Research)",
+    "category": "CORP",
+    "subcategory": "private_company",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-FIN-001",
+    "name": "老挝人民民主共和国银行 (Bank of the Lao PDR (BOL))",
+    "category": "FIN",
+    "subcategory": "regulatory_agency",
+    "completeness": 83
+   },
+   {
+    "org_id": "LA-FIN-002",
+    "name": "老挝外贸银行 (Banque pour le Commerce Extérieur Lao (BCEL))",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 87
+   },
+   {
+    "org_id": "LA-FIN-003",
+    "name": "老挝发展银行 (Lao Development Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 81
+   },
+   {
+    "org_id": "LA-FIN-004",
+    "name": "农业促进银行 (Agricultural Promotion Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 85
+   },
+   {
+    "org_id": "LA-FIN-005",
+    "name": "那奥比银行 (Nayoby Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 85
+   },
+   {
+    "org_id": "LA-FIN-006",
+    "name": "None (None)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 5
+   },
+   {
+    "org_id": "LA-FIN-007",
+    "name": "None (Banque Franco-Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-008",
+    "name": "老中银行 (Lao China Bank (LCB))",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 84
+   },
+   {
+    "org_id": "LA-FIN-009",
+    "name": "None (Joint Development Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-010",
+    "name": "None (Phongsavanh Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-011",
+    "name": "None (Indochina Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-FIN-012",
+    "name": "None (ST Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-013",
+    "name": "None (Bank for Investment and Commerce)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-014",
+    "name": "None (Maruhan Japan Bank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-015",
+    "name": "None (Booyoung Lao Bank)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-016",
+    "name": "None (ACLEDA Bank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-017",
+    "name": "None (RHB Bank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-018",
+    "name": "None (Kasikornthai Bank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-019",
+    "name": "None (Sacombank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-020",
+    "name": "None (VietinBank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-021",
+    "name": "None (Vietcombank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-022",
+    "name": "None (Canadia Bank Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-023",
+    "name": "None (SHB Lao)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-FIN-024",
+    "name": "老挝证券交易所 (Lao Securities Exchange)",
+    "category": "FIN",
+    "subcategory": "regulatory_agency",
+    "completeness": 73
+   },
+   {
+    "org_id": "LA-GOV-001",
+    "name": "老挝人民民主共和国政府 (Government of the Lao PDR)",
+    "category": "GOV",
+    "subcategory": "cabinet",
+    "completeness": 80
+   },
+   {
+    "org_id": "LA-GOV-002",
+    "name": "老挝人民民主共和国主席 (President of Laos)",
+    "category": "GOV",
+    "subcategory": "head_of_state",
+    "completeness": 68
+   },
+   {
+    "org_id": "LA-GOV-003",
+    "name": "老挝国民议会 (National Assembly of Laos)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 84
+   },
+   {
+    "org_id": "LA-GOV-004",
+    "name": "老挝最高人民法院 (People's Supreme Court of Laos)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 69
+   },
+   {
+    "org_id": "LA-GOV-005",
+    "name": "外交部 (Ministry of Foreign Affairs of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 73
+   },
+   {
+    "org_id": "LA-GOV-006",
+    "name": "国防部 (Ministry of National Defence of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 83
+   },
+   {
+    "org_id": "LA-GOV-007",
+    "name": "公安部 (Ministry of Public Security of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 87
+   },
+   {
+    "org_id": "LA-GOV-008",
+    "name": "财政部 (Ministry of Finance of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 88
+   },
+   {
+    "org_id": "LA-GOV-009",
+    "name": "计划投资部 (Ministry of Planning and Investment of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 80
+   },
+   {
+    "org_id": "LA-GOV-010",
+    "name": "老挝工业与贸易部 (Ministry of Industry and Commerce of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 81
+   },
+   {
+    "org_id": "LA-GOV-011",
+    "name": "农业与林业部 (Ministry of Agriculture and Forestry of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 76
+   },
+   {
+    "org_id": "LA-GOV-012",
+    "name": "教育与体育部 (Ministry of Education and Sports of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 72
+   },
+   {
+    "org_id": "LA-GOV-013",
+    "name": "老挝卫生部 (Ministry of Health of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 69
+   },
+   {
+    "org_id": "LA-GOV-014",
+    "name": "老挝司法部 (Ministry of Justice of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 73
+   },
+   {
+    "org_id": "LA-GOV-015",
+    "name": "劳动与社会福利部 (Ministry of Labour and Social Welfare of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 77
+   },
+   {
+    "org_id": "LA-GOV-016",
+    "name": "新闻文化旅游部 (Ministry of Information, Culture and Tourism of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 83
+   },
+   {
+    "org_id": "LA-GOV-017",
+    "name": "公共工程与运输部 (Ministry of Public Works and Transport of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 77
+   },
+   {
+    "org_id": "LA-GOV-018",
+    "name": "能源与矿产部 (Ministry of Energy and Mines of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 85
+   },
+   {
+    "org_id": "LA-GOV-019",
+    "name": "自然资源与环境部 (Ministry of Natural Resources and Environment (MONRE))",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 47
+   },
+   {
+    "org_id": "LA-GOV-020",
+    "name": "技术与通信部 (Ministry of Technology and Communications of Laos (MTC))",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 84
+   },
+   {
+    "org_id": "LA-GOV-021",
+    "name": "内政部 (Ministry of Home Affairs of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 71
+   },
+   {
+    "org_id": "LA-GOV-022",
+    "name": "科技部 (Ministry of Science and Technology of Laos)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 61
+   },
+   {
+    "org_id": "LA-GOV-023",
+    "name": "国有企业改革委员会 (State Enterprise Reform Committee)",
+    "category": "GOV",
+    "subcategory": "statutory_board",
+    "completeness": 56
+   },
+   {
+    "org_id": "LA-INTL-001",
+    "name": "湄公河委员会 (Mekong River Commission (MRC))",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 91
+   },
+   {
+    "org_id": "LA-MEDIA-001",
+    "name": "巴特寮通讯社 (Khaosan Pathet Lao (KPL))",
+    "category": "MEDIA",
+    "subcategory": "news_agency",
+    "completeness": 81
+   },
+   {
+    "org_id": "LA-MEDIA-002",
+    "name": "老挝国家电视台 (Lao National TV (LNTV))",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 85
+   },
+   {
+    "org_id": "LA-MEDIA-003",
+    "name": "万象时报 (Vientiane Times)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 92
+   },
+   {
+    "org_id": "LA-MEDIA-004",
+    "name": "人民报 (Pasaxon (People's Newspaper))",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 79
+   },
+   {
+    "org_id": "LA-MEDIA-005",
+    "name": "革新者 (Le Rénovateur)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 68
+   },
+   {
+    "org_id": "LA-MEDIA-006",
+    "name": "新万象报 (Vientiane Mai)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 71
+   },
+   {
+    "org_id": "LA-MEDIA-007",
+    "name": "巴特寮报 (Pathet Lao (newspaper))",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 48
+   },
+   {
+    "org_id": "LA-MEDIA-008",
+    "name": "老挝时报 (Laotian Times)",
+    "category": "MEDIA",
+    "subcategory": "digital_media",
+    "completeness": 79
+   },
+   {
+    "org_id": "LA-MEDIA-009",
+    "name": "老挝之星电视台 (Lao Star TV)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 65
+   },
+   {
+    "org_id": "LA-MEDIA-010",
+    "name": "None (Big Brother Mouse)",
+    "category": "MEDIA",
+    "subcategory": "publisher",
+    "completeness": 12
+   },
+   {
+    "org_id": "LA-MEDIA-011",
+    "name": "None (Lao Phattana News)",
+    "category": "MEDIA",
+    "subcategory": "digital_media",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-MIL-001",
+    "name": "老挝人民军 (Lao People's Armed Forces (LPAF))",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 87
+   },
+   {
+    "org_id": "LA-NGO-001",
+    "name": "None (Elefantasia)",
+    "category": "NGO",
+    "subcategory": "advocacy_group",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-NGO-002",
+    "name": "None (Jhai Foundation)",
+    "category": "NGO",
+    "subcategory": "community_org",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-NGO-003",
+    "name": "None (Participatory Development Training Centre)",
+    "category": "NGO",
+    "subcategory": "humanitarian_org",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-NGO-004",
+    "name": "None (Rural Development Agency)",
+    "category": "NGO",
+    "subcategory": "humanitarian_org",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-NGO-005",
+    "name": "None (Lao Conservation Trust for Wildlife)",
+    "category": "NGO",
+    "subcategory": "advocacy_group",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-NGO-006",
+    "name": "None (Association for Rural Mobilisation and Improvement)",
+    "category": "NGO",
+    "subcategory": "humanitarian_org",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-NGO-007",
+    "name": "None (Global Association for People and the Environment)",
+    "category": "NGO",
+    "subcategory": "advocacy_group",
+    "completeness": 8
+   },
+   {
+    "org_id": "LA-NGO-008",
+    "name": "老挝公民社会组织平台 (Lao CSO Platform)",
+    "category": "NGO",
+    "subcategory": "community_org",
+    "completeness": 75
+   },
+   {
+    "org_id": "LA-NGO-009",
+    "name": "老挝国际非政府组织网络 (iNGO Network in the Lao PDR)",
+    "category": "NGO",
+    "subcategory": "community_org",
+    "completeness": 71
+   },
+   {
+    "org_id": "LA-NGO-010",
+    "name": "国际计划老挝国家办公室 (Plan International Laos)",
+    "category": "NGO",
+    "subcategory": "community_org",
+    "completeness": 72
+   },
+   {
+    "org_id": "LA-PARTY-001",
+    "name": "老挝人民革命党 (Lao People's Revolutionary Party (LPRP))",
+    "category": "PARTY",
+    "subcategory": "ruling_party",
+    "completeness": 87
+   },
+   {
+    "org_id": "LA-PARTY-002",
+    "name": "老挝建国阵线 (Lao Front for National Construction (LFNC))",
+    "category": "PARTY",
+    "subcategory": "coalition",
+    "completeness": 71
+   },
+   {
+    "org_id": "LA-PARTY-003",
+    "name": "保卫国家利益委员会 (Committee for the Defence of the National Interests)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-PARTY-004",
+    "name": "老挝国家进步党 (National Progressive Party (Laos))",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-PARTY-005",
+    "name": "老挝中立党 (Lao Neutralist Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-PARTY-006",
+    "name": "老挝和平中立党 (Peace and Neutrality Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-PARTY-007",
+    "name": "None (Lao People's Rally)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 12
+   },
+   {
+    "org_id": "LA-PARTY-008",
+    "name": "老挝国家联盟党 (Lao National Union Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-PARTY-009",
+    "name": "老挝独立党 (Independent Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-PARTY-010",
+    "name": "民主党 (Democratic Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 13
+   },
+   {
+    "org_id": "LA-PARTY-011",
+    "name": "None (Youth Movement)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 12
+   },
+   {
+    "org_id": "LA-PARTY-012",
+    "name": "None (Association of Northern Deputies)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-PARTY-013",
+    "name": "None (Lao Development Association)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 11
+   },
+   {
+    "org_id": "LA-SOE-001",
+    "name": "老挝电力公司（EDL） (Électricité du Laos (EDL))",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 76
+   },
+   {
+    "org_id": "LA-SOE-002",
+    "name": "老挝国家控股公司 (Lao Holding State Enterprise)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 63
+   },
+   {
+    "org_id": "LA-SOE-003",
+    "name": "老挝航空 (Lao Airlines)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 83
+   },
+   {
+    "org_id": "LA-SOE-004",
+    "name": "电气建设与安装国有企业 (Electrical Construction and Installation, State Enterprise)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 81
+   }
+  ],
+  "output/us/2026-09-05/orgs/_index.json": [
+   {
+    "org_id": "US-ACAD-001",
+    "name": "哈佛大學 (Harvard University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-ACAD-002",
+    "name": "麻省理工学院 (Massachusetts Institute of Technology)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-ACAD-003",
+    "name": "斯坦福大学 (Stanford University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-ACAD-004",
+    "name": "普林斯顿大学 (Princeton University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 89
+   },
+   {
+    "org_id": "US-ACAD-005",
+    "name": "耶鲁大学 (Yale University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-ACAD-006",
+    "name": "哥倫比亞大學 (Columbia University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-ACAD-007",
+    "name": "宾夕法尼亚大学 (University of Pennsylvania)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-ACAD-008",
+    "name": "康奈尔大学 (Cornell University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 89
+   },
+   {
+    "org_id": "US-ACAD-009",
+    "name": "布朗大学 (Brown University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 81
+   },
+   {
+    "org_id": "US-ACAD-010",
+    "name": "达特茅斯学院 (Dartmouth College)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-ACAD-011",
+    "name": "芝加哥大学 (University of Chicago)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-ACAD-012",
+    "name": "加州理工學院 (California Institute of Technology)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-ACAD-013",
+    "name": "约翰斯·霍普金斯大学 (Johns Hopkins University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-ACAD-014",
+    "name": "杜克大学 (Duke University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-ACAD-015",
+    "name": "西北大学 (Northwestern University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-ACAD-016",
+    "name": "加州大學柏克萊分校 (University of California, Berkeley)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-ACAD-017",
+    "name": "加州大学洛杉矶分校 (University of California, Los Angeles)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-ACAD-018",
+    "name": "密西根大学 (University of Michigan)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-ACAD-019",
+    "name": "得克萨斯大学奥斯汀分校 (University of Texas at Austin)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-ACAD-020",
+    "name": "卡内基梅隆大学 (Carnegie Mellon University)",
+    "category": "ACAD",
+    "subcategory": "university",
+    "completeness": 87
+   },
+   {
+    "org_id": "US-CORP-001",
+    "name": "沃尔玛 (Walmart Inc.)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-002",
+    "name": "亚马逊 (Amazon)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-003",
+    "name": "苹果公司 (Apple Inc.)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-004",
+    "name": "微軟 (Microsoft)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-005",
+    "name": "Alphabet公司 (Alphabet Inc.)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-006",
+    "name": "脸书公司 (Meta Platforms)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-007",
+    "name": "伯克希尔·哈撒韦 (Berkshire Hathaway)",
+    "category": "CORP",
+    "subcategory": "holding_company",
+    "completeness": 85
+   },
+   {
+    "org_id": "US-CORP-008",
+    "name": "聯合健康保險 (UnitedHealth Group)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-CORP-009",
+    "name": "埃克森美孚 (ExxonMobil)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-010",
+    "name": "雪佛龍股份有限公司 (Chevron Corporation)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-011",
+    "name": "CVS健康公司 (CVS Health)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-CORP-012",
+    "name": "麦克森公司 (McKesson Corporation)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 93
+   },
+   {
+    "org_id": "US-CORP-013",
+    "name": "特斯拉公司 (Tesla)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-014",
+    "name": "福特汽车 (Ford Motor Company)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-015",
+    "name": "通用汽车公司 (General Motors)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-016",
+    "name": "通用电气（GE航空航天） (General Electric (GE Aerospace))",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-CORP-017",
+    "name": "波音公司 (Boeing)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-018",
+    "name": "卡特彼勒 (Caterpillar Inc.)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-019",
+    "name": "洛克希德·马丁 (Lockheed Martin)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-CORP-020",
+    "name": "雷神科技公司 (RTX Corporation)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-021",
+    "name": "诺斯洛普·格鲁门 (Northrop Grumman Corporation)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-022",
+    "name": "通用动力 (General Dynamics)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 95
+   },
+   {
+    "org_id": "US-CORP-023",
+    "name": "英特尔 (Intel)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-024",
+    "name": "英伟达 (Nvidia)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-025",
+    "name": "高通 (Qualcomm)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-CORP-026",
+    "name": "思科系统 (Cisco Systems, Inc.)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-027",
+    "name": "国际商业机器公司 (IBM)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-028",
+    "name": "甲骨文公司 (Oracle Corporation)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-029",
+    "name": "輝瑞 (Pfizer)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-030",
+    "name": "強生公司 (Johnson & Johnson)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 89
+   },
+   {
+    "org_id": "US-CORP-031",
+    "name": "礼来公司 (Eli Lilly and Company)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-032",
+    "name": "宝洁公司 (Procter & Gamble)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-033",
+    "name": "可口可樂公司 (The Coca-Cola Company)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-034",
+    "name": "百事公司 (PepsiCo)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-035",
+    "name": "星巴克 (Starbucks)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-036",
+    "name": "耐克公司 (Nike, Inc.)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-037",
+    "name": "聯邦快遞 (FedEx)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-038",
+    "name": "联合包裹服务 (United Parcel Service)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-039",
+    "name": "华特迪士尼公司 (The Walt Disney Company)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-CORP-040",
+    "name": "康卡斯特 (Comcast)",
+    "category": "CORP",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-FIN-001",
+    "name": "聯邦儲備系統 (Federal Reserve System)",
+    "category": "FIN",
+    "subcategory": "independent_organ",
+    "completeness": 99
+   },
+   {
+    "org_id": "US-FIN-002",
+    "name": "摩根大通 (JPMorgan Chase)",
+    "category": "FIN",
+    "subcategory": "publicly_listed",
+    "completeness": 99
+   },
+   {
+    "org_id": "US-FIN-003",
+    "name": "美國銀行 (Bank of America)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-FIN-004",
+    "name": "花旗集团 (Citigroup)",
+    "category": "FIN",
+    "subcategory": "publicly_listed",
+    "completeness": 99
+   },
+   {
+    "org_id": "US-FIN-005",
+    "name": "富国银行集团 (Wells Fargo)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 99
+   },
+   {
+    "org_id": "US-FIN-006",
+    "name": "高盛 (Goldman Sachs)",
+    "category": "FIN",
+    "subcategory": "publicly_listed",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-FIN-007",
+    "name": "摩根士丹利 (Morgan Stanley)",
+    "category": "FIN",
+    "subcategory": "investment_bank",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-FIN-008",
+    "name": "全美银行 (U.S. Bancorp)",
+    "category": "FIN",
+    "subcategory": "publicly_listed",
+    "completeness": 87
+   },
+   {
+    "org_id": "US-FIN-009",
+    "name": "第一资本 (Capital One)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-FIN-010",
+    "name": "PNC金融服务集团 (PNC Financial Services)",
+    "category": "FIN",
+    "subcategory": "holding_company",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-FIN-011",
+    "name": "纽约梅隆银行 (The Bank of New York Mellon)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 95
+   },
+   {
+    "org_id": "US-FIN-012",
+    "name": "道富 (State Street Corporation)",
+    "category": "FIN",
+    "subcategory": "commercial_bank",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-FIN-013",
+    "name": "贝莱德 (BlackRock)",
+    "category": "FIN",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-FIN-014",
+    "name": "纽约证券交易所 (New York Stock Exchange)",
+    "category": "FIN",
+    "subcategory": "subsidiary",
+    "completeness": 84
+   },
+   {
+    "org_id": "US-FIN-015",
+    "name": "纳斯达克 (Nasdaq)",
+    "category": "FIN",
+    "subcategory": "publicly_listed",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-FIN-016",
+    "name": "维萨 (Visa Inc.)",
+    "category": "FIN",
+    "subcategory": "payment_institution",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-FIN-021",
+    "name": "领航投资（先锋集团） (The Vanguard Group)",
+    "category": "FIN",
+    "subcategory": "asset_management",
+    "completeness": 55
+   },
+   {
+    "org_id": "US-GOV-001",
+    "name": "美国国务院 (United States Department of State)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-GOV-002",
+    "name": "美国财政部 (United States Department of the Treasury)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-003",
+    "name": "美国国防部 (United States Department of Defense)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-GOV-004",
+    "name": "美国司法部 (United States Department of Justice)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-005",
+    "name": "美国内政部 (United States Department of the Interior)",
+    "category": "GOV",
+    "subcategory": "cabinet",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-GOV-006",
+    "name": "美国农业部 (United States Department of Agriculture)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 95
+   },
+   {
+    "org_id": "US-GOV-007",
+    "name": "美国商务部 (United States Department of Commerce)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-008",
+    "name": "美国劳工部 (United States Department of Labor)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 85
+   },
+   {
+    "org_id": "US-GOV-009",
+    "name": "美国卫生及公共服务部 (United States Department of Health and Human Services)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-010",
+    "name": "美国住房与城市发展部 (United States Department of Housing and Urban Development)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-GOV-011",
+    "name": "美国运输部 (United States Department of Transportation)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-GOV-012",
+    "name": "美國能源部 (United States Department of Energy)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-GOV-013",
+    "name": "美國教育部 (United States Department of Education)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-GOV-014",
+    "name": "美国退伍军人事务部 (United States Department of Veterans Affairs)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-GOV-015",
+    "name": "美國國土安全部 (United States Department of Homeland Security)",
+    "category": "GOV",
+    "subcategory": "ministry",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-GOV-016",
+    "name": "美国总统行政办公室 (Executive Office of the President of the United States)",
+    "category": "GOV",
+    "subcategory": "head_of_state",
+    "completeness": 99
+   },
+   {
+    "org_id": "US-GOV-017",
+    "name": "美國國會 (United States Congress)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-GOV-018",
+    "name": "美國參議院 (United States Senate)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 91
+   },
+   {
+    "org_id": "US-GOV-019",
+    "name": "美国众议院 (United States House of Representatives)",
+    "category": "GOV",
+    "subcategory": "legislature",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-020",
+    "name": "美國最高法院 (Supreme Court of the United States)",
+    "category": "GOV",
+    "subcategory": "judiciary",
+    "completeness": 89
+   },
+   {
+    "org_id": "US-GOV-021",
+    "name": "美国环境保护署 (Environmental Protection Agency)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-GOV-022",
+    "name": "中央情报局 (Central Intelligence Agency)",
+    "category": "GOV",
+    "subcategory": "intelligence_agency",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-GOV-023",
+    "name": "聯邦調查局 (Federal Bureau of Investigation)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-024",
+    "name": "美国国家航空航天局 (National Aeronautics and Space Administration)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-GOV-025",
+    "name": "美國貿易代表處 (Office of the United States Trade Representative)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-026",
+    "name": "美国进出口银行 (Export-Import Bank of the United States)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-027",
+    "name": "美国国际贸易委员会 (United States International Trade Commission)",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 95
+   },
+   {
+    "org_id": "US-GOV-028",
+    "name": "美国联邦通信委员会 (Federal Communications Commission)",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-029",
+    "name": "美国证券交易委员会 (United States Securities and Exchange Commission)",
+    "category": "GOV",
+    "subcategory": "regulatory_agency",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-GOV-030",
+    "name": "聯邦貿易委員會 (Federal Trade Commission)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-031",
+    "name": "小商業局 (Small Business Administration)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-GOV-032",
+    "name": "美国国家科学基金会 (National Science Foundation)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-GOV-033",
+    "name": "國家標準技術研究所 (National Institute of Standards and Technology)",
+    "category": "GOV",
+    "subcategory": "independent_organ",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-INTL-001",
+    "name": "联合国 (United Nations)",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-INTL-002",
+    "name": "美洲国家组织 (Organization of American States)",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 89
+   },
+   {
+    "org_id": "US-INTL-003",
+    "name": "世界銀行集團 (World Bank Group)",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-INTL-004",
+    "name": "國際貨幣基金組織 (International Monetary Fund)",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-INTL-011",
+    "name": "国际复兴开发银行 (International Bank for Reconstruction and Development)",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 55
+   },
+   {
+    "org_id": "US-INTL-023",
+    "name": "联合国儿童基金会 (UNICEF)",
+    "category": "INTL",
+    "subcategory": "multilateral_org",
+    "completeness": 55
+   },
+   {
+    "org_id": "US-MEDIA-001",
+    "name": "纽约时报 (The New York Times)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-MEDIA-002",
+    "name": "华尔街日报 (The Wall Street Journal)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-MEDIA-003",
+    "name": "华盛顿邮报 (The Washington Post)",
+    "category": "MEDIA",
+    "subcategory": "newspaper",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-MEDIA-004",
+    "name": "有线电视新闻网 (CNN)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-005",
+    "name": "福斯新聞頻道 (Fox News)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-006",
+    "name": "MS NOW（原MSNBC） (MS NOW)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-MEDIA-007",
+    "name": "全國廣播公司 (NBC)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-008",
+    "name": "美国广播公司 (American Broadcasting Company)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-009",
+    "name": "哥倫比亞廣播公司 (CBS)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-010",
+    "name": "彭博有限合夥企業 (Bloomberg L.P.)",
+    "category": "MEDIA",
+    "subcategory": "private_company",
+    "completeness": 93
+   },
+   {
+    "org_id": "US-MEDIA-011",
+    "name": "美联社 (Associated Press)",
+    "category": "MEDIA",
+    "subcategory": "news_agency",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-012",
+    "name": "全国公共广播电台 (NPR)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MEDIA-013",
+    "name": "公共电视网 (PBS)",
+    "category": "MEDIA",
+    "subcategory": "broadcaster",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-MEDIA-014",
+    "name": "Politico雜誌 (Politico)",
+    "category": "MEDIA",
+    "subcategory": "digital_media",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-MEDIA-015",
+    "name": "時代雜誌 (Time)",
+    "category": "MEDIA",
+    "subcategory": "digital_media",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-001",
+    "name": "美国陆军 (United States Army)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-MIL-002",
+    "name": "美國海軍 (United States Navy)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-003",
+    "name": "美国空军 (United States Air Force)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-004",
+    "name": "美國太空軍 (United States Space Force)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-005",
+    "name": "美国海岸警卫队 (United States Coast Guard)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-006",
+    "name": "美国中央司令部 (United States Central Command)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-007",
+    "name": "美国印太司令部 (United States Indo-Pacific Command)",
+    "category": "MIL",
+    "subcategory": "armed_forces",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-MIL-008",
+    "name": "國防高等研究計劃署 (Defense Advanced Research Projects Agency)",
+    "category": "MIL",
+    "subcategory": "defence_technology",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-MIL-009",
+    "name": "美国国家安全局 (National Security Agency)",
+    "category": "MIL",
+    "subcategory": "intelligence_agency",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-NGO-001",
+    "name": "美国外交关系协会 (Council on Foreign Relations)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-NGO-002",
+    "name": "布鲁金斯学会 (Brookings Institution)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-NGO-003",
+    "name": "卡内基国际和平基金会 (Carnegie Endowment for International Peace)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-NGO-004",
+    "name": "大西洋理事會 (Atlantic Council)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-NGO-005",
+    "name": "战略与国际研究中心 (Center for Strategic and International Studies)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-NGO-006",
+    "name": "兰德公司 (RAND Corporation)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-NGO-007",
+    "name": "美国传统基金会 (The Heritage Foundation)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-NGO-008",
+    "name": "伍德羅·威爾遜國際學者中心 (Woodrow Wilson International Center for Scholars)",
+    "category": "NGO",
+    "subcategory": "think_tank",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-NGO-009",
+    "name": "自由之家 (Freedom House)",
+    "category": "NGO",
+    "subcategory": "advocacy_group",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-NGO-010",
+    "name": "美国国家民主基金会 (National Endowment for Democracy)",
+    "category": "NGO",
+    "subcategory": "advocacy_group",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-NGO-011",
+    "name": "人权观察 (Human Rights Watch)",
+    "category": "NGO",
+    "subcategory": "advocacy_group",
+    "completeness": 88
+   },
+   {
+    "org_id": "US-NGO-012",
+    "name": "美國福特基金會 (Ford Foundation)",
+    "category": "NGO",
+    "subcategory": "foundation",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-NGO-013",
+    "name": "亞洲協會 (Asia Society)",
+    "category": "NGO",
+    "subcategory": "community_org",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-NGO-014",
+    "name": "美國商會 (United States Chamber of Commerce)",
+    "category": "NGO",
+    "subcategory": "professional_association",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-NGO-015",
+    "name": "美國東協商會 (US-ASEAN Business Council)",
+    "category": "NGO",
+    "subcategory": "professional_association",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-PARTY-001",
+    "name": "民主党 (Democratic Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-PARTY-002",
+    "name": "共和党 (Republican Party)",
+    "category": "PARTY",
+    "subcategory": "ruling_party",
+    "completeness": 96
+   },
+   {
+    "org_id": "US-PARTY-003",
+    "name": "自由党 (Libertarian Party)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-PARTY-004",
+    "name": "绿党 (Green Party of the United States)",
+    "category": "PARTY",
+    "subcategory": "opposition_party",
+    "completeness": 97
+   },
+   {
+    "org_id": "US-SOE-001",
+    "name": "美國郵政署 (United States Postal Service)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-SOE-002",
+    "name": "美鐵 (Amtrak)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-SOE-003",
+    "name": "田納西河谷管理局 (Tennessee Valley Authority)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 95
+   },
+   {
+    "org_id": "US-SOE-004",
+    "name": "房利美 (Fannie Mae)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   },
+   {
+    "org_id": "US-SOE-005",
+    "name": "房地美 (Freddie Mac)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 92
+   },
+   {
+    "org_id": "US-SOE-006",
+    "name": "美国国际开发金融公司 (United States International Development Finance Corporation)",
+    "category": "SOE",
+    "subcategory": "state_owned_enterprise",
+    "completeness": 100
+   }
+  ]
+ },
+ "remap": {
+  "TJ-MEDIA-011": "US-MEDIA-039"
+ }
+}

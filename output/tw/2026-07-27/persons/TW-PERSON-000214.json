@@ -3,9 +3,10 @@
   "wikidata_qid": "Q5925638",
   "name": "黄敏惠",
   "name_en": "Huang Ming-hui",
-  "name_local": "黃敏惠",
   "name_zh": "黄敏惠",
-  "aliases": [],
+  "aliases": [
+    "黃敏惠"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1959-01-20",
@@ -19,22 +20,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-013",
-      "org_name": "中國國民黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -73,20 +59,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/%E9%BB%83%E6%95%8F%E6%83%A0%E7%B2%89%E7%B5%B2%E5%B0%88%E9%A0%81%E5%A4%A7%E9%A0%AD%E7%85%A7.jpg/250px-%E9%BB%83%E6%95%8F%E6%83%A0%E7%B2%89%E7%B5%B2%E5%B0%88%E9%A0%81%E5%A4%A7%E9%A0%AD%E7%85%A7.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000214.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%83%E6%95%8F%E6%83%A0%E7%B2%89%E7%B5%B2%E5%B0%88%E9%A0%81%E5%A4%A7%E9%A0%AD%E7%85%A7.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000214.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5925638"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q5925638"
+      }
+    ]
   }
 }

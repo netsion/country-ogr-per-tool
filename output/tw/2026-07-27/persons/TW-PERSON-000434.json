@@ -3,9 +3,10 @@
   "wikidata_qid": "Q197155",
   "name": "张爱玲",
   "name_en": "Eileen Chang",
-  "name_local": "張愛玲",
   "name_zh": "张爱玲",
-  "aliases": [],
+  "aliases": [
+    "張愛玲"
+  ],
   "nationality": "TW",
   "gender": "female",
   "birth_date": "1920-09-30",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/1944%E5%B9%B4%E7%9A%84%E5%BC%A0%E7%88%B1%E7%8E%B2.jpg/250px-1944%E5%B9%B4%E7%9A%84%E5%BC%A0%E7%88%B1%E7%8E%B2.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000434.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/1944%E5%B9%B4%E7%9A%84%E5%BC%A0%E7%88%B1%E7%8E%B2.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000434.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Writer",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q197155"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q197155"
+      }
+    ]
   }
 }

@@ -1,0 +1,5925 @@
+[
+  {
+    "sample_number": 1,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「SB金融公司 (SB Finance, Inc.)」与目标「菲律宾反贪法院」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000607.json",
+        "array": "work_experience",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "PH-GOV-008",
+        "expected_reference": "SB金融公司 (SB Finance, Inc.)",
+        "owner_id": "PH-PERSON-000607"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000607.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-GOV-008.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 2,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「性别平等：公民、工作与家庭公民组织 (Equidad de Género: Ciudadanía, Trabajo y Familia A.C.)」与目标「国家理工学院」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000399.json",
+        "array": "work_experience",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-003",
+        "expected_reference": "性别平等：公民、工作与家庭公民组织 (Equidad de Género: Ciudadanía, Trabajo y Familia A.C.)",
+        "owner_id": "MX-PERSON-000399"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000399.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-003.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 3,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "Enel X能源服务公司与Entel电信是不同公司，0.90高相似是拼写近似误判。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\orgs\\CL-CORP-010.json",
+        "array": "related_entities",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "CL-CORP-008",
+        "expected_reference": "智利Enel X公司 (Enel X Chile)",
+        "owner_id": "CL-CORP-010"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\orgs\\CL-CORP-010.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-CORP-008.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.enelx.com/cl/es/privacidad"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 4,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "组织引用填入PERSON类ID，且注册身份为人物，不符合实体类型。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000133.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "VN-PERSON-000002",
+        "expected_reference": "宁平省委民运部（Ban Dân vận Tỉnh ủy Ninh Bình）",
+        "owner_id": "VN-PERSON-000133"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000133.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 5,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「颂蓬·奇瓦帕尼雅罗 (Songpol Chevapanyaroj)」与目标「สมภพ พัฒนอริยางกูล」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000399.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "TH-PERSON-000088",
+        "expected_reference": "颂蓬·奇瓦帕尼雅罗 (Songpol Chevapanyaroj)",
+        "owner_id": "TH-PERSON-000399"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000399.json",
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000088.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 6,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「菲多利 (Frito-Lay, Inc.)」与目标「特斯拉公司」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\orgs\\US-CORP-034.json",
+        "array": "related_entities",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "US-CORP-013",
+        "expected_reference": "菲多利 (Frito-Lay, Inc.)",
+        "owner_id": "US-CORP-034"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\orgs\\US-CORP-034.json",
+      "output\\us\\2026-09-05\\orgs\\US-CORP-013.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 7,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "同一众议院，LXIV仅为立法届次限定，不是另一机构。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000503.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "MX-GOV-004",
+        "expected_reference": "联邦众议院 LXIV 届立法届 (Cámara de Diputados, LXIV Legislatura)",
+        "owner_id": "MX-PERSON-000503"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000503.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-GOV-004.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 8,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「Pigier 科特迪瓦 (Pigier Côte d'Ivoire)」与目标「科特迪瓦Moov电信」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\orgs\\CI-ACAD-011.json",
+        "array": "related_entities",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "CI-CORP-003",
+        "expected_reference": "Pigier 科特迪瓦 (Pigier Côte d'Ivoire)",
+        "owner_id": "CI-ACAD-011"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\orgs\\CI-ACAD-011.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-CORP-003.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 9,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ug\\2026-10-27\\orgs\\UG-GOV-047.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "UG-SOE-004",
+        "expected_reference": "乌干达电力发电有限公司 (Uganda Electricity Generation Company Limited, UEGCL)",
+        "owner_id": "UG-GOV-047"
+      }
+    ],
+    "local_evidence": [
+      "output\\ug\\2026-10-27\\orgs\\UG-GOV-047.json",
+      "output\\ug\\2026-10-27\\orgs\\UG-SOE-004.json",
+      "output\\ug\\2026-10-27\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 10,
+    "action": "保留",
+    "category": "审计姓名字段误读",
+    "reason": "实际关系姓名存在name字段且为刘子平，与目标一致；审计漏读name产生空名称误报。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000590.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "TH-PERSON-000589",
+        "expected_reference": "刘子平 (Liu Ziping)",
+        "owner_id": "TH-PERSON-000590"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000590.json",
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000589.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 11,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「卡洛斯·费利佩·富恩特斯·德尔里奥 (Carlos Felipe Fuentes del Río)」与目标「Edna Elena Vega Rangel」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000031.json",
+        "array": "person_relationships",
+        "index": 3,
+        "field": "person_id",
+        "expected_id": "MX-PERSON-000041",
+        "expected_reference": "卡洛斯·费利佩·富恩特斯·德尔里奥 (Carlos Felipe Fuentes del Río)",
+        "owner_id": "MX-PERSON-000031"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000031.json",
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000041.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 12,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "总统办公厅与总统职务画像不是同一实体，需确定是否允许映射元首职务。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\orgs\\KG-GOV-015.json",
+        "array": "related_entities",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "KG-GOV-001",
+        "expected_reference": "总统办公厅(Аппарат Президента)",
+        "owner_id": "KG-GOV-015"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\orgs\\KG-GOV-015.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-GOV-001.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 13,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「土库曼斯坦环境保护部 (Türkmenistanyň daşky gurşawy goramak ministrligi)」与目标「土庫曼天然氣公司」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\tm\\2026-10-02\\persons\\TM-PERSON-000106.json",
+        "array": "work_experience",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "TM-SOE-001",
+        "expected_reference": "土库曼斯坦环境保护部 (Türkmenistanyň daşky gurşawy goramak ministrligi)",
+        "owner_id": "TM-PERSON-000106"
+      },
+      {
+        "file": "output\\tm\\2026-10-02\\persons\\TM-PERSON-000106.json",
+        "array": "work_experience",
+        "index": 12,
+        "field": "org_id",
+        "expected_id": "TM-SOE-001",
+        "expected_reference": "土库曼斯坦环境保护部 (Türkmenistanyň daşky gurşawy goramak ministrligi)",
+        "owner_id": "TM-PERSON-000106"
+      }
+    ],
+    "local_evidence": [
+      "output\\tm\\2026-10-02\\persons\\TM-PERSON-000106.json",
+      "output\\tm\\2026-10-02\\orgs\\TM-SOE-001.json",
+      "output\\tm\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 14,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「万特鲁斯特资本资产管理公司 (Vantrust Capital Asset Management S.A.)」与目标「圣地亚哥地铁」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\persons\\CL-PERSON-000190.json",
+        "array": "work_experience",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "CL-SOE-007",
+        "expected_reference": "万特鲁斯特资本资产管理公司 (Vantrust Capital Asset Management S.A.)",
+        "owner_id": "CL-PERSON-000190"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\persons\\CL-PERSON-000190.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-SOE-007.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 15,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "注册同ID是Simon Moutter/Bill Moran，而引用是Bill English，既有注册冲突也不是同一人。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000768.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "NZ-PERSON-000078",
+        "expected_reference": "比尔·英格利希(Bill English)",
+        "owner_id": "NZ-PERSON-000768"
+      }
+    ],
+    "local_evidence": [
+      "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000768.json",
+      "output\\nz\\2026-06-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 16,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "部长个人办公室与Attorney-General部门的雇佣组织粒度不同，不能作为完全同名。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\au\\2026-05-08\\persons\\AU-PERSON-000515.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "AU-GOV-007",
+        "expected_reference": "澳大利亚联邦总检察长办公室(Office of the Federal Attorney General Daryl Williams)",
+        "owner_id": "AU-PERSON-000515"
+      }
+    ],
+    "local_evidence": [
+      "output\\au\\2026-05-08\\persons\\AU-PERSON-000515.json",
+      "output\\au\\2026-05-08\\orgs\\AU-GOV-007.json",
+      "output\\au\\2026-05-08\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 17,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "VinFast与Vingroup是不同公司层级，不能当作别名直接合并。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\orgs\\VN-CORP-001.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "VN-CORP-001",
+        "expected_reference": "VinFast汽车 (VinFast Auto Ltd.)",
+        "owner_id": "VN-CORP-001"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\orgs\\VN-CORP-001.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 18,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "SK Networks与SK hynix是不同公司，共享SK品牌不构成同一法人。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-020.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "KR-CORP-002",
+        "expected_reference": "SK Networks",
+        "owner_id": "KR-CORP-020"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\orgs\\KR-CORP-020.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-CORP-002.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 19,
+    "action": "暂缓",
+    "category": "历史改组",
+    "reason": "旧部委名称与当前工业贸易部可能有历史延续，需按任期核实改组范围。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ma\\2026-10-05\\persons\\MA-PERSON-000044.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "MA-GOV-010",
+        "expected_reference": "摩洛哥工业、贸易与新技术部 (Ministère de l'Industrie, du Commerce et des Nouvelles technologies)",
+        "owner_id": "MA-PERSON-000044"
+      },
+      {
+        "file": "output\\ma\\2026-10-05\\persons\\MA-PERSON-000044.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "MA-GOV-010",
+        "expected_reference": "摩洛哥工业、贸易与新技术部 (Ministère de l'Industrie, du Commerce et des Nouvelles technologies)",
+        "owner_id": "MA-PERSON-000044"
+      },
+      {
+        "file": "output\\ma\\2026-10-05\\persons\\MA-PERSON-000044.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MA-GOV-010",
+        "expected_reference": "摩洛哥工业、贸易与新技术部 (Ministère de l'Industrie, du Commerce et des Nouvelles technologies)",
+        "owner_id": "MA-PERSON-000044"
+      }
+    ],
+    "local_evidence": [
+      "output\\ma\\2026-10-05\\persons\\MA-PERSON-000044.json",
+      "output\\ma\\2026-10-05\\orgs\\MA-GOV-010.json",
+      "output\\ma\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 20,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「美洲报业集团 (Grupo de Diarios América / GDA)」与目标「沃尔玛墨西哥与中美洲」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\orgs\\MX-MEDIA-004.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MX-CORP-002",
+        "expected_reference": "美洲报业集团 (Grupo de Diarios América / GDA)",
+        "owner_id": "MX-MEDIA-004"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\orgs\\MX-MEDIA-004.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-CORP-002.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 21,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「新西兰超级年金基金(New Zealand Superannuation Fund)」与目标「高等教育委员会(Tertiary Education Commission)」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000025.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "NZ-GOV-052",
+        "expected_reference": "新西兰超级年金基金(New Zealand Superannuation Fund)",
+        "owner_id": "NZ-PERSON-000025"
+      }
+    ],
+    "local_evidence": [
+      "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000025.json",
+      "output\\nz\\2026-06-04\\orgs\\NZ-GOV-052.json",
+      "output\\nz\\2026-06-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 22,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「萨利赫·卡拉卜 (صالح القلاب)」与目标「صالح الخرابشة」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jo\\2026-09-17\\persons\\JO-PERSON-000028.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "JO-PERSON-000046",
+        "expected_reference": "萨利赫·卡拉卜 (صالح القلاب)",
+        "owner_id": "JO-PERSON-000028"
+      }
+    ],
+    "local_evidence": [
+      "output\\jo\\2026-09-17\\persons\\JO-PERSON-000028.json",
+      "output\\jo\\2026-09-17\\persons\\JO-PERSON-000046.json",
+      "output\\jo\\2026-09-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 23,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「En+集团 (En+ Group International PJSC)」与目标「VK公司（前Mail.ru集团）」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000112.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "RU-CORP-013",
+        "expected_reference": "En+集团 (En+ Group International PJSC)",
+        "owner_id": "RU-PERSON-000112"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000112.json",
+      "output\\ru\\2026-05-26\\orgs\\RU-CORP-013.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 24,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「科拉松·阿基诺 (Corazon Aquino)」与目标「Corazon G. Ferrer-Flores」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000467.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "PH-PERSON-000040",
+        "expected_reference": "科拉松·阿基诺 (Corazon Aquino)",
+        "owner_id": "PH-PERSON-000467"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000467.json",
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000040.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 25,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "司法机构执行委员会不等于最高法院；目标别名含整个司法系统也不足以证明同一实体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000047.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "PE-GOV-023",
+        "expected_reference": "司法机构执行委员会 (Consejo Ejecutivo del Poder Judicial)",
+        "owner_id": "PE-PERSON-000047"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000047.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-GOV-023.json",
+      "output\\pe\\2026-10-01\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 26,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「反思、调查与传播团队 (Equipo de Reflexión, Investigación y Comunicación, ERIC)（洪都拉斯）(反思、调查与传播团队 (Equipo de Reflexión, Investigación y Comunicación, ERIC)（洪都拉斯）)」与目标「尼加拉瓜国立自治大学莱昂校区」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ni\\2026-10-28\\persons\\NI-PERSON-000215.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "NI-ACAD-002",
+        "expected_reference": "反思、调查与传播团队 (Equipo de Reflexión, Investigación y Comunicación, ERIC)（洪都拉斯）(反思、调查与传播团队 (Equipo de Reflexión, Investigación y Comunicación, ERIC)（洪都拉斯）)",
+        "owner_id": "NI-PERSON-000215"
+      }
+    ],
+    "local_evidence": [
+      "output\\ni\\2026-10-28\\persons\\NI-PERSON-000215.json",
+      "output\\ni\\2026-10-28\\orgs\\NI-ACAD-002.json",
+      "output\\ni\\2026-10-28\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 27,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "PE-GOV-029",
+        "expected_reference": "秘鲁国家海关与税务总署 (Superintendencia Nacional de Aduanas y de Administración Tributaria, SUNAT)",
+        "owner_id": "PE-PERSON-000063"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000063.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-GOV-029.json",
+      "output\\pe\\2026-10-01\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 28,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「智利国家卫生改革委员会 (Comisión Nacional de la Reforma de Salud)」与目标「智利金融市场委员会」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\persons\\CL-PERSON-000490.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "CL-GOV-038",
+        "expected_reference": "智利国家卫生改革委员会 (Comisión Nacional de la Reforma de Salud)",
+        "owner_id": "CL-PERSON-000490"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\persons\\CL-PERSON-000490.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-GOV-038.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 29,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「多媒体基金会 (Fundación Multimedios)」与目标「卡洛斯·斯利姆基金会」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000200.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MX-NGO-001",
+        "expected_reference": "多媒体基金会 (Fundación Multimedios)",
+        "owner_id": "MX-PERSON-000200"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000200.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-NGO-001.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 30,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「阿玛多·克鲁斯·蒙特斯 (Amado Cruz Montes)」与目标「José Manuel Cruz Castellanos」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000475.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "MX-PERSON-000264",
+        "expected_reference": "阿玛多·克鲁斯·蒙特斯 (Amado Cruz Montes)",
+        "owner_id": "MX-PERSON-000475"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000475.json",
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000264.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 31,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「En+集团（En+ Group / ПАО «Эн+ Груп»）」与目标「VK公司（前Mail.ru集团）」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\orgs\\RU-CORP-008.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "RU-CORP-013",
+        "expected_reference": "En+集团（En+ Group / ПАО «Эн+ Груп»）",
+        "owner_id": "RU-CORP-008"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\orgs\\RU-CORP-008.json",
+      "output\\ru\\2026-05-26\\orgs\\RU-CORP-013.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 32,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「安吉丽娜·E·博里坎 (Angelina E. Borican)」与目标「Renato E. Reside Jr.」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000748.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "PH-PERSON-000076",
+        "expected_reference": "安吉丽娜·E·博里坎 (Angelina E. Borican)",
+        "owner_id": "PH-PERSON-000748"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000748.json",
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000076.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 33,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「柳浩贞（류호정）」与目标「임종룡」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000339.json",
+        "array": "person_relationships",
+        "index": 3,
+        "field": "person_id",
+        "expected_id": "KR-PERSON-000764",
+        "expected_reference": "柳浩贞（류호정）",
+        "owner_id": "KR-PERSON-000339"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000339.json",
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000764.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 34,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "事务总长官房是会计检查院内部单位，需先确定部门是否允许指向上级。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000177.json",
+        "array": "work_experience",
+        "index": 18,
+        "field": "org_id",
+        "expected_id": "JP-GOV-020",
+        "expected_reference": "会计检查院事务总长官房（会計検査院事務総長官房）",
+        "owner_id": "JP-PERSON-000177"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000177.json",
+        "array": "work_experience",
+        "index": 19,
+        "field": "org_id",
+        "expected_id": "JP-GOV-020",
+        "expected_reference": "会计检查院事务总长官房（会計検査院事務総長官房）",
+        "owner_id": "JP-PERSON-000177"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000177.json",
+      "output\\jp\\2026-06-09\\orgs\\JP-GOV-020.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 35,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「比利时通用银行 (Générale de Banque)」与目标「格拉本天主教大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cd\\2026-10-05\\persons\\CD-PERSON-000215.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "CD-ACAD-009",
+        "expected_reference": "比利时通用银行 (Générale de Banque)",
+        "owner_id": "CD-PERSON-000215"
+      }
+    ],
+    "local_evidence": [
+      "output\\cd\\2026-10-05\\persons\\CD-PERSON-000215.json",
+      "output\\cd\\2026-10-05\\orgs\\CD-ACAD-009.json",
+      "output\\cd\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 36,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「伊乌萨塞尔移动通信 (Iusacell)」与目标「海军秘书处」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000003.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "MX-GOV-011",
+        "expected_reference": "伊乌萨塞尔移动通信 (Iusacell)",
+        "owner_id": "MX-PERSON-000003"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000003.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-GOV-011.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 37,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "当前画像明确为吉尔吉斯财政部；registry中的尼日尔旧标签有误，不据此改动正确引用。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+        "array": "work_experience",
+        "index": 15,
+        "field": "org_id",
+        "expected_id": "KG-GOV-010",
+        "expected_reference": "吉尔吉斯共和国财政部 (Министерство финансов Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000354"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\persons\\KG-PERSON-000354.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-GOV-010.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 38,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "空军与整个国民军存在层级差异，保留原引用待统一粒度规则。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ly\\2026-10-05\\persons\\LY-PERSON-000118.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "LY-MIL-001",
+        "expected_reference": "利比亚国民军空军（亲国民军派系）(利比亚国民军空军（亲国民军派系） (سلاح الجو - الجيش الوطني الليبي))",
+        "owner_id": "LY-PERSON-000118"
+      },
+      {
+        "file": "output\\ly\\2026-10-05\\persons\\LY-PERSON-000118.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "LY-MIL-001",
+        "expected_reference": "利比亚国民军空军（亲国民军派系）(利比亚国民军空军（亲国民军派系） (سلاح الجو - الجيش الوطني الليبي))",
+        "owner_id": "LY-PERSON-000118"
+      }
+    ],
+    "local_evidence": [
+      "output\\ly\\2026-10-05\\persons\\LY-PERSON-000118.json",
+      "output\\ly\\2026-10-05\\orgs\\LY-MIL-001.json",
+      "output\\ly\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 39,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「明蒂米尔·沙伊米耶夫 (Минтимер Шаймиев)」与目标「Александр Владимирович Сидорович」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000094.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "RU-PERSON-000015",
+        "expected_reference": "明蒂米尔·沙伊米耶夫 (Минтимер Шаймиев)",
+        "owner_id": "RU-PERSON-000094"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000094.json",
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000015.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 40,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「努尔兰·阿汉扎里波夫 (Нурлан Аханжарипов)」与目标「Нұрлан Құдиярұлы Бекназаров」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kz\\2026-09-25\\orgs\\KZ-SOE-006.json",
+        "array": "key_people",
+        "index": 4,
+        "field": "person_id",
+        "expected_id": "KZ-PERSON-000035",
+        "expected_reference": "努尔兰·阿汉扎里波夫 (Нурлан Аханжарипов)",
+        "owner_id": "KZ-SOE-006"
+      }
+    ],
+    "local_evidence": [
+      "output\\kz\\2026-09-25\\orgs\\KZ-SOE-006.json",
+      "output\\kz\\2026-09-25\\persons\\KZ-PERSON-000035.json",
+      "output\\kz\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 41,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用Silvano Garay，目标是Irma Garay（并为引用方本人），同姓及0.79不能覆盖不同人和自指问题。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000491.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "MX-PERSON-000491",
+        "expected_reference": "西尔瓦诺·加赖·洛雷多 (Silvano Garay Loredo)",
+        "owner_id": "MX-PERSON-000491"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000491.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 42,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「第21届国会国会运营委员会(第21代国会国会运营委员会)」与目标「韩国大法院」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000259.json",
+        "array": "work_experience",
+        "index": 15,
+        "field": "org_id",
+        "expected_id": "KR-GOV-016",
+        "expected_reference": "第21届国会国会运营委员会(第21代国会国会运营委员会)",
+        "owner_id": "KR-PERSON-000259"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000259.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-GOV-016.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 43,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「GDP Partners 咨询公司 (GDP PARTNERS S.A.C.)」与目标「秘鲁矿业资产公司」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000139.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "PE-SOE-006",
+        "expected_reference": "GDP Partners 咨询公司 (GDP PARTNERS S.A.C.)",
+        "owner_id": "PE-PERSON-000139"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000139.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-SOE-006.json",
+      "output\\pe\\2026-10-01\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 44,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "总统办公厅与总统职务画像粒度不同，不能仅凭总统字样视为相同。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000250.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "KG-GOV-001",
+        "expected_reference": "吉尔吉斯斯坦总统办公厅 (Администрация Президента Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000250"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\persons\\KG-PERSON-000250.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-GOV-001.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 45,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「玻利维亚矿业融资基金 (Fondo de Financiamiento para la Minería, FOFIM)」与目标「玻利维亚国家水文气象局」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bo\\2026-10-24\\persons\\BO-PERSON-000070.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "BO-GOV-036",
+        "expected_reference": "玻利维亚矿业融资基金 (Fondo de Financiamiento para la Minería, FOFIM)",
+        "owner_id": "BO-PERSON-000070"
+      }
+    ],
+    "local_evidence": [
+      "output\\bo\\2026-10-24\\persons\\BO-PERSON-000070.json",
+      "output\\bo\\2026-10-24\\orgs\\BO-GOV-036.json",
+      "output\\bo\\2026-10-24\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 46,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「哈姆丹·本·穆罕默德智慧大学 (Hamdan Bin Mohammed Smart University)」与目标「穆罕默德·本·拉希德·阿勒马克图姆全球倡议」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ae\\2026-10-02\\persons\\AE-PERSON-000140.json",
+        "array": "work_experience",
+        "index": 9,
+        "field": "org_id",
+        "expected_id": "AE-NGO-003",
+        "expected_reference": "哈姆丹·本·穆罕默德智慧大学 (Hamdan Bin Mohammed Smart University)",
+        "owner_id": "AE-PERSON-000140"
+      }
+    ],
+    "local_evidence": [
+      "output\\ae\\2026-10-02\\persons\\AE-PERSON-000140.json",
+      "output\\ae\\2026-10-02\\orgs\\AE-NGO-003.json",
+      "output\\ae\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 47,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "第18营与马来西亚陆军属于部队层级差异，低相似不构成无关错链。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\persons\\MY-PERSON-000486.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MY-MIL-004",
+        "expected_reference": "第18皇家马来军团（18th Bn RAMD）",
+        "owner_id": "MY-PERSON-000486"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000486.json",
+      "output\\my\\2026-04-17\\orgs\\MY-MIL-004.json",
+      "output\\my\\2026-04-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 48,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kz\\2026-09-25\\orgs\\KZ-ACAD-002.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "KZ-GOV-020",
+        "expected_reference": "哈萨克斯坦科学高教部 (Ministry of Science and Higher Education of Kazakhstan)",
+        "owner_id": "KZ-ACAD-002"
+      }
+    ],
+    "local_evidence": [
+      "output\\kz\\2026-09-25\\orgs\\KZ-ACAD-002.json",
+      "output\\kz\\2026-09-25\\orgs\\KZ-GOV-020.json",
+      "output\\kz\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 49,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「恩贾梅纳中央国库 (Trésorerie centrale de N'Djaména)」与目标「恩贾梅纳大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\td\\2026-10-15\\persons\\TD-PERSON-000267.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "TD-ACAD-001",
+        "expected_reference": "恩贾梅纳中央国库 (Trésorerie centrale de N'Djaména)",
+        "owner_id": "TD-PERSON-000267"
+      }
+    ],
+    "local_evidence": [
+      "output\\td\\2026-10-15\\persons\\TD-PERSON-000267.json",
+      "output\\td\\2026-10-15\\orgs\\TD-ACAD-001.json",
+      "output\\td\\2026-10-15\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 50,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "步兵旅与陆军是具体部队与上级军种的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000329.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "PH-MIL-002",
+        "expected_reference": "菲律宾陆军第602步兵旅 (602nd Infantry Brigade)",
+        "owner_id": "PH-PERSON-000329"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000329.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-MIL-002.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 51,
+    "action": "暂缓",
+    "category": "停用注册",
+    "reason": "注册姓名对应但status=trimmed且无画像，先处理停用注册状态，不当作无关实体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\iq\\2026-11-02\\orgs\\IQ-ACAD-012.json",
+        "array": "key_people",
+        "index": 0,
+        "field": "person_id",
+        "expected_id": "IQ-PERSON-000390",
+        "expected_reference": "科萨尔·穆罕默德·阿里 (کۆسار محمد علي)",
+        "owner_id": "IQ-ACAD-012"
+      }
+    ],
+    "local_evidence": [
+      "output\\iq\\2026-11-02\\orgs\\IQ-ACAD-012.json",
+      "output\\iq\\2026-11-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 52,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "印度尼西亚三井物产与三井物产总部可能是子公司或分支，需要明确法律实体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000162.json",
+        "array": "work_experience",
+        "index": 12,
+        "field": "org_id",
+        "expected_id": "JP-CORP-004",
+        "expected_reference": "印度尼西亚三井物产（インドネシア三井物産）",
+        "owner_id": "JP-PERSON-000162"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000162.json",
+      "output\\jp\\2026-06-09\\orgs\\JP-CORP-004.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 53,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「奥东·P·布兰科市政府 (Ayuntamiento de Othón P. Blanco)」与目标「墨西哥红十字会」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000314.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "MX-NGO-002",
+        "expected_reference": "奥东·P·布兰科市政府 (Ayuntamiento de Othón P. Blanco)",
+        "owner_id": "MX-PERSON-000314"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000314.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-NGO-002.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 54,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「埃尔莫西利亚律师事务所 (Hermosilla & Cía)」与目标「法拉贝拉集团」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\persons\\CL-PERSON-000167.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "CL-CORP-001",
+        "expected_reference": "埃尔莫西利亚律师事务所 (Hermosilla & Cía)",
+        "owner_id": "CL-PERSON-000167"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\persons\\CL-PERSON-000167.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-CORP-001.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 55,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「生活质量进步与发展公司 (Calidad de Vida, Progreso y Desarrollo para la Ciudad de México)」与目标「墨西哥国立自治大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000176.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "生活质量进步与发展公司 (Calidad de Vida, Progreso y Desarrollo para la Ciudad de México)",
+        "owner_id": "MX-PERSON-000176"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000176.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "生活质量进步与发展公司 (Calidad de Vida, Progreso y Desarrollo para la Ciudad de México)",
+        "owner_id": "MX-PERSON-000176"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000176.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-001.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 56,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "CitiMortgage与Citigroup不是同一法律实体，需先决定是否接受集团聚合。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000153.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "US-FIN-004",
+        "expected_reference": "花旗抵押贷款公司 (CitiMortgage)",
+        "owner_id": "US-PERSON-000153"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\persons\\US-PERSON-000153.json",
+      "output\\us\\2026-09-05\\orgs\\US-FIN-004.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 57,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000422.json",
+        "array": "work_experience",
+        "index": 23,
+        "field": "org_id",
+        "expected_id": "ID-GOV-035",
+        "expected_reference": "印度尼西亚腐败根除委员会 (Komisi Pemberantasan Korupsi, KPK)",
+        "owner_id": "ID-PERSON-000422"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000422.json",
+        "array": "work_experience",
+        "index": 24,
+        "field": "org_id",
+        "expected_id": "ID-GOV-035",
+        "expected_reference": "印度尼西亚腐败根除委员会 (Komisi Pemberantasan Korupsi, KPK)",
+        "owner_id": "ID-PERSON-000422"
+      }
+    ],
+    "local_evidence": [
+      "output\\id\\2026-07-27\\persons\\ID-PERSON-000422.json",
+      "output\\id\\2026-07-27\\orgs\\ID-GOV-035.json",
+      "output\\id\\2026-07-27\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 58,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「安第斯共同体委员会 (Comisión de la Comunidad Andina)」与目标「秘鲁证券市场监管局」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000061.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "PE-GOV-031",
+        "expected_reference": "安第斯共同体委员会 (Comisión de la Comunidad Andina)",
+        "owner_id": "PE-PERSON-000061"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000061.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-GOV-031.json",
+      "output\\pe\\2026-10-01\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 59,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「凯玛纳·猜瓦提 (เขมณัฏฐ์ จิราธิวัฒน์ / Kemanat Chirathivat)」与目标「วัลยา จิราธิวัฒน์」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000461.json",
+        "array": "person_relationships",
+        "index": 5,
+        "field": "person_id",
+        "expected_id": "TH-PERSON-000455",
+        "expected_reference": "凯玛纳·猜瓦提 (เขมณัฏฐ์ จิราธิวัฒน์ / Kemanat Chirathivat)",
+        "owner_id": "TH-PERSON-000461"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000461.json",
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000455.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 60,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「PNB Securities, Inc. (PNB SI)」与目标「国际集装箱码头服务公司」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\orgs\\PH-FIN-005.json",
+        "array": "related_entities",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "PH-CORP-015",
+        "expected_reference": "PNB Securities, Inc. (PNB SI)",
+        "owner_id": "PH-FIN-005"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\orgs\\PH-FIN-005.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-CORP-015.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 61,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「喀麦隆矿业和能源部 (Ministère des Mines et de l'Énergie)」与目标「喀麦隆对外关系部」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cm\\2026-09-18\\persons\\CM-PERSON-000029.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "CM-GOV-008",
+        "expected_reference": "喀麦隆矿业和能源部 (Ministère des Mines et de l'Énergie)",
+        "owner_id": "CM-PERSON-000029"
+      }
+    ],
+    "local_evidence": [
+      "output\\cm\\2026-09-18\\persons\\CM-PERSON-000029.json",
+      "output\\cm\\2026-09-18\\orgs\\CM-GOV-008.json",
+      "output\\cm\\2026-09-18\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 62,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "无画像但registry为瑞穗信托，引用为SMBC信托；不能因都叫信托银行而混同。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+        "array": "work_experience",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "JP-FIN-014",
+        "expected_reference": "SMBC信托银行（SMBC信託銀行）",
+        "owner_id": "JP-PERSON-000059"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 63,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「Verbo Media Services Co. Inc.」与目标「国际集装箱码头服务公司」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000554.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "PH-CORP-015",
+        "expected_reference": "Verbo Media Services Co. Inc.",
+        "owner_id": "PH-PERSON-000554"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000554.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-CORP-015.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 64,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "法学院与大学是院系层级差异，不能简单置空。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000053.json",
+        "array": "work_experience",
+        "index": 13,
+        "field": "org_id",
+        "expected_id": "TH-ACAD-031",
+        "expected_reference": "朱拉隆功大学法学院 (คณะนิติศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย)",
+        "owner_id": "TH-PERSON-000053"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000053.json",
+      "output\\th\\2026-09-25\\orgs\\TH-ACAD-031.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 65,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "私人执业是任职状态，不是商界报纸，保留履历文本，仅解除错误组织ID。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000857.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "PH-MEDIA-009",
+        "expected_reference": "私人执业律师 (Private practice, Quezon City)",
+        "owner_id": "PH-PERSON-000857"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000857.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-MEDIA-009.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 66,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "枢密院办公室与加拿大政府是专门机关与整个政府的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ca\\2026-05-11\\persons\\CA-PERSON-000174.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "CA-GOV-001",
+        "expected_reference": "加拿大枢密院办公室 (Privy Council Office)",
+        "owner_id": "CA-PERSON-000174"
+      }
+    ],
+    "local_evidence": [
+      "output\\ca\\2026-05-11\\persons\\CA-PERSON-000174.json",
+      "output\\ca\\2026-05-11\\orgs\\CA-GOV-001.json",
+      "output\\ca\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 67,
+    "action": "暂缓",
+    "category": "停用注册",
+    "reason": "注册姓名相符但status=trimmed、无画像，需恢复或移除注册状态后决策。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\td\\2026-10-15\\orgs\\TD-NGO-008.json",
+        "array": "key_people",
+        "index": 3,
+        "field": "person_id",
+        "expected_id": "TD-PERSON-000173",
+        "expected_reference": "贾马勒·法拉吉 (Djamal Faradj)",
+        "owner_id": "TD-NGO-008"
+      }
+    ],
+    "local_evidence": [
+      "output\\td\\2026-10-15\\orgs\\TD-NGO-008.json",
+      "output\\td\\2026-10-15\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 68,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "registry登记拉菲克哈里里大学医院，引用是政府部长会议，姓名词元相同但机构不同。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\lb\\2026-09-17\\persons\\LB-PERSON-000219.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "LB-GOV-025",
+        "expected_reference": "黎巴嫩部长会议（拉菲克·哈里里政府）(黎巴嫩部长会议（拉菲克·哈里里政府） (مجلس الوزراء اللبناني))",
+        "owner_id": "LB-PERSON-000219"
+      }
+    ],
+    "local_evidence": [
+      "output\\lb\\2026-09-17\\persons\\LB-PERSON-000219.json",
+      "output\\lb\\2026-09-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 69,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "金融监督院的局及团队与整院存在部门层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000783.json",
+        "array": "work_experience",
+        "index": 9,
+        "field": "org_id",
+        "expected_id": "KR-FIN-012",
+        "expected_reference": "金融监督院保险消费者保护局损害保险消费者保护团队（FSS Insurance Consumer Protection Bureau / 금융감독원 보험소비자보호국 손해보험소비자보호팀）",
+        "owner_id": "KR-PERSON-000783"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000783.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-FIN-012.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 70,
+    "action": "保留",
+    "category": "审计姓名字段误读",
+    "reason": "实际name字段明确为Narongrit Khamphira，与目标一致，属于读取字段错误。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000561.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "TH-PERSON-000560",
+        "expected_reference": "纳隆立·堪披拉 (ณรงค์ฤทธิ์ คัมภีระ / Narongrit Khamphira)",
+        "owner_id": "TH-PERSON-000561"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000561.json",
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000560.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 71,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "Shorcan与TMX集团存在公司层级差异，0.14低相似不证明完全无关。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ca\\2026-05-11\\persons\\CA-PERSON-000131.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "CA-FIN-008",
+        "expected_reference": "Shorcan经纪有限公司 (Shorcan Brokers Limited)",
+        "owner_id": "CA-PERSON-000131"
+      }
+    ],
+    "local_evidence": [
+      "output\\ca\\2026-05-11\\persons\\CA-PERSON-000131.json",
+      "output\\ca\\2026-05-11\\orgs\\CA-FIN-008.json",
+      "output\\ca\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 72,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「朴柱宣（박주선）」与目标「차정호」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000320.json",
+        "array": "person_relationships",
+        "index": 4,
+        "field": "person_id",
+        "expected_id": "KR-PERSON-000733",
+        "expected_reference": "朴柱宣（박주선）",
+        "owner_id": "KR-PERSON-000320"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000320.json",
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000733.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 73,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「中国极地考察管理机构 (Administración Ártica y Antártica China / Chinese Arctic and Antarctic Administration)」与目标「智利税务总署」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\orgs\\CL-ACAD-020.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "CL-GOV-035",
+        "expected_reference": "中国极地考察管理机构 (Administración Ártica y Antártica China / Chinese Arctic and Antarctic Administration)",
+        "owner_id": "CL-ACAD-020"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\orgs\\CL-ACAD-020.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-GOV-035.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 74,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「汤姆·阿尔巴内塞(Tom Albanese)」与目标「Tom Hamilton」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\au\\2026-05-08\\persons\\AU-PERSON-000008.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "AU-PERSON-000009",
+        "expected_reference": "汤姆·阿尔巴内塞(Tom Albanese)",
+        "owner_id": "AU-PERSON-000008"
+      }
+    ],
+    "local_evidence": [
+      "output\\au\\2026-05-08\\persons\\AU-PERSON-000008.json",
+      "output\\au\\2026-05-08\\persons\\AU-PERSON-000009.json",
+      "output\\au\\2026-05-08\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 75,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「MEDMIN环境与矿业基金会 (Fundación MEDMIN)」与目标「土地基金会」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bo\\2026-10-24\\persons\\BO-PERSON-000330.json",
+        "array": "work_experience",
+        "index": 13,
+        "field": "org_id",
+        "expected_id": "BO-NGO-004",
+        "expected_reference": "MEDMIN环境与矿业基金会 (Fundación MEDMIN)",
+        "owner_id": "BO-PERSON-000330"
+      }
+    ],
+    "local_evidence": [
+      "output\\bo\\2026-10-24\\persons\\BO-PERSON-000330.json",
+      "output\\bo\\2026-10-24\\orgs\\BO-NGO-004.json",
+      "output\\bo\\2026-10-24\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 76,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「一针见血传媒有限公司 (บริษัท คมชัดลึก มีเดีย จำกัด / Kom Chad Luek Media Co., Ltd.)」与目标「正大集团」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\orgs\\TH-MEDIA-015.json",
+        "array": "related_entities",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "TH-CORP-076",
+        "expected_reference": "一针见血传媒有限公司 (บริษัท คมชัดลึก มีเดีย จำกัด / Kom Chad Luek Media Co., Ltd.)",
+        "owner_id": "TH-MEDIA-015"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\orgs\\TH-MEDIA-015.json",
+      "output\\th\\2026-09-25\\orgs\\TH-CORP-076.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 77,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "银行官方确认Saudi British Bank更名Saudi Awwal Bank，属于有证据的沿革名称。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000341.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "SA-FIN-006",
+        "expected_reference": "沙特英国银行/SAB，前称SABB (البنك السعودي البريطاني / بنك SABB)",
+        "owner_id": "SA-PERSON-000341"
+      },
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000341.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "SA-FIN-006",
+        "expected_reference": "沙特英国银行/SAB，前称SABB (البنك السعودي البريطاني / بنك SABB)",
+        "owner_id": "SA-PERSON-000341"
+      },
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000341.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "SA-FIN-006",
+        "expected_reference": "沙特英国银行/SAB，前称SABB (البنك السعودي البريطاني / بنك SABB)",
+        "owner_id": "SA-PERSON-000341"
+      }
+    ],
+    "local_evidence": [
+      "output\\sa\\2026-09-29\\persons\\SA-PERSON-000341.json",
+      "output\\sa\\2026-09-29\\orgs\\SA-FIN-006.json",
+      "output\\sa\\2026-09-29\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.sab.com/en/about-us/newsroom/news-year-2023/following-the-successful-merger-and-integration-of-sabb-and-alawwal-bank/"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 78,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「CPC Biobío (比奥比奥生产与商业联合会)」与目标「比奥比奥电台」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\orgs\\CL-ACAD-018.json",
+        "array": "related_entities",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "CL-MEDIA-010",
+        "expected_reference": "CPC Biobío (比奥比奥生产与商业联合会)",
+        "owner_id": "CL-ACAD-018"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\orgs\\CL-ACAD-018.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-MEDIA-010.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 79,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「贾斯汀·斯默克 (Justin Smirk)」与目标「Peter Blunden」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pg\\2026-05-25\\persons\\PG-PERSON-000041.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "PG-PERSON-000259",
+        "expected_reference": "贾斯汀·斯默克 (Justin Smirk)",
+        "owner_id": "PG-PERSON-000041"
+      }
+    ],
+    "local_evidence": [
+      "output\\pg\\2026-05-25\\persons\\PG-PERSON-000041.json",
+      "output\\pg\\2026-05-25\\persons\\PG-PERSON-000259.json",
+      "output\\pg\\2026-05-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 80,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「摩洛哥矿业研究与参与局(摩洛哥矿业研究与参与局 (Bureau de Recherches et de Participation Minières (BRPM)))」与目标「科特迪瓦农业、农村发展与粮食作物部」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\persons\\CI-PERSON-000015.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "CI-GOV-017",
+        "expected_reference": "摩洛哥矿业研究与参与局(摩洛哥矿业研究与参与局 (Bureau de Recherches et de Participation Minières (BRPM)))",
+        "owner_id": "CI-PERSON-000015"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\persons\\CI-PERSON-000015.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-GOV-017.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 81,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「Glorax集团（ГК Glorax）」与目标「VK公司（前Mail.ru集团）」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000197.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "RU-CORP-013",
+        "expected_reference": "Glorax集团（ГК Glorax）",
+        "owner_id": "RU-PERSON-000197"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000197.json",
+      "output\\ru\\2026-05-26\\orgs\\RU-CORP-013.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 82,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「科特迪瓦水资源与森林部 (Ministère des Eaux et Forêts)」与目标「科特迪瓦外交与国际合作部」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\persons\\CI-PERSON-000154.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "CI-GOV-009",
+        "expected_reference": "科特迪瓦水资源与森林部 (Ministère des Eaux et Forêts)",
+        "owner_id": "CI-PERSON-000154"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\persons\\CI-PERSON-000154.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-GOV-009.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 83,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000120.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "TH-GOV-010",
+        "expected_reference": "泰国国会下议院 (สภาผู้แทนราษฎร)",
+        "owner_id": "TH-PERSON-000120"
+      },
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000120.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "TH-GOV-010",
+        "expected_reference": "泰国国会下议院 (สภาผู้แทนราษฎร)",
+        "owner_id": "TH-PERSON-000120"
+      },
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000120.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "TH-GOV-010",
+        "expected_reference": "泰国国会下议院 (สภาผู้แทนราษฎร)",
+        "owner_id": "TH-PERSON-000120"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000120.json",
+      "output\\th\\2026-09-25\\orgs\\TH-GOV-010.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 84,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「弗拉基米尔·杰尼索夫 (Владимир Денисов)」与目标「Владимир Георгиевич Барановский」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000210.json",
+        "array": "person_relationships",
+        "index": 3,
+        "field": "person_id",
+        "expected_id": "RU-PERSON-000005",
+        "expected_reference": "弗拉基米尔·杰尼索夫 (Владимир Денисов)",
+        "owner_id": "RU-PERSON-000210"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000210.json",
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000005.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 85,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「Uribe企业劳工顾问集团 (Consorcio Uribe, Asesores Laborales S.C.)」与目标「墨西哥陆海空三军国家银行」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000158.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "MX-FIN-010",
+        "expected_reference": "Uribe企业劳工顾问集团 (Consorcio Uribe, Asesores Laborales S.C.)",
+        "owner_id": "MX-PERSON-000158"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000158.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-FIN-010.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 86,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\tz\\2026-10-25\\orgs\\TZ-CORP-003.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "TZ-GOV-035",
+        "expected_reference": "坦桑尼亚通信监管局 (Tanzania Communications Regulatory Authority (TCRA))",
+        "owner_id": "TZ-CORP-003"
+      },
+      {
+        "file": "output\\tz\\2026-10-25\\orgs\\TZ-CORP-006.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "TZ-GOV-035",
+        "expected_reference": "坦桑尼亚通信监管局 (Tanzania Communications Regulatory Authority (TCRA))",
+        "owner_id": "TZ-CORP-006"
+      },
+      {
+        "file": "output\\tz\\2026-10-25\\orgs\\TZ-GOV-026.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "TZ-GOV-035",
+        "expected_reference": "坦桑尼亚通信监管局 (Tanzania Communications Regulatory Authority (TCRA))",
+        "owner_id": "TZ-GOV-026"
+      },
+      {
+        "file": "output\\tz\\2026-10-25\\orgs\\TZ-GOV-029.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "TZ-GOV-035",
+        "expected_reference": "坦桑尼亚通信监管局 (Tanzania Communications Regulatory Authority (TCRA))",
+        "owner_id": "TZ-GOV-029"
+      },
+      {
+        "file": "output\\tz\\2026-10-25\\orgs\\TZ-MEDIA-008.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "TZ-GOV-035",
+        "expected_reference": "坦桑尼亚通信监管局 (Tanzania Communications Regulatory Authority (TCRA))",
+        "owner_id": "TZ-MEDIA-008"
+      }
+    ],
+    "local_evidence": [
+      "output\\tz\\2026-10-25\\orgs\\TZ-CORP-003.json",
+      "output\\tz\\2026-10-25\\orgs\\TZ-CORP-006.json",
+      "output\\tz\\2026-10-25\\orgs\\TZ-GOV-026.json",
+      "output\\tz\\2026-10-25\\orgs\\TZ-GOV-029.json",
+      "output\\tz\\2026-10-25\\orgs\\TZ-MEDIA-008.json",
+      "output\\tz\\2026-10-25\\orgs\\TZ-GOV-035.json",
+      "output\\tz\\2026-10-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 87,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「玛丽娜·科尔涅娃 (Марина Корнева)」与目标「Марина Михайловна Лебедева」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000126.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "RU-PERSON-000012",
+        "expected_reference": "玛丽娜·科尔涅娃 (Марина Корнева)",
+        "owner_id": "RU-PERSON-000126"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000126.json",
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000012.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 88,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "官方明确Minera San Cristobal为San Cristobal Mining的子公司，不能按名称近似当同一公司。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bo\\2026-10-24\\orgs\\BO-CORP-007.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "BO-CORP-007",
+        "expected_reference": "San Cristóbal Mining Inc.",
+        "owner_id": "BO-CORP-007"
+      }
+    ],
+    "local_evidence": [
+      "output\\bo\\2026-10-24\\orgs\\BO-CORP-007.json",
+      "output\\bo\\2026-10-24\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.minerasancristobal.com/v3/en/"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 89,
+    "action": "暂缓",
+    "category": "名称或事实冲突",
+    "reason": "Telecel官方明确撤回收购Areeba，引用所称原MTN/Telecel关系存在事实冲突，先修名称和历史。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\gn\\2026-11-10\\orgs\\GN-GOV-018.json",
+        "array": "related_entities",
+        "index": 12,
+        "field": "org_id",
+        "expected_id": "GN-CORP-005",
+        "expected_reference": "Telecel几内亚 (Telecel Guinée, 原MTN几内亚)",
+        "owner_id": "GN-GOV-018"
+      }
+    ],
+    "local_evidence": [
+      "output\\gn\\2026-11-10\\orgs\\GN-GOV-018.json",
+      "output\\gn\\2026-11-10\\orgs\\GN-CORP-005.json",
+      "output\\gn\\2026-11-10\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://telecelgroup.com/telecel-group-issues-clarification-regarding-the-mtn-guinea-acquisition-deal/"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 90,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「MTS银行（МТС Банк）」与目标「俄罗斯外贸银行」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\orgs\\RU-CORP-015.json",
+        "array": "related_entities",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "RU-FIN-003",
+        "expected_reference": "MTS银行（МТС Банк）",
+        "owner_id": "RU-CORP-015"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\orgs\\RU-CORP-015.json",
+      "output\\ru\\2026-05-26\\orgs\\RU-FIN-003.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 91,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "经济政策局与财政部是内部局与上级部门的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000827.json",
+        "array": "work_experience",
+        "index": 18,
+        "field": "org_id",
+        "expected_id": "KR-GOV-003",
+        "expected_reference": "企划财政部经济政策局（Ministry of Strategy and Finance, Economic Policy Bureau / 기획재정부 경제정책국）",
+        "owner_id": "KR-PERSON-000827"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000827.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-GOV-003.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 92,
+    "action": "暂缓",
+    "category": "名称或事实冲突",
+    "reason": "中文写造船企业，英文及目标写化工集团，引用自身中外文矛盾，不能以英文命中判保留。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000111.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "VN-SOE-006",
+        "expected_reference": "越南造船工业总公司(越南造船工业总公司 (Vietnam National Chemical Group (Tong Cong ty Hoa chat Viet Nam)))",
+        "owner_id": "VN-PERSON-000111"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000111.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-SOE-006.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 93,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「阿拉努德·豪萨维 (Alanood Howsawi)」与目标「백경란」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000079.json",
+        "array": "person_relationships",
+        "index": 3,
+        "field": "person_id",
+        "expected_id": "KR-PERSON-000048",
+        "expected_reference": "阿拉努德·豪萨维 (Alanood Howsawi)",
+        "owner_id": "SA-PERSON-000079"
+      }
+    ],
+    "local_evidence": [
+      "output\\sa\\2026-09-29\\persons\\SA-PERSON-000079.json",
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000048.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 94,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「何塞·W·迪奥克诺 (Jose W. Diokno)」与目标「Jose Dominic F. Clavano IV」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000891.json",
+        "array": "person_relationships",
+        "index": 0,
+        "field": "person_id",
+        "expected_id": "PH-PERSON-000050",
+        "expected_reference": "何塞·W·迪奥克诺 (Jose W. Diokno)",
+        "owner_id": "PH-PERSON-000891"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000891.json",
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000050.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 95,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「APIP（私人投资促进局, Agence de Promotion des Investissements Privés）」与目标「几内亚参议院」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\gn\\2026-11-10\\orgs\\GN-NGO-016.json",
+        "array": "related_entities",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "GN-GOV-021",
+        "expected_reference": "APIP（私人投资促进局, Agence de Promotion des Investissements Privés）",
+        "owner_id": "GN-NGO-016"
+      }
+    ],
+    "local_evidence": [
+      "output\\gn\\2026-11-10\\orgs\\GN-NGO-016.json",
+      "output\\gn\\2026-11-10\\orgs\\GN-GOV-021.json",
+      "output\\gn\\2026-11-10\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 96,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "中文大学、英文检察院和职位叙述互相矛盾，当前军队画像无论按哪种名称都不匹配；不能直接改到大学候选。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "胡志明市国家大学(胡志明市国家大学 (People's Procuracy of Hai Phong City (Viện Kiểm sát nhân dân thành phố Hải Phòng)))",
+        "owner_id": "VN-PERSON-000114"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "胡志明市国家大学(胡志明市国家大学 (People's Procuracy of Hai Phong City (Viện Kiểm sát nhân dân thành phố Hải Phòng)))",
+        "owner_id": "VN-PERSON-000114"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "胡志明市国家大学(胡志明市国家大学 (People's Procuracy of Hai Phong City (Viện Kiểm sát nhân dân thành phố Hải Phòng)))",
+        "owner_id": "VN-PERSON-000114"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "胡志明市国家大学(胡志明市国家大学 (People's Procuracy of Hai Phong City (Viện Kiểm sát nhân dân thành phố Hải Phòng)))",
+        "owner_id": "VN-PERSON-000114"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "胡志明市国家大学(胡志明市国家大学 (People's Procuracy of Hai Phong City (Viện Kiểm sát nhân dân thành phố Hải Phòng)))",
+        "owner_id": "VN-PERSON-000114"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "胡志明市国家大学(胡志明市国家大学 (People's Procuracy of Hai Phong City (Viện Kiểm sát nhân dân thành phố Hải Phòng)))",
+        "owner_id": "VN-PERSON-000114"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000114.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-MIL-001.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 97,
+    "action": "建议改链",
+    "category": "已知正确画像",
+    "reason": "引用明确为美国商务部，已存在主名称一致的US-GOV-007画像；建议逐条改向该画像，优于先置空。",
+    "proposed_id": "US-GOV-007",
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000145.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "PE-CORP-007",
+        "expected_reference": "美国商务部 (U.S. Department of Commerce)",
+        "owner_id": "PE-PERSON-000145"
+      },
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000145.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "PE-CORP-007",
+        "expected_reference": "美国商务部 (U.S. Department of Commerce)",
+        "owner_id": "PE-PERSON-000145"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000145.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-CORP-007.json",
+      "output\\pe\\2026-10-01\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 98,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "纳米自旋实验设施与东北大学是下属设施与大学的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000005.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "JP-ACAD-005",
+        "expected_reference": "东北大学电气通信研究所附属纳米自旋实验设施（東北大学電気通信研究所附属ナノ・スピン実験施設）",
+        "owner_id": "JP-PERSON-000005"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000005.json",
+      "output\\jp\\2026-06-09\\orgs\\JP-ACAD-005.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 99,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「阿比让国际机场管理公司 (Aéroport International d'Abidjan, AERIA)」与目标「科特迪瓦泛非银行」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\persons\\CI-PERSON-000159.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "CI-FIN-005",
+        "expected_reference": "阿比让国际机场管理公司 (Aéroport International d'Abidjan, AERIA)",
+        "owner_id": "CI-PERSON-000159"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\persons\\CI-PERSON-000159.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-FIN-005.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 100,
+    "action": "暂缓",
+    "category": "名称或事实冲突",
+    "reason": "注册是Sigma Alimentos，无画像；引用是Sigma Foods，官网表明后者由ALFA改名，须厘清控股与经营实体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000061.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "MX-CORP-031",
+        "expected_reference": "Sigma食品 (Sigma Foods, S.A.B. de C.V.)",
+        "owner_id": "MX-PERSON-000061"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000061.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.sigmafoods.com/en/our-history/"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 101,
+    "action": "暂缓",
+    "category": "停用注册",
+    "reason": "注册姓名相符但status=trimmed且无画像，需先解决停用身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ma\\2026-10-05\\orgs\\MA-MEDIA-009.json",
+        "array": "key_people",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "MA-PERSON-000384",
+        "expected_reference": "穆罕默德·阿明·古努尼 (Mohamed Amine El Guennouni)",
+        "owner_id": "MA-MEDIA-009"
+      }
+    ],
+    "local_evidence": [
+      "output\\ma\\2026-10-05\\orgs\\MA-MEDIA-009.json",
+      "output\\ma\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 102,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「«乌兹别克轻工业»股份公司 (AO «Uzbekyengilsanoat»)」与目标「阿萨卡银行」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\uz\\2026-09-27\\persons\\UZ-PERSON-000005.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "UZ-FIN-006",
+        "expected_reference": "«乌兹别克轻工业»股份公司 (AO «Uzbekyengilsanoat»)",
+        "owner_id": "UZ-PERSON-000005"
+      }
+    ],
+    "local_evidence": [
+      "output\\uz\\2026-09-27\\persons\\UZ-PERSON-000005.json",
+      "output\\uz\\2026-09-27\\orgs\\UZ-FIN-006.json",
+      "output\\uz\\2026-09-27\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 103,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "BMO中国公司与蒙特利尔银行母体是不同公司层级。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ca\\2026-05-11\\persons\\CA-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "CA-FIN-004",
+        "expected_reference": "蒙特利尔银行（中国）有限公司(蒙特利尔银行（中国）有限公司 (BMO China Co., Ltd.))",
+        "owner_id": "CA-PERSON-000114"
+      },
+      {
+        "file": "output\\ca\\2026-05-11\\persons\\CA-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "CA-FIN-004",
+        "expected_reference": "蒙特利尔银行（中国）有限公司(蒙特利尔银行（中国）有限公司 (BMO China Co., Ltd.))",
+        "owner_id": "CA-PERSON-000114"
+      },
+      {
+        "file": "output\\ca\\2026-05-11\\persons\\CA-PERSON-000114.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "CA-FIN-004",
+        "expected_reference": "蒙特利尔银行（中国）有限公司(蒙特利尔银行（中国）有限公司 (BMO China Co., Ltd.))",
+        "owner_id": "CA-PERSON-000114"
+      }
+    ],
+    "local_evidence": [
+      "output\\ca\\2026-05-11\\persons\\CA-PERSON-000114.json",
+      "output\\ca\\2026-05-11\\orgs\\CA-FIN-004.json",
+      "output\\ca\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 104,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「安东尼奥·特里拉内斯四世 (Antonio Trillanes IV)」与目标「Antonio Lagdameo Jr.」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000425.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "PH-PERSON-000023",
+        "expected_reference": "安东尼奥·特里拉内斯四世 (Antonio Trillanes IV)",
+        "owner_id": "PH-PERSON-000425"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000425.json",
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000023.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 105,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 9,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 13,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 14,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+        "array": "work_experience",
+        "index": 17,
+        "field": "org_id",
+        "expected_id": "JP-CORP-016",
+        "expected_reference": "柒和伊控股(Seven & I Holdings (セブン&アイ・ホールディングス))",
+        "owner_id": "JP-PERSON-000332"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000332.json",
+      "output\\jp\\2026-06-09\\orgs\\JP-CORP-016.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 106,
+    "action": "保留",
+    "category": "有效注册无画像",
+    "reason": "无画像但活跃auto_registered条目明确ACWA Power，身份匹配，缺画像不等于错链。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000091.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "SA-CORP-107",
+        "expected_reference": "国际水电公司 (أكوا باور ACWA Power)",
+        "owner_id": "SA-PERSON-000091"
+      }
+    ],
+    "local_evidence": [
+      "output\\sa\\2026-09-29\\persons\\SA-PERSON-000091.json",
+      "output\\sa\\2026-09-29\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 107,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "The Athletic与纽约时报是产品/企业集团层级差异，非名称变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\orgs\\US-MEDIA-001.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "US-MEDIA-001",
+        "expected_reference": "The Athletic",
+        "owner_id": "US-MEDIA-001"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\orgs\\US-MEDIA-001.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 108,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\persons\\CI-PERSON-000278.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "CI-GOV-007",
+        "expected_reference": "科特迪瓦独立选举委员会(科特迪瓦独立选举委员会 (Commission électorale indépendante (CEI)))",
+        "owner_id": "CI-PERSON-000278"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\persons\\CI-PERSON-000278.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-GOV-007.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 109,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "组织引用使用人物ID，实际为Jaime Muguiro，不是塔帕丘拉市政府。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000528.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "MX-PERSON-000060",
+        "expected_reference": "塔帕丘拉市政府 (H. Ayuntamiento de Tapachula)",
+        "owner_id": "MX-PERSON-000528"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000528.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MX-PERSON-000060",
+        "expected_reference": "塔帕丘拉市政府 (H. Ayuntamiento de Tapachula)",
+        "owner_id": "MX-PERSON-000528"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000528.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "MX-PERSON-000060",
+        "expected_reference": "塔帕丘拉市政府 (H. Ayuntamiento de Tapachula)",
+        "owner_id": "MX-PERSON-000528"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000528.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "MX-PERSON-000060",
+        "expected_reference": "塔帕丘拉市政府 (H. Ayuntamiento de Tapachula)",
+        "owner_id": "MX-PERSON-000528"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000528.json",
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000060.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 110,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "西部野战司令部与整个陆军是指挥层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\persons\\MY-PERSON-000483.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MY-MIL-004",
+        "expected_reference": "马来西亚陆军西部野战司令部",
+        "owner_id": "MY-PERSON-000483"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000483.json",
+      "output\\my\\2026-04-17\\orgs\\MY-MIL-004.json",
+      "output\\my\\2026-04-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 111,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "政党执行委员会与政党本体是内部机构与上级组织的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000294.json",
+        "array": "work_experience",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "KG-PARTY-004",
+        "expected_reference": "祖国党执行委员会 (Исполком партии «Ата-Журт»)",
+        "owner_id": "KG-PERSON-000294"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\persons\\KG-PERSON-000294.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-PARTY-004.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 112,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "MY-PERSON-UNKNOWN-003为无注册无画像占位ID，保留人物姓名和关系文字待后续解析。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\persons\\MY-PERSON-000330.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "MY-PERSON-UNKNOWN-003",
+        "expected_reference": "哈芝芝·诺尔(Hajiji Noor)",
+        "owner_id": "MY-PERSON-000330"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000330.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 113,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "财政部下属司与财政部整体的粒度不同。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kz\\2026-09-25\\persons\\KZ-PERSON-000081.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "KZ-GOV-014",
+        "expected_reference": "哈萨克斯坦财政部国有资产管理方法论司 (Управление методологии управления государственными активами Министерства финансов РК)",
+        "owner_id": "KZ-PERSON-000081"
+      }
+    ],
+    "local_evidence": [
+      "output\\kz\\2026-09-25\\persons\\KZ-PERSON-000081.json",
+      "output\\kz\\2026-09-25\\orgs\\KZ-GOV-014.json",
+      "output\\kz\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 114,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "画像明确为吉尔吉斯议会；registry混入The Confessions Tour旧标签，不影响该引用的实体一致性。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "KG-GOV-003",
+        "expected_reference": "吉尔吉斯共和国最高议会 (Жогорку Кенеш Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000373"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "KG-GOV-003",
+        "expected_reference": "吉尔吉斯共和国最高议会 (Жогорку Кенеш Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000373"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "KG-GOV-003",
+        "expected_reference": "吉尔吉斯共和国最高议会 (Жогорку Кенеш Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000373"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 9,
+        "field": "org_id",
+        "expected_id": "KG-GOV-003",
+        "expected_reference": "吉尔吉斯共和国最高议会 (Жогорку Кенеш Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000373"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "KG-GOV-003",
+        "expected_reference": "吉尔吉斯共和国最高议会 (Жогорку Кенеш Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000373"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\persons\\KG-PERSON-000373.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-GOV-003.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 115,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「Stone & McCarthy研究公司 (Stone & McCarthy)」与目标「联邦司法委员会」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000015.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "MX-GOV-035",
+        "expected_reference": "Stone & McCarthy研究公司 (Stone & McCarthy)",
+        "owner_id": "MX-PERSON-000015"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000015.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-GOV-035.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 116,
+    "action": "暂缓",
+    "category": "历史改组",
+    "reason": "官方确认2022年重组更名并分出公共建设职能，须按任期和组织沿革处理，非普通文字差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mo\\2026-09-11\\persons\\MO-PERSON-000096.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "MO-GOV-019",
+        "expected_reference": "澳门土地工务运输局(澳門土地工務運輸局)",
+        "owner_id": "MO-PERSON-000096"
+      },
+      {
+        "file": "output\\mo\\2026-09-11\\persons\\MO-PERSON-000096.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "MO-GOV-019",
+        "expected_reference": "澳门土地工务运输局(澳門土地工務運輸局)",
+        "owner_id": "MO-PERSON-000096"
+      },
+      {
+        "file": "output\\mo\\2026-09-11\\persons\\MO-PERSON-000096.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MO-GOV-019",
+        "expected_reference": "澳门土地工务运输局(澳門土地工務運輸局)",
+        "owner_id": "MO-PERSON-000096"
+      },
+      {
+        "file": "output\\mo\\2026-09-11\\persons\\MO-PERSON-000096.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "MO-GOV-019",
+        "expected_reference": "澳门土地工务运输局(澳門土地工務運輸局)",
+        "owner_id": "MO-PERSON-000096"
+      }
+    ],
+    "local_evidence": [
+      "output\\mo\\2026-09-11\\persons\\MO-PERSON-000096.json",
+      "output\\mo\\2026-09-11\\orgs\\MO-GOV-019.json",
+      "output\\mo\\2026-09-11\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.dsscu.gov.mo/zh/aboutus/history",
+      "https://bo.dsaj.gov.mo/isapi/go.asp?d=rega-14-2022cn"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 117,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "农协中央会与农协银行可能涉及不同法人及组织层级，不能把中央会部门直接认作银行。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000757.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "KR-CORP-030",
+        "expected_reference": "农协中央会结构改革推进团（Nonghyup Structural Reform Task Force）",
+        "owner_id": "KR-PERSON-000757"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000757.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-CORP-030.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 118,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kh\\2026-10-04\\orgs\\KH-FIN-007.json",
+        "array": "related_entities",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "KH-FIN-001",
+        "expected_reference": "柬埔寨國家銀行 (National Bank of Cambodia (NBC))",
+        "owner_id": "KH-FIN-007"
+      },
+      {
+        "file": "output\\kh\\2026-10-04\\orgs\\KH-FIN-008.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "KH-FIN-001",
+        "expected_reference": "柬埔寨國家銀行 (National Bank of Cambodia (NBC))",
+        "owner_id": "KH-FIN-008"
+      },
+      {
+        "file": "output\\kh\\2026-10-04\\orgs\\KH-FIN-016.json",
+        "array": "related_entities",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "KH-FIN-001",
+        "expected_reference": "柬埔寨國家銀行 (National Bank of Cambodia (NBC))",
+        "owner_id": "KH-FIN-016"
+      }
+    ],
+    "local_evidence": [
+      "output\\kh\\2026-10-04\\orgs\\KH-FIN-007.json",
+      "output\\kh\\2026-10-04\\orgs\\KH-FIN-008.json",
+      "output\\kh\\2026-10-04\\orgs\\KH-FIN-016.json",
+      "output\\kh\\2026-10-04\\orgs\\KH-FIN-001.json",
+      "output\\kh\\2026-10-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 119,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「苏提塔姆·猜瓦提 (สุทธิธรรม จิราธิวัฒน์ / Sudhitham Chirathivat)」与目标「วัลยา จิราธิวัฒน์」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000457.json",
+        "array": "person_relationships",
+        "index": 7,
+        "field": "person_id",
+        "expected_id": "TH-PERSON-000455",
+        "expected_reference": "苏提塔姆·猜瓦提 (สุทธิธรรม จิราธิวัฒน์ / Sudhitham Chirathivat)",
+        "owner_id": "TH-PERSON-000457"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000457.json",
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000455.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 120,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "registry为IHS Kuwait，引用为KEO，均属咨询领域也不是同一公司。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kw\\2026-10-03\\persons\\KW-PERSON-000362.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "KW-CORP-035",
+        "expected_reference": "KEO国际工程咨询公司（科威特）(KEO国际工程咨询公司（科威特） (مكتب KEO للاستشارات الهندسية))",
+        "owner_id": "KW-PERSON-000362"
+      }
+    ],
+    "local_evidence": [
+      "output\\kw\\2026-10-03\\persons\\KW-PERSON-000362.json",
+      "output\\kw\\2026-10-03\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 121,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\orgs\\CI-GOV-007.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "CI-GOV-022",
+        "expected_reference": "国家民事登记与识别局 (Office national de l'état civil et de l'identification (ONECI))",
+        "owner_id": "CI-GOV-007"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\orgs\\CI-GOV-007.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-GOV-022.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 122,
+    "action": "暂缓",
+    "category": "停用注册",
+    "reason": "注册姓名相符但已trimmed且无画像，不能仅据无文件断言身份错误。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\iq\\2026-11-02\\persons\\IQ-PERSON-000343.json",
+        "array": "person_relationships",
+        "index": 0,
+        "field": "person_id",
+        "expected_id": "IQ-PERSON-000344",
+        "expected_reference": "穆汉纳德·贾瓦德·卡齐姆·阿萨迪 (مهند جواد كاظم الأسدي)",
+        "owner_id": "IQ-PERSON-000343"
+      }
+    ],
+    "local_evidence": [
+      "output\\iq\\2026-11-02\\persons\\IQ-PERSON-000343.json",
+      "output\\iq\\2026-11-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 123,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\tn\\2026-10-10\\orgs\\TN-PARTY-007.json",
+        "array": "related_entities",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "TN-NGO-001",
+        "expected_reference": "突尼西亞總工會 (Tunisian General Labour Union (UGTT))",
+        "owner_id": "TN-PARTY-007"
+      }
+    ],
+    "local_evidence": [
+      "output\\tn\\2026-10-10\\orgs\\TN-PARTY-007.json",
+      "output\\tn\\2026-10-10\\orgs\\TN-NGO-001.json",
+      "output\\tn\\2026-10-10\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 124,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\gn\\2026-11-10\\orgs\\GN-CORP-001.json",
+        "array": "related_entities",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "GN-SOE-009",
+        "expected_reference": "跨几内亚公司 (Compagnie du TransGuinéen, CTG)",
+        "owner_id": "GN-CORP-001"
+      },
+      {
+        "file": "output\\gn\\2026-11-10\\orgs\\GN-GOV-009.json",
+        "array": "related_entities",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "GN-SOE-009",
+        "expected_reference": "跨几内亚公司 (Compagnie du TransGuinéen, CTG)",
+        "owner_id": "GN-GOV-009"
+      }
+    ],
+    "local_evidence": [
+      "output\\gn\\2026-11-10\\orgs\\GN-CORP-001.json",
+      "output\\gn\\2026-11-10\\orgs\\GN-GOV-009.json",
+      "output\\gn\\2026-11-10\\orgs\\GN-SOE-009.json",
+      "output\\gn\\2026-11-10\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 125,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "组织麦当劳指向人物Robert A. McDonald，词元命中导致跨类型误链。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\orgs\\US-CORP-033.json",
+        "array": "related_entities",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "US-PERSON-000183",
+        "expected_reference": "麦当劳 (McDonald's)",
+        "owner_id": "US-CORP-033"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\orgs\\US-CORP-033.json",
+      "output\\us\\2026-09-05\\persons\\US-PERSON-000183.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 126,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「范黎清 (Phạm Lê Thanh)」与目标「Phạm Thế Tùng」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000046.json",
+        "array": "person_relationships",
+        "index": 4,
+        "field": "person_id",
+        "expected_id": "VN-PERSON-000041",
+        "expected_reference": "范黎清 (Phạm Lê Thanh)",
+        "owner_id": "VN-PERSON-000046"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000046.json",
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000041.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 127,
+    "action": "暂缓",
+    "category": "历史改组",
+    "reason": "2016—2022旧部委与当前部委职责经过变化，须核任期沿革，不能按高相似自动保留。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bf\\2026-09-17\\persons\\BF-PERSON-000026.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "BF-GOV-006",
+        "expected_reference": "领土行政、权力下放与国内安全部 (Ministère de l'Administration territoriale, de la Décentralisation et de la Sécurité intérieure)",
+        "owner_id": "BF-PERSON-000026"
+      }
+    ],
+    "local_evidence": [
+      "output\\bf\\2026-09-17\\persons\\BF-PERSON-000026.json",
+      "output\\bf\\2026-09-17\\orgs\\BF-GOV-006.json",
+      "output\\bf\\2026-09-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 128,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "全国执行委员会与国家行动党本体有内部机构粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000396.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MX-PARTY-002",
+        "expected_reference": "国家行动党全国执行委员会 (Comité Ejecutivo Nacional del PAN)",
+        "owner_id": "MX-PERSON-000396"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000396.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "MX-PARTY-002",
+        "expected_reference": "国家行动党全国执行委员会 (Comité Ejecutivo Nacional del PAN)",
+        "owner_id": "MX-PERSON-000396"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000396.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-PARTY-002.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 129,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "矿建分公司与吉尔吉斯黄金公司有分支层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000253.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "KG-SOE-002",
+        "expected_reference": "吉尔吉斯黄金公司卡拉科尔矿建分公司（Филиал шахтопроходческого управления ОАО «Кыргызалтын», г. Каракол）",
+        "owner_id": "KG-PERSON-000253"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\persons\\KG-PERSON-000253.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-SOE-002.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 130,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「让·迪布瓦·德·戈杜松 (Jean du Bois de Gaudusson)」与目标「Rimtalba Jean Emmanuel Ouédraogo」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bf\\2026-09-17\\persons\\BF-PERSON-000094.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "BF-PERSON-000002",
+        "expected_reference": "让·迪布瓦·德·戈杜松 (Jean du Bois de Gaudusson)",
+        "owner_id": "BF-PERSON-000094"
+      }
+    ],
+    "local_evidence": [
+      "output\\bf\\2026-09-17\\persons\\BF-PERSON-000094.json",
+      "output\\bf\\2026-09-17\\persons\\BF-PERSON-000002.json",
+      "output\\bf\\2026-09-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 131,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ci\\2026-10-06\\orgs\\CI-INTL-006.json",
+        "array": "related_entities",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "CI-FIN-011",
+        "expected_reference": "西非区域证券交易所 (Bourse régionale des valeurs mobilières (BRVM))",
+        "owner_id": "CI-INTL-006"
+      }
+    ],
+    "local_evidence": [
+      "output\\ci\\2026-10-06\\orgs\\CI-INTL-006.json",
+      "output\\ci\\2026-10-06\\orgs\\CI-FIN-011.json",
+      "output\\ci\\2026-10-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 132,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「Al Hilal 出版与营销集团 (Al Hilal Publishing & Marketing Group W.L.L.)」与目标「优素福·本·艾哈迈德·卡努集团」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bh\\2026-10-28\\persons\\BH-PERSON-000461.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "BH-CORP-005",
+        "expected_reference": "Al Hilal 出版与营销集团 (Al Hilal Publishing & Marketing Group W.L.L.)",
+        "owner_id": "BH-PERSON-000461"
+      }
+    ],
+    "local_evidence": [
+      "output\\bh\\2026-10-28\\persons\\BH-PERSON-000461.json",
+      "output\\bh\\2026-10-28\\orgs\\BH-CORP-005.json",
+      "output\\bh\\2026-10-28\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 133,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「墨西哥城制宪会议 (Asamblea Constituyente de la Ciudad de México)」与目标「墨西哥国立自治大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000169.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "墨西哥城制宪会议 (Asamblea Constituyente de la Ciudad de México)",
+        "owner_id": "MX-PERSON-000169"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000169.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-001.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 134,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「第一联合计划公司 (First Union Plans, Inc.)」与目标「国际集装箱码头服务公司」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000600.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "PH-CORP-015",
+        "expected_reference": "第一联合计划公司 (First Union Plans, Inc.)",
+        "owner_id": "PH-PERSON-000600"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000600.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-CORP-015.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 135,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ma\\2026-10-05\\persons\\MA-PERSON-000087.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "MA-PARTY-003",
+        "expected_reference": "真实性与现代化党 (Parti Authenticité et Modernité, PAM)",
+        "owner_id": "MA-PERSON-000087"
+      },
+      {
+        "file": "output\\ma\\2026-10-05\\persons\\MA-PERSON-000087.json",
+        "array": "work_experience",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "MA-PARTY-003",
+        "expected_reference": "真实性与现代化党 (Parti Authenticité et Modernité, PAM)",
+        "owner_id": "MA-PERSON-000087"
+      }
+    ],
+    "local_evidence": [
+      "output\\ma\\2026-10-05\\persons\\MA-PERSON-000087.json",
+      "output\\ma\\2026-10-05\\orgs\\MA-PARTY-003.json",
+      "output\\ma\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 136,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "National Indemnity与伯克希尔集团是不同公司层级。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000680.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "US-CORP-007",
+        "expected_reference": "伯克希尔·哈撒韦国家赔偿公司 (Berkshire Hathaway National Indemnity Co.)",
+        "owner_id": "US-PERSON-000680"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\persons\\US-PERSON-000680.json",
+      "output\\us\\2026-09-05\\orgs\\US-CORP-007.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 137,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "缓刑服务处、公共安全司与内务部存在内部层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\uz\\2026-09-27\\persons\\UZ-PERSON-000051.json",
+        "array": "work_experience",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "UZ-GOV-016",
+        "expected_reference": "乌兹别克斯坦内务部公共安全司缓刑服务处 (Служба пробации департамента общественной безопасности МВД Республики Узбекистан)",
+        "owner_id": "UZ-PERSON-000051"
+      }
+    ],
+    "local_evidence": [
+      "output\\uz\\2026-09-27\\persons\\UZ-PERSON-000051.json",
+      "output\\uz\\2026-09-27\\orgs\\UZ-GOV-016.json",
+      "output\\uz\\2026-09-27\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 138,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「特拉斯加州政府旅游部 (Secretaría de Turismo del Estado de Tlaxcala)」与目标「国家人文科学技术委员会（已升格为科学技术人文创新秘书处）」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000171.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-006",
+        "expected_reference": "特拉斯加州政府旅游部 (Secretaría de Turismo del Estado de Tlaxcala)",
+        "owner_id": "MX-PERSON-000171"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000171.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-006.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 139,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "具体师/军团与越南人民军整体有部队层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000119.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "VN-MIL-001",
+        "expected_reference": "第312师，第一军团 (Quân đoàn 1)",
+        "owner_id": "VN-PERSON-000119"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000119.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-MIL-001.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 140,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ma\\2026-10-05\\orgs\\MA-FIN-001.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MA-FIN-003",
+        "expected_reference": "人民银行摩洛哥 (Banque Centrale Populaire (BCP Group))",
+        "owner_id": "MA-FIN-001"
+      }
+    ],
+    "local_evidence": [
+      "output\\ma\\2026-10-05\\orgs\\MA-FIN-001.json",
+      "output\\ma\\2026-10-05\\orgs\\MA-FIN-003.json",
+      "output\\ma\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 141,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "MY-PERSON-REL-001为无注册无画像自造关系ID，保留姓名和关系事实待解析。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\persons\\MY-PERSON-000365.json",
+        "array": "person_relationships",
+        "index": 0,
+        "field": "person_id",
+        "expected_id": "MY-PERSON-REL-001",
+        "expected_reference": "图农·帕隆(Tunung Palong)",
+        "owner_id": "MY-PERSON-000365"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000365.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 142,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「subela.cl，智利网络电台(Súbela Radio)」与目标「法拉贝拉集团」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\persons\\CL-PERSON-000465.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "CL-CORP-001",
+        "expected_reference": "subela.cl，智利网络电台(Súbela Radio)",
+        "owner_id": "CL-PERSON-000465"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\persons\\CL-PERSON-000465.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-CORP-001.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 143,
+    "action": "暂缓",
+    "category": "停用注册",
+    "reason": "卡迪米注册姓名对应但status=trimmed且无画像，需先清理注册状态。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\iq\\2026-11-02\\persons\\IQ-PERSON-000104.json",
+        "array": "person_relationships",
+        "index": 0,
+        "field": "person_id",
+        "expected_id": "IQ-PERSON-000261",
+        "expected_reference": "穆斯塔法·卡迪米 (مصطفى الكاظمي)",
+        "owner_id": "IQ-PERSON-000104"
+      }
+    ],
+    "local_evidence": [
+      "output\\iq\\2026-11-02\\persons\\IQ-PERSON-000104.json",
+      "output\\iq\\2026-11-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 144,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "引用整个宗教事务部却指向其宗教和谐中心，是反向层级错位，需查实际雇主，不能作为完全匹配。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000235.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "ID-GOV-013",
+        "expected_reference": "印度尼西亚宗教事务部 (Kementerian Agama Republik Indonesia)",
+        "owner_id": "ID-PERSON-000235"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000235.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "ID-GOV-013",
+        "expected_reference": "印度尼西亚宗教事务部 (Kementerian Agama Republik Indonesia)",
+        "owner_id": "ID-PERSON-000235"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000235.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "ID-GOV-013",
+        "expected_reference": "印度尼西亚宗教事务部 (Kementerian Agama Republik Indonesia)",
+        "owner_id": "ID-PERSON-000235"
+      }
+    ],
+    "local_evidence": [
+      "output\\id\\2026-07-27\\persons\\ID-PERSON-000235.json",
+      "output\\id\\2026-07-27\\orgs\\ID-GOV-013.json",
+      "output\\id\\2026-07-27\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 145,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "通讯技术中心与越南通讯社是内部中心与上级机构层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000122.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "VN-MEDIA-001",
+        "expected_reference": "越通社通讯技术中心(Trung tâm Kỹ thuật Thông tấn - TTXVN)",
+        "owner_id": "VN-PERSON-000122"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000122.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "VN-MEDIA-001",
+        "expected_reference": "越通社通讯技术中心(Trung tâm Kỹ thuật Thông tấn - TTXVN)",
+        "owner_id": "VN-PERSON-000122"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000122.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "VN-MEDIA-001",
+        "expected_reference": "越通社通讯技术中心(Trung tâm Kỹ thuật Thông tấn - TTXVN)",
+        "owner_id": "VN-PERSON-000122"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000122.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-MEDIA-001.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 146,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用阿尔及利亚ARPT却指向选举机构；检索候选GN-GOV-030是几内亚同名监管局，也不可替换。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\dz\\2026-10-16\\persons\\DZ-PERSON-000128.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "DZ-GOV-021",
+        "expected_reference": "邮政与电信监管局 (Autorité de Régulation de la Poste et des Télécommunications, ARPT)",
+        "owner_id": "DZ-PERSON-000128"
+      }
+    ],
+    "local_evidence": [
+      "output\\dz\\2026-10-16\\persons\\DZ-PERSON-000128.json",
+      "output\\dz\\2026-10-16\\orgs\\DZ-GOV-021.json",
+      "output\\dz\\2026-10-16\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 147,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "人物引用指向墨西哥国立自治大学，实体类型不符。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000230.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "弗朗西斯科·加里多·帕特龙(Francisco Garrido Patrón)",
+        "owner_id": "MX-PERSON-000230"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000230.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-001.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 148,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "参议院民主党党团与整个国会层级不同，不能当同一实体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000650.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "US-GOV-017",
+        "expected_reference": "美国联邦参议院民主党党团 (Senate Democratic Caucus)",
+        "owner_id": "US-PERSON-000650"
+      },
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000650.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "US-GOV-017",
+        "expected_reference": "美国联邦参议院民主党党团 (Senate Democratic Caucus)",
+        "owner_id": "US-PERSON-000650"
+      },
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000650.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "US-GOV-017",
+        "expected_reference": "美国联邦参议院民主党党团 (Senate Democratic Caucus)",
+        "owner_id": "US-PERSON-000650"
+      },
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000650.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "US-GOV-017",
+        "expected_reference": "美国联邦参议院民主党党团 (Senate Democratic Caucus)",
+        "owner_id": "US-PERSON-000650"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\persons\\US-PERSON-000650.json",
+      "output\\us\\2026-09-05\\orgs\\US-GOV-017.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 149,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "Sagip Kapamilya项目与ABS-CBN基金会是项目与机构的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000875.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "PH-NGO-009",
+        "expected_reference": "ABS-CBN基金会—Sagip Kapamilya(ABS-CBN基金会 — Sagip Kapamilya)",
+        "owner_id": "PH-PERSON-000875"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000875.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-NGO-009.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 150,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「墨西哥州议会 (Congreso del Estado de México)」与目标「墨西哥国立自治大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000416.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "墨西哥州议会 (Congreso del Estado de México)",
+        "owner_id": "MX-PERSON-000416"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000416.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "墨西哥州议会 (Congreso del Estado de México)",
+        "owner_id": "MX-PERSON-000416"
+      },
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000416.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "墨西哥州议会 (Congreso del Estado de México)",
+        "owner_id": "MX-PERSON-000416"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000416.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-001.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 151,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "BOI保险经纪公司与工业银行是经营实体和集团层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ng\\2026-11-10\\orgs\\NG-FIN-012.json",
+        "array": "related_entities",
+        "index": 11,
+        "field": "org_id",
+        "expected_id": "NG-FIN-012",
+        "expected_reference": "BOI保险经纪公司 (BOI Insurance Brokers Limited)",
+        "owner_id": "NG-FIN-012"
+      }
+    ],
+    "local_evidence": [
+      "output\\ng\\2026-11-10\\orgs\\NG-FIN-012.json",
+      "output\\ng\\2026-11-10\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 152,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "总统候选人竞选委员会与共同民主党本体不是同一组织粒度。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000103.json",
+        "array": "work_experience",
+        "index": 14,
+        "field": "org_id",
+        "expected_id": "KR-PARTY-001",
+        "expected_reference": "共同民主党李在明总统候选人选举对策委员会",
+        "owner_id": "KR-PERSON-000103"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000103.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-PARTY-001.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 153,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "EXT-PERSON-003为无画像无注册外部占位ID，姓名关系保留，不保留伪链接。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\persons\\MY-PERSON-000332.json",
+        "array": "family_members",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "EXT-PERSON-003",
+        "expected_reference": "卢庆翘（Lu King Chiew）",
+        "owner_id": "MY-PERSON-000332"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000332.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 154,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "总统安全营与几内亚武装力量是具体部队与上级军队层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\gn\\2026-11-10\\persons\\GN-PERSON-000051.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "GN-MIL-001",
+        "expected_reference": "总统安全自主营 (Bataillon autonome de la sécurité présidentielle, BASP)",
+        "owner_id": "GN-PERSON-000051"
+      },
+      {
+        "file": "output\\gn\\2026-11-10\\persons\\GN-PERSON-000051.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "GN-MIL-001",
+        "expected_reference": "总统安全自主营 (Bataillon autonome de la sécurité présidentielle, BASP)",
+        "owner_id": "GN-PERSON-000051"
+      },
+      {
+        "file": "output\\gn\\2026-11-10\\persons\\GN-PERSON-000051.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "GN-MIL-001",
+        "expected_reference": "总统安全自主营 (Bataillon autonome de la sécurité présidentielle, BASP)",
+        "owner_id": "GN-PERSON-000051"
+      }
+    ],
+    "local_evidence": [
+      "output\\gn\\2026-11-10\\persons\\GN-PERSON-000051.json",
+      "output\\gn\\2026-11-10\\orgs\\GN-MIL-001.json",
+      "output\\gn\\2026-11-10\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 155,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「拉斐尔·「拉菲」·洛佩斯 (Raffy Lopez)」与目标「Raphael P. M. Lotilla」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000870.json",
+        "array": "person_relationships",
+        "index": 4,
+        "field": "person_id",
+        "expected_id": "PH-PERSON-000122",
+        "expected_reference": "拉斐尔·「拉菲」·洛佩斯 (Raffy Lopez)",
+        "owner_id": "PH-PERSON-000870"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000870.json",
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000122.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 156,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「基亚尔克建筑与施工公司 (Quiarq E.I.R.L.)」与目标「法拉贝拉集团」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\persons\\CL-PERSON-000531.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "CL-CORP-001",
+        "expected_reference": "基亚尔克建筑与施工公司 (Quiarq E.I.R.L.)",
+        "owner_id": "CL-PERSON-000531"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\persons\\CL-PERSON-000531.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-CORP-001.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 157,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「自由大学 (Свободный университет)」与目标「莫斯科罗蒙诺索夫国立大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000359.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "RU-ACAD-003",
+        "expected_reference": "自由大学 (Свободный университет)",
+        "owner_id": "RU-PERSON-000359"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000359.json",
+      "output\\ru\\2026-05-26\\orgs\\RU-ACAD-003.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 158,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「《巴库大不里士》杂志（Bakı Təbriz jurnalı）」与目标「亞塞拜然郵政」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\az\\2026-10-30\\orgs\\AZ-PARTY-005.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "AZ-SOE-013",
+        "expected_reference": "《巴库大不里士》杂志（Bakı Təbriz jurnalı）",
+        "owner_id": "AZ-PARTY-005"
+      }
+    ],
+    "local_evidence": [
+      "output\\az\\2026-10-30\\orgs\\AZ-PARTY-005.json",
+      "output\\az\\2026-10-30\\orgs\\AZ-SOE-013.json",
+      "output\\az\\2026-10-30\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 159,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "NHK编成局与NHK整院存在内部部门层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "JP-MEDIA-001",
+        "expected_reference": "日本广播协会编成局（NHK編成局）",
+        "owner_id": "JP-PERSON-000373"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000373.json",
+        "array": "work_experience",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "JP-MEDIA-001",
+        "expected_reference": "日本广播协会编成局（NHK編成局）",
+        "owner_id": "JP-PERSON-000373"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000373.json",
+      "output\\jp\\2026-06-09\\orgs\\JP-MEDIA-001.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 160,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「琳德尔·斯托伊尔斯 (Lyndall Stoyles)」与目标「Andrew Bertoncin」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\au\\2026-05-08\\orgs\\AU-CORP-008.json",
+        "array": "key_people",
+        "index": 4,
+        "field": "person_id",
+        "expected_id": "AU-PERSON-000038",
+        "expected_reference": "琳德尔·斯托伊尔斯 (Lyndall Stoyles)",
+        "owner_id": "AU-CORP-008"
+      }
+    ],
+    "local_evidence": [
+      "output\\au\\2026-05-08\\orgs\\AU-CORP-008.json",
+      "output\\au\\2026-05-08\\persons\\AU-PERSON-000038.json",
+      "output\\au\\2026-05-08\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 161,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\tz\\2026-10-25\\orgs\\TZ-FIN-007.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "TZ-FIN-004",
+        "expected_reference": "国民商业银行 (National Bank of Commerce, NBC)",
+        "owner_id": "TZ-FIN-007"
+      }
+    ],
+    "local_evidence": [
+      "output\\tz\\2026-10-25\\orgs\\TZ-FIN-007.json",
+      "output\\tz\\2026-10-25\\orgs\\TZ-FIN-004.json",
+      "output\\tz\\2026-10-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 162,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "引用含阿卜杜拉二世本人，目标是国王职务画像，须区分个人与职务机构。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jo\\2026-09-17\\orgs\\JO-MIL-004.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "JO-GOV-001",
+        "expected_reference": "约旦君主（国王阿卜杜拉二世）",
+        "owner_id": "JO-MIL-004"
+      }
+    ],
+    "local_evidence": [
+      "output\\jo\\2026-09-17\\orgs\\JO-MIL-004.json",
+      "output\\jo\\2026-09-17\\orgs\\JO-GOV-001.json",
+      "output\\jo\\2026-09-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 163,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "项目协调小组与农业部是项目/部门与上级部委的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ma\\2026-10-05\\persons\\MA-PERSON-000065.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "MA-GOV-008",
+        "expected_reference": "摩洛哥农业部 PMH 2 项目协调小组（世界银行资助）(摩洛哥农业部 PMH 2 项目协调小组（世界银行资助）(Cellule de Coordination du Projet PMH 2, financé par la Banque mondiale))",
+        "owner_id": "MA-PERSON-000065"
+      }
+    ],
+    "local_evidence": [
+      "output\\ma\\2026-10-05\\persons\\MA-PERSON-000065.json",
+      "output\\ma\\2026-10-05\\orgs\\MA-GOV-008.json",
+      "output\\ma\\2026-10-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 164,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "健康事业部与Al-Futtaim集团有事业部或子公司层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ae\\2026-10-02\\persons\\AE-PERSON-000134.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "AE-CORP-004",
+        "expected_reference": "阿勒富塔姆集团健康事业部 (Al-Futtaim Health)",
+        "owner_id": "AE-PERSON-000134"
+      }
+    ],
+    "local_evidence": [
+      "output\\ae\\2026-10-02\\persons\\AE-PERSON-000134.json",
+      "output\\ae\\2026-10-02\\orgs\\AE-CORP-004.json",
+      "output\\ae\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 165,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "美国海军陆战队与美国海军是不同军种实体；同属海军部不能把Marine Corps改指Navy。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000600.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "US-MIL-002",
+        "expected_reference": "美国海军陆战队 (United States Marine Corps)",
+        "owner_id": "US-PERSON-000600"
+      },
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000600.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "US-MIL-002",
+        "expected_reference": "美国海军陆战队 (United States Marine Corps)",
+        "owner_id": "US-PERSON-000600"
+      },
+      {
+        "file": "output\\us\\2026-09-05\\persons\\US-PERSON-000600.json",
+        "array": "work_experience",
+        "index": 12,
+        "field": "org_id",
+        "expected_id": "US-MIL-002",
+        "expected_reference": "美国海军陆战队 (United States Marine Corps)",
+        "owner_id": "US-PERSON-000600"
+      }
+    ],
+    "local_evidence": [
+      "output\\us\\2026-09-05\\persons\\US-PERSON-000600.json",
+      "output\\us\\2026-09-05\\orgs\\US-MIL-002.json",
+      "output\\us\\2026-09-05\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 166,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "边境事务国务秘书处与内阁整体不是同一实体粒度。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kh\\2026-10-04\\persons\\KH-PERSON-000062.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "KH-GOV-001",
+        "expected_reference": "柬埔寨边境事务国务秘书处 (រដ្ឋលេខាធិការដ្ឋានកិច្ចការព្រំដែន)",
+        "owner_id": "KH-PERSON-000062"
+      }
+    ],
+    "local_evidence": [
+      "output\\kh\\2026-10-04\\persons\\KH-PERSON-000062.json",
+      "output\\kh\\2026-10-04\\orgs\\KH-GOV-001.json",
+      "output\\kh\\2026-10-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 167,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "Alrosa-Nyurba与Alrosa母体是不同经营实体，需按法人粒度处理。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\orgs\\RU-SOE-013.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "RU-SOE-013",
+        "expected_reference": "阿尔罗萨-纽尔巴公司 (Алроса-Нюрба)",
+        "owner_id": "RU-SOE-013"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\orgs\\RU-SOE-013.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 168,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 9,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      },
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+        "array": "work_experience",
+        "index": 10,
+        "field": "org_id",
+        "expected_id": "JP-FIN-009",
+        "expected_reference": "日本生命保险相互会社 (日本生命保険相互会社)",
+        "owner_id": "JP-PERSON-000085"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000085.json",
+      "output\\jp\\2026-06-09\\orgs\\JP-FIN-009.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 169,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「马来西亚国际贸易与工业部」与目标「马来西亚下议院」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\persons\\MY-PERSON-000180.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "MY-GOV-019",
+        "expected_reference": "马来西亚国际贸易与工业部",
+        "owner_id": "MY-PERSON-000180"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000180.json",
+      "output\\my\\2026-04-17\\orgs\\MY-GOV-019.json",
+      "output\\my\\2026-04-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 170,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「新莱昂州广播电台 (Radio Nuevo León)」与目标「墨西哥国立自治大学」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000517.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "MX-ACAD-001",
+        "expected_reference": "新莱昂州广播电台 (Radio Nuevo León)",
+        "owner_id": "MX-PERSON-000517"
+      }
+    ],
+    "local_evidence": [
+      "output\\mx\\2026-05-11\\persons\\MX-PERSON-000517.json",
+      "output\\mx\\2026-05-11\\orgs\\MX-ACAD-001.json",
+      "output\\mx\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 171,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「韦罗妮卡·斯克沃尔佐娃 (Вероника Скворцова)」与目标「Супян Виктор Борисович」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000318.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "RU-PERSON-000053",
+        "expected_reference": "韦罗妮卡·斯克沃尔佐娃 (Вероника Скворцова)",
+        "owner_id": "RU-PERSON-000318"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000318.json",
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000053.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 172,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「韩国法院」与目标「中小风险企业部 (중소벤처기업부)」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000501.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "KR-GOV-014",
+        "expected_reference": "韩国法院",
+        "owner_id": "KR-PERSON-000501"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000501.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-GOV-014.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 173,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "安达拉斯大学法学院与大学是院系层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "ID-ACAD-008",
+        "expected_reference": "安达拉斯大学法学院 (Fakultas Hukum Universitas Andalas)",
+        "owner_id": "ID-PERSON-000452"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "ID-ACAD-008",
+        "expected_reference": "安达拉斯大学法学院 (Fakultas Hukum Universitas Andalas)",
+        "owner_id": "ID-PERSON-000452"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "ID-ACAD-008",
+        "expected_reference": "安达拉斯大学法学院 (Fakultas Hukum Universitas Andalas)",
+        "owner_id": "ID-PERSON-000452"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "ID-ACAD-008",
+        "expected_reference": "安达拉斯大学法学院 (Fakultas Hukum Universitas Andalas)",
+        "owner_id": "ID-PERSON-000452"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "ID-ACAD-008",
+        "expected_reference": "安达拉斯大学法学院 (Fakultas Hukum Universitas Andalas)",
+        "owner_id": "ID-PERSON-000452"
+      },
+      {
+        "file": "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "ID-ACAD-008",
+        "expected_reference": "安达拉斯大学法学院 (Fakultas Hukum Universitas Andalas)",
+        "owner_id": "ID-PERSON-000452"
+      }
+    ],
+    "local_evidence": [
+      "output\\id\\2026-07-27\\persons\\ID-PERSON-000452.json",
+      "output\\id\\2026-07-27\\orgs\\ID-ACAD-008.json",
+      "output\\id\\2026-07-27\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 174,
+    "action": "保留",
+    "category": "有效注册无画像",
+    "reason": "无画像但活跃auto_registered条目明确越南信息传媒部MIC；本轮只确认身份，不证明当前仍存续或任职仍在任。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000091.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "VN-GOV-189",
+        "expected_reference": "信息传媒部(信息传媒部 (Ministry of Information and Communications (MIC)))",
+        "owner_id": "VN-PERSON-000091"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000091.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "VN-GOV-189",
+        "expected_reference": "信息传媒部(信息传媒部 (Ministry of Information and Communications (MIC)))",
+        "owner_id": "VN-PERSON-000091"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000091.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 175,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "星岛新闻集团官网列星岛日报为旗下报纸，集团与报纸不能直接当同一实体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\hk\\2026-07-24\\persons\\HK-PERSON-000813.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "HK-MEDIA-007",
+        "expected_reference": "星岛新闻集团 (Sing Tao News Corporation)",
+        "owner_id": "HK-PERSON-000813"
+      },
+      {
+        "file": "output\\hk\\2026-07-24\\persons\\HK-PERSON-000813.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "HK-MEDIA-007",
+        "expected_reference": "星岛新闻集团 (Sing Tao News Corporation)",
+        "owner_id": "HK-PERSON-000813"
+      }
+    ],
+    "local_evidence": [
+      "output\\hk\\2026-07-24\\persons\\HK-PERSON-000813.json",
+      "output\\hk\\2026-07-24\\orgs\\HK-MEDIA-007.json",
+      "output\\hk\\2026-07-24\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.singtaonewscorp.com/en/business.html"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 176,
+    "action": "暂缓",
+    "category": "名称或事实冲突",
+    "reason": "2021—2022能源部长与石油能源部改革前后口径可能不同，且同ID注册表另指基金会，需核组织沿革。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pg\\2026-05-25\\persons\\PG-PERSON-000284.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "PG-GOV-013",
+        "expected_reference": "巴布亚新几内亚能源部 (Ministry of Energy)",
+        "owner_id": "PG-PERSON-000284"
+      }
+    ],
+    "local_evidence": [
+      "output\\pg\\2026-05-25\\persons\\PG-PERSON-000284.json",
+      "output\\pg\\2026-05-25\\orgs\\PG-GOV-013.json",
+      "output\\pg\\2026-05-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 177,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "亚洲新闻中心与雅典耀大学是内部机构与大学层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ph\\2026-09-20\\persons\\PH-PERSON-000521.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "PH-ACAD-003",
+        "expected_reference": "雅典耀马尼拉大学亚洲新闻中心 (Asian Center for Journalism, Ateneo de Manila University)",
+        "owner_id": "PH-PERSON-000521"
+      }
+    ],
+    "local_evidence": [
+      "output\\ph\\2026-09-20\\persons\\PH-PERSON-000521.json",
+      "output\\ph\\2026-09-20\\orgs\\PH-ACAD-003.json",
+      "output\\ph\\2026-09-20\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 178,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "当前画像明确为吉尔吉斯紧急情况部；registry俄罗斯旧标签错误，不能按registry反改引用。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000224.json",
+        "array": "work_experience",
+        "index": 7,
+        "field": "org_id",
+        "expected_id": "KG-GOV-017",
+        "expected_reference": "吉尔吉斯斯坦共和国紧急情况部 (Министерство чрезвычайных ситуаций Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000224"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000224.json",
+        "array": "work_experience",
+        "index": 8,
+        "field": "org_id",
+        "expected_id": "KG-GOV-017",
+        "expected_reference": "吉尔吉斯斯坦共和国紧急情况部 (Министерство чрезвычайных ситуаций Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000224"
+      },
+      {
+        "file": "output\\kg\\2026-06-21\\persons\\KG-PERSON-000224.json",
+        "array": "work_experience",
+        "index": 9,
+        "field": "org_id",
+        "expected_id": "KG-GOV-017",
+        "expected_reference": "吉尔吉斯斯坦共和国紧急情况部 (Министерство чрезвычайных ситуаций Кыргызской Республики)",
+        "owner_id": "KG-PERSON-000224"
+      }
+    ],
+    "local_evidence": [
+      "output\\kg\\2026-06-21\\persons\\KG-PERSON-000224.json",
+      "output\\kg\\2026-06-21\\orgs\\KG-GOV-017.json",
+      "output\\kg\\2026-06-21\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 179,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「米哈伊尔·霍多尔科夫斯基 (Михаил Ходорковский)」与目标「Михаил Юрьевич Карисалов」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000453.json",
+        "array": "person_relationships",
+        "index": 3,
+        "field": "person_id",
+        "expected_id": "RU-PERSON-000113",
+        "expected_reference": "米哈伊尔·霍多尔科夫斯基 (Михаил Ходорковский)",
+        "owner_id": "RU-PERSON-000453"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000453.json",
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000113.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 180,
+    "action": "暂缓",
+    "category": "快照变更及跨国同名",
+    "reason": "样本已过时：Step1b把本条由PE-SOE-006改为NI-ACAD-004；秘鲁与尼加拉瓜有同名UNI，须按任职国家复核，禁止再靠同名自动认定。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000018.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "NI-ACAD-004",
+        "expected_reference": "国立工程大学 (Universidad Nacional de Ingeniería)",
+        "owner_id": "PE-PERSON-000018"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000018.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-SOE-006.json",
+      "output\\pe\\2026-10-01\\id_registry.json",
+      "output/_id_audit/step1b_undo.json",
+      "output/ni/2026-10-28/orgs/NI-ACAD-004.json"
+    ],
+    "web_evidence": [
+      "https://andina.pe/agencia/noticia-elecciones-2021-conoce-perfil-rafael-lopez-aliaga-candidato-renovacion-popular-831866.aspx",
+      "https://www.gob.pe/uni",
+      "https://posgrado.uni.edu.ni/universidad/"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 181,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "Mawhiba为该沙特天才创造力基金会通行简称，目标画像名称变体支持。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000663.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "SA-NGO-006",
+        "expected_reference": "阿卜杜勒阿齐兹国王及其同伴天才与创造力基金会「Mawhiba」 (مؤسسة الملك عبدالعزيز ورجاله للموهبة والإبداع)",
+        "owner_id": "SA-PERSON-000663"
+      },
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000663.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "SA-NGO-006",
+        "expected_reference": "阿卜杜勒阿齐兹国王及其同伴天才与创造力基金会「Mawhiba」 (مؤسسة الملك عبدالعزيز ورجاله للموهبة والإبداع)",
+        "owner_id": "SA-PERSON-000663"
+      },
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000663.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "SA-NGO-006",
+        "expected_reference": "阿卜杜勒阿齐兹国王及其同伴天才与创造力基金会「Mawhiba」 (مؤسسة الملك عبدالعزيز ورجاله للموهبة والإبداع)",
+        "owner_id": "SA-PERSON-000663"
+      }
+    ],
+    "local_evidence": [
+      "output\\sa\\2026-09-29\\persons\\SA-PERSON-000663.json",
+      "output\\sa\\2026-09-29\\orgs\\SA-NGO-006.json",
+      "output\\sa\\2026-09-29\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 182,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「安第斯曼克胡埃沃水务公司 (Aguas Manquehue S.A.)」与目标「圣地亚哥地铁」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\orgs\\CL-CORP-014.json",
+        "array": "related_entities",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "CL-SOE-007",
+        "expected_reference": "安第斯曼克胡埃沃水务公司 (Aguas Manquehue S.A.)",
+        "owner_id": "CL-CORP-014"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\orgs\\CL-CORP-014.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-SOE-007.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 183,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「理查德·罗布森 (Richard Robson)」与目标「강승철」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\sa\\2026-09-29\\persons\\SA-PERSON-000084.json",
+        "array": "person_relationships",
+        "index": 1,
+        "field": "person_id",
+        "expected_id": "KR-PERSON-000051",
+        "expected_reference": "理查德·罗布森 (Richard Robson)",
+        "owner_id": "SA-PERSON-000084"
+      }
+    ],
+    "local_evidence": [
+      "output\\sa\\2026-09-29\\persons\\SA-PERSON-000084.json",
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000051.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 184,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「法里斯·布里扎特 (فارس البريزات)」与目标「فارس الصايغ」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jo\\2026-09-17\\persons\\JO-PERSON-000063.json",
+        "array": "person_relationships",
+        "index": 2,
+        "field": "person_id",
+        "expected_id": "JO-PERSON-000116",
+        "expected_reference": "法里斯·布里扎特 (فارس البريزات)",
+        "owner_id": "JO-PERSON-000063"
+      }
+    ],
+    "local_evidence": [
+      "output\\jo\\2026-09-17\\persons\\JO-PERSON-000063.json",
+      "output\\jo\\2026-09-17\\persons\\JO-PERSON-000116.json",
+      "output\\jo\\2026-09-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 185,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「加拿大移民、难民及公民事务部 (Immigration, Refugees and Citizenship Canada)」与目标「加拿大众议院」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ca\\2026-05-11\\persons\\CA-PERSON-000424.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "CA-GOV-004",
+        "expected_reference": "加拿大移民、难民及公民事务部 (Immigration, Refugees and Citizenship Canada)",
+        "owner_id": "CA-PERSON-000424"
+      }
+    ],
+    "local_evidence": [
+      "output\\ca\\2026-05-11\\persons\\CA-PERSON-000424.json",
+      "output\\ca\\2026-05-11\\orgs\\CA-GOV-004.json",
+      "output\\ca\\2026-05-11\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 186,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「FPT零售 (FPT Retail)」与目标「保越控股集团」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\orgs\\VN-CORP-002.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "VN-CORP-009",
+        "expected_reference": "FPT零售 (FPT Retail)",
+        "owner_id": "VN-CORP-002"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\orgs\\VN-CORP-002.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-CORP-009.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 187,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "中文译名、尊称及拼写差异，目标是同一苏丹Ibrahim Ismail。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\my\\2026-04-17\\orgs\\MY-ACAD-006.json",
+        "array": "key_people",
+        "index": 0,
+        "field": "person_id",
+        "expected_id": "MY-PERSON-000004",
+        "expected_reference": "苏丹·易卜拉欣·伊斯梅尔 (Sultan Ibrahim Ismail)",
+        "owner_id": "MY-ACAD-006"
+      }
+    ],
+    "local_evidence": [
+      "output\\my\\2026-04-17\\orgs\\MY-ACAD-006.json",
+      "output\\my\\2026-04-17\\persons\\MY-PERSON-000004.json",
+      "output\\my\\2026-04-17\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 188,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「R. Gratau y Cía.」与目标「圣地亚哥地铁」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\cl\\2026-10-02\\persons\\CL-PERSON-000285.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "CL-SOE-007",
+        "expected_reference": "R. Gratau y Cía.",
+        "owner_id": "CL-PERSON-000285"
+      }
+    ],
+    "local_evidence": [
+      "output\\cl\\2026-10-02\\persons\\CL-PERSON-000285.json",
+      "output\\cl\\2026-10-02\\orgs\\CL-SOE-007.json",
+      "output\\cl\\2026-10-02\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 189,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "中文写外交部，英文细化新闻司，需统一部门粒度；实际画像确为外交部，不能被错误registry标签国防部误导。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000095.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "VN-GOV-004",
+        "expected_reference": "外交部 (Press Information Department, Ministry of Foreign Affairs)",
+        "owner_id": "VN-PERSON-000095"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000095.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "VN-GOV-004",
+        "expected_reference": "外交部 (Press Information Department, Ministry of Foreign Affairs)",
+        "owner_id": "VN-PERSON-000095"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000095.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "VN-GOV-004",
+        "expected_reference": "外交部 (Press Information Department, Ministry of Foreign Affairs)",
+        "owner_id": "VN-PERSON-000095"
+      },
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000095.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "VN-GOV-004",
+        "expected_reference": "外交部 (Press Information Department, Ministry of Foreign Affairs)",
+        "owner_id": "VN-PERSON-000095"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000095.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-GOV-004.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 190,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "曼谷海军基地与皇家海军是基地与军种整体的粒度差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000567.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "TH-MIL-007",
+        "expected_reference": "曼谷海军基地",
+        "owner_id": "TH-PERSON-000567"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000567.json",
+      "output\\th\\2026-09-25\\orgs\\TH-MIL-007.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 191,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ng\\2026-11-10\\orgs\\NG-MEDIA-005.json",
+        "array": "related_entities",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "NG-MEDIA-006",
+        "expected_reference": "先锋报 (Vanguard (Nigeria))",
+        "owner_id": "NG-MEDIA-005"
+      },
+      {
+        "file": "output\\ng\\2026-11-10\\orgs\\NG-MEDIA-012.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "NG-MEDIA-006",
+        "expected_reference": "先锋报 (Vanguard (Nigeria))",
+        "owner_id": "NG-MEDIA-012"
+      }
+    ],
+    "local_evidence": [
+      "output\\ng\\2026-11-10\\orgs\\NG-MEDIA-005.json",
+      "output\\ng\\2026-11-10\\orgs\\NG-MEDIA-012.json",
+      "output\\ng\\2026-11-10\\orgs\\NG-MEDIA-006.json",
+      "output\\ng\\2026-11-10\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 192,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "引用实体「乍得私营电视台联盟 (Union des Télévisions Privées Tchadiennes, UTPT)」与目标「乍得电信、数字经济与行政数字化部」明显不同；现有名称和来源上下文不支持同一身份。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\td\\2026-10-15\\orgs\\TD-MEDIA-005.json",
+        "array": "related_entities",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "TD-GOV-009",
+        "expected_reference": "乍得私营电视台联盟 (Union des Télévisions Privées Tchadiennes, UTPT)",
+        "owner_id": "TD-MEDIA-005"
+      }
+    ],
+    "local_evidence": [
+      "output\\td\\2026-10-15\\orgs\\TD-MEDIA-005.json",
+      "output\\td\\2026-10-15\\orgs\\TD-GOV-009.json",
+      "output\\td\\2026-10-15\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 193,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "Organizacion de las Naciones Unidas即联合国，目标与registry一致；BOL总部等元数据另待核，不删除正确引用。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bo\\2026-10-24\\orgs\\BO-INTL-008.json",
+        "array": "related_entities",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "BO-INTL-001",
+        "expected_reference": "Organización de las Naciones Unidas",
+        "owner_id": "BO-INTL-008"
+      }
+    ],
+    "local_evidence": [
+      "output\\bo\\2026-10-24\\orgs\\BO-INTL-008.json",
+      "output\\bo\\2026-10-24\\orgs\\BO-INTL-001.json",
+      "output\\bo\\2026-10-24\\id_registry.json"
+    ],
+    "web_evidence": [
+      "https://www.un.org/es/"
+    ],
+    "review_only": true
+  },
+  {
+    "sample_number": 194,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\pe\\2026-10-01\\persons\\PE-PERSON-000102.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "PE-GOV-034",
+        "expected_reference": "电信业私人投资监管局 (Organismo Supervisor de Inversión Privada en Telecomunicaciones, OSIPTEL)",
+        "owner_id": "PE-PERSON-000102"
+      }
+    ],
+    "local_evidence": [
+      "output\\pe\\2026-10-01\\persons\\PE-PERSON-000102.json",
+      "output\\pe\\2026-10-01\\orgs\\PE-GOV-034.json",
+      "output\\pe\\2026-10-01\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 195,
+    "action": "保留",
+    "category": "实体一致",
+    "reason": "引用与当前画像的本国语言、英文名或规范中文译名对应，为名称格式或翻译变体。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\ru\\2026-05-26\\persons\\RU-PERSON-000393.json",
+        "array": "work_experience",
+        "index": 1,
+        "field": "org_id",
+        "expected_id": "RU-MIL-004",
+        "expected_reference": "总参谋部情报总局 (ГРУ ГШ)",
+        "owner_id": "RU-PERSON-000393"
+      }
+    ],
+    "local_evidence": [
+      "output\\ru\\2026-05-26\\persons\\RU-PERSON-000393.json",
+      "output\\ru\\2026-05-26\\orgs\\RU-MIL-004.json",
+      "output\\ru\\2026-05-26\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 196,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "信息技术与测量中心与越南电视台是内部单位与机构层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\vn\\2026-05-06\\persons\\VN-PERSON-000048.json",
+        "array": "work_experience",
+        "index": 2,
+        "field": "org_id",
+        "expected_id": "VN-MEDIA-002",
+        "expected_reference": "越南电视台信息技术与测量中心",
+        "owner_id": "VN-PERSON-000048"
+      }
+    ],
+    "local_evidence": [
+      "output\\vn\\2026-05-06\\persons\\VN-PERSON-000048.json",
+      "output\\vn\\2026-05-06\\orgs\\VN-MEDIA-002.json",
+      "output\\vn\\2026-05-06\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 197,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "未来资产资产管理公司与金融集团是不同经营实体/母子层级。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000776.json",
+        "array": "work_experience",
+        "index": 0,
+        "field": "org_id",
+        "expected_id": "KR-FIN-010",
+        "expected_reference": "未来资产资产管理公司（Mirae Asset Global Investments）",
+        "owner_id": "KR-PERSON-000776"
+      },
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000776.json",
+        "array": "work_experience",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "KR-FIN-010",
+        "expected_reference": "未来资产资产管理公司（Mirae Asset Global Investments）",
+        "owner_id": "KR-PERSON-000776"
+      },
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000776.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "KR-FIN-010",
+        "expected_reference": "未来资产资产管理公司（Mirae Asset Global Investments）",
+        "owner_id": "KR-PERSON-000776"
+      },
+      {
+        "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000776.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "KR-FIN-010",
+        "expected_reference": "未来资产资产管理公司（Mirae Asset Global Investments）",
+        "owner_id": "KR-PERSON-000776"
+      }
+    ],
+    "local_evidence": [
+      "output\\kr\\2026-05-04\\persons\\KR-PERSON-000776.json",
+      "output\\kr\\2026-05-04\\orgs\\KR-FIN-010.json",
+      "output\\kr\\2026-05-04\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 198,
+    "action": "暂缓",
+    "category": "上下级或实体粒度",
+    "reason": "陆军总司令部与整个皇家陆军是指挥机构与军种整体层级差异。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000558.json",
+        "array": "work_experience",
+        "index": 5,
+        "field": "org_id",
+        "expected_id": "TH-MIL-006",
+        "expected_reference": "泰国皇家陆军总司令部（กองบัญชาการกองทัพบก）",
+        "owner_id": "TH-PERSON-000558"
+      },
+      {
+        "file": "output\\th\\2026-09-25\\persons\\TH-PERSON-000558.json",
+        "array": "work_experience",
+        "index": 6,
+        "field": "org_id",
+        "expected_id": "TH-MIL-006",
+        "expected_reference": "泰国皇家陆军总司令部（กองบัญชาการกองทัพบก）",
+        "owner_id": "TH-PERSON-000558"
+      }
+    ],
+    "local_evidence": [
+      "output\\th\\2026-09-25\\persons\\TH-PERSON-000558.json",
+      "output\\th\\2026-09-25\\orgs\\TH-MIL-006.json",
+      "output\\th\\2026-09-25\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 199,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "无画像的registry登记日本驻泰国使馆，引用是驻菲律宾使馆，国家不同。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000225.json",
+        "array": "work_experience",
+        "index": 4,
+        "field": "org_id",
+        "expected_id": "JP-GOV-191",
+        "expected_reference": "日本国驻菲律宾大使馆（在フィリピン日本国大使館）",
+        "owner_id": "JP-PERSON-000225"
+      }
+    ],
+    "local_evidence": [
+      "output\\jp\\2026-06-09\\persons\\JP-PERSON-000225.json",
+      "output\\jp\\2026-06-09\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  },
+  {
+    "sample_number": 200,
+    "action": "建议置空",
+    "category": "明确错链",
+    "reason": "MATE与APB Sumate不是同一政党，源条目备注也明确指出此ID错误却仍写入，不能按缩写近似保留。",
+    "proposed_id": null,
+    "locations": [
+      {
+        "file": "output\\bo\\2026-10-24\\orgs\\BO-PARTY-012.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "BO-PARTY-013",
+        "expected_reference": "Movimiento Autonomista por el Trabajo y la Estabilidad（劳动与稳定自治运动，MATE）",
+        "owner_id": "BO-PARTY-012"
+      },
+      {
+        "file": "output\\bo\\2026-10-24\\orgs\\BO-PARTY-014.json",
+        "array": "related_entities",
+        "index": 3,
+        "field": "org_id",
+        "expected_id": "BO-PARTY-013",
+        "expected_reference": "Movimiento Autonomista por el Trabajo y la Estabilidad（劳动与稳定自治运动，MATE）",
+        "owner_id": "BO-PARTY-014"
+      }
+    ],
+    "local_evidence": [
+      "output\\bo\\2026-10-24\\orgs\\BO-PARTY-012.json",
+      "output\\bo\\2026-10-24\\orgs\\BO-PARTY-014.json",
+      "output\\bo\\2026-10-24\\orgs\\BO-PARTY-013.json",
+      "output\\bo\\2026-10-24\\id_registry.json"
+    ],
+    "web_evidence": [],
+    "review_only": true
+  }
+]

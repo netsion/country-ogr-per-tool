@@ -3,9 +3,10 @@
   "wikidata_qid": "Q528265",
   "name": "林怀民",
   "name_en": "Lin Hwai-min",
-  "name_local": "林懷民",
   "name_zh": "林怀民",
-  "aliases": [],
+  "aliases": [
+    "林懷民"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1947-02-19",
@@ -26,20 +27,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/2008TIBE_Day5_Hall1_ThemeSquare_Hwai-min_Lin.jpg/250px-2008TIBE_Day5_Hall1_ThemeSquare_Hwai-min_Lin.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000450.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2008TIBE%20Day5%20Hall1%20ThemeSquare%20Hwai-min%20Lin.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000450.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Writer",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q528265"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q528265"
+      }
+    ]
   }
 }

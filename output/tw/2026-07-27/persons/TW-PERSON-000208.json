@@ -3,9 +3,10 @@
   "wikidata_qid": "Q5116270",
   "name": "王钟铭",
   "name_en": "Chung-Ming Wang",
-  "name_local": "王鐘銘",
   "name_zh": "王钟铭",
-  "aliases": [],
+  "aliases": [
+    "王鐘銘"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1978-12-08",
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Chung-Ming_Wang_2010-4-30.jpg/250px-Chung-Ming_Wang_2010-4-30.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000208.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chung-Ming%20Wang%202010-4-30.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000208.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自简介: Politician",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q5116270"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q5116270"
+      }
+    ]
   }
 }

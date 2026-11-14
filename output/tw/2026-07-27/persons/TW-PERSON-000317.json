@@ -3,9 +3,10 @@
   "wikidata_qid": "Q105687268",
   "name": "陈正棋",
   "name_en": "Chen Cheng-chi",
-  "name_local": "陳正棋",
   "name_zh": "陈正棋",
-  "aliases": [],
+  "aliases": [
+    "陳正棋"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": null,
@@ -25,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Chen_Cheng-chi_%E9%99%B3%E6%AD%A3%E6%A3%8B_%28VOA_Image_836B6BE1-9EDA-451C-81C8-AD3090DBCD2E_w1023_r1_s%29.jpg/250px-Chen_Cheng-chi_%E9%99%B3%E6%AD%A3%E6%A3%8B_%28VOA_Image_836B6BE1-9EDA-451C-81C8-AD3090DBCD2E_w1023_r1_s%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000317.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chen%20Cheng-chi%20%E9%99%B3%E6%AD%A3%E6%A3%8B%20%28VOA%20Image%20836B6BE1-9EDA-451C-81C8-AD3090DBCD2E%20w1023%20r1%20s%29.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000317.jpg"
   },
-  "importance_level": "low",
-  "importance_reason": "派生自职位: Taiwanese government official",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q105687268"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q105687268"
+      }
+    ]
   }
 }

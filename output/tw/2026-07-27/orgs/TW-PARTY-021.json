@@ -1,26 +1,17 @@
 {
   "org_id": "TW-PARTY-021",
   "wikidata_qid": "Q711428",
-  "name": "建國黨",
   "basic_info": {
-    "org_id": "TW-PARTY-021",
-    "wikidata_qid": "Q711428",
     "name_original": "建國黨",
     "name_en": "Taiwan Independence Party",
-    "name_local": "建國黨",
     "name_zh": "建国党",
     "org_type": "PARTY",
-    "country": "TW",
     "country_iso3": "TWN",
     "hq_country_iso3": "TWN",
-    "founded_year": 1996,
     "website": "http://www.taip.org/declaration/index.html",
-    "official_website": "http://www.taip.org/declaration/index.html",
-    "is_tw_verified": true,
-    "aliases": []
+    "aliases": [],
+    "org_subtype": ""
   },
-  "description": "建國黨，是中華民國一个已解散的政黨。于1996年10月6日成立，黨員主要是從民主進步黨分裂出來的台灣獨立運動成員。2020年4月29日，內政部公告，因未依《政黨法》補正完成，废止该党的政党備案。\n",
-  "brief": "建國黨，是中華民國一个已解散的政黨。于1996年10月6日成立，黨員主要是從民主進步黨分裂出來的台灣獨立運動成員。2020年4月29日，內政部公告，因未依《政黨法》補正完成，废止该党的政党備案。\n",
   "core_business": "建國黨，是中華民國一个已解散的政黨。于1996年10月6日成立，黨員主要是從民主進步黨分裂出來的台灣獨立運動成員。2020年4月29日，內政部公告，因未依《政黨法》補正完成，废止该党的政党備案。\n",
   "industries": [
     "public_administration"
@@ -46,14 +37,22 @@
   "related_entities": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q711428",
-      "https://zh.wikipedia.org/wiki/建國黨",
-      "https://zh.wikipedia.org/wiki/建國黨"
+      "wikidata",
+      "wikipedia"
     ],
     "completeness_score": 80,
-    "notes": "Major TW political party (Taiwan Independence Party)",
-    "quotes": []
+    "notes": "Major TW political party (Taiwan Independence Party)；仅Schema规范化，旧phase=P3；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q711428"
+      },
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://zh.wikipedia.org/wiki/建國黨"
+      }
+    ]
   }
 }

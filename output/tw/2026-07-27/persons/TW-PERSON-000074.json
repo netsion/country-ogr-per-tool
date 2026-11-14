@@ -3,9 +3,10 @@
   "wikidata_qid": "Q706735",
   "name": "许信良",
   "name_en": "Hsu Hsin-liang",
-  "name_local": "許信良",
   "name_zh": "许信良",
-  "aliases": [],
+  "aliases": [
+    "許信良"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1941-05-27",
@@ -19,15 +20,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-PARTY-012",
-      "org_name": "民主進步黨",
-      "title": "主席",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -47,20 +40,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/President_Direct_Election_Movement_Hsin-liang_Hsu.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000074.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/President%20Direct%20Election%20Movement%20Hsin-liang%20Hsu.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000074.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Magistrate of Taoyuan County",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q706735"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q706735"
+      }
+    ]
   }
 }

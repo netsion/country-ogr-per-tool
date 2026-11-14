@@ -3,9 +3,10 @@
   "wikidata_qid": "Q8966024",
   "name": "冯定国",
   "name_en": "Feng Ting-kuo",
-  "name_local": "馮定國",
   "name_zh": "冯定国",
-  "aliases": [],
+  "aliases": [
+    "馮定國"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1950-09-24",
@@ -18,36 +19,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-014",
-      "org_name": "親民黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-015",
-      "org_name": "新黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-013",
-      "org_name": "中國國民黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -56,20 +28,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%E9%A6%AE%E5%AE%9A%E5%9C%8B.jpg/250px-%E9%A6%AE%E5%AE%9A%E5%9C%8B.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000142.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%A6%AE%E5%AE%9A%E5%9C%8B.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000142.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: member of the National Assembly of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8966024"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q8966024"
+      }
+    ]
   }
 }

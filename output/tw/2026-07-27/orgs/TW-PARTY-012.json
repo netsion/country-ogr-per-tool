@@ -1,26 +1,17 @@
 {
   "org_id": "TW-PARTY-012",
   "wikidata_qid": "Q903822",
-  "name": "民主進步黨",
   "basic_info": {
-    "org_id": "TW-PARTY-012",
-    "wikidata_qid": "Q903822",
     "name_original": "民主進步黨",
     "name_en": "Democratic Progressive Party",
-    "name_local": "民主進步黨",
     "name_zh": "民主进步党",
     "org_type": "PARTY",
-    "country": "TW",
     "country_iso3": "TWN",
     "hq_country_iso3": "TWN",
-    "founded_year": 1986,
     "website": "https://www.dpp.org.tw/",
-    "official_website": "https://www.dpp.org.tw/",
-    "is_tw_verified": true,
-    "aliases": []
+    "aliases": [],
+    "org_subtype": ""
   },
-  "description": "民主進步黨，簡稱民進黨，是臺灣主要政黨之一，也是中華民國目前的執政黨及立法院（國會）第二大黨，以臺灣的自由民主、本土發展及國家獨立為主要政治理念。\n",
-  "brief": "民主進步黨，簡稱民進黨，是臺灣主要政黨之一，也是中華民國目前的執政黨及立法院（國會）第二大黨，以臺灣的自由民主、本土發展及國家獨立為主要政治理念。\n",
   "core_business": "民主進步黨，簡稱民進黨，是臺灣主要政黨之一，也是中華民國目前的執政黨及立法院（國會）第二大黨，以臺灣的自由民主、本土發展及國家獨立為主要政治理念。\n",
   "industries": [
     "public_administration"
@@ -94,13 +85,6 @@
       "name": "陈水扁",
       "title": "主席",
       "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "TW-PERSON-000001",
-      "name": "赖清德",
-      "title": "主席",
-      "title_description": "現任黨主席、中華民國總統",
       "description": ""
     },
     {
@@ -179,6 +163,13 @@
       "title": "前主席",
       "title_description": "前立法院長、前民進黨主席",
       "description": ""
+    },
+    {
+      "person_id": "TW-PERSON-000001",
+      "name": "賴清德",
+      "title": "主席",
+      "title_description": null,
+      "description": "本轮依据人物档案所列官方履历核实；其他旧关键人物记录仍待复核。"
     }
   ],
   "social_accounts": [
@@ -197,14 +188,39 @@
   "related_entities": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q903822",
-      "https://zh.wikipedia.org/wiki/民主進步黨",
-      "https://zh.wikipedia.org/wiki/民主進步黨"
+      "wikidata",
+      "wikipedia",
+      "official_website"
     ],
     "completeness_score": 80,
-    "notes": "Major TW political party (Democratic Progressive Party)",
-    "quotes": []
+    "notes": "Major TW political party (Democratic Progressive Party)；仅Schema规范化，旧phase=P3；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q903822"
+      },
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://zh.wikipedia.org/wiki/民主進步黨"
+      },
+      {
+        "title": "总统府：赖清德简介",
+        "url": "https://www.president.gov.tw/Page/694"
+      },
+      {
+        "title": "Lai Ching-te — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lai_Ching-te"
+      },
+      {
+        "title": "中央社：赖清德人物专题",
+        "url": "https://www.cna.com.tw/topic/newstopic/4282.aspx"
+      },
+      {
+        "title": "中央社：赖萧配当选",
+        "url": "https://www.cna.com.tw/news/aipl/202401140007.aspx"
+      }
+    ]
   }
 }

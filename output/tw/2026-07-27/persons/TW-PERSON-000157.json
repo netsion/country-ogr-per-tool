@@ -3,9 +3,10 @@
   "wikidata_qid": "Q8277997",
   "name": "徐庆钟",
   "name_en": "Hsu Ching-chung",
-  "name_local": "徐慶鐘",
   "name_zh": "徐庆钟",
-  "aliases": [],
+  "aliases": [
+    "徐慶鐘"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1907-07-19",
@@ -16,15 +17,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-019",
-      "org_name": "國立臺灣大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -33,20 +26,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E5%BE%90%E6%85%B6%E9%90%98%E5%85%88%E7%94%9F.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000157.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%BE%90%E6%85%B6%E9%90%98%E5%85%88%E7%94%9F.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000157.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Premier of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8277997"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q8277997"
+      }
+    ]
   }
 }

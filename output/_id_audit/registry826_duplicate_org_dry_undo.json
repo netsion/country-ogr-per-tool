@@ -1,0 +1,700 @@
+{
+ "registry": {
+  "D:/ai-workspace/apec-osint-tool\\output\\kr\\2026-05-04\\id_registry.json": [
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-168",
+    "old": {
+     "org_id": "KR-GOV-168",
+     "name": "驻英国大韩民国大使馆（주영국 대한민국 대사관）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1243",
+    "group": "1"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-376",
+    "old": {
+     "org_id": "KR-GOV-376",
+     "name": "驻英国韩国大使馆（Embassy of the Republic of Korea in the UK）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1243",
+    "group": "1"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1243",
+     "name": "驻英国大韩民国大使馆 (Embassy of the Republic of Korea in the UK)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 1",
+     "notes": "合并重复组织身份组 1；成员数 2"
+    },
+    "group": "1"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-370",
+    "old": {
+     "org_id": "KR-GOV-370",
+     "name": "驻美国韩国大使馆（Embassy of the Republic of Korea in the USA）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1244",
+    "group": "2"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-509",
+    "old": {
+     "org_id": "KR-GOV-509",
+     "name": "驻美国大韩民国大使馆",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1244",
+    "group": "2"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1244",
+     "name": "驻美国大韩民国大使馆 (Embassy of the Republic of Korea in the USA)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 2",
+     "notes": "合并重复组织身份组 2；成员数 2"
+    },
+    "group": "2"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-078",
+    "old": {
+     "org_id": "KR-GOV-078",
+     "name": "国会国土交通委员会（국회 국토교통위원회）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1245",
+    "group": "4"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-129",
+    "old": {
+     "org_id": "KR-GOV-129",
+     "name": "国会国土交通委员会（국토교통위원회）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1245",
+    "group": "4"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1245",
+     "name": "国会国土交通委员会 (국회 국토교통위원회)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 4",
+     "notes": "合并重复组织身份组 4；成员数 2"
+    },
+    "group": "4"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-098",
+    "old": {
+     "org_id": "KR-GOV-098",
+     "name": "第20代总统职务交接委员会（제20대 대통령직인수위원회）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1246",
+    "group": "5"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-130",
+    "old": {
+     "org_id": "KR-GOV-130",
+     "name": "第20届总统职务交接委员会（제20대 대통령직인수위원회）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1246",
+    "group": "5"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-193",
+    "old": {
+     "org_id": "KR-GOV-193",
+     "name": "第20届大统领职引受委员会（대통령직인수위원회）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1246",
+    "group": "5"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1246",
+     "name": "第20届总统职务交接委员会 (제20대 대통령직인수위원회)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 5",
+     "notes": "合并重复组织身份组 5；成员数 3"
+    },
+    "group": "5"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-107",
+    "old": {
+     "org_id": "KR-GOV-107",
+     "name": "国民未来党（국민의미래）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-030",
+    "group": "6"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-226",
+    "old": {
+     "org_id": "KR-GOV-226",
+     "name": "国民的未来（국민의미래，国民力量党卫星党）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-030",
+    "group": "6"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-276",
+    "old": {
+     "org_id": "KR-GOV-276",
+     "name": "国民之未来党（국민의미래）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-030",
+    "group": "6"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-PARTY-030",
+     "name": "国民未来党 (국민의미래)",
+     "org_type": "PARTY",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 6",
+     "notes": "合并重复组织身份组 6；成员数 3"
+    },
+    "group": "6"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-115",
+    "old": {
+     "org_id": "KR-GOV-115",
+     "name": "第1野战军司令部（제1야전군사령부）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-MIL-028",
+    "group": "7"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-258",
+    "old": {
+     "org_id": "KR-GOV-258",
+     "name": "陆军第一野战军司令部（제1야전군사령부）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-MIL-028",
+    "group": "7"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-MIL-028",
+     "name": "陆军第一野战军司令部 (제1야전군사령부)",
+     "org_type": "MIL",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 7",
+     "notes": "合并重复组织身份组 7；成员数 2"
+    },
+    "group": "7"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-146",
+    "old": {
+     "org_id": "KR-GOV-146",
+     "name": "新千年民主党（새천년민주당）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-031",
+    "group": "8"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-467",
+    "old": {
+     "org_id": "KR-GOV-467",
+     "name": "新千年民主党（Millennium Democratic Party）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-031",
+    "group": "8"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-PARTY-031",
+     "name": "新千年民主党 (새천년민주당)",
+     "org_type": "PARTY",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 8",
+     "notes": "合并重复组织身份组 8；成员数 2"
+    },
+    "group": "8"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-147",
+    "old": {
+     "org_id": "KR-GOV-147",
+     "name": "开放国民党（열린우리당）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-032",
+    "group": "9"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-367",
+    "old": {
+     "org_id": "KR-GOV-367",
+     "name": "开放我们党（열린우리당）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-032",
+    "group": "9"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-PARTY-032",
+     "name": "开放国民党 (열린우리당)",
+     "org_type": "PARTY",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 9",
+     "notes": "合并重复组织身份组 9；成员数 2"
+    },
+    "group": "9"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-149",
+    "old": {
+     "org_id": "KR-GOV-149",
+     "name": "司法研修院 (사법연수원)",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1247",
+    "group": "10"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-385",
+    "old": {
+     "org_id": "KR-GOV-385",
+     "name": "司法研修院（Judicial Research and Training Institute / 사법연수원）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1247",
+    "group": "10"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1247",
+     "name": "司法研修院 (사법연수원)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 10",
+     "notes": "合并重复组织身份组 10；成员数 2"
+    },
+    "group": "10"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-150",
+    "old": {
+     "org_id": "KR-GOV-150",
+     "name": "首尔地方检察厅 (서울지방검찰청)",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1248",
+    "group": "11"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-387",
+    "old": {
+     "org_id": "KR-GOV-387",
+     "name": "首尔地方检察厅（Seoul District Prosecutors' Office / 서울지방검찰청）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1248",
+    "group": "11"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1248",
+     "name": "首尔地方检察厅 (서울지방검찰청)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 11",
+     "notes": "合并重复组织身份组 11；成员数 2"
+    },
+    "group": "11"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-179",
+    "old": {
+     "org_id": "KR-GOV-179",
+     "name": "第17届总统职务交接委员会（제17대 대통령직인수위원회）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1249",
+    "group": "12"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-215",
+    "old": {
+     "org_id": "KR-GOV-215",
+     "name": "李明博总统当选人交接委员会",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1249",
+    "group": "12"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1249",
+     "name": "第17届总统职务交接委员会 (제17대 대통령직인수위원회)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 12",
+     "notes": "合并重复组织身份组 12；成员数 2"
+    },
+    "group": "12"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-180",
+    "old": {
+     "org_id": "KR-GOV-180",
+     "name": "首尔特别市政府（서울특별시청）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1250",
+    "group": "13"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-470",
+    "old": {
+     "org_id": "KR-GOV-470",
+     "name": "首尔特别市政府（Seoul Metropolitan Government / 서울특별시）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1250",
+    "group": "13"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1250",
+     "name": "首尔特别市政府 (서울특별시청)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 13",
+     "notes": "合并重复组织身份组 13；成员数 2"
+    },
+    "group": "13"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-181",
+    "old": {
+     "org_id": "KR-GOV-181",
+     "name": "世宗大学（세종대학교）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-ACAD-037",
+    "group": "14"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-500",
+    "old": {
+     "org_id": "KR-GOV-500",
+     "name": "世宗大学（세종대학교 / Sejong University）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-ACAD-037",
+    "group": "14"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-ACAD-037",
+     "name": "世宗大学 (세종대학교)",
+     "org_type": "ACAD",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 14",
+     "notes": "合并重复组织身份组 14；成员数 2"
+    },
+    "group": "14"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-195",
+    "old": {
+     "org_id": "KR-GOV-195",
+     "name": "首尔中央地方检察厅（서울중앙지방검찰청）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1251",
+    "group": "15"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-390",
+    "old": {
+     "org_id": "KR-GOV-390",
+     "name": "首尔中央地方检察厅（Seoul Central District Prosecutors' Office / 서울중앙지방검찰청）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1251",
+    "group": "15"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1251",
+     "name": "首尔中央地方检察厅 (서울중앙지방검찰청)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 15",
+     "notes": "合并重复组织身份组 15；成员数 2"
+    },
+    "group": "15"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-379",
+    "old": {
+     "org_id": "KR-GOV-379",
+     "name": "法务法人太平洋（Bae, Kim & Lee LLC）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-CORP-107",
+    "group": "17"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-457",
+    "old": {
+     "org_id": "KR-GOV-457",
+     "name": "太平洋律师事务所",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-CORP-107",
+    "group": "17"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-CORP-107",
+     "name": "法务法人太平洋 (Bae, Kim & Lee LLC)",
+     "org_type": "CORP",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 17",
+     "notes": "合并重复组织身份组 17；成员数 2"
+    },
+    "group": "17"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-388",
+    "old": {
+     "org_id": "KR-GOV-388",
+     "name": "釜山地方检察厅（Busan District Prosecutors' Office / 부산지방검찰청）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1252",
+    "group": "18"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-456",
+    "old": {
+     "org_id": "KR-GOV-456",
+     "name": "釜山地方检察厅",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-GOV-1252",
+    "group": "18"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-GOV-1252",
+     "name": "釜山地方检察厅 (부산지방검찰청)",
+     "org_type": "GOV",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 18",
+     "notes": "合并重复组织身份组 18；成员数 2"
+    },
+    "group": "18"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-421",
+    "old": {
+     "org_id": "KR-GOV-421",
+     "name": "新政治国民会议（National Congress for New Politics / 새정치국민회의）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-033",
+    "group": "19"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "KR-GOV-466",
+    "old": {
+     "org_id": "KR-GOV-466",
+     "name": "新政治国民会议（National Congress for New Politics）",
+     "org_type": "GOV",
+     "status": "auto_registered"
+    },
+    "new_id": "KR-PARTY-033",
+    "group": "19"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "KR-PARTY-033",
+     "name": "新政治国民会议 (새정치국민회의)",
+     "org_type": "PARTY",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 19",
+     "notes": "合并重复组织身份组 19；成员数 2"
+    },
+    "group": "19"
+   }
+  ],
+  "D:/ai-workspace/apec-osint-tool\\output\\sg\\2026-04-15\\id_registry.json": [
+   {
+    "action": "remove_shadow",
+    "id": "SG-SOE-001",
+    "old": {
+     "org_id": "SG-SOE-001",
+     "name": "丰树集团 (Mapletree Investments)",
+     "org_type": "SOE",
+     "status": "auto_registered"
+    },
+    "new_id": "SG-SOE-009",
+    "group": "3"
+   },
+   {
+    "action": "remove_shadow",
+    "id": "SG-SOE-002",
+    "old": {
+     "org_id": "SG-SOE-002",
+     "name": "Mapletree Investments",
+     "org_type": "SOE",
+     "status": "auto_registered"
+    },
+    "new_id": "SG-SOE-009",
+    "group": "3"
+   },
+   {
+    "action": "add_target",
+    "new": {
+     "org_id": "SG-SOE-009",
+     "name": "丰树集团 (Mapletree Investments)",
+     "org_type": "SOE",
+     "status": "auto_registered",
+     "source": "A2 duplicate group 3",
+     "notes": "合并重复组织身份组 3；成员数 2"
+    },
+    "group": "3"
+   }
+  ]
+ },
+ "ref_changes": [
+  {
+   "file": "output/sg/2026-04-15/orgs/SG-NGO-004.json",
+   "array": "related_entities",
+   "index": 7,
+   "field": "org_id",
+   "old": "SG-SOE-001",
+   "new": "SG-SOE-009",
+   "ref_name": "丰树集团 (Mapletree Investments)"
+  },
+  {
+   "file": "output/sg/2026-04-15/orgs/SG-SOE-005.json",
+   "array": "related_entities",
+   "index": 6,
+   "field": "org_id",
+   "old": "SG-SOE-002",
+   "new": "SG-SOE-009",
+   "ref_name": "Mapletree Investments"
+  }
+ ]
+}

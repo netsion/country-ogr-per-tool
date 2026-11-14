@@ -3,7 +3,6 @@
   "wikidata_qid": "Q233984",
   "name": "蔡英文",
   "name_en": "Tsai Ing-wen",
-  "name_local": "蔡英文",
   "name_zh": "蔡英文",
   "aliases": [],
   "nationality": "TW",
@@ -19,29 +18,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-015",
-      "org_name": "國立政治大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    },
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-012",
-      "org_name": "民主進步黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -91,20 +68,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Photo_by_Tsai_Ing-wen.jpg/250px-Photo_by_Tsai_Ing-wen.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000002.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20by%20Tsai%20Ing-wen.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000002.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q233984"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q233984"
+      }
+    ]
   }
 }

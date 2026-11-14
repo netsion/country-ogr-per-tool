@@ -1,26 +1,16 @@
 {
   "org_id": "TW-MEDIA-011",
   "wikidata_qid": "Q697462",
-  "name": "自由時報",
   "basic_info": {
-    "org_id": "TW-MEDIA-011",
-    "wikidata_qid": "Q697462",
     "name_en": "Liberty Times",
-    "name_local": "自由時報",
     "name_zh": "自由时报",
     "org_type": "MEDIA",
-    "country": "TW",
-    "founded_year": 1980,
     "website": "https://www.ltn.com.tw",
-    "official_website": "https://www.ltn.com.tw",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "自由時報"
+    "name_original": "自由時報",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "臺灣平面報紙媒體",
-  "brief": "臺灣平面報紙媒體",
   "core_business": "臺灣平面報紙媒體",
   "industries": [],
   "key_people": [],
@@ -67,17 +57,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q697462"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: Liberty Times",
-    "quotes": []
+    "notes": "hint: Liberty Times；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q697462"
+      }
+    ]
   }
 }

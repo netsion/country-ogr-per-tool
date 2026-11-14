@@ -3,7 +3,6 @@
   "wikidata_qid": "Q716051",
   "name": "宋子文",
   "name_en": "T. V. Soong",
-  "name_local": "宋子文",
   "name_zh": "宋子文",
   "aliases": [],
   "nationality": "TW",
@@ -18,15 +17,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-019",
-      "org_name": "國立臺灣大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -35,20 +26,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/T._V._Soong.jpg/250px-T._V._Soong.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000093.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/T.%20V.%20Soong.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000093.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Vice Premier of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q716051"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q716051"
+      }
+    ]
   }
 }

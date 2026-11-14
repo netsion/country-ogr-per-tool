@@ -1,0 +1,4654 @@
+{
+  "review_only": true,
+  "execution_authorized": false,
+  "rows": [
+    {
+      "review_row": 1,
+      "decision": "挂起",
+      "canonical_name": "Shinhan Financial Group",
+      "entity_country": "KR",
+      "category": "FIN",
+      "reason": "新韩金融集团与韩亚金融集团是不同主体，应拆出；但拟用KR-FIN-015已登记Bank of Korea（duplicate），严禁复用，先重排编号。",
+      "external_sources": [],
+      "proposed_id": "KR-FIN-015",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-FIN-015",
+            "name": "Bank of Korea",
+            "org_type": "FIN",
+            "status": "duplicate",
+            "duplicate_of": "KR-FIN-014"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-FIN-001.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "KB金融集团",
+          "entry": {
+            "org_id": "KR-FIN-002",
+            "org_name": "新韩金融集团 (Shinhan Financial Group)",
+            "org_type": "FIN",
+            "org_description": "韩国四大金融集团之一",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-FIN-003.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "友利金融集团",
+          "entry": {
+            "org_id": "KR-FIN-002",
+            "org_name": "新韩金融集团 (Shinhan Financial Group)",
+            "org_type": "FIN",
+            "org_description": "韩国主要金融控股集团之一，同业竞争对手",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-FIN-004.json",
+          "pointer": "related_entities[10].org_id",
+          "owner": "國民銀行",
+          "entry": {
+            "org_id": "KR-FIN-002",
+            "org_name": "新韩金融集团 (Shinhan Financial Group)",
+            "org_type": "FIN",
+            "org_description": "新韩金融集团，韩国主要金融控股公司之一",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-FIN-005.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "新韩银行",
+          "entry": {
+            "org_id": "KR-FIN-002",
+            "org_name": "新韩金融集团 (Shinhan Financial Group)",
+            "org_type": "FIN",
+            "org_description": "新韩银行的母公司，韩国最大金融控股集团之一，旗下拥有银行、证券、保险、信用卡等17家子公司",
+            "relationship_type": "parent_org"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-FIN-011.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "韩国交易所",
+          "entry": {
+            "org_id": "KR-FIN-002",
+            "org_name": "新韩金融集团 (Shinhan Financial Group)",
+            "org_type": "FIN",
+            "org_description": "新韩金融集团，KOSPI上市企业",
+            "relationship_type": "customer"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000766.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "郑相赫",
+          "entry": {
+            "start_date": "2023",
+            "end_date": null,
+            "organization": "新韩金融集团（Shinhan Financial Group）",
+            "org_id": "KR-FIN-002",
+            "position": "非执行董事（Non-Executive Director）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000767.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "陈玉东",
+          "entry": {
+            "start_date": "2017",
+            "end_date": "2019",
+            "organization": "新韩金融集团（Shinhan Financial Group / 신한금융지주）",
+            "org_id": "KR-FIN-002",
+            "position": "副社长（COO，运营担当）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000767.json",
+          "pointer": "work_experience[14].org_id",
+          "owner": "陈玉东",
+          "entry": {
+            "start_date": "2023-03",
+            "end_date": null,
+            "organization": "新韩金融集团（Shinhan Financial Group / 신한금융지주）",
+            "org_id": "KR-FIN-002",
+            "position": "第4代代表理事会长兼CEO（Chairman and CEO），2026年3月获连任，第二任期至2029年3月"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 2,
+      "decision": "挂起",
+      "canonical_name": "Ministry of Trade, Industry and Energy（历史主体）",
+      "entity_country": "KR",
+      "category": "GOV",
+      "reason": "产业通商资源部与中小风险企业部不同，但2025年政府改组后名称及能源职权已变化；7条引用混合历史任职与现时监管。先确定旧部、继任部及历史任职粒度，不能整组迁到单一现职部委。",
+      "external_sources": [
+        "https://english.motir.go.kr/kor/search?kwd=2025&site=main",
+        "https://www.me.go.kr/eng/web/board/read.do?boardId=1773240&boardMasterId=522&menuId=461"
+      ],
+      "proposed_id": "KR-GOV-1162",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-003.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "现代汽车",
+          "entry": {
+            "org_id": "KR-GOV-014",
+            "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
+            "org_type": "GOV",
+            "org_description": "韩国产业通商资源部负责汽车产业政策、贸易谈判及环保法规制定",
+            "relationship_type": "regulated_by"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-006.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "浦项钢铁",
+          "entry": {
+            "org_id": "KR-GOV-014",
+            "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
+            "org_type": "GOV",
+            "org_description": "韩国产业通商资源部，主管钢铁产业政策与能源政策，对POSCO的低碳转型与海外投资有监管影响。",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-010.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "韩国天然气公社",
+          "entry": {
+            "org_id": "KR-GOV-014",
+            "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
+            "org_type": "GOV",
+            "org_description": "韩国天然气公社的主管政府部门，负责政策指导和监管",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-011.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "韩国贸易振兴公社",
+          "entry": {
+            "org_id": "KR-GOV-014",
+            "org_name": "产业通商资源部（Ministry of Trade, Industry and Energy）",
+            "org_type": "GOV",
+            "org_description": "KOTRA的上级主管部委",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-012.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "韩国水电核电公司",
+          "entry": {
+            "org_id": "KR-GOV-014",
+            "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
+            "org_type": "GOV",
+            "org_description": "行业主管部门，负责核电政策和KHNP社长人选的提名流程",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-014.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "韩国产业银行",
+          "entry": {
+            "org_id": "KR-GOV-014",
+            "org_name": "产业通商资源部 (Ministry of Trade, Industry and Energy)",
+            "org_type": "GOV",
+            "org_description": "产业政策主管部门，与产业银行在产业培育和结构重组方面密切合作",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000707.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "郑载勋",
+          "entry": {
+            "start_date": "1983",
+            "end_date": "2012",
+            "organization": "韩国商工部/产业通商资源部（Ministry of Trade, Industry and Energy / 상공부·산업통상자원부）",
+            "org_id": "KR-GOV-014",
+            "position": "行政考试26期合格后入职。历任中小企业厅资金支援科长、产业资源部电子商务总括科长、知识经济部发言人（最长期任职1年4个月）、贸易政策官、主力产业政策官、产业经济政策官、企划调整室长（行政考试26期中最早晋升1级）、能源资源室长、贸易委员会常任委员、产业经济室长、产业通商资源部次官补等职"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 3,
+      "decision": "分配",
+      "canonical_name": "JoongAng Ilbo / 中央日报",
+      "entity_country": "KR",
+      "category": "MEDIA",
+      "reason": "7处引用明确中央日报，现画像OhmyNews不是该报；可建立独立MEDIA身份。JTBC条目把报纸与中央集团股权混写，关系内容另核，不能随ID修复视为已证实。",
+      "external_sources": [],
+      "proposed_id": "KR-MEDIA-019",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-006.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "东亚日报",
+          "entry": {
+            "org_id": "KR-MEDIA-005",
+            "org_name": "中央日报 (JoongAng Ilbo)",
+            "org_type": "MEDIA",
+            "org_description": "中央日报，与东亚日报并称韩国三大保守派报纸",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-007.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "朝鲜日报",
+          "entry": {
+            "org_id": "KR-MEDIA-005",
+            "org_name": "中央日报 (JoongAng Ilbo)",
+            "org_type": "MEDIA",
+            "org_description": "中央日报，与朝鲜日报同属'朝中东'三大报",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-012.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "JTBC电视台",
+          "entry": {
+            "org_id": "KR-MEDIA-005",
+            "org_name": "中央日报 (JoongAng Ilbo)",
+            "org_type": "MEDIA",
+            "org_description": "中央日报，JTBC的最大股东（中央集团持股25%）",
+            "relationship_type": "parent_org"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000867.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "洪正道",
+          "entry": {
+            "start_date": "2005-05",
+            "end_date": "2009-12",
+            "organization": "中央日报 (JoongAng Ilbo)",
+            "org_id": "KR-MEDIA-005",
+            "position": "战略企划室研究员→理事待遇 (Strategic Planning Team → Director-level)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000867.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "洪正道",
+          "entry": {
+            "start_date": "2010-01",
+            "end_date": "2010-12",
+            "organization": "中央日报 (JoongAng Ilbo)",
+            "org_id": "KR-MEDIA-005",
+            "position": "战略企划室长常务 (Head of Strategic Planning, Managing Director)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000867.json",
+          "pointer": "work_experience[9].org_id",
+          "owner": "洪正道",
+          "entry": {
+            "start_date": "2018-11",
+            "end_date": "2022-02",
+            "organization": "中央日报 (JoongAng Ilbo)",
+            "org_id": "KR-MEDIA-005",
+            "position": "发行人 (Publisher / 발행인)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000869.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "全镇培",
+          "entry": {
+            "start_date": "1996",
+            "end_date": "2011-12",
+            "organization": "中央日报 (JoongAng Ilbo)",
+            "org_id": "KR-MEDIA-005",
+            "position": "记者 (Reporter)，2007-2010年任巴黎特派员"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 4,
+      "decision": "挂起",
+      "canonical_name": "Korea University / 高丽大学",
+      "entity_country": "KR",
+      "category": "ACAD",
+      "reason": "不是UNIST，也不是Korea University of Science and Technology；需独立身份。但KR-ACAD-017已登记Incheon National University（duplicate），先重排编号。",
+      "external_sources": [],
+      "proposed_id": "KR-ACAD-017",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-ACAD-017",
+            "name": "Incheon National University",
+            "org_type": "ACAD",
+            "status": "duplicate",
+            "duplicate_of": "KR-ACAD-010"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-001.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "首尔大学",
+          "entry": {
+            "org_id": "KR-ACAD-002",
+            "org_name": "高丽大学 (Korea University)",
+            "org_type": "ACAD",
+            "org_description": "高丽大学与首尔大学、延世大学并称韩国SKY名校联盟，是首尔大学最主要的学术竞争对手之一",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-007.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "成均馆大学",
+          "entry": {
+            "org_id": "KR-ACAD-002",
+            "org_name": "高丽大学 (Korea University)",
+            "relation": "partner",
+            "detail": "高丽大学与成均馆大学同为韩国SKY体系之外的最有竞争力私立大学"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-008.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "梨花女子大学",
+          "entry": {
+            "org_id": "KR-ACAD-002",
+            "org_name": "高丽大学 (Korea University)",
+            "org_type": "ACAD",
+            "org_description": "韩国顶尖综合大学，与梨花同属韩国一流大学圈",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000825.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "朱丙起",
+          "entry": {
+            "start_date": "2006-02",
+            "end_date": "2008-02",
+            "organization": "高丽大学经济学系（Korea University, Department of Economics / 고려대학교 경제학과）",
+            "org_id": "KR-ACAD-002",
+            "position": "助理教授（Assistant Professor / 조교수）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000825.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "朱丙起",
+          "entry": {
+            "start_date": "2008-03",
+            "end_date": "2010-08",
+            "organization": "高丽大学经济学系（Korea University, Department of Economics / 고려대학교 경제학과）",
+            "org_id": "KR-ACAD-002",
+            "position": "副教授（Associate Professor / 부교수）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000828.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "金素英",
+          "entry": {
+            "start_date": "2001",
+            "end_date": "2009",
+            "organization": "高丽大学经济学系（Korea University, Department of Economics / 고려대학교 경제학과）",
+            "org_id": "KR-ACAD-002",
+            "position": "副教授、教授（Associate Professor / Professor / 부교수 · 교수）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 5,
+      "decision": "挂起",
+      "canonical_name": "Yonsei University / 延世大学",
+      "entity_country": "KR",
+      "category": "ACAD",
+      "reason": "源为延世大学及其研究所，不是釜山大学；拟用KR-ACAD-018已登记Korea University of Science and Technology（duplicate），先重排编号。",
+      "external_sources": [],
+      "proposed_id": "KR-ACAD-018",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-ACAD-018",
+            "name": "Korea University of Science and Technology",
+            "org_type": "ACAD",
+            "status": "duplicate",
+            "duplicate_of": "KR-ACAD-011"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-001.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "首尔大学",
+          "entry": {
+            "org_id": "KR-ACAD-003",
+            "org_name": "延世大学 (Yonsei University)",
+            "org_type": "ACAD",
+            "org_description": "延世大学与首尔大学、高丽大学并称韩国SKY名校联盟，是首尔大学最主要的学术竞争对手之一",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-007.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "成均馆大学",
+          "entry": {
+            "org_id": "KR-ACAD-003",
+            "org_name": "延世大学 (Yonsei University)",
+            "relation": "partner",
+            "detail": "延世大学与成均馆大学在韩国私立大学中并列前茅，泰晤士亚洲排名中两校并列私立大学第一"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-008.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "梨花女子大学",
+          "entry": {
+            "org_id": "KR-ACAD-003",
+            "org_name": "延世大学 (Yonsei University)",
+            "org_type": "ACAD",
+            "org_description": "韩国顶尖综合大学，与梨花同位于首尔新村大学区，合称'新村三角地'高校群",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-014.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "基础科学研究院",
+          "entry": {
+            "org_id": "KR-ACAD-003",
+            "org_name": "延世大学 (Yonsei University)",
+            "org_type": "ACAD",
+            "org_description": "IBS纳米医学研究中心等依托大学，2025年与Max Planck学会共建联合中心",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000041.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "朴振",
+          "entry": {
+            "start_date": "1999-03",
+            "end_date": "2002-02",
+            "organization": "延世大学东西学研究所（Institute of East and West Studies, Yonsei University）",
+            "org_id": "KR-ACAD-003",
+            "position": "研究教授"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000764.json",
+          "pointer": "work_experience[15].org_id",
+          "owner": "林钟龙",
+          "entry": {
+            "start_date": "2013-04",
+            "end_date": "2013-06",
+            "organization": "延世大学校（Yonsei University）",
+            "org_id": "KR-ACAD-003",
+            "position": "座席教授"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 6,
+      "decision": "挂起",
+      "canonical_name": "KAIST / Korea Advanced Institute of Science and Technology",
+      "entity_country": "KR",
+      "category": "ACAD",
+      "reason": "应与全量计划KR-ACAD-006下的英文全称合并为一个实体，不能发两个新ID；且KR-ACAD-019已登记KDI School（duplicate）。",
+      "external_sources": [
+        "https://www.kaist.ac.kr/en/"
+      ],
+      "proposed_id": "KR-ACAD-019",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-ACAD-019",
+            "name": "KDI School of Public Policy and Management",
+            "org_type": "ACAD",
+            "status": "duplicate",
+            "duplicate_of": "KR-ACAD-012"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-001.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "首尔大学",
+          "entry": {
+            "org_id": "KR-ACAD-004",
+            "org_name": "韩国科学技术院 (KAIST)",
+            "org_type": "ACAD",
+            "org_description": "韩国科学技术院是韩国顶尖理工科大学，与首尔大学在科研项目和人才培养方面有广泛合作",
+            "relationship_type": "strategic_alliance"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-002.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "蔚山科学技术院",
+          "entry": {
+            "org_id": "KR-ACAD-004",
+            "org_name": "韩国科学技术院 (KAIST)",
+            "relationship": "同类科技院校",
+            "notes": "KAIST、UNIST、GIST、DGIST为韩国四大国立科学技术院校"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-014.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "基础科学研究院",
+          "entry": {
+            "org_id": "KR-ACAD-004",
+            "org_name": "韩国科学技术院 (KAIST)",
+            "org_type": "ACAD",
+            "org_description": "IBS校园型研究中心依托大学之一，多名IBS中心主任兼任KAIST教授",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-016.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "韩国电子通信研究院",
+          "entry": {
+            "org_id": "KR-ACAD-004",
+            "org_name": "韩国科学技术院 (KAIST)",
+            "org_type": "ACAD",
+            "org_description": "在大田大德研究园区内与ETRI有人才交流和联合研究",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-GOV-004.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "科学技术信息通信部",
+          "entry": {
+            "org_id": "KR-ACAD-004",
+            "org_name": "韩国科学技术院 (한국과학기술원, KAIST)",
+            "org_type": "ACAD",
+            "org_description": "韩国顶尖科学技术研究型大学，与科学技术信息通信部在人才培养和科研合作方面有密切关系",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MIL-004.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "国防科学研究所",
+          "entry": {
+            "org_id": "KR-ACAD-004",
+            "org_name": "韩国科学技术院 (KAIST)",
+            "org_type": "ACAD",
+            "org_description": "人才来源 -- ADD重要的人才输送渠道，许多研究员拥有KAIST学位",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 7,
+      "decision": "挂起",
+      "canonical_name": "Hyundai Steel / 现代制铁",
+      "entity_country": "KR",
+      "category": "CORP",
+      "reason": "独立钢铁企业，不是Samsung Engineering或Hyundai Motor；全量计划KR-CORP-022与本行KR-CORP-025下两条Hyundai Steel应共用一个主ID，不能分别发KR-CORP-033和034。源关系说明还混入HD现代/现代汽车集团错误，另核。",
+      "external_sources": [],
+      "proposed_id": "KR-CORP-034",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-003.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "现代汽车",
+          "entry": {
+            "org_id": "KR-CORP-025",
+            "org_name": "现代制铁 (Hyundai Steel)",
+            "org_type": "CORP",
+            "org_description": "现代钢铁为现代汽车集团旗下钢铁制造企业，供应汽车用钢材",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-006.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "浦项钢铁",
+          "entry": {
+            "org_id": "KR-CORP-025",
+            "org_name": "现代制铁 (Hyundai Steel)",
+            "org_type": "CORP",
+            "org_description": "韩国第二大钢铁企业，现代汽车集团旗下，是POSCO在韩国国内市场的主要竞争对手。",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-009.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "HD现代重工业",
+          "entry": {
+            "relationship_type": "partner",
+            "org_id": "KR-CORP-025",
+            "org_name": "现代制铁 (Hyundai Steel)",
+            "org_type": "CORP",
+            "org_description": "同属HD现代集团的钢铁制造企业，为HD现代重工业提供船用钢材等关键原材料"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-026.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "现代建设",
+          "entry": {
+            "org_id": "KR-CORP-025",
+            "org_name": "现代制铁 (Hyundai Steel)",
+            "org_type": "CORP",
+            "org_description": "现代汽车集团旗下钢铁企业，为现代建设提供钢材等原材料",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-027.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "SK创新",
+          "entry": {
+            "relationship_type": "sibling",
+            "org_id": "KR-CORP-025",
+            "org_name": "现代制铁 (Hyundai Steel)",
+            "org_type": "CORP",
+            "org_description": "同属现代汽车集团的重工业与钢铁企业，在石油炼化领域存在间接竞争"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 8,
+      "decision": "挂起",
+      "canonical_name": "POSTECH / Pohang University of Science and Technology",
+      "entity_country": "KR",
+      "category": "ACAD",
+      "reason": "不是全北大学或Korea University of Science and Technology；拟用KR-ACAD-020已登记Korea Institute of Science and Technology（duplicate），先重排编号。",
+      "external_sources": [],
+      "proposed_id": "KR-ACAD-020",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-ACAD-020",
+            "name": "Korea Institute of Science and Technology",
+            "org_type": "ACAD",
+            "status": "duplicate",
+            "duplicate_of": "KR-ACAD-013"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-002.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "蔚山科学技术院",
+          "entry": {
+            "org_id": "KR-ACAD-005",
+            "org_name": "浦项科技大学 (Pohang University of Science and Technology)",
+            "relationship": "同类科技院校",
+            "notes": "浦项工科大学(POSTECH)与UNIST同属韩国五大科学技术特色化大学"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-003.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "釜山大学",
+          "entry": {
+            "org_id": "KR-ACAD-005",
+            "org_name": "浦项科技大学 (Pohang University of Science and Technology)",
+            "org_type": "ACAD",
+            "org_description": "浦项科技大学同为韩国东南部地区重点研究型大学,两校在多项科研项目中有合作关系",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-014.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "基础科学研究院",
+          "entry": {
+            "org_id": "KR-ACAD-005",
+            "org_name": "浦项科技大学 (Pohang University of Science and Technology)",
+            "org_type": "ACAD",
+            "org_description": "IBS校园型研究中心依托大学之一",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-006.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "浦项钢铁",
+          "entry": {
+            "org_id": "KR-ACAD-005",
+            "org_name": "浦项科技大学 (POSTECH) (Pohang University of Science and Technology (POSTECH))",
+            "org_type": "ACAD",
+            "org_description": "1986年由POSCO创始人朴泰俊创立，是韩国首所以科技研究为导向的大学，多次位列泰晤士高等教育年轻大学排名榜首。",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 9,
+      "decision": "分配",
+      "canonical_name": "Ministry of Climate, Energy and Environment",
+      "entity_country": "KR",
+      "category": "GOV",
+      "reason": "4条均明确韩国气候能源环境部，不能指向大法院。官方确认2025-10-01举行成立仪式，可建独立GOV身份；源“2025年9月新设”须另行校正为相应决定/生效日期。",
+      "external_sources": [
+        "https://www.me.go.kr/eng/web/board/read.do?boardId=1773240&boardMasterId=522&menuId=461",
+        "https://niwdc.me.go.kr/eng/web/board/read.do?boardId=1818710&boardMasterId=523&menuId=460"
+      ],
+      "proposed_id": "KR-GOV-1164",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-GOV-001.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "大韩民国国务会议",
+          "entry": {
+            "org_id": "KR-GOV-016",
+            "org_name": "气候能源环境部 (Ministry of Climate, Energy and Environment)",
+            "org_type": "GOV",
+            "org_description": "2025年9月新设立的国务会议组成部门，整合气候、能源与环境政策职能",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-001.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "韩国电力公社",
+          "entry": {
+            "org_id": "KR-GOV-016",
+            "org_name": "气候环境部 (Ministry of Climate, Energy and Environment)",
+            "org_type": "GOV",
+            "org_description": "韩国气候能源环境部，KEPCO的主管部委",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-008.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "韩国地域暖房公社",
+          "entry": {
+            "org_id": "KR-GOV-016",
+            "org_name": "气候环境部 (Ministry of Climate, Energy and Environment)",
+            "org_type": "government",
+            "org_description": "气候能源环境部，韩国地域暖房公社的主管机关",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000015.json",
+          "pointer": "work_experience[14].org_id",
+          "owner": "金星焕",
+          "entry": {
+            "start_date": "2025-10-01",
+            "end_date": null,
+            "organization": "气候能源环境部（Ministry of Climate, Energy and Environment / 기후에너지환경부）",
+            "org_id": "KR-GOV-016",
+            "position": "首任气候能源环境部长官（First Minister of Climate, Energy and Environment）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 10,
+      "decision": "分配",
+      "canonical_name": "Korea Hydro & Nuclear Power",
+      "entity_country": "KR",
+      "category": "SOE",
+      "reason": "源明确韩国水力核电公司及KEPCO子公司，不是中小企业银行；SOE口径与经营性质相符，可独立分配。",
+      "external_sources": [],
+      "proposed_id": "KR-SOE-020",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-ACAD-002.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "蔚山科学技术院",
+          "entry": {
+            "org_id": "KR-SOE-013",
+            "org_name": "韩国水力原子力 (Korea Hydro and Nuclear Power)",
+            "relationship": "产学合作伙伴",
+            "notes": "韩国水力核电与UNIST签署能源与AI联合研究协议(2026年1月)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-023.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "斗山能源",
+          "entry": {
+            "org_id": "KR-SOE-013",
+            "org_name": "韩国水力原子力 (Korea Hydro and Nuclear Power)",
+            "org_type": "SOE",
+            "org_description": "韩国国有电力公司，核电站运营商，是斗山能源核能设备的最大客户",
+            "relationship_type": "customer"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-001.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "韩国电力公社",
+          "entry": {
+            "org_id": "KR-SOE-013",
+            "org_name": "韩国水力原子力 (Korea Hydro and Nuclear Power)",
+            "org_type": "SOE",
+            "org_description": "韩国水力原子力（한국수력원자력），KEPCO全资子公司，运营韩国25座核电站和37座水力发电站，装机容量30,054MW",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-008.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "韩国地域暖房公社",
+          "entry": {
+            "org_id": "KR-SOE-013",
+            "org_name": "韩国水力原子力 (Korea Hydro and Nuclear Power)",
+            "org_type": "SOE",
+            "org_description": "韩国水电与核电公司，同属电力能源领域的国有企业",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 11,
+      "decision": "挂起",
+      "canonical_name": "Munhwa Broadcasting Corporation / MBC",
+      "entity_country": "KR",
+      "category": "MEDIA",
+      "reason": "与Channel A不同，应拆出；但拟用KR-MEDIA-017已登记Newstapa（duplicate），不可复用。",
+      "external_sources": [],
+      "proposed_id": "KR-MEDIA-017",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-MEDIA-017",
+            "name": "Newstapa",
+            "org_type": "MEDIA",
+            "status": "duplicate",
+            "duplicate_of": "KR-MEDIA-004"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-001.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "韩国广播公司（韩国放送公社）",
+          "entry": {
+            "org_id": "KR-MEDIA-002",
+            "org_name": "韩国文化广播公司 (Munhwa Broadcasting Corporation)",
+            "org_type": "MEDIA",
+            "org_description": "韩国文化广播公司(MBC)，韩国四大全国性广播机构之一",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-003.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "SBS（首尔广播公司）",
+          "entry": {
+            "org_id": "KR-MEDIA-002",
+            "org_name": "韩国文化广播公司 (Munhwa Broadcasting Corporation)",
+            "org_type": "MEDIA",
+            "org_description": "韩国文化广播公司（MBC），三大地面波电视台之一",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-004.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "韩国调查报道中心（新闻打碎）",
+          "entry": {
+            "org_id": "KR-MEDIA-002",
+            "org_name": "韩国文化广播公司 (Munhwa Broadcasting Corporation)",
+            "org_type": "MEDIA",
+            "org_description": "韩国文化广播公司(MBC)，Newstapa部分创始成员（如崔承浩）的前东家",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 12,
+      "decision": "挂起",
+      "canonical_name": "Yonhap News Agency / 韩联社",
+      "entity_country": "KR",
+      "category": "MEDIA",
+      "reason": "不是Newstapa，也不是阿塞拜疆Report或塔吉克Avesta；拟用KR-MEDIA-018已登记OhmyNews（duplicate），先重排编号。",
+      "external_sources": [],
+      "proposed_id": "KR-MEDIA-018",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-MEDIA-018",
+            "name": "OhmyNews",
+            "org_type": "MEDIA",
+            "status": "duplicate",
+            "duplicate_of": "KR-MEDIA-005"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-001.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "韩国广播公司（韩国放送公社）",
+          "entry": {
+            "org_id": "KR-MEDIA-004",
+            "org_name": "韩联社 (Yonhap News Agency)",
+            "org_type": "MEDIA",
+            "org_description": "韩国联合通讯社，韩国最大的通讯社",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-003.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "SBS（首尔广播公司）",
+          "entry": {
+            "org_id": "KR-MEDIA-004",
+            "org_name": "韩联社 (Yonhap News Agency)",
+            "org_type": "MEDIA",
+            "org_description": "韩国联合通讯社",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-016.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "News1通讯社",
+          "entry": {
+            "org_id": "KR-MEDIA-004",
+            "org_name": "韩联社 (Yonhap News Agency)",
+            "org_type": "MEDIA",
+            "org_description": "韩联社（联合新闻），韩国国家通讯社，News1的主要竞争对手",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 13,
+      "decision": "挂起",
+      "canonical_name": "LG Energy Solution",
+      "entity_country": "KR",
+      "category": "CORP",
+      "reason": "源明确LG新能源，不是韩华；拟用KR-CORP-031已登记Korea Aerospace Industries（duplicate），先重排编号。",
+      "external_sources": [],
+      "proposed_id": "KR-CORP-031",
+      "proposed_id_prior_registry_entries": [
+        {
+          "file": "output\\kr\\2026-05-04\\id_registry.json",
+          "entry": {
+            "org_id": "KR-CORP-031",
+            "name": "Korea Aerospace Industries",
+            "org_type": "CORP",
+            "status": "duplicate",
+            "duplicate_of": "KR-CORP-028"
+          }
+        }
+      ],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-004.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "LG电子",
+          "entry": {
+            "org_id": "KR-CORP-016",
+            "org_name": "LG新能源 (LG Energy Solution)",
+            "org_type": "CORP",
+            "org_description": "同属LG集团的电池子公司，从LG化学分拆独立",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-CORP-015.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "LG化学",
+          "entry": {
+            "org_id": "KR-CORP-016",
+            "org_name": "LG新能源 (LG Energy Solution)",
+            "org_type": "CORP",
+            "org_description": "全球领先的电动汽车电池制造商，原为LG化学电池事业部，2020年分拆独立上市，LG化学持股约81%",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 14,
+      "decision": "分配",
+      "canonical_name": "Ministry of Culture, Sports and Tourism（韩国）",
+      "entity_country": "KR",
+      "category": "GOV",
+      "reason": "引用为韩国文化体育观光部及部长任职，不是国土交通部；同名外国文化部均不是合并目标。历史任期另按当时部名保留。",
+      "external_sources": [],
+      "proposed_id": "KR-GOV-1160",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MEDIA-001.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "韩国广播公司（韩国放送公社）",
+          "entry": {
+            "org_id": "KR-GOV-012",
+            "org_name": "文化体育观光部 (Ministry of Culture, Sports and Tourism)",
+            "org_type": "GOV",
+            "org_description": "韩国文化体育观光部，负责广播电视政策",
+            "relationship_type": "regulated_by"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000109.json",
+          "pointer": "work_experience[28].org_id",
+          "owner": "朴智元",
+          "entry": {
+            "start_date": "1999-05",
+            "end_date": "2000-09",
+            "organization": "韩国文化体育观光部（Ministry of Culture, Sports and Tourism）",
+            "org_id": "KR-GOV-012",
+            "position": "长官（Minister）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 15,
+      "decision": "分配",
+      "canonical_name": "Ministry of Health and Welfare（韩国）",
+      "entity_country": "KR",
+      "category": "GOV",
+      "reason": "源为韩国保健福祉部，不是国会；不能合并到其他国家卫生部，按KR/GOV建立独立身份。",
+      "external_sources": [],
+      "proposed_id": "KR-GOV-1163",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-GOV-011.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "大韩民国性别平等家族部（原女性家族部）",
+          "entry": {
+            "org_id": "KR-GOV-015",
+            "org_name": "保健福祉部 (보건복지부 / Ministry of Health and Welfare)",
+            "org_type": "GOV",
+            "org_description": "历史上多次与女性家族部之间进行职能转移，现仍在儿童福利、单亲家庭等领域协调",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-GOV-034.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "韩国食品医药品安全处",
+          "entry": {
+            "org_id": "KR-GOV-015",
+            "org_name": "保健福祉部（Ministry of Health and Welfare）",
+            "org_type": "GOV",
+            "org_description": "韩国卫生福利部门，与食药处在公共健康政策方面密切协作",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 16,
+      "decision": "分配",
+      "canonical_name": "Republic of Korea Armed Forces",
+      "entity_country": "KR",
+      "category": "MIL",
+      "reason": "明确韩国武装力量整体，不是国家情报院；MIL可保留。具体军法务官属哪军种不能仅凭总体名称擅自细化。",
+      "external_sources": [],
+      "proposed_id": "KR-MIL-013",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-MIL-003.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "韩国军事安保支援司令部",
+          "entry": {
+            "org_id": "KR-MIL-001",
+            "org_name": "Republic of Korea Armed Forces",
+            "relationship_type": "member_of",
+            "description": "大韩民国国军 — DSSC为韩国军队编制内的功能司令部"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000830.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "金浩哲",
+          "entry": {
+            "start_date": "1991",
+            "end_date": "1994",
+            "organization": "韩国军方（Republic of Korea Armed Forces）",
+            "org_id": "KR-MIL-001",
+            "position": "军法务官（Military Legal Officer / 군 법무관），服完军法务官义务"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 17,
+      "decision": "分配",
+      "canonical_name": "Woori Bank / 友利银行",
+      "entity_country": "KR",
+      "category": "FIN",
+      "reason": "源为友利金融集团旗下银行，不是Toss银行或友利金融控股本体，应独立FIN身份；泰国Islamic Bank候选是误匹配。",
+      "external_sources": [],
+      "proposed_id": "KR-FIN-016",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-FIN-003.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "友利金融集团",
+          "entry": {
+            "org_id": "KR-FIN-008",
+            "org_name": "友利银行 (Woori Bank)",
+            "org_type": "FIN",
+            "org_description": "集团核心子公司，韩国主要商业银行",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 18,
+      "decision": "挂起",
+      "canonical_name": "Ministry / Ministry of Patriots and Veterans Affairs（沿革待拆）",
+      "entity_country": "KR",
+      "category": "GOV",
+      "reason": "源是黄基哲的国家报勋处长任职，英文却用升格后的Ministry；应先区分旧处和2023年升格的部及任期，不能直接按现名新建再整段改链。",
+      "external_sources": [],
+      "proposed_id": "KR-GOV-1159",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\persons\\KR-PERSON-000477.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "黄基哲",
+          "entry": {
+            "start_date": "2020-12",
+            "end_date": "2022-05",
+            "organization": "韩国国家报勋处（Ministry of Patriots and Veterans Affairs）",
+            "org_id": "KR-GOV-011",
+            "position": "长官（Minister）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 19,
+      "decision": "分配",
+      "canonical_name": "Ministry of Employment and Labor（韩国）",
+      "entity_country": "KR",
+      "category": "GOV",
+      "reason": "源明确雇佣劳动部，不是宪法法院或澳大利亚工党，GOV类别适当。",
+      "external_sources": [],
+      "proposed_id": "KR-GOV-1165",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-GOV-011.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "大韩民国性别平等家族部（原女性家族部）",
+          "entry": {
+            "org_id": "KR-GOV-017",
+            "org_name": "雇佣劳动部 (고용노동부 / Ministry of Employment and Labor)",
+            "org_type": "GOV",
+            "org_description": "在劳动市场性别差距缩小、雇佣平等公示制、育儿休假等领域协作",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 20,
+      "decision": "分配",
+      "canonical_name": "Korea Airports Corporation / 韩国空港公社",
+      "entity_country": "KR",
+      "category": "SOE",
+      "reason": "官网明确state-owned company，保持SOE，不按Corporation词形改CORP；与仁川国际机场公社是不同运营主体。",
+      "external_sources": [
+        "https://www.airport.co.kr/wwweng/cms/frCon/index.do?MENU_ID=50"
+      ],
+      "proposed_id": "KR-SOE-021",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\kr\\2026-05-04\\orgs\\KR-SOE-002.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "仁川国际机场公社",
+          "entry": {
+            "org_id": "KR-SOE-014",
+            "org_name": "韩国空港公社 (Korea Airports Corporation)",
+            "org_type": "SOE",
+            "org_description": "韩国另一家国营机场运营商，负责仁川机场以外的国内机场运营。政府正在讨论将两家公社整合的可能性",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 21,
+      "decision": "分配",
+      "canonical_name": "Asamblea Legislativa del Distrito Federal（历史立法机构）",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "18条为联邦区立法议会任职，不是农业改革与城市发展部。可建历史GOV身份；不得自动当作2018年后墨西哥城市议会，早期代表大会/立法议会沿革与年份需保持。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-879",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000009.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "豪尔赫·罗梅罗·埃雷拉",
+          "entry": {
+            "start_date": "2006",
+            "end_date": "2009",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "第四届立法议会地方议员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000009.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "豪尔赫·罗梅罗·埃雷拉",
+          "entry": {
+            "start_date": "2015",
+            "end_date": "2018",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "第七届立法议会地方议员、国家行动党议会小组协调员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000043.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "埃内斯蒂娜·戈多伊·拉莫斯",
+          "entry": {
+            "start_date": "2012-09-16",
+            "end_date": "2015-08-31",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "第27选区地方议员（Diputada local），第六届立法会"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000049.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "西特拉莉·埃尔南德斯·莫拉",
+          "entry": {
+            "start_date": "2015-09-15",
+            "end_date": "2018-08-31",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员（第14选区，伊斯塔卡尔科），第七届立法议会最年轻议员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000177.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "马蒂·巴特雷斯·瓜达拉马",
+          "entry": {
+            "start_date": "1997-09-15",
+            "end_date": "2000-09-14",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员 (Diputado Local)",
+            "notes": "代表第21选区"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000236.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "赫苏斯·塞斯马·苏亚雷斯",
+          "entry": {
+            "start_date": "2012-09-15",
+            "end_date": "2015-08-31",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员·绿党党团协调员 (Diputado local, VI Legislatura de la ALDF; Coordinador del GP del PVEM; Presidente de la Comisión de Medio Ambiente)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000269.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "弗朗西斯科·奇吉尔·菲格罗亚",
+          "entry": {
+            "start_date": "1997-09-15",
+            "end_date": "2000-09-14",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员（第6选区）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000269.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "弗朗西斯科·奇吉尔·菲格罗亚",
+          "entry": {
+            "start_date": "2003-09-15",
+            "end_date": "2006-09-14",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员（第6选区）",
+            "notes": "担任政府委员会秘书和预算与公共账目委员会主席"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000270.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "辛西娅·伊利亚纳·洛佩斯·卡斯特罗",
+          "entry": {
+            "start_date": "2015-09-15",
+            "end_date": "2018-09-14",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000350.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "玛丽亚·亚历杭德拉·巴拉莱斯·马格达莱诺",
+          "entry": {
+            "start_date": "2009-09-15",
+            "end_date": "2012-08-22",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方众议员（第十三选区）；党团协调员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000350.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "玛丽亚·亚历杭德拉·巴拉莱斯·马格达莱诺",
+          "entry": {
+            "start_date": "2003-09-15",
+            "end_date": "2006-09-14",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方众议员（第十一选区）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000353.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "瓜达卢佩·查维拉·德拉罗萨",
+          "entry": {
+            "start_date": "2003",
+            "end_date": "2006",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方议员（第三十四选区），财政委员会主席"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000376.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "胡利奥·塞萨尔·莫雷诺·里韦拉",
+          "entry": {
+            "start_date": "2003-09-16",
+            "end_date": "2006-09-15",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方众议员（第12选区）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000376.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "胡利奥·塞萨尔·莫雷诺·里韦拉",
+          "entry": {
+            "start_date": "2009-09-16",
+            "end_date": "2012-09-15",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "地方众议员（第11选区）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000414.json",
+          "pointer": "work_experience[10].org_id",
+          "owner": "玛丽亚·瓜达卢佩·莫拉莱斯·鲁维奥",
+          "entry": {
+            "start_date": "1997",
+            "end_date": "2000",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "公民服务与公共管理模块协调人"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000437.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "费德里科·德林·卡萨尔",
+          "entry": {
+            "start_date": "1997",
+            "end_date": "2000",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "旅游委员会技术秘书"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000437.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "费德里科·德林·卡萨尔",
+          "entry": {
+            "start_date": "2000",
+            "end_date": "2003",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "第二届立法会地方议员（兼地方公共行政委员会主席）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000437.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "费德里科·德林·卡萨尔",
+          "entry": {
+            "start_date": "2012",
+            "end_date": "2015",
+            "organization": "联邦区立法议会 (Asamblea Legislativa del Distrito Federal)",
+            "org_id": "MX-GOV-022",
+            "position": "第六届立法会地方议员（兼国家行动党议会党团领袖）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 22,
+      "decision": "分配",
+      "canonical_name": "Gobierno del Distrito Federal（历史政府）",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "10条为1997—2008年前后的联邦区政府任职，不是INEGI；可建历史地方政府身份，与现墨西哥城政府的继承关系另表述。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-897",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000013.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "克劳迪娅·辛鲍姆·帕尔多",
+          "entry": {
+            "start_date": "2000-12-05",
+            "end_date": "2006-05-15",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "环境局局长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000024.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "莱尼亚·巴特雷斯·瓜达拉马",
+          "entry": {
+            "start_date": "2002",
+            "end_date": "2004",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "联邦区行政长官顾问（洛佩斯·奥夫拉多尔执政期间）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000037.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "赫苏斯·安东尼奥·埃斯特瓦·梅迪纳",
+          "entry": {
+            "start_date": "2000",
+            "end_date": "2003",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "基础设施工程处处长（Director de Obras de Infraestructura），在洛佩斯·奥夫拉多尔担任联邦区长官期间负责重大基础设施项目，包括2002年启动环城公路（Anillo Periférico）第二层建设工程"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000079.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "卢西亚诺·帕斯科·里佩",
+          "entry": {
+            "start_date": "1997",
+            "end_date": "2000",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "新技术总监 (Director de Nuevas Tecnologías)，期间曾参与卡德纳斯竞选联邦区长官的互联网协调工作"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000177.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "马蒂·巴特雷斯·瓜达拉马",
+          "entry": {
+            "start_date": "2003",
+            "end_date": "2005",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "政府副秘书 (Subsecretario de Gobierno)",
+            "notes": "在联邦区行政长官安德烈斯·曼努埃尔·洛佩斯·奥布拉多任内"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000350.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "玛丽亚·亚历杭德拉·巴拉莱斯·马格达莱诺",
+          "entry": {
+            "start_date": "2006-12-05",
+            "end_date": "2008-01-20",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "联邦区旅游部长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000354.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "罗萨里奥·亚历杭德罗·埃斯基尔·贝尔杜戈",
+          "entry": {
+            "start_date": "2002-11-06",
+            "end_date": "2006-12-04",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "政府首脑私人秘书（接替雷内·贝哈拉诺）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000373.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "莱昂内尔·戈多伊·兰赫尔",
+          "entry": {
+            "start_date": "1997",
+            "end_date": "1999",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "政府副秘书"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000373.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "莱昂内尔·戈多伊·兰赫尔",
+          "entry": {
+            "start_date": "1999-09-28",
+            "end_date": "2000-12-04",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "政府总秘书长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000373.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "莱昂内尔·戈多伊·兰赫尔",
+          "entry": {
+            "start_date": "2000",
+            "end_date": "2002",
+            "organization": "联邦区政府 (Gobierno del Distrito Federal)",
+            "org_id": "MX-GOV-030",
+            "position": "公共安全秘书"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 23,
+      "decision": "分配",
+      "canonical_name": "Gobierno del Estado de Veracruz",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "源为韦拉克鲁斯州政府/州长及秘书，不是社会保险局，可分配地方政府GOV。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-892",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000012.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "罗西奥·纳莱·加西亚",
+          "entry": {
+            "start_date": "2024-12",
+            "end_date": null,
+            "organization": "韦拉克鲁斯州政府 (Gobierno del Estado de Veracruz)",
+            "org_id": "MX-GOV-028",
+            "position": "韦拉克鲁斯州州长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000153.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "米格尔·阿莱曼·贝拉斯科",
+          "entry": {
+            "start_date": "1998-12",
+            "end_date": "2004-11",
+            "organization": "韦拉克鲁斯州政府 (Gobierno del Estado de Veracruz)",
+            "org_id": "MX-GOV-028",
+            "position": "第44任州长 (Gobernador Constitucional)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000244.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "但丁·德尔加多·兰纳乌罗",
+          "entry": {
+            "start_date": "1983",
+            "end_date": "1985",
+            "organization": "韦拉克鲁斯州政府 (Gobierno del Estado de Veracruz)",
+            "org_id": "MX-GOV-028",
+            "position": "政府副秘书长 (Subsecretario de Gobierno)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000244.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "但丁·德尔加多·兰纳乌罗",
+          "entry": {
+            "start_date": "1986-12-01",
+            "end_date": "1988-11-30",
+            "organization": "韦拉克鲁斯州政府 (Gobierno del Estado de Veracruz)",
+            "org_id": "MX-GOV-028",
+            "position": "政府秘书长 (Secretario General de Gobierno)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000244.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "但丁·德尔加多·兰纳乌罗",
+          "entry": {
+            "start_date": "1988-12-01",
+            "end_date": "1992-11-30",
+            "organization": "韦拉克鲁斯州政府 (Gobierno del Estado de Veracruz)",
+            "org_id": "MX-GOV-028",
+            "position": "韦拉克鲁斯州代州长 (Gobernador Interino de Veracruz)"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 24,
+      "decision": "改类别后分配",
+      "canonical_name": "Teléfonos de México / Telmex",
+      "entity_country": "MX",
+      "category": "CORP",
+      "reason": "4条为Telmex董事、高管任职，不是国防部。按企业CORP重发号，不能继续MX-GOV-861；本次未实际发号。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-861",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000002.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "卡洛斯·斯利姆·多米特",
+          "entry": {
+            "start_date": "1990",
+            "end_date": "1994",
+            "organization": "墨西哥电话公司 (Telmex)",
+            "org_id": "MX-GOV-010",
+            "position": "财务总监"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000002.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "卡洛斯·斯利姆·多米特",
+          "entry": {
+            "start_date": "1999",
+            "end_date": "2004",
+            "organization": "墨西哥电话公司 (Telmex)",
+            "org_id": "MX-GOV-010",
+            "position": "董事会副主席"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000002.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "卡洛斯·斯利姆·多米特",
+          "entry": {
+            "start_date": "2004",
+            "end_date": "2011",
+            "organization": "墨西哥电话公司 (Telmex)",
+            "org_id": "MX-GOV-010",
+            "position": "总裁兼首席执行官"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000002.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "卡洛斯·斯利姆·多米特",
+          "entry": {
+            "start_date": "2011",
+            "end_date": null,
+            "organization": "墨西哥电话公司 (Telmex)",
+            "org_id": "MX-GOV-010",
+            "position": "董事会主席"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 25,
+      "decision": "挂起",
+      "canonical_name": "Tlalpan：Delegación 与 Alcaldía 沿革",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "4条混合2009—2017年Delegación时期任职与Alcaldía现称；实体类别GOV无争议，但需明确历史区政府与2018年后Alcaldía是否同一主ID，不能仅同地名批量迁移。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-900",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000013.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "克劳迪娅·辛鲍姆·帕尔多",
+          "entry": {
+            "start_date": "2015-10-01",
+            "end_date": "2017-12-05",
+            "organization": "特拉尔潘区政府 (Alcaldía de Tlalpan)",
+            "org_id": "MX-GOV-032",
+            "position": "区长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000024.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "莱尼亚·巴特雷斯·瓜达拉马",
+          "entry": {
+            "start_date": "2015",
+            "end_date": "2018",
+            "organization": "特拉尔潘区政府 (Alcaldía de Tlalpan)",
+            "org_id": "MX-GOV-032",
+            "position": "区长顾问（辛鲍姆任内）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000519.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "卡洛斯·埃尔南德斯·米龙",
+          "entry": {
+            "start_date": "2011",
+            "end_date": "2011",
+            "organization": "特拉尔潘区政府 (Delegación Tlalpan)",
+            "org_id": "MX-GOV-032",
+            "position": "城市服务总局局长 (Director General de Servicios Urbanos)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000519.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "卡洛斯·埃尔南德斯·米龙",
+          "entry": {
+            "start_date": "2009",
+            "end_date": "2011",
+            "organization": "特拉尔潘区政府 (Delegación Tlalpan)",
+            "org_id": "MX-GOV-032",
+            "position": "社会发展总局局长 (Director General de Desarrollo Social)"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 26,
+      "decision": "挂起",
+      "canonical_name": "Valora Holding AG",
+      "entity_country": "CH",
+      "category": "CORP",
+      "reason": "源明确瑞士零售控股，FEMSA持股不改变其法人所在地；现画像Liverpool错误。拟建MX-CORP-079前需先确定瑞士主实体登记位置与全球去重口径，不按母公司国别机械分配。",
+      "external_sources": [
+        "https://valora.com/en/contact"
+      ],
+      "proposed_id": "MX-CORP-079",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-CORP-003.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "墨西哥经济发展公司 (FEMSA)",
+          "entry": {
+            "org_id": "MX-CORP-010",
+            "org_name": "Valora集团 (Valora Holding AG)",
+            "org_type": "CORP",
+            "org_description": "瑞士零售和快餐服务控股公司，2022年被FEMSA收购，成为其欧洲业务基础",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000066.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "萨尔瓦多·阿尔法罗·埃尔南德斯 (Salvador Alfaro Hernández)",
+          "entry": {
+            "organization": "Valora Holding AG",
+            "org_id": "MX-CORP-010",
+            "position": "董事会成员（Director/Board Member），瑞士零售控股公司",
+            "start_date": "2022-10-13",
+            "end_date": null
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000131.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "弗朗西斯科·卡马乔·贝尔特兰",
+          "entry": {
+            "start_date": null,
+            "end_date": null,
+            "organization": "瓦洛拉控股集团 (Valora Holding AG)",
+            "org_id": "MX-CORP-010",
+            "position": "董事"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 27,
+      "decision": "挂起",
+      "canonical_name": "Southern Copper Corporation",
+      "entity_country": "US",
+      "category": "CORP",
+      "reason": "公司自身披露Delaware注册、Phoenix总部；不是Televisa，也不能仅因Grupo México控股当墨西哥法人。先确定美国主实体编号/跨国存储策略。",
+      "external_sources": [
+        "https://southerncoppercorp.com/eng/wp-content/uploads/sites/2/2026/04/8k260417.pdf"
+      ],
+      "proposed_id": "MX-CORP-084",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-CORP-004.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "墨西哥集团 (Grupo México)",
+          "entry": {
+            "org_id": "MX-CORP-012",
+            "org_name": "Southern Copper Corporation (南方铜业公司)",
+            "org_type": "CORP",
+            "org_description": "Grupo México旗下核心矿业子公司，在纽约(NYSE:SCCO)和利马证券交易所上市，是全球第四大铜生产商和最大铜储量持有者",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000001.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "赫尔曼·拉雷亚",
+          "entry": {
+            "start_date": "1999-12",
+            "end_date": "2004-10",
+            "organization": "南方铜业公司 (Southern Copper Corporation)",
+            "org_id": "MX-CORP-012",
+            "position": "董事长兼首席执行官"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000001.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "赫尔曼·拉雷亚",
+          "entry": {
+            "start_date": "2004-10",
+            "end_date": null,
+            "organization": "南方铜业公司 (Southern Copper Corporation)",
+            "org_id": "MX-CORP-012",
+            "position": "董事长"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 28,
+      "decision": "分配",
+      "canonical_name": "Gobierno del Estado de Campeche",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "3条明确坎佩切州政府任职，不是联邦旅游部，GOV合适。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-883",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000010.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "亚历杭德罗·莫雷诺·卡德纳斯",
+          "entry": {
+            "start_date": "2015-09-16",
+            "end_date": "2019-06-13",
+            "organization": "坎佩切州政府 (Gobierno del Estado de Campeche)",
+            "org_id": "MX-GOV-024",
+            "position": "坎佩切州州长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000260.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "玛丽亚·马丁娜·坎顿·坎",
+          "entry": {
+            "start_date": "2021",
+            "end_date": "2024-02",
+            "organization": "坎佩切州政府 (Gobierno del Estado de Campeche)",
+            "org_id": "MX-GOV-024",
+            "position": "基础与师范教育副秘书 (Subsecretaria de Educación Básica y Normal)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000261.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "阿尼瓦尔·奥斯托亚·奥尔特加",
+          "entry": {
+            "start_date": "2021-09-16",
+            "end_date": "2024-08-31",
+            "organization": "坎佩切州政府 (Gobierno del Estado de Campeche)",
+            "org_id": "MX-GOV-024",
+            "position": "坎佩切州政府总秘书"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 29,
+      "decision": "分配",
+      "canonical_name": "El Norte（蒙特雷）",
+      "entity_country": "MX",
+      "category": "MEDIA",
+      "reason": "源明确Grupo Reforma旗下蒙特雷报纸，不是Organización Editorial Mexicana；以地域和所属集团约束同名El Norte，建立独立MEDIA身份。",
+      "external_sources": [],
+      "proposed_id": "MX-MEDIA-015",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-MEDIA-005.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "改革报",
+          "entry": {
+            "org_id": "MX-MEDIA-003",
+            "org_name": "El Norte (北方报)",
+            "org_type": "MEDIA",
+            "org_description": "Grupo Reforma旗下蒙特雷旗舰报纸，Reforma的前身和姊妹报",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000196.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "亚历杭德罗·洪科·德拉维加",
+          "entry": {
+            "start_date": "1973",
+            "end_date": "2018",
+            "organization": "《北方报》 (El Norte)",
+            "org_id": "MX-MEDIA-003",
+            "position": "出版人兼总裁 (Publisher y Presidente)",
+            "description": "接管家族报纸El Norte，引入美式新闻标准和职业道德培训，将一份地方报纸发展为全国性报业集团的基石"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000386.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "马塞拉·格拉·卡斯蒂略",
+          "entry": {
+            "start_date": "1982",
+            "end_date": "1987",
+            "organization": "《北方报》 (El Norte)",
+            "org_id": "MX-MEDIA-003",
+            "position": "记者/编辑"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 30,
+      "decision": "挂起",
+      "canonical_name": "AUSJAL",
+      "entity_country": "区域网络／秘书处在墨西哥",
+      "category": "NGO（建议）",
+      "reason": "是跨国耶稣会大学协会/网络，不是一所大学；建议NGO或先定教育联盟统一口径，不直接MX-ACAD-023。秘书处在墨西哥不等于网络法律注册地已确认，需明确主体及主ID归属。",
+      "external_sources": [
+        "https://www.ausjal.org/en/contacto/"
+      ],
+      "proposed_id": "MX-ACAD-023",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-ACAD-008.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "伊比利亚美洲大学",
+          "entry": {
+            "org_id": "MX-ACAD-005",
+            "org_name": "拉丁美洲耶稣会大学协会 (AUSJAL)",
+            "org_type": "ACAD",
+            "org_description": "由拉丁美洲 31 所耶稣会大学组成的协会，IBERO 为成员之一",
+            "relationship_type": "member_of"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000117.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "路易斯·阿里亚加·巴伦苏埃拉",
+          "entry": {
+            "start_date": "2020",
+            "end_date": "2023",
+            "organization": "拉丁美洲耶稣会大学协会 (AUSJAL)",
+            "org_id": "MX-ACAD-005",
+            "position": "主席"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 31,
+      "decision": "分配",
+      "canonical_name": "Procuraduría Federal del Consumidor / PROFECO",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "引用明确联邦消费者保护机构及检察官任职，不是联邦议会；GOV合适。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-844",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-GOV-016.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "墨西哥经济部",
+          "entry": {
+            "org_id": "MX-GOV-002",
+            "org_name": "联邦消费者检察署 (Procuraduría Federal del Consumidor)",
+            "org_type": "GOV",
+            "org_description": "负责保护消费者权益和市场监管的联邦机构",
+            "relationship_type": "strategic_alliance"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000279.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "里卡多·谢菲尔德·帕迪利亚",
+          "entry": {
+            "start_date": "2018-12-01",
+            "end_date": "2023-09-25",
+            "organization": "联邦消费者保护检察院 (Procuraduría Federal del Consumidor)",
+            "org_id": "MX-GOV-002",
+            "position": "联邦消费者保护检察官"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 32,
+      "decision": "分配",
+      "canonical_name": "Centro Nacional de Control de Energía / CENACE",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "引用明确电力调度及市场运行公共机构，不是最高法院；沿用公共行政实体GOV，不因能源运营词形当普通发电企业。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-848",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-GOV-015.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "墨西哥能源部",
+          "entry": {
+            "org_id": "MX-GOV-005",
+            "org_name": "国家能源控制中心 (Centro Nacional de Control de Energía)",
+            "org_type": "GOV",
+            "org_description": "负责国家电力系统运行控制的机构，管理电力批发市场运营",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-SOE-002.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "联邦电力委员会",
+          "entry": {
+            "org_id": "MX-GOV-005",
+            "org_name": "CENACE (国家能源控制中心)",
+            "org_type": "GOV",
+            "org_description": "墨西哥国家电力系统运营和电力市场管理机构，2016年从CFE独立，负责国家互联系统的调度和规划",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 33,
+      "decision": "分配",
+      "canonical_name": "Comisión Nacional Bancaria y de Valores / CNBV",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "政府官网确认其为SHCP下属监管机关；保持GOV，不按“银行、证券”关键词改FIN。它与司法选举法院为不同主体。",
+      "external_sources": [
+        "https://www.gob.mx/cnbv/que-hacemos"
+      ],
+      "proposed_id": "MX-GOV-851",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-FIN-008.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "墨西哥证券交易所",
+          "entry": {
+            "org_id": "MX-GOV-006",
+            "org_name": "CNBV - Comisión Nacional Bancaria y de Valores (国家银行和证券委员会)",
+            "org_type": "GOV",
+            "org_description": "墨西哥银行和证券市场监管机构，负责监督BMV的运营、审批新上市公司和执行证券法规",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000180.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "安东尼奥·马丁内斯·达尼诺",
+          "entry": {
+            "start_date": "2014",
+            "end_date": "2018",
+            "organization": "国家银行和证券委员会 (Comisión Nacional Bancaria y de Valores, CNBV)",
+            "org_id": "MX-GOV-006",
+            "position": "金融机构集团与中介司副司长 (Subdirector de área en la Dirección General de Grupos e Intermediarios Financieros)"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 34,
+      "decision": "分配",
+      "canonical_name": "Gobierno del Estado de Puebla",
+      "entity_country": "MX",
+      "category": "GOV",
+      "reason": "源为普埃布拉州政府及州长/福利副秘书任职，不是墨西哥总检察院，GOV合适。",
+      "external_sources": [],
+      "proposed_id": "MX-GOV-888",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000011.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "曼努埃尔·巴特利特·迪亚斯",
+          "entry": {
+            "start_date": "1993-02",
+            "end_date": "1999-01",
+            "organization": "普埃布拉州政府 (Gobierno del Estado de Puebla)",
+            "org_id": "MX-GOV-026",
+            "position": "普埃布拉州州长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000535.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "吉塞尔·桑坦德·索托",
+          "entry": {
+            "start_date": "2019-01",
+            "end_date": "2021",
+            "organization": "普埃布拉州政府 (Gobierno del Estado de Puebla)",
+            "org_id": "MX-GOV-026",
+            "position": "福利副国务秘书 (Subsecretaria de Bienestar)"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 35,
+      "decision": "分配",
+      "canonical_name": "Mural（瓜达拉哈拉报纸）",
+      "entity_country": "MX",
+      "category": "MEDIA",
+      "reason": "源明确Grupo Reforma旗下Mural，与El Universal不同，可建独立报纸身份。",
+      "external_sources": [],
+      "proposed_id": "MX-MEDIA-021",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-MEDIA-005.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "改革报",
+          "entry": {
+            "org_id": "MX-MEDIA-004",
+            "org_name": "Mural (墙报)",
+            "org_type": "MEDIA",
+            "org_description": "Grupo Reforma旗下瓜达拉哈拉日报",
+            "relationship_type": "sibling"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000196.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "亚历杭德罗·洪科·德拉维加",
+          "entry": {
+            "start_date": "1998-11",
+            "end_date": null,
+            "organization": "《墙报》 (Mural)",
+            "org_id": "MX-MEDIA-004",
+            "position": "创始人 (Fundador)",
+            "description": "在瓜达拉哈拉创办Mural日报，现为该市领先报纸"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 36,
+      "decision": "分配",
+      "canonical_name": "Siglo XXI Editores（墨西哥出版社）",
+      "entity_country": "MX",
+      "category": "MEDIA",
+      "reason": "源明确1966年创建的墨西哥出版社，MEDIA可覆盖出版机构，不是El Financiero等现画像；出版社与FCE的successor关系表述本身另核。",
+      "external_sources": [],
+      "proposed_id": "MX-MEDIA-034",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-MEDIA-010.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "经济文化基金出版社",
+          "entry": {
+            "org_id": "MX-MEDIA-007",
+            "org_name": "二十一世纪出版社 (Siglo XXI Editores)",
+            "org_type": "MEDIA",
+            "org_description": "由 FCE 前总干事 Arnaldo Orfila Reynal 于1965年离职后创建的出版社，与 FCE 在西语学术出版领域既有竞争又有互补关系",
+            "relationship_type": "successor"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000008.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "阿纳尔多·奥尔菲拉·雷纳尔",
+          "entry": {
+            "start_date": "1966-03",
+            "end_date": null,
+            "organization": "二十一世纪出版社 (Siglo XXI Editores)",
+            "org_id": "MX-MEDIA-007",
+            "position": "创始人兼社长"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 37,
+      "decision": "分配",
+      "canonical_name": "Conferencia del Episcopado Mexicano",
+      "entity_country": "MX",
+      "category": "NGO",
+      "reason": "是墨西哥天主教主教团，非政府宗教组织；与Semillas基金会不同，NGO作为现有大类可用，子类标宗教团体。",
+      "external_sources": [],
+      "proposed_id": "MX-NGO-016",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-NGO-004.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "墨西哥明爱",
+          "entry": {
+            "org_id": "MX-NGO-005",
+            "org_name": "墨西哥天主教主教会议 (Conferencia del Episcopado Mexicano)",
+            "org_type": "NGO",
+            "org_description": "墨西哥天主教主教的全国性机构，负责协调墨西哥天主教会的牧灵工作",
+            "relationship_type": "parent_org"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\mx\\2026-05-11\\persons\\MX-PERSON-000221.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "恩赫尔贝托·波利诺·桑切斯",
+          "entry": {
+            "start_date": "2019-05-03",
+            "end_date": "2021-11",
+            "organization": "墨西哥主教团 (Conferencia del Episcopado Mexicano)",
+            "org_id": "MX-NGO-005",
+            "position": "受造物整体关怀主教维度负责人 (Responsable de la Dimensión Episcopal para el Cuidado Integral de la Creación)"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 38,
+      "decision": "分配",
+      "canonical_name": "Universidad Tecmilenio",
+      "entity_country": "MX",
+      "category": "ACAD",
+      "reason": "源明确Tec教育集团旗下大学，独立于UNAM、Tec de Monterrey及Milenio报纸；可独立ACAD，不能按Milenio词元误合并媒体。",
+      "external_sources": [],
+      "proposed_id": "MX-ACAD-009",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-ACAD-002.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "蒙特雷理工学院",
+          "entry": {
+            "org_id": "MX-ACAD-001",
+            "org_name": "特克米莱尼奥大学 (Universidad Tecmilenio)",
+            "org_type": "ACAD",
+            "org_description": "Tec de Monterrey教育集团旗下大学，专注于普及型高等教育",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 39,
+      "decision": "挂起",
+      "canonical_name": "TecSalud",
+      "entity_country": "MX",
+      "category": "待定：医疗体系／教育医疗平台",
+      "reason": "源是Tec旗下含医学院及多家医院的医疗体系，不能当作另一所独立大学，也不是联邦卫生部。先定组织级医疗平台是否独立建档及类别，或拆到旗下具体院校/医院。",
+      "external_sources": [],
+      "proposed_id": "MX-ACAD-013",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-ACAD-002.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "蒙特雷理工学院",
+          "entry": {
+            "org_id": "MX-ACAD-002",
+            "org_name": "TecSalud (医疗学术中心)",
+            "org_type": "ACAD",
+            "org_description": "Tec de Monterrey旗下医疗体系，包括医学院、圣何塞医院和赞布拉诺-赫利翁医疗中心",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 40,
+      "decision": "不分配",
+      "canonical_name": "Southern Association of Colleges and Schools Commission on Colleges / SACSCOC",
+      "entity_country": "US",
+      "category": "NGO（建议）",
+      "reason": "不分配所提MX-ACAD-017：美国教育认证组织不是墨西哥大学/政府机关；SACSCOC还应与更广的SACS区别。可另在美国非营利认证组织口径下核定主ID，并保留其认证关系。",
+      "external_sources": [
+        "https://almanac.chea.org/accreditor/southern-association-colleges-and-schools-commission-colleges"
+      ],
+      "proposed_id": "MX-ACAD-017",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\mx\\2026-05-11\\orgs\\MX-ACAD-007.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "普埃布拉美洲大学",
+          "entry": {
+            "org_id": "MX-ACAD-003",
+            "org_name": "美国南部院校协会 (SACSCOC)",
+            "org_type": "ACAD",
+            "org_description": "UDLAP 是拉丁美洲仅有的七所获 SACSCOC 认证的大学之一，也是墨西哥唯一获此认证的私立大学",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 41,
+      "decision": "分配",
+      "canonical_name": "NZ On Air / Broadcasting Commission",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "官方将其列为Autonomous Crown Entity、公共内容资助机构，保持GOV，不改MEDIA；不是Statistics NZ。资助媒体不等于自己是媒体运营商。",
+      "external_sources": [
+        "https://www.mch.govt.nz/our-work/governance-and-monitoring/entities-overview"
+      ],
+      "proposed_id": "NZ-GOV-134",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-015.json",
+          "pointer": "related_entities[8].org_id",
+          "owner": "文化和遺產部",
+          "entry": {
+            "org_id": "NZ-GOV-003",
+            "org_name": "新西兰广播资助局 (NZ On Air)",
+            "org_type": "GOV",
+            "org_description": "新西兰公共广播内容资助机构，作为MCH下属机构运营",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MEDIA-005.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "斯塔夫有限公司",
+          "entry": {
+            "org_id": "NZ-GOV-003",
+            "org_name": "NZ On Air (新西兰广播资助局)",
+            "org_type": "GOV",
+            "org_description": "新西兰政府资助的广播内容资助机构，资助Stuff Circuit等调查新闻项目",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MEDIA-013.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "新西蘭電視台",
+          "entry": {
+            "org_id": "NZ-GOV-003",
+            "org_name": "新西兰广播局 (NZ On Air)",
+            "org_type": "GOV",
+            "org_description": "新西兰政府资助公共广播和独立媒体制作的机构，负责分配公共广播资金",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MEDIA-014.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "新西蘭國家廣播電台",
+          "entry": {
+            "org_id": "NZ-GOV-003",
+            "org_name": "新西兰广播局 (NZ On Air)",
+            "org_type": "GOV",
+            "org_description": "新西兰政府公共广播资助机构，负责分配公共广播和独立媒体制作资金，RNZ的主要资金来源",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MEDIA-018.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "联合媒体（原联合出版社）",
+          "entry": {
+            "org_id": "NZ-GOV-003",
+            "org_name": "新西兰广播基金 (NZ On Air)",
+            "org_type": "GOV",
+            "org_description": "新西兰政府资助机构，负责资助本地广播内容制作，此前资助Channel 39的The South Today节目",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 42,
+      "decision": "分配",
+      "canonical_name": "Civil Aviation Authority of New Zealand",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "5条明确新西兰民航安全监管机构，不是族裔社区部或其他国家民航局，可独立GOV。",
+      "external_sources": [],
+      "proposed_id": "NZ-GOV-148",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-043.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "新西兰海事局",
+          "entry": {
+            "org_id": "NZ-GOV-032",
+            "org_name": "新西兰民航局(Civil Aviation Authority of New Zealand)",
+            "org_type": "GOV",
+            "org_description": "平行监管机构，共同参与搜救体系运作",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-044.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "新西兰职业安全局",
+          "entry": {
+            "org_id": "NZ-GOV-032",
+            "org_name": "新西兰民航局 (Civil Aviation Authority of New Zealand)",
+            "org_type": "GOV",
+            "org_description": "新西兰民航安全监管机构，负责飞机运营准备和飞行中工作安全监管",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-062.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "新西兰交通部",
+          "entry": {
+            "org_id": "NZ-GOV-032",
+            "org_name": "新西兰民航局 (Civil Aviation Authority of New Zealand)",
+            "org_type": "GOV",
+            "org_description": "负责航空安全和空中交通管制的监管机构",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-SOE-004.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "新西兰气象局",
+          "entry": {
+            "org_id": "NZ-GOV-032",
+            "org_name": "Civil Aviation Authority of New Zealand(新西兰民航局)",
+            "org_type": "GOV",
+            "org_description": "MetService 的航空气象服务获得民航局认证，运营气象监视办公室(MWO)和火山灰咨询中心(VAAC)",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-SOE-016.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "新西兰航路公司",
+          "entry": {
+            "org_id": "NZ-GOV-032",
+            "org_name": "新西兰民航局(Civil Aviation Authority of New Zealand)",
+            "org_type": "GOV",
+            "org_description": "新西兰航空安全监管机构，与Airways签订航空信息服务合同",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 43,
+      "decision": "分配",
+      "canonical_name": "Commerce Commission（新西兰）",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "与第47行是同一市场监管机构，合计7处影子引用只建立一个主身份。可采用一个全新未占用GOV编号，但禁止分别创建NZ-GOV-153与174；美国商务部不是合并目标。",
+      "external_sources": [
+        "https://www.publicservice.govt.nz/guidance/advising-on-organisational-form/what-do-the-question-1-answers-mean-for-organisational-form"
+      ],
+      "proposed_id": "NZ-GOV-153",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-FIN-009.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "TSB银行",
+          "entry": {
+            "org_id": "NZ-GOV-038",
+            "org_name": "商务委员会 (Commerce Commission)",
+            "org_type": "GOV",
+            "org_description": "新西兰市场竞争监管机构",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-051.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "新西兰水务管理局 (Water Services Authority - Taumata Arowai)",
+          "entry": {
+            "org_id": "NZ-GOV-038",
+            "org_name": "商务委员会 (Commerce Commission)",
+            "org_type": "GOV",
+            "org_description": "新西兰水务经济监管机构，负责水务定价和经济监管，董事会成员Loretta Lovell同时担任商务委员会副专员，在经济监管和质量监管之间发挥桥梁作用",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-058.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "新西兰商业、创新和就业部",
+          "entry": {
+            "org_id": "NZ-GOV-038",
+            "org_name": "商务委员会 (Commerce Commission)",
+            "org_type": "GOV",
+            "org_description": "独立皇家实体，负责竞争和消费者保护监管",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MEDIA-015.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "新西兰媒体娱乐集团",
+          "entry": {
+            "org_id": "NZ-GOV-038",
+            "org_name": "新西兰商业委员会 (Commerce Commission)",
+            "org_type": "GOV",
+            "org_description": "2017年和2018年两次否决NZME与Stuff的合并申请",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000410.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "艾伦·博拉德",
+          "entry": {
+            "organization": "新西兰商务委员会 (Commerce Commission)",
+            "org_id": "NZ-GOV-038",
+            "position": "主席",
+            "start_date": "1994",
+            "end_date": "1998"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 44,
+      "decision": "分配",
+      "canonical_name": "Court of Appeal of New Zealand",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "3条明确新西兰上诉法院，不是海关或乌干达同名上诉法院，可独立GOV。",
+      "external_sources": [],
+      "proposed_id": "NZ-GOV-142",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-035.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "新西兰最高法院",
+          "entry": {
+            "org_id": "NZ-GOV-023",
+            "org_name": "新西兰上诉法院 (Court of Appeal of New Zealand)",
+            "org_type": "GOV",
+            "org_description": "新西兰第二高级法院，最高法院的大多数法官均从上诉法院晋升而来",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000769.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "马克·奥里根",
+          "entry": {
+            "organization": "新西兰上诉法院(Court of Appeal of New Zealand)",
+            "org_id": "NZ-GOV-023",
+            "position": "上诉法院法官",
+            "start_date": "2004-01",
+            "end_date": "2010"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000769.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "马克·奥里根",
+          "entry": {
+            "organization": "新西兰上诉法院(Court of Appeal of New Zealand)",
+            "org_id": "NZ-GOV-023",
+            "position": "上诉法院院长",
+            "start_date": "2010",
+            "end_date": "2014-09"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 45,
+      "decision": "分配",
+      "canonical_name": "Climate Change Commission（新西兰）",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "源为独立气候政策咨询委员会，不是监管部；GOV适当，不能把咨询职责误作一般企业。",
+      "external_sources": [],
+      "proposed_id": "NZ-GOV-147",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-042.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "新西兰环境保护局",
+          "entry": {
+            "org_id": "NZ-GOV-031",
+            "org_name": "新西兰气候变化委员会(Climate Change Commission)",
+            "org_type": "GOV",
+            "org_description": "政策协调机构，共同参与碳排放管理政策制定",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-061.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "新西兰环境部",
+          "entry": {
+            "org_id": "NZ-GOV-031",
+            "org_name": "气候变化委员会 (Climate Change Commission)",
+            "org_type": "GOV",
+            "org_description": "独立的皇家实体，就减排目标和策略向政府提供独立建议",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 46,
+      "decision": "挂起",
+      "canonical_name": "High Performance Sport New Zealand Limited",
+      "entity_country": "NZ",
+      "category": "GOV（公共体育实体；待定分类口径）",
+      "reason": "政府确认其为Sport NZ全资子公司，不能与现有Sport NZ画像合并。须统一Crown实体公司与SOE的类别口径；不能仅看到Limited改CORP，当前GOV方案暂缓确认。",
+      "external_sources": [
+        "https://www.beehive.govt.nz/release/structural-change-confirmed-top-sport-nz-and-hpsnz"
+      ],
+      "proposed_id": "NZ-GOV-151",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-050.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "新西兰体育局 (Sport New Zealand)",
+          "entry": {
+            "org_id": "NZ-GOV-036",
+            "org_name": "高水平运动新西兰 (High Performance Sport New Zealand)",
+            "org_type": "GOV",
+            "org_description": "Sport NZ旗下子公司，成立于2011年，负责管理新西兰精英运动员和高水平体育项目",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000864.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "雷琳·卡斯尔",
+          "entry": {
+            "organization": "新西兰高水平体育组织(High Performance Sport New Zealand)",
+            "org_id": "NZ-GOV-036",
+            "position": "Chief Executive",
+            "start_date": "2022-03",
+            "end_date": null
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 47,
+      "decision": "不分配",
+      "canonical_name": "Commerce Commission（新西兰；并入第43行身份）",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "不独立分配NZ-GOV-174：与第43行是同一机构；应与其共用最终主ID，现画像司法部及机器候选美国商务部都不对。两条引用后续须逐项改指共同主ID。",
+      "external_sources": [],
+      "proposed_id": "NZ-GOV-174",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-008.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "Contact能源有限公司",
+          "entry": {
+            "org_id": "NZ-GOV-059",
+            "org_name": "Commerce Commission NZ (新西兰商务委员会)",
+            "org_type": "GOV",
+            "org_description": "批准了Contact与Manawa合并交易的新西兰竞争监管机构",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-014.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "Chorus有限公司",
+          "entry": {
+            "org_id": "NZ-GOV-059",
+            "org_name": "Commerce Commission NZ (新西兰商务委员会)",
+            "org_type": "GOV",
+            "org_description": "负责监管Chorus的批发定价和光纤前沿(Fibre Frontier)政策框架",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 48,
+      "decision": "挂起",
+      "canonical_name": "Auckland Council / Auckland City Council（需分开）",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "2处分别是现Auckland Council与Goldsmith在2007—2010年任职的旧Auckland City Council；2010年重组不是单纯译名差异。应分两个历史身份，不能整组迁到一个新ID。",
+      "external_sources": [
+        "https://at.govt.nz/media/imported/4827/AT_ACC_Policy_Vol3Final.pdf"
+      ],
+      "proposed_id": "NZ-GOV-176",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-032.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "Vector有限公司",
+          "entry": {
+            "org_id": "NZ-GOV-061",
+            "org_name": "Auckland Council (奥克兰市议会)",
+            "org_type": "GOV",
+            "org_description": "Vector的主要运营区域覆盖奥克兰大区,与市议会在基础设施规划和城市发展中密切合作",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000013.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "保罗·戈德史密斯",
+          "entry": {
+            "organization": "奥克兰市议会(Auckland City Council)",
+            "org_id": "NZ-GOV-061",
+            "position": "霍布森选区市议员(Councillor for Hobson Ward)",
+            "start_date": "2007",
+            "end_date": "2010"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 49,
+      "decision": "分配",
+      "canonical_name": "New Zealand Special Air Service / NZSAS",
+      "entity_country": "NZ",
+      "category": "MIL",
+      "reason": "源为NZSAS特种部队，不是GCSB；MIL合适，不能把情报合作关系当身份等同。",
+      "external_sources": [],
+      "proposed_id": "NZ-MIL-009",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MIL-001.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "新西兰国防军",
+          "entry": {
+            "org_id": "NZ-MIL-002",
+            "org_name": "新西兰特种空勤团 (NZSAS)",
+            "org_type": "MIL",
+            "org_description": "新西兰特种部队，曾在阿富汗作战并获得美国总统集体嘉奖",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-MIL-007.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "国防情报安全局",
+          "entry": {
+            "org_id": "NZ-MIL-002",
+            "org_name": "新西兰特种空勤团 (NZSAS)",
+            "org_type": "MIL",
+            "org_description": "NZSAS行动依赖DDIS提供的情报支持，两者在特种作战行动中密切配合",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 50,
+      "decision": "分配",
+      "canonical_name": "National Council of Women of New Zealand",
+      "entity_country": "NZ",
+      "category": "NGO",
+      "reason": "官网明确非营利注册慈善团体，保留NGO，不按“委员会”改GOV；与Graeme Dingle Foundation不是同一慈善组织。",
+      "external_sources": [
+        "https://www.ncwnz.org.nz/our-people"
+      ],
+      "proposed_id": "NZ-NGO-056",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-071.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "妇女事务部",
+          "entry": {
+            "org_id": "NZ-NGO-017",
+            "org_name": "新西兰全国妇女委员会 (National Council of Women of New Zealand)",
+            "org_type": "NGO",
+            "org_description": "新西兰主要妇女权益倡导组织，与妇女事务部在政策倡导方面合作",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000595.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "吉尔·格里尔",
+          "entry": {
+            "start_date": "2017",
+            "end_date": "2018",
+            "organization": "新西兰全国妇女委员会 (National Council of Women of New Zealand)",
+            "org_id": "NZ-NGO-017",
+            "position": "首席执行官"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 51,
+      "decision": "挂起",
+      "canonical_name": "Progressive Coalition / Progressive Party（Jim Anderton，新西兰历史组织）",
+      "entity_country": "NZ",
+      "category": "PARTY",
+      "reason": "源明确Jim Anderton在2002年的联盟，机器却建议合并韩国Progressive Party，属于跨国误匹配；原计划新ID为空。还需区分联盟与后续Anderton政党沿革，再生成新西兰PARTY主ID。",
+      "external_sources": [],
+      "proposed_id": "",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-PARTY-007.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "新西兰社会信用党",
+          "entry": {
+            "org_id": "NZ-PARTY-004",
+            "org_name": "新西兰进步联盟/进步党 (Progressive Coalition/Progressive Party)",
+            "org_type": "PARTY",
+            "org_description": "吉姆·安德顿领导的政党，民主党曾在2002年加入该联盟",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 52,
+      "decision": "不分配",
+      "canonical_name": "Geological Survey of Japan / GSJ",
+      "entity_country": "JP",
+      "category": "ACAD（研究机构；需区分历史本体与现AIST内部域）",
+      "reason": "不分配NZ-ACAD-021：引用明确日本GSJ，不是新西兰大学或日本国交省。官网说明现GSJ为AIST研究领域，先定部门/历史机构粒度，再在日本口径分配或建立部门关系。",
+      "external_sources": [
+        "https://www.gsj.jp/en/about/greeting.html",
+        "https://unit.aist.go.jp/gsc/index_en.html"
+      ],
+      "proposed_id": "NZ-ACAD-021",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-ACAD-011.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "新西兰地质与核科学研究所",
+          "entry": {
+            "org_id": "NZ-ACAD-004",
+            "org_name": "日本地质调查局 (Geological Survey of Japan)",
+            "org_type": "ACAD",
+            "org_description": "日本地质调查研究机构，与GNS Science在地震和火山研究方面有合作关系",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 53,
+      "decision": "不分配",
+      "canonical_name": "Intuit Inc.",
+      "entity_country": "US",
+      "category": "CORP",
+      "reason": "不分配NZ-CORP-068：源明确美国QuickBooks开发商，官网总部在加州Mountain View；与Fletcher Building不同。应先核美国主ID，不能按引用方国别创建新西兰副本。",
+      "external_sources": [
+        "https://www.intuit.com/company/locations/"
+      ],
+      "proposed_id": "NZ-CORP-068",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-002.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "Xero有限公司",
+          "entry": {
+            "org_id": "NZ-CORP-016",
+            "org_name": "Intuit (财捷集团)",
+            "org_type": "CORP",
+            "org_description": "美国会计软件巨头,QuickBooks开发商,Xero在全球市场的主要竞争对手",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 54,
+      "decision": "不分配",
+      "canonical_name": "Groupe Lactalis",
+      "entity_country": "FR",
+      "category": "CORP",
+      "reason": "不分配NZ-CORP-070：源明确法国乳业集团，官网法律声明注册办公室为Laval法国；海外收购不使其变成新西兰法人。应明确法国实体登记方案。",
+      "external_sources": [
+        "https://www.lactalis.com/en/legal"
+      ],
+      "proposed_id": "NZ-CORP-070",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-006.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "恒天然合作集团",
+          "entry": {
+            "org_id": "NZ-CORP-019",
+            "org_name": "Lactalis (拉克塔利斯)",
+            "org_type": "CORP",
+            "org_description": "全球最大乳制品公司,法国私营企业,2025年以38.45亿新西兰元收购Fonterra消费品牌业务",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 55,
+      "decision": "不分配",
+      "canonical_name": "Vocus Group Limited",
+      "entity_country": "AU",
+      "category": "CORP",
+      "reason": "不分配NZ-CORP-071：源明确澳大利亚集团，官网隐私声明给出澳洲ABN；不要与历史新西兰运营公司/品牌混用。应先在澳大利亚口径确认主ID。",
+      "external_sources": [
+        "https://www.vocus.com.au/privacy-policy"
+      ],
+      "proposed_id": "NZ-CORP-071",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-014.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "Chorus有限公司",
+          "entry": {
+            "org_id": "NZ-CORP-021",
+            "org_name": "Vocus Group (Vocus集团)",
+            "org_type": "CORP",
+            "org_description": "澳大利亚电信基础设施公司,Chorus董事长Mark Cross同时担任Vocus董事长",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 56,
+      "decision": "挂起",
+      "canonical_name": "Macquarie Asset Management / MAM",
+      "entity_country": "AU（集团业务）",
+      "category": "FIN（建议）",
+      "reason": "源为麦格理资产管理业务中的高管任职；现有AU-FIN-007是集团母体，不能直接当成同一具体雇主。NZ-CORP-077的国别与类别都需重定，同时明确业务分部是否独立实体、实际雇主法人。",
+      "external_sources": [
+        "https://www.macquarie.com/ch/en/about/company.html"
+      ],
+      "proposed_id": "NZ-CORP-077",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000543.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "大卫·鲍德温",
+          "entry": {
+            "organization": "麦格理资产管理 (Macquarie Asset Management)",
+            "org_id": "NZ-CORP-028",
+            "position": "高级董事总经理",
+            "start_date": "2017",
+            "end_date": null
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 57,
+      "decision": "分配",
+      "canonical_name": "Synlait Milk Limited",
+      "entity_country": "NZ",
+      "category": "CORP",
+      "reason": "源明确新西兰Synlait乳制品加工企业，不是EBOS或a2 Milk；可建独立CORP身份，代工/持股关系不等同实体。",
+      "external_sources": [],
+      "proposed_id": "NZ-CORP-082",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-CORP-029.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "A2牛奶公司",
+          "entry": {
+            "org_id": "NZ-CORP-033",
+            "org_name": "Synlait Milk (新莱特乳业)",
+            "org_type": "CORP",
+            "org_description": "新西兰乳制品加工企业,是a2 Milk婴幼儿配方奶粉的主要代工制造商",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 58,
+      "decision": "分配",
+      "canonical_name": "Finance Now Limited",
+      "entity_country": "NZ",
+      "category": "FIN",
+      "reason": "源为Finance Now董事任职，金融业务实体，不是金融市场管理局或澳洲财政部，FIN可用。",
+      "external_sources": [],
+      "proposed_id": "NZ-FIN-031",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\persons\\NZ-PERSON-000669.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "乔·奥康奈尔",
+          "entry": {
+            "organization": "Finance Now有限公司(Finance Now Ltd)",
+            "org_id": "NZ-FIN-014",
+            "position": "董事(Director)",
+            "start_date": null,
+            "end_date": null
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 59,
+      "decision": "分配",
+      "canonical_name": "Creative New Zealand / Arts Council of New Zealand Toi Aotearoa",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "官方将其列为Autonomous Crown Entity，公共艺术资助实体，GOV合适，不是总理及内阁部。",
+      "external_sources": [
+        "https://www.mch.govt.nz/our-work/governance-and-monitoring/entities-overview"
+      ],
+      "proposed_id": "NZ-GOV-133",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-015.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "文化和遺產部",
+          "entry": {
+            "org_id": "NZ-GOV-001",
+            "org_name": "新西兰创意艺术委员会 (Creative New Zealand / Arts Council of New Zealand Toi Aotearoa)",
+            "org_type": "GOV",
+            "org_description": "新西兰艺术资助和发展机构，由MCH资助和监督",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 60,
+      "decision": "分配",
+      "canonical_name": "Heritage New Zealand Pouhere Taonga",
+      "entity_country": "NZ",
+      "category": "GOV",
+      "reason": "源明确本国法定遗产保护机构，不是外交贸易部或美国Heritage Foundation，保持GOV公共机构口径。",
+      "external_sources": [],
+      "proposed_id": "NZ-GOV-135",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\nz\\2026-06-04\\orgs\\NZ-GOV-015.json",
+          "pointer": "related_entities[11].org_id",
+          "owner": "文化和遺產部",
+          "entry": {
+            "org_id": "NZ-GOV-006",
+            "org_name": "新西兰遗产局 (Heritage New Zealand Pouhere Taonga)",
+            "org_type": "GOV",
+            "org_description": "新西兰历史遗产保护机构，由MCH资助和监督",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 61,
+      "decision": "分配",
+      "canonical_name": "Sumitomo Mitsui Banking Corporation / SMBC",
+      "entity_country": "JP",
+      "category": "FIN",
+      "reason": "19处源明确三井住友银行，不能指邮贮银行或三井住友金融集团SMFG；应独立FIN。SMFG子公司关系应保留，不能以集团代替银行。 19处中4处起始于2001年成立前（1985、1989、1991、1997），必须分别核实三井/樱花等前身并拆段，不能因主体允许新建就整组迁移。",
+      "external_sources": [
+        "https://www.smbc.co.jp/global/aboutus/profile/history.html"
+      ],
+      "proposed_id": "JP-FIN-050",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-CORP-013.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "东芝",
+          "entry": {
+            "org_id": "JP-FIN-007",
+            "org_name": "三井住友银行（SMBC）",
+            "org_type": "CORP",
+            "org_description": "日本主要银行，与东芝联合开发量子驱动股票指数",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-FIN-003.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "三井住友金融集团",
+          "entry": {
+            "org_id": "JP-FIN-007",
+            "org_name": "三井住友银行 (三井住友銀行)",
+            "org_type": "FIN",
+            "org_description": "SMFG旗下核心银行子公司，日本三大巨头银行之一，SMFG持有100%股权",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000025.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "车谷畅昭",
+          "entry": {
+            "start_date": "2001-04",
+            "end_date": "2015-04",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "经营企画部副部长、王子法人营业部长、本店营业第三部长、执行役员经营企画部长、常务执行役员、取缔役专务执行役员，最终任代表取缔役副头取执行役员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "安地和之",
+          "entry": {
+            "start_date": "2020-04",
+            "end_date": "2021-03",
+            "organization": "三井住友银行（三井住友銀行）",
+            "org_id": "JP-FIN-007",
+            "position": "数字战略部部长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "安地和之",
+          "entry": {
+            "start_date": "2021-04",
+            "end_date": "2023-03",
+            "organization": "三井住友银行（三井住友銀行）",
+            "org_id": "JP-FIN-007",
+            "position": "执行役员、企画部部长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "安地和之",
+          "entry": {
+            "start_date": "2023-04",
+            "end_date": "2025-03",
+            "organization": "三井住友银行（三井住友銀行）",
+            "org_id": "JP-FIN-007",
+            "position": "常务执行役员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "安地和之",
+          "entry": {
+            "start_date": "2025-04",
+            "end_date": null,
+            "organization": "三井住友银行（三井住友銀行）",
+            "org_id": "JP-FIN-007",
+            "position": "取缔役兼专务执行役员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "1985",
+            "end_date": "1989",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "赤坂通支店营业（入行时为三井银行）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "1989",
+            "end_date": "1991",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "京都支店营业（制造业客户业务）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "1991",
+            "end_date": "1997",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "市场营业部门资金业务（伦敦驻在）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "1997",
+            "end_date": "2003",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "香港驻在外汇交易员（经历亚洲货币危机）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2003",
+            "end_date": "2008",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "上海驻在（资金业务）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2008",
+            "end_date": "2010",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "纽约驻在（经历雷曼危机）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2012",
+            "end_date": "2013",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "市场资金部长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2013",
+            "end_date": "2015",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "本店营业第六部长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[9].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2015",
+            "end_date": "2018",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "常务执行役员名古屋法人营业本部长（兼名古屋银行协会副会长）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[11].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2021",
+            "end_date": "2023",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "取缔役专务执行役员、全球银行业务部门共同统括（兼三井住友金融集团执行役专务）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000060.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "福留朗裕",
+          "entry": {
+            "start_date": "2023-04-01",
+            "end_date": null,
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "代表董事行长兼CEO"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000552.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "增田进",
+          "entry": {
+            "start_date": "2015-04",
+            "end_date": "2020-02",
+            "organization": "三井住友银行 (三井住友銀行)",
+            "org_id": "JP-FIN-007",
+            "position": "市场资金部长"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 62,
+      "decision": "分配",
+      "canonical_name": "SMBC Nikko Securities",
+      "entity_country": "JP",
+      "category": "FIN",
+      "reason": "源为SMBC日兴证券及其高管任职，不是Resona Holdings；证券公司FIN合适。 其中2005—2023年的长段经历跨越旧名及重组，迁移引用前须核对当时证券公司沿革；主体新建建议不授权整段自动改链。",
+      "external_sources": [],
+      "proposed_id": "JP-FIN-051",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-FIN-003.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "三井住友金融集团",
+          "entry": {
+            "org_id": "JP-FIN-008",
+            "org_name": "SMBC日兴证券 (SMBC日興証券)",
+            "org_type": "FIN",
+            "org_description": "SMFG旗下证券子公司，提供股票、债券承销、M&A顾问等投资银行服务",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000059.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "安地和之",
+          "entry": {
+            "start_date": "2025-04",
+            "end_date": null,
+            "organization": "SMBC日兴证券（SMBC日興証券）",
+            "org_id": "JP-FIN-008",
+            "position": "取缔役"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000147.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "金子容三",
+          "entry": {
+            "start_date": "2005-04",
+            "end_date": "2023-07",
+            "organization": "SMBC日兴证券 (SMBC日興証券)",
+            "org_id": "JP-FIN-008",
+            "position": "证券公司从业人员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000552.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "增田进",
+          "entry": {
+            "start_date": "2020-03",
+            "end_date": "2021-02",
+            "organization": "SMBC日兴证券 (SMBC日興証券)",
+            "org_id": "JP-FIN-008",
+            "position": "执行役员 金融市场副本部长 兼 调查副本部长(金融经济调查部担当)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000552.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "增田进",
+          "entry": {
+            "start_date": "2021-03",
+            "end_date": "2022-04",
+            "organization": "SMBC日兴证券 (SMBC日興証券)",
+            "org_id": "JP-FIN-008",
+            "position": "执行役员 金融市场本部长 兼 调查共同本部长(金融经济调查部担当)"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000552.json",
+          "pointer": "work_experience[4].org_id",
+          "owner": "增田进",
+          "entry": {
+            "start_date": "2022-05",
+            "end_date": "2024-03",
+            "organization": "SMBC日兴证券 (SMBC日興証券)",
+            "org_id": "JP-FIN-008",
+            "position": "执行役员 全球市场企划担当・全球市场统括代行;兼三井住友金融集团执行役员 市场事业部事业部长补佐"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000552.json",
+          "pointer": "work_experience[5].org_id",
+          "owner": "增田进",
+          "entry": {
+            "start_date": "2024-04",
+            "end_date": "2025-03",
+            "organization": "SMBC日兴证券 (SMBC日興証券)",
+            "org_id": "JP-FIN-008",
+            "position": "常务执行役员 全球市场企划担当;兼三井住友金融集团执行役员 市场事业部事业部长补佐"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000552.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "增田进",
+          "entry": {
+            "start_date": "2025-04",
+            "end_date": "2025-09",
+            "organization": "SMBC日兴证券 (SMBC日興証券)",
+            "org_id": "JP-FIN-008",
+            "position": "顾问"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 63,
+      "decision": "分配",
+      "canonical_name": "中道改革連合",
+      "entity_country": "JP",
+      "category": "PARTY",
+      "reason": "源明确2026年成立的新政党，不是自民党；可建立历史/现存政党身份，具体存续状态与2026年后续变动另核，不用现任职标签覆盖早期任职。",
+      "external_sources": [
+        "https://cdp-japan.jp/about/activity_plan_fy2026"
+      ],
+      "proposed_id": "JP-PARTY-010",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-032.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "众议院",
+          "entry": {
+            "org_id": "JP-PARTY-001",
+            "org_name": "中道改革联合 (中道改革連合)",
+            "org_type": "PARTY",
+            "org_description": "由立宪民主党与公明党等中道在野党组成的议会联盟，在众议院占有48席，为最大在野势力",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-PARTY-002.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "立宪民主党",
+          "entry": {
+            "org_name": "中道改革连合（中道改革連合）",
+            "org_id": "JP-PARTY-001",
+            "relationship_type": "successor",
+            "org_description": "2026年1月由立宪民主党众议院议员和公明党联合组建的新政党，在2026年2月众议院选举中获得49席"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-PARTY-003.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "公明党",
+          "entry": {
+            "org_id": "JP-PARTY-001",
+            "org_name": "中道改革连合（中道改革連合）",
+            "org_type": "PARTY",
+            "relationship_type": "successor",
+            "org_description": "2026年1月由公明党与立宪民主党在众议院合并组建的新政党，理念为'尊重生命、生活、生存的人间主义'。在2026年2月众院选中仅获49席，遭遇惨败。在参议院和地方选举中未合并，公明党仍以原名活动。"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000051.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "野田佳彦",
+          "entry": {
+            "start_date": "2026-01",
+            "end_date": "2026-02",
+            "organization": "中道改革联合 (中道改革連合)",
+            "org_id": "JP-PARTY-001",
+            "position": "共同代表（初代）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000051.json",
+          "pointer": "work_experience[13].org_id",
+          "owner": "野田佳彦",
+          "entry": {
+            "start_date": "2026-02",
+            "end_date": null,
+            "organization": "中道改革联合 (中道改革連合)",
+            "org_id": "JP-PARTY-001",
+            "position": "顾问"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000054.json",
+          "pointer": "work_experience[13].org_id",
+          "owner": "齐藤铁夫",
+          "entry": {
+            "start_date": "2026-01-22",
+            "end_date": "2026-02-13",
+            "organization": "中道改革联合（中道改革連合）",
+            "org_id": "JP-PARTY-001",
+            "position": "共同代表"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000054.json",
+          "pointer": "work_experience[14].org_id",
+          "owner": "齐藤铁夫",
+          "entry": {
+            "start_date": "2026-02",
+            "end_date": null,
+            "organization": "中道改革联合（中道改革連合）",
+            "org_id": "JP-PARTY-001",
+            "position": "顾问"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000495.json",
+          "pointer": "work_experience[9].org_id",
+          "owner": "石井启一",
+          "entry": {
+            "start_date": "2026-01-22",
+            "end_date": null,
+            "organization": "中道改革联合（中道改革連合）",
+            "org_id": "JP-PARTY-001",
+            "position": "众议院议员候选人（比例北关东ブロック，由公明党与立宪民主党联合组建的新党）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 64,
+      "decision": "分配",
+      "canonical_name": "National Institutes for Quantum Science and Technology / QST",
+      "entity_country": "JP",
+      "category": "ACAD",
+      "reason": "源为量子科学技术研究开发机构及其研究管理任职，不是名古屋大学；按核心科研职能ACAD建国立科研机构身份。",
+      "external_sources": [],
+      "proposed_id": "JP-ACAD-031",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-017.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "原子能规制委员会",
+          "entry": {
+            "org_id": "JP-ACAD-006",
+            "org_name": "量子科学技术研究开发机构 (量子科学技術研究開発機構)",
+            "org_type": "ACAD",
+            "org_description": "日本核能研究机构，运营茨城县核聚变实验装置，与NRA在核聚变安全规制讨论中合作",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000160.json",
+          "pointer": "work_experience[6].org_id",
+          "owner": "神田玲子",
+          "entry": {
+            "start_date": "2019-04",
+            "end_date": "2021-03",
+            "organization": "量子科学技术研究开发机构（量子科学技術研究開発機構）",
+            "org_id": "JP-ACAD-006",
+            "position": "量子医学・医疗部门高度被曝医疗中心副中心长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000160.json",
+          "pointer": "work_experience[7].org_id",
+          "owner": "神田玲子",
+          "entry": {
+            "start_date": "2021-04",
+            "end_date": "2023-03",
+            "organization": "量子科学技术研究开发机构（量子科学技術研究開発機構）",
+            "org_id": "JP-ACAD-006",
+            "position": "量子生命・医学部门放射线医学研究所副所长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000160.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "神田玲子",
+          "entry": {
+            "start_date": "2023-04",
+            "end_date": "2024-06",
+            "organization": "量子科学技术研究开发机构（量子科学技術研究開発機構）",
+            "org_id": "JP-ACAD-006",
+            "position": "放射线医学研究所所长"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000160.json",
+          "pointer": "work_experience[9].org_id",
+          "owner": "神田玲子",
+          "entry": {
+            "start_date": "2024-07",
+            "end_date": "2025-08",
+            "organization": "量子科学技术研究开发机构（量子科学技術研究開発機構）",
+            "org_id": "JP-ACAD-006",
+            "position": "理事"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000160.json",
+          "pointer": "work_experience[10].org_id",
+          "owner": "神田玲子",
+          "entry": {
+            "start_date": "2025-08",
+            "end_date": "2025-09-18",
+            "organization": "量子科学技术研究开发机构（量子科学技術研究開発機構）",
+            "org_id": "JP-ACAD-006",
+            "position": "执行役"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 65,
+      "decision": "分配",
+      "canonical_name": "Japan Society for the Promotion of Science / JSPS",
+      "entity_country": "JP",
+      "category": "GOV",
+      "reason": "官网定义科学资助机构，不是外务省；保留公共资助机构GOV口径，与直接从事研究的ACAD研究所区分。",
+      "external_sources": [
+        "https://www.jsps.go.jp/english/e-aboutus/index.html"
+      ],
+      "proposed_id": "JP-GOV-868",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-ACAD-004.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "東京工業大学",
+          "entry": {
+            "org_id": "JP-GOV-005",
+            "org_name": "日本学术振兴会 (JSPS / Japan Society for the Promotion of Science)",
+            "org_type": "GOV",
+            "org_description": "日本核心学术资助机构，为东京工业大学/科学东京的研究者提供科研经费和国际交流支持",
+            "relationship_type": "supplier"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-007.json",
+          "pointer": "related_entities[10].org_id",
+          "owner": "文部科学省",
+          "entry": {
+            "org_id": "JP-GOV-005",
+            "org_name": "日本学术振兴会（日本学術振興會/JSPS）",
+            "org_type": "GOV",
+            "org_description": "日本学术振兴核心机构，运营科研资助项目，受文科省主管",
+            "relationship_type": "regulated_by"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000001.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "藤井辉夫",
+          "entry": {
+            "start_date": "1991-04",
+            "end_date": "1993-03",
+            "organization": "日本学术振兴会（日本学術振興会/JSPS）",
+            "org_id": "JP-GOV-005",
+            "position": "特别研究员（DC2）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000009.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "名和丰春",
+          "entry": {
+            "start_date": "2007",
+            "end_date": null,
+            "organization": "日本学术振兴会（日本学術振興会）",
+            "org_id": "JP-GOV-005",
+            "position": "学术系统研究中心研究员"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000282.json",
+          "pointer": "work_experience[2].org_id",
+          "owner": "山中伸弥",
+          "entry": {
+            "start_date": "1996-01",
+            "end_date": "1996-09",
+            "organization": "日本学术振兴会（日本学術振興会）",
+            "org_id": "JP-GOV-005",
+            "position": "特别研究员（PD）"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000288.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "大隅典子",
+          "entry": {
+            "start_date": "2025-10",
+            "end_date": null,
+            "organization": "日本学术振兴会（日本学術振興会）",
+            "org_id": "JP-GOV-005",
+            "position": "理事"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 66,
+      "decision": "分配",
+      "canonical_name": "National Institute of Advanced Industrial Science and Technology / AIST",
+      "entity_country": "JP",
+      "category": "ACAD",
+      "reason": "源为产总研科研法人及研究中心任职，不是大阪大学；核心科研职能用ACAD，政府主管关系不意味着它与主管省是同一主体。",
+      "external_sources": [],
+      "proposed_id": "JP-ACAD-028",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-010.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "經濟產業省",
+          "entry": {
+            "org_id": "JP-ACAD-003",
+            "org_name": "产业技术综合研究所 (産業技術総合研究所 / AIST)",
+            "org_type": "ACAD",
+            "org_description": "经济产业省所管国立研究开发法人，日本最大的公共研究机构之一",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-SOE-004.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "新能源产业技术综合开发机构",
+          "entry": {
+            "org_id": "JP-ACAD-003",
+            "org_name": "产业技术综合研究所(産業技術総合研究所/AIST)",
+            "org_type": "academic",
+            "org_description": "日本最大的公共研究机构之一，在新能源、材料和信息技术领域与NEDO开展广泛的联合研发合作，是NEDO多个绿色创新基金和氢能项目的重要研究伙伴",
+            "relationship_type": "strategic_alliance"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000004.json",
+          "pointer": "work_experience[9].org_id",
+          "owner": "益一哉",
+          "entry": {
+            "start_date": "2024-10",
+            "end_date": null,
+            "organization": "产业技术综合研究所（産業技術総合研究所）",
+            "org_id": "JP-ACAD-003",
+            "position": "量子・AI融合技术商务开发全球研究中心（G-QuAT）中心长"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 67,
+      "decision": "改类别后分配",
+      "canonical_name": "RIKEN / 理化学研究所",
+      "entity_country": "JP",
+      "category": "ACAD",
+      "reason": "官方明确国家综合研究机构。应按与AIST、QST一致的科研机构口径使用ACAD，而不是复制旧冲突ID类别GOV；历史机构沿革可写画像中，不与内阁府合并。",
+      "external_sources": [
+        "https://www.riken.jp/en/about/"
+      ],
+      "proposed_id": "JP-GOV-865",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-ACAD-003.json",
+          "pointer": "related_entities[4].org_id",
+          "owner": "大阪大学",
+          "entry": {
+            "org_id": "JP-GOV-002",
+            "org_name": "理化学研究所（理化学研究所）",
+            "org_type": "ACAD",
+            "org_description": "日本最大综合研究机构，与大阪大学设有科学技术融合研究中心",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-007.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "文部科学省",
+          "entry": {
+            "org_id": "JP-GOV-002",
+            "org_name": "理化学研究所（理化学研究所）",
+            "org_type": "GOV",
+            "org_description": "日本最大级国立研究开发法人，从事自然科学综合研究，受文科省主管",
+            "relationship_type": "regulated_by"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000001.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "藤井辉夫",
+          "entry": {
+            "start_date": "1995-04",
+            "end_date": "1999-03",
+            "organization": "理化学研究所",
+            "org_id": "JP-GOV-002",
+            "position": "基础科学特别研究员、研究生"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 68,
+      "decision": "分配",
+      "canonical_name": "Japan Science and Technology Agency / JST",
+      "entity_country": "JP",
+      "category": "GOV",
+      "reason": "源为科技振兴与资助机构，不是法务省；保留公共政策/资助执行机构GOV口径，不能仅因科学技术字样归为大学或具体实验室。",
+      "external_sources": [
+        "https://www.jst.go.jp/kisoken/evaluation/kokusai/kokusai_vol5/houkoku_jp_en.pdf"
+      ],
+      "proposed_id": "JP-GOV-867",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-007.json",
+          "pointer": "related_entities[9].org_id",
+          "owner": "文部科学省",
+          "entry": {
+            "org_id": "JP-GOV-004",
+            "org_name": "科学技术振兴机构（科学技術振興機構/JST）",
+            "org_type": "GOV",
+            "org_description": "日本核心科技振兴机构，负责研究成果产业化与科技人才育成，受文科省主管",
+            "relationship_type": "regulated_by"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000003.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "西尾章治郎",
+          "entry": {
+            "start_date": "2010-05",
+            "end_date": "2015-07",
+            "organization": "科学技术振兴机构（科学技術振興機構）",
+            "org_id": "JP-GOV-004",
+            "position": "研究主监"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000101.json",
+          "pointer": "work_experience[18].org_id",
+          "owner": "柿田恭良",
+          "entry": {
+            "start_date": "2021-01",
+            "end_date": "2021-09",
+            "organization": "科学技术振兴机构（科学技術振興機構/JST）",
+            "org_id": "JP-GOV-004",
+            "position": "副理事长"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 69,
+      "decision": "挂起",
+      "canonical_name": "Japan Investment Corporation / JIC 与 INCJ（须区分）",
+      "entity_country": "JP",
+      "category": "FIN（拟议；政府基金与SOE规则需统一）",
+      "reason": "中文产业革新投资机构/日文産業革新投資機構及横尾敬介任职指JIC，缩写却混入INCJ；2018年改组后两者不是可随意互换的名称。先按每处源文确认实体，再定FIN/SOE分类，不仅把GOV换FIN就执行。",
+      "external_sources": [
+        "https://www.j-ic.co.jp/en/news/20260423-jic-pressrelease-en",
+        "https://www.incj.co.jp/newsroom/INCJ_20181211.pdf"
+      ],
+      "proposed_id": "JP-GOV-878",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-CORP-019.json",
+          "pointer": "related_entities[10].org_id",
+          "owner": "东京电力控股",
+          "entry": {
+            "org_id": "JP-GOV-016",
+            "org_name": "产业革新投资机构（INCJ/JIC）",
+            "org_type": "GOV",
+            "org_description": "官民基金，其现任社长横尾敬介被提名为东京电力下任会长。",
+            "relationship_type": "strategic_alliance"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-010.json",
+          "pointer": "related_entities[10].org_id",
+          "owner": "經濟產業省",
+          "entry": {
+            "org_id": "JP-GOV-016",
+            "org_name": "产业革新投资机构 (産業革新投資機構 / INCJ)",
+            "org_type": "GOV",
+            "org_description": "经济产业省所管认可法人（公私合资基金），投资半导体、通信等战略产业",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000351.json",
+          "pointer": "work_experience[8].org_id",
+          "owner": "横尾敬介",
+          "entry": {
+            "start_date": "2019-12-10",
+            "end_date": "2026-06",
+            "organization": "产业革新投资机构 (産業革新投資機構, JIC)",
+            "org_id": "JP-GOV-016",
+            "position": "代表取缔役社长CEO"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 70,
+      "decision": "分配",
+      "canonical_name": "独立行政法人情報処理推進機構 / IPA",
+      "entity_country": "JP",
+      "category": "GOV",
+      "reason": "日本IT政策执行机构，与阿尔及利亚Pasteur Institute无关。拒绝原review_cross_country合并目标，允许建立独立日本GOV身份；原建议新ID为空，必须用修正后的分配器另生成。2026年英文品牌变更不改变日文法人名称。",
+      "external_sources": [
+        "https://www.ipa.go.jp/about/disclosure/teikyo/soshiki.html",
+        "https://www.ipa.go.jp/pressrelease/2026/press20260605-2.html"
+      ],
+      "proposed_id": "",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-010.json",
+          "pointer": "related_entities[8].org_id",
+          "owner": "經濟產業省",
+          "entry": {
+            "org_id": "JP-GOV-014",
+            "org_name": "信息处理推进机构 (情報処理推進機構 / IPA)",
+            "org_type": "GOV",
+            "org_description": "经济产业省所管独立行政法人，负责信息技术人才培养、信息安全、软件开发等推进工作",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000190.json",
+          "pointer": "work_experience[9].org_id",
+          "owner": "三角育生",
+          "entry": {
+            "start_date": "2005-06",
+            "end_date": "2007-06",
+            "organization": "信息处理推进机构（情報処理推進機構 / IPA）",
+            "org_id": "JP-GOV-014",
+            "position": "安全中心所长"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 71,
+      "decision": "分配",
+      "canonical_name": "Tokyo Medical and Dental University / TMDU（历史大学）",
+      "entity_country": "JP",
+      "category": "ACAD",
+      "reason": "2024年10月与东京工业大学合并成立Science Tokyo；可为此前TMDU任职建立历史ACAD身份，不能合并到防卫大学校，也不把历史主体直接抹成继任大学。",
+      "external_sources": [
+        "https://www.isct.ac.jp/en/news/kk3b39ld4qtx"
+      ],
+      "proposed_id": "JP-ACAD-034",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-ACAD-004.json",
+          "pointer": "related_entities[3].org_id",
+          "owner": "東京工業大学",
+          "entry": {
+            "org_id": "JP-ACAD-009",
+            "org_name": "东京医科齿科大学 (東京医科歯科大学 / TMDU)",
+            "org_type": "ACAD",
+            "org_description": "日本顶尖医学与齿学大学，2024年10月与东京工业大学合并成立东京科学大学，现为东京科学大学医学齿学部门",
+            "relationship_type": "predecessor"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000285.json",
+          "pointer": "work_experience[0].org_id",
+          "owner": "田中祐二郎",
+          "entry": {
+            "start_date": null,
+            "end_date": "2024-09",
+            "organization": "东京医科齿科大学 (東京医科歯科大学)",
+            "org_id": "JP-ACAD-009",
+            "position": "学长（口腔外科学教授出身）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 72,
+      "decision": "分配",
+      "canonical_name": "Daihatsu Motor / 大发工业",
+      "entity_country": "JP",
+      "category": "CORP",
+      "reason": "丰田的子公司和董事任职明确指大发，不是丰田母公司；独立CORP身份适当。",
+      "external_sources": [],
+      "proposed_id": "JP-CORP-185",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-CORP-001.json",
+          "pointer": "related_entities[1].org_id",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-001",
+            "org_name": "大发工业（ダイハツ工業）",
+            "org_type": "CORP",
+            "org_description": "日本小型车和轻型车专业制造商，丰田全资子公司，负责660cc轻型车和小型车开发",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000012.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "佐藤恒治",
+          "entry": {
+            "start_date": "2021-06",
+            "end_date": "2023-03",
+            "organization": "大发工业 (ダイハツ工業)",
+            "org_id": "JP-CORP-001",
+            "position": "董事"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 73,
+      "decision": "分配",
+      "canonical_name": "Woven by Toyota",
+      "entity_country": "JP",
+      "category": "CORP",
+      "reason": "明确丰田旗下软件公司，不是NTT或丰田母体；可以独立CORP，2021年任职与后续更名日期须另核沿革。",
+      "external_sources": [],
+      "proposed_id": "JP-CORP-191",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-CORP-001.json",
+          "pointer": "related_entities[7].org_id",
+          "owner": "丰田汽车",
+          "entry": {
+            "org_id": "JP-CORP-007",
+            "org_name": "Woven by Toyota（ウーブン・バイ・トヨタ）",
+            "org_type": "CORP",
+            "org_description": "丰田集团旗下软件与移动出行技术公司，2023年成立，负责自动驾驶、互联技术和出行服务开发",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000014.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "丰田章男",
+          "entry": {
+            "start_date": "2021-01",
+            "end_date": null,
+            "organization": "Woven by Toyota (Woven by Toyota)",
+            "org_id": "JP-CORP-007",
+            "position": "董事"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 74,
+      "decision": "分配",
+      "canonical_name": "Sony Honda Mobility",
+      "entity_country": "JP",
+      "category": "CORP",
+      "reason": "索尼与本田合资公司，独立于Fast Retailing或Honda母体，可建立独立CORP；两条业务计划状态彼此不一致，需另核，不影响主体分离。",
+      "external_sources": [],
+      "proposed_id": "JP-CORP-202",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-CORP-002.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "索尼集团",
+          "entry": {
+            "org_id": "JP-CORP-018",
+            "org_name": "索尼本田移动出行（ソニー・ホンダ・モビリティ / Sony Honda Mobility）",
+            "org_type": "CORP",
+            "org_description": "索尼与本田技研工业各出资50%成立的合资企业，曾开发AFEELA品牌电动车项目。2026年3月宣布终止电动车开发计划，正在重新评估业务方向。",
+            "relationship_type": "strategic_alliance"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-CORP-009.json",
+          "pointer": "related_entities[0].org_id",
+          "owner": "本田技研工业",
+          "entry": {
+            "org_id": "JP-CORP-018",
+            "org_name": "索尼本田移动出行（ソニー・ホンダ・モビリティ / Sony Honda Mobility）",
+            "org_type": "CORP",
+            "org_description": "本田与索尼集团于2022年10月共同出资成立的EV合资企业，双方各持股50%。计划以Afeela品牌于2026年在美国市场推出首款EV。",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 75,
+      "decision": "分配",
+      "canonical_name": "Japan Aerospace Exploration Agency / JAXA",
+      "entity_country": "JP",
+      "category": "GOV",
+      "reason": "源为日本国家航天机构，不能指总务省；保留国家航天机构GOV口径，所属研究所另用组织/部门关系区分。",
+      "external_sources": [],
+      "proposed_id": "JP-GOV-866",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-ACAD-005.json",
+          "pointer": "related_entities[6].org_id",
+          "owner": "东北大学",
+          "entry": {
+            "org_id": "JP-GOV-003",
+            "org_name": "宇宙航空研究开发机构(宇宙航空研究開発機構/JAXA)",
+            "org_type": "GOV",
+            "org_description": "日本太空开发机构，与东北大学签有研究合作协议",
+            "relationship_type": "partner"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-007.json",
+          "pointer": "related_entities[8].org_id",
+          "owner": "文部科学省",
+          "entry": {
+            "org_id": "JP-GOV-003",
+            "org_name": "宇宙航空研究开发机构（宇宙航空研究開発機構/JAXA）",
+            "org_type": "GOV",
+            "org_description": "日本宇宙航空领域核心研究开发机构，受文科省主管",
+            "relationship_type": "regulated_by"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 76,
+      "decision": "分配",
+      "canonical_name": "Urban Renaissance Agency / UR都市機構",
+      "entity_country": "JP",
+      "category": "GOV",
+      "reason": "源明确城市再生与住宅供应独立行政法人，不是会计检查院，GOV公共执行机构口径可用。",
+      "external_sources": [],
+      "proposed_id": "JP-GOV-882",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-011.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "国土交通省",
+          "entry": {
+            "org_id": "JP-GOV-020",
+            "org_name": "都市再生机构 (UR都市機構)",
+            "org_type": "GOV",
+            "org_description": "负责城市再生和住宅供应的独立行政法人",
+            "relationship_type": "regulator"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000184.json",
+          "pointer": "work_experience[3].org_id",
+          "owner": "天河宏文",
+          "entry": {
+            "start_date": "2015-07",
+            "end_date": "2018-07",
+            "organization": "都市再生机构（独立行政法人都市再生機構）",
+            "org_id": "JP-GOV-020",
+            "position": "理事"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 77,
+      "decision": "分配",
+      "canonical_name": "Japan International Broadcasting / 日本国際放送",
+      "entity_country": "JP",
+      "category": "MEDIA",
+      "reason": "源明确NHK持股的独立广播运营公司及其董事任职，不是NHK母体本身；应独立MEDIA并保留股权关系。",
+      "external_sources": [],
+      "proposed_id": "JP-MEDIA-022",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-MEDIA-001.json",
+          "pointer": "related_entities[2].org_id",
+          "owner": "日本广播协会",
+          "entry": {
+            "org_id": "JP-MEDIA-001",
+            "org_name": "日本国际广播 (日本国際放送)",
+            "org_type": "MEDIA",
+            "org_description": "NHK持股64.1%的国际广播运营公司，整合NHK及民间广播机构的资源向全球传播日本节目",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000175.json",
+          "pointer": "work_experience[12].org_id",
+          "owner": "田中淳子",
+          "entry": {
+            "start_date": "2022-06-29",
+            "end_date": "2024-07",
+            "organization": "日本国际广播公司（日本国際放送）",
+            "org_id": "JP-MEDIA-001",
+            "position": "董事（非常勤）"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 78,
+      "decision": "分配",
+      "canonical_name": "Japan Federation of Bar Associations / 日本弁護士連合会",
+      "entity_country": "JP",
+      "category": "NGO",
+      "reason": "全国律师职业自治组织，不是World Vision Japan；NGO现有大类可用，标专业团体，不能因法定入会义务直接当政府机关。",
+      "external_sources": [],
+      "proposed_id": "JP-NGO-037",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-034.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "最高裁判所",
+          "entry": {
+            "org_id": "JP-NGO-004",
+            "org_name": "日本律师联合会 (日本弁護士連合会)",
+            "org_type": "NGO",
+            "org_description": "日本律师的强制加入型职业组织，在司法制度改革中与最高裁判所保持协作关系",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        },
+        {
+          "file": "output\\jp\\2026-06-09\\persons\\JP-PERSON-000052.json",
+          "pointer": "work_experience[1].org_id",
+          "owner": "山口那津男",
+          "entry": {
+            "start_date": "1988-03",
+            "end_date": null,
+            "organization": "日本律师联合会（日本弁護士連合会）",
+            "org_id": "JP-NGO-004",
+            "position": "调查室嘱托"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 79,
+      "decision": "分配",
+      "canonical_name": "National Agriculture and Food Research Organization / NARO（日本）",
+      "entity_country": "JP",
+      "category": "ACAD",
+      "reason": "日本官网确认名称与缩写，不能因英文近名并到乌干达National Agricultural Research Organisation。拒绝原跨国合并目标；保持ACAD，原新ID为空，须另生成有效日本编号。",
+      "external_sources": [
+        "https://www.naro.go.jp/introduction/profile.html",
+        "https://www.naro.go.jp/english/"
+      ],
+      "proposed_id": "",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-GOV-009.json",
+          "pointer": "related_entities[5].org_id",
+          "owner": "农林水产省",
+          "entry": {
+            "org_id": "JP-ACAD-002",
+            "org_name": "农业・食品产业技术综合研究机构 (農研機構/NARO)",
+            "org_type": "ACAD",
+            "org_description": "农林水产省主管的独立行政法人，负责农业食品领域核心研发",
+            "relationship_type": "affiliated"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    },
+    {
+      "review_row": 80,
+      "decision": "分配",
+      "canonical_name": "NLI Research Institute / ニッセイ基礎研究所",
+      "entity_country": "JP",
+      "category": "ACAD",
+      "reason": "源明确日本生命旗下经济保险研究机构，不是东京大学；按研究机构ACAD口径可建独立身份。企业所有制与科研类别分别记录，不把子机构直接合并到日本生命。",
+      "external_sources": [],
+      "proposed_id": "JP-ACAD-027",
+      "proposed_id_prior_registry_entries": [],
+      "references": [
+        {
+          "file": "output\\jp\\2026-06-09\\orgs\\JP-FIN-009.json",
+          "pointer": "related_entities[8].org_id",
+          "owner": "日本生命保险",
+          "entry": {
+            "org_id": "JP-ACAD-001",
+            "org_name": "尼赛基础研究所 (ニッセイ基礎研究所)",
+            "org_type": "ACAD",
+            "org_description": "日本生命旗下的经济与保险研究机构，提供经济预测和行业分析",
+            "relationship_type": "subsidiary"
+          },
+          "matches_shadow_heuristic": true
+        }
+      ]
+    }
+  ]
+}

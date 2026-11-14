@@ -3,7 +3,6 @@
   "wikidata_qid": "Q20297",
   "name": "李宗仁",
   "name_en": "Li Tsung-jen",
-  "name_local": "李宗仁",
   "name_zh": "李宗仁",
   "aliases": [],
   "nationality": "TW",
@@ -26,20 +25,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Li_Zongren4.jpg/250px-Li_Zongren4.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000013.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Li%20Zongren4.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000013.jpg"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Vice President of the Republic of China",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q20297"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q20297"
+      }
+    ]
   }
 }

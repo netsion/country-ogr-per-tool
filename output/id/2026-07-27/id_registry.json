@@ -625,6 +625,14 @@
       "name": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
       "org_type": "GOV",
       "status": "auto_registered"
+    },
+    {
+      "org_id": "ID-FIN-009",
+      "name": "OCBC NISP (PT Bank OCBC NISP Tbk",
+      "status": "auto_registered",
+      "source": "A2 v5 dedupe from SG-CORP-006",
+      "notes": "独立身份，由 SG-CORP-006 的影子身份拆分（826 seq 325）",
+      "org_type": "FIN"
     }
   ],
   "counters": {
@@ -3531,15 +3539,6 @@
       ]
     },
     {
-      "person_id": "ID-PERSON-000018",
-      "name": "安东尼·萨利姆 (Anthoni Salim)",
-      "wikidata_qid": null,
-      "status": "listed",
-      "source_orgs": [
-        "ID-CORP-022"
-      ]
-    },
-    {
       "person_id": "ID-PERSON-000544",
       "name": "弗朗西库斯·维里朗 (Franciscus Welirang)",
       "wikidata_qid": null,
@@ -6402,5 +6401,17 @@
   },
   "orgs_count": 104,
   "persons_count": 761,
-  "country": "ID"
+  "country": "ID",
+  "deprecated_person_registry": [
+    {
+      "person_id": "ID-PERSON-000018",
+      "name": "安东尼·萨利姆 (Anthoni Salim)",
+      "wikidata_qid": null,
+      "status": "collision_split",
+      "source_orgs": [
+        "ID-CORP-022"
+      ],
+      "deprecated_reason": "P3 registry collision cleanup: shadow identity split from collision ID"
+    }
+  ]
 }

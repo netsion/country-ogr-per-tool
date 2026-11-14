@@ -1,0 +1,54 @@
+{
+  "task": "P3 语言字段补齐 (lang_p3 queue)",
+  "date": "2026-11-13",
+  "total": 331,
+  "done": 311,
+  "skipped": 20,
+  "by_task": {
+    "name_zh": {
+      "total": 227,
+      "done": 208,
+      "skipped": 19,
+      "sources": "优先取档案 biography_summary 中已有的通行中文译名（可全文检索核验），缺者按新华社通译规范转写（西语/阿塞拜疆语/马来语/印地-泰米尔语/泰语等）；马来人名采马来西亚华文媒体通行写法（莫哈末/阿末/本等）。"
+    },
+    "hangul": {
+      "total": 97,
+      "done": 96,
+      "skipped": 1,
+      "rule_applied": "name 改为韩文姓名；原中文并入/保留于 name_zh，罗马字保留于 name_en，原 name 值追加至 aliases（不重复）。韩文写法优先采用档案 aliases 中已有的韩文形式，无者按汉字韩文音推导（김창년、장지화、이경민、김장겸、조승환、강경숙等）。"
+    },
+    "native_name_fix": {
+      "total": 7,
+      "done": 7,
+      "skipped": 0,
+      "note": "7条均为东亚人（日本人：明珍徹/神田真人/近藤勝則/岩沢雄司；中国人：万志腾/赵祥/沈娜）登记在非本国数据集，name 本已是其母语书写（日文汉字/中文），name_en、name_zh 均已存在，核对后无需改动（no-op）。"
+    }
+  },
+  "skipped_items": {
+    "BN-PERSON-000027": "name_zh | 文莱华裔公务员 Chin Wei Keh（闽南语罗马字），bio明示未检索到华文媒体标准译名，汉字用字无法核实",
+    "BN-PERSON-000062": "name_zh | 中方高管 Wei Jinfeng，bio明示中文姓名用字未能经可靠来源核实（数据集标准不作音译猜测）",
+    "BN-PERSON-000075": "name_zh | 日本人 Takayuki Manabe，日文汉字写法（真鍋/隆之等）无可靠来源，保守跳过",
+    "BN-PERSON-000093": "name_zh | 文莱华裔 Cheong Chee Keong（闽南语罗马字），汉字用字无法核实",
+    "HK-PERSON-001241": "name_zh | 香港投资人 Irene Liu，无已核实的中文本名（刘/廖/柳不可判定）",
+    "PH-PERSON-000899": "name_zh | 韩裔澳外交官 Hae Kyong \"HK\" Yu，韩文名对应汉字无可靠来源，bio明示暂无可靠中文译名",
+    "MY-PERSON-000544": "name_zh | 马来西亚华人 Stephanie Wong Pui Tse，粤语罗马字对应汉字无法核实",
+    "SG-PERSON-000099": "name_zh | 新加坡华人 Frederick Chew，中文姓名用字无法核实",
+    "SG-PERSON-000146": "name_zh | 新加坡华人 Bryan Yeo，中文姓名用字无法核实",
+    "SG-PERSON-000160": "name_zh | 新加坡华人 Emily Tan，仅英文教名，中文姓名无法核实",
+    "SG-PERSON-000184": "name_zh | Grab CFO Peter Oey，闽南语姓氏（黄）但全名汉字无法核实",
+    "SG-PERSON-000210": "name_zh | 新加坡华人 Vincent Lim Yong Seng，中文姓名用字无法核实",
+    "SG-PERSON-000213": "name_zh | 新加坡华人 David Chong，中文姓名用字无法核实",
+    "SG-PERSON-000215": "name_zh | 新加坡华人 Jaryll Chan，仅英文教名，中文姓名无法核实",
+    "SG-PERSON-000222": "name_zh | 新加坡外交官 Ng Shin Ein，中文姓名用字无法核实",
+    "SG-PERSON-000369": "name_zh | 新加坡华人 Bryan Choo，中文姓名用字无法核实",
+    "SG-PERSON-000370": "name_zh | 新加坡华人 Jonathan Seto，中文姓名用字无法核实",
+    "SG-PERSON-000371": "name_zh | 新加坡华人 Sky Lim，仅英文教名，中文姓名无法核实",
+    "SG-PERSON-000384": "name_zh | 新加坡华人 Sean Francis Han，中文姓名用字无法核实",
+    "KR-PERSON-000047": "hangul | Howard Lutnick 为美国人（美国商务部长），非韩国人，不适用韩文姓名改写；name 保持 Howard Lutnick"
+  },
+  "notes": [
+    "所有文件以 UTF-8 JSON 写回，保留原有字段、结构与缩进（含 BOM/CRLF/末尾换行的原样保留）。",
+    "统一规则执行：task=hangul 改 name 为韩文后，name_zh/name_en 均非空，原 name 值追加至 aliases。",
+    "SG/BN/HK 华人姓名（闽南语/粤语罗马字）在无可靠汉字来源时一律保守跳过，避免臆造用字。"
+  ]
+}

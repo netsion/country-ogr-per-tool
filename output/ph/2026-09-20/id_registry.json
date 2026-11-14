@@ -3369,12 +3369,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "PH-INTL-020",
-      "name": "世界卫生组织 (World Health Organization)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "PH-INTL-021",
       "name": "世界卫生组织驻菲律宾国别办事处 (WHO Philippines Country Office)",
       "org_type": "INTL",
@@ -14373,5 +14367,15 @@
   "person_counters": {
     "PH": 905,
     "PH-PERSON": 1085
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "PH-INTL-020",
+      "name": "世界卫生组织 (World Health Organization)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    }
+  ]
 }

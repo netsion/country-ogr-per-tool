@@ -3,7 +3,6 @@
   "wikidata_qid": "Q8295189",
   "name": "谭平山",
   "name_en": "Pingshan Tan",
-  "name_local": "谭平山",
   "name_zh": "谭平山",
   "aliases": [],
   "nationality": "TW",
@@ -17,15 +16,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-PARTY-013",
-      "org_name": "中國國民黨",
-      "title": "党员",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -34,20 +25,21 @@
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tan_Pingshan.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000165.jpg",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tan%20Pingshan.jpg?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000165.jpg"
   },
-  "importance_level": "medium",
-  "importance_reason": "派生自职位: member of the National Political Assembly",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4c_sparql",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q8295189"
+      "wikidata"
     ],
     "completeness_score": 45,
-    "notes": "via SPARQL",
-    "quotes": []
+    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q8295189"
+      }
+    ]
   }
 }

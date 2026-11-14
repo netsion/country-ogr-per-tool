@@ -625,12 +625,6 @@
       "status": "auto_registered"
     },
     {
-      "org_id": "LB-INTL-004",
-      "name": "世界卫生组织(منظمة الصحة العالمية)",
-      "org_type": "INTL",
-      "status": "auto_registered"
-    },
-    {
       "org_id": "LB-NGO-003",
       "name": "黎巴嫩红十字会(الصليب الأحمر اللبناني)",
       "org_type": "NGO",
@@ -802,12 +796,6 @@
       "org_id": "LB-MIL-010",
       "name": "巴勒斯坦各派别(الفصائل الفلسطينية في لبنان)",
       "org_type": "MIL",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "LB-INTL-008",
-      "name": "联合国开发计划署(UNDP/برنامج الأمم المتحدة الإنمائي)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -1235,7 +1223,8 @@
       "org_id": "LB-MEDIA-041",
       "name": "《消息报》(جريدة الأنباء / Al Anbaa)",
       "org_type": "MEDIA",
-      "status": "auto_registered"
+      "status": "profiled",
+      "wikidata_qid": "Q108907305"
     },
     {
       "org_id": "LB-MIL-015",
@@ -4253,5 +4242,23 @@
     "LB-PERSON": 251,
     "registered": 288
   },
-  "country": "LB"
+  "country": "LB",
+  "deprecated_registry": [
+    {
+      "org_id": "LB-INTL-004",
+      "name": "世界卫生组织(منظمة الصحة العالمية)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    },
+    {
+      "org_id": "LB-INTL-008",
+      "name": "联合国开发计划署(UNDP/برنامج الأمم المتحدة الإنمائي)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-024",
+      "deprecated_reason": "global UNDP normalization"
+    }
+  ]
 }

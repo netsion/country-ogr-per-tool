@@ -389,7 +389,7 @@
     },
     {
       "org_id": "MA-SOE-004",
-      "name": "None (Phosboucraa)",
+      "name": "Phosboucraa",
       "org_type": "SOE",
       "org_subtype": null,
       "wikidata_qid": "Q128051781",
@@ -533,7 +533,7 @@
     },
     {
       "org_id": "MA-CORP-009",
-      "name": "None (Taqa Morocco)",
+      "name": "Taqa Morocco",
       "org_type": "CORP",
       "org_subtype": null,
       "wikidata_qid": "Q119439768",
@@ -1195,12 +1195,6 @@
       "org_id": "MA-ACAD-024",
       "name": "国立公共卫生学院 (École Nationale de Santé Publique, ENSP)",
       "org_type": "ACAD",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "MA-INTL-004",
-      "name": "世界卫生组织 (Organisation Mondiale de la Santé, OMS)",
-      "org_type": "INTL",
       "status": "auto_registered"
     },
     {
@@ -2047,7 +2041,8 @@
       "org_id": "MA-FIN-022",
       "name": "瓦法银行 (Wafabank)",
       "org_type": "FIN",
-      "status": "auto_registered"
+      "status": "profiled",
+      "wikidata_qid": "Q12199351"
     },
     {
       "org_id": "MA-CORP-078",
@@ -2491,7 +2486,7 @@
       "org_id": "MA-MEDIA-029",
       "name": "《新闻报》(Al Akhbar / الأخبار)",
       "org_type": "MEDIA",
-      "status": "auto_registered"
+      "status": "profiled"
     },
     {
       "org_id": "MA-MEDIA-030",
@@ -2833,23 +2828,11 @@
       "org_id": "MA-CORP-089",
       "name": "马达德集团 (Al Mada)",
       "org_type": "CORP",
-      "status": "auto_registered"
+      "status": "profiled"
     },
     {
       "org_id": "MA-CORP-090",
       "name": "马达德集团 (Al Mada，前SNI)",
-      "org_type": "CORP",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "MA-CORP-091",
-      "name": "Al Mada控股 (Al Mada)",
-      "org_type": "CORP",
-      "status": "auto_registered"
-    },
-    {
-      "org_id": "MA-CORP-092",
-      "name": "Al Mada控股 (Al Mada，前身为国家投资公司SNI)",
       "org_type": "CORP",
       "status": "auto_registered"
     }
@@ -7487,5 +7470,33 @@
   "person_counters": {
     "MA": 41,
     "MA-PERSON": 679
-  }
+  },
+  "deprecated_registry": [
+    {
+      "org_id": "MA-CORP-091",
+      "name": "Al Mada控股 (Al Mada)",
+      "org_type": "CORP",
+      "status": "merged",
+      "merged_into": "MA-CORP-089",
+      "notes": "；合并到 MA-CORP-089",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "org_id": "MA-CORP-092",
+      "name": "Al Mada控股 (Al Mada，前身为国家投资公司SNI)",
+      "org_type": "CORP",
+      "status": "merged",
+      "merged_into": "MA-CORP-089",
+      "notes": "；合并到 MA-CORP-089",
+      "deprecated_reason": "A2 merged registry entry"
+    },
+    {
+      "org_id": "MA-INTL-004",
+      "name": "世界卫生组织 (Organisation Mondiale de la Santé, OMS)",
+      "org_type": "INTL",
+      "status": "merged",
+      "merged_into": "US-INTL-005",
+      "deprecated_reason": "global WHO normalization"
+    }
+  ]
 }

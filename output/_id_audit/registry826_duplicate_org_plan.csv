@@ -1,0 +1,20 @@
+﻿组号,成员数,推荐主身份名称,国家,建议类别,处理方式,候选新ID,引用数,成员明细,理由
+1,2,驻英国大韩民国大使馆 (Embassy of the Republic of Korea in the UK),KR,GOV,create_single_identity,KR-GOV-1243,0,KR-GOV-168｜驻英国大韩民国大使馆（주영국 대한민국 대사관 | KR-GOV-376｜驻英国韩国大使馆（Embassy of the Republic of Korea in the UK,同一使馆的中/韩/英名称变体；保留单一外交机构身份
+2,2,驻美国大韩民国大使馆 (Embassy of the Republic of Korea in the USA),KR,GOV,create_single_identity,KR-GOV-1244,0,KR-GOV-370｜驻美国韩国大使馆（Embassy of the Republic of Korea in the USA | KR-GOV-509｜驻美国大韩民国大使馆,同一使馆的名称变体；保留单一外交机构身份
+3,2,丰树集团 (Mapletree Investments),SG,SOE,create_single_identity,SG-SOE-009,2,SG-SOE-001｜丰树集团 (Mapletree Investments | SG-SOE-002｜Mapletree Investments,淡马锡系新加坡国企；两个 collision 下的同一实体，1+1 条引用
+4,2,国会国土交通委员会 (국회 국토교통위원회),KR,GOV,create_single_identity,KR-GOV-1245,0,KR-GOV-078｜国会国土交通委员会（국회 국토교통위원회 | KR-GOV-129｜国会国土交通委员会（국토교통위원회,国会常设委员会，名称变体
+5,3,第20届总统职务交接委员会 (제20대 대통령직인수위원회),KR,GOV,create_single_identity,KR-GOV-1246,0,KR-GOV-098｜第20代总统职务交接委员会（제20대 대통령직인수위원회 | KR-GOV-130｜第20届总统职务交接委员会（제20대 대통령직인수위원회 | KR-GOV-193｜第20届大统领职引受委员会（대통령직인수위원회,同一历史过渡机构
+6,3,国民未来党 (국민의미래),KR,PARTY,create_single_identity,KR-PARTY-030,0,KR-GOV-107｜国民未来党（국민의미래 | KR-GOV-226｜国民的未来（국민의미래，国民力量党卫星党 | KR-GOV-276｜国民之未来党（국민의미래,政党，不应沿用 GOV 类别
+7,2,陆军第一野战军司令部 (제1야전군사령부),KR,MIL,create_single_identity,KR-MIL-028,0,KR-GOV-115｜第1野战军司令部（제1야전군사령부 | KR-GOV-258｜陆军第一野战军司令部（제1야전군사령부,军事指挥机构，应改 MIL
+8,2,新千年民主党 (새천년민주당),KR,PARTY,create_single_identity,KR-PARTY-031,0,KR-GOV-146｜新千年民主党（새천년민주당 | KR-GOV-467｜新千年民主党（Millennium Democratic Party,历史政党，应改 PARTY
+9,2,开放国民党 (열린우리당),KR,PARTY,create_single_identity,KR-PARTY-032,0,KR-GOV-147｜开放国民党（열린우리당 | KR-GOV-367｜开放我们党（열린우리당,历史政党，应改 PARTY
+10,2,司法研修院 (사법연수원),KR,GOV,create_single_identity,KR-GOV-1247,0,KR-GOV-149｜司法研修院 (사법연수원 | KR-GOV-385｜司法研修院（Judicial Research and Training Institute / 사법연수원,司法培训机构，保留 GOV
+11,2,首尔地方检察厅 (서울지방검찰청),KR,GOV,create_single_identity,KR-GOV-1248,0,KR-GOV-150｜首尔地方检察厅 (서울지방검찰청 | KR-GOV-387｜首尔地方检察厅（Seoul District Prosecutors' Office / 서울지방검찰청,检察机关，名称变体
+12,2,第17届总统职务交接委员会 (제17대 대통령직인수위원회),KR,GOV,create_single_identity,KR-GOV-1249,0,KR-GOV-179｜第17届总统职务交接委员会（제17대 대통령직인수위원회 | KR-GOV-215｜李明博总统当选人交接委员会,同一历史过渡机构
+13,2,首尔特别市政府 (서울특별시청),KR,GOV,create_single_identity,KR-GOV-1250,0,KR-GOV-180｜首尔特别市政府（서울특별시청 | KR-GOV-470｜首尔特别市政府（Seoul Metropolitan Government / 서울특별시,首尔市政府，名称变体
+14,2,世宗大学 (세종대학교),KR,ACAD,create_single_identity,KR-ACAD-037,0,KR-GOV-181｜世宗大学（세종대학교 | KR-GOV-500｜世宗大学（세종대학교 / Sejong University,大学，应改 ACAD
+15,2,首尔中央地方检察厅 (서울중앙지방검찰청),KR,GOV,create_single_identity,KR-GOV-1251,0,KR-GOV-195｜首尔中央地方检察厅（서울중앙지방검찰청 | KR-GOV-390｜首尔中央地方检察厅（Seoul Central District Prosecutors' Office / 서울중앙지방검찰청,检察机关，名称变体
+16,2,世界卫生组织 (WHO),KR,INTL,defer_global,,0,"KR-GOV-272｜世界卫生组织日内瓦总部（WHO 본부, 제네바 | KR-GOV-296｜世界卫生组织 (세계보건기구 WHO",全球组织；不应在 KR-GOV 下建号，先走全球主体归一
+17,2,"法务法人太平洋 (Bae, Kim & Lee LLC)",KR,CORP,create_single_identity,KR-CORP-107,0,"KR-GOV-379｜法务法人太平洋（Bae, Kim & Lee LLC | KR-GOV-457｜太平洋律师事务所",私营律师事务所，应改 CORP
+18,2,釜山地方检察厅 (부산지방검찰청),KR,GOV,create_single_identity,KR-GOV-1252,0,KR-GOV-388｜釜山地方检察厅（Busan District Prosecutors' Office / 부산지방검찰청 | KR-GOV-456｜釜山地方检察厅,检察机关，名称变体
+19,2,新政治国民会议 (새정치국민회의),KR,PARTY,create_single_identity,KR-PARTY-033,0,KR-GOV-421｜新政治国民会议（National Congress for New Politics / 새정치국민회의 | KR-GOV-466｜新政治国民会议（National Congress for New Politics,历史政党，应改 PARTY

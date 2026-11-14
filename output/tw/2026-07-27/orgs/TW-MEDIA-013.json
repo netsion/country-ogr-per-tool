@@ -1,26 +1,16 @@
 {
   "org_id": "TW-MEDIA-013",
   "wikidata_qid": "Q714427",
-  "name": "台北時報",
   "basic_info": {
-    "org_id": "TW-MEDIA-013",
-    "wikidata_qid": "Q714427",
     "name_en": "Taipei Times",
-    "name_local": "台北時報",
     "name_zh": "台北时报",
     "org_type": "MEDIA",
-    "country": "TW",
-    "founded_year": 1999,
     "website": "http://www.taipeitimes.com/",
-    "official_website": "http://www.taipeitimes.com/",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "臺北時報"
+    "name_original": "臺北時報",
+    "hq_country_iso3": "TWN",
+    "org_subtype": ""
   },
-  "description": "臺灣平面報紙媒體",
-  "brief": "臺灣平面報紙媒體",
   "core_business": "臺灣平面報紙媒體",
   "industries": [],
   "key_people": [],
@@ -66,17 +56,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q714427"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: Taipei Times (corrected)",
-    "quotes": []
+    "notes": "hint: Taipei Times (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q714427"
+      }
+    ]
   }
 }

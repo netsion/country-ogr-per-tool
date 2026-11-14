@@ -3,9 +3,10 @@
   "wikidata_qid": "Q700774",
   "name": "苏嘉全",
   "name_en": "Su Jia-chyuan",
-  "name_local": "蘇嘉全",
   "name_zh": "苏嘉全",
-  "aliases": [],
+  "aliases": [
+    "蘇嘉全"
+  ],
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1956-10-22",
@@ -22,29 +23,7 @@
   ],
   "education": [],
   "work_experience": [],
-  "person_relationships": [
-    {
-      "org_id": "TW-ACAD-020",
-      "org_name": "國立中山大學",
-      "title": "Affiliated (Wikidata)",
-      "relationship": "affiliated",
-      "source": "wikidata_p108_p463_p102"
-    },
-    {
-      "org_id": "TW-GOV-020",
-      "org_name": "Legislative Yuan",
-      "title": "Affiliated (name match)",
-      "relationship": "affiliated",
-      "source": "name_match"
-    },
-    {
-      "org_id": "TW-PARTY-012",
-      "org_name": "民主進步黨",
-      "title": "立法委员",
-      "relationship": "member",
-      "source": "name_match"
-    }
-  ],
+  "person_relationships": [],
   "family_members": [],
   "political_stances": [],
   "major_achievements": [],
@@ -74,20 +53,21 @@
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Su_Jia-chyuan_in_2016_LY_altered.png/250px-Su_Jia-chyuan_in_2016_LY_altered.png",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000019.png",
-    "photo_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Su%20Jia-chyuan%20in%202016%20LY%20altered.png?width=500",
-    "primary_source": "Wikidata",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000019.png"
   },
-  "importance_level": "high",
-  "importance_reason": "派生自职位: Member of the Legislative Yuan",
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P4_lite",
+    "phase": "phase4_person_profile",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q700774"
+      "wikidata"
     ],
     "completeness_score": 55,
-    "notes": "lite profile via name search",
-    "quotes": []
+    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q700774"
+      }
+    ]
   }
 }

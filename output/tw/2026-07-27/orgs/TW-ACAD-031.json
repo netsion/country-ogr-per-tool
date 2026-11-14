@@ -1,65 +1,19 @@
 {
   "org_id": "TW-ACAD-031",
   "wikidata_qid": "Q706712",
-  "name": "國立臺灣師範大學",
   "basic_info": {
-    "org_id": "TW-ACAD-031",
-    "wikidata_qid": "Q706712",
     "name_en": "National Taiwan Normal University",
-    "name_local": "國立臺灣師範大學",
     "name_zh": "国立台湾师范大学",
     "org_type": "ACAD",
-    "country": "TW",
-    "founded_year": 1946,
     "website": "http://www.ntnu.edu.tw",
-    "official_website": "http://www.ntnu.edu.tw",
-    "hq_location": null,
-    "parent_org": null,
-    "is_tw_verified": true,
     "country_iso3": "TWN",
-    "name_original": "國立臺灣師範大學"
+    "name_original": "國立臺灣師範大學",
+    "hq_country_iso3": "TWN",
+    "org_subtype": "university"
   },
-  "description": "臺灣第一所師範大學，也是國立臺灣大學系統成員校之一",
-  "brief": "臺灣第一所師範大學，也是國立臺灣大學系統成員校之一",
   "core_business": "臺灣第一所師範大學，也是國立臺灣大學系統成員校之一",
   "industries": [],
-  "key_people": [
-    {
-      "person_id": "TW-PERSON-000064",
-      "name": "李梅树",
-      "title": "附属",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "TW-PERSON-000129",
-      "name": "黄昆辉",
-      "title": "附属",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "TW-PERSON-000181",
-      "name": "溥心畬",
-      "title": "附属",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "TW-PERSON-000461",
-      "name": "马森",
-      "title": "附属",
-      "title_description": "",
-      "description": ""
-    },
-    {
-      "person_id": "TW-PERSON-000499",
-      "name": "张国恩",
-      "title": "附属",
-      "title_description": "",
-      "description": ""
-    }
-  ],
+  "key_people": [],
   "social_accounts": [
     {
       "platform": "instagram",
@@ -83,17 +37,19 @@
     }
   ],
   "apec_stance": "",
-  "notable_events": [],
-  "controversies": [],
-  "relationships": [],
   "collection_meta": {
     "collection_date": "2026-07-28",
-    "phase": "P3_lite_corrected",
+    "phase": "phase2_skeleton",
     "data_sources": [
-      "https://www.wikidata.org/wiki/Q706712"
+      "wikidata"
     ],
     "completeness_score": 70,
-    "notes": "hint: National Taiwan Normal University (corrected)",
-    "quotes": []
+    "notes": "hint: National Taiwan Normal University (corrected)；仅Schema规范化，旧phase=P3_lite_corrected；仍为未研究骨架，不代表深采完成。",
+    "quotes": [
+      {
+        "title": "历史来源链接（本次未重新读取）",
+        "url": "https://www.wikidata.org/wiki/Q706712"
+      }
+    ]
   }
 }
