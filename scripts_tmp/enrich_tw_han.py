@@ -1,0 +1,14 @@
+import json,pathlib,jsonschema
+p=pathlib.Path('output/tw/2026-07-27/persons/TW-PERSON-000011.json');x=json.loads(p.read_text(encoding='utf-8-sig'));s=json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8'));x={k:v for k,v in x.items() if k in s['properties']}
+x.update(name='韓國瑜',name_en='Kuo-Yu Han',name_zh='韩国瑜',aliases=['韩国瑜','Han Kuo-yu','Daniel Han'],birth_place='台湾台北县（今新北市）',current_positions=['立法院院长','第11届立法委员'],person_relationships=[])
+x['education']=[dict(institution='东吴大学（東吳大學）',degree='bachelor',field='英国语文学',start_date=None,end_date=None),dict(institution='政治大学（國立政治大學）',degree='master',field='东亚研究',start_date=None,end_date=None)]
+def w(a,b,o,t,i=None):return dict(start_date=a,end_date=b,organization=o,position=t,org_id=i)
+x['work_experience']=[w('1990','1993','台北县议会（臺北縣議會）','议员'),w('1993','2002','立法院','第2、3、4届立法委员','TW-GOV-020'),w('2013','2017','台北农产运销公司（臺北農產運銷股份有限公司）','总经理'),w('2018','2020','高雄市政府','市长'),w('2024-02-01',None,'立法院','第11届立法委员、院长','TW-GOV-020')]
+x['biography_summary']='韩国瑜，1957年出生于台湾台北县，中国国民党籍政治人物。官方履历列有东吴大学英国语文学系学士与政治大学东亚研究所法学硕士学位。他早期曾任台北县议员，1993年至2002年担任第2、3、4届立法委员，随后曾任台北农产运销公司总经理。2018年当选高雄市长，2020年参与台湾地区领导人选举但未当选，同年在高雄市长罢免案通过后离任。2024年以中国国民党不分区名单重返立法院，并于2月1日经第二轮投票当选立法院院长。其公开国会工作论述强调尊重不同党团和每位立法委员，关注民众需求与议事协商。本档现职仅保留立法院院长及第11届立法委员，旧档中高雄市长、企业总经理等历史职位已移入履历。英文姓名采用立法院官方页面的Kuo-Yu Han，保留Han Kuo-yu与Daniel Han作为别名。'
+x['political_stances']=[dict(date='2024-02-19',topic='国会多元与党团平等',stance_content='在立法院新春团拜中表示，应把三党不过半看作社会多元声音，对大党、小党及每位立法委员一视同仁并予尊重。',source='https://www.cna.com.tw/news/aipl/202402190043.aspx')]
+x['major_achievements']=[dict(date='2024-02-01',achievement='在立法院院长第二轮投票中获得54票，当选第11届立法院院长。',organization='立法院')]
+x['profile']={k:v for k,v in (x.get('profile') or {}).items() if k in s['properties']['profile']['properties']}
+for a in x.get('social_accounts',[]):a['source_note']='原Wikidata账号与ID保留；本轮六平台检索，YouTube仅可见标题及通用页脚，无法独立复核账号归属。'
+x['collection_meta']=dict(collection_date='2026-11-13',phase='phase4_person_profile',data_sources=['official_website','government_directory','wikipedia','news_search','web_search'],notes='官方立法院院长页面确认现职、英文姓名及两项学历；Wikipedia与中央社原文交叉核对当选和主要履历。Wikipedia信息框称北京大学PhD而正文只称博士生，且官方未列该学历，故不录入。出生精确日保留旧值、Wikipedia可见支持，但未取得第二可靠独立来源。官方页社交图标实际是分享链接而非本人账号，未错误当作认证外链。六平台检索已做；YouTube旧账号页面仅有标题与通用页脚，旧四个账号及平台ID、头像保留但未声称本轮重新核实。其他现任头衔无足够独立证据不增加。',quotes=[dict(title=t,url=u) for t,u in [('立法院：院长韩国瑜','https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=120&pid=1'),('Han Kuo-yu — Wikipedia','https://en.wikipedia.org/wiki/Han_Kuo-yu'),('中央社：韩国瑜当选立法院长','https://www.cna.com.tw/news/aipl/202402010152.aspx'),('中央社：韩国瑜谈国会多元','https://www.cna.com.tw/news/aipl/202402190043.aspx')]])
+jsonschema.Draft7Validator(s).validate(x)
+out=pathlib.Path('tmp/tw_enrichment');out.mkdir(exist_ok=True,parents=True);(out/p.name).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

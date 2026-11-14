@@ -1,0 +1,18 @@
+import json,pathlib,jsonschema
+R=pathlib.Path(__file__).resolve().parents[1];B=R/'output/tw/2026-07-27';pid='TW-PERSON-000532';x=json.loads((B/'persons'/f'{pid}.json').read_text(encoding='utf-8'))
+cv='https://www.cbc.gov.tw/tw/cp-328-184064-ef820-1.html';wiki='https://en.wikipedia.org/wiki/Kung_Ming-hsin';job='https://www.cna.com.tw/news/afe/202509010095.aspx';report='https://www.moea.gov.tw/Mns/main/content/wHandEditorFile.ashx?file_id=15512';official='https://www.moea.gov.tw/MNS/Populace/news/News.aspx?kind=1&menu_id=40&news_id=120357'
+x.update(name='龔明鑫',name_en='Kung Ming-hsin',current_positions=['经济部部长'])
+x['education']=[dict(institution='中兴大学（國立中興大學）',degree='doctorate',field='经济学',start_date=None,end_date=None)]
+jobs=[(None,'2016','台湾经济研究院（台灣經濟研究院）','研究员、副院长',None),('2016-05-20','2017-09-07','国家发展委员会（國家發展委員會）','副主任委员',None),('2017-09-08','2018-12','经济部（經濟部）','政务次长',None),('2020-05-20','2024-05-20','国家发展委员会（國家發展委員會）','主任委员',None),('2024-05-20','2025-09-01','行政院','秘书长','TW-GOV-019'),('2025-09-01',None,'经济部（經濟部）','部长',None)]
+x['work_experience']=[dict(start_date=a,end_date=b,organization=o,position=t,org_id=i) for a,b,o,t,i in jobs]
+x['biography_summary']='龚明鑫是台湾地区经济学者与公共事务官员，现任经济部部长。中央银行公开简历明确列有中兴大学经济学研究所博士学历，专长为产业经济学及计量分析。他曾在台湾经济研究院担任研究员及副院长，进入行政体系后历任国家发展委员会副主任委员、经济部政务次长、行政院政务委员、国发会主任委员及行政院秘书长。2025年9月1日接任经济部长，旧国发会与行政院秘书长头衔不列为现职。其公开产业政策侧重改善企业生产要素条件、支持中小微及传统产业转型，并以人工智能、智慧机械和国际布局提升产业能力。相关发言既涉及台湾经济的政策优先次序，也讨论经济部对国际谈判团队的支援角色。本档将部门年度公开报告中的融资、辅导和人才培训结果按共同执行成果记录，不把整个经济增长或企业投资都归因于个人，也不将未来投资目标写成已发生业绩。其教育补充、家庭身份及个人社交账号中证据不足的部分保持空值，避免同名误绑。'
+x['political_stances']=[dict(date='2025-09-01',topic='中小微与传统产业',stance_content='就职时主张改善产业生产要素不足问题，并支持中小微与传统产业发展。',source=job),dict(date='2025-09-01',topic='AI与智慧机械',stance_content='表示机械产业需进一步导入AI以提升国际竞争力，并鼓励法人参与新兴产业研发；属于政策方向而非已实现效果。',source=job),dict(date='2025-09-01',topic='国际产业布局',stance_content='主张高科技产业成群结队扩大国际布局，并由经济部支援对外谈判团队；未把未来园区或投资规划当已落地成果。',source=job)]
+x['major_achievements']=[dict(date='2025',achievement='经济部年度报告列中小微企业优惠贷款核贷金额1785.1亿元；为部门及金融体系共同年度成果，非部长个人独立完成，本轮未审计个案和效果。',organization='经济部（經濟部）'),dict(date='2025',achievement='经济部年度报告列数字转型咨询辅导4.3万家、培育数位转型人才27.7万人次；为全年团队成果，不将其全部归于9月上任的个人。',organization='经济部（經濟部）')]
+x['person_relationships']=[dict(person_id='TW-PERSON-000018',person_name='卓荣泰（卓榮泰）',relationship_type='superior',description='在卓荣泰内阁担任行政院秘书长后转任经济部长；2025年就职讲话明确回应院长经济优先指示，限定为工作关系。',source=job,corroborating_sources=cv)]
+x['family_members']=[]
+qs=[('央行现职及简历',cv),('英文历史任期',wiki),('CNA经济部长就职讲话',job),('经济部年度记者会报告',report),('经济部新任部长公告',official)]
+x['collection_meta']=dict(collection_date='2026-11-13',phase='phase4_person_profile',data_sources=['official_website','wikipedia','news_search','web_search'],quotes=[dict(title=t,url=u) for t,u in qs],notes='央行、经济部PDF、CNA及Wikipedia原文已读；央行现职页与CNA就职记录确认经济部长。教育以央行明确博士为准，其他学位尚未交叉原始确认不扩写。旧任期维基与央行经历对应，部分时间仅月精度。QID及精确生日未核实保持缺省/null。经济部PDF标题为2025年终记者会但内页涉及2026展望，成果仅提取清楚标注2025已发生成果，不取2026/2027目标；其于9月上任，全年成果非个人全功。人物关系卓荣泰工作关系由CNA具体讲话，央行只佐证其行政院经历，并非第二完整任命文件，故仅限工作联系。家庭已查配偶父母，陈玉珊为维基和财申检索线索，本轮未读本人签署登记正文、不将摘要当已核关系，暂空，不抓财产细节。六社媒平台Facebook/X/Instagram/LinkedIn/TikTok/YouTube检索无可靠本人主页，TikTok受robots限制；profile原缺省保持。行政院与卓荣泰实际画像已核主名国别，其余org_id未知null，不批量填链。')
+z=json.loads((B/'persons/TW-PERSON-000018.json').read_text(encoding='utf-8'));assert z['name_zh']=='卓荣泰'
+z=json.loads((B/'orgs/TW-GOV-019.json').read_text(encoding='utf-8'));assert z['basic_info']['name_zh']=='行政院'
+jsonschema.Draft7Validator(json.loads((R/'.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8'))).validate(x)
+(R/'tmp/tw_batch2_enriched'/f'{pid}.json').write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

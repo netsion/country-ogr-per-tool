@@ -1,0 +1,15 @@
+import json,pathlib,jsonschema
+p=pathlib.Path('output/tw/2026-07-27/persons/TW-PERSON-000032.json');x=json.loads(p.read_text(encoding='utf-8-sig'));s=json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8'));x={k:v for k,v in x.items() if k in s['properties']}
+x.update(name='鄭麗君',name_zh='郑丽君',aliases=['郑丽君'],birth_place='台湾台北市',current_positions=['行政院副院长'],person_relationships=[])
+x['education']=[dict(institution='台湾大学（國立臺灣大學）',degree='bachelor',field='哲学',start_date='1987-09',end_date='1992-06'),dict(institution='巴黎第十大学（Université Paris Nanterre）',degree='master',field='政治、经济、社会哲学',start_date='1994-09',end_date='1996-02')]
+x['education_note']='行政院官方履历另列1996年9月至2000年12月巴黎第十大学博士候选人，未记录为博士学位；Wikipedia对硕士年份和博士是否毕业表述与官方冲突，以官方为准。'
+def w(a,b,o,t,i=None):return dict(start_date=a,end_date=b,organization=o,position=t,org_id=i)
+x['work_experience']=[w('2001-08','2004-05','台湾智库（財團法人臺灣智庫）','办公室主任'),w('2004-05','2008-02','行政院青年辅导委员会（行政院青年輔導委員會）','主任委员'),w('2008-09','2011-06','台湾智库（財團法人臺灣智庫）','执行长'),w('2012-02','2016-05','立法院','第8、9届立法委员','TW-GOV-020'),w('2016-05','2020-05','文化部','部长'),w('2020-10','2024-05','青平台基金会（財團法人青平台基金會）','董事长兼执行长'),w('2024-05-20',None,'行政院','副院长','TW-GOV-019')]
+x['biography_summary']='郑丽君，1969年生于台北市，具有哲学及公共政策工作背景。她于台湾大学哲学系取得学士学位，赴法国巴黎第十大学研读政治、经济与社会哲学并取得硕士，后继续博士候选阶段研究。官方履历未列取得博士学位，本档未将候选资格写为博士毕业。2001年起担任台湾智库办公室主任，2004年至2008年任行政院青年辅导委员会主任委员，随后回到智库担任执行长。2012年进入立法院，担任第8、9届立法委员，参与教育、文化及修宪相关委员会工作。2016年至2020年担任文化部部长，离任后参与青平台基金会工作。2024年5月20日起担任行政院副院长，2025年受命率领对美关税谈判团队。现职与过去的立法委员、文化部长身份已经分开记录。履历起止日期按官方来源提供的年月精度保留。'
+x['political_stances']=[]
+x['major_achievements']=[dict(date='2025-04-09',achievement='中央社报道其获任负责对美对等关税谈判小组，成员涵盖安全、外交及经贸谈判体系；此为承担的公开职责，未将谈判启动等同已取得成果。',organization='行政院')]
+x['profile']={k:v for k,v in (x.get('profile') or {}).items() if k in s['properties']['profile']['properties']}
+for a in x.get('social_accounts',[]):a['source_note']='原Wikidata档案保留；本轮完成六平台检索但未完成账号归属和平台ID的独立复核。'
+x['collection_meta']=dict(collection_date='2026-11-13',phase='phase4_person_profile',data_sources=['official_website','government_directory','wikipedia','news_search','web_search'],notes='新核实：行政院现任副院长官方履历、立法院历史名录、中央社原文及Wikipedia。来源至少涵盖政府机构、中央社与Wikipedia三个独立发布体系。教育及履历以官方为主；Wikipedia称博士毕业且出生日期正文与信息框不同，均不采该争议表述。原birth_date保留但精确生日本轮未取得两个独立可靠来源，应再核实；出生地有Wikipedia支持。政策立场没有足够直接完整材料，本轮留空，不采用LinkedIn转述的2026贸易政策说法。社交搜索覆盖Facebook、X、Instagram、LinkedIn、TikTok、YouTube，未据同名结果新增账号。头像与两条旧社媒及平台ID保留但未重新核实。',quotes=[dict(title=t,url=u) for t,u in [('行政院：郑丽君副院长','https://www.ey.gov.tw/Page/B0DDF0F69A75E8DB/8708343d-dd7c-47c0-a3a5-336577da50da'),('立法院：郑丽君历史名录','https://www.ly.gov.tw/Pages/List.aspx?nodeid=1784'),('中央社：对等关税谈判小组','https://www.cna.com.tw/news/aipl/202504090185.aspx'),('Cheng Li-chiun — Wikipedia','https://en.wikipedia.org/wiki/Cheng_Li-chun')]])
+jsonschema.Draft7Validator(s).validate(x)
+out=pathlib.Path('tmp/tw_enrichment');out.mkdir(exist_ok=True,parents=True);(out/p.name).write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
