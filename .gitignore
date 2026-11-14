@@ -88,3 +88,24 @@ output/**/.inflight
 /*.avif
 /*.ico
 /*.zip
+
+# --- workspace residue (2026-11-14 git tidy) ---
+output/_lang_p2/
+output/_lang_p3/
+output/_coverage_report.json
+output/_fix_wiki_file_avatars.py
+_lang_work/
+_tmp_lang_p2/
+.tmp_lang_p2/
+.cache/
+.cache_tmp/
+.claude/
+.zcode/
+.agents/tmp/
+tmp/
+outputs/
+scripts/*.b64
+scripts/p1006*
+scripts/tmp_*
+scripts/temp_names.json
+scripts/cf_*_result.json
