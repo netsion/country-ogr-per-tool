@@ -1,7 +1,7 @@
 {
   "person_id": "TW-PERSON-000136",
   "wikidata_qid": "Q8273132",
-  "name": "张丽善",
+  "name": "張麗善",
   "name_en": "Chang Li-shan",
   "name_zh": "张丽善",
   "aliases": [
@@ -13,15 +13,81 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    "立法委员",
-    "县长 Yunlin County"
+    "云林县县长"
   ],
-  "education": [],
-  "work_experience": [],
+  "education": [
+    {
+      "institution": "虎尾科技大学（國立虎尾科技大學）",
+      "degree": "bachelor",
+      "field": "工业管理",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": "2005",
+      "end_date": "2008",
+      "organization": "立法院",
+      "position": "第6届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2016",
+      "end_date": "2018",
+      "organization": "立法院",
+      "position": "第9届立法委员",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "start_date": "2018-12-25",
+      "end_date": null,
+      "organization": "云林县政府（雲林縣政府）",
+      "position": "县长",
+      "org_id": null
+    }
+  ],
   "person_relationships": [],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "family_members": [
+    {
+      "person_id": null,
+      "name": "张荣味（張榮味）",
+      "relationship": "brother",
+      "industry_or_organization": "前云林县长；TVBS与维基确认兄妹关系，仅记录公开政治家庭身份。"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2025-04-06",
+      "topic": "农产品市场多元化",
+      "stance_content": "主张拓展日本及东南亚通路，降低农产品外销对单一市场的依赖；为当时政策方向，不计预估订单为实际收入。",
+      "source": "https://www.cna.com.tw/news/aloc/202504060108.aspx"
+    },
+    {
+      "date": "2023-11-24",
+      "topic": "冷链与农业加值",
+      "stance_content": "支持县府与企业合作建设冷链理货包装通路，提升蔬果保鲜及外销竞争力；不把预期效果当独立评估。",
+      "source": "https://www.yunlin.gov.tw/News_Content.aspx?n=1244&s=437788"
+    },
+    {
+      "date": "2022-08-07",
+      "topic": "地方治理问责",
+      "stance_content": "受访表示接受以选举检验施政、以平常心面对连任挑战；记录其公开问责主张，不等同满意度事实。",
+      "source": "https://news.tvbs.com.tw/politics/1867978"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2023-11-24",
+      "achievement": "任内县府合作的宜捷威大型蔬果理货包装场启用；设施由企业及县府等共同推动，非个人独力成果，依据县府发布。",
+      "organization": "云林县政府（雲林縣政府）"
+    },
+    {
+      "date": "2025-03",
+      "achievement": "率县府及业者参加东京食品展，为已发生外销推广活动；中央社引述厂商预估订单不作为已实现销售额。",
+      "organization": "云林县政府（雲林縣政府）"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "facebook",
@@ -44,25 +110,39 @@
       "nickname": "張麗善"
     }
   ],
-  "biography_summary": "中華民國政治人物",
+  "biography_summary": "张丽善是台湾地区政治人物，现任云林县县长，曾任第六届及第九届立法委员。她早期具有护理工作背景，后来转入社会服务及民意代表工作，2018年底就任云林县长，2022年获得连任。本档将立法委员等历史任职与县长现职分开，不提前采用2026年底换届结果。其公开施政方向包括农产品冷链、市场多元化和地方产业加值。县府与企业合作的理货包装设施启用及赴食品展推广属于具体已发生事项，但不能直接归为个人独力成果，也不能把预估订单等同销售收入。其兄张荣味曾任云林县长，关系由公开媒体原文及履历交叉确认，仅记录必要身份，不扩展私人财产、地址或其他家庭信息。社交账号与头像保留原档，本轮未声称全部重新认证。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%E5%BC%B5%E5%A7%94%E5%93%A1%E9%BA%97%E5%96%84_%28%E7%AC%AC%E4%B9%9D%E5%B1%86%29.jpg/250px-%E5%BC%B5%E5%A7%94%E5%93%A1%E9%BA%97%E5%96%84_%28%E7%AC%AC%E4%B9%9D%E5%B1%86%29.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000136.jpg",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000136.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata"
+      "official_website",
+      "news_search",
+      "wikipedia"
     ],
-    "completeness_score": 55,
-    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q8273132"
+        "title": "云林县府冷链包装场启用",
+        "url": "https://www.yunlin.gov.tw/News_Content.aspx?n=1244&s=437788"
+      },
+      {
+        "title": "中央社农产品外销报道",
+        "url": "https://www.cna.com.tw/news/aloc/202504060108.aspx"
+      },
+      {
+        "title": "TVBS人物专访与兄妹关系",
+        "url": "https://news.tvbs.com.tw/politics/1867978"
+      },
+      {
+        "title": "维基张丽善履历",
+        "url": "https://zh.wikipedia.org/wiki/張麗善"
       }
-    ]
+    ],
+    "notes": "县长现职有县府及新闻支持，但最近独立正文为2025年4月，未逐日核至采集日。学历及早期任期主要依维基；师大硕士与早期公报肄业记载存在时点差异，本轮未纳入该学位。出生日期沿用维基精确值。兄妹关系TVBS与维基交叉；无对应画像ID则留空。县长简介403未采。原头像及两个账号/user_id完整保留，多平台检索未确认新的本人账号。成就明确团队与活动性质，不当经济效果。",
+    "completeness_score": 57
   }
 }

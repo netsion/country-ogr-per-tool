@@ -1,7 +1,7 @@
 {
   "person_id": "TW-PERSON-000030",
   "wikidata_qid": "Q15025",
-  "name": "唐凤",
+  "name": "唐鳳",
   "name_en": "Audrey Tang",
   "name_zh": "唐凤",
   "aliases": [
@@ -13,15 +13,73 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    "政务委员",
-    "数位发展部长"
+    "无任所大使"
   ],
   "education": [],
-  "work_experience": [],
-  "person_relationships": [],
+  "work_experience": [
+    {
+      "start_date": "2016",
+      "end_date": "2022",
+      "organization": "行政院",
+      "position": "数位政务委员",
+      "org_id": "TW-GOV-019"
+    },
+    {
+      "start_date": "2022",
+      "end_date": "2024",
+      "organization": "数字发展部（數位發展部）",
+      "position": "部长",
+      "org_id": null
+    },
+    {
+      "start_date": "2024-10-07",
+      "end_date": null,
+      "organization": "外交部",
+      "position": "无任所大使",
+      "org_id": "TW-GOV-024"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000023",
+      "person_name": "林佳龙（林佳龍）",
+      "relationship_type": "colleague",
+      "description": "2024无任所大使聘书由外交部长林佳龙副署，记录该外交任命及职务关系，不推私人联盟；来源总统府公报7746号。"
+    }
+  ],
   "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "political_stances": [
+    {
+      "date": "2025-02-15",
+      "topic": "数字自由与安全",
+      "stance_content": "主张以民主参与及社会共识同时增进自由与安全，不将二者视为必然取舍。",
+      "source": "https://www.cna.com.tw/news/aipl/202502160084.aspx"
+    },
+    {
+      "date": "2025-02-15",
+      "topic": "公私协作治理",
+      "stance_content": "主张公民社会和私部门共同确立治理价值，政府不独占数字治理；为本人受访立场。",
+      "source": "https://www.cna.com.tw/news/aipl/202502160084.aspx"
+    },
+    {
+      "date": "2025-02-15",
+      "topic": "跨国数字合作",
+      "stance_content": "主张以具体多边项目分享台灣数字治理经验，而不只提升知名度；不将倡议当已完成合作。",
+      "source": "https://www.cna.com.tw/news/aipl/202502160084.aspx"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2025",
+      "achievement": "获Right Livelihood奖；颁奖机构与哥伦比亚大学交叉确认，属公开荣誉，不将评奖赞誉当独立量化绩效。",
+      "organization": "正命奖基金会（Right Livelihood）"
+    },
+    {
+      "date": "2020",
+      "achievement": "任数位政委期间参与疫情口罩资讯工具及公民科技协作；依据颁奖机构及大学回顾，属于政府、公民黑客与社会团队共同贡献，不将平台或公共卫生效果归为个人独力。",
+      "organization": "行政院"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "twitter",
@@ -58,25 +116,43 @@
       "source": 17
     }
   ],
-  "biography_summary": "臺灣資訊科學家、政府官員",
+  "biography_summary": "唐凤是台湾地区公民科技与数字治理实践者，具有自由软件、开放政府和公民参与方面的公共工作经历。其职业发展从开源技术社群逐步进入政府，在2016年至2022年担任行政院数位政务委员，2022年至2024年任首任数位发展部部长。2024年10月7日总统聘书列其为无任所大使，聘期至2028年5月19日；大学机构简介和中央社采访亦确认其外交角色，因此本档不再把旧部长或政委身份列为现职。其政策主张集中于开放协作、数字人权、社会共识与跨国治理经验交流。2025年获得Right Livelihood奖，其数字参与实践受到颁奖机构肯定；有关公众信任及政策成效的宣传性数字未作为本轮独立评估结论。疫情资讯服务与开放平台属于跨机关及公民社群协作，非个人独力创建全部成果。本档未扩大记录家庭、健康或其他私人事项。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/AudreyTang060527.jpg/250px-AudreyTang060527.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000030.jpg",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000030.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-15",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata"
+      "official_website",
+      "news_search",
+      "wikipedia"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q15025"
+        "title": "总统府公报7746号：2024-10-07聘书",
+        "url": "https://www.president.gov.tw/File/Doc/7ecb901f-747d-49d7-81e4-864f8c14246a"
+      },
+      {
+        "title": "哥伦比亚大学机构人物介绍",
+        "url": "https://igp.sipa.columbia.edu/distinguished-fellows/Audrey-Tang"
+      },
+      {
+        "title": "Right Livelihood官方获奖简介及社交链接",
+        "url": "https://rightlivelihood.org/zh-hant/the-change-makers/find-a-laureate/audrey-tang/"
+      },
+      {
+        "title": "中央社慕尼黑专访",
+        "url": "https://www.cna.com.tw/news/aipl/202502160084.aspx"
+      },
+      {
+        "title": "英文维基职业履历",
+        "url": "https://en.wikipedia.org/wiki/Audrey_Tang"
       }
-    ]
+    ],
+    "notes": "总统府聘书核2024-10-07起聘及2028-05-19届期，当前角色有大学及中央社交叉；未宣称逐日确认。教育为自学经历且未核正式毕业学校，不造学历。旧公职起迄仅保留已知年份。出生日期有颁奖机构与原资料交叉。政策日期是中央社记载的15日采访，非16日发布日期。疫情项目年份据历史背景及回顾，实际贡献为团队；奖项不是量化治理成效。林佳龙真实画像已核。家庭未充分交叉不收录。已检索社交平台，保留原4账号、user_id与头像；颁奖页IG为digitalminister.one，旧账号归属变化未核清，不替换旧ID，不采同名LinkedIn。",
+    "completeness_score": 60
   }
 }
