@@ -2,43 +2,278 @@
   "org_id": "NG-PARTY-007",
   "basic_info": {
     "name_original": "African Democratic Congress",
-    "name_zh": null,
+    "name_zh": "非洲民主大会党",
     "name_en": "African Democratic Congress",
-    "aliases": [],
+    "aliases": [
+      "ADC",
+      "非洲民主大会",
+      "African Democratic Congress (ADC)"
+    ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
-    "founded_date": "2005-01-01",
+    "founded_date": "2005-09-01",
     "website": "https://adc.org.ng",
     "wikidata_qid": "Q60143323"
   },
-  "social_accounts": [],
-  "digital_assets": [],
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "ADCNig",
+      "url": "https://twitter.com/ADCNig",
+      "source": 3,
+      "source_note": "adc.org.ng 首页官方X(Twitter)推文嵌入(@ADCNig)",
+      "nickname": "African Democratic Congress",
+      "username": "ADCNig",
+      "user_id": null
+    },
+    {
+      "platform": "facebook",
+      "account_name": "ADCNig",
+      "url": "https://www.facebook.com/ADCNig",
+      "source": 6,
+      "source_note": "adc.org.ng 首页官方Facebook帖文嵌入及Facebook平台检索交叉验证",
+      "nickname": "African Democratic Congress (ADC)",
+      "username": "ADCNig",
+      "user_id": null
+    },
+    {
+      "platform": "instagram",
+      "account_name": "adc_nig",
+      "url": "https://www.instagram.com/adc_nig/",
+      "source": 8,
+      "source_note": "adc.org.ng 首页官方Instagram帖文嵌入(@adc_nig)及Instagram平台检索交叉验证",
+      "nickname": "African Democratic Congress HQ",
+      "username": "adc_nig",
+      "user_id": null
+    },
+    {
+      "platform": "whatsapp",
+      "account_name": "+234 912 994 6954",
+      "url": "https://wa.me/2349129946954",
+      "source": 20,
+      "source_note": "adc.org.ng 首页页脚列出的官方WhatsApp联系号码",
+      "nickname": null,
+      "username": null,
+      "user_id": null
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "ADC官方网站",
+      "url": "https://adc.org.ng",
+      "description": "非洲民主大会党官网，含About/Leadership/News/Membership/Gallery/Donate等栏目及在线会员注册入口",
+      "source": "adc.org.ng"
+    },
+    {
+      "name": "ADC在线会员电子注册门户 (E-Registration Portal)",
+      "url": "https://adcregistration.ng",
+      "description": "2026年初上线、与官网 adc.org.ng/membership 相互印证的官方线上入党与电子注册门户",
+      "source": "adc.org.ng 及官方Facebook帖文"
+    },
+    {
+      "name": "ADC党徽 (Party Logo)",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/24/African_Democratic_Congress_logo.png",
+      "description": "ADC官方党徽（维基百科条目使用版本），设计含'握手'(Handshake)元素，体现党的团结与包容理念",
+      "source": "维基百科/Wikimedia Commons"
+    }
+  ],
   "key_people": [
     {
       "person_id": "NG-PERSON-000039",
-      "name": "David Mark",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "name": "大卫·马克 (David Mark)",
+      "title": "全国主席 (National Chairman)",
+      "title_description": "2025年7月2日在第99届全国执行委员会(NEC)会议上就职，最初为临时全国主席(Interim National Chairman)，现任全国主席",
+      "description": "前尼日利亚参议院议长（2007-2015）、前通信部长（陆军中将），2025年反对派联盟采纳ADC为平台党后出任该党全国主席，是2025年联盟平台化改组的核心人物。"
     },
     {
       "person_id": "NG-PERSON-000040",
-      "name": "Ralph Nwosu",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "name": "拉尔夫·恩沃苏 (Ralph Nwosu)",
+      "title": "创始人兼首任全国主席 (Founder and First National Chairman)",
+      "title_description": "2005-2025年任全国主席，2025年7月2日为反对派联盟改组让位",
+      "description": "该党创始人和建党理念设计者，领导ADC约二十年；官网现任列表中列为党创始人(Party Founder)，提出'23+20 ADC战略罗盘'与'握手哲学'等党建理念。"
+    },
+    {
+      "person_id": "NG-PERSON-001013",
+      "name": "劳夫·阿雷格贝索拉 (Rauf Aregbesola)",
+      "title": "全国书记 (National Secretary)",
+      "title_description": "2025年7月2日就职，最初为临时全国书记(Interim National Secretary)",
+      "description": "前奥孙州州长（2010-2014）、前内政部长（2019-2023），2025年联盟改组后出任ADC全国书记。"
+    },
+    {
+      "person_id": "NG-PERSON-001014",
+      "name": "博拉吉·阿卜杜拉希 (Bolaji Abdullahi)",
+      "title": "全国宣传书记 (National Publicity Secretary)",
+      "title_description": "现任全国工作委员会(NWC)成员",
+      "description": "前夸拉州州长候选人、前联邦青年发展部长和体育部长，2025年联盟改组后出任ADC全国宣传书记，为党的主要对外发言人。"
+    },
+    {
+      "person_id": "NG-PERSON-001015",
+      "name": "奥塞海门·奥孙博尔 (Oserheimen Osunbor)",
+      "title": "全国法律顾问 (National Legal Adviser)",
+      "title_description": "现任全国工作委员会(NWC)成员",
+      "description": "前埃多州州长（2007-2009）、法学教授，2026年9月2日起兼任全国和解与和平委员会副主任委员。"
+    },
+    {
+      "person_id": "NG-PERSON-001016",
+      "name": "易卜拉欣·马尼·艾哈迈德 (Ibrahim Mani Ahmad)",
+      "title": "全国司库 (National Treasurer)",
+      "title_description": "现任全国工作委员会(NWC)成员",
+      "description": "ADC全国司库，曾以党内候选人身份参加2015年总统选举；2025年联盟改组后留任全国司库。"
+    },
+    {
+      "person_id": "NG-PERSON-001017",
+      "name": "奇内杜·伊迪戈 (Chinedu Idigok)",
+      "title": "全国组织书记 (National Organising Secretary)",
+      "title_description": "现任全国工作委员会(NWC)成员",
+      "description": "律师（Barr.），ADC全国组织书记，负责党的组织动员事务。"
+    },
+    {
+      "person_id": "NG-PERSON-001018",
+      "name": "巴拉拉贝·鲁法伊 (Balarabe Rufai)",
+      "title": "全国青年领袖 (National Youth Leader)",
+      "title_description": "现任全国工作委员会(NWC)成员",
+      "description": "ADC全国青年领袖，负责青年翼动员工作。"
+    },
+    {
+      "person_id": "NG-PERSON-001019",
+      "name": "哈乌瓦·穆萨·优素福 (Hauwa Musa Yusuf)",
+      "title": "副全国书记 (Deputy National Secretary)",
+      "title_description": "现任全国工作委员会(NWC)成员",
+      "description": "众议院议员（Hon.），ADC副全国书记。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "departments": [
+    {
+      "name": "全国工作委员会 (National Working Committee)",
+      "dept_id": null,
+      "head": "大卫·马克 (David Mark)",
+      "description": "党的核心行政领导机构，统管日常党务；据官网2026年9月报道，全国和解与和平委员会由NWC依据党章设立。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国执行委员会 (National Executive Committee)",
+      "dept_id": null,
+      "head": "大卫·马克 (David Mark)",
+      "description": "章程规定的党的最高领导机构（党代会闭会期间），2025年7月2日第99次NEC会议批准临时领导层交接，是党的重大决策与领导层确认平台。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国宣传书记办公室 (Office of the National Publicity Secretary)",
+      "dept_id": null,
+      "head": "博拉吉·阿卜杜拉希 (Bolaji Abdullahi)",
+      "description": "负责党的对外宣传、媒体关系和公共沟通；下设传统媒体与新媒体两位副全国宣传书记（Jackie Wayas、Queen Okiyi）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国组织书记办公室 (Office of the National Organising Secretary)",
+      "dept_id": null,
+      "head": "奇内杜·伊迪戈 (Chinedu Idigok)",
+      "description": "负责党的组织建设、活动组织与选举动员工作。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国法律顾问办公室 (Office of the National Legal Adviser)",
+      "dept_id": null,
+      "head": "奥塞海门·奥孙博尔 (Oserheimen Osunbor)",
+      "description": "负责党的法律事务与合规事务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国青年领袖办公室 (Office of the National Youth Leader)",
+      "dept_id": null,
+      "head": "巴拉拉贝·鲁法伊 (Balarabe Rufai)",
+      "description": "负责青年翼组织与青年动员工作。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国和解与和平委员会 (National Reconciliation and Peace Committee)",
+      "dept_id": null,
+      "head": "图恩德·奥贝哈 (Tunde Ogbeha)",
+      "description": "2026年9月2日在阿布贾宣誓成立，由NWC依据党章设立，旨在处理党内初选后的不满情绪、重建信任、强化团结，为2027年大选做准备。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "ADC侨民网络 (ADC Diaspora Network)",
+      "dept_id": null,
+      "head": null,
+      "description": "作为党的'第七区'(seventh zone)设立，与国内六大地理政治区结构并行，使海外尼日利亚人党内在政策制定机构中享有代表权。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-02",
+      "title": "反对派联盟采纳ADC为平台党，David Mark出任临时全国主席",
+      "description": "2025年7月2日，为挑战全体进步大会党(APC)而组建的反对派联盟在阿布贾正式采纳ADC为联盟平台党；创始全国主席Ralph Nwosu在Shehu Musa Yar'Adua中心主持移交并颁发党证，前参议院议长David Mark与前奥孙州州长Rauf Aregbesola分别就任临时全国主席与临时全国书记。当天恰逢第99届全国执行委员会(NEC)会议。此举旨在为2027年大选整合反对派力量、防止一党独大。",
+      "impact": "ADC由边缘小党跃升为2027年大选反对派联盟平台党和全国焦点反对党；此后多位反对派政治人物相继宣布加入。",
+      "source": "https://adc.org.ng/news-single/adc-ushers-in-new-leadership-at-landmark-99th-nec-meeting"
+    },
+    {
+      "date": "2025-08-16",
+      "title": "ADC参加2025年补选，未获席位",
+      "description": "2025年8月16日，独立国家选举委员会(INEC)在12个州16个选区举行联邦与州议会补选，ADC以联盟平台身份参选，但按INEC公布的结果未能赢得任何席位，APC赢得其中多数席位。",
+      "impact": "被外界视为联盟改组后的首次 electoral 实力检验；ADC称不会以补选结果评判其前景。",
+      "source": "https://www.premiumtimesng.com/news/headlines/814720-apc-sweeps-majority-as-inec-releases-by-election-results-across-16-constituencies.html"
+    },
+    {
+      "date": "2026-04-14",
+      "title": "在阿布贾举行2026年全国代表大会",
+      "description": "2026年4月14日，ADC全国代表大会在阿布贾举行，逾3000名代表与会，官方账号对大会进行了直播；此前该党于2025年12月宣布为期90天的全国党员电子注册并公布各级党代会时间表（选区党代会自2026年4月7日启动）。",
+      "impact": "按党内议程推进全国机构建设与2027年大选筹备工作。",
+      "source": "https://www.facebook.com/ADCNig/posts/1264921282486562"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "举行2027年总统候选人初选，Atiku Abubakar胜出",
+      "description": "2026年5月25日，ADC举行2027年总统选举党内初选（结果于5月27日正式公布）：前副总统Atiku Abubakar以1,846,370票胜出，前交通部长Rotimi Amaechi获504,117票，Mohammed Hayatu-Deen获177,120票；该党为2027年大选设定的提名费为：总统1亿奈拉、州长5000万奈拉、参议员2000万奈拉、众议员1000万奈拉、州议员300万奈拉。",
+      "impact": "确定ADC为2027年大选推举的总统候选人；初选后为处理党内不满，党于同年9月成立和解与和平委员会。",
+      "source": "https://www.bbc.com/pidgin/articles/cq6pplyr14vo"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "成立Tunde Ogbeha牵头的全国和解与和平委员会",
+      "description": "2026年9月2日，ADC在阿布贾为全国和解与和平委员会举行就职宣誓，委员会由前参议员Tunde Ogbeha任主席、前埃多州州长Oserheimen Osunbor教授任副主席，由全国主席David Mark依据党章主持设立；该机构旨在听取申诉、修复分歧、重建党内信任，为2027年大选凝聚团结。",
+      "impact": "强化初选后的党内团结与组织整合，为2027年大选筹备提供制度性安排。",
+      "source": "https://adc.org.ng/news-single/adc-inaugurates-senator-tunde-ogbeha-led-reconciliation-and-peace-committee-ahead-of-2027-elections"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-039",
+      "org_name": "独立国家选举委员会 (Independent National Electoral Commission)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦选举管理机构，负责政党注册与认可、监督选举。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "NG-PARTY-001",
+      "org_name": "全体进步大会党 (All Progressives Congress)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚现任执政党（自2015年起），ADC作为2025年反对派联盟平台党的主要挑战目标。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-PARTY-002",
+      "org_name": "人民民主党 (Peoples Democratic Party)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚主要反对党之一（1998-2015年执政）；2025年反对派联盟成员来源党，前副总统Atiku Abubakar于2025年7月14日致函退出PDP后加入ADC。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-PARTY-003",
+      "org_name": "尼日利亚工党 (Labour Party)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚主要反对党之一，2023年大选反对派力量；其2023年总统候选人Peter Obi于2026年3月7日注册加入ADC。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "非洲民主大会党（African Democratic Congress，ADC）是尼日利亚注册政党，2005年成立（原名'民主变革联盟'Alliance for Democratic Change，经INEC注册时定现名），总部设于阿布贾Wuse区2 Adetokunbo Ademola Crescent，创始人为Ralph Nwosu，他任全国主席至2025年。该党定位为面向工薪阶层与弱势群体的'草根政党'（grassroots party），意识形态上属'大帐篷'(big tent)、去中心化与'折衷实用主义'（eclectic pragmatism），核心议题包括经济赋权、青年与妇女包容（承诺妇女与青年候选人各占35%）、侨民参与（设ADC侨民网络为'第七区'）及残疾人代表性，并推行'23+20 ADC战略罗盘'与'握手哲学'。2025年7月2日，旨在挑战执政APC的反对派联盟采纳ADC为平台党，Nwosu向临时全国主席David Mark与临时全国书记Rauf Aregbesola移交领导权，该党由此跃升为2027年大选反对派整合的核心载体。历史上该党曾于2018年5月10日被前总统Olusegun Obasanjo的'尼日利亚联盟运动'(CNM)采纳为政治平台。总统选举成绩：2007年Patrick Utomi获50,849票（第4）；2011年Peter Uchenna Nwangwu获51,682票（第8/20）；2015年Mani Ibrahim Ahmad获29,666票（0.10%，第7/14）；2019年Obadiah Mailafia获97,874票（第4/73）；2023年Dumebi Kachikwu获81,919票（0.34%）。国会方面，2015年该党曾在众议院拥有5席（均来自奥约州）；2023年选后众议院1席（Leke Abejide，科吉州Yagba东/Yagba西/Mopa-Moro选区）；截至2026年维基信息显示其众议院17席、参议院8席（主要源于2025年联盟人物转党）。2025年8月16日补选该党未获席位；2026年4月14日举行全国代表大会，同年5月25日初选中Atiku Abubakar当选其2027年总统候选人。该党自称为领导发展型组织：全国办公机构名为'ADC全球校园'(ADC Global Campus)，州办公室为'学院'(Academy)，地方与选区办公室为'学习中心'(Learning Centres)。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），ADC作为尼日利亚政党与APEC及其议程无直接关联，公开渠道亦未检索到该党对APEC事务的立场表态。ADC公开对外交往与合作主张以多边互惠方向为主：其愿景声明提出通过公正、有韧性的制度与进程巩固尼日利亚民主、建设'超级经济体'；建党以来与泛非网络保持联系（官网设'Continental Chairpersons'泛非主席架构），并在国内层面与ECOWAS框架下的尼日利亚外交总体方向保持一致；对国际经贸合作的实际主张聚焦出口竞争力、生产型经济与创业就业（含承诺优先国内炼油以降低民生成本），相关国际合作仍以尼日利亚政府对外框架为实际渠道。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/2/24/African_Democratic_Congress_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-PARTY-007.png",
@@ -46,13 +281,46 @@
   },
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_media",
+      "social_media_platforms"
     ],
-    "completeness_score": 21,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "African Democratic Congress - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/African_Democratic_Congress"
+      },
+      {
+        "title": "Welcome to ADC - African Democratic Congress (官网首页)",
+        "url": "https://adc.org.ng"
+      },
+      {
+        "title": "Leadership – National, State & Global Executives | ADC (官网领导层页)",
+        "url": "https://adc.org.ng/leadership"
+      },
+      {
+        "title": "ADC Inaugurates Senator Tunde Ogbeha-Led Reconciliation and Peace Committee Ahead of 2027 Elections (官网新闻)",
+        "url": "https://adc.org.ng/news-single/adc-inaugurates-senator-tunde-ogbeha-led-reconciliation-and-peace-committee-ahead-of-2027-elections"
+      },
+      {
+        "title": "Ex-ADC chair hands over, presents cards to Mark, Aregbesola - The ICIR",
+        "url": "https://www.icirnigeria.org/nwosu-hands-over-adc-leadership-presents-membership-cards-to-mark-aregbesola/"
+      },
+      {
+        "title": "APC sweeps majority as INEC releases by-election results across 16 constituencies - Premium Times",
+        "url": "https://www.premiumtimesng.com/news/headlines/814720-apc-sweeps-majority-as-inec-releases-by-election-results-across-16-constituencies.html"
+      },
+      {
+        "title": "2023 Nigerian presidential election - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/2023_Nigerian_presidential_election"
+      }
+    ],
+    "notes": "Phase 3 enrichment: cross-validated via en Wikipedia, official site (homepage + /leadership + 2 news pages), and 2025-2026 news/social posts. key_people 全部为现任/官方 NWC 职位（除 Ralph Nwosu 为创始人兼首任主席），Aregbesola/Abdullahi/Osunbor 等无既有 person_id 故为 null（索引中 David Mark=NG-PERSON-000039、Ralph Nwosu=NG-PERSON-000040）。departments 以官网 NWC 办公机构与官网新闻证实之和解委员会建模。社交账号仅收录官网页脚/嵌入可验证项（X @ADCNig、Facebook /ADCNig、Instagram @adc_nig、官方 WhatsApp 号码），未收录党翼账号。recent_events 遵循中立机构级事件边界：收录联盟平台化改组(2025-07-02)、补选成绩(2025-08-16)、党代会(2026-04-13)、总统初选(2026-05-25)与和解委员会成立(2026-09-02)；联盟人物动向仅一句级事实（Atiku 2025-07-14 辞呈/7月16日报道、Obi 2026-03-07 注册），按写作边界未收录领导层争议与诉讼细节、Obi 退党事件。官网 leadership 页写明 'formally registered in 2006' 而 Wikipedia/Wikidata 记 2005 成立（原型2005年成立、注册完成于2006年初），founded_date 取 2005-09-01 并在 aliases/core_business 说明差异。注意：官网存在 'Ibrahim Mani Ahmad'（NWC/司库）与 Wikipedia 老条目 'Ibrahim Mani Ahmad'、官方页 'Chiedu Idigok'/'Barr. Chinedu Idigo' 同人拼写差异，取官网 NWC 拼写。2023 众议院席位：Wikipedia ADC 条目正文称 1 席（Abejide），而 2023 年报道多称 2 席，取 Wikipedia 条目口径。APEC: Nigeria is not an APEC member; no APEC content fabricated."
   }
 }

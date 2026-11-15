@@ -19,14 +19,14 @@
   ],
   "education": [
     {
-      "institution": "巴黎第一大学（先贤祠-索邦）(巴黎第一大学（先贤祠-索邦） (Université Paris 1 Panthéon-Sorbonne))",
+      "institution": "巴黎第一大学（先贤祠-索邦）(Université Paris 1 Panthéon-Sorbonne)",
       "degree": "doctorate",
       "field": "经济学",
       "start_date": null,
       "end_date": null
     },
     {
-      "institution": "巴黎第一大学（先贤祠-索邦）(巴黎第一大学（先贤祠-索邦） (Université Paris 1 Panthéon-Sorbonne))",
+      "institution": "巴黎第一大学（先贤祠-索邦）(Université Paris 1 Panthéon-Sorbonne)",
       "degree": "master",
       "field": "银行与金融（Master 2 Banque et Finance）",
       "start_date": null,
@@ -166,7 +166,7 @@
     "minio_path": "default/popular-person-profile/gn/GN-PERSON-000002.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-15",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -176,7 +176,7 @@
       "government_directory"
     ],
     "completeness_score": 77,
-    "notes": "核实情况：任职时间线经4个独立来源交叉验证（farafinainfo 2021-12-07任命报道、guinee114 2021-12-09就职报道、法语维基百科BCRG历任行长表、guineenews 2026-03-13连任报道），与本数据集GN-FIN-001组织画像一致；教育与法国履历经Les Rencontres Économiques官方演讲人页与Qui est Qui en Guinée人物志两个独立来源相互印证。出生日期/出生地（仅知出生国为几内亚）、婚姻家庭信息无公开可靠来源，均留空；Wikidata无本人条目（wikidata_qid=null）。中文名「卡拉莫·卡巴」依据中国商务部驻几内亚使馆经商处中文网页（2026-08-14报道，全文抓取为空但搜索快照确凿）。照片为Qui est Qui en Guinée人物档案头像（og:image直链，curl验证HTTP 200，非Wikimedia来源）。同名区分：LinkedIn存在多名「Karamo Kaba」（美国学生、卢森堡审计师等），已按职业信息排除，仅保留ECOFI+巴黎一大档案并注明判定依据。工具降级说明：search-read读页与web_reader/WebSearch当日配额耗尽，改用本机curl走代理http://127.0.0.1:7897抓取原文全文。存疑字段：LinkedIn档案未能在页面层直核（仅快照），置信度中高。2024-2025年黄金储备争议仅收录Qui est Qui定性表述， hunger-strike传闻（2025-01社交媒体帖）未获权威证实故不收录。",
+    "notes": "核实情况：任职时间线经4个独立来源交叉验证（farafinainfo 2021-12-07任命报道、guinee114 2021-12-09就职报道、法语维基百科BCRG历任行长表、guineenews 2026-03-13连任报道），与本数据集GN-FIN-001组织画像一致；教育与法国履历经Les Rencontres Économiques官方演讲人页与Qui est Qui en Guinée人物志两个独立来源相互印证。出生日期/出生地（仅知出生国为几内亚）、婚姻家庭信息无公开可靠来源，均留空；Wikidata无本人条目（wikidata_qid=null）。中文名「卡拉莫·卡巴」依据中国商务部驻几内亚使馆经商处中文网页（2026-08-14报道，全文抓取为空但搜索快照确凿）。照片为Qui est Qui en Guinée人物档案头像（og:image直链，curl验证HTTP 200，非Wikimedia来源）。同名区分：LinkedIn存在多名「Karamo Kaba」（美国学生、卢森堡审计师等），已按职业信息排除，仅保留ECOFI+巴黎一大档案并注明判定依据。工具降级说明：search-read读页与web_reader/WebSearch当日配额耗尽，改用本机curl走代理http://127.0.0.1:7897抓取原文全文。存疑字段：LinkedIn档案未能在页面层直核（仅快照），置信度中高。2024-2025年黄金储备争议仅收录Qui est Qui定性表述， hunger-strike传闻（2025-01社交媒体帖）未获权威证实故不收录。2026-11-14补弱轮（社交账号增强检索）：未找到可核实的本人新增账号，social_accounts维持1个（LinkedIn旧档karamo-kaba-5273a24），本轮不改写该列表。检索过程与排除依据：①工具降级——WebSearch当日配额耗尽，改用mcp Google搜索接口并按上一轮惯例以本机curl走代理http://127.0.0.1:7897直抓页面；②X平台未发现本人个人账号，x.com/bcrggn系央行机构号（BCRG官网页脚确认）；③BCRG官网（bcrg-guinee.org）页脚四个社交链接全部指向机构账号（facebook.com/bcrgguinee、twitter.com/bcrggn、LinkedIn公司页banque-centrale-de-la-république-de-guinée、YouTube频道UC7kQNEVFIqmKo3jYdOftkRw），不含行长个人页；④Facebook检索到至少9个同名profile（Conakry居住者数名、Kankan就读Kofi Annan学生、Siguiri淘金者、Digital creator『Kanigbé Karamo Kaba』等），均被登录墙拦截（curl仅返回约1.5KB认证墙页），页内无BCRG行长/经济学家/巴黎一大任何身份标记；Kaba系几内亚大姓，同名陷阱下全部排除、不写入；⑤Instagram仅karamo5024（53粉丝2帖）与karamokalouba（Karamo Kalouba Kaba，中间名不同）等同名者，无身份标记，排除；⑥YouTube全部访谈内容发布于媒体频道（Africa 24、Voxafrica、DJOMA TV），无本人频道；⑦LinkedIn检索发现第二个巴黎区同名档案fr.linkedin.com/in/karamo-kaba-55265910（索引快照仅显示『Paris et périphérie』，500+人脉、约4616关注者，2023-08-28唯一可见活动为转发BCRG机构页关于行长的帖文，转发语第三人称提及『Le Gouverneur de la #BCRG, Dr Karamo KABA』），因无任何履历/雇主信息且转发行为不构成归属证据，无法确认系本人（不排除为本人重复账号），谨慎起见不写入、留待后续多源核验；第三方聚合站afrimoneyfinance将该URL标注为BCRG机构LinkedIn，经与官网页脚比对系张冠李戴（官网实际链接公司页）。结论：本轮NONE-FOUND。2026-11-15复核轮（巴黎区第二同名档案karamo-kaba-55265910归属裁决）：Google组合检索（\"karamo-kaba-55265910\"精确串、\"Karamo Kaba\" linkedin Paris、site:fr.linkedin.com \"Karamo Kaba\"、\"in/karamo-kaba-55265910\"）取得多组索引快照，该档案信息始终仅有『Paris et périphérie、500+关系、约5k关注者（上轮快照约4616，本轮显示5 k abonnés）』，全部快照均无headline/雇主/教育任何履历锚点——法国区目录页（fr.linkedin.com/pub/dir/Karamo/Kaba/fr-0-France，『7 résultats』）中本档案仅列地名，而已收录档案karamo-kaba-5273a24则同页显示『ECOFI INVESTISSEMENTS』 employer，反衬候选档案无职业信息；唯一可见活动仍为2023-08-28第三人称转发BCRG机构页行长帖文（『Le Gouverneur de la #BCRG, Dr Karamo KABA』），转发不构成归属证据；法国区同名密集：同页目录另有Cergy学生（karamo-kaba-6281861bb）、LCL顾问Karamo-Mady（karamo-mady-kaba-0b75b034），全球『Karamo Kaba』档案90+，几内亚国内另有ARPT处长（karamo-kaba-7a9a63224）、计划部合作署副署长（karamo-kaba-mba-5b8443164）等同名者；第三方afrimoneyfinance.org（2026-06-03快照）将该URL标注为BCRG机构LinkedIn，经与BCRG官网页脚比对仍系张冠李戴（官网实链公司页banque-centrale-de-la-république-de-guinée）；LinkedIn页面直抓被反爬拦截（read_url 502 Bad Gateway，上轮curl HTTP 405），页面层无法核验。裁决：无任何履历锚点无法确证系本人（不排除本人早年巴黎时期旧账号/重复账号），同名陷阱下亦无法确证系他人，裁定(c)无法裁定，不写入，social_accounts维持1个。同轮复核既有条目karamo-kaba-5273a24：Google索引新快照仍显示『ECONOMIST at ECOFI INVESTISSEMENTS + Université Paris 1 Panthéon-Sorbonne、Paris et périphérie、60 abonnés 35+关系』，档案仍活跃在线，原归属判断依据不变。",
     "quotes": [
       {
         "title": "Biographie de Karamo Kaba | Qui est Qui en Guinée",

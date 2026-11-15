@@ -5,14 +5,15 @@
     "name_zh": "人民民主党",
     "name_en": "Peoples Democratic Party",
     "aliases": [
-      "PDP"
+      "PDP",
+      "人民民主党"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
-    "founded_date": "1998-01-01",
-    "website": "http://www.peoplesdemocraticparty.net/",
+    "founded_date": "1998-08-31",
+    "website": "https://peoplesdemocraticparty.com.ng/",
     "wikidata_qid": "Q1551163"
   },
   "social_accounts": [
@@ -20,7 +21,7 @@
       "platform": "twitter",
       "account_name": "OfficialPDPNig",
       "url": "https://twitter.com/OfficialPDPNig",
-      "source_note": "wikidata",
+      "source_note": "wikidata 收录；2025-11-15 党代会公告等官方帖文经搜索验证，账号持续活跃",
       "source": 3,
       "user_id": "747064131166044160",
       "username": "OfficialPDPNig",
@@ -30,45 +31,239 @@
       "platform": "facebook",
       "account_name": "officialpdpnig",
       "url": "https://facebook.com/officialpdpnig",
-      "source_note": "wikidata",
+      "source_note": "wikidata 收录；Facebook 页面名称 Official Peoples Democratic Party (PDP) Nigeria",
       "source": 6,
       "user_id": "fb#RHINO#100050658511735",
       "username": "officialpdpnig",
       "nickname": "Official Peoples Democratic Party (PDP) Nigeria"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "officialpdpnig",
+      "url": "https://www.instagram.com/officialpdpnig/",
+      "source_note": "官方 Instagram 账号，发布 2025 年伊巴丹党代会及党务声明等多则帖文，经搜索验证",
+      "source": 8,
+      "user_id": null,
+      "username": "officialpdpnig",
+      "nickname": null
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "PDP官方网站 (PDP Nigeria Official Website)",
+      "url": "https://peoplesdemocraticparty.com.ng/",
+      "description": "人民民主党官方网站，提供党务介绍、党章纲领、全国工作委员会(NWC)成员、新闻公告与联系方式；总部地址：阿布贾Wuse Zone 5 Michael Okpara街1970号地块",
+      "source": "https://peoplesdemocraticparty.com.ng/"
+    },
+    {
+      "name": "PDP党员电子注册门户 (PDP e-Registration Portal)",
+      "url": "https://pdpnigeria.org/",
+      "description": "该党线上入党/党员电子注册门户，在2026年3月2日启动的全国党员电子登记运动（为期三周、覆盖36州及联邦首都区各选区）中用于落实《2026年选举法》向独立国家选举委员会(INEC)提交电子党员名册的要求",
+      "source": "https://www.instagram.com/reel/DWJReUgMU4p/"
+    }
+  ],
   "key_people": [
     {
       "person_id": "NG-PERSON-000038",
       "name": "乌切·赛康杜斯 (Uche Secondus)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "2017-2021年任PDP全国主席",
+      "description": "河流州政治人物，2017年12月出任全国主席，任内经历2019年大选败选并在开票阶段指控选举委员会计票不实；2021年卸任，为近年最具代表性的前任党魁之一"
+    },
+    {
+      "person_id": "NG-PERSON-000054",
+      "name": "尼耶索姆·威克 (Nyesom Wike)",
+      "title": "党内派系领袖 (Party Faction Leader)",
+      "title_description": "前河流州州长，现任联邦首都区部长",
+      "description": "前河流州州长，2023年起在全体进步大会党(APC)主导的联邦政府中出任联邦首都区部长，同时保持PDP党内影响力；与主流派决裂后形成对立派系，2025年11月被伊巴丹党代会开除出党，其阵营2026年3月29日在阿布贾举行的平行大会及所任命的代理全国主席亦被最高法院判决宣告无效"
+    },
+    {
+      "person_id": "NG-PERSON-000523",
+      "name": "卡比鲁·塔尼穆·图拉基 (Kabiru Tanimu Turaki)",
+      "title": "全国主席 (National Chairman)",
+      "title_description": "2025年11月伊巴丹全国代表大会当选；2026年5月4日起任临时全国工作委员会主席",
+      "description": "资深出庭律师(SAN)、前联邦部长；2025年11月15-16日伊巴丹全国选举代表大会上以1,516票当选全国主席，2026年4月30日最高法院撤销该大会后，于5月4日第103次全国执行委员会(NEC)会议上被任命为13人临时全国工作委员会主席，其机构的INEC法定承认仍在诉讼中"
+    },
+    {
+      "person_id": "NG-PERSON-000993",
+      "name": "阿道弗斯·瓦巴拉 (Adolphus Wabara)",
+      "title": "受托人委员会主席 (Chairman, Board of Trustees)",
+      "title_description": "前参议院议长，现主持党的受托人委员会",
+      "description": "前参议院议长；2026年4月30日最高法院判决党内两大全国工作委员会均告无效后，依党章第32(5)条宣布由受托人委员会接管党的全国领导权，并主持5月4日NEC会议任命临时全国工作委员会；2026年11月4日上诉法院驳回其等八人要求INEC承认临时机构的上诉"
+    },
+    {
+      "person_id": "NG-PERSON-000994",
+      "name": "塔奥菲克·阿拉帕贾 (Taofeek Arapaja)",
+      "title": "全国书记 (National Secretary)",
+      "title_description": "2025年11月伊巴丹党代会当选；2026年5月起兼任临时全国工作委员会书记",
+      "description": "外交官出身的党务元老，2021-2023年任副全国主席（南区）；2025年11月伊巴丹代表大会当选全国书记，2026年5月获任命为临时全国工作委员会书记"
+    },
+    {
+      "person_id": "NG-PERSON-000775",
+      "name": "阿提库·阿布巴卡尔 (Atiku Abubakar)",
+      "title": "前副总统 (Former Vice President)",
+      "title_description": "1999-2007年任尼日利亚副总统；PDP 2019、2023年总统候选人",
+      "description": "该党元老级领导人，1999年作为奥巴桑乔竞选搭档出任副总统；2019年与2023年两度作为PDP总统候选人败于APC（2023年得票约698万、29.07%），在2025-2026年党内危机中属于主流派阵营"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "departments": [
+    {
+      "name": "全国工作委员会 (National Working Committee)",
+      "dept_id": null,
+      "head": "卡比鲁·塔尼穆·图拉基 (Kabiru Tanimu Turaki)",
+      "description": "党的最高日常执行机构（NWC），由全国主席、全国书记、各职权书记及副主席等组成；2026年5月4日NEC会议后以13人临时NWC形式运作，其法定承认尚未获INEC认可",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国执行委员会 (National Executive Committee)",
+      "dept_id": null,
+      "head": "卡比鲁·塔尼穆·图拉基 (Kabiru Tanimu Turaki)",
+      "description": "党章规定的核心决策机构（NEC），由全国机构与36州及联邦首都区组织代表组成；2026年4月30日最高法院判决后于5月4日召开第103次会议，任命临时全国工作委员会并部署2027年大选准备",
+      "parent_dept_id": null
+    },
+    {
+      "name": "受托人委员会 (Board of Trustees)",
+      "dept_id": null,
+      "head": "阿道弗斯·瓦巴拉 (Adolphus Wabara)",
+      "description": "党的\"良心\"机构与第二大机构（BoT）；2026年4月30日依党章第32(5)条在两大全国工作委员会均被宣告无效后接管党的全国领导权，并主导党内和解与临时机构组建",
+      "parent_dept_id": null
+    },
+    {
+      "name": "州长论坛 (PDP Governors' Forum)",
+      "dept_id": null,
+      "head": "巴拉·穆罕默德 (Bala Mohammed)",
+      "description": "由PDP籍州长组成的协调机构，主席为包奇州州长巴拉·穆罕默德；在2025年州长大批叛党、党内危机深化后，与奥约州州长塞伊·马金德一道成为支撑党的中坚力量",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-23",
+      "title": "PDP州长成批叛投执政党APC，州长阵地几近清零",
+      "description": "三角洲州州长奥博雷沃里于2025年4月23日率结构转投全体进步大会党(APC)，开启退党潮；阿夸伊博姆州州长埃诺(6月6日)、埃努古州州长姆巴(10月14日)、巴耶尔萨州州长迪里(10月15日)相继出走，奥孙州州长阿德莱克于11月6日转投和谐党(Accord)，塔拉巴州州长凯法斯(11月)与河流州州长福巴拉(12月8日)随后脱离该党；截至2025年12月仅余亚当沃、包奇、高原、塔拉巴、扎姆法拉、奥约等少数州阵地",
+      "impact": "该党失去绝大多数州长席位与地方执政资源，作为最大反对党的组织基础和2027年选战筹码被严重削弱",
+      "source": "https://www.bbc.com/pidgin/articles/cly314w9yedo"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "伊巴丹全国代表大会选出图拉基为全国主席，开除威克等派系人物",
+      "description": "11月15-16日在伊巴丹举行的全国选举代表大会上，资深律师卡比鲁·塔尼穆·图拉基以1,516票当选全国主席，塔奥菲克·阿拉帕贾当选全国书记；大会同时将尼耶索姆·威克、前埃基蒂州州长法约塞、全国书记安扬乌等人开除出党，结束乌马尔·达马古姆自2023年起的代理主席时代",
+      "impact": "党内主流派完成领导层换届，但对立派系拒绝承认并提起连环诉讼，直接引发此后长达一年的领导权司法之争",
+      "source": "https://www.vanguardngr.com/2025/11/turaki-emerges-new-national-chairman-as-pdp-ibadan-convention-holds-amid-court-battles/"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "联邦高等法院裁定撤销伊巴丹党代会",
+      "description": "联邦高等法院判决撤销该党2025年11月在伊巴丹举行的全国代表大会决议，禁止图拉基等人以全国官员身份行事",
+      "impact": "党代会产出的全国工作委员会合法性受司法否定，党内出现联邦高等法院与奥约州高等法院相互矛盾的裁判，领导权陷入悬置",
+      "source": "https://www.arise.tv/court-nullifies-pdp-national-convention-in-ibadan/"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "最高法院终审撤销伊巴丹党代会，受托人委员会依党章接管党务",
+      "description": "最高法院以3:2分庭裁决维持上诉法院对伊巴丹大会的撤销判决，同时五名大法官一致维持对安扬乌、巴图雷、阿吉巴德三人的停职处分，并宣布对立派系任命的代理全国主席阿卜杜拉赫曼·穆罕默德、其看守班子及2026年3月29日阿布贾平行大会自始无效；受托人委员会主席瓦巴拉同日依党章第32(5)条宣布接管党的全国领导权",
+      "impact": "图拉基与阿卜杜拉赫曼两个全国工作委员会同时失去法律效力，党一度没有任何合法全国领导机构，由受托人委员会临时主持并向NEC移交组建临时机构的任务",
+      "source": "https://gazettengr.com/pdp-bot-takes-control-of-party-says-supreme-court-nullified-wike-backed-convention/"
+    },
+    {
+      "date": "2026-05-04",
+      "title": "第103次NEC会议任命图拉基牵头的13人临时全国工作委员会",
+      "description": "由受托人委员会主持的第103次全国执行委员会(NEC)会议在阿布贾任命13人临时全国工作委员会，图拉基任主席、阿拉帕贾任书记，以对接《2026年选举法》要求（2026年4月2日前提交电子党员名册）并备战2027年大选（总统与国民议会选举定于2027年1月16日）",
+      "impact": "主流派重获组织形态并立即启动3月2日开始的全国党员电子注册，但临时机构的INEC法定承认问题持续发酵",
+      "source": "https://www.thecable.ng/breaking-makinde-backed-pdp-appoints-turaki-as-interim-national-chairman/"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "上诉法院驳回临时NWC寻求INEC承认的上诉",
+      "description": "阿布贾上诉法院三人特别合议庭（奥加库大法官主审）驳回瓦巴拉等八人诉独立国家选举委员会(INEC)及另六被上诉人的案件（案号CA/ABJ/CV/1221/2026），整体维持联邦高等法院拒绝强制INEC承认图拉基领导的临时全国工作委员会的判决；临时NWC全国宣传书记埃梅莫邦表示将上诉至最高法院",
+      "impact": "该党全国领导机构的法定承认继续悬置，临时NWC与INEC的对立延续至最高法院，2027年大选参选与候选资格存在不确定性",
+      "source": "https://punchng.com/pdp-crisis-appeal-court-rejects-recognition-of-interim-nwc/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-PARTY-001",
+      "org_name": "全体进步大会党 (All Progressives Congress)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚执政党，2013年由多党合并成立，2015年起执政",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-GOV-039",
+      "org_name": "独立国家选举委员会 (Independent National Electoral Commission)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦选举管理机构，负责政党注册监督、选举组织及政党电子党员名册接收",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "NG-GOV-004",
+      "org_name": "国民议会 (National Assembly of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦两院制立法机构；PDP在参议院占5席、众议院占72席（2026年11月），并设有国民议会党团",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦共和国政府；PDP于1999-2015年连续16年主导联邦政府（奥巴桑乔、亚拉杜瓦、乔纳森三任总统）",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "G-34团体 (G-34)",
+      "org_type": "political_group",
+      "org_description": "1990年代反对阿巴查军人统治的知名人士团体联盟（由G-18发展而来，以埃克韦梅、加纳等人为核心），1998年8月31日联合多个政治团体共同创建PDP",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "非洲民主联盟 (Democrat Union of Africa)",
+      "org_type": "INTL",
+      "org_description": "地区性中右翼与自由主义政党国际联盟，PDP为其成员党",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "人民民主党是尼日利亚两大主要政党之一和当前最大反对党，核心活动围绕政治代表与选举竞争展开：在全国及36州组织党员发展与动员（2026年3月起推行全国性党员电子注册登记）、研究发布政策纲领并推举总统、州长、国民议会与州议会候选人、开展竞选筹款与宣传，以及在野期间对执政党施政进行监督问责。该党持中右立场，经济上主张自由市场、私有化与放松管制（执政期间推行电信业改革与全国医疗保险计划），社会议题趋于保守，同时强调扶贫与产油区（尼日尔三角洲）利益分配。组织上通过全国代表大会、全国执行委员会(NEC)、全国工作委员会(NWC)、受托人委员会(BoT)及州长论坛运作，全国总部设于阿布贾Wuse Zone 5的Wadata Plaza。该党1998年8月31日由G-34等反军人统治团体联合创立，1999-2015年连续执政16年，2015年败选后成为最大反对党；2025-2026年深陷州长叛党潮与领导权司法危机，正寻求在2027年大选中维持主要反对党地位。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），因此PDP作为政党层面没有任何针对APEC的正式立场、声明或政策文件，该议题不构成其政策议程的一部分。该党的对外交往集中于西非区域与泛多边框架：其所属的地区性中右政党联盟为\"非洲民主联盟\"(Democrat Union of Africa)；尼日利亚的实际国际合作依托ECOWAS（PDP在1999-2015年执政期间深度参与西非区域一体化进程与地区危机调停）、非洲联盟、联合国及英共同体等多边机制。在经贸议题上，该党的核心关切是维护联邦-州财政分配现状与尼日尔三角洲产油州利益，对区域贸易协定、跨国基建等议题的主张主要通过其全国代表大会纲领和州长论坛表态体现，而非通过APEC类平台。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/6/62/Logo_of_the_Peoples_Democratic_Party_%28Nigeria%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-PARTY-002.png",
-    "minio_path": "default/popular-org-profile/ng/NG-PARTY-002.png"
+    "minio_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-13",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media"
     ],
-    "completeness_score": 24,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 96,
+    "notes": "Phase 3 enrichment: verified official website (peoplesdemocraticparty.com.ng), social accounts (X/Facebook/Instagram), party organs (NWC/NEC/BoT/Governors' Forum), 2025 Ibadan convention and 2026 Supreme Court/NEC/Court of Appeal timeline, governor defection wave; key people cross-checked across Vanguard, BBC, Punch, TheCable, Premium Times, Arise, Peoples Gazette.",
+    "quotes": [
+      {
+        "title": "PDP BOT takes control of party, says Supreme Court nullified Wike-backed convention (Peoples Gazette, 2026-04-30)",
+        "url": "https://gazettengr.com/pdp-bot-takes-control-of-party-says-supreme-court-nullified-wike-backed-convention/"
+      },
+      {
+        "title": "PDP crisis: Appeal court rejects recognition of interim NWC (The Punch, 2026-11-04)",
+        "url": "https://punchng.com/pdp-crisis-appeal-court-rejects-recognition-of-interim-nwc/"
+      },
+      {
+        "title": "Turaki emerges new national chairman as PDP Ibadan convention holds amid court battles (Vanguard, 2025-11-16)",
+        "url": "https://www.vanguardngr.com/2025/11/turaki-emerges-new-national-chairman-as-pdp-ibadan-convention-holds-amid-court-battles/"
+      },
+      {
+        "title": "Fubara, Adeleke and list of oda govnors wey don leave PDP since 2023 (BBC News Pidgin, 2025-12-09)",
+        "url": "https://www.bbc.com/pidgin/articles/cly314w9yedo"
+      }
+    ]
   }
 }

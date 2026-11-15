@@ -2,42 +2,359 @@
   "org_id": "NG-NGO-003",
   "basic_info": {
     "name_original": "BudgIT",
-    "name_zh": null,
+    "name_zh": "布吉特",
     "name_en": "BudgIT",
-    "aliases": [],
+    "aliases": [
+      "The BudgIT Foundation",
+      "BudgIT Foundation",
+      "BudgIT Nigeria"
+    ],
     "org_type": "NGO",
     "org_subtype": "advocacy_group",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
     "founded_date": "2011-01-01",
-    "website": "http://yourbudgit.com/",
+    "website": "https://budgit.org/",
     "wikidata_qid": "Q64006852"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "nonprofit"
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "BudgIT Nigeria",
+      "url": "https://x.com/BudgITng",
+      "source": 3,
+      "source_note": "X（原Twitter）官方账号，简介为尼日利亚公民科技组织；2026年11月仍活跃发布COP31与State of States等内容（搜索核实）",
+      "nickname": "BudgIT Nigeria",
+      "username": "BudgITng",
+      "user_id": null
+    },
+    {
+      "platform": "facebook",
+      "account_name": "BudgIT",
+      "url": "https://www.facebook.com/budgitng/",
+      "source": 6,
+      "source_note": "Facebook官方主页（拉各斯，NGO类别），搜索快照显示约8.37万关注者、4.9分评价",
+      "nickname": "BudgIT",
+      "username": "budgitng",
+      "user_id": null
+    },
+    {
+      "platform": "instagram",
+      "account_name": "BudgIT Foundation",
+      "url": "https://www.instagram.com/budgitng/",
+      "source": 8,
+      "source_note": "Instagram官方账号@budgitng，简介与X一致（公共财政透明与问责）；搜索快照显示约1.9万关注者",
+      "nickname": "BudgIT Foundation",
+      "username": "budgitng",
+      "user_id": null
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "BudgIT Nigeria",
+      "url": "https://www.linkedin.com/company/budgit-nigeria",
+      "source": 17,
+      "source_note": "LinkedIn官方公司主页，发布15周年、人员任命等机构动态",
+      "nickname": "BudgIT Nigeria",
+      "username": "budgit-nigeria",
+      "user_id": null
+    },
+    {
+      "platform": "whatsapp",
+      "account_name": "BudgIT",
+      "url": "https://wa.me/2349083331633",
+      "source": 20,
+      "source_note": "budgit.org官网浮动联系组件提供的官方WhatsApp联系号码（+234 908 333 1633）",
+      "nickname": null,
+      "username": null,
+      "user_id": null
+    }
   ],
-  "apec_stance": null,
+  "digital_assets": [
+    {
+      "name": "Tracka（社区项目追踪平台）",
+      "url": "https://yourtracka.org",
+      "description": "2014年上线的政府项目社区追踪平台，公民可发布社区发展项目照片、与民选代表沟通并敦促项目完工；维基百科记载其功能覆盖尼日利亚20个州，是BudgIT最具代表性的服务交付追踪工具。",
+      "source": "官网导航栏Data Access栏目与英文维基百科"
+    },
+    {
+      "name": "GovSpend（政府支出平台）",
+      "url": "https://www.govspend.ng",
+      "description": "尼日利亚联邦政府支出与预算执行数据公开平台，供公民查询与监督公共资金流向。",
+      "source": "官网导航栏Data Access栏目"
+    },
+    {
+      "name": "OpenStates（州级财政开放平台）",
+      "url": "https://openstates.ng",
+      "description": "尼日利亚36州州级预算与财政数据开放平台，推动州政府财政透明。",
+      "source": "官网导航栏Data Access栏目"
+    },
+    {
+      "name": "State of States 数据平台",
+      "url": "https://stateofstates.budgit.org",
+      "description": "BudgIT年度旗舰报告《State of States》官方数据与报告库，评估各州财政绩效与可持续性，2026年发布第11版。",
+      "source": "官网导航栏Data Access栏目"
+    },
+    {
+      "name": "FG Budget Dashboard（联邦预算仪表盘）",
+      "url": "https://budgit.org/fg-budget-dashboard/",
+      "description": "尼日利亚联邦预算可视化仪表盘，将联邦预算文件转化为可交互数据。",
+      "source": "官网导航栏Data Access栏目"
+    },
+    {
+      "name": "PHC Tracka（初级卫生保健追踪平台）",
+      "url": "http://phctracka.org",
+      "description": "追踪基本医疗保健基金（BHCPF）使用与初级卫生中心（PHC）运转状况的问责平台，监测政府卫生承诺与社区现实的差距。",
+      "source": "官网首页外链与2026-08-19官网文章"
+    },
+    {
+      "name": "Bimi AI（预算数据对话助手）",
+      "url": "https://bimi.budgit.org",
+      "description": "BudgIT推出的对话式AI工具，用户可用自然语言查询预算与公共财政数据。",
+      "source": "官网导航栏Data Access栏目（Chat With Bimi AI）"
+    },
+    {
+      "name": "State Fiscal League（州财政联盟排名平台）",
+      "url": "https://fiscalleague.budgit.org",
+      "description": "对各州财政表现进行排名与比较的平台，与State of States报告联动。",
+      "source": "官网导航栏Data Access栏目"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000517",
+      "name": "奥卢塞恩·奥尼格宾德 (Oluseun Onigbinde)",
+      "title": "联合创始人兼全球总监 (Co-founder & Global Director)",
+      "title_description": "BudgIT两位联合创始人之一，现任全球总监，负责机构整体战略与国际扩张",
+      "description": "财政透明与开放数据倡导者。2011年在拉各斯Co-Creation Hub黑客马拉松上与Joseph Agunbiade共同创立BudgIT；领导机构从尼日利亚单一项目发展为覆盖6国的泛非公民科技组织。托尼·埃卢梅卢基金会成员页记载其获2012年未来奖（Future Awards）科学类奖项；2026年9月以个人反思文章纪念机构15周年。"
+    },
+    {
+      "person_id": "NG-PERSON-000964",
+      "name": "约瑟夫·阿贡比亚德 (Joseph Agunbiade)",
+      "title": "联合创始人兼首席技术官 (Co-founder & Chief Technical Officer)",
+      "title_description": "BudgIT两位联合创始人之一，负责机构技术方向",
+      "description": "与Oluseun Onigbinde于2011年共同创立BudgIT并担任首席技术官；英文维基百科与官网Leadership页均记载其CTO职务，主导预算数据可视化与公民科技产品的技术体系。"
+    },
+    {
+      "person_id": "NG-PERSON-000965",
+      "name": "瓦亚拉·夸加 (Vahyala Kwaga)",
+      "title": "尼日利亚国别主任 (Country Director, Nigeria)",
+      "title_description": "2026年4月1日起执掌BudgIT尼日利亚国别业务",
+      "description": "治理与政策倡导者。2021年加入BudgIT，2025年11月出任新设的副国别主任，2026年4月1日起经竞聘出任国别主任（官网公告与Realnews Magazine 2026-04-07报道）；多次代表机构就州财政改革、预算执行与审计采购缺口公开发声。"
+    },
+    {
+      "person_id": "NG-PERSON-000966",
+      "name": "约瑟夫·阿门纳加翁 (Joseph Amenaghawon)",
+      "title": "Civic Hive负责人 (Head, Civic Hive)",
+      "title_description": "公民创新孵化平台Civic Hive负责人；2025年11月至2026年4月曾任代理国别主任",
+      "description": "拥有逾二十年战略领导、治理改革与项目设计经验。2025年11月Gabriel Okeowo离任后被任命为代理国别主任，主持机构过渡直至2026年4月新任国别主任到任；官网Leadership页现任Civic Hive负责人。"
+    },
+    {
+      "person_id": "NG-PERSON-000967",
+      "name": "科拉沃莱·埃格贝耶米 (Kolawole Egbeyemi)",
+      "title": "首席创新官 (Chief Innovation Officer)",
+      "title_description": "负责BudgIT公民科技产品与创新条线",
+      "description": "官网Leadership页Team Leads栏列名的首席创新官，统筹Tracka、GovSpend、Bimi AI等数字产品的创新与产品化工作。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "Tracka项目部 (Tracka)",
+      "dept_id": null,
+      "head": "约书亚·奥西耶米 (Joshua Osiyemi)",
+      "description": "运营2014年上线的社区政府项目追踪平台Tracka，覆盖尼日利亚20个州，组织社区监测员上传项目照片并向民选代表问责。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "研究与政策咨询部 (Research & Policy Advisory)",
+      "dept_id": null,
+      "head": "阿德乔克·阿金博德 (Adejoke Akinbode)",
+      "description": "承担年度《State of States》州财政报告、联邦预算分析、债务研究与政策倡导，是机构旗舰出版物的研究主力。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "卫生系统强化部 (Strengthening Health Systems)",
+      "dept_id": null,
+      "head": "比奥贝莱·戴维森 (Biobele Davidson)",
+      "description": "负责基本医疗保健基金（BHCPF）追踪与初级卫生中心（PHC Tracka）监测，通过数字工具弥合政府卫生承诺与社区医疗现实的差距。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "自然资源与气候治理部 (Natural Resource and Climate Governance)",
+      "dept_id": null,
+      "head": "埃内比·奥帕卢瓦 (Enebi Opaluwa)",
+      "description": "负责采掘业透明、气候财政与自然资源治理议题；2026年11月代表机构赴土耳其安塔利亚参加COP31并在尼日利亚馆举办边会。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术部 (Tech)",
+      "dept_id": null,
+      "head": "奥卢瓦塞贡·伊格 (Oluwasegun Ige)",
+      "description": "负责机构各数据平台与公民科技工具的开发、运维与数据工程。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "Civic Hive公民创新实验室 (Civic Hive)",
+      "dept_id": null,
+      "head": "约瑟夫·阿门纳加翁 (Joseph Amenaghawon)",
+      "description": "2017年设立的公民创新与孵化平台，培育公民科技创业项目与开放数据社区。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "新经济与情报部 (New Economy and Intelligence)",
+      "dept_id": null,
+      "head": "萨拉图·阿比奥拉 (Saratu Abiola)",
+      "description": "关注新经济议题，产出情报型分析产品并支持机构公共传播。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "财务与行政部 (Finance and Administration)",
+      "dept_id": null,
+      "head": "奥卢瓦芬米拉约·阿德塞奥卢 (Oluwafunmilayo Adeseolu)",
+      "description": "负责机构财务、行政与运营支持；人事与绩效条线另由Ijeoma Chukwuma负责。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-03",
+      "title": "发布第11版《2026 State of States报告：从拨付到影响》",
+      "description": "BudgIT发布旗舰年度报告第11版《From Allocation to Impact: Rethinking State Spending Priorities》，评估35个州2025财年财政表现，引入更重发展成效的修订方法论（覆盖农业、卫生、教育及供水卫生支出评估）；报告显示拉各斯州以1.71万亿奈拉内生收入（IGR）蝉联最佳表现州，埃努古州IGR同比增长125.91%。",
+      "impact": "为36州财政改革与公民监督提供年度基准，修订方法论将州际竞争焦点从收入规模转向支出成效；发布当日机构X账号同步直播，媒体与州政府广泛引用。",
+      "source": "https://budgit.org/post_publications/from-allocation-to-impact-rethinking-state-spending-priorities-2026-state-of-states-report/"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "代表团参加土耳其安塔利亚COP31并在尼日利亚馆举办边会",
+      "description": "BudgIT自然资源与气候治理团队赴土耳其安塔利亚参加联合国气候变化大会COP31（2026年11月9日至20日），在尼日利亚馆进行现场直播报道，官网首页同步提供COP31边会（Side Event）线上参会入口。",
+      "impact": "将尼日利亚气候财政与自然资源治理议题带入国际多边场合，强化机构在气候透明领域的国际能见度与话语权。",
+      "source": "https://x.com/BudgITng/status/2120850892408725550"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "BudgIT迎来15周年：从拉各斯创想到六国泛非公民科技组织",
+      "description": "BudgIT启动15周年庆祝（#BudgITAt15），官方宣布机构已扩展至尼日利亚、加纳、利比里亚、塞拉利昂、塞内加尔与美国六国；Proshare等财经媒体统计其15年累计触达约2200万公民，全球总监Oluseun Onigbinde回顾2011年创立历程。",
+      "impact": "巩固其作为非洲领先公民科技组织（civic tech）与公共财政智库的品牌地位，为下一阶段跨国扩张与AI产品布局蓄势。",
+      "source": "https://globalupfront.com/2026/08/17/budgit-turns-15-africas-leading-civic-tech-organisation-marks-a-decade-and-a-half-of-fiscal-transparency-and-citizen-empowerment/"
+    },
+    {
+      "date": "2026-04-06",
+      "title": "任命Vahyala Kwaga为尼日利亚国别主任（4月1日生效）",
+      "description": "BudgIT宣布Vahyala Kwaga自2026年4月1日起出任尼日利亚国别主任。Kwaga于2021年加入机构，2025年11月起任副国别主任；此前Gabriel Okeowo（任职8年）于2025年11月离任，过渡期由Joseph Amenaghawon任代理国别主任。",
+      "impact": "完成创业后时代的领导层代际更替，机构治理进入'全球总监+国别主任'的多国架构；业务连续性在过渡期未受影响（State of States等项目照常推进）。",
+      "source": "https://realnewsmagazine.net/budgit-appoints-vahyala-kwaga-to-lead-nigeria-operations-as-country-director/"
+    },
+    {
+      "date": "2025-11-01",
+      "title": "官方公告：国别主任Gabriel Okeowo卸任，新设副国别主任职位",
+      "description": "BudgIT官网发布公告，宣布任职8年的国别主任Gabriel Okeowo卸任，任命Joseph Amenaghawon为代理国别主任，并作为战略继任计划新设副国别主任职位、由Vahyala Kwaga出任；新国别主任将通过严格的竞聘流程产生。",
+      "impact": "启动机构成立以来最大规模领导层调整；Okeowo任内推动机构扩展至加纳、塞拉利昂、利比里亚与塞内加尔，其离任标志BudgIT从创始人主导转向制度化治理。",
+      "source": "https://budgit.org/budgit-announces-the-exit-of-country-director-gabriel-okeowo-names-joseph-amenaghawon-as-acting-country-director/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-035",
+      "org_name": "联邦预算和经济计划部 (Federal Ministry of Budget and Economic Planning)",
+      "org_type": "government_ministry",
+      "org_description": "尼日利亚联邦预算编制与经济计划主管部门，是BudgIT预算透明倡导的核心监督与合作对象；BudgIT持续发布联邦预算分析（如FG 2026预算评估）并推动预算改革。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-GOV-010",
+      "org_name": "联邦财政部 (Federal Ministry of Finance)",
+      "org_type": "government_ministry",
+      "org_description": "联邦财政主管部门；其收入、支出与公共债务数据是BudgIT GovSpend平台与联邦预算分析的核心监督领域。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "government",
+      "org_description": "BudgIT自2011年起以预算数据可视化推动联邦政府公共财政问责的整体对象；2019年与经济和金融犯罪委员会（ICPC）等政府机构建立合作关系，2015年曾受卡杜纳州政府委托建设Open Budget门户。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-NGO-002",
+      "org_name": "民主与发展中心 (Centre for Democracy and Development)",
+      "org_type": "ngo",
+      "org_description": "尼日利亚民主治理类公民社会组织；BudgIT曾为其开发Buharimeter平台，用于追踪布哈里总统竞选承诺的落实情况（英文维基百科记载）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "开放社会西非倡议 (Open Society Initiative for West Africa, OSIWA)",
+      "org_type": "foundation",
+      "org_description": "开放社会基金会（OSF）下属西非区域资助机构；BudgIT官方项目报告载明双方在预算、应急资金等问责领域开展合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "奥米迪亚网络 (Omidyar Network)",
+      "org_type": "philanthropic_fund",
+      "org_description": "eBay创始人皮埃尔·奥米迪亚创立的慈善投资机构，BudgIT早期核心资助方：2014年提供40万美元资助，2017年1月与盖茨基金会联合追加300万美元；该机构的公民科技版图后转型为Luminate。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "麦克阿瑟基金会 (MacArthur Foundation)",
+      "org_type": "foundation",
+      "org_description": "美国私人基金会，官网将BudgIT Foundation列为受助机构（grantee）；GrantsDatabase汇总其五笔可识别资助合计约193万美元，支持预算透明与公共支出问责。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "盖茨基金会 (Gates Foundation)",
+      "org_type": "foundation",
+      "org_description": "比尔及梅琳达·盖茨基金会；2017年1月与Omidyar Network联合向BudgIT提供300万美元资助（英文维基百科记载），支持其预算透明与公民参与工作。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "BudgIT（布吉特，正式注册名The BudgIT Foundation）是2011年由Oluseun Onigbinde与Joseph Agunbiade在拉各斯Co-Creation Hub黑客马拉松上创立的公民科技组织，总部位于拉各斯Yaba，使命是运用创造性技术简化公共信息，培育活跃公民社区，使其能够要求问责、体制改革、高效服务交付与公平社会。核心业务包括：（1）联邦与州级预算数据可视化和分析，年度旗舰报告《State of States》评估各州财政绩效与可持续性（2026年11月发布第11版），并定期发布联邦批准预算分析、债务与收入研究；（2）社区服务交付追踪，旗下Tracka平台（2014年上线）覆盖约20个州，公民可上传政府项目照片、与民选代表对话并敦促项目完工；（3）开放数据产品线，包括GovSpend（联邦支出）、OpenStates（州财政）、FG Budget Dashboard（联邦预算仪表盘）、State Fiscal League（州财政排名）、PHC Tracka（基本医疗保健基金与初级卫生中心监测）及对话式AI工具Bimi AI；（4）地方政府问责工具LG Alert（2019年上线，超50万用户）并与ICPC等反贪机构合作；（5）Civic Hive公民创新孵化（2017年设立）。机构已从尼日利亚扩展至加纳、利比里亚、塞拉利昂、塞内加尔与美国六国，团队50-80余人，15年累计触达约2200万公民（Proshare，2026年）。资金主要来自Omidyar Network（后转型为Luminate）、盖茨基金会、麦克阿瑟基金会、开放社会基金会西非倡议（OSIWA）等国际资助方。",
+  "industries": [
+    "nonprofit",
+    "information_technology"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），因此BudgIT与APEC机制及其议程无直接关联，该组织也未就APEC事务公开发表立场。BudgIT的实际国际合作框架以国际慈善资助网络与多边公民社会联盟为主：Omidyar Network（后转型为Luminate）2014年提供40万美元资助、2017年1月与盖茨基金会联合提供300万美元资助；麦克阿瑟基金会累计五笔可识别资助约193万美元；与开放社会基金会西非倡议（OSIWA）在预算与应急资金问责领域合作；乐施会尼日利亚（Oxfam Nigeria）支持其对采掘业记者的培训。机构层面，2026年11月赴土耳其安塔利亚参加联合国COP31气候大会并在尼日利亚馆举办边会，同时通过在加纳、利比里亚、塞拉利昂、塞内加尔和美国的国别扩张，与西非区域及国际公民社会网络保持协作。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/BudgIT_logo.png/330px-BudgIT_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-NGO-003.png",
-    "minio_path": "default/popular-org-profile/ng/NG-NGO-003.png"
+    "minio_path": null
   },
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia",
-      "official_website"
+      "wikipedia_en",
+      "budgit_official_website",
+      "budgit_leadership_page",
+      "budgit_press_release",
+      "budgit_publication_sos2026",
+      "x_twitter",
+      "facebook",
+      "instagram",
+      "linkedin",
+      "globalupfront",
+      "proshare",
+      "realnewsmagazine",
+      "macfound",
+      "web_search"
     ],
-    "completeness_score": 13,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "quotes": [
+      {
+        "title": "BudgIT使命声明：『To use creative technology to simplify public information, stimulating a community of active citizens and enabling their right to demand accountability, institutional reforms, efficient service delivery and an equitable society.』（官网About Us页）",
+        "url": "https://budgit.org/about-us/"
+      },
+      {
+        "title": "官方公告：『BudgIT Announces the Exit of Country Director, Gabriel Okeowo, Names Joseph Amenaghawon as Acting Country Director』——任职8年的国别主任卸任，新设副国别主任职由Vahyala Kwaga出任（BudgIT官网公告，2025-11-01）",
+        "url": "https://budgit.org/budgit-announces-the-exit-of-country-director-gabriel-okeowo-names-joseph-amenaghawon-as-acting-country-director/"
+      },
+      {
+        "title": "@BudgITng：『WE ARE LIVE AT COP31!!! And we're bringing you all the action straight from the Nigeria Pavilion in Antalya, Turkiye!』（X平台，2026-11-12）",
+        "url": "https://x.com/BudgITng/status/2120850892408725550"
+      }
+    ],
+    "completeness_score": 100,
+    "notes": "Phase3 enrichment 2026-11-13: Wikipedia EN + official site (homepage/about/leadership/updates, yourbudgit.com redirect confirmed to budgit.org) + official announcements + SoS 2026 publication page + X/Facebook/Instagram/LinkedIn handle verification + GlobalUpfront/Proshare/Realnews Magazine news; social accounts verified via search snapshots; COP31 tweet timestamp derived from snowflake ID (2026-11-12). org_subtype advocacy_group retained; prior org_subtype value confirmed valid."
   }
 }

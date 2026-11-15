@@ -11,68 +11,322 @@
     "org_subtype": "ruling_party",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
-    "founded_date": "2013-01-01",
+    "founded_date": "2013-02-06",
     "website": "http://www.apc.com.ng/",
     "wikidata_qid": "Q4729266"
   },
   "social_accounts": [
     {
       "platform": "twitter",
+      "account_name": "OfficialAPCNg",
+      "url": "https://x.com/OfficialAPCNg",
+      "source": 3,
+      "source_note": "X检索核实（2026-11）：账号简介自称APC官方账号（Nigeria ruling party），2018年4月注册，关联网址officialapc.ng；Wikipedia外链同列此账号",
+      "nickname": "APC Nigeria",
+      "username": "OfficialAPCNg",
+      "user_id": null
+    },
+    {
+      "platform": "twitter",
       "account_name": "allprogressives",
       "url": "https://twitter.com/allprogressives",
-      "source_note": "wikidata",
       "source": 3,
-      "user_id": "1851116257",
+      "source_note": "Wikidata Q4729266早期记录的官方账号（user_id 1851116257）；现为在用官方账号OfficialAPCNg所替代的早期条目，供交叉参考",
+      "nickname": "APC All Progressives",
       "username": "allprogressives",
-      "nickname": "APC All Progressives"
+      "user_id": "1851116257"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "OfficialAPC",
+      "url": "https://www.facebook.com/OfficialAPC",
+      "source": 6,
+      "source_note": "Facebook检索核实（2026-11）：页面名All Progressives Congress（Abuja），约22万关注；Wikipedia外链同列此页面",
+      "nickname": "All Progressives Congress",
+      "username": "OfficialAPC",
+      "user_id": null
+    },
+    {
+      "platform": "instagram",
+      "account_name": "officialapcng",
+      "url": "https://www.instagram.com/officialapcng/",
+      "source": 8,
+      "source_note": "Instagram检索核实（2026-11）：账号简介称APC官方Instagram账号（Nigeria ruling party），约1万关注",
+      "nickname": "APC Nigeria",
+      "username": "officialapcng",
+      "user_id": null
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "APC官方网站",
+      "url": "https://apc.com.ng/",
+      "description": "党的官方网站，发布党务新闻、党员注册、2027年大选候选人名单（PDF）与全国工作委员会成员介绍。",
+      "source": "APC官网首页核实（2026-11）"
+    },
+    {
+      "name": "APC官方门户（officialapc.ng）",
+      "url": "https://officialapc.ng/",
+      "description": "Wikipedia外链与APC官方X账号简介所列官方网址，用于党务公告与竞选信息发布。",
+      "source": "X官方账号简介与Wikipedia外链核实（2026-11）"
+    },
+    {
+      "name": "2027年大选候选人名单（国民议会PDF）",
+      "url": "https://apc.com.ng/apc-2027-national-assembly-candidates-2026-11-05.pdf",
+      "description": "官网2026年11月5日发布的该党2027年国民议会候选人完整名单（另有州长、州议会候选人PDF）。",
+      "source": "APC官网首页（2026-11）"
+    }
+  ],
   "key_people": [
     {
-      "person_id": "NG-PERSON-000035",
-      "name": "Adebisi Akande",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "NG-PERSON-000522",
+      "name": "内塔韦·伊尔瓦特达 (Nentawe Yilwatda)",
+      "title": "全国主席 (National Chairman)",
+      "title_description": "2025年7月24日经APC第14次全国执行委员会（NEC）会议一致当选并宣誓就职，接替同年6月辞任的甘杜杰",
+      "description": "高原州籍工程学教授，曾任联邦人道主义事务与减贫部长，2023年为该党高原州州长候选人。"
+    },
+    {
+      "person_id": "NG-PERSON-000992",
+      "name": "苏拉朱丁·阿吉博拉·巴西鲁 (Surajudeen Ajibola Basiru)",
+      "title": "全国书记 (National Secretary)",
+      "title_description": "2023年起出任全国书记并留任至今",
+      "description": "前奥孙州参议员、律师，主持全国书记处党务管理与全国机构会议组织。"
+    },
+    {
+      "person_id": "NG-PERSON-000001",
+      "name": "博拉·艾哈迈德·蒂努布 (Bola Ahmed Tinubu)",
+      "title": "全国领袖 (National Leader)",
+      "title_description": "尼日利亚联邦共和国总统（2023年5月29日就任），APC主要创始领导人之一",
+      "description": "前拉各斯州州长，2023年代表APC当选总统；2026年5月获该党2027年大选总统候选人提名。"
+    },
+    {
+      "person_id": "NG-PERSON-000041",
+      "name": "卡希姆·谢蒂马 (Kashim Shettima)",
+      "title": "尼日利亚副总统 (Vice President of Nigeria)",
+      "title_description": "2023年5月29日就任，系2023年大选APC副总统候选人",
+      "description": "前博尔诺州州长、前参议员，2023年与蒂努布组成该党正副总统竞选搭挡。"
+    },
+    {
+      "person_id": "NG-PERSON-000287",
+      "name": "阿卜杜拉希·乌马尔·甘杜杰 (Abdullahi Umar Ganduje)",
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "2023年8月就任全国主席，2025年6月辞任",
+      "description": "前卡诺州州长。"
+    },
+    {
+      "person_id": "NG-PERSON-000037",
+      "name": "亚当斯·奥希奥姆霍尔 (Adams Oshiomhole)",
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "2018年6月全国代表大会当选全国主席，任职至2020年",
+      "description": "前埃多州州长、前尼日利亚劳工大会（NLC）主席。"
     },
     {
       "person_id": "NG-PERSON-000036",
       "name": "约翰·奥迪吉·奥耶刚 (John Odigie Oyegun)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "2014年经全国代表大会当选全国主席，2018年6月卸任",
+      "description": "前埃多州州长，主持2015年联邦大选胜选期间的全国党务。"
     },
     {
-      "person_id": "NG-PERSON-000037",
-      "name": "Adams Oshiomhole",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "NG-PERSON-000035",
+      "name": "阿德比西·阿坎德 (Adebisi Akande)",
+      "title": "首任临时全国主席 (First Interim National Chairman)",
+      "title_description": "2013年建党时期任临时全国主席，至2014年首次全国代表大会",
+      "description": "前奥孙州州长，三大反对党合并组建APC期间主持党务。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "departments": [
+    {
+      "name": "全国工作委员会 (National Working Committee)",
+      "dept_id": null,
+      "head": "内塔韦·伊尔瓦特达 (Nentawe Yilwatda)",
+      "description": "党的日常执行与决策机构，由全国主席、全国书记、副全国主席（北方/南方）、全国司库、法律顾问、妇女领袖等成员组成，负责党务管理、组织建设与选举筹备；2025年7月全国执行委员会会议后由新任主席执掌。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国执行委员会 (National Executive Committee)",
+      "dept_id": null,
+      "head": "内塔韦·伊尔瓦特达 (Nentawe Yilwatda)",
+      "description": "全国代表大会闭会期间的最高决策机构，成员包括党的全国领袖、总统与副总统、州长、参众两院党团领袖及前领导人等，负责批准重大人事、章程与组织事项；2025年7月24日第14次会议完成全国主席换届。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国代表大会 (National Convention)",
+      "dept_id": null,
+      "head": null,
+      "description": "党章规定的最高权力机构，定期召开并负责选举全国工作委员会成员与修改党章；2014年6月、2018年6月及2022年3月26日均召开大会改选全国领导层。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国书记处 (National Secretariat)",
+      "dept_id": null,
+      "head": "苏拉朱丁·阿吉博拉·巴西鲁 (Surajudeen Ajibola Basiru)",
+      "description": "设于阿布贾Wuse II区Blantyre街40号的常设行政机构，负责党务档案、党员注册、公告发布与会议组织。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "州长论坛 (APC Governors' Forum)",
+      "dept_id": null,
+      "head": "霍普·乌佐丁马 (Hope Uzodinma)",
+      "description": "由该党籍州长组成的协调平台，负责州级党务统筹与联邦-州政策协调；现任主席为伊莫州州长。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "州级党支部体系 (State Chapters)",
+      "dept_id": null,
+      "head": null,
+      "description": "在全国36个州及联邦首都区设州级支部，向下延伸至774个地方政府区的区分部与 Ward 基层组织，负责党员发展、地方 congress 与地方选举动员。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-11",
+      "title": "APC公布2027年总统竞选纲领",
+      "description": "APC总统竞选委员会（PCC）公布总统蒂努布的2027至2031年总统竞选纲领，主题为Translating Reforms to Shared Prosperity（将改革转化为共享繁荣），纲领围绕国家安全、生活成本与民生质量、能源与基础设施等四大支柱提出政策优先事项。",
+      "impact": "构成该党2027年1月16日总统及国民议会选举竞选的政策蓝本。",
+      "source": "https://www.premiumtimesng.com/news/headlines/924173-2027-apc-unveils-manifesto-defends-tinubus-reforms-amid-economic-hardship.html"
+    },
+    {
+      "date": "2026-05-23",
+      "title": "蒂努布赢得APC总统初选、获2027年候选人提名",
+      "description": "APC于2026年5月23日举行总统直接初选，现任总统蒂努布获10,999,162票，击败唯一挑战者斯坦利·奥西福（Stanley Osifo，16,503票），5月24日获宣布胜选并领取候选人资格证书，正式成为该党2027年大选总统候选人。",
+      "impact": "该党锁定2027年总统大选候选人及其竞选班底。",
+      "source": "https://www.channelstv.com/2026/05/24/just-in-tinubu-declared-winner-of-apc-presidential-primary/"
+    },
+    {
+      "date": "2025-07-24",
+      "title": "内塔韦·伊尔瓦特达当选APC全国主席",
+      "description": "APC在阿布贾召开第14次全国执行委员会（NEC）会议，一致选举高原州籍工程学教授、时任联邦人道主义事务与减贫部长内塔韦·伊尔瓦特达为新一任全国主席，并于当日宣誓就职；其接替2025年6月辞任的阿卜杜拉希·乌马尔·甘杜杰。",
+      "impact": "该党完成2025年全国主席换届与领导层调整。",
+      "source": "https://statehouse.gov.ng/apc-elects-yilwatda-as-new-chairman-as-president-tinubu-urges-governors-to-deepen-grassroots-engagement/"
+    },
+    {
+      "date": "2024-11-16",
+      "title": "APC候选人艾耶达蒂瓦当选翁多州州长",
+      "description": "2024年11月16日翁多州州长选举中，APC候选人、时任州长拉基·艾耶达蒂瓦（Lucky Aiyedatiwa）获366,781票，击败人民民主党候选人阿格博拉·阿贾伊（Agboola Ajayi，117,845票），并赢得全部18个地方政府区；独立国家选举委员会于11月17日宣布其当选。",
+      "impact": "APC保住翁多州执政权。",
+      "source": "https://punchng.com/breaking-ondodecides2024-inec-declares-aiyedatiwa-winner/"
+    },
+    {
+      "date": "2024-09-21",
+      "title": "APC候选人奥克佩博洛当选埃多州州长",
+      "description": "2024年9月21日埃多州州长选举中，APC参议员蒙迪·奥克佩博洛（Monday Okpebholo）获291,667票，以约4.4万票优势击败人民民主党候选人阿苏埃·伊戈达洛（Asue Ighodalo，247,274票）；独立国家选举委员会于9月22日宣布其当选。",
+      "impact": "APC在埃多州赢得州长职位。",
+      "source": "https://www.channelstv.com/2024/09/22/breaking-inec-declares-apcs-okpebholo-winner-of-edo-gov-election/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-002",
+      "org_name": "尼日利亚总统 (President of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦行政首脑职位，2023年起由APC候选人博拉·蒂努布出任并兼任党的全国领袖。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "APC为2015年以来的联邦执政党，联邦政府首脑与内阁成员主要来自该党候选人。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-004",
+      "org_name": "国民议会 (National Assembly of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "联邦立法机构（参众两院），APC目前拥有参议院75席（共109席）与众议院242席（共360席）的多数席位。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-039",
+      "org_name": "独立国家选举委员会 (Independent National Electoral Commission)",
+      "org_type": "GOV",
+      "org_description": "负责政党登记、选举组织与监督的联邦独立机构；2013年7月31日正式批准APC作为政党登记，并撤并ACN、CPC、ANPP三党的运营许可。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "NG-PARTY-002",
+      "org_name": "人民民主党 (Peoples Democratic Party)",
+      "org_type": "PARTY",
+      "org_description": "2015年之前长期执政、现居反对党地位的主要大党，是APC在历届联邦与州级选举中的主要竞争者。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "尼日利亚行动大会党 (Action Congress of Nigeria)",
+      "org_type": "PARTY",
+      "org_description": "以西南部为基地的主要反对党之一，2013年并入APC后运营许可被撤回。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "进步变革大会党 (Congress for Progressive Change)",
+      "org_type": "PARTY",
+      "org_description": "由穆罕默杜·布哈里创立的政党，2013年并入APC后运营许可被撤回。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "全尼日利亚人民党 (All Nigeria Peoples Party)",
+      "org_type": "PARTY",
+      "org_description": "以北部为基地的主要反对党之一，2013年并入APC后运营许可被撤回。",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "全体进步大会党（APC）是尼日利亚的联邦执政党，2013年2月6日由尼日利亚行动大会党（ACN）、进步变革大会党（CPC）与全尼日利亚人民党（ANPP）三大反对党，连同全面进步大联盟（APGA）部分成员和人民民主党（PDP）分裂派系新PDP合并组建，2013年7月31日获独立国家选举委员会（INEC）正式批准登记，总部（全国书记处）设于阿布贾Wuse II区Blantyre街40号。党的主要职能包括：组织联邦与州级选举竞选、发展党员与基层动员、提名总统/州长/立法机构候选人、制定竞选纲领与公共政策立场、维护党团在国民议会与各州议会的组织运作。组织体系上，全国代表大会为党章规定的最高权力机构，全国执行委员会（NEC）与全国工作委员会（NWC）负责闭会期间的决策与日常党务，下设全国书记处以及覆盖36个州和联邦首都区的州级支部，并延伸至774个地方政府区的基层组织。政治立场上，该党自我定位为大帐篷政党，兼有社会保守主义传统与源自阿沃洛沃社会民主思想的管制市场经济取向，主张建立州警察系统与扩大州自治。选举成绩方面：2015年布哈里以15,424,921票（53.96%）当选总统，实现尼日利亚历史上首次反对党在总统选举中击败执政党并和平交接政权；2019年布哈里以55.60%得票率连任；2023年蒂努布以8,794,726票（36.61%）当选总统。目前该党拥有参议院75席（共109席）、众议院242席（共360席）、31个州长职位（共36州）及598个州议席（共991席）。2014年12月该党成为社会党国际咨询成员（后已不再列为成员）。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），全体进步大会党作为尼日利亚执政党不涉及APEC事务的立场。该党的国际党际交往框架主要包括：2014年12月加入社会党国际成为咨询成员（现为前成员）；联邦层面，APC执政时期尼日利亚持续参与西非国家经济共同体（ECOWAS）、非洲联盟（AU）与英联邦等多边合作机制，并依托执政党地位与各国政党开展双边党际交流。对亚太区域经贸议题，该党未设专门政策文件，相关立场主要通过其主持的联邦政府贸易与外交政策体现。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/2/23/All_Progressives_Congress_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-PARTY-001.png",
     "minio_path": "default/popular-org-profile/ng/NG-PARTY-001.png"
   },
   "collection_meta": {
-    "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-13",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia",
-      "official_website"
+      "wikipedia_en",
+      "wikipedia_zh",
+      "apc_official_website",
+      "statehouse_gov_ng",
+      "channelstv_com",
+      "punchng_com",
+      "premiumtimesng_com",
+      "bbc_com",
+      "vanguardngr_com",
+      "arise_tv",
+      "thisdaylive_com",
+      "x_com",
+      "facebook_com",
+      "instagram_com"
     ],
-    "completeness_score": 29,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 100,
+    "notes": "Phase 3 enrichment (retry, 2026-11-13): leadership verified against official NWC list and 2025-07-24 NEC chairmanship change (Yilwatda succeeding Ganduje, fact-level only); 5 neutral org-level events (2024 Edo/Ondo governorship wins, 2025-07 chairman election, 2026-05 presidential primary, 2026-11 manifesto unveiling); organization structure (NWC/NEC/Convention/Secretariat/Governors Forum/state chapters); social accounts and digital assets verified; founded_date corrected to 2013-02-06 per Wikipedia EN/ZH. No allegations, disputes or defection narratives included per collection policy.",
+    "quotes": [
+      {
+        "title": "Wikipedia (EN): All Progressives Congress - formation, chairmanship and election results",
+        "url": "https://en.wikipedia.org/wiki/All_Progressives_Congress"
+      },
+      {
+        "title": "State House: APC Elects Yilwatda as New Chairman (NEC, 2025-07-24)",
+        "url": "https://statehouse.gov.ng/apc-elects-yilwatda-as-new-chairman-as-president-tinubu-urges-governors-to-deepen-grassroots-engagement/"
+      },
+      {
+        "title": "APC official website: About APC and National Working Committee members",
+        "url": "https://apc.com.ng/"
+      },
+      {
+        "title": "Channels TV: Tinubu Declared Winner of APC Presidential Primary (2026-05-24)",
+        "url": "https://www.channelstv.com/2026/05/24/just-in-tinubu-declared-winner-of-apc-presidential-primary/"
+      },
+      {
+        "title": "Punch: INEC declares Aiyedatiwa winner of Ondo governorship election (2024-11-17)",
+        "url": "https://punchng.com/breaking-ondodecides2024-inec-declares-aiyedatiwa-winner/"
+      }
+    ]
   }
 }

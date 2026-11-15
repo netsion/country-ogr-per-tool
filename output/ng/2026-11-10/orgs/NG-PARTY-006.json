@@ -5,37 +5,285 @@
     "name_zh": "社会民主党",
     "name_en": "Social Democratic Party",
     "aliases": [
-      "SDP"
+      "SDP",
+      "SDP Nigeria"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
-    "founded_date": "1989-01-01",
-    "website": "https://sdp.com.ng",
+    "founded_date": "1989-11-03",
+    "website": "https://www.officialsdp.org.ng/",
     "wikidata_qid": "Q7550561"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "social_accounts": [
+    {
+      "platform": "youtube",
+      "account_name": "SDP Nigeria (官方 YouTube 频道)",
+      "url": "https://www.youtube.com/@SDPNigeria",
+      "source": 9,
+      "source_note": "官方官网 officialsdp.org.ng 页面资源中引用的频道句柄 @SDPNigeria",
+      "nickname": "SDPNigeria",
+      "username": "@SDPNigeria",
+      "user_id": null
+    },
+    {
+      "platform": "facebook",
+      "account_name": "SDP Nigeria",
+      "url": "https://www.facebook.com/SDPNewNigeria/",
+      "source": 6,
+      "source_note": "Facebook 检索到的党方主页（账号 SDPNewNigeria，约2万关注），简介与该党意识形态一致",
+      "nickname": "SDP Nigeria",
+      "username": "SDPNewNigeria",
+      "user_id": null
+    },
+    {
+      "platform": "whatsapp",
+      "account_name": "SDP Nigeria (官方 WhatsApp 联系渠道)",
+      "url": "https://wa.me/2348007374357",
+      "source": 20,
+      "source_note": "官网 officialsdp.org.ng 页面资源中嵌入的 WhatsApp 联系链接",
+      "nickname": null,
+      "username": null,
+      "user_id": "2348007374357"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "社会民主党官方网站 (SDP Official Website)",
+      "url": "https://www.officialsdp.org.ng/",
+      "description": "现行官方网站，站名为 'Social Democratic Party (SDP) - The Alternative is Here. Good Governance for Nigeria.'，发布全国书记处官方通告、党务公告与2027年大选筹备信息；官方网站还设有全国秘书处联系邮箱 contact@officialsdp.org.ng 与 WhatsApp 联系渠道。",
+      "source": "官网首页及页面资源实测（2026-11-13）"
+    },
+    {
+      "name": "官方联系邮箱 (contact@officialsdp.org.ng)",
+      "url": "mailto:contact@officialsdp.org.ng",
+      "description": "官方网站页面中标注的对外联系邮箱，由全国秘书处用于党务联络。",
+      "source": "官网 officialsdp.org.ng 页面资源"
+    },
+    {
+      "name": "原官方域名 sdp.com.ng (状态说明)",
+      "url": "https://sdp.com.ng",
+      "description": "维基百科等参考资料曾记录的官方域名；2026-11-13 实测该域名现呈现与该党无关的第三方内容，已不再承载政党官方信息，引用该党官网时应以 officialsdp.org.ng 为准。",
+      "source": "实测访问（2026-11-13）+ Wikipedia 参考文献记录"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000780",
+      "name": "萨迪克·乌马尔·阿布巴卡尔 (Sadiq Umar Abubakar Gombe)",
+      "title": "全国主席 (National Chairman)",
+      "title_description": "2025年12月19日起出任（先以代理身份主持党务），2026年经党内会议确认并获独立国家选举委员会（INEC）登记承认",
+      "description": "现任全国主席，主持该党2027年大选筹备工作：2026年推动候选人材料向INEC申报，2026年11月公布1.2万人规模的2027年总统竞选委员会并自任主席。其全国主席地位经2026年9月最高法院相关裁决后成为终局。"
+    },
+    {
+      "person_id": "NG-PERSON-001010",
+      "name": "奥卢·阿贡洛耶 (Olu Agunloye)",
+      "title": "全国书记 (National Secretary)",
+      "title_description": "曾任该党全国主席，后转任全国书记",
+      "description": "主持全国秘书处工作，负责党务运营与对外联络；2026年11月担任该党2027年总统竞选委员会秘书长，并代表全国书记处向INEC提交候选人材料。维基百科与2026年11月多家媒体报道均列其为全国书记。"
+    },
+    {
+      "person_id": "NG-PERSON-001011",
+      "name": "谢胡·穆萨·加巴姆 (Shehu Musa Gabam)",
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "2018年该党重新登记时任全国书记，后出任全国主席，2025年12月卸任",
+      "description": "在该党重新登记后的相当长时期内主持党务，任内该党参加2023年大选；2025年12月卸任后，其就全国主席职位提起的相关诉讼于2026年9月经最高法院裁决终结。"
+    },
+    {
+      "person_id": "NG-PERSON-000539",
+      "name": "阿德沃莱·阿德巴约 (Adewole Adebayo)",
+      "title": "2023年总统候选人 (2023 Presidential Candidate)",
+      "title_description": "2022年6月全国代表大会上当选，为2023年大选该党总统候选人",
+      "description": "律师出身；2022年6月8日全国代表大会上以约1,526票击败对手当选该党总统候选人；2023年2月总统选举中得票约80,267张、列第六位；2026年该党继续推举其为2027年大选总统候选人并为其组建竞选委员会。"
+    },
+    {
+      "person_id": "NG-PERSON-001012",
+      "name": "奥卢·法莱 (Olu Falae)",
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "该党2010年代复兴后的全国主席，2016年获连任",
+      "description": "尼日利亚前联邦财政部长；第三共和国时期曾参加该党总统初选，后成为该党在第四共和国复兴时期的主要元老与领导人，公开阐述该党作为两大主要政党之外社会民主主义选项的定位。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "全国执行委员会 (National Executive Committee, NEC)",
+      "dept_id": null,
+      "head": "萨迪克·乌马尔·阿布巴卡尔 (Sadiq Umar Abubakar Gombe)",
+      "description": "党章规定的全国性治理机构，由全国工作委员会成员与各州党组织代表组成，就重大党务事项作出决议；2026年3月10日召开该党2026年首次全国执行委员会会议。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国工作委员会 (National Working Committee, NWC)",
+      "dept_id": null,
+      "head": "萨迪克·乌马尔·阿布巴卡尔 (Sadiq Umar Abubakar Gombe)",
+      "description": "全国执行委员会闭会期间主持日常党务决策的核心机构，成员包括全国主席、全国书记、全国财务主管等全国职务；媒体报道中多次出现其改选与会议决议的记录。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国秘书处 (National Secretariat)",
+      "dept_id": null,
+      "head": "奥卢·阿贡洛耶 (Olu Agunloye)",
+      "description": "设于阿布贾Wuse II区Nairobi街17号，负责党务日常运营、选举材料申报、党员登记与对外联络，官方网站以其名义发布官方通告。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "2027年总统竞选委员会 (Presidential Campaign Council)",
+      "dept_id": null,
+      "head": "萨迪克·乌马尔·阿布巴卡尔 (Sadiq Umar Abubakar Gombe)",
+      "description": "2026年11月公布的2027年大选竞选架构，规模1.2万人，全国主席任委员会主席、全国书记阿贡洛耶任秘书长，统筹该党2027年竞选事务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2022-06-08",
+      "title": "全国代表大会选出2023年大选总统候选人",
+      "description": "该党在阿布贾举行全国代表大会，阿德沃莱·阿德巴约以1,526票击败唯一对手哈迪贾·奥昆努-拉米迪（83票），当选为2023年总统选举该党候选人。",
+      "impact": "该党完成2023年大选参选布局，形成以阿德巴约为核心的竞选团队。",
+      "source": "https://www.thecable.ng/adewole-adebayo-defeats-khadijah-okunnu-lamidi-to-win-sdp-presidential-ticket/"
+    },
+    {
+      "date": "2023-02-25",
+      "title": "参加2023年全国大选并取得国民议会席位",
+      "description": "2023年2月25日总统选举中，该党候选人阿德沃莱·阿德巴约得票约80,267张（约0.33%）、列第六位；据Premium Times报道，该党在同期国民议会选举中获得2个参议院席位和4个众议院席位。",
+      "impact": "该党重新进入联邦议会，维基百科最新信息显示其现有2个众议院席位、无参议院席位与州长职位。",
+      "source": "https://www.premiumtimesng.com/news/top-news/585881-sdp-accepts-presidential-election-results-set-to-challenge-nass-poll-outcome-in-court.html"
+    },
+    {
+      "date": "2025-03-10",
+      "title": "前卡杜纳州州长埃尔-鲁法伊宣布加入该党",
+      "description": "前卡杜纳州州长纳西尔·埃尔-鲁法伊（Nasir El-Rufai）于2025年3月10日宣布退出全体进步大会党（APC）并加入社会民主党，表示将推动反对党联合。",
+      "impact": "该党获得全国性关注，被视为2027年大选前反对阵营重组的重要动向。",
+      "source": "https://www.thisdaylive.com/2025/03/10/el-rufai-dumps-apc-joins-sdp/"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "埃尔-鲁法伊退出该党并加入非洲民主大会党",
+      "description": "纳西尔·埃尔-鲁法伊于2025年11月26日辞去该党党籍，并于11月27日正式加入非洲民主大会党（ADC）。",
+      "impact": "该党与2025年形成的反对党联盟（以ADC为平台）之间的人员流动至此告一段落。",
+      "source": "https://dailypost.ng/2025/11/27/el-rufai-formally-joins-adc/"
+    },
+    {
+      "date": "2025-12-19",
+      "title": "萨迪克·乌马尔·阿布巴卡尔（贡贝）出任全国主席",
+      "description": "2025年12月19日，萨迪克·乌马尔·阿布巴卡尔（Gombe）以代理身份出任该党全国主席，接替卸任的谢胡·穆萨·加巴姆。",
+      "impact": "该党进入新的领导层周期，后续经党内会议确认与法院、INEC程序巩固。",
+      "source": "https://kogireports.com/end-of-the-road-for-gabam-as-supreme-court-affirms-dr-sadiq-gombe-as-sdp-national-chairman/"
+    },
+    {
+      "date": "2026-03-10",
+      "title": "召开2026年首次全国执行委员会会议",
+      "description": "该党于2026年3月10日召开2026年首次全国执行委员会（NEC）会议，确认萨迪克·乌马尔·阿布巴卡尔（贡贝）的全国主席职务。",
+      "impact": "新领导层获党内最高治理机构确认，党务工作转入2027年大选筹备阶段。",
+      "source": "https://www.youtube.com/watch?v=A2AB0-fZDBI"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "INEC登记信息确认贡贝为该党全国主席",
+      "description": "独立国家选举委员会（INEC）于2026年6月更新该党登记信息，将萨迪克·乌马尔·阿布巴卡尔（贡贝）列为该党全国主席。",
+      "impact": "该党领导层获选举管理机构承认，为2027年选举候选人申报奠定基础。",
+      "source": "https://thewhistler.ng/inec-drops-gabam-recognises-sadiq-as-sdp-national-chairman/"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "最高法院就领导层争议作出终局裁决",
+      "description": "2026年9月17日，尼日利亚最高法院驳回前全国主席谢胡·穆萨·加巴姆就全国主席职位提起的上诉，围绕该党全国主席职位的司法争议至此终结。",
+      "impact": "贡贝领导层的法律地位终局确定，该党对外代表权争议告一段落。",
+      "source": "https://www.facebook.com/ntanetworknews/posts/1406123231692689/"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "公布2027年总统竞选委员会",
+      "description": "该党于2026年11月公布1.2万人规模的2027年总统竞选委员会，由全国主席贡贝任主席、全国书记奥卢·阿贡洛耶任秘书长，并任命竞选主任，即刻启动全国竞选架构。",
+      "impact": "该党成为2027年大选周期内较早完成竞选架构组建的反对党之一。",
+      "source": "https://tribuneonlineng.com/2027-sdp-unveils-12000-member-presidential-campaign-council/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-039",
+      "org_name": "独立国家选举委员会 (Independent National Electoral Commission)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦选举管理机构，负责政党登记、候选人申报备案与各级选举组织监督",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "NG-PARTY-001",
+      "org_name": "全体进步大会党 (All Progressives Congress)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚执政党，该党的主要竞争党派之一；2025年3月前卡杜纳州州长埃尔-鲁法伊自该党转入SDP",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-PARTY-002",
+      "org_name": "人民民主党 (Peoples Democratic Party)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚主要反对党之一，与该党同属2027年大选反对阵营的竞争与合作关系",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-PARTY-003",
+      "org_name": "尼日利亚工党 (Labour Party)",
+      "org_type": "PARTY",
+      "org_description": "尼日利亚主要反对党之一，2023年大选中与该党同场竞争联邦席位",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-PARTY-007",
+      "org_name": "非洲民主大会党 (African Democratic Congress)",
+      "org_type": "PARTY",
+      "org_description": "2025年反对党联盟采用的竞选平台政党；SDP前党员埃尔-鲁法伊于2025年11月转入该党",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-GOV-004",
+      "org_name": "国民议会 (National Assembly of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚联邦立法机构（参众两院）；该党现有2个众议院席位（据维基百科2026年信息）",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "社会民主党（SDP）是尼日利亚中左翼注册政党，意识形态定位为社会民主主义，主张改善民众福利与社会公正。该党有两段历史渊源：其一，1989年11月由军事总统易卜拉欣·巴班吉达（Ibrahim Babangida）主导的两党制方案下与全国共和大会党（NRC）同期设立，由人民阵线、人民团结党与尼日利亚工党等组织合并组成；第三共和国时期该党被视为吸引青年知识分子的温和左翼力量，1990年巴加纳·金吉贝（Babagana Kingibe）当选党主席，1992年国民议会选举中赢得约57%的参议院席位与53%的众议院席位，1993年3月全国初选中由MKO·阿比奥卢（M.K.O. Abiola）胜出并代表该党参加同年6月12日总统选举（选举结果后被宣布无效），该党随第三共和国终结而停止运作。其二，2010年代该党名称经奥卢·法莱等人推动复兴，2018年经INEC重新登记后恢复运作，重新登记时任全国书记为谢胡·穆萨·加巴姆；2018年后该党参加各级选举，2022年6月全国代表大会推举阿德沃莱·阿德巴约为2023年总统候选人（得票约80,267张、列第六位），并取得国民议会席位（据维基百科现有2个众议院席位、无参议院席位与州长职位）。公开纲领包括：能源领域由国家监督工业与社会用能供应；农村发展领域承诺通过支持社区组织减少农村贫困与城乡迁移；矿业与石化领域主张负责任、受控的资源开发；劳工领域主张劳工代表参与劳资事务；教育领域致力于推进各级免费教育；国防领域主张自给自足与本土军工生产；同时主张反腐败、法治、向青年开放政治空间与性别包容。该党总部设于阿布贾Wuse II区Nairobi街17号，据维基百科记录拥有超过83,378名注册党员、组织存在于全国各州；2026年11月该党公布1.2万人规模的2027年总统竞选委员会，继续以阿德巴约为2027年总统候选人。",
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），社会民主党作为尼日利亚国内注册政党，未发布任何针对APEC的立场文件或合作倡议。该党公开政策立场集中于国内治理议题（能源、农村发展、免费教育、劳工权益、反腐败与法治等），不涉及亚太区域经贸合作议程。尼日利亚实际参与的国际经贸与区域一体化框架为西非国家经济共同体（ECOWAS）与非洲大陆自由贸易区（AfCFTA）等机制，该党作为在野政党对上述框架亦未形成公开的差异化政策主张；与APEC相关的观察、准入或合作事务属联邦政府（外交部与工商主管部门）职权范围，与该党无直接关联。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_media",
+      "election_data"
     ],
-    "completeness_score": 12,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 95,
+    "quotes": [
+      {
+        "title": "Social Democratic Party (Nigeria) - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_(Nigeria)"
+      },
+      {
+        "title": "El-Rufai Dumps APC, Joins SDP - THISDAYLIVE (2025-03-10)",
+        "url": "https://www.thisdaylive.com/2025/03/10/el-rufai-dumps-apc-joins-sdp/"
+      },
+      {
+        "title": "INEC Drops Gabam, Recognises Sadiq As SDP National Chairman - The Whistler (2026-06-17)",
+        "url": "https://thewhistler.ng/inec-drops-gabam-recognises-sadiq-as-sdp-national-chairman/"
+      },
+      {
+        "title": "2027: SDP unveils 12,000-member presidential campaign council - Tribune Online (2026-11-12)",
+        "url": "https://tribuneonlineng.com/2027-sdp-unveils-12000-member-presidential-campaign-council/"
+      },
+      {
+        "title": "Social Democratic Party (SDP) official website",
+        "url": "https://www.officialsdp.org.ng/"
+      }
+    ],
+    "notes": "Phase 3 enrichment. Dual history framed per Wikipedia: created 1989-11-03 under Babangida's two-party scheme (founded_date updated from 1989-01-01; en-wiki infobox says December 1989, body says 3 November 1989), revived and re-registered with INEC in 2018 (allAfrica interview with then-National-Secretary Gabam). Leadership resolved per INEC recognition/court finality: Gombe acting chairman 2025-12-19 (kogireports), confirmed at NEC 2026-03-10 (NTA), INEC recognition 2026-06-17 (The Whistler), Supreme Court dismissed Gabam's appeal 2026-09-17 (NTA). Current officials: Chairman Sadiq Umar Abubakar Gombe, Secretary Olu Agunloye (en-wiki infobox + Nov 2026 Tribune/The Nation). El-Rufai joined 2025-03-10 (ThisDay/PM News/BBC Pidgin), resigned effective 2025-11-26 and joined ADC 2025-11-27 (Daily Post/Punch/Premium Times) - recorded as events only, no dispute detail. 2023 results: Adebayo primary win 2022-06-08 (TheCable), presidential sixth place ~80,267 votes (ngelections.com), 2 Senate + 4 HoR seats per Premium Times; current standing 0 Senate / 2 HoR (en-wiki). Official website updated to officialsdp.org.ng (title + secretariat notice); legacy domain sdp.com.ng verified squatted on 2026-11-13 (serves unrelated gambling content) and documented in digital_assets. Social accounts: YouTube @SDPNigeria and WhatsApp wa.me/2348007374357 from official site bundle; Facebook SDPNewNigeria via search. No official X/Twitter account verified, none listed. Corruption allegations, intra-party conflict details and candidacy litigation substance excluded per writing boundary; only institutional facts (appointments, NEC meetings, INEC recognition, court finality) retained. Nigeria is not an APEC member; no APEC content fabricated."
   }
 }

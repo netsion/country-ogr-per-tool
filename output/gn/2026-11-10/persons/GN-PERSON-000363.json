@@ -54,8 +54,16 @@
       "description": "国民议会议长（2026-07-17以129/147票当选，第五共和国首任）。主持托尔诺所在的第十届国民议会，为其议院最高领导。"
     }
   ],
-  "social_accounts": [],
-  "social_accounts_note": "经facebook/instagram/linkedin/x/tiktok定向检索，发现多个「Thérèse Tolno」同名社交账号（Instagram @marietheresetolno、LinkedIn上ANDRITZ Hydro技术服务助理[孔戴将军索福尼亚大学背景]、TikTok @bb.tolno41officiell4等），均无任何信息表明与本院议员为同一人，按不编造原则一律不予收录；未发现其官方认证账号。",
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Honorable Thérèse Tolno",
+      "url": "https://www.facebook.com/61596151391711",
+      "source": 6,
+      "source_note": "2026-11-15复核轮经Facebook公开帖文嵌入插件(plugins/post.php，免登录可访问)解析Google索引头像页photo.php?fbid=122104639641538379，嵌入渲染返回归属链接permalink.php?story_fbid=122104639641538379&id=61596151391711，帖文作者显示名「Honorable Thérèse Tolno」且操作行为Like(确认为专页/主页而非个人号)，编号不属前轮所列任一新建同名页；归属依据：「Honorable」为几内亚议员专称且147名议员中Thérèse Tolno仅一人(RGT全国名单)，Parlement TV Guinée 2026-11-07帖文点名「l'Honorable Thérèse TOLNO」为公职、就业、社会事务与宗教事务委员会成员，议员身份唯一；登录墙局限：无登录会话，页面简介、认证状态、粉丝数及运营者身份均无法核验(编号6159615…为新号段、页面新建)，不排除同名仿冒页，按高度疑似本人(或其团队)运营收录，未取得自定义用户名，暂以数字规范URL收录"
+    }
+  ],
+  "social_accounts_note": "2026-11-11首轮与2026-11-14补弱轮两轮定向检索(facebook/instagram/linkedin/x/tiktok/youtube，Google为主、Bing与DuckDuckGo为辅，含真实浏览器无痕访问验证)，仍未发现可严格归属本院议员的真实社交账号，字段维持空：①同名个人账号一批(Marie Thérèse Tolno两条、therese.tolno.923/98/353/3760、tolno.therese.7、siatherese.tolno.1、p/Thérèse-Tolno-100086790244448等)均为科纳克里普通用户或在校学生，无任何议员/RGT党/盖凯杜(Guéckédou)关联信号，全部排除；②「Sia Thérèse Tolno」同名者经甄别至少另有两人：一名LGF TALK职员(康戴将军索福尼亚大学、盖凯杜Sokoro中学背景，Facebook siatherese.tolno.1)、一名TikTok用户(Emma Gibbs音频翻拍)，且mepua.gov.gn《2023年BAC成绩汇总》载有JB Tito中学考生SIA THERESE TOLNO——按几内亚选举法议员须年满25岁，2023年考生与本院议员必非同一人，据此同名社交账号一律不收录；③发现名为「Honorable Thérèse Tolno」的Facebook页面(Google索引照片页 https://www.facebook.com/photo.php?fbid=122104639641538379&set=a.122104638435538379&type=3 ，索引快照显示该页近期公开更新头像)——「Honorable」系几内亚议员专称且147名议员中Thérèse Tolno仅一人，高度疑似其本人(或其团队)运营页面；但Facebook全站登录墙(curl、read_url、真实浏览器均已验证)，页面规范URL、简介、认证状态无法核验，photo.php为照片临时页而非账号主页，按不编造原则暂不写入，待下轮取得页面主页URL后收录；另有多个新建同名页面(ID 61579862350265/61578313207063/61594699588247/61594785486172/61595651686496/61559001839469/61594721961025等，登录墙外均不可见简介)同样无法确认归属，不予收录；④未发现其X/Twitter、YouTube、LinkedIn、Instagram、TikTok任何账号痕迹；⑤组织级账号不入人物档案：RGT党Facebook页(facebook.com/61576002754900，另有官网rgtguinee.com)与党主席乌斯曼·达迪·卡马拉(Ousmane Dady Camara, GN-PERSON-000361)个人页(facebook.com/daddycamara)已识别，均不录入本档。⑥2026-11-15复核轮(检索工具search-read)突破：经Facebook公开嵌入插件plugins/post.php免登录渲染③所述Google索引头像页(photo.php?fbid=122104639641538379)，渲染返回的归属链接permalink.php?story_fbid=122104639641538379&id=61596151391711解析出页面编号61596151391711(显示名「Honorable Thérèse Tolno」，带Like按钮确认为专页)，从而取得页面规范URLhttps://www.facebook.com/61596151391711，该编号不属③所列任一新建同名页，已按「议员身份唯一性+Honorable头衔」归属依据写入social_accounts单条facebook条目；登录墙仍致页面简介、认证状态与运营者身份无法核验，页面编号系新建号段，保留仿冒页可能性；本轮Bing(无结果)与DuckDuckGo(验证码)仍不可用，mbasic/m.facebook变体及页面数字URL直接访问均被登录墙拦截。",
   "family_members": [],
   "political_stances": [],
   "major_achievements": [
@@ -69,7 +77,7 @@
   "identity_note": "同名者身份甄别：媒体检索发现基西杜古（Kissidougou）市Ernesto街区主席Thérèse Tolno（lerevelateur224 2024-12-05专访：退休助产士，生于塞内加尔、父为军人、母为康康籍裁缝；1975年自迪克辛卫生学校以护士身份毕业，后经培训转任助产士，先后在恩泽雷科雷、马木、曼迪亚纳布卢、孔达拉等地工作，2015年在基西杜古退休；已婚、育有8名子女；2024-11-29就任街区主席）。Wikidata条目Q140323518将这一同名人物与本议员合并为同一实体（该条目「出生地塞内加尔」引自lerevelateur224报道、「任国民议会议员」引自2026年选举结果报道），但迄今没有任何媒体或官方文件直接证实两人为同一人，合并很可能仅基于同名。据此本档不将其生平细节写入教育、工作、家庭等正式字段，birth_date/birth_place留null，待获得直接证据（如议会官方履历、本人访谈）后再核实录入。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "web_search",
@@ -104,6 +112,7 @@
         "url": "https://www.wikidata.org/wiki/Q140323518"
       }
     ],
-    "notes": "P4人物画像（2026-11-11）。①核心事实（2026-05-31立法选举当选、RGT全国名单第2位、493,714票/7席、最高法院2026-06-19驳回全部诉讼后宣布最终结果、2026-07-17就职）经mediaguinee、africaguinee、guineematin、法文维基百科、guinee360/kalenews（检索摘要）等多源交叉一致，满足≥2独立来源要求；②除当选名单外未检索到本议员任何个人履历（出生、学历、职业、家庭、社媒、政见），相关字段如实留空，未凑数；③同名者甄别：Wikidata Q140323518将本议员与基西杜古Ernesto街区主席Thérèse Tolno（退休助产士，lerevelateur224 2024-12-05）合并，但合并仅基于同名、无任何媒体直接证实为同一人，故未采信其生平细节（详见identity_note）；与数据集中另一Tolno（水利与卫生副部长级Sia Kanio Tolno，GN-PERSON-000264）亦为不同人，已严格区分；④任务提示「党主席卡马拉=GN-PERSON-000252」经名称索引核对不符：GN-PERSON-000252对应Fama Bangaly Soumaoro，RGT党主席Ousmane Dady Camara实际命中GN-PERSON-000361，本档按索引采用后者并在此说明；⑤无头像可用：Wikidata条目无图片，各报道页面无其可直连照片，profile留null；⑥gender=female依据：所有当选名单均以「Mme Thérèse Tolno」列名（mediaguinee、africaguinee、guineenews等多源）；⑦评分受限说明：本人物公开信息极度有限（仅当选事实与政党背景），completeness_score如实偏低（约36），非采集疏漏。"
-  }
+    "notes": "P4人物画像（2026-11-11）。①核心事实（2026-05-31立法选举当选、RGT全国名单第2位、493,714票/7席、最高法院2026-06-19驳回全部诉讼后宣布最终结果、2026-07-17就职）经mediaguinee、africaguinee、guineematin、法文维基百科、guinee360/kalenews（检索摘要）等多源交叉一致，满足≥2独立来源要求；②除当选名单外未检索到本议员任何个人履历（出生、学历、职业、家庭、社媒、政见），相关字段如实留空，未凑数；③同名者甄别：Wikidata Q140323518将本议员与基西杜古Ernesto街区主席Thérèse Tolno（退休助产士，lerevelateur224 2024-12-05）合并，但合并仅基于同名、无任何媒体直接证实为同一人，故未采信其生平细节（详见identity_note）；与数据集中另一Tolno（水利与卫生副部长级Sia Kanio Tolno，GN-PERSON-000264）亦为不同人，已严格区分；④任务提示「党主席卡马拉=GN-PERSON-000252」经名称索引核对不符：GN-PERSON-000252对应Fama Bangaly Soumaoro，RGT党主席Ousmane Dady Camara实际命中GN-PERSON-000361，本档按索引采用后者并在此说明；⑤无头像可用：Wikidata条目无图片，各报道页面无其可直连照片，profile留null；⑥gender=female依据：所有当选名单均以「Mme Thérèse Tolno」列名（mediaguinee、africaguinee、guineenews等多源）；⑦评分受限说明：本人物公开信息极度有限（仅当选事实与政党背景），completeness_score如实偏低（约36），非采集疏漏。\n【2026-11-14补弱轮】社交账号与头像补强未果，结论NONE-FOUND(检索过程详见social_accounts_note与profile_note)，未编造任何账号或图片。本轮新核验身份事实(仅供后续轮次核实后录入，本轮按任务规则不改动履历字段)：①议会专业媒体Parlement TV Guinée(Facebook, 2026-11-10前后帖)点名「Honorable Thérèse TOLNO, Membre de la Commission Fonction publique, Emploi, Affaires Sociales et Religieuses」——即本院议员已任国民议会公职、就业、社会事务与宗教事务委员会(Fonction publique, Emploi, Affaires Sociales et Religieuses)成员；②africaturemedia.com两篇报道(2026-09-18盖凯杜议会巡回、2026-09-23省座谈)以「Sia Thérèse TOLNO」全名列其为盖凯杜(Guéckédou)籍议员，2026-09-21与Sia Eveline Koundouno、Saa Gabriel Sandouno两议员同省长办公厅秘书长座谈，9月中旬巡回Nongoa农村市镇——据此本议员姓名全称含前缀「Sia」、原籍盖凯杜省；147人当选名单中「Tolno」仅此一人，归属唯一；该信息与档案中水利与卫生副部长级Sia Kanio Tolno(GN-PERSON-000264)及基西杜古同名街区主席(生于塞内加尔、定居基西杜古)均严格区分，「原籍盖凯杜」进一步削弱Wikidata Q140323518的同名合并可信度；③本轮工具受限记录：WebSearch与web_reader配额耗尽(2026-11-19重置)、Bing经代理返回无关结果、DuckDuckGo验证码拦截、Facebook全站登录墙(无登录会话，页面规范URL不可得)。\n【2026-11-15复核轮】Facebook补强成功：经Facebook公开帖文嵌入插件(plugins/post.php，免登录)解析Google索引头像页的归属链接，取得「Honorable Thérèse Tolno」专页规范URL facebook.com/61596151391711(编号不属前轮所列任一新建同名页)，按议员唯一性+Honorable头衔依据收录入social_accounts(证据链与局限详见social_accounts及social_accounts_note⑥)；页面运营者身份仍受登录墙限制无法实名确认，其余字段本轮零改动。"
+  },
+  "profile_note": "无头像可用(2026-11-14补弱轮结论，profile维持null)：①Wikidata Q140323518无P18图片字段、无任何sitelinks；②几内亚国民议会官网不可达：assemblee-nationale.gov.gn经代理curl返回000、an-guinee.org返回502(代理与直连皆失败)，议员名录页无法获取；③RGT党官网rgtguinee.com为JS单页应用(Hostinger Horizons)，前端bundle内无「Tolno」字样及议员照片；④新闻图片仅合影、无个人肖像：africaturemedia.com两篇报道(2026-09-18盖凯杜议会巡回、2026-09-23省座谈)配图均为多人在场合影，无以她为主体的单独照片或姓名图注，无法确认合影中何人系其本人，不采作头像；Parlement TV Guinée Facebook帖(2026-11-10前后妇女议员集会，图注点名提及)受登录墙限制且fbcdn直链为签名临时链接，不可用；⑤kalenews/africaguinee/conakryinfos/guineenews等当选名单报道均无议员配图；⑥Google图片索引与图片搜索工具未见其个人肖像；⑦基西杜古同名街区主席照片因两人身份合并未经证实，继续不可引用。"
 }

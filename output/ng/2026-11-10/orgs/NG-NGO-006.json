@@ -2,37 +2,285 @@
   "org_id": "NG-NGO-006",
   "basic_info": {
     "name_original": "Paradigm Initiative",
-    "name_zh": null,
+    "name_zh": "范式倡议",
     "name_en": "Paradigm Initiative",
-    "aliases": [],
+    "aliases": [
+      "PIN",
+      "Paradigm Initiative (PIN)",
+      "Paradigm Initiative Nigeria"
+    ],
     "org_type": "NGO",
     "org_subtype": "advocacy_group",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
     "founded_date": null,
-    "website": null,
+    "website": "https://paradigmhq.org/",
     "wikidata_qid": "Q140134398"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "nonprofit"
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "Paradigm Initiative",
+      "url": "https://twitter.com/paradigmhq",
+      "source": 3,
+      "source_note": "PIN官网(paradigmhq.org)页脚社交链接；X平台账号@ParadigmHQ简介确认为官方账号",
+      "nickname": "Paradigm Initiative",
+      "username": "ParadigmHQ",
+      "user_id": null
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Paradigm Initiative",
+      "url": "https://www.facebook.com/ParadigmHQ",
+      "source": 6,
+      "source_note": "PIN官网(paradigmhq.org)页脚社交链接",
+      "nickname": "Paradigm Initiative",
+      "username": "ParadigmHQ",
+      "user_id": null
+    },
+    {
+      "platform": "instagram",
+      "account_name": "Paradigm Initiative",
+      "url": "https://www.instagram.com/paradigmhq/",
+      "source": 8,
+      "source_note": "PIN官网(paradigmhq.org)页脚社交链接",
+      "nickname": null,
+      "username": "paradigmhq",
+      "user_id": null
+    },
+    {
+      "platform": "youtube",
+      "account_name": "Paradigm Initiative",
+      "url": "https://www.youtube.com/channel/UCAv-6Siej9L6kBEPAku19Ng",
+      "source": 9,
+      "source_note": "PIN官网(paradigmhq.org)页脚社交链接，频道ID取自链接本身",
+      "nickname": null,
+      "username": null,
+      "user_id": "UCAv-6Siej9L6kBEPAku19Ng"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Paradigm Initiative",
+      "url": "https://www.linkedin.com/company/paradigmhq/",
+      "source": 17,
+      "source_note": "PIN官网(paradigmhq.org)页脚社交链接；创始人Sesan在LinkedIn亦标注PIN为pan-African social enterprise",
+      "nickname": null,
+      "username": "paradigmhq",
+      "user_id": null
+    }
   ],
-  "apec_stance": null,
+  "digital_assets": [
+    {
+      "name": "《Londa 2025》非洲数字权利与包容年度报告（PDF全文）",
+      "url": "https://paradigmhq.org/wp-content/uploads/2026/04/LONDA-2025-REPORT-2.pdf",
+      "description": "PIN旗舰年度报告，2026年4月发布，340页，覆盖29个非洲国家，通过12项关键指标构成的\"分数指数\"评估各国数字权利与数字包容状况，由执行总监格本加·塞桑等人主编，并曾据此拍摄系列短片。",
+      "source": "https://paradigmhq.org/press-release-winners-and-losers-in-africas-latest-digital-rights-index-revealed/"
+    },
+    {
+      "name": "Londa 2025 报告专题页",
+      "url": "https://paradigmhq.org/londa2025/",
+      "description": "PIN官网Londa 2025专题页面，汇集2025年度非洲29国数字权利与包容国别报告及指数排名，由非洲各国数字权利研究者撰写国别章节。",
+      "source": "https://paradigmhq.org/londa2025/"
+    },
+    {
+      "name": "Ayeta 数字安全工具包",
+      "url": "https://ayeta.africa/en",
+      "description": "PIN于2020年推出的数字权利与数字安全工具包，面向非洲数字权利生态从业者与普通网民，提供数字安全防护措施、威胁识别知识及互动测验（含尼日利亚数据保护法问答等），官网另设下载页 paradigmhq.org/ayetadownload/。",
+      "source": "https://ayeta.africa/en"
+    },
+    {
+      "name": "《The Paradigm Initiative Story: A Work in Progress》机构史图书专题页",
+      "url": "https://paradigmhq.org/the-pin-story/",
+      "description": "PIN于2025年10月发布的机构史图书宣传页，讲述从拉各斯阿杰贡莱(Ajegunle)社区网吧起步、发展为在28个国家实施数百万美元项目的泛非组织的历程，含多位全球嘉宾推荐语。",
+      "source": "https://paradigmhq.org/press-release-a-story-of-growth-grit-and-impact-paradigm-initiative-releases-new-book-on-building-a-leading-non-profit/"
+    },
+    {
+      "name": "DRIF2026（第13届数字权利与包容论坛）会议报告",
+      "url": "https://paradigmhq.org/report/digital-rights-and-inclusion-forum-drif-2026-report",
+      "description": "PIN主办的年度数字权利与包容论坛(DRIF)2026年会议报告。DRIF是塑造非洲数字政策对话、辩论政策方向并促成合作行动的重要平台，曾在尼日利亚、肯尼亚、加纳、赞比亚、科特迪瓦等地举办。",
+      "source": "https://paradigmhq.org/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000519",
+      "name": "'格本加·塞桑 ('Gbenga Sesan)",
+      "title": "执行总监 (Executive Director)",
+      "title_description": "创始人兼执行总监；2014年获施瓦布基金会(Schwab Foundation)年度社会企业家称号",
+      "description": "2007年在拉各斯阿杰贡莱社区的一间网吧创立Paradigm Initiative并担任执行总监至今。主导将PIN从数字技能培训项目发展为覆盖非洲28个国家的数字权利与数字包容组织，2017年推动PIN成为首个加入全球网络倡议(GNI)的非洲组织，创办年度数字权利与包容论坛(DRIF)并主编《Londa》年度报告。同时担任PIN董事会秘书，2025年被尼日利亚标准组织选任为数字交付服务国家技术委员会主席。其职务在维基百科、官网团队页、LinkedIn与斯坦福大学页面多重印证。"
+    },
+    {
+      "person_id": "NG-PERSON-000978",
+      "name": "妮内娜·保罗-乌戈丘克武 (Nnenna Paul-Ugochukwu)",
+      "title": "首席运营官 (Chief Operating Officer)",
+      "title_description": "负责机构日常运营与项目管理",
+      "description": "PIN官网团队页（2026年）列为首席运营官。2021年曾以COO身份对外介绍PIN短片（基于Londa年度报告拍摄），并参与机构2025年向更多非洲国家扩展的运营规划。维基百科与PIN官方渠道双重印证其COO职务。"
+    },
+    {
+      "person_id": "NG-PERSON-000979",
+      "name": "托贝基莱·马廷贝 (Thobekile Matimbe)",
+      "title": "合作与交流高级经理 (Senior Manager, Partnerships and Engagements)",
+      "title_description": "负责机构伙伴关系与对外交流",
+      "description": "津巴布韦籍数字权利研究者，PIN官网团队页列为合作与交流高级经理，此前曾任PIN社区经理，长期参与非洲数字权利倡导与《Londa》国别研究工作。"
+    },
+    {
+      "person_id": "NG-PERSON-000980",
+      "name": "帕特·乌托米 (Pat Utomi)",
+      "title": "董事会成员 (Board Member)",
+      "title_description": "PIN董事会成员；尼日利亚著名政治经济学家",
+      "description": "尼日利亚知名政治经济学教授、企业家，PIN官网团队页\"董事会\"栏目列为董事；PIN对外传播中亦多次列名董事会成员（与乌玛-阿吉乔拉博士、奥波库-门萨博士、杰科吉安、阿德巴约-奥卢比博士等共同组成董事会）。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "执行总监办公室 (Executive Director Office)",
+      "dept_id": null,
+      "head": "'格本加·塞桑 ('Gbenga Sesan)",
+      "description": "机构最高管理层，负责战略方向、筹资与对外代表（含IGF、非洲人权委员会等多边场合），执行总监兼任董事会秘书。据官网团队页设置归纳。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "运营管理 (Operations)",
+      "dept_id": null,
+      "head": "妮内娜·保罗-乌戈丘克武 (Nnenna Paul-Ugochukwu)",
+      "description": "由首席运营官统管，下辖人事与文化、财务、行政、信息技术等职能岗位（PIN招聘信息显示运营类岗位直接向COO汇报）。据官网团队页职位设置归纳。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "项目团队 (Programmes)",
+      "dept_id": null,
+      "head": null,
+      "description": "负责数字权利与数字包容项目实施，含LIFE数字技能培训、Londa国别研究（设研究岗）与英属西非区域项目（设高级项目官）。据官网团队页职位设置归纳。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "传播团队 (Communications)",
+      "dept_id": null,
+      "head": "朱迪思·奥古图 (Judith Ogutu)",
+      "description": "负责机构品牌、媒体关系与内容传播，由传播高级经理领导，另设传播高级专员。据官网团队页职位设置归纳。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "合作与交流团队 (Partnerships and Engagements)",
+      "dept_id": null,
+      "head": "托贝基莱·马廷贝 (Thobekile Matimbe)",
+      "description": "负责伙伴关系拓展与社区/生态圈交流，含社区建设与倡导、教育宣导等方向。据官网团队页职位设置归纳。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-04-15",
+      "title": "PIN呼吁在喀麦隆2025年总统大选前保护数字权利",
+      "description": "PIN在喀麦隆总统大选前发布声明，警告该国数字权利状况恶化，呼吁当局保障网民言论自由与网络接入权利，避免选举期间出现网络压制。",
+      "impact": "将喀麦隆数字权利议题提前纳入选举议程，为同年10月大选期间断网事件的快速反应奠定基础。",
+      "source": "https://paradigmhq.org/press-release-paradigm-initiative-calls-for-the-protection-of-digital-rights-ahead-of-2025-presidential-elections-in-cameroon/"
+    },
+    {
+      "date": "2025-10-16",
+      "title": "PIN发布机构史新书《The Paradigm Initiative Story: A Work in Progress》",
+      "description": "PIN以\"A Story of Growth, Grit and Impact\"为主题发布新书，讲述机构从拉各斯阿杰贡莱一间网吧起步、发展为在28个国家实施数百万美元项目的泛非数字权利组织的历程，含筹资与机构建设经验。",
+      "impact": "系统总结非洲本土NGO机构建设方法论，提升PIN在非洲公益与数字政策圈的品牌影响力。",
+      "source": "https://paradigmhq.org/press-release-a-story-of-growth-grit-and-impact-paradigm-initiative-releases-new-book-on-building-a-leading-non-profit/"
+    },
+    {
+      "date": "2025-10-24",
+      "title": "PIN谴责喀麦隆大选期间互联网中断",
+      "description": "喀麦隆大选动荡期间（10月23日起）出现互联网接入限制，PIN发表声明予以谴责，援引非洲人权和民族权委员会第580号决议（ACHPR Resolution 580）指出断网损害选举公信力、压制公民声音。",
+      "impact": "被维基百科条目及多家尼日利亚媒体报道，成为2025年非洲选举断网议题的代表性民间反应之一。",
+      "source": "https://paradigmhq.org/press-release-paradigm-initiative-condemns-cameroon-internet-disruptions-in-elections/"
+    },
+    {
+      "date": "2025-12-04",
+      "title": "PIN发布声明：非洲生物识别身份系统阻碍数百万公民行使基本权利",
+      "description": "PIN发布关于非洲生物识别身份认证系统的研究声明，指出多国强制生物识别注册导致数百万公民无法获得基本权利与服务；执行总监格本加·塞桑作为联合主编指出\"许多公民并不想注册生物识别\"。",
+      "impact": "为非洲数字身份政策辩论提供民间证据，延续PIN自2024年起就尼日利亚公民数据泄露起诉国家身份管理委员会(NIMC)等机构的倡导线。",
+      "source": "https://paradigmhq.org/press-release-africas-biometric-id-systems-blocking-millions-of-citizens-from-fundamental-rights-and-services/"
+    },
+    {
+      "date": "2026-04-21",
+      "title": "PIN在第13届数字权利与包容论坛(DRIF26)发布《Londa 2025》报告",
+      "description": "PIN在DRIF26开幕之际发布《Londa 2025》年度报告（340页），覆盖29个非洲国家，以12项指标构成的\"分数指数\"排名各国数字权利与包容表现，揭示2025年模糊的网络犯罪与网络安全立法激增带来的监控、审查与压制风险。",
+      "impact": "成为2026年非洲数字权利议题的基准文献，被Global Voices等国际媒体跟进报道；执行总监称论坛是\"反思的机会\"。",
+      "source": "https://paradigmhq.org/press-release-winners-and-losers-in-africas-latest-digital-rights-index-revealed/"
+    },
+    {
+      "date": "2026-05-11",
+      "title": "PIN发布2025年度影响力报告，总结泛非数字权利与包容工作",
+      "description": "PIN发布2025年度影响力报告《Championing Digital Rights across Africa》，回顾2025年在泛非范围推进数字权利与数字包容的成效；报告指出2025年模糊的网络犯罪与网络安全法规激增，监控、审查与压制风险上升。尼日利亚媒体This Day于5月14日跟进报道。",
+      "impact": "向资助方与政策圈披露机构年度成果，巩固PIN作为非洲数字权利旗舰民间组织的地位。",
+      "source": "https://paradigmhq.org/championing-digital-rights-across-africa/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-GOV-026",
+      "org_name": "联邦通信、创新和数字经济部 (Federal Ministry of Communications, Innovation and Digital Economy)",
+      "org_type": "GOV",
+      "org_description": "尼日利亚数字政策主管部门，负责国家数字经济战略、数据治理与通信产业政策，是PIN等数字权利组织政策倡导与对话的主要对象。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "PIN长期就数字权利议题与尼日利亚联邦政府互动，既开展政策倡导也诉诸法律：2024年因公民个人数据遭违规网站售卖，PIN起诉国家身份管理委员会(NIMC)等联邦机构未保护数百万尼日利亚人的数据。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "全球网络倡议 (Global Network Initiative)",
+      "org_type": "NGO",
+      "org_description": "汇聚企业、投资者与民间社会、保护数字隐私与表达自由的国际多利益相关方倡议。2017年PIN成为首个加入GNI的非洲会员组织。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "Access Now（#KeepItOn联盟）",
+      "org_type": "NGO",
+      "org_description": "国际数字权利组织Access Now协调的#KeepItOn反断网联盟。2025年10月PIN与该联盟共同行动，呼吁喀麦隆当局在选举期间保障开放与安全的互联网。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "Paradigm Initiative（PIN，范式倡议）是2007年由格本加·塞桑（Gbenga Sesan）在尼日利亚拉各斯阿杰贡莱(Ajegunle)社区一间网吧创立的泛非数字权利与数字包容非营利倡导组织，官网现址paradigmhq.org。机构业务双轨并进：一是数字权利(digital rights)——通过年度《Londa》数字权利与包容报告（覆盖29个非洲国家、含12项指标的分数指数）、Ayeta数字安全工具包、数字权利学院(Digital Rights Academy)、DRIF年度论坛与政策倡导，推动网络自由、隐私保护与反对选举断网，并多次诉诸法律（2017年就信息自由起诉联邦科技部、2024年就公民数据保护起诉国家身份管理委员会等联邦机构）；二是数字包容(digital inclusion)——通过LIFE系列培训（生活技能、ICT技能、理财素养与创业教育）赋能欠服务非洲青年，另有Ajegunle.org、Dufuna等培训项目与短片制作。PIN于2017年成为首个加入全球网络倡议(GNI)的非洲组织，现于尼日利亚、喀麦隆、肯尼亚、塞内加尔、赞比亚、津巴布韦等地设办公室，项目遍及28个非洲国家，并于2025年宣布向更多非洲国家扩展。",
+  "industries": [
+    "nonprofit",
+    "information_technology"
+  ],
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），Paradigm Initiative因此不参与APEC框架事务，也未见其对APEC议程的公开立场。该组织的实际国际合作框架为：联合国互联网治理论坛(IGF)及非洲IGF、非洲联盟与非洲人权和民族权委员会(ACHPR，倡导中曾援引其第580号反断网决议)、全球网络倡议(GNI，2017年成为首个非洲会员组织)、Access Now协调的#KeepItOn反断网联盟，以及与联合国相关机构和私人基金会等资助方的项目合作；其区域政策参与重心是ECOWAS区域与各非洲国家政府的数据保护、网络安全立法与数字身份政策进程。",
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia"
+      "wikipedia_en",
+      "paradigmhq.org",
+      "x.com",
+      "facebook.com",
+      "linkedin.com",
+      "ayeta.africa",
+      "thisdaylive.com",
+      "allafrica.com",
+      "africanews.com",
+      "accessnow.org",
+      "web_search"
     ],
-    "completeness_score": 8,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 92,
+    "quotes": [
+      {
+        "title": "格本加·塞桑（执行总监）在DRIF26开幕式上称论坛是\"反思的机会\"（Londa 2025报告发布稿）",
+        "url": "https://paradigmhq.org/press-release-winners-and-losers-in-africas-latest-digital-rights-index-revealed/"
+      },
+      {
+        "title": "格本加·塞桑（联合主编）在生物识别系统声明中称\"许多公民并不想注册生物识别\"（2025-12-04）",
+        "url": "https://paradigmhq.org/press-release-africas-biometric-id-systems-blocking-millions-of-citizens-from-fundamental-rights-and-services/"
+      },
+      {
+        "title": "官网图书页称：PIN已是\"在28个国家实施数百万美元项目的泛非组织\"（The PIN Story）",
+        "url": "https://paradigmhq.org/the-pin-story/"
+      }
+    ],
+    "notes": "P3批次富化：英文维基百科确认2007年由Gbenga Sesan创立于拉各斯阿杰贡莱（无中文维基独立条目，zh.wikipedia查询404）；官网paradigmhq.org核实社媒页脚链接、团队页职位、Londa/Ayeta/DRIF资产与6条新闻稿日期（datePublished逐一核对）。founded_date仅有年份2007、无月份日期，严格格式无法满足故留空，年份已记入core_business。_name_index.json中无相关人员的person_id与部门dept_id，按规则填null。related_entities引用NG-GOV-026、NG-GOV-001；Global Network Initiative与Access Now不在索引中，org_id按规则填null。relationship_type受枚举限制，对政府倡导对象以partner表示并在org_description中说明具体倡导/诉讼关系。"
   }
 }

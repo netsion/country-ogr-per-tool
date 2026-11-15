@@ -52,7 +52,7 @@
     }
   ],
   "social_accounts": [],
-  "social_accounts_note": "未找到可确认属于本人的个人社媒账号；PADES 官方 Facebook 2020-02-21 曾发布其用富拉语（Poular）就国内社会政治形势发言的视频（账号属政党而非个人，故不计入 social_accounts）",
+  "social_accounts_note": "未找到可确认属于本人的个人社媒账号；PADES 官方 Facebook 2020-02-21 曾发布其用富拉语（Poular）就国内社会政治形势发言的视频（账号属政党而非个人，故不计入 social_accounts）。2026-11-14补弱轮复查：仍无可确认归属本人的个人账号。逐项排查——(1) Facebook 个人主页 algassimou.diallo.815882 与页面 61551065470865 在搜索索引中可见更新头像记录，但页面处于登录墙后、无任何与PADES党务相关的公开信息，无法确认归属，不写入；(2) X 账号 @Algassimou9422 为2025年2月新建空账号（仅1帖、1名关注者、无简介），无法确认归属，不写入；(3) LinkedIn 两名同名者（摩根大通量化副总裁、国际发展顾问）与档案人物无关联证据；(4) X/Twitter、YouTube、TikTok 检索结果几乎全为同名法官2026年案闻，未见本人账号。PADES 官方 Facebook（@lepartipades.officiel）2019-06-25（Radio Familia FM 节目预告照）、2020-02-21（富拉语发言视频上下两段）、2020-03-14（党代会发言视频）多次发布其内容，但均属政党账号而非个人账号。结论：NONE-FOUND。",
   "family_members": [],
   "family_note": "公开报道未载其家庭成员信息",
   "political_stances": [
@@ -101,18 +101,22 @@
     }
   ],
   "biography_summary": "阿尔加西穆·迪亚洛（Algassimou Diallo，另有拼写 Alghassimou Diallo）是几内亚希望民主党（PADES）党务骨干，2020年2月已以「党内协调机构成员」身份公开活动，同年7-8月以党内通讯事务负责人身份多次对媒体发声：批评孔戴总统2020年内阁改组未循政府先辞职的程序、阐明该党参加2020年10月总统选举的立场并回应捍卫宪法全国阵线（FNDC）内部的批评，强调 FNDC 并非选举同盟；此前他还在党代会上声援 FNDC 妇女反第三任期游行、呼吁军队捍卫人民。2025年4月17日 PADES 第二次全国代表大会上，他以全国政治局成员身份成为挑战主席奥斯曼·卡巴的唯一候选人，在79名投票代表中获10票（卡巴67票）落选；败选后表示参选意在为卡巴分担党务、助其备战未来总统选举，并主张将党的理念转向生态与可持续发展项目、以环境举措打击非法移民。其出生日期、出生地、学历与家庭情况均未见公开报道。注意：几内亚另有一同名法官（2009年「9·28」体育场惨案公诉人，2026年8月被免职拘押）及一名72岁加乌阿尔牧主同名者，与本档案人物无关联证据，已严格区分。",
-  "profile": null,
-  "profile_note": "未找到可直连的本人照片（Le Précis 224 二大报道配图为大会场景、无法确认含本人肖像），如实留空",
+  "profile": {
+    "source_url": "https://www.guinee360.com/wp-content/uploads/2025/05/Algassimou-Diallo-membre-du-PADES.jpeg",
+    "local_path": "minio-store/default/popular-person-profile/gn/GN-PERSON-000343.jpg",
+    "minio_path": "default/popular-person-profile/gn/GN-PERSON-000343.jpg"
+  },
+  "profile_note": "2026-11-14补弱轮找到并现场验证本人照片：主图为 Guinée360 2025-05-02 专访报道（标题即「Algassimou Diallo, membre du PADES」，正文确认为PADES全国政治局成员本人）的配图与og:image，画面为其对着 Guinée360 话筒发言的近景肖像；经本地代理 curl 验证 HTTP 200、content-type=image/jpeg（24207字节）。另于 Mediaguinee 2025-04-17 二大报道找到 Algassimou-Diallo-Pades.jpg（https://mediaguinee.com/wp-content/uploads/2025/04/Algassimou-Diallo-Pades.jpg），为其身披PADES标志围巾出席二大会场之照（背景横幅写明2025-04-17 Nongo党部二大），同样验证 HTTP 200、image/jpeg（163971字节），人脸与 Guinée360 专访照一致，互为佐证；g24news 二大报道配图经目视为主席奥斯曼·卡巴而非本人，用作排除项。归属依据：两来源图片文件名与文章正文均明确指向PADES党务骨干迪亚洛，非同名法官。",
   "is_deceased": false,
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "news_search",
       "web_search",
       "wikipedia"
     ],
-    "notes": "P4 人物画像。公开信息有限的党务骨干：核心事实（2025-04-17二大唯一挑战者、全国政治局成员、通讯事务负责人、2020年系列表态）均有≥2独立来源交叉验证（Mediaguinee、Le Précis 224、Guineematin、g24news、Kefinafasso、laguinee.info、Guinée360、FlammeGuinée、VisionGuinée 共9家媒体全文直取）。票数订正：laguinee.info 全文载「67票对10票（79名投票代表）」，Mediaguinee 官方Facebook帖亦载迪亚洛获10票，故记10票；P3党档案所记「12票（约7.9%）」未获本文来源佐证；各媒体自报的百分比（92.1%/7.1%）与原始票数不吻合，数据字段一律只记票数原值。身份辨析：几内亚存在多名同名者——(1)同名的知名法官（1976年6月生於拉贝、2009年「9·28」惨案公诉人、2026年8月被最高司法委员会免职并拘押，见法语文维基及Africaguinee 2023年人物志），所有来源均未将其与PADES关联，且其在职法官身份与2020年起持续党务公开活动不符，判定为不同人，未并入本档案；(2)学术论文所载72岁加乌阿尔牧主同名者；(3)LinkedIn 上两名同名者（国际发展顾问、摩根大通量化副总裁），均无关联证据。本人生卒、学历、家庭、个人社媒账号、照片、联系方式均未见公开报道，相关字段如实留空。2020年2月「党内协调机构成员」与2025年「全国政治局成员」是否同一机构异名无法确认，分列三条党内职务。社媒仅有PADES官方账号2020-02-21发布的其富拉语发言视频。工具：search-read MCP 检索+读全文，部分页面经 curl+本地代理直取。",
+    "notes": "P4 人物画像。公开信息有限的党务骨干：核心事实（2025-04-17二大唯一挑战者、全国政治局成员、通讯事务负责人、2020年系列表态）均有≥2独立来源交叉验证（Mediaguinee、Le Précis 224、Guineematin、g24news、Kefinafasso、laguinee.info、Guinée360、FlammeGuinée、VisionGuinée 共9家媒体全文直取）。票数订正：laguinee.info 全文载「67票对10票（79名投票代表）」，Mediaguinee 官方Facebook帖亦载迪亚洛获10票，故记10票；P3党档案所记「12票（约7.9%）」未获本文来源佐证；各媒体自报的百分比（92.1%/7.1%）与原始票数不吻合，数据字段一律只记票数原值。身份辨析：几内亚存在多名同名者——(1)同名的知名法官（1976年6月生於拉贝、2009年「9·28」惨案公诉人、2026年8月被最高司法委员会免职并拘押，见法语文维基及Africaguinee 2023年人物志），所有来源均未将其与PADES关联，且其在职法官身份与2020年起持续党务公开活动不符，判定为不同人，未并入本档案；(2)学术论文所载72岁加乌阿尔牧主同名者；(3)LinkedIn 上两名同名者（国际发展顾问、摩根大通量化副总裁），均无关联证据。本人生卒、学历、家庭、个人社媒账号、照片、联系方式均未见公开报道，相关字段如实留空。2020年2月「党内协调机构成员」与2025年「全国政治局成员」是否同一机构异名无法确认，分列三条党内职务。社媒仅有PADES官方账号2020-02-21发布的其富拉语发言视频。工具：search-read MCP 检索+读全文，部分页面经 curl+本地代理直取。\n2026-11-14补弱轮：为档案补充头像（profile.source_url=Guinée360 2025-05-02 专访配图直链，HTTP 200/image/jpeg 现场验证；Mediaguinee 2025-04-17 二大照片同验通过、人脸一致互证，g24news 配图为卡巴已排除）并复查社媒账号，各平台仍无可归属本人的真实账号（Facebook 两候选主页登录墙后无法验证、X 空账号无法归属、LinkedIn 同名者无关联），结论 NONE-FOUND，详见 social_accounts_note 与 profile_note。",
     "quotes": [
       {
         "title": "Congrès du PADES : Ousmane Kaba écrase son challenger Algassimou Diallo avec 92% des voix — Mediaguinee (2025-04-17)",

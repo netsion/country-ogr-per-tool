@@ -169,7 +169,22 @@
       "description": "2020 年 3 月 22 日立法选举中同列 UDG 全国名单当选第九届国民议会议员。"
     }
   ],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "Dembo Sylla",
+      "url": "https://gn.linkedin.com/in/dembo-sylla-759ab223",
+      "source_note": "LinkedIn搜索结果快照（谷歌索引页，多轮查询稳定复现）显示该档案headline为「Premier Secrétaire Parlementaire chez Député à l'Assemblée Nationale」（即其2014-2017年国民议会第一书记职务），经历列有Futurelec Holding（2003年3月至今）与Conseiller Économique（对应驻渥太华使馆经济与法律顾问），教育经历含巴黎国际公共行政学院（IIAP Paris）——议会职务、企业职务、外交任职、学历四项独立吻合档案履历，判定为本人档案；页面因LinkedIn反爬未能直接打开复核（curl访问返回302跳登录墙）。与几内亚国脚足球运动员Dembo Sylla（FC Lorient/红星）同名不同人：该球员LinkedIn档案教育为France Business School（布尔日），已排除。",
+      "source": 17
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "Dembo SYLLA",
+      "url": "https://gn.linkedin.com/in/dembo-sylla-72729859",
+      "source_note": "LinkedIn搜索结果快照（谷歌索引页）显示该档案headline为「Directeur général Futurelec Holding」、教育经历「Québec à Hull」（对应档案中1997年魁北克大学国际行政文凭）、所在地Guinea——企业职务与留学履历两项独立吻合，判定为本人档案；与dembo-sylla-759ab223系同一人在LinkedIn上并存的两个档案（疑一新一旧），按规范分列如实收录、未做任何合并；页面因LinkedIn反爬未能直接打开复核。",
+      "source": 17
+    }
+  ],
   "family_members": [],
   "political_stances": [
     {
@@ -227,11 +242,11 @@
   "biography_summary": "埃尔哈吉·登博·西拉，1956 年生于几内亚博凯，法学家、职业外交官出身的政治人物，几内亚民主联盟（UDG）副主席。1982 年获科纳克里加马勒·阿卜杜勒·纳赛尔理工学院（IPGAN）高等教育文凭，后相继在巴黎国际公共行政学院（1986，外交方向）、海牙国际法学院（1988，国际法证书）和加拿大魁北克大学（1997，国际行政文凭）深造。司法与外交生涯包括：共和国检察官、外交部法律事务司司长、几内亚常驻联合国代表团（纽约）部长级参赞、驻渥太华使馆经济与法律顾问，并曾出任私营部门 Futurelec Holding 总经理。2013 年立法选举经 UDG 全国名单步入政坛：第八届国民议会（2014-2020）任议会第一书记，2017 年 2 月该党转向反对派、职务被替换时公开捍卫议事法规，同年 12 月回归议会局任议会副主席；2020 年连任议员并接任反对派「爱国联盟」党团主席，直至 2021-09-05 政变议会解散。过渡期间他仍是 UDG 的主要声音，2026-02-28 代表党领导层宣布参选；在 2026-05-31 立法选举中率 UDG 全国名单斩获 70,388 票，赢得该党在 147 席新议会中的唯一席位，6 月 19 日经最高法院确认，7 月 17 日就任第十届立法届议员并出任共和联盟党团副主席。2026-04-16 党主席马马杜·西拉（法语维基称其为登博之兄）病逝后，登博·西拉成为该党在国民议会中的代表人物。",
   "profile": {
     "source_url": "https://guineematin.com/wp-content/uploads/2026/05/Honorable-Dembo-Sylla-tete-de-liste-du-parti-UDG.jpeg",
-    "local_path": null,
-    "minio_path": null
+    "local_path": "minio-store/default/popular-person-profile/gn/GN-PERSON-000349.jpg",
+    "minio_path": "default/popular-person-profile/gn/GN-PERSON-000349.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -241,7 +256,7 @@
       "web_search"
     ],
     "completeness_score": 84,
-    "notes": "P4 人物画像（2026-11-11）。已全文读取 7 个独立来源：法语维基百科专属条目、英语维基百科条目、国民议会旧官网存档页（cnt.gov.gn 归档，官方来源，确认出生/学历/外交与企业履历）、guineematin（2026-05-20 竞选介绍）、lesinfosdeguinee（2026-08-17 转述其本人回顾 43 年公职生涯的长文）、mediaguinee（2017-12-12 进入议会局）、ramatoulaye/AGP（2017-02-16 议事法规之争）。身份甄别：与几内亚国脚足球运动员 Dembo Sylla（FC Lorient/红星）同名不同人，Facebook 检索结果均为该球员，政客本人社媒账号未获可核实主页，social_accounts 如实留空。存疑点如实记录：1) 与已故党主席马马杜·西拉的亲属关系——fr.wikipedia 称「兄弟（frère）」，mediaguinee 称关系密切（proche），visionguinee 报道引语显示家族互称叔侄，按任务口径记 relationship_type=other、不写入 family_members；2) 共和国检察官经历仅见于其本人社交发帖（lesinfosdeguinee 转述），单源收录、日期留空；3) 选举日期——GN-PARTY-013 画像中 2026-05-24 为 UDG 二月公告时的计划投票日，实际投票日为 2026-05-31（fr.wikipedia、GN-GOV-020、lesinfosdeguinee 三源一致），最高法院 2026-06-19 确认最终结果。出生日期仅知年份（1956，官方存档页与两语维基一致），按规范补 01-01。中文译名沿用数据集既定译名（_name_index.json / GN-PARTY-013）。头像为 guineematin 报道配图直链（已验证 HTTP 200、image/jpeg），未下载。",
+    "notes": "P4 人物画像（2026-11-11）。已全文读取 7 个独立来源：法语维基百科专属条目、英语维基百科条目、国民议会旧官网存档页（cnt.gov.gn 归档，官方来源，确认出生/学历/外交与企业履历）、guineematin（2026-05-20 竞选介绍）、lesinfosdeguinee（2026-08-17 转述其本人回顾 43 年公职生涯的长文）、mediaguinee（2017-12-12 进入议会局）、ramatoulaye/AGP（2017-02-16 议事法规之争）。身份甄别：与几内亚国脚足球运动员 Dembo Sylla（FC Lorient/红星）同名不同人，Facebook 检索结果均为该球员，政客本人社媒账号未获可核实主页，social_accounts 如实留空。存疑点如实记录：1) 与已故党主席马马杜·西拉的亲属关系——fr.wikipedia 称「兄弟（frère）」，mediaguinee 称关系密切（proche），visionguinee 报道引语显示家族互称叔侄，按任务口径记 relationship_type=other、不写入 family_members；2) 共和国检察官经历仅见于其本人社交发帖（lesinfosdeguinee 转述），单源收录、日期留空；3) 选举日期——GN-PARTY-013 画像中 2026-05-24 为 UDG 二月公告时的计划投票日，实际投票日为 2026-05-31（fr.wikipedia、GN-GOV-020、lesinfosdeguinee 三源一致），最高法院 2026-06-19 确认最终结果。出生日期仅知年份（1956，官方存档页与两语维基一致），按规范补 01-01。中文译名沿用数据集既定译名（_name_index.json / GN-PARTY-013）。头像为 guineematin 报道配图直链（已验证 HTTP 200、image/jpeg），未下载。 2026-11-14补弱轮：社交账号补强，新增LinkedIn账号2个（同一人并存档案ID，均经履历核验判定本人，详见social_accounts_note）；Facebook个人页面确认存在（guinee3.net 2022年报道提及）但URL未能定位、未收录；其余平台未发现本人账号。",
     "quotes": [
       {
         "title": "Elhadj Dembo Sylla — Wikipédia (fr)",
@@ -280,5 +295,6 @@
         "url": "https://www.wikidata.org/wiki/Q96678700"
       }
     ]
-  }
+  },
+  "social_accounts_note": "2026-11-14补弱轮（社交账号补强）：新增LinkedIn账号2个（dembo-sylla-759ab223、dembo-sylla-72729859），为同一人并存两个档案ID，分别经四项/两项履历要点与档案核验吻合后收录（议会第一书记+Futurelec总经理+渥太华经济顾问+IIAP学历；Futurelec总经理+魁北克Hull学历），均因LinkedIn反爬仅能以搜索快照核验、未合并。Facebook：guinee3.net（2022-02-16）报道明确称其曾在「sa page Facebook」就Air Guinée事件发文，证明其确有个人FB页面，但经多轮定向检索（facebook.com限定、姓名+Futurelec/UDG/航空事件组合）均未能定位该主页URL，可见结果均为Guineematin/VisionGuinée/Africa Guinée等媒体账号帖文及UDG政党官方页@uniondemocratiquedeguinee（政党机构账号，归GN-PARTY-013，不列入个人），依「拿不准不写入」原则未收录FB账号。X/Twitter、YouTube、Instagram、TikTok检索仅见媒体报道，无本人账号。足球运动员同名陷阱（Dembo Sylla，FC Lorient/红星，2002年生）本轮复核确认排除。"
 }

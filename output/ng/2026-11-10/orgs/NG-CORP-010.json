@@ -2,15 +2,17 @@
   "org_id": "NG-CORP-010",
   "basic_info": {
     "name_original": "Lafarge Africa",
-    "name_zh": "拉法基非洲",
-    "name_en": "Lafarge Africa",
+    "name_zh": "HBM 尼日利亚公司（原拉法基非洲）",
+    "name_en": "HBM Nigeria Plc (formerly Lafarge Africa Plc)",
     "aliases": [
       "HBM Nigeria Plc",
       "Lafarge WAPCO Plc",
       "Lafarge Cement WAPCO Plc",
       "WAPCO",
       "West African Portland Cement Company",
-      "华新建材尼日利亚股份有限公司"
+      "华新建材尼日利亚股份有限公司",
+      "Lafarge Africa Plc",
+      "Lafarge Africa"
     ],
     "org_type": "CORP",
     "org_subtype": "publicly_listed",
@@ -102,7 +104,7 @@
       "name": "洛卢·阿拉德-阿金耶米 (Lolu Alade-Akinyemi)",
       "title": "集团董事总经理兼首席执行官 (Group Managing Director / Chief Executive Officer)",
       "title_description": "2023年7月1日起出任GMD/CEO;2020年4月8日进入董事会",
-      "description": "拥有超过25年财务、供应链与商业管理经验;出任CEO前任公司首席财务官(CFO)与供应链总监;2014年加入公司,此前任PZ Cussons尼日利亚财务总监4年,并在可口可乐公司工作16年(英、比、加纳、尼日利亚);职业生涯始于埃克森美孚;埃塞克斯大学经济学学士、爱丁堡商学院MBA;兼任Ashakacem董事长。在其任内公司2025财年营收首次突破1万亿奈拉。"
+      "description": "拥有超过25年财务、供应链与商业管理经验;出任CEO前任公司首席财务官(CFO)与供应链总监;2014年加入公司,此前任PZ Cussons尼日利亚财务总监4年,并在可口可乐公司工作16年(英、比、加纳、尼日利亚);职业生涯始于埃克森美孚;埃塞克斯大学经济学学士、爱丁堡商学院MBA;兼任Ashakacem董事长。在其任内公司2025财年营收首次突破1万亿奈拉。【2026-11-15 同步】公司于 2026-06 更名 HBM Nigeria Plc（华新水泥收购 Holcim 所持 83.81% 股权后），本人留任集团 CEO。"
     },
     {
       "person_id": "NG-PERSON-000351",
@@ -321,7 +323,7 @@
   ],
   "related_entities": [
     {
-      "org_id": "NG-CORP-015",
+      "org_id": null,
       "org_name": "华新建材集团 (Huaxin Building Materials Group Co., Ltd.)",
       "org_type": "CORP",
       "org_description": "中国建材龙头企业,前身华新水泥股份有限公司(1907年创立,总部武汉),2025年10月更名为华新建材集团,在上海与香港两地上市,全球十大水泥制造商之一;2025年8月29日通过收购Holcim所持股份成为公司控股股东(华新系主体合计持股83.81%),2026年6月将公司更名为HBM Nigeria Plc。",
@@ -416,6 +418,7 @@
       }
     ],
     "completeness_score": 100,
-    "notes": "Phase 3 enrichment (2026-11-12). Sources: Wikipedia EN (no zh-wiki sitelink exists), official website www.hbmngplc.com (about-us, corporate-governance incl. full board/executive committee bios, plant pages, footer social icons, logo), Wikipedia-cached data, Nairametrics (9M-2025), Guardian NG + Cowryvest (FY2025), AfricanFinancials (Q1-2026), Aggregates Business (sale completion 2025-08-29; rebrand 2026-06-25), Vanguard (Senate approval 2026-07-09), CemNet/BusinessDay/legit.ng (corroboration), 中国基金报/新浪财经(华新公告: 8.38亿美元基础对价、交割价7.7386亿美元、交割日2025-08-29), 水泥网/腾讯新闻 (中文名'拉法基非洲'、'华新建材尼日利亚股份有限公司'). Corrections vs skeleton: name_zh filled as 拉法基非洲 (common Chinese media usage); website updated from null to current canonical https://www.hbmngplc.com/ (old lafarge-africa.com defunct after rebrand); org_subtype changed 'cement_manufacturing' (not in enum) to 'publicly_listed'; industries changed from erroneous 'financial_services' to industrial_manufacturing + construction; founded_date changed 1961-01-01 to 1959-01-01 per Wikipedia ('formally established in 1959') and official site ('established in 1959'), operations began 1961. CRITICAL ownership change: Holcim's ~83-84% control ended 2025-08-29 (sold to Huaxin Cement, now Huaxin Building Materials Group, which paid an adjusted $773.86M); company renamed HBM Nigeria Plc in June 2026 (org_original name kept as 'Lafarge Africa' to match registry/index; HBM Nigeria Plc listed in aliases). Leadership as of 2025-2026: Chairman Gbenga Oyebode (since 2024-04-27), GMD/CEO Lolu Alade-Akinyemi (since 2023-07-01). Chinese executives' hanzi not verified — names given in pinyin only, marked '(pinyin)' to avoid fabrication. Dangote Cement (NG-CORP-002) and BUA Cement (NG-CORP-007) are competitors (no competitor enum in relationship_type) — referenced in core_business and recent_events. Nigeria is not an APEC member; apec_stance describes Huaxin/Holcin ownership linkage and AfCFTA/ECOWAS context instead."
+    "notes": "Phase 3 enrichment (2026-11-12). Sources: Wikipedia EN (no zh-wiki sitelink exists), official website www.hbmngplc.com (about-us, corporate-governance incl. full board/executive committee bios, plant pages, footer social icons, logo), Wikipedia-cached data, Nairametrics (9M-2025), Guardian NG + Cowryvest (FY2025), AfricanFinancials (Q1-2026), Aggregates Business (sale completion 2025-08-29; rebrand 2026-06-25), Vanguard (Senate approval 2026-07-09), CemNet/BusinessDay/legit.ng (corroboration), 中国基金报/新浪财经(华新公告: 8.38亿美元基础对价、交割价7.7386亿美元、交割日2025-08-29), 水泥网/腾讯新闻 (中文名'拉法基非洲'、'华新建材尼日利亚股份有限公司'). Corrections vs skeleton: name_zh filled as 拉法基非洲 (common Chinese media usage); website updated from null to current canonical https://www.hbmngplc.com/ (old lafarge-africa.com defunct after rebrand); org_subtype changed 'cement_manufacturing' (not in enum) to 'publicly_listed'; industries changed from erroneous 'financial_services' to industrial_manufacturing + construction; founded_date changed 1961-01-01 to 1959-01-01 per Wikipedia ('formally established in 1959') and official site ('established in 1959'), operations began 1961. CRITICAL ownership change: Holcim's ~83-84% control ended 2025-08-29 (sold to Huaxin Cement, now Huaxin Building Materials Group, which paid an adjusted $773.86M); company renamed HBM Nigeria Plc in June 2026 (org_original name kept as 'Lafarge Africa' to match registry/index; HBM Nigeria Plc listed in aliases). Leadership as of 2025-2026: Chairman Gbenga Oyebode (since 2024-04-27), GMD/CEO Lolu Alade-Akinyemi (since 2023-07-01). Chinese executives' hanzi not verified — names given in pinyin only, marked '(pinyin)' to avoid fabrication. Dangote Cement (NG-CORP-002) and BUA Cement (NG-CORP-007) are competitors (no competitor enum in relationship_type) — referenced in core_business and recent_events. Nigeria is not an APEC member; apec_stance describes Huaxin/Holcin ownership linkage and AfCFTA/ECOWAS context instead. [2026-11-15 同步] 公司 2026-06 更名 HBM Nigeria Plc（华新水泥收购 83.81%），CEO Alade-Akinyemi（NG-PERSON-000350）留任；Ashaka 水泥 MD Ibrahim Aminu（NG-PERSON-000358）亦确认留任。",
+    "last_sync_note": "2026-11-15 P4 收尾同步（人物画像核实更新）"
   }
 }

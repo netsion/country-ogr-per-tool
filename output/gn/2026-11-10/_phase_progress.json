@@ -1,7 +1,7 @@
 {
   "phase": "P4_person_enrichment",
   "started_at": "2026-11-11T00:00:00",
-  "last_updated": "2026-11-11T00:00:00",
+  "last_updated": "2026-11-13T00:00:00",
   "completed": [
     "GN-PERSON-000002",
     "GN-PERSON-000036",
@@ -126,23 +126,18 @@
     "GN-PERSON-000270",
     "GN-PERSON-000218",
     "GN-PERSON-000282",
-    "GN-PERSON-000031"
-  ],
-  "remaining": [
+    "GN-PERSON-000031",
     "GN-PERSON-000050",
-    "GN-PERSON-000085",
     "GN-PERSON-000337",
+    "GN-PERSON-000085",
     "GN-PERSON-000113",
     "GN-PERSON-000102",
     "GN-PERSON-000107",
     "GN-PERSON-000217",
     "GN-PERSON-000106"
   ],
-  "current": [
-    "GN-PERSON-000050",
-    "GN-PERSON-000085",
-    "GN-PERSON-000337"
-  ],
+  "remaining": [],
+  "current": [],
   "failed": [],
   "notes": "confirmed 133-person priority list; rolling 4-concurrency; handler=output/_gn_p4_done.py"
 }

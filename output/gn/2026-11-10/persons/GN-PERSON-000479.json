@@ -129,7 +129,14 @@
       "platform": "facebook",
       "account_name": "Alhoussein Makanera Kake",
       "url": "https://www.facebook.com/alhousseinmakanera.kake/",
-      "source_note": "搜索结果快照显示的同名Facebook个人主页（标注Conakry, Self-Employed），姓名与本人高度吻合；未见官方认证标识，身份待登录核验",
+      "source_note": "同名Facebook个人档案页（个人profile形态），搜索快照标注Conakry/Self-Employed；2026-11-15复核轮裁决为本人早年个人档案页，与官方公共主页makanerakakealhoussein并存而非重复账号（裁决依据见social_accounts_note），登录态核验仍未完成",
+      "source": 6
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Alhoussein Makanera Kaké, Leader du parti FND",
+      "url": "https://www.facebook.com/makanerakakealhoussein/",
+      "source_note": "同名Facebook公共主页，页名含「Leader du parti FND」——FND主席为其2016年至2026年2月独有头衔，与档案人物严格对应；页面2020-2026年帖文轨迹（在RTG Koloma亮相、@几内亚总统府与杜姆布亚、政论表态）与其公开行程吻合；visionguinee（2026-09-16）全文刊载其以「总统多数派GMD议会党团主席」署名、发布于「其Facebook页面」的致France 24声明，guinee7（2026-09-15）同源转发，与现任职务严格一致；Facebook登录墙阻止登录态直访页面详情，归属基于≥2独立媒体报道交叉验证",
       "source": 6
     }
   ],
@@ -185,14 +192,14 @@
   "biography_summary": "阿尔胡塞尼·马卡内拉·卡凯（Alhousseiny Makanéra Kaké，出生名Alhoussein Kaké Makanéra）是几内亚资深政治人物、媒体常称的「阿尔法·孔戴时期前通信部长」。2014年1月20日出任萨伊德·福法纳政府信息与通信部长，任内推动国家广播电视台RTG全国地理覆盖与数字化转型并统筹埃博拉疫情公众传播；2015年12月卸任（媒体报道其于2016年1月4日被免职），随后转入反对派。2010年选举后他曾加入执政的RPG Arc-en-ciel，入阁前自述担任独立人士全国集会（RNI）党主席，后长期领导国家发展阵线（FND），是几内亚媒体与社交网络上活跃的政治评论者。2020年他以RPG彩虹联盟全国名单当选第九届国民议会议员并出任议会通信与新技术信息委员会主席，2021年9月政变后议会解散。2025年他转而支持军政权转型进程，任杜姆布亚将军2025协同平台（GMD25）全国协调人，发起请愿敦请杜姆布亚参选总统；2026年2月辞去FND主席职务、成为执政的现代化与发展世代党（GMD）创党成员；同年5月列盟党劳动联盟党（RGT）全国名单第3位当选第十届国民议会议员，7月17日就任118席的总统多数派（GMD）议会党团主席，成为第五共和国议会多数派的领军人物。",
   "profile": {
     "source_url": "https://guineematin.com/wp-content/uploads/2026/05/Makanera-Kake-appelle-a-voter-RGT-pour-eviter-limmobilisme-a-lAssemblee.jpeg",
-    "local_path": null,
-    "minio_path": null
+    "local_path": "minio-store/default/popular-person-profile/gn/GN-PERSON-000479.jpg",
+    "minio_path": "default/popular-person-profile/gn/GN-PERSON-000479.jpg"
   },
   "work_note": "部长任期终点存在口径差：法文维基百科与维基数据记其任期至2015-12-26（由Rachid Ndiaye接任），而guineelive 2016年报道其于2016-01-04被免职（limogeage）后转入反对派，本档任期采用维基数据口径。2020-2021年议员身份及通信与新技术信息委员会主席职务经国民议会官方存档页（cnt.gov.gn）与法文维基百科双重确认；「第三议会书记」头衔仅见法文维基百科单一来源。RGT成员身份的加入时间未公开，start_date留空；其同时为GMD创党成员（2026年2月），因GMD未完成政党注册、比例名单由盟党RGT承载，故以RGT名单当选。",
   "position_note": "现任职务以2026-07-17第十届国民议会成立为界：议员身份自该日正式就任（2026-05-31当选）；总统多数派（GMD）议会党团主席职务经africaguinee与flammeguinee同源报道及GMD党档交叉确认（118席）。",
   "education_note": "未检索到任何关于其学历、就读院校的可靠公开信息（网络流传的focusintl.com「CV-Dr-Alhassane-Makanera-KAKE.pdf」为另一姓名高度近似者Alhassane Makanera Kake的研究履历，不予采信），education如实留空。",
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-15",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -269,6 +276,7 @@
         "url": "https://www.facebook.com/alhousseinmakanera.kake/"
       }
     ],
-    "notes": "P4人物画像采集说明（GN-PERSON-000479，阿尔胡塞尼·马卡内拉·卡凯）：①ID绑定存疑待主会话处理：_name_index.json中同一人名两个拼写变体分别指向GN-PERSON-000227（「Alhousseiny Makanera Kaké」无重音变体）与GN-PERSON-000479（「Alhousseiny Makanéra Kaké」带重音变体），且orgs/GN-PARTY-020.json与GN-PARTY-001.json两档key_people均绑定GN-PERSON-000227，本档按主会话指定使用GN-PERSON-000479；所有外部证据（维基/维基数据/CNT档案/媒体）指向同一自然人，建议后续合并两ID。②出生日期、出生地、学历均未检索到可靠来源，birth_date/birth_place留空、education留空；性别male与国籍GN经维基数据（P21/P27）确认。③部长任期终点口径差：法文维基/维基数据记2015-12-26卸任（Rachid Ndiaye接任），guineelive记2016-01-04免职，采用前者并在work_note注明。④辞去FND主席、加入GMD为创党成员一事主要依据mediaguinee对辞职信的报道（单一来源），但与其2025年领导Synergie GMD25、2026年5月列GMD盟党RGT名单参选的轨迹互洽，且fr.wikipedia《Élection présidentielle guinéenne de 2025》独立佐证其GMD25领导身份。⑤2014年自述曾任RNI党主席系guinee7专访单一来源，起止不详。⑥FND（Front national pour le développement，国家发展阵线，政党）与FNDC（Front national pour la défense de la Constitution，宪法保卫阵线，GN-NGO-004）系不同组织，已严格区分；FND与RNI均未收录入_name_index.json，org_id按规则留null。⑦2016年宪兵队（PM3）公务车交还事件及2015年公共媒体竞选经费争议仅guineelive单一来源且文带评论色彩，未单列为立场/成就，仅在传记中以「媒体报道」弱化表述。⑧2020-2021年议员及委员会主席职务经议会官方存档页+维基百科双源确认；「第三议会书记」仅维基单一来源，已并入职务描述标注。⑨Facebook账号系搜索快照同名匹配（Conakry/Self-Employed），未见官方认证，谨慎收录并注明待核验；未发现其X/LinkedIn/TikTok可核实账号。⑩头像采用guineematin 2026-05-12报道配图直链（JPEG，已临时下载目视核验为其主持RGT记者会画面，与报道上下文一致），非维基类图源但为可直连原图；未下载入数据集（local_path=null）。⑪重要事实（部长任期、2020议员身份、FND主席、RGT名单第3位当选、GMD党团主席118席、GMD25协调人）均≥2独立来源交叉验证；collection_date按主会话指令记为2026-11-11。"
-  }
+    "notes": "P4人物画像采集说明（GN-PERSON-000479，阿尔胡塞尼·马卡内拉·卡凯）：①ID绑定存疑待主会话处理：_name_index.json中同一人名两个拼写变体分别指向GN-PERSON-000227（「Alhousseiny Makanera Kaké」无重音变体）与GN-PERSON-000479（「Alhousseiny Makanéra Kaké」带重音变体），且orgs/GN-PARTY-020.json与GN-PARTY-001.json两档key_people均绑定GN-PERSON-000227，本档按主会话指定使用GN-PERSON-000479；所有外部证据（维基/维基数据/CNT档案/媒体）指向同一自然人，建议后续合并两ID。②出生日期、出生地、学历均未检索到可靠来源，birth_date/birth_place留空、education留空；性别male与国籍GN经维基数据（P21/P27）确认。③部长任期终点口径差：法文维基/维基数据记2015-12-26卸任（Rachid Ndiaye接任），guineelive记2016-01-04免职，采用前者并在work_note注明。④辞去FND主席、加入GMD为创党成员一事主要依据mediaguinee对辞职信的报道（单一来源），但与其2025年领导Synergie GMD25、2026年5月列GMD盟党RGT名单参选的轨迹互洽，且fr.wikipedia《Élection présidentielle guinéenne de 2025》独立佐证其GMD25领导身份。⑤2014年自述曾任RNI党主席系guinee7专访单一来源，起止不详。⑥FND（Front national pour le développement，国家发展阵线，政党）与FNDC（Front national pour la défense de la Constitution，宪法保卫阵线，GN-NGO-004）系不同组织，已严格区分；FND与RNI均未收录入_name_index.json，org_id按规则留null。⑦2016年宪兵队（PM3）公务车交还事件及2015年公共媒体竞选经费争议仅guineelive单一来源且文带评论色彩，未单列为立场/成就，仅在传记中以「媒体报道」弱化表述。⑧2020-2021年议员及委员会主席职务经议会官方存档页+维基百科双源确认；「第三议会书记」仅维基单一来源，已并入职务描述标注。⑨Facebook账号系搜索快照同名匹配（Conakry/Self-Employed），未见官方认证，谨慎收录并注明待核验；未发现其X/LinkedIn/TikTok可核实账号。⑩头像采用guineematin 2026-05-12报道配图直链（JPEG，已临时下载目视核验为其主持RGT记者会画面，与报道上下文一致），非维基类图源但为可直连原图；未下载入数据集（local_path=null）。⑪重要事实（部长任期、2020议员身份、FND主席、RGT名单第3位当选、GMD党团主席118席、GMD25协调人）均≥2独立来源交叉验证；collection_date按主会话指令记为2026-11-11。⑫2026-11-15补弱轮（社交账号补强）：新增Facebook公共主页makanerakakealhoussein（归属依据见social_accounts_note及对应条目source_note），社交账号由1个补至2个；检索未发现其可核实的X/Twitter、LinkedIn、YouTube个人账号；本次仅改动social_accounts、social_accounts_note与collection_meta，其余字段未动。⑬2026-11-15旧页复核轮（社交账号归属裁决）：对既有alhousseinmakanera.kake个人档案页执行三组关键词Google检索复核，裁决为本人早年个人档案页、与新公共主页makanerakakealhoussein并存不重复（证据与保留事项见social_accounts_note），两条均保留；同时确认新公共主页快照仍可获取且活跃更新（页名已随党派变动更名「Alhoussein Makanera Kaké GMD」，131465粉丝，2026-11-01仍有帖文，ADAFP政党名录第三方佐证）；本次仅改动social_accounts（旧条目source_note）、social_accounts_note与collection_meta.notes，其余字段未动。"
+  },
+  "social_accounts_note": "2026-11-15社交账号补强及旧页复核轮结论：①官方公共主页makanerakakealhoussein（页名「Alhoussein Makanera Kaké, Leader du parti FND」，最新索引快照已随其党派变动更名「Alhoussein Makanera Kaké GMD」，131465粉丝，标注Politician并附联系电话+224 666 46 16 17与邮箱makco19@yahoo.fr）：归属依据三重交叉——(a)页名含FND主席职务，系档案人物2016年至2026年2月独有头衔；(b)页面2020-2026年帖文（RTG Koloma亮相、@总统府与杜姆布亚、政论内容）与其公开轨迹吻合；(c)visionguinee（2026-09-16）与guinee7（2026-09-15）报道其以「总统多数派GMD议会党团主席」身份在其Facebook页面发布致France 24声明，与现任职务严格一致。2026-11-15复核确认该页快照仍可获取且活跃维护（2026-11-01仍有国民议会全会发言帖，页名随2026年2月辞FND入GMD同步更名），另获第三方佐证：ADAFP（adafp.org）政党名录将此URL列为FND党Facebook。②旧个人档案页alhousseinmakanera.kake复核裁决：判定为本人早年个人档案页（「先个人profile后公共主页」的常见形态），与新公共主页并存而非重复账号，两条均保留。依据：(a)快照姓名「Alhoussein Makanera Kake」与本人完全同名（ASCII无重音拼写），而education_note所注近似姓名者Dr Alhassane Makanera Kake的首名为Alhassane，排除旧页属该人；(b)快照所在地Conakry与本人政治活动基地一致；(c)Facebook站内检索所见「Makanera Kaké」同姓其他用户（Aboubakar、Tuguidanke、Omar、Elhadj等）首名均不同，多轮关键词检索未见其他「Alhoussein Makanera」同名用户；(d)直访该URL返回登录墙标题「Alhoussein Makanera Kake (@alhousseinmakanera.kake) • Facebook」，为个人profile形态（非公共主页），快照职业信息为泛化的Self-Employed、无任何政治头衔，符合其从政成名前创建、此后未更新的早年个人档案页特征。保留事项：登录态核验仍未完成，且未发现旧页与新公共主页之间的正向互证（如关注/管理员关联、他人@提及该profile的帖文），不能完全排除极小概率的同名同市他人，故该条仍标注待登录核验。③X/Twitter：未发现可核实账号（新闻报道中「compte officiel X.com」均指几内亚总理，与本人物无关）。④LinkedIn：同名账户「alhoussein makanera kake - agent de fisc chez direction national des impots」职业（税务局税务员）与政治人物履历（前部长、现任议员）明显不符，排除；「Dr Alhassane Makanera Kake」（索福尼亚大学法学与金融研究者）系档案education_note已注明的另一姓名高度近似者，亦排除。⑤YouTube：检索结果均为媒体频道（224tv、guineematin、FIM 24 Guinée等）对其采访报道，未见其个人频道。⑥Facebook登录墙阻止直接访问页面详情，两账号归属核验均基于搜索引擎快照与≥2独立媒体报道交叉验证。"
 }

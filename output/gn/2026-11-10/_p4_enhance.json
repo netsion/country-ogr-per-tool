@@ -1,0 +1,1046 @@
+{
+  "created": "2026-11-14",
+  "purpose": "P4 enhancement round: social_accounts + avatar backfill (rolling 4-concurrency)",
+  "order": [
+    {
+      "person_id": "GN-PERSON-000057",
+      "name": "Ahmed Tidiane Touré",
+      "name_zh": "艾哈迈德·蒂迪亚内·图雷",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000097",
+      "name": "Hadja Fanta Camara",
+      "name_zh": "哈贾·芳塔·卡马拉",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000101",
+      "name": "Fodé Bangoura",
+      "name_zh": "福代·邦古拉",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000223",
+      "name": "Sidiba Koulibaly",
+      "name_zh": "西迪巴·库利巴利",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000226",
+      "name": "Mohamed Sylla",
+      "name_zh": "穆罕默德·西拉",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000230",
+      "name": "Alfa Ibrahima Sow",
+      "name_zh": "阿尔法·易卜拉希马·苏",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000241",
+      "name": "Ismaël Gushein",
+      "name_zh": "伊斯梅尔·古斯汉",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000343",
+      "name": "Algassimou Diallo",
+      "name_zh": "阿尔加西穆·迪亚洛",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000344",
+      "name": "Abdoulaye Dieng",
+      "name_zh": "阿卜杜拉耶·迪昂",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000350",
+      "name": "Nabilaye Youssouf Cissé",
+      "name_zh": "纳比拉耶·优素福·西塞",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000355",
+      "name": "Mamadou Boye Bah",
+      "name_zh": "马马杜·博耶·巴",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000362",
+      "name": "Momy Mara Mario",
+      "name_zh": "莫米·马拉·马里奥",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000363",
+      "name": "Thérèse Tolno",
+      "name_zh": "泰蕾兹·托尔诺",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000366",
+      "name": "André Habalamou",
+      "name_zh": "安德烈·哈巴拉穆",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000369",
+      "name": "Mohamed Siby",
+      "name_zh": "穆罕默德·西比",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000370",
+      "name": "Aïssatou Touré",
+      "name_zh": "阿伊萨图·图雷",
+      "importance": null,
+      "tier": "T1",
+      "n_social": 0,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000020",
+      "name": "Fana Soumah",
+      "name_zh": "法纳·苏马",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 2,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000063",
+      "name": "Mory Keïta",
+      "name_zh": "莫里·凯塔",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 3,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000064",
+      "name": "Julien Bongono",
+      "name_zh": "朱利安·邦戈诺",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 3,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000096",
+      "name": "Aboubacar Sidighi Diallo",
+      "name_zh": "阿布巴卡尔·西迪吉·迪亚洛",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 4,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000243",
+      "name": "Oyé Béavogui",
+      "name_zh": "奥耶·贝亚沃吉",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 1,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000338",
+      "name": "Fatoumata Condé",
+      "name_zh": "法图玛塔·孔戴",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 1,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000353",
+      "name": "Jean Tiby Sangaré",
+      "name_zh": "让·蒂比·桑加雷",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 2,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000360",
+      "name": "Keamou Bogola Haba",
+      "name_zh": "凯穆·博戈拉·哈巴",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 1,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000474",
+      "name": "Mohamed Lamine Sy Savané",
+      "name_zh": "穆罕默德·拉米内·西·萨瓦内",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 2,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000477",
+      "name": "Mohamed Nabé",
+      "name_zh": "穆罕默德·纳贝",
+      "importance": null,
+      "tier": "T2",
+      "n_social": 1,
+      "weak_avatar": true
+    },
+    {
+      "person_id": "GN-PERSON-000005",
+      "name": "Ibrahima Sory II Tounkara",
+      "name_zh": "易卜拉希马·索里二世·通卡拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000007",
+      "name": "Ibrahima Kalil Condé",
+      "name_zh": "易卜拉希马·卡利尔·孔戴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000008",
+      "name": "Ahmed Mohamed Oury Diallo",
+      "name_zh": "艾哈迈德·穆罕默德·乌里·迪亚洛",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000011",
+      "name": "Bouna Sylla",
+      "name_zh": "布纳·西拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000016",
+      "name": "Facinet Sylla",
+      "name_zh": "法西内·西拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000019",
+      "name": "Aboubacar Camara",
+      "name_zh": "阿布巴卡尔·卡马拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000024",
+      "name": "Alpha Condé",
+      "name_zh": "阿尔法·孔戴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000031",
+      "name": "Boubacar Yacine Diallo",
+      "name_zh": "布巴卡尔·亚辛·迪亚洛",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000049",
+      "name": "Abdoulaye Youla",
+      "name_zh": "阿卜杜拉耶·尤拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000050",
+      "name": "Mariama Bailo Barry",
+      "name_zh": "玛丽亚玛·巴伊洛·巴里",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000051",
+      "name": "Ibrahima Sory Bangoura",
+      "name_zh": "易卜拉希马·索里·班古拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000052",
+      "name": "Moustapha Kobélé Keïta",
+      "name_zh": "穆斯塔法·科贝莱·凯塔",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000067",
+      "name": "Facinet Conté",
+      "name_zh": "法西内·孔戴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000070",
+      "name": "Oumar Barry",
+      "name_zh": "奥马尔·巴里",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000071",
+      "name": "Nima Bah",
+      "name_zh": "尼玛·巴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000072",
+      "name": "Mahamadou Abdoulaye Diallo",
+      "name_zh": "马哈马杜·阿卜杜拉耶·迪亚洛",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000073",
+      "name": "Elhadj Gando Barry",
+      "name_zh": "埃尔哈吉·甘多·巴里",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000075",
+      "name": "Mohamed Bakayoko",
+      "name_zh": "穆罕默德·巴卡约科",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000077",
+      "name": "Moussa Koulibaly",
+      "name_zh": "穆萨·库利巴利",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000078",
+      "name": "Fatoumata Binta Baldé",
+      "name_zh": "法图玛塔·宾塔·巴尔德",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000085",
+      "name": "Souleymane Thianguel Bah",
+      "name_zh": "苏莱曼·蒂安盖尔·巴赫",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000102",
+      "name": "Sidy Souleymane N'Diaye",
+      "name_zh": "西迪·苏莱曼·恩迪亚耶",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000106",
+      "name": "Mamadou Saliou Diakité",
+      "name_zh": "马马杜·萨利乌·迪亚基特",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000113",
+      "name": "Martine Condé",
+      "name_zh": "玛蒂娜·孔戴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000117",
+      "name": "Mohamed Aly Condé",
+      "name_zh": "穆罕默德·阿里·孔戴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000161",
+      "name": "Almamy II Sylla",
+      "name_zh": "阿拉马米·西拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000217",
+      "name": "Me Mamadou Souaré Diop",
+      "name_zh": "马马杜·苏瓦雷·迪奥普",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000222",
+      "name": "Aboubacar Sidiki Camara",
+      "name_zh": "阿布巴卡尔·西迪基·卡马拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000224",
+      "name": "Balla Samoura",
+      "name_zh": "巴拉·萨穆拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000225",
+      "name": "Aminata Diallo",
+      "name_zh": "阿米娜塔·迪亚洛",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000229",
+      "name": "Sékou Condé",
+      "name_zh": "塞古·孔戴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000232",
+      "name": "Mamadou Bano Sow",
+      "name_zh": "马马杜·巴诺·索乌",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000235",
+      "name": "Sidya Touré",
+      "name_zh": "西迪亚·图雷",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000238",
+      "name": "Aboubacar Somparé",
+      "name_zh": "阿布巴卡尔·松帕雷",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000239",
+      "name": "Elhadj Moussa Solano",
+      "name_zh": "埃尔哈吉·穆萨·索拉诺",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000242",
+      "name": "Mohamed Touré",
+      "name_zh": "穆罕默德·杜尔",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000252",
+      "name": "Fama Bangaly Soumaoro",
+      "name_zh": "法玛·邦加利·苏马奥罗",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000347",
+      "name": "Daouda David Camara",
+      "name_zh": "大卫·卡马拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000349",
+      "name": "Elhadj Dembo Sylla",
+      "name_zh": "埃尔哈吉·登博·西拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000352",
+      "name": "Seydou N'Baye",
+      "name_zh": "塞杜·恩巴耶",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000356",
+      "name": "Amadou Oury Diallo",
+      "name_zh": "阿马杜·乌里·迪亚洛",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000442",
+      "name": "Abdourahmane Sanoh",
+      "name_zh": "阿卜杜拉赫曼·萨诺",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000443",
+      "name": "Mamadou Billo Bah",
+      "name_zh": "马马杜·比洛·巴",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000450",
+      "name": "Elhadj Boubacar Fofana",
+      "name_zh": "埃尔哈吉·布巴卡尔·福法纳",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000468",
+      "name": "Karamoko Diawara",
+      "name_zh": "卡拉莫科·迪亚瓦拉",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000469",
+      "name": "Tamba Benoît Kamano",
+      "name_zh": "坦巴·贝努瓦·卡马诺",
+      "importance": null,
+      "tier": "T3",
+      "n_social": 0,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000002",
+      "name": "Karamo Kaba",
+      "name_zh": "卡拉莫·卡巴",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000009",
+      "name": "Djénabou Touré Camara",
+      "name_zh": "杰纳布·图雷",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000010",
+      "name": "Mariama Cire Sylla",
+      "name_zh": "玛丽亚玛·西雷·西拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000015",
+      "name": "Félix Lamah",
+      "name_zh": "费利克斯·拉马",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000018",
+      "name": "Laye Sékou Camara",
+      "name_zh": "拉耶·塞古·卡马拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000021",
+      "name": "Fassou Théa",
+      "name_zh": "法苏·泰亚",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000026",
+      "name": "Lanciné Condé",
+      "name_zh": "朗西内·孔戴",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000035",
+      "name": "Ibrahima Diallo",
+      "name_zh": "易卜拉希马·迪亚洛",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000042",
+      "name": "Karifa Condé",
+      "name_zh": "卡里法·孔戴",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000044",
+      "name": "Amara Camara",
+      "name_zh": "阿马拉·卡马拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000054",
+      "name": "Mohamed Sikhé Camara",
+      "name_zh": "穆罕默德·西凯·卡马拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000061",
+      "name": "Aboubacar Kourouma",
+      "name_zh": "阿布巴卡尔·库鲁马",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000081",
+      "name": "Bachir Camara",
+      "name_zh": "巴希尔·卡马拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000092",
+      "name": "Karim Samoura",
+      "name_zh": "卡里姆·萨穆拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000094",
+      "name": "Makalé Camara",
+      "name_zh": "哈贾·马卡莱·卡马拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000095",
+      "name": "Makalé Traoré",
+      "name_zh": "马卡莱·特拉奥雷",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000100",
+      "name": "Georges Abraham Sorry",
+      "name_zh": "乔治·亚伯拉罕·索里",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000114",
+      "name": "Djenabou Diallo",
+      "name_zh": "杰纳布·迪亚洛",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000160",
+      "name": "El Hadj Mohamed Lamine Conté",
+      "name_zh": "穆罕默德·拉米内·孔戴",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000179",
+      "name": "M'Bemba Amadou Sylla",
+      "name_zh": "姆本巴·西拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000233",
+      "name": "Elh Cherif Bah",
+      "name_zh": "埃尔·谢里夫·巴",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000270",
+      "name": "Thierno Sadou Diallo",
+      "name_zh": "蒂耶尔诺·萨杜·迪亚洛",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000282",
+      "name": "Mamoudou Nagnalen Barry",
+      "name_zh": "马穆杜·纳尼亚伦·巴里",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000335",
+      "name": "Mamadou Alimou Diallo",
+      "name_zh": "阿利穆·迪亚洛",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000339",
+      "name": "Jean Paul Kotembedouno",
+      "name_zh": "让-保罗·科特贝杜诺",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000367",
+      "name": "Dr Alpha Abdoulaye Diallo",
+      "name_zh": "阿尔法·阿卜杜拉耶·迪亚洛",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000449",
+      "name": "Gabriel Haba",
+      "name_zh": "加布里埃尔·哈巴",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000471",
+      "name": "Ramatoulaye Camara",
+      "name_zh": "拉马图拉耶·卡马拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000472",
+      "name": "Faya François Bourouno",
+      "name_zh": "法亚·弗朗索瓦·布鲁诺",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000475",
+      "name": "Moussa Moïse Sylla",
+      "name_zh": "穆萨·莫伊兹·西拉",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    },
+    {
+      "person_id": "GN-PERSON-000479",
+      "name": "Alhousseiny Makanéra Kaké",
+      "name_zh": "阿尔胡塞尼·马卡内拉·卡凯",
+      "importance": null,
+      "tier": "T4",
+      "n_social": 1,
+      "weak_avatar": false
+    }
+  ],
+  "progress": {
+    "remaining": [],
+    "current": [],
+    "completed": [
+      "GN-PERSON-000223",
+      "GN-PERSON-000057",
+      "GN-PERSON-000097",
+      "GN-PERSON-000226",
+      "GN-PERSON-000101",
+      "GN-PERSON-000230",
+      "GN-PERSON-000241",
+      "GN-PERSON-000343",
+      "GN-PERSON-000355",
+      "GN-PERSON-000362",
+      "GN-PERSON-000064",
+      "GN-PERSON-000020",
+      "GN-PERSON-000063",
+      "GN-PERSON-000096",
+      "GN-PERSON-000243",
+      "GN-PERSON-000474",
+      "GN-PERSON-000360",
+      "GN-PERSON-000477",
+      "GN-PERSON-000005",
+      "GN-PERSON-000011",
+      "GN-PERSON-000016",
+      "GN-PERSON-000024",
+      "GN-PERSON-000049",
+      "GN-PERSON-000019",
+      "GN-PERSON-000067",
+      "GN-PERSON-000071",
+      "GN-PERSON-000072",
+      "GN-PERSON-000085",
+      "GN-PERSON-000161",
+      "GN-PERSON-000106",
+      "GN-PERSON-000225",
+      "GN-PERSON-000235",
+      "GN-PERSON-000349",
+      "GN-PERSON-000009",
+      "GN-PERSON-000015",
+      "GN-PERSON-000018",
+      "GN-PERSON-000010",
+      "GN-PERSON-000021",
+      "GN-PERSON-000044",
+      "GN-PERSON-000061",
+      "GN-PERSON-000094",
+      "GN-PERSON-000160",
+      "GN-PERSON-000282",
+      "GN-PERSON-000335",
+      "GN-PERSON-000339",
+      "GN-PERSON-000471",
+      "GN-PERSON-000449",
+      "GN-PERSON-000472",
+      "GN-PERSON-000479",
+      "GN-PERSON-000475",
+      "GN-PERSON-000179"
+    ],
+    "failed": [],
+    "no_improvement": [
+      "GN-PERSON-000344",
+      "GN-PERSON-000366",
+      "GN-PERSON-000369",
+      "GN-PERSON-000370",
+      "GN-PERSON-000363",
+      "GN-PERSON-000350",
+      "GN-PERSON-000353",
+      "GN-PERSON-000338",
+      "GN-PERSON-000008",
+      "GN-PERSON-000007",
+      "GN-PERSON-000031",
+      "GN-PERSON-000050",
+      "GN-PERSON-000051",
+      "GN-PERSON-000052",
+      "GN-PERSON-000070",
+      "GN-PERSON-000073",
+      "GN-PERSON-000075",
+      "GN-PERSON-000077",
+      "GN-PERSON-000102",
+      "GN-PERSON-000078",
+      "GN-PERSON-000117",
+      "GN-PERSON-000113",
+      "GN-PERSON-000222",
+      "GN-PERSON-000217",
+      "GN-PERSON-000229",
+      "GN-PERSON-000224",
+      "GN-PERSON-000232",
+      "GN-PERSON-000238",
+      "GN-PERSON-000239",
+      "GN-PERSON-000242",
+      "GN-PERSON-000352",
+      "GN-PERSON-000356",
+      "GN-PERSON-000252",
+      "GN-PERSON-000442",
+      "GN-PERSON-000450",
+      "GN-PERSON-000443",
+      "GN-PERSON-000468",
+      "GN-PERSON-000002",
+      "GN-PERSON-000469",
+      "GN-PERSON-000026",
+      "GN-PERSON-000042",
+      "GN-PERSON-000054",
+      "GN-PERSON-000035",
+      "GN-PERSON-000092",
+      "GN-PERSON-000081",
+      "GN-PERSON-000100",
+      "GN-PERSON-000114",
+      "GN-PERSON-000095",
+      "GN-PERSON-000270",
+      "GN-PERSON-000233",
+      "GN-PERSON-000367",
+      "GN-PERSON-000347"
+    ],
+    "last_updated": "2026-11-14"
+  }
+}

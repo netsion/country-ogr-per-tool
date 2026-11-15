@@ -5,7 +5,8 @@
     "name_zh": "尼日利亚工党",
     "name_en": "Labour Party",
     "aliases": [
-      "Party for Social Democracy"
+      "Party for Social Democracy",
+      "LP"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
@@ -20,23 +21,290 @@
       "platform": "twitter",
       "account_name": "NgLabour",
       "url": "https://twitter.com/NgLabour",
-      "source_note": "wikidata",
       "source": 3,
+      "source_note": "wikidata收录，并经官网首页元数据twitter:site=@NgLabour交叉验证（HTTP 200）",
       "user_id": "1529562333751689217",
       "username": "NgLabour",
       "nickname": "LabourPartyNG"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "NigeriaLabourParty",
+      "url": "https://www.facebook.com/NigeriaLabourParty",
+      "source": 6,
+      "source_note": "官网首页页脚链接；Facebook页面名Labour Party - LP Nigeria（HTTP 200验证，2026年仍持续发布帖文）",
+      "user_id": null,
+      "username": "NigeriaLabourParty",
+      "nickname": "Labour Party - LP Nigeria"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "nglabourparty",
+      "url": "https://www.instagram.com/nglabourparty/",
+      "source": 8,
+      "source_note": "官网首页页脚链接（HTTP 200验证）；2026年4月与10月均有党代会及党务官方帖文",
+      "user_id": null,
+      "username": "nglabourparty",
+      "nickname": null
+    },
+    {
+      "platform": "youtube",
+      "account_name": "LabourPartyNig",
+      "url": "https://www.youtube.com/@LabourPartyNig",
+      "source": 9,
+      "source_note": "官网首页页脚链接（/c/LabourPartyNig），YouTube频道现以@LabourPartyNig名义发布党务视频",
+      "user_id": null,
+      "username": "LabourPartyNig",
+      "nickname": null
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "public_administration"
+  "digital_assets": [
+    {
+      "name": "工党官方网站（新闻与声明发布平台）",
+      "url": "https://labourparty.com.ng/",
+      "description": "发布党的声明、党代会公报、新闻稿与政策纲领，含党员登记入口、活动日历及党史介绍（HTTP 200验证）。",
+      "source": "官网首页直接访问验证"
+    },
+    {
+      "name": "官方新闻RSS订阅源",
+      "url": "https://labourparty.com.ng/feed/",
+      "description": "官网新闻流的标准RSS订阅（application/rss+xml），聚合党的声明与新闻稿（HTTP 200验证）。",
+      "source": "官网head区alternate链接标签"
+    },
+    {
+      "name": "工党官方党徽图像（PNG）",
+      "url": "https://labourparty.com.ng/wp-content/uploads/2024/05/labour-party-logo.png",
+      "description": "红绿配色、车轮与家庭图案的党徽官方图像文件（2024年5月上传版本）。",
+      "source": "官网首页内嵌图像（HTTP 200，image/png验证）"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000524",
+      "name": "内纳迪·埃丝特·乌斯曼 (Nenadi Esther Usman)",
+      "title": "全国主席 (National Chairman)",
+      "title_description": "2026年4月28日在阿比亚州乌穆阿希亚全国代表大会上当选，为尼日利亚首位经党代会选举产生的女性政党全国主席",
+      "description": "前联邦财政部长、前联邦参议员（卡杜纳南区）；2024年9月4日起主持党的临时全国委员会，2026年1月30日获独立国家选举委员会（INEC）承认。"
+    },
+    {
+      "person_id": "NG-PERSON-000995",
+      "name": "尤利乌斯·阿布尔 (Julius Abure)",
+      "title": "前全国主席 (Former National Chairman)",
+      "title_description": "2021年由全国执行委员会（NEC）选出接任去世的前主席阿卜杜卡迪尔·阿卜杜萨拉姆；2024年3月27日新维全国代表大会连任；2026年其任期经司法程序终结",
+      "description": "尼日利亚律师，出任全国主席前曾任党的全国书记，任内经历2023年大选突破与2024-2026年领导层交接。"
+    },
+    {
+      "person_id": "NG-PERSON-000996",
+      "name": "伊赫纳乔·奥比奥马 (Iheanacho Obioma)",
+      "title": "全国书记 (National Secretary)",
+      "title_description": "2026年4月28日全国代表大会当选，与全国主席乌斯曼同期就职",
+      "description": "资深党务领导人，荣衔Rt Hon（尊敬的），任全国书记并主持全国秘书处日常事务。"
+    },
+    {
+      "person_id": "NG-PERSON-000525",
+      "name": "彼得·奥比 (Peter Obi)",
+      "title": "2023年总统候选人 (2023 Presidential Candidate)",
+      "title_description": "2023年2月25日获得6,101,533票（25.40%）位列第三，为该党迄今最佳总统选举成绩；2025年12月31日宣布退党加入非洲民主大会党（ADC）",
+      "description": "阿南布拉州前州长，2022年5月27日自人民民主党转入党内并成为该党总统候选人，其参选使工党跃升为全国第三大政治势力。"
+    },
+    {
+      "person_id": "NG-PERSON-000526",
+      "name": "尤素福·达蒂·巴巴-艾哈迈德 (Yusuf Datti Baba-Ahmed)",
+      "title": "2023年副总统候选人 (2023 Vice-Presidential Candidate)",
+      "title_description": "2022年经奥比提名成为该党副总统候选人，与奥比组成Obi-Datti竞选搭档",
+      "description": "尼日利亚政治家与教育家，曾任联邦众议员与联邦参议员（卡杜纳北区），长期参与该党党务活动。"
+    },
+    {
+      "person_id": "NG-PERSON-000527",
+      "name": "阿莱克斯·奥蒂 (Alex Otti)",
+      "title": "阿比亚州州长 (Governor of Abia State)",
+      "title_description": "2023年3月18日以175,467票当选，2023年5月29日就任，为该党目前唯一在任州长",
+      "description": "银行家出身（曾任尼日利亚钻石银行董事总经理），2023年以该党候选人身份当选阿比亚州州长。"
+    },
+    {
+      "person_id": "NG-PERSON-000997",
+      "name": "奥卢塞贡·米米科 (Olusegun Mimiko)",
+      "title": "翁多州前州长 (Former Governor of Ondo State)",
+      "title_description": "2007年以工党候选人当选翁多州州长，2009-2017年执政两届",
+      "description": "医生出身的政治家，是该党历史上首位当选州长的候选人，2020年回归人民民主党。"
+    },
+    {
+      "person_id": "NG-PERSON-000998",
+      "name": "希尔达·多库博 (Hilda Dokubo)",
+      "title": "全国妇女领袖 (National Women Leader)",
+      "title_description": "2026年4月28日全国代表大会当选",
+      "description": "尼日利亚知名演员与社会活动者，2023年曾任工党河流州州主席，负责妇女党员动员与参政倡导。"
+    },
+    {
+      "person_id": "NG-PERSON-000999",
+      "name": "肯·埃卢马·阿索格瓦 (Ken Eluma Asogwa)",
+      "title": "全国宣传书记 (National Publicity Secretary)",
+      "title_description": "2026年4月28日全国代表大会当选",
+      "description": "负责该党对外宣传、新闻发布与公共事务沟通的全国职务领导人。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "全国执行委员会 (National Executive Council)",
+      "dept_id": null,
+      "head": "内纳迪·埃丝特·乌斯曼 (Nenadi Esther Usman)",
+      "description": "党代会闭会期间党的最高决策机构，由全国主席主持；2025年11月28日曾在阿布贾全国秘书处召开NEC会议并通过相关决议。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国工作委员会 (National Working Committee)",
+      "dept_id": null,
+      "head": "内纳迪·埃丝特·乌斯曼 (Nenadi Esther Usman)",
+      "description": "负责党务日常运营的执行机构；2026年4月28日全国代表大会以协商一致方式选出约34名成员组成的新一届委员会并宣誓就职。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "全国秘书处 (National Secretariat)",
+      "dept_id": null,
+      "head": "伊赫纳乔·奥比奥马 (Iheanacho Obioma)",
+      "description": "党的常设行政中枢，位于阿布贾Utako区IBM哈鲁纳街2号（No. 2 IBM Haruna Street, Utako, Abuja FCT）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "妇女组织 (Labour Party Women's Wing)",
+      "dept_id": null,
+      "head": "希尔达·多库博 (Hilda Dokubo)",
+      "description": "负责妇女党员的组织动员与参政倡导，设全国妇女领袖职位，定期召开妇女界会议并发布公报。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "青年组织（全国青年领袖办公室）(National Youth Leader Office)",
+      "dept_id": null,
+      "head": null,
+      "description": "设全国青年领袖职位，负责青年党员动员与青年参政培训；2024年举办全国青年大会暨年度会议，2026年召开36州及联邦首都区青年领袖联席会议。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "侨民与国际事务处 (Directorate of International & Diaspora Affairs)",
+      "dept_id": null,
+      "head": null,
+      "description": "统筹海外分部与国际党际联络；该党在美国（LP USA）、德国等地设有侨民分部。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "动员与融合事务处 (Directorate of Mobilisation and Integration)",
+      "dept_id": null,
+      "head": null,
+      "description": "由原OBIDIENT（支持者运动）事务处更名而来，负责支持者社群的组织动员与融合。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "州级党组织 (State Chapters)",
+      "dept_id": null,
+      "head": null,
+      "description": "在36个州及联邦首都区设州执行委员会，并延伸至地方政府与选区层级；2024-2026年间开展多轮党员在线登记与州、地方层级组织换届。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-02-25",
+      "title": "2023年总统选举：跃升全国第三势力",
+      "description": "该党候选人彼得·奥比与竞选搭档达蒂·巴巴-艾哈迈德获得6,101,533张选票（25.40%），位居第三，在联邦首都区及包括拉各斯州在内的多个州胜出；该党2019年总统选举仅获5,074票（0.019%）。",
+      "impact": "工党从边缘小党跃升为全国性第三势力，改变尼日利亚两党主导的政治版图。",
+      "source": "Wikipedia (Labour Party (Nigeria))；INEC 2023年总统选举结果"
+    },
+    {
+      "date": "2023-03-18",
+      "title": "2023年州长与国民议会选举成绩",
+      "description": "阿莱克斯·奥蒂以175,467票当选阿比亚州州长；该党在众议院赢得35席、参议院赢得8席，均创党史纪录。据维基百科2026年统计，因部分议员转党等原因，现分别保有22席与0席。",
+      "impact": "该党首次获得州长职位并组建联邦议会党团。",
+      "source": "Wikipedia；BusinessDay"
+    },
+    {
+      "date": "2023-05-29",
+      "title": "奥蒂就任阿比亚州州长",
+      "description": "阿莱克斯·奥蒂在阿比亚州宣誓就任州长，成为该党首位在任州长。",
+      "impact": "该党首次获得州级行政执政权，乌穆阿希亚成为该党后续全国性党务活动的重要举办地。",
+      "source": "labourparty.com.ng；BusinessDay"
+    },
+    {
+      "date": "2024-03-27",
+      "title": "新维全国代表大会：阿布尔连任全国主席",
+      "description": "该党在阿南布拉州新维（Nnewi）举行全国代表大会，尤利乌斯·阿布尔连任全国主席。",
+      "impact": "完成该届领导机构换届，为随后展开的州级党员大会与在线党员登记提供组织框架。",
+      "source": "labourparty.com.ng（2024-03-27全国代表大会公报）"
+    },
+    {
+      "date": "2024-09-04",
+      "title": "乌斯曼受任主持临时全国委员会",
+      "description": "该党在阿比亚州乌穆阿希亚召开全国执行委员会/利益相关者会议，决定由参议员内纳迪·乌斯曼主持临时全国委员会。",
+      "impact": "领导层交接程序启动，为2026年正式换届确立过渡机构。",
+      "source": "BusinessDay（2026-04-29）"
+    },
+    {
+      "date": "2025-12-31",
+      "title": "彼得·奥比宣布退党",
+      "description": "2023年总统候选人彼得·奥比在埃努古宣布退出工党，加入非洲民主大会党（ADC）。",
+      "impact": "该党失去全国知名度最高的政治人物，2027年选举周期的候选人布局面临调整。",
+      "source": "Premium Times；Voice of Nigeria"
+    },
+    {
+      "date": "2026-01-30",
+      "title": "选举委员会承认乌斯曼领导地位",
+      "description": "在1月21日联邦高等法院判决之后，独立国家选举委员会（INEC）更新记录，承认参议员内纳迪·乌斯曼主持该党领导机构；上诉法院于4月21日一致维持该判决。",
+      "impact": "候选人提名与候选人名册上传的机构渠道恢复，为2027年周期选举参选铺平道路。",
+      "source": "BusinessDay（2026-04-29）；Channels TV（2026-02-01）"
+    },
+    {
+      "date": "2026-04-28",
+      "title": "乌穆阿希亚选举型全国代表大会",
+      "description": "该党在阿比亚州乌穆阿希亚国际会议中心举行选举型全国代表大会，以协商一致方式选出以参议员内纳迪·埃丝特·乌斯曼为全国主席的新一届全国工作委员会，同期当选的还有全国书记伊赫纳乔·奥比奥马、副全国主席妮基·奥里奥拉、全国宣传书记肯·埃卢马·阿索格瓦、全国组织书记奥卢奇·奥帕拉、全国妇女领袖希尔达·多库博等；乌斯曼成为尼日利亚首位经党代会选举产生的女性政党全国主席。",
+      "impact": "领导机构完成正式换届并宣誓就职，该党进入2027年选举周期的组织重建阶段。",
+      "source": "BusinessDay；Channels TV；The Punch；TVC News（2026-04-28/29）"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-PARTY-001",
+      "org_name": "全体进步大会党 (All Progressives Congress)",
+      "org_type": "政党",
+      "org_description": "尼日利亚联邦执政党，2023年总统选举中该党的主要竞争对手，双方在联邦与州级选区全面竞争。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-PARTY-002",
+      "org_name": "人民民主党 (Peoples Democratic Party)",
+      "org_type": "政党",
+      "org_description": "尼日利亚主要反对党之一；2022年5月彼得·奥比自该党转投工党并成为其总统候选人。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "NG-GOV-039",
+      "org_name": "独立国家选举委员会 (Independent National Electoral Commission)",
+      "org_type": "联邦政府机构",
+      "org_description": "负责政党注册、选举组织与候选人名册管理的联邦选举机构；2002年登记该党，2026年1月30日更新记录承认乌斯曼领导的全国委员会。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "NG-GOV-004",
+      "org_name": "尼日利亚国民议会 (National Assembly of Nigeria)",
+      "org_type": "联邦立法机构",
+      "org_description": "联邦两院制立法机关；该党议员组成议会党团，据维基百科2026年统计在众议院拥有22席（2023年当选35席）。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "尼日利亚劳工大会 (Nigeria Labour Congress)",
+      "org_type": "工会联合会",
+      "org_description": "尼日利亚主要工会联合会，2002年参与创建工党；2023年大选期间与尼日利亚工会大会（TUC）共同为该党候选人背书。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-PARTY-007",
+      "org_name": "非洲民主大会党 (African Democratic Congress)",
+      "org_type": "政党",
+      "org_description": "尼日利亚注册政党，2025年成为主要反对党联盟平台；2025年12月31日彼得·奥比自工党转入该党。",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "尼日利亚工党（Labour Party，简称LP）是经独立国家选举委员会（INEC）注册的全国性政党，2002年以社会民主党（Party for Social Democracy）名义注册，2003年大选后更名为现名，由尼日利亚劳工大会（NLC）等劳工运动力量参与创建。该党以社会民主主义为意识形态定位，政治立场属中左翼，主张推动社会公正、进步与国家团结，口号为Forward Ever（永远前进）。党旗为红绿两色竖条，党徽为嵌有人与孩童图案的车轮，象征工业与劳动是国家繁荣的基础。党的公开纲领涵盖经济增长与转型、国家生产与制造业、综合交通体系、基础教育、能源保障等政策领域。该党在全国与州两级推举候选人参加选举：2023年大选实现历史性突破，总统候选人彼得·奥比获6,101,533票（25.40%）位列第三，国会选举获众议院35席、参议院8席，并赢得阿比亚州州长职位；据维基百科2026年统计，现保有众议院22席、州长1席（阿比亚州）及州议会39席。总部设于阿布贾Utako区IBM哈鲁纳街2号，党组织延伸至36州及联邦首都区，并在美国、德国等地设有侨民分部。2026年4月完成换届后，由全国主席内纳迪·乌斯曼与全国书记伊赫纳乔·奥比奥马主持党务。",
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），工党作为尼日利亚国内政党未发布涉及APEC的公开立场文件。该党的对外交往集中于党际交流与社会民主主义政治网络：2024年英国工党大选获胜后，时任全国主席尤利乌斯·阿布尔致函英国工党领袖基尔·斯塔默祝贺胜选并表达党际合作意愿；该党通过美国分部（LP USA，曾在华盛顿特区举行高层会议）与德国分部等海外侨民组织维持国际联系。2023年大选后，欧盟选举观察团的评估报告亦成为该党公开引用的国际机构参照。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/5/5f/Labour_Party_%28Nigeria%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": "minio-store/default/popular-org-profile/ng/NG-PARTY-003.png",
@@ -44,13 +312,41 @@
   },
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "web_search",
+      "news_media"
     ],
-    "completeness_score": 17,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "Labour Party (Nigeria) - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Labour_Party_(Nigeria)"
+      },
+      {
+        "title": "Labour Party (LP) - Nigeria 官网首页",
+        "url": "https://labourparty.com.ng/"
+      },
+      {
+        "title": "LP national convention: Nenadi Usman emerges first female national chairman in Nigeria - BusinessDay",
+        "url": "https://businessday.ng/news/article/lp-national-convention-nenadi-usman-emerges-first-female-national-chairman-in-nigeria/"
+      },
+      {
+        "title": "Labour Party elects Nenadi Usman as substantive chairman - The Punch",
+        "url": "https://punchng.com/labour-party-elects-nenadi-usman-as-substantive-chairman/"
+      },
+      {
+        "title": "UPDATED: Peter Obi finally dumps LP, joins ADC - Premium Times",
+        "url": "https://www.premiumtimesng.com/news/headlines/846742-peter-obi-finally-dumps-lp-joins-adc.html"
+      },
+      {
+        "title": "Peter Obi Defects to ADC Ahead of 2027 Elections - Voice of Nigeria",
+        "url": "https://von.gov.ng/peter-obi-defects-to-adc-ahead-of-2027-elections/"
+      }
+    ],
+    "notes": "Phase 3 enrichment: cross-validated via en Wikipedia, official site (homepage HTML incl. footer social links, news stream, party profile), BusinessDay/Channels TV/Punch/TVC News for the 2026-04-28 Umuahia elective national convention, and Premium Times/Voice of Nigeria for the 2025-12-31 Obi defection. Leadership succession written strictly at the level of who was elected/appointed/recognised on which date (Usman appointed caretaker chair 2024-09-04; INEC recognition 2026-01-30; substantive election 2026-04-28); factional dispute details deliberately excluded per scope. Official website content reflects the pre-transition (Abure-era) leadership and was used only for structure/assets (website, logo, RSS, social handles, directorates), not for disputed leadership claims. 2023 election figures (6,101,533 votes/25.40%, 35 House seats, 8 Senate seats, Otti 175,467 votes) from Wikipedia election tables; current seat tally (22 House, 0 Senate, 1 governorship, 39 state assembly seats) attributed to Wikipedia 2026 infobox. APEC: Nigeria is not an APEC member; no APEC content fabricated. Person IDs left null (none present in _name_index). relationship_type values use the schema English enum (sibling/regulator/member_of/affiliated); Chinese nuance carried in org_description."
   }
 }

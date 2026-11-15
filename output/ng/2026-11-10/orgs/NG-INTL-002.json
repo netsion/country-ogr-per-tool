@@ -1,38 +1,353 @@
 {
   "org_id": "NG-INTL-002",
   "basic_info": {
-    "name_original": "ECOWAS Court",
-    "name_zh": null,
-    "name_en": "ECOWAS Court",
-    "aliases": [],
+    "name_original": "Community Court of Justice, ECOWAS",
+    "name_zh": "西非国家经济共同体法院",
+    "name_en": "ECOWAS Court of Justice",
+    "aliases": [
+      "ECOWAS Court",
+      "Community Court of Justice, ECOWAS",
+      "ECOWAS Community Court of Justice",
+      "Cour de Justice de la CEDEAO",
+      "Court of Justice of the Economic Community of West African States",
+      "西共体法院"
+    ],
     "org_type": "INTL",
     "org_subtype": "regional_org",
     "country_iso3": "NGA",
     "hq_country_iso3": "NGA",
     "founded_date": "2001-01-01",
-    "website": null,
+    "website": "https://courtecowas.org/",
     "wikidata_qid": "Q30324003"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "ecowascourt",
+      "url": "https://x.com/ecowascourt",
+      "source": 3,
+      "source_note": "法院官网首页横幅「Follow us on social media: @ecowascourt」确认；X平台账号实名发布ECMS上线、判决新闻等内容（2026-11-13抓取）",
+      "nickname": "ecowascourt",
+      "username": "ecowascourt",
+      "user_id": null
+    },
+    {
+      "platform": "facebook",
+      "account_name": "ccj.ecowas",
+      "url": "https://www.facebook.com/ccj.ecowas/",
+      "source": 6,
+      "source_note": "法院专属Facebook页面，发布电子案件管理系统(ECMS)上线筹备与院长活动等官方内容（2026-11-13抓取）",
+      "nickname": "ECOWAS Court of Justice",
+      "username": "ccj.ecowas",
+      "user_id": null
+    },
+    {
+      "platform": "instagram",
+      "account_name": "ecowascourt",
+      "url": "https://www.instagram.com/ecowascourt/",
+      "source": 8,
+      "source_note": "Instagram账号@ecowascourt以「Community Court of Justice, ECOWAS」名义发布ECMS上线、2026达喀尔国际会议等官方帖文（2026-11-13抓取）",
+      "nickname": "Community Court of Justice, ECOWAS",
+      "username": "ecowascourt",
+      "user_id": null
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "法院判例检索系统 (Browse Cases)",
+      "url": "https://courtecowas.org/pending-cases-and-decisions/search-cases/",
+      "description": "官网提供的在审与已决案件检索数据库，可按成员国、当事机构（含ECOWAS委员会、成员国政府）、案件性质（民事、刑事、环境、人权、贸易争端）与立案日期检索判决。",
+      "source": "official_website"
+    },
+    {
+      "name": "AfricanLII西共体法院判决全文库 (ECOWASCJ)",
+      "url": "https://africanlii.org/judgments/ECOWASCJ/",
+      "description": "非洲法律信息研究所(AfricanLII)收录的西共体法院判决全文开放数据库，按年份汇编判决书（含人权、任意逮捕、赔偿等主题判例）。",
+      "source": "africanlii.org"
+    },
+    {
+      "name": "《法院议事规则》电子诉讼专章 (Practice Directions, PDF)",
+      "url": "https://courtecowas.org/wp-content/uploads/2024/09/Practice-Direction-English.pdf",
+      "description": "法院2024年发布的议事规则，规定电子案件管理(ECMS)目标下的电子立案与远程出庭程序，是2026年6月ECMS全面上线的规则基础。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "NG-PERSON-000487",
+      "name": "夏琳·M·布鲁姆斯金 (Charlyne M. Brumskine)",
+      "title": "院长 (President of the Court)",
+      "title_description": "2026年10月13日在阿布贾由新一届法官合议庭当选为院长（利比里亚籍），与副院长共同执掌法院2026-2030四年不可连任任期，并主持落实《战略计划2026-2030「正义2030」》。",
+      "description": "利比里亚法律界人士（Cllr.）。新司法任期开始之际当选院长，负责法院司法领导、机构行政总责与对外代表；她在就职演说中承诺恪守司法独立、公正、廉洁与问责原则，保护人权并解释适用共同体法。2026年10月24日曾走访西共体委员会主席比拉姆·迪奥普，争取成员国对法院判决执行与机构资源的更大支持。"
+    },
+    {
+      "person_id": "NG-PERSON-000878",
+      "name": "德西雷·亨利·艾胡 (Désire Henri Aihou)",
+      "title": "副院长 (Vice-President of the Court)",
+      "title_description": "2026年10月13日当选为副院长（贝宁籍），协助院长履行司法、行政与代表职能，任期至2030年。",
+      "description": "贝宁籍法官，新一届法官合议庭成员。当选副院长后在致谢辞中感谢卸任法官的奉献，并承诺与院长协作提升区域司法的可及性、有效性与公信力。"
+    },
+    {
+      "person_id": "NG-PERSON-000879",
+      "name": "亨丽埃塔·乌佐阿马卡·迪迪古 (Henrietta Uzoamaka Didigu)",
+      "title": "法官、资深法官之首 (Judge, Dean of the Court)",
+      "title_description": "尼日利亚籍法官，2026年10月6日宣誓就任新任期，现任合议庭中资历最深法官（Dean）。",
+      "description": "尼日利亚籍法官，现任合议庭五名法官中唯一尼日利亚籍成员；英维基百科条目将其列为法院现任Dean（资深法官之首）。其履职对东道国尼日利亚的案件（占法院人权案件量最大来源）具有直接意义。"
+    },
+    {
+      "person_id": "NG-PERSON-000880",
+      "name": "阿瓦·巴赫 (Awa Bah)",
+      "title": "法官 (Judge)",
+      "title_description": "冈比亚籍法官，2026年10月6日宣誓就任，四年不可连任任期至2030年。",
+      "description": "冈比亚籍法官，新一届法官合议庭五名成员之一，参与法院人权与共同体法案件审理。"
+    },
+    {
+      "person_id": "NG-PERSON-000881",
+      "name": "亚乌扎·奥罗-萨马 (Yaouza Ouro-Sama)",
+      "title": "法官 (Judge)",
+      "title_description": "多哥籍法官，2026年10月6日宣誓就任，四年不可连任任期至2030年。",
+      "description": "多哥籍法官，新一届法官合议庭五名成员之一。"
+    },
+    {
+      "person_id": "NG-PERSON-000882",
+      "name": "里卡多·克劳迪奥·蒙泰罗·贡萨尔维斯 (Ricardo Cláudio Monteiro Gonçalves)",
+      "title": "前任院长 (Former President of the Court)",
+      "title_description": "佛得角籍，卸任合议庭院长，任期至2026年10月13日交接仪式结束；曾于2026年6月22日记者案中担任主审法官兼报告法官。",
+      "description": "佛得角籍法官，2021-2026年任期内后段出任法院院长，主导与非洲人权和民族权利法院、东非法院的三方司法对话及ECMS数字化转型筹备；2026年10月13日在阿布贾主持向新任合议庭的交接，强调「制度延续高于个人更替」。"
+    },
+    {
+      "person_id": "NG-PERSON-000883",
+      "name": "杜佩·阿托基 (Dupe Atoki)",
+      "title": "前任法官 (Former Judge)",
+      "title_description": "尼日利亚籍，卸任合议庭法官（2026年10月卸任）；曾参与2026年6月警方「通缉公告」案的审理合议庭。",
+      "description": "尼日利亚籍法官，卸任合议庭五名法官之一；2026年6月在Ogeche Njaka诉尼日利亚「通缉公告」侵犯无罪推定与人格尊严案合议庭中出任成员法官。其卸任标志该届合议庭尼日利亚席位的更替。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "院长办公室 (Office of the President)",
+      "dept_id": null,
+      "head": "夏琳·M·布鲁姆斯金 (Charlyne M. Brumskine)",
+      "description": "法院司法与行政领导机构，负责司法领导、案件管理与协调、政策制定与战略规划、提高公众意识，确保法院透明、问责地履行维护法治、促进人权与区域一体化的使命。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "副院长办公室 (Office of the Vice President)",
+      "dept_id": null,
+      "head": "德西雷·亨利·艾胡 (Désire Henri Aihou)",
+      "description": "协助院长履行司法、行政与对外代表职责的机构，职能涵盖司法支持与案件监督、行政协作、对外关系、战略规划与政策支持及公众外展。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "法官办公室 (Judges' Chambers)",
+      "dept_id": null,
+      "head": null,
+      "description": "各法官所属的合议庭单元，负责案件审理与裁判、法律研究与分析、起草判决与裁定、合议磋商及咨询职能，是形成区域判例法的核心。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "首席书记官长办公室 (Office of the Chief Registrar)",
+      "dept_id": null,
+      "head": null,
+      "description": "由资深司长级首席书记官长主持、直接对院长负责，管理案件流程与庭审程序、记录与文书归档、保管法院印章并承担内外联络沟通。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "书记官处 (The Registry)",
+      "dept_id": null,
+      "head": null,
+      "description": "法院三大职能部门之一，负责文件受理、传递与保管，登记立案及庭审事务管理等司法行政事务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "研究与文献部 (Research and Documentation)",
+      "dept_id": null,
+      "head": null,
+      "description": "法院三大职能部门之一，负责判例汇编（Law Reports）、法律研究与文献管理，支撑法官裁判与法院学术出版。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "行政与财务部 (Administration and Finance)",
+      "dept_id": null,
+      "head": null,
+      "description": "法院三大职能部门之一，负责人事行政、后勤与预算财务管理，保障法院日常运转。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-09",
+      "title": "与非洲人权法院、东非法院举行第三次三方司法对话",
+      "description": "西共体法院与非洲人权和民族权利法院(AfCHPR)、东非法院(EACJ)于11月9日至10日在坦桑尼亚阿鲁沙举行第三次三方对话，深化区域法院间司法合作、判例交流与协作机制。",
+      "impact": "巩固西共体法院在非洲区域司法体系中的协作网络，推动人权判例与司法实践的跨区域趋同。",
+      "source": "https://courtecowas.org/ccj-news/ecowas-court-african-court-on-human-and-peoples-rights-and-east-african-court-strengthen-judicial-cooperation-at-third-tripartite-dialogue/"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "布鲁姆斯金当选新一任院长，艾胡当选副院长",
+      "description": "新一届法官合议庭于2026年10月13日在阿布贾选举利比里亚籍法官夏琳·M·布鲁姆斯金为院长、贝宁籍法官德西雷·亨利·艾胡为副院长，任期至2030年；卸任院长里卡多·贡萨尔维斯（佛得角）主持交接。",
+      "impact": "法院首位利比里亚籍院长上任，新领导层承诺推进司法独立与《正义2030》战略计划，强化判决执行与机构资源保障。",
+      "source": "https://courtecowas.org/ccj-news/ecowas-court-elects-new-president-vice-president-as-new-judicial-term-begins/"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "五名新法官在阿布贾宣誓就职，开启新司法任期",
+      "description": "西共体国家元首与政府首脑会议主席、塞内加尔总统巴西鲁·迪奥马耶·法耶于2026年10月6日在阿布贾西共体委员会新总部主持五名新法官宣誓就职（利比里亚、贝宁、尼日利亚、多哥、冈比亚各占一席），任期四年不可连任；新合议庭接替贡萨尔维斯、科罗马、阿托基（尼日利亚）、瓦塔拉与阿桑特。",
+      "impact": "尼日利亚籍法官席位由杜佩·阿托基更替为亨丽埃塔·迪迪古；法院在此前一度由7席减至5席的编制下延续运转。",
+      "source": "https://courtecowas.org/ccj-news/new-judges-of-ecowas-court-sworn-in-for-four-year-non-renewable-term/"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "电子案件管理系统(ECMS)正式上线",
+      "description": "法院于2026年6月29日在阿布贾院址举行ECMS上线仪式，实现电子立案、文档数字化、案件实时追踪、登记处流程自动化、虚拟听证与安全查阅，支持英法葡三语，覆盖成员国律师与当事人远程使用。",
+      "impact": "西非区域司法数字化的里程碑，显著降低成员国（尤其偏远地区）当事人诉讼成本，提升法院效率与透明度。",
+      "source": "https://courtecowas.org/ccj-news/ecowas-court-to-go-live-with-electronic-case-management-system-advances-digital-justice-across-west-africa/"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "法院驳回SERAP挑战尼日利亚公共借贷的诉讼",
+      "description": "法院就SERAP诉尼日利亚联邦共和国案（案号ECW/CCJ/APP/05/22，判决号ECW/CCJ/JUD/14/26）发布判决新闻稿：确认法院依议定书第9(4)条享有管辖权并受理案件，但认定SERAP未能就尼日利亚公共借贷侵害民众健康、教育等社会经济权利提供充分法律与事实证据，驳回全部诉请。",
+      "impact": "确认法院对成员国宏观经济政策涉人权影响的管辖权，同时抬高社会经济权利案件的举证门槛；尼日利亚胜诉。",
+      "source": "https://courtecowas.org/ccj-decisions/ecowas-court-dismisses-serap-application-challenging-nigerias-public-borrowing-finds-alleged-violations-of-socio-economic-rights-unsubstantiated/"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "法院裁定尼日利亚警方「通缉公告」侵犯无罪推定与人格尊严",
+      "description": "法院在Ogeche Njaka诉尼日利亚案（案号ECW/CCJ/APP/18/24）中认定：尼日利亚警方在未经法院定罪前以「已实施犯罪」措辞发布通缉公告，违反《非洲人权和民族权利宪章》第7(1)(b)条与《公民权利和政治权利国际公约》第14(2)条的无罪推定及第5条人格尊严；判令尼日利亚撤下通缉公告、在宪报和警察网站刊载判决六个月并赔偿100万奈拉。",
+      "impact": "为尼日利亚执法机关「通缉公告」实践确立区域司法约束，推动警察系统公示程序整改。",
+      "source": "https://courtecowas.org/ccj-decisions/ecowas-court-finds-nigeria-violated-rights-to-presumption-of-innocence-and-human-dignity-through-police-wanted-notice/"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "法院就记者阿布贾抗议遭警暴案判尼日利亚赔偿1000万奈拉",
+      "description": "法院于2026年6月22日就尼日利亚记者、尼日利亚新闻记者联合会首都区分会主席奥耶昆莱·吉德（Oyekunle Jide）诉尼日利亚案（案号ECW/CCJ/APP/29/25）作出判决：认定2024年8月1日其在阿布贾「EndBadGovernance」抗议现场采访遭警察殴打、任意拘留、没收手机等行为侵犯表达自由、人身自由、人格尊严与财产权（构成酷刑及有辱人格待遇），判赔1000万奈拉并限尼日利亚三个月内报告执行措施。",
+      "impact": "强化对尼日利亚新闻自由与抗议执法的区域司法监督，是东道国尼日利亚败诉并须限期报告执行的标志性人权判决。",
+      "source": "https://courtecowas.org/ccj-decisions/ecowas-court-awards-compensation-to-journalist-over-rights-violations-during-protest/"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "西共体法院判决执行双边会议在尼日利亚阿布贾举行",
+      "description": "2026年2月16日至18日，法院在阿布贾主办成员国判决执行双边会议，与尼日利亚等国家主管机关磋商法院判决的国内执行机制；此前2025年6月27日法院亦启动了与成员国国家主管机关(National Competent Authorities)的首次会晤机制。",
+      "impact": "针对西共体法院判决在成员国（含尼日利亚）执行率偏低的结构性问题，建立法院与东道国司法、行政机关的直接协作渠道。",
+      "source": "https://www.instagram.com/p/DU3DvsmigUc/"
+    },
+    {
+      "date": "2025-01-29",
+      "title": "马里、布基纳法索、尼日尔正式退出西共体，法院地域管辖缩减",
+      "description": "萨赫勒国家联盟(AES)三国于2025年1月29日正式退出西共体，西共体法院的地域管辖与个人申诉开放范围随之从15个成员国收缩至12个；三国国民诉诸法院的通道及未决案件的处理安排成为区域司法界关注的管辖权难题。",
+      "impact": "法院对原萨赫勒三国居民的人权保护覆盖终止，区域人权司法版图收缩；尼日利亚在法院成员国框架中的地位与权重相对上升。",
+      "source": "https://www.ecowas.int/burkina-faso-mali-and-nigers-withdrawal-from-ecowas-is-now-a-reality/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "NG-INTL-001",
+      "org_name": "西非国家经济共同体 (Economic Community of West African States, ECOWAS)",
+      "org_type": "INTL",
+      "org_description": "法院的母体区域组织：依1993年《西共体修订条约》第6、15条设立法院为其「主要法律机构」，成员国元首会议任命法官并决定预算，法院判决依条约第15(4)条对成员国具有拘束力。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "NG-GOV-001",
+      "org_name": "尼日利亚联邦政府 (Federal Government of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "东道国政府：法院总部位于阿布贾；尼日利亚同时是法院人权案件中最常见的应诉国，2026年6月两起判决（记者案赔偿1000万奈拉、警方通缉公告案）及SERAP借贷案均以联邦政府为被告。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-GOV-007",
+      "org_name": "尼日利亚最高法院 (Supreme Court of Nigeria)",
+      "org_type": "GOV",
+      "org_description": "东道国国家司法体系最高审判机关，与西共体法院在区域法与国内法的衔接、判决承认与执行层面构成平行司法关系；法院判决在国内执行依赖成员国国内司法机关的协作。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "NG-NGO-001",
+      "org_name": "社会经济权利与问责项目 (Socio-Economic Rights and Accountability Project, SERAP)",
+      "org_type": "NGO",
+      "org_description": "尼日利亚公共利益诉讼NGO，是西共体法院最高产的起诉方之一：曾在2012年石油污染案胜诉、2020-2022年推动《网络犯罪法》整改，2026年6月就尼日利亚公共借贷诉尼日利亚案被法院以举证不足驳回。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "NG-INTL-003",
+      "org_name": "西非国家经济共同体议会 (ECOWAS Parliament)",
+      "org_type": "INTL",
+      "org_description": "西共体共同体的立法咨询机构（阿布贾设办事处），与法院同为共同体主要机构，在区域立法与人权监督议程上与法院协同。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "西非国家经济共同体委员会 (ECOWAS Commission)",
+      "org_type": "INTL",
+      "org_description": "西共体的执行机构，总部位于阿布贾新址；法院独立于委员会但对口对接其主席与法律事务，法院新法官宣誓（2026-10-06）及ECMS上线仪式均在委员会总部举行。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "非洲人权和民族权利法院 (African Court on Human and Peoples' Rights, AfCHPR)",
+      "org_type": "INTL",
+      "org_description": "位于坦桑尼亚阿鲁沙的非洲联盟人权司法机构，与西共体法院、东非法院构成三方司法对话机制，2026年11月在阿鲁沙举行第三次三方对话深化合作。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "西非国家经济共同体法院（Community Court of Justice, ECOWAS，法语Cour de Justice de la CEDEAO）是西共体依1993年《修订条约》第6、15条设立的主要法律机构（1991年《共同体法院议定书》创建，2001年正式运作，总部位于尼日利亚阿布贾古杜区约瑟夫·贡沃尔克街1164号地块），业务涵盖四类管辖：解释与适用西共体法规及审查其合法性、西共体与雇员间劳资争议、涉西共体的责任纠纷，以及（经2005年《补充议定书》后）个人诉成员国侵犯人权案件——个人、法人与NGO无需用尽国内救济即可直接起诉，这使其成为全球个人申诉门槛最低的区域人权法院之一。法院判决依《修订条约》第15(4)条对成员国具拘束力，但执行依赖成员国国内转化，执行率长期偏低是核心痛点。法院现由5名法官组成（2026年10月6日新任期宣誓，四年不可连任，编制较早期的7席缩减），设院长、副院长，辖书记官处、研究与文献、行政与财务三部门；以英、法、葡为官方工作语言。近年重点业务包括：人权判例（言论自由、无罪推定、酷刑禁止、社会经济权利）、共同体法统一适用、与非洲人权法院/东非法院的三方司法对话、《战略计划2026-2030「正义2030」》，以及2026年6月29日上线的电子案件管理系统(ECMS)实现全流程电子诉讼。尼日利亚公民与NGO（如SERAP）是法院最主要的原告群体，法院对尼日利亚政府的多起判决（网络犯罪法、记者权益、警察通缉公告）持续塑造东道国的区域人权司法问责。",
   "industries": [
+    "judicial",
     "international_trade"
   ],
-  "apec_stance": null,
+  "apec_stance": "尼日利亚不是APEC成员（APEC现有21个成员经济体不含尼日利亚），西共体法院作为区域司法机构亦无任何APEC相关议程或表态。作为总部设于尼日利亚阿布贾的区域司法机构，西共体法院对尼日利亚的意义在于：尼日利亚公民、法人与NGO无需用尽国内救济即可就成员国（包括尼日利亚本国政府）侵犯人权及适用西共体贸易自由化规则的行为直接起诉，且判决对成员国具拘束力；这一「东道国国民可诉东道国政府」的机制为尼日利亚提供了国内司法之外的区域人权与贸易法治救济渠道。尼日利亚的区域多边参与以ECOWAS、非洲联盟、西非货币区（WAMZ）与非洲大陆自由贸易区（AfCFTA）为主，与APEC所代表的亚太环太平洋合作机制并无交集。",
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-10",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia"
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media",
+      "case_law_database"
     ],
-    "completeness_score": 9,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 95,
+    "quotes": [
+      {
+        "title": "ECOWAS Court - Wikipedia (en, infobox: President/VP/Dean, established 2001)",
+        "url": "https://en.wikipedia.org/wiki/ECOWAS_Court_of_Justice"
+      },
+      {
+        "title": "ECOWAS COURT ELECTS NEW PRESIDENT, VICE-PRESIDENT AS NEW JUDICIAL TERM BEGINS (courtecowas.org, 2026-10-13)",
+        "url": "https://courtecowas.org/ccj-news/ecowas-court-elects-new-president-vice-president-as-new-judicial-term-begins/"
+      },
+      {
+        "title": "NEW JUDGES OF ECOWAS COURT SWORN IN FOR FOUR-YEAR NON-RENEWABLE TERM (courtecowas.org, 2026-10-06)",
+        "url": "https://courtecowas.org/ccj-news/new-judges-of-ecowas-court-sworn-in-for-four-year-non-renewable-term/"
+      },
+      {
+        "title": "ECOWAS COURT AWARDS COMPENSATION TO JOURNALIST OVER RIGHTS VIOLATIONS DURING PROTEST (courtecowas.org, 2026-06-22)",
+        "url": "https://courtecowas.org/ccj-decisions/ecowas-court-awards-compensation-to-journalist-over-rights-violations-during-protest/"
+      },
+      {
+        "title": "ECOWAS COURT DISMISSES SERAP APPLICATION CHALLENGING NIGERIA'S PUBLIC BORROWING (courtecowas.org, 2026-06-26)",
+        "url": "https://courtecowas.org/ccj-decisions/ecowas-court-dismisses-serap-application-challenging-nigerias-public-borrowing-finds-alleged-violations-of-socio-economic-rights-unsubstantiated/"
+      },
+      {
+        "title": "ECOWAS COURT TO GO LIVE WITH ELECTRONIC CASE MANAGEMENT SYSTEM (courtecowas.org, 2026-06-29)",
+        "url": "https://courtecowas.org/ccj-news/ecowas-court-to-go-live-with-electronic-case-management-system-advances-digital-justice-across-west-africa/"
+      },
+      {
+        "title": "Burkina Faso, Mali And Niger's Withdrawal from ECOWAS is now a reality (ecowas.int, 2025-01-29)",
+        "url": "https://www.ecowas.int/burkina-faso-mali-and-nigers-withdrawal-from-ecowas-is-now-a-reality/"
+      },
+      {
+        "title": "New ECOWAS court president pledges timely justice, others (Punch, 2026-10-14)",
+        "url": "https://punchng.com/new-ecowas-court-president-pledges-timely-justice-others/"
+      },
+      {
+        "title": "Cedeao : La Libérienne Charlyne Brumskine élue présidente de la Cour de justice (koaci, 2026-10-14, 法语来源)",
+        "url": "https://www.koaci.com/article/2026/10/14/cedeao/justice/cedeao-la-liberienne-charlyne-brumskine-elue-presidente-de-la-cour-de-justice_201603.html"
+      }
+    ],
+    "notes": "Phase 3 enrichment (2026-11-13): English Wikipedia + official website (homepage/structure-of-court/current-judges/news/decisions) + official X/Instagram/Facebook + Punch/koaci/apanews (EN+FR). Leadership updated to 2026-11 reality: President Charlyne M. Brumskine (Liberia) & VP Désire Henri Aihou (Benin) elected 2026-10-13; outgoing President Ricardo Cláudio Monteiro Gonçalves (Cape Verde). name_zh based on UNESCO Chinese usage (西非国家经济共同体法院); no dedicated zh-Wikipedia article exists. Skeleton profile (null) retained — no verified image URL found."
   }
 }

@@ -60,7 +60,7 @@
       "start_date": "1977",
       "end_date": null,
       "organization": "民主全国运动 (Mouvement national démocratique, MND)",
-      "org_id": "GN-PARTY-002",
+      "org_id": null,
       "position": "共同创始人 (Cofondateur)"
     },
     {
@@ -88,7 +88,7 @@
       "start_date": null,
       "end_date": null,
       "organization": "联合国教科文组织 (UNESCO)",
-      "org_id": null,
+      "org_id": "BO-INTL-008",
       "position": "受邀语言学专家 (Expert sollicité)"
     }
   ],
@@ -119,7 +119,7 @@
     }
   ],
   "social_accounts": [],
-  "social_accounts_note": "逝者（2005年去世），无社交媒体账号记录；检索 LinkedIn/Facebook 仅见多名同名在世人员（含 Edilivre 2017 年同名作者），均无法归于本人，故不录。",
+  "social_accounts_note": "逝者（2005年1月21日去世），生前不可能拥有社交媒体账号（Facebook 2006年才向公众开放、X/Twitter 2006年上线，均晚于其去世）。2026-11-11 首轮检索 LinkedIn/Facebook 仅见多名同名在世人员（含 Edilivre 2017 年同名作者），均无法归于本人，故不录；2026-11-14补弱轮追加检索（Google 网页检索＋新闻检索）：所有命中均为媒体页面关于本人的追述性帖文（如 Guineematin、Guineenews (Boubah) 等 Facebook 公共页提及 Pr Alfa Sow），或同名在世人员，无本人实名账号，亦无可归为本人名义运营的纪念页/专页。结论 NONE-FOUND，字段保持为空。",
   "family_members": [],
   "political_stances": [
     {
@@ -169,9 +169,13 @@
     }
   ],
   "biography_summary": "阿尔法·易卜拉希马·苏（Alfa Ibrahima Sow，富拉语拼写 Alfaa Ibraahiim Soo），几内亚裔法国文学家、语言学家，富拉语（peul/pulaar/fulfulde）语言与文学研究的国际权威，被视为20世纪最伟大的几内亚知识分子之一。1934年10月8日生于富塔-贾隆图盖（一说约1933年），十岁左右不顾家人反对进入法式学校，小学三年读完；1956年进入达喀尔大学，后转巴黎第一大学（先贤祠-索邦），以阿格里帕·多比涅作品与富塔-贾隆富拉语诗人诗歌的比较研究为学位论文。长期任巴黎国立东方语言文化学院（INALCO）西非文学与文化讲席教授直至1992年（63岁前后）退休；1966年参加联合国教科文组织巴马科非洲语言转写会议，会议确立的富拉语正词法沿用至今；著有《La Femme, la Vache, la Foi》《Chroniques et récits du Foûta-Djalon》《Le Filon du bonheur éternel》、富拉语教材《Janngen Fulfulde》及富拉语单语百科《Maanditorde》等，1975年与导师阿马杜·昂帕泰·巴同获法兰西学术院「法语奖」。流亡期间为黑非洲法国学生联合会（FEANF）积极成员，1974年与阿尔法·孔戴等共创努比亚出版社，1977年与孔戴、巴约·哈利法共建地下反对运动「民主全国运动」（MND，即几内亚人民联盟 RPG 的前身运动，亦为任务所指本组织谱系源头）。1991年多党化后回几内亚创建民主力量联盟（UFD，GN-PARTY-003 前身），1998年任孔戴总统竞选主任。2005年1月21日于科纳克里去世，享年70岁。",
-  "profile": null,
+  "profile": {
+    "source_url": "https://www.foutanet.com/wp-content/uploads/2026/07/Screenshot_20260720_132021.jpg",
+    "local_path": "minio-store/default/popular-person-profile/gn/GN-PERSON-000230.jpg",
+    "minio_path": "default/popular-person-profile/gn/GN-PERSON-000230.jpg"
+  },
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -181,7 +185,7 @@
       "other"
     ],
     "completeness_score": 78,
-    "notes": "历史人物条目（逝者，2005年去世）。核实要点：(1) 身份确认：GN-PERSON-000230 即 RPG 前身运动 MND 共同创始人、富拉语学家阿尔法·易卜拉希马·苏；1977年与阿尔法·孔戴、Bayo Khalifa 共同创建 MND 有法文维基 Alpha Condé 条目、Dakaractu、GuinéeSignal、allAfrica、Diallo 博士论文《Un siècle de journaux en Guinée》等多源印证（论文另列 Ahmed Tidiane Cissé 为创始成员之一）。(2) 命名差异：任务描述称 MND 全称为「Mouvement Nouvelle Démocratie（新民主运动）」，但所有检索到的来源（法文维基两条目、多家媒体、博士论文）均作「Mouvement national démocratique（民主全国运动）」，与既有组织档案 GN-PARTY-002.json 用法一致，故本档案采用「民主全国运动」。(3) 生卒：1934-10-08（图盖）/2005-01-21（科纳克里）为法文维基、维基数据、追思文献三方一致；Foutanet 记「约1933」，birth_date 取更精确的双源值。(4) UFD 建党（1991）：「创建 UFD」为法文维基人物条目+Foutanet 双源；法文维基 UFDG 条目（该段标注待补充来源）记 1991-09-16/17 合并建党时其所属团体为统一复兴党（PUR），Amadou Bah Oury 当选总书记；「UFD 首任主席」仅见追思文献标题（La Voix du Jeune Guinéen，转引 Le Lynx 2020-08-03 博库姆公开信及 Mamadou Baadikko Bah），单源保留于 position_note 提示。(5) 单源存疑项（未作独立成就条目，仅入关系/注记）：1963年大赦国际奖章、与昂帕泰·巴合著 Koumen/Khaydara（Armand Colin 出版）、持有 El Hadj Umar Tall 未刊手稿。(6) 同名区分：与 Edilivre 2017 年《Guinée d'Alpha Condé ou le Soleil des incompétences》同名作者 Alpha Ibrahima Sow（在世）、多名 LinkedIn/Facebook 同名者，以及任务提示的几内亚商会主席 Elhadj Ibrahima Sory Sow、央行副行长等严格区分；本人生前不可能出版2017年著作。(7) 照片：维基数据无 P18 图片属性，法文维基条目无插图（仅占位符），profile 置 null。(8) org_id：MND→GN-PARTY-002（任务指定且 _name_index 命中 RPG/RPG Arc-en-ciel）；UFD→GN-PARTY-003（_name_index 命中「UFD（1991-1997年旧称）」，GN-PARTY-003.json 建党事件亦明载 Sow 的 PUR 参与合并建党）；INALCO、UNESCO、努比亚出版社、1998年竞选团队未在索引中，置 null。(9) 社交媒体：检索仅见同名在世人员，social_accounts 留空并在 social_accounts_note 说明。",
+    "notes": "历史人物条目（逝者，2005年去世）。核实要点：(1) 身份确认：GN-PERSON-000230 即 RPG 前身运动 MND 共同创始人、富拉语学家阿尔法·易卜拉希马·苏；1977年与阿尔法·孔戴、Bayo Khalifa 共同创建 MND 有法文维基 Alpha Condé 条目、Dakaractu、GuinéeSignal、allAfrica、Diallo 博士论文《Un siècle de journaux en Guinée》等多源印证（论文另列 Ahmed Tidiane Cissé 为创始成员之一）。(2) 命名差异：任务描述称 MND 全称为「Mouvement Nouvelle Démocratie（新民主运动）」，但所有检索到的来源（法文维基两条目、多家媒体、博士论文）均作「Mouvement national démocratique（民主全国运动）」，与既有组织档案 GN-PARTY-002.json 用法一致，故本档案采用「民主全国运动」。(3) 生卒：1934-10-08（图盖）/2005-01-21（科纳克里）为法文维基、维基数据、追思文献三方一致；Foutanet 记「约1933」，birth_date 取更精确的双源值。(4) UFD 建党（1991）：「创建 UFD」为法文维基人物条目+Foutanet 双源；法文维基 UFDG 条目（该段标注待补充来源）记 1991-09-16/17 合并建党时其所属团体为统一复兴党（PUR），Amadou Bah Oury 当选总书记；「UFD 首任主席」仅见追思文献标题（La Voix du Jeune Guinéen，转引 Le Lynx 2020-08-03 博库姆公开信及 Mamadou Baadikko Bah），单源保留于 position_note 提示。(5) 单源存疑项（未作独立成就条目，仅入关系/注记）：1963年大赦国际奖章、与昂帕泰·巴合著 Koumen/Khaydara（Armand Colin 出版）、持有 El Hadj Umar Tall 未刊手稿。(6) 同名区分：与 Edilivre 2017 年《Guinée d'Alpha Condé ou le Soleil des incompétences》同名作者 Alpha Ibrahima Sow（在世）、多名 LinkedIn/Facebook 同名者，以及任务提示的几内亚商会主席 Elhadj Ibrahima Sory Sow、央行副行长等严格区分；本人生前不可能出版2017年著作。(7) 照片：维基数据无 P18 图片属性，法文维基条目无插图（仅占位符），profile 置 null。(8) org_id：MND→GN-PARTY-002（任务指定且 _name_index 命中 RPG/RPG Arc-en-ciel）；UFD→GN-PARTY-003（_name_index 命中「UFD（1991-1997年旧称）」，GN-PARTY-003.json 建党事件亦明载 Sow 的 PUR 参与合并建党）；INALCO、UNESCO、努比亚出版社、1998年竞选团队未在索引中，置 null。(9) 社交媒体：检索仅见同名在世人员，social_accounts 留空并在 social_accounts_note 说明。(10) 2026-11-14补弱轮：新增头像 profile=Foutanet 传记特稿特色图（已验证 HTTP 200/image/jpeg 并目检，单源编辑部归属，详见 profile_note）；社交账号经追加检索仍为 NONE-FOUND（逝者，详见 social_accounts_note）。",
     "quotes": [
       {
         "title": "Wikipédia FR — Alfa Ibrahima Sow（生卒、学历、INALCO 讲席、1974努比亚、1975法语奖、FEANF、MND、1991 UFD、1998竞选主任）",
@@ -228,5 +232,6 @@
   "position_note": "「UFD 首任主席」仅见于追思文献标题（La Voix du Jeune Guinéen：Hommage au professeur Alfa Sow, 1er Président de l'UFD），单源，故工作经历职位仅写「创始人」；1998年竞选主任一职为法文维基人物条目与 Foutanet 双源（孔戴当年为 RPG 候选人，但来源未明言该职务隶属 RPG，故 org_id 置 null）。",
   "work_note": "MND 全称各来源均作「Mouvement national démocratique」；任务描述中的「Mouvement Nouvelle Démocratie」未获任何来源支持，未采用。组织谱系 MND→UJP→RPG→RPG Arc-en-ciel 见法文维基 Alpha Condé 条目。1991年建党细节：其所属团体为统一复兴党（PUR），在 1991-09-16/17 科纳克里 Donka 合并建党大会中并入 UFD（法文维基 UFDG 条目，该段被维基标记待补充来源）。INALCO 任职至1992年（约68岁）退休/卸任，起始年份来源未载。",
   "education_note": "INALCO 同时见于法文维基「Formation」栏与维基数据 P69（教育经历），但其在该院的主要身份为讲席教授（见 work_experience）；各阶段学位信息来源未载，degree 均置 null。",
-  "identity_note": "同名区分：与 Edilivre 2017 年《Guinée d'Alpha Condé ou le Soleil des incompétences》同名作者 Alpha Ibrahima Sow（在世）、多名 LinkedIn/Facebook 在世同名者，以及 Elhadj Ibrahima Sory Sow（几内亚商会主席）、几内亚央行副行长 Ibrahima Sory Sow 等严格区分。"
+  "identity_note": "同名区分：与 Edilivre 2017 年《Guinée d'Alpha Condé ou le Soleil des incompétences》同名作者 Alpha Ibrahima Sow（在世）、多名 LinkedIn/Facebook 在世同名者，以及 Elhadj Ibrahima Sory Sow（几内亚商会主席）、几内亚央行副行长 Ibrahima Sory Sow 等严格区分。",
+  "profile_note": "2026-11-14补弱轮新增头像：采用几内亚新闻网站 Foutanet 该人物传记特稿《Qui est Alfa Ibrahima Sow ? Biographie d'un grand intellectuel, linguiste et homme politique guinéen》(2026-07-20) 的文章特色图（og:image 直链）。该文全部史实与本档案人物逐一吻合（INALCO讲席教授、1966巴马科会议、1974努比亚出版社、1975法兰西学术院法语奖、UFD创始人、1998年孔戴竞选主任、2005-01-21于科纳克里去世），可确认配图所指即本档案人物。已现场验证 HTTP 200、content-type image/jpeg（1079x957），并人工目检：灰发年长男性肖像，与逝者享年70岁相符。归属依据为出版方编辑用途（单源）：维基数据 Q28839271 无 P18 图片属性，法文维基条目无插图，A Nous La Guinée 2016年相关文章题头图（anouslaguinee.com/medias/images/pr-20alpha-20ibrahima-20sow-*.jpg）已404失效；未发现任何与该归属冲突的证据。"
 }

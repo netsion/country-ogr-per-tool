@@ -114,10 +114,10 @@
       "description": "PUP 创党人、终身名誉主席，1984-2008年任几内亚总统。索拉诺为其政府核心部长（领土管理与安全部长，两度出任并晋国务部长级）、2001年修宪公投主要操盘者，与孔戴政治合作逾十年；孔戴病逝后于2010-2015年执掌其创建的 PUP，党内评价其「对孔戴忠诚逾十年」。RPG 元老马克·永博诺悼念时称：「自孔戴总统逝世后，他始终忠于自己的政党，而很多人早已改换门庭。」"
     },
     {
-      "person_id": null,
+      "person_id": "GN-PERSON-000101",
       "person_name": "福代·邦古拉 (Fodé Bangoura)",
       "relationship_type": "political_rival",
-      "description": "约2015年接替索拉诺出任 PUP 主席（任期2020年届满后长期未换届）。2023年9月4日索拉诺在科纳克里宅邸召集「创始人与高层干部」集会，公开指邦古拉党务管理「非法且不合法」（illégal et illégitime），要求立即重开卡马耶纳党部、召开党代会并设立「全国正常化委员会」，成为党内元老派反邦古拉的旗帜人物。注意：本库 GN-PERSON-000101 为几内亚最高法院首席院长 Fodé Bangoura（职业法官），系同名不同人，故此条 person_id 置 null。"
+      "description": "约2015年接替索拉诺出任 PUP 主席（任期2020年届满后长期未换届）。2023年9月4日索拉诺在科纳克里宅邸召集「创始人与高层干部」集会，公开指邦古拉党务管理「非法且不合法」（illégal et illégitime），要求立即重开卡马耶纳党部、召开党代会并设立「全国正常化委员会」，成为党内元老派反邦古拉的旗帜人物。注意：GN-PERSON-000101 经 P4 轮多源核验（档案履历全文+QuiEstQui 绶带肖像+Wikidata Q3074775）确证为 PUP 党主席福代·邦古拉（2015年接任），故本条 person_id=GN-PERSON-000101 有效。同名不同人的最高法院首席院长 Fodé Bangoura（职业法官）不在本库，勿混淆；此裁决推翻 P3 轮早期误判，2026-11-14 补弱轮订正备注。"
     },
     {
       "person_id": "GN-PERSON-000238",
@@ -133,7 +133,7 @@
     }
   ],
   "social_accounts": [],
-  "social_accounts_note": "对 facebook / twitter(x) / linkedin / instagram / tiktok / youtube 检索均未发现经核实的个人社交媒体账号；网络同名内容均为媒体主页或其葬礼报道视频。",
+  "social_accounts_note": "两轮检索（初轮2026-11-11、补弱轮2026-11-14）均未发现经核实的个人社交媒体账号。补弱轮复检 Facebook / YouTube / X(Twitter) / LinkedIn / Instagram / TikTok：① 同名 Facebook 内容全部为媒体主页（Guineematin、Mediaguinée、Africaguinée、Guinee7、Mosaiqueguinée、Œil de Lynx FM、Avenirguinée 等）发布其讣闻、葬礼视频或政治评论，非其本人账号；② YouTube 同名视频均为媒体频道（@guineematin.com 等）刊载的采访与葬礼报道，无其个人频道；③ X(Twitter) 命中仅为媒体账号（如 @Guineematin）的报道推文；LinkedIn/Instagram/TikTok 无命中；④ 存在同名不同人「Dr Moussa Solano」（WHO 几内亚疾病监测官员，Facebook 2021 年帖文），已排除。该人物1948年生、2024-12-26逝世，生前公开表态均经新闻发布会与媒体访谈进行，同时代几内亚高龄政要普遍无个人社交账号；如发现疑似账号，须与该监测官员及同姓音乐人等严格区分，故维持 social_accounts 留空。",
   "family_members": [
     {
       "person_id": null,
@@ -216,7 +216,7 @@
   },
   "profile_note": "Wikidata Q135235006 P18 原图（2006年任内政部长时照片，Commons 直链 jpeg）。",
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikidata",
@@ -224,7 +224,7 @@
       "news_search",
       "web_search"
     ],
-    "notes": "核心事实（出生、教育、完整行政履历、党职、家属、葬礼）以2024-12-29政府悼词全文（guineenews 刊载）为主源，经 mediaguinée、guineematin（家属讣闻与 Marc Yombouno 悼念）、guineenews 讣闻、guinee360、Wikidata Q135235006、fr.wikipedia（PUP 条目知名成员）交叉验证；2010-2015年 PUP 主席一职另获 KOACI（2010-04-02「新任党主席」）、Le Lynx（2023-09）、Vision Guinée（2015-04）独立印证。存疑与取舍：① mediaguinée 与 quiestquienguinee（文本明显转引前者，非独立来源）称其曾为2010年总统候选人，与多方明确记载（PUP 2010年候选人为松帕雷；索拉诺当时支持迪亚洛）冲突且同源，未采信；② 死因：其子称 AVC，guineenews 家属消息源称心脏病发作，Wikidata 记 stroke，death_note 已如实并列；③ 出生日期仅知年份1948，birth_date 按约定以01-01占位；④ 与末任党主席福代·邦古拉的关系条目 person_id 置 null——本库 GN-PERSON-000101 为几内亚最高法院首席院长 Fodé Bangoura（同名不同人，见 GN-PARTY-005 key_people 注记与 person_list.json），不应误并；⑤ 中文别名「穆萨·索拉诺」取自中国商务部《对外投资合作国别（地区）指南·几内亚》PDF；⑥ 未检索到任何经核实的个人社交媒体账号，social_accounts 留空；⑦ collection_date 按主会话指定记为2026-11-11。",
+    "notes": "核心事实（出生、教育、完整行政履历、党职、家属、葬礼）以2024-12-29政府悼词全文（guineenews 刊载）为主源，经 mediaguinée、guineematin（家属讣闻与 Marc Yombouno 悼念）、guineenews 讣闻、guinee360、Wikidata Q135235006、fr.wikipedia（PUP 条目知名成员）交叉验证；2010-2015年 PUP 主席一职另获 KOACI（2010-04-02「新任党主席」）、Le Lynx（2023-09）、Vision Guinée（2015-04）独立印证。存疑与取舍：① mediaguinée 与 quiestquienguinee（文本明显转引前者，非独立来源）称其曾为2010年总统候选人，与多方明确记载（PUP 2010年候选人为松帕雷；索拉诺当时支持迪亚洛）冲突且同源，未采信；② 死因：其子称 AVC，guineenews 家属消息源称心脏病发作，Wikidata 记 stroke，death_note 已如实并列；③ 出生日期仅知年份1948，birth_date 按约定以01-01占位；④ 与末任党主席福代·邦古拉的关系条目 person_id 置 null——本库 GN-PERSON-000101 为几内亚最高法院首席院长 Fodé Bangoura（同名不同人，见 GN-PARTY-005 key_people 注记与 person_list.json），不应误并；⑤ 中文别名「穆萨·索拉诺」取自中国商务部《对外投资合作国别（地区）指南·几内亚》PDF；⑥ 未检索到任何经核实的个人社交媒体账号，social_accounts 留空；⑦ collection_date 按主会话指定记为2026-11-11。｜2026-11-14补弱轮：定向复检社交账号（Facebook/YouTube/X/LinkedIn/Instagram/TikTok），同名命中均为媒体主页报道、葬礼视频或 WHO 监测官员同名者，确认无经核实的个人社交账号，social_accounts 维持留空、note 已更新；其余字段未改动。",
     "quotes": [
       {
         "title": "Guinéenews — Symposium d'Elhadj Moussa Solano : le Gouvernement lui rend un vibrant hommage（2024-12-29，政府悼词全文：1948年生于Kissidougou、教育与1980-2015完整履历）",

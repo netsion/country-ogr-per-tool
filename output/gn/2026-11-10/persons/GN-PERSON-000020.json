@@ -174,7 +174,7 @@
       "source": 17
     }
   ],
-  "social_accounts_note": "两个LinkedIn账号均位于几内亚且关联RTG、与本人姓名完全一致，但未能进一步核实是否本人账号；Instagram同名账号@fanasouma（0帖文）因身份无法确认未收录。",
+  "social_accounts_note": "两个LinkedIn账号均位于几内亚且关联RTG、与本人姓名完全一致，但未能进一步核实是否本人账号；Instagram同名账号@fanasouma（0帖文）因身份无法确认未收录。 2026-11-14补弱轮复核：Facebook定向检索所见均为媒体及机构页面(Guineematincom、AGPGUINEE、OfficielleRTG、InfoComGN、MPTEN)发布关于其的报道与视频，未发现其本人实名账号或认证专页；X(Twitter)检索无本人账号命中；此前Instagram同名账号@fanasouma(0帖文)仍因身份无法确认不收录。两个LinkedIn账号维持原有判定不变，本轮无新增可核实账号。",
   "family_members": [],
   "family_note": "已婚，育有四个子女（2021年官方CV与法文维基百科一致记载；配偶与子女姓名未公开）。",
   "political_stances": [
@@ -247,9 +247,13 @@
     "苏苏语 (sousou)",
     "曼宁卡语 (maninka)"
   ],
-  "profile": null,
+  "profile": {
+    "source_url": "https://www.quiestquienguinee.com/sites/default/files/photo_personnalites/qeq-guinee1738105196-1407760421.png",
+    "local_path": "minio-store/default/popular-person-profile/gn/GN-PERSON-000020.png",
+    "minio_path": "default/popular-person-profile/gn/GN-PERSON-000020.png"
+  },
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -260,7 +264,7 @@
       "web_search",
       "social_media"
     ],
-    "notes": "身份核证：法纳·苏马为男性（法文维基百科「père de quatre enfants」、官方CV「Marié et père de quatre (4) enfants」、维基数据P21三源一致）；主会话提示中「RTG 47年史上第二位女性台长」实指其RTG继任者马凯梅·班巴（2024-04-26任命，见guinee114/infochrono报道），不适用于本人物。关键日期均≥2独立来源：RTG总经理2021-11-10至2024-03-13（法文维基、Guineelive官方CV转载、Ambaguinee）；新闻与传播部长2024-03-13至2026-01-22（Vision Guinée与Guinée Mines Nature就任演说证起点，法文维基信息框证止期，2025-08留任见Comms of Africa标题）；总统府传播顾问2026-02-04（Guinee360报道任命，总统府官网2026-02-05新顾问就职礼列名，法文维基佐证）；MCENI部长2026-10-26政令任命、10-28就职（MCENI官网、We Are Tech、Voice of Guinea交叉印证）。存疑：2026-01-22卸任部长日期与GN-GOV-018组织画像「2026年2月机构合并后去职」存在约两周差异，采法文维基精确日期；出生地福雷卡里亚（多数来源）与维基数据P19科纳克里存在分歧；穆拉纳·苏马未入_name_index，person_id置null。全文来源超过3个（维基百科、Guineelive CV、Guinée Mines Nature演说全文、Vision Guinée两篇、We Are Tech、Voice of Guinea、Lynx复职报道等）。",
+    "notes": "身份核证：法纳·苏马为男性（法文维基百科「père de quatre enfants」、官方CV「Marié et père de quatre (4) enfants」、维基数据P21三源一致）；主会话提示中「RTG 47年史上第二位女性台长」实指其RTG继任者马凯梅·班巴（2024-04-26任命，见guinee114/infochrono报道），不适用于本人物。关键日期均≥2独立来源：RTG总经理2021-11-10至2024-03-13（法文维基、Guineelive官方CV转载、Ambaguinee）；新闻与传播部长2024-03-13至2026-01-22（Vision Guinée与Guinée Mines Nature就任演说证起点，法文维基信息框证止期，2025-08留任见Comms of Africa标题）；总统府传播顾问2026-02-04（Guinee360报道任命，总统府官网2026-02-05新顾问就职礼列名，法文维基佐证）；MCENI部长2026-10-26政令任命、10-28就职（MCENI官网、We Are Tech、Voice of Guinea交叉印证）。存疑：2026-01-22卸任部长日期与GN-GOV-018组织画像「2026年2月机构合并后去职」存在约两周差异，采法文维基精确日期；出生地福雷卡里亚（多数来源）与维基数据P19科纳克里存在分歧；穆拉纳·苏马未入_name_index，person_id置null。全文来源超过3个（维基百科、Guineelive CV、Guinée Mines Nature演说全文、Vision Guinée两篇、We Are Tech、Voice of Guinea、Lynx复职报道等）。 2026-11-14补弱轮：补入头像(Qui est Qui en Guinée词条单人肖像，经MCENI官网2026-10-28就职照同人同装束交叉验证，已实测HTTP 200 image/png，判定依据与排除候选见profile_note)；social_accounts经Facebook/X定向复核无新增可核实账号(命中的均为媒体机构页面，非本人账号，详见social_accounts_note)，维持既有2个LinkedIn；collection_date更新为2026-11-14。",
     "quotes": [
       {
         "title": "Fana Soumah - Wikipédia (fr)",
@@ -336,5 +340,6 @@
       }
     ],
     "completeness_score": 88
-  }
+  },
+  "profile_note": "2026-11-14补弱轮补入头像。来源：几内亚名人录「Qui est Qui en Guinée」人物词条页(quiestquienguinee.com/liste-des-personnalites/p0891/fana-soumah，本档案collection_meta已有引用)所配单人正装肖像照(浅灰西装、红领带、白衬衫)。判定为本人依据：(1)词条信息(1969年生、福雷卡里亚、记者/政治家)与本档案身份完全一致；(2)肖像与MCENI官网2026-10-28就职报道(mceni.gov.gn/file/2026/10/2-1024x683.jpg，标题明示「Le nouveau ministre Fana Soumah installé」)中在部长办公室就座的法纳·苏马同人同装束；(3)与We Are Tech 2026-10-29报道头图(同就职仪式场景)及Guinee360 2026-10-26任命报道双人拼图左半人物一致。已实测HTTP 200、Content-Type image/png(84940字节)。检索中排除的候选：MCENI官网「Portrait du ministre」页现行肖像实为前任部长穆拉纳·苏马(Mourana_Soumah_Ministre_Guinee_2026.png，同姓不同人)，未采用；Wikidata Q109663353无P18图像；法文维基百科词条无配图。"
 }

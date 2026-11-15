@@ -108,7 +108,6 @@
       "org_id": null,
       "position": "总理（Premier ministre），组阁「图雷政府」",
       "note": "由兰萨纳·孔戴总统于1996年7月9日任命，是几内亚1984年以来首位总理（1996年2月兵变未遂后为推进改革而设立）；1999年3月8日被孔戴解职，由拉明·西迪梅（Lamine Sidimé）接任。org_id 留 null：名称索引中的 GN-GOV-002 系现任「奥里二世」过渡政府，与其1996-1999年孔戴时期的政府并非同一机构，索引中无对应条目，按规则不强行映射。",
-      "org_id_note": "GN-GOV-002 经 _name_index.json 核对为现任 Gouvernement Oury II 过渡政府，与1996-1999年总理任期所属政府不同，不可映射。",
       "source": "https://fr.wikipedia.org/wiki/Sidya_Tour%C3%A9 ; https://en.wikipedia.org/wiki/Sidya_Tour%C3%A9 ; https://guineenews.org/2026/09/26/paris-deces-de-lancien-premier-ministre-sidya-toure-a-lhopital-americain/"
     },
     {
@@ -174,7 +173,20 @@
       "source": "https://www.rfi.fr/fr/afrique/20260926-guin%C3%A9e-l-opposant-et-ancien-premier-ministre-sidya-tour%C3%A9-est-mort ; https://dubawa.org/presidentielle-2025-en-guinee-lufr-de-sidya-toure-a-t-elle-vraiment-leve-son-mot-dordre-de-boycott/"
     }
   ],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "Sidya Touré (@SidyaToureUFR)",
+      "url": "https://x.com/SidyaToureUFR",
+      "source": 3
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Sidya Touré Officiel",
+      "url": "https://www.facebook.com/sidya.toureofficiel/",
+      "source": 6
+    }
+  ],
   "family_members": [],
   "political_stances": [
     {
@@ -254,8 +266,8 @@
   "biography_summary": "西迪亚·图雷（Sidya Touré，1945年8月15日生于法属西非迪姆博克罗，今科特迪瓦境内），几内亚政治家、财政技术官僚，青年时期为逃离塞古·杜尔政权而旅居科特迪瓦并开启仕途。他持商法学士学位、毕业于巴黎国立国库学院，在科特迪瓦财政金融系统任职二十余年：历任国库监察员、计划与工业部长办公厅主任、债务谈判国务部长办公厅主任，1990-1993年在瓦塔拉任科特迪瓦总理期间担任总理府办公厅主任，后出任SOFIG金融工业公司总裁。1996年7月9日受兰萨纳·孔戴任命出任几内亚总理（1984年以来首位），任内恢复水电供应（获「Sidya courant」爱称）、整顿公务员体系、重开国际融资并推动加入重债穷国倡议，1999年3月8日被解职。2000年5月20日当选共和力量联盟（UFR）主席并连任至去世，2010年（约13%）与2015年（约6%）两度角逐总统均列第三；2009年9月28日体育场屠杀中头部重伤。2016-2018年出任阿尔法·孔戴总统府高级代表，辞职后回归反对派抵制第三任期。2021年政变后自2022年2月起流亡阿比让；2025年因RAVEC登记受阻被排除出总统选举，领导UFR呼吁抵制；2026年3月6日UFR被过渡当局部令解散。2026年9月25日（周五）约23时GMT病逝于巴黎美国医院，享年81岁；遗体10月2日归葬科特迪瓦，10月8日葬于阿比让Williamsville公墓，总理奥里·巴赞其为「三十年来几内亚政治生活的标志性人物、务实的改革者」。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sidya_Tour%C3%A9.jpg",
-    "local_path": null,
-    "minio_path": null
+    "local_path": "minio-store/default/popular-person-profile/gn/GN-PERSON-000235.jpg",
+    "minio_path": "default/popular-person-profile/gn/GN-PERSON-000235.jpg"
   },
   "birth_date_note": "1945-08-15 据法/英文维基百科（英文维基行文「(15 August 1945 – 25 September 2026)」）；《几内亚历史辞典》（Historical Dictionary of Guinea, 2013, 5th ed.）条目记为「Touré, Sidya (1946-)」，年份有一年之差，按维基两处一致记载取1945年。",
   "birth_place_note": "fr.wikipedia 记载生于法属西非洲（Afrique-Occidentale française）迪姆博克罗，该地今属科特迪瓦；本人国籍为几内亚（GN），青年时期因逃离塞古·杜尔政权旅居科特迪瓦（RFI 讣告）。",
@@ -266,10 +278,10 @@
   "position_note": "人物已故（is_deceased=true），current_positions 留空；生前最后职务为 UFR 党主席（该党2026-03-06被 MATD 部令解散后，其流亡中仍保留党主席身份至2026-09-25病逝），亦曾任几内亚总理（1996-1999）与共和国总统高级代表（2016-2018）。",
   "identity_note": "须与下列人物严格区分：(1) Sidi (Tiémoko) Touré——科特迪瓦 RHDP 部长、自由国际（LI）副主席兼 RENEWPAC 联合主席，系另一人：LI 讣告显示其以 LI 副主席身份向几内亚 Sidya Touré 致哀（2026-03-30 还曾赴阿比让探望），LI 文章称其为「Côte d'Ivoire 部长」，且其 Facebook 账号在 Sidya 身故后仍在发帖；注意本数据集 orgs/GN-PARTY-004.json 的 key_people/related_entities 及 notes 将「自由国际副主席、RENEWPAC 联合主席」归于 Sidya Touré 本人，经本次直取 LI 原文核实系与科特迪瓦部长 Sidi Tiemoko Touré 混淆，本画像不予采信（受并发纪律约束未改动该组织画像，建议主会话复核）。(2) Ahmed Tidiane Touré——2008-2009年几内亚总理（另一前总理，见 GN-PERSON-000057 identity_note）。(3) 塞古·杜尔（Ahmed Sékou Touré，GN-PERSON-000037）——其逃离政权所指的前总统。(4) 兰萨纳·孔戴（GN-PERSON-000237）——任命其任总理的前总统。",
   "religion_note": "fr.wikipedia 信息框记载为伊斯兰教；葬礼在阿比让 Riviera Golf 大清真寺举行、葬于 Williamsville 公墓可作间接印证，无其他独立来源详述其宗教实践。",
-  "social_accounts_note": "Facebook/X/LinkedIn 检索所见均为媒体机构账号或他人转帖（CGTN Africa、africanews、RFI、Liberal International 等），未发现可验证的本人或UFR官方个人账号；UFR 官网 ufrguinee.com 自2026年3月党解散后已离线。按「禁止编造」铁律 social_accounts 留空。",
+  "social_accounts_note": "2026-11-14补弱轮核实录入2个账号。(1) X（Twitter）@SidyaToureUFR：直取 x.com/SidyaToureUFR 可访问，账号名「Sidya Touré」，简介自述「几内亚政治家、几内亚前总理、UFR（共和力量联盟）主席」，与档案履历完全一致；多家独立媒体均以「Sidya Touré (@SidyaToureUFR)」署名引用其本人推文（mediaguinee 2021-08、guinee114 2022-06、guinee7 2022-10、ledjely 2022-11、RFI/allAfrica 2026-10 讣告配图来源），且该账号2026年6月仍在以本人身份发帖（悼念几内亚前司法部长 Morice Togba Zogbelemou），判定为其本人生前使用之个人账号。(2) Facebook「Sidya Touré Officiel」（facebook.com/sidya.toureofficiel）：页面存在（登录墙外经句柄直取确认标题），检索快照显示页面职业信息与档案履历逐项吻合（UFR党主席、科特迪瓦任职经历、前国内贸易与分销司司长）；2018年 GuineeBuzz 帖文即以「Sidya Touré Officiel」指称本人页面；页面名含「Officiel」且载有本人完整履历（粉丝页/支持者页通常无此特征），判定为其本人/团队运营之官方页面；蓝标认证状态因登录墙未能直核，已在归属依据中如实说明。甄别过程：LinkedIn 检索所见「Sidya Toure（科纳克里 Laguipres 保安公司领班）」系同名他人，已排除（与 identity_note 所列科特迪瓦部长 Sidi Tiémoko Touré 同样无涉）；Instagram/YouTube 未见本人官方账号（Instagram 检索所见帖文系他人账号引用其 X 手柄）；UFR 党 Facebook 检索所见均为地方支部/海外分部页（UFR GUINÉE FORESTIÈRE、UFR BASSE GUINÉE、UFR Canada、UFR Amérique du Nord 等）或无法直核 URL 的泛「UFR guinée」页，且该党2026-03-06已被部令解散、官网 ufrguinee.com 离线，无可验证的官方全国党页，不录入；家族为治丧所设「Obseques Sidya Touré - Officiel」页（facebook.com/p/Obseques-Sidya-Tour%C3%A9-Officiel-61594661471800/）属治丧专页而非本人账号，不录入。未发现同人占两个 ID 的情形。",
   "aliases_note": "无重音拼写变体「Sidya Toure」见于 AFP/CGTN/Punch 等英文报道；不收录「Sidi Tiemoko Touré」作别名——该名属科特迪瓦部长（另一人，见 identity_note）。",
   "collection_meta": {
-    "collection_date": "2026-11-11",
+    "collection_date": "2026-11-14",
     "phase": "phase4_person_profile",
     "data_sources": [
       "wikipedia",
@@ -278,7 +290,7 @@
       "web_search"
     ],
     "completeness_score": 77,
-    "notes": "P4人物画像（已故档案）。核实情况：(1) 已读取6个独立来源全文交叉验证：fr.wikipedia、en.wikipedia、RFI讣告(2026-09-26)、Guineenews讣告(2026-09-26)、Dubawa事实核查、Liberal International讣告(2026-09-28，curl+代理直取，MCP读为空)；另Jeune Afrique付费墙可见导语段。Wikidata QID=Q324899（wbsearchentities API）。(2) 关键甄别一：死亡日期2026-09-25（周五）为多数来源一致，fr.wikipedia信息框之26日为通报日误记。(3) 关键甄别二：「自由国际副主席/RENEWPAC联合主席」经直取LI原文核实属科特迪瓦部长Sidi Tiemoko Touré（另一人），orgs/GN-PARTY-004.json 相关表述疑系混淆，本画像未采信、亦未改动组织画像（并发纪律），建议主会话复核。(4) GN-GOV-002 经 _name_index 核对为现任奥里二世政府，与图雷1996-1999总理任期不属同一政府，总理条目 org_id=null（总统府高级代表条目映射 GN-GOV-001）。(5) 家属具名信息、个人联系方式与可验证社媒账号均无公开来源，相关字段留空不凑数；头像仅记录 Commons 直链未下载。",
+    "notes": "P4人物画像（已故档案）。核实情况：(1) 已读取6个独立来源全文交叉验证：fr.wikipedia、en.wikipedia、RFI讣告(2026-09-26)、Guineenews讣告(2026-09-26)、Dubawa事实核查、Liberal International讣告(2026-09-28，curl+代理直取，MCP读为空)；另Jeune Afrique付费墙可见导语段。Wikidata QID=Q324899（wbsearchentities API）。(2) 关键甄别一：死亡日期2026-09-25（周五）为多数来源一致，fr.wikipedia信息框之26日为通报日误记。(3) 关键甄别二：「自由国际副主席/RENEWPAC联合主席」经直取LI原文核实属科特迪瓦部长Sidi Tiemoko Touré（另一人），orgs/GN-PARTY-004.json 相关表述疑系混淆，本画像未采信、亦未改动组织画像（并发纪律），建议主会话复核。(4) GN-GOV-002 经 _name_index 核对为现任奥里二世政府，与图雷1996-1999总理任期不属同一政府，总理条目 org_id=null（总统府高级代表条目映射 GN-GOV-001）。(5) 家属具名信息、个人联系方式与可验证社媒账号均无公开来源，相关字段留空不凑数；头像仅记录 Commons 直链未下载。。2026-11-14补弱轮：补录社交账号2条（X @SidyaToureUFR、Facebook「Sidya Touré Officiel」），检索过程与归属依据详见 social_accounts_note；本轮仅改动 social_accounts、social_accounts_note 与本 collection_meta，其余字段未动。",
     "quotes": [
       {
         "title": "Sidya Touré — Wikipédia (français)",
