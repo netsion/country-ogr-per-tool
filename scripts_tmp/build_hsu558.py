@@ -1,0 +1,20 @@
+import json,pathlib,jsonschema
+root=pathlib.Path('D:/ai-workspace/apec-osint-tool')
+p=json.loads((root/'output/tw/2026-07-27/persons/TW-PERSON-000558.json').read_text(encoding='utf-8'))
+p.update(name_en='Hsu, Chih-Chieh',gender='male',birth_date='1966-01-05',birth_place='嘉义县新港乡',aliases=['許智傑','高雄小金剛'],current_positions=['第十一届立法委员（高雄市第七选举区）','民主进步党中央常务委员','赖瑞隆高雄市长竞选凤山后援会会长'])
+p['education']=[dict(institution=i,degree=d,field=f,start_date=None,end_date=e) for i,d,f,e in [('国立高雄师范大学','master','教育学','1996'),('国立台湾大学','bachelor','机械工程','1988'),('高雄市立高雄高级中学','high_school',None,'1984'),('五甲国民中学','other',None,'1981'),('五甲国民小学','primary',None,'1978')]]
+p['work_experience']=[dict(organization=o,org_id=None,position=t,start_date=s,end_date=e) for o,t,s,e in [('立法院','第八至十一届立法委员','2012-02-01',None),('高雄市凤山区公所','首任区长','2010-12-25','2011-03-01'),('高雄县凤山市公所','第十届市长','2006-03-01','2010-12-24'),('高雄县议会','第十五届议员','2002','2006'),('凤山市民代表会','第八届市民代表','1998','2002'),('民主进步党立法院党团','第九届第五会期书记长','2018-02','2018-07'),('高旗高级工业家事职业学校','教务主任、训导主任、补教主任',None,None),('正修科技大学','兼任助理教授',None,None),('和春技术学院','兼任讲师',None,None),('高雄市凤山社区大学','创办人',None,None),('凤山市民大学','主任',None,None),('国家中山科学研究院','制程及数控工程师',None,None)]]
+u='https://news.nextapple.com/politics/20260104/6B2328922A9BFBC537F2142C762B2749'
+p['political_stances']=[dict(date='2026-01-04',topic=t,stance_content=c,source=u) for t,c in [('国际航空与区域交通','主张扩充高雄国际航线及机场量能，并推动南高屏区域交通合作；这些为倡议，未作为已完工成果。'),('老年公共卫生','提出让高雄65岁市民免费接种带状疱疹疫苗的政见，并设想由城市应用程序提醒福利与接种。'),('教育','提出人工智能教育、双语教育与品德教育三项方向，强调学生国际竞争力及感恩教育。')]]
+p['major_achievements']=[dict(date='2006',achievement='据2026年专访本人回顾，市长任内凤山市公所与高雄县政府合作整治凤山溪；属团队治理成果，2006仅为任期起年，非完工日期。',organization='凤山市公所')]
+# 不以任期起年替代成果日期，保留于生平，不建立缺日期成果。
+p['major_achievements']=[]
+p['person_relationships']=[dict(person_id=None,person_name='赖瑞隆（賴瑞隆）',relationship_type='associate',description='2026年9月12日中央社确认许智杰担任赖瑞隆高雄市长竞选凤山后援会会长；仅记录该次竞选组织合作。')]
+p['family_members']=[dict(person_id=None,name='周桂香',relationship='spouse',industry_or_organization=None)]
+p['social_accounts']=[dict(platform=a,account_name='許智傑',url=b,source=c) for a,b,c in [('line','https://page.line.me/bqj6274m',21),('facebook','https://www.facebook.com/leer0105',6),('instagram','https://www.instagram.com/leer0105',8),('youtube','https://www.youtube.com/health99999',9)]]
+p['contacts']=[dict(type='phone',value='07-768-1899',source='https://page.line.me/bqj6274m')]
+p['biography_summary']='许智杰是民主进步党籍政治人物，出生于嘉义县新港乡，长期在高雄凤山参与地方公共事务。他具有台湾大学机械工程学士及高雄师范大学教育硕士背景，从政前从事工程与教育工作，曾在中山科学研究院担任制程及数控工程师，也曾在高旗工商担任学校行政主管。1998年进入凤山市民代表会，随后担任高雄县议员、凤山市长，县市合并后任首届凤山区长，2012年进入立法院并连任。其政治经历同时涵盖地方行政与中央民意代表，曾任民进党立法院党团书记长及委员会召集委员。2026年初曾争取高雄市长党内提名，同年9月已转为担任赖瑞隆凤山后援会会长。公开政策关注航空交通、城市发展、教育与高龄福利；其专访回顾凤山溪整治时明确为市公所与县政府合作，不应归为个人独力完成。'
+p['collection_meta']=dict(collection_date='2026-11-15',phase='phase4_person_profile',data_sources=['official_website','wikipedia','news_search','social_media'],quotes=[dict(title=t,url=v) for t,v in [('立法院第九届许智杰委员学经历','https://www.ly.gov.tw/Pages/List.aspx?nodeid=1865'),('许智杰人物资料','https://zh.wikipedia.org/wiki/許智傑'),('选将专访许智杰',u),('TVBS：许智杰夫人周桂香','https://news.tvbs.com.tw/politics/3084980'),('中央社：赖瑞隆凤山后援会成立','https://www.cna.com.tw/news/aloc/202609120188.aspx'),('中央社：豪雨灾害与中常会','https://www.cna.com.tw/news/aipl/202608260227.aspx'),('许智杰LINE官方账号','https://page.line.me/bqj6274m'),('公督盟许智杰履历与政见','https://ccw.org.tw/assess/34/legislator/57')]],notes='已读立法院第九届、维基、壹蘋、TVBS、中央社、公督盟及LINE正文。第十一届名录正文多次超时，仅搜索返回内容不作为独立正文；现职由2026年9月中央社及LINE交叉。中常委核至2026-08-26，后援会长核至2026-09-12。召委仅历史职务，不列现任。博士学位与官方博士班/候选人资料不一致，未列已获博士。家庭周桂香仅TVBS本人访谈单源。社交从LINE直接链接核定，平台正文受限；不采分享按钮账号。QID未确认，维持null。成果缺可精确日期及独立核实个人贡献，不凑两条；交通规划和商业上梁不写完工。历史职业起讫未载留null；英文据官方历届名录。关系人及组织索引未匹配者ID留null。')
+out=root/'tmp/tw_batch6_enriched/TW-PERSON-000558.json';out.parent.mkdir(exist_ok=True);out.write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding='utf-8')
+jsonschema.validate(p,json.loads((root/'.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8')))
+print('jsonschema passed')

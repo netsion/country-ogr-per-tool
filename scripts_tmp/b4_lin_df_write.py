@@ -1,0 +1,14 @@
+import pathlib,json,sys,jsonschema
+R=pathlib.Path(__file__).resolve().parents[1];B=R/'output/tw/2026-07-27';d=json.loads((B/'persons/TW-PERSON-000149.json').read_text(encoding='utf-8'))
+d['current_positions']=['第11届立法委员','立法院第11届第6会期财政委员会召集委员']
+d['education']=[dict(institution=n,degree=k,field=None,start_date=None,end_date=None) for n,k in [('顶溪小学（頂溪國小）','primary'),('板桥中学（板橋中學）','high_school'),('开南高级商工职业学校（開南高級商工職業學校）','high_school')]]
+def w(o,p,s=None,e=None,oid=None):return dict(organization=o,position=p,start_date=s,end_date=e,org_id=oid)
+d['work_experience']=[w('永和市民代表会（永和市民代表會）','市民代表、代表会副主席（历史任职）'),w('永和市公所','市长（历史任职）'),w('立法院','第5至第10届立法委员（历史任职）',oid='TW-GOV-020'),w('立法院','第11届立法委员','2024-02-01',oid='TW-GOV-020'),w('立法院','第11届第6会期财政委员会召集委员','2026-10-08',oid='TW-GOV-020')]
+u=['https://www.ly.gov.tw/Pages/List.aspx?nodeid=46787','https://ppg.ly.gov.tw/ppg/SittingCommitteesInfo/download/communique1/final/pdf/115/78/LCIDC01_1157801_00012.pdf','https://news.pts.org.tw/article/831286','https://news.pts.org.tw/article/730493','https://www.cna.com.tw/news/aipl/202611100210.aspx','https://zh.wikipedia.org/wiki/林德福_(中國國民黨)']
+d['political_stances']=[dict(date='2026-10-14',topic='首购融资与银行流动性',stance_content='质询新青安申贷与拨贷落差及公股银行流动性风险；记录监督疑问，不认定其质疑已获证实。',source=u[2]),dict(date='2024-12-25',topic='财政分配与预算程序',stance_content='要求说明财划法修正后中央预算是否重编及行政衔接，关注审议与施政时程；不将质询等同法律效力判断。',source=u[3]),dict(date='2026-11-10',topic='台美避免双重课税',stance_content='关注在美投资台商双边纳税负担，要求行政部门说明避免双重课税法案具体推动进度；不把推动目标写成协议已经完成。',source=u[4])]
+d['major_achievements']=[dict(date='2026-10-08',achievement='经委员会推选成为第11届第6会期财政委员会召集委员；记录实际选任程序，非认定具体税改或财政成效。',organization='立法院')]
+d['person_relationships']=[];d['family_members']=[]
+d['biography_summary']='林德福是台湾地区民意代表，现任第11届立法委员，并在第6会期担任财政委员会召集委员。立法院个人名录列其选区为新北市第九选区，履历涵盖永和市民代表、代表会副主席、永和市长以及第5至第10届立法委员等经历。官方列有顶溪小学、板桥中学及开南高级商工职业学校毕业学历，法律实务班结业不作为正式学位。其公开议会工作涉及财政预算、住宅融资、公股银行与国际租税安排；本档将质询中提出的疑问和意见与行政机关回应分开，不将风险质疑视作已证实事实。2026年10月8日的委员会选任程序与第6会期名录共同确认其召委身份，未把同名体育行政人物的经历混入。具体立法成果的个人归因、家庭实名交叉证据仍不足，因此未扩充未核实条目。'
+d['collection_meta']=dict(collection_date='2026-11-15',phase='phase4_person_profile',data_sources=['official_website','news_search','wikipedia'],quotes=[dict(title=t,url=v) for t,v in zip(['立院林德福个人名录','2026第6会期召委选任公报','公视房贷监督质询','公视财划法与预算程序','中央社2026-11-10租税法案质询','国民党立委林德福维基条目'],u)],notes='已与体育行政、台电发言人同名者区分，原QID及头像保留。现职官方第6会期名录、公报及2026-11中央社原文交叉；学历取官方，早期具体任期未核故留空，出生日期保留历史单源边界。法律实务班结业未充作学位。仅一项选任有可证完成节点，未凑具体立法成果。家庭检索未得可靠实名交叉；人物合作关系不因同场质询推定。已检索Facebook/IG/X及英文LinkedIn/YouTube/TikTok，未核新账号，保留原Facebook整套URL/user_id。')
+jsonschema.Draft7Validator(json.loads((R/'.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8'))).validate(d)
+p=R/'tmp/tw_batch4_enriched/TW-PERSON-000149.json';p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8');print(p)

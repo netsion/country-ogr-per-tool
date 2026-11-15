@@ -1,0 +1,20 @@
+import json,pathlib
+p=pathlib.Path('tmp/tw_batch5_enriched/TW-PERSON-000554.json'); d=json.load(open('output/tw/2026-07-27/persons/TW-PERSON-000554.json',encoding='utf-8'))
+k='https://www1.kmt.org.tw/people.aspx?mid=38&pid=2385'; c='https://www.cna.com.tw/news/aloc/202611030138.aspx'
+d.update(name_en='Chen Yu-Jen',gender='female',birth_date='1973-10-29',birth_place='金门县',aliases=['Jessica Chen'],current_positions=['第十一届立法院立法委员（金门县选区）','中国国民党金门县长候选人'])
+d['education']=[dict(institution=a,degree=b,field=f,start_date=None,end_date=None) for a,b,f in [('国立台湾大学','bachelor','中国文学，辅修法律'),('九州大学','master','国际公法'),('北京大学','master','国际经济法'),('哈佛大学甘迺迪政府学院','other','进修；未将进修认定为学位'),('金门高中','high_school',None),('金城国中','high_school',None),('金城中小学莒光分部','primary',None)]]
+d['work_experience']=[dict(organization=o,org_id=None,position=t,start_date=s,end_date=e) for o,t,s,e in [('金门县议会','议长陈水木助理',None,None),('金门县议会','县议员（三届）',None,None),('立法院','第九届立法委员','2019-03-21','2020-01-31'),('立法院','第十届立法委员','2020-02-01','2024-01-31'),('立法院','第十一届立法委员','2024-02-01',None),('立法院内政委员会','召集委员（历史任职）',None,None),('立法院卫生环境委员会','召集委员（历史任职）',None,None),('立法院中国国民党党团','书记长（历史任职）',None,None),('国立金门大学','兼任讲师（历史履历）',None,None)]]
+d['political_stances']=[dict(date='2026-11-03',topic=t,stance_content=x,source=c) for t,x in [('照护与医疗','在县长竞选白皮书发表会上提出公办民营坐月子中心、赴台陪病住宿会馆及提升在地医疗量能；均属竞选规划，尚非落实成果。'),('产业与青年','提出强化金酒经营、发展酒糟牛羊产业链、青年创业种子天使基金与夜间观光等竞选构想。'),('交通与公共服务','主张增加台金交通选择、协调乡亲专用机位、规划台金客轮，并提升智慧治理效率；属于候选人政策方向。')]]
+d['political_stances'].append(dict(date='2026-09-29',topic='教师支持与教育',stance_content='提出精简重复填报及评鉴、补足行政支援、提供自主教学经费与专业成长资源，并规划心理法律咨询和代理教师权益改善，属于教育竞选主张。',source='https://www.mirrormedia.mg/story/20260929edi035'))
+d['major_achievements']=[dict(date='2024-07-15',organization='立法院',achievement='陈玉珍等18人提出的离岛建设条例第五条修正草案经并案审查，于本日三读通过；属共同提案与议会集体立法成果，不认定为个人独力完成。'),dict(date='2025-12',organization='立法院',achievement='参与陈雪生、杨曜、赖士葆等27位委员共同提出的财政收支划分法第十六条之一修正案，马祖日报2025年12月23日原文确认已获全体立委支持完成三读，修正本岛与离岛分配公式；不将未来税款保障直接写成已拨款成果。')]
+d['person_relationships']=[dict(person_id=None,person_name='王忠铭（王忠銘）',relationship_type='associate',description='2025年12月22日以立委身份正式拜会连江县长，就财划法执行和离岛交通交流；仅记本次公务接触，不推定长期政治盟友。')]
+d['family_members']=[dict(person_id=None,name='陈水木（陳水木）',relationship='father',industry_or_organization='前金门县议会议长'),dict(person_id=None,name='陈志龙（陳志龍）',relationship='brother',industry_or_organization='金门县议会')]
+d['social_accounts']=[dict(platform='facebook',account_name='陳玉珍',url='https://www.facebook.com/KinmenMyLove',source=6,source_note='国民党官方委员履历直接链接；平台正文缓存未命中。',user_id=None)]
+d['contacts']=[dict(type='phone',value='02-2358-8016',source=k),dict(type='phone',value='082-320-706',source=k)]
+d['biography_summary']='陈玉珍是金门出身的中国国民党政治人物，曾任金门县议员，2019年起担任金门选区立法委员，随后连任第十及第十一届。她在国立台湾大学主修中文并辅修法律，官方党籍履历列有日本九州大学国际公法法学硕士、北京大学国际经济法法学硕士及哈佛大学甘迺迪政府学院进修经历。早年曾担任金门县议会议长陈水木助理，后来进入地方议会，并曾在国立金门大学兼任讲师。立法院时期的历史职务包括内政委员会、卫生环境委员会召集委员及国民党团书记长。其公共事务重点集中在离岛财政、交通、医疗、教育和地方产业。2026年她以国民党候选人身份参选金门县长，11月3日发表十年政策白皮书，提出照护、青年产业与公共服务等规划。截至本次资料采集时仅能称为候选人，不能提前认定当选。'
+urls=[('国民党委员履历',k),('Chen Yu-jen', 'https://en.wikipedia.org/wiki/Chen_Yu-jen'),('陈玉珍政策白皮书',c),('竞逐金门县长完成登记','https://www.cna.com.tw/news/aipl/202609020279.aspx'),('教师政策','https://www.mirrormedia.mg/story/20260929edi035'),('离岛条例三读记录','https://ppg.ly.gov.tw/ppg/bills/203110055550000/details'),('立委拜会县长及财划法共同提案','https://www.matsu-news.gov.tw/news/article/237637')]
+d['collection_meta'].update(data_sources=['official_website','wikipedia','news_search'],quotes=[dict(title=t,url=u) for t,u in urls],notes='采集2026-11-15；近期活动原文核至2026-11-03白皮书发表。立院个人主页超时，改读党官网与立院议案正文。党官网旧职务均作为历史经历，不将召委及书记长视为当前。教育年代未载留空，哈佛仅采用官方进修口径。生日及出生地为维基单源，家庭父亲由维基并与官方助理履历交叉，弟弟由维基单源。未纳无关私人指控。Facebook由党官网直接链接验证归属，但平台页未读成功；其他平台未找到可核本人账号。英文名已检索，同名文藻教师为不同人物。QID未核留null，头像保持null。所有关联ID索引未匹配，留null。两项成果区分共同提案、三读与执行，不声称个人独立成果。')
+p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
+import jsonschema
+jsonschema.validate(d,json.load(open('.agents/skills/country-org-collector/person_profile_schema.json',encoding='utf-8')))
+print('jsonschema PASS')

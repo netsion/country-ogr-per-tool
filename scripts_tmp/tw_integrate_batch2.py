@@ -62,5 +62,7 @@ lst['summary']['data_quality']={'with_person_id':sum(bool(entry.get('person_id')
 save_json(str(BASE/'person_list.json'),lst)
 if pid not in progress['completed']:progress['completed'].append(pid)
 progress['remaining']=[x for x in progress['remaining'] if x!=pid];progress['current']=None
+progress['last_updated']='2026-11-14'
+progress['status']='complete' if not progress['remaining'] else 'running'
 save_json(str(pp),progress)
 print('Installed',pid,'batch2',len(progress['completed']),'/15')
