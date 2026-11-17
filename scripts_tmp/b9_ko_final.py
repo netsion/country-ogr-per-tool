@@ -1,0 +1,2 @@
+import json,pathlib,jsonschema
+p=pathlib.Path('tmp/tw_batch9_enriched/TW-PERSON-000042.json');d=json.loads(p.read_text(encoding='utf-8'));d['collection_meta']['notes']+=' 現職任命證據截止2026-01-29，未取得11月黨務名錄全文，故院長延續狀態有時效限制。司法程序證據截止2026-11-16。';p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8');jsonschema.validate(d,json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8')));print('PASS')
