@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-11-16",
+ "phase": "pre_P3_trim",
+ "basis": "P1/P2 数据核对（SPARQL P17/P31/P576 核验 + JSON 一致性审计）",
+ "trimmed": [
+  {
+   "org_id": "TG-GOV-004",
+   "name": "President of the Council of Ministers (Head of Government)",
+   "reason": "非组织机构：Q30100661 为官职/职位实体（desc='head of government of Togo'，法语标签'Premier ministre du Togo'），非机构。机构层面已被 TG-GOV-001（部长会议）与 TG-GOV-003（总统府）覆盖；现任持有人 Faure Gnassingbé 已注册 TG-PERSON-000001 由 P4 深查。如需覆盖 5th Republic 总理府（Primature），可在 P3 以新 GOV 条目重建。"
+  },
+  {
+   "org_id": "TG-PARTY-009",
+   "name": "Rally of the Togolese People (RPT)",
+   "reason": "已消亡实体：Wikidata P576 实锤 2012 年解散（并入 UNIR）。无现势活动，不符合'重点组织机构'现势性要求；历史信息可在 TG-PARTY-001 (UNIR) 档案中以背景呈现。"
+  },
+  {
+   "org_id": "TG-SOE-006",
+   "name": "SNPT",
+   "reason": "不可核实：P1 即标注全称无法确认（仅 Togo First 一文缩写），无 Wikidata QID、无官网、单一来源不可交叉验证。按铁律'宁可遗漏，不可编造'，无法可靠产出画像。待 P3 搜索确认全称与实体后如确认重要可重新注册 ID 收集。"
+  },
+  {
+   "org_id": "TG-SOE-008",
+   "name": "Communauté Électrique du Bénin (CEB)",
+   "reason": "分类错位+范围外：贝宁-多哥两国共管跨国电力共同体（1968），属双边国际组织（INTL）而非多哥国企（原分类 SOE 错误）；多哥电力运营主体已由 TG-SOE-003 (CEET) 覆盖。如后续收集贝宁（BJ）数据集可重建为 BJ-INTL。"
+  },
+  {
+   "org_id": "TG-FIN-012",
+   "name": "BTCI (Togolese Bank for Commerce and Industry)",
+   "reason": "P3 中发现与 TG-FIN-008 为同一法人实体：BTCI 2021-12-20 私有化更名 IB Bank（IB Holding 90%/国家 10%，CENOZO 调查+BCEAO 名录+CFE 公告多源）。历史沿革已由 TG-FIN-008 完整记录，避免同一银行双档案重复采集。"
+  }
+ ],
+ "watch_items": [
+  {
+   "org_id": "TG-SOE-007",
+   "name": "Société togolaise du coton (SOTOCO)",
+   "note": "保留但 P3 必核现状：P1 称'1974-2010 前国企'，Wikidata 无 P576 解散时间，实体仍存在。P3 需确认当前状态：若已私有化则 org_type 由 SOE 改 CORP 并注明，若仍国有则补政府持股来源。"
+  },
+  {
+   "org_id": "TG-INTL-001",
+   "name": "Central Bank of West African States (BCEAO)",
+   "note": "保留但 P3 注明：联盟级央行总部在达喀尔（8 个 WAEMU 成员含多哥），按 skill ID 规则属跨国籍组织按主要活动国保留 TG 前缀；画像应聚焦 BCEAO 多哥国家分行（Direction Nationale au Togo）及对多哥的货币政策职能。"
+  },
+  {
+   "org_id": "TG-CORP-001/002/004 + TG-FIN-001/002/004",
+   "note": "集团-子公司重叠提示：Ecobank ETI↔Ecobank Togo、Oragroup↔Orabank Togo、Atlantic Bank Group↔Banque Atlantique Togo 为不同法人实体且集团总部均在洛美，全部保留；P3 必须用 related_entities 双向互链，避免数据重复采集。"
+  }
+ ],
+ "counts": {
+  "before": 84,
+  "trimmed": 5,
+  "after": 83,
+  "by_category_after": {
+   "GOV": 16,
+   "SOE": 6,
+   "CORP": 5,
+   "FIN": 12,
+   "INTL": 4,
+   "NGO": 12,
+   "ACAD": 10,
+   "MEDIA": 7,
+   "PARTY": 9,
+   "MIL": 3
+  }
+ },
+ "trimmed_ids": [
+  "TG-GOV-004",
+  "TG-PARTY-009",
+  "TG-SOE-006",
+  "TG-SOE-008",
+  "TG-FIN-012"
+ ]
+}

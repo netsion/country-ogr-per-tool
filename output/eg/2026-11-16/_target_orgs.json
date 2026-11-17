@@ -1,0 +1,5737 @@
+{
+  "metadata": {
+    "country": "Egypt",
+    "country_iso": "EG",
+    "country_qid": "Q79",
+    "collection_date": "2026-11-16",
+    "phase": "phase1_broad_scan",
+    "categories_covered": [
+      "GOV",
+      "SOE",
+      "CORP",
+      "NGO",
+      "ACAD",
+      "MEDIA",
+      "FIN",
+      "INTL",
+      "PARTY",
+      "MIL"
+    ],
+    "subcategories_covered": [
+      "head_of_state",
+      "executive_branch",
+      "ministries (28 from official SIS cabinet lineup, 2026-07)",
+      "legislature",
+      "judiciary",
+      "regulators",
+      "independent_bodies",
+      "statutory_authorities",
+      "religious_institution",
+      "armed_forces",
+      "intelligence",
+      "military_industry",
+      "state_holdings",
+      "state_enterprises",
+      "state_controlled_listed_companies",
+      "sovereign_wealth_fund",
+      "listed_companies",
+      "banks",
+      "central_bank",
+      "insurance",
+      "stock_exchange",
+      "payment_system",
+      "universities",
+      "research_institutes",
+      "charities",
+      "human_rights_ngos",
+      "development_ngos",
+      "newspapers",
+      "tv_networks",
+      "news_agencies",
+      "media_conglomerate",
+      "political_parties (incl. banned/dissolved)",
+      "intergovernmental_organizations (HQ in Egypt)",
+      "regional_ngos (HQ in Egypt)"
+    ],
+    "depth": "deep",
+    "total_organizations": 190
+  },
+  "organizations": [
+    {
+      "id": "EG-GOV-001",
+      "name": "President of Egypt",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q15618993",
+      "aliases": [
+        "president of the Arab Republic of Egypt",
+        "رئيس جمهورية مصر العربية",
+        "埃及总统",
+        "埃及总统府"
+      ],
+      "subcategory": "Head of State",
+      "description": "埃及国家元首兼武装部队最高统帅，由全民直选产生，任期六年。现总统塞西自2014年就任，2018年、2023年两度连任。",
+      "headquarters": "Cairo",
+      "website": "https://www.presidency.eg",
+      "key_people": [
+        {
+          "title": "总统",
+          "name": "阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi)",
+          "since": "2014-06-08"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "supreme_commander_of",
+          "target_name": "Egyptian Armed Forces"
+        },
+        {
+          "type": "appoints",
+          "target_name": "Prime Minister of Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_website",
+          "url": "https://www.presidency.eg"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15618993"
+        },
+        {
+          "type": "web_search",
+          "url": "https://sis.gov.eg/en/presidency/presidents-monthly-activities/president-s-activities-during-march-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-002",
+      "name": "Cabinet of Egypt",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4206677",
+      "aliases": [
+        "Egyptian Government",
+        "مجلس الوزراء المصري",
+        "埃及内阁",
+        "埃及政府"
+      ],
+      "subcategory": "Executive Branch",
+      "description": "埃及最高行政机关，由总理和各部部长组成。现任政府为马德布利内阁（2018年6月组阁，2024年7月连任、2026年2月改组），政府主要部门已迁驻新行政首都。",
+      "headquarters": "New Administrative Capital",
+      "website": "https://cabinet.gov.eg",
+      "key_people": [
+        {
+          "title": "总理",
+          "name": "穆斯塔法·马德布利 (Mostafa Madbouly)",
+          "since": "2018-06-14"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Government ministries of Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4206677"
+        },
+        {
+          "type": "official_website",
+          "url": "https://cabinet.gov.eg"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cabinet_of_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-003",
+      "name": "House of Representatives (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q1501976",
+      "aliases": [
+        "Egyptian Parliament (lower house)",
+        "مجلس النواب",
+        "埃及众议院",
+        "埃及人民议会"
+      ],
+      "subcategory": "Legislature",
+      "description": "埃及两院制议会下院，共596席，2025年11-12月完成最新一届选举。2019年宪法修正案后恢复两院制，参议院为上院。",
+      "headquarters": "Cairo",
+      "key_people": [
+        {
+          "title": "议长",
+          "name": "哈纳菲·贾巴利 (Hanafi Gebali)",
+          "since": "2020-10"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1501976"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/House_of_Representatives_(Egypt)"
+        },
+        {
+          "type": "web_search",
+          "url": "https://data.ipu.org/parliament/EG/EG-LC01/election/EG-LC01-E20201024/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-004",
+      "name": "Senate (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q64744338",
+      "aliases": [
+        "Egyptian Senate",
+        "مجلس الشيوخ",
+        "埃及参议院"
+      ],
+      "subcategory": "Legislature",
+      "description": "埃及两院制议会上院，2019年宪法修正案后设立，2020年首次选举，共300席（约三分之二民选、三分之一总统任命），2025年11月完成新一届选举。",
+      "headquarters": "Cairo",
+      "key_people": [
+        {
+          "title": "参议院主席",
+          "name": "阿卜杜勒-瓦哈卜·阿卜杜勒-拉扎克 (Abdel-Wahab Abdel-Razeq)",
+          "since": "2020-10-18"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q64744338"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdel-Wahab_Abdel-Razeq"
+        },
+        {
+          "type": "web_search",
+          "url": "https://data.ipu.org/parliament/EG/EG-UC01/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-005",
+      "name": "Ministry of Foreign Affairs of Egypt",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q947229",
+      "aliases": [
+        "Egyptian MFA",
+        "وزارة الخارجية",
+        "埃及外交部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及外交事务。2026年2月内阁改组后，外交部长头衔扩展为外交、国际合作与海外埃及人事务部长。",
+      "website": "https://www.mfa.gov.eg",
+      "key_people": [
+        {
+          "title": "外交部长（兼国际合作与海外埃及人事务）",
+          "name": "巴德尔·阿卜杜勒阿提 (Badr Abdelatty)",
+          "since": "2024-07"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "absorbed_portfolio_of",
+          "target_name": "Ministry of International Cooperation"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q947229"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.mfa.gov.eg"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-006",
+      "name": "Ministry of Defense (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q15846495",
+      "aliases": [
+        "Ministry of Defense and Military Production",
+        "وزارة الدفاع والإنتاج الحربي",
+        "埃及国防和军工生产部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及国防与军工生产事务，领导陆军、海军、空军等军种及军工生产体系。",
+      "key_people": [
+        {
+          "title": "国防和军工生产部长",
+          "name": "阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher)",
+          "since": "2026-02"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Egyptian Armed Forces"
+        },
+        {
+          "type": "oversees",
+          "target_name": "National Service Products Organization"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15846495"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-007",
+      "name": "Ministry of Interior (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q2607694",
+      "aliases": [
+        "وزارة الداخلية",
+        "埃及内政部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及国内治安、警察与监狱系统，是国家维护国内安全的核心强力部门。",
+      "key_people": [
+        {
+          "title": "内政部长",
+          "name": "马哈茂德·陶菲克·坎迪勒 (Mahmoud Tawfik Kandil)",
+          "since": "2018-06"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2607694"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-008",
+      "name": "Ministry of Finance (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4294784",
+      "aliases": [
+        "وزارة المالية",
+        "埃及财政部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及财政预算、国债与税收政策，是IMF贷款项目执行的核心部门。",
+      "key_people": [
+        {
+          "title": "财政部长",
+          "name": "艾哈迈德·库舒克 (Ahmed Kouchouk)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4294784"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1egyea2025001-source-pdf.pdf"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-009",
+      "name": "Ministry of Justice (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4294857",
+      "aliases": [
+        "وزارة العدل",
+        "埃及司法部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及司法行政事务（法院系统日常运转由最高司法委员会自主管理），管理公证、立法起草等职能。",
+      "key_people": [
+        {
+          "title": "司法部长",
+          "name": "马哈茂德·希尔米·谢里夫 (Mahmoud Helmy El-Sherif)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4294857"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-010",
+      "name": "Ministry of Health and Population",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4118002",
+      "aliases": [
+        "وزارة الصحة والسكان",
+        "埃及卫生和人口部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及公共卫生、医疗体系与人口政策，领导全民医保改革与疫苗（VACSERA）体系。",
+      "key_people": [
+        {
+          "title": "卫生和人口部长",
+          "name": "哈立德·阿卜杜勒·加法尔 (Khaled Abdel Ghaffar)",
+          "since": "2022-08"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "VACSERA"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4118002"
+        },
+        {
+          "type": "official_website",
+          "url": "https://cabinet.gov.eg"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-011",
+      "name": "Ministry of Education (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4119091",
+      "aliases": [
+        "Ministry of Education and Technical Education",
+        "وزارة التربية والتعليم والتعليم الفني",
+        "埃及教育和技术教育部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及基础教育与技术教育体系改革（含新一代2.0教育改革）。",
+      "key_people": [
+        {
+          "title": "教育和技术教育部长",
+          "name": "穆罕默德·阿卜杜拉提夫 (Mohamed Abdellatif)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4119091"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-012",
+      "name": "Ministry of Higher Education and Scientific Research",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q12250950",
+      "aliases": [
+        "وزارة التعليم العالي والبحث العلمي",
+        "埃及高等教育和科学研究部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及公立大学体系、科研院所与国家科研项目，现任部长兼任文化部长（代理）。",
+      "key_people": [
+        {
+          "title": "高等教育和科学研究部长（兼文化部长代理）",
+          "name": "阿卜杜勒-阿齐兹·坎苏瓦 (Abdel Aziz Qansowa)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12250950"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-013",
+      "name": "Ministry of Trade and Industry (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q2118756",
+      "aliases": [
+        "وزارة التجارة والصناعة",
+        "埃及贸易和工业部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及工业发展与对外贸易政策，管理工业出口促进与产业园区。",
+      "key_people": [
+        {
+          "title": "贸易和工业部长",
+          "name": "哈立德·马赫尔 (Khaled Hashem Ali Maher)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2118756"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-014",
+      "name": "Ministry of Petroleum and Mineral Resources",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4294486",
+      "aliases": [
+        "وزارة البترول والثروة المعدنية",
+        "埃及石油和矿产资源部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及油气与矿产资源勘探开发，统领EGPC、EGAS、ECHEM等国有控股公司。",
+      "key_people": [
+        {
+          "title": "石油和矿产资源部长",
+          "name": "卡里姆·巴达维 (Karim Badawi)",
+          "since": "2024-08"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Egyptian General Petroleum Corporation"
+        },
+        {
+          "type": "oversees",
+          "target_name": "Egyptian Natural Gas Holding Company"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4294486"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-015",
+      "name": "Ministry of Electricity and Renewable Energy",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4294840",
+      "aliases": [
+        "وزارة الكهرباء والطاقة المتجددة",
+        "埃及电力和可再生能源部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及电力供应与可再生能源规划，统领埃及电力控股公司（EEHC），推进本班太阳能等大型项目。",
+      "key_people": [
+        {
+          "title": "电力和可再生能源部长",
+          "name": "马哈茂德·伊斯马特 (Mahmoud Esmat)",
+          "since": "2024-07"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Egyptian Electricity Holding Company"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4294840"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-016",
+      "name": "Ministry of Housing, Utilities and Urban Communities",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة الإسكان والمرافق والمجتمعات العمرانية",
+        "埃及住房、公用设施和城市社区部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及住房建设、市政公用设施与新社区开发，统领新城区管理局（NUCA）、供水控股公司（HCWW）等机构，总理马德布利2024年前曾长期兼任该部长。",
+      "key_people": [
+        {
+          "title": "住房、公用设施和城市社区部长",
+          "name": "兰达·曼沙维 (Randa Al-Manshawy)",
+          "since": "2026-02"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "New Urban Communities Authority"
+        },
+        {
+          "type": "oversees",
+          "target_name": "Holding Company for Water and Wastewater"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-017",
+      "name": "Ministry of Transport (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة النقل",
+        "埃及交通部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及陆路交通与铁路、港口、内河运输体系，统领埃及国家铁路局等机构。",
+      "key_people": [
+        {
+          "title": "交通部长",
+          "name": "卡迈勒·瓦齐尔 (Kamel Al-Wazir)",
+          "since": "2019"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Egyptian National Railways"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-018",
+      "name": "Ministry of Water Resources and Irrigation",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4118582",
+      "aliases": [
+        "وزارة الموارد المائية والري",
+        "埃及水资源和灌溉部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及水资源管理与尼罗河灌溉体系，是尼罗河水争端（GERD大坝问题）中埃及立场的主要技术部门。",
+      "key_people": [
+        {
+          "title": "水资源和灌溉部长",
+          "name": "哈尼·斯瓦伊勒姆 (Hani Swailem)",
+          "since": "2022-08"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4118582"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-019",
+      "name": "Ministry of Agriculture and Land Reclamation",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة الزراعة واستصلاح الأراضي",
+        "埃及农业和土地改良部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及农业生产、土地改良与粮食安全政策。",
+      "key_people": [
+        {
+          "title": "农业和土地改良部长",
+          "name": "阿拉丁·法鲁克 (Alaa El-Din Farouk)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-020",
+      "name": "Ministry of Supply and Internal Trade",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة التموين والتجارة الداخلية",
+        "埃及供应和国内贸易部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及补贴面包等基本商品供应体系与国内贸易，管理面包补贴配给制度。",
+      "key_people": [
+        {
+          "title": "供应和国内贸易部长",
+          "name": "谢里夫·法鲁克 (Sherif Farouk)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-021",
+      "name": "Ministry of Social Solidarity",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q12250946",
+      "aliases": [
+        "وزارة التضامن الاجتماعي",
+        "埃及社会团结部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及社会保障（Takaful与Karama现金转移支付项目）与民间组织登记监管。",
+      "key_people": [
+        {
+          "title": "社会团结部长",
+          "name": "玛雅·穆尔西 (Maya Morsi)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12250946"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-022",
+      "name": "Ministry of Planning and Economic Development",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة التخطيط والتنمية الاقتصادية",
+        "埃及规划和经济发展部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及国家发展规划与经济改革方案设计，与财政部、国际合作部协同对接IMF等国际融资。",
+      "key_people": [
+        {
+          "title": "规划和经济发展部长",
+          "name": "艾哈迈德·鲁斯图姆 (Ahmed Rustum)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-023",
+      "name": "Ministry of Tourism and Antiquities",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4116921",
+      "aliases": [
+        "وزارة السياحة والآثار",
+        "埃及旅游和文物部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及旅游业与文物考古事业，运营大埃及博物馆（GEM）等国家级文化项目。",
+      "key_people": [
+        {
+          "title": "旅游和文物部长",
+          "name": "谢里夫·法西 (Sherif Fathy)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4116921"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-024",
+      "name": "Ministry of Local Development and Environment",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q16127043",
+      "aliases": [
+        "وزارة التنمية المحلية والبيئة",
+        "埃及地方发展和环境部"
+      ],
+      "subcategory": "Ministry",
+      "description": "2026年2月改组后由地方发展部与环境部职能合并设立，主管地方治理、省级行政协调与环境保护（原环境部设埃及环境事务署EEAA）。",
+      "key_people": [
+        {
+          "title": "地方发展和环境部长",
+          "name": "玛娜尔·阿瓦德 (Manal Awad)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16127043"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-025",
+      "name": "Ministry of Culture (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q3064288",
+      "aliases": [
+        "وزارة الثقافة",
+        "埃及文化部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及文化事业（歌剧院、文化宫、出版与文化节庆），现任部长由高教部长兼任（代理）。",
+      "key_people": [
+        {
+          "title": "文化部长（代理，由高教部长兼任）",
+          "name": "阿卜杜勒-阿齐兹·坎苏瓦 (Abdel Aziz Qansowa)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3064288"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-026",
+      "name": "Ministry of Endowments",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q254067",
+      "aliases": [
+        "Ministry of Awqaf / Religious Affairs",
+        "وزارة الأوقاف",
+        "埃及宗教基金部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及清真寺体系与宗教基金（瓦克夫）事务，是官方宗教话语的主要管理机构。",
+      "key_people": [
+        {
+          "title": "宗教基金部长",
+          "name": "奥萨马·阿扎里 (Osama Al-Azhary)",
+          "since": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q254067"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-027",
+      "name": "Ministry of Labour",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة العمل",
+        "埃及劳工部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及劳动力市场、职业培训与工会事务管理。",
+      "key_people": [
+        {
+          "title": "劳工部长",
+          "name": "哈桑·拉德达德 (Hassan Raddad)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-028",
+      "name": "Ministry of Youth and Sports",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة الشباب والرياضة",
+        "埃及青年和体育部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及青年政策与体育事业，管理国家体育设施与足球联赛体系监管。",
+      "key_people": [
+        {
+          "title": "青年和体育部长",
+          "name": "戈哈尔·纳比勒 (Gohar Nabil)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-029",
+      "name": "Ministry of Civil Aviation",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q3074502",
+      "aliases": [
+        "وزارة الطيران المدني",
+        "埃及民航部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及民航监管，统领埃及机场控股公司（EHCAAN）并对埃及航空实施所有权监督。",
+      "key_people": [
+        {
+          "title": "民航部长",
+          "name": "萨米赫·海夫尼 (Sameh El Hefny)",
+          "since": "2024-07"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Egyptian Holding Company for Airports and Air Navigation"
+        },
+        {
+          "type": "oversees",
+          "target_name": "EgyptAir"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3074502"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-030",
+      "name": "Ministry of Communications and Information Technology",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q1349912",
+      "aliases": [
+        "وزارة الاتصالات وتكنولوجيا المعلومات",
+        "埃及通信和信息技术部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及信息通信产业，统领埃及电信（Telecom Egypt）国家股本、ITIDA等机构，推进数字化与外包产业发展。",
+      "key_people": [
+        {
+          "title": "通信和信息技术部长",
+          "name": "拉阿夫特·亨迪 (Raafat Hendy)",
+          "since": "2026-02"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "Telecom Egypt"
+        },
+        {
+          "type": "oversees",
+          "target_name": "Information Technology Industry Development Agency"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        },
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1349912"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-031",
+      "name": "Ministry of Investment and Foreign Trade",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة الاستثمار والتجارة الخارجية",
+        "埃及投资和对外贸易部"
+      ],
+      "subcategory": "Ministry",
+      "description": "主管埃及投资促进与对外贸易谈判，统领投资和自由区总局（GAFI）。",
+      "key_people": [
+        {
+          "title": "投资和对外贸易部长",
+          "name": "穆罕默德·法里德·萨利赫 (Mohamed Farid Saleh)",
+          "since": "2026-02"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "oversees",
+          "target_name": "General Authority for Investment and Free Zones"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-032",
+      "name": "Ministry of International Cooperation",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q4294450",
+      "aliases": [
+        "وزارة التعاون الدولي",
+        "埃及国际合作部"
+      ],
+      "subcategory": "Ministry",
+      "description": "原独立部委，负责对接国际金融机构援助与贷款。2026年2月内阁改组后其职能并入外交部长兼管（巴德尔·阿卜杜勒阿提头衔含国际合作）。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4294450"
+        },
+        {
+          "type": "news_search",
+          "url": "https://english.ahram.org.eg/News/562168.aspx"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-GOV-033",
+      "name": "Ministry of Parliamentary Affairs",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "وزارة شؤون المجالس النيابية",
+        "埃及议会事务部"
+      ],
+      "subcategory": "Ministry",
+      "description": "负责政府与议会两院之间的协调联络事务。",
+      "key_people": [
+        {
+          "title": "议会事务部长",
+          "name": "哈尼·汉纳·西德拉·阿扎尔 (Hani Hanna Sidra Azar)",
+          "since": "2026-02"
+        }
+      ],
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-034",
+      "name": "Supreme Constitutional Court of Egypt",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q2156821",
+      "aliases": [
+        "SCC",
+        "المحكمة الدستورية العليا",
+        "埃及最高宪法法院"
+      ],
+      "subcategory": "Judiciary",
+      "description": "埃及最高司法机构之一，负责法律法规合宪性审查与宪法解释，独立于普通司法系统。",
+      "headquarters": "Cairo",
+      "website": "https://www.sccourt.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2156821"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.sccourt.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-035",
+      "name": "Court of Cassation (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q12239436",
+      "aliases": [
+        "Egyptian Court of Justice",
+        "محكمة النقض",
+        "埃及上诉法院（最高普通法院）"
+      ],
+      "subcategory": "Judiciary",
+      "description": "埃及普通司法系统的最高审级，负责下级法院判决的复审与法律适用统一。",
+      "website": "http://www.cc.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12239436"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.cc.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-036",
+      "name": "State Council (Egypt)",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q12239039",
+      "aliases": [
+        "Egyptian Council of State",
+        "مجلس الدولة",
+        "埃及国务院（行政司法系统）"
+      ],
+      "subcategory": "Judiciary",
+      "description": "埃及行政司法系统最高机构，管辖行政法院系统，下设最高行政法院，审理公民对政府行政行为的诉讼。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12239039"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.nyulawglobal.org/globalex/egypt.html"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-037",
+      "name": "Supreme Judicial Council",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": null,
+      "aliases": [
+        "المجلس الأعلى للقضاء",
+        "埃及最高司法委员会"
+      ],
+      "subcategory": "Independent Body",
+      "description": "负责埃及普通法院系统与检察系统的行政管理和人事（法官任命、晋升标准）的自治机构；司法部长对法院系统无直接业务管辖权。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q133404956"
+        },
+        {
+          "type": "web_search",
+          "url": "http://judiciariesworldwide.fjc.gov/country-profile/egypt-0"
+        }
+      ],
+      "verification_status": "verified",
+      "notes": " | audit 2026-11-17: QID was a Wikimedia disambiguation page, set null; resolve via Arabic name in P3"
+    },
+    {
+      "id": "EG-GOV-038",
+      "name": "Central Auditing Organization",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q5060386",
+      "aliases": [
+        "CAO",
+        "الجهاز المركزي للمحاسبات",
+        "埃及中央审计署"
+      ],
+      "subcategory": "Independent Body",
+      "description": "埃及国家最高审计机关，负责审计国家财政与公共资金使用，属宪法独立机构。",
+      "headquarters": "Cairo",
+      "founded": "1942-01-01",
+      "website": "https://asa.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5060386"
+        },
+        {
+          "type": "official_website",
+          "url": "https://asa.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-039",
+      "name": "Administrative Control Authority",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "ACA",
+        "هيئة الرقابة الإدارية",
+        "埃及行政监察署"
+      ],
+      "subcategory": "Independent Body",
+      "description": "埃及最高反腐败与行政监察机构，直属总统，负责调查官员贪腐与行政违规案件，是国家反腐败战略的主要执行者。",
+      "headquarters": "Cairo",
+      "website": "https://aca.gov.eg",
+      "sources": [
+        {
+          "type": "official_website",
+          "url": "https://aca.gov.eg"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.pplaaf.org/country/egypt.html"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-040",
+      "name": "Central Agency for Public Mobilization and Statistics",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q5014351",
+      "aliases": [
+        "CAPMAS",
+        "الجهاز المركزي للتعبئة العامة والإحصاء",
+        "埃及中央公共动员和统计局"
+      ],
+      "subcategory": "Independent Body",
+      "description": "埃及官方统计机构，负责人口普查、劳动力与经济统计发布。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5014351"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-041",
+      "name": "National Elections Commission",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q42342907",
+      "aliases": [
+        "NEC",
+        "الهيئة الوطنية للانتخابات",
+        "埃及国家选举委员会"
+      ],
+      "subcategory": "Independent Body",
+      "description": "埃及独立常设选举管理机构，2014年宪法后设立，组织管理议会与总统选举。",
+      "headquarters": "Cairo",
+      "founded": "2017-01-01",
+      "website": "https://www.elections.eg/home",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q42342907"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.elections.eg/home"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-042",
+      "name": "Egyptian Tax Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q60576735",
+      "aliases": [
+        "ETA",
+        "مصلحة الضرائب المصرية",
+        "埃及税务局"
+      ],
+      "subcategory": "Regulator",
+      "description": "隶属财政部的税收征管机构，负责所得税、增值税等税种征收。",
+      "headquarters": "Cairo",
+      "website": "https://www.eta.gov.eg/ar/home",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60576735"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.eta.gov.eg/ar/home"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-GOV-043",
+      "name": "Egypt Customs Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q60576839",
+      "aliases": [
+        "مصلحة الجمارك",
+        "埃及海关总署"
+      ],
+      "subcategory": "Regulator",
+      "description": "隶属财政部的海关监管机构，负责进出口关税与边境货物监管。",
+      "headquarters": "Cairo",
+      "founded": "1865-01-01",
+      "website": "https://www.customs.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q60576839"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.customs.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-044",
+      "name": "Financial Regulatory Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q5348408",
+      "aliases": [
+        "FRA",
+        "Egyptian Financial Supervisory Authority (former name)",
+        "الهيئة العامة للرقابة المالية",
+        "埃及金融监管局"
+      ],
+      "subcategory": "Regulator",
+      "description": "埃及非银行金融市场监管机构，监管资本市场、保险、融资租赁与小额金融；2009年设立（原名埃及金融监督局），2017年更名。",
+      "headquarters": "Cairo",
+      "founded": "2009-01-01",
+      "website": "https://fra.gov.eg/",
+      "relationships": [
+        {
+          "type": "regulates",
+          "target_name": "Egyptian Exchange"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5348408"
+        },
+        {
+          "type": "official_website",
+          "url": "https://fra.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-045",
+      "name": "National Telecommunications Regulatory Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q20392568",
+      "aliases": [
+        "NTRA",
+        "الجهاز القومي لتنظيم الاتصالات",
+        "埃及国家电信监管局"
+      ],
+      "subcategory": "Regulator",
+      "description": "埃及电信行业监管机构，负责电信牌照、频率分配与网络信息安全监管，主席由通信和信息技术部长兼任。",
+      "founded": "2003-12-29",
+      "website": "https://www.tra.gov.eg/ar/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20392568"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.tra.gov.eg/ar/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://privacyinternational.org/state-privacy/1001/state-privacy-egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-046",
+      "name": "Egyptian Drug Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q100258024",
+      "aliases": [
+        "EDA",
+        "الهيئة المصرية للدواء",
+        "埃及药品管理局"
+      ],
+      "subcategory": "Regulator",
+      "description": "埃及药品、生物制品与医疗器械的统一监管机构（整合原卫生部多个监管单位）。",
+      "website": "https://edaegypt.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q100258024"
+        },
+        {
+          "type": "official_website",
+          "url": "https://edaegypt.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-047",
+      "name": "General Authority for Investment and Free Zones",
+      "category": "GOV",
+      "country": "EG",
+      "aliases": [
+        "GAFI",
+        "الهيئة العامة للاستثمار والمناطق الحرة",
+        "埃及投资和自由区总局"
+      ],
+      "subcategory": "Regulator",
+      "description": "埃及投资主管部门，负责公司设立登记、投资审批与自由区管理，隶属投资和对外贸易部。",
+      "headquarters": "Cairo",
+      "website": "https://www.gafi.gov.eg",
+      "relationships": [
+        {
+          "type": "subordinate_to",
+          "target_name": "Ministry of Investment and Foreign Trade"
+        }
+      ],
+      "sources": [
+        {
+          "type": "official_website",
+          "url": "https://www.gafi.gov.eg"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.amcham.org.eg/information-resources/trade-resources/doing-business-in-egypt/egypt-cabinet"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-GOV-048",
+      "name": "Supreme Council for Media Regulation",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q124970017",
+      "aliases": [
+        "SCMR",
+        "المجلس الأعلى لتنظيم الإعلام",
+        "埃及最高媒体管理委员会"
+      ],
+      "subcategory": "Regulator",
+      "description": "埃及媒体内容监管机构，对报刊、网站与广电媒体行使牌照与内容监管权。",
+      "website": "https://scm.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q124970017"
+        },
+        {
+          "type": "official_website",
+          "url": "https://scm.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-049",
+      "name": "National Council for Human Rights",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q6971888",
+      "aliases": [
+        "NCHR",
+        "المجلس القومي لحقوق الإنسان",
+        "埃及全国人权委员会"
+      ],
+      "subcategory": "Independent Body",
+      "description": "依据巴黎原则设立的国家人权机构，负责监测人权状况并向议会和总统提出建议。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6971888"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-050",
+      "name": "Egyptian State Lawsuits Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q5348446",
+      "aliases": [
+        "SLA",
+        "هيئة قضايا الدولة",
+        "埃及国家诉讼署"
+      ],
+      "subcategory": "Independent Body",
+      "description": "代表国家处理民商事诉讼的独立司法性机构，1875年设立。",
+      "founded": "1875-01-01",
+      "website": "http://sla.gov.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5348446"
+        },
+        {
+          "type": "official_website",
+          "url": "http://sla.gov.eg"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-051",
+      "name": "Al-Azhar al-Sharif",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q114458148",
+      "aliases": [
+        "Al-Azhar",
+        "الأزهر الشريف",
+        "爱资哈尔",
+        "爱资哈尔清真寺"
+      ],
+      "subcategory": "Religious Institution",
+      "description": "逊尼派伊斯兰世界最高学术与宗教权威机构之一，位于开罗，管辖爱资哈尔大学与清真寺体系；大伊玛目（谢赫）为埃及官方最高宗教权威，与宗教基金部共同管理官方宗教话语。",
+      "headquarters": "Cairo",
+      "key_people": [
+        {
+          "title": "大伊玛目（谢赫）",
+          "name": "艾哈迈德·塔伊布 (Ahmed El-Tayeb)",
+          "since": "2010-03"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "administers",
+          "target_name": "Al-Azhar University"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114458148"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-052",
+      "name": "New Urban Communities Authority",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q19850166",
+      "aliases": [
+        "NUCA",
+        "هيئة المجتمعات العمرانية الجديدة",
+        "埃及新城区管理局"
+      ],
+      "subcategory": "Statutory Authority",
+      "description": "隶属住房部的国家开发机构，负责新行政首都、新阿拉曼等新城建设与土地一级开发，持有大量城市开发公司股权（含ACUD 49%）。",
+      "headquarters": "The New Capital",
+      "founded": "1979-01-01",
+      "website": "http://www.newcities.gov.eg/",
+      "relationships": [
+        {
+          "type": "owns_share_of",
+          "target_name": "Administrative Capital for Urban Development"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19850166"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.newcities.gov.eg/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-GOV-053",
+      "name": "Suez Canal Economic Zone",
+      "category": "GOV",
+      "country": "EG",
+      "wikidata_qid": "Q22686284",
+      "aliases": [
+        "SCZONE",
+        "المنطقة الاقتصادية لقناة السويس",
+        "埃及苏伊士运河经济区总局"
+      ],
+      "subcategory": "Statutory Authority",
+      "description": "管理苏伊士运河两岸经济区（含塞得港东、艾因苏赫纳等工业区）的法定机构，负责招商引资与特别经济区牌照。",
+      "founded": "2015-01-01",
+      "website": "http://www.sczone.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22686284"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.sczone.eg"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-001",
+      "name": "Egyptian Armed Forces",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q1075553",
+      "aliases": [
+        "CAF",
+        "القوات المسلحة المصرية",
+        "埃及武装部队",
+        "埃及军队"
+      ],
+      "subcategory": "Armed Forces",
+      "description": "埃及武装力量总称，含陆军、海军、空军与防空军，为中东规模最大的军队之一，最高统帅为总统；军方通过NSPO等企业深度参与国民经济。",
+      "headquarters": "Cairo",
+      "key_people": [
+        {
+          "title": "国防和军工生产部长",
+          "name": "阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher)",
+          "since": "2026-02"
+        },
+        {
+          "title": "最高统帅（总统）",
+          "name": "阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi)",
+          "since": "2014-06"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "component",
+          "target_name": "Egyptian Army"
+        },
+        {
+          "type": "component",
+          "target_name": "Egyptian Air Force"
+        },
+        {
+          "type": "component",
+          "target_name": "Egyptian Navy"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1075553"
+        },
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/executive-authority/cabinet-lineup/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-002",
+      "name": "Egyptian Army",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q6479134",
+      "aliases": [
+        "Egyptian Ground Forces",
+        "القوات البرية المصرية",
+        "埃及陆军"
+      ],
+      "subcategory": "Armed Forces",
+      "description": "埃及武装部队陆军 component，兵力规模居非洲首位。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6479134"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-003",
+      "name": "Egyptian Air Force",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q1351405",
+      "aliases": [
+        "EAF",
+        "القوات الجوية المصرية",
+        "埃及空军"
+      ],
+      "subcategory": "Armed Forces",
+      "description": "埃及空军，装备法、美、俄多来源战机（含阵风、F-16、苏-35采购历史）。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1351405"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-004",
+      "name": "Egyptian Navy",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q382551",
+      "aliases": [
+        "القوات البحرية المصرية",
+        "埃及海军"
+      ],
+      "subcategory": "Armed Forces",
+      "description": "埃及海军，负责地中海与红海两线海域，控制苏伊士运河安全。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q382551"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-005",
+      "name": "General Intelligence Service",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q630014",
+      "aliases": [
+        "GIS",
+        "Mukhabarat",
+        "جهاز المخابرات العامة",
+        "埃及情报总局"
+      ],
+      "subcategory": "Intelligence",
+      "description": "埃及对外情报与国家安全核心机构，在巴以停火斡旋、地区调停与国内安全事务中扮演关键角色，直属总统。",
+      "key_people": [
+        {
+          "title": "局长",
+          "name": "阿巴斯·卡迈勒 (Abbas Kamel)",
+          "since": "2017"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q630014"
+        },
+        {
+          "type": "web_search",
+          "url": "https://sis.gov.eg/en/presidency/presidents-monthly-activities/president-s-activities-during-march-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-006",
+      "name": "National Authority for Military Production",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q16120918",
+      "aliases": [
+        "NAMP",
+        "الهيئة القومية للإنتاج الحربي",
+        "埃及国家军工生产局"
+      ],
+      "subcategory": "Military Industry",
+      "description": "埃及军品生产主管机构，统管Abu Zaabal、Helwan等数十家军工厂，生产武器装备与民用产品，由军工生产国务部长领导。",
+      "headquarters": "The New Capital",
+      "founded": "1984-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16120916"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MIL-007",
+      "name": "National Service Products Organization",
+      "category": "MIL",
+      "country": "EG",
+      "wikidata_qid": "Q20387424",
+      "aliases": [
+        "NSPO",
+        "الهيئة القومية للخدمات القومية",
+        "国家兵役产品组织"
+      ],
+      "subcategory": "Military Industry",
+      "description": "隶属国防部的军方企业集团，业务横跨食品、饮用水（SAFI）、道路建设、水泥等民用领域，并持有新行政首都开发公司ACUD 25.5%股权。",
+      "headquarters": "Cairo",
+      "founded": "1979-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20387424"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-001",
+      "name": "Suez Canal Authority",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q1542301",
+      "aliases": [
+        "SCA",
+        "هيئة قناة السويس",
+        "苏伊士运河管理局"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "拥有并运营苏伊士运河的埃及国家机构，运河收入为埃及外汇主要来源之一；近年推进运河二期拓宽、绿色燃料港口与船队更新。",
+      "headquarters": "Ismailia",
+      "founded": "1956-07-26",
+      "website": "http://www.suezcanal.gov.eg/",
+      "key_people": [
+        {
+          "title": "主席",
+          "name": "奥萨马·拉比 (Osama Rabie)",
+          "since": "2019-08"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "state_owned_by",
+          "target_name": "Government of Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1542301"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.suezcanal.gov.eg/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-002",
+      "name": "Egyptian General Petroleum Corporation",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q1299177",
+      "aliases": [
+        "EGPC",
+        "الهيئة المصرية العامة للبترول",
+        "埃及通用石油公司"
+      ],
+      "subcategory": "State Holding",
+      "description": "埃及国家石油公司，隶属石油和矿产资源部，统辖上游勘探与炼化、销售子公司，是国家能源体系核心。",
+      "headquarters": "Cairo",
+      "founded": "1956-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1299177"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-003",
+      "name": "Egyptian Natural Gas Holding Company",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q5348428",
+      "aliases": [
+        "EGAS",
+        "الهيئة المصرية للغاز الطبيعي",
+        "埃及天然气控股公司"
+      ],
+      "subcategory": "State Holding",
+      "description": "埃及国家天然气控股公司，隶属石油部，辖GASCO、Egypt Gas等输配企业，与东地中海天然气论坛合作密切。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5348428"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-004",
+      "name": "Telecom Egypt",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q1583794",
+      "aliases": [
+        "WE",
+        "المصرية للاتصالات",
+        "埃及电信"
+      ],
+      "subcategory": "State-controlled Listed Company",
+      "description": "埃及最大固网与宽带运营商，埃及交易所上市（代码ETEL），国家控股约70%，持Vodafone埃及约45%股权并主导海底光缆业务。",
+      "website": "https://www.te.eg",
+      "relationships": [
+        {
+          "type": "state_controlled_by",
+          "target_name": "Government of Egypt"
+        },
+        {
+          "type": "owns_share_of",
+          "target_name": "Vodafone Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1583794"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.forbesmiddleeast.com/lists/egypts-top-50-listed-companies-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-005",
+      "name": "EgyptAir",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q374740",
+      "aliases": [
+        "Egyptian Airlines",
+        "مصر للطيران",
+        "埃及航空"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "埃及国家航空公司（1932年创立，为中东历史最悠久航司之一），隶属Egyptair Holding（国有企业），星空联盟成员。",
+      "headquarters": "Cairo",
+      "website": "https://www.egyptair.com",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q374740"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.egyptair.com"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-006",
+      "name": "Egypt Post",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q2583152",
+      "aliases": [
+        "Egyptian National Post",
+        "البريد المصري",
+        "埃及邮政"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "埃及邮政公共服务机构（1865年设立），业务扩展至普惠金融、支付与政府代理服务。",
+      "headquarters": "Smart Village, Giza",
+      "founded": "1865-01-01",
+      "website": "https://egyptpost.gov.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2583152"
+        },
+        {
+          "type": "official_website",
+          "url": "https://egyptpost.gov.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-007",
+      "name": "National Media Authority",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q959279",
+      "aliases": [
+        "NMA",
+        "Egyptian Radio and Television Union (ERTU)",
+        "الهيئة الوطنية للإعلام",
+        "埃及国家媒体管理局",
+        "马斯佩罗"
+      ],
+      "subcategory": "State Broadcasting",
+      "description": "埃及国家广播电视机构（前身埃及广播电视联盟，1945年设立），运营国家电视广播网络（马斯佩罗综合大楼）并控股Nilesat约83%。",
+      "headquarters": "Cairo",
+      "founded": "1945-01-01",
+      "website": "https://www.maspero.eg/",
+      "relationships": [
+        {
+          "type": "owns_share_of",
+          "target_name": "Nilesat"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q959279"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.maspero.eg/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.bbc.co.uk/news/world-africa-13313373"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-008",
+      "name": "Egyptian Electricity Holding Company",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q54874871",
+      "aliases": [
+        "EEHC",
+        "الشركة القابضة لكهرباء مصر",
+        "埃及电力控股公司"
+      ],
+      "subcategory": "State Holding",
+      "description": "隶属电力和可再生能源部的国有控股公司，统辖发电、输电与九大配电公司，是国家电力体系母体。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q54874871"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-009",
+      "name": "Holding Company for Water and Wastewater",
+      "category": "SOE",
+      "country": "EG",
+      "aliases": [
+        "HCWW",
+        "الشركة القابضة لمياه الشرب والصرف الصحي",
+        "埃及供水和污水处理控股公司"
+      ],
+      "subcategory": "State Holding",
+      "description": "隶属住房部，统辖25家地方供水与污水处理公司，负责全国饮用水与污水服务。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-SOE-010",
+      "name": "Egyptian Holding Company for Airports and Air Navigation",
+      "category": "SOE",
+      "country": "EG",
+      "aliases": [
+        "EHCAAN",
+        "الشركة القابضة للمطارات والملاحة الجوية",
+        "埃及机场和空中导航控股公司"
+      ],
+      "subcategory": "State Holding",
+      "description": "隶属民航部，辖开罗机场公司、埃及机场公司、国家空中导航服务公司（NANSC）等，管理埃及主要民航基础设施。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-SOE-011",
+      "name": "Egyptian National Railways",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q253927",
+      "aliases": [
+        "ENR",
+        "الهيئة القومية لسكك حديد مصر",
+        "埃及国家铁路局"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "埃及国有铁路运营机构，隶属交通部，运营全国铁路客运与货运网络。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57200054"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-012",
+      "name": "Arab Organization for Industrialization",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q4783223",
+      "aliases": [
+        "AOI",
+        "الهيئة العربية للتصنيع",
+        "阿拉伯工业化组织"
+      ],
+      "subcategory": "Military Industry",
+      "description": "1975年由埃及与海湾国家共同设立的军工联合体，现由总统府直辖，业务涵盖航空制造、电子、兵器与民用汽车组装（AAV等）。",
+      "headquarters": "Cairo",
+      "founded": "1975-01-01",
+      "website": "https://www.aoi.org.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4783223"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.aoi.org.eg"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-013",
+      "name": "Arab Contractors",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q4783172",
+      "aliases": [
+        "المقاولون العرب",
+        "阿拉伯承包商公司"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "埃及最大建筑承包商之一，隶属住房部体系（NUCA持股），在非洲与中东承建大量基础设施工程。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4783172"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-014",
+      "name": "Misr Spinning and Weaving Company",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q2310890",
+      "aliases": [
+        "Misr Spinning",
+        "شركة مصر للغزل والنسيج",
+        "埃及纺织公司",
+        "马哈拉纺纱织造厂"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "1927年建立的非洲最大纺织企业之一（马哈拉埃尔库布拉），现属公共企业部棉纺控股公司体系，是埃及工人运动与历史地标。",
+      "headquarters": "El Mahalla El Kubra",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2310890"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-015",
+      "name": "Nilesat",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q1992164",
+      "aliases": [
+        "Egyptian Satellites Co",
+        "نايل سات",
+        "尼罗河卫星公司"
+      ],
+      "subcategory": "State-controlled Listed Company",
+      "description": "埃及通信卫星运营商，运营NileSat系列通信卫星，国家媒体管理局控股约83%，总部位于十月六日城。",
+      "headquarters": "6th of October City",
+      "website": "https://nilesat.org/",
+      "relationships": [
+        {
+          "type": "owned_by",
+          "target_name": "National Media Authority"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1992164"
+        },
+        {
+          "type": "official_website",
+          "url": "https://nilesat.org/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-016",
+      "name": "Holding Company for Tourism and Hotels",
+      "category": "SOE",
+      "country": "EG",
+      "aliases": [
+        "HOTAC",
+        "الشركة القابضة للسياحة والفنادق",
+        "埃及旅游酒店控股公司"
+      ],
+      "subcategory": "State Holding",
+      "description": "隶属公共企业部，辖EGOTH、Misr Travel、Misr Hotels（50%）等旅游国企资产。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-SOE-017",
+      "name": "VACSERA",
+      "category": "SOE",
+      "country": "EG",
+      "wikidata_qid": "Q30261829",
+      "aliases": [
+        "Holding Company for Biological Products and Vaccines",
+        "هيئة الأمصال واللقاحات",
+        "埃及生物制品和疫苗控股公司"
+      ],
+      "subcategory": "State Enterprise",
+      "description": "隶属卫生和人口部的疫苗与血清生产企业，是国家疫苗生产与生物制品体系核心。",
+      "headquarters": "Giza",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q30261829"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-SOE-018",
+      "name": "Sovereign Fund of Egypt",
+      "category": "SOE",
+      "country": "EG",
+      "aliases": [
+        "SFE",
+        "صندوق مصر السيادي",
+        "埃及主权基金"
+      ],
+      "subcategory": "Sovereign Wealth Fund",
+      "description": "埃及国家主权财富基金，负责整合国有资产、承接国企私有化与引入战略投资者；2025年政府宣布推动国企转由主权基金管理以实现资产收益最大化。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://www.reuters.com/world/africa/egypt-wants-move-state-owned-enterprises-its-sovereign-wealth-fund-minister-says-2025-02-26/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-CORP-001",
+      "name": "Elsewedy Electric",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q5367528",
+      "aliases": [
+        "El Sewedy Electric",
+        "السويدي إلكتريك",
+        "埃尔塞维迪电气"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及最大电缆与电气设备制造商，业务遍及非洲与中东，福布斯2025埃及上市公司第2位。",
+      "headquarters": "Cairo",
+      "website": "https://www.elsewedy.com",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5367528"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.forbesmiddleeast.com/lists/egypts-top-50-listed-companies-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-002",
+      "name": "Talaat Moustafa Group",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q7678762",
+      "aliases": [
+        "TMG Holding",
+        "مجموعة طلعت مصطفى",
+        "塔拉特·穆斯塔法集团"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及最大房地产开发商，开发Madinaty、El-Rehab、Noor等大型新城镇社区，福布斯2025埃及上市公司第4位。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7678762"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.forbesmiddleeast.com/lists/egypts-top-50-listed-companies-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-003",
+      "name": "Orascom Construction",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q163321",
+      "aliases": [
+        "ORAS",
+        "أوراسكوم للإنشاءات",
+        "奥拉斯科姆建筑"
+      ],
+      "subcategory": "Listed Company",
+      "description": "跨国建筑承包商，总部开罗，在埃及交易所与纳斯达克迪拜双重上市，承建中东非洲大型基础设施。",
+      "headquarters": "Cairo",
+      "website": "http://www.orascom.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q163321"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.orascom.com/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.egx.com.eg/en/currentindexconstituntes.aspx?type=1&nav=1"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-004",
+      "name": "Eastern Company",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q68171427",
+      "aliases": [
+        "Eastern Tobacco",
+        "الشرقية للدخان",
+        "东方烟草公司"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及最大烟草制造商，主导国内卷烟市场并持有国际烟草品牌许可，国家通过公共企业部与主权基金参股。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q68171427"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.egx.com.eg/en/currentindexconstituntes.aspx?type=1&nav=1"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-005",
+      "name": "Abu Qir Fertilizers",
+      "category": "CORP",
+      "country": "EG",
+      "aliases": [
+        "ABUK",
+        "أبو قير للأسمدة",
+        "阿布基尔化肥公司"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及最大化肥生产商之一（国家控股上市公司），以氮肥生产为主，产品出口欧洲。",
+      "headquarters": "Alexandria",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://simplywall.st/stocks/eg/market-cap-large"
+        },
+        {
+          "type": "web_search",
+          "url": "https://topforeignstocks.com/stock-lists/the-complete-list-of-listed-companies-on-the-egyptian-stock-exchange/"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-CORP-006",
+      "name": "GB Corp",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q1244316",
+      "aliases": [
+        "Ghabbour Auto",
+        "GB Capital",
+        "الجبور أوتو",
+        "加布尔汽车集团"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及最大汽车组装与分销商之一（Ghabbour Auto更名GB Corp），代理沃尔沃、现代等品牌并拓展消费金融。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1244316"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-007",
+      "name": "Juhayna Food Industries",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q15229827",
+      "aliases": [
+        "Juhayna",
+        "جوهينة للصناعات الغذائية",
+        "朱海纳食品工业"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及最大乳制品与果汁企业之一，主导酸奶与果汁市场。",
+      "headquarters": "6th of October City",
+      "website": "https://www.juhayna.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15229827"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.juhayna.com/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-008",
+      "name": "Oriental Weavers",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q12194339",
+      "aliases": [
+        "الشرقية للنسيج المنزلي",
+        "东方织造公司"
+      ],
+      "subcategory": "Listed Company",
+      "description": "全球最大机织地毯与家居纺织品生产商之一，约2.26万名员工，产品出口全球。",
+      "headquarters": "Cairo",
+      "website": "https://orientalweavers.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12194339"
+        },
+        {
+          "type": "official_website",
+          "url": "https://orientalweavers.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-CORP-009",
+      "name": "EFG Holding",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q1299174",
+      "aliases": [
+        "EFG Hermes",
+        "إي إف جي القابضة",
+        "EFG金融集团"
+      ],
+      "subcategory": "Private Company",
+      "description": "中东与北非领先投资银行与金融服务集团（前身为EFG Hermes），总部开罗。",
+      "headquarters": "Cairo",
+      "website": "https://www.efghldg.com",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1299174"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.efghldg.com"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.egx.com.eg/en/currentindexconstituntes.aspx?type=1&nav=1"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-010",
+      "name": "Qalaa Holdings",
+      "category": "CORP",
+      "country": "EG",
+      "aliases": [
+        "CCAP",
+        "قلعة القابضة",
+        "卡拉控股"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及大型上市投资控股集团，涉足能源、物流、农业加工与建筑材料。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://www.investing.com/indices/egx30-components"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-CORP-011",
+      "name": "Palm Hills Developments",
+      "category": "CORP",
+      "country": "EG",
+      "aliases": [
+        "PHDC",
+        "بالم هيلز للتطوير العقاري",
+        "棕榈山地产"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及大型房地产开发商，埃及交易所EGX30成分股。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://www.egx.com.eg/en/currentindexconstituntes.aspx?type=1&nav=1"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-CORP-012",
+      "name": "SODIC",
+      "category": "CORP",
+      "country": "EG",
+      "aliases": [
+        "Sixth of October Development and Investment",
+        "سوديك",
+        "索迪克地产"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及主要房地产开发商（十月六日城开发投资公司）。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://topforeignstocks.com/stock-lists/the-complete-list-of-listed-companies-on-the-egyptian-stock-exchange/"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-CORP-013",
+      "name": "B.TECH",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q97358762",
+      "aliases": [
+        "بي تك",
+        "B.TECH电器连锁"
+      ],
+      "subcategory": "Private Company",
+      "description": "埃及最大的家电与电子产品零售连锁，约4200名员工。",
+      "headquarters": "Cairo",
+      "website": "https://btech.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97358762"
+        },
+        {
+          "type": "official_website",
+          "url": "https://btech.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-CORP-014",
+      "name": "Raya Holding",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q12218668",
+      "aliases": [
+        "Raya Corporation",
+        "راية القابضة",
+        "拉亚控股"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及信息技术与业务流程外包服务集团，涵盖IT服务、呼叫中心与智能设备分销。",
+      "headquarters": "Giza",
+      "website": "https://rayacorp.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12218668"
+        },
+        {
+          "type": "official_website",
+          "url": "https://rayacorp.com/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-CORP-015",
+      "name": "TE Data",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q12188928",
+      "aliases": [
+        "WE Internet",
+        "تي داتا",
+        "TE数据公司"
+      ],
+      "subcategory": "Subsidiary",
+      "description": "埃及主要互联网服务提供商与数据中心运营商，埃及电信（Telecom Egypt）子公司。",
+      "headquarters": "Cairo",
+      "parent_organization": "Telecom Egypt",
+      "relationships": [
+        {
+          "type": "subsidiary_of",
+          "target_name": "Telecom Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12188928"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-CORP-016",
+      "name": "Asfour Crystal",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q16245812",
+      "aliases": [
+        "أسبور كريستال",
+        "阿斯富水晶"
+      ],
+      "subcategory": "Private Company",
+      "description": "全球最大水晶吊灯与水晶制品制造商之一，约2.8万名员工。",
+      "headquarters": "Cairo",
+      "website": "https://asfourcrystal.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16245812"
+        },
+        {
+          "type": "official_website",
+          "url": "https://asfourcrystal.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-CORP-017",
+      "name": "Olympic Group",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q7089088",
+      "aliases": [
+        "الأولمبيك جروب",
+        "奥林匹克集团"
+      ],
+      "subcategory": "Listed Company",
+      "description": "埃及家电制造集团，主导洗衣机等白色家电市场。",
+      "headquarters": "Nasr City, Cairo",
+      "website": "https://www.olympic-electric.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7089088"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.olympic-electric.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-CORP-018",
+      "name": "Al Ahram Beverages",
+      "category": "CORP",
+      "country": "EG",
+      "wikidata_qid": "Q68171436",
+      "aliases": [
+        "الأهرام للمشروبات",
+        "金字塔饮料公司"
+      ],
+      "subcategory": "Private Company",
+      "description": "埃及主要饮料生产商（啤酒、麦芽非酒精饮料与果汁），现为喜力集团旗下。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q68171483"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-001",
+      "name": "Central Bank of Egypt",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q920699",
+      "aliases": [
+        "CBE",
+        "البنك المركزي المصري",
+        "埃及中央银行"
+      ],
+      "subcategory": "Central Bank",
+      "description": "埃及央行，负责货币政策、汇率管理、银行体系监管与通胀目标；现任行长哈桑·阿卜杜拉（2022年8月就任代理行长，2026年8月获延任一年），并担任埃及驻IMF理事。",
+      "headquarters": "Cairo",
+      "website": "https://www.cbe.org.eg/en/",
+      "key_people": [
+        {
+          "title": "行长（代理）",
+          "name": "哈桑·阿卜杜拉 (Hassan Abdalla)",
+          "since": "2022-08-18"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "regulates",
+          "target_name": "Egyptian banking sector"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q920699"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.cbe.org.eg/en/"
+        },
+        {
+          "type": "news_search",
+          "url": "https://english.ahram.org.eg/NewsContentP/3/575539/Business/Egypt-renews-Hassan-Abdalla-mandate-as-CBE-acting-.aspx"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.fsb.org/profile/hassan-abdalla/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-002",
+      "name": "National Bank of Egypt",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q4119563",
+      "aliases": [
+        "NBE",
+        "البنك الأهلي المصري",
+        "埃及国民银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及资产规模最大银行（1898年设立），国有政策性商业银行，是国债与国家项目融资主力。",
+      "headquarters": "Cairo",
+      "founded": "1898-06-25",
+      "website": "https://www.nbe.com.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4119563"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.nbe.com.eg/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-003",
+      "name": "Banque Misr",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q2060638",
+      "aliases": [
+        "Bank of Egypt",
+        "بنك مصر",
+        "埃及银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及第二大国有银行（1920年由塔拉特·哈布创立），约2万名员工，深度参与国家项目融资。",
+      "headquarters": "Cairo",
+      "founded": "1920-01-01",
+      "website": "https://www.banquemisr.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2060638"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.banquemisr.com/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-004",
+      "name": "Banque du Caire",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q4857077",
+      "aliases": [
+        "BDC",
+        "بنك القاهرة",
+        "开罗银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及主要国有银行（埃及国民银行与埃及银行为主要股东），专注零售与普惠金融。",
+      "headquarters": "Cairo",
+      "website": "https://www.bdc.com.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4857077"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.bdc.com.eg"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-005",
+      "name": "Commercial International Bank",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q5152506",
+      "aliases": [
+        "CIB",
+        "البنك التجاري الدولي",
+        "埃及商业国际银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及最大私营银行与市值最高上市公司，福布斯2025埃及上市公司第1位，富时罗素新兴市场指数成分。",
+      "headquarters": "Cairo",
+      "founded": "1975-01-01",
+      "website": "https://www.cibeg.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5152506"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.cibeg.com/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.forbesmiddleeast.com/lists/egypts-top-50-listed-companies-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-006",
+      "name": "Alexbank",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q4856020",
+      "aliases": [
+        "Bank of Alexandria",
+        "بنك الإسكندرية",
+        "亚历山大银行"
+      ],
+      "subcategory": "Bank",
+      "description": "意大利联合圣保罗银行（Intesa Sanpaolo）控股的埃及主要银行。",
+      "headquarters": "Cairo",
+      "website": "https://www.alexbank.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4856020"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.alexbank.com/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-007",
+      "name": "QNB Egypt",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q12184634",
+      "aliases": [
+        "QNB Alahli",
+        "بنك قطر الوطني مصر",
+        "卡塔尔国民银行埃及"
+      ],
+      "subcategory": "Bank",
+      "description": "卡塔尔国民银行（QNB）在埃及的子公司（前QNB Alahli），福布斯2025埃及上市公司第3位。",
+      "headquarters": "Cairo",
+      "founded": "2013-01-01",
+      "website": "https://www.qnb.com.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12184634"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.qnb.com.eg/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.forbesmiddleeast.com/lists/egypts-top-50-listed-companies-2025/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-008",
+      "name": "Arab African International Bank",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q12184644",
+      "aliases": [
+        "AAIB",
+        "البنك العربي الأفريقي الدولي",
+        "阿拉伯非洲国际银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及与科威特政府基金（埃及央行与科威特投资局）合资的主要银行，1964年设立。",
+      "headquarters": "Cairo",
+      "founded": "1964-01-01",
+      "website": "https://aaib.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12184644"
+        },
+        {
+          "type": "official_website",
+          "url": "https://aaib.com/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-009",
+      "name": "Faisal Islamic Bank of Egypt",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q6745525",
+      "aliases": [
+        "بنك فيصل الإسلامي المصري",
+        "埃及费萨尔伊斯兰银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及首批伊斯兰银行之一（1979年设立），主营伊斯兰金融业务。",
+      "headquarters": "Cairo",
+      "founded": "1979-01-01",
+      "website": "https://www.faisalbank.com.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6745525"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.faisalbank.com.eg/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-010",
+      "name": "Agricultural Bank of Egypt",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q54874868",
+      "aliases": [
+        "ABE",
+        "البنك الزراعي المصري",
+        "埃及农业银行"
+      ],
+      "subcategory": "Bank",
+      "description": "服务农业与农村金融的国有专业银行（1930年设立），覆盖农村普惠金融网络。",
+      "headquarters": "Giza",
+      "founded": "1930-01-01",
+      "website": "https://abe.com.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q54874868"
+        },
+        {
+          "type": "official_website",
+          "url": "https://abe.com.eg/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-011",
+      "name": "Housing and Development Bank",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q12199339",
+      "aliases": [
+        "HDB",
+        "بنك الإسكان والتنمية العمرانية",
+        "埃及住房和开发银行"
+      ],
+      "subcategory": "Bank",
+      "description": "隶属住房部体系的上市银行（1979年设立），服务住房与城市开发融资。",
+      "headquarters": "Cairo",
+      "founded": "1979-01-01",
+      "website": "https://www.hdb-egy.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12199339"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.hdb-egy.com/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-FIN-012",
+      "name": "Suez Canal Bank",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q28714724",
+      "aliases": [
+        "SCB",
+        "بنك قناة السويس",
+        "苏伊士运河银行"
+      ],
+      "subcategory": "Bank",
+      "description": "埃及中型商业银行（1978年设立），近年更名Bank NXT体系并保持双品牌运营。",
+      "headquarters": "Ismailia",
+      "founded": "1978-01-01",
+      "website": "https://scbank.com.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q28714724"
+        },
+        {
+          "type": "official_website",
+          "url": "https://scbank.com.eg/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Egypt"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-FIN-013",
+      "name": "Misr Insurance",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q20419500",
+      "aliases": [
+        "الشركة المصرية للتأمين",
+        "埃及保险公司"
+      ],
+      "subcategory": "Insurance",
+      "description": "埃及最大国有保险公司，隶属Misr Insurance Holding（现由主权基金旗下管理）。",
+      "headquarters": "Cairo",
+      "parent_organization": "Misr Insurance Holding Company",
+      "relationships": [
+        {
+          "type": "owned_by",
+          "target_name": "Sovereign Fund of Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107376870"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_state-owned_enterprises_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-014",
+      "name": "Egyptian Exchange",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q2509254",
+      "aliases": [
+        "EGX",
+        "البورصة المصرية",
+        "埃及交易所"
+      ],
+      "subcategory": "Stock Exchange",
+      "description": "埃及证券交易所，运营EGX30/EGX70等指数，由金融监管局（FRA）监管，主席由总统任命。",
+      "headquarters": "Cairo",
+      "relationships": [
+        {
+          "type": "regulated_by",
+          "target_name": "Financial Regulatory Authority"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2509254"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.egx.com.eg/en/currentindexconstituntes.aspx?type=1&nav=1"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-FIN-015",
+      "name": "Meeza",
+      "category": "FIN",
+      "country": "EG",
+      "wikidata_qid": "Q85784760",
+      "aliases": [
+        "ميزة",
+        "Meeza国家支付网络"
+      ],
+      "subcategory": "Payment System",
+      "description": "埃及国家支付计划下的银行卡与电子支付网络，推动国内支付体系数字化。",
+      "headquarters": "Cairo",
+      "website": "https://meeza-eg.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q85784760"
+        },
+        {
+          "type": "official_website",
+          "url": "https://meeza-eg.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-001",
+      "name": "Cairo University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q194445",
+      "aliases": [
+        "جامعة القاهرة",
+        "开罗大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及规模最大、历史最悠久的现代大学之一（1908年建立，前身埃及大学），下设Kasr Alainy医学院等众多学院，学科覆盖文理工医。",
+      "headquarters": "Giza, Cairo",
+      "founded": "1908-01-01",
+      "website": "https://cu.edu.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q194445"
+        },
+        {
+          "type": "official_website",
+          "url": "https://cu.edu.eg"
+        },
+        {
+          "type": "web_search",
+          "url": "https://edurank.org/geo/eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-002",
+      "name": "Al-Azhar University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q173959",
+      "aliases": [
+        "جامعة الأزهر",
+        "爱资哈尔大学"
+      ],
+      "subcategory": "University",
+      "description": "世界最古老的伊斯兰高等学府（970年随爱资哈尔清真寺建立），逊尼派最高学术中心，由Al-Azhar al-Sharif管理，学科兼具宗教与世俗科学。",
+      "headquarters": "Cairo",
+      "founded": "0970-01-01",
+      "website": "https://www.azhar.edu.eg",
+      "parent_organization": "Al-Azhar al-Sharif",
+      "relationships": [
+        {
+          "type": "administered_by",
+          "target_name": "Al-Azhar al-Sharif"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q173959"
+        },
+        {
+          "type": "web_search",
+          "url": "https://edurank.org/geo/eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-003",
+      "name": "Ain Shams University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q2723670",
+      "aliases": [
+        "ASU",
+        "جامعة عين شمس",
+        "艾因夏姆斯大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及主要公立研究型大学之一（1950年设立），在QS与本地排名中居前三位。",
+      "headquarters": "Cairo",
+      "founded": "1950-07-01",
+      "website": "https://www.asu.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2723670"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.asu.edu.eg/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://edurank.org/geo/eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-004",
+      "name": "Alexandria University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q1424632",
+      "aliases": [
+        "جامعة الإسكندرية",
+        "亚历山大大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及主要公立大学（1942年建制为法鲁克大学），拥有医学、工程等完整学科与附属研究所。",
+      "headquarters": "Alexandria",
+      "founded": "1942-01-01",
+      "website": "https://www.alexu.edu.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1424632"
+        },
+        {
+          "type": "web_search",
+          "url": "https://edurank.org/geo/eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-005",
+      "name": "American University in Cairo",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q469476",
+      "aliases": [
+        "AUC",
+        "الجامعة الأمريكية في القاهرة",
+        "开罗美国大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及最著名的私立研究型大学（1919年设立），英语授课，中东地区声誉卓著，出版社（AUC Press）为中东主要学术出版机构。",
+      "headquarters": "New Cairo",
+      "founded": "1919-01-01",
+      "website": "https://www.aucegypt.edu",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q469476"
+        },
+        {
+          "type": "web_search",
+          "url": "https://edurank.org/geo/eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-006",
+      "name": "Mansoura University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q4116236",
+      "aliases": [
+        "جامعة المنصورة",
+        "曼苏拉大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及尼罗河三角洲主要公立大学（1972年设立），医学研究尤为知名。",
+      "headquarters": "Mansoura",
+      "founded": "1972-01-01",
+      "website": "https://www.mans.edu.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4116236"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.mans.edu.eg"
+        },
+        {
+          "type": "web_search",
+          "url": "https://edurank.org/geo/eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-007",
+      "name": "Assiut University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q246534",
+      "aliases": [
+        "جامعة أسيوط",
+        "艾斯尤特大学"
+      ],
+      "subcategory": "University",
+      "description": "上埃及第一所大学（1957年设立），为区域高等教育与医疗中心。",
+      "headquarters": "Assiut",
+      "founded": "1957-01-01",
+      "website": "https://www.aun.edu.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q246534"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.aun.edu.eg"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-008",
+      "name": "Tanta University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q2917699",
+      "aliases": [
+        "جامعة طنطا",
+        "坦塔大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及三角洲地区公立大学（1972年设立），以医学见长。",
+      "headquarters": "Tanta",
+      "founded": "1972-01-01",
+      "website": "https://www.tanta.edu.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2917699"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.tanta.edu.eg"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-009",
+      "name": "Zagazig University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q1078474",
+      "aliases": [
+        "جامعة الزقازيق",
+        "宰加济格大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及东部省公立大学，辖医学院与附属医院体系。",
+      "headquarters": "Zagazig",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1078474"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-010",
+      "name": "Helwan University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q1364550",
+      "aliases": [
+        "جامعة حلوان",
+        "赫勒万大学"
+      ],
+      "subcategory": "University",
+      "description": "开罗赫勒万区的公立大学（1975年建制），以工程、艺术与应用学科见长。",
+      "headquarters": "Helwan, Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1364550"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-011",
+      "name": "Benha University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q1042722",
+      "aliases": [
+        "جامعة بنها",
+        "本哈大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及东部三角洲公立大学（1976年建制）。",
+      "headquarters": "Benha",
+      "founded": "1976-01-01",
+      "website": "https://www.bu.edu.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1042722"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.bu.edu.eg"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-012",
+      "name": "Suez Canal University",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q1161619",
+      "aliases": [
+        "جامعة قناة السويس",
+        "苏伊士运河大学"
+      ],
+      "subcategory": "University",
+      "description": "运河区公立大学，校区位于伊斯梅利亚。",
+      "headquarters": "Ismailia",
+      "website": "http://scuegypt.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1161619"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-013",
+      "name": "German University in Cairo",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q691097",
+      "aliases": [
+        "GUC",
+        "الجامعة الألمانية بالقاهرة",
+        "开罗德国大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及与德国合作设立的私立大学（2002年设立），德国高校体系认证。",
+      "headquarters": "New Cairo",
+      "founded": "2002-01-01",
+      "website": "https://guc.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q691097"
+        },
+        {
+          "type": "official_website",
+          "url": "https://guc.edu.eg/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-014",
+      "name": "British University in Egypt",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q3087723",
+      "aliases": [
+        "BUE",
+        "الجامعة البريطانية في مصر",
+        "埃及英国大学"
+      ],
+      "subcategory": "University",
+      "description": "与英国大学体系合作的私立大学（2005年设立）。",
+      "headquarters": "El Sherouk, Cairo",
+      "founded": "2005-01-01",
+      "website": "https://www.bue.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3087723"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.bue.edu.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-015",
+      "name": "Future University in Egypt",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q3013175",
+      "aliases": [
+        "FUE",
+        "جامعة المستقبل في مصر",
+        "埃及未来大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及私立大学（2006年设立），以药学、工程与传媒著称。",
+      "headquarters": "Cairo",
+      "founded": "2006-01-01",
+      "website": "http://www.fue.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3013175"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-ACAD-016",
+      "name": "Zewail City of Science and Technology",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q21062258",
+      "aliases": [
+        "Zewail City",
+        "مدينة زويل للعلوم والتكنولوجيا",
+        "泽维尔科技城"
+      ],
+      "subcategory": "Research University",
+      "description": "诺贝尔化学奖得主艾哈迈德·泽维尔倡议设立的科研型大学与国家科研项目（2011年设立），为埃及基础科学前沿机构。",
+      "headquarters": "6th of October City",
+      "founded": "2011-01-01",
+      "website": "https://www.zewailcity.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q21062258"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.zewailcity.edu.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-017",
+      "name": "Arab Academy for Science and Technology and Maritime Transport",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q4116239",
+      "aliases": [
+        "AASTMT",
+        "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري",
+        "阿拉伯科学技术与海运学院"
+      ],
+      "subcategory": "University",
+      "description": "阿拉伯国家联盟旗下的海运与科技高校（1972年设立），总部亚历山大并在多国设分校。",
+      "headquarters": "Alexandria",
+      "founded": "1972-01-01",
+      "website": "https://aast.edu/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4116239"
+        },
+        {
+          "type": "official_website",
+          "url": "https://aast.edu/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-018",
+      "name": "National Research Centre",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q6978045",
+      "aliases": [
+        "NRC",
+        "المركز القومي للبحوث",
+        "国家研究中心"
+      ],
+      "subcategory": "Research Institute",
+      "description": "埃及最大的综合性应用研究机构（1956年设立），隶属高教部科研体系。",
+      "headquarters": "Cairo",
+      "founded": "1956-01-01",
+      "website": "http://www.nrc.sci.eg",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6978045"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.nrc.sci.eg"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-019",
+      "name": "National Research Institute of Astronomy and Geophysics",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q594282",
+      "aliases": [
+        "NRIAG",
+        "المعهد القومي للبحوث الفلكية والجيوفيزيقية",
+        "国家天文与地球物理研究所"
+      ],
+      "subcategory": "Research Institute",
+      "description": "埃及天文学与地球物理研究机构（1840年设立，为中东最老科研机构之一），运营赫勒万天文台。",
+      "headquarters": "Helwan, Cairo",
+      "founded": "1840-01-01",
+      "website": "https://www.nriag.sci.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q594282"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.nriag.sci.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-020",
+      "name": "Academy of Scientific Research and Technology",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q6825286",
+      "aliases": [
+        "ASRT",
+        "أكاديمية البحث العلمي والتكنولوجيا",
+        "科学技术研究院"
+      ],
+      "subcategory": "Research Organization",
+      "description": "埃及科研政策最高管理机构（1971年设立），统筹国家科研资助与科研评估。",
+      "headquarters": "Cairo",
+      "founded": "1971-01-01",
+      "website": "http://www.asrt.sci.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6825286"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.asrt.sci.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-021",
+      "name": "National Authority for Remote Sensing and Space Sciences",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q4314942",
+      "aliases": [
+        "NARSS",
+        "الهيئة القومية للاستشعار من بعد وعلوم الفضاء",
+        "国家遥感和空间科学局"
+      ],
+      "subcategory": "Research Institute",
+      "description": "埃及遥感与空间科学研究机构（1991年设立），是埃及民用航天计划的主要执行单位。",
+      "headquarters": "Cairo",
+      "founded": "1991-01-01",
+      "website": "http://www.narss.sci.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4314942"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.narss.sci.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-022",
+      "name": "Egypt-Japan University of Science and Technology",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q4115744",
+      "aliases": [
+        "E-JUST",
+        "الجامعة المصرية اليابانية للعلوم والتكنولوجيا",
+        "埃及日本科学技术大学"
+      ],
+      "subcategory": "University",
+      "description": "埃及与日本政府合作设立的研究型大学（2010年设立），位于亚历山大新拜达城。",
+      "headquarters": "Alexandria",
+      "founded": "2010-01-01",
+      "website": "https://ejust.edu.eg/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4115744"
+        },
+        {
+          "type": "official_website",
+          "url": "https://ejust.edu.eg/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-ACAD-023",
+      "name": "National Cancer Institute (Egypt)",
+      "category": "ACAD",
+      "country": "EG",
+      "wikidata_qid": "Q6971243",
+      "aliases": [
+        "NCI",
+        "المعهد القومي للأورام",
+        "国家肿瘤研究所"
+      ],
+      "subcategory": "Research Institute",
+      "description": "开罗大学附属国家级肿瘤研究与治疗机构（1969年设立），为埃及最大癌症中心之一。",
+      "headquarters": "Cairo",
+      "founded": "1969-01-01",
+      "website": "http://www.nci.cu.edu.eg",
+      "relationships": [
+        {
+          "type": "affiliated_with",
+          "target_name": "Cairo University"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6971243"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-001",
+      "name": "Egyptian Red Crescent Society",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q3855843",
+      "aliases": [
+        "ERC",
+        "الهلال الأحمر المصري",
+        "埃及红新月会"
+      ],
+      "subcategory": "Humanitarian",
+      "description": "国际红十字与红新月运动埃及成员，是拉法口岸加沙人道援助走廊等行动的核心执行组织。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3855843"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.zoominfo.com/top-lists/top-organizations-charitable-companies-in-EG"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-NGO-002",
+      "name": "Misr El Kheir Foundation",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q25452864",
+      "aliases": [
+        "Misr El-Kheir",
+        "مؤسسة مصر الخير",
+        "埃及善行基金会"
+      ],
+      "subcategory": "Charity",
+      "description": "埃及最大的综合性慈善基金会之一，业务覆盖扶贫、教育、健康、基础设施与孤儿资助。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q25452864"
+        },
+        {
+          "type": "web_search",
+          "url": "https://ngobase.org/stwa/EG.CA/PVA/poverty-alleviation-ngos-charities-cairo-governate"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-NGO-003",
+      "name": "Egyptian Food Bank",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q16125206",
+      "aliases": [
+        "بنك الطعام المصري",
+        "埃及粮食银行"
+      ],
+      "subcategory": "Charity",
+      "description": "埃及知名反饥饿公益组织，通过定期食物援助网络覆盖贫困家庭。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16125206"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-NGO-004",
+      "name": "Resala Charity Organization",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q12206074",
+      "aliases": [
+        "Resala",
+        "جمعية رسالة",
+        "拉萨拉慈善组织"
+      ],
+      "subcategory": "Charity",
+      "description": "埃及大型公益慈善协会，分支网络覆盖多数省份，从事扶贫、孤儿与老人救助。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12206074"
+        },
+        {
+          "type": "web_search",
+          "url": "http://www.araboo.com/dir/egypt-social-organizations"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-005",
+      "name": "Egyptian Initiative for Personal Rights",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q5348416",
+      "aliases": [
+        "EIPR",
+        "المبادرة المصرية للحقوق الشخصية",
+        "埃及个人权利倡议组织"
+      ],
+      "subcategory": "Human Rights",
+      "description": "埃及重要独立人权组织（2002年设立），关注公民政治权利、经济社会权利与宗教自由，持续发布人权监测报告。",
+      "headquarters": "Cairo",
+      "founded": "2002-01-01",
+      "website": "http://www.eipr.org/en",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5348416"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.eipr.org/en"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-NGO-006",
+      "name": "Egyptian Center for Economic and Social Rights",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q19678224",
+      "aliases": [
+        "ECESR",
+        "المركز المصري للحقوق الاقتصادية والاجتماعية",
+        "埃及经济与社会权利中心"
+      ],
+      "subcategory": "Human Rights",
+      "description": "关注劳工、住房与经济社会权利诉讼与倡导的埃及人权组织。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19678224"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-NGO-007",
+      "name": "CEOSS",
+      "category": "NGO",
+      "country": "EG",
+      "aliases": [
+        "Coptic Evangelical Organization for Social Services",
+        "جمعية الخدمة الاجتماعية للكنيسة الإنجيلية القبطية",
+        "埃及科普特福音会社会服务组织"
+      ],
+      "subcategory": "Development",
+      "description": "埃及历史最悠久的基督教背景发展组织之一，从事农村发展、教育与社区赋权。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://ngobase.org/stswa/EG.CA/DEV.CD/community-development-cairo-governate"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-008",
+      "name": "Maat Foundation for Peace, Development and Human Rights",
+      "category": "NGO",
+      "country": "EG",
+      "aliases": [
+        "مؤسسة مأمون للسلام والتنمية وحقوق الإنسان",
+        "马阿特和平发展与人类权利基金会"
+      ],
+      "subcategory": "Human Rights",
+      "description": "埃及人权与发展NGO，深度参与联合国人权审议与普遍定期审议（UPR）机制。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://ngobase.org/stswa/EG.CA/DEV.CD/community-development-cairo-governate"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-009",
+      "name": "Alashanek Ya Balady Association",
+      "category": "NGO",
+      "country": "EG",
+      "aliases": [
+        "AYB",
+        "عشانك يا بلدي",
+        "阿沙奈克亚巴拉迪协会"
+      ],
+      "subcategory": "Development",
+      "description": "青年主导的可持续发展公益组织，提供小额资助与就业培训。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://ngobase.org/stswa/EG.CA/DEV.CD/community-development-cairo-governate"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-010",
+      "name": "Al Orman Association",
+      "category": "NGO",
+      "country": "EG",
+      "aliases": [
+        "جمعية الأورمان",
+        "奥尔曼慈善协会"
+      ],
+      "subcategory": "Charity",
+      "description": "埃及大型扶贫慈善组织，以斋月施食与长期扶贫项目闻名。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "http://www.araboo.com/dir/egypt-social-organizations"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-NGO-011",
+      "name": "Magdi Yacoub Heart Foundation",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q50037512",
+      "aliases": [
+        "MYF",
+        "مؤسسة مجدي يعقوب للقلب",
+        "马吉德·雅各布心脏基金会"
+      ],
+      "subcategory": "Charity",
+      "description": "著名心脏外科医生马吉德·雅各布创立的慈善基金会，运营阿斯旺心脏中心等免费儿童心脏病救治项目。",
+      "headquarters": "Cairo",
+      "website": "http://www.myf-egypt.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q50037512"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.myf-egypt.org/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-012",
+      "name": "Culture Resource (Mawred Al Thaqafy)",
+      "category": "NGO",
+      "country": "EG",
+      "wikidata_qid": "Q61933578",
+      "aliases": [
+        "Mawred",
+        "المورد الثقافي",
+        "文化资源基金会"
+      ],
+      "subcategory": "Cultural",
+      "description": "支持阿拉伯地区文化创作与青年艺术家的非营利组织（2004年设立），总部开罗。",
+      "headquarters": "Cairo",
+      "founded": "2004-01-01",
+      "website": "http://mawred.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61933578"
+        },
+        {
+          "type": "official_website",
+          "url": "http://mawred.org/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-013",
+      "name": "Caritas Egypt",
+      "category": "NGO",
+      "country": "EG",
+      "aliases": [
+        "كاريتاس مصر",
+        "明爱埃及"
+      ],
+      "subcategory": "Charity",
+      "description": "天主教会背景慈善组织，服务移民、难民与弱势群体。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://ngobase.org/stswa/EG.CA/DEV.CD/community-development-cairo-governate"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-NGO-014",
+      "name": "Association for Freedom of Thought and Expression",
+      "category": "NGO",
+      "country": "EG",
+      "aliases": [
+        "AFTE",
+        "رابطة حرية الفكر والتعبير",
+        "思想与表达自由协会"
+      ],
+      "subcategory": "Human Rights",
+      "description": "专注埃及学术自由与言论自由的独立人权组织。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://ngobase.org/stswa/EG.CA/DEV.CD/community-development-cairo-governate"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-MEDIA-001",
+      "name": "Al-Ahram",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q286468",
+      "aliases": [
+        "Al Ahram",
+        "الأهرام",
+        "金字塔报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "国家控股的阿拉伯世界最古老报纸（1876年创刊），隶属金字塔报机构（Al-Ahram Establishment），出版阿文日报及英文、法文版本，是官方主流媒体。",
+      "headquarters": "Cairo",
+      "founded": "1876-08-05",
+      "website": "https://ahram.org.eg",
+      "relationships": [
+        {
+          "type": "owned_by",
+          "target_name": "Government of Egypt"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q286468"
+        },
+        {
+          "type": "official_website",
+          "url": "https://ahram.org.eg"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.bbc.co.uk/news/world-africa-13313373"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-002",
+      "name": "Al Ahram Weekly",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q424967",
+      "aliases": [
+        "الأهرام ويكلي",
+        "金字塔周刊"
+      ],
+      "subcategory": "Newspaper",
+      "description": "金字塔报机构出版的英文周刊（1991年创刊），附Ahram Online英文新闻网。",
+      "founded": "1991-02-28",
+      "website": "https://english.ahram.org.eg/",
+      "parent_organization": "Al-Ahram",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q424967"
+        },
+        {
+          "type": "official_website",
+          "url": "https://english.ahram.org.eg/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-003",
+      "name": "Akhbar El-Yom",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q4116122",
+      "aliases": [
+        "Akhbar al-Yom",
+        "أخبار اليوم",
+        "今日消息报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及主要日报之一（1944年创刊），与Al-Akhbar同属Akhbar El-Yom出版体系。",
+      "founded": "1944-01-01",
+      "website": "https://akhbarelyom.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4116122"
+        },
+        {
+          "type": "official_website",
+          "url": "https://akhbarelyom.com/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-004",
+      "name": "Al-Akhbar (Egypt)",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q4120266",
+      "aliases": [
+        "الأخبار",
+        "消息报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及国家背景日报（1952年创刊），现与Akhbar El-Yom出版体系整合。",
+      "founded": "1952-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4120266"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-005",
+      "name": "Al-Gomhuria",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q4116126",
+      "aliases": [
+        "Al Gomhuria",
+        "الجمهورية",
+        "共和国报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及主要日报（1954年创刊），开罗出版的老牌报纸。",
+      "founded": "1954-01-01",
+      "website": "https://algomhuria.gomhuriaonline.com",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4116126"
+        },
+        {
+          "type": "official_website",
+          "url": "https://algomhuria.gomhuriaonline.com"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-006",
+      "name": "Al-Masry Al-Youm",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q2829240",
+      "aliases": [
+        "Egypt Today? no",
+        "المصري اليوم",
+        "今日埃及人报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及主要私营日报之一（2004年创刊），独立编辑立场，附属英文版Egypt Independent。",
+      "founded": "2004-06-07",
+      "website": "https://www.almasryalyoum.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2829240"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.almasryalyoum.com/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-007",
+      "name": "Youm7",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q4119059",
+      "aliases": [
+        "Al Youm Al Sabea",
+        "اليوم السابع",
+        "第七日新闻"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及流量最大的新闻网站与日报之一（2008年创刊），私营，联合媒体服务公司（UMS）参股。",
+      "founded": "2008-01-01",
+      "website": "https://www.youm7.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4119059"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.youm7.com/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0238/ch13.xhtml"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-008",
+      "name": "Al-Shorouk (newspaper)",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q12205249",
+      "aliases": [
+        "Al Shorouk",
+        "الشروق",
+        "东方报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及主要私营日报（2009年创刊），立场相对独立。",
+      "founded": "2009-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12205249"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-009",
+      "name": "Al-Wafd (newspaper)",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q4118565",
+      "aliases": [
+        "Al Wafd newspaper",
+        "جريدة الوفد",
+        "华夫脱报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "新华夫脱党机关报（1984年创刊），附alwafd.news新闻门户。",
+      "founded": "1984-01-01",
+      "website": "https://www.alwafd.news/",
+      "parent_organization": "New Wafd Party",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4118565"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.alwafd.news/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-010",
+      "name": "El Watan News",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q12205286",
+      "aliases": [
+        "Elwatannews",
+        "جريدة الوطن",
+        "祖国报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及主要私营新闻网站与报纸。",
+      "website": "https://www.elwatannews.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12205286"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.elwatannews.com/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-011",
+      "name": "Veto Gate",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q12231503",
+      "aliases": [
+        "Veto",
+        "فيتو",
+        "否决网"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及私营新闻门户与报纸（2013年创刊）。",
+      "founded": "2013-01-01",
+      "website": "https://www.vetogate.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12231503"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.vetogate.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-012",
+      "name": "Daily News Egypt",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q5209324",
+      "aliases": [
+        "دافي نيوز",
+        "埃及每日新闻"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及唯一英文独立商业日报（2005年创刊），聚焦经济金融新闻。",
+      "founded": "2005-05-01",
+      "website": "https://www.dailynewsegypt.com",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5209324"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.dailynewsegypt.com"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-013",
+      "name": "Egyptian Gazette",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q4119368",
+      "aliases": [
+        "الغزيت المصرية",
+        "埃及公报"
+      ],
+      "subcategory": "Newspaper",
+      "description": "中东最古老英文日报（1880年1月26日创刊），隶属El Tahrir出版机构，报道埃及与区域新闻。",
+      "founded": "1880-01-26",
+      "website": "https://egyptian-gazette.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4119368"
+        },
+        {
+          "type": "official_website",
+          "url": "https://egyptian-gazette.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-014",
+      "name": "Rose al-Youssef",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q12213878",
+      "aliases": [
+        "Roz al Yusuf",
+        "روز اليوسف",
+        "罗丝·优素福"
+      ],
+      "subcategory": "Newspaper",
+      "description": "埃及老牌政治周刊与日报（1935年创刊），历史悠久。",
+      "founded": "1935-01-01",
+      "website": "https://daily.rosaelyoussef.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12213878"
+        },
+        {
+          "type": "official_website",
+          "url": "https://daily.rosaelyoussef.com/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-015",
+      "name": "Middle East News Agency",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q2410136",
+      "aliases": [
+        "MENA",
+        "وكالة أنباء الشرق الأوسط",
+        "中东通讯社"
+      ],
+      "subcategory": "News Agency",
+      "description": "埃及国家通讯社，阿拉伯世界最主要通讯社之一，总部开罗，向阿拉伯媒体提供官方新闻。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2410136"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-016",
+      "name": "Capital Broadcasting Center",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q3546311",
+      "aliases": [
+        "CBC",
+        "قناة سي بي سي",
+        "CBC电视台"
+      ],
+      "subcategory": "TV Network",
+      "description": "埃及私营卫星电视网，运营CBC、CBC Extra等多个频道。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3546311"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-MEDIA-017",
+      "name": "ON E (TV network)",
+      "category": "MEDIA",
+      "country": "EG",
+      "aliases": [
+        "ON TV",
+        "قناة أون",
+        "ON电视台"
+      ],
+      "subcategory": "TV Network",
+      "description": "埃及私营电视网，联合媒体服务公司（UMS）旗下主力频道之一。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0238/ch13.xhtml"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.bbc.co.uk/news/world-africa-13313373"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-MEDIA-018",
+      "name": "Al Hayah TV Network",
+      "category": "MEDIA",
+      "country": "EG",
+      "aliases": [
+        "Al Hayat",
+        "شبكة الحياة الفضائية",
+        "生命电视台"
+      ],
+      "subcategory": "TV Network",
+      "description": "埃及私营电视网（Al Hayah系列频道），联合媒体服务公司（UMS）旗下。",
+      "sources": [
+        {
+          "type": "web_search",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0238/ch13.xhtml"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-MEDIA-019",
+      "name": "United Media Services",
+      "category": "MEDIA",
+      "country": "EG",
+      "wikidata_qid": "Q79403380",
+      "aliases": [
+        "UMS",
+        "الخدمات الإعلامية المتحدة",
+        "联合媒体服务公司"
+      ],
+      "subcategory": "Media Conglomerate",
+      "description": "埃及大型媒体集团，掌握ON、Al Hayah、Extra News等主要私营电视网并参股Youm7等报刊，是私营媒体市场的主导者。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q79403380"
+        },
+        {
+          "type": "web_search",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0238/ch13.xhtml"
+        },
+        {
+          "type": "web_search",
+          "url": "https://www.bbc.co.uk/news/world-africa-13313373"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-001",
+      "name": "Nation's Future Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q20982186",
+      "aliases": [
+        "Mostaqbal Watan",
+        "حزب مستقبل وطن",
+        "国家前途党",
+        "未来民族党"
+      ],
+      "subcategory": "Active Party",
+      "description": "2014年成立的亲政府主流政党，现为众议院第一大党团，主导议会立法议程。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20982186"
+        },
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/political-parties/list-of-currently-active-parties/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-002",
+      "name": "Homeland Defenders Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q24715937",
+      "aliases": [
+        "Humat al-Watan",
+        "حزب حماة الوطن",
+        "祖国保卫者党"
+      ],
+      "subcategory": "Active Party",
+      "description": "亲政府政党，众议院主要党团之一。",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q24715937"
+        },
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/political-parties/list-of-currently-active-parties/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-PARTY-003",
+      "name": "Republican People's Party",
+      "category": "PARTY",
+      "country": "EG",
+      "aliases": [
+        "Hazb El Sha'ab El Gomhory",
+        "الحزب الجمهوري الشعبي",
+        "共和人民党"
+      ],
+      "subcategory": "Active Party",
+      "description": "亲政府政党，众议院主要党团之一。",
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/political-parties/list-of-currently-active-parties/"
+        }
+      ],
+      "verification_status": "partial"
+    },
+    {
+      "id": "EG-PARTY-004",
+      "name": "New Wafd Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q767012",
+      "aliases": [
+        "Hizb al-Wafd al-Jadid",
+        "حزب الوفد الجديد",
+        "新华夫脱党"
+      ],
+      "subcategory": "Active Party",
+      "description": "延续1918年华夫脱运动的世俗自由主义传统政党（1978年重建），埃及历史最悠久的政党传统之一，主要在野力量。",
+      "founded": "1978-02-04",
+      "website": "https://alwafd.news/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q767012"
+        },
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/political-parties/list-of-currently-active-parties/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-005",
+      "name": "Free Egyptians Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q962942",
+      "aliases": [
+        "Hizb Al-Masreyeen Al-Ahrar",
+        "حزب المصريين الأحرار",
+        "自由埃及人党"
+      ],
+      "subcategory": "Active Party",
+      "description": "2011年革命后成立的自由主义政党（商人纳吉布·萨维里斯参与创建），曾为议会主要世俗派力量。",
+      "founded": "2011-04-03",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q962942"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-006",
+      "name": "Al-Nour Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q210461",
+      "aliases": [
+        "Salafist Al-Nour Party",
+        "حزب النور",
+        "光明党"
+      ],
+      "subcategory": "Active Party",
+      "description": "埃及主要萨拉菲派政党（2011年设立），曾在2011-2012年议会选举中居第二位。",
+      "founded": "2011-05-12",
+      "website": "https://alnourpartyeg.com",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q210461"
+        },
+        {
+          "type": "official_website",
+          "url": "https://alnourpartyeg.com"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-007",
+      "name": "National Progressive Unionist Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q1966909",
+      "aliases": [
+        "Tagammu",
+        "حزب التجمع الوطني التقدمي الاتحادي",
+        "民族进步统一党",
+        "左翼联盟党"
+      ],
+      "subcategory": "Active Party",
+      "description": "埃及主要左翼政党（1976年设立），延续纳赛尔主义与左翼传统，支持现政府的合法反对党。",
+      "founded": "1976-01-01",
+      "website": "https://altagamoa.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1966909"
+        },
+        {
+          "type": "official_website",
+          "url": "https://altagamoa.org/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-008",
+      "name": "Egyptian Social Democratic Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q253911",
+      "aliases": [
+        "ESDP",
+        "الحزب المصري الديمقراطي الاجتماعي",
+        "埃及社会民主党"
+      ],
+      "subcategory": "Active Party",
+      "description": "2011年革命后成立的社会民主主义政党。",
+      "founded": "2011-03-29",
+      "website": "https://egysdp.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q253911"
+        },
+        {
+          "type": "official_website",
+          "url": "https://egysdp.org/"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-009",
+      "name": "Constitution Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q945414",
+      "aliases": [
+        "Al-Dostour",
+        "حزب الدستور",
+        "宪法党"
+      ],
+      "subcategory": "Active Party",
+      "description": "由前IAEA总干事穆罕默德·巴拉迪倡议建立的自由主义在野党（2012年设立）。",
+      "founded": "2012-04-28",
+      "website": "http://www.aldostourparty.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q945414"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-PARTY-010",
+      "name": "Reform and Development Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q250155",
+      "aliases": [
+        "Misruna",
+        "حزب الإصلاح والتنمية",
+        "改革与发展党"
+      ],
+      "subcategory": "Active Party",
+      "description": "温和自由主义政党（2009年设立），曾参与2018年总统选举（候选人穆萨·穆斯塔法·穆萨）。",
+      "founded": "2009-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q250155"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-PARTY-011",
+      "name": "Al-Wasat Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q291414",
+      "aliases": [
+        "وسط",
+        "حزب الوسط",
+        "中间党"
+      ],
+      "subcategory": "Active Party",
+      "description": "温和伊斯兰倾向政党（1996年设立），2011年后重新登记。",
+      "founded": "1996-01-01",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q291414"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-PARTY-012",
+      "name": "Egyptian Conference Party",
+      "category": "PARTY",
+      "country": "EG",
+      "aliases": [
+        "Hizb al-Mu'tamar",
+        "حزب المؤتمر",
+        "埃及大会党"
+      ],
+      "subcategory": "Active Party",
+      "description": "2012年成立的亲政府政党，由前情报体系人士创建。",
+      "founded": "2012-01-01",
+      "sources": [
+        {
+          "type": "government_registry",
+          "url": "https://sis.gov.eg/en/egypt/system-of-government/political-parties/list-of-currently-active-parties/"
+        },
+        {
+          "type": "web_search",
+          "url": "https://data.ipu.org/parliament/EG/EG-LC01/election/EG-LC01-E20201024/"
+        }
+      ],
+      "verification_status": "partial",
+      "excluded": true
+    },
+    {
+      "id": "EG-PARTY-013",
+      "name": "Muslim Brotherhood",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q133207",
+      "aliases": [
+        "Al-Ikhwan Al-Muslimun",
+        "جماعة الإخوان المسلمين",
+        "穆斯林兄弟会"
+      ],
+      "subcategory": "Banned Organization",
+      "description": "1928年成立于埃及伊斯梅利亚的跨国逊尼派伊斯兰组织；2011-2013年曾通过自由与正义党执政，2013年后被埃及政府取缔并列为恐怖组织（多国对其定性存在分歧），总部网络转入地下与海外。",
+      "founded": "1928-03-22",
+      "website": "https://www.ikhwanonline.com/",
+      "key_people": [
+        {
+          "title": "最高领袖（总训导师）",
+          "name": "穆罕默德·巴迪耶 (Mohammed Badie)",
+          "since": "2010"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q133207"
+        },
+        {
+          "type": "web_search",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-014",
+      "name": "National Democratic Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q841133",
+      "aliases": [
+        "NDP",
+        "الحزب الوطني الديمقراطي",
+        "民族民主党"
+      ],
+      "subcategory": "Dissolved Party",
+      "description": "穆巴拉克时代执政党（1978年设立），2011年革命后法院解散。",
+      "founded": "1978-10-02",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q841133"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-015",
+      "name": "Freedom and Justice Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q685715",
+      "aliases": [
+        "FJP",
+        "حزب الحرية والعدالة",
+        "自由与正义党"
+      ],
+      "subcategory": "Dissolved Party",
+      "description": "穆斯林兄弟会政治翼（2011年设立），2012年穆尔西经其当选总统，2013年政权更迭后被取缔解散。",
+      "founded": "2011-02-21",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q685715"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-PARTY-016",
+      "name": "Arab Democratic Nasserist Party",
+      "category": "PARTY",
+      "country": "EG",
+      "wikidata_qid": "Q623898",
+      "aliases": [
+        "Nasserist Party",
+        "الحزب الناصري",
+        "阿拉伯民主纳赛尔主义党"
+      ],
+      "subcategory": "Active Party",
+      "description": "延续纳赛尔主义的左翼阿拉伯民族主义政党（1992年设立）。",
+      "founded": "1992-04-19",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q623898"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_political_parties_in_Egypt"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-INTL-001",
+      "name": "League of Arab States",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q7172",
+      "aliases": [
+        "Arab League",
+        "جامعة الدول العربية",
+        "阿拉伯国家联盟",
+        "阿盟"
+      ],
+      "subcategory": "Intergovernmental Organization",
+      "description": "22个阿拉伯国家的区域组织，1945年3月22日成立，总部设于开罗解放广场——是总部位于埃及的最重要国际组织；埃及为创始成员并长期是阿盟政治核心。",
+      "headquarters": "Cairo (Tahrir Square)",
+      "founded": "1945-03-22",
+      "website": "http://www.leagueofarabstates.net/",
+      "key_people": [
+        {
+          "title": "秘书长",
+          "name": "艾哈迈德·阿布·盖特 (Ahmed Aboul Gheit)",
+          "since": "2016-03"
+        }
+      ],
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7172"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.leagueofarabstates.net/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-INTL-002",
+      "name": "East Mediterranean Gas Forum",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q97163711",
+      "aliases": [
+        "EMGF",
+        "منتدى غاز شرق المتوسط",
+        "东地中海天然气论坛"
+      ],
+      "subcategory": "Intergovernmental Organization",
+      "description": "埃及、塞浦路斯、以色列、希腊、意大利等国的东地中海天然气政府间合作机制，秘书处设于开罗；埃及凭借区域液化天然气枢纽地位主导该机制。",
+      "headquarters": "Cairo",
+      "website": "http://www.eastmedgasforum.com/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97163711"
+        },
+        {
+          "type": "official_website",
+          "url": "http://www.eastmedgasforum.com/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-INTL-003",
+      "name": "Council of Arab Economic Unity",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q12239049",
+      "aliases": [
+        "CAEU",
+        "مجلس الوحدة الاقتصادية العربية",
+        "阿拉伯经济统一理事会"
+      ],
+      "subcategory": "Intergovernmental Organization",
+      "description": "阿拉伯联盟体系下的经济一体化机构，推动阿拉伯国家经贸统一规则，总部开罗。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12239049"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-INTL-004",
+      "name": "African Space Agency",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q117032291",
+      "aliases": [
+        "AfSA",
+        "الوكالة الأفريقية للفضاء",
+        "非洲航天局"
+      ],
+      "subcategory": "Intergovernmental Organization",
+      "description": "非洲联盟下属的空间合作执行机构，总部设于开罗（埃及为非洲航天事务主要推动国）。",
+      "headquarters": "Cairo",
+      "website": "https://africanspaceagency.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q117032291"
+        },
+        {
+          "type": "official_website",
+          "url": "https://africanspaceagency.org/"
+        }
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "EG-INTL-005",
+      "name": "Anna Lindh Euro-Mediterranean Foundation",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q3075682",
+      "aliases": [
+        "ALF",
+        "مؤسسة آنا لينده",
+        "安娜·林德地中海文化对话基金会"
+      ],
+      "subcategory": "Intergovernmental Organization",
+      "description": "欧洲-地中海伙伴关系框架下的文化对话基金会（2005年设立），总部亚历山大。",
+      "headquarters": "Alexandria",
+      "founded": "2005-01-01",
+      "website": "https://www.annalindhfoundation.org",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3075682"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.annalindhfoundation.org"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-INTL-006",
+      "name": "Arab Medical Union",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q6538965",
+      "aliases": [
+        "AMU",
+        "الاتحاد الطبي العربي",
+        "阿拉伯医师联盟"
+      ],
+      "subcategory": "Regional NGO",
+      "description": "阿拉伯地区医学专业联合组织，总部开罗，开展区域医学合作与人道医疗行动。",
+      "headquarters": "Cairo",
+      "website": "https://www.arabmu.org/",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6538965"
+        },
+        {
+          "type": "official_website",
+          "url": "https://www.arabmu.org/"
+        }
+      ],
+      "verification_status": "verified",
+      "excluded": true
+    },
+    {
+      "id": "EG-INTL-007",
+      "name": "Arab Organization for Human Rights",
+      "category": "INTL",
+      "country": "EG",
+      "wikidata_qid": "Q4783220",
+      "aliases": [
+        "AOHR",
+        "المنظمة العربية لحقوق الإنسان",
+        "阿拉伯人权组织"
+      ],
+      "subcategory": "Regional NGO",
+      "description": "1983年成立的泛阿拉伯人权非政府组织，总部开罗，具联合国经社理事会咨商地位。",
+      "headquarters": "Cairo",
+      "sources": [
+        {
+          "type": "wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4783220"
+        }
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "summary": {
+    "by_category": {
+      "GOV": {
+        "count": 53,
+        "subcategories": {
+          "Head of State": 1,
+          "Executive Branch": 1,
+          "Legislature": 2,
+          "Ministry": 29,
+          "Judiciary": 3,
+          "Independent Body": 7,
+          "Regulator": 7,
+          "Religious Institution": 1,
+          "Statutory Authority": 2
+        },
+        "top_orgs": [
+          "President of Egypt",
+          "Cabinet of Egypt",
+          "Ministry of Foreign Affairs of Egypt",
+          "Ministry of Defense (Egypt)",
+          "Ministry of Interior (Egypt)",
+          "House of Representatives (Egypt)",
+          "Senate (Egypt)",
+          "Supreme Constitutional Court of Egypt",
+          "Administrative Control Authority",
+          "Al-Azhar al-Sharif"
+        ]
+      },
+      "MIL": {
+        "count": 7,
+        "subcategories": {
+          "Armed Forces": 4,
+          "Intelligence": 1,
+          "Military Industry": 2
+        },
+        "top_orgs": [
+          "Egyptian Armed Forces",
+          "General Intelligence Service",
+          "Egyptian Army",
+          "Egyptian Air Force",
+          "Egyptian Navy",
+          "National Authority for Military Production",
+          "National Service Products Organization"
+        ]
+      },
+      "SOE": {
+        "count": 18,
+        "subcategories": {
+          "State Enterprise": 7,
+          "State Holding": 6,
+          "State-controlled Listed Company": 2,
+          "State Broadcasting": 1,
+          "Military Industry": 1,
+          "Sovereign Wealth Fund": 1
+        },
+        "top_orgs": [
+          "Suez Canal Authority",
+          "Egyptian General Petroleum Corporation",
+          "Telecom Egypt",
+          "EgyptAir",
+          "Egypt Post",
+          "National Media Authority",
+          "Arab Organization for Industrialization"
+        ]
+      },
+      "CORP": {
+        "count": 18,
+        "subcategories": {
+          "Listed Company": 13,
+          "Private Company": 4,
+          "Subsidiary": 1
+        },
+        "top_orgs": [
+          "Elsewedy Electric",
+          "Talaat Moustafa Group",
+          "Orascom Construction",
+          "Eastern Company",
+          "Juhayna Food Industries",
+          "Oriental Weavers",
+          "EFG Holding"
+        ]
+      },
+      "FIN": {
+        "count": 15,
+        "subcategories": {
+          "Central Bank": 1,
+          "Bank": 11,
+          "Insurance": 1,
+          "Stock Exchange": 1,
+          "Payment System": 1
+        },
+        "top_orgs": [
+          "Central Bank of Egypt",
+          "National Bank of Egypt",
+          "Banque Misr",
+          "Commercial International Bank",
+          "QNB Egypt",
+          "Arab African International Bank",
+          "Egyptian Exchange"
+        ]
+      },
+      "ACAD": {
+        "count": 23,
+        "subcategories": {
+          "University": 17,
+          "Research University": 1,
+          "Research Institute": 4,
+          "Research Organization": 1
+        },
+        "top_orgs": [
+          "Cairo University",
+          "Al-Azhar University",
+          "Ain Shams University",
+          "Alexandria University",
+          "American University in Cairo",
+          "Zewail City of Science and Technology",
+          "Arab Academy for Science and Technology and Maritime Transport"
+        ]
+      },
+      "NGO": {
+        "count": 14,
+        "subcategories": {
+          "Humanitarian": 1,
+          "Charity": 6,
+          "Human Rights": 4,
+          "Development": 2,
+          "Cultural": 1
+        },
+        "top_orgs": [
+          "Egyptian Red Crescent Society",
+          "Misr El Kheir Foundation",
+          "Egyptian Food Bank",
+          "Egyptian Initiative for Personal Rights",
+          "Resala Charity Organization",
+          "Magdi Yacoub Heart Foundation"
+        ]
+      },
+      "MEDIA": {
+        "count": 19,
+        "subcategories": {
+          "Newspaper": 14,
+          "News Agency": 1,
+          "TV Network": 3,
+          "Media Conglomerate": 1
+        },
+        "top_orgs": [
+          "Al-Ahram",
+          "Al-Masry Al-Youm",
+          "Youm7",
+          "Middle East News Agency",
+          "Daily News Egypt",
+          "United Media Services",
+          "Capital Broadcasting Center"
+        ]
+      },
+      "PARTY": {
+        "count": 16,
+        "subcategories": {
+          "Active Party": 13,
+          "Banned Organization": 1,
+          "Dissolved Party": 2
+        },
+        "top_orgs": [
+          "Nation's Future Party",
+          "New Wafd Party",
+          "Al-Nour Party",
+          "Free Egyptians Party",
+          "National Progressive Unionist Party",
+          "Constitution Party",
+          "Muslim Brotherhood"
+        ]
+      },
+      "INTL": {
+        "count": 7,
+        "subcategories": {
+          "Intergovernmental Organization": 5,
+          "Regional NGO": 2
+        },
+        "top_orgs": [
+          "League of Arab States",
+          "East Mediterranean Gas Forum",
+          "African Space Agency",
+          "Council of Arab Economic Unity",
+          "Anna Lindh Euro-Mediterranean Foundation"
+        ]
+      }
+    },
+    "data_quality": {
+      "verified_count": 170,
+      "unverified_count": 0,
+      "completeness_pct": 96
+    }
+  }
+}

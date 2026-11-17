@@ -1,0 +1,240 @@
+{
+  "org_id": "TG-ACAD-004",
+  "basic_info": {
+    "name_original": "École nationale d'administration",
+    "name_zh": "多哥国家行政学院",
+    "name_en": "École nationale d'administration",
+    "aliases": [
+      "Ecole Nationale D'Administration",
+      "ENA Togo",
+      "École nationale d'administration du Togo",
+      "École togolaise d'administration"
+    ],
+    "org_type": "ACAD",
+    "org_subtype": "vocational_school",
+    "country_iso3": "TGO",
+    "hq_country_iso3": "TGO",
+    "founded_date": "1958-12-29",
+    "website": null,
+    "wikidata_qid": "Q16684257"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "ENA TOGO",
+      "url": "https://www.facebook.com/www.ena.tg/",
+      "source": 6,
+      "source_note": "EdoMatch 教育名录标注为官方 Facebook 页面（Page Facebook officielle）；主页句柄 www.ena.tg 与已停用官网域名一致，发布入学考试等校方信息"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官方网站 www.ena.tg（已失效）",
+      "url": "https://www.ena.tg",
+      "description": "法语维基百科资料框与官方 Facebook 主页句柄共同指向的官网域名；2026-11-16 经 DNS（1.1.1.1 解析返回 SERVFAIL）与直连/代理 HTTP 多路径验证均无法访问，域名已停用。故骨架中的 website 字段按 GOV-006 先例置 null。",
+      "source": "法语维基百科 ENA (Togo) 资料框 + DNS/HTTP 验证"
+    },
+    {
+      "name": "旧版网页 ids.tg/ena（已失效重定向）",
+      "url": "http://www.ids.tg/ena",
+      "description": "骨架 website 字段原值与维基百科外部链接曾指向的 IDS 体系路径；2026-11-16 验证该路径现重定向至网络技术公司 idstechnologie.com 首页，与 ENA 无关，原页面已不存在。",
+      "source": "法语维基百科外部链接 + HTTP 重定向验证"
+    },
+    {
+      "name": "多哥公职部门户 ENA 专栏（主管部委官方渠道）",
+      "url": "https://fonctionpublique.gouv.tg/actualites/concours-dentree-aux-cycles-ii-et-iii-de-lena",
+      "description": "主管部委（多哥公职部）官方网站上的 ENA 入学考试新闻/公告专栏；因 ENA 自身官网停用，入学考试等权威信息现经由该部委门户及其 PDF 公文发布（页面为 JS 渲染，内容经官方门户报道与部委 PDF 摘要交叉确认）。",
+      "source": "官方门户 republiquetogolaise.tg 2026-06-08 报道引用 + 搜索验证"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "TG-PERSON-000236",
+      "name": "阿达马·马武莱·科达尔 (Adama Mawulé Kpodar)",
+      "title": "院长（Directeur général，2020-2023，已离任）",
+      "title_description": "2020年10月28日经多哥部长会议任命为ENA总干事（院长）；2023年9月5日经总统法令转任洛美大学校长后离任。截至2026年11月，继任院长未见于可查证的公开来源。",
+      "description": "公法与政治学讲席教授（agrégé de droit public et de science politique），曾任卡拉大学副校长（2012-2019）。任内提出2022-2025战略计划（预算约8亿西非法郎），推动招生选拔标准收紧、继续培训制度化及与魁北克ENAP、国际劳工组织的合作。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "行政管理方向（第二、三周期）",
+      "dept_id": null,
+      "description": "对应法语 Administration générale（cycles II et III），ENA 主干培训方向，面向公开竞考与在职竞考两类考生，培养公共行政中层与高级干部。"
+    },
+    {
+      "name": "海关、税务、财政与国库方向",
+      "dept_id": null,
+      "description": "对应法语 Douanes, impôts, finances et trésor，为海关、税务、财政与国库系统定向培养专业技术公务员。"
+    },
+    {
+      "name": "外交方向",
+      "dept_id": null,
+      "description": "对应法语 Diplomatie，面向外交系统培养人才；与行政管理方向并列构成该校三大招生专业方向（filières）。"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-29",
+      "title": "公职部公布2026年入学考试可录取候选人名单，口试定于10月2日",
+      "description": "多哥公职部以2026年9月29日公报（由部长签署）公布第二、三周期内部与外部竞考的可录取（admissibles）候选人名单；笔试已于8月12-13日举行，口试定于2026年10月2日（周五）在洛美ENA校内进行。名单以公文PDF形式发布于部委服务器，并经多家本地媒体转载。",
+      "impact": "年度招生流程按计划推进，口试后即产生2026级录取名单，直接决定未来两年公务员后备干部的补充规模（依据：官方公报与媒体报道时间线）。",
+      "source": "https://bk.fonctionpublique.gouv.tg/wp-content/uploads/2026/09/communique-et-arrete-de-publication-de-la-liste-des-candidats-declares-admissibles-par-ordre-de-merite-au-concours-dentree-a-lENA-2026.pdf"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "2026年入学考试笔试在洛美、卡拉、达帕翁三地举行",
+      "description": "ENA第二、三周期内部与外部竞考笔试于2026年8月12-13日在洛美、卡拉、达帕翁三个考区举行，覆盖全国北部、中部与南部考生。",
+      "impact": "三考点布局显示ENA作为全国性公务员培养机构的辐射面；笔试合格者进入9月29日公布的admissibles名单（依据：官方公告与后续公报衔接）。",
+      "source": "https://yutina.com/ena-togo-2026-la-liste-des-admissibles-est-disponible-la-date-de-loral-est-fixee-au-2-octobre"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "公职部宣布开放ENA第二、三周期入学考试（2026年度）",
+      "description": "多哥公职、劳工与社会改革部6月8日公告开放ENA第二、三周期入学竞考：报名期2026年6月15日至7月17日，在洛美ENA及卡拉、达帕翁的劳动与社会法规大区办事处受理；外部候选人不超过30岁（考试当日）、内部候选人不超过45岁（以2026年1月1日为准）；笔试定于8月12-13日。补充信息刊于官方日报《多哥新闻报》及部委电子门户。",
+      "impact": "作为ENA年度核心招生渠道的再次例行启动，确认该校继续承担公务员初始培养主渠道职能；报考年龄限制体现其面向在职与应届两类人群的双轨设计（依据：官方门户公告全文）。",
+      "source": "https://www.republiquetogolaise.tg/formation/0806-11968-ena-ouverture-d-un-concours-d-entree-aux-cycles-2-et-3"
+    },
+    {
+      "date": "2025-06-03",
+      "title": "ENA秘书获全国「2025最佳助理秘书金盒奖」第一名",
+      "description": "ENA秘书 Kayissan Enyonam Mawussé Adama 在多哥秘书与助理专业人员圈（CEPROSAT）主办的全国「2025最佳助理秘书金盒奖」竞赛中夺得第一名；洛美大学官网以「ENA与洛美大学共同的骄傲」为题报道。",
+      "impact": "行政辅助人员获全国性职业奖项，侧面反映ENA行政团队的专业化水平；该报道亦体现ENA与洛美大学之间的人员与荣誉关联（依据：洛美大学官网报道）。",
+      "source": "https://univ-lome.tg/tag/ena-togo/"
+    },
+    {
+      "date": "2021-03-15",
+      "title": "院长宣布启动2022-2025战略计划（预算约8亿西非法郎）",
+      "description": "院长阿达马·科达尔宣布ENA将实施2022-2025年战略计划，预算约8亿西非法郎，三大轴心为：治理、教学实践改进、研究-合作-社会服务；同时收紧招生选拔标准，并要求毕业生定期参加进修以保持水平。其表示ENA的「根本使命是为国家提供高素质、胜任使命型行政的干部」。",
+      "impact": "确认该校以持续改革回应行政现代化需求，招生趋严与继续教育制度化构成2020年代中期ENA运行的主线（依据：官方门户报道）。",
+      "source": "https://www.republicoftogo.com/toutes-les-rubriques/education/l-ena-veut-evoluer-avec-son-temps"
+    },
+    {
+      "date": "2020-10-28",
+      "title": "部长会议任命阿达马·马武莱·科达尔为ENA院长",
+      "description": "2020年10月28日多哥部长会议（新政府首次会议）宣布任命公法讲席教授、时任卡拉大学副校长的 Adama Mawulé Kpodar 为ENA总干事（院长）；该任命亦见于官方门户「部长会议任命」通报及多家本地媒体。",
+      "impact": "开启ENA改革期（2022-2025战略计划）；科达尔2023年9月转任洛美大学校长离任后，继任院长未获公开确认，该校领导层信息自2023年9月起存在公开来源空白（依据：Togo First与官方门户报道）。",
+      "source": "https://www.togofirst.com/fr/gestion-publique/2910-6597-togo-adama-mawule-kpodar-nouveau-patron-de-lena"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "TG-GOV-001",
+      "org_name": "多哥部长会议 (Council of Ministers of Togo)",
+      "org_type": "government",
+      "org_description": "多哥政府（部长会议），国家最高行政决策机构，负责任命ENA总干事等高级公职职位（如2020年10月28日会议任命科达尔）。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "多哥公职、劳工与社会对话部 (Ministère de la Fonction publique, du Travail et du Dialogue social)",
+      "org_type": "government",
+      "org_description": "ENA的直接主管部委（tutelle），负责发布入学竞考公告、公布录取名单并管理该校运行；2026年公报中部门名称亦作「公职、劳工与社会改革部」。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "TG-ACAD-001",
+      "org_name": "洛美大学 (University of Lomé)",
+      "org_type": "academic",
+      "org_description": "多哥旗舰公立大学。前ENA院长科达尔于2023年9月5日经总统法令转任其校长（接替科科罗科教授）；ENA职员获奖等消息亦经其官网发布，两机构存在人员流动与业务关联。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "TG-ACAD-004",
+      "org_name": "魁北克国立公共行政学院 (École nationale d'administration publique, ENAP Québec)",
+      "org_type": "academic",
+      "org_description": "加拿大魁北克法语区公共行政高等学院；据法语维基百科记载为ENA Togo近年合作伙伴，双方合作旨在更新培训项目（尤其可持续发展领域）；2011年亦有ENAP教授赴多哥培训部长办公室主任的记录。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际劳工组织 (Organisation internationale du Travail, ILO/OIT)",
+      "org_type": "international_organization",
+      "org_description": "联合国专门机构；据法语维基百科记载，ENA Togo为强化专业能力与其建立合作关系。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "法语国家国际组织可持续发展研究所 (Institut de la francophonie pour le développement durable, IFDD/OIF)",
+      "org_type": "international_organization",
+      "org_description": "法语国家国际组织（OIF）下属研究所；2022年9月由IFDD官方渠道宣布与ENA Togo合作设计线上培训课程，为该校在法语国家体系内的培训合作实例。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "多哥国家行政学院（ENA）是多哥培养公共行政中层与高级干部（cadres moyens et supérieurs）的主要公立高等院校（établissement public à caractère administratif），总部位于洛美，实行相对的行政与财务自主，受多哥公职、劳工与社会对话部监督。核心业务包括：(1) 初始培训——通过全国公开竞考（concours d'entrée）招收内部与外部考生，设第二、三周期（cycles II et III），授予学士（Licence）与硕士（Master）级别的职业培训，覆盖行政管理、海关税务财政国库、外交三大专业方向；(2) 继续培训（perfectionnement/formation continue）——面向在职公务员的进修与轮训，毕业生需定期参加培训以保持水平；(3) 面向准公共与私营部门的委托培训与社会服务（prestations de services），以及围绕治理与行政现代化的研究合作。学院设日间与晚间课程，入学竞考每年组织，笔试考点覆盖洛美、卡拉、达帕翁三大区域，是越南式「国立行政学院」模式在法语非洲落地、并为多哥政府持续输送公务员后备队伍的核心机构。",
+  "industries": [
+    "higher_education"
+  ],
+  "apec_stance": "多哥不是APEC成员（APEC的21个成员经济体均位于环太平洋区域，西非国家不在其列），故ENA Togo不存在任何APEC相关政策立场或参与记录。该校的实际国际合作框架为：法语国家国际组织（OIF）体系——2022年9月其可持续发展研究所（IFDD）与ENA合作设计线上培训课程；与加拿大魁北克国立公共行政学院（ENAP）的校际合作（联合更新培训项目，侧重可持续发展）；以及与国际劳工组织（ILO/OIT）的能力建设合作。在区域层面，该校职能嵌入西非法语国家公务员培训传统，与洛美大学等本地高校保持人员流动。对APEC区域而言，该校仅具间接参考价值：其「国立行政学院」培养模式与APEC多个成员经济体（如法国模式的衍生机构）存在制度同源性，但多哥未参与任何APEC框架下的教育或公务员交流活动。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ecole_Nationale_d%27Administration_ENA_06.jpg/330px-Ecole_Nationale_d%27Administration_ENA_06.jpg"
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-16",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "web_search",
+      "government_portal",
+      "ministry_pdf",
+      "news_search",
+      "education_directory",
+      "social_media",
+      "international_partner_announcement",
+      "dns_verification"
+    ],
+    "quotes": [
+      {
+        "title": "École nationale d'administration (Togo) — Wikipédia（法语维基百科：1958-12-29创建、1964年更名、1979-07-05条令、院长、tutelle、ENAP/OT合作）",
+        "url": "https://fr.wikipedia.org/wiki/École_nationale_d'administration_(Togo)"
+      },
+      {
+        "title": "École Nationale d'Administration (ENA) -Togo — Le Grand Frère 学校名录（法令n°58-113、tutelle、Licence/Master、OIT与ENAP合作、GPS坐标，2026-11-03更新）",
+        "url": "https://legrandfrere.africa/etablissement/ecole-nationale-dadministration-ena-togo/"
+      },
+      {
+        "title": "ENA : ouverture d'un concours d'entrée aux cycles 2 et 3 — 多哥共和国官方门户（2026-06-08：报名期、年龄限制、三考点、8月12-13笔试）",
+        "url": "https://www.republiquetogolaise.tg/formation/0806-11968-ena-ouverture-d-un-concours-d-entree-aux-cycles-2-et-3"
+      },
+      {
+        "title": "Communiqué et arrêté de publication de la liste des candidats déclarés admissibles au concours d'entrée à l'ENA 2026 — 多哥公职部官方PDF（2026-09-29：口试定于2026-10-02）",
+        "url": "https://bk.fonctionpublique.gouv.tg/wp-content/uploads/2026/09/communique-et-arrete-de-publication-de-la-liste-des-candidats-declares-admissibles-par-ordre-de-merite-au-concours-dentree-a-lENA-2026.pdf"
+      },
+      {
+        "title": "ENA Togo 2026 : liste des admissibles disponible, oral le 2 octobre — Yutina（2026-09-29公报、8月12-13笔试、部长签署）",
+        "url": "https://yutina.com/ena-togo-2026-la-liste-des-admissibles-est-disponible-la-date-de-loral-est-fixee-au-2-octobre"
+      },
+      {
+        "title": "Togo : Adama Mawulé Kpodar, nouveau patron de l'ENA — Togo First（2020-10-29：10-28部长会议任命、卡拉大学副校长背景）",
+        "url": "https://www.togofirst.com/fr/gestion-publique/2910-6597-togo-adama-mawule-kpodar-nouveau-patron-de-lena"
+      },
+      {
+        "title": "UL : Prise de fonctions du nouveau président, le professeur Adama Kpodar — 洛美大学官网（2023-09-05就任洛美大学校长，即离任ENA的时间锚点）",
+        "url": "https://univ-lome.tg/ul-prise-de-fonctions-du-nouveau-president-le-professeur-adama-kpodar/"
+      },
+      {
+        "title": "L'ENA veut évoluer avec son temps — 多哥共和国官方门户（2021-03-15：2022-2025战略计划、约8亿西非法郎预算）",
+        "url": "https://www.republicoftogo.com/toutes-les-rubriques/education/l-ena-veut-evoluer-avec-son-temps"
+      },
+      {
+        "title": "Madame Kayissan Adama, secrétaire à l'ENA, remporte le « Coffret d'Or du Meilleur Secrétaire Assistant 2025 » — 洛美大学官网（2025-06-03）",
+        "url": "https://univ-lome.tg/tag/ena-togo/"
+      },
+      {
+        "title": "École Nationale d'Administration (ENA) -Togo — EdoMatch 学校名录（filières：行政/海关税务财政/外交；标注官方Facebook页）",
+        "url": "https://www.edomatch.com/campus/tg/annuaire/ena-togo"
+      },
+      {
+        "title": "Ecole Nationale d'Administration ENA 06.jpg — Wikimedia Commons（ENA洛美校园建筑照片，2023年摄，CC BY-SA 4.0，profile图片来源）",
+        "url": "https://commons.wikimedia.org/wiki/File:Ecole_Nationale_d'Administration_ENA_06.jpg"
+      },
+      {
+        "title": "ENA Togo : d'administration — La Voix de la Nation（2026-06-08：公职部公报开放ENA入学考试，与官方门户交叉验证）",
+        "url": "https://lavoixdelanation.tg/index.php/tag/ena/"
+      }
+    ],
+    "completeness_score": 75,
+    "notes": "1) 官网警示（GOV-006先例）：骨架website原值 http://www.ids.tg/ena 现重定向至技术公司idstechnologie.com首页（非ENA）；法语维基百科资料框指向的 www.ena.tg 经DNS（1.1.1.1 SERVFAIL）与直连/代理HTTP验证均已停用——website置null，两处死链记入digital_assets并标注已失效。2) key_people仅收录Adama Mawulé Kpodar（2020-10-28部长会议任命，双源确认：Togo First+官方门户；2023-09-05转任洛美大学校长，洛美大学官网确认）并明确标注已离任；继任院长经多轮检索（nomination/conseil des ministres/新闻）未获可靠来源，留空不编造。3) TG-GOV-011（数字经济部）因未检索到与ENA的数字化培训合作实证来源，未挂接。4) recent_events含2026年招生全流程三事件（公告/笔试/名单+口试）及2025、2021、2020年事件，均附官方门户或部委PDF来源。5) org_subtype由非枚举值「Public Administration School」改为枚举内最贴近的vocational_school（公立职业培训型高等学院）。6) 多哥非APEC成员，apec_stance据实撰写，国际合作框架仅收录有来源者（OIF/IFDD、ENAP魁北克、ILO），AINAP/CIFODE/CAMES成员资格无直接来源故不作断言。7) 数字资产/social账户较少系客观现状：官网已死，仅一处官方Facebook页（EdoMatch标注official）。"
+  }
+}

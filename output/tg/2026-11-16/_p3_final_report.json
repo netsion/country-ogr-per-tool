@@ -1,0 +1,47 @@
+{
+  "phase": "P3_org_enrichment",
+  "completed_at": "2026-11-16",
+  "summary": {
+    "queue_origin": 88,
+    "trimmed_pre_P3": 4,
+    "trimmed_during_P3": 1,
+    "enriched_completed": 83,
+    "skeleton_legacy_files": ["TG-GOV-004", "TG-PARTY-009", "TG-SOE-006", "TG-SOE-008", "TG-FIN-012"],
+    "avg_completeness_enriched": 84.2,
+    "score_ge85": "69/88 (83 enriched 中 68 个 ≥85，83 为一人公司诚实上限，84 为情报机构诚实上限)",
+    "满分100": ["TG-ACAD-001", "TG-ACAD-002", "TG-CORP-001", "TG-FIN-003", "TG-INTL-002", "TG-INTL-004", "TG-NGO-004", "TG-NGO-011", "TG-PARTY-001", "TG-SOE-005"],
+    "persons_registered_total": "TG-PERSON-000001 至 TG-PERSON-000342（约 342 个，P4 逐人核验）",
+    "name_index_entries": 2503
+  },
+  "trim_ledger": {
+    "pre_P3": [
+      {"org_id": "TG-GOV-004", "reason": "官职实体非机构（Q30100661）"},
+      {"org_id": "TG-PARTY-009", "reason": "RPT 2012 解散并入 UNIR（P576 实锤）"},
+      {"org_id": "TG-SOE-006", "reason": "SNPT 全称不可核实"},
+      {"org_id": "TG-SOE-008", "reason": "CEB 贝宁-多哥跨国组织误分类 SOE"}
+    ],
+    "during_P3": [
+      {"org_id": "TG-FIN-012", "reason": "BTCI 2021-12-20 私有化更名 IB Bank（TG-FIN-008），同一法人双档案；沿革由 FIN-008 完整记录"}
+    ],
+    "note": "⚠️ TG-GOV-004 骨架虽被裁剪未丰富，但 P3 多个组织（ANR 等）将其作为 parent_org 引用其 ID（官职作为主管架构引用），P5 cross-ref 需注意该文件为 skeleton 状态"
+  },
+  "quality_events": {
+    "fraud_site_detected": "hcourtog.com（GOV-006，疑似冒充司法机关欺诈站点，website 已置 null）",
+    "domain_hijack": "ufctogo.com 被无关网站抢注（UFC，website=null）",
+    "website_intrusion_suspected": "ITRA 官网首页被注入博彩广告（已剔除记录）",
+    "certification_doubt": "UBLT 未列入高教部 2025-2026 认可名单（与官网自称矛盾，已标注）",
+    "deceased_persons_found": ["TG-PERSON-000010 Zarifou Ayéva (2025-12-15)", "TG-PERSON-000018 Nicodème Barrigah-Benissan (2024-08-04)", "TG-PERSON-000290 Pascal Edoh Agbove (2026-03-10)", "JVE 创始人 Séna Alouka (2026-08-31，未注册 ID)"]
+  },
+  "new_orgs_discovered_pending": [
+    {"id_suggestion": "TG-GOV-018", "name": "经济与战略展望部 (Ministère de l'Économie et des Perspectives)", "source": "MEF 2025-10-08 分拆，Patoki 任部长，economie.gouv.tg", "priority": "high"},
+    {"id_suggestion": "TG-GOV-019", "name": "ARSE 电力监管局 (Autorité de Régulation du Secteur de l'Électricité)", "source": "SOE-003 核实发现（2000-090/PR 法令，arse.tg）——CEET 的实际监管机构", "priority": "medium"},
+    {"id_suggestion": "TG-SOE-009", "name": "NSCT 新多哥棉花公司", "source": "SOTOCO 2009 解散后承接方（国家 60%/FNGPC 40%，2020 Olam 收购 51%）", "priority": "medium"}
+  ],
+  "p4_p5_handoff": {
+    "deceased_marks_needed": ["TG-PERSON-000010", "TG-PERSON-000018", "TG-PERSON-000290"],
+    "duplicate_check_needed": "ATOP 社长 Eyebiyi Kokouvi Adéyêmi（TG-PERSON-000262）与 UBLT 批次注册人物同名，P4 核查是否同一人",
+    "qid_cleanup": "TG-PERSON-000033 以 QID 串注册（无英文标签实体），P4/P5 解析法语标签",
+    "cross_ref_watch": ["GOV-004 为 skeleton 但被多组织引用 parent_org", "SOE-002 私有化后 SOE 归类复核（国家保留 49%）", "Wikidata Q135488532 website 字段审计"],
+    "state_capped_scores": "GOV-006(60,未运作)/GOV-017(56,新设无公开信息)/SOE-007(61,已解散)/PARTY-007(73,休眠)/PARTY-008(69,无具名领导)/PDR(79)/SIAB(85,临时管理)/CORP-005(83,一人公司)/ANR(84,封闭机构) 均为机构真实状态限制，非收集失败"
+  }
+}

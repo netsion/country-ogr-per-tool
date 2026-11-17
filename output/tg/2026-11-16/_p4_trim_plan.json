@@ -1,0 +1,195 @@
+{
+ "generated": "2026-11-17",
+ "phase": "P4_person_trim_draft",
+ "status": "DRAFT_PENDING_USER_CONFIRMATION",
+ "principle": "用户指示：政治领袖高官、活跃政党/政治/军事人物优先保留；裁剪候选按 OSINT 增量价值评估（现势性×影响力×可核性）",
+ "keep_principles": [
+  "GOV/MIL 现任官员与指挥链全部保留（含 medium）",
+  "PARTY 现任领导层全部保留（含发言人/司库等，活跃政党 OSINT 价值高）",
+  "FIN/CORP/SOE/INTL 现任一把手（DG/行长/董事长）保留",
+  "董事长层（ACAD 校长/NGO 主席/媒体台长现任）保留",
+  "国际网络人物（Dangote、Koné Dossongui、琼多创始人等）保留——跨国外联情报价值"
+ ],
+ "trim_candidates": {
+  "A_已故人物": {
+   "count": 6,
+   "person_ids": [
+    "TG-PERSON-000010",
+    "TG-PERSON-000018",
+    "TG-PERSON-000209",
+    "TG-PERSON-000290",
+    "TG-PERSON-000309",
+    "TG-PERSON-000218"
+   ]
+  },
+  "B_休眠组织历史人物": {
+   "count": 4,
+   "person_ids": [
+    "TG-PERSON-000217",
+    "TG-PERSON-000219",
+    "TG-PERSON-000220",
+    "TG-PERSON-000228"
+   ]
+  },
+  "C_前媒体负责人": {
+   "count": 10,
+   "person_ids": [
+    "TG-PERSON-000263",
+    "TG-PERSON-000264",
+    "TG-PERSON-000265",
+    "TG-PERSON-000266",
+    "TG-PERSON-000267",
+    "TG-PERSON-000268",
+    "TG-PERSON-000273",
+    "TG-PERSON-000274",
+    "TG-PERSON-000275",
+    "TG-PERSON-000278"
+   ]
+  },
+  "D_前企业高管": {
+   "count": 13,
+   "person_ids": [
+    "TG-PERSON-000091",
+    "TG-PERSON-000094",
+    "TG-PERSON-000095",
+    "TG-PERSON-000096",
+    "TG-PERSON-000100",
+    "TG-PERSON-000101",
+    "TG-PERSON-000120",
+    "TG-PERSON-000146",
+    "TG-PERSON-000153",
+    "TG-PERSON-000166",
+    "TG-PERSON-000177",
+    "TG-PERSON-000192",
+    "TG-PERSON-000193"
+   ]
+  },
+  "E_前公共机构/NGO负责人": {
+   "count": 24,
+   "person_ids": [
+    "TG-PERSON-000011",
+    "TG-PERSON-000015",
+    "TG-PERSON-000017",
+    "TG-PERSON-000033",
+    "TG-PERSON-000121",
+    "TG-PERSON-000125",
+    "TG-PERSON-000196",
+    "TG-PERSON-000211",
+    "TG-PERSON-000215",
+    "TG-PERSON-000216",
+    "TG-PERSON-000232",
+    "TG-PERSON-000236",
+    "TG-PERSON-000238",
+    "TG-PERSON-000244",
+    "TG-PERSON-000245",
+    "TG-PERSON-000247",
+    "TG-PERSON-000249",
+    "TG-PERSON-000254",
+    "TG-PERSON-000298",
+    "TG-PERSON-000299",
+    "TG-PERSON-000304",
+    "TG-PERSON-000312",
+    "TG-PERSON-000328",
+    "TG-PERSON-000341"
+   ]
+  },
+  "F_事务性/技术岗位": {
+   "count": 61,
+   "person_ids": [
+    "TG-PERSON-000027",
+    "TG-PERSON-000028",
+    "TG-PERSON-000029",
+    "TG-PERSON-000030",
+    "TG-PERSON-000031",
+    "TG-PERSON-000032",
+    "TG-PERSON-000056",
+    "TG-PERSON-000058",
+    "TG-PERSON-000059",
+    "TG-PERSON-000060",
+    "TG-PERSON-000061",
+    "TG-PERSON-000062",
+    "TG-PERSON-000063",
+    "TG-PERSON-000067",
+    "TG-PERSON-000068",
+    "TG-PERSON-000069",
+    "TG-PERSON-000079",
+    "TG-PERSON-000080",
+    "TG-PERSON-000081",
+    "TG-PERSON-000082",
+    "TG-PERSON-000083",
+    "TG-PERSON-000084",
+    "TG-PERSON-000085",
+    "TG-PERSON-000086",
+    "TG-PERSON-000087",
+    "TG-PERSON-000088",
+    "TG-PERSON-000089",
+    "TG-PERSON-000114",
+    "TG-PERSON-000115",
+    "TG-PERSON-000130",
+    "TG-PERSON-000131",
+    "TG-PERSON-000132",
+    "TG-PERSON-000133",
+    "TG-PERSON-000184",
+    "TG-PERSON-000239",
+    "TG-PERSON-000252",
+    "TG-PERSON-000257",
+    "TG-PERSON-000258",
+    "TG-PERSON-000261",
+    "TG-PERSON-000279",
+    "TG-PERSON-000280",
+    "TG-PERSON-000282",
+    "TG-PERSON-000283",
+    "TG-PERSON-000285",
+    "TG-PERSON-000286",
+    "TG-PERSON-000288",
+    "TG-PERSON-000300",
+    "TG-PERSON-000307",
+    "TG-PERSON-000308",
+    "TG-PERSON-000310",
+    "TG-PERSON-000315",
+    "TG-PERSON-000318",
+    "TG-PERSON-000319",
+    "TG-PERSON-000321",
+    "TG-PERSON-000322",
+    "TG-PERSON-000323",
+    "TG-PERSON-000325",
+    "TG-PERSON-000326",
+    "TG-PERSON-000327",
+    "TG-PERSON-000330",
+    "TG-PERSON-000256"
+   ]
+  }
+ },
+ "trim_total": 118,
+ "duplicate_merge_needed_before_P4": [
+  {
+   "ids": [
+    "TG-PERSON-000331",
+    "TG-PERSON-000337",
+    "TG-PERSON-000340"
+   ],
+   "person": "Tchakpelé Aklesso / Ali Esso Tchakpélé（恰克佩莱·阿克莱索）",
+   "evidence": "MIL-001 报告明示新任总参谋长为原 ANR 局长；000337 name_en 含两个拼写",
+   "action": "保留 000331（现任总参谋长），000337/000340 引用改指 000331"
+  },
+  {
+   "ids": [
+    "TG-PERSON-000335",
+    "TG-PERSON-000342"
+   ],
+   "person": "Massina（马西纳，宪兵总局长 2014-2021 / ANR 2012 前后）",
+   "evidence": "ANR 批次记载马西纳'后调任宪兵'，任期衔接一致",
+   "action": "待 P4 核验后合并（保留 000335）"
+  },
+  {
+   "ids": [
+    "TG-PERSON-000001",
+    "TG-PERSON-000006"
+   ],
+   "person": "Faure (Essozimna) Gnassingbé",
+   "evidence": "000006 为 P2 骨架旧注册（同名、无 title、level=low），000001 为 P3 挂接主档",
+   "action": "保留 000001，000006 引用改指"
+  }
+ ],
+ "missing_ids_not_in_list": []
+}
