@@ -59,6 +59,14 @@
 - family_members[].relationship: `spouse` | `father` | `mother` | `son` | `daughter` | `brother` | `sister` | `grandfather` | `grandmother` | `uncle` | `aunt` | `cousin` | `other`
 - person_relationships[].relationship_type: `spouse` | `parent` | `child` | `sibling` | `mentor` | `mentee` | `colleague` | `superior` | `subordinate` | `political_ally` | `political_rival` | `associate` | `other`
 - education[].degree: `primary` | `high_school` | `associate` | `bachelor` | `master` | `doctorate` | `professional` | `other` | `null`
+  - 判定细则（2026-11-17 全库归一后确立，标准文档 docs/degree-enum.md）：
+    - `null` = 未采集到数据；`other` = 有信息但无法归类，两者语义不同，禁止混用
+    - MBA/EMBA/MPA/LLM/MPhil → `master`；JD/DBA → `doctorate`；MBBS → `bachelor`（英联邦医学本科）
+    - 荣誉博士 → `doctorate`（note 注明 honorary）；博士后 → `doctorate`
+    - 结业/研修/高管课程/执业资格（律师、会计师等非学位）→ `professional`
+    - specialist（苏联专家学位）→ `professional`；candidate/candidate_of_sciences（副博士候选人）→ `doctorate`
+    - residency（医学住院医师）→ `professional`；A-Level/SPM/form_six/foundation（预科）→ `high_school`
+    - 禁止写入学位中文/本地语言原文（"硕士"/"학사"/undergraduate/phd 等），一律用标准枚举；原文可放 note
 - contacts[].type: `email` | `phone` | `fax` | `website` | `other`
 - gender: `male` | `female` | `non_binary` | `unknown`
 
