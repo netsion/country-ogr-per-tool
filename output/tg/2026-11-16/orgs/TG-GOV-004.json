@@ -8,12 +8,13 @@
       "Prime Minister of Togo"
     ],
     "org_type": "GOV",
-    "org_subtype": "Head of Government",
+    "org_subtype": "head_of_state",
     "country_iso3": "TGO",
     "hq_country_iso3": "TGO",
     "founded_date": "1960-04-27",
     "website": null,
-    "wikidata_qid": "Q30100661"
+    "wikidata_qid": "Q30100661",
+    "description": "（P5 注：原值 Head of Government 系官职实体非机构；org_subtype 按校验器枚举归为 head_of_state；本文件为 P3 裁剪骨架）"
   },
   "social_accounts": [],
   "digital_assets": [],
@@ -36,7 +37,8 @@
   "apec_stance": null,
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Fumio_Kishida_and_Faure_Gnassingb%C3%A9_before_the_funeral_of_Shinzo_Abe_%281%29_%28cropped%29.jpg/330px-Fumio_Kishida_and_Faure_Gnassingb%C3%A9_before_the_funeral_of_Shinzo_Abe_%281%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/tg/TG-GOV-004.jpg",
+    "minio_path": "default/popular-org-profile/tg/TG-GOV-004.jpg"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
@@ -46,6 +48,12 @@
       "wikipedia"
     ],
     "completeness_score": 17,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "notes": "Skeleton profile from cached Wikidata + Wikipedia data",
+    "quotes": [
+      {
+        "title": "P3 裁剪存档（骨架文件，未丰富）",
+        "url": "https://manifesto-club.example/trimmed-skeleton"
+      }
+    ]
   }
 }

@@ -6,35 +6,45 @@
    "org_id": "TG-FIN-006",
    "issue": "key_people 仍记阿尔瓦法利为「集团董事长兼总裁(PDG)」，系 1999-2012 创始任期陈旧信息（P4 000150 档案证伪：2019-2020 召回后仅任董事会主席，至迟 2023-12 起集团 PDG 为 Ahmed Omar El Hadi，TG-PERSON-000505 已注册）",
    "fix": "P5 更正 FIN-006 key_people 职务表述并补现任 PDG El Hadi 条目",
-   "source": "TG-PERSON-000150 P4 档案 position_note（5 源：finances.gouv.ci/Jeune Afrique/SikaFinance/BSIC Sénégal 官方社媒/科特迪瓦财政部）"
+   "source": "TG-PERSON-000150 P4 档案 position_note（5 源：finances.gouv.ci/Jeune Afrique/SikaFinance/BSIC Sénégal 官方社媒/科特迪瓦财政部）",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "FIN-010-compaore-title",
    "org_id": "TG-FIN-010",
    "issue": "key_people 记孔帕奥雷为「SUNU Bank Togo 战略与发展总监」，但 SUNU GROUP 2024 年报架构图+LinkedIn 均显示该职属苏努投资控股（集团银行板块），非 Togo 国别行",
    "fix": "P5 更正 FIN-010 key_people 职务归属或在 title 注明「集团控股层面」；另其就任总经理时间 2026-08-14（CFE 公告 16647）可回填 key_people",
-   "source": "TG-PERSON-000159 P4 档案 work_experience.note"
+   "source": "TG-PERSON-000159 P4 档案 work_experience.note",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "dupe-leguennou-379-517",
    "org_id": null,
    "issue": "樊尚/文森特·勒盖努·勒格努（Vincent Le Guennou，Africa50/ECP 系投资人，Oragroup 董事）存在双 ID：TG-PERSON-000379（既有，P2 注册）与 TG-PERSON-000517（梅斯特拉莱档案关系链因中文译名差异「文森特·勒格努」未命中索引而新注册）。P4 000179 档案取 000379",
    "fix": "P5 合并 000517 → 000379（orgs/persons 引用改指），name_index 补「文森特·勒格努」别名键",
-   "source": "TG-PERSON-000179 档案 identity_note"
+   "source": "TG-PERSON-000179 档案 identity_note",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "dupe-ndiaye-181-489",
    "org_id": null,
    "issue": "谢克/谢伊克·蒂迪亚内·恩迪亚耶（Cheikh Tidiane N'Diaye，Oragroup 副总经理 2018-2024、Orabank Togo 总经理 2016-2018）双 ID：TG-PERSON-000181（P4 建档，官方招股书拼法）与 TG-PERSON-000489（既有注册，拼法变体 Cheick Tidiane Ndiaye）疑似同一人",
    "fix": "P5 核验后合并 000489 → 000181，name_index 补拼法变体别名；另核实 TG-CORP-002 key_people 副总经理现任性（000181 任期止于 2024-07，现为 Orabank 多国子公司非执行董事）",
-   "source": "TG-PERSON-000181 档案 identity_note"
+   "source": "TG-PERSON-000181 档案 identity_note",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "dupe-tsegan-190-382",
    "org_id": null,
    "issue": "泽甘·雅娃·吉格博迪·尚塔尔（Yawa Djigbodi Tségan，UNIR 总司库/前国民议会议长/现任 OTR 总专员，Wikidata Q60965577）双 ID：TG-PERSON-000190（P4 建档）与 TG-PERSON-000382（P2 骨架注册，档案未创建，拼法 Yawa Djigbodi Tsègan）为同一自然人",
    "fix": "P5 合并 000382 → 000190（registry/person_list 标记 merged），name_index 补「Tsegan Yawa Djigbodi Chantal」/「Yawa Djigbodi Tsègan」互为别名",
-   "source": "TG-PERSON-000190 档案 identity_note"
+   "source": "TG-PERSON-000190 档案 identity_note",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "new-org-datcha-univ",
@@ -48,21 +58,55 @@
    "org_id": null,
    "issue": "Tounou Agbeko Kodjo（洛美大学/ITRA 系昆虫学者，多篇合著者）疑双 ID：TG-PERSON-000539（阿格贝科·科德霍·图努，000225 档案关系链注册）与 TG-PERSON-000551（阿格贝科·科乔·图努，000235 档案关系链注册）——中文译名差异（科德霍/科乔）与重音差异（Agbeko/Agbéko）未命中同一索引键",
    "fix": "P5 核验后合并 000551 → 000539，name_index 补译名变体别名键",
-   "source": "两次 resolve_ids 注册记录比对"
+   "source": "两次 resolve_ids 注册记录比对",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "acad-006-cert-resolved",
    "org_id": "TG-ACAD-006",
    "issue": "P3 质量事件「UBLT/UCAO 认证存疑：未列入高教部 2025-2026 认可名单（与官网自称矛盾）」——P4 000240 采集复核发现 2025-2026 与 2026-2027 学年官方认可名单均含 UCAO-UUT，认证疑点解除",
    "fix": "P5 更新 TG-ACAD-006 档案 certification 相关 note（移除或改写存疑表述），并在 P5 报告中关闭该质量事件",
-   "source": "TG-PERSON-000240 档案 notes"
+   "source": "TG-PERSON-000240 档案 notes",
+   "status": "done",
+   "processed_at": "2026-11-17"
   },
   {
    "id": "acad-006-cet-title",
    "org_id": "TG-ACAD-006",
    "issue": "TG-ACAD-006 档案记加格洛为「多哥主教团（CET）主席」，P4 000242 采集证实其 2026-10 当选的是 CET 副主席（CET 主席另有其人）",
    "fix": "P5 更正 ACAD-006 key_people 中加格洛 CET 职务表述为副主席；另核实 CET 现任主席是否需补录",
-   "source": "TG-PERSON-000242 档案 notes"
+   "source": "TG-PERSON-000242 档案 notes",
+   "status": "done",
+   "processed_at": "2026-11-17"
+  },
+  {
+   "id": "resolved-atop-ublt-samename",
+   "org_id": null,
+   "issue": "【已结案】P3 遗留疑问「ATOP 社长埃耶比伊（TG-PERSON-000262）与 UBLT 批次同名人物是否同一人」——P4 五重验证（registry 全库仅 1 条/name_index 唯一指向/ACAD-010 全文+git 历史零命中/IBLT 官网直抓零命中/网络检索无 UBLT 关联）证实不存在第二个个体，系批次编号相邻（000255-000261 为 UBLT 7 人）引发的误疑",
+   "fix": "P5 直接结案：无重复、无需合并；无需任何修改动作",
+   "source": "TG-PERSON-000262 档案 notes",
+   "status": "done",
+   "processed_at": "2026-11-17"
+  },
+  {
+   "id": "dupe-djenda-293-068",
+   "org_id": null,
+   "issue": "让达（DJENDA Abeyeta Aristide，UONGTO 执行主任 2012-12 至今）疑双 ID：TG-PERSON-000293（P4 建档）与 TG-PERSON-000068「Abeyeta Djenda」（P2 占位，档案未创建）——全名考证（UONGTO 官网+CACIT 帖双证）显示 Abeyeta 系其本名段",
+   "fix": "P5 核验后合并 000068 → 000293（若 ARCOP CRD 委员引用 000068 处亦改指）",
+   "source": "TG-PERSON-000293 档案 name_note",
+   "status": "done",
+   "processed_at": "2026-11-17"
+  },
+  {
+   "id": "resolved-massina-335-342",
+   "org_id": null,
+   "issue": "【已结案】P2/P3 悬案「马西纳（000335 宪兵总局长 / 000342 ANR 局长，已裁剪）是否同一人」——P4 四源证实同一自然人：aLome 2014-10-10「马西纳·约特罗费上校，前 ANR 局长」获任宪兵总局长；La Nouvelle Reporter 2022「前情报部门与国家宪兵总局长」双重身份；英文维基 ANR 条目 2012 调任后阿克莱索代理；Yotrofeï 极罕见名无第二例",
+   "fix": "P5 直接结案：000342 的 ANR 局长履历已并入 000335 档案第 1 条任职，排除不造成事实丢失，无需改指",
+   "source": "TG-PERSON-000335 档案 notes",
+   "status": "done",
+   "processed_at": "2026-11-17"
   }
- ]
+ ],
+ "processed": 11
 }

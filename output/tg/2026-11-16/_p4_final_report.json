@@ -1,0 +1,76 @@
+{
+ "phase": "P4_person_profile",
+ "completed_at": "2026-11-17",
+ "coverage": {
+  "queue_origin": 204,
+  "completed": 204,
+  "failed": 0,
+  "excluded_pre_P4": 135,
+  "merged_pre_P4": 3,
+  "person_list_total": 342,
+  "status_distribution_final": {
+   "completed": 204,
+   "merged": 3,
+   "excluded": 135
+  }
+ },
+ "quality": {
+  "files_with_phase4": 204,
+  "avg_completeness": 71.9,
+  "median_completeness": 73.0,
+  "max": 94,
+  "min": 32,
+  "score_distribution": {
+   "score_ge_85": 63,
+   "score_75_84": 31,
+   "score_60_74": 68,
+   "score_45_59": 33,
+   "score_lt_45": 9
+  },
+  "quotes_total": 2856,
+  "score_85_plus_examples": [
+   "TG-PERSON-000226(94)",
+   "TG-PERSON-000002(94)",
+   "TG-PERSON-000103(93)",
+   "TG-PERSON-000005(93)",
+   "TG-PERSON-000004(93)",
+   "TG-PERSON-000001(93)",
+   "TG-PERSON-000204(91)",
+   "TG-PERSON-000009(91)",
+   "TG-PERSON-000013(90)",
+   "TG-PERSON-000008(90)",
+   "TG-PERSON-000102(89)",
+   "TG-PERSON-000092(89)"
+  ]
+ },
+ "registry_growth": {
+  "person_registry_total": 608,
+  "note": "P4 期间关系链交叉引用累计注册新人物 ID 至 000608（含外籍/历史人物），P5 交叉核验时复核保留范围",
+  "name_index_entries_final": 5178
+ },
+ "key_discoveries": [
+  "ANR 指挥层换代全链条：2026-08-17 第2026-165/166 号法令，阿耶瓦拉尼接任局长、埃索韦任副局长，恰克佩莱同日晋升准将转任总参谋长",
+  "马西纳合并悬案结案：000335 与 000342 确认同一自然人（四源），000342 履历已并入 000335，无需改指",
+  "ATOP/UBLT 同名疑虑结案：埃耶比伊仅一人，系批次编号相邻误疑，无需合并",
+  "IBANK 总经理三任链闭环：塔哈里(2021-12)→拉莱(2023-03)→迪亚洛(2024-10-16)",
+  "维基/官方证伪清单：阿尔瓦法利非现任 BSIC PDG（创始 1999-2012）；库伊甘非记者出身（法学家）；阿科蒂亚非加纳人（多哥司铎）；USTTG 非洛美大学拆分（2012 私立 RUSTA）；AVIDI 非残障 NGO（志愿人道综合发展）",
+  "跨国外联价值人物：BRVM 首富纳萨（Coris 创始人）、Gérard Mestrallet 之弟帕特里克·梅斯特拉莱（Oragroup 前 GM）、CAMS/中国媒体论坛三度参与者巴萨杜",
+  "反诈排除：Facebook/TikTok「Ingrid Awadé 基金会」疑为冒名诈骗网络（多哥部长 2023-01 公开警示），已排除"
+ ],
+ "p5_handoff": {
+  "ledger_file": "_p5_pending_fixes.json",
+  "ledger_items": 12,
+  "ledger_resolved": 2,
+  "ledger_open_highlights": [
+   "FIN-006 key_people 阿尔瓦法利 PDG 头衔陈旧（现任 PDG 为 El Hadi 000505）",
+   "FIN-010 孔帕奥雷职务归属（集团控股层面）与就任日期回填",
+   "双 ID 合并：勒盖努 000517→000379；恩迪亚耶 000489→000181；泽甘 000382→000190；让达 000068→000293；图努 000551→000539",
+   "TG-CORP-002 key_people 恩迪亚耶副总现任性（任期止 2024-07）",
+   "TG-ACAD-006 加格洛 CET 副主席更正 + UCAO 认证疑点解除（已复核 2025/2026 名单在列）",
+   "TG-PARTY-004/008 组织档案日期精度与 CET 现任主席补录评估",
+   "新组织候选：达查大学（2026 新设，校长巴查纳 000536/一副校长瓦拉原任）",
+   "军方线沿用：GOV-007 法官任期、000010/018/290 死亡标记等 P3 遗留项"
+  ]
+ },
+ "degree_enum_v2_compliance": "335 条 education 全部标准枚举（2026-11-17 复扫 0 脏值）"
+}
