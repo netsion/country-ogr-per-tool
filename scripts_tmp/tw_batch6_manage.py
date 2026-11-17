@@ -48,7 +48,7 @@ elif action=='install':
  lst=load(B/'person_list.json');e=next(e for e in lst['persons'] if e['person_id']==pid)
  e.update(name=x['name'],name_zh=x.get('name_zh'),name_en=x['name_en'],wikidata_qid=x.get('wikidata_qid'),importance_level='high',notes='第六批公开资料研究已执行；证据截止时间、缺项和单源边界见人物collection_meta.notes。')
  lst['summary']['by_importance_level']=dict(collections.Counter(e['importance_level'] for e in lst['persons']));save(B/'person_list.json',lst)
- p['completed'].append(pid);p['remaining'].remove(pid);p['current']=p['remaining'][0] if p['remaining'] else None;p.update(last_updated='2026-11-15',status='running' if p['remaining'] else 'validating');save(P,p)
+ p['completed'].append(pid);p['remaining'].remove(pid);p['current']=p['remaining'][0] if p['remaining'] else None;p.update(last_updated='2026-11-16',status='running' if p['remaining'] else 'validating');save(P,p)
  print('Installed',pid,len(p['completed']),'/15')
 elif action=='finalize':
  p=load(P);assert not p['remaining'] and len(p['completed'])==15
@@ -86,7 +86,7 @@ elif action=='finalize':
  save(B/'persons/_index.json',idx);save(B/'_name_index.json',ni)
  lst=load(B/'person_list.json');lst['summary']['data_quality']={'with_person_id':sum(bool(e.get('person_id')) for e in lst['persons']),'with_wikidata_qid':sum(bool(e.get('wikidata_qid')) for e in lst['persons']),'without_person_id':sum(not e.get('person_id') for e in lst['persons'])};save(B/'person_list.json',lst)
  save(O/'validation.json',{'changed_profiles':changed,'schema_errors':errors,'avatar_changes':0,'profile_id_changes':0,'summaries':summaries,'links_for_manual_review':links,'index_conflicts':conflicts});save(O/'strict_validation.json',strict)
- lines=['# 台湾地区第六批15人研究（2026-11-15）','','已执行15/15。完成指公开资料研究、写入和校验结束，不等同所有事实多源核验或完整度达到85分。','','|人物|ID|政策|成就|人物关系|家庭|来源链接|完整度|','|---|---|---:|---:|---:|---:|---:|---:|']
+ lines=['# 台湾地区第六批15人研究（2026-11-15至2026-11-16）','','已执行15/15。完成指公开资料研究、写入和校验结束，不等同所有事实多源核验或完整度达到85分。各档采集日期及跨日补核说明见collection_meta。','','|人物|ID|政策|成就|人物关系|家庭|来源链接|完整度|','|---|---|---:|---:|---:|---:|---:|---:|']
  for s in summaries:lines.append('|'+s['name']+'|['+s['person_id']+']('+ (B/'persons'/f"{s['person_id']}.json").as_posix()+')|'+'|'.join(str(s[k]) for k in ['political_stances','major_achievements','person_relationships','family_members','sources','score'])+'|')
  lines+=['','仅记录可追溯公开事实；空字段及单源、不可读来源、现职截止时间逐档记录。成就区分团队贡献、计划与已实施成果；家庭仅公开实名与必要关系，不采私人财产或地址。所有原头像字段、画像ID和平台user_id保留。','','本轮15份真实JSON Schema及严格检查0错误；警告详情见复核记录。非本轮人物及组织画像与基线快照保持一致。未执行全库自动补链。逐条引用目标供人工核对，原文来源见各档collection_meta.quotes。','','备份与校验：tmp/tw_batch6_20261115/；候选依据：同目录selection.json。']
  totals={k:sum(t[k] for t in summaries) for k in ['political_stances','major_achievements','person_relationships','family_members']}
@@ -100,5 +100,5 @@ elif action=='finalize':
  lines += [f'完整度范围为{min(s["score"] for s in summaries)}—{max(s["score"] for s in summaries)}分；未以猜测补足85分目标。部分政策、成果、家庭及人物关系仍有缺项。']
  if conflicts:lines+=['','名称索引有同名冲突，保留既有映射，未自动覆盖：'+json.dumps(conflicts,ensure_ascii=False)]
  (R/'docs/tw_batch6_report.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
- p.update(status='complete',current=None,completed_at='2026-11-15');save(P,p)
+ p.update(status='complete',current=None,completed_at='2026-11-16');save(P,p)
  print(json.dumps({'completed':15,'schema_errors':0,'changed_profiles':len(changed),'links_to_review':len(links),'name_conflicts':len(conflicts),'totals':{k:sum(s[k] for s in summaries) for k in ['political_stances','major_achievements','person_relationships','family_members']}},ensure_ascii=False))

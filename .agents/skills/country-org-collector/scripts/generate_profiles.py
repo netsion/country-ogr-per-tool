@@ -37,6 +37,78 @@ SOCIAL_PROPS = {
     "P2572": ("other", None),
 }
 
+# Social platform short codes per org_profile_schema (source: integer or null)
+PLATFORM_CODES = {
+    "twitter": 3, "facebook": 6, "instagram": 8, "youtube": 9,
+    "weibo": 14, "linkedin": 17, "telegram": 19,
+}
+
+# Human-readable subcategory -> schema org_subtype enum (slug fallback handles the rest)
+ORG_SUBTYPE_OVERRIDES = {
+    "listed company": "publicly_listed",
+    "state-controlled listed company": "gov_linked_company",
+    "bank": "commercial_bank",
+    "central bank": "regulatory_agency",
+    "insurance": "insurance_company",
+    "payment system": "payment_institution",
+    "stock exchange": "statutory_board",
+    "executive branch": "cabinet",
+    "independent body": "independent_organ",
+    "regulator": "regulatory_agency",
+    "religious institution": "religious_org",
+    "statutory authority": "statutory_board",
+    "intergovernmental organization": "regional_org",
+    "regional ngo": "regional_org",
+    "media conglomerate": "conglomerate",
+    "tv network": "broadcaster",
+    "intelligence": "intelligence_agency",
+    "military industry": "defence_technology",
+    "research organization": "research_institute",
+    "research university": "university",
+    "cultural": "community_org",
+    "development": "humanitarian_org",
+    "human rights": "advocacy_group",
+    "humanitarian": "humanitarian_org",
+    "state broadcasting": "broadcaster",
+    "state enterprise": "state_owned_enterprise",
+    "state holding": "holding_company",
+}
+
+# Generic fallback per org_type when subcategory cannot be mapped
+ORG_TYPE_DEFAULT_SUBTYPE = {
+    "GOV": "gov_department", "SOE": "state_owned_enterprise", "CORP": "private_company",
+    "FIN": "commercial_bank", "ACAD": "research_institute", "NGO": "charity",
+    "MEDIA": "digital_media", "PARTY": "opposition_party", "MIL": "security_agency",
+    "INTL": "multilateral_org",
+}
+
+_ORG_SUBTYPE_ENUM = None
+
+def load_org_subtype_enum():
+    global _ORG_SUBTYPE_ENUM
+    if _ORG_SUBTYPE_ENUM is None:
+        schema_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "org_profile_schema.json")
+        try:
+            with open(schema_path, encoding="utf-8") as f:
+                schema = json.load(f)
+            defs = schema.get("$defs") or schema.get("definitions") or {}
+            _ORG_SUBTYPE_ENUM = set(defs["org_subtype_enum"]["enum"])
+        except Exception:
+            _ORG_SUBTYPE_ENUM = set()
+    return _ORG_SUBTYPE_ENUM
+
+def normalize_org_subtype(category, subcategory):
+    """Map free-text subcategory to a valid org_subtype enum value."""
+    sub = (subcategory or "").strip()
+    if sub:
+        key = sub.lower()
+        if key in ORG_SUBTYPE_OVERRIDES:
+            return ORG_SUBTYPE_OVERRIDES[key]
+        slug = key.replace("-", " ").replace(" ", "_")
+        if slug in load_org_subtype_enum():
+            return slug
+    return ORG_TYPE_DEFAULT_SUBTYPE.get(category, "gov_department")
+
 LEADER_PROPS = [
     ("P6", "Head"),
     ("P169", "Chief Executive Officer"),
@@ -71,6 +143,7 @@ ISO2_TO_ISO3 = {
     "GH": "GHA", "SN": "SEN", "CI": "CIV", "CM": "CMR", "ZW": "ZWE",
     "ZM": "ZMB", "TZ": "TZA", "UG": "UGA", "MZ": "MOZ", "AO": "AGO",
     "AE": "ARE", "BF": "BFA", "JO": "JOR", "KG": "KGZ", "KH": "KHM",
+    "TG": "TGO", "BJ": "BEN", "NE": "NER", "ML": "MLI",
     "KW": "KWT", "KZ": "KAZ", "LA": "LAO", "LY": "LBY", "MA": "MAR",
     "IQ": "IRQ", "SY": "SYR", "PK": "PAK", "AF": "AFG",
     "MO": "MAC", "OM": "OMN", "QA": "QAT", "TJ": "TJK", "TM": "TKM",
@@ -168,7 +241,8 @@ def extract_social_accounts(entity):
                     "platform": platform,
                     "account_name": val,
                     "url": url,
-                    "source": "wikidata"
+                    "source": PLATFORM_CODES.get(platform),
+                    "source_note": "wikidata",
                 })
     return accounts
 
@@ -543,7 +617,7 @@ def generate_profile(org, cache_data, registry, target_qids_map, next_ids, count
             "name_en": name_en,
             "aliases": aliases[:5],
             "org_type": category,
-            "org_subtype": org.get("org_subtype") or org.get("subcategory", ""),
+            "org_subtype": normalize_org_subtype(category, org.get("org_subtype") or org.get("subcategory", "")),
             "country_iso3": country_iso3,
             "hq_country_iso3": country_iso3,
             "founded_date": founded,
@@ -685,7 +759,7 @@ def main():
                 "org_id": org_id,
                 "name": f"{profile['basic_info'].get('name_zh', '') or profile['basic_info'].get('name_original', '')} ({name_en})",
                 "org_type": category,
-                "org_subtype": org.get("org_subtype"),
+                "org_subtype": normalize_org_subtype(category, org.get("org_subtype")),
                 "wikidata_qid": qid,
                 "status": "profiled",
                 "notes": None

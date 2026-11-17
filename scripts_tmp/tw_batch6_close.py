@@ -19,7 +19,7 @@ for pid in ids:
   if not a.get('user_id'):continue
   assert any(all(a.get(k)==n.get(k) for k in ['platform','url','user_id']) for n in d.get('social_accounts',[]))
   preserved_accounts+=1
- for row in d.get('political_stances',[]):assert row['date']<='2026-11-15',(pid,row)
+ for row in d.get('political_stances',[]):assert row['date']<=d['collection_meta']['collection_date'],(pid,row)
 registered=load(O/'new_id_registration.json')['created'];assert len(registered)==13
 assert all(load(B/'persons'/f"{x['person_id']}.json")['profile'] is None for x in registered)
 assert not v['index_conflicts'] and not v['schema_errors']

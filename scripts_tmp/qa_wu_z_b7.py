@@ -1,0 +1,2 @@
+import json,pathlib,jsonschema
+p=pathlib.Path('tmp/tw_batch7_enriched/TW-PERSON-000580.json');d=json.loads(p.read_text(encoding='utf-8'));d['name_en']='';d['collection_meta']['notes']=d['collection_meta']['notes'].replace('英文姓名来自官网搜索索引，仍待原页补核。','英文未核，name_en留空。补核立法院英文页仍超时；Focus Taiwan 2026-02-28仅开放首段并提示全文需订阅，故不将其作为完整原文依据。');p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8');jsonschema.validate(d,json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8')));print('jsonschema PASS')

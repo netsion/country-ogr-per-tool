@@ -1,0 +1,21 @@
+import json,pathlib,jsonschema
+root=pathlib.Path('output/tw/2026-07-27'); p=json.loads((root/'persons/TW-PERSON-000578.json').read_text(encoding='utf-8'))
+p.update(name_en='Wu, Chi-Ming',gender='male',birth_date='1963-02-24',birth_place='云林县东势乡',current_positions=['第十一届立法委员（新北市第十选举区）'])
+p['education']=[dict(institution='宏国德霖科技大学',degree='bachelor',field='企业管理',start_date=None,end_date=None),dict(institution='世新大学',degree='master',field='企业管理',start_date=None,end_date=None)]
+jobs=[('2002',None,'土城市民代表会','市民代表'),('2005','2005','国民大会','任务型国民大会代表'),('2005','2010','台北县议会','第十六届县议员'),('2010','2016','新北市议会','第一、二届市议员'),('2016-02-01',None,'立法院','第九至十一届立法委员'),('2019',None,'立法院民主进步党党团','第九届第八会期副书记长'),('2021',None,'立法院内政委员会','第十届第四会期召集委员'),('2023',None,'立法院民主进步党党团','第十届第七会期书记长'),('2023',None,'民主进步党','中央常务执行委员')]
+jobs += [(None,None,a,b) for a,b in [('新北市政府消防局义勇消防队','第五大队大队长'),('新北市云林同乡会','总召集人'),('土城区云林同乡会','创会长'),('新北市矿工协会','荣誉理事长'),('大汉溪文教基金会','常务董事'),('新北市慢速垒球委员会','理事长')]]
+p['work_experience']=[dict(start_date=a,end_date=b,organization=c,org_id=None,position=d) for a,b,c,d in jobs]
+u='https://lis.ly.gov.tw/lygazettec/mtcdoc?PD110603%3ALCEWA01_110603_00266='
+p['political_stances']=[dict(date='2026-10-16',topic='食品安全',stance_content='作为杨曜所提食品安全卫生管理法第七条修正草案连署人，支持将可能危害食安的原材料、半成品纳入业者强制通报义务；此为提案阶段。',source=u),dict(date='2024-06-26',topic='消防职业安全',stance_content='主张强化火场资讯权及企业灾害自主风险管理，推动消防法排审，以改善消防员执勤安全。',source='https://www.cna.com.tw/news/aipl/202406260056.aspx'),dict(date='2020',topic='社会住宅与托育',stance_content='选举公报主张继续新建社会住宅、扩大租屋补贴，并推动幼托准公共化及补助。日期仅能确定为2020年选举公报。',source='https://bulletin.cec.gov.tw/01選舉公報/02立法委員/109年第10屆/02區域立法委員/03新北市/第10選舉區.pdf')]
+p['major_achievements']=[dict(date='2023-05-30',organization='立法院',achievement='所领衔18人消防法部分条文修正草案，作为行政院及多党多位委员版本之一并案审查，于当日三读通过；限定为共同立法参与，不主张个人版本全部被采纳。'),dict(date='2024-11-12',organization='立法院',achievement='所领衔19人消防法第二十一条之一、第二十一条之二及第四十三条之一修正草案，与行政院及其他委员版本并案三读通过，增修消防安全与职安规范；为集体立法成果，非个人独力完成。')]
+p['biography_summary']='吴琪铭，1963年2月24日出生于云林县东势乡，台湾民主进步党籍政治人物，主要服务新北市土城、三峡地区。早年从事餐饮及保全事业，随后由地方民意代表进入公共事务领域。2002年担任土城市民代表，2005年担任任务型国民大会代表并当选台北县议员，县市改制后连任新北市第一、二届市议员。2016年进入立法院，2020年、2024年连任，现为第十一届新北市第十选举区立法委员。主要学历为宏国德霖科技大学企业管理学士及世新大学企业管理硕士。曾任内政委员会召集委员及民进党立法院党团副书记长、书记长等职务。其国会工作涉及消防救灾安全、交通建设、住宅及地方公共服务；2023年和2024年均有领衔消防法修正草案并入三读案件。2026年10月仍列名食品安全修法连署，显示其当年持续参与立法工作。'
+p['social_accounts']=[]
+for s in json.loads(pathlib.Path('tmp/social_xlsx_20261116/workbook_raw.json').read_text(encoding='utf-8')):
+ for r in s['rows']:
+  c={x['col']:x['value'] for x in r['cells']}
+  if c.get(2)!='吴琪铭': continue
+  plat=c[3]; url=c[4]; uid=str(c.get(5,'')).split('#')[-1]
+  p['social_accounts'].append(dict(platform=plat,url=url,account_name='吳琪銘',username=url.rstrip('/').split('/')[-1],nickname=None,user_id=uid,source={'facebook':6,'instagram':8}[plat],source_note=f'用户社交.xlsx工作表{s["sheet"]}第{r["row"]}行；USER-ID来自第5列；未独立核实实时官方认证。PAGE-ID第6列：{c.get(6)}'))
+quotes=[('立法院第十届吴琪铭委员资料','https://www.ly.gov.tw/Pages/List.aspx?nodeid=37427'),('立法院第十届委员名鉴','https://lis.ly.gov.tw/lghtml/work/_K5_ttsbooke1.pdf?172368102='),('Newtalk人物选情报道','https://newtalk.tw/news/view/2019-10-27/317377'),('2026食品安全修法连署',u),('2023消防法并案三读','https://ppg.ly.gov.tw/ppg/bills/203103168030000/details'),('2024消防法三读议事录','https://ppg.ly.gov.tw/ppg/sittings/2024110654/details?meetingDate=113/11/12'),('消防法排审主张','https://www.cna.com.tw/news/aipl/202406260056.aspx'),('2026捷运补助及共同争取说明','https://www.cna.com.tw/news/aipl/202609090294.aspx'),('TVBS吴昇翰父子关系报道','https://news.tvbs.com.tw/politics/3113830')]
+p['collection_meta']=dict(collection_date='2026-11-16',phase='phase4_person_profile',data_sources=['official_website','news_search','other'],quotes=[dict(title=a,url=b) for a,b in quotes],notes='实际公务证据截至2026-10-16食品安全法连署。2026年9月中央社亦称其为立委。第十届官方网页为历史页面，党团职务、中常委及社团经历均不直接视为现职；任职结束日期未载则null。官方名鉴误列2004任务型国代，与2005实际选举冲突，采用2005。英文姓名采用官方历史资料。家庭已检索，TVBS单源公开儿子吴昇翰，未获第二独立全文故暂不结构化；配偶未核。关系检索发现苏巧慧公开称双方共同争取轨道预算，因未完成引用画像核验暂不链接。组织ID未核画像，均null。社交表已实际抽取两行，USER-ID与PAGE-ID区别保留。无QID、头像旧值保留。')
+out=pathlib.Path('tmp/tw_batch7_enriched/TW-PERSON-000578.json');out.parent.mkdir(exist_ok=True);jsonschema.validate(p,json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8')));out.write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding='utf-8'); print(out)
