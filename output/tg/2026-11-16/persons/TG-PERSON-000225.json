@@ -131,7 +131,15 @@
       "source": "https://www.republicoftogo.com/toutes-les-rubriques/education/un-nouveau-president-pour-l-universite-de-lome"
     }
   ],
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "linkedin",
+      "account_name": "Marie Luce Quashie",
+      "url": "https://tg.linkedin.com/in/marie-luce-quashie-1b585941",
+      "source": 17,
+      "source_note": "领英多哥站实名个人档案（搜索引擎索引快照）：姓名「Marie Luce Quashie」、职务「Enseignant Chercheur chez Université de Lomé」、教育经历含 Université de Lomé 与 Université Paris 7 Denis Diderot、所在地 Togo。姓名（学术署名 Marie-Luce Akossiwoa Quashie）+机构（洛美大学）+职务（教师研究者）三要素与本人一致，锚定为本人账号。2026-11-18 社媒补弱新增。"
+    }
+  ],
   "family_members": [],
   "political_stances": [
     {
@@ -170,8 +178,12 @@
     "《Study of Salinity in Market Garden Production on the Togolese Coast》（多哥沿海菜园生产盐渍化研究，合著），HAL hal-05155971，2025年",
     "《Isolation and characterization of microsatellite markers》（微卫星分子标记分离与表征，合著），Authorea 2020"
   ],
-  "profile": null,
-  "social_accounts_note": "六平台排查（2026-11-17）：以「Akossiwoa Quashie」「Quashie Akossiwoa」「Quashie Mensah Attoh」「Marie-Luce Akossiwoa Quashie」等变体在 LinkedIn、Facebook、X（Twitter）、Instagram、TikTok、YouTube 定向检索（含 site: 限定），未发现其个人专属社交账号。检索到的相关账号均为机构账号提及：洛美大学官方脸书/@UniveLomeTg 推特/Telegram 官方频道（多帖署名提及秘书长）、WASCAL 与 SASSCAL 官方脸书（理事会主席任免与贺函）、AUF-IFGU 脸书（2019年西非大学秘书长培训）、Campus France Togo 脸书（2026年2月北南学生流动协议）、高等教育与科研部 LinkedIn（2026年三八妇女节活动帖）。LinkedIn 仅有大学机构页提及，无本人主页。",
+  "profile": {
+    "source_url": "https://wascal.org/wp-content/uploads/2019/07/Mme-M.-E.-Akossiwoa-QUASHIE-1.png",
+    "local_path": "minio-store/default/popular-person-profile/tg/TG-PERSON-000225.png",
+    "minio_path": "default/popular-person-profile/tg/TG-PERSON-000225.png"
+  },
+  "social_accounts_note": "六平台排查（2026-11-17）：以「Akossiwoa Quashie」「Quashie Akossiwoa」「Quashie Mensah Attoh」「Marie-Luce Akossiwoa Quashie」等变体在 LinkedIn、Facebook、X（Twitter）、Instagram、TikTok、YouTube 定向检索（含 site: 限定），未发现其个人专属社交账号。检索到的相关账号均为机构账号提及：洛美大学官方脸书/@UniveLomeTg 推特/Telegram 官方频道（多帖署名提及秘书长）、WASCAL 与 SASSCAL 官方脸书（理事会主席任免与贺函）、AUF-IFGU 脸书（2019年西非大学秘书长培训）、Campus France Togo 脸书（2026年2月北南学生流动协议）、高等教育与科研部 LinkedIn（2026年三八妇女节活动帖）。LinkedIn 仅有大学机构页提及，无本人主页。（2026-11-18 补弱更新：本日定向补查发现领英多哥站实名档案 marie-luce-quashie-1b585941，经「姓名 Marie-Luce Quashie＋机构 Université de Lomé＋职务 Enseignant Chercheur」三要素交叉锚定为本人，已收录 social_accounts（platform=linkedin），上文「LinkedIn 无本人主页」结论就此作废。）",
   "collection_meta": {
     "collection_date": "2026-11-17",
     "phase": "phase4_person_profile",
@@ -246,7 +258,7 @@
         "url": "https://www.facebook.com/Auf.ifgu/posts/434096700575787/"
       }
     ],
-    "completeness_score": 67,
-    "notes": "phase4_person_profile（2026-11-17），从零生成。核心事实链：2018-01-10部长会议政令任命秘书长、2018-01-12就任（大学官网公报+aLome.com 两源）；现于胡纳凯团队留任（24heureinfo 2026-10-19+官网管理团队页两源）；2003年博士论文（LBEV论文列表+UL图书馆DBA书目两源）；WASCAL理事会角色（官网2016公告+2021年度审计报告+2023-2025脸书帖文链）。同名排查：(1) Maryse Adjo QUASHIE（1979-2015年任洛美大学教育科学副教授、前秘书长）为另一人，已排除；(2) Benjamin Kofi Quashie（加纳驻南非高级专员）为另一人；(3) 学术署名「Marie-Luce Akossiwoa Quashie」与官方名「Akossiwoa Madje Essi QUASHIE épouse MENSAH-ATTOH」经 WASCAL 年报（Dr. (Mrs.) Akosiwa Quashie、第一副主席）、CAMES CCI 2021 官方名单（QUASHIE Akossiwoa Madje Essi, épouse MENSAH-ATTOH，生物技术专业）、CERME 报道（Marie Luce Akossiwoa QUASHIE，秘书长）交叉指向同一人；(4) 检索中的纽约记者「QUASHIE.」、加纳裔普通同名者均已排除。存疑记录：(1) 出生日期/出生地无任何来源，置 null；(2) WASCAL 理事会主席任期精确起止月份无来源（2023年初当选、2025年内卸任），照实标注区间；(3) 教授晋升年份无来源（2018年为副教授、2026年为教授）；(4) 夫姓存在 MENSAH-ATTOH 与 ATTOH-MENSAH 两种官方写法，以现行官网写法为准；(5) CAMES CCI 2021 名单显示其以「Biotechnologies végétales LAFPT」报名国际竞赛、决定栏为「Inscrit」（仅报名记录，结果无分），仅作辅助佐证不入正式字段；(6) 头像：无 Wikipedia/Wikidata 图片，Wikidata 未见其条目，profile 置 null。社媒：六平台均无个人账号（详见 social_accounts_note）。补充核查：(7) 头像排查——多哥高教部官网2026-03-13活动报道唯一实拍照片经下载查验为部长 Gado Tchabedji 个人照，非本人，故不采用；无其他可用自由许可图片直链。(8) ResearchGate 作者页（scientific-contributions/Marie-Luce-Akossiwoa-Quashie-2227602600）仅见于搜索引擎索引，直取被反爬墙拦截（Temporarily Unavailable），无法核实内容，故不写入 social_accounts。(9) completeness_score 受限于客观可得数据：出生日期/出生地、家族成员、个人社媒账号、政治党派立场（纯学术行政人物）均无可靠公开来源，按「禁止编造」铁律留空。"
+    "completeness_score": 70,
+    "notes": "phase4_person_profile（2026-11-17），从零生成。核心事实链：2018-01-10部长会议政令任命秘书长、2018-01-12就任（大学官网公报+aLome.com 两源）；现于胡纳凯团队留任（24heureinfo 2026-10-19+官网管理团队页两源）；2003年博士论文（LBEV论文列表+UL图书馆DBA书目两源）；WASCAL理事会角色（官网2016公告+2021年度审计报告+2023-2025脸书帖文链）。同名排查：(1) Maryse Adjo QUASHIE（1979-2015年任洛美大学教育科学副教授、前秘书长）为另一人，已排除；(2) Benjamin Kofi Quashie（加纳驻南非高级专员）为另一人；(3) 学术署名「Marie-Luce Akossiwoa Quashie」与官方名「Akossiwoa Madje Essi QUASHIE épouse MENSAH-ATTOH」经 WASCAL 年报（Dr. (Mrs.) Akosiwa Quashie、第一副主席）、CAMES CCI 2021 官方名单（QUASHIE Akossiwoa Madje Essi, épouse MENSAH-ATTOH，生物技术专业）、CERME 报道（Marie Luce Akossiwoa QUASHIE，秘书长）交叉指向同一人；(4) 检索中的纽约记者「QUASHIE.」、加纳裔普通同名者均已排除。存疑记录：(1) 出生日期/出生地无任何来源，置 null；(2) WASCAL 理事会主席任期精确起止月份无来源（2023年初当选、2025年内卸任），照实标注区间；(3) 教授晋升年份无来源（2018年为副教授、2026年为教授）；(4) 夫姓存在 MENSAH-ATTOH 与 ATTOH-MENSAH 两种官方写法，以现行官网写法为准；(5) CAMES CCI 2021 名单显示其以「Biotechnologies végétales LAFPT」报名国际竞赛、决定栏为「Inscrit」（仅报名记录，结果无分），仅作辅助佐证不入正式字段；(6) 头像：无 Wikipedia/Wikidata 图片，Wikidata 未见其条目，profile 置 null。社媒：六平台均无个人账号（详见 social_accounts_note）。补充核查：(7) 头像排查——多哥高教部官网2026-03-13活动报道唯一实拍照片经下载查验为部长 Gado Tchabedji 个人照，非本人，故不采用；无其他可用自由许可图片直链。(8) ResearchGate 作者页（scientific-contributions/Marie-Luce-Akossiwoa-Quashie-2227602600）仅见于搜索引擎索引，直取被反爬墙拦截（Temporarily Unavailable），无法核实内容，故不写入 social_accounts。(9) completeness_score 受限于客观可得数据：出生日期/出生地、家族成员、个人社媒账号、政治党派立场（纯学术行政人物）均无可靠公开来源，按「禁止编造」铁律留空。 | 2026-11-18 头像补弱：获 WASCAL 官网理事会成员页（Mme M. E. Akossiwoa QUASHIE）官方配图（2019年7月上传、文件名含其姓名），直链实测 200/image/png 后写入 profile（扩展名 png）；高教部三八妇女节活动报道多图经 P4 前核为部长个人照，维持排除。社媒补弱：新发现领英多哥站实名档案「Marie Luce Quashie」（洛美大学教师研究者），姓名+机构+职务交叉锚定为本人，新增 social_accounts 1 条（platform=linkedin）。"
   }
 }

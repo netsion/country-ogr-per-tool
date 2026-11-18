@@ -253,7 +253,11 @@
   "family_note": "未检索到配偶、子女或其他家庭成员的公开可靠资料，家庭情况不详。",
   "position_note": "第二副议长共两段任期：2024年6月（第五共和国第一立法期首届执行局）至2024年8月20日因入阁离任；2025年10月28日经空缺补选再任至今。第一段就任精确日期未单独确认（该执行局任期自2024-06-14开启）。",
   "identity_note": "身份核对：法语维基百科、Wikidata（Q136298394）、多哥议会官网议员名录（KANGBENI Gbalguéboa / TONE）、Togo First、24heureinfo、Relance Info 等来源对「Richard Gbalgueboa Kangbeni / 1959-05-28 / 达帕翁 / UNIR / 海洋经济部长（2024-08-20 至 2025-10-08）/ 第二副议长（2025-10-28 就任）」记载一致。",
-  "profile": null,
+  "profile": {
+    "source_url": "https://24heureinfo.com/wp-content/uploads/2025/10/8438d3d677d16321a449fa6884f000af_L.jpg",
+    "local_path": "minio-store/default/popular-person-profile/tg/TG-PERSON-000022.jpg",
+    "minio_path": "default/popular-person-profile/tg/TG-PERSON-000022.jpg"
+  },
   "contacts": [],
   "collection_meta": {
     "collection_date": "2026-11-17",
@@ -267,8 +271,8 @@
       "web_search",
       "social_media"
     ],
-    "completeness_score": 85,
-    "notes": "资料稀缺型任务，实际采集情况：共读取5个独立来源全文（法语维基百科、24heureinfo、Togo First 人物库、Relance Info、Léconomiste du Togo）并经 Wikidata API 交叉验证；另有议会官网（Cloudflare 拦截，仅得检索摘要：议员名录 KANGBENI Gbalguéboa / TONE）、TogoMatin、27avril、ATOP 等检索摘要佐证。关键事实（出生日期、籍贯、党籍、部长任期、副议长当选）均有多源一致。存疑/单源字段：2020-2024年5月的第一段议员经历（TogoMatin+27avril 检索摘要）；第二副议长第一届就任精确日期（仅知执行局2024-06-14开启）；索科德现代中学（Facebook 同名账号，推定）；四个社媒账号均为同名推定、身份待核。家庭、宗教、联系方式未检索到公开资料，contacts 留空、family_members 置空。",
+    "completeness_score": 86,
+    "notes": "资料稀缺型任务，实际采集情况：共读取5个独立来源全文（法语维基百科、24heureinfo、Togo First 人物库、Relance Info、Léconomiste du Togo）并经 Wikidata API 交叉验证；另有议会官网（Cloudflare 拦截，仅得检索摘要：议员名录 KANGBENI Gbalguéboa / TONE）、TogoMatin、27avril、ATOP 等检索摘要佐证。关键事实（出生日期、籍贯、党籍、部长任期、副议长当选）均有多源一致。存疑/单源字段：2020-2024年5月的第一段议员经历（TogoMatin+27avril 检索摘要）；第二副议长第一届就任精确日期（仅知执行局2024-06-14开启）；索科德现代中学（Facebook 同名账号，推定）；四个社媒账号均为同名推定、身份待核。家庭、宗教、联系方式未检索到公开资料，contacts 留空、family_members 置空。 | 2026-11-18 头像补弱：取 24heureinfo「Richard Gbalgueboa Kangbeni élu deuxième vice-président」报道页 og:image 为合规图片直链，实测 HTTP 200、Content-Type image/jpeg；profile 新建三键，local/minio 按 tg/ 目录约定登记，未下载图片。",
     "quotes": [
       {
         "title": "Richard Gbalgueboa Kangbeni — Wikipédia (fr)",

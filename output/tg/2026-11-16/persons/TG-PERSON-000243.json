@@ -97,14 +97,14 @@
   ],
   "person_relationships": [
     {
-      "person_id": null,
+      "person_id": "TG-PERSON-000554",
       "person_name": "普罗斯珀·孔蒂埃博 (Mgr Prosper Kontiebo)",
       "relationship_type": "superior",
       "description": "瓦加杜古总主教兼 UCAO 大校监（Grand Chancelier）：2026年11月3日主持 UCAO 第10届法定大会开幕式，与总校长阿科蒂亚构成「教会监督—学术行政」的集团领导组合。依 UCAO 体制，总校长人选由西非地区主教团会议（CERAO）提议、圣座教育部遴选，大校监为其教会方面的上级。",
       "source": "http://ucaobenin.org/pages/article?id=78"
     },
     {
-      "person_id": null,
+      "person_id": "TG-PERSON-000562",
       "person_name": "奥古斯丁·恩迪亚耶 (Père Augustin Ndiaye)",
       "relationship_type": "colleague",
       "description": "前任 UCAO 总校长：2020年11月13日在第4届大会上就任，接替自2015年在任的弗朗索瓦·格扎维埃·达米巴（François Xavier Damiba）；塞内加尔籍司铎、教会法博士。2025年交棒阿科蒂亚。",
@@ -125,14 +125,14 @@
       "source": "http://ucaobenin.org/pages/article?id=78"
     },
     {
-      "person_id": null,
+      "person_id": "TG-PERSON-000563",
       "person_name": "阿里乌内·巴达拉·坎吉 (Pr Alioune Badara Kandji)",
       "relationship_type": "colleague",
       "description": "塞内加尔谢赫·安塔·迪奥普大学（UCAD）校长；2026年3月4日在达喀尔接见阿科蒂亚，双方商定加强两校合作，阿科蒂亚表示愿借鉴 UCAD 的行政治理模式。",
       "source": "https://senego.com/enseignement-superieur-lucad-et-lucao-consolident-leurs-relations_1933854.html"
     },
     {
-      "person_id": null,
+      "person_id": "TG-PERSON-000564",
       "person_name": "埃德蒙·亚沃·阿梅库塞 (Rév. Père Edmond Yawo Amekuse)",
       "relationship_type": "colleague",
       "description": "2023–2026年任 UCAO 校长部秘书长（Secrétaire Général，驻瓦加杜古总校长部），与总校长共事；2026年6月获教宗良十四世任命为多哥帕利梅（Kpalimé）主教。（该履历来自帕利梅教区 TikTok 官方账号检索摘要，供参考）",
@@ -191,7 +191,11 @@
     }
   ],
   "biography_summary": "本雅明·阿科蒂亚（全名科库·本雅明·阿科蒂亚，Kokou Benjamin Akotia），1965年生于多哥巴萨，天主教司铎（1992年在意大利洛迪晋铎，隶属多哥阿塔帕梅教区），现任西非天主教大学（UCAO）集团总校长，统辖西非7国8个校区、约1.2万名学生的天主教私立大学网络，总校长部驻布基纳法索瓦加杜古。他拥有法国斯特拉斯堡大学圣经科学（2006年）与民族学（2007年）两个博士学位，长期在西非天主教大学阿比让校区神学院任教，历任副院长、院长（现荣休院长），并在阿比让 CELAF 研究所和摩洛哥拉巴特 Al Mowafaqa 普世神学研究所兼任教职；系泛非天主教释经学者协会（APECA）成员、多哥神学研究网络（RTRT）创始成员。2025年就任集团总校长后，他在梵蒂冈新闻网专访中力陈 UCAO「以教育促进西非一体化」的使命，批评各国对私立大学博士授予权的限制；2026年3月访问塞内加尔谢赫·安塔·迪奥普大学推动校际合作，同年11月主持宣读集团第10届法定大会闭幕公报。作为旧约评注学者，他出版过关于约伯记、约拿书、出埃及记与利未记的多部著作，其《永恒的禧年》（2022年）探讨非洲神学议题。",
-  "profile": null,
+  "profile": {
+    "source_url": "https://i.ytimg.com/vi/zYRjgK__L6I/maxresdefault.jpg",
+    "local_path": "minio-store/default/popular-person-profile/tg/TG-PERSON-000243.jpg",
+    "minio_path": "default/popular-person-profile/tg/TG-PERSON-000243.jpg"
+  },
   "works": [
     "《永恒的禧年——〈利未记〉解读》(Le Jubilé perpétuel. Une lecture du Lévitique)，非洲面具出版社，2022年10月，ISBN 9782493850058",
     "《Bedewoha，在世界庇护下生活》(Bedewoha, vivre à l'abri du monde)，非洲面具出版社",
@@ -220,8 +224,8 @@
       "web_search",
       "social_media"
     ],
-    "completeness_score": 74,
-    "notes": "Phase4 人物画像：法语→英语多轮检索，7个独立来源原文页直取（非洲面具出版社作者页、Vatican News、UCAO 贝宁校区官网、Virgo Maria 两条、Senego、leFaso.net）+ 法文维基 UCAO 条目 + LinkedIn/Facebook/TikTok/X 检索摘要佐证；就任总校长确切日期、家族成员、个人联系方式、Wikidata 条目（检索无本人 QID）均未获取，涉及字段留空。评分说明：validator 口径下 social_accounts 仅确证 LinkedIn 一条、education 仅两个可证博士学位、family/contacts 无公开数据，completeness_score 按实际可证数据计，不虚增条目。 | work_experience[0].org_id_note 原值「UCAO 集团总部（总校长部/Recteur 驻布基纳法索瓦加杜古）为7国8校区网络中枢，未收录于多哥 TG 索引；其多哥校区对应 TG-ACAD-006（UCAO-UUT）。」已按校验器白名单剥离 | work_experience[1].org_id_note 原值「UCAO 集团中枢（总校长部驻瓦加杜古）未收录于多哥 TG 索引，org_id 置 null；多哥校区对应 TG-ACAD-006。」已按校验器白名单剥离 | 顶层 works_note 原值「著作信息取自非洲面具出版社（Éditions Le Masque Noir）作者简介页、Open Library 与 Actualitté 图书页；其中《贝特耳叙事的非洲解读》为与纳乌努合著。」已按校验器白名单归档",
+    "completeness_score": 75,
+    "notes": "Phase4 人物画像：法语→英语多轮检索，7个独立来源原文页直取（非洲面具出版社作者页、Vatican News、UCAO 贝宁校区官网、Virgo Maria 两条、Senego、leFaso.net）+ 法文维基 UCAO 条目 + LinkedIn/Facebook/TikTok/X 检索摘要佐证；就任总校长确切日期、家族成员、个人联系方式、Wikidata 条目（检索无本人 QID）均未获取，涉及字段留空。评分说明：validator 口径下 social_accounts 仅确证 LinkedIn 一条、education 仅两个可证博士学位、family/contacts 无公开数据，completeness_score 按实际可证数据计，不虚增条目。 | work_experience[0].org_id_note 原值「UCAO 集团总部（总校长部/Recteur 驻布基纳法索瓦加杜古）为7国8校区网络中枢，未收录于多哥 TG 索引；其多哥校区对应 TG-ACAD-006（UCAO-UUT）。」已按校验器白名单剥离 | work_experience[1].org_id_note 原值「UCAO 集团中枢（总校长部驻瓦加杜古）未收录于多哥 TG 索引，org_id 置 null；多哥校区对应 TG-ACAD-006。」已按校验器白名单剥离 | 顶层 works_note 原值「著作信息取自非洲面具出版社（Éditions Le Masque Noir）作者简介页、Open Library 与 Actualitté 图书页；其中《贝特耳叙事的非洲解读》为与纳乌努合著。」已按校验器白名单归档 | 【2026-11-18 头像补弱】新增头像直链：梵蒂冈新闻网法语频道官方 YouTube 专访视频《Interview avec le Père Benjamin Akotia, recteur de l'UCAO》（2025-11，视频题名与官方频道归属经 YouTube oEmbed API 核实）封面图 https://i.ytimg.com/vi/zYRjgK__L6I/maxresdefault.jpg（HTTP 200、image/jpeg 实测通过；专访其本人，封面即其肖像）。fr.wikipedia 无其条目。备选 Vatican News 专访报道 og:image（UCAO 大会主题图）与本人肖像对应性较弱，未采用。profile 三键按 000246 先例新建（.jpg）。",
     "quotes": [
       {
         "title": "Le Jubilé perpétuel. Une lecture du Lévitique — de Benjamin Akotia（Éditions Le Masque Noir 作者简介）",

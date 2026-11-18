@@ -29,7 +29,7 @@
     }
   ],
   "current_positions": [
-    "西共体农业和粮食地区署执行署长（代理） (Directeur exécutif p.i. de l'ARAA)"
+    "西共体农业和粮食地区署执行署长（代理） (执行主任 p.i. de l'ARAA)"
   ],
   "education": [],
   "education_note": "多语种检索（法语、英语）未发现任何披露其教育背景（院校、学位、专业）的公开来源；ARAA官网人员页仅载职务与联系方式，不载履历细节，故教育条目留空。",
@@ -157,12 +157,16 @@
     }
   ],
   "social_accounts": [],
-  "social_accounts_note": "六平台定向检索（2026-11-17）：facebook/twitter(x)/instagram/youtube/linkedin/tiktok均未发现可确证归属本人物的实名账号。Facebook、X、TikTok、YouTube、Instagram上的「Mohamed Zongo」检索结果绝大多数为布基纳法索U20/U17足球运动员（2009/2010年生）；LinkedIn有60+同名档案，无一与「ARAA/洛美/农业行政财务」任职信息匹配；其公务表态均经由机构账号发布（ARAA官网araa.org、ARAA领英公司页、ECOWAS机构账号），无个人账号可录。",
+  "social_accounts_note": "六平台定向检索（2026-11-17）：facebook/twitter(x)/instagram/youtube/linkedin/tiktok均未发现可确证归属本人物的实名账号。Facebook、X、TikTok、YouTube、Instagram上的「Mohamed Zongo」检索结果绝大多数为布基纳法索U20/U17足球运动员（2009/2010年生）；LinkedIn有60+同名档案，无一与「ARAA/洛美/农业行政财务」任职信息匹配；其公务表态均经由机构账号发布（ARAA官网araa.org、ARAA领英公司页、ECOWAS机构账号），无个人账号可录。 2026-11-18 社媒补弱：六平台复核无可确证本人账号（X/Facebook/Instagram/TikTok/YouTube 命中均为布基纳法索同名足球运动员（2009/2010 年生、切尔西转会传闻主角）或机构账号；LinkedIn 未见与 ARAA 洛美任职匹配的本人档案）。",
   "family_members": [],
   "family_note": "全部公开来源未披露其婚姻、子女或其他家庭成员信息，留空禁止推测。",
   "biography_summary": "莫哈梅德·宗戈（Mohamed Zongo），西非国家经济共同体（CEDEAO）农业和粮食地区署（ARAA）现任代理执行署长（Directeur exécutif p.i.）。ARAA总部设于多哥洛美，是西共体区域农业政策（ECOWAP）的技术执行机构，现协调18个区域农业项目与计划。宗戈自2017年（或更早）起在ARAA主持行政与财务条线，历任行政与财务单元负责人、行政与财务部负责人，期间长期以「代执行署长」名义签署机构对外文件。2024年4月首任执行署长乌塞尼·萨利富荣休后，宗戈以代理执行署长身份主持署务至今：2024年6月起以该身份签署招聘采购通知，2024-2025年间代表西共体出席向加纳移交500吨谷物、区域粮食储备战略修订启动（阿布贾）、PRAOP-3乳业青年就业项目研讨（洛美）、达喀尔粮食危机年度协调会等活动，并多次代西共体经济事务与农业委员图雷-利采致开幕辞。2025年11月起，ARAA技术运营部代理负责人坎菲坦在多份官方新闻中被直接称谓为执行署长，但ARAA官网「关键人员」页截至2026年11月17日仍列宗戈为代理执行署长，双代理表述并存，其最终去留待西共体委员会正式公告。公开来源未见其出生、教育、家庭信息；国籍未经直接来源声明，按姓氏学依据暂记布基纳法索籍。",
-  "profile": null,
-  "profile_note": "ARAA官网人员页载有其头像，但页面未提供图片直链（需前端资源解析），未获取合规原图URL，暂置空。",
+  "profile": {
+    "source_url": "https://www.araa.org/sites/default/files/2023-11/personnal.jpg",
+    "local_path": "minio-store/default/popular-person-profile/tg/TG-PERSON-000123.jpg",
+    "minio_path": "default/popular-person-profile/tg/TG-PERSON-000123.jpg"
+  },
+  "profile_note": "ARAA官网人员页载有其头像，但页面未提供图片直链（需前端资源解析），未获取合规原图URL，暂置空。 2026-11-18 头像补弱：已从该人员专页 Drupal field_image 字段解析出图片直链 https://www.araa.org/sites/default/files/2023-11/personnal.jpg（HTTP 实测 200 image/jpeg），写入 profile。",
   "nationality_note": "国籍未经直接来源确认：全部已读公开来源（ARAA官网人员页、ECOWAS官网新闻、采购文件签署页、媒体采访）均无国籍声明。BF为推断值，依据：(1)「Zongo」为布基纳法索莫西族最常见姓氏之一，任务参数亦标记BF可能；(2)未发现任何来源称其为多哥籍或其他国籍；(3)ARAA作为西共体专门机构，其官员须为成员国国民。此为待核实的强证据推断（参照库内TG-PERSON-000118先例），待官方履历或西共体委员会任命公告核实。",
   "nationality_verification": [
     "未检索到任何声明其国籍的官方文件或媒体报道（法/英双语多轮检索，2026-11-17）",
@@ -182,8 +186,8 @@
       "wikidata",
       "government_registry"
     ],
-    "completeness_score": 64,
-    "notes": "从零生成。11个来源全文直取（ARAA官网人员页×2/新闻×2/征选PDF×2、ECOWAS官网×3、ECOWAP News、actu-togo、agratime、wildaf-ao转载agridigitale、维基数据搜索API）；关键事实（2017/2020/2024职务序列、2024-06代理署长签署身份、官网人员页现行名单）均经原文页直取交叉验证。国籍BF为姓氏学推断，未经直接来源证实，已置nationality_verification详注。",
+    "completeness_score": 65,
+    "notes": "从零生成。11个来源全文直取（ARAA官网人员页×2/新闻×2/征选PDF×2、ECOWAS官网×3、ECOWAP News、actu-togo、agratime、wildaf-ao转载agridigitale、维基数据搜索API）；关键事实（2017/2020/2024职务序列、2024-06代理署长签署身份、官网人员页现行名单）均经原文页直取交叉验证。国籍BF为姓氏学推断，未经直接来源证实，已置nationality_verification详注。 2026-11-18 头像补弱：ARAA 官网人员专页头像直链已获取并实测通过（200 image/jpeg）。2026-11-18 社媒补弱：六平台复核无可确证本人账号，social_accounts 维持为空。",
     "quotes": [
       {
         "title": "Mohamed Zongo — ARAA官网人员页（Directeur exécutif p.i.，2026-11-17实时读取）",
