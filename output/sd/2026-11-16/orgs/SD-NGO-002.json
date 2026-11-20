@@ -1,0 +1,325 @@
+{
+  "org_id": "SD-NGO-002",
+  "basic_info": {
+    "name_original": "Emergency Response Rooms",
+    "name_zh": "紧急应变室",
+    "name_en": "Emergency Response Rooms",
+    "aliases": [
+      "Emergency Response Rooms (Sudan)",
+      "ERRs",
+      "غرف الطوارئ",
+      "苏丹紧急应变室",
+      "緊急應變室"
+    ],
+    "org_type": "NGO",
+    "org_subtype": "humanitarian_org",
+    "country_iso3": "SDN",
+    "hq_country_iso3": "SDN",
+    "founded_date": "2023-04-01",
+    "website": "https://khartoumerr.org/",
+    "wikidata_qid": "Q128240958"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "@khartoumerr",
+      "url": "https://www.facebook.com/@khartoumerr",
+      "source": 6
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "喀土穆州紧急应变室互动地图（Khartoum State ERR Interactive Map）",
+      "url": "https://interactivemap.khartoumerr.org/",
+      "description": "标注喀土穆州七个辖区应急响应室活动点位、社区厨房与服务分布的官方互动地图",
+      "source": "https://khartoumerr.org/"
+    },
+    {
+      "name": "Mutual Aid Sudan 捐助平台",
+      "url": "https://mutualaidsudan.org/donate",
+      "description": "官网导流的集中捐助通道，面向侨民与国际捐款人筹集网络运营资金",
+      "source": "https://khartoumerr.org/"
+    },
+    {
+      "name": "喀土穆州ERR报告页（Our Reports）",
+      "url": "https://khartoumerr.org/our-reports",
+      "description": "官网发布的项目报告栏目，含粮食安全与分发计划、妇女应变室计划、保护计划等文件入口",
+      "source": "https://khartoumerr.org/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "SD-PERSON-000374",
+      "name": "穆赫塔尔·阿蒂夫（Mukhtar Atif）",
+      "title": "发言人（巴赫里）",
+      "title_description": "喀土穆州巴赫里区应急响应室发言人",
+      "description": "英语与中文维基百科信息框列其为网络发言人之一；ERR为去中心化志愿网络，无单一最高领导人，各房间由志愿协调人对外发声（该信息框条目在英文维基标注有待查证来源）"
+    },
+    {
+      "person_id": "SD-PERSON-000375",
+      "name": "艾哈迈德·穆斯塔法（Ahmed Mustafa）",
+      "title": "发言人",
+      "title_description": "应急响应室网络发言人之一",
+      "description": "英语与中文维基百科信息框与Mukhtar Atif并列列为发言人；网络为志愿协作结构，发言人负责向国际媒体说明各房间人道工作"
+    },
+    {
+      "person_id": "SD-PERSON-000376",
+      "name": "哈朱吉·库卡（Hajooj Kuka）",
+      "title": "对外联络官（ECO）",
+      "title_description": "网络对外联络与倡议负责人",
+      "description": "苏丹知名电影人与公民行动人士，2019年革命后投身公民不服从行动；据维基百科信息框自2023年4月战争爆发后担任紧急应变室对外联络官，负责国际倡议与筹资对接"
+    },
+    {
+      "person_id": "SD-PERSON-000377",
+      "name": "阿尔萨努西·亚当（Alsanosi Adam）",
+      "title": "发言人／网络成员",
+      "title_description": "对外阐释网络互助传统与妇女应变室的发言人",
+      "description": "以发言人身份向媒体解释网络植根的「纳菲尔（nafir，集体动员）」传统，概括为「人人为我，我为人人」；据Cordaid2026年2月专访，介绍全国已发展超过90个妇女主导的妇女应变室"
+    }
+  ],
+  "departments": [
+    {
+      "name": "本地化协调理事会（Localisation Coordination Council, LCC）",
+      "dept_id": "SD-NGO-002-DEPT-001",
+      "head": null,
+      "description": "2023年11月组建的全国协调机构，对接各州应急响应室网络、国家与国际人道伙伴及捐助方；据研究报道，其创始宪章规定喀土穆州占7席（每辖区1席）、其余各州各1席，并建立对接国际资助方计划与报告要求的「F-system」机制",
+      "parent_dept_id": null
+    },
+    {
+      "name": "喀土穆州应急响应室支持办公室（Khartoum State ERR Support Office）",
+      "dept_id": "SD-NGO-002-DEPT-002",
+      "head": null,
+      "description": "负责为喀土穆州七个辖区的应急响应室建立伙伴关系并动员支持，运营官方网站、互动地图与捐助对接（官网章程页）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "喀土穆辖区应急响应室（Khartoum Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-003",
+      "head": null,
+      "description": "喀土穆州喀土穆辖区的基层房间，按社区需要运营厨房、撤离与医疗服务",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "巴赫里辖区应急响应室（Bahri Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-004",
+      "head": null,
+      "description": "喀土穆州巴赫里辖区基层房间；发言人Mukhtar Atif出自该辖区",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "东尼罗辖区应急响应室（East Nile Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-005",
+      "head": null,
+      "description": "喀土穆州东尼罗辖区基层房间，负责当地粮食分发与人道服务",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "卡拉里辖区应急响应室（Karari Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-006",
+      "head": null,
+      "description": "喀土穆州卡拉里辖区（恩图曼北部）基层房间",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "恩图曼辖区应急响应室（Omdurman Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-007",
+      "head": null,
+      "description": "喀土穆州恩图曼辖区基层房间，战时维持社区厨房与供水服务",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "贾巴勒·奥利亚辖区应急响应室（Jabel Awlia Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-008",
+      "head": null,
+      "description": "喀土穆州贾巴勒·奥利亚辖区基层房间",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "翁巴达辖区应急响应室（Ombada Locality ERR）",
+      "dept_id": "SD-NGO-002-DEPT-009",
+      "head": null,
+      "description": "喀土穆州翁巴达辖区（恩图曼西部流离失所者聚居区）基层房间",
+      "parent_dept_id": "SD-NGO-002-DEPT-002"
+    },
+    {
+      "name": "保护办公室（Protection Office）",
+      "dept_id": "SD-NGO-002-DEPT-010",
+      "head": null,
+      "description": "网络专业办公室之一，负责志愿者安全保护、平民撤离协调与性暴力响应（含性侵与性骚扰个案处理规程）",
+      "parent_dept_id": null
+    },
+    {
+      "name": "医疗办公室（Medical Office）",
+      "dept_id": "SD-NGO-002-DEPT-011",
+      "head": null,
+      "description": "网络专业办公室之一，支援仍在运转的医院燃料与物资供应、药房药品与医疗后送",
+      "parent_dept_id": null
+    },
+    {
+      "name": "妇女应变室／妇女办公室（Women's Response Rooms, WRR）",
+      "dept_id": "SD-NGO-002-DEPT-012",
+      "head": null,
+      "description": "妇女主导的专门小组，提供心理社会支持、性别暴力幸存者保护与医疗转介，并组织15至20人的妇女储蓄与生产合作社；据Cordaid2026年2月报道全国已超过90个；研究指其在LCC中属受助类别而无决策席位",
+      "parent_dept_id": null
+    },
+    {
+      "name": "财务办公室（Finance Office）",
+      "dept_id": "SD-NGO-002-DEPT-013",
+      "head": null,
+      "description": "网络专业办公室之一，负责社区众筹与国际捐助资金的接收、审核与分配，坚持无薪酬无管理费原则",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-04-15",
+      "title": "苏丹内战爆发，紧急应变室扩展为战时本土人道救援主干",
+      "description": "2023年4月15日苏丹武装部队与快速支援部队开战，源自抵抗委员会、2020年疫情期间已运营社区厨房的紧急应变室迅速扩展为去中心化志愿网络：运营社区厨房（تكايا）、为仍在运转的医院供应燃料与医疗物资、维护供水与通讯设施，并从冲突区撤离数以万计平民；2023年喀土穆法蒂哈布区3名志愿者在救助平民时遇害，奈瓦沙市场另有2人被杀",
+      "impact": "截至2024年12月累计援助超过1150万人，成为国际援助难以抵达地区的「最后生命线」，志愿者规模约4600人（2024年）",
+      "source": "https://en.wikipedia.org/wiki/Emergency_Response_Rooms"
+    },
+    {
+      "date": "2023-11-01",
+      "title": "组建本地化协调理事会（LCC），协调架构引发代表性讨论",
+      "description": "2023年11月各州应急响应室组建本地化协调理事会（Localisation Coordination Council），以对接州级网络与国内外人道伙伴、回应国际捐助方对可受理主体要求；受访志愿者称其为「危机规模所迫而非初衷」。研究报道指其创始宪章规定喀土穆州7席、其余各州各1席，形成结构性失衡；妇女应变室被列为受助类别却无决策席位，2026年研究估算其所得资金仅约5%",
+      "impact": "ERR与国际资助体系间形成「F-system」计划报告对接机制，资金可及性提升，但喀土穆主导与基层代表性争议延续",
+      "source": "https://africanarguments.org/2026/08/who-speaks-for-sudans-emergency-response-rooms/"
+    },
+    {
+      "date": "2024-10-03",
+      "title": "获奥斯陆国际和平研究所（PRIO）提名2025年诺贝尔和平奖",
+      "description": "PRIO于2024年10月3日宣布提名苏丹紧急应变室角逐2025年诺贝尔和平奖，称其为「危机中的希望与坚韧象征」；2025年1月PRIO所长又将其列于个人年度推荐名单首位；2026年10月西达尔富尔州应急响应室协调委员会宣布该网络第三次连续获提名",
+      "impact": "国际关注度显著上升，美国众议员奥马尔等政界人士公开呼吁对ERR直接拨款",
+      "source": "https://www.aljazeera.net/encyclopedia/2025/10/12/%D8%BA%D8%B1%D9%81-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9-%D8%B4%D8%A8%D9%83%D8%A9-%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A%D8%A9"
+    },
+    {
+      "date": "2025-04-11",
+      "title": "国际援助冻结与中介渠道争议冲击社区厨房（调查报道口径）",
+      "description": "调查报道：《新人道主义》2025年4月11日分析指援助遭冲突双方系统性阻碍与武器化叠加深度资金削减；《基督教科学箴言报》4月14日报道美国冻结对外援助后多个应急应变室失去主要资金来源、社区厨房面临停运。批评口径：由于多数ERR未注册，捐方须经联合国机构或国际NGO等中介转付，半岛电视台与受访志愿者指中介层级削减拨款实际到位额并延误时效；ERR支持者批评「捐助方—联合体—国际NGO—本地组织」链条官僚低效，主张去殖民化援助与直接资助（如欧盟2024年4月12日声明赞誉、维基所引Ilhan Omar直接拨款呼吁）。机构回应口径：苏丹人道基金（SHF）的ERR/互助小组资助计划由2024年1500万美元增至2025-2026年2500万美元，2025年纽约克林顿全球倡议会议宣布至少1600万美元直接灵活拨款",
+      "impact": "社区厨房网络收缩压力增大；国际资助模式转向扩大对本地互助网络的直接拨款",
+      "source": "https://www.thenewhumanitarian.org/analysis/2025/04/11/sudan-depth-aid-efforts-blocked-and-weaponised-amid-sweeping-cuts-and-army"
+    },
+    {
+      "date": "2025-10-01",
+      "title": "获2025年正确生活方式奖（「另类诺贝尔奖」），年度连获多项国际荣誉",
+      "description": "2025年10月1日瑞典正确生活方式基金会宣布紧急应变室获奖，表彰其「在战争与国家崩溃中构建有韧性的互助模式、以尊严支撑数百万人」。同年该网络先后获：欧盟（苏丹）人权奖（2025年4月底公布、5月20日颁发，EEAS称其捍卫生命权）、挪威Rafto人权奖（2025年9月17日，基金会指冲突期间殉难志愿者逾百人）",
+      "impact": "成为2025年获奖最集中的苏丹民间组织，战时人道贡献获系统性国际承认",
+      "source": "https://rightlivelihood.org/news/sudans-emergency-response-rooms-receive-right-livelihood-award-for-life-saving-community-led-humanitarian-response/"
+    },
+    {
+      "date": "2026-03-26",
+      "title": "伦敦接受2025年查塔姆研究所奖，殉难与治理问责问题并受关注",
+      "description": "2026年3月26日在伦敦特别典礼上，4名ERR成员（含性别响应工作志愿者与一名南科尔多凡州联合创始人）代表网络接受2025年查塔姆研究所奖（Chatham House Prize）。《非洲观点》2026年8月31日刊文追问「谁代表ERR」：LCC章程要求成员未经授权不得以其名义公开发言，代表遴选程序不透明；研究指冲突期间殉难志愿者已超140人（Rafto基金会口径为逾百人）。同年9月该网络再获2026年巴尔赞「人道、和平与民族间友爱」奖；2026年2月26日联合国专家亦公开呼吁国际社会加大对ERR志愿者的支持",
+      "impact": "国际荣誉与内部治理问责并行；志愿者安全保障与资金直达机制成为核心诉求",
+      "source": "https://www.chathamhouse.org/2026/03/sudans-volunteer-led-aid-network-receives-2025-chatham-house-prize"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "SD-NGO-001",
+      "org_name": "苏丹医生工会（نقابة أطباء السودان）",
+      "org_type": "NGO",
+      "org_description": "苏丹医生职业组织，战时记录医疗系统受损与人员伤亡，并为前线医疗响应提供专业支持",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "SD-NGO-003",
+      "org_name": "苏丹红新月会（Sudanese Red Crescent Society）",
+      "org_type": "NGO",
+      "org_description": "苏丹国家红会，国内最主要的人道救援组织之一，战时参与救援、医疗与营地服务；与紧急应变室同为本轮战争中的本土人道响应主体",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "苏丹抵抗委员会（لجان المقاومة السودانية）",
+      "org_type": "NGO",
+      "org_description": "2019年苏丹革命中崛起的街区志愿网络，2020年新冠疫情期间率先组织社区厨房与医疗服务，为紧急应变室的直接母体",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "沙巴卡（Shabaka）",
+      "org_type": "NGO",
+      "org_description": "苏丹侨民主导的人道研究与支持组织，2023年12月发布《苏丹紧急应变室：概览与建议》报告，推动国际社会理解与资助该网络",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "互助苏丹（Mutual Aid Sudan）",
+      "org_type": "NGO",
+      "org_description": "官网导流的集中捐助平台（mutualaidsudan.org），为应急响应室网络筹集侨民与国际资金",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "欧洲联盟（الاتحاد الأوروبي）",
+      "org_type": "INTL",
+      "org_description": "2024年4月12日欧盟外交与安全政策高级代表公开赞扬紧急应变室的勇气与投入；2025年4月宣布向其授予欧盟（苏丹）人权奖并于5月20日颁发",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "苏丹紧急应变室是由2019年革命抵抗委员会成员于2020年前后发起、2023年4月内战爆发后全面扩展的社区主导志愿人道网络，无单一总部、多数未注册法人，以苏丹「纳菲尔（nafir，集体动员互助）」传统为根基。核心业务包括：一、运营遍布18州、逾700个基层房间的社区厨房（تكايا）网络，为受饥荒威胁的数百万平民提供餐食；二、组织前线撤离与平民转移，2024至2025年仅杰济拉州即协助撤离逾3000人；三、支援仍在运转的医院，提供燃料、药品、太阳能供电并将透析设备送国外维修；四、维护供水与通讯等生命线基础设施；五、通过妇女应变室为性暴力幸存者提供医疗与心理支持、安全空间，并组织妇女储蓄与生产合作社、儿童安全空间与替代教育项目；六、开展学校修复供餐、环境卫生运动与媒体倡导。资金主要来自苏丹侨民与社区众筹及部分国际捐助（无薪酬、无管理费）。截至2024年12月累计援助超过1150万人；志愿者约2.6万人（2025年口径），战时殉难志愿者逾百人。",
+  "industries": [
+    "nonprofit",
+    "humanitarian_aid"
+  ],
+  "apec_stance": "苏丹不是APEC成员（APEC现有21个成员经济体，苏丹未加入），不存在涉APEC立场。作为去中心化志愿人道网络，紧急应变室实际参与的国际框架为人道协调机制：与联合国人道事务协调厅（OCHA）体系对接，接受苏丹人道基金（SHF）ERR/互助小组专项资助（2024年1500万美元增至2025-2026年2500万美元），并通过本地化协调理事会（LCC）及「F-system」机制同国际NGO与双边捐助方（如英国FCDO经Proximity 2 Humanity的直接资助）协作。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/75/Emergency_Response_Rooms_Khartoum_State_logo.png/330px-Emergency_Response_Rooms_Khartoum_State_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_en",
+      "wikipedia_ar",
+      "wikipedia_zh",
+      "official_website",
+      "aljazeera",
+      "african_arguments",
+      "rightlivelihood",
+      "rafto",
+      "eeas",
+      "chathamhouse",
+      "thenewhumanitarian"
+    ],
+    "quotes": [
+      {
+        "title": "Emergency Response Rooms - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Emergency_Response_Rooms"
+      },
+      {
+        "title": "غرف الطوارئ (السودان) - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/%D8%BA%D8%B1%D9%81_%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6_(%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86)"
+      },
+      {
+        "title": "緊急應變室 - 维基百科（中文）",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B7%8A%E6%80%A5%E6%87%89%E8%AE%8A%E5%AE%A4"
+      },
+      {
+        "title": "Who Speaks for Sudan's Emergency Response Rooms? - African Arguments (2026-08-31)",
+        "url": "https://africanarguments.org/2026/08/who-speaks-for-sudans-emergency-response-rooms/"
+      },
+      {
+        "title": "غرف الطوارئ السودانية شبكة شبابية رُشحت مرتين لجائزة نوبل للسلام - الجزيرة (2025-10-12)",
+        "url": "https://www.aljazeera.net/encyclopedia/2025/10/12/%D8%BA%D8%B1%D9%81-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D8%A6-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9-%D8%B4%D8%A8%D9%83%D8%A9-%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A%D8%A9"
+      },
+      {
+        "title": "European Union in Sudan Human Rights Prize 2025 - EEAS (2025-05-15)",
+        "url": "https://www.eeas.europa.eu/delegations/sudan/european-union-sudan-human-rights-prize-2025_en"
+      },
+      {
+        "title": "Emergency Response Rooms - Right Livelihood laureate page",
+        "url": "https://rightlivelihood.org/the-change-makers/find-a-laureate/emergency-response-rooms/"
+      },
+      {
+        "title": "Sudan's volunteer-led aid network receives 2025 Chatham House Prize - Chatham House (2026-03)",
+        "url": "https://www.chathamhouse.org/2026/03/sudans-volunteer-led-aid-network-receives-2025-chatham-house-prize"
+      }
+    ],
+    "completeness_score": 88,
+    "notes": "P3 enrich: 三语维基+官网+阿英语新闻交叉验证。key_people 的 person_id 均为 null：ERR为匿名性强的去中心化志愿网络，发言人（Mukhtar Atif、Ahmed Mustafa、Hajooj Kuka、Alsanosi Adam）不在人名索引且无建档（英文维基信息框对发言人一栏标注citation needed，已如实记录）。资金透明度争议按调查报道/批评/机构回应三口径分记于 recent_events[3]。org_subtype 由 community_org 修正为 humanitarian_org。社交账号仅确认 Facebook 官方账号；未发现可验证的 X/YouTube 官方账号，故不填。"
+  }
+}

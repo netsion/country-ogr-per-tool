@@ -1,0 +1,391 @@
+{
+ "phase": "P4_person_profiles",
+ "mode": "rolling_background",
+ "concurrency": 2,
+ "completed": [
+  "SD-PERSON-000003",
+  "SD-PERSON-000004",
+  "SD-PERSON-000005",
+  "SD-PERSON-000006",
+  "SD-PERSON-000007",
+  "SD-PERSON-000008",
+  "SD-PERSON-000009",
+  "SD-PERSON-000010",
+  "SD-PERSON-000011",
+  "SD-PERSON-000012",
+  "SD-PERSON-000013",
+  "SD-PERSON-000014",
+  "SD-PERSON-000015",
+  "SD-PERSON-000016",
+  "SD-PERSON-000018",
+  "SD-PERSON-000019",
+  "SD-PERSON-000020",
+  "SD-PERSON-000022",
+  "SD-PERSON-000023",
+  "SD-PERSON-000025",
+  "SD-PERSON-000028",
+  "SD-PERSON-000031",
+  "SD-PERSON-000034",
+  "SD-PERSON-000035",
+  "SD-PERSON-000036",
+  "SD-PERSON-000037",
+  "SD-PERSON-000038",
+  "SD-PERSON-000041",
+  "SD-PERSON-000042",
+  "SD-PERSON-000043",
+  "SD-PERSON-000044",
+  "SD-PERSON-000045",
+  "SD-PERSON-000046",
+  "SD-PERSON-000049",
+  "SD-PERSON-000050",
+  "SD-PERSON-000051",
+  "SD-PERSON-000053",
+  "SD-PERSON-000054",
+  "SD-PERSON-000055",
+  "SD-PERSON-000058",
+  "SD-PERSON-000059",
+  "SD-PERSON-000060",
+  "SD-PERSON-000063",
+  "SD-PERSON-000064",
+  "SD-PERSON-000065",
+  "SD-PERSON-000066",
+  "SD-PERSON-000067",
+  "SD-PERSON-000068",
+  "SD-PERSON-000069",
+  "SD-PERSON-000070",
+  "SD-PERSON-000073",
+  "SD-PERSON-000074",
+  "SD-PERSON-000075",
+  "SD-PERSON-000078",
+  "SD-PERSON-000079",
+  "SD-PERSON-000080",
+  "SD-PERSON-000081",
+  "SD-PERSON-000082",
+  "SD-PERSON-000083",
+  "SD-PERSON-000088",
+  "SD-PERSON-000091",
+  "SD-PERSON-000093",
+  "SD-PERSON-000094",
+  "SD-PERSON-000095",
+  "SD-PERSON-000096",
+  "SD-PERSON-000097",
+  "SD-PERSON-000105",
+  "SD-PERSON-000106",
+  "SD-PERSON-000107",
+  "SD-PERSON-000109",
+  "SD-PERSON-000110",
+  "SD-PERSON-000124",
+  "SD-PERSON-000131",
+  "SD-PERSON-000132",
+  "SD-PERSON-000134",
+  "SD-PERSON-000135",
+  "SD-PERSON-000136",
+  "SD-PERSON-000138",
+  "SD-PERSON-000139",
+  "SD-PERSON-000141",
+  "SD-PERSON-000142",
+  "SD-PERSON-000143",
+  "SD-PERSON-000144",
+  "SD-PERSON-000145",
+  "SD-PERSON-000146",
+  "SD-PERSON-000147",
+  "SD-PERSON-000148",
+  "SD-PERSON-000149",
+  "SD-PERSON-000152",
+  "SD-PERSON-000153",
+  "SD-PERSON-000154",
+  "SD-PERSON-000158",
+  "SD-PERSON-000159",
+  "SD-PERSON-000160",
+  "SD-PERSON-000161",
+  "SD-PERSON-000162",
+  "SD-PERSON-000163",
+  "SD-PERSON-000164",
+  "SD-PERSON-000165",
+  "SD-PERSON-000166",
+  "SD-PERSON-000169",
+  "SD-PERSON-000170",
+  "SD-PERSON-000172",
+  "SD-PERSON-000173",
+  "SD-PERSON-000174",
+  "SD-PERSON-000181",
+  "SD-PERSON-000182",
+  "SD-PERSON-000186",
+  "SD-PERSON-000187",
+  "SD-PERSON-000188",
+  "SD-PERSON-000194",
+  "SD-PERSON-000195",
+  "SD-PERSON-000199",
+  "SD-PERSON-000204",
+  "SD-PERSON-000209",
+  "SD-PERSON-000210",
+  "SD-PERSON-000211",
+  "SD-PERSON-000212",
+  "SD-PERSON-000218",
+  "SD-PERSON-000219",
+  "SD-PERSON-000221",
+  "SD-PERSON-000222",
+  "SD-PERSON-000233",
+  "SD-PERSON-000234",
+  "SD-PERSON-000236",
+  "SD-PERSON-000240",
+  "SD-PERSON-000244",
+  "SD-PERSON-000249",
+  "SD-PERSON-000254",
+  "SD-PERSON-000257",
+  "SD-PERSON-000259",
+  "SD-PERSON-000264",
+  "SD-PERSON-000269",
+  "SD-PERSON-000277",
+  "SD-PERSON-000283",
+  "SD-PERSON-000291",
+  "SD-PERSON-000293",
+  "SD-PERSON-000295",
+  "SD-PERSON-000296",
+  "SD-PERSON-000297",
+  "SD-PERSON-000298",
+  "SD-PERSON-000300",
+  "SD-PERSON-000315",
+  "SD-PERSON-000316",
+  "SD-PERSON-000324",
+  "SD-PERSON-000325",
+  "SD-PERSON-000336",
+  "SD-PERSON-000338",
+  "SD-PERSON-000339",
+  "SD-PERSON-000340",
+  "SD-PERSON-000341",
+  "SD-PERSON-000342",
+  "SD-PERSON-000345",
+  "SD-PERSON-000346",
+  "SD-PERSON-000348",
+  "SD-PERSON-000350",
+  "SD-PERSON-000353",
+  "SD-PERSON-000354",
+  "SD-PERSON-000370",
+  "SD-PERSON-000371",
+  "SD-PERSON-000372",
+  "SD-PERSON-000374",
+  "SD-PERSON-000375",
+  "SD-PERSON-000377",
+  "SD-PERSON-000378",
+  "SD-PERSON-000379",
+  "SD-PERSON-000383",
+  "SD-PERSON-000386",
+  "SD-PERSON-000391",
+  "SD-PERSON-000393",
+  "SD-PERSON-000394",
+  "SD-PERSON-000403",
+  "SD-PERSON-000409",
+  "SD-PERSON-000412",
+  "SD-PERSON-000414",
+  "SD-PERSON-000419",
+  "SD-PERSON-000423",
+  "SD-PERSON-000425",
+  "SD-PERSON-000426"
+ ],
+ "current": [],
+ "remaining": [],
+ "failed": [],
+ "skipped": [
+  "SD-PERSON-000017 merged into SD-PERSON-000020",
+  "SD-PERSON-000024 merged into SD-PERSON-000016",
+  "SD-PERSON-000030 merged into SD-PERSON-000005",
+  "SD-PERSON-000032 merged into SD-PERSON-000014",
+  "SD-PERSON-000033 merged into SD-PERSON-000008",
+  "SD-PERSON-000201 merged into SD-PERSON-000194 (Hilu, SPLM-N)",
+  "SD-PERSON-000029 merged into SD-PERSON-000015 (Kiyan/Defense)",
+  "SD-PERSON-000039 merged into SD-PERSON-000008",
+  "SD-PERSON-000040 merged into SD-PERSON-000015",
+  "SD-PERSON-000061 merged into SD-PERSON-000016",
+  "SD-PERSON-000064 dispatch rejected (concurrency), requeued front",
+  "SD-PERSON-000195 stale remaining entry (already completed)",
+  "SD-PERSON-000026 merged into SD-PERSON-000060",
+  "SD-PERSON-000027 merged into SD-PERSON-000063",
+  "SD-PERSON-000402 merged into SD-PERSON-000419 (Dugair, SCP chair)",
+  "SD-PERSON-000049 dispatch failed on content filter, requeued for retry",
+  "SD-PERSON-000049 content filter x2, trying minimal prompt third attempt",
+  "SD-PERSON-000041 already completed (Hemedti, score 78)",
+  "SD-PERSON-000041 verified ALREADY-DONE (Hemedti score 78)",
+  "000134+141+142+143 batch content filter x1, requeued for split retry",
+  "SD-PERSON-000304 duplicate of SD-PERSON-000277 (مجدي طه Sudatel CEO, aliases match); CORP-008 KP rebound",
+  "SD-PERSON-000336 duplicate of SD-PERSON-000324 (Sadiq Adam Abdalla Wadda, EDB chair & majority shareholder, 7-source confirmation); FIN-015 KP rebound"
+ ],
+ "low_score_ok": [
+  {
+   "person_id": "SD-PERSON-000023",
+   "score": 47,
+   "reason": "低曝光技术官僚，公开资料真空，诚实结果"
+  },
+  {
+   "person_id": "SD-PERSON-000022",
+   "score": 52,
+   "reason": "低曝光技术官僚+免职复职时间线，可验证项已满"
+  },
+  {
+   "person_id": "SD-PERSON-000149",
+   "score": 69,
+   "reason": "次级官员公开资料真空（birth/edu/social/family 全无），职业链完整"
+  },
+  {
+   "person_id": "SD-PERSON-000036",
+   "score": 77,
+   "reason": "次级官员无公开个人信息，任职链+炼油厂厂长履历丰富"
+  },
+  {
+   "person_id": "SD-PERSON-000159",
+   "score": 72,
+   "reason": "卸任官员个人公开信息真空（23分结构性缺口），任职链+战时立场完整"
+  },
+  {
+   "person_id": "SD-PERSON-000163",
+   "score": 52,
+   "reason": "次级官员公开资料真空（35分结构性缺口），姓名拼写纠偏+COMESA/Baladna/面粉限价事件完整"
+  },
+  {
+   "person_id": "SD-PERSON-000173",
+   "score": 36,
+   "reason": "次级官员公开资料极稀少（姓名性别纠偏مجد→ماجدة），诚实上限"
+  },
+  {
+   "person_id": "SD-PERSON-000172",
+   "score": 62,
+   "reason": "次级技术官员公开资料有限，FAO/研究/任命事件完整，代理局长冲突已注记"
+  },
+  {
+   "person_id": "SD-PERSON-000338",
+   "score": 72,
+   "reason": "次级官员无学历/社媒/家庭公开数据，就任+晋升+绑定全链完整"
+  },
+  {
+   "person_id": "SD-PERSON-000340",
+   "score": 40,
+   "reason": "历史局长个人信息真空，任命/免职/接任波折时间线完整"
+  },
+  {
+   "person_id": "SD-PERSON-000109",
+   "score": 62,
+   "reason": "Balad Bank CEO 个人公开信息真空，任职链+MTN USSD 复苏事件完整"
+  },
+  {
+   "person_id": "SD-PERSON-000339",
+   "score": 60,
+   "reason": "前民航局长个人公开信息真空，拘押/违规调查/领空开放事件链完整"
+  },
+  {
+   "person_id": "SD-PERSON-000199",
+   "score": 69,
+   "reason": "次级武装运动官员公开资料真空，但发现关键归属错误——实为JEM立法委员会主席非乌玛党"
+  },
+  {
+   "person_id": "SD-PERSON-000053",
+   "score": 65,
+   "reason": "战时发言人个人公开信息真空，全名考证+身份链完整"
+  },
+  {
+   "person_id": "SD-PERSON-000054",
+   "score": 56,
+   "reason": "战时民兵发言人个人公开信息真空，姓名考证 قرشي 非 جراشي + 任命提前至 2023-11 + 10 条战时表态含影像核实冲突点"
+  },
+  {
+   "person_id": "SD-PERSON-000037",
+   "score": 59,
+   "reason": "低曝光技术官僚公开资料真空，身份考证纠正误归属（卫生部→能源部）"
+  },
+  {
+   "person_id": "SD-PERSON-000064",
+   "score": 60,
+   "reason": "发言人公开信息真空，2026-10-09 免职纠偏（SD-MIL-004 需更新）"
+  },
+  {
+   "person_id": "SD-PERSON-000166",
+   "score": 52,
+   "reason": "次级技术官僚公开信息真空，免职复职冲突时间线完整"
+  },
+  {
+   "person_id": "SD-PERSON-000136",
+   "score": 72,
+   "reason": "历史去职人物（首位女首席大法官），出生/家庭/社媒/肖像公开信息真空"
+  },
+  {
+   "person_id": "SD-PERSON-000043",
+   "score": 52,
+   "reason": "战时军事人物公开传记稀少，制裁链四级完整+Q136735400+死亡传闻未证实已注记"
+  },
+  {
+   "person_id": "SD-PERSON-000393",
+   "score": 73,
+   "reason": "教育/社媒/家庭/出生地公开资料真空，8 条战时立场+3 次被捕+Q16730813 完整"
+  },
+  {
+   "person_id": "SD-PERSON-000412",
+   "score": 56,
+   "reason": "次级党领袖公开信息真空，9 来源+6 立场+职务轨迹完整"
+  },
+  {
+   "person_id": "SD-PERSON-000414",
+   "score": 73,
+   "reason": "贝贾大会党穆萨派主席公开信息真空（教育/社媒/家庭全无），东苏丹和平协议+主权委员会顾问完整"
+  },
+  {
+   "person_id": "SD-PERSON-000011",
+   "score": 57,
+   "reason": "次级武装运动人物公开信息真空（birth/social/family/wikidata 全无），7 立场+半岛专访全文+4 关系完整"
+  },
+  {
+   "person_id": "SD-PERSON-000138",
+   "score": 53,
+   "reason": "司法高官无公开传记档案，birth/edu/social/family全真空，官方照片直链已入库"
+  },
+  {
+   "person_id": "SD-PERSON-000374",
+   "score": 48,
+   "reason": "基层志愿网络发言人公开信息真空，官方代表性争议如实记录"
+  },
+  {
+   "person_id": "SD-PERSON-000038",
+   "score": 52,
+   "reason": "战时新任次级官员公开资料稀少，苏丹石油组织恢复+尼罗银行风波+军旅背景完整"
+  },
+  {
+   "SD-PERSON-000131": "SD-PERSON-000131",
+   "score": 54,
+   "reason": "历史议长个人信息真空，机构归属纠偏 SD-GOV-004→005"
+  },
+  {
+   "SD-PERSON-000132": "SD-PERSON-000132",
+   "score": 54,
+   "reason": "历史议长个人信息真空，机构归属纠偏 SD-GOV-004→005"
+  },
+  {
+   "person_id": "SD-PERSON-000143",
+   "score": 56,
+   "reason": "宪法法院法官公开信息真空，姓名考证 سنية الرشيد ميرغني + 3届任期完整"
+  },
+  {
+   "SD-PERSON-000145": "SD-PERSON-000145",
+   "score": 60,
+   "reason": "宪法法院法官低曝光，巴希尔旧成员复任，诚实上限"
+  },
+  {
+   "SD-PERSON-000146": "SD-PERSON-000146",
+   "score": 56,
+   "reason": "宪法法院法官低曝光，巴希尔旧成员复任，诚实上限"
+  },
+  {
+   "person_id": "SD-PERSON-000147",
+   "score": 53,
+   "reason": "宪法法院法官低曝光，副院长身份+代理院长+2018 卡特案合议庭完整"
+  },
+  {
+   "person_id": "SD-PERSON-000144",
+   "score": 37,
+   "reason": "宪法法院法官名册列名外无任何个人事实，身份冲突发现（同名已故教授）"
+  }
+ ],
+ "person_dedup_todo": [
+  "SD-PERSON-000032 also = 卡米尔/卡米勒·伊德里斯 (PM); merge into 000014 at cleanup",
+  "SD-PERSON-000039 (SD-MIL-001 refs Atta) vs 000008 canonical — merge check at cleanup"
+ ],
+ "updated": "2026-11-19",
+ "finished": "2026-11-19"
+}
