@@ -851,7 +851,6 @@ def validate_person_profile(data, filepath):
                 elif _bracket_reversed(nm):
                     r.error(f"strict: person_relationships[{i}].person_name '{nm}' bracket direction reversed (expected 中文 (English))")
 
-    import re
     _PLACEHOLDER_PATTERNS = re.compile(
         r'^(未公开|姓名未公开|不详|未知|'
         r'配偶|长子|次子|三子|长女|次女|女儿|儿子|父亲|母亲|'

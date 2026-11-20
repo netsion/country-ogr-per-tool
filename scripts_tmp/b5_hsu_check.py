@@ -1,2 +1,0 @@
-import json,pathlib,jsonschema
-p=pathlib.Path('tmp/tw_batch5_enriched/TW-PERSON-000551.json');d=json.loads(p.read_text(encoding='utf-8'));d['collection_meta']['notes'] += ' 社交平台检索发现Facebook HsuChiaoHsin及Instagram chiaohsinhsu线索，但前者仅返回登录阻挡、后者读取失败，尚不足独立认证而未写账号。';p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8');jsonschema.validate(d,json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8-sig')));print('PASS')

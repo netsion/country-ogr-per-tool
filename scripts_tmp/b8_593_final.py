@@ -1,2 +1,0 @@
-import json,pathlib,jsonschema
-p=pathlib.Path('tmp/tw_batch8_enriched/TW-PERSON-000593.json');d=json.loads(p.read_text(encoding='utf-8'));d['family_members']=d['family_members'][:1];d['collection_meta']['notes']=d['collection_meta']['notes'].replace('父母由中评社2026专访单源实名，未收无名子女及健康信息。','父母仅见中评社记者背景介绍而非本人直接叙述，保守未收；未收无名子女及健康信息。');p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8');jsonschema.validate(d,json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8-sig')));print('PASS')

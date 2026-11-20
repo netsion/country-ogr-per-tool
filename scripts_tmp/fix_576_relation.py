@@ -1,2 +1,0 @@
-import json,pathlib,jsonschema
-f=pathlib.Path('tmp/tw_batch7_enriched/TW-PERSON-000576.json');p=json.loads(f.read_text(encoding='utf-8'));p['person_relationships'][0]['relationship_type']='superior';f.write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding='utf-8');jsonschema.validate(p,json.loads(pathlib.Path('.agents/skills/country-org-collector/person_profile_schema.json').read_text(encoding='utf-8')));print('jsonschema PASS')
