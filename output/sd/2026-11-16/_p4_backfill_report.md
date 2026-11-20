@@ -65,3 +65,18 @@
 ## 七、剩余缺口（39 人头像缺失名单要点）
 
 宪法法院成员 ×4、历史人物（1970s-80s 照片未数字化）、被制裁军阀（000043）、外籍/中国企业高管（刘英才/张品先——中文媒体配图均为油田通用图）、KACE/ERR 低曝光成员、Sudan Tribune 反爬导致的主编 000350 等。均已 notes 留痕，待后续专项（如人工图源/Wayback 专项）再挖。
+
+
+---
+
+## 附录：SOP 收尾轮（2026-11-21，chat 会话）
+
+按 dataset-finalization-sop.md 执行的收尾结果：
+
+- 字段规范：0 处需修（采集时即合规）
+- 中文规范：name_zh 100% 完备
+- 头像：SOP 前头像 56 → **75**（P18 救援 +19：al-Bashir、al-Burhan、Dagalo、al-Turabi、Ali Bedri、Yasir Arman、Abdel Khaliq Mahjub、非洲国际大学、苏丹港大学、苏丹央行等）
+- 剩余 173 缺失中：Wikidata 无 P18 的 24（QID 有但无图）+ 无 QID 149（苏丹实体在 Wikidata 覆盖率低）——属数据源限制
+- ID 关联：幽灵引用 411 置空；registered-no-profile 保留；碰撞 0；重复 QID 0
+- strict 校验：**0 errors**（266 文件）
+- 提交：08c6b14b5 / 27adfb1ce / 86b173083
