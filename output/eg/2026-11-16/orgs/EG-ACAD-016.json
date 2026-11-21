@@ -1,11 +1,13 @@
 {
   "org_id": "EG-ACAD-016",
+  "wikidata_qid": "Q21062258",
   "basic_info": {
-    "name_original": "Zewail City of Science, Technology and Innovation",
-    "name_zh": null,
+    "name_original": "مدينة زويل للعلوم والتكنولوجيا والابتكار",
+    "name_zh": "泽维尔科学技术城",
     "name_en": "Zewail City of Science, Technology and Innovation",
     "aliases": [
-      "Zewail City of Science and Technology"
+      "Zewail City of Science and Technology",
+      "Zewail City"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
@@ -28,32 +30,225 @@
       "account_name": "ZewailCity",
       "url": "https://facebook.com/ZewailCity",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；2026年11月搜索结果确认该官方主页活跃"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "zewailcityst",
+      "url": "https://www.instagram.com/zewailcityst/",
+      "source": 8,
+      "source_note": "2026年11月搜索结果确认的官方Instagram账号"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "digital_assets": [
+    {
+      "name": "官网新闻中心（阿语）",
+      "url": "https://www.zewailcity.edu.eg/ar/news",
+      "description": "泽维尔城官方新闻与公告页面，发布科研成果、教职员奖项、招生与校园活动等信息。",
+      "source": "official_website"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000667",
+      "name": "艾哈迈德·泽维尔 (أحمد زويل)",
+      "title": "创始人",
+      "title_description": "泽维尔城创建人，城市以其名字命名",
+      "description": "埃及化学家，1999年诺贝尔化学奖得主（飞秒化学）。1999年提出建设科技城构想，2000年1月1日奠基；2011年「1·25革命」后受埃及政府委托组建最高咨询委员会并重启建城项目。2011年5月11日内阁决议将其定名为「泽维尔科学技术城」并列为「科学复兴国家项目」。2016年8月2日逝世（据NIH/PMC纪念文章与英语维基百科）。"
+    },
+    {
+      "person_id": "EG-PERSON-000668",
+      "name": "马哈茂德·阿卜杜拉布 (Mahmoud Abdrabou)",
+      "title": "代理执行校长",
+      "title_description": "Acting Executive President",
+      "description": "据英语维基百科当前条目信息及泽维尔城官方Facebook账号2026年10月19日帖文，任泽维尔城代理执行校长；另据埃及高校名录网站（topuniversitiesegypt.com），此前担任战略事务院长。2026年4月25日媒体报道中执行校长仍为瓦伊尔·奥克勒，两人交接的确切时间未获权威来源确认。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000669",
+      "name": "瓦伊尔·奥克勒 (وائل عقل)",
+      "title": "执行校长（前任，2026年4月在任）",
+      "title_description": "Executive President",
+      "description": "2025年7月以代理执行校长身份公开活动（Edugate Facebook帖文）；2026年4月25日以执行校长（رئيس المدينة التنفيذي）身份就2026/2027学年学费调整向媒体作出说明（Masrawy报道）；其后由马哈茂德·阿卜杜拉布出任代理执行校长。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000670",
+      "name": "伊卜拉欣·谢尔比尼 (Ibrahim El-Sherbiny)",
+      "title": "科学技术大学代理校长",
+      "title_description": "Acting President of the University of Science and Technology（大学部）",
+      "description": "据泽维尔城官方Instagram账号2026年11月7日帖文，出任该校组成部分之一——科学技术大学的代理校长（目前仅单一官方来源，待第二独立来源确认）。中文译名为音译。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-016-DEPT-001",
+      "name": "科学技术大学 (University of Science and Technology)",
+      "head": "伊卜拉欣·谢尔比尼",
+      "description": "大学部，为泽维尔城三大组成部分之一。本科项目包括航空航天工程、通信与信息工程、环境工程、纳米技术工程、可再生能源工程（五年制）、生物医学科学与材料科学；全校学生总数上限约5000人/年，按学业成绩择优录取并向经济困难学生提供奖学金（据英语/阿语维基百科）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-002",
+      "name": "赫尔米医学科学研究所 (Helmy Institutes for Medical Sciences, HIMS)",
+      "head": null,
+      "description": "医学科学研究所，下设老龄与相关疾病中心（CAAD）、干细胞与再生医学卓越中心（CESC）、基因组学中心（CG）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-003",
+      "name": "NBE纳米科学与信息学研究所 (NBE Institute for Nanoscience and Informatics, INI)",
+      "head": null,
+      "description": "纳米科学与信息学研究所，下设纳米技术中心（CNT）、生物传感器研究中心（BRC）、纳米电子与器件中心、材料科学中心。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-004",
+      "name": "成像与可视化研究所 (Institute for Imaging and Visualization, IIV)",
+      "head": null,
+      "description": "下设成像与显微中心、X射线物质结构测定中心。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-005",
+      "name": "基础科学研究所 (Institute for Basic Sciences, IBS)",
+      "head": null,
+      "description": "下设基础物理中心（CFP）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-006",
+      "name": "能源、环境与空间研究所 (Institute for Energy, Environment and Space, IEES)",
+      "head": null,
+      "description": "下设光子学与智能材料中心（CPSM）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-007",
+      "name": "经济与全球事务研究所 (Institute for Economics and Global Affairs, IEGA)",
+      "head": null,
+      "description": "下设塔拉特·哈布经济发展中心（THC）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-016-DEPT-008",
+      "name": "虚拟教育研究所 (Institute for Virtual Education, IVE)",
+      "head": null,
+      "description": "下设学习技术中心（CLT）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-07",
+      "title": "官方宣布伊卜拉欣·谢尔比尼出任科学技术大学代理校长",
+      "description": "泽维尔城官方Instagram账号发帖祝贺伊卜拉欣·谢尔比尼教授出任该校大学部（科学技术大学）代理校长。",
+      "impact": "大学部负责人就位；该任命目前仅有官方账号单一来源，需后续交叉确认。",
+      "source": "https://www.instagram.com/p/DfcdTy7leuc/"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "与埃及出口信用担保公司建立合作伙伴关系",
+      "description": "泽维尔城官方Facebook宣布与埃及出口信用担保公司（Export Credit Guarantee Co. of Egypt）结成伙伴关系；代理执行校长马哈茂德·阿卜杜拉布与该公司董事长梅尔瓦特·苏尔坦出席。",
+      "impact": "拓展学校与出口导向产业之间的产学研合作渠道；帖文同时确认阿卜杜拉布的代理执行校长职务。",
+      "source": "https://www.facebook.com/ZewailCity/posts/1465662209026898/"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "举行2026届毕业典礼",
+      "description": "泽维尔城为科学技术大学新一届毕业生举行毕业典礼，埃及官方媒体Maspero广播与Extra News电视台分别报道。",
+      "impact": "反映学校正常教学运转与办学规模；获两家独立媒体印证。",
+      "source": "https://www.maspero.eg/radio/2026/09/06/986710/%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B2%D9%88%D9%8A%D9%84-%D8%AA%D8%AD%D8%AA%D9%81%D9%84-%D8%A8%D8%AA%D8%AE%D8%B1%D8%AC-%D8%AF%D9%81%D8%B9%D9%87-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%85%D9%86-%D8%B7%D9%84%D8%A7%D8%A8-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "2026大学创新峰会在泽维尔城开幕",
+      "description": "2026大学创新峰会（University Innovation Summit 2026）在泽维尔城举行，多所大学代表团与会，官方Instagram直播帖文记录开幕式。",
+      "impact": "巩固该校在埃及高校创新生态中的平台地位。",
+      "source": "https://www.instagram.com/reel/DbVJ43xEee6/"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "校长说明2026/2027学年学费上调与奖学金政策",
+      "description": "执行校长瓦伊尔·奥克勒对埃及媒体Masrawy表示，拟上调2026/2027学年新生学费；同时强调约25%的学生享受奖学金或资助。",
+      "impact": "涉及学校财务可持续性与生源结构，保持「非营利+择优+奖学金属性」的办学定位。",
+      "source": "https://www.masrawy.com/news/education-universityeducation/details/2026/4/25/2977905/%D9%87%D9%84-%D8%AA%D8%B1%D9%81%D8%B9-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B2%D9%88%D9%8A%D9%84-%D9%85%D8%B5%D8%B1%D9%88%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D9%8A-2026-2027-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%8A%D9%88%D8%B6%D8%AD-"
+    },
+    {
+      "date": "2025-07-15",
+      "title": "高等教育与科学研究部长到访泽维尔城",
+      "description": "时任高等教育与科学研究部长哈立德·阿卜杜勒·加法尔到访泽维尔城与科学技术大学（据教育平台Edugate Facebook帖文）。",
+      "impact": "体现政府部门对该校的持续关注与政策联系；单一第三方来源，需后续确认。",
+      "source": "https://www.facebook.com/edugate.eg/posts/1048742177376189/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "高等教育与科学研究部 (وزارة التعليم العالي والبحث العلمي)",
+      "org_type": "GOV",
+      "org_description": "埃及主管高等教育与科学研究的政府部门，2025年7月时任部长到访泽维尔城。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "EG-GOV-002",
+      "org_name": "埃及内阁 (مجلس الوزراء المصري)",
+      "org_type": "GOV",
+      "org_description": "2011年5月11日内阁决议将泽维尔城列为「科学复兴国家项目」并正式定名，为其设立与法律地位的历史批准机构。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及武装部队工程总局 (هيئة الهندسة للقوات المسلحة المصرية)",
+      "org_type": "MIL",
+      "org_description": "2015年3月塞西总统下令由其承建泽维尔城十月花园新校区（据英语维基百科）。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "泽维尔科学技术城（Zewail City of Science, Technology and Innovation）是位于埃及吉萨省十月六日城的非营利、独立的学习、科研与创新机构，以1999年诺贝尔化学奖得主艾哈迈德·泽维尔的名字命名，座右铭为「Egypt Can」。机构由三大组成部分构成：科学技术大学（大学部）、研究院所体系与科技园。大学部本科项目涵盖航空航天工程、通信与信息工程、环境工程、纳米技术工程、可再生能源工程、生物医学科学与材料科学等方向，全校学生规模上限约每年5000人，按学业成绩择优录取并向经济困难学生提供奖学金。科研体系现设7个研究所（赫尔米医学科学研究所、NBE纳米科学与信息学研究所、成像与可视化研究所、基础科学研究所、能源环境与空间研究所、经济与全球事务研究所、虚拟教育研究所）及其下属研究中心，覆盖医学、纳米、成像、基础物理、光子学、经济与教育技术等领域。建城沿革：1999年提出构想，2000年1月1日奠基，历经波折后于2011年5月11日由内阁决议重启并定为「科学复兴国家项目」，2011年11月1日正式启用；2014年获拨约200费丹土地建设十月花园新校区，2015年起由武装部队工程总局承建，现大学与研究所已整体迁入新校区运营，开罗花园城总部同步运转。经费主要依赖机构与个人捐赠（如2015年Samih Sawiris捐款1亿埃镑）。",
+  "industries": [
+    "higher_education",
+    "research_development",
+    "education",
+    "biotechnology"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。泽维尔城作为科研教育机构，其国际合作以高校与研究机构间的学术交流与联合研究为主，不涉及政府间经贸框架。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Zewail_city_main_entrance.jpg/330px-Zewail_city_main_entrance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-ACAD-016.jpg",
+    "minio_path": "default/popular-org-profile/eg/EG-ACAD-016.jpg"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
+      "wikidata",
+      "news_search",
+      "web_search",
       "official_website"
     ],
-    "completeness_score": 19,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "quotes": [
+      {
+        "title": "Zewail City of Science, Technology and Innovation - Wikipedia (英语维基百科)",
+        "url": "https://en.wikipedia.org/wiki/Zewail_City_of_Science_and_Technology"
+      },
+      {
+        "title": "مدينة زويل للعلوم والتكنولوجيا - ويكيبيديا (阿语维基百科)",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%B2%D9%88%D9%8A%D9%84_%D9%84%D9%84%D8%B9%D9%84%D9%88%D9%85_%D9%88%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7"
+      },
+      {
+        "title": "هل ترفع مدينة زويل مصروفات العام الجامعي 2026/2027؟ رئيس المدينة يوضح - Masrawy",
+        "url": "https://www.masrawy.com/news/education-universityeducation/details/2026/4/25/2977905/"
+      },
+      {
+        "title": "Zewail City official Facebook - partnership with Export Credit Guarantee Co. (2026-10-19)",
+        "url": "https://www.facebook.com/ZewailCity/posts/1465662209026898/"
+      },
+      {
+        "title": "Zewail City official website (官网首页，经搜索快照引用)",
+        "url": "https://www.zewailcity.edu.eg/"
+      }
+    ],
+    "completeness_score": 88,
+    "notes": "官网为JS渲染页且web_reader配额耗尽，官网信息经搜索快照与维基百科交叉补全；执行校长交接（瓦伊尔·奥克勒→马哈茂德·阿卜杜拉布）发生于2026年4月至10月间，确切日期未获权威来源；部分人名阿文拼写未验证处保留英文原名；founded_date精度为年（2011年内阁决议设为「科学复兴国家项目」）。"
   }
 }

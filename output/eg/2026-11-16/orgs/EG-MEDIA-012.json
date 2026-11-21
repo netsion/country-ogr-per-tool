@@ -1,61 +1,241 @@
 {
   "org_id": "EG-MEDIA-012",
+  "wikidata_qid": "Q5209324",
   "basic_info": {
-    "name_original": "Daily News Egypt",
+    "name_original": "ديلي نيوز إيجيبت",
     "name_zh": "埃及每日新聞",
     "name_en": "Daily News Egypt",
-    "aliases": [],
+    "aliases": [
+      "DNE",
+      "The Daily Star Egypt"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "newspaper",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "2005-05-01",
-    "website": "https://www.dailynewsegypt.com",
-    "wikidata_qid": "Q5209324"
+    "website": "https://www.dailynewsegypt.com"
   },
   "social_accounts": [
     {
       "platform": "twitter",
       "account_name": "DailyNewsEgypt",
-      "url": "https://twitter.com/DailyNewsEgypt",
+      "url": "https://x.com/DailyNewsEgypt",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "官网页脚社交链接（https://x.com/DailyNewsEgypt）；账号名与 Wikidata 记载一致"
     },
     {
       "platform": "facebook",
       "account_name": "DailyNewsEgypt",
-      "url": "https://facebook.com/DailyNewsEgypt",
+      "url": "https://www.facebook.com/DailyNewsEgypt/",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "官网页脚社交链接；Facebook 页面自述「埃及唯一英文独立日报」，地址 12 Haroun st, Dokki, Giza"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "dailynewsegypt",
+      "url": "https://www.instagram.com/dailynewsegypt",
+      "source": 8,
+      "source_note": "官网页脚社交链接；另发现 dnebuzz 账号出现在关注栏，未采信"
     },
     {
       "platform": "youtube",
-      "account_name": "UC1oOl2GQHgORlO6nZwxTrKg",
-      "url": "https://youtube.com/channel/UC1oOl2GQHgORlO6nZwxTrKg",
+      "account_name": "@Dailynewsegypt",
+      "url": "https://www.youtube.com/@Dailynewsegypt",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "官网页脚社交链接；Wikidata 另载频道 ID UC1oOl2GQHgORlO6nZwxTrKg，指向同一频道"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "dailynewsegypt",
+      "url": "https://www.linkedin.com/company/dailynewsegypt",
+      "source": 17,
+      "source_note": "官网页脚社交链接；LinkedIn 公司页自述 2005 年 5 月以 The Daily Star Egypt 品牌创刊"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "电子报订阅（E-Paper）",
+      "url": "https://www.dailynewsegypt.com/subscribe-to-e-paper/",
+      "description": "印刷版日报的数字版（电子报）在线订阅入口，提供报纸原版版面的数字阅读",
+      "source": "official_website"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000782",
+      "name": "穆罕默德·萨米尔·赫德尔 (Mohamed Samir Khedr)",
+      "title": "执行主编 (Executive Editor)",
+      "title_description": "主持编辑部内容生产与日常运营，统筹对阿语信源的英文报道与译编",
+      "description": "经济与政治记者、分析师、编辑，专注中东与非洲地缘政治冲突议题；官网 About 页及作者页（author/mh-samir）列明其为执行编辑，LinkedIn 与其个人网站 mohamedsamir.net 一致印证；2024年曾以「每日新闻埃及」执行编辑身份参加 TV BRICS 金砖国家全球媒体行论坛（ANI News 报道）"
+    },
+    {
+      "person_id": "EG-PERSON-000366",
+      "name": "萨阿德·扎格卢勒 (Saad Zaghloul)",
+      "title": "首席执行官 (CEO)",
+      "title_description": "负责报社整体经营与管理",
+      "description": "官网 About 页列明其为现任 CEO；英文维基百科亦载「现任 CEO 为 Saad Zaghloul」，两个独立来源一致（拼写另有 Zaghoul/Zaghloul 两种写法，取维基百科拼法）"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-001",
+      "name": "商业新闻部",
+      "head": null,
+      "description": "对应官网 Business 条线：负责埃及宏观经济、银行金融、能源、企业财报、监管动态与投资环境等英文商业报道，是该报核心条线",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-002",
+      "name": "政治新闻部",
+      "head": null,
+      "description": "对应官网 Politics 条线：负责埃及国内政治、政府政策与地区外交动态报道",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-003",
+      "name": "专访部",
+      "head": null,
+      "description": "对应官网 Interviews 条线：对政府官员、企业家与国际机构负责人的独家英文专访",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-004",
+      "name": "文化新闻部",
+      "head": null,
+      "description": "对应官网 Culture 条线：文化、艺术与人文领域报道",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-005",
+      "name": "评论部",
+      "head": null,
+      "description": "对应官网 Opinion 条线：社论、专栏与时事评论版面",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-006",
+      "name": "体育新闻部",
+      "head": null,
+      "description": "对应官网 Sports 条线：体育赛事与体育产业报道",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-012-DEPT-007",
+      "name": "综合新闻与专题部",
+      "head": null,
+      "description": "对应官网页脚 Egypt、Science、Women、Society 条线：埃及国内新闻、科技、女性议题与社会民生综合报道",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-16",
+      "title": "「每日新闻埃及」独家专访滴滴国际业务集团CEO",
+      "description": "该报刊出对滴滴出行国际业务集团首席执行官 Stephen Zhu 的独家专访，其表示埃及向电动出行转型只是时间问题；同日该报还报道滴滴在中国推进 Robotaxi 技术与自动驾驶运营扩张",
+      "impact": "体现该报作为埃及唯一英文独立日报对进入埃及市场的国际科技/出行企业的独家英文采访能力，是其商业报道旗舰产品（依据：本报官网当日文章）",
+      "source": "https://dailynewsegypt.com/2026/11/16/didi-sees-egypts-shift-to-electric-mobility-as-matter-of-time-ceo/"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "报道埃及金融监管局批准6家公司开展非银金融业务",
+      "description": "该报报道埃及金融监管局（FRA）批准六家公司从事非银行金融活动",
+      "impact": "反映其对埃及非银金融监管动态的快速英文报道，服务在埃国际投资者与金融机构读者（依据：本报官网当日文章）",
+      "source": "https://dailynewsegypt.com/2026/11/16/fra-approves-six-companies-for-non-banking-financial-activities/"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "报道埃及与联合国讨论社会保护与经济赋能合作",
+      "description": "该报报道埃及政府与联合国机构就社会保护、经济赋能领域合作举行会谈",
+      "impact": "显示其覆盖政府-国际组织合作议程，配合同期大量宏观经济与外交报道（如埃及-中国贸易200亿美元、埃及-印度贸易翻倍谈判等），维持其作为英文综合日报的时效供给（依据：本报官网当日文章）",
+      "source": "https://dailynewsegypt.com/2026/11/16/egypt-un-discuss-cooperation-on-social-protection-economic-empowerment/"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "被 Feedspot「2026年埃及50大新闻网站」评为第2名",
+      "description": "媒体目录平台 Feedspot 发布 2026 年埃及新闻网站榜单，「每日新闻埃及」位列第2（次于 Egypt Independent）",
+      "impact": "第三方榜单认可其作为英文综合新闻网站在埃及媒体生态中的头部地位（依据：Feedspot 榜单页，2026-07-02 更新）",
+      "source": "https://news.feedspot.com/egyptian_news_websites/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "商业新闻出版发行公司 (Business News for Press, Publishing and Distribution Company)",
+      "org_type": "CORP",
+      "org_description": "埃及私营出版公司：2012年5月收购「每日新闻埃及」版权，同年6月19日复刊并恢复网络版；同门出版阿语金融日报「布尔萨报」(Al Borsa)，并与培训公司 Capital Markets Institute 关联；官网 About 页与英文维基百科一致记载",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": null,
+      "org_name": "布尔萨报 (Al Borsa)",
+      "org_type": "MEDIA",
+      "org_description": "埃及阿语金融日报，专注证券与商业新闻；与本报同属商业新闻出版发行公司（大赦国际 2017 年记录显示两报网站同属 Business News Company 并同期被屏蔽）",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及媒体服务公司 (Egyptian Media Services)",
+      "org_type": "MEDIA",
+      "org_description": "本报2005年5月创刊至2012年4月21日停刊期间的原出版方；停刊前本报印刷版曾随《国际先驱论坛报》一同发行；2012年由商业新闻出版发行公司接手出版",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际先驱论坛报 (International Herald Tribune)",
+      "org_type": "MEDIA",
+      "org_description": "2005年至2012年停刊期间，本报印刷版曾作为其随报附刊在埃及发行；2012年6月复刊后该发行安排结束（英文/阿拉伯语维基百科均有记载）",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "「每日新闻埃及」(Daily News Egypt, DNE) 是埃及唯一以英文出版的独立日报，2005年5月1日创刊（创刊初期曾以 The Daily Star Egypt 品牌发行），2012年4月一度停刊，同年6月19日由商业新闻出版发行公司（Business News for Press, Publishing and Distribution Company）重新出版并恢复网络版。该报定位为覆盖商业、政治、文化新闻与分析的英文综合日报，自述使命是成为全球读者了解埃及时事的参考点；内容由埃及本土编辑团队依托当地阿语信源译编为英文报道，面向全球英文读者、驻埃国际机构与商务人群。版式为对开大报，印刷版历史上曾随《国际先驱论坛报》在埃发行（至2012年）；现以网站 dailynewsegypt.com 为主要平台并提供电子报订阅，设商业、政治、专访、文化、评论、体育、生活方式等编辑部条线，另覆盖埃及国内、科技、女性与社会议题。母公司同门拥有阿语金融日报「布尔萨报」(Al Borsa)，并关联资本市场培训机构 Capital Markets Institute。总部位于吉萨省 Dokki 区 Haroun 街12号（Facebook 官方页自述），维基百科载其发行量约1万至4万份（该数据标注来源待考）。2017年其网站与「布尔萨报」网站曾一同被埃及当局列入屏蔽名单（大赦国际记录）。2012年停刊前最后一任主编为 Rania Al Malky；复刊后管理层为 CEO 萨阿德·扎格卢勒与执行主编穆罕默德·萨米尔·赫德尔。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "quotes": [
+      {
+        "title": "Daily News Egypt - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daily_News_Egypt"
+      },
+      {
+        "title": "ديلي نيوز إيجيبت - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%84%D9%8A_%D9%86%D9%8A%D9%88%D8%B2_%D8%A5%D9%8A%D8%AC%D9%8A%D8%A8%D8%AA"
+      },
+      {
+        "title": "About - Dailynewsegypt (official website)",
+        "url": "https://dailynewsegypt.com/about/"
+      },
+      {
+        "title": "Dailynewsegypt - Egypt's Only Daily Independent Newspaper In English (homepage)",
+        "url": "https://dailynewsegypt.com/"
+      },
+      {
+        "title": "Mohamed Samir - Executive Editor at The Daily News Egypt - LinkedIn",
+        "url": "https://eg.linkedin.com/in/mohamed-samir-khedr"
+      },
+      {
+        "title": "Top 50 Egyptian News Websites in 2026 - Feedspot",
+        "url": "https://news.feedspot.com/egyptian_news_websites/"
+      },
+      {
+        "title": "Dozens of news sites blocked as Egypt ramps up digital censorship - Amnesty International (NL)",
+        "url": "https://www.amnesty.nl/actueel/dozens-of-news-sites-blocked-as-egypt-ramps-up-digital-censorship"
+      }
+    ],
+    "completeness_score": 76,
+    "notes": "P3 富集：官网首页/About 经首选工具超时后由备用抓取器获取；dailynewsegypt.com 部分页面响应慢。关键人物经官网+维基/LinkedIn 多源交叉确认。董事长 Mostafa Sakr 仅单一第三方来源（Iran Monitor）记载，按双源铁律未采信。recent_events 以本报2026年11月重大报道及第三方排名为主（该报自身企业动态的阿语新闻检索未见新增）。搜索预算12次已用尽。"
   }
 }

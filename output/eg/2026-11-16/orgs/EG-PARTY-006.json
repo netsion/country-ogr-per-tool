@@ -1,11 +1,13 @@
 {
   "org_id": "EG-PARTY-006",
   "basic_info": {
-    "name_original": "Al-Nour Party",
+    "name_original": "حزب النور",
     "name_zh": "光明黨",
     "name_en": "Al-Nour Party",
     "aliases": [
-      "حزب يمينى معتدل"
+      "حزب النور",
+      "Hizb an-Nur",
+      "Party of the Light"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
@@ -21,14 +23,14 @@
       "account_name": "AlnourPartyeg",
       "url": "https://twitter.com/AlnourPartyeg",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata（骨架沿用，未逐一复核有效性）"
     },
     {
       "platform": "facebook",
       "account_name": "AlnourPartyOfficialPage",
       "url": "https://facebook.com/AlnourPartyOfficialPage",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；该官方页2025年8月31日发布备战选举帖（本次新闻检索命中），确认账号活跃"
     },
     {
       "platform": "youtube",
@@ -38,37 +40,189 @@
       "source_note": "wikidata"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "光明党官方网站新闻门户",
+      "url": "https://alnourpartyeg.com",
+      "description": "党的官方网站，发布党务活动、议会工作报道、候选人信息与专访（阿语为主）。",
+      "source": "official_website"
+    }
+  ],
   "key_people": [
     {
       "person_id": "EG-PERSON-000047",
       "name": "尤尼斯·马赫尤恩 (Younes Makhioun)",
-      "title": "Chair",
+      "title": "前主席",
+      "title_description": "资深领导人，英文维基百科条目及2025年选举条目仍将其列为党主席/选举领袖",
+      "description": "2013年前后接替辞职的创始人加福尔出任党主席，领导党经历2015年众议院选举（约11-12席）、2020年参众两院选举等时期。2025年7月《今日第七日》报道与光明党官方Facebook（2025年8月31日）均以穆罕默德·易卜拉欣·曼苏尔为现任主席，显示领导层已更替；接任确切日期未见可靠来源，故留空。"
+    },
+    {
+      "person_id": "EG-PERSON-000399",
+      "name": "穆罕默德·易卜拉欣·曼苏尔（音译） (محمد إبراهيم منصور)",
+      "title": "党主席 (رئيس الحزب)",
       "title_description": null,
-      "description": null
+      "description": "据2025年7月4日《今日第七日》报道及光明党官方Facebook账号（2025年8月31日）确认任党主席。2025年众议院选举前赴各省开展选前巡回（7月在苏哈杰省会见党办事处负责人与干部），提出维护国家认同与伊斯兰教法立法参照、维护埃及作为阿拉伯与伊斯兰民族核心等六大参选目标。person_id未命中_name_index.json，按规则留null。"
+    },
+    {
+      "person_id": "EG-PERSON-000826",
+      "name": "伊马德·阿卜杜勒-加福尔（音译） (عماد عبد الغفور)",
+      "title": "创始人·首任主席",
+      "title_description": null,
+      "description": "出自萨拉菲召唤（الدعوة السلفية）运动，2011年5月牵头创建光明党并任首任主席，领导党在2011-2012年议会选举中获111席。2012年12月29日辞去党主席职务，2013年1月另组祖国党（Watan Party）。（据英文维基百科；译名为音译）"
+    },
+    {
+      "person_id": "EG-PERSON-000401",
+      "name": "亚西尔·布拉米（音译） (ياسر برهامي)",
+      "title": "联合创始人·萨拉菲召唤资深宗教学者",
+      "title_description": null,
+      "description": "亚历山大萨拉菲召唤运动代表性谢赫（宗教学者），英文维基百科将其列为光明党联合创始人；穆巴拉克下台后主张「伊斯兰运动必须团结、伊斯兰应介入包括政治在内的一切生活领域」。2015年党内动荡中曾被部分党员要求撤换。（据英文维基百科及2015年10月Alghad报道；译名为音译）"
+    },
+    {
+      "person_id": "EG-PERSON-000402",
+      "name": "艾哈迈德·哈利勒·海拉拉（音译） (أحمد خليل خير الله)",
+      "title": "议会党团负责人 (رئيس الهيئة البرلمانية)",
+      "title_description": null,
+      "description": "据光明党官网（2026年检索）报道任党议会党团负责人，官网曾发布其议会工作历程数据图表。person_id未命中_name_index.json（索引中「أحمد خليل」无法确认为同一人），按规则留null。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "departments": [
+    {
+      "dept_id": "EG-PARTY-006-DEPT-001",
+      "name": "最高委员会 (الهيئة العليا للحزب)",
+      "head": null,
+      "description": "党的最高领导机构之一。据2025年7月《今日第七日》报道，马哈茂德·阿明（音译，محمود أمين）为最高委员会委员；负责人姓名未见于已核查来源，留空。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-006-DEPT-002",
+      "name": "议会党团 (الهيئة البرلمانية)",
+      "head": "艾哈迈德·哈利勒·海拉拉（音译） (أحمد خليل خير الله)",
+      "description": "统筹党在众议院与参议院的议会工作。2025年众议院选举后党拥有6席；据英文维基百科选举表，2025年参议院选举获2席。官网2026年9月发布党参议员马哈茂德·图尔基关于参议院立法研究与影响评估的专访。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-006-DEPT-003",
+      "name": "省级办事处 (مكاتب الحزب بالمحافظات)",
+      "head": null,
+      "description": "党在各省份设办事处与干部网络，负责地方组织与选务动员。据2025年7月《今日第七日》报道，党主席曼苏尔在苏哈杰省会见省办事处负责人及干部，省秘书比拉勒·巴提赫（音译، بلال بطيخ）出席。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-04",
+      "title": "党主席曼苏尔赴苏哈杰省开展2025年选举前动员",
+      "description": "据《今日第七日》报道，为备战众议院选举，党主席穆罕默德·易卜拉欣·曼苏尔继续各省巡回，在苏哈杰省会见党办事处机构、干部与地方领导层，省秘书比拉勒·巴提赫与最高委员会委员马哈茂德·阿明出席。曼苏尔提出参选六大目标：维护国家认同与伊斯兰教法立法参照、维护埃及作为阿拉伯与伊斯兰民族核心地位、以合法途径解决民生问题、以建设性参与推动国家建设、扩大社会共识、做「解决方案的一部分而非问题的一部分」。",
+      "impact": "显示党以「认同与稳定」为主轴参加2025年议会选举，延续2013年以来支持当局、不对抗的政治路线；该报道同时独立确认曼苏尔的主席职务。",
+      "source": "https://www.youm7.com/story/2025/7/4/رئيس-حزب-النور-مشاركتنا-في-الانتخابات-تنطلق-من-ثوابت-الهوية/7044347"
+    },
+    {
+      "date": "2025-08-31",
+      "title": "官方账号宣布党务机构持续开会、以完整纲领备战众议院选举",
+      "description": "光明党官方Facebook账号发文：党主席曼苏尔强调党各机构处于「持续开会」状态，正准备以「合格的议会人才和完整纲领」参加2025年众议院选举。",
+      "impact": "表明选举前党内完成候选人筛选与纲领整合；数月后该党在2025年众议院选举中获6席。",
+      "source": "https://www.facebook.com/AlnourPartyOfficialPage/posts/1340752937420485"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "2025年众议院选举第一阶段投票开始，光明党独立参选",
+      "description": "埃及众议院选举第一阶段于2025年11月10-11日举行，第二阶段11月24-25日举行，其后多个选区因违规被宣布结果无效而重新投票。光明党在2023年全国对话中主张比例代表制，未加入以国家未来党为首的「埃及国家统一名单」，以独立名单参选。",
+      "impact": "延续2015年以来作为独立小党的参选路径；据英文维基百科汇总（引Al Jazeera阿语版与Ahram Online），党最终获6席。",
+      "source": "https://en.wikipedia.org/wiki/2025_Egyptian_parliamentary_election"
+    },
+    {
+      "date": "2026-01-10",
+      "title": "2025年众议院选举决选结果公布，光明党席位定格为6席",
+      "description": "因19个选区（后增至更多选区）结果作废重选，第二阶段决选结果由原定2025年12月25日延迟至2026年1月10日公布。光明党最终获6个议席（6/596，较2020年减少1席），无总统任命席位。2026年1月11日塞西总统任命28名议员。",
+      "impact": "党保持小规模议会存在但影响力边缘化；本次选举为埃及历史上耗时最长（逾三个月）的议会选举。",
+      "source": "https://en.wikipedia.org/wiki/2025_Egyptian_parliamentary_election"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "官网刊登党参议员马哈茂德·图尔基谈参议院立法工作",
+      "description": "光明党官网发布对党籍参议员马哈茂德·图尔基（音译، محمود تركي）的专访，称议会研究与立法影响评估是参议院最有力的工具之一。结合英文维基百科选举表（光明党在2025年参议院选举获2席，此数字仅单一来源，待复核），显示党在2025-2030届参议院维持小规模存在。",
+      "impact": "证明党在参议院仍有席位与立法活动；官网以专访形式展示其议会存在感。",
+      "source": "https://alnourpartyeg.com/ar/1609-حوار-النائب-محمود-تركي-الدراسة-البرلمانية-وقياس-الأثر-التشريعي-من-أقوى-أدوات-مجلس-الشيوخ"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "萨拉菲召唤 (الدعوة السلفية)",
+      "org_type": "NGO",
+      "org_description": "埃及最大的萨拉菲派宗教运动之一，1970年代发端、1980年代在亚历山大大学建制化。光明党被广泛描述为其政治臂膀。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "伊斯兰集团选举联盟 (الكتلة الإسلامية)",
+      "org_type": "PARTY",
+      "org_description": "2011-2012年议会选举中以光明党为首的伊斯兰政党联盟（含真实性党、建设与发展党），获127席、居第二位，其中光明党占111席。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "EG-PARTY-015",
+      "org_name": "自由与正义党 (حزب الحرية والعدالة)",
+      "org_type": "PARTY",
+      "org_description": "穆斯林兄弟会政党。2011年光明党曾与其同属埃及民主联盟（2011年9月退出）；2012年底起光明党逐渐疏远穆尔西政府，并支持军方2013年7月罢黜穆尔西，两党关系由盟友转为对立。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "祖国党 (Watan Party, حزب الوطن)",
+      "org_type": "PARTY",
+      "org_description": "2012年12月光明党首任主席伊马德·阿卜杜勒-加福尔辞职后于2013年1月组建的分裂政党。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "EG-GOV-003",
+      "org_name": "埃及众议院 (مجلس النواب)",
+      "org_type": "GOV",
+      "org_description": "埃及立法机关（596席）。光明党2011-2012年获111席、2015年获约11-12席、2020年获7席、2025年获6席。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "光明党（حزب النور）是2011年埃及革命后成立的萨拉菲派伊斯兰政党，由亚历山大萨拉菲召唤（الدعوة السلفية）运动发起创建，被广泛视为该运动的政治臂膀，2011年5月12日建党（6月13日获正式承认），总部设于亚历山大（Zezenia区自由路601号），机关报为《The New Light》，官方口号为「认同与现代化国家」（هوية ودولة عصرية）。意识形态上主张宗教保守主义与萨拉菲学说，坚持以《古兰经》和圣行为主要立法参照（沙里亚法），政治光谱属右翼至极右翼。核心活动包括：组织参加全国议会选举（2011-2012年经「伊斯兰集团」联盟获111席居第二位；2013年与穆兄会决裂并支持军方罢黜穆尔西后转向支持塞西当局；2015年获约11-12席；2020年获7席、参议院失利；2025年获6席）、在众议院与参议院维持小规模议会党团、通过各省办事处网络进行地方组织与选务动员，并依托萨拉菲召唤的慈善宗教网络维系基层支持。2012年底至2013年初曾发生重大分裂（首任主席加福尔出走另组祖国党），2014年起多次遭遇以「宗教为基础建党」为由的解散诉讼但均未被受理。近年以「认同与国家稳定」为主轴参与政治，定位为建设性参与、不对抗当局的在野萨拉菲政党。",
   "industries": [
     "public_administration"
   ],
-  "apec_stance": null,
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/a/a4/Logo_of_the_Al-Nour_Party.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": null
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 27,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 92,
+    "notes": "P3 enrichment 2026-11-17. 当前主席穆罕默德·易卜拉欣·曼苏尔经《今日第七日》(2025-07-04)与官方Facebook(2025-08-31)双源确认；英文维基百科条目未同步更新仍列马赫尤恩。2025年参议院获2席仅英文维基百科选举表单一来源，已在描述中标注。阿语维基百科与Ahram Online原文读取被代理/反爬拦截(502/403)，未能直接引用。2025年参议院选举具体日期未获可靠双源，未单列事件。",
+    "quotes": [
+      {
+        "title": "Al-Nour Party - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Al-Nour_Party"
+      },
+      {
+        "title": "رئيس حزب النور: مشاركتنا في الانتخابات تنطلق من ثوابت الهوية ودعم استقرار الوطن - اليوم السابع 2025-07-04",
+        "url": "https://www.youm7.com/story/2025/7/4/رئيس-حزب-النور-مشاركتنا-في-الانتخابات-تنطلق-من-ثوابت-الهوية/7044347"
+      },
+      {
+        "title": "光明党官方网站首页（2026-11-17读取，含2026-09-29参议员专访）",
+        "url": "https://alnourpartyeg.com"
+      },
+      {
+        "title": "2025 Egyptian parliamentary election - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2025_Egyptian_parliamentary_election"
+      },
+      {
+        "title": "رئيس حزب النور: كفاءات برلمانية وبرنامج متكامل استعدادا لخوض انتخابات النواب 2025 - 光明党官方Facebook 2025-08-31",
+        "url": "https://www.facebook.com/AlnourPartyOfficialPage/posts/1340752937420485"
+      }
+    ]
   }
 }

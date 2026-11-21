@@ -1,47 +1,231 @@
 {
   "org_id": "EG-PARTY-007",
+  "wikidata_qid": "Q1966909",
   "basic_info": {
-    "name_original": "National Progressive Unionist Party",
+    "name_original": "حزب التجمع الوطني التقدمي الوحدوي",
     "name_zh": "民族进步统一分子联盟党",
     "name_en": "National Progressive Unionist Party",
     "aliases": [
       "National Progressive Unionist Rally Party",
       "National Progressive Unionist Rally Organisation",
       "National Progressive Unionist Rally Organization",
-      "Tagammu"
+      "Tagammu",
+      "Tagammu Party",
+      "حزب التجمع",
+      "民族进步统一集团党",
+      "塔加穆党"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1976-01-01",
-    "website": "https://altagamoa.org/",
-    "wikidata_qid": "Q1966909"
+    "website": "https://altagamoa.org/"
   },
   "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "public_administration"
+  "digital_assets": [
+    {
+      "name": "《艾哈利报》数字门户 (Al Ahali Gate)",
+      "url": "https://alahalygate.com/",
+      "description": "党机关报《艾哈利报》（Al Ahali，1978年创刊）的在线门户，站名标注「由民族进步统一集团党出版」（يصدرها حزب التجمع الوطني التقدمي الوحدوي），是党的主要数字媒体资产。",
+      "source": "news_search"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000403",
+      "name": "赛义德·阿卜杜勒-阿勒 (سيد عبد العال)",
+      "title": "党主席 (رئيس الحزب)",
+      "title_description": "党的最高领导人，兼任众议院议员",
+      "description": "2013年在党主席选举中以一票优势击败政治局成员侯赛因·阿卜杜勒-拉扎克，接替里法特·赛义德出任党领导人（据阿语维基百科）；2025年6月以众议员、党主席身份在议会财产税报告审议中发起讨论（据埃及宪法权利自由论坛月报），并以党领袖身份率党参加2025年参众两院选举（据维基百科选举条目）。"
+    },
+    {
+      "person_id": "EG-PERSON-000827",
+      "name": "哈立德·穆希丁 (خالد محيي الدين)",
+      "title": "创始人、前主席（已故）",
+      "title_description": "党的奠基人与历史领袖",
+      "description": "1922年8月17日生，前自由军官组织成员、1952年「七月革命」指挥委员会最后一位在世成员；1976年4月创建该党并长期任主席，2002年因病淡出政坛（据埃及国家信息总署）；2018年5月6日去世，享年95岁，埃及总统府发文哀悼（据路透社、半岛电视台、阿语维基百科）。"
+    },
+    {
+      "person_id": "EG-PERSON-000405",
+      "name": "卡迈勒·里法特 (كمال رفعت)",
+      "title": "联合创始人",
+      "title_description": "与穆希丁共同创建该党",
+      "description": "英语维基百科与阿语维基百科均列为党创始人，同为前自由军官组织成员。"
+    },
+    {
+      "person_id": "EG-PERSON-000828",
+      "name": "里法特·赛义德 (رفعت السعيد)",
+      "title": "前主席 (رئيس الحزب السابق)",
+      "title_description": "阿卜杜勒-阿勒的前任党领导人",
+      "description": "2013年党主席选举前执掌该党，卸任后由赛义德·阿卜杜勒-阿勒以一票优势接任（据阿语维基百科）。"
+    },
+    {
+      "person_id": "EG-PERSON-000407",
+      "name": "希沙姆·巴斯陶维西 (هشام البسطويسي)",
+      "title": "2012年总统选举党候选人",
+      "title_description": "该党推出的总统候选人",
+      "description": "2012年埃及总统选举中获29,189票（约0.13%），未获当选（据英语维基百科选举史表、阿语维基百科）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-PARTY-007-DEPT-001",
+      "name": "政治局 (المكتب السياسي)",
+      "head": null,
+      "description": "党的核心决策机构；阿语维基百科载有政治局成员活动（如侯赛因·阿卜杜勒-拉扎克曾以政治局成员身份角逐2013年党主席）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-007-DEPT-002",
+      "name": "总书记处 (الأمانة العامة)",
+      "head": null,
+      "description": "主持党务的常设机构，2013年党主席选举即由监督委员会宣布总书记人选。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-007-DEPT-003",
+      "name": "《艾哈利报》编辑部 (جريدة الأهالي)",
+      "head": null,
+      "description": "党机关报（1978年创刊）编辑机构，运营纸质版及数字门户 alahalygate.com。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-007-DEPT-004",
+      "name": "进步青年联盟 (اتحاد الشباب التقدمي)",
+      "head": null,
+      "description": "党的青年翼组织（据英语维基百科）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-007-DEPT-005",
+      "name": "进步妇女联盟 (اتحاد المرأة التقدمية)",
+      "head": null,
+      "description": "党的妇女翼组织（据英语维基百科）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-04",
+      "title": "党主席出席12党统一选举名单磋商",
+      "description": "据《今日消息报》报道，党主席赛义德·阿卜杜勒-阿勒表示，他出席了由12个政党代表参加的磋商会议，就2025年议会选举组建统一选举名单形成共识。",
+      "impact": "该党随后作为「为了埃及全国统一名单」成员参选2025年众议院选举，延续其2020年以来的联盟参选策略。",
+      "source": "https://m.akhbarelyom.com/news/newdetails/4648852/1/حزب-التجمع-مشاورات-القائمة-الانتخابية-ال"
+    },
+    {
+      "date": "2025-08-12",
+      "title": "2025年参议院选举结果公布：获2席",
+      "description": "参议院选举于2025年8月4-5日举行（海外投票8月1-2日），全国选举管理局8月12日公布结果：该党作为「为了埃及名单」成员获2个比例代表席位，另派出27名选区候选人但无一当选；党主席赛义德·阿卜杜勒-阿勒领衔参选。",
+      "impact": "参议院席位较2020年减少2席，党在议会上院的影响力进一步收缩。",
+      "source": "https://en.wikipedia.org/wiki/2025_Egyptian_Senate_election"
+    },
+    {
+      "date": "2025-11-10",
+      "title": "参加2025年众议院选举（第一阶段投票开始）",
+      "description": "2025年众议院选举分两阶段投票（11月10-11日、24-25日），该党是「为了埃及全国统一名单」13个成员党之一；因多处选区结果因违规被撤销重选，选举历时逾三个月，成为埃及史上历时最长的议会选举，第二阶段重选结果推迟至2026年1月10日公布。",
+      "impact": "党主张比例代表制，与民族未来党等支持的混合制相左；撤销重选程序延长了选举周期并加大了反对党候选人的选战成本。",
+      "source": "https://en.wikipedia.org/wiki/2025_Egyptian_parliamentary_election"
+    },
+    {
+      "date": "2026-01-10",
+      "title": "2025年众议院选举最终结果：获5席",
+      "description": "重选轮次结果公布后，该党获5个民选席位（较2020年的6席减少1席），无总统任命席位；《新阿拉伯》2025年12月29日对重选结果的统计亦为该党5席。",
+      "impact": "在596席众议院中维持小规模左翼党团，延续了其作为议会内左翼反对党的地位。",
+      "source": "https://www.alaraby.co.uk/politics/الانتخابات-المصرية-نتائج-جولة-الإعادة"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-003",
+      "org_name": "埃及人民议会 (مجلس النواب)",
+      "org_type": "GOV",
+      "org_description": "埃及立法机关（众议院），共596席；该党2025年选举后拥有5席（2020-2025周期为6席）。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "EG-GOV-004",
+      "org_name": "埃及参议院 (مجلس الشيوخ)",
+      "org_type": "GOV",
+      "org_description": "埃及议会上院，共300席；该党2025年参议院选举后拥有2个比例代表席位。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯社会主义联盟 (الاتحاد الاشتراكي العربي)",
+      "org_type": "PARTY",
+      "org_description": "纳赛尔时期埃及唯一合法政党；1976年联盟解散后，其左翼派系演变为该党，是该党的前身（据英语维基百科「前身」记载）。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "为了埃及全国统一名单 (National Unified List for Egypt)",
+      "org_type": "PARTY",
+      "org_description": "以民族未来党为首的跨党派选举联盟（参议院结果表中亦称「为了埃及名单」）；该党2020年起加入，2025年参众两院选举均作为其成员参选。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "EG-PARTY-016",
+      "org_name": "阿拉伯民主纳赛尔主义党 (حزب الناصري)",
+      "org_type": "PARTY",
+      "org_description": "纳赛尔主义左翼政党；2005年议会选举中曾与该党同属反对党选举阵线，同属埃及左翼政治传统。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "EG-PARTY-004",
+      "org_name": "新瓦夫德党 (حزب الوفد الجديد)",
+      "org_type": "PARTY",
+      "org_description": "埃及老牌世俗政党；2005年议会选举中曾与该党同属反对党选举阵线。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "民族进步统一分子联盟党（通称「塔加穆党」，Tagammu）是埃及现存历史最久的合法左翼政党，被视为1952年「七月革命」遗产和纳赛尔时期左翼传统的政治继承者。党的宗旨包括：维护强大的福利国家以保护公民免受经济剥削、坚持民主与权力和平更迭、反对宗教极端主义、打破国家对媒体的垄断、提升环境意识并发展民族工业；党员规模据阿语维基百科约2.2万人。党的日常运作包括：自1976/1977年以来参加埃及历次议会选举（2012年曾推举希沙姆·巴斯陶维西参选总统）、通过议会党团开展立法活动（2025年选举后在众议院5席、参议院2席）、出版党机关报《艾哈利报》（1978年创刊，数字门户 alahalygate.com）、依托进步青年联盟和进步妇女联盟开展青年与妇女工作。2013年起由赛义德·阿卜杜勒-阿勒领导，长期以体制内反对党身份参与政治，在选举制度上主张比例代表制，对经济紧缩政策持批评立场。",
+  "industries": [
+    "public_administration",
+    "legislative"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/0/0a/Logo_of_the_National_Progressive_Unionist_Party.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": null
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 15,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 80,
+    "quotes": [
+      {
+        "title": "ويكيبيديا العربية: حزب التجمع الوطني التقدمي الوحدوي",
+        "url": "https://ar.wikipedia.org/wiki/حزب_التجمع_الوطني_التقدمي_الوحدوي"
+      },
+      {
+        "title": "Wikipedia (EN): National Progressive Unionist Party",
+        "url": "https://en.wikipedia.org/wiki/National_Progressive_Unionist_Party"
+      },
+      {
+        "title": "أخبار اليوم: حزب التجمع: مشاورات القائمة الانتخابية الموحدة تُعبّر عن توافق 12 حزبًا (2025-07-04)",
+        "url": "https://m.akhbarelyom.com/news/newdetails/4648852/1/حزب-التجمع-مشاورات-القائمة-الانتخابية-ال"
+      },
+      {
+        "title": "العربي الجديد: الانتخابات المصرية: نتائج جولة الإعادة (2025-12-29، حزب التجمع 5 مقاعد)",
+        "url": "https://www.alaraby.co.uk/politics/الانتخابات-المصرية-نتائج-جولة-الإعادة"
+      },
+      {
+        "title": "Reuters: وفاة خالد محيي الدين آخر أعضاء مجلس قيادة ثورة 23 يوليو المصرية (2018-05-06)",
+        "url": "https://www.reuters.com/article/world/-23--idUSKBN1I7084/"
+      },
+      {
+        "title": "Wikipedia (EN): 2025 Egyptian parliamentary election (Tagammu 5 seats، sources: Al Jazeera Arabic، Ahram Online)",
+        "url": "https://en.wikipedia.org/wiki/2025_Egyptian_parliamentary_election"
+      }
+    ],
+    "notes": "Phase3 enrichment 2026-11-17。成立年份来源分歧：维基数据/阿语维基/埃及国家信息总署载1976年（SIS载4月），英语维基百科载1977年；founded_date 维持骨架1976-01-01并在本备注记录分歧。创始人哈立德·穆希丁去世日期经路透社、埃及总统府、半岛电视台、阿语维基多源确认为2018-05-06（非2012）。官网 altagamoa.org 本次采集超时未能读取，官方社媒账号未获可靠来源核实，social_accounts 留空。党主席赛义德·阿卜杜勒-阿勒2025年任期状态经 ec-rf.net（2025-06）及维基百科2025年选举条目双重确认。"
   }
 }

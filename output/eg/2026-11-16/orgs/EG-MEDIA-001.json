@@ -1,19 +1,21 @@
 {
   "org_id": "EG-MEDIA-001",
+  "wikidata_qid": "Q286468",
   "basic_info": {
-    "name_original": "الاهرام",
+    "name_original": "الأهرام",
     "name_zh": "金字塔报",
-    "name_en": "الاهرام",
+    "name_en": "Al-Ahram",
     "aliases": [
-      "al-Ahrām"
+      "al-Ahrām",
+      "Al Ahram",
+      "بوابة الأهرام（数字门户名）"
     ],
     "org_type": "MEDIA",
     "org_subtype": "newspaper",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1876-08-05",
-    "website": "https://ahram.org.eg",
-    "wikidata_qid": "Q286468"
+    "website": "https://ahram.org.eg"
   },
   "social_accounts": [
     {
@@ -28,7 +30,7 @@
       "account_name": "alahram",
       "url": "https://facebook.com/alahram",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；官方账号2025年12月发布150周年庆典帖文（facebook.com/alahram）再次确认"
     },
     {
       "platform": "youtube",
@@ -38,37 +40,207 @@
       "source_note": "wikidata"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [
+  "digital_assets": [
     {
-      "org_id": "EG-MEDIA-001",
-      "org_name": "Al-Ahram",
-      "org_type": "MEDIA",
-      "org_description": null,
-      "relationship_type": "predecessor"
+      "name": "金字塔报阿文新闻门户（بوابة الأهرام / Ahram Gate）",
+      "url": "https://gate.ahram.org.eg",
+      "description": "金字塔报阿文数字新闻门户，刊头页公布现任董事会主席与主编信息，是阿文报纸内容的电子版入口",
+      "source": "https://en.wikipedia.org/wiki/Al-Ahram"
+    },
+    {
+      "name": "金字塔在线（Ahram Online）",
+      "url": "https://english.ahram.org.eg",
+      "description": "金字塔报旗下英文新闻网站，持续更新英文报道，与英语周刊《金字塔周刊》同属阿赫拉姆组织外语出版体系",
+      "source": "https://en.wikipedia.org/wiki/Al-Ahram"
+    },
+    {
+      "name": "金字塔报法语门户",
+      "url": "https://french.ahram.org.eg",
+      "description": "金字塔报法语新闻门户，与法语周刊《金字塔报法语周刊（Al-Ahram Hebdo）》配套",
+      "source": "https://en.wikipedia.org/wiki/Al-Ahram"
     }
   ],
-  "core_business": null,
-  "industries": [
-    "broadcasting"
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000328",
+      "name": "穆罕默德·法伊兹·法拉哈特（محمد فايز فرحات）",
+      "title": "阿赫拉姆组织董事会主席 (رئيس مجلس إدارة مؤسسة الأهرام)",
+      "title_description": "金字塔报出版方阿赫拉姆组织的最高负责人",
+      "description": "（音译）2024年4月7日由埃及国家新闻署（الهيئة الوطنية للصحافة）任命为阿赫拉姆组织董事会主席；金字塔报官网刊头页与阿语维基百科均确认其现任职务；2026年8月就全国性报业机构的存续挑战公开发声。"
+    },
+    {
+      "person_id": "EG-PERSON-000329",
+      "name": "马吉德·穆尼尔（ماجد منير）",
+      "title": "金字塔报主编 (رئيس تحرير الأهرام)",
+      "title_description": "负责阿文日报编辑部全面工作",
+      "description": "（音译，英文拼作 Maged Mounir）2024年4月7日由埃及国家新闻署任命为金字塔报主编；官方刊头页、阿语维基百科及Youm7报道相互印证；另担任叶希亚·扎赫兰新闻奖（Yehia Zahran Award）董事会主席，2025年9月出席沙迦国际政府传播论坛。"
+    },
+    {
+      "person_id": "EG-PERSON-000764",
+      "name": "伊扎特·易卜拉欣（عزت إبراهيم）",
+      "title": "《金字塔周刊》与金字塔在线主编",
+      "title_description": "负责阿赫拉姆组织英语出版物（Al-Ahram Weekly 与 Ahram Online）",
+      "description": "（音译）据金字塔在线2026年3月9日报道，其获评2025年度最佳专栏作家奖。"
+    },
+    {
+      "person_id": "EG-PERSON-000765",
+      "name": "妮文·卡迈勒（نيفين كامل）",
+      "title": "《金字塔报法语周刊》主编 (رئيس تحرير الأهرام إبدو)",
+      "title_description": "负责法语周刊 Al-Ahram Hebdo 及法语门户",
+      "description": "（音译，英文拼作 Nevine/Nevin Kamel）该刊首位女性主编；2025年8月埃及国家新闻署审议外语出版物发展时由其主持法语周刊编辑部会议。"
+    }
   ],
-  "apec_stance": null,
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-001-DEPT-001",
+      "name": "阿文日报编辑部 (هيئة تحرير الأهرام)",
+      "head": "马吉德·穆尼尔（ماجد منير）",
+      "description": "金字塔报本部采编机构，负责阿文日报本地三个版次及面向阿拉伯世界的「金字塔阿拉伯版」（在巴林、沙特、科威特、阿联酋印刷）与「金字塔国际版」（自1984年起在伦敦、巴黎、纽约、法兰克福印刷）内容生产",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-001-DEPT-002",
+      "name": "英语出版编辑部（金字塔在线与金字塔周刊）",
+      "head": "伊扎特·易卜拉欣（عزت إبراهيم）",
+      "description": "负责英文新闻门户 Ahram Online（english.ahram.org.eg）与英语周刊《金字塔周刊》（Al-Ahram Weekly，1991年创刊）的内容生产",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-001-DEPT-003",
+      "name": "法语出版编辑部（金字塔报法语周刊）",
+      "head": "妮文·卡迈勒（نيفين كامل）",
+      "description": "负责法语周刊 Al-Ahram Hebdo（الأهرام إبدو）及法语门户（french.ahram.org.eg）的内容生产",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-001-DEPT-004",
+      "name": "政治与战略研究中心 (مركز الدراسات السياسية والإستراتيجية)",
+      "head": null,
+      "description": "阿赫拉姆组织旗下研究机构（ACPSS），出版4种政治与国际事务专业刊物，是金字塔报体系内的智库部门",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-04-07",
+      "title": "埃及国家新闻署改组金字塔报领导层",
+      "description": "2024年4月7日，埃及国家新闻署（الهيئة الوطنية للصحافة）公布全国性报业机构人事调整：任命穆罕默德·法伊兹·法拉哈特为阿赫拉姆组织董事会主席、马吉德·穆尼尔为金字塔报主编，接替2017年5月上任的前主编阿拉·萨比特（علاء ثابت）时期的领导层。",
+      "impact": "金字塔报进入新领导层时期；延续国家新闻署对全国性报业机构董事会主席与主编的直接任命机制（依据：Youm7报道及官方刊头页、阿语维基百科交叉印证）。",
+      "source": "https://www.youm7.com/story/2024/4/7/محمد-فايز-فرحات-رئيسا-لمجلس-إدارة-مؤسسة-الأهرام-وماجد-منير/6538075"
+    },
+    {
+      "date": "2025-05-24",
+      "title": "金字塔报副主编参加2025年上海合作组织媒体论坛",
+      "description": "据《人民日报》英文版2025年5月24日报道，金字塔报副主编萨米·卡姆哈维（Samy Elkamhawy，音译）在2025年上海合作组织媒体论坛上表示「如果我们合作，全世界都能听到我们的声音」，呼吁国际媒体合作打击虚假新闻。",
+      "impact": "体现金字塔报参与上合组织框架下的跨区域媒体合作，是埃及主流媒体与上合组织国家开展新闻交流的实例。",
+      "source": "https://en.people.cn/n3/2025/0524/c90000-20319320.html"
+    },
+    {
+      "date": "2025-12-28",
+      "title": "阿赫拉姆组织启动金字塔报创刊150周年系列庆典",
+      "description": "2025年12月27日至28日（报创办日1875年12月27日满150周年之际），阿赫拉姆组织举行创刊150周年庆祝活动；主编马吉德·穆尼尔称这一时刻「不仅是对一座新闻丰碑的礼赞，更是对跨越时代的伟大遗产的加冕」。金字塔报官方脸书账号同步发布「150年金字塔报」系列内容。",
+      "impact": "强化金字塔报作为「国家记忆」旗舰报的品牌地位；庆典活动延续至2026年8月5日首期发行150周年纪念日。",
+      "source": "https://english.ahram.org.eg/NewsContentP/1/559462/Egypt/AlAhram-Foundation-commemorates--years-of-journali.aspx"
+    },
+    {
+      "date": "2026-05-25",
+      "title": "埃及全国性报纸主编会议呼吁加快官方信息获取与数字化支持",
+      "description": "据金字塔在线（Ahram Online）2026年5月25日报道，埃及全国性报业机构主编们呼吁为国有媒体提供更快速的官方准确信息渠道，并给予更强的数字化转型支持。",
+      "impact": "反映包括金字塔报在内的埃及全国性报业在数字转型期面临的信息获取与经营压力，或推动相关监管与扶持政策讨论。",
+      "source": "https://english.ahram.org.eg/NewsContent/1/2/569630/Egypt/Society/Egypt-newspaper-editors-call-for-faster-official-i.aspx"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "金字塔报首期发行150周年（1876-2026）",
+      "description": "2026年8月5日为金字塔报首期（1876年8月5日发行于亚历山大曼希亚区）150周年纪念日；金字塔报官网发布「2026年8月：首期发行150周年——从创办艰辛到历程回顾」专题，指出报纸创办于1875年12月27日、首期于1876年8月5日问世。",
+      "impact": "金字塔报成为阿拉伯世界极少数连续发行150年的日报，巩固其「埃及报纸记录（newspaper of record）」与阿语新闻文体标杆的地位。",
+      "source": "https://gate.ahram.org.eg/daily/News/205670/12/1025410/ملفات-الاهرام/أغسطس--المُتمم-لـ--عاما-على-صدورهاالأهرام-من-مصاعب.aspx"
+    },
+    {
+      "date": "2026-08-09",
+      "title": "阿赫拉姆组织董事会主席就全国性媒体机构存续挑战发声",
+      "description": "据金字塔报官网2026年8月9日报道，董事会主席穆罕默德·法伊兹·法拉哈特表示，全国性报业机构长期面临严峻的生存挑战，并强调其历史积淀与经营基础。",
+      "impact": "印证创刊150周年之际，埃及国有报业高层对可持续经营与机构改革的公开关注。",
+      "source": "https://gate.ahram.org.eg/News/5885569.aspx"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿赫拉姆组织（مؤسسة الأهرام）",
+      "org_type": "SOE",
+      "org_description": "埃及最大的国有报业出版集团（Al-Ahram Establishment / Al-Ahram Publishing House），金字塔报的出版方与所有者；政府持有多数股权，董事会由埃及国家新闻署任命（现任主席2024年4月7日获任）；旗下另出版《金字塔周刊》《金字塔报法语周刊》《半个世界》《金字塔经济学家》《国际政治》《阿拉丁》等刊物及政治与战略研究中心",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "EG-MEDIA-002",
+      "org_name": "金字塔周刊 (Al-Ahram Weekly)",
+      "org_type": "MEDIA",
+      "org_description": "阿赫拉姆组织旗下英语周刊（1991年创刊），与金字塔报同属一个出版体系",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "EG-MEDIA-003",
+      "org_name": "今日消息 (Akhbar El-Yom)",
+      "org_type": "MEDIA",
+      "org_description": "埃及全国性报纸；与阿赫拉姆组织同属埃及国家新闻署（الهيئة الوطنية للصحافة）监管的全国性报业机构序列（注意：今日消息属「消息报系」阿赫拉姆体系之外，并非阿赫拉姆组织下属报刊）",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及国家新闻署（الهيئة الوطنية للصحافة）",
+      "org_type": "GOV",
+      "org_description": "依据2016年第92号法律设立的全国性报业监管机构，负责任命阿赫拉姆组织董事会主席与金字塔报主编（2024年4月7日完成现任领导层任命）",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "金字塔报（الأهرام，意为「金字塔」）是埃及发行量最大、最具影响力的阿拉伯语日报之一，被视为埃及的「报纸记录」（newspaper of record）。该报由黎巴嫩梅尔基特基督教兄弟比沙拉·塔克拉（بشارة تقلا）与萨利姆·塔克拉（سليم تقلا）于1875年12月27日在亚历山大创办，首期于1876年8月5日发行，起初为每周六出版的周报，约两个月后改为日报（1881年1月起定期每日发行），1899年11月迁至开罗，现总部位于开罗布拉区（Boulaq）。该报是阿语新闻文体的标杆，塔哈·侯赛因曾誉之为「当代生活的百科全书」，穆罕默德·哈桑宁·海卡尔、纳吉布·马哈福兹、萨拉马·穆萨、优素福·伊德里斯等名家均曾为其撰稿。业务构成：阿文日报每日在本地发行三个版次，另有面向阿拉伯世界的「金字塔阿拉伯版」（在巴林、沙特、科威特、阿联酋印刷并面向海湾发行），自1984年起在伦敦出版的「金字塔国际版」（伦敦、巴黎印刷，发行至欧洲、美国、加拿大）；外语业务包括英语周刊《金字塔周刊》（1991年创刊）、法语周刊《金字塔报法语周刊》（Al-Ahram Hebdo）、英文门户 Ahram Online（english.ahram.org.eg）、阿文门户 gate.ahram.org.eg 及法语门户（french.ahram.org.eg）；旗下刊物还有《半个世界》《金字塔经济学家》《国际政治》《金字塔体育》《金字塔阿拉伯人》《阿拉丁》（少儿）、《青年》等，并设有政治与战略研究中心（ACPSS）。该报多数股权由埃及政府持有：1960年5月24日纳赛尔将报纸收归国有，此后长期由政府任命编辑高层（如海卡尔1957-1974年主政时期），现由埃及国家新闻署监管并于2024年4月7日任命现任董事会主席与主编。历史发行量曾达约120万份（2000年），周五版发行量更高。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。作为媒体机构，金字塔报2025年5月派副主编出席在中国举行的上海合作组织媒体论坛，参与国际媒体合作打击虚假新闻（来源：人民日报英文版2025年5月24日报道）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/b/b8/Al_Ahram_cover_page.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-MEDIA-001.jpg",
+    "minio_path": "default/popular-org-profile/eg/EG-MEDIA-001.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
-      "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "english_wikipedia",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 25,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "quotes": [
+      {
+        "title": "الأهرام (جريدة) - ويكيبيديا العربية（阿语维基百科：创刊1875-12-27/首期1876-08-05、创办人塔克拉兄弟、现任主编与董事会主席、旗下刊物清单）",
+        "url": "https://ar.wikipedia.org/wiki/الأهرام_(جريدة)"
+      },
+      {
+        "title": "Al-Ahram - Wikipedia（英语维基百科：1876-08-05创刊、1960年国有化、历任主编沿革、阿英法各版次与发行量）",
+        "url": "https://en.wikipedia.org/wiki/Al-Ahram"
+      },
+      {
+        "title": "بوابة الأهرام اليومي 官方刊头页（رئيس مجلس الإدارة: د. محمد فايز فرحات؛ رئيس التحرير: ماجد منير）",
+        "url": "https://gate.ahram.org.eg/daily/WriterArticles/5784/2026/0.aspx"
+      },
+      {
+        "title": "Youm7（2024-04-07）：国家新闻署任命法拉哈特为阿赫拉姆组织董事会主席、穆尼尔为金字塔报主编",
+        "url": "https://www.youm7.com/story/2024/4/7/محمد-فايز-فرحات-رئيسا-لمجلس-إدارة-مؤسسة-الأهرام-وماجد-منير/6538075"
+      },
+      {
+        "title": "Ahram Online（2025-12-28）：Al-Ahram Foundation commemorates 150 years of journalism（创刊150周年庆典）",
+        "url": "https://english.ahram.org.eg/NewsContentP/1/559462/Egypt/AlAhram-Foundation-commemorates--years-of-journali.aspx"
+      },
+      {
+        "title": "People's Daily English（2025-05-24）：Al-Ahram副主编Samy Elkamhawy出席2025上合组织媒体论坛",
+        "url": "https://en.people.cn/n3/2025/0524/c90000-20319320.html"
+      }
+    ],
+    "completeness_score": 93,
+    "notes": "Phase 3 enrichment: 阿英双语维基百科交叉验证创刊史与出版体系；官方刊头页（gate.ahram.org.eg）确认现任董事会主席与主编；Youm7（2024-04-07）、金字塔在线（2025-12-28/2026-05-25）、人民日报英文版（2025-05-24）等新闻源补充人事与近期事件。骨架中 self-referential predecessor 关联已移除并改为正确的 parent_org（阿赫拉姆组织）/regulator（国家新闻署）关系。今日消息（Akhbar El-Yom）与金字塔报为同一监管序列的兄弟机构，非阿赫拉姆组织下属。"
   }
 }

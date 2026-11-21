@@ -1,19 +1,21 @@
 {
   "org_id": "EG-MEDIA-006",
+  "wikidata_qid": "Q2829240",
   "basic_info": {
-    "name_original": "Al-Masry Al-Youm",
+    "name_original": "المصري اليوم",
     "name_zh": "今日埃及人报",
     "name_en": "Al-Masry Al-Youm",
     "aliases": [
-      "masr-alyoum"
+      "masr-alyoum",
+      "AMAY",
+      "almasryalyoum"
     ],
     "org_type": "MEDIA",
     "org_subtype": "newspaper",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "2004-06-07",
-    "website": "https://www.almasryalyoum.com/",
-    "wikidata_qid": "Q2829240"
+    "website": "https://www.almasryalyoum.com/"
   },
   "social_accounts": [
     {
@@ -21,46 +23,207 @@
       "account_name": "AlMasryAlYoum",
       "url": "https://twitter.com/AlMasryAlYoum",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata（骨架继承，未在本次检索中直接复核）"
     },
     {
       "platform": "facebook",
       "account_name": "AlmasryAlyoum",
       "url": "https://facebook.com/AlmasryAlyoum",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata + 本次新闻检索中多次命中官方主页 facebook.com/AlmasryAlyoum 的帖子与视频"
     },
     {
       "platform": "youtube",
       "account_name": "UCP4rilfFKdjXRC1guWNZ85g",
       "url": "https://youtube.com/channel/UCP4rilfFKdjXRC1guWNZ85g",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata；官网视频描述中的频道地址 youtube.com/almasryalyoum 与该频道对应"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "Egypt Independent（埃及独立报英文新闻网站）",
+      "url": "https://www.egyptindependent.com/",
+      "description": "《今日埃及人报》旗下英文新闻网站。2009年以「Al-Masry Al-Youm English Edition」名义随英文版上线，后演变为 Egypt Independent；2011年11月曾推出英文印刷周刊（副刊），2011年12月因主编撤稿事件（罗伯特·斯普林伯格批评武装部队最高委员会的评论）引发自审争议，第二期未能出版；2013年4月母公司停办其印刷版（末期刊物被扣发，仅以数字版发布），此后仅保留在线版运营至今。",
+      "source": "https://en.wikipedia.org/wiki/Al-Masry_Al-Youm"
+    },
+    {
+      "name": "「اسأل المصري اليوم」（问问今日埃及人报）AI问答工具",
+      "url": "https://www.almasryalyoum.com/",
+      "description": "报社于2026年1月29日在开罗国际书展「AI时代的媒体」研讨会上公开介绍的AI问答服务：与一家技术伙伴合作开发，功能与美国《华盛顿邮报》的同类产品相似，完全基于《今日埃及人报》自身档案内容生成答案，上线前经过整整三个月的严格测试。",
+      "source": "https://www.almasryalyoum.com/news/details/4186704"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000349",
+      "name": "阿拉·加特里菲 (علاء الغطريفي)",
+      "title": "主编 (رئيس التحرير)",
+      "title_description": "自2023年10月起任《今日埃及人报》主编",
+      "description": "资深新闻记者、专栏作家（中文译名为音译）。阿拉伯语维基百科人物列表及其传记网站均记载其自2023年10月起出任本报主编；官网2026年1-3月多篇报道均以其主编身份署名。任内主导报社统一数字基础设施建设与AI问答工具「اسأل المصري اليوم」，并多次就媒体自由、反对以新闻部（信息部）行政化管理媒体等议题公开发声。"
+    },
+    {
+      "person_id": "EG-PERSON-000771",
+      "name": "萨拉赫·迪亚布 (صلاح دياب)",
+      "title": "创始人 (المؤسس)",
+      "title_description": "报纸创办人、Pico集团首席执行官",
+      "description": "埃及商人（中文译名为音译），2002年底发起创办该报，2004年6月7日正式出刊；出身出版世家，祖父陶菲克·迪亚布是20世纪二三十年代埃及著名出版人、《时代报》(Al-Zaman)创办人。媒体所有权监测（RSF MOM）称其为报社董事会主席、自由派华夫脱党知名成员；阿语维基百科与RSF另载其兄弟卡迈勒·陶菲克·迪亚布担任出版机构董事会负责人/荣誉主席。商人纳吉布·萨维里斯曾持有机构股份（2015年宣布有意出售，有来源称2017年售予迪亚布）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-006-DEPT-001",
+      "name": "突发新闻组 (أخبار العاجلة)",
+      "head": null,
+      "description": "负责当日重大新闻与突发事件的即时报道，为官网首页首要栏目（据官网首页栏目设置）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-006-DEPT-002",
+      "name": "政治新闻组 (أخبار السياسة)",
+      "head": null,
+      "description": "报道埃及国内政治与内阁动态，含「内阁新闻」（أخبار مجلس الوزراء）板块（据官网首页栏目设置）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-006-DEPT-003",
+      "name": "经济新闻组 (أخبار الاقتصاد)",
+      "head": null,
+      "description": "宏观经济、市场与财经新闻报道（据官网首页栏目设置）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-006-DEPT-004",
+      "name": "文艺新闻组 (أخبار الفن)",
+      "head": null,
+      "description": "文化与娱乐艺术新闻报道（据官网首页栏目设置）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-006-DEPT-005",
+      "name": "体育新闻组 (أخبار الرياضة)",
+      "head": null,
+      "description": "体育赛事与体育产业新闻报道（据官网首页栏目设置）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-006-DEPT-006",
+      "name": "访谈脱口秀组 (توك شو)",
+      "head": null,
+      "description": "访谈类与脱口秀栏目内容制作（据官网首页栏目设置）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-01-02",
+      "title": "主编加特里菲公开阐述「媒体自由与责任并行」立场",
+      "description": "官方Facebook账号于当日发布主编阿拉·加特里菲的视频表态：媒体自由必须与责任相伴，「没有任何人头上插着免受批评的羽毛」（مفيش حد على راسه ريشة，意为无人在批评之上）。",
+      "impact": "重申报纸独立、专业、可受批评的编辑立场，巩固其作为埃及少数独立私营日报的公信力形象。",
+      "source": "https://www.almasryalyoum.com/news/details/3343492"
+    },
+    {
+      "date": "2026-01-29",
+      "title": "宣布建设统一数字基础设施并介绍AI问答工具",
+      "description": "在第57届开罗国际书展、由未来研究中心主办的「AI时代的媒体」研讨会上，主编加特里菲宣布报社正建设统一数字基础设施以跟进内容产业的AI变革，并介绍基于自身档案、与《华盛顿邮报》类似功能、经三个月测试的AI问答服务「اسأل المصري اليوم」。",
+      "impact": "标志该独立私营报业向AI驱动的多媒体新闻机构转型，是2026年埃及报业数字化的代表性举措。",
+      "source": "https://www.almasryalyoum.com/news/details/4186704"
+    },
+    {
+      "date": "2026-02-14",
+      "title": "加特里菲：纸质报纸仍有受众，数字融合是生存之路",
+      "description": "加特里菲表示纸质新闻业仍有真实需求与受众，「纸媒已死」的判断言过其实，报纸的生存之道在于与数字平台深度整合、实现纸数互补。",
+      "impact": "反映该报继续维持「印刷+数字」双轨经营战略，而非停印转型纯数字媒体。",
+      "source": "https://www.almasryalyoum.com/news/details/4198987"
+    },
+    {
+      "date": "2026-02-17",
+      "title": "主编专栏呼吁「媒体发展始于解放媒体」",
+      "description": "加特里菲在第7918期报纸发表专栏「تطوير الإعلام يبدأ بتحريره..!」，质疑重设「新闻国务部」能否弥合政府与媒体界对媒体改革的两条路线分歧，指出当局希望媒体突出政绩、而专业人士视自由为行业复苏之路，主张媒体与监管机构都需要「解放」，改革应落在自由、竞争与可持续经济模式三点上。",
+      "impact": "独立私营媒体对政府媒体政策（拟议新闻部、监管体制）的罕见公开政策讨论，体现其在政媒关系上的批评性定位。",
+      "source": "https://www.almasryalyoum.com/news/details/4201025"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "加特里菲：「机器不会取代记者」",
+      "description": "加特里菲在AI主题研讨中表示，新冠疫情曾促使公众回归可信信息源，AI生成内容仍需记者核查把关，「人工智能不会取代记者」，专业新闻的价值在于可信与核查。",
+      "impact": "延续其对AI与新闻业关系的公开论述，强化报纸「专业核查」的品牌定位。",
+      "source": "https://www.almasryalyoum.com/news/details/4232305"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "今日埃及人报新闻出版机构 (مؤسسة المصري اليوم للصحافة والنشر / Al Masry Establishment for Press, Printing and Publishing)",
+      "org_type": "CORP",
+      "org_description": "私营埃及媒体机构，2003年设立，注册名为「Al-Masry Al-Youm for Journalism and Publication」；董事会由卡迈勒·陶菲克·迪亚布主持（荣誉主席），创办人萨拉赫·迪亚布为家族出版人后裔，董事会成员曾包括纳吉布·萨维里斯（2015年宣布有意出售股份，有来源称2017年售予萨拉赫·迪亚布）、Dream TV创始人艾哈迈德·巴哈加特、商人阿克马尔·库尔塔姆等，CEO曾为阿卜杜勒-莫内姆·赛义德。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "Egypt Independent（埃及独立报英文网站）",
+      "org_type": "MEDIA",
+      "org_description": "本报英文姊妹网站，2009年以英文版网站名义上线后独立运作；2011年11月推出英文印刷周刊，2013年4月被母公司停办印刷版，现仅在线运营。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "Mada Masr (مادة مصر)",
+      "org_type": "MEDIA",
+      "org_description": "2013年6月由Egypt Independent原班记者在停刊后创办的独立新闻网站；与本报无股权关系，渊源在于人事与编辑传统传承。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "EG-GOV-048",
+      "org_name": "埃及最高媒体监管委员会 (Supreme Council for Media Regulation)",
+      "org_type": "GOV",
+      "org_description": "埃及媒体监管机构。2018年4月因本报对总统选举的报道对其处以15万埃镑罚款并要求刊登道歉声明，事件导致时任主编穆罕默德·赛义德·萨利赫被解职。",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "《今日埃及人报》(المصري اليوم) 是埃及最具影响力的私营独立阿拉伯语晨报之一，由商人萨拉赫·迪亚布于2002年底发起创办、2004年6月7日正式出刊，出版方为「今日埃及人报新闻出版机构」（مؤسسة المصري اليوم للصحافة والنشر），总部位于开罗花园城（Garden City）。该报是2000年代初埃及私营独立商业化报纸浪潮的旗舰：首任主编安瓦尔·哈瓦里在创刊号接受BBC采访宣布「独立日报诞生」，创刊三年即挑战《金字塔报》的国家记录报地位，2009年被普遍视为埃及最有影响力的报纸。编辑路线为独立、自由派、改革主义：既不过度颂扬政府，也不作煽动性攻击报道，以深度报道和调查报道著称，在埃及每个省及海外均派驻记者网络，并以自有独立印刷厂印刷（埃及唯一拥有自有印刷厂的报纸）。历史标杆报道包括2005年丹曼胡尔选区人民议会选举舞弊案中法官纳哈·泽尼证词的独家披露。发行方面，2012年日均销售约25万份；据RSF媒体所有权监测（2019年）约8万份。数字业务方面，almasryalyoum.com自2007年起发展为全媒体新闻门户，2009年推出英文版（后演变为Egypt Independent网站，2013年停印后仅在线运营）；2012年其网站居埃及访问量第26位；2026年推出基于自有档案的AI问答工具「اسأل المصري اليوم」并建设统一数字基础设施。收入以报纸销售与数字广告为主。曾用/曾任主编包括马吉迪·马汉纳、安瓦尔·哈瓦里、马吉迪·加拉德（2005-2012）、亚西尔·里兹克、哈姆迪·里兹克、阿卜杜勒-拉提夫·米纳维等，2018年4月主编萨利赫因总统选举报道被解职并被监管机构罚款，2023年10月起由阿拉·加特里菲任主编。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/8/87/Al_Masry_Al_Youm_Cover_Page.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": null
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "media_ownership_monitor"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 81,
+    "notes": "Phase3 enrichment 2026-11-17: AR/EN Wikipedia + RSF Media Ownership Monitor + official site articles (2025-2026). 现任主编加特里菲（2023年10月上任）经阿语维基百科、ManHOM传记与官网2026年报道三重确认；所有权结构（萨拉赫·迪亚布家族、萨维里斯曾持股）经EN维基与RSF MOM双源确认。官网首页经直读返回空内容（JS渲染），栏目设置依据搜索结果中官网首页meta描述；2018年选举报道罚款/主编解职事件经RSF MOM与Egypt Independent双源确认，作为背景写入core_business。",
+    "quotes": [
+      {
+        "title": "المصري اليوم - ويكيبيديا العربية（阿拉伯语维基百科）",
+        "url": "https://ar.wikipedia.org/wiki/المصري_اليوم"
+      },
+      {
+        "title": "Al-Masry Al-Youm - Wikipedia（英文维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Al-Masry_Al-Youm"
+      },
+      {
+        "title": "Al Masry Al Youm - Egypt - Media Ownership Monitor (RSF)",
+        "url": "https://egypt.mom-rsf.org/en/media/detail/outlet/al-masry-al-youm/"
+      },
+      {
+        "title": "علاء الغطريفي: «المصري اليوم» تشيَد بنية رقمية موحدة لمواكبة طفرة الذكاء الاصطناعي（官网 2026-01-29）",
+        "url": "https://www.almasryalyoum.com/news/details/4186704"
+      },
+      {
+        "title": "تطوير الإعلام يبدأ بـ«تحريره»..!（官网主编专栏 2026-02-17，第7918期）",
+        "url": "https://www.almasryalyoum.com/news/details/4201025"
+      }
+    ]
   }
 }

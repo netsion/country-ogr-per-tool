@@ -1,64 +1,228 @@
 {
   "org_id": "EG-MEDIA-010",
+  "wikidata_qid": "Q12205286",
   "basic_info": {
-    "name_original": "El Watan News",
-    "name_zh": null,
+    "name_original": "الوطن",
+    "name_zh": "祖国报（埃及）",
     "name_en": "El Watan News",
-    "aliases": [],
+    "aliases": [
+      "الوطن",
+      "بوابة الوطن",
+      "Elwatan News"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "newspaper",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": null,
-    "website": "https://www.elwatannews.com/",
-    "wikidata_qid": "Q12205286"
+    "founded_date": "2012-04-29",
+    "website": "https://www.elwatannews.com/"
   },
   "social_accounts": [
     {
       "platform": "twitter",
       "account_name": "ElwatanNews",
-      "url": "https://twitter.com/ElwatanNews",
+      "url": "https://x.com/ElwatanNews",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata官方账号（X ID 526343521，认证账号）；约459万粉丝（wikidata 2022-04快照）"
     },
     {
       "platform": "facebook",
       "account_name": "ElWatanNews",
-      "url": "https://facebook.com/ElWatanNews",
+      "url": "https://www.facebook.com/ElWatanNews/",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata官方账号；Facebook页面自述关注者约2374万（搜索摘要显示）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "elwatannews",
+      "url": "https://www.instagram.com/elwatannews/",
+      "source": 8,
+      "source_note": "wikidata官方账号（Instagram ID 3102381638）；约200万粉丝（搜索摘要显示）"
     },
     {
       "platform": "youtube",
-      "account_name": "UChCCLbpmrhgCI1rS3-1GLjQ",
-      "url": "https://youtube.com/channel/UChCCLbpmrhgCI1rS3-1GLjQ",
+      "account_name": "ElWatan News - جريدة الوطن",
+      "url": "https://www.youtube.com/channel/UChCCLbpmrhgCI1rS3-1GLjQ",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata官方频道（handle @ElwatannewsGate）；约177万订阅、4.7万+视频（wikidata 2025-09快照）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "El Watan Newspaper / جريدة الوطن",
+      "url": "https://www.linkedin.com/company/el-watan-newspaper",
+      "source": 17,
+      "source_note": "LinkedIn公司主页（搜索结果确认）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "祖国报电子新闻门户（بوابة الوطن الإلكترونية）",
+      "url": "https://www.elwatannews.com/",
+      "description": "报社主数字门户（elwatannews.com），面向全球阿语读者提供即时新闻、政治分析、经济与文娱报道，并配发现场视频直播内容；据英文维基百科记载，站内广告与视频内容由其所属广告机构「瓦坦门户」（Bawabat Al-Watan）策划。",
+      "source": "https://en.wikipedia.org/wiki/El_Watan_News"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000362",
+      "name": "穆斯塔法·阿马尔 (مصطفى عمار)",
+      "title": "主编 (رئيس التحرير)",
+      "title_description": "负责「祖国报」网站与报纸的 editorial（编辑）事务；音译名",
+      "description": "埃及新闻作家，2023年8月8日经联合媒体服务公司（UMS）董事会决议出任「祖国报」网站与报纸主编（来源：《祖国报》官网报道）；2025-2026年间多个独立来源（《第七日报》Youm7、DMC/Extra News节目、nabd新闻聚合）均以其现任主编身份引用，任职至今。"
+    },
+    {
+      "person_id": "EG-PERSON-000781",
+      "name": "马格迪·贾拉德 (مجدي الجلاد)",
+      "title": "创始人（首任主编）(المؤسس)",
+      "title_description": "报纸创办人；音译名",
+      "description": "埃及资深新闻作家，曾任《今日埃及人报》（Al-Masry Al-Youm）主编；2012年创办「祖国报」并出任首任主编（阿拉伯语与英文维基百科均记载其为创始人；Masrawy 2012-04-29报道首期发行时其任主编）。"
+    },
+    {
+      "person_id": "EG-PERSON-000368",
+      "name": "穆罕默德·阿明（音译） (محمد الأمين)",
+      "title": "所有者（通过未来传媒）",
+      "title_description": "报纸所属传媒公司的所有人；音译名",
+      "description": "埃及商人；阿拉伯语维基百科记载「祖国报」由其拥有的未来传媒（فيوتشر الإعلامية）发行，英文维基百科亦记载 Future Media 为 Mohamed Al-Amin 所有。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-010-DEPT-001",
+      "name": "新闻部 (قطاع الأخبار)",
+      "head": null,
+      "description": "负责埃及本国新闻以及阿拉伯各国、国际新闻的采编与报道（依据官网首页栏目设置：أخبار مصر والدول العربية والعالم）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-010-DEPT-002",
+      "name": "政治部 (قطاع السياسة)",
+      "head": null,
+      "description": "负责政治新闻与分析报道（官网首页列明的核心板块之一）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-010-DEPT-003",
+      "name": "经济部 (قطاع الاقتصاد)",
+      "head": null,
+      "description": "负责经济新闻与市场信息报道（官网首页列明的核心板块之一）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-010-DEPT-004",
+      "name": "体育部 (قطاع الرياضة)",
+      "head": null,
+      "description": "负责体育新闻报道（官网首页列明的核心板块之一）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-010-DEPT-005",
+      "name": "文艺部 (قطاع الفن)",
+      "head": null,
+      "description": "负责文艺与娱乐新闻报道（官网首页列明的核心板块之一）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-010-DEPT-006",
+      "name": "瓦坦门户（广告与视频单元）(بوابة الوطن)",
+      "head": null,
+      "description": "据英文维基百科记载，站内广告与现场视频内容由该报所属广告机构「Bawabat Al-Watan」（瓦坦门户）策划制作，是其新闻产品的重要组成。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-08-08",
+      "title": "联合媒体服务公司董事会任命穆斯塔法·阿马尔为主编",
+      "description": "据《祖国报》官网报道，联合媒体服务公司（الشركة المتحدة للخدمات الإعلامية，UMS）董事会当日决议，任命新闻作家穆斯塔法·阿马尔（مصطفى عمار）为「祖国报」网站与报纸的主编。",
+      "impact": "确认UMS对报社拥有人事任免权（母公司管控的直接证据）；阿马尔此后以主编身份持续公开活动至2026年（Youm7、DMC、nabd等多个2024-2026年来源交叉印证）。",
+      "source": "https://www.elwatannews.com/news/details/6727534"
+    },
+    {
+      "date": "2025-12-31",
+      "title": "母公司UMS决定停止报道社交媒体名人新闻，主编表态支持",
+      "description": "联合媒体服务公司决定旗下媒体停止报道所谓「TikToker」及社交媒体名人（مشاهير السوشيال ميديا）新闻；《祖国报》主编穆斯塔法·阿马尔对《第七日报》（Youm7）表示，该决定「重新校正埃及新闻业的路径」。",
+      "impact": "反映母公司UMS对旗下媒体编辑方针实行统一管控；《祖国报》作为UMS成员在编辑政策上与集团保持一致（依据：Youm7当日报道及CBC节目视频）。",
+      "source": "https://www.youm7.com/story/2025/12/31/رئيس-تحرير-الوطن-لـ-اليوم-قرار-المتحدة-يعيد-تصحيح-مسار/7253540"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "关于埃及基督徒群体的报道被英国内政部国别报告引用",
+      "description": "2026年1月，「祖国报」发表关于埃及基督徒群体代表性的报道；英国内政部2026年8月14日发布的《埃及国别政策与信息说明：基督徒》专章引用了该报道（仅知发表年月，日期按规则取当月1日）。",
+      "impact": "显示该报报道内容进入国际官方研究文献的引用体系，具有一定的国别信息参考价值（依据：gov.uk报告正文）。",
+      "source": "https://www.gov.uk/government/publications/egypt-country-policy-and-information-notes/country-policy-and-information-note-christians-egypt-august-2026-accessible"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "主编阿马尔就「2026埃及论坛」公开发声",
+      "description": "《祖国报》主编穆斯塔法·阿马尔表示，「2026埃及论坛」（منتدى مصر 2026）的构想源自总统阿卜杜勒-法塔赫·塞西的倡议，论坛为公民参与国家未来规划提供渠道；该报并对论坛开幕（2026年10月中下旬）进行了报道与视频传播。",
+      "impact": "体现该报在埃及重大官方议程报道中的积极参与及其主编在电视平台的活跃度（依据：nabd新闻聚合2026-10-19及该报Facebook官方账号视频）。",
+      "source": "https://nabd.com/s/179640937-39af3b/الكاتب-الصحفي-مصطفى-عمار-منتدى-مصر-يفتح-الباب-أمام-المواطنين-للمشاركة-في-صياغة-المستقبل"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-MEDIA-019",
+      "org_name": "联合媒体服务公司 (الشركة المتحدة للخدمات الإعلامية)",
+      "org_type": "MEDIA",
+      "org_description": "埃及大型媒体集团（United Media Services，UMS）；阿拉伯语维基百科将其列为《祖国报》所有方之一，且其董事会2023年直接任命该报主编、2025年统一旗下媒体编辑政策。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "未来出版发行与新闻公司 (شركة المستقبل للنشر والتوزيع والصحافة)",
+      "org_type": "MEDIA",
+      "org_description": "《祖国报》的出版发行方（英文维基百科称 Future Publishing, Distribution, and Press / Future Media），由商人穆罕默德·阿明（محمد الأمين）所有；阿拉伯语与英文维基百科均记载其为该报的出版者/所有者。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "「祖国报」（الوطن，El Watan News）是一家总部位于埃及吉萨省杜基区梅斯达克街16号的独立阿拉伯语日报，纸质版与电子版并行发行，由未来出版发行与新闻公司出版、联合媒体服务公司（UMS）旗下体系运营管理。报纸于2012年4月29日发行首期（Masrawy当日报道），创刊主编为资深新闻作家马格迪·贾拉德，现任主编为2023年8月上任的穆斯塔法·阿马尔。其电子门户（elwatannews.com）面向全球阿语读者提供即时新闻、政治分析、经济与文娱报道，并依托「瓦坦门户」（Bawabat Al-Watan）广告机构制作现场视频直播与广告内容；官网板块涵盖埃及、阿拉伯国家、国际新闻及政治、经济、体育、文艺等频道，另提供天气、招聘、物价等生活服务信息。报纸政治立场登记为独立（مستقلة），办报口号为「一份由读者写的报纸」（صحيفة يكتبها القارئ）。截至2025年前后，其X（推特）账号关注者约459万、Facebook页面关注者约2374万、Instagram约200万、YouTube订阅约177万（频道视频超4.7万条），是埃及受众规模最大的数字新闻门户之一。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Elwatan.svg/330px-Elwatan.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-MEDIA-010.png",
+    "minio_path": "default/popular-org-profile/eg/EG-MEDIA-010.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "wikidata",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 77,
+    "notes": "创刊时间以2012-04-29首期发行为准（Masrawy 2012-04-29当日报道；阿语维基百科记为2012年5月开始发行；该报2024-04-28第十二周年回顾文章佐证）；任务提示中「2007年创刊」的说法未在任何来源中获得支持，未采用。官网elwatannews.com读取被拒（HTTP 403/502），板块与门户信息以官网首页搜索摘要及维基百科为准。UMS集团归属有3个独立来源（阿语维基百科infobox、《祖国报》2023-08-08任命报道、Youm7 2025-12-31报道）。董事会主席（د. أحمد محمود）仅阿语维基百科单一来源，按双源规则未列入key_people。",
+    "quotes": [
+      {
+        "title": "الوطن (جريدة مصرية) - ويكيبيديا العربية (Arabic Wikipedia)",
+        "url": "https://ar.wikipedia.org/wiki/الوطن_(جريدة_مصرية)"
+      },
+      {
+        "title": "El Watan News - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/El_Watan_News"
+      },
+      {
+        "title": "El Watan News - Wikidata Q12205286",
+        "url": "https://www.wikidata.org/wiki/Q12205286"
+      },
+      {
+        "title": "الوطن: الصفحة الرئيسية (official website homepage)",
+        "url": "https://www.elwatannews.com/"
+      },
+      {
+        "title": "صدور العدد الأول من الوطن المصرية - Masrawy 2012-04-29 (first issue report)",
+        "url": "https://www.masrawy.com/news/news_egypt/details/2012/4/29/78322/صدور-العدد-الأول-من-الوطن-المصرية"
+      },
+      {
+        "title": "رئيس تحرير الوطن: قرار المتحدة يعيد تصحيح مسار الصحافة المصرية - Youm7 2025-12-31",
+        "url": "https://www.youm7.com/story/2025/12/31/رئيس-تحرير-الوطن-لـ-اليوم-قرار-المتحدة-يعيد-تصحيح-مسار/7253540"
+      }
+    ]
   }
 }

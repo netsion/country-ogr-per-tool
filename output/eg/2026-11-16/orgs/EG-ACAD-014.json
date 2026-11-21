@@ -1,18 +1,20 @@
 {
   "org_id": "EG-ACAD-014",
   "basic_info": {
-    "name_original": "British University in Egypt",
+    "name_original": "الجامعة البريطانية فى مصر",
     "name_zh": "埃及不列颠大学",
-    "name_en": "British University in Egypt",
+    "name_en": "The British University in Egypt",
     "aliases": [
       "BUE",
+      "The British University in Egypt",
+      "الجامعة البريطانية فى مصر",
       "bue.edu.eg"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": "2005-01-01",
+    "founded_date": "2005-09-01",
     "website": "https://www.bue.edu.eg/",
     "wikidata_qid": "Q3087723"
   },
@@ -22,46 +24,286 @@
       "account_name": "bue_official",
       "url": "https://twitter.com/bue_official",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "Wikidata骨架数据（phase2），未在本次搜索中再次核实"
     },
     {
       "platform": "facebook",
       "account_name": "thebritishuniversityegypt",
       "url": "https://facebook.com/thebritishuniversityegypt",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "Wikidata骨架数据；新闻搜索中官方Facebook帖文链接多次确认该主页"
     },
     {
       "platform": "youtube",
       "account_name": "UCqvAvU8X3_3cmRZexwPhucg",
       "url": "https://youtube.com/channel/UCqvAvU8X3_3cmRZexwPhucg",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "Wikidata骨架数据（phase2）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "the-british-university-in-egypt",
+      "url": "https://www.linkedin.com/company/the-british-university-in-egypt",
+      "source": 17,
+      "source_note": "新闻搜索结果中的LinkedIn机构帖文链接（linkedin.com/posts/the-british-university-in-egypt_...）确认主页slug"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "digital_assets": [
+    {
+      "name": "BUE新闻与活动门户",
+      "url": "https://www.bue.edu.eg/events",
+      "description": "大学官网新闻与活动发布页面，发布校长授勋、国际会议、毕业典礼及新学院动态等校方消息。",
+      "source": "https://www.bue.edu.eg/events"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000664",
+      "name": "穆罕默德·卢特菲 (محمد لطفي)",
+      "title": "校长 (President and Vice-Chancellor)",
+      "title_description": "校长兼副校监，大学最高行政负责人，2021年就任",
+      "description": "现任埃及不列颠大学校长，2021年起就任（英文维基百科）。因对英国与埃及两国教育服务的贡献，列入2025年英国国王生日荣誉名单（海外及国际名单，由英国外交、联邦及发展办公室发布）获颁不列颠帝国成员勋章（MBE），并于2026年6月9日在温莎城堡正式授勋（国际大学协会IAU与大学官网报道）；英国驻开罗大使馆于2026年11月与其共同举行表彰活动。阿拉伯语媒体（如《第七日》网站）在招生新闻中亦以其为大学负责人（رئيس الجامعة）。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000665",
+      "name": "马吉德·雅各布爵士 (Sir Magdi Yacoub)",
+      "title": "荣誉校监 (Honorary Chancellor)",
+      "title_description": "大学首位荣誉校监（礼仪性职位），2022年12月起出任",
+      "description": "英籍埃及裔世界知名心脏外科专家，2022年12月成为埃及不列颠大学首位荣誉校监（英文维基百科）；阿拉伯语维基百科称其为大学荣誉主席（الرئيس الشرفي）。另据ID索引，其创立的马吉德·雅各布心脏基金会在本项目中的编号为EG-NGO-011。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000666",
+      "name": "叶海亚·巴希丁 (Yehia Bahei El-Din)",
+      "title": "副校长 (Vice-President)",
+      "title_description": "大学副校长",
+      "description": "据英文维基百科信息框，Yehia Bahei El-Din现任埃及不列颠大学副校长。中文译名为音译，其详细履历未在本次收集中核实。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-014-DEPT-001",
+      "name": "工商管理、经济与政治学院 (كلية الاقتصاد والعلوم السياسية وإدارة الأعمال)",
+      "description": "提供工商管理、经济学与政治科学等本科及研究生课程；据英文维基百科，获埃及国家质量保证与认证局认证。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-002",
+      "name": "牙科学院 (كلية طب الفم والأسنان)",
+      "description": "牙医学教育与研究单位；据英文及阿拉伯语维基百科，获埃及国家质量保证与认证局认证。2026年3月在校内主办首届国际牙科大会（International Dental Conference 2026），吸引10个国家约2500名代表参加。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-003",
+      "name": "药学院 (كلية الصيدلة)",
+      "description": "药学教育单位；奥运金牌得主、著名校友法丽尔·阿卜杜勒阿齐兹（Feryal Abdelaziz）毕业于该学院。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-004",
+      "name": "护理学院 (كلية التمريض)",
+      "description": "护理学教育单位，2005年建校初期即设立（阿拉伯语维基百科）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-005",
+      "name": "大众传播学院 (كلية الاعلام والاتصال)",
+      "description": "新闻传播与媒体教育单位（阿拉伯语维基百科：كلية الاعلام والاتصال）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-006",
+      "name": "法学院 (كلية الحقوق)",
+      "description": "法学教育单位；2026年毕业季举行2026届法学毕业典礼（校方Facebook）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-007",
+      "name": "工程学院 (كلية الهندسة)",
+      "description": "2005年建校首批开课学院之一；据英文维基百科，获伦敦南岸大学及埃及工程教育质量保证机构认证；化学工程与石油工程两个专业由伦敦南岸大学负责质量监督（阿拉伯语维基百科）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-008",
+      "name": "能源与环境工程学院 (كلية هندسة البيئة والطاقة)",
+      "description": "能源与环境工程教育研究单位（英文维基百科：Faculty of Energy and Environmental Engineering）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-009",
+      "name": "计算机与信息学院 (كلية الحاسبات والمعلومات)",
+      "description": "2005年建校首批开课学院之一（阿拉伯语维基百科），现名信息与计算机科学学院（Faculty of Information & Computer Science）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-010",
+      "name": "文学与人文学院 (كلية الآداب والعلوم الإنسانية)",
+      "description": "人文社科教育单位（英文维基百科：Faculty of Arts and Humanities）。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-011",
+      "name": "艺术与设计学院 (كلية الفنون والتصميم)",
+      "description": "艺术设计教育单位；官网宣传其设计类课程四年制加速培养项目。"
+    },
+    {
+      "dept_id": "EG-ACAD-014-DEPT-012",
+      "name": "物理治疗学院 (كلية العلاج الطبيعي)",
+      "description": "物理治疗（Physiotherapy）教育单位（英文维基百科：Faculty of Physiotherapy）。"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-04",
+      "title": "获泰晤士高等教育阿拉伯世界大奖（THE Awards Arab World 2026）",
+      "description": "在摩洛哥宾盖里尔（Ben Guerir）举行的泰晤士高等教育阿拉伯大学峰会闭幕晚宴上（2026年11月4日晚），埃及不列颠大学在THE Awards Arab World 2026颁奖典礼中荣获大奖（THE官网获奖名单将该校列于「杰出贡献」类奖项；此前2026年7月公布的入围名单覆盖13个国家和地区、收到超过400项申报）。埃及《金字塔报》网站（阿拉伯语）亦报道该校在11月4日晚颁奖礼上获奖。",
+      "impact": "巩固该校作为埃及顶尖私立大学在阿拉伯地区高教界的声誉，有利于招生与国际合作。",
+      "source": "https://www.timeshighereducation.com/news/times-higher-education-awards-arab-world-2026-winners-announced"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "校长出席Magna Charta 2026活动并就大学与安全议题发言",
+      "description": "2026年10月27日，校长穆罕默德·卢特菲（MBE）在Magna Charta 2026活动中就「大学与安全」议题发言，强调大学在应对安全议题中的关键作用；校方同日在官方账号宣布大学参与「埃及论坛2026」（Egypt Forum 2026），围绕国家项目展开讨论。",
+      "impact": "展示该校在英国—埃及学术与公共外交网络中的活跃角色。",
+      "source": "https://www.facebook.com/thebritishuniversityegypt/posts/professor-mohamed-loutfi-mbe-president-and-vice-chancellor-of-the-british-univer/1539579651539163/"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "面向2026/2027学年开放入学申请",
+      "description": "据埃及《第七日》网站（阿拉伯语）报道，埃及不列颠大学（校长：穆罕默德·卢特菲博士）宣布面向2026年埃及高中会考（ثانوية عامة）成绩达标的考生开放2026/2027学年入学申请；同年8月初该校举办开放日活动，并向全国会考优胜者颁发全额奖学金。",
+      "impact": "反映该校持续扩招与生源竞争策略；2027/2028学年招生亦已在官网预告。",
+      "source": "https://www.youm7.com/7516426"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "校长穆罕默德·卢特菲在温莎城堡获授MBE勋章",
+      "description": "校长穆罕默德·卢特菲因对英国与埃及两国教育服务的贡献，于2026年6月9日在温莎城堡被正式授予「不列颠帝国成员勋章」（MBE）。该荣誉此前在2025年国王生日荣誉名单（海外及国际名单，由英国外交、联邦及发展办公室FCDO发布）中宣布；国际大学协会（IAU）2026年10月7日发布祝贺，大学官网设专题报道，英国驻开罗大使馆随后（2026年11月）亦为其举行表彰活动。",
+      "impact": "该王室荣誉由至少三个独立来源确认（IAU、大学官网、使馆活动帖文），体现英埃高等教育合作深化及校长个人的跨国学术影响力。",
+      "source": "https://iau.global/news/the-british-university-in-egypt-celebrates-its-presidents-mbe-for-services-to-education"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "与国际大学生体育联合会（FISU）签署合作谅解备忘录",
+      "description": "国际大学生体育联合会（FISU）与埃及不列颠大学签署谅解备忘录，共同发展大学体育教育，备忘录由校长穆罕默德·卢特菲代表校方签署（FISU官网2026年6月2日报道）。",
+      "impact": "该校成为FISU在埃及推进体育教育发展的合作院校，拓展其国际体育学术网络。",
+      "source": "https://www.fisu.net/2026/06/02/fisu-and-the-british-university-in-egypt-join-hands-to-further-develop-sport-education/"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "贝尔法斯特女王大学启动与该校的首个重大埃及合作",
+      "description": "英国北爱尔兰贝尔法斯特女王大学（Queen's University Belfast）2026年5月13日宣布欢迎埃及不列颠大学代表团到访，正式启动该校与BUE的首个重大埃及学术合作伙伴关系。",
+      "impact": "继伦敦国王学院（2023年备忘录）之后，该校的英国合作院校网络进一步扩大至罗素集团高校。",
+      "source": "https://www.qub.ac.uk/sites/StaffGateway/News/NewsArchive/2026/QueenslaunchesfirstmajorEgyptianpartnershipwithTheBritishUniversityinEgypt.html"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "主办首届国际牙科大会（International Dental Conference 2026）",
+      "description": "埃及不列颠大学于2026年3月在校内举办首届国际牙科大会，来自10个国家的约2500名代表参加（校方LinkedIn机构账号2026年3月29日帖文及官网活动页报道）。",
+      "impact": "提升该校牙科医学学科的国际能见度，体现其承办大型国际学术会议的能力。",
+      "source": "https://www.linkedin.com/posts/the-british-university-in-egypt_the-british-university-in-egypt-welcomed-activity-7443957018601840640-jUci"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "伦敦南岸大学 (London South Bank University)",
+      "org_type": "ACAD",
+      "org_description": "英国伦敦公立大学，是埃及不列颠大学的主要英国学术合作伙伴（阿拉伯语维基百科称其为「基本合作伙伴」），负责部分学位认证与质量监督，尤其是化学工程与石油工程专业。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "曼彻斯特城市大学 (Manchester Metropolitan University)",
+      "org_type": "ACAD",
+      "org_description": "英国曼彻斯特公立大学，埃及不列颠大学三大英国学位认证合作院校之一（英文维基百科）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "玛格丽特女王大学 (Queen Margaret University)",
+      "org_type": "ACAD",
+      "org_description": "英国苏格兰爱丁堡的公立大学，埃及不列颠大学三大英国学位认证合作院校之一（英文维基百科）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "伦敦国王学院 (King's College London)",
+      "org_type": "ACAD",
+      "org_description": "英国伦敦罗素集团大学；2023年4月与埃及不列颠大学签署合作谅解备忘录（英文维基百科）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "贝尔法斯特女王大学 (Queen's University Belfast)",
+      "org_type": "ACAD",
+      "org_description": "英国北爱尔兰罗素集团大学；2026年5月启动其与埃及高校的首个重大合作，伙伴即埃及不列颠大学。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际大学生体育联合会 (Fédération Internationale du Sport Universitaire, FISU)",
+      "org_type": "INTL",
+      "org_description": "主管世界大学生体育运动的国际组织；2026年6月2日与埃及不列颠大学签署体育教育合作谅解备忘录。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "非洲大学协会 (Association of African Universities)",
+      "org_type": "INTL",
+      "org_description": "非洲区域性大学协会；据阿拉伯语维基百科信息框「عضوية（成员资格）」，埃及不列颠大学为其成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及大学最高委员会 (Supreme Council of Universities)",
+      "org_type": "GOV",
+      "org_description": "埃及高等教育的官方审议与监管机构，正式批准设立埃及不列颠大学并定期开展质量评估；大学官网亦宣称获其认证，其学位与英国合作院校认证并行。",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "埃及不列颠大学（BUE）是一所位于开罗省舒鲁克市（El Shorouk City）的私立大学，源于1998年英国与埃及两国政府的合作备忘录，2004年依据埃及总统令正式设立，2005年9月迎来首批学生并逐步由工程、计算机两院扩展至12个学院。办学目标是按照英国大学标准在埃及提供英式高等教育，学位由英国合作院校与埃及大学最高委员会双重认证，是埃及及北非唯一获英国高等教育质量保证局（QAA）认证的大学，并为Advance HE成员。学科覆盖工程（含能源与环境工程）、计算机与信息科学、牙科、药学、护理、物理治疗、工商管理、经济与政治、法律、大众传播、文学与人文及艺术设计等领域，现有学生约1.1万至1.2万人（其中国际学生500余人），学术教师逾1000人。校园占地约40英亩，距开罗市中心约30公里。大学与伦敦南岸大学、曼彻斯特城市大学、玛格丽特女王大学保持长期学位认证合作，2023年与伦敦国王学院、2026年与贝尔法斯特女王大学签署合作文件，并同国际大学生体育联合会（FISU）开展体育教育合作；2023年在泰晤士高等教育世界大学排名中位列埃及私立大学第一，2024年在THE年轻大学排名中位居埃及私立大学首位。",
   "industries": [
     "higher_education"
   ],
-  "apec_stance": null,
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该大学的国际合作以英埃高等教育合作（英国院校学位认证、QAA认证、英国使馆活动等）为主，不涉及APEC相关事务。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/British_University_in_Egypt.png/330px-British_University_in_Egypt.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-ACAD-014.png",
+    "minio_path": "default/popular-org-profile/eg/EG-ACAD-014.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 89,
+    "notes": "Phase3 enrichment 2026-11-17. 校长穆罕默德·卢特菲MBE授勋（2026-06-09温莎城堡）经IAU、大学官网事件页与英国驻开罗使馆/校方帖文多源确认；THE Awards Arab World 2026获奖（2026-11-04）由THE官网与金字塔报网站（gate.ahram.org.eg/News/5979141.aspx，本次抓取失败但搜索快照含日期与地点）交叉印证。建校沿革按来源如实记录：1998年英埃政府合作备忘录→2004年总统令设立→2005年9月首批学生入学（英、阿维基百科一致；早期英国合作体系信息不足，拉夫堡大学合作说法未能核实，故未写入）。Instagram官方账号句柄未能核实，未收录；各学院负责人（head）未查到，留空；departments[].head、key_people[].person_id均按规则留null/不填。",
+    "quotes": [
+      {
+        "title": "British University in Egypt - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/British_University_in_Egypt"
+      },
+      {
+        "title": "الجامعة البريطانية في مصر - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/الجامعة_البريطانية_في_مصر"
+      },
+      {
+        "title": "The British University in Egypt | BUE (official website)",
+        "url": "https://www.bue.edu.eg/"
+      },
+      {
+        "title": "The British University in Egypt celebrates its President's MBE for services to education - International Association of Universities",
+        "url": "https://iau.global/news/the-british-university-in-egypt-celebrates-its-presidents-mbe-for-services-to-education"
+      },
+      {
+        "title": "Times Higher Education Awards Arab World 2026: winners announced",
+        "url": "https://www.timeshighereducation.com/news/times-higher-education-awards-arab-world-2026-winners-announced"
+      },
+      {
+        "title": "Queen's launches first major Egyptian partnership with The British University in Egypt",
+        "url": "https://www.qub.ac.uk/sites/StaffGateway/News/NewsArchive/2026/QueenslaunchesfirstmajorEgyptianpartnershipwithTheBritishUniversityinEgypt.html"
+      },
+      {
+        "title": "FISU and the British University in Egypt join hands to further develop sport education",
+        "url": "https://www.fisu.net/2026/06/02/fisu-and-the-british-university-in-egypt-join-hands-to-further-develop-sport-education/"
+      },
+      {
+        "title": "تنسيق الجامعات الخاصة.. الجامعة البريطانية في مصر تفتح باب التقديم للعام الجامعي 2026-2027 (اليوم السابع)",
+        "url": "https://www.youm7.com/7516426"
+      }
+    ]
   }
 }

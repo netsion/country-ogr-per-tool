@@ -1,63 +1,263 @@
 {
   "org_id": "EG-ACAD-022",
   "basic_info": {
-    "name_original": "Egypt-Japan University of Science and Technology",
-    "name_zh": "埃及-日本科學技術大學",
+    "name_original": "الجامعة المصرية اليابانية للعلوم والتكنولوجيا",
+    "name_zh": "埃及-日本科学技术大学",
     "name_en": "Egypt-Japan University of Science and Technology",
     "aliases": [
       "E-JUST",
       "EJUST",
       "Egypt Japan University of Science and Technology",
       "Egypt-Japan University of Science & Technology",
+      "جامعة مصر اليابانية للعلوم والتكنولوجيا",
+      "エジプト日本科学技術大学",
       "ejust.edu.eg"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": "2010-01-01",
+    "founded_date": "2009-05-30",
     "website": "https://ejust.edu.eg/",
     "wikidata_qid": "Q4115744"
   },
   "social_accounts": [
     {
       "platform": "facebook",
-      "account_name": "EJUST.official",
-      "url": "https://facebook.com/EJUST.official",
+      "account_name": "ejust.official",
+      "url": "https://www.facebook.com/ejust.official/",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "阿拉伯语维基百科外链及搜索结果确认官方主页"
     },
     {
       "platform": "youtube",
       "account_name": "UCwWlnbPoGX7WcO-MZzqFooA",
       "url": "https://youtube.com/channel/UCwWlnbPoGX7WcO-MZzqFooA",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata（骨架保留）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "digital_assets": [
+    {
+      "name": "E-JUST校长办公室网页",
+      "url": "https://ejust.edu.eg/president",
+      "description": "官网校长专栏，载有现任校长简历与校长致辞（President's Message）",
+      "source": "official_website"
+    },
+    {
+      "name": "E-JUST董事会（Board of Trustees）网页",
+      "url": "https://www.ejust.edu.eg/bot",
+      "description": "大学治理机构董事会成员名单页，列有校长Amr Adly（页面更新时点）等信息",
+      "source": "official_website"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000680",
+      "name": "艾哈迈德·萨巴格 (أحمد الصباغ)",
+      "title": "校长 (رئيس الجامعة)",
+      "title_description": "现任校长，2026年7月1日就任",
+      "description": "据E-JUST官网校长页，其于2026年7月1日起出任校长，此前曾担任该校副校长；2026年7月8日埃及第一频道新闻报道其就职典礼（تنصيب），7月22日《金字塔报》门户网站及8月4日埃及国家信息服务处（SIS）新闻均以其校长身份引用其表态。中文译名按阿语发音转写（音译）。"
+    },
+    {
+      "person_id": "EG-PERSON-000681",
+      "name": "阿姆尔·阿德利 (عمرو عدلي)",
+      "title": "前校长",
+      "title_description": "曾任校长，至2026年年中新校长就任",
+      "description": "英语与阿拉伯语维基百科信息框均列其为校长；E-JUST官网2026年6月新闻仍以其校长身份活动（如2026年6月11日接待来访代表团、6月21日发布QS排名新闻）。据QS Reimagine Education评审档案，其2010-2019年间曾任开罗大学工程学院副院长及科技发展基金执行负责人等职。中文译名按阿语发音转写（音译）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-022-DEPT-001",
+      "name": "工学院 (كلية الهندسة)",
+      "head": null,
+      "description": "旗舰学院，下设电子通信与计算机工程学院（ECCE）、创新设计工程学院（IDE）、能源环境化工与石化工程学院（EECE）三个二级学院，提供本科、硕士、博士及专业文凭项目",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-002",
+      "name": "电子、通信与计算机工程学院 (ECCE)",
+      "head": null,
+      "description": "隶属工学院，含电力工程、电子与通信工程、计算机科学与工程、生物医学与生物信息工程等专业方向",
+      "parent_dept_id": "EG-ACAD-022-DEPT-001"
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-003",
+      "name": "创新设计工程学院 (IDE)",
+      "head": null,
+      "description": "隶属工学院，含工业与制造工程、机电一体化与机器人工程、材料科学与工程等专业方向",
+      "parent_dept_id": "EG-ACAD-022-DEPT-001"
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-004",
+      "name": "能源、环境、化工与石化工程学院 (EECE)",
+      "head": null,
+      "description": "隶属工学院，含化工与石化工程、能源资源工程、环境工程等专业方向",
+      "parent_dept_id": "EG-ACAD-022-DEPT-001"
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-005",
+      "name": "基础与应用科学学院 (كلية العلوم الأساسية والتطبيقية)",
+      "head": null,
+      "description": "提供基础科学与应用科学教学与研究支撑（英语维基列名为School of Basic and Applied Sciences）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-006",
+      "name": "国际商务与人文学院 (كلية إدارة الأعمال الدولية والإنسانيات)",
+      "head": null,
+      "description": "2011年2月起开课，提供国际商务与人文社科学位项目",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-007",
+      "name": "药学院 (كلية الصيدلة)",
+      "head": null,
+      "description": "提供药学学位项目（英语、阿语维基均列名）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-008",
+      "name": "计算机科学与信息技术学院 (كلية علوم الحاسوب وتكنولوجيا المعلومات)",
+      "head": null,
+      "description": "提供计算机科学与信息技术学位项目；校长2026年8月表示AI与数据科学为全校学术与科研战略核心",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-009",
+      "name": "艺术与设计学院 (كلية الفنون التطبيقية)",
+      "head": null,
+      "description": "英语维基列名为Faculty of Arts and Design，阿语维基列为应用艺术学院",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-010",
+      "name": "纳米技术研究中心 (مركز بحوث النانو تكنولوجي)",
+      "head": null,
+      "description": "大学四大卓越研究中心之一（阿语维基）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-011",
+      "name": "能源研究与管理中心 (مركز بحوث وإدارة الطاقة)",
+      "head": null,
+      "description": "大学四大卓越研究中心之一（阿语维基）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-012",
+      "name": "电子工业与机电一体化研究中心 (مركز بحوث الصناعات الإلكترونية والميكاترونيات)",
+      "head": null,
+      "description": "大学四大卓越研究中心之一（阿语维基）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-022-DEPT-013",
+      "name": "持续教育与环境发展中心 (مركز التعليم المستمر وتنمية البيئة)",
+      "head": null,
+      "description": "大学四大卓越研究中心之一（阿语维基）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-07-01",
+      "title": "艾哈迈德·萨巴格就任E-JUST校长",
+      "description": "据E-JUST官网校长页，艾哈迈德·萨巴格（Ahmed El-Sabbagh）自2026年7月1日起出任校长，此前任该校副校长；2026年7月8日埃及第一频道《第六档新闻》播出其就职典礼（تنصيب）报道，7月22日《金字塔报》门户网站采访中已以校长身份就2026年专业选择向考生提出建议",
+      "impact": "校长换届标志着该校进入新的管理周期；新校长此前任职副校长，管理层延续性较强，AI与数据科学战略在其任内被置于核心位置（据官网及SIS报道）",
+      "source": "https://www.youtube.com/watch?v=mIdjWWMXDaA"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "E-JUST首次进入QS世界大学排名，位列埃及第四",
+      "description": "时任校长阿姆尔·阿德利宣布E-JUST进入QS世界大学排名，与亚历山大大学并列埃及第四（据官网新闻，发布于2026年6月21日）",
+      "impact": "该校国际化与科研产出获国际排名认可，有助于吸引日本及国际合作伙伴与学生（依据官网新闻）",
+      "source": "https://ejust.edu.eg/get/news/details/212"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "校长阐述AI与数据科学核心战略",
+      "description": "校长艾哈迈德·萨巴格在该校第四期AI能力建设计划闭幕式上表示，大学将人工智能与数据科学置于学术与科研战略核心，通过专业学位项目、研究中心及与日本高校的合作，支持埃及数字化转型与知识经济建设；并称赞通信与信息技术部、高等教育与科学研究部及产业界的协作",
+      "impact": "显示该校学科重点向AI与数字技术倾斜，强化其作为日埃科技合作平台定位（来源：埃及国家信息服务处SIS）",
+      "source": "https://sis.gov.eg/en/media-center/news/e-just-president-egypt-japan-university-prioritizes-ai-data-science/"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "举行2025与2026两届毕业典礼",
+      "description": "E-JUST在亚历山大新堡（Borg El Arab）校区举行2025届与2026届两批学生毕业典礼（Extra News电视台报道，2026年9月25日）",
+      "impact": "反映该校办学规模扩大、两届合办毕业典礼显示研究生培养规模增长（依据媒体报道）",
+      "source": "https://www.facebook.com/extranewstv/videos/الجامعة-المصرية-اليابانية-للعلوم-والتكنولوجيا-تحتفل-بتخريج-دفعتين-جديدتين-لعامي-/1074669515304506/"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "20名E-JUST科学家入选2026年斯坦福-爱思唯尔全球前2%科学家名单",
+      "description": "据E-JUST官网首页新闻（2026年10月14日），该校20名科学家入选2026年斯坦福大学与爱思唯尔联合发布的全球前2%科学家榜单",
+      "impact": "科研影响力指标提升，利于其争取日本JICA及欧盟「地平线欧洲」等国际合作项目（依据官网新闻）",
+      "source": "https://ejust.edu.eg/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "埃及高等教育与科学研究部 (Ministry of Higher Education and Scientific Research)",
+      "org_type": "GOV",
+      "org_description": "埃及主管高等教育与科研的政府部门；E-JUST为2009年第149号总统令设立的国立大学，受教育主管部门监管，2026年8月校长亦公开肯定该部与通信信息技术部的协作",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "日本国际协力机构 (独立行政法人国際協力機構/JICA)",
+      "org_type": "GOV",
+      "org_description": "日本政府对外援助执行机构，自2008年起持续支持E-JUST项目建设与运营（日本外务省《开发合作白皮书2025》及JICA调查报告）",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "E-JUST（埃及-日本科学技术大学）是依据2009年第149号总统令设立的国立研究型大学，是日本与埃及两国政府间教育科技合作的旗舰项目，自2008年起获日本国际协力机构（JICA）持续支持，全面引入日本工程教育模式、科研体系与最新技术，强调以科研为导向的创新教育与问题解决方法论，研究生占比目标约40%。校园位于亚历山大省新堡（New Borg El Arab）工业区大学城，占地200英亩，2020年9月一期启用，二、三期建设预算约100亿埃镑。现设工学院（含电子通信与计算机工程、创新设计工程、能源环境化工与石化工程三个二级学院）、基础与应用科学学院、国际商务与人文学院、药学院、计算机科学与信息技术学院、艺术与设计学院，并设纳米技术、能源研究与管理、电子工业与机电一体化、持续教育与环境发展四大研究中心，可授予学士、硕士、博士及专业文凭。2026年校长宣布将人工智能与数据科学置于学术与科研战略核心；该校在泰晤士高等教育2024年世界大学排名列601-800区间、埃及第一，2026年首次进入QS世界大学排名并位列埃及第四。其使命包括服务埃及、阿拉伯地区与非洲的人力发展，吸引日本企业与机构开展联合研究、培训与技术转移。",
+  "industries": [
+    "higher_education",
+    "research_development",
+    "information_technology"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该校本身亦深度参与跨区域科教合作：作为日埃政府间教育合作旗舰项目获日本JICA长期支持，并与日本高校及欧盟「地平线欧洲」计划开展科研合作。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/E-JUST_logo.png/330px-E-JUST_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-ACAD-022.png",
+    "minio_path": "default/popular-org-profile/eg/EG-ACAD-022.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 76,
+    "notes": "Phase3 enriched: 英语/阿语维基百科、官网（经搜索快照，直读被代理502拦截）、埃及国家信息服务处SIS新闻、金字塔报门户、E-JUST官网新闻、YouTube/脸书媒体页面。现任校长萨巴格（2026-07-01就任）经官网+Ahram+SIS+Channel One多源交叉确认；维基百科信息框中President仍为前校长Amr Adly，已按最新人事记录处理。各部门负责人（head）未能可靠确认，一律置null。Instagram/X账号未获可靠确认，未收录。",
+    "quotes": [
+      {
+        "title": "Egypt-Japan University of Science and Technology — Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Egypt-Japan_University_of_Science_and_Technology"
+      },
+      {
+        "title": "الجامعة المصرية اليابانية للعلوم والتكنولوجيا — ويكيبيديا (AR)",
+        "url": "https://ar.wikipedia.org/wiki/الجامعة_المصرية_اليابانية_للعلوم_والتكنولوجيا"
+      },
+      {
+        "title": "E-JUST president: Egypt-Japan University prioritizes AI, data science — Egypt SIS",
+        "url": "https://sis.gov.eg/en/media-center/news/e-just-president-egypt-japan-university-prioritizes-ai-data-science/"
+      },
+      {
+        "title": "Prof. Amr Adly: E-JUST Enters the QS World University Rankings — E-JUST News",
+        "url": "https://ejust.edu.eg/get/news/details/212"
+      },
+      {
+        "title": "اختر كليتك 2026.. رئيس الجامعة المصرية اليابانية يوجه نصائح لطلاب الثانوية العامة — بوابة الأهرام",
+        "url": "https://gate.ahram.org.eg/News/5815392.aspx"
+      }
+    ]
   }
 }

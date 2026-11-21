@@ -1,19 +1,22 @@
 {
   "org_id": "EG-ACAD-004",
   "basic_info": {
-    "name_original": "Alexandria University",
+    "name_original": "جامعة الإسكندرية",
     "name_zh": "亚历山大大学",
     "name_en": "Alexandria University",
     "aliases": [
       "University of Alexandria",
       "AU",
-      "alexu.edu.eg"
+      "alexu.edu.eg",
+      "Farouk I University",
+      "جامعة فاروق الأول",
+      "法鲁克一世大学"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": "1938-01-01",
+    "founded_date": "1942-08-02",
     "website": "https://alexu.edu.eg",
     "wikidata_qid": "Q1424632"
   },
@@ -23,46 +26,345 @@
       "account_name": "AlexU_Edu_Eg",
       "url": "https://twitter.com/AlexU_Edu_Eg",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata Q1424632；第三方账号（Prima Nexus）在X平台公开引用@AlexU_Edu_Eg为大学官方账号"
     },
     {
       "platform": "facebook",
       "account_name": "AlexandriauniOfficial",
       "url": "https://facebook.com/AlexandriauniOfficial",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；2026年9-10月官方账号发帖（开学致辞、代理校长活动）确认活跃"
     },
     {
       "platform": "youtube",
       "account_name": "UCe_M2y9EemxPLqsS-CdsIKA",
       "url": "https://youtube.com/channel/UCe_M2y9EemxPLqsS-CdsIKA",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata Q1424632 的 YouTube channel ID 字段"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "digital_assets": [
+    {
+      "name": "大学数字图书馆（وحدة المكتبة الرقمية）",
+      "url": "https://dlib-alexu.com/",
+      "description": "亚历山大大学数字图书馆单元，为各学院/研究所提供数字图书馆分馆与信息服务。",
+      "source": "https://dlib-alexu.com/"
+    },
+    {
+      "name": "学生服务平台（منصة الخدمات الطلابية）",
+      "url": "https://auic.alexu.edu.eg/login",
+      "description": "2026年2月上线的学生服务平台，第一阶段为交互式电子教材（大学电子书）服务。",
+      "source": "大学官方Facebook账号（facebook.com/AlexandriauniOfficial，2026-02）"
+    },
+    {
+      "name": "校务管理信息系统（MIS）",
+      "url": "http://mis.alexu.edu.eg/umisapp/ui/loginpage.aspx",
+      "description": "大学教务与校务管理系统登录入口，供教职员与学生使用。",
+      "source": "https://mis.alexu.edu.eg/"
+    },
+    {
+      "name": "大学月度简报（النشرة الشهرية）",
+      "url": "https://alexu.edu.eg/index.php/ar/we-pub-2",
+      "description": "由大学公共关系与媒体部出版的月度新闻简报。",
+      "source": "https://alexu.edu.eg"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000652",
+      "name": "艾哈迈德·阿德尔·阿卜杜勒-哈基姆 (أحمد عادل عبد الحكيم)",
+      "title": "代理校长 (القائم بأعمال رئيس الجامعة)",
+      "title_description": "主持大学全面工作；同时保留负责教育与学生事务副校长职务",
+      "description": "原任亚历山大大学负责教育与学生事务的副校长。2026年2月11日，时任高等教育与科学研究部部长阿卜杜勒-阿齐兹·坎苏瓦签发决定，委任其为亚历山大大学代理校长。已由高教部网站、瓦塔尼新闻网（wataninet）、埃及国家窗口网（masrelbalad）及大学官方渠道等多来源交叉确认。"
+    },
+    {
+      "person_id": "EG-PERSON-000013",
+      "name": "阿卜杜勒-阿齐兹·坎苏瓦 (عبد العزيز قنصوة)",
+      "title": "前校长（2020-2026）",
+      "title_description": "2020年起任亚历山大大学校长；2026年2月内阁改组中转任政府职务",
+      "description": "2020年至2026年出任亚历山大大学校长（阿拉伯语维基百科历任校长表）。2026年2月改组后出任埃及高等教育与科学研究部部长；2026年2月11日以部长身份签令委任原副校长艾哈迈德·阿德尔·阿卜杜勒-哈基姆为大学代理校长。"
+    },
+    {
+      "person_id": "EG-PERSON-000653",
+      "name": "希沙姆·赛义德 (هشام سعيد)",
+      "title": "副校长（研究生教育与科研事务）",
+      "title_description": "Vice President for Graduate Studies and Research",
+      "description": "据英语维基百科大学管理层名录（Administration一节）记载的现任副校长分工。"
+    },
+    {
+      "person_id": "EG-PERSON-000654",
+      "name": "阿法夫·欧菲（音译） (عفاف العوفي)",
+      "title": "副校长（社区服务与环境发展事务）",
+      "title_description": "Vice President for Community Service and Environmental Development",
+      "description": "据英语维基百科大学管理层名录记载的现任副校长分工；姓名按阿拉伯语音译转写。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-004-DEPT-001",
+      "name": "文学院 (كلية الآداب)",
+      "description": "1938年随福阿德一世大学亚历山大分部创立时的首批学院之一。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-002",
+      "name": "法学院 (كلية الحقوق)",
+      "description": "1938年建校首批学院之一。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-003",
+      "name": "工程学院 (كلية الهندسة)",
+      "description": "1941年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-004",
+      "name": "商学院 (كلية الأعمال)",
+      "description": "1942年设立，原为商学院（Commerce）。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-005",
+      "name": "理学院 (كلية العلوم)",
+      "description": "1942年独立建校时的学院之一；诺贝尔化学奖得主艾哈迈德·泽维尔毕业于此（1967）。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-006",
+      "name": "医学院 (كلية الطب)",
+      "description": "1942年设立；附属于大学医院体系。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-007",
+      "name": "农学院 (كلية الزراعة)",
+      "description": "1942年设立（初建于达曼胡尔，1947年迁至亚历山大）。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-008",
+      "name": "药学院 (كلية الصيدلة)",
+      "description": "1947年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-009",
+      "name": "护理学院 (كلية التمريض)",
+      "description": "1954年以高等护理学院设立，1994年改制为学院。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-010",
+      "name": "女子体育教育学院 (كلية التربية الرياضية للبنات)",
+      "description": "1954年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-011",
+      "name": "男子体育教育学院 (كلية التربية الرياضية للبنين)",
+      "description": "1955年设立；1989年由赫勒万大学划归亚历山大大学体系。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-012",
+      "name": "公共卫生高等学院 (المعهد العالي للصحة العامة)",
+      "description": "1956年设立的研究生层次公共卫生教学科研机构。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-013",
+      "name": "美术学院 (كلية الفنون الجميلة)",
+      "description": "1957年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-014",
+      "name": "农学院萨巴沙分部 (كلية الزراعة - سابا باشا)",
+      "description": "1959年设立；1989年由赫勒万大学划归。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-015",
+      "name": "教育学院 (كلية التربية)",
+      "description": "1966年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-016",
+      "name": "牙科学院 (كلية طب الأسنان)",
+      "description": "1970年设立；2026年11月主办第24届国际牙科会议。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-017",
+      "name": "研究生教育与研究所 (معهد الدراسات العليا والبحوث)",
+      "description": "1972年设立，初为与联合国教科文组织、联合国开发计划署合建的研究生教育与研究中心。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-018",
+      "name": "兽医学院 (كلية الطب البيطري)",
+      "description": "1975年设于伊德菲纳。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-019",
+      "name": "医学研究所 (معهد البحوث الطبية)",
+      "description": "1975年设立的医学研究机构。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-020",
+      "name": "旅游与酒店管理学院 (كلية السياحة والفنادق)",
+      "description": "1982年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-021",
+      "name": "专项教育学院 (كلية التربية النوعية)",
+      "description": "1988年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-022",
+      "name": "幼儿教育学院 (كلية رياض الأطفال)",
+      "description": "1989年设立，1998年正式并入亚历山大大学。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-023",
+      "name": "经济与政治学院 (كلية الدراسات الاقتصادية والعلوم السياسية)",
+      "description": "2014年设立。"
+    },
+    {
+      "dept_id": "EG-ACAD-004-DEPT-024",
+      "name": "计算机与数据科学学院 (كلية الحاسبات وعلوم البيانات)",
+      "description": "2019年设立的最新学院之一。"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-08-22",
+      "title": "阿联酋代表团考察亚历山大大学，阿布扎比分校定于2025/2026学年开学",
+      "description": "阿联酋官方通讯社（WAM）报道，阿联酋代表团在开罗考察亚历山大大学项目，其阿布扎比分校计划于2025/2026学年开学；代表团还参观了斯穆哈大学医院。阿拉伯语维基百科亦记载阿布扎比分校（2025年设立）与吉隆坡分校（2025年设立）。",
+      "impact": "大学国际化扩张迈出重要一步，成为该校在阿联酋的首个海外校区；依据：WAM报道与阿语维基百科相互印证。",
+      "source": "https://www.wam.ae/en/article/blboo36-uae-delegation-reviews-alexandria-universitys"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "艾哈迈德·阿德尔·阿卜杜勒-哈基姆获委任为亚历山大大学代理校长",
+      "description": "时任高等教育与科学研究部部长阿卜杜勒-阿齐兹·坎苏瓦（原亚历山大大学校长，2026年2月内阁改组中升任部长）签发决定，委任原负责教育与学生事务的副校长艾哈迈德·阿德尔·阿卜杜勒-哈基姆为大学代理校长。该人事任命已经高教部网站、wataninet、masrelbalad等多个独立来源交叉确认。",
+      "impact": "原校长转任高教部长后校长职位实现平稳过渡，新校长为代理性质（قائم بأعمال），后续正式任命有待观察；依据：多家媒体同一日期报道。",
+      "source": "https://www.wataninet.com/2026/02/الدكتور-أحمد-عادل-عبد-الحكيم-قائمًا-بأ/"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "亚历山大大学当选中东大学会议副主席单位",
+      "description": "据《今日新闻》（اليوم السابع）报道，代理校长艾哈迈德·阿德尔·阿卜杜勒-哈基姆出席中东地区大学校长会议第三届大会，亚历山大大学赢得该组织副主席职位。",
+      "impact": "提升大学在中东区域高等教育网络中的地位；依据：Youm7报道。",
+      "source": "https://www.youm7.com/story/2026/9/22/جامعة-الإسكندرية-تفوز-بمنصب-نائب-رئيس-مؤتمر-جامعات-الشرق-الأوسط/7554967"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "第24届亚历山大大学国际牙科会议开幕，19国专家与会",
+      "description": "据大学官网新闻，第24届亚历山大大学国际牙科会议开幕，来自19个国家的专家参加。",
+      "impact": "体现大学在牙科医学领域的区域学术召集力；依据：大学官网新闻。",
+      "source": "https://alexu.edu.eg/index.php/أحدث-الأخبار/11497-انطلاق-فعاليات-المؤتمر-الدولي-الـ24-لطب-الأسنان-جامعة-الإسكندرية-بمشاركة-خبراء-من-19-دولة"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "大学与联合国教科文组织签约设立伊斯兰遗产与地中海文化对话科学讲席",
+      "description": "据大学官网新闻，亚历山大大学与联合国教科文组织（UNESCO）签署协议，设立「伊斯兰遗产、文化对话与地中海交流」科学讲席。",
+      "impact": "深化与联合国系统的学术合作，强化大学在文化遗产与文明对话研究领域的地位；依据：大学官网新闻。",
+      "source": "https://alexu.edu.eg/index.php/أحدث-الأخبار/11512-جامعة-الإسكندرية-توقع-اتفاقية-مع-اليونسكو-لإنشاء-كرسي-علمي-للتراث-الإسلامي-والحوار-الثقافي-والتواصل-المتوسطي"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "大学与爱尔兰皇家外科医学院签署外科教育合作协议",
+      "description": "据大学官网新闻，亚历山大大学与爱尔兰皇家外科医学院（RCSI）签署合作协议，按最新国际标准加强外科教育与培训。",
+      "impact": "引入国际外科培训标准，有利医学院临床教育升级；依据：大学官网新闻。",
+      "source": "https://alexu.edu.eg/index.php/أحدث-الأخبار/11514-جامعة-الإسكندرية-توقع-اتفاقية-تعاون-مع-الكلية-الملكية-للجراحين-في-أيرلندا-لتعزيز-التعليم-والتدريب-الجراحي-وفق-أحدث-المعايير-الدولية"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "代理校长主持扩大会议，讨论三年内转型为Tier 1智慧可持续大学执行计划",
+      "description": "据大学官网新闻，代理校长艾哈迈德·阿德尔·阿卜杜勒-哈基姆主持扩大会议，讨论将亚历山大大学在三年内转型为第一梯队（Tier 1）智慧型可持续大学的执行计划。",
+      "impact": "确立大学数字化转型与可持续发展战略路线图；依据：大学官网新闻。",
+      "source": "https://alexu.edu.eg/index.php/أحدث-الأخبار/11513-رئيس-جامعة-الإسكندرية-يعقد-اجتماعا-موسعاً-لمناقشة-الخطة-التنفيذية-للتحول-إلى-جامعة-من-الفئة-الأولى-tier-1-ذكية-ومستدامة-خلال-ثلاث-سنوات"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-ACAD-001",
+      "org_name": "开罗大学 (جامعة القاهرة)",
+      "org_type": "ACAD",
+      "org_description": "埃及历史最悠久的现代大学（福阿德一世大学为其前身名称之一）。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "埃及高等教育与科学研究部 (وزارة التعليم العالي والبحث العلمي)",
+      "org_type": "GOV",
+      "org_description": "主管埃及公立大学与科研机构事务的政府部门，与最高大学委员会共同监管亚历山大大学；现任部长坎苏瓦为该校前校长。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "亚历山大国家大学 (الجامعة الإسكندرية الأهلية / Alexandria National University)",
+      "org_type": "ACAD",
+      "org_description": "2021年设立的民办公助（أهلية）大学，隶属亚历山大大学体系，位于亚历山大（斯穆哈/阿比斯地区）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "博尔格阿拉伯大学医院 (مستشفى برج العرب الجامعي / Borg El Arab University Hospital)",
+      "org_type": "ACAD",
+      "org_description": "亚历山大大学附属教学医院之一，为医学院临床教学与科研基地。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "联合国教科文组织 (اليونسكو / UNESCO)",
+      "org_type": "INTL",
+      "org_description": "联合国教育、科学及文化组织；1972年曾与大学合建研究生教育中心，2026年11月与大学签约设立科学讲席。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "爱尔兰皇家外科医学院 (Royal College of Surgeons in Ireland)",
+      "org_type": "ACAD",
+      "org_description": "爱尔兰医学教育机构；2026年11月与亚历山大大学签署外科教育与培训合作协议。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "亚历山大大学是埃及最大的公立综合性大学之一（英语维基百科称其为埃及第二大大学），辖亚历山大市多处校区，设有约24个学院和3个研究机构，覆盖医学（医学院、牙科、药学、护理、兽医）、工程、理学、农业、法学、商学、人文社科、美术、体育、旅游酒店、计算机与数据科学等学科，并设有公共卫生高等学院、研究生教育与研究所、医学研究所等研究生机构。大学运营由8所医院和医疗中心组成的大学医院体系（主大学医院、斯穆哈大学医院、沙特比大学医院、博尔格阿拉伯大学医院、哈德拉大学医院、穆瓦萨大学医院、学生医院、一日服务中心），2015年共有3664张床位，是亚历山大地区最重要的公立医疗服务提供者之一。国际排名方面：QS 2026世界781-790位、THE 2024年801-1000位、ARWU 2023年601-700位、US News 2023年并列611位。大学毕业生包括诺贝尔化学奖得主艾哈迈德·泽维尔（1999）等杰出校友。国际化方面，大学在乍得恩贾梅纳（2010）、南苏丹通季（2014）设海外分校，2025年新增阿布扎比分校和吉隆坡分校，并于2021年设立亚历山大国家大学（民办公助）；历史上达曼胡尔与马特鲁分部已独立建校。",
+  "industries": [
+    "higher_education",
+    "healthcare",
+    "research_development"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。亚历山大大学作为公立大学，其跨区域合作主要体现在教育领域：通过设在乍得、南苏丹的非洲分校及2025年新增的阿联酋阿布扎比、马来西亚吉隆坡分校参与非洲与亚洲区域高等教育合作，并与联合国教科文组织、爱尔兰皇家外科医学院等国际机构开展学术合作。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/80/Alexandria_University_coat_of_arms.svg/330px-Alexandria_University_coat_of_arms.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-ACAD-004.png",
+    "minio_path": "default/popular-org-profile/eg/EG-ACAD-004.png"
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 93,
+    "notes": "Phase 3 enrichment (2026-11-17). 沿革：1938年为福阿德一世大学（今开罗大学）亚历山大分部，1942年8月2日依据王室令第32号独立建校（法鲁克一世大学），1952年革命后更名亚历山大大学。校长人事已交叉验证：坎苏瓦2020-2026任校长、2026年2月转任高教部长；2026-02-11艾哈迈德·阿德尔·阿卜杜勒-哈基姆（原教育与学生事务副校长）获委任为代理校长（高教部网站+wataninet+masrelbalad+大学官方渠道多来源确认）。",
+    "quotes": [
+      {
+        "title": "جامعة الإسكندرية - ويكيبيديا العربية（阿拉伯语维基百科：建校沿革、历任校长表、学院与医院体系）",
+        "url": "https://ar.wikipedia.org/wiki/جامعة_الإسكندرية"
+      },
+      {
+        "title": "Alexandria University - Wikipedia（英语维基百科：管理层名录、24学院清单、QS/THE/ARWU排名、知名校友）",
+        "url": "https://en.wikipedia.org/wiki/Alexandria_University"
+      },
+      {
+        "title": "亚历山大大学官网首页（2026年11月新闻：UNESCO讲席协议、RCSI合作协议、Tier 1转型计划）",
+        "url": "https://alexu.edu.eg"
+      },
+      {
+        "title": "الدكتور أحمد عادل عبد الحكيم قائمًا بأعمال رئيس جامعة الإسكندرية - nationalist 网 wataninet（2026-02-11代理校长任命）",
+        "url": "https://www.wataninet.com/2026/02/الدكتور-أحمد-عادل-عبد-الحكيم-قائمًا-بأ/"
+      },
+      {
+        "title": "جامعة الإسكندرية تفوز بمنصب نائب رئيس مؤتمر جامعات الشرق الأوسط - اليوم السابع（2026-09-22中东大学会议副主席）",
+        "url": "https://www.youm7.com/story/2026/9/22/جامعة-الإسكندرية-تفوز-بمنصب-نائب-رئيس-مؤتمر-جامعات-الشرق-الأوسط/7554967"
+      },
+      {
+        "title": "UAE delegation reviews Alexandria University's programmes - Emirates News Agency WAM（2025-08-22阿布扎比分校）",
+        "url": "https://www.wam.ae/en/article/blboo36-uae-delegation-reviews-alexandria-universitys"
+      }
+    ]
   }
 }

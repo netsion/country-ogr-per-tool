@@ -1,58 +1,262 @@
 {
   "org_id": "EG-ACAD-019",
   "basic_info": {
-    "name_original": "National Research Institute of Astronomy and Geophysics",
-    "name_zh": null,
+    "name_original": "المعهد القومي للبحوث الفلكية والجيوفيزيقية",
+    "name_zh": "国家天文与地球物理研究所（赫尔万天文台）",
     "name_en": "National Research Institute of Astronomy and Geophysics",
     "aliases": [
+      "NRIAG",
       "Helwan Observatory",
       "Helwan Khedivial Observatory",
-      "NRIAG"
+      "مرصد حلوان"
     ],
     "org_type": "ACAD",
     "org_subtype": "research_institute",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": "1840-01-01",
+    "founded_date": "1839-01-01",
     "website": "https://www.nriag.sci.eg/",
     "wikidata_qid": "Q594282"
   },
   "social_accounts": [
     {
       "platform": "facebook",
+      "account_name": "NRIAG",
+      "url": "https://www.facebook.com/NRIAG/",
+      "source": 6,
+      "source_note": "官方Facebook主页（研究所官方帖文及约16.5万粉丝经搜索结果确认）"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "NRIAG",
+      "url": "https://x.com/NRIAG",
+      "source": 3,
+      "source_note": "官方X账号（2025年5月地震官方声明等帖文确认）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "nriag",
+      "url": "https://eg.linkedin.com/company/nriag",
+      "source": 17,
+      "source_note": "LinkedIn公司主页（搜索结果及2026年COSPAR研讨会官方帖文确认）"
+    },
+    {
+      "platform": "facebook",
       "account_name": "Kottamia",
       "url": "https://facebook.com/Kottamia",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata收录的卡特米亚天文台（Kottamia Observatory）相关Facebook页面"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "COSPAR 2026能力建设研讨会官方网站（NRIAG承办）",
+      "url": "https://cospar2026-nriag.com/",
+      "description": "2026年8月31日至9月11日在NRIAG赫尔万总部举办的COSPAR太阳能物理与空间天气能力建设研讨会专题网站",
+      "source": "news_search"
+    },
+    {
+      "name": "NRIAG研究文献数据库（NRIAG Research Database）",
+      "url": "https://library.nriag.sci.eg/",
+      "description": "NRIAG论文文献与发表统计库，提供按部门、实验室、年份的科研产出统计",
+      "source": "official_website"
+    }
+  ],
   "key_people": [
     {
       "person_id": "EG-PERSON-000039",
-      "name": "Gad Mohamed El-Qady",
-      "title": "Director",
+      "name": "贾德·穆罕默德·卡迪 (جاد محمد القاضي)",
+      "title": "前主席（前所长）",
+      "title_description": "曾任研究所主要负责人（رئيس المعهد）",
+      "description": "长期担任NRIAG主席；2023年2月曾就新建大天文台选址（杰贝勒鲁琼山）向Ahram Online确认报道。2025年起研究所领导层更替，由塔哈·拉贝赫出任代理主席，其后由巴萨姆·纳巴维接任主席（2025-2026年多家媒体报道交叉印证）。"
+    },
+    {
+      "person_id": "EG-PERSON-000674",
+      "name": "巴萨姆·赛义德·纳巴维（音译） (باسم سيد النبوي)",
+      "title": "主席 (رئيس المعهد)",
       "title_description": null,
-      "description": null
+      "description": "现任主席：2026年8月3日开罗东部5.5级地震后以主席身份向媒体通报震情；2026年9月16日主持科研发表表彰活动并宣布为2027年日全食开展野外观测准备。多来源交叉确认（阿语维基百科信息框、NRIAG官网首页、Akhbar El-Youm、媒体访谈）。"
+    },
+    {
+      "person_id": "EG-PERSON-000675",
+      "name": "塔哈·陶菲克·拉贝赫（音译） (طه توفيق رابح)",
+      "title": "代理主席（2025年在任） (قائم بأعمال رئيس المعهد)",
+      "title_description": null,
+      "description": "2025年8月至2026年1月间以代理主席身份主持研究所工作，通报2025年度成就、首个「地平线欧洲」资助项目SPACEDIVE获选及与中方合作加装120厘米卫星跟踪望远镜等进展（Youm7、Al-Masry Al-Youm、NRIAG官方Instagram）。"
+    },
+    {
+      "person_id": "EG-PERSON-000676",
+      "name": "阿什拉夫·沙克尔（音译） (أشرف شاكر)",
+      "title": "天文学部主任 (رئيس قسم الفلك)",
+      "title_description": null,
+      "description": "NRIAG官方X帖文（2025-06-04）与官方Facebook帖文（2025-12-24）均以天文学部主任身份提及，并就2025年流星雨观测作出解读。"
+    },
+    {
+      "person_id": "EG-PERSON-000677",
+      "name": "谢里夫·哈迪（音译） (شريف الهادي)",
+      "title": "地震学系主任 (رئيس قسم الزلازل)",
+      "title_description": null,
+      "description": "2026年8月3日地震后以地震学系主任身份接受Extra News电视采访解读震情；该职位信息目前仅见单一媒体报道，待进一步核实。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-019-DEPT-001",
+      "name": "天文学部 (قسم الفلك)",
+      "head": "阿什拉夫·沙克尔 (أشرف شاكر)",
+      "description": "负责天文观测与研究：恒星天体物理、星系与近地天体监测；运营卡特米亚天文台（1962年建成、1963年启用，74英寸/188厘米望远镜，曾于2025年观测近地小行星2025 FA22）。"
+    },
+    {
+      "dept_id": "EG-ACAD-019-DEPT-002",
+      "name": "太阳与空间研究部 (قسم بحوث الشمس والفضاء)",
+      "head": null,
+      "description": "太阳与空间环境研究：赫尔万太阳站1957年建立，1964年以来每日拍摄太阳圆面、编制黑子月图；维护卫星激光测距与空间目标跟踪站（2025年与中方合作加装120厘米望远镜，可追踪高度3.6万公里的轨道目标与空间碎片）。"
+    },
+    {
+      "dept_id": "EG-ACAD-019-DEPT-003",
+      "name": "地震学部 (قسم الزلازل)",
+      "head": "谢里夫·哈迪（音译） (شريف الهادي)",
+      "description": "运营埃及国家地震监测台网，承担全国及区域地震速报、震源测定与震害评估，定期就国内外震情发布官方声明（如2025年5月、2026年8月地震）；据2026年8月Extra News报道，现任主任为谢里夫·哈迪（单一来源，待核）。其台网数据亦服务于工程抗震、场地评价等应用领域。"
+    },
+    {
+      "dept_id": "EG-ACAD-019-DEPT-004",
+      "name": "地磁与地电学部 (قسم المغناطيسية الأرضية والجيوكهرباء)",
+      "head": null,
+      "description": "负责地磁场观测与地电研究：赫尔万地磁台站始建于1907年，1960年因铁路磁场干扰迁至法尤姆省米萨拉特（Misallat）台站持续观测，长期数据收录于国际地磁数据中心；同时开展面向石油与矿产勘探的地球物理测量。"
+    },
+    {
+      "dept_id": "EG-ACAD-019-DEPT-005",
+      "name": "地球动力学部 (قسم الجيوديناميكا)",
+      "head": null,
+      "description": "研究地壳运动、重力测量与大地测量等地球动力学过程，支撑活动构造分析与自然灾害评估。"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2026-09-16",
+      "title": "NRIAG表彰科研发表领军人员并部署2027年日全食观测准备",
+      "description": "据Akhbar El-Youm报道，主席巴萨姆·纳巴维主持研究所科研发表领军人员表彰活动，并宣布已启动面向2027年日全食的野外观测与设备准备。",
+      "impact": "体现研究所领导层更替后各项工作平稳推进，并持续投入重大天象观测组织。",
+      "source": "https://m.akhbarelyom.com/news/NewDetails/4878461/1/المعهد-القومي-للبحوث-الفلكية-يحتفي-برواد"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "COSPAR 2026太阳能物理与空间天气能力建设研讨会在NRIAG赫尔万总部开幕",
+      "description": "2026年8月31日至9月11日，空间研究委员会（COSPAR）能力建设研讨会在NRIAG赫尔万总部举行，NASA与ESA专家授课，赫尔万大学等机构参与支持，面向博士后及硕博研究生免费培训；NRIAG自2026年4月起经LinkedIn等渠道发布系列公告。",
+      "impact": "系该类COSPAR培训活动首次落地埃及（及中东非洲区域），提升NRIAG在空间科学国际合作中的枢纽地位。",
+      "source": "https://sis.gov.eg/en/media-center/news/egypt-hosts-cospar-2026-workshop-on-solar-physics-space-weather-with-nasa-experts/"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "NRIAG国家地震台网通报开罗东部5.5级地震",
+      "description": "2026年8月3日凌晨3时00分36秒（当地时间），埃及东部靠近苏伊士的地区（北纬30.30度、东经32.61度）发生5.5级地震（另有测定为5.6级）；NRIAG国家地震监测台网记录震情并发布更新声明，主席巴萨姆·纳巴维、地震学系主任谢里夫·哈迪分别向媒体说明情况。",
+      "impact": "再次凸显NRIAG作为埃及官方地震监测与权威信息发布机构的职能；其台网数据同时服务于工程与安全领域（具有军民两用属性）。",
+      "source": "https://www.maspero.eg/egypt/2026/08/03/977060/المعهد-القومي-للبحوث-الفلكية-يصدر-بيانا-تحديثيا-بشأن-زلزال-شرق-القاهرة"
+    },
+    {
+      "date": "2026-01-04",
+      "title": "NRIAG总结2025年度成就：中方合作120厘米卫星跟踪望远镜落成、阿布辛贝新天文台推进",
+      "description": "代理主席塔哈·拉贝赫通报2025年度进展：与中方合作完成卫星激光测距站第二台120厘米望远镜（据称为中国境外同类最大、中东地区唯一），跟踪能力提升至3.6万公里高度；阿布辛贝杰贝勒鲁琼山新天文台完成第二批选址测试设备安装，拟配备6.5米口径望远镜作为卡特米亚天文台的替代；卡特米亚观测近地小行星2025 FA22；在大埃及博物馆举办第九届阿拉伯天文与地球物理大会（ACAG 2025）；与印尼穆罕默迪亚大学签署合作协议；赴安曼参加MEARIM-7会议。",
+      "impact": "标志NRIAG空间目标监视、深空观测能力与国际科研合作的显著扩展，亦反映埃中航天科研合作深化。",
+      "source": "https://www.almasryalyoum.com/news/details/4166772"
+    },
+    {
+      "date": "2025-11-29",
+      "title": "NRIAG首次获「地平线欧洲」框架资助（SPACEDIVE项目）",
+      "description": "据Youm7报道，代理主席塔哈·拉贝赫宣布研究所在「地平线欧洲」框架下首次获得资助，即SPACEDIVE项目（2025-VIRT-EXCH），与埃及正式加入该框架相呼应。",
+      "impact": "为NRIAG打开与欧洲科研机构合作及研究人员能力建设的新渠道。",
+      "source": "https://www.youm7.com/story/2025/11/29/البحوث-الفلكية-يعلن-تحقيق-أول-فوز-له-فى-مشروع-ممول/7215469"
+    },
+    {
+      "date": "2025-05-13",
+      "title": "NRIAG就6.4级地震发布官方声明",
+      "description": "NRIAG官方X账号发布声明：国家地震台网记录到一次6.4级地震，距埃及海岸约431公里、震源深度约76公里；官网亦就5月14日震情发布说明，判定埃及境内无显著影响。",
+      "impact": "体现其区域地震监测与公共信息发布职能。",
+      "source": "https://x.com/NRIAG/status/1922435753625129472"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "高等教育与科学研究部 (وزارة التعليم العالي والبحث العلمي)",
+      "org_type": "GOV",
+      "org_description": "埃及主管高等教育与科学研究的政府部门，NRIAG的主管部门（现任部长艾曼·阿舒尔）；阿语维基百科与研究所官方页面均载明NRIAG隶属该部。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及航天局 (وكالة الفضاء المصرية)",
+      "org_type": "GOV",
+      "org_description": "埃及国家航天机构；据Al-Masry Al-Youm报道，NRIAG阿布辛贝新天文台项目将支持该局研究计划并在上埃及培养天文人才。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "EG-ACAD-010",
+      "org_name": "赫尔万大学 (جامعة حلوان)",
+      "org_type": "ACAD",
+      "org_description": "位于开罗赫尔万区的公立大学；与NRIAG同为COSPAR 2026能力建设研讨会合作支持方，两机构同处赫尔万地区。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "空间研究委员会（COSPAR）",
+      "org_type": "INTL",
+      "org_description": "国际空间研究协调机构；2026年8月31日至9月11日其在埃及的能力建设研讨会由NRIAG赫尔万总部承办。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "穆罕默迪亚大学（印度尼西亚）",
+      "org_type": "ACAD",
+      "org_description": "2025年与NRIAG签署天文与空间科学领域合作研究协议的印度尼西亚高校（据Al-Masry Al-Youm报道）。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "埃及国家天文与地球物理研究所（NRIAG，旧称赫尔万天文台）是隶属埃及高等教育与科学研究部的国家级研究机构，前身可溯至1839年建于开罗布拉克的皇家天文台，1868年迁至阿巴西亚，1903年因城市光污染与铁路磁场干扰迁至赫尔万现址，1946年称皇家天文台，1986年改用现名，是世界上历史最悠久的天文台之一。研究所拥有300余名研究人员，设天文、太阳与空间、地震学、地磁与地电、地球动力学五个科学学部。核心职能包括：（1）天文观测与历法服务，为阿拉伯-伊斯兰世界观测新月、确定伊斯兰历月首与礼拜时刻；（2）运营卡特米亚天文台（1962年建成，74英寸/188厘米望远镜）并建设阿布辛贝杰贝勒鲁琼山新天文台（拟配备6.5米口径望远镜，建成后将是中东最大）；（3）运营卫星激光测距与空间目标跟踪站，2025年与中方合作加装120厘米望远镜，可监测3.6万公里高度轨道目标与空间碎片；（4）运营埃及国家地震台网，承担全国地震速报、震源测定与震害评估等官方职能；（5）地磁场持续观测（米萨拉特地磁台，沿革自1907年赫尔万地磁站）与太阳活动每日监测、埃及太阳能辐射图集编制；（6）面向石油与矿产勘探的地球物理勘测服务。赫尔万天文台2010年由埃及方面申报，2011年被联合国教科文组织列入世界遗产暂定名单。该所兼具基础科研、国家监测服务与防灾减灾职能，其地震台网与空间目标监测数据具有明显的军民两用价值。",
+  "industries": [
+    "higher_education",
+    "research_development",
+    "space"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该所在科研层面的跨区域合作包括：「地平线欧洲」科研框架（2025年首次获SPACEDIVE项目资助）、国际空间研究委员会COSPAR（2026年承办其能力建设研讨会）、国际天文学联合会中东与非洲区域会议（MEARIM）等。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
-      "official_website"
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "social_media",
+      "web_search"
     ],
-    "completeness_score": 17,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data; errors: [\"Wikipedia returned disambiguation or no data for 'National Research Institute of Astronomy and Geophysics'\"]"
+    "completeness_score": 96,
+    "notes": "Phase3 enrichment 2026-11-17: leadership transition documented (El-Qady -> Rabeh acting 2025 -> Bassam El-Nabawi current, cross-verified by ar.wiki/NRIAG site/news); founded_date corrected to 1839 per ar.wikipedia+nriag.sci.eg+facebook (skeleton had 1840 from Wikidata); official site direct read timed out, site facts taken from search snippets of nriag.sci.eg and secondary sources; Sherif El-Hady dept head is single-source (flagged in description); Helwan Observatory on UNESCO tentative list (whc.unesco.org tentativelists/5574).",
+    "quotes": [
+      {
+        "title": "المعهد القومي للبحوث الفلكية والجيوفيزيقية (مصر) - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B9%D9%87%D8%AF_%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A_%D9%84%D9%84%D8%A8%D8%AD%D9%88%D8%AB_%D8%A7%D9%84%D9%81%D9%84%D9%83%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D9%81%D9%8A%D8%B2%D9%8A%D9%82%D9%8A%D8%A9_(%D9%85%D8%B5%D8%B1)"
+      },
+      {
+        "title": "NRIAG: Home (nriag.sci.eg)",
+        "url": "https://www.nriag.sci.eg/"
+      },
+      {
+        "title": "«البحوث الفلكية» خلال 2025.. فوز المعهد بأول مشروع ممول من الاتحاد الأوروبى وتركيب التليسكوب الثاني - المصري اليوم",
+        "url": "https://www.almasryalyoum.com/news/details/4166772"
+      },
+      {
+        "title": "Egypt hosts COSPAR 2026 workshop on solar physics, space weather with NASA experts - Egypt SIS",
+        "url": "https://sis.gov.eg/en/media-center/news/egypt-hosts-cospar-2026-workshop-on-solar-physics-space-weather-with-nasa-experts/"
+      },
+      {
+        "title": "المعهد القومي للبحوث الفلكية يصدر بيانا تحديثيا بشأن زلزال شرق القاهرة - ماسبيرو",
+        "url": "https://www.maspero.eg/egypt/2026/08/03/977060/المعهد-القومي-للبحوث-الفلكية-يصدر-بيانا-تحديثيا-بشأن-زلزال-شرق-القاهرة"
+      },
+      {
+        "title": "Helwan Observatory - UNESCO World Heritage Centre (Tentative List)",
+        "url": "https://whc.unesco.org/en/tentativelists/5574/"
+      }
+    ]
   }
 }

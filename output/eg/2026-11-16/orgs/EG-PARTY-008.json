@@ -1,42 +1,267 @@
 {
   "org_id": "EG-PARTY-008",
   "basic_info": {
-    "name_original": "Egyptian Social Democratic Party",
+    "name_original": "الحزب المصري الديمقراطي الاجتماعي",
     "name_zh": "埃及社会民主党",
     "name_en": "Egyptian Social Democratic Party",
-    "aliases": [],
+    "aliases": [
+      "ESDP",
+      "حزب المصري الديمقراطي الاجتماعي"
+    ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "2011-03-29",
-    "website": "http://www.egysdp.com/",
+    "website": "https://egysdp.org/",
     "wikidata_qid": "Q253911"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "public_administration"
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "الحزب المصري الديمقراطي الاجتماعي",
+      "url": "https://www.facebook.com/Egysdp/",
+      "source": 6,
+      "source_note": "党官方Facebook页面，页面名与党名一致；经阿拉伯语搜索结果确认（搜索结果2/3项）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "egyesdp",
+      "url": "https://www.instagram.com/egyesdp/",
+      "source": 8,
+      "source_note": "页面简介自述「الصفحة الرسمية للحزب المصري الديمقراطي الاجتماعي」（党官方页面），经阿拉伯语搜索结果确认"
+    }
   ],
-  "apec_stance": null,
+  "digital_assets": [
+    {
+      "name": "官方网站（egysdp.org）",
+      "url": "https://egysdp.org/",
+      "description": "党的官方网站，发布党闻与声明（如2025年参议院候选人名单报道）。旧域名 egysdp.com 已弃用，改用现域名",
+      "source": "英文维基百科信息框；官方Facebook帖文链接（2025-07-07）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000408",
+      "name": "艾哈迈德·法齐 (أحمد فوزي)",
+      "title": "主席 (رئيس الحزب)",
+      "title_description": "2026年11月6日党代表大会上经起立鼓掌（تزكية）方式当选党主席",
+      "description": "现任党主席，接替法里德·扎赫兰。当选后多次接受媒体采访（2026年11月《朝阳报》专访谈政党活动危机；阿拉·马斯纳视频访谈称埃及缺乏自由选举、评述「全国对话」）。英语媒体拼写 Ahmed Fawzy/Fawzi"
+    },
+    {
+      "person_id": "EG-PERSON-000409",
+      "name": "法里德·扎赫兰 (فريد زهران)",
+      "title": "前主席（2016–2026）",
+      "title_description": "2016年4月党领袖选举中当选主席，领导党至2026年11月大会交棒",
+      "description": "2013年10月获党提名参加2023年埃及总统选举，得票约4.01%（1,776,952票，位列第三）；2020年、2025年议会选举周期及2025年6月加入民主道路联盟均在其任内完成。据Egypt Telegraph视频报道，2026年11月卸任党主席并离开党，称将宣布下一步动向（单一来源，待确认）。曾任阿拉伯世界社会民主联盟主席（2025年8月卸任该职）"
+    },
+    {
+      "person_id": "EG-PERSON-000829",
+      "name": "穆罕默德·阿布·加尔 (محمد أبو الغار)",
+      "title": "创始主席（2011–2016）",
+      "title_description": "建党发起人，2011年3月24日与穆罕默德·加尼姆等共同宣布建党，任首任主席",
+      "description": "2015年9月因党内分歧提交辞呈（党未接受），并要求举行党领袖选举；2016年4月党举行领袖选举完成换代。英文维基百科列其为著名创始成员之一"
+    },
+    {
+      "person_id": "EG-PERSON-000411",
+      "name": "巴塞姆·卡迈勒 (باسم كامل)",
+      "title": "秘书长 (الأمين العام)",
+      "title_description": "2016年4月领袖选举中与扎赫兰搭档当选秘书长；2026年1月受访时仍在任；2026年11月大会后是否留任未获确认",
+      "description": "2025年10月以秘书长身份统筹党参加众议院选举的筹备工作（Extra News报道并称其为议会议员）；2026年1月受访称原定2025年4月举行的党领袖选举因大选推迟，将尽快举行"
+    },
+    {
+      "person_id": "EG-PERSON-000235",
+      "name": "齐亚德·艾哈迈德·巴哈丁 (زياد أحمد بهاء الدين)",
+      "title": "创始成员",
+      "title_description": "建党发起成员之一，未任现职",
+      "description": "2013年7月穆尔西下野后被报道获提名出任总理（因光明党主席反对等因素未成，由创始成员贝布拉维出任临时总理）；2016年4月党领袖选举中以「改革派」身份与努尔·法拉哈特搭档竞选，败于扎赫兰-卡迈勒组合"
+    }
+  ],
+  "departments": [
+    {
+      "name": "最高机构 (الهيئة العليا)",
+      "dept_id": "EG-PARTY-008-DEPT-002",
+      "head": null,
+      "description": "党的最高机构。2026年11月6日大会闭幕后宣布新一届成员名单（据《第七日》Youm7 2026-11-07报道）；成员名单细节未获完整核实",
+      "parent_dept_id": null
+    },
+    {
+      "name": "埃及社会民主青年联盟 (Union of Egyptian Social Democratic Youth)",
+      "dept_id": "EG-PARTY-008-DEPT-001",
+      "head": null,
+      "description": "党的青年翼组织（英文维基百科信息框记载）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-01",
+      "title": "加入「民主道路联盟」",
+      "description": "2025年6月，党加入民主道路联盟（Democratic Path Alliance），该联盟还包括正义党与改革和发展党；并同期启动加入「全国统一名单」（为埃及名单）的谈判",
+      "impact": "标志该党与另外两个世俗反对党结成选举合作架构，为2025年议会选举联合参选铺路（依据：英文维基百科）",
+      "source": "https://en.wikipedia.org/wiki/Egyptian_Social_Democratic_Party"
+    },
+    {
+      "date": "2025-07-07",
+      "title": "党候选人提交2025年参议院选举（全国名单）参选材料",
+      "description": "2025年7月7日，党候选人就2025年参议院选举「为埃及全国名单」席位提交参选材料；党官网报道名单共5名候选人（党主席扎赫兰在列）",
+      "impact": "2025年参议院选举党最终获5席/300席（较2020年的3席增加2席），维持反对党地位（依据：英文维基百科选举表）",
+      "source": "https://egysdp.org/?p=16352"
+    },
+    {
+      "date": "2025-10-01",
+      "title": "列入全国统一名单参加2025年众议院选举",
+      "description": "2025年10月中旬（提名文件提交时），党获列入「全国统一名单」参加2025年众议院选举",
+      "impact": "该党作为世俗反对党首次依托统一名单机制参选众议院，最终获11个民选席位（英文维基百科正文）",
+      "source": "https://en.wikipedia.org/wiki/Egyptian_Social_Democratic_Party"
+    },
+    {
+      "date": "2025-10-23",
+      "title": "举行大会公布众议院选举候选人",
+      "description": "2025年10月23日，党举行大会正式公布参加2025年众议院选举的候选人；10月27日秘书长巴塞姆·卡迈勒向媒体介绍选举筹备情况",
+      "impact": "显示党在2025年选举周期中的动员与组织能力（依据：Extra News视频报道）",
+      "source": "https://www.facebook.com/extranewstv/videos/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D9%8A%D9%86%D8%B8%D9%85-%D9%85%D8%A4%D8%AA%D9%85%D8%B1%D8%A7-%D9%84%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86-%D8%B9%D9%86-%D9%85%D8%B1%D8%B4%D8%AD%D9%8A%D9%87-%D9%81%D9%8A-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA%D9%85%D8%AC%D9%84%D8%B3/2043670656407180/"
+    },
+    {
+      "date": "2025-12-04",
+      "title": "设选举行动室监督众议院选举投票",
+      "description": "2025年12月4日，党设立行动室跟踪2025年众议院选举投票进程（Extra News报道）",
+      "impact": "2025年众议院选举党获11个民选席位（维基百科席位表记12/596，或含1个指定席位，待核），较2020年的7席增加",
+      "source": "https://www.youtube.com/watch?v=U2htIYcfawc"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "秘书长确认党领袖选举推迟",
+      "description": "2026年1月，秘书长巴塞姆·卡迈勒受访表示：原定2025年4月举行的党领袖选举因议会选举推迟，将在条件允许后尽快举行",
+      "impact": "解释了党主席职务由扎赫兰延续至2026年11月大会的原因（依据：英文维基百科引述）",
+      "source": "https://en.wikipedia.org/wiki/Egyptian_Social_Democratic_Party"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "艾哈迈德·法齐当选新任党主席，扎赫兰交棒",
+      "description": "2026年11月6日（周五）党在皇家百合酒店举行大会，讨论组织、政治与财务议题；艾哈迈德·法齐（Ahmed Fawzy）经起立鼓掌（تزكية）当选党主席，接替自2016年执政至今的法里德·扎赫兰；大会公布新一届最高机构成员名单；据报道与会成员以无记名投票（بالصندوق）否决党章修正案，党内出现分歧迹象（马斯拉维、Youm7、党官方Facebook及zawia3英文报道交叉印证）",
+      "impact": "党完成近十年首次正式领袖更替；扎赫兰任内经历2023年总统选举（获4.01%）与2025年议会选举（众议院11个民选席位）；视频媒体称扎赫兰离开党并将宣布下一步动向（Egypt Telegraph，单一来源待确认）",
+      "source": "https://www.masrawy.com/news/news_egypt/details/2026/11/6/3074650/%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%88%D8%B2%D9%8A-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7-%D9%84%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D8%AE%D9%84%D9%81-%D8%A7-%D9%84%D9%81%D8%B1%D9%8A%D8%AF-%D8%B2%D9%87%D8%B1%D8%A7%D9%86"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "自由埃及党 (الحزب الليبرالي المصري / Liberal Egyptian Party)",
+      "org_type": "PARTY",
+      "org_description": "2011年3月29日与本党合并组建埃及社会民主党的两个小党之一（英文维基百科信息框）",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及民主党 (الحزب الديمقراطي المصري / Egyptian Democratic Party)",
+      "org_type": "PARTY",
+      "org_description": "2011年3月29日与本党合并组建埃及社会民主党的两个小党之一（英文维基百科信息框）",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "公民民主潮流 (التيار المدني الديمقراطي / Civil Democratic Movement)",
+      "org_type": "PARTY",
+      "org_description": "由多个世俗派政党组成的政治运动/联盟，本党为其成员（英文维基百科信息框）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "民主道路联盟 (Democratic Path Alliance)",
+      "org_type": "PARTY",
+      "org_description": "2025年6月加入的选举联盟，同含正义党与改革和发展党（英文维基百科正文）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "全国统一名单「为埃及」 (القائمة الوطنية من أجل مصر / National Unified List for Egypt)",
+      "org_type": "PARTY",
+      "org_description": "2020年起加入的全国选举名单；2025年参议院与众议院选举均依托该名单参选（官方Facebook帖文、英文维基百科）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "社会党国际 (Socialist International)",
+      "org_type": "INTL",
+      "org_description": "2012年8月获接纳为咨询成员（英文维基百科）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "进步联盟 (Progressive Alliance)",
+      "org_type": "INTL",
+      "org_description": "国际社会民主主义政党网络，本党为其成员（英文维基百科信息框）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "欧洲社会党 (Party of European Socialists, PES)",
+      "org_type": "INTL",
+      "org_description": "2013年2月18日获接纳为观察员成员（英文维基百科）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯世界社会民主联盟 (Social Democratic Alliance in the Arab World)",
+      "org_type": "INTL",
+      "org_description": "跨阿拉伯国家的社会民主党联盟；本党前主席扎赫兰曾任联盟主席，2025年8月30日由伊拉克库尔德爱国联盟的巴菲尔·贾拉勒·塔拉巴尼接任（Progressive Alliance官网及Channel8报道）",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "埃及社会民主党（ESDP）是埃及中左翼世俗政党，主张社会民主主义与社会自由主义、进步主义，2011年埃及革命后的2011年3月29日由自由埃及党与埃及民主党合并组建（2011年3月24日由穆罕默德·阿布·加尔、穆罕默德·加尼姆、导演达乌德·阿卜杜勒·赛义德等先行宣布建党发起）。该党纲领强调在支持自由企业的同时推动财富向劳动者再分配。组织上以大会为最高形式，2016年4月领袖选举产生扎赫兰-卡迈勒领导层；2026年11月6日大会后艾哈迈德·法齐接任党主席。下设青年翼「埃及社会民主青年联盟」。国际层面：2012年8月成为社会党国际咨询成员、2013年2月成为欧洲社会党观察员，并属进步联盟；国内归属公民民主潮流，2020年起依托「为埃及全国统一名单」参选，2025年6月加入民主道路联盟。选举战绩：2011年人民议会16席、2012年协商会议8席、2015年众议院4席、2020年众议院7席、2020年参议院3席、2025年参议院5席、2025年众议院获11个民选席位（维基百科席位表记12席）；2023年总统选举该党候选人扎赫兰以约4.01%（1,776,952票）位列第三。总部位于开罗解放广场穆罕默德·马哈茂德街17号。",
+  "industries": [
+    "public_administration",
+    "legislative"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该党为埃及国内中左翼反对党，议题集中于国内政治、社会公正与选举改革，无与APEC事务直接相关的立场或议程。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1b/Egyptian_Social_Democratic_Party_logo.svg/330px-Egyptian_Social_Democratic_Party_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-PARTY-008.png",
+    "minio_path": "default/popular-org-profile/eg/EG-PARTY-008.png"
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "news_search",
+      "web_search",
+      "official_website",
+      "social_media"
     ],
-    "completeness_score": 15,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 91,
+    "notes": "本会话直连官网egysdp.org与阿拉伯语维基百科抓取失败（502/配额限制），数据经搜索快照、英文维基百科正文及多家阿语/英语新闻交叉获取。建党日期：官方成立日2011-03-29（维基数据与英文维基百科一致），建党发起公告为2011-03-24（埃及阿语维基/麦尔法）。2015年党内分歧仅按英文维基百科记载（阿布·加尔辞职）；「社会和平党」出走一说未在本轮可用来源中得到印证，故不予记录。2026-11-06主席更替经Masrawy、Youm7、党官方账号、zawia3英文版多源确认。",
+    "quotes": [
+      {
+        "title": "Egyptian Social Democratic Party - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_Social_Democratic_Party"
+      },
+      {
+        "title": "الحزب المصري الديمقراطي الاجتماعي - ويكيبيديا (Arabic Wikipedia)",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A_%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A"
+      },
+      {
+        "title": "رسميًا.. أحمد فوزي رئيسًا للحزب المصري الديمقراطي الاجتماعي - Masrawy (2026-11-06)",
+        "url": "https://www.masrawy.com/news/news_egypt/details/2026/11/6/3074650/%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%88%D8%B2%D9%8A-%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7-%D9%84%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A-%D8%AE%D9%84%D9%81-%D8%A7-%D9%84%D9%81%D8%B1%D9%8A%D8%AF-%D8%B2%D9%87%D8%B1%D8%A7%D9%86"
+      },
+      {
+        "title": "أحمد فوزي رئيسا للحزب المصري الديمقراطي.. وإعلان أسماء أعضاء الهيئة العليا - Youm7 (2026-11-07)",
+        "url": "https://www.youm7.com/story/2026/11/7/%D8%A3%D8%AD%D9%85%D8%AF-%D9%81%D9%88%D8%B2%D9%8A-%D8%B1%D8%A6%D9%8A%D8%B3%D8%A7-%D9%84%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%88%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A3%D8%B3%D9%85%D8%A7%D8%A1-%D8%A3%D8%B9%D8%B6%D8%A7%D8%A1-%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9/7608850"
+      },
+      {
+        "title": "الحزب المصري الديمقراطي الاجتماعي - Official Facebook page",
+        "url": "https://www.facebook.com/Egysdp/"
+      },
+      {
+        "title": "الحزب المصري الديمقراطي الاجتماعي - الموقع الرسمي (egysdp.org)",
+        "url": "https://egysdp.org/"
+      },
+      {
+        "title": "Ahmed Fawzy elected head of the Egyptian Social Democratic Party - zawia3 (2026-11-06)",
+        "url": "https://zawia3.com/en/esdp-chairman/"
+      }
+    ]
   }
 }

@@ -1,16 +1,21 @@
 {
   "org_id": "EG-ACAD-010",
   "basic_info": {
-    "name_original": "Capital University (Egypt)",
-    "name_zh": "赫勒万大学",
-    "name_en": "Capital University (Egypt)",
-    "aliases": [],
+    "name_original": "جامعة العاصمة",
+    "name_zh": "首都大学",
+    "name_en": "Capital University",
+    "aliases": [
+      "赫勒万大学",
+      "Helwan University",
+      "جامعة حلوان",
+      "Capital University (Egypt)"
+    ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1975-01-01",
-    "website": "https://www.helwan.edu.eg/",
+    "website": "https://www.capu.edu.eg/",
     "wikidata_qid": "Q1364550"
   },
   "social_accounts": [
@@ -19,39 +24,299 @@
       "account_name": "helwanuniv",
       "url": "https://twitter.com/helwanuniv",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata（旧名时期账号，更名后是否沿用未核实）"
     },
     {
       "platform": "facebook",
       "account_name": "HelwanUniversity",
       "url": "https://facebook.com/HelwanUniversity",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata（旧名时期页面，更名后状态未核实）"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "Capital.edu.eg1",
+      "url": "https://www.facebook.com/Capital.edu.eg1",
+      "source": 6,
+      "source_note": "更名后官方脸书专页「جامعة العاصمة」，2025-2026年多次发布官方帖文（更名答疑、医学城进展）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "digital_assets": [
+    {
+      "name": "医学院官网（英文）",
+      "url": "https://medicine.capu.edu.eg/",
+      "description": "首都大学医学院英文网站，启用更名后新域名 capu.edu.eg 的子域名",
+      "source": "https://en.wikipedia.org/wiki/Helwan_University"
+    },
+    {
+      "name": "大学新域名门户",
+      "url": "http://www.capu.edu.eg",
+      "description": "2025年更名「首都大学」后启用的新官方域名（阿拉伯语维基百科信息框收录）；旧域名 helwan.edu.eg 仍被英文维基百科引用",
+      "source": "https://ar.wikipedia.org/wiki/جامعة_حلوان"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000663",
+      "name": "赛义德·易卜拉欣·坎迪勒 (السيد إبراهيم قنديل)",
+      "title": "校长 (رئيس الجامعة)",
+      "title_description": "大学最高行政负责人，主持大学理事会，2025年更名后以「首都大学」校长身份履职",
+      "description": "（音译）2022年起出任校长（阿拉伯语维基百科历任校长名录），为更名后「首都大学」首任校长；2025年12月4日以校长身份宣布总理令第4329/2025号更名决定并公布新校徽（Youm7报道）；2026年多次视察大学医学城建设工程并主持大学理事会会议（Ahram 2026-09-14、Masrawy 2026-10-07、Shorouk 2026-11-07报道）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-010-DEPT-001",
+      "name": "工程学院（赫勒万校区） (كلية الهندسة - فرع حلوان)",
+      "description": "1959年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-002",
+      "name": "工程学院（马塔里亚校区） (كلية الهندسة - فرع المطرية)",
+      "description": "1955年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-003",
+      "name": "商贸与工商管理学院（赫勒万校区） (كلية التجارة وإدارة الأعمال - فرع حلوان)",
+      "description": "1961年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-004",
+      "name": "商贸与工商管理学院（扎马雷克校区） (كلية التجارة وإدارة الأعمال - فرع الزمالك)",
+      "description": null
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-005",
+      "name": "计算机与人工智能学院 (كلية الحاسبات والذكاء الاصطناعي)",
+      "description": "1995年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-006",
+      "name": "旅游与酒店学院 (كلية السياحة والفنادق)",
+      "description": "1962年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-007",
+      "name": "应用艺术学院 (كلية الفنون التطبيقية)",
+      "description": "1839年建立，为中东最古老的同类学院之一（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-008",
+      "name": "美术学院 (كلية الفنون الجميلة)",
+      "description": "1908年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-009",
+      "name": "技术教育学院 (كلية التكنولوجيا والتعليم)",
+      "description": "1989年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-010",
+      "name": "家政学院 (كلية الاقتصاد المنزلي)",
+      "description": "1937年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-011",
+      "name": "艺术教育学院 (كلية التربية الفنية)",
+      "description": "1932/1936年前后建立（英文维基百科：Art Education 1932；阿语维基百科：1936）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-012",
+      "name": "音乐教育学院 (كلية التربية الموسيقية)",
+      "description": "1935年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-013",
+      "name": "体育科学学院（男生部） (كلية علوم الرياضة بنين)",
+      "description": "1937年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-014",
+      "name": "体育科学学院（女生部） (كلية علوم الرياضة بنات)",
+      "description": "1937年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-015",
+      "name": "法学院 (كلية الحقوق)",
+      "description": "1995年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-016",
+      "name": "文学院 (كلية الآداب)",
+      "description": "1995年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-017",
+      "name": "教育学院 (كلية التربية)",
+      "description": "1982年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-018",
+      "name": "社会工作学院 (كلية الخدمة الاجتماعية)",
+      "description": "1947年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-019",
+      "name": "药学院 (كلية الصيدلة)",
+      "description": "1995年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-020",
+      "name": "理学院 (كلية العلوم)",
+      "description": "1980年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-021",
+      "name": "护理学院 (كلية التمريض)",
+      "description": "2006年建立（英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-022",
+      "name": "医学院 (كلية الطب)",
+      "description": "2013年建立（英文维基百科），设英文官网 medicine.capu.edu.eg"
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-023",
+      "name": "营养科学学院 (كلية علوم التغذية)",
+      "description": null
+    },
+    {
+      "dept_id": "EG-ACAD-010-DEPT-024",
+      "name": "技术护理研究院 (المعهد الفني للتمريض)",
+      "description": "2014年建立（英文维基百科：Technical Institute of Nursing）"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-12-04",
+      "title": "赫勒万大学正式更名「首都大学」",
+      "description": "总理令第4329/2025号在埃及政府公报（الجريدة الرسمية）刊宪后，赫勒万大学（جامعة حلوان，1975-2025）正式更名为「首都大学」（جامعة العاصمة）。此前2025年10月16日内阁已批准更名动议（另据社交媒体帖文，2025年2月埃及大学最高委员会即已审议通过更名建议）。赫勒万现有校园改称「首都大学-赫勒万分校」，新主校区规划设于新行政首都，占地150费丹。多家独立媒体同日报道：Youm7（2025-12-04，https://www.youm7.com/story/2025/12/4/تغيير-اسم-جامعة-حلوان-لـ-العاصمة-ولوجو-جديد-للجامعة/7222137）、El Balad（2025-12-06，https://www.elbalad.news/6790532）、Masrawy（2025-12-12，学生法律地位答疑）。El Balad 报道称该校约22万在读学生的新证书将按「首都大学」校名签发，往届毕业生证书保留「赫勒万大学」名称。",
+      "impact": " Wikidata（Q1364550英文标签）与阿、英维基百科条目均已随更名更新；大学官方脸书专页与新域名 capu.edu.eg 同步启用；关联的非营利大学（جامعة حلوان الأهلية→جامعة العاصمة الأهلية）与国际技术大学（2025年12月30日公布）随之更名，品牌与法律实体体系整体切换。",
+      "source": "https://gate.ahram.org.eg/News/5346039.aspx"
+    },
+    {
+      "date": "2026-01-20",
+      "title": "内阁批准首都大学设立外国分校（西班牙、美国方向课程）",
+      "description": "据 Egypt Today 报道标题及导语，埃及内阁批准在首都大学设立外国分校（foreign branch），提供西班牙、美国方向学位课程；报道同时说明首都大学即赫勒万大学经官方决定更名后的新校名。",
+      "impact": "若落地实施，将成为该校国际化办学的标志性扩展；细节（学科、合作院校、选址）尚待后续官方文件确认。",
+      "source": "https://www.egypttoday.com/Article/1/144597/Cabinet-approves-foreign-branch-at-Capital-University-offering-Spanish-American"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "大学医学城一期启用进入冲刺（规划约1600床位）",
+      "description": "据《金字塔报》（Ahram）报道，校长赛义德·坎迪勒视察医学城一期工地，跟进执行进度与启用准备。据校方（大学官方脸书2026-02-18帖文）公布口径，医学城总占地约20万平方米、目标投资约120亿埃镑；据阿拉伯语维基百科，一期含门诊等设施，建成后总床位约1600张，服务开罗南部、上埃及北部与吉萨东部逾800万居民，并为医学、护理、口腔、物理治疗、药学、理学等学科提供教学实训环境。",
+      "impact": "该校医学学科群（医学院2013年、护理学院、药学院等）与南大开罗地区医疗服务的重大基础设施项目。",
+      "source": "https://gate.ahram.org.eg/News/5926756.aspx"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "大学理事会会议研究加快医学城建设",
+      "description": "据 Masrawy 报道，校长坎迪勒主持大学理事会会议（开罗省省长出席），会议研究加快医学城一期建设与启用准备，并在会上纪念十月战争胜利日。",
+      "impact": "显示省政府与大学协同推进项目落地；医学城被定位为服务民生的重点工程。",
+      "source": "https://www.masrawy.com/news/education-universityeducation/details/2026/10/7/3059154/بحضور-محافظ-القاهرة-جامعة-العاصمة-تبحث-تسريع-إنجاز-المجمع-الطبي"
+    },
+    {
+      "date": "2026-11-07",
+      "title": "校长实地视察医学城工地",
+      "description": "据《日出报》新闻门户（Shorouk News）报道，校长坎迪勒继续通过实地视察跟进医学城建设，在现场核查施工进度。",
+      "impact": "项目持续推进；据校方2026年8月29日官方帖文，一期计划于2026年12月开业。",
+      "source": "https://www.shorouknews.com/mobile/news/view.aspx?cdate=07112026&id=fdde4926-36fd-472b-9914-ce8d304f5396"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "埃及高等教育部和科学研究部 (وزارة التعليم العالي والبحث العلمي)",
+      "org_type": "GOV",
+      "org_description": "埃及主管高等教育与科学研究、公立大学治理的政府部门",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "首都大学国家大学（非营利） (جامعة العاصمة الأهلية)",
+      "org_type": "ACAD",
+      "org_description": "原名「赫勒万国家大学」（جامعة حلوان الأهلية），2025年12月底随总校更名而更名，为总校附属非营利大学实体",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "首都大学国际技术大学 (جامعة العاصمة التكنولوجية الدولية)",
+      "org_type": "ACAD",
+      "org_description": "原名「赫勒万国际技术大学」（جامعة حلوان التكنولوجية الدولية），总校附属技术类高等教育实体",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及大学最高委员会 (المجلس الأعلى للجامعات)",
+      "org_type": "GOV",
+      "org_description": "埃及公立大学的治理与协调机构，首都大学为其成员（英文维基百科）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "法语大学联盟 (Agence universitaire de la Francophonie)",
+      "org_type": "INTL",
+      "org_description": "全球法语高等教育合作网络，该校为其成员（阿拉伯语维基百科）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "非洲大学联合会 (اتحاد الجامعات الإفريقية / Association of African Universities)",
+      "org_type": "INTL",
+      "org_description": "非洲高校行业组织，该校为其成员（阿拉伯语维基百科）",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "首都大学（原赫勒万大学，1975-2025）是埃及公立综合性大学，依据1975年第70号法律设立，为大开罗地区继开罗大学、艾因夏姆斯大学之后的第三所政府大学；2025年12月经总理令第4329/2025号更名，主校区迁往新行政首都（占地150费丹），原赫勒万校园（占地350费丹）转为赫勒万分校，另有多所学院分布于扎马雷克、布拉格、吉萨、曼耶勒、马塔里亚等市区。现设23所学院及1所技术护理研究院、约50个研究中心，学科覆盖工程、计算机与人工智能、商科、旅游酒店、法学、文科、教育、艺术（应用艺术、美术、音乐、艺术教育）、体育、社会工作、理学、药学、护理、医学、营养科学等，其中应用艺术学院始建于1839年，为中东最古老的同类学院之一。据英文维基百科2021年数据，该校有学生约19.7万人（研究生约1.4万）、教师5156人、行政人员6520人（阿语维基百科现行口径为103305名学生）。2024年QS世界排名1201-1400区间、THE排名1201-1500区间。附属实体包括首都大学国家大学（非营利）、首都大学国际技术大学、大学医院及在建的大学医学城（规划约1600床位，目标投资约120亿埃镑）。该校为埃及大学最高委员会、法语大学联盟、非洲大学联合会成员。",
+  "industries": [
+    "higher_education",
+    "education",
+    "research_development",
+    "healthcare"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该校（原赫勒万大学）另为法语大学联盟（AUF）与非洲大学联合会（AAU）成员，开展跨区域高校学术合作。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Capital_University_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": null
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "english_wikipedia",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 80,
+    "notes": "P3富集：核心发现为2025-12-04官方更名（赫勒万大学→首都大学，总理令4329/2025），已用Ahram/Youm7/ElBalad/英文维基/阿语维基多源交叉确认；Wikidata英文标签「Capital University (Egypt)」异常系更名所致，已按现行名写入并保留旧名于aliases。官网两个域名经代理访问均502，社媒账号与院系结构改由维基百科+新闻+官方脸书帖文交叉获取。2026-01-20外国分校事件仅获Egypt Today标题与导语（正文抓取为空），描述已从谨慎表述。",
+    "quotes": [
+      {
+        "title": "جامعة العاصمة — ويكيبيديا العربية（阿拉伯语维基百科：更名沿革、历任校长、院系与附属实体）",
+        "url": "https://ar.wikipedia.org/wiki/جامعة_حلوان"
+      },
+      {
+        "title": "Capital University (formerly Helwan University) — Wikipedia (EN)（英文维基百科：学生/师规模、院系建置年份、排名）",
+        "url": "https://en.wikipedia.org/wiki/Helwan_University"
+      },
+      {
+        "title": "رسميًا.. تغيير اسم حلوان إلى «جامعة العاصمة» بقرار من مجلس الوزراء — بوابة الأهرام（金字塔报门户：政府公报刊宪总理令4329/2025）",
+        "url": "https://gate.ahram.org.eg/News/5346039.aspx"
+      },
+      {
+        "title": "تغيير اسم جامعة حلوان لـ العاصمة ولوجو جديد للجامعة — اليوم السابع（今日第七天：校长坎迪勒宣布更名并公布新校徽）",
+        "url": "https://www.youm7.com/story/2025/12/4/تغيير-اسم-جامعة-حلوان-لـ-العاصمة-ولوجو-جديد-للجامعة/7222137"
+      },
+      {
+        "title": "1600 سرير.. جامعة العاصمة تستعد لافتتاح المرحلة الأولى من مجمعها الطبي — بوابة الأهرام（医学城一期启用准备）",
+        "url": "https://gate.ahram.org.eg/News/5926756.aspx"
+      },
+      {
+        "title": "Cabinet approves foreign branch at Capital University offering Spanish, American degrees — Egypt Today（内阁批准外国分校）",
+        "url": "https://www.egypttoday.com/Article/1/144597/Cabinet-approves-foreign-branch-at-Capital-University-offering-Spanish-American"
+      }
+    ]
   }
 }

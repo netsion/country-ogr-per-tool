@@ -1,11 +1,12 @@
 {
   "org_id": "EG-MEDIA-015",
   "basic_info": {
-    "name_original": "Middle East News Agency",
+    "name_original": "وكالة أنباء الشرق الأوسط",
     "name_zh": "中东通讯社",
     "name_en": "Middle East News Agency",
     "aliases": [
-      "MENA"
+      "MENA",
+      "أ.ش.أ"
     ],
     "org_type": "MEDIA",
     "org_subtype": "news_agency",
@@ -21,14 +22,14 @@
       "account_name": "mena_arabic",
       "url": "https://twitter.com/mena_arabic",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata（本次会话未能在线复核，保留骨架数据）"
     },
     {
       "platform": "facebook",
       "account_name": "MENAArabic",
       "url": "https://facebook.com/MENAArabic",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；本次新闻搜索中MENA官方Facebook账号MENAArabic发帖与之相符"
     },
     {
       "platform": "youtube",
@@ -38,26 +39,241 @@
       "source_note": "wikidata"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "digital_assets": [
+    {
+      "name": "「东方之门」新闻门户网站 (Bawabet Sharq Al Awsat)",
+      "url": "https://mena.org.eg/",
+      "description": "据英语维基百科，MENA于2014年2月5日启用名为「Bawabet Sharq Al Awsat（东方之门）」的新闻网站；现官网以阿拉伯语、英语、法语三语提供新闻服务。",
+      "source": "English Wikipedia (en.wikipedia.org/wiki/Middle_East_News_Agency)"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000367",
+      "name": "艾哈迈德·卡迈勒 (أحمد كمال)",
+      "title": "董事长兼总编辑 (رئيس مجلس الإدارة ورئيس التحرير)",
+      "title_description": "MENA最高负责人，依职能主持董事会（12名成员加董事长）并执掌编辑委员会与日常发稿工作",
+      "description": "资深新闻工作者，长期在中东通讯社各编辑部门任职（MENA官网英文版「关于我们」介绍）。据阿拉伯语维基百科，他于2024年4月出任董事长兼总编辑，前任为阿里·哈桑 (علي حسن)。据伊斯兰合作组织新闻机构联盟(UNA-OIC)页面简介，其全名为 Ahmed Kamal Ibrahim Desouky，1989年获新闻学学士学位，并持有研究生文凭（检索摘要未完整显示文凭专业方向，故不注明具体领域）。2025年10月31日曾在《今日埃及》 Youm7 撰文预热大埃及博物馆开幕；2025年2月代表MENA与尼日利亚通讯社以视频方式签署合作协议。注：未在 _name_index.json 人物索引中命中，person_id 置空。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-001",
+      "name": "新闻部门 (قطاع الأخبار)",
+      "head": null,
+      "description": "负责国内外新闻的采集、编发与全天候播发",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-002",
+      "name": "编辑部门 (قطاع التحرير)",
+      "head": null,
+      "description": "负责各语言稿件编辑、审校与发稿质量把控",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-003",
+      "name": "新闻简报部门 (قطاع النشرات)",
+      "head": null,
+      "description": "负责阿语、英语、法语各类专项新闻简报（含《开罗报刊综述》《党报综述》等）的编制与发行",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-004",
+      "name": "驻外分社部门 (قطاع المكاتب الخارجية)",
+      "head": null,
+      "description": "统筹分布在中东阿拉伯地区、非洲、欧洲与北美、亚洲的38个驻外记者站",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-005",
+      "name": "经济部门 (القطاع الاقتصادي)",
+      "head": null,
+      "description": "负责经济新闻专线及《MEN经济周刊》等经济类内容",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-006",
+      "name": "图片编辑部门 (قطاع التحرير المصور)",
+      "head": null,
+      "description": "负责新闻摄影、图片编辑并向国内外媒体机构供应图片服务",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-007",
+      "name": "财务与行政事务部门 (قطاع الشئون المالية والإدارية)",
+      "head": null,
+      "description": "负责通讯社财务与行政后勤管理",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-008",
+      "name": "工程部门 (القطاع الهندسي)",
+      "head": null,
+      "description": "负责技术设施、卫星传输等工程保障",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-009",
+      "name": "商业部门 (القطاع التجاري)",
+      "head": null,
+      "description": "负责新闻服务订阅、营销与商业化运营",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-015-DEPT-010",
+      "name": "监察部门 (قطاع التفتيش)",
+      "head": null,
+      "description": "负责内部监察与合规检查",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-10-25",
+      "title": "与俄罗斯TV BRICS国际电视网签署合作备忘录",
+      "description": "据俄罗斯媒体Embassy Life 2024年10月25日报道，中东通讯社(MENA)与俄罗斯国际多媒体平台TV BRICS签署合作备忘录，TV BRICS方面称该备忘录是「加强媒体合作的重要一步」。战争研究所(ISW)2026年4月发布的研究报告亦确认TV BRICS于2024年10月与MENA签署了合作协议。",
+      "impact": "MENA接入金砖国家媒体传播网络，与埃及2024年正式加入金砖国家的整体外交节奏相呼应（依据：embassylife.ru通稿及ISW 2026-04-10报告）。",
+      "source": "https://embassylife.ru/en/2024/10/25/64481/"
+    },
+    {
+      "date": "2025-02-03",
+      "title": "与尼日利亚通讯社(NAN)以视频方式签署合作协议",
+      "description": "据MENA官方Facebook账号2025年2月3日发布的视频，董事长兼总编辑艾哈迈德·卡迈勒出席并签署MENA与尼日利亚通讯社(NAN)的合作协议；NAN官方Instagram视频显示协议由MENA的艾哈迈德·卡迈勒与NAN的阿里·穆罕默德·阿里 (Ali Muhammad Ali) 以虚拟方式签署，旨在加强埃、尼两国关系与媒体纽带。",
+      "impact": "深化MENA在非洲大陆的通讯社合作网络与南南媒体合作（依据：MENA与NAN双方官方账号发布内容）。",
+      "source": "https://www.facebook.com/MENAArabic/videos/رئيس-تحرير-أ-ش-أ-توقيع-الاتفاق-بين-وكالة-أنباء-الشرق-الأوسط-أ-ش-أ-ووكالة-الأنباء/9179413352148019/"
+    },
+    {
+      "date": "2025-10-31",
+      "title": "董事长发文预热大埃及博物馆开幕",
+      "description": "据埃及《今日埃及》(Youm7)报道，大埃及博物馆11月1日正式开幕前夕，董事长兼总编辑艾哈迈德·卡迈勒发表题为《纯埃及之手谱写的民族史诗》的文章，称「我们明天庆祝一座完全由埃及人手笔铸就的丰碑」。MENA作为国家通讯社对该国家级文化事件进行了集中报道动员。",
+      "impact": "体现国家通讯社在重大国家级文化事件中的报道动员与舆论造势职能（依据：Youm7 2025-10-31报道）。",
+      "source": "https://www.youm7.com/story/2025/10/31/رئيس-تحرير-وكالة-أنباء-الشرق-الأوسط-عن-المتحف-المصرى-الكبير/7179523"
+    },
+    {
+      "date": "2026-01-06",
+      "title": "驻意大利记者获国际媒体组织「2025年度媒体人物」称号",
+      "description": "据埃及Al-Tareeq新闻网站2026年1月6日报道，国际组织「无国界媒体/冰洞新闻(IISCK News)」授予MENA副总编辑兼驻意大利记者艾曼·阿卜杜勒-哈米德·穆罕默德（音译）「2025年度媒体人物」称号；MENA官方Facebook账号同日发布消息确认。",
+      "impact": "提升MENA驻外报道队伍的国际能见度与机构形象（依据：Al-Tareeq及MENA官方账号两个来源）。",
+      "source": "https://www.altreeq.com/525370"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "埃及加快媒体改革步伐，筹备首届年度媒体会议",
+      "description": "据MENA官网英文版2026年11月4日报道，埃及在全国首届年度媒体会议召开前加快媒体改革步伐；报道同时介绍中东通讯社创立于1955年七月革命之后，是埃及及阿拉伯世界第一家区域性通讯社。",
+      "impact": "埃及国家媒体治理改革进入落地阶段，MENA作为国家通讯社处于改革进程的核心位置（依据：MENA官网英文报道）。",
+      "source": "https://mena.org.eg/en/news/egypt-steps-media-reform-efforts-89073db2-7f85-40a7-830e-1e5796eccc8b"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "埃及新闻部 (وزارة الدولة للإعلام)",
+      "org_type": "GOV",
+      "org_description": "埃及政府主管新闻事务的部委；英语维基百科信息框将MENA的上级机构列为新闻部(Parent agency: Ministry of Information)，阿语维基百科信息框亦列「母公司/上级」为埃及国家新闻事务部。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯通讯社联盟 (اتحاد وكالات الأنباء العربية / FANA)",
+      "org_type": "INTL",
+      "org_description": "由18个阿拉伯国家通讯社组成的区域性联合会；英语维基百科称MENA为其成员，阿语维基百科称MENA为其创始成员之一。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "地中海通讯社联盟 (رابطة وكالات أنباء البحر المتوسط)",
+      "org_type": "INTL",
+      "org_description": "Alliance of Mediterranean News Agencies，地中海沿岸通讯社的行业联盟；英语与阿语维基百科均列MENA为其成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "伊斯兰国际通讯社 (وكالة الأنباء الإسلامية)",
+      "org_type": "INTL",
+      "org_description": "国际伊斯兰新闻机构联盟；阿语维基百科称MENA为其创始成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "泛非通讯社 (وكالة الأنباء الأفريقية)",
+      "org_type": "INTL",
+      "org_description": "Pan-African News Agency，非洲大陆性通讯社；阿语维基百科称MENA为其创始成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "不结盟国家通讯社联合会 (مجمع وكالات أنباء دول عدم الانحياز)",
+      "org_type": "INTL",
+      "org_description": "Non-Aligned News Agencies Pool，不结盟运动国家通讯社协作机制；阿语维基百科称MENA为其创始成员。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "TV BRICS国际电视网 (TV BRICS)",
+      "org_type": "MEDIA",
+      "org_description": "俄罗斯背景的国际多媒体传播平台；2024年10月与MENA签署合作备忘录（Embassy Life报道，ISW研究报告确认）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "尼日利亚通讯社 (News Agency of Nigeria)",
+      "org_type": "MEDIA",
+      "org_description": "尼日利亚国家通讯社；2025年2月与MENA以视频方式签署合作协议（MENA与NAN官方账号）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "EG-MEDIA-001",
+      "org_name": "金字塔报 (الأهرام)",
+      "org_type": "MEDIA",
+      "org_description": "埃及最大的国有报纸机构；阿语维基百科载明MENA于1955年创立时由埃及各报刊机构持股，1978年起与金字塔报等机构同属埃及国家出版机构体系。",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "中东通讯社是埃及官方国家通讯社，1955年12月15日以埃及报刊机构持股的股份公司形式创立（初始资本约2万埃镑），1956年2月28日正式以摩尔斯电码发稿，同年4月16日开始以电传机播发新闻，是中东和阿拉伯世界第一家区域性通讯社。总部设于开罗，员工约400人，1960年随七月革命后新闻机构国有化进程收归国有，1978年起成为隶属协商会议（现参议院）体系的全国性新闻机构，后归口新闻部主管。通讯社通过Nilesat、Arabsat和Hot Bird三颗卫星全天候24小时播发，日均发稿量约25万词，提供阿拉伯语、英语、法语三语服务。核心业务包括：六大并行新闻专线（对内阿语专线、对外阿语专线、英语专线、法语专线、国际专项专线、经济专线）；新闻特稿、深度调查与新闻图片服务；出版《开罗报刊综述》(CPR，英文日刊，摘译埃及各报要闻，面向驻开罗使馆与外国媒体)、《党报综述》(PPR，英文半周刊)与《MEN经济周刊》(英文周刊)等专项刊物；为国际通讯社和驻开罗外国记者提供专项新闻服务，并为政府部门提供新闻服务。MENA在中东阿拉伯地区、非洲、欧洲、亚洲和北美设有38个驻外记者站，与约25家阿拉伯、地区性和国际通讯社签有合作与新闻交换协议，是阿拉伯通讯社联盟(FANA)、地中海通讯社联盟、伊斯兰国际通讯社、泛非通讯社和不结盟国家通讯社联合会的创始成员或成员。2014年2月上线「东方之门」新闻门户网站，目前通过官网以三语提供数字新闻服务。",
   "industries": [
+    "media_publishing",
+    "digital_media",
     "broadcasting"
   ],
-  "apec_stance": null,
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。作为国家通讯社，中东通讯社参与的多边媒体合作机制包括：阿拉伯通讯社联盟(FANA，创始成员)、地中海通讯社联盟、伊斯兰国际通讯社、泛非通讯社、不结盟国家通讯社联合会（均为创始成员或成员），并于2024年10月与俄罗斯TV BRICS国际电视网签署合作备忘录、2025年2月与尼日利亚通讯社签署合作协议。",
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 76,
+    "notes": "P3 enrichment 2026-11-17: 阿语/英语维基百科交叉验证沿革（1955创立/1956发稿/1960国有化/1978协商会议/1980董事会）；官网为JS渲染无法抓取正文，董事长身份以官网首页检索摘要+阿语维基+UNA-OIC检索摘要+多篇2025-2026新闻交叉确认(Ahmed Kamal, 2024年4月上任)；10个部门来自阿语维基百科组织管理章节；5条recent_events均附来源URL；官网未能在线核验social_accounts，保留骨架wikidata数据并注明。",
+    "quotes": [
+      {
+        "title": "وكالة أنباء الشرق الأوسط — Wikipedia (العربية)",
+        "url": "https://ar.wikipedia.org/wiki/وكالة_أنباء_الشرق_الأوسط"
+      },
+      {
+        "title": "Middle East News Agency — Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Middle_East_News_Agency"
+      },
+      {
+        "title": "MENA官网首页检索摘要（رئيس مجلس الإدارة ورئيس التحرير: أحمد كمال）",
+        "url": "https://mena.org.eg/"
+      },
+      {
+        "title": "Egyptian News Agency (MENA) — Union of OIC News Agencies (UNA-OIC)",
+        "url": "https://una-oic.org/en/news_agencies/وكالة-أنباء-الشرق-الأوسط/"
+      },
+      {
+        "title": "تكريم وكالة أنباء الشرق الأوسط ومراسلها بإيطاليا بلقب «الشخصية الإعلامية لعام 2025» — Al-Tareeq",
+        "url": "https://www.altreeq.com/525370"
+      },
+      {
+        "title": "The international TV BRICS network expands its network of partners — Embassy Life",
+        "url": "https://embassylife.ru/en/2024/10/25/64481/"
+      }
+    ]
   }
 }

@@ -1,49 +1,257 @@
 {
   "org_id": "EG-INTL-002",
   "basic_info": {
-    "name_original": "East Mediterranean Gas Forum",
-    "name_zh": null,
+    "name_original": "منتدى غاز شرق المتوسط",
+    "name_zh": "东地中海天然气论坛",
     "name_en": "East Mediterranean Gas Forum",
     "aliases": [
-      "EastMed Gas Forum"
+      "EMGF",
+      "EGF",
+      "EastMed Gas Forum",
+      "EastMed"
     ],
     "org_type": "INTL",
     "org_subtype": "regional_org",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "2020-01-16",
-    "website": "http://www.eastmedgasforum.com/",
+    "website": "https://emgf.org/",
     "wikidata_qid": "Q97163711"
   },
   "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "emgforg",
+      "url": "https://x.com/emgforg",
+      "source": 3,
+      "source_note": "搜索确认的EMGF官方X账号（East Mediterranean Gas Forum - EMGF @emgforg）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "emgforg",
+      "url": "https://www.linkedin.com/company/emgforg",
+      "source": 17,
+      "source_note": "LinkedIn公司主页，页面信息列明总部开罗、官网emgf.org、成立于2019年"
+    },
     {
       "platform": "youtube",
       "account_name": "UC4fqdQ4CbiN2sW_sF_qKesw",
       "url": "https://youtube.com/channel/UC4fqdQ4CbiN2sW_sF_qKesw",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata（骨架继承，未二次验证）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "digital_assets": [
+    {
+      "name": "EMGF知识中心（EMGF Knowledge Hub / Digital Library）",
+      "url": "https://emgf.org/pages/Library/digital_library.aspx",
+      "description": "东地中海天然气论坛数字图书馆，汇集论坛及其国际合作伙伴产出的报告、研究、标准与洞察文献。",
+      "source": "https://emgf.org/"
+    },
+    {
+      "name": "EmpowerMed女性网络（EmpowerMed Women Network）",
+      "url": "https://emgf.org/empowermedwomen/Home.aspx",
+      "description": "EMGF在COP29期间发起的能源领域性别平等倡议，设成员名录、相册与注册入口，面向成员国能源行业的女性从业者。",
+      "source": "https://emgf.org/"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000424",
+      "name": "奥萨马·穆巴雷斯 (أسامة مبارز)",
+      "title": "秘书长",
+      "title_description": "东地中海天然气论坛首任秘书长，2021年11月25日第六届部长级会议上获任命，自2022年1月起就职，首任三年任期",
+      "description": "拥有约30年油气行业经验；曾任埃及石油和矿产资源部技术办公室副部长（Undersecretary for Technical Office），负责推动埃及油气行业现代化计划；曾任天然气出口国论坛（GECF）执行董事会埃及代表、国际能源论坛（IEF）埃及代表，并曾担任埃及石油展（EGYPES）组织委员会主席；持有英国赫瑞-瓦特大学爱丁堡商学院MBA（优等）。姓名中文为音译。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-INTL-002-DEPT-001",
+      "name": "秘书处（Secretariat）",
+      "head": "奥萨马·穆巴雷斯 (أسامة مبارز)",
+      "description": "论坛常设执行机构，负责组织部长级会议、执行董事会及各咨询委员会的协调工作，管理日常运营、对外联络并牵头编制论坛战略与年度报告；秘书长为机构首长。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-002-DEPT-002",
+      "name": "执行董事会（Executive Board）",
+      "head": null,
+      "description": "由成员国政府代表组成的治理机构，负责监督论坛工作计划与决策执行；主席按年度轮值（2023年度主席为埃及石油部的阿拉·哈杰尔，音译），2026年度主席未查到公开信息。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-002-DEPT-003",
+      "name": "天然气行业咨询委员会（GIAC）",
+      "head": null,
+      "description": "Gas Industry Advisory Committee，由区域内油气企业组成的行业咨询机构，官网显示有39个成员，下设小组委员会并设执行委员会与大会，就区域天然气市场、基础设施与行业路线图提供咨询。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-002-DEPT-004",
+      "name": "监管机构咨询委员会（RAAC）",
+      "head": null,
+      "description": "Regulatory Authorities Advisory Committee，由成员国国家能源监管机构组成，推进区域天然气市场规则协调，参与「东地中海天然气统一碳减排框架」等研究；2022年曾在雅典和罗马召开实体会议。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-002-DEPT-005",
+      "name": "科学技术咨询委员会（STAC）",
+      "head": null,
+      "description": "Scientific and Technical Advisory Committee，依据2022年12月部长级会议决议设立（塞浦路斯为发起国），旨在促进技术发展、监管与商业环境间的协同；2023年6月完成议事规则定稿。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-09",
+      "title": "EMGF秘书长出席经济学人第22届塞浦路斯峰会",
+      "description": "2026年11月9日至10日，EMGF秘书长奥萨马·穆巴雷斯在尼科西亚出席经济学人第22届塞浦路斯年会，与区域能源领袖就能源安全及东地中海在强化区域互联互通方面的潜力进行高层讨论。",
+      "impact": "保持论坛在东地中海能源治理对话中的能见度，巩固与塞浦路斯等成员国的关系（依据官网新闻稿）。",
+      "source": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2196"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "EMGF与希腊HELLENiQ ENERGY在雅典联合举办高级别战略会议并召开GIAC会议",
+      "description": "2026年10月6日至7日，EMGF与希腊HELLENiQ ENERGY在雅典举办为期两天的高级别战略会议，同期召集天然气行业咨询委员会（GIAC）执行委员会与大会会议，以加速区域能源合作。",
+      "impact": "强化论坛与希腊企业界的协作，并落实行业咨询机制2026年度工作安排（依据官网新闻稿）。",
+      "source": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2194"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "第10届EMGF部长级会议在美国华盛顿特区举行",
+      "description": "2026年6月8日，东地中海天然气论坛第十届部长级会议在美国华盛顿特区召开，官方声明称此特殊安排体现美国持续支持东地中海能源对话；埃及石油和矿产资源部派团与会，介绍埃及天然气运输基础设施战略及2026年钻探101口勘探井等计划（埃及石油部官网阿语新闻交叉印证）。",
+      "impact": "美国作为观察员主办部长级会议，显示华盛顿对东地中海天然气合作与对欧供气议题的参与加深。",
+      "source": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2176"
+    },
+    {
+      "date": "2026-10-02",
+      "title": "印度驻埃及大使会见EMGF秘书长",
+      "description": "2026年10月2日，印度驻埃及大使苏雷什·K·雷迪（Suresh K. Reddy）在开罗会见EMGF秘书长奥萨马·穆巴雷斯，讨论天然气市场演变及深化天然气领域合作的机遇（印度驻埃及使馆官方账号发布）。",
+      "impact": "显示论坛正与域外主要能源消费国拓展联系，潜在影响未来观察员与合作安排。",
+      "source": "https://www.facebook.com/IndiaInEgypt/posts/1548203637345031"
+    },
+    {
+      "date": "2025-04-23",
+      "title": "EMGF与国际天然气联盟（IGU）在伦敦发布联合报告",
+      "description": "2025年4月23日，国际天然气联盟（IGU）与EMGF在伦敦发布联合报告《天然气在东地中海经济体中的作用》（The Role of Gas in Eastern Mediterranean Economies），内容涵盖东地中海天然气行业与经济影响（IGU官网新闻稿交叉印证）。",
+      "impact": "提升论坛在天然气行业知识产品方面的话语权，为区域市场发展与政策制定提供依据。",
+      "source": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2144"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-014",
+      "org_name": "埃及石油和矿产资源部 (وزارة البترول والثروة المعدنية)",
+      "org_type": "GOV",
+      "org_description": "埃及油气行业主管部门，现任部长为工程师卡里姆·巴达维（Karim Badawi）；埃及作为EMGF成员国由该部代表参与，论坛总部设于开罗。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "EG-SOE-003",
+      "org_name": "埃及天然气控股公司 (شركة الغاز الطبيعي المصرية إيجاس)",
+      "org_type": "SOE",
+      "org_description": "埃及国家天然气公司（EGAS），持股埃及伊德库与达米埃塔液化天然气设施；东地中海区域天然气（含以色列、塞浦路斯气源）经由埃及液化设施出口欧洲，构成论坛区域气市合作的关键基础设施环节。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "欧洲联盟 (الاتحاد الأوروبي)",
+      "org_type": "INTL",
+      "org_description": "EMGF三个永久观察员之一；2022年6月15日欧盟—埃及—以色列三方天然气协议即为在论坛框架与开罗场合达成，支持以色列气源经埃及液化后输欧。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界银行集团 (World Bank Group)",
+      "org_type": "INTL",
+      "org_description": "EMGF永久观察员之一（官网观察员名录列明）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际天然气联盟 (International Gas Union)",
+      "org_type": "INTL",
+      "org_description": "全球天然气行业组织，2025年4月23日与EMGF在伦敦联合发布报告《The Role of Gas in Eastern Mediterranean Economies》。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "东地中海天然气论坛（EMGF）是一个政府间区域组织，总部设于埃及开罗，致力于建立东地中海区域天然气市场并协调成员国天然气政策。其沿革为：2018年10月塞浦路斯、埃及、希腊三国领导人在克里特峰会上倡议；2019年1月14日七国能源部长在开罗签署《开罗宣言》宣告论坛成立；2020年1月16日各国在开罗签署章程性框架协议；2020年9月22日正式签署组织宪章；宪章于2021年3月9日生效，同日法国获准成为正式成员。现有8个正式成员国：埃及、塞浦路斯、法国、希腊、以色列、意大利、约旦、巴勒斯坦；另有欧盟、美国、世界银行集团三个永久观察员（阿联酋的观察员地位2021年3月被巴勒斯坦否决，状态未定；土耳其因塞浦路斯问题未参与）。论坛主要职能包括：确保区域天然气供需安全、推动形成有竞争力的区域天然气市场与定价、协调天然气资源勘探开发与基础设施利用、促进成员国监管机构对话（RAAC）、汇聚油气企业行业咨询（GIAC）、对接科学技术合作（STAC），以及编制区域天然气战略研究报告。2022年6月15日，欧盟、埃及、以色列在论坛框架下于开罗达成天然气合作协议，将以色列天然气经管道输往埃及液化设施后出口欧洲，以降低欧盟对俄罗斯天然气的依赖，这使论坛成为东地中海对欧供气链条的重要多边平台。论坛秘书长奥萨马·穆巴雷斯（Osama Mobarez）自2022年1月起领导常设秘书处，并经常在区域及国际能源会议（如ADIPEC、EGYPES、经济学人塞浦路斯峰会）上阐述东地中海天然气合作议程。",
   "industries": [
+    "energy_oil_gas",
     "international_trade"
   ],
-  "apec_stance": null,
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本组织（EMGF）为东地中海区域政府间天然气合作机制，总部设于开罗，与APEC进程无直接关联。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
-    "data_sources": [
-      "wikidata",
-      "wikipedia",
-      "official_website"
+    "quotes": [
+      {
+        "title": "East Mediterranean Gas Forum - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/East_Mediterranean_Gas_Forum"
+      },
+      {
+        "title": "منتدى غاز شرق المتوسط - ويكيبيديا (AR)",
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D9%86%D8%AA%D8%AF%D9%89%20%D8%BA%D8%A7%D8%B2%20%D8%B4%D8%B1%D9%82%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7"
+      },
+      {
+        "title": "EMGF官网首页（成员、观察员、GIAC、最新动态）",
+        "url": "https://emgf.org/"
+      },
+      {
+        "title": "EMGF官网-秘书处与秘书长介绍页",
+        "url": "https://emgf.org/pages/about/Secretary.aspx"
+      },
+      {
+        "title": "10th EMGF Ministerial Meeting Declaration（华盛顿）",
+        "url": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2176"
+      },
+      {
+        "title": "埃及石油和矿产资源部阿语新闻：部长参加华盛顿EMGF部长级会议（2026-06-08）",
+        "url": "https://www.petroleum.gov.eg/ar-eg/media-center/news/news-pages/Pages/mop_07062026_03.aspx"
+      },
+      {
+        "title": "Egypt Oil & Gas: Mobarez Appointed as EMGF's Chief（2021-11-25）",
+        "url": "https://egyptoil-gas.com/news/mobarez-appointed-as-emgfs-chief/"
+      },
+      {
+        "title": "IGU新闻稿：The Role of Gas in Eastern Mediterranean Economies（2025-04-23）",
+        "url": "https://www.igu.org/press-releases/the-role-of-gas-in-eastern-mediterranean-economies-press-release"
+      },
+      {
+        "title": "EMGF官网：EMGF/IGU联合报告伦敦发布（2025-04-23）",
+        "url": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2144"
+      },
+      {
+        "title": "EMGF官网：雅典战略会议与GIAC会议（2026-10-06/07）",
+        "url": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2194"
+      },
+      {
+        "title": "EMGF官网：秘书长出席经济学人塞浦路斯峰会（2026-11-09/10）",
+        "url": "https://emgf.org/pages/viewcontent/articalid.aspx?ArtID=2196"
+      },
+      {
+        "title": "印度驻埃及使馆：大使会见EMGF秘书长（2026-10-02）",
+        "url": "https://www.facebook.com/IndiaInEgypt/posts/1548203637345031"
+      },
+      {
+        "title": "LinkedIn: East Mediterranean Gas Forum - EMGF",
+        "url": "https://www.linkedin.com/company/emgforg"
+      },
+      {
+        "title": "X（Twitter）: @emgforg",
+        "url": "https://x.com/emgforg"
+      }
     ],
-    "completeness_score": 13,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media"
+    ],
+    "completeness_score": 77,
+    "notes": "P3富集：英文/阿文维基百科+官网emgf.org+英阿语新闻交叉验证；秘书长任命（2021-11-25第六届部长会议）经官网与Egypt Oil & Gas双重来源确认；第10届部长级会议（华盛顿）经官网与埃及石油部官网双重来源确认。"
   }
 }

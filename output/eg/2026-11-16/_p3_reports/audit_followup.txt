@@ -1,0 +1,55 @@
+### A. suspicious P31 -> org mapping
+  EG-GOV-037 Supreme Judicial Council qid=Q133404956 P31-hit=['Q4167410(Wikimedia disambiguation page)'] fullP31=['Q4167410']
+  EG-SOE-004 Telecom Egypt qid=Q1583794 P31-hit=['Q620615(mobile app)'] fullP31=['Q2401749', 'Q620615']
+  EG-SOE-007 National Media Authority qid=Q959279 P31-hit=['Q18127(record label)'] fullP31=['Q15265344', 'Q18127', 'Q327333']
+  EG-SOE-015 Nilesat qid=Q1992164 P31-hit=['Q721329(direct-broadcast satellite)', 'Q12832168(artificial satellite)'] fullP31=['Q721329', 'Q783794', 'Q12832168']
+  EG-FIN-015 Meeza qid=Q85784760 P31-hit=['Q13499(debit card)'] fullP31=['Q783794', 'Q13499']
+  EG-ACAD-003 Ain Shams University qid=Q2723670 P31-hit=['Q45400320(open-access publisher)'] fullP31=['Q875538', 'Q45400320', 'Q3918']
+  EG-ACAD-006 Mansoura University qid=Q4116236 P31-hit=['Q79007(street)'] fullP31=['Q3918', 'Q2385804', 'Q79007']
+  EG-ACAD-007 Assiut University qid=Q246534 P31-hit=['Q45400320(open-access publisher)'] fullP31=['Q3918', 'Q45400320']
+  EG-NGO-002 Misr El Kheir Foundation qid=Q25452864 P31-hit=['Q620615(mobile app)'] fullP31=['Q163740', 'Q620615']
+  EG-MEDIA-007 Youm7 qid=Q4119059 P31-hit=['Q35127(website)'] fullP31=['Q11032', 'Q35127']
+  EG-MEDIA-011 Veto Gate qid=Q12231503 P31-hit=['Q35127(website)'] fullP31=['Q11032', 'Q35127']
+
+### B. shared person_id across orgs (name consistency)
+  EG-PERSON-000002 | registry: 阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi) | qid=None
+    - EG-GOV-001: name='阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi)' title='总统'
+    - EG-MIL-001: name='阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi)' title='最高统帅（总统）'
+  EG-PERSON-000007 | registry: 阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher) | qid=None
+    - EG-GOV-006: name='阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher)' title='国防和军工生产部长'
+    - EG-MIL-001: name='阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher)' title='国防和军工生产部长'
+  EG-PERSON-000013 | registry: 阿卜杜勒-阿齐兹·坎苏瓦 (Abdel Aziz Qansowa) | qid=None
+    - EG-GOV-012: name='阿卜杜勒-阿齐兹·坎苏瓦 (Abdel Aziz Qansowa)' title='高等教育和科学研究部长（兼文化部长代理）'
+    - EG-GOV-025: name='阿卜杜勒-阿齐兹·坎苏瓦 (Abdel Aziz Qansowa)' title='文化部长（代理，由高教部长兼任）'
+
+### C. person_registry sample (first 12 + those shared)
+  EG-PERSON-000001: 哈桑·阿卜杜拉 (Hassan Abdalla) | qid=None | org=None
+  EG-PERSON-000002: 阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi) | qid=None | org=None
+  EG-PERSON-000003: 穆斯塔法·马德布利 (Mostafa Madbouly) | qid=None | org=None
+  EG-PERSON-000004: 哈纳菲·贾巴利 (Hanafi Gebali) | qid=None | org=None
+  EG-PERSON-000005: 阿卜杜勒-瓦哈卜·阿卜杜勒-拉扎克 (Abdel-Wahab Abdel-Razeq) | qid=None | org=None
+  EG-PERSON-000006: 巴德尔·阿卜杜勒阿提 (Badr Abdelatty) | qid=None | org=None
+  EG-PERSON-000007: 阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher) | qid=None | org=None
+  EG-PERSON-000008: 马哈茂德·陶菲克·坎迪勒 (Mahmoud Tawfik Kandil) | qid=None | org=None
+  EG-PERSON-000009: 艾哈迈德·库舒克 (Ahmed Kouchouk) | qid=None | org=None
+  EG-PERSON-000010: 马哈茂德·希尔米·谢里夫 (Mahmoud Helmy El-Sherif) | qid=None | org=None
+  EG-PERSON-000011: 哈立德·阿卜杜勒·加法尔 (Khaled Abdel Ghaffar) | qid=None | org=None
+  EG-PERSON-000012: 穆罕默德·阿卜杜拉提夫 (Mohamed Abdellatif) | qid=None | org=None
+  shared EG-PERSON-000002: {'person_id': 'EG-PERSON-000002', 'name': '阿卜杜勒-法塔赫·塞西 (Abdel Fattah el-Sisi)', 'wikidata_qid': None, 'status': 'listed', 'source_orgs': ['EG-GOV-001']}
+  shared EG-PERSON-000007: {'person_id': 'EG-PERSON-000007', 'name': '阿什拉夫·萨利姆·扎赫尔 (Ashraf Salem Zaher)', 'wikidata_qid': None, 'status': 'listed', 'source_orgs': ['EG-GOV-006']}
+  shared EG-PERSON-000013: {'person_id': 'EG-PERSON-000013', 'name': '阿卜杜勒-阿齐兹·坎苏瓦 (Abdel Aziz Qansowa)', 'wikidata_qid': None, 'status': 'listed', 'source_orgs': ['EG-GOV-012']}
+
+### D. fetch en/ar label+desc for suspicious & trim-candidate QIDs
+  qids to fetch: ['Q12231503', 'Q133404956', 'Q1583794', 'Q1992164', 'Q246534', 'Q25452864', 'Q2723670', 'Q4116236', 'Q4119059', 'Q85784760', 'Q959279', 'Q1998063']
+  Q12231503: en=Veto | ar=فيتو | desc=Egyptian newspaper | claims=18
+  Q133404956: en=Supreme Judicial Council | ar=None | desc=Wikimedia disambiguation page | claims=1
+  Q1583794: en=Telecom Egypt | ar=المصرية للاتصالات | desc=Egyptian multinational telecommunications company | claims=47
+  Q1992164: en=Nilesat | ar=نايل سات | desc=Egyptian satellite communication company | claims=22
+  Q246534: en=Assiut University | ar=جامعة أسيوط | desc=public university in Egypt | claims=43
+  Q25452864: en=Misr El-kheir Foundation | ar=مؤسسة مصر الخير | desc=Nonprofit organization in Egypt | claims=22
+  Q2723670: en=Ain Shams University | ar=جامعة عين شمس | desc=public university in Cairo, Egypt | claims=59
+  Q4116236: en=Mansoura University | ar=جامعة المنصورة | desc=public university in Egypt | claims=39
+  Q4119059: en=Youm7 | ar=اليوم السابع | desc=Egyptian privately owned daily newspaper | claims=21
+  Q85784760: en=Meeza | ar=ميزة | desc=Egyptian financial organization | claims=21
+  Q959279: en=Egyptian Radio and Television Union | ar=الهيئة الوطنية للإعلام | desc=Egyptian government agency | claims=29
+  Q1998063: en=North Hessian | ar=None | desc=None | claims=5

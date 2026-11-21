@@ -1,41 +1,208 @@
 {
   "org_id": "EG-INTL-003",
   "basic_info": {
-    "name_original": "Council of Arab Economic Unity",
+    "name_original": "مجلس الوحدة الاقتصادية العربية",
     "name_zh": "阿拉伯經濟統一委員會",
     "name_en": "Council of Arab Economic Unity",
-    "aliases": [],
+    "aliases": [
+      "CAEU",
+      "مجلس الوحدة الاقتصادية",
+      "Arab Economic Unity Council"
+    ],
     "org_type": "INTL",
     "org_subtype": "regional_org",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1957-06-03",
-    "website": null,
+    "website": "https://ca-eu.org",
     "wikidata_qid": "Q12239049"
   },
-  "social_accounts": [],
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "مجلس الوحدة الاقتصادية العربية (@caeu2018)",
+      "url": "https://www.facebook.com/caeu2018/",
+      "source": 6,
+      "source_note": "官方Facebook页面@caeu2018，约3,732名关注者、9人讨论（2026-11-17经搜索检索确认，页面自述「唯一汇聚公私部门的阿拉伯组织，1957年成立」）"
+    }
+  ],
   "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000756",
+      "name": "穆罕默迪·艾哈迈德·尼 (محمدي أحمد الني)",
+      "name_en": "Mohammadi Ahmed El-Ni",
+      "title": "秘书长 (الأمين العام)",
+      "title_description": "阿拉伯经济统一理事会秘书长，大使衔；由理事会选举产生，任期四年",
+      "description": "毛里塔尼亚籍外交官（中文为音译；英文来源拼写不一：Mohammadi Ahmed Al-Ni / Mohamdy Ahmed Neya / Mohamedi Ahmed）。英语与阿拉伯语维基百科均列其为现任秘书长；阿拉伯钢铁联盟网站以「理事会选出毛里塔尼亚人穆罕默迪·艾哈迈德为新任秘书长」报道其当选。据理事会官网秘书长页面（标注2021-06-10），其专业背景为计量经济学与宏观经济学、经济分析与规划。2025年7月10日在开罗阿盟总部主持理事会第119届部长级会议并发表主旨讲话（Youm7转引中东通讯社报道）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-INTL-003-DEPT-001",
+      "name": "总秘书处 (الأمانة العامة)",
+      "head": "穆罕默迪·艾哈迈德·尼 (محمدي أحمد الني)",
+      "description": "理事会的行政与技术执行机构，由秘书长主持，常驻开罗（总部地址：吉萨区 Dociki，Misaha 广场 Haroun 街14号）。1957年《经济统一协定》设立由秘书长领导的行政与技术机构；官网显示其下设协调与规划总局、阿拉伯共同市场与贸易交流发展总局等部门，并正与阿拉伯行政管理发展组织合作编制组织结构研究。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-003-DEPT-002",
+      "name": "常驻代表副手委员会—筹备委员会 (لجنة نواب الممثلين الدائمين كلجنة تحضيرية)",
+      "head": null,
+      "description": "由成员国常驻代表副手组成，作为理事会会议的筹备机构（据阿拉伯语维基百科所列组织架构）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-003-DEPT-003",
+      "name": "常驻代表副手委员会—跟进委员会 (لجنة نواب الممثلين الدائمين كلجنة متابعة)",
+      "head": null,
+      "description": "负责理事会决议落实情况的跟进机构（据阿拉伯语维基百科所列组织架构）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-003-DEPT-004",
+      "name": "常设委员会 (اللجان الدائمة)",
+      "head": null,
+      "description": "理事会下设的常设议事机构（据阿拉伯语维基百科所列组织架构）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-003-DEPT-005",
+      "name": "技术委员会 (اللجان الفنية)",
+      "head": null,
+      "description": "负责经济一体化各技术领域议题的专业委员会（据阿拉伯语维基百科所列组织架构）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-003-DEPT-006",
+      "name": "协调与规划总局 (الإدارة العامة للتنسيق والتخطيط)",
+      "head": null,
+      "description": "总秘书处下属职能部门，负责协调与规划工作（据官方联系名录所载机构设置，负责人未公开）。",
+      "parent_dept_id": "EG-INTL-003-DEPT-001"
+    },
+    {
+      "dept_id": "EG-INTL-003-DEPT-007",
+      "name": "阿拉伯共同市场与贸易交流发展总局 (الإدارة العامة للسوق العربية المشتركة وتنمية التبادل التجاري)",
+      "head": null,
+      "description": "总秘书处下属职能部门，负责阿拉伯共同市场事务与贸易交流发展（据官方联系名录所载机构设置，负责人未公开）。",
+      "parent_dept_id": "EG-INTL-003-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-12-17",
+      "title": "理事会第118次例会宣布将于阿盟总部举行，聚焦促进阿拉伯国家间贸易",
+      "description": "据金字塔报门户网站（Ahram Gate，2024-12-17）报道，理事会将于两日后（约2024-12-19）在阿拉伯国家联盟总部举行第118次例会；秘书长介绍议程将讨论多项重要议题，首要为在大阿拉伯自由贸易区框架下促进阿拉伯国家间内部贸易。",
+      "impact": "例会机制延续，反映理事会以扩大阿盟成员内部贸易为核心的长期议程（依据为Ahram Gate报道）。",
+      "source": "https://gate.ahram.org.eg/News/5055638.aspx"
+    },
+    {
+      "date": "2025-07-10",
+      "title": "理事会第119届部长级会议在开罗阿盟总部举行",
+      "description": "据Youm7转引中东通讯社报道（2025-07-10），理事会第119届常规部长级会议在阿盟总秘书处总部举行，成员国外交代表、大使及阿拉伯专门联盟负责人出席，本届会议由利比亚经济与贸易部代表伊萨姆·阿布·阿吉莱（عصام أبو عجيلة，音译）主持。秘书长穆罕默迪·艾哈迈德·尼致辞称埃及经历了前所未有的发展与经济繁荣，呼吁加沙停火；并介绍秘书处正推动工作计划，将理事会「从合作与协调阶段转向一体化与执行阶段」，同时启动ERP系统以强化治理与透明度、与阿拉伯行政管理发展组织合作编制组织结构研究。会议召开正值《经济统一协定》批准65周年（1964年5月起生效）。",
+      "impact": "提出治理改革（ERP、组织结构研究）与工作计划升级，被视为理事会重振自身在阿拉伯共同市场与一体化进程中作用的信号（分析依据Youm7报道内容）。",
+      "source": "https://www.youm7.com/story/2025/7/10/أمين-مجلس-الوحدة-الاقتصادية-العربية-مصر-تشهد-طفرة-تنموية-غير/7050843"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "秘书长与苏丹财政部副部长举行会谈，讨论加强经济合作",
+      "description": "据理事会官网新闻栏目（2025-11-27），秘书长穆罕默迪·艾哈迈德·尼会见苏丹财政部副部长，双方讨论加强经济合作事宜。此前两年苏丹武装冲突持续，苏丹仍为理事会现任成员国。",
+      "impact": "反映理事会在苏丹战后经济重建与财政合作领域的参与（依据官网新闻标题与发布日期）。",
+      "source": "https://ca-eu.org/data-driven-decisions-leveraging-insights-to-fuel-business-growth"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "伊拉克总统接见理事会秘书长",
+      "description": "据理事会官网新闻栏目（2025-11-27），伊拉克共和国总统接见秘书长穆罕默迪·艾哈迈德·尼。另据阿拉伯钢铁联盟网站英文报道，伊拉克司法部长在会见秘书长时介绍了不动产登记等改革措施；阿拉伯投资与对外贸易联合会（AUCFC）相关报道标题为「为伊拉克重返阿拉伯经济统一理事会而努力」。",
+      "impact": "显示伊拉克回归理事会事务的积极态势；伊拉克现为理事会现任成员国（依据官网及AUCFC英文报道）。",
+      "source": "https://ca-eu.org/customer-centricity-putting-your-customers-at-the-heart-of-your-business"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "埃及艾斯尤特省与理事会启动战略伙伴关系",
+      "description": "据理事会官网新闻栏目（2025-11-27），埃及艾斯尤特省省长与理事会启动战略伙伴关系，旨在促进可持续发展与能力建设；同日官网还刊发阿拉伯仲裁法院与艾斯尤特省签署合作议定书的新闻。",
+      "impact": "体现理事会与埃及地方省份在能力建设领域的合作扩展至次国家层面（依据官网新闻）。",
+      "source": "https://ca-eu.org/the-art-of-delegation-empowering-your-team-for-success"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "理事会第63次会议（约旦）闭幕，决议致谢阿拉伯数字经济联盟",
+      "description": "理事会第63次会议在约旦哈希姆王国举行并闭幕，会议通过多项建议，其中包括致谢阿拉伯数字经济联盟编制《阿拉伯数字经济指数》研究并肯定其专业技术研究贡献；2026年版指数以「阿拉伯地区的数字主权」为题，评估阿拉伯国家数字主权、基础设施、技能与创新进展。来源为该联盟新闻（2026年11月中旬发布，检索标注约2026-11-12，故日期按年月精度记录）。",
+      "impact": "显示理事会将数字经济纳入其经济一体化议程，并与阿拉伯专门联盟形成研究联动（依据阿拉伯数字经济联盟新闻稿）。",
+      "source": "https://arab-digital-economy.org/29808"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-INTL-001",
+      "org_name": "阿拉伯国家联盟 (جامعة الدول العربية)",
+      "org_type": "INTL",
+      "org_description": "区域性政府间组织，总部位于埃及开罗；其经济与社会理事会是阿拉伯经济统一理事会的上级协调框架，大阿拉伯自由贸易区亦由其经济与社会理事会监管",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯钢铁联盟 (الاتحاد العربي للحديد والصلب)",
+      "org_type": "NGO",
+      "org_description": "泛阿拉伯钢铁行业联盟；其成员名录将阿拉伯经济统一理事会列为成员，并于2024-10发布秘书长当选新闻",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯数字经济联盟 (الاتحاد العربي للاقتصاد الرقمي)",
+      "org_type": "INTL",
+      "org_description": "阿拉伯专门数字经济联盟；其编制的《2026年阿拉伯数字经济指数》（「阿拉伯地区的数字主权」）获理事会第63次会议决议致谢",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "依据1957年6月3日签署的《阿拉伯国家联盟成员国经济统一协定》运作的泛阿拉伯经济一体化机构，总部设于开罗（吉萨区Dociki、Misaha广场Haroun街14号）。其宗旨是「在与阿拉伯国家自然与历史联系相一致的基础上组织和巩固阿盟成员国间的经济关系，为各国经济繁荣、资源发展提供最佳条件」，核心职能包括：保障人员与资本自由流动、商品与产品自由交换、居住与经济活动自由、运输过境及使用港口机场自由、财产所有与继承权；推动成员国合并为统一关税区、统一进出口政策与过境制度、共同对外商签贸易与支付协定、协调农业工业贸易立法与劳动及社会保障立法、避免双重征税、协调货币财政政策、统一统计分类方法。理事会框架下的标志性成果是大阿拉伯自由贸易区（GAFTA，1997年2月19日启动、1998年1月1日签署、2005年1月1日全面生效，覆盖阿盟18个签署国，参与阿拉伯内部贸易的96%），并推进阿拉伯共同市场建设、培育阿拉伯专门联盟与阿拉伯联合企业。近年秘书处推动治理改革（ERP系统、组织结构研究），提出从「合作协调」迈向「一体化执行」的工作计划，并与阿拉伯数字经济联盟等专门机构开展数字经济研究合作。",
   "industries": [
     "international_trade"
   ],
-  "apec_stance": null,
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本机构为阿盟框架下的泛阿拉伯经济一体化组织（1957年《经济统一协定》/1964年设立），职责范围限于阿拉伯地区经济一体化，不涉及APEC事务。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/GAFTA_Members.png/330px-GAFTA_Members.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-INTL-003.png",
+    "minio_path": "default/popular-org-profile/eg/EG-INTL-003.png"
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "wikipedia"
+      "wikipedia",
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 13,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 69,
+    "notes": "Phase 3 enrichment (2026-11-17)。沿革：1957-06-03阿盟经济理事会通过《经济统一协定》（英国维基信息框与UIA年鉴均为1957-06-03），1964-05-30协定生效后理事会正式开始运作（Youm7称1964年5月起施行；阿语维基称1957年6月成立、1964年首次会议）。总部：开罗吉萨Dociki、Misaha广场Haroun街14号（阿语维基）。成员口径差异如实记录：英语维基列18个签署国+4个候选国；阿语维基列9个现任成员国（叙利亚会籍冻结、利比亚退出、科摩罗为候选）。秘书长人事双源核实：毛里塔尼亚籍大使穆罕默迪·艾哈迈德·尼（محمدي أحمد الني，音译，英文来源拼写有Mohammadi Ahmed Al-Ni/Mohamdy Ahmed Neya/Mohamedi Ahmed三种），阿英维基+官网+2025-07 Youm7报道一致；当选新闻见阿拉伯钢铁联盟网站。官网确认当前域名为ca-eu.org（阿语维基所列旧域名council.caeuweb.org已无法解析；另有caeu1957.org、arabcaeu.org等旧域名）。Facebook账号@caeu2018经搜索确认。其他社交账号（X/YouTube/LinkedIn）未能可靠确认，故不列。数字资产（门户/数据库）未获可靠来源，留空。",
+    "quotes": [
+      {
+        "title": "مجلس الوحدة الاقتصادية العربية — Wikipedia (العربية)",
+        "url": "https://ar.wikipedia.org/wiki/مجلس_الوحدة_الاقتصادية_العربية"
+      },
+      {
+        "title": "Council of Arab Economic Unity — Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Council_of_Arab_Economic_Unity"
+      },
+      {
+        "title": "مجلس الوحدة الاقتصادية العربية — الموقع الرسمي (ca-eu.org)",
+        "url": "https://ca-eu.org/"
+      },
+      {
+        "title": "أمين مجلس الوحدة الاقتصادية العربية: مصر تشهد طفرة تنموية غير مسبوقة — Youm7 (2025-07-10)",
+        "url": "https://www.youm7.com/story/2025/7/10/أمين-مجلس-الوحدة-الاقتصادية-العربية-مصر-تشهد-طفرة-تنموية-غير/7050843"
+      },
+      {
+        "title": "مجلس الوحدة الاقتصادية العربية يوجّه الشكر للاتحاد العربي للاقتصاد الرقمي — Arab Digital Economy Union",
+        "url": "https://arab-digital-economy.org/29808"
+      },
+      {
+        "title": "The Council of Arab Economic Unity elects the Mauritanian Mohamedi Ahmed as the new Secretary General — Arab Iron and Steel Union",
+        "url": "https://aisusteel.org/en/archives/8121"
+      }
+    ]
   }
 }

@@ -1,8 +1,8 @@
 {
   "org_id": "EG-NGO-005",
   "basic_info": {
-    "name_original": "Egyptian Initiative for Personal Rights",
-    "name_zh": null,
+    "name_original": "المبادرة المصرية للحقوق الشخصية",
+    "name_zh": "埃及个人权利倡议",
     "name_en": "Egyptian Initiative for Personal Rights",
     "aliases": [
       "EIPR"
@@ -17,36 +17,170 @@
   },
   "social_accounts": [
     {
+      "platform": "facebook",
+      "account_name": "EIPR.org",
+      "url": "https://www.facebook.com/EIPR.org",
+      "source": 6,
+      "source_note": "eipr.org官网页脚及who-we-are页确认"
+    },
+    {
       "platform": "twitter",
-      "account_name": "EIPR",
+      "account_name": "eipr",
       "url": "https://twitter.com/EIPR",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "eipr.org官网页脚确认（@EIPR）"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "EIPR",
+      "url": "https://www.youtube.com/channel/UCgZDy4S7286fKAjFIKv63oA",
+      "source": 9,
+      "source_note": "eipr.org官网页脚确认（频道ID来自官网页脚链接）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
+  "digital_assets": [
+    {
+      "name": "EIPR出版物与报告库（英语版）",
+      "url": "https://eipr.org/en/publications",
+      "description": "EIPR官网英语出版物库，收录该组织的研究报告、新闻稿与政策文件，覆盖公民自由、刑事司法、经济与社会公正等领域，另有阿拉伯语版本（eipr.org）。",
+      "source": "official_website"
+    },
+    {
+      "name": "宗教与信仰自由专题页",
+      "url": "https://eipr.org/en/files/freedom-religion-and-belief",
+      "description": "EIPR官网「宗教与信仰自由」专题文件页，汇集该组织关于刑法第98(f)条「藐视宗教」类案件（如阿古斯丁诺斯·萨马安案）的研究、诉讼与倡导材料。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000310",
+      "name": "侯萨姆·巴哈加特 (حسام بهجت)",
+      "title": "执行总监 (المدير التنفيذي)",
+      "title_description": "EIPR创始人兼执行总监",
+      "description": "埃及人权活动家、调查记者（中文名为音译，无新华社通行译名）。据阿拉伯语维基百科，其1978年出生；2002年创立EIPR并任执行总监至2013年，其后曾任调查记者；至迟于2022年11月重返EIPR任执行总监（MENA Rights 2022-11-30、EIPR 2025-07-02脸书视频及2026年9月欧洲议会DROI听证均以执行总监身份出现）。据MENA Rights 2022年11月及ISHR 2024年12月声明，其自2016年起受旅行禁令与资产冻结等惩罚性措施限制；2025年1月19日被埃及最高国家安全检察署传唤问话（新案案号2025年第6号），被控「参加恐怖组织」「散布虚假新闻」（人权观察2025-01-22、大赦国际2025-01-16）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-NGO-005-DEPT-001",
+      "name": "公民自由项目 (برنامج الحريات المدنية)",
+      "head": null,
+      "description": "关注信仰与表达自由等公民权利议题，处理「藐视宗教」（刑法第98(f)条）等案件的记录、法律援助与战略诉讼；2026年11月萨马安案上诉程序即由该项目跟进。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-005-DEPT-002",
+      "name": "刑事司法项目 (برنامج العدالة الجنائية)",
+      "head": null,
+      "description": "关注监狱条件、死刑、审前羁押等刑事司法议题，通过研究、记录与诉讼推动改革；2020年11月该项目负责人等工作人员遭安全部门逮捕，引发国际关注（英文维基百科）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-005-DEPT-003",
+      "name": "经济与社会公正项目 (برنامج العدالة الاقتصادية والاجتماعية)",
+      "head": null,
+      "description": "关注外债、贫困统计、住房与民生政策等经济社会权利议题，发布研究与政策分析（EIPR官网三大项目之一）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-12-05",
+      "title": "国际机构呼吁埃及解除对EIPR三名负责人的旅行禁令与资产冻结",
+      "description": "国际人权服务社（ISHR）于2024年12月5日发表声明，要求埃及政府立即解除对EIPR三名负责人施加的任意旅行禁令与资产冻结等惩罚性措施。EIPR创始人兼执行总监侯萨姆·巴哈加特自2016年起即受旅行禁令与资产冻结限制（MENA Rights 2022-11-30）。",
+      "impact": "惩罚性措施持续限制EIPR核心人员的境内外活动，反映该组织与埃及当局关系长期紧张。",
+      "source": "https://ishr.ch/latest-updates/egypt-lift-punitive-measures-against-eipr-staff/"
+    },
+    {
+      "date": "2025-01-19",
+      "title": "执行总监巴哈加特被最高国家安全检察署传唤问话并被控「参加恐怖组织」等罪名",
+      "description": "EIPR执行总监侯萨姆·巴哈加特于2025年1月19日前往第五定居点最高国家安全检察署接受问话（新案案号2025年第6号），被控「参加恐怖组织」「散布虚假新闻」等罪名（人权观察阿语报道2025-01-22、大赦国际阿语声明2025-01-16）。此案与2020年11月对EIPR工作人员的逮捕案罪名结构相似，属对该组织打压的延续。",
+      "impact": "对EIPR负责人的司法施压升级，国际人权组织公开声援；该组织工作环境与人员安全风险上升。",
+      "source": "https://www.hrw.org/ar/news/2025/01/22/egypt-rights-defender-charged-terrorism"
+    },
+    {
+      "date": "2026-10-08",
+      "title": "发布关于巴哈伊公民处境的新报告《نحو الرحيل أو الفناء》",
+      "description": "EIPR发布新报告《نحو الرحيل أو الفناء：جهود الدولة المصرية لمحو مواطنيها البهائيين》（题意「离开或消亡：埃及国家抹除其巴哈伊公民的努力」），追踪埃及官方政策对其巴哈伊公民的影响；执行总监巴哈加特在巴哈伊国际共同体2026年10月8日发布的活动视频中介绍该报告。",
+      "impact": "延续EIPR在宗教与信仰自由议题上的记录与倡导，是其少数群体权利研究的最新成果。",
+      "source": "https://www.facebook.com/Bahai.international.community/videos/1072780748901468/"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "联署国际联合声明，呼吁各国保护国际刑事法院免受美国非法攻击",
+      "description": "EIPR于2026年10月13日在官网发布联合声明《Urgent Call for Action: States Must Act Now to Protect the International Criminal Court from Unlawful US Attacks》，与其他组织共同呼吁各国立即行动、保护国际刑事法院免受美国的非法攻击。",
+      "impact": "体现该组织积极参与跨国倡导与国际人权机制的活跃状态。",
+      "source": "https://eipr.org/en/press/2026/10/joint-statement-%C2%A0urgent-call-action-states-must-act-now-protect-international-criminal"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "萨马安「藐视宗教」案上诉被埃及最高上诉法院驳回",
+      "description": "埃及最高上诉法院（Court of Cassation）轻罪审判庭于2026年11月15日（周日）驳回阿古斯丁诺斯·萨马安（Agostinos Samaan）对其五年监禁判决的上诉（96司法年度第12839号）。萨马安因「藐视宗教」（刑法第98(f)条）于2026年1月3日被判五年监禁并服劳役，2025年10月1日凌晨在家中被捕并遭九天强迫失踪。EIPR律师是其辩护团队成员；EIPR认为该定罪违反宗教与信仰自由，并已记录至少113人因持无神论或少数/「未获承认」信仰遭打压（EIPR 2026-11-16新闻稿）。",
+      "impact": "显示「藐视宗教」条款相关起诉与定罪持续，EIPR在该领域的法律援助与诉讼监督角色突出。",
+      "source": "https://eipr.org/en/press/2026/11/court-cassation-rejects-agostinos-samaans-appeal-against-five-year-sentence-contempt"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "巴哈伊国际共同体 (المجتمع البهائي الدولي)",
+      "org_type": "NGO",
+      "org_description": "代表全球巴哈伊社团的国际非政府组织，在联合国经济及社会理事会具有咨商地位；2026年10月与EIPR围绕巴哈伊公民处境报告开展联合发布活动。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "埃及个人权利倡议（EIPR）是2002年成立于开罗的独立人权组织，由侯萨姆·巴哈加特（حسام بهجت）创立，通过研究、记录、倡导、法律援助与战略诉讼，推动埃及基本权利与自由的保护和改善。其工作覆盖三大领域：公民自由（含宗教与信仰自由、表达自由等，重点处理刑法第98(f)条「藐视宗教」案件）、刑事司法（监狱条件、死刑、审前羁押与强迫失踪等）以及经济与社会公正（外债、贫困与民生政策等）。该组织2010年设立北非诉讼倡议（NALI），协助北非人权组织利用非洲人权与民族权委员会等区域机制诉讼；同时以阿英双语出版研究报告与新闻稿，并向联合国人权机制、欧洲议会等国际平台提交证言。EIPR与埃及政府关系紧张：其负责人2016年起受旅行禁令与资产冻结，2020年11月多名工作人员遭逮捕，2025年1月执行总监巴哈加特再被最高国家安全检察署传唤并面临指控，以上均有公开来源可查。",
   "industries": [
     "nonprofit"
   ],
-  "apec_stance": null,
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该组织本身并非APEC相关机构，其跨区域参与集中于国际人权体系：通过北非诉讼倡议（NALI）运用非洲人权与民族权委员会等非洲区域人权机制，并向联合国人权机制与欧洲议会等平台提交报告与证言。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/EIPR_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": null
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 16,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 72,
+    "notes": "Phase3 enrichment: 官网三大项目、社媒账号（官网页脚）、key_people（执行总监巴哈加特，多源确认）、5条近期事件（2024-12至2026-11，含2020-2021打压案延续动态）均已按来源核验；敏感事项（旅行禁令/资产冻结/2025年传唤）仅记录有公开来源的事实。",
+    "quotes": [
+      {
+        "title": "Egyptian Initiative for Personal Rights - English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_Initiative_for_Personal_Rights"
+      },
+      {
+        "title": "المبادرة المصرية للحقوق الشخصية - Arabic Wikipedia",
+        "url": "https://ar.wikipedia.org/wiki/المبادرة_المصرية_للحقوق_الشخصية"
+      },
+      {
+        "title": "Who we are - EIPR official website",
+        "url": "https://eipr.org/en/who-we-are"
+      },
+      {
+        "title": "EIPR press release: Court of Cassation rejects Agostinos Samaan's appeal (2026-11-16)",
+        "url": "https://eipr.org/en/press/2026/11/court-cassation-rejects-agostinos-samaans-appeal-against-five-year-sentence-contempt"
+      },
+      {
+        "title": "HRW Arabic: مصر: اتهام ناشط حقوقي بالإرهاب (2025-01-22)",
+        "url": "https://www.hrw.org/ar/news/2025/01/22/egypt-rights-defender-charged-terrorism"
+      },
+      {
+        "title": "Amnesty Arabic: استدعاء حسام بهجت للاستجواب (2025-01-16)",
+        "url": "https://www.amnesty.org/ar/latest/news/2025/01/https-www-amnesty-org-en-latest-news-2025-01-egypt-prominent-human-rights-defender-hossam-bahgat-summoned-for-interrogations/"
+      },
+      {
+        "title": "ISHR: Egypt: Lift punitive measures against EIPR staff (2024-12-05)",
+        "url": "https://ishr.ch/latest-updates/egypt-lift-punitive-measures-against-eipr-staff/"
+      }
+    ]
   }
 }

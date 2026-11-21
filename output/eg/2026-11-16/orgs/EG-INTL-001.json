@@ -1,10 +1,14 @@
 {
   "org_id": "EG-INTL-001",
+  "wikidata_qid": "Q7172",
   "basic_info": {
-    "name_original": "Arab League",
+    "name_original": "جامعة الدول العربية",
     "name_zh": "阿拉伯国家联盟",
-    "name_en": "Arab League",
+    "name_en": "League of Arab States",
     "aliases": [
+      "Arab League",
+      "جامعة الدول العربية",
+      "阿盟",
       "League of Arab States"
     ],
     "org_type": "INTL",
@@ -12,8 +16,7 @@
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1945-03-22",
-    "website": "http://www.lasportal.org/",
-    "wikidata_qid": "Q7172"
+    "website": "http://www.leagueofarabstates.net/"
   },
   "social_accounts": [
     {
@@ -21,14 +24,14 @@
       "account_name": "arableague_gs",
       "url": "https://twitter.com/arableague_gs",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata；搜索结果确认该X账号为联盟秘书处官方账号（账号简介：الحساب الرسمي للأمانة العامة لجامعة الدول العربية）"
     },
     {
       "platform": "facebook",
       "account_name": "arab.league",
       "url": "https://facebook.com/arab.league",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；搜索结果确认Facebook官方主页「جامعة الدول العربية - League of Arab States | Cairo」"
     },
     {
       "platform": "youtube",
@@ -41,34 +44,166 @@
   "digital_assets": [],
   "key_people": [
     {
-      "person_id": "EG-PERSON-000034",
-      "name": "艾哈迈德·阿布·盖特 (Ahmed Aboul Gheit)",
+      "person_id": "EG-PERSON-000428",
+      "name": "纳比勒·法赫米 (نبيل فهمي)",
       "title": "秘书长",
-      "title_description": null,
-      "description": null
+      "title_description": "阿拉伯国家联盟秘书长，任期五年（2026年7月1日至2031年）",
+      "description": "埃及资深外交官、前外交部长。2026年3月29日阿盟理事会部长级会议批准埃及对其秘书长的提名（路透社、卡塔尔通讯社、沙特通讯社），2026年6月22日正式任命，2026年7月1日就任，接替卸任的艾哈迈德·阿布·盖特。"
+    },
+    {
+      "person_id": "EG-PERSON-000034",
+      "name": "艾哈迈德·阿布·盖特 (أحمد أبو الغيط)",
+      "title": "前秘书长",
+      "title_description": "2016年起连续担任两届秘书长，任期至2026年6月底",
+      "description": "埃及外交官，2016年7月就任阿盟秘书长并连任两届，2026年6月卸任，由纳比勒·法赫米接任（路透社、Arab News报道）。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "international_trade"
+  "departments": [
+    {
+      "dept_id": "EG-INTL-001-DEPT-001",
+      "name": "联盟理事会 (مجلس الجامعة)",
+      "head": null,
+      "description": "最高决策机构，每个成员国一票；决议原则上仅对投赞成票的成员国有约束力，成员国争端调解情形下决议具有强制力。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-001-DEPT-002",
+      "name": "秘书处 (الأمانة العامة)",
+      "head": "纳比勒·法赫米 (نبيل فهمي)",
+      "description": "常设行政执行机构，由秘书长领导；秘书长经成员国三分之二多数同意任命，是阿盟在国际场合的正式代表。秘书处内部条例于1953年5月获批。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-001-DEPT-003",
+      "name": "经济和社会理事会 (المجلس الاقتصادي والاجتماعي)",
+      "head": null,
+      "description": "统筹成员国经济与社会合作的理事会机制，在阿拉伯经济统一委员会框架下运作，推动大阿拉伯自由贸易区等经济一体化议程。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-001-DEPT-004",
+      "name": "联合防务理事会 (مجلس الدفاع المشترك)",
+      "head": null,
+      "description": "依据1950年《联合防御与经济合作条约》设立的阿盟机构之一，负责协调成员国联合防务事务。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-001-DEPT-005",
+      "name": "阿拉伯议会 (البرلمان العربي)",
+      "head": null,
+      "description": "阿盟框架下的泛阿拉伯议会机构（英文维基百科信息框列为立法机构）。各来源对现任议长记载不一致，负责人留空。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-001-DEPT-006",
+      "name": "常设委员会 (اللجان الدائمة)",
+      "head": null,
+      "description": "联盟理事会下设的9个常设委员会：政治委员会、经济与财政委员会、交通事务委员会、文化委员会、法律委员会、社会事务委员会、卫生委员会、阿拉伯新闻委员会、人权委员会（据阿语维基百科）。",
+      "parent_dept_id": "EG-INTL-001-DEPT-001"
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2026-07-01",
+      "title": "纳比勒·法赫米就任阿盟秘书长",
+      "description": "埃及资深外交官、前外长纳比勒·法赫米于2026年7月1日正式就任阿盟秘书长，开始五年任期，接替卸任的艾哈迈德·阿布·盖特（其于2016年起连续担任两届秘书长）。巴勒斯坦通讯社WAFA及The Arab Weekly报道了就任消息。",
+      "impact": "阿盟领导层完成换届；媒体分析普遍关注新秘书长任内如何提升阿盟在地区危机（尤其是巴勒斯坦问题）中的行动能力（The Arab Weekly，2026-07-02）。",
+      "source": "https://english.wafa.ps/Pages/Details/172251"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "阿盟理事会部长级会议正式任命法赫米为秘书长",
+      "description": "阿盟理事会在开罗举行的部长级会议正式确认任命纳比勒·法赫米为阿盟秘书长，任期五年、自2026年7月1日起。Arab News、伊拉克外交部（6月23日新闻稿）及阿联酋通讯社WAM报道。",
+      "impact": "完成秘书长任命的法定程序，为7月1日顺利交接奠定基础；阿盟秘书长职务按惯例由埃及籍人士担任。",
+      "source": "https://www.arabnews.com/middle-east/arab-league-confirms-egyptian-diplomat-nabil-fahmy-as-secretary-general-2648183"
+    },
+    {
+      "date": "2026-03-29",
+      "title": "阿盟外长理事会批准提名法赫米出任秘书长",
+      "description": "阿盟理事会部长级会议批准埃及提名的前外长纳比勒·法赫米出任阿盟秘书长（五年任期自2026年7月1日起），接替任期于2026年6月届满的艾哈迈德·阿布·盖特。路透社、卡塔尔通讯社（QNA）、沙特通讯社（SPA）报道。",
+      "impact": "埃及在秘书长人选上的提名获阿拉伯国家一致支持，延续自1945年首任秘书长阿卜杜勒·拉赫曼·阿扎姆以来由埃及籍人士出任秘书长的惯例。",
+      "source": "https://www.reuters.com/business/media-telecom/arab-foreign-ministers-name-nabil-fahmy-arab-league-chief-2026-03-29/"
+    },
+    {
+      "date": "2025-05-17",
+      "title": "第34届阿盟峰会在伊拉克巴格达举行",
+      "description": "阿盟第34届常规峰会（峰会序列第40次）在伊拉克首都巴格达召开，埃及总统塞西与会（埃及总统府官网）。这是继2012年第29届峰会后伊拉克第二次承办阿盟常规峰会（英文维基百科峰会列表）。",
+      "impact": "峰会就巴勒斯坦问题与地区局势协调阿拉伯立场；埃及作为阿盟总部所在国与东道机制维持峰会外交节奏。",
+      "source": "https://www.presidency.eg/ar/قسم-الأخبار/الفعاليات-والمؤتمرات/event17-5-2025/"
+    },
+    {
+      "date": "2025-03-04",
+      "title": "阿盟开罗紧急峰会通过埃及版加沙重建计划（开罗宣言）",
+      "description": "应埃及总统塞西倡议，阿盟紧急峰会在开罗举行并通过最终声明（共23点，欧洲新闻台阿语频道报道）：采纳埃及提出的加沙地带重建计划，作为对美国前总统特朗普加沙方案的实际替代；明确反对强制迁移巴勒斯坦人，并呼吁联合国安理会部署国际维和部队（BBC阿语、半岛电视台、法国24台阿语频道、新华社阿语频道报道；埃及总统府官网刊登《开罗宣言》全文）。",
+      "impact": "确立阿拉伯国家对加沙战后安排的统一立场：不迁移人口、由阿拉伯方案主导重建；该宣言成为阿盟及其秘书长在加沙议题上的官方立场文本。",
+      "source": "https://www.presidency.eg/ar/قسم-الأخبار/أخبار-رئاسية/news532025/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-INTL-003",
+      "org_name": "阿拉伯经济统一委员会 (مجلس الوحدة الاقتصادية العربية)",
+      "org_type": "INTL",
+      "org_description": "阿盟框架下负责阿拉伯经济一体化的机构，其经济和社会理事会为阿盟推动经济合作的主要机制（英文维基百科）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯教育、文化和科学组织 (منظمة التربية والثقافة والعلوم العربية - أليسكو)",
+      "org_type": "INTL",
+      "org_description": "阿盟专门机构（ALECSO），负责推动成员国教育、文化、科学与社科领域合作；阿语与英文维基百科均将其列为阿盟主要附属机构。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "阿拉伯国家联盟是阿拉伯国家的区域性政府间组织，1945年3月22日依据《亚历山大议定书》和《阿盟宪章》在开罗成立（早于联合国成立数月），创始成员为埃及、伊拉克、外约旦、黎巴嫩、沙特阿拉伯、叙利亚和也门7国，现有22个成员国（含科摩罗、吉布提、索马里3个非阿拉伯国家）和亚美尼亚、巴西、乍得、厄立特里亚、希腊、印度、委内瑞拉、奥地利8个观察员国。核心职能：协调成员国政治、经济、文化、社会与防务政策，维护成员国独立与主权，统筹处理阿拉伯国家共同事务；联盟理事会为最高决策机构（一国一票，决议仅约束投赞成票的国家），并通过峰会、外长理事会会议和各专门部长理事会机制运作。经济一体化方面推动大阿拉伯自由贸易区（2005年生效）、阿拉伯共同市场（1965年）及阿拉伯经济统一委员会框架下的经济和社会理事会合作；防务方面有1950年《联合防御与经济合作条约》和2015年峰会原则上同意组建的联合阿拉伯部队（自愿参加）。代表性议程行动：2002年贝鲁特峰会通过沙特倡议的阿拉伯和平倡议；2024年1月支持南非在国际法院对以色列提起的诉讼；2004年起担任中阿合作论坛（CASCF）阿方协调机制。历史沿革：总部原设开罗布斯坦宫，1979年3月26日埃及因与以色列签署和约被暂停成员资格、总部迁至突尼斯，1987年阿拉伯国家恢复对埃外交关系、1989年5月埃及重回阿盟、1990年9月总部迁回开罗；利比亚2011年2月被暂停、同年8月恢复；叙利亚2011年11月16日被暂停、2023年5月7日恢复成员资格。成员国总人口2025年估计约4.81亿，总面积约1313万平方公里。",
+  "industries": [
+    "foreign_affairs",
+    "international_trade",
+    "humanitarian_aid"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本组织即阿拉伯国家联盟本身，系中阿合作论坛（CASCF，2004年成立）的阿方协调机制（英文维基百科）。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Flag_of_the_Arab_League.svg/330px-Flag_of_the_Arab_League.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-INTL-001.png",
+    "minio_path": "default/popular-org-profile/eg/EG-INTL-001.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
+      "arabic_wikipedia",
+      "news_search",
       "official_website"
     ],
-    "completeness_score": 27,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 76,
+    "notes": "Phase3 enrichment: 3-language Wikipedia (AR/EN), Arabic+English news search (Reuters/QNA/SPA/Arab News/WAFA/Al Jazeera/BBC Arabic/France24 Arabic/presidency.eg). SG transition confirmed: Nabil Fahmy appointed 2026-06-22, took office 2026-07-01, succeeding Ahmed Aboul Gheit. Official portal leagueofarabstates.net returned 502/empty via tools; leagueofarabstates.org is an unrelated squatted blog and was rejected. Digital assets left empty (no verified source).",
+    "quotes": [
+      {
+        "title": "جامعة الدول العربية — Wikipedia (العربية)",
+        "url": "https://ar.wikipedia.org/wiki/جامعة_الدول_العربية"
+      },
+      {
+        "title": "Arab League — Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Arab_League"
+      },
+      {
+        "title": "Arab foreign ministers name Nabil Fahmy as Arab League chief — Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/arab-foreign-ministers-name-nabil-fahmy-arab-league-chief-2026-03-29/"
+      },
+      {
+        "title": "Arab League confirms Egyptian diplomat Nabil Fahmy as secretary general — Arab News",
+        "url": "https://www.arabnews.com/middle-east/arab-league-confirms-egyptian-diplomat-nabil-fahmy-as-secretary-general-2648183"
+      },
+      {
+        "title": "قمة القاهرة تعتمد الخطة المصرية لإعمار غزة وترفض التهجير — الجزيرة نت",
+        "url": "https://www.aljazeera.net/news/2025/3/4/عاجل-الرئيس-المصري-القمة-العربية"
+      },
+      {
+        "title": "بيان القاهرة الصادر عن القمة العربية غير العادية — رئاسة الجمهورية المصرية",
+        "url": "https://www.presidency.eg/ar/قسم-الأخبار/أخبار-رئاسية/news532025/"
+      }
+    ]
   }
 }

@@ -1,35 +1,323 @@
 {
   "org_id": "EG-NGO-010",
+  "wikidata_qid": null,
   "basic_info": {
-    "name_original": "Al Orman Association",
-    "name_zh": null,
+    "name_original": "جمعية الأورمان الخيرية",
+    "name_zh": "奥尔曼慈善协会",
     "name_en": "Al Orman Association",
-    "aliases": [],
+    "aliases": [
+      "جمعية الورمان",
+      "الأورمان",
+      "Orman Association",
+      "Orman Charity Association",
+      "Al Orman Charity Association",
+      "Dar Al Orman"
+    ],
     "org_type": "NGO",
     "org_subtype": "charity",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": null,
-    "website": null,
+    "founded_date": "1993-01-01",
+    "website": "https://www.dar-alorman.com/",
     "wikidata_qid": null
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
-  "profile": null,
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "OrmanCharityAssociation",
+      "url": "https://www.facebook.com/OrmanCharityAssociation/",
+      "source": 6,
+      "source_note": "官方主页名「Orman Association - جمعية الأورمان」，经搜索引擎结果与官网互证"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "ormancharityassociation",
+      "url": "https://www.instagram.com/ormancharityassociation/",
+      "source": 8,
+      "source_note": "官方Instagram账号，经搜索引擎结果确认"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "ormancharityassociation",
+      "url": "https://www.linkedin.com/company/ormancharityassociation",
+      "source": 17,
+      "source_note": "账号标识ormancharityassociation由协会官方LinkedIn帖文URL（ae.linkedin.com/posts/ormancharityassociation_…）确认；公司主页URL按LinkedIn标准格式补全"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "官网在线捐赠平台",
+      "url": "https://www.dar-alorman.com/Donate",
+      "description": "官网内置捐赠入口，按项目分项捐款（斋月食品箱、开斋饭、水井、孤儿抚养、心脏/眼科手术、冬季保暖等），并支持分期付款；另可通过Instapay、Orange Cash等移动支付捐款（官网新闻确认）",
+      "source": "https://www.dar-alorman.com/"
+    },
+    {
+      "name": "官方WhatsApp捐赠联络",
+      "url": "https://api.whatsapp.com/send?phone=201109922767",
+      "description": "官网首页嵌入的WhatsApp联络入口（号码+20 110 992 2767），用于捐赠咨询与对接",
+      "source": "https://www.dar-alorman.com/"
+    },
+    {
+      "name": "GlobalGiving国际捐赠页",
+      "url": "https://www.globalgiving.org/donate/100802/al-orman-association/",
+      "description": "国际众筹平台GlobalGiving上的官方捐赠页，注明协会1993年成立、在埃及社会团结部注册（注册号803）、最初以孤儿照护与人道援助起家",
+      "source": "https://www.globalgiving.org/donate/100802/al-orman-association/"
+    },
+    {
+      "name": "MegaKheir平台捐赠页",
+      "url": "https://www.megakheir.com/ramadan-causes/large-ramadan-box-with-orman-association",
+      "description": "埃及慈善捐赠聚合平台MegaKheir上的「大号斋月食品箱」捐赠页，列明箱内物资清单（米、面、糖、椰枣、豆类等）",
+      "source": "https://www.megakheir.com/ramadan-causes/large-ramadan-box-with-orman-association"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000334",
+      "name": "艾哈迈德·詹迪 (أحمد الجندي)",
+      "name_en": "Ahmed El-Gendy",
+      "title": "董事会主席 (رئيس مجلس الإدارة)",
+      "title_description": "协会最高治理职务，主持董事会并代表协会出席重大活动",
+      "description": "2024年1月以董事会主席身份主持协会第4届年度可持续发展大会（卢克索）开闭幕式；2025年6月接受《今日新闻》(Youm7)采访，阐述协会作为国家民间发展工作联盟成员支持总统「有尊严的生活」倡议。职务经协会官网、官方Facebook与独立媒体（Youm7）交叉确认。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000814",
+      "name": "曼杜赫·沙班 (ممدوح شعبان)",
+      "name_en": "Mamdouh Shaaban",
+      "title": "总干事 (مدير عام)",
+      "title_description": "协会日常运营行政负责人",
+      "description": "军衔少将（اللواء）；2026年2-3月斋月行动期间先后接受《共和国报》(Gomhuria Online)与Extra News电视台采访，介绍「开斋500万封斋者」行动目标及受助家庭遴选标准。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000815",
+      "name": "侯萨姆丁·卡巴尼 (حسام الدين القباني)",
+      "name_en": "Hossam El-Din El-Qabbani",
+      "title": "荣誉终身主席 (الرئيس الشرفي مدى الحياة)",
+      "title_description": "董事会成员兼荣誉终身主席",
+      "description": "工程师（مهندس）；长期领导协会发展。阿拉伯语维基百科信息框仍列其为董事会主席（疑为旧信息），协会官网2024年1月大会新闻确认其现职为董事会成员兼荣誉终身主席。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000816",
+      "name": "法蒂玛·萨卡 (فاطمة السقا)",
+      "name_en": "Fatma El-Saqqa",
+      "title": "董事会成员 (عضو مجلس الإدارة)",
+      "title_description": null,
+      "description": "以董事会成员身份在第4届年度可持续发展大会（2024年1月，卢克索）开幕式致辞（协会官网报道）。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000817",
+      "name": "艾哈迈德·阿米尔 (أحمد عامر)",
+      "name_en": "Ahmed Amer",
+      "title": "董事会成员 (عضو مجلس الإدارة)",
+      "title_description": null,
+      "description": "协会官网2024年1月大会新闻与官方Facebook2025年1月帖文均确认为董事会成员。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000818",
+      "name": "哈桑·塞姆巴维 (حسن السنباوي)",
+      "name_en": "Hassan El-Senbawy",
+      "title": "董事会成员 (عضو مجلس الإدارة)",
+      "title_description": null,
+      "description": "在第4届年度可持续发展大会开幕式致辞（协会官网2024年1月报道）。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000819",
+      "name": "玛迪哈·泽纳提 (مديحة زناتي)",
+      "name_en": "Madiha Zenati",
+      "title": "董事会成员 (عضو مجلس الإدارة)",
+      "title_description": null,
+      "description": "官方Facebook2025年1月26日帖文以「董事会主席艾哈迈德·詹迪及成员艾哈迈德·阿米尔、玛迪哈·泽纳提」名义向合作伙伴与赞助商致谢。译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000820",
+      "name": "马哈茂德·福阿德 (محمود فؤاد)",
+      "name_en": "Mahmoud Fouad",
+      "title": "希法奥尔曼基金会首席执行官 (الرئيس التنفيذي لمؤسسة شفاء الأورمان)",
+      "title_description": "协会旗下上埃及癌症医疗板块「希法奥尔曼基金会」行政负责人",
+      "description": "据协会官方LinkedIn帖文（2026年9月），以基金会首席执行官身份出席医疗关怀活动。注意：与ID索引中的「马哈茂德·福阿德·阿卜杜勒-贾瓦德」(EG-PERSON-000112)非同一人。译名为音译。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-NGO-010-DEPT-001",
+      "name": "孤儿照护部 (دور رعاية الأيتام)",
+      "head": null,
+      "description": "管理6所孤儿院（含残障孤儿院），并推行「替代家庭」养育模式；年度「孤儿日」活动面向社会呼吁关注孤儿",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-002",
+      "name": "癌症患者接待部 (دور ضيافة مرضى الأورام)",
+      "head": null,
+      "description": "为来自全国各地、在开罗国家肿瘤研究所接受治疗的患者及陪护家属提供治疗期间全程免费食宿接待",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-003",
+      "name": "斋月食品援助部 (كرتونة رمضان / حملة إفطار الصائمين)",
+      "head": null,
+      "description": "年度旗舰业务：分装并分发「斋月食品箱」（2026年起分大/中/小三档）及开斋饭；2026年行动「开斋500万封斋者」覆盖21个省，目标分发约80万箱食品（行动目标口径）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-004",
+      "name": "经济赋能与持续慈善部 (الصدقة الجارية / التمكين الاقتصادي)",
+      "head": null,
+      "description": "向寡母、患者、残障人士等困难家庭户主发放小微生产性项目（摊位、牲畜、工业股份等）并跟踪运营成效；另与「有尊严的生活」倡议(حياة كريمة)签署合作协议，在卡夫拉谢赫、米努夫、艾斯尤特、明亚、卢克索、贝尼苏韦夫等省发放小微项目",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-005",
+      "name": "医疗援助部 (المساعدات الطبية والقوافل العلاجية)",
+      "head": null,
+      "description": "假肢与辅助器具配发、孤儿先天性心脏病与眼科手术、早产儿保温箱捐置、药品援助；常态组织综合医疗车队（官网月度通报：每月约64支车队覆盖15省）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-006",
+      "name": "乡村综合发展部 (مشروع مؤسسة لكل قرية)",
+      "head": null,
+      "description": "联合私营部门对贫困村实施综合发展：成人扫盲、医疗队、清洁供水接入、电力接入、危房修缮与家居配置等",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-007",
+      "name": "宰牲节献牲部 (الأضاحي)",
+      "head": null,
+      "description": "宰牲节期间在全国各省及海外（巴西）屠宰场按伊斯兰教法屠宰、兽医检验、分割包装并向受助家庭分发献牲肉品",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-010-DEPT-008",
+      "name": "希法奥尔曼癌症医院 (مستشفى شفاء الأورمان)",
+      "head": null,
+      "description": "位于卢克索/上埃及的大型肿瘤专科医院板块（成人院区与儿童院区），2016年5月27日启用，服务上埃及6省患者；由协会旗下「希法奥尔曼基金会」运营（首席执行官马哈茂德·福阿德）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-02-08",
+      "title": "启动2026年斋月「开斋500万封斋者」大型行动",
+      "description": "协会在21个省启动2026年斋月行动「开斋500万封斋者」(إفطار 5 ملايين صائم)，面向最贫困家庭分发开斋饭与「斋月食品箱」（分为三档以便捐赠者参与）。总干事曼杜赫·沙班少将向《共和国报》表示，行动旨在为受助家庭带去欢乐、减轻其斋月负担。",
+      "impact": "为埃及规模最大的民间斋月食品援助行动之一；与国家民间发展工作联盟的社会保护部署相衔接（依据：行动在国家民间发展工作联盟框架及社会团结部监管下开展，见后续报道）。",
+      "source": "https://algomhuria.gomhuriaonline.com/219476/"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Al-Hayat电视台报道行动规模：开斋500万人、分发80万箱食品",
+      "description": "埃及Al-Hayat卫视「今日生活」节目报道奥尔曼协会2026年斋月行动，称其目标为开斋500万封斋者并向最贫困家庭分发80万箱食品物资。",
+      "impact": "独立媒体口径佐证行动规模；「500万/80万箱」为行动目标（计划口径），非最终核实受益数。",
+      "source": "https://www.youtube.com/watch?v=9qWiKmoEk0Y"
+    },
+    {
+      "date": "2026-03-02",
+      "title": "斋月分发进展：三省覆盖2750户、四省单日开斋2.4万人",
+      "description": "据《今日新闻》(Youm7)报道，协会作为国家民间发展工作联盟成员持续执行斋月分发：索哈杰省850户、明亚省950户、艾斯尤特省950户获得食品箱；法尤姆、亚历山大、代盖赫利耶、吉萨四省单日分发开斋饭2.4万份，志愿者60人参与执行。",
+      "impact": "体现行动的全国覆盖广度与志愿者动员机制（依据：Youm7实地报道）。",
+      "source": "https://www.youm7.com/story/2026/3/2/جمعية-الأورمان-تعزز-جهود-الحماية-الاجتماعية-بتوزيع-كراتين-الغذاء-ووجبات/7325457"
+    },
+    {
+      "date": "2026-01-26",
+      "title": "卡夫拉谢赫分部备战斋月：分装3.5万箱食品",
+      "description": "协会卡夫拉谢赫省分部于斋月开始前完成3.5万箱食品的分装备货。同期各省份支部分别备货：明亚省4万箱（Elwatannews报道）、米努夫省3万箱（Elwatannews与Ahram Gate报道）。",
+      "impact": "显示协会在多省设有分支仓储与分装能力，斋月行动具备省域物流体系（依据：Youm7及各省媒体报道）。",
+      "source": "https://www.youm7.com/story/2026/1/26/تجهيز-35-ألف-كرتونة-مواد-غذائية-بكفر-الشيخ-لتوزيعها-على-المستحقين-في-رمضان/7282874"
+    },
+    {
+      "date": "2025-06-22",
+      "title": "支持总统「有尊严的生活」倡议住房项目并深化政府合作",
+      "description": "董事会主席艾哈迈德·詹迪向《今日新闻》表示，协会作为国家民间发展工作联盟成员，在总统「有尊严的生活」(حياة كريمة)倡议框架下支持其住房分项「有尊严的住房」(سكن كريم)，称该倡议是最重要的国家发展倡议之一。",
+      "impact": "体现协会与政府旗舰民生倡议及国家民间组织联盟体系的制度化合作（依据：Youm7采访报道）。",
+      "source": "https://www.youm7.com/story/2025/6/22/الأورمان-مبادرة-حياة-كريمة-واحدة-من-أهم-المبادرات-التنموية/7029850"
+    },
+    {
+      "date": "2026-04-15",
+      "title": "获「百万餐」类别第一名",
+      "description": "协会官方Facebook视频宣布在相关评选中获得「百万餐」(المليون وجبة)类别第一名；该视频由协会官方账号发布并获支持者留言祝贺。具体评选主体名称有待进一步核实。",
+      "impact": "反映其大规模供餐能力获得外部认可（依据：协会官方Facebook视频帖，单一来源，评选主体未核实）。",
+      "source": "https://www.facebook.com/OrmanCharityAssociation/videos/931251059544005/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-021",
+      "org_name": "埃及社会团结部 (وزارة التضامن الاجتماعي)",
+      "org_type": "GOV",
+      "org_description": "埃及主管民间组织登记与监管的部委；奥尔曼协会在其处登记（注册号803），斋月行动在社会团结部监管下开展",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "国家民间发展工作联盟 (التحالف الوطني للعمل الأهلي التنموي)",
+      "org_type": "NGO",
+      "org_description": "埃及主要民间发展组织组成的全国联盟（由各地主要NGO与基金会组成）；奥尔曼协会为其成员，斋月行动与对加沙人道援助均在联盟框架下开展",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "有尊严的生活倡议 (حياة كريمة)",
+      "org_type": "NGO",
+      "org_description": "埃及总统牵头的国家民生倡议；与协会签署多省合作协议发放小微项目与摊位，协会并支持其住房分项「有尊严的住房」",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "希法奥尔曼基金会 (مؤسسة شفاء الأورمان)",
+      "org_type": "NGO",
+      "org_description": "运营上埃及「希法奥尔曼」癌症医院（卢克索，2016年5月启用，服务6省）的协会关联基金会，首席执行官为马哈茂德·福阿德",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "奥尔曼慈善协会（جمعية الأورمان الخيرية）是埃及规模最大的民间食品援助与综合慈善组织之一，1993年成立于开罗，在埃及社会团结部登记（注册号803），定位为不区分宗教与政治背景、面向全体埃及困难人群的非政府慈善组织，经费几乎完全依赖埃及民众的现金与实物捐赠。核心业务体系：（1）斋月食品援助——年度旗舰「斋月食品箱」（كرتونة رمضان，2026年起分三档）与「开斋500万封斋者」行动，2026年行动覆盖21个省、目标分发约80万箱食品并开斋500万封斋者（行动目标口径），各省份分支（卡夫拉谢赫3.5万箱、明亚4万箱、米努夫3万箱等）承担分装与配送；（2）宰牲节献牲——全国各省及巴西屠宰场按教法屠宰、检验并分发肉品；（3）孤儿照护——6所孤儿院（含残障儿童）与「替代家庭」模式；（4）癌症患者支持——为开罗国家肿瘤研究所外地患者提供免费食宿接待，并运营上埃及「希法奥尔曼」癌症医院（成人及儿童院区，2016年5月启用，覆盖6省）；（5）经济赋能——向困难家庭户主发放小微生产项目（摊位、牲畜、工业股份等）并跟进，与「有尊严的生活」倡议及私营企业合作实施；（6）医疗援助——假肢、孤儿先心病与眼科手术、早产保温箱、月均约64支医疗车队覆盖15省；（7）乡村综合发展——「村村有机构」项目下的扫盲、供水、供电、危房修缮。协会为国家民间发展工作联盟成员，并自2024年起每年1月在卢克索主办年度可持续发展大会（多政府部门与企业赞助方与会）。",
+  "industries": [
+    "nonprofit",
+    "humanitarian_aid",
+    "social_services",
+    "healthcare",
+    "education"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/ar/f/f0/Dar-alorman.png",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media",
       "web_search"
     ],
-    "completeness_score": 8,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data; errors: ['no_cache_file']"
+    "completeness_score": 95,
+    "notes": "无Wikidata QID（L3降级路径）。成立年份：阿语维基百科、Marefa与GlobalGiving一致记载为1993年（任务简报所提1997年未见来源支持，按实际来源记为1993-01-01）。官网为dar-alorman.com（阿语维基百科信息框及站内互证；orman-eg.org未获证实）。受益人数均为行动目标或单日/单次分发口径，已在对应字段注明。「百万餐」第一名评选主体仅单一来源（协会官方Facebook），待核实。X/Twitter、YouTube、TikTok账号未经确认，未收录。总请求约12次以内；en.wikipedia直接访问超时，未使用英语维基内容。",
+    "quotes": [
+      {
+        "title": "جمعية الأورمان الخيرية - ويكيبيديا（阿语维基百科）",
+        "url": "https://ar.wikipedia.org/wiki/جمعية_الأورمان_الخيرية"
+      },
+      {
+        "title": "جمعية الأورمان - الموقع الرسمي（协会官网首页）",
+        "url": "https://www.dar-alorman.com/"
+      },
+      {
+        "title": "جمعية الأورمان تعزز جهود الحماية الاجتماعية... - اليوم السابع（Youm7 2026-03-02）",
+        "url": "https://www.youm7.com/story/2026/3/2/جمعية-الأورمان-تعزز-جهود-الحماية-الاجتماعية-بتوزيع-كراتين-الغذاء-ووجبات/7325457"
+      },
+      {
+        "title": "الأورمان تطلق حملة «إفطار 5 ملايين صائم» - جومهورية أونلاين（2026-02-08）",
+        "url": "https://algomhuria.gomhuriaonline.com/219476/"
+      },
+      {
+        "title": "Donate to Al orman Association - GlobalGiving",
+        "url": "https://www.globalgiving.org/donate/100802/al-orman-association/"
+      },
+      {
+        "title": "«الأورمان» تطرح 3 فئات من كراتين المواد الغذائية - جومهورية أونلاين（2026-01-24）",
+        "url": "https://algomhuria.gomhuriaonline.com/213988/"
+      }
+    ]
   }
 }

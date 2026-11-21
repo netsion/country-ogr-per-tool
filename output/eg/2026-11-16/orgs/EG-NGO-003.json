@@ -1,10 +1,12 @@
 {
   "org_id": "EG-NGO-003",
   "basic_info": {
-    "name_original": "Egyptian Food Bank",
-    "name_zh": null,
+    "name_original": "بنك الطعام المصري",
+    "name_zh": "埃及粮食银行",
     "name_en": "Egyptian Food Bank",
-    "aliases": [],
+    "aliases": [
+      "EFB"
+    ],
     "org_type": "NGO",
     "org_subtype": "charity",
     "country_iso3": "EGY",
@@ -15,46 +17,326 @@
   },
   "social_accounts": [
     {
+      "platform": "facebook",
+      "account_name": "EgyFoodBank",
+      "url": "https://www.facebook.com/EgyFoodBank/",
+      "source": 6,
+      "source_note": "官方Facebook页面，2026-11检索确认（粉丝约146万）"
+    },
+    {
       "platform": "twitter",
       "account_name": "EgyFoodBank",
       "url": "https://twitter.com/EgyFoodBank",
       "source": 3,
-      "source_note": "wikidata"
-    },
-    {
-      "platform": "facebook",
-      "account_name": "EgyFoodBank",
-      "url": "https://facebook.com/EgyFoodBank",
-      "source": 6,
-      "source_note": "wikidata"
+      "source_note": "phase2骨架自Wikidata继承，本阶段未直接复核"
     },
     {
       "platform": "youtube",
       "account_name": "UCUA5OPsU_aGGN-RV8g1aEqQ",
       "url": "https://youtube.com/channel/UCUA5OPsU_aGGN-RV8g1aEqQ",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "phase2骨架自Wikidata继承；本阶段检索到EFB官方视频内容佐证其YouTube运营"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "egyptian-food-bank",
+      "url": "https://www.linkedin.com/company/egyptian-food-bank",
+      "source": 17,
+      "source_note": "LinkedIn检索确认：Non-profit Organization Management行业"
+    },
+    {
+      "platform": "tiktok",
+      "account_name": "@egyfoodbank",
+      "url": "https://www.tiktok.com/@egyfoodbank",
+      "source": 29,
+      "source_note": "TikTok检索确认（Egyptian Food Bank @egyfoodbank）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "nonprofit"
+  "digital_assets": [
+    {
+      "name": "官网在线捐赠平台",
+      "url": "https://www.efb.eg/",
+      "description": "支持天课（Zakat）、施舍（Sadaqah）在线捐赠，设紧急议题专页（如加沙紧急救援行动）、宰牲分期付款（تقسيط صك الأضحية البلدى）等捐赠通道，阿英双语界面。",
+      "source": "https://www.efb.eg/"
+    },
+    {
+      "name": "人类之环（Circle of Humanity）会员捐赠计划",
+      "url": "https://api-coh.efb.eg/",
+      "description": "EFB的会员制捐赠与积分计划：个人或团体组建「捐赠圈」（دائرة العطاء）组队筹款、赚取积分并追踪公益影响力，官网首页与CEO视频均有推广（2026年3月官方视频播放量超120万）。",
+      "source": "https://www.efb.eg/"
+    },
+    {
+      "name": "GlobalGiving国际众筹项目页",
+      "url": "https://www.globalgiving.org/donate/77553/egyptian-food-bank/",
+      "description": "EFB在GlobalGiving平台设有9个项目（含2026年宰牲项目Odheya 2026、按月供餐计划Monthly Feeding Program），2026年11月仍有项目报告更新，面向国际捐赠人募资。",
+      "source": "https://www.globalgiving.org/donate/77553/egyptian-food-bank/"
+    }
   ],
-  "apec_stance": null,
-  "profile": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000214",
+      "name": "尼亚齐·萨拉姆 (نيازي سلام)",
+      "title": "董事长 (رئيس مجلس الإدارة)",
+      "title_description": "董事会主席，机构创始人",
+      "description": "EFB创始人，阿拉伯语维基百科将其列为机构缔造者（2006年前后由一组企业家朋友共同发起，初始捐款约800万埃镑）；现任官网公示的董事会主席。"
+    },
+    {
+      "person_id": "EG-PERSON-000803",
+      "name": "穆赫辛·萨尔汉 (محسن سرحان)",
+      "title": "首席执行官 (الرئيس التنفيذي)",
+      "title_description": "机构最高执行官",
+      "description": "2020年10月已以CEO身份出镜，至2026年4月仍在任；多次代表EFB接受路透阿拉伯语频道、阿拉伯财经等媒体专访，主导对加沙救援的协调并在加沙人道援助上多次公开表态。"
+    },
+    {
+      "person_id": "EG-PERSON-000804",
+      "name": "穆罕默德·纳希利 (محمد النخيلي)",
+      "title": "首席数字创新官",
+      "title_description": "主管数字化转型与创新",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000805",
+      "name": "艾哈迈德·拉比卜 (أحمد لبيب)",
+      "title": "首席现场运营官",
+      "title_description": "主管外勤与现场行动",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000806",
+      "name": "易卜拉欣·沙欣 (ابراهيم شاهين)",
+      "title": "首席供应链官",
+      "title_description": "主管采购与供应链",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000807",
+      "name": "阿加里德·阿明（音译） (أغاريد أمين)",
+      "title": "首席营销官",
+      "title_description": "主管品牌与营销",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000808",
+      "name": "穆罕默德·阿提夫 (محمد عاطف)",
+      "title": "首席财务官",
+      "title_description": "主管财务",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000809",
+      "name": "奈哈德·法希姆（音译） (نهاد فهيم)",
+      "title": "首席人力资源官",
+      "title_description": "主管人力资源",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000810",
+      "name": "沙伊马·纳比勒（音译） (شيماء نبيل)",
+      "title": "首席对外关系官",
+      "title_description": "主管对外关系与合作",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000811",
+      "name": "穆罕默德·沙兹利 (محمد الشاذلي)",
+      "title": "首席客户服务卓越官",
+      "title_description": "主管客户服务质量",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    },
+    {
+      "person_id": "EG-PERSON-000812",
+      "name": "巴哈·里迪（音译） (بهاء الريدي)",
+      "title": "首席技术顾问官",
+      "title_description": "主管技术咨询",
+      "description": "官网「认识我们的团队」栏目公示的高管。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-NGO-003-DEPT-001",
+      "name": "直接粮食援助项目 (المساعدات الغذائية المباشرة)",
+      "head": null,
+      "description": "面向无力谋生家庭的按月粮食援助：登记约10万户家庭（约60万人口）每月获得食品包或电子购物码；斋月期间扩大到约100万份食品包发放。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-002",
+      "name": "母婴营养与「一千日」项目 (برنامج الألف يوم)",
+      "head": null,
+      "description": "自孕期至幼儿两岁的全程营养干预：孕期营养宣教与跟踪、产后母婴营养随访与医学检查，应对约20%埃及儿童面临的发育迟缓（stunting）问题。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-003",
+      "name": "学校供餐项目 (برنامج التغذية المدرسية)",
+      "head": null,
+      "description": "与埃及教育部签署合作协议，为贫困和偏远地区学校提供营养餐：每天约7万份热餐，已持续约10年；另为托儿所儿童提供营养支持。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-004",
+      "name": "Free Mart慈善超市 (فري مارت)",
+      "head": null,
+      "description": "中东首家慈善超市网络，门店约220家遍布埃及各省：合资格家庭凭电子码自主选购食品，以「体面选购」替代统一礼包发放。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-005",
+      "name": "经济赋能板块 (قطاع التمكين)",
+      "head": null,
+      "description": "将数千小农户与乡村生产者纳入EFB供应链：提供技术支持、农艺指导与灌溉改造并采购其农产品（年均食品采购逾20亿埃镑，计划70%转向小农）；经营新河谷省鱼类养殖场、明亚省枣园与育牛场、贝赫拉省约3000头奶牛的乳业农场等可持续资产，并组织乡村妇女养鸡回收。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-006",
+      "name": "救济与移民事务部 (إدارة شئون الإغاثة والوافدين)",
+      "head": null,
+      "description": "负责跨境与在埃外籍人群粮食救援：向加沙运送援助（截至2025年3月的一年半内677卡车、15420吨基本物资）、在北西奈设中央厨房每日供餐、援助在埃苏丹难民及爱资哈尔非洲与亚洲留学生。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-007",
+      "name": "食品工厂与营养研究板块 (معامل بنك الطعام)",
+      "head": null,
+      "description": "设营养研究实验室，由拥有美国食品政策博士学位的专家穆罕默德·克尔马尼（محمد الكرماني，音译）领衔；研发全谷物强化微量营养素儿童食品（现覆盖约4万名儿童），并为约3万名儿童提供自建厨房烹制的肉、米、蔬果热餐。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-003-DEPT-008",
+      "name": "穆赫鲁萨济贫厨房 (تكية المحروسة)",
+      "head": null,
+      "description": "流动济贫厨房项目，赴开罗Qasr El-Aini医院、埃及儿童医院等场所及社区配送热餐；2026年斋月与美国食品公司Americana合作供餐逾1.4万份。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-03-20",
+      "title": "CEO专访披露运营规模与战略转型",
+      "description": "阿拉伯财经（Arabfinance）刊发对CEO穆赫辛·萨尔汉的专访：直接粮食援助登记约10万户家庭（约60万人）按月受助；Free Mart门店达220家；学校供餐每天7万份热餐、已持续10年；「一千日」母婴项目应对约20%儿童发育迟缓问题；过去一年半向加沙运送677卡车共15420吨物资并在北西奈设厨房；FAO约半年前委托EFB牵头阿拉伯地区粮食安全公民社会磋商并在约旦FAO年会提交联合工作文件。",
+      "impact": "EFB从纯救济型慈善向「救济+赋能」双轨转型，年均食品采购超20亿埃镑且计划70%转向小农采购；FAO的制度化委托提升其在阿拉伯公民社会粮食议题中的枢纽地位。",
+      "source": "https://www.arabfinance.com/ar/news/newdetails/محسن-سرحان-الرئيس-التنفيذي-لبنك-الطعام-المصري:-نسعى-لمكافحة-التقزم-وسوء-التغذية-لدى-الأطفال-المصريين"
+    },
+    {
+      "date": "2026-02-18",
+      "title": "两天内向加沙送达41辆卡车援助物资",
+      "description": "据埃及TeNT电视台官方账号发布的视频，CEO穆赫辛·萨尔汉介绍EFB在两天内完成41辆卡车援助物资向加沙的运送，并说明与有关各方的协调执行机制（单一大规模快速运送，与加沙停火后人道通道扩大背景相符）。",
+      "impact": "展示EFB在加沙人道救援走廊中的快速动员与跨境物流执行能力（注：此条为单一来源，系电视台官方账号发布）。",
+      "source": "https://www.facebook.com/TeNTVEG/videos/في-يومين-فقط-بنك-الطعام-المصري-قدر-إنه-ينجح-في-توصيل-41-ناقلة-مساعدات-إلى-غزة/779302978032832/"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "与联合利华达成斋月公益新合作",
+      "description": "据Daily News Egypt报道，联合利华（Unilever）通过与EFB的新合作扩大斋月公益覆盖，围绕「Knorr 7aletha」活动为弱势家庭提供斋月餐食支持。",
+      "impact": "国际快消巨头借EFB渠道执行斋月CSR，印证EFB作为埃及公益物资分发首选平台的行业地位。",
+      "source": "https://dailynewsegypt.com/2026/03/04/unilever-expands-ramadan-outreach-through-new-partnership-with-egyptian-food-bank-for-knorr-7aletha/"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "「Free Mart」慈善超市模式推广",
+      "description": "EFB官方Facebook介绍其「Free Mart」（فري مارت）为中东首家慈善超市：面向合资格家庭提供食品自主选购权，以「体面选购」替代统一礼包发放；结合CEO专访披露，该网络门店已达约220家。",
+      "impact": "援助模式创新兼顾受益人尊严与分配效率，成为EFB旗舰项目与品牌资产。",
+      "source": "https://www.facebook.com/EgyFoodBank/posts/من-داخل-فروع-بنك-الطعام-المصري-يتسلّم-المتبرعون-نصيبهم-الشرعي-من-الأضاحي-في-أجوا/1332847532317716/"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "达飞集团基金会深化在埃食品分发合作",
+      "description": "达飞集团（CMA CGM）基金会官方账号发布：其埃及团队与EFB建立紧密伙伴关系，聚焦改善埃及逾1亿人口的食品获取；基金会企业志愿者近期在埃及参与食品分发活动。",
+      "impact": "国际航运物流集团资本与志愿服务进入EFB分发网络，强化其仓储物流与大规模分发能力。",
+      "source": "https://www.facebook.com/FondationCMACGM/posts/committed-to-support-local-communities-in-egypt-last-week-15-cma-cgm-group-offic/1583834097123853/"
+    },
+    {
+      "date": "2026-11-03",
+      "title": "获Talabat「Tech 4 Good」2026年度奖项",
+      "description": "EFB官方Instagram宣布获得外卖平台Talabat颁发的2026年「Tech 4 Good」奖项，并被Talabat列为战略合作伙伴；EFB对外关系负责人拉德瓦·海里（Radwa Khairy，音译）参与相关活动。",
+      "impact": "反映EFB在数字化公益筹款与科技企业合作方面获得行业认可，有助于扩大年轻捐赠群体。",
+      "source": "https://www.instagram.com/p/DfSSFTLjahr/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "埃及治愈银行 (بنك الشفاء المصري)",
+      "org_type": "NGO",
+      "org_description": "2011年按EFB模式衍生设立的慈善机构，为贫困病患提供药品与医疗用品。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及衣物银行 (بنك الكساء المصري)",
+      "org_type": "NGO",
+      "org_description": "2012年按EFB模式设立的慈善机构，向全国各地困难家庭提供衣物。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "联合国粮食及农业组织 (منظمة الأغذية والزراعة)",
+      "org_type": "INTL",
+      "org_description": "联合国粮农机构。与EFB保持长期合作：2025年FAO委托EFB牵头阿拉伯地区粮食安全公民社会磋商；FAO近东及北非区域代表阿卜杜勒-哈基姆·瓦埃尔在EFB官网证实双方在营养宣教、小农技术支持等领域的合作。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "区域食品银行网络 (بنك الطعام الإقليمي)",
+      "org_type": "INTL",
+      "org_description": "阿拉伯/中东区域食品银行协作网络。阿拉伯语维基百科信息框将EFB的成员身份列为「区域食品银行」。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "EG-GOV-011",
+      "org_name": "埃及教育部 (وزارة التربية والتعليم)",
+      "org_type": "GOV",
+      "org_description": "埃及主管中小学教育的政府部门。与EFA签有供餐合作协议：EFB为贫困与偏远地区学校每天提供约7万份营养热餐；CEO并于2025年3月与教育部长会晤商讨扩大学校供餐计划。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "埃及粮食银行（EFB）是埃及首家专注于粮食安全的非政府发展组织，宗旨是向无力谋生人群提供安全、营养的食品并消除饥饿，工作对齐联合国可持续发展目标（SDG2「零饥饿」）。业务覆盖埃及全部27个省约2500个村庄，累计帮助逾600万户家庭，登记捐赠人超200万。核心业务包括：(1)直接粮食援助：按月向约10万户（约60万人）发放食品；(2)斋月大规模供餐：斋月期间分发约100万份食品包；(3)母婴营养：「一千日」项目从孕期到幼儿两岁全程营养干预，应对约20%埃及儿童的发育迟缓问题；(4)学校供餐：每天为7万名儿童提供热餐，已持续约10年；(5)Free Mart慈善超市：中东首家慈善超市网络，约220家门店，受益家庭凭电子码自主选购；(6)经济赋能：与数千小农户和乡村妇女合作纳入供应链并采购其产品，年均食品采购超20亿埃镑，经营鱼场、枣园、奶牛场等可持续资产反哺公益；(7)救济与移民事务：向加沙运送物资（一年半677卡车、15420吨），在北西奈设厨房，援助在埃苏丹难民及爱资哈尔外籍学生；(8)济贫厨房「穆赫鲁萨」为医院等场所供餐。资金以天课（Zakat）与公众捐赠为主，设「知情权」（RTK）公开页强调透明问责。",
+  "industries": [
+    "nonprofit",
+    "humanitarian_aid",
+    "social_services",
+    "agriculture_food"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。就本组织而言，埃及粮食银行的跨国合作集中于联合国可持续发展目标（SDG2）框架下与联合国粮农组织（FAO）的合作及其参与的阿拉伯地区食品银行区域网络，与APEC机制无关联。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/ar/1/15/Egyptian_Food_Bank.jpg",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
-      "official_website"
+      "wikipedia",
+      "official_website",
+      "news_search",
+      "web_search",
+      "social_media",
+      "wikidata"
     ],
-    "completeness_score": 19,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data; errors: [\"Wikipedia returned disambiguation or no data for 'Egyptian Food Bank'\"]"
-  }
+    "completeness_score": 100,
+    "quotes": [
+      {
+        "title": "بنك الطعام المصري — ويكيبيديا العربية（阿语维基百科条目）",
+        "url": "https://ar.wikipedia.org/wiki/%D8%A8%D9%86%D9%83_%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A"
+      },
+      {
+        "title": "نبذة عن بنك الطعام المصري — 官网About页（高管名单与创立表述）",
+        "url": "https://www.efb.eg/ar/about-us"
+      },
+      {
+        "title": "محسن سرحان الرئيس التنفيذي لبنك الطعام المصري — آراب فاينانس CEO专访（2025-03-20）",
+        "url": "https://www.arabfinance.com/ar/news/newdetails/محسن-سرحان-الرئيس-التنفيذي-لبنك-الطعام-المصري:-نسعى-لمكافحة-التقزم-وسوء-التغذية-لدى-الأطفال-المصريين"
+      },
+      {
+        "title": "Unilever expands Ramadan outreach through new partnership with Egyptian Food Bank — Daily News Egypt（2026-03-04）",
+        "url": "https://dailynewsegypt.com/2026/03/04/unilever-expands-ramadan-outreach-through-new-partnership-with-egyptian-food-bank-for-knorr-7aletha/"
+      },
+      {
+        "title": "الموقع الرسمي لبنك الطعام المصري — 官网首页（影响力数据与项目体系）",
+        "url": "https://www.efb.eg/"
+      }
+    ],
+    "notes": "1) 创立年份存在多源分歧：官网About页称成立于2004年、官网首页称「服务社会20年」，阿语维基百科与Wikidata缓存均为2006年，任务简报称2005年；本画像采用双源一致的2006年（founded_date=2006-01-01），分歧如实记录。2) 任务简报提及「穆赫塔尔·阿卜杜勒-拉提夫曾任EFB董事长」，经定向检索（مختار عبد اللطيف بنك الطعام المصري رئيس مجلس الإدارة）未能核实其与EFB的职务关联，官网现任董事长为尼亚齐·萨拉姆（创始人），故未将此人列入key_people，未与EG-PERSON-000151（AOI前董事长）做同人认定。3) en.wikipedia.org 本会话被代理拦截（502），英语维基未采到。4) CEO穆赫辛·萨尔汉（2020年至今）与董事长尼亚齐·萨拉姆经官网+阿语新闻双源确认。5) 受益人口径：官网「600万+家庭」「200万+捐赠人」为累计口径；月度受助为约10万户/60万人（CEO专访）。"
+  },
+  "wikidata_qid": "Q16125206"
 }

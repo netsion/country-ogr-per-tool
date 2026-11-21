@@ -1,39 +1,238 @@
 {
   "org_id": "EG-NGO-006",
   "basic_info": {
-    "name_original": "Egyptian Center for Economic and Social Rights",
-    "name_zh": null,
+    "name_original": "المركز المصري للحقوق الاقتصادية والاجتماعية",
+    "name_zh": "埃及经济与社会权利中心",
     "name_en": "Egyptian Center for Economic and Social Rights",
-    "aliases": [],
+    "aliases": [
+      "ECESR",
+      "Egyptian Centre for Economic and Social Rights"
+    ],
     "org_type": "NGO",
     "org_subtype": "advocacy_group",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": null,
+    "founded_date": "2009-01-01",
     "website": "https://ecesr.org/",
     "wikidata_qid": "Q19678224"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "nonprofit"
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "ecesr",
+      "url": "https://www.facebook.com/ecesr",
+      "source": 6,
+      "source_note": "官网英文页页脚社交媒体链接 (ecesr.org/en)"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "ecesr",
+      "url": "https://twitter.com/ecesr",
+      "source": 3,
+      "source_note": "官网英文页页脚链接；X平台账号@ecesr经搜索确认"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "ecesrorg",
+      "url": "https://www.instagram.com/ecesrorg/",
+      "source": 8,
+      "source_note": "官网英文页页脚社交媒体链接 (ecesr.org/en)"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "ecesr",
+      "url": "https://www.linkedin.com/company/ecesr/",
+      "source": 17,
+      "source_note": "官网英文页页脚链接；LinkedIn公司主页经搜索确认"
+    }
   ],
-  "apec_stance": null,
-  "profile": null,
+  "digital_assets": [
+    {
+      "name": "研究出版物库（Our Publications）",
+      "url": "https://ecesr.org/en/our-publications/",
+      "description": "中心报告、特别报告与研究合集，含工资指数工具、税收正义研究、社会保障研究等；官网称2009年以来全部出版物（含PDF全文）均可站内检索。",
+      "source": "official_website"
+    },
+    {
+      "name": "法律文库（Legal Library）",
+      "url": "https://ecesr.org/en/legal-library/",
+      "description": "收录中心代理案件的判决与法律备忘录全文。",
+      "source": "official_website"
+    },
+    {
+      "name": "诉讼行动库（Legal Action）",
+      "url": "https://ecesr.org/en/legal-action/",
+      "description": "收录法案意见书、投诉与请愿、胜诉判决等法律行动记录。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000326",
+      "name": "哈立德·阿里 (خالد علي)",
+      "title": "创始人",
+      "title_description": "律师、劳工权益活动家；Ahram Online english.ahram.org.eg; JSTOR jstor.org/stable/48633116",
+      "description": "2009年创立ECESR（Ahram Online候选人专页与JSTOR论文两独立来源一致）。此前2007-2009年任希沙姆·穆巴拉克法律中心（HMLC）执行总监（Ahram Online）；2012年以劳工权益旗手身份参加埃及总统选举（Ahram Online选举候选人专页）。官网至今刊有其署名文章。"
+    },
+    {
+      "person_id": "EG-PERSON-000813",
+      "name": "纳迪姆·曼苏尔（音译） (نديم منصور)",
+      "title": "执行总监（2015年时任）",
+      "title_description": null,
+      "description": "Mada Masr 2015年4月28日报道中时任ECESR执行总监，谈埃及劳工运动面临的挑战；现任负责人未获多来源确认，暂不认定其在任。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-NGO-006-DEPT-001",
+      "name": "经济政策条线",
+      "head": null,
+      "description": "覆盖贸易与投资、预算与透明度、税收正义、债务与国际金融机构、私有化五个子议题（官网英文页导航）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-006-DEPT-002",
+      "name": "社会权利条线",
+      "head": null,
+      "description": "覆盖教育、住房（居住权）、健康、环境正义、劳工与工会五个子议题，其中劳工与工会类目条目量最大（126条，官网统计）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-006-DEPT-003",
+      "name": "刑事司法条线",
+      "head": null,
+      "description": "关注刑事司法程序保障；2026年9月30日曾发声明欢迎推迟《刑事程序法》实施以重新讨论公平审判保障（官网声明栏）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-006-DEPT-004",
+      "name": "法律部（诉讼代理）",
+      "head": null,
+      "description": "直接受理并代理劳动争议等诉讼：官网劳工类目载明私营部门工人通过中心法律部（Legal Unit）提交投诉；2025-2026年多起胜诉判决均由其代理。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-12",
+      "title": "ECESR就「保险解雇金」停发发出警告：威胁工人权利与家庭生计",
+      "description": "中心收到多起工人投诉后发表声明，警告雇主暂停支付「保险解雇金」（الفصل التأميني）的做法威胁工人权益及其家庭生计（官网阿语首页声明栏）。",
+      "impact": "延续该中心「个案投诉+公开施压」维护劳工社保权益的一贯策略；此为基于官网公开声明的分析判断。",
+      "source": "https://ecesr.org/"
+    },
+    {
+      "date": "2026-11-08",
+      "title": "COP31前ECESR要求停止「气候商品化」并让历史污染者担责",
+      "description": "在COP31气候峰会召开前，中心发表声明，要求追究历史污染者责任并减免全球南方债务（官网阿语首页声明栏）。",
+      "impact": "显示其将经济社权议程延伸至气候正义领域；基于官网声明标题与摘要的分析判断。",
+      "source": "https://ecesr.org/"
+    },
+    {
+      "date": "2026-07-14",
+      "title": "法院判决外卖平台Talabat（طلبات）向违法解雇雇员赔偿10万埃镑",
+      "description": "赫勒万初审法院重大劳动争议第二巡回法庭在2025年第414号（专业劳动—赫勒万）案件中判决Talabat向被解雇雇员支付10万埃镑赔偿；官网阿语法律行动栏与英文首页均载有该案信息（第二来源交叉确认）。",
+      "impact": "平台经济劳动者维权的标志性判决，体现中心代理劳动诉讼的实战成果；依据官网中英文页面交叉信息。",
+      "source": "https://ecesr.org/"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "法院强制「社会防卫协会」执行综合最低工资标准",
+      "description": "官网法律行动栏刊载判决：强制جمعية الدفاع الاجتماعي（社会防卫协会）适用综合最低工资标准。",
+      "impact": "中心代理的最低工资系列诉讼再度胜诉，为其「最低工资普惠」倡导提供司法判例支撑；基于官网刊载判决信息。",
+      "source": "https://ecesr.org/"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "ECESR谴责延长工会（选举）周期：违反结社自由与工人民主代表权",
+      "description": "中心发表声明，指延长工会周期（تمديد الدورة النقابية）侵犯工人民主代表与结社自由（官网阿语首页声明栏）。",
+      "impact": "与其2026年10月26日联署反对推迟工会选举的立场相互呼应；基于官网声明。",
+      "source": "https://ecesr.org/"
+    },
+    {
+      "date": "2026-01-12",
+      "title": "发布《كشف حساب（算账）》研究：评估2021-2025届议会经济社会立法记录",
+      "description": "中心发布研究，系统评估2021-2025届议会在经济与社会权利立法方面的实际表现（官网出版物栏）。",
+      "impact": "属于其对立法机构的常态化监督产品，为后续倡导提供实证基础；基于官网出版物栏信息。",
+      "source": "https://ecesr.org/"
+    },
+    {
+      "date": "2025-02-12",
+      "title": "ECESR公布新版《劳动法》草案逐条修订意见",
+      "description": "中心就议会审议中的新劳动法草案公布修订意见（官网2025年2月12日出版物栏；中心Instagram账号2025年2月20日亦发布该意见要点，构成第二来源交叉确认）。",
+      "impact": "该法实施前后中心持续开展最低工资与解雇争议诉讼，印证其立法参与和诉讼策略的连续性；基于官网与Instagram两来源。",
+      "source": "https://ecesr.org/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-NGO-005",
+      "org_name": "埃及个人权利倡议 (المبادرة المصرية للحقوق الشخصية)",
+      "org_type": "NGO",
+      "org_description": "埃及知名人权非政府组织（EIPR），关注公民政治权利；2014年ECESR办公室遭安全部队突袭事件前后，EIPR官网曾刊载涉及ECESR的相关新闻稿（eipr.org 2014年7月存档页），两组织同属埃及经济社会与人权倡导界。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "希沙姆·穆巴拉克法律中心 (مركز هشام مبارك للقانون)",
+      "org_type": "NGO",
+      "org_description": "开罗人权法律援助机构（HMLC）；ECESR创始人哈立德·阿里曾任其执行总监（2007-2009，Ahram Online），JSTOR论文指ECESR由HMLC核心活动家于2009年创立，两机构渊源深厚。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际经济、社会和文化权利网络 (ESCR-Net)",
+      "org_type": "INTL",
+      "org_description": "国际经济、社会与文化权利组织网络；ECESR为其正式成员（ESCR-Net官网成员页收录该中心专页）。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "埃及经济与社会权利中心（ECESR）是2009年由知名劳工律师哈立德·阿里在开罗创办的非政府法律与研究机构，以正义、自由与平等为价值基础，通过监测、研究与诉讼支持捍卫埃及及阿拉伯地区的经济、社会与文化权利。其工作分为三大条线：经济政策（贸易与投资、预算与透明度、税收正义、债务与国际金融机构、私有化）、社会权利（教育、住房、健康、环境正义、劳工与工会）以及刑事司法；下设法律部直接代理劳动争议等案件，2025-2026年间在赫勒万初审法院等取得多起违法解雇赔偿及强制执行最低工资的胜诉判决。中心运营自2009年以来全部可检索的出版物档案（报告、特别报告、研究，含PDF全文）与法律文库；总部位于开罗市中心Talaat Harb街区El-Fadl街1号，并在亚历山大、达卡赫利亚与阿斯旺设有分支（维基百科信息框）。该中心与政府关系长期紧张：2014年5月其分支办公室遭安全部队突袭（CIHRS记录），维基百科亦记载其办公室多次遭警方搜查并引发其他机构抗议；2019年抗议期间因详细记录被捕的抗议者乃至无关路人（至9月26日列出1909人）而广受关注。劳工权益是其最活跃条线（官网劳工与工会类目126条，居各议题之首），覆盖最低工资、工会选举周期、职业安全、任意解雇等议题；近年亦延伸至气候正义（COP31前声明）与药价、诉讼费用等民生诉讼。",
+  "industries": [
+    "nonprofit",
+    "legal_services",
+    "think_tank"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。该组织为国际经济、社会和文化权利网络（ESCR-Net）成员，并曾向联合国极端贫困与人权问题特别报告员提交意见书（维基百科引OHCHR文件），与APEC无关联。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/ECESR_Logo.png",
+    "local_path": null
+  },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
+      "official_website",
       "wikipedia",
-      "official_website"
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 9,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 85,
+    "notes": "L3降级路径：无可用Wikidata抓取，骨架QID(Q19678224)沿用phase2缓存。成立时间：官网英文页、英语维基百科、ESCR-Net成员页与Ahram Online一致记载为2009年（任务提示中的2010年说法与官方来源不符，按多源一致口径记2009-01-01）。现任执行总监未获多来源确认：纳迪姆·曼苏尔仅为Mada Masr 2015年报道中的时任执行总监。recent_events日期均取自官网阿语首页声明/法律行动/出版物栏的公历日期；TIMEP 2025年1月联合UPR报告经核查不含ECESR，故未列为事件。；P5 整理（2026-11-21）：key_people 附注字段并入 description/title_description",
+    "quotes": [
+      {
+        "title": "English Wikipedia: Egyptian Center for Economic and Social Rights（Formation 2009；办公室多次遭警方搜查；2019年记录1909人被捕）",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_Center_for_Economic_and_Social_Rights"
+      },
+      {
+        "title": "ECESR官网英文页：An Egyptian non-governmental legal organisation founded in 2009, defending economic, social and cultural rights through monitoring, research and legal support.",
+        "url": "https://ecesr.org/en/"
+      },
+      {
+        "title": "ECESR官网阿语首页：2025-2026年声明、判决与出版物日期列表（含2026-11-12保险解雇金警告、2026-07-14 Talabat判决等）",
+        "url": "https://ecesr.org/"
+      },
+      {
+        "title": "Ahram Online（2012总统选举候选人专页）：In 2009, Ali founded the Egyptian Centre for Economic and Social Rights；Ali served as HMLC executive director from 2007 to 2009",
+        "url": "https://english.ahram.org.eg/NewsContent/36/124/37003/Presidential-elections-/Meet-the-candidates/Khaled-Ali-.aspx"
+      },
+      {
+        "title": "Mada Masr（2015-04-28）：نديم منصور - المدير التنفيذي للمركز المصري للحقوق الاقتصادية والاجتماعية",
+        "url": "https://www.madamasr.com/2015/04/28/feature/سياسة/نديم-منصور-عدم-اهتمام-الإعلام-بالاحتج/"
+      },
+      {
+        "title": "CIHRS（2014-05-22）：قوات الأمن تقتحم فرع المركز المصري للحقوق الاقتصادية والاجتماعية（安全部队突袭ECESR分支）",
+        "url": "https://cihrs.org/قوات-الأمن-تقتحم-فرع-المركز-المصري-للح/"
+      }
+    ]
   }
 }

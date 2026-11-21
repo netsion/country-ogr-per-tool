@@ -1,15 +1,19 @@
 {
   "org_id": "EG-MEDIA-003",
   "basic_info": {
-    "name_original": "Akhbar el-Yom",
+    "name_original": "أخبار اليوم",
     "name_zh": "今日消息",
     "name_en": "Akhbar el-Yom",
-    "aliases": [],
+    "aliases": [
+      "مؤسسة أخبار اليوم（今日消息基金会，出版方名称）",
+      "دار أخبار اليوم（Dar Akhbar El-Yom）",
+      "Akhbar El-Yom"
+    ],
     "org_type": "MEDIA",
     "org_subtype": "newspaper",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": "1944-01-01",
+    "founded_date": "1944-11-06",
     "website": "https://akhbarelyom.com/",
     "wikidata_qid": "Q4116122"
   },
@@ -19,46 +23,229 @@
       "account_name": "akhbarelyom",
       "url": "https://twitter.com/akhbarelyom",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata（phase2骨架沿用）"
     },
     {
       "platform": "facebook",
       "account_name": "akhbarelyom",
       "url": "https://facebook.com/akhbarelyom",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata（phase2骨架沿用）；2025-06-16官方账号发布董事长文章得到印证"
     },
     {
       "platform": "youtube",
-      "account_name": "UC3G-45OJY0VyLmlXMeFBOHw",
-      "url": "https://youtube.com/channel/UC3G-45OJY0VyLmlXMeFBOHw",
+      "account_name": "UC3G-45OJY0VyLmlXMeFBOw",
+      "url": "https://youtube.com/channel/UC3G-45OJY0VyLmlXMeFBOw",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata（phase2骨架沿用）；2026-11-17搜索确认频道名「Akhbar El yom TV」"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "akhbarelyom",
+      "url": "https://instagram.com/akhbarelyom",
+      "source": null,
+      "source_note": "2026-08-07官方发布视频（reel）署名@akhbarelyom并标注#بوابة_أخبار_اليوم，据此推断官方账号"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "报纸PDF版面档案库",
+      "url": "https://akhbarelyom.com/pdf/",
+      "description": "今日消息报历期版面PDF目录（Catalog），提供最新刊期的整版报纸文件下载浏览",
+      "source": "https://akhbarelyom.com/pdf/"
+    },
+    {
+      "name": "今日消息研究与战略研究中心门户",
+      "url": "https://akhbarelyomrsc.com/",
+      "description": "2026年设立的今日消息研究与战略研究中心官方网站，业务板块涵盖政治与经济研究、极端主义与反恐研究、媒体与数字化转型研究、社会与民意调查、议会研究等",
+      "source": "https://akhbarelyomrsc.com/"
+    },
+    {
+      "name": "移动版电子门户",
+      "url": "https://m.akhbarelyom.com/",
+      "description": "今日消息电子门户移动版（بوابة أخبار اليوم الإلكترونية），首页展示报头（董事长、主编）与新闻内容",
+      "source": "https://m.akhbarelyom.com/"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000766",
+      "name": "穆斯塔法·阿明 (مصطفى أمين)",
+      "title": "创始人 (مؤسس)",
+      "title_description": "与孪生兄弟阿里·阿明于1944年11月6日共同创办《今日消息》报及今日消息基金会；基金会旗下日报《消息报》（الأخبار）亦由兄弟二人创办",
+      "description": "埃及新闻界标志性人物，生于1914-02-21，卒于1997-04-13（阿语维基百科）；该报创刊初期的重要撰稿人之一【修正2026-11-17】原误绑 EG-PERSON-000121（NSPO前总干事，当代军方人物）；创始人记者穆斯塔法·阿明(1914-1997)与该人物同名不同人，person_id置null"
+    },
+    {
+      "person_id": "EG-PERSON-000767",
+      "name": "阿里·阿明（音译） (علي أمين)",
+      "title": "创始人 (مؤسس)",
+      "title_description": "穆斯塔法·阿明的孪生兄弟，共同创办《今日消息》报",
+      "description": "生于1914-02-21，卒于1976-04-03；《纽约时报》1976-04-04讣告称其创办了埃及领先的报纸"
+    },
+    {
+      "person_id": "EG-PERSON-000343",
+      "name": "伊斯兰·阿菲菲（音译） (إسلام عفيفي)",
+      "title": "董事长 (رئيس مجلس الإدارة)",
+      "title_description": "今日消息基金会董事会主席，2024年4月就任至今",
+      "description": "记者/专栏作家出身；据阿语维基百科于2024年4月接替艾哈迈德·贾拉勒·蒙塔赛尔（أحمد جلال منتصر，2020-2024年3月在任）；2026-11-17检索官网报头「رئيس مجلس الإدارة: إسلام عفيفي」确认现任。注意：阿语维基「دار أخبار اليوم」页面将其误写为إسلام عفيفي，以官网报头及「جريدة مصرية」页面为准"
+    },
+    {
+      "person_id": "EG-PERSON-000344",
+      "name": "穆斯塔法·阿卜杜（音译） (مصطفى عبده)",
+      "title": "主编 (رئيس التحرير)",
+      "title_description": "《今日消息》报现任主编",
+      "description": "2026-11-17检索官网报头及PDF档案库页面均列示「رئيس التحرير: مصطفى عبده」；阿语维基百科主编名录中亦有其名"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-003-DEPT-001",
+      "name": "广告代理处 (وكالة الأخبار للإعلان)",
+      "head": null,
+      "description": "今日消息基金会旗下广告业务机构，负责报刊广告经营",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-003-DEPT-002",
+      "name": "发行代理处 (وكالة الأخبار للتوزيع)",
+      "head": null,
+      "description": "今日消息基金会旗下发行机构，负责报刊发行配送",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-003-DEPT-003",
+      "name": "印刷厂 (مطابع أخبار اليوم)",
+      "head": null,
+      "description": "今日消息基金会旗下印刷实体，承担报纸及刊物印制",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-003-DEPT-004",
+      "name": "培训中心 (مركز أخبار اليوم للتدريب)",
+      "head": null,
+      "description": "今日消息基金会旗下新闻人才培养与培训中心",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-003-DEPT-005",
+      "name": "研究与战略研究中心 (مركز أخبار اليوم للبحوث والدراسات)",
+      "head": null,
+      "description": "2026年2月董事会决议设立、2026年4月27日由国家报业署署长揭牌；业务涵盖政治与经济研究、极端主义与反恐研究、媒体与数字化转型研究、社会与民意调查、议会研究",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-04-01",
+      "title": "伊斯兰·阿菲菲出任今日消息基金会董事长",
+      "description": "据阿语维基百科，记者伊斯兰·阿菲菲（إسلام عفيفي）自2024年4月起担任今日消息基金会董事会主席，接替任职于2020年至2024年3月的艾哈迈德·贾拉勒·蒙塔赛尔（أحمد جلال منتصر）；2026-11-17检索的官网报头「رئيس مجلس الإدارة: إسلام عفيفي」交叉确认其现任。",
+      "impact": "报社管理层完成新老交替；新任董事长任内推动设立研究与战略研究中心（2026年）并在官方账号多次阐述报纸服务埃及2030愿景与国家发展议程的定位。",
+      "source": "https://ar.wikipedia.org/wiki/دار_أخبار_اليوم"
+    },
+    {
+      "date": "2026-02-04",
+      "title": "董事会决议设立研究与战略研究中心",
+      "description": "今日消息基金会董事会通过决议，在机构内部设立专业研究与战略研究中心，落实国家报业署署长阿卜杜勒-萨迪克·舒尔布吉（عبد الصادق الشوربجي）的指示；报纸官方门户当日刊发报道，称「今日消息开启重塑其未来的新路径」。",
+      "impact": "标志该报从传统新闻生产向研究型、智库型媒体延伸，为2026年4月研究中心正式揭牌奠定制度基础。",
+      "source": "https://akhbarelyom.com/news/newdetails/4768250/1/-أخبار-اليوم-تُطلق-مركز-البحوث-والدراسات"
+    },
+    {
+      "date": "2026-04-27",
+      "title": "国家报业署揭牌「今日消息研究与战略研究中心」",
+      "description": "埃及国家报业署（الهيئة الوطنية للصحافة）由署长舒尔布吉主持，在今日消息基金会举行研究中心开幕典礼，全国报业机构领导人出席（金字塔报门户、第七日（Youm7）及官方脸书账号均报道）；研究中心官网列明政治经济、反恐与极端主义、媒体转型、民意调查、议会研究等业务板块。",
+      "impact": "报社新增研究型业务板块，强化其作为国家报业机构在政策研究与舆论测量领域的角色；开幕典礼同时向《十月》杂志（مجلة أكتوبر）历代负责人致敬，显示国家报业体系内部的联动。",
+      "source": "https://gate.ahram.org.eg/News/5604556.aspx"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "国家报业署会议重申无意合并国家报业机构",
+      "description": "国家报业署在开罗总部召开资源开发跟进会议，侯赛因·伊萨（حسين عيسى，音译）在会上表示「无意合并国家报业机构」，并称金字塔报是国家历史不可分割的组成部分；会议背景是包括今日消息基金会在内的国家报业机构长期经营困难及2021年前后监管部门曾计划合并国家报纸（2021年7月已停印《消息晚报》等版面转为数字出版）。",
+      "impact": "基本排除今日消息基金会被并入金字塔报等机构的短期可能性，其现行「国家报业署管理下的独立基金会」架构保持稳定。",
+      "source": "https://gate.ahram.org.eg/daily/News/205732/136/1031620/متابعات/فى-اجتماع-بمقر-«الوطنية-للصحافة»-لمتابعة-جهود-تنمي.aspx"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "埃及国家报业署 (الهيئة الوطنية للصحافة)",
+      "org_type": "GOV",
+      "org_description": "埃及统筹管理国家报业机构的监管机构（依据2016年新闻与报业组织法设立）；今日消息基金会现由其管理",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "EG-MEDIA-001",
+      "org_name": "金字塔报 (الأهرام)",
+      "org_type": "MEDIA",
+      "org_description": "埃及国家报业旗舰组织（مؤسسة الأهرام），与今日消息基金会同属国家报业署管理体系；2021年前后监管部门曾计划合并国家报纸，2026-10-06官方会议明确无意合并",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "EG-MEDIA-004",
+      "org_name": "消息报 (الأخبار)",
+      "org_type": "MEDIA",
+      "org_description": "今日消息基金会出版的日报（جريدة الأخبار المصرية），与《今日消息》同为阿明兄弟创办的姊妹刊物；其晚报版面已于2021年7月停印转为数字出版",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "今日消息学院 (أكاديمية أخبار اليوم / Akhbar Elyom Academy)",
+      "org_type": "ACAD",
+      "org_description": "今日消息基金会下属教育机构，提供新闻传播相关教育与培训（LinkedIn公司主页可见）",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "《今日消息》是埃及历史最悠久的全国性阿拉伯语周报之一，1944年11月6日由阿明孪生兄弟穆斯塔法·阿明与阿里·阿明创办，每周六出版，被视为半官方报纸；鼎盛期2000年发行量达150万份。其出版方今日消息基金会（دار أخبار اليوم）是埃及及阿拉伯世界规模最大、知名度最高的新闻机构之一，总部位于开罗新闻街（شارع الصحافة），旗下出版物包括周六主报、日报《消息报》（الأخبار）、《最后一小时》（آخر ساعة）周刊、《体育消息报》《文学消息报》《事故消息报》《汽车消息报》及儿童杂志《布勒布勒》（بلبل）等十余种报刊。基金会同时经营广告代理、发行代理、印刷厂、培训中心、投资公司、达·马尤出版社（دار مايو）、今日消息学院及附属学校等实体；报纸历史上曾由协商会议（مجلس الشورى）所有，2016年新闻法施行后划归国家报业署（الهيئة الوطنية للصحافة）管理。创刊初期网罗塔乌菲克·哈基姆、海卡尔、卡迈勒·什纳维、漫画家穆斯塔法·侯赛因等一代名家，是埃及新闻史上的标志性机构；2026年新设研究与战略研究中心，向研究型媒体转型，现以电子门户akhbarelyom.com及PDF版面档案库提供数字内容。",
+  "industries": [
+    "media_publishing",
+    "digital_media"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://upload.wikimedia.org/wikipedia/en/d/dd/Akhbar-el-Yom-logo.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "local_path": null
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "quotes": [
+      {
+        "title": "Akhbar el-Yom - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/Akhbar_el-Yom"
+      },
+      {
+        "title": "أخبار اليوم (جريدة مصرية) - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/أخبار_اليوم_(جريدة_مصرية)"
+      },
+      {
+        "title": "دار أخبار اليوم - ويكيبيديا العربية",
+        "url": "https://ar.wikipedia.org/wiki/دار_أخبار_اليوم"
+      },
+      {
+        "title": "بوابة أخبار اليوم الإلكترونية（官网，报头：董事长إسلام عفيفي/主编مصطفى عبده）",
+        "url": "https://m.akhbarelyom.com/"
+      },
+      {
+        "title": "«أخبار اليوم» تُطلق مركز البحوث والدراسات（2026-02-04 官方门户）",
+        "url": "https://akhbarelyom.com/news/newdetails/4768250/1/-أخبار-اليوم-تُطلق-مركز-البحوث-والدراسات"
+      },
+      {
+        "title": "الوطنية للصحافة تفتتح مركز أخبار اليوم للبحوث والدراسات（2026-04-27 金字塔报门户）",
+        "url": "https://gate.ahram.org.eg/News/5604556.aspx"
+      },
+      {
+        "title": "حسين عيسى: لا نية لدمج المؤسسات الصحفية القومية（2026-10-06 金字塔报门户）",
+        "url": "https://gate.ahram.org.eg/daily/News/205732/136/1031620/متابعات/فى-اجتماع-بمقر-«الوطنية-للصحافة»-لمتابعة-جهود-تنمي.aspx"
+      }
+    ],
+    "completeness_score": 89,
+    "notes": "2026-11-17 phase3丰富：在phase2骨架上补充沿革、现任管理层（阿语维基+官网报头双源交叉确认）、2026年研究中心设立及国家报业署归属动态。官网为动态渲染无法直接抓取，报头信息取自搜索结果摘要。经核查未发现「2000年代并入金字塔报组织」的证据——现行架构为国家报业署（الهيئة الوطنية للصحافة）管理下的独立基金会，与金字塔报（EG-MEDIA-001）为姊妹机构，2026-10-06官方会议明确无意合并。近期事件4条均有YYYY-MM-DD日期及来源URL；创始人穆斯塔法·阿明命中人物索引EG-PERSON-000121。; ID修正: 创始人穆斯塔法·阿明与EG-PERSON-000121(NSPO)同名不同人，已置null"
   }
 }

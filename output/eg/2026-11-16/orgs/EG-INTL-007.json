@@ -1,10 +1,14 @@
 {
   "org_id": "EG-INTL-007",
   "basic_info": {
-    "name_original": "Arab Organization for Human Rights",
+    "name_original": "المنظمة العربية لحقوق الإنسان",
     "name_zh": "阿拉伯人權協會",
     "name_en": "Arab Organization for Human Rights",
-    "aliases": [],
+    "aliases": [
+      "AOHR",
+      "阿拉伯人权组织",
+      "阿拉伯人权协会"
+    ],
     "org_type": "INTL",
     "org_subtype": "regional_org",
     "country_iso3": "EGY",
@@ -19,43 +23,224 @@
       "account_name": "AohrArab",
       "url": "https://twitter.com/AohrArab",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "Wikidata（P2002）；本次检索未进一步核验该账号现状"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "AohrHq",
+      "url": "https://twitter.com/AohrHq",
+      "source": 3,
+      "source_note": "官网 aohrarab.com 2026-11-13 文章页分享链接中出现的官方账号（@AohrHq）"
     },
     {
       "platform": "facebook",
       "account_name": "AOHRHQ",
       "url": "https://facebook.com/AOHRHQ",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "Wikidata；2026年9月第12次全体大会期间该主页发布帖文与视频（新闻检索可见 facebook.com/AOHRHQ）"
     },
     {
       "platform": "youtube",
       "account_name": "UC542LYErA_54QhunMBcufDA",
       "url": "https://youtube.com/channel/UC542LYErA_54QhunMBcufDA",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "Wikidata（P2397）；本次检索未进一步核验该频道现状"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "international_trade"
+  "digital_assets": [
+    {
+      "name": "阿拉伯人权组织英文网站",
+      "url": "https://en.aohrarab.com",
+      "description": "AOHR官方英文站点，发布英文版声明与报告（如2024-07-29发布的联合国普世人权审议（UPR）利益相关方报告）。",
+      "source": "https://en.aohrarab.com/189/report-of-the-arab-organization-for-human-rights-stakeholder-report/"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000759",
+      "name": "阿拉·沙拉比 (علاء شلبي)",
+      "title": "理事会主席 (رئيس مجلس الأمناء)",
+      "title_description": "2026年9月25日第12次全体大会选举产生的2026-2029任期理事会主席并主持执行委员会；埃及执业律师（音译）。",
+      "description": "至少自2019年即担任主席（当年4月率团访问加沙巴勒斯坦人权中心PCHR）；阿拉伯语维基百科列其为现任主席；2026-09-24在开幕讲话中称大会面临「前所未有」的地区挑战（Youm7报道，2026-09-25组织新闻稿交叉确认）。"
+    },
+    {
+      "person_id": "EG-PERSON-000760",
+      "name": "伊萨姆·尤尼斯 (عصام يونس)",
+      "title": "秘书长 (الأمين العام)",
+      "title_description": "2026年9月25日当选2026-2029任期秘书长（音译）。",
+      "description": "巴勒斯坦人，加沙米赞人权中心（Al Mezan Center for Human Rights）主任；其当选信息见组织新闻稿（aohrne.com，2026-09-25）。"
+    },
+    {
+      "person_id": "EG-PERSON-000761",
+      "name": "穆罕默德·法伊克 (محمد فايق)",
+      "title": "理事会成员；创始人、前秘书长 (عضو مجلس الأمناء)",
+      "title_description": "1983年创办本组织并曾长期任秘书长；2026年9月再次入选2026-2029任期理事会（音译）。",
+      "description": "组织新闻稿（2026-09-25）列其为埃及籍理事，身份为「前部长、前埃及国家人权委员会主席、本组织前秘书长」；英语维基百科列其为组织创始人。"
+    },
+    {
+      "person_id": "EG-PERSON-000762",
+      "name": "萨阿德丁·易卜拉欣 (سعد الدين إبراهيم)",
+      "title": "创始人之一 (من المؤسسين)",
+      "title_description": "1983年在塞浦路斯利马索尔参与创办本组织（音译）。",
+      "description": "埃及知名社会学家；英语维基百科将其与穆罕默德·法伊克并列为创始人。"
+    },
+    {
+      "person_id": "EG-PERSON-000763",
+      "name": "穆罕默德·拉迪 (محمد رضي)",
+      "title": "执行主任 (المدير التنفيذي)",
+      "title_description": "巴勒斯坦人权中心（PCHR）2019-04-10通报中列其为执行主任（音译）；2025-2026年来源未再确认其现任情况。",
+      "description": "2019年4月随主席阿拉·沙拉比率团访问加沙（PCHR通报，Ref 18/2019）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-INTL-007-DEPT-001",
+      "name": "全体大会 (الجمعية العمومية)",
+      "head": null,
+      "description": "最高机构，每三年召开一次，由成员组织代表与卸任理事会成员组成；第12次全体大会于2026年9月24-26日在开罗举行（原会期因阿拉伯地区局势多次推迟）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-007-DEPT-002",
+      "name": "理事会 (مجلس الأمناء)",
+      "head": "阿拉·沙拉比 (علاء شلبي)",
+      "description": "每年召开会议；由25名成员组成，其中20名经全体大会选举产生、5名由组织委任（英语维基百科）。2026-09-25经无记名投票从28名候选人中选出2026-2029任期20名理事，涵盖埃及、摩洛哥、利比亚、巴勒斯坦、科威特、阿联酋、阿尔及利亚、突尼斯、约旦、巴林、黎巴嫩、也门等国（均为音译）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-007-DEPT-003",
+      "name": "执行委员会 (اللجنة التنفيذية)",
+      "head": "阿拉·沙拉比 (علاء شلبي)",
+      "description": "由新当选理事会在其首次会议上组建（2026-09-25）：主席阿拉·沙拉比（埃及）、副主席阿卜杜勒-蒙伊姆·赫尔博士（利比亚）、秘书长伊萨姆·尤尼斯（巴勒斯坦）、司库玛哈·巴尔贾斯（科威特），委员纳丁·穆萨德博士（埃及）、拉赫达尔·本·赛义德（阿尔及利亚）、穆罕默德·萨利姆·卡比博士（阿联酋）（均为音译）。",
+      "parent_dept_id": "EG-INTL-007-DEPT-002"
+    },
+    {
+      "dept_id": "EG-INTL-007-DEPT-004",
+      "name": "技术秘书处 (الأمانة الفنية)",
+      "head": null,
+      "description": "内部常设办事机构，承担日常行政与协调职能（阿拉伯语维基百科：تشكيلاتها الداخلية أمانة فنية ولجان نوعية）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-INTL-007-DEPT-005",
+      "name": "专门委员会 (اللجان النوعية)",
+      "head": null,
+      "description": "按议题设立的专业委员会，与秘书处共同支撑研究、培训、出版等业务条线（阿拉伯语维基百科）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-09-24",
+      "title": "AOHR第12次全体大会在开罗开幕",
+      "description": "原会期因阿拉伯地区「特殊情况」多次推迟后，第12次全体大会于2026年9月24-26日在开罗举行（组织声明及大会视频倒计时帖）；主席阿拉·沙拉比在开幕讲话中表示大会正值地区重大事件与空前挑战之际召开（Youm7，2026-09-24）；埃及国家人权委员会（EG-GOV-049）参加了开幕式（nchr.eg新闻列表）。",
+      "impact": "大会如期召开并完成换届，组织领导层延续至2029年；开罗作为总部城市的区域人权枢纽角色进一步凸显（依据组织声明与埃媒报道）。",
+      "source": "https://aohrne.com/2026/09/2750.html"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "全体大会选举产生2026-2029任期理事会",
+      "description": "经观察员选举委员会监督下的无记名直接投票，从28名候选人（1人会前退出、2人同票后加选）中选出20名理事；随后理事会组建执行委员会：主席阿拉·沙拉比（埃及）、副主席阿卜杜勒-蒙伊姆·赫尔（利比亚）、秘书长伊萨姆·尤尼斯（巴勒斯坦）、司库玛哈·巴尔贾斯（科威特）；创始人穆罕默德·法伊克再次入选。组织官网（aohrarab.com，2026-09-29）及ArabyWatch（2026-09-26）等媒体转载发布。",
+      "impact": "完成四年来首次换届（上届任期2022年8月至2026年9月），领导层跨国构成覆盖阿拉伯多国；秘书长由巴勒斯坦人权人士担任，延续组织与巴勒斯坦人权机构的深度绑定（依据组织新闻稿名单）。",
+      "source": "https://aohrne.com/2026/09/2764.html"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "区域研讨会「阿拉伯数字时代的人权：机遇与风险」在开罗开幕",
+      "description": "与第12次全体大会同期举办的区域研讨会在开罗开幕，主题为数字时代阿拉伯地区人权面临的机遇与风险（组织新闻稿，2026-09-24）。",
+      "impact": "显示组织将数字人权议题纳入近期工作重点（依据会议主题与新闻稿）。",
+      "source": "https://aohrne.com/2026/09/2775.html"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "转发成员组织米赞中心声明，谴责以色列当局禁止Al-Haq总干事旅行",
+      "description": "AOHR官网转发其成员组织、加沙米赞人权中心（Al Mezan）的声明，谴责以色列占领当局当日禁止Al-Haq机构总干事沙万·贾巴林经侯赛因国王桥前往约旦，称其为针对人权捍卫者的报复性措施；声明并提及2025年9月以来美国对米赞中心、Al-Haq与巴勒斯坦人权中心的制裁（官网标注米赞中心为AOHR成员机构）。",
+      "impact": "体现AOHR对成员组织及人权捍卫者保护议题的持续声援（官网声明转发，2026-11-13）。",
+      "source": "https://aohrarab.com/blog/13158/%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d9%86-%d9%8a%d8%b3%d8%aa%d9%86%d9%83%d8%b1-%d9%85%d9%86%d8%b9-%d9%85%d8%af%d9%8a%d8%b1-%d8%b9%d8%a7%d9%85-%d9%85%d8%a4%d8%b3%d8%b3%d8%a9/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-049",
+      "org_name": "埃及国家人权委员会 (المجلس القومي لحقوق الإنسان)",
+      "org_type": "GOV",
+      "org_description": "埃及的国家人权机构；AOHR创始人穆罕默德·法伊克曾任其主席，AOHR新任理事会成员纳丁·穆萨德博士亦为该委员会成员（组织新闻稿，2026-09-25）；该委员会参加了AOHR第12次全体大会开幕式（nchr.eg/ar/News）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "EG-NGO-005",
+      "org_name": "埃及个人权利倡议 (المبادرة المصرية للحقوق الشخصية)",
+      "org_type": "NGO",
+      "org_description": "总部位于开罗的埃及独立人权组织，关注公民政治权利与经济社会权利等议题；与AOHR同处开罗人权组织生态。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "米赞人权中心 (مركز الميزان لحقوق الإنسان)",
+      "org_type": "NGO",
+      "org_description": "总部位于加沙的巴勒斯坦人权组织，AOHR机构成员（官网2026-11-13声明标注）；其主任伊萨姆·尤尼斯于2026年9月当选AOHR秘书长。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯人权研究所 (المعهد العربي لحقوق الإنسان)",
+      "org_type": "INTL",
+      "org_description": "1989年由AOHR联合阿拉伯律师联盟、突尼斯人权防卫联盟并在联合国人权中心支持下于突尼斯创办；1993年获联合国教科文组织人权教育奖（阿拉伯语维基百科、英语维基百科援引UNESCO）；其现任所长（阿卜杜勒-巴西特·本·阿卜杜勒-穆蒙，突尼斯）为AOHR2026-2029理事会成员。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "EG-INTL-001",
+      "org_name": "阿拉伯国家联盟 (جامعة الدول العربية)",
+      "org_type": "INTL",
+      "org_description": "总部设于开罗的区域政府间组织；AOHR为其人权常设委员会（اللجنة العربية الدائمة لحقوق الإنسان）观察员（阿拉伯语维基百科）。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "阿拉伯人权组织（AOHR）是1983年在塞浦路斯利马索尔通过决议成立的区域非政府人权组织，总部设于开罗，2000年5月6日与埃及政府签署总部协议（阿拉伯语维基百科）。核心使命为依据联合国标准与国际人权公约，在阿拉伯地区保护人权、促进人权尊重并传播人权文化。业务条线包括：一是倡导与个案干预，反酷刑与反迫害，为政治犯与良心犯争取获释、提供法律援助，与阿拉伯律师联盟联合发起「阿拉伯世界良心犯自由」运动，并援助受害者家属；二是调查与监督，开展实地访问与真相调查团，受理个人、团体与组织的投诉并联系主管当局，对选举等重大事件发布观察报告（如2023年12月埃及总统选举观察报告）；三是教育、培训与研究出版，面向公众与专业人士开设常规及专题人权培训课程，发行年度报告《阿拉伯地区人权状况》（附英文版）、新闻公报与专题报告，组织区域会议、研讨会与工作坊；四是机制合作，具备联合国经社理事会咨商地位、非洲联盟非洲人权与民族权委员会观察员地位、阿盟人权常设委员会观察员地位及与教科文组织的执行关系，机构成员遍布16个阿拉伯国家，并在9个欧洲国家拥有侧重阿拉伯移民权利的机构成员。组织不接受政府捐款，经费来自会费、个人捐助及与阿拉伯/国际非政府组织和联合国机构合作的项目收入，账目由独立审计机构审查并经理事会和全体大会审议。",
+  "industries": [
+    "nonprofit",
+    "humanitarian_aid",
+    "legal_services",
+    "education"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本组织为总部设于开罗的区域非政府人权机构，不参与政府间经贸议程；其跨区域合作渠道主要为联合国经社理事会咨商地位、非洲联盟非洲人权与民族权委员会观察员地位及阿拉伯国家联盟人权常设委员会观察员地位。",
   "profile": null,
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
+      "official_website",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "news_search"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 91,
+    "notes": "P3丰富完成，核心近期事件为2026年9月开罗第12次全体大会换届（2026-2029任期理事会与执行委员会名单）。社交账号沿用Wikidata骨架并部分核验：Facebook AOHRHQ可见2026年9月帖文；官网分享链接显示@AohrHq。执行主任Mohamed Radi一职仅获2019年单一来源，已在字段中注明时效限制。人名多为音译，已在相应字段标注。",
+    "quotes": [
+      {
+        "title": "Arab Organization for Human Rights - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Arab_Organization_for_Human_Rights"
+      },
+      {
+        "title": "المنظمة العربية لحقوق الإنسان - ويكيبيديا (AR)",
+        "url": "https://ar.wikipedia.org/wiki/المنظمة_العربية_لحقوق_الإنسان"
+      },
+      {
+        "title": "الموقع الرسمي للمنظمة العربية لحقوق الإنسان (官网)",
+        "url": "https://aohrarab.com"
+      },
+      {
+        "title": "Press Release: The AOHR's General Assembly Elects Board of Trustees for 2026-2029",
+        "url": "https://aohrne.com/2026/09/2764.html"
+      },
+      {
+        "title": "علاء شلبي: تحديات غير مسبوقة تواجه المنطقة - بوابة اليوم السابع (Youm7)",
+        "url": "https://www.youm7.com/story/2026/9/24/علاء-شلبي-تحديات-غير-مسبوقة-تواجه-المنطقة-ونسعى-لتعزيز-العمل/7556364"
+      },
+      {
+        "title": "PCHR Receives President and Delegation of Arab Organization for Human Rights (2019)",
+        "url": "https://pchrgaza.org/pchr-receives-president-and-delegation-of-arab-organization-for-human-rights-and-their-accompanying-delegation/"
+      }
+    ]
   }
 }

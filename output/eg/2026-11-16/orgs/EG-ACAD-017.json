@@ -1,20 +1,22 @@
 {
   "org_id": "EG-ACAD-017",
+  "wikidata_qid": "Q4116239",
   "basic_info": {
-    "name_original": "Arab Academy for Science and Technology and Maritime Transport",
+    "name_original": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري",
     "name_zh": "阿拉伯科学、技术和海运学院",
-    "name_en": "Arab Academy for Science and Technology and Maritime Transport",
+    "name_en": "Arab Academy for Science, Technology and Maritime Transport",
     "aliases": [
       "AASTMT",
-      "Arab Academy for Science, Technology and Maritime Transport"
+      "AAST",
+      "Arab Academy for Science, Technology and Maritime Transport",
+      "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1972-01-01",
-    "website": "https://aast.edu/",
-    "wikidata_qid": "Q4116239"
+    "website": "https://aast.edu/"
   },
   "social_accounts": [
     {
@@ -22,32 +24,281 @@
       "account_name": "AAST.Officialpage",
       "url": "https://facebook.com/AAST.Officialpage",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "英语维基百科外链列表与多个搜索结果共同确认的官方主页"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "arab-academy-for-science-and-technology-and-maritime-transport",
+      "url": "https://www.linkedin.com/school/arab-academy-for-science-and-technology-and-maritime-transport/",
+      "source": 17,
+      "source_note": "LinkedIn学校官方主页（搜索结果确认）"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "AAST_Cairo",
+      "url": "https://x.com/AAST_Cairo",
+      "source": 3,
+      "source_note": "AASTMT开罗校区官方X账号（搜索结果确认）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "aastcairocampus",
+      "url": "https://www.instagram.com/aastcairocampus/",
+      "source": 8,
+      "source_note": "AASTMT开罗校区官方Instagram账号（官方帖子自我介绍确认）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "digital_assets": [
+    {
+      "name": "AASTMT图书馆系统",
+      "url": "https://www.aast.edu/en/sites/library/",
+      "description": "支撑教学与科研的专门图书馆门户网站，覆盖各校区馆藏与数字资源。",
+      "source": "阿语维基百科外链确认"
+    },
+    {
+      "name": "AASTMT新闻中心",
+      "url": "https://aast.edu/en/news/",
+      "description": "官方新闻门户，发布学术、海事培训、国际合作等动态（官网在本次采集中直读受限，URL经搜索结果确认）。",
+      "source": "官网URL（搜索结果确认）"
+    },
+    {
+      "name": "AASTMT校友门户",
+      "url": "https://aast.edu/en/alumni/",
+      "description": "校友服务与活动平台，2026年举办第10届校友招聘会（AASTMT Alumni Career Fair 2026）。",
+      "source": "英语维基百科外链与官网新闻搜索结果确认"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000671",
+      "name": "伊斯梅尔·阿卜杜勒·加法尔·伊斯梅尔·法拉杰 (إسماعيل عبد الغفار إسماعيل فرج)",
+      "title": "校长 (رئيس الأكاديمية)",
+      "title_description": "阿拉伯科学、技术和海运学院（AASTMT）最高负责人，主管这所阿盟下属区域性大学的整体运营。",
+      "description": "中文译名为音译。据AASTMT官网校长简历，自2011年10月25日起出任校长（其LinkedIn资料亦显示2011年10月至今）；据其LinkedIn资料毕业于乔治·华盛顿大学。任内推动阿拉曼新校区建设（2018年动工、2019年首批招生，设人工智能学院与牙医学院）、训练舰Aida IV实践教学及2026-2031战略规划。未在_name_index.json中命中，person_id为null。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-017-DEPT-001",
+      "name": "海事运输与技术学院 (كلية النقل البحري والتكنولوجيا)",
+      "head": null,
+      "description": "历史核心学院，设航海技术与轮机工程等专业，校区位于亚历山大与塞得港，培养远洋驾驶员与轮机员。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-002",
+      "name": "工程与技术学院 (كلية الهندسة والتكنولوجيا)",
+      "head": null,
+      "description": "设建筑、机电一体化、计算机、土木、电气、电子通信、工业管理、轮机、机械等工程方向，分布于亚历山大、开罗、塞得港、南河谷等校区。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-003",
+      "name": "管理与技术学院 (كلية الإدارة والتكنولوجيا)",
+      "head": null,
+      "description": "设市场营销、财务管理、管理信息系统、电子商务、媒体管理、旅游酒店管理等专业；获国际商学院认证组织AACSB认证（据校长X账号发布）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-004",
+      "name": "计算机与信息技术学院 (كلية الحاسبات وتكنولوجيا المعلومات)",
+      "head": null,
+      "description": "设计算机科学、信息系统、软件工程、多媒体、网络安全等方向，含与英国桑德兰大学合作项目。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-005",
+      "name": "国际运输与物流学院 (كلية النقل الدولي واللوجستيات)",
+      "head": null,
+      "description": "培养国际贸易与运输物流管理人才，校区位于亚历山大、开罗、塞得港、南河谷。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-006",
+      "name": "语言与传播学院 (كلية اللغة والإعلام)",
+      "head": null,
+      "description": "设翻译本科与新闻传播本科。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-007",
+      "name": "渔业技术与应用水产学院 (كلية تكنولوجيا المصايد والاستزراع المائي)",
+      "head": null,
+      "description": "设海洋渔业专业方向，培养渔业与水产养殖技术人才。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-008",
+      "name": "药学院 (كلية الصيدلة)",
+      "head": null,
+      "description": "药学本科教育。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-009",
+      "name": "法学院 (كلية القانون)",
+      "head": null,
+      "description": "法学本科教育。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-010",
+      "name": "牙医学院 (كلية طب الفم والأسنان)",
+      "head": null,
+      "description": "位于阿拉曼新校区，2019年与人工智能学院同为首批招生的两所学院之一。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-011",
+      "name": "人工智能学院 (كلية الذكاء الاصطناعي)",
+      "head": null,
+      "description": "位于阿拉曼新校区，2019年首批招生；首届毕业生中已有人赴中国攻读AI工程硕士、赴巴塞罗那超级计算机实验室攻读博士（据校长专访）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-012",
+      "name": "医学院 (كلية الطب والجراحة)",
+      "head": null,
+      "description": "临床医学本科（含阿拉曼校区）；2026年举行首届毕业典礼。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-013",
+      "name": "考古与文化遗产学院 (كلية الآثار والتراث الحضاري)",
+      "head": null,
+      "description": "位于阿斯旺，依托当地遗址与博物馆资源，设埃及学、非洲考古、伊斯兰考古、海事考古、修复等8个方向，与科隆大学、牛津大学、日内瓦大学等开展国际合作。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-014",
+      "name": "研究生商学院 (كلية الدراسات العليا في الإدارة / Graduate School of Business)",
+      "head": null,
+      "description": "设工商管理博士（DBA）、MBA、EMBA、研究生文凭、职业证书及国际与高管教育项目，校区位于亚历山大与开罗。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-015",
+      "name": "海事安全学院 (معهد السلامة البحرية / Maritime Safety Institute)",
+      "head": null,
+      "description": "位于亚历山大，按国际海事组织标准开展海上安全培训。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-017-DEPT-016",
+      "name": "港口培训学院 (معهد تدريب الموانيء / Port Training Institute)",
+      "head": null,
+      "description": "位于亚历山大与塞得港，面向港口运营与管理开展职业培训。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-03",
+      "title": "阿拉伯运输部长理事会第39届会议在AASTMT亚历山大总部举行",
+      "description": "AASTMT在亚历山大总部承办阿拉伯运输部长理事会（مجلس وزراء النقل العرب）第39届常次会议开幕式：埃及交通部长卡迈勒·瓦齐尔（كامل الوزير）、科威特公共工程部长努拉·穆罕默德·米沙安、阿盟助理秘书长（经济事务部门负责人）阿里·马利基、阿盟交通运输与旅游管理局长巴赫杰·阿布·纳斯尔等出席。校长伊斯梅尔·阿卜杜勒·加法尔表示，学院角色已超越教育、培训与科研，是支持阿盟及其机构工作的阿拉伯专门『智库/专家组』。该事件另经TransNewsFacebook账号2026-11-03发布的部长理事会闭幕记者会视频交叉印证。",
+      "impact": "巩固AASTMT作为阿盟运输领域专门支撑机构的地位，深化其与阿盟秘书处及各成员国交通部门在港口数字化、供应链转型等方面的合作（依据会议报道内容分析）。",
+      "source": "https://soutalomam.net/إسماعيل-عبد-الغفار-الأكاديمية-العربي/"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "AASTMT校长出席萨拉曼卡大学授予联合国秘书长荣誉博士学位仪式",
+      "description": "据AASTMT官网新闻栏（2026年11月9日发布），校长伊斯梅尔·阿卜杜勒·加法尔参加西班牙萨拉曼卡大学为联合国秘书长举行荣誉博士学位典礼；AASTMT与萨拉曼卡大学在阿拉曼校区已有合作（据2026-09-07校长专访）。本条为官网单源，日期以官网新闻标注为准。",
+      "impact": "体现AASTMT高层国际学术网络拓展与欧洲高校合作深化（依据官网新闻与校长专访分析）。",
+      "source": "https://aast.edu/en/news/news-details.php?language=1&view=1&unit_id=1&news_id=486107687&event_type_id=1"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "校长专访披露2026-2031战略规划与阿拉曼校区扩张布局",
+      "description": "埃及《今日埃及人报》（المصري اليوم）刊发对校长伊斯梅尔·阿卜杜勒·加法尔的长篇专访：学院已制定2026-2031战略规划，聚焦人工智能、数字化转型、创新与可持续发展；阿拉曼校区2017年宣布、2018年签订用地协议并动工，2019年首批招收人工智能学院与牙医学院学生，现与萨拉曼卡大学、兰卡斯特大学等合作；学院实行自筹资金运营，拥有约5000名教职员，服务22个阿拉伯国家，并培养苏丹学生（与苏丹阿哈法德大学战略合作，101名苏丹女生已完成医学、药学学业）。『2026-2031战略规划』另经2026-11-03 صوت الأمم 报道交叉印证。",
+      "impact": "显示该机构从专业海事院校向多领域『阿拉伯智库型』教育科研综合体系转型的方向，AI与数字化成为其新增长点（依据专访内容分析）。",
+      "source": "https://www.almasryalyoum.com/news/details/4354180"
+    },
+    {
+      "date": "2026-07-01",
+      "title": "训练舰「Aida IV」完成赴阿尔及尔港19天跨国航行训练",
+      "description": "据校长2026-09-07专访（航期为其所述『两个月前』，仅知年月，日期按2026-07-01填写）：AASTMT自有训练舰「Aida IV」（1992年由日本政府捐赠）执行约19天航行训练，150名来自7个阿拉伯、非洲及国际国籍的学生在实际航海条件下完成训练并抵靠阿尔及尔港。",
+      "impact": "支撑其『本地区唯一拥有自有训练舰的教育机构』的独特地位，强化航海类人才培养的实战化能力（依据专访内容分析）。",
+      "source": "https://www.almasryalyoum.com/news/details/4354180"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-INTL-001",
+      "org_name": "阿拉伯国家联盟 (جامعة الدول العربية)",
+      "org_type": "INTL",
+      "org_description": "1945年成立的区域政府间组织，总部位于埃及开罗；其1970年理事会第53期会议第2631号决议决定设立区域性海事培训中心，即AASTMT前身。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "EG-GOV-017",
+      "org_name": "埃及交通部 (وزارة النقل)",
+      "org_type": "GOV",
+      "org_description": "埃及主管交通运输的政府部门：1991-1996年资助AASTMT教育与海事培训服务；2026年11月部长卡迈勒·瓦齐尔出席AASTMT主办的阿盟运输部长理事会第39届会议。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际海事组织 (المنظمة البحرية الدولية / IMO)",
+      "org_type": "INTL",
+      "org_description": "联合国负责海上安全与航运标准的专门机构；AASTMT与其保持关联（英语维基百科列出其为AASTMT关联机构），亚历山大校区设有IMO综合楼（IMO Compound）。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "萨拉曼卡大学 (Universidad de Salamanca)",
+      "org_type": "ACAD",
+      "org_description": "西班牙著名公立大学，与AASTMT在阿拉曼新校区开展合作（据校长2026-09-07专访）；2026年11月AASTMT校长出席该校授予联合国秘书长荣誉博士学位仪式。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "AASTMT是1972年依据阿盟决议设立的区域性专门教育机构，总部位于埃及亚历山大，由阿盟运营、为阿拉伯成员国共有的非营利组织，实行自筹资金运营，服务22个阿拉伯国家，教职员约5000人。核心业务包括：（1）高等教育：设海事运输与技术、工程与技术、管理与技术、计算机与信息技术、国际运输与物流、语言与传播、渔业技术与水产养殖、药学、法学、牙医、人工智能、医学、考古与文化遗产等十余个学院及研究生商学院，授予学士至博士学位，2026年QS世界排名1001-1200区间；（2）海事培训与发证：依托海事安全学院、港口培训学院与亚历山大、塞得港的综合模拟器设施，按国际海事组织（IMO）标准开展航海、轮机与港口培训，并拥有自有训练舰「Aida IV」（1992年日本政府捐赠）用于海上实践教学；（3）研究与咨询：通过各研究中心为港口、物流与运输部门提供研究与咨询服务，并作为阿盟『专门专家组/智库』支持阿盟秘书处及阿拉伯运输部长理事会工作；（4）国际合作：曾获联合国开发计划署、世界银行等支持，学生奖学金覆盖58个以上国家，并与多国大学开展联合培养。截至2008年在校生约1.8万人；校区遍及亚历山大（总部）、开罗（多基与赫利奥波利斯）、塞得港、阿拉曼、智能村、南河谷（阿斯旺），并在叙利亚拉塔基亚、阿联酋沙迦设有海外分校。",
+  "industries": [
+    "higher_education",
+    "maritime_shipping",
+    "logistics_warehousing",
+    "transportation",
+    "port_operations",
+    "research_development"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本组织为阿盟下属专门教育机构（总部埃及亚历山大、面向22个阿拉伯成员国），不涉及APEC事务。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/AASTMT_Logo.png/330px-AASTMT_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-ACAD-017.png",
+    "minio_path": "default/popular-org-profile/eg/EG-ACAD-017.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 17,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 80,
+    "notes": "P3 enrichment 2026-11-17: 三语Wikipedia（英/阿）+ 新闻搜索（阿语为主：صوت الأمم、المصري اليوم；英语补充）+ 官网信息（aast.edu直读502受限，经搜索摘要获取校长简历与新闻条目）。官网直读与部分社交账号（YouTube主账号）未能验证，留空处理。",
+    "quotes": [
+      {
+        "title": "Arab Academy for Science, Technology and Maritime Transport — Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Arab_Academy_for_Science,_Technology_and_Maritime_Transport"
+      },
+      {
+        "title": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري — ويكيبيديا (AR)",
+        "url": "https://ar.wikipedia.org/wiki/الأكاديمية_العربية_للعلوم_والتكنولوجيا_والنقل_البحري"
+      },
+      {
+        "title": "إسماعيل عبد الغفار: الأكاديمية العربية بيت خبرة متخصص يدعم التكامل في منظومة النقل واللوجستيات — صوت الأمم (2026-11-03)",
+        "url": "https://soutalomam.net/إسماعيل-عبد-الغفار-الأكاديمية-العربي/"
+      },
+      {
+        "title": "حوار مع د. إسماعيل عبدالغفار رئيس الأكاديمية العربية — المصري اليوم (2026-09-07)",
+        "url": "https://www.almasryalyoum.com/news/details/4354180"
+      },
+      {
+        "title": "President Biography | AASTMT（官网校长简历，经搜索摘要确认）",
+        "url": "https://aast.edu/en/presidency/bio.php"
+      }
+    ]
   }
 }

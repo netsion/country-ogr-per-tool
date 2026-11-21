@@ -1,19 +1,22 @@
 {
   "org_id": "EG-MEDIA-016",
   "basic_info": {
-    "name_original": "Capital Broadcasting Center",
-    "name_zh": null,
+    "name_original": "مركز تلفزيون العاصمة",
+    "name_zh": "首都广播电视中心",
     "name_en": "Capital Broadcasting Center",
     "aliases": [
       "CBC",
-      "Capital Broadcast Center"
+      "Capital Broadcast Center",
+      "سي بي سي",
+      "مركز تلفزيون العاصمة",
+      "CBC Egypt"
     ],
     "org_type": "MEDIA",
     "org_subtype": "broadcaster",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "2011-07-02",
-    "website": null,
+    "website": "https://www.cbc-eg.com",
     "wikidata_qid": "Q3546311"
   },
   "social_accounts": [
@@ -22,45 +25,213 @@
       "account_name": "CBCEgypt",
       "url": "https://twitter.com/CBCEgypt",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata；阿语维基百科信息框亦列 X 账号 CBCEgypt"
     },
     {
       "platform": "facebook",
       "account_name": "CBCEgypt",
       "url": "https://facebook.com/CBCEgypt",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata；阿语维基百科信息框及搜索确认官方主页（页面名 CBC Now）"
     },
     {
       "platform": "youtube",
       "account_name": "UCB6sc84dcg6VQGB_d89sx2g",
       "url": "https://youtube.com/channel/UCB6sc84dcg6VQGB_d89sx2g",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata；官方频道另用 youtube.com/CBCegypt 域名（搜索确认）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "cbcnow",
+      "url": "https://www.instagram.com/cbcnow/",
+      "source": 8,
+      "source_note": "搜索引擎结果确认官方账号，账号简介与CBC频道官方描述一致（埃及综合频道、频率12092-垂直极化）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "cbc-egypt",
+      "url": "https://jo.linkedin.com/company/cbc-egypt",
+      "source": 17,
+      "source_note": "搜索结果确认CBC Egypt LinkedIn公司页，页面简介介绍CBC频道矩阵"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "broadcasting"
+  "digital_assets": [
+    {
+      "name": "CBC官方网站",
+      "url": "https://www.cbc-eg.com",
+      "description": "Capital Broadcasting Center 官方门户网站（cbc-eg.com），提供频道矩阵介绍、节目信息等。读取时返回502，域名存在性经任务指定与搜索确认。",
+      "source": "https://www.cbc-eg.com"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000368",
+      "name": "穆罕默德·阿明 (محمد الأمين)",
+      "title": "创始人兼主要所有者（曾任董事长）",
+      "title_description": "CBC创办时的主要投资人与所有者，曾任CBC频道集团董事长",
+      "description": "工程师出身的媒体投资人。2011年7月联合创办CBC，为频道主要所有者。2015年4月Al-Mal News报道其时任CBC频道集团董事长并否认拟向科威特投资者出售所持63%股份；2015年8月Al-Masry Al-Youm访谈提及他将CBC董事长职务交给瓦利德·欧赛维。2016年5月24日以CBC主要投资人身份出席与拿哈尔电视网的合并发布会。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000783",
+      "name": "瓦利德·欧赛维 (وليد العيسوي)",
+      "title": "联合创始人（2015年起任董事长）",
+      "title_description": "CBC四位联合创始人之一，曾任董事总经理、后接任董事会主席",
+      "description": "据Masrawy 2018年人物档案，其为2011年CBC四位联合创始人之一（与穆罕默德·阿明、记者海里·拉马丹、专栏作家马格迪·贾拉德）。曾任CBC董事总经理，2015年前后接替穆罕默德·阿明出任CBC董事会主席（Al-Masry Al-Youm 2015年8月访谈及2016年1月CBC五周年庆典致辞视频佐证）。近年公开活动集中于广告业（MMS公司），CBC现职情况未能核实。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000370",
+      "name": "塞夫·瓦齐里 (سيف الوزيري)",
+      "title": "母公司UMS董事长兼董事总经理",
+      "title_description": "CBC所有方联合媒体服务公司（UMS）现任最高负责人",
+      "description": "2026年7月16日UMS董事会宣布其出任公司董事长兼董事总经理，接替请辞的塔里克·努尔（UMS官网公告；Al-Quds Al-Arabi 2026年9月11日专栏及阿语维基UMS条目佐证）。CBC为UMS旗下频道网络，其人事变动直接影响CBC治理。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000784",
+      "name": "塔里克·努尔 (طارق نور)",
+      "title": "母公司UMS前董事长（2024年12月—2026年7月）",
+      "title_description": "埃及广告业巨头、Tarek Nour控股创始人，曾任CBC母公司UMS董事长",
+      "description": "2024年12月10日UMS宣布与Tarek Nour控股及Al-Mehwar频道结盟并改组董事会后出任UMS董事长（UMS官方账号公告；Youm7 2026年1月30日报道仍以UMS董事长身份出席活动）。2026年4月因个人情况提出请辞获挽留，2026年7月16日由塞夫·瓦齐里接任。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-MEDIA-016-DEPT-001",
+      "name": "CBC综合频道 (سي بي سي)",
+      "head": null,
+      "description": "CBC旗舰综合频道，2011年7月2日开播，播出综合娱乐、时政谈话及社会类节目；2025年2月切换为HD高清播出。代表节目包括《الستات ما يعرفوش يكدبوا》《والله أعلم》（阿里·朱马主持）《من سيربح المليون》（谁将赢得百万）《شارك تانك مصر》等（阿语维基）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-016-DEPT-002",
+      "name": "CBC Drama (سي بي سي دراما)",
+      "head": null,
+      "description": "电视剧专业频道，专营埃及及阿拉伯电视剧与戏剧内容播出（英/阿语维基）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-016-DEPT-003",
+      "name": "CBC Sofra (سي بي سي سفرة)",
+      "head": null,
+      "description": "烹饪美食专业频道，专营烹饪艺术与饮食类节目（英/阿语维基）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-016-DEPT-004",
+      "name": "Extra News (إكسترا نيوز)",
+      "head": null,
+      "description": "新闻频道。前身为CBC Extra，与拿哈尔电视网「拿哈尔今日」频道合并后改名为Extra News（阿语维基）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-MEDIA-016-DEPT-005",
+      "name": "Extra Live (إكسترا لايف)",
+      "head": null,
+      "description": "英文维基百科列其为CBC姊妹频道的直播类新闻频道。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2024-12-10",
+      "title": "母公司UMS与塔里克·努尔控股结盟，努尔出任UMS董事长",
+      "description": "2024年12月10日，CBC所有方联合媒体服务公司（UMS）官方宣布与Tarek Nour控股公司及Al-Mehwar频道结成联盟，聘请媒体行业专家与现任管理层协作并改组董事会，广告业巨头塔里克·努尔出任UMS董事长。State Media Monitor及多方报道记载此次任命属于UMS与Tarek Nour Holding、Al-Mehwar频道的联盟安排。",
+      "impact": "分析（依据官方公告及后续报道）：CBC作为UMS旗下频道网络进入「努尔时代」，公司治理、商业化与内容编排策略随之调整；2026年1月努尔仍以UMS董事长身份公开活动（Youm7）。",
+      "source": "https://www.facebook.com/umsegypt/posts/998494602304305"
+    },
+    {
+      "date": "2025-02-19",
+      "title": "CBC全频道切换HD高清播出（新频率12092-V）",
+      "description": "CBC官方频道于2025年2月19日发布「重要通知：CBC现在是HD」公告，宣布频道切换至高清（HD）播出，Nilesat新频率12092、垂直极化、符码率27500；官方Facebook页面简介随后持续标注「观看CBC HD频道请用频率12092（垂直极化）」。",
+      "impact": "技术升级信号：旗舰频道画质全面升级为HD，提升广告与内容竞争力；旧标清频率用户需重新调谐。",
+      "source": "https://www.youtube.com/watch?v=RKEnNo3u-nw"
+    },
+    {
+      "date": "2025-07-16",
+      "title": "母公司UMS解约批评政府节目主持人，媒体管控收紧",
+      "description": "据保护记者委员会（CPJ）2025年7月22日通报，2025年7月16日UMS终止资深记者拉米斯·哈迪迪的合同，其ON TV节目《Kelma Akheera》自7月初停播；同期UMS旗下/联盟媒体还中断Al-Mehwar电视台希里·拉马丹节目并解除开罗人和网（Al-Qahera Wal Nas）易卜拉欣·伊萨的合同，起因均涉及政府批评、军工企业及道路安全事故报道。CBC未被CPJ直接点名，但CBC同为UMS（隶属埃及情报总局）旗下频道。",
+      "impact": "分析（依据CPJ通报）：事件显示CBC所属UMS系统对内容红线（政府问责、军方话题）的管控收紧，CBC时政谈话节目的选题空间面临同类约束。",
+      "source": "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "UMS董事会任命塞夫·瓦齐里为董事长兼董事总经理",
+      "description": "2026年7月16日，UMS董事会宣布任命塞夫·瓦齐里出任公司董事长兼董事总经理，接替此前因个人情况请辞的塔里克·努尔（努尔2026年4月曾提出请辞并被挽留）。UMS官网发布任命公告；Al-Quds Al-Arabi 2026年9月11日专栏以「现管理层由瓦齐里执掌」佐证，Broadcast Pro、阿语维基UMS条目同载此任命。",
+      "impact": "分析（依据UMS官方公告及多家报道）：CBC母公司最高负责人再度更替，UMS系统的频道定位、资源配置与商业化路径可能进一步调整；CBC治理与编辑方针随母公司换届待观察。",
+      "source": "https://ums.com.eg/مجلس-الشركة-المتحدة-للخدمات-الإعلامي/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-MEDIA-019",
+      "org_name": "联合媒体服务公司 (المتحدة للخدمات الإعلامية)",
+      "org_type": "CORP",
+      "org_description": "埃及大型媒体集团，据英/阿语维基百科为埃及情报总局拥有的媒体公司，旗下拥有CBC、ON等电视媒体资产；2026年7月起由塞夫·瓦齐里任董事长兼董事总经理。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "EG-MIL-005",
+      "org_name": "埃及情报总局 (جهاز المخابرات العامة)",
+      "org_type": "MIL",
+      "org_description": "埃及主要情报机构。据英文维基百科，UMS为「埃及情报总局拥有的公司」，CBC经由UMS间接归属其控制；阿语维基亦表述CBC「隶属联合媒体服务公司，该公司为埃及情报总局所有」。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "拿哈尔电视网 (شبكة تليفزيون النهار)",
+      "org_type": "MEDIA",
+      "org_description": "埃及私营电视网。2016年5月24日与CBC宣布在大型控股公司架构下合并双方频道资产（发布会由双方主要投资人穆罕默德·阿明、阿拉·卡赫基等出席），但该合作「未持续太久」（阿语维基）。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "首都广播电视中心（Capital Broadcasting Center，简称CBC）是埃及最大的私营卫星电视网络之一，2011年7月2日在2011年埃及革命后的媒体开放潮中开播，总部位于吉萨省第六十月城，以阿拉伯语面向埃及及中东/阿拉伯世界免费播出。CBC定位为「综合性、社会新闻型」电视网，业务覆盖综合娱乐与时政谈话（CBC旗舰频道）、电视剧（CBC Drama）、烹饪美食（CBC Sofra）以及新闻直播（Extra News、Extra Live，其中Extra News前身为CBC Extra）；历史上还运营过CBC Two（因埃超停摆于2016年3月1日停播）和CBC +2（延时重播频道，已关闭）。代表性节目包括女性谈话节目《الستات ما يعرفوش يكدبوا》、阿里·朱马主持的宗教社科节目《والله أعلم》、知识竞猜节目《من سيربح المليون》（谁将赢得百万）及创业实境节目《شارك تانك مصر》等；旗舰访谈节目《معكم منى الشاذلي》2023年转至ON频道播出。信号经由Nilesat（12092-V，HD）与Arabsat覆盖，2025年2月完成HD高清切换。所有权方面，CBC现为联合媒体服务公司（UMS）旗下资产；UMS据英/阿语维基为埃及情报总局所有的媒体集团，CBC因此被外界归入亲政府媒体阵营并受到「亲政府偏见」指控。2011—2016年创办初期，CBC由工程师出身的商人穆罕默德·阿明控股（曾持约63%股权），2016年5月曾与拿哈尔电视网宣布合并但未持续。收入来源以广告经营为主，并与母公司UMS系统的广告与制作资源协同。",
+  "industries": [
+    "broadcasting",
+    "digital_media"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/CBC_TV.png/330px-CBC_TV.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-MEDIA-016.png",
+    "minio_path": "default/popular-org-profile/eg/EG-MEDIA-016.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
-      "wikipedia"
+      "wikipedia",
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 84,
+    "quotes": [
+      {
+        "title": "Capital Broadcasting Center - Wikipedia (EN)",
+        "url": "https://en.wikipedia.org/wiki/Capital_Broadcasting_Center"
+      },
+      {
+        "title": "شبكة قنوات سي بي سي - ويكيبيديا العربية (AR Wikipedia)",
+        "url": "https://ar.wikipedia.org/wiki/شبكة_قنوات_سي_بي_سي"
+      },
+      {
+        "title": "CPJ: Egypt's intelligence-controlled media company retaliates against programs, hosts critical of government",
+        "url": "https://cpj.org/2025/07/egypts-intelligence-controlled-media-company-retaliates-against-programs-hosts-critical-of-government/"
+      },
+      {
+        "title": "UMS官网公告：المجلس الشركة المتحدة للخدمات الإعلامية يعلن تعيين سيف الوزيري رئيسًا",
+        "url": "https://ums.com.eg/مجلس-الشركة-المتحدة-للخدمات-الإعلامي/"
+      },
+      {
+        "title": "Masrawy人物档案: وليد العيسوي.. مهندس الإعلام والإعلان",
+        "url": "https://www.masrawy.com/news/news_egypt/details/2018/2/12/1262098/بروفايل-وليد-العيسوي-مهندس-الإعلام-والإعلان"
+      },
+      {
+        "title": "Al-Mal News: محمد الأمين ينفى بيع أسهمه فى CBC لمستثمر كويتى",
+        "url": "https://almalnews.com/220939/محمد-الأمين-ينفى-بيع-أسهمه-فى-CBC/"
+      }
+    ],
+    "notes": "P3 enrichment 2026-11-17: EN/AR Wikipedia + UMS official announcements + CPJ + Egyptian press. CBC具体在任台长/频道负责人公开信息缺失（head留空）；现属UMS体系后CBC自身董事会构成未单独披露。 Extra Live仅英文维基姊妹频道列表佐证。"
   }
 }

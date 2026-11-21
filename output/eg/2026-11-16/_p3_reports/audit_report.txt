@@ -1,0 +1,316 @@
+### 1. QID duplicates (target file)
+  dup QIDs: 0
+
+### 2. name_en duplicates
+  dup names: 0
+
+### 3. skeleton/target QID consistency
+  mismatches: 0
+
+### 4. P31 (instance-of) / P17 (country) extraction
+  distinct P31 values: 87
+    P31 Q327333 x22: government agency
+    P31 Q4830453 x17: business
+    P31 Q7278 x14: political party
+    P31 Q11032 x13: newspaper
+    P31 Q3918 x12: university
+    P31 Q43229 x10: organization
+    P31 Q192350 x9: ministry
+    P31 Q783794 x9: company
+    P31 Q22687 x9: bank
+    P31 Q219577 x6: holding company
+    P31 Q270791 x6: state-owned enterprise
+    P31 Q875538 x6: public university
+    P31 Q163740 x6: nonprofit organization
+    P31 Q484652 x6: international organization
+    P31 Q31855 x5: research institute
+    P31 Q190752 x3: supreme court
+    P31 Q134161 x3: joint-stock company
+    P31 Q730038 x3: credit institution
+    P31 Q4671277 x3: academic institution
+    P31 Q1110794 x3: daily newspaper
+    P31 Q19973795 x2: ministry of energy
+    P31 Q1530022 x2: religious organization
+    P31 Q620615 x2: mobile app
+    P31 Q45400320 x2: open-access publisher
+    P31 Q35127 x2: website
+    P31 Q294414 x1: public office
+    P31 Q7188 x1: government
+    P31 Q375928 x1: lower house
+    P31 Q2570643 x1: senate
+    P31 Q20901295 x1: foreign affairs ministry
+    P31 Q1788820 x1: defence ministry
+    P31 Q6589202 x1: interior ministry
+    P31 Q15711797 x1: finance ministry
+    P31 Q1413677 x1: justice ministry
+    P31 Q2269756 x1: ministry of education
+    P31 Q6867185 x1: ministry of industry
+    P31 Q2446662 x1: tourism ministry
+    P31 Q19973770 x1: ministry of culture
+    P31 Q2142766 x1: ministry of religious affairs
+    P31 Q3756431 x1: cabinet department
+    P31 Q4828720 x1: aviation ministry
+    P31 Q12315821 x1: transport accident investigation agency
+    P31 Q19983480 x1: ministry of communications
+    P31 Q32766 x1: constitutional court
+    P31 Q105985 x1: judiciary
+    P31 Q480242 x1: statistical service
+    P31 Q935741 x1: election commission
+    P31 Q182290 x1: customs agency
+    P31 Q105062392 x1: financial regulatory agency
+    P31 Q2659904 x1: government organization
+    P31 Q772547 x1: armed forces
+    P31 Q37726 x1: army
+    P31 Q61883 x1: air force
+    P31 Q4508 x1: navy
+    P31 Q47913 x1: intelligence agency
+    P31 Q9140931 x1: military authority
+    P31 Q2401749 x1: telecommunications company
+    P31 Q46970 x1: airline
+    P31 Q15265344 x1: broadcaster
+    P31 Q18127 x1: record label
+    P31 Q2324835 x1: national railway
+    P31 Q721329 x1: direct-broadcast satellite
+    P31 Q12832168 x1: artificial satellite of the Earth
+    P31 Q786820 x1: automobile manufacturer
+    P31 Q66344 x1: central bank
+    P31 Q658255 x1: subsidiary company
+    P31 Q11691 x1: stock exchange
+    P31 Q13499 x1: debit card
+    P31 Q902104 x1: private university
+    P31 Q2385804 x1: educational institution
+    P31 Q79007 x1: street
+    P31 Q1715155 x1: maritime college
+    P31 Q1254933 x1: astronomical observatory
+    P31 Q414147 x1: academy of sciences
+    P31 Q2467461 x1: academic department
+    P31 Q1968122 x1: National Red Cross and Red Crescent society
+    P31 Q79913 x1: non-governmental organization
+    P31 Q155271 x1: think tank
+    P31 Q1002697 x1: periodical
+    P31 Q192283 x1: news agency
+    P31 Q1616075 x1: television station
+    P31 Q1331793 x1: media company
+    P31 Q6762254 x1: Islamist movement
+    P31 Q4120211 x1: regional organization
+    P31 Q1140229 x1: political union
+    P31 Q137290726 x1: language-based geopolitical organization
+    P31 Q17505024 x1: space agency
+  P31-suspect orgs: 0
+  distinct P17 values: 3
+  orgs with no P17 claim: 10 (info only)
+
+### 5. person_id integrity (org key_people -> person_registry)
+  person refs: 56, dangling: 0
+  same key_people name in multiple orgs: 1
+    !! '': [('EG-FIN-001', 'EG-PERSON-000001'), ('EG-GOV-001', 'EG-PERSON-000002'), ('EG-GOV-002', 'EG-PERSON-000003'), ('EG-GOV-003', 'EG-PERSON-000004'), ('EG-GOV-004', 'EG-PERSON-000005'), ('EG-GOV-005', 'EG-PERSON-000006'), ('EG-GOV-006', 'EG-PERSON-000007'), ('EG-GOV-007', 'EG-PERSON-000008'), ('EG-GOV-008', 'EG-PERSON-000009'), ('EG-GOV-009', 'EG-PERSON-000010'), ('EG-GOV-010', 'EG-PERSON-000011'), ('EG-GOV-011', 'EG-PERSON-000012'), ('EG-GOV-012', 'EG-PERSON-000013'), ('EG-GOV-013', 'EG-PERSON-000014'), ('EG-GOV-014', 'EG-PERSON-000015'), ('EG-GOV-015', 'EG-PERSON-000016'), ('EG-GOV-016', 'EG-PERSON-000017'), ('EG-GOV-017', 'EG-PERSON-000018'), ('EG-GOV-018', 'EG-PERSON-000019'), ('EG-GOV-019', 'EG-PERSON-000020'), ('EG-GOV-020', 'EG-PERSON-000021'), ('EG-GOV-021', 'EG-PERSON-000022'), ('EG-GOV-022', 'EG-PERSON-000023'), ('EG-GOV-023', 'EG-PERSON-000024'), ('EG-GOV-024', 'EG-PERSON-000025'), ('EG-GOV-025', 'EG-PERSON-000013'), ('EG-GOV-026', 'EG-PERSON-000026'), ('EG-GOV-027', 'EG-PERSON-000027'), ('EG-GOV-028', 'EG-PERSON-000028'), ('EG-GOV-029', 'EG-PERSON-000029'), ('EG-GOV-030', 'EG-PERSON-000030'), ('EG-GOV-031', 'EG-PERSON-000031'), ('EG-GOV-033', 'EG-PERSON-000032'), ('EG-GOV-051', 'EG-PERSON-000033'), ('EG-INTL-001', 'EG-PERSON-000034'), ('EG-MIL-001', 'EG-PERSON-000007'), ('EG-MIL-001', 'EG-PERSON-000002'), ('EG-MIL-005', 'EG-PERSON-000035'), ('EG-PARTY-004', 'EG-PERSON-000042'), ('EG-PARTY-004', 'EG-PERSON-000044'), ('EG-PARTY-005', 'EG-PERSON-000045'), ('EG-PARTY-006', 'EG-PERSON-000047'), ('EG-PARTY-013', 'EG-PERSON-000036'), ('EG-PARTY-014', 'EG-PERSON-000048'), ('EG-PARTY-014', 'EG-PERSON-000049'), ('EG-PARTY-015', 'EG-PERSON-000050'), ('EG-SOE-001', 'EG-PERSON-000037')]
+
+### 6. key_people name format
+  with Arabic in parens: 0, without: 58 (skeleton uses en labels; P3 fixes)
+
+### 7. founded_date format
+  non-strict founded_date: 0
+
+### 8. name_zh fill
+  name_zh filled: 80/190
+
+### 9. cache integrity
+  cache files: 167 (target QIDs: 160)
+  QID orgs missing cache: 0 []
+  caches without wikipedia: 24
+
+### 10. registry vs files
+  files: {'ACAD': 23, 'CORP': 18, 'FIN': 15, 'GOV': 53, 'INTL': 7, 'MEDIA': 19, 'MIL': 7, 'NGO': 14, 'PARTY': 16, 'SOE': 18}
+  counters: {'GOV': 53, 'MIL': 7, 'SOE': 18, 'CORP': 18, 'FIN': 15, 'ACAD': 23, 'NGO': 14, 'MEDIA': 19, 'PARTY': 16, 'INTL': 7}
+
+### 11. full org list (for trim review)
+  EG-GOV-001 | GOV | qid:Y | kp:1 soc:0 sc:19 | verified | President of Egypt | sub:Head of State
+  EG-GOV-002 | GOV | qid:Y | kp:1 soc:3 sc:27 | verified | Cabinet of Egypt | sub:Executive Branch
+  EG-GOV-003 | GOV | qid:Y | kp:1 soc:0 sc:19 | verified | House of Representatives (Egypt) | sub:Legislature
+  EG-GOV-004 | GOV | qid:Y | kp:1 soc:0 sc:16 | verified | Senate (Egypt) | sub:Legislature
+  EG-GOV-005 | GOV | qid:Y | kp:1 soc:3 sc:27 | verified | Ministry of Foreign Affairs of Egypt | sub:Ministry
+  EG-GOV-006 | GOV | qid:Y | kp:1 soc:3 sc:25 | verified | Ministry of Defense (Egypt) | sub:Ministry
+  EG-GOV-007 | GOV | qid:Y | kp:1 soc:3 sc:27 | verified | Ministry of Interior (Egypt) | sub:Ministry
+  EG-GOV-008 | GOV | qid:Y | kp:1 soc:3 sc:27 | verified | Ministry of Finance (Egypt) | sub:Ministry
+  EG-GOV-009 | GOV | qid:Y | kp:1 soc:3 sc:23 | verified | Ministry of Justice (Egypt) | sub:Ministry
+  EG-GOV-010 | GOV | qid:Y | kp:1 soc:3 sc:25 | verified | Ministry of Health and Population | sub:Ministry
+  EG-GOV-011 | GOV | qid:Y | kp:1 soc:3 sc:24 | verified | Ministry of Education (Egypt) | sub:Ministry
+  EG-GOV-012 | GOV | qid:Y | kp:1 soc:2 sc:23 | verified | Ministry of Higher Education and Scientific Research | sub:Ministry
+  EG-GOV-013 | GOV | qid:Y | kp:1 soc:1 sc:21 | verified | Ministry of Trade and Industry (Egypt) | sub:Ministry
+  EG-GOV-014 | GOV | qid:Y | kp:1 soc:2 sc:24 | verified | Ministry of Petroleum and Mineral Resources | sub:Ministry
+  EG-GOV-015 | GOV | qid:Y | kp:1 soc:0 sc:20 | verified | Ministry of Electricity and Renewable Energy | sub:Ministry
+  EG-GOV-016 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Housing, Utilities and Urban Communities | sub:Ministry
+  EG-GOV-017 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Transport (Egypt) | sub:Ministry
+  EG-GOV-018 | GOV | qid:Y | kp:1 soc:2 sc:23 | verified | Ministry of Water Resources and Irrigation | sub:Ministry
+  EG-GOV-019 | GOV | qid:N | kp:1 soc:0 sc:15 | verified | Ministry of Agriculture and Land Reclamation | sub:Ministry
+  EG-GOV-020 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Supply and Internal Trade | sub:Ministry
+  EG-GOV-021 | GOV | qid:Y | kp:1 soc:3 sc:25 | verified | Ministry of Social Solidarity | sub:Ministry
+  EG-GOV-022 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Planning and Economic Development | sub:Ministry
+  EG-GOV-023 | GOV | qid:Y | kp:1 soc:2 sc:24 | verified | Ministry of Tourism and Antiquities | sub:Ministry
+  EG-GOV-024 | GOV | qid:Y | kp:1 soc:2 sc:23 | verified | Ministry of Local Development and Environment | sub:Ministry
+  EG-GOV-025 | GOV | qid:Y | kp:1 soc:2 sc:24 | verified | Ministry of Culture (Egypt) | sub:Ministry
+  EG-GOV-026 | GOV | qid:Y | kp:1 soc:3 sc:25 | verified | Ministry of Endowments | sub:Ministry
+  EG-GOV-027 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Labour | sub:Ministry
+  EG-GOV-028 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Youth and Sports | sub:Ministry
+  EG-GOV-029 | GOV | qid:Y | kp:1 soc:2 sc:24 | verified | Ministry of Civil Aviation | sub:Ministry
+  EG-GOV-030 | GOV | qid:Y | kp:1 soc:3 sc:27 | verified | Ministry of Communications and Information Technology | sub:Ministry
+  EG-GOV-031 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Investment and Foreign Trade | sub:Ministry
+  EG-GOV-032 | GOV | qid:Y | kp:0 soc:3 sc:17 | partial | Ministry of International Cooperation | sub:Ministry
+  EG-GOV-033 | GOV | qid:N | kp:1 soc:0 sc:12 | verified | Ministry of Parliamentary Affairs | sub:Ministry
+  EG-GOV-034 | GOV | qid:Y | kp:0 soc:0 sc:15 | verified | Supreme Constitutional Court of Egypt | sub:Judiciary
+  EG-GOV-035 | GOV | qid:Y | kp:0 soc:0 sc:9 | verified | Court of Cassation (Egypt) | sub:Judiciary
+  EG-GOV-036 | GOV | qid:Y | kp:0 soc:0 sc:8 | verified | State Council (Egypt) | sub:Judiciary
+  EG-GOV-037 | GOV | qid:N | kp:0 soc:0 sc:8 | verified | Supreme Judicial Council | sub:Independent Body
+  EG-GOV-038 | GOV | qid:Y | kp:0 soc:0 sc:11 | verified | Central Auditing Organization | sub:Independent Body
+  EG-GOV-039 | GOV | qid:N | kp:0 soc:0 sc:8 | verified | Administrative Control Authority | sub:Independent Body
+  EG-GOV-040 | GOV | qid:Y | kp:0 soc:2 sc:20 | verified | Central Agency for Public Mobilization and Statistics | sub:Independent Body
+  EG-GOV-041 | GOV | qid:Y | kp:0 soc:0 sc:11 | verified | National Elections Commission | sub:Independent Body
+  EG-GOV-042 | GOV | qid:Y | kp:0 soc:3 sc:19 | verified | Egyptian Tax Authority | sub:Regulator
+  EG-GOV-043 | GOV | qid:Y | kp:0 soc:1 sc:13 | verified | Egypt Customs Authority | sub:Regulator
+  EG-GOV-044 | GOV | qid:Y | kp:0 soc:0 sc:13 | verified | Financial Regulatory Authority | sub:Regulator
+  EG-GOV-045 | GOV | qid:Y | kp:0 soc:2 sc:20 | verified | National Telecommunications Regulatory Authority | sub:Regulator
+  EG-GOV-046 | GOV | qid:Y | kp:0 soc:0 sc:9 | verified | Egyptian Drug Authority | sub:Regulator
+  EG-GOV-047 | GOV | qid:N | kp:0 soc:0 sc:8 | partial | General Authority for Investment and Free Zones | sub:Regulator
+  EG-GOV-048 | GOV | qid:Y | kp:0 soc:3 sc:17 | verified | Supreme Council for Media Regulation | sub:Regulator
+  EG-GOV-049 | GOV | qid:Y | kp:0 soc:0 sc:11 | verified | National Council for Human Rights | sub:Independent Body
+  EG-GOV-050 | GOV | qid:Y | kp:0 soc:2 sc:16 | verified | Egyptian State Lawsuits Authority | sub:Independent Body
+  EG-GOV-051 | GOV | qid:Y | kp:1 soc:0 sc:20 | verified | Al-Azhar al-Sharif | sub:Religious Institution
+  EG-GOV-052 | GOV | qid:Y | kp:0 soc:0 sc:13 | verified | New Urban Communities Authority | sub:Statutory Authority
+  EG-GOV-053 | GOV | qid:Y | kp:0 soc:0 sc:12 | verified | Suez Canal Economic Zone | sub:Statutory Authority
+  EG-MIL-001 | MIL | qid:Y | kp:2 soc:0 sc:21 | verified | Egyptian Armed Forces | sub:Armed Forces
+  EG-MIL-002 | MIL | qid:Y | kp:0 soc:0 sc:13 | verified | Egyptian Army | sub:Armed Forces
+  EG-MIL-003 | MIL | qid:Y | kp:0 soc:0 sc:13 | verified | Egyptian Air Force | sub:Armed Forces
+  EG-MIL-004 | MIL | qid:Y | kp:0 soc:0 sc:13 | verified | Egyptian Navy | sub:Armed Forces
+  EG-MIL-005 | MIL | qid:Y | kp:1 soc:0 sc:17 | verified | General Intelligence Service | sub:Intelligence
+  EG-MIL-006 | MIL | qid:Y | kp:0 soc:0 sc:12 | verified | National Authority for Military Production | sub:Military Industry
+  EG-MIL-007 | MIL | qid:Y | kp:0 soc:0 sc:11 | verified | National Service Products Organization | sub:Military Industry
+  EG-SOE-001 | SOE | qid:Y | kp:1 soc:3 sc:27 | verified | Suez Canal Authority | sub:State Enterprise
+  EG-SOE-002 | SOE | qid:Y | kp:0 soc:0 sc:11 | verified | Egyptian General Petroleum Corporation | sub:State Holding
+  EG-SOE-003 | SOE | qid:Y | kp:0 soc:0 sc:12 | verified | Egyptian Natural Gas Holding Company | sub:State Holding
+  EG-SOE-004 | SOE | qid:Y | kp:0 soc:3 sc:25 | verified | Telecom Egypt | sub:State-controlled Listed Company
+  EG-SOE-005 | SOE | qid:Y | kp:0 soc:3 sc:23 | verified | EgyptAir | sub:State Enterprise
+  EG-SOE-006 | SOE | qid:Y | kp:0 soc:3 sc:23 | verified | Egypt Post | sub:State Enterprise
+  EG-SOE-007 | SOE | qid:Y | kp:1 soc:3 sc:27 | verified | National Media Authority | sub:State Broadcasting
+  EG-SOE-008 | SOE | qid:Y | kp:0 soc:3 sc:19 | verified | Egyptian Electricity Holding Company | sub:State Holding
+  EG-SOE-009 | SOE | qid:N | kp:0 soc:0 sc:8 | partial | Holding Company for Water and Wastewater | sub:State Holding
+  EG-SOE-010 | SOE | qid:N | kp:0 soc:0 sc:8 | partial | Egyptian Holding Company for Airports and Air Navigation | sub:State Holding
+  EG-SOE-011 | SOE | qid:Y | kp:0 soc:2 sc:20 | verified | Egyptian National Railways | sub:State Enterprise
+  EG-SOE-012 | SOE | qid:Y | kp:0 soc:2 sc:20 | verified | Arab Organization for Industrialization | sub:Military Industry
+  EG-SOE-013 | SOE | qid:Y | kp:0 soc:0 sc:15 | verified | Arab Contractors | sub:State Enterprise
+  EG-SOE-014 | SOE | qid:Y | kp:0 soc:0 sc:11 | verified | Misr Spinning and Weaving Company | sub:State Enterprise
+  EG-SOE-015 | SOE | qid:Y | kp:2 soc:0 sc:20 | verified | Nilesat | sub:State-controlled Listed Company
+  EG-SOE-016 | SOE | qid:N | kp:0 soc:0 sc:8 | partial | Holding Company for Tourism and Hotels | sub:State Holding
+  EG-SOE-017 | SOE | qid:Y | kp:0 soc:0 sc:11 | verified | VACSERA | sub:State Enterprise
+  EG-SOE-018 | SOE | qid:N | kp:0 soc:0 sc:8 | partial | Sovereign Fund of Egypt | sub:Sovereign Wealth Fund
+  EG-CORP-001 | CORP | qid:Y | kp:2 soc:2 sc:27 | verified | Elsewedy Electric | sub:Listed Company
+  EG-CORP-002 | CORP | qid:Y | kp:0 soc:0 sc:13 | verified | Talaat Moustafa Group | sub:Listed Company
+  EG-CORP-003 | CORP | qid:Y | kp:0 soc:0 sc:9 | verified | Orascom Construction | sub:Listed Company
+  EG-CORP-004 | CORP | qid:Y | kp:0 soc:2 sc:16 | verified | Eastern Company | sub:Listed Company
+  EG-CORP-005 | CORP | qid:N | kp:0 soc:0 sc:8 | partial | Abu Qir Fertilizers | sub:Listed Company
+  EG-CORP-006 | CORP | qid:Y | kp:0 soc:2 sc:17 | verified | GB Corp | sub:Listed Company
+  EG-CORP-007 | CORP | qid:Y | kp:0 soc:3 sc:19 | verified | Juhayna Food Industries | sub:Listed Company
+  EG-CORP-008 | CORP | qid:Y | kp:0 soc:3 sc:19 | verified | Oriental Weavers | sub:Listed Company
+  EG-CORP-009 | CORP | qid:Y | kp:1 soc:3 sc:23 | verified | EFG Holding | sub:Private Company
+  EG-CORP-010 | CORP | qid:N | kp:0 soc:0 sc:8 | partial | Qalaa Holdings | sub:Listed Company
+  EG-CORP-011 | CORP | qid:N | kp:0 soc:0 sc:8 | partial | Palm Hills Developments | sub:Listed Company
+  EG-CORP-012 | CORP | qid:N | kp:0 soc:0 sc:8 | partial | SODIC | sub:Listed Company
+  EG-CORP-013 | CORP | qid:Y | kp:0 soc:2 sc:19 | verified | B.TECH | sub:Private Company
+  EG-CORP-014 | CORP | qid:Y | kp:0 soc:0 sc:11 | verified | Raya Holding | sub:Listed Company
+  EG-CORP-015 | CORP | qid:Y | kp:0 soc:0 sc:15 | verified | TE Data | sub:Subsidiary
+  EG-CORP-016 | CORP | qid:Y | kp:0 soc:2 sc:16 | verified | Asfour Crystal | sub:Private Company
+  EG-CORP-017 | CORP | qid:Y | kp:0 soc:2 sc:16 | verified | Olympic Group | sub:Listed Company
+  EG-CORP-018 | CORP | qid:Y | kp:0 soc:0 sc:11 | verified | Al Ahram Beverages | sub:Private Company
+  EG-FIN-001 | FIN | qid:Y | kp:1 soc:1 sc:21 | verified | Central Bank of Egypt | sub:Central Bank
+  EG-FIN-002 | FIN | qid:Y | kp:0 soc:3 sc:23 | verified | National Bank of Egypt | sub:Bank
+  EG-FIN-003 | FIN | qid:Y | kp:0 soc:3 sc:21 | verified | Banque Misr | sub:Bank
+  EG-FIN-004 | FIN | qid:Y | kp:0 soc:2 sc:21 | verified | Banque du Caire | sub:Bank
+  EG-FIN-005 | FIN | qid:Y | kp:0 soc:3 sc:21 | verified | Commercial International Bank | sub:Bank
+  EG-FIN-006 | FIN | qid:Y | kp:0 soc:1 sc:16 | verified | Alexbank | sub:Bank
+  EG-FIN-007 | FIN | qid:Y | kp:0 soc:0 sc:11 | verified | QNB Egypt | sub:Bank
+  EG-FIN-008 | FIN | qid:Y | kp:0 soc:1 sc:16 | verified | Arab African International Bank | sub:Bank
+  EG-FIN-009 | FIN | qid:Y | kp:1 soc:1 sc:20 | verified | Faisal Islamic Bank of Egypt | sub:Bank
+  EG-FIN-010 | FIN | qid:Y | kp:0 soc:0 sc:13 | verified | Agricultural Bank of Egypt | sub:Bank
+  EG-FIN-011 | FIN | qid:Y | kp:0 soc:1 sc:16 | verified | Housing and Development Bank | sub:Bank
+  EG-FIN-012 | FIN | qid:Y | kp:0 soc:2 sc:19 | verified | Suez Canal Bank | sub:Bank
+  EG-FIN-013 | FIN | qid:Y | kp:0 soc:2 sc:16 | verified | Misr Insurance | sub:Insurance
+  EG-FIN-014 | FIN | qid:Y | kp:0 soc:2 sc:19 | verified | Egyptian Exchange | sub:Stock Exchange
+  EG-FIN-015 | FIN | qid:Y | kp:0 soc:2 sc:21 | verified | Meeza | sub:Payment System
+  EG-ACAD-001 | ACAD | qid:Y | kp:1 soc:3 sc:27 | verified | Cairo University | sub:University
+  EG-ACAD-002 | ACAD | qid:Y | kp:0 soc:3 sc:25 | verified | Al-Azhar University | sub:University
+  EG-ACAD-003 | ACAD | qid:Y | kp:0 soc:3 sc:23 | verified | Ain Shams University | sub:University
+  EG-ACAD-004 | ACAD | qid:Y | kp:0 soc:3 sc:23 | verified | Alexandria University | sub:University
+  EG-ACAD-005 | ACAD | qid:Y | kp:0 soc:3 sc:20 | verified | American University in Cairo | sub:University
+  EG-ACAD-006 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | Mansoura University | sub:University
+  EG-ACAD-007 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | Assiut University | sub:University
+  EG-ACAD-008 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | Tanta University | sub:University
+  EG-ACAD-009 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | Zagazig University | sub:University
+  EG-ACAD-010 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | Helwan University | sub:University
+  EG-ACAD-011 | ACAD | qid:Y | kp:0 soc:0 sc:15 | verified | Benha University | sub:University
+  EG-ACAD-012 | ACAD | qid:Y | kp:0 soc:1 sc:13 | verified | Suez Canal University | sub:University
+  EG-ACAD-013 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | German University in Cairo | sub:University
+  EG-ACAD-014 | ACAD | qid:Y | kp:0 soc:3 sc:23 | verified | British University in Egypt | sub:University
+  EG-ACAD-015 | ACAD | qid:Y | kp:0 soc:2 sc:19 | verified | Future University in Egypt | sub:University
+  EG-ACAD-016 | ACAD | qid:Y | kp:0 soc:2 sc:19 | verified | Zewail City of Science and Technology | sub:Research University
+  EG-ACAD-017 | ACAD | qid:Y | kp:0 soc:1 sc:17 | verified | Arab Academy for Science and Technology and Maritime Transport | sub:University
+  EG-ACAD-018 | ACAD | qid:Y | kp:0 soc:0 sc:12 | verified | National Research Centre | sub:Research Institute
+  EG-ACAD-019 | ACAD | qid:Y | kp:1 soc:1 sc:17 | verified | National Research Institute of Astronomy and Geophysics | sub:Research Institute
+  EG-ACAD-020 | ACAD | qid:Y | kp:0 soc:0 sc:11 | verified | Academy of Scientific Research and Technology | sub:Research Organization
+  EG-ACAD-021 | ACAD | qid:Y | kp:0 soc:0 sc:12 | verified | National Authority for Remote Sensing and Space Sciences | sub:Research Institute
+  EG-ACAD-022 | ACAD | qid:Y | kp:0 soc:2 sc:20 | verified | Egypt-Japan University of Science and Technology | sub:University
+  EG-ACAD-023 | ACAD | qid:Y | kp:0 soc:0 sc:11 | verified | National Cancer Institute (Egypt) | sub:Research Institute
+  EG-NGO-001 | NGO | qid:Y | kp:0 soc:3 sc:21 | verified | Egyptian Red Crescent Society | sub:Humanitarian
+  EG-NGO-002 | NGO | qid:Y | kp:0 soc:3 sc:19 | verified | Misr El Kheir Foundation | sub:Charity
+  EG-NGO-003 | NGO | qid:Y | kp:0 soc:3 sc:19 | verified | Egyptian Food Bank | sub:Charity
+  EG-NGO-004 | NGO | qid:Y | kp:0 soc:1 sc:13 | verified | Resala Charity Organization | sub:Charity
+  EG-NGO-005 | NGO | qid:Y | kp:0 soc:1 sc:16 | verified | Egyptian Initiative for Personal Rights | sub:Human Rights
+  EG-NGO-006 | NGO | qid:Y | kp:0 soc:0 sc:9 | verified | Egyptian Center for Economic and Social Rights | sub:Human Rights
+  EG-NGO-007 | NGO | qid:N | kp:0 soc:0 sc:8 | partial | CEOSS | sub:Development
+  EG-NGO-008 | NGO | qid:N | kp:0 soc:0 sc:8 | partial | Maat Foundation for Peace, Development and Human Rights | sub:Human Rights
+  EG-NGO-009 | NGO | qid:N | kp:0 soc:0 sc:8 | partial | Alashanek Ya Balady Association | sub:Development
+  EG-NGO-010 | NGO | qid:N | kp:0 soc:0 sc:8 | partial | Al Orman Association | sub:Charity
+  EG-NGO-011 | NGO | qid:Y | kp:0 soc:0 sc:9 | verified | Magdi Yacoub Heart Foundation | sub:Charity
+  EG-NGO-012 | NGO | qid:Y | kp:0 soc:0 sc:11 | verified | Culture Resource (Mawred Al Thaqafy) | sub:Cultural
+  EG-NGO-013 | NGO | qid:N | kp:0 soc:0 sc:8 | partial | Caritas Egypt | sub:Charity
+  EG-NGO-014 | NGO | qid:N | kp:0 soc:0 sc:8 | partial | Association for Freedom of Thought and Expression | sub:Human Rights
+  EG-MEDIA-001 | MEDIA | qid:Y | kp:0 soc:3 sc:25 | verified | Al-Ahram | sub:Newspaper
+  EG-MEDIA-002 | MEDIA | qid:Y | kp:0 soc:1 sc:13 | verified | Al Ahram Weekly | sub:Newspaper
+  EG-MEDIA-003 | MEDIA | qid:Y | kp:0 soc:3 sc:23 | verified | Akhbar El-Yom | sub:Newspaper
+  EG-MEDIA-004 | MEDIA | qid:Y | kp:0 soc:0 sc:15 | verified | Al-Akhbar (Egypt) | sub:Newspaper
+  EG-MEDIA-005 | MEDIA | qid:Y | kp:0 soc:2 sc:20 | verified | Al-Gomhuria | sub:Newspaper
+  EG-MEDIA-006 | MEDIA | qid:Y | kp:0 soc:3 sc:23 | verified | Al-Masry Al-Youm | sub:Newspaper
+  EG-MEDIA-007 | MEDIA | qid:Y | kp:0 soc:3 sc:20 | verified | Youm7 | sub:Newspaper
+  EG-MEDIA-008 | MEDIA | qid:Y | kp:0 soc:3 sc:23 | verified | Al-Shorouk (newspaper) | sub:Newspaper
+  EG-MEDIA-009 | MEDIA | qid:Y | kp:0 soc:3 sc:20 | verified | Al-Wafd (newspaper) | sub:Newspaper
+  EG-MEDIA-010 | MEDIA | qid:Y | kp:0 soc:3 sc:20 | verified | El Watan News | sub:Newspaper
+  EG-MEDIA-011 | MEDIA | qid:Y | kp:0 soc:3 sc:19 | verified | Veto Gate | sub:Newspaper
+  EG-MEDIA-012 | MEDIA | qid:Y | kp:0 soc:3 sc:20 | verified | Daily News Egypt | sub:Newspaper
+  EG-MEDIA-013 | MEDIA | qid:Y | kp:0 soc:0 sc:15 | verified | Egyptian Gazette | sub:Newspaper
+  EG-MEDIA-014 | MEDIA | qid:Y | kp:0 soc:2 sc:16 | verified | Rose al-Youssef | sub:Newspaper
+  EG-MEDIA-015 | MEDIA | qid:Y | kp:0 soc:3 sc:20 | verified | Middle East News Agency | sub:News Agency
+  EG-MEDIA-016 | MEDIA | qid:Y | kp:0 soc:3 sc:20 | verified | Capital Broadcasting Center | sub:TV Network
+  EG-MEDIA-017 | MEDIA | qid:N | kp:0 soc:0 sc:8 | partial | ON E (TV network) | sub:TV Network
+  EG-MEDIA-018 | MEDIA | qid:N | kp:0 soc:0 sc:8 | partial | Al Hayah TV Network | sub:TV Network
+  EG-MEDIA-019 | MEDIA | qid:Y | kp:0 soc:2 sc:16 | verified | United Media Services | sub:Media Conglomerate
+  EG-PARTY-001 | PARTY | qid:Y | kp:0 soc:0 sc:15 | verified | Nation's Future Party | sub:Active Party
+  EG-PARTY-002 | PARTY | qid:Y | kp:0 soc:0 sc:11 | verified | Homeland Defenders Party | sub:Active Party
+  EG-PARTY-003 | PARTY | qid:N | kp:0 soc:0 sc:11 | partial | Republican People's Party | sub:Active Party
+  EG-PARTY-004 | PARTY | qid:Y | kp:3 soc:0 sc:27 | verified | New Wafd Party | sub:Active Party
+  EG-PARTY-005 | PARTY | qid:Y | kp:2 soc:0 sc:21 | verified | Free Egyptians Party | sub:Active Party
+  EG-PARTY-006 | PARTY | qid:Y | kp:1 soc:3 sc:27 | verified | Al-Nour Party | sub:Active Party
+  EG-PARTY-007 | PARTY | qid:Y | kp:0 soc:0 sc:15 | verified | National Progressive Unionist Party | sub:Active Party
+  EG-PARTY-008 | PARTY | qid:Y | kp:0 soc:0 sc:15 | verified | Egyptian Social Democratic Party | sub:Active Party
+  EG-PARTY-009 | PARTY | qid:Y | kp:0 soc:0 sc:15 | verified | Constitution Party | sub:Active Party
+  EG-PARTY-010 | PARTY | qid:Y | kp:0 soc:0 sc:13 | verified | Reform and Development Party | sub:Active Party
+  EG-PARTY-011 | PARTY | qid:Y | kp:0 soc:0 sc:13 | verified | Al-Wasat Party | sub:Active Party
+  EG-PARTY-012 | PARTY | qid:N | kp:0 soc:0 sc:11 | partial | Egyptian Conference Party | sub:Active Party
+  EG-PARTY-013 | PARTY | qid:Y | kp:1 soc:0 sc:19 | verified | Muslim Brotherhood | sub:Banned Organization
+  EG-PARTY-014 | PARTY | qid:Y | kp:2 soc:0 sc:23 | verified | National Democratic Party | sub:Dissolved Party
+  EG-PARTY-015 | PARTY | qid:Y | kp:1 soc:0 sc:17 | verified | Freedom and Justice Party | sub:Dissolved Party
+  EG-PARTY-016 | PARTY | qid:Y | kp:0 soc:1 sc:17 | verified | Arab Democratic Nasserist Party | sub:Active Party
+  EG-INTL-001 | INTL | qid:Y | kp:1 soc:3 sc:27 | verified | League of Arab States | sub:Intergovernmental Organization
+  EG-INTL-002 | INTL | qid:Y | kp:0 soc:1 sc:13 | verified | East Mediterranean Gas Forum | sub:Intergovernmental Organization
+  EG-INTL-003 | INTL | qid:Y | kp:0 soc:0 sc:13 | verified | Council of Arab Economic Unity | sub:Intergovernmental Organization
+  EG-INTL-004 | INTL | qid:Y | kp:0 soc:0 sc:15 | verified | African Space Agency | sub:Intergovernmental Organization
+  EG-INTL-005 | INTL | qid:Y | kp:0 soc:2 sc:19 | verified | Anna Lindh Euro-Mediterranean Foundation | sub:Intergovernmental Organization
+  EG-INTL-006 | INTL | qid:Y | kp:0 soc:2 sc:16 | verified | Arab Medical Union | sub:Regional NGO
+  EG-INTL-007 | INTL | qid:Y | kp:0 soc:3 sc:20 | verified | Arab Organization for Human Rights | sub:Regional NGO

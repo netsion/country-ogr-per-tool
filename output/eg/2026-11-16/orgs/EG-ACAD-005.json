@@ -1,13 +1,15 @@
 {
   "org_id": "EG-ACAD-005",
   "basic_info": {
-    "name_original": "The American University in Cairo",
+    "name_original": "الجامعة الأمريكية بالقاهرة",
     "name_zh": "開羅美國大學",
     "name_en": "The American University in Cairo",
     "aliases": [
       "American University in Cairo",
       "AUC",
-      "aucegypt.edu"
+      "aucegypt.edu",
+      "The American University at Cairo（建校初期英文名，后由at改为in）",
+      "الجامعة الأمريكية في القاهرة"
     ],
     "org_type": "ACAD",
     "org_subtype": "university",
@@ -23,43 +25,229 @@
       "account_name": "AUC",
       "url": "https://twitter.com/AUC",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata收录；X平台官方账号（x.com/AUC）经搜索结果确认"
     },
     {
       "platform": "facebook",
       "account_name": "aucegypt",
       "url": "https://facebook.com/aucegypt",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata收录；官方主页facebook.com/aucegypt经搜索结果确认"
     },
     {
       "platform": "youtube",
       "account_name": "UCMl_NKC30p5E-5EW9tkBJBA",
       "url": "https://youtube.com/channel/UCMl_NKC30p5E-5EW9tkBJBA",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata收录的官方YouTube频道"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "auc_egypt",
+      "url": "https://www.instagram.com/auc_egypt/",
+      "source": 8,
+      "source_note": "Instagram官方账号，搜索结果显示其主页（2026年9月校长校园对话公告帖）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "aucegypt",
+      "url": "https://www.linkedin.com/school/aucegypt",
+      "source": 17,
+      "source_note": "LinkedIn官方学校主页，搜索结果确认"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "AUCPresident",
+      "url": "https://x.com/AUCPresident",
+      "source": 3,
+      "source_note": "校长艾哈迈德·达拉勒官方X账号，搜索结果确认（2025年12月21日节日致帖）"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "digital_assets": [
+    {
+      "name": "开罗美国大学出版社官网（AUC Press）",
+      "url": "https://aucpress.com",
+      "description": "大学旗下出版社（1960年成立）官方网站，为中东地区主要英文图书出版机构之一，年出版量最高约80种图书，官网提供书讯与月度新闻通讯下载",
+      "source": "official_website"
+    },
+    {
+      "name": "AUC大学新闻门户（University News/AccessAUC News）",
+      "url": "https://www.aucegypt.edu/accessauc/news",
+      "description": "开罗美国大学官方新闻门户，发布校园新闻、学术活动与公告",
+      "source": "official_website"
+    }
   ],
-  "apec_stance": null,
-  "profile": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000655",
+      "name": "艾哈迈德·达拉勒 (أحمد دلال)",
+      "title": "校长 (رئيس الجامعة)",
+      "title_description": "开罗美国大学第13任校长",
+      "description": "全名Ahmad S. Dallal，贝鲁特美国大学机械工程学士，后在美国多所知名大学深造并任教；2009-2015年在贝鲁特美国大学担任学术管理职务，2017-2021年任乔治城大学卡塔尔分校院长。2021年6月22日校董会宣布任命其为第13任校长，是该校建校以来首位阿拉伯裔校长（据NPR报道）。任职持续至2025-2026年：2025年6月毕业典礼致辞、2025年12月X账号发帖及2026年9月秋季校园对话公告均确认其在任。"
+    },
+    {
+      "person_id": "EG-PERSON-000656",
+      "name": "伊哈卜·阿卜杜勒-拉赫曼 (إيهاب عبد الرحمن)",
+      "title": "教务长 (Provost)",
+      "title_description": "负责学术事务的校教务长",
+      "description": "据英文维基百科信息框（当前版本）任开罗美国大学教务长；2021年7月至10月达拉勒就任前曾出任代理校长（据英文维基百科历任校长名录）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-005-DEPT-001",
+      "name": "翁西·萨维里斯商学院 (كلية أنسي ساويرس لإدارة الأعمال)",
+      "head": null,
+      "description": "Onsi Sawiris School of Business，提供商学学士、MBA及高管教育项目；商科项目获国际商学院协会（AACSB）认证（据英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-005-DEPT-002",
+      "name": "人文与社会科学学院 (كلية العلوم الإنسانية والاجتماعية)",
+      "head": null,
+      "description": "School of Humanities and Social Sciences，涵盖社会科学、人类学、阿拉伯与伊斯兰文明、英语与比较文学、艺术、哲学等学科（据阿、英维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-005-DEPT-003",
+      "name": "全球事务与公共政策学院 (كلية الشئون الدولية والسياسات العامة)",
+      "head": null,
+      "description": "School of Global Affairs and Public Policy（GAPP），设国际事务、公共管理、新闻与大众传播等方向；据阿语维基百科，埃及前外长纳比勒·法赫米为该学院创始院长；旗下卡迈勒·阿德姆中心（Kamal Adham Center）2025年推出人工智能新闻文凭"
+    },
+    {
+      "dept_id": "EG-ACAD-005-DEPT-004",
+      "name": "科学与工程学院 (كلية العلوم والهندسة)",
+      "head": null,
+      "description": "School of Sciences and Engineering，含工程、计算机科学、自然科学等方向；工程类项目获美国工程与技术认证委员会（ABET）认证（据英文维基百科）"
+    },
+    {
+      "dept_id": "EG-ACAD-005-DEPT-005",
+      "name": "继续教育学院 (كلية التعليم المستمر)",
+      "head": null,
+      "description": "School of Continuing Education，前身为成人教育与公共服务中心，每年服务数万名非学分课程及委托培训学员（据阿、英维基百科）"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-03-01",
+      "title": "美国政府效率部宣布终止AUC逾1.71亿美元USAID研究拨款",
+      "description": "据英文维基百科（援引美国白宫政府效率部DOGE公告），2025年3月1日DOGE宣布终止美国国际开发署（USAID）向开罗美国大学提供的超过1.71亿美元研究拨款。美国国际开发署监察长办公室2026年5月审计报告佐证了该背景：USAID埃及分处在2025年1月20日至3月间共终止44个埃及项目拨款。AUC此前为USAID在埃重要合作伙伴（2023年9月曾获8,500万美元合作拨款，为校史第二大拨款）。",
+      "impact": "冲击AUC依赖美方资助的研究与开发合作项目，校方需拓展其他资金来源；该事件成为美国对外援助收缩影响埃及美式教育机构的标志性案例（具体金额与日期以英文维基百科引述的DOGE公告为准）。",
+      "source": "https://en.wikipedia.org/wiki/American_University_in_Cairo"
+    },
+    {
+      "date": "2025-05-12",
+      "title": "AUC推出埃及首个过程安全管理专业文凭",
+      "description": "据AUC校长办公室新闻页（2025年5月12日条目），AUC启动埃及首个过程安全管理（Process Safety Management）文凭项目；阿语媒体报道确认该项目为AUC与埃及石油部及Methanex Egypt公司签署的合作协议成果。",
+      "impact": "填补埃及工业安全领域职业文凭教育空白，深化大学与政府及天然气化工产业的合作（双来源：aucegypt.edu、soutalomam.net）。",
+      "source": "https://www.aucegypt.edu/about/leadership/president/news"
+    },
+    {
+      "date": "2025-06-24",
+      "title": "2025届毕业典礼举行，校长达拉勒致辞",
+      "description": "AUC于2025年6月举行毕业典礼，校长艾哈迈德·达拉勒向毕业生发表致辞；校方官方YouTube频道于6月24日发布研究生毕业典礼致辞视频，另发布了本科生毕业典礼视频。",
+      "impact": "常规年度学术活动；印证校长在任履职状况（官方视频日期为2025-06-24）。",
+      "source": "https://www.youtube.com/watch?v=lZpuo_m0vqA"
+    },
+    {
+      "date": "2025-12-31",
+      "title": "2025年度盘点：AUC在科研、学科建设与产业合作取得多项进展",
+      "description": "据阿语媒体年终综述（2025-12-31）：设立中东与非洲首个埃及学讲席「阿米莉亚·皮博迪埃及学讲席教授及捐赠基金」，由知名埃及学家萨利玛·伊克拉姆（Salima Ikram）出任首任讲席教授；卡迈勒·阿德姆中心推出人工智能新闻文凭；新增可持续能源、基因组学与生物技术等新专业方向；入选牵头国家性「放心投资」科技创业联盟；与制药企业Minapharm共建非洲首个生物技术学院；与石油部及Methanex Egypt签署过程安全文凭协议；继续教育学院与大埃及博物馆合作培训项目；举办第二届Tahrir CultureFest文化节。",
+      "impact": "显示AUC在2025年围绕前沿学科（AI、生物技术、可持续能源）与国家产业战略深化布局，强化其区域研究型大学地位（以上为单一阿语来源综述，个别条目如过程安全文凭已获官网新闻页交叉印证）。",
+      "source": "https://www.soutalomam.net/الجامعة-الأمريكية-بالقاهرة-في-ختام-2025-ع/"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "2026届春季毕业典礼举行",
+      "description": "据AUC校长办公室新闻页（2026年6月16日条目），2026届春季毕业典礼举行，主讲嘉宾与班级代表致辞，毕业生正式开启人生新阶段。",
+      "impact": "常规年度学术活动（来源：aucegypt.edu官方页面）。",
+      "source": "https://www.aucegypt.edu/about/leadership/president/news"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "2026年秋季学期首场校园对话公告发布",
+      "description": "AUC官方Instagram账号发布公告：2026年秋季学期首场「校园对话」（Campus Conversation）将举行，校长艾哈迈德·达拉勒与学校高级管理层将分享学年工作重点并直接回应学生关切（帖文日期2026年9月28日）。",
+      "impact": "印证校长达拉勒至2026年秋季仍在任履职，并反映校方与学生的常态沟通机制。",
+      "source": "https://www.instagram.com/p/Dd1AUBfDPK7/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "埃及高等教育与科学研究部 (وزارة التعليم العالى والبحث العلمى)",
+      "org_type": "GOV",
+      "org_description": "埃及主管高等教育与科学研究的政府部门，私立大学的设立与质量认证框架主管机关",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": null,
+      "org_name": "美国国际学院与大学协会 (Association of American International Colleges and Universities)",
+      "org_type": "NGO",
+      "org_description": "美国境外美式国际学院与大学的行业协会，AUC为成员院校（据AAICU官网成员名录，列有AUC校长联络信息）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "非洲大学协会 (اتحاد الجامعات الإفريقية)",
+      "org_type": "INTL",
+      "org_description": "非洲高校的泛非大学联盟，据阿语维基百科AUC为其成员",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "开罗美国大学出版社 (AUC Press)",
+      "org_type": "CORP",
+      "org_description": "AUC于1960年设立的大学出版社，中东地区主要英文出版机构之一，年出版量最高约80种图书",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "开罗美国大学（AUC）是埃及一所私立、独立、多文化综合性的英语授课文理大学，1919年由美国北长老会资助的「美国赴埃及传教团」创建，创始人为查尔斯·沃森（Charles Watson），最初校址位于开罗解放广场海里帕夏宫，1920年正式开学，1928年首批授予学士学位并开始招收女生。2008年秋主校区迁至开罗新城区260英亩新校园（耗资约4亿美元），解放广场历史校区（GrEEK Campus）2013年起出租给Tahrir Alley Technology Park运营为科技园区，另在红海省埃尔古纳（El Gouna）设分校区。大学提供美式博雅教育，设学士、硕士、博士及研究生文凭、职业与继续教育项目，下设翁西·萨维里斯商学院、人文与社会科学学院、全球事务与公共政策学院、科学与工程学院、继续教育学院，并有十余个研究中心（含卡迈勒·阿德姆电视与数字新闻中心、威尔德王子美国研究中心、约翰·格哈特公益与公民参与中心等）。注册学生约6,980人（来自约69个国家，94%为埃及籍），另有继续教育学员逾3万人；全职教师467人、兼职149人（国际教师占比约45%）。学校获美国中部各州高等教育委员会认证，工程获ABET认证、商科获AACSB认证；在埃及依据1962年美埃文化协定及1975年协议框架运营，并接受埃及国家教育质量保障与认证机构认证；在美国特拉华州注册，由董事会治理，部分行政办公室设在纽约。2019年捐赠基金约5.355亿美元。2011年埃及革命期间其解放广场校区曾处于事件中心，校方并推动保存校墙革命涂鸦。",
+  "industries": [
+    "higher_education",
+    "education",
+    "research_development",
+    "media_publishing"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。开罗美国大学为私立高校，国际合作主要面向美国高校网络（美国中部各州认证、美国国际学院与大学协会AAICU成员）及非洲高校网络（非洲大学协会成员），不涉及APEC相关事务。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/The_American_University_in_Cairo_logo.svg/250px-The_American_University_in_Cairo_logo.svg.png"
+  },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "wikidata",
+      "social_media"
     ],
-    "completeness_score": 20,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 87,
+    "notes": "Phase3 enrichment: Wikipedia(en/ar), official site, Arabic news year-in-review, USAID OIG audit cross-check; president Ahmad Dallal confirmed in office through Sep 2026 via official social media; departments = 5 schools confirmed by ar+en Wikipedia; 2026-11-17 run.",
+    "quotes": [
+      {
+        "title": "American University in Cairo - Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/American_University_in_Cairo"
+      },
+      {
+        "title": "الجامعة الأمريكية في القاهرة - ويكيبيديا العربية (Arabic Wikipedia)",
+        "url": "https://ar.wikipedia.org/wiki/الجامعة_الأمريكية_في_القاهرة"
+      },
+      {
+        "title": "الجامعة الأمريكية بالقاهرة في ختام 2025: عام من التأثير العالمي - صوت الأمم (Arabic news year-in-review)",
+        "url": "https://www.soutalomam.net/الجامعة-الأمريكية-بالقاهرة-في-ختام-2025-ع/"
+      },
+      {
+        "title": "Ahmad Dallal Named President of The American University in Cairo (official statement)",
+        "url": "https://www.aucegypt.edu/about/statements/ahmad-dallal-named-auc-president"
+      },
+      {
+        "title": "Terminated USAID Awards in Egypt - USAID Office of Inspector General (audit report)",
+        "url": "https://oig.usaid.gov/node/8120"
+      },
+      {
+        "title": "President's News - The American University in Cairo (official news page)",
+        "url": "https://www.aucegypt.edu/about/leadership/president/news"
+      }
+    ]
   }
 }

@@ -1,10 +1,13 @@
 {
   "org_id": "EG-NGO-002",
   "basic_info": {
-    "name_original": "Misr El-kheir Foundation",
-    "name_zh": null,
+    "name_original": "مؤسسة مصر الخير",
+    "name_zh": "埃及慈善基金会",
     "name_en": "Misr El-kheir Foundation",
-    "aliases": [],
+    "aliases": [
+      "MEK",
+      "Misr El Kheir Foundation"
+    ],
     "org_type": "NGO",
     "org_subtype": "charity",
     "country_iso3": "EGY",
@@ -19,42 +22,263 @@
       "account_name": "MisrElKheir",
       "url": "https://twitter.com/MisrElKheir",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "wikidata P2002（2025-11-27核实）"
     },
     {
       "platform": "facebook",
       "account_name": "MisrElKheir.Org",
       "url": "https://facebook.com/MisrElKheir.Org",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "wikidata P2013 + 官方Facebook检索结果"
     },
     {
       "platform": "youtube",
-      "account_name": "UCPrkKZKwKnzNuJyPW_p138A",
+      "account_name": "مؤسسة مصر الخير",
       "url": "https://youtube.com/channel/UCPrkKZKwKnzNuJyPW_p138A",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "wikidata P2397；官方用户名 youtube.com/user/misrelkheir"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "misrelkheirorg",
+      "url": "https://www.instagram.com/misrelkheirorg/",
+      "source": 8,
+      "source_note": "wikidata P2003 + Instagram检索结果（约8.8万粉丝）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "misr-el-kheir-foundation-mek",
+      "url": "https://eg.linkedin.com/company/misr-el-kheir-foundation-mek",
+      "source": 17,
+      "source_note": "wikidata P4264 + LinkedIn检索结果"
     }
   ],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "nonprofit"
+  "digital_assets": [
+    {
+      "name": "「埃及慈善」官方移动应用（Google Play）",
+      "url": "https://play.google.com/store/apps/details?id=com.spade.mek",
+      "description": "基金会官方捐赠应用，Google Play 包名 com.spade.mek；官网及官方Facebook另提供 https://mekeg.net/app 下载入口，用于收受天课、施舍与捐款。",
+      "source": "wikidata P3418 + 基金会官方Facebook帖文"
+    },
+    {
+      "name": "官方新闻中心（媒体中心）",
+      "url": "https://mekeg.org/en/media-center/news",
+      "description": "基金会官网新闻中心，发布年度援助数据与项目动态（如2025年约470万户家庭获得现金援助的官方口径）。",
+      "source": "官网搜索快照（mekeg.org）"
+    }
   ],
-  "apec_stance": null,
-  "profile": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000311",
+      "name": "阿里·戈马 (علي جمعة)",
+      "title": "信托委员会主席 (رئيس مجلس الأمناء)",
+      "title_description": "基金会最高治理机构「信托委员会」负责人。",
+      "description": "据官网董事会页（mekeg.org/ar/board），他是基金会主要创始人之一，自2007年成立起任信托委员会主席；2025年2月出席第十三届「请斋戒者开斋」活动、2026年9月出席第七届「埃及哈尔慈善领导力奖」闭幕典礼时仍以该身份出现（据基金会官方社媒帖文）。中文译名为音译（Ali Gomaa）。"
+    },
+    {
+      "person_id": "EG-PERSON-000312",
+      "name": "穆罕默德·拉法伊 (محمد رفاعي)",
+      "title": "首席执行官 (الرئيس التنفيذي)",
+      "title_description": "基金会行政负责人。",
+      "description": "2025年2月、2026年5月及2026年9月的官方社媒与活动报道均以CEO身份出现（据基金会官方Instagram/Facebook帖文）；世界伊斯兰救济组织2026年8月帖文亦称其为CEO（Mohamed Refay）。另据全国民间发展工作联盟官网（nacdw.org），他作为基金会代表当选该联盟董事会成员。中文译名为音译（Mohamed Refai）。"
+    },
+    {
+      "person_id": "EG-PERSON-000800",
+      "name": "亚西尔·马赫古布 (ياسر محجوب)",
+      "title": "副首席执行官 (نائب الرئيس التنفيذي)",
+      "title_description": "协助CEO分管基金会日常运营。",
+      "description": "2026年8月世界伊斯兰救济组织帖文（Yasser Mahgoub, Deputy CEO）与2026年9月28日基金会官方帖文均列其为副首席执行官。中文译名为音译（Yasser Mahgoub）。"
+    },
+    {
+      "person_id": "EG-PERSON-000801",
+      "name": "阿卜杜勒-哈米德·阿布·穆萨 (عبد الحميد أبو موسى)",
+      "title": "信托委员会第一副主席 (النائب الأول لرئيس مجلس الأمناء)",
+      "title_description": "信托委员会副主席（第一）。",
+      "description": "据官网「关于我们」页面（mekeg.org/ar/about，搜索快照）。姓名与埃及国民银行系银行家阿卜杜勒-哈米德·穆罕默德·阿布·穆萨（EG-PERSON-000255，费萨尔伊斯兰银行行长）相近，但现有来源未确认是否同一人，故person_id置空。中文译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000802",
+      "name": "穆罕默德·阿什马维 (محمد عشماوي)",
+      "title": "信托委员会第二副主席 (النائب الثاني لرئيس مجلس الأمناء)",
+      "title_description": "信托委员会副主席（第二）。",
+      "description": "据官网「关于我们」页面（mekeg.org/ar/about，搜索快照）。中文译名为音译（Mohamed Ashmawy）。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-NGO-002-DEPT-001",
+      "name": "教育领域 (التعليم)",
+      "description": "教育资助与扫盲方向，对应基金会「消除文盲」的总体目标（据阿语维基百科与官网使命表述）。"
+    },
+    {
+      "dept_id": "EG-NGO-002-DEPT-002",
+      "name": "医疗卫生领域 (الصحة)",
+      "description": "医疗健康援助方向，对应基金会「消除疾病」的总体目标（据阿语维基百科）。"
+    },
+    {
+      "dept_id": "EG-NGO-002-DEPT-003",
+      "name": "社会团结（社会保障）领域 (التكافل الاجتماعي)",
+      "description": "面向贫困家庭、孤儿等群体的天课与施舍法定支出和社会保护（据阿语维基百科；官网新闻页2025年现金援助数据归于该类口径）。"
+    },
+    {
+      "dept_id": "EG-NGO-002-DEPT-004",
+      "name": "科学研究与创新领域 (البحث العلمي والابتكار)",
+      "description": "支持科研与创新方向（据阿语维基百科使命表述）。"
+    },
+    {
+      "dept_id": "EG-NGO-002-DEPT-005",
+      "name": "生活各方面（民生改善）领域 (مناحي الحياة)",
+      "description": "住房、供水等民生改善方向（据阿语维基百科六大领域表述）。"
+    },
+    {
+      "dept_id": "EG-NGO-002-DEPT-006",
+      "name": "综合发展领域 (التنمية المتكاملة)",
+      "description": "综合发展项目，含上埃及小型与微型项目（如畜牧养殖），由子公司「哈尔土地公司」承接营销（据阿语维基百科）。"
+    },
+    {
+      "dept_id": "EG-NGO-002-DEPT-007",
+      "name": "投资部门 (قطاع الاستثمار)",
+      "description": "管理施舍捐款投资组合以产生持续收益，受「投资委员会」监督；该委员会由5名埃及投资专家组成，含2名执行委员会委员、基金会会员董事及投资部门主管（据阿语维基百科）。"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-22",
+      "title": "埃及银行与基金会签署两项合作协议",
+      "description": "据埃及银行（Banque Misr）官网新闻稿（2025年7月22日），双方签署两项合作协议：将基金会全部财务支付与收款流程数字化，并加强相关项目合作（据新闻稿摘要）。",
+      "impact": "支付与收款数字化有望提升善款收付效率和透明度；引入国有银行渠道为基金会资金管理提供支撑（依据：埃及银行官网新闻稿）。",
+      "source": "https://www.banquemisr.com/ABOUT-US/News/Banque-Misr-Signs-Two-Cooperation-Protocols-with-Misr-El-Kheir-Foundation"
+    },
+    {
+      "date": "2025-09-04",
+      "title": "卡塔尔慈善协会续签与基金会的框架协议",
+      "description": "据卡塔尔慈善协会（Qatar Charity）官网（2025年9月4日），双方续签2024年签署的框架协议，继续在人道主义与发展项目上合作。",
+      "impact": "维持海湾慈善机构的资金与项目合作渠道，支撑基金会国际人道项目（依据：卡塔尔慈善官网新闻）。",
+      "source": "https://www.qcharity.org/en/qa/news/detailsinternational/25020-qatar-charity,-misr-el-kheir"
+    },
+    {
+      "date": "2026-01-23",
+      "title": "斋月募捐活动在开罗启动，获世界伊斯兰救济组织50万英镑捐款承诺",
+      "description": "据世界伊斯兰救济组织（Islamic Relief Worldwide）新闻稿（2026年1月23日发布），其首席执行官伊夫蒂哈尔·沙欣出席基金会斋月活动启动仪式（开罗阿比丁宫）并承诺捐款50万英镑，用于加沙巴勒斯坦家庭食品包及埃及贫困家庭开斋餐；英国驻埃及大使马克·布赖森-理查森出席；双方合作基础为2024年12月签署的三年谅解备忘录。基金会出席代表包括资源开发执行官阿迈勒·穆巴达（Amal Mobadda，音译，据IRW新闻稿）。",
+      "impact": "国际人道网络资金进入加沙救济与埃及本土斋月援助，凸显基金会在埃及慈善领域的中枢地位（依据：IRW新闻稿）。",
+      "source": "https://islamic-relief.org/news/islamic-relief-worldwide-ceo-visits-egypt-to-expand-partnerships-and-pledge-500000-ramadan-aid/"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "基金会高层代表团与世界伊斯兰救济组织深化加沙与埃及援助合作",
+      "description": "据世界伊斯兰救济组织2026年8月3日社交媒体帖文，基金会代表团包括首席执行官穆罕默德·拉法伊（Mohamed Refay）、副首席执行官亚西尔·马赫古布（Yasser Mahgoub）等，双方继续推进加沙与埃及的援助合作。",
+      "impact": "巩固2024年备忘录框架下的多年期合作，延续基金会参与加沙人道救援的角色（依据：IRW官方帖文）。",
+      "source": "https://www.linkedin.com/posts/islamic-relief-worldwide_our-partnership-with-egypts-misr-el-kheir-activity-7489976538092744704-0rDf"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "第七届「埃及哈尔慈善领导力奖」闭幕典礼举行",
+      "description": "基金会举办第七届埃及哈尔奖（جائزة مصر الخير لريادة العطاء الخيري）闭幕典礼，信托委员会主席阿里·戈马、CEO穆罕默德·拉法伊、副CEO亚西尔·马赫古布等出席（据基金会官方Instagram帖文）。另据合作方活动视频（Facebook「埃及青年」官方账号），本届有134家协会参与、创造约1200个就业机会（口径：活动视频表述，未经独立审计）。",
+      "impact": "显示基金会在埃及民间慈善生态中的平台化与引领角色（依据：官方社媒帖文）。",
+      "source": "https://www.instagram.com/p/Dd1QN2vjYp0/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-021",
+      "org_name": "埃及社会团结部 (وزارة التضامن الاجتماعي)",
+      "org_type": "GOV",
+      "org_description": "埃及非政府组织注册与监管主管部门；基金会依2002年第84号法注册（注册号555/2007）。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "EG-FIN-003",
+      "org_name": "埃及银行 (بنك مصر)",
+      "org_type": "FIN",
+      "org_description": "埃及大型国有银行；2025年7月与基金会签署支付数字化等两项合作协议。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "世界伊斯兰救济组织 (Islamic Relief Worldwide)",
+      "org_type": "NGO",
+      "org_description": "总部位于英国的国际伊斯兰人道主义组织；2024年12月与基金会签署三年谅解备忘录，2026年1月承诺50万英镑斋月援助。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "卡塔尔慈善协会 (قطر الخيرية)",
+      "org_type": "NGO",
+      "org_description": "卡塔尔主要慈善机构；2024年与基金会签署框架协议，2025年9月续签；2026年10月基金会对该会在埃及开设 field office 致贺。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "全国民间发展工作联盟 (التحالف الوطني للعمل الأهلي التنموي)",
+      "org_type": "NGO",
+      "org_description": "埃及大型民间发展联盟；基金会为其成员，CEO穆罕默德·拉法伊代表基金会任联盟董事会成员（据联盟官网nacdw.org）。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "哈尔土地公司（音译） (شركة أرض الخير)",
+      "org_type": "CORP",
+      "org_description": "2009年设立的基金会子公司（埃及股份公司），负责上埃及小型与微型项目产品（尤其畜牧项目）的营销与分销，后发展为畜牧业发展与养殖场建设领域企业（据阿语维基百科）。",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "埃及慈善基金会（Misr El Kheir Foundation，MEK）是埃及规模领先的民间非营利发展慈善机构，2007年在开罗设立，依2002年第84号法在埃及社会团结部注册（注册号555/2007），总部位于开罗。基金会接收天课（زكاة）、施舍（صدقة）与各类捐款，按教法渠道支出天课，并投资施舍类资金以产生持续收益用于发展项目。其工作覆盖六大领域：教育、医疗卫生、社会团结（社会保障）、科学研究与创新、生活各方面（民生改善）与综合发展；总体目标为消除失业、文盲、贫困与疾病。据官网新闻页口径，2025年约470万户家庭获得现金援助。治理上设信托委员会（董事会），由主要创始人之一阿里·戈马任主席（2007年起），日常运营由CEO穆罕默德·拉法伊负责。基金会设有投资部门管理投资组合（由5名专家组成的投资委员会监督），并于2009年设立子公司「哈尔土地公司」经营上埃及畜牧类发展项目，另设立可捐出收益的「埃及慈善投资基金」。国际合作方面，与世界伊斯兰救济组织签有三年谅解备忘录（2024年12月），与卡塔尔慈善协会有框架协议（2025年9月续签），2025年7月与埃及银行签署支付数字化合作协议；亦为全国民间发展工作联盟成员。",
+  "industries": [
+    "nonprofit",
+    "humanitarian_aid",
+    "social_services",
+    "healthcare",
+    "education",
+    "financial_services"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本组织为民间慈善机构，不直接参与政府间合作框架；其跨区域合作以民间慈善网络为主，如与世界伊斯兰救济组织（Islamic Relief Worldwide，2024年12月谅解备忘录）、卡塔尔慈善协会（2025年9月续签框架协议）等国际伊斯兰慈善机构开展项目合作。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/ar/0/0a/Misr_El-Kheir.jpg",
+    "local_path": null,
+    "minio_path": null
+  },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media",
+      "web_search"
     ],
-    "completeness_score": 19,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data; errors: [\"Wikipedia returned disambiguation or no data for 'Misr El Kheir Foundation'\"]"
+    "completeness_score": 99,
+    "notes": "Phase3 enrichment on 2026-11-17. Wikidata Q25452864核实沿用（labels en/ar、P31=非营利+慈善组织、P571=2007年、P856=misrelkheir.org、HQ开罗，均与骨架一致）。官网正文页（mekeg.org / misrelkheir.org）JS渲染或403无法直接抓取，官网信息取自搜索快照与Wikidata；英文维基条目读取502失败。主会话提示的「董事长人事（阿里·加迈勒·拉维方向）」经阿语定向检索未发现同名人事变动，现任信托委员会主席为阿里·戈马（2007年至今，官网+官方社媒多源确认）、CEO为穆罕默德·拉法伊，暂按现状记录。信托委员会第一副主席阿卜杜勒-哈米德·阿布·穆萨与已注册人物EG-PERSON-000255（费萨尔伊斯兰银行行长）姓名相近但未能确认同一人，person_id置空。受益数据口径：2025年约470万户家庭现金援助为官网新闻页官方口径。",
+    "quotes": [
+      {
+        "title": "مؤسسة مصر الخير - ويكيبيديا العربية（阿语维基百科：六大领域、注册号555/2007、子公司与投资基金）",
+        "url": "https://ar.wikipedia.org/wiki/مؤسسة_مصر_الخير"
+      },
+      {
+        "title": "مجلس الأمناء | مؤسسة مصر الخير（官网董事会页：阿里·戈马自2007年任信托委员会主席）",
+        "url": "https://mekeg.org/ar/board"
+      },
+      {
+        "title": "عن مؤسسة مصر الخير（官网关于页：信托委员会正副主席名单）",
+        "url": "https://mekeg.org/ar/about"
+      },
+      {
+        "title": "Islamic Relief Worldwide CEO visits Egypt to expand partnerships and pledge £500,000 Ramadan aid（2026-01-23）",
+        "url": "https://islamic-relief.org/news/islamic-relief-worldwide-ceo-visits-egypt-to-expand-partnerships-and-pledge-500000-ramadan-aid/"
+      },
+      {
+        "title": "Qatar Charity, Misr El Kheir Foundation renew framework agreement（2025-09-04）",
+        "url": "https://www.qcharity.org/en/qa/news/detailsinternational/25020-qatar-charity,-misr-el-kheir"
+      },
+      {
+        "title": "Banque Misr Signs Two Cooperation Protocols with Misr El-Kheir Foundation（2025-07-22）",
+        "url": "https://www.banquemisr.com/ABOUT-US/News/Banque-Misr-Signs-Two-Cooperation-Protocols-with-Misr-El-Kheir-Foundation"
+      },
+      {
+        "title": "官网新闻中心：2025年约470万户家庭获得现金援助",
+        "url": "https://mekeg.org/en/media-center/news?page=3"
+      }
+    ]
   }
 }

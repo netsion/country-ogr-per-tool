@@ -1,13 +1,15 @@
 {
   "org_id": "EG-PARTY-013",
   "basic_info": {
-    "name_original": "Muslim Brotherhood",
-    "name_zh": "穆斯林兄弟會",
+    "name_original": "جماعة الإخوان المسلمين",
+    "name_zh": "穆斯林兄弟会",
     "name_en": "Muslim Brotherhood",
     "aliases": [
-      "Society of Muslim Brothers",
+      "Society of the Muslim Brothers",
       "(Jamaat) Al-Ikhwan Al-Muslimeen",
-      "Egyptian Muslim Brotherhood"
+      "Egyptian Muslim Brotherhood",
+      "الإخوان المسلمون",
+      "穆兄会"
     ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
@@ -17,38 +19,226 @@
     "website": "https://www.ikhwanonline.com/",
     "wikidata_qid": "Q133207"
   },
-  "social_accounts": [],
-  "digital_assets": [],
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "@ikhwansocial",
+      "url": "https://x.com/ikhwansocial",
+      "source": 3,
+      "source_note": "X个人简介自述为「جماعة الإخوان المسلمين官方账号」，链接指向 ikhwan.site，2021年10月注册"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "@ikhwanonline",
+      "url": "https://x.com/ikhwanonline",
+      "source": 3,
+      "source_note": "「إخوان أون لاين」阿语官网官方账号，简介指向 ikhwanonline.com 与电报频道 t.me/ikhwanonline"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "@ikhwanweb",
+      "url": "https://x.com/ikhwanweb",
+      "source": 3,
+      "source_note": "官方英文X账号（自述 Official English Twitter of the Muslim Brotherhood）"
+    },
+    {
+      "platform": "telegram",
+      "account_name": "ikhwanonline",
+      "url": "https://t.me/ikhwanonline",
+      "source": 19,
+      "source_note": "官方电报频道，见 @ikhwanonline X账号简介标注"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "伊赫万在线（إخوان أون لاين）阿拉伯语官网",
+      "url": "https://www.ikhwanonline.com/",
+      "description": "长期运营的阿拉伯语官方网站",
+      "source": "official_website"
+    },
+    {
+      "name": "伊赫万网站（ikhwan.site）",
+      "url": "https://ikhwan.site/",
+      "description": "目前发布官方声明的官方网站，2025-2026年组织声明均发布于此，设「声明」「宣教杂志」等栏目",
+      "source": "official_website"
+    },
+    {
+      "name": "伊赫万英文网站（ikhwanweb）",
+      "url": "https://ikhwanweb.com/",
+      "description": "英语官方网站（据英语维基百科信息框）",
+      "source": "wikipedia"
+    },
+    {
+      "name": "《宣教》电子杂志（مجلة الدعوة）",
+      "url": "https://ikhwan.site/magazine_releases_13",
+      "description": "组织官方电子杂志，发布报告、分析与评论文章，2026年9月17日发布最新两期",
+      "source": "official_website"
+    }
+  ],
   "key_people": [
     {
       "person_id": "EG-PERSON-000036",
-      "name": "穆罕默德·巴迪耶 (Mohammed Badie)",
-      "title": "最高领袖（总训导师）",
-      "title_description": null,
-      "description": null
+      "name": "穆罕默德·巴迪耶 (محمد بديع / Mohammed Badie)",
+      "title": "总导师 (المرشد العام)",
+      "title_description": "2010年起任总导师（据英语、阿拉伯语维基百科领导层名录）；2013年8月19日被捕（据半岛电视台等报道），此后被埃及法院判处死刑，现被关押在埃及监狱",
+      "description": "2013年组织遭镇压后在押；中文维基百科信息框仍列其为总导师，而组织海外公开声明多以代理总导师萨拉赫·阿卜杜勒-哈克署名，总导师职权归属存在争议（据多方报道）"
+    },
+    {
+      "person_id": "EG-PERSON-000412",
+      "name": "萨拉赫·阿卜杜勒-哈克（音译）(صلاح عبد الحق / Salah Abdel-Haq)",
+      "title": "代理总导师（据多方报道）",
+      "title_description": "据英语维基百科及半岛电视台、INSS等公开文献，2023年3月起任代理总导师（「伦敦阵线」推举）；组织官网声明确认其以该身份署名",
+      "description": "2026年1月代表组织就美国恐怖组织认定发表拒绝声明（半岛电视台）；组织内部领导权与路线分歧据多方报道（英语维基百科将领导层标注为「有争议」）"
+    },
+    {
+      "person_id": "EG-PERSON-000413",
+      "name": "哈桑·班纳 (حسن البنا / Hassan al-Banna)",
+      "title": "创始人兼首任总导师",
+      "title_description": "1928年3月22日在埃及伊斯梅利亚创立该组织并任首任总导师，1949年遇刺身亡（阿/英/中维基百科均记载）",
+      "description": "历史人物；其主张（如口号「伊斯兰是解决方案」）构成组织意识形态基础"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "public_administration"
+  "departments": [
+    {
+      "dept_id": "EG-PARTY-013-DEPT-001",
+      "name": "总协商会议 (مجلس الشورى العام)",
+      "head": null,
+      "description": "最高协商机构，1933年6月召开首次会议；据组织历史文献（阿语维基百科引述），其大会曾决议创设指导局并确定组织架构",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-013-DEPT-002",
+      "name": "指导局 (مكتب الإرشاد)",
+      "head": null,
+      "description": "执行机构，英语维基百科提及其为15名成员的指导委员会（Guidance Council）；负责人名义上为总导师，现任归属存在争议（见key_people）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-013-DEPT-003",
+      "name": "姐妹部 (قسم الأخوات المسلمات)",
+      "head": null,
+      "description": "妇女部门，1933年4月26日由哈桑·班纳设立（阿语维基百科引述组织史料），负责女性成员的教育与组织工作",
+      "parent_dept_id": null
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2025-05-17",
+      "title": "网传「穆斯林兄弟会宣布解散」声明被事实核查证实为假",
+      "description": "据黎巴嫩《安纳哈尔报》事实核查栏目，2025年5月中旬流传一份据称是埃及穆斯林兄弟会宣布自行解散的声明；该组织官方X账号否认与该声明有关，核查结论为假消息",
+      "impact": "显示该组织在埃及国内的公开活动高度受限，围绕其组织状态的谣言已成为舆论战工具（依据：Annahar事实核查原文）",
+      "source": "https://www.annahar.com/factcheck/216559/بيان-جماعة-الإخوان-المسلمين-والتي-أعلنت-فيه-حل-نفسها-زائف-factcheck"
+    },
+    {
+      "date": "2025-11-24",
+      "title": "特朗普签署行政令启动将兄弟会埃及、约旦、黎巴嫩分支列为恐怖组织的程序",
+      "description": "据阿语维基百科及欧洲-阿拉伯对话中心（europarabct）等来源，美国总统特朗普于2025年11月24日签署行政令，指示启动将穆斯林兄弟会埃及、黎巴嫩、约旦分支列为「外国恐怖组织」及「特别认定全球恐怖分子」的程序，理由为其构成跨国网络并威胁美国及盟友利益",
+      "impact": "美国政策转变显著扩大对该组织海外资金与活动的法律压力（依据：trendsgroup.org 2026年1月政策分析、europarabct 2025年12月分析）",
+      "source": "https://www.europarabct.com/الإخوان-المسلمون-ـ-دوافع-قرار-ترامب/"
+    },
+    {
+      "date": "2026-01-13",
+      "title": "美国正式将兄弟会埃及、约旦、黎巴嫩分支列为恐怖组织，代理总导师声明拒绝",
+      "description": "据半岛电视台报道，美国于2026年1月13日正式将穆斯林兄弟会埃及、约旦、黎巴嫩分支列为恐怖组织；该组织代理总导师萨拉赫·阿卜杜勒-哈克回应称「断然拒绝这一认定」（另经charityandsecurity.org、trendsgroup.org报道证实）",
+      "impact": "三个分支列入名单将影响其海外成员签证、融资与结社活动；该组织转向官网与社交媒体发声以维持国际存在",
+      "source": "https://www.aljazeera.com/news/2026/1/13/us-labels-muslim-brotherhood-orgs-in-egypt-lebanon-jordan-as-terrorist"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "组织发表声明欢迎德黑兰会议，呼吁「保存力量应对共同敌人」",
+      "description": "据组织官网ikhwan.site，2026年10月26日组织发表声明，对《麦加协议》防务缔约国与伊朗在德黑兰举行联席会议表示赞赏，并呼吁「保存力量以应对共同敌人」",
+      "impact": "被外界视为该组织在地区安全格局变化下调整公开表态的信号（依据：组织官网声明原文）",
+      "source": "https://ikhwan.site/p-223540"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "埃及总检察院决定将穆斯林兄弟会「最终」列入恐怖实体名单",
+      "description": "据新华社阿语频道、《圣城报》等报道，埃及总检察院2026年11月9日发布决定并刊于《埃及事务公报》（الوقائع المصرية），将穆斯林兄弟会「最终」列入恐怖实体名单，终止此前2022年两项临时列入决定（第6/2022号、第13/2022号），并将37名个人列入恐怖分子名单；组织于11月17日发表声明谴责该决定",
+      "impact": "在埃及法律层面完成对该组织的永久列名（埃及自2013年12月25日宣布其为恐怖组织，此为该国法律事实；组织自我定位及国际定性存在争议）；后续上诉与海外反应值得关注",
+      "source": "https://arabic.news.cn/20261110/a9fd2e49016c41579f378e3cb1d56de4/c.html"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "组织声明谴责美方官员赞扬埃及最终列名，称「穆斯林不是埃及政治斗争的筹码」",
+      "description": "据组织官网声明，针对美国总统阿拉伯与非洲事务顾问马萨德·布洛斯2026年11月14日在X平台发文赞扬埃及当局将该组织最终列入「恐怖实体」名单，组织于11月16日发表声明予以谴责，称该指控系「政治化指控」",
+      "impact": "显示该组织海外领导层持续通过官网与社交媒体开展公共外交，反对美国与埃及的定性（依据：组织官网声明原文；另见中东观察MEMO 2026-11-16报道）",
+      "source": "https://ikhwan.site/p-223569"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-PARTY-015",
+      "org_name": "自由与正义党 (حزب الحرية والعدالة / Freedom and Justice Party)",
+      "org_type": "PARTY",
+      "org_description": "2011年4月30日由穆斯林兄弟会组建的政党，在2011-2012年埃及议会选举中赢得498席中的235席；2013年后随组织一同遭取缔镇压",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际穆斯林兄弟会组织 (التنظيم الدولي للإخوان المسلمين)",
+      "org_type": "NGO",
+      "org_description": "跨国家逊尼派伊斯兰主义组织网络；阿语维基百科将埃及组织列为其中组成部分，各国分支（科威特、也门、叙利亚、卡塔尔等）名称与结构不一",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "哈马斯 (حركة حماس / Hamas)",
+      "org_type": "NGO",
+      "org_description": "1987年由加沙地带穆斯林兄弟会关联的慈善与社会机构发展而来（英语维基百科）；阿语维基百科称其遵循该组织思想；英语维基百科将其列为2017年之前的盟友，此后双方隶属与盟友关系发生变化",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "穆斯林兄弟会是1928年3月22日由哈桑·班纳在埃及伊斯梅利亚创立的宗教政治组织，以逊尼派伊斯兰主义为意识形态基础，著名口号为「伊斯兰是解决方案」。历史上其核心业务为宗教宣教（达瓦）、教育与社会服务：兴办清真寺、学校和医院，建立慈善与商业机构，并在反对英国殖民统治的斗争中进入政治领域。2011年埃及革命后组织合法化，同年4月组建自由与正义党，赢得2011-2012年议会选举和2012年总统选举（候选人穆尔西成为埃及首位民选总统）。2013年7月穆尔西被军方罢黜后组织遭大规模镇压，同年9月23日被法院下令取缔，12月25日被埃及政府宣布为恐怖组织（埃及本国法律事实；组织自我定位为和平、民主的改良运动，其定性在国际上存在争议）。此后组织转入地下与海外流亡状态，现存公开活动主要为：通过官网（ikhwan.site、ikhwanonline.com）与X等社交平台发布政治声明、时评与《宣教》电子杂志，联络海外成员及盟友政党，关注被关押成员处境，并就巴勒斯坦局势、地区冲突与美国政策等议题发声。",
+  "industries": [
+    "public_administration",
+    "nonprofit",
+    "education",
+    "social_services"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。本组织为埃及法律定性下的政治宗教团体，不参与任何政府间经贸合作机制，与APEC事务无关联。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Muslim_Brotherhood_Emblem.svg/330px-Muslim_Brotherhood_Emblem.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-PARTY-013.png",
+    "minio_path": "default/popular-org-profile/eg/EG-PARTY-013.png"
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
+      "arabic_wikipedia",
       "wikipedia",
-      "official_website"
+      "chinese_wikipedia",
+      "official_website",
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 19,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 89,
+    "quotes": [
+      {
+        "title": "الإخوان المسلمون — 阿拉伯语维基百科",
+        "url": "https://ar.wikipedia.org/wiki/جماعة_الإخوان_المسلمين"
+      },
+      {
+        "title": "Muslim Brotherhood — 英语维基百科",
+        "url": "https://en.wikipedia.org/wiki/Muslim_Brotherhood"
+      },
+      {
+        "title": "穆斯林兄弟会 — 中文维基百科",
+        "url": "https://zh.wikipedia.org/wiki/穆斯林兄弟会"
+      },
+      {
+        "title": "الموقع الرسمي للإخوان المسلمين — 组织官方网站（声明页）",
+        "url": "https://ikhwan.site/"
+      },
+      {
+        "title": "US labels Muslim Brotherhood in Egypt, Lebanon, Jordan as 'terrorists' — Al Jazeera (2026-01-13)",
+        "url": "https://www.aljazeera.com/news/2026/1/13/us-labels-muslim-brotherhood-orgs-in-egypt-lebanon-jordan-as-terrorist"
+      },
+      {
+        "title": "埃及总检察院将穆斯林兄弟会最终列入恐怖实体名单 — 新华社阿语频道 (2026-11-10)",
+        "url": "https://arabic.news.cn/20261110/a9fd2e49016c41579f378e3cb1d56de4/c.html"
+      }
+    ],
+    "notes": "极高敏感主题：1928年创立、2013年12月埃及定性恐怖组织（本国法律事实）如实记录；组织定性争议用双源中性表述。领导层仅记录多源公开报道人名：巴迪耶（2010年起总导师）、萨拉赫·阿卜杜勒-哈克（2023年3月起代理总导师，据多方报道）；总导师继任争议注明「据多方报道」。组织架构仅收录公开文献可查机构；未编造任何成员名单或行动细节；查无信息字段为null。"
   }
 }

@@ -1,56 +1,252 @@
 {
   "org_id": "EG-PARTY-005",
+  "wikidata_qid": "Q962942",
   "basic_info": {
-    "name_original": "Free Egyptians Party",
+    "name_original": "حزب المصريين الأحرار",
     "name_zh": "自由埃及人党",
     "name_en": "Free Egyptians Party",
-    "aliases": [],
+    "aliases": [
+      "FEP",
+      "Ḥizb El Maṣrīyīn El Aḥrār",
+      "المصريين الأحرار"
+    ],
     "org_type": "PARTY",
     "org_subtype": "opposition_party",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "2011-04-03",
-    "website": null,
+    "website": "https://www.almasreyeenelahrar.com/",
     "wikidata_qid": "Q962942"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [
+  "social_accounts": [
     {
-      "person_id": "EG-PERSON-000045",
-      "name": "艾哈迈德·哈桑·赛义德 (Ahmed Hassan Said)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
-    },
-    {
-      "person_id": "EG-PERSON-000046",
-      "name": "Essam Khalil",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "platform": "facebook",
+      "account_name": "حزب المصريين الأحرار (@almasreyeenalahrrar)",
+      "url": "https://www.facebook.com/almasreyeenalahrrar/",
+      "source": 6,
+      "source_note": "党官方Facebook主页（约54.7万关注者），2026-11-16搜索确认，主席声明与党务动态持续更新"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "public_administration"
+  "digital_assets": [
+    {
+      "name": "官方网站",
+      "url": "https://www.almasreyeenelahrar.com/",
+      "description": "英文维基百科信息框所载官方网址，本次采集未验证其当前可访问性",
+      "source": "wikipedia"
+    },
+    {
+      "name": "早期官方网址（fep.org.eg）",
+      "url": "http://www.fep.org.eg",
+      "description": "阿语维基百科信息框所载官方网址，当前状态未验证",
+      "source": "arabic_wikipedia"
+    }
   ],
-  "apec_stance": null,
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000046",
+      "name": "伊萨姆·哈利勒 (عصام خليل)",
+      "title": "党主席 (رئيس الحزب)",
+      "title_description": "2015年12月当选，2016年1月1日就任至今",
+      "description": "埃及商人，1948年生，该党创始人之一。2014年起任代主席，2015年12月在党内选举中击败穆罕默德·巴伊利当选第二任党主席，2017年3月连任；2025年10月获塞西总统任命为参议院议员；2026年11月仍在党主席任上并活跃于媒体访谈。"
+    },
+    {
+      "person_id": "EG-PERSON-000395",
+      "name": "希巴·瓦西勒（音译） (هبة واصل)",
+      "title": "秘书长 (الأمين العام)",
+      "title_description": "兼任党经济委员会主席",
+      "description": "2025年6月及2026年多家埃及媒体（《今日生活》、宪章报、金字塔报门户、早安报、埃及今日报）均以其党秘书长身份报道其表态，就2026/2027财年国家预算、惠誉与穆迪主权信用评级调整、农业投资等议题代表党发声；据埃及今日报报道，其经党内鼓掌通过（تزكية）方式当选并随即召开各省书记首次组织会议。"
+    },
+    {
+      "person_id": "EG-PERSON-000372",
+      "name": "纳吉布·萨维里斯 (نجيب ساويرس)",
+      "title": "创始人 (المؤسس)",
+      "title_description": "已退党",
+      "description": "埃及电信业亿万富豪、Orascom Telecom控股前董事长，2011年4月3日联合一批知识分子与政治活动家宣布创建该党并曾长期为其提供经费支持；曾任党信托委员会主席，2016年底党内危机中与哈利勒派系对立，2017年2月被开除出党并起诉哈利勒违反党章。"
+    },
+    {
+      "person_id": "EG-PERSON-000824",
+      "name": "艾哈迈德·哈桑·赛义德 (أحمد حسن سعيد)",
+      "title": "前党主席 (رئيس الحزب السابق)",
+      "title_description": "2013-2014年在任",
+      "description": "2011-2012年议会选举后出任临时主席，2013年5月10日党代会上当选首任民选主席；2014年9月19日以家庭原因辞职；2012年与2015年均当选议会议员（2015年以「爱埃及」名单独立候选人身份当选开罗席位）。"
+    },
+    {
+      "person_id": "EG-PERSON-000825",
+      "name": "纳德·沙尔卡维（音译） (نادر الشرقاوي)",
+      "title": "前代理秘书长 (أمين عام بالإنابة السابق)",
+      "title_description": "代理任期未注明",
+      "description": "据阿语维基百科与英文维基信息框，在哈利勒由秘书长转任党主席后、新秘书长选出前出任代理秘书长；2025年起的媒体报道显示秘书长已由希巴·瓦西勒担任。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-PARTY-005-DEPT-001",
+      "name": "总秘书处 (الأمانة العامة)",
+      "head": "希巴·瓦西勒（音译） (هبة واصل)",
+      "description": "负责党务日常组织运作；据阿语维基百科，下设组织协调、财务行政、法律事务、青年、培训宣教、媒体宣传、地方事务、群众工作、工会联合会、开罗与三角洲地区事务、上埃及与边境省事务等书记职位",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-005-DEPT-002",
+      "name": "经济委员会 (اللجنة الاقتصادية)",
+      "head": "希巴·瓦西勒（音译） (هبة واصل)",
+      "description": "就国家财政预算、主权信用评级与经济政策代表党对外表态；2026年就2026/2027财年预算案及惠誉、穆迪评级调整多次接受埃及媒体采访",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-005-DEPT-003",
+      "name": "媒体宣传书记处 (أمانة الإعلام)",
+      "head": "纳斯尔·卡法斯（音译） (نصر القفاص)",
+      "description": "负责党的媒体宣传与舆论工作；据阿语维基百科组织架构任职（任职时间未注明，待核）",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-06-05",
+      "title": "自由埃及人党否认参议院选举交易并要求惩治谣言",
+      "description": "据《埃及今日报》报道，党主席伊萨姆·哈利勒表示党内迄未就2025年参议院选举举行任何会谈或达成协议，并要求追究散布虚假消息者的责任。",
+      "impact": "表明该党在2025年参议院选举周期开始前的公开站位，澄清与执政联盟各党的选举关系。",
+      "source": "https://www.almasryalyoum.com/news/details/3468691"
+    },
+    {
+      "date": "2025-10-12",
+      "title": "党主席哈利勒获塞西总统任命进入参议院",
+      "description": "塞西总统10月任命100名参议院新议员，哈利勒位列其中；党官方Facebook账号当日发文感谢总统信任。该任命另见英文维基百科哈利勒词条（引用埃及总统府sis.gov.eg新闻）交叉印证。",
+      "impact": "该党在2025-2030届参议院获得1席（阿语维基席位表2025年：参议院1/300），为其2020年失去全部众议院席位以来首个全国性议会席位。",
+      "source": "https://www.facebook.com/almasreyeenalahrrar/posts/1382406566577979"
+    },
+    {
+      "date": "2025-10-13",
+      "title": "党主席评价沙姆沙伊赫和平峰会成果",
+      "description": "据eXtra News电视台报道，党主席哈利勒对沙姆沙伊赫加沙问题峰会的成果表示肯定。",
+      "impact": "体现该党在重大外交安全议程上与埃及官方立场保持一致的基调。",
+      "source": "https://www.facebook.com/extranewstv/videos/1192860299328912"
+    },
+    {
+      "date": "2025-12-01",
+      "title": "2025年众议院选举零席位",
+      "description": "在2025年11-12月举行的众议院选举中，该党未赢得任何席位；据阿语维基百科选举席位表，2025年本党众议院0/596席、参议院1/300席。",
+      "impact": "继2020年后连续两届众议院选举颗粒无收，党的议会存在完全依赖参议院任命渠道，组织影响力进一步转向媒体发声与政策宣传。",
+      "source": "https://ar.wikipedia.org/wiki/حزب_المصريين_الأحرار"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "党中央就安全局势授权政治领导层采取必要措施",
+      "description": "据eXtra News电视台报道，该党发表声明称「授权政治领导层采取维护国家安全所需的一切措施」。",
+      "impact": "在地区安全紧张背景下显示该党与官方安全立场的高度一致。",
+      "source": "https://www.facebook.com/extranewstv/videos/1330663919093512"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "强烈谴责加沙浸信会医院遭轰炸",
+      "description": "据Arab Khabar报道，该党在主席哈利勒领导下以最强硬措辞谴责轰炸加沙浸信会（المعمداني）医院。",
+      "impact": "展现该党在巴勒斯坦议题上追随埃及官方外交基调的公众姿态。",
+      "source": "https://www.arabkhabar.com/w/قصف-مستشفى-المعمداني-بغزة"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "党主席公开批评埃及政党整体表现",
+      "description": "哈利勒做客《宪章报》（الدستور）播客访谈，质疑「我们是否拥有能够履职的政党」，批评埃及政党生态与政党法框架下的运作现状。",
+      "impact": "在2026年政党活动空间受限背景下，作为体制内政党的党主席罕见公开批评政党整体运作，引发关于政治开放的讨论。",
+      "source": "https://www.facebook.com/ElDostorEgypt/posts/1673981638109737"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "国际自由联盟 (Liberal International)",
+      "org_type": "INTL",
+      "org_description": "由全球100多个自由主义政党组成的国际政党联盟",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿拉伯自由联盟 (Arab Liberal Federation)",
+      "org_type": "INTL",
+      "org_description": "阿拉伯地区自由主义政党的区域联盟（本党早期以「阿拉伯自由与民主联盟」成员身份参与区域合作）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "民主阵线党 (حزب الجبهة الديمقراطية)",
+      "org_type": "PARTY",
+      "org_description": "埃及自由派政党，2013年12月21日整体并入本党",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及集团 (الكتلة المصرية)",
+      "org_type": "PARTY",
+      "org_description": "2011年8月16日由本党与埃及社会民主党、民族进步统一集团党组建的反穆斯林兄弟会选举联盟，2011-2012年议会选举共获33席（本党14席），选后瓦解（历史性关联）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "爱埃及名单 (قائمة حب مصر)",
+      "org_type": "PARTY",
+      "org_description": "2015年议会选举中支持塞西总统的选举名单联盟，本党2015-2018年隶属该名单，2015年本党凭其获65席居各党之首（历史性关联）",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "埃及全国统一名单 (National Unified List for Egypt)",
+      "org_type": "PARTY",
+      "org_description": "2020年埃及议会选举的全国名单联盟，本党2020年为其成员但众议院候选人全部落败（历史性关联）",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "自由埃及人党是2011年埃及「1·25」革命后由电信业富豪纳吉布·萨维里斯牵头创建的世俗自由派政党，2011年4月3日宣布成立、同年7月4日获政党事务委员会批准，主张自由主义、世俗主义与公民国家，反对政治伊斯兰，意识形态定位为中派至中右翼，口号为「属于所有埃及人的党」（حزب لكل المصريين）。该党2011年8月加入反对穆斯林兄弟会的「埃及集团」选举联盟，首次议会选举获15席；2013年12月21日合并民主阵线党；2014年1月支持新宪法公投，4月在鹿特丹第59届大会上加入国际自由联盟，并表态支持塞西参加总统选举。2015年议会选举中该党赢得65席、居各党之首，2015-2018年隶属「爱埃及」名单；2016-2017年经历萨维里斯派与哈利勒派的严重党内危机，萨维里斯2017年2月被开除出党并起诉哈利勒；2020年加入「埃及全国统一名单」但众议院14名候选人全部落败，2025年众议院选举亦未获席。目前该党主要通过主席哈利勒的参议院任命席位（2025年10月）、经济委员会的政策发声（预算、主权信用评级、经济改革议题）及领导人高频媒体访谈维持政治存在，活动重心已从议会党团转向媒体与政策宣传。",
+  "industries": [
+    "public_administration",
+    "legislative"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。就本组织而言，其跨区域合作主要在政党层面开展：该党为国际自由联盟（2014年4月起正式成员）与阿拉伯自由联盟成员，不涉及APEC框架。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/2e/Free_Egyptians_Party.png/330px-Free_Egyptians_Party.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-PARTY-005.png",
+    "minio_path": "default/popular-org-profile/eg/EG-PARTY-005.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
-      "wikipedia"
+      "arabic_wikipedia",
+      "wikipedia",
+      "news_search",
+      "official_social_media"
     ],
-    "completeness_score": 21,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "quotes": [
+      {
+        "title": "Free Egyptians Party - Wikipedia（英文维基百科：历史沿革、选举结果、领导层）",
+        "url": "https://en.wikipedia.org/wiki/Free_Egyptians_Party"
+      },
+      {
+        "title": "حزب المصريين الأحرار - ويكيبيديا（阿语维基百科：建党、领导层与2025年席位表）",
+        "url": "https://ar.wikipedia.org/wiki/حزب_المصريين_الأحرار"
+      },
+      {
+        "title": "«المصريين الأحرار» يطالب بمحاسبة المسؤولين عن نشر أخبار كاذبة - المصري اليوم 2025-06-05",
+        "url": "https://www.almasryalyoum.com/news/details/3468691"
+      },
+      {
+        "title": "رئيس «المصريين الأحرار» يشكر السيسي على تعيينه بمجلس الشيوخ - 党官方Facebook 2025-10-12",
+        "url": "https://www.facebook.com/almasreyeenalahrrar/posts/1382406566577979"
+      },
+      {
+        "title": "Essam Khalil (politician) - Wikipedia（主席履历与2025年10月参议院任命）",
+        "url": "https://en.wikipedia.org/wiki/Essam_Khalil_(politician)"
+      },
+      {
+        "title": "هبة واصل: رفع «موديز» تصنيف مصر يعزز... - الشروق 2026-10-17（秘书长身份佐证）",
+        "url": "https://www.shorouknews.com/news/view.aspx?cdate=17102026&id=0715f149-a7e4-40f2-b047-b263c4bab4dd"
+      },
+      {
+        "title": "حزب المصريين الأحرار - Carnegie Endowment for International Peace（2011年建党背景）",
+        "url": "https://carnegieendowment.org/ar/posts/2011/09/free-egyptians-party"
+      }
+    ],
+    "completeness_score": 91,
+    "notes": "phase3 enrichment 2026-11-16/17. 领导层核实：截至2026年11月党主席仍为伊萨姆·哈利勒（2026-11-15宪章报播客及2026年多则报道），任务提示的「萨拉赫·哈萨萨任主席」方向未获任何来源支持，未采信；秘书长为希巴·瓦西勒（2025-2026年多家埃及媒体）。纳吉布·萨维里斯为创始人（卡内基和平基金会2011、BBC阿语2011、阿纳多卢通讯社2017多源确认），但「该党由新华夫脱党分裂而来」未找到可靠来源，故未建立与EG-PARTY-004的关联。官网两个域名分别来自英/阿维基信息框，均未验证可访问性。X/YouTube/Instagram官方账号未获确认，未收录。"
   }
 }

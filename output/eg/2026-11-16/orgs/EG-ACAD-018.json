@@ -1,11 +1,13 @@
 {
   "org_id": "EG-ACAD-018",
   "basic_info": {
-    "name_original": "National Research Centre",
+    "name_original": "المركز القومي للبحوث",
     "name_zh": "埃及國家研究中心",
     "name_en": "National Research Centre",
     "aliases": [
-      "National Research Center"
+      "National Research Center",
+      "NRC",
+      "المركز القومى للبحوث"
     ],
     "org_type": "ACAD",
     "org_subtype": "research_institute",
@@ -15,27 +17,252 @@
     "website": "http://www.nrc.sci.eg",
     "wikidata_qid": "Q6978045"
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "nrcgove",
+      "url": "https://www.facebook.com/nrcgove",
+      "source": 6,
+      "source_note": "国家研究中心官方脸书主页，持续发布中心活动与公告（2025-2026年多条帖文）"
+    }
   ],
-  "apec_stance": null,
+  "digital_assets": [
+    {
+      "name": "《国家研究中心通报》开放获取期刊",
+      "url": "https://link.springer.com/journal/42269",
+      "description": " Bulletin of the National Research Centre：国家研究中心主办的多学科开放获取英文学术期刊（ISSN 2522-8307），自2018年起由SpringerOpen出版，覆盖自然科学、工程与医学等全部学科领域",
+      "source": "https://link.springer.com/journal/42269"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000672",
+      "name": "马姆杜·穆阿瓦德 (ممدوح معوض)",
+      "title": "主席 (رئيس المركز القومي للبحوث)",
+      "title_description": "国家研究中心最高负责人，主持中心全面工作【P5复核】其「兼任ASRT代理主席」表述与EG-ACAD-020画像冲突（ASRT侧多源指向代理院长吉娜·法基，2025-12续任），两说并存待核",
+      "description": "至迟于2025年7月已以主席身份公开活动（《第七日报》2025-07-16专访），并兼任科学技术研究院（ASRT）代理主席（中心官方脸书2026年5-8月多条帖文持续使用该双重头衔）；译名为音译。"
+    },
+    {
+      "person_id": "EG-PERSON-000673",
+      "name": "侯赛因·达尔维什 (حسين درويش)",
+      "title": "前主席",
+      "title_description": "曾任国家研究中心主席，卸任具体时间未确认",
+      "description": "英文维基百科信息框与OECD《埃及创新政策评估2026》均以其为国家研究中心负责人；2025-11-06埃及One Health学会帖文与2026-10-11 VBC疫苗公司新闻稿均称其为「前主席」（现任该学会秘书长），交叉确认其已卸任；译名为音译。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-018-DEPT-001",
+      "name": "化学工业研究所",
+      "head": null,
+      "description": "隶属工业板块，下设10个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-002",
+      "name": "制药工业研究所",
+      "head": null,
+      "description": "隶属工业板块，下设9个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-003",
+      "name": "食品工业与营养研究所",
+      "head": null,
+      "description": "隶属工业板块，下设6个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-004",
+      "name": "无机化学工业与矿产资源研究所",
+      "head": null,
+      "description": "隶属工业板块，下设6个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-005",
+      "name": "纺织工业研究所",
+      "head": null,
+      "description": "隶属工业板块，下设5个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-006",
+      "name": "工程研究所",
+      "head": null,
+      "description": "隶属工业板块，下设5个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-007",
+      "name": "物理学研究所",
+      "head": null,
+      "description": "隶属基础科学板块，下设6个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-008",
+      "name": "医学与临床研究所",
+      "head": null,
+      "description": "隶属环境与公共卫生板块，下设16个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-009",
+      "name": "人类遗传学与基因组研究所",
+      "head": null,
+      "description": "隶属环境与公共卫生板块，下设8个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-010",
+      "name": "口腔与牙科研究所",
+      "head": null,
+      "description": "隶属环境与公共卫生板块，下设5个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-011",
+      "name": "环境与气候变化研究所",
+      "head": null,
+      "description": "隶属环境与公共卫生板块，下设3个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-012",
+      "name": "兽医研究所",
+      "head": null,
+      "description": "隶属农业板块，下设6个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-013",
+      "name": "生物技术研究所",
+      "head": null,
+      "description": "隶属农业板块，下设8个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-014",
+      "name": "农业与生物学研究所",
+      "head": null,
+      "description": "隶属农业板块，下设16个研究部",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-018-DEPT-015",
+      "name": "流感病毒科学卓越中心",
+      "head": null,
+      "description": "附属研究中心，研究动物源性流感病毒对人类的威胁，研发禽流感疫苗与抗病毒药物，并研究流感病毒在埃及的流行与演化",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-16",
+      "title": "主席穆阿瓦德称国家研究中心为埃及及非洲与中东最大研究机构",
+      "description": "主席马姆杜·穆阿瓦德接受《第七日报》专访时表示，国家研究中心隶属高等教育部与科学研究部，是埃及最大的研究中心，也是非洲和中东地区最大的科研机构。",
+      "impact": "重申中心作为埃及国家科研旗舰机构的定位（依据：Youm7 2025-07-16专访报道）。",
+      "source": "https://www.youm7.com/story/2025/7/16/رئيس-القومى-للبحوث-المركز-أكبر-جهة-بحثية-فى-إفريقيا-والشرق/7057554"
+    },
+    {
+      "date": "2025-08-07",
+      "title": "中心启动「新一代2025」青年科研人才计划",
+      "description": "国家研究中心官方脸书宣布启动「أجيال 2025」（新一代2025）计划，本届主题为「创新研究者」（باحث مبتكر），旨在培养青年在各类科研领域的技能。",
+      "impact": "面向青年的科研能力建设，扩大中心人才储备与社会影响（依据：中心官方脸书帖文）。",
+      "source": "https://www.facebook.com/nrcgove/posts/753988937604299"
+    },
+    {
+      "date": "2025-11-06",
+      "title": "前主席达尔维什公开活动，确认中心领导层完成更替",
+      "description": "埃及One Health学会帖文以「国家研究中心前主席」身份提及侯赛因·达尔维什（同时任该学会秘书长）；2026-10-11 VBC疫苗公司新闻稿亦沿用同一头衔，与现任主席穆阿瓦德（2025年7月起在任）的报道交叉印证。",
+      "impact": "确认中心最高负责人已由达尔维什更替为穆阿瓦德，交接发生于2025年内（依据：学会帖文与VBC新闻稿双重佐证）。",
+      "source": "https://www.facebook.com/groups/927630851103064/posts/2084217938777677/"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "「新一代」计划2026夏季版（第四期）开放报名",
+      "description": "在高等教育部与科学研究部指导下、由主席马姆杜·穆阿瓦德主持，中心会议部门宣布启动「أجيال صيف 2026」（新一代2026夏季版·创新研究者第四期）。",
+      "impact": "体现中心青年科研培训计划的延续与扩大（依据：《金字塔报》农业频道2026-05-13报道）。",
+      "source": "https://agri.ahram.org.eg/News/136344.aspx"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "主席穆阿瓦德兼任科学技术研究院（ASRT）代理主席",
+      "description": "中心官方脸书活动公告以「国家研究中心主席、科学技术研究院代理主席」（رئيس المركز القومي للبحوث والقائم بتسير أعمال رئيس أكاديمية البحث العلمي والتكنولوجيا）头衔称呼马姆杜·穆阿瓦德，该头衔在2026年6月5日、7月8日、8月14日等多条帖文中持续出现。",
+      "impact": "国家研究中心与科学技术研究院两大科研机构形成「一肩挑」领导格局，有利于科研资源统筹（依据：中心官方脸书2026年5-8月系列帖文）。",
+      "source": "https://www.facebook.com/nrcgove/videos/1683693595880231"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "高等教育与科学研究部 (وزارة التعليم العالى والبحث العلمى)",
+      "org_type": "GOV",
+      "org_description": "埃及内阁部委，主管全国高等教育与科学研究事务；国家研究中心为其所属最大研究机构",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "EG-ACAD-020",
+      "org_name": "科学技术研究院 (أكاديمية البحث العلمي والتكنولوجيا)",
+      "org_type": "ACAD",
+      "org_description": "埃及国家科研管理机构（ASRT），与国家研究中心同属高教与科研部体系；2026年两机构由穆阿瓦德一肩挑（兼任ASRT代理主席）",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "流感病毒科学卓越中心 (Center of Scientific Excellence for Influenza Viruses)",
+      "org_type": "ACAD",
+      "org_description": "国家研究中心附属研究机构，聚焦动物源性流感病毒对人类的威胁及禽流感疫苗与抗病毒药物研发",
+      "relationship_type": "subsidiary"
+    }
+  ],
+  "core_business": "埃及国家研究中心（NRC）成立于1956年，宗旨是促进基础与应用科学研究，重点服务工业、农业、公共卫生和国民经济其他部门，是隶属于高等教育部与科学研究部的最大研究机构，也被其领导人称为非洲与中东地区最大的综合研究中心。中心位于吉萨省杜基（Dokki），截至2024年4月拥有4700余名科研人员，设14个研究所、109个研究部，按工业、基础科学、环境与公共卫生、农业四大板块组织。研究领域涵盖化学与化工、制药、食品与营养、无机化学与矿产资源、纺织、工程、物理、医学临床、人类遗传与基因组、口腔牙科、环境与气候变化、兽医、生物技术、农业与生物等；另设流感病毒科学卓越中心从事禽流感疫苗与抗病毒药物研发。中心通过SpringerOpen出版多学科开放获取期刊《国家研究中心通报》（Bulletin of the National Research Centre，ISSN 2522-8307），并面向社会举办「新一代」（أجيال）青年科研人才培训计划。中心由一名主席领导，下设科研与技术事务两名副主席。",
+  "industries": [
+    "research_development",
+    "agriculture_food",
+    "biotechnology",
+    "chemicals",
+    "pharmaceuticals",
+    "healthcare",
+    "engineering",
+    "environmental_services",
+    "public_health"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
-      "wikidata",
       "wikipedia",
-      "official_website"
+      "news_search",
+      "social_media",
+      "web_search"
     ],
-    "completeness_score": 12,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 69,
+    "quotes": [
+      {
+        "title": "Wikipedia (EN): National Research Centre (Egypt)",
+        "url": "https://en.wikipedia.org/wiki/National_Research_Centre_(Egypt)"
+      },
+      {
+        "title": "Youm7: رئيس «القومى للبحوث»: المركز أكبر جهة بحثية فى إفريقيا والشرق الأوسط (2025-07-16)",
+        "url": "https://www.youm7.com/story/2025/7/16/رئيس-القومى-للبحوث-المركز-أكبر-جهة-بحثية-فى-إفريقيا-والشرق/7057554"
+      },
+      {
+        "title": "NRC官方脸书: مبادرة أجيال 2025「新一代2025」计划启动 (2025-08-07)",
+        "url": "https://www.facebook.com/nrcgove/posts/753988937604299"
+      },
+      {
+        "title": "Ahram agri: برؤية 2026.. المركز القومي للبحوث يفتح أبوابه لجيل جديد (2026-05-13)",
+        "url": "https://agri.ahram.org.eg/News/136344.aspx"
+      },
+      {
+        "title": "Springer: Bulletin of the National Research Centre (期刊主页)",
+        "url": "https://link.springer.com/journal/42269"
+      }
+    ],
+    "notes": "英文维基+官方脸书+Youm7/Ahram新闻多源交叉验证；阿语维基（502）与官网（证书过期）访问失败，改以新闻与官方社交媒体佐证；主席更替（Darwish→Moawd）经2025-11-06学会帖文与2026-10-11 VBC新闻稿双源确认。; P5复核项: 穆阿瓦德兼任ASRT代理主席与ACAD-020画像冲突（法基vs穆阿瓦德）"
   }
 }

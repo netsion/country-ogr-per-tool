@@ -1,14 +1,16 @@
 {
   "org_id": "EG-PARTY-014",
   "basic_info": {
-    "name_original": "National Democratic Party",
+    "name_original": "الحزب الوطني الديمقراطي",
     "name_zh": "民族民主党",
     "name_en": "National Democratic Party",
     "aliases": [
-      "NDP"
+      "NDP",
+      "National Party (الحزب الوطني)",
+      "新民族党 New National Party (الحزب الوطني الجديد，2011年4月更名后短暂使用)"
     ],
     "org_type": "PARTY",
-    "org_subtype": "opposition_party",
+    "org_subtype": "ruling_party",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
     "founded_date": "1978-10-02",
@@ -16,44 +18,292 @@
     "wikidata_qid": "Q841133"
   },
   "social_accounts": [],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "官方网站存档（2005年9月快照）",
+      "url": "https://web.archive.org/web/20050901103342/http://www.ndp.org.eg/",
+      "description": "互联网档案馆（Internet Archive）保存的NDP官方网站首页存档；原域名 ndp.org.eg 在2011年党被解散后已失效",
+      "source": "Wikipedia英文条目外部链接"
+    },
+    {
+      "name": "官方网站英文版存档（2007年7月快照）",
+      "url": "https://web.archive.org/web/20070704032830/http://www.ndp.org.eg/en/Index.aspx",
+      "description": "NDP官网英文版页面（Index.aspx）2007年7月4日的存档快照",
+      "source": "Wikipedia英文条目外部链接"
+    },
+    {
+      "name": "最高行政法院解散判决书全文（2011年4月16日）",
+      "url": "https://manshurat.org/node/72713",
+      "description": "Manshurat法律文献库存档的判决书文本：最高行政法院（政治案件巡回庭）判决「消灭」民族民主党并清算其资产、移交国家",
+      "source": "新闻搜索（Manshurat文献库）"
+    }
+  ],
   "key_people": [
     {
       "person_id": "EG-PERSON-000048",
       "name": "穆罕默德·胡斯尼·穆巴拉克 (Hosni Mubarak)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "党主席 (رئيس الحزب)",
+      "title_description": "1981年至2011年4月任党主席（1981–1982年兼任总书记）",
+      "description": "1981年萨达特遇刺后继任总统并执掌NDP近30年，经公投制连任四届总统，2005年在埃及首次多候选人总统选举中以88.6%得票第五次连任；2011年1月革命中党总部被焚，2月5日据报辞去党主席职务（阿拉比亚电视台一度撤回报道），2月11日辞去总统职务；其领导的党于2011年4月16日被最高行政法院判决解散。英文Wikipedia「Leadership」表与阿拉伯语Wikipedia交叉证实其党主席任期。"
     },
     {
       "person_id": "EG-PERSON-000049",
       "name": "穆罕默德·安瓦爾·薩達特 (Anwar Sadat)",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "title": "党主席 (رئيس الحزب)",
+      "title_description": "创始人，1978–1981年任党主席",
+      "description": "1978年在解散阿拉伯社会主义联盟（ASU）后组建NDP（英文Wikipedia载1978年7月9日宣布组建、10月2日正式获批；阿拉伯语Wikipedia载创立于1978年7月31日），吸收ASU中派翼成员，约250名人民议员随后入党；1981年10月遇刺身亡后由穆巴拉克接任。"
+    },
+    {
+      "person_id": "EG-PERSON-000414",
+      "name": "贾迈勒·穆巴拉克 (جمال مبارك)",
+      "title": "政策书记 (أمين السياسات)",
+      "title_description": "政策书记处负责人、政治局成员",
+      "description": "穆巴拉克幼子、银行家出身。2000年议会选举失利后主导党的现代化改造，仿英国工党模式设计并领导政策书记处，产出经济、政治与外交政策文件，吸纳年轻企业家与技术官僚，其中多人在2004年进入内阁（包括总理纳齐夫）与党领导层，被学界视为「精英集团」权力网络核心；长期被外界视为接班人选，但党新闻书记阿里丁·希拉勒2010年公开表示2011年总统候选人仍将是穆巴拉克；2011年2月5日与多名高层退出党的中央委员会。"
+    },
+    {
+      "person_id": "EG-PERSON-000830",
+      "name": "萨夫瓦特·谢里夫 (صفوت الشريف)",
+      "title": "总书记 (الأمين العام)",
+      "title_description": "2002年至2011年2月任总书记，兼任协商会议议长、政治局成员",
+      "description": "2002年接替优素福·瓦利出任党总书记，同期任协商会议（Shura Council）议长并为政治局核心成员（阿拉伯语Wikipedia政治局名单同时以其协商会议议长与总书记两重身份列入）；2011年1月革命后去职，其总书记职务由侯萨姆·巴德拉维接任。"
+    },
+    {
+      "person_id": "EG-PERSON-000831",
+      "name": "侯萨姆·巴德拉维 (حسام بدراوي)",
+      "title": "总书记 (2011年2月–4月)",
+      "title_description": "革命后临危受命的末任总书记，曾任企业界书记",
+      "description": "被视为党内自由派人物，2011年2月5日在革命压力下接替谢里夫出任总书记；穆巴拉克2月11日辞去总统职务当天，巴德拉维即辞去总书记职务并退党（就任不足一周）；阿拉伯语Wikipedia另载其曾任党企业界书记（أمين قطاع الأعمال）。"
+    },
+    {
+      "person_id": "EG-PERSON-000832",
+      "name": "塔拉特·萨达特 (طلعت السادات)",
+      "title": "党主席 (2011年4月12日–16日)",
+      "title_description": "末代党主席（非党员、原反对派人民议员、安瓦尔·萨达特之侄）",
+      "description": "2011年4月12日在多起解散诉讼压力下被推举为党主席，出任时并非党员、长期被视为反对派人物；上任后宣布「清洗」党内腐败成员、将党更名「新民族党」（الحزب الوطني الجديد）并纳入1月革命的目标（阿拉伯语Wikipedia载其就任与更名在4月13日）；4天后（4月16日）最高行政法院即判决解散该党；英文Wikipedia名录显示其生卒年为1954–2011。"
+    },
+    {
+      "person_id": "EG-PERSON-000418",
+      "name": "艾哈迈德·埃兹 (أحمد عز)",
+      "title": "组织书记 (أمين التنظيم)",
+      "title_description": "政治局成员，兼任党员事务书记（أمين العضوية）",
+      "description": "阿拉伯语Wikipedia党领导机构名录载其任组织书记并兼任党员事务书记，为政治局固定成员（与党主席穆巴拉克、政策书记贾迈勒·穆巴拉克、总书记谢里夫等并列）；2011年4月党被法院解散后职务终止。"
+    },
+    {
+      "person_id": "EG-PERSON-000833",
+      "name": "优素福·瓦利 (يوسف والي)",
+      "title": "总书记 (1984–2002)",
+      "title_description": "任职时间最长的总书记，阿拉伯语Wikipedia另列其为副主席",
+      "description": "1984年接任党总书记直至2002年（为NDP历任总书记中任职最久者），期间党在历届人民议会选举中保持绝对多数；阿拉伯语Wikipedia副主席名录载其曾任党副主席。2002年由萨夫瓦特·谢里夫接任。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "public_administration"
+  "departments": [
+    {
+      "dept_id": "EG-PARTY-014-DEPT-001",
+      "name": "政治局 (المكتب السياسي)",
+      "head": "胡斯尼·穆巴拉克 (حسني مبارك)",
+      "description": "党最高领导与决策机构。据阿拉伯语Wikipedia，其组成包括：党主席穆巴拉克、政策书记贾迈勒·穆巴拉克、人民议会议长艾哈迈德·法特希·萨鲁尔、协商会议议长兼总书记萨夫瓦特·谢里夫、组织书记艾哈迈德·埃兹，另加大会选举的8名成员（自第九届大会起包括优素福·瓦利、卡迈勒·沙兹利、阿玛勒·奥斯曼、泽纳布·拉德万、萨尔瓦特·巴西利、法尔汉达·哈桑、爱德华·加利等）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-002",
+      "name": "总书记处 (الأمانة العامة)",
+      "head": "萨夫瓦特·谢里夫 (صفوت الشريف)",
+      "description": "负责党务日常运作的执行机构。历任总书记（英文Wikipedia「Secretary-General」表）：法克里·马克拉姆·欧拜德（1978–1981）、穆巴拉克（1981–1982）、艾哈迈德·福阿德·穆希丁（1982–1984）、优素福·瓦利（1984–2002）、萨夫瓦特·谢里夫（2002–2011年2月）、侯萨姆·巴德拉维（2011年2月–4月）；阿拉伯语Wikipedia另列穆罕默德·拉贾布、穆罕默德·苏卜希·阿卜杜勒-哈基姆等。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-003",
+      "name": "政策书记处 (أمانة السياسات)",
+      "head": "贾迈勒·穆巴拉克 (جمال مبارك)",
+      "description": "2000年议会选举失利后设立，由贾迈勒·穆巴拉克仿英国工党模式设计并领导，产出经济、政治、外交等领域政策文件，网罗年轻改革派企业家与技术官僚；其成员2004年大批进入内阁与党领导层（如总理纳齐夫），成为穆巴拉克后期「精英集团」的权力孵化器（据英文Wikipedia引Carnegie Dunne 2006评述）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-004",
+      "name": "组织书记处 (أمانة التنظيم)",
+      "head": "艾哈迈德·埃ز (أحمد عز)",
+      "description": "负责党的组织体系与机构运作；阿拉伯语Wikipedia名录载历任组织书记为艾哈迈德·埃兹、卡迈勒·沙兹利。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-005",
+      "name": "财政与行政事务书记处 (أمانة الشؤون المالية والإدارية)",
+      "head": "扎卡里亚·阿兹米 (زكريا عزمي)",
+      "description": "负责党产、财务与行政管理；阿拉伯语Wikipedia名录载历任书记为赛义德·阿里菲、扎卡里亚·阿兹米（后者另任分管组织、党员、财务与行政事务的总书记助理）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-006",
+      "name": "新闻书记处 (أمانة الإعلام)",
+      "head": "阿里丁·希拉勒 (علي الدين هلال)",
+      "description": "负责党的宣传与媒体事务；阿拉伯语Wikipedia名录载历任新闻书记为阿里丁·希拉勒、马姆杜·贝尔塔吉；希拉勒2009年曾称埃及政治体制为「法老式」、民主是长期目标（英文Wikipedia引述）。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-007",
+      "name": "妇女书记处 (أمانة المرأة)",
+      "head": "苏海尔·卡拉马维 (سهير القلماوي)",
+      "description": "负责妇女党员动员与参政事务；阿拉伯语Wikipedia名录载历任妇女书记为穆米娜·卡迈勒、艾莎·阿卜杜勒-哈迪、苏海尔·卡拉马维。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-PARTY-014-DEPT-008",
+      "name": "企业界书记处 (أمانة قطاع الأعمال)",
+      "head": "侯萨姆·巴德拉维 (حسام بدراوي)",
+      "description": "负责联系与吸纳企业界党员，体现党与商界精英的结合；阿拉伯语Wikipedia名录载企业界书记为侯萨姆·巴德拉维（其2011年2月转任总书记）。",
+      "parent_dept_id": null
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "1978-10-02",
+      "title": "民族民主党正式获批成立",
+      "description": "萨达特总统在解散阿拉伯社会主义联盟（ASU）后，于1978年7月9日宣布由ASU中派翼组建执政党（阿拉伯语Wikipedia载创立于1978年7月31日、8月7日总书记处会议定名），1978年10月2日正式获批；约250名人民议员随即入党。此后至2011年，党在人民议会始终保持至少四分之三席位。",
+      "impact": "确立穆巴拉克前后的埃及「一党独大」格局：ASU中派翼转为执政党、左翼转为民族进步统一党、右翼转为自由社会主义者党（英文Wikipedia）。",
+      "source": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+    },
+    {
+      "date": "1989-01-01",
+      "title": "加入社会党国际",
+      "description": "NDP于1989年加入社会党国际（Socialist International），成为其成员党；该党虽被归类为中派「兼容型」政党，但学术评述普遍认为其意识形态模糊、以维持政权稳定为先。",
+      "impact": "为党提供国际社会民主阵营的名义成员身份；2011年1月31日社际在革命压力下将其开除（英文Wikipedia）。",
+      "source": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+    },
+    {
+      "date": "2005-09-07",
+      "title": "埃及首次多候选人总统选举，NDP候选人穆巴拉克获88.6%连任",
+      "description": "2005年9月7日埃及举行史上首次多候选人总统选举，NDP候选人穆巴拉克以官方88.6%得票第五次连任（投票率约23%）；反对派候选人（如明日党阿伊曼·努尔）与独立监督机构指选举存在违规与国家资源滥用。同年11月议会选举中NDP候选人仅获约34%选票，靠吸纳「NDP独立候选人」保住三分之二多数，穆斯林兄弟会独立候选人不规则取得88席。",
+      "impact": "首次以多候选人竞选替代公投制，但舞弊指控与兄弟会崛起显示党压制力下降，为2011年革命埋下伏笔。",
+      "source": "https://www.everycrsreport.com/reports/RS22274.html"
+    },
+    {
+      "date": "2010-11-28",
+      "title": "2010年人民议会选举首轮投票：NDP近乎横扫，舞弊指控四起",
+      "description": "首轮211席中NDP赢得209席；穆斯林兄弟会与华夫脱党指首轮出现「舞弊、恐吓与暴力」（兄弟会声明称「昨天投票站、票箱转运与计票中心均发生舞弊」），人权组织与美欧批评选举不自由；国际特赦组织称至少8人死于选举相关暴力。",
+      "impact": "兄弟会由88席跌至近乎出局，触发其抵制第二轮；学界与媒体普遍将此次选举视为民众与政权关系破裂、2011年1月25日革命爆发的直接导火索。",
+      "source": "https://www.france24.com/en/20101129-opposition-muslim-brotherhood-parliamentary-seats-fraud-election-egypt"
+    },
+    {
+      "date": "2010-12-05",
+      "title": "兄弟会与华夫脱党抵制第二轮，NDP最终获420/508席",
+      "description": "12月5日第二轮投票遭穆斯林兄弟会与华夫脱党联合抵制，BBC报道NDP横扫第二轮；全议会508席中NDP最终占420席（约97%），兄弟会仅剩1席。埃及人权组织要求判选举结果无效。",
+      "impact": "彻底排除体制内制衡力量，巩固贾迈勒·穆巴拉克圈层在2011年总统选举前对政局的控制，但进一步激化社会矛盾。",
+      "source": "https://www.bbc.com/news/world-middle-east-11935368"
+    },
+    {
+      "date": "2011-01-28",
+      "title": "「愤怒日」抗议中NDP开罗总部被焚毁",
+      "description": "1月25日反政府抗议爆发后，1月28日大规模示威中，位于开罗尼罗河畔、埃及博物馆与解放广场之间的NDP总部大楼（1958年由建筑师马哈茂德·里亚德设计，曾先后作开罗市政机构与ASU办公地）被示威者纵火烧毁，多地说党组织亦被冲击，成为革命最具标志性的画面之一。",
+      "impact": "党作为政权象征被民众直接摧毁，标志其「道德崩塌」（阿拉伯语Wikipedia称此为党的「精神倒台」）；该建筑2015年获批拆除。",
+      "source": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+    },
+    {
+      "date": "2011-02-05",
+      "title": "穆巴拉克据报辞去党主席，贾迈勒等高层退出，巴德拉维出任总书记",
+      "description": "革命压力下，阿拉比亚电视台报道穆巴拉克辞去NDP主席职务（随后撤回该报道）；其子贾迈勒·穆巴拉克与多名高层同日退出党的中央委员会/政治局；被视为自由派的侯萨姆·巴德拉维接替萨夫瓦特·谢里夫出任总书记。社际已于1月31日将NDP开除。",
+      "impact": "党高层「断臂自保」未能平息民意，权力核心快速瓦解。",
+      "source": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+    },
+    {
+      "date": "2011-02-11",
+      "title": "穆巴拉克辞去总统职务，总书记巴德拉维同日辞职退党",
+      "description": "在军方立场转变与持续大规模抗议下，穆巴拉克2月11日辞去总统职务、权力移交军方（武装部队最高委员会）；上任不足一周的总书记巴德拉维同日辞去党职并退党，大批官员与党员随后退党。",
+      "impact": "执政30年的党政权终结，针对党的解散诉讼随即大量提起。",
+      "source": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+    },
+    {
+      "date": "2011-04-12",
+      "title": "塔拉特·萨达特出任末代党主席，宣布更名「新民族党」",
+      "description": "在多起解散诉讼压力下，安瓦尔·萨达特之侄、非党员的原反对派人民议员塔拉特·萨达特4月12日被推举为党主席（阿拉伯语Wikipedia载就任与更名在4月13日），宣布「清洗」腐败成员、将党更名「新民族党」（الحزب الوطني الجديد）并纳入革命目标。",
+      "impact": "自救更名未能阻止司法清算，4天后党即被法院解散。",
+      "source": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+    },
+    {
+      "date": "2011-04-16",
+      "title": "最高行政法院判决解散NDP，资产清算移交国家",
+      "description": "最高行政法院（政治案件巡回庭）4月16日（周六）判决「消灭」民族民主党并清算其资产，全国所有党部、资金与不动产移交国有；判决理由包括党涉嫌腐败、扭曲政治生活（判决书全文见Manshurat文献库；半岛电视台阿语版、阿拉比亚、Reuters当日均报道）。注：任务提示中的「2011-02-16」经多来源核实应为2011-04-16。",
+      "impact": "执政逾30年的党被司法终结，满足革命核心诉求之一；部分旧成员此后组建党团（「旧政权残余」felool），2014年开罗紧急事务法院一度禁止前NDP成员参选（5月6日），同年7月14日该禁令被推翻。",
+      "source": "https://www.aljazeera.net/news/2011/4/16/حل-الحزب-الوطني-الديمقراطي-بمصر"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿拉伯社会主义联盟 (الاتحاد الاشتراكي العربي)",
+      "org_type": "PARTY",
+      "org_description": "1962–1976年埃及唯一法定政治组织（纳赛尔时期执政组织），1977年解散后其三大意识形态平台分别转为政党",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "社会党国际 (Socialist International)",
+      "org_type": "INTL",
+      "org_description": "全球社会民主政党联合组织；NDP于1989年加入，2011年1月31日因其镇压革命中的角色被开除",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "EG-PARTY-007",
+      "org_name": "民族进步统一分子联盟党 (National Progressive Unionist Party)",
+      "org_type": "PARTY",
+      "org_description": "由阿拉伯社会主义联盟左翼平台转变而成的埃及政党，与NDP同源于1977年解散的ASU（中派翼→NDP，右翼→自由社会主义者党）",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "民族民主党（NDP）是1978年至2011年埃及的执政党，由总统安瓦尔·萨达特在解散阿拉伯社会主义联盟（ASU）后组建（英文Wikipedia载1978年10月2日正式获批，阿拉伯语Wikipedia载创立于1978年7月31日），被视为ASU的继承组织。该党是穆巴拉克时期国家政治权力的组织中枢：截至2010年拥有约190万党员，自1978年起在人民议会始终占据至少四分之三席位，主导1980—2010年历届议会选举与总统公投（2005年为首次多候选人选举），并控制协商会议多数。党通过政治局与各书记处（政策、组织、财政与行政、新闻、妇女、青年、企业界等）整合官僚精英、企业家与地方庇护网络；2000年后贾迈勒·穆巴拉克领导的政策书记处仿英国工党模式产出政策文件并吸纳年轻企业家与技术官僚，其成员2004年大批进入内阁（如总理纳齐夫），形成「精英集团」权力网络。党还出版机关报《今日国民报》（الوطني اليوم），1989年加入社会党国际（2011年1月31日被开除）。学术与新闻界（Freedom House、Carnegie、Boston University的Norton等）普遍将其定性为意识形态模糊、以选举操控与紧急状态法维持的威权执政党；2010年议会选举大规模舞弊成为2011年1月25日革命导火索，总部大楼1月28日被焚，2011年4月16日党被最高行政法院判决解散，资产清算后移交国家。",
+  "industries": [
+    "public_administration",
+    "legislative"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8b/National_Democratic_Party_%28Egypt%29.svg/330px-National_Democratic_Party_%28Egypt%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-PARTY-014.png",
+    "minio_path": "default/popular-org-profile/eg/EG-PARTY-014.png"
   },
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "news_search",
+      "web_search"
     ],
-    "completeness_score": 23,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 84,
+    "notes": "历史组织（2011年4月16日解散），无社交账号与官网（官网已失效，存档见digital_assets）。关键事实（成立1978-10-02、2010选举舞弊、2011-01-28总部被焚、2011-04-16最高行政法院解散并清算资产）均经英文/阿拉伯语Wikipedia与Reuters、半岛电视台（阿/英）、阿拉比亚、BBC、France24、CRS等多独立来源交叉验证；任务提示中的解散日期「2011-02-16」经核实应为2011-04-16。组织架构依据阿拉伯语Wikipedia领导机构名录。",
+    "quotes": [
+      {
+        "title": "National Democratic Party (Egypt) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/National_Democratic_Party_(Egypt)"
+      },
+      {
+        "title": "الحزب الوطني الديمقراطي (مصر) - ويكيبيديا",
+        "url": "https://ar.wikipedia.org/wiki/الحزب_الوطني_الديمقراطي_(مصر)"
+      },
+      {
+        "title": "حل الحزب الوطني الديمقراطي بمصر | الجزيرة نت",
+        "url": "https://www.aljazeera.net/news/2011/4/16/حل-الحزب-الوطني-الديمقراطي-بمصر"
+      },
+      {
+        "title": "المحكمة الإدارية العليا تحل الحزب الوطني في مصر وتصفي أمواله - العربية",
+        "url": "https://www.alarabiya.net/articles/2011/04/16/145630"
+      },
+      {
+        "title": "Egypt court dissolves former ruling party - Reuters",
+        "url": "https://www.reuters.com/article/ozatp-egypt-politics-20110416-idAFJOE73F07Z20110416/"
+      },
+      {
+        "title": "Egypt: 2005 Presidential and Parliamentary Elections (CRS Report)",
+        "url": "https://www.everycrsreport.com/reports/RS22274.html"
+      },
+      {
+        "title": "Egypt election: Hosni Mubarak's NDP sweeps second round - BBC News",
+        "url": "https://www.bbc.com/news/world-middle-east-11935368"
+      },
+      {
+        "title": "انقضاء الحزب الوطني المنحل وتصفية أمواله وأيلولتها إلى الدولة（解散判决书全文） - Manshurat",
+        "url": "https://manshurat.org/node/72713"
+      }
+    ]
   }
 }

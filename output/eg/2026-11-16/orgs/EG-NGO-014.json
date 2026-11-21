@@ -1,35 +1,236 @@
 {
   "org_id": "EG-NGO-014",
   "basic_info": {
-    "name_original": "Association for Freedom of Thought and Expression",
-    "name_zh": null,
+    "name_original": "مؤسسة حرية الفكر والتعبير",
+    "name_zh": "思想与表达自由协会",
     "name_en": "Association for Freedom of Thought and Expression",
-    "aliases": [],
+    "aliases": [
+      "AFTE",
+      "جمعية حرية الفكر والتعبير",
+      "Association for Free Thought and Expression"
+    ],
     "org_type": "NGO",
     "org_subtype": "advocacy_group",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": null,
-    "website": null,
+    "founded_date": "2006-01-01",
+    "website": "https://afteegypt.org",
     "wikidata_qid": null
   },
-  "social_accounts": [],
-  "digital_assets": [],
-  "key_people": [],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [],
-  "apec_stance": null,
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "afteegypt.org",
+      "url": "https://www.facebook.com/afteegypt.org/",
+      "source": 6,
+      "source_note": "Facebook官方主页，经搜索结果确认（页面标题：مؤسسة حرية الفكر والتعبير - (AFTE)，位于开罗）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "被拘押记者、创作者与学者档案库",
+      "url": "https://afteegypt.org/en/profiles_en",
+      "description": "按被拘押学者（Detained Academics）、记者（Detained Journalists）、创作者（Detained Creators）分类的人物档案库，逐案记录法律进展",
+      "source": "官网英文版首页导航（2026-11读取确认）"
+    },
+    {
+      "name": "被封锁网站名单",
+      "url": "https://afteegypt.org/en/blocked-websites-list",
+      "description": "AFTE持续监测并公布的埃及境内被屏蔽网站清单，系其数字权利监测的旗舰数据库",
+      "source": "官网英文版首页「Most Read」栏目（2026-11读取确认）"
+    },
+    {
+      "name": "每周法律公报",
+      "url": "https://afteegypt.org/category/legal-updates-2/weekly-legal-bulletin",
+      "description": "逐周汇总被拘押人员羁押延期、开庭与判决动态，覆盖记者、学生、学者等案件",
+      "source": "官网法律动态栏目（2026-11读取确认）"
+    },
+    {
+      "name": "月度简报",
+      "url": "https://afteegypt.org/advocacy/monthly-newsletter/",
+      "description": "按月汇总AFTE当月声明、法律进展与研究出版物，2026年5月至10月各期均在官网可查",
+      "source": "官网倡导栏目（2026-11读取确认）"
+    },
+    {
+      "name": "年度报告《埃及言论自由状况》",
+      "url": "https://afteegypt.org/en/tag/annual-report",
+      "description": "AFTE年度旗舰报告，系统评估埃及言论自由整体状况",
+      "source": "官网Annual Report标签页（搜索结果确认）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "EG-PERSON-000821",
+      "name": "穆罕默德·阿卜杜勒-萨拉姆 (محمد عبد السلام)",
+      "title": "执行总监",
+      "title_description": "Association for Freedom of Thought and Expression（AFTE）执行总监",
+      "description": "阿语姓名源自MENA Rights组织阿语通报；2025年5月22日manassa.news报道其开罗机场护照被安全人员没收；2025年7月24日国际组织People in Need等呼吁埃及当局停止针对其本人及AFTE的国家骚扰（人名音译）"
+    },
+    {
+      "person_id": "EG-PERSON-000333",
+      "name": "伊马德·穆巴拉克 (عماد مبارك)",
+      "title": "创始人",
+      "title_description": "人权律师、AFTE创始负责人",
+      "description": "2006年创立AFTE，Mada Masr（2016-12-26）与阿拉伯改革中心（2019-05-24）双源确认（人名音译）"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "EG-NGO-014-DEPT-001",
+      "name": "研究条线",
+      "head": null,
+      "description": "对应官网Research板块：产出政策论文与监测报告，覆盖媒体自由、学术自由、信息获取与人工智能治理等议题；近期出版物包括《记者：从调查到审判》（2026-10-15）、《未授权网站：政治控制下的数字媒体》（2026-08-16）、《对埃及人工智能战略的评估》（2026-07-03）",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-014-DEPT-002",
+      "name": "倡导条线",
+      "head": null,
+      "description": "对应官网Advocacy板块：发布声明与联合声明、出版月度简报、就记者案件向检察长递交释放请愿（Galal El-Behairy案、Khaled Mamdouh案），并就Mada Masr关停及主编Lina Attalah被诉案发起全球紧急呼吁",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-NGO-014-DEPT-003",
+      "name": "法律援助条线",
+      "head": null,
+      "description": "对应官网Legal Updates板块：出版每周法律公报，维护被拘押记者/学者/创作者档案，跟踪羁押延期与庭审（如主播Talal Seif散布假新闻案、开罗大学教师Walid El Hamamsy纪律处分案），为表达自由相关案件提供法律支持",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-11-08",
+      "title": "发布《AFTE月报：2026年10月》",
+      "description": "AFTE在官网发布2026年10月月度简报，汇总当月声明、法律动态与研究成果，涵盖Mada Masr案等表达自由议题",
+      "impact": "月报是其持续性监测与倡导机制的例行产出，反映2026年10月埃及表达自由领域的压力态势",
+      "source": "https://afteegypt.org/en/advocacy-en/2026/11/08/42007-afteegypt.html"
+    },
+    {
+      "date": "2026-10-28",
+      "title": "多家组织联合谴责Mada Masr被关停并声援主编Lina Attalah",
+      "description": "AFTE联合其他组织发表声明，谴责独立调查新闻网站Mada Masr遭关停，声援其主编Lina Attalah",
+      "impact": "显示埃及独立媒体生存空间持续收窄，AFTE作为媒体自由核心倡导机构的联动反应（依据官网声明原文）",
+      "source": "https://afteegypt.org/en/advocacy-en/2026/10/28/41968-afteegypt.html"
+    },
+    {
+      "date": "2026-10-23",
+      "title": "就Mada Masr主编Lina Attalah被移交审判发起全球紧急呼吁",
+      "description": "在Lina Attalah被移交审判后，AFTE参与发起全球联合紧急呼吁，要求撤销指控",
+      "impact": "将埃及记者司法打压议题国际化，形成对埃及当局的外交舆论压力（依据官网联合声明）",
+      "source": "https://afteegypt.org/en/advocacy-en/2026/10/23/41933-afteegypt.html"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "发布研究报告《记者：从调查到审判》",
+      "description": "AFTE研究条线发布关于埃及记者从安全调查走向刑事审判全链条的报告，系统记录记者面临司法打压的机制",
+      "impact": "为其媒体自由倡导与联合国机制游说提供实证依据（依据官网研究栏目）",
+      "source": "https://afteegypt.org/en/research-en/2026/10/15/41878-afteegypt.html"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "发布立场文件《Matsadaqsh：安全机构打压记者与记者工会》",
+      "description": "AFTE发布立场文件，指控埃及安全机构对记者及记者工会持续施压，涉及调查新闻平台Matsadaqsh编辑部成员被拘押案",
+      "impact": "与9月30日全球联名释放呼吁相呼应，构成对新闻自由打压事件的完整倡导链条（依据官网立场文件）",
+      "source": "https://afteegypt.org/en/advocacy-en/2026/10/03/41859-afteegypt.html"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "参与呼吁释放调查新闻平台Matsadaqsh全体编辑人员的全球联名行动",
+      "description": "AFTE参与发布全球联合声明，要求释放埃及调查新闻平台Matsadaqsh（Matsadaash）被拘押的全体编辑部成员",
+      "impact": "2026年埃及新闻自由领域最受国际关注的集体拘押事件之一，AFTE是核心联署方（依据官网联合声明栏目）",
+      "source": "https://afteegypt.org/en/advocacy-en/2026/09/30/41829-afteegypt.html"
+    },
+    {
+      "date": "2025-07-24",
+      "title": "国际组织呼吁停止对执行总监Mohamed Abdel Salam的国家骚扰",
+      "description": "People in Need等国际组织发表公开信，呼吁埃及当局停止针对AFTE执行总监Mohamed Abdel Salam的骚扰，指其因合法人权工作遭到报复",
+      "impact": "AFTE负责人本人成为安全施压对象，反映该组织面临的运营与人身风险上升（日期取自People in Need公开信发布日）",
+      "source": "https://www.peopleinneed.net/call-for-an-end-to-state-harassment-of-mohamed-abdel-salam-12772gp"
+    },
+    {
+      "date": "2025-05-22",
+      "title": "执行总监Mohamed Abdel Salam在开罗机场被没收护照",
+      "description": "开罗机场安全人员没收AFTE执行总监Mohamed Abdel Salam的护照，实质性限制其出境；此后针对其与AFTE的安全骚扰持续并引发国际声援",
+      "impact": "旅行禁令式措施是埃及当局限制人权组织负责人的常见手段，标志AFTE遭受官方压力升级（日期取自manassa.news报道日）",
+      "source": "https://manassa.news/en/news/24383"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-NGO-005",
+      "org_name": "埃及个人权利倡议组织 (المبادرة المصرية للحقوق الشخصية)",
+      "org_type": "NGO",
+      "org_description": "埃及主要人权组织之一，与AFTE同为埃及表达自由与人权倡导领域核心机构",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "开罗人权研究所 (المعهد القاهري لدراسات حقوق الإنسان)",
+      "org_type": "NGO",
+      "org_description": "总部位于开罗的地区性人权研究倡导机构（CIHRS），常与AFTE联合签署声明",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "无国界记者（RSF）",
+      "org_type": "NGO",
+      "org_description": "国际记者权益组织，2018年9月与AFTE、Access Now等33家组织联名要求埃及废止或修改限制网络言论自由的新法律",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "马达马斯尔 (مدى مصر)",
+      "org_type": "MEDIA",
+      "org_description": "埃及独立调查新闻网站；2026年其主编Lina Attalah被移交审判、网站遭关停，AFTE多次发起声援行动",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "思想与表达自由协会（AFTE）是总部位于开罗的独立人权组织，2006年由人权律师伊马德·穆巴拉克创立，是埃及言论自由领域最具代表性的专业机构之一。其核心使命是捍卫并促进埃及的思想自由、言论自由、媒体自由、学术自由、信息获取权与艺术创作自由。工作方法覆盖研究、监测记录、法律援助与倡导四大类：通过年度报告《埃及言论自由状况》、季度报告及政策/立场文件系统性记录埃及表达自由状况；维护被封锁网站名单与被拘押记者、创作者、学者档案库两大监测数据库；以每周法律公报跟踪记者、学生、学者等案件的羁押延期与庭审，并向检察长递交释放请愿（如Galal El-Behairy案、Khaled Mamdouh案）；同时就立法进程开展倡导，曾向国家对话机制提交信息获取法草案（2023年7月）。2023年5月2日，AFTE依据埃及2019年第149号《社团法》提交注册文件以求合法化运营。AFTE与埃及个人权利倡议组织（EIPR）、开罗人权研究所（CIHRS）、无国界记者（RSF）等国内外组织保持联合倡导合作，并与国际人权机构共同呼吁停止对执行总监穆罕默德·阿卜杜勒-萨拉姆的安全骚扰。",
+  "industries": [
+    "nonprofit",
+    "legal_services",
+    "media_publishing",
+    "higher_education",
+    "internet_services"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。",
   "profile": null,
   "collection_meta": {
     "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "phase": "phase3_enriched",
     "data_sources": [
+      "official_website",
+      "wikipedia",
+      "news_search",
       "web_search"
     ],
-    "completeness_score": 8,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data; errors: ['no_cache_file']"
+    "quotes": [
+      {
+        "title": "مؤسسة حرية الفكر والتعبير - ويكيبيديا（阿语维基百科词条：其工作聚焦研究、监测、记录与法律支持）",
+        "url": "https://ar.wikipedia.org/wiki/مؤسسة_حرية_الفكر_والتعبير"
+      },
+      {
+        "title": "About us - Association of Freedom of Thought and Expression（官网：总部位于开罗的独立人权组织）",
+        "url": "https://afteegypt.org/en/about-us"
+      },
+      {
+        "title": "Latest Updates - AFTE English（官网英文首页：2026年10-11月动态与出版物）",
+        "url": "https://afteegypt.org/en"
+      },
+      {
+        "title": "Cairo airport security confiscates passport of AFTE director（manassa.news，2025-05-22）",
+        "url": "https://manassa.news/en/news/24383"
+      },
+      {
+        "title": "End state harassment of Mohamed Abdel Salam（People in Need，2025-07-24）",
+        "url": "https://www.peopleinneed.net/call-for-an-end-to-state-harassment-of-mohamed-abdel-salam-12772gp"
+      },
+      {
+        "title": "While a bad year for civil society, all vow to find ways to continue（Mada Masr，2016-12-26：Emad Mubarak 2006年创立AFTE）",
+        "url": "https://www.madamasr.com/en/2016/12/26/feature/politics/while-a-bad-year-for-civil-society-all-vow-to-find-ways-to-continue/"
+      }
+    ],
+    "completeness_score": 75,
+    "notes": "L3降级路径：无Wikidata QID，全程网络搜索。Wikipedia（en/ar）经代理持续502无法直读，内容经由搜索快照（阿语维基词条片段）补足；web_reader与WebSearch备选工具配额耗尽。官网afteegypt.org英文首页直读成功（12次MCP请求预算内）。关键事实双源：创立2006年（Mada Masr+Arab Reform Initiative+UPR文件）、执行总监Mohamed Abdel Salam及护照事件（manassa.news+People in Need）。about-us页两次超时未读，部门架构依官网首页实际栏目（Research/Advocacy/Legal Updates）归纳。"
   }
 }

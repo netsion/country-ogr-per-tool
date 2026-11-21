@@ -1,13 +1,16 @@
 {
   "org_id": "EG-ACAD-001",
   "basic_info": {
-    "name_original": "Cairo University",
+    "name_original": "جامعة القاهرة",
     "name_zh": "开罗大学",
     "name_en": "Cairo University",
     "aliases": [
+      "جامعة القاهرة",
+      "Egyptian University",
+      "الجامعة المصرية（1908年建校时名称「埃及大学」）",
       "Fuad I University",
       "King Fuad I University",
-      "Egyptian University",
+      "جامعة فؤاد الأول（1940-1953年名称「福阿德一世大学」）",
       "University of Cairo",
       "CU"
     ],
@@ -15,7 +18,7 @@
     "org_subtype": "university",
     "country_iso3": "EGY",
     "hq_country_iso3": "EGY",
-    "founded_date": "1908-01-01",
+    "founded_date": "1908-12-21",
     "website": "https://cu.edu.eg/ar/Home",
     "wikidata_qid": "Q194445"
   },
@@ -23,56 +26,365 @@
     {
       "platform": "twitter",
       "account_name": "CairoUniv",
-      "url": "https://twitter.com/CairoUniv",
+      "url": "https://x.com/CairoUniv",
       "source": 3,
-      "source_note": "wikidata"
+      "source_note": "X官方账号@CairoUniv，与维基数据及搜索引擎账号页交叉确认"
     },
     {
       "platform": "facebook",
       "account_name": "cu.edu.eg",
-      "url": "https://facebook.com/cu.edu.eg",
+      "url": "https://www.facebook.com/cu.edu.eg",
       "source": 6,
-      "source_note": "wikidata"
+      "source_note": "校方官方Facebook主页（QS学科排名、校历活动帖文均发布于此）"
+    },
+    {
+      "platform": "instagram",
+      "account_name": "cucairo",
+      "url": "https://www.instagram.com/cucairo/",
+      "source": 8,
+      "source_note": "账号简介自述为「الحساب الرسمي لجامعة القاهرة」（开罗大学官方账号）"
     },
     {
       "platform": "youtube",
-      "account_name": "UCbaE25Dh5YUd7iPt0XeVJZw",
-      "url": "https://youtube.com/channel/UCbaE25Dh5YUd7iPt0XeVJZw",
+      "account_name": "TheCairoUniversity",
+      "url": "https://www.youtube.com/TheCairoUniversity",
       "source": 9,
-      "source_note": "wikidata"
+      "source_note": "官方YouTube频道（含2025/2026学年开学升旗仪式视频）"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "cairo-university",
+      "url": "https://www.linkedin.com/school/cairo-university",
+      "source": 17,
+      "source_note": "LinkedIn学校主页，逾57万关注者"
     }
   ],
-  "digital_assets": [],
+  "digital_assets": [
+    {
+      "name": "开罗大学学者门户（CU Scholar）",
+      "url": "https://scholar.cu.edu.eg",
+      "description": "教师科研档案与学术成果门户，承载校领导及教师简历、研究主页；官网领导层简历链接指向该平台。",
+      "source": "https://cu.edu.eg/ar/Home"
+    }
+  ],
   "key_people": [
     {
-      "person_id": "EG-PERSON-000038",
-      "name": "Mohamed Samy Abd el-Sadak",
-      "title": "Chair",
-      "title_description": null,
-      "description": null
+      "person_id": "EG-PERSON-000639",
+      "name": "穆罕默德·萨米·阿卜杜勒-萨迪克 (محمد سامي عبد الصادق)",
+      "title": "校长 (رئيس الجامعة)",
+      "title_description": "开罗大学现任校长，2024年10月17日就任（据阿拉伯语维基百科历任校长年表与官网现任领导名录交叉确认）。",
+      "description": "前任校长为穆罕默德·奥斯曼·赫什特（音译）（2017年8月至2024年10月在任）；官网发布其2025/2026学年致辞、出席2026年迪拜高等教育领导力论坛等活动。"
+    },
+    {
+      "person_id": "EG-PERSON-000640",
+      "name": "艾哈迈德·拉贾布 (أحمد رجب)",
+      "title": "副校长（教学与学生事务）(نائب رئيس الجامعة لشئون التعليم والطلاب)",
+      "title_description": "分管教学与学生的副校长。",
+      "description": "据开罗大学官网「现任领导」栏（2026年11月读取）。"
+    },
+    {
+      "person_id": "EG-PERSON-000641",
+      "name": "马哈茂德·赛义德 (محمود السعيد)",
+      "title": "副校长（科研与研究生事务）(نائب رئيس الجامعة لشئون البحث العلمي والدراسات العليا)",
+      "title_description": "分管科研与研究生事务的副校长。",
+      "description": "据开罗大学官网「现任领导」栏（2026年11月读取）。"
+    },
+    {
+      "person_id": "EG-PERSON-000642",
+      "name": "穆罕默德·侯赛因·里法特·萨尔基（音译） (محمد حسين رفعت السركى)",
+      "title": "副校长（环境与社会服务事务）(نائب رئيس الجامعة لخدمة البيئة والمجتمع)",
+      "title_description": "分管环境与社会服务事务的副校长。",
+      "description": "据开罗大学官网「现任领导」栏（2026年11月读取）；「萨尔基」为音译。"
     }
   ],
-  "departments": [],
-  "recent_events": [],
-  "related_entities": [],
-  "core_business": null,
-  "industries": [
-    "higher_education"
+  "departments": [
+    {
+      "dept_id": "EG-ACAD-001-DEPT-001",
+      "name": "医学院 (كلية الطب / القصر العيني)",
+      "head": null,
+      "description": "前身为1827年设立的埃及医学学校（卡斯尔艾尼医学院），非洲与中东最早的现代医学院之一；附属卡斯尔艾尼医院群含国家肿瘤研究所、儿童专科医院（阿布·里什）等机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-002",
+      "name": "工程学院 (كلية الهندسة)",
+      "head": null,
+      "description": "前身为1816年设立的「工程师学校」（مهندس خانه），1854年曾被停办，后经1935年王室令并入大学成为学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-003",
+      "name": "药学院 (كلية الصيدلة)",
+      "head": null,
+      "description": "前身为1829年药剂学校；1955年自医学院分立为独立学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-004",
+      "name": "法学院 (كلية الحقوق)",
+      "head": null,
+      "description": "前身为1868年管理与语言学校（1886年改组为法学院），1923年并入大学。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-005",
+      "name": "农学院 (كلية الزراعة)",
+      "head": null,
+      "description": "前身为1823年农业学校，1935年依第91号王室令并入埃及大学。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-006",
+      "name": "兽医学院 (كلية الطب البيطري)",
+      "head": null,
+      "description": "前身为1827年兽医学校，1938年自医学院分立为独立学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-007",
+      "name": "商学院 (كلية التجارة)",
+      "head": null,
+      "description": "前身为1837年商业学校，1935年并入。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-008",
+      "name": "达尔奥卢姆学院 (كلية دار العلوم)",
+      "head": null,
+      "description": "前身为1872年设立的「科学之家」学校，1946年依第33号法并入大学。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-009",
+      "name": "文学院 (كلية الآداب)",
+      "head": null,
+      "description": "1908年私立「埃及大学」时期的核心学院；1925年国立大学四初创学院之一，1929年首批迁入吉萨主校区。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-010",
+      "name": "理学院 (كلية العلوم)",
+      "head": null,
+      "description": "1925年国立「埃及大学」设立时的四学院之一。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-011",
+      "name": "经济与政治学院 (كلية الاقتصاد والعلوم السياسية)",
+      "head": null,
+      "description": "1960/1961学年开始招生，为埃及政治与经济学科重镇。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-012",
+      "name": "大众传播学院 (كلية الإعلام)",
+      "head": null,
+      "description": "1970年设立。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-013",
+      "name": "考古学院 (كلية الآثار)",
+      "head": null,
+      "description": "1970年设立。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-014",
+      "name": "计算机与信息学院 (كلية الحاسبات والمعلومات)",
+      "head": null,
+      "description": "1996年设立，现涵盖计算机与人工智能方向。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-015",
+      "name": "国家激光科学研究所 (المعهد القومي لعلوم الليزر)",
+      "head": null,
+      "description": "1994年9月12日依第287B号决定设立，为阿拉伯世界首个激光科学及其应用高等教育机构。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-016",
+      "name": "国家肿瘤研究所 (المعهد القومي للأورام)",
+      "head": null,
+      "description": "1969年设立，卡斯尔艾尼医疗体系的组成部分；在本数据集中另登记为独立实体EG-ACAD-023。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-017",
+      "name": "护理学院 (كلية التمريض)",
+      "head": null,
+      "description": "1964年设高等护理研究所并附属于医学院，后改建为学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-018",
+      "name": "物理治疗学院 (كلية العلاج الطبيعي)",
+      "head": null,
+      "description": "1962年设研究所，1992年1月改建为学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-019",
+      "name": "区域与城市规划学院 (كلية التخطيط الإقليمي والعمراني)",
+      "head": null,
+      "description": "1979年设区域与城市规划研究所，1991年改建为学院。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "EG-ACAD-001-DEPT-020",
+      "name": "统计学研究生院 (كلية الدراسات العليا للبحوث الإحصائية)",
+      "head": null,
+      "description": "1962年设立统计研究与研究所，后改建为研究生学院。",
+      "parent_dept_id": null
+    }
   ],
-  "apec_stance": null,
+  "recent_events": [
+    {
+      "date": "2025-09-21",
+      "title": "开罗大学举行2025/2026学年开学升旗仪式",
+      "description": "校长穆罕默德·萨米·阿卜杜勒-萨迪克主持新学年开学升旗仪式并欢迎新生（校方YouTube官方频道，2025-09-21）；此前校方于9月20日前后发布校长新学年致辞（官网新闻与Masr El-Balad报道）。",
+      "impact": "新学年顺利启动，规模逾20万学生的旗舰公立大学保持正常教学秩序（依据校方发布与媒体报道）。",
+      "source": "https://www.youtube.com/watch?v=acF7ONeMpBU"
+    },
+    {
+      "date": "2025-03-14",
+      "title": "校方通报QS学科排名表现，校长强调保持国际成就",
+      "description": "开罗大学官方Facebook通报：大学在QS排名中7个学科领域表现优异，校长穆罕默德·萨米·阿卜杜勒-萨迪克强调持续保持国际成就。",
+      "impact": "维持埃及第一梯队地位（2026年QS世界大学总排名列全球第347位，据英语维基百科信息栏）。",
+      "source": "https://www.facebook.com/cu.edu.eg/posts/cairo-university-keeps-up-its-international-achievements-in-the-qs-ranking-maint/1043030671187894/"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "开罗大学2026年U.S. News全球大学排名升至第221位",
+      "description": "在2026年U.S. News & World Report「全球最佳大学」排名中列全球第221位，较2025年版的第248位上升27位（Ahram Online与Egypt Today同日报道，双来源）。",
+      "impact": "科研产出与国际声誉指标持续改善，与莱顿排名、QS排名走势相互印证（分析，依据排名发布报道）。",
+      "source": "https://english.ahram.org.eg/NewsContentP/1/571046/Egypt/Cairo-University-rises-to-st-globally-in--US-News-.aspx"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "药学院校友马吉德·阿布-加里卜获2026年约翰·斯科特奖",
+      "description": "颁奖仪式于10月27日在费城美国哲学学会举行；获奖者马吉德·阿布-加里卜为坦普尔大学药学院教授、开罗大学药学院毕业生，系首位获该奖的埃及人（《埃及今日报》2026-11-09报道）；校长阿卜杜勒-萨迪克公开致贺（校方新闻）。",
+      "impact": "凸显开罗大学药学院校友在药物研发领域的国际影响力（依据费城问询报、坦普尔大学与埃及媒体报道）。",
+      "source": "https://www.inquirer.com/health/john-scott-award-philadelphia-scientists-2026-20261027.html"
+    },
+    {
+      "date": "2026-11-05",
+      "title": "开罗大学2026年莱顿排名跃升49位至全球第161位",
+      "description": "在2026年莱顿排名（CWTS，开放版Open Edition）中列全球第161位（共2964所大学），较2023年第210位上升49位，居埃及高校第一（埃及国家信息服务中心SIS与See News报道，双来源）。",
+      "impact": "进入全球前200，科研影响力指标显著改善（分析，依据排名发布报道）。",
+      "source": "https://sis.gov.eg/en/media-center/news/cairo-university-rises-49-places-to-rank-among-world-s-top-200-in-leiden-rankings/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "EG-ACAD-004",
+      "org_name": "亚历山大大学 (جامعة الإسكندرية)",
+      "org_type": "ACAD",
+      "org_description": "埃及第二古老的现代大学；1938年为福阿德一世大学（今开罗大学）亚历山大分部，1942年8月2日依王室令独立建校（法鲁克一世大学），1952年革命后更名。",
+      "relationship_type": "successor"
+    },
+    {
+      "org_id": "EG-GOV-012",
+      "org_name": "埃及高等教育与科学研究部 (وزارة التعليم العالي والبحث العلمي)",
+      "org_type": "GOV",
+      "org_description": "主管埃及公立大学与科研机构事务的政府部门，开罗大学受其与最高大学委员会共同监管。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "EG-ACAD-023",
+      "org_name": "国家肿瘤研究所 (المعهد القومي للأورام)",
+      "org_type": "ACAD",
+      "org_description": "1969年设立的开罗大学附属肿瘤专科研究所与教学医院，卡斯尔艾尼医疗体系的组成部分。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "开罗大学阿赫利亚大学 (جامعة القاهرة الأهلية)",
+      "org_type": "ACAD",
+      "org_description": "开罗大学体系下属的民办公助（أهلية）大学（据阿拉伯语维基百科所列附属分支）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "开罗大学国际分校 (جامعة القاهرة الفرع الدولي)",
+      "org_type": "ACAD",
+      "org_description": "开罗大学国际分支；该校另有谢赫扎耶德分校、喀土穆分校（苏丹），利雅得与多哈分校在筹建中（据阿拉伯语维基百科）。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "非洲大学联盟 (Association of African Universities)",
+      "org_type": "INTL",
+      "org_description": "非洲高校区域联盟，开罗大学为其成员（阿拉伯语维基百科会员栏）。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "地中海大学联盟 (UNIMED)",
+      "org_type": "INTL",
+      "org_description": "地中海盆地高校网络，开罗大学为其成员（英语维基百科学术隶属栏）。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "法语大学联盟 (Agence universitaire de la Francophonie / AUF)",
+      "org_type": "INTL",
+      "org_description": "法语区高校国际联盟，开罗大学为其成员（阿拉伯语维基百科会员栏）。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "开罗大学是埃及历史最悠久的现代化综合公立大学，主校区位于吉萨、与开罗市区隔尼罗河相望。其前身为1908年12月21日在民间筹资与王室赞助下成立的私立「埃及大学」，1925年改为国立「埃及大学」，1940年更名「福阿德一世大学」，1952年七月革命后于1953年9月依法令定名「开罗大学」。学校现设约20个学院及多个研究所与中心，学科覆盖文、理、工、医、法、商、农、兽医学、大众传播、考古、经济与政治、计算机与人工智能、区域规划等领域，并设有国家激光科学研究所、国家肿瘤研究所等特色机构。2024年在校学生约20.8万人（其中国际学生约7000人），教职员工约1.45万人，是非洲与阿拉伯世界规模最大的高等学府之一；下设卡斯尔艾尼医院群等附属医院体系，并拥有阿赫利亚大学、国际分校、喀土穆分校等分支。大学在ARWU、U.S. News、QS、莱顿等国际排名中长期位居埃及前列，毕业生中已产生纳吉布·马哈福兹（文学）、阿拉法特（和平）、巴拉迪（和平）3位诺贝尔奖得主，校友还包括联合国秘书长加利、埃及总理马德布利、临时总统曼苏尔等政要与学者。",
+  "industries": [
+    "higher_education",
+    "education",
+    "research_development",
+    "healthcare"
+  ],
+  "apec_stance": "埃及不是APEC成员（APEC现有21个成员经济体，埃及未加入）。埃及实际参与的国际合作框架：阿拉伯国家联盟（总部开罗）、非洲联盟、COMESA、伊斯兰合作组织、金砖国家（2024年加入）。开罗大学的跨区域合作主要通过教育科研网络展开：为非洲大学联盟、地中海大学联盟（UNIMED）与法语大学联盟（AUF）成员，并在苏丹喀土穆设分校、在利雅得与多哈筹建分校。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Cairo_University_new_logo.png/330px-Cairo_University_new_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "local_path": null
+    "local_path": "minio-store/default/popular-org-profile/eg/EG-ACAD-001.png",
+    "minio_path": "default/popular-org-profile/eg/EG-ACAD-001.png"
   },
   "collection_meta": {
-    "collection_date": "2026-11-16",
-    "phase": "phase2_skeleton",
+    "collection_date": "2026-11-17",
+    "phase": "phase3_enriched",
     "data_sources": [
       "wikidata",
       "wikipedia",
-      "official_website"
+      "arabic_wikipedia",
+      "official_website",
+      "news_search",
+      "social_media"
     ],
-    "completeness_score": 27,
-    "notes": "Skeleton profile from cached Wikidata + Wikipedia data"
+    "completeness_score": 93,
+    "notes": "Phase 3 enrichment (2026-11-17)。沿革：1908-12-21私立「埃及大学」建校、1925年国立、1940年更名福阿德一世大学、1953-09-28定名开罗大学（阿英维基交叉确认）。校长人事双源核实：穆罕默德·萨米·阿卜杜勒-萨迪克2024-10-17就任（阿语维基历任校长表+官网现任领导名录），三位副校长据官网。近期动态：2026 US News第221位（Ahram+Egypt Today双源）、2026莱顿第161位（SIS+See News双源）、药学院校友首获约翰·斯科特奖（Inquirer+Egypt Today+校方）。与亚历山大大学EG-ACAD-004画像镜像：本画像记其为successor。各学院院长（head）未获可靠来源，留空。",
+    "quotes": [
+      {
+        "title": "جامعة القاهرة - ويكيبيديا العربية（阿拉伯语维基百科：建校沿革、20学院与分校体系、历任校长表）",
+        "url": "https://ar.wikipedia.org/wiki/جامعة_القاهرة"
+      },
+      {
+        "title": "Cairo University - Wikipedia（英语维基百科：校史、排名、知名校友、学术隶属）",
+        "url": "https://en.wikipedia.org/wiki/Cairo_University"
+      },
+      {
+        "title": "جامعة القاهرة - الموقع الرسمي（官网：现任校长与三位副校长名录）",
+        "url": "https://cu.edu.eg/ar/Home"
+      },
+      {
+        "title": "Cairo University rises to 221st globally in 2026 US News & World Report rankings - Ahram Online（2026-06-17）",
+        "url": "https://english.ahram.org.eg/NewsContentP/1/571046/Egypt/Cairo-University-rises-to-st-globally-in--US-News-.aspx"
+      },
+      {
+        "title": "Cairo University rises 49 places to rank among world's top 200 in Leiden rankings - 埃及国家信息服务中心SIS（2026-11-05）",
+        "url": "https://sis.gov.eg/en/media-center/news/cairo-university-rises-49-places-to-rank-among-world-s-top-200-in-leiden-rankings/"
+      },
+      {
+        "title": "Magid Abou-Gharbia, first Egyptian to win the John Scott Award - Egypt Today（2026-11-09）",
+        "url": "https://www.egypttoday.com/Article/1/150489/Magid-Abou-Gharbia-first-Egyptian-to-win-the-John-Scott"
+      }
+    ]
   }
 }
