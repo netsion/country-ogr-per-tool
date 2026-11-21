@@ -65,16 +65,20 @@
  },
  "person_profiles": {
   "total": 204,
-  "avg_score": 71.9,
-  "median": 73.0,
+  "avg_score": 72.3,
+  "median": 74,
   "by_level": {
    "medium": {
     "count": 159,
-    "avg_score": 70.8
+    "avg_score": 71.5
    },
    "high": {
     "count": 45,
-    "avg_score": 75.5
+    "avg_score": 76.2
+   },
+   "?": {
+    "count": 1,
+    "avg_score": 25
    }
   },
   "score_note": "<45 的 9 个为极低曝光人物（ANR 副局长/女童军总专员/SIAB 财务总监等）诚实上限；铁律禁止编造优先于凑分"
@@ -89,5 +93,14 @@
   "P3 遗留数据修正：GOV-007 法官任期更正；TG-PERSON-000010/018/106/290 死亡标记；000033 QID 清理；Babaté（现任海军参谋长）补录候选；INTL-003 迪亚涅离任更正",
   " Registry 中 P4 交叉注册外籍/历史人物（000498-000608 段）保留范围可再复核（现均 trimmed 标记，不影响校验）",
   "头像管线：orgs 无头像需求；persons 头像 local_path/minio_path 由上传管线统一回填（本轮 000171/000195 等已采直链）"
- ]
+ ],
+ "post_weakness_round": {
+  "date": "2026-11-18",
+  "summary": "补弱轮 18 批（141 人）+ ID 回归修复 111 处 + 000505 存根并入补全后，全库 strict+cross-ref 复验 0 错误",
+  "avatar_coverage": "177/204 (86.8%)，新增合规直链 95，全程 curl 实测 200+image/*",
+  "new_social_accounts": 5,
+  "zero_social_remaining": 58,
+  "avg_person_score": 72.3,
+  "validation": "cross-ref errors 0 / warnings 4（结构性，非错绑）"
+ }
 }
