@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-18",
+  "p3_final": {
+    "targets": 96,
+    "completed": 96,
+    "completeness": {
+      "mean": 94.4,
+      "median": 96,
+      "max": 100,
+      "min": 81,
+      "dist": {
+        "95-100": 55,
+        "90-94": 19,
+        "85-89": 17,
+        "80-84": 5
+      }
+    },
+    "below_85": [
+      {
+        "id": "GH-CORP-046",
+        "cat": "CORP",
+        "score": 81,
+        "reason": "调查记者机构天然不透明，成立年份不可证"
+      },
+      {
+        "id": "GH-PARTY-059",
+        "cat": "PARTY",
+        "score": 81,
+        "reason": "小微政党，官网不可达，可验证来源少"
+      },
+      {
+        "id": "GH-ACAD-008",
+        "cat": "ACAD",
+        "score": 84,
+        "reason": "可双源验证的现任人物仅所长1人"
+      },
+      {
+        "id": "GH-INTL-001",
+        "cat": "INTL",
+        "score": 84,
+        "reason": "17个司局的负责人无第二来源"
+      },
+      {
+        "id": "GH-PARTY-002",
+        "cat": "PARTY",
+        "score": 84,
+        "reason": "官网403+社媒登录墙，合规留空"
+      }
+    ]
+  },
+  "audit_fixes": [
+    "10处真实数据问题修复：7处related_entities名称引用与目标文件name_en不一致；1处GH-PARTY-001误用人物ID作组织引用（已删）；2处裁剪骨架内裸QID引用（随骨架隔离消解）",
+    "296个被裁剪骨架从orgs/隔离至orgs_trimmed_skeletons/，orgs/仅保留96个P3画像",
+    "人名规范化：27组同ID译名变体统一为多数派规范格式，修正23个文件",
+    "id_registry.person_registry 姓名回填 457/457",
+    "专项复核：GH-PERSON-000094/000095 无撞名（4文件一致指向CDS William Agyapong/陆军参谋长Gbetanu）；ga.mil.gh 被黑已在GH-MIL-002档案notes与digital_assets中如实标注",
+    "strict --cross-ref 终态：除P4待建人物档案（534条registry-person无profile，属预期）外 0 错误"
+  ],
+  "p4_stats": {
+    "total_persons_dedup": 457,
+    "by_level": {
+      "high": 143,
+      "medium": 98,
+      "low": 216
+    },
+    "by_category_x_level": {
+      "GOV": {
+        "high": 66,
+        "medium": 47,
+        "low": 77
+      },
+      "MIL": {
+        "high": 5,
+        "medium": 7,
+        "low": 8
+      },
+      "SOE": {
+        "high": 33,
+        "medium": 9,
+        "low": 14
+      },
+      "FIN": {
+        "high": 15,
+        "medium": 10,
+        "low": 5
+      },
+      "CORP": {
+        "high": 19,
+        "medium": 8,
+        "low": 26
+      },
+      "MEDIA": {
+        "high": 7,
+        "medium": 9,
+        "low": 26
+      },
+      "PARTY": {
+        "high": 5,
+        "medium": 0,
+        "low": 9
+      },
+      "ACAD": {
+        "high": 13,
+        "medium": 10,
+        "low": 31
+      },
+      "NGO": {
+        "high": 3,
+        "medium": 5,
+        "low": 8
+      },
+      "INTL": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      }
+    },
+    "note": "类别合计476>457因一人多组织按类别展开；文件: person_list.json"
+  }
+}

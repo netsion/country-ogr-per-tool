@@ -1,0 +1,497 @@
+{
+  "version": "OSINT-draft-v2",
+  "date": "2026-11-17",
+  "status": "DRAFT - awaiting user confirmation",
+  "framework": "政治决策权重/安全战略线/经济杠杆/精英人事/舆论动员",
+  "bucket_A_firm_trim": [
+    {
+      "org_id": "GH-GOV-032",
+      "name": "Ghana Museums and Monuments Board",
+      "category": "GOV",
+      "reason": "博物馆与古迹局——文化遗产运营，无决策/安全影响"
+    },
+    {
+      "org_id": "GH-GOV-036",
+      "name": "Ghana Medical and Dental Council",
+      "category": "GOV",
+      "reason": "医委会——医师执照监管，职业性机构"
+    },
+    {
+      "org_id": "GH-GOV-037",
+      "name": "Ghana AIDS Commission",
+      "category": "GOV",
+      "reason": "艾滋病委员会——卫生专项，政治权重持续下降"
+    },
+    {
+      "org_id": "GH-GOV-039",
+      "name": "Ghana Education Trust Fund",
+      "category": "GOV",
+      "reason": "教育信托基金(GETFund)——校舍基建出资方，教育部(GOV-012)线覆盖"
+    },
+    {
+      "org_id": "GH-GOV-042",
+      "name": "Community Water and Sanitation Agency",
+      "category": "GOV",
+      "reason": "社区水务署——农村供水执行机构"
+    },
+    {
+      "org_id": "GH-GOV-043",
+      "name": "National Folklore Board",
+      "category": "GOV",
+      "reason": "民俗委员会——文化知识产权机构，情报价值趋零"
+    },
+    {
+      "org_id": "GH-GOV-044",
+      "name": "Ghana Tourism Authority",
+      "category": "GOV",
+      "reason": "旅游局——产业促进，非政策核心"
+    },
+    {
+      "org_id": "GH-GOV-047",
+      "name": "Mental Health Authority",
+      "category": "GOV",
+      "reason": "精神卫生局——细分卫生监管"
+    },
+    {
+      "org_id": "GH-GOV-048",
+      "name": "National Blood Service Ghana",
+      "category": "GOV",
+      "reason": "国家血液服务——卫生运营机构"
+    },
+    {
+      "org_id": "GH-SOE-010",
+      "name": "Ghana Meteorological Agency",
+      "category": "SOE",
+      "reason": "气象局——天气数据运营，国际数据共享线已覆盖其情报面"
+    },
+    {
+      "org_id": "GH-SOE-012",
+      "name": "Ghana Post Company Limited",
+      "category": "SOE",
+      "reason": "加纳邮政——传统邮政运营，无战略资产"
+    },
+    {
+      "org_id": "GH-FIN-004",
+      "name": "Absa Bank Ghana",
+      "category": "FIN",
+      "reason": "Absa加纳(南非Barclays系)——外资子公司，金融情报冗余"
+    },
+    {
+      "org_id": "GH-FIN-005",
+      "name": "Stanbic Bank Ghana",
+      "category": "FIN",
+      "reason": "Stanbic加纳(南非标准银行系)——同上"
+    },
+    {
+      "org_id": "GH-FIN-011",
+      "name": "Access Bank Ghana Limited",
+      "category": "FIN",
+      "reason": "Access加纳(尼日利亚系)——同上"
+    },
+    {
+      "org_id": "GH-FIN-015",
+      "name": "First Atlantic Bank",
+      "category": "FIN",
+      "reason": "First Atlantic——中小行，无系统性地位"
+    },
+    {
+      "org_id": "GH-FIN-023",
+      "name": "Bank of Africa Ghana Limited",
+      "category": "FIN",
+      "reason": "Bank of Africa加纳(摩洛哥BMCE系)——外资子公司"
+    },
+    {
+      "org_id": "GH-FIN-027",
+      "name": "FBNBank (Ghana) Limited",
+      "category": "FIN",
+      "reason": "FBNBank加纳(尼日利亚First Bank系)——外资子公司"
+    },
+    {
+      "org_id": "GH-FIN-030",
+      "name": "First National Bank (Ghana) Limited",
+      "category": "FIN",
+      "reason": "FNB加纳(南非FirstRand系)——外资子公司"
+    },
+    {
+      "org_id": "GH-FIN-032",
+      "name": "Guaranty Trust Bank (Ghana) Limited",
+      "category": "FIN",
+      "reason": "GTBank加纳(尼日利亚系)——外资子公司"
+    },
+    {
+      "org_id": "GH-FIN-037",
+      "name": "United Bank for Africa (Ghana) Limited",
+      "category": "FIN",
+      "reason": "UBA加纳(尼日利亚系)——外资子公司"
+    },
+    {
+      "org_id": "GH-FIN-039",
+      "name": "Zenith Bank (Ghana) Limited",
+      "category": "FIN",
+      "reason": "Zenith加纳(尼日利亚系)——外资子公司"
+    },
+    {
+      "org_id": "GH-CORP-004",
+      "name": "Fan Milk (Ghana)",
+      "category": "CORP",
+      "reason": "Fan Milk——乳品消费品牌"
+    },
+    {
+      "org_id": "GH-CORP-006",
+      "name": "Guinness Ghana Breweries",
+      "category": "CORP",
+      "reason": "Guinness加纳——啤酒消费(母公司Diageo情报线独立)"
+    },
+    {
+      "org_id": "GH-CORP-007",
+      "name": "Unilever Ghana",
+      "category": "CORP",
+      "reason": "Unilever加纳——消费品子公司(母公司线独立)"
+    },
+    {
+      "org_id": "GH-CORP-009",
+      "name": "Aluworks",
+      "category": "CORP",
+      "reason": "Aluworks——亏损铝轧制厂，铝战略线由AngloGold/矿业覆盖"
+    },
+    {
+      "org_id": "GH-CORP-010",
+      "name": "Ayrton Drugs",
+      "category": "CORP",
+      "reason": "Ayrton Drugs——小型制药"
+    },
+    {
+      "org_id": "GH-CORP-018",
+      "name": "Enterprise Insurance",
+      "category": "CORP",
+      "reason": "Enterprise Insurance——私营保险，无国有背景"
+    },
+    {
+      "org_id": "GH-CORP-019",
+      "name": "Diamond Cement Ghana Limited",
+      "category": "CORP",
+      "reason": "Diamond Cement——水泥制造，无政治关联标签"
+    },
+    {
+      "org_id": "GH-CORP-029",
+      "name": "Melcom",
+      "category": "CORP",
+      "reason": "Melcom——零售连锁"
+    },
+    {
+      "org_id": "GH-CORP-044",
+      "name": "Kasapreko",
+      "category": "CORP",
+      "reason": "Kasapreko——饮料制造"
+    },
+    {
+      "org_id": "GH-CORP-049",
+      "name": "Twellium Industrial Company",
+      "category": "CORP",
+      "reason": "Twellium——饮料制造"
+    },
+    {
+      "org_id": "GH-CORP-060",
+      "name": "Akosombo Textile Limited",
+      "category": "CORP",
+      "reason": "Akosombo Textile——纺织制造"
+    },
+    {
+      "org_id": "GH-ACAD-010",
+      "name": "Cape Coast Technical University",
+      "category": "ACAD",
+      "reason": "海岸角技术大学——技术职业类，非决策精英培养"
+    },
+    {
+      "org_id": "GH-ACAD-011",
+      "name": "Central University College",
+      "category": "ACAD",
+      "reason": "Central University College——私立(神学起源)，非精英管道"
+    },
+    {
+      "org_id": "GH-ACAD-012",
+      "name": "Takoradi Technical University",
+      "category": "ACAD",
+      "reason": "塔科拉迪技术大学——技术职业类"
+    },
+    {
+      "org_id": "GH-ACAD-018",
+      "name": "African University College of Communications",
+      "category": "ACAD",
+      "reason": "AUCC——私立传媒学院(与公立UMAC重叠)"
+    },
+    {
+      "org_id": "GH-ACAD-020",
+      "name": "Methodist University College",
+      "category": "ACAD",
+      "reason": "Methodist University College——教会私立小校"
+    },
+    {
+      "org_id": "GH-ACAD-023",
+      "name": "Technical University College of Tamale",
+      "category": "ACAD",
+      "reason": "Tamale技术大学学院——技术职业类"
+    },
+    {
+      "org_id": "GH-ACAD-035",
+      "name": "University of Environment and Sustainable Development",
+      "category": "ACAD",
+      "reason": "环境与可持续发展大学——新建小公立"
+    },
+    {
+      "org_id": "GH-ACAD-038",
+      "name": "C.K. Tedam University of Technology and Applied Sciences",
+      "category": "ACAD",
+      "reason": "C.K. Tedam大学——新建小公立(2020)"
+    },
+    {
+      "org_id": "GH-ACAD-039",
+      "name": "Dr. Hilla Limann Technical University",
+      "category": "ACAD",
+      "reason": "Hilla Limann技术大学——新建小公立"
+    },
+    {
+      "org_id": "GH-ACAD-043",
+      "name": "Akenten Appiah Menkah University of Skills Training and Entrepreneurial Development",
+      "category": "ACAD",
+      "reason": "AAMUSTED——技能培训类大学"
+    },
+    {
+      "org_id": "GH-ACAD-044",
+      "name": "Simon Diedong Dombo University for Business and Integrated Development Studies",
+      "category": "ACAD",
+      "reason": "SDD-UBIDS——新建小公立(2019)"
+    },
+    {
+      "org_id": "GH-ACAD-065",
+      "name": "University of Engineering and Agricultural Sciences",
+      "category": "ACAD",
+      "reason": "工程与农业科学大学——新建小公立"
+    },
+    {
+      "org_id": "GH-MEDIA-008",
+      "name": "Joy 99.7 FM",
+      "category": "MEDIA",
+      "reason": "Joy 99.7 FM——Multimedia Group(GH-MEDIA-005)旗下旗舰频率，子单位原则并入母体"
+    },
+    {
+      "org_id": "GH-CORP-043",
+      "name": "Yen.com.gh",
+      "category": "MEDIA",
+      "reason": "Yen.com.gh(重分类MEDIA)——数字点击向平台，编辑议程设置力弱"
+    },
+    {
+      "org_id": "GH-PARTY-004",
+      "name": "People's National Convention",
+      "category": "PARTY",
+      "reason": "PNC——零议席，历史残余(1992年建制)"
+    },
+    {
+      "org_id": "GH-PARTY-005",
+      "name": "Progressive People's Party (Ghana)",
+      "category": "PARTY",
+      "reason": "PPP——零议席，个人参政平台(Nduom)"
+    },
+    {
+      "org_id": "GH-PARTY-006",
+      "name": "Ghana Union Movement",
+      "category": "PARTY",
+      "reason": "GUM——零议席，Rawlings遗产党，影响力衰退"
+    },
+    {
+      "org_id": "GH-NGO-004",
+      "name": "Ghana Red Cross Society",
+      "category": "NGO",
+      "reason": "红十字会——人道运营(灾害应急线有间接价值，政治价值低)"
+    },
+    {
+      "org_id": "GH-NGO-005",
+      "name": "ActionAid Ghana",
+      "category": "NGO",
+      "reason": "ActionAid加纳——发展援助执行方，无政策议程设置力"
+    }
+  ],
+  "bucket_B_lean_trim": [
+    {
+      "org_id": "GH-GOV-027",
+      "name": "National Health Insurance Scheme (Ghana)",
+      "category": "GOV",
+      "reason": "NHIS——医保运营(个人数据库角度有微弱价值)；倾向裁"
+    },
+    {
+      "org_id": "GH-GOV-041",
+      "name": "Public Records and Archives Administration Department (Ghana)",
+      "category": "GOV",
+      "reason": "PRAAD——国家档案馆(殖民档案解密角度有微弱研究价值)；倾向裁"
+    },
+    {
+      "org_id": "GH-SOE-009",
+      "name": "Volta Aluminium Company",
+      "category": "SOE",
+      "reason": "VALCO——半停产铝冶炼(美资历史+铝战略叙事)；倾向裁，矿山线已在AngloGold"
+    },
+    {
+      "org_id": "GH-FIN-006",
+      "name": "Standard Chartered Bank Ghana",
+      "category": "FIN",
+      "reason": "Standard Chartered加纳——最老外资行，精英存款线；倾向裁(BoG/GCB已覆盖)"
+    },
+    {
+      "org_id": "GH-FIN-007",
+      "name": "Fidelity Bank Ghana",
+      "category": "FIN",
+      "reason": "Fidelity——本土大行；倾向裁(金融情报冗余)"
+    },
+    {
+      "org_id": "GH-FIN-008",
+      "name": "CalBank",
+      "category": "FIN",
+      "reason": "CalBank——上市本土行；倾向裁(同上)"
+    },
+    {
+      "org_id": "GH-FIN-014",
+      "name": "ARB Apex Bank",
+      "category": "FIN",
+      "reason": "ARB Apex——乡村银行伞形机构；倾向裁(普惠金融线，政治价值低)"
+    },
+    {
+      "org_id": "GH-CORP-012",
+      "name": "Republic Bank Ghana Limited",
+      "category": "CORP",
+      "reason": "Republic Bank加纳(特多Republic系)——外资；倾向裁"
+    },
+    {
+      "org_id": "GH-CORP-016",
+      "name": "Benso Oil Palm Plantation",
+      "category": "CORP",
+      "reason": "BOPP——棕榈种植园；倾向裁(农产品，无杠杆)"
+    },
+    {
+      "org_id": "GH-CORP-023",
+      "name": "Total Petroleum Ghana",
+      "category": "CORP",
+      "reason": "Total加纳——燃油分销(能源终端线)；倾向裁(GOIL已覆盖国有油品线)"
+    },
+    {
+      "org_id": "GH-CORP-027",
+      "name": "Universal Merchant Bank",
+      "category": "CORP",
+      "reason": "UMB——本土中小行；倾向裁"
+    },
+    {
+      "org_id": "GH-CORP-028",
+      "name": "Kantanka Automobile",
+      "category": "CORP",
+      "reason": "Kantanka——'国产车'象征项目(政治秀属性，实体价值低)；倾向裁"
+    },
+    {
+      "org_id": "GH-CORP-031",
+      "name": "Produce Buying Company",
+      "category": "CORP",
+      "reason": "PBC——可可购销公司(COCOBOD/SOE-001线覆盖)；倾向裁"
+    },
+    {
+      "org_id": "GH-CORP-032",
+      "name": "Prudential Bank Limited",
+      "category": "CORP",
+      "reason": "Prudential Bank——本土中小行；倾向裁"
+    },
+    {
+      "org_id": "GH-CORP-033",
+      "name": "Societe Generale Ghana",
+      "category": "CORP",
+      "reason": "Societe Generale加纳(法国系)——外资；倾向裁"
+    },
+    {
+      "org_id": "GH-ACAD-007",
+      "name": "University of Education, Winneba",
+      "category": "ACAD",
+      "reason": "UEW——教师教育大学(教育政治有局部价值)；倾向裁"
+    },
+    {
+      "org_id": "GH-ACAD-015",
+      "name": "Ghana Communication Technology University",
+      "category": "ACAD",
+      "reason": "GCTU——通信技术公立大学；倾向裁(NCA/AT线覆盖ICT)"
+    },
+    {
+      "org_id": "GH-ACAD-016",
+      "name": "Ghana-India Kofi Annan Centre of Excellence in ICT",
+      "category": "ACAD",
+      "reason": "Kofi Annan ICT中心——印度合作培训中心(印加科技外交微弱线索)；倾向裁"
+    },
+    {
+      "org_id": "GH-ACAD-027",
+      "name": "University of Professional Studies, Accra",
+      "category": "ACAD",
+      "reason": "UPSA——公立专业大学(公共部门会计培训微弱价值)；倾向裁"
+    },
+    {
+      "org_id": "GH-MEDIA-009",
+      "name": "GhanaWeb",
+      "category": "MEDIA",
+      "reason": "GhanaWeb——聚合门户( diaspora舆论微弱价值)；倾向裁"
+    },
+    {
+      "org_id": "GH-PARTY-003",
+      "name": "Convention People's Party",
+      "category": "PARTY",
+      "reason": "CPP——零议席但为恩克鲁玛/泛非主义历史符号，国际研究常引用；倾向裁，如做历史线则保留"
+    }
+  ],
+  "bucket_C_lean_keep": [
+    {
+      "org_id": "GH-GOV-018",
+      "name": "Ghana Civil Aviation Authority",
+      "category": "GOV",
+      "note": "民航局——空域/航空安全线(边境物流视角)"
+    },
+    {
+      "org_id": "GH-GOV-022",
+      "name": "Ghana Standards Authority",
+      "category": "GOV",
+      "note": "标准局——贸易质量/计量(对华贸易摩擦视角)"
+    },
+    {
+      "org_id": "GH-GOV-024",
+      "name": "Ghana Highways Authority",
+      "category": "GOV",
+      "note": "公路局——基建融资(对华贷款走廊视角)"
+    },
+    {
+      "org_id": "GH-GOV-025",
+      "name": "Ghana Space Science and Technology Centre",
+      "category": "GOV",
+      "note": "航天科技中心——库通谢地面站/卫星合作(外空情报线)"
+    },
+    {
+      "org_id": "GH-GOV-028",
+      "name": "National Service Secretariat",
+      "category": "GOV",
+      "note": "国民服务局——毕业生动员体系(人事管线)"
+    },
+    {
+      "org_id": "GH-GOV-031",
+      "name": "National Youth Authority (Ghana)",
+      "category": "GOV",
+      "note": "青年事务局——青年动员/政党恩庇(动员线)"
+    },
+    {
+      "org_id": "GH-GOV-038",
+      "name": "Water Resources Commission of Ghana",
+      "category": "GOV",
+      "note": "水资源委员会——沃尔特流域跨境水(上游布基纳法索坝)"
+    },
+    {
+      "org_id": "GH-GOV-045",
+      "name": "Public Services Commission of Ghana",
+      "category": "GOV",
+      "note": "公共服务委员会——公务员任命(人事管线)"
+    }
+  ],
+  "scenario_stats": {
+    "current": 168,
+    "after_A": 117,
+    "after_A_B": 96
+  }
+}
