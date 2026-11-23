@@ -1,0 +1,329 @@
+{
+  "org_id": "ML-GOV-004",
+  "basic_info": {
+    "name_original": "Assemblée nationale du Mali",
+    "name_zh": "国民议会",
+    "name_en": "National Assembly",
+    "aliases": [
+      "Mali depite bulon",
+      "Depitebulon",
+      "Assemblée nationale (Mali)"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "legislature",
+    "country_iso3": "MLI",
+    "hq_country_iso3": "MLI",
+    "founded_date": "1960-09-22",
+    "website": "http://www.assemblee-nationale.ml/",
+    "wikidata_qid": "Q1138071"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "议会广播电台 (Radio du parlement, 89.4 MHz)",
+      "url": "http://web.archive.org/web/20240810210739/https://assemblee-nationale.ml/",
+      "description": "国民议会设立的调频广播电台，在巴马科以89.4MHz播出议会活动，官网曾提供在线收听入口；现官网受Cloudflare拦截，仅可通过Wayback存档访问。",
+      "source": "官网Wayback存档（2024-08-10快照，Coordonnées页面）"
+    },
+    {
+      "name": "议员名录栏目 (Liste des députés)",
+      "url": "https://web.archive.org/web/20240810210739/https://assemblee-nationale.ml/liste-des-deputes/",
+      "description": "官网设置议员名录及女议员名单查询栏目，按立法期公布147名议员信息；议会解散后页面更新停滞。",
+      "source": "官网Wayback存档（2024-08-10快照导航菜单）"
+    },
+    {
+      "name": "议会内部邮件系统 (Webmail)",
+      "url": "https://web.archive.org/web/20240810210739/https://assemblee-nationale.ml/webmail/",
+      "description": "面向议会工作人员与议员的内部Webmail邮件系统入口，域名下webmail路径提供访问。",
+      "source": "官网Wayback存档（2024-08-10快照页顶导航）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ML-PERSON-000025",
+      "name": "穆萨·廷比内 (Moussa Timbiné)",
+      "title": "末任议长 (Président de l'Assemblée nationale)",
+      "title_description": "第6届立法期（2020年）议长，也是2020年8月政变前的最后一任国民议会议长",
+      "description": "马里团结党（RPM）成员，1974年7月14日生，2013年起当选巴马科第五公社议员。2020年5月11日经第6届国民议会全体会议以134/147票击败前总理穆萨·马拉当选议长，此前曾任第5届立法期议会第一副议长。2020年8月18日政变中作为议长被捕，同年10月8日与前总理布布·西塞等人一同获释（Le Monde、VOA报道）。"
+    },
+    {
+      "person_id": "ML-PERSON-000026",
+      "name": "伊萨卡·西迪贝 (Issaka Sidibé)",
+      "title": "前议长（第5届立法期）",
+      "title_description": "2014年1月22日至2020年5月11日担任国民议会议长",
+      "description": "马里团结党（RPM）议员。2013年12月立法选举后，第5届国民议会于2014年1月21日被召集特别会议，22日选举西迪贝为议长，任期近六年半，是马里多党制以来任期最长的议长之一；任内主持 installé 议会执行局与12个专门委员会的组建（2014年2月12日）。2020年5月卸任，由廷比内接任。"
+    },
+    {
+      "person_id": "ML-PERSON-000027",
+      "name": "迪翁昆达·特拉奥雷 (Dioncounda Traoré)",
+      "title": "前议长（2007-2012）",
+      "title_description": "2007年9月3日至2012年4月12日担任国民议会议长",
+      "description": "马里团结党（RPM）资深政治家，2002-2007年立法期曾任议会副议长，2007年9月当选议长。2012年3月政变后根据西非国家经济共同体调停框架出任过渡总统（2012年4月-2013年9月），是马里民主中断时期的关键过渡人物。"
+    },
+    {
+      "person_id": "ML-PERSON-000028",
+      "name": "尤努斯·图雷 (Younoussi Touré)",
+      "title": "前议长（2012-2014）",
+      "title_description": "2012年4月12日至2014年1月22日担任国民议会议长",
+      "description": "2012年3月政变后于4月12日接替特拉奥雷出任议长，主持第4届立法期后期会议；2013年12月立法选举产生第5届立法期后于2014年1月卸任。"
+    },
+    {
+      "person_id": "ML-PERSON-000007",
+      "name": "易卜拉希马·布巴卡尔·凯塔 (Ibrahim Boubacar Keïta)",
+      "title": "前议长（2002-2007）、后任总统",
+      "title_description": "2002年7月30日至2007年9月3日担任国民议会议长，2013-2020年出任马里总统",
+      "description": "马里团结党（RPM）创始人。2002年立法选举后当选议长；2007年卸任后于2013年当选总统，2020年8月18日政变中被迫辞职。其议长任内主持了2002-2007年第三共和国第3届立法期议会工作。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "执行局 (Bureau de l'Assemblée nationale)",
+      "dept_id": null,
+      "head": null,
+      "description": "议会主要机关，辅佐议长管理议会组织与服务；由23名成员组成：议长（整个立法期选举产生）加10名副议长、2名财务官（questeurs）和10名议会秘书，后三类职位每年十月常会开幕式改选；副议长按序代行议长职权，财务官在议长领导下负责预算编制与支出审核，议会秘书负责登记发言人、核对表决与连署通过的法律文本（《议事规则》第11、15条）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "宪法法律、立法、司法与共和国机构委员会 (Commission des Lois Constitutionnelles, de la Législation, de la Justice et des Institutions de la République)",
+      "dept_id": null,
+      "head": "伊德里萨·桑加雷 (Idrissa Sangaré)",
+      "description": "12个常设委员会之一，负责宪法性法律、立法与司法事务审议；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "经济、财政、计划与私营部门促进委员会 (Commission de l'Économie, des Finances, du Plan et de la Promotion du Secteur Privé)",
+      "dept_id": null,
+      "head": "阿卜迪内·库马雷 (Abdine Koumare)",
+      "description": "12个常设委员会之一，负责财政法草案、经济与计划事务审议；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "外交、海外马里人与一体化委员会 (Commission des Affaires Étrangères, des Maliens de l'Extérieur et de l'Intégration)",
+      "dept_id": null,
+      "head": "阿伊萨塔·图雷 (Diallo Aïssata Touré)",
+      "description": "12个常设委员会之一，负责外交、侨民与地区一体化事务；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国防、安全与社会保护委员会 (Commission Défense Nationale, Sécurité et Protection Sociale)",
+      "dept_id": null,
+      "head": "卡里姆·凯塔 (Karim Keita)",
+      "description": "12个常设委员会之一，负责国防与安全立法监督；第5届立法期主席为时任总统之子卡里姆·凯塔（RPM），2014年配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "农村发展与环境委员会 (Commission du Développement Rural et de l'Environnement)",
+      "dept_id": null,
+      "head": "萨利亚·托戈拉 (Salia Togola)",
+      "description": "12个常设委员会之一，负责农业、牧业、农村发展与环境立法；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "劳动、就业、妇女促进、青年、体育与儿童保护委员会 (Commission du Travail, de l'Emploi, de la Promotion de la Femme, de la Jeunesse, des Sports et de la Protection de l'Enfant)",
+      "dept_id": null,
+      "head": "沙德拉克·凯塔 (Schadrac Keita)",
+      "description": "12个常设委员会之一，负责社会事务、劳动就业与妇女青年议题；2015年11月12日议会在本届通过《性别配额法》，要求民选与任命职位中妇女比例不低于30%；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "公共工程、住房与交通委员会 (Commission des Travaux Publics, de l'Habitat et des Transports)",
+      "dept_id": null,
+      "head": "雅库巴·特拉奥雷 (Yacouba Traoré)",
+      "description": "12个常设委员会之一，负责基础设施、住房与交通立法；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "卫生、社会发展与团结委员会 (Commission de la Santé, du Développement Social et de la Solidarité)",
+      "dept_id": null,
+      "head": "卡利卢·瓦塔拉 (Kalilou Ouattara)",
+      "description": "12个常设委员会之一，负责公共卫生与社会发展事务；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "水、能源、工业、矿业、手工业、旅游与技术委员会 (Commission de l'Eau, de l'Énergie, des Industries, des Mines, de l'Artisanat, du Tourisme et des Technologies)",
+      "dept_id": null,
+      "head": "巴卡里·丰巴 (Bakary Fomba)",
+      "description": "12个常设委员会之一，负责矿业、能源与新兴产业立法，马里矿业法修订等重大经济立法在其职权范围；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "领土行政与分权委员会 (Commission de l'Administration Territoriale et de la Décentralisation)",
+      "dept_id": null,
+      "head": "阿马杜·阿拉巴·杜姆比亚 (Amadou Araba Doumbia)",
+      "description": "12个常设委员会之一，负责领土治理、地方分权与行政区划事务；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "教育、文化与传播委员会 (Commission de l'Éducation, de la Culture et de la Communication)",
+      "dept_id": null,
+      "head": "阿伊萨塔·海达拉 (Haïdara Aïssata Haïdara)",
+      "description": "12个常设委员会之一，负责教育、文化与传媒立法；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "监督委员会 (Commission de Contrôle)",
+      "dept_id": null,
+      "head": "阿卜杜勒·马利克·迪亚洛 (Abdoul Malick Diallo)",
+      "description": "12个常设委员会中专职监督政府施政的委员会（URD反对党成员任主席），负责国营企业监督与政府行为审查；负责人为第5届立法期（2014年）配置。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "议会总秘书处 (Secrétariat Général)",
+      "dept_id": null,
+      "head": null,
+      "description": "议会行政管理部门之首，统管立法服务、行政财务与传播文献各局，保障议会日常运转（官网栏目：Administration parlementaire）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "立法服务局 (Direction des services législatifs)",
+      "dept_id": null,
+      "head": null,
+      "description": "总秘书处下设机构，负责立法程序、法案文本与会议记录等立法技术支持。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "传播、文献与信息局 (Direction de la communication, de la documentation et de l'information)",
+      "dept_id": null,
+      "head": null,
+      "description": "总秘书处下设机构，负责议会对外传播、文献资料中心与图书馆（向公众开放议会出版物）及信息发布。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "行政与财政局 (Direction des services administratifs et financiers)",
+      "dept_id": null,
+      "head": null,
+      "description": "总秘书处下设机构，负责议会人事、后勤与财务管理，配合财务官（questeurs）编制议会预算。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-07-10",
+      "title": "戈伊塔颁布过渡宪章修订法，过渡延长且立法选举继续搁置",
+      "description": "过渡总统阿西米·戈伊塔颁布经全国过渡委员会（CNT）通过的法律，将过渡期及其总统任期定为五年、可「按需多次」续期且无需选举（多家法媒称之为「无限期总统」）。原定恢复民选机构（含国民议会立法选举）的时间表随之无限期推迟，CNT继续作为过渡立法机构运作，被解散的国民议会短期内无从恢复（La Croix 2025-07-10；Le Monde、Libération 2025-07-11；BBC Afrique 2025-07-16）。",
+      "impact": "马里民选立法机构缺位将延续至2029-2030年及以后；国民议会作为机构仅具历史与宪制参照意义，2023年新宪法设计的两院制（国民议会+参议院）重建工作停滞。",
+      "source": "https://www.la-croix.com/international/au-mali-le-chef-de-la-junte-promulgue-une-loi-lui-accordant-un-mandat-illimite-de-president-20250710"
+    },
+    {
+      "date": "2025-07-03",
+      "title": "全国过渡委员会表决通过过渡宪章修订法案",
+      "description": "全国过渡委员会（CNT，2020年12月起取代国民议会的过渡立法机构）于7月3日（周四）表决通过修订过渡宪章的法案，将戈伊塔的职权延长为五年可续期任期，无需举行选举；Anadolu Agency于7月7日、Jeune Afrique于7月4日分别报道，与TV5Monde、Le Devoir同日（7月3日）报道相互印证。",
+      "impact": "该法案7月10日颁布后成为法律，正式终结此前承诺的选举路线图；国民议会恢复及新宪法下立法机构组建（含拟设参议院）被无限期搁置。",
+      "source": "https://information.tv5monde.com/afrique/mali-le-general-assimi-goita-reconduit-sans-election-la-tete-du-pays-2779473"
+    },
+    {
+      "date": "2023-06-18",
+      "title": "新宪法公投通过：马里确立两院制议会设计，国民议会作为下院保留",
+      "description": "马里就新宪法草案举行公投，官方结果赞成率96.91%、投票率38.23%；宪法法院2023年7月21日以第2023-08/CC-Réf号裁定宣告最终结果，新宪法随即于7月22日颁布生效。新宪法规定共和国机构包括国民议会与拟新设的参议院（Sénat），议会转为两院制；国民议会议事规则须提交宪法法院审查（WIPO Lex收录宪法文本；RFI、Anadolu、ISS报道）。",
+      "impact": "国民议会获得新宪法层面的制度确认，但两院制议会须待立法选举后实际组建；截至2026年11月选举仍未举行。",
+      "source": "https://www.wipo.int/wipolex/en/legislation/details/22754"
+    },
+    {
+      "date": "2020-12-05",
+      "title": "全国过渡委员会召开首次会议，正式取代国民议会行使立法职能",
+      "description": "政变后组建的全国过渡委员会（CNT）于12月5日举行首次会议并选举马利克·迪亚夫上校为主席；CNT共121席，成员包括国防与安全部队22人、M5-RFP运动等政治力量与民间团体代表（IPU Parline档案；英语维基百科记载CNT于2020年12月成立）。",
+      "impact": "过渡期立法职能自此由CNT承接，国民议会进入长期解散状态；CNT沿用国民议会旧址与部分议事机制，2026年4月24日仍选举了新一届执行局。",
+      "source": "https://data.ipu.org/fr/parliament/ML/ML-LC01/election/ML-LC01-E20201205/"
+    },
+    {
+      "date": "2020-08-24",
+      "title": "军政府颁布《根本法案》，正式解散国民议会",
+      "description": "2020年8月18日政变推翻凯塔总统后，全国人民拯救委员会（CNSP）于8月24日颁布《根本法案第001号》（Acte fondamental n°001/CNSP），中止宪法并解散国民议会；末任议长穆萨·廷比内等议会领导人在政变中被捕（同年10月8日获释，Le Monde/VOA报道）。学术文献（Recherche juridique cairn）与法国国民议会报告均确认该法案为解散依据。",
+      "impact": "第6届立法期147名议员任期（至2020年5月方开始）被终止，马里民选立法中断，其后过渡宪章确认由CNT取代议会。",
+      "source": "https://droit.cairn.info/revue-de-la-recherche-juridique-2021-1-page-439"
+    },
+    {
+      "date": "2020-05-11",
+      "title": "第6届立法期开幕，穆萨·廷比内当选议长",
+      "description": "2020年3月29日与4月19日两轮立法选举产生的第6届国民议会召开首次会议，马里团结党（RPM）议员穆萨·廷比内以134票（147席）击败前总理穆萨·马拉当选议长；议会随后组建执行局与12个专门委员会（马里驻德使馆2020-05-11通报；Jeune Afrique 2020-05-12；Financial Afrik 2020-05-11）。",
+      "impact": "该届议会仅存续三个月即因8月政变解散，成为马里迄今最后一届民选国民议会。",
+      "source": "https://www.jeuneafrique.com/943699/politique/mali-moussa-timbine-elu-a-la-tete-de-lassemblee-nationale/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "ML-GOV-003",
+      "org_name": "全国过渡委员会 (Conseil national de transition, CNT)",
+      "org_type": "GOV",
+      "org_description": "2020年12月成立的过渡期立法机构，依《过渡宪章》取代被解散的国民议会行使立法职能，2025年过渡延长后仍持续运作。",
+      "relationship_type": "successor"
+    },
+    {
+      "org_id": "ML-GOV-006",
+      "org_name": "宪法法院 (Cour constitutionnelle du Mali)",
+      "org_type": "GOV",
+      "org_description": "负责监督立法选举合法性并宣告最终结果：2013年12月31日宣告第5届立法选举最终结果，2023年宣告新宪法公投结果；新宪法规定议会两院议事规则须提交其审查。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "ML-PARTY-002",
+      "org_name": "马里团结党 (Rassemblement pour le Mali, RPM)",
+      "org_type": "PARTY",
+      "org_description": "2013-2020年议会第一大党：第5届立法期RPM党团70席、连同执政联盟约115席；凯塔、西迪贝、廷比内等历任议长均出自该党。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "国民议会是马里的单一制（一院制）立法机关，1960年9月22日马里宣布独立时由原苏丹共和国立法议会更名而来，是多党民主体制下国家立法权的载体。其法定职能包括：制定法律、审议并通过国家预算与年度财政法（含修正财政法案）、批准国际条约与协定，并依法监督政府施政——议员可通过书面质询、口头质询、时事提问、委员会听证、不信任动议（motion de censure）与弹劾程序追究政府责任。议员共147名，由两轮多数制普选产生（新宪法后将改为比例代表制），任期五年，享有议会豁免权；议会每年两次常会，十月常会不超过75天、四月常会不超过90天，总理或多数议员可召集特别会议。议长由全体议员在立法期开始时选出、任期贯穿整个立法期，主持执行局（23名成员）与12个常设委员会的工作分工，是议会对外最高代表；议会行政由总秘书处及立法服务、传播文献信息、行政财务三局支撑，另设文献中心与图书馆向公众开放。议会还向泛非议会、西非国家经济共同体议会、西非经货联盟议会间委员会选派代表，并设有89.4MHz议会广播电台。2020年8月政变后议会被解散，立法职能由全国过渡委员会承接；2023年新宪法规定未来实行国民议会与参议院两院制，但截至2026年11月相关立法选举仍未举行。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "马里不是APEC成员。APEC的21个成员经济体均为环太平洋国家或地区，马里系西非内陆国家，从未参与APEC进程与合作机制，该机构亦无任何涉APEC的官方立场、活动或合作记录。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bamako_ass.nat.jpg/330px-Bamako_ass.nat.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-19",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "wikipedia_en",
+      "official_website_archive_wayback",
+      "news_search_fr",
+      "ipu_parline",
+      "wipo_lex",
+      "academic_source_cairn"
+    ],
+    "completeness_score": 84,
+    "notes": "官网 assemblee-nationale.ml 受Cloudflare拦截，按规则不绕过，改用Wayback Machine 2024-08-10快照提取官网信息（source_blocked_cloudflare）。核心事实均经至少2个独立来源交叉验证：末任议长廷比内当选（维基/使馆通报/Jeune Afrique/Financial Afrik）、2020-08-24《根本法案》解散（cairn学术文献/法国国民议会报告/维基）、2025年7月过渡延长（TV5Monde/Le Devoir/La Croix/Le Monde/Libération/AA/BBC）、2023-06-18公投（WIPO Lex/RFI/ISS/维基）、CNT首次会议2020-12-05（IPU Parline/维基）。社交账号：官网页脚社交图标为无链接占位符，未检索到经验证的官方账号，social_accounts留空。未发现2025-2026年议会恢复消息；截至2026年11月19日议会仍处解散状态，CNT仍为过渡立法机构。",
+    "quotes": [
+      {
+        "title": "Assemblée nationale (Mali) — Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/Assembl%C3%A9e_nationale_(Mali)"
+      },
+      {
+        "title": "National Assembly (Mali) — Wikipedia (English)",
+        "url": "https://en.wikipedia.org/wiki/National_Assembly_(Mali)"
+      },
+      {
+        "title": "Site officiel de l'Assemblée nationale du Mali — accueil (Wayback 2024-08-10)",
+        "url": "http://web.archive.org/web/20240810210739/https://assemblee-nationale.ml/"
+      },
+      {
+        "title": "Bureau de l'Assemblée Nationale (site officiel, Wayback 2024-08-10)",
+        "url": "https://web.archive.org/web/20240810210739/https://assemblee-nationale.ml/bureau/"
+      },
+      {
+        "title": "Mali : Moussa Timbiné élu à la tête de l'Assemblée nationale — Jeune Afrique (2020-05-12)",
+        "url": "https://www.jeuneafrique.com/943699/politique/mali-moussa-timbine-elu-a-la-tete-de-lassemblee-nationale/"
+      },
+      {
+        "title": "Au Mali, le chef de la junte promulgue une loi lui accordant un mandat illimité de président — La Croix (2025-07-10)",
+        "url": "https://www.la-croix.com/international/au-mali-le-chef-de-la-junte-promulgue-une-loi-lui-accordant-un-mandat-illimite-de-president-20250710"
+      },
+      {
+        "title": "Mali: le général Assimi Goïta reconduit sans élection à la tête du pays — TV5MONDE (2025-07-03)",
+        "url": "https://information.tv5monde.com/afrique/mali-le-general-assimi-goita-reconduit-sans-election-la-tete-du-pays-2779473"
+      },
+      {
+        "title": "Constitution de la République du Mali (référendum du 18 juin 2023) — WIPO Lex",
+        "url": "https://www.wipo.int/wipolex/en/legislation/details/22754"
+      },
+      {
+        "title": "IPU Parline — Conseil national de transition (Mali), élection du 5 décembre 2020",
+        "url": "https://data.ipu.org/fr/parliament/ML/ML-LC01/election/ML-LC01-E20201205/"
+      }
+    ]
+  }
+}

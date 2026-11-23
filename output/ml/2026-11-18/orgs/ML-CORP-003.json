@@ -1,0 +1,250 @@
+{
+  "org_id": "ML-CORP-003",
+  "basic_info": {
+    "name_original": "Grands moulins du Mali",
+    "name_zh": "马里大磨坊",
+    "name_en": "Grands Moulins du Mali",
+    "aliases": [
+      "GMM",
+      "Grands Moulins du Mali S.A.",
+      "GIE AMI - Grands Moulins"
+    ],
+    "org_type": "CORP",
+    "org_subtype": "private_company",
+    "country_iso3": "MLI",
+    "hq_country_iso3": "MLI",
+    "founded_date": "1979-01-01",
+    "website": "https://groupeami.com/",
+    "wikidata_qid": "Q18331930"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "Grands Moulins du MALI",
+      "url": "https://www.facebook.com/p/Grands-Moulins-du-MALI-61550705987711/",
+      "source": 6,
+      "source_note": "facebook搜索结果；页面名称与公司一致，但官方认证状态未核实（另有名为「Mali farine Super」的经销商页面转发公司公告）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "集团官网 GMM 板块（含子公司档案与36个配送仓库地图）",
+      "url": "https://groupeami.com/gami?tab=filiales",
+      "description": "Groupe AMI 官网「Filiales」板块：GMM 档案（1979年创立、资本40亿西非法郎、总经理 Cyril ACHCAR）及覆盖巴马科地区的36个配送仓库互动地图（面粉8个、Vitablé 12个、Douman 6个、Bunafama 饲料6个、食用油7个）",
+      "source": "official_website"
+    },
+    {
+      "name": "GMM 完整产品目录页",
+      "url": "https://groupeami.com/nos-produits",
+      "description": "官网产品目录：Minoterie 面粉（Mali Farine Super 25/50公斤装、Albarka 500克小包装）、UAB 饲料（BUNAFAMA 反刍动物/奶牛/马/蛋鸡/肉鸡系列）、Rizerie（Riz Malo 50公斤）、Huilerie（AMI TULU 精炼棉籽油）、Vitablé 婴幼儿营养粉、Douman 调味汤料、BUNAFAMA 漂浮鱼饲料",
+      "source": "official_website"
+    },
+    {
+      "name": "集团官网新闻页（Actualités）",
+      "url": "https://groupeami.com/actualites",
+      "description": "Groupe AMI 官方新闻与公告板块，按子公司（GMM/SEMM/SEMS/BAGAMI）分类发布集团动态",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ML-PERSON-000093",
+      "name": "西里尔·阿什卡尔 (Cyril Achcar)",
+      "title": "总经理 (Directeur Général)",
+      "title_description": "GMM 现任总经理，兼集团 CEO",
+      "description": "黎巴嫩裔马里工业家族第三代继承人：祖父埃米尔·阿什卡尔（Émile Achcar）1950年创立家族产业，父亲杰拉尔·阿什卡尔（Gérard Achcar）继承扩张。2010年《Jeune Afrique》报道其34岁时已执掌集团（当时GMM已由其领导）；官网 filiales 板块标注「GMM——DG : Cyril ACHCAR」；2019年TED演讲中自称活跃于马里面粉、矿泉水与糖果行业；曾代表马里面粉行业与政府签署行业框架协议（2009年，Malijet）。索引未收录此人，person_id 置 null（来源：官网、Wikipedia、Jeune Afrique，多源交叉验证）"
+    },
+    {
+      "person_id": "ML-PERSON-000094",
+      "name": "杰拉尔·阿什卡尔 (Gérard Achcar)",
+      "title": "董事会主席 (Président du Conseil d'Administration)",
+      "title_description": "GMM 董事会主席（2025-01-07 去世）",
+      "description": "马里著名实业家，国际金融公司（IFC）文件列明其为 Groupe AMI 投资项目的发起人（sponsor），阿什卡尔家族几乎持有各公司全部其余股份；2019年11月马里经济媒体《Au Coeur de l'Economie》节目单标注其为「GMM 董事会主席（PCA）」（P4核实修正：同场节目资料页CMDT总经理实为Baba Berthé，其CMDT任职记录不成立）；其个人 LinkedIn（标注所在地黎巴嫩）显示曾任 GMM「Acting CEO」，信息较陈旧仅供参考。索引未收录此人，person_id 置 null（来源：IFC 披露页、Facebook AuEconomie 节目单、LinkedIn）；P4核实：2025-01-07 去世（享年84岁，多讣告源交叉验证），is_deceased=true 已入其人物画像（2026-11-23 P5回写）"
+    }
+  ],
+  "departments": [
+    {
+      "name": "面粉厂 (Minoterie)",
+      "dept_id": "ML-CORP-003-DEPT-001",
+      "head": null,
+      "description": "小麦面粉生产核心部门，年产能12万吨（官网 filiales 页表述「Farine, riz, huile——120 000 T/an」中的面粉部分），品牌包括 Mali Farine Super（25/50公斤烘焙面粉）、Bélier 及面向低收入家庭的 Albarka 500克小包装"
+    },
+    {
+      "name": "饲料厂 (UAB - Unité Aliment Bétail)",
+      "dept_id": "ML-CORP-003-DEPT-002",
+      "head": null,
+      "description": "BUNAFAMA 品牌畜禽与水产饲料生产单元，年产能10万吨：反刍动物（牛/羊/马）、奶牛、蛋鸡/肉鸡全系列及 Clarias & Tilapia 漂浮鱼饲料"
+    },
+    {
+      "name": "碾米厂 (Rizerie)",
+      "dept_id": "ML-CORP-003-DEPT-003",
+      "head": null,
+      "description": "Riz Malo 品牌大米加工，年产能3万吨"
+    },
+    {
+      "name": "榨油厂 (Huilerie)",
+      "dept_id": "ML-CORP-003-DEPT-004",
+      "head": null,
+      "description": "约2017年投产，以棉籽为原料生产 AMI TULU 精炼棉籽油（兼产大豆油、棉籽粕），棉籽仓储能力超3.6万吨、年原料需求约6万吨；棉籽壳回收用于锅炉燃料"
+    },
+    {
+      "name": "Vitablé 婴幼儿营养粉车间",
+      "dept_id": "ML-CORP-003-DEPT-005",
+      "head": null,
+      "description": "Vitablé 强化维生素婴幼儿面粉（香草味、加奶配方等，适用6月龄以上）及调味汤料 Douman（鸡肉/香料味）所属的混合/预混生产单元，营养粉年产能约3600吨"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-03-14",
+      "title": "媒体报道 GMM 推出 Albarka 500克小包装面粉并更新 ISO 9001:2015 认证",
+      "description": "《Croissance Afrique》采访 Groupe AMI：GMM 占集团营收逾60%，注册资本50亿西非法郎（报道数字；官网为40亿），「近期」开发 Albarka 品牌500克袋装面粉以贴合低收入家庭购买力；GMM 自2022年起获 ISO 9001:2015 认证（覆盖制粉、榨油、碾米、饲料、婴幼儿粉、调味汤料、精炼棉籽/大豆油、Riz Malo），并执行 HACCP 体系；直接与间接雇佣约379人。Albarka 产品已同步列入官网产品目录（双源交叉验证）",
+      "impact": "小包装策略下沉大众零售市场，扩大品牌覆盖；ISO/HACCP 认证巩固其面粉出口区域市场的质量信誉（依据：2025-03-14 媒体专访+官网目录）",
+      "source": "https://croissanceafrique.com/au-mali-le-gie-ami-suit-depuis-toujours-une-demarche-qualite-appuyee-sur-des-normes-internationales/"
+    },
+    {
+      "date": "2022-02-01",
+      "title": "GMM 库利科罗厂区实验性太阳能电场投运（155.52 kWc）",
+      "description": "据集团2025年3月专访披露：2022年2月 GMM 生产厂区启用实验性光伏电站（288块540W组件、2台70KVA逆变器，装机155.52 kWc，约覆盖全厂2.2%能源需求）；此前2021年2月完成热电厂改造（集中化机组、总容量4000 KVA、高压网络全面翻新）；榨油厂棉籽壳回收作锅炉燃料实现废弃物循环利用",
+      "impact": "降低柴油发电依赖与能源成本，提升环保形象；规模尚小（2.2%）表明属试点性质（依据：集团专访自述，单源）",
+      "source": "https://croissanceafrique.com/au-mali-le-gie-ami-suit-depuis-toujours-une-demarche-qualite-appuyee-sur-des-normes-internationales/"
+    },
+    {
+      "date": "2021-08-27",
+      "title": "GMM 与几内亚 Alport Conakry 签署港口物流合作协议",
+      "description": "2021年8月27日（周五）GMM 与科纳克里港运营商 Alport Conakry 签署伙伴协议，旨在振兴马里-几内亚港口海运物流、促进贸易往来并推动科纳克里港「Kankan 陆港（port sec）」项目落地；GMM 出席者包括副总经理 Christian Dial 与采购总监 Bengaly Coulibaly。GMM 小麦进口经达喀尔与科纳克里港转运（IFC 文件），该协议保障其原料物流通道",
+      "impact": "锁定几内亚方向进口粮食物流走廊，对冲单一口岸依赖；Kankan 陆港若建成将进一步降低运输成本（依据：Croissance Afrique 报道+Joliba TV 视频，双源）",
+      "source": "https://croissanceafrique.com/mali-les-grands-moulins-du-mali-et-alport-conakry-signent-une-convention-de-partenariat-pour-redynamiser-les-activites-portuaires-et-maritimes/"
+    },
+    {
+      "date": "2021-08-03",
+      "title": "马里工商业部长视察 GMM 库利科罗 Kayo 工厂并承诺加大扶持",
+      "description": "2021年8月3日马里工业与商业部长 Mohamed Ould Mahmoud 率团视察 GMM 位于库利科罗大区 Kayo 的工厂：确认 GMM 占 GIE AMI 营收逾50%（2021年）、资本40亿西非法郎；榨油厂反映棉籽原料供应不足（年需求约6万吨）制约产能释放，而青黄不接季节全国食用油市场供应紧张；部长承诺政府部门加大扶持（视频另见马里工商会总局 Facebook，双源交叉验证）",
+      "impact": "显示 GMM 在马里食用油供应安全中的系统重要性；原料瓶颈此后仍是榨油板块扩产的主要制约（依据：Kibaru 报道、DGCC 视频）",
+      "source": "https://kibaru.ml/fr/art/visite-du-ministre-de-l-industrie-aux-gmm-un-plus-grand-accompagnement-promis-%C3%A0-la-structure"
+    },
+    {
+      "date": "2020-06-29",
+      "title": "GMM 就 SONATAM 旧火柴厂用地纠纷发布公告：法院确认收购有效",
+      "description": "GMM 收购马里国家烟草火柴公司（SONATAM）旧火柴厂资产后与商人 Ba Saidou Sylla 发生土地权属诉讼；2020年6月底 GMM 发布公告称马里司法机关已「充分确认并认可」SONATAM 向 GMM 的出售行为有效（maliweb 6月29日刊载公告全文，Malijet、MastertInfos 等多平台同步报道，多源交叉验证）",
+      "impact": "司法层面巩固了公司在巴马科该地块的产权，消除扩张中的重大法律不确定性（依据：GMM 公告+多家媒体转发）",
+      "source": "https://www.maliweb.net/societe/communique-de-la-societe-grands-moulins-du-mali-gmm-2882452.html"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "阿什卡尔马里工业集团 (Groupe AMI / Achcar Mali Industrie, GIE AMI)",
+      "org_type": "CORP",
+      "org_description": "黎巴嫩裔阿什卡尔家族工业集团（1950年代起在西非经营），GMM 直接母公司，持GMM 72%股权（法文维基百科）；集团另辖 SEMM、SEMS、BAGAMI、GAMT 等，GMM 占集团营收逾60%；官网 groupeami.com",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "马里矿泉水公司 (Société des Eaux Minérales du Mali, SEMM)",
+      "org_type": "CORP",
+      "org_description": "集团兄弟公司：1996年从马里国家购得，位于 Diago（曼丁戈山矿泉水源），生产 DIAGO 矿泉水与 AMI FRUITÉ 果味饮料，自称马里矿泉水第一品牌；IFC 2006年文件中与 GMM 同为借款人",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "马里大糖果公司 (Grande Confiserie du Mali)",
+      "org_type": "CORP",
+      "org_description": "集团兄弟公司：糖果与面食（pâtes）生产企业（IFC 集团结构文件）；媒体报道集团另有食糖生产线",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "阿什卡尔马里运输集团 (Groupe Achcar Mali Transit, GAMT)",
+      "org_type": "CORP",
+      "org_description": "集团兄弟公司：报关与物流企业（达喀尔/巴马科，进出口全Origin业务），官网「Devenir Transporteur」板块面向其承运商网络",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "马里小麦发展公司 (Compagnie Malienne pour le Développement du Blé, CMDB)",
+      "org_type": "CORP",
+      "org_description": "GMM 子公司（IFC 集团结构文件），从事小麦种植，是 GMM 向上游原料本土化布局的载体",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": null,
+      "org_name": "国际金融公司 (International Finance Corporation, IFC)",
+      "org_type": "INTL",
+      "org_description": "世界银行集团私营部门机构：2006年前后对 Groupe AMI（GMM 与 SEMM 为借款人）实施股权投资（项目编号25896），支持其扩大面粉/碾米产能、进入复合饲料领域并在达喀尔建筒仓强化供应链；GMM 借此引入更严格的融资与风控实践、落实 ISO 22000 食品安全计划；披露页面2026年11月仍在更新",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "ML-CORP-004",
+      "org_name": "马里国家烟草火柴公司 (SONATAM / SONATA)",
+      "org_type": "SOE",
+      "org_description": "马里国营烟草火柴企业：GMM 收购其旧火柴厂资产（交易后经马里法院2020年判决确认有效），双方曾就该用地发生权属纠纷",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "马里现代磨坊 (Moulins Modernes du Mali, M3)",
+      "org_type": "CORP",
+      "org_description": "马里面粉市场主要竞争对手（《Jeune Afrique》2015「面粉战争」报道：GMM、M3 与 Moulins du Sahel 三分天下）；非盟开发银行支持的 M3 平台简介（2026年9月）仍以 GMM 为行业参照对象",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "马里大磨坊（Grands Moulins du Mali, GMM）是马里历史最久、规模最大的面粉及农产品加工企业之一，1979年创立，为黎巴嫩裔阿什卡尔（Achcar）家族工业集团 Groupe AMI（Achcar Mali Industrie / GIE AMI）的核心子公司（集团持股72%，国际金融公司 IFC 文件载明家族几乎持有全部其余股份；董事会主席杰拉尔·阿什卡尔、总经理西里尔·阿什卡尔）。公司为股份有限公司（SA），注册资本40亿西非法郎（官网数字，2025年3月媒体报道称已增至50亿），占集团营收逾60%。工厂自1982年起设于尼日尔河左岸、库利科罗市西南的 Kayo 村（距巴马科约50-55公里），占地内含面粉厂、混合预混车间（婴幼儿粉与调味汤料）、碾米厂、畜禽/水产饲料车间和榨油厂五大板块。核心产品线：（1）小麦面粉——年产能12万吨，品牌 Bélier、Mali Farine Super（25/50公斤烘焙专用）及2025年前后新推的 Albarka 500克小包装（面向低收入家庭），在马里全国及周边地区销售；（2）畜禽水产饲料——BUNAFAMA 品牌，年产能10万吨，覆盖反刍动物、奶牛、马匹、蛋鸡、肉鸡及漂浮鱼饲料；（3）大米——Riz Malo 品牌，年产能3万吨；（4）食用油——AMI TULU 精炼棉籽油（兼产大豆油与棉籽粕），榨油厂约2017年投产，棉籽仓储逾3.6万吨、年原料需求约6万吨，棉籽壳回收作锅炉燃料；（5）婴幼儿营养粉 Vitablé（年产能约3600吨）与 Douman 调味汤料。公司通过36个区域仓库（dépositaires）网络实现全国分销，并配备售后服务与烘焙技术支持团队；小麦原料依赖达喀尔与科纳克里港进口（2021年与 Alport Conakry 签署港口物流协议），并设子公司 CMDB 探索本土小麦种植。质量体系方面，GMM 自2022年获 ISO 9001:2015 认证并执行 HACCP，曾推行 ISO 22000 食品安全管理；能源端2021年建成4000 KVA 热电站、2022年2月投运155.52 kWc 试验性光伏电站。员工规模：2020年约192人（维基百科），2025年3月报道称直接与间接雇佣约379人。马里面粉市场竞争者主要为马里现代磨坊（M3）与 Moulins du Sahel。",
+  "industries": [
+    "agriculture_food",
+    "food_beverage"
+  ],
+  "apec_stance": "马里不是亚太经合组织（APEC）成员（APEC 的21个成员经济体均为环太平洋国家和地区），Grands Moulins du Mali 作为马里本土私营食品加工企业，不存在任何 APEC 相关活动、承诺或官方立场；本档案不作任何 APEC 相关推定。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/fr/5/59/Grands_Moulins_du_Mali_logo.jpg"
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-19",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "official_website",
+      "news_search",
+      "ifc_disclosure_portal",
+      "facebook_search",
+      "linkedin_profiles"
+    ],
+    "completeness_score": 80,
+    "notes": "Phase3 enrichment 2026-11-19: Wikipedia FR infobox (founded 1979, GIE AMI 72%, Kayo/Koulikoro site, capacities, 192 employees 2020); official site groupeami.com rendered via browser (gieami.ml serves the same GAMI Angular app; Wikipedia lists www.gieami.ml as GMM site) — GMM capital 4 Mds FCFA, DG Cyril ACHCAR, 36 distribution depots, full product catalog incl. Albarka/Douman/Ami Tulu; IFC disclosure 25896 (group structure: CMDB wheat subsidiary, GAMT logistics, Grande Confiserie; sponsor Gerard Achcar; wheat imported via Dakar/Conakry; page updated 2026-11-05 but SPI text dates from 2006); OLAM relationship NOT VERIFIED — no evidence of any Olam equity/commercial relationship with GMM was found (Olam appears only as a separate regional operator), so no Olam-related entry was created; Facebook page 'Grands Moulins du MALI' (ID 61550705987711) found via search, official status unverified; capital figures conflict (4 vs 5 Mds FCFA) and are noted inline; no recent (2025-2026) management change found — Achcar family leadership continuous; events dated per publication (2020-2025)",
+    "quotes": [
+      {
+        "title": "Grands moulins du Mali — Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/Grands_moulins_du_Mali"
+      },
+      {
+        "title": "GAMI — Groupe AMI 官网（GMM filiale 板块：1979 / capital 4 Mds FCFA / DG Cyril ACHCAR）",
+        "url": "https://groupeami.com/gami?tab=filiales"
+      },
+      {
+        "title": "Au Mali, « le GIE AMI suit depuis toujours une démarche qualité... » — Croissance Afrique (2025-03-14)",
+        "url": "https://croissanceafrique.com/au-mali-le-gie-ami-suit-depuis-toujours-une-demarche-qualite-appuyee-sur-des-normes-internationales/"
+      },
+      {
+        "title": "GMM–Alport Conakry partenariat portuaire — Croissance Afrique (2021-08-27)",
+        "url": "https://croissanceafrique.com/mali-les-grands-moulins-du-mali-et-alport-conakry-signent-une-convention-de-partenariat-pour-redynamiser-les-activites-portuaires-et-maritimes/"
+      },
+      {
+        "title": "Visite du ministre de l'industrie aux GMM — Kibaru (2021-08-05)",
+        "url": "https://kibaru.ml/fr/art/visite-du-ministre-de-l-industrie-aux-gmm-un-plus-grand-accompagnement-promis-%C3%A0-la-structure"
+      },
+      {
+        "title": "Communiqué de la société Grands Moulins du Mali (GMM) sur l'affaire foncière SONATAM — Maliweb (2020-06-29)",
+        "url": "https://www.maliweb.net/societe/communique-de-la-societe-grands-moulins-du-mali-gmm-2882452.html"
+      },
+      {
+        "title": "IFC Disclosure Portal — Project 25896 Groupe AMI (SPI, sponsor Gérard Achcar)",
+        "url": "https://disclosures.ifc.org/project-detail/SPI/25896/groupe-ami-project"
+      },
+      {
+        "title": "Cyril Achcar, au champ et au moulin — Jeune Afrique (2010-10-27)",
+        "url": "https://www.jeuneafrique.com/194341/archives-thematique/cyril-achcar-au-champ-et-au-moulin/"
+      }
+    ]
+  }
+}

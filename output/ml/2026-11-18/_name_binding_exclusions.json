@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-11-20",
+  "reason": "Same-name different-person cases discovered in P3 audit; resolve_ids auto-fill must NOT rebind these.",
+  "exclusions": [
+    {
+      "org_id": "ML-CORP-004",
+      "person_name": "马马杜·特拉奥雷 (Mamadou Traoré)",
+      "forbidden_person_id": "ML-PERSON-000073",
+      "reason": "ML-PERSON-000073 is SGG Chef de Cabinet; SONATA PCA is a different person"
+    },
+    {
+      "org_id": "ML-PARTY-001",
+      "person_name": "马里曼蒂亚·迪亚拉 (Marimantia Diarra)",
+      "forbidden_person_id": "ML-PERSON-000220",
+      "reason": "ML-PERSON-000220 is Point Sud administrator; ADEMA president (d. 2023) is a different person"
+    },
+    {
+      "org_id": "ML-ACAD-011",
+      "person_name": "穆萨·图雷 (Pr Moussa Touré)",
+      "forbidden_person_id": "ML-PERSON-000135",
+      "reason": "ML-PERSON-000135 is Orange Mali ex-DG; Gao interim rector is a different person"
+    },
+    {
+      "org_id": "ML-MEDIA-006",
+      "person_name": "亚亚·桑加雷 (Yaya Sangaré)",
+      "forbidden_person_id": null,
+      "reason": "merged with ADEMA SG = PLAUSIBLE, keep merged, verify at P4"
+    },
+    {
+      "org_id": "ML-MIL-002",
+      "person_name": "莫迪博·科内 (Modibo Koné)",
+      "forbidden_person_id": "ML-PERSON-000054",
+      "reason": "CNSP third VP is a National Guard officer (new ML-PERSON-000244); ML-PERSON-000054 is the civilian env minister (b.1958)"
+    }
+  ]
+}

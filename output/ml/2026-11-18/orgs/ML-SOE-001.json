@@ -1,0 +1,268 @@
+{
+  "org_id": "ML-SOE-001",
+  "wikidata_qid": "Q3588962",
+  "basic_info": {
+    "name_original": "Énergie du Mali",
+    "name_zh": "马里能源公司",
+    "name_en": "Énergie du Mali (EDM-SA)",
+    "aliases": [
+      "EDM",
+      "EDM-SA",
+      "Energie du Mali"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "MLI",
+    "hq_country_iso3": "MLI",
+    "founded_date": "1960-10-14",
+    "website": "https://www.edmsa.ml/",
+    "wikidata_qid": "Q3588962"
+  },
+  "social_accounts": [
+    {
+      "platform": "twitter",
+      "account_name": "EDMSAofficiel",
+      "url": "https://twitter.com/EDMSAofficiel",
+      "source": 3,
+      "source_note": "wikidata + 官网页脚确认"
+    },
+    {
+      "platform": "facebook",
+      "account_name": "societe.edm.sa",
+      "url": "https://facebook.com/societe.edm.sa",
+      "source": 6,
+      "source_note": "wikidata + 官网页脚确认"
+    },
+    {
+      "platform": "linkedin",
+      "account_name": "energie-du-mali-sa",
+      "url": "https://www.linkedin.com/company/16223468/",
+      "source": 17,
+      "source_note": "官网页脚确认"
+    },
+    {
+      "platform": "youtube",
+      "account_name": "UC5l_xqyTwyj-ckuQ5Z2ilqA",
+      "url": "https://youtube.com/channel/UC5l_xqyTwyj-ckuQ5Z2ilqA",
+      "source": 9,
+      "source_note": "wikidata + 官网页脚确认"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "EDM-SA客户自助门户 (Espace Client)",
+      "url": "https://www.edmsa.ml/client/account",
+      "description": "在线客户服务门户：提交与跟踪用电申请、查询客户账户与欠费账单、查询ISAGO预购电记录、提交故障申报与投诉。",
+      "source": "official_website"
+    },
+    {
+      "name": "EDM-SA在线缴费平台 (Faire paiement)",
+      "url": "https://www.edmsa.ml/paiement-facture-hc",
+      "description": "在线支付通道：缴纳欠费账单、接入申请费用与预购电费用；公司另通过SAMA Money等移动支付渠道开放电费与ISAGO购电支付。",
+      "source": "official_website"
+    },
+    {
+      "name": "ISAGO预付费购电服务",
+      "url": "https://www.edmsa.ml/achat-credit-compteur",
+      "description": "ISAGO预付费电表购电入口，配套购电模拟器（simulateur-credit-isago）、低电压账单模拟器、电流估选工具与预付费电表「circuit ouvert」维护代码生成功能。",
+      "source": "official_website"
+    },
+    {
+      "name": "EDM-SA在线招聘门户",
+      "url": "https://www.edmsa.ml/job",
+      "description": "公司职位发布与在线求职申请入口（Offres d'emploi），可直接提交岗位申请。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "ML-PERSON-000077",
+      "name": "马达尼·德拉韦 (Madani Dravé)",
+      "title": "总经理 (Directeur Général)",
+      "title_description": "经马里部长会议任命的EDM-SA最高执行负责人",
+      "description": "军衔为「Commandant」，电力与信息工程专业工程师。2025年9月4日部长会议任命其为EDM-SA总经理，此前自2025年1月起任总统府秘书长办公室技术顾问；接替2023年9月上任的阿卜杜拉耶·吉布里尔·迪亚洛（Abdoulaye Djibril Diallo），系该公司2020年以来第五任总经理。"
+    },
+    {
+      "person_id": "ML-PERSON-000078",
+      "name": "阿卜德拉马内·登贝莱 (Abdramane Dembélé)",
+      "title": "董事会主席 (Président du Conseil d'Administration)",
+      "title_description": "EDM-SA治理机构（董事会）负责人",
+      "description": "据EDM-SA官方《年度活动报告》（2022年卷与2024年卷），其自2021年9月24日起担任董事会主席；2022年7月总经理交接仪式由其主持（据公司官网）。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "总经理部 (Direction Générale)",
+      "dept_id": "ML-SOE-001-DEPT-001",
+      "head": "马达尼·德拉韦 (Madani Dravé)",
+      "description": "公司最高管理层，统筹发电、输配电与客户服务整体运营。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "技术板块 (Pôle Technique)",
+      "dept_id": "ML-SOE-001-DEPT-002",
+      "head": null,
+      "description": "由一位副总经理（Directeur Général Adjoint）分管的生产与电网技术板块，负责发电厂与输配电网络运行维护。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "行政与财务板块 (Pôle Administration et Finances)",
+      "dept_id": "ML-SOE-001-DEPT-003",
+      "head": null,
+      "description": "由一位副总经理分管的行政、财务与支持职能板块（据公司官网2022年交接报道，设两位副总经理分掌技术与行政财务两板块）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "商业部 (Direction Commerciale)",
+      "dept_id": "ML-SOE-001-DEPT-004",
+      "head": null,
+      "description": "负责客户服务、营业厅网络（巴马科及内地各中心PAC客户接待点）与抄表收费等业务的商业部门，办公地位于巴马科ACI 2000 Djogo大厦。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "信息系统部 (Direction du Système d'Information)",
+      "dept_id": "ML-SOE-001-DEPT-005",
+      "head": null,
+      "description": "负责公司信息化系统与官网运营的信息化部门（署名于官网页脚）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-09-04",
+      "title": "部长会议任命马达尼·德拉韦为EDM-SA总经理",
+      "description": "2025年9月4日，马里部长会议任命马达尼·德拉韦（Madani Dravé）为马里能源公司（EDM-SA）总经理。其为电力与信息工程专业工程师，此前自2025年1月起任总统府秘书长办公室技术顾问。这是EDM-SA自2020年以来第五任总经理，接替2023年9月上任的阿卜杜拉耶·吉布里尔·迪亚洛；此前历任包括库雷西·科纳雷（Kouréissi Konaré）、奥马尔·巴鲁·迪亚拉（Oumar Barou Diarra）与布巴卡尔·凯塔（Boubacar Keita）。",
+      "impact": "分析依据（MalikoNews报道）：新任总经理接手的电力危机有所缓解，停电已由高峰期每天约20小时降至5-6小时，部分归因于为电厂燃油采购设立的新税种；其任务聚焦稳定供电、改善公司治理与财务状况。",
+      "source": "https://malikonews.com/energie-du-mali-le-commandant-madani-drave-nomme-a-la-tete-dedm-sa/"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "非洲开发银行批准1.9亿美元融资加强巴马科电力供应",
+      "description": "2026年7月2日，非洲开发银行（BAD）宣布支持一项1.9亿美元项目，用于加强马里首都巴马科的电力供应。马里媒体将其与巴马科225千伏北部环网（PBNB/Boucle Nord de Bamako，融资额3950亿西非法郎口径见马里媒体2026年4月报道）输电工程相关联；EDM-SA官网亦持续发布该项目的招标与招募公告（PBNB系列文件）。",
+      "impact": "分析依据（AfDB新闻稿及马里媒体）：项目落地有望缓解首都输配电瓶颈、支持新增电源并网；EDM-SA作为国家输配电网运营方，是项目实施与资产运营的核心受益主体。",
+      "source": "https://www.afdb.org/fr/news-and-events/press-releases/mali-la-banque-africaine-de-developpement-soutient-un-projet-de-190-millions-de-dollars-pour-renforcer-lalimentation-electrique-de-bamako-95157"
+    },
+    {
+      "date": "2024-05-28",
+      "title": "过渡总统戈伊塔为Safo 100兆瓦级光伏电站主持开工（中马合作）",
+      "description": "2024年5月28日，马里过渡总统阿西米·戈伊塔在库利科罗大区Safo主持100 MWp光伏电站开工仪式。电站占地228公顷，投资逾1000亿西非法郎，系与中国合作建设的重点项目（据总统府官网koulouba.ml、Agence Ecofin、Africa24报道）；据bamada.net 2026年11月9日报道，Safo 1电站已进入落成投运阶段，并拟启动其他后续电力项目。",
+      "impact": "分析依据（Agence Ecofin、Africa24）：电站投运将提升可再生发电占比、降低对高成本燃油热电的依赖，是缓解全国性缺电与EDM-SA燃油采购负担的关键工程。",
+      "source": "https://koulouba.ml/le-president-de-la-transition-lance-les-travaux-de-construction-de-la-centrale-solaire-de-safo/"
+    },
+    {
+      "date": "2024-01-22",
+      "title": "EDM-SA债务危机爆发：约6000亿西非法郎负债、多名前高管被拘",
+      "description": "2024年1月，据Financial Afrik与法语维基百科记载，EDM-SA公开披露债务约6000亿西非法郎；前任总经理库雷西·科纳雷（Kouréissi Konaré，任期至2023年9月）自2024年1月10日起被拘押问话，公司多名高管因涉嫌侵吞公共财产被起诉。",
+      "impact": "分析依据（Financial Afrik、finances.ml）：该危机直接促成同年3月13日马里经济与财政部牵头签署EDM-SA银行债务管理协议，并成为后续治理整顿与2025年再次换帅的背景。",
+      "source": "https://www.financialafrik.com/2024/01/22/mali-face-aux-coupures-delectricite-assimi-goita-fait-sauter-des-fusibles/"
+    },
+    {
+      "date": "2024-03-13",
+      "title": "马里经济与财政部签署EDM-SA银行债务管理协议",
+      "description": "2024年3月13日，马里经济与财政部主持签署马里能源公司（EDM-SA）银行债务管理协议（Protocole d'accord de gestion de la dette bancaire de la société Énergie du Mali EDM-SA），以重组化解公司对银行体系的欠债。",
+      "impact": "分析依据（finances.ml官方公告）：系国家救助EDM-SA、恢复其融资能力的关键动作；马里国家自2018年起持有EDM-SA 100%股份并承担最终救助责任。",
+      "source": "https://finances.ml/signature-du-protocole-daccord-de-gestion-de-la-dette-bancairede-la-societe-energie-du-mali-edm-sa"
+    },
+    {
+      "date": "2025-05-06",
+      "title": "萨赫勒国家联盟（AES）三国能源监管机构首次会议在巴马科举行",
+      "description": "2025年5月6日，布基纳法索、马里、尼日尔三国能源监管机构在巴马科举行AES框架下首次正式会议，马里总理阿卜杜拉耶·马伊加出席并致辞；会议旨在协调区域能源监管、推动可再生能源一体化与改善电力普遍接入。彼时马里全国通电率约53%（据Africa24报道）。",
+      "impact": "分析依据（Africa24、Anadolu Agency）：EDM-SA作为马里国家电力运营主体，是AES能源一体化（含Desert to Power区域光伏计划、马里-尼日尔联营电站等）的核心执行企业。",
+      "source": "https://africa24tv.com/afrique-le-burkina-le-mali-et-le-niger-misent-sur-le-solaire-pour-sortir-de-la-dependance-thermique/"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "EDM-SA预告巴马科部分街区10月21日09-15时停电",
+      "description": "2026年10月20日，EDM-SA发布供电预告：10月21日09时至15时，巴马科部分街区因工程作业出现供电中断；此前2026年8月2日公司亦通报多地在故障后出现较大范围供电扰动（据Mali24TV、Mali Nouveau脸书账号转发的公司公告）。",
+      "impact": "分析依据（公司公告的媒体转发）：2026年计划性与故障性停电仍属常态，反映电网结构薄弱、检修频繁、供电稳定性尚未根本改善。",
+      "source": "https://www.facebook.com/Mali24TV/posts/edm-sa-la-fourniture-de-l%C3%A9lectricit%C3%A9-conna%C3%AEtra-des-perturbations-le-mercredi-21-/1564829845679532/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": null,
+      "org_name": "马里国家 (État du Mali)",
+      "org_type": "GOV",
+      "org_description": "EDM-SA的独资股东。1960年建司时国家持股55%；2000年12月私有化后国家持股40%；2005年10月SAUR退出后国家持股66%（IPS持34%）；2018年国家收购IPS股份后持股100%（据EDM-SA官网「A propos」页）。",
+      "relationship_type": "controlling_shareholder"
+    },
+    {
+      "org_id": "ML-SOE-003",
+      "org_name": "马里饮用水管理公司 (Société malienne de gestion de l'eau potable (SOMAGEP-SA))",
+      "org_type": "SOE",
+      "org_description": "马里国家饮用水公司。2011年1月1日EDM-SA将供水业务整体分离，由SOMAGEP-SA承接；两公司同属马里国有公用事业体系，并在员工社会福利活动中有合作互动。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": null,
+      "org_name": "西非电力池 (West African Power Pool (WAPP))",
+      "org_type": "INTL",
+      "org_description": "西非经共体（ECOWAS）框架下的区域电力联营机构。EDM-SA为其成员单位（WAPP 2020/2021年年报及IRENA国别报告均有列名，并曾任WAPP执行董事会轮值成员），参与区域电网互联与跨国电力交易。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": null,
+      "org_name": "马南塔里能源管理公司 (Société de gestion de l'énergie de Manantali (SOGEM))",
+      "org_type": "CORP",
+      "org_description": "运营马南塔里（Manantali，装机104 MW）与费卢（Félou）水电站的区域能源管理公司；EDM-SA向其购电。2006年马南塔里电站供电约占马里互联电网发电量的43%（据法语维基百科）。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": null,
+      "org_name": "马里能源与水利部 (Ministère de l'Énergie et de l'Eau)",
+      "org_type": "GOV",
+      "org_description": "马里电力行业主管部门，监督EDM-SA电力公共服务特许合同的履行。现任部长布巴卡尔·迪亚内（Boubacar Diane）于2025年4月到访EDM-SA总部并慰问员工（据ORTM报道）。",
+      "relationship_type": "regulator"
+    }
+  ],
+  "core_business": "马里能源公司（EDM-SA）是马里共和国的国家电力公司，为工业与商业性质的国有股份公司（Société anonyme à caractère industriel et commercial），依据1960年10月14日第N°26/PGP政令创建，总部设于巴马科Patrice-Lumumba广场。公司业务覆盖电力的生产、输送与分配全链条：发电方面，运营塞林盖（Sélingué，装机46.2 MW）、索图巴（Sotuba）等水电站，以及达萨拉姆（Darsalam）、巴兰盖（Balingué）等燃油热电站，并通过西非电力池（WAPP）框架向SOGEM管理的马南塔里（Manantali）、费卢（Félou）水电站购电，近年推进Safo 100 MWp等光伏项目；输配电方面，运营约1.09万公里的互联电网线路，向63个城镇中心供电（其中28个依赖热电站），并在北部和东部约19个离网中心维持独立电站供电。客户服务涵盖ISAGO预付费电表、智能电表推广、在线缴费与移动支付购电，2021年6月底用户约71.4万户，全国用电人口覆盖率由15%提升至约44%。2011年1月1日起供水业务剥离至SOMAGEP-SA，公司专营电力；现有员工约2126人（2021年7月），自2008年起通过ISO 9001质量管理体系认证，2021年电力公共服务特许合同获续期五年。当前核心挑战包括互联电网发电缺口（需求年增近10%）、高燃油成本、技术性与商业性损耗偏高以及约6000亿西非法郎的债务负担。",
+  "industries": [
+    "electricity_gas",
+    "utilities",
+    "energy_renewable"
+  ],
+  "apec_stance": "马里不是APEC成员。APEC的21个成员经济体均为环太平洋及亚太地区经济体，位于西非内陆的马里不具备成员资格，与APEC机制没有任何官方关联或公开活动记录；EDM-SA作为马里国有企业，亦未参与任何APEC相关议程。",
+  "profile": null,
+  "collection_meta": {
+    "collection_date": "2026-11-19",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_fr",
+      "official_website",
+      "news_search",
+      "official_gov_website",
+      "development_bank_press_release",
+      "regional_org_reports",
+      "social_media_notices"
+    ],
+    "completeness_score": 85,
+    "quotes": [
+      {
+        "title": "Énergie du Mali — Wikipédia (français)",
+        "url": "https://fr.wikipedia.org/wiki/%C3%89nergie_du_Mali"
+      },
+      {
+        "title": "A Propos de EDMSA — Site officiel EDM-SA",
+        "url": "https://www.edmsa.ml/societe/a-propos"
+      },
+      {
+        "title": "Énergie du Mali : le Commandant Madani Dravé nommé à la tête d'EDM-SA — MalikoNews",
+        "url": "https://malikonews.com/energie-du-mali-le-commandant-madani-drave-nomme-a-la-tete-dedm-sa/"
+      },
+      {
+        "title": "Mali : la BAD soutient un projet de 190 millions de dollars pour renforcer l'alimentation électrique de Bamako — African Development Bank",
+        "url": "https://www.afdb.org/fr/news-and-events/press-releases/mali-la-banque-africaine-de-developpement-soutient-un-projet-de-190-millions-de-dollars-pour-renforcer-lalimentation-electrique-de-bamako-95157"
+      },
+      {
+        "title": "RAPPORT ANNUEL D'ACTIVITÉS 2024 EDM-SA (PDF officiel)",
+        "url": "https://www.edmsa.ml/sites/default/files/Actualites/2026-01/CRT + CRF + Annexes 2024.pdf"
+      },
+      {
+        "title": "Afrique : le Burkina, le Mali et le Niger misent sur le solaire pour sortir de la dépendance thermique — Africa24",
+        "url": "https://africa24tv.com/afrique-le-burkina-le-mali-et-le-niger-misent-sur-le-solaire-pour-sortir-de-la-dependance-thermique/"
+      }
+    ],
+    "notes": "Enriched from FR Wikipedia, official EDM-SA website (footer social links, About/Mission pages, client portal, PBNB tender notices), Malian press (MalikoNews, Financial Afrik, Africa24, Agence Ecofin, bamada.net), official presidency (koulouba.ml) and finance ministry (finances.ml) pages, AfDB press release, WAPP annual reports and IRENA report. Verification notes: (1) Régis Chancel Nov-2026 'EDM' appointment verified as Électricité de Mayotte, a different company - excluded; (2) no credible GSEZ/AES-Mali electricity cooperation source found - omitted per no-fabrication rule; (3) PCA Abdramane Dembélé confirmed in office via EDM-SA annual reports 2022 and 2024; (4) blocked sources skipped: mines.gouv.ml (403), afdb.org direct fetch (403), en.wikipedia.org fetch failure (FR Wikipedia used)."
+  }
+}
