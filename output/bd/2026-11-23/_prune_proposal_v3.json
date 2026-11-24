@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "created": "2026-11-23",
+    "version": "v3_target_100",
+    "based_on": "v2（裁71→70）按用户要求回调：回补30个中高价值项，最终保留约100个",
+    "target_remaining": 100,
+    "v1_cut": 6,
+    "v3_cut": 41,
+    "total_cut_from_147": 47,
+    "status": "PROPOSAL - awaiting user confirmation, no data changed"
+  },
+  "v1_cut_unchanged": [
+    {"org_id": "BD-GOV-005", "name": "Senate of Bangladesh", "reason": "拟设立上议院，尚未运作"},
+    {"org_id": "BD-PARTY-007", "name": "Jatiya Samajtantrik Dal (JSD)", "reason": "多次分裂后的极边缘 micro 党"},
+    {"org_id": "BD-PARTY-010", "name": "Gano Forum", "reason": "持续边缘化，无议席无内阁职位"},
+    {"org_id": "BD-PARTY-011", "name": "Bikalpa Dhara Bangladesh", "reason": "前总统派系边缘政党"},
+    {"org_id": "BD-PARTY-012", "name": "Liberal Democratic Party (LDP)", "reason": "边缘 micro 党"},
+    {"org_id": "BD-INTL-005", "name": "South Asian Football Federation (SAFF)", "reason": "体育组织，非情报目标"}
+  ],
+  "v3_cut": {
+    "GOV": [
+      {"org_id": "BD-GOV-022", "name": "Bangladesh Post Office", "reason": "邮政服务运营机构，无情报价值"},
+      {"org_id": "BD-GOV-021", "name": "Bangladesh Inland Water Transport Authority", "reason": "内河航运管理，运营型"},
+      {"org_id": "BD-GOV-013", "name": "Bangladesh Public Service Commission", "reason": "公务员招募考试机构，无决策与情报产出"},
+      {"org_id": "BD-GOV-018", "name": "Rajdhani Unnayan Kartripakkha (RAJUK)", "reason": "达卡城市规划/土地审批，专业性强、无政治情报价值"},
+      {"org_id": "BD-GOV-017", "name": "Civil Aviation Authority of Bangladesh", "reason": "民航运营监管，除重大事故外无情报产出"}
+    ],
+    "MIL": [],
+    "SOE": [
+      {"org_id": "BD-SOE-005", "name": "Bangladesh Steel and Engineering Corporation", "reason": "钢铁控股平台，运营型、产出弱"},
+      {"org_id": "BD-SOE-009", "name": "Teletalk", "reason": "国有移动运营商，市场份额小"},
+      {"org_id": "BD-SOE-007", "name": "Jamuna Oil Company", "reason": "BPC 下属成品油营销子公司，无独立情报价值"},
+      {"org_id": "BD-SOE-004", "name": "Bangladesh Chemical Industries Corporation", "reason": "化肥/化工控股平台，农业补贴议题可从财政部与媒体获取"}
+    ],
+    "CORP": [
+      {"org_id": "BD-CORP-008", "name": "Akij Group", "reason": "烟草/FMCG 集团，纯商业运营"},
+      {"org_id": "BD-CORP-011", "name": "Kazi Farms Group", "reason": "农业食品企业，无政治杠杆"},
+      {"org_id": "BD-CORP-012", "name": "Rahimafrooz", "reason": "电池/电气制造，商业运营型"},
+      {"org_id": "BD-CORP-013", "name": "M. M. Ispahani Limited", "reason": "老牌家族集团，规模与政治关联均有限"},
+      {"org_id": "BD-CORP-016", "name": "Banglalink", "reason": "第三运营商（VEON 拟撤资），情报产出弱"},
+      {"org_id": "BD-CORP-018", "name": "Aarong", "reason": "BRAC 旗下公益零售连锁（BRAC 主档案已保留）"}
+    ],
+    "FIN": [
+      {"org_id": "BD-FIN-008", "name": "Agrani Bank", "reason": "国有行第三名；国有行保留 Sonali（政府账房）+ Janata（S. Alam 敞口焦点）已覆盖"},
+      {"org_id": "BD-FIN-009", "name": "Eastern Bank PLC", "reason": "私营商业银行，纯商业运营"},
+      {"org_id": "BD-FIN-010", "name": "The City Bank", "reason": "私营商业银行，纯商业运营"},
+      {"org_id": "BD-FIN-011", "name": "IDLC Finance PLC", "reason": "非银金融机构，体量与政治关联有限"},
+      {"org_id": "BD-FIN-015", "name": "Sadharan Bima Corporation", "reason": "国有再保险，运营型机构"}
+    ],
+    "NGO": [
+      {"org_id": "BD-NGO-006", "name": "Dhaka Ahsania Mission", "reason": "教育/社会服务 NGO，单一服务领域"},
+      {"org_id": "BD-NGO-009", "name": "Acid Survivors Foundation", "reason": "单一议题（酸暴力幸存者）服务机构"},
+      {"org_id": "BD-NGO-010", "name": "Friendship", "reason": "偏远地区服务 NGO，气候议题信息可从 ICCCAD/国际渠道获取"}
+    ],
+    "ACAD": [
+      {"org_id": "BD-ACAD-003", "name": "University of Chittagong", "reason": "地方公立大学，无全国政治产出"},
+      {"org_id": "BD-ACAD-004", "name": "University of Rajshahi", "reason": "地方公立大学"},
+      {"org_id": "BD-ACAD-005", "name": "Jahangirnagar University", "reason": "地方公立大学"},
+      {"org_id": "BD-ACAD-006", "name": "Bangladesh Agricultural University", "reason": "农业大学，政策信息可从部委获取"},
+      {"org_id": "BD-ACAD-007", "name": "Shahjalal University of Science and Technology", "reason": "地方理工院校"},
+      {"org_id": "BD-ACAD-009", "name": "Military Institute of Science and Technology", "reason": "军工技术院校，学术产出弱（军队维度已由 MIL 类 + BUP 覆盖）"},
+      {"org_id": "BD-ACAD-012", "name": "Independent University, Bangladesh", "reason": "私立大学，独立情报产出弱"},
+      {"org_id": "BD-ACAD-013", "name": "Daffodil International University", "reason": "私立大学，无政治杠杆"},
+      {"org_id": "BD-ACAD-014", "name": "American International University-Bangladesh", "reason": "私立大学，无政治杠杆"},
+      {"org_id": "BD-ACAD-016", "name": "BCSIR", "reason": "国营科研协调机构，产出偏技术"}
+    ],
+    "MEDIA": [
+      {"org_id": "BD-MEDIA-007", "name": "Bangladesh Betar", "reason": "国家广播电台；官方立场已由 BSS+BTV 覆盖"},
+      {"org_id": "BD-MEDIA-008", "name": "Daily Ittefaq", "reason": "老牌日报但影响力衰减"},
+      {"org_id": "BD-MEDIA-010", "name": "Kaler Kantho", "reason": "Bashundhara 系日报之二（同系 Jugantor 保留，二选一）"},
+      {"org_id": "BD-MEDIA-014", "name": "The Business Standard", "reason": "财经日报，信息可从其他渠道获取"},
+      {"org_id": "BD-MEDIA-018", "name": "Ekattor TV", "reason": "新闻台第二梯队（头部 Somoy 保留）"},
+      {"org_id": "BD-MEDIA-019", "name": "Independent Television", "reason": "BEXIMCO 系新闻台；主档案保留其媒体资产线索"},
+      {"org_id": "BD-MEDIA-020", "name": "Channel i", "reason": "综合娱乐+新闻，政治报道弱"}
+    ],
+    "PARTY": [
+      {"org_id": "BD-PARTY-008", "name": "Workers Party of Bangladesh", "reason": "传统左翼边缘化，无议席无内阁职位（CPB 保留代表左翼）"}
+    ],
+    "INTL": []
+  },
+  "restored_vs_v2": [
+    {"org_id": "BD-GOV-012", "name": "NHRC", "why": "2024 骚乱追责与人权议题的国内官方渠道"},
+    {"org_id": "BD-GOV-020", "name": "Bangladesh Railway", "why": "中孟铁路经济走廊的地缘经济接口"},
+    {"org_id": "BD-GOV-025", "name": "CID", "why": "重大刑案调查，司法—警方链条一环"},
+    {"org_id": "BD-SOE-006", "name": "Titas Gas", "why": "天然气配送垄断+腐败记录"},
+    {"org_id": "BD-SOE-008", "name": "BTCL", "why": "国有固网/数字安全基础设施"},
+    {"org_id": "BD-SOE-010", "name": "BAPEX", "why": "油气勘探（Gazprom/中资合作项目层面）"},
+    {"org_id": "BD-SOE-012", "name": "DMTCL", "why": "中援 MRT 项目运营方，地缘经济旗舰"},
+    {"org_id": "BD-CORP-004", "name": "PRAN-RFL", "why": "农产品出口龙头，侨汇与出口经济代表"},
+    {"org_id": "BD-CORP-006", "name": "Walton", "why": "政府采购/军警订单关系，国产电子唯一代表"},
+    {"org_id": "BD-CORP-007", "name": "Transcom", "why": "饮料+媒体（Daily Star 母公司）交叉资产"},
+    {"org_id": "BD-CORP-009", "name": "Meghna Group", "why": "食用油进口集中度（供应安全议题）"},
+    {"org_id": "BD-CORP-015", "name": "Robi Axiata", "why": "第二大运营商，国有 BTTB 持股"},
+    {"org_id": "BD-CORP-017", "name": "Incepta", "why": "制药业第二极，医疗供应链"},
+    {"org_id": "BD-FIN-005", "name": "Dutch-Bangla Bank", "why": "Rocket 移动支付渠道"},
+    {"org_id": "BD-FIN-014", "name": "Dhaka Stock Exchange", "why": "资本市场动荡观测点"},
+    {"org_id": "BD-NGO-002", "name": "ASA", "why": "小微金融第二巨头（Grameen 模式对照）"},
+    {"org_id": "BD-NGO-008", "name": "Manusher Jonno Foundation", "why": "人权/治理资助网络"},
+    {"org_id": "BD-ACAD-008", "name": "BUP", "why": "军队关联大学，军官培养体系"},
+    {"org_id": "BD-ACAD-010", "name": "North South University", "why": "私立大学龙头，精英网络"},
+    {"org_id": "BD-ACAD-011", "name": "BRAC University", "why": "BRAC 生态高校，Civic 政治参与"},
+    {"org_id": "BD-ACAD-020", "name": "ICCCAD", "why": "气候外交（损失与损害基金）研究支点"},
+    {"org_id": "BD-MEDIA-009", "name": "Daily Jugantor", "why": "Bashundhara 系主报（与 Kaler Kantho 二选一保留）"},
+    {"org_id": "BD-MEDIA-013", "name": "Dhaka Tribune", "why": "英文中型日报，国际转载渠道"},
+    {"org_id": "BD-MEDIA-017", "name": "Channel 24", "why": "新闻台第二梯队补充"},
+    {"org_id": "BD-MEDIA-021", "name": "NTV", "why": "BNP 关联台，党派叙事渠道"},
+    {"org_id": "BD-PARTY-005", "name": "Jatiya Party (Ershad)", "why": "前总统创党，历史执政党（Ershad person 已在册）"},
+    {"org_id": "BD-PARTY-006", "name": "Communist Party of Bangladesh", "why": "传统左翼代表，工会/学生网络"},
+    {"org_id": "BD-INTL-002", "name": "CIRDAP", "why": "HQ 达卡政府间机构，区域架构存在感"},
+    {"org_id": "BD-INTL-003", "name": "International Jute Study Group", "why": "黄麻支柱产业政府间商品机构"},
+    {"org_id": "BD-INTL-004", "name": "SAARC Agricultural Centre", "why": "SAARC 系统专业中心（农业议题）"}
+  ],
+  "final_keep_counts": {
+    "GOV": 19, "MIL": 8, "SOE": 8, "CORP": 12, "FIN": 10,
+    "NGO": 7, "ACAD": 10, "MEDIA": 14, "PARTY": 8, "INTL": 4,
+    "TOTAL": 100
+  }
+}

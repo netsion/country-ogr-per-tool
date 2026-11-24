@@ -1,0 +1,281 @@
+{
+  "org_id": "BD-SOE-011",
+  "wikidata_qid": "Q4855359",
+  "basic_info": {
+    "name_original": "Bangladesh Ordnance Factories",
+    "name_zh": "孟加拉国军械厂",
+    "name_en": "Bangladesh Ordnance Factories",
+    "aliases": [
+      "BOF",
+      "বাংলাদেশ সমরাস্ত্র কারখানা",
+      "বিওএফ",
+      "Bangladesh Ordnance Factory"
+    ],
+    "org_type": "SOE",
+    "org_subtype": "state_owned_enterprise",
+    "country_iso3": "BGD",
+    "hq_country_iso3": "BGD",
+    "founded_date": "1970-04-06",
+    "website": "https://bof.gov.bd/"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "孟加拉国军械厂官方网站（বাংলাদেশ সমরাস্ত্র কারখানা）",
+      "url": "https://bof.gov.bd/",
+      "description": "BOF官方门户，发布机构简介、工厂与产品、采购招标、招聘通告、通知公告及联系方式，支持孟加拉语与英语切换。",
+      "source": "official_website"
+    },
+    {
+      "name": "官方历史沿革页（ইতিহাস）",
+      "url": "https://bof.gov.bd/pages/static-pages/6922dd1a933eb65569e1385b",
+      "description": "按年份列出1968年在中国援助下动工、1970年4月6日正式投产、1988年转隶陆军、2008年BD-08步枪投产、2012年CB-10项目等发展里程碑。",
+      "source": "official_website"
+    },
+    {
+      "name": "BOF在线招聘申请系统",
+      "url": "https://bof.teletalk.com.bd/",
+      "description": "由Teletalk运营的BOF招聘门户，发布现行及往期招聘通告（含2026年9月8日员工招聘通告）并受理在线申请。",
+      "source": "official_website"
+    },
+    {
+      "name": "国防部BOF机构专页",
+      "url": "https://mod.gov.bd/pages/static-pages/694032c835ce18e1c056258c",
+      "description": "孟加拉国国防部官网对BOF的介绍，载明其作为唯一国有军械生产机构的地位、303.14英亩厂区、2128名编制人员及扩大职能与研发的机构改革方向。",
+      "source": "government_directory"
+    },
+    {
+      "name": "官方联系与地址页（যোগাযোগ）",
+      "url": "https://bof.gov.bd/pages/static-pages/6922dc94933eb65569e110cb",
+      "description": "公布BOF通信地址（加济布尔军营，加济布尔-1703）、电话+88 02 224494021-29、传真+88 02 224494044及邮箱info@bof.gov.bd。",
+      "source": "official_website"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "BD-PERSON-000542",
+      "name": "赛义德·萨比尔·艾哈迈德 (Syed Sabbir Ahmed / সৈয়দ সাব্বির আহমেদ)",
+      "title": "司令（Commandant，少将）",
+      "title_description": "BOF最高负责人，统领加济布尔军械厂区的生产、采购、人事、财务与扩建事务，向陆军参谋长秘书处负责；同时代表BOF与国防部、陆军总部及外部供应商对接。",
+      "description": "孟加拉国陆军少将，军衔后缀为SGP、ndc、afwc、psc。2025年8月以BOF司令身份出席孟加拉国出口加工区管理局活动；2026年2月孟加拉国陆军高层调整名单、2026年7月公开活动及2026年10月议会防务委员会会议均确认其现任BOF司令。此前孟加拉国军械厂历任司令多为少将级军官。"
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "BD-SOE-011-DEPT-001",
+      "name": "总部（司令部） (Headquarters / সদর দপ্তর)",
+      "head": "赛义德·萨比尔·艾哈迈德（少将）",
+      "description": "BOF最高指挥与管理机构，负责战略规划、生产协调、采购招标、人事管理、财务与对外联络；设司令一名，由孟加拉国陆军少将出任。",
+      "parent_dept_id": null
+    },
+    {
+      "dept_id": "BD-SOE-011-DEPT-002",
+      "name": "小型武器工厂 (Small Arms Factory / ক্ষুদ্রাস্ত্র কারখানা)",
+      "head": null,
+      "description": "1970年4月6日随BOF投产，最初生产7.62毫米Type-56半自动步枪，2006年后转产BD-08自动步枪。下设步枪机加工车间一、车间二、热处理与表面处理车间、感应炉、锻造车间、木工车间和步枪靶场，产品供陆军、海军、空军、边境警卫队、海岸警卫队和警察使用。",
+      "parent_dept_id": "BD-SOE-011-DEPT-001"
+    },
+    {
+      "dept_id": "BD-SOE-011-DEPT-003",
+      "name": "枪弹工厂 (Cartridge Factory / কার্তুজ ফ্যাক্টরী)",
+      "head": null,
+      "description": "生产7.62×39毫米、7.62×54R毫米、7.62×51毫米北约制式枪弹，以及曳光弹、空包弹和底火。1973—1974年即生产57.744万发枪弹，1981年实现底火国产化，1995—1996年起生产北约制式弹；2012年CB-10项目完成后年产能约9000万发。",
+      "parent_dept_id": "BD-SOE-011-DEPT-001"
+    },
+    {
+      "dept_id": "BD-SOE-011-DEPT-004",
+      "name": "大口径弹药与手榴弹工厂 (High Caliber Ammunition and Grenade Factory / উচ্চ ক্যালিবার গোলাবারুদ এবং গ্রেনেড কারখানা)",
+      "head": null,
+      "description": "由手榴弹工厂、引信装配工厂和大口径弹药工厂组成，生产Arges 84 BD手榴弹、大口径炮弹、迫击炮弹、引信和TNT药块，是BOF高爆弹药与爆炸物生产能力的主要载体。",
+      "parent_dept_id": "BD-SOE-011-DEPT-001"
+    },
+    {
+      "dept_id": "BD-SOE-011-DEPT-005",
+      "name": "工具制造工厂 (Tools Production Factory / টুল উৎপাদন কারখানা)",
+      "head": null,
+      "description": "由工具制造车间、中央工具仓库和检验与被装车间组成，生产工具、量具、夹具、模具、冲头等，满足BOF约70%的工具需求，并制作手套、实验服和维护用被装。",
+      "parent_dept_id": "BD-SOE-011-DEPT-001"
+    },
+    {
+      "dept_id": "BD-SOE-011-DEPT-006",
+      "name": "计划与维护局 (Directorate of Planning & Maintenance)",
+      "head": null,
+      "description": "负责工厂中长期规划、设备维护保养、产能扩建与技术升级改造，协调新生产线落地；该局主管历来由孟加拉国陆军高级军官出任。",
+      "parent_dept_id": "BD-SOE-011-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-27",
+      "title": "吉大港巴提亚里54.99英亩厂区移交陆军，BOF启动第二个军械生产基地",
+      "description": "孟加拉国纺织厂公司（BTMC）正式将已关闭的贾利勒纺织厂（Jalil Textile Mills）位于吉大港西塔昆达巴提亚里的54.99英亩土地移交给孟加拉国陆军，用于孟加拉国军械厂（BOF）扩建。陆军参谋长瓦克-乌兹-扎曼上将表示，新厂区将兼顾本国军需与武器出口潜力，并凭借靠近吉大港港口的地理优势降低物流成本。商务、工业、纺织与黄麻部长汉达克尔·阿卜杜勒·穆克塔迪尔称，扩建BOF是提升国家国防生产能力的重要组成部分。",
+      "impact": "BOF由加济布尔单一基地扩展为「加济布尔+吉大港」双基地布局，为其承接105/155毫米炮弹等新增产能、发展出口导向型军械制造提供土地与物流条件；但新厂区建成投产仍需技术引进、国际认证与持续投资，短期不改变其以陆军订单为主的格局。",
+      "source": "https://www.dhakatribune.com/bangladesh/418454/army-to-build-modern-arms-factory-at-closed-jalil"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "贾利勒纺织厂工人要求先清偿2.057亿塔卡欠款，再移交BOF扩建用地",
+      "description": "贾利勒纺织厂工人联合会在吉大港发表声明，要求政府在把该厂54.99英亩土地移交给陆军用于BOF扩建之前，先结清1073名工人、职员和官员截至2012年6月30日仍被拖欠的2.057亿塔卡。工会称，政府经济事务内阁委员会已原则同意以象征性价格把土地转给陆军；工会警告若强行移交将发起抗议。该厂自2004年停产，欠薪问题已拖延二十余年。",
+      "impact": "土地移交虽已获政策批准，但劳工欠薪争议构成社会稳定与项目推进风险；若欠款未清偿，BOF吉大港扩建的土地清表、环境评估与开工时间可能被推迟。",
+      "source": "https://www.tbsnews.net/bangladesh/jalil-textile-workers-ctg-demand-dues-mill-land-transferred-army-1480511"
+    },
+    {
+      "date": "2026-02-06",
+      "title": "BOF启动自主设计冲锋枪（SMG）项目",
+      "description": "孟加拉国防务媒体披露，孟加拉国军械厂（BOF）已启动以本土技术自主设计、开发冲锋枪（SMG）的项目，目标是形成具有自主知识产权的国产冲锋枪，减少对进口轻武器的依赖。该消息由Defense Technology of Bangladesh等多家防务账号在2026年2月5日至6日同步披露，但BOF尚未公布设计定型、口径与量产时间表。",
+      "impact": "若项目落地，BOF将从许可生产（Type-56、BD-08）迈向自主设计，补足冲锋枪这一产品空白；目前仍处早期研发阶段，短期对产能与出口贡献有限。",
+      "source": "https://x.com/DefenseDtb/status/2019325093147734030"
+    },
+    {
+      "date": "2025-04-24",
+      "title": "防务媒体披露BOF 2025—2035年十年扩建规划",
+      "description": "防务媒体BDMilitary刊文披露孟加拉国军械厂（BOF）2025—2035年十年扩建规划。规划提出分阶段把BOF建设为现代化、多元化、自主的军工复合体，重点包括实现关键弹药与武器系统自给、发展制导与非制导武器、支撑陆海空三军扩编，并推动区域防务出口；轻武器与轻武器弹药规划年产能约7.5万支（件）。",
+      "impact": "该规划与2026年吉大港扩厂、国防工业区政策形成呼应，显示BOF正从单一军械厂向综合军工集团转型；规划仍属文件层面，产能目标能否实现取决于预算、技术转让与出口许可。",
+      "source": "https://www.bdmilitary.com/defence-news/defence-industry/bangladesh-ordnance-factories-bof-expansion-plan-2025-to-2035/413/"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "BOF发布2026年度员工招聘通告，计划补充142个岗位",
+      "description": "孟加拉国军械厂（BOF）通过Teletalk招聘门户发布2026年度员工招聘通告（文号23.27.0000.117.13.001.26，日期2026年9月8日），计划招聘142人，在线申请期为2026年9月8日至10月6日。招聘涵盖多个职级，反映其在扩厂与产能提升背景下补充技术与行政人力的需求。",
+      "impact": "招聘有助于缓解BOF现有约2128名编制人员不足，支撑加济布尔厂区满负荷生产与吉大港新厂区筹备；也显示其组织规模正处于扩张周期。",
+      "source": "https://bof.teletalk.com.bd/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "BD-MIL-002",
+      "org_name": "孟加拉国陆军 (Bangladesh Army / বাংলাদেশ সেনাবাহিনী)",
+      "org_type": "MIL",
+      "org_description": "孟加拉国武装力量的主体，负责陆上防务；自1988年起直接管辖BOF，BOF司令由陆军少将出任。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": null,
+      "org_name": "孟加拉国国防部 (Ministry of Defence / প্রতিরক্ষা মন্ত্রণালয়)",
+      "org_type": "GOV",
+      "org_description": "孟加拉国国防事务的行政部委，将BOF列为其下属机构，负责政策、预算与国防工业方向监督。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "BD-MIL-003",
+      "org_name": "孟加拉国海军 (Bangladesh Navy / বাংলাদেশ নৌবাহিনী)",
+      "org_type": "MIL",
+      "org_description": "孟加拉国海上武装力量，是BOF轻武器与弹药的用户之一。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "BD-MIL-004",
+      "org_name": "孟加拉国空军 (Bangladesh Air Force / বাংলাদেশ বিমান বাহিনী)",
+      "org_type": "MIL",
+      "org_description": "孟加拉国空中武装力量，使用BOF生产的轻武器及相关装备。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "BD-MIL-007",
+      "org_name": "孟加拉国步枪队 (Border Guard Bangladesh / বর্ডার গার্ড বাংলাদেশ)",
+      "org_type": "MIL",
+      "org_description": "孟加拉国边境准军事部队，装备BOF生产的BD-08步枪等轻武器。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "BD-GOV-023",
+      "org_name": "孟加拉国警察 (Bangladesh Police / বাংলাদেশ পুলিশ)",
+      "org_type": "GOV",
+      "org_description": "孟加拉国主要执法力量，是BOF轻武器的用户之一。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": null,
+      "org_name": "土耳其REPKON公司 (REPKON)",
+      "org_type": "CORP",
+      "org_description": "土耳其金属成形与防务制造企业，提供自由旋压（Free Flowforming）技术与计算机化设备；2021年与BOF签署105毫米/155毫米炮弹生产线协议。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": null,
+      "org_name": "中国北方工业公司 (NORINCO / China North Industries Corporation)",
+      "org_type": "CORP",
+      "org_description": "中国大型防务企业；2006年与孟加拉国政府签署许可生产协议，协助BOF生产7.62毫米BD-08自动步枪。",
+      "relationship_type": "supplier"
+    },
+    {
+      "org_id": null,
+      "org_name": "孟加拉国机床厂 (Bangladesh Machine Tools Factory, BMTF)",
+      "org_type": "SOE",
+      "org_description": "孟加拉国陆军下属的另一家军工制造企业，与BOF共同构成陆军国防工业基础，2026年2月共同参加利雅得世界防务展。",
+      "relationship_type": "affiliated"
+    }
+  ],
+  "core_business": "孟加拉国军械厂（BOF）是孟加拉国唯一的国有军械制造企业，隶属国防部，自1988年起由孟加拉国陆军直接管辖，厂区位于达卡以北约50公里的加济布尔军营，占地约303英亩，现有编制约2128人。其核心业务是为孟加拉国陆军、海军、空军以及边境警卫队、海岸警卫队、警察等武装与准军事力量研制和生产轻武器、弹药、火炮炮弹、引信、雷管、手榴弹与军用炸药，并向友好国家出口剩余产品。主要产品包括7.62毫米Type-56半自动步枪、BD-08自动步枪及BD-15轻机枪、7.62×39毫米/7.62×54R/7.62×51毫米北约制式枪弹、曳光弹与空包弹、Arges 84 BD手榴弹、迫击炮弹、TNT药块及各类工具量具，并正依托土耳其REPKON生产线形成105毫米与155毫米炮弹产能。BOF已通过ISO 9001质量管理体系认证，2012年CB-10项目使其轻武器弹药年产能提升至约9000万发；目前正推进2025—2035年扩建规划、自主冲锋枪研发以及吉大港第二生产基地建设，目标是从进口替代走向自主设计与出口导向。",
+  "industries": [
+    "weapons_armaments",
+    "defence_military",
+    "engineering"
+  ],
+  "apec_stance": "孟加拉国不是亚太经合组织（APEC）成员，孟加拉国军械厂（BOF）也不是APEC框架下的机构，公开资料中未见其针对APEC议题的立场或参与记录。孟加拉国的区域经济合作主要依托环孟加拉湾多领域技术经济合作倡议（BIMSTEC）和南亚区域合作联盟（SAARC）等南亚机制；BOF作为国防部下属军工企业，其对外合作以双边军贸、技术转让和装备采购为主，重点伙伴包括中国（NORINCO许可生产BD-08步枪）和土耳其（REPKON的105/155毫米炮弹生产线），并通过陆军渠道参与双边防务展与出口洽谈。因此，BOF与APEC无直接关联，其国际化路径更多受南亚地区军控、出口管制与双边防务关系约束。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/19/Bangladesh_Ordnance_Factories_Logo.svg/330px-Bangladesh_Ordnance_Factories_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": "minio-store/default/popular-org-profile/bd/BD-SOE-011.png",
+    "minio_path": "default/popular-org-profile/bd/BD-SOE-011.png"
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-23",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikipedia",
+      "official_website",
+      "government_directory",
+      "news_search",
+      "web_search",
+      "social_media"
+    ],
+    "completeness_score": 73,
+    "notes": "P3 enrichment: official BOF site (Bengali/English), Ministry of Defence BOF page, English/Bengali Wikipedia, GlobalSecurity, BDMilitary, TBS, Dhaka Tribune and Defence Technology of Bangladesh reporting; commandant cross-checked against BOF site, Jugantor (2026-10-29) and Wikipedia.",
+    "quotes": [
+      {
+        "title": "Bangladesh Ordnance Factories - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bangladesh_Ordnance_Factories"
+      },
+      {
+        "title": "বাংলাদেশ সমরাস্ত্র কারখানা - উইকিপিডিয়া",
+        "url": "https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6_%E0%A6%B8%E0%A6%AE%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0_%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A6%BE"
+      },
+      {
+        "title": "বাংলাদেশ সমরাস্ত্র কারখানা: হোম（BOF官网）",
+        "url": "https://bof.gov.bd/"
+      },
+      {
+        "title": "ইতিহাস（BOF官方历史沿革）",
+        "url": "https://bof.gov.bd/pages/static-pages/6922dd1a933eb65569e1385b"
+      },
+      {
+        "title": "বাংলাদেশ সমরাস্ত্র কারখানা (বিওএফ) - প্রতিরক্ষা মন্ত্রণালয়（国防部专页）",
+        "url": "https://mod.gov.bd/pages/static-pages/694032c835ce18e1c056258c"
+      },
+      {
+        "title": "Bangladesh Ordnance Factories [BOF] - GlobalSecurity.org",
+        "url": "https://www.globalsecurity.org/military/world/bangladesh/bof.htm"
+      },
+      {
+        "title": "Bangladesh Ordnance Factories (BOF) Expansion Plan – 2025 to 2035 - BDMilitary",
+        "url": "https://www.bdmilitary.com/defence-news/defence-industry/bangladesh-ordnance-factories-bof-expansion-plan-2025-to-2035/413/"
+      },
+      {
+        "title": "Army to build modern arms factory at closed Jalil Textile - Dhaka Tribune",
+        "url": "https://www.dhakatribune.com/bangladesh/418454/army-to-build-modern-arms-factory-at-closed-jalil"
+      },
+      {
+        "title": "Jalil Textile workers in Ctg demand dues before mill land transferred to Army - The Business Standard",
+        "url": "https://www.tbsnews.net/bangladesh/jalil-textile-workers-ctg-demand-dues-mill-land-transferred-army-1480511"
+      },
+      {
+        "title": "Bangladesh Ordnance Factories - BOF | Powered By Teletalk",
+        "url": "https://bof.teletalk.com.bd/"
+      },
+      {
+        "title": "প্রতিরক্ষা খাতের আধুনিকায়ন ও সক্ষমতা বৃদ্ধি নিয়ে সংসদীয় কমিটির বৈঠক - Jugantor",
+        "url": "https://www.jugantor.com/national/1176372"
+      }
+    ]
+  }
+}

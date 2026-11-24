@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "created": "2026-11-23",
+    "dataset": "output/bd/2026-11-23",
+    "total_targets_before": 147,
+    "total_targets_after": 141,
+    "pruned_count": 6,
+    "note": "裁剪为 P3 派发范围的提案：骨架文件保留在 orgs/ 不删除，仅 P3 不派发。如用户调整提案，改动本文件即可。"
+  },
+  "criteria": {
+    "C1": "未运作/拟设立实体——无现任负责人、无实际业务可收集",
+    "C3": "情报价值极低——体育/娱乐等非政治、经济、安全领域",
+    "C4": "边缘性 micro 实体——长期无议席、无内阁职位、全国影响力微弱"
+  },
+  "pruned": [
+    {
+      "org_id": "BD-GOV-005",
+      "name": "Senate of Bangladesh",
+      "criterion": "C1",
+      "reason": "2026 年宪改后拟设立的上议院，尚未运作：无现任议员、无办公室、无实际立法活动，P3 无可丰富的实质内容。P1 阶段已标 partial 待人工确认。若未来正式运作可回补。"
+    },
+    {
+      "org_id": "BD-PARTY-007",
+      "name": "Jatiya Samajtantrik Dal (JSD)",
+      "criterion": "C4",
+      "reason": "1972 年成立的老牌社会主义政党，但历经多次分裂，现为极边缘 micro 党：2026 年政局中无内阁职位、无全国性影响力。"
+    },
+    {
+      "org_id": "BD-PARTY-010",
+      "name": "Gano Forum",
+      "criterion": "C4",
+      "reason": "Kamal Hossain 1992 年创立，2018 年大联盟瓦解后持续边缘化，无议席、无内阁职位，创党人年事已高（1927 年生），政党实际活动能力弱。"
+    },
+    {
+      "org_id": "BD-PARTY-011",
+      "name": "Bikalpa Dhara Bangladesh",
+      "criterion": "C4",
+      "reason": "前总统 BNP 系 Badrudoza Chowdhury 2004 年出走创立，长期处于政坛边缘，无议席、无内阁职位、无显著政治活动。"
+    },
+    {
+      "org_id": "BD-PARTY-012",
+      "name": "Liberal Democratic Party (LDP)",
+      "criterion": "C4",
+      "reason": "Oli Ahmed 2006 年创立的 micro 党，长期无议席、无内阁职位。注：其领袖 Oli Ahmed 已注册 person 条目（BD-PERSON-000013），人物档案保留不受影响。"
+    },
+    {
+      "org_id": "BD-INTL-005",
+      "name": "South Asian Football Federation (SAFF)",
+      "criterion": "C3",
+      "reason": "南亚足球管理机构（体育组织），属体育竞技领域，与本数据集的政治/经济/安全情报目标无关。HQ 达卡的事实已在 P1 核实，无需 P3 深度画像。"
+    }
+  ],
+  "borderline_kept": [
+    {
+      "org_id": "BD-PARTY-006",
+      "name": "Communist Party of Bangladesh",
+      "note": "传统左翼，有工会/学生组织网络与街头动员传统，历史意义保留"
+    },
+    {
+      "org_id": "BD-PARTY-008",
+      "name": "Workers Party of Bangladesh",
+      "note": "传统左翼代表性政党，曾有议席（Rashed Khan Menon），保留"
+    },
+    {
+      "org_id": "BD-PARTY-005",
+      "name": "Jatiya Party (Ershad)",
+      "note": "前总统艾尔沙德创党、曾长期执政，历史与现政治生态均有意义，保留（Ershad 人物条目已注册 BD-PERSON-000012）"
+    },
+    {
+      "org_id": "BD-PARTY-009",
+      "name": "Islami Andolan Bangladesh",
+      "note": "有群众基础的伊斯兰政党，宗教政治生态代表性，保留"
+    },
+    {
+      "org_id": "BD-PARTY-013",
+      "name": "Parbatya Chattagram Jana Sanghati Samiti",
+      "note": "吉大港山区原住民唯一地区性政党（山区和平协议相关方），地区独特性价值，保留"
+    },
+    {
+      "org_id": "BD-INTL-003",
+      "name": "International Jute Study Group",
+      "note": "黄麻为孟加拉支柱出口，政府间商品机构 HQ 达卡，价值中等但成本低，保留"
+    }
+  ]
+}
