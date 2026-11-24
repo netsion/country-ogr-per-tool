@@ -13,14 +13,123 @@
   "birth_place": null,
   "contacts": [],
   "current_positions": [
-    "立法委员"
+    "中國國民黨新北市黨部主任委員"
   ],
-  "education": [],
-  "work_experience": [],
+  "education": [
+    {
+      "institution": "中國文化大學",
+      "degree": "bachelor",
+      "field": "體育系國術組",
+      "start_date": null,
+      "end_date": "1999"
+    },
+    {
+      "institution": "中國文化大學",
+      "degree": "master",
+      "field": "運動教練",
+      "start_date": null,
+      "end_date": null
+    },
+    {
+      "institution": "國立體育大學",
+      "degree": "doctorate",
+      "field": null,
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "work_experience": [
+    {
+      "organization": "中華臺北奧運代表團",
+      "position": "跆拳道選手",
+      "start_date": "2000",
+      "end_date": "2004",
+      "org_id": null
+    },
+    {
+      "organization": "立法院",
+      "position": "第六屆全國不分區立法委員",
+      "start_date": "2005",
+      "end_date": "2008",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "organization": "立法院",
+      "position": "第七屆區域立法委員",
+      "start_date": "2008",
+      "end_date": "2012",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "organization": "立法院",
+      "position": "第八屆區域立法委員",
+      "start_date": "2012",
+      "end_date": "2016",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "organization": "中國國民黨立法院黨團",
+      "position": "副書記長",
+      "start_date": null,
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "新北市政府",
+      "position": "顧問",
+      "start_date": null,
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "中華民國體育總會",
+      "position": "副會長",
+      "start_date": null,
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "中國國民黨",
+      "position": "新北市黨部主任委員",
+      "start_date": null,
+      "end_date": null,
+      "org_id": "TW-PARTY-013"
+    }
+  ],
   "person_relationships": [],
   "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "political_stances": [
+    {
+      "date": "2012-05-26",
+      "topic": "體育資源與選手權益",
+      "stance_content": "主張透過立法工作為國內運動選手爭取經費、資源與福利，協助改善體育及教育環境。",
+      "source": "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=12350&pid=157864"
+    },
+    {
+      "date": "2026-08-18",
+      "topic": "地方選舉跨黨協作",
+      "stance_content": "表示雙北輔選以市長選戰為主，主張維持與民眾黨合作並爭取不同政黨及無黨籍選民。",
+      "source": "https://udn.com/news/story/124652/9699027"
+    },
+    {
+      "date": "2026-11-19",
+      "topic": "地方黨部輔選",
+      "stance_content": "宣布新北黨部在四個市議員選區採聯合配票，表示安排供選民參考、無強制性。",
+      "source": "https://udn.com/news/story/124652/9888826"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2000",
+      "achievement": "雪梨奧運跆拳道銅牌。",
+      "organization": "中華臺北奧運代表團"
+    },
+    {
+      "date": "2004",
+      "achievement": "雅典奧運跆拳道銀牌。",
+      "organization": "中華臺北奧運代表團"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "facebook",
@@ -33,24 +142,41 @@
       "nickname": "黃志雄"
     }
   ],
-  "biography_summary": "台灣跆拳道選手、政治人物",
+  "biography_summary": "黃志雄由跆拳道競技轉入公共事務與政黨工作。他在中國文化大學體育系國術組及運動教練研究所就讀，之後完成國立體育大學博士班。競技生涯中先於2000年雪梨奧運獲得男子跆拳道銅牌，再於2004年雅典奧運獲得銀牌。退役後獲政黨推薦進入立法院，先任第六屆不分區立法委員，再任第七、八屆區域立法委員。他在受訪時將運動選手待遇、訓練與比賽資源列為從政關切。其後曾任新北市府顧問，並參與體育組織事務。2026年以中國國民黨新北市黨部主任委員身分對外說明地方選舉協作，11月19日公開說明黨部的市議員聯合輔選安排。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/2007NewYearHopeWalking-CHHuang.jpg/250px-2007NewYearHopeWalking-CHHuang.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000085.jpg",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000085.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-23",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata"
+      "news_search",
+      "official_website"
     ],
-    "completeness_score": 55,
-    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "completeness_score": 65,
+    "notes": "現職及近期活動核至2026-11-19。獎牌為體育成就，立法實施成果的個人角色未核。既有Facebook及原身份欄位保留；社交表繁簡姓名無匹配。公開家庭待核。 主会话已逐条核对并补齐部分既有组织画像链接；其余未知引用保持空值。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q710060"
+        "title": "聯合報11月19日黨務發言",
+        "url": "https://udn.com/news/story/124652/9888826"
+      },
+      {
+        "title": "聯合報8月18日輔選報導",
+        "url": "https://udn.com/news/story/124652/9699027"
+      },
+      {
+        "title": "立法院轉載中央社本人訪談",
+        "url": "https://www.ly.gov.tw/EngPages/Detail.aspx?nodeid=12350&pid=157864"
+      },
+      {
+        "title": "中國文化大學校友學經歷",
+        "url": "https://futurestudent.pccu.edu.tw/p/405-1312-138488,c19332.php?Lang=zh-tw"
+      },
+      {
+        "title": "中選會第十屆選舉公報",
+        "url": "https://bulletin.cec.gov.tw/01選舉公報/02立法委員/109年第10屆/02區域立法委員/03新北市/第5選區.pdf"
       }
     ]
   }

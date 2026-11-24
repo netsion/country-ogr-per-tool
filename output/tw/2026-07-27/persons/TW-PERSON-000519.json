@@ -4,42 +4,131 @@
   "name": "吴荣元",
   "name_en": "Wu Rongyuan",
   "name_zh": "吴荣元",
-  "biography_summary": "吳榮元（1949年—），臺灣左翼政治人物。1949年，生於台南，現為勞動黨主席。1972年，就讀国立成功大学時，接觸到《資本論》等馬克思主義經典，遂與同學數人秘密籌組成功大學共產黨，並自製五星紅旗、印刷《共產黨宣言》；事發之後，先後被判死刑與無期徒刑，1975年因蔣介石逝世遇特赦減刑。1986年出獄，投身臺灣勞工運動持續至今。曾任勞動人權協會第二任會長、勞動黨主席、台灣地區政治受難人互助會總會長、兩岸和平發展論壇召集人。\n",
+  "biography_summary": "吳榮元生於1949年，是臺灣勞工運動及勞動黨政治人物。就讀國立成功大學交通管理相關科系時，因戒嚴時期的成大共產黨案遭逮捕，學業中斷。國家人權記憶庫及成大資料記載，他原被判死刑，後改判無期徒刑。1986年獲釋後投入勞工與社會運動，曾任勞動人權協會會長，並參與籌組兩岸和平發展論壇。成大於2017年2月補發畢業證書，他在返校儀式上談到歷史與社會正義。司法院2023年變更登記公告載明其為勞動黨法人負責人，2026年9月1日以黨主席身分到高雄為黨提名的劉仙娥助選，談及勞工代表性與女性參與地方政治。",
   "current_positions": [
-    "主席"
+    "勞動黨主席"
   ],
-  "birth_date": "1949-00-00",
+  "birth_date": null,
   "death_date": null,
   "nationality": "TW",
   "country_iso3": "TWN",
-  "person_relationships": [],
-  "education": [],
-  "work_experience": [],
-  "political_stances": [],
+  "person_relationships": [
+    {
+      "person_id": null,
+      "person_name": "劉仙娥",
+      "relationship_type": "associate",
+      "description": "2026年9月1日以黨主席身分到高雄市議員參選登記現場公開支持劉仙娥，限此選務關係。"
+    }
+  ],
+  "education": [
+    {
+      "institution": "國立成功大學",
+      "degree": "bachelor",
+      "field": "交通管理（學業中斷，2017年2月補發畢業證書）",
+      "start_date": null,
+      "end_date": null
+    }
+  ],
+  "work_experience": [
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "勞動人權協會",
+      "position": "第二任會長（歷任）",
+      "org_id": null
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "臺灣地區政治受難人互助會",
+      "position": "總會長（歷任）",
+      "org_id": null
+    },
+    {
+      "start_date": "2010-03-27",
+      "end_date": null,
+      "organization": "兩岸和平發展論壇",
+      "position": "召集人（歷任）",
+      "org_id": null
+    },
+    {
+      "start_date": null,
+      "end_date": null,
+      "organization": "勞動黨",
+      "position": "主席（2023年變更登記公告載為法人負責人）",
+      "org_id": "TW-PARTY-019"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2026-09-01",
+      "topic": "地方議會代表性",
+      "stance_content": "肯定工運人士參與地方選舉，指出高雄勞工代表性，以及女性參政與長照、托育和女性就業議題的重要性。",
+      "source": "https://www.crntt.tw/doc/docDetailCreate.jsp?coluid=192&docid=160263414&kindid=0"
+    },
+    {
+      "date": "2026-07-15",
+      "topic": "兩岸關係",
+      "stance_content": "在解嚴紀念座談總結時倡議兩岸和解，並認為臺灣民主化仍有未完成的工作。",
+      "source": "https://www.i-media.tw/Article/Detail/48369"
+    },
+    {
+      "date": "2017-02-23",
+      "topic": "歷史正義及青年參與",
+      "stance_content": "在成大補發畢業證書活動中主張社會應面對歷史正義與社會分配正義，並讓青年表達觀點及參與公共事務。",
+      "source": "https://web.ncku.edu.tw/p/404-1000-163622.php?Lang=zh-tw"
+    }
+  ],
   "family_members": [],
-  "major_achievements": [],
+  "major_achievements": [
+    {
+      "date": "2010-03-27",
+      "organization": "兩岸和平發展論壇",
+      "achievement": "據本人專訪，與多個團體共同成立論壇並與紀欣出任召集人。這是集體組織成果。"
+    }
+  ],
   "social_accounts": [],
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-23",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata",
-      "wikipedia"
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 65,
-    "notes": "Auto-created for TW-PARTY-019；仅Schema规范化，旧phase=P4；仍为未研究骨架，不代表深采完成。",
+    "completeness_score": 53,
+    "notes": "原生日只有1949年，日月未核留空。活動核至2026-09-01；司法公告與內政公報支持法人負責人身分，現場報導稱主席。論壇成立依本人專訪，第二項可核實成果不足。工作表檢索繁簡姓名未命中；網路來源不足以確認個人帳號與公開具名家屬。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q19825529"
+        "title": "劉仙娥登記現場及吳榮元發言",
+        "url": "https://www.crntt.tw/doc/docDetailCreate.jsp?coluid=192&docid=160263414&kindid=0"
       },
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://zh.wikipedia.org/wiki/吳榮元"
+        "title": "司法院法人變更公告",
+        "url": "https://www.judicial.gov.tw/tw/cp-144-906067-33ef6-1.html"
+      },
+      {
+        "title": "行政院政黨財務申報公報",
+        "url": "https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg031155/ch02/type3/gov10/num1/images/Eg01.pdf"
+      },
+      {
+        "title": "本人訪談與歷任經歷",
+        "url": "https://observer-taipei.com/book2021/item/2242"
+      },
+      {
+        "title": "成大頒證與本人發言",
+        "url": "https://web.ncku.edu.tw/p/404-1000-163622.php?Lang=zh-tw"
+      },
+      {
+        "title": "國家人權記憶庫人物資料",
+        "url": "https://memory.nhrm.gov.tw/TopicExploration/Person/Detail/842"
+      },
+      {
+        "title": "解嚴紀念座談",
+        "url": "https://www.i-media.tw/Article/Detail/48369"
       }
     ]
   },
-  "gender": "unknown",
+  "gender": "male",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Wu_Jung-yuan_talking_on_the_stage%2C_Chen_Shin-yuan_and_Luo_Mei-wen_standing_20211212b.jpg/250px-Wu_Jung-yuan_talking_on_the_stage%2C_Chen_Shin-yuan_and_Luo_Mei-wen_standing_20211212b.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000519.jpg",

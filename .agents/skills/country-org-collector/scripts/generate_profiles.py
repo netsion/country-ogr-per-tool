@@ -146,6 +146,7 @@ ISO2_TO_ISO3 = {
     "TG": "TGO", "BJ": "BEN", "NE": "NER", "ML": "MLI",
     "KW": "KWT", "KZ": "KAZ", "LA": "LAO", "LY": "LBY", "MA": "MAR",
     "IQ": "IRQ", "SY": "SYR", "PK": "PAK", "AF": "AFG",
+    "BD": "BGD", "LK": "LKA", "NP": "NPL", "BT": "BTN", "MV": "MDV",
     "MO": "MAC", "OM": "OMN", "QA": "QAT", "TJ": "TJK", "TM": "TKM",
     "UZ": "UZB", "TN": "TUN", "DZ": "DZA", "TR": "TUR",
     "TD": "TCD", "NE": "NER", "ML": "MLI", "MR": "MRT", "SD": "SDN",
@@ -525,7 +526,7 @@ def resolve_key_people(orgs_dir, registry_data, cache_dir, country_iso):
 
     # Save registry
     registry_data["person_registry"] = person_registry
-    registry_data["person_counters"][country_iso] = person_counter
+    registry_data.setdefault("person_counters", {})[country_iso] = person_counter
     return registry_data
 
 

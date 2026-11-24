@@ -12,16 +12,80 @@
   "birth_date": "1975-05-27",
   "birth_place": null,
   "contacts": [],
-  "current_positions": [
-    "市长 Hsinchu",
-    "成员 of Hsinchu City Council"
+  "current_positions": [],
+  "education": [
+    {
+      "institution": "中華大學",
+      "degree": "bachelor",
+      "field": "企業管理",
+      "start_date": null,
+      "end_date": "2003"
+    }
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [],
+  "work_experience": [
+    {
+      "organization": "立法委員柯建銘辦公室",
+      "position": "助理",
+      "start_date": null,
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "新竹市議會",
+      "position": "第8屆市議員",
+      "start_date": "2010",
+      "end_date": "2014",
+      "org_id": null
+    },
+    {
+      "organization": "新竹市政府",
+      "position": "市長",
+      "start_date": "2014-12-25",
+      "end_date": "2022-07-08",
+      "org_id": null
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": null,
+      "person_name": "柯建銘",
+      "relationship_type": "superior",
+      "description": "林智堅曾任柯建銘的立法委員助理。新竹市衛生局2022年4月9日的揭牌紀錄另載，柯協調國防部變更兒童醫院用地，林任市長時推動兒醫計畫。"
+    }
+  ],
   "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "political_stances": [
+    {
+      "date": "2019-12-27",
+      "topic": "動物園改造與動物照護",
+      "stance_content": "新竹動物園改造期間主張優先考慮動物需求，讓市府、設計與施工團隊協調，改善動物活動空間。",
+      "source": "https://www.cna.com.tw/news/firstnews/201912270155.aspx"
+    },
+    {
+      "date": "2022-04-09",
+      "topic": "區域兒童醫療",
+      "stance_content": "推動市府與馬偕合作設置兒童醫院，主張加強桃竹竹苗地區兒童醫療量能。",
+      "source": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202204090001&id=5&mcustomize=municipalnews_view.jsp&mserno=201601300128&parentpath=&t=MunicipalNews&toolsflag=Y"
+    },
+    {
+      "date": "2026-11-14",
+      "topic": "水岸公共空間與府際合作",
+      "stance_content": "回顧微笑水岸並倡議結合中央支持、地方資源與專業人員，讓市民更容易親近海岸並延續市政建設。",
+      "source": "https://udn.com/vote2026/story/124652/9878977"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2019-12-28",
+      "achievement": "新竹市府與設計施工團隊推動市立動物園改造並重新開園。林智堅將改造列為選舉政見，就任後帶團隊向中央爭取經費。",
+      "organization": "新竹市政府"
+    },
+    {
+      "date": "2022-10-31",
+      "achievement": "新竹市立馬偕兒童醫院舉行營運典禮。林智堅任內推動BOT合作、工程及揭牌，正式開幕在其卸任以後，為地方政府與醫療團隊共同成果。",
+      "organization": "新竹市政府與馬偕醫療團隊"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "instagram",
@@ -54,24 +118,55 @@
       "nickname": "林智堅"
     }
   ],
-  "biography_summary": "臺灣政治人物",
+  "biography_summary": "林智堅是民主進步黨籍政治人物，在新竹香山南港里成長。其早年在中華大學修習企業管理，曾任立法委員柯建銘助理，2009年當選新竹市議員，2014年當選新竹市長，2018年連任。任內市府把兒童友善城市、水岸空間與老城公共建設列入施政，推動新竹市立動物園改造，以及與馬偕團隊合作設置兒童醫院。2022年7月卸下市長職務後投入桃園市長選舉，8月宣布退選。臺灣大學及中華大學先後撤銷其碩士學位，他於2023年表示已撤回針對臺大的訴願。2026年11月14日，與蔡英文在新竹為莊競程站台，並公開回顧微笑水岸及中央地方合作經驗。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/%E6%9E%97%E6%99%BA%E5%A0%8520160210.JPG/250px-%E6%9E%97%E6%99%BA%E5%A0%8520160210.JPG",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000168.jpg",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000168.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-21",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata"
+      "wikidata",
+      "news_search",
+      "official_website",
+      "wikipedia"
     ],
-    "completeness_score": 55,
-    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "completeness_score": 60,
+    "notes": "活動核至2026-11-14。正式現職與配偶姓名缺可核來源，暫空。兩碩士學位已撤銷，學歷欄記錄學士。學士細節與卸任日採履歷二級來源。保留原社交帳號，社交資料表未命中繁簡姓名及既有Facebook帳號名，報導提及Threads發文但未取得可確認帳號網址。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q8347529"
+        "title": "聯合報：林智堅出席新竹輔選活動",
+        "url": "https://udn.com/vote2026/story/124652/9878977"
+      },
+      {
+        "title": "中央社：林智堅連任與早期政治履歷",
+        "url": "https://www.cna.com.tw/news/firstnews/201811240192.aspx"
+      },
+      {
+        "title": "中央社：新竹動物園再生",
+        "url": "https://www.cna.com.tw/news/firstnews/201912270155.aspx"
+      },
+      {
+        "title": "中央社：新竹市立馬偕兒童醫院開幕",
+        "url": "https://www.cna.com.tw/news/aipl/202210310109.aspx"
+      },
+      {
+        "title": "新竹市衛生局：馬偕兒醫揭牌及BOT歷程",
+        "url": "https://dep.hcchb.gov.tw/ch/home.jsp?dataserno=202204090001&id=5&mcustomize=municipalnews_view.jsp&mserno=201601300128&parentpath=&t=MunicipalNews&toolsflag=Y"
+      },
+      {
+        "title": "公視：中華大學撤銷學位",
+        "url": "https://news.pts.org.tw/article/596599"
+      },
+      {
+        "title": "公視：林智堅撤回臺大學位訴願",
+        "url": "https://news.pts.org.tw/article/622876"
+      },
+      {
+        "title": "林智堅：學歷及任期資料",
+        "url": "https://zh.wikipedia.org/wiki/林智堅"
       }
     ]
   }

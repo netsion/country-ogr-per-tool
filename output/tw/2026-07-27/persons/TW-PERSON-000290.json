@@ -12,15 +12,87 @@
   "birth_date": "1947-02-24",
   "birth_place": null,
   "contacts": [],
-  "current_positions": [
-    "创始人"
+  "current_positions": [],
+  "education": [
+    {
+      "institution": "國立臺灣大學",
+      "degree": "bachelor",
+      "field": "電機工程",
+      "start_date": null,
+      "end_date": "1969"
+    },
+    {
+      "institution": "國立交通大學",
+      "degree": "master",
+      "field": "管理",
+      "start_date": null,
+      "end_date": "1972"
+    }
   ],
-  "education": [],
-  "work_experience": [],
+  "work_experience": [
+    {
+      "organization": "工業技術研究院",
+      "position": "電子工業研究所副所長",
+      "start_date": null,
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "聯華電子",
+      "position": "總經理",
+      "start_date": "1982-01",
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "聯華電子",
+      "position": "董事長",
+      "start_date": "1991",
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "公民罷免行動",
+      "position": "2025年罷免案領銜人之一",
+      "start_date": "2025",
+      "end_date": "2025",
+      "org_id": null
+    }
+  ],
   "person_relationships": [],
   "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "political_stances": [
+    {
+      "date": "2026-07-09",
+      "topic": "反對跨境暴力",
+      "stance_content": "在信民協會記者會聲援矢板明夫，公開譴責以暴力進行恐嚇。",
+      "source": "https://www.cna.com.tw/news/acn/202607090105.aspx"
+    },
+    {
+      "date": "2025-07-26",
+      "topic": "公民主權與罷免",
+      "stance_content": "於開票之夜說明其參與罷免的動機，提出政府權力來自人民授權、主權在民。",
+      "source": "https://www.cna.com.tw/news/aipl/202507260165.aspx"
+    },
+    {
+      "date": "2022-08-05",
+      "topic": "全民國防教育",
+      "stance_content": "公開主張透過教育和資訊識讀提升社會對外部威脅的認識。",
+      "source": "https://news.pts.org.tw/article/593674"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2000",
+      "organization": "聯華電子",
+      "achievement": "臺大校友刊物記載聯電在其任董事長期間於美國完成掛牌，屬公司團隊成果。"
+    },
+    {
+      "date": "2020-12-07",
+      "organization": "新竹科學園區管理局",
+      "achievement": "獲列竹科四十周年傑出成就貢獻獎得主，管理局肯定其由工研院轉往聯電主持業務及投入高科技產業發展的貢獻；日期為中央社報導日。"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "instagram",
@@ -62,24 +134,49 @@
       "username": "babujushi"
     }
   ],
-  "biography_summary": "聯電創辦人",
+  "biography_summary": "曹興誠是台灣半導體產業人士，台大電機系畢業後取得交通大學管理研究所碩士。曾在工研院電子工業研究所任副所長，後轉入聯華電子，於1982年任總經理、1991年任董事長。台大電機系校友資料記載他在1980年代提出晶圓代工構想。近年亦參與公共倡議，2022年公開倡議全民國防教育，2025年擔任立委罷免案領銜人之一，並在首波罷免案開票之夜公開說明其政治主張。2026年7月9日，他出席信民協會公開記者會並發言。聯合報報導他當時表示沒有幫忙輔選，未確認出任競選團隊職務。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/%E6%9B%B9%E8%88%88%E8%AA%A0%E9%A1%A7%E5%95%8F.jpg/250px-%E6%9B%B9%E8%88%88%E8%AA%A0%E9%A1%A7%E5%95%8F.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000290.jpg",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000290.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-23",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata"
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 40,
-    "notes": "via SPARQL；仅Schema规范化，旧phase=P4c_sparql；仍为未研究骨架，不代表深采完成。",
+    "completeness_score": 67,
+    "notes": "7月9日活動正文由中央社及聯合報交叉；既有四條社交保存，平台現況未獨立驗證。未找到可確認當期職務或可歸因家庭與具體長期合作證據。原生日未另確認，沿用基線。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q8926583"
+        "title": "信民協會活動與本人發言",
+        "url": "https://www.cna.com.tw/news/acn/202607090105.aspx"
+      },
+      {
+        "title": "現場出席及未助選說明",
+        "url": "https://udn.com/news/amp/story/124652/9617264"
+      },
+      {
+        "title": "臺大電機系校友訪談",
+        "url": "https://alumni.ee.ntu.edu.tw/?p=246"
+      },
+      {
+        "title": "臺大校友雙月刊",
+        "url": "https://ntualumnibm.ntu.edu.tw/bm.download/download.file/sn/1398/file_id/download_file/key/202405170934596646b443ede81/preview/0"
+      },
+      {
+        "title": "罷免開票之夜本人發言",
+        "url": "https://www.cna.com.tw/news/aipl/202507260165.aspx"
+      },
+      {
+        "title": "竹科貢獻獎",
+        "url": "https://www.cna.com.tw/news/afe/202012070109.aspx"
+      },
+      {
+        "title": "公視國防教育主張",
+        "url": "https://news.pts.org.tw/article/593674"
       }
     ]
   }

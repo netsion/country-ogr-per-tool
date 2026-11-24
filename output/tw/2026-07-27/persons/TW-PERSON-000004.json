@@ -10,21 +10,102 @@
   "nationality": "TW",
   "gender": "male",
   "birth_date": "1950-10-12",
-  "birth_place": null,
+  "birth_place": "臺南縣官田鄉",
   "contacts": [],
-  "current_positions": [
-    "立法委员",
-    "台北市长",
-    "中华民国总统",
-    "民主进步党主席",
-    "台北市议员"
+  "current_positions": [],
+  "education": [
+    {
+      "institution": "國立臺灣大學",
+      "degree": "bachelor",
+      "field": "法律",
+      "start_date": null,
+      "end_date": null
+    }
   ],
-  "education": [],
-  "work_experience": [],
-  "person_relationships": [],
-  "family_members": [],
-  "political_stances": [],
-  "major_achievements": [],
+  "work_experience": [
+    {
+      "organization": "臺北市議會",
+      "position": "市議員",
+      "start_date": "1981",
+      "end_date": null,
+      "org_id": null
+    },
+    {
+      "organization": "立法院",
+      "position": "第一屆增額及第二屆立法委員",
+      "start_date": "1989",
+      "end_date": "1994",
+      "org_id": "TW-GOV-020"
+    },
+    {
+      "organization": "臺北市政府",
+      "position": "市長",
+      "start_date": "1994",
+      "end_date": "1998",
+      "org_id": "TW-GOV-026"
+    },
+    {
+      "organization": "總統府",
+      "position": "第十及第十一任總統",
+      "start_date": "2000-05-20",
+      "end_date": "2008-05-20",
+      "org_id": "TW-GOV-023"
+    }
+  ],
+  "person_relationships": [
+    {
+      "person_id": "TW-PERSON-000040",
+      "person_name": "呂秀蓮",
+      "relationship_type": "colleague",
+      "description": "2000與2004年兩次共同搭檔參選，兩人於2000至2008年分任總統、副總統。"
+    }
+  ],
+  "family_members": [
+    {
+      "person_id": "TW-PERSON-000117",
+      "name": "吳淑珍",
+      "relationship": "spouse",
+      "industry_or_organization": "曾任立法委員"
+    },
+    {
+      "person_id": null,
+      "name": "陳致中",
+      "relationship": "son",
+      "industry_or_organization": "曾任高雄市議員"
+    }
+  ],
+  "political_stances": [
+    {
+      "date": "2000-05-20",
+      "topic": "兩岸關係",
+      "stance_content": "就職時以對岸不動武為前提，提出不宣布獨立、不改國號、不將兩國論入憲、不推改變現狀的統獨公投及不廢國統綱領與國統會。",
+      "source": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "date": "2002-08-03",
+      "topic": "公民投票",
+      "stance_content": "主張台灣前途應由台灣人民決定，必要時應透過公民投票，並呼籲進行公投立法。",
+      "source": "https://www.president.gov.tw/NEWS/11614"
+    },
+    {
+      "date": "2007",
+      "topic": "憲政與發展",
+      "stance_content": "提出以獨立、正名、新憲及發展為主的政治主張。",
+      "source": "https://www.president.gov.tw/Page/87"
+    }
+  ],
+  "major_achievements": [
+    {
+      "date": "2001",
+      "achievement": "任總統期間由政府團隊推動金門、馬祖小三通，開放特定範圍兩岸往來。",
+      "organization": "行政院"
+    },
+    {
+      "date": "2003",
+      "achievement": "立法院通過公民投票法後由陳水扁公布，建立全國性公投法制；2004年舉行首次全國性公投。立法、公布及辦理由各權責機關共同完成。",
+      "organization": "總統府"
+    }
+  ],
   "social_accounts": [
     {
       "platform": "instagram",
@@ -56,24 +137,45 @@
       "username": "chenshuibian88"
     }
   ],
-  "biography_summary": "中華民國第10、11任總統・前民主進步黨黨主席、經濟犯",
+  "biography_summary": "陳水扁出身臺南官田，畢業於國立臺灣大學法律系。1981年當選臺北市議員，1987年加入民主進步黨，後當選立法委員，曾參與刑法第一百條及國防體制相關修法。1994年當選臺北市長，市府任內推動便民服務及捷運工程。2000年與呂秀蓮搭檔當選總統、副總統，促成首次政黨輪替，2004年連任並於2008年卸任。任內政府推動兩岸小三通，並在國會通過公民投票法後予以公布。其兩岸主張曾於2000年就職演說及2002年世界台灣同鄉會活動公開表述。2026年10月10日以卸任總統身分出席國慶大會，據中央社現場報導曾與黃國昌握手交談。",
   "profile": {
     "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Chen_Shui_Bian_MOD.jpg/250px-Chen_Shui_Bian_MOD.jpg",
     "local_path": "minio-store/default/popular-person-profile/tw/TW-PERSON-000004.jpg",
     "minio_path": "default/popular-person-profile/tw/TW-PERSON-000004.jpg"
   },
   "collection_meta": {
-    "collection_date": "2026-07-28",
+    "collection_date": "2026-11-20",
     "phase": "phase4_person_profile",
     "data_sources": [
-      "wikidata"
+      "official_website",
+      "news_search"
     ],
-    "completeness_score": 55,
-    "notes": "lite profile via name search；仅Schema规范化，旧phase=P4_lite；仍为未研究骨架，不代表深采完成。",
+    "completeness_score": 68,
+    "notes": "近況核至2026-10-10國慶現場報導。出生月日延用原檔，總統府履歷支持年份及籍貫。家庭僅收已報導公開關係。既有平台資料原樣保留。 社交表2026-03-16第185、291、579行所列Threads、Instagram、Facebook均与既有账号及USER-ID相合；Facebook PAGE-ID另有独立值，未混入USER-ID。 主会话已逐条核对并补齐部分既有组织画像链接；其余未知引用保持空值。",
     "quotes": [
       {
-        "title": "历史来源链接（本次未重新读取）",
-        "url": "https://www.wikidata.org/wiki/Q22368"
+        "title": "總統府歷任總統履歷",
+        "url": "https://www.president.gov.tw/Page/87"
+      },
+      {
+        "title": "中央社國慶大會現場報導",
+        "url": "https://www.cna.com.tw/news/aipl/202610100100.aspx"
+      },
+      {
+        "title": "央廣國慶典禮專頁",
+        "url": "https://doubleten2026.rti.org.tw/ceremony/"
+      },
+      {
+        "title": "中央社本人與配偶專訪",
+        "url": "https://www.cna.com.tw/news/aipl/202305140139.aspx"
+      },
+      {
+        "title": "總統府世界台灣同鄉會視訊談話",
+        "url": "https://www.president.gov.tw/NEWS/11614"
+      },
+      {
+        "title": "總統府歷任總統政策摘要",
+        "url": "https://www.president.gov.tw/qrcode/16c"
       }
     ]
   }
