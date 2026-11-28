@@ -35,6 +35,12 @@ DEAD_STATUS = {"trimmed", "merged", "removed", "duplicate", "excluded",
                "deprecated_broken_id", "archived", "pruned"}
 
 
+def _is_dead(entry):
+    """Merged/tombstoned entries must never enter the index (incl. merged_into_<ID>)."""
+    status = str(entry.get("status") or "")
+    return status in DEAD_STATUS or status.startswith("merged_into_")
+
+
 def _safe_component(component, target_id):
     """Reject single letters / tiny fragments that poison the index."""
     c = (component or "").strip()
@@ -110,7 +116,7 @@ def build_index(output_dir):
             if entry.get("person_id"):
                 continue
             # 已裁剪/合并/移除的组织不进入索引，防止子代理误引用废弃 ID
-            if entry.get("status") in DEAD_STATUS:
+            if _is_dead(entry):
                 continue
             for name in extract_names_from_registry_entry(entry):
                 name = (name or "").strip()
@@ -122,7 +128,7 @@ def build_index(output_dir):
             if not person_id:
                 continue
             # 已合并/裁剪/移除的人物不进入索引，防止子代理引用已废弃的 ID
-            if entry.get("status") in DEAD_STATUS:
+            if _is_dead(entry):
                 continue
             for name in extract_names_from_registry_entry(entry):
                 name = (name or "").strip()

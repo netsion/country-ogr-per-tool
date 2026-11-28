@@ -1302,6 +1302,12 @@
       "org_type": "INTL",
       "status": "excluded",
       "note": "excluded from P3 collection scope (user decision); ID reserved for cross-refs"
+    },
+    {
+      "org_id": "MM-PARTY-012",
+      "name": "Kachin State People's Party",
+      "org_type": "PARTY",
+      "status": "profiled"
     }
   ],
   "counters": {
@@ -1313,7 +1319,7 @@
       "MEDIA": 14,
       "MIL": 9,
       "NGO": 10,
-      "PARTY": 11,
+      "PARTY": 12,
       "SOE": 8
     },
     "MM-ACAD": 10,
@@ -1335,10 +1341,15 @@
       "status": "listed",
       "source_orgs": [
         "MM-GOV-001",
+        "MM-GOV-002",
         "MM-GOV-003",
         "MM-GOV-005",
         "MM-GOV-045",
-        "MM-MIL-001"
+        "MM-MIL-001",
+        "MM-MIL-003",
+        "MM-MIL-006",
+        "MM-MIL-008",
+        "MM-PARTY-001"
       ]
     },
     {
@@ -1528,7 +1539,9 @@
         "MM-GOV-002",
         "MM-GOV-028",
         "MM-GOV-044",
-        "MM-GOV-045"
+        "MM-GOV-045",
+        "MM-MIL-002",
+        "MM-MIL-006"
       ]
     },
     {
@@ -1567,7 +1580,9 @@
       "wikidata_qid": null,
       "status": "listed",
       "source_orgs": [
-        "MM-GOV-001"
+        "MM-GOV-001",
+        "MM-MEDIA-002",
+        "MM-MEDIA-008"
       ]
     },
     {
@@ -1705,7 +1720,7 @@
       "person_id": "MM-PERSON-000035",
       "name": "敏昂莱 (မင်းအောင်လှိုင်း)",
       "wikidata_qid": null,
-      "status": "listed",
+      "status": "merged_into_MM-PERSON-000001",
       "source_orgs": [
         "MM-GOV-002",
         "MM-MIL-003",
@@ -1889,7 +1904,7 @@
       "person_id": "MM-PERSON-000149",
       "name": "亨林(ထိန်းလင်း / Htein Lin)",
       "wikidata_qid": null,
-      "status": "listed",
+      "status": "merged_into_MM-PERSON-000021",
       "source_orgs": [
         "MM-MEDIA-002",
         "MM-MEDIA-008"
@@ -2017,7 +2032,7 @@
       "person_id": "MM-PERSON-000357",
       "name": "梭温 (စိုးဝင်း / Soe Win)",
       "wikidata_qid": null,
-      "status": "listed",
+      "status": "merged_into_MM-PERSON-000017",
       "source_orgs": [
         "MM-MIL-002",
         "MM-MIL-006"
@@ -2129,7 +2144,8 @@
       "person_id": "MM-PERSON-000436",
       "name_en": "钦貌伦 (ခင်မောင်လွင် / Khin Maung Lwin)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000391"
     },
     {
       "person_id": "MM-PERSON-000437",
@@ -2303,7 +2319,8 @@
       "person_id": "MM-PERSON-000465",
       "name_en": "吴佐佐 (ဇော်ဇော် / U Zaw Zaw)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000115"
     },
     {
       "person_id": "MM-PERSON-000466",
@@ -2615,7 +2632,8 @@
       "person_id": "MM-PERSON-000517",
       "name_en": "珊达乌 (ဒေါက်တာစန္ဒာဦး)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000201"
     },
     {
       "person_id": "MM-PERSON-000518",
@@ -2729,7 +2747,8 @@
       "person_id": "MM-PERSON-000536",
       "name_en": "杜温温貌 (Daw Win Win Maw)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "source_orgs": []
     },
     {
       "person_id": "MM-PERSON-000537",
@@ -2747,7 +2766,8 @@
       "person_id": "MM-PERSON-000539",
       "name_en": "温温貌（ဒေါ်ဝင်းဝင်းမော် / Daw Win Win Maw）",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000536"
     },
     {
       "person_id": "MM-PERSON-000540",
@@ -2807,7 +2827,8 @@
       "person_id": "MM-PERSON-000549",
       "name_en": "李松枝(အိုက်ထွန်း / Aik Htun)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000221"
     },
     {
       "person_id": "MM-PERSON-000550",
@@ -2945,25 +2966,29 @@
       "person_id": "MM-PERSON-000572",
       "name_en": "郭郭伦 (Dr. Ko Ko Lwin)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000062"
     },
     {
       "person_id": "MM-PERSON-000573",
       "name_en": "昂林兑 (Aung Lin Dwe)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000052"
     },
     {
       "person_id": "MM-PERSON-000574",
       "name_en": "耶温乌 (Ye Win Oo)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000053"
     },
     {
       "person_id": "MM-PERSON-000575",
       "name_en": "貌貌觉 (Maung Maung Kyaw)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000067"
     },
     {
       "person_id": "MM-PERSON-000576",
@@ -2981,7 +3006,8 @@
       "person_id": "MM-PERSON-000578",
       "name_en": "钦依 (ခင်ရီ / Khin Yi)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000058"
     },
     {
       "person_id": "MM-PERSON-000579",
@@ -2993,7 +3019,8 @@
       "person_id": "MM-PERSON-000580",
       "name_en": "昂林兑(အောင်လင်းဒွေး)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000052"
     },
     {
       "person_id": "MM-PERSON-000581",
@@ -3005,7 +3032,8 @@
       "person_id": "MM-PERSON-000582",
       "name_en": "貌貌温(မောင်မောင်အုန်း)",
       "importance_level": "low",
-      "org_ids": []
+      "org_ids": [],
+      "status": "merged_into_MM-PERSON-000059"
     },
     {
       "person_id": "MM-PERSON-000583",
@@ -4578,10 +4606,42 @@
       "name_en": "瑙康 (Naw Hkont)",
       "importance_level": "low",
       "org_ids": []
+    },
+    {
+      "person_id": "MM-PERSON-000845",
+      "name": "梭温 (စိုးဝင်း / Dr. Soe Win)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MM-GOV-001",
+        "MM-GOV-028",
+        "MM-GOV-044"
+      ],
+      "note": "卫生部长（2026-10起），与国管委副主席梭温同名不同人"
+    },
+    {
+      "person_id": "MM-PERSON-000846",
+      "name": "吴哥哥林 (ကိုကိုလွင် / U Ko Ko Lwin)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MM-GOV-008"
+      ],
+      "note": "联邦选举委员会委员，与电力与能源部长郭郭伦同名不同人"
+    },
+    {
+      "person_id": "MM-PERSON-000847",
+      "name": "吴佐佐 (ဦးဇော်ဇော် / U Zaw Zaw)",
+      "wikidata_qid": null,
+      "status": "listed",
+      "source_orgs": [
+        "MM-GOV-014"
+      ],
+      "note": "民航局局长，与企业家吴佐佐同名不同人"
     }
   ],
   "person_counters": {
-    "MM": 421,
-    "MM-PERSON": 844
+    "MM": 847,
+    "MM-PERSON": 847
   }
 }
