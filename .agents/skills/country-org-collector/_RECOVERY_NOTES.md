@@ -79,7 +79,14 @@
   觉林（CB Bank/医学会）、敏图（交易所 COO/内政部副部长）、丹泰（USDP/总参谋长）、
   温敏（最高法院/前总统）、昂基（副部长/NLD 首任主席）、
   郭郭伦（能源/社会福利/选委会）、山达乌（央行副行长/党派主席）等
-- 待人工/联网复核（暂不合并）：杜塔津昂（IGE/银行 CEO）、吴威漂（记者/商会副会长）
+- 联网复核（2026-11-28，3 组均判定 **DIFFERENT / 高置信度**，不合并；结论已写入
+  对应 key_people.description）：
+  - 杜塔津昂：IGE 执行董事（IGE 官方管理层页，无银行/PwC 履历）≠ AYA Bank CEO
+    （@Jasmine，PwC 11.5 年→AYA；2012 年双方任职时间重叠）
+  - 吴威漂：Eleven Media 前总编（2013-2016，2016 被捕）≠ UMFCCI 副会长
+    （Yathar Cho Industry/Yum Yum 董事总经理，1999 年起）
+  - 山达乌：央行副行长 Dr. Sandar Oo（PhD，2015 年在任央行司长）≠ 和平与多样性党
+    主席 Daw Sandar Oo（LL.B 律师、吴奈苗威之姐，2015 年代表 PDP 参选）
 - 工具修正：`generate_name_index.py` 过滤 `merged_into_*` 墓碑条目（此前会
   把已合并 ID 继续写进索引，导致后续 resolve_ids 引用废弃 ID）
 - 人物计数器双键统一：`person_counters.MM` 与 `MM-PERSON` 均 = 847
