@@ -42,6 +42,14 @@
   10 个 INTL 登记 excluded
 - 工具修正：`validate_schema.py` KP_FIELDS 增加 `source`（SKILL §1 铁律要求
   key_people 标注来源，原白名单漏配）
+- 陷阱：`resolve_ids --allow-register` 会顺带回填 `related_entities[].org_id`，
+  其拆词匹配会把泛词组件（`Associates`、`University of Computer Studies`、
+  `University` 等）误配到同词组织，甚至产生自引用。本次回填 23 处，审计后
+  回退 21 处误绑（自引用/泛词），仅保留 MM-PARTY-012 → UEC、SAC 两条正确项。
+  运行该脚本后必须人工复核新增的 org 级引用。
+- 陷阱：`python -I` 会把脚本目录移出 sys.path，导致 `atomic_write` 导入静默
+  失败、名称分解退化为整串比较，`--strict` 名称校验产生大量假报错。运行
+  skill 脚本不要加 `-I`。
 
 ## 待办
 - [ ] MM-PARTY-012（克钦邦人民党）补采 → 补完为 138/138
