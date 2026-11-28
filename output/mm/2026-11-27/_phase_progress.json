@@ -1,8 +1,10 @@
 {
   "phase": "P4_person_enrichment",
   "started_at": "2026-11-28T18:30:00",
-  "last_updated": "2026-11-28T18:30:00",
-  "completed": [],
+  "last_updated": "2026-11-28T18:45:00",
+  "completed": [
+    "MM-PERSON-000001"
+  ],
   "remaining": [
     "MM-PERSON-000001",
     "MM-PERSON-000002",
@@ -201,7 +203,18 @@
     "MM-PERSON-000846",
     "MM-PERSON-000847"
   ],
-  "current": [],
+  "current": [
+    "MM-PERSON-000002",
+    "MM-PERSON-000003",
+    "MM-PERSON-000004",
+    "MM-PERSON-000005",
+    "MM-PERSON-000006",
+    "MM-PERSON-000007",
+    "MM-PERSON-000008",
+    "MM-PERSON-000009",
+    "MM-PERSON-000010",
+    "MM-PERSON-000011"
+  ],
   "failed": [],
   "failed_reason": {},
   "note": "P4 trim list confirmed by user: 196 persons (A 87 + B 109) from 481 linked key_people. Rolling 10-concurrent subagents, one person each. P3 completed 138 orgs archived (see git history). Loop bookkeeping: generate_name_index only; resolve_ids deferred to guarded end-of-P4 step (org related_entities backfill hazard documented in _RECOVERY_NOTES.md). Trim lists persisted at _tmp/p4_dispatch_table.json."
