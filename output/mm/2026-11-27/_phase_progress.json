@@ -1,7 +1,7 @@
 {
   "phase": "P3_org_enrichment",
   "started_at": "2026-11-28T04:00:00",
-  "last_updated": "2026-11-28T16:05:00",
+  "last_updated": "2026-11-28T16:40:00",
   "completed": [
     "MM-ACAD-001",
     "MM-ACAD-002",
@@ -132,6 +132,7 @@
     "MM-PARTY-009",
     "MM-PARTY-010",
     "MM-PARTY-011",
+    "MM-PARTY-012",
     "MM-SOE-001",
     "MM-SOE-002",
     "MM-SOE-003",
@@ -143,12 +144,8 @@
   ],
   "remaining": [],
   "current": [],
-  "failed": [
-    "MM-PARTY-012"
-  ],
-  "failed_reason": {
-    "MM-PARTY-012": "content filter on all attempts; file never written; needs future retry"
-  },
+  "failed": [],
+  "failed_reason": {},
   "low_score_warning": [],
-  "note": "RECOVERED 2026-11-28 after cross-session repo wipe. Source: ZCode db.sqlite agent transcripts (147 scripts extracted, 137 rebuilt via AST + sandbox). Org files recovered: 137/138; missing: [MM-PARTY-012]. Skill scripts fully restored from git remote (9/9 complete). Person attachment re-run 2026-11-28: resolve_ids --allow-register (person_counters now MM=838, person_registry 487 entries), generate_name_index rebuilt (3185 entries). key_people linkage: 595/595 have person_id. MM-GOV-045 added to _target_orgs.json (148 total, 138 MM + 10 INTL excluded). phase markers added for MM-GOV-040 / MM-PARTY-002."
+  "note": "RECOVERED 2026-11-28 after cross-session repo wipe, then completed. 138/138 orgs present (137 rebuilt from agent transcripts + MM-PARTY-012 freshly collected, score 81). resolve_ids re-run: all key_people linked, person_registry 493, name index 3200+. validate_schema --score: 0 errors. MM-GOV-045 added to _target_orgs (148 incl 10 INTL excluded)."
 }
