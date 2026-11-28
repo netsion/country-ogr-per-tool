@@ -1,0 +1,294 @@
+{
+  "org_id": "MM-GOV-038",
+  "basic_info": {
+    "name_original": "လျှပ်စစ်နှင့်စွမ်းအင်ဝန်ကြီးဌာန",
+    "name_zh": "缅甸电力和能源部",
+    "name_en": "Ministry of Electricity and Energy",
+    "aliases": [
+      "Ministry of Electric Power and Energy",
+      "MoEE",
+      "MOEE",
+      "电力与能源部",
+      "缅甸电力与能源部"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "MMR",
+    "hq_country_iso3": "MMR",
+    "founded_date": "2016-03-30",
+    "website": "https://www.moee.gov.mm/",
+    "wikidata_qid": "Q30601775"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "电力与能源部官网域名 (www.moee.gov.mm)",
+      "url": "https://www.moee.gov.mm/",
+      "description": "维基百科信息框及部方材料载明的官方域名；经实测该域名目前以301重定向至 www.moep.gov.mm。",
+      "source": "Wikipedia MOEE (Myanmar) 信息框 + curl 实测重定向"
+    },
+    {
+      "name": "电力与能源部官网 (www.moep.gov.mm)",
+      "url": "https://www.moep.gov.mm/",
+      "description": "当前实际在线的部官方站点（缅文为主），发布「၀န်ကြီးဌာနသတင်း」（部新闻）与文章，页面标注 Ministry Of Electricity And Energy、联系地址内比都。",
+      "source": "curl 实测（moee.gov.mm 重定向落点）+ 搜索索引快照（2026-11-02）"
+    },
+    {
+      "name": "能源板块官网 (energy.gov.mm)",
+      "url": "https://energy.gov.mm/",
+      "description": "拆分时期能源部域名，合并后仍以 Ministry of Electricity and Energy 名义运营，载现任部长名单、愿景使命、历史沿革与联系邮箱 info@energy.gov.mm。",
+      "source": "https://energy.gov.mm/about_us/who_we_are（2026-11 实测）"
+    },
+    {
+      "name": "缅甸国家门户部委页 (myanmar.gov.mm)",
+      "url": "https://myanmar.gov.mm/ministry-of-electric-power-and-energy",
+      "description": "缅甸联邦政府国家门户的电力与能源部（Ministry of Electric Power and Energy）介绍页。",
+      "source": "Google 搜索结果（myanmar.gov.mm 官方门户）"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MM-PERSON-000027",
+      "name": "郭郭伦 (ကိုကိုလွင်)",
+      "name_en": "Ko Ko Lwin",
+      "title": "电力与能源部部长",
+      "title_description": "联邦部长（Union Minister for Electricity and Energy）",
+      "description": "2026-04-10第二届敏昂莱内阁成立（电力部与能源部重新合并为电力与能源部）时出任联邦部长；据能源部官网记载其自2023-08-03起任拆分时期的能源部部长，与电力部部长年吞（Nyan Tun，2023年至2026年4月在任）分掌两部。上任后主导公布全国延长供电时长计划（2026-04）、40个电力与能源项目（2026-05）、赴明斯克与白俄罗斯能源部签署合作路线图并宣布将启用500千伏主电网（2026-10）、赴青岛出席第四届「一带一路」能源部长会议并会见中国国家能源局（2026-11）。注：2026-10-14出任社会福利、救济与安置部长的郭郭伦博士（Dr. Ko Ko Lwin）为同名另一人。"
+    },
+    {
+      "person_id": "MM-PERSON-000661",
+      "name": "艾觉 (အေးကျော်)",
+      "name_en": "Aye Kyaw",
+      "title": "电力与能源部副部长",
+      "title_description": "副部长（Deputy Minister），2023年起任职（电力部时期延续至合并后）",
+      "description": "2026-11-11在联邦议会坦承全国仅能满足预期5,010兆瓦用电需求的约70%，宣布轮换停电制度2027年仍将维持，全国实现24小时供电预计尚需约20年。姓名未收录于实体索引，person_id 置空。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "部长办公室 (Union Minister Office)",
+      "dept_id": "MM-GOV-038-DEPT-001",
+      "head": "郭郭伦 (ကိုကိုလွင်)",
+      "description": "部本部行政中枢，设于内比都27号办公楼（另用8号办公楼）；现任常务秘书（Permanent Secretary）Htet Hlyan Phyo 自2026年4月合并重组起任职，负责统筹部务及下属司局、企业协调。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "油气规划司 (Oil and Gas Planning Department)",
+      "dept_id": "MM-GOV-038-DEPT-002",
+      "head": null,
+      "description": "负责石油与天然气领域规划、政策与项目统筹的司局。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "缅甸石油天然气企业 (Myanma Oil and Gas Enterprise)",
+      "dept_id": "MM-GOV-038-DEPT-003",
+      "head": null,
+      "description": "部辖国有油气企业（本库组织ID：MM-SOE-001，缩写MOGE），负责全国石油天然气勘探、生产、输送与销售，并代表缅方与外国石油公司合作。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "缅甸石化企业 (Myanmar Petrochemical Enterprise)",
+      "dept_id": "MM-GOV-038-DEPT-004",
+      "head": null,
+      "description": "部辖国有企业，主管炼油与石油化工产品生产。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "缅甸石油产品企业 (Myanmar Petroleum Products Enterprise)",
+      "dept_id": "MM-GOV-038-DEPT-005",
+      "head": null,
+      "description": "部辖国有企业，主管成品油的储存、输配与销售。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "电力规划司 (Department of Electric Power Planning)",
+      "dept_id": "MM-GOV-038-DEPT-006",
+      "head": null,
+      "description": "负责电力行业发展总体规划、需求预测与项目立项的司局；国家电气化计划（National Electrification Plan，目标2030年）在其规划框架下推进。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "水电实施司 (Department of Hydropower Implementation)",
+      "dept_id": "MM-GOV-038-DEPT-007",
+      "head": null,
+      "description": "负责水电站项目的勘测、建设与实施管理的司局。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "输电与系统控制司 (Department of Power Transmission and System Control)",
+      "dept_id": "MM-GOV-038-DEPT-008",
+      "head": null,
+      "description": "负责主干电网、变电站建设与电力系统调度控制的司局；500千伏主电网系统升级在其职责范围内。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "电力供应企业 (Electricity Supply Enterprise)",
+      "dept_id": "MM-GOV-038-DEPT-009",
+      "head": null,
+      "description": "部辖国有企业，主管仰光、曼德勒两大市以外省邦地区的配电与供电业务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "发电企业 (Electric Power Generation Enterprise)",
+      "dept_id": "MM-GOV-038-DEPT-010",
+      "head": null,
+      "description": "部辖国有企业，主管国有火电、水电、燃气电厂的发电运营（截至2025年9月全国发电装机约6,357兆瓦）。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "仰光供电公司 (Yangon Electricity Supply Corporation)",
+      "dept_id": "MM-GOV-038-DEPT-011",
+      "head": null,
+      "description": "负责仰光省配电与供电的部属公司；2026-04供电计划中仰光每日供电18-20小时。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "曼德勒供电公司 (Mandalay Electricity Supply Corporation)",
+      "dept_id": "MM-GOV-038-DEPT-012",
+      "head": null,
+      "description": "负责曼德勒省配电与供电的部属公司；2026-04供电计划中曼德勒每日供电16-18小时。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-03-18",
+      "title": "电力部（合并前）宣布自3月18日起分区分时轮换供电",
+      "description": "合并前的电力部通报：日均用电需求达4,660兆瓦，实际仅能配送约3,600兆瓦（相当于目标容量的77%）；因部分主干线路受损及天然气供应减少，计划新增500兆瓦LNG发电能力；自3月18日起在特定地区和时段实施负载平衡（限电）计划，高考期间加大水库放水保障考生与考点夜间用电。",
+      "impact": "枯水季叠加天然气短缺的结构性供电缺口显性化，构成2026年缅甸全年停电治理压力的开端。",
+      "source": "https://asianews.network/myanmar-announces-electricity-to-be-distributed-in-certain-places-due-to-increased-consumption/"
+    },
+    {
+      "date": "2026-04-22",
+      "title": "电力与能源部公布全国延长供电时长计划",
+      "description": "两部委合并、郭郭伦上任后，部里公布新的全国供电计划：仰光省每日供电18-20小时，曼德勒省16-18小时，其余省邦至少14小时。此前4月24日伊洛瓦底报道两大城市停电「反而更严重」，4月26日Eleven报道居民反映供电仍不可预测。",
+      "impact": "新内阁上任后首个全国性供电承诺，但随后居民与独立媒体反映停电未如期缓解，承诺的可信度受到质疑。",
+      "source": "https://elevenmyanmar.com/news/myanmar-to-extend-daily-power-supply-hours-nationwide"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "披露40个在施电力与能源项目，承认供给仅满足约七成需求",
+      "description": "部常务秘书（Permanent Secretary，U Htet Shan Phyo/Htet Hlyan Phyo）在MRTV纪录片《为人民努力》中披露：在施项目共40个（电力领域17个、能源领域23个），用电需求年增9%-13%（部5月23日通报称约15%）；项目含Thazi镇Thapyaywa光伏、内比都Shwe Myo光伏、Myanaung镇Kanyin水电等；约3.5%电能在电厂与变电站自耗、约4.5%损耗于长距离输电，约8%在到达用户前即已损耗。",
+      "impact": "以项目清单向中资等外国投资者释放招商信号；供给缺口与线损数据为限电常态化提供官方解释框架。",
+      "source": "https://elevenmyanmar.com/news/myanmar-plans-40-power-and-energy-projects-to-meet-rising-electricity-demand"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "明斯克签署白俄罗斯—缅甸电力与能源合作路线图",
+      "description": "部长郭郭伦率团出席明斯克第30届能源与生态论坛，10月27日与白俄罗斯能源部签署双边电力与能源合作路线图，聚焦主电网升级、降低输配电损耗、智能发电、以白产复合导线更换老化高压线缆及工程师培训；10月28日双方部长会谈落实路线图，郭郭伦并宣布将尽快启用500千伏主电网系统；媒体指出合作资金安排仍未落实。",
+      "impact": "在电网老化与停电危机下开辟白俄罗斯这一非传统技术伙伴，但融资悬空，实际改造成效存疑。",
+      "source": "https://eng.belta.by/economics/view/belarus-myanmar-sign-energy-cooperation-roadmap-188038-2026/"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "副部长在联邦议会承认供电缺口约30%，轮换停电延续至2027年",
+      "description": "副部长艾觉（Aye Kyaw）11月11日在联邦议会表示，全国仅能满足预期5,010兆瓦用电需求的约70%，无法足额发电；轮换停电制度2027年仍将维持；实现全国24小时供电预计尚需约20年（伊洛瓦底称官方承认约30%缺口）。",
+      "impact": "官方首次为停电常态化给出跨年度时间表，电力短缺被确认为中期结构性问题而非短期危机。",
+      "source": "https://myanmar-now.org/en/news/myanmar-junta-tells-country-that-reliable-electricity-still-20-years-away/"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "赴青岛出席第四届「一带一路」能源部长会议并会见中国国家能源局",
+      "description": "11月25-26日，部长郭郭伦率团在青岛出席「一带一路」能源部长会议董事会首次会议及第四届部长会议，吁请主办中国国家能源局加大援助，就会水电项目、跨境输电线路、光伏、电池储能、抽水蓄能、风电及新海上天然气勘探区块投资等交换意见，并提出技术转移、人才与投资合作；期间另与伊朗能源部长举行双边会晤。伊洛瓦底称其此行意在争取中方对缅能源投资。",
+      "impact": "深化对华能源合作以缓解投资与电力缺口，中缅电力合作（含跨境输电）进入具体议题对接阶段。",
+      "source": "https://www.gnlm.com.mm/myanmar-attends-4th-belt-road-energy-ministers-conference/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MM-GOV-001",
+      "org_name": "缅甸内阁 (ပြည်ထောင်စုအစိုးရအဖွဲ့)",
+      "org_type": "GOV",
+      "org_description": "本部为其31个联邦组成部委之一，隶属2026-04-10宣誓就职的第二届敏昂莱内阁；部长任免经总统府令发布并经联邦议会批准。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "MM-SOE-001",
+      "org_name": "缅甸石油天然气企业 (မြန်မာ့ရေနံနှင့်သဘာဝဓာတ်ငွေ့လုပ်ငန်း)",
+      "org_type": "SOE",
+      "org_description": "部辖国有油气企业（MOGE），负责全国石油天然气勘探、生产、输送与销售，是本部油气板块的核心运营实体与对外合作窗口。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "MM-GOV-037",
+      "org_name": "自然资源与环境保护部 (Ministry of Natural Resources and Environmental Conservation)",
+      "org_type": "GOV",
+      "org_description": "同属内阁的兄弟部委：据能源部官网沿革，1985年前缅甸能源类机构曾分属矿业部与第二工业部，本部与矿业的监管边界、矿区油气区块及环评交叉领域与其协调。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "MM-INTL-001",
+      "org_name": "东南亚国家联盟 (ASEAN)",
+      "org_type": "INTL",
+      "org_description": "缅甸为东盟成员，通过东盟能源合作框架（东盟能源部长会议等）参与区域电力与能源合作，包括东盟电网互联互通等多边倡议。",
+      "relationship_type": "member_of"
+    }
+  ],
+  "core_business": "缅甸电力和能源部（缅甸语：လျှပ်စစ်နှင့်စွမ်းအင်ဝန်ကြီးဌာန，缩写MOEE）是缅甸联邦共和国主管全国电力与能源事务的联邦部委，总部设于内比都27号办公楼及8号办公楼。职能覆盖电力全产业链（发电、输电与系统控制、配电供电、电力与水电规划实施）及油气全产业链（油气规划、石化、成品油流通），下辖缅甸石油天然气企业（MOGE）、缅甸石化企业、缅甸石油产品企业、电力供应企业、发电企业以及仰光供电公司、曼德勒供电公司等国有企业。该部沿革曲折：1985年4月12日由国家委员会首次设立电力和能源部；2016年3月30日廷觉政府将电力部与能源部合并设立本部（昂山素季曾短暂兼任部长）；2021年政变后国家管理委员会于2022年5月2日将其重新拆分为电力部与能源部；2026年4月10日敏昂莱就任总统组建第二届内阁时，两部再度合并为电力与能源部，由联邦部长郭郭伦执掌，副部长艾觉、常务秘书Htet Hlyan Phyo辅佐。缅甸长期面临严重电力短缺：截至2025年9月全国装机约6,357兆瓦，用电需求年增9%-15%；2026年官方承认仅能满足约5,010兆瓦预期需求的70%，全国实行轮换停电并已宣布延续至2027年，实现24小时全国供电或需约20年。为弥补缺口，该部推进40个电力与能源项目（电力17个、能源23个，含Thapyaywa光伏、Shwe Myo光伏、Kanyin水电等），拟启用500千伏主电网系统，并积极对外寻求合作——2026年10月与白俄罗斯能源部签署电网升级合作路线图，11月赴青岛出席第四届「一带一路」能源部长会议并与中国国家能源局商谈水电、跨境输电线、光伏、储能、抽水蓄能、风电及海上天然气区块投资等合作；同时依据国家电气化计划推进2030年全国通电目标。",
+  "industries": [
+    "public_administration",
+    "electricity_gas",
+    "energy_oil_gas"
+  ],
+  "apec_stance": "缅甸不是APEC成员（APEC现有21个成员经济体，东南亚仅印尼、马来西亚、菲律宾、新加坡、泰国、越南、文莱7个，缅甸未加入）。缅甸主要的区域合作框架为东盟（ASEAN）、BIMSTEC、湄公河合作机制等。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/f/fb/Logo_of_MOEE_Myanmar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "state_media_gnlm",
+      "news_media",
+      "foreign_state_media_belta"
+    ],
+    "completeness_score": 77,
+    "notes": "Phase3 enrichment: 以Wikipedia MOEE (Myanmar)条目（2026-04-10两部重新合并、部长历次更替、12个下属机构）为骨架，与energy.gov.mm官网「Our Former Ministers」名单、GNLM/MRTV官方报道及Irrawaddy、Myanmar Now、Eleven、BELTA等报道交叉验证；现任部长郭郭伦（MM-PERSON-000027）与2026-10-14上任社会福利部长郭郭伦博士（MM-PERSON-000062）为同名两人，本部为前者。官网域名moee.gov.mm实测301重定向至moep.gov.mm，energy.gov.mm仍以本部名义运行；Facebook检索到的均为非官方自动生成页面，social_accounts留空。",
+    "quotes": [
+      {
+        "title": "Ministry of Electricity and Energy (Myanmar) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Electricity_and_Energy_(Myanmar)"
+      },
+      {
+        "title": "About MOE / Our Former Ministers - energy.gov.mm",
+        "url": "https://energy.gov.mm/about_us/who_we_are"
+      },
+      {
+        "title": "Belarus, Myanmar sign energy cooperation roadmap - BELTA (2026-10-27)",
+        "url": "https://eng.belta.by/economics/view/belarus-myanmar-sign-energy-cooperation-roadmap-188038-2026/"
+      },
+      {
+        "title": "500-kV Power Grid System Set for Launch Soon - Global New Light of Myanmar (2026-11-01)",
+        "url": "https://www.gnlm.com.mm/500-kv-power-grid-system-set-for-launch-soon/"
+      },
+      {
+        "title": "Myanmar attends 4th Belt & Road Energy Ministers' Conference - Global New Light of Myanmar (2026-11-27)",
+        "url": "https://www.gnlm.com.mm/myanmar-attends-4th-belt-road-energy-ministers-conference/"
+      },
+      {
+        "title": "Myanmar junta tells country that reliable electricity still 20 years away - Myanmar Now (2026-11-12)",
+        "url": "https://myanmar-now.org/en/news/myanmar-junta-tells-country-that-reliable-electricity-still-20-years-away/"
+      },
+      {
+        "title": "Myanmar Faces Year of Blackouts as Regime Admits 30% Power Shortfall - The Irrawaddy (2026-11-12)",
+        "url": "https://www.irrawaddy.com/news/burma/myanmar-faces-year-of-blackouts-as-regime-admits-30-power-shortfall.html"
+      },
+      {
+        "title": "Myanmar plans 40 power and energy projects to meet rising electricity demand - Eleven Myanmar (2026-05-28)",
+        "url": "https://elevenmyanmar.com/news/myanmar-plans-40-power-and-energy-projects-to-meet-rising-electricity-demand"
+      },
+      {
+        "title": "Myanmar to extend daily power supply hours nationwide - Eleven Myanmar (2026-04-23)",
+        "url": "https://elevenmyanmar.com/news/myanmar-to-extend-daily-power-supply-hours-nationwide"
+      },
+      {
+        "title": "Myanmar announces electricity to be distributed in certain places due to increased consumption - Asia News Network (2026-03-18)",
+        "url": "https://asianews.network/myanmar-announces-electricity-to-be-distributed-in-certain-places-due-to-increased-consumption/"
+      }
+    ]
+  }
+}

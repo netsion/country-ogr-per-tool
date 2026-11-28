@@ -1,0 +1,297 @@
+{
+  "org_id": "MM-FIN-007",
+  "basic_info": {
+    "name_original": "မြန်မာ့နိုင်ငံခြားကုန်သွယ်မှုဘဏ်",
+    "name_zh": "缅甸外贸银行",
+    "name_en": "Myanma Foreign Trade Bank",
+    "aliases": [
+      "MFTB",
+      "缅甸外贸银行",
+      "Myanmar Foreign Trade Bank",
+      "BFTB（Burma Foreign Trade Bank，1989年国名更改前英文旧称）"
+    ],
+    "org_type": "FIN",
+    "org_subtype": "commercial_bank",
+    "country_iso3": "MMR",
+    "hq_country_iso3": "MMR",
+    "founded_date": "1976-04-01",
+    "website": "https://www.mmftb.gov.mm",
+    "wikidata_qid": "Q13072990"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "OK$网上支付平台 (OK $ Website)",
+      "url": "https://www.mmftb.gov.mm/en/services/ok-website",
+      "description": "MFTB与Internet Wallet Myanmar Ltd合作推出的在线支付服务，自2019年1月24日起提供，为国有银行体系中较早的线上支付渠道。",
+      "source": "MFTB官网Services栏目"
+    },
+    {
+      "name": "MPU卡与ATM服务 (MPU & Card Services)",
+      "url": "https://www.mmftb.gov.mm/en/services/mpu-card-services",
+      "description": "自2013年10月23日起提供ATM与卡片服务，接入缅甸支付联盟（MPU）网络，支持ATM取现、POS消费与余额查询，单日取现上限50万缅元；MPU网络内亦受理JCB等国际卡组织卡片的收单业务。",
+      "source": "MFTB官网Services栏目；JCB与MPU 2013年收单总协议新闻稿"
+    },
+    {
+      "name": "SWIFT国际结算网络接入",
+      "url": "https://www.mmftb.gov.mm/en/history",
+      "description": "总行SWIFT/BIC代码为MFTBMMMY（仰光总部），由外汇市场、卡片与SWIFT部专门运营全球代理行电汇网络；2023年6月被美国列入SDN制裁名单后，部分国际代理行（如新加坡大华银行）相继中断业务。",
+      "source": "XE SWIFT代码目录；OFAC SDN条目；自由亚洲电台缅文报道"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MM-PERSON-000535",
+      "name": "敏佐温 (U Min Zaw Win)",
+      "title": "行长（Managing Director）",
+      "title_description": "2026-03-06就任至今，并任董事会主席",
+      "description": "现任缅甸外贸银行行长。官网历任行长名录显示其自2026年3月6日起任职，接替任期至2026年3月5日的杜温温貌；依董事会架构，行长任董事会主席。官网高级管理团队页面以其为负责人，与三位总经理（杜华华丁、杜翁玛、杜辛特涅温）共同主持12个部门体系的运营。其缅文原名拼写未见可靠公开来源，暂以拉丁转写记录。"
+    },
+    {
+      "person_id": "MM-PERSON-000536",
+      "name": "杜温温貌 (Daw Win Win Maw)",
+      "title": "前行长（Former Managing Director）",
+      "title_description": "任期2024-10-07至2026-03-05",
+      "description": "2024年10月7日接替被解职的杜凯蒂出任行长，2026年3月5日卸任。任内处于美国SDN制裁深化、外汇管制收紧时期，2025年11月启动与白俄罗斯发展银行的出口融资合作。其缅文原名拼写未见可靠公开来源，暂以拉丁转写记录。"
+    },
+    {
+      "person_id": "MM-PERSON-000537",
+      "name": "杜凯蒂 (ဒေါ်ကေသီ)",
+      "title": "前行长（Former Managing Director）",
+      "title_description": "任期2018-06-13至2024-09-19，2024年10月被解职",
+      "description": "2018年6月13日起出任行长，任内经历2021年政变及2023年6月美国SDN制裁。2024年7月被国家管理委员会以涉嫌违反放贷规定为由传唤问询（同被问询者包括其私人助理Myat Su、副行长Aung Ko Oo与助理经理Aye Aye Khaing），据缅甸现在（Myanmar Now）2024年11月报道于10月被正式解职。缅文名（ဒေါ်ကေသီ）经缅甸现在缅文报道核实。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "行政与人力资源部 (Administration and Human Resource Department)",
+      "dept_id": "MM-FIN-007-DEPT-001",
+      "head": null,
+      "description": "负责全行行政管理、人事管理与人力资源开发等支持性职能。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "会计部 (Account Department)",
+      "dept_id": "MM-FIN-007-DEPT-002",
+      "head": null,
+      "description": "负责全行会计核算、财务报表与账务管理。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "外汇市场、卡片与SWIFT部 (FX Market, Card and SWIFT Department)",
+      "dept_id": "MM-FIN-007-DEPT-003",
+      "head": null,
+      "description": "负责外汇市场业务、MPU/银行卡服务与SWIFT国际电报网络的运营。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "信息技术部 (Information Technology Department)",
+      "dept_id": "MM-FIN-007-DEPT-004",
+      "head": null,
+      "description": "负责银行信息系统、核心业务系统与网络基础设施的建设与维护。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "汇兑管制与汇款部 (Exchange Control and Remittance Department)",
+      "dept_id": "MM-FIN-007-DEPT-005",
+      "head": null,
+      "description": "负责外汇管制合规审查与境内外汇款（inward/outward remittance）业务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "融资与担保部 (Financing and Guarantee Department)",
+      "dept_id": "MM-FIN-007-DEPT-006",
+      "head": null,
+      "description": "负责进出口贸易融资、银行保函的开立与通知、银行间拆借及政府项目贷款的实施与管理。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "出口部 (Export Department)",
+      "dept_id": "MM-FIN-007-DEPT-007",
+      "head": null,
+      "description": "负责出口信用证通知、出口单据审议与出口收汇等出口结算业务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "进口部 (Import Department)",
+      "dept_id": "MM-FIN-007-DEPT-008",
+      "head": null,
+      "description": "负责进口信用证开立、进口汇款结算等进口环节银行服务。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "审计部 (Audit Department)",
+      "dept_id": "MM-FIN-007-DEPT-009",
+      "head": null,
+      "description": "负责全行内部审计与业务合规检查。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "反洗钱部 (Anti-Money Laundering Department)",
+      "dept_id": "MM-FIN-007-DEPT-010",
+      "head": null,
+      "description": "负责反洗钱/反恐融资（AML/CFT）合规、可疑交易监测与报告。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "研究、政策与法律部 (Research, Policy and Legal Department)",
+      "dept_id": "MM-FIN-007-DEPT-011",
+      "head": null,
+      "description": "负责银行业务研究、政策研究与法律事务支持。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "国际关系与代理行部 (International Relations and Correspondent Banking Department)",
+      "dept_id": "MM-FIN-007-DEPT-012",
+      "head": null,
+      "description": "负责全球代理行网络的建立与维护、国际金融组织往来及跨行合作协议（如对白俄罗斯两行协议）的执行。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2023-06-21",
+      "title": "美国财政部将缅甸外贸银行列入SDN制裁名单",
+      "description": "2023年6月21日，美国财政部外国资产控制办公室（OFAC）宣布制裁缅甸国防部及两家国有银行——缅甸外贸银行（MFTB）与缅甸投资与商业银行（MICB），将其列入特别指定国民（SDN）名单，指其协助军政府获取外汇采购武器；OFAC同步签发第5号缅甸通用许可，给予既有交易至2023年8月5日的退出窗口。",
+      "impact": "美元结算主通道被切断，新加坡大华银行（UOB）等主要代理行相继中断与MFTB的业务，缅甸官方外贸结算、国有企业外汇收入归集及军政府军购融资能力受到重创。",
+      "source": "https://home.treasury.gov/news/press-releases/jy1555"
+    },
+    {
+      "date": "2024-10-07",
+      "title": "行长更迭：杜凯蒂被解职，杜温温貌接任",
+      "description": "官网历任行长名录显示行长杜凯蒂任期至2024年9月19日止，2024年10月7日由杜温温貌接任。缅甸现在（Myanmar Now）2024年11月5日报道称，杜凯蒂因涉嫌违反放贷规定于2024年7月被国家管理委员会传唤问询（同被问询者包括其私人助理Myat Su、副行长Aung Ko Oo与助理经理Aye Aye Khaing），并于10月被解职。",
+      "impact": "折射军方执政当局对国有银行的人事清洗与内部放贷违规调查的深化，MFTB治理层进入更直接的体制控制。",
+      "source": "https://myanmar-now.org/en/news/director-of-sanctioned-myanmar-bank-dismissed-while-under-investigation/"
+    },
+    {
+      "date": "2025-11-27",
+      "title": "与白俄罗斯发展银行签署出口融资银行安排",
+      "description": "缅甸外贸银行与白俄罗斯共和国发展银行（Development Bank of the Republic of Belarus, DBRB）签署关于出口融资的银行安排（Banking Arrangement on Export Financing），官网于2026年发布该合作消息。",
+      "impact": "在美国SDN制裁导致西方代理行关系萎缩的背景下，向非西方金融体系拓展出口融资与结算渠道。",
+      "source": "https://www.mmftb.gov.mm/en/news/banking-arrangement-cooperation"
+    },
+    {
+      "date": "2026-03-06",
+      "title": "敏佐温出任行长",
+      "description": "官网历任行长名录显示，敏佐温（U Min Zaw Win）自2026年3月6日起出任行长并依章程担任董事会主席；前任杜温温貌任期至2026年3月5日。官网高级管理团队页面列示其与三位总经理（杜华华丁、杜翁玛、杜辛特涅温）及多名副总经理共同组成管理层。",
+      "impact": "MFTB完成2024年10月以来的第二次行长更替，管理层进入新阶段；行长依董事会架构兼任主席，延续国有银行行长主政模式。",
+      "source": "https://www.mmftb.gov.mm/en/list-md"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "与白俄罗斯Belinvest银行签署银行合作协议",
+      "description": "缅甸外贸银行与白俄罗斯Belinvest Bank, JSC于2026年5月28日签署银行安排（Banking Arrangement），官网2026年6月1日发布消息；此为继2025年11月与白俄罗斯发展银行（DBRB）签署出口融资安排后，半年内与白俄罗斯银行业达成的第二份合作协议。",
+      "impact": "进一步扩大受制裁环境下的非西方代理行网络，为双边贸易结算与融资建立制度性通道。",
+      "source": "https://www.mmftb.gov.mm/en/news/banking-arrangement-cooperation"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MM-GOV-025",
+      "org_name": "财政与税收部 (ဘဏ္ဍာရေးနှင့် အခွန်ဝန်ကြီးဌာန)",
+      "org_type": "GOV",
+      "org_description": "缅甸财政主管部门，MFTB的上级主管部委——官网新闻明确表述本行'under the Ministry of Finance and Revenue'；依官网董事会名录，董事会成员中含财政与税收部金融监管司、预算司与国库司代表各一名。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "MM-FIN-001",
+      "org_name": "缅甸中央银行 (မြန်မာနိုင်ငံတော်ဗဟိုဘဏ်)",
+      "org_type": "FIN",
+      "org_description": "缅甸银行业监管当局，依据《金融机构法》对MFTB实施牌照、准备金、外汇业务与反洗钱监管；1976年国有专业银行分设前两者同源（均承自缅甸联邦银行体系）。",
+      "relationship_type": "regulated_by"
+    },
+    {
+      "org_id": "MM-FIN-008",
+      "org_name": "缅甸投资与商业银行 (Myanma Investment and Commercial Bank)",
+      "org_type": "FIN",
+      "org_description": "同属财政与税收部主管的缅甸国有专业银行，与MFTB同为军政府外汇通道；2023年6月21日与MFTB一同被美国财政部列入SDN制裁名单。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "MM-SOE-001",
+      "org_name": "缅甸石油天然气企业 (Myanma Oil and Gas Enterprise)",
+      "org_type": "SOE",
+      "org_description": "缅甸国家石油天然气公司。美国财政部指出，MFTB与MICB为MOGE等国有企业进入国际市场创收提供通道，MFTB是其外汇收入结算的主要银行之一。",
+      "relationship_type": "customer"
+    },
+    {
+      "org_id": "MM-GOV-021",
+      "org_name": "法律事务部 (ဥပဒေရေးရာဝန်ကြီးဌာန)",
+      "org_type": "GOV",
+      "org_description": "缅甸联邦法律事务主管部门。依官网董事会名录，MFTB九人董事会中含法律事务部代表一名。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": null,
+      "org_name": "白俄罗斯共和国发展银行 (Development Bank of the Republic of Belarus)",
+      "org_type": "FIN",
+      "org_description": "白俄罗斯国有开发银行（DBRB）。2025年11月27日与MFTB签署关于出口融资的银行安排。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "白俄罗斯投资银行 (Belinvest Bank, JSC)",
+      "org_type": "FIN",
+      "org_description": "白俄罗斯商业银行。2026年5月28日与MFTB签署银行合作协议。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "缅甸外贸银行（MFTB）是缅甸财政与税收部下属的国有专业银行，专营国际银行业务，总部位于仰光郭克达镇区马哈班都拉花园路80-86号。其前身为1954年设立的国家商业银行外汇部，1976年4月1日依据1975年《银行法》作为四大国有专业银行之一正式成立，1990年7月4日《缅甸金融机构法》颁布后被确认为独立法人，现依据2016年《金融机构法》（2016年1月25日生效）运营，内设行政与人力资源、会计、外汇市场卡片与SWIFT、信息技术、汇兑管制与汇款、融资与担保、出口、进口、审计、反洗钱、研究政策与法律、国际关系与代理行共12个部门。核心业务：（1）面向政府、国有企业及驻缅国际机构提供贸易融资与外汇银行服务，包括信用证的开立、通知与保兑，汇票的出票、承兑与托收，银行保函的开立与通知，进出口贸易融资；（2）外币与缅币的买卖、外汇管制合规、境内外汇款及依托全球代理行网络的国际结算（SWIFT代码MFTBMMMY）；（3）政府项目贷款的实施与管理、银行间拆借；（4）缅币与外币存款（储蓄与定期存款自2017年8月起恢复办理）、ATM与MPU卡服务（自2013年10月起）、货币兑换，以及与Internet Wallet Myanmar合作推出的OK$网上支付平台（2019年1月起）。MFTB曾长期垄断缅甸外汇业务并管理国家外汇储备，是军政府获取外汇收入的核心通道；2023年6月21日被美国财政部列入SDN制裁名单后国际结算能力受重创，近年转向与白俄罗斯银行体系合作以维持跨境融资渠道。",
+  "industries": [
+    "financial_services",
+    "banking",
+    "trade_finance"
+  ],
+  "apec_stance": "缅甸不是APEC成员（APEC现有21个成员经济体，东南亚仅印尼、马来西亚、菲律宾、新加坡、泰国、越南、文莱7个，缅甸未加入）。缅甸主要的区域合作框架为东盟（ASEAN）、BIMSTEC、湄公河合作机制等。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Myanma_Foreign_Trade_Bank_seal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "en_wikipedia",
+      "mmftb_official_website",
+      "myanmar_now",
+      "myanmar_now_burmese",
+      "us_treasury_ofac",
+      "us_state_department",
+      "reuters",
+      "aljazeera",
+      "xe_swift_directory",
+      "jcb_global_press"
+    ],
+    "completeness_score": 81,
+    "notes": "Phase3 enrichment: （1）现任行长经官网'Lists of MD'名录与'Senior Management Team'页面交叉核实——敏佐温（U Min Zaw Win）2026-03-06就任并任董事会主席；前行长杜温温貌（2024-10-07至2026-03-05）、杜凯蒂（2018-06-13至2024-09-19，2024年10月被解职）。杜凯蒂缅文名（ဒေါ်ကေသီ）经缅甸现在缅文报道核实；敏佐温与杜温温貌的缅文拼写无可靠公开来源，按'禁止编造'原则以拉丁转写记录并加注。（2）founded_date采用官网沿革页的1976-04-01（依据1975年银行法作为四大国有专业银行之一成立），英文维基信息框的1990-07-04实为《缅甸金融机构法》下取得独立法人之日期，已在core_business中分别表述。（3）name_original更正为英文维基与缅文维基一致给出的မြန်မာ့နိုင်ငံခြားကုန်သွယ်မှုဘဏ်；name_zh由繁体转简体；website更新为现官网mmftb.gov.mm（骨架中的mmftb.com已非现行域名）。（4）12个部门名录取自官网沿革页，dept_id按本批次惯例自编MM-FIN-007-DEPT-001~012，各部门负责人官网未披露置null。（5）social_accounts留空：官网页脚无社交媒体链接，检索未发现MFTB官方认证社媒账号，为诚实缺失而非遗漏。（6）任务背景所称'JCB卡代理'未能找到MFTB直接代理的可靠来源——JCB 2013年系与缅甸支付联盟（MPU）签署收单总协议、经成员行落地，已在digital_assets中按此事实表述。（7）2023-06-21美国SDN制裁经财政部新闻稿、Reuters、Al Jazeera多源交叉；2024年行长解职经官网名录与Myanmar Now交叉；对白俄罗斯两份银行协议经官网新闻页核实。",
+    "quotes": [
+      {
+        "title": "Myanma Foreign Trade Bank - Wikipedia（native name မြန်မာ့နိုင်ငံခြားကုန်သွယ်မှုဘဏ်；predecessor State Commercial Bank 1954）",
+        "url": "https://en.wikipedia.org/wiki/Myanma_Foreign_Trade_Bank"
+      },
+      {
+        "title": "Historical Background - MFTB Official Website（1976-04-01成立沿革、1990-07-04独立法人、12部门名录）",
+        "url": "https://www.mmftb.gov.mm/en/history"
+      },
+      {
+        "title": "Lists of MD - MFTB Official Website（U Min Zaw Win 2026-03-06就任；Daw Kay Thi 2018-06-13至2024-09-19；Daw Win Win Maw 2024-10-07至2026-03-05）",
+        "url": "https://www.mmftb.gov.mm/en/list-md"
+      },
+      {
+        "title": "Treasury Sanctions Burma's Ministry of Defense and Regime-Controlled Financial Institutions - U.S. Department of the Treasury（2023-06-21）",
+        "url": "https://home.treasury.gov/news/press-releases/jy1555"
+      },
+      {
+        "title": "Director of sanctioned Myanmar bank dismissed while under investigation - Myanmar Now（2024-11-05）",
+        "url": "https://myanmar-now.org/en/news/director-of-sanctioned-myanmar-bank-dismissed-while-under-investigation/"
+      },
+      {
+        "title": "Banking Arrangement For Cooperation - MFTB Official Website（DBRB 2025-11-27出口融资安排；Belinvest Bank 2026-05-28银行安排）",
+        "url": "https://www.mmftb.gov.mm/en/news/banking-arrangement-cooperation"
+      }
+    ]
+  }
+}

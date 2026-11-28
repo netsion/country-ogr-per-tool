@@ -1,0 +1,263 @@
+{
+  "org_id": "MM-MEDIA-005",
+  "basic_info": {
+    "name_original": "ဒီမိုကရေတစ်မြန်မာ့အသံ",
+    "name_zh": "缅甸民主之声",
+    "name_en": "Democratic Voice of Burma",
+    "aliases": [
+      "DVB",
+      "DVB Multimedia Group",
+      "DVB TV",
+      "ဒီဗွီဘီ"
+    ],
+    "org_type": "MEDIA",
+    "org_subtype": "digital_media",
+    "country_iso3": "MMR",
+    "hq_country_iso3": "THA",
+    "founded_date": "1992-07-01",
+    "website": "https://burmese.dvb.no/",
+    "wikidata_qid": "Q1185893"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "DVB TV News",
+      "url": "https://www.facebook.com/DVBTVNews/",
+      "source": 6
+    },
+    {
+      "platform": "facebook",
+      "account_name": "DVB English",
+      "url": "https://www.facebook.com/DVBEnglish",
+      "source": 6
+    },
+    {
+      "platform": "facebook",
+      "account_name": "DVB Live",
+      "url": "https://www.facebook.com/dvbgolive/",
+      "source": 6
+    },
+    {
+      "platform": "youtube",
+      "account_name": "DVB TV News",
+      "url": "https://www.youtube.com/channel/UCuaRmKJLYaVMDHrnjhWUcHw",
+      "source": 9
+    },
+    {
+      "platform": "telegram",
+      "account_name": "DVB TV News",
+      "url": "https://t.me/dvbtvnews",
+      "source": 19
+    },
+    {
+      "platform": "twitter",
+      "account_name": "DVB Burmese (@dvbburmese)",
+      "url": "https://x.com/dvbburmese",
+      "source": 3
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "DVB 缅文新闻网站",
+      "url": "https://burmese.dvb.no/",
+      "description": "面向缅甸国内受众的缅文版主网站，每日发布独立新闻与视频报道（主站域名为 dvb.no）。",
+      "source": "https://burmese.dvb.no/"
+    },
+    {
+      "name": "DVB 英文新闻网站",
+      "url": "https://english.dvb.no/",
+      "description": "DVB 英文版网站，面向国际受众发布缅甸新闻与深度报道，含 About Us 机构介绍与英文新闻播客。",
+      "source": "https://english.dvb.no/"
+    },
+    {
+      "name": "DVB News 安卓应用",
+      "url": "https://play.google.com/store/apps/details?id=no.dvb.app",
+      "description": "DVB 官方安卓新闻应用（Google Play，包名 no.dvb.app），应用简介注明 DVB 为在泰国注册的非营利协会，每日发布独立新闻；2026年6月仍在更新。",
+      "source": "https://play.google.com/store/apps/details?id=no.dvb.app"
+    },
+    {
+      "name": "DVB TV 卫星电视频道",
+      "url": "https://www.dvb.no",
+      "description": "2005年5月28日开播的卫星电视频道（DVB TV），1080i 高清缅文播出，2021年3月牌照被吊销后转入地下与网络播出，另曾通过 MRTV DVB-T2 地面数字电视广播（2018年3月起）。",
+      "source": "https://en.wikipedia.org/wiki/Democratic_Voice_of_Burma"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MM-PERSON-000683",
+      "name": "艾钱南 (အေးချမ်းနိုင်)",
+      "title": "执行总监兼主编 (Executive Director / Chief Editor)",
+      "title_description": "DVB 联合创始人，自1992年创立起领导机构至今",
+      "description": "缅甸流亡记者。1988年'8888'民主运动后流亡海外，1992年7月在挪威奥斯陆与他人共同创立缅甸民主之声（DVB），现任执行总监兼主编，常驻奥斯陆。2021年获保护记者委员会（CPJ）国际新闻自由奖。2021年政变、机构牌照被吊销后领导 DVB 转入流亡运营；2025年美援中断后主导与《伊洛瓦底》、Myanmar Now、Mizzima、Burma News International 等五家流亡媒体的联合筹资合作。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "DVB TV（卫星电视部门）",
+      "dept_id": "MM-MEDIA-005-DEPT-001",
+      "head": null,
+      "description": "运营 DVB TV 卫星电视频道，2005年5月28日开播，向缅甸境内以缅语播出新闻节目，为政变前缅甸最具影响力的独立电视媒体之一。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "缅文新闻部 (burmese.dvb.no)",
+      "dept_id": "MM-MEDIA-005-DEPT-002",
+      "head": null,
+      "description": "缅文版主站新闻编辑部门，每日面向缅甸国内受众发布文字、图片与视频报道，是 DVB 受众规模最大的内容平台。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "英文新闻部 (english.dvb.no)",
+      "dept_id": "MM-MEDIA-005-DEPT-003",
+      "head": null,
+      "description": "英文版编辑部门，面向国际读者与媒体机构发布缅甸新闻报道与深度分析，并运营英文新闻播客。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "DVB Live（直播部门）",
+      "dept_id": "MM-MEDIA-005-DEPT-004",
+      "head": null,
+      "description": "在线直播部门（DVB Live），通过 Facebook 等平台对重大新闻事件进行实时直播，粉丝逾220万。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "事实核查部门 (DVB Fact Check)",
+      "dept_id": "MM-MEDIA-005-DEPT-005",
+      "head": null,
+      "description": "事实核查项目团队，制作 DVB Fact Check 系列节目，核查缅甸社交媒体流言与虚假信息，2026年仍在播出（第五季）。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2025-02-01",
+      "title": "DVB 与四家流亡媒体组建资助联盟并签署联合备忘录",
+      "description": "2025年2月，DVB 与《伊洛瓦底》(The Irrawaddy)、Myanmar Now、Mizzima、Burma News International（由14家民族媒体组成的联合体）签署联合备忘录，要求提高捐助资金使用透明度、呼吁捐赠方提供长期核心运营资金，并联合向欧盟委员会申请资助、赴欧洲多国游说。五家媒体另建立捐助方信息共享'热线'，联合应对网络攻击（大量攻击溯源至俄罗斯和中国IP）。",
+      "impact": "长期竞争的流亡媒体转向抱团取暖，为2025年美国援助断流后的行业生存开辟欧洲资金渠道。",
+      "source": "https://niemanreports.org/myanmar-independent-media-innovates-collaborates-exile-usaid/"
+    },
+    {
+      "date": "2025-03-01",
+      "title": "美国 USAID 资金中断，DVB 向资助方退还近1.4万美元拨款",
+      "description": "2025年3月前后，特朗普政府终止 USAID 大部分合同，使媒体发展机构 Internews 失去主要预算来源，并要求多家缅甸流亡媒体退还已拨付资金；DVB 退还近1.4万美元，其中大部分原定用于自由纪录片制作人。DVB 政变前（2020年）自立收入占比曾达50%，政变后骤降至近乎为零；其Facebook广告收入因缅甸受制裁与受众购买力低几乎无法变现。",
+      "impact": "DVB 面临机构成立以来最严重资金危机，被迫收缩自由撰稿与制作预算，行业整体约80%经费曾依赖外部捐助。",
+      "source": "https://niemanreports.org/myanmar-independent-media-innovates-collaborates-exile-usaid/"
+    },
+    {
+      "date": "2025-09-01",
+      "title": "德昂军（PSLF/TNLA）就报道内容向 DVB 提出抗议",
+      "description": "2025年9月，控制缅甸北部掸邦部分地区的地方武装德昂民族解放军（PSLF/TNLA）就 DVB 的新闻报道向该机构提出抗议，声称其报道包含'虚假新闻'等内容。同期，若开军（Arakan Army）亦曾拘押一名女记者逾月，记者面临来自武装组织与军方双重的报道压力。",
+      "impact": "DVB 在军方控制区之外亦面临武装组织施压，独立报道空间进一步收窄。",
+      "source": "https://athanmyanmar.org/update-on-journalism-and-media-safety-in-myanmar-jul-sep-2025/"
+    },
+    {
+      "date": "2025-09-23",
+      "title": "DVB 公民记者丹索昂（Than Soe Aung）刑满获释",
+      "description": "2022年3月在掸邦南桑（Namhsan）被捕、依《反恐怖主义法》被判处5年监禁的 DVB 公民记者丹索昂（Than Soe Aung）于2025年9月23日获释。据 Athan 统计，2025年第三季度无新增记者被捕，但截至9月底全缅仍有56名媒体工作者被关押；政变以来共有223名记者被捕、至少11人死亡。",
+      "impact": "DVB 采编团队又一名成员恢复自由，但政变后该机构多名记者仍流亡、被押或遇害，境内采编活动持续承受高压。",
+      "source": "https://athanmyanmar.org/update-on-journalism-and-media-safety-in-myanmar-jul-sep-2025/"
+    },
+    {
+      "date": "2025-12-23",
+      "title": "军方主导大选期间 DVB 高风险报道，机构生存危机获国际关注",
+      "description": "缅甸军方于2025年12月底至2026年1月分轮举行被西方政府批评为大选'作秀'的选举，DVB 等流亡媒体仍派记者冒着被捕风险进入军方控制区与抵抗力量控制区报道。2025年12月23日《尼曼报告》刊文详述：DVB 曾向 Internews 退还近1.4万美元拨款，缅流亡媒体约64/73家在境外运营，美国与瑞典两大传统捐助国退出后行业年资金缺口达800万至1000万美元。",
+      "impact": "DVB 在资金断流背景下维持对大选及内战的独立报道，成为外界了解缅甸局势的主要信息来源之一。",
+      "source": "https://niemanreports.org/myanmar-independent-media-innovates-collaborates-exile-usaid/"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "被监禁摄影记者赛佐泰（Sai Zaw Thaike）获2026年 CPJ 国际新闻自由奖，DVB 持续声援",
+      "description": "2026年11月19日 DVB 英文网报道：因报道政变后抗议活动被军方判处20年监禁的缅甸摄影记者赛佐泰（Sai Zaw Thaike）将获保护记者委员会（CPJ）2026年国际新闻自由奖。DVB 执行总监艾钱南多次公开声援这名被监禁的新闻同行；DVB 编辑部此前亦有多名记者遭军方逮捕、关押或流亡。",
+      "impact": "凸显 DVB 及缅甸新闻界在政变后持续面临的系统性迫害，国际奖项有助于维持该机构及其同行的国际关注度与道义支持。",
+      "source": "https://english.dvb.no/jailed-myanmar-journalist-to-be-honoured-with-2026-cpj-international-press-freedom-award/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MM-MEDIA-003",
+      "org_name": "伊洛瓦底 (The Irrawaddy)",
+      "org_type": "MEDIA",
+      "org_description": "缅甸知名独立流亡媒体，1993年由流亡记者创办，总部曾设泰国清迈。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "MM-MEDIA-004",
+      "org_name": "密支那新闻 (မဇ္ဈိမ / Mizzima)",
+      "org_type": "MEDIA",
+      "org_description": "缅甸独立流亡媒体，2021年3月8日与 DVB 同批被军方吊销牌照；2026年与记者无国界组织（RSF）合作推出'Voice of…'项目。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "MM-MEDIA-006",
+      "org_name": "今日缅甸 (Myanmar Now)",
+      "org_type": "MEDIA",
+      "org_description": "缅甸独立流亡媒体，2021年3月8日与 DVB 同批被军方吊销牌照，2025年与 DVB 共同签署流亡媒体联合备忘录并联合申请欧盟资助。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "缅甸新闻国际 (Burma News International / BNI)",
+      "org_type": "MEDIA",
+      "org_description": "由14家缅甸民族地区媒体组成的媒体联合体（代表成员含 SHAN 等），2025年与 DVB 组成五方流亡媒体资助联盟，以10种语言发布内容，读者约1400万。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "MM-GOV-002",
+      "org_name": "国家管理委员会 (နိုင်ငံတော်စီမံအုပ်ချုပ်ရေးကောင်စီ / State Administration Council)",
+      "org_type": "GOV",
+      "org_description": "2021年政变后成立的军方统治机构。2021年3月8日吊销 DVB、Myanmar Now、Mizzima、Khit Thit Media、7Day News 五家媒体牌照并禁止其报道，随后系统打压 DVB 记者（突袭曼德勒办公室、多名员工被捕），迫使 DVB 转入流亡运营。",
+      "relationship_type": "regulated_by"
+    }
+  ],
+  "core_business": "缅甸民主之声（Democratic Voice of Burma，简称DVB）是缅甸规模最大的独立媒体机构之一，为在泰国注册的非营利协会。该机构1992年7月由流亡挪威的缅甸民主人士在奥斯陆创立，最初通过短波电台（经挪威Kvitsøy发射塔）向缅甸播送未经审查的新闻；2005年5月28日开播卫星电视，自称首个自由独立的缅甸语电视频道；2012年起回缅甸境内公开运营，一度成为缅甸最大、最受认可的电视台之一，并于2018年3月24日通过MRTV DVB-T2地面数字电视系统播出。2021年2月政变后，其牌照于同年3月8日与Myanmar Now、Mizzima、Khit Thit Media、7Day News一同被军方吊销，曼德勒办公室遭突袭、多名记者被捕，机构自此转入以泰国清迈等为基地的流亡运营。DVB现通过卫星电视、缅文/英文网站、YouTube（逾300万订阅）、Facebook（各账号合计逾2100万关注）、Telegram与移动应用发布多媒体新闻，内容聚焦缅甸时政、内战与人权议题；其拍摄的素材曾被半岛电视台、PBS采用，记录2007年番红花革命记者经历的《Burma VJ》获奥斯卡最佳纪录片提名。机构宗旨为向缅甸民众提供准确无偏的新闻、促进各宗教族群间理解与合作、维护独立公共舆论与社会政治辩论、传播民主与人权理念。2025年以来受美国USAID资金中断与瑞典援助退出冲击，自立收入近乎为零，正通过与其他四家流亡媒体组建筹资联盟等方式维持运营。",
+  "industries": [
+    "broadcasting",
+    "digital_media"
+  ],
+  "apec_stance": "缅甸不是APEC成员（APEC现有21个成员经济体，东南亚仅印尼、马来西亚、菲律宾、新加坡、泰国、越南、文莱7个，缅甸未加入）。缅甸主要的区域合作框架为东盟（ASEAN）、BIMSTEC、湄公河合作机制等。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/5/59/Democratic_Voice_of_Burma.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_en",
+      "wikipedia_zh",
+      "official_website_burmese",
+      "official_website_english",
+      "google_play",
+      "facebook_pages",
+      "nieman_reports",
+      "athan_myanmar",
+      "cpj",
+      "baidu_baike"
+    ],
+    "quotes": [
+      {
+        "title": "Myanmar's Independent Media Innovates to Survive (Nieman Reports, 2025-12-23)",
+        "url": "https://niemanreports.org/myanmar-independent-media-innovates-collaborates-exile-usaid/"
+      },
+      {
+        "title": "Update on Journalism and Media Safety in Myanmar: July - September 2025 (Athan)",
+        "url": "https://athanmyanmar.org/update-on-journalism-and-media-safety-in-myanmar-jul-sep-2025/"
+      },
+      {
+        "title": "Jailed Myanmar journalist to be honoured with 2026 CPJ International Press Freedom Award (DVB English, 2026-11-19)",
+        "url": "https://english.dvb.no/jailed-myanmar-journalist-to-be-honoured-with-2026-cpj-international-press-freedom-award/"
+      },
+      {
+        "title": "Democratic Voice of Burma - Wikipedia (沿革/平台/2021年禁播记录)",
+        "url": "https://en.wikipedia.org/wiki/Democratic_Voice_of_Burma"
+      },
+      {
+        "title": "Aye Chan Naing, Myanmar - Committee to Protect Journalists (人物职务与获奖)",
+        "url": "https://cpj.org/awards/aye-chan-naing-myanmar/"
+      }
+    ],
+    "completeness_score": 84,
+    "notes": "Phase3 enrichment 2026-11-28: 沿革(1992奥斯陆创立/2005卫星电视/2012回国/2021-03-08吊销牌照流亡)经英中维基交叉验证；key_people 艾钱南(Aye Chan Naing)职务经CPJ/DVB官网核实(2026-11仍在任)；recent_events 2025-2026 共6条(Nieman Reports/Athan/DVB English 三独立来源)；social_accounts 经Facebook/YouTube/Telegram页面核实；hq_country_iso3 更新为 THA(机构在泰国注册为非营利协会，现流亡运营)。founded_date 仅知1992年7月，日期采用当月1日惯例。"
+  }
+}

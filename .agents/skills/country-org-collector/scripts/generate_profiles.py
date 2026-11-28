@@ -154,7 +154,8 @@ ISO2_TO_ISO3 = {
     "BO": "BOL", "PY": "PRY", "EC": "ECU", "VE": "VEN", "UY": "URY",
     "NI": "NIC", "GT": "GTM", "HN": "HND", "SV": "SLV", "CR": "CRI", "PA": "PAN",
     "BH": "BHR", "AZ": "AZE", "GE": "GEO", "AM": "ARM", "BY": "BLR", "MD": "MDA",
-    "GN": "GIN",
+    "GN": "GIN", "MM": "MMR",
+    "PS": "PSE",
 }
 
 

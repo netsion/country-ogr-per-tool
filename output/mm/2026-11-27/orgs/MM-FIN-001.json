@@ -1,0 +1,313 @@
+{
+  "org_id": "MM-FIN-001",
+  "basic_info": {
+    "name_original": "မြန်မာနိုင်ငံတော်ဗဟိုဘဏ်",
+    "name_zh": "缅甸中央银行",
+    "name_en": "Central Bank of Myanmar",
+    "aliases": [
+      "CBM",
+      "Myanmar Central Bank",
+      "缅甸央行",
+      "Union Bank of Burma（前身缅甸联邦银行）",
+      "People's Bank of the Union of Burma（1969-1975曾用名）"
+    ],
+    "org_type": "FIN",
+    "org_subtype": "regulatory_agency",
+    "country_iso3": "MMR",
+    "hq_country_iso3": "MMR",
+    "founded_date": "1948-04-03",
+    "website": "https://www.cbm.gov.mm/",
+    "wikidata_qid": "Q1944374"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "CBM官方外汇汇率查询系统 (forex.cbm.gov.mm)",
+      "url": "https://forex.cbm.gov.mm/index.php/fxrate",
+      "description": "缅甸中央银行官方外汇汇率门户，每日发布缅元对美元等各币种的官方参考汇率与买卖价；官网首页同步显示MMK/USD参考汇率（2026年6月仍为2100缅元/美元）。",
+      "source": "CBM官网首页汇率栏目与forex.cbm.gov.mm"
+    },
+    {
+      "name": "MMQR国家二维码支付标准 (MyanmarPay)",
+      "url": "https://www.cbm.gov.mm/",
+      "description": "CBM自2019年起主导建设的全国统一二维码支付标准，配套《MMQR Code Specification》规范发布于官网Payment System Standard栏目，2025年2月正式启用。",
+      "source": "CBM官网Payment System栏目；Wikipedia Central Bank of Myanmar条目"
+    },
+    {
+      "name": "CBM-NET支付清算系统",
+      "url": "https://www.cbm.gov.mm/",
+      "description": "缅甸中央银行运营的支付清算基础设施，涵盖大额资金转账、自动清算所（ACH）、支票截留系统（CTS）、中央证券存管（CSD）等，相关业务指南均发布于官网支付系统栏目。",
+      "source": "CBM官网Payment System栏目"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MM-PERSON-000514",
+      "name": "钦乃乌 (ဒေါက်တာခင်နိုင်ဦး)",
+      "title": "行长（Governor）",
+      "title_description": "缅甸中央银行第14任行长，2026-04-10就任",
+      "description": "联邦审计长（Union Auditor-General）出身的经济学专家；2026年4月7日由当选总统敏昂莱向联邦议会提名，4月10日总统府以第10/2026号命令依据《缅甸中央银行法》第9条正式任命。任内就外汇市场秩序多次公开表态，2026年9月会见韩国使馆临时代办商讨韩元等区域货币直接结算。"
+    },
+    {
+      "person_id": "MM-PERSON-000515",
+      "name": "佐敏奈 (ဦးဇော်မြင့်နိုင်)",
+      "title": "副行长（Deputy Governor）",
+      "title_description": "2026-04-10与行长同期任命",
+      "description": "2026年4月7日由当选总统提名、4月10日总统令正式任命的三位副行长之一，分管央行理事会框架下的业务板块。"
+    },
+    {
+      "person_id": "MM-PERSON-000516",
+      "name": "德吞昂 (ဦးသက်ထွန်းအောင်)",
+      "title": "副行长（Deputy Governor）",
+      "title_description": "2026-04-10与行长同期任命",
+      "description": "2026年4月7日由当选总统提名、4月10日总统令正式任命的三位副行长之一。"
+    },
+    {
+      "person_id": "MM-PERSON-000517",
+      "name": "珊达乌 (ဒေါက်တာစန္ဒာဦး)",
+      "title": "副行长（Deputy Governor）",
+      "title_description": "2026-04-10与行长同期任命",
+      "description": "2026年4月7日由当选总统提名、4月10日总统令正式任命的三位副行长之一。"
+    },
+    {
+      "person_id": "MM-PERSON-000518",
+      "name": "丹丹穗 (ဒေါ်သန်းသန်းဆွေ)",
+      "title": "前行长（Former Governor）",
+      "title_description": "任期2022-08-19至2026-04-10",
+      "description": "缅甸央行历史上首位女性行长。2021年政变后于2022年8月19日由国家管理委员会（SAC）任命接替丹迎；2026年4月敏昂莱出任总统后的央行换届中卸任。任内经历缅元大幅贬值、外汇管制收紧与多轮美元抛售稳汇操作。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "行长办公室 (Governor Office)",
+      "dept_id": "MM-FIN-001-DEPT-001",
+      "head": null,
+      "description": "行长直接领导的核心办事机构，统筹理事会秘书事务与全行战略协调，总部设于内比都55号办公区。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "行政与人力资源开发部 (Administration and Human Resources Development Department)",
+      "dept_id": "MM-FIN-001-DEPT-002",
+      "head": null,
+      "description": "负责全行行政管理、人事与人力资源开发及信息安全、内部审计协调等支持职能。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "货币政策事务、研究、国际关系与培训部 (Monetary Policy Affairs, Research, International Relations and Training Department)",
+      "dept_id": "MM-FIN-001-DEPT-003",
+      "head": null,
+      "description": "负责货币政策研究与执行、经济金融统计、国际组织往来（SEACEN、IMF、世界银行、亚洲开发银行等）及人员培训。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "金融机构规制与监管部 (Financial Institutions Regulation and Supervision Department)",
+      "dept_id": "MM-FIN-001-DEPT-004",
+      "head": null,
+      "description": "依据《金融机构法》对国有银行、私营银行、外国银行分行/子公司、非银行金融机构实施牌照发放、现场检查（CAMEL体系）与非现场监测，并负责反洗钱/反恐融资（AML/CFT）监管。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "金融市场与支付结算部 (Financial Market and Payment and Settlement Department)",
+      "dept_id": "MM-FIN-001-DEPT-005",
+      "head": null,
+      "description": "负责银行间外汇市场、国债拍卖（国库券/国债）、存贷款拍卖及支付系统（CBM-NET、MMQR、支票截留）的运营监管。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "外汇管理部 (Foreign Exchange Management Department)",
+      "dept_id": "MM-FIN-001-DEPT-006",
+      "head": null,
+      "description": "依据《外汇管理法》负责外汇管制与售汇审批、出口收汇强制结汇监管、外汇经营牌照与货币兑换商管理，2026年缅元危机期间为政策最活跃部门。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "货币管理部 (Currency Management Department)",
+      "dept_id": "MM-FIN-001-DEPT-007",
+      "head": null,
+      "description": "负责缅元纸币与硬币的印制、发行、回收与销毁，管理内比都、仰光、曼德勒三地货币 administration，并在假币与纸币传闻事件中对外发布澄清公告。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "内部审计部 (Internal Audit Department)",
+      "dept_id": "MM-FIN-001-DEPT-008",
+      "head": null,
+      "description": "对央行内部各业务部门与分支机构实施独立内部审计。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "仰光分行 (Yangon Branch)",
+      "dept_id": "MM-FIN-001-DEPT-009",
+      "head": null,
+      "description": "驻仰光分支机构（仰光甘马育镇区Settmu路26(A)号），承担货币调拨、银行清算与外汇业务窗口职能。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "曼德勒分行 (Mandalay Branch)",
+      "dept_id": "MM-FIN-001-DEPT-010",
+      "head": null,
+      "description": "驻曼德勒分支机构（曼德勒昂美达赞镇区26街与82街交汇处），服务上缅甸地区的央行业务。",
+      "parent_dept_id": null
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-01-07",
+      "title": "央行发布通知进一步放宽出口收汇结汇要求",
+      "description": "缅甸中央银行于1月7日发布通知（Notification），再度放宽外汇管制，下调出口收入的强制结汇比例要求，为2025年以来系列外汇松绑措施的延续。",
+      "impact": "阶段性缓解出口企业结汇压力，但在官方汇率与市场汇率严重背离背景下，外汇流失与低估申报问题仍难根治。",
+      "source": "https://www.lexology.com/library/detail.aspx?g=e70b12d9-156e-41fe-8d40-dc8fae21e6e4"
+    },
+    {
+      "date": "2026-04-10",
+      "title": "央行换届：钦乃乌博士出任行长，三位副行长同步任命",
+      "description": "总统府发布第10/2026号命令，依据《缅甸中央银行法》第9条正式任命联邦审计长出身的钦乃乌博士（ဒေါက်တာခင်နိုင်ဦး）为行长，佐敏奈、德吞昂、珊达乌博士任副行长；此前的4月7日，当选总统敏昂莱已向联邦议会提交9人央行领导层提名名单。前任行长丹丹穗（缅甸央行首位女性行长，2022年8月上任）卸任。",
+      "impact": "敏昂莱在新政府架构下完成央行人事洗牌，进一步巩固对金融体系的直接控制；央行领导层全部换为新一届总统任命人选。",
+      "source": "https://mhwmm.com/miandianxinwen/84191.html"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "央行公开辟谣：不会发行50000缅元大额纸币",
+      "description": "针对社交媒体广泛流传将发行新版50000缅元纸币的消息，CBM发布公告澄清'完全不属实'，称无任何发行计划，并宣布联合执法部门对散布谣言、扰乱市场者依法追究责任。",
+      "impact": "辟谣本身折射出财政赤字货币化预期下公众的通胀恐慌；此前议会已批准政府从央行以市场利率借款逾2.1万亿缅元弥补赤字，大额纸币传闻加剧了现金挤兑担忧。",
+      "source": "https://www.gnlm.com.mm/notice-declaring-that-new-50000-kyat-banknotes-will-not-be-issued/"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "央行宣布向进口商出售外汇的新机制",
+      "description": "CBM发布公告，宣布针对进口企业设立外汇出售新机制（允许提前申购进口用汇），以应对缅元快速贬值下进口商购汇困难。",
+      "impact": "试图稳定进口供应与物价，但在官方参考汇率（2100）与黑市汇率（逾5000）巨大剪刀差下，机制有效性存疑。",
+      "source": "https://www.facebook.com/DFDL.Legal.Tax/posts/1763908645744537"
+    },
+    {
+      "date": "2026-11-06",
+      "title": "央行警告非法货币兑换商，缅元跌势加剧",
+      "description": "缅元市场汇率从10月底约4700贬至11月初4900以上，CBM威胁对非正式货币交易者采取法律行动；11月7-8日新任行长钦乃乌进一步公开呼吁外汇市场守法合规，称稳定的金融部门是经济支柱。",
+      "impact": "执法高压与市场贬值并行：特别调查局人员在仰光市场巡查、拘罚兑换商，但地下换汇因官方汇率严重高估仍供不应求。",
+      "source": "https://www.facebook.com/theirrawaddy/posts/1605269161628235"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "央行申请505.64亿缅元追加预算，被指面临增印钞票压力",
+      "description": "据《伊洛瓦底》报道，CBM正为2026-27财年申请505.64亿缅元追加预算，市场解读为央行面临加大印钞压力；联邦议会此前已批准政府从央行按市场利率借款逾2.1万亿缅元（约合9.53亿美元）填补预算缺口。",
+      "impact": "赤字货币化加速令市场对缅元信心进一步恶化，普遍预期贬值与通胀将螺旋上行。",
+      "source": "https://x.com/IrrawaddyNews/status/2120106845708902461"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "官方干预后缅元暴跌跌破5200兑1美元",
+      "description": "缅元延续10月以来的贬值趋势，周一（23日）市场汇率跌破5200缅元兑1美元（11月初约为4750），当局干预未能止跌。",
+      "impact": "进口商品与生产成本全面上涨；出口商因15%强制按官方汇率（2100）结汇而承受双重损失，部分出口商已缩减出货。",
+      "source": "https://www.facebook.com/theirrawaddy/posts/1625243669630784"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "缅元跌破5400兑1美元，创纪录低位",
+      "description": "11月26日缅元汇率跌破5400兑1美元，官方参考汇率仍钉在2100；当局将侨汇固定汇率从3600上调至4600以吸引海外汇款进入银行体系，但市场视之为弱势信号反而加速贬值；对泰铢同步贬值（10万缅元兑泰铢由700降至约600），泰缅边境贸易成本飙升。",
+      "impact": "美元化加速、进口定价混乱、企业利润被侵蚀；进口商难以定价，国内消费面临进一步萎缩风险，金融体系脆弱性显著上升。",
+      "source": "https://www.intellinews.com/myanmar-kyat-slides-past-5-400-per-dollar-squeezing-traders-488747/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MM-GOV-005",
+      "org_name": "缅甸总统府 (နိုင်ငံတော်သမ္မတရုံး)",
+      "org_type": "GOV",
+      "org_description": "缅甸总统府。2026年4月10日以第10/2026号总统令任命现任行长钦乃乌及三位副行长，为央行现任领导层的任命来源。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "MM-GOV-002",
+      "org_name": "国家管理委员会 (နိုင်ငံတော်စီမံအုပ်ချုပ်ရေးကောင်စီ)",
+      "org_type": "GOV",
+      "org_description": "2021年政变后接管国家权力的机构，2021年2月撤换央行文职任命的行长觉觉貌及副行长波波昂（后获刑20年），先后任命丹迎、丹丹穗执掌央行，2025年7月由国务安全与和平委员会承接其职能。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "MM-GOV-025",
+      "org_name": "财政与税收部 (ဘဏ္ဍာရေးနှင့် အခွန်ဝန်ကြီးဌာန)",
+      "org_type": "GOV",
+      "org_description": "缅甸财政主管部门。2013年《缅甸中央银行法》生效前为央行的上级主管部委，此后央行独立运作，但在国债发行、赤字融资与财政货币政策协同上仍与其密切配合。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": "MM-FIN-006",
+      "org_name": "缅甸经济银行 (မြန်မာ့စီးပွားရေးဘဏ်)",
+      "org_type": "FIN",
+      "org_description": "缅甸最大的国有商业银行，持牌接受CBM监管，同时是仰光证券交易所主要国有股东之一，承担部分政府代理银行职能。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "MM-FIN-002",
+      "org_name": "KBZ银行 (Kanbawza Bank)",
+      "org_type": "FIN",
+      "org_description": "缅甸资产规模最大的私营商业银行，持有CBM颁发的银行业牌照，接受其现场检查、准备金要求与外汇业务监管。",
+      "relationship_type": "regulator"
+    },
+    {
+      "org_id": "MM-FIN-014",
+      "org_name": "仰光证券交易所 (Yangon Stock Exchange)",
+      "org_type": "FIN",
+      "org_description": "缅甸唯一证券交易所（2015年开业，2016年3月正式交易），CBM在筹建过程中发挥推动作用，其国有银行股东亦为央行监管对象。",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "MM-INTL-006",
+      "org_name": "国际货币基金组织 (International Monetary Fund)",
+      "org_type": "INTL",
+      "org_description": "CBM的国际合作与技术援助对象之一，IMF长期就货币政策、汇率与金融部门改革向缅甸提供第四条款磋商评估与技术支持。",
+      "relationship_type": "partner"
+    }
+  ],
+  "core_business": "缅甸中央银行（CBM）是缅甸的国家中央银行与金融监管当局，总部位于内比都，在仰光与曼德勒设分行。核心职能包括：（1）唯一发行缅元法定货币并管理货币流通（含纸币印制、发行与回收）；（2）制定与执行货币政策以维持物价稳定与缅元币值，公布央行基准利率（现为9%）、最低存款利率与最高贷款利率，并设定银行准备金要求；（3）代理国库、管理外汇储备与黄金储备，并以政府名义开展国际金融往来；（4）依据《金融机构法》对国有银行、私营银行、外国银行分行与子公司、非银行金融机构及货币兑换商实施牌照发放与监管，开展CAMEL现场检查与非现场监测，负责AML/CFT与金融情报工作；（5）运营CBM-NET支付清算体系，推行MMQR国家二维码支付标准（MyanmarPay，2025年2月启用）及与人民币、泰铢、印度卢比等的本币结算安排；（6）组织国库券与国债拍卖、银行间外汇市场存贷款拍卖，管理多轨汇率制度（官方参考汇率2100缅元/美元与在线平台交易汇率并行），实施出口收汇强制结汇与外汇牌照管理。2013年《缅甸中央银行法》使央行从财政与税收部脱离成为独立监管机构，但在2021年政局变动后其人事与政策受军方可控政府深度影响，2026年缅元危机期间处于汇率保卫与赤字货币化的政策中心。",
+  "industries": [
+    "financial_services"
+  ],
+  "apec_stance": "缅甸不是APEC成员（APEC现有21个成员经济体，东南亚仅印尼、马来西亚、菲律宾、新加坡、泰国、越南、文莱7个，缅甸未加入）。缅甸主要的区域合作框架为东盟（ASEAN）、BIMSTEC、湄公河合作机制等。",
+  "profile": {
+    "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Central_Bank_of_Myanmar_seal.png/330px-Central_Bank_of_Myanmar_seal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "en_wikipedia",
+      "zh_wikipedia",
+      "cbm_official_website",
+      "gnlm_global_new_light_of_myanmar",
+      "irrawaddy",
+      "intellinews",
+      "fulcrum_iseas",
+      "mhwmm_chinese_media",
+      "eleven_myanmar",
+      "dfdl_legal_update",
+      "lexology",
+      "frontier_myanmar"
+    ],
+    "completeness_score": 89,
+    "notes": "Phase3 enrichment: 现任行长经三源交叉核实——Wikipedia历任行长表（2026-04-10就任）、缅华网转述十一新闻周刊提名报道（2026-04-07联邦议会9人名单）、缅甸中文媒体第10/2026号总统令报道；丹丹穗为2022-2026年前任行长（缅华网/维基一致）。official网站2026年部门名录收录10个部门；汇率数据来自官网首页（2100参考汇率）与Fulcrum/ISEAS多轨汇率分析（2026-05末平台汇率3658、黑市4245）。social_accounts留空：官网页脚无社交媒体链接，检索未发现CBM官方认证社媒账号（Facebook自2021年起在缅被封禁），为诚实缺失而非遗漏。org_subtype由骨架的commercial_bank修正为regulatory_agency（schema枚举无central_bank，CBM实为货币当局+金融监管机构）。key_people及 departments负责人未公开到个人层面者留空；索引中无钦乃乌/丹丹穗等人条目，person_id置null。",
+    "quotes": [
+      {
+        "title": "Central Bank of Myanmar - Wikipedia（历任行长表：Khin Naing Oo 2026-04-10就任）",
+        "url": "https://en.wikipedia.org/wiki/Central_Bank_of_Myanmar"
+      },
+      {
+        "title": "缅甸央行新领导层提名名单提交联邦议会 - 缅华网（2026-04-09）",
+        "url": "https://mhwmm.com/miandianxinwen/84191.html"
+      },
+      {
+        "title": "Notice Declaring That New 50000-Kyat Banknotes Will Not Be Issued - Global New Light of Myanmar（CBM公告，2026-10-18）",
+        "url": "https://www.gnlm.com.mm/notice-declaring-that-new-50000-kyat-banknotes-will-not-be-issued/"
+      },
+      {
+        "title": "Myanmar kyat slides past 5,400 per dollar, squeezing traders - bne IntelliNews（2026-11-26）",
+        "url": "https://www.intellinews.com/myanmar-kyat-slides-past-5-400-per-dollar-squeezing-traders-488747/"
+      },
+      {
+        "title": "Myanmar's Overvalued Exchange Rates Are a Recipe for Economic Deterioration - FULCRUM/ISEAS（2026-06-15）",
+        "url": "https://fulcrum.sg/article/commentaries/myanmars-overvalued-exchange-rates-are-a-recipe-for-economic-deterioration/"
+      }
+    ]
+  }
+}

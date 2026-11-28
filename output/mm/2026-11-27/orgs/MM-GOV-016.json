@@ -1,0 +1,287 @@
+{
+  "org_id": "MM-GOV-016",
+  "basic_info": {
+    "name_original": "နိုင်ငံခြားရေးဝန်ကြီးဌာန",
+    "name_zh": "缅甸外交部",
+    "name_en": "Ministry of Foreign Affairs of Myanmar",
+    "aliases": [
+      "MOFA Myanmar",
+      "Ministry of Foreign Affairs (Myanmar)",
+      "缅甸联邦共和国外交部",
+      "外交部"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "MMR",
+    "hq_country_iso3": "MMR",
+    "founded_date": "1947-03-17",
+    "website": "http://www.mofa.gov.mm/",
+    "wikidata_qid": "Q4294392"
+  },
+  "social_accounts": [
+    {
+      "platform": "facebook",
+      "account_name": "mofamyanmar",
+      "url": "https://www.facebook.com/mofamyanmar/",
+      "source": 6,
+      "source_note": "Facebook认证页面（Ministry of Foreign Affairs Myanmar官方账号）"
+    },
+    {
+      "platform": "twitter",
+      "account_name": "MOFA_Myanmar",
+      "url": "https://x.com/MOFA_Myanmar",
+      "source": 3,
+      "source_note": "X（Twitter）官方账号（简介：Official account of the Ministry of Foreign Affairs of Myanmar）"
+    }
+  ],
+  "digital_assets": [
+    {
+      "name": "缅甸外交部官方网站",
+      "url": "http://www.mofa.gov.mm/",
+      "description": "外交部门户（缅文/英文双语），发布Flash News、新闻稿、声明、公告、MOFA Fact Sheet及Infographic Sheet等数字简报产品",
+      "source": "官网直接访问 + Wikipedia"
+    },
+    {
+      "name": "缅甸外交部英文门户（English Portal）",
+      "url": "https://www.mofa.gov.mm/en/home-english/",
+      "description": "英文版首页，含Main News、Press Release、Announcement、Embassy News等栏目，按日归档新闻",
+      "source": "官网直接访问"
+    },
+    {
+      "name": "驻外使领馆网站目录（Go To Embassy）",
+      "url": "https://www.mofa.gov.mm/en/home-english/",
+      "description": "官网首页汇集驻外机构网站链接：34个使馆（曼谷、北京、莫斯科、新德里、东京、华盛顿特区等）、5个总领事馆（香港、加尔各答、昆明、洛杉矶、南宁）及3个常驻团（驻东盟雅加达、驻联合国日内瓦、驻联合国纽约）",
+      "source": "官网首页Go To Embassy栏目"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MM-PERSON-000005",
+      "name": "丁貌瑞(တင်မောင်ဆွေ / Tin Maung Swe)",
+      "title": "联邦外交部长",
+      "title_description": "Union Minister for Foreign Affairs（缅甸联邦第22任外交部长）",
+      "description": "2026年4月10日就任联邦外交部长，接替丹穗（Than Swe，任期2023-02-01至2026-04-10），为2026年4月新内阁成员。此前于2023年4月25日出任缅甸驻华大使，具有丰富对华外交经历；就任外长后与中共外长王毅多次会谈，并实现短时间内缅中外长互访。"
+    },
+    {
+      "person_id": "MM-PERSON-000636",
+      "name": "可可觉(Ko Ko Kyaw)",
+      "title": "外交部副部长（第一副部长）",
+      "title_description": "Deputy Minister for Foreign Affairs (1)",
+      "description": "现内阁外交部第一副部长（据外交部官网2026年部门名录）。曾代表缅方与中国驻缅大使共同签署澜湄合作专项基金协议；2026年11月10日代表外交部就德国驻仰光使馆临时代办社交媒体视频声明传唤德方临时代办。"
+    },
+    {
+      "person_id": "MM-PERSON-000637",
+      "name": "奈敏觉(Naing Min Kyaw)",
+      "title": "外交部副部长（第二副部长）",
+      "title_description": "Deputy Minister for Foreign Affairs (2)",
+      "description": "现内阁外交部第二副部长（据外交部官网2026年部门名录）。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "政治司(Political Department)",
+      "dept_id": null,
+      "head": "Than Htwe",
+      "description": "负责双边政治关系的主干司局，下设东亚太平洋处、东南亚处、中东处、欧洲处、美洲处、南亚西亚处及协调处（据官网2026年名录）",
+      "parent_dept_id": "MM-GOV-016"
+    },
+    {
+      "name": "东盟事务司(ASEAN Affairs Department)",
+      "dept_id": null,
+      "head": "Khin Thidar Aye (Dr.)",
+      "description": "牵头缅甸参与东盟机制相关事务，下设政治与安全处、经济与职能合作处、社会文化处、协调处；对接东盟秘书处及驻东盟常驻代表团（雅加达）",
+      "parent_dept_id": "MM-GOV-016"
+    },
+    {
+      "name": "战略研究与培训司(Strategic Studies and Training Department)",
+      "dept_id": null,
+      "head": "Zaw Phyo Win",
+      "description": "负责外交战略研究与外交官培训，下设战略研究处、培训处（内比都/仰光）、行政处、协调处、档案与图书馆及MISIS（缅甸外交信息系统）",
+      "parent_dept_id": "MM-GOV-016"
+    },
+    {
+      "name": "礼宾司(Protocol Department)",
+      "dept_id": null,
+      "head": "Zaw Tun Oo（代理，Acting）",
+      "description": "负责外交礼仪与使节事务，下设礼宾处（内比都）及礼宾处（仰光）",
+      "parent_dept_id": "MM-GOV-016"
+    },
+    {
+      "name": "国际组织与经济司(International Organizations and Economic Department)",
+      "dept_id": null,
+      "head": "Kyaw Nyunt Oo（代理，Acting）",
+      "description": "负责联合国等多边组织事务及对外经济外交，下设国际组织处、经济处及SRCD（区域合作发展）处",
+      "parent_dept_id": "MM-GOV-016"
+    },
+    {
+      "name": "领事与法律事务司(Consular and Legal Affairs Department)",
+      "dept_id": null,
+      "head": "Aung Kyaw Oo",
+      "description": "负责领事保护与服务、护照签证及国际法事务，下设领事处、社会文化事务处、国际法与条约处、边界处",
+      "parent_dept_id": "MM-GOV-016"
+    },
+    {
+      "name": "计划与行政司(Planning and Administrative Department)",
+      "dept_id": null,
+      "head": "Kyaw Tin Shein",
+      "description": "负责部内人事、财务与后勤管理，下设人事行政处（1/2/3+4+5）、财务处、建筑物资与通信处、通信处及M.T.O.",
+      "parent_dept_id": "MM-GOV-016"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-10",
+      "title": "丁貌瑞出任联邦外交部长",
+      "description": "根据2026年4月联邦政府新内阁任命，丁貌瑞（Tin Maung Swe）于4月10日正式出任缅甸联邦外交部长，接替自2023年2月1日起任职的丹穗（Than Swe），成为缅甸第22任外长。丁貌瑞此前于2023年4月起出任缅甸驻华大使。",
+      "impact": "外交部完成新老交替；新外长具有驻华大使经历，对华关系延续性增强，就任后即实现缅中外长短时间互访。",
+      "source": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Myanmar)"
+    },
+    {
+      "date": "2026-04-25",
+      "title": "缅中外长内比都会谈（王毅访缅）",
+      "description": "中共中央政治局委员、中国外交部长王毅于缅甸新政府履职后于4月底访缅，25日与联邦外交部长丁貌瑞举行双边会谈，就发展中缅友好关系、推进各领域务实合作深入交换意见并达成积极共识。",
+      "impact": "确立2026年新内阁的对华外交基调，中缅命运共同体建设、澜湄合作与打击跨境电诈成为双边核心议程。",
+      "source": "https://www.mofa.gov.mm/en/2026/04/27/"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "丁貌瑞对中国进行正式访问（就任后首次访华）",
+      "description": "应中国外长王毅邀请，丁貌瑞于6月4日至6日对中国进行正式访问，为其就任外长后首次访华，实现两国外长短时间内互访。双方探讨深化四大全球倡议框架内合作与中缅命运共同体建设，并推动中缅泰联合打击电信网络诈骗等跨国犯罪合作。",
+      "impact": "中缅政治互信进一步巩固；访华期间中缅泰三方就联合打击'四大家族'电诈集团的执法合作进行协调，体现外交部在跨边境安全议题中的牵头作用。",
+      "source": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202606/t20260603_11923860.shtml"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "外交部传唤德国驻仰光使馆临时代办",
+      "description": "因德国驻仰光使馆临时代办马蒂亚斯·利夏茨（Mathias Licharz）在社交媒体发布涉被罢免前总统温敏旧居的视频声明（称联合国仍承认温敏为合法总统），外交部副部长可可觉（Ko Ko Kyaw）于内比都传唤该临时代办，警告其行为可能面临严重后果。",
+      "impact": "缅德外交摩擦升级，凸显现政府对外国使节涉缅内政言论的强硬立场，欧洲方向双边关系承压。",
+      "source": "https://www.mofa.gov.mm/en/ministry-of-foreign-affairs-summons-charge-daffaires-of-the-german-embassy-over-his-video-statement-released-via-social-media/"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "缅甸代表团出席第49届东盟峰会及相关会议",
+      "description": "缅甸代表团出席第49届东盟峰会及相关会议。外交部随后于11月21日就东盟领导人通过的《东盟领导人关于五点声明实施的审查与决定》发表声明，表示缅方'注意到'该文件并阐述缅方立场。",
+      "impact": "东盟机制仍是缅甸参与区域合作的主渠道；外交部通过正式声明管控东盟五点共识相关压力，维持缅方在东盟框架内的话语权。",
+      "source": "https://www.mofa.gov.mm/en/myanmar-delegation-attends-the-49th-asean-summit-and-related-meetings/"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "联邦外交部长接见BIMSTEC秘书长",
+      "description": "丁貌瑞于内比都接见到访的BIMSTEC（环孟加拉湾多领域技术暨经济合作倡议）秘书长，就孟加拉湾区域多领域合作交换意见。",
+      "impact": "孟加拉湾方向区域合作（BIMSTEC）持续成为缅甸除东盟外最重要的多边外交支点。",
+      "source": "https://www.mofa.gov.mm/en/union-minister-for-foreign-affairs-receives-secretary-general-of-bimstec/"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "外交部就国际法院对冈比亚诉缅甸案判决发表新闻声明",
+      "description": "2026年11月19日，国际法院（ICJ）就冈比亚指控缅甸违反《防止及惩治灭绝种族罪公约》案作出判决，外交部于11月20日发表新闻声明回应。同日，外交部另发表声明，拒绝联合国大会第三委员会通过的缅甸人权状况决议（A/C.3/81/L.42/Rev.1），指其'选择性、有偏见、歪曲实况'。",
+      "impact": "国际司法与联合国多边人权机制压力持续，外交部以系统性的声明回应展现防御性外交姿态，该议题是现政府外交叙事的核心压力点。",
+      "source": "https://www.mofa.gov.mm/en/press-statement-by-the-ministry-of-foreign-affairs-of-the-republic-of-the-union-of-myanmar-on-the-judgment-of-the-international-court-of-justice-delivered-on-19-november-2026/"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "缅甸总统敏昂莱赴越南出席第11届ACMECS峰会与第12届CLMV峰会",
+      "description": "外交部发布公告：缅甸联邦共和国总统敏昂莱（H.E. U Min Aung Hlaing）对越南社会主义共和国进行工作访问，出席第11届ACMECS峰会和第12届CLMV峰会。",
+      "impact": "湄公河次区域合作（ACMECS/CLMV）成为缅甸周边外交的新亮点，缅越关系升温，外交部承担周边多边机制的协调职能。",
+      "source": "https://www.mofa.gov.mm/en/president-of-the-republic-of-the-union-of-myanmar-h-e-u-min-aung-hlaing-to-make-working-visit-to-the-socialist-republic-of-viet-nam-to-attend-the-11th-acmecs-summit-and-the-12th-clmv-summit/"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MM-GOV-001",
+      "org_name": "缅甸内阁(ပြည်ထောင်စုအစိုးရအဖွဲ့)",
+      "org_type": "政府/内阁",
+      "org_description": "缅甸联邦政府（联邦内阁），由总统领导各联邦部委组成，2026年4月完成新一届内阁任命",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "MM-GOV-045",
+      "org_name": "国务安全与和平委员会(State Security and Peace Commission)",
+      "org_type": "国家治理/安全决策机构",
+      "org_description": "缅甸国家最高安全与和平决策机构，在外交与国家安全议程上与联邦政府各部委存在协作关系",
+      "relationship_type": "affiliated"
+    },
+    {
+      "org_id": "MM-INTL-001",
+      "org_name": "东南亚国家联盟(ASEAN)",
+      "org_type": "国际组织",
+      "org_description": "东南亚区域合作组织，缅甸为成员国；外交部专设东盟事务司并派驻东盟常驻代表团（雅加达），2026年11月缅甸代表团出席第49届东盟峰会",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "MM-INTL-002",
+      "org_name": "环孟加拉湾多领域技术暨经济合作倡议(BIMSTEC)",
+      "org_type": "国际组织",
+      "org_description": "孟加拉湾沿岸七国区域合作机制，缅甸为创始成员国；2026年11月19日外交部长于内比都接见BIMSTEC秘书长",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "MM-INTL-003",
+      "org_name": "联合国(United Nations)",
+      "org_type": "国际组织",
+      "org_description": "缅甸为联合国成员国，派有驻纽约及日内瓦常驻代表团；2026年11月外交部就联大第三委员会人权决议及国际法院（ICJ）冈比亚诉缅甸案判决发表声明",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "MM-GOV-016",
+      "org_name": "民族团结政府外交部(Ministry of Foreign Affairs, National Unity Government)",
+      "org_type": "平行/流亡政府机构",
+      "org_description": "2021年政局变化后，由被罢免议员组建的民族团结政府（NUG）任命钦玛佐（Zin Mar Aung）为外长，设有平行外交部（mofa.nugmyanmar.org），与联邦外交部形成'两个外交部'并存格局，在国际上争夺缅甸代表权",
+      "relationship_type": "sibling"
+    }
+  ],
+  "core_business": "缅甸外交部（MOFA）是缅甸联邦政府的组成部委，负责制定并执行缅甸联邦共和国的外交政策，统筹与世界各国及国际组织的关系，管理缅甸在全球44个国家的驻外大使馆与领事馆（含驻东盟雅加达、驻联合国纽约与日内瓦常驻代表团，官网现汇集42个驻外机构链接）。该部由联邦外交部长主持，设两名副部长及常务秘书，总部位于内比都第九号联邦办公楼（Office No.9, Nay Pyi Taw）。下设政治司、东盟事务司、战略研究与培训司、礼宾司、国际组织与经济司、领事与法律事务司、计划与行政司七个司局，职能涵盖双边政治关系、区域与多边合作（以东盟、BIMSTEC、澜湄合作、ACMECS/CLMV为主）、领事保护与护照签证、国际法与条约及边界事务、外交战略研究与外交官培训、部内人事财务管理。现任部长丁貌瑞（Tin Maung Swe）于2026年4月10日就任，其近期工作重点包括：巩固对华关系（中缅命运共同体、澜湄合作专项基金、中缅泰联合打击跨境电诈）、回应国际法院对冈比亚诉缅甸《灭绝种族罪公约》案的判决、反驳联合国人权决议、以及处理与东盟五点共识相关的多边协调。另需注意，2021年政局变化后民族团结政府（NUG）设有平行外交部，形成'两个外交部'并存的格局。",
+  "industries": [
+    "public_administration"
+  ],
+  "apec_stance": "缅甸不是APEC成员（APEC现有21个成员经济体，东南亚仅印尼、马来西亚、菲律宾、新加坡、泰国、越南、文莱7个，缅甸未加入）。缅甸主要的区域合作框架为东盟（ASEAN）、BIMSTEC、湄公河合作机制等。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/1/10/MOFA_Myanmar.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia_en",
+      "wikipedia_zh",
+      "official_website_mofa_gov_mm",
+      "china_mfa_gov_cn",
+      "baidu_baike",
+      "zaobao_sg",
+      "hk01",
+      "people_daily",
+      "facebook",
+      "x_twitter"
+    ],
+    "completeness_score": 87,
+    "notes": "Phase3 enrichment: confirmed incumbent minister Tin Maung Swe (appointed 2026-04-10, succeeding Than Swe) via Wikipedia (en/zh), official MOFA departments page and multiple news sources; collected 7 departments with heads, 2 deputy ministers, 2 social accounts, 3 digital assets, 8 recent events (all 2026), 6 related entities. Cross-validated with China MFA and MOFA official news.",
+    "quotes": [
+      {
+        "title": "Ministry of Foreign Affairs (Myanmar) - Wikipedia（Minister responsible: U Tin Maung Swe, Union Minister for Foreign Affairs；Child agencies 七司局；Department heads名单）",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Myanmar)"
+      },
+      {
+        "title": "缅甸外交部 - 中文维基百科（现任部长是丁貌瑞（缅甸语：တင်မောင်ဆွေ）；22任 丁貌瑞 2026年4月10日 就任 现任）",
+        "url": "https://zh.wikipedia.org/wiki/%E7%B7%AC%E7%94%B8%E5%A4%96%E4%BA%A4%E9%83%A8"
+      },
+      {
+        "title": "缅甸外交部官网 Departments 页（UNION MINISTER H.E. U Tin Maung Swe；DEPUTY MINISTER (1) H.E. U Ko Ko Kyaw；(2) H.E. U Naing Min Kyaw；PERMANENT SECRETARY U Hau Khan Sum）",
+        "url": "https://www.mofa.gov.mm/sample-page-3/departments/"
+      },
+      {
+        "title": "中国外交部发言人宣布：缅甸外交部长丁貌瑞将于6月4日至6日对中国进行正式访问",
+        "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202606/t20260603_11923860.shtml"
+      },
+      {
+        "title": "缅甸外交部英文首页（Press Statement on the Judgment of the International Court of Justice delivered on 19 November 2026；Myanmar delegation attends the 49th ASEAN Summit；Union Minister receives Secretary General of BIMSTEC）",
+        "url": "https://www.mofa.gov.mm/en/home-english/"
+      },
+      {
+        "title": "吴丁貌瑞_百度百科（2023年4月25日出任缅甸驻华大使；2026年4月，任缅甸外长）",
+        "url": "https://baike.baidu.com/item/%E5%90%B4%E4%B8%81%E8%B2%8C%E7%91%9E/62928058"
+      }
+    ]
+  }
+}

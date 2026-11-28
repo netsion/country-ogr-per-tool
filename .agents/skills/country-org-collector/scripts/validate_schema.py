@@ -108,7 +108,7 @@ PERSON_TOP_STRICT_ALLOW = PERSON_TOP_FIELDS | {'org_ids', 'name_ko'}
 
 # Nested-array field whitelists (from rules handbook; strict mode flags anything else)
 # note: key_people.name_en is an accepted supplementary convention in org key_people entries
-KP_FIELDS = {'person_id', 'name', 'name_en', 'title', 'title_description', 'description'}
+KP_FIELDS = {'person_id', 'name', 'name_en', 'title', 'title_description', 'description', 'source'}
 RELATED_FIELDS = {'org_id', 'org_name', 'org_type', 'org_description', 'relationship_type'}
 REL_FIELDS = {'person_id', 'person_name', 'relationship_type', 'description', 'source', 'name', 'corroborating_sources', 'relationship', 'notes', 'org_id', 'description_note', 'related_person_id'}
 WORK_FIELDS = {'organization', 'org_id', 'position', 'start_date', 'end_date', 'description', 'source', 'is_current', 'note', 'notes', 'corroborating_sources', 'position_en', 'end_date_note', 'start_date_note', 'location', 'org_name_note', 'rank_note', 'title_en', 'position_th'}

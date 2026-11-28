@@ -1,0 +1,310 @@
+{
+  "org_id": "MM-GOV-035",
+  "basic_info": {
+    "name_original": "စိုက်ပျိုးရေး၊မွေးမြူရေးနှင့်ဆည်မြောင်းဝန်ကြီးဌာန",
+    "name_zh": "农业、畜牧和灌溉部",
+    "name_en": "Ministry of Agriculture, Livestock and Irrigation (Myanmar)",
+    "aliases": [
+      "MOALI",
+      "农业、畜牧与灌溉部",
+      "農業、畜牧及灌溉部"
+    ],
+    "org_type": "GOV",
+    "org_subtype": "ministry",
+    "country_iso3": "MMR",
+    "hq_country_iso3": "MMR",
+    "founded_date": "2016-03-30",
+    "website": "https://www.moali.gov.mm",
+    "wikidata_qid": "Q53842306"
+  },
+  "social_accounts": [],
+  "digital_assets": [
+    {
+      "name": "MOALI官方网站",
+      "url": "https://www.moali.gov.mm",
+      "description": "农业、畜牧和灌溉部官方网站域名，由英文维基百科信息框及缅甸国家门户收录；2026年11月实测访问时Cloudflare返回522超时，暂无法抓取站内内容。",
+      "source": "https://en.wikipedia.org/wiki/Ministry_of_Agriculture,_Livestock_and_Irrigation_(Myanmar)"
+    },
+    {
+      "name": "缅甸国家门户·农业、畜牧和灌溉部页面",
+      "url": "https://myanmar.gov.mm/ministry-of-agriculture-livestock-and-irrigation",
+      "description": "缅甸联邦政府国家门户对该部的介绍页面，载明农业领域主要政策：土地利用与管理政策、水资源利用与管理政策、农业融资政策等。",
+      "source": "https://myanmar.gov.mm/ministry-of-agriculture-livestock-and-irrigation"
+    },
+    {
+      "name": "农业司（DOA）网站",
+      "url": "https://doa.gov.mm",
+      "description": "部属农业司（Department of Agriculture）官方网站域名，设联系渠道（doawebcontact），司机关头办公地点位于内比都15号及43号办公楼。",
+      "source": "https://mairs.doa.gov.mm/index.php/help/contact"
+    }
+  ],
+  "key_people": [
+    {
+      "person_id": "MM-PERSON-000024",
+      "name": "敏瑙 (ဦးမင်းနောင်)",
+      "name_en": "U Min Naung",
+      "title": "联邦部长 (ပြည်ထောင်စုဝန်ကြီး)",
+      "title_description": "农业、畜牧和灌溉部部长（Minister responsible）",
+      "description": "现任缅甸农业、畜牧和灌溉部联邦部长（中国驻缅甸大使馆中文稿译名亦作'敏楠'）。2023年4月即以部长身份会见中国农业农村部副部长马有祥，2023年10月主持第24届东盟农林部长会议（AMAF），2024年8月会见中国新任驻缅大使马珈。2026年4月敏昂莱当选总统组建第二届内阁，敏瑙获提名留任原职，并于2026-04-10随新内阁宣誓就职。任内率团出席东盟农林部长系列会议、第九届东盟-印度农业部长会议及BIMSTEC农业与粮食安全合作机制活动，先后与印尼、埃及等国推进双边农业合作，并主持国内厄尔尼诺灾害防范等应急部署。"
+    },
+    {
+      "person_id": "MM-PERSON-000657",
+      "name": "昂基 (Aung Gyi)",
+      "name_en": "Dr Aung Gyi",
+      "title": "联邦副部长 (ဒုတိယဝန်ကြီး)",
+      "title_description": "农业、畜牧和灌溉部副部长（Deputy Minister responsible）",
+      "description": "农业、畜牧和灌溉部现任副部长（据英文维基百科2026年9月修订版信息框）。2025年6月曾赴仰光省茵盛镇视察畜牧业中央研发中心及畜牧与兽医局相关工作，推动符合国际市场标准的农产品出口提升计划。未见于本批次人名索引，person_id留空。"
+    }
+  ],
+  "departments": [
+    {
+      "name": "联邦部长办公室 (Union Minister Office)",
+      "dept_id": "MM-GOV-035-DEPT-001",
+      "head": null,
+      "description": "部本级行政中枢，统辖各司局、附属机构与直属高校，设于内比都15号及36号办公楼。",
+      "parent_dept_id": null
+    },
+    {
+      "name": "农业司 (Department of Agriculture, DOA)",
+      "dept_id": "MM-GOV-035-DEPT-002",
+      "head": null,
+      "description": "主管农作物生产与技术推广、优质种子繁育供应、农民培训与农田投入品管理，是缅甸农业推广体系的核心执行机构，办公地点位于内比都15号及43号办公楼。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "计划司 (Department of Planning)",
+      "dept_id": "MM-GOV-035-DEPT-003",
+      "head": null,
+      "description": "负责部门中长期计划编制、农业统计汇总与政策协调，支撑农业发展政策制定。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "农业土地管理与统计司 (Department of Agriculture Land Management and Statistics, DALMS)",
+      "dept_id": "MM-GOV-035-DEPT-004",
+      "head": null,
+      "description": "负责农业用地管理、耕地登记与农业统计调查，执行土地利用与管理政策。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "灌溉与水资源利用管理司 (Irrigation and Water Utilization Management Department, IWUMD)",
+      "dept_id": "MM-GOV-035-DEPT-005",
+      "head": null,
+      "description": "负责灌排工程建设与运行维护、农业用水调配及水资源利用管理，在厄尔尼诺等旱灾应对中承担灌溉与饮用水保障职能。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "农业机械化司 (Agricultural Mechanization Department, AMD)",
+      "dept_id": "MM-GOV-035-DEPT-006",
+      "head": null,
+      "description": "负责农业机械推广、农机作业服务与农业机械化示范，提升耕种收环节机械化水平。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "农业研究司 (Department of Agricultural Research, DAR)",
+      "dept_id": "MM-GOV-035-DEPT-007",
+      "head": null,
+      "description": "负责农作物品种改良与农业科学研究，设于耶津，与耶津农业大学及国际农业研究机构合作开展育种与栽培技术研发。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "小型工业司 (Small-scale Industries Department)",
+      "dept_id": "MM-GOV-035-DEPT-008",
+      "head": null,
+      "description": "负责乡村小型工业与农产品加工业发展，促进农村就业与地方经济活动。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "畜牧养殖与兽医司 (Livestock Breeding and Veterinary Department, LBVD)",
+      "dept_id": "MM-GOV-035-DEPT-009",
+      "head": null,
+      "description": "负责畜禽良种繁育、动物疫病防控与兽医公共服务，管理畜牧业中央研发中心等机构，支撑肉类蛋奶供给与活畜出口。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "渔业司 (Department of Fisheries, DOF)",
+      "dept_id": "MM-GOV-035-DEPT-010",
+      "head": null,
+      "description": "负责渔业资源管理、水产养殖推广与渔业可持续发展，官方提出逐步将水产品产量的70%来自水产养殖的目标。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "耶津农业大学 (Yezin Agricultural University)",
+      "dept_id": "MM-GOV-035-DEPT-011",
+      "head": null,
+      "description": "部属高等农业教育学府（对应本批次组织 MM-ACAD-006），设于内比都耶津，培养农业领域本科生与研究生，校长列席部务会议并汇报科研教学准备情况。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    },
+    {
+      "name": "兽医大学 (University of Veterinary Science)",
+      "dept_id": "MM-GOV-035-DEPT-012",
+      "head": null,
+      "description": "部属兽医高等教育机构，培养兽医专业人才，支撑全国动物疫病防控与畜牧产业发展。",
+      "parent_dept_id": "MM-GOV-035-DEPT-001"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-04-07",
+      "title": "敏瑙获提名留任农业、畜牧和灌溉部联邦部长",
+      "description": "据《伊洛瓦底》报道，敏昂莱当选缅甸总统后组建第二届内阁，时任农业、畜牧和灌溉部联邦部长敏瑙获提名留任原职；新内阁于2026-04-10宣誓就职（中国外交部国别背景资料：2026年4月3日联邦议会选举敏昂莱为总统，4月10日新政府内阁成员宣誓就职）。",
+      "impact": "农业主管部门负责人延续，粮食安全与农业复苏政策保持连续性，便于多边农业合作议程平稳衔接。",
+      "source": "https://www.irrawaddy.com/news/politics/min-aung-hlaing-names-cabinet-dominated-by-military-figures.html"
+    },
+    {
+      "date": "2026-04-29",
+      "title": "敏瑙线上出席东盟农林部长（AMAF）中东局势特别会议",
+      "description": "据《缅甸全球新光报》报道，由菲律宾主持的AMAF中东局势特别会议上，敏瑙率缅甸代表团线上与会。他指出中东冲突可能引发燃油与化肥供应困难，提出缅甸将储备平价农用燃油并分配给农民、寻求东盟成员国燃油援助以保障收割机械用油、推动化肥在东盟国家间公平分配并扩大有机肥技术支持，同时表态支持加强东盟与中日韩应急大米储备（APTARR）体系、强化数据共享与开放贸易。",
+      "impact": "缅甸借东盟多边机制对冲农资进口与能源风险，巩固区域粮食安全合作地位。",
+      "source": "https://www.gnlm.com.mm/myanmar-joins-amaf-special-ministers-meeting-on-middle-east-situation-online/"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "敏瑙赴新德里出席第九届东盟—印度农业部长会议",
+      "description": "敏瑙在印度新德里出席第九届东盟—印度农业部长会议（9th ASEAN-India Ministerial Meeting on Agriculture and Forestry），并利用会议间隙与印度方面举行双边会晤，讨论印度对缅农业投资与合作机会。",
+      "impact": "推动印缅农业投资与技术合作，为缅甸农产品出口和农业现代化争取外部资源。",
+      "source": "https://www.facebook.com/InAgrisearch/posts/-india-warmly-welcomes-min-naung-minister-of-agriculture-livestock-and-irrigatio/1407403914912660/"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "敏瑙会见印度尼西亚驻缅使馆临时代办",
+      "description": "据缅甸国际电视台（MITV）报道，敏瑙在内比都会见印度尼西亚驻缅甸大使馆临时代办诺万·伊万霍·萨利赫（Novan Ivanhoe Saleh），就两国农业领域合作举行会谈。",
+      "impact": "深化缅印尼双边农业与粮食安全合作。",
+      "source": "https://www.myanmaritv.com/news/myanmar-indonesia-meeting-agriculture-sector"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "敏瑙访问埃及并出席第九届开罗水周",
+      "description": "10月25日至29日，敏瑙应埃方邀请访问埃及：先后会见埃及农业和土地改良部长阿拉·法鲁克（Alaa Farouk）、水资源与灌溉部长哈尼·塞维兰（Hani Sewilan），出席在开罗举行的第九届开罗水周，并在埃及总统府与总统塞西及部长级代表会晤；期间参观棉花种植研究司、动物疫苗生产工厂与实验室、奶牛养殖企业、尼罗河水灌溉供水项目及水资源研究项目，并与埃及投资与自由区总局（GAIF）负责人会晤（据缅华网援引Popular News Journal报道）。",
+      "impact": "引进灌溉与畜牧养殖技术经验，拓宽缅埃农业与水资源领域合作渠道。",
+      "source": "https://www.mhwmm.com/miandianxinwen/86804.html"
+    },
+    {
+      "date": "2026-11-04",
+      "title": "农业部召开厄尔尼诺现象防范与应对协调会议",
+      "description": "据新华社援引《镜报》报道，敏瑙于内比都（农村发展司会议厅）主持召开厄尔尼诺防范协调会议，要求相关部门与地方当局密切协作、评估潜在风险并按最严重情形做准备；要求评估可用资源与能力、制定应急预案，确保农畜品种以及灌溉和饮用水供应充足，强调公平高效配水，并通过多种媒体以易懂形式及时发布厄尔尼诺预警与防范指引。各司局负责人与大学校长向会议汇报防范准备情况。",
+      "impact": "提前部署旱灾与高温应对措施，降低厄尔尼诺对2026至2027年度农业、畜牧生产的冲击。",
+      "source": "https://english.news.cn/asiapacific/20261105/36735b9978d242c3ac77f445b1cf3b33/c.html"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "BIMSTEC秘书长潘迪拜会敏瑙，回顾农业与粮食安全合作",
+      "description": "据BIMSTEC官网消息，秘书长因德拉·马尼·潘迪（Indra Mani Pandey）于11月19日至20日对缅甸进行卸任告别访问；11月20日在内比都会见敏瑙，双方回顾了BIMSTEC框架下农业与粮食安全以及渔业和畜牧领域合作进展（缅甸为该领域牵头国），强调加快落实2025年4月在尼泊尔加德满都举行的第三次BIMSTEC农业部长会议决定，实现成员国粮食安全目标。敏瑙重申缅甸持续推进BIMSTEC区域合作的承诺。",
+      "impact": "缅甸在BIMSTEC农业、渔业、畜牧合作中的牵头国地位得到确认，多边合作议程延续。",
+      "source": "https://bimstec.org/event/385/bimstec-secretary-general-undertakes-farewell-visit-to-myanmar"
+    }
+  ],
+  "related_entities": [
+    {
+      "org_id": "MM-GOV-001",
+      "org_name": "缅甸内阁 (ပြည်ထောင်စုအစိုးရအဖွဲ့)",
+      "org_type": "GOV",
+      "org_description": "缅甸联邦政府内阁，农业、畜牧和灌溉部为其组成部门，联邦部长经总统提名履职并参加内阁，2026年4月起隶属第二届敏昂莱内阁。",
+      "relationship_type": "parent_org"
+    },
+    {
+      "org_id": "MM-GOV-036",
+      "org_name": "合作社与农村发展部 (Ministry of Cooperatives and Rural Development)",
+      "org_type": "GOV",
+      "org_description": "2021年6月由MOALI原辖的农村发展司与合作社司划出组建而成，与农业部在乡村发展、农村经济与农业推广领域保持协作。",
+      "relationship_type": "sibling"
+    },
+    {
+      "org_id": "MM-ACAD-006",
+      "org_name": "耶津农业大学 (Yezin Agricultural University)",
+      "org_type": "ACAD",
+      "org_description": "农业部直属高等农业学府，位于内比都耶津，承担农业本科与研究生培养及农业科研职能，其校长在部委会议中向联邦部长汇报工作。",
+      "relationship_type": "subsidiary"
+    },
+    {
+      "org_id": "MM-INTL-001",
+      "org_name": "东南亚国家联盟 (Association of Southeast Asian Nations)",
+      "org_type": "INTL",
+      "org_description": "缅甸为东盟成员国，农业部代表缅方参加东盟农林部长会议（AMAF）及东盟粮食安全合作机制，包括东盟与中日韩应急大米储备体系。",
+      "relationship_type": "member_of"
+    },
+    {
+      "org_id": "MM-INTL-002",
+      "org_name": "环孟加拉湾多领域技术暨经济合作倡议 (BIMSTEC)",
+      "org_type": "INTL",
+      "org_description": "缅甸1997年12月加入BIMSTEC（七个成员国之一），并牵头农业与粮食安全以及渔业和畜牧领域的区域合作；2025年4月第三次BIMSTEC农业部长会议在加德满都召开，2026年6月及11月BIMSTEC秘书长两度访缅会见敏瑙。",
+      "relationship_type": "partner"
+    },
+    {
+      "org_id": null,
+      "org_name": "农业与灌溉部（已撤销） (Ministry of Agriculture and Irrigation)",
+      "org_type": "GOV",
+      "org_description": "MOALI前身机构之一，2016-03-30与畜牧、渔业与农村发展部及合作社部合并组建农业、畜牧和灌溉部。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "畜牧、渔业与农村发展部（已撤销） (Ministry of Livestock, Fisheries and Rural Development)",
+      "org_type": "GOV",
+      "org_description": "MOALI前身机构之一，2016-03-30合并组建农业、畜牧和灌溉部，其畜牧与渔业职能现由畜牧养殖与兽医司及渔业司承接。",
+      "relationship_type": "predecessor"
+    },
+    {
+      "org_id": null,
+      "org_name": "合作社部（已撤销） (Ministry of Cooperatives)",
+      "org_type": "GOV",
+      "org_description": "MOALI前身机构之一，2016-03-30合并组建农业、畜牧和灌溉部；其合作社司于2021年6月划归合作社与农村发展部。",
+      "relationship_type": "predecessor"
+    }
+  ],
+  "core_business": "缅甸农业、畜牧和灌溉部（MOALI）是缅甸联邦政府主管农业、畜牧与灌溉事务的核心经济部门，2016年3月30日由农业与灌溉部、畜牧渔业与农村发展部和合作社部三个前部合并组建，总部设于内比都15号及36号办公楼。该部统筹农作物生产与技术推广、农业科研与品种改良、农业土地管理与统计、农业机械化、灌溉与水资源利用管理、畜牧养殖与兽医服务、渔业资源与水产养殖以及乡村小型工业等职能，并主管耶津农业大学和兽医大学两所高校；2021年6月原辖农村发展司与合作社司划归新设的合作社与农村发展部。其政策框架涵盖土地利用与管理、水资源利用与管理、农业融资等领域。缅甸约70%人口为从事农业和畜牧业的农村居民，农业占国内生产总值约23.7%（据《金凤凰报》2025年11月刊载），大米、豆类等农产品为缅甸主要出口品类。当前该部工作重点包括粮食安全保障、厄尔尼诺等气象灾害防范与农资储备，以及在东盟（AMAF机制）、中国（澜湄农业合作）、印度、BIMSTEC（缅甸牵头农业与粮食安全、渔业和畜牧合作）等多双边框架下深化农业合作。",
+  "industries": [
+    "public_administration",
+    "agriculture_food",
+    "fisheries_aquaculture",
+    "water"
+  ],
+  "apec_stance": "缅甸不是APEC成员（APEC现有21个成员经济体，东南亚仅印尼、马来西亚、菲律宾、新加坡、泰国、越南、文莱7个，缅甸未加入）。缅甸主要的区域合作框架为东盟（ASEAN）、BIMSTEC、湄公河合作机制等。",
+  "profile": {
+    "source_url": "https://upload.wikimedia.org/wikipedia/en/c/c0/Seal_of_MOALI_2021.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "local_path": null
+  },
+  "collection_meta": {
+    "collection_date": "2026-11-27",
+    "phase": "phase3_enriched",
+    "data_sources": [
+      "wikidata",
+      "wikipedia",
+      "official_website",
+      "government_registry",
+      "news_search",
+      "web_search"
+    ],
+    "completeness_score": 77,
+    "notes": "Phase3 enrichment 2026-11-28: Wikipedia (EN/ZH) + Myanmar National Portal + GNLM/Xinhua/BIMSTEC/Irrawaddy/缅华网等新闻源交叉验证；moali.gov.mm因Cloudflare 522无法访问；未发现经核实的部级官方社交媒体账号，social_accounts留空；副部长Aung Gyi未见于人名索引，person_id为null。",
+    "quotes": [
+      {
+        "title": "Ministry of Agriculture, Livestock and Irrigation (Myanmar) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ministry_of_Agriculture,_Livestock_and_Irrigation_(Myanmar)"
+      },
+      {
+        "title": "Myanmar steps up measures to mitigate potential El Nino impact - Xinhua",
+        "url": "https://english.news.cn/asiapacific/20261105/36735b9978d242c3ac77f445b1cf3b33/c.html"
+      },
+      {
+        "title": "缅甸与埃及讨论农业与灌溉领域技术交流合作 - 缅华网",
+        "url": "https://www.mhwmm.com/miandianxinwen/86804.html"
+      },
+      {
+        "title": "Myanmar joins AMAF Special Ministers' Meeting on Middle East situation online - Global New Light of Myanmar",
+        "url": "https://www.gnlm.com.mm/myanmar-joins-amaf-special-ministers-meeting-on-middle-east-situation-online/"
+      },
+      {
+        "title": "Min Aung Hlaing Names Cabinet Dominated by Military Figures - The Irrawaddy",
+        "url": "https://www.irrawaddy.com/news/politics/min-aung-hlaing-names-cabinet-dominated-by-military-figures.html"
+      },
+      {
+        "title": "BIMSTEC Secretary General undertakes Farewell visit to Myanmar - BIMSTEC official site",
+        "url": "https://bimstec.org/event/385/bimstec-secretary-general-undertakes-farewell-visit-to-myanmar"
+      },
+      {
+        "title": "Ministry of Agriculture, Livestock and Irrigation - Myanmar National Portal",
+        "url": "https://myanmar.gov.mm/ministry-of-agriculture-livestock-and-irrigation"
+      }
+    ]
+  }
+}
